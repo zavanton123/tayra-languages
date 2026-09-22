@@ -6,6 +6,9 @@ import androidx.navigation.compose.rememberNavController
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.feature.books.booksGraph
 import com.tayra.languages.feature.languages.languagesGraph
+import com.tayra.languages.feature.reading.readingGraph
+import com.tayra.languages.feature.settings.settingsGraph
+import com.tayra.languages.feature.stats.statsGraph
 import com.tayra.languages.feature.terms.termsGraph
 
 @Composable
@@ -15,5 +18,8 @@ fun AppNavHost() {
         booksGraph(navController)
         languagesGraph(navController)
         termsGraph(navController)
+        readingGraph(navController)
+        settingsGraph(navController)
+        statsGraph(navController)
     }
 }
