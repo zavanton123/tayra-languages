@@ -12,6 +12,7 @@ import org.jetbrains.kotlin.gradle.dsl.KotlinMultiplatformExtension
 class KmpFeaturePlugin : Plugin<Project> {
     override fun apply(target: Project) = with(target) {
         pluginManager.apply("tayra.kmp.compose")
+        pluginManager.apply("org.jetbrains.kotlin.plugin.serialization")
 
         extensions.configure<KotlinMultiplatformExtension> {
             sourceSets.commonMain.dependencies {
