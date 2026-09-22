@@ -206,7 +206,11 @@ fun ReadingScreen(
                     handleAction(action)
                 },
         ) {
-            ReadingHeader(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = onHome)
+            if (state.settings.focusMode) {
+                FocusBar(state, viewModel, onMenu = { scope.launch { drawerState.open() } })
+            } else {
+                ReadingHeader(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = onHome)
+            }
             Row(Modifier.weight(1f)) {
                 Box(Modifier.weight(1f).fillMaxHeight()) {
                     ReadingBody(state, viewModel, onHome = onHome, focusText = { runCatching { focusRequester.requestFocus() } })
@@ -356,6 +360,23 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
     }
 }
 
+/** Minimal header shown in focus mode: just the menu, the page position and a way out. */
+@Composable
+private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit) {
+    Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+        IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = "Menu") }
+        Spacer(Modifier.weight(1f))
+        IconButton(onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage) {
+            Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = "Previous page")
+        }
+        Text("${state.pageNumber}/${state.pageCount}", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        IconButton(onClick = { viewModel.goToRelativePage(1) }, enabled = !state.isLastPage) {
+            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = "Next page")
+        }
+        TextButton(onClick = viewModel::toggleFocusMode) { Text("Exit focus") }
+    }
+}
+
 @Composable
 private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, focusText: () -> Unit) {
     val theme = TayraTheme.current
@@ -390,7 +411,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
     LaunchedEffect(state.pageNumber) { scrollState.scrollTo(0) }
     Column(Modifier.fillMaxSize().verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
         Column(Modifier.widthIn(max = state.settings.readingColumnWidth.dp).padding(horizontal = 16.dp, vertical = 12.dp)) {
-            if (state.pageNumber == 1) {
+            if (state.pageNumber == 1 && !state.settings.focusMode) {
                 Text(
                     state.book?.title.orEmpty(),
                     style = MaterialTheme.typography.headlineSmall.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
@@ -414,7 +435,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
             if (state.selection != null) {
                 Text("Long-press the last word of the expression, or tap to cancel.", style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
-            ReadingFooter(state, viewModel, onHome)
+            if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome)
             Spacer(Modifier.height(120.dp))
         }
     }
