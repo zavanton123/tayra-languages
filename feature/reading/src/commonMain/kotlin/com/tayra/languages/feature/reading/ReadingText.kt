@@ -75,7 +75,6 @@ fun ReadingText(
     callbacks: ReadingTextCallbacks,
     modifier: Modifier = Modifier,
 ) {
-    val itemsByIndex = remember(page) { page.items }
     var itemOffset = 0
     Column(modifier) {
         page.paragraphs.forEach { paragraph ->
@@ -85,7 +84,6 @@ fun ReadingText(
             ParagraphText(
                 items = paragraphItems,
                 firstItemIndex = first,
-                allItems = itemsByIndex,
                 theme = theme,
                 showHighlights = showHighlights,
                 marked = marked,
@@ -105,7 +103,6 @@ fun ReadingText(
 private fun ParagraphText(
     items: List<TextItem>,
     firstItemIndex: Int,
-    allItems: List<TextItem>,
     theme: AppTheme,
     showHighlights: Boolean,
     marked: Set<Int>,
@@ -120,7 +117,7 @@ private fun ParagraphText(
     val spans = remember(items) { mutableListOf<Span>() }
     val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex) {
         spans.clear()
-        buildParagraph(items, firstItemIndex, allItems, theme, showHighlights, marked, hovered, selection, spans)
+        buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans)
     }
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
 
@@ -217,7 +214,6 @@ private fun ParagraphText(
 private fun buildParagraph(
     items: List<TextItem>,
     firstItemIndex: Int,
-    allItems: List<TextItem>,
     theme: AppTheme,
     showHighlights: Boolean,
     marked: Set<Int>,
@@ -254,5 +250,4 @@ private fun buildParagraph(
         }
         spans.add(Span(start, length, itemIndex))
     }
-    @Suppress("UNUSED_VARIABLE") val unused = allItems
 }

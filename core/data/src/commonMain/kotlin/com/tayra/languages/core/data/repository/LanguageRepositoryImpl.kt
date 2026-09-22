@@ -14,7 +14,6 @@ import com.tayra.languages.core.domain.model.LanguageSummary
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 
 class LanguageRepositoryImpl(private val provider: DatabaseProvider) : LanguageRepository {
@@ -23,15 +22,9 @@ class LanguageRepositoryImpl(private val provider: DatabaseProvider) : LanguageR
 
     override fun observeAll(): Flow<List<Language>> = flow {
         val database = db()
-        emitAll(
-            database.languagesQueries.selectAll().asFlow().mapToList(databaseDispatcher).map { rows ->
-                withDictionaries(database, rows)
-            },
-        )
-    }
-
-    private suspend fun kotlinx.coroutines.flow.FlowCollector<List<Language>>.emitAll(flow: Flow<List<Language>>) {
-        flow.collect { emit(it) }
+        database.languagesQueries.selectAll().asFlow().mapToList(databaseDispatcher).collect { rows ->
+            emit(withDictionaries(database, rows))
+        }
     }
 
     override fun observeSummaries(): Flow<List<LanguageSummary>> = flow {

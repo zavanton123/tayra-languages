@@ -276,9 +276,6 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
             OutlinedButton(onClick = { viewModel.adjustColumnWidth(80) }) { Text("↔+") }
         }
         HorizontalDivider(Modifier.padding(vertical = 4.dp))
-        fun item(label: String, action: () -> Unit) {
-            // helper for terse menu declarations below
-        }
         val entries = buildList<Pair<String, () -> Unit>> {
             if (!state.book?.sourceUri.isNullOrBlank()) add("Show source URL" to actions.onSource)
             add("Edit current page" to actions.onEditPage)
@@ -296,7 +293,6 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         entries.forEach { (label, action) ->
             NavigationDrawerItem(label = { Text(label) }, selected = false, onClick = { onClose(); action() })
         }
-        @Suppress("UNUSED_VARIABLE") val unused = ::item
     }
 }
 
