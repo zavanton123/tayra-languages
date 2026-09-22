@@ -117,7 +117,12 @@ fun ReadingScreen(
             ReadingEvent.BookArchived -> onHome()
         }
     }
-    LaunchedEffect(state.loading) { if (!state.loading) runCatching { focusRequester.requestFocus() } }
+    LaunchedEffect(state.loading, state.panel) {
+        if (!state.loading && state.panel == ReadingPanel.None) {
+            panelFocused = false
+            runCatching { focusRequester.requestFocus() }
+        }
+    }
 
     val hotkeys = state.settings.hotkeys
     val rtl = state.language?.rightToLeft == true
