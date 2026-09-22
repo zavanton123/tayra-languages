@@ -1,0 +1,74 @@
+CREATE TABLE languages (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL UNIQUE,
+    character_substitutions TEXT NOT NULL,
+    regexp_split_sentences TEXT NOT NULL,
+    exceptions_split_sentences TEXT NOT NULL,
+    word_characters TEXT NOT NULL,
+    right_to_left INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
+    show_romanization INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
+    parser_type TEXT NOT NULL DEFAULT 'spacedel'
+);
+
+CREATE TABLE language_dictionaries (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    use_for TEXT NOT NULL,
+    dict_type TEXT NOT NULL,
+    url TEXT NOT NULL,
+    is_active INTEGER AS kotlin.Boolean NOT NULL DEFAULT 1,
+    sort_order INTEGER NOT NULL
+);
+
+CREATE INDEX language_dictionaries_language ON language_dictionaries(language_id);
+
+selectAll:
+SELECT * FROM languages ORDER BY name;
+
+selectById:
+SELECT * FROM languages WHERE id = :id;
+
+selectByName:
+SELECT * FROM languages WHERE lower(name) = lower(:name);
+
+selectDictionaries:
+SELECT * FROM language_dictionaries WHERE language_id IN :languageIds ORDER BY sort_order;
+
+insert:
+INSERT INTO languages(name, character_substitutions, regexp_split_sentences, exceptions_split_sentences, word_characters, right_to_left, show_romanization, parser_type)
+VALUES (:name, :characterSubstitutions, :regexpSplitSentences, :exceptionsSplitSentences, :wordCharacters, :rightToLeft, :showRomanization, :parserType);
+
+update:
+UPDATE languages SET
+    name = :name,
+    character_substitutions = :characterSubstitutions,
+    regexp_split_sentences = :regexpSplitSentences,
+    exceptions_split_sentences = :exceptionsSplitSentences,
+    word_characters = :wordCharacters,
+    right_to_left = :rightToLeft,
+    show_romanization = :showRomanization,
+    parser_type = :parserType
+WHERE id = :id;
+
+delete:
+DELETE FROM languages WHERE id = :id;
+
+deleteDictionaries:
+DELETE FROM language_dictionaries WHERE language_id = :languageId;
+
+insertDictionary:
+INSERT INTO language_dictionaries(language_id, use_for, dict_type, url, is_active, sort_order)
+VALUES (:languageId, :useFor, :dictType, :url, :isActive, :sortOrder);
+
+lastInsertId:
+SELECT last_insert_rowid();
+
+countLanguages:
+SELECT count(*) FROM languages;
+
+summaries:
+SELECT l.id, l.name,
+    (SELECT count(*) FROM books b WHERE b.language_id = l.id) AS book_count,
+    (SELECT count(*) FROM terms t WHERE t.language_id = l.id AND t.status != 0) AS term_count
+FROM languages l
+ORDER BY l.name;
