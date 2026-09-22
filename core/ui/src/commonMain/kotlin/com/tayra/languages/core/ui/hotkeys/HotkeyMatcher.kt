@@ -7,6 +7,7 @@ import androidx.compose.ui.input.key.isCtrlPressed
 import androidx.compose.ui.input.key.isMetaPressed
 import androidx.compose.ui.input.key.isShiftPressed
 import androidx.compose.ui.input.key.key
+import androidx.compose.ui.input.key.utf16CodePoint
 import com.tayra.languages.core.domain.settings.Hotkey
 
 /** Maps Compose key events to the platform-neutral [Hotkey] representation. */
@@ -28,6 +29,13 @@ object HotkeyMatcher {
         put(Key.Grave, "`")
     }
 
+    /** Falls back to the typed character for platforms whose key codes are not in the table. */
+    private fun nameFromCodePoint(codePoint: Int): String? {
+        if (codePoint <= 0x20 || codePoint > 0x7E) return null
+        val ch = codePoint.toChar().uppercaseChar()
+        return if (ch.isLetterOrDigit() || ch in ",.-=/;'[]\\`") ch.toString() else null
+    }
+
     private fun keyForLetter(c: Char): Key = when (c) {
         'A' -> Key.A; 'B' -> Key.B; 'C' -> Key.C; 'D' -> Key.D; 'E' -> Key.E; 'F' -> Key.F; 'G' -> Key.G
         'H' -> Key.H; 'I' -> Key.I; 'J' -> Key.J; 'K' -> Key.K; 'L' -> Key.L; 'M' -> Key.M; 'N' -> Key.N
@@ -37,7 +45,7 @@ object HotkeyMatcher {
 
     /** The hotkey for a key event, or null for modifier-only presses and unknown keys. */
     fun fromEvent(event: KeyEvent): Hotkey? {
-        val name = namedKeys[event.key] ?: return null
+        val name = namedKeys[event.key] ?: nameFromCodePoint(event.utf16CodePoint) ?: return null
         return Hotkey(
             key = name,
             shift = event.isShiftPressed,
