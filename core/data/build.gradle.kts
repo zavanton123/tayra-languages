@@ -54,6 +54,7 @@ kotlin {
         }
         jvmTest.dependencies {
             implementation(libs.sqldelight.sqlite.driver)
+            implementation(libs.ktor.client.mock)
             implementation(libs.multiplatform.settings.test)
         }
     }

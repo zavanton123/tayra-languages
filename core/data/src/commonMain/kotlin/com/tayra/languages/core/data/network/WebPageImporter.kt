@@ -47,6 +47,9 @@ object HtmlText {
         return blockTags.findAll(stripped).map { clean(it.groupValues[2]) }.filter { it.isNotEmpty() }.toList()
     }
 
+    /** Strips tags and entities from an HTML fragment, collapsing whitespace. */
+    fun toPlainText(fragment: String): String = clean(fragment)
+
     private fun clean(fragment: String): String = decodeEntities(tags.replace(fragment, " ")).replace(whitespace, " ").trim()
 
     private fun decodeEntities(text: String): String = text
