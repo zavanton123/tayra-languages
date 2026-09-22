@@ -3,6 +3,7 @@ package com.tayra.languages.core.data.di
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.network.WebPageImporter
+import com.tayra.languages.core.data.network.WiktionaryTranslationProvider
 import com.tayra.languages.core.data.network.createHttpClient
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.DatabaseMaintenanceImpl
@@ -24,6 +25,7 @@ import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.domain.service.TermImportService
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import org.koin.core.module.Module
 import org.koin.dsl.module
@@ -44,6 +46,7 @@ val dataModule: Module = module {
 
     single { createHttpClient() }
     single { WebPageImporter(get()) }
+    single<TermTranslationProvider> { WiktionaryTranslationProvider(get()) }
 
     single { TermService(get(), get()) }
     single { ReadingService(get(), get(), get(), get(), get()) }

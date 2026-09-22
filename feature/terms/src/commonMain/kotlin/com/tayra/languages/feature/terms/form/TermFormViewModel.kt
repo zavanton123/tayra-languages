@@ -11,6 +11,7 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.repository.TermRepository
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.TermValidationException
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.state.UiEvents
@@ -42,6 +43,8 @@ data class TermFormUiState(
     val duplicateOf: Term? = null,
     val saving: Boolean = false,
     val dirty: Boolean = false,
+    val lookingUpTranslation: Boolean = false,
+    val translationSuggested: Boolean = false,
 ) {
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
     val isNew: Boolean get() = draft.isNew
@@ -60,6 +63,7 @@ class TermFormViewModel(
     private val terms: TermRepository,
     private val languages: LanguageRepository,
     private val settings: SettingsRepository,
+    private val translationProvider: TermTranslationProvider,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(TermFormUiState())
@@ -91,10 +95,30 @@ class TermFormViewModel(
         // Opening the form acknowledges any flash message.
         draft.id?.let { terms.clearFlashMessage(it) }
         _state.update { it.copy(loading = false, draft = draft, languages = languageList, tagSuggestions = tags) }
+        if (draft.translation.isBlank()) suggestTranslation(draft.text, languageList.firstOrNull { it.id == draft.languageId })
+    }
+
+    /** Fills an empty translation with a dictionary gloss; never overwrites what the user typed. */
+    private fun suggestTranslation(text: String, language: Language?) {
+        if (language == null || text.isBlank()) return
+        _state.update { it.copy(lookingUpTranslation = true) }
+        viewModelScope.launch {
+            val suggestion = translationProvider.suggestTranslation(text, language)
+            _state.update { s ->
+                if (suggestion != null && s.draft.translation.isBlank()) {
+                    s.copy(lookingUpTranslation = false, translationSuggested = true, draft = s.draft.copy(translation = suggestion))
+                } else {
+                    s.copy(lookingUpTranslation = false)
+                }
+            }
+        }
     }
 
     fun update(transform: (TermDraft) -> TermDraft) {
-        _state.update { it.copy(draft = transform(it.draft), error = null, duplicateOf = null, dirty = true) }
+        _state.update {
+            val draft = transform(it.draft)
+            it.copy(draft = draft, error = null, duplicateOf = null, dirty = true, translationSuggested = it.translationSuggested && draft.translation == it.draft.translation)
+        }
     }
 
     fun setStatus(status: TermStatus) = update { it.copy(status = status, statusExplicitlySet = true) }

@@ -19,7 +19,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val termsModule = module {
-    viewModel { (key: TermFormKey) -> TermFormViewModel(key, get(), get(), get(), get()) }
+    viewModel { (key: TermFormKey) -> TermFormViewModel(key, get(), get(), get(), get(), get()) }
     viewModel { (termIds: List<Long>?) -> TermsListViewModel(termIds, get(), get(), get(), get()) }
     viewModel { TermTagsViewModel(get()) }
     viewModel { TermImportViewModel(get()) }
