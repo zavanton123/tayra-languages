@@ -82,7 +82,7 @@ SELECT
     (SELECT COALESCE(sum(word_count), 0) FROM pages p WHERE p.book_id = b.id) AS word_count,
     (SELECT max(start_date) FROM pages p WHERE p.book_id = b.id) AS last_opened,
     (SELECT read_date FROM pages p WHERE p.book_id = b.id ORDER BY page_order DESC LIMIT 1) AS last_page_read_date,
-    (SELECT group_concat(t.text, '|') FROM (SELECT bt.text FROM book_tag_map m INNER JOIN book_tags bt ON bt.id = m.tag_id WHERE m.book_id = b.id ORDER BY bt.text) t) AS tag_list,
+    COALESCE((SELECT group_concat(t.text, '|') FROM (SELECT bt.text FROM book_tag_map m INNER JOIN book_tags bt ON bt.id = m.tag_id WHERE m.book_id = b.id ORDER BY bt.text) t), '') AS tag_list,
     s.distinct_terms,
     s.distinct_unknowns,
     s.unknown_percent,
