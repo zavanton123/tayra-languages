@@ -30,6 +30,7 @@ dependencyResolutionManagement {
     }
 }
 
+include(":core:domain")
 include(":shared")
 include(":androidApp")
 include(":desktopApp")
