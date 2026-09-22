@@ -13,8 +13,12 @@ kotlin {
 
     sourceSets {
         commonMain.dependencies {
+            api(projects.core.domain)
+            api(projects.core.data)
+            api(projects.core.ui)
+            implementation(projects.feature.languages)
             implementation(libs.jetbrains.navigation.compose)
-            implementation(libs.koin.core)
+            api(libs.koin.core)
             implementation(libs.koin.compose)
             implementation(libs.koin.compose.viewmodel)
             implementation(libs.kotlinx.coroutines.core)
