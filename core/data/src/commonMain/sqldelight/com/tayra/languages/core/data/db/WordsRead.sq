@@ -1,0 +1,15 @@
+CREATE TABLE words_read (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    page_id INTEGER REFERENCES pages(id) ON DELETE SET NULL,
+    read_at INTEGER NOT NULL,
+    word_count INTEGER NOT NULL
+);
+
+insert:
+INSERT INTO words_read(language_id, page_id, read_at, word_count) VALUES (:languageId, :pageId, :readAt, :wordCount);
+
+selectAllWithLanguage:
+SELECT w.read_at, w.word_count, l.name AS language_name
+FROM words_read w INNER JOIN languages l ON l.id = w.language_id
+ORDER BY w.read_at;

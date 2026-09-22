@@ -1,0 +1,215 @@
+CREATE TABLE books (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    source_uri TEXT,
+    current_page_id INTEGER,
+    archived INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
+    audio_filename TEXT,
+    audio_current_pos REAL,
+    audio_bookmarks TEXT
+);
+
+CREATE INDEX books_language ON books(language_id);
+
+CREATE TABLE book_tags (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    text TEXT NOT NULL UNIQUE,
+    comment TEXT NOT NULL DEFAULT ''
+);
+
+CREATE TABLE book_tag_map (
+    book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    tag_id INTEGER NOT NULL REFERENCES book_tags(id) ON DELETE CASCADE,
+    PRIMARY KEY (book_id, tag_id)
+);
+
+CREATE TABLE pages (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE,
+    page_order INTEGER NOT NULL,
+    text TEXT NOT NULL,
+    word_count INTEGER NOT NULL DEFAULT 0,
+    start_date INTEGER,
+    read_date INTEGER
+);
+
+CREATE INDEX pages_book ON pages(book_id);
+
+CREATE TABLE sentences (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    page_id INTEGER NOT NULL REFERENCES pages(id) ON DELETE CASCADE,
+    sentence_order INTEGER NOT NULL,
+    text TEXT NOT NULL,
+    text_lc TEXT NOT NULL
+);
+
+CREATE INDEX sentences_page ON sentences(page_id);
+
+CREATE TABLE page_bookmarks (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    page_id INTEGER NOT NULL REFERENCES pages(id) ON DELETE CASCADE,
+    title TEXT NOT NULL
+);
+
+CREATE TABLE book_stats (
+    book_id INTEGER NOT NULL PRIMARY KEY REFERENCES books(id) ON DELETE CASCADE,
+    distinct_terms INTEGER NOT NULL,
+    distinct_unknowns INTEGER NOT NULL,
+    unknown_percent INTEGER NOT NULL,
+    status_distribution TEXT NOT NULL
+);
+
+selectById:
+SELECT * FROM books WHERE id = :id;
+
+selectAll:
+SELECT * FROM books ORDER BY title;
+
+selectByTitle:
+SELECT * FROM books WHERE title = :title AND language_id = :languageId;
+
+listBooks:
+SELECT
+    b.id,
+    b.title,
+    b.language_id,
+    l.name AS language_name,
+    b.source_uri,
+    b.archived,
+    COALESCE((SELECT page_order FROM pages WHERE id = b.current_page_id), 1) AS current_page,
+    (SELECT count(*) FROM pages p WHERE p.book_id = b.id) AS page_count,
+    (SELECT COALESCE(sum(word_count), 0) FROM pages p WHERE p.book_id = b.id) AS word_count,
+    (SELECT max(start_date) FROM pages p WHERE p.book_id = b.id) AS last_opened,
+    (SELECT read_date FROM pages p WHERE p.book_id = b.id ORDER BY page_order DESC LIMIT 1) AS last_page_read_date,
+    (SELECT group_concat(t.text, '|') FROM (SELECT bt.text FROM book_tag_map m INNER JOIN book_tags bt ON bt.id = m.tag_id WHERE m.book_id = b.id ORDER BY bt.text) t) AS tag_list,
+    s.distinct_terms,
+    s.distinct_unknowns,
+    s.unknown_percent,
+    s.status_distribution
+FROM books b
+INNER JOIN languages l ON l.id = b.language_id
+LEFT OUTER JOIN book_stats s ON s.book_id = b.id
+WHERE b.archived = :archived
+ORDER BY last_opened DESC, b.title;
+
+insert:
+INSERT INTO books(language_id, title, source_uri, current_page_id, archived, audio_filename, audio_current_pos, audio_bookmarks)
+VALUES (:languageId, :title, :sourceUri, :currentPageId, :archived, :audioFilename, :audioCurrentPos, :audioBookmarks);
+
+update:
+UPDATE books SET
+    title = :title,
+    source_uri = :sourceUri,
+    audio_filename = :audioFilename,
+    audio_current_pos = :audioCurrentPos,
+    audio_bookmarks = :audioBookmarks
+WHERE id = :id;
+
+setArchived:
+UPDATE books SET archived = :archived WHERE id = :id;
+
+setCurrentPage:
+UPDATE books SET current_page_id = :pageId WHERE id = :id;
+
+delete:
+DELETE FROM books WHERE id = :id;
+
+lastInsertId:
+SELECT last_insert_rowid();
+
+-- Tags
+
+selectAllTags:
+SELECT * FROM book_tags ORDER BY text;
+
+selectTagByText:
+SELECT * FROM book_tags WHERE text = :text;
+
+insertTag:
+INSERT INTO book_tags(text, comment) VALUES (:text, :comment);
+
+selectTagsForBook:
+SELECT bt.* FROM book_tag_map m INNER JOIN book_tags bt ON bt.id = m.tag_id WHERE m.book_id = :bookId ORDER BY bt.text;
+
+deleteTagMap:
+DELETE FROM book_tag_map WHERE book_id = :bookId;
+
+insertTagMap:
+INSERT OR IGNORE INTO book_tag_map(book_id, tag_id) VALUES (:bookId, :tagId);
+
+-- Pages
+
+selectPages:
+SELECT * FROM pages WHERE book_id = :bookId ORDER BY page_order;
+
+selectPage:
+SELECT * FROM pages WHERE book_id = :bookId AND page_order = :pageOrder;
+
+selectPageById:
+SELECT * FROM pages WHERE id = :id;
+
+countPages:
+SELECT count(*) FROM pages WHERE book_id = :bookId;
+
+insertPage:
+INSERT INTO pages(book_id, page_order, text, word_count) VALUES (:bookId, :pageOrder, :text, :wordCount);
+
+shiftPagesFrom:
+UPDATE pages SET page_order = page_order + 1 WHERE book_id = :bookId AND page_order >= :fromOrder;
+
+shiftPagesDownAfter:
+UPDATE pages SET page_order = page_order - 1 WHERE book_id = :bookId AND page_order > :afterOrder;
+
+updatePageText:
+UPDATE pages SET text = :text, word_count = :wordCount WHERE id = :id;
+
+deletePage:
+DELETE FROM pages WHERE id = :id;
+
+setPageStartDate:
+UPDATE pages SET start_date = :startDate WHERE id = :id;
+
+setPageReadDate:
+UPDATE pages SET read_date = :readDate WHERE id = :id;
+
+-- Sentences
+
+deleteSentences:
+DELETE FROM sentences WHERE page_id = :pageId;
+
+insertSentence:
+INSERT INTO sentences(page_id, sentence_order, text, text_lc) VALUES (:pageId, :sentenceOrder, :text, :textLc);
+
+-- Stats
+
+selectStats:
+SELECT * FROM book_stats WHERE book_id = :bookId;
+
+upsertStats:
+INSERT OR REPLACE INTO book_stats(book_id, distinct_terms, distinct_unknowns, unknown_percent, status_distribution)
+VALUES (:bookId, :distinctTerms, :distinctUnknowns, :unknownPercent, :statusDistribution);
+
+deleteStats:
+DELETE FROM book_stats WHERE book_id = :bookId;
+
+bookIdsWithoutStats:
+SELECT b.id FROM books b LEFT OUTER JOIN book_stats s ON s.book_id = b.id WHERE s.book_id IS NULL;
+
+-- Bookmarks
+
+selectBookmarks:
+SELECT pb.id, pb.page_id, p.page_order, pb.title
+FROM page_bookmarks pb
+INNER JOIN pages p ON p.id = pb.page_id
+WHERE p.book_id = :bookId
+ORDER BY p.page_order, pb.id;
+
+insertBookmark:
+INSERT INTO page_bookmarks(page_id, title) VALUES (:pageId, :title);
+
+renameBookmark:
+UPDATE page_bookmarks SET title = :title WHERE id = :id;
+
+deleteBookmark:
+DELETE FROM page_bookmarks WHERE id = :id;

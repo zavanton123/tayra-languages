@@ -1,0 +1,207 @@
+CREATE TABLE terms (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    text TEXT NOT NULL,
+    text_lc TEXT NOT NULL,
+    status INTEGER NOT NULL,
+    translation TEXT,
+    romanization TEXT,
+    token_count INTEGER NOT NULL DEFAULT 1,
+    sync_status INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
+    image_source TEXT,
+    flash_message TEXT,
+    created_at INTEGER NOT NULL,
+    status_changed_at INTEGER NOT NULL
+);
+
+CREATE UNIQUE INDEX terms_text_lc_language ON terms(text_lc, language_id);
+CREATE INDEX terms_language ON terms(language_id);
+CREATE INDEX terms_status ON terms(status);
+CREATE INDEX terms_token_count ON terms(token_count);
+
+CREATE TABLE term_tags (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    text TEXT NOT NULL UNIQUE,
+    comment TEXT NOT NULL DEFAULT ''
+);
+
+CREATE TABLE term_tag_map (
+    term_id INTEGER NOT NULL REFERENCES terms(id) ON DELETE CASCADE,
+    tag_id INTEGER NOT NULL REFERENCES term_tags(id) ON DELETE CASCADE,
+    PRIMARY KEY (term_id, tag_id)
+);
+
+CREATE TABLE term_parents (
+    term_id INTEGER NOT NULL REFERENCES terms(id) ON DELETE CASCADE,
+    parent_id INTEGER NOT NULL REFERENCES terms(id) ON DELETE CASCADE,
+    PRIMARY KEY (term_id, parent_id)
+);
+
+CREATE INDEX term_parents_parent ON term_parents(parent_id);
+
+selectById:
+SELECT * FROM terms WHERE id = :id;
+
+selectByIds:
+SELECT * FROM terms WHERE id IN :ids;
+
+selectByTextLc:
+SELECT * FROM terms WHERE language_id = :languageId AND text_lc = :textLc;
+
+selectByTextLcs:
+SELECT * FROM terms WHERE language_id = :languageId AND text_lc IN :textLcs;
+
+selectMultiword:
+SELECT id, text_lc, token_count FROM terms WHERE language_id = :languageId AND token_count > 1;
+
+insert:
+INSERT INTO terms(language_id, text, text_lc, status, translation, romanization, token_count, sync_status, image_source, flash_message, created_at, status_changed_at)
+VALUES (:languageId, :text, :textLc, :status, :translation, :romanization, :tokenCount, :syncStatus, :imageSource, :flashMessage, :createdAt, :statusChangedAt);
+
+update:
+UPDATE terms SET
+    text = :text,
+    text_lc = :textLc,
+    status = :status,
+    translation = :translation,
+    romanization = :romanization,
+    token_count = :tokenCount,
+    sync_status = :syncStatus,
+    image_source = :imageSource,
+    flash_message = :flashMessage
+WHERE id = :id;
+
+updateStatus:
+UPDATE terms SET status = :status, status_changed_at = :changedAt,
+    created_at = CASE WHEN status = 0 AND :status != 0 THEN :changedAt ELSE created_at END
+WHERE id IN :ids AND status != :status;
+
+updateSyncStatus:
+UPDATE terms SET sync_status = :syncStatus WHERE id = :id;
+
+clearFlashMessage:
+UPDATE terms SET flash_message = NULL WHERE id = :id;
+
+delete:
+DELETE FROM terms WHERE id = :id;
+
+deleteByIds:
+DELETE FROM terms WHERE id IN :ids;
+
+lastInsertId:
+SELECT last_insert_rowid();
+
+-- Parents
+
+selectParents:
+SELECT t.* FROM term_parents tp INNER JOIN terms t ON t.id = tp.parent_id WHERE tp.term_id = :termId ORDER BY t.text_lc;
+
+selectParentsForTerms:
+SELECT tp.term_id, t.id, t.text, t.status, t.translation
+FROM term_parents tp INNER JOIN terms t ON t.id = tp.parent_id
+WHERE tp.term_id IN :termIds ORDER BY t.text_lc;
+
+selectChildren:
+SELECT t.* FROM term_parents tp INNER JOIN terms t ON t.id = tp.term_id WHERE tp.parent_id = :parentId ORDER BY t.text_lc;
+
+deleteParents:
+DELETE FROM term_parents WHERE term_id = :termId;
+
+insertParent:
+INSERT OR IGNORE INTO term_parents(term_id, parent_id) VALUES (:termId, :parentId);
+
+-- Orphaned children can no longer follow a parent.
+clearSyncStatusForOrphans:
+UPDATE terms SET sync_status = 0 WHERE sync_status = 1 AND id NOT IN (SELECT term_id FROM term_parents);
+
+-- Tags
+
+selectAllTags:
+SELECT * FROM term_tags ORDER BY text;
+
+selectTagById:
+SELECT * FROM term_tags WHERE id = :id;
+
+selectTagByText:
+SELECT * FROM term_tags WHERE text = :text;
+
+insertTag:
+INSERT INTO term_tags(text, comment) VALUES (:text, :comment);
+
+updateTag:
+UPDATE term_tags SET text = :text, comment = :comment WHERE id = :id;
+
+deleteTag:
+DELETE FROM term_tags WHERE id = :id;
+
+selectTagsForTerms:
+SELECT m.term_id, tt.text FROM term_tag_map m INNER JOIN term_tags tt ON tt.id = m.tag_id WHERE m.term_id IN :termIds ORDER BY tt.text;
+
+deleteTagMap:
+DELETE FROM term_tag_map WHERE term_id = :termId;
+
+insertTagMap:
+INSERT OR IGNORE INTO term_tag_map(term_id, tag_id) VALUES (:termId, :tagId);
+
+-- Search
+
+search:
+SELECT t.id, t.text, t.translation, t.status,
+    CASE WHEN EXISTS (SELECT 1 FROM term_parents tp WHERE tp.parent_id = t.id) THEN 1 ELSE 0 END AS has_children,
+    CASE WHEN t.text_lc = :textLc THEN 2 WHEN t.text_lc LIKE :startsWith THEN 1 ELSE 0 END AS starts_with
+FROM terms t
+WHERE t.language_id = :languageId AND t.text_lc LIKE :wildcard
+ORDER BY starts_with DESC, has_children DESC, t.text_lc
+LIMIT :limit;
+
+-- Listing
+
+listTerms:
+SELECT t.*, l.name AS language_name
+FROM terms t
+INNER JOIN languages l ON l.id = t.language_id
+WHERE (:languageId IS NULL OR t.language_id = :languageId)
+  AND (:search = '' OR t.text_lc LIKE :search OR lower(COALESCE(t.translation, '')) LIKE :search)
+  AND (:parentsOnly = 0 OR NOT EXISTS (SELECT 1 FROM term_parents tp WHERE tp.term_id = t.id))
+  AND ((t.status BETWEEN :minStatus AND :maxStatus AND t.status != 98) OR (:includeIgnored = 1 AND t.status = 98))
+  AND (:minCreated IS NULL OR t.created_at <= :minCreated)
+  AND (:maxCreated IS NULL OR t.created_at >= :maxCreated)
+  AND (:filterIds = 0 OR t.id IN :ids OR t.id IN (SELECT parent_id FROM term_parents WHERE term_id IN :ids))
+ORDER BY
+    CASE WHEN :sort = 'text_asc' THEN t.text_lc END ASC,
+    CASE WHEN :sort = 'text_desc' THEN t.text_lc END DESC,
+    CASE WHEN :sort = 'status_asc' THEN t.status END ASC,
+    CASE WHEN :sort = 'status_desc' THEN t.status END DESC,
+    CASE WHEN :sort = 'created_asc' THEN t.created_at END ASC,
+    CASE WHEN :sort = 'created_desc' THEN t.created_at END DESC,
+    CASE WHEN :sort = 'language_asc' THEN l.name END ASC,
+    CASE WHEN :sort = 'language_desc' THEN l.name END DESC,
+    t.id DESC
+LIMIT :limit OFFSET :offset;
+
+countTerms:
+SELECT count(*)
+FROM terms t
+INNER JOIN languages l ON l.id = t.language_id
+WHERE (:languageId IS NULL OR t.language_id = :languageId)
+  AND (:search = '' OR t.text_lc LIKE :search OR lower(COALESCE(t.translation, '')) LIKE :search)
+  AND (:parentsOnly = 0 OR NOT EXISTS (SELECT 1 FROM term_parents tp WHERE tp.term_id = t.id))
+  AND ((t.status BETWEEN :minStatus AND :maxStatus AND t.status != 98) OR (:includeIgnored = 1 AND t.status = 98))
+  AND (:minCreated IS NULL OR t.created_at <= :minCreated)
+  AND (:maxCreated IS NULL OR t.created_at >= :maxCreated)
+  AND (:filterIds = 0 OR t.id IN :ids OR t.id IN (SELECT parent_id FROM term_parents WHERE term_id IN :ids));
+
+-- References: sentences containing the term.
+
+references:
+SELECT DISTINCT b.id AS book_id, p.id AS page_id, p.page_order, b.title, s.text,
+    (SELECT count(*) FROM pages pc WHERE pc.book_id = b.id) AS page_count,
+    p.read_date
+FROM sentences s
+INNER JOIN pages p ON p.id = s.page_id
+INNER JOIN books b ON b.id = p.book_id
+WHERE (:onlyRead = 0 OR p.read_date IS NOT NULL)
+  AND b.language_id = :languageId
+  AND s.text_lc LIKE :pattern
+ORDER BY p.read_date DESC, p.id DESC
+LIMIT :limit;
