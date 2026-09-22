@@ -274,7 +274,7 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
         title = title,
         languageId = language_id,
         languageName = language_name,
-        tags = tag_list?.split("|")?.filter { it.isNotEmpty() } ?: emptyList(),
+        tags = tag_list.split("|").filter { it.isNotEmpty() },
         currentPage = current_page.toInt(),
         pageCount = page_count.toInt(),
         wordCount = word_count.toInt(),

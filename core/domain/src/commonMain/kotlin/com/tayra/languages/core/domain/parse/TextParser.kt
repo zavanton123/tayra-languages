@@ -40,7 +40,7 @@ internal fun applyCharacterSubstitutions(text: String, substitutions: String): S
  * these to the `\u0600` form understood by all Kotlin regex engines.
  */
 internal fun normalizeRegexEscapes(pattern: String): String =
-    Regex("""\\x\{([0-9A-Fa-f]+)}""").replace(pattern) { match ->
+    Regex("""\\x\{([0-9A-Fa-f]+)\}""").replace(pattern) { match ->
         val hex = match.groupValues[1].padStart(4, '0')
         "\\u$hex"
     }

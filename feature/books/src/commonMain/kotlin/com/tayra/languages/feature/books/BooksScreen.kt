@@ -3,6 +3,8 @@ package com.tayra.languages.feature.books
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -168,12 +170,13 @@ fun BooksScreen(
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun DemoNotice(tutorialBookId: Long?, onOpenTutorial: (Long) -> Unit, onWipe: () -> Unit, onDismiss: () -> Unit) {
     Card(Modifier.fillMaxWidth().padding(16.dp)) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text("The database has been loaded with a brief tutorial and some languages and short texts for you to try out.")
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 if (tutorialBookId != null) Button(onClick = { onOpenTutorial(tutorialBookId) }) { Text("Open the tutorial") }
                 TextButton(onClick = onWipe) { Text("Clear database") }
                 TextButton(onClick = onDismiss) { Text("Dismiss") }
