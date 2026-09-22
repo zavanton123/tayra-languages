@@ -150,7 +150,7 @@ private fun ParagraphText(
                         while (true) {
                             val event = awaitPointerEvent(PointerEventPass.Initial)
                             when (event.type) {
-                                PointerEventType.Move -> if (event.changes.firstOrNull()?.type == PointerType.Mouse) {
+                                PointerEventType.Move, PointerEventType.Enter -> if (event.changes.firstOrNull()?.type == PointerType.Mouse) {
                                     callbacks.onHover(itemAt(event.changes.first().position))
                                 }
                                 PointerEventType.Exit -> callbacks.onHover(null)
