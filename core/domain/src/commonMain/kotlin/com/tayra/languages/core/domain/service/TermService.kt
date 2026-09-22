@@ -197,8 +197,6 @@ class TermService(
         val languageIds = targets.map { it.languageId }.distinct()
         if (languageIds.size > 1) throw TermValidationException("Terms are not all in the same language")
         val languageId = languageIds.firstOrNull() ?: return
-        val language = language(languageId)
-
         var parent: Term? = update.parentId?.let { terms.getById(it) }
         if (parent == null && !update.parentText.isNullOrBlank()) {
             val draft = findOrNew(languageId, update.parentText)
@@ -224,7 +222,6 @@ class TermService(
             terms.setParents(term.id, parentIds)
             if (term.status != target.status) setStatus(listOf(term.id), term.status)
         }
-        @Suppress("UNUSED_VARIABLE") val unused = language
     }
 
     suspend fun search(languageId: Long, text: String, limit: Int = 50): List<TermMatch> {

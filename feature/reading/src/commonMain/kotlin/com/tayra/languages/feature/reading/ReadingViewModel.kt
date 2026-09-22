@@ -4,7 +4,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.domain.model.Book
-import com.tayra.languages.core.domain.model.DictionaryType
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.render.RenderedPage
@@ -401,7 +400,6 @@ class ReadingViewModel(
         lastTranslation = text to index
         val dictionary = dictionaries[index]
         viewModelScope.launch { events.send(ReadingEvent.OpenUrl(dictionary.lookupUrl(text.encodeURLParameter()))) }
-        @Suppress("UNUSED_VARIABLE") val popup = dictionary.type == DictionaryType.POPUP
     }
 
     // ---- settings

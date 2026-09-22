@@ -3,7 +3,6 @@ package com.tayra.languages.core.domain.stats
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.minus
-import kotlinx.datetime.plus
 
 /** Words read on a day, for one language. */
 data class DailyWordCount(val languageName: String, val date: LocalDate, val wordCount: Int)
@@ -66,6 +65,4 @@ object ReadingStats {
         return streak
     }
 
-    @Suppress("unused")
-    private fun LocalDate.nextDay() = plus(1, DateTimeUnit.DAY)
 }
