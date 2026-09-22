@@ -158,8 +158,8 @@ fun TermFormPanel(
                 onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
                 label = { Text("Translation") },
                 supportingText = when {
-                    state.lookingUpTranslation -> ({ Text("Looking up Wiktionary...") })
-                    state.translationSuggested -> ({ Text("Suggested from Wiktionary; edit as needed") })
+                    state.lookingUpTranslation -> ({ Text("Looking up translation...") })
+                    state.translationSuggested -> ({ Text("Suggested translation; edit as needed") })
                     else -> null
                 },
                 minLines = 3,
