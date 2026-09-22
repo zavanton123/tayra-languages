@@ -272,14 +272,10 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         SwitchRow("Focus mode", state.settings.focusMode) { viewModel.toggleFocusMode() }
         SwitchRow("Quick set status (tap unknown → 1)", state.settings.tapSetsStatus) { viewModel.toggleTapSetsStatus() }
         SwitchRow("Highlight terms", state.settings.showHighlights) { viewModel.toggleHighlights() }
-        Row(Modifier.padding(horizontal = 16.dp, vertical = 4.dp), horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-            OutlinedButton(onClick = { viewModel.adjustFontScale(-0.1f) }) { Text("A-") }
-            OutlinedButton(onClick = { viewModel.adjustFontScale(0.1f) }) { Text("A+") }
-            OutlinedButton(onClick = { viewModel.adjustLineHeight(-0.1f) }) { Text("↕-") }
-            OutlinedButton(onClick = { viewModel.adjustLineHeight(0.1f) }) { Text("↕+") }
-            OutlinedButton(onClick = { viewModel.adjustColumnWidth(-80) }) { Text("↔-") }
-            OutlinedButton(onClick = { viewModel.adjustColumnWidth(80) }) { Text("↔+") }
-        }
+        val prefs = state.settings
+        AdjustRow("Font size", "${(prefs.readingFontScale * 100).toInt()}%", onLess = { viewModel.adjustFontScale(-0.1f) }, onMore = { viewModel.adjustFontScale(0.1f) })
+        AdjustRow("Line height", "${(prefs.readingLineHeight * 10).toInt() / 10f}", onLess = { viewModel.adjustLineHeight(-0.1f) }, onMore = { viewModel.adjustLineHeight(0.1f) })
+        AdjustRow("Text width", "${prefs.readingColumnWidth}", onLess = { viewModel.adjustColumnWidth(-80) }, onMore = { viewModel.adjustColumnWidth(80) })
         HorizontalDivider(Modifier.padding(vertical = 4.dp))
         val entries = buildList<Pair<String, () -> Unit>> {
             if (!state.book?.sourceUri.isNullOrBlank()) add("Show source URL" to actions.onSource)
@@ -298,6 +294,16 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         entries.forEach { (label, action) ->
             NavigationDrawerItem(label = { Text(label) }, selected = false, onClick = { onClose(); action() })
         }
+    }
+}
+
+@Composable
+private fun AdjustRow(label: String, value: String, onLess: () -> Unit, onMore: () -> Unit) {
+    Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 2.dp), verticalAlignment = Alignment.CenterVertically) {
+        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
+        Text(value, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        TextButton(onClick = onLess) { Text("−", style = MaterialTheme.typography.titleMedium) }
+        TextButton(onClick = onMore) { Text("+", style = MaterialTheme.typography.titleMedium) }
     }
 }
 
