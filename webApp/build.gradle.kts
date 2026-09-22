@@ -24,5 +24,8 @@ kotlin {
             implementation(libs.compose.runtime)
             implementation(libs.compose.ui)
         }
+        wasmJsMain.dependencies {
+            implementation(devNpm("copy-webpack-plugin", "13.0.0"))
+        }
     }
 }
