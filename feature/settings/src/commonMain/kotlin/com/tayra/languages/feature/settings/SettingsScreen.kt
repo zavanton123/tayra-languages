@@ -73,6 +73,24 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 modifier = Modifier.fillMaxWidth(),
             )
 
+            Section("Translation suggestions")
+            OutlinedTextField(
+                value = settings.translationTargetLanguage,
+                onValueChange = { v -> viewModel.update { it.copy(translationTargetLanguage = v.trim().lowercase()) } },
+                label = { Text("Translate to (language code)") },
+                supportingText = { Text("ISO code of your language, e.g. en, de, ru. English uses Wiktionary with MyMemory as fallback; other languages use MyMemory.") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedTextField(
+                value = settings.translationContactEmail,
+                onValueChange = { v -> viewModel.update { it.copy(translationContactEmail = v.trim()) } },
+                label = { Text("MyMemory contact email (optional)") },
+                supportingText = { Text("Raises the free daily quota from about 5,000 to 50,000 characters.") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+
             Section("Term popups")
             SwitchRow("Promote parent translation to term translation if possible", settings.promoteParentTranslation) { v -> viewModel.update { it.copy(promoteParentTranslation = v) } }
             SwitchRow("Show component terms", settings.showComponents) { v -> viewModel.update { it.copy(showComponents = v) } }

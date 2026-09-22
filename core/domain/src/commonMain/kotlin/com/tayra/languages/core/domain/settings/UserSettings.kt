@@ -17,6 +17,10 @@ data class UserSettings(
     val focusMode: Boolean = false,
     val tapSetsStatus: Boolean = false,
     val demoDataLoaded: Boolean = false,
+    /** ISO code of the language translations are suggested in. */
+    val translationTargetLanguage: String = "en",
+    /** Optional contact email sent to MyMemory, which raises its daily quota. */
+    val translationContactEmail: String = "",
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
 ) {
     fun hotkeyFor(action: HotkeyAction): Hotkey? = hotkeys[action]

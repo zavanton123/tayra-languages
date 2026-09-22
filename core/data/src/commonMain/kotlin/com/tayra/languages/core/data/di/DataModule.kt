@@ -2,6 +2,8 @@ package com.tayra.languages.core.data.di
 
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.db.DatabaseProvider
+import com.tayra.languages.core.data.network.MyMemoryTranslationProvider
+import com.tayra.languages.core.data.network.TranslationSuggestionProvider
 import com.tayra.languages.core.data.network.WebPageImporter
 import com.tayra.languages.core.data.network.WiktionaryTranslationProvider
 import com.tayra.languages.core.data.network.createHttpClient
@@ -46,7 +48,9 @@ val dataModule: Module = module {
 
     single { createHttpClient() }
     single { WebPageImporter(get()) }
-    single<TermTranslationProvider> { WiktionaryTranslationProvider(get()) }
+    single<TermTranslationProvider> {
+        TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), MyMemoryTranslationProvider(get(), get()), get())
+    }
 
     single { TermService(get(), get()) }
     single { ReadingService(get(), get(), get(), get(), get()) }
