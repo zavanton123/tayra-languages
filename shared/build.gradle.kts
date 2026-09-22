@@ -18,6 +18,7 @@ kotlin {
             api(projects.core.ui)
             implementation(projects.feature.books)
             implementation(projects.feature.languages)
+            implementation(projects.feature.terms)
             implementation(libs.jetbrains.navigation.compose)
             api(libs.koin.core)
             implementation(libs.koin.compose)
