@@ -2,7 +2,6 @@ package com.tayra.languages.feature.reading
 
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
-import androidx.compose.foundation.gestures.awaitLongPressOrCancellation
 import androidx.compose.foundation.gestures.drag
 import androidx.compose.foundation.gestures.waitForUpOrCancellation
 import androidx.compose.foundation.layout.Box
@@ -35,6 +34,7 @@ import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import kotlinx.coroutines.withTimeoutOrNull
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.render.RenderedPage
 import com.tayra.languages.core.domain.render.TextItem
@@ -189,12 +189,14 @@ private fun ParagraphText(
                                 callbacks.onClick(startItem, shift)
                             }
                         } else {
-                            val longPress = awaitLongPressOrCancellation(down.id)
-                            if (longPress != null) {
-                                itemAt(longPress.position)?.let { callbacks.onLongPress(it) }
-                            } else {
-                                val up = waitForUpOrCancellation()
-                                if (up != null && startItem != null) callbacks.onTap(startItem)
+                            // Touch: a release before the long-press timeout is a tap; holding is a long press;
+                            // a cancelled gesture (the parent scrolled) is ignored.
+                            var timedOut = false
+                            val up = withTimeoutOrNull(viewConfiguration.longPressTimeoutMillis) { waitForUpOrCancellation() }
+                                ?: run { timedOut = currentEvent.changes.any { it.pressed }; null }
+                            when {
+                                up != null && startItem != null -> callbacks.onTap(startItem)
+                                timedOut && startItem != null -> callbacks.onLongPress(startItem)
                             }
                         }
                     }
