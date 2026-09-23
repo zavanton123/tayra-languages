@@ -394,7 +394,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
             onTap = { index -> viewModel.onWordTap(index) },
             onLongPress = { index ->
                 val tokenIndex = state.items[index].index
-                if (viewModel.state.value.selection == null) viewModel.startSelection(tokenIndex) else viewModel.endSelection(tokenIndex, copy = false)
+                if (!viewModel.state.value.selecting) viewModel.startSelection(tokenIndex) else viewModel.endSelection(tokenIndex, copy = false)
             },
             onHover = viewModel::onHover,
             onDragStart = { index -> viewModel.startSelection(state.items[index].index) },
@@ -432,7 +432,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 rightToLeft = state.language?.rightToLeft == true,
                 callbacks = callbacks,
             )
-            if (state.selection != null) {
+            if (state.selecting) {
                 Text("Long-press the last word of the expression, or tap to cancel.", style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
             if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome)

@@ -56,8 +56,10 @@ data class ReadingUiState(
     /** Indexes (into [RenderedPage.items]) of clicked words. */
     val marked: Set<Int> = emptySet(),
     val hovered: Int? = null,
-    /** Token index range of an in-progress multi-word selection. */
+    /** Token index range of a multi-word selection; kept highlighted while its term form is open. */
     val selection: IntRange? = null,
+    /** True while the user is still extending the selection (dragging, or between long-presses). */
+    val selecting: Boolean = false,
     val panel: ReadingPanel = ReadingPanel.None,
     val popup: PopupState? = null,
     val settings: UserSettings = UserSettings(),
@@ -133,6 +135,7 @@ class ReadingViewModel(
                     marked = if (keepMarked) it.marked.filter { i -> i < reading.rendered.items.size }.toSet() else emptySet(),
                     hovered = if (keepMarked) it.hovered else null,
                     selection = null,
+                    selecting = false,
                     popup = null,
                     panel = if (keepMarked) it.panel else ReadingPanel.None,
                     error = null,
@@ -187,12 +190,12 @@ class ReadingViewModel(
         val s = _state.value
         val item = s.items.getOrNull(itemIndex) ?: return
         if (!item.isWord) return
-        if (s.selection != null) {
+        if (s.selecting) {
             endSelection(item.index, copy = false)
             return
         }
         hidePopup()
-        _state.update { it.copy(marked = setOf(itemIndex), hovered = null) }
+        _state.update { it.copy(marked = setOf(itemIndex), hovered = null, selection = null) }
         if (item.status == TermStatus.UNKNOWN && s.settings.tapSetsStatus) {
             setStatus(TermStatus.NEW_1)
         } else {
@@ -255,40 +258,43 @@ class ReadingViewModel(
 
     fun startSelection(tokenIndex: Int) {
         hidePopup()
-        _state.update { it.copy(selection = tokenIndex..tokenIndex, hovered = null) }
+        _state.update { it.copy(selection = tokenIndex..tokenIndex, selecting = true, hovered = null, marked = emptySet()) }
     }
 
     fun updateSelection(tokenIndex: Int) {
+        if (!_state.value.selecting) return
         val start = _state.value.selection?.first ?: return
         val range = if (tokenIndex >= start) start..tokenIndex else tokenIndex..start
         _state.update { it.copy(selection = range) }
     }
 
-    /** Ends a multi-word selection: copies the text, or opens a new term form. */
+    /**
+     * Ends a multi-word selection: copies the text, or opens a new term form. The selection
+     * stays highlighted while the form is open.
+     */
     fun endSelection(tokenIndex: Int, copy: Boolean) {
         val s = _state.value
         val start = s.selection?.first ?: return
         val range = if (tokenIndex >= start) start..tokenIndex else tokenIndex..start
         val items = s.items.filter { it.index in range }
         val text = items.joinToString("") { it.renderText }.trim()
-        _state.update { it.copy(selection = null, marked = emptySet()) }
-        if (text.isEmpty()) return
-        val language = s.language ?: return
-        if (copy) {
-            copyText(text)
-        } else {
-            _state.update { it.copy(panel = ReadingPanel.NewTerm(language.id, text)) }
+        val language = s.language
+        if (text.isEmpty() || language == null || copy) {
+            _state.update { it.copy(selection = null, selecting = false, marked = emptySet()) }
+            if (copy && text.isNotEmpty()) copyText(text)
+            return
         }
+        _state.update { it.copy(selection = range, selecting = false, marked = emptySet(), panel = ReadingPanel.NewTerm(language.id, text)) }
     }
 
-    fun cancelSelection() = _state.update { it.copy(selection = null) }
+    fun cancelSelection() = _state.update { it.copy(selection = null, selecting = false) }
 
     fun startHoverMode() {
         hidePopup()
-        _state.update { it.copy(marked = emptySet(), selection = null, panel = ReadingPanel.None) }
+        _state.update { it.copy(marked = emptySet(), selection = null, selecting = false, panel = ReadingPanel.None) }
     }
 
-    fun closePanel() = _state.update { it.copy(panel = ReadingPanel.None) }
+    fun closePanel() = _state.update { it.copy(panel = ReadingPanel.None, selection = null, selecting = false) }
 
     fun moveCursor(direction: Int, target: CursorTarget) {
         val s = _state.value
@@ -346,7 +352,7 @@ class ReadingViewModel(
 
     /** Called when the embedded term form saved or deleted a term. */
     fun onTermFormDone() {
-        _state.update { it.copy(panel = ReadingPanel.None) }
+        _state.update { it.copy(panel = ReadingPanel.None, selection = null, selecting = false) }
         viewModelScope.launch { afterTermChange() }
     }
 
