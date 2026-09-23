@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -70,10 +71,13 @@ private fun WideMenu(onNavigate: (Route) -> Unit) {
         TextButton(onClick = { onNavigate(Route.Home) }) { Text("Home") }
         menuGroups.forEach { group ->
             var open by remember { mutableStateOf(false) }
-            TextButton(onClick = { open = true }) { Text(group.label) }
-            DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
-                group.entries.forEach { entry ->
-                    DropdownMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })
+            // The dropdown anchors to its enclosing composable, so each button gets its own Box.
+            Box {
+                TextButton(onClick = { open = true }) { Text(group.label) }
+                DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
+                    group.entries.forEach { entry ->
+                        DropdownMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })
+                    }
                 }
             }
         }
