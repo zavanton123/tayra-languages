@@ -1,6 +1,10 @@
 package com.tayra.languages
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
@@ -10,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.bootstrap.AppBootstrapViewModel
@@ -24,14 +29,22 @@ import org.koin.compose.KoinContext
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 
+/**
+ * @param titleBarInset height of a transparent native title bar the content extends under
+ *   (macOS desktop); painted in the app bar colour so it matches the theme.
+ */
 @Composable
-fun App() {
+fun App(titleBarInset: Dp = 0.dp) {
     KoinContext {
         val settingsRepository = koinInject<SettingsRepository>()
         val settings by settingsRepository.settings.collectAsStateWithLifecycle()
         TayraTheme(AppThemes.byId(settings.themeId)) {
             Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                ProvideWindowWidth {
+                Column {
+                    if (titleBarInset > 0.dp) {
+                        Box(Modifier.fillMaxWidth().height(titleBarInset).background(MaterialTheme.colorScheme.surfaceVariant))
+                    }
+                    ProvideWindowWidth {
                     val bootstrap = koinViewModel<AppBootstrapViewModel>()
                     val state by bootstrap.state.collectAsStateWithLifecycle()
                     when (val s = state) {
@@ -40,6 +53,7 @@ fun App() {
                             Text("Could not start: ${s.message}", color = MaterialTheme.colorScheme.error)
                         }
                         BootstrapState.Ready -> AppNavHost()
+                    }
                     }
                 }
             }
