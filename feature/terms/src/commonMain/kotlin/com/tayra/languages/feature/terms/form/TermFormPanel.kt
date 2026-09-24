@@ -17,7 +17,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Button
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
@@ -196,9 +195,18 @@ fun TermFormPanel(
             singleLine = true,
             modifier = Modifier.fillMaxWidth(),
         )
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            Button(onClick = viewModel::save, enabled = !state.saving) { Text("Save") }
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
             if (!draft.isNew) OutlinedButton(onClick = { confirmDelete = true }) { Text("Delete") }
+            Text(
+                when {
+                    state.saving -> "Saving..."
+                    state.dirty -> "Changes are saved automatically"
+                    state.saved -> "Saved"
+                    else -> ""
+                },
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
         }
 
         if (language != null && language.termDictionaries.isNotEmpty() && draft.text.isNotBlank()) {

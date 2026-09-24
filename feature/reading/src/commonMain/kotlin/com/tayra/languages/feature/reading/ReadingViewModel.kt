@@ -355,14 +355,6 @@ class ReadingViewModel(
         viewModelScope.launch {
             bookStats.markStale(bookId)
             load(_state.value.pageNumber, trackOpen = false, keepMarked = true)
-            val panel = _state.value.panel
-            // A new term now has an id, so the form is re-keyed to edit the saved term.
-            if (panel is ReadingPanel.NewTerm) {
-                val language = _state.value.language ?: return@launch
-                termService.find(language.id, panel.text)?.let { term ->
-                    _state.update { it.copy(panel = ReadingPanel.EditTerm(term.id), selection = null) }
-                }
-            }
         }
     }
 

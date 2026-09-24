@@ -15,6 +15,8 @@ import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.TermValidationException
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.state.UiEvents
+import kotlinx.coroutines.DelicateCoroutinesApi
+import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -45,6 +47,8 @@ data class TermFormUiState(
     val dirty: Boolean = false,
     val lookingUpTranslation: Boolean = false,
     val translationSuggested: Boolean = false,
+    /** True once an autosave has persisted the latest edits. */
+    val saved: Boolean = false,
 ) {
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
     val isNew: Boolean get() = draft.isNew
@@ -57,6 +61,8 @@ sealed interface TermFormEvent {
     data object Deleted : TermFormEvent
     data class OpenParent(val languageId: Long, val text: String) : TermFormEvent
 }
+
+private const val AUTOSAVE_DELAY_MS = 700L
 
 class TermFormViewModel(
     private val key: TermFormKey,
@@ -71,6 +77,7 @@ class TermFormViewModel(
     val state: StateFlow<TermFormUiState> = _state.asStateFlow()
     val events = UiEvents<TermFormEvent>()
     private var searchJob: Job? = null
+    private var autosaveJob: Job? = null
 
     init {
         viewModelScope.launch { load() }
@@ -116,15 +123,48 @@ class TermFormViewModel(
     }
 
     fun update(transform: (TermDraft) -> TermDraft) {
+        var textChanged = false
         _state.update {
             val draft = transform(it.draft)
-            it.copy(draft = draft, error = null, duplicateOf = null, dirty = true, translationSuggested = it.translationSuggested && draft.translation == it.draft.translation)
+            textChanged = draft.text != it.draft.text
+            it.copy(draft = draft, error = null, duplicateOf = null, dirty = true, saved = false, translationSuggested = it.translationSuggested && draft.translation == it.draft.translation)
+        }
+        // Edits to the term text are saved with the next other change or on close, never mid-typing.
+        if (!textChanged) scheduleAutosave()
+    }
+
+    private fun scheduleAutosave() {
+        autosaveJob?.cancel()
+        autosaveJob = viewModelScope.launch {
+            delay(AUTOSAVE_DELAY_MS)
+            val id = doSave() ?: return@launch
+            events.send(TermFormEvent.Saved(id, keepOpen = true))
+        }
+    }
+
+    /** Persists pending edits immediately, e.g. before the form closes. */
+    fun flush() {
+        if (!_state.value.dirty) return
+        autosaveJob?.cancel()
+        viewModelScope.launch {
+            val id = doSave() ?: return@launch
+            events.send(TermFormEvent.Saved(id, keepOpen = true))
+        }
+    }
+
+    @OptIn(DelicateCoroutinesApi::class)
+    override fun onCleared() {
+        // The form can disappear with unsaved edits (panel closed, navigation); persist them.
+        val state = _state.value
+        if (state.dirty && !state.loading && state.draft.languageId != 0L && state.draft.text.isNotBlank()) {
+            GlobalScope.launch { runCatching { termService.save(state.draft) } }
         }
     }
 
     /** Status clicks save immediately, so the reading screen reflects the change without pressing Save. */
     fun setStatus(status: TermStatus) {
         update { it.copy(status = status, statusExplicitlySet = true) }
+        autosaveJob?.cancel()
         viewModelScope.launch {
             val id = doSave() ?: return@launch
             events.send(TermFormEvent.Saved(id, keepOpen = true))
@@ -187,6 +227,7 @@ class TermFormViewModel(
     }
 
     fun save() {
+        autosaveJob?.cancel()
         viewModelScope.launch {
             val id = doSave() ?: return@launch
             events.send(TermFormEvent.Saved(id))
@@ -202,7 +243,7 @@ class TermFormViewModel(
         _state.update { it.copy(saving = true, error = null) }
         return try {
             val id = termService.save(draft)
-            _state.update { it.copy(saving = false, dirty = false, draft = it.draft.copy(id = id, originalText = it.draft.text)) }
+            _state.update { it.copy(saving = false, dirty = it.draft != draft, saved = true, draft = it.draft.copy(id = id, originalText = draft.text)) }
             id
         } catch (e: TermValidationException) {
             _state.update { it.copy(saving = false, error = e.message, duplicateOf = e.duplicateOf) }
