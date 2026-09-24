@@ -25,7 +25,8 @@ fun TermEditScreen(
     val viewModel = koinViewModel<TermFormViewModel>(key = "term-form-$key") { parametersOf(key) }
     CollectEvents(viewModel.events) { event ->
         when (event) {
-            is TermFormEvent.Saved, TermFormEvent.Deleted -> onDone()
+            is TermFormEvent.Saved -> if (!event.keepOpen) onDone()
+            TermFormEvent.Deleted -> onDone()
             is TermFormEvent.OpenParent -> onOpenParent(event.languageId, event.text)
         }
     }
