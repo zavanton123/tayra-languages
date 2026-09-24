@@ -29,7 +29,7 @@ private data class MenuGroup(val label: String, val entries: List<MenuEntry>)
 
 private val menuGroups = listOf(
     MenuGroup("Books", listOf(MenuEntry("Create new book", Route.NewBook()), MenuEntry("Book archive", Route.ArchivedBooks))),
-    MenuGroup("Terms", listOf(MenuEntry("Terms", Route.Terms()), MenuEntry("Import terms", Route.ImportTerms), MenuEntry("Term tags", Route.TermTags))),
+    MenuGroup("Terms", listOf(MenuEntry("Terms", Route.Terms()), MenuEntry("Import terms", Route.ImportTerms))),
     MenuGroup("Settings", listOf(MenuEntry("Languages", Route.Languages), MenuEntry("Settings", Route.Settings), MenuEntry("Keyboard shortcuts", Route.Shortcuts))),
     MenuGroup("About", listOf(MenuEntry("Statistics", Route.Stats), MenuEntry("About", Route.About))),
 )

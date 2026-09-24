@@ -1,0 +1,33 @@
+-- Terms no longer carry tags or images. The terms table is rebuilt without image_source;
+-- term_parents is preserved across the rebuild because dropping terms cascades into it.
+CREATE TABLE term_parents_backup AS SELECT term_id, parent_id FROM term_parents;
+
+CREATE TABLE terms_new (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    text TEXT NOT NULL,
+    text_lc TEXT NOT NULL,
+    status INTEGER NOT NULL,
+    translation TEXT,
+    romanization TEXT,
+    token_count INTEGER NOT NULL DEFAULT 1,
+    sync_status INTEGER NOT NULL DEFAULT 0,
+    flash_message TEXT,
+    created_at INTEGER NOT NULL,
+    status_changed_at INTEGER NOT NULL
+);
+INSERT INTO terms_new (id, language_id, text, text_lc, status, translation, romanization, token_count, sync_status, flash_message, created_at, status_changed_at)
+SELECT id, language_id, text, text_lc, status, translation, romanization, token_count, sync_status, flash_message, created_at, status_changed_at FROM terms;
+
+DROP TABLE IF EXISTS term_tag_map;
+DROP TABLE IF EXISTS term_tags;
+DROP TABLE terms;
+ALTER TABLE terms_new RENAME TO terms;
+
+INSERT OR IGNORE INTO term_parents (term_id, parent_id) SELECT term_id, parent_id FROM term_parents_backup;
+DROP TABLE term_parents_backup;
+
+CREATE UNIQUE INDEX terms_text_lc_language ON terms(text_lc, language_id);
+CREATE INDEX terms_language ON terms(language_id);
+CREATE INDEX terms_status ON terms(status);
+CREATE INDEX terms_token_count ON terms(token_count);

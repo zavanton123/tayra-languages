@@ -14,7 +14,6 @@ import com.tayra.languages.core.domain.model.TermMatch
 import com.tayra.languages.core.domain.model.TermRef
 import com.tayra.languages.core.domain.model.TermReference
 import com.tayra.languages.core.domain.model.TermStatus
-import com.tayra.languages.core.domain.model.TermTag
 import com.tayra.languages.core.domain.model.ZWS_STRING
 import com.tayra.languages.core.domain.repository.MultiwordTerm
 import com.tayra.languages.core.domain.repository.TermListFilter
@@ -79,7 +78,6 @@ class TermRepositoryImpl(
                 romanization = term.romanization,
                 tokenCount = term.tokenCount.toLong(),
                 syncStatus = term.syncStatus,
-                imageSource = term.imageSource,
                 flashMessage = term.flashMessage,
                 createdAt = now,
                 statusChangedAt = now,
@@ -96,21 +94,12 @@ class TermRepositoryImpl(
                 romanization = term.romanization,
                 tokenCount = term.tokenCount.toLong(),
                 syncStatus = term.syncStatus,
-                imageSource = term.imageSource,
                 flashMessage = term.flashMessage,
             )
             if (previous != null && previous.status != term.status.value.toLong()) {
                 q.updateStatus(status = term.status.value.toLong(), changedAt = now, ids = listOf(term.id))
             }
             term.id
-        }
-        q.deleteTagMap(id)
-        for (tag in term.tags.distinct()) {
-            val tagId = q.selectTagByText(tag).awaitAsOneOrNull()?.id ?: run {
-                q.insertTag(tag, "")
-                q.lastInsertId().awaitAsOne()
-            }
-            q.insertTagMap(id, tagId)
         }
         return id
     }
@@ -287,57 +276,24 @@ class TermRepositoryImpl(
         return marked.replace(ZWS_STRING, "").replace("¶", "")
     }
 
-    override fun observeTags(): Flow<List<TermTag>> = flow {
-        db().termsQueries.selectAllTags().asFlow().mapToList(databaseDispatcher).collect { rows ->
-            emit(rows.map { TermTag(it.id, it.text, it.comment) })
-        }
-    }
-
-    override suspend fun allTags(): List<TermTag> = withContext(databaseDispatcher) {
-        db().termsQueries.selectAllTags().awaitAsList().map { TermTag(it.id, it.text, it.comment) }
-    }
-
-    override suspend fun saveTag(tag: TermTag): Long = withContext(databaseDispatcher) {
-        val database = db()
-        database.transactionWithResult {
-            if (tag.id == 0L) {
-                database.termsQueries.insertTag(tag.text, tag.comment)
-                database.termsQueries.lastInsertId().awaitAsOne()
-            } else {
-                database.termsQueries.updateTag(text = tag.text, comment = tag.comment, id = tag.id)
-                tag.id
-            }
-        }
-    }
-
-    override suspend fun deleteTag(id: Long) {
-        withContext(databaseDispatcher) {
-            db().termsQueries.deleteTag(id)
-        }
-    }
-
-    /** Attaches tags and parents to the raw rows. */
+    /** Attaches parents to the raw rows. */
     private suspend fun hydrate(database: TayraDatabase, rows: List<Terms>): List<Term> {
         if (rows.isEmpty()) return emptyList()
         val ids = rows.map { it.id }
-        val tags = HashMap<Long, MutableList<String>>()
         val parents = HashMap<Long, MutableList<TermRef>>()
         for (chunk in ids.chunked(CHUNK)) {
-            for (row in database.termsQueries.selectTagsForTerms(chunk).awaitAsList()) {
-                tags.getOrPut(row.term_id) { mutableListOf() }.add(row.text)
-            }
             for (row in database.termsQueries.selectParentsForTerms(chunk).awaitAsList()) {
                 parents.getOrPut(row.term_id) { mutableListOf() }.add(
                     TermRef(row.id, row.text, TermStatus.fromValueOrNull(row.status.toInt()) ?: TermStatus.UNKNOWN, row.translation),
                 )
             }
         }
-        return rows.map { it.toDomain(tags[it.id] ?: emptyList(), parents[it.id] ?: emptyList()) }
+        return rows.map { it.toDomain(parents[it.id] ?: emptyList()) }
     }
 
     private fun com.tayra.languages.core.data.db.ListTerms.toTermsRow() = Terms(
         id = id, language_id = language_id, text = text, text_lc = text_lc, status = status, translation = translation,
-        romanization = romanization, token_count = token_count, sync_status = sync_status, image_source = image_source,
+        romanization = romanization, token_count = token_count, sync_status = sync_status,
         flash_message = flash_message, created_at = created_at, status_changed_at = status_changed_at,
     )
 

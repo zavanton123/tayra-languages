@@ -61,7 +61,7 @@ internal fun Pages.toDomain(): Page = Page(
     readDate = read_date?.toInstant(),
 )
 
-internal fun Terms.toDomain(tags: List<String>, parents: List<TermRef>): Term = Term(
+internal fun Terms.toDomain(parents: List<TermRef>): Term = Term(
     id = id,
     languageId = language_id,
     text = text,
@@ -71,9 +71,7 @@ internal fun Terms.toDomain(tags: List<String>, parents: List<TermRef>): Term = 
     romanization = romanization,
     tokenCount = token_count.toInt(),
     syncStatus = sync_status,
-    imageSource = image_source,
     flashMessage = flash_message,
-    tags = tags,
     parents = parents,
 )
 

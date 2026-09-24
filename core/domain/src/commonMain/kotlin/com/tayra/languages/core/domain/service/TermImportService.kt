@@ -17,7 +17,8 @@ data class TermImportResult(val created: Int, val updated: Int, val skipped: Int
 
 /**
  * Imports terms from CSV with columns `language`, `term` and optionally
- * `translation`, `parent`, `status`, `tags`, `pronunciation`, `link_status`.
+ * `translation`, `parent`, `status`, `pronunciation`, `link_status`. Lute's `tags` and
+ * `added` columns are accepted and ignored.
  */
 class TermImportService(
     private val terms: TermRepository,
@@ -133,14 +134,13 @@ class TermImportService(
         row["translation"]?.let { result = result.copy(translation = it) }
         row["status"]?.let { s -> statusOf(s)?.let { result = result.copy(status = it, statusExplicitlySet = true) } }
         row["pronunciation"]?.let { result = result.copy(romanization = it) }
-        row["tags"]?.let { result = result.copy(tags = it.split(",").map { t -> t.trim() }.filter { t -> t.isNotEmpty() }) }
         return result
     }
 
     companion object {
         val REQUIRED_FIELDS = listOf("language", "term")
-        val ALLOWED_FIELDS = REQUIRED_FIELDS + listOf("translation", "parent", "status", "tags", "pronunciation", "link_status")
-        val IGNORED_FIELDS = listOf("added")
-        val EXPORT_HEADERS = listOf("term", "parent", "translation", "language", "tags", "added", "status", "link_status", "pronunciation")
+        val ALLOWED_FIELDS = REQUIRED_FIELDS + listOf("translation", "parent", "status", "pronunciation", "link_status")
+        val IGNORED_FIELDS = listOf("added", "tags")
+        val EXPORT_HEADERS = listOf("term", "parent", "translation", "language", "status", "link_status", "pronunciation")
     }
 }

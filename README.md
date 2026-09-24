@@ -20,7 +20,6 @@ and tags group related terms, and reading statistics track your progress.
 | Preferences | multiplatform-settings |
 | Networking | Ktor client with HTTP cache (web page import) |
 | Serialization | kotlinx.serialization |
-| Images | Coil 3 |
 | Files | FileKit (import txt/epub/srt/vtt, CSV export) |
 | Logging | Kermit |
 | Date/time | kotlinx-datetime |
@@ -34,7 +33,7 @@ core/data        SQLDelight database, repositories, settings, HTTP and file impo
 core/ui          theme, navigation routes, shared composables
 feature/books    book listing, create/edit, bookmarks, page editing
 feature/reading  reading screen, term popups, keyboard shortcuts
-feature/terms    term form, term listing, bulk edit, tags, CSV import/export
+feature/terms    term form, term listing, bulk edit, CSV import/export
 feature/languages, feature/settings, feature/stats
 shared           app composition: DI, bootstrap, navigation graph, iOS framework
 androidApp, desktopApp, webApp, iosApp   thin platform launchers

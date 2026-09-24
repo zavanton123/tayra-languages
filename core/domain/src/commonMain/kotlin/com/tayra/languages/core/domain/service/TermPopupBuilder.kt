@@ -14,18 +14,14 @@ data class TermPopup(
     val parentsText: String,
     val translation: String,
     val romanization: String,
-    val tags: List<String>,
     val flashMessage: String,
-    val imageSource: String?,
-    /** Image sources with the term texts they belong to. */
-    val images: Map<String, String>,
     val parents: List<TermPopup> = emptyList(),
     val components: List<TermPopup> = emptyList(),
 ) {
     val termAndParentsText: String get() = if (parentsText.isEmpty()) termText else "$termText ($parentsText)"
 
     /** True if there is anything worth showing for this entry. */
-    val hasContent: Boolean get() = romanization.isNotEmpty() || translation.isNotEmpty() || tags.isNotEmpty()
+    val hasContent: Boolean get() = romanization.isNotEmpty() || translation.isNotEmpty()
 }
 
 class TermPopupBuilder(
@@ -44,7 +40,7 @@ class TermPopupBuilder(
         val components = if (prefs.showComponents) findComponents(term) else emptyList()
 
         val base = popupOf(term, parents)
-        if (!base.hasContent && base.imageSource == null && parents.isEmpty() && components.isEmpty()) return null
+        if (!base.hasContent && parents.isEmpty() && components.isEmpty()) return null
 
         var main = base
         var parentPopups = parents.map { popupOf(it, emptyList()) }
@@ -84,23 +80,13 @@ class TermPopupBuilder(
             .sortedWith(compareBy({ positions.getValue(it.textLc) }, { -it.text.length }))
     }
 
-    private fun popupOf(term: Term, parents: List<Term>): TermPopup {
-        val images = LinkedHashMap<String, MutableList<String>>()
-        for (t in listOf(term) + parents) {
-            val image = t.imageSource?.takeIf { it.isNotBlank() } ?: continue
-            images.getOrPut(image) { mutableListOf() }.add(clean(t.text))
-        }
-        return TermPopup(
-            termText = clean(term.text),
-            parentsText = parents.joinToString(", ") { clean(it.text) },
-            translation = clean(term.translation),
-            romanization = clean(term.romanization),
-            tags = term.tags,
-            flashMessage = clean(term.flashMessage),
-            imageSource = term.imageSource?.takeIf { it.isNotBlank() },
-            images = images.mapValues { it.value.joinToString(", ") },
-        )
-    }
+    private fun popupOf(term: Term, parents: List<Term>): TermPopup = TermPopup(
+        termText = clean(term.text),
+        parentsText = parents.joinToString(", ") { clean(it.text) },
+        translation = clean(term.translation),
+        romanization = clean(term.romanization),
+        flashMessage = clean(term.flashMessage),
+    )
 
     private fun clean(text: String?): String = (text ?: "").trim().replace(ZWS_STRING, "")
 }

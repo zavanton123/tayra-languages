@@ -12,8 +12,6 @@ import com.tayra.languages.feature.terms.import.TermImportScreen
 import com.tayra.languages.feature.terms.import.TermImportViewModel
 import com.tayra.languages.feature.terms.list.TermsListViewModel
 import com.tayra.languages.feature.terms.list.TermsScreen
-import com.tayra.languages.feature.terms.tags.TermTagsScreen
-import com.tayra.languages.feature.terms.tags.TermTagsViewModel
 import kotlinx.serialization.Serializable
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
@@ -21,7 +19,6 @@ import org.koin.dsl.module
 val termsModule = module {
     viewModel { (key: TermFormKey) -> TermFormViewModel(key, get(), get(), get(), get(), get()) }
     viewModel { (termIds: List<Long>?) -> TermsListViewModel(termIds, get(), get(), get(), get()) }
-    viewModel { TermTagsViewModel(get()) }
     viewModel { TermImportViewModel(get()) }
 }
 
@@ -47,6 +44,5 @@ fun NavGraphBuilder.termsGraph(navController: NavController) {
     composable<Route.NewTerm> {
         TermEditScreen(TermFormKey.New, navigate, { navController.popBackStack() }, { navController.popBackStack() }, openParent)
     }
-    composable<Route.TermTags> { TermTagsScreen(onNavigate = navigate) }
     composable<Route.ImportTerms> { TermImportScreen(onNavigate = navigate) }
 }

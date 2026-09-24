@@ -4,8 +4,5 @@ DELETE FROM languages;
 deleteAllBookTags:
 DELETE FROM book_tags;
 
-deleteAllTermTags:
-DELETE FROM term_tags;
-
 deleteAllWordsRead:
 DELETE FROM words_read;

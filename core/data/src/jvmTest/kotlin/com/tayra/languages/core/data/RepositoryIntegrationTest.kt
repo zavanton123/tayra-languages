@@ -114,12 +114,10 @@ class RepositoryIntegrationTest {
             statusExplicitlySet = true,
             parents = listOf("dog"),
             syncStatus = true,
-            tags = listOf("noun"),
         )
         val id = env.termService.save(draft)
         val saved = env.terms.getById(id)
         assertNotNull(saved)
-        assertEquals(listOf("noun"), saved.tags)
         assertEquals(listOf("dog"), saved.parents.map { it.text })
         assertTrue(saved.syncStatus)
 
@@ -127,7 +125,6 @@ class RepositoryIntegrationTest {
         assertNotNull(parent)
         assertEquals(TermStatus.LEARNING_3, parent.status)
         assertEquals("plural of dog", parent.translation)
-        assertEquals(listOf("noun"), parent.tags)
 
         // Changing the parent status updates the following child.
         env.termService.setStatus(listOf(parent.id), TermStatus.LEARNED)

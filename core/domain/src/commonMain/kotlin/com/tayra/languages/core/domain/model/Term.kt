@@ -39,12 +39,6 @@ enum class TermStatus(val value: Int, val label: String, val abbreviation: Strin
 const val ZWS: Char = '\u200B'
 const val ZWS_STRING: String = "\u200B"
 
-data class TermTag(
-    val id: Long = 0,
-    val text: String,
-    val comment: String = "",
-)
-
 /**
  * A saved term (a word or multi-word expression) in a language.
  *
@@ -60,9 +54,7 @@ data class Term(
     val romanization: String? = null,
     val tokenCount: Int = 1,
     val syncStatus: Boolean = false,
-    val imageSource: String? = null,
     val flashMessage: String? = null,
-    val tags: List<String> = emptyList(),
     val parents: List<TermRef> = emptyList(),
 ) {
     val displayText: String get() = text.replace(ZWS_STRING, "")
@@ -94,8 +86,6 @@ data class TermDraft(
     val statusExplicitlySet: Boolean = false,
     val syncStatus: Boolean = false,
     val parents: List<String> = emptyList(),
-    val tags: List<String> = emptyList(),
-    val imageSource: String = "",
 ) {
     val isNew: Boolean get() = id == null
 

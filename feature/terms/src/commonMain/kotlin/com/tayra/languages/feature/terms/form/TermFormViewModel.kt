@@ -36,7 +36,6 @@ data class TermFormUiState(
     val loading: Boolean = true,
     val draft: TermDraft = TermDraft(languageId = 0, text = ""),
     val languages: List<Language> = emptyList(),
-    val tagSuggestions: List<String> = emptyList(),
     val parentSuggestions: List<TermMatch> = emptyList(),
     val parentQuery: String = "",
     val references: TermReferences? = null,
@@ -85,7 +84,6 @@ class TermFormViewModel(
 
     private suspend fun load() {
         val languageList = languages.getAll()
-        val tags = terms.allTags().map { it.text }
         val draft = try {
             when (key) {
                 is TermFormKey.ById -> termService.load(key.termId).let { if (it.status == TermStatus.UNKNOWN) it.copy(status = TermStatus.NEW_1) else it }
@@ -102,7 +100,7 @@ class TermFormViewModel(
         }
         // Opening the form acknowledges any flash message.
         draft.id?.let { terms.clearFlashMessage(it) }
-        _state.update { it.copy(loading = false, draft = draft, languages = languageList, tagSuggestions = tags) }
+        _state.update { it.copy(loading = false, draft = draft, languages = languageList) }
         if (draft.translation.isBlank()) suggestTranslation(draft.text, languageList.firstOrNull { it.id == draft.languageId })
     }
 

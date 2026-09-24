@@ -4,7 +4,6 @@ import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermMatch
 import com.tayra.languages.core.domain.model.TermReference
 import com.tayra.languages.core.domain.model.TermStatus
-import com.tayra.languages.core.domain.model.TermTag
 import kotlinx.coroutines.flow.Flow
 
 /** Filters for the term listing. */
@@ -36,7 +35,7 @@ interface TermRepository {
     suspend fun findByTextLcs(languageId: Long, textLcs: Collection<String>): List<Term>
     suspend fun multiwordTerms(languageId: Long): List<MultiwordTerm>
 
-    /** Inserts or updates the term, its tags, image and flash message. Returns the id. */
+    /** Inserts or updates the term and its flash message. Returns the id. */
     suspend fun save(term: Term): Long
     suspend fun insertAll(terms: List<Term>): List<Long>
     suspend fun setParents(termId: Long, parentIds: List<Long>)
@@ -56,8 +55,4 @@ interface TermRepository {
     /** Sentences of read pages containing the term. */
     suspend fun references(languageId: Long, termTextLc: String, limit: Int = 20, includeUnread: Boolean = false): List<TermReference>
 
-    fun observeTags(): Flow<List<TermTag>>
-    suspend fun allTags(): List<TermTag>
-    suspend fun saveTag(tag: TermTag): Long
-    suspend fun deleteTag(id: Long)
 }

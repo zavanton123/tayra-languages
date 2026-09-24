@@ -22,8 +22,6 @@ data class BulkTermUpdate(
     val parentId: Long? = null,
     val parentText: String? = null,
     val status: TermStatus? = null,
-    val addTags: List<String> = emptyList(),
-    val removeTags: List<String> = emptyList(),
 )
 
 class TermService(
@@ -68,8 +66,6 @@ class TermService(
         status = term.status,
         syncStatus = term.syncStatus,
         parents = term.parents.map { it.text },
-        tags = term.tags,
-        imageSource = term.imageSource ?: "",
     )
 
     /**
@@ -96,7 +92,6 @@ class TermService(
             throw TermValidationException("Can only change term case")
         }
 
-        val tags = draft.tags.map { it.trim() }.filter { it.isNotEmpty() }.distinct()
         var term = (existing ?: spec).copy(
             text = spec.text,
             textLc = spec.textLc,
@@ -104,9 +99,7 @@ class TermService(
             status = draft.status,
             translation = draft.translation.trim().ifEmpty { null },
             romanization = draft.romanization.trim().ifEmpty { null },
-            imageSource = draft.imageSource.trim().ifEmpty { null },
             flashMessage = null,
-            tags = tags,
         )
 
         val parentTexts = draft.parents
@@ -139,11 +132,7 @@ class TermService(
         var parent = found ?: spec.copy(status = term.status)
 
         if (newOrUnknown) parent = parent.copy(status = term.status)
-        if (newOrUnknown || isNewTerm) {
-            if (parent.translation.isNullOrBlank()) parent = parent.copy(translation = term.translation)
-            if (parent.imageSource.isNullOrBlank()) parent = parent.copy(imageSource = term.imageSource)
-        }
-        if (newOrUnknown) parent = parent.copy(tags = (parent.tags + term.tags).distinct())
+        if ((newOrUnknown || isNewTerm) && parent.translation.isNullOrBlank()) parent = parent.copy(translation = term.translation)
 
         if (found == null || parent != found) {
             val id = terms.save(parent)
@@ -216,8 +205,6 @@ class TermService(
                 if (parent.status != TermStatus.UNKNOWN) term = term.copy(syncStatus = true, status = parent.status)
             }
             update.status?.let { term = term.copy(status = it) }
-            val tags = (term.tags + update.addTags).distinct() - update.removeTags.toSet()
-            term = term.copy(tags = tags)
             terms.save(term)
             terms.setParents(term.id, parentIds)
             if (term.status != target.status) setStatus(listOf(term.id), term.status)

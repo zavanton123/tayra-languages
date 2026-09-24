@@ -127,7 +127,7 @@ fun TermsScreen(
     }
 
     if (bulkEdit) {
-        BulkEditDialog(tags = state.tags, count = state.selected.size, onApply = { viewModel.applyBulkUpdate(it); bulkEdit = false }, onDismiss = { bulkEdit = false })
+        BulkEditDialog(count = state.selected.size, onApply = { viewModel.applyBulkUpdate(it); bulkEdit = false }, onDismiss = { bulkEdit = false })
     }
     if (confirmDelete) {
         ConfirmDialog(
@@ -210,7 +210,6 @@ private fun HeaderRow(state: TermsListUiState, viewModel: TermsListViewModel) {
         Text("Parents", Modifier.weight(1.2f), style = MaterialTheme.typography.labelLarge)
         Text("Translation", Modifier.weight(2f), style = MaterialTheme.typography.labelLarge)
         SortHeader("Language", TermSortField.LANGUAGE, state, viewModel, Modifier.weight(1f))
-        Text("Tags", Modifier.weight(1f), style = MaterialTheme.typography.labelLarge)
         SortHeader("Status", TermSortField.STATUS, state, viewModel, Modifier.width(90.dp))
         SortHeader("Added", TermSortField.CREATED, state, viewModel, Modifier.width(60.dp))
     }
@@ -263,7 +262,7 @@ private fun TermRow(
                 val details = listOfNotNull(
                     term.parents.takeIf { it.isNotEmpty() }?.joinToString(", ") { it.displayText }?.let { "parents: $it" },
                     term.translation?.takeIf { it.isNotBlank() },
-                    "$languageName${if (term.tags.isNotEmpty()) " · " + term.tags.joinToString(", ") else ""}",
+                    languageName,
                 )
                 details.forEach { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
             }
@@ -276,7 +275,6 @@ private fun TermRow(
             Text(term.parents.joinToString(", ") { it.displayText }, Modifier.weight(1.2f), style = MaterialTheme.typography.bodySmall)
             Text(term.translation.orEmpty(), Modifier.weight(2f), style = MaterialTheme.typography.bodySmall, maxLines = 2)
             Text(languageName, Modifier.weight(1f), style = MaterialTheme.typography.bodySmall)
-            Text(term.tags.joinToString(", "), Modifier.weight(1f), style = MaterialTheme.typography.bodySmall)
             Row(Modifier.width(90.dp)) { statusChip() }
             Text(if (term.syncStatus) "↔" else "", Modifier.width(60.dp), style = MaterialTheme.typography.bodySmall)
         }
