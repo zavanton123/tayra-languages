@@ -52,7 +52,8 @@ data class TermFormUiState(
 }
 
 sealed interface TermFormEvent {
-    data class Saved(val termId: Long) : TermFormEvent
+    /** [keepOpen] is true when the save was implicit (a status click) and the form should stay open. */
+    data class Saved(val termId: Long, val keepOpen: Boolean = false) : TermFormEvent
     data object Deleted : TermFormEvent
     data class OpenParent(val languageId: Long, val text: String) : TermFormEvent
 }
@@ -121,7 +122,14 @@ class TermFormViewModel(
         }
     }
 
-    fun setStatus(status: TermStatus) = update { it.copy(status = status, statusExplicitlySet = true) }
+    /** Status clicks save immediately, so the reading screen reflects the change without pressing Save. */
+    fun setStatus(status: TermStatus) {
+        update { it.copy(status = status, statusExplicitlySet = true) }
+        viewModelScope.launch {
+            val id = doSave() ?: return@launch
+            events.send(TermFormEvent.Saved(id, keepOpen = true))
+        }
+    }
 
     fun setParents(parents: List<String>) {
         val previous = _state.value.draft.parents

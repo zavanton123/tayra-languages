@@ -481,7 +481,8 @@ private fun EmbeddedTermForm(key: TermFormKey, keyString: String, viewModel: Rea
     val formViewModel = koinViewModel<TermFormViewModel>(key = "reading-term-$keyString") { parametersOf(key) }
     CollectEvents(formViewModel.events) { event ->
         when (event) {
-            is TermFormEvent.Saved, TermFormEvent.Deleted -> viewModel.onTermFormDone()
+            is TermFormEvent.Saved -> if (event.keepOpen) viewModel.onTermChanged() else viewModel.onTermFormDone()
+            TermFormEvent.Deleted -> viewModel.onTermFormDone()
             is TermFormEvent.OpenParent -> viewModel.openParentTerm(event.languageId, event.text)
         }
     }
