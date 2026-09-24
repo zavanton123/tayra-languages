@@ -38,9 +38,6 @@ sealed interface Route {
     data object NewTerm : Route
 
     @Serializable
-    data object TermTags : Route
-
-    @Serializable
     data object ImportTerms : Route
 
     @Serializable

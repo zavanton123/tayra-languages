@@ -22,18 +22,15 @@ import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.BulkTermUpdate
 import com.tayra.languages.core.ui.components.Dropdown
-import com.tayra.languages.core.ui.components.TagInput
 
 /** Bulk changes for the selected terms; the ids are filled in by the caller. */
 @Composable
-fun BulkEditDialog(tags: List<String>, count: Int, onApply: (BulkTermUpdate) -> Unit, onDismiss: () -> Unit) {
+fun BulkEditDialog(count: Int, onApply: (BulkTermUpdate) -> Unit, onDismiss: () -> Unit) {
     var lowercase by remember { mutableStateOf(false) }
     var removeParents by remember { mutableStateOf(false) }
     var parent by remember { mutableStateOf("") }
     var changeStatus by remember { mutableStateOf(false) }
     var status by remember { mutableStateOf(TermStatus.NEW_1) }
-    var addTags by remember { mutableStateOf(listOf<String>()) }
-    var removeTags by remember { mutableStateOf(listOf<String>()) }
 
     AlertDialog(
         onDismissRequest = onDismiss,
@@ -47,8 +44,6 @@ fun BulkEditDialog(tags: List<String>, count: Int, onApply: (BulkTermUpdate) -> 
                 if (changeStatus) {
                     Dropdown(options = TermStatus.selectable, selected = status, onSelect = { status = it }, label = "Status", optionLabel = { it.label }, modifier = Modifier.fillMaxWidth())
                 }
-                TagInput(values = addTags, onValuesChange = { addTags = it }, label = "Add tags", suggestions = tags, modifier = Modifier.fillMaxWidth())
-                TagInput(values = removeTags, onValuesChange = { removeTags = it }, label = "Remove tags", suggestions = tags, modifier = Modifier.fillMaxWidth())
             }
         },
         confirmButton = {
@@ -60,8 +55,6 @@ fun BulkEditDialog(tags: List<String>, count: Int, onApply: (BulkTermUpdate) -> 
                         removeParents = removeParents,
                         parentText = parent.trim().ifEmpty { null },
                         status = if (changeStatus) status else null,
-                        addTags = addTags,
-                        removeTags = removeTags,
                     ),
                 )
             }) { Text("Apply") }

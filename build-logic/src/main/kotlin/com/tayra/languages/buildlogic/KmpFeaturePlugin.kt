@@ -27,8 +27,7 @@ class KmpFeaturePlugin : Plugin<Project> {
                 implementation(libs.findLibrary("kotlinx-collections-immutable").get())
                 implementation(libs.findLibrary("kermit").get())
                 implementation(libs.findLibrary("filekit-dialogs-compose").get())
-                implementation(libs.findLibrary("coil-compose").get())
-                implementation(libs.findLibrary("coil-network-ktor").get())
+                implementation(libs.findLibrary("ktor-client-core").get())
             }
         }
     }

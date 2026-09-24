@@ -37,7 +37,6 @@ data class TermsListUiState(
     val totalCount: Int = 0,
     val languages: List<Language> = emptyList(),
     val selected: Set<Long> = emptySet(),
-    val tags: List<String> = emptyList(),
     val message: String? = null,
     val filtersVisible: Boolean = false,
 ) {
@@ -79,9 +78,8 @@ class TermsListViewModel(
         combine(pageFlow, filter, sort, page) { pg, f, s, p -> Base(pg, f, s, p) },
         languages.observeAll(),
         selected,
-        terms.observeTags(),
         combine(message, filtersVisible) { m, v -> m to v },
-    ) { base, languageList, sel, tagList, (msg, visible) ->
+    ) { base, languageList, sel, (msg, visible) ->
         TermsListUiState(
             loading = false,
             filter = base.filter,
@@ -92,7 +90,6 @@ class TermsListViewModel(
             totalCount = base.page_.totalCount,
             languages = languageList,
             selected = sel,
-            tags = tagList.map { it.text },
             message = msg,
             filtersVisible = visible,
         )
@@ -161,8 +158,6 @@ class TermsListViewModel(
                 term.parents.joinToString(", ") { it.displayText },
                 term.translation.orEmpty(),
                 languageNames[term.languageId].orEmpty(),
-                term.tags.joinToString(", "),
-                "",
                 term.status.value.toString(),
                 if (term.syncStatus) "y" else "",
                 term.romanization.orEmpty(),

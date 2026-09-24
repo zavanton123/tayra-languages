@@ -471,7 +471,7 @@ private fun PanelContent(state: ReadingUiState, viewModel: ReadingViewModel, onN
         is ReadingPanel.NewTerm -> EmbeddedTermForm(TermFormKey.ByText(panel.languageId, panel.text), "new-${panel.languageId}-${panel.text}", viewModel, onNavigate)
         is ReadingPanel.BulkEdit -> Column(Modifier.padding(12.dp)) {
             Text("Updating ${panel.termIds.size} term(s)", style = MaterialTheme.typography.titleMedium)
-            BulkEditDialog(tags = emptyList(), count = panel.termIds.size, onApply = viewModel::applyBulkUpdate, onDismiss = viewModel::closePanel)
+            BulkEditDialog(count = panel.termIds.size, onApply = viewModel::applyBulkUpdate, onDismiss = viewModel::closePanel)
         }
     }
 }

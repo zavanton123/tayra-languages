@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -50,7 +49,6 @@ import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import coil3.compose.AsyncImage
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.model.TermReference
@@ -151,27 +149,18 @@ fun TermFormPanel(
                 modifier = Modifier.fillMaxWidth(),
             )
         }
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.Top) {
-            OutlinedTextField(
-                value = draft.translation,
-                onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
-                label = { Text("Translation") },
-                supportingText = when {
-                    state.lookingUpTranslation -> ({ Text("Looking up translation...") })
-                    state.translationSuggested -> ({ Text("Suggested translation; edit as needed") })
-                    else -> null
-                },
-                minLines = 3,
-                modifier = Modifier.weight(1f),
-            )
-            if (draft.imageSource.isNotBlank()) {
-                AsyncImage(
-                    model = draft.imageSource,
-                    contentDescription = "Term image",
-                    modifier = Modifier.size(96.dp).clip(RoundedCornerShape(6.dp)),
-                )
-            }
-        }
+        OutlinedTextField(
+            value = draft.translation,
+            onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
+            label = { Text("Translation") },
+            supportingText = when {
+                state.lookingUpTranslation -> ({ Text("Looking up translation...") })
+                state.translationSuggested -> ({ Text("Suggested translation; edit as needed") })
+                else -> null
+            },
+            minLines = 3,
+            modifier = Modifier.fillMaxWidth(),
+        )
         StatusSelector(selected = draft.status, onSelect = viewModel::setStatus)
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(
@@ -181,20 +170,6 @@ fun TermFormPanel(
             )
             Text("Link to parent", style = MaterialTheme.typography.bodyMedium)
         }
-        TagInput(
-            values = draft.tags,
-            onValuesChange = { tags -> viewModel.update { it.copy(tags = tags) } },
-            label = "Tags",
-            suggestions = state.tagSuggestions,
-            modifier = Modifier.fillMaxWidth(),
-        )
-        OutlinedTextField(
-            value = draft.imageSource,
-            onValueChange = { v -> viewModel.update { it.copy(imageSource = v) } },
-            label = { Text("Image URL") },
-            singleLine = true,
-            modifier = Modifier.fillMaxWidth(),
-        )
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
             if (!draft.isNew) OutlinedButton(onClick = { confirmDelete = true }) { Text("Delete") }
             Text(
