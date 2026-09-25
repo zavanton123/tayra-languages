@@ -18,7 +18,7 @@ and tags group related terms, and reading statistics track your progress.
 | Dependency injection | Koin |
 | Database | SQLDelight (Android/JVM/native drivers, sql.js web worker on Wasm) |
 | Preferences | multiplatform-settings |
-| Networking | Ktor client with HTTP cache (web page import) |
+| Networking | Ktor client with HTTP cache (web page import, Wiktionary/MyMemory translations, Tatoeba examples) |
 | Serialization | kotlinx.serialization |
 | Files | FileKit (import txt/epub/srt/vtt, CSV export) |
 | Logging | Kermit |

@@ -18,9 +18,28 @@ object LanguageCodes {
         "ukrainian" to "uk", "vietnamese" to "vi", "welsh" to "cy",
     )
 
+    /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
+    private val iso3ByIso1: Map<String, String> = mapOf(
+        "af" to "afr", "sq" to "sqi", "am" to "amh", "ar" to "ara", "hy" to "hye", "az" to "aze", "eu" to "eus", "be" to "bel",
+        "bn" to "ben", "bs" to "bos", "br" to "bre", "bg" to "bul", "ca" to "cat", "zh" to "cmn", "hr" to "hrv", "cs" to "ces",
+        "da" to "dan", "nl" to "nld", "en" to "eng", "eo" to "epo", "et" to "est", "fo" to "fao", "fa" to "pes", "fi" to "fin",
+        "fr" to "fra", "gl" to "glg", "ka" to "kat", "de" to "deu", "el" to "ell", "he" to "heb", "hi" to "hin", "hu" to "hun",
+        "is" to "isl", "id" to "ind", "it" to "ita", "ja" to "jpn", "kk" to "kaz", "km" to "khm", "ko" to "kor", "la" to "lat",
+        "lv" to "lvs", "lt" to "lit", "mk" to "mkd", "no" to "nob", "pl" to "pol", "pt" to "por", "pa" to "pan", "ro" to "ron",
+        "ru" to "rus", "sa" to "san", "sr" to "srp", "sk" to "slk", "sl" to "slv", "es" to "spa", "sw" to "swh", "sv" to "swe",
+        "th" to "tha", "bo" to "bod", "tr" to "tur", "uk" to "ukr", "vi" to "vie", "cy" to "cym", "tok" to "toki", "got" to "got",
+        "nah" to "nah", "nv" to "nav", "ain" to "ain", "ceb" to "ceb", "ryu" to "ryu",
+    )
+
     /** Code for a language name, or null when unknown. Names may carry a variant in parentheses. */
     fun codeFor(languageName: String): String? {
         val key = languageName.trim().lowercase().substringBefore('(').trim()
         return byName[key] ?: byName.entries.firstOrNull { key.startsWith(it.key) }?.value
     }
+
+    /** Tatoeba (ISO 639-3) code for a 639-1 code, or null when unknown. */
+    fun tatoebaCode(iso1: String): String? = iso3ByIso1[iso1.trim().lowercase()]
+
+    /** Tatoeba code for a language name, or null when unknown. */
+    fun tatoebaCodeFor(languageName: String): String? = codeFor(languageName)?.let { tatoebaCode(it) }
 }

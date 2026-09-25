@@ -10,6 +10,8 @@ import com.tayra.languages.core.domain.model.TermReferences
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.repository.TermRepository
+import com.tayra.languages.core.domain.service.ExampleSentence
+import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.TermValidationException
@@ -48,6 +50,8 @@ data class TermFormUiState(
     val translationSuggested: Boolean = false,
     /** True once an autosave has persisted the latest edits. */
     val saved: Boolean = false,
+    val examples: List<ExampleSentence> = emptyList(),
+    val loadingExamples: Boolean = false,
 ) {
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
     val isNew: Boolean get() = draft.isNew
@@ -70,6 +74,7 @@ class TermFormViewModel(
     private val languages: LanguageRepository,
     private val settings: SettingsRepository,
     private val translationProvider: TermTranslationProvider,
+    private val examplesProvider: ExampleSentencesProvider,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(TermFormUiState())
@@ -101,7 +106,18 @@ class TermFormViewModel(
         // Opening the form acknowledges any flash message.
         draft.id?.let { terms.clearFlashMessage(it) }
         _state.update { it.copy(loading = false, draft = draft, languages = languageList) }
-        if (draft.translation.isBlank()) suggestTranslation(draft.text, languageList.firstOrNull { it.id == draft.languageId })
+        val language = languageList.firstOrNull { it.id == draft.languageId }
+        if (draft.translation.isBlank()) suggestTranslation(draft.text, language)
+        loadExamples(draft.text, language)
+    }
+
+    private fun loadExamples(text: String, language: Language?) {
+        if (language == null || text.isBlank()) return
+        _state.update { it.copy(loadingExamples = true) }
+        viewModelScope.launch {
+            val examples = examplesProvider.examples(text, language, settings.current.translationTargetLanguage)
+            _state.update { it.copy(examples = examples, loadingExamples = false) }
+        }
     }
 
     /** Fills an empty translation with a dictionary gloss; never overwrites what the user typed. */

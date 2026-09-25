@@ -3,6 +3,7 @@ package com.tayra.languages.core.data.di
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.network.MyMemoryTranslationProvider
+import com.tayra.languages.core.data.network.TatoebaExamplesProvider
 import com.tayra.languages.core.data.network.TranslationSuggestionProvider
 import com.tayra.languages.core.data.network.WebPageImporter
 import com.tayra.languages.core.data.network.WiktionaryTranslationProvider
@@ -21,6 +22,7 @@ import com.tayra.languages.core.domain.repository.WordsReadRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.DemoDataService
+import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.LanguageService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.StatsService
@@ -48,6 +50,7 @@ val dataModule: Module = module {
 
     single { createHttpClient() }
     single { WebPageImporter(get()) }
+    single<ExampleSentencesProvider> { TatoebaExamplesProvider(get()) }
     single<TermTranslationProvider> {
         TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), MyMemoryTranslationProvider(get(), get()), get())
     }
