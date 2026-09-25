@@ -45,10 +45,12 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.model.TermReference
@@ -241,17 +243,25 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit) {
     }
 }
 
-/** Example sentences from Tatoeba, with the term in bold. */
+/** Example sentences from Tatoeba, with the term in bold. The title links to the Tatoeba search. */
 @Composable
 private fun ExamplesSection(state: TermFormUiState, language: Language?) {
     val uriHandler = LocalUriHandler.current
-    Text("Examples", style = MaterialTheme.typography.labelLarge)
+    val term = state.draft.text.replace("\u200B", "")
+    val searchUrl = "https://tatoeba.org/en/sentences/search?query=" + term.encodeURLParameter() +
+        (language?.let { LanguageCodes.tatoebaCodeFor(it.name) }?.let { "&from=$it" } ?: "")
+    Text(
+        "Examples",
+        style = MaterialTheme.typography.labelLarge,
+        color = MaterialTheme.colorScheme.primary,
+        textDecoration = TextDecoration.Underline,
+        modifier = Modifier.clickable { uriHandler.openUri(searchUrl) },
+    )
     when {
         state.loadingExamples -> Text("Looking up examples...", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         state.examples.isEmpty() -> Text("No examples found.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         else -> {
             val direction = if (language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr
-            val term = state.draft.text.replace("\u200B", "")
             state.examples.forEach { example ->
                 Column(Modifier.padding(vertical = 4.dp)) {
                     Text(emphasize(example.text, term), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction))
@@ -259,9 +269,6 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?) {
                         Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
-            }
-            TextButton(onClick = { uriHandler.openUri("https://tatoeba.org/") }, contentPadding = androidx.compose.foundation.layout.PaddingValues(0.dp)) {
-                Text("Sentences from Tatoeba (CC BY 2.0 FR)", style = MaterialTheme.typography.labelSmall)
             }
         }
     }
