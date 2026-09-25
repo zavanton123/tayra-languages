@@ -17,7 +17,17 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Checkbox
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.PlainTooltip
+import androidx.compose.material3.TooltipBox
+import androidx.compose.material3.TooltipDefaults
+import androidx.compose.material3.rememberTooltipState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
@@ -243,36 +253,67 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit) {
     }
 }
 
-/** Example sentences from Tatoeba, with the term in bold. The title links to the Tatoeba search. */
+/**
+ * Example sentences from Tatoeba, with the term in bold. The title links to the Tatoeba search;
+ * five examples are shown until expanded, and translations appear in a tooltip (hover or long press).
+ */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun ExamplesSection(state: TermFormUiState, language: Language?) {
     val uriHandler = LocalUriHandler.current
     val term = state.draft.text.replace("\u200B", "")
     val searchUrl = "https://tatoeba.org/en/sentences/search?query=" + term.encodeURLParameter() +
         (language?.let { LanguageCodes.tatoebaCodeFor(it.name) }?.let { "&from=$it" } ?: "")
-    Text(
-        "Examples",
-        style = MaterialTheme.typography.labelLarge,
-        color = MaterialTheme.colorScheme.primary,
-        textDecoration = TextDecoration.Underline,
-        modifier = Modifier.clickable { uriHandler.openUri(searchUrl) },
-    )
+    var expanded by remember(term) { mutableStateOf(false) }
+    val canExpand = state.examples.size > VISIBLE_EXAMPLES
+
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Text(
+            "Examples",
+            style = MaterialTheme.typography.labelLarge,
+            color = MaterialTheme.colorScheme.primary,
+            textDecoration = TextDecoration.Underline,
+            modifier = Modifier.clickable { uriHandler.openUri(searchUrl) },
+        )
+        if (canExpand) {
+            IconButton(onClick = { expanded = !expanded }) {
+                Icon(
+                    if (expanded) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
+                    contentDescription = if (expanded) "Show fewer examples" else "Show all ${state.examples.size} examples",
+                )
+            }
+        }
+    }
     when {
         state.loadingExamples -> Text("Looking up examples...", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         state.examples.isEmpty() -> Text("No examples found.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         else -> {
             val direction = if (language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr
-            state.examples.forEach { example ->
-                Column(Modifier.padding(vertical = 4.dp)) {
-                    Text(emphasize(example.text, term), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction))
-                    example.translation?.let {
-                        Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    }
+            val visible = if (expanded) state.examples else state.examples.take(VISIBLE_EXAMPLES)
+            visible.forEach { example ->
+                val sentence = @Composable {
+                    Text(
+                        emphasize(example.text, term),
+                        style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction),
+                        modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
+                    )
+                }
+                val translation = example.translation
+                if (translation == null) {
+                    sentence()
+                } else {
+                    TooltipBox(
+                        positionProvider = TooltipDefaults.rememberPlainTooltipPositionProvider(),
+                        tooltip = { PlainTooltip { Text(translation) } },
+                        state = rememberTooltipState(),
+                    ) { sentence() }
                 }
             }
         }
     }
 }
+
+private const val VISIBLE_EXAMPLES = 5
 
 /**
  * Bolds the words of the sentence that are the term or an inflection of it: a word matches
