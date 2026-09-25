@@ -274,25 +274,29 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?) {
     }
 }
 
-/** Bolds occurrences of the term in the sentence. */
+/**
+ * Bolds the words of the sentence that are the term or an inflection of it: a word matches
+ * when it starts with the term, or with the term minus its last letter for terms of five
+ * letters or more (extranjero → extranjeras).
+ */
 private fun emphasize(sentence: String, term: String) = buildAnnotatedString {
-    if (term.isBlank()) {
+    val needle = term.trim().lowercase()
+    if (needle.isEmpty()) {
         append(sentence)
         return@buildAnnotatedString
     }
+    val stem = if (needle.length >= 5) needle.dropLast(1) else needle
+    val words = Regex("""[\p{L}\p{M}\p{Nd}'’-]+""")
     var index = 0
-    val lower = sentence.lowercase()
-    val needle = term.lowercase()
-    while (index < sentence.length) {
-        val found = lower.indexOf(needle, index)
-        if (found < 0) {
-            append(sentence.substring(index))
-            break
-        }
-        append(sentence.substring(index, found))
-        withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append(sentence.substring(found, found + needle.length)) }
-        index = found + needle.length
+    for (match in words.findAll(sentence)) {
+        append(sentence.substring(index, match.range.first))
+        val word = match.value
+        val lower = word.lowercase()
+        val matches = lower == needle || lower.startsWith(needle) || (needle != stem && lower.startsWith(stem))
+        if (matches) withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append(word) } else append(word)
+        index = match.range.last + 1
     }
+    append(sentence.substring(index))
 }
 
 @Composable
