@@ -197,6 +197,8 @@ fun TermFormPanel(
         }
 
         HorizontalDivider()
+        ExamplesSection(state, language)
+        HorizontalDivider()
         SentencesSection(state, language, onLoad = viewModel::loadReferences)
         if (embedded) Spacer(Modifier.height(24.dp))
     }
@@ -236,6 +238,53 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit) {
                     .padding(horizontal = 12.dp, vertical = 8.dp),
             )
         }
+    }
+}
+
+/** Example sentences from Tatoeba, with the term in bold. */
+@Composable
+private fun ExamplesSection(state: TermFormUiState, language: Language?) {
+    val uriHandler = LocalUriHandler.current
+    Text("Examples", style = MaterialTheme.typography.labelLarge)
+    when {
+        state.loadingExamples -> Text("Looking up examples...", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        state.examples.isEmpty() -> Text("No examples found.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        else -> {
+            val direction = if (language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr
+            val term = state.draft.text.replace("\u200B", "")
+            state.examples.forEach { example ->
+                Column(Modifier.padding(vertical = 4.dp)) {
+                    Text(emphasize(example.text, term), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction))
+                    example.translation?.let {
+                        Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                }
+            }
+            TextButton(onClick = { uriHandler.openUri("https://tatoeba.org/") }, contentPadding = androidx.compose.foundation.layout.PaddingValues(0.dp)) {
+                Text("Sentences from Tatoeba (CC BY 2.0 FR)", style = MaterialTheme.typography.labelSmall)
+            }
+        }
+    }
+}
+
+/** Bolds occurrences of the term in the sentence. */
+private fun emphasize(sentence: String, term: String) = buildAnnotatedString {
+    if (term.isBlank()) {
+        append(sentence)
+        return@buildAnnotatedString
+    }
+    var index = 0
+    val lower = sentence.lowercase()
+    val needle = term.lowercase()
+    while (index < sentence.length) {
+        val found = lower.indexOf(needle, index)
+        if (found < 0) {
+            append(sentence.substring(index))
+            break
+        }
+        append(sentence.substring(index, found))
+        withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append(sentence.substring(found, found + needle.length)) }
+        index = found + needle.length
     }
 }
 
