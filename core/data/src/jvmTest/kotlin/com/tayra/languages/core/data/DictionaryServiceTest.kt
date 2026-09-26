@@ -25,10 +25,10 @@ import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
 class DictionaryServiceTest {
-    private val pack = DictionaryPacks.all.single()
+    private val pack = DictionaryPacks.find(DictionaryId("en", "ru"))!!
     private val enRu = pack.id
 
-    /** Builds a gzip-compressed pack the way tools/build_english_russian_dictionary.py lays it out. */
+    /** Builds a gzip-compressed pack the way tools/build_dictionary.py lays it out. */
     private fun buildPack(format: Int = DictionaryId.FORMAT): ByteArray {
         val file = File.createTempFile("tayra-dict-src", ".sqlite").also { it.delete() }
         val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
@@ -74,11 +74,11 @@ class DictionaryServiceTest {
         val directory = Files.createTempDirectory("tayra-dict").toFile()
         val env = Env(directory, buildPack())
         env.service.refresh()
-        assertEquals(PackState.NotInstalled, env.service.packs.value.single().state)
+        assertEquals(PackState.NotInstalled, env.service.packs.value.first { it.pack == pack }.state)
         assertTrue(!env.service.isAvailable(enRu))
 
         env.service.download(pack)
-        val installed = env.service.packs.value.single().state
+        val installed = env.service.packs.value.first { it.pack == pack }.state
         assertTrue(installed is PackState.Installed && installed.sizeBytes > 0, installed.toString())
         assertEquals(1, env.requests)
         assertTrue(File(directory, "en-ru.sqlite").isFile)
@@ -109,12 +109,12 @@ class DictionaryServiceTest {
         // A fresh service over the same directory sees the pack without downloading again.
         val again = Env(directory, null)
         again.service.refresh()
-        assertTrue(again.service.packs.value.single().state is PackState.Installed)
+        assertTrue(again.service.packs.value.first { it.pack == pack }.state is PackState.Installed)
         assertEquals("слово", again.service.lookup(enRu, "words").suggestedTranslation)
         assertEquals(0, again.requests)
 
         again.service.remove(pack)
-        assertEquals(PackState.NotInstalled, again.service.packs.value.single().state)
+        assertEquals(PackState.NotInstalled, again.service.packs.value.first { it.pack == pack }.state)
         assertTrue(!File(directory, "en-ru.sqlite").exists())
         assertTrue(again.service.lookup(enRu, "cat").isEmpty)
     }
@@ -123,12 +123,12 @@ class DictionaryServiceTest {
     fun failedDownloadsAndForeignFilesAreNotInstalled() = runTest {
         val failing = Env(Files.createTempDirectory("tayra-dict").toFile(), null, HttpStatusCode.NotFound)
         failing.service.download(pack)
-        assertTrue(failing.service.packs.value.single().state is PackState.Failed)
+        assertTrue(failing.service.packs.value.first { it.pack == pack }.state is PackState.Failed)
         assertTrue(!failing.service.isAvailable(enRu))
 
         val foreign = Env(Files.createTempDirectory("tayra-dict").toFile(), buildPack(format = 99))
         foreign.service.download(pack)
-        assertTrue(foreign.service.packs.value.single().state is PackState.Installed)
+        assertTrue(foreign.service.packs.value.first { it.pack == pack }.state is PackState.Installed)
         assertTrue(!foreign.service.isAvailable(enRu), "an unknown format is installed but unusable")
         assertTrue(foreign.service.lookup(enRu, "cat").isEmpty)
     }
