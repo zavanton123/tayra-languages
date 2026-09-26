@@ -29,7 +29,7 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String) 
     val name: String get() = "$sourceLanguage-$targetLanguage"
 
     companion object {
-        /** Dictionaries bundled with the app as prebuilt SQLite files. */
+        /** Dictionaries bundled with the app as gzip-compressed prebuilt SQLite files. */
         val bundled: List<DictionaryId> = listOf(DictionaryId("en", "ru"))
 
         /**
@@ -45,10 +45,10 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String) 
 
 /** Locates the bundled dictionary files produced by tools/build_english_russian_dictionary.py. */
 interface DictionaryAssets {
-    /** The whole SQLite file, for platforms that copy it into app storage; null when not bundled. */
+    /** The gzip-compressed SQLite file, for platforms that unpack it into app storage; null when not bundled. */
     suspend fun readBytes(dictionary: DictionaryId): ByteArray?
 
-    /** A URL the file can be fetched from, for the web; null when not bundled. */
+    /** A URL the compressed file can be fetched from, for the web; null when not bundled. */
     fun uri(dictionary: DictionaryId): String?
 }
 

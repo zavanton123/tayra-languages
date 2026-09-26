@@ -8,8 +8,10 @@ import com.tayra.languages.core.domain.dictionary.DictionaryAssets
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.service.DictionaryService
 import kotlinx.coroutines.test.runTest
+import java.io.ByteArrayOutputStream
 import java.io.File
 import java.nio.file.Files
+import java.util.zip.GZIPOutputStream
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
@@ -18,7 +20,7 @@ import kotlin.test.assertTrue
 class DictionaryServiceTest {
     private val enRu = DictionaryId("en", "ru")
 
-    /** Builds a dictionary file the way tools/build_english_russian_dictionary.py lays it out. */
+    /** Builds a gzip-compressed dictionary file the way tools/build_english_russian_dictionary.py lays it out. */
     private fun buildFile(format: Int = DictionaryId.FORMAT): ByteArray {
         val file = File.createTempFile("tayra-dict-src", ".sqlite").also { it.delete() }
         val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
@@ -43,7 +45,10 @@ class DictionaryServiceTest {
             "PRAGMA user_version = $format",
         ).forEach { driver.execute(null, it, 0) }
         driver.close()
-        return file.readBytes().also { file.delete() }
+        val packed = ByteArrayOutputStream()
+        GZIPOutputStream(packed).use { it.write(file.readBytes()) }
+        file.delete()
+        return packed.toByteArray()
     }
 
     private class FakeAssets(private val bytes: ByteArray?) : DictionaryAssets {

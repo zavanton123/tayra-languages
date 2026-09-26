@@ -44,7 +44,7 @@ actual class DictionaryDriverFactory {
         val stampPath = "$path.format"
         val stamp = NSString.stringWithContentsOfFile(stampPath, encoding = NSUTF8StringEncoding, error = null)
         if (manager.fileExistsAtPath(path) && stamp?.trim() == DictionaryId.FORMAT.toString()) return true
-        val bytes = assets.readBytes(dictionary) ?: return false
+        val bytes = gunzip(assets.readBytes(dictionary) ?: return false)
         manager.createDirectoryAtPath(directory, withIntermediateDirectories = true, attributes = null, error = null)
         val data = bytes.usePinned { pinned -> NSData.create(bytes = pinned.addressOf(0), length = bytes.size.toULong()) }
         check(data.writeToFile(path, atomically = true)) { "Could not write $path" }
