@@ -39,6 +39,7 @@ fun TermEditScreen(
             viewModel = viewModel,
             modifier = Modifier.padding(padding).fillMaxSize().widthIn(max = 720.dp),
             onDuplicateClick = { onNavigate(Route.EditTerm(it)) },
+            onOpenExamples = { languageId, text -> onNavigate(Route.Examples(languageId, text)) },
         )
     }
 }

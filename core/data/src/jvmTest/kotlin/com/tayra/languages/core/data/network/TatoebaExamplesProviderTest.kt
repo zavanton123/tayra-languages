@@ -2,7 +2,10 @@ package com.tayra.languages.core.data.network
 
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSentence
+import com.tayra.languages.core.domain.service.ExampleSort
+import com.tayra.languages.core.domain.service.YesNo
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.mock.MockEngine
 import io.ktor.client.engine.mock.respond
@@ -23,7 +26,7 @@ class TatoebaExamplesProviderTest {
           ]},
           {"id": 5, "text": "Immer noch?", "lang": "deu", "translations": []},
           {"id": 6, "text": "", "lang": "deu", "translations": []}
-        ], "paging": {"total": 3}}
+        ], "paging": {"total": 3, "has_next": true, "next": "https://example.test/sentences?after=1"}}
     """.trimIndent()
 
     @Test
@@ -40,6 +43,33 @@ class TatoebaExamplesProviderTest {
             examples,
         )
         assertEquals(true, url.contains("lang=deu") && url.contains("trans%3Alang=eng") && url.contains("sort=relevance"), url)
+    }
+
+    @Test
+    fun searchSendsFiltersAndFollowsPaging() = runTest {
+        val urls = mutableListOf<String>()
+        val engine = MockEngine { request ->
+            urls.add(request.url.toString())
+            respond(body, HttpStatusCode.OK, headersOf("Content-Type", "application/json"))
+        }
+        val provider = TatoebaExamplesProvider(HttpClient(engine), baseUrl = "https://example.test/sentences")
+        val query = ExampleSearchQuery(
+            text = "immer", language = Language(name = "German"), targetLanguage = "en",
+            minWords = 4, maxWords = null, sort = ExampleSort.SHORTEST, isNative = YesNo.YES, hasAudio = null,
+            tags = listOf("idiom", "!colloquial"), transIsDirect = YesNo.YES, limit = 50,
+        )
+        val result = provider.search(query)
+        assertEquals(3, result.total)
+        assertEquals("https://example.test/sentences?after=1", result.nextPage)
+        val url = urls.single()
+        listOf("word_count=4-", "sort=words", "is_native=yes", "tag=idiom", "tag=%21colloquial", "trans%3Ais_direct=yes", "limit=50", "is_orphan=no", "is_unapproved=no").forEach {
+            assertEquals(true, url.contains(it), "$it in $url")
+        }
+        assertEquals(false, url.contains("has_audio"), url)
+
+        val next = provider.nextPage(result.nextPage!!, "en")
+        assertEquals(2, next.sentences.size)
+        assertEquals("https://example.test/sentences?after=1", urls.last())
     }
 
     @Test
