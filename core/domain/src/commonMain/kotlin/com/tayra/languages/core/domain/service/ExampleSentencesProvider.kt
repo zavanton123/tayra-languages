@@ -61,9 +61,12 @@ data class ExampleSearchResult(
 
 /** Finds example sentences for a term, e.g. from a sentence corpus. */
 interface ExampleSentencesProvider {
-    /** Examples in the term's language, translated into the target language when possible. Never throws. */
-    suspend fun examples(text: String, language: Language, targetLanguage: String, limit: Int = 20): List<ExampleSentence> =
-        search(ExampleSearchQuery(text, language, targetLanguage, minWords = 3, maxWords = 14, limit = limit)).sentences
+    /**
+     * A random handful of short examples in the term's language, translated into the target language
+     * when possible. Never throws.
+     */
+    suspend fun examples(text: String, language: Language, targetLanguage: String, limit: Int = 10): List<ExampleSentence> =
+        search(ExampleSearchQuery(text, language, targetLanguage, minWords = 1, maxWords = 15, sort = ExampleSort.RANDOM, limit = limit)).sentences
 
     suspend fun search(query: ExampleSearchQuery): ExampleSearchResult
 
