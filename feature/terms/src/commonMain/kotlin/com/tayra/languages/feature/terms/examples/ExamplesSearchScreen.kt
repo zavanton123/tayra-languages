@@ -39,7 +39,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSort
-import com.tayra.languages.core.domain.service.SentenceOrigin
 import com.tayra.languages.core.domain.service.YesNo
 import com.tayra.languages.core.ui.audio.rememberAudioPlayer
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -163,58 +162,7 @@ private fun FilterPanel(query: ExampleSearchQuery, viewModel: ExamplesSearchView
             NumberField("Max words", query.maxWords) { v -> viewModel.updateQuery { it.copy(maxWords = v) } }
             Dropdown(ExampleSort.entries, query.sort, { v -> viewModel.updateQuery { it.copy(sort = v) } }, "Sort", { it.label }, Modifier.width(190.dp))
             NumberField("Per page", query.limit) { v -> viewModel.updateQuery { it.copy(limit = (v ?: 30).coerceIn(1, 100)) } }
-        }
-        Text("Sentence", style = MaterialTheme.typography.labelLarge)
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            YesNoField("Has owner (proofread)", query.isOrphan?.let { if (it == YesNo.NO) YesNo.YES else YesNo.NO }) { v ->
-                viewModel.updateQuery { it.copy(isOrphan = v?.let { yn -> if (yn == YesNo.YES) YesNo.NO else YesNo.YES }) }
-            }
-            YesNoField("Approved", query.isUnapproved?.let { if (it == YesNo.NO) YesNo.YES else YesNo.NO }) { v ->
-                viewModel.updateQuery { it.copy(isUnapproved = v?.let { yn -> if (yn == YesNo.YES) YesNo.NO else YesNo.YES }) }
-            }
-            YesNoField("Native speaker", query.isNative) { v -> viewModel.updateQuery { it.copy(isNative = v) } }
             YesNoField("Has audio", query.hasAudio) { v -> viewModel.updateQuery { it.copy(hasAudio = v) } }
-            Dropdown(
-                listOf<SentenceOrigin?>(null) + SentenceOrigin.entries,
-                query.origin,
-                { v -> viewModel.updateQuery { it.copy(origin = v) } },
-                "Origin",
-                { it?.label ?: "Any" },
-                Modifier.width(190.dp),
-            )
-            OutlinedTextField(
-                value = query.tags.joinToString(", "),
-                onValueChange = { v -> viewModel.updateQuery { it.copy(tags = v.split(",").map { t -> t.trim() }) } },
-                label = { Text("Tags (comma-separated, ! to exclude)") },
-                singleLine = true,
-                modifier = Modifier.width(280.dp),
-            )
-            OutlinedTextField(
-                value = query.owner.orEmpty(),
-                onValueChange = { v -> viewModel.updateQuery { it.copy(owner = v) } },
-                label = { Text("Owner") },
-                singleLine = true,
-                modifier = Modifier.width(160.dp),
-            )
-            OutlinedTextField(
-                value = query.listId.orEmpty(),
-                onValueChange = { v -> viewModel.updateQuery { it.copy(listId = v) } },
-                label = { Text("List id") },
-                singleLine = true,
-                modifier = Modifier.width(120.dp),
-            )
-        }
-        Text("Translation", style = MaterialTheme.typography.labelLarge)
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            YesNoField("Direct translation", query.transIsDirect) { v -> viewModel.updateQuery { it.copy(transIsDirect = v) } }
-            YesNoField("By native speaker", query.transIsNative) { v -> viewModel.updateQuery { it.copy(transIsNative = v) } }
-            YesNoField("Has audio", query.transHasAudio) { v -> viewModel.updateQuery { it.copy(transHasAudio = v) } }
-            YesNoField("Approved", query.transIsUnapproved?.let { if (it == YesNo.NO) YesNo.YES else YesNo.NO }) { v ->
-                viewModel.updateQuery { it.copy(transIsUnapproved = v?.let { yn -> if (yn == YesNo.YES) YesNo.NO else YesNo.YES }) }
-            }
-            YesNoField("Has owner", query.transIsOrphan?.let { if (it == YesNo.NO) YesNo.YES else YesNo.NO }) { v ->
-                viewModel.updateQuery { it.copy(transIsOrphan = v?.let { yn -> if (yn == YesNo.YES) YesNo.NO else YesNo.YES }) }
-            }
         }
         HorizontalDivider()
     }
