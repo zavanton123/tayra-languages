@@ -1,0 +1,4 @@
+-- Dictionaries now live in their own prebuilt database files.
+DROP TABLE IF EXISTS dictionary_forms;
+DROP TABLE IF EXISTS dictionary_entries;
+DROP TABLE IF EXISTS dictionary_imports;

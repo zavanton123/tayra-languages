@@ -35,8 +35,8 @@ class AppBootstrapViewModel(
                 demoData.ensureLanguages()
                 _state.value = BootstrapState.Ready
                 bookStats.refreshAll()
-                // Lookups fall back to the network until the bundled dictionaries are in the database.
-                dictionaries.importIfNeeded()
+                // Lookups fall back to the network until the bundled dictionaries are open.
+                dictionaries.warmUp()
             } catch (e: Exception) {
                 Logger.e(e) { "Bootstrap failed" }
                 _state.value = BootstrapState.Failed(e.message ?: e.toString())

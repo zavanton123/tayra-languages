@@ -10,6 +10,7 @@ import com.tayra.languages.core.data.network.WiktionaryTranslationProvider
 import com.tayra.languages.core.data.network.createHttpClient
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.DatabaseMaintenanceImpl
+import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
@@ -38,7 +39,7 @@ import com.tayra.languages.core.domain.settings.SettingsRepository
 import org.koin.core.module.Module
 import org.koin.dsl.module
 
-/** Platform-specific bindings: [com.tayra.languages.core.data.db.DatabaseDriverFactory] and [Settings]. */
+/** Platform-specific bindings: the database driver factories and [Settings]. */
 expect val platformDataModule: Module
 
 val dataModule: Module = module {
@@ -51,8 +52,9 @@ val dataModule: Module = module {
     single<TermRepository> { TermRepositoryImpl(get()) }
     single<WordsReadRepository> { WordsReadRepositoryImpl(get()) }
     single<DatabaseMaintenance> { DatabaseMaintenanceImpl(get()) }
+    single { DictionaryDatabaseProvider(get(), get()) }
     single<DictionaryRepository> { DictionaryRepositoryImpl(get()) }
-    single { DictionaryService(get(), get()) }
+    single { DictionaryService(get()) }
     single<OfflineDictionary> { get<DictionaryService>() }
 
     single { createHttpClient() }

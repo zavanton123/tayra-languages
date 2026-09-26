@@ -19,5 +19,5 @@ captures
 kotlin-js-store/
 
 # Local dictionary dumps
-dictionaries/
+/dictionaries/
 __pycache__/
