@@ -68,5 +68,10 @@ Tests:
 - Languages that need external tokenisers (Japanese via MeCab, Thai, Khmer, Mandarin) are
   listed but not supported yet.
 - Dictionaries open in the platform browser; embedded web views are not used.
-- The web build keeps its database in memory for the session; audio playback, backups
-  and Anki export from Lute are not ported yet.
+- Term pronunciation uses the platform text-to-speech engine: Android `TextToSpeech`,
+  `AVSpeechSynthesizer` on iOS, the Web Speech API in the browser, and the operating
+  system's speech command on desktop (`say` on macOS, System.Speech via PowerShell on
+  Windows, `spd-say` on Linux). Voices for a language must be installed on the device.
+- Example sentence recordings from Tatoeba play on every platform.
+- The web build keeps its database in memory for the session; book audio, backups and
+  Anki export from Lute are not ported yet.
