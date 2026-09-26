@@ -39,7 +39,7 @@ class TatoebaExamplesProviderTest {
         val provider = TatoebaExamplesProvider(HttpClient(engine), baseUrl = "https://example.test/sentences")
         val examples = provider.examples("immer", Language(name = "German"), targetLanguage = "en")
         assertEquals(
-            listOf(ExampleSentence("Ich vertraute ihr immer.", "I've always trusted her.", "https://example.test/audio/9/file"), ExampleSentence("Immer noch?", null)),
+            listOf(ExampleSentence("Ich vertraute ihr immer.", "I've always trusted her.", "https://api.tatoeba.org/v1/audios/9/file"), ExampleSentence("Immer noch?", null)),
             examples,
         )
         assertEquals(true, url.contains("lang=deu") && url.contains("trans%3Alang=eng") && url.contains("sort=relevance") && url.contains("include=audios"), url)
