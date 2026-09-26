@@ -31,7 +31,7 @@ class MyMemoryTranslationProvider(
     override suspend fun suggestTranslation(text: String, language: Language): String? {
         val query = text.replace(ZWS_STRING, "").trim()
         val source = LanguageCodes.codeFor(language.name) ?: return null
-        val target = settings.current.translationTargetLanguage.trim().lowercase().ifEmpty { "en" }
+        val target = settings.current.nativeLanguage.trim().lowercase().ifEmpty { "en" }
         if (query.isEmpty() || source == target) return null
         val body = try {
             val response = client.get(baseUrl) {
@@ -75,7 +75,7 @@ class TranslationSuggestionProvider(
     private val settings: SettingsRepository,
 ) : TermTranslationProvider {
     override suspend fun suggestTranslation(text: String, language: Language): String? {
-        val target = settings.current.translationTargetLanguage.trim().lowercase()
+        val target = settings.current.nativeLanguage.trim().lowercase()
         val providers = if (target.isEmpty() || target == "en") listOf(wiktionary, myMemory) else listOf(myMemory)
         for (provider in providers) provider.suggestTranslation(text, language)?.let { return it }
         return null

@@ -152,7 +152,7 @@ private fun FilterPanel(query: ExampleSearchQuery, viewModel: ExamplesSearchView
             OutlinedTextField(
                 value = query.text,
                 onValueChange = { v -> viewModel.updateQuery { it.copy(text = v) } },
-                label = { Text("Search (${query.language.name} → ${query.targetLanguage})") },
+                label = { Text("Search (${query.language.name} → ${LanguageCodes.option(query.targetLanguage)?.name ?: query.targetLanguage})") },
                 singleLine = true,
                 modifier = Modifier.weight(1f),
             )

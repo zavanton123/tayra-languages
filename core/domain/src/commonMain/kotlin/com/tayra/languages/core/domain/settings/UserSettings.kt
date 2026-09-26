@@ -17,8 +17,8 @@ data class UserSettings(
     val focusMode: Boolean = false,
     val tapSetsStatus: Boolean = false,
     val demoDataLoaded: Boolean = false,
-    /** ISO code of the language translations are suggested in. */
-    val translationTargetLanguage: String = "en",
+    /** ISO 639-1 code of the user's native language; translations and example sentences are shown in it. */
+    val nativeLanguage: String = "en",
     /** Optional contact email sent to MyMemory, which raises its daily quota. */
     val translationContactEmail: String = "",
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
