@@ -65,7 +65,6 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.PopupPositionProvider
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.model.TermReference
@@ -88,6 +87,7 @@ fun TermFormPanel(
     modifier: Modifier = Modifier,
     embedded: Boolean = false,
     onDuplicateClick: ((Long) -> Unit)? = null,
+    onOpenExamples: ((languageId: Long, text: String) -> Unit)? = null,
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     var confirmDelete by remember { mutableStateOf(false) }
@@ -214,7 +214,7 @@ fun TermFormPanel(
         }
 
         HorizontalDivider()
-        ExamplesSection(state, language)
+        ExamplesSection(state, language, onOpenExamples)
         HorizontalDivider()
         SentencesSection(state, language, onLoad = viewModel::loadReferences)
         if (embedded) Spacer(Modifier.height(24.dp))
@@ -259,18 +259,17 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit) {
 }
 
 /**
- * Example sentences from Tatoeba, with the term in bold. The title links to the Tatoeba search;
- * five examples are shown until expanded, and translations appear in a tooltip (hover or long press).
+ * Example sentences from Tatoeba, with the term in bold. The title opens the example search
+ * screen; five examples are shown until expanded, and translations appear in a tooltip
+ * (hover or long press).
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun ExamplesSection(state: TermFormUiState, language: Language?) {
-    val uriHandler = LocalUriHandler.current
+private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenExamples: ((Long, String) -> Unit)?) {
     val term = state.draft.text.replace("\u200B", "")
-    val searchUrl = "https://tatoeba.org/en/sentences/search?query=" + term.encodeURLParameter() +
-        (language?.let { LanguageCodes.tatoebaCodeFor(it.name) }?.let { "&from=$it" } ?: "")
     var expanded by remember(term) { mutableStateOf(false) }
     val canExpand = state.examples.size > VISIBLE_EXAMPLES
+    val languageId = language?.id
 
     Row(verticalAlignment = Alignment.CenterVertically) {
         Text(
@@ -278,7 +277,9 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?) {
             style = MaterialTheme.typography.labelLarge,
             color = MaterialTheme.colorScheme.primary,
             textDecoration = TextDecoration.Underline,
-            modifier = Modifier.clickable { uriHandler.openUri(searchUrl) },
+            modifier = Modifier.clickable(enabled = onOpenExamples != null && languageId != null && term.isNotBlank()) {
+                onOpenExamples?.invoke(languageId!!, term)
+            },
         )
         if (canExpand) {
             IconButton(onClick = { expanded = !expanded }) {
