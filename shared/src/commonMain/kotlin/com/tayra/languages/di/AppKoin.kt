@@ -2,8 +2,6 @@ package com.tayra.languages.di
 
 import com.tayra.languages.bootstrap.AppBootstrapViewModel
 import com.tayra.languages.core.data.di.dataModule
-import com.tayra.languages.core.domain.dictionary.DictionaryAssets
-import com.tayra.languages.dictionary.BundledDictionaryAssets
 import com.tayra.languages.feature.books.booksModule
 import com.tayra.languages.feature.languages.languagesModule
 import com.tayra.languages.feature.reading.readingModule
@@ -16,7 +14,6 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 private val appModule = module {
-    single<DictionaryAssets> { BundledDictionaryAssets() }
     viewModel { AppBootstrapViewModel(get(), get(), get()) }
 }
 

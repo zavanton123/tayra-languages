@@ -29,6 +29,10 @@ class DictionaryRepositoryImpl(private val databases: DictionaryDatabaseProvider
         databases.database(dictionary)?.dictionaryQueries?.selectLemmas(formLc)?.awaitAsList().orEmpty()
     }
 
+    override suspend fun close(dictionary: DictionaryId) {
+        withContext(databaseDispatcher) { databases.close(dictionary) }
+    }
+
     private companion object {
         val json = Json { ignoreUnknownKeys = true }
         val senseListSerializer = ListSerializer(StoredSense.serializer())

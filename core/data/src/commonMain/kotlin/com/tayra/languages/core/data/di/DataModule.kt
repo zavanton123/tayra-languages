@@ -11,6 +11,8 @@ import com.tayra.languages.core.data.network.createHttpClient
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.DatabaseMaintenanceImpl
 import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
+import com.tayra.languages.core.data.dictionary.DictionaryDownloader
+import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
@@ -26,6 +28,7 @@ import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.DemoDataService
 import com.tayra.languages.core.domain.service.DictionaryService
+import com.tayra.languages.core.domain.dictionary.DictionaryPackStore
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.LanguageService
@@ -52,9 +55,11 @@ val dataModule: Module = module {
     single<TermRepository> { TermRepositoryImpl(get()) }
     single<WordsReadRepository> { WordsReadRepositoryImpl(get()) }
     single<DatabaseMaintenance> { DatabaseMaintenanceImpl(get()) }
-    single { DictionaryDatabaseProvider(get(), get()) }
+    single { DictionaryDownloader(get()) }
+    single<DictionaryPackStore> { get<DictionaryPackStorage>() }
+    single { DictionaryDatabaseProvider(get()) }
     single<DictionaryRepository> { DictionaryRepositoryImpl(get()) }
-    single { DictionaryService(get()) }
+    single { DictionaryService(get(), get()) }
     single<OfflineDictionary> { get<DictionaryService>() }
 
     single { createHttpClient() }

@@ -29,30 +29,54 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String) 
     val name: String get() = "$sourceLanguage-$targetLanguage"
 
     companion object {
-        /** Dictionaries bundled with the app as gzip-compressed prebuilt SQLite files. */
-        val bundled: List<DictionaryId> = listOf(DictionaryId("en", "ru"))
-
         /**
-         * The layout of the bundled files, matching the "format" row of their meta table and
+         * The layout of the pack files, matching the "format" row of their meta table and
          * PRAGMA user_version; a file with another format is ignored.
          */
         const val FORMAT = 1
-
-        fun bundledFor(sourceLanguage: String?, targetLanguage: String?): DictionaryId? =
-            bundled.firstOrNull { it.sourceLanguage == sourceLanguage?.lowercase() && it.targetLanguage == targetLanguage?.lowercase() }
     }
 }
 
-/** Locates the bundled dictionary files produced by tools/build_english_russian_dictionary.py. */
-interface DictionaryAssets {
-    /** The gzip-compressed SQLite file, for platforms that unpack it into app storage; null when not bundled. */
-    suspend fun readBytes(dictionary: DictionaryId): ByteArray?
+/** A downloadable dictionary: a gzip-compressed SQLite file produced by tools/build_english_russian_dictionary.py. */
+data class DictionaryPack(val id: DictionaryId, val title: String, val url: String)
 
-    /** A URL the compressed file can be fetched from, for the web; null when not bundled. */
-    fun uri(dictionary: DictionaryId): String?
+/** The packs the app knows how to download. */
+object DictionaryPacks {
+    val all: List<DictionaryPack> = listOf(
+        DictionaryPack(
+            DictionaryId("en", "ru"),
+            "English → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/en-ru.sqlite.gzip",
+        ),
+    )
+
+    fun find(id: DictionaryId): DictionaryPack? = all.firstOrNull { it.id == id }
+
+    fun find(sourceLanguage: String?, targetLanguage: String?): DictionaryPack? =
+        all.firstOrNull { it.id.sourceLanguage == sourceLanguage?.lowercase() && it.id.targetLanguage == targetLanguage?.lowercase() }
 }
 
-/** Looks words up in the bundled dictionaries. */
+/** Whether a pack is on the device. */
+sealed interface PackState {
+    data object NotInstalled : PackState
+    /** [progress] is 0..1, or null when the size is unknown. */
+    data class Downloading(val progress: Float?) : PackState
+    data class Installed(val sizeBytes: Long) : PackState
+    data class Failed(val message: String) : PackState
+}
+
+data class PackStatus(val pack: DictionaryPack, val state: PackState)
+
+/** Keeps downloaded packs on the device: files on Android, iOS and desktop, the browser cache on the web. */
+interface DictionaryPackStore {
+    /** Size of the installed pack in bytes, or null when it is not installed. */
+    suspend fun installedSize(pack: DictionaryPack): Long?
+    /** Downloads and stores the pack, reporting progress 0..1 (or null when unknown). Throws when the download fails. */
+    suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit)
+    suspend fun remove(pack: DictionaryPack)
+}
+
+/** Looks words up in the installed dictionaries. */
 interface OfflineDictionary {
     suspend fun isAvailable(dictionary: DictionaryId): Boolean
     suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup

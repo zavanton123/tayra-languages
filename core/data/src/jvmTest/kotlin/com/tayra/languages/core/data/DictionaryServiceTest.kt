@@ -2,11 +2,18 @@ package com.tayra.languages.core.data
 
 import app.cash.sqldelight.driver.jdbc.sqlite.JdbcSqliteDriver
 import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
-import com.tayra.languages.core.data.dictionary.DictionaryDriverFactory
+import com.tayra.languages.core.data.dictionary.DictionaryDownloader
+import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
-import com.tayra.languages.core.domain.dictionary.DictionaryAssets
 import com.tayra.languages.core.domain.dictionary.DictionaryId
+import com.tayra.languages.core.domain.dictionary.DictionaryPacks
+import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.service.DictionaryService
+import io.ktor.client.HttpClient
+import io.ktor.client.engine.mock.MockEngine
+import io.ktor.client.engine.mock.respond
+import io.ktor.client.engine.mock.respondError
+import io.ktor.http.HttpStatusCode
 import kotlinx.coroutines.test.runTest
 import java.io.ByteArrayOutputStream
 import java.io.File
@@ -18,10 +25,11 @@ import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
 class DictionaryServiceTest {
-    private val enRu = DictionaryId("en", "ru")
+    private val pack = DictionaryPacks.all.single()
+    private val enRu = pack.id
 
-    /** Builds a gzip-compressed dictionary file the way tools/build_english_russian_dictionary.py lays it out. */
-    private fun buildFile(format: Int = DictionaryId.FORMAT): ByteArray {
+    /** Builds a gzip-compressed pack the way tools/build_english_russian_dictionary.py lays it out. */
+    private fun buildPack(format: Int = DictionaryId.FORMAT): ByteArray {
         val file = File.createTempFile("tayra-dict-src", ".sqlite").also { it.delete() }
         val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
         listOf(
@@ -51,65 +59,77 @@ class DictionaryServiceTest {
         return packed.toByteArray()
     }
 
-    private class FakeAssets(private val bytes: ByteArray?) : DictionaryAssets {
-        var reads = 0
-        override suspend fun readBytes(dictionary: DictionaryId): ByteArray? = bytes.also { reads++ }
-        override fun uri(dictionary: DictionaryId): String? = null
+    private class Env(directory: File, body: ByteArray?, status: HttpStatusCode = HttpStatusCode.OK) {
+        var requests = 0
+        private val client = HttpClient(MockEngine { request ->
+            requests++
+            if (body == null) respondError(status) else respond(body, status)
+        })
+        val storage = DictionaryPackStorage(DictionaryDownloader(client), directory)
+        val service = DictionaryService(storage, DictionaryRepositoryImpl(DictionaryDatabaseProvider(storage)))
     }
 
-    private fun service(directory: File, assets: DictionaryAssets): DictionaryService =
-        DictionaryService(DictionaryRepositoryImpl(DictionaryDatabaseProvider(DictionaryDriverFactory(directory), assets)))
-
     @Test
-    fun copiesTheFileOnceAndResolvesForms() = runTest {
+    fun downloadsInstallsAndResolvesForms() = runTest {
         val directory = Files.createTempDirectory("tayra-dict").toFile()
-        val assets = FakeAssets(buildFile())
-        val service = service(directory, assets)
-        assertTrue(service.isAvailable(enRu))
-        assertEquals(DictionaryId.FORMAT.toString(), File(directory, "en-ru.sqlite.format").readText())
+        val env = Env(directory, buildPack())
+        env.service.refresh()
+        assertEquals(PackState.NotInstalled, env.service.packs.value.single().state)
+        assertTrue(!env.service.isAvailable(enRu))
 
-        val cats = service.lookup(enRu, "Cats")
+        env.service.download(pack)
+        val installed = env.service.packs.value.single().state
+        assertTrue(installed is PackState.Installed && installed.sizeBytes > 0, installed.toString())
+        assertEquals(1, env.requests)
+        assertTrue(File(directory, "en-ru.sqlite").isFile)
+        assertTrue(env.service.isAvailable(enRu))
+
+        val cats = env.service.lookup(enRu, "Cats")
         assertEquals(listOf("cat"), cats.lemmas)
         assertEquals("cat", cats.parentSuggestion)
         assertEquals("кошка, кот", cats.suggestedTranslation)
         assertEquals(listOf("derogatory"), cats.entries.single().senses[1].tags)
         assertEquals("[kæt]", cats.entries.single().ipa)
         assertTrue(!cats.entries.single().isOwnEntry)
+        assertEquals("do", env.service.lookup(enRu, "done").parentSuggestion)
 
-        assertEquals("do", service.lookup(enRu, "done").parentSuggestion)
-
-        val left = service.lookup(enRu, "left")
+        val left = env.service.lookup(enRu, "left")
         assertEquals(listOf("left", "leave"), left.entries.map { it.word })
         assertNull(left.parentSuggestion, "a headword of its own is not given a parent")
-        assertEquals("левый", left.suggestedTranslation)
 
-        val went = service.lookup(enRu, "went")
-        assertEquals(listOf("go", "wend"), went.lemmas)
-        assertNull(went.parentSuggestion, "ambiguous forms get no parent")
+        assertEquals(listOf("go", "wend"), env.service.lookup(enRu, "went").lemmas)
+        assertNull(env.service.lookup(enRu, "went").parentSuggestion, "ambiguous forms get no parent")
 
-        val words = service.lookup(enRu, "words")
+        val words = env.service.lookup(enRu, "words")
         assertEquals(listOf("word"), words.lemmas, "the common noun beats the surname for a lowercase word")
         assertEquals("слово", words.suggestedTranslation)
-        assertEquals(listOf("Word"), service.lookup(enRu, "Words").lemmas)
-        assertEquals(listOf("word", "Word"), service.lookup(enRu, "word").entries.map { it.word })
+        assertEquals(listOf("Word"), env.service.lookup(enRu, "Words").lemmas)
+        assertTrue(env.service.lookup(enRu, "xyzzy").isEmpty)
 
-        assertTrue(service.lookup(enRu, "xyzzy").isEmpty)
-        assertTrue(service.lookup(enRu, "  ").isEmpty)
-        assertEquals(1, assets.reads)
+        // A fresh service over the same directory sees the pack without downloading again.
+        val again = Env(directory, null)
+        again.service.refresh()
+        assertTrue(again.service.packs.value.single().state is PackState.Installed)
+        assertEquals("слово", again.service.lookup(enRu, "words").suggestedTranslation)
+        assertEquals(0, again.requests)
 
-        // A second provider over the same directory reuses the copied file instead of the asset.
-        val untouched = FakeAssets(null)
-        assertTrue(service(directory, untouched).isAvailable(enRu))
-        assertEquals(0, untouched.reads)
+        again.service.remove(pack)
+        assertEquals(PackState.NotInstalled, again.service.packs.value.single().state)
+        assertTrue(!File(directory, "en-ru.sqlite").exists())
+        assertTrue(again.service.lookup(enRu, "cat").isEmpty)
     }
 
     @Test
-    fun missingOrForeignFilesAreUnavailable() = runTest {
-        val missing = service(Files.createTempDirectory("tayra-dict").toFile(), FakeAssets(null))
-        assertTrue(!missing.isAvailable(enRu))
-        assertTrue(missing.lookup(enRu, "cat").isEmpty)
+    fun failedDownloadsAndForeignFilesAreNotInstalled() = runTest {
+        val failing = Env(Files.createTempDirectory("tayra-dict").toFile(), null, HttpStatusCode.NotFound)
+        failing.service.download(pack)
+        assertTrue(failing.service.packs.value.single().state is PackState.Failed)
+        assertTrue(!failing.service.isAvailable(enRu))
 
-        val foreign = service(Files.createTempDirectory("tayra-dict").toFile(), FakeAssets(buildFile(format = 99)))
-        assertTrue(!foreign.isAvailable(enRu))
+        val foreign = Env(Files.createTempDirectory("tayra-dict").toFile(), buildPack(format = 99))
+        foreign.service.download(pack)
+        assertTrue(foreign.service.packs.value.single().state is PackState.Installed)
+        assertTrue(!foreign.service.isAvailable(enRu), "an unknown format is installed but unusable")
+        assertTrue(foreign.service.lookup(enRu, "cat").isEmpty)
     }
 }
