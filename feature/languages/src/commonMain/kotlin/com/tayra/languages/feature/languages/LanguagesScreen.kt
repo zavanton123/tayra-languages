@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -19,29 +18,20 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.model.LanguageSummary
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
 
-/**
- * Lists the languages that can be learned. The catalog languages are always present and can
- * only have their settings edited; languages left over from earlier versions can be deleted.
- */
+/** Lists the catalog languages; only their dictionaries and text settings can be changed. */
 @Composable
 fun LanguagesScreen(onNavigate: (Route) -> Unit, viewModel: LanguagesViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
-    var pendingDelete by remember { mutableStateOf<LanguageSummary?>(null) }
 
     Scaffold(topBar = { AppTopBar(title = "Languages", onNavigate = onNavigate) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
@@ -56,32 +46,17 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, viewModel: LanguagesViewModel =
             } else {
                 LazyColumn(Modifier.fillMaxSize()) {
                     items(state.languages, key = { it.id }) { language ->
-                        LanguageRow(
-                            language = language,
-                            onEdit = { onNavigate(Route.EditLanguage(language.id)) },
-                            onDelete = if (LanguageCatalog.isTarget(language.name)) null else ({ pendingDelete = language }),
-                        )
+                        LanguageRow(language = language, onEdit = { onNavigate(Route.EditLanguage(language.id)) })
                         HorizontalDivider()
                     }
                 }
             }
         }
     }
-
-    pendingDelete?.let { language ->
-        ConfirmDialog(
-            title = "Delete ${language.name}?",
-            text = "Deleting a language deletes all its books and terms. This cannot be undone.",
-            confirmLabel = "Delete",
-            destructive = true,
-            onConfirm = { viewModel.delete(language.id); pendingDelete = null },
-            onDismiss = { pendingDelete = null },
-        )
-    }
 }
 
 @Composable
-private fun LanguageRow(language: LanguageSummary, onEdit: () -> Unit, onDelete: (() -> Unit)?) {
+private fun LanguageRow(language: LanguageSummary, onEdit: () -> Unit) {
     Row(
         Modifier.fillMaxWidth().clickable(onClick = onEdit).padding(horizontal = 16.dp, vertical = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -95,6 +70,5 @@ private fun LanguageRow(language: LanguageSummary, onEdit: () -> Unit, onDelete:
             )
         }
         IconButton(onClick = onEdit) { Icon(Icons.Default.Edit, contentDescription = "Edit") }
-        if (onDelete != null) IconButton(onClick = onDelete) { Icon(Icons.Default.Delete, contentDescription = "Delete") }
     }
 }

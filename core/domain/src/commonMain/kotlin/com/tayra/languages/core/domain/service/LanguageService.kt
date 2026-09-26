@@ -24,11 +24,19 @@ class LanguageService(
 
     fun predefined(name: String): LanguageDefinition? = predefined().firstOrNull { it.name == name }
 
-    /** Creates any catalog language missing from the database, optionally with its sample stories. */
-    suspend fun ensureTargetLanguages(withStories: Boolean = true) {
-        val existing = languages.getAll().map { it.name.lowercase() }.toSet()
+    /**
+     * Makes the database match the catalog: missing target languages are created, optionally
+     * with their sample stories, and languages outside the catalog are removed with their books
+     * and terms.
+     */
+    suspend fun syncWithCatalog(withStories: Boolean = true) {
+        val existing = languages.getAll()
+        for (language in existing) {
+            if (!LanguageCatalog.isTarget(language.name)) delete(language.id)
+        }
+        val names = existing.map { it.name.lowercase() }.toSet()
         for (name in LanguageCatalog.targetLanguages) {
-            if (name.lowercase() !in existing) loadPredefined(name, withStories)
+            if (name.lowercase() !in names) loadPredefined(name, withStories)
         }
     }
 
@@ -79,9 +87,7 @@ class LanguageService(
         }
     }
 
-    suspend fun delete(languageId: Long) {
-        val language = languages.getById(languageId) ?: return
-        if (LanguageCatalog.isTarget(language.name)) throw LanguageValidationException("${language.name} cannot be deleted")
+    private suspend fun delete(languageId: Long) {
         languages.delete(languageId)
         if (settings.current.currentLanguageId == languageId) settings.update { it.copy(currentLanguageId = 0) }
     }

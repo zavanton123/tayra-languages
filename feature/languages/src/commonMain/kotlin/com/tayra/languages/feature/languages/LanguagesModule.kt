@@ -9,7 +9,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val languagesModule = module {
-    viewModel { LanguagesViewModel(get(), get()) }
+    viewModel { LanguagesViewModel(get()) }
     viewModel { (languageId: Long) -> LanguageEditViewModel(languageId, get(), get()) }
 }
 

@@ -91,7 +91,9 @@ The same artifacts can be built locally:
   target languages are created on first start with sample texts and the tutorial, taken
   from the [Lute language definitions](https://github.com/LuteOrg/lute-language-defs);
   regenerate `PredefinedLanguages.kt` with `tools/generate_language_defs.py`. Their
-  dictionaries and text settings can be edited, but languages cannot be created or renamed.
+  dictionaries and text settings can be edited, but languages cannot be created, renamed or
+  deleted; any other language found in the database is removed on start together with its
+  books and terms.
 - The bundled language definitions also cover many other languages; those that need external
   tokenisers (Japanese via MeCab, Thai, Khmer, Mandarin) are not supported.
 - Dictionaries open in the platform browser; embedded web views are not used.
