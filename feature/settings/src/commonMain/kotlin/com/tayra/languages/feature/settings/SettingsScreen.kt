@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -73,14 +74,19 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 modifier = Modifier.fillMaxWidth(),
             )
 
-            Section("Translation suggestions")
-            OutlinedTextField(
-                value = settings.translationTargetLanguage,
-                onValueChange = { v -> viewModel.update { it.copy(translationTargetLanguage = v.trim().lowercase()) } },
-                label = { Text("Translate to (language code)") },
-                supportingText = { Text("ISO code of your language, e.g. en, de, ru. English uses Wiktionary with MyMemory as fallback; other languages use MyMemory.") },
-                singleLine = true,
+            Section("Translation")
+            Dropdown(
+                options = LanguageCodes.options,
+                selected = LanguageCodes.option(settings.nativeLanguage),
+                onSelect = { option -> viewModel.update { it.copy(nativeLanguage = option.code) } },
+                label = "Native language",
+                optionLabel = { it.name },
                 modifier = Modifier.fillMaxWidth(),
+            )
+            Text(
+                "Translation suggestions and example sentence translations are shown in this language. English uses Wiktionary with MyMemory as fallback; other languages use MyMemory.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
             OutlinedTextField(
                 value = settings.translationContactEmail,

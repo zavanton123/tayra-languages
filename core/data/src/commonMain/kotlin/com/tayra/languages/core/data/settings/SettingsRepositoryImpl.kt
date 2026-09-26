@@ -50,7 +50,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
             focusMode = store.getBoolean(Keys.FOCUS_MODE, defaults.focusMode),
             tapSetsStatus = store.getBoolean(Keys.TAP_SETS_STATUS, defaults.tapSetsStatus),
             demoDataLoaded = store.getBoolean(Keys.DEMO_DATA, defaults.demoDataLoaded),
-            translationTargetLanguage = store.getString(Keys.TRANSLATION_TARGET, defaults.translationTargetLanguage),
+            nativeLanguage = store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
             hotkeys = HotkeyAction.entries.associateWith { action ->
                 val stored = store.getStringOrNull(action.settingKey)
@@ -73,7 +73,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         store.putBoolean(Keys.FOCUS_MODE, s.focusMode)
         store.putBoolean(Keys.TAP_SETS_STATUS, s.tapSetsStatus)
         store.putBoolean(Keys.DEMO_DATA, s.demoDataLoaded)
-        store.putString(Keys.TRANSLATION_TARGET, s.translationTargetLanguage)
+        store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
@@ -94,7 +94,8 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         const val FOCUS_MODE = "reading_focus_mode"
         const val TAP_SETS_STATUS = "reading_tap_sets_status"
         const val DEMO_DATA = "is_demo_data"
-        const val TRANSLATION_TARGET = "translation_target_language"
+        const val NATIVE_LANGUAGE = "native_language"
+        const val LEGACY_TRANSLATION_TARGET = "translation_target_language"
         const val TRANSLATION_EMAIL = "translation_contact_email"
     }
 }

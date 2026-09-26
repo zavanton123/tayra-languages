@@ -115,7 +115,7 @@ class TermFormViewModel(
         if (language == null || text.isBlank()) return
         _state.update { it.copy(loadingExamples = true) }
         viewModelScope.launch {
-            val examples = examplesProvider.examples(text, language, settings.current.translationTargetLanguage)
+            val examples = examplesProvider.examples(text, language, settings.current.nativeLanguage)
             _state.update { it.copy(examples = examples, loadingExamples = false) }
         }
     }

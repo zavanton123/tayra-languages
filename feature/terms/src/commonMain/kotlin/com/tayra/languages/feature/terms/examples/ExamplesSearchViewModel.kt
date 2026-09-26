@@ -52,7 +52,7 @@ class ExamplesSearchViewModel(
             val query = ExampleSearchQuery(
                 text = initialText,
                 language = language,
-                targetLanguage = settings.current.translationTargetLanguage.ifBlank { "en" },
+                targetLanguage = settings.current.nativeLanguage.ifBlank { "en" },
                 minWords = 3,
                 maxWords = 14,
             )

@@ -1,5 +1,8 @@
 package com.tayra.languages.core.domain.language
 
+/** A language the user can pick as their native language. */
+data class LanguageOption(val code: String, val name: String)
+
 /** ISO 639-1 (or 639-3 where no two-letter code exists) codes for the predefined language names. */
 object LanguageCodes {
     private val byName: Map<String, String> = mapOf(
@@ -30,6 +33,15 @@ object LanguageCodes {
         "th" to "tha", "bo" to "bod", "tr" to "tur", "uk" to "ukr", "vi" to "vie", "cy" to "cym", "tok" to "toki", "got" to "got",
         "nah" to "nah", "nv" to "nav", "ain" to "ain", "ceb" to "ceb", "ryu" to "ryu",
     )
+
+    /** Every known language once, by its shortest name, sorted by name. */
+    val options: List<LanguageOption> = byName.entries
+        .groupBy({ it.value }, { it.key })
+        .map { (code, names) -> LanguageOption(code, names.minBy { it.length }.replaceFirstChar { it.uppercase() }) }
+        .sortedBy { it.name }
+
+    /** The option for a code, or null when unknown. */
+    fun option(code: String): LanguageOption? = options.firstOrNull { it.code == code.trim().lowercase() }
 
     /** Code for a language name, or null when unknown. Names may carry a variant in parentheses. */
     fun codeFor(languageName: String): String? {
