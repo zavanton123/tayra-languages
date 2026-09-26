@@ -66,6 +66,7 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.PopupPositionProvider
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.model.TermReference
@@ -75,6 +76,7 @@ import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.audio.PlayButton
+import com.tayra.languages.core.ui.audio.SpeakButton
 import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.ui.components.TagInput
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -141,6 +143,7 @@ fun TermFormPanel(
             onValueChange = { text -> viewModel.update { it.copy(text = text) } },
             label = { Text("Term") },
             singleLine = true,
+            trailingIcon = { SpeakButton(draft.text, language?.let { LanguageCodes.codeFor(it.name) }) },
             textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
             modifier = Modifier.fillMaxWidth().focusRequester(focusRequester),
         )
