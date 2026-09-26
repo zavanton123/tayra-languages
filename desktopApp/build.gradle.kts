@@ -13,6 +13,12 @@ dependencies {
     implementation(libs.filekit.dialogs.compose)
 }
 
+// macOS installers need MAJOR.MINOR.PATCH with a major version of at least 1, so tags below
+// 1.0.0 are packaged as 1.0.0 with the real version kept in the file name by the release workflow.
+val desktopVersion = providers.gradleProperty("releaseVersion")
+    .map { if (Regex("[1-9]\\d*\\.\\d+\\.\\d+").matches(it)) it else "1.0.0" }
+    .orElse("1.0.0")
+
 compose.desktop {
     application {
         mainClass = "com.tayra.languages.desktop.MainKt"
@@ -20,7 +26,7 @@ compose.desktop {
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "TayraLanguages"
-            packageVersion = "1.0.0"
+            packageVersion = desktopVersion.get()
         }
     }
 }

@@ -60,6 +60,30 @@ Tests:
 ./gradlew :core:domain:wasmJsBrowserTest       # parser tests in a headless browser
 ```
 
+## Releases
+
+Publishing a GitHub release runs `.github/workflows/release.yml`, which builds a release APK
+on Linux and a macOS DMG on an Apple Silicon runner and attaches both to the release. The
+workflow can also be started by hand from the Actions tab for an existing tag.
+
+- The tag gives the version: `v0.1.0` produces `TayraLanguages-0.1.0.apk` with the workflow
+  run number as the Android version code. macOS installers need a major version of at least
+  1, so tags below `1.0.0` are packaged as `1.0.0` inside the DMG; the file name keeps the
+  tag version.
+- To sign the APK with a release key, add the repository secrets `ANDROID_KEYSTORE_BASE64`
+  (the keystore file encoded with `base64`), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`
+  and `ANDROID_KEY_PASSWORD`. Without them the APK is signed with the debug key, which
+  installs fine but cannot update an app signed with another key.
+- The DMG is neither signed nor notarized, so macOS asks for confirmation on first launch
+  (right-click the app and choose Open).
+
+The same artifacts can be built locally:
+
+```bash
+./gradlew :androidApp:assembleRelease -PreleaseVersion=0.1.0 -PversionCode=1
+./gradlew :desktopApp:packageDmg -PreleaseVersion=0.1.0
+```
+
 ## Notes
 
 - On first start the database is seeded with a tutorial and sample languages from the
