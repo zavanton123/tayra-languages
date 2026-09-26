@@ -12,6 +12,10 @@ dependencies {
     implementation(libs.filekit.dialogs.compose)
 }
 
+// Release builds pass the version from the git tag; local builds fall back to these values.
+val releaseVersion = providers.gradleProperty("releaseVersion").orElse("0.1.0")
+val releaseVersionCode = providers.gradleProperty("versionCode").map { it.toInt() }.orElse(1)
+
 android {
     namespace = "com.tayra.languages.android"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
@@ -20,8 +24,21 @@ android {
         applicationId = "com.tayra.languages"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = releaseVersionCode.get()
+        versionName = releaseVersion.get()
+    }
+    signingConfigs {
+        // A keystore from the environment signs published releases; without one the debug key
+        // is used so that the release APK still installs.
+        val keystore = providers.environmentVariable("ANDROID_KEYSTORE_FILE").orNull
+        if (!keystore.isNullOrBlank()) {
+            create("release") {
+                storeFile = file(keystore)
+                storePassword = providers.environmentVariable("ANDROID_KEYSTORE_PASSWORD").orNull
+                keyAlias = providers.environmentVariable("ANDROID_KEY_ALIAS").orNull
+                keyPassword = providers.environmentVariable("ANDROID_KEY_PASSWORD").orNull
+            }
+        }
     }
     packaging {
         resources {
@@ -31,6 +48,7 @@ android {
     buildTypes {
         getByName("release") {
             isMinifyEnabled = false
+            signingConfig = signingConfigs.findByName("release") ?: signingConfigs.getByName("debug")
         }
     }
     compileOptions {
