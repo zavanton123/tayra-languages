@@ -8,7 +8,6 @@ import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSentence
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.ExampleSort
-import com.tayra.languages.core.domain.service.YesNo
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -57,7 +56,6 @@ class ExamplesSearchViewModel(
                 minWords = 1,
                 maxWords = 50,
                 sort = ExampleSort.RANDOM,
-                hasAudio = YesNo.YES,
                 limit = 10,
             )
             _state.update { it.copy(loading = false, language = language, query = query) }
