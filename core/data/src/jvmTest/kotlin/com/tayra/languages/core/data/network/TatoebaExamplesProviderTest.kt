@@ -42,7 +42,10 @@ class TatoebaExamplesProviderTest {
             listOf(ExampleSentence("Ich vertraute ihr immer.", "I've always trusted her.", "https://api.tatoeba.org/v1/audios/9/file"), ExampleSentence("Immer noch?", null)),
             examples,
         )
-        assertEquals(true, url.contains("lang=deu") && url.contains("trans%3Alang=eng") && url.contains("sort=relevance") && url.contains("include=audios"), url)
+        listOf("lang=deu", "trans%3Alang=eng", "sort=random", "word_count=1-15", "limit=10", "include=audios").forEach {
+            assertEquals(true, url.contains(it), "$it in $url")
+        }
+        assertEquals(false, url.contains("has_audio"), url)
     }
 
     @Test
