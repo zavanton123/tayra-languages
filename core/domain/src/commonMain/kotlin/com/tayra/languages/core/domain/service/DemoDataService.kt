@@ -6,8 +6,9 @@ import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 
 /**
- * Keeps the catalog languages in the database. On first start they arrive with their sample
- * stories and the tutorial, and the home page explains the demo data until dismissed.
+ * Keeps the database in step with the language catalog. On first start the languages arrive
+ * with their sample stories and the tutorial, and the home page explains the demo data until
+ * dismissed.
  */
 class DemoDataService(
     private val maintenance: DatabaseMaintenance,
@@ -20,7 +21,7 @@ class DemoDataService(
 
     suspend fun ensureLanguages() {
         val firstStart = !maintenance.hasAnyLanguage()
-        languageService.ensureTargetLanguages()
+        languageService.syncWithCatalog()
         if (firstStart) settings.update { it.copy(demoDataLoaded = true, currentLanguageId = 0) }
     }
 
@@ -38,7 +39,7 @@ class DemoDataService(
     suspend fun wipeDatabase() {
         maintenance.wipeAllData()
         settings.update { it.copy(demoDataLoaded = false, currentLanguageId = 0) }
-        languageService.ensureTargetLanguages(withStories = false)
+        languageService.syncWithCatalog(withStories = false)
     }
 
     companion object {

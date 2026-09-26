@@ -205,14 +205,16 @@ class RepositoryIntegrationTest {
     }
 
     @Test
-    fun missingCatalogLanguagesAreAddedToAnExistingDatabase() = runTest {
+    fun existingDatabaseIsBroughtInLineWithTheCatalog() = runTest {
         val env = Env()
         val englishId = env.english()
+        val spanishId = env.languages.save(env.languages.getById(englishId)!!.copy(id = 0, name = "Spanish"))
+        env.bookService.create(BookDraft(languageId = spanishId, title = "Hola", text = "Hola mundo."))
         env.demo.ensureLanguages()
         assertTrue(!env.demo.isDemoData)
         assertEquals(englishId, env.languages.findByName("English")?.id)
         assertEquals(listOf("English", "German", "Portuguese"), env.languages.getAll().map { it.name }.sorted())
-        assertFailsWith<LanguageValidationException> { env.languageService.delete(englishId) }
+        assertTrue(env.books.getBooks().none { it.title == "Hola" })
         assertFailsWith<LanguageValidationException> { env.languageService.save(Language(name = "Klingon")) }
     }
 }
