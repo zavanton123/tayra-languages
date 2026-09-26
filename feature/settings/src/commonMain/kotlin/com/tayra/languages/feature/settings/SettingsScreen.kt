@@ -9,7 +9,10 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Button
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Slider
@@ -23,7 +26,11 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
+import com.tayra.languages.core.domain.dictionary.DictionaryPack
+import com.tayra.languages.core.domain.dictionary.PackState
+import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.language.LanguageCatalog
+import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -34,14 +41,18 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 
-class SettingsViewModel(private val settings: SettingsRepository) : ViewModel() {
+class SettingsViewModel(private val settings: SettingsRepository, private val dictionaries: DictionaryService) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
+    val packs: StateFlow<List<PackStatus>> = dictionaries.packs
     fun update(transform: (UserSettings) -> UserSettings) = viewModelScope.launch { settings.update(transform) }
+    fun download(pack: DictionaryPack) = viewModelScope.launch { dictionaries.download(pack) }
+    fun remove(pack: DictionaryPack) = viewModelScope.launch { dictionaries.remove(pack) }
 }
 
 @Composable
 fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = koinViewModel()) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
+    val packs by viewModel.packs.collectAsStateWithLifecycle()
     Scaffold(topBar = { AppTopBar(title = "Settings", onNavigate = onNavigate) }) { padding ->
         Column(
             Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 720.dp),
@@ -84,7 +95,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(
-                "Translation suggestions and example sentence translations are shown in this language. English texts with Russian as native language use the built-in offline dictionary; otherwise English uses Wiktionary with MyMemory as fallback and other languages use MyMemory.",
+                "Translation suggestions and example sentence translations are shown in this language. With a downloaded dictionary for the text's language and this one, lookups work offline; otherwise English uses Wiktionary with MyMemory as fallback and other languages use MyMemory.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -97,6 +108,14 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 modifier = Modifier.fillMaxWidth(),
             )
 
+            Section("Offline dictionaries")
+            Text(
+                "Downloaded dictionaries translate words without a network connection and link inflected forms to their base word.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            packs.forEach { status -> PackRow(status, onDownload = { viewModel.download(status.pack) }, onRemove = { viewModel.remove(status.pack) }) }
+
             Section("Term popups")
             SwitchRow("Promote parent translation to term translation if possible", settings.promoteParentTranslation) { v -> viewModel.update { it.copy(promoteParentTranslation = v) } }
             SwitchRow("Show component terms", settings.showComponents) { v -> viewModel.update { it.copy(showComponents = v) } }
@@ -107,6 +126,43 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
 @Composable
 private fun Section(title: String) {
     Text(title, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 8.dp))
+}
+
+@Composable
+private fun PackRow(status: PackStatus, onDownload: () -> Unit, onRemove: () -> Unit) {
+    val state = status.state
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(Modifier.weight(1f)) {
+            Text(status.pack.title, style = MaterialTheme.typography.bodyMedium)
+            val detail = when (state) {
+                PackState.NotInstalled -> "Not downloaded"
+                is PackState.Downloading -> "Downloading..."
+                is PackState.Installed -> "Installed, ${formatSize(state.sizeBytes)}"
+                is PackState.Failed -> "Download failed: ${state.message}"
+            }
+            Text(
+                detail,
+                style = MaterialTheme.typography.bodySmall,
+                color = if (state is PackState.Failed) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            if (state is PackState.Downloading) {
+                val progress = state.progress
+                if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
+                else LinearProgressIndicator(modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
+            }
+        }
+        when (state) {
+            is PackState.Installed -> OutlinedButton(onClick = onRemove) { Text("Remove") }
+            is PackState.Downloading -> {}
+            else -> Button(onClick = onDownload) { Text("Download") }
+        }
+    }
+}
+
+private fun formatSize(bytes: Long): String = when {
+    bytes >= 1_000_000 -> "${(bytes / 100_000) / 10.0} MB"
+    bytes >= 1_000 -> "${bytes / 1_000} kB"
+    else -> "$bytes B"
 }
 
 @Composable

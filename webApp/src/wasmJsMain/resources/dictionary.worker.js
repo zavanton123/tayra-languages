@@ -1,7 +1,7 @@
-// SQLDelight web worker for the bundled dictionaries: same message protocol as
+// SQLDelight web worker for downloaded dictionary packs: same message protocol as
 // @cashapp/sqldelight-sqljs-worker, but the database is loaded from a prebuilt SQLite file
-// announced by a first {action: "load", url} message instead of created empty. The file is
-// gzip-compressed and inflated with the browser's DecompressionStream.
+// announced by a first {action: "load", url} message instead of created empty. The file was
+// stored in the Cache API by the app; it is gzip-compressed and inflated with DecompressionStream.
 importScripts("sql-wasm.js");
 
 let loading = null;
@@ -9,7 +9,8 @@ let db = null;
 
 async function load(url) {
   const SQL = await initSqlJs({ locateFile: () => "sql-wasm.wasm" });
-  const response = await fetch(url);
+  const cache = await caches.open("tayra-dictionaries");
+  const response = (await cache.match(url)) ?? (await fetch(url));
   if (!response.ok) throw new Error(`Could not fetch dictionary ${url}: ${response.status}`);
   const inflated = new Response(response.body.pipeThrough(new DecompressionStream("gzip")));
   db = new SQL.Database(new Uint8Array(await inflated.arrayBuffer()));

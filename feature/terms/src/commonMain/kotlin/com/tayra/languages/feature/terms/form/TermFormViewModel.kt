@@ -2,7 +2,7 @@ package com.tayra.languages.feature.terms.form
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.tayra.languages.core.domain.dictionary.DictionaryId
+import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -133,7 +133,7 @@ class TermFormViewModel(
 
     private suspend fun lookupDictionary(text: String, language: Language?): DictionaryLookup {
         if (language == null || text.isBlank()) return DictionaryLookup.EMPTY
-        val id = DictionaryId.bundledFor(LanguageCodes.codeFor(language.name), settings.current.nativeLanguage) ?: return DictionaryLookup.EMPTY
+        val id = DictionaryPacks.find(LanguageCodes.codeFor(language.name), settings.current.nativeLanguage)?.id ?: return DictionaryLookup.EMPTY
         val lookup = dictionary.lookup(id, text)
         _state.update { it.copy(dictionary = lookup) }
         return lookup

@@ -2,20 +2,63 @@ package com.tayra.languages.core.domain.service
 
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
+import com.tayra.languages.core.domain.dictionary.DictionaryPack
+import com.tayra.languages.core.domain.dictionary.DictionaryPackStore
+import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
+import com.tayra.languages.core.domain.dictionary.PackState
+import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.repository.DictionaryRepository
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
 
-/** Answers lookups from the bundled dictionaries. */
-class DictionaryService(private val repository: DictionaryRepository) : OfflineDictionary {
+/** Manages downloadable dictionary packs and answers lookups from the installed ones. */
+class DictionaryService(
+    private val store: DictionaryPackStore,
+    private val repository: DictionaryRepository,
+) : OfflineDictionary {
 
-    /** Opens the bundled dictionaries so the first lookup does not pay for copying the files. */
-    suspend fun warmUp() {
-        DictionaryId.bundled.forEach { repository.isAvailable(it) }
+    private val _packs = MutableStateFlow(DictionaryPacks.all.map { PackStatus(it, PackState.NotInstalled) })
+
+    /** Every known pack with its current state, in catalog order. */
+    val packs: StateFlow<List<PackStatus>> = _packs.asStateFlow()
+
+    /** Reads which packs are on the device; call once at start. */
+    suspend fun refresh() {
+        for (pack in DictionaryPacks.all) {
+            val current = stateOf(pack.id)
+            if (current is PackState.Downloading) continue
+            val size = store.installedSize(pack)
+            setState(pack.id, if (size != null) PackState.Installed(size) else PackState.NotInstalled)
+        }
     }
 
-    override suspend fun isAvailable(dictionary: DictionaryId): Boolean = repository.isAvailable(dictionary)
+    /** Downloads a pack; failures end in [PackState.Failed] rather than an exception. */
+    suspend fun download(pack: DictionaryPack) {
+        if (stateOf(pack.id) is PackState.Downloading) return
+        setState(pack.id, PackState.Downloading(null))
+        try {
+            repository.close(pack.id)
+            store.install(pack) { progress -> setState(pack.id, PackState.Downloading(progress)) }
+            setState(pack.id, PackState.Installed(store.installedSize(pack) ?: 0))
+        } catch (e: Exception) {
+            setState(pack.id, PackState.Failed(e.message ?: "Download failed"))
+        }
+    }
+
+    suspend fun remove(pack: DictionaryPack) {
+        repository.close(pack.id)
+        store.remove(pack)
+        setState(pack.id, PackState.NotInstalled)
+    }
+
+    override suspend fun isAvailable(dictionary: DictionaryId): Boolean =
+        stateOf(dictionary) is PackState.Installed && repository.isAvailable(dictionary)
 
     override suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup {
+        if (stateOf(dictionary) !is PackState.Installed) return DictionaryLookup.EMPTY
         val word = text.trim()
         val wordLc = word.lowercase()
         if (wordLc.isEmpty()) return DictionaryLookup.EMPTY
@@ -32,6 +75,12 @@ class DictionaryService(private val repository: DictionaryRepository) : OfflineD
                 .map { it.copy(isOwnEntry = false) }
         }
         return DictionaryLookup(own + inherited, lemmas.filter { lemma -> inherited.any { it.word == lemma } })
+    }
+
+    private fun stateOf(id: DictionaryId): PackState = _packs.value.firstOrNull { it.pack.id == id }?.state ?: PackState.NotInstalled
+
+    private fun setState(id: DictionaryId, state: PackState) {
+        _packs.update { list -> list.map { if (it.pack.id == id) it.copy(state = state) else it } }
     }
 
     /** 0 for the same case as the clicked word, 1 for the same initial case, 2 otherwise. */
