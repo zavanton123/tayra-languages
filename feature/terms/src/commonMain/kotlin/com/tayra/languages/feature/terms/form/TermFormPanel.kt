@@ -19,6 +19,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Checkbox
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -66,6 +67,7 @@ import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.PopupPositionProvider
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
@@ -147,22 +149,29 @@ fun TermFormPanel(
             textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
             modifier = Modifier.fillMaxWidth().focusRequester(focusRequester),
         )
-        TagInput(
-            values = draft.parents,
-            onValuesChange = viewModel::setParents,
-            label = "Parents",
-            suggestions = state.parentSuggestions.map { it.text.replace("​", "") },
-            onQueryChange = viewModel::setParentQuery,
-            onChipClick = viewModel::openParent,
-            suggestionContent = { text ->
-                val match = state.parentSuggestions.firstOrNull { it.text.replace("​", "") == text }
-                Column {
-                    Text(text)
-                    if (match?.translation != null) Text(match.translation!!, style = MaterialTheme.typography.bodySmall)
-                }
-            },
-            modifier = Modifier.fillMaxWidth(),
-        )
+        // Parents are normally filled from the dictionary; the input only appears on request or
+        // when there is no dictionary to do it.
+        var editingParents by remember(draft.id, draft.originalText) { mutableStateOf(false) }
+        if (editingParents || (draft.parents.isEmpty() && state.dictionary.isEmpty)) {
+            TagInput(
+                values = draft.parents,
+                onValuesChange = viewModel::setParents,
+                label = "Parents",
+                suggestions = state.parentSuggestions.map { it.text.replace("​", "") },
+                onQueryChange = viewModel::setParentQuery,
+                onChipClick = viewModel::openParent,
+                suggestionContent = { text ->
+                    val match = state.parentSuggestions.firstOrNull { it.text.replace("​", "") == text }
+                    Column {
+                        Text(text)
+                        if (match?.translation != null) Text(match.translation!!, style = MaterialTheme.typography.bodySmall)
+                    }
+                },
+                modifier = Modifier.fillMaxWidth(),
+            )
+        } else {
+            ParentLine(parents = draft.parents, onOpen = viewModel::openParent, onEdit = { editingParents = true })
+        }
         if (language?.showRomanization == true) {
             OutlinedTextField(
                 value = draft.romanization,
@@ -184,6 +193,7 @@ fun TermFormPanel(
             minLines = 3,
             modifier = Modifier.fillMaxWidth(),
         )
+        if (!state.dictionary.isEmpty) DictionarySection(state.dictionary, onAdd = viewModel::addGloss)
         StatusSelector(selected = draft.status, onSelect = viewModel::setStatus)
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(
@@ -260,6 +270,55 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit) {
                     .clickable { onSelect(status) }
                     .padding(horizontal = 12.dp, vertical = 8.dp),
             )
+        }
+    }
+}
+
+/** The term's parent as a line: tap the name to open it, or change the link. */
+@Composable
+private fun ParentLine(parents: List<String>, onOpen: (String) -> Unit, onEdit: () -> Unit) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text(if (parents.size > 1) "Parents:" else "Parent:", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        if (parents.isEmpty()) Text("none", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        parents.forEach { parent ->
+            Text(
+                parent,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.primary,
+                textDecoration = TextDecoration.Underline,
+                modifier = Modifier.clickable { onOpen(parent) },
+            )
+        }
+        Spacer(Modifier.weight(1f))
+        TextButton(onClick = onEdit) { Text(if (parents.isEmpty()) "Set" else "Change") }
+    }
+}
+
+/** Meanings from the offline dictionary; the plus adds a meaning to the translation. */
+@Composable
+private fun DictionarySection(lookup: DictionaryLookup, onAdd: (String) -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        Text("Dictionary", style = MaterialTheme.typography.titleSmall)
+        lookup.entries.forEach { entry ->
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 4.dp)) {
+                Text(entry.word, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold)
+                Text(entry.pos, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                if (entry.ipa != null) Text(entry.ipa!!, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            entry.senses.forEach { sense ->
+                val gloss = sense.glosses.joinToString("; ")
+                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
+                    Column(Modifier.weight(1f)) {
+                        Text(gloss, style = MaterialTheme.typography.bodyMedium)
+                        if (sense.tags.isNotEmpty()) {
+                            Text(sense.tags.joinToString(", "), style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        }
+                    }
+                    IconButton(onClick = { onAdd(gloss) }, modifier = Modifier.size(32.dp)) {
+                        Icon(Icons.Default.Add, contentDescription = "Add to translation", tint = MaterialTheme.colorScheme.primary)
+                    }
+                }
+            }
         }
     }
 }

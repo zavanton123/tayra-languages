@@ -15,11 +15,20 @@ class DatabaseProvider(private val driverFactory: DatabaseDriverFactory) {
     @Volatile
     private var database: TayraDatabase? = null
 
+    @Volatile
+    private var driver: SqlDriver? = null
+
     suspend fun database(): TayraDatabase {
         database?.let { return it }
         return mutex.withLock {
-            database ?: createDatabase(driverFactory.createDriver()).also { database = it }
+            database ?: createDatabase(driverFactory.createDriver().also { driver = it }).also { database = it }
         }
+    }
+
+    /** The raw driver, for bulk statements the generated queries cannot express. */
+    suspend fun driver(): SqlDriver {
+        database()
+        return checkNotNull(driver)
     }
 
     private fun createDatabase(driver: SqlDriver): TayraDatabase = TayraDatabase(driver)

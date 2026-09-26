@@ -2,6 +2,10 @@ package com.tayra.languages.feature.terms.form
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.tayra.languages.core.domain.dictionary.DictionaryId
+import com.tayra.languages.core.domain.dictionary.DictionaryLookup
+import com.tayra.languages.core.domain.dictionary.OfflineDictionary
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermDraft
@@ -52,6 +56,8 @@ data class TermFormUiState(
     val saved: Boolean = false,
     val examples: List<ExampleSentence> = emptyList(),
     val loadingExamples: Boolean = false,
+    /** Offline dictionary entries for the term, empty when no bundled dictionary covers the language pair. */
+    val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
 ) {
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
     val isNew: Boolean get() = draft.isNew
@@ -75,6 +81,7 @@ class TermFormViewModel(
     private val settings: SettingsRepository,
     private val translationProvider: TermTranslationProvider,
     private val examplesProvider: ExampleSentencesProvider,
+    private val dictionary: OfflineDictionary,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(TermFormUiState())
@@ -107,8 +114,35 @@ class TermFormViewModel(
         draft.id?.let { terms.clearFlashMessage(it) }
         _state.update { it.copy(loading = false, draft = draft, languages = languageList) }
         val language = languageList.firstOrNull { it.id == draft.languageId }
-        if (draft.translation.isBlank()) suggestTranslation(draft.text, language)
+        val lookup = lookupDictionary(draft.text, language)
+        // Words on a page exist as placeholders before anyone opens them, so "new" is judged by
+        // content: no translation and no parent means nobody has curated the term yet.
+        val untouched = draft.translation.isBlank() && draft.parents.isEmpty()
+        if (draft.translation.isBlank()) {
+            val gloss = lookup.suggestedTranslation
+            if (gloss != null) {
+                _state.update { s -> s.copy(translationSuggested = true, draft = s.draft.copy(translation = gloss)) }
+            } else {
+                suggestTranslation(draft.text, language)
+            }
+        }
+        // A new inflected form is linked to its lemma so the family shares one status.
+        lookup.parentSuggestion?.let { if (untouched) setParents(listOf(it)) }
         loadExamples(draft.text, language)
+    }
+
+    private suspend fun lookupDictionary(text: String, language: Language?): DictionaryLookup {
+        if (language == null || text.isBlank()) return DictionaryLookup.EMPTY
+        val id = DictionaryId.bundledFor(LanguageCodes.codeFor(language.name), settings.current.nativeLanguage) ?: return DictionaryLookup.EMPTY
+        val lookup = dictionary.lookup(id, text)
+        _state.update { it.copy(dictionary = lookup) }
+        return lookup
+    }
+
+    /** Appends a dictionary gloss to the translation. */
+    fun addGloss(gloss: String) {
+        update { d -> d.copy(translation = if (d.translation.isBlank()) gloss else "${d.translation.trimEnd()}; $gloss") }
+        _state.update { it.copy(translationSuggested = false) }
     }
 
     private fun loadExamples(text: String, language: Language?) {
