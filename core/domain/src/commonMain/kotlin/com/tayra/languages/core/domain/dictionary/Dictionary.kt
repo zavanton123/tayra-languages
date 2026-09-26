@@ -37,7 +37,7 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String) 
     }
 }
 
-/** A downloadable dictionary: a gzip-compressed SQLite file produced by tools/build_english_russian_dictionary.py. */
+/** A downloadable dictionary: a gzip-compressed SQLite file produced by tools/build_dictionary.py. */
 data class DictionaryPack(val id: DictionaryId, val title: String, val url: String)
 
 /** The packs the app knows how to download. */
@@ -47,6 +47,11 @@ object DictionaryPacks {
             DictionaryId("en", "ru"),
             "English → Russian",
             "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/en-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("de", "ru"),
+            "German → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/de-ru.sqlite.gzip",
         ),
     )
 

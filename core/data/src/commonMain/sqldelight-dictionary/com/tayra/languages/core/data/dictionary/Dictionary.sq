@@ -1,4 +1,4 @@
--- Mirrors the schema written by tools/build_english_russian_dictionary.py; the file is never created here.
+-- Mirrors the schema written by tools/build_dictionary.py; the file is never created here.
 CREATE TABLE meta (
     key TEXT NOT NULL PRIMARY KEY,
     value TEXT NOT NULL
