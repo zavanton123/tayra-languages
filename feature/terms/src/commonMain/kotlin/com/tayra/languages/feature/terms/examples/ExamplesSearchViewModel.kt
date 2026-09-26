@@ -10,6 +10,7 @@ import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.ExampleSort
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -41,6 +42,7 @@ class ExamplesSearchViewModel(
     private val _state = MutableStateFlow(ExamplesSearchUiState())
     val state: StateFlow<ExamplesSearchUiState> = _state.asStateFlow()
     private var searchJob: Job? = null
+    private var filterJob: Job? = null
 
     init {
         viewModelScope.launch {
@@ -67,9 +69,20 @@ class ExamplesSearchViewModel(
         _state.update { s -> s.query?.let { s.copy(query = transform(it)) } ?: s }
     }
 
+    /** Applies a filter change and re-runs the search after a short pause, so typed numbers settle first. */
+    fun updateFilters(transform: (ExampleSearchQuery) -> ExampleSearchQuery) {
+        updateQuery(transform)
+        filterJob?.cancel()
+        filterJob = viewModelScope.launch {
+            delay(FILTER_DEBOUNCE_MS)
+            search()
+        }
+    }
+
     fun search() {
         val query = _state.value.query ?: return
         if (query.text.isBlank()) return
+        filterJob?.cancel()
         searchJob?.cancel()
         _state.update { it.copy(searching = true, error = null, results = emptyList(), total = null, nextPage = null) }
         searchJob = viewModelScope.launch {
@@ -87,5 +100,9 @@ class ExamplesSearchViewModel(
             val result = provider.nextPage(next, s.query?.targetLanguage ?: "en")
             _state.update { it.copy(loadingMore = false, results = it.results + result.sentences, nextPage = result.nextPage) }
         }
+    }
+
+    private companion object {
+        const val FILTER_DEBOUNCE_MS = 400L
     }
 }
