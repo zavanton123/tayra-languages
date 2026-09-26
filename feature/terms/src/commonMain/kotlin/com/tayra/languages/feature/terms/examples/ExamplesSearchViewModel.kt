@@ -7,6 +7,7 @@ import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSentence
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
+import com.tayra.languages.core.domain.service.YesNo
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -24,7 +25,6 @@ data class ExamplesSearchUiState(
     val nextPage: String? = null,
     val searching: Boolean = false,
     val loadingMore: Boolean = false,
-    val filtersVisible: Boolean = true,
     val error: String? = null,
 ) {
     val hasMore: Boolean get() = nextPage != null
@@ -53,8 +53,9 @@ class ExamplesSearchViewModel(
                 text = initialText,
                 language = language,
                 targetLanguage = settings.current.nativeLanguage.ifBlank { "en" },
-                minWords = 3,
-                maxWords = 14,
+                minWords = 1,
+                maxWords = 20,
+                hasAudio = YesNo.YES,
             )
             _state.update { it.copy(loading = false, language = language, query = query) }
             search()
@@ -64,8 +65,6 @@ class ExamplesSearchViewModel(
     fun updateQuery(transform: (ExampleSearchQuery) -> ExampleSearchQuery) {
         _state.update { s -> s.query?.let { s.copy(query = transform(it)) } ?: s }
     }
-
-    fun toggleFilters() = _state.update { it.copy(filtersVisible = !it.filtersVisible) }
 
     fun search() {
         val query = _state.value.query ?: return

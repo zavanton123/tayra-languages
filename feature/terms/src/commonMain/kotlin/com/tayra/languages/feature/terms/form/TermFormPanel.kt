@@ -21,7 +21,6 @@ import androidx.compose.material3.Checkbox
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
-import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -75,7 +74,8 @@ import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
-import com.tayra.languages.core.ui.audio.rememberAudioPlayer
+import com.tayra.languages.core.ui.audio.PlayButton
+import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.ui.components.TagInput
 import com.tayra.languages.core.ui.theme.TayraTheme
 import io.ktor.http.encodeURLParameter
@@ -273,7 +273,7 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
     var expanded by remember(term) { mutableStateOf(false) }
     val canExpand = state.examples.size > VISIBLE_EXAMPLES
     val languageId = language?.id
-    val audioPlayer = rememberAudioPlayer()
+    val playback = rememberAudioPlayback()
 
     Row(verticalAlignment = Alignment.CenterVertically) {
         Text(
@@ -304,9 +304,7 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
                 val sentence = @Composable {
                     Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
                         if (example.audioUrl != null) {
-                            IconButton(onClick = { audioPlayer.play(example.audioUrl!!) }, modifier = Modifier.size(32.dp)) {
-                                Icon(Icons.Default.PlayArrow, contentDescription = "Play recording", tint = MaterialTheme.colorScheme.primary)
-                            }
+                            PlayButton(example.audioUrl!!, playback, Modifier.size(32.dp))
                         }
                         Text(
                             emphasize(example.text, term),

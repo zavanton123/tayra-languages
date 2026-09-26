@@ -13,7 +13,7 @@ actual class AudioPlayer actual constructor() {
     @Volatile
     private var current: Player? = null
 
-    actual fun play(url: String) {
+    actual fun play(url: String, onFinished: () -> Unit) {
         stop()
         executor.execute {
             try {
@@ -25,6 +25,7 @@ actual class AudioPlayer actual constructor() {
                 Logger.w(e) { "Could not play audio $url" }
             } finally {
                 current = null
+                onFinished()
             }
         }
     }

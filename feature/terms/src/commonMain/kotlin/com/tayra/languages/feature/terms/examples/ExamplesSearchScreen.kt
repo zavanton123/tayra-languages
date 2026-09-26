@@ -12,11 +12,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.Button
-import androidx.compose.material3.Icon
-import androidx.compose.material3.IconButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -28,6 +24,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -40,7 +37,8 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSort
 import com.tayra.languages.core.domain.service.YesNo
-import com.tayra.languages.core.ui.audio.rememberAudioPlayer
+import com.tayra.languages.core.ui.audio.PlayButton
+import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.EmptyMessage
@@ -64,7 +62,7 @@ fun ExamplesSearchScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     val uriHandler = LocalUriHandler.current
     val query = state.query
-    val audioPlayer = rememberAudioPlayer()
+    val playback = rememberAudioPlayback()
 
     Scaffold(
         topBar = {
@@ -74,7 +72,6 @@ fun ExamplesSearchScreen(
                 onBack = onBack,
                 showMenu = false,
                 actions = {
-                    TextButton(onClick = viewModel::toggleFilters) { Text(if (state.filtersVisible) "Hide filters" else "Filters") }
                     if (query != null) {
                         TextButton(onClick = {
                             val from = LanguageCodes.tatoebaCodeFor(query.language.name)?.let { "&from=$it" } ?: ""
@@ -93,7 +90,7 @@ fun ExamplesSearchScreen(
         // One scrolling list holds the filters and the results so both fit on small screens.
         LazyColumn(Modifier.padding(padding).fillMaxSize()) {
             item { ErrorMessage(state.error, Modifier.padding(horizontal = 16.dp)) }
-            if (state.filtersVisible) item { FilterPanel(query, viewModel) }
+            item { FilterPanel(query, viewModel) }
             item {
                 Text(
                     when {
@@ -113,16 +110,14 @@ fun ExamplesSearchScreen(
                     items(state.results) { example ->
                         Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
                             if (example.audioUrl != null) {
-                                IconButton(onClick = { audioPlayer.play(example.audioUrl!!) }) {
-                                    Icon(Icons.Default.PlayArrow, contentDescription = "Play recording", tint = MaterialTheme.colorScheme.primary)
-                                }
+                                PlayButton(example.audioUrl!!, playback)
                             } else {
                                 Spacer(Modifier.width(48.dp))
                             }
                             Column(Modifier.weight(1f)) {
                                 Text(emphasize(example.text, query.text), style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction))
                                 example.translation?.let {
-                                    Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                    Text(it, style = MaterialTheme.typography.bodyMedium, color = Color.Gray)
                                 }
                             }
                         }
