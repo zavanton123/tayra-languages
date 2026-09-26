@@ -102,8 +102,10 @@ class TatoebaExamplesProvider(
             // Direct translations are the most reliable; fall back to any in the target language.
             val translation = (translations.firstOrNull { it["is_direct"]?.jsonPrimitive?.booleanOrNull == true } ?: translations.firstOrNull())
                 ?.get("text")?.jsonPrimitive?.content?.trim()
+            // The API's download_url points at a path that returns 404; the file endpoint is /v1/audios/{id}/file.
             val audioUrl = (sentence["audios"] as? JsonArray).orEmpty()
-                .firstNotNullOfOrNull { (it as? JsonObject)?.get("download_url")?.jsonPrimitive?.content }
+                .firstNotNullOfOrNull { (it as? JsonObject)?.get("id")?.jsonPrimitive?.content }
+                ?.let { "$AUDIO_FILE_URL/$it/file" }
             ExampleSentence(text, translation, audioUrl)
         }
         val paging = root["paging"] as? JsonObject
@@ -113,5 +115,9 @@ class TatoebaExamplesProvider(
             total = paging?.get("total")?.jsonPrimitive?.intOrNull,
             nextPage = if (hasNext) paging["next"]?.jsonPrimitive?.content else null,
         )
+    }
+
+    private companion object {
+        const val AUDIO_FILE_URL = "https://api.tatoeba.org/v1/audios"
     }
 }
