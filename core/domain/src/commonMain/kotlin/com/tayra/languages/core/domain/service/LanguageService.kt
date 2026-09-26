@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.service
 
+import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageDefinition
 import com.tayra.languages.core.domain.language.PredefinedLanguages
 import com.tayra.languages.core.domain.model.BookDraft
@@ -23,16 +24,19 @@ class LanguageService(
 
     fun predefined(name: String): LanguageDefinition? = predefined().firstOrNull { it.name == name }
 
-    /** Predefined languages not yet in the database. */
-    suspend fun predefinedNotLoaded(): List<LanguageDefinition> {
+    /** Creates any catalog language missing from the database, optionally with its sample stories. */
+    suspend fun ensureTargetLanguages(withStories: Boolean = true) {
         val existing = languages.getAll().map { it.name.lowercase() }.toSet()
-        return predefined().filter { it.name.lowercase() !in existing }
+        for (name in LanguageCatalog.targetLanguages) {
+            if (name.lowercase() !in existing) loadPredefined(name, withStories)
+        }
     }
 
-    /** Loads a predefined language and its sample stories; returns the language id. */
-    suspend fun loadPredefined(name: String): Long {
+    /** Loads a predefined language, with its sample stories when asked; returns the language id. */
+    suspend fun loadPredefined(name: String, withStories: Boolean = true): Long {
         val definition = predefined(name) ?: throw NoSuchElementException("No predefined language '$name'")
         val languageId = languages.findByName(name)?.id ?: languages.save(definition.language)
+        if (!withStories) return languageId
         for (story in definition.stories) {
             bookService.create(
                 BookDraft(
@@ -43,22 +47,22 @@ class LanguageService(
                 ),
             )
         }
-        settings.update { it.copy(currentLanguageId = languageId) }
         return languageId
     }
 
+    /** Saves the settings of an existing language; the catalog decides which languages exist. */
     suspend fun save(language: Language): Long {
         validate(language)
+        val existing = languages.getById(language.id)
+            ?: throw LanguageValidationException("Only the languages in the catalog can be used")
+        if (LanguageCatalog.isTarget(existing.name) && !existing.name.equals(language.name.trim(), ignoreCase = true)) {
+            throw LanguageValidationException("${existing.name} cannot be renamed")
+        }
         val duplicate = languages.findByName(language.name.trim())
         if (duplicate != null && duplicate.id != language.id) {
             throw LanguageValidationException("Language ${language.name} already exists")
         }
-        val id = languages.save(language.copy(name = language.name.trim()))
-        if (language.id == 0L) {
-            // Force the user to re-pick the default language filter after adding one.
-            settings.update { it.copy(currentLanguageId = 0) }
-        }
-        return id
+        return languages.save(language.copy(name = language.name.trim()))
     }
 
     fun validate(language: Language) {
@@ -76,6 +80,8 @@ class LanguageService(
     }
 
     suspend fun delete(languageId: Long) {
+        val language = languages.getById(languageId) ?: return
+        if (LanguageCatalog.isTarget(language.name)) throw LanguageValidationException("${language.name} cannot be deleted")
         languages.delete(languageId)
         if (settings.current.currentLanguageId == languageId) settings.update { it.copy(currentLanguageId = 0) }
     }

@@ -21,6 +21,7 @@ import com.tayra.languages.core.domain.repository.TermListSort
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.DemoDataService
+import com.tayra.languages.core.domain.service.LanguageValidationException
 import com.tayra.languages.core.domain.service.LanguageService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.TermPopupBuilder
@@ -190,17 +191,28 @@ class RepositoryIntegrationTest {
     }
 
     @Test
-    fun demoDataLoadsAndWipes() = runTest {
+    fun catalogLanguagesAreSeededAndSurviveWipe() = runTest {
         val env = Env()
-        env.demo.loadIfEmpty()
+        env.demo.ensureLanguages()
         assertTrue(env.demo.isDemoData)
-        val names = env.languages.getAll().map { it.name }
-        assertTrue("English" in names && "Spanish" in names && "Arabic" in names, names.toString())
-        assertTrue("Japanese" !in names, "mecab-based parser is unsupported")
+        assertEquals(listOf("English", "German", "Portuguese"), env.languages.getAll().map { it.name }.sorted())
         assertNotNull(env.demo.tutorialBookId())
-        assertEquals(12, env.languages.observeSummaries().first().size)
+        assertTrue(env.books.getBooks().isNotEmpty())
         env.demo.wipeDatabase()
-        assertTrue(env.languages.getAll().isEmpty())
+        assertEquals(listOf("English", "German", "Portuguese"), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().isEmpty())
+        assertTrue(!env.demo.isDemoData)
+    }
+
+    @Test
+    fun missingCatalogLanguagesAreAddedToAnExistingDatabase() = runTest {
+        val env = Env()
+        val englishId = env.english()
+        env.demo.ensureLanguages()
+        assertTrue(!env.demo.isDemoData)
+        assertEquals(englishId, env.languages.findByName("English")?.id)
+        assertEquals(listOf("English", "German", "Portuguese"), env.languages.getAll().map { it.name }.sorted())
+        assertFailsWith<LanguageValidationException> { env.languageService.delete(englishId) }
+        assertFailsWith<LanguageValidationException> { env.languageService.save(Language(name = "Klingon")) }
     }
 }

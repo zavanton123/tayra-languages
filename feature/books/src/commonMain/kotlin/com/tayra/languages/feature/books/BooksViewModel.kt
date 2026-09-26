@@ -32,7 +32,6 @@ data class BooksUiState(
     val streak: Int = 0,
     val showStreak: Boolean = false,
 ) {
-    val hasLanguages: Boolean get() = languages.isNotEmpty()
     val filteredBooks: List<BookListItem>
         get() = books.filter { book ->
             (currentLanguageId == 0L || book.languageId == currentLanguageId) &&

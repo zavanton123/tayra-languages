@@ -1,6 +1,7 @@
 package com.tayra.languages.core.data.settings
 
 import com.russhwolf.settings.Settings
+import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.settings.Hotkey
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -50,7 +51,9 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
             focusMode = store.getBoolean(Keys.FOCUS_MODE, defaults.focusMode),
             tapSetsStatus = store.getBoolean(Keys.TAP_SETS_STATUS, defaults.tapSetsStatus),
             demoDataLoaded = store.getBoolean(Keys.DEMO_DATA, defaults.demoDataLoaded),
-            nativeLanguage = store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
+            nativeLanguage = LanguageCatalog.nativeOption(
+                store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
+            ).code,
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
             hotkeys = HotkeyAction.entries.associateWith { action ->
                 val stored = store.getStringOrNull(action.settingKey)

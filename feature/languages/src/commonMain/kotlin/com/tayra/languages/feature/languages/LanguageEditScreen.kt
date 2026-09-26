@@ -49,19 +49,18 @@ import org.koin.core.parameter.parametersOf
 
 @Composable
 fun LanguageEditScreen(
-    languageId: Long?,
-    predefinedName: String?,
+    languageId: Long,
     onNavigate: (Route) -> Unit,
     onBack: () -> Unit,
     onSaved: () -> Unit,
-    viewModel: LanguageEditViewModel = koinViewModel { parametersOf(languageId, predefinedName) },
+    viewModel: LanguageEditViewModel = koinViewModel { parametersOf(languageId) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     CollectEvents(viewModel.events) { if (it is LanguageEditEvent.Saved) onSaved() }
 
     Scaffold(
         topBar = {
-            AppTopBar(title = if (state.isNew) "New language" else state.language.name, onNavigate = onNavigate, onBack = onBack)
+            AppTopBar(title = state.language.name, onNavigate = onNavigate, onBack = onBack)
         },
     ) { padding ->
         if (state.loading) {
@@ -81,6 +80,7 @@ fun LanguageEditScreen(
                 onValueChange = { name -> viewModel.update { it.copy(name = name) } },
                 label = { Text("Name") },
                 singleLine = true,
+                readOnly = state.nameLocked,
                 modifier = Modifier.fillMaxWidth(),
             )
 
