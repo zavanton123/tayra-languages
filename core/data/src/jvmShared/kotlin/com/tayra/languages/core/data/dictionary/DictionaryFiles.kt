@@ -3,10 +3,12 @@ package com.tayra.languages.core.data.dictionary
 import com.tayra.languages.core.domain.dictionary.DictionaryAssets
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import java.io.File
+import java.util.zip.GZIPInputStream
 
 /**
- * Copies a bundled dictionary next to a stamp file recording its format, so the copy happens
- * once per format rather than on every start. Returns false when the dictionary is not bundled.
+ * Unpacks a bundled gzip-compressed dictionary next to a stamp file recording its format, so
+ * the copy happens once per format rather than on every start. Returns false when the
+ * dictionary is not bundled.
  */
 internal suspend fun ensureDictionaryFile(target: File, dictionary: DictionaryId, assets: DictionaryAssets): Boolean {
     val stamp = File(target.path + ".format")
@@ -14,7 +16,7 @@ internal suspend fun ensureDictionaryFile(target: File, dictionary: DictionaryId
     val bytes = assets.readBytes(dictionary) ?: return false
     target.parentFile?.mkdirs()
     val temp = File(target.path + ".tmp")
-    temp.writeBytes(bytes)
+    GZIPInputStream(bytes.inputStream()).use { input -> temp.outputStream().use { output -> input.copyTo(output) } }
     if (!temp.renameTo(target)) {
         target.delete()
         check(temp.renameTo(target)) { "Could not move ${temp.path} to ${target.path}" }
