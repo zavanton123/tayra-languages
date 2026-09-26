@@ -26,7 +26,6 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.PlainTooltip
 import androidx.compose.material3.TooltipBox
-import androidx.compose.material3.TooltipDefaults
 import androidx.compose.material3.rememberTooltipState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -58,7 +57,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.unit.IntOffset
+import androidx.compose.ui.unit.IntRect
+import androidx.compose.ui.unit.IntSize
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.PopupPositionProvider
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
@@ -303,7 +308,7 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?) {
                     sentence()
                 } else {
                     TooltipBox(
-                        positionProvider = TooltipDefaults.rememberPlainTooltipPositionProvider(),
+                        positionProvider = rememberLeftTooltipPositionProvider(),
                         tooltip = { PlainTooltip { Text(translation) } },
                         state = rememberTooltipState(),
                     ) { sentence() }
@@ -314,6 +319,34 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?) {
 }
 
 private const val VISIBLE_EXAMPLES = 5
+
+/**
+ * Places a tooltip to the left of its anchor, vertically centred, so the translation sits
+ * beside the sentence instead of covering the examples above it. Falls back to above the
+ * anchor when there is no room on the left.
+ */
+@Composable
+private fun rememberLeftTooltipPositionProvider(): PopupPositionProvider {
+    val gap = with(LocalDensity.current) { 8.dp.roundToPx() }
+    return remember(gap) {
+        object : PopupPositionProvider {
+            override fun calculatePosition(
+                anchorBounds: IntRect,
+                windowSize: IntSize,
+                layoutDirection: LayoutDirection,
+                popupContentSize: IntSize,
+            ): IntOffset {
+                val x = anchorBounds.left - popupContentSize.width - gap
+                val y = anchorBounds.top + (anchorBounds.height - popupContentSize.height) / 2
+                return if (x >= 0) {
+                    IntOffset(x, y.coerceIn(0, (windowSize.height - popupContentSize.height).coerceAtLeast(0)))
+                } else {
+                    IntOffset(anchorBounds.left.coerceAtMost((windowSize.width - popupContentSize.width).coerceAtLeast(0)), (anchorBounds.top - popupContentSize.height - gap).coerceAtLeast(0))
+                }
+            }
+        }
+    }
+}
 
 /**
  * Bolds the words of the sentence that are the term or an inflection of it: a word matches
