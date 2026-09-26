@@ -153,11 +153,11 @@ private fun FilterPanel(query: ExampleSearchQuery, viewModel: ExamplesSearchView
             Button(onClick = viewModel::search, enabled = query.text.isNotBlank()) { Text("Search") }
         }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            NumberField("Min words", query.minWords) { v -> viewModel.updateQuery { it.copy(minWords = v) } }
-            NumberField("Max words", query.maxWords) { v -> viewModel.updateQuery { it.copy(maxWords = v) } }
-            Dropdown(ExampleSort.entries, query.sort, { v -> viewModel.updateQuery { it.copy(sort = v) } }, "Sort", { it.label }, Modifier.width(190.dp))
-            NumberField("Per page", query.limit) { v -> viewModel.updateQuery { it.copy(limit = (v ?: 30).coerceIn(1, 100)) } }
-            YesNoField("Has audio", query.hasAudio) { v -> viewModel.updateQuery { it.copy(hasAudio = v) } }
+            NumberField("Min words", query.minWords) { v -> viewModel.updateFilters { it.copy(minWords = v) } }
+            NumberField("Max words", query.maxWords) { v -> viewModel.updateFilters { it.copy(maxWords = v) } }
+            Dropdown(ExampleSort.entries, query.sort, { v -> viewModel.updateFilters { it.copy(sort = v) } }, "Sort", { it.label }, Modifier.width(190.dp))
+            NumberField("Per page", query.limit) { v -> viewModel.updateFilters { it.copy(limit = (v ?: 30).coerceIn(1, 100)) } }
+            YesNoField("Has audio", query.hasAudio) { v -> viewModel.updateFilters { it.copy(hasAudio = v) } }
         }
         HorizontalDivider()
     }
