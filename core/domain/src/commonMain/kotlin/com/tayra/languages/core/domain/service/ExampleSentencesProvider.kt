@@ -32,7 +32,7 @@ data class ExampleSearchQuery(
     val minWords: Int? = null,
     val maxWords: Int? = null,
     val sort: ExampleSort = ExampleSort.RELEVANCE,
-    val isOrphan: YesNo? = YesNo.NO,
+    val isOrphan: YesNo? = null,
     val isUnapproved: YesNo? = YesNo.NO,
     val isNative: YesNo? = null,
     val hasAudio: YesNo? = null,

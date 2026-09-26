@@ -62,10 +62,11 @@ class TatoebaExamplesProviderTest {
         assertEquals(3, result.total)
         assertEquals("https://example.test/sentences?after=1", result.nextPage)
         val url = urls.single()
-        listOf("word_count=4-", "sort=words", "is_native=yes", "tag=idiom", "tag=%21colloquial", "trans%3Ais_direct=yes", "limit=50", "is_orphan=no", "is_unapproved=no").forEach {
+        listOf("word_count=4-", "sort=words", "is_native=yes", "tag=idiom", "tag=%21colloquial", "trans%3Ais_direct=yes", "limit=50", "is_unapproved=no").forEach {
             assertEquals(true, url.contains(it), "$it in $url")
         }
         assertEquals(false, url.contains("has_audio"), url)
+        assertEquals(false, url.contains("is_orphan"), url)
 
         val next = provider.nextPage(result.nextPage!!, "en")
         assertEquals(2, next.sentences.size)
