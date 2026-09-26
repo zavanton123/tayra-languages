@@ -84,7 +84,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(
-                "Translation suggestions and example sentence translations are shown in this language. English uses Wiktionary with MyMemory as fallback; other languages use MyMemory.",
+                "Translation suggestions and example sentence translations are shown in this language. English texts with Russian as native language use the built-in offline dictionary; otherwise English uses Wiktionary with MyMemory as fallback and other languages use MyMemory.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )

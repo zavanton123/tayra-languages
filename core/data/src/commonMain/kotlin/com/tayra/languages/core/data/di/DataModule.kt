@@ -10,11 +10,13 @@ import com.tayra.languages.core.data.network.WiktionaryTranslationProvider
 import com.tayra.languages.core.data.network.createHttpClient
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.DatabaseMaintenanceImpl
+import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.domain.repository.BookRepository
+import com.tayra.languages.core.domain.repository.DictionaryRepository
 import com.tayra.languages.core.domain.repository.DatabaseMaintenance
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.repository.TermRepository
@@ -22,6 +24,8 @@ import com.tayra.languages.core.domain.repository.WordsReadRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.DemoDataService
+import com.tayra.languages.core.domain.service.DictionaryService
+import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.LanguageService
 import com.tayra.languages.core.domain.service.ReadingService
@@ -47,6 +51,9 @@ val dataModule: Module = module {
     single<TermRepository> { TermRepositoryImpl(get()) }
     single<WordsReadRepository> { WordsReadRepositoryImpl(get()) }
     single<DatabaseMaintenance> { DatabaseMaintenanceImpl(get()) }
+    single<DictionaryRepository> { DictionaryRepositoryImpl(get()) }
+    single { DictionaryService(get(), get()) }
+    single<OfflineDictionary> { get<DictionaryService>() }
 
     single { createHttpClient() }
     single { WebPageImporter(get()) }

@@ -1,0 +1,28 @@
+-- Offline dictionaries imported from the bundled kaikki.org data.
+CREATE TABLE dictionary_imports (
+    dictionary TEXT NOT NULL PRIMARY KEY,
+    format INTEGER NOT NULL,
+    entry_count INTEGER NOT NULL,
+    imported_at INTEGER NOT NULL
+);
+
+CREATE TABLE dictionary_entries (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    dictionary TEXT NOT NULL,
+    word TEXT NOT NULL,
+    word_lc TEXT NOT NULL,
+    pos TEXT NOT NULL,
+    ipa TEXT,
+    senses TEXT NOT NULL
+);
+
+CREATE INDEX dictionary_entries_word ON dictionary_entries(dictionary, word_lc);
+
+CREATE TABLE dictionary_forms (
+    dictionary TEXT NOT NULL,
+    form_lc TEXT NOT NULL,
+    lemma TEXT NOT NULL,
+    generated INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE INDEX dictionary_forms_form ON dictionary_forms(dictionary, form_lc);

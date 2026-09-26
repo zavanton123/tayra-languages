@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.DemoDataService
+import com.tayra.languages.core.domain.service.DictionaryService
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -22,6 +23,7 @@ sealed interface BootstrapState {
 class AppBootstrapViewModel(
     private val demoData: DemoDataService,
     private val bookStats: BookStatsService,
+    private val dictionaries: DictionaryService,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow<BootstrapState>(BootstrapState.Loading)
@@ -33,6 +35,8 @@ class AppBootstrapViewModel(
                 demoData.ensureLanguages()
                 _state.value = BootstrapState.Ready
                 bookStats.refreshAll()
+                // Lookups fall back to the network until the bundled dictionaries are in the database.
+                dictionaries.importIfNeeded()
             } catch (e: Exception) {
                 Logger.e(e) { "Bootstrap failed" }
                 _state.value = BootstrapState.Failed(e.message ?: e.toString())

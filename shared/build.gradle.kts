@@ -3,7 +3,18 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
+compose.resources {
+    packageOfResClass = "com.tayra.languages.shared.resources"
+    generateResClass = always
+}
+
 kotlin {
+    // Compose resources reach the Android app as assets, which the AGP KMP plugin only packs
+    // when Android resources are enabled for the module.
+    androidLibrary {
+        androidResources.enable = true
+    }
+
     listOf(iosArm64(), iosSimulatorArm64()).forEach { iosTarget ->
         iosTarget.binaries.framework {
             baseName = "Shared"
@@ -23,6 +34,7 @@ kotlin {
             implementation(projects.feature.settings)
             implementation(projects.feature.stats)
             implementation(libs.jetbrains.navigation.compose)
+            implementation(libs.compose.components.resources)
             api(libs.koin.core)
             implementation(libs.koin.compose)
             implementation(libs.koin.compose.viewmodel)
