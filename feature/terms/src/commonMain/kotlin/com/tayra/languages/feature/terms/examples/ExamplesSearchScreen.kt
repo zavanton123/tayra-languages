@@ -5,13 +5,18 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.Button
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -36,6 +41,7 @@ import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSort
 import com.tayra.languages.core.domain.service.SentenceOrigin
 import com.tayra.languages.core.domain.service.YesNo
+import com.tayra.languages.core.ui.audio.rememberAudioPlayer
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.EmptyMessage
@@ -59,6 +65,7 @@ fun ExamplesSearchScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     val uriHandler = LocalUriHandler.current
     val query = state.query
+    val audioPlayer = rememberAudioPlayer()
 
     Scaffold(
         topBar = {
@@ -105,10 +112,19 @@ fun ExamplesSearchScreen(
                 state.results.isEmpty() -> item { EmptyMessage("No examples match these filters.", Modifier.fillMaxWidth()) }
                 else -> {
                     items(state.results) { example ->
-                        Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp)) {
-                            Text(emphasize(example.text, query.text), style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction))
-                            example.translation?.let {
-                                Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+                            if (example.audioUrl != null) {
+                                IconButton(onClick = { audioPlayer.play(example.audioUrl!!) }) {
+                                    Icon(Icons.Default.PlayArrow, contentDescription = "Play recording", tint = MaterialTheme.colorScheme.primary)
+                                }
+                            } else {
+                                Spacer(Modifier.width(48.dp))
+                            }
+                            Column(Modifier.weight(1f)) {
+                                Text(emphasize(example.text, query.text), style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction))
+                                example.translation?.let {
+                                    Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                                }
                             }
                         }
                         HorizontalDivider()

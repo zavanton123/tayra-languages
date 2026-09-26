@@ -10,6 +10,10 @@ kotlin {
             api(libs.jetbrains.navigation.compose)
             api(libs.kotlinx.collections.immutable)
             implementation(libs.kotlinx.serialization.json)
+            implementation(libs.kermit)
+        }
+        jvmMain.dependencies {
+            implementation(libs.jlayer)
         }
     }
 }

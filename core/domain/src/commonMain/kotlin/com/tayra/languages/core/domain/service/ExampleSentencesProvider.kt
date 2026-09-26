@@ -2,8 +2,8 @@ package com.tayra.languages.core.domain.service
 
 import com.tayra.languages.core.domain.model.Language
 
-/** An example sentence using a term, with a translation when available. */
-data class ExampleSentence(val text: String, val translation: String?)
+/** An example sentence using a term, with a translation and a recording when available. */
+data class ExampleSentence(val text: String, val translation: String?, val audioUrl: String? = null)
 
 enum class YesNo(val apiValue: String, val label: String) { YES("yes", "Yes"), NO("no", "No") }
 

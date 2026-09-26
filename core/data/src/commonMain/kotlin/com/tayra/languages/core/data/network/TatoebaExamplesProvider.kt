@@ -44,6 +44,7 @@ class TatoebaExamplesProvider(
                 parameter("trans:lang", target)
                 parameter("sort", query.sort.apiValue)
                 parameter("limit", query.limit)
+                parameter("include", "audios")
                 wordCountRange(query.minWords, query.maxWords)?.let { parameter("word_count", it) }
                 query.isOrphan?.let { parameter("is_orphan", it.apiValue) }
                 query.isUnapproved?.let { parameter("is_unapproved", it.apiValue) }
@@ -101,7 +102,9 @@ class TatoebaExamplesProvider(
             // Direct translations are the most reliable; fall back to any in the target language.
             val translation = (translations.firstOrNull { it["is_direct"]?.jsonPrimitive?.booleanOrNull == true } ?: translations.firstOrNull())
                 ?.get("text")?.jsonPrimitive?.content?.trim()
-            ExampleSentence(text, translation)
+            val audioUrl = (sentence["audios"] as? JsonArray).orEmpty()
+                .firstNotNullOfOrNull { (it as? JsonObject)?.get("download_url")?.jsonPrimitive?.content }
+            ExampleSentence(text, translation, audioUrl)
         }
         val paging = root["paging"] as? JsonObject
         val hasNext = paging?.get("has_next")?.jsonPrimitive?.booleanOrNull == true

@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -20,6 +21,7 @@ import androidx.compose.material3.Checkbox
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -73,6 +75,7 @@ import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
+import com.tayra.languages.core.ui.audio.rememberAudioPlayer
 import com.tayra.languages.core.ui.components.TagInput
 import com.tayra.languages.core.ui.theme.TayraTheme
 import io.ktor.http.encodeURLParameter
@@ -270,6 +273,7 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
     var expanded by remember(term) { mutableStateOf(false) }
     val canExpand = state.examples.size > VISIBLE_EXAMPLES
     val languageId = language?.id
+    val audioPlayer = rememberAudioPlayer()
 
     Row(verticalAlignment = Alignment.CenterVertically) {
         Text(
@@ -298,11 +302,18 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
             val visible = if (expanded) state.examples else state.examples.take(VISIBLE_EXAMPLES)
             visible.forEach { example ->
                 val sentence = @Composable {
-                    Text(
-                        emphasize(example.text, term),
-                        style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction),
-                        modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
-                    )
+                    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
+                        if (example.audioUrl != null) {
+                            IconButton(onClick = { audioPlayer.play(example.audioUrl!!) }, modifier = Modifier.size(32.dp)) {
+                                Icon(Icons.Default.PlayArrow, contentDescription = "Play recording", tint = MaterialTheme.colorScheme.primary)
+                            }
+                        }
+                        Text(
+                            emphasize(example.text, term),
+                            style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction),
+                            modifier = Modifier.weight(1f).padding(vertical = 4.dp),
+                        )
+                    }
                 }
                 val translation = example.translation
                 if (translation == null) {
