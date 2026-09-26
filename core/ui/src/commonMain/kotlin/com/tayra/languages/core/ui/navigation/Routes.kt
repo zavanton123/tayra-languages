@@ -50,12 +50,6 @@ sealed interface Route {
     data class EditLanguage(val languageId: Long) : Route
 
     @Serializable
-    data class NewLanguage(val predefinedName: String? = null) : Route
-
-    @Serializable
-    data object PredefinedLanguages : Route
-
-    @Serializable
     data object Settings : Route
 
     @Serializable

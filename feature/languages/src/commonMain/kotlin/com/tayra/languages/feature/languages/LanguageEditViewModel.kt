@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.model.DictionaryType
 import com.tayra.languages.core.domain.model.DictionaryUse
+import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.repository.LanguageRepository
@@ -22,7 +23,8 @@ data class LanguageEditUiState(
     val error: String? = null,
     val saving: Boolean = false,
 ) {
-    val isNew: Boolean get() = language.id == 0L
+    /** Catalog languages keep their name; only their settings and dictionaries change. */
+    val nameLocked: Boolean get() = LanguageCatalog.isTarget(language.name)
 }
 
 sealed interface LanguageEditEvent {
@@ -30,8 +32,7 @@ sealed interface LanguageEditEvent {
 }
 
 class LanguageEditViewModel(
-    private val languageId: Long?,
-    private val predefinedName: String?,
+    private val languageId: Long,
     private val languages: LanguageRepository,
     private val languageService: LanguageService,
 ) : ViewModel() {
@@ -42,16 +43,7 @@ class LanguageEditViewModel(
 
     init {
         viewModelScope.launch {
-            val language = when {
-                languageId != null -> languages.getById(languageId) ?: Language()
-                predefinedName != null -> languageService.predefined(predefinedName)?.language ?: Language()
-                else -> Language(
-                    dictionaries = listOf(
-                        LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = ""),
-                        LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = ""),
-                    ),
-                )
-            }
+            val language = languages.getById(languageId) ?: Language()
             _state.update { it.copy(loading = false, language = language) }
         }
     }

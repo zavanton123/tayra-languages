@@ -17,7 +17,7 @@ sealed interface BootstrapState {
 }
 
 /**
- * Opens the database and loads the demo data on first start.
+ * Opens the database and makes sure the catalog languages exist, with demo data on first start.
  */
 class AppBootstrapViewModel(
     private val demoData: DemoDataService,
@@ -30,7 +30,7 @@ class AppBootstrapViewModel(
     init {
         viewModelScope.launch {
             try {
-                demoData.loadIfEmpty()
+                demoData.ensureLanguages()
                 _state.value = BootstrapState.Ready
                 bookStats.refreshAll()
             } catch (e: Exception) {

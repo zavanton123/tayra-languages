@@ -23,7 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
-import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -76,8 +76,8 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
 
             Section("Translation")
             Dropdown(
-                options = LanguageCodes.options,
-                selected = LanguageCodes.option(settings.nativeLanguage),
+                options = LanguageCatalog.nativeLanguages,
+                selected = LanguageCatalog.nativeOption(settings.nativeLanguage),
                 onSelect = { option -> viewModel.update { it.copy(nativeLanguage = option.code) } },
                 label = "Native language",
                 optionLabel = { it.name },

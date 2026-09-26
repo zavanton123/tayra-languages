@@ -86,11 +86,14 @@ The same artifacts can be built locally:
 
 ## Notes
 
-- On first start the database is seeded with a tutorial and sample languages from the
-  [Lute language definitions](https://github.com/LuteOrg/lute-language-defs); regenerate
-  `PredefinedLanguages.kt` with `tools/generate_language_defs.py`.
-- Languages that need external tokenisers (Japanese via MeCab, Thai, Khmer, Mandarin) are
-  listed but not supported yet.
+- The languages on offer are fixed: English, German and Portuguese can be learned, and
+  translations are shown in English or Russian (Settings, Native language). The three
+  target languages are created on first start with sample texts and the tutorial, taken
+  from the [Lute language definitions](https://github.com/LuteOrg/lute-language-defs);
+  regenerate `PredefinedLanguages.kt` with `tools/generate_language_defs.py`. Their
+  dictionaries and text settings can be edited, but languages cannot be created or renamed.
+- The bundled language definitions also cover many other languages; those that need external
+  tokenisers (Japanese via MeCab, Thai, Khmer, Mandarin) are not supported.
 - Dictionaries open in the platform browser; embedded web views are not used.
 - Term pronunciation uses the platform text-to-speech engine: Android `TextToSpeech`,
   `AVSpeechSynthesizer` on iOS, the Web Speech API in the browser, and the operating

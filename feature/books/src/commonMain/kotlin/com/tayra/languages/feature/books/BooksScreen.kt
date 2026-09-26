@@ -72,7 +72,7 @@ fun BooksScreen(
                 onNavigate = onNavigate,
                 onBack = onBack,
                 actions = {
-                    if (!archived && state.hasLanguages) {
+                    if (!archived) {
                         IconButton(onClick = viewModel::refreshAllStats) { Icon(Icons.Default.Refresh, contentDescription = "Refresh stats") }
                     }
                 },
@@ -91,16 +91,6 @@ fun BooksScreen(
                     onWipe = { confirmWipe = true },
                     onDismiss = viewModel::dismissDemoNotice,
                 )
-            }
-            if (!state.hasLanguages) {
-                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text("To get started, first load a predefined language and sample text, or create your own language.")
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Button(onClick = { onNavigate(Route.PredefinedLanguages) }) { Text("Load predefined language") }
-                        TextButton(onClick = { onNavigate(Route.NewLanguage()) }) { Text("Create language") }
-                    }
-                }
-                return@Column
             }
 
             FilterRow(
