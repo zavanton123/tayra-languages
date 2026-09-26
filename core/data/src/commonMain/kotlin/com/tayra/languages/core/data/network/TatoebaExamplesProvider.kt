@@ -25,7 +25,7 @@ import kotlinx.serialization.json.jsonPrimitive
  */
 class TatoebaExamplesProvider(
     private val client: HttpClient,
-    private val baseUrl: String = "https://api.tatoeba.org/unstable/sentences",
+    private val baseUrl: String = "https://api.tatoeba.org/v1/sentences",
 ) : ExampleSentencesProvider {
 
     private val json = Json { ignoreUnknownKeys = true }
@@ -40,6 +40,9 @@ class TatoebaExamplesProvider(
                 parameter("lang", source)
                 parameter("q", query)
                 parameter("trans:lang", target)
+                // Skip sentences that were never proofread or are flagged for review.
+                parameter("is_orphan", "no")
+                parameter("is_unapproved", "no")
                 parameter("sort", "relevance")
                 parameter("word_count", "$MIN_WORDS-$MAX_WORDS")
                 parameter("limit", limit)
