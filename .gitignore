@@ -20,3 +20,4 @@ kotlin-js-store/
 
 # Local dictionary dumps
 dictionaries/
+__pycache__/
