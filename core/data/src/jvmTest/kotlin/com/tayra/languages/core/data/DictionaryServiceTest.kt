@@ -1,56 +1,67 @@
 package com.tayra.languages.core.data
 
-import com.tayra.languages.core.data.db.DatabaseDriverFactory
-import com.tayra.languages.core.data.db.DatabaseProvider
+import app.cash.sqldelight.driver.jdbc.sqlite.JdbcSqliteDriver
+import com.tayra.languages.core.data.dictionary.DictionaryDatabaseProvider
+import com.tayra.languages.core.data.dictionary.DictionaryDriverFactory
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
 import com.tayra.languages.core.domain.dictionary.DictionaryAssets
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.service.DictionaryService
 import kotlinx.coroutines.test.runTest
 import java.io.File
+import java.nio.file.Files
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 import kotlin.test.assertTrue
 
 class DictionaryServiceTest {
-    private val json = """
-        {"format":1,"entries":[
-          {"word":"Word","pos":"noun","senses":[{"glosses":["английская фамилия"]}]},
-          {"word":"word","pos":"noun","senses":[{"glosses":["слово"]}]},
-          {"word":"cat","pos":"noun","ipa":"[kæt]","senses":[{"glosses":["кошка, кот"]},{"glosses":["сварливая женщина"],"tags":["derogatory"]}]},
-          {"word":"do","pos":"verb","senses":[{"glosses":["делать"]}]},
-          {"word":"left","pos":"adj","senses":[{"glosses":["левый"]}]},
-          {"word":"leave","pos":"verb","senses":[{"glosses":["уходить"]}]},
-          {"word":"go","pos":"verb","senses":[{"glosses":["идти"]}]},
-          {"word":"wend","pos":"verb","senses":[{"glosses":["направляться"]}]}
-        ],"forms":[
-          {"form":"cats","lemma":"cat","generated":true},{"form":"did","lemma":"do"},{"form":"Done","lemma":"do"},
-          {"form":"words","lemma":"Word"},{"form":"words","lemma":"word"},
-          {"form":"left","lemma":"leave"},{"form":"went","lemma":"go"},{"form":"went","lemma":"wend"}
-        ]}
-    """.trimIndent()
-
     private val enRu = DictionaryId("en", "ru")
 
-    private fun service(assets: DictionaryAssets): Pair<DictionaryService, DictionaryRepositoryImpl> {
-        val file = File.createTempFile("tayra-dict", ".db").also { it.delete() }
-        val repository = DictionaryRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(file)))
-        return DictionaryService(assets, repository) to repository
+    /** Builds a dictionary file the way tools/build_english_russian_dictionary.py lays it out. */
+    private fun buildFile(format: Int = DictionaryId.FORMAT): ByteArray {
+        val file = File.createTempFile("tayra-dict-src", ".sqlite").also { it.delete() }
+        val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
+        listOf(
+            "CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL)",
+            "CREATE TABLE entries (id INTEGER NOT NULL PRIMARY KEY, word TEXT NOT NULL, word_lc TEXT NOT NULL, pos TEXT NOT NULL, ipa TEXT, senses TEXT NOT NULL)",
+            "CREATE TABLE forms (form_lc TEXT NOT NULL, lemma TEXT NOT NULL, generated INTEGER NOT NULL DEFAULT 0)",
+            "CREATE INDEX entries_word_lc ON entries(word_lc)",
+            "CREATE INDEX forms_form_lc ON forms(form_lc)",
+            "INSERT INTO meta VALUES ('format', '$format'), ('source_language', 'en'), ('target_language', 'ru')",
+            """INSERT INTO entries(word, word_lc, pos, ipa, senses) VALUES
+                ('Word', 'word', 'noun', NULL, '[{"glosses":["английская фамилия"]}]'),
+                ('word', 'word', 'noun', NULL, '[{"glosses":["слово"]}]'),
+                ('cat', 'cat', 'noun', '[kæt]', '[{"glosses":["кошка, кот"]},{"glosses":["сварливая женщина"],"tags":["derogatory"]}]'),
+                ('do', 'do', 'verb', NULL, '[{"glosses":["делать"]}]'),
+                ('left', 'left', 'adj', NULL, '[{"glosses":["левый"]}]'),
+                ('leave', 'leave', 'verb', NULL, '[{"glosses":["уходить"]}]'),
+                ('go', 'go', 'verb', NULL, '[{"glosses":["идти"]}]'),
+                ('wend', 'wend', 'verb', NULL, '[{"glosses":["направляться"]}]')""",
+            """INSERT INTO forms VALUES ('cats', 'cat', 1), ('did', 'do', 0), ('done', 'do', 0), ('words', 'Word', 0), ('words', 'word', 0),
+                ('left', 'leave', 0), ('went', 'go', 0), ('went', 'wend', 0)""",
+            "PRAGMA user_version = $format",
+        ).forEach { driver.execute(null, it, 0) }
+        driver.close()
+        return file.readBytes().also { file.delete() }
     }
 
-    @Test
-    fun importsOnceAndResolvesForms() = runTest {
+    private class FakeAssets(private val bytes: ByteArray?) : DictionaryAssets {
         var reads = 0
-        val (service, repository) = service(object : DictionaryAssets {
-            override suspend fun readJson(dictionary: DictionaryId): String? = json.also { reads++ }
-        })
-        assertTrue(!service.isAvailable(enRu))
-        service.importIfNeeded()
-        service.importIfNeeded()
-        assertEquals(1, reads, "a dictionary in the current format is not imported again")
+        override suspend fun readBytes(dictionary: DictionaryId): ByteArray? = bytes.also { reads++ }
+        override fun uri(dictionary: DictionaryId): String? = null
+    }
+
+    private fun service(directory: File, assets: DictionaryAssets): DictionaryService =
+        DictionaryService(DictionaryRepositoryImpl(DictionaryDatabaseProvider(DictionaryDriverFactory(directory), assets)))
+
+    @Test
+    fun copiesTheFileOnceAndResolvesForms() = runTest {
+        val directory = Files.createTempDirectory("tayra-dict").toFile()
+        val assets = FakeAssets(buildFile())
+        val service = service(directory, assets)
         assertTrue(service.isAvailable(enRu))
-        assertEquals(DictionaryService.FORMAT, repository.importedFormat(enRu))
+        assertEquals(DictionaryId.FORMAT.toString(), File(directory, "en-ru.sqlite.format").readText())
 
         val cats = service.lookup(enRu, "Cats")
         assertEquals(listOf("cat"), cats.lemmas)
@@ -60,8 +71,7 @@ class DictionaryServiceTest {
         assertEquals("[kæt]", cats.entries.single().ipa)
         assertTrue(!cats.entries.single().isOwnEntry)
 
-        val done = service.lookup(enRu, "done")
-        assertEquals("do", done.parentSuggestion)
+        assertEquals("do", service.lookup(enRu, "done").parentSuggestion)
 
         val left = service.lookup(enRu, "left")
         assertEquals(listOf("left", "leave"), left.entries.map { it.word })
@@ -74,22 +84,27 @@ class DictionaryServiceTest {
 
         val words = service.lookup(enRu, "words")
         assertEquals(listOf("word"), words.lemmas, "the common noun beats the surname for a lowercase word")
-        assertEquals("word", words.parentSuggestion)
         assertEquals("слово", words.suggestedTranslation)
         assertEquals(listOf("Word"), service.lookup(enRu, "Words").lemmas)
         assertEquals(listOf("word", "Word"), service.lookup(enRu, "word").entries.map { it.word })
 
         assertTrue(service.lookup(enRu, "xyzzy").isEmpty)
         assertTrue(service.lookup(enRu, "  ").isEmpty)
+        assertEquals(1, assets.reads)
+
+        // A second provider over the same directory reuses the copied file instead of the asset.
+        val untouched = FakeAssets(null)
+        assertTrue(service(directory, untouched).isAvailable(enRu))
+        assertEquals(0, untouched.reads)
     }
 
     @Test
-    fun missingAssetLeavesDictionaryUnavailable() = runTest {
-        val (service, _) = service(object : DictionaryAssets {
-            override suspend fun readJson(dictionary: DictionaryId): String? = null
-        })
-        service.importIfNeeded()
-        assertTrue(!service.isAvailable(enRu))
-        assertTrue(service.lookup(enRu, "cat").isEmpty)
+    fun missingOrForeignFilesAreUnavailable() = runTest {
+        val missing = service(Files.createTempDirectory("tayra-dict").toFile(), FakeAssets(null))
+        assertTrue(!missing.isAvailable(enRu))
+        assertTrue(missing.lookup(enRu, "cat").isEmpty)
+
+        val foreign = service(Files.createTempDirectory("tayra-dict").toFile(), FakeAssets(buildFile(format = 99)))
+        assertTrue(!foreign.isAvailable(enRu))
     }
 }

@@ -29,21 +29,30 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String) 
     val name: String get() = "$sourceLanguage-$targetLanguage"
 
     companion object {
-        /** Dictionaries bundled with the app. */
+        /** Dictionaries bundled with the app as prebuilt SQLite files. */
         val bundled: List<DictionaryId> = listOf(DictionaryId("en", "ru"))
+
+        /**
+         * The layout of the bundled files, matching the "format" row of their meta table and
+         * PRAGMA user_version; a file with another format is ignored.
+         */
+        const val FORMAT = 1
 
         fun bundledFor(sourceLanguage: String?, targetLanguage: String?): DictionaryId? =
             bundled.firstOrNull { it.sourceLanguage == sourceLanguage?.lowercase() && it.targetLanguage == targetLanguage?.lowercase() }
     }
 }
 
-/** Reads the bundled dictionary files. */
+/** Locates the bundled dictionary files produced by tools/build_english_russian_dictionary.py. */
 interface DictionaryAssets {
-    /** The JSON produced by tools/build_english_russian_dictionary.py, or null when not bundled. */
-    suspend fun readJson(dictionary: DictionaryId): String?
+    /** The whole SQLite file, for platforms that copy it into app storage; null when not bundled. */
+    suspend fun readBytes(dictionary: DictionaryId): ByteArray?
+
+    /** A URL the file can be fetched from, for the web; null when not bundled. */
+    fun uri(dictionary: DictionaryId): String?
 }
 
-/** Looks words up in the dictionaries imported into the database. */
+/** Looks words up in the bundled dictionaries. */
 interface OfflineDictionary {
     suspend fun isAvailable(dictionary: DictionaryId): Boolean
     suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup

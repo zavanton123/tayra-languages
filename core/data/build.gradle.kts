@@ -10,6 +10,12 @@ sqldelight {
             packageName.set("com.tayra.languages.core.data.db")
             generateAsync.set(true)
         }
+        // Read-only dictionaries shipped as prebuilt SQLite files (tools/build_english_russian_dictionary.py).
+        create("DictionaryDatabase") {
+            packageName.set("com.tayra.languages.core.data.dictionary")
+            srcDirs.setFrom("src/commonMain/sqldelight-dictionary")
+            generateAsync.set(true)
+        }
     }
 }
 
@@ -48,6 +54,7 @@ kotlin {
         }
         wasmJsMain.dependencies {
             implementation(libs.sqldelight.web.worker.driver)
+            implementation(libs.kotlinx.browser)
             implementation(libs.ktor.client.js)
             implementation(npm("sql.js", "1.13.0"))
             implementation(npm("@cashapp/sqldelight-sqljs-worker", libs.versions.sqldelight.get()))

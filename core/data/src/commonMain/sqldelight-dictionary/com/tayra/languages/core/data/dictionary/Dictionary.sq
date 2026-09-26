@@ -1,0 +1,33 @@
+-- Mirrors the schema written by tools/build_english_russian_dictionary.py; the file is never created here.
+CREATE TABLE meta (
+    key TEXT NOT NULL PRIMARY KEY,
+    value TEXT NOT NULL
+);
+
+CREATE TABLE entries (
+    id INTEGER NOT NULL PRIMARY KEY,
+    word TEXT NOT NULL,
+    word_lc TEXT NOT NULL,
+    pos TEXT NOT NULL,
+    ipa TEXT,
+    senses TEXT NOT NULL
+);
+
+CREATE INDEX entries_word_lc ON entries(word_lc);
+
+CREATE TABLE forms (
+    form_lc TEXT NOT NULL,
+    lemma TEXT NOT NULL,
+    generated INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0
+);
+
+CREATE INDEX forms_form_lc ON forms(form_lc);
+
+selectMeta:
+SELECT value FROM meta WHERE key = :key;
+
+selectEntries:
+SELECT word, pos, ipa, senses FROM entries WHERE word_lc = :wordLc ORDER BY id;
+
+selectLemmas:
+SELECT lemma FROM forms WHERE form_lc = :formLc ORDER BY generated, lemma;
