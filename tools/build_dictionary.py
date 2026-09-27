@@ -45,6 +45,7 @@ SOURCES = {
     "uk": ("Ukrainian", "dictionaries/ukrainian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Ukrainian.jsonl.gz"),
     "la": ("Latin", "dictionaries/latin-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Latin.jsonl.gz"),
     "tr": ("Turkish", "dictionaries/turkish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Turkish.jsonl.gz"),
+    "be": ("Belarusian", "dictionaries/belarusian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Belarusian.jsonl.gz"),
     # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
     "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
 }
@@ -88,8 +89,8 @@ def plain(word):
     return word.lower().translate(UMLAUTS)
 
 
-# The Wiktionaries write Serbo-Croatian with pitch accents ("пси̏", "pȁs") and Ukrainian with
-# stress marks ("ха́та") that ordinary text never carries; these combining marks are removed
+# The Wiktionaries write Serbo-Croatian with pitch accents ("пси̏", "pȁs") and Ukrainian and
+# Belarusian with stress marks ("ха́та") that ordinary text never carries; these combining marks are removed
 # so forms match written words.
 PITCH_MARKS = {"\u0300", "\u0301", "\u0304", "\u030f", "\u0311", "\u0342"}
 
@@ -160,7 +161,7 @@ def serbian_spellings(word):
 
 
 # How each source's spellings are normalised before matching, when it needs it at all.
-CLEANERS = {"sr": strip_pitch, "uk": strip_pitch, "la": strip_length}
+CLEANERS = {"sr": strip_pitch, "uk": strip_pitch, "be": strip_pitch, "la": strip_length}
 
 
 def lowercase(word, source):
