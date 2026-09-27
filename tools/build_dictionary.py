@@ -95,7 +95,13 @@ SKIP_FORM_TAGS_BY_SOURCE = {
     "hu": {"possessive", "possessed-single", "possessed-many", "error-unrecognized-form"},
 }
 # A prose "form of X" gloss: the lemma is the last word, possibly after "(to)".
-PROSE_FORM_RE = re.compile(r"\b(?:de|del|of|von|von dem)\s+(?:\(to\)\s+)?([^\s()]+?)[.。]?$")
+PROSE_FORM_RE = re.compile(r"\b(?:de|del|do|da|of|von|von dem)\s+(?:\(to\)\s+)?([^\s()]+?)[.。]?$")
+# A gloss that is nothing but such a description, even without a form-of tag ("plural de muchacho").
+FORM_DESCRIPTION_RE = re.compile(
+    r"^(?:forma|plural|singular|feminino|femenino|masculino|diminutivo|aumentativo|particípio|participio|gerúndio|gerundio"
+    r"|pretérito|presente|futuro|imperativo|infinitivo|primeira|segunda|terceira|primera|tercera|pasado|форма)\b",
+    re.IGNORECASE,
+)
 
 # Letters in any script, then letters, apostrophes or hyphens.
 WORD_RE = re.compile(r"^[^\W\d_](?:[^\W\d_]|['\-])*$")
@@ -253,9 +259,11 @@ def load_glossary(path, variant_re, clean=lambda word: word):
                 glosses = [g.strip() for g in s.get("glosses", []) if g.strip()]
                 # Targets may carry a page anchor such as "log#(глагол_I)".
                 form_of = [x["word"].split("#")[0] for x in s.get("form_of", []) if x.get("word")]
-                if not form_of and glosses and (entry_is_form or "form-of" in s.get("tags", [])):
-                    # The Spanish Wiktionary often describes a form in prose that ends with the
-                    # lemma: "Tercera persona del singular ... del verbo (to) house."
+                # Nested senses put the description first ("plural de muchacho", "rapazes, jovens").
+                described = glosses and FORM_DESCRIPTION_RE.match(glosses[0])
+                if not form_of and glosses and (entry_is_form or "form-of" in s.get("tags", []) or described):
+                    # The Spanish and Portuguese Wiktionaries often describe a form in prose that
+                    # ends with the lemma: "Tercera persona del singular ... del verbo (to) house."
                     match = PROSE_FORM_RE.search(glosses[0])
                     form_of = [match.group(1)] if match else []
                     if not form_of:
