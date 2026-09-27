@@ -49,6 +49,7 @@ SOURCES = {
     "fi": ("Finnish", "dictionaries/finnish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Finnish.jsonl.gz"),
     "pl": ("Polish", "dictionaries/polish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Polish.jsonl.gz"),
     "cs": ("Czech", "dictionaries/czech-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Czech.jsonl.gz"),
+    "el": ("Greek", "dictionaries/greek-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Greek.jsonl.gz"),
     # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
     "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
 }

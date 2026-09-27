@@ -113,6 +113,11 @@ object DictionaryPacks {
             "Czech → Russian",
             "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/cs-ru.sqlite.gzip",
         ),
+        DictionaryPack(
+            DictionaryId("el", "ru"),
+            "Greek → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/el-ru.sqlite.gzip",
+        ),
     )
 
     fun find(id: DictionaryId): DictionaryPack? = all.firstOrNull { it.id == id }
