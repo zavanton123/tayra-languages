@@ -37,6 +37,7 @@ from collections import Counter, defaultdict
 SOURCES = {
     "en": ("English", "dictionaries/english-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-English.jsonl.gz"),
     "de": ("German", "dictionaries/german-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-German.jsonl.gz"),
+    "fr": ("French", "dictionaries/french-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-French.jsonl.gz"),
 }
 TARGET = "ru"
 # Stored as PRAGMA user_version and in meta; the app checks it before trusting a file.
@@ -64,8 +65,9 @@ def is_clean_form(form, lemma):
     return all(WORD_RE.match(part) for part in form.split())
 
 
-# Umlauts and ß change under inflection ("Haus", "Häuser"), so stems are compared without them.
-UMLAUTS = str.maketrans({"ä": "a", "ö": "o", "ü": "u", "ß": "ss"})
+# Umlauts, ß and French accents change under inflection ("Haus", "Häuser"; "acheter", "achète"),
+# so stems are compared without them.
+UMLAUTS = str.maketrans({"ä": "a", "ö": "o", "ü": "u", "ß": "ss", "é": "e", "è": "e", "ê": "e", "à": "a", "ç": "c", "î": "i", "ô": "o", "û": "u"})
 
 
 def plain(word):
