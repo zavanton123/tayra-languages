@@ -60,7 +60,7 @@ class DictionaryService(
     override suspend fun lookup(dictionary: DictionaryId, text: String): DictionaryLookup {
         if (stateOf(dictionary) !is PackState.Installed) return DictionaryLookup.EMPTY
         val word = text.trim()
-        val wordLc = word.lowercase()
+        val wordLc = lowercase(word, dictionary)
         if (wordLc.isEmpty()) return DictionaryLookup.EMPTY
         // Among entries for one spelling, the one with the most senses is usually the everyday
         // word ("muchacho" the noun before the adjective), so it supplies the suggestion.
@@ -72,7 +72,7 @@ class DictionaryService(
             .groupBy { it.lowercase() }
             .map { (_, variants) -> variants.minBy { caseRank(it, word) } }
         val inherited = lemmas.flatMap { lemma ->
-            repository.entries(dictionary, lemma.lowercase())
+            repository.entries(dictionary, lowercase(lemma, dictionary))
                 .filter { it.word == lemma }
                 .sortedByDescending { it.senses.size }
                 .map { it.copy(isOwnEntry = false) }
@@ -85,6 +85,10 @@ class DictionaryService(
     private fun setState(id: DictionaryId, state: PackState) {
         _packs.update { list -> list.map { if (it.pack.id == id) it.copy(state = state) else it } }
     }
+
+    /** Packs store keys lowercased the way tools/build_dictionary.py does: Turkish keeps its dotted and dotless i apart. */
+    private fun lowercase(word: String, dictionary: DictionaryId): String =
+        (if (dictionary.sourceLanguage == "tr") word.replace('I', 'ı').replace('İ', 'i') else word).lowercase()
 
     /** 0 for the same case as the clicked word, 1 for the same initial case, 2 otherwise. */
     private fun caseRank(candidate: String, word: String): Int = when {
