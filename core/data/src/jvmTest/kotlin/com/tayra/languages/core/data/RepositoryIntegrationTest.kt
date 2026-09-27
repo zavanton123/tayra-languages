@@ -195,11 +195,11 @@ class RepositoryIntegrationTest {
         val env = Env()
         env.demo.ensureLanguages()
         assertTrue(env.demo.isDemoData)
-        assertEquals(listOf("English", "French", "German", "Portuguese", "Serbian"), env.languages.getAll().map { it.name }.sorted())
+        assertEquals(listOf("English", "French", "German", "Portuguese", "Serbian", "Spanish"), env.languages.getAll().map { it.name }.sorted())
         assertNotNull(env.demo.tutorialBookId())
         assertTrue(env.books.getBooks().isNotEmpty())
         env.demo.wipeDatabase()
-        assertEquals(listOf("English", "French", "German", "Portuguese", "Serbian"), env.languages.getAll().map { it.name }.sorted())
+        assertEquals(listOf("English", "French", "German", "Portuguese", "Serbian", "Spanish"), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().isEmpty())
         assertTrue(!env.demo.isDemoData)
     }
@@ -208,12 +208,12 @@ class RepositoryIntegrationTest {
     fun existingDatabaseIsBroughtInLineWithTheCatalog() = runTest {
         val env = Env()
         val englishId = env.english()
-        val spanishId = env.languages.save(env.languages.getById(englishId)!!.copy(id = 0, name = "Spanish"))
-        env.bookService.create(BookDraft(languageId = spanishId, title = "Hola", text = "Hola mundo."))
+        val czechId = env.languages.save(env.languages.getById(englishId)!!.copy(id = 0, name = "Czech"))
+        env.bookService.create(BookDraft(languageId = czechId, title = "Hola", text = "Hola mundo."))
         env.demo.ensureLanguages()
         assertTrue(!env.demo.isDemoData)
         assertEquals(englishId, env.languages.findByName("English")?.id)
-        assertEquals(listOf("English", "French", "German", "Portuguese", "Serbian"), env.languages.getAll().map { it.name }.sorted())
+        assertEquals(listOf("English", "French", "German", "Portuguese", "Serbian", "Spanish"), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().none { it.title == "Hola" })
         assertFailsWith<LanguageValidationException> { env.languageService.save(Language(name = "Klingon")) }
     }

@@ -62,7 +62,9 @@ class DictionaryService(
         val word = text.trim()
         val wordLc = word.lowercase()
         if (wordLc.isEmpty()) return DictionaryLookup.EMPTY
-        val own = repository.entries(dictionary, wordLc).sortedBy { caseRank(it.word, word) }
+        // Among entries for one spelling, the one with the most senses is usually the everyday
+        // word ("muchacho" the noun before the adjective), so it supplies the suggestion.
+        val own = repository.entries(dictionary, wordLc).sortedWith(compareBy({ caseRank(it.word, word) }, { -it.senses.size }))
         // Headwords that differ only in case are usually a common noun and a name ("word", "Word");
         // the one whose case matches the clicked word wins, so the name does not become the parent.
         val lemmas = repository.lemmas(dictionary, wordLc)
@@ -72,6 +74,7 @@ class DictionaryService(
         val inherited = lemmas.flatMap { lemma ->
             repository.entries(dictionary, lemma.lowercase())
                 .filter { it.word == lemma }
+                .sortedByDescending { it.senses.size }
                 .map { it.copy(isOwnEntry = false) }
         }
         return DictionaryLookup(own + inherited, lemmas.filter { lemma -> inherited.any { it.word == lemma } })
