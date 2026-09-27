@@ -79,7 +79,11 @@ def open_text(path):
 
 
 def load_russian(path):
-    """Returns (entries, forms, variants, dropped) from the Russian Wiktionary dump, dropping senses without glosses."""
+    """
+    Returns (entries, forms, variants, dropped) from the Russian Wiktionary dump. A sense that
+    only says "form of X" or "variant of X" becomes a pointer to X rather than a gloss, so the
+    app shows X's meaning and links the term to it; entries left without glosses are dropped.
+    """
     entries = []
     forms = set()
     variants = set()
@@ -90,19 +94,26 @@ def load_russian(path):
             senses = []
             for s in d.get("senses", []):
                 glosses = [g.strip() for g in s.get("glosses", []) if g.strip()]
-                if not glosses:
-                    continue
-                sense = {"glosses": glosses}
-                tags = [t for t in s.get("tags", []) if t != "form-of"]
-                if tags:
-                    sense["tags"] = tags
                 # Targets may carry a page anchor such as "log#(глагол_I)".
                 form_of = [x["word"].split("#")[0] for x in s.get("form_of", []) if x.get("word")]
-                senses.append((sense, form_of))
+                for lemma in form_of:
+                    if is_clean_form(d["word"], lemma):
+                        forms.add((d["word"], lemma))
+                if form_of or not glosses:
+                    continue
+                match = VARIANT_RE.match(glosses[0]) if len(glosses) == 1 else None
+                if match:
+                    variants.add((d["word"], match.group(1)))
+                    continue
+                sense = {"glosses": glosses}
+                tags = s.get("tags", [])
+                if tags:
+                    sense["tags"] = tags
+                senses.append(sense)
             if not senses:
                 dropped += 1
                 continue
-            entry = {"word": d["word"], "pos": d["pos"], "senses": [sense for sense, _ in senses]}
+            entry = {"word": d["word"], "pos": d["pos"], "senses": senses}
             ipa = next((x["ipa"] for x in d.get("sounds", []) if x.get("ipa")), None)
             if ipa:
                 entry["ipa"] = ipa
@@ -114,13 +125,6 @@ def load_russian(path):
                 stem = plain(d["word"])[: min(3, len(d["word"]) - 1)]
                 if is_clean_form(form, d["word"]) and plain(form).startswith(stem):
                     forms.add((form, d["word"]))
-            for sense, form_of in senses:
-                for lemma in form_of:
-                    if is_clean_form(d["word"], lemma):
-                        forms.add((d["word"], lemma))
-                match = VARIANT_RE.match(sense["glosses"][0]) if len(sense["glosses"]) == 1 else None
-                if match:
-                    variants.add((d["word"], match.group(1)))
     return entries, forms, variants, dropped
 
 
@@ -269,7 +273,7 @@ def main():
     lemma_pos = defaultdict(set)
     for e in entries:
         lemma_pos[e["word"]].add(e["pos"])
-    print(f"  {len(entries):,} entries kept, {dropped:,} without glosses dropped, {len(forms):,} forms listed", file=sys.stderr)
+    print(f"  {len(entries):,} entries kept, {dropped:,} form-only or gloss-less entries dropped, {len(forms):,} forms listed", file=sys.stderr)
 
     ru_forms = len(forms)
     if not args.skip_english:
