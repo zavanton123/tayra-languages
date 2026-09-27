@@ -46,6 +46,7 @@ SOURCES = {
     "la": ("Latin", "dictionaries/latin-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Latin.jsonl.gz"),
     "tr": ("Turkish", "dictionaries/turkish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Turkish.jsonl.gz"),
     "be": ("Belarusian", "dictionaries/belarusian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Belarusian.jsonl.gz"),
+    "fi": ("Finnish", "dictionaries/finnish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Finnish.jsonl.gz"),
     # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
     "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
 }
@@ -55,6 +56,9 @@ FORMAT = 1
 
 # Entries in the English dump whose "forms" are not inflections but table markup or spellings.
 SKIP_FORM_TAGS = {"table-tags", "inflection-template", "canonical", "class", "romanization", "alternative", "misspelling"}
+# Finnish tables also list every possessive-suffix variant of every case, which multiplies the
+# pack by five; those forms are left out to keep it downloadable.
+SKIP_FORM_TAGS_BY_SOURCE = {"fi": {"possessive", "singular-possessive", "plural-possessive"}}
 # Letters in any script, then letters, apostrophes or hyphens.
 WORD_RE = re.compile(r"^[^\W\d_](?:[^\W\d_]|['\-])*$")
 # A Russian Wiktionary sense that only says "spelling variant of X".
@@ -227,7 +231,7 @@ def load_russian(path, clean=lambda word: word):
     return entries, forms, variants, dropped
 
 
-def load_english_forms(path, lemmas, spellings=lambda word: [word], report_every=200_000):
+def load_english_forms(path, lemmas, spellings=lambda word: [word], skip_tags=SKIP_FORM_TAGS, report_every=200_000):
     """
     Collects (form, lemma) pairs from the English Wiktionary dump for the given lemmas.
     [spellings] lists the spellings a word may be stored under; a headword matches a lemma
@@ -246,7 +250,7 @@ def load_english_forms(path, lemmas, spellings=lambda word: [word], report_every
                 if word not in lemmas:
                     continue
                 for x in d.get("forms", []):
-                    if set(x.get("tags", [])) & SKIP_FORM_TAGS:
+                    if set(x.get("tags", [])) & skip_tags:
                         continue
                     for form in spellings(x.get("form", "").strip()):
                         if is_clean_form(form, word):
@@ -388,7 +392,8 @@ def main():
     if not args.skip_english:
         print(f"Reading {args.en}", file=sys.stderr)
         spellings = serbian_spellings if args.source == "sr" else (lambda word: [cleaner(word)])
-        forms |= load_english_forms(args.en, lemmas, spellings=spellings)
+        skip_tags = SKIP_FORM_TAGS | SKIP_FORM_TAGS_BY_SOURCE.get(args.source, set())
+        forms |= load_english_forms(args.en, lemmas, spellings=spellings, skip_tags=skip_tags)
         print(f"  {len(forms) - ru_forms:,} forms added from the English Wiktionary", file=sys.stderr)
 
     inflected = {lemma for _, lemma in forms}
