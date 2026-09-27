@@ -13,14 +13,28 @@ data class DictionaryEntry(val word: String, val pos: String, val ipa: String?, 
 data class DictionaryLookup(val entries: List<DictionaryEntry>, val lemmas: List<String>) {
     val isEmpty: Boolean get() = entries.isEmpty()
 
-    /** The lemma to record as the term's parent: only when the word is not a headword itself and inflects exactly one lemma. */
-    val parentSuggestion: String? get() = lemmas.singleOrNull()?.takeIf { entries.none { e -> e.isOwnEntry } }
+    /**
+     * The lemma to record as the term's parent: only when the word is not a headword itself, and
+     * it inflects one lemma, or one lemma with far more senses than the rest ("went" belongs to
+     * "go" and to the rare "wend").
+     */
+    val parentSuggestion: String?
+        get() {
+            if (entries.any { it.isOwnEntry }) return null
+            lemmas.singleOrNull()?.let { return it }
+            val weights = lemmas.map { lemma -> lemma to entries.filter { it.word == lemma }.sumOf { it.senses.size } }
+                .sortedByDescending { it.second }
+            if (weights.size < 2) return null
+            val (top, second) = weights
+            return top.first.takeIf { top.second >= DOMINANT_SENSE_RATIO * maxOf(second.second, 1) }
+        }
 
     /** The first gloss, used to prefill an empty translation. */
     val suggestedTranslation: String? get() = entries.firstOrNull()?.senses?.firstOrNull()?.glosses?.firstOrNull()
 
     companion object {
         val EMPTY = DictionaryLookup(emptyList(), emptyList())
+        private const val DOMINANT_SENSE_RATIO = 3
     }
 }
 
