@@ -42,6 +42,7 @@ SOURCES = {
     "pt": ("Portuguese", "dictionaries/portuguese-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Portuguese.jsonl.gz"),
     "es": ("Spanish", "dictionaries/spanish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Spanish.jsonl.gz"),
     "it": ("Italian", "dictionaries/italian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Italian.jsonl.gz"),
+    "uk": ("Ukrainian", "dictionaries/ukrainian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Ukrainian.jsonl.gz"),
     # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
     "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
 }
@@ -85,20 +86,25 @@ def plain(word):
     return word.lower().translate(UMLAUTS)
 
 
-# The English Wiktionary writes Serbo-Croatian with pitch accents ("пси̏", "pȁs") that ordinary
-# text never carries; these combining marks are removed so forms match written words.
+# The Wiktionaries write Serbo-Croatian with pitch accents ("пси̏", "pȁs") and Ukrainian with
+# stress marks ("ха́та") that ordinary text never carries; these combining marks are removed
+# so forms match written words.
 PITCH_MARKS = {"\u0300", "\u0301", "\u0304", "\u030f", "\u0311", "\u0342"}
+STRESS_MARKED_SOURCES = {"sr", "uk"}
 
 
-PITCH_BEARERS = set("aeiouraeiouАЕИОУРаеиоурAEIOUR")
+PITCH_BEARERS = set("aeiourAEIOURаеиоуряюєіїёэыАЕИОУРЯЮЄІЇЁЭЫ")
 
 
 def strip_pitch(word):
     """Removes pitch marks from vowels and syllabic r; the acute in "ć" is a letter and stays."""
     out = []
     for c in unicodedata.normalize("NFD", word):
-        if c in PITCH_MARKS and out and out[-1] in PITCH_BEARERS:
-            continue
+        if c in PITCH_MARKS:
+            # The base letter may sit behind other marks, e.g. the diaeresis of "ї".
+            base = next((b for b in reversed(out) if not unicodedata.combining(b)), "")
+            if base in PITCH_BEARERS:
+                continue
         out.append(c)
     return unicodedata.normalize("NFC", "".join(out))
 
@@ -144,7 +150,7 @@ def open_text(path):
     return open(path, encoding="utf-8")
 
 
-def load_russian(path):
+def load_russian(path, clean=lambda word: word):
     """
     Returns (entries, forms, variants, dropped) from the Russian Wiktionary dump. A sense that
     only says "form of X" or "variant of X" becomes a pointer to X rather than a gloss, so the
@@ -185,7 +191,7 @@ def load_russian(path):
                 entry["ipa"] = ipa
             entries.append(entry)
             for x in d.get("forms", []):
-                form = x.get("form", "").strip()
+                form = clean(x.get("form", "").strip())
                 # Inflection templates sometimes leave only the suffix here ("ed", "ing", "ping"), so a
                 # form must share the lemma's stem; irregulars such as "went" come from the English dump.
                 stem = plain(d["word"])[: min(3, len(d["word"]) - 1)]
@@ -340,7 +346,8 @@ def main():
     args.out = args.out or f"dictionaries/{args.source}-{TARGET}.sqlite.gzip"
 
     print(f"Reading {args.ru}", file=sys.stderr)
-    entries, forms, variants, dropped = load_russian(args.ru)
+    stress_marked = args.source in STRESS_MARKED_SOURCES
+    entries, forms, variants, dropped = load_russian(args.ru, clean=strip_pitch if stress_marked else (lambda word: word))
     lemmas = {e["word"] for e in entries}
     # Spelling variants point at the main entry and get no guessed inflections of their own.
     forms |= {(word, target) for word, target in variants if target in lemmas}
@@ -353,7 +360,10 @@ def main():
     ru_forms = len(forms)
     if not args.skip_english:
         print(f"Reading {args.en}", file=sys.stderr)
-        forms |= load_english_forms(args.en, lemmas, spellings=serbian_spellings if args.source == "sr" else (lambda word: [word]))
+        spellings = {
+            "sr": serbian_spellings,
+        }.get(args.source, (lambda word: [strip_pitch(word)]) if stress_marked else (lambda word: [word]))
+        forms |= load_english_forms(args.en, lemmas, spellings=spellings)
         print(f"  {len(forms) - ru_forms:,} forms added from the English Wiktionary", file=sys.stderr)
 
     inflected = {lemma for _, lemma in forms}
