@@ -50,6 +50,9 @@ SOURCES = {
     "pl": ("Polish", "dictionaries/polish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Polish.jsonl.gz"),
     "cs": ("Czech", "dictionaries/czech-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Czech.jsonl.gz"),
     "el": ("Greek", "dictionaries/greek-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Greek.jsonl.gz"),
+    "nl": ("Dutch", "dictionaries/dutch-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Dutch.jsonl.gz"),
+    "sv": ("Swedish", "dictionaries/swedish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Swedish.jsonl.gz"),
+    "hu": ("Hungarian", "dictionaries/hungarian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Hungarian.jsonl.gz"),
     # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
     "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
 }
@@ -59,9 +62,12 @@ FORMAT = 1
 
 # Entries in the English dump whose "forms" are not inflections but table markup or spellings.
 SKIP_FORM_TAGS = {"table-tags", "inflection-template", "canonical", "class", "romanization", "alternative", "misspelling"}
-# Finnish tables also list every possessive-suffix variant of every case, which multiplies the
-# pack by five; those forms are left out to keep it downloadable.
-SKIP_FORM_TAGS_BY_SOURCE = {"fi": {"possessive", "singular-possessive", "plural-possessive"}}
+# Finnish and Hungarian tables also list every possessive-suffix variant of every case, which
+# multiplies the pack several times over; those forms are left out to keep it downloadable.
+SKIP_FORM_TAGS_BY_SOURCE = {
+    "fi": {"possessive", "singular-possessive", "plural-possessive"},
+    "hu": {"possessive", "possessed-single", "possessed-many", "error-unrecognized-form"},
+}
 # Letters in any script, then letters, apostrophes or hyphens.
 WORD_RE = re.compile(r"^[^\W\d_](?:[^\W\d_]|['\-])*$")
 # A Russian Wiktionary sense that only says "spelling variant of X".
@@ -91,6 +97,7 @@ UMLAUTS = str.maketrans({
     "č": "c", "ć": "c", "đ": "d", "š": "s", "ž": "z",
     "ł": "l", "ą": "a", "ę": "e", "ś": "s", "ź": "z", "ż": "z", "ń": "n",
     "ě": "e", "ř": "r", "ů": "u", "ý": "y", "ď": "d", "ť": "t", "ň": "n",
+    "å": "a", "ő": "o", "ű": "u",
 })
 
 
