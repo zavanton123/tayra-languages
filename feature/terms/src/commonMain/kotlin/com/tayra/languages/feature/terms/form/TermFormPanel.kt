@@ -161,18 +161,8 @@ fun TermFormPanel(
             minLines = 3,
             modifier = Modifier.fillMaxWidth(),
         )
-        if (!state.dictionary.isEmpty) DictionarySection(state.dictionary, onAdd = viewModel::addGloss)
         StatusSelector(selected = draft.status, onSelect = viewModel::setStatus)
-        Text(
-            when {
-                state.saving -> "Saving..."
-                state.dirty -> "Changes are saved automatically"
-                state.saved -> "Saved"
-                else -> ""
-            },
-            style = MaterialTheme.typography.labelMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
+        if (!state.dictionary.isEmpty) DictionarySection(state.dictionary, onAdd = viewModel::addGloss)
 
         if (language != null && language.termDictionaries.isNotEmpty() && draft.text.isNotBlank()) {
             HorizontalDivider()
@@ -200,7 +190,8 @@ val LanguageDictionary.displayName: String
 fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit) {
     val colors = TayraTheme.current.statusColors
     Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-        TermStatus.selectable.forEach { status ->
+        // "Ignored" is set from the reading page, not from the form.
+        TermStatus.selectable.filter { it != TermStatus.IGNORED }.forEach { status ->
             val isSelected = status == selected
             val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
             Text(
