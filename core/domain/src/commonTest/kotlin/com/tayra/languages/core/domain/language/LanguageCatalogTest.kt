@@ -21,7 +21,8 @@ class LanguageCatalogTest {
     @Test
     fun nativeLanguageFallsBackToEnglish() {
         assertEquals("ru", LanguageCatalog.nativeOption("RU").code)
-        assertEquals("en", LanguageCatalog.nativeOption("de").code)
+        assertEquals("de", LanguageCatalog.nativeOption("de").code)
+        assertEquals("en", LanguageCatalog.nativeOption("fr").code)
         assertEquals("en", LanguageCatalog.nativeOption("").code)
     }
 }

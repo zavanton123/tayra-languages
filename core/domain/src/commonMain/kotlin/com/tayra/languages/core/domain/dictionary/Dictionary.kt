@@ -95,11 +95,14 @@ object DictionaryPacks {
         "uk" to "Ukrainian",
     )
 
-    /** Languages the glosses can be in; a Russian-to-Russian pack does not exist. */
-    private val targets: List<Pair<String, String>> = listOf("ru" to "Russian", "en" to "English")
+    /** Languages the glosses can be in. */
+    private val targets: List<Pair<String, String>> = listOf("ru" to "Russian", "en" to "English", "de" to "German")
+
+    /** Pairs without a pack: Russian to Russian is not a translation, and the German Wiktionary has no Galician or Serbian section. */
+    private val missing: Set<String> = setOf("ru-ru", "gl-de", "sr-de")
 
     val all: List<DictionaryPack> = targets.flatMap { (target, targetName) ->
-        sources.filter { (source, _) -> !(source == "ru" && target == "ru") }.map { (source, sourceName) ->
+        sources.filter { (source, _) -> "$source-$target" !in missing }.map { (source, sourceName) ->
             DictionaryPack(DictionaryId(source, target), "$sourceName → $targetName", "$BASE_URL/$source-$target.sqlite.gzip")
         }
     }.sortedBy { it.title }
