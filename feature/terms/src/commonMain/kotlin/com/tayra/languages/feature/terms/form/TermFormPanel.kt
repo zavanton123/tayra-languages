@@ -17,7 +17,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Checkbox
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.KeyboardArrowDown
@@ -71,16 +70,13 @@ import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
-import com.tayra.languages.core.domain.model.TermReference
 import com.tayra.languages.core.domain.model.TermStatus
-import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.audio.PlayButton
 import com.tayra.languages.core.ui.audio.SpeakButton
 import com.tayra.languages.core.ui.audio.rememberAudioPlayback
-import com.tayra.languages.core.ui.components.TagInput
 import com.tayra.languages.core.ui.theme.TayraTheme
 import io.ktor.http.encodeURLParameter
 
@@ -97,7 +93,6 @@ fun TermFormPanel(
     onOpenExamples: ((languageId: Long, text: String) -> Unit)? = null,
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
-    var confirmDelete by remember { mutableStateOf(false) }
     val uriHandler = LocalUriHandler.current
     val focusRequester = remember { FocusRequester() }
 
@@ -149,29 +144,6 @@ fun TermFormPanel(
             textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
             modifier = Modifier.fillMaxWidth().focusRequester(focusRequester),
         )
-        // Parents are normally filled from the dictionary; the input only appears on request or
-        // when there is no dictionary to do it.
-        var editingParents by remember(draft.id, draft.originalText) { mutableStateOf(false) }
-        if (editingParents || (draft.parents.isEmpty() && state.dictionary.isEmpty)) {
-            TagInput(
-                values = draft.parents,
-                onValuesChange = viewModel::setParents,
-                label = "Parents",
-                suggestions = state.parentSuggestions.map { it.text.replace("​", "") },
-                onQueryChange = viewModel::setParentQuery,
-                onChipClick = viewModel::openParent,
-                suggestionContent = { text ->
-                    val match = state.parentSuggestions.firstOrNull { it.text.replace("​", "") == text }
-                    Column {
-                        Text(text)
-                        if (match?.translation != null) Text(match.translation!!, style = MaterialTheme.typography.bodySmall)
-                    }
-                },
-                modifier = Modifier.fillMaxWidth(),
-            )
-        } else {
-            ParentLine(parents = draft.parents, onOpen = viewModel::openParent, onEdit = { editingParents = true })
-        }
         if (language?.showRomanization == true) {
             OutlinedTextField(
                 value = draft.romanization,
@@ -185,37 +157,22 @@ fun TermFormPanel(
             value = draft.translation,
             onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
             label = { Text("Translation") },
-            supportingText = when {
-                state.lookingUpTranslation -> ({ Text("Looking up translation...") })
-                state.translationSuggested -> ({ Text("Suggested translation; edit as needed") })
-                else -> null
-            },
+            supportingText = if (state.lookingUpTranslation) ({ Text("Looking up translation...") }) else null,
             minLines = 3,
             modifier = Modifier.fillMaxWidth(),
         )
         if (!state.dictionary.isEmpty) DictionarySection(state.dictionary, onAdd = viewModel::addGloss)
         StatusSelector(selected = draft.status, onSelect = viewModel::setStatus)
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Checkbox(
-                checked = draft.effectiveSyncStatus,
-                onCheckedChange = { v -> viewModel.update { it.copy(syncStatus = v) } },
-                enabled = draft.parents.size == 1,
-            )
-            Text("Link to parent", style = MaterialTheme.typography.bodyMedium)
-        }
-        Row(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalAlignment = Alignment.CenterVertically) {
-            if (!draft.isNew) OutlinedButton(onClick = { confirmDelete = true }) { Text("Delete") }
-            Text(
-                when {
-                    state.saving -> "Saving..."
-                    state.dirty -> "Changes are saved automatically"
-                    state.saved -> "Saved"
-                    else -> ""
-                },
-                style = MaterialTheme.typography.labelMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
+        Text(
+            when {
+                state.saving -> "Saving..."
+                state.dirty -> "Changes are saved automatically"
+                state.saved -> "Saved"
+                else -> ""
+            },
+            style = MaterialTheme.typography.labelMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
 
         if (language != null && language.termDictionaries.isNotEmpty() && draft.text.isNotBlank()) {
             HorizontalDivider()
@@ -231,20 +188,7 @@ fun TermFormPanel(
 
         HorizontalDivider()
         ExamplesSection(state, language, onOpenExamples)
-        HorizontalDivider()
-        SentencesSection(state, language, onLoad = viewModel::loadReferences)
         if (embedded) Spacer(Modifier.height(24.dp))
-    }
-
-    if (confirmDelete) {
-        ConfirmDialog(
-            title = "Delete term?",
-            text = "This cannot be undone. If this term has children, they will be orphaned.",
-            confirmLabel = "Delete",
-            destructive = true,
-            onConfirm = { confirmDelete = false; viewModel.delete() },
-            onDismiss = { confirmDelete = false },
-        )
     }
 }
 
@@ -271,26 +215,6 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit) {
                     .padding(horizontal = 12.dp, vertical = 8.dp),
             )
         }
-    }
-}
-
-/** The term's parent as a line: tap the name to open it, or change the link. */
-@Composable
-private fun ParentLine(parents: List<String>, onOpen: (String) -> Unit, onEdit: () -> Unit) {
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        Text(if (parents.size > 1) "Parents:" else "Parent:", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        if (parents.isEmpty()) Text("none", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        parents.forEach { parent ->
-            Text(
-                parent,
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.primary,
-                textDecoration = TextDecoration.Underline,
-                modifier = Modifier.clickable { onOpen(parent) },
-            )
-        }
-        Spacer(Modifier.weight(1f))
-        TextButton(onClick = onEdit) { Text(if (parents.isEmpty()) "Set" else "Change") }
     }
 }
 
@@ -445,42 +369,3 @@ private fun emphasize(sentence: String, term: String) = buildAnnotatedString {
     append(sentence.substring(index))
 }
 
-@Composable
-private fun SentencesSection(state: TermFormUiState, language: Language?, onLoad: () -> Unit) {
-    val refs = state.references
-    if (refs == null) {
-        TextButton(onClick = onLoad, enabled = !state.loadingReferences && state.draft.text.isNotBlank()) {
-            Text(if (state.loadingReferences) "Loading sentences..." else "Show sentences")
-        }
-        return
-    }
-    Text("Sentences", style = MaterialTheme.typography.labelLarge)
-    if (refs.isEmpty) {
-        Text("No references found.", style = MaterialTheme.typography.bodySmall)
-        return
-    }
-    val direction = if (language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr
-    ReferenceGroup("\"${state.draft.text.replace("​", "")}\"", refs.term, direction)
-    ReferenceGroup("Child terms", refs.children, direction)
-    refs.parents.forEach { (parent, list) -> ReferenceGroup("\"$parent\"", list, direction) }
-}
-
-@Composable
-private fun ReferenceGroup(title: String, references: List<TermReference>, direction: TextDirection) {
-    if (references.isEmpty()) return
-    Text(title, style = MaterialTheme.typography.titleSmall)
-    references.forEach { ref ->
-        Column(Modifier.padding(vertical = 4.dp)) {
-            Text(highlighted(ref.sentence), style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction))
-            Text(ref.title, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        }
-    }
-}
-
-/** Renders `**text**` markers as bold. */
-private fun highlighted(sentence: String) = buildAnnotatedString {
-    val parts = sentence.split("**")
-    parts.forEachIndexed { index, part ->
-        if (index % 2 == 1) withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append(part) } else append(part)
-    }
-}
