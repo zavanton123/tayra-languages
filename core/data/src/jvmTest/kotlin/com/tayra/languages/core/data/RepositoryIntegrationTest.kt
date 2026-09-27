@@ -195,11 +195,11 @@ class RepositoryIntegrationTest {
         val env = Env()
         env.demo.ensureLanguages()
         assertTrue(env.demo.isDemoData)
-        assertEquals(listOf("English", "German", "Portuguese"), env.languages.getAll().map { it.name }.sorted())
+        assertEquals(listOf("English", "French", "German", "Portuguese"), env.languages.getAll().map { it.name }.sorted())
         assertNotNull(env.demo.tutorialBookId())
         assertTrue(env.books.getBooks().isNotEmpty())
         env.demo.wipeDatabase()
-        assertEquals(listOf("English", "German", "Portuguese"), env.languages.getAll().map { it.name }.sorted())
+        assertEquals(listOf("English", "French", "German", "Portuguese"), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().isEmpty())
         assertTrue(!env.demo.isDemoData)
     }
@@ -213,7 +213,7 @@ class RepositoryIntegrationTest {
         env.demo.ensureLanguages()
         assertTrue(!env.demo.isDemoData)
         assertEquals(englishId, env.languages.findByName("English")?.id)
-        assertEquals(listOf("English", "German", "Portuguese"), env.languages.getAll().map { it.name }.sorted())
+        assertEquals(listOf("English", "French", "German", "Portuguese"), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().none { it.title == "Hola" })
         assertFailsWith<LanguageValidationException> { env.languageService.save(Language(name = "Klingon")) }
     }
