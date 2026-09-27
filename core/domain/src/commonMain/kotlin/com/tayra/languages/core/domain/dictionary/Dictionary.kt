@@ -96,10 +96,14 @@ object DictionaryPacks {
     )
 
     /** Languages the glosses can be in. */
-    private val targets: List<Pair<String, String>> = listOf("ru" to "Russian", "en" to "English", "de" to "German", "fr" to "French")
+    private val targets: List<Pair<String, String>> = listOf("ru" to "Russian", "en" to "English", "de" to "German", "fr" to "French", "es" to "Spanish")
 
-    /** Pairs without a pack: Russian to Russian is not a translation, and the German Wiktionary has no Galician or Serbian section. */
-    private val missing: Set<String> = setOf("ru-ru", "gl-de", "sr-de")
+    /**
+     * Pairs without a pack: Russian to Russian is not a translation, the German Wiktionary has no
+     * Galician or Serbian section, and the Spanish Wiktionary covers only eighteen of the languages.
+     */
+    private val missing: Set<String> = setOf("ru-ru", "gl-de", "sr-de") +
+        listOf("be", "bg", "hr", "et", "is", "lv", "lt", "mk", "no", "sr", "sk", "sl", "tr", "uk").map { "$it-es" }
 
     val all: List<DictionaryPack> = targets.flatMap { (target, targetName) ->
         sources.filter { (source, _) -> "$source-$target" !in missing }.map { (source, sourceName) ->
