@@ -3,7 +3,12 @@ package com.tayra.languages.core.domain.language
 /** The fixed set of languages the app offers: what can be learned and what translations are shown in. */
 object LanguageCatalog {
     /** Names of the predefined languages a user can learn, in display order. */
-    val targetLanguages: List<String> = listOf("Belarusian", "Czech", "Dutch", "English", "Finnish", "French", "German", "Greek", "Hungarian", "Italian", "Latin", "Polish", "Portuguese", "Serbian", "Spanish", "Swedish", "Turkish", "Ukrainian")
+    val targetLanguages: List<String> = listOf(
+        "Belarusian", "Bulgarian", "Catalan", "Croatian", "Czech", "Danish", "Dutch", "English",
+        "Estonian", "Finnish", "French", "Galician", "German", "Greek", "Hungarian", "Icelandic",
+        "Italian", "Latin", "Latvian", "Lithuanian", "Macedonian", "Norwegian", "Polish", "Portuguese",
+        "Romanian", "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Turkish", "Ukrainian",
+    )
 
     /** Languages translations and example sentences can be shown in. */
     val nativeLanguages: List<LanguageOption> = listOf(LanguageOption("en", "English"), LanguageOption("ru", "Russian"))
