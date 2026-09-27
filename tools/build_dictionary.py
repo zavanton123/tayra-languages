@@ -29,6 +29,7 @@ import json
 import os
 import re
 import shutil
+import unicodedata
 import sqlite3
 import sys
 from collections import Counter, defaultdict
@@ -39,6 +40,8 @@ SOURCES = {
     "de": ("German", "dictionaries/german-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-German.jsonl.gz"),
     "fr": ("French", "dictionaries/french-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-French.jsonl.gz"),
     "pt": ("Portuguese", "dictionaries/portuguese-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Portuguese.jsonl.gz"),
+    # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
+    "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
 }
 TARGET = "ru"
 # Stored as PRAGMA user_version and in meta; the app checks it before trusting a file.
@@ -72,11 +75,65 @@ UMLAUTS = str.maketrans({
     "ä": "a", "ö": "o", "ü": "u", "ß": "ss",
     "á": "a", "à": "a", "â": "a", "ã": "a", "é": "e", "è": "e", "ê": "e", "í": "i", "î": "i",
     "ó": "o", "ô": "o", "õ": "o", "ú": "u", "û": "u", "ç": "c",
+    "č": "c", "ć": "c", "đ": "d", "š": "s", "ž": "z",
 })
 
 
 def plain(word):
     return word.lower().translate(UMLAUTS)
+
+
+# The English Wiktionary writes Serbo-Croatian with pitch accents ("пси̏", "pȁs") that ordinary
+# text never carries; these combining marks are removed so forms match written words.
+PITCH_MARKS = {"\u0300", "\u0301", "\u0304", "\u030f", "\u0311", "\u0342"}
+
+
+PITCH_BEARERS = set("aeiouraeiouАЕИОУРаеиоурAEIOUR")
+
+
+def strip_pitch(word):
+    """Removes pitch marks from vowels and syllabic r; the acute in "ć" is a letter and stays."""
+    out = []
+    for c in unicodedata.normalize("NFD", word):
+        if c in PITCH_MARKS and out and out[-1] in PITCH_BEARERS:
+            continue
+        out.append(c)
+    return unicodedata.normalize("NFC", "".join(out))
+
+
+# Serbian Latin to Cyrillic. The English Wiktionary keeps the inflection tables on its
+# Latin-script entries, while the Russian Wiktionary writes Serbian in Cyrillic.
+SERBIAN_DIGRAPHS = {"lj": "љ", "nj": "њ", "dž": "џ"}
+SERBIAN_LETTERS = dict(zip("abcčćdđefghijklmnoprsštuvzžywq", "абцчћдђефгхијклмнопрсштувзживк")) | {"x": "кс"}
+
+
+def to_serbian_cyrillic(word):
+    out = []
+    lower = word.lower()
+    i = 0
+    while i < len(word):
+        pair = lower[i : i + 2]
+        if pair in SERBIAN_DIGRAPHS:
+            letter = SERBIAN_DIGRAPHS[pair]
+            out.append(letter.upper() if word[i].isupper() else letter)
+            i += 2
+            continue
+        c = word[i]
+        mapped = SERBIAN_LETTERS.get(c.lower(), c)
+        out.append(mapped.upper() if c.isupper() else mapped)
+        i += 1
+    return "".join(out)
+
+
+def serbian_spellings(word):
+    """
+    A word without pitch accents, in its own script and in Cyrillic. The Russian Wiktionary
+    lists most Serbian headwords in Cyrillic but some in Latin, and texts come in either
+    script, so every form is stored both ways.
+    """
+    stripped = strip_pitch(word)
+    cyrillic = to_serbian_cyrillic(stripped)
+    return [stripped] if cyrillic == stripped else [stripped, cyrillic]
 
 
 def open_text(path):
@@ -135,8 +192,12 @@ def load_russian(path):
     return entries, forms, variants, dropped
 
 
-def load_english_forms(path, lemmas, report_every=200_000):
-    """Collects (form, lemma) pairs from the English Wiktionary dump for the given lemmas."""
+def load_english_forms(path, lemmas, spellings=lambda word: [word], report_every=200_000):
+    """
+    Collects (form, lemma) pairs from the English Wiktionary dump for the given lemmas.
+    [spellings] lists the spellings a word may be stored under; a headword matches a lemma
+    under any of them, and its forms are recorded under all of theirs.
+    """
     forms = set()
     seen = 0
     with open_text(path) as f:
@@ -145,19 +206,24 @@ def load_english_forms(path, lemmas, report_every=200_000):
             if seen % report_every == 0:
                 print(f"  scanned {seen:,} English entries, {len(forms):,} forms so far", file=sys.stderr)
             d = json.loads(line)
-            word = d.get("word", "")
-            if word in lemmas:
+            raw_word = d.get("word", "")
+            for word in spellings(raw_word):
+                if word not in lemmas:
+                    continue
                 for x in d.get("forms", []):
-                    form = x.get("form", "").strip()
                     if set(x.get("tags", [])) & SKIP_FORM_TAGS:
                         continue
-                    if is_clean_form(form, word):
-                        forms.add((form, word))
+                    for form in spellings(x.get("form", "").strip()):
+                        if is_clean_form(form, word):
+                            forms.add((form, word))
             for s in d.get("senses", []):
                 for x in s.get("form_of", []):
-                    lemma = x.get("word", "")
-                    if lemma in lemmas and is_clean_form(word, lemma):
-                        forms.add((word, lemma))
+                    for lemma in spellings(x.get("word", "")):
+                        if lemma not in lemmas:
+                            continue
+                        for word in spellings(raw_word):
+                            if is_clean_form(word, lemma):
+                                forms.add((word, lemma))
     return forms
 
 
@@ -285,7 +351,7 @@ def main():
     ru_forms = len(forms)
     if not args.skip_english:
         print(f"Reading {args.en}", file=sys.stderr)
-        forms |= load_english_forms(args.en, lemmas)
+        forms |= load_english_forms(args.en, lemmas, spellings=serbian_spellings if args.source == "sr" else (lambda word: [word]))
         print(f"  {len(forms) - ru_forms:,} forms added from the English Wiktionary", file=sys.stderr)
 
     inflected = {lemma for _, lemma in forms}
