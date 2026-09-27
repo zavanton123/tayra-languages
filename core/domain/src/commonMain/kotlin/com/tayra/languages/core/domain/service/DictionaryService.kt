@@ -64,7 +64,12 @@ class DictionaryService(
         if (wordLc.isEmpty()) return DictionaryLookup.EMPTY
         // Among entries for one spelling, nouns and verbs are usually the everyday word ("maison"
         // the noun before the adjective "homemade"), and among those the one with more senses.
-        val own = repository.entries(dictionary, wordLc).sortedWith(compareBy({ caseRank(it.word, word) }, { posRank(it.pos) }, { -it.senses.size }))
+        // An entry in another case ("CATS" for "cats"), or one whose every sense is obsolete
+        // (the archaic noun "went"), is not the word the reader met: it ranks after the lemmas'
+        // entries and does not stop an inflected form from getting its parent.
+        val (own, otherCase) = repository.entries(dictionary, wordLc)
+            .sortedWith(compareBy({ caseRank(it.word, word) }, { posRank(it.pos) }, { -it.senses.size }))
+            .partition { caseRank(it.word, word) < 2 && it.senses.any { sense -> sense.tags.none { tag -> tag in DATED_TAGS } } }
         // Headwords that differ only in case are usually a common noun and a name ("word", "Word");
         // the one whose case matches the clicked word wins, so the name does not become the parent.
         val lemmas = repository.lemmas(dictionary, wordLc)
@@ -77,7 +82,10 @@ class DictionaryService(
                 .sortedWith(compareBy({ posRank(it.pos) }, { -it.senses.size }))
                 .map { it.copy(isOwnEntry = false) }
         }
-        return DictionaryLookup(own + inherited, lemmas.filter { lemma -> inherited.any { it.word == lemma } })
+        return DictionaryLookup(
+            own + inherited + otherCase.map { it.copy(isOwnEntry = false) },
+            lemmas.filter { lemma -> inherited.any { it.word == lemma } },
+        )
     }
 
     private fun stateOf(id: DictionaryId): PackState = _packs.value.firstOrNull { it.pack.id == id }?.state ?: PackState.NotInstalled
@@ -89,6 +97,8 @@ class DictionaryService(
     /** Packs store keys lowercased the way tools/build_dictionary.py does: Turkish keeps its dotted and dotless i apart. */
     private fun lowercase(word: String, dictionary: DictionaryId): String =
         (if (dictionary.sourceLanguage == "tr") word.replace('I', 'ı').replace('İ', 'i') else word).lowercase()
+
+    private val DATED_TAGS = setOf("obsolete", "archaic", "dated", "rare", "historical")
 
     private fun posRank(pos: String): Int = when (pos) {
         "noun", "verb" -> 0
