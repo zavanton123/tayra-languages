@@ -12,7 +12,7 @@ object LanguageCatalog {
     )
 
     /** Languages translations and example sentences can be shown in. */
-    val nativeLanguages: List<LanguageOption> = listOf(LanguageOption("en", "English"), LanguageOption("ru", "Russian"))
+    val nativeLanguages: List<LanguageOption> = listOf(LanguageOption("en", "English"), LanguageOption("de", "German"), LanguageOption("ru", "Russian"))
 
     fun isTarget(name: String): Boolean = targetLanguages.any { it.equals(name.trim(), ignoreCase = true) }
 

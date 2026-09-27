@@ -2,10 +2,11 @@
 """
 Builds an offline dictionary pack for the app from kaikki.org dumps.
 
-With --target ru (the default), glosses come from a language section of the Russian Wiktionary
-(e.g. dictionaries/german-to-russian.jsonl) and inflection tables from the English Wiktionary's
-dump for that language (e.g. dictionaries/kaikki.org-dictionary-German.jsonl.gz). With
---target en, both glosses and inflections come from the English Wiktionary dump alone.
+With --target ru (the default) or --target de, glosses come from a language section of the
+Russian or German Wiktionary (e.g. dictionaries/german-to-russian.jsonl,
+dictionaries/english-to-german.jsonl) and inflection tables from the English Wiktionary's dump
+for that language (e.g. dictionaries/kaikki.org-dictionary-German.jsonl.gz). With --target en,
+both glosses and inflections come from the English Wiktionary dump alone.
 
 Only the fields the app needs survive: word, part of speech, glosses with their tags, an IPA
 transcription, and a table mapping every inflected form back to its lemma. For English with a
@@ -20,7 +21,7 @@ under) that the app decompresses once and opens read-only on every platform; the
   entries(id, word, word_lc, pos, ipa, senses) senses is a JSON list of {glosses, tags}
   forms(form_lc, lemma, generated)
 
-Usage: python3 tools/build_dictionary.py --source de [--target ru|en] [--ru FILE] [--en FILE] [--out FILE]
+Usage: python3 tools/build_dictionary.py --source de [--target ru|en|de] [--glosses FILE] [--en FILE] [--out FILE]
 """
 import argparse
 import gzip
@@ -33,45 +34,52 @@ import sqlite3
 import sys
 from collections import Counter, defaultdict
 
-# Per source language: the Russian Wiktionary section dump and the English Wiktionary dump.
+# Per source language: the English name, the stem of its Russian/German Wiktionary section files
+# (dictionaries/<stem>-to-russian.jsonl, dictionaries/<stem>-to-german.jsonl) and the English
+# Wiktionary dump.
 SOURCES = {
-    "ru": ("Russian", None, "dictionaries/kaikki.org-dictionary-Russian.jsonl.gz"),
-    "en": ("English", "dictionaries/english-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-English.jsonl.gz"),
-    "de": ("German", "dictionaries/german-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-German.jsonl.gz"),
-    "fr": ("French", "dictionaries/french-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-French.jsonl.gz"),
-    "pt": ("Portuguese", "dictionaries/portuguese-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Portuguese.jsonl.gz"),
-    "es": ("Spanish", "dictionaries/spanish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Spanish.jsonl.gz"),
-    "it": ("Italian", "dictionaries/italian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Italian.jsonl.gz"),
-    "uk": ("Ukrainian", "dictionaries/ukrainian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Ukrainian.jsonl.gz"),
-    "la": ("Latin", "dictionaries/latin-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Latin.jsonl.gz"),
-    "tr": ("Turkish", "dictionaries/turkish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Turkish.jsonl.gz"),
-    "be": ("Belarusian", "dictionaries/belarusian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Belarusian.jsonl.gz"),
-    "fi": ("Finnish", "dictionaries/finnish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Finnish.jsonl.gz"),
-    "pl": ("Polish", "dictionaries/polish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Polish.jsonl.gz"),
-    "cs": ("Czech", "dictionaries/czech-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Czech.jsonl.gz"),
-    "el": ("Greek", "dictionaries/greek-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Greek.jsonl.gz"),
-    "nl": ("Dutch", "dictionaries/dutch-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Dutch.jsonl.gz"),
-    "sv": ("Swedish", "dictionaries/swedish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Swedish.jsonl.gz"),
-    "hu": ("Hungarian", "dictionaries/hungarian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Hungarian.jsonl.gz"),
+    "ru": ("Russian", "russian", "dictionaries/kaikki.org-dictionary-Russian.jsonl.gz"),
+    "en": ("English", "english", "dictionaries/kaikki.org-dictionary-English.jsonl.gz"),
+    "de": ("German", "german", "dictionaries/kaikki.org-dictionary-German.jsonl.gz"),
+    "fr": ("French", "french", "dictionaries/kaikki.org-dictionary-French.jsonl.gz"),
+    "pt": ("Portuguese", "portuguese", "dictionaries/kaikki.org-dictionary-Portuguese.jsonl.gz"),
+    "es": ("Spanish", "spanish", "dictionaries/kaikki.org-dictionary-Spanish.jsonl.gz"),
+    "it": ("Italian", "italian", "dictionaries/kaikki.org-dictionary-Italian.jsonl.gz"),
+    "uk": ("Ukrainian", "ukrainian", "dictionaries/kaikki.org-dictionary-Ukrainian.jsonl.gz"),
+    "la": ("Latin", "latin", "dictionaries/kaikki.org-dictionary-Latin.jsonl.gz"),
+    "tr": ("Turkish", "turkish", "dictionaries/kaikki.org-dictionary-Turkish.jsonl.gz"),
+    "be": ("Belarusian", "belarusian", "dictionaries/kaikki.org-dictionary-Belarusian.jsonl.gz"),
+    "fi": ("Finnish", "finnish", "dictionaries/kaikki.org-dictionary-Finnish.jsonl.gz"),
+    "pl": ("Polish", "polish", "dictionaries/kaikki.org-dictionary-Polish.jsonl.gz"),
+    "cs": ("Czech", "czech", "dictionaries/kaikki.org-dictionary-Czech.jsonl.gz"),
+    "el": ("Greek", "greek", "dictionaries/kaikki.org-dictionary-Greek.jsonl.gz"),
+    "nl": ("Dutch", "dutch", "dictionaries/kaikki.org-dictionary-Dutch.jsonl.gz"),
+    "sv": ("Swedish", "swedish", "dictionaries/kaikki.org-dictionary-Swedish.jsonl.gz"),
+    "hu": ("Hungarian", "hungarian", "dictionaries/kaikki.org-dictionary-Hungarian.jsonl.gz"),
     # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
-    "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
+    "sr": ("Serbo-Croatian", "serbian", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
     # Croatian shares that Serbo-Croatian dump; Norwegian uses the Bokmål one.
-    "lt": ("Lithuanian", "dictionaries/lithuanian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Lithuanian.jsonl.gz"),
-    "bg": ("Bulgarian", "dictionaries/bulgarian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Bulgarian.jsonl.gz"),
-    "lv": ("Latvian", "dictionaries/latvian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Latvian.jsonl.gz"),
-    "ro": ("Romanian", "dictionaries/romanian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Romanian.jsonl.gz"),
-    "da": ("Danish", "dictionaries/danish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Danish.jsonl.gz"),
-    "no": ("Norwegian", "dictionaries/norwegian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-NorwegianBokmal.jsonl.gz"),
-    "sk": ("Slovak", "dictionaries/slovak-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Slovak.jsonl.gz"),
-    "et": ("Estonian", "dictionaries/estonian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Estonian.jsonl.gz"),
-    "hr": ("Croatian", "dictionaries/croatian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
-    "mk": ("Macedonian", "dictionaries/macedonian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Macedonian.jsonl.gz"),
-    "sl": ("Slovene", "dictionaries/slovene-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Slovene.jsonl.gz"),
-    "is": ("Icelandic", "dictionaries/icelandic-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Icelandic.jsonl.gz"),
-    "ca": ("Catalan", "dictionaries/catalan-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Catalan.jsonl.gz"),
-    "gl": ("Galician", "dictionaries/galician-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Galician.jsonl.gz"),
+    "lt": ("Lithuanian", "lithuanian", "dictionaries/kaikki.org-dictionary-Lithuanian.jsonl.gz"),
+    "bg": ("Bulgarian", "bulgarian", "dictionaries/kaikki.org-dictionary-Bulgarian.jsonl.gz"),
+    "lv": ("Latvian", "latvian", "dictionaries/kaikki.org-dictionary-Latvian.jsonl.gz"),
+    "ro": ("Romanian", "romanian", "dictionaries/kaikki.org-dictionary-Romanian.jsonl.gz"),
+    "da": ("Danish", "danish", "dictionaries/kaikki.org-dictionary-Danish.jsonl.gz"),
+    "no": ("Norwegian", "norwegian", "dictionaries/kaikki.org-dictionary-NorwegianBokmal.jsonl.gz"),
+    "sk": ("Slovak", "slovak", "dictionaries/kaikki.org-dictionary-Slovak.jsonl.gz"),
+    "et": ("Estonian", "estonian", "dictionaries/kaikki.org-dictionary-Estonian.jsonl.gz"),
+    "hr": ("Croatian", "croatian", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
+    "mk": ("Macedonian", "macedonian", "dictionaries/kaikki.org-dictionary-Macedonian.jsonl.gz"),
+    "sl": ("Slovene", "slovene", "dictionaries/kaikki.org-dictionary-Slovene.jsonl.gz"),
+    "is": ("Icelandic", "icelandic", "dictionaries/kaikki.org-dictionary-Icelandic.jsonl.gz"),
+    "ca": ("Catalan", "catalan", "dictionaries/kaikki.org-dictionary-Catalan.jsonl.gz"),
+    "gl": ("Galician", "galician", "dictionaries/kaikki.org-dictionary-Galician.jsonl.gz"),
 }
-TARGET = "ru"
+# Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
+# a sense that only says "variant of X".
+TARGETS = {
+    "ru": ("Russian Wiktionary", "russian", re.compile(r"^вариант (\S+)$")),
+    "de": ("German Wiktionary", "german", re.compile(r"^(?:Nebenform|Schreibvariante|Variante|alternative Schreibweise) (?:von|zu) (\S+)$")),
+}
 # Stored as PRAGMA user_version and in meta; the app checks it before trusting a file.
 FORMAT = 1
 
@@ -85,8 +93,6 @@ SKIP_FORM_TAGS_BY_SOURCE = {
 }
 # Letters in any script, then letters, apostrophes or hyphens.
 WORD_RE = re.compile(r"^[^\W\d_](?:[^\W\d_]|['\-])*$")
-# A Russian Wiktionary sense that only says "spelling variant of X".
-VARIANT_RE = re.compile(r"^вариант (\S+)$")
 VOWELS = set("aeiou")
 
 
@@ -221,11 +227,12 @@ def open_text(path):
     return open(path, encoding="utf-8")
 
 
-def load_russian(path, clean=lambda word: word):
+def load_glossary(path, variant_re, clean=lambda word: word):
     """
-    Returns (entries, forms, variants, dropped) from the Russian Wiktionary dump. A sense that
-    only says "form of X" or "variant of X" becomes a pointer to X rather than a gloss, so the
-    app shows X's meaning and links the term to it; entries left without glosses are dropped.
+    Returns (entries, forms, variants, dropped) from a Russian or German Wiktionary section. A
+    sense that only says "form of X" or "variant of X" becomes a pointer to X rather than a
+    gloss, so the app shows X's meaning and links the term to it; entries left without glosses
+    are dropped.
     """
     entries = []
     forms = set()
@@ -244,7 +251,7 @@ def load_russian(path, clean=lambda word: word):
                         forms.add((d["word"], lemma))
                 if form_of or not glosses:
                     continue
-                match = VARIANT_RE.match(glosses[0]) if len(glosses) == 1 else None
+                match = variant_re.match(glosses[0]) if len(glosses) == 1 else None
                 if match:
                     variants.add((d["word"], match.group(1)))
                     continue
@@ -401,7 +408,7 @@ def finish_output(db, path, out_path, source, target, entry_count, form_count, s
         shutil.copyfileobj(plain, packed)
 
 
-def write_sqlite(out_path, entries, form_rows, source):
+def write_sqlite(out_path, entries, form_rows, source, target):
     db, path = open_output(out_path)
     db.executemany(
         "INSERT INTO entries(id, word, word_lc, pos, ipa, senses) VALUES (?, ?, ?, ?, ?, ?)",
@@ -412,8 +419,8 @@ def write_sqlite(out_path, entries, form_rows, source):
     )
     db.executemany("INSERT INTO forms(form_lc, lemma, generated) VALUES (?, ?, ?)", ((f, l, 1 if g else 0) for f, l, g in form_rows))
     finish_output(
-        db, path, out_path, source, "ru", len(entries), len(form_rows),
-        f"Russian Wiktionary via kaikki.org (glosses); English Wiktionary {SOURCES[source][0]} entries via kaikki.org (inflections)",
+        db, path, out_path, source, target, len(entries), len(form_rows),
+        f"{TARGETS[target][0]} via kaikki.org (glosses); English Wiktionary {SOURCES[source][0]} entries via kaikki.org (inflections)",
     )
 
 
@@ -509,26 +516,27 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--source", choices=sorted(SOURCES), default="en", help="language the pack explains (ISO 639-1)")
-    parser.add_argument("--target", choices=["ru", "en"], default="ru", help="language the glosses are in")
-    parser.add_argument("--ru", help="Russian Wiktionary dump for the source language's section")
+    parser.add_argument("--target", choices=["ru", "en", "de"], default="ru", help="language the glosses are in")
+    parser.add_argument("--glosses", help="Russian or German Wiktionary dump for the source language's section")
     parser.add_argument("--en", help="English Wiktionary dump for the source language, .jsonl or .jsonl.gz")
     parser.add_argument("--out", help="output gzip-compressed SQLite file (default dictionaries/<source>-ru.sqlite.gzip)")
     parser.add_argument("--skip-english", action="store_true", help="do not read the English Wiktionary dump")
     args = parser.parse_args()
-    _, ru_default, en_default = SOURCES[args.source]
-    args.ru = args.ru or ru_default
+    _, file_stem, en_default = SOURCES[args.source]
     args.en = args.en or en_default
     args.out = args.out or f"dictionaries/{args.source}-{args.target}.sqlite.gzip"
 
     if args.target == "en":
         build_english_target(args.source, args.en, args.out)
         return
-    if args.ru is None:
-        parser.error(f"no Russian Wiktionary section is configured for {args.source}; use --target en")
+    wiktionary, suffix, variant_re = TARGETS[args.target]
+    args.glosses = args.glosses or (f"dictionaries/{file_stem}-to-{suffix}.jsonl" if file_stem else None)
+    if args.glosses is None or not os.path.exists(args.glosses):
+        parser.error(f"no {wiktionary} section for {args.source} at {args.glosses}")
 
-    print(f"Reading {args.ru}", file=sys.stderr)
+    print(f"Reading {args.glosses}", file=sys.stderr)
     cleaner = CLEANERS.get(args.source, lambda word: word)
-    entries, forms, variants, dropped = load_russian(args.ru, clean=cleaner)
+    entries, forms, variants, dropped = load_glossary(args.glosses, variant_re, clean=cleaner)
     lemmas = {e["word"] for e in entries}
     # Spelling variants point at the main entry and get no guessed inflections of their own.
     forms |= {(word, target) for word, target in variants if target in lemmas}
@@ -571,7 +579,7 @@ def main():
         key=lambda x: (x[0], x[1]),
     )
     entries.sort(key=lambda e: (e["word"].lower(), e["word"], e["pos"]))
-    write_sqlite(args.out, entries, form_rows, args.source)
+    write_sqlite(args.out, entries, form_rows, args.source, args.target)
 
     per_pos = Counter()
     for lemma, poses in lemma_pos.items():
