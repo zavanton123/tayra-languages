@@ -96,7 +96,7 @@ object DictionaryPacks {
     )
 
     /** Languages the glosses can be in. */
-    private val targets: List<Pair<String, String>> = listOf("ru" to "Russian", "en" to "English", "de" to "German")
+    private val targets: List<Pair<String, String>> = listOf("ru" to "Russian", "en" to "English", "de" to "German", "fr" to "French")
 
     /** Pairs without a pack: Russian to Russian is not a translation, and the German Wiktionary has no Galician or Serbian section. */
     private val missing: Set<String> = setOf("ru-ru", "gl-de", "sr-de")
