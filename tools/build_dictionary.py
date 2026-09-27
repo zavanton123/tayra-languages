@@ -55,6 +55,21 @@ SOURCES = {
     "hu": ("Hungarian", "dictionaries/hungarian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Hungarian.jsonl.gz"),
     # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
     "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
+    # Croatian shares that Serbo-Croatian dump; Norwegian uses the Bokmål one.
+    "lt": ("Lithuanian", "dictionaries/lithuanian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Lithuanian.jsonl.gz"),
+    "bg": ("Bulgarian", "dictionaries/bulgarian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Bulgarian.jsonl.gz"),
+    "lv": ("Latvian", "dictionaries/latvian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Latvian.jsonl.gz"),
+    "ro": ("Romanian", "dictionaries/romanian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Romanian.jsonl.gz"),
+    "da": ("Danish", "dictionaries/danish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Danish.jsonl.gz"),
+    "no": ("Norwegian", "dictionaries/norwegian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-NorwegianBokmal.jsonl.gz"),
+    "sk": ("Slovak", "dictionaries/slovak-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Slovak.jsonl.gz"),
+    "et": ("Estonian", "dictionaries/estonian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Estonian.jsonl.gz"),
+    "hr": ("Croatian", "dictionaries/croatian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
+    "mk": ("Macedonian", "dictionaries/macedonian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Macedonian.jsonl.gz"),
+    "sl": ("Slovene", "dictionaries/slovene-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Slovene.jsonl.gz"),
+    "is": ("Icelandic", "dictionaries/icelandic-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Icelandic.jsonl.gz"),
+    "ca": ("Catalan", "dictionaries/catalan-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Catalan.jsonl.gz"),
+    "gl": ("Galician", "dictionaries/galician-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Galician.jsonl.gz"),
 }
 TARGET = "ru"
 # Stored as PRAGMA user_version and in meta; the app checks it before trusting a file.
@@ -98,6 +113,8 @@ UMLAUTS = str.maketrans({
     "ł": "l", "ą": "a", "ę": "e", "ś": "s", "ź": "z", "ż": "z", "ń": "n",
     "ě": "e", "ř": "r", "ů": "u", "ý": "y", "ď": "d", "ť": "t", "ň": "n",
     "å": "a", "ő": "o", "ű": "u",
+    "ą": "a", "ė": "e", "į": "i", "ų": "u", "ū": "u", "ā": "a", "ē": "e", "ī": "i", "ģ": "g", "ķ": "k", "ļ": "l", "ņ": "n",
+    "ă": "a", "ș": "s", "ț": "t", "ş": "s", "ţ": "t", "ø": "o", "æ": "ae", "ð": "d", "þ": "th", "ĺ": "l", "ŕ": "r", "ľ": "l",
 })
 
 
@@ -105,8 +122,8 @@ def plain(word):
     return word.lower().translate(UMLAUTS)
 
 
-# The Wiktionaries write Serbo-Croatian with pitch accents ("пси̏", "pȁs") and Ukrainian and
-# Belarusian with stress marks ("ха́та") that ordinary text never carries; these combining marks are removed
+# The Wiktionaries write Serbo-Croatian with pitch accents ("пси̏", "pȁs") and Ukrainian,
+# Belarusian, Bulgarian and Macedonian with stress marks ("ха́та") that ordinary text never carries; these combining marks are removed
 # so forms match written words.
 PITCH_MARKS = {"\u0300", "\u0301", "\u0304", "\u030f", "\u0311", "\u0342"}
 
@@ -177,7 +194,7 @@ def serbian_spellings(word):
 
 
 # How each source's spellings are normalised before matching, when it needs it at all.
-CLEANERS = {"sr": strip_pitch, "uk": strip_pitch, "be": strip_pitch, "la": strip_length}
+CLEANERS = {"sr": strip_pitch, "uk": strip_pitch, "be": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length}
 
 
 def lowercase(word, source):
@@ -407,6 +424,10 @@ def main():
         skip_tags = SKIP_FORM_TAGS | SKIP_FORM_TAGS_BY_SOURCE.get(args.source, set())
         forms |= load_english_forms(args.en, lemmas, spellings=spellings, skip_tags=skip_tags)
         print(f"  {len(forms) - ru_forms:,} forms added from the English Wiktionary", file=sys.stderr)
+
+    if args.source == "hr":
+        # The Serbo-Croatian tables list every form in both scripts; Croatian is written in Latin.
+        forms = {(form, lemma) for form, lemma in forms if not any("\u0400" <= c <= "\u04ff" for c in form)}
 
     inflected = {lemma for _, lemma in forms}
     # A form the dumps already attribute to some lemma is never guessed for another one, so an

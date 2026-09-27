@@ -40,7 +40,7 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String) 
 /** A downloadable dictionary: a gzip-compressed SQLite file produced by tools/build_dictionary.py. */
 data class DictionaryPack(val id: DictionaryId, val title: String, val url: String)
 
-/** The packs the app knows how to download. */
+/** The packs the app knows how to download, by title. */
 object DictionaryPacks {
     val all: List<DictionaryPack> = listOf(
         DictionaryPack(
@@ -133,7 +133,77 @@ object DictionaryPacks {
             "Hungarian → Russian",
             "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/hu-ru.sqlite.gzip",
         ),
-    )
+        DictionaryPack(
+            DictionaryId("lt", "ru"),
+            "Lithuanian → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/lt-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("bg", "ru"),
+            "Bulgarian → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/bg-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("lv", "ru"),
+            "Latvian → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/lv-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("ro", "ru"),
+            "Romanian → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/ro-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("da", "ru"),
+            "Danish → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/da-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("no", "ru"),
+            "Norwegian → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/no-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("sk", "ru"),
+            "Slovak → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/sk-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("et", "ru"),
+            "Estonian → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/et-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("hr", "ru"),
+            "Croatian → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/hr-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("mk", "ru"),
+            "Macedonian → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/mk-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("sl", "ru"),
+            "Slovene → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/sl-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("is", "ru"),
+            "Icelandic → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/is-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("ca", "ru"),
+            "Catalan → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/ca-ru.sqlite.gzip",
+        ),
+        DictionaryPack(
+            DictionaryId("gl", "ru"),
+            "Galician → Russian",
+            "https://github.com/zavanton123/tayra-languages/releases/download/v0.1.0/gl-ru.sqlite.gzip",
+        ),
+    ).sortedBy { it.title }
 
     fun find(id: DictionaryId): DictionaryPack? = all.firstOrNull { it.id == id }
 

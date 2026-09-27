@@ -9,6 +9,7 @@ import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.DictionaryType
 import com.tayra.languages.core.domain.model.DictionaryUse
@@ -195,11 +196,11 @@ class RepositoryIntegrationTest {
         val env = Env()
         env.demo.ensureLanguages()
         assertTrue(env.demo.isDemoData)
-        assertEquals(listOf("Belarusian", "Czech", "Dutch", "English", "Finnish", "French", "German", "Greek", "Hungarian", "Italian", "Latin", "Polish", "Portuguese", "Serbian", "Spanish", "Swedish", "Turkish", "Ukrainian"), env.languages.getAll().map { it.name }.sorted())
+        assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
         assertNotNull(env.demo.tutorialBookId())
         assertTrue(env.books.getBooks().isNotEmpty())
         env.demo.wipeDatabase()
-        assertEquals(listOf("Belarusian", "Czech", "Dutch", "English", "Finnish", "French", "German", "Greek", "Hungarian", "Italian", "Latin", "Polish", "Portuguese", "Serbian", "Spanish", "Swedish", "Turkish", "Ukrainian"), env.languages.getAll().map { it.name }.sorted())
+        assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().isEmpty())
         assertTrue(!env.demo.isDemoData)
     }
@@ -213,7 +214,7 @@ class RepositoryIntegrationTest {
         env.demo.ensureLanguages()
         assertTrue(!env.demo.isDemoData)
         assertEquals(englishId, env.languages.findByName("English")?.id)
-        assertEquals(listOf("Belarusian", "Czech", "Dutch", "English", "Finnish", "French", "German", "Greek", "Hungarian", "Italian", "Latin", "Polish", "Portuguese", "Serbian", "Spanish", "Swedish", "Turkish", "Ukrainian"), env.languages.getAll().map { it.name }.sorted())
+        assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().none { it.title == "Hola" })
         assertFailsWith<LanguageValidationException> { env.languageService.save(Language(name = "Klingon")) }
     }

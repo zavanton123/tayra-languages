@@ -18,8 +18,12 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -30,6 +34,8 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPack
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.language.LanguageCatalog
+import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
@@ -37,13 +43,25 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppThemes
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 
-class SettingsViewModel(private val settings: SettingsRepository, private val dictionaries: DictionaryService) : ViewModel() {
+class SettingsViewModel(
+    private val settings: SettingsRepository,
+    private val dictionaries: DictionaryService,
+    languages: LanguageRepository,
+) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
     val packs: StateFlow<List<PackStatus>> = dictionaries.packs
+
+    /** Source-language codes of the languages that have books, so the pack list can lead with them. */
+    val languagesInUse: StateFlow<Set<String>> = languages.observeSummaries()
+        .map { summaries -> summaries.filter { it.bookCount > 0 }.mapNotNull { LanguageCodes.codeFor(it.name) }.toSet() }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptySet())
     fun update(transform: (UserSettings) -> UserSettings) = viewModelScope.launch { settings.update(transform) }
     fun download(pack: DictionaryPack) = viewModelScope.launch { dictionaries.download(pack) }
     fun remove(pack: DictionaryPack) = viewModelScope.launch { dictionaries.remove(pack) }
@@ -53,6 +71,8 @@ class SettingsViewModel(private val settings: SettingsRepository, private val di
 fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = koinViewModel()) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
     val packs by viewModel.packs.collectAsStateWithLifecycle()
+    val inUse by viewModel.languagesInUse.collectAsStateWithLifecycle()
+    var showAllPacks by remember { mutableStateOf(false) }
     Scaffold(topBar = { AppTopBar(title = "Settings", onNavigate = onNavigate) }) { padding ->
         Column(
             Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 720.dp),
@@ -114,7 +134,15 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
-            packs.forEach { status -> PackRow(status, onDownload = { viewModel.download(status.pack) }, onRemove = { viewModel.remove(status.pack) }) }
+            // Packs for languages with books, or already on the device, come first; the rest hide behind a toggle.
+            val relevant = packs.filter { it.pack.id.sourceLanguage in inUse || it.state !is PackState.NotInstalled }
+            val shown = if (showAllPacks || relevant.isEmpty()) packs else relevant
+            shown.forEach { status -> PackRow(status, onDownload = { viewModel.download(status.pack) }, onRemove = { viewModel.remove(status.pack) }) }
+            if (relevant.size < packs.size) {
+                TextButton(onClick = { showAllPacks = !showAllPacks }) {
+                    Text(if (showAllPacks) "Show only my languages" else "Show all ${packs.size} dictionaries")
+                }
+            }
 
             Section("Term popups")
             SwitchRow("Promote parent translation to term translation if possible", settings.promoteParentTranslation) { v -> viewModel.update { it.copy(promoteParentTranslation = v) } }

@@ -86,7 +86,7 @@ The same artifacts can be built locally:
 
 ## Notes
 
-- The languages on offer are fixed: Belarusian, Czech, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Latin, Polish, Portuguese, Serbian, Spanish, Swedish, Turkish and Ukrainian can be learned, and
+- The languages on offer are fixed: the 32 European languages listed in `LanguageCatalog` can be learned, and
   translations are shown in English or Russian (Settings, Native language). The three
   target languages are created on first start with sample texts and the tutorial, taken
   from the [Lute language definitions](https://github.com/LuteOrg/lute-language-defs);
@@ -99,23 +99,18 @@ The same artifacts can be built locally:
 - Dictionaries open in the platform browser; embedded web views are not used.
 - Offline dictionaries are downloadable packs: gzip-compressed prebuilt SQLite files (tables
   `meta`, `entries` and `forms`) listed with their download URLs in `DictionaryPacks`. Settings
-  shows every pack with Download and Remove. Android, iOS and desktop unpack a downloaded pack
+  lists the packs for languages that have books, or that are already installed, with Download
+  and Remove, and a toggle reveals the rest. Android, iOS and desktop unpack a downloaded pack
   into app storage next to a stamp with its format and open it read-only as a second SQLDelight
   database; the web build keeps the compressed file in the browser Cache API and inflates it in
   its own sql.js worker (`webApp/src/wasmJsMain/resources/dictionary.worker.js`), which needs
   the pack host to allow cross-origin requests. When a text's language and the native language
   match an installed pack, the term pane fills the translation from it, lists every meaning
   with a plus button, and links an inflected form to its lemma as the term's parent; without a
-  pack the network suggestions are used. `tools/build_dictionary.py --source en` (or
-  `de`, `fr`, `pt`, `sr`, `es`, `it`, `uk`, `la`, `tr`, `be`, `fi`, `pl`, `cs`, `el`, `nl`, `sv`, `hu`) builds `dictionaries/<source>-ru.sqlite.gzip` from two kaikki.org dumps kept in
+  pack the network suggestions are used. `tools/build_dictionary.py --source <code>` (one
+  of the keys of `SOURCES` in the script) builds `dictionaries/<source>-ru.sqlite.gzip` from two kaikki.org dumps kept in
   the ignored `dictionaries/` folder: that language's section of the Russian Wiktionary
-  (`english-to-russian.jsonl`, `german-to-russian.jsonl`, `french-to-russian.jsonl`,
-  `portuguese-to-russian.jsonl`, `serbian-to-russian.jsonl`, `spanish-to-russian.jsonl`,
-  `italian-to-russian.jsonl`, `ukrainian-to-russian.jsonl`, `latin-to-russian.jsonl`,
-  `turkish-to-russian.jsonl`, `belarusian-to-russian.jsonl`, `finnish-to-russian.jsonl`,
-  `polish-to-russian.jsonl`, `czech-to-russian.jsonl`, `greek-to-russian.jsonl`,
-  `dutch-to-russian.jsonl`, `swedish-to-russian.jsonl`, `hungarian-to-russian.jsonl`; the
-  glosses) and the English Wiktionary's dump for the language
+  (`<language>-to-russian.jsonl`; the glosses) and the English Wiktionary's dump for the language
   (`kaikki.org-dictionary-<Language>.jsonl.gz`; the inflection tables). Compound forms such as
   "würde gehen" are dropped because the app looks up single tokens, and Finnish and Hungarian
   possessive-suffix variants are left out to keep those packs downloadable; for English, forms neither
