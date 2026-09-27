@@ -86,7 +86,7 @@ The same artifacts can be built locally:
 
 ## Notes
 
-- The languages on offer are fixed: Belarusian, English, Finnish, French, German, Italian, Latin, Portuguese, Serbian, Spanish, Turkish and Ukrainian can be learned, and
+- The languages on offer are fixed: Belarusian, English, Finnish, French, German, Italian, Latin, Polish, Portuguese, Serbian, Spanish, Turkish and Ukrainian can be learned, and
   translations are shown in English or Russian (Settings, Native language). The three
   target languages are created on first start with sample texts and the tutorial, taken
   from the [Lute language definitions](https://github.com/LuteOrg/lute-language-defs);
@@ -107,13 +107,13 @@ The same artifacts can be built locally:
   match an installed pack, the term pane fills the translation from it, lists every meaning
   with a plus button, and links an inflected form to its lemma as the term's parent; without a
   pack the network suggestions are used. `tools/build_dictionary.py --source en` (or
-  `de`, `fr`, `pt`, `sr`, `es`, `it`, `uk`, `la`, `tr`, `be`, `fi`) builds `dictionaries/<source>-ru.sqlite.gzip` from two kaikki.org dumps kept in
+  `de`, `fr`, `pt`, `sr`, `es`, `it`, `uk`, `la`, `tr`, `be`, `fi`, `pl`) builds `dictionaries/<source>-ru.sqlite.gzip` from two kaikki.org dumps kept in
   the ignored `dictionaries/` folder: that language's section of the Russian Wiktionary
   (`english-to-russian.jsonl`, `german-to-russian.jsonl`, `french-to-russian.jsonl`,
   `portuguese-to-russian.jsonl`, `serbian-to-russian.jsonl`, `spanish-to-russian.jsonl`,
   `italian-to-russian.jsonl`, `ukrainian-to-russian.jsonl`, `latin-to-russian.jsonl`,
-  `turkish-to-russian.jsonl`, `belarusian-to-russian.jsonl`, `finnish-to-russian.jsonl`; the
-  glosses) and the English Wiktionary's dump for the language
+  `turkish-to-russian.jsonl`, `belarusian-to-russian.jsonl`, `finnish-to-russian.jsonl`,
+  `polish-to-russian.jsonl`; the glosses) and the English Wiktionary's dump for the language
   (`kaikki.org-dictionary-<Language>.jsonl.gz`; the inflection tables). Compound forms such as
   "würde gehen" are dropped because the app looks up single tokens, and Finnish possessive-suffix
   variants are left out to keep that pack downloadable; for English, forms neither

@@ -47,6 +47,7 @@ SOURCES = {
     "tr": ("Turkish", "dictionaries/turkish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Turkish.jsonl.gz"),
     "be": ("Belarusian", "dictionaries/belarusian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Belarusian.jsonl.gz"),
     "fi": ("Finnish", "dictionaries/finnish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Finnish.jsonl.gz"),
+    "pl": ("Polish", "dictionaries/polish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Polish.jsonl.gz"),
     # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
     "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
 }
@@ -86,6 +87,7 @@ UMLAUTS = str.maketrans({
     "á": "a", "à": "a", "â": "a", "ã": "a", "é": "e", "è": "e", "ê": "e", "í": "i", "î": "i",
     "ó": "o", "ô": "o", "õ": "o", "ò": "o", "ú": "u", "û": "u", "ù": "u", "ü": "u", "ì": "i", "ç": "c", "ñ": "n",
     "č": "c", "ć": "c", "đ": "d", "š": "s", "ž": "z",
+    "ł": "l", "ą": "a", "ę": "e", "ś": "s", "ź": "z", "ż": "z", "ń": "n",
 })
 
 
