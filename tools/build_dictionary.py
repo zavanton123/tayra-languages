@@ -2,8 +2,8 @@
 """
 Builds an offline dictionary pack for the app from kaikki.org dumps.
 
-With --target ru (the default), de, fr or es, glosses come from a language section of the
-Russian, German, French or Spanish Wiktionary (e.g. dictionaries/german-to-russian.jsonl,
+With --target ru (the default), de, fr, es or pt, glosses come from a language section of the
+Russian, German, French, Spanish or Portuguese Wiktionary (e.g. dictionaries/german-to-russian.jsonl,
 dictionaries/english-to-german.jsonl) and inflection tables from the English Wiktionary's dump
 for that language (e.g. dictionaries/kaikki.org-dictionary-German.jsonl.gz). With --target en,
 both glosses and inflections come from the English Wiktionary dump alone.
@@ -81,6 +81,7 @@ TARGETS = {
     "de": ("German Wiktionary", "german", re.compile(r"^(?:Nebenform|Schreibvariante|Variante|alternative Schreibweise) (?:von|zu) (\S+)$")),
     "fr": ("French Wiktionary", "french", re.compile(r"^Variante (?:orthographique )?(?:de|d’|d') ?(\S+)\.?$")),
     "es": ("Spanish Wiktionary", "spanish", re.compile(r"^(?:Variante|Grafía (?:alternativa|obsoleta|anticuada)|Forma alternativa) de (\S+)\.?$")),
+    "pt": ("Portuguese Wiktionary", "portuguese", re.compile(r"^(?:Variante|Grafia (?:alternativa|antiga|arcaica)|Forma alternativa|Ortografia (?:alternativa|antiga)) de (\S+)\.?$")),
 }
 # Stored as PRAGMA user_version and in meta; the app checks it before trusting a file.
 FORMAT = 1
@@ -529,7 +530,7 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--source", choices=sorted(SOURCES), default="en", help="language the pack explains (ISO 639-1)")
-    parser.add_argument("--target", choices=["ru", "en", "de", "fr", "es"], default="ru", help="language the glosses are in")
+    parser.add_argument("--target", choices=["ru", "en", "de", "fr", "es", "pt"], default="ru", help="language the glosses are in")
     parser.add_argument("--glosses", help="Russian or German Wiktionary dump for the source language's section")
     parser.add_argument("--en", help="English Wiktionary dump for the source language, .jsonl or .jsonl.gz")
     parser.add_argument("--out", help="output gzip-compressed SQLite file (default dictionaries/<source>-ru.sqlite.gzip)")

@@ -87,7 +87,7 @@ The same artifacts can be built locally:
 ## Notes
 
 - The languages on offer are fixed: the 33 European languages listed in `LanguageCatalog` can be learned, and
-  translations are shown in English, French, German, Russian or Spanish (Settings, Native language). The three
+  translations are shown in English, French, German, Portuguese, Russian or Spanish (Settings, Native language). The three
   target languages are created on first start with sample texts and the tutorial, taken
   from the [Lute language definitions](https://github.com/LuteOrg/lute-language-defs);
   regenerate `PredefinedLanguages.kt` with `tools/generate_language_defs.py`. Their
@@ -112,9 +112,9 @@ The same artifacts can be built locally:
   of the keys of `SOURCES` in the script) builds `dictionaries/<source>-ru.sqlite.gzip` from two kaikki.org dumps kept in
   the ignored `dictionaries/` folder: that language's section of the Russian Wiktionary
   (`<language>-to-russian.jsonl`; the glosses) and the English Wiktionary's dump for the language
-  (`kaikki.org-dictionary-<Language>.jsonl.gz`; the inflection tables). With `--target de`, `fr` or
-  `es` the glosses come from the German, French or Spanish Wiktionary section instead
-  (`<language>-to-german.jsonl`, `<language>-to-french.jsonl`, `<language>-to-spanish.jsonl`), and
+  (`kaikki.org-dictionary-<Language>.jsonl.gz`; the inflection tables). With `--target de`, `fr`, `es`
+  or `pt` the glosses come from that language's Wiktionary section instead
+  (`<language>-to-german.jsonl` and so on), and
   with `--target en` it builds `<source>-en.sqlite.gzip` with glosses and inflections both
   taken from the English Wiktionary dump, which covers far more headwords than the Russian or
   German Wiktionary sections; the French Wiktionary is rich for Romance languages, German,
