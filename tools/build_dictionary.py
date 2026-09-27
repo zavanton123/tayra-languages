@@ -93,6 +93,9 @@ SKIP_FORM_TAGS_BY_SOURCE = {
     "fi": {"possessive", "singular-possessive", "plural-possessive"},
     "hu": {"possessive", "possessed-single", "possessed-many", "error-unrecognized-form"},
 }
+# A prose "form of X" gloss: the lemma is the last word, possibly after "(to)".
+PROSE_FORM_RE = re.compile(r"\b(?:de|del|of|von|von dem)\s+(?:\(to\)\s+)?([^\s()]+?)[.。]?$")
+
 # Letters in any script, then letters, apostrophes or hyphens.
 WORD_RE = re.compile(r"^[^\W\d_](?:[^\W\d_]|['\-])*$")
 VOWELS = set("aeiou")
@@ -244,10 +247,18 @@ def load_glossary(path, variant_re, clean=lambda word: word):
         for line in f:
             d = json.loads(line)
             senses = []
+            entry_is_form = "form-of" in d.get("tags", [])
             for s in d.get("senses", []):
                 glosses = [g.strip() for g in s.get("glosses", []) if g.strip()]
                 # Targets may carry a page anchor such as "log#(глагол_I)".
                 form_of = [x["word"].split("#")[0] for x in s.get("form_of", []) if x.get("word")]
+                if not form_of and glosses and (entry_is_form or "form-of" in s.get("tags", [])):
+                    # The Spanish Wiktionary often describes a form in prose that ends with the
+                    # lemma: "Tercera persona del singular ... del verbo (to) house."
+                    match = PROSE_FORM_RE.search(glosses[0])
+                    form_of = [match.group(1)] if match else []
+                    if not form_of:
+                        continue
                 for lemma in form_of:
                     if is_clean_form(d["word"], lemma):
                         forms.add((d["word"], lemma))
