@@ -15,7 +15,7 @@ class LanguageCatalogTest {
             assertNotNull(LanguageCodes.codeFor(name), "$name has a language code")
         }
         assertTrue(LanguageCatalog.isTarget(" german "))
-        assertTrue(!LanguageCatalog.isTarget("Czech"))
+        assertTrue(!LanguageCatalog.isTarget("Welsh"))
     }
 
     @Test
