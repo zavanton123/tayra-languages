@@ -62,9 +62,9 @@ class DictionaryService(
         val word = text.trim()
         val wordLc = lowercase(word, dictionary)
         if (wordLc.isEmpty()) return DictionaryLookup.EMPTY
-        // Among entries for one spelling, the one with the most senses is usually the everyday
-        // word ("muchacho" the noun before the adjective), so it supplies the suggestion.
-        val own = repository.entries(dictionary, wordLc).sortedWith(compareBy({ caseRank(it.word, word) }, { -it.senses.size }))
+        // Among entries for one spelling, nouns and verbs are usually the everyday word ("maison"
+        // the noun before the adjective "homemade"), and among those the one with more senses.
+        val own = repository.entries(dictionary, wordLc).sortedWith(compareBy({ caseRank(it.word, word) }, { posRank(it.pos) }, { -it.senses.size }))
         // Headwords that differ only in case are usually a common noun and a name ("word", "Word");
         // the one whose case matches the clicked word wins, so the name does not become the parent.
         val lemmas = repository.lemmas(dictionary, wordLc)
@@ -74,7 +74,7 @@ class DictionaryService(
         val inherited = lemmas.flatMap { lemma ->
             repository.entries(dictionary, lowercase(lemma, dictionary))
                 .filter { it.word == lemma }
-                .sortedByDescending { it.senses.size }
+                .sortedWith(compareBy({ posRank(it.pos) }, { -it.senses.size }))
                 .map { it.copy(isOwnEntry = false) }
         }
         return DictionaryLookup(own + inherited, lemmas.filter { lemma -> inherited.any { it.word == lemma } })
@@ -89,6 +89,12 @@ class DictionaryService(
     /** Packs store keys lowercased the way tools/build_dictionary.py does: Turkish keeps its dotted and dotless i apart. */
     private fun lowercase(word: String, dictionary: DictionaryId): String =
         (if (dictionary.sourceLanguage == "tr") word.replace('I', 'ı').replace('İ', 'i') else word).lowercase()
+
+    private fun posRank(pos: String): Int = when (pos) {
+        "noun", "verb" -> 0
+        "adj", "adv" -> 1
+        else -> 2
+    }
 
     /** 0 for the same case as the clicked word, 1 for the same initial case, 2 otherwise. */
     private fun caseRank(candidate: String, word: String): Int = when {

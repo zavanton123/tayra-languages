@@ -188,13 +188,24 @@ def serbian_spellings(word):
     lists most Serbian headwords in Cyrillic but some in Latin, and texts come in either
     script, so every form is stored both ways.
     """
-    stripped = strip_pitch(word)
+    stripped = clean_serbian_cyrillic(word)
     cyrillic = to_serbian_cyrillic(stripped)
     return [stripped] if cyrillic == stripped else [stripped, cyrillic]
 
 
+def clean_serbian_cyrillic(word):
+    """
+    Strips pitch marks and repairs Cyrillic words the dump wrote with precomposed Latin accented
+    vowels ("псȁ" is "пс" plus Latin "ȁ"), which would otherwise keep a Latin letter.
+    """
+    stripped = strip_pitch(word)
+    if any("\u0400" <= c <= "\u04ff" for c in stripped):
+        return to_serbian_cyrillic(stripped)
+    return stripped
+
+
 # How each source's spellings are normalised before matching, when it needs it at all.
-CLEANERS = {"sr": strip_pitch, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length}
+CLEANERS = {"sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length}
 
 
 def lowercase(word, source):
