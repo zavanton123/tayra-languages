@@ -41,6 +41,7 @@ SOURCES = {
     "fr": ("French", "dictionaries/french-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-French.jsonl.gz"),
     "pt": ("Portuguese", "dictionaries/portuguese-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Portuguese.jsonl.gz"),
     "es": ("Spanish", "dictionaries/spanish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Spanish.jsonl.gz"),
+    "it": ("Italian", "dictionaries/italian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Italian.jsonl.gz"),
     # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
     "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
 }
@@ -75,7 +76,7 @@ def is_clean_form(form, lemma):
 UMLAUTS = str.maketrans({
     "ä": "a", "ö": "o", "ü": "u", "ß": "ss",
     "á": "a", "à": "a", "â": "a", "ã": "a", "é": "e", "è": "e", "ê": "e", "í": "i", "î": "i",
-    "ó": "o", "ô": "o", "õ": "o", "ú": "u", "û": "u", "ü": "u", "ç": "c", "ñ": "n",
+    "ó": "o", "ô": "o", "õ": "o", "ò": "o", "ú": "u", "û": "u", "ù": "u", "ü": "u", "ì": "i", "ç": "c", "ñ": "n",
     "č": "c", "ć": "c", "đ": "d", "š": "s", "ž": "z",
 })
 
