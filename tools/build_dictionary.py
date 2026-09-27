@@ -43,6 +43,7 @@ SOURCES = {
     "es": ("Spanish", "dictionaries/spanish-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Spanish.jsonl.gz"),
     "it": ("Italian", "dictionaries/italian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Italian.jsonl.gz"),
     "uk": ("Ukrainian", "dictionaries/ukrainian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Ukrainian.jsonl.gz"),
+    "la": ("Latin", "dictionaries/latin-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-Latin.jsonl.gz"),
     # The English Wiktionary files Serbian under Serbo-Croatian, with entries in both scripts.
     "sr": ("Serbo-Croatian", "dictionaries/serbian-to-russian.jsonl", "dictionaries/kaikki.org-dictionary-SerboCroatian.jsonl.gz"),
 }
@@ -90,10 +91,23 @@ def plain(word):
 # stress marks ("ха́та") that ordinary text never carries; these combining marks are removed
 # so forms match written words.
 PITCH_MARKS = {"\u0300", "\u0301", "\u0304", "\u030f", "\u0311", "\u0342"}
-STRESS_MARKED_SOURCES = {"sr", "uk"}
 
 
 PITCH_BEARERS = set("aeiourAEIOURаеиоуряюєіїёэыАЕИОУРЯЮЄІЇЁЭЫ")
+
+# Latin dictionaries mark vowel length with macrons and breves ("puellā", "ămō"); texts do not.
+LENGTH_MARKS = {"\u0304", "\u0306"}
+LATIN_VOWELS = set("aeiouyAEIOUY")
+
+
+def strip_length(word):
+    out = []
+    for c in unicodedata.normalize("NFD", word):
+        if c in LENGTH_MARKS and out and out[-1] in LATIN_VOWELS:
+            continue
+        out.append(c)
+    return unicodedata.normalize("NFC", "".join(out))
+
 
 
 def strip_pitch(word):
@@ -142,6 +156,10 @@ def serbian_spellings(word):
     stripped = strip_pitch(word)
     cyrillic = to_serbian_cyrillic(stripped)
     return [stripped] if cyrillic == stripped else [stripped, cyrillic]
+
+
+# How each source's spellings are normalised before matching, when it needs it at all.
+CLEANERS = {"sr": strip_pitch, "uk": strip_pitch, "la": strip_length}
 
 
 def open_text(path):
@@ -346,8 +364,8 @@ def main():
     args.out = args.out or f"dictionaries/{args.source}-{TARGET}.sqlite.gzip"
 
     print(f"Reading {args.ru}", file=sys.stderr)
-    stress_marked = args.source in STRESS_MARKED_SOURCES
-    entries, forms, variants, dropped = load_russian(args.ru, clean=strip_pitch if stress_marked else (lambda word: word))
+    cleaner = CLEANERS.get(args.source, lambda word: word)
+    entries, forms, variants, dropped = load_russian(args.ru, clean=cleaner)
     lemmas = {e["word"] for e in entries}
     # Spelling variants point at the main entry and get no guessed inflections of their own.
     forms |= {(word, target) for word, target in variants if target in lemmas}
@@ -360,9 +378,7 @@ def main():
     ru_forms = len(forms)
     if not args.skip_english:
         print(f"Reading {args.en}", file=sys.stderr)
-        spellings = {
-            "sr": serbian_spellings,
-        }.get(args.source, (lambda word: [strip_pitch(word)]) if stress_marked else (lambda word: [word]))
+        spellings = serbian_spellings if args.source == "sr" else (lambda word: [cleaner(word)])
         forms |= load_english_forms(args.en, lemmas, spellings=spellings)
         print(f"  {len(forms) - ru_forms:,} forms added from the English Wiktionary", file=sys.stderr)
 
