@@ -24,6 +24,7 @@ class LanguageCatalogTest {
         assertEquals("de", LanguageCatalog.nativeOption("de").code)
         assertEquals("fr", LanguageCatalog.nativeOption("fr").code)
         assertEquals("es", LanguageCatalog.nativeOption("es").code)
+        assertEquals("pt", LanguageCatalog.nativeOption("pt").code)
         assertEquals("en", LanguageCatalog.nativeOption("pl").code)
         assertEquals("en", LanguageCatalog.nativeOption("").code)
     }
