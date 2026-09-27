@@ -98,8 +98,11 @@ The same artifacts can be built locally:
   tokenisers (Japanese via MeCab, Thai, Khmer, Mandarin) are not supported.
 - Dictionaries open in the platform browser; embedded web views are not used.
 - Offline dictionaries are downloadable packs: gzip-compressed prebuilt SQLite files (tables
-  `meta`, `entries` and `forms`), one per source language and gloss language (Russian or
-  English), generated in `DictionaryPacks` from a source table and the release download URL. Settings
+  `meta`, `entries` and `forms`), one per source language and gloss language (Russian,
+  English, German, French, Spanish or Portuguese), generated in `DictionaryPacks` from a source
+  table and the release download URL. Pairs the source Wiktionaries lack are excluded there:
+  the German Wiktionary has no Galician or Serbian section, the Spanish one covers only
+  eighteen of the languages, and the Portuguese one has no Czech, Dutch or Macedonian section. Settings
   lists the packs for languages that have books, or that are already installed, with Download
   and Remove, and a toggle reveals the rest. Android, iOS and desktop unpack a downloaded pack
   into app storage next to a stamp with its format and open it read-only as a second SQLDelight
