@@ -246,17 +246,15 @@ class ReadingViewModel(
         }
     }
 
-    /** Right click: mark the word as status 1 without opening the panel. */
-    /** Right click: an unknown word starts at status 1, a word being learned (1 to 5) becomes well known. */
+    /**
+     * Right click, without opening the panel: an unknown word starts at status 1, a word being
+     * learned (1 to 5) becomes well known, and a well-known or ignored word goes back to 1.
+     */
     fun markToLearn(itemIndex: Int) {
         val s = _state.value
         val item = s.items.getOrNull(itemIndex) ?: return
         if (!item.isWord) return
-        val next = when {
-            item.status == TermStatus.UNKNOWN -> TermStatus.NEW_1
-            item.status.isLearning -> TermStatus.WELL_KNOWN
-            else -> return
-        }
+        val next = if (item.status.isLearning) TermStatus.WELL_KNOWN else TermStatus.NEW_1
         hidePopup()
         _state.update { it.copy(marked = setOf(itemIndex), hovered = null, selection = null, selecting = false) }
         setStatusForItem(item, next)
