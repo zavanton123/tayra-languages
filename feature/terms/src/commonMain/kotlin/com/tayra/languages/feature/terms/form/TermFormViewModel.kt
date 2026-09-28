@@ -16,6 +16,8 @@ import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.repository.TermRepository
 import com.tayra.languages.core.domain.service.ExampleSentence
 import com.tayra.languages.core.domain.service.ExampleSentencesProvider
+import com.tayra.languages.core.domain.service.ExampleSearchQuery
+import com.tayra.languages.core.domain.service.ExampleSort
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.TermValidationException
@@ -55,7 +57,11 @@ data class TermFormUiState(
     /** True once an autosave has persisted the latest edits. */
     val saved: Boolean = false,
     val examples: List<ExampleSentence> = emptyList(),
+    /** Total matches reported by the examples provider, when known. */
+    val examplesTotal: Int? = null,
     val loadingExamples: Boolean = false,
+    /** Code of the language translations are shown in. */
+    val nativeLanguage: String = "en",
     /** Offline dictionary entries for the term, empty when no bundled dictionary covers the language pair. */
     val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
 ) {
@@ -112,7 +118,7 @@ class TermFormViewModel(
         }
         // Opening the form acknowledges any flash message.
         draft.id?.let { terms.clearFlashMessage(it) }
-        _state.update { it.copy(loading = false, draft = draft, languages = languageList) }
+        _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }) }
         val language = languageList.firstOrNull { it.id == draft.languageId }
         val lookup = lookupDictionary(draft.text, language)
         // Words on a page exist as placeholders before anyone opens them, so "new" is judged by
@@ -149,8 +155,9 @@ class TermFormViewModel(
         if (language == null || text.isBlank()) return
         _state.update { it.copy(loadingExamples = true) }
         viewModelScope.launch {
-            val examples = examplesProvider.examples(text, language, settings.current.nativeLanguage)
-            _state.update { it.copy(examples = examples, loadingExamples = false) }
+            val native = settings.current.nativeLanguage.ifBlank { "en" }
+            val result = examplesProvider.search(ExampleSearchQuery(text, language, native, minWords = 1, maxWords = 15, sort = ExampleSort.RANDOM, limit = 10))
+            _state.update { it.copy(examples = result.sentences, examplesTotal = result.total, loadingExamples = false, nativeLanguage = native) }
         }
     }
 

@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -18,7 +19,9 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -29,7 +32,6 @@ import androidx.compose.material3.PlainTooltip
 import androidx.compose.material3.TooltipBox
 import androidx.compose.material3.rememberTooltipState
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -74,7 +76,8 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
-import com.tayra.languages.core.ui.audio.PlayButton
+import com.tayra.languages.core.ui.audio.rememberSpeechSynthesizer
+import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.audio.SpeakButton
 import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -89,6 +92,7 @@ fun TermFormPanel(
     viewModel: TermFormViewModel,
     modifier: Modifier = Modifier,
     embedded: Boolean = false,
+    onClose: (() -> Unit)? = null,
     onDuplicateClick: ((Long) -> Unit)? = null,
     onOpenExamples: ((languageId: Long, text: String) -> Unit)? = null,
 ) {
@@ -107,7 +111,7 @@ fun TermFormPanel(
     Column(
         modifier
             .verticalScroll(rememberScrollState())
-            .padding(12.dp)
+            .padding(16.dp)
             .onPreviewKeyEvent { event ->
                 if (event.type == KeyEventType.KeyDown && (event.isCtrlPressed || event.isMetaPressed) && event.key == Key.Enter) {
                     viewModel.save()
@@ -116,8 +120,9 @@ fun TermFormPanel(
                     false
                 }
             },
-        verticalArrangement = Arrangement.spacedBy(10.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
+        if (embedded) PanelHeader(language, state.nativeLanguage, onClose)
         state.duplicateOf?.let { duplicate ->
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text("Term \"${duplicate.displayText}\" already exists.", color = MaterialTheme.colorScheme.error)
@@ -165,18 +170,15 @@ fun TermFormPanel(
         if (!state.dictionary.isEmpty) DictionarySection(state.dictionary, onAdd = viewModel::addGloss)
 
         if (language != null && language.termDictionaries.isNotEmpty() && draft.text.isNotBlank()) {
-            HorizontalDivider()
-            Text("Dictionaries", style = MaterialTheme.typography.labelLarge)
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+            SectionTitle(AppIcons.Link, "Dictionaries")
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 language.termDictionaries.forEach { dictionary ->
-                    OutlinedButton(onClick = { uriHandler.openUri(dictionary.lookupUrl(draft.text.replace("​", "").encodeURLParameter())) }) {
-                        Text(dictionary.displayName)
-                    }
+                    LinkChip(dictionary.displayName) { uriHandler.openUri(dictionary.lookupUrl(draft.text.replace("​", "").encodeURLParameter())) }
                 }
             }
         }
 
-        HorizontalDivider()
         ExamplesSection(state, language, onOpenExamples)
         if (embedded) Spacer(Modifier.height(24.dp))
     }
@@ -209,30 +211,95 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit) {
     }
 }
 
+@Composable
+private fun PanelHeader(language: Language?, nativeLanguage: String, onClose: (() -> Unit)?) {
+    val colors = MaterialTheme.colorScheme
+    val native = LanguageCodes.option(nativeLanguage)?.name ?: nativeLanguage
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+        Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(32.dp))
+        Spacer(Modifier.size(12.dp))
+        Column(Modifier.weight(1f)) {
+            Text("Term details", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+            if (language != null) Text("${language.name} \u2192 $native", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        }
+        if (onClose != null) {
+            Box(
+                Modifier.size(40.dp).clip(RoundedCornerShape(20.dp)).background(colors.surfaceVariant).clickable(onClick = onClose),
+                contentAlignment = Alignment.Center,
+            ) { Icon(Icons.Default.Close, contentDescription = "Close", modifier = Modifier.size(20.dp)) }
+        }
+    }
+}
+
+@Composable
+private fun SectionTitle(icon: androidx.compose.ui.graphics.vector.ImageVector, title: String, count: Int? = null) {
+    val colors = MaterialTheme.colorScheme
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+        Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
+        Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+        if (count != null) CountBadge(count)
+    }
+}
+
+@Composable
+private fun CountBadge(count: Int) {
+    val colors = MaterialTheme.colorScheme
+    Text(
+        count.toString(),
+        Modifier.clip(RoundedCornerShape(8.dp)).background(colors.primary.copy(alpha = 0.1f)).padding(horizontal = 8.dp, vertical = 2.dp),
+        style = MaterialTheme.typography.labelMedium,
+        color = colors.primary,
+    )
+}
+
+@Composable
+private fun LinkChip(label: String, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(onClick = onClick)
+            .padding(horizontal = 12.dp, vertical = 10.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        Text(label, style = MaterialTheme.typography.bodyMedium, color = colors.primary, fontWeight = FontWeight.Medium)
+        Icon(AppIcons.OpenInNew, contentDescription = null, tint = colors.primary, modifier = Modifier.size(16.dp))
+    }
+}
+
+@Composable
+private fun RoundIconButton(icon: androidx.compose.ui.graphics.vector.ImageVector, description: String, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Box(
+        Modifier.size(36.dp).clip(RoundedCornerShape(18.dp)).background(colors.primary.copy(alpha = 0.1f)).clickable(onClick = onClick),
+        contentAlignment = Alignment.Center,
+    ) { Icon(icon, contentDescription = description, tint = colors.primary, modifier = Modifier.size(20.dp)) }
+}
+
 /** Meanings from the offline dictionary; the plus adds a meaning to the translation. */
 @Composable
 private fun DictionarySection(lookup: DictionaryLookup, onAdd: (String) -> Unit) {
-    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-        Text("Dictionary", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+    val colors = MaterialTheme.colorScheme
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        SectionTitle(AppIcons.Book, "Dictionary", lookup.entries.size)
         lookup.entries.forEachIndexed { index, entry ->
-            if (index > 0) HorizontalDivider(Modifier.padding(vertical = 6.dp), color = MaterialTheme.colorScheme.outlineVariant)
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 4.dp)) {
-                Text(entry.word, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold)
-                Text(entry.pos, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                if (entry.ipa != null) Text(entry.ipa!!, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (index > 0) HorizontalDivider(Modifier.padding(vertical = 6.dp), color = colors.outlineVariant)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.padding(top = 4.dp)) {
+                Text(entry.word, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                Text(entry.pos, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                if (entry.ipa != null) Text(entry.ipa!!, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
-            entry.senses.forEach { sense ->
+            entry.senses.forEachIndexed { senseIndex, sense ->
                 val gloss = sense.glosses.joinToString("; ")
-                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
+                if (senseIndex > 0) HorizontalDivider(Modifier.padding(start = 12.dp), color = colors.outlineVariant.copy(alpha = 0.6f))
+                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(start = 12.dp, top = 6.dp, bottom = 6.dp)) {
                     Column(Modifier.weight(1f)) {
-                        Text(gloss, style = MaterialTheme.typography.bodyMedium)
+                        Text(gloss, style = MaterialTheme.typography.bodyLarge)
                         if (sense.tags.isNotEmpty()) {
-                            Text(sense.tags.joinToString(", "), style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            Text(sense.tags.joinToString(", "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
                         }
                     }
-                    IconButton(onClick = { onAdd(gloss) }, modifier = Modifier.size(32.dp)) {
-                        Icon(Icons.Default.Add, contentDescription = "Add to translation", tint = MaterialTheme.colorScheme.primary)
-                    }
+                    Spacer(Modifier.size(8.dp))
+                    RoundIconButton(Icons.Default.Add, "Add to translation") { onAdd(gloss) }
                 }
             }
         }
@@ -240,73 +307,105 @@ private fun DictionarySection(lookup: DictionaryLookup, onAdd: (String) -> Unit)
 }
 
 /**
- * Example sentences from Tatoeba, with the term in bold. The title opens the example search
- * screen; five examples are shown until expanded, and translations appear in a tooltip
- * (hover or long press).
+ * Example sentences from Tatoeba in a tinted card, with the term highlighted. Three are shown
+ * until expanded; translations appear in a tooltip (hover or long press) and the button at the
+ * bottom opens the full example search.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenExamples: ((Long, String) -> Unit)?) {
+    val colors = MaterialTheme.colorScheme
     val term = state.draft.text.replace("\u200B", "")
     var expanded by remember(term) { mutableStateOf(false) }
     val canExpand = state.examples.size > VISIBLE_EXAMPLES
     val languageId = language?.id
     val playback = rememberAudioPlayback()
+    val synthesizer = rememberSpeechSynthesizer()
+    val languageCode = language?.let { LanguageCodes.codeFor(it.name) }
+    val total = state.examplesTotal ?: state.examples.size
+    val canOpen = onOpenExamples != null && languageId != null && term.isNotBlank()
 
-    Row(verticalAlignment = Alignment.CenterVertically) {
-        Text(
-            "Examples",
-            style = MaterialTheme.typography.labelLarge,
-            color = MaterialTheme.colorScheme.primary,
-            textDecoration = TextDecoration.Underline,
-            modifier = Modifier.clickable(enabled = onOpenExamples != null && languageId != null && term.isNotBlank()) {
-                onOpenExamples?.invoke(languageId!!, term)
-            },
-        )
-        if (canExpand) {
-            IconButton(onClick = { expanded = !expanded }) {
-                Icon(
-                    if (expanded) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
-                    contentDescription = if (expanded) "Show fewer examples" else "Show all ${state.examples.size} examples",
-                )
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.05f))
+            .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(14.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Box(Modifier.weight(1f)) { SectionTitle(AppIcons.Page, "Examples", if (state.loadingExamples) null else total) }
+            if (canExpand) {
+                IconButton(onClick = { expanded = !expanded }, modifier = Modifier.size(32.dp)) {
+                    Icon(
+                        if (expanded) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
+                        contentDescription = if (expanded) "Show fewer examples" else "Show all ${state.examples.size} examples",
+                        tint = colors.primary,
+                    )
+                }
             }
         }
-    }
-    when {
-        state.loadingExamples -> Text("Looking up examples...", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        state.examples.isEmpty() -> Text("No examples found.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        else -> {
-            val direction = if (language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr
-            val visible = if (expanded) state.examples else state.examples.take(VISIBLE_EXAMPLES)
-            visible.forEach { example ->
-                val sentence = @Composable {
-                    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
-                        if (example.audioUrl != null) {
-                            PlayButton(example.audioUrl!!, playback, Modifier.size(32.dp))
+        when {
+            state.loadingExamples -> Text("Looking up examples...", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            state.examples.isEmpty() -> Text("No examples found.", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            else -> {
+                val direction = if (language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr
+                val visible = if (expanded) state.examples else state.examples.take(VISIBLE_EXAMPLES)
+                visible.forEachIndexed { index, example ->
+                    if (index > 0) HorizontalDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
+                    val sentence = @Composable {
+                        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
+                            Text(
+                                emphasize(example.text, term),
+                                style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
+                                modifier = Modifier.weight(1f).padding(end = 10.dp),
+                            )
+                            val audio = example.audioUrl
+                            if (audio != null) {
+                                RoundIconButton(if (playback.isPlaying(audio)) Icons.Default.Close else AppIcons.VolumeUp, "Play recording") { playback.toggle(audio) }
+                            } else {
+                                RoundIconButton(AppIcons.VolumeUp, "Pronounce") { synthesizer.speak(example.text, languageCode) }
+                            }
                         }
-                        Text(
-                            emphasize(example.text, term),
-                            style = MaterialTheme.typography.bodyMedium.copy(textDirection = direction),
-                            modifier = Modifier.weight(1f).padding(vertical = 4.dp),
-                        )
+                    }
+                    val translation = example.translation
+                    if (translation == null) {
+                        sentence()
+                    } else {
+                        TooltipBox(
+                            positionProvider = rememberLeftTooltipPositionProvider(),
+                            tooltip = { PlainTooltip { Text(translation) } },
+                            state = rememberTooltipState(),
+                        ) { sentence() }
                     }
                 }
-                val translation = example.translation
-                if (translation == null) {
-                    sentence()
-                } else {
-                    TooltipBox(
-                        positionProvider = rememberLeftTooltipPositionProvider(),
-                        tooltip = { PlainTooltip { Text(translation) } },
-                        state = rememberTooltipState(),
-                    ) { sentence() }
-                }
             }
+        }
+        if (canOpen && (state.examples.isNotEmpty() || state.examplesTotal != null)) {
+            Row(
+                Modifier.fillMaxWidth().padding(top = 4.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.primary.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
+                    .clickable { onOpenExamples!!.invoke(languageId!!, term) }.padding(horizontal = 16.dp, vertical = 12.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(
+                    if (state.examplesTotal != null) "View all $total examples" else "View more examples",
+                    Modifier.weight(1f),
+                    style = MaterialTheme.typography.bodyLarge,
+                    color = colors.primary,
+                    fontWeight = FontWeight.Medium,
+                    textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                )
+                Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
+            }
+            Text(
+                "Open the full examples search",
+                Modifier.fillMaxWidth(),
+                style = MaterialTheme.typography.bodySmall,
+                color = colors.onSurfaceVariant,
+                textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+            )
         }
     }
 }
 
-private const val VISIBLE_EXAMPLES = 5
+private const val VISIBLE_EXAMPLES = 3
 
 /**
  * Places a tooltip to the left of its anchor, vertically centred, so the translation sits
@@ -341,6 +440,8 @@ private fun rememberLeftTooltipPositionProvider(): PopupPositionProvider {
  * when it starts with the term, or with the term minus its last letter for terms of five
  * letters or more (extranjero → extranjeras).
  */
+private val TERM_HIGHLIGHT = SpanStyle(fontWeight = FontWeight.SemiBold, color = Color(0xFF166534), background = Color(0xFF16A34A).copy(alpha = 0.16f))
+
 private fun emphasize(sentence: String, term: String) = buildAnnotatedString {
     val needle = term.trim().lowercase()
     if (needle.isEmpty()) {
@@ -355,7 +456,7 @@ private fun emphasize(sentence: String, term: String) = buildAnnotatedString {
         val word = match.value
         val lower = word.lowercase()
         val matches = lower == needle || lower.startsWith(needle) || (needle != stem && lower.startsWith(stem))
-        if (matches) withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append(word) } else append(word)
+        if (matches) withStyle(TERM_HIGHLIGHT) { append(word) } else append(word)
         index = match.range.last + 1
     }
     append(sentence.substring(index))
