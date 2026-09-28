@@ -19,7 +19,8 @@ interface SentenceTranslator {
 /** State of one sentence's translation on the reading page. */
 sealed interface SentenceTranslation {
     data object Loading : SentenceTranslation
-    data class Done(val text: String) : SentenceTranslation
+    /** [engine] is the service that produced [text], so the reader can say where translations come from. */
+    data class Done(val text: String, val engine: TranslationEngine? = null) : SentenceTranslation
     data object Unavailable : SentenceTranslation
 }
 
