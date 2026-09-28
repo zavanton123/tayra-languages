@@ -51,15 +51,7 @@ class ExamplesSearchViewModel(
                 _state.update { it.copy(loading = false, error = "Language not found") }
                 return@launch
             }
-            val query = ExampleSearchQuery(
-                text = initialText,
-                language = language,
-                targetLanguage = settings.current.nativeLanguage.ifBlank { "en" },
-                minWords = 1,
-                maxWords = 50,
-                sort = ExampleSort.RANDOM,
-                limit = 10,
-            )
+            val query = defaultFilters(ExampleSearchQuery(text = initialText, language = language, targetLanguage = settings.current.nativeLanguage.ifBlank { "en" }))
             _state.update { it.copy(loading = false, language = language, query = query) }
             search()
         }
@@ -78,6 +70,14 @@ class ExamplesSearchViewModel(
             search()
         }
     }
+
+    fun resetFilters() {
+        updateQuery(::defaultFilters)
+        search()
+    }
+
+    private fun defaultFilters(query: ExampleSearchQuery) =
+        query.copy(minWords = 1, maxWords = 50, sort = ExampleSort.RANDOM, limit = 10, hasAudio = null)
 
     fun search() {
         val query = _state.value.query ?: return
