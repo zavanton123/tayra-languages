@@ -57,7 +57,7 @@ private val menuGroups = listOf(
         listOfNotNull(
             MenuEntry("Languages", Route.Languages),
             MenuEntry("Settings", Route.Settings),
-            MenuEntry("Offline translation", Route.OfflineTranslation).takeIf { hasOfflineTranslation },
+            MenuEntry("Translation", Route.OfflineTranslation).takeIf { hasOfflineTranslation },
             MenuEntry("Keyboard shortcuts", Route.Shortcuts),
         ),
     ),

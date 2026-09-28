@@ -149,7 +149,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
-                OutlinedButton(onClick = { onNavigate(Route.OfflineTranslation) }) { Text("Offline translation settings") }
+                OutlinedButton(onClick = { onNavigate(Route.OfflineTranslation) }) { Text("Translation settings") }
             }
 
             Section("Offline dictionaries")
