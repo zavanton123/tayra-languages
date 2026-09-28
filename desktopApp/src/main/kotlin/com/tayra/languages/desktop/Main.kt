@@ -10,6 +10,7 @@ import com.tayra.languages.App
 import com.tayra.languages.di.initKoin
 import io.github.vinceglb.filekit.FileKit
 import java.awt.Taskbar
+import java.lang.management.ManagementFactory
 import javax.imageio.ImageIO
 
 private val isMacOs = System.getProperty("os.name").lowercase().contains("mac")
@@ -18,6 +19,7 @@ private val isMacOs = System.getProperty("os.name").lowercase().contains("mac")
 private val macTitleBarHeight = 28.dp
 
 fun main() {
+    if (relaunchWithDockName()) return
     System.setProperty("apple.awt.application.name", "Tayra Languages")
     FileKit.init(appId = "TayraLanguages")
     initKoin()
@@ -54,4 +56,23 @@ private fun setDockIcon() {
         val resource = Thread.currentThread().contextClassLoader.getResource(name) ?: return
         Taskbar.getTaskbar().iconImage = ImageIO.read(resource)
     }
+}
+
+
+/**
+ * The Dock labels a bare JVM "java" unless it is started with `-Xdock:name`. Gradle passes the
+ * flag, but an IDE run configuration does not, so in that case the app starts itself again with
+ * the flag and lets the first process exit. Skipped when a debugger is attached.
+ */
+private fun relaunchWithDockName(): Boolean {
+    if (!isMacOs) return false
+    val runtime = ManagementFactory.getRuntimeMXBean()
+    val args = runtime.inputArguments
+    if (args.any { it.startsWith("-Xdock:name") || it.startsWith("-agentlib:jdwp") || it.contains("jdwp") }) return false
+    val java = ProcessHandle.current().info().command().orElse(null) ?: return false
+    val command = listOf(java) + args + listOf("-Xdock:name=Tayra Languages", "-cp", runtime.classPath, "com.tayra.languages.desktop.MainKt")
+    return runCatching {
+        ProcessBuilder(command).inheritIO().start()
+        true
+    }.getOrDefault(false)
 }
