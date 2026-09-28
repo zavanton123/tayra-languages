@@ -3,6 +3,7 @@ package com.tayra.languages.feature.reading
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Book
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
@@ -73,6 +74,8 @@ data class ReadingUiState(
     val translations: Map<String, SentenceTranslation> = emptyMap(),
     /** Why offline translations are failing right now, shown above the text; null when they work or are off. */
     val translationError: String? = null,
+    /** What the offline translator is installing right now, shown above the text. */
+    val translationProgress: String? = null,
 ) {
     val items: List<TextItem> get() = page.items
     val isLastPage: Boolean get() = pageNumber >= pageCount
@@ -111,17 +114,20 @@ class ReadingViewModel(
     localTranslation: LocalTranslation,
 ) : ViewModel() {
 
+    private val local = localTranslation.translator
+
     /** Whether the engine switch in the drawer has anything to switch to (Argos exists on desktop only). */
-    val hasLocalTranslator: Boolean = localTranslation.translator != null
+    val hasLocalTranslator: Boolean = local != null
 
     private val _state = MutableStateFlow(ReadingUiState())
     val state: StateFlow<ReadingUiState> = combine(
         _state,
         settingsRepository.settings,
-        localTranslation.translator?.lastError ?: MutableStateFlow(null),
-    ) { s, prefs, localError ->
+        local?.lastError ?: MutableStateFlow(null),
+        local?.progress ?: MutableStateFlow(null),
+    ) { s, prefs, localError, localProgress ->
         val offline = prefs.showTranslations && prefs.translationEngine == TranslationEngine.ARGOS
-        s.copy(settings = prefs, translationError = localError.takeIf { offline })
+        s.copy(settings = prefs, translationError = localError.takeIf { offline }, translationProgress = localProgress.takeIf { offline })
     }.stateIn(viewModelScope, SharingStarted.Eagerly, ReadingUiState())
     val events = UiEvents<ReadingEvent>()
 
@@ -478,6 +484,15 @@ class ReadingViewModel(
         // Argos is asked for only where it exists; elsewhere the router falls back to MyMemory.
         val engine = if (s.settings.translationEngine == TranslationEngine.ARGOS && hasLocalTranslator) TranslationEngine.ARGOS else TranslationEngine.MYMEMORY
         translationJob = viewModelScope.launch {
+            if (engine == TranslationEngine.ARGOS && local != null) {
+                val source = LanguageCodes.codeFor(language.name)
+                val target = s.settings.nativeLanguage.trim().lowercase().ifEmpty { "en" }
+                val ready = source != null && runCatching { local.prepare(source, target) }.isSuccess
+                if (!ready) {
+                    _state.update { it.copy(translations = it.translations + pending.associateWith { SentenceTranslation.Unavailable }) }
+                    return@launch
+                }
+            }
             for (sentence in pending) {
                 val result = translator.translate(sentence, language)
                 _state.update {

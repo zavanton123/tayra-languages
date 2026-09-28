@@ -94,7 +94,10 @@ class SettingsViewModel(
         status
     }
 
-    /** Creates the app's own Python environment with argostranslate; slow, so the status says so meanwhile. */
+    /** What the translator is downloading or installing right now, for the progress line. */
+    val argosProgress: StateFlow<String?> = localTranslation.translator?.progress ?: MutableStateFlow(null)
+
+    /** Downloads the app's own Python with argostranslate; slow, so the status says so meanwhile. */
     fun setUpArgos() {
         _argosStatus.value = "Installing Argos Translate into the app folder. This downloads about a gigabyte and takes a few minutes\u2026"
         argosTask { translator ->
@@ -224,9 +227,9 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     OutlinedTextField(
                         value = settings.argosPython,
                         onValueChange = { v -> viewModel.update { it.copy(argosPython = v.trim()) } },
-                        label = { Text("Python executable") },
-                        placeholder = { Text("python3") },
-                        supportingText = { Text("Full path to the Python that has argostranslate installed, or leave empty for python3 on the PATH.") },
+                        label = { Text("Python executable (optional)") },
+                        placeholder = { Text("The app's own Python") },
+                        supportingText = { Text("Leave empty to use the Python the app downloads for itself, or give the full path to one that has argostranslate installed.") },
                         singleLine = true,
                         modifier = Modifier.fillMaxWidth(),
                     )
@@ -242,10 +245,15 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     }
                     if (!ready) {
                         Text(
-                            "Install creates a private Python environment inside the app folder with python3 (or the executable above) and puts argostranslate in it; the field is filled in when it is done.",
+                            "Install downloads a private Python into the app folder and puts argostranslate in it; nothing else on the computer is touched and the field above is filled in when it is done. Turning on offline translation in the reader does the same on its own.",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
+                    }
+                    val progress by viewModel.argosProgress.collectAsStateWithLifecycle()
+                    progress?.let {
+                        Text(it, style = MaterialTheme.typography.bodySmall)
+                        LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
                     }
                     status?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
                     if (argosPackages.isNotEmpty()) {

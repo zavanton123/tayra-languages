@@ -29,6 +29,12 @@ interface LocalSentenceTranslator : SentenceTranslator {
     /** Why the last sentence translation failed, cleared by the next success. */
     val lastError: StateFlow<String?>
 
+    /** What [prepare] or [setUp] is doing right now, null when idle. */
+    val progress: StateFlow<String?>
+
+    /** Makes translating [fromCode] into [toCode] possible: installs the runtime and the models when missing. Throws with the reason. */
+    suspend fun prepare(fromCode: String, toCode: String)
+
     /** Installs the translator's own runtime into the app folder and points the settings at it. Returns a summary or throws. */
     suspend fun setUp(): String
 

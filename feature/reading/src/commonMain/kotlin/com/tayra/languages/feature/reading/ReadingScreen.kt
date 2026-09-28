@@ -36,6 +36,7 @@ import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -592,7 +593,8 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                     fontWeight = FontWeight.Bold,
                 )
                 PageVocabulary(state)
-                state.translationError?.let { TranslationNotice(it, onSettings) }
+                state.translationProgress?.let { TranslationProgress(it) }
+                    ?: state.translationError?.let { TranslationNotice(it, onSettings) }
                 HorizontalDivider(Modifier.padding(bottom = 20.dp), color = MaterialTheme.colorScheme.outlineVariant)
             }
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
@@ -640,6 +642,20 @@ private fun TranslationNotice(message: String, onSettings: () -> Unit) {
                 color = MaterialTheme.colorScheme.onErrorContainer,
             )
             TextButton(onClick = onSettings) { Text("Settings") }
+        }
+    }
+}
+
+@Composable
+private fun TranslationProgress(message: String) {
+    Surface(
+        shape = RoundedCornerShape(10.dp),
+        color = MaterialTheme.colorScheme.secondaryContainer,
+        modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 12.dp),
+    ) {
+        Column(Modifier.padding(horizontal = 12.dp, vertical = 8.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text("Setting up offline translation: $message", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSecondaryContainer)
+            LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
         }
     }
 }
