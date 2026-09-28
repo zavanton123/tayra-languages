@@ -58,6 +58,10 @@ sealed interface Route {
     @Serializable
     data object Shortcuts : Route
 
+    /** Argos Translate runtime and language packages (desktop only). */
+    @Serializable
+    data object OfflineTranslation : Route
+
     @Serializable
     data object Stats : Route
 

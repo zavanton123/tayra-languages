@@ -130,7 +130,7 @@ def handle(req):
     if IMPORT_ERROR:
         raise RuntimeError(IMPORT_ERROR)
     if cmd == "status":
-        return {"version": version(), "pairs": installed_pairs()}
+        return {"version": version(), "python": sys.version.split()[0], "executable": sys.executable, "pairs": installed_pairs()}
     if cmd == "packages":
         return {"packages": packages()}
     if cmd == "install":

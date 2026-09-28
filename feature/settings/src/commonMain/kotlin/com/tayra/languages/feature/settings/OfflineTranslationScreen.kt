@@ -1,0 +1,247 @@
+package com.tayra.languages.feature.settings
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Button
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.viewModelScope
+import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.domain.repository.LanguageRepository
+import com.tayra.languages.core.domain.service.LocalPackage
+import com.tayra.languages.core.domain.service.LocalSentenceTranslator
+import com.tayra.languages.core.domain.service.LocalTranslation
+import com.tayra.languages.core.domain.service.TranslationEngine
+import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.domain.settings.UserSettings
+import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.Dropdown
+import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.navigation.Route
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+import org.koin.compose.viewmodel.koinViewModel
+
+/** Argos Translate on this computer: its runtime, the Python it runs on, and its language packages. */
+class OfflineTranslationViewModel(
+    private val settings: SettingsRepository,
+    languages: LanguageRepository,
+    private val localTranslation: LocalTranslation,
+) : ViewModel() {
+    val state: StateFlow<UserSettings> = settings.settings
+
+    private val _status = MutableStateFlow<String?>(null)
+    val status: StateFlow<String?> = _status.asStateFlow()
+    private val _busy = MutableStateFlow(false)
+    val busy: StateFlow<Boolean> = _busy.asStateFlow()
+
+    private val _packages = MutableStateFlow<List<LocalPackage>>(emptyList())
+    val packages: StateFlow<List<LocalPackage>> = _packages.asStateFlow()
+    private val _packageBusy = MutableStateFlow<Set<String>>(emptySet())
+    val packageBusy: StateFlow<Set<String>> = _packageBusy.asStateFlow()
+
+    private val _ready = MutableStateFlow(true)
+    /** False once a check finds no working runtime, which reveals the install button. */
+    val ready: StateFlow<Boolean> = _ready.asStateFlow()
+
+    /** What the translator is downloading or installing right now, for the progress line. */
+    val progress: StateFlow<String?> = localTranslation.translator?.progress ?: MutableStateFlow(null)
+
+    /** Source-language codes of the languages that have books, so the package list can lead with them. */
+    val languagesInUse: StateFlow<Set<String>> = languages.observeSummaries()
+        .map { summaries -> summaries.filter { it.bookCount > 0 }.mapNotNull { LanguageCodes.codeFor(it.name) }.toSet() }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptySet())
+
+    fun update(transform: (UserSettings) -> UserSettings) {
+        viewModelScope.launch { settings.update(transform) }
+    }
+
+    /** Reports the installation and reloads the package list. */
+    fun check() = task { translator ->
+        val status = translator.status()
+        val packages = runCatching { translator.packages() }
+        _ready.value = packages.isSuccess
+        _packages.value = packages.getOrDefault(emptyList())
+        status
+    }
+
+    /** Downloads the app's own Python with argostranslate; slow, so the status says so meanwhile. */
+    fun install() {
+        _status.value = "Installing Argos Translate into the app folder. This downloads about a gigabyte and takes a few minutes\u2026"
+        task { translator ->
+            val summary = translator.setUp()
+            val packages = runCatching { translator.packages() }
+            _ready.value = packages.isSuccess
+            _packages.value = packages.getOrDefault(emptyList())
+            summary + "\n" + translator.status()
+        }
+    }
+
+    fun installPackage(pkg: LocalPackage) = packageTask(pkg) { it.installPackage(pkg.fromCode, pkg.toCode) }
+
+    fun removePackage(pkg: LocalPackage) = packageTask(pkg) { it.removePackage(pkg.fromCode, pkg.toCode) }
+
+    private fun packageTask(pkg: LocalPackage, block: suspend (LocalSentenceTranslator) -> Unit) {
+        val translator = localTranslation.translator ?: return
+        if (pkg.key in _packageBusy.value) return
+        _packageBusy.update { it + pkg.key }
+        viewModelScope.launch {
+            try {
+                block(translator)
+                _packages.value = translator.packages()
+            } catch (e: Exception) {
+                _status.value = "${pkg.title}: ${e.message}"
+            }
+            _packageBusy.update { it - pkg.key }
+        }
+    }
+
+    private fun task(block: suspend (LocalSentenceTranslator) -> String) {
+        val translator = localTranslation.translator ?: return
+        if (_busy.value) return
+        _busy.value = true
+        viewModelScope.launch {
+            _status.value = try { block(translator) } catch (e: Exception) { "Argos Translate: ${e.message}" }
+            _busy.value = false
+        }
+    }
+}
+
+@Composable
+fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: OfflineTranslationViewModel = koinViewModel()) {
+    val settings by viewModel.state.collectAsStateWithLifecycle()
+    val busy by viewModel.busy.collectAsStateWithLifecycle()
+    val status by viewModel.status.collectAsStateWithLifecycle()
+    val ready by viewModel.ready.collectAsStateWithLifecycle()
+    val progress by viewModel.progress.collectAsStateWithLifecycle()
+    val packages by viewModel.packages.collectAsStateWithLifecycle()
+    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
+    val inUse by viewModel.languagesInUse.collectAsStateWithLifecycle()
+    var showAll by remember { mutableStateOf(false) }
+    LaunchedEffect(settings.argosPython) { viewModel.check() }
+
+    Scaffold(topBar = { AppTopBar(title = "Offline translation", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) }) { padding ->
+        Column(
+            Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 800.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            Text(
+                "Argos Translate translates sentences and terms on this computer with no network. The app keeps its own Python and the language models in its data folder.",
+                style = MaterialTheme.typography.bodyMedium,
+            )
+
+            Section("Engine")
+            Dropdown(
+                options = TranslationEngine.entries,
+                selected = settings.translationEngine,
+                onSelect = { engine -> viewModel.update { it.copy(translationEngine = engine) } },
+                label = "Sentence translation engine",
+                optionLabel = { it.label },
+                modifier = Modifier.fillMaxWidth(),
+            )
+
+            Section("Runtime")
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                OutlinedButton(onClick = viewModel::check, enabled = !busy) { Text(if (busy) "Working..." else "Check installation") }
+                if (!ready) Button(onClick = viewModel::install, enabled = !busy) { Text("Install Argos Translate") }
+            }
+            if (!ready) {
+                Text(
+                    "Install downloads a private Python into the app folder and puts argostranslate in it; nothing else on the computer is touched. Turning on offline translation in the reader does the same on its own.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            progress?.let {
+                Text(it, style = MaterialTheme.typography.bodySmall)
+                LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
+            }
+            status?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+            OutlinedTextField(
+                value = settings.argosPython,
+                onValueChange = { v -> viewModel.update { it.copy(argosPython = v.trim()) } },
+                label = { Text("Python executable (optional)") },
+                placeholder = { Text("The app's own Python") },
+                supportingText = { Text("Leave empty to use the Python the app downloads for itself, or give the full path to one that has argostranslate installed.") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+
+            if (packages.isNotEmpty()) {
+                Section("Language packages")
+                Text(
+                    "One package per direction. Reading a language needs its package into the native language; when there is none, Argos goes through English, so install both halves.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                val native = settings.nativeLanguage.ifBlank { "en" }
+                val wanted = inUse.flatMap { code ->
+                    if (code == native) emptyList()
+                    else if (packages.any { it.fromCode == code && it.toCode == native }) listOf("$code-$native")
+                    else listOf("$code-en", "en-$native")
+                }.toSet()
+                val relevant = packages.filter { it.key in wanted || it.installed }
+                val shown = if (showAll || relevant.isEmpty()) packages else relevant
+                shown.forEach { pkg ->
+                    PackageRow(pkg, busy = pkg.key in packageBusy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
+                }
+                if (relevant.size < packages.size) {
+                    TextButton(onClick = { showAll = !showAll }) {
+                        Text(if (showAll) "Show only my languages" else "Show all ${packages.size} packages")
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun PackageRow(pkg: LocalPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit) {
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(Modifier.weight(1f)) {
+            Text(pkg.title, style = MaterialTheme.typography.bodyMedium)
+            val detail = when {
+                busy && pkg.installed -> "Removing..."
+                busy -> "Downloading..."
+                pkg.installed -> "Installed, ${formatSize(pkg.sizeBytes)}"
+                else -> "Not installed"
+            }
+            Text(detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (busy) LinearProgressIndicator(modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
+        }
+        when {
+            busy -> {}
+            pkg.installed -> OutlinedButton(onClick = onRemove) { Text("Remove") }
+            else -> Button(onClick = onInstall) { Text("Install") }
+        }
+    }
+}

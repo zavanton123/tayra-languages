@@ -106,9 +106,10 @@ The same artifacts can be built locally:
   downloaded on request: when the pair being read lacks one, a notice above the text names the
   missing model (both halves of a detour through English when there is no direct one) with an
   Install button and a progress bar; for a language Argos has no model for at all, such as
-  Macedonian, the notice offers to switch back to MyMemory. Settings lists the
-  Argos language packages with Install and Remove, leading with the pairs the current books
-  need, and its Python executable field can point at a Python of your own instead. The worker
+  Macedonian, the notice offers to switch back to MyMemory. The Offline translation screen
+  (Settings, or the notice's Settings link) shows the Argos and Python versions, lets Install
+  fetch the runtime, lists the language packages with Install and Remove, leading with the
+  pairs the current books need, and has a Python executable field for a Python of your own. The worker
   script (`core/data/src/jvmMain/resources/argos_worker.py`) is started once and kept alive;
   the page header names the engine behind the translations on screen, and translations are
   cached for a day per sentence and engine.
