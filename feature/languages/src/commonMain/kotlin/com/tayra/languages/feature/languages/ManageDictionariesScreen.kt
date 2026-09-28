@@ -1,6 +1,7 @@
 package com.tayra.languages.feature.languages
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -18,9 +19,9 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -76,14 +77,20 @@ fun ManageDictionariesScreen(
             ) {
                 item {
                     Row(Modifier.fillMaxWidth().padding(bottom = 12.dp), verticalAlignment = Alignment.CenterVertically) {
+                        if (!compact) {
+                            Box(
+                                Modifier.size(40.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(onClick = onBack),
+                                contentAlignment = Alignment.Center,
+                            ) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", modifier = Modifier.size(20.dp)) }
+                            Spacer(Modifier.width(20.dp))
+                        }
                         Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(32.dp))
                         Spacer(Modifier.width(14.dp))
                         Column(Modifier.weight(1f)) {
                             Text("Dictionaries", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-                            val pair = listOfNotNull(state.source?.name, state.target?.name).joinToString(" → ")
-                            Text(pair, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                            val pair = listOfNotNull(state.source?.name, state.target?.name).joinToString(" \u2192 ")
+                            Text("$pair \u00b7 changes apply immediately", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                         }
-                        Button(onClick = onBack, shape = RoundedCornerShape(10.dp)) { Text("Done") }
                     }
                 }
                 item { SectionLabel("Preferred") }
