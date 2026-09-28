@@ -236,7 +236,7 @@ fun ReadingScreen(
             }
             Row(Modifier.weight(1f).background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else 0.3f))) {
                 Box(Modifier.weight(1f).fillMaxHeight()) {
-                    ReadingBody(state, viewModel, onHome = onHome, focusText = { runCatching { focusRequester.requestFocus() } })
+                    ReadingBody(state, viewModel, onHome = onHome, onSettings = { onNavigate(Route.Settings) }, focusText = { runCatching { focusRequester.requestFocus() } })
                 }
                 if (wide && state.panel != ReadingPanel.None) {
                     Surface(
@@ -538,7 +538,7 @@ private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu:
 }
 
 @Composable
-private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, focusText: () -> Unit) {
+private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onSettings: () -> Unit, focusText: () -> Unit) {
     val theme = TayraTheme.current
     if (state.loading) {
         LoadingIndicator()
@@ -591,6 +591,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                     fontWeight = FontWeight.Bold,
                 )
                 PageVocabulary(state)
+                state.translationError?.let { TranslationNotice(it, onSettings) }
                 HorizontalDivider(Modifier.padding(bottom = 20.dp), color = MaterialTheme.colorScheme.outlineVariant)
             }
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
@@ -619,6 +620,29 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
 }
 
 /** Distribution of term statuses on the current page, shown under the title. */
+@Composable
+private fun TranslationNotice(message: String, onSettings: () -> Unit) {
+    Surface(
+        shape = RoundedCornerShape(10.dp),
+        color = MaterialTheme.colorScheme.errorContainer,
+        modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 12.dp),
+    ) {
+        Row(
+            Modifier.padding(start = 12.dp, end = 4.dp, top = 4.dp, bottom = 4.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Text(
+                "Offline translation failed: $message",
+                Modifier.weight(1f),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onErrorContainer,
+            )
+            TextButton(onClick = onSettings) { Text("Settings") }
+        }
+    }
+}
+
 @Composable
 private fun PageVocabulary(state: ReadingUiState) {
     val stats = remember(state.page) { BookStatsCalculator.calculate(state.items) }

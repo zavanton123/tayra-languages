@@ -71,6 +71,8 @@ data class ReadingUiState(
     val flash: String? = null,
     /** Sentence translations for the page, keyed by the sentence's display text. */
     val translations: Map<String, SentenceTranslation> = emptyMap(),
+    /** Why offline translations are failing right now, shown above the text; null when they work or are off. */
+    val translationError: String? = null,
 ) {
     val items: List<TextItem> get() = page.items
     val isLastPage: Boolean get() = pageNumber >= pageCount
@@ -113,8 +115,14 @@ class ReadingViewModel(
     val hasLocalTranslator: Boolean = localTranslation.translator != null
 
     private val _state = MutableStateFlow(ReadingUiState())
-    val state: StateFlow<ReadingUiState> = combine(_state, settingsRepository.settings) { s, prefs -> s.copy(settings = prefs) }
-        .stateIn(viewModelScope, SharingStarted.Eagerly, ReadingUiState())
+    val state: StateFlow<ReadingUiState> = combine(
+        _state,
+        settingsRepository.settings,
+        localTranslation.translator?.lastError ?: MutableStateFlow(null),
+    ) { s, prefs, localError ->
+        val offline = prefs.showTranslations && prefs.translationEngine == TranslationEngine.ARGOS
+        s.copy(settings = prefs, translationError = localError.takeIf { offline })
+    }.stateIn(viewModelScope, SharingStarted.Eagerly, ReadingUiState())
     val events = UiEvents<ReadingEvent>()
 
     private var popupJob: Job? = null
