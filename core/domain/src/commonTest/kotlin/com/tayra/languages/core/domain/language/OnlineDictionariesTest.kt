@@ -59,6 +59,20 @@ class OnlineDictionariesTest {
     }
 
     @Test
+    fun dictionariesSharingAHostGetDistinctLabels() {
+        val infopedia = listOf(
+            "https://www.infopedia.pt/dicionarios/portugues-ingles/[LUTE]",
+            "https://www.infopedia.pt/dicionarios/lingua-portuguesa/[LUTE]",
+            "https://www.infopedia.pt/dicionarios/verbos-portugueses/[LUTE]",
+            "https://www.verbix.com/webverbix/go.php?&D1=2&T1=[LUTE]",
+            "https://www.verbix.com/webverbix/go.php?&D1=1002&T1=[LUTE]",
+        ).mapIndexed { i, url -> com.tayra.languages.core.domain.model.LanguageDictionary(id = i.toLong(), useFor = com.tayra.languages.core.domain.model.DictionaryUse.TERMS, type = com.tayra.languages.core.domain.model.DictionaryType.POPUP, url = url) }
+        val byDictionary = OnlineDictionaries.labels(infopedia, pt, en)
+        val labels = infopedia.map { byDictionary.getValue(it) }
+        assertEquals(listOf("infopedia.pt \u00b7 portugues ingles", "infopedia.pt \u00b7 lingua portuguesa", "infopedia.pt \u00b7 verbos portugueses", "verbix.com \u00b7 1", "verbix.com \u00b7 2"), labels)
+    }
+
+    @Test
     fun storedUrlsAreNamedFromTheCatalog() {
         assertEquals("Google Translate", OnlineDictionaries.displayName("https://translate.google.com/?sl=pt&tl=ru&text=[LUTE]&op=translate", pt, ru))
         assertEquals("Wiktionary (Portuguese)", OnlineDictionaries.displayName("https://pt.wiktionary.org/wiki/[LUTE]", pt, ru))

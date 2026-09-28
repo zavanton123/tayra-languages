@@ -192,4 +192,40 @@ object OnlineDictionaries {
     }
 
     fun host(url: String): String = url.substringAfter("://").substringBefore("/").removePrefix("www.")
+
+    /**
+     * Display names for a language's dictionaries, made distinct when several share a host by
+     * appending the most telling part of their path ("infopedia.pt · verbos portugueses"), or a
+     * number when the path says nothing useful.
+     */
+    fun labels(dictionaries: List<LanguageDictionary>, source: LanguageOption, target: LanguageOption): Map<LanguageDictionary, String> {
+        val base = dictionaries.associateWith { displayName(it.url, source, target) }
+        val result = HashMap<LanguageDictionary, String>()
+        base.entries.groupBy { it.value }.forEach { (name, group) ->
+            if (group.size == 1) {
+                result[group.single().key] = name
+                return@forEach
+            }
+            val qualifiers = group.map { pathQualifier(it.key.url) }
+            val usable = qualifiers.toSet().size == qualifiers.size && qualifiers.all { it.isNotBlank() }
+            group.forEachIndexed { index, entry ->
+                result[entry.key] = if (usable) "$name \u00b7 ${qualifiers[index]}" else "$name \u00b7 ${index + 1}"
+            }
+        }
+        return result
+    }
+
+    private val GENERIC_SEGMENTS = setOf(
+        "dicionarios", "dicionario", "dictionary", "dictionaries", "diccionario", "dictionnaire", "busca", "search", "translate",
+        "translation", "traduction", "wiki", "word", "dict", "go.php", "webverbix", "index.php", "lookup", "define", "definition",
+    )
+
+    /** The last readable path segment before the placeholder, with dashes turned into spaces. */
+    private fun pathQualifier(url: String): String {
+        val path = url.substringAfter("://").substringAfter("/", "").substringBefore(LanguageDictionary.LOOKUP_PLACEHOLDER)
+            .substringBefore(LanguageDictionary.LEGACY_PLACEHOLDER).substringBefore('?').substringBefore('#')
+        val segment = path.split('/').map { it.trim() }.lastOrNull { it.isNotBlank() && it.lowercase() !in GENERIC_SEGMENTS && it.any { c -> c.isLetter() } }
+            ?: return ""
+        return segment.replace(Regex("[-_+]"), " ").trim()
+    }
 }

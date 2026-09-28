@@ -169,9 +169,10 @@ fun TermFormPanel(
             }
             val source = LanguageOption(LanguageCodes.codeFor(language.name) ?: "en", language.name)
             val target = LanguageCatalog.nativeOption(state.nativeLanguage)
+            val labels = OnlineDictionaries.labels(language.termDictionaries, source, target)
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 language.termDictionaries.forEach { dictionary ->
-                    LinkChip(OnlineDictionaries.displayName(dictionary.url, source, target)) {
+                    LinkChip(labels[dictionary] ?: OnlineDictionaries.host(dictionary.url)) {
                         uriHandler.openUri(dictionary.lookupUrl(draft.text.replace("​", "").encodeURLParameter()))
                     }
                 }
