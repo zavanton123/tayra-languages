@@ -26,7 +26,9 @@ import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Button
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.PlainTooltip
@@ -70,6 +72,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.PopupPositionProvider
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
+import com.tayra.languages.core.domain.dictionary.PackState
+import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
@@ -147,7 +151,11 @@ fun TermFormPanel(
         } else {
             StandaloneFields(state, viewModel, direction, focusRequester, onConfirmDelete = { confirmDelete = true })
         }
-        if (!state.dictionary.isEmpty) DictionarySection(state.dictionary, onAdd = viewModel::addGloss)
+        val pack = state.dictionaryPack
+        when {
+            !state.dictionary.isEmpty -> DictionarySection(state.dictionary, onAdd = viewModel::addGloss)
+            pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
+        }
 
         if (language != null && language.termDictionaries.isNotEmpty() && draft.text.isNotBlank()) {
             HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
@@ -437,6 +445,40 @@ private fun RoundIconButton(icon: androidx.compose.ui.graphics.vector.ImageVecto
         Modifier.size(36.dp).clip(RoundedCornerShape(18.dp)).background(colors.primary.copy(alpha = 0.1f)).clickable(onClick = onClick),
         contentAlignment = Alignment.Center,
     ) { Icon(icon, contentDescription = description, tint = colors.primary, modifier = Modifier.size(20.dp)) }
+}
+
+/** Offers to download the offline dictionary for the language pair when it is not on the device. */
+@Composable
+private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val state = status.state
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.05f))
+            .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(14.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        SectionTitle(AppIcons.Book, "Dictionary")
+        Text(
+            when (state) {
+                is PackState.Downloading -> "Downloading the ${status.pack.title} dictionary..."
+                is PackState.Failed -> "The download failed: ${state.message}"
+                else -> "The offline ${status.pack.title} dictionary is not downloaded. Get it to see meanings here without a network connection."
+            },
+            style = MaterialTheme.typography.bodyMedium,
+            color = if (state is PackState.Failed) colors.error else colors.onSurfaceVariant,
+        )
+        if (state is PackState.Downloading) {
+            val progress = state.progress
+            if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth())
+            else LinearProgressIndicator(Modifier.fillMaxWidth())
+        } else {
+            Button(onClick = onDownload, shape = RoundedCornerShape(10.dp)) {
+                Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
+                Spacer(Modifier.size(8.dp))
+                Text(if (state is PackState.Failed) "Try again" else "Download dictionary")
+            }
+        }
+    }
 }
 
 /** Meanings from the offline dictionary; the plus adds a meaning to the translation. */
