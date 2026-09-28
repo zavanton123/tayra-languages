@@ -543,6 +543,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
     val callbacks = remember(viewModel) {
         ReadingTextCallbacks(
             onClick = { index, shift -> viewModel.onWordClick(index, shift); focusText() },
+            onSecondaryClick = { index -> viewModel.markToLearn(index); focusText() },
             onTap = { index -> viewModel.onWordTap(index) },
             onLongPress = { index ->
                 val tokenIndex = state.items[index].index
