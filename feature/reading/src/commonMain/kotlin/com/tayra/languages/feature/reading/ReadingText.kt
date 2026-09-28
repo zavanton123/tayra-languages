@@ -1,7 +1,6 @@
 package com.tayra.languages.feature.reading
 
 import androidx.compose.foundation.gestures.awaitEachGesture
-import androidx.compose.foundation.gestures.awaitFirstDown
 import androidx.compose.foundation.gestures.drag
 import androidx.compose.foundation.gestures.waitForUpOrCancellation
 import androidx.compose.foundation.layout.Box
@@ -20,6 +19,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.PointerType
+import androidx.compose.ui.input.pointer.isPrimaryPressed
 import androidx.compose.ui.input.pointer.isSecondaryPressed
 import androidx.compose.ui.input.pointer.isShiftPressed
 import androidx.compose.ui.input.pointer.PointerEventPass
@@ -163,16 +163,21 @@ private fun ParagraphText(
                 }
                 .pointerInput(callbacks) {
                     awaitEachGesture {
-                        val down = awaitFirstDown(requireUnconsumed = false)
+                        // A secondary mouse button never sets `pressed`, so wait for the raw press event
+                        // rather than a "down" change; primary presses and touches arrive the same way.
+                        var press = awaitPointerEvent()
+                        while (press.type != PointerEventType.Press) press = awaitPointerEvent()
+                        val down = press.changes.first()
                         val startItem = itemAt(down.position)
                         val isMouse = down.type == PointerType.Mouse
                         if (isMouse) {
-                            val shift = currentEvent.keyboardModifiers.isShiftPressed
-                            val secondary = currentEvent.buttons.isSecondaryPressed
+                            val shift = press.keyboardModifiers.isShiftPressed
+                            val secondary = press.buttons.isSecondaryPressed || !press.buttons.isPrimaryPressed
                             if (startItem == null) return@awaitEachGesture
                             if (secondary) {
-                                waitForUpOrCancellation()
-                                callbacks.onSecondaryClick(startItem)
+                                var release = awaitPointerEvent()
+                                while (release.type != PointerEventType.Release) release = awaitPointerEvent()
+                                if (itemAt(release.changes.first().position) == startItem) callbacks.onSecondaryClick(startItem)
                                 return@awaitEachGesture
                             }
                             var dragged = false
