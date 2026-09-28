@@ -451,10 +451,10 @@ class ReadingViewModel(
      * Fetches a translation for every sentence on the page, one request at a time, skipping
      * sentences already translated. Restarted whenever the page or the setting changes.
      */
-    private fun translateSentences() {
+    private fun translateSentences(enabled: Boolean = state.value.settings.showTranslations) {
         translationJob?.cancel()
-        val s = state.value
-        if (!s.settings.showTranslations) return
+        val s = _state.value
+        if (!enabled) return
         val language = s.language ?: return
         val sentences = s.page.paragraphs.flatMap { it.sentences }.map { it.displayText }
             .filter { it.any { c -> c.isLetter() } }.distinct()
@@ -481,7 +481,8 @@ class ReadingViewModel(
         val enabling = !state.value.settings.showTranslations
         viewModelScope.launch {
             settingsRepository.update { it.copy(showTranslations = enabling) }
-            if (enabling) translateSentences() else translationJob?.cancel()
+            // The combined state may not carry the new value yet, so pass it along.
+            if (enabling) translateSentences(enabled = true) else translationJob?.cancel()
         }
     }
     fun nextTheme() = updateSettings { it.copy(themeId = AppThemes.next(it.themeId).id) }
