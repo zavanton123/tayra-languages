@@ -15,6 +15,9 @@ import javax.imageio.ImageIO
 
 private val isMacOs = System.getProperty("os.name").lowercase().contains("mac")
 
+/** Set when the JVM was started with the Dock name, by Gradle or by [relaunchWithDockName]. */
+private const val DOCK_NAMED_PROPERTY = "tayra.dockNamed"
+
 /** Height of the macOS title bar that the app content extends under. */
 private val macTitleBarHeight = 28.dp
 
@@ -65,12 +68,14 @@ private fun setDockIcon() {
  * the flag and lets the first process exit. Skipped when a debugger is attached.
  */
 private fun relaunchWithDockName(): Boolean {
-    if (!isMacOs) return false
+    if (!isMacOs || System.getProperty(DOCK_NAMED_PROPERTY) != null) return false
     val runtime = ManagementFactory.getRuntimeMXBean()
     val args = runtime.inputArguments
-    if (args.any { it.startsWith("-Xdock:name") || it.startsWith("-agentlib:jdwp") || it.contains("jdwp") }) return false
+    // The launcher consumes -Xdock options, so they never show up here; the property is the marker.
+    if (args.any { it.contains("jdwp") }) return false
     val java = ProcessHandle.current().info().command().orElse(null) ?: return false
-    val command = listOf(java) + args + listOf("-Xdock:name=Tayra Languages", "-cp", runtime.classPath, "com.tayra.languages.desktop.MainKt")
+    val command = listOf(java) + args +
+        listOf("-Xdock:name=Tayra Languages", "-D$DOCK_NAMED_PROPERTY=true", "-cp", runtime.classPath, "com.tayra.languages.desktop.MainKt")
     return runCatching {
         ProcessBuilder(command).inheritIO().start()
         true

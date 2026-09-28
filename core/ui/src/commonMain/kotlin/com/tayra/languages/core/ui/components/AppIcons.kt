@@ -5,6 +5,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.addPathNodes
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.unit.dp
 
 /** Icons that the core material icon set does not include. */
 object AppIcons {
@@ -117,4 +119,47 @@ object AppIcons {
     val Tune: ImageVector by lazy {
         icon("Tune", "M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z")
     }
+
+    /**
+     * The Tayra otter from the vector logo. The traced SVG is drawn in tenths of points with a
+     * flipped y axis, so the inner group applies that transform and the outer one crops to the
+     * otter's bounding box.
+     */
+    val Otter: ImageVector by lazy {
+        ImageVector.Builder(name = "Otter", defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 400f, viewportHeight = 400f)
+            .group(translationX = -585.25f, translationY = -168.9f) {
+                group(translationY = 1024f, scaleX = 0.1f, scaleY = -0.1f) {
+                    addPath(pathData = addPathNodes(OTTER_HEAD), fill = SolidColor(Color.Black))
+                    addPath(pathData = addPathNodes(OTTER_EYE), fill = SolidColor(Color.Black))
+                }
+            }
+            .build()
+    }
+
+    private val OTTER_HEAD =
+            "M7560 8388 c-106 -9 -283 -41 -355 -63 -45 -13 -52 -12 -138 17 -134 44 -275 49 -411 14 -55 -14 -125 -40 -155 " +
+            "-58 -77 -46 -190 -161 -228 -233 -75 -143 -95 -329 -52 -490 11 -44 21 -84 21 -90 1 -5 -25 -50 -56 -100 -159 " +
+            "-251 -233 -498 -243 -820 -8 -268 22 -451 113 -676 98 -244 223 -428 425 -625 305 -296 649 -464 1119 -546 109 " +
+            "-20 161 -22 405 -22 221 0 301 3 380 17 137 24 314 72 388 105 l62 28 -72 42 c-367 215 -597 546 -621 897 -21 " +
+            "302 69 545 261 702 118 97 221 131 471 157 242 26 366 55 481 115 131 68 236 201 294 372 15 46 42 107 60 134 34 " +
+            "53 61 132 61 174 0 51 -46 127 -104 173 -97 76 -785 488 -971 581 -142 71 -372 149 -507 171 -193 33 -437 42 " +
+            "-628 24z m-679 -198 c127 -18 235 -84 295 -180 19 -30 34 -60 34 -67 0 -7 -25 5 -56 27 -88 61 -169 85 -294 85 " +
+            "-95 0 -111 -3 -162 -28 -107 -52 -171 -149 -171 -258 0 -113 63 -210 175 -269 35 -18 64 -33 65 -34 1 -1 -18 -40 " +
+            "-41 -88 l-43 -87 -39 26 c-101 67 -219 216 -248 313 -35 117 -26 243 24 341 54 105 188 202 304 219 73 11 83 11 " +
+            "157 0z m1546 -241 c178 -66 233 -297 93 -394 -56 -39 -141 -57 -207 -45 -57 10 -122 39 -142 64 -26 31 -87 61 " +
+            "-136 67 l-50 5 38 17 c31 14 37 22 37 47 0 40 33 123 65 166 25 33 82 68 135 85 46 14 109 9 167 -12z m530 -40 " +
+            "c192 -75 525 -228 566 -260 15 -12 10 -14 -45 -16 -86 -3 -139 -19 -183 -56 -127 -104 -60 -286 125 -343 30 -9 " +
+            "57 -18 58 -20 11 -9 -67 -140 -100 -169 -153 -131 -487 -12 -568 203 -39 102 -14 199 73 279 55 51 82 65 177 93 " +
+            "136 41 134 50 -23 182 -67 57 -134 111 -147 120 -36 25 -20 22 67 -13z m-231 -657 c1 -66 50 -157 115 -216 100 " +
+            "-90 230 -132 383 -124 147 8 243 70 302 198 37 80 39 83 52 88 22 7 13 -42 -17 -93 -38 -66 -161 -182 -236 -222 " +
+            "-118 -62 -226 -81 -586 -103 -406 -24 -616 -89 -889 -274 -128 -86 -290 -245 -380 -373 -71 -101 -147 -242 -169 " +
+            "-313 -25 -77 -31 -68 -31 46 0 194 45 387 133 567 23 48 41 87 39 87 -22 0 -229 -195 -266 -250 -21 -33 -20 -16 " +
+            "5 66 26 84 76 186 138 279 64 97 238 269 342 338 173 114 320 165 574 197 187 23 311 56 409 109 39 21 73 39 76 " +
+            "40 3 0 5 -20 6 -47z " +
+            ""
+
+    private val OTTER_EYE =
+            "M8301 7910 c-96 -22 -147 -128 -107 -223 26 -64 111 -117 186 -117 36 0 110 40 133 71 26 36 37 93 26 135 -25 89 " +
+            "-143 155 -238 134z m152 -71 c16 -26 0 -68 -29 -75 -46 -12 -85 51 -52 84 17 17 68 11 81 -9z " +
+            ""
 }

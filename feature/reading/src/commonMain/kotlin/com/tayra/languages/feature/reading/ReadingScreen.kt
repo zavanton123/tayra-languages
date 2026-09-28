@@ -299,7 +299,7 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
     val prefs = state.settings
     Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 20.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(36.dp))
+            Icon(AppIcons.Otter, contentDescription = null, tint = colors.primary, modifier = Modifier.size(40.dp))
             Spacer(Modifier.width(14.dp))
             Column(Modifier.weight(1f)) {
                 Text("Reader settings", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)

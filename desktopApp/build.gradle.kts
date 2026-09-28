@@ -23,7 +23,7 @@ compose.desktop {
     application {
         mainClass = "com.tayra.languages.desktop.MainKt"
         // Names the process in the macOS Dock during development runs; packaged apps use the bundle name.
-        jvmArgs += listOf("-Xdock:name=Tayra Languages")
+        jvmArgs += listOf("-Xdock:name=Tayra Languages", "-Dtayra.dockNamed=true")
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
