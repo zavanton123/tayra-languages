@@ -4,6 +4,7 @@ import com.russhwolf.settings.Settings
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.settings.Hotkey
 import com.tayra.languages.core.domain.settings.HotkeyAction
+import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -57,6 +58,8 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
             ).code,
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
+            translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
+            argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
             hotkeys = HotkeyAction.entries.associateWith { action ->
                 val stored = store.getStringOrNull(action.settingKey)
                 if (stored == null) action.default else Hotkey.parse(stored)
@@ -82,6 +85,8 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         store.putBoolean(Keys.DEMO_DATA, s.demoDataLoaded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
+        store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
+        store.putString(Keys.ARGOS_PYTHON, s.argosPython)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
         }
@@ -102,6 +107,8 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         const val TAP_SETS_STATUS = "reading_tap_sets_status"
         const val SPLIT_SENTENCES = "reading_split_sentences"
         const val SHOW_TRANSLATIONS = "reading_show_translations"
+        const val TRANSLATION_ENGINE = "translation_engine"
+        const val ARGOS_PYTHON = "argos_python"
         const val DEMO_DATA = "is_demo_data"
         const val NATIVE_LANGUAGE = "native_language"
         const val LEGACY_TRANSLATION_TARGET = "translation_target_language"

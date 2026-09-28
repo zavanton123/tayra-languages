@@ -37,6 +37,11 @@ import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.DictionaryService
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.MutableStateFlow
+import com.tayra.languages.core.domain.service.TranslationEngine
+import com.tayra.languages.core.domain.service.LocalTranslation
+import com.tayra.languages.core.domain.service.LocalSentenceTranslator
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -55,9 +60,43 @@ class SettingsViewModel(
     private val settings: SettingsRepository,
     private val dictionaries: DictionaryService,
     languages: LanguageRepository,
+    private val localTranslation: LocalTranslation,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
     val packs: StateFlow<List<PackStatus>> = dictionaries.packs
+
+    /** Whether this platform has a local (Argos) translator at all. */
+    val hasLocalTranslator: Boolean get() = localTranslation.translator != null
+
+    private val _argosStatus = MutableStateFlow<String?>(null)
+    val argosStatus: StateFlow<String?> = _argosStatus.asStateFlow()
+    private val _argosBusy = MutableStateFlow(false)
+    val argosBusy: StateFlow<Boolean> = _argosBusy.asStateFlow()
+
+    fun checkArgos() = argosTask { it.status() }
+
+    /** Installs models for every language with books into the native language. */
+    fun installArgosPackages() = argosTask { translator ->
+        val target = settings.current.nativeLanguage.ifBlank { "en" }
+        val sources = languagesInUse.value.filter { it != target }
+        if (sources.isEmpty()) return@argosTask "No languages with books to install packages for."
+        val lines = mutableListOf<String>()
+        for (code in sources) {
+            _argosStatus.value = (lines + "Downloading $code\u2192$target\u2026").joinToString("\n")
+            lines += try { translator.installPackage(code, target) } catch (e: Exception) { "$code\u2192$target: ${e.message}" }
+        }
+        (lines + translator.status()).joinToString("\n")
+    }
+
+    private fun argosTask(block: suspend (LocalSentenceTranslator) -> String) {
+        val translator = localTranslation.translator ?: return
+        if (_argosBusy.value) return
+        _argosBusy.value = true
+        viewModelScope.launch {
+            _argosStatus.value = try { block(translator) } catch (e: Exception) { "Argos Translate: ${e.message}" }
+            _argosBusy.value = false
+        }
+    }
 
     /** Source-language codes of the languages that have books, so the pack list can lead with them. */
     val languagesInUse: StateFlow<Set<String>> = languages.observeSummaries()
@@ -128,6 +167,40 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 singleLine = true,
                 modifier = Modifier.fillMaxWidth(),
             )
+            if (viewModel.hasLocalTranslator) {
+                Section("Sentence translation engine")
+                Dropdown(
+                    options = TranslationEngine.entries,
+                    selected = settings.translationEngine,
+                    onSelect = { engine -> viewModel.update { it.copy(translationEngine = engine) } },
+                    label = "Engine",
+                    optionLabel = { it.label },
+                    modifier = Modifier.fillMaxWidth(),
+                )
+                Text(
+                    "Argos Translate runs on this computer with no network. It needs Python with the argostranslate package (pip install argostranslate) and one downloaded model per language pair.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                if (settings.translationEngine == TranslationEngine.ARGOS) {
+                    OutlinedTextField(
+                        value = settings.argosPython,
+                        onValueChange = { v -> viewModel.update { it.copy(argosPython = v.trim()) } },
+                        label = { Text("Python executable") },
+                        placeholder = { Text("python3") },
+                        supportingText = { Text("Full path to the Python that has argostranslate installed, or leave empty for python3 on the PATH.") },
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth(),
+                    )
+                    val busy by viewModel.argosBusy.collectAsStateWithLifecycle()
+                    val status by viewModel.argosStatus.collectAsStateWithLifecycle()
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        OutlinedButton(onClick = viewModel::checkArgos, enabled = !busy) { Text("Check installation") }
+                        Button(onClick = viewModel::installArgosPackages, enabled = !busy) { Text(if (busy) "Working..." else "Download models for my languages") }
+                    }
+                    status?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+                }
+            }
 
             Section("Offline dictionaries")
             Text(

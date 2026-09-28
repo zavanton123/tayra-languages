@@ -97,6 +97,15 @@ The same artifacts can be built locally:
 - The bundled language definitions also cover many other languages; those that need external
   tokenisers (Japanese via MeCab, Thai, Khmer, Mandarin) are not supported.
 - Dictionaries open in the platform browser; embedded web views are not used.
+- Sentence translations in the reader (left pane, Show translations) come from MyMemory by
+  default. On desktop, Settings can switch the engine to Argos Translate, which runs on the
+  computer with no network: it needs a Python with the `argostranslate` package installed
+  (`pip install argostranslate`; on python.org builds the CA bundle from `certifi` is picked up
+  automatically) and one downloaded model per language pair. Point the Python executable field
+  at that interpreter, then use Download models for my languages to fetch the pairs for every
+  language that has books into the native language. Argos pivots through English when no direct
+  model exists. The worker script (`core/data/src/jvmMain/resources/argos_worker.py`) is started once
+  and kept alive; translations are cached for a day per sentence and engine.
 - Offline dictionaries are downloadable packs: gzip-compressed prebuilt SQLite files (tables
   `meta`, `entries` and `forms`), one per source language and gloss language (Russian,
   English, German, French, Spanish or Portuguese), generated in `DictionaryPacks` from a source

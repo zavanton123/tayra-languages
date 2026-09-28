@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.settings
 
+import com.tayra.languages.core.domain.service.TranslationEngine
+
 /**
  * User preferences. Persisted as key-value pairs; see [SettingsRepository].
  */
@@ -25,6 +27,10 @@ data class UserSettings(
     val nativeLanguage: String = "en",
     /** Optional contact email sent to MyMemory, which raises its daily quota. */
     val translationContactEmail: String = "",
+    /** Service used for sentence translations. */
+    val translationEngine: TranslationEngine = TranslationEngine.MYMEMORY,
+    /** Python executable that has Argos Translate installed; empty means `python3` from the PATH. */
+    val argosPython: String = "",
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
 ) {
     fun hotkeyFor(action: HotkeyAction): Hotkey? = hotkeys[action]

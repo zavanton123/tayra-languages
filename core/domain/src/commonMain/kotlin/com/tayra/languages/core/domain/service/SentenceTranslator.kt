@@ -91,3 +91,13 @@ class CachedSentenceTranslator(
         const val PRUNE_INTERVAL_MS = 60L * 60 * 1000
     }
 }
+
+/** Sends sentences to the engine chosen in settings, falling back to the online one when no local engine exists. */
+class RoutingSentenceTranslator(
+    private val online: SentenceTranslator,
+    private val local: SentenceTranslator?,
+    private val engine: () -> TranslationEngine,
+) : SentenceTranslator {
+    override suspend fun translate(text: String, language: Language): String? =
+        if (engine() == TranslationEngine.ARGOS && local != null) local.translate(text, language) else online.translate(text, language)
+}
