@@ -8,4 +8,7 @@ interface SettingsRepository {
     val current: UserSettings get() = settings.value
 
     suspend fun update(transform: (UserSettings) -> UserSettings)
+
+    /** Where secrets such as API keys are kept on this platform, as a phrase for Settings. */
+    val secretStorage: String get() = ""
 }

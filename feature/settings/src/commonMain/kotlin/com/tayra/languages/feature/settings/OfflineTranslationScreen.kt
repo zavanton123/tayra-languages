@@ -72,6 +72,9 @@ class OfflineTranslationViewModel(
     /** Argos exists on desktop only; elsewhere the screen holds just the shared translation settings. */
     val hasLocalTranslator: Boolean = localTranslation.translator != null
 
+    /** Where the API key is kept on this platform. */
+    val secretStorage: String get() = settings.secretStorage
+
     /** Engines this platform can offer. */
     val engines: List<TranslationEngine> = TranslationEngine.entries.filter { it != TranslationEngine.ARGOS || hasLocalTranslator }
 
@@ -231,7 +234,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 value = settings.googleTranslateApiKey,
                 onValueChange = { v -> viewModel.update { it.copy(googleTranslateApiKey = v.trim()) } },
                 label = { Text("API key") },
-                supportingText = { Text("A Google Cloud API key with the Cloud Translation API enabled. Calls are billed to that project; the key is stored only on this device.") },
+                supportingText = { Text("A Google Cloud API key with the Cloud Translation API enabled. Calls are billed to that project. The key is ${viewModel.secretStorage}.") },
                 singleLine = true,
                 modifier = Modifier.fillMaxWidth(),
             )

@@ -47,6 +47,8 @@ kotlin {
         jvmMain.dependencies {
             implementation(libs.sqldelight.sqlite.driver)
             implementation(libs.ktor.client.okhttp)
+            implementation(libs.jna)
+            implementation(libs.jna.platform)
         }
         iosMain.dependencies {
             implementation(libs.sqldelight.native.driver)

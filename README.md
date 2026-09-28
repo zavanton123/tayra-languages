@@ -101,7 +101,10 @@ The same artifacts can be built locally:
   from MyMemory by default. The Translation screen (or the engine row in the reader's left pane)
   can switch to Google Translate, which needs a Google Cloud API key with the Cloud Translation
   API enabled, entered on that screen and checked with Check key (calls are billed to that
-  project, the key stays on the device); or, on desktop, to Argos Translate, which runs on the
+  project). The key never enters the plain settings store: `SecureStore` keeps it in the macOS
+  Keychain (Security framework through JNA), the iOS Keychain, an AES key in the Android
+  Keystore, Windows DPAPI, the Linux keyring via `secret-tool` (or an owner-only file without
+  it), and in the browser only sessionStorage for the current tab; or, on desktop, to Argos Translate, which runs on the
   computer with no network. Without a key or a local Argos the app falls back to MyMemory. Nothing has to be installed by hand:
   the first time offline translation is used the app downloads a standalone CPython build
   (`astral-sh/python-build-standalone`, about 25 MB) into its data folder under `argos-python`,

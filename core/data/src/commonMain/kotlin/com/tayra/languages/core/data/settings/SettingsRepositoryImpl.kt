@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.settings
 
+import co.touchlab.kermit.Logger
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.settings.Hotkey
@@ -16,11 +17,17 @@ import kotlinx.coroutines.flow.update
  * Stores [UserSettings] as key-value pairs; an in-memory snapshot backs the flow so
  * that the same code works on platforms whose storage cannot be observed.
  */
-class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
+class SettingsRepositoryImpl(
+    private val store: Settings,
+    /** Holds the API keys; the plain [store] never sees them. */
+    private val secure: SecureStore = InMemorySecureStore(),
+) : SettingsRepository {
 
     private val state = MutableStateFlow(load())
 
     override val settings: StateFlow<UserSettings> = state.asStateFlow()
+
+    override val secretStorage: String get() = secure.description
 
     override suspend fun update(transform: (UserSettings) -> UserSettings) {
         val updated = state.updateAndGet(transform)
@@ -58,13 +65,29 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
             ).code,
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
             translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
-            googleTranslateApiKey = store.getString(Keys.GOOGLE_TRANSLATE_API_KEY, defaults.googleTranslateApiKey),
+            googleTranslateApiKey = loadSecret(Keys.GOOGLE_TRANSLATE_API_KEY),
             argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
             hotkeys = HotkeyAction.entries.associateWith { action ->
                 val stored = store.getStringOrNull(action.settingKey)
                 if (stored == null) action.default else Hotkey.parse(stored)
             },
         )
+    }
+
+    /** Reads a secret, moving a value an older build left in the plain store into the secure one. */
+    private fun loadSecret(key: String): String {
+        val legacy = store.getStringOrNull(key)
+        if (legacy != null) {
+            if (legacy.isNotBlank()) runCatching { secure.put(key, legacy) }.onFailure { Logger.w(it) { "Could not move $key to secure storage" } }
+            store.remove(key)
+            return legacy
+        }
+        return runCatching { secure.get(key) }.onFailure { Logger.w(it) { "Could not read $key from secure storage" } }.getOrNull().orEmpty()
+    }
+
+    private fun storeSecret(key: String, value: String) {
+        runCatching { if (value.isBlank()) secure.remove(key) else secure.put(key, value) }
+            .onFailure { Logger.w(it) { "Could not write $key to secure storage" } }
     }
 
     private fun persist(s: UserSettings) {
@@ -85,7 +108,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
-        store.putString(Keys.GOOGLE_TRANSLATE_API_KEY, s.googleTranslateApiKey)
+        storeSecret(Keys.GOOGLE_TRANSLATE_API_KEY, s.googleTranslateApiKey)
         store.putString(Keys.ARGOS_PYTHON, s.argosPython)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
