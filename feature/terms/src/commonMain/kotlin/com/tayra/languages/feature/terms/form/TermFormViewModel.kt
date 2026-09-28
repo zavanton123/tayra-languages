@@ -32,6 +32,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.time.Instant
 
 /** What the term form edits. */
 sealed interface TermFormKey {
@@ -62,6 +63,8 @@ data class TermFormUiState(
     val loadingExamples: Boolean = false,
     /** Code of the language translations are shown in. */
     val nativeLanguage: String = "en",
+    /** When the stored term was created; null for new terms. */
+    val createdAt: Instant? = null,
     /** Offline dictionary entries for the term, empty when no bundled dictionary covers the language pair. */
     val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
 ) {
@@ -118,7 +121,8 @@ class TermFormViewModel(
         }
         // Opening the form acknowledges any flash message.
         draft.id?.let { terms.clearFlashMessage(it) }
-        _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }) }
+        val createdAt = draft.id?.let { terms.getById(it)?.createdAt }
+        _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }, createdAt = createdAt) }
         val language = languageList.firstOrNull { it.id == draft.languageId }
         val lookup = lookupDictionary(draft.text, language)
         // Words on a page exist as placeholders before anyone opens them, so "new" is judged by
