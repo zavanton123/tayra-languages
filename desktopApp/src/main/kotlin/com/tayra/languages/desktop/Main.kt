@@ -9,6 +9,8 @@ import androidx.compose.ui.window.application
 import com.tayra.languages.App
 import com.tayra.languages.di.initKoin
 import io.github.vinceglb.filekit.FileKit
+import java.awt.Taskbar
+import javax.imageio.ImageIO
 
 private val isMacOs = System.getProperty("os.name").lowercase().contains("mac")
 
@@ -16,8 +18,10 @@ private val isMacOs = System.getProperty("os.name").lowercase().contains("mac")
 private val macTitleBarHeight = 28.dp
 
 fun main() {
+    System.setProperty("apple.awt.application.name", "Tayra Languages")
     FileKit.init(appId = "TayraLanguages")
     initKoin()
+    setDockIcon()
     application {
         Window(
             onCloseRequest = ::exitApplication,
@@ -35,5 +39,17 @@ fun main() {
             }
             App(titleBarInset = if (isMacOs) macTitleBarHeight else 0.dp)
         }
+    }
+}
+
+/**
+ * Shows the app icon in the Dock and task bar. Packaged builds get it from the bundle, but a
+ * development run would otherwise show the generic Java icon.
+ */
+private fun setDockIcon() {
+    runCatching {
+        if (!Taskbar.isTaskbarSupported() || !Taskbar.getTaskbar().isSupported(Taskbar.Feature.ICON_IMAGE)) return
+        val resource = Thread.currentThread().contextClassLoader.getResource("window-icon.png") ?: return
+        Taskbar.getTaskbar().iconImage = ImageIO.read(resource)
     }
 }
