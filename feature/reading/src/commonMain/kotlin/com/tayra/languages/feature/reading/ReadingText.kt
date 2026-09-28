@@ -77,27 +77,32 @@ fun ReadingText(
     rightToLeft: Boolean,
     callbacks: ReadingTextCallbacks,
     modifier: Modifier = Modifier,
+    /** Lay each sentence out on its own line instead of flowing a paragraph together. */
+    splitSentences: Boolean = false,
 ) {
     var itemOffset = 0
     Column(modifier) {
         page.paragraphs.forEach { paragraph ->
-            val paragraphItems = paragraph.sentences.flatMap { it.items }
-            val first = itemOffset
-            itemOffset += paragraphItems.size
-            ParagraphText(
-                items = paragraphItems,
-                firstItemIndex = first,
-                theme = theme,
-                showHighlights = showHighlights,
-                marked = marked,
-                hovered = hovered,
-                selection = selection,
-                popupItem = popupItem,
-                fontScale = fontScale,
-                lineHeight = lineHeight,
-                rightToLeft = rightToLeft,
-                callbacks = callbacks,
-            )
+            // A run of items that shares one Text: the whole paragraph, or one sentence each.
+            val runs = if (splitSentences) paragraph.sentences.map { it.items } else listOf(paragraph.sentences.flatMap { it.items })
+            runs.forEach { runItems ->
+                val first = itemOffset
+                itemOffset += runItems.size
+                ParagraphText(
+                    items = runItems,
+                    firstItemIndex = first,
+                    theme = theme,
+                    showHighlights = showHighlights,
+                    marked = marked,
+                    hovered = hovered,
+                    selection = selection,
+                    popupItem = popupItem,
+                    fontScale = fontScale,
+                    lineHeight = lineHeight,
+                    rightToLeft = rightToLeft,
+                    callbacks = callbacks,
+                )
+            }
         }
     }
 }

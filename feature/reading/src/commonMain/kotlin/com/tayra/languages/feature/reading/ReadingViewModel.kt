@@ -444,6 +444,7 @@ class ReadingViewModel(
     fun toggleHighlights() = updateSettings { it.copy(showHighlights = !it.showHighlights) }
     fun toggleFocusMode() = updateSettings { it.copy(focusMode = !it.focusMode) }
     fun toggleTapSetsStatus() = updateSettings { it.copy(tapSetsStatus = !it.tapSetsStatus) }
+    fun toggleSplitSentences() = updateSettings { it.copy(splitSentences = !it.splitSentences) }
     fun nextTheme() = updateSettings { it.copy(themeId = AppThemes.next(it.themeId).id) }
     fun adjustFontScale(delta: Float) = updateSettings { it.copy(readingFontScale = (it.readingFontScale + delta).coerceIn(0.6f, 2.5f)) }
     fun adjustLineHeight(delta: Float) = updateSettings { it.copy(readingLineHeight = (it.readingLineHeight + delta).coerceIn(1.0f, 3.0f)) }
