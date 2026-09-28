@@ -241,7 +241,7 @@ fun ReadingScreen(
             }
             Row(Modifier.weight(1f).background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else 0.3f))) {
                 Box(Modifier.weight(1f).fillMaxHeight()) {
-                    ReadingBody(state, viewModel, onHome = onHome, onSettings = { onNavigate(Route.Settings) }, focusText = { runCatching { focusRequester.requestFocus() } })
+                    ReadingBody(state, viewModel, onHome = onHome, onSettings = { onNavigate(Route.OfflineTranslation) }, focusText = { runCatching { focusRequester.requestFocus() } })
                 }
                 if (wide && state.panel != ReadingPanel.None) {
                     Surface(
