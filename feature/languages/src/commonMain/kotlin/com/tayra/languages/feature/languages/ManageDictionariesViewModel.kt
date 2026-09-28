@@ -75,6 +75,7 @@ class ManageDictionariesViewModel(
         if (stored != null) {
             language.copy(dictionaries = language.dictionaries.map { if (it === stored || (it.id != 0L && it.id == stored.id)) it.copy(isActive = true) else it })
         } else {
+            if (language.dictionaries.any { it.url == entry.url }) return@update language
             val next = (language.dictionaries.maxOfOrNull { it.sortOrder } ?: 0) + 1
             language.copy(dictionaries = language.dictionaries + LanguageDictionary(useFor = DictionaryUse.TERMS, type = com.tayra.languages.core.domain.model.DictionaryType.POPUP, url = entry.url, isActive = true, sortOrder = next))
         }
