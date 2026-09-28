@@ -40,6 +40,7 @@ import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppThemes
@@ -73,7 +74,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
     val packs by viewModel.packs.collectAsStateWithLifecycle()
     val inUse by viewModel.languagesInUse.collectAsStateWithLifecycle()
     var showAllPacks by remember { mutableStateOf(false) }
-    Scaffold(topBar = { AppTopBar(title = "Settings", onNavigate = onNavigate) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = "Settings", onNavigate = onNavigate, section = NavSection.SETTINGS) }) { padding ->
         Column(
             Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 720.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),

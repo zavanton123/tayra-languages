@@ -29,6 +29,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.data.files.FileTextExtractor
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
@@ -59,7 +60,7 @@ fun BookFormScreen(
         if (file != null) scope.launch { viewModel.importFile(file.name, file.readBytes()) }
     }
 
-    Scaffold(topBar = { AppTopBar(title = if (state.isNew) "New book" else "Edit book", onNavigate = onNavigate, onBack = onBack) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = if (state.isNew) "New book" else "Edit book", onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack) }) { padding ->
         if (state.loading) {
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold

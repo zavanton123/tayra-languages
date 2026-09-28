@@ -44,6 +44,7 @@ import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.repository.TermSortField
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.EmptyMessage
@@ -78,7 +79,7 @@ fun TermsScreen(
         topBar = {
             AppTopBar(
                 title = "Terms",
-                onNavigate = onNavigate,
+                onNavigate = onNavigate, section = NavSection.TERMS,
                 onBack = onBack,
                 actions = { ActionsMenu(state, onNew = { onNavigate(Route.NewTerm) }, onBulk = { bulkEdit = true }, onDelete = { confirmDelete = true }, onExport = viewModel::exportCsv) },
             )

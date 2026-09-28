@@ -38,6 +38,7 @@ import com.tayra.languages.core.domain.model.DictionaryUse
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.parse.ParserRegistry
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
@@ -60,7 +61,7 @@ fun LanguageEditScreen(
 
     Scaffold(
         topBar = {
-            AppTopBar(title = state.language.name, onNavigate = onNavigate, onBack = onBack)
+            AppTopBar(title = state.language.name, onNavigate = onNavigate, section = NavSection.SETTINGS, onBack = onBack)
         },
     ) { padding ->
         if (state.loading) {

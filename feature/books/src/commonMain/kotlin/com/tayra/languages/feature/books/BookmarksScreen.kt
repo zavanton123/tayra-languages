@@ -31,6 +31,7 @@ import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.model.PageBookmark
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.EmptyMessage
 import com.tayra.languages.core.ui.components.TextInputDialog
 import com.tayra.languages.core.ui.navigation.Route
@@ -63,7 +64,7 @@ fun BookmarksScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     var renaming by remember { mutableStateOf<PageBookmark?>(null) }
 
-    Scaffold(topBar = { AppTopBar(title = "Bookmarks: ${state.title}", onNavigate = onNavigate, onBack = onBack) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = "Bookmarks: ${state.title}", onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
             if (state.bookmarks.isEmpty()) {
                 EmptyMessage("No bookmarks yet. Add one from the reading menu.")

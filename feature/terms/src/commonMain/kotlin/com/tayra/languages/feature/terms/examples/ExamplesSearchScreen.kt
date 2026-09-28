@@ -40,6 +40,7 @@ import com.tayra.languages.core.domain.service.YesNo
 import com.tayra.languages.core.ui.audio.PlayButton
 import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.EmptyMessage
 import com.tayra.languages.core.ui.components.ErrorMessage
@@ -68,7 +69,7 @@ fun ExamplesSearchScreen(
         topBar = {
             AppTopBar(
                 title = "Examples: ${query?.text ?: text}",
-                onNavigate = onNavigate,
+                onNavigate = onNavigate, section = NavSection.TERMS,
                 onBack = onBack,
                 showMenu = false,
                 actions = {

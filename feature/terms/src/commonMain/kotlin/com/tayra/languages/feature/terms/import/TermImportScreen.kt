@@ -28,6 +28,7 @@ import com.tayra.languages.core.domain.service.TermImportOptions
 import com.tayra.languages.core.domain.service.TermImportResult
 import com.tayra.languages.core.domain.service.TermImportService
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.navigation.Route
 import io.github.vinceglb.filekit.dialogs.FileKitType
@@ -83,7 +84,7 @@ fun TermImportScreen(onNavigate: (Route) -> Unit, viewModel: TermImportViewModel
     val picker = rememberFilePickerLauncher(type = FileKitType.File(listOf("csv", "txt"))) { file ->
         if (file != null) scope.launch { viewModel.setFile(file.name, file.readBytes()) }
     }
-    Scaffold(topBar = { AppTopBar(title = "Import terms", onNavigate = onNavigate) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = "Import terms", onNavigate = onNavigate, section = NavSection.TERMS) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 720.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             Text(
                 "Import a CSV file with the columns language, term and optionally translation, parent, status, tags, pronunciation and link_status.",

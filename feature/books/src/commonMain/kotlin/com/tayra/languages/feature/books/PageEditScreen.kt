@@ -25,6 +25,7 @@ import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.PagePosition
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.navigation.Route
@@ -115,7 +116,7 @@ fun PageEditScreen(
         is PageEditMode.Edit -> "Edit page ${mode.page}"
         is PageEditMode.New -> "New page"
     }
-    Scaffold(topBar = { AppTopBar(title = title, onNavigate = onNavigate, onBack = onBack, showMenu = false) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = title, onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack, showMenu = false) }) { padding ->
         if (state.loading) {
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold

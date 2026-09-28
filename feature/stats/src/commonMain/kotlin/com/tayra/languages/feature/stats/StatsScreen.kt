@@ -34,6 +34,7 @@ import com.tayra.languages.core.domain.service.ReadingStatsSummary
 import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.domain.stats.ChartPoint
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.EmptyMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.navigation.Route
@@ -57,7 +58,7 @@ private val seriesColors = listOf(Color(0xFF1F77B4), Color(0xFFFF7F0E), Color(0x
 @Composable
 fun StatsScreen(onNavigate: (Route) -> Unit, viewModel: StatsViewModel = koinViewModel()) {
     val summary by viewModel.summary.collectAsStateWithLifecycle()
-    Scaffold(topBar = { AppTopBar(title = "Statistics", onNavigate = onNavigate) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = "Statistics", onNavigate = onNavigate, section = NavSection.ABOUT) }) { padding ->
         val data = summary
         if (data == null) {
             LoadingIndicator(Modifier.padding(padding))
