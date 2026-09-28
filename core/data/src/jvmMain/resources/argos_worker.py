@@ -4,6 +4,8 @@
 Reads one JSON request per line on stdin and writes one JSON reply per line on stdout:
   {"id": 1, "cmd": "status"}                          -> {"id": 1, "version": "...", "pairs": ["pt-en", ...]}
   {"id": 2, "cmd": "install", "from": "pt", "to": "en"} -> {"id": 2, "installed": ["pt-en"]}
+  {"id": 4, "cmd": "packages"}                        -> {"id": 4, "packages": [{"from": "pt", "to": "en", "fromName": ..., "toName": ..., "installed": true, "size": 123}]}
+  {"id": 5, "cmd": "remove", "from": "pt", "to": "en"} -> {"id": 5, "removed": ["pt-en"]}
   {"id": 3, "cmd": "translate", "from": "pt", "to": "en", "q": "..."} -> {"id": 3, "t": "..."}
 Any failure replies {"id": ..., "error": "..."}.
 """
@@ -53,12 +55,53 @@ def direct_pairs():
     return pairs
 
 
-def install(src, dst):
-    argostranslate.package.update_package_index()
-    available = argostranslate.package.get_available_packages()
+def available_packages():
+    try:
+        return argostranslate.package.get_available_packages()
+    except Exception:  # noqa: BLE001
+        argostranslate.package.update_package_index()
+        return argostranslate.package.get_available_packages()
+
+
+def dir_size(path):
+    total = 0
+    for root, _dirs, files in os.walk(str(path)):
+        for f in files:
+            try:
+                total += os.path.getsize(os.path.join(root, f))
+            except OSError:
+                pass
+    return total
+
+
+def packages():
+    installed = {(p.from_code, p.to_code): p for p in argostranslate.package.get_installed_packages()}
+    result = []
+    seen = set()
+    for p in available_packages():
+        key = (p.from_code, p.to_code)
+        if key in seen:
+            continue
+        seen.add(key)
+        have = installed.get(key)
+        result.append({
+            "from": p.from_code, "to": p.to_code, "fromName": p.from_name, "toName": p.to_name,
+            "installed": have is not None,
+            "size": dir_size(have.package_path) if have is not None else 0,
+        })
+    # Installed packages missing from the index (older versions) still count.
+    for key, have in installed.items():
+        if key not in seen:
+            result.append({"from": key[0], "to": key[1], "fromName": have.from_name, "toName": have.to_name,
+                           "installed": True, "size": dir_size(have.package_path)})
+    return result
+
+
+def install(src, dst, direct=False):
+    available = available_packages()
     have = direct_pairs()
     wanted = [(src, dst)]
-    if not any(p.from_code == src and p.to_code == dst for p in available):
+    if not direct and not any(p.from_code == src and p.to_code == dst for p in available):
         # No direct model: go through English, as Argos does when translating.
         wanted = [(src, "en"), ("en", dst)]
     installed = []
@@ -73,14 +116,27 @@ def install(src, dst):
     return installed
 
 
+def remove(src, dst):
+    removed = []
+    for p in argostranslate.package.get_installed_packages():
+        if p.from_code == src and p.to_code == dst:
+            argostranslate.package.uninstall(p)
+            removed.append(f"{src}-{dst}")
+    return removed
+
+
 def handle(req):
     cmd = req.get("cmd")
     if IMPORT_ERROR:
         raise RuntimeError(IMPORT_ERROR)
     if cmd == "status":
         return {"version": version(), "pairs": installed_pairs()}
+    if cmd == "packages":
+        return {"packages": packages()}
     if cmd == "install":
-        return {"installed": install(req["from"], req["to"])}
+        return {"installed": install(req["from"], req["to"], bool(req.get("direct")))}
+    if cmd == "remove":
+        return {"removed": remove(req["from"], req["to"])}
     if cmd == "translate":
         src, dst, text = req["from"], req["to"], req["q"]
         if f"{src}-{dst}" not in installed_pairs():

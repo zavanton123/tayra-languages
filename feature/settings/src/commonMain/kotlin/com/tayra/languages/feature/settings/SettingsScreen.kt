@@ -37,6 +37,9 @@ import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.DictionaryService
+import androidx.compose.runtime.LaunchedEffect
+import kotlinx.coroutines.flow.update
+import com.tayra.languages.core.domain.service.LocalPackage
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import com.tayra.languages.core.domain.service.TranslationEngine
@@ -73,19 +76,35 @@ class SettingsViewModel(
     private val _argosBusy = MutableStateFlow(false)
     val argosBusy: StateFlow<Boolean> = _argosBusy.asStateFlow()
 
-    fun checkArgos() = argosTask { it.status() }
+    private val _argosPackages = MutableStateFlow<List<LocalPackage>>(emptyList())
+    val argosPackages: StateFlow<List<LocalPackage>> = _argosPackages.asStateFlow()
+    private val _argosPackageBusy = MutableStateFlow<Set<String>>(emptySet())
+    val argosPackageBusy: StateFlow<Set<String>> = _argosPackageBusy.asStateFlow()
 
-    /** Installs models for every language with books into the native language. */
-    fun installArgosPackages() = argosTask { translator ->
-        val target = settings.current.nativeLanguage.ifBlank { "en" }
-        val sources = languagesInUse.value.filter { it != target }
-        if (sources.isEmpty()) return@argosTask "No languages with books to install packages for."
-        val lines = mutableListOf<String>()
-        for (code in sources) {
-            _argosStatus.value = (lines + "Downloading $code\u2192$target\u2026").joinToString("\n")
-            lines += try { translator.installPackage(code, target) } catch (e: Exception) { "$code\u2192$target: ${e.message}" }
+    /** Reports the installation and reloads the package list. */
+    fun checkArgos() = argosTask { translator ->
+        val status = translator.status()
+        _argosPackages.value = runCatching { translator.packages() }.getOrDefault(emptyList())
+        status
+    }
+
+    fun installArgosPackage(pkg: LocalPackage) = argosPackageTask(pkg) { it.installPackage(pkg.fromCode, pkg.toCode) }
+
+    fun removeArgosPackage(pkg: LocalPackage) = argosPackageTask(pkg) { it.removePackage(pkg.fromCode, pkg.toCode) }
+
+    private fun argosPackageTask(pkg: LocalPackage, block: suspend (LocalSentenceTranslator) -> Unit) {
+        val translator = localTranslation.translator ?: return
+        if (pkg.key in _argosPackageBusy.value) return
+        _argosPackageBusy.update { it + pkg.key }
+        viewModelScope.launch {
+            try {
+                block(translator)
+                _argosPackages.value = translator.packages()
+            } catch (e: Exception) {
+                _argosStatus.value = "${pkg.title}: ${e.message}"
+            }
+            _argosPackageBusy.update { it - pkg.key }
         }
-        (lines + translator.status()).joinToString("\n")
     }
 
     private fun argosTask(block: suspend (LocalSentenceTranslator) -> String) {
@@ -113,6 +132,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
     val packs by viewModel.packs.collectAsStateWithLifecycle()
     val inUse by viewModel.languagesInUse.collectAsStateWithLifecycle()
     var showAllPacks by remember { mutableStateOf(false) }
+    var showAllArgosPackages by remember { mutableStateOf(false) }
     Scaffold(topBar = { AppTopBar(title = "Settings", onNavigate = onNavigate, section = NavSection.SETTINGS) }) { padding ->
         Column(
             Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 720.dp),
@@ -194,11 +214,40 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     )
                     val busy by viewModel.argosBusy.collectAsStateWithLifecycle()
                     val status by viewModel.argosStatus.collectAsStateWithLifecycle()
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        OutlinedButton(onClick = viewModel::checkArgos, enabled = !busy) { Text("Check installation") }
-                        Button(onClick = viewModel::installArgosPackages, enabled = !busy) { Text(if (busy) "Working..." else "Download models for my languages") }
-                    }
+                    val argosPackages by viewModel.argosPackages.collectAsStateWithLifecycle()
+                    val packageBusy by viewModel.argosPackageBusy.collectAsStateWithLifecycle()
+                    LaunchedEffect(settings.argosPython) { viewModel.checkArgos() }
+                    OutlinedButton(onClick = viewModel::checkArgos, enabled = !busy) { Text(if (busy) "Checking..." else "Check installation") }
                     status?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+                    if (argosPackages.isNotEmpty()) {
+                        Section("Argos language packages")
+                        Text(
+                            "One package per direction. Reading a language needs its package into the native language; when there is none, Argos goes through English, so install both halves.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                        val native = settings.nativeLanguage.ifBlank { "en" }
+                        val wanted = inUse.flatMap { code ->
+                            if (code == native) emptyList()
+                            else if (argosPackages.any { it.fromCode == code && it.toCode == native }) listOf("$code-$native")
+                            else listOf("$code-en", "en-$native")
+                        }.toSet()
+                        val relevantPackages = argosPackages.filter { it.key in wanted || it.installed }
+                        val shownPackages = if (showAllArgosPackages || relevantPackages.isEmpty()) argosPackages else relevantPackages
+                        shownPackages.forEach { pkg ->
+                            ArgosPackageRow(
+                                pkg,
+                                busy = pkg.key in packageBusy,
+                                onInstall = { viewModel.installArgosPackage(pkg) },
+                                onRemove = { viewModel.removeArgosPackage(pkg) },
+                            )
+                        }
+                        if (relevantPackages.size < argosPackages.size) {
+                            TextButton(onClick = { showAllArgosPackages = !showAllArgosPackages }) {
+                                Text(if (showAllArgosPackages) "Show only my languages" else "Show all ${argosPackages.size} packages")
+                            }
+                        }
+                    }
                 }
             }
 
@@ -257,6 +306,28 @@ private fun PackRow(status: PackStatus, onDownload: () -> Unit, onRemove: () -> 
             is PackState.Installed -> OutlinedButton(onClick = onRemove) { Text("Remove") }
             is PackState.Downloading -> {}
             else -> Button(onClick = onDownload) { Text("Download") }
+        }
+    }
+}
+
+@Composable
+private fun ArgosPackageRow(pkg: LocalPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit) {
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(Modifier.weight(1f)) {
+            Text(pkg.title, style = MaterialTheme.typography.bodyMedium)
+            val detail = when {
+                busy && pkg.installed -> "Removing..."
+                busy -> "Downloading..."
+                pkg.installed -> "Installed, ${formatSize(pkg.sizeBytes)}"
+                else -> "Not installed"
+            }
+            Text(detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (busy) LinearProgressIndicator(modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
+        }
+        when {
+            busy -> {}
+            pkg.installed -> OutlinedButton(onClick = onRemove) { Text("Remove") }
+            else -> Button(onClick = onInstall) { Text("Install") }
         }
     }
 }
