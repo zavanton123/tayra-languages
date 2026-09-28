@@ -108,6 +108,13 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
         return LocalTranslationProblem.ModelMissing(fromCode, toCode, title)
     }
 
+    override suspend fun canTranslate(fromCode: String, toCode: String): Boolean {
+        val pair = "$fromCode-$toCode"
+        if (pair in readyPairs) return true
+        val installed = runCatching { request(STATUS_TIMEOUT_MS, "cmd" to "status")["pairs"]?.jsonArray?.map { it.jsonPrimitive.content }.orEmpty() }.getOrDefault(emptyList())
+        return (pair in installed).also { if (it) readyPairs += pair }
+    }
+
     override suspend fun installModels(fromCode: String, toCode: String) {
         try {
             _progress.value = "Downloading the models for $fromCode \u2192 $toCode\u2026"

@@ -6,6 +6,9 @@ import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.ZWS_STRING
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermTranslationProvider
+import com.tayra.languages.core.domain.service.TranslationEngine
+import com.tayra.languages.core.domain.service.TermSuggestion
+import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
@@ -28,6 +31,8 @@ class MyMemoryTranslationProvider(
 ) : TermTranslationProvider, SentenceTranslator {
 
     private val json = Json { ignoreUnknownKeys = true }
+
+    override val name: String = "MyMemory"
 
     override suspend fun suggestTranslation(text: String, language: Language): String? = request(text, language)
 
@@ -81,11 +86,24 @@ class TranslationSuggestionProvider(
     private val wiktionary: TermTranslationProvider,
     private val myMemory: TermTranslationProvider,
     private val settings: SettingsRepository,
+    private val local: LocalTranslation,
 ) : TermTranslationProvider {
-    override suspend fun suggestTranslation(text: String, language: Language): String? {
+    override val name: String = "Suggestions"
+
+    override suspend fun suggestTranslation(text: String, language: Language): String? = suggest(text, language)?.text
+
+    /** With Argos selected and its models for the pair installed, the term stays offline; otherwise the online chain. */
+    override suspend fun suggest(text: String, language: Language): TermSuggestion? {
         val target = settings.current.nativeLanguage.trim().lowercase()
+        val argos = local.translator
+        if (settings.current.translationEngine == TranslationEngine.ARGOS && argos != null) {
+            val source = LanguageCodes.codeFor(language.name)
+            if (source != null && argos.canTranslate(source, target.ifEmpty { "en" })) {
+                argos.translate(text, language)?.let { return TermSuggestion(it, "Argos Translate") }
+            }
+        }
         val providers = if (target.isEmpty() || target == "en") listOf(wiktionary, myMemory) else listOf(myMemory)
-        for (provider in providers) provider.suggestTranslation(text, language)?.let { return it }
+        for (provider in providers) provider.suggest(text, language)?.let { return it }
         return null
     }
 }

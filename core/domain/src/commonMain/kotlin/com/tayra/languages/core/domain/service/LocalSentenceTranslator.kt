@@ -56,6 +56,9 @@ interface LocalSentenceTranslator : SentenceTranslator {
      */
     suspend fun prepare(fromCode: String, toCode: String, fromName: String = fromCode, toName: String = toCode)
 
+    /** Whether the pair can be translated right now, without installing anything or touching [lastError]. */
+    suspend fun canTranslate(fromCode: String, toCode: String): Boolean
+
     /** Downloads the models [prepare] found missing for the pair, reporting through [progress]. Throws on failure. */
     suspend fun installModels(fromCode: String, toCode: String)
 

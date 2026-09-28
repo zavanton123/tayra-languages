@@ -29,6 +29,8 @@ class WiktionaryTranslationProvider(
 
     private val json = Json { ignoreUnknownKeys = true }
 
+    override val name: String = "Wiktionary"
+
     override suspend fun suggestTranslation(text: String, language: Language): String? =
         lookup(text.replace(ZWS_STRING, "").trim(), language.name, followForms = true)
 
