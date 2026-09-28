@@ -22,8 +22,9 @@ class OnlineDictionary(
     fun hostFor(source: LanguageOption, target: LanguageOption): String =
         host.replace("{src}", source.code).replace("{tgt}", target.code)
 
-    fun displayName(source: LanguageOption, target: LanguageOption): String =
-        name.replace("{srcName}", source.name).replace("{tgtName}", target.name)
+    fun displayName(source: LanguageOption, target: LanguageOption): String = name
+        .replace("{srcName}", source.name).replace("{tgtName}", target.name)
+        .replace("{SRC}", source.code.uppercase()).replace("{TGT}", target.code.uppercase())
 
     fun toLanguageDictionary(source: LanguageOption, target: LanguageOption, sortOrder: Int): LanguageDictionary? =
         url(source, target)?.let { LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = it, isActive = true, sortOrder = sortOrder) }
@@ -89,7 +90,7 @@ object OnlineDictionaries {
         OnlineDictionary("glosbe", "Glosbe", "glosbe.com") { s, t ->
             if (s.code == t.code) null else "https://glosbe.com/${glosbe(s.code)}/${glosbe(t.code)}/{term}"
         },
-        OnlineDictionary("reverso-context", "Context Reverso", "context.reverso.net") { s, t ->
+        OnlineDictionary("reverso-context", "Reverso Context", "context.reverso.net") { s, t ->
             if (s.code !in REVERSO_CONTEXT) null else {
                 // The major languages pair with everything supported; Russian only with the major ones.
                 val other = when {
@@ -105,14 +106,14 @@ object OnlineDictionaries {
         OnlineDictionary("google-translate", "Google Translate", "translate.google.com") { s, t ->
             "https://translate.google.com/?sl=${s.code}&tl=${if (t.code == s.code) "en" else t.code}&text={term}&op=translate"
         },
-        OnlineDictionary("deepl", "DeepL Translator", "deepl.com") { s, t ->
+        OnlineDictionary("deepl", "DeepL", "deepl.com") { s, t ->
             if (s.code !in DEEPL) null else "https://www.deepl.com/translator#${deepl(s.code)}/${deepl(if (t.code in DEEPL && t.code != s.code) t.code else "en")}/{term}"
         },
-        OnlineDictionary("wiktionary-en", "Wiktionary (English)", "en.wiktionary.org") { _, _ -> "https://en.wiktionary.org/wiki/{term}" },
-        OnlineDictionary("wiktionary-native", "Wiktionary ({tgtName})", "{tgt}.wiktionary.org") { s, t ->
+        OnlineDictionary("wiktionary-en", "Wiktionary EN", "en.wiktionary.org") { _, _ -> "https://en.wiktionary.org/wiki/{term}" },
+        OnlineDictionary("wiktionary-native", "Wiktionary {TGT}", "{tgt}.wiktionary.org") { s, t ->
             if (t.code == "en" || t.code == s.code) null else "https://${t.code}.wiktionary.org/wiki/{term}"
         },
-        OnlineDictionary("wiktionary-source", "Wiktionary ({srcName})", "{src}.wiktionary.org") { s, _ ->
+        OnlineDictionary("wiktionary-source", "Wiktionary {SRC}", "{src}.wiktionary.org") { s, _ ->
             if (s.code == "en") null else "https://${s.code}.wiktionary.org/wiki/{term}"
         },
         OnlineDictionary("babla", "bab.la", "bab.la") { s, t ->
@@ -149,7 +150,7 @@ object OnlineDictionaries {
                 else -> null
             }
         },
-        OnlineDictionary("cambridge", "Cambridge Dictionary", "dictionary.cambridge.org") { s, t ->
+        OnlineDictionary("cambridge", "Cambridge", "dictionary.cambridge.org") { s, t ->
             when {
                 s.code == "en" && t.code in CAMBRIDGE_FROM_ENGLISH -> "https://dictionary.cambridge.org/dictionary/english-${slug(t)}/{term}"
                 s.code == "en" -> "https://dictionary.cambridge.org/dictionary/english/{term}"
@@ -157,37 +158,33 @@ object OnlineDictionaries {
                 else -> null
             }
         },
-        OnlineDictionary("reverso-conjugator", "Reverso Verb Conjugation", "conjugator.reverso.net") { s, _ ->
+        OnlineDictionary("reverso-conjugator", "Reverso Verbs", "conjugator.reverso.net") { s, _ ->
             if (s.code in REVERSO_CONJUGATOR) "https://conjugator.reverso.net/conjugation-${slug(s)}-verb-{term}.html" else null
         },
-        OnlineDictionary("forvo", "Forvo (pronunciation)", "forvo.com") { s, _ -> "https://forvo.com/word/{term}/#${s.code}" },
-        OnlineDictionary("yandex", "Yandex Translate", "translate.yandex.com") { s, t ->
+        OnlineDictionary("forvo", "Forvo", "forvo.com") { s, _ -> "https://forvo.com/word/{term}/#${s.code}" },
+        OnlineDictionary("yandex", "Yandex", "translate.yandex.com") { s, t ->
             "https://translate.yandex.com/?source_lang=${s.code}&target_lang=${if (t.code == s.code) "en" else t.code}&text={term}"
         },
-        OnlineDictionary("wikipedia", "Wikipedia ({srcName})", "{src}.wikipedia.org") { s, _ -> "https://${s.code}.wikipedia.org/wiki/{term}" },
-        OnlineDictionary("google-search", "Google Search", "google.com/search") { _, _ -> "https://www.google.com/search?q={term}" },
-        OnlineDictionary("google-images", "Google Images", "tbm=isch") { _, _ -> "https://www.google.com/search?tbm=isch&q={term}" },
+        OnlineDictionary("wikipedia", "Wikipedia {SRC}", "{src}.wikipedia.org") { s, _ -> "https://${s.code}.wikipedia.org/wiki/{term}" },
+        OnlineDictionary("google-search", "Google", "google.com/search") { _, _ -> "https://www.google.com/search?q={term}" },
+        OnlineDictionary("google-images", "Google Images", "google.com/search?tbm=isch") { _, _ -> "https://www.google.com/search?tbm=isch&q={term}" },
     )
 
     /** Display name for a stored dictionary URL: the catalog name when it matches, else the host. */
     fun displayName(url: String, source: LanguageOption, target: LanguageOption): String {
         match(url, source, target)?.let { return it.displayName(source, target) }
         val host = host(url)
-        // Other Wiktionary and Wikipedia editions are named after their language.
+        // Other Wiktionary and Wikipedia editions are named after their language code.
         for (site in listOf("wiktionary.org" to "Wiktionary", "wikipedia.org" to "Wikipedia")) {
-            if (host.endsWith("." + site.first)) {
-                val code = host.removeSuffix("." + site.first)
-                val language = LanguageCodes.option(code)?.name ?: code.uppercase()
-                return "${site.second} ($language)"
-            }
+            if (host.endsWith("." + site.first)) return "${site.second} ${host.removeSuffix("." + site.first).uppercase()}"
         }
         return BRANDS[host] ?: BRANDS[host.substringAfter('.')] ?: host.ifEmpty { "Dictionary" }
     }
 
     /** Short names for the sites the predefined languages link to. */
     private val BRANDS = mapOf(
-        "aare.pri.ee" to "Aare", "academia.gal" to "RAG", "archeus.ro" to "Archeus", "bing.com" to "Bing Translator",
-        "collinsdictionary.com" to "Collins", "conjugator.reverso.net" to "Reverso Conjugator", "context.reverso.net" to "Context Reverso",
+        "aare.pri.ee" to "Aare", "academia.gal" to "RAG", "archeus.ro" to "Archeus", "bing.com" to "Bing",
+        "collinsdictionary.com" to "Collins", "conjugator.reverso.net" to "Reverso Verbs", "context.reverso.net" to "Reverso Context",
         "cooljugator.com" to "Cooljugator", "crodict.com" to "Crodict", "cybermova.com" to "Cybermova", "deepl.com" to "DeepL",
         "dexonline.ro" to "Dexonline", "diccionari.cat" to "Diccionari.cat", "diccionaris.cat" to "Diccionaris.cat", "dicio.com.br" to "Dicio",
         "dicionario.priberam.org" to "Priberam", "dict.cc" to "dict.cc", "dict.com" to "dict.com", "dictionary.cambridge.org" to "Cambridge",
@@ -196,18 +193,18 @@ object OnlineDictionaries {
         "dle.rae.es" to "RAE", "dobryslownik.pl" to "Dobry słownik", "duden.de" to "Duden", "eki.ee" to "EKI", "en.bab.la" to "bab.la",
         "en.glosbe.com" to "Glosbe", "en.openrussian.org" to "OpenRussian", "en.pons.com" to "PONS", "estraviz.org" to "Estraviz",
         "folkets-lexikon.csc.kth.se" to "Folkets lexikon", "fran.si" to "Fran", "glosbe.com" to "Glosbe", "gramota.ru" to "Грамота.ру",
-        "greek-language.gr" to "Greek Language Portal", "hallo.ro" to "Hallo.ro", "hjp.znanje.hr" to "HJP", "infopedia.pt" to "Infopédia",
+        "greek-language.gr" to "Greek Portal", "hallo.ro" to "Hallo.ro", "hjp.znanje.hr" to "HJP", "infopedia.pt" to "Infopédia",
         "larousse.fr" to "Larousse", "latin-dictionary.net" to "Latin Dictionary", "letonika.lv" to "Letonika", "linguee.com" to "Linguee",
         "logeion.uchicago.edu" to "Logeion", "lsj.gr" to "LSJ", "lugatim.com" to "Lugatım", "makedonski.gov.mk" to "Македонски",
         "michaelis.uol.com.br" to "Michaelis", "mijnwoordenboek.nl" to "Mijnwoordenboek", "nisanyansozluk.com" to "Nişanyan",
-        "online-latin-dictionary.com" to "Online Latin Dictionary", "online-translator.com" to "PROMT", "ord.dk" to "Ord.dk",
+        "online-latin-dictionary.com" to "Latin Online", "online-translator.com" to "PROMT", "ord.dk" to "Ord.dk",
         "ordbokene.no" to "Ordbøkene", "outils.biblissima.fr" to "Biblissima", "perseus.tufts.edu" to "Perseus", "rechnik.info" to "Речник",
-        "recnik.off.net.mk" to "Речник", "reverso.net" to "Reverso", "saob.se" to "SAOB", "simple.wiktionary.org" to "Simple Wiktionary",
+        "recnik.off.net.mk" to "Речник", "reverso.net" to "Reverso", "saob.se" to "SAOB", "simple.wiktionary.org" to "Wiktionary Simple",
         "sinonims.iec.cat" to "Sinònims (IEC)", "sjp.pwn.pl" to "PWN", "slounik.org" to "Слоўнік", "slovnik.aktuality.sk" to "Aktuality",
         "slovnik.juls.savba.sk" to "JÚĽŠ", "slovnik.seznam.cz" to "Seznam", "slovniky.lingea.cz" to "Lingea", "slovnyk.ua" to "Словник.ua",
         "sozluk.gov.tr" to "TDK", "spanishdict.com" to "SpanishDict", "sproget.dk" to "Sproget.dk", "szotar.sztaki.hu" to "SZTAKI",
         "tatoeba.org" to "Tatoeba", "tekstovertimas.lt" to "Teksto vertimas", "tezaurs.lv" to "Tēzaurs", "tr-ex.me" to "Tr-ex",
-        "translate.google.com" to "Google Translate", "translate.yandex.com" to "Yandex Translate", "treccani.it" to "Treccani",
+        "translate.google.com" to "Google Translate", "translate.yandex.com" to "Yandex", "treccani.it" to "Treccani",
         "tureng.com" to "Tureng", "verbix.com" to "Verbix", "verbum.by" to "Verbum", "vokabular.org" to "Vokabular",
         "webslovnik.zoznam.sk" to "Zoznam", "wordreference.com" to "WordReference", "wsjp.pl" to "WSJP", "zodynas.lt" to "Žodynas",
     )

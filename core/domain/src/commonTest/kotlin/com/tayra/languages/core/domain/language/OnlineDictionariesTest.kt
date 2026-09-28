@@ -75,7 +75,10 @@ class OnlineDictionariesTest {
     @Test
     fun storedUrlsAreNamedFromTheCatalog() {
         assertEquals("Google Translate", OnlineDictionaries.displayName("https://translate.google.com/?sl=pt&tl=ru&text=[LUTE]&op=translate", pt, ru))
-        assertEquals("Wiktionary (Portuguese)", OnlineDictionaries.displayName("https://pt.wiktionary.org/wiki/[LUTE]", pt, ru))
+        assertEquals("Wiktionary PT", OnlineDictionaries.displayName("https://pt.wiktionary.org/wiki/[LUTE]", pt, ru))
+        assertEquals("Google Images", OnlineDictionaries.displayName("https://www.google.com/search?tbm=isch&q=[LUTE]", pt, ru))
+        assertEquals("Google", OnlineDictionaries.displayName("https://www.google.com/search?q=[LUTE]", pt, ru))
+        assertEquals("google-images", OnlineDictionaries.match("https://www.google.com/search?tbm=isch&q=[LUTE]", pt, ru)?.id)
         assertEquals("Michaelis", OnlineDictionaries.displayName("https://michaelis.uol.com.br/busca?palavra=[LUTE]", pt, ru))
         assertEquals("dle.rae.es".let { "RAE" }, OnlineDictionaries.displayName("https://dle.rae.es/[LUTE]", LanguageOption("es", "Spanish"), en))
         assertEquals("unknown.example", OnlineDictionaries.displayName("https://unknown.example/x/[LUTE]", pt, en))
