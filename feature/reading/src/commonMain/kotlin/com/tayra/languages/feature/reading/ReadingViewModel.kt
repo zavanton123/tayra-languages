@@ -203,6 +203,16 @@ class ReadingViewModel(
         }
     }
 
+    /** Right click: mark the word as status 1 without opening the panel. */
+    fun markToLearn(itemIndex: Int) {
+        val s = _state.value
+        val item = s.items.getOrNull(itemIndex) ?: return
+        if (!item.isWord) return
+        hidePopup()
+        _state.update { it.copy(marked = setOf(itemIndex), hovered = null, selection = null, selecting = false) }
+        setStatus(TermStatus.NEW_1)
+    }
+
     private fun openTerm(item: TextItem) {
         val termId = item.termId
         val panel = if (termId != null) ReadingPanel.EditTerm(termId) else ReadingPanel.NewTerm(item.term?.languageId ?: return, item.text)

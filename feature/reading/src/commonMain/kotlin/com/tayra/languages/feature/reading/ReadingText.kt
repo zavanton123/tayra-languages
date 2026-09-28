@@ -20,6 +20,8 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.PointerType
+import androidx.compose.ui.input.pointer.isSecondary
+import androidx.compose.ui.input.pointer.isSecondaryPressed
 import androidx.compose.ui.input.pointer.isShiftPressed
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
@@ -43,6 +45,8 @@ import com.tayra.languages.core.ui.theme.AppTheme
 /** Callbacks from the text to the screen. Item indexes refer to [RenderedPage.items]. */
 class ReadingTextCallbacks(
     val onClick: (itemIndex: Int, shift: Boolean) -> Unit,
+    /** Right mouse button on a word. */
+    val onSecondaryClick: (itemIndex: Int) -> Unit = {},
     val onTap: (itemIndex: Int) -> Unit,
     val onLongPress: (itemIndex: Int) -> Unit,
     val onHover: (itemIndex: Int?) -> Unit,
@@ -99,6 +103,7 @@ fun ReadingText(
     }
 }
 
+@OptIn(androidx.compose.ui.ExperimentalComposeUiApi::class)
 @Composable
 private fun ParagraphText(
     items: List<TextItem>,
@@ -165,7 +170,13 @@ private fun ParagraphText(
                         val isMouse = down.type == PointerType.Mouse
                         if (isMouse) {
                             val shift = currentEvent.keyboardModifiers.isShiftPressed
+                            val secondary = currentEvent.buttons.isSecondaryPressed || currentEvent.button?.isSecondary == true
                             if (startItem == null) return@awaitEachGesture
+                            if (secondary) {
+                                waitForUpOrCancellation()
+                                callbacks.onSecondaryClick(startItem)
+                                return@awaitEachGesture
+                            }
                             var dragged = false
                             var lastItem = startItem
                             val finished = drag(down.id) { change ->
