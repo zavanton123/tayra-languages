@@ -18,8 +18,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.Checkbox
-import androidx.compose.material3.DropdownMenu
-import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -44,6 +42,8 @@ import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.repository.TermSortField
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppMenu
+import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.Dropdown
@@ -148,11 +148,11 @@ private fun ActionsMenu(state: TermsListUiState, onNew: () -> Unit, onBulk: () -
     var open by remember { mutableStateOf(false) }
     Box {
         IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Actions") }
-        DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
-            DropdownMenuItem(text = { Text("Create new") }, onClick = { open = false; onNew() })
-            DropdownMenuItem(text = { Text("Bulk edit selected") }, enabled = state.selected.isNotEmpty(), onClick = { open = false; onBulk() })
-            DropdownMenuItem(text = { Text("Delete selected") }, enabled = state.selected.isNotEmpty(), onClick = { open = false; onDelete() })
-            DropdownMenuItem(text = { Text("Export CSV") }, onClick = { open = false; onExport() })
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            AppMenuItem(text = { Text("Create new") }, onClick = { open = false; onNew() })
+            AppMenuItem(text = { Text("Bulk edit selected") }, enabled = state.selected.isNotEmpty(), onClick = { open = false; onBulk() })
+            AppMenuItem(text = { Text("Delete selected") }, enabled = state.selected.isNotEmpty(), onClick = { open = false; onDelete() })
+            AppMenuItem(text = { Text("Export CSV") }, onClick = { open = false; onExport() })
         }
     }
 }
@@ -253,9 +253,9 @@ private fun TermRow(
                 color = if (colors.onHighlight != androidx.compose.ui.graphics.Color.Unspecified) colors.onHighlight else androidx.compose.ui.graphics.Color.Black,
                 style = MaterialTheme.typography.labelMedium,
             )
-            DropdownMenu(expanded = statusMenu, onDismissRequest = { statusMenu = false }) {
+            AppMenu(expanded = statusMenu, onDismissRequest = { statusMenu = false }) {
                 TermStatus.selectable.forEach { status ->
-                    DropdownMenuItem(text = { Text(status.label) }, onClick = { statusMenu = false; onStatus(status) })
+                    AppMenuItem(text = { Text(status.label) }, onClick = { statusMenu = false; onStatus(status) })
                 }
             }
         }

@@ -20,8 +20,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material3.DropdownMenu
-import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -127,9 +125,9 @@ private fun WideMenu(section: NavSection?, onNavigate: (Route) -> Unit) {
             // The dropdown anchors to its enclosing composable, so each tab gets its own Box.
             Box {
                 NavTab(group.section, active = section == group.section, onClick = { open = true })
-                DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
+                AppMenu(expanded = open, onDismissRequest = { open = false }) {
                     group.entries.forEach { entry ->
-                        DropdownMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })
+                        AppMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })
                     }
                 }
             }
@@ -158,12 +156,12 @@ private fun CompactMenu(onNavigate: (Route) -> Unit) {
     var open by remember { mutableStateOf(false) }
     Box {
         IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Menu") }
-        DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
-            DropdownMenuItem(text = { Text("Home") }, onClick = { open = false; onNavigate(Route.Home) })
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            AppMenuItem(text = { Text("Home") }, onClick = { open = false; onNavigate(Route.Home) })
             menuGroups.forEach { group ->
                 HorizontalDivider()
                 group.entries.filter { it.route != Route.Home }.forEach { entry ->
-                    DropdownMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })
+                    AppMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })
                 }
             }
         }

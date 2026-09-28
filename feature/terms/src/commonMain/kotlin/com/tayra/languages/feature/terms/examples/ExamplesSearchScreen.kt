@@ -30,8 +30,6 @@ import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Button
-import androidx.compose.material3.DropdownMenu
-import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
@@ -68,6 +66,8 @@ import com.tayra.languages.core.ui.audio.AudioPlayback
 import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppMenu
+import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.EmptyMessage
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
@@ -266,9 +266,9 @@ private fun <T> Select(label: String, options: List<T>, selected: T, optionLabel
                 Text(optionLabel(selected), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, maxLines = 1)
                 Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
             }
-            DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
+            AppMenu(expanded = open, onDismissRequest = { open = false }) {
                 options.forEach { option ->
-                    DropdownMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) })
+                    AppMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) })
                 }
             }
         }
