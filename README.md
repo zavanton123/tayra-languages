@@ -102,9 +102,11 @@ The same artifacts can be built locally:
   Translate, which runs on the computer with no network. Nothing has to be installed by hand:
   the first time offline translation is used the app downloads a standalone CPython build
   (`astral-sh/python-build-standalone`, about 25 MB) into its data folder under `argos-python`,
-  installs `argostranslate` into it with pip (about a gigabyte, mostly torch) and fetches the
-  model for the language pair in use, going through English when no direct model exists; the
-  reader shows each step above the text and the reason if a step fails. Settings lists the
+  and installs `argostranslate` into it with pip (about a gigabyte, mostly torch). Models are
+  downloaded on request: when the pair being read lacks one, a notice above the text names the
+  missing model (both halves of a detour through English when there is no direct one) with an
+  Install button and a progress bar; for a language Argos has no model for at all, such as
+  Macedonian, the notice offers to switch back to MyMemory. Settings lists the
   Argos language packages with Install and Remove, leading with the pairs the current books
   need, and its Python executable field can point at a Python of your own instead. The worker
   script (`core/data/src/jvmMain/resources/argos_worker.py`) is started once and kept alive;

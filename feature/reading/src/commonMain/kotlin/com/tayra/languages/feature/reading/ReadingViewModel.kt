@@ -3,6 +3,7 @@ package com.tayra.languages.feature.reading
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
+import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Book
 import com.tayra.languages.core.domain.model.Language
@@ -13,6 +14,7 @@ import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.BulkTermUpdate
+import com.tayra.languages.core.domain.service.LocalTranslationProblem
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.SentenceTranslation
@@ -73,7 +75,7 @@ data class ReadingUiState(
     /** Sentence translations for the page, keyed by the sentence's display text. */
     val translations: Map<String, SentenceTranslation> = emptyMap(),
     /** Why offline translations are failing right now, shown above the text; null when they work or are off. */
-    val translationError: String? = null,
+    val translationError: LocalTranslationProblem? = null,
     /** What the offline translator is installing right now, shown above the text. */
     val translationProgress: String? = null,
 ) {
@@ -486,8 +488,8 @@ class ReadingViewModel(
         translationJob = viewModelScope.launch {
             if (engine == TranslationEngine.ARGOS && local != null) {
                 val source = LanguageCodes.codeFor(language.name)
-                val target = s.settings.nativeLanguage.trim().lowercase().ifEmpty { "en" }
-                val ready = source != null && runCatching { local.prepare(source, target) }.isSuccess
+                val target = LanguageCatalog.nativeOption(s.settings.nativeLanguage)
+                val ready = source != null && runCatching { local.prepare(source, target.code, language.name, target.name) }.isSuccess
                 if (!ready) {
                     _state.update { it.copy(translations = it.translations + pending.associateWith { SentenceTranslation.Unavailable }) }
                     return@launch
@@ -526,6 +528,31 @@ class ReadingViewModel(
             if (enabling) translateSentences(enabled = true) else translationJob?.cancel()
         }
     }
+    /** Downloads the models the offline translator reported missing, then translates the page. */
+    fun installOfflineModels() {
+        val problem = state.value.translationError as? LocalTranslationProblem.ModelMissing ?: return
+        val translator = local ?: return
+        viewModelScope.launch {
+            if (runCatching { translator.installModels(problem.fromCode, problem.toCode) }.isSuccess) retryOfflineTranslation()
+        }
+    }
+
+    /** Asks the offline translator again after a failure, for example once the network is back. */
+    fun retryOfflineTranslation() {
+        _state.update { it.copy(translations = it.translations.filterValues { t -> t !is SentenceTranslation.Unavailable }) }
+        translateSentences()
+    }
+
+    /** Switches this reader back to MyMemory, for languages Argos has no model for. */
+    fun useOnlineEngine() {
+        viewModelScope.launch {
+            translationJob?.cancel()
+            settingsRepository.update { it.copy(translationEngine = TranslationEngine.MYMEMORY) }
+            _state.update { it.copy(translations = emptyMap()) }
+            translateSentences()
+        }
+    }
+
     /** Flips between MyMemory and Argos; the page is translated again because the two are cached apart. */
     fun toggleTranslationEngine() {
         val next = if (state.value.settings.translationEngine == TranslationEngine.ARGOS) TranslationEngine.MYMEMORY else TranslationEngine.ARGOS
