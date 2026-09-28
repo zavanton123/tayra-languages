@@ -23,7 +23,10 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
 /** A dictionary shown on the manage screen: either stored on the language or offered from the catalog. */
-data class DictionaryEntry(val name: String, val url: String, val stored: LanguageDictionary?, val catalog: OnlineDictionary?)
+data class DictionaryEntry(val name: String, val url: String, val stored: LanguageDictionary?, val catalog: OnlineDictionary?) {
+    /** A list key that stays unique even when two stored dictionaries share a URL. */
+    fun key(prefix: String, index: Int): String = stored?.id?.takeIf { it != 0L }?.let { "$prefix-id-$it" } ?: "$prefix-$index-$url"
+}
 
 data class ManageDictionariesUiState(
     val loading: Boolean = true,
@@ -43,6 +46,7 @@ class ManageDictionariesViewModel(
 ) : ViewModel() {
 
     private val message = MutableStateFlow<String?>(null)
+    private var cleaning = false
 
     val state: StateFlow<ManageDictionariesUiState> = combine(
         languages.observeAll().map { list -> list.firstOrNull { it.id == languageId } },
@@ -50,6 +54,7 @@ class ManageDictionariesViewModel(
         message,
     ) { language, native, msg ->
         if (language == null) return@combine ManageDictionariesUiState(loading = false, message = msg)
+        removeDuplicates(language)
         val target = LanguageCatalog.nativeOption(native)
         val source = LanguageCodes.codeFor(language.name)?.let { LanguageOption(it, language.name) } ?: LanguageOption("en", language.name)
         val terms = language.dictionaries.filter { it.useFor == DictionaryUse.TERMS }.sortedBy { it.sortOrder }
@@ -93,6 +98,17 @@ class ManageDictionariesViewModel(
     }
 
     fun dismissMessage() { message.value = null }
+
+    /** Earlier builds could add the same catalog entry twice; keep the first of each URL. */
+    private fun removeDuplicates(language: Language) {
+        val distinct = language.dictionaries.distinctBy { it.useFor to it.url }
+        if (distinct.size == language.dictionaries.size || cleaning) return
+        cleaning = true
+        viewModelScope.launch {
+            runCatching { languageService.save(language.copy(dictionaries = distinct)) }
+            cleaning = false
+        }
+    }
 
     private fun update(transform: (Language) -> Language) {
         val language = state.value.language ?: return

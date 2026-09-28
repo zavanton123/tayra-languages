@@ -16,7 +16,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -97,11 +97,11 @@ fun ManageDictionariesScreen(
                 if (state.preferred.isEmpty()) {
                     item { Text("No dictionaries enabled yet.", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
                 }
-                items(state.preferred, key = { "on-" + it.url }) { entry ->
+                itemsIndexed(state.preferred, key = { index, entry -> entry.key("on", index) }) { _, entry ->
                     DictionaryRow(entry.name, entry.url, tint = Color(0xFF1FA463), icon = Icons.Default.Close, iconDescription = "Disable") { viewModel.disable(entry) }
                 }
                 item { SectionLabel("All resources", topPadding = 20.dp) }
-                items(state.available, key = { "off-" + it.url }) { entry ->
+                itemsIndexed(state.available, key = { index, entry -> entry.key("off", index) }) { _, entry ->
                     DictionaryRow(entry.name, entry.url, tint = null, icon = Icons.Default.Add, iconDescription = "Enable") { viewModel.enable(entry) }
                 }
             }
