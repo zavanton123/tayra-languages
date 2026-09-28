@@ -22,6 +22,8 @@ data class UserSettings(
     val splitSentences: Boolean = false,
     /** Show a translation under every sentence while reading. */
     val showTranslations: Boolean = false,
+    /** Original sentence on the left, its translation on the right, instead of the translation underneath. */
+    val sideBySideTranslations: Boolean = false,
     val demoDataLoaded: Boolean = false,
     /** ISO 639-1 code of the user's native language; translations and example sentences are shown in it. */
     val nativeLanguage: String = "en",
