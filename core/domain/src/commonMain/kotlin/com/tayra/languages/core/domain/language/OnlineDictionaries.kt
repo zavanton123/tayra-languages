@@ -181,8 +181,36 @@ object OnlineDictionaries {
                 return "${site.second} ($language)"
             }
         }
-        return host.ifEmpty { "Dictionary" }
+        return BRANDS[host] ?: BRANDS[host.substringAfter('.')] ?: host.ifEmpty { "Dictionary" }
     }
+
+    /** Short names for the sites the predefined languages link to. */
+    private val BRANDS = mapOf(
+        "aare.pri.ee" to "Aare", "academia.gal" to "RAG", "archeus.ro" to "Archeus", "bing.com" to "Bing Translator",
+        "collinsdictionary.com" to "Collins", "conjugator.reverso.net" to "Reverso Conjugator", "context.reverso.net" to "Context Reverso",
+        "cooljugator.com" to "Cooljugator", "crodict.com" to "Crodict", "cybermova.com" to "Cybermova", "deepl.com" to "DeepL",
+        "dexonline.ro" to "Dexonline", "diccionari.cat" to "Diccionari.cat", "diccionaris.cat" to "Diccionaris.cat", "dicio.com.br" to "Dicio",
+        "dicionario.priberam.org" to "Priberam", "dict.cc" to "dict.cc", "dict.com" to "dict.com", "dictionary.cambridge.org" to "Cambridge",
+        "dictionary.reverso.net" to "Reverso", "dictionarypro.net" to "DictionaryPro", "dizionario-italiano.it" to "Dizionario Italiano",
+        "dizionario.internazionale.it" to "Internazionale", "dizionario.reverso.net" to "Reverso", "dlc.iec.cat" to "DLC (IEC)",
+        "dle.rae.es" to "RAE", "dobryslownik.pl" to "Dobry słownik", "duden.de" to "Duden", "eki.ee" to "EKI", "en.bab.la" to "bab.la",
+        "en.glosbe.com" to "Glosbe", "en.openrussian.org" to "OpenRussian", "en.pons.com" to "PONS", "estraviz.org" to "Estraviz",
+        "folkets-lexikon.csc.kth.se" to "Folkets lexikon", "fran.si" to "Fran", "glosbe.com" to "Glosbe", "gramota.ru" to "Грамота.ру",
+        "greek-language.gr" to "Greek Language Portal", "hallo.ro" to "Hallo.ro", "hjp.znanje.hr" to "HJP", "infopedia.pt" to "Infopédia",
+        "larousse.fr" to "Larousse", "latin-dictionary.net" to "Latin Dictionary", "letonika.lv" to "Letonika", "linguee.com" to "Linguee",
+        "logeion.uchicago.edu" to "Logeion", "lsj.gr" to "LSJ", "lugatim.com" to "Lugatım", "makedonski.gov.mk" to "Македонски",
+        "michaelis.uol.com.br" to "Michaelis", "mijnwoordenboek.nl" to "Mijnwoordenboek", "nisanyansozluk.com" to "Nişanyan",
+        "online-latin-dictionary.com" to "Online Latin Dictionary", "online-translator.com" to "PROMT", "ord.dk" to "Ord.dk",
+        "ordbokene.no" to "Ordbøkene", "outils.biblissima.fr" to "Biblissima", "perseus.tufts.edu" to "Perseus", "rechnik.info" to "Речник",
+        "recnik.off.net.mk" to "Речник", "reverso.net" to "Reverso", "saob.se" to "SAOB", "simple.wiktionary.org" to "Simple Wiktionary",
+        "sinonims.iec.cat" to "Sinònims (IEC)", "sjp.pwn.pl" to "PWN", "slounik.org" to "Слоўнік", "slovnik.aktuality.sk" to "Aktuality",
+        "slovnik.juls.savba.sk" to "JÚĽŠ", "slovnik.seznam.cz" to "Seznam", "slovniky.lingea.cz" to "Lingea", "slovnyk.ua" to "Словник.ua",
+        "sozluk.gov.tr" to "TDK", "spanishdict.com" to "SpanishDict", "sproget.dk" to "Sproget.dk", "szotar.sztaki.hu" to "SZTAKI",
+        "tatoeba.org" to "Tatoeba", "tekstovertimas.lt" to "Teksto vertimas", "tezaurs.lv" to "Tēzaurs", "tr-ex.me" to "Tr-ex",
+        "translate.google.com" to "Google Translate", "translate.yandex.com" to "Yandex Translate", "treccani.it" to "Treccani",
+        "tureng.com" to "Tureng", "verbix.com" to "Verbix", "verbum.by" to "Verbum", "vokabular.org" to "Vokabular",
+        "webslovnik.zoznam.sk" to "Zoznam", "wordreference.com" to "WordReference", "wsjp.pl" to "WSJP", "zodynas.lt" to "Žodynas",
+    )
 
     /** The catalog entry a stored URL comes from, matched by its host for the language pair. */
     fun match(url: String, source: LanguageOption, target: LanguageOption): OnlineDictionary? {
@@ -220,12 +248,71 @@ object OnlineDictionaries {
         "translation", "traduction", "wiki", "word", "dict", "go.php", "webverbix", "index.php", "lookup", "define", "definition",
     )
 
-    /** The last readable path segment before the placeholder, with dashes turned into spaces. */
+    /**
+     * A short tag from the path before the placeholder: language names become ISO codes
+     * ("portugues-ingles" → "PT–EN"), verb sites become "verbs", other words are kept as they are.
+     */
     private fun pathQualifier(url: String): String {
         val path = url.substringAfter("://").substringAfter("/", "").substringBefore(LanguageDictionary.LOOKUP_PLACEHOLDER)
             .substringBefore(LanguageDictionary.LEGACY_PLACEHOLDER).substringBefore('?').substringBefore('#')
         val segment = path.split('/').map { it.trim() }.lastOrNull { it.isNotBlank() && it.lowercase() !in GENERIC_SEGMENTS && it.any { c -> c.isLetter() } }
             ?: return ""
-        return segment.replace(Regex("[-_+]"), " ").trim()
+        val words = segment.lowercase().split(Regex("[-_+ ]+")).filter { it.isNotBlank() }
+        val codes = words.mapNotNull { LANGUAGE_WORDS[strip(it)] }.distinct()
+        val verbs = words.any { strip(it) in VERB_WORDS }
+        val rest = words.filter { val w = strip(it); w !in LANGUAGE_WORDS && w !in VERB_WORDS && w !in FILLER_WORDS }
+        return buildList {
+            if (codes.isNotEmpty()) add(codes.joinToString("\u2013") { it.uppercase() })
+            if (verbs) add("verbs")
+            if (isEmpty()) addAll(rest.take(2))
+        }.joinToString(" ")
     }
+
+    private fun strip(word: String): String = word.map { ACCENTS[it] ?: it }.joinToString("")
+
+    private val ACCENTS = mapOf(
+        'á' to 'a', 'à' to 'a', 'â' to 'a', 'ã' to 'a', 'ä' to 'a', 'é' to 'e', 'è' to 'e', 'ê' to 'e', 'ë' to 'e', 'í' to 'i', 'ì' to 'i', 'î' to 'i',
+        'ó' to 'o', 'ò' to 'o', 'ô' to 'o', 'õ' to 'o', 'ö' to 'o', 'ú' to 'u', 'ù' to 'u', 'û' to 'u', 'ü' to 'u', 'ç' to 'c', 'ñ' to 'n', 'ß' to 's',
+    )
+
+    private val FILLER_WORDS = setOf("moderno", "lingua", "language", "langue", "sprache", "online", "de", "da", "do", "of", "the", "e", "y", "et", "und", "i", "a")
+
+    private val VERB_WORDS = setOf("verbos", "verbs", "verb", "verbo", "verbe", "verbes", "verben", "verbi", "conjugacao", "conjugation", "conjugator", "conjugaison", "konjugation", "coniugazione", "conjugacion", "portugueses")
+
+    /** Language names as they appear in dictionary paths, in a few languages, mapped to ISO 639-1 codes. */
+    private val LANGUAGE_WORDS: Map<String, String> = mapOf(
+        "pt" to listOf("portugues", "portuguesa", "portuguese", "portugais", "portugiesisch", "portoghese", "brasileiro", "brazilian"),
+        "en" to listOf("ingles", "inglesa", "english", "anglais", "englisch", "inglese", "angielski", "engelsk", "engels"),
+        "es" to listOf("espanol", "espanola", "spanish", "espagnol", "spanisch", "spagnolo", "castellano"),
+        "de" to listOf("aleman", "alemao", "alema", "german", "deutsch", "allemand", "tedesco", "niemiecki"),
+        "fr" to listOf("frances", "francesa", "french", "francais", "franzosisch", "francese"),
+        "it" to listOf("italiano", "italiana", "italian", "italien", "italienisch"),
+        "ru" to listOf("russo", "russa", "russian", "russe", "russisch", "ruso", "rosyjski"),
+        "nl" to listOf("holandes", "dutch", "nederlands", "neerlandais", "niederlandisch"),
+        "pl" to listOf("polaco", "polish", "polski", "polonais", "polnisch", "polacco"),
+        "cs" to listOf("checo", "czech", "cesky", "tcheque", "tschechisch"),
+        "sv" to listOf("sueco", "swedish", "svenska", "suedois", "schwedisch"),
+        "da" to listOf("danes", "danish", "dansk", "danois", "danisch"),
+        "no" to listOf("noruegues", "norwegian", "norsk", "norvegien", "norwegisch"),
+        "fi" to listOf("finlandes", "finnish", "suomi", "finnois", "finnisch"),
+        "el" to listOf("grego", "greek", "griego", "grec", "griechisch", "ellinika"),
+        "tr" to listOf("turco", "turkish", "turkce", "turc", "turkisch"),
+        "hu" to listOf("hungaro", "hungarian", "magyar", "hongrois", "ungarisch"),
+        "ro" to listOf("romeno", "romanian", "romana", "roumain", "rumanisch"),
+        "uk" to listOf("ucraniano", "ukrainian", "ukrainska", "ukrainien", "ukrainisch"),
+        "la" to listOf("latim", "latin", "latino", "lateinisch", "latina"),
+        "ca" to listOf("catalao", "catalan", "catala", "katalanisch"),
+        "gl" to listOf("galego", "galician", "gallego"),
+        "sr" to listOf("servio", "serbian", "srpski", "serbisch"),
+        "hr" to listOf("croata", "croatian", "hrvatski", "kroatisch"),
+        "sl" to listOf("esloveno", "slovene", "slovenian", "slovenski", "slowenisch"),
+        "sk" to listOf("eslovaco", "slovak", "slovensky", "slowakisch"),
+        "bg" to listOf("bulgaro", "bulgarian", "bulgarski", "bulgarisch"),
+        "lt" to listOf("lituano", "lithuanian", "lietuviu", "litauisch"),
+        "lv" to listOf("letao", "latvian", "latviesu", "lettisch"),
+        "et" to listOf("estoniano", "estonian", "eesti", "estnisch"),
+        "is" to listOf("islandes", "icelandic", "islenska", "islandisch"),
+        "mk" to listOf("macedonio", "macedonian", "makedonski", "mazedonisch"),
+        "be" to listOf("bielorrusso", "belarusian", "belaruskaya", "weissrussisch"),
+    ).flatMap { (code, words) -> words.map { it to code } }.toMap()
 }
