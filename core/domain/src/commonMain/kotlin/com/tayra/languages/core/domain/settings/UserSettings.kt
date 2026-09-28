@@ -29,6 +29,8 @@ data class UserSettings(
     val translationContactEmail: String = "",
     /** Service used for sentence translations. */
     val translationEngine: TranslationEngine = TranslationEngine.MYMEMORY,
+    /** Google Cloud Translation API key, used only when [translationEngine] is [TranslationEngine.GOOGLE]. */
+    val googleTranslateApiKey: String = "",
     /** Python executable that has Argos Translate installed; empty means `python3` from the PATH. */
     val argosPython: String = "",
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,

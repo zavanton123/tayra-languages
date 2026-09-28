@@ -23,6 +23,7 @@ import com.tayra.languages.core.domain.service.TermPopup
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.service.TranslationEngine
+import com.tayra.languages.core.domain.service.effectiveEngine
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.state.UiEvents
@@ -128,7 +129,7 @@ class ReadingViewModel(
         local?.lastError ?: MutableStateFlow(null),
         local?.progress ?: MutableStateFlow(null),
     ) { s, prefs, localError, localProgress ->
-        val offline = prefs.showTranslations && prefs.translationEngine == TranslationEngine.ARGOS
+        val offline = prefs.showTranslations && prefs.effectiveEngine(local != null) == TranslationEngine.ARGOS
         s.copy(settings = prefs, translationError = localError.takeIf { offline }, translationProgress = localProgress.takeIf { offline })
     }.stateIn(viewModelScope, SharingStarted.Eagerly, ReadingUiState())
     val events = UiEvents<ReadingEvent>()
@@ -487,10 +488,9 @@ class ReadingViewModel(
         val pending = sentences.filter { _state.value.translations[it] !is SentenceTranslation.Done }
         if (pending.isEmpty()) return
         _state.update { it.copy(translations = it.translations + pending.associateWith { SentenceTranslation.Loading }) }
-        // _state carries default settings; the live ones come from the repository. Argos is asked for only
-        // where it exists; elsewhere the router falls back to MyMemory.
+        // _state carries default settings; the live ones come from the repository.
         val prefs = settingsRepository.current
-        val engine = if (prefs.translationEngine == TranslationEngine.ARGOS && hasLocalTranslator) TranslationEngine.ARGOS else TranslationEngine.MYMEMORY
+        val engine = prefs.effectiveEngine(hasLocalTranslator)
         translationJob = viewModelScope.launch {
             if (engine == TranslationEngine.ARGOS && local != null) {
                 val source = LanguageCodes.codeFor(language.name)
@@ -560,9 +560,13 @@ class ReadingViewModel(
         }
     }
 
-    /** Flips between MyMemory and Argos; the page is translated again because the two are cached apart. */
-    fun toggleTranslationEngine() {
-        val next = if (state.value.settings.translationEngine == TranslationEngine.ARGOS) TranslationEngine.MYMEMORY else TranslationEngine.ARGOS
+    /** Engines the drawer can offer here: Argos only where it exists. */
+    val availableEngines: List<TranslationEngine> =
+        TranslationEngine.entries.filter { it != TranslationEngine.ARGOS || hasLocalTranslator }
+
+    /** Switches engines; the page is translated again because each engine is cached apart. */
+    fun setTranslationEngine(next: TranslationEngine) {
+        if (next == state.value.settings.translationEngine) return
         viewModelScope.launch {
             translationJob?.cancel()
             settingsRepository.update { it.copy(translationEngine = next) }

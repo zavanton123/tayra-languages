@@ -87,6 +87,8 @@ import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppMenu
+import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.NavSection
@@ -325,9 +327,12 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         SwitchRow(AppIcons.LineSpacing, "One sentence per line", prefs.splitSentences) { viewModel.toggleSplitSentences() }
         SwitchRow(AppIcons.Translate, "Show translations", prefs.showTranslations) { viewModel.toggleShowTranslations() }
         SwitchRow(AppIcons.ViewColumn, "Translations side by side", prefs.sideBySideTranslations) { viewModel.toggleSideBySideTranslations() }
-        if (viewModel.hasLocalTranslator) {
-            SwitchRow(AppIcons.Download, "Translate offline with Argos", prefs.translationEngine == TranslationEngine.ARGOS) { viewModel.toggleTranslationEngine() }
-        }
+        EngineRow(
+            selected = prefs.translationEngine,
+            options = viewModel.availableEngines,
+            hasGoogleKey = prefs.googleTranslateApiKey.isNotBlank(),
+            onSelect = viewModel::setTranslationEngine,
+        )
         MenuRow(Icons.Default.Refresh, "Clear translation cache") { onClose(); viewModel.clearTranslationCache() }
 
         MenuSection("Typography")
@@ -411,6 +416,37 @@ private fun StepButton(label: String, onClick: () -> Unit) {
         Modifier.size(38.dp).clip(RoundedCornerShape(10.dp)).background(colors.primary.copy(alpha = 0.1f)).clickable(onClick = onClick),
         contentAlignment = Alignment.Center,
     ) { Text(label, style = MaterialTheme.typography.titleMedium, color = colors.primary) }
+}
+
+/** The translation engine, picked from a menu anchored to the row; Google is offered only once a key is set. */
+@Composable
+private fun EngineRow(selected: TranslationEngine, options: List<TranslationEngine>, hasGoogleKey: Boolean, onSelect: (TranslationEngine) -> Unit) {
+    var open by remember { mutableStateOf(false) }
+    val colors = MaterialTheme.colorScheme
+    Box {
+        Row(
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).clickable { open = true }.padding(horizontal = 12.dp, vertical = 10.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(14.dp),
+        ) {
+            MenuIcon(AppIcons.Globe, colors.primary)
+            Column(Modifier.weight(1f)) {
+                Text("Translation engine", style = MaterialTheme.typography.bodyLarge)
+                Text(selected.label, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            }
+            Icon(AppIcons.UnfoldMore, contentDescription = null, tint = colors.outline, modifier = Modifier.size(20.dp))
+        }
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            options.forEach { engine ->
+                val enabled = engine != TranslationEngine.GOOGLE || hasGoogleKey
+                AppMenuItem(
+                    text = { Text(if (enabled) engine.label else "${engine.label} \u2013 add a key in Settings") },
+                    onClick = { open = false; onSelect(engine) },
+                    enabled = enabled,
+                )
+            }
+        }
+    }
 }
 
 @Composable
@@ -699,6 +735,7 @@ private fun translationSource(state: ReadingUiState): String? {
     val names = engines.sortedBy { it.ordinal }.joinToString(" and ") {
         when (it) {
             TranslationEngine.MYMEMORY -> "MyMemory (online)"
+            TranslationEngine.GOOGLE -> "Google Translate (online)"
             TranslationEngine.ARGOS -> "Argos Translate (offline)"
         }
     }

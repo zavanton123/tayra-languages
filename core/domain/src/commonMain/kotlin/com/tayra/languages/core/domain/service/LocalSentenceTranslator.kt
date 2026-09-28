@@ -1,11 +1,29 @@
 package com.tayra.languages.core.domain.service
 
+import com.tayra.languages.core.domain.settings.UserSettings
 import kotlinx.coroutines.flow.StateFlow
 
-/** Which service turns sentences into the native language. */
+/** Which service turns sentences and terms into the native language. */
 enum class TranslationEngine(val label: String) {
-    MYMEMORY("MyMemory (online)"),
+    MYMEMORY("MyMemory (online, free)"),
+    GOOGLE("Google Translate (online, API key)"),
     ARGOS("Argos Translate (offline, desktop)"),
+}
+
+/**
+ * The engine that will actually answer: Argos needs a local translator, Google needs a key,
+ * and either falls back to MyMemory without one.
+ */
+fun UserSettings.effectiveEngine(hasLocalTranslator: Boolean): TranslationEngine = when {
+    translationEngine == TranslationEngine.ARGOS && !hasLocalTranslator -> TranslationEngine.MYMEMORY
+    translationEngine == TranslationEngine.GOOGLE && googleTranslateApiKey.isBlank() -> TranslationEngine.MYMEMORY
+    else -> translationEngine
+}
+
+/** The Google Cloud Translation client's self-check, for the Settings screen. */
+interface GoogleTranslation {
+    /** Translates a fixed phrase with the stored key and reports the outcome in one readable line. */
+    suspend fun checkKey(): String
 }
 
 /** One downloadable model of the local translator, translating [fromCode] into [toCode]. */
