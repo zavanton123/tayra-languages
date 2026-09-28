@@ -78,6 +78,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
 import com.tayra.languages.core.ui.components.AppIcons
@@ -318,6 +319,9 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         SwitchRow(AppIcons.Palette, "Highlight terms", prefs.showHighlights) { viewModel.toggleHighlights() }
         SwitchRow(AppIcons.LineSpacing, "One sentence per line", prefs.splitSentences) { viewModel.toggleSplitSentences() }
         SwitchRow(AppIcons.Translate, "Show translations", prefs.showTranslations) { viewModel.toggleShowTranslations() }
+        if (viewModel.hasLocalTranslator) {
+            SwitchRow(AppIcons.Download, "Translate offline with Argos", prefs.translationEngine == TranslationEngine.ARGOS) { viewModel.toggleTranslationEngine() }
+        }
         MenuRow(Icons.Default.Refresh, "Clear translation cache") { onClose(); viewModel.clearTranslationCache() }
 
         MenuSection("Typography")

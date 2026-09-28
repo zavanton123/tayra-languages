@@ -12,12 +12,14 @@ import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.BulkTermUpdate
+import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermPopup
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.state.UiEvents
@@ -104,7 +106,11 @@ class ReadingViewModel(
     private val bookStats: BookStatsService,
     private val settingsRepository: SettingsRepository,
     private val translator: SentenceTranslator,
+    localTranslation: LocalTranslation,
 ) : ViewModel() {
+
+    /** Whether the engine switch in the drawer has anything to switch to (Argos exists on desktop only). */
+    val hasLocalTranslator: Boolean = localTranslation.translator != null
 
     private val _state = MutableStateFlow(ReadingUiState())
     val state: StateFlow<ReadingUiState> = combine(_state, settingsRepository.settings) { s, prefs -> s.copy(settings = prefs) }
@@ -493,6 +499,16 @@ class ReadingViewModel(
             settingsRepository.update { it.copy(showTranslations = enabling) }
             // The combined state may not carry the new value yet, so pass it along.
             if (enabling) translateSentences(enabled = true) else translationJob?.cancel()
+        }
+    }
+    /** Flips between MyMemory and Argos; the page is translated again because the two are cached apart. */
+    fun toggleTranslationEngine() {
+        val next = if (state.value.settings.translationEngine == TranslationEngine.ARGOS) TranslationEngine.MYMEMORY else TranslationEngine.ARGOS
+        viewModelScope.launch {
+            translationJob?.cancel()
+            settingsRepository.update { it.copy(translationEngine = next) }
+            _state.update { it.copy(translations = emptyMap()) }
+            translateSentences()
         }
     }
     fun nextTheme() = updateSettings { it.copy(themeId = AppThemes.next(it.themeId).id) }
