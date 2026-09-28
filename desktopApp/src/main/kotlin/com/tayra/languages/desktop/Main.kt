@@ -74,7 +74,8 @@ private fun relaunchWithDockName(): Boolean {
     val runtime = ManagementFactory.getRuntimeMXBean()
     val args = runtime.inputArguments
     // The launcher consumes -Xdock options, so they never show up here; the property is the marker.
-    if (args.any { it.contains("jdwp") }) return false
+    // Debuggers and the Compose Hot Reload agent must stay attached to this very process.
+    if (args.any { it.contains("jdwp") || it.contains("hot-reload") || it.contains("compose.reload") }) return false
     val java = ProcessHandle.current().info().command().orElse(null) ?: return false
     val command = listOf(java) + args +
         listOf("-Xdock:name=Tayra Languages", "-D$DOCK_NAMED_PROPERTY=true", "-cp", runtime.classPath, "com.tayra.languages.desktop.MainKt")

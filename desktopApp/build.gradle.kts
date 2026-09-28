@@ -19,6 +19,11 @@ val desktopVersion = providers.gradleProperty("releaseVersion")
     .map { if (Regex("[1-9]\\d*\\.\\d+\\.\\d+").matches(it)) it else "1.0.0" }
     .orElse("1.0.0")
 
+// Android Studio injects Compose Hot Reload's `hotRun` task; give that JVM the Dock name too.
+tasks.matching { it.name == "hotRun" }.configureEach {
+    (this as? JavaExec)?.jvmArgs("-Xdock:name=Tayra Languages", "-Dtayra.dockNamed=true")
+}
+
 compose.desktop {
     application {
         mainClass = "com.tayra.languages.desktop.MainKt"
