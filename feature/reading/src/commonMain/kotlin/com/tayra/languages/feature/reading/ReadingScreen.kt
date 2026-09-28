@@ -78,6 +78,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
@@ -651,7 +652,25 @@ private fun PageVocabulary(state: ReadingUiState) {
         Text("Vocabulary on this page", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         StatusDistributionBar(stats, Modifier.widthIn(max = 360.dp).weight(1f, fill = false).fillMaxWidth())
         Text(if (stats.distinctTerms > 0) "${stats.unknownPercent}% new" else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        translationSource(state)?.let { source ->
+            Spacer(Modifier.weight(1f))
+            Text(source, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+        }
     }
+}
+
+/** Names the engines behind the translations on screen, from the translations themselves rather than the setting. */
+private fun translationSource(state: ReadingUiState): String? {
+    if (!state.settings.showTranslations) return null
+    val engines = state.translations.values.filterIsInstance<SentenceTranslation.Done>().mapNotNull { it.engine }.toSet()
+    if (engines.isEmpty()) return null
+    val names = engines.sortedBy { it.ordinal }.joinToString(" and ") {
+        when (it) {
+            TranslationEngine.MYMEMORY -> "MyMemory (online)"
+            TranslationEngine.ARGOS -> "Argos Translate (offline)"
+        }
+    }
+    return "Translations by $names"
 }
 
 @Composable

@@ -475,11 +475,13 @@ class ReadingViewModel(
         val pending = sentences.filter { _state.value.translations[it] !is SentenceTranslation.Done }
         if (pending.isEmpty()) return
         _state.update { it.copy(translations = it.translations + pending.associateWith { SentenceTranslation.Loading }) }
+        // Argos is asked for only where it exists; elsewhere the router falls back to MyMemory.
+        val engine = if (s.settings.translationEngine == TranslationEngine.ARGOS && hasLocalTranslator) TranslationEngine.ARGOS else TranslationEngine.MYMEMORY
         translationJob = viewModelScope.launch {
             for (sentence in pending) {
                 val result = translator.translate(sentence, language)
                 _state.update {
-                    it.copy(translations = it.translations + (sentence to (result?.let { t -> SentenceTranslation.Done(t) } ?: SentenceTranslation.Unavailable)))
+                    it.copy(translations = it.translations + (sentence to (result?.let { t -> SentenceTranslation.Done(t, engine) } ?: SentenceTranslation.Unavailable)))
                 }
             }
         }
