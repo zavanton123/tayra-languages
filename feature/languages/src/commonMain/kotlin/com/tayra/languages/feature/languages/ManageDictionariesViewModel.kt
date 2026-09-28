@@ -53,7 +53,8 @@ class ManageDictionariesViewModel(
         val target = LanguageCatalog.nativeOption(native)
         val source = LanguageCodes.codeFor(language.name)?.let { LanguageOption(it, language.name) } ?: LanguageOption("en", language.name)
         val terms = language.dictionaries.filter { it.useFor == DictionaryUse.TERMS }.sortedBy { it.sortOrder }
-        val stored = terms.map { DictionaryEntry(OnlineDictionaries.displayName(it.url, source, target), it.url, it, OnlineDictionaries.match(it.url, source, target)) }
+        val labels = OnlineDictionaries.labels(terms, source, target)
+        val stored = terms.map { DictionaryEntry(labels.getValue(it), it.url, it, OnlineDictionaries.match(it.url, source, target)) }
         val storedIds = stored.mapNotNull { it.catalog?.id }.toSet()
         val fromCatalog = OnlineDictionaries.all
             .filter { it.id !in storedIds }
