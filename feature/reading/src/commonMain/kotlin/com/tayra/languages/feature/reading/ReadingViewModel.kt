@@ -471,6 +471,16 @@ class ReadingViewModel(
         }
     }
 
+    /** Drops every stored sentence translation and fetches the current page's again. */
+    fun clearTranslationCache() {
+        viewModelScope.launch {
+            translationJob?.cancel()
+            translator.clearCache()
+            _state.update { it.copy(translations = emptyMap()) }
+            translateSentences()
+        }
+    }
+
     // ---- settings
 
     fun toggleHighlights() = updateSettings { it.copy(showHighlights = !it.showHighlights) }

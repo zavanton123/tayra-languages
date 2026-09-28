@@ -6,3 +6,6 @@ DELETE FROM book_tags;
 
 deleteAllWordsRead:
 DELETE FROM words_read;
+
+deleteAllSentenceTranslations:
+DELETE FROM sentence_translations;

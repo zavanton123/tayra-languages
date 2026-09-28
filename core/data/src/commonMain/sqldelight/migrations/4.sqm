@@ -1,0 +1,9 @@
+CREATE TABLE sentence_translations (
+    sentence TEXT NOT NULL,
+    target_language TEXT NOT NULL,
+    translation TEXT NOT NULL,
+    created_at INTEGER NOT NULL,
+    PRIMARY KEY (sentence, target_language)
+);
+
+CREATE INDEX sentence_translations_created ON sentence_translations(created_at);
