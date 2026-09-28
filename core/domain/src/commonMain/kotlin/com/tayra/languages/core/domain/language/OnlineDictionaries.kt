@@ -250,19 +250,31 @@ object OnlineDictionaries {
      * ("portugues-ingles" → "PT–EN"), verb sites become "verbs", other words are kept as they are.
      */
     private fun pathQualifier(url: String): String {
+        verbixCategory(url)?.let { return it }
         val path = url.substringAfter("://").substringAfter("/", "").substringBefore(LanguageDictionary.LOOKUP_PLACEHOLDER)
             .substringBefore(LanguageDictionary.LEGACY_PLACEHOLDER).substringBefore('?').substringBefore('#')
         val segment = path.split('/').map { it.trim() }.lastOrNull { it.isNotBlank() && it.lowercase() !in GENERIC_SEGMENTS && it.any { c -> c.isLetter() } }
             ?: return ""
         val words = segment.lowercase().split(Regex("[-_+ ]+")).filter { it.isNotBlank() }
         val codes = words.mapNotNull { LANGUAGE_WORDS[strip(it)] }.distinct()
-        val verbs = words.any { strip(it) in VERB_WORDS }
-        val rest = words.filter { val w = strip(it); w !in LANGUAGE_WORDS && w !in VERB_WORDS && w !in FILLER_WORDS }
+        val category = words.firstNotNullOfOrNull { CATEGORY_WORDS[strip(it)] }
+        val rest = words.filter { val w = strip(it); w !in LANGUAGE_WORDS && w !in CATEGORY_WORDS && w !in FILLER_WORDS }
         return buildList {
             if (codes.isNotEmpty()) add(codes.joinToString("\u2013") { it.uppercase() })
-            if (verbs) add("verbs")
+            if (category != null) add(category)
             if (isEmpty()) addAll(rest.take(2))
         }.joinToString(" ")
+    }
+
+    /** Verbix encodes the word class in its numeric language id: verbs, +1000 nouns, +2000 adjectives. */
+    private fun verbixCategory(url: String): String? {
+        if ("verbix.com" !in url) return null
+        val id = Regex("[?&]D1=(\\d+)").find(url)?.groupValues?.get(1)?.toIntOrNull() ?: return null
+        return when {
+            id >= 2000 -> "adjectives"
+            id >= 1000 -> "nouns"
+            else -> "verbs"
+        }
     }
 
     private fun strip(word: String): String = word.map { ACCENTS[it] ?: it }.joinToString("")
@@ -274,7 +286,12 @@ object OnlineDictionaries {
 
     private val FILLER_WORDS = setOf("moderno", "lingua", "language", "langue", "sprache", "online", "de", "da", "do", "of", "the", "e", "y", "et", "und", "i", "a")
 
-    private val VERB_WORDS = setOf("verbos", "verbs", "verb", "verbo", "verbe", "verbes", "verben", "verbi", "conjugacao", "conjugation", "conjugator", "conjugaison", "konjugation", "coniugazione", "conjugacion", "portugueses")
+    /** Word-class words in dictionary paths, mapped to the label used for them. */
+    private val CATEGORY_WORDS: Map<String, String> = mapOf(
+        "verbs" to listOf("verbos", "verbs", "verb", "verbo", "verbe", "verbes", "verben", "verbi", "conjugacao", "conjugation", "conjugator", "conjugaison", "konjugation", "coniugazione", "conjugacion", "portugueses"),
+        "nouns" to listOf("nouns", "noun", "substantivos", "sustantivos", "nomi", "noms", "substantive", "nomen"),
+        "adjectives" to listOf("adjectives", "adjective", "adjetivos", "aggettivi", "adjectifs", "adjektive"),
+    ).flatMap { (label, words) -> words.map { it to label } }.toMap()
 
     /** Language names as they appear in dictionary paths, in a few languages, mapped to ISO 639-1 codes. */
     private val LANGUAGE_WORDS: Map<String, String> = mapOf(

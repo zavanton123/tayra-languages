@@ -69,7 +69,7 @@ class OnlineDictionariesTest {
         ).mapIndexed { i, url -> com.tayra.languages.core.domain.model.LanguageDictionary(id = i.toLong(), useFor = com.tayra.languages.core.domain.model.DictionaryUse.TERMS, type = com.tayra.languages.core.domain.model.DictionaryType.POPUP, url = url) }
         val byDictionary = OnlineDictionaries.labels(infopedia, pt, en)
         val labels = infopedia.map { byDictionary.getValue(it) }
-        assertEquals(listOf("Infopédia \u00b7 PT\u2013EN", "Infopédia \u00b7 PT", "Infopédia \u00b7 verbs", "Verbix \u00b7 1", "Verbix \u00b7 2"), labels)
+        assertEquals(listOf("Infopédia \u00b7 PT\u2013EN", "Infopédia \u00b7 PT", "Infopédia \u00b7 verbs", "Verbix \u00b7 verbs", "Verbix \u00b7 nouns"), labels)
     }
 
     @Test
