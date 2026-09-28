@@ -27,11 +27,12 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.List
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Menu
-import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -40,7 +41,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.ModalDrawerSheet
 import androidx.compose.material3.ModalNavigationDrawer
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Surface
@@ -60,6 +60,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.focus.FocusRequester
@@ -620,22 +621,125 @@ private fun PageVocabulary(state: ReadingUiState) {
 
 @Composable
 private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit) {
-    Column(Modifier.fillMaxWidth().padding(top = 24.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-        if (!state.isLastPage) {
-            Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                TextButton(onClick = { viewModel.markPageRead(true, 1) }) { Text("✔ Mark rest as known, next page", color = MaterialTheme.colorScheme.tertiary) }
-                TextButton(onClick = { viewModel.markPageRead(false, 1) }) { Text("Mark page read, next page ›") }
+    val colors = MaterialTheme.colorScheme
+    val compact = LocalWindowWidth.current.isCompact
+    val uriHandler = LocalUriHandler.current
+    val unknowns = remember(state.page) { BookStatsCalculator.calculate(state.items).distinctUnknowns }
+    val last = state.isLastPage
+    Column(Modifier.fillMaxWidth().padding(top = 28.dp), verticalArrangement = Arrangement.spacedBy(20.dp)) {
+        val source = state.book?.sourceUri
+        if (!source.isNullOrBlank()) {
+            SourceChip(source) { uriHandler.openUri(source) }
+        }
+        Column(
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.05f))
+                .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(if (compact) 16.dp else 24.dp),
+            verticalArrangement = Arrangement.spacedBy(20.dp),
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(18.dp)) {
+                Box(Modifier.size(56.dp).clip(RoundedCornerShape(28.dp)).background(Color(0xFF16A34A).copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
+                    Icon(Icons.Default.Check, contentDescription = null, tint = Color(0xFF15803D), modifier = Modifier.size(30.dp))
+                }
+                Column(Modifier.weight(1f)) {
+                    Text(
+                        if (last) "You\u2019ve reached the end" else "End of page ${state.pageNumber}",
+                        style = MaterialTheme.typography.titleLarge,
+                        fontWeight = FontWeight.Bold,
+                    )
+                    Text(
+                        if (last) "Review the remaining words, then mark this page as complete." else "Review the remaining words, then continue to the next page.",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = colors.onSurfaceVariant,
+                    )
+                }
             }
-        } else {
-            Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                TextButton(onClick = { viewModel.markPageRead(true, 0) }) { Text("✔ Mark rest as known", color = MaterialTheme.colorScheme.tertiary) }
-                TextButton(onClick = { viewModel.markPageRead(false, 0) }) { Text("✔ Mark page read") }
+            val known = @Composable { modifier: Modifier ->
+                ActionCard(
+                    modifier = modifier,
+                    title = "Mark remaining words as known",
+                    subtitle = "$unknowns unknown word${if (unknowns == 1) "" else "s"}${if (last) "" else " \u00b7 then next page"}",
+                    filled = false,
+                    onClick = { viewModel.markPageRead(true, if (last) 0 else 1) },
+                )
             }
-            Text("🎉", style = MaterialTheme.typography.headlineMedium)
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Button(onClick = viewModel::archiveBook) { Text("Archive book") }
-                OutlinedButton(onClick = onHome) { Text("Home") }
+            val read = @Composable { modifier: Modifier ->
+                ActionCard(
+                    modifier = modifier,
+                    title = "Mark page as read",
+                    subtitle = if (last) "Save your reading progress" else "Continue to page ${state.pageNumber + 1}",
+                    filled = true,
+                    onClick = { viewModel.markPageRead(false, if (last) 0 else 1) },
+                )
             }
+            if (compact) {
+                Column(verticalArrangement = Arrangement.spacedBy(12.dp)) { known(Modifier.fillMaxWidth()); read(Modifier.fillMaxWidth()) }
+            } else {
+                Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) { known(Modifier.weight(1f)); read(Modifier.weight(1f)) }
+            }
+            HorizontalDivider(color = colors.outlineVariant)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                Row(
+                    Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).background(colors.surface)
+                        .clickable(onClick = onHome).padding(horizontal = 16.dp, vertical = 12.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
+                    Text("Back to library", style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
+                }
+                if (last) {
+                    Row(
+                        Modifier.clip(RoundedCornerShape(10.dp)).clickable(onClick = viewModel::archiveBook).padding(horizontal = 12.dp, vertical = 12.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    ) {
+                        Icon(AppIcons.Book, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
+                        Text("Archive book", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                    }
+                }
+                Spacer(Modifier.weight(1f))
+                if (!compact) Text("Page ${state.pageNumber} of ${state.pageCount}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            }
+        }
+    }
+}
+
+@Composable
+private fun SourceChip(url: String, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val host = url.substringAfter("://").substringBefore("/").removePrefix("www.")
+    Row(
+        Modifier.clip(RoundedCornerShape(12.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(12.dp)).clickable(onClick = onClick)
+            .padding(horizontal = 14.dp, vertical = 10.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        Box(Modifier.size(32.dp).clip(RoundedCornerShape(16.dp)).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
+            Icon(AppIcons.Link, contentDescription = null, tint = colors.primary, modifier = Modifier.size(18.dp))
+        }
+        Text("Read the full story", style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
+        Box(Modifier.width(1.dp).height(20.dp).background(colors.outlineVariant))
+        Text(host, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Icon(AppIcons.OpenInNew, contentDescription = "Open source", tint = colors.onSurfaceVariant, modifier = Modifier.size(16.dp))
+    }
+}
+
+@Composable
+private fun ActionCard(modifier: Modifier, title: String, subtitle: String, filled: Boolean, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val foreground = if (filled) colors.onPrimary else colors.primary
+    Row(
+        modifier.clip(RoundedCornerShape(12.dp))
+            .background(if (filled) colors.primary else colors.surface)
+            .border(1.dp, if (filled) colors.primary else colors.outlineVariant, RoundedCornerShape(12.dp))
+            .clickable(onClick = onClick).padding(horizontal = 18.dp, vertical = 16.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
+    ) {
+        Icon(Icons.Default.CheckCircle, contentDescription = null, tint = foreground, modifier = Modifier.size(28.dp))
+        Column {
+            Text(title, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = if (filled) colors.onPrimary else colors.onSurface)
+            Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = if (filled) colors.onPrimary.copy(alpha = 0.8f) else colors.onSurfaceVariant)
         }
     }
 }
