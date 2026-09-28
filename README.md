@@ -98,16 +98,18 @@ The same artifacts can be built locally:
   tokenisers (Japanese via MeCab, Thai, Khmer, Mandarin) are not supported.
 - Dictionaries open in the platform browser; embedded web views are not used.
 - Sentence translations in the reader (left pane, Show translations) come from MyMemory by
-  default. On desktop, Settings can switch the engine to Argos Translate, which runs on the
-  computer with no network: it needs a Python with the `argostranslate` package installed
-  (`pip install argostranslate`; on python.org builds the CA bundle from `certifi` is picked up
-  automatically) and one downloaded model per language pair. Install Argos Translate in Settings
-  creates a private environment in the app folder (about a gigabyte) from `python3` and fills
-  in the Python executable field; a Python of your own can be entered there instead. When the
-  field is empty the app's own environment is used if it exists. Settings then lists the Argos language packages with Install and Remove,
-  leading with the pairs the current books need into the native language (both halves of a
-  detour through English when no direct model exists) and a toggle for the full catalog. The worker script (`core/data/src/jvmMain/resources/argos_worker.py`) is started once
-  and kept alive; translations are cached for a day per sentence and engine.
+  default. On desktop, Settings or the reader's left pane can switch the engine to Argos
+  Translate, which runs on the computer with no network. Nothing has to be installed by hand:
+  the first time offline translation is used the app downloads a standalone CPython build
+  (`astral-sh/python-build-standalone`, about 25 MB) into its data folder under `argos-python`,
+  installs `argostranslate` into it with pip (about a gigabyte, mostly torch) and fetches the
+  model for the language pair in use, going through English when no direct model exists; the
+  reader shows each step above the text and the reason if a step fails. Settings lists the
+  Argos language packages with Install and Remove, leading with the pairs the current books
+  need, and its Python executable field can point at a Python of your own instead. The worker
+  script (`core/data/src/jvmMain/resources/argos_worker.py`) is started once and kept alive;
+  the page header names the engine behind the translations on screen, and translations are
+  cached for a day per sentence and engine.
 - Offline dictionaries are downloadable packs: gzip-compressed prebuilt SQLite files (tables
   `meta`, `entries` and `forms`), one per source language and gloss language (Russian,
   English, German, French, Spanish or Portuguese), generated in `DictionaryPacks` from a source
