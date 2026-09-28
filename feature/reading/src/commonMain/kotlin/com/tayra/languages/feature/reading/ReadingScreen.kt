@@ -664,13 +664,11 @@ private fun EmbeddedTermForm(key: TermFormKey, keyString: String, viewModel: Rea
         }
     }
     Column(Modifier.fillMaxSize()) {
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-            IconButton(onClick = { formViewModel.flush(); viewModel.closePanel() }) { Icon(Icons.Default.Close, contentDescription = "Close") }
-        }
         TermFormPanel(
             viewModel = formViewModel,
             modifier = Modifier.weight(1f),
             embedded = true,
+            onClose = { formViewModel.flush(); viewModel.closePanel() },
             onDuplicateClick = { onNavigate(Route.EditTerm(it)) },
             onOpenExamples = { languageId, text -> onNavigate(Route.Examples(languageId, text)) },
         )
