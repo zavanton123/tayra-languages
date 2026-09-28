@@ -12,7 +12,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Slider
@@ -33,8 +32,6 @@ import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
-import com.tayra.languages.core.domain.service.TranslationEngine
-import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -52,12 +49,8 @@ import org.koin.compose.viewmodel.koinViewModel
 class SettingsViewModel(
     private val settings: SettingsRepository,
     languages: LanguageRepository,
-    private val localTranslation: LocalTranslation,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
-
-    /** Whether this platform has a local (Argos) translator at all. */
-    val hasLocalTranslator: Boolean get() = localTranslation.translator != null
 
     /** Source-language codes of the languages that have books, so the pack list can lead with them. */
     val languagesInUse: StateFlow<Set<String>> = languages.observeSummaries()
@@ -124,32 +117,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 singleLine = true,
                 modifier = Modifier.fillMaxWidth(),
             )
-            if (viewModel.hasLocalTranslator) {
-                Section("Sentence translation engine")
-                Dropdown(
-                    options = TranslationEngine.entries,
-                    selected = settings.translationEngine,
-                    onSelect = { engine -> viewModel.update { it.copy(translationEngine = engine) } },
-                    label = "Engine",
-                    optionLabel = { it.label },
-                    modifier = Modifier.fillMaxWidth(),
-                )
-                Text(
-                    "Argos Translate runs on this computer with no network. Its runtime and language packages are managed on their own screen.",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-                OutlinedButton(onClick = { onNavigate(Route.OfflineTranslation) }) { Text("Translation settings") }
-            }
-
-            Section("Offline dictionaries")
-            Text(
-                "Downloaded dictionaries translate words without a network connection and link inflected forms to their base word.",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            OutlinedButton(onClick = { onNavigate(Route.OfflineDictionaries) }) { Text("Manage dictionaries") }
-
             Section("Term popups")
             SwitchRow("Promote parent translation to term translation if possible", settings.promoteParentTranslation) { v -> viewModel.update { it.copy(promoteParentTranslation = v) } }
             SwitchRow("Show component terms", settings.showComponents) { v -> viewModel.update { it.copy(showComponents = v) } }
