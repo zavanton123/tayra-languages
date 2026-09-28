@@ -40,6 +40,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.navigation.Route
+import com.tayra.languages.core.ui.platform.hasOfflineTranslation
 
 /** The main navigation areas, used to highlight the active tab. */
 enum class NavSection(val label: String) { HOME("Home"), BOOKS("Books"), TERMS("Terms"), SETTINGS("Settings"), ABOUT("About") }
@@ -51,7 +52,15 @@ private data class MenuGroup(val section: NavSection, val entries: List<MenuEntr
 private val menuGroups = listOf(
     MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Home), MenuEntry("Create new book", Route.NewBook()), MenuEntry("Book archive", Route.ArchivedBooks))),
     MenuGroup(NavSection.TERMS, listOf(MenuEntry("Terms", Route.Terms()), MenuEntry("Import terms", Route.ImportTerms))),
-    MenuGroup(NavSection.SETTINGS, listOf(MenuEntry("Languages", Route.Languages), MenuEntry("Settings", Route.Settings), MenuEntry("Keyboard shortcuts", Route.Shortcuts))),
+    MenuGroup(
+        NavSection.SETTINGS,
+        listOfNotNull(
+            MenuEntry("Languages", Route.Languages),
+            MenuEntry("Settings", Route.Settings),
+            MenuEntry("Offline translation", Route.OfflineTranslation).takeIf { hasOfflineTranslation },
+            MenuEntry("Keyboard shortcuts", Route.Shortcuts),
+        ),
+    ),
     MenuGroup(NavSection.ABOUT, listOf(MenuEntry("Statistics", Route.Stats), MenuEntry("About", Route.About))),
 )
 
