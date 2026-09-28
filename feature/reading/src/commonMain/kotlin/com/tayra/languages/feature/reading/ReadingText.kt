@@ -4,7 +4,15 @@ import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.drag
 import androidx.compose.foundation.gestures.waitForUpOrCancellation
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.ui.Alignment
+import com.tayra.languages.core.domain.service.SentenceTranslation
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
@@ -79,13 +87,16 @@ fun ReadingText(
     modifier: Modifier = Modifier,
     /** Lay each sentence out on its own line instead of flowing a paragraph together. */
     splitSentences: Boolean = false,
+    /** Translations shown under each sentence, keyed by [RenderedSentence.displayText]; null hides them. */
+    translations: Map<String, SentenceTranslation>? = null,
 ) {
     var itemOffset = 0
+    val perSentence = splitSentences || translations != null
     Column(modifier) {
         page.paragraphs.forEach { paragraph ->
             // A run of items that shares one Text: the whole paragraph, or one sentence each.
-            val runs = if (splitSentences) paragraph.sentences.map { it.items } else listOf(paragraph.sentences.flatMap { it.items })
-            runs.forEach { runItems ->
+            val runs = if (perSentence) paragraph.sentences.map { it.items to it.displayText } else listOf(paragraph.sentences.flatMap { it.items } to "")
+            runs.forEach { (runItems, sentenceText) ->
                 val first = itemOffset
                 itemOffset += runItems.size
                 ParagraphText(
@@ -102,8 +113,33 @@ fun ReadingText(
                     rightToLeft = rightToLeft,
                     callbacks = callbacks,
                 )
+                if (translations != null && sentenceText.any { it.isLetter() }) {
+                    TranslationLine(translations[sentenceText], theme, fontScale)
+                }
             }
         }
+    }
+}
+
+/** The translation under a sentence: a spinner while it loads, nothing when the service has none. */
+@Composable
+private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, fontScale: Float) {
+    val color = theme.readingText.copy(alpha = 0.55f)
+    when (translation) {
+        is SentenceTranslation.Done -> Text(
+            translation.text,
+            style = TextStyle(fontSize = (14 * fontScale).sp, lineHeight = (14 * fontScale * 1.4f).sp, color = color),
+            modifier = Modifier.fillMaxWidth().padding(start = 12.dp, bottom = 10.dp),
+        )
+        SentenceTranslation.Loading, null -> Row(
+            Modifier.padding(start = 12.dp, top = 2.dp, bottom = 10.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            CircularProgressIndicator(modifier = Modifier.size(12.dp), strokeWidth = 1.5.dp, color = color)
+            Text("Translating\u2026", style = TextStyle(fontSize = (13 * fontScale).sp, color = color))
+        }
+        SentenceTranslation.Unavailable -> Spacer(Modifier.height(6.dp))
     }
 }
 

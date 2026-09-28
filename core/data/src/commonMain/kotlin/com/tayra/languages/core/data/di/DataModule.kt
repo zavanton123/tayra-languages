@@ -37,6 +37,8 @@ import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.domain.service.TermImportService
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.service.CachedSentenceTranslator
+import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import org.koin.core.module.Module
@@ -65,8 +67,10 @@ val dataModule: Module = module {
     single { createHttpClient() }
     single { WebPageImporter(get()) }
     single<ExampleSentencesProvider> { TatoebaExamplesProvider(get()) }
+    single { MyMemoryTranslationProvider(get(), get()) }
+    single<SentenceTranslator> { CachedSentenceTranslator(get<MyMemoryTranslationProvider>(), settings = { get<SettingsRepository>().current.nativeLanguage }) }
     single<TermTranslationProvider> {
-        TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), MyMemoryTranslationProvider(get(), get()), get())
+        TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), get<MyMemoryTranslationProvider>(), get())
     }
 
     single { TermService(get(), get()) }

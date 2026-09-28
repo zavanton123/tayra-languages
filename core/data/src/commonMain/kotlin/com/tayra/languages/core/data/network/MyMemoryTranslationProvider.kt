@@ -4,6 +4,7 @@ import co.touchlab.kermit.Logger
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.ZWS_STRING
+import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import io.ktor.client.HttpClient
@@ -24,11 +25,17 @@ class MyMemoryTranslationProvider(
     private val client: HttpClient,
     private val settings: SettingsRepository,
     private val baseUrl: String = "https://api.mymemory.translated.net/get",
-) : TermTranslationProvider {
+) : TermTranslationProvider, SentenceTranslator {
 
     private val json = Json { ignoreUnknownKeys = true }
 
-    override suspend fun suggestTranslation(text: String, language: Language): String? {
+    override suspend fun suggestTranslation(text: String, language: Language): String? = request(text, language)
+
+    /** Whole sentences use the same endpoint; MyMemory rejects queries over 500 characters. */
+    override suspend fun translate(text: String, language: Language): String? =
+        if (text.length > MAX_QUERY_LENGTH) null else request(text, language)
+
+    private suspend fun request(text: String, language: Language): String? {
         val query = text.replace(ZWS_STRING, "").trim()
         val source = LanguageCodes.codeFor(language.name) ?: return null
         val target = settings.current.nativeLanguage.trim().lowercase().ifEmpty { "en" }
@@ -61,6 +68,7 @@ class MyMemoryTranslationProvider(
     }
 
     private companion object {
+        const val MAX_QUERY_LENGTH = 480
         val SERVICE_MESSAGE_MARKERS = listOf("PLEASE SELECT", "QUERY LENGTH LIMIT", "MYMEMORY WARNING", "INVALID LANGUAGE")
     }
 }

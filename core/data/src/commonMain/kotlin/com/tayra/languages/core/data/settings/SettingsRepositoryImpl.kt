@@ -51,6 +51,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
             focusMode = store.getBoolean(Keys.FOCUS_MODE, defaults.focusMode),
             tapSetsStatus = store.getBoolean(Keys.TAP_SETS_STATUS, defaults.tapSetsStatus),
             splitSentences = store.getBoolean(Keys.SPLIT_SENTENCES, defaults.splitSentences),
+            showTranslations = store.getBoolean(Keys.SHOW_TRANSLATIONS, defaults.showTranslations),
             demoDataLoaded = store.getBoolean(Keys.DEMO_DATA, defaults.demoDataLoaded),
             nativeLanguage = LanguageCatalog.nativeOption(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
@@ -77,6 +78,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         store.putBoolean(Keys.FOCUS_MODE, s.focusMode)
         store.putBoolean(Keys.TAP_SETS_STATUS, s.tapSetsStatus)
         store.putBoolean(Keys.SPLIT_SENTENCES, s.splitSentences)
+        store.putBoolean(Keys.SHOW_TRANSLATIONS, s.showTranslations)
         store.putBoolean(Keys.DEMO_DATA, s.demoDataLoaded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
@@ -99,6 +101,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         const val FOCUS_MODE = "reading_focus_mode"
         const val TAP_SETS_STATUS = "reading_tap_sets_status"
         const val SPLIT_SENTENCES = "reading_split_sentences"
+        const val SHOW_TRANSLATIONS = "reading_show_translations"
         const val DEMO_DATA = "is_demo_data"
         const val NATIVE_LANGUAGE = "native_language"
         const val LEGACY_TRANSLATION_TARGET = "translation_target_language"

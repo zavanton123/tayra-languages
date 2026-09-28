@@ -316,6 +316,7 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         SwitchRow(AppIcons.Bolt, "Quick set status (tap unknown → 1)", prefs.tapSetsStatus) { viewModel.toggleTapSetsStatus() }
         SwitchRow(AppIcons.Palette, "Highlight terms", prefs.showHighlights) { viewModel.toggleHighlights() }
         SwitchRow(AppIcons.LineSpacing, "One sentence per line", prefs.splitSentences) { viewModel.toggleSplitSentences() }
+        SwitchRow(AppIcons.Translate, "Show translations", prefs.showTranslations) { viewModel.toggleShowTranslations() }
 
         MenuSection("Typography")
         AdjustRow(AppIcons.FormatSize, "Font size", "${(prefs.readingFontScale * 100).toInt()}%", onLess = { viewModel.adjustFontScale(-0.1f) }, onMore = { viewModel.adjustFontScale(0.1f) })
@@ -599,6 +600,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 lineHeight = state.settings.readingLineHeight,
                 rightToLeft = state.language?.rightToLeft == true,
                 splitSentences = state.settings.splitSentences,
+                translations = if (state.settings.showTranslations) state.translations else null,
                 callbacks = callbacks,
             )
             if (state.selecting) {
