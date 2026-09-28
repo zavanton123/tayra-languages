@@ -53,7 +53,7 @@ class RepositoryIntegrationTest {
         val bookService = BookService(books, languages)
         val statsService = BookStatsService(books, languages, settings, readingService)
         val languageService = LanguageService(languages, bookService, settings)
-        val popups = TermPopupBuilder(terms, languages, settings, readingService)
+        val popups = TermPopupBuilder(terms, languages, readingService)
         val demo = DemoDataService(DatabaseMaintenanceImpl(provider), languages, books, languageService, settings)
 
         suspend fun english(): Long = languages.save(

@@ -89,7 +89,7 @@ val dataModule: Module = module {
 
     single { TermService(get(), get()) }
     single { ReadingService(get(), get(), get(), get(), get()) }
-    single { TermPopupBuilder(get(), get(), get(), get()) }
+    single { TermPopupBuilder(get(), get(), get()) }
     single { BookService(get(), get()) }
     single { BookStatsService(get(), get(), get(), get()) }
     single { LanguageService(get(), get(), get()) }

@@ -44,8 +44,6 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
             showHighlights = store.getBoolean(Keys.SHOW_HIGHLIGHTS, defaults.showHighlights),
             showStreakOnHome = store.getBoolean(Keys.SHOW_STREAK, defaults.showStreakOnHome),
             statsSampleSize = store.getInt(Keys.STATS_SAMPLE_SIZE, defaults.statsSampleSize),
-            promoteParentTranslation = store.getBoolean(Keys.PROMOTE_PARENT_TRANSLATION, defaults.promoteParentTranslation),
-            showComponents = store.getBoolean(Keys.SHOW_COMPONENTS, defaults.showComponents),
             readingFontScale = store.getFloat(Keys.FONT_SCALE, defaults.readingFontScale),
             readingLineHeight = store.getFloat(Keys.LINE_HEIGHT, defaults.readingLineHeight),
             readingColumnWidth = store.getInt(Keys.COLUMN_WIDTH, defaults.readingColumnWidth),
@@ -74,8 +72,6 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         store.putBoolean(Keys.SHOW_HIGHLIGHTS, s.showHighlights)
         store.putBoolean(Keys.SHOW_STREAK, s.showStreakOnHome)
         store.putInt(Keys.STATS_SAMPLE_SIZE, s.statsSampleSize)
-        store.putBoolean(Keys.PROMOTE_PARENT_TRANSLATION, s.promoteParentTranslation)
-        store.putBoolean(Keys.SHOW_COMPONENTS, s.showComponents)
         store.putFloat(Keys.FONT_SCALE, s.readingFontScale)
         store.putFloat(Keys.LINE_HEIGHT, s.readingLineHeight)
         store.putInt(Keys.COLUMN_WIDTH, s.readingColumnWidth)
@@ -100,8 +96,6 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         const val SHOW_HIGHLIGHTS = "show_highlights"
         const val SHOW_STREAK = "show_streak_on_home"
         const val STATS_SAMPLE_SIZE = "stats_calc_sample_size"
-        const val PROMOTE_PARENT_TRANSLATION = "term_popup_promote_parent_translation"
-        const val SHOW_COMPONENTS = "term_popup_show_components"
         const val FONT_SCALE = "reading_font_scale"
         const val LINE_HEIGHT = "reading_line_height"
         const val COLUMN_WIDTH = "reading_column_width"
