@@ -69,13 +69,15 @@ class OnlineDictionariesTest {
         ).mapIndexed { i, url -> com.tayra.languages.core.domain.model.LanguageDictionary(id = i.toLong(), useFor = com.tayra.languages.core.domain.model.DictionaryUse.TERMS, type = com.tayra.languages.core.domain.model.DictionaryType.POPUP, url = url) }
         val byDictionary = OnlineDictionaries.labels(infopedia, pt, en)
         val labels = infopedia.map { byDictionary.getValue(it) }
-        assertEquals(listOf("infopedia.pt \u00b7 portugues ingles", "infopedia.pt \u00b7 lingua portuguesa", "infopedia.pt \u00b7 verbos portugueses", "verbix.com \u00b7 1", "verbix.com \u00b7 2"), labels)
+        assertEquals(listOf("Infopédia \u00b7 PT\u2013EN", "Infopédia \u00b7 PT", "Infopédia \u00b7 verbs", "Verbix \u00b7 1", "Verbix \u00b7 2"), labels)
     }
 
     @Test
     fun storedUrlsAreNamedFromTheCatalog() {
         assertEquals("Google Translate", OnlineDictionaries.displayName("https://translate.google.com/?sl=pt&tl=ru&text=[LUTE]&op=translate", pt, ru))
         assertEquals("Wiktionary (Portuguese)", OnlineDictionaries.displayName("https://pt.wiktionary.org/wiki/[LUTE]", pt, ru))
-        assertEquals("michaelis.uol.com.br", OnlineDictionaries.displayName("https://michaelis.uol.com.br/busca?palavra=[LUTE]", pt, ru))
+        assertEquals("Michaelis", OnlineDictionaries.displayName("https://michaelis.uol.com.br/busca?palavra=[LUTE]", pt, ru))
+        assertEquals("dle.rae.es".let { "RAE" }, OnlineDictionaries.displayName("https://dle.rae.es/[LUTE]", LanguageOption("es", "Spanish"), en))
+        assertEquals("unknown.example", OnlineDictionaries.displayName("https://unknown.example/x/[LUTE]", pt, en))
     }
 }
