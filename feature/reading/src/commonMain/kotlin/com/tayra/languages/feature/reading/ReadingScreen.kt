@@ -33,6 +33,7 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -317,6 +318,7 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         SwitchRow(AppIcons.Palette, "Highlight terms", prefs.showHighlights) { viewModel.toggleHighlights() }
         SwitchRow(AppIcons.LineSpacing, "One sentence per line", prefs.splitSentences) { viewModel.toggleSplitSentences() }
         SwitchRow(AppIcons.Translate, "Show translations", prefs.showTranslations) { viewModel.toggleShowTranslations() }
+        MenuRow(Icons.Default.Refresh, "Clear translation cache") { onClose(); viewModel.clearTranslationCache() }
 
         MenuSection("Typography")
         AdjustRow(AppIcons.FormatSize, "Font size", "${(prefs.readingFontScale * 100).toInt()}%", onLess = { viewModel.adjustFontScale(-0.1f) }, onMore = { viewModel.adjustFontScale(0.1f) })
@@ -341,7 +343,6 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         MenuSection("More")
         MenuRow(AppIcons.Palette, "Next theme") { onClose(); actions.onNextTheme() }
         MenuRow(AppIcons.Keyboard, "Keyboard shortcuts") { onClose(); actions.onShortcuts() }
-        MenuRow(AppIcons.Translate, "Clear translation cache") { onClose(); viewModel.clearTranslationCache() }
         if (!state.book?.sourceUri.isNullOrBlank()) MenuRow(AppIcons.Link, "Show source URL") { onClose(); actions.onSource() }
     }
 }
