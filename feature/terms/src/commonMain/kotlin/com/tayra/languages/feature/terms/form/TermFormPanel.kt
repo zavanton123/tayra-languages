@@ -147,11 +147,13 @@ fun TermFormPanel(
         } ?: ErrorMessage(state.error)
 
         if (embedded) {
-            LanguageSelector(state, viewModel)
-            TermField(state, viewModel, direction, focusRequester)
-            RomanizationField(state, viewModel)
-            TranslationField(state, viewModel)
-            StatusSelector(selected = draft.status, onSelect = viewModel::setStatus)
+            SectionCard(AppIcons.Abc, "Term", tint = MaterialTheme.colorScheme.primary) {
+                LanguageSelector(state, viewModel)
+                TermField(state, viewModel, direction, focusRequester)
+                RomanizationField(state, viewModel)
+                TranslationField(state, viewModel)
+                StatusSelector(selected = draft.status, onSelect = viewModel::setStatus, expanded = true)
+            }
         } else {
             StandaloneFields(state, viewModel, direction, focusRequester, onConfirmDelete = { confirmDelete = true })
         }
@@ -161,9 +163,7 @@ fun TermFormPanel(
             pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
         }
 
-        if (language != null && draft.text.isNotBlank()) {
-            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
-            SectionTitle(AppIcons.Link, "Dictionaries")
+        if (language != null && draft.text.isNotBlank()) SectionCard(AppIcons.Link, "Dictionaries", tint = null) {
             if (language.termDictionaries.isEmpty()) {
                 Text("No online dictionaries enabled for ${language.name}.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
@@ -418,6 +418,35 @@ private fun PanelHeader(language: Language?, nativeLanguage: String, onClose: ((
     }
 }
 
+/**
+ * A rounded section of the pane. [tint] gives a lightly coloured background; null gives the
+ * neutral variant; [filled] false leaves the card white with only a border.
+ */
+@Composable
+private fun SectionCard(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    title: String,
+    count: Int? = null,
+    tint: Color? = null,
+    filled: Boolean = true,
+    content: @Composable () -> Unit,
+) {
+    val colors = MaterialTheme.colorScheme
+    val background = when {
+        !filled -> colors.surface
+        tint != null -> tint.copy(alpha = 0.05f)
+        else -> colors.surfaceVariant.copy(alpha = 0.4f)
+    }
+    val border = if (tint != null) tint.copy(alpha = 0.15f) else colors.outlineVariant
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(background).border(1.dp, border, RoundedCornerShape(14.dp)).padding(14.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        SectionTitle(icon, title, count)
+        content()
+    }
+}
+
 @Composable
 private fun SectionTitle(icon: androidx.compose.ui.graphics.vector.ImageVector, title: String, count: Int? = null) {
     val colors = MaterialTheme.colorScheme
@@ -521,8 +550,7 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
 @Composable
 private fun DictionarySection(lookup: DictionaryLookup, onAdd: (String) -> Unit) {
     val colors = MaterialTheme.colorScheme
-    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-        SectionTitle(AppIcons.Book, "Dictionary", lookup.entries.size)
+    SectionCard(AppIcons.Book, "Dictionary", count = lookup.entries.size, tint = null, filled = false) {
         lookup.entries.forEachIndexed { index, entry ->
             if (index > 0) HorizontalDivider(Modifier.padding(vertical = 6.dp), color = colors.outlineVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.padding(top = 4.dp)) {
@@ -622,13 +650,6 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
         }
         if (canOpen && (state.examples.isNotEmpty() || state.examplesTotal != null)) {
             OutlineActionButton(if (state.examplesTotal != null) "View all $total examples" else "View more examples") { onOpenExamples!!.invoke(languageId!!, term) }
-            Text(
-                "Open the full examples search",
-                Modifier.fillMaxWidth(),
-                style = MaterialTheme.typography.bodySmall,
-                color = colors.onSurfaceVariant,
-                textAlign = androidx.compose.ui.text.style.TextAlign.Center,
-            )
         }
     }
 }
