@@ -36,6 +36,7 @@ import androidx.compose.material3.TooltipBox
 import androidx.compose.material3.rememberTooltipState
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -147,12 +148,12 @@ fun TermFormPanel(
         } ?: ErrorMessage(state.error)
 
         if (embedded) {
-            SectionCard(AppIcons.Abc, "Term", tint = MaterialTheme.colorScheme.primary) {
+            SectionCard({ TermBadge() }, "Term", tint = MaterialTheme.colorScheme.primary) {
                 LanguageSelector(state, viewModel)
                 TermField(state, viewModel, direction, focusRequester)
                 RomanizationField(state, viewModel)
-                TranslationField(state, viewModel)
-                StatusSelector(selected = draft.status, onSelect = viewModel::setStatus, expanded = true)
+                TranslationField(state, viewModel, compact = true)
+                StatusSelector(selected = draft.status, onSelect = viewModel::setStatus, large = true)
             }
         } else {
             StandaloneFields(state, viewModel, direction, focusRequester, onConfirmDelete = { confirmDelete = true })
@@ -163,7 +164,7 @@ fun TermFormPanel(
             pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
         }
 
-        if (language != null && draft.text.isNotBlank()) SectionCard(AppIcons.Link, "Dictionaries", tint = null) {
+        if (language != null && draft.text.isNotBlank()) SectionCard({ BadgeIcon(AppIcons.Link) }, "Dictionaries", tint = null) {
             if (language.termDictionaries.isEmpty()) {
                 Text("No online dictionaries enabled for ${language.name}.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
@@ -221,6 +222,7 @@ private fun TermField(state: TermFormUiState, viewModel: TermFormViewModel, dire
         trailingIcon = { SpeakButton(state.draft.text, language?.let { LanguageCodes.codeFor(it.name) }) },
         textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
         shape = RoundedCornerShape(10.dp),
+        colors = fieldColors(),
         modifier = Modifier.fillMaxWidth().focusRequester(focusRequester),
     )
 }
@@ -239,7 +241,7 @@ private fun RomanizationField(state: TermFormUiState, viewModel: TermFormViewMod
 }
 
 @Composable
-private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewModel, hint: String? = null) {
+private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewModel, hint: String? = null, compact: Boolean = false) {
     OutlinedTextField(
         value = state.draft.translation,
         onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
@@ -249,11 +251,19 @@ private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewMode
             hint != null -> ({ Text(hint) })
             else -> null
         },
-        minLines = 3,
+        minLines = if (compact) 1 else 3,
         shape = RoundedCornerShape(10.dp),
+        colors = fieldColors(),
         modifier = Modifier.fillMaxWidth(),
     )
 }
+
+/** Text fields stay white even inside a tinted card. */
+@Composable
+private fun fieldColors() = OutlinedTextFieldDefaults.colors(
+    focusedContainerColor = MaterialTheme.colorScheme.surface,
+    unfocusedContainerColor = MaterialTheme.colorScheme.surface,
+)
 
 /** Parent term with suggestions from the language's existing terms. */
 @Composable
@@ -368,29 +378,32 @@ private fun InfoRow(label: String, value: String) {
 val LanguageDictionary.displayName: String
     get() = url.substringAfter("://").substringBefore("/").removePrefix("www.").ifEmpty { "Dictionary" }
 
-/** Status buttons 1–5 and W; [expanded] stretches them to fill the row. */
+/**
+ * Status buttons 1–5 and W. [expanded] stretches them to fill the row; [large] draws fixed
+ * squares instead of compact chips.
+ */
 @Composable
-fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false) {
+fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false, large: Boolean = false) {
     val colors = TayraTheme.current.statusColors
-    Row(if (expanded) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (expanded) 8.dp else 4.dp)) {
+    Row(if (expanded) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (expanded || large) 8.dp else 4.dp)) {
         // "Ignored" is set from the reading page, not from the form.
         TermStatus.selectable.filter { it != TermStatus.IGNORED }.forEach { status ->
             val isSelected = status == selected
             val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
             Box(
                 Modifier
-                    .then(if (expanded) Modifier.weight(1f).height(48.dp) else Modifier)
-                    .clip(RoundedCornerShape(if (expanded) 8.dp else 4.dp))
+                    .then(if (expanded) Modifier.weight(1f).height(48.dp) else if (large) Modifier.size(52.dp) else Modifier)
+                    .clip(RoundedCornerShape(if (expanded || large) 8.dp else 4.dp))
                     .background(background)
-                    .border(if (isSelected) 2.dp else 0.dp, if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, RoundedCornerShape(if (expanded) 8.dp else 4.dp))
+                    .border(if (isSelected) 2.dp else 0.dp, if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, RoundedCornerShape(if (expanded || large) 8.dp else 4.dp))
                     .clickable { onSelect(status) }
-                    .then(if (expanded) Modifier else Modifier.padding(horizontal = 12.dp, vertical = 8.dp)),
+                    .then(if (expanded || large) Modifier else Modifier.padding(horizontal = 12.dp, vertical = 8.dp)),
                 contentAlignment = Alignment.Center,
             ) {
                 Text(
                     text = status.abbreviation,
                     color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color.Black,
-                    style = if (expanded) MaterialTheme.typography.titleMedium else MaterialTheme.typography.labelLarge,
+                    style = if (expanded || large) MaterialTheme.typography.titleMedium else MaterialTheme.typography.labelLarge,
                     fontWeight = FontWeight.SemiBold,
                 )
             }
@@ -424,7 +437,7 @@ private fun PanelHeader(language: Language?, nativeLanguage: String, onClose: ((
  */
 @Composable
 private fun SectionCard(
-    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    icon: @Composable () -> Unit,
     title: String,
     count: Int? = null,
     tint: Color? = null,
@@ -442,9 +455,38 @@ private fun SectionCard(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(background).border(1.dp, border, RoundedCornerShape(14.dp)).padding(14.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        SectionTitle(icon, title, count)
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            icon()
+            Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            if (count != null) CountBadge(count)
+        }
         content()
     }
+}
+
+/** A filled blue label reading "Aa", the mark of the term section. */
+@Composable
+private fun TermBadge() {
+    Box(
+        Modifier.size(width = 28.dp, height = 22.dp).clip(RoundedCornerShape(topStart = 5.dp, bottomStart = 5.dp, topEnd = 9.dp, bottomEnd = 9.dp))
+            .background(MaterialTheme.colorScheme.primary),
+        contentAlignment = Alignment.Center,
+    ) { Text("Aa", color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.Bold) }
+}
+
+/** An outlined "A–Z" tag, the mark of the offline dictionary section. */
+@Composable
+private fun DictionaryBadge() {
+    val primary = MaterialTheme.colorScheme.primary
+    Box(
+        Modifier.size(width = 28.dp, height = 22.dp).clip(RoundedCornerShape(5.dp)).border(1.5.dp, primary, RoundedCornerShape(5.dp)),
+        contentAlignment = Alignment.Center,
+    ) { Text("A\u2013Z", color = primary, style = MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Bold) }
+}
+
+@Composable
+private fun BadgeIcon(icon: androidx.compose.ui.graphics.vector.ImageVector) {
+    Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
 }
 
 @Composable
@@ -550,7 +592,7 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
 @Composable
 private fun DictionarySection(lookup: DictionaryLookup, onAdd: (String) -> Unit) {
     val colors = MaterialTheme.colorScheme
-    SectionCard(AppIcons.Book, "Dictionary", count = lookup.entries.size, tint = null, filled = false) {
+    SectionCard({ DictionaryBadge() }, "Dictionary", count = lookup.entries.size, tint = null, filled = false) {
         lookup.entries.forEachIndexed { index, entry ->
             if (index > 0) HorizontalDivider(Modifier.padding(vertical = 6.dp), color = colors.outlineVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.padding(top = 4.dp)) {
