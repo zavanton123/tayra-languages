@@ -3,6 +3,7 @@ package com.tayra.languages.core.data.translation
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.service.LocalPackage
 import com.tayra.languages.core.domain.service.LocalSentenceTranslator
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.Dispatchers
@@ -16,7 +17,9 @@ import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
+import kotlinx.serialization.json.booleanOrNull
 import kotlinx.serialization.json.jsonPrimitive
+import kotlinx.serialization.json.longOrNull
 import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.File
@@ -55,10 +58,25 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
         "Argos Translate is not available: ${e.message}"
     }
 
-    override suspend fun installPackage(fromCode: String, toCode: String): String {
-        val reply = request(INSTALL_TIMEOUT_MS, "cmd" to "install", "from" to fromCode, "to" to toCode)
-        val installed = reply["installed"]?.jsonArray?.map { it.jsonPrimitive.content } ?: emptyList()
-        return if (installed.isEmpty()) "Packages for $fromCode→$toCode were already installed." else "Installed ${installed.joinToString(", ")}."
+    override suspend fun packages(): List<LocalPackage> =
+        request(INDEX_TIMEOUT_MS, "cmd" to "packages")["packages"]?.jsonArray?.map { element ->
+            val o = element.jsonObject
+            LocalPackage(
+                fromCode = o.getValue("from").jsonPrimitive.content,
+                toCode = o.getValue("to").jsonPrimitive.content,
+                fromName = o["fromName"]?.jsonPrimitive?.content ?: o.getValue("from").jsonPrimitive.content,
+                toName = o["toName"]?.jsonPrimitive?.content ?: o.getValue("to").jsonPrimitive.content,
+                installed = o["installed"]?.jsonPrimitive?.booleanOrNull ?: false,
+                sizeBytes = o["size"]?.jsonPrimitive?.longOrNull ?: 0L,
+            )
+        }.orEmpty().sortedBy { it.title }
+
+    override suspend fun installPackage(fromCode: String, toCode: String) {
+        request(INSTALL_TIMEOUT_MS, "cmd" to "install", "from" to fromCode, "to" to toCode, "direct" to "true")
+    }
+
+    override suspend fun removePackage(fromCode: String, toCode: String) {
+        request(STATUS_TIMEOUT_MS, "cmd" to "remove", "from" to fromCode, "to" to toCode)
     }
 
     /** Sends one request and returns the reply object; throws on transport or worker errors. */
@@ -113,6 +131,7 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
 
     private companion object {
         const val STATUS_TIMEOUT_MS = 30_000L
+        const val INDEX_TIMEOUT_MS = 120_000L
         const val TRANSLATE_TIMEOUT_MS = 120_000L
         const val INSTALL_TIMEOUT_MS = 15L * 60 * 1000
     }
