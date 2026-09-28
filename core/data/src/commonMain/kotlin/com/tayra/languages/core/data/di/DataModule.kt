@@ -84,7 +84,7 @@ val dataModule: Module = module {
         })
     }
     single<TermTranslationProvider> {
-        TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), get<MyMemoryTranslationProvider>(), get())
+        TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), get<MyMemoryTranslationProvider>(), get(), get())
     }
 
     single { TermService(get(), get()) }
