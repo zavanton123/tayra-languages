@@ -6,7 +6,6 @@ import com.tayra.languages.core.domain.model.ZWS_STRING
 import com.tayra.languages.core.domain.render.MultiwordTermIndex
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.repository.TermRepository
-import com.tayra.languages.core.domain.settings.SettingsRepository
 
 /** Data shown when hovering over / tapping a term. */
 data class TermPopup(
@@ -27,7 +26,6 @@ data class TermPopup(
 class TermPopupBuilder(
     private val terms: TermRepository,
     private val languages: LanguageRepository,
-    private val settings: SettingsRepository,
     private val readingService: ReadingService,
 ) {
 
@@ -35,16 +33,15 @@ class TermPopupBuilder(
     suspend fun build(termId: Long): TermPopup? {
         val term = terms.getById(termId) ?: return null
         val parents = terms.parents(termId)
-        val prefs = settings.current
-
-        val components = if (prefs.showComponents) findComponents(term) else emptyList()
+        val components = findComponents(term)
 
         val base = popupOf(term, parents)
         if (!base.hasContent && parents.isEmpty() && components.isEmpty()) return null
 
         var main = base
         var parentPopups = parents.map { popupOf(it, emptyList()) }
-        if (prefs.promoteParentTranslation && parents.size == 1) {
+        // A term with one parent borrows the parent's translation when it has none of its own.
+        if (parents.size == 1) {
             val parentTranslation = parentPopups[0].translation
             if (main.translation.isEmpty()) main = main.copy(translation = parentTranslation)
             if (main.translation == parentTranslation) parentPopups = listOf(parentPopups[0].copy(translation = ""))

@@ -11,8 +11,6 @@ data class UserSettings(
     val showHighlights: Boolean = true,
     val showStreakOnHome: Boolean = false,
     val statsSampleSize: Int = 5,
-    val promoteParentTranslation: Boolean = true,
-    val showComponents: Boolean = true,
     val readingFontScale: Float = 1.0f,
     val readingLineHeight: Float = 1.6f,
     val readingColumnWidth: Int = 720,
