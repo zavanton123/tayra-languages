@@ -233,7 +233,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 val groups = shown.groupBy { it.toCode }.entries.sortedWith(compareBy({ it.key != native }, { it.value.first().toName }))
                 groups.forEach { (_, group) ->
                     Text(
-                        "Into ${group.first().toName}",
+                        group.first().toName,
                         style = MaterialTheme.typography.titleSmall,
                         color = MaterialTheme.colorScheme.primary,
                         modifier = Modifier.padding(top = 8.dp),
