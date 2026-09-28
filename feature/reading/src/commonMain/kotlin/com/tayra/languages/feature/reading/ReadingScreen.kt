@@ -687,14 +687,16 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                     Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
                     Text("Back to library", style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
                 }
-                if (last) {
+                val archived = state.book?.archived == true
+                if (last || archived) {
                     Row(
-                        Modifier.clip(RoundedCornerShape(10.dp)).clickable(onClick = viewModel::archiveBook).padding(horizontal = 12.dp, vertical = 12.dp),
+                        Modifier.clip(RoundedCornerShape(10.dp)).clickable(onClick = if (archived) viewModel::unarchiveBook else viewModel::archiveBook)
+                            .padding(horizontal = 12.dp, vertical = 12.dp),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(8.dp),
                     ) {
                         Icon(AppIcons.Book, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-                        Text("Archive book", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                        Text(if (archived) "Unarchive book" else "Archive book", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                     }
                 }
                 Spacer(Modifier.weight(1f))
