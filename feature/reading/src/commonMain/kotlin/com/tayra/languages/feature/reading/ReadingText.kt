@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.CircularProgressIndicator
@@ -89,9 +90,12 @@ fun ReadingText(
     splitSentences: Boolean = false,
     /** Translations shown under each sentence, keyed by [RenderedSentence.displayText]; null hides them. */
     translations: Map<String, SentenceTranslation>? = null,
+    /** With translations, put each sentence in a left column and its translation in a right one. */
+    sideBySide: Boolean = false,
 ) {
     var itemOffset = 0
     val perSentence = splitSentences || translations != null
+    val twoColumns = translations != null && sideBySide
     Column(modifier) {
         page.paragraphs.forEach { paragraph ->
             // A run of items that shares one Text: the whole paragraph, or one sentence each.
@@ -99,22 +103,34 @@ fun ReadingText(
             runs.forEach { (runItems, sentenceText) ->
                 val first = itemOffset
                 itemOffset += runItems.size
-                ParagraphText(
-                    items = runItems,
-                    firstItemIndex = first,
-                    theme = theme,
-                    showHighlights = showHighlights,
-                    marked = marked,
-                    hovered = hovered,
-                    selection = selection,
-                    popupItem = popupItem,
-                    fontScale = fontScale,
-                    lineHeight = lineHeight,
-                    rightToLeft = rightToLeft,
-                    callbacks = callbacks,
-                )
-                if (translations != null && sentenceText.any { it.isLetter() }) {
-                    TranslationLine(translations[sentenceText], theme, fontScale)
+                val sentence: @Composable () -> Unit = {
+                    ParagraphText(
+                        items = runItems,
+                        firstItemIndex = first,
+                        theme = theme,
+                        showHighlights = showHighlights,
+                        marked = marked,
+                        hovered = hovered,
+                        selection = selection,
+                        popupItem = popupItem,
+                        fontScale = fontScale,
+                        lineHeight = lineHeight,
+                        rightToLeft = rightToLeft,
+                        callbacks = callbacks,
+                    )
+                }
+                val translated = translations != null && sentenceText.any { it.isLetter() }
+                if (twoColumns) {
+                    Row(Modifier.fillMaxWidth().padding(bottom = 6.dp), verticalAlignment = Alignment.Top) {
+                        Box(Modifier.weight(1f)) { sentence() }
+                        Box(Modifier.width(24.dp))
+                        Box(Modifier.weight(1f)) {
+                            if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true)
+                        }
+                    }
+                } else {
+                    sentence()
+                    if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
                 }
             }
         }
@@ -123,13 +139,16 @@ fun ReadingText(
 
 /** The translation under a sentence: a spinner while it loads, nothing when the service has none. */
 @Composable
-private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, fontScale: Float) {
-    val color = theme.readingText.copy(alpha = 0.55f)
+private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, fontScale: Float, lineHeight: Float, large: Boolean = false) {
+    val color = theme.readingText.copy(alpha = if (large) 0.7f else 0.55f)
+    // In the side-by-side layout the translation mirrors the original's size and line height so the rows line up.
+    val size = if (large) 18 * fontScale else 14 * fontScale
+    val spacing = if (large) lineHeight else 1.4f
     when (translation) {
         is SentenceTranslation.Done -> Text(
             translation.text,
-            style = TextStyle(fontSize = (14 * fontScale).sp, lineHeight = (14 * fontScale * 1.4f).sp, color = color),
-            modifier = Modifier.fillMaxWidth().padding(start = 12.dp, bottom = 10.dp),
+            style = TextStyle(fontSize = size.sp, lineHeight = (size * spacing).sp, color = color),
+            modifier = Modifier.fillMaxWidth().padding(start = if (large) 0.dp else 12.dp, bottom = if (large) 0.dp else 10.dp),
         )
         SentenceTranslation.Loading, null -> Row(
             Modifier.padding(start = 12.dp, top = 2.dp, bottom = 10.dp),

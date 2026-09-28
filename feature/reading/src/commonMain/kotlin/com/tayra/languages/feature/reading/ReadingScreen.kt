@@ -324,6 +324,7 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         SwitchRow(AppIcons.Palette, "Highlight terms", prefs.showHighlights) { viewModel.toggleHighlights() }
         SwitchRow(AppIcons.LineSpacing, "One sentence per line", prefs.splitSentences) { viewModel.toggleSplitSentences() }
         SwitchRow(AppIcons.Translate, "Show translations", prefs.showTranslations) { viewModel.toggleShowTranslations() }
+        SwitchRow(AppIcons.ViewColumn, "Translations side by side", prefs.sideBySideTranslations) { viewModel.toggleSideBySideTranslations() }
         if (viewModel.hasLocalTranslator) {
             SwitchRow(AppIcons.Download, "Translate offline with Argos", prefs.translationEngine == TranslationEngine.ARGOS) { viewModel.toggleTranslationEngine() }
         }
@@ -614,6 +615,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 rightToLeft = state.language?.rightToLeft == true,
                 splitSentences = state.settings.splitSentences,
                 translations = if (state.settings.showTranslations) state.translations else null,
+                sideBySide = state.settings.sideBySideTranslations,
                 callbacks = callbacks,
             )
             if (state.selecting) {

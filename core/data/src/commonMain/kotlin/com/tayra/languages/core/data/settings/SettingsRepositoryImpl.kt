@@ -53,6 +53,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
             tapSetsStatus = store.getBoolean(Keys.TAP_SETS_STATUS, defaults.tapSetsStatus),
             splitSentences = store.getBoolean(Keys.SPLIT_SENTENCES, defaults.splitSentences),
             showTranslations = store.getBoolean(Keys.SHOW_TRANSLATIONS, defaults.showTranslations),
+            sideBySideTranslations = store.getBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, defaults.sideBySideTranslations),
             demoDataLoaded = store.getBoolean(Keys.DEMO_DATA, defaults.demoDataLoaded),
             nativeLanguage = LanguageCatalog.nativeOption(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
@@ -82,6 +83,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         store.putBoolean(Keys.TAP_SETS_STATUS, s.tapSetsStatus)
         store.putBoolean(Keys.SPLIT_SENTENCES, s.splitSentences)
         store.putBoolean(Keys.SHOW_TRANSLATIONS, s.showTranslations)
+        store.putBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, s.sideBySideTranslations)
         store.putBoolean(Keys.DEMO_DATA, s.demoDataLoaded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
@@ -106,6 +108,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         const val FOCUS_MODE = "reading_focus_mode"
         const val TAP_SETS_STATUS = "reading_tap_sets_status"
         const val SPLIT_SENTENCES = "reading_split_sentences"
+        const val SIDE_BY_SIDE_TRANSLATIONS = "reading_side_by_side_translations"
         const val SHOW_TRANSLATIONS = "reading_show_translations"
         const val TRANSLATION_ENGINE = "translation_engine"
         const val ARGOS_PYTHON = "argos_python"
