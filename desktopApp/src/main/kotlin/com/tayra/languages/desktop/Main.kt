@@ -49,7 +49,9 @@ fun main() {
 private fun setDockIcon() {
     runCatching {
         if (!Taskbar.isTaskbarSupported() || !Taskbar.getTaskbar().isSupported(Taskbar.Feature.ICON_IMAGE)) return
-        val resource = Thread.currentThread().contextClassLoader.getResource("window-icon.png") ?: return
+        // macOS expects the rounded plate with transparent margins; other systems use the square.
+        val name = if (isMacOs) "dock-icon.png" else "window-icon.png"
+        val resource = Thread.currentThread().contextClassLoader.getResource(name) ?: return
         Taskbar.getTaskbar().iconImage = ImageIO.read(resource)
     }
 }
