@@ -11,6 +11,7 @@ import com.tayra.languages.di.initKoin
 import io.github.vinceglb.filekit.FileKit
 import java.awt.Taskbar
 import java.lang.management.ManagementFactory
+import kotlin.system.exitProcess
 import javax.imageio.ImageIO
 
 private val isMacOs = System.getProperty("os.name").lowercase().contains("mac")
@@ -64,8 +65,9 @@ private fun setDockIcon() {
 
 /**
  * The Dock labels a bare JVM "java" unless it is started with `-Xdock:name`. Gradle passes the
- * flag, but an IDE run configuration does not, so in that case the app starts itself again with
- * the flag and lets the first process exit. Skipped when a debugger is attached.
+ * flag, but an IDE run configuration does not, so in that case this process starts the app again
+ * with the flag and then waits for it, mirroring its exit code: the IDE keeps a live process to
+ * stop, and stopping it also ends the app. Skipped when a debugger is attached.
  */
 private fun relaunchWithDockName(): Boolean {
     if (!isMacOs || System.getProperty(DOCK_NAMED_PROPERTY) != null) return false
@@ -76,8 +78,7 @@ private fun relaunchWithDockName(): Boolean {
     val java = ProcessHandle.current().info().command().orElse(null) ?: return false
     val command = listOf(java) + args +
         listOf("-Xdock:name=Tayra Languages", "-D$DOCK_NAMED_PROPERTY=true", "-cp", runtime.classPath, "com.tayra.languages.desktop.MainKt")
-    return runCatching {
-        ProcessBuilder(command).inheritIO().start()
-        true
-    }.getOrDefault(false)
+    val child = runCatching { ProcessBuilder(command).inheritIO().start() }.getOrElse { return false }
+    Runtime.getRuntime().addShutdownHook(Thread { if (child.isAlive) child.destroy() })
+    exitProcess(child.waitFor())
 }
