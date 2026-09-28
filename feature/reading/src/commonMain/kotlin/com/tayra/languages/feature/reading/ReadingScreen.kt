@@ -1,6 +1,7 @@
 package com.tayra.languages.feature.reading
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Arrangement
@@ -18,6 +19,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -55,6 +57,8 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
@@ -70,7 +74,11 @@ import androidx.compose.ui.window.Popup
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.settings.HotkeyAction
+import com.tayra.languages.core.domain.stats.BookStatsCalculator
+import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ConfirmDialog
+import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.StatusDistributionBar
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -206,17 +214,27 @@ fun ReadingScreen(
                     handleAction(action)
                 },
         ) {
-            if (state.settings.focusMode) {
-                FocusBar(state, viewModel, onMenu = { scope.launch { drawerState.open() } })
-            } else {
-                ReadingHeader(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = onHome)
+            val compact = LocalWindowWidth.current.isCompact
+            when {
+                state.settings.focusMode -> FocusBar(state, viewModel, onMenu = { scope.launch { drawerState.open() } })
+                compact -> ReadingHeader(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = onHome)
+                else -> {
+                    AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.BOOKS)
+                    ReaderToolbar(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = onHome)
+                }
             }
-            Row(Modifier.weight(1f)) {
+            Row(Modifier.weight(1f).background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else 0.3f))) {
                 Box(Modifier.weight(1f).fillMaxHeight()) {
                     ReadingBody(state, viewModel, onHome = onHome, focusText = { runCatching { focusRequester.requestFocus() } })
                 }
                 if (wide && state.panel != ReadingPanel.None) {
-                    Surface(Modifier.width(400.dp).fillMaxHeight().onFocusChanged { panelFocused = it.hasFocus }, tonalElevation = 2.dp) {
+                    Surface(
+                        Modifier.width(420.dp).fillMaxHeight().padding(top = 16.dp, end = 16.dp, bottom = 16.dp)
+                            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+                            .onFocusChanged { panelFocused = it.hasFocus },
+                        shape = RoundedCornerShape(14.dp),
+                        color = MaterialTheme.colorScheme.surface,
+                    ) {
                         PanelContent(state, viewModel, onNavigate)
                     }
                 }
@@ -360,6 +378,63 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
     }
 }
 
+/** Wide-screen toolbar: breadcrumb on the left, the pager in the middle and the page slider on the right. */
+@Composable
+private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit, onHome: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val rtl = state.language?.rightToLeft == true
+    Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
+        Row(Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically) {
+            IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = "Menu") }
+            Spacer(Modifier.width(8.dp))
+            Row(
+                Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onHome).padding(horizontal = 6.dp, vertical = 4.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(6.dp),
+            ) {
+                Icon(Icons.Default.Home, contentDescription = "Home", tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp))
+                Text("Books", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            }
+            Text("/", style = MaterialTheme.typography.bodyLarge, color = colors.outline, modifier = Modifier.padding(horizontal = 8.dp))
+            Text(
+                state.book?.title.orEmpty(),
+                style = MaterialTheme.typography.bodyLarge.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
+                fontWeight = FontWeight.SemiBold,
+                maxLines = 1,
+            )
+        }
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            PagerButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, "Previous page", enabled = !state.isFirstPage) { viewModel.goToRelativePage(-1) }
+            Text("Page ${state.pageNumber} of ${state.pageCount}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            PagerButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, "Next page", enabled = !state.isLastPage) { viewModel.goToRelativePage(1) }
+        }
+        Box(Modifier.weight(1f), contentAlignment = Alignment.CenterEnd) {
+            if (state.pageCount > 1) {
+                var sliderValue by remember(state.pageNumber) { mutableStateOf(state.pageNumber.toFloat()) }
+                Slider(
+                    value = sliderValue,
+                    onValueChange = { sliderValue = it },
+                    onValueChangeFinished = { viewModel.goToPage(sliderValue.toInt()) },
+                    valueRange = 1f..state.pageCount.toFloat(),
+                    steps = (state.pageCount - 2).coerceAtLeast(0),
+                    modifier = Modifier.widthIn(max = 280.dp).padding(start = 24.dp),
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun PagerButton(icon: androidx.compose.ui.graphics.vector.ImageVector, description: String, enabled: Boolean, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Box(
+        Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+            .clickable(enabled = enabled, onClick = onClick).padding(6.dp),
+    ) {
+        Icon(icon, contentDescription = description, tint = if (enabled) colors.onSurface else colors.outlineVariant)
+    }
+}
+
 /** Minimal header shown in focus mode: just the menu, the page position and a way out. */
 @Composable
 private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit) {
@@ -409,14 +484,28 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
     }
     val scrollState = rememberScrollState()
     LaunchedEffect(state.pageNumber) { scrollState.scrollTo(0) }
+    val compact = LocalWindowWidth.current.isCompact
+    val focus = state.settings.focusMode
+    val cardModifier = if (focus) {
+        Modifier.widthIn(max = state.settings.readingColumnWidth.dp).padding(horizontal = 16.dp, vertical = 12.dp)
+    } else {
+        Modifier.padding(if (compact) 12.dp else 16.dp)
+            .widthIn(max = state.settings.readingColumnWidth.dp + 64.dp)
+            .clip(RoundedCornerShape(14.dp))
+            .background(theme.readingBackground)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+            .padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 28.dp)
+    }
     Column(Modifier.fillMaxSize().verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
-        Column(Modifier.widthIn(max = state.settings.readingColumnWidth.dp).padding(horizontal = 16.dp, vertical = 12.dp)) {
-            if (state.pageNumber == 1 && !state.settings.focusMode) {
+        Column(cardModifier) {
+            if (!focus) {
                 Text(
                     state.book?.title.orEmpty(),
-                    style = MaterialTheme.typography.headlineSmall.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
-                    modifier = Modifier.padding(bottom = 12.dp),
+                    style = MaterialTheme.typography.headlineMedium.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
+                    fontWeight = FontWeight.Bold,
                 )
+                PageVocabulary(state)
+                HorizontalDivider(Modifier.padding(bottom = 20.dp), color = MaterialTheme.colorScheme.outlineVariant)
             }
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
             ReadingText(
@@ -436,8 +525,20 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 Text("Long-press the last word of the expression, or tap to cancel.", style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
             if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome)
-            Spacer(Modifier.height(120.dp))
         }
+        Spacer(Modifier.height(120.dp))
+    }
+}
+
+/** Distribution of term statuses on the current page, shown under the title. */
+@Composable
+private fun PageVocabulary(state: ReadingUiState) {
+    val stats = remember(state.page) { BookStatsCalculator.calculate(state.items) }
+    val colors = MaterialTheme.colorScheme
+    Row(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+        Text("Vocabulary on this page", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        StatusDistributionBar(stats, Modifier.widthIn(max = 360.dp).weight(1f, fill = false).fillMaxWidth())
+        Text(if (stats.distinctTerms > 0) "${stats.unknownPercent}% new" else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
 }
 

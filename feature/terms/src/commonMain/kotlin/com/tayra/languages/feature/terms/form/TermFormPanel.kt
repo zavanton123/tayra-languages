@@ -213,8 +213,9 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit) {
 @Composable
 private fun DictionarySection(lookup: DictionaryLookup, onAdd: (String) -> Unit) {
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-        Text("Dictionary", style = MaterialTheme.typography.titleSmall)
-        lookup.entries.forEach { entry ->
+        Text("Dictionary", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+        lookup.entries.forEachIndexed { index, entry ->
+            if (index > 0) HorizontalDivider(Modifier.padding(vertical = 6.dp), color = MaterialTheme.colorScheme.outlineVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 4.dp)) {
                 Text(entry.word, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold)
                 Text(entry.pos, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
