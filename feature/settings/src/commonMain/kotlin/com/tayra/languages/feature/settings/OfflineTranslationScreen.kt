@@ -32,6 +32,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -180,7 +182,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
     val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
     val inUse by viewModel.languagesInUse.collectAsStateWithLifecycle()
     var showAll by remember { mutableStateOf(false) }
-    LaunchedEffect(settings.argosPython) { viewModel.check() }
+    LaunchedEffect(settings.argosPython, settings.translationEngine) { if (settings.translationEngine == TranslationEngine.ARGOS) viewModel.check() }
 
     Scaffold(topBar = { AppTopBar(title = "Translation", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) }) { padding ->
         Column(
@@ -202,16 +204,6 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
 
-            Section("MyMemory")
-            OutlinedTextField(
-                value = settings.translationContactEmail,
-                onValueChange = { v -> viewModel.update { it.copy(translationContactEmail = v.trim()) } },
-                label = { Text("MyMemory contact email (optional)") },
-                supportingText = { Text("Raises the free daily quota from about 5,000 to 50,000 characters.") },
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
-            )
-
             Section("Engine")
             Dropdown(
                 options = viewModel.engines,
@@ -222,11 +214,26 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(
-                "Sentence translations in the reader and term suggestions come from this engine. Google needs an API key and Argos its models; without them MyMemory answers instead.",
+                "Sentence translations in the reader and term suggestions come from this engine; its own settings follow below. Google needs an API key and Argos its models; without them MyMemory answers instead.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
 
+            if (settings.translationEngine == TranslationEngine.MYMEMORY) {
+            Section("MyMemory")
+            OutlinedTextField(
+                value = settings.translationContactEmail,
+                onValueChange = { v -> viewModel.update { it.copy(translationContactEmail = v.trim()) } },
+                label = { Text("MyMemory contact email (optional)") },
+                supportingText = { Text("Raises the free daily quota from about 5,000 to 50,000 characters.") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+
+            }
+
+            if (settings.translationEngine == TranslationEngine.GOOGLE) {
+            var showKey by remember { mutableStateOf(false) }
             Section("Google Translate")
             val googleBusy by viewModel.googleBusy.collectAsStateWithLifecycle()
             val googleStatus by viewModel.googleStatus.collectAsStateWithLifecycle()
@@ -236,6 +243,8 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 label = { Text("API key") },
                 supportingText = { Text("A Google Cloud API key with the Cloud Translation API enabled. Calls are billed to that project. The key is ${viewModel.secretStorage}.") },
                 singleLine = true,
+                visualTransformation = if (showKey) VisualTransformation.None else PasswordVisualTransformation(),
+                trailingIcon = { TextButton(onClick = { showKey = !showKey }) { Text(if (showKey) "Hide" else "Show") } },
                 modifier = Modifier.fillMaxWidth(),
             )
             OutlinedButton(onClick = viewModel::checkGoogleKey, enabled = !googleBusy && settings.googleTranslateApiKey.isNotBlank()) {
@@ -243,7 +252,9 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
             }
             googleStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
 
-            if (viewModel.hasLocalTranslator) {
+            }
+
+            if (viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS) {
             Section("Argos Translate")
             Text(
                 "Argos Translate translates on this computer with no network. The app keeps its own Python and the language models in its data folder.",
