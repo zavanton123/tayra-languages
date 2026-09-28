@@ -49,7 +49,10 @@ class TextItem(
 }
 
 /** A sentence of rendered items. */
-data class RenderedSentence(val number: Int, val items: List<TextItem>)
+data class RenderedSentence(val number: Int, val items: List<TextItem>) {
+    /** The sentence as shown on screen, without paragraph marks or zero-width joins. */
+    val displayText: String get() = items.filter { !it.isParagraphMark }.joinToString("") { it.renderText }.trim()
+}
 
 /** A paragraph of rendered sentences. */
 data class RenderedParagraph(val number: Int, val sentences: List<RenderedSentence>)

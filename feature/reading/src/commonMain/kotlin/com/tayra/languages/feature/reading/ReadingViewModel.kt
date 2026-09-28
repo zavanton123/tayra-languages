@@ -13,6 +13,8 @@ import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.BulkTermUpdate
 import com.tayra.languages.core.domain.service.ReadingService
+import com.tayra.languages.core.domain.service.SentenceTranslation
+import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermPopup
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
@@ -65,6 +67,8 @@ data class ReadingUiState(
     val settings: UserSettings = UserSettings(),
     val error: String? = null,
     val flash: String? = null,
+    /** Sentence translations for the page, keyed by the sentence's display text. */
+    val translations: Map<String, SentenceTranslation> = emptyMap(),
 ) {
     val items: List<TextItem> get() = page.items
     val isLastPage: Boolean get() = pageNumber >= pageCount
@@ -99,6 +103,7 @@ class ReadingViewModel(
     private val popupBuilder: TermPopupBuilder,
     private val bookStats: BookStatsService,
     private val settingsRepository: SettingsRepository,
+    private val translator: SentenceTranslator,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(ReadingUiState())
@@ -107,6 +112,7 @@ class ReadingViewModel(
     val events = UiEvents<ReadingEvent>()
 
     private var popupJob: Job? = null
+    private var translationJob: Job? = null
     private var lastTranslation: Pair<String, Int>? = null
 
     init {
@@ -139,8 +145,10 @@ class ReadingViewModel(
                     popup = null,
                     panel = if (keepMarked) it.panel else ReadingPanel.None,
                     error = null,
+                    translations = if (keepMarked) it.translations else emptyMap(),
                 )
             }
+            translateSentences()
         } catch (e: Exception) {
             Logger.e(e) { "Could not load page" }
             _state.update { it.copy(loading = false, error = e.message ?: "Could not load page") }
@@ -439,12 +447,43 @@ class ReadingViewModel(
         viewModelScope.launch { events.send(ReadingEvent.OpenUrl(dictionary.lookupUrl(text.encodeURLParameter()))) }
     }
 
+    /**
+     * Fetches a translation for every sentence on the page, one request at a time, skipping
+     * sentences already translated. Restarted whenever the page or the setting changes.
+     */
+    private fun translateSentences() {
+        translationJob?.cancel()
+        val s = state.value
+        if (!s.settings.showTranslations) return
+        val language = s.language ?: return
+        val sentences = s.page.paragraphs.flatMap { it.sentences }.map { it.displayText }
+            .filter { it.any { c -> c.isLetter() } }.distinct()
+        val pending = sentences.filter { _state.value.translations[it] !is SentenceTranslation.Done }
+        if (pending.isEmpty()) return
+        _state.update { it.copy(translations = it.translations + pending.associateWith { SentenceTranslation.Loading }) }
+        translationJob = viewModelScope.launch {
+            for (sentence in pending) {
+                val result = translator.translate(sentence, language)
+                _state.update {
+                    it.copy(translations = it.translations + (sentence to (result?.let { t -> SentenceTranslation.Done(t) } ?: SentenceTranslation.Unavailable)))
+                }
+            }
+        }
+    }
+
     // ---- settings
 
     fun toggleHighlights() = updateSettings { it.copy(showHighlights = !it.showHighlights) }
     fun toggleFocusMode() = updateSettings { it.copy(focusMode = !it.focusMode) }
     fun toggleTapSetsStatus() = updateSettings { it.copy(tapSetsStatus = !it.tapSetsStatus) }
     fun toggleSplitSentences() = updateSettings { it.copy(splitSentences = !it.splitSentences) }
+    fun toggleShowTranslations() {
+        val enabling = !state.value.settings.showTranslations
+        viewModelScope.launch {
+            settingsRepository.update { it.copy(showTranslations = enabling) }
+            if (enabling) translateSentences() else translationJob?.cancel()
+        }
+    }
     fun nextTheme() = updateSettings { it.copy(themeId = AppThemes.next(it.themeId).id) }
     fun adjustFontScale(delta: Float) = updateSettings { it.copy(readingFontScale = (it.readingFontScale + delta).coerceIn(0.6f, 2.5f)) }
     fun adjustLineHeight(delta: Float) = updateSettings { it.copy(readingLineHeight = (it.readingLineHeight + delta).coerceIn(1.0f, 3.0f)) }

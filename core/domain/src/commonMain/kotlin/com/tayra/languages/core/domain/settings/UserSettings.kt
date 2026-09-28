@@ -18,6 +18,8 @@ data class UserSettings(
     val tapSetsStatus: Boolean = false,
     /** Start every sentence on its own line while reading. */
     val splitSentences: Boolean = false,
+    /** Show a translation under every sentence while reading. */
+    val showTranslations: Boolean = false,
     val demoDataLoaded: Boolean = false,
     /** ISO 639-1 code of the user's native language; translations and example sentences are shown in it. */
     val nativeLanguage: String = "en",
