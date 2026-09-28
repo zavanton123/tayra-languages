@@ -12,11 +12,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
 
 @Composable
 fun AboutScreen(onNavigate: (Route) -> Unit) {
-    Scaffold(topBar = { AppTopBar(title = "About", onNavigate = onNavigate) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = "About", onNavigate = onNavigate, section = NavSection.ABOUT) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize().padding(16.dp).widthIn(max = 720.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             Text("Tayra Languages", style = MaterialTheme.typography.headlineSmall)
             Text("Learn languages by reading. Import texts, click words to look them up and track what you know.", style = MaterialTheme.typography.bodyLarge)

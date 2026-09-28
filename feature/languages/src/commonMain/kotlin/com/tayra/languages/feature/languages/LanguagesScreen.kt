@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.model.LanguageSummary
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
@@ -33,7 +34,7 @@ import org.koin.compose.viewmodel.koinViewModel
 fun LanguagesScreen(onNavigate: (Route) -> Unit, viewModel: LanguagesViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
 
-    Scaffold(topBar = { AppTopBar(title = "Languages", onNavigate = onNavigate) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = "Languages", onNavigate = onNavigate, section = NavSection.SETTINGS) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
             Text(
                 "Languages you can learn. Tap one to change its dictionaries and text settings.",

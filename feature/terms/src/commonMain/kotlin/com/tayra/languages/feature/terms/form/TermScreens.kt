@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import org.koin.compose.viewmodel.koinViewModel
@@ -34,7 +35,7 @@ fun TermEditScreen(
         is TermFormKey.New -> "New term"
         else -> "Edit term"
     }
-    Scaffold(topBar = { AppTopBar(title = title, onNavigate = onNavigate, onBack = onBack) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = title, onNavigate = onNavigate, section = NavSection.TERMS, onBack = onBack) }) { padding ->
         TermFormPanel(
             viewModel = viewModel,
             modifier = Modifier.padding(padding).fillMaxSize().widthIn(max = 720.dp),
