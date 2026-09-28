@@ -775,6 +775,7 @@ private fun EmbeddedTermForm(key: TermFormKey, keyString: String, viewModel: Rea
             onClose = { formViewModel.flush(); viewModel.closePanel() },
             onDuplicateClick = { onNavigate(Route.EditTerm(it)) },
             onOpenExamples = { languageId, text -> onNavigate(Route.Examples(languageId, text)) },
+            onManageDictionaries = { languageId -> onNavigate(Route.ManageDictionaries(languageId)) },
         )
     }
 }

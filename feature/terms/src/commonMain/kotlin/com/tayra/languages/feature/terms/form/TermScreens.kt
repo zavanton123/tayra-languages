@@ -76,6 +76,7 @@ fun TermEditScreen(
                 modifier = Modifier.weight(1f).padding(horizontal = gutter - 16.dp),
                 onDuplicateClick = { onNavigate(Route.EditTerm(it)) },
                 onOpenExamples = { languageId, text -> onNavigate(Route.Examples(languageId, text)) },
+                onManageDictionaries = { languageId -> onNavigate(Route.ManageDictionaries(languageId)) },
             )
         }
     }

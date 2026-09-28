@@ -74,7 +74,10 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.PackState
 import com.tayra.languages.core.domain.dictionary.PackStatus
+import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.domain.language.LanguageOption
+import com.tayra.languages.core.domain.language.OnlineDictionaries
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.model.TermStatus
@@ -106,6 +109,7 @@ fun TermFormPanel(
     /** Called after the term was deleted from the standalone editor. */
     onDuplicateClick: ((Long) -> Unit)? = null,
     onOpenExamples: ((languageId: Long, text: String) -> Unit)? = null,
+    onManageDictionaries: ((languageId: Long) -> Unit)? = null,
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val uriHandler = LocalUriHandler.current
@@ -157,13 +161,23 @@ fun TermFormPanel(
             pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
         }
 
-        if (language != null && language.termDictionaries.isNotEmpty() && draft.text.isNotBlank()) {
+        if (language != null && draft.text.isNotBlank()) {
             HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
             SectionTitle(AppIcons.Link, "Dictionaries")
+            if (language.termDictionaries.isEmpty()) {
+                Text("No online dictionaries enabled for ${language.name}.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            val source = LanguageOption(LanguageCodes.codeFor(language.name) ?: "en", language.name)
+            val target = LanguageCatalog.nativeOption(state.nativeLanguage)
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 language.termDictionaries.forEach { dictionary ->
-                    LinkChip(dictionary.displayName) { uriHandler.openUri(dictionary.lookupUrl(draft.text.replace("​", "").encodeURLParameter())) }
+                    LinkChip(OnlineDictionaries.displayName(dictionary.url, source, target)) {
+                        uriHandler.openUri(dictionary.lookupUrl(draft.text.replace("​", "").encodeURLParameter()))
+                    }
                 }
+            }
+            if (onManageDictionaries != null) {
+                OutlineActionButton("Manage dictionaries") { onManageDictionaries(language.id) }
             }
         }
 
@@ -438,6 +452,27 @@ private fun LinkChip(label: String, onClick: () -> Unit) {
     }
 }
 
+/** A full-width outlined button with a trailing arrow, used for links to other screens. */
+@Composable
+private fun OutlineActionButton(label: String, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.fillMaxWidth().padding(top = 4.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.primary.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
+            .clickable(onClick = onClick).padding(horizontal = 16.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Text(
+            label,
+            Modifier.weight(1f),
+            style = MaterialTheme.typography.bodyLarge,
+            color = colors.primary,
+            fontWeight = FontWeight.Medium,
+            textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+        )
+        Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
+    }
+}
+
 @Composable
 private fun RoundIconButton(icon: androidx.compose.ui.graphics.vector.ImageVector, description: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
@@ -585,21 +620,7 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
             }
         }
         if (canOpen && (state.examples.isNotEmpty() || state.examplesTotal != null)) {
-            Row(
-                Modifier.fillMaxWidth().padding(top = 4.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.primary.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
-                    .clickable { onOpenExamples!!.invoke(languageId!!, term) }.padding(horizontal = 16.dp, vertical = 12.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Text(
-                    if (state.examplesTotal != null) "View all $total examples" else "View more examples",
-                    Modifier.weight(1f),
-                    style = MaterialTheme.typography.bodyLarge,
-                    color = colors.primary,
-                    fontWeight = FontWeight.Medium,
-                    textAlign = androidx.compose.ui.text.style.TextAlign.Center,
-                )
-                Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
-            }
+            OutlineActionButton(if (state.examplesTotal != null) "View all $total examples" else "View more examples") { onOpenExamples!!.invoke(languageId!!, term) }
             Text(
                 "Open the full examples search",
                 Modifier.fillMaxWidth(),

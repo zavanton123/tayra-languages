@@ -108,6 +108,9 @@ class TermFormViewModel(
 
     init {
         viewModelScope.launch { load() }
+        viewModelScope.launch {
+            languages.observeAll().collect { list -> _state.update { if (it.loading) it else it.copy(languages = list) } }
+        }
     }
 
     private suspend fun load() {
