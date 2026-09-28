@@ -101,8 +101,10 @@ The same artifacts can be built locally:
   default. On desktop, Settings can switch the engine to Argos Translate, which runs on the
   computer with no network: it needs a Python with the `argostranslate` package installed
   (`pip install argostranslate`; on python.org builds the CA bundle from `certifi` is picked up
-  automatically) and one downloaded model per language pair. Point the Python executable field
-  at that interpreter; Settings then lists the Argos language packages with Install and Remove,
+  automatically) and one downloaded model per language pair. Install Argos Translate in Settings
+  creates a private environment in the app folder (about a gigabyte) from `python3` and fills
+  in the Python executable field; a Python of your own can be entered there instead. When the
+  field is empty the app's own environment is used if it exists. Settings then lists the Argos language packages with Install and Remove,
   leading with the pairs the current books need into the native language (both halves of a
   detour through English when no direct model exists) and a toggle for the full catalog. The worker script (`core/data/src/jvmMain/resources/argos_worker.py`) is started once
   and kept alive; translations are cached for a day per sentence and engine.

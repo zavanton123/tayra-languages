@@ -1,12 +1,15 @@
 package com.tayra.languages.core.data.translation
 
 import co.touchlab.kermit.Logger
+import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.LocalPackage
 import com.tayra.languages.core.domain.service.LocalSentenceTranslator
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
@@ -23,11 +26,13 @@ import kotlinx.serialization.json.longOrNull
 import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.File
+import java.util.concurrent.TimeUnit
 
 /**
  * Argos Translate on the desktop: a Python worker (`argos_worker.py`, shipped in resources) is
  * started on first use and kept alive so the models load once. Requests are sent one at a time
- * as JSON lines. The Python executable comes from settings, defaulting to `python3` on the PATH.
+ * as JSON lines. The Python executable comes from settings; when unset, the environment created by
+ * [setUp] inside the app folder is used if it exists, otherwise `python3` on the PATH.
  */
 class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalSentenceTranslator {
 
@@ -38,6 +43,8 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
     private var reader: BufferedReader? = null
     private var startedWith: String? = null
     private var nextId = 0L
+    private val _lastError = MutableStateFlow<String?>(null)
+    override val lastError: StateFlow<String?> = _lastError
 
     override suspend fun translate(text: String, language: Language): String? {
         val source = LanguageCodes.codeFor(language.name) ?: return null
@@ -45,7 +52,49 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
         if (source == target) return null
         return runCatching {
             request(TRANSLATE_TIMEOUT_MS, "cmd" to "translate", "from" to source, "to" to target, "q" to text)["t"]?.jsonPrimitive?.content?.trim()?.takeIf { it.isNotEmpty() }
-        }.onFailure { Logger.w { "Argos translation failed: ${it.message}" } }.getOrNull()
+        }.onSuccess { _lastError.value = null }
+            .onFailure { Logger.w { "Argos translation failed: ${it.message}" }; _lastError.value = it.message }
+            .getOrNull()
+    }
+
+    override suspend fun setUp(): String = lock.withLock {
+        withContext(Dispatchers.IO) {
+            stop()
+            val managed = managedPython()
+            val configured = settings.current.argosPython.trim()
+            val base = if (configured.isEmpty() || configured == managed.absolutePath) "python3" else configured
+            val venv = managedVenv()
+            runCommand(listOf(base, "-m", "venv", "--clear", venv.absolutePath), VENV_TIMEOUT_MS)
+            if (!managed.exists()) error("the environment was created but ${managed.absolutePath} is missing")
+            runCommand(listOf(managed.absolutePath, "-m", "pip", "install", "--disable-pip-version-check", "--quiet", "argostranslate"), SETUP_TIMEOUT_MS)
+            settings.update { it.copy(argosPython = managed.absolutePath) }
+            _lastError.value = null
+            "Argos Translate installed into ${venv.absolutePath}."
+        }
+    }
+
+    /** Runs a command to completion, failing with its output when it exits with an error or overruns [timeoutMs]. */
+    private fun runCommand(command: List<String>, timeoutMs: Long) {
+        val process = try {
+            ProcessBuilder(command).redirectErrorStream(true).start()
+        } catch (e: Exception) {
+            error("cannot run '${command.first()}' (${e.message})")
+        }
+        val output = StringBuilder()
+        val pump = Thread { process.inputStream.bufferedReader().useLines { lines -> lines.forEach { output.appendLine(it); Logger.d { "argos setup: $it" } } } }
+        pump.isDaemon = true; pump.start()
+        if (!process.waitFor(timeoutMs, TimeUnit.MILLISECONDS)) { process.destroyForcibly(); error("'${command.take(3).joinToString(" ")}' took too long") }
+        pump.join(5_000)
+        if (process.exitValue() != 0) {
+            error("'${command.take(3).joinToString(" ")}' failed: " + output.lines().filter { it.isNotBlank() }.takeLast(3).joinToString(" "))
+        }
+    }
+
+    private fun managedVenv(): File = File(DatabaseDriverFactory.dataDirectory(), "argos-venv")
+
+    private fun managedPython(): File {
+        val venv = managedVenv()
+        return if (System.getProperty("os.name").lowercase().contains("win")) File(venv, "Scripts/python.exe") else File(venv, "bin/python")
     }
 
     override suspend fun status(): String = try {
@@ -94,7 +143,7 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
     }
 
     private fun ensureWorker(): Pair<BufferedWriter, BufferedReader> {
-        val python = settings.current.argosPython.trim().ifEmpty { "python3" }
+        val python = settings.current.argosPython.trim().ifEmpty { managedPython().takeIf { it.exists() }?.absolutePath ?: "python3" }
         val current = process
         if (current != null && current.isAlive && startedWith == python) return writer!! to reader!!
         stop()
@@ -134,5 +183,7 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
         const val INDEX_TIMEOUT_MS = 120_000L
         const val TRANSLATE_TIMEOUT_MS = 120_000L
         const val INSTALL_TIMEOUT_MS = 15L * 60 * 1000
+        const val VENV_TIMEOUT_MS = 2L * 60 * 1000
+        const val SETUP_TIMEOUT_MS = 30L * 60 * 1000
     }
 }

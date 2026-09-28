@@ -81,11 +81,29 @@ class SettingsViewModel(
     private val _argosPackageBusy = MutableStateFlow<Set<String>>(emptySet())
     val argosPackageBusy: StateFlow<Set<String>> = _argosPackageBusy.asStateFlow()
 
+    private val _argosReady = MutableStateFlow(true)
+    /** False once a check finds no working Argos runtime, which reveals the install button. */
+    val argosReady: StateFlow<Boolean> = _argosReady.asStateFlow()
+
     /** Reports the installation and reloads the package list. */
     fun checkArgos() = argosTask { translator ->
         val status = translator.status()
-        _argosPackages.value = runCatching { translator.packages() }.getOrDefault(emptyList())
+        val packages = runCatching { translator.packages() }
+        _argosReady.value = packages.isSuccess
+        _argosPackages.value = packages.getOrDefault(emptyList())
         status
+    }
+
+    /** Creates the app's own Python environment with argostranslate; slow, so the status says so meanwhile. */
+    fun setUpArgos() {
+        _argosStatus.value = "Installing Argos Translate into the app folder. This downloads about a gigabyte and takes a few minutes\u2026"
+        argosTask { translator ->
+            val summary = translator.setUp()
+            val packages = runCatching { translator.packages() }
+            _argosReady.value = packages.isSuccess
+            _argosPackages.value = packages.getOrDefault(emptyList())
+            summary + "\n" + translator.status()
+        }
     }
 
     fun installArgosPackage(pkg: LocalPackage) = argosPackageTask(pkg) { it.installPackage(pkg.fromCode, pkg.toCode) }
@@ -217,7 +235,18 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     val argosPackages by viewModel.argosPackages.collectAsStateWithLifecycle()
                     val packageBusy by viewModel.argosPackageBusy.collectAsStateWithLifecycle()
                     LaunchedEffect(settings.argosPython) { viewModel.checkArgos() }
-                    OutlinedButton(onClick = viewModel::checkArgos, enabled = !busy) { Text(if (busy) "Checking..." else "Check installation") }
+                    val ready by viewModel.argosReady.collectAsStateWithLifecycle()
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        OutlinedButton(onClick = viewModel::checkArgos, enabled = !busy) { Text(if (busy) "Working..." else "Check installation") }
+                        if (!ready) Button(onClick = viewModel::setUpArgos, enabled = !busy) { Text("Install Argos Translate") }
+                    }
+                    if (!ready) {
+                        Text(
+                            "Install creates a private Python environment inside the app folder with python3 (or the executable above) and puts argostranslate in it; the field is filled in when it is done.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
                     status?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
                     if (argosPackages.isNotEmpty()) {
                         Section("Argos language packages")

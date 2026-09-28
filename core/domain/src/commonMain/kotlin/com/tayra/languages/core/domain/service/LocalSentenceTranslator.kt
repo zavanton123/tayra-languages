@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.service
 
+import kotlinx.coroutines.flow.StateFlow
+
 /** Which service turns sentences into the native language. */
 enum class TranslationEngine(val label: String) {
     MYMEMORY("MyMemory (online)"),
@@ -23,6 +25,12 @@ data class LocalPackage(
 interface LocalSentenceTranslator : SentenceTranslator {
     /** A readable line about the installation: version and installed language pairs, or what is wrong. */
     suspend fun status(): String
+
+    /** Why the last sentence translation failed, cleared by the next success. */
+    val lastError: StateFlow<String?>
+
+    /** Installs the translator's own runtime into the app folder and points the settings at it. Returns a summary or throws. */
+    suspend fun setUp(): String
 
     /** Every model the translator can download, with its installed state. Throws when the translator is unavailable. */
     suspend fun packages(): List<LocalPackage>
