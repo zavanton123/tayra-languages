@@ -118,9 +118,10 @@ The same artifacts can be built locally:
   English, German, French, Spanish or Portuguese), generated in `DictionaryPacks` from a source
   table and the release download URL. Pairs the source Wiktionaries lack are excluded there:
   the German Wiktionary has no Galician or Serbian section, the Spanish one covers only
-  eighteen of the languages, and the Portuguese one has no Czech, Dutch or Macedonian section. Settings
-  lists the packs for languages that have books, or that are already installed, with Download
-  and Remove, and a toggle reveals the rest. Android, iOS and desktop unpack a downloaded pack
+  eighteen of the languages, and the Portuguese one has no Czech, Dutch or Macedonian section. The
+  Dictionaries screen (Settings menu) lists the packs for languages that have books, or that are
+  already installed, grouped by the language of the meanings with the native language first,
+  with Download and Remove, and a toggle reveals the rest. Android, iOS and desktop unpack a downloaded pack
   into app storage next to a stamp with its format and open it read-only as a second SQLDelight
   database; the web build keeps the compressed file in the browser Cache API and inflates it in
   its own sql.js worker (`webApp/src/wasmJsMain/resources/dictionary.worker.js`), which needs

@@ -30,13 +30,9 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
-import com.tayra.languages.core.domain.dictionary.DictionaryPack
-import com.tayra.languages.core.domain.dictionary.PackState
-import com.tayra.languages.core.domain.dictionary.PackStatus
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
-import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -55,12 +51,10 @@ import org.koin.compose.viewmodel.koinViewModel
 
 class SettingsViewModel(
     private val settings: SettingsRepository,
-    private val dictionaries: DictionaryService,
     languages: LanguageRepository,
     private val localTranslation: LocalTranslation,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
-    val packs: StateFlow<List<PackStatus>> = dictionaries.packs
 
     /** Whether this platform has a local (Argos) translator at all. */
     val hasLocalTranslator: Boolean get() = localTranslation.translator != null
@@ -70,16 +64,12 @@ class SettingsViewModel(
         .map { summaries -> summaries.filter { it.bookCount > 0 }.mapNotNull { LanguageCodes.codeFor(it.name) }.toSet() }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptySet())
     fun update(transform: (UserSettings) -> UserSettings) = viewModelScope.launch { settings.update(transform) }
-    fun download(pack: DictionaryPack) = viewModelScope.launch { dictionaries.download(pack) }
-    fun remove(pack: DictionaryPack) = viewModelScope.launch { dictionaries.remove(pack) }
 }
 
 @Composable
 fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = koinViewModel()) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
-    val packs by viewModel.packs.collectAsStateWithLifecycle()
     val inUse by viewModel.languagesInUse.collectAsStateWithLifecycle()
-    var showAllPacks by remember { mutableStateOf(false) }
     Scaffold(topBar = { AppTopBar(title = "Settings", onNavigate = onNavigate, section = NavSection.SETTINGS) }) { padding ->
         Column(
             Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 720.dp),
@@ -158,15 +148,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
-            // Packs for languages with books, or already on the device, come first; the rest hide behind a toggle.
-            val relevant = packs.filter { it.pack.id.sourceLanguage in inUse || it.state !is PackState.NotInstalled }
-            val shown = if (showAllPacks || relevant.isEmpty()) packs else relevant
-            shown.forEach { status -> PackRow(status, onDownload = { viewModel.download(status.pack) }, onRemove = { viewModel.remove(status.pack) }) }
-            if (relevant.size < packs.size) {
-                TextButton(onClick = { showAllPacks = !showAllPacks }) {
-                    Text(if (showAllPacks) "Show only my languages" else "Show all ${packs.size} dictionaries")
-                }
-            }
+            OutlinedButton(onClick = { onNavigate(Route.OfflineDictionaries) }) { Text("Manage dictionaries") }
 
             Section("Term popups")
             SwitchRow("Promote parent translation to term translation if possible", settings.promoteParentTranslation) { v -> viewModel.update { it.copy(promoteParentTranslation = v) } }
@@ -178,37 +160,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
 @Composable
 internal fun Section(title: String) {
     Text(title, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 8.dp))
-}
-
-@Composable
-private fun PackRow(status: PackStatus, onDownload: () -> Unit, onRemove: () -> Unit) {
-    val state = status.state
-    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        Column(Modifier.weight(1f)) {
-            Text(status.pack.title, style = MaterialTheme.typography.bodyMedium)
-            val detail = when (state) {
-                PackState.NotInstalled -> "Not downloaded"
-                is PackState.Downloading -> "Downloading..."
-                is PackState.Installed -> "Installed, ${formatSize(state.sizeBytes)}"
-                is PackState.Failed -> "Download failed: ${state.message}"
-            }
-            Text(
-                detail,
-                style = MaterialTheme.typography.bodySmall,
-                color = if (state is PackState.Failed) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            if (state is PackState.Downloading) {
-                val progress = state.progress
-                if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
-                else LinearProgressIndicator(modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
-            }
-        }
-        when (state) {
-            is PackState.Installed -> OutlinedButton(onClick = onRemove) { Text("Remove") }
-            is PackState.Downloading -> {}
-            else -> Button(onClick = onDownload) { Text("Download") }
-        }
-    }
 }
 
 internal fun formatSize(bytes: Long): String = when {

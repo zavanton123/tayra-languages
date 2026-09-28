@@ -58,6 +58,7 @@ private val menuGroups = listOf(
             MenuEntry("Languages", Route.Languages),
             MenuEntry("Settings", Route.Settings),
             MenuEntry("Translation", Route.OfflineTranslation).takeIf { hasOfflineTranslation },
+            MenuEntry("Dictionaries", Route.OfflineDictionaries),
             MenuEntry("Keyboard shortcuts", Route.Shortcuts),
         ),
     ),
