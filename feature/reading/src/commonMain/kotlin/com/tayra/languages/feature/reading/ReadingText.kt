@@ -20,7 +20,6 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.PointerType
-import androidx.compose.ui.input.pointer.isSecondary
 import androidx.compose.ui.input.pointer.isSecondaryPressed
 import androidx.compose.ui.input.pointer.isShiftPressed
 import androidx.compose.ui.input.pointer.PointerEventPass
@@ -103,7 +102,6 @@ fun ReadingText(
     }
 }
 
-@OptIn(androidx.compose.ui.ExperimentalComposeUiApi::class)
 @Composable
 private fun ParagraphText(
     items: List<TextItem>,
@@ -170,7 +168,7 @@ private fun ParagraphText(
                         val isMouse = down.type == PointerType.Mouse
                         if (isMouse) {
                             val shift = currentEvent.keyboardModifiers.isShiftPressed
-                            val secondary = currentEvent.buttons.isSecondaryPressed || currentEvent.button?.isSecondary == true
+                            val secondary = currentEvent.buttons.isSecondaryPressed
                             if (startItem == null) return@awaitEachGesture
                             if (secondary) {
                                 waitForUpOrCancellation()
