@@ -95,10 +95,15 @@ class CachedSentenceTranslator(
 
 /** Sends sentences to the engine chosen in settings, falling back to the online one when no local engine exists. */
 class RoutingSentenceTranslator(
-    private val online: SentenceTranslator,
+    private val myMemory: SentenceTranslator,
+    private val google: SentenceTranslator,
     private val local: SentenceTranslator?,
+    /** The effective engine, see [effectiveEngine]. */
     private val engine: () -> TranslationEngine,
 ) : SentenceTranslator {
-    override suspend fun translate(text: String, language: Language): String? =
-        if (engine() == TranslationEngine.ARGOS && local != null) local.translate(text, language) else online.translate(text, language)
+    override suspend fun translate(text: String, language: Language): String? = when (engine()) {
+        TranslationEngine.ARGOS -> (local ?: myMemory).translate(text, language)
+        TranslationEngine.GOOGLE -> google.translate(text, language)
+        TranslationEngine.MYMEMORY -> myMemory.translate(text, language)
+    }
 }

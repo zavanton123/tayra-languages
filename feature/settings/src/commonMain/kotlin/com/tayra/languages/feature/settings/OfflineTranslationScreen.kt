@@ -41,6 +41,7 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.LocalPackage
 import com.tayra.languages.core.domain.service.LocalSentenceTranslator
+import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -64,11 +65,29 @@ class OfflineTranslationViewModel(
     private val settings: SettingsRepository,
     languages: LanguageRepository,
     private val localTranslation: LocalTranslation,
+    private val google: GoogleTranslation,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
     /** Argos exists on desktop only; elsewhere the screen holds just the shared translation settings. */
     val hasLocalTranslator: Boolean = localTranslation.translator != null
+
+    /** Engines this platform can offer. */
+    val engines: List<TranslationEngine> = TranslationEngine.entries.filter { it != TranslationEngine.ARGOS || hasLocalTranslator }
+
+    private val _googleStatus = MutableStateFlow<String?>(null)
+    val googleStatus: StateFlow<String?> = _googleStatus.asStateFlow()
+    private val _googleBusy = MutableStateFlow(false)
+    val googleBusy: StateFlow<Boolean> = _googleBusy.asStateFlow()
+
+    fun checkGoogleKey() {
+        if (_googleBusy.value) return
+        _googleBusy.value = true
+        viewModelScope.launch {
+            _googleStatus.value = try { google.checkKey() } catch (e: Exception) { "Google Translate: ${e.message}" }
+            _googleBusy.value = false
+        }
+    }
 
     private val _status = MutableStateFlow<String?>(null)
     val status: StateFlow<String?> = _status.asStateFlow()
@@ -190,21 +209,42 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 modifier = Modifier.fillMaxWidth(),
             )
 
-            if (viewModel.hasLocalTranslator) {
-            Section("Offline translation")
-            Text(
-                "Argos Translate translates sentences and terms on this computer with no network. The app keeps its own Python and the language models in its data folder.",
-                style = MaterialTheme.typography.bodyMedium,
-            )
-
             Section("Engine")
             Dropdown(
-                options = TranslationEngine.entries,
+                options = viewModel.engines,
                 selected = settings.translationEngine,
                 onSelect = { engine -> viewModel.update { it.copy(translationEngine = engine) } },
-                label = "Sentence translation engine",
+                label = "Translation engine",
                 optionLabel = { it.label },
                 modifier = Modifier.fillMaxWidth(),
+            )
+            Text(
+                "Sentence translations in the reader and term suggestions come from this engine. Google needs an API key and Argos its models; without them MyMemory answers instead.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+
+            Section("Google Translate")
+            val googleBusy by viewModel.googleBusy.collectAsStateWithLifecycle()
+            val googleStatus by viewModel.googleStatus.collectAsStateWithLifecycle()
+            OutlinedTextField(
+                value = settings.googleTranslateApiKey,
+                onValueChange = { v -> viewModel.update { it.copy(googleTranslateApiKey = v.trim()) } },
+                label = { Text("API key") },
+                supportingText = { Text("A Google Cloud API key with the Cloud Translation API enabled. Calls are billed to that project; the key is stored only on this device.") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedButton(onClick = viewModel::checkGoogleKey, enabled = !googleBusy && settings.googleTranslateApiKey.isNotBlank()) {
+                Text(if (googleBusy) "Checking..." else "Check key")
+            }
+            googleStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+
+            if (viewModel.hasLocalTranslator) {
+            Section("Argos Translate")
+            Text(
+                "Argos Translate translates on this computer with no network. The app keeps its own Python and the language models in its data folder.",
+                style = MaterialTheme.typography.bodyMedium,
             )
 
             Section("Runtime")

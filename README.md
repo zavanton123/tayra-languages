@@ -97,9 +97,12 @@ The same artifacts can be built locally:
 - The bundled language definitions also cover many other languages; those that need external
   tokenisers (Japanese via MeCab, Thai, Khmer, Mandarin) are not supported.
 - Dictionaries open in the platform browser; embedded web views are not used.
-- Sentence translations in the reader (left pane, Show translations) come from MyMemory by
-  default. On desktop, Settings or the reader's left pane can switch the engine to Argos
-  Translate, which runs on the computer with no network. Nothing has to be installed by hand:
+- Sentence translations in the reader (left pane, Show translations) and term suggestions come
+  from MyMemory by default. The Translation screen (or the engine row in the reader's left pane)
+  can switch to Google Translate, which needs a Google Cloud API key with the Cloud Translation
+  API enabled, entered on that screen and checked with Check key (calls are billed to that
+  project, the key stays on the device); or, on desktop, to Argos Translate, which runs on the
+  computer with no network. Without a key or a local Argos the app falls back to MyMemory. Nothing has to be installed by hand:
   the first time offline translation is used the app downloads a standalone CPython build
   (`astral-sh/python-build-standalone`, about 25 MB) into its data folder under `argos-python`,
   and installs `argostranslate` into it with pip (about a gigabyte, mostly torch). Models are

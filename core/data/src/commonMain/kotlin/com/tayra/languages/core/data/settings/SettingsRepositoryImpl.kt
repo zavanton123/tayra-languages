@@ -58,6 +58,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
             ).code,
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
             translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
+            googleTranslateApiKey = store.getString(Keys.GOOGLE_TRANSLATE_API_KEY, defaults.googleTranslateApiKey),
             argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
             hotkeys = HotkeyAction.entries.associateWith { action ->
                 val stored = store.getStringOrNull(action.settingKey)
@@ -84,6 +85,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
+        store.putString(Keys.GOOGLE_TRANSLATE_API_KEY, s.googleTranslateApiKey)
         store.putString(Keys.ARGOS_PYTHON, s.argosPython)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
@@ -105,6 +107,7 @@ class SettingsRepositoryImpl(private val store: Settings) : SettingsRepository {
         const val SIDE_BY_SIDE_TRANSLATIONS = "reading_side_by_side_translations"
         const val SHOW_TRANSLATIONS = "reading_show_translations"
         const val TRANSLATION_ENGINE = "translation_engine"
+        const val GOOGLE_TRANSLATE_API_KEY = "google_translate_api_key"
         const val ARGOS_PYTHON = "argos_python"
         const val DEMO_DATA = "is_demo_data"
         const val NATIVE_LANGUAGE = "native_language"
