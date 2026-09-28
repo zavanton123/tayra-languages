@@ -6,6 +6,7 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.LocalPackage
 import com.tayra.languages.core.domain.service.LocalSentenceTranslator
+import com.tayra.languages.core.domain.service.LocalTranslationProblem
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred
@@ -54,8 +55,8 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
     private var startedWith: String? = null
     private var nextId = 0L
 
-    private val _lastError = MutableStateFlow<String?>(null)
-    override val lastError: StateFlow<String?> = _lastError
+    private val _lastError = MutableStateFlow<LocalTranslationProblem?>(null)
+    override val lastError: StateFlow<LocalTranslationProblem?> = _lastError
     private val _progress = MutableStateFlow<String?>(null)
     override val progress: StateFlow<String?> = _progress
 
@@ -71,27 +72,50 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
         return runCatching {
             request(TRANSLATE_TIMEOUT_MS, "cmd" to "translate", "from" to source, "to" to target, "q" to text)["t"]?.jsonPrimitive?.content?.trim()?.takeIf { it.isNotEmpty() }
         }.onSuccess { _lastError.value = null }
-            .onFailure { Logger.w { "Argos translation failed: ${it.message}" }; _lastError.value = it.message }
+            .onFailure { Logger.w { "Argos translation failed: ${it.message}" }; _lastError.value = LocalTranslationProblem.Failed(it.message ?: "unknown error") }
             .getOrNull()
     }
 
-    override suspend fun prepare(fromCode: String, toCode: String) {
+    override suspend fun prepare(fromCode: String, toCode: String, fromName: String, toName: String) {
         val pair = "$fromCode-$toCode"
         if (pair in readyPairs) return
-        try {
+        val problem: LocalTranslationProblem? = try {
             ensureRuntime().await()
             val installed = request(STATUS_TIMEOUT_MS, "cmd" to "status")["pairs"]?.jsonArray?.map { it.jsonPrimitive.content }.orEmpty()
-            if (pair !in installed) {
-                val names = runCatching { packages() }.getOrDefault(emptyList())
-                val title = names.firstOrNull { it.fromCode == fromCode && it.toCode == toCode }?.title
-                    ?: "${names.firstOrNull { it.fromCode == fromCode }?.fromName ?: fromCode} → ${names.firstOrNull { it.toCode == toCode }?.toName ?: toCode}"
-                _progress.value = "Downloading the $title model…"
-                request(INSTALL_TIMEOUT_MS, "cmd" to "install", "from" to fromCode, "to" to toCode)
-            }
-            readyPairs += pair
+            if (pair in installed) null else missingModels(fromCode, toCode, fromName, toName)
+        } catch (e: Exception) {
+            LocalTranslationProblem.Failed(e.message ?: "unknown error")
+        } finally {
+            _progress.value = null
+        }
+        _lastError.value = problem
+        if (problem != null) error(problem.message)
+        readyPairs += pair
+    }
+
+    /** Which models the pair needs and lacks: the direct one, or both halves of a detour through English. */
+    private suspend fun missingModels(fromCode: String, toCode: String, fromName: String, toName: String): LocalTranslationProblem {
+        val catalog = packages()
+        val direct = catalog.firstOrNull { it.fromCode == fromCode && it.toCode == toCode }
+        val needed = if (direct != null) listOf(direct) else {
+            val toEnglish = catalog.firstOrNull { it.fromCode == fromCode && it.toCode == "en" }
+            val fromEnglish = catalog.firstOrNull { it.fromCode == "en" && it.toCode == toCode }
+            if (toEnglish == null || fromEnglish == null) return LocalTranslationProblem.NoModel(fromName, toName)
+            listOf(toEnglish, fromEnglish)
+        }
+        val missing = needed.filter { !it.installed }
+        val title = missing.joinToString(" and ") { it.title } + if (missing.size == 1) " model" else " models"
+        return LocalTranslationProblem.ModelMissing(fromCode, toCode, title)
+    }
+
+    override suspend fun installModels(fromCode: String, toCode: String) {
+        try {
+            _progress.value = "Downloading the models for $fromCode \u2192 $toCode\u2026"
+            request(INSTALL_TIMEOUT_MS, "cmd" to "install", "from" to fromCode, "to" to toCode)
+            readyPairs += "$fromCode-$toCode"
             _lastError.value = null
         } catch (e: Exception) {
-            _lastError.value = e.message
+            _lastError.value = LocalTranslationProblem.Failed(e.message ?: "unknown error")
             throw e
         } finally {
             _progress.value = null

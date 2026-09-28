@@ -21,19 +21,43 @@ data class LocalPackage(
     val title: String get() = "$fromName \u2192 $toName"
 }
 
+/** Why the local translator cannot translate right now, so the reader can offer the right way out. */
+sealed interface LocalTranslationProblem {
+    val message: String
+
+    /** The models for the pair exist in the catalog but are not installed; [title] names them for the install prompt. */
+    data class ModelMissing(val fromCode: String, val toCode: String, val title: String) : LocalTranslationProblem {
+        override val message: String get() = "Offline translation needs the $title."
+    }
+
+    /** The catalog has no model for the pair, directly or through English. */
+    data class NoModel(val fromName: String, val toName: String) : LocalTranslationProblem {
+        override val message: String get() = "Argos Translate has no $fromName \u2192 $toName model."
+    }
+
+    data class Failed(override val message: String) : LocalTranslationProblem
+}
+
 /** A translator running on this device, such as Argos Translate on the desktop. */
 interface LocalSentenceTranslator : SentenceTranslator {
     /** A readable line about the installation: version and installed language pairs, or what is wrong. */
     suspend fun status(): String
 
-    /** Why the last sentence translation failed, cleared by the next success. */
-    val lastError: StateFlow<String?>
+    /** Why the last sentence translation or setup failed, cleared by the next success. */
+    val lastError: StateFlow<LocalTranslationProblem?>
 
     /** What [prepare] or [setUp] is doing right now, null when idle. */
     val progress: StateFlow<String?>
 
-    /** Makes translating [fromCode] into [toCode] possible: installs the runtime and the models when missing. Throws with the reason. */
-    suspend fun prepare(fromCode: String, toCode: String)
+    /**
+     * Makes translating [fromCode] into [toCode] possible: installs the runtime when missing and checks the
+     * models. Missing models are not downloaded here; the problem in [lastError] says which ones [installModels]
+     * would fetch. Throws when translation is not possible yet.
+     */
+    suspend fun prepare(fromCode: String, toCode: String, fromName: String = fromCode, toName: String = toCode)
+
+    /** Downloads the models [prepare] found missing for the pair, reporting through [progress]. Throws on failure. */
+    suspend fun installModels(fromCode: String, toCode: String)
 
     /** Installs the translator's own runtime into the app folder and points the settings at it. Returns a summary or throws. */
     suspend fun setUp(): String

@@ -49,6 +49,8 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Button
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.material3.DrawerValue
 import androidx.compose.material3.rememberModalBottomSheetState
@@ -79,6 +81,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.service.LocalTranslationProblem
 import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.HotkeyAction
@@ -594,7 +597,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 )
                 PageVocabulary(state)
                 state.translationProgress?.let { TranslationProgress(it) }
-                    ?: state.translationError?.let { TranslationNotice(it, onSettings) }
+                    ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
                 HorizontalDivider(Modifier.padding(bottom = 20.dp), color = MaterialTheme.colorScheme.outlineVariant)
             }
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
@@ -623,24 +626,32 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
 }
 
 /** Distribution of term statuses on the current page, shown under the title. */
+/** Missing models get an Install button, unsupported pairs a way back to MyMemory, anything else a retry. */
 @Composable
-private fun TranslationNotice(message: String, onSettings: () -> Unit) {
+private fun TranslationNotice(problem: LocalTranslationProblem, viewModel: ReadingViewModel, onSettings: () -> Unit) {
+    val failed = problem is LocalTranslationProblem.Failed
+    val colors = MaterialTheme.colorScheme
     Surface(
         shape = RoundedCornerShape(10.dp),
-        color = MaterialTheme.colorScheme.errorContainer,
+        color = if (failed) colors.errorContainer else colors.secondaryContainer,
         modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 12.dp),
     ) {
         Row(
-            Modifier.padding(start = 12.dp, end = 4.dp, top = 4.dp, bottom = 4.dp),
+            Modifier.padding(start = 12.dp, end = 8.dp, top = 6.dp, bottom = 6.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             Text(
-                "Offline translation failed: $message",
+                if (failed) "Offline translation failed: ${problem.message}" else problem.message,
                 Modifier.weight(1f),
                 style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onErrorContainer,
+                color = if (failed) colors.onErrorContainer else colors.onSecondaryContainer,
             )
+            when (problem) {
+                is LocalTranslationProblem.ModelMissing -> Button(onClick = viewModel::installOfflineModels) { Text("Install") }
+                is LocalTranslationProblem.NoModel -> Button(onClick = viewModel::useOnlineEngine) { Text("Use MyMemory") }
+                is LocalTranslationProblem.Failed -> OutlinedButton(onClick = viewModel::retryOfflineTranslation) { Text("Try again") }
+            }
             TextButton(onClick = onSettings) { Text("Settings") }
         }
     }
