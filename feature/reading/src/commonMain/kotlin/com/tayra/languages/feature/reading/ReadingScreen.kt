@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
@@ -25,7 +26,9 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
+import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material3.Button
@@ -37,7 +40,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.ModalDrawerSheet
 import androidx.compose.material3.ModalNavigationDrawer
-import androidx.compose.material3.NavigationDrawerItem
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Snackbar
@@ -75,6 +77,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
+import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.NavSection
@@ -195,7 +198,11 @@ fun ReadingScreen(
     ModalNavigationDrawer(
         drawerState = drawerState,
         drawerContent = {
-            ModalDrawerSheet {
+            ModalDrawerSheet(
+                drawerContainerColor = MaterialTheme.colorScheme.surface,
+                drawerShape = RoundedCornerShape(topEnd = 20.dp, bottomEnd = 20.dp),
+                windowInsets = WindowInsets.safeDrawing,
+            ) {
                 ReadingMenu(state, viewModel, menu, onClose = { scope.launch { drawerState.close() } })
             }
         },
@@ -286,53 +293,119 @@ private class ReadingMenuActions(
 
 @Composable
 private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, actions: ReadingMenuActions, onClose: () -> Unit) {
-    Column(Modifier.verticalScroll(rememberScrollState()).padding(vertical = 8.dp)) {
-        Row(Modifier.padding(horizontal = 16.dp), verticalAlignment = Alignment.CenterVertically) {
-            Text(state.book?.title.orEmpty(), style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
-            IconButton(onClick = onClose) { Icon(Icons.Default.Close, contentDescription = "Close menu") }
+    val colors = MaterialTheme.colorScheme
+    val prefs = state.settings
+    Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 20.dp)) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(36.dp))
+            Spacer(Modifier.width(14.dp))
+            Column(Modifier.weight(1f)) {
+                Text("Reader settings", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                Text(state.book?.title.orEmpty(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
+            }
+            Box(
+                Modifier.size(40.dp).clip(RoundedCornerShape(20.dp)).background(colors.surfaceVariant.copy(alpha = 0.6f)).clickable(onClick = onClose),
+                contentAlignment = Alignment.Center,
+            ) { Icon(Icons.Default.Close, contentDescription = "Close menu", modifier = Modifier.size(20.dp)) }
         }
-        SwitchRow("Focus mode", state.settings.focusMode) { viewModel.toggleFocusMode() }
-        SwitchRow("Quick set status (tap unknown → 1)", state.settings.tapSetsStatus) { viewModel.toggleTapSetsStatus() }
-        SwitchRow("Highlight terms", state.settings.showHighlights) { viewModel.toggleHighlights() }
-        val prefs = state.settings
-        AdjustRow("Font size", "${(prefs.readingFontScale * 100).toInt()}%", onLess = { viewModel.adjustFontScale(-0.1f) }, onMore = { viewModel.adjustFontScale(0.1f) })
-        AdjustRow("Line height", "${(prefs.readingLineHeight * 10).toInt() / 10f}", onLess = { viewModel.adjustLineHeight(-0.1f) }, onMore = { viewModel.adjustLineHeight(0.1f) })
-        AdjustRow("Text width", "${prefs.readingColumnWidth}", onLess = { viewModel.adjustColumnWidth(-80) }, onMore = { viewModel.adjustColumnWidth(80) })
-        HorizontalDivider(Modifier.padding(vertical = 4.dp))
-        val entries = buildList<Pair<String, () -> Unit>> {
-            if (!state.book?.sourceUri.isNullOrBlank()) add("Show source URL" to actions.onSource)
-            add("Edit current page" to actions.onEditPage)
-            add("Add page after" to actions.onAddPageAfter)
-            add("Add page before" to actions.onAddPageBefore)
-            add("Delete current page" to actions.onDeletePage)
-            add("List bookmarks" to actions.onBookmarks)
-            add("Add bookmark" to actions.onAddBookmark)
-            add("Term list for this page" to actions.onTermList)
-            add("Translate sentence" to actions.onTranslateSentence)
-            add("Translate page" to actions.onTranslatePage)
-            add("Next theme" to actions.onNextTheme)
-            add("Keyboard shortcuts" to actions.onShortcuts)
-        }
-        entries.forEach { (label, action) ->
-            NavigationDrawerItem(label = { Text(label) }, selected = false, onClick = { onClose(); action() })
-        }
+
+        MenuSection("Reading")
+        SwitchRow(AppIcons.Fullscreen, "Focus mode", prefs.focusMode) { viewModel.toggleFocusMode() }
+        SwitchRow(AppIcons.Bolt, "Quick set status (tap unknown → 1)", prefs.tapSetsStatus) { viewModel.toggleTapSetsStatus() }
+        SwitchRow(AppIcons.Palette, "Highlight terms", prefs.showHighlights) { viewModel.toggleHighlights() }
+
+        MenuSection("Typography")
+        AdjustRow(AppIcons.FormatSize, "Font size", "${(prefs.readingFontScale * 100).toInt()}%", onLess = { viewModel.adjustFontScale(-0.1f) }, onMore = { viewModel.adjustFontScale(0.1f) })
+        AdjustRow(AppIcons.LineSpacing, "Line height", "${(prefs.readingLineHeight * 10).toInt() / 10f}", onLess = { viewModel.adjustLineHeight(-0.1f) }, onMore = { viewModel.adjustLineHeight(0.1f) })
+        AdjustRow(AppIcons.OpenInFull, "Text width", "${prefs.readingColumnWidth}", onLess = { viewModel.adjustColumnWidth(-80) }, onMore = { viewModel.adjustColumnWidth(80) })
+
+        MenuSection("Page")
+        MenuRow(AppIcons.Page, "Edit current page") { onClose(); actions.onEditPage() }
+        MenuRow(AppIcons.PageAdd, "Add page after") { onClose(); actions.onAddPageAfter() }
+        MenuRow(AppIcons.PageAdd, "Add page before") { onClose(); actions.onAddPageBefore() }
+        MenuRow(Icons.Default.Delete, "Delete current page", destructive = true) { onClose(); actions.onDeletePage() }
+
+        MenuSection("Bookmarks")
+        MenuRow(AppIcons.Bookmark, "List bookmarks") { onClose(); actions.onBookmarks() }
+        MenuRow(AppIcons.BookmarkAdd, "Add bookmark") { onClose(); actions.onAddBookmark() }
+
+        MenuSection("Language tools")
+        MenuRow(Icons.AutoMirrored.Filled.List, "Term list for this page") { onClose(); actions.onTermList() }
+        MenuRow(AppIcons.Translate, "Translate sentence") { onClose(); actions.onTranslateSentence() }
+        MenuRow(AppIcons.Page, "Translate page") { onClose(); actions.onTranslatePage() }
+
+        MenuSection("More")
+        MenuRow(AppIcons.Palette, "Next theme") { onClose(); actions.onNextTheme() }
+        MenuRow(AppIcons.Keyboard, "Keyboard shortcuts") { onClose(); actions.onShortcuts() }
+        if (!state.book?.sourceUri.isNullOrBlank()) MenuRow(AppIcons.Link, "Show source URL") { onClose(); actions.onSource() }
     }
 }
 
 @Composable
-private fun AdjustRow(label: String, value: String, onLess: () -> Unit, onMore: () -> Unit) {
-    Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 2.dp), verticalAlignment = Alignment.CenterVertically) {
-        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
-        Text(value, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        TextButton(onClick = onLess) { Text("−", style = MaterialTheme.typography.titleMedium) }
-        TextButton(onClick = onMore) { Text("+", style = MaterialTheme.typography.titleMedium) }
+private fun MenuSection(label: String) {
+    Row(Modifier.fillMaxWidth().padding(top = 22.dp, bottom = 6.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Text(
+            label.uppercase(),
+            style = MaterialTheme.typography.labelMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            letterSpacing = androidx.compose.ui.unit.TextUnit(1.2f, androidx.compose.ui.unit.TextUnitType.Sp),
+        )
+        HorizontalDivider(Modifier.weight(1f), color = MaterialTheme.colorScheme.outlineVariant)
     }
 }
 
 @Composable
-private fun SwitchRow(label: String, checked: Boolean, onToggle: () -> Unit) {
-    Row(Modifier.fillMaxWidth().clickable(onClick = onToggle).padding(horizontal = 16.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
+private fun MenuIcon(icon: androidx.compose.ui.graphics.vector.ImageVector, tint: androidx.compose.ui.graphics.Color) {
+    Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(22.dp))
+}
+
+@Composable
+private fun MenuRow(icon: androidx.compose.ui.graphics.vector.ImageVector, label: String, destructive: Boolean = false, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val tint = if (destructive) colors.error else colors.primary
+    Row(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp))
+            .background(if (destructive) colors.error.copy(alpha = 0.08f) else androidx.compose.ui.graphics.Color.Transparent)
+            .clickable(onClick = onClick).padding(horizontal = 12.dp, vertical = 10.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        MenuIcon(icon, tint)
+        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, color = if (destructive) colors.error else colors.onSurface)
+        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.outline, modifier = Modifier.size(20.dp))
+    }
+}
+
+@Composable
+private fun AdjustRow(icon: androidx.compose.ui.graphics.vector.ImageVector, label: String, value: String, onLess: () -> Unit, onMore: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 6.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        MenuIcon(icon, colors.primary)
+        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
+        Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        StepButton("−", onLess)
+        StepButton("+", onMore)
+    }
+}
+
+@Composable
+private fun StepButton(label: String, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Box(
+        Modifier.size(38.dp).clip(RoundedCornerShape(10.dp)).background(colors.primary.copy(alpha = 0.1f)).clickable(onClick = onClick),
+        contentAlignment = Alignment.Center,
+    ) { Text(label, style = MaterialTheme.typography.titleMedium, color = colors.primary) }
+}
+
+@Composable
+private fun SwitchRow(icon: androidx.compose.ui.graphics.vector.ImageVector, label: String, checked: Boolean, onToggle: () -> Unit) {
+    Row(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).clickable(onClick = onToggle).padding(horizontal = 12.dp, vertical = 6.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        MenuIcon(icon, MaterialTheme.colorScheme.primary)
+        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
         Switch(checked = checked, onCheckedChange = { onToggle() })
     }
 }
