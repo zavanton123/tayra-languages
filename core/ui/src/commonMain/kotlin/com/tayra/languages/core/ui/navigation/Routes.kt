@@ -62,6 +62,10 @@ sealed interface Route {
     @Serializable
     data object OfflineTranslation : Route
 
+    /** Downloadable offline dictionary packs. */
+    @Serializable
+    data object OfflineDictionaries : Route
+
     @Serializable
     data object Stats : Route
 
