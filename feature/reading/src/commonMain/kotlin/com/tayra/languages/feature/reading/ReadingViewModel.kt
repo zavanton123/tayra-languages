@@ -460,6 +460,14 @@ class ReadingViewModel(
         }
     }
 
+    /** Brings an archived book back to the library and keeps reading it. */
+    fun unarchiveBook() {
+        viewModelScope.launch {
+            bookService.unarchive(bookId)
+            load(_state.value.pageNumber, trackOpen = false, keepMarked = true)
+        }
+    }
+
     fun pageTermIds(): List<Long> = _state.value.page.words.mapNotNull { it.termId }.distinct()
 
     fun clearFlash() = _state.update { it.copy(flash = null) }
