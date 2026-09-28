@@ -1,33 +1,57 @@
 package com.tayra.languages.feature.terms.list
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.hoverable
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsHoveredAsState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.RowScope
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LocalContentColor
+import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -35,30 +59,49 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.repository.TermListSort
 import com.tayra.languages.core.domain.repository.TermSortField
-import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
-import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ConfirmDialog
-import com.tayra.languages.core.ui.components.Dropdown
-import com.tayra.languages.core.ui.components.EmptyMessage
-import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.terms.export.saveTextFile
 import kotlinx.coroutines.launch
+import kotlinx.datetime.DateTimeUnit
+import kotlinx.datetime.TimeZone
+import kotlinx.datetime.minus
+import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import kotlin.time.Clock
+import kotlin.time.Instant
 
-@OptIn(ExperimentalLayoutApi::class)
+private enum class TermSortOption(val label: String, val sort: TermListSort) {
+    RECENT("Recently added", TermListSort(TermSortField.CREATED, ascending = false)),
+    OLDEST("Oldest first", TermListSort(TermSortField.CREATED, ascending = true)),
+    TEXT("Term A–Z", TermListSort(TermSortField.TEXT, ascending = true)),
+    STATUS("Status", TermListSort(TermSortField.STATUS, ascending = true)),
+    LANGUAGE("Language", TermListSort(TermSortField.LANGUAGE, ascending = true)),
+}
+
+private val PAGE_SIZES = listOf(25, 50, 100)
+
 @Composable
 fun TermsScreen(
     termIds: List<Long>?,
@@ -69,62 +112,56 @@ fun TermsScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     var bulkEdit by remember { mutableStateOf(false) }
     var confirmDelete by remember { mutableStateOf(false) }
+    var pendingDelete by remember { mutableStateOf<Term?>(null) }
     val scope = androidx.compose.runtime.rememberCoroutineScope()
     CollectEvents(viewModel.events) { event ->
         if (event is TermsListEvent.ExportReady) scope.launch { saveTextFile("terms", "csv", event.csv) }
     }
     val compact = LocalWindowWidth.current.isCompact
+    val listActions = ListActions(onBulk = { bulkEdit = true }, onDelete = { confirmDelete = true }, onExport = viewModel::exportCsv)
 
     Scaffold(
         topBar = {
             AppTopBar(
-                title = "Terms",
-                onNavigate = onNavigate, section = NavSection.TERMS,
+                title = "Tayra Languages",
+                onNavigate = onNavigate,
+                section = NavSection.TERMS,
                 onBack = onBack,
-                actions = { ActionsMenu(state, onNew = { onNavigate(Route.NewTerm) }, onBulk = { bulkEdit = true }, onDelete = { confirmDelete = true }, onExport = viewModel::exportCsv) },
+                actions = { if (compact) ListMenu(state, listActions) },
             )
         },
         snackbarHost = {
             state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text("OK") } }) { Text(it) } }
         },
     ) { padding ->
-        Column(Modifier.padding(padding).fillMaxSize()) {
+        val gutter = if (compact) 16.dp else 32.dp
+        val rowActions = RowActions(
+            onOpen = { onNavigate(Route.EditTerm(it.id)) },
+            onDelete = { pendingDelete = it },
+            onStatus = { term, status -> viewModel.setStatus(term.id, status) },
+            onToggle = { viewModel.toggleSelected(it.id) },
+        )
+        LazyColumn(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp)) {
+            item { PageHeader(compact, onNew = { onNavigate(Route.NewTerm) }) }
+            item { StatCards(state, compact) }
+            item { Toolbar(state, viewModel, compact) }
+            if (state.filtersVisible) item { FilterPanel(state, viewModel) }
             if (state.loading) {
-                LoadingIndicator()
-                return@Column
-            }
-            Row(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                OutlinedTextField(
-                    value = state.filter.search,
-                    onValueChange = { q -> viewModel.updateFilter { it.copy(search = q) } },
-                    label = { Text("Search") },
-                    singleLine = true,
-                    modifier = Modifier.weight(1f),
-                )
-                TextButton(onClick = viewModel::toggleFilters) { Text(if (state.filtersVisible) "Hide filters" else "Filters") }
-            }
-            if (state.filtersVisible) FilterPanel(state, viewModel)
-
-            if (state.terms.isEmpty()) {
-                EmptyMessage("No terms match the current filters.")
+                item { Text("Loading...", Modifier.padding(16.dp), color = MaterialTheme.colorScheme.onSurfaceVariant) }
+            } else if (state.terms.isEmpty()) {
+                item { EmptyState() }
+            } else if (compact) {
+                itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term ->
+                    CompactTermRow(term, state.languageName(term.languageId), term.id in state.selected, rowActions)
+                    HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+                }
             } else {
-                if (!compact) HeaderRow(state, viewModel)
-                LazyColumn(Modifier.weight(1f)) {
-                    items(state.terms, key = { it.id }) { term ->
-                        TermRow(
-                            term = term,
-                            languageName = state.languageName(term.languageId),
-                            selected = term.id in state.selected,
-                            compact = compact,
-                            onToggle = { viewModel.toggleSelected(term.id) },
-                            onOpen = { onNavigate(Route.EditTerm(term.id)) },
-                            onStatus = { viewModel.setStatus(term.id, it) },
-                        )
-                        HorizontalDivider()
-                    }
+                item { TableHeader(state, viewModel, listActions) }
+                itemsIndexed(state.terms, key = { _, term -> term.id }) { index, term ->
+                    TermTableRow(term, state.languageName(term.languageId), term.id in state.selected, index, rowActions)
                 }
             }
-            Pager(state, viewModel)
+            item { Pager(state, viewModel, compact) }
         }
     }
 
@@ -141,45 +178,204 @@ fun TermsScreen(
             onDismiss = { confirmDelete = false },
         )
     }
+    pendingDelete?.let { term ->
+        ConfirmDialog(
+            title = "Delete \"${term.displayText}\"?",
+            text = "This cannot be undone.",
+            confirmLabel = "Delete",
+            destructive = true,
+            onConfirm = { viewModel.delete(term.id); pendingDelete = null },
+            onDismiss = { pendingDelete = null },
+        )
+    }
+}
+
+private class ListActions(val onBulk: () -> Unit, val onDelete: () -> Unit, val onExport: () -> Unit)
+
+private class RowActions(
+    val onOpen: (Term) -> Unit,
+    val onDelete: (Term) -> Unit,
+    val onStatus: (Term, TermStatus) -> Unit,
+    val onToggle: (Term) -> Unit,
+)
+
+@Composable
+private fun ListMenu(state: TermsListUiState, actions: ListActions) {
+    var open by remember { mutableStateOf(false) }
+    val selected = state.selected.size
+    Box {
+        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "List actions", tint = MaterialTheme.colorScheme.onSurfaceVariant) }
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            AppMenuItem(text = { Text(if (selected > 0) "Bulk edit $selected selected" else "Bulk edit selected") }, enabled = selected > 0, onClick = { open = false; actions.onBulk() })
+            AppMenuItem(text = { Text(if (selected > 0) "Delete $selected selected" else "Delete selected") }, enabled = selected > 0, onClick = { open = false; actions.onDelete() })
+            AppMenuItem(text = { Text("Export CSV") }, onClick = { open = false; actions.onExport() })
+        }
+    }
 }
 
 @Composable
-private fun ActionsMenu(state: TermsListUiState, onNew: () -> Unit, onBulk: () -> Unit, onDelete: () -> Unit, onExport: () -> Unit) {
-    var open by remember { mutableStateOf(false) }
-    Box {
-        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Actions") }
-        AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text("Create new") }, onClick = { open = false; onNew() })
-            AppMenuItem(text = { Text("Bulk edit selected") }, enabled = state.selected.isNotEmpty(), onClick = { open = false; onBulk() })
-            AppMenuItem(text = { Text("Delete selected") }, enabled = state.selected.isNotEmpty(), onClick = { open = false; onDelete() })
-            AppMenuItem(text = { Text("Export CSV") }, onClick = { open = false; onExport() })
+private fun PageHeader(compact: Boolean, onNew: () -> Unit) {
+    Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+        Column(Modifier.weight(1f)) {
+            Text("Terms", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+            Text("Review and manage your vocabulary.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        Button(onClick = onNew, shape = RoundedCornerShape(10.dp)) {
+            Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
+            Spacer(Modifier.width(6.dp))
+            Text("Add term")
+        }
+    }
+}
+
+private data class StatCard(val label: String, val value: Int, val icon: ImageVector, val tint: Color)
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun StatCards(state: TermsListUiState, compact: Boolean) {
+    val cards = listOf(
+        StatCard("Total terms", state.totalTerms, AppIcons.Book, Color(0xFF3B6FE0)),
+        StatCard("Learning", state.learningCount, AppIcons.BarChart, Color(0xFF7C4DDB)),
+        StatCard("Known", state.knownCount, Icons.Default.Check, Color(0xFF1FA463)),
+    )
+    FlowRow(
+        Modifier.fillMaxWidth().padding(bottom = 20.dp),
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
+        maxItemsInEachRow = if (compact) 2 else cards.size,
+    ) {
+        cards.forEach { card ->
+            Row(
+                Modifier.weight(1f).clip(RoundedCornerShape(14.dp)).background(card.tint.copy(alpha = 0.06f))
+                    .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+                    .padding(horizontal = 16.dp, vertical = 18.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Box(Modifier.size(48.dp).clip(RoundedCornerShape(24.dp)).background(card.tint.copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
+                    Icon(card.icon, contentDescription = null, tint = card.tint, modifier = Modifier.size(24.dp))
+                }
+                Spacer(Modifier.width(14.dp))
+                Column {
+                    Text(card.label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Text(card.value.toString(), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                }
+            }
         }
     }
 }
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) {
+private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean) {
+    val colors = MaterialTheme.colorScheme
     val filter = state.filter
-    val languageOptions = listOf<Pair<Long?, String>>(null to "(all)") + state.languages.map { it.id to it.name }
-    val statuses = TermStatus.entries.filter { it != TermStatus.IGNORED }
-    Column(Modifier.padding(horizontal = 16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Dropdown(
-                options = languageOptions,
-                selected = languageOptions.firstOrNull { it.first == filter.languageId } ?: languageOptions.first(),
-                onSelect = { viewModel.setLanguage(it.first) },
-                label = "Language",
-                optionLabel = { it.second },
-                modifier = Modifier.width(220.dp),
+    val languageOptions = listOf<Pair<Long?, String>>(null to "All languages") + state.languages.map { it.id to it.name }
+    val currentLanguage = languageOptions.firstOrNull { it.first == filter.languageId } ?: languageOptions.first()
+    val statusOptions = listOf<TermStatus?>(null) + TermStatus.selectable
+    val statusLabel = state.statusChoice?.label ?: "All statuses"
+    val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: "Custom order"
+    FlowRow(
+        Modifier.fillMaxWidth().padding(bottom = 16.dp),
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
+        itemVerticalAlignment = Alignment.CenterVertically,
+    ) {
+        SearchBox(filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, if (compact) Modifier.fillMaxWidth() else Modifier.width(300.dp))
+        FilterMenu(AppIcons.Globe, currentLanguage.second, languageOptions, { it.second }) { viewModel.setLanguage(it.first) }
+        FilterMenu(AppIcons.BarChart, statusLabel, statusOptions, { it?.label ?: "All statuses" }, viewModel::setStatusChoice)
+        FilterMenu(AppIcons.SwapVert, sortLabel, TermSortOption.entries, { it.label }) { viewModel.setSort(it.sort) }
+        val active = state.filtersVisible
+        OutlinedButton(
+            onClick = viewModel::toggleFilters,
+            shape = RoundedCornerShape(10.dp),
+            contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
+            colors = ButtonDefaults.outlinedButtonColors(
+                containerColor = if (active) colors.primary.copy(alpha = 0.1f) else Color.Transparent,
+                contentColor = if (active) colors.primary else colors.onSurface,
+            ),
+        ) {
+            Icon(AppIcons.Tune, contentDescription = null, modifier = Modifier.size(18.dp))
+            Spacer(Modifier.width(8.dp))
+            Text("Filters", style = MaterialTheme.typography.bodyMedium)
+        }
+        if (!compact) {
+            Spacer(Modifier.weight(1f))
+            Text(
+                if (state.selected.isEmpty()) "${state.totalCount} term${if (state.totalCount == 1) "" else "s"}" else "${state.selected.size} of ${state.totalCount} selected",
+                style = MaterialTheme.typography.bodyMedium,
+                color = colors.onSurfaceVariant,
             )
-            Dropdown(options = statuses, selected = filter.minStatus, onSelect = { s -> viewModel.updateFilter { it.copy(minStatus = s) } }, label = "Status from", optionLabel = { it.label }, modifier = Modifier.width(180.dp))
-            Dropdown(options = statuses, selected = filter.maxStatus, onSelect = { s -> viewModel.updateFilter { it.copy(maxStatus = s) } }, label = "Status to", optionLabel = { it.label }, modifier = Modifier.width(180.dp))
+        }
+    }
+}
+
+@Composable
+private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        modifier.height(44.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
+        Spacer(Modifier.width(8.dp))
+        BasicTextField(
+            value = value,
+            onValueChange = onChange,
+            singleLine = true,
+            textStyle = MaterialTheme.typography.bodyMedium.copy(color = colors.onSurface),
+            cursorBrush = SolidColor(colors.primary),
+            modifier = Modifier.weight(1f),
+            decorationBox = { inner ->
+                Box(contentAlignment = Alignment.CenterStart) {
+                    if (value.isEmpty()) Text("Search terms or translations", color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
+                    inner()
+                }
+            },
+        )
+    }
+}
+
+@Composable
+private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, optionLabel: (T) -> String, onSelect: (T) -> Unit) {
+    var open by remember { mutableStateOf(false) }
+    Box {
+        OutlinedButton(
+            onClick = { open = true },
+            shape = RoundedCornerShape(10.dp),
+            contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
+            colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface),
+        ) {
+            Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(18.dp))
+            Spacer(Modifier.width(8.dp))
+            Text(label, style = MaterialTheme.typography.bodyMedium)
+            Spacer(Modifier.width(4.dp))
+            Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            options.forEach { option ->
+                AppMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) })
+            }
+        }
+    }
+}
+
+/** Less common filters, shown on demand. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) {
+    val colors = MaterialTheme.colorScheme
+    val filter = state.filter
+    Column(
+        Modifier.fillMaxWidth().padding(bottom = 16.dp).clip(RoundedCornerShape(12.dp)).background(colors.surfaceVariant.copy(alpha = 0.4f)).padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp), itemVerticalAlignment = Alignment.CenterVertically) {
             OutlinedTextField(
                 value = filter.minAgeDays?.toString().orEmpty(),
                 onValueChange = { v -> viewModel.updateFilter { it.copy(minAgeDays = v.toIntOrNull()) } },
                 label = { Text("Age min (days)") },
                 singleLine = true,
+                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.width(150.dp),
             )
             OutlinedTextField(
@@ -187,10 +383,9 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
                 onValueChange = { v -> viewModel.updateFilter { it.copy(maxAgeDays = v.toIntOrNull()) } },
                 label = { Text("Age max (days)") },
                 singleLine = true,
+                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.width(150.dp),
             )
-        }
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.Center) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Checkbox(checked = filter.parentsOnly, onCheckedChange = { v -> viewModel.updateFilter { it.copy(parentsOnly = v) } })
                 Text("Parent terms only")
@@ -199,102 +394,226 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
                 Checkbox(checked = filter.includeIgnored, onCheckedChange = { v -> viewModel.updateFilter { it.copy(includeIgnored = v) } })
                 Text("Include ignored")
             }
-            if (filter.termIds != null) Text("Showing ${filter.termIds!!.size} terms from the current page", Modifier.padding(top = 12.dp))
             TextButton(onClick = viewModel::clearFilters) { Text("Clear all") }
         }
+        if (filter.termIds != null) {
+            Text("Showing ${filter.termIds!!.size} terms from the current page.", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        }
     }
 }
 
+// Column weights shared by the table header and rows.
+private const val TERM_WEIGHT = 1.6f
+private const val PARENT_WEIGHT = 1.2f
+private const val TRANSLATION_WEIGHT = 3f
+private const val LANGUAGE_WEIGHT = 1.3f
+private val STATUS_WIDTH = 90.dp
+private val ADDED_WIDTH = 110.dp
+private val MENU_WIDTH = 48.dp
+
 @Composable
-private fun HeaderRow(state: TermsListUiState, viewModel: TermsListViewModel) {
+private fun TableHeader(state: TermsListUiState, viewModel: TermsListViewModel, actions: ListActions) {
+    val colors = MaterialTheme.colorScheme
     val allSelected = state.terms.isNotEmpty() && state.terms.all { it.id in state.selected }
-    Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp), verticalAlignment = Alignment.CenterVertically) {
-        Checkbox(checked = allSelected, onCheckedChange = viewModel::selectAllVisible)
-        SortHeader("Term", TermSortField.TEXT, state, viewModel, Modifier.weight(2f))
-        Text("Parents", Modifier.weight(1.2f), style = MaterialTheme.typography.labelLarge)
-        Text("Translation", Modifier.weight(2f), style = MaterialTheme.typography.labelLarge)
-        SortHeader("Language", TermSortField.LANGUAGE, state, viewModel, Modifier.weight(1f))
-        SortHeader("Status", TermSortField.STATUS, state, viewModel, Modifier.width(90.dp))
-        SortHeader("Added", TermSortField.CREATED, state, viewModel, Modifier.width(60.dp))
+    CompositionLocalProvider(LocalContentColor provides colors.onSurfaceVariant, LocalTextStyle provides MaterialTheme.typography.bodyMedium) {
+        Row(
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(topStart = 10.dp, topEnd = 10.dp)).background(colors.surfaceVariant.copy(alpha = 0.5f))
+                .padding(horizontal = 8.dp, vertical = 6.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Checkbox(checked = allSelected, onCheckedChange = viewModel::selectAllVisible)
+            HeaderCell("Term", Modifier.weight(TERM_WEIGHT), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.TEXT) { viewModel.sortBy(TermSortField.TEXT) }
+            HeaderCell("Parent", Modifier.weight(PARENT_WEIGHT))
+            HeaderCell("Translation", Modifier.weight(TRANSLATION_WEIGHT))
+            HeaderCell("Language", Modifier.weight(LANGUAGE_WEIGHT), active = state.sort.field == TermSortField.LANGUAGE) { viewModel.sortBy(TermSortField.LANGUAGE) }
+            HeaderCell("Status", Modifier.width(STATUS_WIDTH), Icons.Default.Info, active = state.sort.field == TermSortField.STATUS) { viewModel.sortBy(TermSortField.STATUS) }
+            HeaderCell("Added", Modifier.width(ADDED_WIDTH), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.CREATED) { viewModel.sortBy(TermSortField.CREATED) }
+            Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { ListMenu(state, actions) }
+        }
     }
-    HorizontalDivider()
 }
 
 @Composable
-private fun SortHeader(label: String, field: TermSortField, state: TermsListUiState, viewModel: TermsListViewModel, modifier: Modifier) {
-    val active = state.sort.field == field
-    val arrow = if (!active) "" else if (state.sort.ascending) " ▲" else " ▼"
-    Text(
-        "$label$arrow",
-        modifier.clickable { viewModel.sortBy(field) },
-        style = MaterialTheme.typography.labelLarge,
-        fontWeight = if (active) FontWeight.Bold else FontWeight.Normal,
-    )
+private fun HeaderCell(label: String, modifier: Modifier, icon: ImageVector? = null, active: Boolean = false, onClick: (() -> Unit)? = null) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        modifier.then(if (onClick != null) Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onClick) else Modifier).padding(vertical = 6.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(4.dp),
+    ) {
+        Text(label, color = if (active) colors.primary else LocalContentColor.current, fontWeight = FontWeight.Medium)
+        if (icon != null) Icon(icon, contentDescription = null, modifier = Modifier.size(16.dp), tint = if (active) colors.primary else LocalContentColor.current)
+    }
 }
 
 @Composable
-private fun TermRow(
-    term: Term,
-    languageName: String,
-    selected: Boolean,
-    compact: Boolean,
-    onToggle: () -> Unit,
-    onOpen: () -> Unit,
-    onStatus: (TermStatus) -> Unit,
-) {
+private fun TermTableRow(term: Term, languageName: String, selected: Boolean, index: Int, actions: RowActions) {
+    val colors = MaterialTheme.colorScheme
+    val interaction = remember { MutableInteractionSource() }
+    val hovered by interaction.collectIsHoveredAsState()
+    val background = when {
+        selected || hovered -> colors.primary.copy(alpha = 0.08f)
+        index % 2 == 1 -> colors.surfaceVariant.copy(alpha = 0.25f)
+        else -> Color.Transparent
+    }
+    Row(
+        Modifier.fillMaxWidth().background(background).hoverable(interaction).clickable { actions.onOpen(term) }.padding(horizontal = 8.dp, vertical = 2.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Checkbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
+        Text(term.displayText, Modifier.weight(TERM_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(term.parents.joinToString(", ") { it.displayText }, Modifier.weight(PARENT_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(term.translation.orEmpty(), Modifier.weight(TRANSLATION_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        Row(Modifier.weight(LANGUAGE_WEIGHT), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            LanguageDot(languageName)
+            Text(languageName, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        }
+        Box(Modifier.width(STATUS_WIDTH)) { StatusChip(term.status) { actions.onStatus(term, it) } }
+        Text(term.createdAt?.let(::addedLabel).orEmpty(), Modifier.width(ADDED_WIDTH), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { RowMenu(term, actions) }
+    }
+}
+
+@Composable
+private fun CompactTermRow(term: Term, languageName: String, selected: Boolean, actions: RowActions) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.fillMaxWidth().background(if (selected) colors.primary.copy(alpha = 0.08f) else Color.Transparent).clickable { actions.onOpen(term) }.padding(horizontal = 4.dp, vertical = 6.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Checkbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+            Text(term.displayText, style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
+            term.parents.takeIf { it.isNotEmpty() }?.let { Text("parent: ${it.joinToString(", ") { p -> p.displayText }}", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
+            term.translation?.takeIf { it.isNotBlank() }?.let { Text(it, style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis) }
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                LanguageDot(languageName)
+                Text(listOfNotNull(languageName, term.createdAt?.let(::addedLabel)).joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            }
+        }
+        StatusChip(term.status) { actions.onStatus(term, it) }
+        RowMenu(term, actions)
+    }
+}
+
+private val dotTints = listOf(
+    Color(0xFF1FA463), Color(0xFF7C4DDB), Color(0xFFDC4A4A), Color(0xFFC98A05),
+    Color(0xFF3B6FE0), Color(0xFF0E96B0), Color(0xFFE0641B), Color(0xFFD9337E),
+)
+
+/** A small coloured disc with the language code, standing in for a flag. */
+@Composable
+private fun LanguageDot(languageName: String) {
+    val code = LanguageCodes.codeFor(languageName)?.uppercase() ?: languageName.take(2).uppercase()
+    val tint = dotTints[(code.hashCode() and Int.MAX_VALUE) % dotTints.size]
+    Box(Modifier.size(24.dp).clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
+        Text(code, color = tint, style = MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Bold)
+    }
+}
+
+@Composable
+private fun StatusChip(status: TermStatus, onSelect: (TermStatus) -> Unit) {
     val colors = TayraTheme.current.statusColors
-    var statusMenu by remember { mutableStateOf(false) }
-    val statusChip: @Composable () -> Unit = {
-        Box {
-            Text(
-                term.status.abbreviation,
-                Modifier.clip(RoundedCornerShape(4.dp)).background(colors.background(term.status).takeIf { it != androidx.compose.ui.graphics.Color.Transparent } ?: MaterialTheme.colorScheme.surfaceVariant)
-                    .clickable { statusMenu = true }.padding(horizontal = 10.dp, vertical = 4.dp),
-                color = if (colors.onHighlight != androidx.compose.ui.graphics.Color.Unspecified) colors.onHighlight else androidx.compose.ui.graphics.Color.Black,
-                style = MaterialTheme.typography.labelMedium,
-            )
-            AppMenu(expanded = statusMenu, onDismissRequest = { statusMenu = false }) {
-                TermStatus.selectable.forEach { status ->
-                    AppMenuItem(text = { Text(status.label) }, onClick = { statusMenu = false; onStatus(status) })
-                }
+    var open by remember { mutableStateOf(false) }
+    val background = colors.background(status).takeIf { it != Color.Transparent } ?: MaterialTheme.colorScheme.surfaceVariant
+    Box {
+        Text(
+            status.abbreviation,
+            Modifier.clip(RoundedCornerShape(6.dp)).background(background).border(1.dp, background.darken(), RoundedCornerShape(6.dp))
+                .clickable { open = true }.padding(horizontal = 10.dp, vertical = 4.dp),
+            color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color(0xFF1B1F24),
+            style = MaterialTheme.typography.labelLarge,
+            fontWeight = FontWeight.SemiBold,
+        )
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            TermStatus.selectable.forEach { option ->
+                AppMenuItem(text = { Text(option.label) }, onClick = { open = false; onSelect(option) })
             }
         }
     }
-    if (compact) {
-        Row(Modifier.fillMaxWidth().clickable(onClick = onOpen).padding(horizontal = 8.dp, vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
-            Checkbox(checked = selected, onCheckedChange = { onToggle() })
-            Column(Modifier.weight(1f)) {
-                Text(term.displayText, style = MaterialTheme.typography.titleSmall)
-                val details = listOfNotNull(
-                    term.parents.takeIf { it.isNotEmpty() }?.joinToString(", ") { it.displayText }?.let { "parents: $it" },
-                    term.translation?.takeIf { it.isNotBlank() },
-                    languageName,
-                )
-                details.forEach { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-            }
-            statusChip()
-        }
-    } else {
-        Row(Modifier.fillMaxWidth().clickable(onClick = onOpen).padding(horizontal = 16.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-            Checkbox(checked = selected, onCheckedChange = { onToggle() })
-            Text(term.displayText, Modifier.weight(2f), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.primary)
-            Text(term.parents.joinToString(", ") { it.displayText }, Modifier.weight(1.2f), style = MaterialTheme.typography.bodySmall)
-            Text(term.translation.orEmpty(), Modifier.weight(2f), style = MaterialTheme.typography.bodySmall, maxLines = 2)
-            Text(languageName, Modifier.weight(1f), style = MaterialTheme.typography.bodySmall)
-            Row(Modifier.width(90.dp)) { statusChip() }
-            Text(if (term.syncStatus) "↔" else "", Modifier.width(60.dp), style = MaterialTheme.typography.bodySmall)
+}
+
+private fun Color.darken(): Color = Color(red * 0.85f, green * 0.85f, blue * 0.85f, alpha)
+
+@Composable
+private fun RowMenu(term: Term, actions: RowActions) {
+    var open by remember { mutableStateOf(false) }
+    Box {
+        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Term actions", tint = MaterialTheme.colorScheme.onSurfaceVariant) }
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            AppMenuItem(text = { Text("Edit") }, onClick = { open = false; actions.onOpen(term) })
+            AppMenuItem(text = { Text("Delete") }, onClick = { open = false; actions.onDelete(term) })
         }
     }
 }
 
 @Composable
-private fun Pager(state: TermsListUiState, viewModel: TermsListViewModel) {
-    Row(Modifier.fillMaxWidth().padding(8.dp), horizontalArrangement = Arrangement.Center, verticalAlignment = Alignment.CenterVertically) {
-        TextButton(onClick = { viewModel.goToPage(state.page - 1) }, enabled = state.page > 0) { Text("Previous") }
-        val from = if (state.totalCount == 0) 0 else state.page * state.pageSize + 1
-        val to = minOf(state.totalCount, (state.page + 1) * state.pageSize)
-        Text("$from to $to of ${state.totalCount}", style = MaterialTheme.typography.bodySmall)
-        TextButton(onClick = { viewModel.goToPage(state.page + 1) }, enabled = state.page < state.pageCount - 1) { Text("Next") }
-        if (state.selected.isNotEmpty()) Text("  ${state.selected.size} selected", style = MaterialTheme.typography.bodySmall)
+private fun EmptyState() {
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(32.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        Icon(AppIcons.Book, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(36.dp))
+        Text("No terms match the current filters.", style = MaterialTheme.typography.titleMedium)
+    }
+}
+
+@Composable
+private fun Pager(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    val from = if (state.totalCount == 0) 0 else state.page * state.pageSize + 1
+    val to = minOf(state.totalCount, (state.page + 1) * state.pageSize)
+    Row(Modifier.fillMaxWidth().padding(top = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+        var open by remember { mutableStateOf(false) }
+        Box {
+            OutlinedButton(
+                onClick = { open = true },
+                shape = RoundedCornerShape(10.dp),
+                contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
+                colors = ButtonDefaults.outlinedButtonColors(contentColor = colors.onSurface),
+            ) {
+                Text("${state.pageSize} per page", style = MaterialTheme.typography.bodyMedium)
+                Spacer(Modifier.width(4.dp))
+                Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(18.dp))
+            }
+            AppMenu(expanded = open, onDismissRequest = { open = false }) {
+                PAGE_SIZES.forEach { size -> AppMenuItem(text = { Text("$size per page") }, onClick = { open = false; viewModel.setPageSize(size) }) }
+            }
+        }
+        Spacer(Modifier.weight(1f))
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            PagerButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, "Previous page", enabled = state.page > 0) { viewModel.goToPage(state.page - 1) }
+            Text("$from–$to of ${state.totalCount}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            PagerButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, "Next page", enabled = state.page < state.pageCount - 1) { viewModel.goToPage(state.page + 1) }
+        }
+        if (!compact) Spacer(Modifier.weight(1f))
+    }
+}
+
+@Composable
+private fun PagerButton(icon: ImageVector, description: String, enabled: Boolean, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Box(
+        Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(enabled = enabled, onClick = onClick).padding(8.dp),
+    ) {
+        Icon(icon, contentDescription = description, tint = if (enabled) colors.primary else colors.outlineVariant, modifier = Modifier.size(20.dp))
+    }
+}
+
+private val monthNames = listOf("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+/** "Today", "Yesterday", or a short date. */
+private fun addedLabel(instant: Instant, now: Instant = Clock.System.now()): String {
+    val zone = TimeZone.currentSystemDefault()
+    val date = instant.toLocalDateTime(zone).date
+    val today = now.toLocalDateTime(zone).date
+    return when (date) {
+        today -> "Today"
+        today.minus(1, DateTimeUnit.DAY) -> "Yesterday"
+        else -> {
+            val base = "${monthNames[date.month.ordinal]} ${date.day}"
+            if (date.year == today.year) base else "$base, ${date.year}"
+        }
     }
 }

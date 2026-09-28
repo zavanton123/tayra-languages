@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.model
 
+import kotlin.time.Instant
+
 /**
  * Learning status of a term. The numeric values match the classic LWT/Lute statuses.
  */
@@ -56,6 +58,8 @@ data class Term(
     val syncStatus: Boolean = false,
     val flashMessage: String? = null,
     val parents: List<TermRef> = emptyList(),
+    /** When the term was created, or null for terms not yet stored. */
+    val createdAt: Instant? = null,
 ) {
     val displayText: String get() = text.replace(ZWS_STRING, "")
     val isMultiword: Boolean get() = tokenCount > 1
