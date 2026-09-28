@@ -9,7 +9,13 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -25,6 +31,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -149,7 +156,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
     var showAll by remember { mutableStateOf(false) }
     LaunchedEffect(settings.argosPython) { viewModel.check() }
 
-    Scaffold(topBar = { AppTopBar(title = "Offline translation", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = "Translation", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) }) { padding ->
         Column(
             Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 800.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),
@@ -185,7 +192,18 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 Text(it, style = MaterialTheme.typography.bodySmall)
                 LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
             }
-            status?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+            status?.let { text ->
+                Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    if (busy) {
+                        CircularProgressIndicator(modifier = Modifier.size(18.dp), strokeWidth = 2.dp)
+                    } else if (ready) {
+                        Icon(Icons.Default.CheckCircle, contentDescription = "Working", tint = Color(0xFF2E7D32), modifier = Modifier.size(18.dp))
+                    } else {
+                        Icon(Icons.Default.Warning, contentDescription = "Not working", tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(18.dp))
+                    }
+                    Text(text, style = MaterialTheme.typography.bodySmall)
+                }
+            }
             OutlinedTextField(
                 value = settings.argosPython,
                 onValueChange = { v -> viewModel.update { it.copy(argosPython = v.trim()) } },
@@ -211,8 +229,18 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 }.toSet()
                 val relevant = packages.filter { it.key in wanted || it.installed }
                 val shown = if (showAll || relevant.isEmpty()) packages else relevant
-                shown.forEach { pkg ->
-                    PackageRow(pkg, busy = pkg.key in packageBusy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
+                // Grouped by the language translated into, the native language first.
+                val groups = shown.groupBy { it.toCode }.entries.sortedWith(compareBy({ it.key != native }, { it.value.first().toName }))
+                groups.forEach { (_, group) ->
+                    Text(
+                        "Into ${group.first().toName}",
+                        style = MaterialTheme.typography.titleSmall,
+                        color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.padding(top = 8.dp),
+                    )
+                    group.sortedBy { it.fromName }.forEach { pkg ->
+                        PackageRow(pkg, busy = pkg.key in packageBusy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
+                    }
                 }
                 if (relevant.size < packages.size) {
                     TextButton(onClick = { showAll = !showAll }) {
