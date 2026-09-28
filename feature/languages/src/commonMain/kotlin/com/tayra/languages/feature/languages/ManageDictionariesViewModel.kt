@@ -57,7 +57,7 @@ class ManageDictionariesViewModel(
         val storedIds = stored.mapNotNull { it.catalog?.id }.toSet()
         val fromCatalog = OnlineDictionaries.all
             .filter { it.id !in storedIds }
-            .map { DictionaryEntry(it.displayName(source, target), it.url(source, target), null, it) }
+            .mapNotNull { entry -> entry.url(source, target)?.let { DictionaryEntry(entry.displayName(source, target), it, null, entry) } }
         ManageDictionariesUiState(
             loading = false,
             language = language,
