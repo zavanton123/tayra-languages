@@ -2,6 +2,7 @@ package com.tayra.languages.feature.books
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -265,13 +266,15 @@ private fun BookRow(
             }
         }
         Spacer(Modifier.width(8.dp))
-        IconButton(onClick = { menuOpen = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Actions") }
-        DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
-            DropdownMenuItem(text = { Text("Read") }, onClick = { menuOpen = false; onOpen() })
-            DropdownMenuItem(text = { Text("Edit") }, onClick = { menuOpen = false; onEdit() })
-            DropdownMenuItem(text = { Text("Bookmarks") }, onClick = { menuOpen = false; onBookmarks() })
-            DropdownMenuItem(text = { Text(if (book.isArchived) "Unarchive" else "Archive") }, onClick = { menuOpen = false; onArchive() })
-            DropdownMenuItem(text = { Text("Delete") }, onClick = { menuOpen = false; onDelete() })
+        Box {
+            IconButton(onClick = { menuOpen = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Actions") }
+            DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
+                DropdownMenuItem(text = { Text("Read") }, onClick = { menuOpen = false; onOpen() })
+                DropdownMenuItem(text = { Text("Edit") }, onClick = { menuOpen = false; onEdit() })
+                DropdownMenuItem(text = { Text("Bookmarks") }, onClick = { menuOpen = false; onBookmarks() })
+                DropdownMenuItem(text = { Text(if (book.isArchived) "Unarchive" else "Archive") }, onClick = { menuOpen = false; onArchive() })
+                DropdownMenuItem(text = { Text("Delete") }, onClick = { menuOpen = false; onDelete() })
+            }
         }
     }
     Spacer(Modifier.height(0.dp))
