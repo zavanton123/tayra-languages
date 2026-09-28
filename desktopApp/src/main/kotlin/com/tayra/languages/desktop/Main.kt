@@ -1,6 +1,7 @@
 package com.tayra.languages.desktop
 
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.WindowState
@@ -21,6 +22,7 @@ fun main() {
         Window(
             onCloseRequest = ::exitApplication,
             title = "Tayra Languages",
+            icon = painterResource("window-icon.png"),
             state = WindowState(width = 1200.dp, height = 800.dp),
         ) {
             LaunchedEffect(window) {

@@ -27,6 +27,9 @@ compose.desktop {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "TayraLanguages"
             packageVersion = desktopVersion.get()
+            macOS { iconFile.set(project.file("icons/TayraLanguages.icns")) }
+            windows { iconFile.set(project.file("icons/TayraLanguages.ico")) }
+            linux { iconFile.set(project.file("icons/TayraLanguages.png")) }
         }
     }
 }
