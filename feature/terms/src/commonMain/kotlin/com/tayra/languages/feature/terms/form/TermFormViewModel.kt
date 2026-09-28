@@ -3,6 +3,9 @@ package com.tayra.languages.feature.terms.form
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
+import com.tayra.languages.core.domain.dictionary.PackState
+import com.tayra.languages.core.domain.dictionary.PackStatus
+import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -67,6 +70,8 @@ data class TermFormUiState(
     val createdAt: Instant? = null,
     /** Offline dictionary entries for the term, empty when no bundled dictionary covers the language pair. */
     val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
+    /** The downloadable pack for the language pair and whether it is on the device; null when none exists. */
+    val dictionaryPack: PackStatus? = null,
 ) {
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
     val isNew: Boolean get() = draft.isNew
@@ -91,6 +96,7 @@ class TermFormViewModel(
     private val translationProvider: TermTranslationProvider,
     private val examplesProvider: ExampleSentencesProvider,
     private val dictionary: OfflineDictionary,
+    private val dictionaries: DictionaryService,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(TermFormUiState())
@@ -98,6 +104,7 @@ class TermFormViewModel(
     val events = UiEvents<TermFormEvent>()
     private var searchJob: Job? = null
     private var autosaveJob: Job? = null
+    private var packJob: Job? = null
 
     init {
         viewModelScope.launch { load() }
@@ -125,6 +132,7 @@ class TermFormViewModel(
         _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }, createdAt = createdAt) }
         val language = languageList.firstOrNull { it.id == draft.languageId }
         val lookup = lookupDictionary(draft.text, language)
+        observePack(language)
         // Words on a page exist as placeholders before anyone opens them, so "new" is judged by
         // content: no translation and no parent means nobody has curated the term yet.
         val untouched = draft.translation.isBlank() && draft.parents.isEmpty()
@@ -147,6 +155,36 @@ class TermFormViewModel(
         val lookup = dictionary.lookup(id, text)
         _state.update { it.copy(dictionary = lookup) }
         return lookup
+    }
+
+    /** Tracks the pack for the language pair, and looks the term up once the pack is installed. */
+    private fun observePack(language: Language?) {
+        packJob?.cancel()
+        val pack = DictionaryPacks.find(language?.let { LanguageCodes.codeFor(it.name) }, settings.current.nativeLanguage)
+        if (pack == null) {
+            _state.update { it.copy(dictionaryPack = null) }
+            return
+        }
+        packJob = viewModelScope.launch {
+            dictionaries.packs.collect { list ->
+                val status = list.firstOrNull { it.pack.id == pack.id } ?: PackStatus(pack, PackState.NotInstalled)
+                val wasInstalled = _state.value.dictionaryPack?.state is PackState.Installed
+                _state.update { it.copy(dictionaryPack = status) }
+                if (status.state is PackState.Installed && !wasInstalled && _state.value.dictionary.isEmpty) {
+                    val current = _state.value
+                    val lookup = lookupDictionary(current.draft.text, current.language)
+                    val gloss = lookup.suggestedTranslation
+                    if (gloss != null && _state.value.draft.translation.isBlank()) {
+                        _state.update { it.copy(translationSuggested = true, draft = it.draft.copy(translation = gloss)) }
+                    }
+                }
+            }
+        }
+    }
+
+    fun downloadDictionary() {
+        val pack = _state.value.dictionaryPack?.pack ?: return
+        viewModelScope.launch { dictionaries.download(pack) }
     }
 
     /** Appends a dictionary gloss to the translation. */
