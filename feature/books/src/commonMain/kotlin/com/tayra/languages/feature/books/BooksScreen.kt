@@ -35,8 +35,6 @@ import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
-import androidx.compose.material3.DropdownMenu
-import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalContentColor
@@ -67,6 +65,8 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.BookListItem
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.components.AppMenu
+import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -323,9 +323,9 @@ private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, o
             Spacer(Modifier.width(4.dp))
             Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant)
         }
-        DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
             options.forEach { option ->
-                DropdownMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) })
+                AppMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) })
             }
         }
     }
@@ -504,12 +504,12 @@ private fun BookMenu(book: BookListItem, actions: BookActions) {
     var open by remember { mutableStateOf(false) }
     Box {
         IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Actions", tint = MaterialTheme.colorScheme.onSurfaceVariant) }
-        DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
-            DropdownMenuItem(text = { Text("Read") }, onClick = { open = false; actions.onOpen(book) })
-            DropdownMenuItem(text = { Text("Edit") }, onClick = { open = false; actions.onEdit(book) })
-            DropdownMenuItem(text = { Text("Bookmarks") }, onClick = { open = false; actions.onBookmarks(book) })
-            DropdownMenuItem(text = { Text(if (book.isArchived) "Unarchive" else "Archive") }, onClick = { open = false; actions.onArchive(book) })
-            DropdownMenuItem(text = { Text("Delete") }, onClick = { open = false; actions.onDelete(book) })
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            AppMenuItem(text = { Text("Read") }, onClick = { open = false; actions.onOpen(book) })
+            AppMenuItem(text = { Text("Edit") }, onClick = { open = false; actions.onEdit(book) })
+            AppMenuItem(text = { Text("Bookmarks") }, onClick = { open = false; actions.onBookmarks(book) })
+            AppMenuItem(text = { Text(if (book.isArchived) "Unarchive" else "Archive") }, onClick = { open = false; actions.onArchive(book) })
+            AppMenuItem(text = { Text("Delete") }, onClick = { open = false; actions.onDelete(book) })
         }
     }
 }
