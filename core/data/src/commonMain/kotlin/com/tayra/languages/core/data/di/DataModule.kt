@@ -22,6 +22,7 @@ import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.repository.SentenceTranslationCacheImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.domain.repository.SentenceTranslationCache
+import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.DictionaryRepository
@@ -59,7 +60,7 @@ val dataModule: Module = module {
     includes(platformDataModule)
 
     single { DatabaseProvider(get()) }
-    single<SettingsRepository> { SettingsRepositoryImpl(get<Settings>()) }
+    single<SettingsRepository> { SettingsRepositoryImpl(get<Settings>(), get<SecureStore>()) }
     single<LanguageRepository> { LanguageRepositoryImpl(get()) }
     single<BookRepository> { BookRepositoryImpl(get()) }
     single<TermRepository> { TermRepositoryImpl(get()) }

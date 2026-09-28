@@ -2,6 +2,8 @@ package com.tayra.languages.core.data.di
 
 import com.russhwolf.settings.PreferencesSettings
 import com.russhwolf.settings.Settings
+import com.tayra.languages.core.data.settings.SecureStore
+import com.tayra.languages.core.data.settings.desktopSecureStore
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.translation.ArgosSentenceTranslator
@@ -15,4 +17,5 @@ actual val platformDataModule: Module = module {
     single { DatabaseDriverFactory() }
     single { DictionaryPackStorage(get()) }
     single<Settings> { PreferencesSettings(Preferences.userRoot().node("com/tayra/languages")) }
+    single<SecureStore> { desktopSecureStore() }
 }

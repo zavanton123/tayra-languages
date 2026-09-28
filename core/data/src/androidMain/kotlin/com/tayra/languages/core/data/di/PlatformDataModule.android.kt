@@ -2,6 +2,8 @@ package com.tayra.languages.core.data.di
 
 import android.content.Context
 import com.russhwolf.settings.Settings
+import com.tayra.languages.core.data.settings.AndroidSecureStore
+import com.tayra.languages.core.data.settings.SecureStore
 import com.russhwolf.settings.SharedPreferencesSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
@@ -14,4 +16,5 @@ actual val platformDataModule: Module = module {
     single { DatabaseDriverFactory(get<Context>()) }
     single { DictionaryPackStorage(get<Context>(), get()) }
     single<Settings> { SharedPreferencesSettings(get<Context>().getSharedPreferences("tayra_settings", Context.MODE_PRIVATE)) }
+    single<SecureStore> { AndroidSecureStore(get<Context>()) }
 }
