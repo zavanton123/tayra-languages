@@ -40,6 +40,9 @@ import com.tayra.languages.core.domain.service.TermImportService
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.service.CachedSentenceTranslator
+import com.tayra.languages.core.domain.service.LocalTranslation
+import com.tayra.languages.core.domain.service.RoutingSentenceTranslator
+import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -73,7 +76,12 @@ val dataModule: Module = module {
     single<SentenceTranslationCache> { SentenceTranslationCacheImpl(get()) }
     single<SentenceTranslator> {
         val settings = get<SettingsRepository>()
-        CachedSentenceTranslator(get<MyMemoryTranslationProvider>(), get(), targetLanguage = { settings.current.nativeLanguage })
+        val routed = RoutingSentenceTranslator(get<MyMemoryTranslationProvider>(), get<LocalTranslation>().translator) { settings.current.translationEngine }
+        // Stored translations carry the engine in their key so switching engines never mixes results.
+        CachedSentenceTranslator(routed, get(), targetLanguage = {
+            val native = settings.current.nativeLanguage
+            if (settings.current.translationEngine == TranslationEngine.ARGOS) "argos:$native" else native
+        })
     }
     single<TermTranslationProvider> {
         TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), get<MyMemoryTranslationProvider>(), get())
