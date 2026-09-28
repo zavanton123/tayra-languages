@@ -197,9 +197,22 @@ class ReadingViewModel(
         hidePopup()
         _state.update { it.copy(marked = setOf(itemIndex), hovered = null, selection = null) }
         if (item.status == TermStatus.UNKNOWN && s.settings.tapSetsStatus) {
-            setStatus(TermStatus.NEW_1)
+            setStatusForItem(item, TermStatus.NEW_1)
         } else {
             openTerm(item)
+        }
+    }
+
+    /**
+     * Sets one word's status. Unknown words have no stored term yet (their id is 0), so those
+     * are created through the reading service instead of updated by id.
+     */
+    private fun setStatusForItem(item: TextItem, status: TermStatus) {
+        val language = _state.value.language ?: return
+        viewModelScope.launch {
+            val id = item.termId
+            if (id != null) termService.setStatus(listOf(id), status) else readingService.setStatusForTexts(language, listOf(item.text), status)
+            afterTermChange()
         }
     }
 
@@ -210,7 +223,7 @@ class ReadingViewModel(
         if (!item.isWord) return
         hidePopup()
         _state.update { it.copy(marked = setOf(itemIndex), hovered = null, selection = null, selecting = false) }
-        setStatus(TermStatus.NEW_1)
+        setStatusForItem(item, TermStatus.NEW_1)
     }
 
     private fun openTerm(item: TextItem) {

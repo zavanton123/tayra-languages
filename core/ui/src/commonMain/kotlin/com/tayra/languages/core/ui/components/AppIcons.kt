@@ -123,6 +123,11 @@ object AppIcons {
         )
     }
 
+    /** A closed book with a bookmark, for the offline dictionary. */
+    val BookClosed: ImageVector by lazy {
+        icon("BookClosed", "M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z")
+    }
+
     val Download: ImageVector by lazy { icon("Download", "M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z") }
 
     val Tune: ImageVector by lazy {

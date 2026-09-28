@@ -474,15 +474,9 @@ private fun TermBadge() {
     ) { Text("Aa", color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.Bold) }
 }
 
-/** An outlined "A–Z" tag, the mark of the offline dictionary section. */
+/** A closed book, the mark of the offline dictionary section. */
 @Composable
-private fun DictionaryBadge() {
-    val primary = MaterialTheme.colorScheme.primary
-    Box(
-        Modifier.size(width = 28.dp, height = 22.dp).clip(RoundedCornerShape(5.dp)).border(1.5.dp, primary, RoundedCornerShape(5.dp)),
-        contentAlignment = Alignment.Center,
-    ) { Text("A\u2013Z", color = primary, style = MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Bold) }
-}
+private fun DictionaryBadge() = BadgeIcon(AppIcons.BookClosed)
 
 @Composable
 private fun BadgeIcon(icon: androidx.compose.ui.graphics.vector.ImageVector) {
