@@ -3,6 +3,7 @@ package com.tayra.languages.feature.terms.list
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -144,12 +145,14 @@ fun TermsScreen(
 @Composable
 private fun ActionsMenu(state: TermsListUiState, onNew: () -> Unit, onBulk: () -> Unit, onDelete: () -> Unit, onExport: () -> Unit) {
     var open by remember { mutableStateOf(false) }
-    IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Actions") }
-    DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
-        DropdownMenuItem(text = { Text("Create new") }, onClick = { open = false; onNew() })
-        DropdownMenuItem(text = { Text("Bulk edit selected") }, enabled = state.selected.isNotEmpty(), onClick = { open = false; onBulk() })
-        DropdownMenuItem(text = { Text("Delete selected") }, enabled = state.selected.isNotEmpty(), onClick = { open = false; onDelete() })
-        DropdownMenuItem(text = { Text("Export CSV") }, onClick = { open = false; onExport() })
+    Box {
+        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Actions") }
+        DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
+            DropdownMenuItem(text = { Text("Create new") }, onClick = { open = false; onNew() })
+            DropdownMenuItem(text = { Text("Bulk edit selected") }, enabled = state.selected.isNotEmpty(), onClick = { open = false; onBulk() })
+            DropdownMenuItem(text = { Text("Delete selected") }, enabled = state.selected.isNotEmpty(), onClick = { open = false; onDelete() })
+            DropdownMenuItem(text = { Text("Export CSV") }, onClick = { open = false; onExport() })
+        }
     }
 }
 
@@ -241,16 +244,18 @@ private fun TermRow(
     val colors = TayraTheme.current.statusColors
     var statusMenu by remember { mutableStateOf(false) }
     val statusChip: @Composable () -> Unit = {
-        Text(
-            term.status.abbreviation,
-            Modifier.clip(RoundedCornerShape(4.dp)).background(colors.background(term.status).takeIf { it != androidx.compose.ui.graphics.Color.Transparent } ?: MaterialTheme.colorScheme.surfaceVariant)
-                .clickable { statusMenu = true }.padding(horizontal = 10.dp, vertical = 4.dp),
-            color = if (colors.onHighlight != androidx.compose.ui.graphics.Color.Unspecified) colors.onHighlight else androidx.compose.ui.graphics.Color.Black,
-            style = MaterialTheme.typography.labelMedium,
-        )
-        DropdownMenu(expanded = statusMenu, onDismissRequest = { statusMenu = false }) {
-            TermStatus.selectable.forEach { status ->
-                DropdownMenuItem(text = { Text(status.label) }, onClick = { statusMenu = false; onStatus(status) })
+        Box {
+            Text(
+                term.status.abbreviation,
+                Modifier.clip(RoundedCornerShape(4.dp)).background(colors.background(term.status).takeIf { it != androidx.compose.ui.graphics.Color.Transparent } ?: MaterialTheme.colorScheme.surfaceVariant)
+                    .clickable { statusMenu = true }.padding(horizontal = 10.dp, vertical = 4.dp),
+                color = if (colors.onHighlight != androidx.compose.ui.graphics.Color.Unspecified) colors.onHighlight else androidx.compose.ui.graphics.Color.Black,
+                style = MaterialTheme.typography.labelMedium,
+            )
+            DropdownMenu(expanded = statusMenu, onDismissRequest = { statusMenu = false }) {
+                TermStatus.selectable.forEach { status ->
+                    DropdownMenuItem(text = { Text(status.label) }, onClick = { statusMenu = false; onStatus(status) })
+                }
             }
         }
     }

@@ -87,13 +87,15 @@ private fun WideMenu(onNavigate: (Route) -> Unit) {
 @Composable
 private fun CompactMenu(onNavigate: (Route) -> Unit) {
     var open by remember { mutableStateOf(false) }
-    IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Menu") }
-    DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
-        DropdownMenuItem(text = { Text("Home") }, onClick = { open = false; onNavigate(Route.Home) })
-        menuGroups.forEach { group ->
-            HorizontalDivider()
-            group.entries.forEach { entry ->
-                DropdownMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })
+    Box {
+        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Menu") }
+        DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
+            DropdownMenuItem(text = { Text("Home") }, onClick = { open = false; onNavigate(Route.Home) })
+            menuGroups.forEach { group ->
+                HorizontalDivider()
+                group.entries.forEach { entry ->
+                    DropdownMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })
+                }
             }
         }
     }
