@@ -341,6 +341,7 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         MenuSection("More")
         MenuRow(AppIcons.Palette, "Next theme") { onClose(); actions.onNextTheme() }
         MenuRow(AppIcons.Keyboard, "Keyboard shortcuts") { onClose(); actions.onShortcuts() }
+        MenuRow(AppIcons.Translate, "Clear translation cache") { onClose(); viewModel.clearTranslationCache() }
         if (!state.book?.sourceUri.isNullOrBlank()) MenuRow(AppIcons.Link, "Show source URL") { onClose(); actions.onSource() }
     }
 }

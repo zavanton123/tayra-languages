@@ -16,7 +16,9 @@ import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.repository.DictionaryRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
+import com.tayra.languages.core.data.repository.SentenceTranslationCacheImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
+import com.tayra.languages.core.domain.repository.SentenceTranslationCache
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.DictionaryRepository
@@ -68,7 +70,11 @@ val dataModule: Module = module {
     single { WebPageImporter(get()) }
     single<ExampleSentencesProvider> { TatoebaExamplesProvider(get()) }
     single { MyMemoryTranslationProvider(get(), get()) }
-    single<SentenceTranslator> { CachedSentenceTranslator(get<MyMemoryTranslationProvider>(), settings = { get<SettingsRepository>().current.nativeLanguage }) }
+    single<SentenceTranslationCache> { SentenceTranslationCacheImpl(get()) }
+    single<SentenceTranslator> {
+        val settings = get<SettingsRepository>()
+        CachedSentenceTranslator(get<MyMemoryTranslationProvider>(), get(), targetLanguage = { settings.current.nativeLanguage })
+    }
     single<TermTranslationProvider> {
         TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), get<MyMemoryTranslationProvider>(), get())
     }

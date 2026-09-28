@@ -1,0 +1,23 @@
+CREATE TABLE sentence_translations (
+    sentence TEXT NOT NULL,
+    target_language TEXT NOT NULL,
+    translation TEXT NOT NULL,
+    created_at INTEGER NOT NULL,
+    PRIMARY KEY (sentence, target_language)
+);
+
+CREATE INDEX sentence_translations_created ON sentence_translations(created_at);
+
+select:
+SELECT translation, created_at FROM sentence_translations
+WHERE sentence = :sentence AND target_language = :targetLanguage AND created_at >= :notBefore;
+
+upsert:
+INSERT OR REPLACE INTO sentence_translations(sentence, target_language, translation, created_at)
+VALUES (:sentence, :targetLanguage, :translation, :createdAt);
+
+deleteOlderThan:
+DELETE FROM sentence_translations WHERE created_at < :cutoff;
+
+deleteAll:
+DELETE FROM sentence_translations;
