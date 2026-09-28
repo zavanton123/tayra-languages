@@ -22,6 +22,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -73,7 +74,12 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.ui.components.AppMenu
+import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.Dropdown
+import com.tayra.languages.core.ui.components.LocalWindowWidth
+import com.tayra.languages.core.ui.components.formatDate
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.audio.rememberSpeechSynthesizer
@@ -93,12 +99,14 @@ fun TermFormPanel(
     modifier: Modifier = Modifier,
     embedded: Boolean = false,
     onClose: (() -> Unit)? = null,
+    /** Called after the term was deleted from the standalone editor. */
     onDuplicateClick: ((Long) -> Unit)? = null,
     onOpenExamples: ((languageId: Long, text: String) -> Unit)? = null,
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val uriHandler = LocalUriHandler.current
     val focusRequester = remember { FocusRequester() }
+    var confirmDelete by remember { mutableStateOf(false) }
 
     if (state.loading) {
         LoadingIndicator(modifier.heightIn(min = 200.dp))
@@ -130,43 +138,15 @@ fun TermFormPanel(
             }
         } ?: ErrorMessage(state.error)
 
-        if (state.showLanguageSelector) {
-            Dropdown(
-                options = state.languages,
-                selected = language,
-                onSelect = { l -> viewModel.update { it.copy(languageId = l.id) } },
-                label = "Language",
-                optionLabel = { it.name },
-                modifier = Modifier.fillMaxWidth(),
-            )
+        if (embedded) {
+            LanguageSelector(state, viewModel)
+            TermField(state, viewModel, direction, focusRequester)
+            RomanizationField(state, viewModel)
+            TranslationField(state, viewModel)
+            StatusSelector(selected = draft.status, onSelect = viewModel::setStatus)
+        } else {
+            StandaloneFields(state, viewModel, direction, focusRequester, onConfirmDelete = { confirmDelete = true })
         }
-        OutlinedTextField(
-            value = draft.text,
-            onValueChange = { text -> viewModel.update { it.copy(text = text) } },
-            label = { Text("Term") },
-            singleLine = true,
-            trailingIcon = { SpeakButton(draft.text, language?.let { LanguageCodes.codeFor(it.name) }) },
-            textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
-            modifier = Modifier.fillMaxWidth().focusRequester(focusRequester),
-        )
-        if (language?.showRomanization == true) {
-            OutlinedTextField(
-                value = draft.romanization,
-                onValueChange = { v -> viewModel.update { it.copy(romanization = v) } },
-                label = { Text("Pronunciation") },
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
-            )
-        }
-        OutlinedTextField(
-            value = draft.translation,
-            onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
-            label = { Text("Translation") },
-            supportingText = if (state.lookingUpTranslation) ({ Text("Looking up translation...") }) else null,
-            minLines = 3,
-            modifier = Modifier.fillMaxWidth(),
-        )
-        StatusSelector(selected = draft.status, onSelect = viewModel::setStatus)
         if (!state.dictionary.isEmpty) DictionarySection(state.dictionary, onAdd = viewModel::addGloss)
 
         if (language != null && language.termDictionaries.isNotEmpty() && draft.text.isNotBlank()) {
@@ -182,31 +162,215 @@ fun TermFormPanel(
         ExamplesSection(state, language, onOpenExamples)
         if (embedded) Spacer(Modifier.height(24.dp))
     }
+    if (confirmDelete) {
+        ConfirmDialog(
+            title = "Delete \"${draft.text.replace("\u200B", "")}\"?",
+            text = "The term and its translation will be removed. This cannot be undone.",
+            confirmLabel = "Delete",
+            destructive = true,
+            onConfirm = { viewModel.delete(); confirmDelete = false },
+            onDismiss = { confirmDelete = false },
+        )
+    }
+}
+
+@Composable
+private fun LanguageSelector(state: TermFormUiState, viewModel: TermFormViewModel) {
+    if (!state.showLanguageSelector) return
+    Dropdown(
+        options = state.languages,
+        selected = state.language,
+        onSelect = { l -> viewModel.update { it.copy(languageId = l.id) } },
+        label = "Language",
+        optionLabel = { it.name },
+        modifier = Modifier.fillMaxWidth(),
+    )
+}
+
+@Composable
+private fun TermField(state: TermFormUiState, viewModel: TermFormViewModel, direction: TextDirection, focusRequester: FocusRequester) {
+    val language = state.language
+    OutlinedTextField(
+        value = state.draft.text,
+        onValueChange = { text -> viewModel.update { it.copy(text = text) } },
+        label = { Text("Term") },
+        singleLine = true,
+        trailingIcon = { SpeakButton(state.draft.text, language?.let { LanguageCodes.codeFor(it.name) }) },
+        textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
+        shape = RoundedCornerShape(10.dp),
+        modifier = Modifier.fillMaxWidth().focusRequester(focusRequester),
+    )
+}
+
+@Composable
+private fun RomanizationField(state: TermFormUiState, viewModel: TermFormViewModel) {
+    if (state.language?.showRomanization != true) return
+    OutlinedTextField(
+        value = state.draft.romanization,
+        onValueChange = { v -> viewModel.update { it.copy(romanization = v) } },
+        label = { Text("Pronunciation") },
+        singleLine = true,
+        shape = RoundedCornerShape(10.dp),
+        modifier = Modifier.fillMaxWidth(),
+    )
+}
+
+@Composable
+private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewModel, hint: String? = null) {
+    OutlinedTextField(
+        value = state.draft.translation,
+        onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
+        label = { Text("Translation") },
+        supportingText = when {
+            state.lookingUpTranslation -> ({ Text("Looking up translation...") })
+            hint != null -> ({ Text(hint) })
+            else -> null
+        },
+        minLines = 3,
+        shape = RoundedCornerShape(10.dp),
+        modifier = Modifier.fillMaxWidth(),
+    )
+}
+
+/** Parent term with suggestions from the language's existing terms. */
+@Composable
+private fun ParentField(state: TermFormUiState, viewModel: TermFormViewModel) {
+    var open by remember { mutableStateOf(false) }
+    val value = state.draft.parents.joinToString(", ")
+    Box(Modifier.fillMaxWidth()) {
+        OutlinedTextField(
+            value = value,
+            onValueChange = { v ->
+                viewModel.setParents(v.split(',').map { it.trim() }.filter { it.isNotBlank() })
+                viewModel.setParentQuery(v.substringAfterLast(',').trim())
+                open = v.isNotBlank()
+            },
+            label = { Text("Parent term (optional)") },
+            placeholder = { Text("None") },
+            singleLine = true,
+            shape = RoundedCornerShape(10.dp),
+            modifier = Modifier.fillMaxWidth(),
+        )
+        AppMenu(expanded = open && state.parentSuggestions.isNotEmpty(), onDismissRequest = { open = false }) {
+            state.parentSuggestions.take(8).forEach { match ->
+                AppMenuItem(text = { Text(match.text) }, onClick = { open = false; viewModel.setParents(listOf(match.text)); viewModel.setParentQuery("") })
+            }
+        }
+    }
+}
+
+/** Two cards side by side on wide screens: the term's fields and its learning status. */
+@Composable
+private fun StandaloneFields(state: TermFormUiState, viewModel: TermFormViewModel, direction: TextDirection, focusRequester: FocusRequester, onConfirmDelete: () -> Unit) {
+    val compact = LocalWindowWidth.current.isCompact
+    val information = @Composable { modifier: Modifier ->
+        FormCard(modifier, AppIcons.Book, "Term information") {
+            LanguageSelector(state, viewModel)
+            TermField(state, viewModel, direction, focusRequester)
+            RomanizationField(state, viewModel)
+            TranslationField(state, viewModel, hint = "Use a concise meaning or contextual translation.")
+            val language = state.language
+            if (language != null) {
+                Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                    OutlinedTextField(
+                        value = language.name,
+                        onValueChange = {},
+                        readOnly = true,
+                        label = { Text("Language") },
+                        singleLine = true,
+                        shape = RoundedCornerShape(10.dp),
+                        modifier = Modifier.weight(1f),
+                    )
+                    Box(Modifier.weight(1f)) { ParentField(state, viewModel) }
+                }
+            }
+        }
+    }
+    val status = @Composable { modifier: Modifier ->
+        FormCard(modifier, AppIcons.BarChart, "Learning status") {
+            Text("How well do you know this term?", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            StatusSelector(selected = state.draft.status, onSelect = viewModel::setStatus, expanded = true)
+            Row(Modifier.fillMaxWidth()) {
+                Text("1 New", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
+                Text("W Known", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+            InfoRow("Added", state.createdAt?.let { it.formatDate() } ?: "Not saved yet")
+            InfoRow("Last updated", if (state.saved) "Just now" else if (state.dirty) "Unsaved changes" else "\u2014")
+            if (!state.isNew) {
+                HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+                Row(
+                    Modifier.clip(RoundedCornerShape(8.dp)).clickable(onClick = onConfirmDelete).padding(vertical = 6.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                ) {
+                    Icon(Icons.Default.Delete, contentDescription = null, tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(20.dp))
+                    Text("Delete term", style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.error, fontWeight = FontWeight.Medium)
+                }
+            }
+        }
+    }
+    if (compact) {
+        information(Modifier.fillMaxWidth())
+        status(Modifier.fillMaxWidth())
+    } else {
+        Row(horizontalArrangement = Arrangement.spacedBy(20.dp), verticalAlignment = Alignment.Top) {
+            information(Modifier.weight(2f))
+            status(Modifier.weight(1.1f))
+        }
+    }
+}
+
+@Composable
+private fun FormCard(modifier: Modifier, icon: androidx.compose.ui.graphics.vector.ImageVector, title: String, content: @Composable () -> Unit) {
+    Column(
+        modifier.clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(20.dp),
+        verticalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        SectionTitle(icon, title)
+        content()
+    }
+}
+
+@Composable
+private fun InfoRow(label: String, value: String) {
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text(value, style = MaterialTheme.typography.bodyMedium)
+    }
 }
 
 /** Host name of a dictionary URL, for button labels. */
 val LanguageDictionary.displayName: String
     get() = url.substringAfter("://").substringBefore("/").removePrefix("www.").ifEmpty { "Dictionary" }
 
+/** Status buttons 1–5 and W; [expanded] stretches them to fill the row. */
 @Composable
-fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit) {
+fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false) {
     val colors = TayraTheme.current.statusColors
-    Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+    Row(if (expanded) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (expanded) 8.dp else 4.dp)) {
         // "Ignored" is set from the reading page, not from the form.
         TermStatus.selectable.filter { it != TermStatus.IGNORED }.forEach { status ->
             val isSelected = status == selected
             val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
-            Text(
-                text = status.abbreviation,
-                color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color.Black,
-                style = MaterialTheme.typography.labelLarge,
-                modifier = Modifier
-                    .clip(RoundedCornerShape(4.dp))
+            Box(
+                Modifier
+                    .then(if (expanded) Modifier.weight(1f).height(48.dp) else Modifier)
+                    .clip(RoundedCornerShape(if (expanded) 8.dp else 4.dp))
                     .background(background)
-                    .border(if (isSelected) 2.dp else 0.dp, if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, RoundedCornerShape(4.dp))
+                    .border(if (isSelected) 2.dp else 0.dp, if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, RoundedCornerShape(if (expanded) 8.dp else 4.dp))
                     .clickable { onSelect(status) }
-                    .padding(horizontal = 12.dp, vertical = 8.dp),
-            )
+                    .then(if (expanded) Modifier else Modifier.padding(horizontal = 12.dp, vertical = 8.dp)),
+                contentAlignment = Alignment.Center,
+            ) {
+                Text(
+                    text = status.abbreviation,
+                    color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color.Black,
+                    style = if (expanded) MaterialTheme.typography.titleMedium else MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.SemiBold,
+                )
+            }
         }
     }
 }
