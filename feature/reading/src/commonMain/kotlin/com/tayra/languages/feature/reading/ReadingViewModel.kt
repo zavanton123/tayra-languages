@@ -226,7 +226,7 @@ class ReadingViewModel(
         }
         hidePopup()
         _state.update { it.copy(marked = setOf(itemIndex), hovered = null, selection = null) }
-        if (item.status == TermStatus.UNKNOWN && s.settings.tapSetsStatus) {
+        if (item.status == TermStatus.UNKNOWN && settingsRepository.current.tapSetsStatus) {
             setStatusForItem(item, TermStatus.NEW_1)
         } else {
             openTerm(item)
@@ -483,12 +483,14 @@ class ReadingViewModel(
         val pending = sentences.filter { _state.value.translations[it] !is SentenceTranslation.Done }
         if (pending.isEmpty()) return
         _state.update { it.copy(translations = it.translations + pending.associateWith { SentenceTranslation.Loading }) }
-        // Argos is asked for only where it exists; elsewhere the router falls back to MyMemory.
-        val engine = if (s.settings.translationEngine == TranslationEngine.ARGOS && hasLocalTranslator) TranslationEngine.ARGOS else TranslationEngine.MYMEMORY
+        // _state carries default settings; the live ones come from the repository. Argos is asked for only
+        // where it exists; elsewhere the router falls back to MyMemory.
+        val prefs = settingsRepository.current
+        val engine = if (prefs.translationEngine == TranslationEngine.ARGOS && hasLocalTranslator) TranslationEngine.ARGOS else TranslationEngine.MYMEMORY
         translationJob = viewModelScope.launch {
             if (engine == TranslationEngine.ARGOS && local != null) {
                 val source = LanguageCodes.codeFor(language.name)
-                val target = LanguageCatalog.nativeOption(s.settings.nativeLanguage)
+                val target = LanguageCatalog.nativeOption(prefs.nativeLanguage)
                 val ready = source != null && runCatching { local.prepare(source, target.code, language.name, target.name) }.isSuccess
                 if (!ready) {
                     _state.update { it.copy(translations = it.translations + pending.associateWith { SentenceTranslation.Unavailable }) }

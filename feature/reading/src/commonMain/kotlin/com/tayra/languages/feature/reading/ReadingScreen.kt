@@ -649,7 +649,10 @@ private fun TranslationNotice(problem: LocalTranslationProblem, viewModel: Readi
             )
             when (problem) {
                 is LocalTranslationProblem.ModelMissing -> Button(onClick = viewModel::installOfflineModels) { Text("Install") }
-                is LocalTranslationProblem.NoModel -> Button(onClick = viewModel::useOnlineEngine) { Text("Use MyMemory") }
+                is LocalTranslationProblem.NoModel -> {
+                    Text("Argos", style = MaterialTheme.typography.bodySmall, color = colors.onSecondaryContainer)
+                    Switch(checked = true, onCheckedChange = { on -> if (!on) viewModel.useOnlineEngine() })
+                }
                 is LocalTranslationProblem.Failed -> OutlinedButton(onClick = viewModel::retryOfflineTranslation) { Text("Try again") }
             }
             TextButton(onClick = onSettings) { Text("Settings") }

@@ -27,12 +27,12 @@ sealed interface LocalTranslationProblem {
 
     /** The models for the pair exist in the catalog but are not installed; [title] names them for the install prompt. */
     data class ModelMissing(val fromCode: String, val toCode: String, val title: String) : LocalTranslationProblem {
-        override val message: String get() = "Offline translation needs the $title."
+        override val message: String get() = "The $title ${if (title.endsWith("models")) "are" else "is"} available but not installed."
     }
 
     /** The catalog has no model for the pair, directly or through English. */
     data class NoModel(val fromName: String, val toName: String) : LocalTranslationProblem {
-        override val message: String get() = "Argos Translate has no $fromName \u2192 $toName model."
+        override val message: String get() = "Argos Translate has no $fromName \u2192 $toName model. Turn offline translation off to use MyMemory."
     }
 
     data class Failed(override val message: String) : LocalTranslationProblem
