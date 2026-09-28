@@ -29,7 +29,6 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
-import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -95,28 +94,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 modifier = Modifier.fillMaxWidth(),
             )
 
-            Section("Translation")
-            Dropdown(
-                options = LanguageCatalog.nativeLanguages,
-                selected = LanguageCatalog.nativeOption(settings.nativeLanguage),
-                onSelect = { option -> viewModel.update { it.copy(nativeLanguage = option.code) } },
-                label = "Native language",
-                optionLabel = { it.name },
-                modifier = Modifier.fillMaxWidth(),
-            )
-            Text(
-                "Translation suggestions and example sentence translations are shown in this language. With a downloaded dictionary for the text's language and this one, lookups work offline; otherwise English uses Wiktionary with MyMemory as fallback and other languages use MyMemory.",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            OutlinedTextField(
-                value = settings.translationContactEmail,
-                onValueChange = { v -> viewModel.update { it.copy(translationContactEmail = v.trim()) } },
-                label = { Text("MyMemory contact email (optional)") },
-                supportingText = { Text("Raises the free daily quota from about 5,000 to 50,000 characters.") },
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
-            )
         }
     }
 }

@@ -87,7 +87,7 @@ The same artifacts can be built locally:
 ## Notes
 
 - The languages on offer are fixed: the 33 European languages listed in `LanguageCatalog` can be learned, and
-  translations are shown in English, French, German, Portuguese, Russian or Spanish (Settings, Native language). The three
+  translations are shown in English, French, German, Portuguese, Russian or Spanish (Settings menu, Translation, Native language). The three
   target languages are created on first start with sample texts and the tutorial, taken
   from the [Lute language definitions](https://github.com/LuteOrg/lute-language-defs);
   regenerate `PredefinedLanguages.kt` with `tools/generate_language_defs.py`. Their

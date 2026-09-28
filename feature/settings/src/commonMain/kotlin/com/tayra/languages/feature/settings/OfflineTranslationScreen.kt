@@ -36,6 +36,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
+import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.LocalPackage
@@ -65,6 +66,9 @@ class OfflineTranslationViewModel(
     private val localTranslation: LocalTranslation,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
+
+    /** Argos exists on desktop only; elsewhere the screen holds just the shared translation settings. */
+    val hasLocalTranslator: Boolean = localTranslation.translator != null
 
     private val _status = MutableStateFlow<String?>(null)
     val status: StateFlow<String?> = _status.asStateFlow()
@@ -161,6 +165,33 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
             Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 800.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
+            Section("Native language")
+            Dropdown(
+                options = LanguageCatalog.nativeLanguages,
+                selected = LanguageCatalog.nativeOption(settings.nativeLanguage),
+                onSelect = { option -> viewModel.update { it.copy(nativeLanguage = option.code) } },
+                label = "Native language",
+                optionLabel = { it.name },
+                modifier = Modifier.fillMaxWidth(),
+            )
+            Text(
+                "Translation suggestions and example sentence translations are shown in this language. With a downloaded dictionary for the text's language and this one, lookups work offline; otherwise English uses Wiktionary with MyMemory as fallback and other languages use MyMemory.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+
+            Section("MyMemory")
+            OutlinedTextField(
+                value = settings.translationContactEmail,
+                onValueChange = { v -> viewModel.update { it.copy(translationContactEmail = v.trim()) } },
+                label = { Text("MyMemory contact email (optional)") },
+                supportingText = { Text("Raises the free daily quota from about 5,000 to 50,000 characters.") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+
+            if (viewModel.hasLocalTranslator) {
+            Section("Offline translation")
             Text(
                 "Argos Translate translates sentences and terms on this computer with no network. The app keeps its own Python and the language models in its data folder.",
                 style = MaterialTheme.typography.bodyMedium,
@@ -247,6 +278,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                         Text(if (showAll) "Show only my languages" else "Show all ${packages.size} packages")
                     }
                 }
+            }
             }
         }
     }
