@@ -73,6 +73,7 @@ internal fun Terms.toDomain(parents: List<TermRef>): Term = Term(
     syncStatus = sync_status,
     flashMessage = flash_message,
     parents = parents,
+    createdAt = created_at.toInstant(),
 )
 
 internal fun Long.toInstant(): Instant = Instant.fromEpochMilliseconds(this)

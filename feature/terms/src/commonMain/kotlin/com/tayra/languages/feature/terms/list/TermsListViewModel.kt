@@ -23,6 +23,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -39,7 +41,19 @@ data class TermsListUiState(
     val selected: Set<Long> = emptySet(),
     val message: String? = null,
     val filtersVisible: Boolean = false,
+    /** Counts for the current language filter, ignoring the other filters. */
+    val totalTerms: Int = 0,
+    val learningCount: Int = 0,
+    val knownCount: Int = 0,
 ) {
+    /** The single status the list is narrowed to, or null when a range is shown. */
+    val statusChoice: TermStatus?
+        get() = when {
+            filter.includeIgnored && filter.minStatus > filter.maxStatus -> TermStatus.IGNORED
+            filter.minStatus == filter.maxStatus -> filter.minStatus
+            else -> null
+        }
+
     val pageCount: Int get() = if (totalCount == 0) 1 else (totalCount + pageSize - 1) / pageSize
     fun languageName(id: Long): String = languages.firstOrNull { it.id == id }?.name ?: ""
 }
@@ -65,37 +79,57 @@ class TermsListViewModel(
     )
     private val sort = MutableStateFlow(TermListSort())
     private val page = MutableStateFlow(0)
+    private val pageSize = MutableStateFlow(PAGE_SIZE)
     private val selected = MutableStateFlow<Set<Long>>(emptySet())
     private val message = MutableStateFlow<String?>(null)
     private val filtersVisible = MutableStateFlow(initialTermIds != null)
     val events = UiEvents<TermsListEvent>()
 
     @OptIn(ExperimentalCoroutinesApi::class)
-    private val pageFlow = combine(filter, sort, page) { f, s, p -> Triple(f, s, p) }
-        .flatMapLatest { (f, s, p) -> terms.observeList(f, s, p * PAGE_SIZE, PAGE_SIZE) }
+    private val pageFlow = combine(filter, sort, page, pageSize) { f, s, p, size -> Base(TermListPage(emptyList(), 0), f, s, p, size) }
+        .flatMapLatest { base -> terms.observeList(base.filter, base.sort, base.page * base.pageSize, base.pageSize).map { base.copy(page_ = it) } }
+
+    @OptIn(ExperimentalCoroutinesApi::class)
+    private fun count(min: TermStatus, max: TermStatus) = filter
+        .map { it.languageId }
+        .distinctUntilChanged()
+        .flatMapLatest { languageId -> terms.observeList(TermListFilter(languageId = languageId, minStatus = min, maxStatus = max), TermListSort(), 0, 1) }
+        .map { it.totalCount }
+
+    private val counts = combine(
+        count(TermStatus.NEW_1, TermStatus.WELL_KNOWN),
+        count(TermStatus.NEW_1, TermStatus.LEARNED),
+        count(TermStatus.WELL_KNOWN, TermStatus.WELL_KNOWN),
+    ) { total, learning, known -> Counts(total, learning, known) }
 
     val state: StateFlow<TermsListUiState> = combine(
-        combine(pageFlow, filter, sort, page) { pg, f, s, p -> Base(pg, f, s, p) },
+        pageFlow,
         languages.observeAll(),
         selected,
         combine(message, filtersVisible) { m, v -> m to v },
-    ) { base, languageList, sel, (msg, visible) ->
+        counts,
+    ) { base, languageList, sel, (msg, visible), c ->
         TermsListUiState(
             loading = false,
             filter = base.filter,
             sort = base.sort,
             page = base.page,
-            pageSize = PAGE_SIZE,
+            pageSize = base.pageSize,
             terms = base.page_.items,
             totalCount = base.page_.totalCount,
             languages = languageList,
             selected = sel,
             message = msg,
             filtersVisible = visible,
+            totalTerms = c.total,
+            learningCount = c.learning,
+            knownCount = c.known,
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), TermsListUiState())
 
-    private data class Base(val page_: TermListPage, val filter: TermListFilter, val sort: TermListSort, val page: Int)
+    private data class Base(val page_: TermListPage, val filter: TermListFilter, val sort: TermListSort, val page: Int, val pageSize: Int)
+
+    private data class Counts(val total: Int, val learning: Int, val known: Int)
 
     fun updateFilter(transform: (TermListFilter) -> TermListFilter) {
         filter.value = transform(filter.value)
@@ -110,6 +144,31 @@ class TermsListViewModel(
     fun setLanguage(languageId: Long?) {
         updateFilter { it.copy(languageId = languageId) }
         viewModelScope.launch { settings.update { it.copy(currentLanguageId = languageId ?: 0) } }
+    }
+
+    /** Narrows the list to one status, or shows the full learning range for null. */
+    fun setStatusChoice(status: TermStatus?) = updateFilter {
+        when (status) {
+            null -> it.copy(minStatus = TermStatus.NEW_1, maxStatus = TermStatus.WELL_KNOWN, includeIgnored = false)
+            // An empty range plus the ignored flag yields ignored terms only.
+            TermStatus.IGNORED -> it.copy(minStatus = TermStatus.WELL_KNOWN, maxStatus = TermStatus.NEW_1, includeIgnored = true)
+            else -> it.copy(minStatus = status, maxStatus = status, includeIgnored = false)
+        }
+    }
+
+    fun setSort(value: TermListSort) {
+        sort.value = value
+        page.value = 0
+    }
+
+    fun setPageSize(size: Int) {
+        pageSize.value = size
+        page.value = 0
+    }
+
+    fun delete(termId: Long) = viewModelScope.launch {
+        termService.deleteAll(setOf(termId))
+        selected.value = selected.value - termId
     }
 
     fun sortBy(field: TermSortField) {
