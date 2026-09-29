@@ -639,7 +639,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                     style = MaterialTheme.typography.headlineMedium.copy(color = theme.readingText, textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
                     fontWeight = FontWeight.Bold,
                 )
-                PageVocabulary(state)
+                PageVocabulary(state, viewModel.localTranslatorName)
                 state.translationProgress?.let { TranslationProgress(it) }
                     ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
                 HorizontalDivider(Modifier.padding(bottom = 20.dp), color = MaterialTheme.colorScheme.outlineVariant)
@@ -695,7 +695,7 @@ private fun TranslationNotice(problem: LocalTranslationProblem, viewModel: Readi
             when (problem) {
                 is LocalTranslationProblem.ModelMissing -> Button(onClick = viewModel::installOfflineModels) { Text("Install") }
                 is LocalTranslationProblem.NoModel -> {
-                    Text("Argos", style = MaterialTheme.typography.bodySmall, color = colors.onSecondaryContainer)
+                    Text("Offline", style = MaterialTheme.typography.bodySmall, color = colors.onSecondaryContainer)
                     Switch(checked = true, onCheckedChange = { on -> if (!on) viewModel.useOnlineEngine() })
                 }
                 is LocalTranslationProblem.Failed -> OutlinedButton(onClick = viewModel::retryOfflineTranslation) { Text("Try again") }
@@ -720,22 +720,21 @@ private fun TranslationProgress(message: String) {
 }
 
 @Composable
-private fun PageVocabulary(state: ReadingUiState) {
+private fun PageVocabulary(state: ReadingUiState, localTranslatorName: String?) {
     val stats = remember(state.page) { BookStatsCalculator.calculate(state.items) }
     val colors = MaterialTheme.colorScheme
-    Row(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+    val source = translationSource(state, localTranslatorName)
+    Row(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = if (source == null) 16.dp else 4.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
         Text("Vocabulary on this page", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         StatusDistributionBar(stats, Modifier.widthIn(max = 360.dp).weight(1f, fill = false).fillMaxWidth())
         Text(if (stats.distinctTerms > 0) "${stats.unknownPercent}% new" else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        translationSource(state)?.let { source ->
-            Spacer(Modifier.weight(1f))
-            Text(source, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-        }
     }
+    // On its own line so it never collides with the counts on a narrow screen.
+    source?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.fillMaxWidth().padding(bottom = 12.dp)) }
 }
 
 /** Names the engines behind the translations on screen, from the translations themselves rather than the setting. */
-private fun translationSource(state: ReadingUiState): String? {
+private fun translationSource(state: ReadingUiState, localTranslatorName: String?): String? {
     if (!state.settings.showTranslations) return null
     val engines = state.translations.values.filterIsInstance<SentenceTranslation.Done>().mapNotNull { it.engine }.toSet()
     if (engines.isEmpty()) return null
@@ -748,7 +747,7 @@ private fun translationSource(state: ReadingUiState): String? {
             TranslationEngine.BAIDU -> "Baidu Translate (online)"
             TranslationEngine.DEEPL -> "DeepL (online)"
             TranslationEngine.QWEN -> "Qwen-MT (online)"
-            TranslationEngine.ARGOS -> "Argos Translate (offline)"
+            TranslationEngine.ARGOS -> "${localTranslatorName ?: "the on-device translator"} (offline)"
         }
     }
     return "Translations by $names"

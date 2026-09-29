@@ -21,3 +21,6 @@ kotlin-js-store/
 # Local dictionary dumps
 /dictionaries/
 __pycache__/
+
+# CocoaPods
+iosApp/Pods/

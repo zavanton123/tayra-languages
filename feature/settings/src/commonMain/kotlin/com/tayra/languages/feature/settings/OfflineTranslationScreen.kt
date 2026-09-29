@@ -81,8 +81,18 @@ class OfflineTranslationViewModel(
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
-    /** Argos exists on desktop only; elsewhere the screen holds just the shared translation settings. */
+    /** Whether this platform has an on-device translator (Argos on desktop, ML Kit on phones). */
     val hasLocalTranslator: Boolean = localTranslation.translator != null
+    val localName: String = localTranslation.translator?.displayName.orEmpty()
+    val localDescription: String = localTranslation.translator?.description.orEmpty()
+    val localPackagesDescription: String = localTranslation.translator?.packagesDescription.orEmpty()
+    val hasRuntimeSetup: Boolean = localTranslation.translator?.hasRuntimeSetup == true
+
+    /** Package keys the books in use need, as the translator counts them. */
+    fun wantedPackages(inUse: Set<String>, native: String, catalog: List<LocalPackage>): Set<String> {
+        val translator = localTranslation.translator ?: return emptySet()
+        return inUse.filter { it != native }.flatMap { translator.requiredPackages(it, native, catalog) }.toSet()
+    }
 
     /** Where the API key is kept on this platform. */
     val secretStorage: String get() = settings.secretStorage
@@ -211,7 +221,7 @@ class OfflineTranslationViewModel(
 
     /** Downloads the app's own Python with argostranslate; slow, so the status says so meanwhile. */
     fun install() {
-        _status.value = "Installing Argos Translate into the app folder. This downloads about a gigabyte and takes a few minutes\u2026"
+        _status.value = "Installing $localName into the app folder. This downloads about a gigabyte and takes a few minutes\u2026"
         task { translator ->
             val summary = translator.setUp()
             val packages = runCatching { translator.packages() }
@@ -245,7 +255,7 @@ class OfflineTranslationViewModel(
         if (_busy.value) return
         _busy.value = true
         viewModelScope.launch {
-            _status.value = try { block(translator) } catch (e: Exception) { "Argos Translate: ${e.message}" }
+            _status.value = try { block(translator) } catch (e: Exception) { "$localName: ${e.message}" }
             _busy.value = false
         }
     }
@@ -294,7 +304,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(
-                "Sentence translations in the reader and term suggestions come from this engine; its own settings follow below. The online services other than MyMemory need their keys and Argos its models; without them MyMemory answers instead.",
+                "Sentence translations in the reader and term suggestions come from this engine; its own settings follow below. The online services other than MyMemory need their keys and the on-device translator its models; without them MyMemory answers instead.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -488,18 +498,15 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
             }
 
             if (viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS) {
-            Section("Argos Translate")
-            Text(
-                "Argos Translate translates on this computer with no network. The app keeps its own Python and the language models in its data folder.",
-                style = MaterialTheme.typography.bodyMedium,
-            )
+            Section(viewModel.localName)
+            Text(viewModel.localDescription, style = MaterialTheme.typography.bodyMedium)
 
-            Section("Runtime")
+            if (viewModel.hasRuntimeSetup) Section("Runtime")
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 OutlinedButton(onClick = viewModel::check, enabled = !busy) { Text(if (busy) "Working..." else "Check installation") }
-                if (!ready) Button(onClick = viewModel::install, enabled = !busy) { Text("Install Argos Translate") }
+                if (viewModel.hasRuntimeSetup && !ready) Button(onClick = viewModel::install, enabled = !busy) { Text("Install ${viewModel.localName}") }
             }
-            if (!ready) {
+            if (viewModel.hasRuntimeSetup && !ready) {
                 Text(
                     "Install downloads a private Python into the app folder and puts argostranslate in it; nothing else on the computer is touched. Turning on offline translation in the reader does the same on its own.",
                     style = MaterialTheme.typography.bodySmall,
@@ -522,7 +529,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                     Text(text, style = MaterialTheme.typography.bodySmall)
                 }
             }
-            OutlinedTextField(
+            if (viewModel.hasRuntimeSetup) OutlinedTextField(
                 value = settings.argosPython,
                 onValueChange = { v -> viewModel.update { it.copy(argosPython = v.trim()) } },
                 label = { Text("Python executable (optional)") },
@@ -533,24 +540,17 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
             )
 
             if (packages.isNotEmpty()) {
-                Section("Language packages")
-                Text(
-                    "One package per direction. Reading a language needs its package into the native language; when there is none, Argos goes through English, so install both halves.",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
+                Section(if (viewModel.hasRuntimeSetup) "Language packages" else "Language models")
+                Text(viewModel.localPackagesDescription, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 val native = settings.nativeLanguage.ifBlank { "en" }
-                val wanted = inUse.flatMap { code ->
-                    if (code == native) emptyList()
-                    else if (packages.any { it.fromCode == code && it.toCode == native }) listOf("$code-$native")
-                    else listOf("$code-en", "en-$native")
-                }.toSet()
+                val wanted = viewModel.wantedPackages(inUse, native, packages)
                 val relevant = packages.filter { it.key in wanted || it.installed }
                 val shown = if (showAll || relevant.isEmpty()) packages else relevant
                 // Grouped by the language translated into, the native language first.
                 val groups = shown.groupBy { it.toCode }.entries.sortedWith(compareBy({ it.key != native }, { it.value.first().toName }))
                 groups.forEach { (_, group) ->
-                    Text(
+                    // Per-language models all pair with English, so a heading would only repeat "English".
+                    if (viewModel.hasRuntimeSetup) Text(
                         group.first().toName,
                         style = MaterialTheme.typography.titleSmall,
                         color = MaterialTheme.colorScheme.primary,
@@ -579,7 +579,8 @@ private fun PackageRow(pkg: LocalPackage, busy: Boolean, onInstall: () -> Unit, 
             val detail = when {
                 busy && pkg.installed -> "Removing..."
                 busy -> "Downloading..."
-                pkg.installed -> "Installed, ${formatSize(pkg.sizeBytes)}"
+                pkg.installed && pkg.sizeBytes > 0 -> "Installed, ${formatSize(pkg.sizeBytes)}"
+                pkg.installed -> "Installed"
                 else -> "Not installed"
             }
             Text(detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)

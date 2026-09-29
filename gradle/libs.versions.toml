@@ -23,6 +23,7 @@ sqldelight = "2.4.0"
 turbine = "1.2.1"
 
 [libraries]
+mlkit-translate = { module = "com.google.mlkit:translate", version = "17.0.3" }
 jna = { module = "net.java.dev.jna:jna", version = "5.19.1" }
 jna-platform = { module = "net.java.dev.jna:jna-platform", version = "5.19.1" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }

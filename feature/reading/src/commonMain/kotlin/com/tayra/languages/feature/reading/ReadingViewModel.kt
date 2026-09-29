@@ -119,8 +119,11 @@ class ReadingViewModel(
 
     private val local = localTranslation.translator
 
-    /** Whether the engine switch in the drawer has anything to switch to (Argos exists on desktop only). */
+    /** Whether the engine switch in the drawer has anything to switch to (Argos on desktop, ML Kit on phones). */
     val hasLocalTranslator: Boolean = local != null
+
+    /** The on-device translator's name for the page caption. */
+    val localTranslatorName: String? = local?.displayName
 
     private val _state = MutableStateFlow(ReadingUiState())
     val state: StateFlow<ReadingUiState> = combine(

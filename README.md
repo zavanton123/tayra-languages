@@ -111,8 +111,14 @@ The same artifacts can be built locally:
   with a plain-Kotlin `Md5`, Baidu's own language codes mapped in the provider); to DeepL (API
   key, free `:fx` keys use api-free.deepl.com, uppercase codes with EN-US/PT-PT targets); to
   Qwen-MT (a Model Studio API key, qwen-mt-turbo or qwen-mt-plus, international or China
-  endpoint, through the OpenAI-compatible chat API with `translation_options`); or, on desktop,
-  to Argos Translate, which runs on the computer
+  endpoint, through the OpenAI-compatible chat API with `translation_options`); or to the
+  on-device engine ("On this device (offline)"): Argos Translate on desktop, and Google ML Kit
+  on Android and iOS (one ~30 MB model per language, downloaded from Google once and used with
+  no network; `LanguageModelTranslator` in core/data is the shared logic, `MlKitSentenceTranslator`
+  the Android side, and on iOS the Swift `MlKitTranslatorBridge` in iosApp implements the Kotlin
+  `OnDeviceTranslatorBridge` and is handed to `MainViewController`; the iOS app is built from
+  `iosApp/iosApp.xcworkspace` after `pod install` because ML Kit ships only as CocoaPods, and
+  ML Kit's binaries have no arm64 simulator slice, so simulator runs need Rosetta). Argos Translate, which runs on the computer
   with no network. Without a key or a local Argos the app falls back to MyMemory. Nothing has to be installed by hand:
   the first time offline translation is used the app downloads a standalone CPython build
   (`astral-sh/python-build-standalone`, about 25 MB) into its data folder under `argos-python`,
