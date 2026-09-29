@@ -7,6 +7,7 @@ import kotlinx.coroutines.flow.StateFlow
 enum class TranslationEngine(val label: String) {
     MYMEMORY("MyMemory (online, free)"),
     GOOGLE("Google Translate (online, API key)"),
+    AZURE("Microsoft Translator (online, API key)"),
     ARGOS("Argos Translate (offline, desktop)"),
 }
 
@@ -17,12 +18,18 @@ enum class TranslationEngine(val label: String) {
 fun UserSettings.effectiveEngine(hasLocalTranslator: Boolean): TranslationEngine = when {
     translationEngine == TranslationEngine.ARGOS && !hasLocalTranslator -> TranslationEngine.MYMEMORY
     translationEngine == TranslationEngine.GOOGLE && googleTranslateApiKey.isBlank() -> TranslationEngine.MYMEMORY
+    translationEngine == TranslationEngine.AZURE && azureTranslatorApiKey.isBlank() -> TranslationEngine.MYMEMORY
     else -> translationEngine
 }
 
 /** The Google Cloud Translation client's self-check, for the Settings screen. */
 interface GoogleTranslation {
     /** Translates a fixed phrase with the stored key and reports the outcome in one readable line. */
+    suspend fun checkKey(): String
+}
+
+/** The Microsoft (Azure AI) Translator client's self-check, for the Settings screen. */
+interface AzureTranslation {
     suspend fun checkKey(): String
 }
 

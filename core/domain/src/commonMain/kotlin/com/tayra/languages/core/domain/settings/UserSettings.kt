@@ -31,6 +31,10 @@ data class UserSettings(
     val translationEngine: TranslationEngine = TranslationEngine.MYMEMORY,
     /** Google Cloud Translation API key, used only when [translationEngine] is [TranslationEngine.GOOGLE]. */
     val googleTranslateApiKey: String = "",
+    /** Azure AI Translator key, used only when [translationEngine] is [TranslationEngine.AZURE]. */
+    val azureTranslatorApiKey: String = "",
+    /** The Azure resource's region, such as westeurope; required for regional and multi-service resources. */
+    val azureTranslatorRegion: String = "",
     /** Python executable that has Argos Translate installed; empty means `python3` from the PATH. */
     val argosPython: String = "",
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
