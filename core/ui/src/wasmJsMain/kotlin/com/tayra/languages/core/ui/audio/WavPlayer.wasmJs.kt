@@ -5,7 +5,7 @@ import androidx.compose.runtime.remember
 
 /** The browser has no local speech engines yet, so there is never audio to play. */
 actual class WavPlayer {
-    actual fun play(wav: ByteArray) {}
+    actual fun play(wav: ByteArray, onDone: () -> Unit) = onDone()
     actual fun stop() {}
     actual fun release() {}
 }

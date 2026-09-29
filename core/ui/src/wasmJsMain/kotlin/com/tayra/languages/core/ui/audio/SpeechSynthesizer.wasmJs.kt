@@ -4,12 +4,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.remember
 
-private fun speakText(text: String, language: String?): Unit = js(
+private fun speakText(text: String, language: String?, onDone: () -> Unit): Unit = js(
     """{
-        if (!window.speechSynthesis) return;
+        if (!window.speechSynthesis) { onDone(); return; }
         window.speechSynthesis.cancel();
         var utterance = new SpeechSynthesisUtterance(text);
         if (language) utterance.lang = language;
+        var finished = false;
+        var finish = function() { if (!finished) { finished = true; onDone(); } };
+        utterance.onend = finish;
+        utterance.onerror = finish;
         window.speechSynthesis.speak(utterance);
     }""",
 )
@@ -18,8 +22,23 @@ private fun cancelSpeech(): Unit = js("{ if (window.speechSynthesis) window.spee
 
 /** Uses the browser's Web Speech API. */
 actual class SpeechSynthesizer {
-    actual fun speak(text: String, languageCode: String?) = speakText(text, languageCode)
-    actual fun stop() = cancelSpeech()
+    private var done: (() -> Unit)? = null
+
+    actual fun speak(text: String, languageCode: String?, onDone: () -> Unit) {
+        stop()
+        done = onDone
+        speakText(text, languageCode) { finish() }
+    }
+
+    private fun finish() {
+        done?.also { done = null }?.invoke()
+    }
+
+    actual fun stop() {
+        cancelSpeech()
+        finish()
+    }
+
     actual fun release() = stop()
 }
 

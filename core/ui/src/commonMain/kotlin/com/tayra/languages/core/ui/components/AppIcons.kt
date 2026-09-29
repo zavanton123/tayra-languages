@@ -132,6 +132,16 @@ object AppIcons {
 
     val PlayArrow: ImageVector by lazy { icon("PlayArrow", "M8 5v14l11-7z") }
 
+    val Stop: ImageVector by lazy { icon("Stop", "M6 6h12v12H6z") }
+
+    val RecordVoiceOver: ImageVector by lazy {
+        icon("RecordVoiceOver", "M9 13c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm6.08-7.95c.84 1.18.84 2.71 0 3.89l1.68 1.69c2.02-2.02 2.02-5.07 0-7.27l-1.68 1.69zM20.07 2l-1.63 1.63c2.77 3.02 2.77 7.56 0 10.74L20.07 16c3.9-3.89 3.91-9.95 0-14z")
+    }
+
+    val Speed: ImageVector by lazy {
+        icon("Speed", "M20.38 8.57l-1.23 1.85a8 8 0 0 1-.22 7.58H5.07A8 8 0 0 1 15.58 6.85l1.85-1.23A10 10 0 0 0 3.35 19a2 2 0 0 0 1.72 1h13.85a2 2 0 0 0 1.74-1 10 10 0 0 0-.27-10.44zm-9.79 6.84a2 2 0 0 0 2.83 0l5.66-8.49-8.49 5.66a2 2 0 0 0 0 2.83z")
+    }
+
     val ViewColumn: ImageVector by lazy { icon("ViewColumn", "M14.67 5v14H9.33V5h5.34zm1 14H21V5h-5.33v14zm-7.34 0V5H3v14h5.33z") }
 
     val Tune: ImageVector by lazy {

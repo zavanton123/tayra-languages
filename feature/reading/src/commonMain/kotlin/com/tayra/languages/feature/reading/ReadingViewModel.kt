@@ -15,7 +15,10 @@ import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.BulkTermUpdate
 import com.tayra.languages.core.domain.service.LocalTranslationProblem
+import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.domain.service.LocalTranslation
+import com.tayra.languages.core.domain.service.SpeechEngine
+import com.tayra.languages.core.domain.service.SpeechVoice
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.SentenceTranslator
@@ -39,6 +42,7 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.math.roundToInt
 
 /** What is shown in the side panel / bottom sheet. */
 sealed interface ReadingPanel {
@@ -115,6 +119,7 @@ class ReadingViewModel(
     private val settingsRepository: SettingsRepository,
     private val translator: SentenceTranslator,
     localTranslation: LocalTranslation,
+    private val localSpeech: LocalSpeech,
 ) : ViewModel() {
 
     private val local = localTranslation.translator
@@ -531,6 +536,41 @@ class ReadingViewModel(
     fun toggleSplitSentences() = updateSettings { it.copy(splitSentences = !it.splitSentences) }
     fun toggleSideBySideTranslations() = updateSettings { it.copy(sideBySideTranslations = !it.sideBySideTranslations) }
     fun toggleSentencePlay() = updateSettings { it.copy(showSentencePlay = !it.showSentencePlay) }
+
+    /** Speech engines the drawer can offer here. */
+    val speechEngines: List<SpeechEngine> = localSpeech.available
+
+    private val _speechVoices = MutableStateFlow<List<SpeechVoice>>(emptyList())
+
+    /** The chosen engine's usable voices for the book's language. */
+    val speechVoices: StateFlow<List<SpeechVoice>> = _speechVoices.asStateFlow()
+
+    /** The book's language code, as the speech engines name languages. */
+    val speechLanguage: String? get() = state.value.language?.name?.let { LanguageCodes.codeFor(it) }
+
+    fun loadSpeechVoices() {
+        val code = speechLanguage
+        val engine = localSpeech.find(settingsRepository.current.speechEngine)
+        viewModelScope.launch {
+            _speechVoices.value = if (code == null || engine == null) emptyList() else runCatching { engine.voices(code) }.getOrDefault(emptyList())
+        }
+    }
+
+    fun setSpeechEngine(engine: SpeechEngine) {
+        viewModelScope.launch {
+            settingsRepository.update { it.copy(speechEngine = engine) }
+            loadSpeechVoices()
+        }
+    }
+
+    fun setSpeechVoice(voiceId: String) {
+        val code = speechLanguage ?: return
+        updateSettings { it.copy(speechVoices = it.speechVoices + ("${it.speechEngine.name}:$code" to voiceId)) }
+    }
+
+    /** Steps the local engines' speed by [delta], kept on the Speech screen's 5 % grid between 50 % and 150 %. */
+    fun adjustSpeechSpeed(delta: Float) =
+        updateSettings { it.copy(speechSpeed = ((it.speechSpeed + delta).coerceIn(0.5f, 1.5f) * 20).roundToInt() / 20f) }
     fun toggleShowTranslations() {
         val enabling = !state.value.settings.showTranslations
         viewModelScope.launch {
