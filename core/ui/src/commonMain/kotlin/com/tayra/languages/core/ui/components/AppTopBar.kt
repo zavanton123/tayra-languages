@@ -58,6 +58,7 @@ private val menuGroups = listOf(
             MenuEntry("Settings", Route.Settings),
             MenuEntry("Translation", Route.OfflineTranslation),
             MenuEntry("Dictionaries", Route.OfflineDictionaries),
+            MenuEntry("Speech", Route.Speech),
             MenuEntry("Keyboard shortcuts", Route.Shortcuts),
         ),
     ),

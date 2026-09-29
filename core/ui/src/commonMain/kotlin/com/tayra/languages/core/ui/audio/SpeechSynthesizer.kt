@@ -20,11 +20,10 @@ expect class SpeechSynthesizer {
 @Composable
 expect fun rememberSpeechSynthesizer(): SpeechSynthesizer
 
-/** A speaker button that reads [text] aloud. */
+/** A speaker button that reads [text] aloud with the engine chosen in settings. */
 @Composable
-fun SpeakButton(text: String, languageCode: String?, modifier: Modifier = Modifier, enabled: Boolean = true) {
-    val synthesizer = rememberSpeechSynthesizer()
-    IconButton(onClick = { synthesizer.speak(text, languageCode) }, modifier = modifier, enabled = enabled && text.isNotBlank()) {
+fun SpeakButton(text: String, languageCode: String?, speaker: Speaker, modifier: Modifier = Modifier, enabled: Boolean = true) {
+    IconButton(onClick = { speaker.speak(text, languageCode) }, modifier = modifier, enabled = enabled && text.isNotBlank()) {
         Icon(AppIcons.VolumeUp, contentDescription = "Pronounce", tint = MaterialTheme.colorScheme.primary)
     }
 }

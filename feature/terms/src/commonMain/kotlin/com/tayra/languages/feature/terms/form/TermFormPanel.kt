@@ -90,7 +90,8 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.formatDate
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
-import com.tayra.languages.core.ui.audio.rememberSpeechSynthesizer
+import com.tayra.languages.core.ui.audio.rememberSpeaker
+import org.koin.compose.koinInject
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.audio.SpeakButton
 import com.tayra.languages.core.ui.audio.rememberAudioPlayback
@@ -218,7 +219,7 @@ private fun TermField(state: TermFormUiState, viewModel: TermFormViewModel, dire
         onValueChange = { text -> viewModel.update { it.copy(text = text) } },
         label = { Text("Term") },
         singleLine = true,
-        trailingIcon = { SpeakButton(state.draft.text, language?.let { LanguageCodes.codeFor(it.name) }) },
+        trailingIcon = { SpeakButton(state.draft.text, language?.let { LanguageCodes.codeFor(it.name) }, rememberSpeaker(koinInject(), koinInject())) },
         textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
         shape = RoundedCornerShape(10.dp),
         colors = fieldColors(),
@@ -626,7 +627,7 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
     val canExpand = state.examples.size > VISIBLE_EXAMPLES
     val languageId = language?.id
     val playback = rememberAudioPlayback()
-    val synthesizer = rememberSpeechSynthesizer()
+    val synthesizer = rememberSpeaker(koinInject(), koinInject())
     val languageCode = language?.let { LanguageCodes.codeFor(it.name) }
     val total = state.examplesTotal ?: state.examples.size
     val canOpen = onOpenExamples != null && languageId != null && term.isNotBlank()
