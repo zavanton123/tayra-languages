@@ -335,6 +335,8 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
                 TranslationEngine.AZURE.takeIf { prefs.azureTranslatorApiKey.isNotBlank() },
                 TranslationEngine.ALIBABA.takeIf { prefs.alibabaAccessKeyId.isNotBlank() && prefs.alibabaAccessKeySecret.isNotBlank() },
                 TranslationEngine.BAIDU.takeIf { prefs.baiduAppId.isNotBlank() && prefs.baiduSecretKey.isNotBlank() },
+                TranslationEngine.DEEPL.takeIf { prefs.deeplApiKey.isNotBlank() },
+                TranslationEngine.QWEN.takeIf { prefs.qwenApiKey.isNotBlank() },
             ),
             onSelect = viewModel::setTranslationEngine,
         )
@@ -744,6 +746,8 @@ private fun translationSource(state: ReadingUiState): String? {
             TranslationEngine.AZURE -> "Microsoft Translator (online)"
             TranslationEngine.ALIBABA -> "Alibaba Cloud Translation (online)"
             TranslationEngine.BAIDU -> "Baidu Translate (online)"
+            TranslationEngine.DEEPL -> "DeepL (online)"
+            TranslationEngine.QWEN -> "Qwen-MT (online)"
             TranslationEngine.ARGOS -> "Argos Translate (offline)"
         }
     }

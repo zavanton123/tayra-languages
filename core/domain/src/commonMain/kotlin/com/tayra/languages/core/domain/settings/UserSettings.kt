@@ -43,6 +43,14 @@ data class UserSettings(
     /** Baidu Translate open platform App ID and secret key, used only when [translationEngine] is [TranslationEngine.BAIDU]. */
     val baiduAppId: String = "",
     val baiduSecretKey: String = "",
+    /** DeepL API key; a key ending in `:fx` is a free-plan key and goes to the free host. */
+    val deeplApiKey: String = "",
+    /** Alibaba Model Studio (DashScope) API key for the Qwen-MT models. */
+    val qwenApiKey: String = "",
+    /** qwen-mt-turbo (cheaper) or qwen-mt-plus (better). */
+    val qwenModel: String = "qwen-mt-turbo",
+    /** Model Studio region: the international endpoint or the mainland China one. */
+    val qwenInternational: Boolean = true,
     /** Python executable that has Argos Translate installed; empty means `python3` from the PATH. */
     val argosPython: String = "",
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,

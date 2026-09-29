@@ -100,6 +100,8 @@ class RoutingSentenceTranslator(
     private val azure: SentenceTranslator,
     private val alibaba: SentenceTranslator,
     private val baidu: SentenceTranslator,
+    private val deepl: SentenceTranslator,
+    private val qwen: SentenceTranslator,
     private val local: SentenceTranslator?,
     /** The effective engine, see [effectiveEngine]. */
     private val engine: () -> TranslationEngine,
@@ -110,6 +112,8 @@ class RoutingSentenceTranslator(
         TranslationEngine.AZURE -> azure.translate(text, language)
         TranslationEngine.ALIBABA -> alibaba.translate(text, language)
         TranslationEngine.BAIDU -> baidu.translate(text, language)
+        TranslationEngine.DEEPL -> deepl.translate(text, language)
+        TranslationEngine.QWEN -> qwen.translate(text, language)
         TranslationEngine.MYMEMORY -> myMemory.translate(text, language)
     }
 }

@@ -73,6 +73,10 @@ class SettingsRepositoryImpl(
             alibabaEndpoint = store.getString(Keys.ALIBABA_ENDPOINT, defaults.alibabaEndpoint),
             baiduAppId = loadSecret(Keys.BAIDU_APP_ID),
             baiduSecretKey = loadSecret(Keys.BAIDU_SECRET_KEY),
+            deeplApiKey = loadSecret(Keys.DEEPL_API_KEY),
+            qwenApiKey = loadSecret(Keys.QWEN_API_KEY),
+            qwenModel = store.getString(Keys.QWEN_MODEL, defaults.qwenModel),
+            qwenInternational = store.getBoolean(Keys.QWEN_INTERNATIONAL, defaults.qwenInternational),
             argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
             hotkeys = HotkeyAction.entries.associateWith { action ->
                 val stored = store.getStringOrNull(action.settingKey)
@@ -123,6 +127,10 @@ class SettingsRepositoryImpl(
         store.putString(Keys.ALIBABA_ENDPOINT, s.alibabaEndpoint)
         storeSecret(Keys.BAIDU_APP_ID, s.baiduAppId)
         storeSecret(Keys.BAIDU_SECRET_KEY, s.baiduSecretKey)
+        storeSecret(Keys.DEEPL_API_KEY, s.deeplApiKey)
+        storeSecret(Keys.QWEN_API_KEY, s.qwenApiKey)
+        store.putString(Keys.QWEN_MODEL, s.qwenModel)
+        store.putBoolean(Keys.QWEN_INTERNATIONAL, s.qwenInternational)
         store.putString(Keys.ARGOS_PYTHON, s.argosPython)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
@@ -152,6 +160,10 @@ class SettingsRepositoryImpl(
         const val ALIBABA_ENDPOINT = "alibaba_endpoint"
         const val BAIDU_APP_ID = "baidu_app_id"
         const val BAIDU_SECRET_KEY = "baidu_secret_key"
+        const val DEEPL_API_KEY = "deepl_api_key"
+        const val QWEN_API_KEY = "qwen_api_key"
+        const val QWEN_MODEL = "qwen_model"
+        const val QWEN_INTERNATIONAL = "qwen_international"
         const val ARGOS_PYTHON = "argos_python"
         const val DEMO_DATA = "is_demo_data"
         const val NATIVE_LANGUAGE = "native_language"

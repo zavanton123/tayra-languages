@@ -46,6 +46,8 @@ import com.tayra.languages.core.domain.service.LocalSentenceTranslator
 import com.tayra.languages.core.domain.service.AlibabaTranslation
 import com.tayra.languages.core.domain.service.AzureTranslation
 import com.tayra.languages.core.domain.service.BaiduTranslation
+import com.tayra.languages.core.domain.service.DeeplTranslation
+import com.tayra.languages.core.domain.service.QwenTranslation
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
@@ -74,6 +76,8 @@ class OfflineTranslationViewModel(
     private val azure: AzureTranslation,
     private val alibaba: AlibabaTranslation,
     private val baidu: BaiduTranslation,
+    private val deepl: DeeplTranslation,
+    private val qwen: QwenTranslation,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
@@ -139,6 +143,34 @@ class OfflineTranslationViewModel(
         viewModelScope.launch {
             _baiduStatus.value = try { baidu.checkKey() } catch (e: Exception) { "Baidu Translate: ${e.message}" }
             _baiduBusy.value = false
+        }
+    }
+
+    private val _deeplStatus = MutableStateFlow<String?>(null)
+    val deeplStatus: StateFlow<String?> = _deeplStatus.asStateFlow()
+    private val _deeplBusy = MutableStateFlow(false)
+    val deeplBusy: StateFlow<Boolean> = _deeplBusy.asStateFlow()
+
+    fun checkDeeplKey() {
+        if (_deeplBusy.value) return
+        _deeplBusy.value = true
+        viewModelScope.launch {
+            _deeplStatus.value = try { deepl.checkKey() } catch (e: Exception) { "DeepL: ${e.message}" }
+            _deeplBusy.value = false
+        }
+    }
+
+    private val _qwenStatus = MutableStateFlow<String?>(null)
+    val qwenStatus: StateFlow<String?> = _qwenStatus.asStateFlow()
+    private val _qwenBusy = MutableStateFlow(false)
+    val qwenBusy: StateFlow<Boolean> = _qwenBusy.asStateFlow()
+
+    fun checkQwenKey() {
+        if (_qwenBusy.value) return
+        _qwenBusy.value = true
+        viewModelScope.launch {
+            _qwenStatus.value = try { qwen.checkKey() } catch (e: Exception) { "Qwen-MT: ${e.message}" }
+            _qwenBusy.value = false
         }
     }
 
@@ -395,6 +427,64 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 Text(if (baiduBusy) "Checking..." else "Check App ID")
             }
             baiduStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+            }
+
+            if (settings.translationEngine == TranslationEngine.DEEPL) {
+            var showKey by remember { mutableStateOf(false) }
+            Section("DeepL")
+            val deeplBusy by viewModel.deeplBusy.collectAsStateWithLifecycle()
+            val deeplStatus by viewModel.deeplStatus.collectAsStateWithLifecycle()
+            OutlinedTextField(
+                value = settings.deeplApiKey,
+                onValueChange = { v -> viewModel.update { it.copy(deeplApiKey = v.trim()) } },
+                label = { Text("API key") },
+                supportingText = { Text("A DeepL API key (free keys end in :fx and use the free host). The key is ${viewModel.secretStorage}.") },
+                singleLine = true,
+                visualTransformation = if (showKey) VisualTransformation.None else PasswordVisualTransformation(),
+                trailingIcon = { TextButton(onClick = { showKey = !showKey }) { Text(if (showKey) "Hide" else "Show") } },
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedButton(onClick = viewModel::checkDeeplKey, enabled = !deeplBusy && settings.deeplApiKey.isNotBlank()) {
+                Text(if (deeplBusy) "Checking..." else "Check key")
+            }
+            deeplStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+            }
+
+            if (settings.translationEngine == TranslationEngine.QWEN) {
+            var showKey by remember { mutableStateOf(false) }
+            Section("Qwen-MT")
+            val qwenBusy by viewModel.qwenBusy.collectAsStateWithLifecycle()
+            val qwenStatus by viewModel.qwenStatus.collectAsStateWithLifecycle()
+            OutlinedTextField(
+                value = settings.qwenApiKey,
+                onValueChange = { v -> viewModel.update { it.copy(qwenApiKey = v.trim()) } },
+                label = { Text("API key") },
+                supportingText = { Text("An Alibaba Cloud Model Studio (DashScope) API key. Calls are billed to that account. The key is ${viewModel.secretStorage}.") },
+                singleLine = true,
+                visualTransformation = if (showKey) VisualTransformation.None else PasswordVisualTransformation(),
+                trailingIcon = { TextButton(onClick = { showKey = !showKey }) { Text(if (showKey) "Hide" else "Show") } },
+                modifier = Modifier.fillMaxWidth(),
+            )
+            Dropdown(
+                options = listOf("qwen-mt-turbo", "qwen-mt-plus"),
+                selected = settings.qwenModel,
+                onSelect = { model -> viewModel.update { it.copy(qwenModel = model) } },
+                label = "Model",
+                optionLabel = { if (it == "qwen-mt-plus") "qwen-mt-plus (better)" else "qwen-mt-turbo (faster, cheaper)" },
+                modifier = Modifier.fillMaxWidth(),
+            )
+            Dropdown(
+                options = listOf(true, false),
+                selected = settings.qwenInternational,
+                onSelect = { intl -> viewModel.update { it.copy(qwenInternational = intl) } },
+                label = "Region",
+                optionLabel = { if (it) "International (dashscope-intl.aliyuncs.com)" else "China (dashscope.aliyuncs.com)" },
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedButton(onClick = viewModel::checkQwenKey, enabled = !qwenBusy && settings.qwenApiKey.isNotBlank()) {
+                Text(if (qwenBusy) "Checking..." else "Check key")
+            }
+            qwenStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
             }
 
             if (viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS) {
