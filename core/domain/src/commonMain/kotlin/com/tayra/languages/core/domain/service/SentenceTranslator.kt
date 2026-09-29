@@ -97,6 +97,7 @@ class CachedSentenceTranslator(
 class RoutingSentenceTranslator(
     private val myMemory: SentenceTranslator,
     private val google: SentenceTranslator,
+    private val azure: SentenceTranslator,
     private val local: SentenceTranslator?,
     /** The effective engine, see [effectiveEngine]. */
     private val engine: () -> TranslationEngine,
@@ -104,6 +105,7 @@ class RoutingSentenceTranslator(
     override suspend fun translate(text: String, language: Language): String? = when (engine()) {
         TranslationEngine.ARGOS -> (local ?: myMemory).translate(text, language)
         TranslationEngine.GOOGLE -> google.translate(text, language)
+        TranslationEngine.AZURE -> azure.translate(text, language)
         TranslationEngine.MYMEMORY -> myMemory.translate(text, language)
     }
 }

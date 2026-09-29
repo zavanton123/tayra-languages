@@ -43,6 +43,7 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.LocalPackage
 import com.tayra.languages.core.domain.service.LocalSentenceTranslator
+import com.tayra.languages.core.domain.service.AzureTranslation
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
@@ -68,6 +69,7 @@ class OfflineTranslationViewModel(
     languages: LanguageRepository,
     private val localTranslation: LocalTranslation,
     private val google: GoogleTranslation,
+    private val azure: AzureTranslation,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
@@ -91,6 +93,20 @@ class OfflineTranslationViewModel(
         viewModelScope.launch {
             _googleStatus.value = try { google.checkKey() } catch (e: Exception) { "Google Translate: ${e.message}" }
             _googleBusy.value = false
+        }
+    }
+
+    private val _azureStatus = MutableStateFlow<String?>(null)
+    val azureStatus: StateFlow<String?> = _azureStatus.asStateFlow()
+    private val _azureBusy = MutableStateFlow(false)
+    val azureBusy: StateFlow<Boolean> = _azureBusy.asStateFlow()
+
+    fun checkAzureKey() {
+        if (_azureBusy.value) return
+        _azureBusy.value = true
+        viewModelScope.launch {
+            _azureStatus.value = try { azure.checkKey() } catch (e: Exception) { "Microsoft Translator: ${e.message}" }
+            _azureBusy.value = false
         }
     }
 
@@ -214,7 +230,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(
-                "Sentence translations in the reader and term suggestions come from this engine; its own settings follow below. Google needs an API key and Argos its models; without them MyMemory answers instead.",
+                "Sentence translations in the reader and term suggestions come from this engine; its own settings follow below. Google and Microsoft need an API key and Argos its models; without them MyMemory answers instead.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -252,6 +268,36 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
             }
             googleStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
 
+            }
+
+            if (settings.translationEngine == TranslationEngine.AZURE) {
+            var showKey by remember { mutableStateOf(false) }
+            Section("Microsoft Translator")
+            val azureBusy by viewModel.azureBusy.collectAsStateWithLifecycle()
+            val azureStatus by viewModel.azureStatus.collectAsStateWithLifecycle()
+            OutlinedTextField(
+                value = settings.azureTranslatorApiKey,
+                onValueChange = { v -> viewModel.update { it.copy(azureTranslatorApiKey = v.trim()) } },
+                label = { Text("API key") },
+                supportingText = { Text("A key of an Azure AI Translator (or multi-service) resource. Calls are billed to that resource. The key is ${viewModel.secretStorage}.") },
+                singleLine = true,
+                visualTransformation = if (showKey) VisualTransformation.None else PasswordVisualTransformation(),
+                trailingIcon = { TextButton(onClick = { showKey = !showKey }) { Text(if (showKey) "Hide" else "Show") } },
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedTextField(
+                value = settings.azureTranslatorRegion,
+                onValueChange = { v -> viewModel.update { it.copy(azureTranslatorRegion = v.trim()) } },
+                label = { Text("Region") },
+                placeholder = { Text("westeurope") },
+                supportingText = { Text("The resource's region as shown in the Azure portal, for example westeurope or eastus. Leave empty only for a global resource.") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedButton(onClick = viewModel::checkAzureKey, enabled = !azureBusy && settings.azureTranslatorApiKey.isNotBlank()) {
+                Text(if (azureBusy) "Checking..." else "Check key")
+            }
+            azureStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
             }
 
             if (viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS) {

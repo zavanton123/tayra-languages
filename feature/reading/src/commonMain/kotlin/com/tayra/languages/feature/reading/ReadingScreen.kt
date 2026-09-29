@@ -330,7 +330,10 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         EngineRow(
             selected = prefs.translationEngine,
             options = viewModel.availableEngines,
-            hasGoogleKey = prefs.googleTranslateApiKey.isNotBlank(),
+            keyed = setOfNotNull(
+                TranslationEngine.GOOGLE.takeIf { prefs.googleTranslateApiKey.isNotBlank() },
+                TranslationEngine.AZURE.takeIf { prefs.azureTranslatorApiKey.isNotBlank() },
+            ),
             onSelect = viewModel::setTranslationEngine,
         )
         MenuRow(Icons.Default.Refresh, "Clear translation cache") { onClose(); viewModel.clearTranslationCache() }
@@ -418,9 +421,9 @@ private fun StepButton(label: String, onClick: () -> Unit) {
     ) { Text(label, style = MaterialTheme.typography.titleMedium, color = colors.primary) }
 }
 
-/** The translation engine, picked from a menu anchored to the row; Google is offered only once a key is set. */
+/** The translation engine, picked from a menu anchored to the row; engines that need a key are offered once one is set. */
 @Composable
-private fun EngineRow(selected: TranslationEngine, options: List<TranslationEngine>, hasGoogleKey: Boolean, onSelect: (TranslationEngine) -> Unit) {
+private fun EngineRow(selected: TranslationEngine, options: List<TranslationEngine>, keyed: Set<TranslationEngine>, onSelect: (TranslationEngine) -> Unit) {
     var open by remember { mutableStateOf(false) }
     val colors = MaterialTheme.colorScheme
     Box {
@@ -438,7 +441,7 @@ private fun EngineRow(selected: TranslationEngine, options: List<TranslationEngi
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             options.forEach { engine ->
-                val enabled = engine != TranslationEngine.GOOGLE || hasGoogleKey
+                val enabled = engine !in setOf(TranslationEngine.GOOGLE, TranslationEngine.AZURE) || engine in keyed
                 AppMenuItem(
                     text = { Text(if (enabled) engine.label else "${engine.label} \u2013 add a key in Settings") },
                     onClick = { open = false; onSelect(engine) },
@@ -736,6 +739,7 @@ private fun translationSource(state: ReadingUiState): String? {
         when (it) {
             TranslationEngine.MYMEMORY -> "MyMemory (online)"
             TranslationEngine.GOOGLE -> "Google Translate (online)"
+            TranslationEngine.AZURE -> "Microsoft Translator (online)"
             TranslationEngine.ARGOS -> "Argos Translate (offline)"
         }
     }

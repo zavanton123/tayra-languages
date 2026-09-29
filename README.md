@@ -104,8 +104,9 @@ The same artifacts can be built locally:
   project). The key never enters the plain settings store: `SecureStore` keeps it in the macOS
   Keychain (Security framework through JNA), the iOS Keychain, an AES key in the Android
   Keystore, Windows DPAPI, the Linux keyring via `secret-tool` (or an owner-only file without
-  it), and in the browser only sessionStorage for the current tab; or, on desktop, to Argos Translate, which runs on the
-  computer with no network. Without a key or a local Argos the app falls back to MyMemory. Nothing has to be installed by hand:
+  it), and in the browser only sessionStorage for the current tab; to Microsoft Translator (Azure AI Services, key and region of a Translator or multi-service
+  resource, same Check key); or, on desktop, to Argos Translate, which runs on the computer
+  with no network. Without a key or a local Argos the app falls back to MyMemory. Nothing has to be installed by hand:
   the first time offline translation is used the app downloads a standalone CPython build
   (`astral-sh/python-build-standalone`, about 25 MB) into its data folder under `argos-python`,
   and installs `argostranslate` into it with pip (about a gigabyte, mostly torch). Models are
