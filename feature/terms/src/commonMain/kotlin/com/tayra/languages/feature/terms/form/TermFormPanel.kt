@@ -40,6 +40,7 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -628,6 +629,7 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
     val languageId = language?.id
     val playback = rememberAudioPlayback()
     val synthesizer = rememberSpeaker(koinInject(), koinInject())
+    val speaking by synthesizer.playing.collectAsState()
     val languageCode = language?.let { LanguageCodes.codeFor(it.name) }
     val total = state.examplesTotal ?: state.examples.size
     val canOpen = onOpenExamples != null && languageId != null && term.isNotBlank()
@@ -668,7 +670,8 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
                             if (audio != null) {
                                 RoundIconButton(if (playback.isPlaying(audio)) Icons.Default.Close else AppIcons.VolumeUp, "Play recording") { playback.toggle(audio) }
                             } else {
-                                RoundIconButton(AppIcons.VolumeUp, "Pronounce") { synthesizer.speak(example.text, languageCode) }
+                                val active = speaking == example.text
+                                RoundIconButton(if (active) AppIcons.Stop else AppIcons.VolumeUp, if (active) "Stop" else "Pronounce") { synthesizer.toggle(example.text, languageCode) }
                             }
                         }
                     }

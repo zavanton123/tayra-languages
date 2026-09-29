@@ -105,6 +105,8 @@ fun ReadingText(
     sideBySide: Boolean = false,
     /** Reads a sentence aloud; a play button precedes every sentence when set. */
     onSpeakSentence: ((String) -> Unit)? = null,
+    /** The sentence being read aloud, whose button shows Stop. */
+    playingSentence: String? = null,
 ) {
     var itemOffset = 0
     val perSentence = splitSentences || translations != null
@@ -133,6 +135,7 @@ fun ReadingText(
                         items = runItems,
                         inlinePlay = inlinePlay,
                         onSpeakSentence = onSpeakSentence,
+                        playingSentence = playingSentence,
                         firstItemIndex = first,
                         theme = theme,
                         showHighlights = showHighlights,
@@ -149,7 +152,7 @@ fun ReadingText(
                 val translated = translations != null && sentenceText.any { it.isLetter() }
                 if (twoColumns) {
                     Row(Modifier.fillMaxWidth().padding(bottom = 6.dp), verticalAlignment = Alignment.Top) {
-                        if (onSpeakSentence != null) PlayButton(sentenceText.takeIf { speakable }, fontScale, lineHeight, onSpeakSentence)
+                        if (onSpeakSentence != null) PlayButton(sentenceText.takeIf { speakable }, sentenceText == playingSentence, fontScale, lineHeight, onSpeakSentence)
                         Box(Modifier.weight(1f)) { sentence() }
                         Box(Modifier.width(24.dp))
                         Box(Modifier.weight(1f)) {
@@ -158,7 +161,7 @@ fun ReadingText(
                     }
                 } else if (perSentence && onSpeakSentence != null) {
                     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
-                        PlayButton(sentenceText.takeIf { speakable }, fontScale, lineHeight, onSpeakSentence)
+                        PlayButton(sentenceText.takeIf { speakable }, sentenceText == playingSentence, fontScale, lineHeight, onSpeakSentence)
                         Column(Modifier.weight(1f)) {
                             sentence()
                             if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
@@ -175,15 +178,15 @@ fun ReadingText(
 
 /** The button before a sentence; an empty slot of the same width keeps sentences without words aligned. */
 @Composable
-private fun PlayButton(text: String?, fontScale: Float, lineHeight: Float, onSpeak: (String) -> Unit) {
+private fun PlayButton(text: String?, playing: Boolean, fontScale: Float, lineHeight: Float, onSpeak: (String) -> Unit) {
     val size = (22 * fontScale).dp
     // Centred on the first line of the sentence, whatever the font size and line height.
     val top = 6.dp + ((18 * fontScale * lineHeight) - 22 * fontScale).coerceAtLeast(0f).dp / 2
     Box(Modifier.padding(top = top, end = 8.dp).size(size), contentAlignment = Alignment.Center) {
         if (text != null) {
             Icon(
-                AppIcons.PlayArrow,
-                contentDescription = "Play sentence",
+                if (playing) AppIcons.Stop else AppIcons.PlayArrow,
+                contentDescription = if (playing) "Stop" else "Play sentence",
                 tint = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.fillMaxSize().clip(CircleShape).clickable { onSpeak(text) },
             )
@@ -233,6 +236,7 @@ private fun ParagraphText(
     /** Local item positions that start a sentence, with the sentence to read, for inline play buttons. */
     inlinePlay: Map<Int, String> = emptyMap(),
     onSpeakSentence: ((String) -> Unit)? = null,
+    playingSentence: String? = null,
 ) {
     val spans = remember(items) { mutableListOf<Span>() }
     val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex, inlinePlay.keys) {
@@ -240,12 +244,13 @@ private fun ParagraphText(
         buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans, inlinePlay.keys)
     }
     val primary = MaterialTheme.colorScheme.primary
-    val inlineContent = remember(inlinePlay, onSpeakSentence, primary) {
+    val inlineContent = remember(inlinePlay, onSpeakSentence, primary, playingSentence) {
         if (onSpeakSentence == null) emptyMap() else inlinePlay.entries.associate { (position, sentence) ->
+            val playing = sentence == playingSentence
             "play-$position" to InlineTextContent(Placeholder(1.25.em, 1.em, PlaceholderVerticalAlign.TextCenter)) {
                 Icon(
-                    AppIcons.PlayArrow,
-                    contentDescription = "Play sentence",
+                    if (playing) AppIcons.Stop else AppIcons.PlayArrow,
+                    contentDescription = if (playing) "Stop" else "Play sentence",
                     tint = primary,
                     modifier = Modifier.fillMaxSize().clip(CircleShape).clickable { onSpeakSentence(sentence) },
                 )

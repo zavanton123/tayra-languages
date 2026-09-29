@@ -13,24 +13,40 @@ actual class WavPlayer(context: Context) {
     private val file = File(context.applicationContext.cacheDir, "speech.wav")
     private var player: MediaPlayer? = null
 
-    actual fun play(wav: ByteArray) {
+    private var done: (() -> Unit)? = null
+
+    actual fun play(wav: ByteArray, onDone: () -> Unit) {
         stop()
+        done = onDone
         try {
             file.writeBytes(wav)
             player = MediaPlayer().apply {
                 setDataSource(file.absolutePath)
-                setOnCompletionListener { it.release(); if (player === it) player = null }
+                setOnCompletionListener { finished(it) }
+                setOnErrorListener { mp, _, _ -> finished(mp); true }
                 prepare()
                 start()
             }
         } catch (e: Exception) {
             Logger.w(e) { "Could not play synthesized speech" }
+            finish()
         }
+    }
+
+    private fun finished(mp: MediaPlayer) {
+        mp.release()
+        if (player === mp) player = null
+        finish()
+    }
+
+    private fun finish() {
+        done?.also { done = null }?.invoke()
     }
 
     actual fun stop() {
         player?.let { runCatching { it.stop(); it.release() } }
         player = null
+        finish()
     }
 
     actual fun release() = stop()

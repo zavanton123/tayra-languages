@@ -84,6 +84,9 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.LocalTranslationProblem
 import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
+import androidx.compose.runtime.collectAsState
+import kotlin.math.roundToInt
+import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
 import com.tayra.languages.core.ui.audio.rememberSpeaker
@@ -206,6 +209,7 @@ fun ReadingScreen(
         onNextTheme = viewModel::nextTheme,
         onToggleHighlights = viewModel::toggleHighlights,
         onShortcuts = { onNavigate(Route.Shortcuts) },
+        onSpeechSettings = { onNavigate(Route.Speech) },
         onSource = { state.book?.sourceUri?.let { uriHandler.openUri(it) } },
     )
 
@@ -303,6 +307,7 @@ private class ReadingMenuActions(
     val onToggleHighlights: () -> Unit,
     val onShortcuts: () -> Unit,
     val onSource: () -> Unit,
+    val onSpeechSettings: () -> Unit,
 )
 
 @Composable
@@ -330,7 +335,6 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         SwitchRow(AppIcons.LineSpacing, "One sentence per line", prefs.splitSentences) { viewModel.toggleSplitSentences() }
         SwitchRow(AppIcons.Translate, "Show translations", prefs.showTranslations) { viewModel.toggleShowTranslations() }
         SwitchRow(AppIcons.ViewColumn, "Translations side by side", prefs.sideBySideTranslations) { viewModel.toggleSideBySideTranslations() }
-        SwitchRow(AppIcons.PlayArrow, "Play button before sentences", prefs.showSentencePlay) { viewModel.toggleSentencePlay() }
         EngineRow(
             selected = prefs.translationEngine,
             options = viewModel.availableEngines,
@@ -345,6 +349,8 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
             onSelect = viewModel::setTranslationEngine,
         )
         MenuRow(Icons.Default.Refresh, "Clear translation cache") { onClose(); viewModel.clearTranslationCache() }
+
+        SpeechSection(state, viewModel, onSettings = { onClose(); actions.onSpeechSettings() })
 
         MenuSection("Typography")
         AdjustRow(AppIcons.FormatSize, "Font size", "${(prefs.readingFontScale * 100).toInt()}%", onLess = { viewModel.adjustFontScale(-0.1f) }, onMore = { viewModel.adjustFontScale(0.1f) })
@@ -432,6 +438,72 @@ private fun StepButton(label: String, onClick: () -> Unit) {
 /** The translation engine, picked from a menu anchored to the row; engines that need a key are offered once one is set. */
 @Composable
 private fun EngineRow(selected: TranslationEngine, options: List<TranslationEngine>, keyed: Set<TranslationEngine>, onSelect: (TranslationEngine) -> Unit) {
+    fun usable(engine: TranslationEngine) = engine in setOf(TranslationEngine.MYMEMORY, TranslationEngine.ARGOS) || engine in keyed
+    ChoiceRow(
+        icon = AppIcons.Globe,
+        title = "Translation engine",
+        value = selected.label,
+        options = options,
+        optionLabel = { if (usable(it)) it.label else "${it.label} \u2013 add a key in Settings" },
+        optionEnabled = ::usable,
+        onSelect = onSelect,
+    )
+}
+
+/** The Speech screen's everyday settings: the play buttons, the engine, the voice for this book's language and the speed. */
+@Composable
+private fun SpeechSection(state: ReadingUiState, viewModel: ReadingViewModel, onSettings: () -> Unit) {
+    val prefs = state.settings
+    val voices by viewModel.speechVoices.collectAsState()
+    LaunchedEffect(prefs.speechEngine, state.language?.id) { viewModel.loadSpeechVoices() }
+    val local = prefs.speechEngine != SpeechEngine.SYSTEM && prefs.speechEngine in viewModel.speechEngines
+    val languageName = state.language?.name.orEmpty()
+
+    MenuSection("Speech")
+    SwitchRow(AppIcons.PlayArrow, "Play button before sentences", prefs.showSentencePlay) { viewModel.toggleSentencePlay() }
+    ChoiceRow(
+        icon = AppIcons.VolumeUp,
+        title = "Speech engine",
+        value = (prefs.speechEngine.takeIf { it in viewModel.speechEngines } ?: SpeechEngine.SYSTEM).label,
+        options = viewModel.speechEngines,
+        optionLabel = { it.label },
+        onSelect = viewModel::setSpeechEngine,
+    )
+    if (local) {
+        if (voices.isNotEmpty()) {
+            val chosen = prefs.speechVoices["${prefs.speechEngine.name}:${viewModel.speechLanguage}"]
+            ChoiceRow(
+                icon = AppIcons.RecordVoiceOver,
+                title = if (languageName.isEmpty()) "Voice" else "$languageName voice",
+                value = (voices.firstOrNull { it.id == chosen } ?: voices.first()).name,
+                options = voices,
+                optionLabel = { it.name },
+                onSelect = { viewModel.setSpeechVoice(it.id) },
+            )
+        } else {
+            Text(
+                "No voice for $languageName is downloaded, so the system voice reads this book. Download one in Speech settings.",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
+            )
+        }
+        AdjustRow(AppIcons.Speed, "Speed", "${(prefs.speechSpeed * 100).roundToInt()}%", onLess = { viewModel.adjustSpeechSpeed(-0.1f) }, onMore = { viewModel.adjustSpeechSpeed(0.1f) })
+    }
+    MenuRow(AppIcons.Tune, "Speech settings", onClick = onSettings)
+}
+
+/** A setting picked from a menu anchored to the row, showing the current [value] under the [title]. */
+@Composable
+private fun <T> ChoiceRow(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    title: String,
+    value: String,
+    options: List<T>,
+    optionLabel: (T) -> String,
+    optionEnabled: (T) -> Boolean = { true },
+    onSelect: (T) -> Unit,
+) {
     var open by remember { mutableStateOf(false) }
     val colors = MaterialTheme.colorScheme
     Box {
@@ -440,21 +512,16 @@ private fun EngineRow(selected: TranslationEngine, options: List<TranslationEngi
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(14.dp),
         ) {
-            MenuIcon(AppIcons.Globe, colors.primary)
+            MenuIcon(icon, colors.primary)
             Column(Modifier.weight(1f)) {
-                Text("Translation engine", style = MaterialTheme.typography.bodyLarge)
-                Text(selected.label, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                Text(title, style = MaterialTheme.typography.bodyLarge)
+                Text(value, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             }
             Icon(AppIcons.UnfoldMore, contentDescription = null, tint = colors.outline, modifier = Modifier.size(20.dp))
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            options.forEach { engine ->
-                val enabled = engine in setOf(TranslationEngine.MYMEMORY, TranslationEngine.ARGOS) || engine in keyed
-                AppMenuItem(
-                    text = { Text(if (enabled) engine.label else "${engine.label} \u2013 add a key in Settings") },
-                    onClick = { open = false; onSelect(engine) },
-                    enabled = enabled,
-                )
+            options.forEach { option ->
+                AppMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) }, enabled = optionEnabled(option))
             }
         }
     }
@@ -603,7 +670,8 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
     }
     val speaker = rememberSpeaker(koinInject(), koinInject())
     val speechLanguage = state.language?.name?.let { LanguageCodes.codeFor(it) }
-    val speakSentence: (String) -> Unit = remember(speaker, speechLanguage) { { text -> speaker.speak(text, speechLanguage) } }
+    val speakSentence: (String) -> Unit = remember(speaker, speechLanguage) { { text -> speaker.toggle(text, speechLanguage) } }
+    val playingSentence by speaker.playing.collectAsState()
     val callbacks = remember(viewModel) {
         ReadingTextCallbacks(
             onClick = { index, shift -> viewModel.onWordClick(index, shift); focusText() },
@@ -667,6 +735,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 translations = if (state.settings.showTranslations) state.translations else null,
                 sideBySide = state.settings.sideBySideTranslations,
                 onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,
+                playingSentence = playingSentence,
                 callbacks = callbacks,
             )
             if (state.selecting) {

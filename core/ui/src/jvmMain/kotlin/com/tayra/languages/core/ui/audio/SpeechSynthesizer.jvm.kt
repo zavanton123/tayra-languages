@@ -30,7 +30,7 @@ actual class SpeechSynthesizer {
             .mapValues { it.value.first() }
     }
 
-    actual fun speak(text: String, languageCode: String?) {
+    actual fun speak(text: String, languageCode: String?, onDone: () -> Unit) {
         stop()
         executor.execute {
             val command = command(text, languageCode?.lowercase())
@@ -42,6 +42,7 @@ actual class SpeechSynthesizer {
                 Logger.w(e) { "Could not run speech command ${command.first()}" }
             } finally {
                 current = null
+                onDone()
             }
         }
     }

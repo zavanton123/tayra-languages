@@ -292,6 +292,7 @@ private fun TryIt(viewModel: SpeechViewModel, languages: List<LanguageOption>, v
     if (languages.isEmpty()) return
     val speaker = rememberSpeaker(viewModel.localSpeech, viewModel.settingsRepository)
     val working by speaker.working.collectAsStateWithLifecycle()
+    val playing by speaker.playing.collectAsStateWithLifecycle()
     // Starts on a language the chosen engine can speak, so Play demonstrates that engine.
     var language by remember(languages, voiced) {
         mutableStateOf(languages.firstOrNull { it.code in voiced } ?: languages.firstOrNull { it.code in SAMPLES } ?: languages.first())
@@ -306,9 +307,16 @@ private fun TryIt(viewModel: SpeechViewModel, languages: List<LanguageOption>, v
         placeholder = { Text("Type a sentence in ${language.name}") },
         modifier = Modifier.fillMaxWidth(),
     )
-    Button(onClick = { speaker.speak(text, language.code) }, enabled = text.isNotBlank() && !working) {
-        Icon(AppIcons.PlayArrow, contentDescription = null, modifier = Modifier.size(18.dp))
-        Text(if (working) "  Preparing..." else "  Play")
+    val active = playing != null && playing == text
+    Button(onClick = { speaker.toggle(text, language.code) }, enabled = text.isNotBlank()) {
+        Icon(if (active) AppIcons.Stop else AppIcons.PlayArrow, contentDescription = null, modifier = Modifier.size(18.dp))
+        Text(
+            when {
+                active && working -> "  Preparing..."
+                active -> "  Stop"
+                else -> "  Play"
+            },
+        )
     }
 }
 
