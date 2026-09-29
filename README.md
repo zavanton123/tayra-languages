@@ -1,173 +1,102 @@
 # Tayra Languages
 
-Learn languages by reading. Tayra Languages is a Kotlin Multiplatform port of
-[Lute](https://github.com/LuteOrg/lute-v3) (Learning Using Texts) for Android, iOS,
-desktop (JVM) and the web (Wasm), with a shared Compose Multiplatform UI.
+**Learn a language by reading what you love.**
 
-Import a text, read it page by page, click words to define them and track what you know.
-Terms are highlighted by learning status, multi-word expressions are recognised, parents
-and tags group related terms, and reading statistics track your progress.
+Tayra Languages turns any text into a reading lesson. Import a story, an article or a book,
+read it page by page, tap the words you do not know, and watch the highlights fade as the
+words become yours. It runs on Android, iOS, macOS, Windows, Linux and in the browser, and
+everything you learn stays on your own device.
 
-## Stack
+## Reading
 
-| Concern | Library |
+- **Every word is a button.** Unknown words are highlighted. Tap one to see its meaning, set
+  how well you know it, add a translation or a note, and move on. Select several words to
+  save an expression such as *à beira* as one term.
+- **Five learning levels plus "well known" and "ignored".** Highlights follow the level, so a
+  page shows at a glance what is new, what is being learned and what is already yours.
+  Right-click (or long-press) a word to mark it as new, or to mark a learned word as well known.
+- **Sentence translations under the text.** Turn on *Show translations* and each sentence
+  gets its translation in a lighter line beneath it, or side by side in two columns.
+  *One sentence per line* lays the text out for easy comparison.
+- **A reader that adapts to you.** Focus mode, adjustable font size, line height and text
+  width, several colour themes, keyboard shortcuts on desktop, and bookmarks to pick up
+  where you left off.
+- **Term details without leaving the page.** The side pane shows the word's dictionary
+  entry, its base form, example sentences, and links to online dictionaries you choose per
+  language.
+
+## Vocabulary
+
+- **A terms list** with search, status filters and sorting, bulk status changes, and CSV
+  import and export.
+- **Parents and components.** Link an inflected form to its base word; the popup shows the
+  base word's meaning and, for expressions, the words inside them.
+- **Pronunciation** with the device's speech voices, and recorded example sentences.
+- **Statistics** of words read and learned over time, per language and per book.
+
+## Translation, online or offline
+
+Sentence translations and suggested meanings come from the engine you pick on the
+Translation screen:
+
+| Engine | Needs |
 | --- | --- |
-| UI | Compose Multiplatform, Material 3 |
-| Presentation | JetBrains `lifecycle-viewmodel`, `StateFlow` |
-| Navigation | JetBrains `navigation-compose` (type-safe routes) |
-| Dependency injection | Koin |
-| Database | SQLDelight (Android/JVM/native drivers, sql.js web worker on Wasm) |
-| Preferences | multiplatform-settings |
-| Networking | Ktor client with HTTP cache (web page import, Wiktionary/MyMemory translations, Tatoeba examples) |
-| Serialization | kotlinx.serialization |
-| Files | FileKit (import txt/epub/srt/vtt, CSV export) |
-| Logging | Kermit |
-| Date/time | kotlinx-datetime |
-| Testing | kotlin-test, kotlinx-coroutines-test, Turbine |
+| MyMemory | nothing; free, with a daily quota |
+| Google Translate | a Google Cloud API key |
+| Microsoft Translator | an Azure AI Translator key and region |
+| Alibaba Cloud Translation | an Alibaba Cloud AccessKey |
+| Baidu Translate | a Baidu Translate App ID and key |
+| DeepL | a DeepL API key |
+| Qwen-MT | an Alibaba Model Studio API key |
+| On this device | nothing online after the first download |
 
-## Modules
+Keys are kept in the platform's secure storage: the Keychain on macOS and iOS, the Keystore
+on Android, the Data Protection API on Windows. Each engine has a *Check key* button.
 
-```
-core/domain      pure Kotlin: models, text parsers, page rendering, services, predefined languages
-core/data        SQLDelight database, repositories, settings, HTTP and file import
-core/ui          theme, navigation routes, shared composables
-feature/books    book listing, create/edit, bookmarks, page editing
-feature/reading  reading screen, term popups, keyboard shortcuts
-feature/terms    term form, term listing, bulk edit, CSV import/export
-feature/languages, feature/settings, feature/stats
-shared           app composition: DI, bootstrap, navigation graph, iOS framework
-androidApp, desktopApp, webApp, iosApp   thin platform launchers
-build-logic      Gradle convention plugins
-```
+**On this device** works with no network at all. On Android and iOS it uses Google ML Kit,
+with one small model per language that you download once. On desktop it uses Argos
+Translate, which the app installs into its own folder on first use, models included. When a
+model is missing, the reader says which one and offers to install it right there.
 
-Domain services depend on repository interfaces declared in `core/domain`; `core/data`
-provides the SQLDelight implementations. Each feature exposes a Koin module and a
-navigation graph that `shared` composes into the app.
+## Offline dictionaries
 
-## Building and running
+Download a dictionary pack for a language and its meanings appear in the term pane with no
+network: definitions, every sense with a one-tap add, and the link from an inflected form to
+its base word. Packs exist for 33 European languages with meanings in English, French,
+German, Portuguese, Russian or Spanish, and are managed on the Dictionaries screen.
+
+## Languages
+
+Read in Belarusian, Bosnian, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, English,
+Estonian, Finnish, French, Galician, German, Greek, Hungarian, Icelandic, Irish, Italian,
+Latin, Latvian, Lithuanian, Macedonian, Norwegian, Polish, Portuguese, Romanian, Russian,
+Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian or Welsh, with meanings shown
+in English, French, German, Portuguese, Russian or Spanish. Each language comes with sample
+texts and a short tutorial, and its dictionaries and text settings can be adjusted.
+
+## Books
+
+- Import plain text, EPUB and subtitle files (SRT, VTT), or paste a text; on desktop and
+  Android, a web page can be imported by its address.
+- Long texts are split into pages by paragraph or by word count; pages can be edited, added
+  or removed later.
+- The library shows every book with its language, progress and how much of its vocabulary
+  is already known, with search, sorting, filters and an archive for finished books.
+
+## Get it
+
+Releases on GitHub include an Android APK and a macOS disk image. The web version runs in a
+browser without installing anything, though its library lasts only for the session.
+
+Build it yourself with a recent JDK:
 
 ```
 ./gradlew :desktopApp:run                      # desktop
 ./gradlew :androidApp:installDebug             # android
 ./gradlew :webApp:wasmJsBrowserDevelopmentRun  # web
-open iosApp/iosApp.xcodeproj                   # ios (builds the Shared framework via Gradle)
 ```
 
-Tests:
+For iOS, run `pod install` in `iosApp` once, then open `iosApp/iosApp.xcworkspace` in Xcode.
 
-```
-./gradlew :core:domain:jvmTest :core:data:jvmTest
-./gradlew :core:domain:wasmJsBrowserTest       # parser tests in a headless browser
-```
-
-## Releases
-
-Publishing a GitHub release runs `.github/workflows/release.yml`, which builds a release APK
-on Linux and a macOS DMG on an Apple Silicon runner and attaches both to the release. The
-workflow can also be started by hand from the Actions tab for an existing tag.
-
-- The tag gives the version: `v0.1.0` produces `TayraLanguages-0.1.0.apk` with the workflow
-  run number as the Android version code. macOS installers need a major version of at least
-  1, so tags below `1.0.0` are packaged as `1.0.0` inside the DMG; the file name keeps the
-  tag version.
-- To sign the APK with a release key, add the repository secrets `ANDROID_KEYSTORE_BASE64`
-  (the keystore file encoded with `base64`), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`
-  and `ANDROID_KEY_PASSWORD`. Without them the APK is signed with the debug key, which
-  installs fine but cannot update an app signed with another key.
-- The DMG is neither signed nor notarized, so macOS asks for confirmation on first launch
-  (right-click the app and choose Open).
-
-The same artifacts can be built locally:
-
-```bash
-./gradlew :androidApp:assembleRelease -PreleaseVersion=0.1.0 -PversionCode=1
-./gradlew :desktopApp:packageDmg -PreleaseVersion=0.1.0
-```
-
-## Notes
-
-- The languages on offer are fixed: the 33 European languages listed in `LanguageCatalog` can be learned, and
-  translations are shown in English, French, German, Portuguese, Russian or Spanish (Settings menu, Translation, Native language). The three
-  target languages are created on first start with sample texts and the tutorial, taken
-  from the [Lute language definitions](https://github.com/LuteOrg/lute-language-defs);
-  regenerate `PredefinedLanguages.kt` with `tools/generate_language_defs.py`. Their
-  dictionaries and text settings can be edited, but languages cannot be created, renamed or
-  deleted; any other language found in the database is removed on start together with its
-  books and terms.
-- The bundled language definitions also cover many other languages; those that need external
-  tokenisers (Japanese via MeCab, Thai, Khmer, Mandarin) are not supported.
-- Dictionaries open in the platform browser; embedded web views are not used.
-- Sentence translations in the reader (left pane, Show translations) and term suggestions come
-  from MyMemory by default. The Translation screen (or the engine row in the reader's left pane)
-  can switch to Google Translate, which needs a Google Cloud API key with the Cloud Translation
-  API enabled, entered on that screen and checked with Check key (calls are billed to that
-  project). The key never enters the plain settings store: `SecureStore` keeps it in the macOS
-  Keychain (Security framework through JNA), the iOS Keychain, an AES key in the Android
-  Keystore, Windows DPAPI, the Linux keyring via `secret-tool` (or an owner-only file without
-  it), and in the browser only sessionStorage for the current tab; to Microsoft Translator (Azure AI Services, key and region of a Translator or multi-service
-  resource, same Check key); to Alibaba Cloud Translation (a RAM AccessKey ID and Secret,
-  requests signed with the RPC HMAC-SHA1 scheme by `AliyunSigner`, endpoint host configurable);
-  to Baidu Translate (App ID and secret key from fanyi-api.baidu.com, `sign = md5(appid+q+salt+key)`
-  with a plain-Kotlin `Md5`, Baidu's own language codes mapped in the provider); to DeepL (API
-  key, free `:fx` keys use api-free.deepl.com, uppercase codes with EN-US/PT-PT targets); to
-  Qwen-MT (a Model Studio API key, qwen-mt-turbo or qwen-mt-plus, international or China
-  endpoint, through the OpenAI-compatible chat API with `translation_options`); or to the
-  on-device engine ("On this device (offline)"): Argos Translate on desktop, and Google ML Kit
-  on Android and iOS (one ~30 MB model per language, downloaded from Google once and used with
-  no network; `LanguageModelTranslator` in core/data is the shared logic, `MlKitSentenceTranslator`
-  the Android side, and on iOS the Swift `MlKitTranslatorBridge` in iosApp implements the Kotlin
-  `OnDeviceTranslatorBridge` and is handed to `MainViewController`; the iOS app is built from
-  `iosApp/iosApp.xcworkspace` after `pod install` because ML Kit ships only as CocoaPods, and
-  ML Kit's binaries have no arm64 simulator slice, so simulator runs need Rosetta). Argos Translate, which runs on the computer
-  with no network. Without a key or a local Argos the app falls back to MyMemory. Nothing has to be installed by hand:
-  the first time offline translation is used the app downloads a standalone CPython build
-  (`astral-sh/python-build-standalone`, about 25 MB) into its data folder under `argos-python`,
-  and installs `argostranslate` into it with pip (about a gigabyte, mostly torch). Models are
-  downloaded on request: when the pair being read lacks one, a notice above the text names the
-  missing model (both halves of a detour through English when there is no direct one) with an
-  Install button and a progress bar; for a language Argos has no model for at all, such as
-  Macedonian, the notice offers to switch back to MyMemory. The Offline translation screen
-  (Settings, or the notice's Settings link) shows the Argos and Python versions, lets Install
-  fetch the runtime, lists the language packages with Install and Remove, leading with the
-  pairs the current books need, and has a Python executable field for a Python of your own. The worker
-  script (`core/data/src/jvmMain/resources/argos_worker.py`) is started once and kept alive;
-  the page header names the engine behind the translations on screen, and translations are
-  cached for a day per sentence and engine.
-- Offline dictionaries are downloadable packs: gzip-compressed prebuilt SQLite files (tables
-  `meta`, `entries` and `forms`), one per source language and gloss language (Russian,
-  English, German, French, Spanish or Portuguese), generated in `DictionaryPacks` from a source
-  table and the release download URL. Pairs the source Wiktionaries lack are excluded there:
-  the German Wiktionary has no Galician or Serbian section, the Spanish one covers only
-  eighteen of the languages, and the Portuguese one has no Czech, Dutch or Macedonian section. The
-  Dictionaries screen (Settings menu) lists the packs for languages that have books, or that are
-  already installed, grouped by the language of the meanings with the native language first,
-  with Download and Remove, and a toggle reveals the rest. Android, iOS and desktop unpack a downloaded pack
-  into app storage next to a stamp with its format and open it read-only as a second SQLDelight
-  database; the web build keeps the compressed file in the browser Cache API and inflates it in
-  its own sql.js worker (`webApp/src/wasmJsMain/resources/dictionary.worker.js`), which needs
-  the pack host to allow cross-origin requests. When a text's language and the native language
-  match an installed pack, the term pane fills the translation from it, lists every meaning
-  with a plus button, and links an inflected form to its lemma as the term's parent; without a
-  pack the network suggestions are used. `tools/build_dictionary.py --source <code>` (one
-  of the keys of `SOURCES` in the script) builds `dictionaries/<source>-ru.sqlite.gzip` from two kaikki.org dumps kept in
-  the ignored `dictionaries/` folder: that language's section of the Russian Wiktionary
-  (`<language>-to-russian.jsonl`; the glosses) and the English Wiktionary's dump for the language
-  (`kaikki.org-dictionary-<Language>.jsonl.gz`; the inflection tables). With `--target de`, `fr`, `es`
-  or `pt` the glosses come from that language's Wiktionary section instead
-  (`<language>-to-german.jsonl` and so on), and
-  with `--target en` it builds `<source>-en.sqlite.gzip` with glosses and inflections both
-  taken from the English Wiktionary dump, which covers far more headwords than the Russian or
-  German Wiktionary sections; the French Wiktionary is rich for Romance languages, German,
-  Finnish and Russian. Compound forms such as
-  "würde gehen" are dropped because the app looks up single tokens, and Finnish and Hungarian
-  possessive-suffix variants are left out to keep those packs downloadable; for English, forms neither
-  dump lists are generated by rule and flagged `generated`. Publish the file as a release asset
-  and point the pack's URL at it; if the layout changes, bump `FORMAT` in the script and in
-  `DictionaryId` so older downloads count as not installed.
-- Term pronunciation uses the platform text-to-speech engine: Android `TextToSpeech`,
-  `AVSpeechSynthesizer` on iOS, the Web Speech API in the browser, and the operating
-  system's speech command on desktop (`say` on macOS, System.Speech via PowerShell on
-  Windows, `spd-say` on Linux). Voices for a language must be installed on the device.
-- Example sentence recordings from Tatoeba play on every platform.
-- The web build keeps its database in memory for the session; book audio, backups and
-  Anki export from Lute are not ported yet.
+Details for contributors, from the module layout to how dictionary packs are built, are in
+[docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
