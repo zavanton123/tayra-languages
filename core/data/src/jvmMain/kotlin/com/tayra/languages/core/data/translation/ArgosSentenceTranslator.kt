@@ -1,7 +1,7 @@
 package com.tayra.languages.core.data.translation
 
 import co.touchlab.kermit.Logger
-import com.tayra.languages.core.data.db.DatabaseDriverFactory
+import com.tayra.languages.core.data.runtime.ManagedPython
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.LocalPackage
@@ -30,11 +30,6 @@ import kotlinx.serialization.json.longOrNull
 import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.File
-import java.net.URI
-import java.net.http.HttpClient
-import java.net.http.HttpRequest
-import java.net.http.HttpResponse
-import java.util.concurrent.TimeUnit
 
 /**
  * Argos Translate on the desktop: a Python worker (`argos_worker.py`, shipped in resources) is
@@ -45,7 +40,10 @@ import java.util.concurrent.TimeUnit
  * into the app folder, installs argostranslate into it and fetches the models for the pair in
  * use, reporting each step through [progress]. A Python of the user's own can be set instead.
  */
-class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalSentenceTranslator {
+class ArgosSentenceTranslator(
+    private val settings: SettingsRepository,
+    private val managed: ManagedPython = ManagedPython(),
+) : LocalSentenceTranslator {
 
     override val displayName: String = "Argos Translate"
     override val description: String = "Argos Translate translates on this computer with no network. The app keeps its own Python and the language models in its data folder."
@@ -140,7 +138,7 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
         } finally {
             _progress.value = null
         }
-        return "Argos Translate is ready in ${managedDir().absolutePath}."
+        return "Argos Translate is ready in ${managed.python.parentFile.parentFile.absolutePath}."
     }
 
     /** One shared setup at a time; callers wait for it and a failure is thrown to each of them. */
@@ -151,26 +149,10 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
 
     private suspend fun installRuntime() {
         if (runCatching { request(STATUS_TIMEOUT_MS, "cmd" to "status") }.isSuccess && importOk()) return
-        val python = managedPython()
-        if (!python.exists()) {
-            val dir = managedDir().apply { deleteRecursively(); mkdirs() }
-            val archive = File(dir, "python.tar.gz")
-            download(pythonUrl(), archive) { done, total ->
-                _progress.value = "Downloading Python (${done / 1_000_000} of ${total / 1_000_000} MB)…"
-            }
-            _progress.value = "Unpacking Python…"
-            runCommand(listOf("tar", "-xzf", archive.absolutePath, "-C", dir.absolutePath), UNPACK_TIMEOUT_MS)
-            archive.delete()
-            if (!python.exists()) error("the Python download did not contain ${python.absolutePath}")
-        }
-        _progress.value = "Installing Argos Translate (about a gigabyte, a few minutes)…"
-        runCommand(listOf(python.absolutePath, "-m", "pip", "install", "--disable-pip-version-check", "--no-input", "argostranslate"), PIP_TIMEOUT_MS) { line ->
-            when {
-                line.startsWith("Collecting ") -> _progress.value = "Installing Argos Translate: fetching ${line.removePrefix("Collecting ").substringBefore(' ')}…"
-                line.startsWith("Installing collected") -> _progress.value = "Installing Argos Translate: unpacking…"
-            }
-        }
-        settings.update { it.copy(argosPython = python.absolutePath) }
+        managed.ensure { _progress.value = it }
+        _progress.value = "Installing Argos Translate (about a gigabyte, a few minutes)\u2026"
+        managed.pip(listOf("argostranslate"), "Installing Argos Translate") { _progress.value = it }
+        settings.update { it.copy(argosPython = managed.python.absolutePath) }
         lock.withLock { stop() }
         if (!importOk()) error("argostranslate did not import after installation")
     }
@@ -228,7 +210,7 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
     }
 
     private fun ensureWorker(): Pair<BufferedWriter, BufferedReader> {
-        val python = settings.current.argosPython.trim().ifEmpty { managedPython().takeIf { it.exists() }?.absolutePath ?: "python3" }
+        val python = settings.current.argosPython.trim().ifEmpty { managed.python.takeIf { it.exists() }?.absolutePath ?: "python3" }
         val current = process
         if (current != null && current.isAlive && startedWith == python) return writer!! to reader!!
         stop()
@@ -263,76 +245,10 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
         return target
     }
 
-    /** Runs a command to completion, failing with its last output lines when it exits with an error or overruns [timeoutMs]. */
-    private fun runCommand(command: List<String>, timeoutMs: Long, onLine: (String) -> Unit = {}) {
-        val process = try {
-            ProcessBuilder(command).redirectErrorStream(true).start()
-        } catch (e: Exception) {
-            error("cannot run '${command.first()}' (${e.message})")
-        }
-        val output = ArrayDeque<String>()
-        val pump = Thread {
-            process.inputStream.bufferedReader().useLines { lines ->
-                lines.forEach { line ->
-                    Logger.d { "argos setup: $line" }
-                    if (line.isNotBlank()) { output.addLast(line); if (output.size > 5) output.removeFirst() }
-                    onLine(line)
-                }
-            }
-        }
-        pump.isDaemon = true; pump.start()
-        if (!process.waitFor(timeoutMs, TimeUnit.MILLISECONDS)) { process.destroyForcibly(); error("'${command.take(2).joinToString(" ")}' took too long") }
-        pump.join(5_000)
-        if (process.exitValue() != 0) error("'${command.take(3).joinToString(" ")}' failed: ${output.joinToString(" ")}")
-    }
-
-    private fun download(url: String, target: File, onProgress: (Long, Long) -> Unit) {
-        val client = HttpClient.newBuilder().followRedirects(HttpClient.Redirect.ALWAYS).build()
-        val response = client.send(HttpRequest.newBuilder(URI.create(url)).GET().build(), HttpResponse.BodyHandlers.ofInputStream())
-        if (response.statusCode() != 200) error("downloading Python failed with HTTP ${response.statusCode()}")
-        val total = response.headers().firstValueAsLong("Content-Length").orElse(-1)
-        var done = 0L
-        response.body().use { input ->
-            target.outputStream().use { out ->
-                val buffer = ByteArray(1 shl 16)
-                while (true) {
-                    val n = input.read(buffer); if (n < 0) break
-                    out.write(buffer, 0, n); done += n
-                    onProgress(done, if (total > 0) total else done)
-                }
-            }
-        }
-    }
-
-    private fun managedDir(): File = File(DatabaseDriverFactory.dataDirectory(), "argos-python")
-
-    /** The interpreter inside the standalone build: `python/bin/python3`, or `python/python.exe` on Windows. */
-    private fun managedPython(): File =
-        if (isWindows()) File(managedDir(), "python/python.exe") else File(managedDir(), "python/bin/python3")
-
-    private fun isWindows() = System.getProperty("os.name").lowercase().contains("win")
-
-    private fun pythonUrl(): String {
-        val os = System.getProperty("os.name").lowercase()
-        val arch = System.getProperty("os.arch").lowercase()
-        val cpu = if (arch == "aarch64" || arch == "arm64") "aarch64" else "x86_64"
-        val triple = when {
-            os.contains("mac") -> "$cpu-apple-darwin"
-            os.contains("win") -> "$cpu-pc-windows-msvc"
-            else -> "$cpu-unknown-linux-gnu"
-        }
-        return "https://github.com/astral-sh/python-build-standalone/releases/download/$PYTHON_BUILD/cpython-$PYTHON_VERSION+$PYTHON_BUILD-$triple-install_only.tar.gz"
-    }
-
     private companion object {
-        // A relocatable CPython from astral-sh/python-build-standalone; 3.12 has wheels for every Argos dependency.
-        const val PYTHON_VERSION = "3.12.14"
-        const val PYTHON_BUILD = "20260924"
         const val STATUS_TIMEOUT_MS = 30_000L
         const val INDEX_TIMEOUT_MS = 120_000L
         const val TRANSLATE_TIMEOUT_MS = 120_000L
         const val INSTALL_TIMEOUT_MS = 15L * 60 * 1000
-        const val UNPACK_TIMEOUT_MS = 5L * 60 * 1000
-        const val PIP_TIMEOUT_MS = 30L * 60 * 1000
     }
 }

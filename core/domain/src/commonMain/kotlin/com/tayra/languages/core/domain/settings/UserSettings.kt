@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.settings
 
+import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.TranslationEngine
 
 /**
@@ -24,6 +25,12 @@ data class UserSettings(
     val sideBySideTranslations: Boolean = false,
     /** A play button before each sentence that reads it aloud. */
     val showSentencePlay: Boolean = true,
+    /** The engine that reads sentences and terms aloud. */
+    val speechEngine: SpeechEngine = SpeechEngine.SYSTEM,
+    /** The chosen voice per engine and language, keyed `ENGINE:code`. */
+    val speechVoices: Map<String, String> = emptyMap(),
+    /** Playback speed for the local engines, 1 being normal. */
+    val speechSpeed: Float = 1f,
     val demoDataLoaded: Boolean = false,
     /** ISO 639-1 code of the user's native language; translations and example sentences are shown in it. */
     val nativeLanguage: String = "en",

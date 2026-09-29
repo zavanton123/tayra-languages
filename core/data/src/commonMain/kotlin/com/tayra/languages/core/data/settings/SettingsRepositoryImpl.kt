@@ -5,6 +5,7 @@ import com.russhwolf.settings.Settings
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.settings.Hotkey
 import com.tayra.languages.core.domain.settings.HotkeyAction
+import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
@@ -60,6 +61,9 @@ class SettingsRepositoryImpl(
             showTranslations = store.getBoolean(Keys.SHOW_TRANSLATIONS, defaults.showTranslations),
             sideBySideTranslations = store.getBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, defaults.sideBySideTranslations),
             showSentencePlay = store.getBoolean(Keys.SHOW_SENTENCE_PLAY, defaults.showSentencePlay),
+            speechEngine = SpeechEngine.entries.firstOrNull { it.name == store.getString(Keys.SPEECH_ENGINE, "") } ?: defaults.speechEngine,
+            speechVoices = store.getString(Keys.SPEECH_VOICES, "").split('\n').mapNotNull { line -> line.split('\t').takeIf { it.size == 2 }?.let { it[0] to it[1] } }.toMap(),
+            speechSpeed = store.getFloat(Keys.SPEECH_SPEED, defaults.speechSpeed),
             demoDataLoaded = store.getBoolean(Keys.DEMO_DATA, defaults.demoDataLoaded),
             nativeLanguage = LanguageCatalog.nativeOption(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
@@ -117,6 +121,9 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.SHOW_TRANSLATIONS, s.showTranslations)
         store.putBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, s.sideBySideTranslations)
         store.putBoolean(Keys.SHOW_SENTENCE_PLAY, s.showSentencePlay)
+        store.putString(Keys.SPEECH_ENGINE, s.speechEngine.name)
+        store.putString(Keys.SPEECH_VOICES, s.speechVoices.entries.joinToString("\n") { "${it.key}\t${it.value}" })
+        store.putFloat(Keys.SPEECH_SPEED, s.speechSpeed)
         store.putBoolean(Keys.DEMO_DATA, s.demoDataLoaded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
@@ -153,6 +160,9 @@ class SettingsRepositoryImpl(
         const val SPLIT_SENTENCES = "reading_split_sentences"
         const val SIDE_BY_SIDE_TRANSLATIONS = "reading_side_by_side_translations"
         const val SHOW_SENTENCE_PLAY = "reading_show_sentence_play"
+        const val SPEECH_ENGINE = "speech_engine"
+        const val SPEECH_VOICES = "speech_voices"
+        const val SPEECH_SPEED = "speech_speed"
         const val SHOW_TRANSLATIONS = "reading_show_translations"
         const val TRANSLATION_ENGINE = "translation_engine"
         const val GOOGLE_TRANSLATE_API_KEY = "google_translate_api_key"

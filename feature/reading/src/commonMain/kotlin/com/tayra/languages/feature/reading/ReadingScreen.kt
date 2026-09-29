@@ -86,7 +86,8 @@ import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
-import com.tayra.languages.core.ui.audio.rememberSpeechSynthesizer
+import com.tayra.languages.core.ui.audio.rememberSpeaker
+import org.koin.compose.koinInject
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
@@ -600,9 +601,9 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
         ErrorMessage(state.error, Modifier.padding(16.dp))
         return
     }
-    val synthesizer = rememberSpeechSynthesizer()
+    val speaker = rememberSpeaker(koinInject(), koinInject())
     val speechLanguage = state.language?.name?.let { LanguageCodes.codeFor(it) }
-    val speakSentence: (String) -> Unit = remember(synthesizer, speechLanguage) { { text -> synthesizer.speak(text, speechLanguage) } }
+    val speakSentence: (String) -> Unit = remember(speaker, speechLanguage) { { text -> speaker.speak(text, speechLanguage) } }
     val callbacks = remember(viewModel) {
         ReadingTextCallbacks(
             onClick = { index, shift -> viewModel.onWordClick(index, shift); focusText() },

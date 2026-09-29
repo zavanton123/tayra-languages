@@ -66,6 +66,10 @@ sealed interface Route {
     @Serializable
     data object OfflineDictionaries : Route
 
+    /** Speech engines and their voices. */
+    @Serializable
+    data object Speech : Route
+
     @Serializable
     data object Stats : Route
 
