@@ -23,6 +23,8 @@ sqldelight = "2.4.0"
 turbine = "1.2.1"
 
 [libraries]
+sherpa-onnx = { module = "k2-fsa:sherpa-onnx", version = "1.13.8" }
+commons-compress = { module = "org.apache.commons:commons-compress", version = "1.27.1" }
 mlkit-translate = { module = "com.google.mlkit:translate", version = "17.0.3" }
 jna = { module = "net.java.dev.jna:jna", version = "5.19.1" }
 jna-platform = { module = "net.java.dev.jna:jna-platform", version = "5.19.1" }

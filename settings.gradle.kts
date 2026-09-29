@@ -30,6 +30,13 @@ dependencyResolutionManagement {
             }
         }
         mavenCentral()
+        // sherpa-onnx publishes its Android library only as a release asset.
+        ivy {
+            url = uri("https://github.com/k2-fsa/sherpa-onnx/releases/download/")
+            patternLayout { artifact("v[revision]/[module]-[revision].[ext]") }
+            metadataSources { artifact() }
+            content { includeGroup("k2-fsa") }
+        }
     }
 }
 

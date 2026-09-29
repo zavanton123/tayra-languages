@@ -107,6 +107,25 @@ Secrets go through `SecureStore`: macOS Keychain (Security framework via JNA), i
 Android Keystore (AES-GCM), Windows DPAPI, the Linux keyring via `secret-tool` (or an owner-only
 file), and sessionStorage in the browser.
 
+## Speech engines
+
+`SpeechEngine` names the engines and `LocalSpeechEngine` is the contract for the ones that
+synthesize audio themselves: packages to download, voices per language, and
+`synthesize()` returning WAV bytes. `Speaker` in core/ui routes a request to the chosen engine
+and plays the result with `WavPlayer`, or hands it to the system `SpeechSynthesizer` when the
+engine has no voice for the language or fails.
+
+- Desktop: `PiperSpeechEngine` and `KokoroSpeechEngine` run in the managed Python
+  (`ManagedPython`, shared with Argos) through `tts_worker.py`, with the pip packages
+  `piper-tts`, `kokoro-onnx` and `soundfile`. Piper voices come from the rhasspy/piper-voices
+  catalog (`PiperCatalog`); Kokoro's model and voices from the kokoro-onnx release files.
+- Android: `SherpaPiperEngine` and `SherpaKokoroEngine` run in sherpa-onnx, whose library is
+  resolved from its GitHub release through an Ivy repository in `settings.gradle.kts`. Models
+  are the `.tar.bz2` archives of the sherpa-onnx `tts-models` release. The list of packaged
+  Piper voices is generated into `SherpaPiperVoices.kt` by `tools/generate_sherpa_voices.py`.
+- iOS and web bind no local engines; sherpa-onnx has an iOS build and kokoro-js exists for the
+  browser, should they be added.
+
 ## Offline dictionary packs
 
 Packs are gzip-compressed SQLite files (tables `meta`, `entries`, `forms`), one per source
