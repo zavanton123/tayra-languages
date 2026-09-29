@@ -119,12 +119,18 @@ engine has no voice for the language or fails.
   (`ManagedPython`, shared with Argos) through `tts_worker.py`, with the pip packages
   `piper-tts`, `kokoro-onnx` and `soundfile`. Piper voices come from the rhasspy/piper-voices
   catalog (`PiperCatalog`); Kokoro's model and voices from the kokoro-onnx release files.
-- Android: `SherpaPiperEngine` and `SherpaKokoroEngine` run in sherpa-onnx, whose library is
-  resolved from its GitHub release through an Ivy repository in `settings.gradle.kts`. Models
-  are the `.tar.bz2` archives of the sherpa-onnx `tts-models` release. The list of packaged
-  Piper voices is generated into `SherpaPiperVoices.kt` by `tools/generate_sherpa_voices.py`.
-- iOS and web bind no local engines; sherpa-onnx has an iOS build and kokoro-js exists for the
-  browser, should they be added.
+- Android and iOS: `SherpaPiperEngine` and `SherpaKokoroEngine` (core/data commonMain) run in
+  sherpa-onnx through a `SherpaRuntime`. Models are the `.tar.bz2` archives of the sherpa-onnx
+  `tts-models` release; the list of packaged Piper voices is generated into
+  `SherpaPiperVoices.kt` by `tools/generate_sherpa_voices.py`.
+  - Android: `AndroidSherpaRuntime` uses sherpa-onnx's Java API, whose library is resolved from
+    its GitHub release through an Ivy repository in `settings.gradle.kts`.
+  - iOS: `IosSherpaRuntime` (shared iosMain) calls the Kotlin interface `OnDeviceSpeechBridge`,
+    implemented in Swift by `SherpaSpeechBridge` over `iosApp/iosApp/SherpaSpeech.swift`, which
+    uses the C API of the prebuilt `SherpaOnnxC.framework` (fetched by `iosApp/SherpaOnnxC.podspec`)
+    and the system bzip2 through the bridging header. `SherpaSpeech.swift` has no dependency on
+    the app, so it can be compiled against sherpa-onnx's macOS library and run on a Mac.
+- Web binds no local engines; kokoro-js exists for the browser, should one be added.
 
 ## Offline dictionary packs
 

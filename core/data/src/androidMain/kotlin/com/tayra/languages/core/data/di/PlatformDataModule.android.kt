@@ -3,6 +3,7 @@ package com.tayra.languages.core.data.di
 import android.content.Context
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.settings.AndroidSecureStore
+import com.tayra.languages.core.data.speech.AndroidSherpaRuntime
 import com.tayra.languages.core.data.speech.SherpaKokoroEngine
 import com.tayra.languages.core.data.speech.SherpaPiperEngine
 import com.tayra.languages.core.domain.service.LocalSpeech
@@ -17,7 +18,8 @@ import org.koin.dsl.module
 
 actual val platformDataModule: Module = module {
     single { LocalTranslation(MlKitSentenceTranslator(get())) }
-    single { LocalSpeech(listOf(SherpaPiperEngine(get<Context>()), SherpaKokoroEngine(get<Context>()))) }
+    single { AndroidSherpaRuntime(get<Context>()) }
+    single { LocalSpeech(listOf(SherpaPiperEngine(get<AndroidSherpaRuntime>()), SherpaKokoroEngine(get<AndroidSherpaRuntime>()))) }
     single { DatabaseDriverFactory(get<Context>()) }
     single { DictionaryPackStorage(get<Context>(), get()) }
     single<Settings> { SharedPreferencesSettings(get<Context>().getSharedPreferences("tayra_settings", Context.MODE_PRIVATE)) }

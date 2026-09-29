@@ -11,6 +11,8 @@
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
+		B1C2D3E4F5A6071829304A5E /* SherpaSpeechBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5A6071829304A5D /* SherpaSpeechBridge.swift */; };
+		B1C2D3E4F5A6071829304A5C /* SherpaSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2D3E4F5A6071829304A5B /* SherpaSpeech.swift */; };
 		A1B2C3D4E5F60718293A4B5D /* MlKitTranslatorBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60718293A4B5C /* MlKitTranslatorBridge.swift */; };
 		F291438C85615BBE9884F994 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7F725C515D4CF45054BE44 /* Pods_iosApp.framework */; };
 /* End PBXBuildFile section */
@@ -22,7 +24,10 @@
 		335BA721B67A2A5E90CADAC1 /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.debug.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4D7F725C515D4CF45054BE44 /* Pods_iosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF7B242A565900829871 /* Tayra Languages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tayra Languages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C2D3E4F5A6071829304A5F /* iosApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1C2D3E4F5A6071829304A5D /* SherpaSpeechBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaSpeechBridge.swift; sourceTree = "<group>"; };
+		B1C2D3E4F5A6071829304A5B /* SherpaSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaSpeech.swift; sourceTree = "<group>"; };
 		A1B2C3D4E5F60718293A4B5C /* MlKitTranslatorBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MlKitTranslatorBridge.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB3632DC29227652001CCB65 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
@@ -81,6 +86,9 @@
 			children = (
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
 				7555FF82242A565900829871 /* ContentView.swift */,
+				B1C2D3E4F5A6071829304A5F /* iosApp-Bridging-Header.h */,
+				B1C2D3E4F5A6071829304A5D /* SherpaSpeechBridge.swift */,
+				B1C2D3E4F5A6071829304A5B /* SherpaSpeech.swift */,
 				A1B2C3D4E5F60718293A4B5C /* MlKitTranslatorBridge.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
@@ -261,6 +269,8 @@
 			files = (
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				B1C2D3E4F5A6071829304A5E /* SherpaSpeechBridge.swift in Sources */,
+				B1C2D3E4F5A6071829304A5C /* SherpaSpeech.swift in Sources */,
 				A1B2C3D4E5F60718293A4B5D /* MlKitTranslatorBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,10 +421,12 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-lsqlite3",
+					"-lbz2",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}${TEAM_ID}";
 				PRODUCT_NAME = "${APP_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosApp/iosApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,10 +455,12 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-lsqlite3",
+					"-lbz2",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}${TEAM_ID}";
 				PRODUCT_NAME = "${APP_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosApp/iosApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
