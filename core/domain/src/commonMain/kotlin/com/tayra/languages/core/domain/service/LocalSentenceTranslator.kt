@@ -12,7 +12,7 @@ enum class TranslationEngine(val label: String) {
     BAIDU("Baidu Translate (online, App ID)"),
     DEEPL("DeepL (online, API key)"),
     QWEN("Qwen-MT (online, API key)"),
-    ARGOS("Argos Translate (offline, desktop)"),
+    ARGOS("On this device (offline)"),
 }
 
 /**
@@ -69,9 +69,11 @@ data class LocalPackage(
     val toName: String,
     val installed: Boolean,
     val sizeBytes: Long = 0,
+    /** A name to show instead of "from → to", for translators whose models are per language. */
+    val label: String? = null,
 ) {
     val key: String get() = "$fromCode-$toCode"
-    val title: String get() = "$fromName \u2192 $toName"
+    val title: String get() = label ?: "$fromName \u2192 $toName"
 }
 
 /** Why the local translator cannot translate right now, so the reader can offer the right way out. */
@@ -84,15 +86,32 @@ sealed interface LocalTranslationProblem {
     }
 
     /** The catalog has no model for the pair, directly or through English. */
-    data class NoModel(val fromName: String, val toName: String) : LocalTranslationProblem {
-        override val message: String get() = "Argos Translate has no $fromName \u2192 $toName model. Turn offline translation off to use MyMemory."
+    data class NoModel(val fromName: String, val toName: String, val engineName: String) : LocalTranslationProblem {
+        override val message: String get() = "$engineName has no $fromName \u2192 $toName model. Turn offline translation off to use MyMemory."
     }
 
     data class Failed(override val message: String) : LocalTranslationProblem
 }
 
-/** A translator running on this device, such as Argos Translate on the desktop. */
+/** A translator running on this device: Argos Translate on the desktop, Google ML Kit on phones. */
 interface LocalSentenceTranslator : SentenceTranslator {
+    /** How the translator is named to the user. */
+    val displayName: String
+
+    /** One or two sentences for Settings on what it is and where its files live. */
+    val description: String
+
+    /** How its downloadable packages relate to languages, for the package list in Settings. */
+    val packagesDescription: String
+
+    /** Whether the translator has a runtime of its own to install and check (Argos does, ML Kit does not). */
+    val hasRuntimeSetup: Boolean
+
+    /** The package keys the pair needs from [catalog]: one direct model, or both halves of a detour through English. */
+    fun requiredPackages(fromCode: String, toCode: String, catalog: List<LocalPackage>): Set<String> =
+        if (catalog.any { it.fromCode == fromCode && it.toCode == toCode }) setOf("$fromCode-$toCode")
+        else setOf("$fromCode-en", "en-$toCode")
+
     /** A readable line about the installation: version and installed language pairs, or what is wrong. */
     suspend fun status(): String
 

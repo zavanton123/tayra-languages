@@ -47,6 +47,11 @@ import java.util.concurrent.TimeUnit
  */
 class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalSentenceTranslator {
 
+    override val displayName: String = "Argos Translate"
+    override val description: String = "Argos Translate translates on this computer with no network. The app keeps its own Python and the language models in its data folder."
+    override val packagesDescription: String = "One package per direction. Reading a language needs its package into the native language; when there is none, Argos goes through English, so install both halves."
+    override val hasRuntimeSetup: Boolean = true
+
     private val json = Json { ignoreUnknownKeys = true }
     private val lock = Mutex()
     private var process: Process? = null
@@ -100,7 +105,7 @@ class ArgosSentenceTranslator(private val settings: SettingsRepository) : LocalS
         val needed = if (direct != null) listOf(direct) else {
             val toEnglish = catalog.firstOrNull { it.fromCode == fromCode && it.toCode == "en" }
             val fromEnglish = catalog.firstOrNull { it.fromCode == "en" && it.toCode == toCode }
-            if (toEnglish == null || fromEnglish == null) return LocalTranslationProblem.NoModel(fromName, toName)
+            if (toEnglish == null || fromEnglish == null) return LocalTranslationProblem.NoModel(fromName, toName, displayName)
             listOf(toEnglish, fromEnglish)
         }
         val missing = needed.filter { !it.installed }

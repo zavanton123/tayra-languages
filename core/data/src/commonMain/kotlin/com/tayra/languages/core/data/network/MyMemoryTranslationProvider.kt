@@ -110,7 +110,7 @@ class TranslationSuggestionProvider(
             TranslationEngine.ARGOS -> {
                 val source = LanguageCodes.codeFor(language.name)
                 if (argos != null && source != null && argos.canTranslate(source, target.ifEmpty { "en" })) {
-                    argos.translate(text, language)?.let { return TermSuggestion(it, "Argos Translate") }
+                    argos.translate(text, language)?.let { return TermSuggestion(it, argos.displayName) }
                 }
             }
             TranslationEngine.GOOGLE -> google.suggest(text, language)?.let { return it }
