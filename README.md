@@ -105,7 +105,9 @@ The same artifacts can be built locally:
   Keychain (Security framework through JNA), the iOS Keychain, an AES key in the Android
   Keystore, Windows DPAPI, the Linux keyring via `secret-tool` (or an owner-only file without
   it), and in the browser only sessionStorage for the current tab; to Microsoft Translator (Azure AI Services, key and region of a Translator or multi-service
-  resource, same Check key); or, on desktop, to Argos Translate, which runs on the computer
+  resource, same Check key); to Alibaba Cloud Translation (a RAM AccessKey ID and Secret,
+  requests signed with the RPC HMAC-SHA1 scheme by `AliyunSigner`, endpoint host configurable);
+  or, on desktop, to Argos Translate, which runs on the computer
   with no network. Without a key or a local Argos the app falls back to MyMemory. Nothing has to be installed by hand:
   the first time offline translation is used the app downloads a standalone CPython build
   (`astral-sh/python-build-standalone`, about 25 MB) into its data folder under `argos-python`,

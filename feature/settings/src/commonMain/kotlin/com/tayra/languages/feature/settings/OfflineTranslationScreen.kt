@@ -43,6 +43,7 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.LocalPackage
 import com.tayra.languages.core.domain.service.LocalSentenceTranslator
+import com.tayra.languages.core.domain.service.AlibabaTranslation
 import com.tayra.languages.core.domain.service.AzureTranslation
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.domain.service.LocalTranslation
@@ -70,6 +71,7 @@ class OfflineTranslationViewModel(
     private val localTranslation: LocalTranslation,
     private val google: GoogleTranslation,
     private val azure: AzureTranslation,
+    private val alibaba: AlibabaTranslation,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
@@ -107,6 +109,20 @@ class OfflineTranslationViewModel(
         viewModelScope.launch {
             _azureStatus.value = try { azure.checkKey() } catch (e: Exception) { "Microsoft Translator: ${e.message}" }
             _azureBusy.value = false
+        }
+    }
+
+    private val _alibabaStatus = MutableStateFlow<String?>(null)
+    val alibabaStatus: StateFlow<String?> = _alibabaStatus.asStateFlow()
+    private val _alibabaBusy = MutableStateFlow(false)
+    val alibabaBusy: StateFlow<Boolean> = _alibabaBusy.asStateFlow()
+
+    fun checkAlibabaKey() {
+        if (_alibabaBusy.value) return
+        _alibabaBusy.value = true
+        viewModelScope.launch {
+            _alibabaStatus.value = try { alibaba.checkKey() } catch (e: Exception) { "Alibaba Cloud Translation: ${e.message}" }
+            _alibabaBusy.value = false
         }
     }
 
@@ -230,7 +246,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(
-                "Sentence translations in the reader and term suggestions come from this engine; its own settings follow below. Google and Microsoft need an API key and Argos its models; without them MyMemory answers instead.",
+                "Sentence translations in the reader and term suggestions come from this engine; its own settings follow below. Google, Microsoft and Alibaba need their keys and Argos its models; without them MyMemory answers instead.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -298,6 +314,43 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 Text(if (azureBusy) "Checking..." else "Check key")
             }
             azureStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+            }
+
+            if (settings.translationEngine == TranslationEngine.ALIBABA) {
+            var showSecret by remember { mutableStateOf(false) }
+            Section("Alibaba Cloud Translation")
+            val alibabaBusy by viewModel.alibabaBusy.collectAsStateWithLifecycle()
+            val alibabaStatus by viewModel.alibabaStatus.collectAsStateWithLifecycle()
+            OutlinedTextField(
+                value = settings.alibabaAccessKeyId,
+                onValueChange = { v -> viewModel.update { it.copy(alibabaAccessKeyId = v.trim()) } },
+                label = { Text("AccessKey ID") },
+                supportingText = { Text("A RAM user's AccessKey with the Machine Translation permission (AliyunMTFullAccess or read access). Both parts are ${viewModel.secretStorage}.") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedTextField(
+                value = settings.alibabaAccessKeySecret,
+                onValueChange = { v -> viewModel.update { it.copy(alibabaAccessKeySecret = v.trim()) } },
+                label = { Text("AccessKey Secret") },
+                singleLine = true,
+                visualTransformation = if (showSecret) VisualTransformation.None else PasswordVisualTransformation(),
+                trailingIcon = { TextButton(onClick = { showSecret = !showSecret }) { Text(if (showSecret) "Hide" else "Show") } },
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedTextField(
+                value = settings.alibabaEndpoint,
+                onValueChange = { v -> viewModel.update { it.copy(alibabaEndpoint = v.trim()) } },
+                label = { Text("Endpoint") },
+                placeholder = { Text("mt.aliyuncs.com") },
+                supportingText = { Text("mt.aliyuncs.com works for most accounts; a regional host such as mt.cn-hangzhou.aliyuncs.com or mt.ap-southeast-1.aliyuncs.com can be used instead.") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedButton(onClick = viewModel::checkAlibabaKey, enabled = !alibabaBusy && settings.alibabaAccessKeyId.isNotBlank() && settings.alibabaAccessKeySecret.isNotBlank()) {
+                Text(if (alibabaBusy) "Checking..." else "Check AccessKey")
+            }
+            alibabaStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
             }
 
             if (viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS) {

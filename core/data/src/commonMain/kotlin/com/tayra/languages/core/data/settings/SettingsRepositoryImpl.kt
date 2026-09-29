@@ -68,6 +68,9 @@ class SettingsRepositoryImpl(
             googleTranslateApiKey = loadSecret(Keys.GOOGLE_TRANSLATE_API_KEY),
             azureTranslatorApiKey = loadSecret(Keys.AZURE_TRANSLATOR_API_KEY),
             azureTranslatorRegion = store.getString(Keys.AZURE_TRANSLATOR_REGION, defaults.azureTranslatorRegion),
+            alibabaAccessKeyId = loadSecret(Keys.ALIBABA_ACCESS_KEY_ID),
+            alibabaAccessKeySecret = loadSecret(Keys.ALIBABA_ACCESS_KEY_SECRET),
+            alibabaEndpoint = store.getString(Keys.ALIBABA_ENDPOINT, defaults.alibabaEndpoint),
             argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
             hotkeys = HotkeyAction.entries.associateWith { action ->
                 val stored = store.getStringOrNull(action.settingKey)
@@ -113,6 +116,9 @@ class SettingsRepositoryImpl(
         storeSecret(Keys.GOOGLE_TRANSLATE_API_KEY, s.googleTranslateApiKey)
         storeSecret(Keys.AZURE_TRANSLATOR_API_KEY, s.azureTranslatorApiKey)
         store.putString(Keys.AZURE_TRANSLATOR_REGION, s.azureTranslatorRegion)
+        storeSecret(Keys.ALIBABA_ACCESS_KEY_ID, s.alibabaAccessKeyId)
+        storeSecret(Keys.ALIBABA_ACCESS_KEY_SECRET, s.alibabaAccessKeySecret)
+        store.putString(Keys.ALIBABA_ENDPOINT, s.alibabaEndpoint)
         store.putString(Keys.ARGOS_PYTHON, s.argosPython)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
@@ -137,6 +143,9 @@ class SettingsRepositoryImpl(
         const val GOOGLE_TRANSLATE_API_KEY = "google_translate_api_key"
         const val AZURE_TRANSLATOR_API_KEY = "azure_translator_api_key"
         const val AZURE_TRANSLATOR_REGION = "azure_translator_region"
+        const val ALIBABA_ACCESS_KEY_ID = "alibaba_access_key_id"
+        const val ALIBABA_ACCESS_KEY_SECRET = "alibaba_access_key_secret"
+        const val ALIBABA_ENDPOINT = "alibaba_endpoint"
         const val ARGOS_PYTHON = "argos_python"
         const val DEMO_DATA = "is_demo_data"
         const val NATIVE_LANGUAGE = "native_language"

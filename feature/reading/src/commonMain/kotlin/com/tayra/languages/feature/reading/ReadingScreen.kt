@@ -333,6 +333,7 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
             keyed = setOfNotNull(
                 TranslationEngine.GOOGLE.takeIf { prefs.googleTranslateApiKey.isNotBlank() },
                 TranslationEngine.AZURE.takeIf { prefs.azureTranslatorApiKey.isNotBlank() },
+                TranslationEngine.ALIBABA.takeIf { prefs.alibabaAccessKeyId.isNotBlank() && prefs.alibabaAccessKeySecret.isNotBlank() },
             ),
             onSelect = viewModel::setTranslationEngine,
         )
@@ -441,7 +442,7 @@ private fun EngineRow(selected: TranslationEngine, options: List<TranslationEngi
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             options.forEach { engine ->
-                val enabled = engine !in setOf(TranslationEngine.GOOGLE, TranslationEngine.AZURE) || engine in keyed
+                val enabled = engine !in setOf(TranslationEngine.GOOGLE, TranslationEngine.AZURE, TranslationEngine.ALIBABA) || engine in keyed
                 AppMenuItem(
                     text = { Text(if (enabled) engine.label else "${engine.label} \u2013 add a key in Settings") },
                     onClick = { open = false; onSelect(engine) },
@@ -740,6 +741,7 @@ private fun translationSource(state: ReadingUiState): String? {
             TranslationEngine.MYMEMORY -> "MyMemory (online)"
             TranslationEngine.GOOGLE -> "Google Translate (online)"
             TranslationEngine.AZURE -> "Microsoft Translator (online)"
+            TranslationEngine.ALIBABA -> "Alibaba Cloud Translation (online)"
             TranslationEngine.ARGOS -> "Argos Translate (offline)"
         }
     }

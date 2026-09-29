@@ -35,6 +35,11 @@ data class UserSettings(
     val azureTranslatorApiKey: String = "",
     /** The Azure resource's region, such as westeurope; required for regional and multi-service resources. */
     val azureTranslatorRegion: String = "",
+    /** Alibaba Cloud RAM AccessKey pair, used only when [translationEngine] is [TranslationEngine.ALIBABA]. */
+    val alibabaAccessKeyId: String = "",
+    val alibabaAccessKeySecret: String = "",
+    /** Machine Translation endpoint host; mt.aliyuncs.com serves both Chinese and international accounts. */
+    val alibabaEndpoint: String = "mt.aliyuncs.com",
     /** Python executable that has Argos Translate installed; empty means `python3` from the PATH. */
     val argosPython: String = "",
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
