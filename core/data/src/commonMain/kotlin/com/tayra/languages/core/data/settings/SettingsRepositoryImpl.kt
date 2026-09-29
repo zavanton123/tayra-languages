@@ -71,6 +71,8 @@ class SettingsRepositoryImpl(
             alibabaAccessKeyId = loadSecret(Keys.ALIBABA_ACCESS_KEY_ID),
             alibabaAccessKeySecret = loadSecret(Keys.ALIBABA_ACCESS_KEY_SECRET),
             alibabaEndpoint = store.getString(Keys.ALIBABA_ENDPOINT, defaults.alibabaEndpoint),
+            baiduAppId = loadSecret(Keys.BAIDU_APP_ID),
+            baiduSecretKey = loadSecret(Keys.BAIDU_SECRET_KEY),
             argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
             hotkeys = HotkeyAction.entries.associateWith { action ->
                 val stored = store.getStringOrNull(action.settingKey)
@@ -119,6 +121,8 @@ class SettingsRepositoryImpl(
         storeSecret(Keys.ALIBABA_ACCESS_KEY_ID, s.alibabaAccessKeyId)
         storeSecret(Keys.ALIBABA_ACCESS_KEY_SECRET, s.alibabaAccessKeySecret)
         store.putString(Keys.ALIBABA_ENDPOINT, s.alibabaEndpoint)
+        storeSecret(Keys.BAIDU_APP_ID, s.baiduAppId)
+        storeSecret(Keys.BAIDU_SECRET_KEY, s.baiduSecretKey)
         store.putString(Keys.ARGOS_PYTHON, s.argosPython)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
@@ -146,6 +150,8 @@ class SettingsRepositoryImpl(
         const val ALIBABA_ACCESS_KEY_ID = "alibaba_access_key_id"
         const val ALIBABA_ACCESS_KEY_SECRET = "alibaba_access_key_secret"
         const val ALIBABA_ENDPOINT = "alibaba_endpoint"
+        const val BAIDU_APP_ID = "baidu_app_id"
+        const val BAIDU_SECRET_KEY = "baidu_secret_key"
         const val ARGOS_PYTHON = "argos_python"
         const val DEMO_DATA = "is_demo_data"
         const val NATIVE_LANGUAGE = "native_language"
