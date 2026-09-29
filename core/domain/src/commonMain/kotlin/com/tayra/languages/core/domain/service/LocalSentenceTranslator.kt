@@ -8,6 +8,7 @@ enum class TranslationEngine(val label: String) {
     MYMEMORY("MyMemory (online, free)"),
     GOOGLE("Google Translate (online, API key)"),
     AZURE("Microsoft Translator (online, API key)"),
+    ALIBABA("Alibaba Cloud Translation (online, AccessKey)"),
     ARGOS("Argos Translate (offline, desktop)"),
 }
 
@@ -19,6 +20,7 @@ fun UserSettings.effectiveEngine(hasLocalTranslator: Boolean): TranslationEngine
     translationEngine == TranslationEngine.ARGOS && !hasLocalTranslator -> TranslationEngine.MYMEMORY
     translationEngine == TranslationEngine.GOOGLE && googleTranslateApiKey.isBlank() -> TranslationEngine.MYMEMORY
     translationEngine == TranslationEngine.AZURE && azureTranslatorApiKey.isBlank() -> TranslationEngine.MYMEMORY
+    translationEngine == TranslationEngine.ALIBABA && (alibabaAccessKeyId.isBlank() || alibabaAccessKeySecret.isBlank()) -> TranslationEngine.MYMEMORY
     else -> translationEngine
 }
 
@@ -30,6 +32,11 @@ interface GoogleTranslation {
 
 /** The Microsoft (Azure AI) Translator client's self-check, for the Settings screen. */
 interface AzureTranslation {
+    suspend fun checkKey(): String
+}
+
+/** The Alibaba Cloud Machine Translation client's self-check, for the Settings screen. */
+interface AlibabaTranslation {
     suspend fun checkKey(): String
 }
 

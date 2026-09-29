@@ -98,6 +98,7 @@ class RoutingSentenceTranslator(
     private val myMemory: SentenceTranslator,
     private val google: SentenceTranslator,
     private val azure: SentenceTranslator,
+    private val alibaba: SentenceTranslator,
     private val local: SentenceTranslator?,
     /** The effective engine, see [effectiveEngine]. */
     private val engine: () -> TranslationEngine,
@@ -106,6 +107,7 @@ class RoutingSentenceTranslator(
         TranslationEngine.ARGOS -> (local ?: myMemory).translate(text, language)
         TranslationEngine.GOOGLE -> google.translate(text, language)
         TranslationEngine.AZURE -> azure.translate(text, language)
+        TranslationEngine.ALIBABA -> alibaba.translate(text, language)
         TranslationEngine.MYMEMORY -> myMemory.translate(text, language)
     }
 }

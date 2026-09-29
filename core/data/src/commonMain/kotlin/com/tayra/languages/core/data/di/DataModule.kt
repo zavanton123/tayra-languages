@@ -4,8 +4,10 @@ import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.network.MyMemoryTranslationProvider
 import com.tayra.languages.core.domain.service.effectiveEngine
+import com.tayra.languages.core.domain.service.AlibabaTranslation
 import com.tayra.languages.core.domain.service.AzureTranslation
 import com.tayra.languages.core.domain.service.GoogleTranslation
+import com.tayra.languages.core.data.network.AlibabaTranslationProvider
 import com.tayra.languages.core.data.network.AzureTranslationProvider
 import com.tayra.languages.core.data.network.GoogleTranslationProvider
 import com.tayra.languages.core.data.network.TatoebaExamplesProvider
@@ -83,12 +85,14 @@ val dataModule: Module = module {
     single<GoogleTranslation> { get<GoogleTranslationProvider>() }
     single { AzureTranslationProvider(get(), get()) }
     single<AzureTranslation> { get<AzureTranslationProvider>() }
+    single { AlibabaTranslationProvider(get(), get()) }
+    single<AlibabaTranslation> { get<AlibabaTranslationProvider>() }
     single<SentenceTranslationCache> { SentenceTranslationCacheImpl(get()) }
     single<SentenceTranslator> {
         val settings = get<SettingsRepository>()
         val local = get<LocalTranslation>().translator
         val engine = { settings.current.effectiveEngine(local != null) }
-        val routed = RoutingSentenceTranslator(get<MyMemoryTranslationProvider>(), get<GoogleTranslationProvider>(), get<AzureTranslationProvider>(), local, engine)
+        val routed = RoutingSentenceTranslator(get<MyMemoryTranslationProvider>(), get<GoogleTranslationProvider>(), get<AzureTranslationProvider>(), get<AlibabaTranslationProvider>(), local, engine)
         // Stored translations carry the engine in their key so switching engines never mixes results.
         CachedSentenceTranslator(routed, get(), targetLanguage = {
             val native = settings.current.nativeLanguage
@@ -96,12 +100,13 @@ val dataModule: Module = module {
                 TranslationEngine.ARGOS -> "argos:$native"
                 TranslationEngine.GOOGLE -> "google:$native"
                 TranslationEngine.AZURE -> "azure:$native"
+                TranslationEngine.ALIBABA -> "alibaba:$native"
                 TranslationEngine.MYMEMORY -> native
             }
         })
     }
     single<TermTranslationProvider> {
-        TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), get<MyMemoryTranslationProvider>(), get<GoogleTranslationProvider>(), get<AzureTranslationProvider>(), get(), get())
+        TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), get<MyMemoryTranslationProvider>(), get<GoogleTranslationProvider>(), get<AzureTranslationProvider>(), get<AlibabaTranslationProvider>(), get(), get())
     }
 
     single { TermService(get(), get()) }
