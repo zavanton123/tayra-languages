@@ -530,6 +530,7 @@ class ReadingViewModel(
     fun toggleTapSetsStatus() = updateSettings { it.copy(tapSetsStatus = !it.tapSetsStatus) }
     fun toggleSplitSentences() = updateSettings { it.copy(splitSentences = !it.splitSentences) }
     fun toggleSideBySideTranslations() = updateSettings { it.copy(sideBySideTranslations = !it.sideBySideTranslations) }
+    fun toggleSentencePlay() = updateSettings { it.copy(showSentencePlay = !it.showSentencePlay) }
     fun toggleShowTranslations() {
         val enabling = !state.value.settings.showTranslations
         viewModelScope.launch {

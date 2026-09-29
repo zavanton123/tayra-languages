@@ -86,6 +86,8 @@ import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
+import com.tayra.languages.core.ui.audio.rememberSpeechSynthesizer
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
@@ -327,6 +329,7 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         SwitchRow(AppIcons.LineSpacing, "One sentence per line", prefs.splitSentences) { viewModel.toggleSplitSentences() }
         SwitchRow(AppIcons.Translate, "Show translations", prefs.showTranslations) { viewModel.toggleShowTranslations() }
         SwitchRow(AppIcons.ViewColumn, "Translations side by side", prefs.sideBySideTranslations) { viewModel.toggleSideBySideTranslations() }
+        SwitchRow(AppIcons.PlayArrow, "Play button before sentences", prefs.showSentencePlay) { viewModel.toggleSentencePlay() }
         EngineRow(
             selected = prefs.translationEngine,
             options = viewModel.availableEngines,
@@ -597,6 +600,9 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
         ErrorMessage(state.error, Modifier.padding(16.dp))
         return
     }
+    val synthesizer = rememberSpeechSynthesizer()
+    val speechLanguage = state.language?.name?.let { LanguageCodes.codeFor(it) }
+    val speakSentence: (String) -> Unit = remember(synthesizer, speechLanguage) { { text -> synthesizer.speak(text, speechLanguage) } }
     val callbacks = remember(viewModel) {
         ReadingTextCallbacks(
             onClick = { index, shift -> viewModel.onWordClick(index, shift); focusText() },
@@ -659,6 +665,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 splitSentences = state.settings.splitSentences,
                 translations = if (state.settings.showTranslations) state.translations else null,
                 sideBySide = state.settings.sideBySideTranslations,
+                onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,
                 callbacks = callbacks,
             )
             if (state.selecting) {

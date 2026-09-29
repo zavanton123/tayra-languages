@@ -4,6 +4,17 @@ import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.drag
 import androidx.compose.foundation.gestures.waitForUpOrCancellation
 import androidx.compose.foundation.layout.Box
+import com.tayra.languages.core.ui.components.AppIcons
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Icon
+import androidx.compose.foundation.clickable
+import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.unit.em
+import androidx.compose.ui.text.PlaceholderVerticalAlign
+import androidx.compose.ui.text.Placeholder
+import androidx.compose.foundation.text.appendInlineContent
+import androidx.compose.foundation.text.InlineTextContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -92,6 +103,8 @@ fun ReadingText(
     translations: Map<String, SentenceTranslation>? = null,
     /** With translations, put each sentence in a left column and its translation in a right one. */
     sideBySide: Boolean = false,
+    /** Reads a sentence aloud; a play button precedes every sentence when set. */
+    onSpeakSentence: ((String) -> Unit)? = null,
 ) {
     var itemOffset = 0
     val perSentence = splitSentences || translations != null
@@ -100,12 +113,26 @@ fun ReadingText(
         page.paragraphs.forEach { paragraph ->
             // A run of items that shares one Text: the whole paragraph, or one sentence each.
             val runs = if (perSentence) paragraph.sentences.map { it.items to it.displayText } else listOf(paragraph.sentences.flatMap { it.items } to "")
+            // In a flowing paragraph the play buttons sit inline, before the first item of each sentence.
+            val inlinePlay: Map<Int, String> = if (perSentence || onSpeakSentence == null) emptyMap() else buildMap {
+                var position = 0
+                paragraph.sentences.forEach { sentence ->
+                    if (sentence.displayText.any { it.isLetter() }) {
+                        val lead = sentence.items.indexOfFirst { !it.isParagraphMark && it.renderText.isNotBlank() }
+                        if (lead >= 0) put(position + lead, sentence.displayText)
+                    }
+                    position += sentence.items.size
+                }
+            }
             runs.forEach { (runItems, sentenceText) ->
                 val first = itemOffset
                 itemOffset += runItems.size
+                val speakable = perSentence && onSpeakSentence != null && sentenceText.any { it.isLetter() }
                 val sentence: @Composable () -> Unit = {
                     ParagraphText(
                         items = runItems,
+                        inlinePlay = inlinePlay,
+                        onSpeakSentence = onSpeakSentence,
                         firstItemIndex = first,
                         theme = theme,
                         showHighlights = showHighlights,
@@ -122,10 +149,19 @@ fun ReadingText(
                 val translated = translations != null && sentenceText.any { it.isLetter() }
                 if (twoColumns) {
                     Row(Modifier.fillMaxWidth().padding(bottom = 6.dp), verticalAlignment = Alignment.Top) {
+                        if (onSpeakSentence != null) PlayButton(sentenceText.takeIf { speakable }, fontScale, lineHeight, onSpeakSentence)
                         Box(Modifier.weight(1f)) { sentence() }
                         Box(Modifier.width(24.dp))
                         Box(Modifier.weight(1f)) {
                             if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true)
+                        }
+                    }
+                } else if (perSentence && onSpeakSentence != null) {
+                    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
+                        PlayButton(sentenceText.takeIf { speakable }, fontScale, lineHeight, onSpeakSentence)
+                        Column(Modifier.weight(1f)) {
+                            sentence()
+                            if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
                         }
                     }
                 } else {
@@ -133,6 +169,24 @@ fun ReadingText(
                     if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
                 }
             }
+        }
+    }
+}
+
+/** The button before a sentence; an empty slot of the same width keeps sentences without words aligned. */
+@Composable
+private fun PlayButton(text: String?, fontScale: Float, lineHeight: Float, onSpeak: (String) -> Unit) {
+    val size = (22 * fontScale).dp
+    // Centred on the first line of the sentence, whatever the font size and line height.
+    val top = 6.dp + ((18 * fontScale * lineHeight) - 22 * fontScale).coerceAtLeast(0f).dp / 2
+    Box(Modifier.padding(top = top, end = 8.dp).size(size), contentAlignment = Alignment.Center) {
+        if (text != null) {
+            Icon(
+                AppIcons.PlayArrow,
+                contentDescription = "Play sentence",
+                tint = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.fillMaxSize().clip(CircleShape).clickable { onSpeak(text) },
+            )
         }
     }
 }
@@ -176,11 +230,27 @@ private fun ParagraphText(
     lineHeight: Float,
     rightToLeft: Boolean,
     callbacks: ReadingTextCallbacks,
+    /** Local item positions that start a sentence, with the sentence to read, for inline play buttons. */
+    inlinePlay: Map<Int, String> = emptyMap(),
+    onSpeakSentence: ((String) -> Unit)? = null,
 ) {
     val spans = remember(items) { mutableListOf<Span>() }
-    val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex) {
+    val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex, inlinePlay.keys) {
         spans.clear()
-        buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans)
+        buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans, inlinePlay.keys)
+    }
+    val primary = MaterialTheme.colorScheme.primary
+    val inlineContent = remember(inlinePlay, onSpeakSentence, primary) {
+        if (onSpeakSentence == null) emptyMap() else inlinePlay.entries.associate { (position, sentence) ->
+            "play-$position" to InlineTextContent(Placeholder(1.25.em, 1.em, PlaceholderVerticalAlign.TextCenter)) {
+                Icon(
+                    AppIcons.PlayArrow,
+                    contentDescription = "Play sentence",
+                    tint = primary,
+                    modifier = Modifier.fillMaxSize().clip(CircleShape).clickable { onSpeakSentence(sentence) },
+                )
+            }
+        }
     }
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
 
@@ -205,6 +275,7 @@ private fun ParagraphText(
                 fontFamily = FontFamily.Serif,
             ),
             onTextLayout = { layout = it },
+            inlineContent = inlineContent,
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = 6.dp)
@@ -228,6 +299,8 @@ private fun ParagraphText(
                         var press = awaitPointerEvent()
                         while (press.type != PointerEventType.Press) press = awaitPointerEvent()
                         val down = press.changes.first()
+                        // A press an inline play button already took is not a press on the text.
+                        if (down.isConsumed) return@awaitEachGesture
                         val startItem = itemAt(down.position)
                         val isMouse = down.type == PointerType.Mouse
                         if (isMouse) {
@@ -294,10 +367,12 @@ private fun buildParagraph(
     hovered: Int?,
     selection: IntRange?,
     spans: MutableList<Span>,
+    playBefore: Set<Int> = emptySet(),
 ): AnnotatedString = buildAnnotatedString {
     val colors = theme.statusColors
     items.forEachIndexed { i, item ->
         val itemIndex = firstItemIndex + i
+        if (i in playBefore) appendInlineContent("play-$i", "\u25B6")
         val start = length
         val inSelection = selection != null && item.index in selection
         val isMarked = itemIndex in marked
