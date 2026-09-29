@@ -44,6 +44,8 @@ kotlin {
             implementation(libs.sqldelight.android.driver)
             implementation(libs.ktor.client.okhttp)
             implementation(libs.mlkit.translate)
+            implementation("k2-fsa:sherpa-onnx:1.13.8@aar")
+            implementation(libs.commons.compress)
         }
         jvmMain.dependencies {
             implementation(libs.sqldelight.sqlite.driver)

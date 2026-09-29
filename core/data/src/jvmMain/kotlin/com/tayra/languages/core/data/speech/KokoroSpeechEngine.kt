@@ -29,10 +29,10 @@ class KokoroSpeechEngine(
 
     override suspend fun installPackage(id: String) = withContext(Dispatchers.IO) {
         try {
-            python.download("$BASE/voices-v1.0.bin", File(dir, VOICES_FILE)) { done, total ->
+            FileDownloads.download("$BASE/voices-v1.0.bin", File(dir, VOICES_FILE)) { done, total ->
                 progressState.value = "Downloading the Kokoro voices (${megabytes(done)} of ${megabytes(total)})\u2026"
             }
-            python.download("$BASE/kokoro-v1.0.int8.onnx", File(dir, MODEL_FILE)) { done, total ->
+            FileDownloads.download("$BASE/kokoro-v1.0.int8.onnx", File(dir, MODEL_FILE)) { done, total ->
                 progressState.value = "Downloading the Kokoro model (${megabytes(done)} of ${megabytes(total)})\u2026"
             }
         } finally {

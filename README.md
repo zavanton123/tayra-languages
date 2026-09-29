@@ -18,8 +18,8 @@ everything you learn stays on your own device.
 - **Sentence translations under the text.** Turn on *Show translations* and each sentence
   gets its translation in a lighter line beneath it, or side by side in two columns.
   *One sentence per line* lays the text out for easy comparison.
-- **Listen to any sentence.** A play button before each sentence reads it aloud with the
-  device's voice for that language.
+- **Listen to any sentence.** A play button before each sentence reads it aloud, with the
+  voice you choose on the Speech screen.
 - **A reader that adapts to you.** Focus mode, adjustable font size, line height and text
   width, several colour themes, keyboard shortcuts on desktop, and bookmarks to pick up
   where you left off.
@@ -59,6 +59,21 @@ on Android, the Data Protection API on Windows. Each engine has a *Check key* bu
 with one small model per language that you download once. On desktop it uses Argos
 Translate, which the app installs into its own folder on first use, models included. When a
 model is missing, the reader says which one and offers to install it right there.
+
+## Speech
+
+The play buttons and the speaker icons on terms use the engine picked on the Speech screen:
+
+| Engine | What it is |
+| --- | --- |
+| System voices | the voices of the operating system; nothing to download here |
+| Piper | neural voices that run offline, with downloads for most of the languages the app teaches |
+| Kokoro | a high-quality offline voice for English, Spanish, French, Italian and Portuguese |
+
+Piper and Kokoro run on desktop and Android. Voices are downloaded from the Speech screen, one
+per language for Piper and a single model for Kokoro, and the screen lets you pick a voice per
+language, set the speed and try a sentence. A language without a downloaded voice falls back
+to the system voice. iOS and the web use the system voices.
 
 ## Offline dictionaries
 

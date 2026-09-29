@@ -84,6 +84,10 @@ class SpeechViewModel(
     val status: StateFlow<String?> = _status.asStateFlow()
     private val _ready = MutableStateFlow(true)
     val ready: StateFlow<Boolean> = _ready.asStateFlow()
+    private val _failed = MutableStateFlow(false)
+
+    /** True when the status line reports something that went wrong. */
+    val failed: StateFlow<Boolean> = _failed.asStateFlow()
     private val _busy = MutableStateFlow(false)
     val busy: StateFlow<Boolean> = _busy.asStateFlow()
     private val _packages = MutableStateFlow<List<SpeechPackage>>(emptyList())
@@ -147,8 +151,10 @@ class SpeechViewModel(
                 block(engine)
                 refresh(engine)
                 _status.value = engine.status()
+                _failed.value = false
             } catch (e: Exception) {
                 _status.value = "${pkg.title}: ${e.message}"
+                _failed.value = true
             }
             _packageBusy.update { it - pkg.id }
         }
@@ -158,7 +164,7 @@ class SpeechViewModel(
         if (_busy.value) return
         _busy.value = true
         viewModelScope.launch {
-            _status.value = try { block() } catch (e: Exception) { e.message ?: "unknown error" }
+            _status.value = try { block().also { _failed.value = false } } catch (e: Exception) { _failed.value = true; e.message ?: "unknown error" }
             _busy.value = false
         }
     }
@@ -169,6 +175,7 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
     val settings by viewModel.state.collectAsStateWithLifecycle()
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
+    val failed by viewModel.failed.collectAsStateWithLifecycle()
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
     val packages by viewModel.packages.collectAsStateWithLifecycle()
@@ -220,7 +227,7 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
                 status?.let { text ->
                     Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         if (busy) CircularProgressIndicator(modifier = Modifier.size(18.dp), strokeWidth = 2.dp)
-                        else if (ready) Icon(Icons.Default.CheckCircle, contentDescription = "Working", tint = Color(0xFF2E7D32), modifier = Modifier.size(18.dp))
+                        else if (ready && !failed) Icon(Icons.Default.CheckCircle, contentDescription = "Working", tint = Color(0xFF2E7D32), modifier = Modifier.size(18.dp))
                         else Icon(Icons.Default.Warning, contentDescription = "Not working", tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(18.dp))
                         Text(text, style = MaterialTheme.typography.bodySmall)
                     }
@@ -274,18 +281,21 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
                 }
             }
 
-            TryIt(viewModel, inUse)
+            TryIt(viewModel, inUse, voices.filterValues { it.isNotEmpty() }.keys)
         }
     }
 }
 
 /** A sentence and a language to hear the chosen engine with. */
 @Composable
-private fun TryIt(viewModel: SpeechViewModel, languages: List<LanguageOption>) {
+private fun TryIt(viewModel: SpeechViewModel, languages: List<LanguageOption>, voiced: Set<String>) {
     if (languages.isEmpty()) return
     val speaker = rememberSpeaker(viewModel.localSpeech, viewModel.settingsRepository)
     val working by speaker.working.collectAsStateWithLifecycle()
-    var language by remember(languages) { mutableStateOf(languages.first()) }
+    // Starts on a language the chosen engine can speak, so Play demonstrates that engine.
+    var language by remember(languages, voiced) {
+        mutableStateOf(languages.firstOrNull { it.code in voiced } ?: languages.firstOrNull { it.code in SAMPLES } ?: languages.first())
+    }
     var text by remember(language) { mutableStateOf(SAMPLES[language.code].orEmpty()) }
     Section("Try it")
     Dropdown(options = languages, selected = language, onSelect = { language = it }, label = "Language", optionLabel = { it.name }, modifier = Modifier.fillMaxWidth())
