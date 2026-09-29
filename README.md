@@ -18,6 +18,8 @@ everything you learn stays on your own device.
 - **Sentence translations under the text.** Turn on *Show translations* and each sentence
   gets its translation in a lighter line beneath it, or side by side in two columns.
   *One sentence per line* lays the text out for easy comparison.
+- **Listen to any sentence.** A play button before each sentence reads it aloud with the
+  device's voice for that language.
 - **A reader that adapts to you.** Focus mode, adjustable font size, line height and text
   width, several colour themes, keyboard shortcuts on desktop, and bookmarks to pick up
   where you left off.

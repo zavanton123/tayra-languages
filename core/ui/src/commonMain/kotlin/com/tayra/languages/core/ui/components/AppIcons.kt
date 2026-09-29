@@ -130,6 +130,8 @@ object AppIcons {
 
     val Download: ImageVector by lazy { icon("Download", "M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z") }
 
+    val PlayArrow: ImageVector by lazy { icon("PlayArrow", "M8 5v14l11-7z") }
+
     val ViewColumn: ImageVector by lazy { icon("ViewColumn", "M14.67 5v14H9.33V5h5.34zm1 14H21V5h-5.33v14zm-7.34 0V5H3v14h5.33z") }
 
     val Tune: ImageVector by lazy {
