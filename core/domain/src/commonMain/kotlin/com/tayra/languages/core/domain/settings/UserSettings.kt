@@ -40,6 +40,9 @@ data class UserSettings(
     val alibabaAccessKeySecret: String = "",
     /** Machine Translation endpoint host; mt.aliyuncs.com serves both Chinese and international accounts. */
     val alibabaEndpoint: String = "mt.aliyuncs.com",
+    /** Baidu Translate open platform App ID and secret key, used only when [translationEngine] is [TranslationEngine.BAIDU]. */
+    val baiduAppId: String = "",
+    val baiduSecretKey: String = "",
     /** Python executable that has Argos Translate installed; empty means `python3` from the PATH. */
     val argosPython: String = "",
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,

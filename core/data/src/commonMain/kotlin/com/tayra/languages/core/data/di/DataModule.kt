@@ -6,9 +6,11 @@ import com.tayra.languages.core.data.network.MyMemoryTranslationProvider
 import com.tayra.languages.core.domain.service.effectiveEngine
 import com.tayra.languages.core.domain.service.AlibabaTranslation
 import com.tayra.languages.core.domain.service.AzureTranslation
+import com.tayra.languages.core.domain.service.BaiduTranslation
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.data.network.AlibabaTranslationProvider
 import com.tayra.languages.core.data.network.AzureTranslationProvider
+import com.tayra.languages.core.data.network.BaiduTranslationProvider
 import com.tayra.languages.core.data.network.GoogleTranslationProvider
 import com.tayra.languages.core.data.network.TatoebaExamplesProvider
 import com.tayra.languages.core.data.network.TranslationSuggestionProvider
@@ -87,12 +89,14 @@ val dataModule: Module = module {
     single<AzureTranslation> { get<AzureTranslationProvider>() }
     single { AlibabaTranslationProvider(get(), get()) }
     single<AlibabaTranslation> { get<AlibabaTranslationProvider>() }
+    single { BaiduTranslationProvider(get(), get()) }
+    single<BaiduTranslation> { get<BaiduTranslationProvider>() }
     single<SentenceTranslationCache> { SentenceTranslationCacheImpl(get()) }
     single<SentenceTranslator> {
         val settings = get<SettingsRepository>()
         val local = get<LocalTranslation>().translator
         val engine = { settings.current.effectiveEngine(local != null) }
-        val routed = RoutingSentenceTranslator(get<MyMemoryTranslationProvider>(), get<GoogleTranslationProvider>(), get<AzureTranslationProvider>(), get<AlibabaTranslationProvider>(), local, engine)
+        val routed = RoutingSentenceTranslator(get<MyMemoryTranslationProvider>(), get<GoogleTranslationProvider>(), get<AzureTranslationProvider>(), get<AlibabaTranslationProvider>(), get<BaiduTranslationProvider>(), local, engine)
         // Stored translations carry the engine in their key so switching engines never mixes results.
         CachedSentenceTranslator(routed, get(), targetLanguage = {
             val native = settings.current.nativeLanguage
@@ -101,12 +105,13 @@ val dataModule: Module = module {
                 TranslationEngine.GOOGLE -> "google:$native"
                 TranslationEngine.AZURE -> "azure:$native"
                 TranslationEngine.ALIBABA -> "alibaba:$native"
+                TranslationEngine.BAIDU -> "baidu:$native"
                 TranslationEngine.MYMEMORY -> native
             }
         })
     }
     single<TermTranslationProvider> {
-        TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), get<MyMemoryTranslationProvider>(), get<GoogleTranslationProvider>(), get<AzureTranslationProvider>(), get<AlibabaTranslationProvider>(), get(), get())
+        TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), get<MyMemoryTranslationProvider>(), get<GoogleTranslationProvider>(), get<AzureTranslationProvider>(), get<AlibabaTranslationProvider>(), get<BaiduTranslationProvider>(), get(), get())
     }
 
     single { TermService(get(), get()) }

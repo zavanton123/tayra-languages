@@ -45,6 +45,7 @@ import com.tayra.languages.core.domain.service.LocalPackage
 import com.tayra.languages.core.domain.service.LocalSentenceTranslator
 import com.tayra.languages.core.domain.service.AlibabaTranslation
 import com.tayra.languages.core.domain.service.AzureTranslation
+import com.tayra.languages.core.domain.service.BaiduTranslation
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
@@ -72,6 +73,7 @@ class OfflineTranslationViewModel(
     private val google: GoogleTranslation,
     private val azure: AzureTranslation,
     private val alibaba: AlibabaTranslation,
+    private val baidu: BaiduTranslation,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
@@ -123,6 +125,20 @@ class OfflineTranslationViewModel(
         viewModelScope.launch {
             _alibabaStatus.value = try { alibaba.checkKey() } catch (e: Exception) { "Alibaba Cloud Translation: ${e.message}" }
             _alibabaBusy.value = false
+        }
+    }
+
+    private val _baiduStatus = MutableStateFlow<String?>(null)
+    val baiduStatus: StateFlow<String?> = _baiduStatus.asStateFlow()
+    private val _baiduBusy = MutableStateFlow(false)
+    val baiduBusy: StateFlow<Boolean> = _baiduBusy.asStateFlow()
+
+    fun checkBaiduKey() {
+        if (_baiduBusy.value) return
+        _baiduBusy.value = true
+        viewModelScope.launch {
+            _baiduStatus.value = try { baidu.checkKey() } catch (e: Exception) { "Baidu Translate: ${e.message}" }
+            _baiduBusy.value = false
         }
     }
 
@@ -246,7 +262,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(
-                "Sentence translations in the reader and term suggestions come from this engine; its own settings follow below. Google, Microsoft and Alibaba need their keys and Argos its models; without them MyMemory answers instead.",
+                "Sentence translations in the reader and term suggestions come from this engine; its own settings follow below. The online services other than MyMemory need their keys and Argos its models; without them MyMemory answers instead.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -351,6 +367,34 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 Text(if (alibabaBusy) "Checking..." else "Check AccessKey")
             }
             alibabaStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+            }
+
+            if (settings.translationEngine == TranslationEngine.BAIDU) {
+            var showSecret by remember { mutableStateOf(false) }
+            Section("Baidu Translate")
+            val baiduBusy by viewModel.baiduBusy.collectAsStateWithLifecycle()
+            val baiduStatus by viewModel.baiduStatus.collectAsStateWithLifecycle()
+            OutlinedTextField(
+                value = settings.baiduAppId,
+                onValueChange = { v -> viewModel.update { it.copy(baiduAppId = v.trim()) } },
+                label = { Text("App ID") },
+                supportingText = { Text("From the Baidu Translate open platform (fanyi-api.baidu.com), general translation API. Both values are ${viewModel.secretStorage}.") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedTextField(
+                value = settings.baiduSecretKey,
+                onValueChange = { v -> viewModel.update { it.copy(baiduSecretKey = v.trim()) } },
+                label = { Text("Secret key") },
+                singleLine = true,
+                visualTransformation = if (showSecret) VisualTransformation.None else PasswordVisualTransformation(),
+                trailingIcon = { TextButton(onClick = { showSecret = !showSecret }) { Text(if (showSecret) "Hide" else "Show") } },
+                modifier = Modifier.fillMaxWidth(),
+            )
+            OutlinedButton(onClick = viewModel::checkBaiduKey, enabled = !baiduBusy && settings.baiduAppId.isNotBlank() && settings.baiduSecretKey.isNotBlank()) {
+                Text(if (baiduBusy) "Checking..." else "Check App ID")
+            }
+            baiduStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
             }
 
             if (viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS) {
