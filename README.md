@@ -70,10 +70,10 @@ The play buttons and the speaker icons on terms use the engine picked on the Spe
 | Piper | neural voices that run offline, with downloads for most of the languages the app teaches |
 | Kokoro | a high-quality offline voice for English, Spanish, French, Italian and Portuguese |
 
-Piper and Kokoro run on desktop and Android. Voices are downloaded from the Speech screen, one
-per language for Piper and a single model for Kokoro, and the screen lets you pick a voice per
-language, set the speed and try a sentence. A language without a downloaded voice falls back
-to the system voice. iOS and the web use the system voices.
+Piper and Kokoro run on desktop, Android and iOS. Voices are downloaded from the Speech screen,
+one per language for Piper and a single model for Kokoro, and the screen lets you pick a voice
+per language, set the speed and try a sentence. A language without a downloaded voice falls
+back to the system voice. The web version uses the system voices.
 
 ## Offline dictionaries
 

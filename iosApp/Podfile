@@ -3,6 +3,7 @@ platform :ios, '16.0'
 target 'iosApp' do
   use_frameworks!
   pod 'GoogleMLKit/Translate'
+  pod 'SherpaOnnxC', :podspec => './SherpaOnnxC.podspec'
 end
 
 post_install do |installer|
