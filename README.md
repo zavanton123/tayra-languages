@@ -108,7 +108,10 @@ The same artifacts can be built locally:
   resource, same Check key); to Alibaba Cloud Translation (a RAM AccessKey ID and Secret,
   requests signed with the RPC HMAC-SHA1 scheme by `AliyunSigner`, endpoint host configurable);
   to Baidu Translate (App ID and secret key from fanyi-api.baidu.com, `sign = md5(appid+q+salt+key)`
-  with a plain-Kotlin `Md5`, Baidu's own language codes mapped in the provider); or, on desktop,
+  with a plain-Kotlin `Md5`, Baidu's own language codes mapped in the provider); to DeepL (API
+  key, free `:fx` keys use api-free.deepl.com, uppercase codes with EN-US/PT-PT targets); to
+  Qwen-MT (a Model Studio API key, qwen-mt-turbo or qwen-mt-plus, international or China
+  endpoint, through the OpenAI-compatible chat API with `translation_options`); or, on desktop,
   to Argos Translate, which runs on the computer
   with no network. Without a key or a local Argos the app falls back to MyMemory. Nothing has to be installed by hand:
   the first time offline translation is used the app downloads a standalone CPython build
