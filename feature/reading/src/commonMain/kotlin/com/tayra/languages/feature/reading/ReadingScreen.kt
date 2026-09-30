@@ -92,6 +92,8 @@ import com.tayra.languages.core.domain.stats.BookStatsCalculator
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import org.koin.compose.koinInject
 import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.ui.components.AboveTargetPositionProvider
+import androidx.compose.ui.platform.LocalDensity
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
@@ -685,9 +687,13 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
             onDragStart = { index -> viewModel.startSelection(state.items[index].index) },
             onDrag = { index -> viewModel.updateSelection(state.items[index].index) },
             onDragEnd = { index, shift -> viewModel.endSelection(state.items[index].index, copy = shift) },
-            popupContent = { _, anchor ->
+            popupContent = { _, word ->
                 state.popup?.let { popup ->
-                    Popup(offset = anchor, onDismissRequest = viewModel::hidePopup) { TermPopupCard(popup.popup) }
+                    val gap = with(LocalDensity.current) { 6.dp.roundToPx() }
+                    Popup(
+                        popupPositionProvider = remember(word, gap) { AboveTargetPositionProvider(word, gap) },
+                        onDismissRequest = viewModel::hidePopup,
+                    ) { TermPopupCard(popup.popup) }
                 }
             },
         )

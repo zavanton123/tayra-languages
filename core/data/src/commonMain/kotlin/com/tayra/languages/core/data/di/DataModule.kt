@@ -53,6 +53,7 @@ import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.domain.service.TermImportService
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.domain.service.CachedSentenceTranslator
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.RoutingSentenceTranslator
@@ -81,6 +82,7 @@ val dataModule: Module = module {
     single { DictionaryDatabaseProvider(get()) }
     single<DictionaryRepository> { DictionaryRepositoryImpl(get()) }
     single { DictionaryService(get(), get()) }
+    single { WordTranslationService(get(), get<DictionaryService>(), get(), get()) }
     single<OfflineDictionary> { get<DictionaryService>() }
 
     single { createHttpClient() }
