@@ -11,6 +11,9 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
 import androidx.compose.foundation.clickable
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.drawscope.DrawScope
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.text.PlaceholderVerticalAlign
@@ -52,7 +55,6 @@ import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
@@ -79,7 +81,8 @@ class ReadingTextCallbacks(
 )
 
 /** Where each item was placed within a paragraph's annotated string. */
-private class Span(val start: Int, val end: Int, val itemIndex: Int)
+/** [underlined] words are selected; their underline is drawn separately, as text decorations are too thin. */
+private class Span(val start: Int, val end: Int, val itemIndex: Int, val underlined: Boolean = false)
 
 /**
  * Renders a page as selectable, colour-coded text. Each paragraph is one [Text] so that
@@ -287,6 +290,12 @@ private fun ParagraphText(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = 6.dp)
+                .drawWithContent {
+                    drawContent()
+                    val result = layout ?: return@drawWithContent
+                    // A layout from before the text changed would put the underlines in the wrong places.
+                    if (result.layoutInput.text == text) drawSelectionUnderlines(spans, result, theme.readingText)
+                }
                 .pointerInput(callbacks) {
                     awaitPointerEventScope {
                         while (true) {
@@ -406,14 +415,57 @@ private fun buildParagraph(
             if (isHovered && !isMarked) style = SpanStyle(background = theme.readingText.copy(alpha = HOVER_ALPHA))
         }
         // Selected words and phrases, including one still being dragged over, are underlined and keep their colours.
-        if ((isMarked && item.isWord) || inSelection) style = style.copy(textDecoration = TextDecoration.Underline)
+        val underlined = (isMarked && item.isWord) || inSelection
         withStyle(style) {
+            if (underlined) pushStringAnnotation(SELECTED_ANNOTATION, "")
             if (item.isOverlapped) append("⁺")
             append(item.renderText)
+            if (underlined) pop()
         }
-        spans.add(Span(start, length, itemIndex))
+        spans.add(Span(start, length, itemIndex, underlined))
     }
 }
+
+/** Marks the selected characters in the text, for tests and accessibility tools. */
+internal const val SELECTED_ANNOTATION = "selected"
+
+/**
+ * Underlines the selected words, one line per text line they cover. Neighbouring underlined
+ * spans, such as the words and spaces of a selected phrase, share one line.
+ */
+private fun DrawScope.drawSelectionUnderlines(spans: List<Span>, layout: TextLayoutResult, color: Color) {
+    val fontSize = layout.layoutInput.style.fontSize.toPx()
+    val thickness = UNDERLINE_THICKNESS.toPx()
+    var i = 0
+    while (i < spans.size) {
+        if (!spans[i].underlined) {
+            i++
+            continue
+        }
+        var last = i
+        while (last + 1 < spans.size && spans[last + 1].underlined && spans[last + 1].start == spans[last].end) last++
+        val from = spans[i].start
+        val to = spans[last].end
+        if (to > from) {
+            for (line in layout.getLineForOffset(from)..layout.getLineForOffset(to - 1)) {
+                val start = maxOf(from, layout.getLineStart(line))
+                val stop = minOf(to, layout.getLineEnd(line, visibleEnd = true))
+                if (stop <= start) continue
+                val first = layout.getBoundingBox(start)
+                val end = layout.getBoundingBox(stop - 1)
+                val left = minOf(first.left, end.left)
+                val right = maxOf(first.right, end.right)
+                drawRect(color, Offset(left, layout.getLineBaseline(line) + fontSize * UNDERLINE_OFFSET_EM), Size(right - left, thickness))
+            }
+        }
+        i = last + 1
+    }
+}
+
+private val UNDERLINE_THICKNESS = 2.dp
+
+/** How far below the baseline the underline starts, in multiples of the font size. */
+private const val UNDERLINE_OFFSET_EM = 0.12f
 
 /** How strongly the hovered word is tinted with the text colour: light gray on light themes, soft gray on dark ones. */
 private const val HOVER_ALPHA = 0.22f
