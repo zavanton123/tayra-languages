@@ -4,6 +4,7 @@ import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.lerp
 import com.tayra.languages.core.domain.model.TermStatus
 
 /** Colours used to highlight terms by status on the reading screen. */
@@ -31,15 +32,24 @@ data class AppTheme(
 )
 
 object AppThemes {
-    private val luteStatuses = mapOf(
-        TermStatus.UNKNOWN to Color(0xFFD5FFFF),
-        TermStatus.NEW_1 to Color(0xFFF5B8A9),
-        TermStatus.NEW_2 to Color(0xFFF5CCA9),
-        TermStatus.LEARNING_3 to Color(0xFFF5E1A9),
-        TermStatus.LEARNING_4 to Color(0xFFF5F3A9),
-        TermStatus.LEARNED to Color(0xFFDDFFDD),
-        TermStatus.IGNORED to Color(0xFFEE8577),
-        TermStatus.WELL_KNOWN to Color(0xFF72DA88),
+    /**
+     * New words are blue and words being learned yellow. The yellow fades towards [page] as the
+     * status rises, so statuses 1 to 5 stay apart on the status buttons.
+     */
+    private fun statuses(unknown: Color, learning: Color, page: Color, ignored: Color, wellKnown: Color): Map<TermStatus, Color> =
+        mapOf(TermStatus.UNKNOWN to unknown, TermStatus.IGNORED to ignored, TermStatus.WELL_KNOWN to wellKnown) +
+            listOf(TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LEARNING_3, TermStatus.LEARNING_4, TermStatus.LEARNED)
+                .mapIndexed { level, status -> status to lerp(learning, page, level * LEARNING_FADE) }
+
+    private const val LEARNING_FADE = 0.1f
+
+    private fun lightStatuses(page: Color) = StatusColors(
+        statuses(unknown = Color(0xFFCDE0FB), learning = Color(0xFFFAE39E), page = page, ignored = Color(0xFFEE8577), wellKnown = Color(0xFF72DA88)),
+    )
+
+    private fun darkStatuses(unknown: Color, learning: Color, page: Color) = StatusColors(
+        statuses(unknown = unknown, learning = learning, page = page, ignored = Color(0xFF7A4B4B), wellKnown = Color(0xFF419252)),
+        onHighlight = Color(0xFFEFF1F2),
     )
 
     val default = AppTheme(
@@ -63,7 +73,7 @@ object AppThemes {
             outline = Color(0xFF8A929C),
             outlineVariant = Color(0xFFDDE1E6),
         ),
-        statusColors = StatusColors(luteStatuses),
+        statusColors = lightStatuses(page = Color.White),
         readingBackground = Color.White,
         readingText = Color.Black,
         hoverUnderline = Color(0xFF1F5FFF),
@@ -89,6 +99,7 @@ object AppThemes {
             outline = Color(0xFF9C8B70),
             outlineVariant = Color(0xFFDCCDB0),
         ),
+        statusColors = lightStatuses(page = Color(0xFFF7EEDD)),
         readingBackground = Color(0xFFF7EEDD),
         readingText = Color(0xFF3B2F2F),
     )
@@ -114,20 +125,7 @@ object AppThemes {
             outline = Color(0xFF8A8A8E),
             outlineVariant = Color(0xFF5E5E61),
         ),
-        statusColors = StatusColors(
-            backgrounds = mapOf(
-                TermStatus.UNKNOWN to Color(0xFFD5FFFF),
-                TermStatus.NEW_1 to Color(0xFFB46B7A),
-                TermStatus.NEW_2 to Color(0xFF988542),
-                TermStatus.LEARNING_3 to Color(0xFF699859),
-                TermStatus.LEARNING_4 to Color(0xFF5692AE),
-                TermStatus.LEARNED to Color(0xFF877AAD),
-                TermStatus.IGNORED to Color(0xFF7A4B4B),
-                TermStatus.WELL_KNOWN to Color(0xFF419252),
-            ),
-            onHighlight = Color(0xFFEFF1F2),
-            unknownAsText = true,
-        ),
+        statusColors = darkStatuses(unknown = Color(0xFF3E5277), learning = Color(0xFF8C7539), page = Color(0xFF48484A)),
         readingBackground = Color(0xFF48484A),
         readingText = Color(0xFFC4C8CE),
         hoverUnderline = Color(0xFFACACF9),
@@ -155,6 +153,7 @@ object AppThemes {
             outline = Color(0xFF7A7A7A),
             outlineVariant = Color(0xFF383838),
         ),
+        statusColors = darkStatuses(unknown = Color(0xFF26345A), learning = Color(0xFF6E5A2C), page = Color(0xFF121212)),
         readingBackground = Color(0xFF121212),
         readingText = Color(0xFFE0E0E0),
     )
