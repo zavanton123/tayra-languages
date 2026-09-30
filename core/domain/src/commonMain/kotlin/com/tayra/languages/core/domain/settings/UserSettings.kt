@@ -39,7 +39,7 @@ data class UserSettings(
     /** Optional contact email sent to MyMemory, which raises its daily quota. */
     val translationContactEmail: String = "",
     /** Service used for sentence translations. */
-    val translationEngine: TranslationEngine = TranslationEngine.MYMEMORY,
+    val translationEngine: TranslationEngine = TranslationEngine.ARGOS,
     /** Google Cloud Translation API key, used only when [translationEngine] is [TranslationEngine.GOOGLE]. */
     val googleTranslateApiKey: String = "",
     /** Azure AI Translator key, used only when [translationEngine] is [TranslationEngine.AZURE]. */

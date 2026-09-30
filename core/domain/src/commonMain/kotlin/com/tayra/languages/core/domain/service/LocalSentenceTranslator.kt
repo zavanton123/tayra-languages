@@ -4,7 +4,9 @@ import com.tayra.languages.core.domain.settings.UserSettings
 import kotlinx.coroutines.flow.StateFlow
 
 /** Which service turns sentences and terms into the native language. */
+/** In the order the engines are offered; stored by name, so the order can change freely. */
 enum class TranslationEngine(val label: String) {
+    ARGOS("On this device (offline)"),
     MYMEMORY("MyMemory (online, free)"),
     GOOGLE("Google Translate (online, API key)"),
     AZURE("Microsoft Translator (online, API key)"),
@@ -12,7 +14,6 @@ enum class TranslationEngine(val label: String) {
     BAIDU("Baidu Translate (online, App ID)"),
     DEEPL("DeepL (online, API key)"),
     QWEN("Qwen-MT (online, API key)"),
-    ARGOS("On this device (offline)"),
 }
 
 /**
