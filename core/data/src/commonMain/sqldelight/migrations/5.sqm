@@ -1,0 +1,2 @@
+-- The language a saved translation is written in; NULL for translations saved before this was tracked.
+ALTER TABLE terms ADD COLUMN translation_language TEXT;

@@ -16,6 +16,7 @@ import com.tayra.languages.core.domain.model.TermReference
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.model.ZWS_STRING
 import com.tayra.languages.core.domain.repository.MultiwordTerm
+import com.tayra.languages.core.domain.repository.SavedTranslation
 import com.tayra.languages.core.domain.repository.TermListFilter
 import com.tayra.languages.core.domain.repository.TermListPage
 import com.tayra.languages.core.domain.repository.TermListSort
@@ -26,9 +27,14 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.withContext
 import kotlin.time.Clock
 
+/**
+ * [translationLanguage] is the language new translations are written in (the native language);
+ * it is recorded with every translation that is saved or changed.
+ */
 class TermRepositoryImpl(
     private val provider: DatabaseProvider,
     private val clock: Clock = Clock.System,
+    private val translationLanguage: () -> String? = { null },
 ) : TermRepository {
 
     private suspend fun db(): TayraDatabase = provider.database()
@@ -81,6 +87,7 @@ class TermRepositoryImpl(
                 flashMessage = term.flashMessage,
                 createdAt = now,
                 statusChangedAt = now,
+                translationLanguage = languageFor(term.translation),
             )
             q.lastInsertId().awaitAsOne()
         } else {
@@ -95,6 +102,8 @@ class TermRepositoryImpl(
                 tokenCount = term.tokenCount.toLong(),
                 syncStatus = term.syncStatus,
                 flashMessage = term.flashMessage,
+                // Saving other fields keeps the language the unchanged translation was written in.
+                translationLanguage = if (previous != null && previous.translation == term.translation) previous.translation_language else languageFor(term.translation),
             )
             if (previous != null && previous.status != term.status.value.toLong()) {
                 q.updateStatus(status = term.status.value.toLong(), changedAt = now, ids = listOf(term.id))
@@ -102,6 +111,32 @@ class TermRepositoryImpl(
             term.id
         }
         return id
+    }
+
+    private fun languageFor(translation: String?): String? =
+        if (translation.isNullOrBlank()) null else translationLanguage()?.trim()?.lowercase()?.ifEmpty { null }
+
+    override suspend fun translationsNotIn(language: String): List<SavedTranslation> = withContext(databaseDispatcher) {
+        db().termsQueries.selectTranslationsNotIn(language).awaitAsList().map {
+            SavedTranslation(it.id, it.language_id, it.text, it.translation.orEmpty(), it.translation_language)
+        }
+    }
+
+    override suspend fun replaceTranslation(termId: Long, expected: String, translation: String, language: String): Boolean =
+        withContext(databaseDispatcher) {
+            val database = db()
+            database.transactionWithResult {
+                database.termsQueries.replaceTranslation(translation = translation, language = language, id = termId, expected = expected)
+                database.termsQueries.changes().awaitAsOne() > 0
+            }
+        }
+
+    override suspend fun markTranslationLanguage(termIds: Collection<Long>, language: String) = withContext(databaseDispatcher) {
+        if (termIds.isEmpty()) return@withContext
+        val database = db()
+        database.transaction {
+            termIds.chunked(CHUNK).forEach { database.termsQueries.markTranslationLanguage(language = language, ids = it) }
+        }
     }
 
     override suspend fun insertAll(terms: List<Term>): List<Long> = withContext(databaseDispatcher) {
@@ -295,6 +330,7 @@ class TermRepositoryImpl(
         id = id, language_id = language_id, text = text, text_lc = text_lc, status = status, translation = translation,
         romanization = romanization, token_count = token_count, sync_status = sync_status,
         flash_message = flash_message, created_at = created_at, status_changed_at = status_changed_at,
+        translation_language = translation_language,
     )
 
     private companion object {
