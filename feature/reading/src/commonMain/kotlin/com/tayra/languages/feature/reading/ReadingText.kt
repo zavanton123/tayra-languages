@@ -11,6 +11,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
 import androidx.compose.foundation.clickable
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.drawscope.DrawScope
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.text.PlaceholderVerticalAlign
@@ -52,7 +56,6 @@ import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
@@ -79,7 +82,8 @@ class ReadingTextCallbacks(
 )
 
 /** Where each item was placed within a paragraph's annotated string. */
-private class Span(val start: Int, val end: Int, val itemIndex: Int)
+/** [framed] words are selected: a frame is drawn around them and their colours stay as they are. */
+private class Span(val start: Int, val end: Int, val itemIndex: Int, val framed: Boolean = false)
 
 /**
  * Renders a page as selectable, colour-coded text. Each paragraph is one [Text] so that
@@ -287,6 +291,12 @@ private fun ParagraphText(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = 6.dp)
+                .drawWithContent {
+                    drawContent()
+                    val result = layout ?: return@drawWithContent
+                    // A layout from before the text changed would put the frames in the wrong places.
+                    if (result.layoutInput.text == text) drawSelectionFrames(spans, result, theme.selectionFrame)
+                }
                 .pointerInput(callbacks) {
                     awaitPointerEventScope {
                         while (true) {
@@ -402,18 +412,61 @@ private fun buildParagraph(
                     style = style.copy(background = background, color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color.Unspecified)
                 }
             }
-            if (isMarked) style = style.copy(textDecoration = TextDecoration.Underline, background = theme.markedUnderline.copy(alpha = 0.35f))
             // The word under the mouse turns plain gray, whatever its status colour, so it reads as "pointed at".
-            else if (isHovered) style = SpanStyle(background = theme.readingText.copy(alpha = HOVER_ALPHA))
+            if (isHovered && !isMarked) style = SpanStyle(background = theme.readingText.copy(alpha = HOVER_ALPHA))
         }
-        if (inSelection) style = style.copy(background = theme.selectionBackground)
         withStyle(style) {
             if (item.isOverlapped) append("⁺")
             append(item.renderText)
         }
-        spans.add(Span(start, length, itemIndex))
+        spans.add(Span(start, length, itemIndex, framed = (isMarked && item.isWord) || inSelection))
     }
 }
+
+/**
+ * Draws a frame around the selected words, one per line they cover. Neighbouring framed spans,
+ * such as the words and spaces of a selected sentence, share one frame.
+ */
+private fun DrawScope.drawSelectionFrames(spans: List<Span>, layout: TextLayoutResult, color: Color) {
+    val fontSize = layout.layoutInput.style.fontSize.toPx()
+    val stroke = 1.dp.toPx()
+    val padding = fontSize * FRAME_PADDING_EM
+    var i = 0
+    while (i < spans.size) {
+        if (!spans[i].framed) {
+            i++
+            continue
+        }
+        var last = i
+        while (last + 1 < spans.size && spans[last + 1].framed && spans[last + 1].start == spans[last].end) last++
+        val from = spans[i].start
+        val to = spans[last].end
+        if (to > from) {
+            for (line in layout.getLineForOffset(from)..layout.getLineForOffset(to - 1)) {
+                val start = maxOf(from, layout.getLineStart(line))
+                val stop = minOf(to, layout.getLineEnd(line, visibleEnd = true))
+                if (stop <= start) continue
+                val first = layout.getBoundingBox(start)
+                val end = layout.getBoundingBox(stop - 1)
+                val left = minOf(first.left, end.left) - padding
+                val right = maxOf(first.right, end.right) + padding
+                val baseline = layout.getLineBaseline(line)
+                drawRect(
+                    color = color,
+                    topLeft = Offset(left, baseline - fontSize * FRAME_ASCENT_EM),
+                    size = Size(right - left, fontSize * (FRAME_ASCENT_EM + FRAME_DESCENT_EM)),
+                    style = Stroke(width = stroke),
+                )
+            }
+        }
+        i = last + 1
+    }
+}
+
+/** The frame around a selected word, in multiples of the font size: from above the capitals to below the descenders. */
+private const val FRAME_ASCENT_EM = 1.0f
+private const val FRAME_DESCENT_EM = 0.34f
+private const val FRAME_PADDING_EM = 0.1f
 
 /** How strongly the hovered word is tinted with the text colour: light gray on light themes, soft gray on dark ones. */
 private const val HOVER_ALPHA = 0.22f
