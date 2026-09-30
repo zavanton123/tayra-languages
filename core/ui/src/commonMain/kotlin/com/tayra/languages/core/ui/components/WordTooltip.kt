@@ -23,6 +23,8 @@ import androidx.compose.ui.input.pointer.PointerType
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.IntOffset
@@ -97,11 +99,20 @@ fun HoverTranslatedText(
 ) {
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
     var hovered by remember(text) { mutableStateOf<HoveredWord?>(null) }
+    val tint = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.22f)
+    val range = hovered?.range
+    // The same characters with the hovered word tinted gray, so the layout and word positions stay put.
+    val shown = remember(text, range, tint) {
+        if (range == null) text else buildAnnotatedString {
+            append(text)
+            addStyle(SpanStyle(background = tint), range.first, range.last + 1)
+        }
+    }
     Box(modifier) {
         // The inner box wraps the text exactly, so the popup's anchor is the text itself.
         Box {
             Text(
-                text,
+                shown,
                 style = style,
                 onTextLayout = { layout = it },
                 modifier = Modifier.pointerInput(text) {
