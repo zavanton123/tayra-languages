@@ -40,3 +40,20 @@ compose.desktop {
         }
     }
 }
+
+// The app loads classes lazily from the modules' build/libs jars, and Gradle rewrites those in place, so any build
+// while it was open broke the next screen it drew with NoClassDefFoundError. Runs start from a private copy instead;
+// replacing the copy only unlinks the old files, which an app that is still open keeps reading.
+tasks.withType<JavaExec>().matching { it.name == "run" }.configureEach {
+    val projectRoot = rootDir.absolutePath + File.separator
+    val copies = layout.buildDirectory.dir("run-classpath").get().asFile
+    val fileCollections = objects
+    doFirst {
+        copies.deleteRecursively()
+        copies.mkdirs()
+        classpath = fileCollections.fileCollection().from(classpath.files.mapIndexed { i, file ->
+            if (!file.isFile || !file.absolutePath.startsWith(projectRoot)) file
+            else copies.resolve("$i-${file.name}").also { file.copyTo(it) }
+        })
+    }
+}
