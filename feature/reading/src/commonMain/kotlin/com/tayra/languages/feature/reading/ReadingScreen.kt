@@ -85,6 +85,7 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.LocalTranslationProblem
 import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
+import com.tayra.languages.core.domain.service.label
 import androidx.compose.runtime.collectAsState
 import kotlin.math.roundToInt
 import com.tayra.languages.core.domain.service.SpeechEngine
@@ -341,6 +342,7 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         EngineRow(
             selected = prefs.translationEngine,
             options = viewModel.availableEngines,
+            localTranslatorName = viewModel.localTranslatorName,
             keyed = setOfNotNull(
                 TranslationEngine.GOOGLE.takeIf { prefs.googleTranslateApiKey.isNotBlank() },
                 TranslationEngine.AZURE.takeIf { prefs.azureTranslatorApiKey.isNotBlank() },
@@ -440,14 +442,21 @@ private fun StepButton(label: String, onClick: () -> Unit) {
 
 /** The translation engine, picked from a menu anchored to the row; engines that need a key are offered once one is set. */
 @Composable
-private fun EngineRow(selected: TranslationEngine, options: List<TranslationEngine>, keyed: Set<TranslationEngine>, onSelect: (TranslationEngine) -> Unit) {
+private fun EngineRow(
+    selected: TranslationEngine,
+    options: List<TranslationEngine>,
+    localTranslatorName: String?,
+    keyed: Set<TranslationEngine>,
+    onSelect: (TranslationEngine) -> Unit,
+) {
     fun usable(engine: TranslationEngine) = engine in setOf(TranslationEngine.MYMEMORY, TranslationEngine.ARGOS) || engine in keyed
+    fun name(engine: TranslationEngine) = engine.label(localTranslatorName)
     ChoiceRow(
         icon = AppIcons.Globe,
         title = "Translation engine",
-        value = selected.label,
+        value = name(selected),
         options = options,
-        optionLabel = { if (usable(it)) it.label else "${it.label} \u2013 add a key in Settings" },
+        optionLabel = { if (usable(it)) name(it) else "${name(it)} \u2013 add a key in Settings" },
         optionEnabled = ::usable,
         onSelect = onSelect,
     )

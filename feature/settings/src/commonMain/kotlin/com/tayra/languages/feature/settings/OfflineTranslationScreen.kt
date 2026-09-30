@@ -51,6 +51,7 @@ import com.tayra.languages.core.domain.service.QwenTranslation
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
+import com.tayra.languages.core.domain.service.label
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -300,7 +301,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 selected = settings.translationEngine,
                 onSelect = { engine -> viewModel.update { it.copy(translationEngine = engine) } },
                 label = "Translation engine",
-                optionLabel = { it.label },
+                optionLabel = { it.label(viewModel.localName.ifEmpty { null }) },
                 modifier = Modifier.fillMaxWidth(),
             )
             Text(
