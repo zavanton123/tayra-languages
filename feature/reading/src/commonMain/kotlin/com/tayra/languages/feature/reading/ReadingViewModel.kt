@@ -25,6 +25,7 @@ import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermPopup
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.service.effectiveEngine
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -120,6 +121,7 @@ class ReadingViewModel(
     private val translator: SentenceTranslator,
     localTranslation: LocalTranslation,
     private val localSpeech: LocalSpeech,
+    private val wordTranslations: WordTranslationService,
 ) : ViewModel() {
 
     private val local = localTranslation.translator
@@ -299,10 +301,10 @@ class ReadingViewModel(
             _state.update { it.copy(popup = null) }
             return
         }
-        val termId = _state.value.items.getOrNull(itemIndex)?.termId ?: return
+        val item = _state.value.items.getOrNull(itemIndex) ?: return
         popupJob = viewModelScope.launch {
             delay(350)
-            val popup = popupBuilder.build(termId)
+            val popup = popupFor(item)
             _state.update { s ->
                 if (s.hovered == itemIndex && popup != null) s.copy(popup = PopupState(itemIndex, popup)) else s.copy(popup = null)
             }
@@ -310,11 +312,19 @@ class ReadingViewModel(
     }
 
     fun showPopupFor(itemIndex: Int) {
-        val termId = _state.value.items.getOrNull(itemIndex)?.termId ?: return
+        val item = _state.value.items.getOrNull(itemIndex) ?: return
         viewModelScope.launch {
-            val popup = popupBuilder.build(termId)
+            val popup = popupFor(item)
             _state.update { it.copy(popup = popup?.let { p -> PopupState(itemIndex, p) }) }
         }
+    }
+
+    /** The saved term's card, or, for a word nobody has translated yet, a card with a looked-up translation. */
+    private suspend fun popupFor(item: TextItem): TermPopup? {
+        item.termId?.let { id -> popupBuilder.build(id) }?.let { return it }
+        val language = _state.value.language ?: return null
+        val translation = wordTranslations.translate(language, item.renderText) ?: return null
+        return TermPopup(termText = item.renderText, parentsText = "", translation = translation, romanization = "", flashMessage = "")
     }
 
     fun hidePopup() {

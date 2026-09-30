@@ -92,6 +92,8 @@ import com.tayra.languages.core.ui.components.formatDate
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.audio.rememberSpeaker
+import com.tayra.languages.core.domain.service.WordTranslationService
+import com.tayra.languages.core.ui.components.HoverTranslatedText
 import org.koin.compose.koinInject
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.audio.SpeakButton
@@ -630,6 +632,8 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
     val playback = rememberAudioPlayback()
     val synthesizer = rememberSpeaker(koinInject(), koinInject())
     val speaking by synthesizer.playing.collectAsState()
+    val wordTranslations = koinInject<WordTranslationService>()
+    val translateWord: suspend (String) -> String? = { word -> language?.let { wordTranslations.translate(it, word) } }
     val languageCode = language?.let { LanguageCodes.codeFor(it.name) }
     val total = state.examplesTotal ?: state.examples.size
     val canOpen = onOpenExamples != null && languageId != null && term.isNotBlank()
@@ -661,8 +665,9 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
                     if (index > 0) HorizontalDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
                     val sentence = @Composable {
                         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
-                            Text(
+                            HoverTranslatedText(
                                 emphasize(example.text, term),
+                                translate = translateWord,
                                 style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
                                 modifier = Modifier.weight(1f).padding(end = 10.dp),
                             )

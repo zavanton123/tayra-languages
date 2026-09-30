@@ -27,6 +27,10 @@ import com.tayra.languages.core.domain.service.LanguageService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.dictionary.DictionaryId
+import com.tayra.languages.core.domain.dictionary.OfflineDictionary
+import com.tayra.languages.core.domain.service.TermTranslationProvider
+import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.domain.service.TermValidationException
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
@@ -217,5 +221,33 @@ class RepositoryIntegrationTest {
         assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().none { it.title == "Hola" })
         assertFailsWith<LanguageValidationException> { env.languageService.save(Language(name = "Klingon")) }
+    }
+
+    @Test
+    fun wordTranslationsPreferSavedTermsThenParentsThenTheEngine() = runTest {
+        val env = Env()
+        val langId = env.english()
+        val language = env.languages.getById(langId)!!
+        env.termService.save(env.termService.findOrNew(langId, "dog").copy(translation = "cão", status = TermStatus.NEW_2, statusExplicitlySet = true))
+        env.termService.save(env.termService.findOrNew(langId, "dogs").copy(status = TermStatus.NEW_2, statusExplicitlySet = true, parents = listOf("dog")))
+        env.termService.save(env.termService.findOrNew(langId, "cat").copy(translation = "gato", status = TermStatus.NEW_2, statusExplicitlySet = true))
+        val asked = mutableListOf<String>()
+        val engine = object : TermTranslationProvider {
+            override val name = "Fake"
+            override suspend fun suggestTranslation(text: String, language: Language): String? { asked += text; return if (text == "house") "casa" else null }
+        }
+        val offline = object : OfflineDictionary {
+            override suspend fun isAvailable(dictionary: DictionaryId) = false
+            override suspend fun lookup(dictionary: DictionaryId, text: String) = error("not installed")
+        }
+        val service = WordTranslationService(env.terms, offline, engine, env.settings)
+
+        assertEquals("gato", service.translate(language, "Cat"))
+        assertEquals("cão", service.translate(language, "dogs"))
+        assertEquals("casa", service.translate(language, "house"))
+        assertEquals("casa", service.translate(language, "House"))
+        assertEquals(null, service.translate(language, "xyzzy"))
+        assertEquals(null, service.translate(language, "1999"))
+        assertEquals(listOf("house", "xyzzy"), asked)
     }
 }

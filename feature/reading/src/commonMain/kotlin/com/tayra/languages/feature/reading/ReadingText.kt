@@ -4,6 +4,8 @@ import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.drag
 import androidx.compose.foundation.gestures.waitForUpOrCancellation
 import androidx.compose.foundation.layout.Box
+import kotlin.math.roundToInt
+import androidx.compose.ui.platform.LocalDensity
 import com.tayra.languages.core.ui.components.AppIcons
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
@@ -72,7 +74,8 @@ class ReadingTextCallbacks(
     val onDragStart: (itemIndex: Int) -> Unit,
     val onDrag: (itemIndex: Int) -> Unit,
     val onDragEnd: (itemIndex: Int, shift: Boolean) -> Unit,
-    val popupContent: @Composable (itemIndex: Int, anchorBottom: androidx.compose.ui.unit.IntOffset) -> Unit,
+    /** Draws the popup for the item; [word] is the item's rectangle in the paragraph's coordinates. */
+    val popupContent: @Composable (itemIndex: Int, word: androidx.compose.ui.unit.IntRect) -> Unit,
 )
 
 /** Where each item was placed within a paragraph's annotated string. */
@@ -355,8 +358,13 @@ private fun ParagraphText(
             val span = spans.firstOrNull { it.itemIndex == popupItem }
             val result = layout
             if (span != null && result != null) {
-                val box = result.getBoundingBox(span.start)
-                callbacks.popupContent(popupItem, androidx.compose.ui.unit.IntOffset(box.left.toInt(), (box.bottom + 8).toInt()))
+                val bounds = result.getPathForRange(span.start, span.end).getBounds()
+                // The text sits below the paragraph's top padding, so its rectangle moves down by it.
+                val top = with(LocalDensity.current) { 6.dp.toPx() }
+                callbacks.popupContent(
+                    popupItem,
+                    androidx.compose.ui.unit.IntRect(bounds.left.roundToInt(), (bounds.top + top).roundToInt(), bounds.right.roundToInt(), (bounds.bottom + top).roundToInt()),
+                )
             }
         }
     }

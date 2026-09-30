@@ -50,6 +50,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.AnnotatedString
+import org.koin.compose.koinInject
+import com.tayra.languages.core.domain.service.WordTranslationService
+import com.tayra.languages.core.ui.components.HoverTranslatedText
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
@@ -91,6 +94,8 @@ fun ExamplesSearchScreen(
     val query = state.query
     val playback = rememberAudioPlayback()
     val compact = LocalWindowWidth.current.isCompact
+    val wordTranslations = koinInject<WordTranslationService>()
+    val translateWord: suspend (String) -> String? = { word -> state.language?.let { wordTranslations.translate(it, word) } }
 
     Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) },
@@ -126,6 +131,7 @@ fun ExamplesSearchScreen(
                     items(state.results) { example ->
                         ExampleCard(
                             text = emphasize(example.text, query.text),
+                            translateWord = translateWord,
                             translation = example.translation,
                             audioUrl = example.audioUrl,
                             direction = direction,
@@ -276,7 +282,7 @@ private fun <T> Select(label: String, options: List<T>, selected: T, optionLabel
 }
 
 @Composable
-private fun ExampleCard(text: AnnotatedString, translation: String?, audioUrl: String?, direction: TextDirection, playback: AudioPlayback, compact: Boolean) {
+private fun ExampleCard(text: AnnotatedString, translateWord: suspend (String) -> String?, translation: String?, audioUrl: String?, direction: TextDirection, playback: AudioPlayback, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
     val clipboard = LocalClipboardManager.current
     val playing = audioUrl != null && playback.isPlaying(audioUrl)
@@ -288,7 +294,7 @@ private fun ExampleCard(text: AnnotatedString, translation: String?, audioUrl: S
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text(text, style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction, lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.25))
+            HoverTranslatedText(text, translate = translateWord, style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction, lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.25))
             translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
         }
         Spacer(Modifier.width(16.dp))
