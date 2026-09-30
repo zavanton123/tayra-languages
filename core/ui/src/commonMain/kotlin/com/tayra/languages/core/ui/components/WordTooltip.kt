@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import kotlin.coroutines.cancellation.CancellationException
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
@@ -72,7 +73,7 @@ fun HoverTranslationPopup(target: IntRect, word: String, translate: suspend (Str
             delay(HOVER_DELAY_MS)
             // Only a slow lookup shows the ellipsis, so cached answers appear without a flicker.
             val pending = launch { delay(LOADING_DELAY_MS); if (shown == null) shown = "\u2026" }
-            val result = runCatching { translate(word) }.getOrNull()
+            val result = try { translate(word) } catch (e: CancellationException) { throw e } catch (e: Exception) { null }
             pending.cancel()
             shown = result
         }

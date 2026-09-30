@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -674,21 +675,23 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
     val speechLanguage = state.language?.name?.let { LanguageCodes.codeFor(it) }
     val speakSentence: (String) -> Unit = remember(speaker, speechLanguage) { { text -> speaker.toggle(text, speechLanguage) } }
     val playingSentence by speaker.playing.collectAsState()
+    // The callbacks are built once, so they read the state through this rather than the value of the first frame.
+    val current by rememberUpdatedState(state)
     val callbacks = remember(viewModel) {
         ReadingTextCallbacks(
             onClick = { index, shift -> viewModel.onWordClick(index, shift); focusText() },
             onSecondaryClick = { index -> viewModel.markToLearn(index); focusText() },
             onTap = { index -> viewModel.onWordTap(index) },
             onLongPress = { index ->
-                val tokenIndex = state.items[index].index
+                val tokenIndex = current.items[index].index
                 if (!viewModel.state.value.selecting) viewModel.startSelection(tokenIndex) else viewModel.endSelection(tokenIndex, copy = false)
             },
             onHover = viewModel::onHover,
-            onDragStart = { index -> viewModel.startSelection(state.items[index].index) },
-            onDrag = { index -> viewModel.updateSelection(state.items[index].index) },
-            onDragEnd = { index, shift -> viewModel.endSelection(state.items[index].index, copy = shift) },
+            onDragStart = { index -> viewModel.startSelection(current.items[index].index) },
+            onDrag = { index -> viewModel.updateSelection(current.items[index].index) },
+            onDragEnd = { index, shift -> viewModel.endSelection(current.items[index].index, copy = shift) },
             popupContent = { _, word ->
-                state.popup?.let { popup ->
+                current.popup?.let { popup ->
                     val gap = with(LocalDensity.current) { 6.dp.roundToPx() }
                     Popup(
                         popupPositionProvider = remember(word, gap) { AboveTargetPositionProvider(word, gap) },
