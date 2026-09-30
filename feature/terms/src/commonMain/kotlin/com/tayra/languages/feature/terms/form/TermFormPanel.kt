@@ -383,15 +383,14 @@ val LanguageDictionary.displayName: String
     get() = url.substringAfter("://").substringBefore("/").removePrefix("www.").ifEmpty { "Dictionary" }
 
 /**
- * Status buttons 1–5 and W. [expanded] stretches them to fill the row; [large] draws fixed
+ * Status buttons 1–5, W and I. [expanded] stretches them to fill the row; [large] draws fixed
  * squares instead of compact chips.
  */
 @Composable
 fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false, large: Boolean = false) {
     val colors = TayraTheme.current.statusColors
     Row(if (expanded) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (expanded || large) 8.dp else 4.dp)) {
-        // "Ignored" is set from the reading page, not from the form.
-        TermStatus.selectable.filter { it != TermStatus.IGNORED }.forEach { status ->
+        TermStatus.selectable.forEach { status ->
             val isSelected = status == selected
             val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
             Box(
