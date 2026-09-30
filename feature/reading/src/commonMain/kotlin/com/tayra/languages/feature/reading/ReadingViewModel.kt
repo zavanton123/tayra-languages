@@ -282,14 +282,18 @@ class ReadingViewModel(
         _state.update { it.copy(panel = ReadingPanel.BulkEdit(ids)) }
     }
 
+    /**
+     * Mouse over a word: its translation card follows after a short pause, also while another
+     * word's pane is open. Nothing shows during a drag selection, or for a word whose pane is open.
+     */
     fun onHover(itemIndex: Int?) {
         val s = _state.value
-        if (s.marked.isNotEmpty() || s.selection != null) {
+        if (s.selecting) {
             if (itemIndex == null) hidePopup()
             return
         }
         val item = itemIndex?.let { s.items.getOrNull(it) }?.takeIf { it.isWord }
-        val index = item?.let { itemIndex }
+        val index = item?.let { itemIndex }?.takeIf { it !in s.marked }
         if (index == s.hovered) return
         _state.update { it.copy(hovered = index) }
         schedulePopup(index)
