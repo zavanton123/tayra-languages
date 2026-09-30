@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import kotlin.coroutines.cancellation.CancellationException
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
@@ -517,7 +518,13 @@ class ReadingViewModel(
             if (engine == TranslationEngine.ARGOS && local != null) {
                 val source = LanguageCodes.codeFor(language.name)
                 val target = LanguageCatalog.nativeOption(prefs.nativeLanguage)
-                val ready = source != null && runCatching { local.prepare(source, target.code, language.name, target.name) }.isSuccess
+                val ready = source != null && try {
+                    local.prepare(source, target.code, language.name, target.name); true
+                } catch (e: CancellationException) {
+                    throw e
+                } catch (e: Exception) {
+                    false
+                }
                 if (!ready) {
                     _state.update { it.copy(translations = it.translations + pending.associateWith { SentenceTranslation.Unavailable }) }
                     return@launch

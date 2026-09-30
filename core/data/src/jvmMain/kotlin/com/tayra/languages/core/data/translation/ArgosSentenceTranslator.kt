@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.translation
 
+import kotlin.coroutines.cancellation.CancellationException
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.data.runtime.ManagedPython
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -72,11 +73,17 @@ class ArgosSentenceTranslator(
         val source = LanguageCodes.codeFor(language.name) ?: return null
         val target = nativeCode()
         if (source == target) return null
-        return runCatching {
+        return try {
             request(TRANSLATE_TIMEOUT_MS, "cmd" to "translate", "from" to source, "to" to target, "q" to text)["t"]?.jsonPrimitive?.content?.trim()?.takeIf { it.isNotEmpty() }
-        }.onSuccess { _lastError.value = null }
-            .onFailure { Logger.w { "Argos translation failed: ${it.message}" }; _lastError.value = LocalTranslationProblem.Failed(it.message ?: "unknown error") }
-            .getOrNull()
+                .also { _lastError.value = null }
+        } catch (e: CancellationException) {
+            // The caller stopped waiting (a hover moved on, a page changed); that is not a failure.
+            throw e
+        } catch (e: Exception) {
+            Logger.w { "Argos translation failed: ${e.message}" }
+            _lastError.value = LocalTranslationProblem.Failed(e.message ?: "unknown error")
+            null
+        }
     }
 
     override suspend fun prepare(fromCode: String, toCode: String, fromName: String, toName: String) {
@@ -86,6 +93,8 @@ class ArgosSentenceTranslator(
             ensureRuntime().await()
             val installed = request(STATUS_TIMEOUT_MS, "cmd" to "status")["pairs"]?.jsonArray?.map { it.jsonPrimitive.content }.orEmpty()
             if (pair in installed) null else missingModels(fromCode, toCode, fromName, toName)
+        } catch (e: CancellationException) {
+            throw e
         } catch (e: Exception) {
             LocalTranslationProblem.Failed(e.message ?: "unknown error")
         } finally {
@@ -124,6 +133,8 @@ class ArgosSentenceTranslator(
             request(INSTALL_TIMEOUT_MS, "cmd" to "install", "from" to fromCode, "to" to toCode)
             readyPairs += "$fromCode-$toCode"
             _lastError.value = null
+        } catch (e: CancellationException) {
+            throw e
         } catch (e: Exception) {
             _lastError.value = LocalTranslationProblem.Failed(e.message ?: "unknown error")
             throw e

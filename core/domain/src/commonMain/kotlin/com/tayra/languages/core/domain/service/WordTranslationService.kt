@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.service
 
+import kotlin.coroutines.cancellation.CancellationException
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.language.LanguageCodes
@@ -41,7 +42,7 @@ class WordTranslationService(
         lock.withLock { cache[key] }?.let { entry ->
             if (entry.translation != null || entry.at.elapsedNow().inWholeMilliseconds < MISS_TTL_MS) return entry.translation
         }
-        val found = offline(language, native, clean) ?: runCatching { suggestions.suggestTranslation(clean, language) }.getOrNull()
+        val found = offline(language, native, clean) ?: attempt { suggestions.suggestTranslation(clean, language) }
         val translation = found?.trim()?.takeIf { it.isNotEmpty() && !it.equals(clean, ignoreCase = true) }
         lock.withLock {
             cache.remove(key)
@@ -63,7 +64,16 @@ class WordTranslationService(
     private suspend fun offline(language: Language, native: String, word: String): String? {
         val pack = DictionaryPacks.find(LanguageCodes.codeFor(language.name), native)?.id ?: return null
         if (!dictionary.isAvailable(pack)) return null
-        return runCatching { dictionary.lookup(pack, word).suggestedTranslation }.getOrNull()
+        return attempt { dictionary.lookup(pack, word).suggestedTranslation }
+    }
+
+    /** Null when [block] fails; a cancelled caller stays cancelled, so nothing is cached for it. */
+    private inline fun <T> attempt(block: () -> T?): T? = try {
+        block()
+    } catch (e: CancellationException) {
+        throw e
+    } catch (e: Exception) {
+        null
     }
 
     private companion object {

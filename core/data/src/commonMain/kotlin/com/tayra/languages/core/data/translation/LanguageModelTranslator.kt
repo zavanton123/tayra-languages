@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.translation
 
+import kotlin.coroutines.cancellation.CancellationException
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
@@ -56,10 +57,15 @@ abstract class LanguageModelTranslator(private val settings: SettingsRepository)
         if (source == target) return null
         val from = modelFor(source) ?: return null
         val to = modelFor(target) ?: return null
-        return runCatching { translateWithModels(text, from, to).trim().takeIf { it.isNotEmpty() } }
-            .onSuccess { _lastError.value = null }
-            .onFailure { Logger.w { "$displayName failed: ${it.message}" }; _lastError.value = LocalTranslationProblem.Failed(it.message ?: "unknown error") }
-            .getOrNull()
+        return try {
+            translateWithModels(text, from, to).trim().takeIf { it.isNotEmpty() }.also { _lastError.value = null }
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            Logger.w { "$displayName failed: ${e.message}" }
+            _lastError.value = LocalTranslationProblem.Failed(e.message ?: "unknown error")
+            null
+        }
     }
 
     override suspend fun status(): String = try {
@@ -81,6 +87,8 @@ abstract class LanguageModelTranslator(private val settings: SettingsRepository)
                 if (missing.isEmpty()) null
                 else LocalTranslationProblem.ModelMissing(fromCode, toCode, missing.joinToString(" and ") { nameFor(it) } + if (missing.size == 1) " model" else " models")
             }
+        } catch (e: CancellationException) {
+            throw e
         } catch (e: Exception) {
             LocalTranslationProblem.Failed(e.message ?: "unknown error")
         }
@@ -104,6 +112,8 @@ abstract class LanguageModelTranslator(private val settings: SettingsRepository)
                 downloadModel(model)
             }
             _lastError.value = null
+        } catch (e: CancellationException) {
+            throw e
         } catch (e: Exception) {
             _lastError.value = LocalTranslationProblem.Failed(e.message ?: "unknown error")
             throw e
