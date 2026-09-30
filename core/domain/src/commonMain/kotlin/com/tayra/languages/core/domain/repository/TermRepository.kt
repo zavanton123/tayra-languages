@@ -25,6 +25,9 @@ data class TermListSort(val field: TermSortField = TermSortField.CREATED, val as
 
 enum class TermSortField { TEXT, STATUS, CREATED, LANGUAGE }
 
+/** A saved translation and the language it is written in, null when that was never recorded. */
+data class SavedTranslation(val termId: Long, val languageId: Long, val text: String, val translation: String, val language: String?)
+
 /** A multi-word term stub used when scanning texts. */
 data class MultiwordTerm(val id: Long, val textLc: String, val tokenCount: Int)
 
@@ -51,6 +54,15 @@ interface TermRepository {
     suspend fun search(languageId: Long, textLc: String, limit: Int = 50): List<TermMatch>
     fun observeList(filter: TermListFilter, sort: TermListSort, offset: Int, limit: Int): Flow<TermListPage>
     suspend fun list(filter: TermListFilter, sort: TermListSort, offset: Int, limit: Int): TermListPage
+
+    /** Saved translations not known to be written in [language]. */
+    suspend fun translationsNotIn(language: String): List<SavedTranslation>
+
+    /** Replaces a translation, unless it no longer reads [expected]. Returns whether it was replaced. */
+    suspend fun replaceTranslation(termId: Long, expected: String, translation: String, language: String): Boolean
+
+    /** Records [language] for translations whose language was never recorded. */
+    suspend fun markTranslationLanguage(termIds: Collection<Long>, language: String)
 
     /** Sentences of read pages containing the term. */
     suspend fun references(languageId: Long, termTextLc: String, limit: Int = 20, includeUnread: Boolean = false): List<TermReference>

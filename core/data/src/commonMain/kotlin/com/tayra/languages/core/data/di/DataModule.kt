@@ -60,6 +60,7 @@ import com.tayra.languages.core.domain.service.RoutingSentenceTranslator
 import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermTranslationProvider
+import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import org.koin.core.module.Module
 import org.koin.dsl.module
@@ -74,7 +75,10 @@ val dataModule: Module = module {
     single<SettingsRepository> { SettingsRepositoryImpl(get<Settings>(), get<SecureStore>()) }
     single<LanguageRepository> { LanguageRepositoryImpl(get()) }
     single<BookRepository> { BookRepositoryImpl(get()) }
-    single<TermRepository> { TermRepositoryImpl(get()) }
+    single<TermRepository> {
+        val settings = get<SettingsRepository>()
+        TermRepositoryImpl(get(), translationLanguage = { settings.current.nativeLanguage.ifBlank { "en" } })
+    }
     single<WordsReadRepository> { WordsReadRepositoryImpl(get()) }
     single<DatabaseMaintenance> { DatabaseMaintenanceImpl(get()) }
     single { DictionaryDownloader(get()) }
@@ -127,6 +131,7 @@ val dataModule: Module = module {
     }
 
     single { TermService(get(), get()) }
+    single { TranslationLanguageKeeper(get(), get(), get<DictionaryService>(), get(), get()) }
     single { ReadingService(get(), get(), get(), get(), get()) }
     single { TermPopupBuilder(get(), get(), get()) }
     single { BookService(get(), get()) }

@@ -10,7 +10,8 @@ CREATE TABLE terms (
     sync_status INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
     flash_message TEXT,
     created_at INTEGER NOT NULL,
-    status_changed_at INTEGER NOT NULL
+    status_changed_at INTEGER NOT NULL,
+    translation_language TEXT
 );
 
 CREATE UNIQUE INDEX terms_text_lc_language ON terms(text_lc, language_id);
@@ -42,8 +43,8 @@ selectMultiword:
 SELECT id, text_lc, token_count FROM terms WHERE language_id = :languageId AND token_count > 1;
 
 insert:
-INSERT INTO terms(language_id, text, text_lc, status, translation, romanization, token_count, sync_status, flash_message, created_at, status_changed_at)
-VALUES (:languageId, :text, :textLc, :status, :translation, :romanization, :tokenCount, :syncStatus, :flashMessage, :createdAt, :statusChangedAt);
+INSERT INTO terms(language_id, text, text_lc, status, translation, romanization, token_count, sync_status, flash_message, created_at, status_changed_at, translation_language)
+VALUES (:languageId, :text, :textLc, :status, :translation, :romanization, :tokenCount, :syncStatus, :flashMessage, :createdAt, :statusChangedAt, :translationLanguage);
 
 update:
 UPDATE terms SET
@@ -54,7 +55,8 @@ UPDATE terms SET
     romanization = :romanization,
     token_count = :tokenCount,
     sync_status = :syncStatus,
-    flash_message = :flashMessage
+    flash_message = :flashMessage,
+    translation_language = :translationLanguage
 WHERE id = :id;
 
 updateStatus:
@@ -64,6 +66,23 @@ WHERE id IN :ids AND status != :status;
 
 updateSyncStatus:
 UPDATE terms SET sync_status = :syncStatus WHERE id = :id;
+
+-- Translations not known to be written in :language, including those saved before languages were tracked.
+selectTranslationsNotIn:
+SELECT id, language_id, text, translation, translation_language FROM terms
+WHERE translation IS NOT NULL AND trim(translation) != ''
+  AND (translation_language IS NULL OR translation_language != :language);
+
+-- Guarded by the old text so an edit made meanwhile is never overwritten.
+replaceTranslation:
+UPDATE terms SET translation = :translation, translation_language = :language
+WHERE id = :id AND translation = :expected;
+
+markTranslationLanguage:
+UPDATE terms SET translation_language = :language WHERE id IN :ids AND translation_language IS NULL;
+
+changes:
+SELECT changes();
 
 clearFlashMessage:
 UPDATE terms SET flash_message = NULL WHERE id = :id;
