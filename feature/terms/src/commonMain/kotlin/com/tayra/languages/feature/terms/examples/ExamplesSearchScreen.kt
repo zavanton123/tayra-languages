@@ -80,8 +80,23 @@ import com.tayra.languages.core.ui.navigation.Route
 import io.ktor.http.encodeURLParameter
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import com.tayra.languages.feature.terms.form.TermFormViewModel
+import com.tayra.languages.feature.terms.form.TermFormPanel
+import com.tayra.languages.feature.terms.form.TermFormKey
+import com.tayra.languages.feature.terms.form.TermFormEvent
+import com.tayra.languages.core.ui.state.CollectEvents
+import androidx.compose.material3.rememberModalBottomSheetState
+import androidx.compose.material3.Surface
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.foundation.layout.fillMaxHeight
 
-/** Searches Tatoeba example sentences with every filter the API offers. */
+/**
+ * Searches Tatoeba example sentences with every filter the API offers. Wide windows show the
+ * term pane beside the results, for the searched term or a word clicked in an example; on
+ * narrower ones a clicked word opens it in a sheet.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ExamplesSearchScreen(
     languageId: Long,
@@ -94,6 +109,12 @@ fun ExamplesSearchScreen(
     val query = state.query
     val playback = rememberAudioPlayback()
     val compact = LocalWindowWidth.current.isCompact
+    val wide = LocalWindowWidth.current.isExpanded
+    var sheetOpen by remember { mutableStateOf(false) }
+    val openWord: (String) -> Unit = { word ->
+        viewModel.openTerm(word)
+        if (!wide) sheetOpen = true
+    }
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> state.language?.let { wordTranslations.translate(it, word) } }
 
@@ -106,53 +127,98 @@ fun ExamplesSearchScreen(
         }
         val direction = if (query.language.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
         val gutter = if (compact) 16.dp else 32.dp
-        // One scrolling list holds the filters and the results so both fit on small screens.
-        LazyColumn(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp)) {
-            item { PageHeader(query, compact, onBack, onNavigate) }
-            item { ErrorMessage(state.error) }
-            item { SearchBar(query, viewModel) }
-            item { FilterRow(query, viewModel) }
-            item {
-                Text(
-                    when {
-                        state.searching -> "Searching..."
-                        state.total != null -> "${state.total} sentence${if (state.total == 1) "" else "s"}"
-                        else -> ""
-                    },
-                    Modifier.padding(top = 16.dp, bottom = 12.dp),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            }
-            when {
-                state.searching -> item { LoadingIndicator(Modifier.fillMaxWidth().padding(32.dp)) }
-                state.results.isEmpty() -> item { EmptyMessage("No examples match these filters.", Modifier.fillMaxWidth()) }
-                else -> {
-                    items(state.results) { example ->
-                        ExampleCard(
-                            text = emphasize(example.text, query.text),
-                            translateWord = translateWord,
-                            translation = example.translation,
-                            audioUrl = example.audioUrl,
-                            direction = direction,
-                            playback = playback,
-                            compact = compact,
-                        )
-                        Spacer(Modifier.height(10.dp))
-                    }
-                    if (state.hasMore) {
-                        item {
-                            Row(Modifier.fillMaxWidth().padding(16.dp), horizontalArrangement = Arrangement.Center) {
-                                OutlinedButton(onClick = viewModel::loadMore, enabled = !state.loadingMore, shape = RoundedCornerShape(10.dp)) {
-                                    Text(if (state.loadingMore) "Loading..." else "Load more")
+        Row(Modifier.padding(padding).fillMaxSize()) {
+            // One scrolling list holds the filters and the results so both fit on small screens.
+            LazyColumn(Modifier.weight(1f).fillMaxHeight(), contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp)) {
+                item { PageHeader(query, compact, onBack, onNavigate) }
+                item { ErrorMessage(state.error) }
+                item { SearchBar(query, viewModel) }
+                item { FilterRow(query, viewModel) }
+                item {
+                    Text(
+                        when {
+                            state.searching -> "Searching..."
+                            state.total != null -> "${state.total} sentence${if (state.total == 1) "" else "s"}"
+                            else -> ""
+                        },
+                        Modifier.padding(top = 16.dp, bottom = 12.dp),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+                when {
+                    state.searching -> item { LoadingIndicator(Modifier.fillMaxWidth().padding(32.dp)) }
+                    state.results.isEmpty() -> item { EmptyMessage("No examples match these filters.", Modifier.fillMaxWidth()) }
+                    else -> {
+                        items(state.results) { example ->
+                            ExampleCard(
+                                text = emphasize(example.text, query.text),
+                                translateWord = translateWord,
+                                translation = example.translation,
+                                audioUrl = example.audioUrl,
+                                direction = direction,
+                                playback = playback,
+                                compact = compact,
+                                onWordClick = openWord,
+                            )
+                            Spacer(Modifier.height(10.dp))
+                        }
+                        if (state.hasMore) {
+                            item {
+                                Row(Modifier.fillMaxWidth().padding(16.dp), horizontalArrangement = Arrangement.Center) {
+                                    OutlinedButton(onClick = viewModel::loadMore, enabled = !state.loadingMore, shape = RoundedCornerShape(10.dp)) {
+                                        Text(if (state.loadingMore) "Loading..." else "Load more")
+                                    }
                                 }
                             }
                         }
                     }
                 }
             }
+            val term = state.paneTerm
+            if (wide && term != null) {
+                Surface(
+                    Modifier.width(420.dp).fillMaxHeight().padding(top = 16.dp, end = 16.dp, bottom = 16.dp)
+                        .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)),
+                    shape = RoundedCornerShape(14.dp),
+                    color = MaterialTheme.colorScheme.surface,
+                ) {
+                    TermPane(query.language.id, term, onClose = viewModel::closePane, onOpenTerm = viewModel::openTerm, onNavigate = onNavigate)
+                }
+            }
         }
     }
+
+    val sheetTerm = state.paneTerm
+    val sheetLanguage = state.language
+    if (!wide && sheetOpen && sheetTerm != null && sheetLanguage != null) {
+        val close = { sheetOpen = false }
+        ModalBottomSheet(onDismissRequest = close, sheetState = rememberModalBottomSheetState()) {
+            TermPane(sheetLanguage.id, sheetTerm, onClose = close, onOpenTerm = viewModel::openTerm, onNavigate = onNavigate)
+        }
+    }
+}
+
+/** The term pane for [text], as the reader shows it; a new text opens a new form, the old one keeps saving on its own. */
+@Composable
+private fun TermPane(languageId: Long, text: String, onClose: () -> Unit, onOpenTerm: (String) -> Unit, onNavigate: (Route) -> Unit) {
+    val form = koinViewModel<TermFormViewModel>(key = "examples-term-$languageId-$text") { parametersOf(TermFormKey.ByText(languageId, text)) }
+    CollectEvents(form.events) { event ->
+        when (event) {
+            is TermFormEvent.Saved -> Unit
+            TermFormEvent.Deleted -> onClose()
+            is TermFormEvent.OpenParent -> onOpenTerm(event.text)
+        }
+    }
+    TermFormPanel(
+        viewModel = form,
+        modifier = Modifier.fillMaxSize(),
+        embedded = true,
+        onClose = { form.flush(); onClose() },
+        onDuplicateClick = { onNavigate(Route.EditTerm(it)) },
+        onOpenExamples = { id, term -> onNavigate(Route.Examples(id, term)) },
+        onManageDictionaries = { id -> onNavigate(Route.ManageDictionaries(id)) },
+    )
 }
 
 @Composable
@@ -282,7 +348,16 @@ private fun <T> Select(label: String, options: List<T>, selected: T, optionLabel
 }
 
 @Composable
-private fun ExampleCard(text: AnnotatedString, translateWord: suspend (String) -> String?, translation: String?, audioUrl: String?, direction: TextDirection, playback: AudioPlayback, compact: Boolean) {
+private fun ExampleCard(
+    text: AnnotatedString,
+    translateWord: suspend (String) -> String?,
+    translation: String?,
+    audioUrl: String?,
+    direction: TextDirection,
+    playback: AudioPlayback,
+    compact: Boolean,
+    onWordClick: (String) -> Unit,
+) {
     val colors = MaterialTheme.colorScheme
     val clipboard = LocalClipboardManager.current
     val playing = audioUrl != null && playback.isPlaying(audioUrl)
@@ -294,7 +369,12 @@ private fun ExampleCard(text: AnnotatedString, translateWord: suspend (String) -
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            HoverTranslatedText(text, translate = translateWord, style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction, lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.25))
+            HoverTranslatedText(
+                text,
+                translate = translateWord,
+                style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction, lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.25),
+                onWordClick = onWordClick,
+            )
             translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
         }
         Spacer(Modifier.width(16.dp))
