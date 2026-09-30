@@ -402,8 +402,9 @@ private fun buildParagraph(
                     style = style.copy(background = background, color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color.Unspecified)
                 }
             }
-            if (isHovered || isMarked) style = style.copy(textDecoration = TextDecoration.Underline)
-            if (isMarked) style = style.copy(background = theme.markedUnderline.copy(alpha = 0.35f))
+            if (isMarked) style = style.copy(textDecoration = TextDecoration.Underline, background = theme.markedUnderline.copy(alpha = 0.35f))
+            // The word under the mouse turns plain gray, whatever its status colour, so it reads as "pointed at".
+            else if (isHovered) style = SpanStyle(background = theme.readingText.copy(alpha = HOVER_ALPHA))
         }
         if (inSelection) style = style.copy(background = theme.selectionBackground)
         withStyle(style) {
@@ -413,3 +414,6 @@ private fun buildParagraph(
         spans.add(Span(start, length, itemIndex))
     }
 }
+
+/** How strongly the hovered word is tinted with the text colour: light gray on light themes, soft gray on dark ones. */
+private const val HOVER_ALPHA = 0.22f
