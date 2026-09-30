@@ -11,9 +11,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
 import androidx.compose.foundation.clickable
 import androidx.compose.ui.draw.clip
-import com.tayra.languages.core.ui.components.TextBackground
-import com.tayra.languages.core.ui.components.drawTextBackgrounds
-import androidx.compose.ui.draw.drawBehind
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.text.PlaceholderVerticalAlign
@@ -82,8 +79,7 @@ class ReadingTextCallbacks(
 )
 
 /** Where each item was placed within a paragraph's annotated string. */
-/** [background] is drawn behind the text as a rounded box, since span backgrounds can only be square. */
-private class Span(val start: Int, val end: Int, val itemIndex: Int, val background: Color = Color.Transparent)
+private class Span(val start: Int, val end: Int, val itemIndex: Int)
 
 /**
  * Renders a page as selectable, colour-coded text. Each paragraph is one [Text] so that
@@ -291,11 +287,6 @@ private fun ParagraphText(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = 6.dp)
-                .drawBehind {
-                    val result = layout ?: return@drawBehind
-                    // A layout from before the text changed would draw the boxes in the wrong places.
-                    if (result.layoutInput.text == text) drawTextBackgrounds(spans.map { TextBackground(it.start, it.end, it.background) }, result)
-                }
                 .pointerInput(callbacks) {
                     awaitPointerEventScope {
                         while (true) {
@@ -400,34 +391,27 @@ private fun buildParagraph(
         val isMarked = itemIndex in marked
         val isHovered = itemIndex == hovered
         var style = SpanStyle()
-        var background = Color.Transparent
         if (item.isWord) {
             val status = item.status
             val highlight = showHighlights || isHovered || isMarked
             if (highlight && status != TermStatus.WELL_KNOWN && status != TermStatus.IGNORED) {
-                val statusColor = colors.background(status)
+                val background = colors.background(status)
                 if (status == TermStatus.UNKNOWN && colors.unknownAsText) {
-                    style = style.copy(color = statusColor)
-                } else if (statusColor != Color.Transparent) {
-                    background = statusColor
-                    style = style.copy(color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color.Unspecified)
+                    style = style.copy(color = background)
+                } else if (background != Color.Transparent) {
+                    style = style.copy(background = background, color = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else Color.Unspecified)
                 }
             }
-            if (isMarked) {
-                style = style.copy(textDecoration = TextDecoration.Underline)
-                background = theme.markedUnderline.copy(alpha = 0.35f)
-            } else if (isHovered) {
-                // The word under the mouse turns plain gray, whatever its status colour, so it reads as "pointed at".
-                style = SpanStyle()
-                background = theme.readingText.copy(alpha = HOVER_ALPHA)
-            }
+            if (isMarked) style = style.copy(textDecoration = TextDecoration.Underline, background = theme.markedUnderline.copy(alpha = 0.35f))
+            // The word under the mouse turns plain gray, whatever its status colour, so it reads as "pointed at".
+            else if (isHovered) style = SpanStyle(background = theme.readingText.copy(alpha = HOVER_ALPHA))
         }
-        if (inSelection) background = theme.selectionBackground
+        if (inSelection) style = style.copy(background = theme.selectionBackground)
         withStyle(style) {
             if (item.isOverlapped) append("⁺")
             append(item.renderText)
         }
-        spans.add(Span(start, length, itemIndex, background))
+        spans.add(Span(start, length, itemIndex))
     }
 }
 

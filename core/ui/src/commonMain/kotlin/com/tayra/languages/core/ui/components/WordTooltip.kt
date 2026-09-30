@@ -16,7 +16,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.PointerEventType
@@ -24,6 +23,8 @@ import androidx.compose.ui.input.pointer.PointerType
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.IntOffset
@@ -100,19 +101,21 @@ fun HoverTranslatedText(
     var hovered by remember(text) { mutableStateOf<HoveredWord?>(null) }
     val tint = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.22f)
     val range = hovered?.range
-    // Backgrounds are drawn rounded behind the text; the hovered word's gray goes on top of any highlight.
-    val (plain, highlights) = remember(text) { text.splitBackgrounds() }
-    val backgrounds = remember(highlights, range, tint) {
-        if (range == null) highlights else highlights + TextBackground(range.first, range.last + 1, tint)
+    // The same characters with the hovered word tinted gray, so the layout and word positions stay put.
+    val shown = remember(text, range, tint) {
+        if (range == null) text else buildAnnotatedString {
+            append(text)
+            addStyle(SpanStyle(background = tint), range.first, range.last + 1)
+        }
     }
     Box(modifier) {
         // The inner box wraps the text exactly, so the popup's anchor is the text itself.
         Box {
             Text(
-                plain,
+                shown,
                 style = style,
                 onTextLayout = { layout = it },
-                modifier = Modifier.drawBehind { layout?.let { drawTextBackgrounds(backgrounds, it) } }.pointerInput(text) {
+                modifier = Modifier.pointerInput(text) {
                     awaitPointerEventScope {
                         while (true) {
                             val event = awaitPointerEvent(PointerEventPass.Initial)
