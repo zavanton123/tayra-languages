@@ -3,6 +3,8 @@ package com.tayra.languages.feature.reading
 import com.russhwolf.settings.MapSettings
 import kotlin.test.assertTrue
 import org.koin.dsl.module
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.semantics.SemanticsProperties
 import org.koin.core.context.stopKoin
 import org.koin.core.context.startKoin
 import org.junit.Rule
@@ -237,6 +239,34 @@ class ReadingHoverTest {
         rule.waitForIdle()
         Thread.sleep(500)
         assertEquals(listOf("pt:floresta"), spoken.toList())
+    }
+
+    /** Dragging across words underlines the phrase while the button is still held, and nothing else changes colour. */
+    @Test
+    fun aPhraseIsUnderlinedWhileItIsBeingDragged() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        val paragraph = rule.onNodeWithText("lobo dorme", substring = true)
+        val layouts = mutableListOf<TextLayoutResult>()
+        paragraph.fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        val text = layouts.single().layoutInput.text.text
+        val padding = with(rule.density) { 6.dp.toPx() }
+        fun at(word: String): Offset = layouts.single().getBoundingBox(text.indexOf(word) + 1).let { Offset(it.center.x, it.center.y + padding) }
+        fun underlined(): String {
+            val shown = paragraph.fetchSemanticsNode().config[SemanticsProperties.Text].single()
+            return shown.spanStyles.filter { it.item.textDecoration == TextDecoration.Underline }.sortedBy { it.start }
+                .joinToString("") { shown.text.substring(it.start, it.end) }
+        }
+
+        paragraph.performMouseInput { moveTo(at("lobo")); press() }
+        paragraph.performMouseInput { moveTo(at("dorme")); moveTo(at("floresta")) }
+        rule.waitForIdle()
+        assertEquals("lobo dorme na floresta", underlined(), "underlined before the button is released")
+        paragraph.performMouseInput { release() }
+        rule.waitForIdle()
+        assertEquals("lobo dorme na floresta", underlined(), "still underlined while its term is open")
     }
 
     private fun silentWav(samples: Int = 800): ByteArray {

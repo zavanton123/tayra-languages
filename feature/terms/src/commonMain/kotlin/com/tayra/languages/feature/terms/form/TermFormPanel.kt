@@ -383,19 +383,19 @@ val LanguageDictionary.displayName: String
     get() = url.substringAfter("://").substringBefore("/").removePrefix("www.").ifEmpty { "Dictionary" }
 
 /**
- * Status buttons 1–5, W and I. [expanded] stretches them to fill the row; [large] draws fixed
- * squares instead of compact chips.
+ * Status buttons 1–5, W and I. [expanded] stretches them to fill the row; [large] also fills
+ * the row, with taller buttons, instead of compact chips.
  */
 @Composable
 fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false, large: Boolean = false) {
     val colors = TayraTheme.current.statusColors
-    Row(if (expanded) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (expanded || large) 8.dp else 4.dp)) {
+    Row(if (expanded || large) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (expanded || large) 8.dp else 4.dp)) {
         TermStatus.selectable.forEach { status ->
             val isSelected = status == selected
             val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
             Box(
                 Modifier
-                    .then(if (expanded) Modifier.weight(1f).height(48.dp) else if (large) Modifier.size(52.dp) else Modifier)
+                    .then(if (expanded) Modifier.weight(1f).height(48.dp) else if (large) Modifier.weight(1f).height(52.dp) else Modifier)
                     .clip(RoundedCornerShape(if (expanded || large) 8.dp else 4.dp))
                     .background(background)
                     .border(if (isSelected) 2.dp else 0.dp, if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, RoundedCornerShape(if (expanded || large) 8.dp else 4.dp))
