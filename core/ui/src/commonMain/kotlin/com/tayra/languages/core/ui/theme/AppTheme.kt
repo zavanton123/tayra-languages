@@ -27,8 +27,6 @@ data class AppTheme(
     val readingBackground: Color,
     val readingText: Color,
     val hoverUnderline: Color,
-    /** The frame drawn around selected words in the reader. */
-    val selectionFrame: Color,
 )
 
 object AppThemes {
@@ -77,7 +75,6 @@ object AppThemes {
         readingBackground = Color.White,
         readingText = Color.Black,
         hoverUnderline = Color(0xFF1F5FFF),
-        selectionFrame = Color(0xFF7C8591),
     )
 
     val sepia = default.copy(
@@ -128,7 +125,6 @@ object AppThemes {
         readingBackground = Color(0xFF48484A),
         readingText = Color(0xFFC4C8CE),
         hoverUnderline = Color(0xFFACACF9),
-        selectionFrame = Color(0xFFA9B0BA),
     )
 
     val night = darkSlate.copy(
