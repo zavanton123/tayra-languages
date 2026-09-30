@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.StateFlow
 /** Which service turns sentences and terms into the native language. */
 /** In the order the engines are offered; stored by name, so the order can change freely. */
 enum class TranslationEngine(val label: String) {
-    ARGOS("On this device (offline)"),
+    ARGOS("On this device (offline, free)"),
     MYMEMORY("MyMemory (online, free)"),
     GOOGLE("Google Translate (online, API key)"),
     AZURE("Microsoft Translator (online, API key)"),
@@ -15,6 +15,10 @@ enum class TranslationEngine(val label: String) {
     DEEPL("DeepL (online, API key)"),
     QWEN("Qwen-MT (online, API key)"),
 }
+
+/** The engine's name in menus; the on-device one is named after this platform's translator, [localTranslatorName]. */
+fun TranslationEngine.label(localTranslatorName: String?): String =
+    if (this == TranslationEngine.ARGOS && localTranslatorName != null) "$localTranslatorName (offline, free)" else label
 
 /**
  * The engine that will actually answer: Argos needs a local translator, Google needs a key,
