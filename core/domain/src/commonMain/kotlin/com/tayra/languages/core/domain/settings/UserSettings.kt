@@ -25,6 +25,8 @@ data class UserSettings(
     val sideBySideTranslations: Boolean = false,
     /** A play button before each sentence that reads it aloud. */
     val showSentencePlay: Boolean = true,
+    /** Clicking or tapping a word in the reader reads it aloud. */
+    val speakWordOnClick: Boolean = false,
     /** The engine that reads sentences and terms aloud. */
     val speechEngine: SpeechEngine = SpeechEngine.SYSTEM,
     /** The chosen voice per engine and language, keyed `ENGINE:code`. */

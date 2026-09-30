@@ -29,6 +29,23 @@ import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.LocalSpeech
+import org.koin.core.module.dsl.viewModel
+import com.tayra.languages.core.domain.service.DictionaryService
+import com.tayra.languages.core.domain.service.ExampleSearchResult
+import com.tayra.languages.core.domain.service.ExampleSearchQuery
+import com.tayra.languages.core.domain.service.ExampleSentencesProvider
+import com.tayra.languages.core.domain.repository.DictionaryRepository
+import com.tayra.languages.core.domain.dictionary.DictionaryEntry
+import com.tayra.languages.core.domain.dictionary.DictionaryPack
+import com.tayra.languages.core.domain.dictionary.DictionaryPackStore
+import com.tayra.languages.feature.terms.form.TermFormViewModel
+import com.tayra.languages.feature.terms.form.TermFormKey
+import androidx.compose.ui.test.click
+import kotlinx.coroutines.flow.MutableStateFlow
+import com.tayra.languages.core.domain.service.SpeechVoice
+import com.tayra.languages.core.domain.service.SpeechPackage
+import com.tayra.languages.core.domain.service.SpeechEngine
+import com.tayra.languages.core.domain.service.LocalSpeechEngine
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.SentenceTranslator
@@ -54,6 +71,9 @@ class ReadingHoverTest {
     val rule = createComposeRule()
 
     private lateinit var settings: SettingsRepositoryImpl
+
+    /** What the term pane needs when a click opens it on the real screen. */
+    private lateinit var termPane: org.koin.core.module.Module
 
     @After
     fun tearDown() {
@@ -82,11 +102,34 @@ class ReadingHoverTest {
             override suspend fun isAvailable(dictionary: DictionaryId) = false
             override suspend fun lookup(dictionary: DictionaryId, text: String) = error("not installed")
         }
+        val words = WordTranslationService(terms, offline, engine, settings)
+        termPane = module {
+            single { words }
+            viewModel { (key: TermFormKey) ->
+                val noPacks = object : DictionaryPackStore {
+                    override suspend fun installedSize(pack: DictionaryPack): Long? = null
+                    override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) = error("offline")
+                    override suspend fun remove(pack: DictionaryPack) {}
+                }
+                val noEntries = object : DictionaryRepository {
+                    override suspend fun isAvailable(dictionary: DictionaryId) = false
+                    override suspend fun entries(dictionary: DictionaryId, wordLc: String) = emptyList<DictionaryEntry>()
+                    override suspend fun lemmas(dictionary: DictionaryId, formLc: String) = emptyList<String>()
+                    override suspend fun close(dictionary: DictionaryId) {}
+                }
+                val noExamples = object : ExampleSentencesProvider {
+                    override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult.EMPTY
+                    override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
+                }
+                val dictionaries = DictionaryService(noPacks, noEntries)
+                TermFormViewModel(key, termService, terms, languages, settings, engine, noExamples, dictionaries, dictionaries)
+            }
+        }
         val vm = ReadingViewModel(
             bookId, null, readingService, bookService, books, termService,
             TermPopupBuilder(terms, languages, readingService), BookStatsService(books, languages, settings, readingService), settings,
             object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null },
-            LocalTranslation(null), LocalSpeech(emptyList()), WordTranslationService(terms, offline, engine, settings),
+            LocalTranslation(null), LocalSpeech(emptyList()), words,
         )
         withTimeout(10_000) { while (vm.state.value.items.none { it.isWord }) delay(20) }
         return vm
@@ -147,5 +190,62 @@ class ReadingHoverTest {
         val vm = reader()
         vm.startSelection(vm.state.value.items[vm.index("lobo")].index)
         assertNull(vm.hoverCard("floresta"))
+    }
+
+    /** With "Speak word on click" on, a click reads the word aloud with the chosen engine; with it off, nothing is said. */
+    @Test
+    fun clickingAWordSpeaksItWhenTheSettingIsOn() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        val spoken = java.util.Collections.synchronizedList(mutableListOf<String>())
+        val piper = object : LocalSpeechEngine {
+            override val engine = SpeechEngine.PIPER
+            override val displayName = "Fake Piper"
+            override val description = ""
+            override val packagesDescription = ""
+            override val hasRuntimeSetup = false
+            override val progress = MutableStateFlow<String?>(null)
+            override suspend fun status() = "ready"
+            override suspend fun isReady() = true
+            override suspend fun setUp() = "ready"
+            override suspend fun packages() = emptyList<SpeechPackage>()
+            override suspend fun installPackage(id: String) {}
+            override suspend fun removePackage(id: String) {}
+            override suspend fun voices(languageCode: String) = emptyList<SpeechVoice>()
+            override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray {
+                spoken += "$languageCode:$text"
+                return silentWav()
+            }
+        }
+        runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER, speakWordOnClick = true) } }
+        startKoin { modules(module { single { LocalSpeech(listOf(piper)) }; single<SettingsRepository> { settings } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        val paragraph = rule.onNodeWithText("lobo dorme", substring = true)
+        val layouts = mutableListOf<TextLayoutResult>()
+        paragraph.fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        val text = layouts.single().layoutInput.text.text
+        fun click(word: String) {
+            val box = layouts.single().getBoundingBox(text.indexOf(word) + 1)
+            paragraph.performMouseInput { click(Offset(box.center.x, box.center.y + 6.dp.toPx())) }
+        }
+
+        click("floresta")
+        rule.waitUntil(5_000) { "pt:floresta" in spoken }
+
+        runBlocking { settings.update { it.copy(speakWordOnClick = false) } }
+        click("lobo")
+        rule.waitForIdle()
+        Thread.sleep(500)
+        assertEquals(listOf("pt:floresta"), spoken.toList())
+    }
+
+    private fun silentWav(samples: Int = 800): ByteArray {
+        val data = samples * 2
+        val header = java.nio.ByteBuffer.allocate(44).order(java.nio.ByteOrder.LITTLE_ENDIAN).apply {
+            put("RIFF".toByteArray()); putInt(36 + data); put("WAVE".toByteArray())
+            put("fmt ".toByteArray()); putInt(16); putShort(1); putShort(1); putInt(16_000); putInt(32_000); putShort(2); putShort(16)
+            put("data".toByteArray()); putInt(data)
+        }.array()
+        return header + ByteArray(data)
     }
 }
