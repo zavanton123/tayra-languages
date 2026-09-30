@@ -503,7 +503,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
 
             if (viewModel.hasRuntimeSetup) Section("Runtime")
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                OutlinedButton(onClick = viewModel::check, enabled = !busy) { Text(if (busy) "Working..." else "Check installation") }
+                OutlinedButton(onClick = viewModel::check, enabled = !busy) { Text(if (busy) "Working..." else if (viewModel.hasRuntimeSetup) "Check installation" else "Check models") }
                 if (viewModel.hasRuntimeSetup && !ready) Button(onClick = viewModel::install, enabled = !busy) { Text("Install ${viewModel.localName}") }
             }
             if (viewModel.hasRuntimeSetup && !ready) {
