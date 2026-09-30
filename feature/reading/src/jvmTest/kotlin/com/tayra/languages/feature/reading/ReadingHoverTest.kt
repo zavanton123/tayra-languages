@@ -3,7 +3,6 @@ package com.tayra.languages.feature.reading
 import com.russhwolf.settings.MapSettings
 import kotlin.test.assertTrue
 import org.koin.dsl.module
-import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.semantics.SemanticsProperties
 import org.koin.core.context.stopKoin
 import org.koin.core.context.startKoin
@@ -256,7 +255,7 @@ class ReadingHoverTest {
         fun at(word: String): Offset = layouts.single().getBoundingBox(text.indexOf(word) + 1).let { Offset(it.center.x, it.center.y + padding) }
         fun underlined(): String {
             val shown = paragraph.fetchSemanticsNode().config[SemanticsProperties.Text].single()
-            return shown.spanStyles.filter { it.item.textDecoration == TextDecoration.Underline }.sortedBy { it.start }
+            return shown.getStringAnnotations(SELECTED_ANNOTATION, 0, shown.length).sortedBy { it.start }
                 .joinToString("") { shown.text.substring(it.start, it.end) }
         }
 
