@@ -9,6 +9,7 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Book
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.model.ZWS_STRING
 import com.tayra.languages.core.domain.render.RenderedPage
 import com.tayra.languages.core.domain.render.TextItem
 import com.tayra.languages.core.domain.repository.BookRepository
@@ -557,6 +558,14 @@ class ReadingViewModel(
     fun toggleSplitSentences() = updateSettings { it.copy(splitSentences = !it.splitSentences) }
     fun toggleSideBySideTranslations() = updateSettings { it.copy(sideBySideTranslations = !it.sideBySideTranslations) }
     fun toggleSentencePlay() = updateSettings { it.copy(showSentencePlay = !it.showSentencePlay) }
+
+    /** The word at [itemIndex] when a click on it should read it aloud. */
+    fun wordToSpeak(itemIndex: Int): String? {
+        val s = _state.value
+        val item = s.items.getOrNull(itemIndex)?.takeIf { it.isWord } ?: return null
+        if (s.selecting || !settingsRepository.current.speakWordOnClick) return null
+        return item.text.replace(ZWS_STRING, "").takeIf { it.isNotBlank() }
+    }
 
     /** Speech engines the drawer can offer here. */
     val speechEngines: List<SpeechEngine> = localSpeech.available

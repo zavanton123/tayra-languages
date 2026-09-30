@@ -677,11 +677,19 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
     val playingSentence by speaker.playing.collectAsState()
     // The callbacks are built once, so they read the state through this rather than the value of the first frame.
     val current by rememberUpdatedState(state)
+    val speakWord by rememberUpdatedState { index: Int -> viewModel.wordToSpeak(index)?.let { speaker.speak(it, speechLanguage) } }
     val callbacks = remember(viewModel) {
         ReadingTextCallbacks(
-            onClick = { index, shift -> viewModel.onWordClick(index, shift); focusText() },
+            onClick = { index, shift ->
+                if (!shift) speakWord(index)
+                viewModel.onWordClick(index, shift)
+                focusText()
+            },
             onSecondaryClick = { index -> viewModel.markToLearn(index); focusText() },
-            onTap = { index -> viewModel.onWordTap(index) },
+            onTap = { index ->
+                speakWord(index)
+                viewModel.onWordTap(index)
+            },
             onLongPress = { index ->
                 val tokenIndex = current.items[index].index
                 if (!viewModel.state.value.selecting) viewModel.startSelection(tokenIndex) else viewModel.endSelection(tokenIndex, copy = false)
