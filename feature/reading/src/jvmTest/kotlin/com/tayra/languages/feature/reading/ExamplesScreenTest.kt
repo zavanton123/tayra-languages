@@ -44,6 +44,9 @@ import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.delay
+import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
+import com.tayra.languages.core.domain.service.SentenceAudio
 import org.junit.After
 import org.junit.Rule
 import org.koin.core.context.startKoin
@@ -136,7 +139,7 @@ class ExamplesScreenTest {
             rule.onNodeWithContentDescription("Play recording").performClick()
             rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Loading recording").fetchSemanticsNodes().isNotEmpty() }
             rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Loading recording").fetchSemanticsNodes().isEmpty() }
-            assertEquals(emptyList(), spoken.toList(), "a recording that arrives is not read aloud")
+            assertEquals(false, "pt:Acabou o tempo." in spoken, "a recording that arrives is not read aloud")
         } finally {
             server.stop(0)
         }
@@ -162,7 +165,20 @@ class ExamplesScreenTest {
         rule.waitUntil(5_000) { "pt:Acabou o tempo." in spoken }
     }
 
-    private fun show(sentences: List<ExampleSentence>, paneSentences: List<ExampleSentence> = emptyList()) {
+    /** An example without a recording is read ahead of time: its button spins, then plays at once. */
+    @Test
+    fun readAloudExamplesArePreparedBeforeTheyAreClicked() {
+        show(listOf(ExampleSentence(text = "Eu não tenho tempo.", translation = null)), speechDelayMs = 1_000)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Preparing speech").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(listOf("pt:Eu não tenho tempo."), spoken.toList(), "made before any click")
+
+        rule.onNodeWithContentDescription("Read aloud").performClick()
+        rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, spoken.size, "the prepared audio is played, not made again")
+    }
+
+    private fun show(sentences: List<ExampleSentence>, paneSentences: List<ExampleSentence> = emptyList(), speechDelayMs: Long = 0) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-examples", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider)
@@ -193,7 +209,8 @@ class ExamplesScreenTest {
         val termService = TermService(terms, languages)
         startKoin {
             modules(module {
-                single { LocalSpeech(listOf(RecordingSpeech(spoken))) }
+                single { LocalSpeech(listOf(RecordingSpeech(spoken, speechDelayMs))) }
+                single { SentenceAudio(get(), settings, MemorySpeechAudioCache()) }
                 single<SettingsRepository> { settings }
                 single { WordTranslationService(terms, dictionaries, engine, settings) }
                 // The pane has its own example list, so its buttons never match the screen's by accident.
@@ -211,7 +228,7 @@ class ExamplesScreenTest {
     private fun termField(text: String) = rule.onAllNodes(hasSetTextAction() and hasText(text)).fetchSemanticsNodes().isNotEmpty()
 
     /** A Piper stand-in that notes what it reads and returns a short silent WAV. */
-    private class RecordingSpeech(private val spoken: MutableList<String>) : LocalSpeechEngine {
+    private class RecordingSpeech(private val spoken: MutableList<String>, private val delayMs: Long) : LocalSpeechEngine {
         override val engine = SpeechEngine.PIPER
         override val displayName = "Fake Piper"
         override val description = ""
@@ -226,6 +243,7 @@ class ExamplesScreenTest {
         override suspend fun removePackage(id: String) {}
         override suspend fun voices(languageCode: String) = emptyList<SpeechVoice>()
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray {
+            delay(delayMs)
             spoken += "$languageCode:$text"
             val data = 1600
             val header = java.nio.ByteBuffer.allocate(44).order(java.nio.ByteOrder.LITTLE_ENDIAN).apply {

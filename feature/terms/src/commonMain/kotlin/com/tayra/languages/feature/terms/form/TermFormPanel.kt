@@ -50,6 +50,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.material3.CircularProgressIndicator
+import com.tayra.languages.feature.terms.examples.PrepareSpeech
 import com.tayra.languages.feature.terms.examples.rememberExampleAudio
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
@@ -648,6 +649,7 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> language?.let { wordTranslations.translate(it, word) } }
     val languageCode = language?.let { LanguageCodes.codeFor(it.name) }
+    audio.PrepareSpeech(if (expanded) state.examples else state.examples.take(VISIBLE_EXAMPLES), languageCode)
     val total = state.examplesTotal ?: state.examples.size
     val canOpen = onOpenExamples != null && languageId != null && term.isNotBlank()
 

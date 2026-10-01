@@ -30,10 +30,10 @@ class MemorySpeechAudioCache : SpeechAudioCache {
 enum class SentenceAudioState { PREPARING, READY }
 
 /**
- * Synthesizes the sentences of the open text ahead of time with the local speech engine, so a
- * sentence plays the moment it is asked for. The system voice speaks directly and needs none of
- * this. Audio is cached per engine, voice, speed and language, and dropped when another text
- * (book) is opened.
+ * Synthesizes sentences ahead of time with the local speech engine, so a sentence plays the
+ * moment it is asked for: the reader's page and the examples of the term pane and the Examples
+ * screen. The system voice speaks directly and needs none of this. Audio is cached per engine,
+ * voice, speed and language, and dropped when another text (book) is opened.
  */
 class SentenceAudio(
     private val localSpeech: LocalSpeech,
@@ -42,30 +42,42 @@ class SentenceAudio(
 ) {
     private val _states = MutableStateFlow<Map<String, SentenceAudioState>>(emptyMap())
 
-    /** The sentences of the latest [prepare], by text; a sentence missing here plays as before. */
+    /** Prepared and preparing sentences, by text; a sentence missing here plays as before. */
     val states: StateFlow<Map<String, SentenceAudioState>> = _states.asStateFlow()
 
     /** One synthesis at a time: the local engines run a single worker each. */
     private val synthesis = Mutex()
     private var bookId: Long? = null
 
+    /** The engine, voices and speed the states were made with; other settings make other audio. */
+    private var configuration: String? = null
+
     /**
-     * Prepares [sentences] of book [bookId] one after another, in the caller's coroutine; the
-     * caller cancels it when the page or the speech settings change. Opening another book first
-     * empties the cache.
+     * Prepares [sentences] one after another, in the caller's coroutine, which cancels it when what
+     * it shows changes. Several callers may prepare at once; they take turns at the engine. Passing
+     * the [bookId] of a book other than the last one first empties the cache.
      */
-    suspend fun prepare(bookId: Long, sentences: List<String>, languageCode: String?) {
-        if (this.bookId != bookId) {
+    suspend fun prepare(sentences: List<String>, languageCode: String?, bookId: Long? = null) {
+        if (bookId != null && this.bookId != bookId) {
             this.bookId = bookId
             cache.clear()
-        }
-        val wanted = sentences.filter { it.any(Char::isLetter) }.distinct()
-        if (languageCode == null || engine() == null) {
             _states.value = emptyMap()
-            return
         }
-        _states.value = wanted.associateWith { if (cache.read(keyOf(it, languageCode) ?: "") != null) SentenceAudioState.READY else SentenceAudioState.PREPARING }
-        for (sentence in wanted) audioFor(sentence, languageCode)
+        val configuration = configuration()
+        if (configuration != this.configuration) {
+            this.configuration = configuration
+            _states.value = emptyMap()
+        }
+        if (configuration == null || languageCode == null) return
+        val wanted = sentences.filter { it.any(Char::isLetter) }.distinct()
+        val marks = wanted.associateWith { if (cache.read(keyOf(it, languageCode) ?: "") != null) SentenceAudioState.READY else SentenceAudioState.PREPARING }
+        _states.update { it + marks }
+        try {
+            for (sentence in wanted) audioFor(sentence, languageCode)
+        } finally {
+            // Whatever this run did not get to is no longer under way.
+            _states.update { states -> states.filter { (text, state) -> text !in marks || state != SentenceAudioState.PREPARING } }
+        }
     }
 
     /**
@@ -95,6 +107,12 @@ class SentenceAudio(
     }
 
     private fun engine(): LocalSpeechEngine? = localSpeech.find(settings.current.speechEngine)
+
+    private fun configuration(): String? {
+        val engine = engine() ?: return null
+        val prefs = settings.current
+        return "${engine.engine.name}|${prefs.speechVoices}|${prefs.speechSpeed}"
+    }
 
     private fun keyOf(text: String, languageCode: String): String? {
         val engine = engine() ?: return null

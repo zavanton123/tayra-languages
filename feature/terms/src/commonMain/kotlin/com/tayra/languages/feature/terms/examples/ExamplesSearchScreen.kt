@@ -109,6 +109,7 @@ fun ExamplesSearchScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     val query = state.query
     val audio = rememberExampleAudio()
+    audio.PrepareSpeech(state.results, state.language?.let { LanguageCodes.codeFor(it.name) })
     val compact = LocalWindowWidth.current.isCompact
     val wide = LocalWindowWidth.current.isExpanded
     var sheetOpen by remember { mutableStateOf(false) }
