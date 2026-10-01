@@ -89,11 +89,12 @@ class ContinuousReading(private val speaker: Speaker) {
     }
 
     /**
-     * Something else took the speaker (a word read on click, say), so reading stops. The silence
-     * while the next page loads is expected and changes nothing.
+     * Something else took the speaker (a word read on click, say), so reading stops. Silence means
+     * nothing here: the speaker is silent for an instant whenever it moves from one sentence to
+     * the next, and while the next page loads; the end of a sentence comes through its callback.
      */
     fun speakerTaken(playing: String?) {
-        if (active && !readNewPage && playing != current) {
+        if (active && !readNewPage && playing != null && playing != current) {
             active = false
             readNewPage = false
         }

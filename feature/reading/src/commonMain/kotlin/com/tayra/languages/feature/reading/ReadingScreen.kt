@@ -64,6 +64,8 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.foundation.shape.CircleShape
@@ -759,7 +761,9 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
             .padding(horizontal = edgePadding, vertical = if (compact) 16.dp else 28.dp)
     }
     Box(Modifier.fillMaxSize()) {
-    Column(Modifier.fillMaxSize().verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
+    // The visible height, so the sentence being read can be scrolled to the middle of it.
+    var visibleHeight by remember { mutableStateOf(0) }
+    Column(Modifier.fillMaxSize().onSizeChanged { visibleHeight = it.height }.verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
         Column(cardModifier) {
             if (!focus) {
                 Text(
@@ -794,6 +798,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 readingSentence = if (state.settings.showSentencePlay) playingSentence ?: continuous.current else null,
                 readingHeard = playingSentence != null,
                 followReading = continuous.active,
+                visibleHeight = visibleHeight,
                 edgePadding = edgePadding,
                 callbacks = callbacks,
             )
