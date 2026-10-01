@@ -58,8 +58,6 @@ data class TermFormUiState(
     val dirty: Boolean = false,
     val lookingUpTranslation: Boolean = false,
     val translationSuggested: Boolean = false,
-    /** The service the suggested translation came from, for the hint under the field. */
-    val translationSource: String? = null,
     /** True once an autosave has persisted the latest edits. */
     val saved: Boolean = false,
     val examples: List<ExampleSentence> = emptyList(),
@@ -195,7 +193,7 @@ class TermFormViewModel(
     /** Appends a dictionary gloss to the translation. */
     fun addGloss(gloss: String) {
         update { d -> d.copy(translation = if (d.translation.isBlank()) gloss else "${d.translation.trimEnd()}; $gloss") }
-        _state.update { it.copy(translationSuggested = false, translationSource = null) }
+        _state.update { it.copy(translationSuggested = false) }
     }
 
     private fun loadExamples(text: String, language: Language?) {
@@ -216,7 +214,7 @@ class TermFormViewModel(
             val suggestion = translationProvider.suggest(text, language)
             _state.update { s ->
                 if (suggestion != null && s.draft.translation.isBlank()) {
-                    s.copy(lookingUpTranslation = false, translationSuggested = true, translationSource = suggestion.source, draft = s.draft.copy(translation = suggestion.text))
+                    s.copy(lookingUpTranslation = false, translationSuggested = true, draft = s.draft.copy(translation = suggestion.text))
                 } else {
                     s.copy(lookingUpTranslation = false)
                 }
@@ -230,7 +228,7 @@ class TermFormViewModel(
             val draft = transform(it.draft)
             textChanged = draft.text != it.draft.text
             val stillSuggested = it.translationSuggested && draft.translation == it.draft.translation
-            it.copy(draft = draft, error = null, duplicateOf = null, dirty = true, saved = false, translationSuggested = stillSuggested, translationSource = it.translationSource.takeIf { stillSuggested })
+            it.copy(draft = draft, error = null, duplicateOf = null, dirty = true, saved = false, translationSuggested = stillSuggested)
         }
         // Edits to the term text are saved with the next other change or on close, never mid-typing.
         if (!textChanged) scheduleAutosave()
