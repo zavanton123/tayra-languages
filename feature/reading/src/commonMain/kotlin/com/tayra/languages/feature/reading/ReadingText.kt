@@ -206,7 +206,7 @@ fun ReadingText(
                 }
                 // The background takes in the sentence's translation too, beside it or under it.
                 if (twoColumns) {
-                    Row(Modifier.padding(bottom = 6.dp).fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach), verticalAlignment = Alignment.Top) {
+                    Row(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING), verticalAlignment = Alignment.Top) {
                         if (onSpeakSentence != null) withButton(Modifier.weight(1f)) else Box(Modifier.weight(1f)) { sentence() }
                         Box(Modifier.width(24.dp))
                         Box(Modifier.weight(1f)) {
@@ -214,7 +214,7 @@ fun ReadingText(
                         }
                     }
                 } else if (perSentence) {
-                    Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach)) {
+                    Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach).padding(vertical = SENTENCE_ROW_PADDING)) {
                         if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else sentence()
                         if (translated) {
                             Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp)) {
@@ -270,7 +270,8 @@ private fun SpeakerCircle(playing: Boolean, preparing: Boolean, modifier: Modifi
 /**
  * Marks the sentence being read: a light rounded background drawn [reach] beyond its sides, into
  * the card's margin, so it spans the whole row (none for a flowing paragraph, whose words are
- * tinted instead); kept in view while [follow] is on.
+ * tinted instead); kept in view while [follow] is on. Drawn, not laid out, so nothing moves as the
+ * highlight moves on.
  */
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
@@ -280,12 +281,15 @@ private fun Modifier.followed(isReading: Boolean, follow: Boolean, tint: Color, 
     if (!isReading || tint == Color.Transparent) return bringIntoViewRequester(requester)
     return bringIntoViewRequester(requester).drawBehind {
         val side = reach.toPx()
-        drawRoundRect(tint, topLeft = Offset(-side, 0f), size = Size(size.width + side * 2, size.height), cornerRadius = CornerRadius(10.dp.toPx()))
+        drawRoundRect(tint, topLeft = Offset(-side, 0f), size = Size(size.width + side * 2, size.height), cornerRadius = CornerRadius(12.dp.toPx()))
     }
 }
 
 /** How far the highlight stops short of the card's border. */
 private val HIGHLIGHT_INSET = 8.dp
+
+/** Room above and below every sentence on its own line, which the highlight fills too. */
+private val SENTENCE_ROW_PADDING = 6.dp
 
 /** How strongly the sentence being heard is tinted with the text colour. */
 private const val HEARD_TINT_ALPHA = 0.1f
