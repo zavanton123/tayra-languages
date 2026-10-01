@@ -65,8 +65,6 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSort
 import com.tayra.languages.core.domain.service.YesNo
-import com.tayra.languages.core.ui.audio.AudioPlayback
-import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppMenu
@@ -83,13 +81,6 @@ import org.koin.core.parameter.parametersOf
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.material3.CircularProgressIndicator
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.CoroutineScope
-import com.tayra.languages.core.ui.audio.rememberSpeaker
-import com.tayra.languages.core.ui.audio.Speaker
-import com.tayra.languages.core.domain.service.ExampleSentence
-import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.collectAsState
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormKey
@@ -117,11 +108,7 @@ fun ExamplesSearchScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val query = state.query
-    val playback = rememberAudioPlayback()
-    val speaker = rememberSpeaker(koinInject(), koinInject())
-    val speaking by speaker.playing.collectAsState()
-    val synthesizing by speaker.working.collectAsState()
-    val scope = rememberCoroutineScope()
+    val audio = rememberExampleAudio()
     val compact = LocalWindowWidth.current.isCompact
     val wide = LocalWindowWidth.current.isExpanded
     var sheetOpen by remember { mutableStateOf(false) }
@@ -169,10 +156,8 @@ fun ExamplesSearchScreen(
                                 text = emphasize(example.text, query.text),
                                 translateWord = translateWord,
                                 translation = example.translation,
-                                playing = example.audioUrl?.let(playback::isPlaying) == true || speaking == example.text,
-                                loading = example.audioUrl?.let(playback::isLoading) == true || (speaking == example.text && synthesizing),
-                                recorded = example.audioUrl != null,
-                                onPlay = { playExample(example, LanguageCodes.codeFor(query.language.name), playback, speaker, scope) },
+                                sound = audio.soundOf(example),
+                                onPlay = { audio.toggle(example, LanguageCodes.codeFor(query.language.name)) },
                                 direction = direction,
                                 compact = compact,
                                 onWordClick = openWord,
@@ -213,23 +198,6 @@ fun ExamplesSearchScreen(
             TermPane(sheetLanguage.id, sheetTerm, onClose = close, onOpenTerm = viewModel::openTerm, onNavigate = onNavigate)
         }
     }
-}
-
-/**
- * Plays the example's recording, or reads it with the chosen speech engine and voice when it
- * has none or the recording fails to play; pressing it again stops either.
- */
-private fun playExample(example: ExampleSentence, languageCode: String?, playback: AudioPlayback, speaker: Speaker, scope: CoroutineScope) {
-    val url = example.audioUrl
-    if (speaker.playing.value == example.text || (url != null && playback.isPlaying(url))) {
-        speaker.stop()
-        playback.stop()
-        return
-    }
-    speaker.stop()
-    playback.stop()
-    if (url == null) speaker.speak(example.text, languageCode)
-    else playback.toggle(url) { scope.launch { speaker.speak(example.text, languageCode) } }
 }
 
 /** The term pane for [text], as the reader shows it; a new text opens a new form, the old one keeps saving on its own. */
@@ -385,11 +353,7 @@ private fun ExampleCard(
     text: AnnotatedString,
     translateWord: suspend (String) -> String?,
     translation: String?,
-    playing: Boolean,
-    /** The recording is downloading, or the speech engine is preparing the sentence. */
-    loading: Boolean,
-    /** Whether a recording plays rather than the speech engine. */
-    recorded: Boolean,
+    sound: ExampleSound,
     onPlay: () -> Unit,
     direction: TextDirection,
     compact: Boolean,
@@ -399,7 +363,7 @@ private fun ExampleCard(
     val clipboard = LocalClipboardManager.current
     Row(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
-            .background(if (playing) colors.primary.copy(alpha = 0.06f) else Color.Transparent)
+            .background(if (sound.playing) colors.primary.copy(alpha = 0.06f) else Color.Transparent)
             .border(1.dp, colors.outlineVariant, RoundedCornerShape(12.dp))
             .padding(horizontal = 16.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
@@ -415,18 +379,11 @@ private fun ExampleCard(
         }
         Spacer(Modifier.width(16.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            // A speaker's recording shows a speaking person; the speech engine has the reader's play triangle.
             ActionButton(
-                icon = if (recorded) AppIcons.RecordVoiceOver else AppIcons.PlayArrow,
-                description = when {
-                    loading && recorded -> "Loading recording"
-                    loading -> "Preparing speech"
-                    playing -> "Stop"
-                    recorded -> "Play recording"
-                    else -> "Read aloud"
-                },
-                active = playing,
-                loading = loading,
+                icon = sound.icon,
+                description = sound.description,
+                active = sound.playing,
+                loading = sound.loading,
                 onClick = onPlay,
             )
             if (!compact) {

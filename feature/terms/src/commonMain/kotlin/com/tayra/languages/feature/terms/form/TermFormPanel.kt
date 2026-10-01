@@ -47,6 +47,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.material3.CircularProgressIndicator
+import com.tayra.languages.feature.terms.examples.rememberExampleAudio
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -97,7 +101,6 @@ import com.tayra.languages.core.ui.components.HoverTranslatedText
 import org.koin.compose.koinInject
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.audio.SpeakButton
-import com.tayra.languages.core.ui.audio.rememberAudioPlayback
 import com.tayra.languages.core.ui.theme.TayraTheme
 import io.ktor.http.encodeURLParameter
 
@@ -542,13 +545,27 @@ private fun OutlineActionButton(label: String, onClick: () -> Unit) {
     }
 }
 
+/** A round icon button; [active] shows a stop square and [loading] a spinner instead of the icon. */
 @Composable
-private fun RoundIconButton(icon: androidx.compose.ui.graphics.vector.ImageVector, description: String, onClick: () -> Unit) {
+private fun RoundIconButton(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    description: String,
+    active: Boolean = false,
+    loading: Boolean = false,
+    onClick: () -> Unit,
+) {
     val colors = MaterialTheme.colorScheme
     Box(
-        Modifier.size(36.dp).clip(RoundedCornerShape(18.dp)).background(colors.primary.copy(alpha = 0.1f)).clickable(onClick = onClick),
+        Modifier.size(36.dp).clip(RoundedCornerShape(18.dp)).background(colors.primary.copy(alpha = if (active) 0.18f else 0.1f))
+            .clickable(onClick = onClick).semantics { contentDescription = description },
         contentAlignment = Alignment.Center,
-    ) { Icon(icon, contentDescription = description, tint = colors.primary, modifier = Modifier.size(20.dp)) }
+    ) {
+        when {
+            loading -> CircularProgressIndicator(Modifier.size(18.dp), color = colors.primary, strokeWidth = 2.dp)
+            active -> Box(Modifier.size(12.dp).background(colors.primary, RoundedCornerShape(2.dp)))
+            else -> Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
+        }
+    }
 }
 
 /** Offers to download the offline dictionary for the language pair when it is not on the device. */
@@ -628,9 +645,7 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
     var expanded by remember(term) { mutableStateOf(false) }
     val canExpand = state.examples.size > VISIBLE_EXAMPLES
     val languageId = language?.id
-    val playback = rememberAudioPlayback()
-    val synthesizer = rememberSpeaker(koinInject(), koinInject())
-    val speaking by synthesizer.playing.collectAsState()
+    val audio = rememberExampleAudio()
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> language?.let { wordTranslations.translate(it, word) } }
     val languageCode = language?.let { LanguageCodes.codeFor(it.name) }
@@ -670,13 +685,8 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
                                 style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
                                 modifier = Modifier.weight(1f).padding(end = 10.dp),
                             )
-                            val audio = example.audioUrl
-                            if (audio != null) {
-                                RoundIconButton(if (playback.isPlaying(audio)) Icons.Default.Close else AppIcons.VolumeUp, "Play recording") { playback.toggle(audio) }
-                            } else {
-                                val active = speaking == example.text
-                                RoundIconButton(if (active) AppIcons.Stop else AppIcons.VolumeUp, if (active) "Stop" else "Pronounce") { synthesizer.toggle(example.text, languageCode) }
-                            }
+                            val sound = audio.soundOf(example)
+                            RoundIconButton(sound.icon, sound.description, active = sound.playing, loading = sound.loading) { audio.toggle(example, languageCode) }
                         }
                     }
                     val translation = example.translation
