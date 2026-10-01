@@ -11,6 +11,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
 import androidx.compose.foundation.clickable
 import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.foundation.relocation.bringIntoViewRequester
+import androidx.compose.foundation.relocation.BringIntoViewRequester
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
@@ -121,12 +126,17 @@ fun ReadingText(
     playingSentence: String? = null,
     /** Sentences whose audio is still being made; their buttons show a spinner. */
     preparingSentences: Set<String> = emptySet(),
+    /** The sentence continuous reading is on, shown with a light background. */
+    readingSentence: String? = null,
+    /** Keeps [readingSentence] scrolled into view while reading runs. */
+    followReading: Boolean = false,
     /** The margin between the card's edge and this text; a sentence button leaves the same space before the text. */
     edgePadding: Dp = 16.dp,
 ) {
     var itemOffset = 0
     val perSentence = splitSentences || translations != null
     val twoColumns = translations != null && sideBySide
+    val readingTint = theme.readingText.copy(alpha = READING_TINT_ALPHA)
     Column(modifier) {
         page.paragraphs.forEach { paragraph ->
             // A run of items that shares one Text: the whole paragraph, or one sentence each.
@@ -142,9 +152,19 @@ fun ReadingText(
                     position += sentence.items.size
                 }
             }
+            // In a flowing paragraph the sentence being read is tinted word by word.
+            val readingRange: IntRange? = if (perSentence || readingSentence == null) null else {
+                var position = 0
+                paragraph.sentences.firstNotNullOfOrNull { sentence ->
+                    val range = position until position + sentence.items.size
+                    position += sentence.items.size
+                    range.takeIf { sentence.displayText == readingSentence }
+                }
+            }
             runs.forEach { (runItems, sentenceText) ->
                 val first = itemOffset
                 itemOffset += runItems.size
+                val isReading = readingSentence != null && (if (perSentence) sentenceText == readingSentence else readingRange != null)
                 val speakable = perSentence && onSpeakSentence != null && sentenceText.any { it.isLetter() }
                 val sentence: @Composable () -> Unit = {
                     ParagraphText(
@@ -155,6 +175,8 @@ fun ReadingText(
                         onSpeakSentence = onSpeakSentence,
                         playingSentence = playingSentence,
                         preparingSentences = preparingSentences,
+                        readingItems = readingRange,
+                        readingTint = readingTint,
                         firstItemIndex = first,
                         theme = theme,
                         showHighlights = showHighlights,
@@ -171,7 +193,7 @@ fun ReadingText(
                 val translated = translations != null && sentenceText.any { it.isLetter() }
                 // The button is centred on its sentence's text, so a translation under it stays out of the row.
                 val withButton: @Composable (Modifier) -> Unit = { rowModifier ->
-                    Row(rowModifier, verticalAlignment = Alignment.CenterVertically) {
+                    Row(rowModifier.followed(isReading, followReading, readingTint), verticalAlignment = Alignment.CenterVertically) {
                         PlayButton(sentenceText.takeIf { speakable }, sentenceText == playingSentence, sentenceText in preparingSentences, fontScale, edgePadding, onSpeakSentence!!)
                         Box(Modifier.weight(1f)) { sentence() }
                     }
@@ -188,7 +210,7 @@ fun ReadingText(
                     withButton(Modifier.fillMaxWidth())
                     if (translated) Box(Modifier.padding(start = playGutter(fontScale, edgePadding))) { TranslationLine(translations[sentenceText], theme, fontScale, lineHeight) }
                 } else {
-                    sentence()
+                    Box(Modifier.fillMaxWidth().followed(isReading, followReading, if (perSentence) readingTint else Color.Transparent)) { sentence() }
                     if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
                 }
             }
@@ -231,6 +253,21 @@ private fun SpeakerCircle(playing: Boolean, preparing: Boolean, modifier: Modifi
         }
     }
 }
+
+/**
+ * Marks the sentence being read: a light rounded background (none for a flowing paragraph, whose
+ * words are tinted instead), and kept in view while [follow] is on.
+ */
+@OptIn(ExperimentalFoundationApi::class)
+@Composable
+private fun Modifier.followed(isReading: Boolean, follow: Boolean, tint: Color): Modifier {
+    val requester = remember { BringIntoViewRequester() }
+    LaunchedEffect(isReading, follow) { if (isReading && follow) requester.bringIntoView() }
+    return bringIntoViewRequester(requester).then(if (isReading && tint != Color.Transparent) Modifier.background(tint, RoundedCornerShape(8.dp)) else Modifier)
+}
+
+/** How strongly the sentence being read is tinted with the text colour. */
+private const val READING_TINT_ALPHA = 0.08f
 
 /** The translation under a sentence: a spinner while it loads, nothing when the service has none. */
 @Composable
@@ -277,11 +314,14 @@ private fun ParagraphText(
     playingSentence: String? = null,
     preparingSentences: Set<String> = emptySet(),
     trimLeadingSpace: Boolean = false,
+    /** Local positions of the items of the sentence being read, tinted where they have no colour of their own. */
+    readingItems: IntRange? = null,
+    readingTint: Color = Color.Transparent,
 ) {
     val spans = remember(items) { mutableListOf<Span>() }
-    val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex, inlinePlay.keys, trimLeadingSpace) {
+    val text = remember(items, theme, showHighlights, marked, hovered, selection, firstItemIndex, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint) {
         spans.clear()
-        buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans, inlinePlay.keys, trimLeadingSpace)
+        buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans, inlinePlay.keys, trimLeadingSpace, readingItems, readingTint)
     }
     val primary = MaterialTheme.colorScheme.primary
     val inlineContent = remember(inlinePlay, onSpeakSentence, primary, playingSentence, preparingSentences) {
@@ -423,6 +463,8 @@ private fun buildParagraph(
     spans: MutableList<Span>,
     playBefore: Set<Int> = emptySet(),
     trimLeadingSpace: Boolean = false,
+    readingItems: IntRange? = null,
+    readingTint: Color = Color.Transparent,
 ): AnnotatedString = buildAnnotatedString {
     val colors = theme.statusColors
     // Leading blank items still get (empty) spans, so item positions stay as they are.
@@ -451,6 +493,7 @@ private fun buildParagraph(
         }
         // Selected words and phrases, including one still being dragged over, are underlined and keep their colours.
         val underlined = (isMarked && item.isWord) || inSelection
+        if (readingItems != null && i in readingItems && style.background == Color.Unspecified) style = style.copy(background = readingTint)
         withStyle(style) {
             if (underlined) pushStringAnnotation(SELECTED_ANNOTATION, "")
             if (item.isOverlapped) append("⁺")

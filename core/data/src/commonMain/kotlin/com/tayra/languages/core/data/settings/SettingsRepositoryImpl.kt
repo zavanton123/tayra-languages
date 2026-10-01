@@ -62,6 +62,7 @@ class SettingsRepositoryImpl(
             sideBySideTranslations = store.getBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, defaults.sideBySideTranslations),
             showSentencePlay = store.getBoolean(Keys.SHOW_SENTENCE_PLAY, defaults.showSentencePlay),
             speakWordOnClick = store.getBoolean(Keys.SPEAK_WORD_ON_CLICK, defaults.speakWordOnClick),
+            autoPause = store.getBoolean(Keys.AUTO_PAUSE, defaults.autoPause),
             speechEngine = SpeechEngine.entries.firstOrNull { it.name == store.getString(Keys.SPEECH_ENGINE, "") } ?: defaults.speechEngine,
             speechVoices = store.getString(Keys.SPEECH_VOICES, "").split('\n').mapNotNull { line -> line.split('\t').takeIf { it.size == 2 }?.let { it[0] to it[1] } }.toMap(),
             speechSpeed = store.getFloat(Keys.SPEECH_SPEED, defaults.speechSpeed),
@@ -123,6 +124,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.SIDE_BY_SIDE_TRANSLATIONS, s.sideBySideTranslations)
         store.putBoolean(Keys.SHOW_SENTENCE_PLAY, s.showSentencePlay)
         store.putBoolean(Keys.SPEAK_WORD_ON_CLICK, s.speakWordOnClick)
+        store.putBoolean(Keys.AUTO_PAUSE, s.autoPause)
         store.putString(Keys.SPEECH_ENGINE, s.speechEngine.name)
         store.putString(Keys.SPEECH_VOICES, s.speechVoices.entries.joinToString("\n") { "${it.key}\t${it.value}" })
         store.putFloat(Keys.SPEECH_SPEED, s.speechSpeed)
@@ -163,6 +165,7 @@ class SettingsRepositoryImpl(
         const val SIDE_BY_SIDE_TRANSLATIONS = "reading_side_by_side_translations"
         const val SHOW_SENTENCE_PLAY = "reading_show_sentence_play"
         const val SPEAK_WORD_ON_CLICK = "reading_speak_word_on_click"
+        const val AUTO_PAUSE = "reading_auto_pause"
         const val SPEECH_ENGINE = "speech_engine"
         const val SPEECH_VOICES = "speech_voices"
         const val SPEECH_SPEED = "speech_speed"

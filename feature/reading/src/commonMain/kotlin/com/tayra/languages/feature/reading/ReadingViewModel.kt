@@ -594,6 +594,7 @@ class ReadingViewModel(
     fun toggleSplitSentences() = updateSettings { it.copy(splitSentences = !it.splitSentences) }
     fun toggleSideBySideTranslations() = updateSettings { it.copy(sideBySideTranslations = !it.sideBySideTranslations) }
     fun toggleSentencePlay() = updateSettings { it.copy(showSentencePlay = !it.showSentencePlay) }
+    fun toggleAutoPause() = updateSettings { it.copy(autoPause = !it.autoPause) }
 
     /** The word at [itemIndex] when a click on it should read it aloud. */
     fun wordToSpeak(itemIndex: Int): String? {

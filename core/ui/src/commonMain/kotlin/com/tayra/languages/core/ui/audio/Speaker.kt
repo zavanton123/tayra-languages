@@ -47,13 +47,21 @@ class Speaker(
         if (_playing.value == text) stop() else speak(text, languageCode)
     }
 
-    fun speak(text: String, languageCode: String?) {
+    /** Reads [text] aloud; [onFinished] runs when it has been read to the end, not when it is stopped or replaced. */
+    fun speak(text: String, languageCode: String?, onFinished: (() -> Unit)? = null) {
         stop()
         if (text.isBlank()) return
         val current = ++request
         _playing.value = text
         // Completions may arrive on audio threads; the state changes happen back on this scope's thread.
-        val done: () -> Unit = { scope.launch { if (request == current) _playing.value = null } }
+        val done: () -> Unit = {
+            scope.launch {
+                if (request == current) {
+                    _playing.value = null
+                    onFinished?.invoke()
+                }
+            }
+        }
         val prefs = settings.current
         val engine = local.find(prefs.speechEngine)
         if (engine == null || languageCode == null) {

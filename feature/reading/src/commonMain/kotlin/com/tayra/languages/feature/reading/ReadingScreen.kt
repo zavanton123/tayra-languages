@@ -64,6 +64,11 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.draw.shadow
+import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
@@ -683,7 +688,8 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
     }
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     val speechLanguage = state.language?.name?.let { LanguageCodes.codeFor(it) }
-    val speakSentence: (String) -> Unit = remember(speaker, speechLanguage) { { text -> speaker.toggle(text, speechLanguage) } }
+    val continuous = remember(speaker) { ContinuousReading(speaker) }
+    val speakSentence: (String) -> Unit = remember(continuous) { { text -> continuous.sentenceClicked(text) } }
     val playingSentence by speaker.playing.collectAsState()
     val synthesizing by speaker.working.collectAsState()
     val audioStates by viewModel.sentenceAudioStates.collectAsState()
@@ -693,6 +699,18 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
     }
     // The callbacks are built once, so they read the state through this rather than the value of the first frame.
     val current by rememberUpdatedState(state)
+    val pageSentences = remember(state.page) { state.page.paragraphs.flatMap { it.sentences }.map { it.displayText }.filter { it.any(Char::isLetter) } }
+    LaunchedEffect(pageSentences, speechLanguage) { continuous.setPage(pageSentences, speechLanguage) }
+    LaunchedEffect(continuous) { speaker.playing.collect(continuous::speakerTaken) }
+    SideEffect {
+        continuous.autoPause = state.settings.autoPause
+        continuous.turnPage = {
+            if (current.isLastPage) false else {
+                viewModel.goToRelativePage(1)
+                true
+            }
+        }
+    }
     val speakWord by rememberUpdatedState { index: Int -> viewModel.wordToSpeak(index)?.let { speaker.speak(it, speechLanguage) } }
     val callbacks = remember(viewModel) {
         ReadingTextCallbacks(
@@ -740,6 +758,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
             .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
             .padding(horizontal = edgePadding, vertical = if (compact) 16.dp else 28.dp)
     }
+    Box(Modifier.fillMaxSize()) {
     Column(Modifier.fillMaxSize().verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
         Column(cardModifier) {
             if (!focus) {
@@ -771,6 +790,8 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,
                 playingSentence = playingSentence,
                 preparingSentences = preparingSentences,
+                readingSentence = if (state.settings.showSentencePlay) continuous.current else null,
+                followReading = continuous.active,
                 edgePadding = edgePadding,
                 callbacks = callbacks,
             )
@@ -780,6 +801,42 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
             if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome)
         }
         Spacer(Modifier.height(120.dp))
+    }
+    if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
+        ContinuousControls(
+            playing = continuous.active,
+            autoPause = state.settings.autoPause,
+            onPlay = continuous::toggle,
+            onAutoPause = viewModel::toggleAutoPause,
+            modifier = Modifier.align(Alignment.BottomEnd).padding(24.dp),
+        )
+    }
+    }
+}
+
+/** The page's play button, to read on from sentence to sentence, with the auto-pause switch above it. */
+@Composable
+private fun ContinuousControls(playing: Boolean, autoPause: Boolean, onPlay: () -> Unit, onAutoPause: () -> Unit, modifier: Modifier) {
+    val colors = MaterialTheme.colorScheme
+    Column(modifier, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Box(
+            Modifier.size(40.dp).clip(CircleShape)
+                .background(if (autoPause) colors.primary else colors.surface)
+                .border(1.5.dp, colors.primary, CircleShape)
+                .clickable(onClick = onAutoPause)
+                .semantics { contentDescription = if (autoPause) "Auto-pause on" else "Auto-pause off" },
+            contentAlignment = Alignment.Center,
+        ) {
+            Text("AP", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold, color = if (autoPause) colors.onPrimary else colors.primary)
+        }
+        Box(
+            Modifier.size(60.dp).shadow(6.dp, CircleShape).clip(CircleShape).background(colors.primary)
+                .clickable(onClick = onPlay)
+                .semantics { contentDescription = if (playing) "Pause reading" else "Read the page" },
+            contentAlignment = Alignment.Center,
+        ) {
+            Icon(if (playing) AppIcons.Pause else AppIcons.PlayArrow, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(32.dp))
+        }
     }
 }
 
