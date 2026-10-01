@@ -11,6 +11,12 @@ import platform.Foundation.NSNotificationCenter
 import platform.Foundation.NSOperationQueue
 import platform.Foundation.NSURL
 import platform.darwin.NSObjectProtocol
+import kotlinx.cinterop.addressOf
+import kotlinx.cinterop.usePinned
+import platform.Foundation.NSData
+import platform.Foundation.NSTemporaryDirectory
+import platform.Foundation.create
+import platform.Foundation.writeToFile
 
 actual class AudioPlayer actual constructor() {
     private val player = AVPlayer()
@@ -30,6 +36,15 @@ actual class AudioPlayer actual constructor() {
         player.replaceCurrentItemWithPlayerItem(item)
         player.play()
         onStarted()
+    }
+
+    /** AVPlayer plays files, so a clip in memory goes through a temporary file. */
+    @OptIn(kotlinx.cinterop.ExperimentalForeignApi::class)
+    actual fun play(audio: ByteArray, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) {
+        val path = NSTemporaryDirectory() + "tayra-recording.mp3"
+        val written = audio.isNotEmpty() && audio.usePinned { NSData.create(bytes = it.addressOf(0), length = audio.size.toULong()) }.writeToFile(path, atomically = true)
+        if (!written) return onFinished(true)
+        play(NSURL.fileURLWithPath(path).absoluteString ?: return onFinished(true), onStarted, onFinished)
     }
 
     private fun finish(failed: Boolean = false) {

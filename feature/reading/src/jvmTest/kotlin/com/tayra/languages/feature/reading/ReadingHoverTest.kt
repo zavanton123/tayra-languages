@@ -3,6 +3,9 @@ package com.tayra.languages.feature.reading
 import com.russhwolf.settings.MapSettings
 import kotlin.test.assertTrue
 import org.koin.dsl.module
+import com.tayra.languages.core.data.network.createHttpClient
+import com.tayra.languages.core.data.network.KtorRecordingFetcher
+import com.tayra.languages.core.domain.service.ExampleRecordings
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onAllNodesWithContentDescription
@@ -114,6 +117,7 @@ class ReadingHoverTest {
         val words = WordTranslationService(terms, offline, engine, settings)
         termPane = module {
             single { words }
+            single { ExampleRecordings(KtorRecordingFetcher(createHttpClient()), MemorySpeechAudioCache()) }
             viewModel { (key: TermFormKey) ->
                 val noPacks = object : DictionaryPackStore {
                     override suspend fun installedSize(pack: DictionaryPack): Long? = null

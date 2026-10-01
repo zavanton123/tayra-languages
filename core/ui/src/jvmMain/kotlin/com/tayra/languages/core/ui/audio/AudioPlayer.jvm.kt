@@ -3,6 +3,8 @@ package com.tayra.languages.core.ui.audio
 import co.touchlab.kermit.Logger
 import javazoom.jl.player.Player
 import java.io.BufferedInputStream
+import java.io.InputStream
+import java.io.ByteArrayInputStream
 import java.net.URI
 import java.util.concurrent.Executors
 
@@ -13,18 +15,24 @@ actual class AudioPlayer actual constructor() {
     @Volatile
     private var current: Player? = null
 
-    actual fun play(url: String, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) {
+    actual fun play(url: String, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) =
+        start(url, { BufferedInputStream(URI(url).toURL().openStream()) }, onStarted, onFinished)
+
+    actual fun play(audio: ByteArray, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) =
+        start("a recording in memory", { ByteArrayInputStream(audio) }, onStarted, onFinished)
+
+    private fun start(what: String, open: () -> InputStream, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) {
         stop()
         executor.execute {
             var failed = false
             try {
-                val stream = BufferedInputStream(URI(url).toURL().openStream())
+                val stream = open()
                 val player = Player(stream)
                 current = player
                 onStarted()
                 player.play()
             } catch (e: Exception) {
-                Logger.w(e) { "Could not play audio $url" }
+                Logger.w(e) { "Could not play audio $what" }
                 failed = true
             } finally {
                 current = null

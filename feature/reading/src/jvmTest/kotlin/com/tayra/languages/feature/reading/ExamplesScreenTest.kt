@@ -44,6 +44,9 @@ import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.runBlocking
+import com.tayra.languages.core.data.network.createHttpClient
+import com.tayra.languages.core.data.network.KtorRecordingFetcher
+import com.tayra.languages.core.domain.service.ExampleRecordings
 import kotlinx.coroutines.delay
 import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
 import com.tayra.languages.core.domain.service.SentenceAudio
@@ -92,34 +95,34 @@ class ExamplesScreenTest {
     }
 
     /**
-     * Examples without a playable recording are read by the chosen speech engine and voice:
-     * one with no recording at once, one whose recording cannot be fetched after it fails.
+     * Examples without a playable recording are read by the chosen speech engine and voice, made
+     * ahead like the rest: one with no recording, and one whose recording cannot be downloaded.
      */
     @Test
     fun examplesWithoutAPlayableRecordingAreReadAloud() {
         show(
             listOf(
                 ExampleSentence(text = "Eu não tenho tempo.", translation = null),
-                // Nothing listens on port 1, so fetching this recording fails.
+                // Nothing listens on port 1, so downloading this recording fails.
                 ExampleSentence(text = "Acabou o tempo.", translation = null, audioUrl = "http://127.0.0.1:1/audio.mp3"),
             ),
         )
-        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().size == 1 }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().size == 2 }
+        rule.waitUntil(5_000) { spoken.toSet() == setOf("pt:Eu não tenho tempo.", "pt:Acabou o tempo.") }
 
-        rule.onNodeWithContentDescription("Read aloud").performClick()
-        rule.waitUntil(5_000) { "pt:Eu não tenho tempo." in spoken }
-
-        rule.onNodeWithContentDescription("Play recording").performClick()
-        rule.waitUntil(5_000) { "pt:Acabou o tempo." in spoken }
-        assertEquals(listOf("pt:Eu não tenho tempo.", "pt:Acabou o tempo."), spoken.toList())
+        rule.onAllNodesWithContentDescription("Read aloud")[1].performClick()
+        rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(2, spoken.size, "both were made ahead; the click plays the prepared audio")
     }
 
-    /** A recording that is slow to arrive shows a spinner until it starts, and its icon differs from read-aloud examples. */
+    /** A recording is downloaded before it is clicked: its button spins, then plays at once from memory. */
     @Test
-    fun aSlowRecordingShowsThatItIsLoading() {
+    fun recordingsAreDownloadedBeforeTheyAreClicked() {
+        val hits = java.util.concurrent.atomic.AtomicInteger()
         val server = HttpServer.create(InetSocketAddress("127.0.0.1", 0), 0).apply {
             createContext("/audio.mp3") { exchange ->
-                Thread.sleep(1_500)
+                hits.incrementAndGet()
+                Thread.sleep(1_000)
                 val body = ByteArray(64)
                 exchange.sendResponseHeaders(200, body.size.toLong())
                 exchange.responseBody.use { it.write(body) }
@@ -133,12 +136,14 @@ class ExamplesScreenTest {
                     ExampleSentence(text = "Eu não tenho tempo.", translation = null),
                 ),
             )
-            rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Play recording").fetchSemanticsNodes().size == 1 }
-            assertEquals(1, rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().size)
+            rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Loading recording").fetchSemanticsNodes().isNotEmpty() }
+            rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Play recording").fetchSemanticsNodes().isNotEmpty() }
+            assertEquals(1, hits.get(), "downloaded before any click")
 
             rule.onNodeWithContentDescription("Play recording").performClick()
-            rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Loading recording").fetchSemanticsNodes().isNotEmpty() }
-            rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Loading recording").fetchSemanticsNodes().isEmpty() }
+            rule.waitForIdle()
+            Thread.sleep(300)
+            assertEquals(1, hits.get(), "the downloaded recording is played, not downloaded again")
             assertEquals(false, "pt:Acabou o tempo." in spoken, "a recording that arrives is not read aloud")
         } finally {
             server.stop(0)
@@ -155,14 +160,13 @@ class ExamplesScreenTest {
                 ExampleSentence(text = "Acabou o tempo.", translation = null, audioUrl = "http://127.0.0.1:1/audio.mp3"),
             ),
         )
-        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().size == 1 }
-        assertEquals(1, rule.onAllNodesWithContentDescription("Play recording").fetchSemanticsNodes().size)
+        // The recording cannot be downloaded, so both examples end up read aloud, made ahead.
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().size == 2 }
+        rule.waitUntil(5_000) { spoken.toSet() == setOf("pt:Eu não tenho tempo.", "pt:Acabou o tempo.") }
 
         // The examples sit at the bottom of the scrolling pane, below the test window.
-        rule.onNodeWithContentDescription("Read aloud").performScrollTo().performClick()
-        rule.waitUntil(5_000) { "pt:Eu não tenho tempo." in spoken }
-        rule.onNodeWithContentDescription("Play recording").performScrollTo().performClick()
-        rule.waitUntil(5_000) { "pt:Acabou o tempo." in spoken }
+        rule.onAllNodesWithContentDescription("Read aloud")[0].performScrollTo().performClick()
+        rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** An example without a recording is read ahead of time: its button spins, then plays at once. */
@@ -210,7 +214,9 @@ class ExamplesScreenTest {
         startKoin {
             modules(module {
                 single { LocalSpeech(listOf(RecordingSpeech(spoken, speechDelayMs))) }
-                single { SentenceAudio(get(), settings, MemorySpeechAudioCache()) }
+                val cache = MemorySpeechAudioCache()
+                single { ExampleRecordings(KtorRecordingFetcher(createHttpClient()), cache) }
+                single { SentenceAudio(get(), settings, cache, get()) }
                 single<SettingsRepository> { settings }
                 single { WordTranslationService(terms, dictionaries, engine, settings) }
                 // The pane has its own example list, so its buttons never match the screen's by accident.
