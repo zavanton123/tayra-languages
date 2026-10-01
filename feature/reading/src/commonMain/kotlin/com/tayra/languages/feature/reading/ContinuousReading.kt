@@ -1,0 +1,140 @@
+package com.tayra.languages.feature.reading
+
+import androidx.compose.runtime.Stable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import com.tayra.languages.core.ui.audio.Speaker
+
+/**
+ * Reads the page aloud sentence after sentence, turning to the next page at the end of one.
+ * With [autoPause] it stops after each sentence, and the next [play] reads the following one.
+ * [current] is the sentence being read, or the one the next [play] starts from.
+ */
+@Stable
+class ContinuousReading(private val speaker: Speaker) {
+    var active: Boolean by mutableStateOf(false)
+        private set
+
+    var current: String? by mutableStateOf(null)
+        private set
+
+    var autoPause: Boolean = false
+
+    /** Turns to the next page; false on the last page. */
+    var turnPage: () -> Boolean = { false }
+
+    private var sentences: List<String> = emptyList()
+    private var languageCode: String? = null
+
+    /** Set when the page was turned mid-reading, so the new page is read from its first sentence. */
+    private var readNewPage = false
+
+    /** Set when an auto-pause fell at the end of a page, so the next play turns the page. */
+    private var pageEnded = false
+
+    fun setPage(sentences: List<String>, languageCode: String?) {
+        val changed = sentences != this.sentences
+        this.sentences = sentences
+        this.languageCode = languageCode
+        if (!changed) return
+        pageEnded = false
+        if (readNewPage) {
+            readNewPage = false
+            if (sentences.isNotEmpty()) read(0) else stopReading()
+        } else if (current !in sentences) {
+            // Another page was opened by hand while reading: the old page's sentence stops too.
+            if (active) {
+                speaker.stop()
+                stopReading()
+            }
+            current = null
+        }
+    }
+
+    fun toggle() = if (active) pause() else play()
+
+    fun play() {
+        if (pageEnded) {
+            pageEnded = false
+            nextPage()
+            return
+        }
+        if (sentences.isEmpty()) return
+        read(sentences.indexOf(current).coerceAtLeast(0))
+    }
+
+    /** Stops where it is; the next [play] reads the same sentence again. */
+    fun pause() {
+        active = false
+        readNewPage = false
+        speaker.stop()
+    }
+
+    /**
+     * A sentence's own button: while reading, reading carries on from it (or pauses on the one
+     * being read); otherwise it is read alone and the next [play] starts from it.
+     */
+    fun sentenceClicked(sentence: String) {
+        val index = sentences.indexOf(sentence)
+        if (active && index >= 0) {
+            if (sentence == current) pause() else read(index)
+            return
+        }
+        if (index >= 0) {
+            current = sentence
+            pageEnded = false
+        }
+        speaker.toggle(sentence, languageCode)
+    }
+
+    /**
+     * Something else took the speaker (a word read on click, say), so reading stops. The silence
+     * while the next page loads is expected and changes nothing.
+     */
+    fun speakerTaken(playing: String?) {
+        if (active && !readNewPage && playing != current) {
+            active = false
+            readNewPage = false
+        }
+    }
+
+    private fun read(index: Int) {
+        val sentence = sentences[index]
+        active = true
+        current = sentence
+        speaker.speak(sentence, languageCode) { finished(sentence) }
+    }
+
+    private fun finished(sentence: String) {
+        if (!active || current != sentence) return
+        val next = sentences.indexOf(sentence) + 1
+        when {
+            next in sentences.indices && autoPause -> {
+                active = false
+                current = sentences[next]
+            }
+            next in sentences.indices -> read(next)
+            autoPause -> {
+                active = false
+                pageEnded = true
+            }
+            else -> nextPage()
+        }
+    }
+
+    private fun nextPage() {
+        if (turnPage()) {
+            active = true
+            readNewPage = true
+        } else {
+            stopReading()
+            current = null
+        }
+    }
+
+    private fun stopReading() {
+        active = false
+        readNewPage = false
+    }
+}

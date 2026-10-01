@@ -27,6 +27,8 @@ data class UserSettings(
     val showSentencePlay: Boolean = true,
     /** Clicking or tapping a word in the reader reads it aloud. */
     val speakWordOnClick: Boolean = false,
+    /** Continuous reading stops after each sentence, so the next press of play reads the following one. */
+    val autoPause: Boolean = false,
     /** The engine that reads sentences and terms aloud. */
     val speechEngine: SpeechEngine = SpeechEngine.SYSTEM,
     /** The chosen voice per engine and language, keyed `ENGINE:code`. */
