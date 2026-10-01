@@ -66,7 +66,6 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     STATUS_2(HotkeyCategory.STATUS, "Set status to 2", Hotkey("2")),
     STATUS_3(HotkeyCategory.STATUS, "Set status to 3", Hotkey("3")),
     STATUS_4(HotkeyCategory.STATUS, "Set status to 4", Hotkey("4")),
-    STATUS_5(HotkeyCategory.STATUS, "Set status to 5", Hotkey("5")),
     STATUS_IGNORE(HotkeyCategory.STATUS, "Set status to Ignore", Hotkey("I")),
     STATUS_WELL_KNOWN(HotkeyCategory.STATUS, "Set status to Well Known", Hotkey("W")),
     STATUS_UP(HotkeyCategory.STATUS, "Bump the status up by 1", Hotkey("Up")),

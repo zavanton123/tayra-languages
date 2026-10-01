@@ -3,7 +3,8 @@ package com.tayra.languages.core.domain.model
 import kotlin.time.Instant
 
 /**
- * Learning status of a term. The numeric values match the classic LWT/Lute statuses.
+ * Learning status of a term. The numeric values match the classic LWT/Lute statuses, except
+ * that there is no status 5: a word past status 4 is well known.
  */
 enum class TermStatus(val value: Int, val label: String, val abbreviation: String) {
     UNKNOWN(0, "Unknown", "?"),
@@ -11,23 +12,25 @@ enum class TermStatus(val value: Int, val label: String, val abbreviation: Strin
     NEW_2(2, "New (2)", "2"),
     LEARNING_3(3, "Learning (3)", "3"),
     LEARNING_4(4, "Learning (4)", "4"),
-    LEARNED(5, "Learned", "5"),
     IGNORED(98, "Ignored", "I"),
     WELL_KNOWN(99, "Well Known", "W");
 
-    val isLearning: Boolean get() = value in 1..5
+    val isLearning: Boolean get() = value in 1..4
 
     companion object {
         /** Statuses in the order used for "bump status up/down". */
-        val progression: List<TermStatus> = listOf(UNKNOWN, NEW_1, NEW_2, LEARNING_3, LEARNING_4, LEARNED, WELL_KNOWN)
+        val progression: List<TermStatus> = listOf(UNKNOWN, NEW_1, NEW_2, LEARNING_3, LEARNING_4, WELL_KNOWN)
 
         /** Statuses a user may pick in a term form. */
-        val selectable: List<TermStatus> = listOf(NEW_1, NEW_2, LEARNING_3, LEARNING_4, LEARNED, WELL_KNOWN, IGNORED)
+        val selectable: List<TermStatus> = listOf(NEW_1, NEW_2, LEARNING_3, LEARNING_4, WELL_KNOWN, IGNORED)
 
-        fun fromValue(value: Int): TermStatus =
-            entries.firstOrNull { it.value == value } ?: throw IllegalArgumentException("Unknown status $value")
+        /** The old status 5 ("learned"), which counts as well known wherever it still turns up. */
+        private const val RETIRED_LEARNED = 5
 
-        fun fromValueOrNull(value: Int): TermStatus? = entries.firstOrNull { it.value == value }
+        fun fromValue(value: Int): TermStatus = fromValueOrNull(value) ?: throw IllegalArgumentException("Unknown status $value")
+
+        fun fromValueOrNull(value: Int): TermStatus? =
+            if (value == RETIRED_LEARNED) WELL_KNOWN else entries.firstOrNull { it.value == value }
 
         fun shifted(status: TermStatus, delta: Int): TermStatus {
             val index = progression.indexOf(status)

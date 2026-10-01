@@ -75,7 +75,7 @@ class TermImportService(
         "2" -> TermStatus.NEW_2
         "3" -> TermStatus.LEARNING_3
         "4" -> TermStatus.LEARNING_4
-        "5" -> TermStatus.LEARNED
+        "5" -> TermStatus.WELL_KNOWN
         "W", "w" -> TermStatus.WELL_KNOWN
         "I", "i" -> TermStatus.IGNORED
         else -> null

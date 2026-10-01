@@ -36,7 +36,7 @@ object AppThemes {
      */
     private fun statuses(unknown: Color, learning: Color, page: Color, ignored: Color, wellKnown: Color): Map<TermStatus, Color> =
         mapOf(TermStatus.UNKNOWN to unknown, TermStatus.IGNORED to ignored, TermStatus.WELL_KNOWN to wellKnown) +
-            listOf(TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LEARNING_3, TermStatus.LEARNING_4, TermStatus.LEARNED)
+            listOf(TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LEARNING_3, TermStatus.LEARNING_4)
                 .mapIndexed { level, status -> status to lerp(learning, page, level * LEARNING_FADE) }
 
     private const val LEARNING_FADE = 0.1f

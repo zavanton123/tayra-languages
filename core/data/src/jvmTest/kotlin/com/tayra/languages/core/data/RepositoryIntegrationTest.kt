@@ -133,8 +133,8 @@ class RepositoryIntegrationTest {
         assertEquals("plural of dog", parent.translation)
 
         // Changing the parent status updates the following child.
-        env.termService.setStatus(listOf(parent.id), TermStatus.LEARNED)
-        assertEquals(TermStatus.LEARNED, env.terms.getById(id)?.status)
+        env.termService.setStatus(listOf(parent.id), TermStatus.LEARNING_4)
+        assertEquals(TermStatus.LEARNING_4, env.terms.getById(id)?.status)
 
         // Duplicate detection.
         val dup = assertFailsWith<TermValidationException> {

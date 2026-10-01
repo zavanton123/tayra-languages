@@ -25,7 +25,7 @@ fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier) {
     }
     val colors = TayraTheme.current.statusColors
     Row(modifier.height(10.dp).clip(RoundedCornerShape(4.dp)).background(MaterialTheme.colorScheme.surfaceVariant)) {
-        for (status in listOf(TermStatus.UNKNOWN, TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LEARNING_3, TermStatus.LEARNING_4, TermStatus.LEARNED, TermStatus.WELL_KNOWN, TermStatus.IGNORED)) {
+        for (status in listOf(TermStatus.UNKNOWN, TermStatus.NEW_1, TermStatus.NEW_2, TermStatus.LEARNING_3, TermStatus.LEARNING_4, TermStatus.WELL_KNOWN, TermStatus.IGNORED)) {
             val count = stats.statusDistribution[status] ?: 0
             if (count > 0) {
                 Box(Modifier.fillMaxHeight().weight(count.toFloat()).background(colors.background(status)))

@@ -173,7 +173,6 @@ fun ReadingScreen(
             HotkeyAction.STATUS_2 -> viewModel.setStatus(TermStatus.NEW_2)
             HotkeyAction.STATUS_3 -> viewModel.setStatus(TermStatus.LEARNING_3)
             HotkeyAction.STATUS_4 -> viewModel.setStatus(TermStatus.LEARNING_4)
-            HotkeyAction.STATUS_5 -> viewModel.setStatus(TermStatus.LEARNED)
             HotkeyAction.STATUS_IGNORE -> viewModel.setStatus(TermStatus.IGNORED)
             HotkeyAction.STATUS_WELL_KNOWN -> viewModel.setStatus(TermStatus.WELL_KNOWN)
             HotkeyAction.STATUS_UP -> viewModel.shiftStatus(1)

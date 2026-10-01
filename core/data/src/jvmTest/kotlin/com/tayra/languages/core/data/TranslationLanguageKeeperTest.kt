@@ -3,6 +3,7 @@ package com.tayra.languages.core.data
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
+import com.tayra.languages.core.data.db.TayraDatabase
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
@@ -89,7 +90,7 @@ class TranslationLanguageKeeperTest {
         val id = env.term(pt, "maldição", "curse")
         env.native("ru")
 
-        env.terms.save(env.terms.getById(id)!!.copy(status = TermStatus.LEARNED))
+        env.terms.save(env.terms.getById(id)!!.copy(status = TermStatus.LEARNING_4))
         assertEquals("en", env.column(id))
 
         env.terms.save(env.terms.getById(id)!!.copy(translation = "проклятие"))
@@ -128,7 +129,7 @@ class TranslationLanguageKeeperTest {
         assertEquals("curse", reopened.terms.getById(id)?.translation)
         assertEquals(null, reopened.column(id))
         DriverManager.getConnection("jdbc:sqlite:${env.file.absolutePath}").use { c ->
-            assertEquals(6, c.createStatement().executeQuery("PRAGMA user_version").let { it.next(); it.getInt(1) })
+            assertEquals(TayraDatabase.Schema.version, c.createStatement().executeQuery("PRAGMA user_version").let { it.next(); it.getLong(1) })
         }
     }
 }

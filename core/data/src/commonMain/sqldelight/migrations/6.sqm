@@ -1,0 +1,2 @@
+-- Status 5 ("learned") was dropped; those terms are well known (99) now.
+UPDATE terms SET status = 99 WHERE status = 5;
