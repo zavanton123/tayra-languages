@@ -13,9 +13,10 @@ actual class AudioPlayer actual constructor() {
     @Volatile
     private var current: Player? = null
 
-    actual fun play(url: String, onFinished: () -> Unit) {
+    actual fun play(url: String, onFinished: (failed: Boolean) -> Unit) {
         stop()
         executor.execute {
+            var failed = false
             try {
                 val stream = BufferedInputStream(URI(url).toURL().openStream())
                 val player = Player(stream)
@@ -23,9 +24,10 @@ actual class AudioPlayer actual constructor() {
                 player.play()
             } catch (e: Exception) {
                 Logger.w(e) { "Could not play audio $url" }
+                failed = true
             } finally {
                 current = null
-                onFinished()
+                onFinished(failed)
             }
         }
     }

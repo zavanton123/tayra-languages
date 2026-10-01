@@ -80,6 +80,13 @@ import com.tayra.languages.core.ui.navigation.Route
 import io.ktor.http.encodeURLParameter
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.CoroutineScope
+import com.tayra.languages.core.ui.audio.rememberSpeaker
+import com.tayra.languages.core.ui.audio.Speaker
+import com.tayra.languages.core.domain.service.ExampleSentence
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.collectAsState
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormKey
@@ -108,6 +115,9 @@ fun ExamplesSearchScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     val query = state.query
     val playback = rememberAudioPlayback()
+    val speaker = rememberSpeaker(koinInject(), koinInject())
+    val speaking by speaker.playing.collectAsState()
+    val scope = rememberCoroutineScope()
     val compact = LocalWindowWidth.current.isCompact
     val wide = LocalWindowWidth.current.isExpanded
     var sheetOpen by remember { mutableStateOf(false) }
@@ -155,9 +165,10 @@ fun ExamplesSearchScreen(
                                 text = emphasize(example.text, query.text),
                                 translateWord = translateWord,
                                 translation = example.translation,
-                                audioUrl = example.audioUrl,
+                                playing = example.audioUrl?.let(playback::isPlaying) == true || speaking == example.text,
+                                recorded = example.audioUrl != null,
+                                onPlay = { playExample(example, LanguageCodes.codeFor(query.language.name), playback, speaker, scope) },
                                 direction = direction,
-                                playback = playback,
                                 compact = compact,
                                 onWordClick = openWord,
                             )
@@ -197,6 +208,23 @@ fun ExamplesSearchScreen(
             TermPane(sheetLanguage.id, sheetTerm, onClose = close, onOpenTerm = viewModel::openTerm, onNavigate = onNavigate)
         }
     }
+}
+
+/**
+ * Plays the example's recording, or reads it with the chosen speech engine and voice when it
+ * has none or the recording fails to play; pressing it again stops either.
+ */
+private fun playExample(example: ExampleSentence, languageCode: String?, playback: AudioPlayback, speaker: Speaker, scope: CoroutineScope) {
+    val url = example.audioUrl
+    if (speaker.playing.value == example.text || (url != null && playback.isPlaying(url))) {
+        speaker.stop()
+        playback.stop()
+        return
+    }
+    speaker.stop()
+    playback.stop()
+    if (url == null) speaker.speak(example.text, languageCode)
+    else playback.toggle(url) { scope.launch { speaker.speak(example.text, languageCode) } }
 }
 
 /** The term pane for [text], as the reader shows it; a new text opens a new form, the old one keeps saving on its own. */
@@ -352,15 +380,16 @@ private fun ExampleCard(
     text: AnnotatedString,
     translateWord: suspend (String) -> String?,
     translation: String?,
-    audioUrl: String?,
+    playing: Boolean,
+    /** Whether a recording plays rather than the speech engine. */
+    recorded: Boolean,
+    onPlay: () -> Unit,
     direction: TextDirection,
-    playback: AudioPlayback,
     compact: Boolean,
     onWordClick: (String) -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
     val clipboard = LocalClipboardManager.current
-    val playing = audioUrl != null && playback.isPlaying(audioUrl)
     Row(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp))
             .background(if (playing) colors.primary.copy(alpha = 0.06f) else Color.Transparent)
@@ -381,10 +410,13 @@ private fun ExampleCard(
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             ActionButton(
                 icon = Icons.Default.PlayArrow,
-                description = if (playing) "Stop recording" else "Play recording",
-                enabled = audioUrl != null,
+                description = when {
+                    playing -> "Stop"
+                    recorded -> "Play recording"
+                    else -> "Read aloud"
+                },
                 active = playing,
-                onClick = { audioUrl?.let(playback::toggle) },
+                onClick = onPlay,
             )
             if (!compact) {
                 ActionButton(icon = AppIcons.ContentCopy, description = "Copy sentence", onClick = { clipboard.setText(AnnotatedString(text.text)) })

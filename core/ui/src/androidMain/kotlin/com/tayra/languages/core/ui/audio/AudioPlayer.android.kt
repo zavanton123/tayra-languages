@@ -6,9 +6,9 @@ import co.touchlab.kermit.Logger
 
 actual class AudioPlayer actual constructor() {
     private var current: MediaPlayer? = null
-    private var onFinished: (() -> Unit)? = null
+    private var onFinished: ((Boolean) -> Unit)? = null
 
-    actual fun play(url: String, onFinished: () -> Unit) {
+    actual fun play(url: String, onFinished: (failed: Boolean) -> Unit) {
         stop()
         this.onFinished = onFinished
         current = MediaPlayer().apply {
@@ -17,7 +17,7 @@ actual class AudioPlayer actual constructor() {
             setOnCompletionListener { finish(it) }
             setOnErrorListener { player, what, extra ->
                 Logger.w { "Audio playback failed ($what/$extra) for $url" }
-                finish(player)
+                finish(player, failed = true)
                 true
             }
             try {
@@ -25,16 +25,16 @@ actual class AudioPlayer actual constructor() {
                 prepareAsync()
             } catch (e: Exception) {
                 Logger.w(e) { "Could not load audio $url" }
-                finish(this)
+                finish(this, failed = true)
             }
         }
     }
 
-    private fun finish(player: MediaPlayer) {
+    private fun finish(player: MediaPlayer, failed: Boolean = false) {
         player.release()
         if (current === player) {
             current = null
-            onFinished?.also { onFinished = null }?.invoke()
+            onFinished?.also { onFinished = null }?.invoke(failed)
         }
     }
 

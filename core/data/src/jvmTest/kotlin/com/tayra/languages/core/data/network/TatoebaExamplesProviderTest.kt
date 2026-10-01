@@ -19,7 +19,7 @@ class TatoebaExamplesProviderTest {
 
     private val body = """
         {"data": [
-          {"id": 1, "text": "Ich vertraute ihr immer.", "lang": "deu", "audios": [{"id": 9, "download_url": "https://example.test/audio/9/file"}], "translations": [
+          {"id": 1, "text": "Ich vertraute ihr immer.", "lang": "deu", "audios": [{"id": 9, "download_url": "https://example.test/audio/9/file", "license": "CC BY 2.0 FR"}], "translations": [
              {"id": 2, "text": "I have always trusted her.", "lang": "eng", "is_direct": false},
              {"id": 3, "text": "I've always trusted her.", "lang": "eng", "is_direct": true},
              {"id": 4, "text": "Je lui ai toujours fait confiance.", "lang": "fra", "is_direct": true}
@@ -46,6 +46,20 @@ class TatoebaExamplesProviderTest {
             assertEquals(true, url.contains(it), "$it in $url")
         }
         assertEquals(false, url.contains("has_audio"), url)
+    }
+
+    /** Tatoeba refuses to serve recordings without a licence (403), so only licensed ones are offered. */
+    @Test
+    fun recordingsWithoutALicenceAreNotOffered() {
+        val body = """
+            {"data": [
+              {"id": 1, "text": "Eu não tenho tempo.", "lang": "por", "audios": [{"id": 7, "license": ""}], "translations": []},
+              {"id": 2, "text": "Acabou o tempo.", "lang": "por", "audios": [{"id": 8, "license": null}, {"id": 9, "license": "CC BY-NC 4.0"}], "translations": []},
+              {"id": 3, "text": "Quero tempo!", "lang": "por", "audios": [{"id": 10}], "translations": []}
+            ]}
+        """.trimIndent()
+        val result = TatoebaExamplesProvider(HttpClient(MockEngine { respond("", HttpStatusCode.OK) })).extract(body, "eng")
+        assertEquals(listOf(null, "https://api.tatoeba.org/v1/audios/9/file", null), result.sentences.map { it.audioUrl })
     }
 
     @Test
