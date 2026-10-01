@@ -790,7 +790,9 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,
                 playingSentence = playingSentence,
                 preparingSentences = preparingSentences,
-                readingSentence = if (state.settings.showSentencePlay) continuous.current else null,
+                // A sentence played on its own is highlighted while heard; continuous reading's place stays marked when paused.
+                readingSentence = if (state.settings.showSentencePlay) playingSentence ?: continuous.current else null,
+                readingHeard = playingSentence != null,
                 followReading = continuous.active,
                 edgePadding = edgePadding,
                 callbacks = callbacks,
