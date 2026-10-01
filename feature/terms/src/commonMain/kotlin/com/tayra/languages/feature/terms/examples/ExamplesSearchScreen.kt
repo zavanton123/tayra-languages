@@ -415,9 +415,9 @@ private fun ExampleCard(
         }
         Spacer(Modifier.width(16.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            // A recording keeps the play icon; a sentence read by the speech engine shows a speaking voice.
+            // A speaker's recording shows a speaking person; the speech engine has the reader's play triangle.
             ActionButton(
-                icon = if (recorded) AppIcons.PlayArrow else AppIcons.RecordVoiceOver,
+                icon = if (recorded) AppIcons.RecordVoiceOver else AppIcons.PlayArrow,
                 description = when {
                     loading && recorded -> "Loading recording"
                     loading -> "Preparing speech"
