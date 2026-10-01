@@ -39,6 +39,8 @@ class SentenceAudio(
     private val localSpeech: LocalSpeech,
     private val settings: SettingsRepository,
     private val cache: SpeechAudioCache,
+    /** Example recordings share the cache, so they are forgotten with it. */
+    private val recordings: ExampleRecordings? = null,
 ) {
     private val _states = MutableStateFlow<Map<String, SentenceAudioState>>(emptyMap())
 
@@ -61,6 +63,7 @@ class SentenceAudio(
         if (bookId != null && this.bookId != bookId) {
             this.bookId = bookId
             cache.clear()
+            recordings?.reset()
             _states.value = emptyMap()
         }
         val configuration = configuration()

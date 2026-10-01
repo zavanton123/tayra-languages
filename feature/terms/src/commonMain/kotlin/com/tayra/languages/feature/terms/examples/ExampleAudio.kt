@@ -12,6 +12,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.tayra.languages.core.domain.service.ExampleSentence
+import com.tayra.languages.core.domain.service.RecordingState
+import com.tayra.languages.core.domain.service.ExampleRecordings
 import com.tayra.languages.core.ui.audio.AudioPlayback
 import com.tayra.languages.core.ui.audio.Speaker
 import com.tayra.languages.core.ui.audio.rememberAudioPlayback
@@ -43,8 +45,9 @@ data class ExampleSound(
 }
 
 /**
- * Plays example sentences: the speaker's recording, or the chosen speech engine and voice when
- * the example has none or its recording fails to play. Pressing a playing example stops it.
+ * Plays example sentences: the speaker's recording, downloaded ahead of time, or the chosen speech
+ * engine and voice when the example has none or its recording cannot be had. Pressing a playing
+ * example stops it.
  */
 class ExampleAudio internal constructor(
     private val playback: AudioPlayback,
@@ -54,26 +57,33 @@ class ExampleAudio internal constructor(
     private val synthesizing: State<Boolean>,
     internal val prepared: SentenceAudio,
     private val preparedStates: State<Map<String, SentenceAudioState>>,
+    internal val recordings: ExampleRecordings,
+    internal val recordingStates: State<Map<String, RecordingState>>,
 ) {
+    /** The example's recording, unless it could not be downloaded; then the speech engine reads it. */
+    internal fun recordingOf(example: ExampleSentence): String? =
+        example.audioUrl?.takeIf { recordingStates.value[it] != RecordingState.FAILED }
+
     fun soundOf(example: ExampleSentence): ExampleSound {
-        val url = example.audioUrl
+        val url = recordingOf(example)
         val spoken = speaking.value == example.text
+        val downloading = url != null && (playback.isLoading(url) || recordingStates.value[url] == RecordingState.DOWNLOADING)
         val preparing = url == null && preparedStates.value[example.text] == SentenceAudioState.PREPARING
         return ExampleSound(
             recorded = url != null,
             playing = (url != null && playback.isPlaying(url)) || spoken,
-            loading = (url != null && playback.isLoading(url)) || (spoken && synthesizing.value) || preparing,
+            loading = downloading || (spoken && synthesizing.value) || preparing,
         )
     }
 
     fun toggle(example: ExampleSentence, languageCode: String?) {
-        val url = example.audioUrl
+        val url = recordingOf(example)
         val wasPlaying = speaker.playing.value == example.text || (url != null && playback.isPlaying(url))
         speaker.stop()
         playback.stop()
         if (wasPlaying) return
         if (url == null) speaker.speak(example.text, languageCode)
-        else playback.toggle(url) { scope.launch { speaker.speak(example.text, languageCode) } }
+        else playback.play(url, scope, load = { recordings.audioFor(url) }, onFailed = { speaker.speak(example.text, languageCode) })
     }
 }
 
@@ -86,18 +96,26 @@ fun rememberExampleAudio(): ExampleAudio {
     val speaking = speaker.playing.collectAsState()
     val synthesizing = speaker.working.collectAsState()
     val preparedStates = prepared.states.collectAsState()
-    return remember(playback, speaker, scope, prepared) { ExampleAudio(playback, speaker, scope, speaking, synthesizing, prepared, preparedStates) }
+    val recordings = koinInject<ExampleRecordings>()
+    val recordingStates = recordings.states.collectAsState()
+    return remember(playback, speaker, scope, prepared, recordings) {
+        ExampleAudio(playback, speaker, scope, speaking, synthesizing, prepared, preparedStates, recordings, recordingStates)
+    }
 }
 
 /**
- * Makes the speech of [examples] that have no recording ahead of time, as the reader does for its
- * sentences, again whenever they or the speech settings change; their buttons spin meanwhile.
+ * Gets [examples] ready to play ahead of time: their recordings are downloaded, and those without
+ * one (or whose recording cannot be had) have their speech made, as the reader does for its
+ * sentences. Their buttons spin meanwhile.
  */
 @Composable
 fun ExampleAudio.PrepareSpeech(examples: List<ExampleSentence>, languageCode: String?) {
     val settings = koinInject<SettingsRepository>()
     val prefs by settings.settings.collectAsState()
-    val texts = remember(examples) { examples.filter { it.audioUrl == null }.map { it.text } }
+    val urls = remember(examples) { examples.mapNotNull { it.audioUrl } }
+    LaunchedEffect(urls) { recordings.prefetch(urls) }
+    val failed = recordingStates.value.filterValues { it == RecordingState.FAILED }.keys
+    val texts = remember(examples, failed) { examples.filter { recordingOf(it) == null }.map { it.text } }
     LaunchedEffect(texts, languageCode, prefs.speechEngine, prefs.speechVoices, prefs.speechSpeed) {
         prepared.prepare(texts, languageCode)
     }

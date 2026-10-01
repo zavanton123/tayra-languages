@@ -64,6 +64,8 @@ import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import org.koin.core.module.Module
 import org.koin.dsl.module
+import com.tayra.languages.core.data.network.KtorRecordingFetcher
+import com.tayra.languages.core.domain.service.ExampleRecordings
 import com.tayra.languages.core.domain.service.SentenceAudio
 
 /** Platform-specific bindings: the database driver factories and [Settings]. */
@@ -132,7 +134,8 @@ val dataModule: Module = module {
     }
 
     single { TermService(get(), get()) }
-    single { SentenceAudio(get(), get(), get()) }
+    single { ExampleRecordings(KtorRecordingFetcher(get()), get()) }
+    single { SentenceAudio(get(), get(), get(), get()) }
     single { TranslationLanguageKeeper(get(), get(), get<DictionaryService>(), get(), get()) }
     single { ReadingService(get(), get(), get(), get(), get()) }
     single { TermPopupBuilder(get(), get(), get()) }
