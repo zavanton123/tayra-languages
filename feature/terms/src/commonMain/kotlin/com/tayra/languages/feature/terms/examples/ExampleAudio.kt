@@ -24,8 +24,8 @@ data class ExampleSound(
     /** The recording is downloading, or the speech engine is preparing the sentence. */
     val loading: Boolean,
 ) {
-    /** A recording shows a speaking person; the speech engine has the reader's play triangle. */
-    val icon: ImageVector get() = if (recorded) AppIcons.RecordVoiceOver else AppIcons.PlayArrow
+    /** A recording shows a speaking person; the speech engine has the reader's speaker icon. */
+    val icon: ImageVector get() = if (recorded) AppIcons.RecordVoiceOver else AppIcons.VolumeUp
 
     val description: String
         get() = when {

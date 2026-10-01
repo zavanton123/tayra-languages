@@ -191,7 +191,7 @@ private fun PlayButton(text: String?, playing: Boolean, fontScale: Float, lineHe
     Box(Modifier.padding(top = top, end = 8.dp).size(size), contentAlignment = Alignment.Center) {
         if (text != null) {
             Icon(
-                if (playing) AppIcons.Stop else AppIcons.PlayArrow,
+                if (playing) AppIcons.Stop else AppIcons.VolumeUp,
                 contentDescription = if (playing) "Stop" else "Play sentence",
                 tint = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.fillMaxSize().clip(CircleShape).clickable { onSpeak(text) },
@@ -255,7 +255,7 @@ private fun ParagraphText(
             val playing = sentence == playingSentence
             "play-$position" to InlineTextContent(Placeholder(1.25.em, 1.em, PlaceholderVerticalAlign.TextCenter)) {
                 Icon(
-                    if (playing) AppIcons.Stop else AppIcons.PlayArrow,
+                    if (playing) AppIcons.Stop else AppIcons.VolumeUp,
                     contentDescription = if (playing) "Stop" else "Play sentence",
                     tint = primary,
                     modifier = Modifier.fillMaxSize().clip(CircleShape).clickable { onSpeakSentence(sentence) },

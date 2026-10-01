@@ -472,7 +472,7 @@ private fun SpeechSection(state: ReadingUiState, viewModel: ReadingViewModel, on
     val languageName = state.language?.name.orEmpty()
 
     MenuSection("Speech")
-    SwitchRow(AppIcons.PlayArrow, "Play button before sentences", prefs.showSentencePlay) { viewModel.toggleSentencePlay() }
+    SwitchRow(AppIcons.VolumeUp, "Play button before sentences", prefs.showSentencePlay) { viewModel.toggleSentencePlay() }
     ChoiceRow(
         icon = AppIcons.VolumeUp,
         title = "Speech engine",
