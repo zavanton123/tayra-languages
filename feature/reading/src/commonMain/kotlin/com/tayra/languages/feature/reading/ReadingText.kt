@@ -191,21 +191,24 @@ fun ReadingText(
 }
 
 /**
- * The button before a sentence, in a gutter with the same space on either side; an empty slot
- * of the same width keeps sentences without words aligned.
+ * The button before a sentence, in a gutter with room before the text; an empty slot of the
+ * same width keeps sentences without words aligned.
  */
 @Composable
 private fun PlayButton(text: String?, playing: Boolean, fontScale: Float, onSpeak: (String) -> Unit) {
-    Box(Modifier.padding(horizontal = PLAY_GUTTER_PADDING).size((PLAY_BUTTON_SIZE * fontScale).dp)) {
+    Box(Modifier.padding(start = PLAY_GUTTER_START, end = PLAY_GUTTER_END).size((PLAY_BUTTON_SIZE * fontScale).dp)) {
         if (text != null) SpeakerCircle(playing, Modifier.fillMaxSize()) { onSpeak(text) }
     }
 }
 
 /** How far the text of a sentence with a play button starts from the edge. */
-private fun playGutter(fontScale: Float) = (PLAY_BUTTON_SIZE * fontScale).dp + PLAY_GUTTER_PADDING * 2
+private fun playGutter(fontScale: Float) = (PLAY_BUTTON_SIZE * fontScale).dp + PLAY_GUTTER_START + PLAY_GUTTER_END
 
 private const val PLAY_BUTTON_SIZE = 32
-private val PLAY_GUTTER_PADDING = 8.dp
+private val PLAY_GUTTER_START = 8.dp
+
+// The reading column's own margin already sits before the button, so the text needs more room after it to look even.
+private val PLAY_GUTTER_END = 20.dp
 
 /** The speaker icon in a soft circle; a stop square while the sentence is being read. */
 @Composable
@@ -275,7 +278,7 @@ private fun ParagraphText(
         if (onSpeakSentence == null) emptyMap() else inlinePlay.entries.associate { (position, sentence) ->
             val playing = sentence == playingSentence
             // The circle fills the placeholder's height; the extra width is the gap before the sentence.
-            "play-$position" to InlineTextContent(Placeholder(1.65.em, 1.35.em, PlaceholderVerticalAlign.TextCenter)) {
+            "play-$position" to InlineTextContent(Placeholder(1.85.em, 1.35.em, PlaceholderVerticalAlign.TextCenter)) {
                 Box(Modifier.fillMaxSize()) {
                     SpeakerCircle(playing, Modifier.fillMaxHeight().aspectRatio(1f).align(Alignment.CenterStart)) { onSpeakSentence(sentence) }
                 }
