@@ -39,6 +39,11 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.runBlocking
 import org.junit.After
 import org.junit.Rule
+import kotlin.test.assertTrue
+import kotlin.math.abs
+import androidx.compose.ui.test.performScrollTo
+import androidx.compose.ui.semantics.SemanticsProperties
+import androidx.compose.ui.test.SemanticsMatcher
 import org.koin.core.context.startKoin
 import org.koin.core.context.stopKoin
 import org.koin.dsl.module
@@ -80,6 +85,33 @@ class ContinuousReadingTest {
         assertEquals(listOf("A noite é fria."), readUntilSilent())
     }
 
+    /** On a long page the sentence being read is scrolled to the middle of the reading area. */
+    @Test
+    fun theSentenceBeingReadIsCentred() {
+        val long = (1..30).joinToString(" ") { "Frase número $it." }
+        show(autoPause = false, text = long, sentenceMillis = 3_000)
+        rule.onNodeWithContentDescription("Read the page").performClick()
+
+        // Jump to sentence 15 with its own button; reading carries on from there.
+        rule.onNode(hasText("Frase número 15.", substring = true)).performScrollTo()
+        rule.waitForIdle()
+        val row = rule.onNode(hasText("Frase número 15.", substring = true)).fetchSemanticsNode().boundsInRoot
+        val index = rule.onAllNodes(hasContentDescription("Play sentence")).fetchSemanticsNodes()
+            .indexOfFirst { it.boundsInRoot.center.y in row.top..row.bottom }
+        rule.onAllNodes(hasContentDescription("Play sentence"))[index].performClick()
+        rule.waitUntil(5_000) { sentenceBeingRead(listOf("Frase número 15.")) != null }
+        Thread.sleep(800)
+        rule.waitForIdle()
+
+        // The Stop button sits in the middle of the row being read.
+        // The reader's scrolling area; the closed drawer has one too, off to the left.
+        val area = rule.onAllNodes(SemanticsMatcher.keyIsDefined(SemanticsProperties.VerticalScrollAxisRange)).fetchSemanticsNodes()
+            .map { it.boundsInRoot }.first { it.left >= 0f }
+        val reading = rule.onNode(hasContentDescription("Stop")).fetchSemanticsNode().boundsInRoot
+        assertEquals("Frase número 15.", sentenceBeingRead(listOf("Frase número 15.")))
+        assertTrue(abs(reading.center.y - area.center.y) < 30, "the row being read (${reading.center.y}) should sit at the middle (${area.center.y})")
+    }
+
     /** The sentences read aloud, in order, until reading stops for a moment. */
     private fun readUntilSilent(): List<String> {
         val heard = mutableListOf<String>()
@@ -97,15 +129,15 @@ class ContinuousReadingTest {
     }
 
     /** The sentence whose button shows Stop, matched by the row it sits in. */
-    private fun sentenceBeingRead(): String? {
+    private fun sentenceBeingRead(among: List<String> = sentences): String? {
         val stop = rule.onAllNodes(hasContentDescription("Stop")).fetchSemanticsNodes().firstOrNull() ?: return null
         val y = stop.boundsInRoot.center.y
-        return sentences.firstOrNull { sentence ->
+        return among.firstOrNull { sentence ->
             rule.onAllNodes(hasText(sentence, substring = true)).fetchSemanticsNodes().any { it.boundsInRoot.top <= y && y <= it.boundsInRoot.bottom }
         }
     }
 
-    private fun show(autoPause: Boolean) {
+    private fun show(autoPause: Boolean, text: String = "O lobo dorme. A noite é fria.\n---\nO dia chega.", sentenceMillis: Int = 400) {
         val vm = runBlocking {
             val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-continuous", ".db").also { it.delete() }))
             val languages = LanguageRepositoryImpl(provider)
@@ -117,7 +149,7 @@ class ContinuousReadingTest {
             val readingService = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), termService)
             val bookService = BookService(books, languages)
             val languageId = languages.save(Language(name = "Portuguese"))
-            val bookId = bookService.create(BookDraft(languageId = languageId, title = "T", text = "O lobo dorme. A noite é fria.\n---\nO dia chega."))
+            val bookId = bookService.create(BookDraft(languageId = languageId, title = "T", text = text, wordsPerPage = 500))
             val engine = object : TermTranslationProvider {
                 override val name = "Fake"
                 override suspend fun suggestTranslation(text: String, language: Language): String? = null
@@ -126,7 +158,7 @@ class ContinuousReadingTest {
                 override suspend fun isAvailable(dictionary: DictionaryId) = false
                 override suspend fun lookup(dictionary: DictionaryId, text: String) = error("not installed")
             }
-            val speech = LocalSpeech(listOf(ShortPiper()))
+            val speech = LocalSpeech(listOf(ShortPiper(sentenceMillis)))
             val audio = SentenceAudio(speech, settings, MemorySpeechAudioCache())
             startKoin { modules(module { single { speech }; single<SettingsRepository> { settings }; single { audio } }) }
             ReadingViewModel(
@@ -142,8 +174,8 @@ class ContinuousReadingTest {
         rule.waitUntil(10_000) { rule.onAllNodesWithContentDescription("Preparing sentence").fetchSemanticsNodes().isEmpty() }
     }
 
-    /** A Piper stand-in whose every sentence is 0.4 s of silence. */
-    private class ShortPiper : LocalSpeechEngine {
+    /** A Piper stand-in whose every sentence is [millis] of silence. */
+    private class ShortPiper(private val millis: Int) : LocalSpeechEngine {
         override val engine = SpeechEngine.PIPER
         override val displayName = "Short Piper"
         override val description = ""
@@ -158,7 +190,7 @@ class ContinuousReadingTest {
         override suspend fun removePackage(id: String) {}
         override suspend fun voices(languageCode: String) = emptyList<SpeechVoice>()
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray {
-            val data = 16_000 * 2 * 4 / 10
+            val data = 16_000 * 2 * millis / 1000
             val header = java.nio.ByteBuffer.allocate(44).order(java.nio.ByteOrder.LITTLE_ENDIAN).apply {
                 put("RIFF".toByteArray()); putInt(36 + data); put("WAVE".toByteArray())
                 put("fmt ".toByteArray()); putInt(16); putShort(1); putShort(1); putInt(16_000); putInt(32_000); putShort(2); putShort(16)
