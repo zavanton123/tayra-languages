@@ -254,7 +254,6 @@ private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewMode
         label = { Text("Translation") },
         supportingText = when {
             state.lookingUpTranslation -> ({ Text("Looking up translation...") })
-            state.translationSuggested && state.translationSource != null -> ({ Text("Suggested by ${state.translationSource}") })
             hint != null -> ({ Text(hint) })
             else -> null
         },
