@@ -10,6 +10,7 @@ import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performMouseInput
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.text.TextLayoutResult
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
@@ -141,7 +142,27 @@ class ExamplesScreenTest {
         }
     }
 
-    private fun show(sentences: List<ExampleSentence>) {
+    /** The term pane's examples follow the same rules as the screen: recordings, else the speech engine. */
+    @Test
+    fun thePanesExamplesPlayTheSameWay() {
+        show(
+            sentences = emptyList(),
+            paneSentences = listOf(
+                ExampleSentence(text = "Eu não tenho tempo.", translation = null),
+                ExampleSentence(text = "Acabou o tempo.", translation = null, audioUrl = "http://127.0.0.1:1/audio.mp3"),
+            ),
+        )
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().size == 1 }
+        assertEquals(1, rule.onAllNodesWithContentDescription("Play recording").fetchSemanticsNodes().size)
+
+        // The examples sit at the bottom of the scrolling pane, below the test window.
+        rule.onNodeWithContentDescription("Read aloud").performScrollTo().performClick()
+        rule.waitUntil(5_000) { "pt:Eu não tenho tempo." in spoken }
+        rule.onNodeWithContentDescription("Play recording").performScrollTo().performClick()
+        rule.waitUntil(5_000) { "pt:Acabou o tempo." in spoken }
+    }
+
+    private fun show(sentences: List<ExampleSentence>, paneSentences: List<ExampleSentence> = emptyList()) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-examples", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider)
@@ -175,12 +196,12 @@ class ExamplesScreenTest {
                 single { LocalSpeech(listOf(RecordingSpeech(spoken))) }
                 single<SettingsRepository> { settings }
                 single { WordTranslationService(terms, dictionaries, engine, settings) }
-                // The pane's own example list stays empty so its buttons never match the screen's.
-                val noExamples = object : ExampleSentencesProvider {
-                    override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult.EMPTY
+                // The pane has its own example list, so its buttons never match the screen's by accident.
+                val paneExamples = object : ExampleSentencesProvider {
+                    override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult(paneSentences, paneSentences.size, null)
                     override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
                 }
-                viewModel { (key: TermFormKey) -> TermFormViewModel(key, termService, terms, languages, settings, engine, noExamples, dictionaries, dictionaries) }
+                viewModel { (key: TermFormKey) -> TermFormViewModel(key, termService, terms, languages, settings, engine, paneExamples, dictionaries, dictionaries) }
             })
         }
         val vm = ExamplesSearchViewModel(languageId, "tempo", languages, settings, examples)
