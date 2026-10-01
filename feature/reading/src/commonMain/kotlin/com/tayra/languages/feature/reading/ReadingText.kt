@@ -126,8 +126,10 @@ fun ReadingText(
     playingSentence: String? = null,
     /** Sentences whose audio is still being made; their buttons show a spinner. */
     preparingSentences: Set<String> = emptySet(),
-    /** The sentence continuous reading is on, shown with a light background. */
+    /** The sentence being heard, or the one continuous reading will go on from, shown with a background. */
     readingSentence: String? = null,
+    /** Whether [readingSentence] is being heard right now (a stronger background) or only waits (a faint one). */
+    readingHeard: Boolean = false,
     /** Keeps [readingSentence] scrolled into view while reading runs. */
     followReading: Boolean = false,
     /** The margin between the card's edge and this text; a sentence button leaves the same space before the text. */
@@ -136,7 +138,7 @@ fun ReadingText(
     var itemOffset = 0
     val perSentence = splitSentences || translations != null
     val twoColumns = translations != null && sideBySide
-    val readingTint = theme.readingText.copy(alpha = READING_TINT_ALPHA)
+    val readingTint = theme.readingText.copy(alpha = if (readingHeard) HEARD_TINT_ALPHA else WAITING_TINT_ALPHA)
     Column(modifier) {
         page.paragraphs.forEach { paragraph ->
             // A run of items that shares one Text: the whole paragraph, or one sentence each.
@@ -193,25 +195,32 @@ fun ReadingText(
                 val translated = translations != null && sentenceText.any { it.isLetter() }
                 // The button is centred on its sentence's text, so a translation under it stays out of the row.
                 val withButton: @Composable (Modifier) -> Unit = { rowModifier ->
-                    Row(rowModifier.followed(isReading, followReading, readingTint), verticalAlignment = Alignment.CenterVertically) {
+                    Row(rowModifier, verticalAlignment = Alignment.CenterVertically) {
                         PlayButton(sentenceText.takeIf { speakable }, sentenceText == playingSentence, sentenceText in preparingSentences, fontScale, edgePadding, onSpeakSentence!!)
                         Box(Modifier.weight(1f)) { sentence() }
                     }
                 }
+                // The background takes in the sentence's translation too, beside it or under it.
                 if (twoColumns) {
-                    Row(Modifier.fillMaxWidth().padding(bottom = 6.dp), verticalAlignment = Alignment.Top) {
+                    Row(Modifier.padding(bottom = 6.dp).fillMaxWidth().followed(isReading, followReading, readingTint), verticalAlignment = Alignment.Top) {
                         if (onSpeakSentence != null) withButton(Modifier.weight(1f)) else Box(Modifier.weight(1f)) { sentence() }
                         Box(Modifier.width(24.dp))
                         Box(Modifier.weight(1f)) {
                             if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight, large = true)
                         }
                     }
-                } else if (perSentence && onSpeakSentence != null) {
-                    withButton(Modifier.fillMaxWidth())
-                    if (translated) Box(Modifier.padding(start = playGutter(fontScale, edgePadding))) { TranslationLine(translations[sentenceText], theme, fontScale, lineHeight) }
+                } else if (perSentence) {
+                    Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint)) {
+                        if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else sentence()
+                        if (translated) {
+                            Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp)) {
+                                TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
+                            }
+                        }
+                    }
                 } else {
-                    Box(Modifier.fillMaxWidth().followed(isReading, followReading, if (perSentence) readingTint else Color.Transparent)) { sentence() }
-                    if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
+                    // A flowing paragraph: its words are tinted instead.
+                    Box(Modifier.fillMaxWidth().followed(isReading, followReading, Color.Transparent)) { sentence() }
                 }
             }
         }
@@ -266,8 +275,11 @@ private fun Modifier.followed(isReading: Boolean, follow: Boolean, tint: Color):
     return bringIntoViewRequester(requester).then(if (isReading && tint != Color.Transparent) Modifier.background(tint, RoundedCornerShape(8.dp)) else Modifier)
 }
 
-/** How strongly the sentence being read is tinted with the text colour. */
-private const val READING_TINT_ALPHA = 0.08f
+/** How strongly the sentence being heard is tinted with the text colour. */
+private const val HEARD_TINT_ALPHA = 0.1f
+
+/** The fainter tint of the sentence continuous reading waits on, paused or auto-paused. */
+private const val WAITING_TINT_ALPHA = 0.045f
 
 /** The translation under a sentence: a spinner while it loads, nothing when the service has none. */
 @Composable
