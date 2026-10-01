@@ -537,7 +537,6 @@ private fun Footer(state: BooksUiState) {
             if (!state.archived) add("${state.wordsLearned} words learned")
         }
         Text(parts.joinToString("  ·  "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f))
-        Text("Small steps. A more open world.", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
     }
 }
 
