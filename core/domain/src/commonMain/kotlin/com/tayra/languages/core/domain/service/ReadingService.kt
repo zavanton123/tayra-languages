@@ -79,6 +79,18 @@ class ReadingService(
         return TextItemCalculator.toPage(result.items)
     }
 
+    /**
+     * The sentences of page [pageNumber] as the reader shows them, without touching the database,
+     * so a page can be got ready before it is opened; null when the book has no such page.
+     */
+    suspend fun sentenceTexts(bookId: Long, pageNumber: Int): List<String>? {
+        val book = books.getBook(bookId) ?: return null
+        val language = languages.getById(book.languageId) ?: return null
+        if (pageNumber < 1 || pageNumber > books.pageCount(bookId)) return null
+        val page = books.getPage(bookId, pageNumber) ?: return null
+        return TextItemCalculator.toPage(renderItems(page.text, language)).paragraphs.flatMap { it.sentences }.map { it.displayText }
+    }
+
     /** Renders text without touching the database (used for statistics). */
     suspend fun renderItems(text: String, language: Language, multiwordIndex: MultiwordTermIndex? = null): List<TextItem> {
         val tokens = language.parseTokens(text)

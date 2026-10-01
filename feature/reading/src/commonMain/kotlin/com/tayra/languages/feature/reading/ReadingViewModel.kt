@@ -561,7 +561,8 @@ class ReadingViewModel(
 
     /**
      * Makes the audio of every sentence on the page ahead of time when the play buttons are on and
-     * a local speech engine reads them; restarted whenever the page or the speech settings change.
+     * a local speech engine reads them, then the next page's, so turning to it is instant too;
+     * restarted whenever the page or the speech settings change.
      */
     private fun prepareSpeech() {
         speechJob?.cancel()
@@ -569,7 +570,10 @@ class ReadingViewModel(
         val prefs = settingsRepository.current
         val code = s.language?.let { LanguageCodes.codeFor(it.name) }
         val sentences = if (prefs.showSentencePlay) s.page.paragraphs.flatMap { it.sentences }.map { it.displayText } else emptyList()
-        speechJob = viewModelScope.launch { sentenceAudio.prepare(sentences, code, bookId) }
+        speechJob = viewModelScope.launch {
+            sentenceAudio.prepare(sentences, code, bookId)
+            if (prefs.showSentencePlay) readingService.sentenceTexts(bookId, s.pageNumber + 1)?.let { sentenceAudio.prepare(it, code, bookId) }
+        }
     }
 
     /** Drops every stored sentence translation and fetches the current page's again. */

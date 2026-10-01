@@ -9,21 +9,50 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlin.coroutines.cancellation.CancellationException
 
-/** Where synthesized sentence audio is kept until another text is opened. */
+/**
+ * Where synthesized sentence audio is kept until another text is opened. It holds a bounded amount:
+ * past its limit the audio used longest ago goes first, and reading audio counts as using it.
+ */
 interface SpeechAudioCache {
     suspend fun read(key: String): ByteArray?
     suspend fun write(key: String, audio: ByteArray)
     suspend fun clear()
+
+    companion object {
+        /** How much audio a cache on disk keeps: some hours of speech. */
+        const val MAX_BYTES_ON_DISK: Long = 200L * 1024 * 1024
+
+        /** How much a cache in memory keeps. */
+        const val MAX_BYTES_IN_MEMORY: Long = 100L * 1024 * 1024
+    }
 }
 
 /** A [SpeechAudioCache] in memory, for platforms without a file system and for tests. */
-class MemorySpeechAudioCache : SpeechAudioCache {
+class MemorySpeechAudioCache(private val maxBytes: Long = SpeechAudioCache.MAX_BYTES_IN_MEMORY) : SpeechAudioCache {
     private val lock = Mutex()
-    private val entries = HashMap<String, ByteArray>()
 
-    override suspend fun read(key: String): ByteArray? = lock.withLock { entries[key] }
-    override suspend fun write(key: String, audio: ByteArray) = lock.withLock { entries[key] = audio }
-    override suspend fun clear() = lock.withLock { entries.clear() }
+    /** In order of use, the least recently used first. */
+    private val entries = LinkedHashMap<String, ByteArray>()
+    private var bytes = 0L
+
+    override suspend fun read(key: String): ByteArray? = lock.withLock {
+        entries.remove(key)?.also { entries[key] = it }
+    }
+
+    override suspend fun write(key: String, audio: ByteArray) = lock.withLock {
+        entries.remove(key)?.let { bytes -= it.size }
+        entries[key] = audio
+        bytes += audio.size
+        while (bytes > maxBytes && entries.size > 1) {
+            val oldest = entries.keys.first()
+            bytes -= entries.remove(oldest)!!.size
+        }
+    }
+
+    override suspend fun clear() = lock.withLock {
+        entries.clear()
+        bytes = 0
+    }
 }
 
 /** How far a sentence's audio has got. */
