@@ -92,6 +92,8 @@ import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
 import com.tayra.languages.core.ui.audio.rememberSpeaker
+import com.tayra.languages.core.domain.service.SentenceAudioState
+import com.tayra.languages.core.domain.service.SentenceAudio
 import org.koin.compose.koinInject
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.ui.components.AboveTargetPositionProvider
@@ -679,10 +681,16 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
         ErrorMessage(state.error, Modifier.padding(16.dp))
         return
     }
-    val speaker = rememberSpeaker(koinInject(), koinInject())
+    val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     val speechLanguage = state.language?.name?.let { LanguageCodes.codeFor(it) }
     val speakSentence: (String) -> Unit = remember(speaker, speechLanguage) { { text -> speaker.toggle(text, speechLanguage) } }
     val playingSentence by speaker.playing.collectAsState()
+    val synthesizing by speaker.working.collectAsState()
+    val audioStates by viewModel.sentenceAudioStates.collectAsState()
+    // Sentences whose audio is still being made: queued or under way ahead of time, or the one just asked for.
+    val preparingSentences = remember(audioStates, playingSentence, synthesizing) {
+        audioStates.filterValues { it == SentenceAudioState.PREPARING }.keys + listOfNotNull(playingSentence.takeIf { synthesizing })
+    }
     // The callbacks are built once, so they read the state through this rather than the value of the first frame.
     val current by rememberUpdatedState(state)
     val speakWord by rememberUpdatedState { index: Int -> viewModel.wordToSpeak(index)?.let { speaker.speak(it, speechLanguage) } }
@@ -762,6 +770,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 sideBySide = state.settings.sideBySideTranslations,
                 onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,
                 playingSentence = playingSentence,
+                preparingSentences = preparingSentences,
                 edgePadding = edgePadding,
                 callbacks = callbacks,
             )

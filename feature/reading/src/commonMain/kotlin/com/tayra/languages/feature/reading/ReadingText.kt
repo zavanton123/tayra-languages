@@ -119,6 +119,8 @@ fun ReadingText(
     onSpeakSentence: ((String) -> Unit)? = null,
     /** The sentence being read aloud, whose button shows Stop. */
     playingSentence: String? = null,
+    /** Sentences whose audio is still being made; their buttons show a spinner. */
+    preparingSentences: Set<String> = emptySet(),
     /** The margin between the card's edge and this text; a sentence button leaves the same space before the text. */
     edgePadding: Dp = 16.dp,
 ) {
@@ -152,6 +154,7 @@ fun ReadingText(
                         inlinePlay = inlinePlay,
                         onSpeakSentence = onSpeakSentence,
                         playingSentence = playingSentence,
+                        preparingSentences = preparingSentences,
                         firstItemIndex = first,
                         theme = theme,
                         showHighlights = showHighlights,
@@ -169,7 +172,7 @@ fun ReadingText(
                 // The button is centred on its sentence's text, so a translation under it stays out of the row.
                 val withButton: @Composable (Modifier) -> Unit = { rowModifier ->
                     Row(rowModifier, verticalAlignment = Alignment.CenterVertically) {
-                        PlayButton(sentenceText.takeIf { speakable }, sentenceText == playingSentence, fontScale, edgePadding, onSpeakSentence!!)
+                        PlayButton(sentenceText.takeIf { speakable }, sentenceText == playingSentence, sentenceText in preparingSentences, fontScale, edgePadding, onSpeakSentence!!)
                         Box(Modifier.weight(1f)) { sentence() }
                     }
                 }
@@ -199,9 +202,9 @@ fun ReadingText(
  * an empty slot of the same width keeps sentences without words aligned.
  */
 @Composable
-private fun PlayButton(text: String?, playing: Boolean, fontScale: Float, gap: Dp, onSpeak: (String) -> Unit) {
+private fun PlayButton(text: String?, playing: Boolean, preparing: Boolean, fontScale: Float, gap: Dp, onSpeak: (String) -> Unit) {
     Box(Modifier.padding(end = gap).size((PLAY_BUTTON_SIZE * fontScale).dp)) {
-        if (text != null) SpeakerCircle(playing, Modifier.fillMaxSize()) { onSpeak(text) }
+        if (text != null) SpeakerCircle(playing, preparing, Modifier.fillMaxSize()) { onSpeak(text) }
     }
 }
 
@@ -210,16 +213,22 @@ private fun playGutter(fontScale: Float, gap: Dp) = (PLAY_BUTTON_SIZE * fontScal
 
 private const val PLAY_BUTTON_SIZE = 32
 
-/** The speaker icon in a soft circle; a stop square while the sentence is being read. */
+/**
+ * The speaker icon in a soft circle: a spinner while the sentence's audio is being made, a stop
+ * square while it is read. A preparing sentence can still be clicked; it plays once ready.
+ */
 @Composable
-private fun SpeakerCircle(playing: Boolean, modifier: Modifier, onClick: () -> Unit) {
+private fun SpeakerCircle(playing: Boolean, preparing: Boolean, modifier: Modifier, onClick: () -> Unit) {
     val primary = MaterialTheme.colorScheme.primary
     Box(
         modifier.clip(CircleShape).background(primary.copy(alpha = 0.12f)).clickable(onClick = onClick)
-            .semantics { contentDescription = if (playing) "Stop" else "Play sentence" },
+            .semantics { contentDescription = if (playing) "Stop" else if (preparing) "Preparing sentence" else "Play sentence" },
         contentAlignment = Alignment.Center,
     ) {
-        Icon(if (playing) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = null, tint = primary, modifier = Modifier.fillMaxSize(0.58f))
+        when {
+            preparing -> CircularProgressIndicator(Modifier.fillMaxSize(0.5f), color = primary, strokeWidth = 2.dp)
+            else -> Icon(if (playing) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = null, tint = primary, modifier = Modifier.fillMaxSize(0.58f))
+        }
     }
 }
 
@@ -266,6 +275,7 @@ private fun ParagraphText(
     inlinePlay: Map<Int, String> = emptyMap(),
     onSpeakSentence: ((String) -> Unit)? = null,
     playingSentence: String? = null,
+    preparingSentences: Set<String> = emptySet(),
     trimLeadingSpace: Boolean = false,
 ) {
     val spans = remember(items) { mutableListOf<Span>() }
@@ -274,13 +284,13 @@ private fun ParagraphText(
         buildParagraph(items, firstItemIndex, theme, showHighlights, marked, hovered, selection, spans, inlinePlay.keys, trimLeadingSpace)
     }
     val primary = MaterialTheme.colorScheme.primary
-    val inlineContent = remember(inlinePlay, onSpeakSentence, primary, playingSentence) {
+    val inlineContent = remember(inlinePlay, onSpeakSentence, primary, playingSentence, preparingSentences) {
         if (onSpeakSentence == null) emptyMap() else inlinePlay.entries.associate { (position, sentence) ->
             val playing = sentence == playingSentence
             // The circle fills the placeholder's height; the extra width is the gap before the sentence.
             "play-$position" to InlineTextContent(Placeholder(1.85.em, 1.35.em, PlaceholderVerticalAlign.TextCenter)) {
                 Box(Modifier.fillMaxSize()) {
-                    SpeakerCircle(playing, Modifier.fillMaxHeight().aspectRatio(1f).align(Alignment.CenterStart)) { onSpeakSentence(sentence) }
+                    SpeakerCircle(playing, sentence in preparingSentences, Modifier.fillMaxHeight().aspectRatio(1f).align(Alignment.CenterStart)) { onSpeakSentence(sentence) }
                 }
             }
         }

@@ -15,12 +15,16 @@ import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.domain.service.LocalTranslation
 import org.koin.core.module.Module
 import org.koin.dsl.module
+import java.io.File
+import com.tayra.languages.core.domain.service.SpeechAudioCache
+import com.tayra.languages.core.data.speech.FileSpeechAudioCache
 
 actual val platformDataModule: Module = module {
     single { LocalTranslation(MlKitSentenceTranslator(get())) }
     single { AndroidSherpaRuntime(get<Context>()) }
     single { LocalSpeech(listOf(SherpaPiperEngine(get<AndroidSherpaRuntime>()), SherpaKokoroEngine(get<AndroidSherpaRuntime>()))) }
     single { DatabaseDriverFactory(get<Context>()) }
+    single<SpeechAudioCache> { FileSpeechAudioCache(File(get<Context>().cacheDir, "speech-cache")) }
     single { DictionaryPackStorage(get<Context>(), get()) }
     single<Settings> { SharedPreferencesSettings(get<Context>().getSharedPreferences("tayra_settings", Context.MODE_PRIVATE)) }
     single<SecureStore> { AndroidSecureStore(get<Context>()) }

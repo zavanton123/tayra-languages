@@ -5,6 +5,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import co.touchlab.kermit.Logger
 import com.tayra.languages.core.domain.service.LocalSpeech
+import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
@@ -23,6 +24,8 @@ class Speaker(
     private val local: LocalSpeech,
     private val settings: SettingsRepository,
     private val scope: CoroutineScope,
+    /** Prepared sentence audio; with it a sentence made ahead of time plays at once. */
+    private val prepared: SentenceAudio? = null,
 ) {
     private var job: Job? = null
 
@@ -59,7 +62,9 @@ class Speaker(
         }
         job = scope.launch {
             _working.value = true
-            val wav = runCatching { engine.synthesize(text, languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], prefs.speechSpeed) }
+            val wav = runCatching {
+                prepared?.audioFor(text, languageCode) ?: engine.synthesize(text, languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], prefs.speechSpeed)
+            }
                 .onFailure { Logger.w { "${engine.displayName} could not speak: ${it.message}" } }
                 .getOrNull()
             _working.value = false
@@ -80,9 +85,9 @@ class Speaker(
 
 /** A speaker scoped to the composition; [local] and [settings] come from dependency injection. */
 @Composable
-fun rememberSpeaker(local: LocalSpeech, settings: SettingsRepository): Speaker {
+fun rememberSpeaker(local: LocalSpeech, settings: SettingsRepository, prepared: SentenceAudio? = null): Speaker {
     val system = rememberSpeechSynthesizer()
     val player = rememberWavPlayer()
     val scope = rememberCoroutineScope()
-    return remember(system, player, local, settings, scope) { Speaker(system, player, local, settings, scope) }
+    return remember(system, player, local, settings, scope, prepared) { Speaker(system, player, local, settings, scope, prepared) }
 }

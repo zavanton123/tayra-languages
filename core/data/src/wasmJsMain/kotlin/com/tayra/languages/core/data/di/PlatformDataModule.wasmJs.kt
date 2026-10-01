@@ -10,10 +10,13 @@ import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.domain.service.LocalTranslation
 import org.koin.core.module.Module
 import org.koin.dsl.module
+import com.tayra.languages.core.domain.service.SpeechAudioCache
+import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
 
 actual val platformDataModule: Module = module {
     single { LocalTranslation(null) }
     single { DatabaseDriverFactory() }
+    single<SpeechAudioCache> { MemorySpeechAudioCache() }
     single { DictionaryPackStorage() }
     single<Settings> { StorageSettings() }
     single<SecureStore> { BrowserSecureStore() }

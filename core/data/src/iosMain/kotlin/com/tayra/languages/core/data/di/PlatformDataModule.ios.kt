@@ -9,9 +9,12 @@ import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import org.koin.core.module.Module
 import org.koin.dsl.module
 import platform.Foundation.NSUserDefaults
+import com.tayra.languages.core.domain.service.SpeechAudioCache
+import com.tayra.languages.core.data.speech.FileSpeechAudioCache
 
 actual val platformDataModule: Module = module {
     single { DatabaseDriverFactory() }
+    single<SpeechAudioCache> { FileSpeechAudioCache() }
     single { DictionaryPackStorage(get()) }
     single<Settings> { NSUserDefaultsSettings(NSUserDefaults.standardUserDefaults) }
     single<SecureStore> { KeychainSecureStore() }
