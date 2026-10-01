@@ -309,7 +309,7 @@ private fun TryIt(viewModel: SpeechViewModel, languages: List<LanguageOption>, v
     )
     val active = playing != null && playing == text
     Button(onClick = { speaker.toggle(text, language.code) }, enabled = text.isNotBlank()) {
-        Icon(if (active) AppIcons.Stop else AppIcons.PlayArrow, contentDescription = null, modifier = Modifier.size(18.dp))
+        Icon(if (active) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = null, modifier = Modifier.size(18.dp))
         Text(
             when {
                 active && working -> "  Preparing..."
