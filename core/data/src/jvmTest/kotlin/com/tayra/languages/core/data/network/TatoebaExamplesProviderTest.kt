@@ -48,9 +48,9 @@ class TatoebaExamplesProviderTest {
         assertEquals(false, url.contains("has_audio"), url)
     }
 
-    /** Tatoeba refuses to serve recordings without a licence (403), so only licensed ones are offered. */
+    /** Every recording is offered, a licensed one first; whether it downloads is found out when it is fetched. */
     @Test
-    fun recordingsWithoutALicenceAreNotOffered() {
+    fun aLicensedRecordingIsPreferredButAnyIsOffered() {
         val body = """
             {"data": [
               {"id": 1, "text": "Eu não tenho tempo.", "lang": "por", "audios": [{"id": 7, "license": ""}], "translations": []},
@@ -59,7 +59,10 @@ class TatoebaExamplesProviderTest {
             ]}
         """.trimIndent()
         val result = TatoebaExamplesProvider(HttpClient(MockEngine { respond("", HttpStatusCode.OK) })).extract(body, "eng")
-        assertEquals(listOf(null, "https://api.tatoeba.org/v1/audios/9/file", null), result.sentences.map { it.audioUrl })
+        assertEquals(
+            listOf("https://api.tatoeba.org/v1/audios/7/file", "https://api.tatoeba.org/v1/audios/9/file", "https://api.tatoeba.org/v1/audios/10/file"),
+            result.sentences.map { it.audioUrl },
+        )
     }
 
     @Test

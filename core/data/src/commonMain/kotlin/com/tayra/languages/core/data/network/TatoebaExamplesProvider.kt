@@ -104,10 +104,10 @@ class TatoebaExamplesProvider(
             val translation = (translations.firstOrNull { it["is_direct"]?.jsonPrimitive?.booleanOrNull == true } ?: translations.firstOrNull())
                 ?.get("text")?.jsonPrimitive?.content?.trim()
             // The API's download_url points at a path that returns 404; the file endpoint is /v1/audios/{id}/file.
-            // Recordings without a licence are refused there (403, no reuse outside Tatoeba), so they are skipped.
-            val audioUrl = (sentence["audios"] as? JsonArray).orEmpty()
-                .mapNotNull { it as? JsonObject }
-                .firstOrNull { !it["license"]?.jsonPrimitive?.contentOrNull.isNullOrBlank() }
+            // A licensed recording is tried first, as those without a licence are usually refused (403); a
+            // refused download is found when it is fetched ahead of time, and the sentence is read aloud instead.
+            val audios = (sentence["audios"] as? JsonArray).orEmpty().mapNotNull { it as? JsonObject }
+            val audioUrl = (audios.firstOrNull { !it["license"]?.jsonPrimitive?.contentOrNull.isNullOrBlank() } ?: audios.firstOrNull())
                 ?.get("id")?.jsonPrimitive?.content
                 ?.let { "$AUDIO_FILE_URL/$it/file" }
             ExampleSentence(text, translation, audioUrl)
