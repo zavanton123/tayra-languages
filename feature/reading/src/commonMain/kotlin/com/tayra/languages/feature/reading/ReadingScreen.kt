@@ -722,15 +722,16 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
     LaunchedEffect(state.pageNumber) { scrollState.scrollTo(0) }
     val compact = LocalWindowWidth.current.isCompact
     val focus = state.settings.focusMode
+    val edgePadding = if (focus || compact) 16.dp else 32.dp
     val cardModifier = if (focus) {
-        Modifier.widthIn(max = state.settings.readingColumnWidth.dp).padding(horizontal = 16.dp, vertical = 12.dp)
+        Modifier.widthIn(max = state.settings.readingColumnWidth.dp).padding(horizontal = edgePadding, vertical = 12.dp)
     } else {
         Modifier.padding(if (compact) 12.dp else 16.dp)
             .widthIn(max = state.settings.readingColumnWidth.dp + 64.dp)
             .clip(RoundedCornerShape(14.dp))
             .background(theme.readingBackground)
             .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
-            .padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 28.dp)
+            .padding(horizontal = edgePadding, vertical = if (compact) 16.dp else 28.dp)
     }
     Column(Modifier.fillMaxSize().verticalScroll(scrollState), horizontalAlignment = Alignment.CenterHorizontally) {
         Column(cardModifier) {
@@ -762,6 +763,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
                 sideBySide = state.settings.sideBySideTranslations,
                 onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,
                 playingSentence = playingSentence,
+                edgePadding = edgePadding,
                 callbacks = callbacks,
             )
             if (state.selecting) {

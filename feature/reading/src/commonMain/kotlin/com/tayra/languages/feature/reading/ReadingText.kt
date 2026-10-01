@@ -62,6 +62,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.withTimeoutOrNull
@@ -118,6 +119,8 @@ fun ReadingText(
     onSpeakSentence: ((String) -> Unit)? = null,
     /** The sentence being read aloud, whose button shows Stop. */
     playingSentence: String? = null,
+    /** The margin between the card's edge and this text; a sentence button leaves the same space before the text. */
+    edgePadding: Dp = 16.dp,
 ) {
     var itemOffset = 0
     val perSentence = splitSentences || translations != null
@@ -166,7 +169,7 @@ fun ReadingText(
                 // The button is centred on its sentence's text, so a translation under it stays out of the row.
                 val withButton: @Composable (Modifier) -> Unit = { rowModifier ->
                     Row(rowModifier, verticalAlignment = Alignment.CenterVertically) {
-                        PlayButton(sentenceText.takeIf { speakable }, sentenceText == playingSentence, fontScale, onSpeakSentence!!)
+                        PlayButton(sentenceText.takeIf { speakable }, sentenceText == playingSentence, fontScale, edgePadding, onSpeakSentence!!)
                         Box(Modifier.weight(1f)) { sentence() }
                     }
                 }
@@ -180,7 +183,7 @@ fun ReadingText(
                     }
                 } else if (perSentence && onSpeakSentence != null) {
                     withButton(Modifier.fillMaxWidth())
-                    if (translated) Box(Modifier.padding(start = playGutter(fontScale))) { TranslationLine(translations[sentenceText], theme, fontScale, lineHeight) }
+                    if (translated) Box(Modifier.padding(start = playGutter(fontScale, edgePadding))) { TranslationLine(translations[sentenceText], theme, fontScale, lineHeight) }
                 } else {
                     sentence()
                     if (translated) TranslationLine(translations[sentenceText], theme, fontScale, lineHeight)
@@ -191,24 +194,21 @@ fun ReadingText(
 }
 
 /**
- * The button before a sentence, in a gutter with room before the text; an empty slot of the
- * same width keeps sentences without words aligned.
+ * The button before a sentence. It sits at the start of the text area and leaves [gap] before
+ * the text, the same as the card's margin before it, so it is centred between edge and text;
+ * an empty slot of the same width keeps sentences without words aligned.
  */
 @Composable
-private fun PlayButton(text: String?, playing: Boolean, fontScale: Float, onSpeak: (String) -> Unit) {
-    Box(Modifier.padding(start = PLAY_GUTTER_START, end = PLAY_GUTTER_END).size((PLAY_BUTTON_SIZE * fontScale).dp)) {
+private fun PlayButton(text: String?, playing: Boolean, fontScale: Float, gap: Dp, onSpeak: (String) -> Unit) {
+    Box(Modifier.padding(end = gap).size((PLAY_BUTTON_SIZE * fontScale).dp)) {
         if (text != null) SpeakerCircle(playing, Modifier.fillMaxSize()) { onSpeak(text) }
     }
 }
 
 /** How far the text of a sentence with a play button starts from the edge. */
-private fun playGutter(fontScale: Float) = (PLAY_BUTTON_SIZE * fontScale).dp + PLAY_GUTTER_START + PLAY_GUTTER_END
+private fun playGutter(fontScale: Float, gap: Dp) = (PLAY_BUTTON_SIZE * fontScale).dp + gap
 
 private const val PLAY_BUTTON_SIZE = 32
-private val PLAY_GUTTER_START = 8.dp
-
-// The reading column's own margin already sits before the button, so the text needs more room after it to look even.
-private val PLAY_GUTTER_END = 20.dp
 
 /** The speaker icon in a soft circle; a stop square while the sentence is being read. */
 @Composable
