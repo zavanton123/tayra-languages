@@ -17,7 +17,8 @@ actual class AudioPlayer actual constructor() {
     private var observers: List<NSObjectProtocol> = emptyList()
     private var onFinished: ((Boolean) -> Unit)? = null
 
-    actual fun play(url: String, onFinished: (failed: Boolean) -> Unit) {
+    // AVPlayer reports when sound begins only through key-value observing, so the clip counts as started at once.
+    actual fun play(url: String, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) {
         stop()
         val nsUrl = NSURL.URLWithString(url) ?: return onFinished(true)
         val item = AVPlayerItem(uRL = nsUrl)
@@ -28,6 +29,7 @@ actual class AudioPlayer actual constructor() {
         }
         player.replaceCurrentItemWithPlayerItem(item)
         player.play()
+        onStarted()
     }
 
     private fun finish(failed: Boolean = false) {
