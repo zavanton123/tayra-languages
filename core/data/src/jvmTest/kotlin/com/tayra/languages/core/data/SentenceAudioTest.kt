@@ -50,7 +50,7 @@ class SentenceAudioTest {
     @Test
     fun aPageIsPreparedAheadAndPlayedFromTheCache() = runTest {
         settings.update { it.copy(speechEngine = SpeechEngine.PIPER) }
-        audio.prepare(bookId = 1, sentences = page, languageCode = "pt")
+        audio.prepare(page, "pt", bookId = 1)
 
         assertEquals(mapOf("O lobo dorme." to SentenceAudioState.READY, "A noite é longa." to SentenceAudioState.READY), audio.states.value)
         assertEquals(listOf("O lobo dorme.", "A noite é longa."), piper.made, "each sentence once; no audio for one without words")
@@ -63,13 +63,13 @@ class SentenceAudioTest {
     @Test
     fun anotherSpeedMakesNewAudioAndAnotherBookEmptiesTheCache() = runTest {
         settings.update { it.copy(speechEngine = SpeechEngine.PIPER) }
-        audio.prepare(1, page, "pt")
+        audio.prepare(page, "pt", bookId = 1)
         settings.update { it.copy(speechSpeed = 1.5f) }
-        audio.prepare(1, page, "pt")
+        audio.prepare(page, "pt", bookId = 1)
         assertEquals(4, piper.made.size)
         assertEquals(4, directory.listFiles()!!.size, "audio for both speeds is kept while the book is open")
 
-        audio.prepare(2, listOf("Outra história."), "pt")
+        audio.prepare(listOf("Outra história."), "pt", bookId = 2)
         assertEquals(1, directory.listFiles()!!.size, "opening another book drops the earlier audio")
         assertEquals(mapOf("Outra história." to SentenceAudioState.READY), audio.states.value)
     }
@@ -77,11 +77,11 @@ class SentenceAudioTest {
     @Test
     fun aSentenceTheEngineCannotSpeakIsLeftToTheButtonAndTheSystemVoiceNeedsNothing() = runTest {
         settings.update { it.copy(speechEngine = SpeechEngine.PIPER) }
-        audio.prepare(1, listOf("Unspeakable sentence.", "O lobo dorme."), "pt")
+        audio.prepare(listOf("Unspeakable sentence.", "O lobo dorme."), "pt", bookId = 1)
         assertEquals(mapOf("O lobo dorme." to SentenceAudioState.READY), audio.states.value)
 
         settings.update { it.copy(speechEngine = SpeechEngine.SYSTEM) }
-        audio.prepare(1, page, "pt")
+        audio.prepare(page, "pt", bookId = 1)
         assertTrue(audio.states.value.isEmpty())
         assertEquals(2, piper.made.size)
     }

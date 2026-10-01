@@ -569,7 +569,7 @@ class ReadingViewModel(
         val prefs = settingsRepository.current
         val code = s.language?.let { LanguageCodes.codeFor(it.name) }
         val sentences = if (prefs.showSentencePlay) s.page.paragraphs.flatMap { it.sentences }.map { it.displayText } else emptyList()
-        speechJob = viewModelScope.launch { sentenceAudio.prepare(bookId, sentences, code) }
+        speechJob = viewModelScope.launch { sentenceAudio.prepare(sentences, code, bookId) }
     }
 
     /** Drops every stored sentence translation and fetches the current page's again. */
