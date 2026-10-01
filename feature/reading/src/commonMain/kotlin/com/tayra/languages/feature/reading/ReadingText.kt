@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Icon
 import androidx.compose.foundation.clickable
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.draw.drawBehind
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.foundation.relocation.bringIntoViewRequester
@@ -139,6 +141,8 @@ fun ReadingText(
     val perSentence = splitSentences || translations != null
     val twoColumns = translations != null && sideBySide
     val readingTint = theme.readingText.copy(alpha = if (readingHeard) HEARD_TINT_ALPHA else WAITING_TINT_ALPHA)
+    // The highlight reaches out into the card's margin, stopping a little short of its border.
+    val highlightReach = (edgePadding - HIGHLIGHT_INSET).coerceAtLeast(0.dp)
     Column(modifier) {
         page.paragraphs.forEach { paragraph ->
             // A run of items that shares one Text: the whole paragraph, or one sentence each.
@@ -202,7 +206,7 @@ fun ReadingText(
                 }
                 // The background takes in the sentence's translation too, beside it or under it.
                 if (twoColumns) {
-                    Row(Modifier.padding(bottom = 6.dp).fillMaxWidth().followed(isReading, followReading, readingTint), verticalAlignment = Alignment.Top) {
+                    Row(Modifier.padding(bottom = 6.dp).fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach), verticalAlignment = Alignment.Top) {
                         if (onSpeakSentence != null) withButton(Modifier.weight(1f)) else Box(Modifier.weight(1f)) { sentence() }
                         Box(Modifier.width(24.dp))
                         Box(Modifier.weight(1f)) {
@@ -210,7 +214,7 @@ fun ReadingText(
                         }
                     }
                 } else if (perSentence) {
-                    Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint)) {
+                    Column(Modifier.fillMaxWidth().followed(isReading, followReading, readingTint, highlightReach)) {
                         if (onSpeakSentence != null) withButton(Modifier.fillMaxWidth()) else sentence()
                         if (translated) {
                             Box(Modifier.padding(start = if (onSpeakSentence != null) playGutter(fontScale, edgePadding) else 0.dp)) {
@@ -220,7 +224,7 @@ fun ReadingText(
                     }
                 } else {
                     // A flowing paragraph: its words are tinted instead.
-                    Box(Modifier.fillMaxWidth().followed(isReading, followReading, Color.Transparent)) { sentence() }
+                    Box(Modifier.fillMaxWidth().followed(isReading, followReading, Color.Transparent, highlightReach)) { sentence() }
                 }
             }
         }
@@ -264,16 +268,24 @@ private fun SpeakerCircle(playing: Boolean, preparing: Boolean, modifier: Modifi
 }
 
 /**
- * Marks the sentence being read: a light rounded background (none for a flowing paragraph, whose
- * words are tinted instead), and kept in view while [follow] is on.
+ * Marks the sentence being read: a light rounded background drawn [reach] beyond its sides, into
+ * the card's margin, so it spans the whole row (none for a flowing paragraph, whose words are
+ * tinted instead); kept in view while [follow] is on.
  */
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-private fun Modifier.followed(isReading: Boolean, follow: Boolean, tint: Color): Modifier {
+private fun Modifier.followed(isReading: Boolean, follow: Boolean, tint: Color, reach: Dp): Modifier {
     val requester = remember { BringIntoViewRequester() }
     LaunchedEffect(isReading, follow) { if (isReading && follow) requester.bringIntoView() }
-    return bringIntoViewRequester(requester).then(if (isReading && tint != Color.Transparent) Modifier.background(tint, RoundedCornerShape(8.dp)) else Modifier)
+    if (!isReading || tint == Color.Transparent) return bringIntoViewRequester(requester)
+    return bringIntoViewRequester(requester).drawBehind {
+        val side = reach.toPx()
+        drawRoundRect(tint, topLeft = Offset(-side, 0f), size = Size(size.width + side * 2, size.height), cornerRadius = CornerRadius(10.dp.toPx()))
+    }
 }
+
+/** How far the highlight stops short of the card's border. */
+private val HIGHLIGHT_INSET = 8.dp
 
 /** How strongly the sentence being heard is tinted with the text colour. */
 private const val HEARD_TINT_ALPHA = 0.1f
