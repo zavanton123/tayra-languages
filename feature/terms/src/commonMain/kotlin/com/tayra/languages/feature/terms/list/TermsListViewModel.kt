@@ -98,7 +98,7 @@ class TermsListViewModel(
 
     private val counts = combine(
         count(TermStatus.NEW_1, TermStatus.WELL_KNOWN),
-        count(TermStatus.NEW_1, TermStatus.LEARNED),
+        count(TermStatus.NEW_1, TermStatus.LEARNING_4),
         count(TermStatus.WELL_KNOWN, TermStatus.WELL_KNOWN),
     ) { total, learning, known -> Counts(total, learning, known) }
 

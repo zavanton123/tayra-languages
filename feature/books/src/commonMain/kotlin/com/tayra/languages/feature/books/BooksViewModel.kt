@@ -101,7 +101,7 @@ class BooksViewModel(
     private data class Options(val sort: BookSort, val mastery: MasteryFilter, val view: BooksView, val extras: Extras, val wordsLearned: Int)
 
     private val wordsLearned = terms
-        .observeList(TermListFilter(minStatus = TermStatus.LEARNED, maxStatus = TermStatus.WELL_KNOWN), TermListSort(), 0, 1)
+        .observeList(TermListFilter(minStatus = TermStatus.WELL_KNOWN, maxStatus = TermStatus.WELL_KNOWN), TermListSort(), 0, 1)
         .map { it.totalCount }
         .catch { e -> Logger.w(e) { "Counting learned terms failed" }; emit(0) }
 
