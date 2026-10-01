@@ -23,10 +23,11 @@ import androidx.compose.ui.unit.dp
 /** Plays one audio clip at a time from a URL. */
 expect class AudioPlayer() {
     /**
-     * Starts playing the clip, stopping any clip that is still playing. [onFinished] runs once
-     * when the clip ends, fails ([failed] true), or is stopped; it may be called from any thread.
+     * Starts playing the clip, stopping any clip that is still playing. [onStarted] runs when
+     * sound begins, after the download; [onFinished] runs once when the clip ends, fails
+     * ([failed] true), or is stopped. Both may be called from any thread.
      */
-    fun play(url: String, onFinished: (failed: Boolean) -> Unit)
+    fun play(url: String, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit)
     fun stop()
     /** Releases platform resources; the player must not be used afterwards. */
     fun release()
@@ -37,7 +38,13 @@ class AudioPlayback internal constructor(private val player: AudioPlayer) {
     var playingUrl: String? by mutableStateOf(null)
         private set
 
+    /** The clip that was asked for but is still downloading. */
+    var loadingUrl: String? by mutableStateOf(null)
+        private set
+
     fun isPlaying(url: String): Boolean = playingUrl == url
+
+    fun isLoading(url: String): Boolean = loadingUrl == url
 
     /**
      * Plays [url], or stops it when it is the clip currently playing. [onFailed] runs, on the
@@ -49,15 +56,22 @@ class AudioPlayback internal constructor(private val player: AudioPlayer) {
             return
         }
         playingUrl = url
-        player.play(url) { failed ->
-            if (playingUrl == url) playingUrl = null
-            if (failed) onFailed?.invoke()
-        }
+        loadingUrl = url
+        player.play(
+            url,
+            onStarted = { if (loadingUrl == url) loadingUrl = null },
+            onFinished = { failed ->
+                if (playingUrl == url) playingUrl = null
+                if (loadingUrl == url) loadingUrl = null
+                if (failed) onFailed?.invoke()
+            },
+        )
     }
 
     fun stop() {
         player.stop()
         playingUrl = null
+        loadingUrl = null
     }
 
     internal fun release() = player.release()

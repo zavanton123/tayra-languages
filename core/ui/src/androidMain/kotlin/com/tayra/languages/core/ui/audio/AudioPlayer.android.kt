@@ -8,12 +8,15 @@ actual class AudioPlayer actual constructor() {
     private var current: MediaPlayer? = null
     private var onFinished: ((Boolean) -> Unit)? = null
 
-    actual fun play(url: String, onFinished: (failed: Boolean) -> Unit) {
+    actual fun play(url: String, onStarted: () -> Unit, onFinished: (failed: Boolean) -> Unit) {
         stop()
         this.onFinished = onFinished
         current = MediaPlayer().apply {
             setAudioAttributes(AudioAttributes.Builder().setContentType(AudioAttributes.CONTENT_TYPE_SPEECH).setUsage(AudioAttributes.USAGE_MEDIA).build())
-            setOnPreparedListener { it.start() }
+            setOnPreparedListener {
+                it.start()
+                onStarted()
+            }
             setOnCompletionListener { finish(it) }
             setOnErrorListener { player, what, extra ->
                 Logger.w { "Audio playback failed ($what/$extra) for $url" }

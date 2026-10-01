@@ -80,6 +80,9 @@ import com.tayra.languages.core.ui.navigation.Route
 import io.ktor.http.encodeURLParameter
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.material3.CircularProgressIndicator
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.CoroutineScope
 import com.tayra.languages.core.ui.audio.rememberSpeaker
@@ -117,6 +120,7 @@ fun ExamplesSearchScreen(
     val playback = rememberAudioPlayback()
     val speaker = rememberSpeaker(koinInject(), koinInject())
     val speaking by speaker.playing.collectAsState()
+    val synthesizing by speaker.working.collectAsState()
     val scope = rememberCoroutineScope()
     val compact = LocalWindowWidth.current.isCompact
     val wide = LocalWindowWidth.current.isExpanded
@@ -166,6 +170,7 @@ fun ExamplesSearchScreen(
                                 translateWord = translateWord,
                                 translation = example.translation,
                                 playing = example.audioUrl?.let(playback::isPlaying) == true || speaking == example.text,
+                                loading = example.audioUrl?.let(playback::isLoading) == true || (speaking == example.text && synthesizing),
                                 recorded = example.audioUrl != null,
                                 onPlay = { playExample(example, LanguageCodes.codeFor(query.language.name), playback, speaker, scope) },
                                 direction = direction,
@@ -381,6 +386,8 @@ private fun ExampleCard(
     translateWord: suspend (String) -> String?,
     translation: String?,
     playing: Boolean,
+    /** The recording is downloading, or the speech engine is preparing the sentence. */
+    loading: Boolean,
     /** Whether a recording plays rather than the speech engine. */
     recorded: Boolean,
     onPlay: () -> Unit,
@@ -408,14 +415,18 @@ private fun ExampleCard(
         }
         Spacer(Modifier.width(16.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            // A recording keeps the play icon; a sentence read by the speech engine shows a speaking voice.
             ActionButton(
-                icon = Icons.Default.PlayArrow,
+                icon = if (recorded) AppIcons.PlayArrow else AppIcons.RecordVoiceOver,
                 description = when {
+                    loading && recorded -> "Loading recording"
+                    loading -> "Preparing speech"
                     playing -> "Stop"
                     recorded -> "Play recording"
                     else -> "Read aloud"
                 },
                 active = playing,
+                loading = loading,
                 onClick = onPlay,
             )
             if (!compact) {
@@ -426,19 +437,20 @@ private fun ExampleCard(
 }
 
 @Composable
-private fun ActionButton(icon: ImageVector, description: String, enabled: Boolean = true, active: Boolean = false, onClick: () -> Unit) {
+private fun ActionButton(icon: ImageVector, description: String, enabled: Boolean = true, active: Boolean = false, loading: Boolean = false, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Box(
         Modifier.size(40.dp).clip(RoundedCornerShape(10.dp))
             .background(if (active) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
             .border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
-            .clickable(enabled = enabled, onClick = onClick),
+            .clickable(enabled = enabled, onClick = onClick)
+            .semantics { contentDescription = description },
         contentAlignment = Alignment.Center,
     ) {
-        if (active) {
-            Box(Modifier.size(12.dp).background(colors.primary, RoundedCornerShape(2.dp)))
-        } else {
-            Icon(icon, contentDescription = description, tint = if (enabled) colors.primary else colors.outlineVariant, modifier = Modifier.size(20.dp))
+        when {
+            loading -> CircularProgressIndicator(Modifier.size(18.dp), color = colors.primary, strokeWidth = 2.dp)
+            active -> Box(Modifier.size(12.dp).background(colors.primary, RoundedCornerShape(2.dp)))
+            else -> Icon(icon, contentDescription = null, tint = if (enabled) colors.primary else colors.outlineVariant, modifier = Modifier.size(20.dp))
         }
     }
 }

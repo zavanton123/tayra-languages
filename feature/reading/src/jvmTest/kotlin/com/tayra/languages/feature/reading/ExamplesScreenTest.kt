@@ -49,7 +49,9 @@ import org.koin.core.context.startKoin
 import org.koin.core.context.stopKoin
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
+import com.sun.net.httpserver.HttpServer
 import java.io.File
+import java.net.InetSocketAddress
 import java.util.Collections
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -106,6 +108,37 @@ class ExamplesScreenTest {
         rule.onNodeWithContentDescription("Play recording").performClick()
         rule.waitUntil(5_000) { "pt:Acabou o tempo." in spoken }
         assertEquals(listOf("pt:Eu não tenho tempo.", "pt:Acabou o tempo."), spoken.toList())
+    }
+
+    /** A recording that is slow to arrive shows a spinner until it starts, and its icon differs from read-aloud examples. */
+    @Test
+    fun aSlowRecordingShowsThatItIsLoading() {
+        val server = HttpServer.create(InetSocketAddress("127.0.0.1", 0), 0).apply {
+            createContext("/audio.mp3") { exchange ->
+                Thread.sleep(1_500)
+                val body = ByteArray(64)
+                exchange.sendResponseHeaders(200, body.size.toLong())
+                exchange.responseBody.use { it.write(body) }
+            }
+            start()
+        }
+        try {
+            show(
+                listOf(
+                    ExampleSentence(text = "Acabou o tempo.", translation = null, audioUrl = "http://127.0.0.1:${server.address.port}/audio.mp3"),
+                    ExampleSentence(text = "Eu não tenho tempo.", translation = null),
+                ),
+            )
+            rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Play recording").fetchSemanticsNodes().size == 1 }
+            assertEquals(1, rule.onAllNodesWithContentDescription("Read aloud").fetchSemanticsNodes().size)
+
+            rule.onNodeWithContentDescription("Play recording").performClick()
+            rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Loading recording").fetchSemanticsNodes().isNotEmpty() }
+            rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Loading recording").fetchSemanticsNodes().isEmpty() }
+            assertEquals(emptyList(), spoken.toList(), "a recording that arrives is not read aloud")
+        } finally {
+            server.stop(0)
+        }
     }
 
     private fun show(sentences: List<ExampleSentence>) {
