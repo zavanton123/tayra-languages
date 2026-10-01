@@ -24,9 +24,9 @@ import androidx.compose.ui.unit.dp
 expect class AudioPlayer() {
     /**
      * Starts playing the clip, stopping any clip that is still playing. [onFinished] runs once
-     * when the clip ends, fails, or is stopped; it may be called from any thread.
+     * when the clip ends, fails ([failed] true), or is stopped; it may be called from any thread.
      */
-    fun play(url: String, onFinished: () -> Unit)
+    fun play(url: String, onFinished: (failed: Boolean) -> Unit)
     fun stop()
     /** Releases platform resources; the player must not be used afterwards. */
     fun release()
@@ -39,15 +39,25 @@ class AudioPlayback internal constructor(private val player: AudioPlayer) {
 
     fun isPlaying(url: String): Boolean = playingUrl == url
 
-    /** Plays [url], or stops it when it is the clip currently playing. */
-    fun toggle(url: String) {
+    /**
+     * Plays [url], or stops it when it is the clip currently playing. [onFailed] runs, on the
+     * player's thread, when the clip cannot be played.
+     */
+    fun toggle(url: String, onFailed: (() -> Unit)? = null) {
         if (playingUrl == url) {
-            player.stop()
-            playingUrl = null
+            stop()
             return
         }
         playingUrl = url
-        player.play(url) { if (playingUrl == url) playingUrl = null }
+        player.play(url) { failed ->
+            if (playingUrl == url) playingUrl = null
+            if (failed) onFailed?.invoke()
+        }
+    }
+
+    fun stop() {
+        player.stop()
+        playingUrl = null
     }
 
     internal fun release() = player.release()

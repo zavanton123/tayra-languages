@@ -16,6 +16,7 @@ import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.booleanOrNull
+import kotlinx.serialization.json.contentOrNull
 import kotlinx.serialization.json.intOrNull
 import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
@@ -103,8 +104,11 @@ class TatoebaExamplesProvider(
             val translation = (translations.firstOrNull { it["is_direct"]?.jsonPrimitive?.booleanOrNull == true } ?: translations.firstOrNull())
                 ?.get("text")?.jsonPrimitive?.content?.trim()
             // The API's download_url points at a path that returns 404; the file endpoint is /v1/audios/{id}/file.
+            // Recordings without a licence are refused there (403, no reuse outside Tatoeba), so they are skipped.
             val audioUrl = (sentence["audios"] as? JsonArray).orEmpty()
-                .firstNotNullOfOrNull { (it as? JsonObject)?.get("id")?.jsonPrimitive?.content }
+                .mapNotNull { it as? JsonObject }
+                .firstOrNull { !it["license"]?.jsonPrimitive?.contentOrNull.isNullOrBlank() }
+                ?.get("id")?.jsonPrimitive?.content
                 ?.let { "$AUDIO_FILE_URL/$it/file" }
             ExampleSentence(text, translation, audioUrl)
         }
