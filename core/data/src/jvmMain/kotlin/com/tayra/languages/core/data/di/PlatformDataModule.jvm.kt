@@ -16,6 +16,9 @@ import com.tayra.languages.core.domain.service.LocalTranslation
 import org.koin.core.module.Module
 import org.koin.dsl.module
 import java.util.prefs.Preferences
+import java.io.File
+import com.tayra.languages.core.domain.service.SpeechAudioCache
+import com.tayra.languages.core.data.speech.FileSpeechAudioCache
 
 actual val platformDataModule: Module = module {
     single { ManagedPython() }
@@ -23,6 +26,7 @@ actual val platformDataModule: Module = module {
     single { TtsWorker(get()) }
     single { LocalSpeech(listOf(PiperSpeechEngine(get(), get()), KokoroSpeechEngine(get(), get()))) }
     single { DatabaseDriverFactory() }
+    single<SpeechAudioCache> { FileSpeechAudioCache(File(DatabaseDriverFactory.dataDirectory(), "speech-cache")) }
     single { DictionaryPackStorage(get()) }
     single<Settings> { PreferencesSettings(Preferences.userRoot().node("com/tayra/languages")) }
     single<SecureStore> { desktopSecureStore() }

@@ -3,6 +3,11 @@ package com.tayra.languages.feature.reading
 import com.russhwolf.settings.MapSettings
 import kotlin.test.assertTrue
 import org.koin.dsl.module
+import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onAllNodesWithContentDescription
+import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
+import com.tayra.languages.core.domain.service.SentenceAudio
 import androidx.compose.ui.semantics.SemanticsProperties
 import org.koin.core.context.stopKoin
 import org.koin.core.context.startKoin
@@ -73,6 +78,9 @@ class ReadingHoverTest {
 
     private lateinit var settings: SettingsRepositoryImpl
 
+    /** The reader's prepared sentence audio, shared with the screen's speaker through Koin. */
+    private lateinit var sentenceAudio: SentenceAudio
+
     /** What the term pane needs when a click opens it on the real screen. */
     private lateinit var termPane: org.koin.core.module.Module
 
@@ -83,7 +91,7 @@ class ReadingHoverTest {
     }
 
     /** [mainIsDefault] swaps the UI thread for a pool, for tests that never draw the screen. */
-    private suspend fun reader(mainIsDefault: Boolean = true): ReadingViewModel {
+    private suspend fun reader(mainIsDefault: Boolean = true, speech: LocalSpeech = LocalSpeech(emptyList())): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
@@ -126,11 +134,12 @@ class ReadingHoverTest {
                 TermFormViewModel(key, termService, terms, languages, settings, engine, noExamples, dictionaries, dictionaries)
             }
         }
+        sentenceAudio = SentenceAudio(speech, settings, MemorySpeechAudioCache())
         val vm = ReadingViewModel(
             bookId, null, readingService, bookService, books, termService,
             TermPopupBuilder(terms, languages, readingService), BookStatsService(books, languages, settings, readingService), settings,
             object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null },
-            LocalTranslation(null), LocalSpeech(emptyList()), words,
+            LocalTranslation(null), speech, words, sentenceAudio,
         )
         withTimeout(10_000) { while (vm.state.value.items.none { it.isWord }) delay(20) }
         return vm
@@ -168,7 +177,7 @@ class ReadingHoverTest {
     @Test
     fun theReaderScreenShowsTheCardOfTheHoveredWord() {
         val vm = runBlocking { reader(mainIsDefault = false) }
-        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings } }) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         // Matched by a phrase only the page has, since the card repeats the word.
@@ -218,7 +227,7 @@ class ReadingHoverTest {
             }
         }
         runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER, speakWordOnClick = true) } }
-        startKoin { modules(module { single { LocalSpeech(listOf(piper)) }; single<SettingsRepository> { settings } }, termPane) }
+        startKoin { modules(module { single { LocalSpeech(listOf(piper)) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         val paragraph = rule.onNodeWithText("lobo dorme", substring = true)
@@ -244,7 +253,7 @@ class ReadingHoverTest {
     @Test
     fun aPhraseIsUnderlinedWhileItIsBeingDragged() {
         val vm = runBlocking { reader(mainIsDefault = false) }
-        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings } }, termPane) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         val paragraph = rule.onNodeWithText("lobo dorme", substring = true)
@@ -266,6 +275,52 @@ class ReadingHoverTest {
         paragraph.performMouseInput { release() }
         rule.waitForIdle()
         assertEquals("lobo dorme na floresta", underlined(), "still underlined while its term is open")
+    }
+
+    /**
+     * With a local engine the page's sentences are made ahead: the button spins until its audio is
+     * ready, and a click then plays it without making it again.
+     */
+    @Test
+    fun sentencesArePreparedBeforeTheirButtonIsClicked() {
+        val made = java.util.Collections.synchronizedList(mutableListOf<String>())
+        val piper = object : LocalSpeechEngine {
+            override val engine = SpeechEngine.PIPER
+            override val displayName = "Slow Piper"
+            override val description = ""
+            override val packagesDescription = ""
+            override val hasRuntimeSetup = false
+            override val progress = MutableStateFlow<String?>(null)
+            override suspend fun status() = "ready"
+            override suspend fun isReady() = true
+            override suspend fun setUp() = "ready"
+            override suspend fun packages() = emptyList<SpeechPackage>()
+            override suspend fun installPackage(id: String) {}
+            override suspend fun removePackage(id: String) {}
+            override suspend fun voices(languageCode: String) = emptyList<SpeechVoice>()
+            override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray {
+                delay(1_000)
+                made += text
+                return silentWav()
+            }
+        }
+        val speech = LocalSpeech(listOf(piper))
+        val vm = runBlocking {
+            val reader = reader(mainIsDefault = false, speech = speech)
+            settings.update { it.copy(speechEngine = SpeechEngine.PIPER) }
+            reader
+        }
+        startKoin { modules(module { single { speech }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        vm.goToPage(1)
+
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Preparing sentence").fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Play sentence").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(listOf("O lobo dorme na floresta."), made.toList())
+
+        rule.onNodeWithContentDescription("Play sentence").performClick()
+        rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, made.size, "the prepared audio is played, not made again")
     }
 
     private fun silentWav(samples: Int = 800): ByteArray {

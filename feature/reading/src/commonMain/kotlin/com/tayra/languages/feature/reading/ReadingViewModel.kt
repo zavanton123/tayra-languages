@@ -38,6 +38,11 @@ import io.ktor.http.encodeURLParameter
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.drop
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.map
+import com.tayra.languages.core.domain.service.SentenceAudioState
+import com.tayra.languages.core.domain.service.SentenceAudio
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -124,6 +129,7 @@ class ReadingViewModel(
     localTranslation: LocalTranslation,
     private val localSpeech: LocalSpeech,
     private val wordTranslations: WordTranslationService,
+    private val sentenceAudio: SentenceAudio,
 ) : ViewModel() {
 
     private val local = localTranslation.translator
@@ -148,9 +154,21 @@ class ReadingViewModel(
 
     private var popupJob: Job? = null
     private var translationJob: Job? = null
+    private var speechJob: Job? = null
     private var lastTranslation: Pair<String, Int>? = null
 
+    /** The page's sentences by how far their audio has got, for the play buttons. */
+    val sentenceAudioStates: StateFlow<Map<String, SentenceAudioState>> = sentenceAudio.states
+
     init {
+        // A new engine, voice or speed makes different audio, so the page is prepared again.
+        viewModelScope.launch {
+            settingsRepository.settings
+                .map { listOf(it.showSentencePlay, it.speechEngine, it.speechVoices, it.speechSpeed) }
+                .distinctUntilChanged()
+                .drop(1)
+                .collect { prepareSpeech() }
+        }
         viewModelScope.launch {
             val book = books.getBook(bookId)
             if (book == null) {
@@ -184,6 +202,7 @@ class ReadingViewModel(
                 )
             }
             translateSentences()
+            prepareSpeech()
         } catch (e: Exception) {
             Logger.e(e) { "Could not load page" }
             _state.update { it.copy(loading = false, error = e.message ?: "Could not load page") }
@@ -538,6 +557,19 @@ class ReadingViewModel(
                 }
             }
         }
+    }
+
+    /**
+     * Makes the audio of every sentence on the page ahead of time when the play buttons are on and
+     * a local speech engine reads them; restarted whenever the page or the speech settings change.
+     */
+    private fun prepareSpeech() {
+        speechJob?.cancel()
+        val s = _state.value
+        val prefs = settingsRepository.current
+        val code = s.language?.let { LanguageCodes.codeFor(it.name) }
+        val sentences = if (prefs.showSentencePlay) s.page.paragraphs.flatMap { it.sentences }.map { it.displayText } else emptyList()
+        speechJob = viewModelScope.launch { sentenceAudio.prepare(bookId, sentences, code) }
     }
 
     /** Drops every stored sentence translation and fetches the current page's again. */
