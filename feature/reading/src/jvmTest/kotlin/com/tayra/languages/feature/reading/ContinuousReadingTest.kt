@@ -133,6 +133,30 @@ class ContinuousReadingTest {
         rule.waitUntil(5_000) { rule.onAllNodes(hasText("O dia chega.", substring = true)).fetchSemanticsNodes().isNotEmpty() }
     }
 
+    /** Pausing holds the sentence where it is: resuming finishes the rest rather than starting over. */
+    @Test
+    fun pauseResumesWhereItStopped() {
+        show(autoPause = true, sentenceMillis = 3_000)
+        fun press(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
+        fun reading() = rule.onAllNodes(hasContentDescription("Stop")).fetchSemanticsNodes().isNotEmpty()
+
+        press(Key.Spacebar)
+        rule.waitUntil(2_000) { reading() }
+        Thread.sleep(1_200)
+        press(Key.Spacebar)
+        rule.waitUntil(1_000) { !reading() }
+        Thread.sleep(800)
+        assertTrue(highlighted("O lobo dorme."), "the paused sentence stays highlighted")
+
+        press(Key.Spacebar)
+        val resumed = System.currentTimeMillis()
+        rule.waitUntil(2_000) { reading() }
+        rule.waitUntil(5_000) { !reading() }
+        val rest = System.currentTimeMillis() - resumed
+        assertTrue(rest < 2_500, "the rest of the sentence took $rest ms; starting over would take 3000")
+        assertTrue(highlighted("O lobo dorme."), "auto-pause stops on the sentence once it is finished")
+    }
+
     /** On a long page the sentence being read is scrolled to the middle of the reading area. */
     @Test
     fun theSentenceBeingReadIsCentred() {

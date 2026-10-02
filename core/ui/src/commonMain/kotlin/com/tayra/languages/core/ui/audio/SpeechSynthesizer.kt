@@ -16,6 +16,12 @@ expect class SpeechSynthesizer {
      * speech. [onDone] runs once when the speech ends, is stopped or fails, possibly on another thread.
      */
     fun speak(text: String, languageCode: String?, onDone: () -> Unit = {})
+
+    /** Holds speech where it is, without calling onDone; false when this platform's voice cannot. */
+    fun pause(): Boolean
+
+    /** Goes on from where [pause] held it. */
+    fun resume()
     fun stop()
     /** Releases platform resources; the synthesizer must not be used afterwards. */
     fun release()

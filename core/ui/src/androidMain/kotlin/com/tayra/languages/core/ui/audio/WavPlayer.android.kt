@@ -43,6 +43,15 @@ actual class WavPlayer(context: Context) {
         done?.also { done = null }?.invoke()
     }
 
+    actual fun pause(): Boolean {
+        val playing = player ?: return false
+        return runCatching { playing.pause() }.isSuccess
+    }
+
+    actual fun resume() {
+        player?.let { runCatching { it.start() } }
+    }
+
     actual fun stop() {
         player?.let { runCatching { it.stop(); it.release() } }
         player = null

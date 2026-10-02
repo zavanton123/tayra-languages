@@ -39,12 +39,26 @@ class Speaker(
 
     private val _playing = MutableStateFlow<String?>(null)
 
-    /** The text being prepared or spoken, null when silent. */
+    /** The text being prepared or spoken, null when silent (or paused). */
     val playing: StateFlow<String?> = _playing
 
-    /** Stops [text] when it is the one playing, and otherwise starts it. */
+    private val _paused = MutableStateFlow<String?>(null)
+
+    /** The text held by [pause], which [resume] goes on with; null when nothing is held. */
+    val paused: StateFlow<String?> = _paused
+
+    /** Where the current text is sounding from, so a pause reaches the right one. */
+    private var output: Output? = null
+
+    private enum class Output { PLAYER, SYSTEM }
+
+    /** Stops [text] when it is the one playing, resumes it when it is held, and otherwise starts it. */
     fun toggle(text: String, languageCode: String?) {
-        if (_playing.value == text) stop() else speak(text, languageCode)
+        when (text) {
+            _playing.value -> stop()
+            _paused.value -> resume()
+            else -> speak(text, languageCode)
+        }
     }
 
     /** Reads [text] aloud; [onFinished] runs when it has been read to the end, not when it is stopped or replaced. */
@@ -65,6 +79,7 @@ class Speaker(
         val prefs = settings.current
         val engine = local.find(prefs.speechEngine)
         if (engine == null || languageCode == null) {
+            output = Output.SYSTEM
             system.speak(text, languageCode, done)
             return
         }
@@ -77,8 +92,45 @@ class Speaker(
                 .getOrNull()
             _working.value = false
             if (request != current) return@launch
-            if (wav != null) player.play(wav, done) else system.speak(text, languageCode, done)
+            if (wav != null) {
+                output = Output.PLAYER
+                player.play(wav, done)
+            } else {
+                output = Output.SYSTEM
+                system.speak(text, languageCode, done)
+            }
         }
+    }
+
+    /**
+     * Holds the text being spoken where it is, so [resume] goes on from there; false when it cannot
+     * be held (still being prepared, or a voice that can only stop), and nothing changes then.
+     */
+    fun pause(): Boolean {
+        val text = _playing.value ?: return false
+        val held = when (output) {
+            Output.PLAYER -> player.pause()
+            Output.SYSTEM -> system.pause()
+            null -> false
+        }
+        if (held) {
+            _playing.value = null
+            _paused.value = text
+        }
+        return held
+    }
+
+    /** Goes on with the text [pause] held; false when nothing is held. */
+    fun resume(): Boolean {
+        val text = _paused.value ?: return false
+        _paused.value = null
+        _playing.value = text
+        when (output) {
+            Output.PLAYER -> player.resume()
+            Output.SYSTEM -> system.resume()
+            null -> {}
+        }
+        return true
     }
 
     fun stop() {
@@ -86,6 +138,8 @@ class Speaker(
         job?.cancel()
         _working.value = false
         _playing.value = null
+        _paused.value = null
+        output = null
         player.stop()
         system.stop()
     }
