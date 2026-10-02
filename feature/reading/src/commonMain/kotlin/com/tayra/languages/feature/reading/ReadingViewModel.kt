@@ -62,7 +62,8 @@ sealed interface ReadingPanel {
 
 enum class TextScope { SENTENCE, PARAGRAPH, PAGE }
 
-enum class CursorTarget { WORD, UNKNOWN_WORD, SENTENCE_START }
+/** [COLORED_WORD] is a word shown with a colour: unknown or being learned, not known or ignored. */
+enum class CursorTarget { WORD, UNKNOWN_WORD, COLORED_WORD, SENTENCE_START }
 
 data class PopupState(val itemIndex: Int, val popup: TermPopup)
 
@@ -403,6 +404,7 @@ class ReadingViewModel(
             item.isWord && when (target) {
                 CursorTarget.WORD -> true
                 CursorTarget.UNKNOWN_WORD -> item.status == TermStatus.UNKNOWN
+                CursorTarget.COLORED_WORD -> item.status != TermStatus.WELL_KNOWN && item.status != TermStatus.IGNORED
                 CursorTarget.SENTENCE_START -> item.isSentenceStart
             }
         }
@@ -595,6 +597,16 @@ class ReadingViewModel(
     fun toggleSideBySideTranslations() = updateSettings { it.copy(sideBySideTranslations = !it.sideBySideTranslations) }
     fun toggleSentencePlay() = updateSettings { it.copy(showSentencePlay = !it.showSentencePlay) }
     fun toggleAutoPause() = updateSettings { it.copy(autoPause = !it.autoPause) }
+
+    /** Steps the text size by [steps] tenths, within the range the reader's slider allows. */
+    fun stepFontSize(steps: Int) = updateSettings {
+        it.copy(readingFontScale = ((it.readingFontScale * 10).roundToInt() + steps).coerceIn(6, 25) / 10f)
+    }
+
+    /** Steps the line height by [steps] tenths, within the range the reader's slider allows. */
+    fun stepLineHeight(steps: Int) = updateSettings {
+        it.copy(readingLineHeight = ((it.readingLineHeight * 10).roundToInt() + steps).coerceIn(10, 30) / 10f)
+    }
 
     /** The word at [itemIndex] when a click on it should read it aloud. */
     fun wordToSpeak(itemIndex: Int): String? {

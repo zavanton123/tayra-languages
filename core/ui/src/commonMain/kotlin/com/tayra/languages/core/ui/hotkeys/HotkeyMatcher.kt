@@ -24,7 +24,10 @@ object HotkeyMatcher {
         put(Key.PageUp, "PageUp"); put(Key.PageDown, "PageDown")
         put(Key.F1, "F1"); put(Key.F2, "F2"); put(Key.F3, "F3"); put(Key.F4, "F4"); put(Key.F5, "F5"); put(Key.F6, "F6")
         put(Key.F7, "F7"); put(Key.F8, "F8"); put(Key.F9, "F9"); put(Key.F10, "F10"); put(Key.F11, "F11"); put(Key.F12, "F12")
-        put(Key.Comma, ","); put(Key.Period, "."); put(Key.Minus, "-"); put(Key.Equals, "="); put(Key.Slash, "/")
+        // The = key carries + above it; both, and the keypad's, are Plus, so the shifted press keeps the same name.
+        put(Key.Equals, "Plus"); put(Key.Plus, "Plus"); put(Key.NumPadAdd, "Plus")
+        put(Key.Minus, "Minus"); put(Key.NumPadSubtract, "Minus")
+        put(Key.Comma, ","); put(Key.Period, "."); put(Key.Slash, "/")
         put(Key.Semicolon, ";"); put(Key.Apostrophe, "'"); put(Key.LeftBracket, "["); put(Key.RightBracket, "]"); put(Key.Backslash, "\\")
         put(Key.Grave, "`")
     }
@@ -33,7 +36,12 @@ object HotkeyMatcher {
     private fun nameFromCodePoint(codePoint: Int): String? {
         if (codePoint <= 0x20 || codePoint > 0x7E) return null
         val ch = codePoint.toChar().uppercaseChar()
-        return if (ch.isLetterOrDigit() || ch in ",.-=/;'[]\\`") ch.toString() else null
+        return when {
+            ch == '=' || ch == '+' -> "Plus"
+            ch == '-' || ch == '_' -> "Minus"
+            ch.isLetterOrDigit() || ch in ",./;'[]\\`" -> ch.toString()
+            else -> null
+        }
     }
 
     private fun keyForLetter(c: Char): Key = when (c) {

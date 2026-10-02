@@ -418,6 +418,38 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { selected("U") }
     }
 
+    /** Ctrl+Shift with the arrows jumps between coloured words, skipping known and ignored ones. */
+    @Test
+    fun ctrlShiftArrowsJumpBetweenColouredWords() {
+        val vm = runBlocking {
+            val reader = reader(mainIsDefault = false)
+            termRepository.updateStatus(listOf(termRepository.findByTextLc(languageId, "lobo")!!.id), TermStatus.WELL_KNOWN)
+            termRepository.updateStatus(listOf(termRepository.findByTextLc(languageId, "dorme")!!.id), TermStatus.IGNORED)
+            reader.refresh()
+            reader
+        }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "dorme" && it.status == TermStatus.IGNORED } }
+        fun press(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput {
+            keyDown(Key.CtrlLeft); keyDown(Key.ShiftLeft)
+            pressKey(key)
+            keyUp(Key.ShiftLeft); keyUp(Key.CtrlLeft)
+        }
+        fun selected() = vm.state.value.marked.singleOrNull()?.let { vm.state.value.items[it].renderText }
+
+        press(Key.DirectionRight)
+        rule.waitUntil(2_000) { selected() == "O" }
+        press(Key.DirectionRight)
+        rule.waitUntil(2_000) { selected() == "na" }
+        press(Key.DirectionRight)
+        rule.waitUntil(2_000) { selected() == "floresta" }
+        press(Key.DirectionLeft)
+        rule.waitUntil(2_000) { selected() == "na" }
+        press(Key.DirectionLeft)
+        rule.waitUntil(2_000) { selected() == "O" }
+    }
+
     private fun silentWav(samples: Int = 800): ByteArray {
         val data = samples * 2
         val header = java.nio.ByteBuffer.allocate(44).order(java.nio.ByteOrder.LITTLE_ENDIAN).apply {

@@ -183,8 +183,13 @@ fun ReadingScreen(
             HotkeyAction.LISTEN_PREVIOUS, HotkeyAction.LISTEN_PREVIOUS_ARROW -> continuous.previous()
             HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW -> continuous.next()
             HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW -> continuous.repeat()
-            HotkeyAction.LISTEN_PAUSE -> continuous.toggle()
-            HotkeyAction.LISTEN_PAUSE_ARROW -> continuous.pause()
+            HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW -> continuous.toggle()
+            HotkeyAction.PREV_COLORED_WORD -> viewModel.moveCursor(-nextIncrement, CursorTarget.COLORED_WORD)
+            HotkeyAction.NEXT_COLORED_WORD -> viewModel.moveCursor(nextIncrement, CursorTarget.COLORED_WORD)
+            HotkeyAction.TEXT_LARGER -> viewModel.stepFontSize(1)
+            HotkeyAction.TEXT_SMALLER -> viewModel.stepFontSize(-1)
+            HotkeyAction.LINES_FURTHER -> viewModel.stepLineHeight(1)
+            HotkeyAction.LINES_CLOSER -> viewModel.stepLineHeight(-1)
             HotkeyAction.LISTEN_AUTO_PAUSE -> viewModel.toggleAutoPause()
             HotkeyAction.START_HOVER -> viewModel.startHoverMode()
             HotkeyAction.PREV_WORD -> viewModel.moveCursor(-nextIncrement, CursorTarget.WORD)
@@ -858,22 +863,27 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
         "Previous sentence" to listOf(HotkeyAction.LISTEN_PREVIOUS, HotkeyAction.LISTEN_PREVIOUS_ARROW),
         "Next sentence" to listOf(HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW),
         "Repeat sentence" to listOf(HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW),
-        "Pause / resume" to listOf(HotkeyAction.LISTEN_PAUSE),
-        "Pause" to listOf(HotkeyAction.LISTEN_PAUSE_ARROW),
+        "Pause / resume" to listOf(HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW),
         "Mark word as known" to listOf(HotkeyAction.STATUS_WELL_KNOWN),
         "Mark word as unknown" to listOf(HotkeyAction.DELETE_TERM),
+        "Next coloured word" to listOf(HotkeyAction.NEXT_COLORED_WORD),
+        "Previous coloured word" to listOf(HotkeyAction.PREV_COLORED_WORD),
+        "Larger / smaller text" to listOf(HotkeyAction.TEXT_LARGER, HotkeyAction.TEXT_SMALLER),
+        "More / less line height" to listOf(HotkeyAction.LINES_FURTHER, HotkeyAction.LINES_CLOSER),
         "Auto-pause on / off" to listOf(HotkeyAction.LISTEN_AUTO_PAUSE),
         "Next page" to listOf(HotkeyAction.NEXT_PAGE),
         "Previous page" to listOf(HotkeyAction.PREVIOUS_PAGE),
     ).mapNotNull { (label, actions) -> actions.mapNotNull { hotkeys[it] }.takeIf { it.isNotEmpty() }?.let { label to it } }
+    // Keys for one action are alternatives ("or"); a "this / that" row pairs two opposite actions.
+    fun separator(label: String) = if (" / " in label && !label.startsWith("Pause")) "/" else "or"
     Surface(shape = RoundedCornerShape(14.dp), color = colors.surface, shadowElevation = 8.dp, border = BorderStroke(1.dp, colors.outlineVariant)) {
-        Column(Modifier.padding(16.dp).width(320.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Column(Modifier.padding(16.dp).width(440.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text("Keyboard shortcuts", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
             rows.forEach { (label, keys) ->
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Row(Modifier.width(140.dp), horizontalArrangement = Arrangement.spacedBy(4.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Row(Modifier.width(250.dp), horizontalArrangement = Arrangement.spacedBy(4.dp), verticalAlignment = Alignment.CenterVertically) {
                         keys.forEachIndexed { index, key ->
-                            if (index > 0) Text("or", style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant)
+                            if (index > 0) Text(separator(label), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant)
                             KeyCap(key)
                         }
                     }
@@ -898,6 +908,8 @@ private fun KeyCap(hotkey: Hotkey) {
         "Right" -> "\u2192"
         "Up" -> "\u2191"
         "Down" -> "\u2193"
+        "Plus" -> "+"
+        "Minus" -> "\u2212"
         else -> hotkey.key
     }
     val label = buildList {
