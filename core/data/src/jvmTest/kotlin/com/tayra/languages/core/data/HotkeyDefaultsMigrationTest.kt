@@ -49,6 +49,18 @@ class HotkeyDefaultsMigrationTest {
         assertEquals(Hotkey("Left"), SettingsRepositoryImpl(store).current.hotkeys[HotkeyAction.PREV_WORD])
     }
 
+    /** A word shortcut that ended up on a key another shortcut uses (Escape, say) moves to its Ctrl arrow too. */
+    @Test
+    fun aWordShortcutClashingWithAnotherMovesToCtrl() {
+        val store = MapSettings()
+        HotkeyAction.entries.forEach { store.putString(it.settingKey, it.default?.serialized ?: "") }
+        store.putString(HotkeyAction.STATUS_DOWN.settingKey, "Escape")
+
+        val keys = SettingsRepositoryImpl(store).current.hotkeys
+        assertEquals(Hotkey("Down", ctrl = true), keys[HotkeyAction.STATUS_DOWN])
+        assertEquals(Hotkey("Escape"), keys[HotkeyAction.START_HOVER], "the other shortcut keeps its key")
+    }
+
     @Test
     fun aNewInstallGetsEveryDefault() {
         val keys = SettingsRepositoryImpl(MapSettings()).current.hotkeys

@@ -3,6 +3,10 @@ package com.tayra.languages.feature.reading
 import com.russhwolf.settings.MapSettings
 import kotlin.test.assertTrue
 import org.koin.dsl.module
+import com.tayra.languages.core.domain.model.TermStatus
+import androidx.compose.ui.test.pressKey
+import androidx.compose.ui.test.performKeyInput
+import androidx.compose.ui.input.key.Key
 import com.tayra.languages.core.data.network.createHttpClient
 import com.tayra.languages.core.data.network.KtorRecordingFetcher
 import com.tayra.languages.core.domain.service.ExampleRecordings
@@ -80,6 +84,8 @@ class ReadingHoverTest {
     val rule = createComposeRule()
 
     private lateinit var settings: SettingsRepositoryImpl
+    private lateinit var termRepository: TermRepositoryImpl
+    private var languageId = 0L
 
     /** The reader's prepared sentence audio, shared with the screen's speaker through Koin. */
     private lateinit var sentenceAudio: SentenceAudio
@@ -100,11 +106,12 @@ class ReadingHoverTest {
         val languages = LanguageRepositoryImpl(provider)
         val books = BookRepositoryImpl(provider)
         val terms = TermRepositoryImpl(provider)
+        termRepository = terms
         settings = SettingsRepositoryImpl(MapSettings())
         val termService = TermService(terms, languages)
         val readingService = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), termService)
         val bookService = BookService(books, languages)
-        val languageId = languages.save(Language(name = "Portuguese"))
+        languageId = languages.save(Language(name = "Portuguese"))
         val bookId = bookService.create(BookDraft(languageId = languageId, title = "T", text = "O lobo dorme na floresta."))
         val engine = object : TermTranslationProvider {
             override val name = "Fake"
@@ -325,6 +332,66 @@ class ReadingHoverTest {
         rule.onNodeWithContentDescription("Play sentence").performClick()
         rule.waitUntil(1_000) { rule.onAllNodesWithContentDescription("Stop").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(1, made.size, "the prepared audio is played, not made again")
+    }
+
+    /** With a word selected, Ctrl (⌘) with the up and down arrows steps its status up and down. */
+    @Test
+    fun ctrlArrowsStepTheSelectedWordsStatus() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        val wolf = vm.state.value.items.indexOfFirst { it.isWord && it.renderText == "lobo" }
+        vm.onWordClick(wolf, shift = false)
+        rule.waitForIdle()
+        fun status() = runBlocking { termRepository.findByTextLc(languageId, "lobo")?.status }
+        fun press(key: Key, meta: Boolean = false) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput {
+            val modifier = if (meta) Key.MetaLeft else Key.CtrlLeft
+            keyDown(modifier)
+            pressKey(key)
+            keyUp(modifier)
+        }
+
+        press(Key.DirectionUp)
+        rule.waitUntil(5_000) { status() == TermStatus.NEW_1 }
+        press(Key.DirectionUp)
+        rule.waitUntil(5_000) { status() == TermStatus.NEW_2 }
+        press(Key.DirectionDown)
+        rule.waitUntil(5_000) { status() == TermStatus.NEW_1 }
+        press(Key.DirectionUp, meta = true)
+        rule.waitUntil(5_000) { status() == TermStatus.NEW_2 }
+        press(Key.DirectionDown, meta = true)
+        rule.waitUntil(5_000) { status() == TermStatus.NEW_1 }
+    }
+
+    /** A word opened in the pane at status 3: Ctrl+↓ makes it 2, and the pane does not put it back. */
+    @Test
+    fun ctrlDownLowersAnOpenWordAndStaysLowered() {
+        val vm = runBlocking {
+            val reader = reader(mainIsDefault = false)
+            val id = termRepository.findByTextLc(languageId, "lobo")!!.id
+            termRepository.updateStatus(listOf(id), TermStatus.LEARNING_3)
+            reader.refresh()
+            reader
+        }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "lobo" && it.status == TermStatus.LEARNING_3 } }
+        vm.onWordClick(vm.state.value.items.indexOfFirst { it.isWord && it.renderText == "lobo" }, shift = false)
+        rule.waitUntil(5_000) { rule.onAllNodes(androidx.compose.ui.test.hasSetTextAction() and androidx.compose.ui.test.hasText("lobo")).fetchSemanticsNodes().isNotEmpty() }
+        rule.waitForIdle()
+        fun status() = runBlocking { termRepository.findByTextLc(languageId, "lobo")?.status }
+
+        rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput {
+            keyDown(Key.CtrlLeft)
+            pressKey(Key.DirectionDown)
+            keyUp(Key.CtrlLeft)
+        }
+        rule.waitUntil(5_000) { status() == TermStatus.NEW_2 }
+        Thread.sleep(1_500)
+        rule.waitForIdle()
+        assertEquals(TermStatus.NEW_2, status(), "the open pane must not restore the old status")
     }
 
     private fun silentWav(samples: Int = 800): ByteArray {

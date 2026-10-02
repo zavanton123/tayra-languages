@@ -85,15 +85,29 @@ class SettingsRepositoryImpl(
             qwenModel = store.getString(Keys.QWEN_MODEL, defaults.qwenModel),
             qwenInternational = store.getBoolean(Keys.QWEN_INTERNATIONAL, defaults.qwenInternational),
             argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
-            hotkeys = HotkeyAction.entries.associateWith { action ->
-                val stored = store.getStringOrNull(action.settingKey)
-                // Saving settings stores every shortcut, so a default added later would never show; it is applied once.
-                val laterDefault = action in HotkeyAction.laterDefaults && stored == "" && !store.getBoolean(Keys.LATER_HOTKEY_DEFAULTS, false)
-                val oldDefault = HotkeyAction.changedDefaults[action]
-                val changedDefault = oldDefault != null && stored != null && Hotkey.parse(stored) == oldDefault && !store.getBoolean(Keys.CTRL_WORD_HOTKEYS, false)
-                if (stored == null || laterDefault || changedDefault) action.default else Hotkey.parse(stored)
-            },
+            hotkeys = loadHotkeys(),
         )
+    }
+
+    /**
+     * The saved shortcuts. Saving settings stores every shortcut, so defaults added or changed later
+     * are applied once here: an unassigned page shortcut gets its new key, and a word shortcut still
+     * on its old plain arrow, or clashing with another shortcut, moves to its Ctrl arrow.
+     */
+    private fun loadHotkeys(): Map<HotkeyAction, Hotkey?> {
+        val stored = HotkeyAction.entries.associateWith { store.getStringOrNull(it.settingKey) }
+        val saved = stored.mapValues { (action, value) -> if (value == null) action.default else Hotkey.parse(value) }
+        val laterDefaults = !store.getBoolean(Keys.LATER_HOTKEY_DEFAULTS, false)
+        val ctrlWords = !store.getBoolean(Keys.CTRL_WORD_HOTKEYS, false)
+        return saved.mapValues { (action, key) ->
+            val oldDefault = HotkeyAction.changedDefaults[action]
+            val clashes = key != null && saved.any { (other, otherKey) -> other != action && otherKey == key }
+            when {
+                laterDefaults && action in HotkeyAction.laterDefaults && stored[action] == "" -> action.default
+                ctrlWords && oldDefault != null && stored[action] != null && (key == oldDefault || clashes) -> action.default
+                else -> key
+            }
+        }
     }
 
     /** Reads a secret, moving a value an older build left in the plain store into the secure one. */
@@ -173,7 +187,7 @@ class SettingsRepositoryImpl(
         const val SPEAK_WORD_ON_CLICK = "reading_speak_word_on_click"
         const val AUTO_PAUSE = "reading_auto_pause"
         const val LATER_HOTKEY_DEFAULTS = "hotkeys_later_defaults_applied"
-        const val CTRL_WORD_HOTKEYS = "hotkeys_ctrl_word_applied"
+        const val CTRL_WORD_HOTKEYS = "hotkeys_ctrl_word_applied_v2"
         const val SPEECH_ENGINE = "speech_engine"
         const val SPEECH_VOICES = "speech_voices"
         const val SPEECH_SPEED = "speech_speed"
