@@ -64,6 +64,28 @@ class ContinuousReading(private val speaker: Speaker) {
         read(sentences.indexOf(current).coerceAtLeast(0))
     }
 
+    /** Reads the sentence after the current one, or the next page's first at the end of the page. */
+    fun next() {
+        if (sentences.isEmpty()) return
+        val index = sentences.indexOf(current) + 1
+        pageEnded = false
+        if (index < sentences.size) read(index) else nextPage()
+    }
+
+    /** Reads the sentence before the current one (the first stays the first). */
+    fun previous() {
+        if (sentences.isEmpty()) return
+        pageEnded = false
+        read((sentences.indexOf(current) - 1).coerceAtLeast(0))
+    }
+
+    /** Reads the current sentence again from its start. */
+    fun repeat() {
+        if (sentences.isEmpty()) return
+        pageEnded = false
+        read(sentences.indexOf(current).coerceAtLeast(0))
+    }
+
     /** Stops where it is; the next [play] reads the same sentence again. */
     fun pause() {
         active = false

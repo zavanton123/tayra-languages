@@ -64,6 +64,11 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import com.tayra.languages.core.ui.audio.Speaker
+import com.tayra.languages.core.domain.settings.Hotkey
+import androidx.compose.ui.unit.IntOffset
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.ui.semantics.semantics
@@ -168,9 +173,18 @@ fun ReadingScreen(
     val hotkeys = state.settings.hotkeys
     val rtl = state.language?.rightToLeft == true
     val nextIncrement = if (rtl) -1 else 1
+    // Shared with the text below, so the keyboard drives the same reading aloud as the buttons.
+    val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
+    val continuous = remember(speaker) { ContinuousReading(speaker) }
 
     fun handleAction(action: HotkeyAction): Boolean {
         when (action) {
+            HotkeyAction.LISTEN_PLAY_PAUSE -> continuous.toggle()
+            HotkeyAction.LISTEN_PREVIOUS, HotkeyAction.LISTEN_PREVIOUS_ARROW -> continuous.previous()
+            HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW -> continuous.next()
+            HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW -> continuous.repeat()
+            HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW -> continuous.pause()
+            HotkeyAction.LISTEN_AUTO_PAUSE -> viewModel.toggleAutoPause()
             HotkeyAction.START_HOVER -> viewModel.startHoverMode()
             HotkeyAction.PREV_WORD -> viewModel.moveCursor(-nextIncrement, CursorTarget.WORD)
             HotkeyAction.NEXT_WORD -> viewModel.moveCursor(nextIncrement, CursorTarget.WORD)
@@ -244,10 +258,12 @@ fun ReadingScreen(
                 .windowInsetsPadding(WindowInsets.safeDrawing)
                 .focusRequester(focusRequester)
                 .focusable()
-                .onKeyEvent { event ->
-                    if (event.type != KeyEventType.KeyDown || panelFocused || state.items.isEmpty()) return@onKeyEvent false
-                    val pressed = HotkeyMatcher.fromEvent(event) ?: return@onKeyEvent false
-                    val action = hotkeys.entries.firstOrNull { it.value == pressed }?.key ?: return@onKeyEvent false
+                // Before the focused button sees it, so Space after clicking a button still plays or pauses.
+                .onPreviewKeyEvent { event ->
+                    if (event.type != KeyEventType.KeyDown || panelFocused || state.items.isEmpty()) return@onPreviewKeyEvent false
+                    val pressed = HotkeyMatcher.fromEvent(event) ?: return@onPreviewKeyEvent false
+                    val action = HotkeyAction.resolve(hotkeys, pressed, wordSelected = state.marked.isNotEmpty(), listening = state.settings.showSentencePlay)
+                        ?: return@onPreviewKeyEvent false
                     handleAction(action)
                 },
         ) {
@@ -262,7 +278,7 @@ fun ReadingScreen(
             }
             Row(Modifier.weight(1f).background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else 0.3f))) {
                 Box(Modifier.weight(1f).fillMaxHeight()) {
-                    ReadingBody(state, viewModel, onHome = onHome, onSettings = { onNavigate(Route.OfflineTranslation) }, focusText = { runCatching { focusRequester.requestFocus() } })
+                    ReadingBody(state, viewModel, speaker, continuous, onHome = onHome, onSettings = { onNavigate(Route.OfflineTranslation) }, focusText = { runCatching { focusRequester.requestFocus() } })
                 }
                 if (wide && state.panel != ReadingPanel.None) {
                     Surface(
@@ -678,7 +694,15 @@ private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu:
 }
 
 @Composable
-private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onSettings: () -> Unit, focusText: () -> Unit) {
+private fun ReadingBody(
+    state: ReadingUiState,
+    viewModel: ReadingViewModel,
+    speaker: Speaker,
+    continuous: ContinuousReading,
+    onHome: () -> Unit,
+    onSettings: () -> Unit,
+    focusText: () -> Unit,
+) {
     val theme = TayraTheme.current
     if (state.loading) {
         LoadingIndicator()
@@ -688,9 +712,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
         ErrorMessage(state.error, Modifier.padding(16.dp))
         return
     }
-    val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     val speechLanguage = state.language?.name?.let { LanguageCodes.codeFor(it) }
-    val continuous = remember(speaker) { ContinuousReading(speaker) }
     val speakSentence: (String) -> Unit = remember(continuous) { { text -> continuous.sentenceClicked(text) } }
     val playingSentence by speaker.playing.collectAsState()
     val synthesizing by speaker.working.collectAsState()
@@ -813,6 +835,7 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
         ContinuousControls(
             playing = continuous.active,
             autoPause = state.settings.autoPause,
+            hotkeys = state.settings.hotkeys.takeUnless { LocalWindowWidth.current.isCompact },
             onPlay = continuous::toggle,
             onAutoPause = viewModel::toggleAutoPause,
             modifier = Modifier.align(Alignment.BottomEnd).padding(24.dp),
@@ -821,11 +844,103 @@ private fun ReadingBody(state: ReadingUiState, viewModel: ReadingViewModel, onHo
     }
 }
 
-/** The page's play button, to read on from sentence to sentence, with the auto-pause switch above it. */
+/** The listening and paging shortcuts as they are set now, keys first. */
 @Composable
-private fun ContinuousControls(playing: Boolean, autoPause: Boolean, onPlay: () -> Unit, onAutoPause: () -> Unit, modifier: Modifier) {
+private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
     val colors = MaterialTheme.colorScheme
+    val rows = listOf(
+        "Play / pause" to listOf(HotkeyAction.LISTEN_PLAY_PAUSE),
+        "Previous sentence" to listOf(HotkeyAction.LISTEN_PREVIOUS, HotkeyAction.LISTEN_PREVIOUS_ARROW),
+        "Next sentence" to listOf(HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW),
+        "Repeat sentence" to listOf(HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW),
+        "Pause" to listOf(HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW),
+        "Auto-pause on / off" to listOf(HotkeyAction.LISTEN_AUTO_PAUSE),
+        "Next page" to listOf(HotkeyAction.NEXT_PAGE),
+        "Previous page" to listOf(HotkeyAction.PREVIOUS_PAGE),
+    ).mapNotNull { (label, actions) -> actions.mapNotNull { hotkeys[it] }.takeIf { it.isNotEmpty() }?.let { label to it } }
+    Surface(shape = RoundedCornerShape(14.dp), color = colors.surface, shadowElevation = 8.dp, border = BorderStroke(1.dp, colors.outlineVariant)) {
+        Column(Modifier.padding(16.dp).width(320.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text("Keyboard shortcuts", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+            rows.forEach { (label, keys) ->
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Row(Modifier.width(140.dp), horizontalArrangement = Arrangement.spacedBy(4.dp), verticalAlignment = Alignment.CenterVertically) {
+                        keys.forEachIndexed { index, key ->
+                            if (index > 0) Text("or", style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant)
+                            KeyCap(key)
+                        }
+                    }
+                    Text(label, style = MaterialTheme.typography.bodyMedium)
+                }
+            }
+            Text(
+                "While a word is selected, the arrows and W act on the word instead.",
+                style = MaterialTheme.typography.bodySmall,
+                color = colors.onSurfaceVariant,
+            )
+        }
+    }
+}
+
+/** A key as printed on the keyboard: arrows as arrows, modifiers joined with +. */
+@Composable
+private fun KeyCap(hotkey: Hotkey) {
+    val colors = MaterialTheme.colorScheme
+    val key = when (hotkey.key) {
+        "Left" -> "\u2190"
+        "Right" -> "\u2192"
+        "Up" -> "\u2191"
+        "Down" -> "\u2193"
+        else -> hotkey.key
+    }
+    val label = buildList {
+        if (hotkey.ctrl) add("Ctrl")
+        if (hotkey.alt) add("Alt")
+        if (hotkey.shift) add("Shift")
+        add(key)
+    }.joinToString(" + ")
+    Text(
+        label,
+        style = MaterialTheme.typography.labelMedium,
+        fontWeight = FontWeight.SemiBold,
+        modifier = Modifier.clip(RoundedCornerShape(6.dp)).background(colors.surfaceVariant)
+            .border(1.dp, colors.outlineVariant, RoundedCornerShape(6.dp)).padding(horizontal = 7.dp, vertical = 3.dp),
+    )
+}
+
+/**
+ * The page's play button, to read on from sentence to sentence, with the auto-pause switch above
+ * it and, where there is a keyboard ([hotkeys] given), a button listing the listening shortcuts.
+ */
+@Composable
+private fun ContinuousControls(
+    playing: Boolean,
+    autoPause: Boolean,
+    hotkeys: Map<HotkeyAction, Hotkey?>?,
+    onPlay: () -> Unit,
+    onAutoPause: () -> Unit,
+    modifier: Modifier,
+) {
+    val colors = MaterialTheme.colorScheme
+    var showShortcuts by remember { mutableStateOf(false) }
     Column(modifier, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        if (hotkeys != null) {
+            Box {
+                Box(
+                    Modifier.size(40.dp).clip(CircleShape).background(colors.surface)
+                        .border(1.5.dp, colors.outlineVariant, CircleShape)
+                        .clickable { showShortcuts = !showShortcuts }
+                        .semantics { contentDescription = "Keyboard shortcuts" },
+                    contentAlignment = Alignment.Center,
+                ) { Icon(AppIcons.Keyboard, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp)) }
+                if (showShortcuts) {
+                    Popup(
+                        alignment = Alignment.BottomEnd,
+                        offset = with(LocalDensity.current) { IntOffset(-52.dp.roundToPx(), 0) },
+                        onDismissRequest = { showShortcuts = false },
+                    ) { ShortcutsCard(hotkeys) }
+                }
+            }
+        }
         Box(
             Modifier.size(40.dp).clip(CircleShape)
                 .background(if (autoPause) colors.primary else colors.surface)
