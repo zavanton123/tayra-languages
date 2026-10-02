@@ -916,8 +916,9 @@ private fun KeyCap(hotkey: Hotkey) {
 }
 
 /**
- * The page's play button, to read on from sentence to sentence, with the auto-pause switch before
- * it and, where there is a keyboard ([hotkeys] given), a button listing the listening shortcuts.
+ * The page's play button, to read on from sentence to sentence, with the auto-pause switch after
+ * it and, where there is a keyboard ([hotkeys] given), a button listing the listening shortcuts
+ * before it.
  */
 @Composable
 private fun ContinuousControls(
@@ -950,6 +951,14 @@ private fun ContinuousControls(
             }
         }
         Box(
+            Modifier.size(60.dp).shadow(6.dp, CircleShape).clip(CircleShape).background(colors.primary)
+                .clickable(onClick = onPlay)
+                .semantics { contentDescription = if (playing) "Pause reading" else "Read the page" },
+            contentAlignment = Alignment.Center,
+        ) {
+            Icon(if (playing) AppIcons.Pause else AppIcons.PlayArrow, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(32.dp))
+        }
+        Box(
             Modifier.size(CONTROL_SIZE).clip(CircleShape)
                 .background(if (autoPause) colors.primary else colors.surface)
                 .border(CONTROL_BORDER, colors.primary, CircleShape)
@@ -958,14 +967,6 @@ private fun ContinuousControls(
             contentAlignment = Alignment.Center,
         ) {
             Text("AP", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold, color = if (autoPause) colors.onPrimary else colors.primary)
-        }
-        Box(
-            Modifier.size(60.dp).shadow(6.dp, CircleShape).clip(CircleShape).background(colors.primary)
-                .clickable(onClick = onPlay)
-                .semantics { contentDescription = if (playing) "Pause reading" else "Read the page" },
-            contentAlignment = Alignment.Center,
-        ) {
-            Icon(if (playing) AppIcons.Pause else AppIcons.PlayArrow, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(32.dp))
         }
     }
 }
