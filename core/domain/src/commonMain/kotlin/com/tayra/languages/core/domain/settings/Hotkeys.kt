@@ -103,6 +103,8 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     TEXT_SMALLER(HotkeyCategory.DISPLAY, "Make the text smaller", Hotkey("Minus", ctrl = true)),
     LINES_FURTHER(HotkeyCategory.DISPLAY, "Increase the line height", Hotkey("Plus", shift = true, ctrl = true)),
     LINES_CLOSER(HotkeyCategory.DISPLAY, "Decrease the line height", Hotkey("Minus", shift = true, ctrl = true)),
+    TEXT_RESET(HotkeyCategory.DISPLAY, "Text size back to 100%", Hotkey("0", ctrl = true)),
+    LINES_RESET(HotkeyCategory.DISPLAY, "Line height back to the default", Hotkey("0", shift = true, ctrl = true)),
 
     COPY_SENTENCE(HotkeyCategory.COPY, "Copy the sentence of the current word", Hotkey("C")),
     COPY_PARAGRAPH(HotkeyCategory.COPY, "Copy the paragraph of the current word", Hotkey("C", shift = true)),

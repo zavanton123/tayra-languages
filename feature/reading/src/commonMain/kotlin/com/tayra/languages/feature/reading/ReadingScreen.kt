@@ -64,6 +64,9 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.key.key
+import androidx.compose.ui.input.key.utf16CodePoint
+import co.touchlab.kermit.Logger
 import com.tayra.languages.core.ui.audio.Speaker
 import com.tayra.languages.core.domain.settings.Hotkey
 import androidx.compose.ui.unit.IntOffset
@@ -190,6 +193,8 @@ fun ReadingScreen(
             HotkeyAction.TEXT_SMALLER -> viewModel.stepFontSize(-1)
             HotkeyAction.LINES_FURTHER -> viewModel.stepLineHeight(1)
             HotkeyAction.LINES_CLOSER -> viewModel.stepLineHeight(-1)
+            HotkeyAction.TEXT_RESET -> viewModel.resetFontSize()
+            HotkeyAction.LINES_RESET -> viewModel.resetLineHeight()
             HotkeyAction.LISTEN_AUTO_PAUSE -> viewModel.toggleAutoPause()
             HotkeyAction.START_HOVER -> viewModel.startHoverMode()
             HotkeyAction.PREV_WORD -> viewModel.moveCursor(-nextIncrement, CursorTarget.WORD)
@@ -269,7 +274,8 @@ fun ReadingScreen(
                     if (event.type != KeyEventType.KeyDown || panelFocused || state.items.isEmpty()) return@onPreviewKeyEvent false
                     val pressed = HotkeyMatcher.fromEvent(event) ?: return@onPreviewKeyEvent false
                     val action = HotkeyAction.resolve(hotkeys, pressed, wordSelected = state.marked.isNotEmpty(), listening = state.settings.showSentencePlay)
-                        ?: return@onPreviewKeyEvent false
+                    Logger.d { "Reader key ${event.key} (char ${event.utf16CodePoint}) read as $pressed: ${action ?: "no shortcut"}" }
+                    if (action == null) return@onPreviewKeyEvent false
                     handleAction(action)
                 },
         ) {
@@ -870,6 +876,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
         "Previous coloured word" to listOf(HotkeyAction.PREV_COLORED_WORD),
         "Larger / smaller text" to listOf(HotkeyAction.TEXT_LARGER, HotkeyAction.TEXT_SMALLER),
         "More / less line height" to listOf(HotkeyAction.LINES_FURTHER, HotkeyAction.LINES_CLOSER),
+        "Text size / line height back to default" to listOf(HotkeyAction.TEXT_RESET, HotkeyAction.LINES_RESET),
         "Auto-pause on / off" to listOf(HotkeyAction.LISTEN_AUTO_PAUSE),
         "Next page" to listOf(HotkeyAction.NEXT_PAGE),
         "Previous page" to listOf(HotkeyAction.PREVIOUS_PAGE),
