@@ -66,6 +66,15 @@ actual class SpeechSynthesizer {
         else -> if (language != null) listOf("spd-say", "-w", "-l", language, text) else listOf("spd-say", "-w", text)
     }
 
+    /**
+     * The operating system's voices cannot be held: `say` keeps sounding what it has handed to the
+     * audio system even when frozen, and `spd-say` only passes the text to a speech service. A
+     * pause therefore stops, and the sentence is read again from its start.
+     */
+    actual fun pause(): Boolean = false
+
+    actual fun resume() {}
+
     actual fun stop() {
         current?.destroy()
         current = null

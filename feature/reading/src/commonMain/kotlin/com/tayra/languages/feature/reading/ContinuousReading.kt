@@ -47,8 +47,8 @@ class ContinuousReading(private val speaker: Speaker) {
             readNewPage = false
             if (sentences.isNotEmpty()) read(0) else stopReading()
         } else if (current !in sentences) {
-            // Another page was opened by hand while reading: the old page's sentence stops too.
-            if (active) {
+            // Another page was opened by hand while reading (or paused): the old page's sentence stops too.
+            if (active || speaker.paused.value != null) {
                 speaker.stop()
                 stopReading()
             }
@@ -59,6 +59,11 @@ class ContinuousReading(private val speaker: Speaker) {
     fun toggle() = if (active) pause() else play()
 
     fun play() {
+        // A sentence paused part-way goes on from where it was held.
+        if (current != null && speaker.paused.value == current && speaker.resume()) {
+            active = true
+            return
+        }
         if (pageEnded) {
             pageEnded = false
             nextPage()
@@ -96,11 +101,14 @@ class ContinuousReading(private val speaker: Speaker) {
         read(sentences.indexOf(current).coerceAtLeast(0))
     }
 
-    /** Stops where it is; the next [play] reads the same sentence again. */
+    /**
+     * Holds the sentence where it is, so the next [play] goes on from there; a voice that cannot be
+     * held stops instead, and the next [play] reads the sentence again.
+     */
     fun pause() {
         active = false
         readNewPage = false
-        speaker.stop()
+        if (!speaker.pause()) speaker.stop()
     }
 
     /**
@@ -111,6 +119,11 @@ class ContinuousReading(private val speaker: Speaker) {
         val index = sentences.indexOf(sentence)
         if (active && index >= 0) {
             if (sentence == current) pause() else read(index)
+            return
+        }
+        // The sentence reading was paused on: its button goes on with it.
+        if (index >= 0 && sentence == current && speaker.paused.value == sentence) {
+            play()
             return
         }
         if (index >= 0) {

@@ -54,6 +54,11 @@ actual class SpeechSynthesizer(context: Context) {
         if (tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, id) != TextToSpeech.SUCCESS) finish(id)
     }
 
+    /** Android's text-to-speech can only stop, so a pause starts the sentence over. */
+    actual fun pause(): Boolean = false
+
+    actual fun resume() {}
+
     actual fun stop() {
         pending?.third?.invoke()
         pending = null

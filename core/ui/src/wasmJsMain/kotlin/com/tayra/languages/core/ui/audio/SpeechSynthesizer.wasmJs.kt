@@ -19,6 +19,8 @@ private fun speakText(text: String, language: String?, onDone: () -> Unit): Unit
 )
 
 private fun cancelSpeech(): Unit = js("{ if (window.speechSynthesis) window.speechSynthesis.cancel(); }")
+private fun pauseSpeech(): Boolean = js("{ if (!window.speechSynthesis || !window.speechSynthesis.speaking) return false; window.speechSynthesis.pause(); return true; }")
+private fun resumeSpeech(): Unit = js("{ if (window.speechSynthesis) window.speechSynthesis.resume(); }")
 
 /** Uses the browser's Web Speech API. */
 actual class SpeechSynthesizer {
@@ -33,6 +35,10 @@ actual class SpeechSynthesizer {
     private fun finish() {
         done?.also { done = null }?.invoke()
     }
+
+    actual fun pause(): Boolean = done != null && pauseSpeech()
+
+    actual fun resume() = resumeSpeech()
 
     actual fun stop() {
         cancelSpeech()

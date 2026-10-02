@@ -9,6 +9,12 @@ expect class WavPlayer {
      * stopped or fails, possibly on another thread.
      */
     fun play(wav: ByteArray, onDone: () -> Unit = {})
+
+    /** Holds playback where it is, without calling onDone; false when this platform cannot. */
+    fun pause(): Boolean
+
+    /** Goes on from where [pause] held it. */
+    fun resume()
     fun stop()
     fun release()
 }

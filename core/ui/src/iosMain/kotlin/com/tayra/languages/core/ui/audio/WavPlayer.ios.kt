@@ -43,6 +43,16 @@ actual class WavPlayer {
         if (!next.play()) { player = null; finish() }
     }
 
+    actual fun pause(): Boolean {
+        val playing = player ?: return false
+        playing.pause()
+        return true
+    }
+
+    actual fun resume() {
+        player?.play()
+    }
+
     actual fun stop() {
         player?.stop()
         player = null

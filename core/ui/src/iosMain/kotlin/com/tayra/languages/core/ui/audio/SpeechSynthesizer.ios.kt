@@ -54,6 +54,12 @@ actual class SpeechSynthesizer {
         synthesizer.speakUtterance(utterance)
     }
 
+    actual fun pause(): Boolean = current != null && synthesizer.pauseSpeakingAtBoundary(AVSpeechBoundary.AVSpeechBoundaryImmediate)
+
+    actual fun resume() {
+        synthesizer.continueSpeaking()
+    }
+
     actual fun stop() {
         synthesizer.stopSpeakingAtBoundary(AVSpeechBoundary.AVSpeechBoundaryImmediate)
         current = null
