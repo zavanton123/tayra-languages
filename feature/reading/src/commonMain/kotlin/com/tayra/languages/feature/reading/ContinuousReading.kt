@@ -79,12 +79,12 @@ class ContinuousReading(private val speaker: Speaker) {
         read(index)
     }
 
-    /** Reads the sentence after the current one, or the next page's first at the end of the page. */
+    /** Reads the sentence after the current one; on the page's last sentence it stays where it is. */
     fun next() {
-        if (sentences.isEmpty()) return
         val index = sentences.indexOf(current) + 1
+        if (index !in sentences.indices) return
         pageEnded = false
-        if (index < sentences.size) read(index) else nextPage()
+        read(index)
     }
 
     /** Reads the sentence before the current one (the first stays the first). */

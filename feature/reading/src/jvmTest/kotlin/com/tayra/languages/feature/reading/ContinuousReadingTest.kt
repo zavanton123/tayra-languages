@@ -133,6 +133,24 @@ class ContinuousReadingTest {
         rule.waitUntil(5_000) { rule.onAllNodes(hasText("O dia chega.", substring = true)).fetchSemanticsNodes().isNotEmpty() }
     }
 
+    /** Next on the page's last sentence stays there: no page turn, and the place is kept. */
+    @Test
+    fun nextOnTheLastSentenceStaysThere() {
+        show(autoPause = true)
+        fun press(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
+
+        press(Key.Spacebar)
+        assertEquals(listOf("O lobo dorme."), readUntilSilent())
+        press(Key.D)
+        assertEquals(listOf("A noite é fria."), readUntilSilent())
+        press(Key.D)
+        Thread.sleep(800)
+        rule.waitForIdle()
+        assertEquals(emptyList(), readUntilSilent(), "nothing more is read")
+        assertTrue(highlighted("A noite é fria."), "the last sentence stays the current one")
+        assertEquals(0, rule.onAllNodes(hasText("O dia chega.", substring = true)).fetchSemanticsNodes().size, "the page is not turned")
+    }
+
     /** Pausing holds the sentence where it is: resuming finishes the rest rather than starting over. */
     @Test
     fun pauseResumesWhereItStopped() {
