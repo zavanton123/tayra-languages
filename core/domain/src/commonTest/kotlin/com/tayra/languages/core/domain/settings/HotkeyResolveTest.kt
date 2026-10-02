@@ -21,9 +21,10 @@ class HotkeyResolveTest {
     }
 
     @Test
-    fun wActsOnASelectedWordAndOtherwiseReadsAloud() {
+    fun wAlwaysPausesOrResumesAndKMarksTheWordKnown() {
         assertEquals(HotkeyAction.LISTEN_PAUSE, resolve(Hotkey("W"), wordSelected = false))
-        assertEquals(HotkeyAction.STATUS_WELL_KNOWN, resolve(Hotkey("W"), wordSelected = true))
+        assertEquals(HotkeyAction.LISTEN_PAUSE, resolve(Hotkey("W"), wordSelected = true))
+        assertEquals(HotkeyAction.STATUS_WELL_KNOWN, resolve(Hotkey("K"), wordSelected = true))
     }
 
     @Test

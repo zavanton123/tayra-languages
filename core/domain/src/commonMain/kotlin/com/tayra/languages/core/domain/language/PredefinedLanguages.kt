@@ -747,9 +747,9 @@ Sometimes it helps to associate terms with a "parent".  For example, the verb "t
 If you enter a non-existent Parent word, Lute will create a placeholder Term for that Parent, copying some content from your term.  For example, try creating a Term for the word "dogs", associating it with the non-existent Term "dog".  When you save "dogs", both will be updated.
 Terms can have multiple parents, too.  Hit the Enter (or Return) key after each parent.  For example, if you wanted to associate the Term "puppies" with both "puppy" and "dog", click on "puppies", and in the Parents text box type "puppy", hit Enter, type "dog", and hit Enter.  Sometimes this is necessary: for example, in Spanish, "se sienta" can either be a conjugation of "sentirse" (to feel) or "sentarse" (to sit), depending on the context.
 
-4. Mark the remainder as "Well Known"
-When you're done creating Terms on a page, you will likely still have a bunch of blue words, or "unknowns", left over, even though you really know these words.  You can set all of these to "Well Known" and move to the next page in one shot with the green checkmark at the bottom of the page.  Try that now to see what happens, and then come back to this page using the arrows in the header to finish reading this page.
-The ">" link moves to the next page as well, without setting the unknown terms to "Well Known."  This can be useful if you're reading quickly, without stopping to define every last term in detail.
+4. Mark the remainder as "Known"
+When you're done creating Terms on a page, you will likely still have a bunch of blue words, or "unknowns", left over, even though you really know these words.  You can set all of these to "Known" and move to the next page in one shot with the green checkmark at the bottom of the page.  Try that now to see what happens, and then come back to this page using the arrows in the header to finish reading this page.
+The ">" link moves to the next page as well, without setting the unknown terms to "Known."  This can be useful if you're reading quickly, without stopping to define every last term in detail.
 Note: both of these links also mark the page as "Read", which Lute uses when it searches for references to terms you create.  There's more on this in the tutorial follow-up, which you should read after this tutorial.
 
 5. Keyboard shortcuts

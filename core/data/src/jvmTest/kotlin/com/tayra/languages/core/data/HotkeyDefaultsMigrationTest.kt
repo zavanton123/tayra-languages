@@ -61,6 +61,18 @@ class HotkeyDefaultsMigrationTest {
         assertEquals(Hotkey("Escape"), keys[HotkeyAction.START_HOVER], "the other shortcut keeps its key")
     }
 
+    /** Known moved from W to K: a saved W moves to K once, and W is left to pause and resume. */
+    @Test
+    fun theKnownShortcutMovesFromWToK() {
+        val store = MapSettings()
+        HotkeyAction.entries.forEach { store.putString(it.settingKey, it.default?.serialized ?: "") }
+        store.putString(HotkeyAction.STATUS_WELL_KNOWN.settingKey, "W")
+
+        val keys = SettingsRepositoryImpl(store).current.hotkeys
+        assertEquals(Hotkey("K"), keys[HotkeyAction.STATUS_WELL_KNOWN])
+        assertEquals(Hotkey("W"), keys[HotkeyAction.LISTEN_PAUSE])
+    }
+
     @Test
     fun aNewInstallGetsEveryDefault() {
         val keys = SettingsRepositoryImpl(MapSettings()).current.hotkeys

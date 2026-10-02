@@ -183,7 +183,8 @@ fun ReadingScreen(
             HotkeyAction.LISTEN_PREVIOUS, HotkeyAction.LISTEN_PREVIOUS_ARROW -> continuous.previous()
             HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW -> continuous.next()
             HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW -> continuous.repeat()
-            HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW -> continuous.pause()
+            HotkeyAction.LISTEN_PAUSE -> continuous.toggle()
+            HotkeyAction.LISTEN_PAUSE_ARROW -> continuous.pause()
             HotkeyAction.LISTEN_AUTO_PAUSE -> viewModel.toggleAutoPause()
             HotkeyAction.START_HOVER -> viewModel.startHoverMode()
             HotkeyAction.PREV_WORD -> viewModel.moveCursor(-nextIncrement, CursorTarget.WORD)
@@ -857,7 +858,9 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
         "Previous sentence" to listOf(HotkeyAction.LISTEN_PREVIOUS, HotkeyAction.LISTEN_PREVIOUS_ARROW),
         "Next sentence" to listOf(HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW),
         "Repeat sentence" to listOf(HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW),
-        "Pause" to listOf(HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW),
+        "Pause / resume" to listOf(HotkeyAction.LISTEN_PAUSE),
+        "Pause" to listOf(HotkeyAction.LISTEN_PAUSE_ARROW),
+        "Mark word as known" to listOf(HotkeyAction.STATUS_WELL_KNOWN),
         "Auto-pause on / off" to listOf(HotkeyAction.LISTEN_AUTO_PAUSE),
         "Next page" to listOf(HotkeyAction.NEXT_PAGE),
         "Previous page" to listOf(HotkeyAction.PREVIOUS_PAGE),
@@ -877,7 +880,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
                 }
             }
             Text(
-                "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status. While a word is selected, W sets it to Well known.",
+                "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K needs a selected word.",
                 style = MaterialTheme.typography.bodySmall,
                 color = colors.onSurfaceVariant,
             )

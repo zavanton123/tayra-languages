@@ -13,7 +13,7 @@ enum class TermStatus(val value: Int, val label: String, val abbreviation: Strin
     LEARNING_3(3, "Learning (3)", "3"),
     LEARNING_4(4, "Learning (4)", "4"),
     IGNORED(98, "Ignored", "I"),
-    WELL_KNOWN(99, "Well Known", "W");
+    WELL_KNOWN(99, "Known", "K");
 
     val isLearning: Boolean get() = value in 1..4
 
