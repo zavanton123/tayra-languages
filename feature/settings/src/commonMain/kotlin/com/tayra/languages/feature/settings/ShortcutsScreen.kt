@@ -30,6 +30,7 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.input.key.KeyEventType
 import androidx.compose.ui.input.key.onKeyEvent
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -69,6 +70,7 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = 
 private fun HotkeyField(hotkey: Hotkey?, onChange: (Hotkey?) -> Unit) {
     var focused by remember { mutableStateOf(false) }
     val requester = remember { FocusRequester() }
+    val focusManager = LocalFocusManager.current
     Text(
         text = if (focused) "press a key..." else hotkey?.serialized ?: "—",
         style = MaterialTheme.typography.bodyMedium,
@@ -82,7 +84,12 @@ private fun HotkeyField(hotkey: Hotkey?, onChange: (Hotkey?) -> Unit) {
             .onKeyEvent { event ->
                 if (!focused || event.type != KeyEventType.KeyDown) return@onKeyEvent false
                 val pressed = HotkeyMatcher.fromEvent(event) ?: return@onKeyEvent false
-                onChange(if (pressed.key == "Backspace" || pressed.key == "Delete") null else pressed)
+                when (pressed.key) {
+                    // Escape leaves the field as it was rather than becoming the shortcut.
+                    "Escape" -> focusManager.clearFocus()
+                    "Backspace", "Delete" -> onChange(null)
+                    else -> onChange(pressed)
+                }
                 true
             }
             .clickable { requester.requestFocus() }

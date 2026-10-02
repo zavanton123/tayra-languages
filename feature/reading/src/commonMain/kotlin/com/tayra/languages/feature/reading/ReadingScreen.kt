@@ -908,7 +908,7 @@ private fun KeyCap(hotkey: Hotkey) {
 }
 
 /**
- * The page's play button, to read on from sentence to sentence, with the auto-pause switch above
+ * The page's play button, to read on from sentence to sentence, with the auto-pause switch before
  * it and, where there is a keyboard ([hotkeys] given), a button listing the listening shortcuts.
  */
 @Composable
@@ -922,7 +922,7 @@ private fun ContinuousControls(
 ) {
     val colors = MaterialTheme.colorScheme
     var showShortcuts by remember { mutableStateOf(false) }
-    Column(modifier, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         if (hotkeys != null) {
             Box {
                 Box(
@@ -935,7 +935,7 @@ private fun ContinuousControls(
                 if (showShortcuts) {
                     Popup(
                         alignment = Alignment.BottomEnd,
-                        offset = with(LocalDensity.current) { IntOffset(-52.dp.roundToPx(), 0) },
+                        offset = with(LocalDensity.current) { IntOffset(0, -52.dp.roundToPx()) },
                         onDismissRequest = { showShortcuts = false },
                     ) { ShortcutsCard(hotkeys) }
                 }
