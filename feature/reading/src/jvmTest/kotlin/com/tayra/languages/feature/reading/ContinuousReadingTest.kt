@@ -156,6 +156,19 @@ class ContinuousReadingTest {
         rule.waitUntil(2_000) { settings.current.readingLineHeight == lines }
         assertEquals(font, settings.current.readingFontScale, "line-height keys leave the text size alone")
 
+        // Down to the smallest line height and beyond: the text size never moves.
+        repeat(8) { press(Key.Minus, shift = true); rule.waitForIdle(); Thread.sleep(80) }
+        rule.waitUntil(2_000) { settings.current.readingLineHeight == 1.0f }
+        assertEquals(font, settings.current.readingFontScale)
+        // Ctrl+0 and Ctrl+Shift+0 put both back.
+        press(Key.Equals); press(Key.Equals)
+        rule.waitUntil(2_000) { settings.current.readingFontScale > font }
+        press(Key.Zero)
+        rule.waitUntil(2_000) { settings.current.readingFontScale == 1.0f }
+        press(Key.Zero, shift = true)
+        rule.waitUntil(2_000) { settings.current.readingLineHeight == 1.6f }
+        assertEquals(1.0f, settings.current.readingFontScale, "resetting the line height leaves the text size alone")
+
         fun tap(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
         fun reading() = rule.onAllNodes(hasContentDescription("Stop")).fetchSemanticsNodes().isNotEmpty()
         tap(Key.Spacebar)

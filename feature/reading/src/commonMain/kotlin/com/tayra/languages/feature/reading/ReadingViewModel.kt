@@ -603,6 +603,10 @@ class ReadingViewModel(
         it.copy(readingFontScale = ((it.readingFontScale * 10).roundToInt() + steps).coerceIn(6, 25) / 10f)
     }
 
+    fun resetFontSize() = updateSettings { it.copy(readingFontScale = UserSettings().readingFontScale) }
+
+    fun resetLineHeight() = updateSettings { it.copy(readingLineHeight = UserSettings().readingLineHeight) }
+
     /** Steps the line height by [steps] tenths, within the range the reader's slider allows. */
     fun stepLineHeight(steps: Int) = updateSettings {
         it.copy(readingLineHeight = ((it.readingLineHeight * 10).roundToInt() + steps).coerceIn(10, 30) / 10f)
