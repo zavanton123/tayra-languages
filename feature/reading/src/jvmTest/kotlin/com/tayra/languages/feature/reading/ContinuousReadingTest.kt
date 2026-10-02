@@ -39,6 +39,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.runBlocking
 import org.junit.After
 import org.junit.Rule
+import androidx.compose.ui.test.hasAnyDescendant
 import androidx.compose.ui.test.pressKey
 import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.test.onRoot
@@ -85,8 +86,19 @@ class ContinuousReadingTest {
 
         rule.onNodeWithContentDescription("Read the page").performClick()
         assertEquals(listOf("O lobo dorme."), readUntilSilent())
+        // Stopped after the sentence, and still on it.
+        Thread.sleep(500)
+        assertTrue(highlighted("O lobo dorme."), "the highlight stays on the sentence just read")
         rule.onNodeWithContentDescription("Read the page").performClick()
         assertEquals(listOf("A noite é fria."), readUntilSilent())
+        assertTrue(highlighted("A noite é fria."))
+    }
+
+    /** Whether the highlighted sentence is [sentence]. */
+    private fun highlighted(sentence: String): Boolean {
+        rule.waitForIdle()
+        val current = SemanticsMatcher.expectValue(SemanticsProperties.StateDescription, CURRENT_SENTENCE)
+        return rule.onAllNodes(current and hasAnyDescendant(hasText(sentence, substring = true))).fetchSemanticsNodes().isNotEmpty()
     }
 
     /** The keyboard drives reading aloud: Space plays and goes on after an auto-pause, A goes back, Q and Shift+→ too. */
@@ -101,9 +113,11 @@ class ContinuousReadingTest {
 
         press(Key.Spacebar)
         assertEquals(listOf("O lobo dorme."), readUntilSilent())
-        // After an auto-pause Space goes on with the next sentence.
+        assertTrue(highlighted("O lobo dorme."))
+        // After an auto-pause Space moves the highlight on and reads the next sentence.
         press(Key.Spacebar)
         assertEquals(listOf("A noite é fria."), readUntilSilent())
+        assertTrue(highlighted("A noite é fria."))
         press(Key.A)
         assertEquals(listOf("O lobo dorme."), readUntilSilent())
 

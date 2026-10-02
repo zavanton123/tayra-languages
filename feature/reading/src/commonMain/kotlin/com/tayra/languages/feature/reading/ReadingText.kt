@@ -23,6 +23,7 @@ import androidx.compose.foundation.relocation.BringIntoViewRequester
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.stateDescription
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.aspectRatio
@@ -296,12 +297,16 @@ private fun Modifier.followed(isReading: Boolean, follow: Boolean, tint: Color, 
         }
     }
     val measured = onSizeChanged { measuredSize = it }.bringIntoViewRequester(requester)
+        .then(if (isReading) Modifier.semantics { stateDescription = CURRENT_SENTENCE } else Modifier)
     if (!isReading || tint == Color.Transparent) return measured
     return measured.drawBehind {
         val side = reach.toPx()
         drawRoundRect(tint, topLeft = Offset(-side, 0f), size = Size(size.width + side * 2, size.height), cornerRadius = CornerRadius(12.dp.toPx()))
     }
 }
+
+/** Read out for the highlighted sentence by screen readers (and found by tests). */
+internal const val CURRENT_SENTENCE = "Current sentence"
 
 /** How far the highlight stops short of the card's border. */
 private val HIGHLIGHT_INSET = 8.dp

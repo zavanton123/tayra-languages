@@ -8,8 +8,8 @@ import com.tayra.languages.core.ui.audio.Speaker
 
 /**
  * Reads the page aloud sentence after sentence, turning to the next page at the end of one.
- * With [autoPause] it stops after each sentence, and the next [play] reads the following one.
- * [current] is the sentence being read, or the one the next [play] starts from.
+ * With [autoPause] it stops after each sentence and stays on it; the next [play] moves on to the
+ * following one. [current] is the sentence being read, or the one it stopped on.
  */
 @Stable
 class ContinuousReading(private val speaker: Speaker) {
@@ -33,12 +33,16 @@ class ContinuousReading(private val speaker: Speaker) {
     /** Set when an auto-pause fell at the end of a page, so the next play turns the page. */
     private var pageEnded = false
 
+    /** Set when an auto-pause stopped after [current] was read, so the next play reads the one after it. */
+    private var moveOnPlay = false
+
     fun setPage(sentences: List<String>, languageCode: String?) {
         val changed = sentences != this.sentences
         this.sentences = sentences
         this.languageCode = languageCode
         if (!changed) return
         pageEnded = false
+        moveOnPlay = false
         if (readNewPage) {
             readNewPage = false
             if (sentences.isNotEmpty()) read(0) else stopReading()
@@ -61,7 +65,13 @@ class ContinuousReading(private val speaker: Speaker) {
             return
         }
         if (sentences.isEmpty()) return
-        read(sentences.indexOf(current).coerceAtLeast(0))
+        val index = sentences.indexOf(current).coerceAtLeast(0)
+        if (moveOnPlay) {
+            moveOnPlay = false
+            if (index + 1 < sentences.size) read(index + 1) else nextPage()
+            return
+        }
+        read(index)
     }
 
     /** Reads the sentence after the current one, or the next page's first at the end of the page. */
@@ -106,6 +116,7 @@ class ContinuousReading(private val speaker: Speaker) {
         if (index >= 0) {
             current = sentence
             pageEnded = false
+            moveOnPlay = false
         }
         speaker.toggle(sentence, languageCode)
     }
@@ -124,6 +135,7 @@ class ContinuousReading(private val speaker: Speaker) {
 
     private fun read(index: Int) {
         val sentence = sentences[index]
+        moveOnPlay = false
         active = true
         current = sentence
         speaker.speak(sentence, languageCode) { finished(sentence) }
@@ -133,9 +145,10 @@ class ContinuousReading(private val speaker: Speaker) {
         if (!active || current != sentence) return
         val next = sentences.indexOf(sentence) + 1
         when {
+            // The highlight stays on the sentence just read until play is pressed again.
             next in sentences.indices && autoPause -> {
                 active = false
-                current = sentences[next]
+                moveOnPlay = true
             }
             next in sentences.indices -> read(next)
             autoPause -> {
