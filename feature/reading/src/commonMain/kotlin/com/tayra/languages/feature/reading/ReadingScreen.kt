@@ -844,6 +844,10 @@ private fun ReadingBody(
     }
 }
 
+/** The small round buttons beside the play button share one size and border. */
+private val CONTROL_SIZE = 40.dp
+private val CONTROL_BORDER = 1.5.dp
+
 /** The listening and paging shortcuts as they are set now, keys first. */
 @Composable
 private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
@@ -926,8 +930,8 @@ private fun ContinuousControls(
         if (hotkeys != null) {
             Box {
                 Box(
-                    Modifier.size(40.dp).clip(CircleShape).background(colors.surface)
-                        .border(1.5.dp, colors.outlineVariant, CircleShape)
+                    Modifier.size(CONTROL_SIZE).clip(CircleShape).background(colors.surface)
+                        .border(CONTROL_BORDER, colors.primary, CircleShape)
                         .clickable { showShortcuts = !showShortcuts }
                         .semantics { contentDescription = "Keyboard shortcuts" },
                     contentAlignment = Alignment.Center,
@@ -942,9 +946,9 @@ private fun ContinuousControls(
             }
         }
         Box(
-            Modifier.size(40.dp).clip(CircleShape)
+            Modifier.size(CONTROL_SIZE).clip(CircleShape)
                 .background(if (autoPause) colors.primary else colors.surface)
-                .border(1.5.dp, colors.primary, CircleShape)
+                .border(CONTROL_BORDER, colors.primary, CircleShape)
                 .clickable(onClick = onAutoPause)
                 .semantics { contentDescription = if (autoPause) "Auto-pause on" else "Auto-pause off" },
             contentAlignment = Alignment.Center,
