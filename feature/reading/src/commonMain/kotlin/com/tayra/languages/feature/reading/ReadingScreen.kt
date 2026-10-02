@@ -861,6 +861,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
         "Pause / resume" to listOf(HotkeyAction.LISTEN_PAUSE),
         "Pause" to listOf(HotkeyAction.LISTEN_PAUSE_ARROW),
         "Mark word as known" to listOf(HotkeyAction.STATUS_WELL_KNOWN),
+        "Mark word as unknown" to listOf(HotkeyAction.DELETE_TERM),
         "Auto-pause on / off" to listOf(HotkeyAction.LISTEN_AUTO_PAUSE),
         "Next page" to listOf(HotkeyAction.NEXT_PAGE),
         "Previous page" to listOf(HotkeyAction.PREVIOUS_PAGE),
@@ -880,7 +881,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
                 }
             }
             Text(
-                "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K needs a selected word.",
+                "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word.",
                 style = MaterialTheme.typography.bodySmall,
                 color = colors.onSurfaceVariant,
             )

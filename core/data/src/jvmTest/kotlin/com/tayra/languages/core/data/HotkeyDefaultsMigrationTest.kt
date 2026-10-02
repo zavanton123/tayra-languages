@@ -73,6 +73,18 @@ class HotkeyDefaultsMigrationTest {
         assertEquals(Hotkey("W"), keys[HotkeyAction.LISTEN_PAUSE])
     }
 
+    /** Set to Unknown got U later: an unassigned saved one picks it up once, and clearing it afterwards sticks. */
+    @Test
+    fun setToUnknownGetsUOnce() = runTest {
+        val store = MapSettings()
+        HotkeyAction.entries.forEach { store.putString(it.settingKey, "") }
+
+        val first = SettingsRepositoryImpl(store)
+        assertEquals(Hotkey("U"), first.current.hotkeys[HotkeyAction.DELETE_TERM])
+        first.update { it.copy(hotkeys = it.hotkeys + (HotkeyAction.DELETE_TERM to null)) }
+        assertNull(SettingsRepositoryImpl(store).current.hotkeys[HotkeyAction.DELETE_TERM])
+    }
+
     @Test
     fun aNewInstallGetsEveryDefault() {
         val keys = SettingsRepositoryImpl(MapSettings()).current.hotkeys
