@@ -7,7 +7,7 @@ import kotlin.time.Instant
  * that there is no status 5: a word past status 4 is well known.
  */
 enum class TermStatus(val value: Int, val label: String, val abbreviation: String) {
-    UNKNOWN(0, "Unknown", "?"),
+    UNKNOWN(0, "Unknown", "U"),
     NEW_1(1, "New (1)", "1"),
     NEW_2(2, "New (2)", "2"),
     LEARNING_3(3, "Learning (3)", "3"),
@@ -20,6 +20,9 @@ enum class TermStatus(val value: Int, val label: String, val abbreviation: Strin
     companion object {
         /** Statuses in the order used for "bump status up/down". */
         val progression: List<TermStatus> = listOf(UNKNOWN, NEW_1, NEW_2, LEARNING_3, LEARNING_4, WELL_KNOWN)
+
+        /** The term pane's status buttons: Unknown too, so an unknown word shows as one and can be put back. */
+        val paneButtons: List<TermStatus> = listOf(UNKNOWN, NEW_1, NEW_2, LEARNING_3, LEARNING_4, WELL_KNOWN, IGNORED)
 
         /** Statuses a user may pick in a term form. */
         val selectable: List<TermStatus> = listOf(NEW_1, NEW_2, LEARNING_3, LEARNING_4, WELL_KNOWN, IGNORED)
