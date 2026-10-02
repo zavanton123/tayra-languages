@@ -86,6 +86,7 @@ sealed interface TermFormEvent {
 }
 
 private const val AUTOSAVE_DELAY_MS = 700L
+private const val LOOKUP_DELAY_MS = 400L
 
 class TermFormViewModel(
     private val key: TermFormKey,
@@ -105,6 +106,8 @@ class TermFormViewModel(
     private var searchJob: Job? = null
     private var autosaveJob: Job? = null
     private var packJob: Job? = null
+    private var lookupJob: Job? = null
+    private var entryJob: Job? = null
 
     init {
         viewModelScope.launch { load() }
@@ -119,38 +122,78 @@ class TermFormViewModel(
             when (key) {
                 // An unknown word shows as Unknown; saving it with other edits starts it at 1 (see toSave).
                 is TermFormKey.ById -> termService.load(key.termId)
-                is TermFormKey.ByText -> termService.findOrNew(key.languageId, key.text)
+                is TermFormKey.ByText -> if (key.text.isBlank()) emptyDraft(key.languageId) else termService.findOrNew(key.languageId, key.text)
                 TermFormKey.New -> {
                     val current = settings.current.currentLanguageId
                     val languageId = if (languageList.any { it.id == current }) current else languageList.singleOrNull()?.id ?: 0L
-                    TermDraft(languageId = languageId, text = "", originalText = "")
+                    emptyDraft(languageId)
                 }
             }
         } catch (e: NoSuchElementException) {
             _state.update { it.copy(loading = false, error = e.message) }
             return
         }
-        // Opening the form acknowledges any flash message.
-        draft.id?.let { terms.clearFlashMessage(it) }
-        val createdAt = draft.id?.let { terms.getById(it)?.createdAt }
-        _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }, createdAt = createdAt) }
-        val language = languageList.firstOrNull { it.id == draft.languageId }
-        val lookup = lookupDictionary(draft.text, language)
-        observePack(language)
-        // Words on a page exist as placeholders before anyone opens them, so "new" is judged by
-        // content: no translation and no parent means nobody has curated the term yet.
-        val untouched = draft.translation.isBlank() && draft.parents.isEmpty()
-        if (draft.translation.isBlank()) {
-            val gloss = lookup.suggestedTranslation
-            if (gloss != null) {
-                _state.update { s -> s.copy(translationSuggested = true, draft = s.draft.copy(translation = gloss)) }
-            } else {
-                suggestTranslation(draft.text, language)
-            }
+        _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }) }
+        observePack(_state.value.language)
+        showEntry(draft, linkParent = { setParents(listOf(it)) })
+    }
+
+    private fun emptyDraft(languageId: Long) = TermDraft(languageId = languageId, text = "", originalText = "", status = TermStatus.UNKNOWN)
+
+    /**
+     * Shows [draft] with what is known about its text: dictionary meanings, a suggested
+     * translation, the lemma as parent and examples. [linkParent] applies the lemma.
+     */
+    private fun showEntry(draft: TermDraft, linkParent: (String) -> Unit) {
+        entryJob?.cancel()
+        _state.update {
+            it.copy(
+                draft = draft, dirty = false, saved = false, error = null, duplicateOf = null, createdAt = null, references = null,
+                translationSuggested = false, lookingUpTranslation = false, dictionary = DictionaryLookup.EMPTY,
+                examples = emptyList(), examplesTotal = null, loadingExamples = false,
+            )
         }
-        // A new inflected form is linked to its lemma so the family shares one status.
-        lookup.parentSuggestion?.let { if (untouched) setParents(listOf(it)) }
-        loadExamples(draft.text, language)
+        entryJob = viewModelScope.launch {
+            // Opening the form acknowledges any flash message.
+            draft.id?.let { terms.clearFlashMessage(it) }
+            val createdAt = draft.id?.let { terms.getById(it)?.createdAt }
+            _state.update { it.copy(createdAt = createdAt) }
+            val language = _state.value.language
+            val lookup = lookupDictionary(draft.text, language)
+            // Words on a page exist as placeholders before anyone opens them, so "new" is judged by
+            // content: no translation and no parent means nobody has curated the term yet.
+            val untouched = draft.translation.isBlank() && draft.parents.isEmpty()
+            if (draft.translation.isBlank()) {
+                val gloss = lookup.suggestedTranslation
+                if (gloss != null) {
+                    _state.update { s -> s.copy(translationSuggested = true, draft = s.draft.copy(translation = gloss)) }
+                } else {
+                    launch { suggestTranslation(draft.text, language) }
+                }
+            }
+            // A new inflected form is linked to its lemma so the family shares one status.
+            lookup.parentSuggestion?.let { if (untouched) linkParent(it) }
+            loadExamples(draft.text, language)
+        }
+    }
+
+    /** Looks up [text] like a dictionary: the stored term with that text, or a new one. */
+    private fun scheduleLookup(text: String) {
+        lookupJob?.cancel()
+        val languageId = _state.value.draft.languageId
+        if (languageId == 0L) return
+        if (text.isBlank()) {
+            showEntry(emptyDraft(languageId), linkParent = {})
+            return
+        }
+        lookupJob = viewModelScope.launch {
+            delay(LOOKUP_DELAY_MS)
+            val found = termService.findOrNew(languageId, text)
+            // The field keeps what was typed; saving normalizes it.
+            val draft = if (found.id == null) found.copy(text = text, originalText = "", status = TermStatus.UNKNOWN) else found.copy(text = text)
+            // A typed word is only stored once it is edited, so the lemma joins the draft without a save.
+            showEntry(draft, linkParent = { parent -> _state.update { it.copy(draft = it.draft.copy(parents = listOf(parent), syncStatus = true)) }; inheritParentStatus(parent) })
+        }
     }
 
     private suspend fun lookupDictionary(text: String, language: Language?): DictionaryLookup {
@@ -197,42 +240,63 @@ class TermFormViewModel(
         _state.update { it.copy(translationSuggested = false) }
     }
 
-    private fun loadExamples(text: String, language: Language?) {
+    private suspend fun loadExamples(text: String, language: Language?) {
         if (language == null || text.isBlank()) return
         _state.update { it.copy(loadingExamples = true) }
-        viewModelScope.launch {
-            val native = settings.current.nativeLanguage.ifBlank { "en" }
-            val result = examplesProvider.search(ExampleSearchQuery(text, language, native, minWords = 1, maxWords = 15, sort = ExampleSort.RANDOM, limit = 10))
-            _state.update { it.copy(examples = result.sentences, examplesTotal = result.total, loadingExamples = false, nativeLanguage = native) }
-        }
+        val native = settings.current.nativeLanguage.ifBlank { "en" }
+        val result = examplesProvider.search(ExampleSearchQuery(text, language, native, minWords = 1, maxWords = 15, sort = ExampleSort.RANDOM, limit = 10))
+        _state.update { it.copy(examples = result.sentences, examplesTotal = result.total, loadingExamples = false, nativeLanguage = native) }
     }
 
     /** Fills an empty translation with a dictionary gloss; never overwrites what the user typed. */
-    private fun suggestTranslation(text: String, language: Language?) {
+    private suspend fun suggestTranslation(text: String, language: Language?) {
         if (language == null || text.isBlank()) return
         _state.update { it.copy(lookingUpTranslation = true) }
-        viewModelScope.launch {
-            val suggestion = translationProvider.suggest(text, language)
-            _state.update { s ->
-                if (suggestion != null && s.draft.translation.isBlank()) {
-                    s.copy(lookingUpTranslation = false, translationSuggested = true, draft = s.draft.copy(translation = suggestion.text))
-                } else {
-                    s.copy(lookingUpTranslation = false)
-                }
+        val suggestion = translationProvider.suggest(text, language)
+        _state.update { s ->
+            if (suggestion != null && s.draft.translation.isBlank()) {
+                s.copy(lookingUpTranslation = false, translationSuggested = true, draft = s.draft.copy(translation = suggestion.text))
+            } else {
+                s.copy(lookingUpTranslation = false)
             }
         }
     }
 
     fun update(transform: (TermDraft) -> TermDraft) {
-        var textChanged = false
-        _state.update {
-            val draft = transform(it.draft)
-            textChanged = draft.text != it.draft.text
-            val stillSuggested = it.translationSuggested && draft.translation == it.draft.translation
-            it.copy(draft = draft, error = null, duplicateOf = null, dirty = true, saved = false, translationSuggested = stillSuggested)
+        val before = _state.value
+        val draft = transform(before.draft)
+        if (draft.text != before.draft.text) {
+            changeText(before, draft.text)
+            return
         }
-        // Edits to the term text are saved with the next other change or on close, never mid-typing.
-        if (!textChanged) scheduleAutosave()
+        // An edit made before a typed word was looked up applies to the typed word as a new term.
+        lookupJob?.cancel()
+        _state.update {
+            val stillSuggested = it.translationSuggested && draft.translation == it.draft.translation
+            it.copy(draft = transform(it.draft), error = null, duplicateOf = null, dirty = true, saved = false, translationSuggested = stillSuggested)
+        }
+        scheduleAutosave()
+    }
+
+    /** Typing in the term field looks the new text up instead of renaming the term. */
+    private fun changeText(before: TermFormUiState, text: String) {
+        autosaveJob?.cancel()
+        entryJob?.cancel()
+        if (before.dirty && before.draft.text.isNotBlank()) {
+            val pending = toSave(before.draft)
+            viewModelScope.launch {
+                val id = runCatching { termService.save(pending) }.getOrNull() ?: return@launch
+                events.send(TermFormEvent.Saved(id, keepOpen = true))
+            }
+        }
+        _state.update {
+            it.copy(
+                draft = emptyDraft(it.draft.languageId).copy(text = text), dirty = false, saved = false, error = null, duplicateOf = null,
+                createdAt = null, references = null, translationSuggested = false, lookingUpTranslation = false,
+                dictionary = DictionaryLookup.EMPTY, examples = emptyList(), examplesTotal = null, loadingExamples = false,
+            )
+        }
+        scheduleLookup(text)
     }
 
     private fun scheduleAutosave() {

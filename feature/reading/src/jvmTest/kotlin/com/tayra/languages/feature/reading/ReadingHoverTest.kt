@@ -4,6 +4,8 @@ import com.russhwolf.settings.MapSettings
 import kotlin.test.assertTrue
 import org.koin.dsl.module
 import androidx.compose.ui.test.performTextInput
+import androidx.compose.ui.test.performTextClearance
+import androidx.compose.ui.test.assertIsFocused
 import com.tayra.languages.core.domain.model.TermStatus
 import androidx.compose.ui.test.pressKey
 import androidx.compose.ui.test.performKeyInput
@@ -86,6 +88,7 @@ class ReadingHoverTest {
 
     private lateinit var settings: SettingsRepositoryImpl
     private lateinit var termRepository: TermRepositoryImpl
+    private lateinit var termService: TermService
     private var languageId = 0L
 
     /** The reader's prepared sentence audio, shared with the screen's speaker through Koin. */
@@ -109,7 +112,7 @@ class ReadingHoverTest {
         val terms = TermRepositoryImpl(provider)
         termRepository = terms
         settings = SettingsRepositoryImpl(MapSettings())
-        val termService = TermService(terms, languages)
+        val termService = TermService(terms, languages).also { this.termService = it }
         val readingService = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), termService)
         val bookService = BookService(books, languages)
         languageId = languages.save(Language(name = "Portuguese"))
@@ -468,6 +471,39 @@ class ReadingHoverTest {
         press()
         rule.waitUntil(2_000) { vm.state.value.panel != ReadingPanel.None }
         rule.waitUntil(5_000) { rule.onAllNodes(androidx.compose.ui.test.hasSetTextAction() and androidx.compose.ui.test.hasText("lobo")).fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** E with no word selected opens an empty pane whose term field looks words up as they are typed. */
+    @Test
+    fun eWithNothingSelectedOpensAnEmptyPaneThatLooksWordsUp() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        runBlocking { termService.save(termService.findOrNew(languageId, "lobo").copy(translation = "wolf", status = TermStatus.LEARNING_3)) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(Key.E) }
+        rule.waitUntil(2_000) { vm.state.value.panel == ReadingPanel.NewTerm(languageId, "") }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Type a word or phrase to look it up.").fetchSemanticsNodes().isNotEmpty() }
+        val field = rule.onAllNodes(androidx.compose.ui.test.hasSetTextAction())[0]
+        field.assertIsFocused()
+        fun shows(text: String) = rule.onAllNodes(androidx.compose.ui.test.hasSetTextAction() and androidx.compose.ui.test.hasText(text)).fetchSemanticsNodes().isNotEmpty()
+
+        field.performTextInput("casa")
+        rule.waitUntil(5_000) { shows("<casa>") }
+        field.performTextClearance()
+        field.performTextInput("lobo")
+        rule.waitUntil(5_000) { shows("wolf") }
+        assertTrue(rule.onAllNodes(androidx.compose.ui.test.hasText("3") and androidx.compose.ui.test.isSelected()).fetchSemanticsNodes().isNotEmpty(), "the stored status shows")
+        field.performTextClearance()
+        field.performTextInput("floresta")
+        rule.waitUntil(5_000) { shows("<floresta>") }
+        rule.runOnIdle { vm.closePanel() }
+        rule.waitForIdle()
+        runBlocking {
+            assertEquals(null, termRepository.findByTextLc(languageId, "casa"), "a looked-up word is not stored")
+            assertEquals(TermStatus.UNKNOWN, termRepository.findByTextLc(languageId, "floresta")?.status, "looking a word up leaves it unknown")
+            assertEquals("wolf", termRepository.findByTextLc(languageId, "lobo")?.translation)
+        }
     }
 
     private fun silentWav(samples: Int = 800): ByteArray {

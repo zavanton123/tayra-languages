@@ -82,6 +82,7 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.material3.CircularProgressIndicator
 import com.tayra.languages.feature.terms.form.TermFormViewModel
+import kotlin.random.Random
 import com.tayra.languages.feature.terms.form.TermFormPanel
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormEvent
@@ -201,10 +202,14 @@ fun ExamplesSearchScreen(
     }
 }
 
-/** The term pane for [text], as the reader shows it; a new text opens a new form, the old one keeps saving on its own. */
+/**
+ * The term pane for [text], as the reader shows it; each opening gets a new form, since a form
+ * may have moved on to a looked-up word. An old form keeps saving on its own.
+ */
 @Composable
 private fun TermPane(languageId: Long, text: String, onClose: () -> Unit, onOpenTerm: (String) -> Unit, onNavigate: (Route) -> Unit) {
-    val form = koinViewModel<TermFormViewModel>(key = "examples-term-$languageId-$text") { parametersOf(TermFormKey.ByText(languageId, text)) }
+    val opening = remember(languageId, text) { Random.nextLong() }
+    val form = koinViewModel<TermFormViewModel>(key = "examples-term-$languageId-$text-$opening") { parametersOf(TermFormKey.ByText(languageId, text)) }
     CollectEvents(form.events) { event ->
         when (event) {
             is TermFormEvent.Saved -> Unit

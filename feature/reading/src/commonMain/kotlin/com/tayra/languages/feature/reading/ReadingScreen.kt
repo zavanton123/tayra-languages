@@ -138,6 +138,7 @@ import com.tayra.languages.feature.terms.form.TermFormViewModel
 import com.tayra.languages.feature.terms.list.BulkEditDialog
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
+import kotlin.random.Random
 import org.koin.core.parameter.parametersOf
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -1201,7 +1202,9 @@ private fun PanelContent(state: ReadingUiState, viewModel: ReadingViewModel, onN
 
 @Composable
 private fun EmbeddedTermForm(key: TermFormKey, keyString: String, viewModel: ReadingViewModel, onNavigate: (Route) -> Unit) {
-    val formViewModel = koinViewModel<TermFormViewModel>(key = "reading-term-$keyString") { parametersOf(key) }
+    // Each opening gets a new form, since a form may have moved on to a looked-up word.
+    val opening = remember(keyString) { Random.nextLong() }
+    val formViewModel = koinViewModel<TermFormViewModel>(key = "reading-term-$keyString-$opening") { parametersOf(key) }
     CollectEvents(formViewModel.events) { event ->
         when (event) {
             is TermFormEvent.Saved -> if (event.keepOpen) viewModel.onTermChanged() else viewModel.onTermFormDone()

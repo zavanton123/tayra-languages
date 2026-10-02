@@ -398,7 +398,10 @@ class ReadingViewModel(
 
     fun closePanel() = _state.update { it.copy(panel = ReadingPanel.None, selection = null, selecting = false) }
 
-    /** Hides the term pane, keeping the word selected, or shows it again for the selected word (or words). */
+    /**
+     * Hides the term pane, keeping the word selected, or shows it again for the selected word (or
+     * words). With nothing selected it opens empty, to look a word up.
+     */
     fun toggleTermPane() {
         val s = _state.value
         if (s.panel != ReadingPanel.None) {
@@ -408,6 +411,7 @@ class ReadingViewModel(
         when {
             s.marked.size > 1 -> showBulkPanel(s.marked)
             s.marked.size == 1 -> s.items.getOrNull(s.marked.single())?.takeIf { it.isWord }?.let(::openTerm)
+            else -> s.language?.let { language -> _state.update { it.copy(panel = ReadingPanel.NewTerm(language.id, "")) } }
         }
     }
 

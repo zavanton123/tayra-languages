@@ -40,6 +40,7 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -133,6 +134,8 @@ fun TermFormPanel(
     val draft = state.draft
     val language = state.language
     val direction = if (language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr
+    val empty = draft.text.isBlank()
+    LaunchedEffect(Unit) { if (embedded && empty) runCatching { focusRequester.requestFocus() } }
 
     Column(
         modifier
@@ -160,14 +163,19 @@ fun TermFormPanel(
             SectionCard({ TermBadge() }, "Term", tint = MaterialTheme.colorScheme.primary) {
                 LanguageSelector(state, viewModel)
                 TermField(state, viewModel, direction, focusRequester)
-                TranslationField(state, viewModel, compact = true)
-                StatusSelector(selected = draft.status, onSelect = viewModel::setStatus, large = true)
+                if (empty) {
+                    Text("Type a word or phrase to look it up.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                } else {
+                    TranslationField(state, viewModel, compact = true)
+                    StatusSelector(selected = draft.status, onSelect = viewModel::setStatus, large = true)
+                }
             }
         } else {
             StandaloneFields(state, viewModel, direction, focusRequester, onConfirmDelete = { confirmDelete = true })
         }
         val pack = state.dictionaryPack
         when {
+            empty -> Unit
             !state.dictionary.isEmpty -> DictionarySection(state.dictionary, onAdd = viewModel::addGloss)
             pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
         }
@@ -191,7 +199,7 @@ fun TermFormPanel(
             }
         }
 
-        ExamplesSection(state, language, onOpenExamples)
+        if (!empty) ExamplesSection(state, language, onOpenExamples)
         if (embedded) Spacer(Modifier.height(24.dp))
     }
     if (confirmDelete) {
