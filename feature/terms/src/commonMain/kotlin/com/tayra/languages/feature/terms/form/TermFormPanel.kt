@@ -48,6 +48,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.material3.CircularProgressIndicator
 import com.tayra.languages.feature.terms.examples.PrepareSpeech
@@ -386,14 +387,14 @@ val LanguageDictionary.displayName: String
     get() = url.substringAfter("://").substringBefore("/").removePrefix("www.").ifEmpty { "Dictionary" }
 
 /**
- * Status buttons 1–5, W and I. [expanded] stretches them to fill the row; [large] also fills
+ * Status buttons U (unknown), 1–4, W and I. [expanded] stretches them to fill the row; [large] also fills
  * the row, with taller buttons, instead of compact chips.
  */
 @Composable
 fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false, large: Boolean = false) {
     val colors = TayraTheme.current.statusColors
     Row(if (expanded || large) Modifier.fillMaxWidth() else Modifier, horizontalArrangement = Arrangement.spacedBy(if (expanded || large) 8.dp else 4.dp)) {
-        TermStatus.selectable.forEach { status ->
+        TermStatus.paneButtons.forEach { status ->
             val isSelected = status == selected
             val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
             Box(
@@ -403,6 +404,7 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expande
                     .background(background)
                     .border(if (isSelected) 2.dp else 0.dp, if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, RoundedCornerShape(if (expanded || large) 8.dp else 4.dp))
                     .clickable { onSelect(status) }
+                    .semantics { this.selected = isSelected }
                     .then(if (expanded || large) Modifier else Modifier.padding(horizontal = 12.dp, vertical = 8.dp)),
                 contentAlignment = Alignment.Center,
             ) {

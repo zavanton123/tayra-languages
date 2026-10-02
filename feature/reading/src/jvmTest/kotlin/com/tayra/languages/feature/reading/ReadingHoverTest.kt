@@ -3,6 +3,7 @@ package com.tayra.languages.feature.reading
 import com.russhwolf.settings.MapSettings
 import kotlin.test.assertTrue
 import org.koin.dsl.module
+import androidx.compose.ui.test.performTextInput
 import com.tayra.languages.core.domain.model.TermStatus
 import androidx.compose.ui.test.pressKey
 import androidx.compose.ui.test.performKeyInput
@@ -392,6 +393,29 @@ class ReadingHoverTest {
         Thread.sleep(1_500)
         rule.waitForIdle()
         assertEquals(TermStatus.NEW_2, status(), "the open pane must not restore the old status")
+    }
+
+    /** An unknown word opens with U selected; a translation typed in starts it at 1, and U puts it back. */
+    @Test
+    fun unknownWordsShowAndKeepTheUnknownStatus() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        vm.onWordClick(vm.state.value.items.indexOfFirst { it.isWord && it.renderText == "lobo" }, shift = false)
+        fun status() = runBlocking { termRepository.findByTextLc(languageId, "lobo")?.status }
+        fun selected(label: String) = rule.onAllNodes(androidx.compose.ui.test.hasText(label) and androidx.compose.ui.test.isSelected()).fetchSemanticsNodes().isNotEmpty()
+
+        rule.waitUntil(5_000) { selected("U") }
+        assertEquals(TermStatus.UNKNOWN, status())
+
+        rule.onNode(androidx.compose.ui.test.hasSetTextAction() and androidx.compose.ui.test.hasText("Translation")).performTextInput("lobo em russo")
+        rule.waitUntil(5_000) { status() == TermStatus.NEW_1 }
+        rule.waitUntil(5_000) { selected("1") }
+
+        rule.onNode(androidx.compose.ui.test.hasText("U") and androidx.compose.ui.test.hasClickAction()).performClick()
+        rule.waitUntil(5_000) { status() == TermStatus.UNKNOWN }
+        rule.waitUntil(5_000) { selected("U") }
     }
 
     private fun silentWav(samples: Int = 800): ByteArray {
