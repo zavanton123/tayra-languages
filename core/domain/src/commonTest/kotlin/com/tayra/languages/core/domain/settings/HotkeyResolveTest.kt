@@ -25,6 +25,7 @@ class HotkeyResolveTest {
         assertEquals(HotkeyAction.LISTEN_PAUSE, resolve(Hotkey("W"), wordSelected = false))
         assertEquals(HotkeyAction.LISTEN_PAUSE, resolve(Hotkey("W"), wordSelected = true))
         assertEquals(HotkeyAction.STATUS_WELL_KNOWN, resolve(Hotkey("K"), wordSelected = true))
+        assertEquals(HotkeyAction.DELETE_TERM, resolve(Hotkey("U"), wordSelected = true))
     }
 
     @Test

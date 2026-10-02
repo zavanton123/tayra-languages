@@ -84,7 +84,7 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     STATUS_WELL_KNOWN(HotkeyCategory.STATUS, "Set status to Known", Hotkey("K")),
     STATUS_UP(HotkeyCategory.STATUS, "Bump the status up by 1", Hotkey("Up", ctrl = true)),
     STATUS_DOWN(HotkeyCategory.STATUS, "Bump the status down by 1", Hotkey("Down", ctrl = true)),
-    DELETE_TERM(HotkeyCategory.STATUS, "Delete term (set status to Unknown)", null),
+    DELETE_TERM(HotkeyCategory.STATUS, "Set status to Unknown", Hotkey("U")),
 
     PREVIOUS_PAGE(HotkeyCategory.PAGING, "Go to previous page, do not mark current page read", Hotkey("Left", shift = true)),
     NEXT_PAGE(HotkeyCategory.PAGING, "Go to next page, do not mark current page read", Hotkey("Right", shift = true)),
@@ -129,6 +129,9 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
             STATUS_UP to Hotkey("Up"),
             STATUS_DOWN to Hotkey("Down"),
         )
+
+        /** Set to Unknown was given U after people already had saved shortcuts; applied once where still unassigned. */
+        val unknownKeyDefaults: List<HotkeyAction> = listOf(DELETE_TERM)
 
         /** The Known status moved from W to K, which leaves W to pause and resume reading aloud. */
         val knownKeyChange: Map<HotkeyAction, Hotkey> = mapOf(STATUS_WELL_KNOWN to Hotkey("W"))
