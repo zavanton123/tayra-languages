@@ -113,7 +113,8 @@ class ContinuousReading(private val speaker: Speaker) {
 
     /**
      * A sentence's own button: while reading, reading carries on from it (or pauses on the one
-     * being read); otherwise it is read alone and the next [play] starts from it.
+     * being read); otherwise it is read alone, and the next [play] reads it again if it was
+     * stopped, or the one after it once it was heard to the end.
      */
     fun sentenceClicked(sentence: String) {
         val index = sentences.indexOf(sentence)
@@ -126,12 +127,18 @@ class ContinuousReading(private val speaker: Speaker) {
             play()
             return
         }
-        if (index >= 0) {
-            current = sentence
-            pageEnded = false
-            moveOnPlay = false
+        if (index < 0) {
+            speaker.toggle(sentence, languageCode)
+            return
         }
-        speaker.toggle(sentence, languageCode)
+        current = sentence
+        pageEnded = false
+        moveOnPlay = false
+        when (sentence) {
+            speaker.playing.value -> speaker.stop()
+            speaker.paused.value -> speaker.resume()
+            else -> speaker.speak(sentence, languageCode) { if (!active && current == sentence) moveOnPlay = true }
+        }
     }
 
     /**
