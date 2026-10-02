@@ -111,6 +111,7 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     COPY_PAGE(HotkeyCategory.COPY, "Copy the full page", null),
 
     PAGE_TERM_LIST(HotkeyCategory.MISC, "Show the term listing for the current page", null),
+    TOGGLE_TERM_PANE(HotkeyCategory.MISC, "Show or hide the term pane of the selected word", Hotkey("E")),
     BOOKMARK(HotkeyCategory.MISC, "Bookmark the current page", Hotkey("B")),
     EDIT_PAGE(HotkeyCategory.MISC, "Edit the current page", null),
     NEXT_THEME(HotkeyCategory.MISC, "Change to the next theme", Hotkey("M")),

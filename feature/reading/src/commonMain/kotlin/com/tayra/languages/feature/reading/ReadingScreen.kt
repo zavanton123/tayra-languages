@@ -197,6 +197,7 @@ fun ReadingScreen(
             HotkeyAction.TEXT_SMALLER -> viewModel.stepFontSize(-1)
             HotkeyAction.LINES_FURTHER -> viewModel.stepLineHeight(1)
             HotkeyAction.LINES_CLOSER -> viewModel.stepLineHeight(-1)
+            HotkeyAction.TOGGLE_TERM_PANE -> viewModel.toggleTermPane()
             HotkeyAction.TEXT_RESET -> viewModel.resetFontSize()
             HotkeyAction.LINES_RESET -> viewModel.resetLineHeight()
             HotkeyAction.LISTEN_AUTO_PAUSE -> viewModel.toggleAutoPause()
@@ -879,6 +880,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
         "Pause / resume" to listOf(HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW),
         "Mark word as known" to listOf(HotkeyAction.STATUS_WELL_KNOWN),
         "Mark word as unknown" to listOf(HotkeyAction.DELETE_TERM),
+        "Show / hide the term pane" to listOf(HotkeyAction.TOGGLE_TERM_PANE),
         "Next coloured word" to listOf(HotkeyAction.NEXT_COLORED_WORD),
         "Previous coloured word" to listOf(HotkeyAction.PREV_COLORED_WORD),
         "Larger / smaller text" to listOf(HotkeyAction.TEXT_LARGER, HotkeyAction.TEXT_SMALLER),
