@@ -450,6 +450,26 @@ class ReadingHoverTest {
         rule.waitUntil(2_000) { selected() == "O" }
     }
 
+    /** E hides the term pane of the selected word and shows it again, keeping the word selected. */
+    @Test
+    fun eTogglesTheTermPane() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        val wolf = vm.state.value.items.indexOfFirst { it.isWord && it.renderText == "lobo" }
+        vm.onWordClick(wolf, shift = false)
+        rule.waitUntil(5_000) { vm.state.value.panel != ReadingPanel.None }
+        fun press() = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(Key.E) }
+
+        press()
+        rule.waitUntil(2_000) { vm.state.value.panel == ReadingPanel.None }
+        assertEquals(setOf(wolf), vm.state.value.marked, "the word stays selected")
+        press()
+        rule.waitUntil(2_000) { vm.state.value.panel != ReadingPanel.None }
+        rule.waitUntil(5_000) { rule.onAllNodes(androidx.compose.ui.test.hasSetTextAction() and androidx.compose.ui.test.hasText("lobo")).fetchSemanticsNodes().isNotEmpty() }
+    }
+
     private fun silentWav(samples: Int = 800): ByteArray {
         val data = samples * 2
         val header = java.nio.ByteBuffer.allocate(44).order(java.nio.ByteOrder.LITTLE_ENDIAN).apply {
