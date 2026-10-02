@@ -94,6 +94,20 @@ class ContinuousReadingTest {
         assertTrue(highlighted("A noite é fria."))
     }
 
+    /** A sentence played with its own button and heard to the end counts as read: Space goes on with the next. */
+    @Test
+    fun spaceAfterASentenceButtonGoesOnToTheNextSentence() {
+        show(autoPause = true)
+        fun press(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
+
+        rule.onAllNodesWithContentDescription("Play sentence")[0].performClick()
+        assertEquals(listOf("O lobo dorme."), readUntilSilent())
+        assertTrue(highlighted("O lobo dorme."))
+        press(Key.Spacebar)
+        assertEquals(listOf("A noite é fria."), readUntilSilent())
+        assertTrue(highlighted("A noite é fria."))
+    }
+
     /** Whether the highlighted sentence is [sentence]. */
     private fun highlighted(sentence: String): Boolean {
         rule.waitForIdle()
