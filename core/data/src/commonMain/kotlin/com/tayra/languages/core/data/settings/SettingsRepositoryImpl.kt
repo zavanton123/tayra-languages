@@ -89,7 +89,9 @@ class SettingsRepositoryImpl(
                 val stored = store.getStringOrNull(action.settingKey)
                 // Saving settings stores every shortcut, so a default added later would never show; it is applied once.
                 val laterDefault = action in HotkeyAction.laterDefaults && stored == "" && !store.getBoolean(Keys.LATER_HOTKEY_DEFAULTS, false)
-                if (stored == null || laterDefault) action.default else Hotkey.parse(stored)
+                val oldDefault = HotkeyAction.changedDefaults[action]
+                val changedDefault = oldDefault != null && stored != null && Hotkey.parse(stored) == oldDefault && !store.getBoolean(Keys.CTRL_WORD_HOTKEYS, false)
+                if (stored == null || laterDefault || changedDefault) action.default else Hotkey.parse(stored)
             },
         )
     }
@@ -151,6 +153,7 @@ class SettingsRepositoryImpl(
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
         }
         store.putBoolean(Keys.LATER_HOTKEY_DEFAULTS, true)
+        store.putBoolean(Keys.CTRL_WORD_HOTKEYS, true)
     }
 
     private object Keys {
@@ -170,6 +173,7 @@ class SettingsRepositoryImpl(
         const val SPEAK_WORD_ON_CLICK = "reading_speak_word_on_click"
         const val AUTO_PAUSE = "reading_auto_pause"
         const val LATER_HOTKEY_DEFAULTS = "hotkeys_later_defaults_applied"
+        const val CTRL_WORD_HOTKEYS = "hotkeys_ctrl_word_applied"
         const val SPEECH_ENGINE = "speech_engine"
         const val SPEECH_VOICES = "speech_voices"
         const val SPEECH_SPEED = "speech_speed"

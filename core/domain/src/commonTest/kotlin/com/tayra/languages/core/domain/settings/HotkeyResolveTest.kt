@@ -10,11 +10,18 @@ class HotkeyResolveTest {
     private fun resolve(key: Hotkey, wordSelected: Boolean, listening: Boolean = true) = HotkeyAction.resolve(keys, key, wordSelected, listening)
 
     @Test
-    fun arrowsReadAloudUnlessAWordIsSelected() {
+    fun plainArrowsAlwaysReadAloudAndCtrlArrowsActOnWords() {
         assertEquals(HotkeyAction.LISTEN_PREVIOUS_ARROW, resolve(Hotkey("Left"), wordSelected = false))
-        assertEquals(HotkeyAction.PREV_WORD, resolve(Hotkey("Left"), wordSelected = true))
-        assertEquals(HotkeyAction.LISTEN_PAUSE_ARROW, resolve(Hotkey("Up"), wordSelected = false))
-        assertEquals(HotkeyAction.STATUS_UP, resolve(Hotkey("Up"), wordSelected = true))
+        assertEquals(HotkeyAction.LISTEN_PREVIOUS_ARROW, resolve(Hotkey("Left"), wordSelected = true))
+        assertEquals(HotkeyAction.LISTEN_PAUSE_ARROW, resolve(Hotkey("Up"), wordSelected = true))
+        assertEquals(HotkeyAction.PREV_WORD, resolve(Hotkey("Left", ctrl = true), wordSelected = true))
+        assertEquals(HotkeyAction.NEXT_WORD, resolve(Hotkey("Right", ctrl = true), wordSelected = false))
+        assertEquals(HotkeyAction.STATUS_UP, resolve(Hotkey("Up", ctrl = true), wordSelected = true))
+        assertEquals(HotkeyAction.STATUS_DOWN, resolve(Hotkey("Down", ctrl = true), wordSelected = true))
+    }
+
+    @Test
+    fun wActsOnASelectedWordAndOtherwiseReadsAloud() {
         assertEquals(HotkeyAction.LISTEN_PAUSE, resolve(Hotkey("W"), wordSelected = false))
         assertEquals(HotkeyAction.STATUS_WELL_KNOWN, resolve(Hotkey("W"), wordSelected = true))
     }
@@ -25,6 +32,6 @@ class HotkeyResolveTest {
         assertEquals(HotkeyAction.LISTEN_AUTO_PAUSE, resolve(Hotkey("Q"), wordSelected = false))
         assertEquals(HotkeyAction.NEXT_PAGE, resolve(Hotkey("Right", shift = true), wordSelected = false))
         assertEquals(null, resolve(Hotkey("Space"), wordSelected = false, listening = false))
-        assertEquals(HotkeyAction.NEXT_WORD, resolve(Hotkey("Right"), wordSelected = false, listening = false))
+        assertEquals(null, resolve(Hotkey("Right"), wordSelected = true, listening = false))
     }
 }

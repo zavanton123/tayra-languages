@@ -29,6 +29,27 @@ class HotkeyDefaultsMigrationTest {
     }
 
     @Test
+    fun wordShortcutsStillOnTheOldArrowsMoveToCtrlOnce() = runTest {
+        val store = MapSettings()
+        HotkeyAction.entries.forEach { store.putString(it.settingKey, it.default?.serialized ?: "") }
+        store.putString(HotkeyAction.PREV_WORD.settingKey, "Left")
+        store.putString(HotkeyAction.NEXT_WORD.settingKey, "Right")
+        store.putString(HotkeyAction.STATUS_UP.settingKey, "Up")
+        // Changed by hand: kept.
+        store.putString(HotkeyAction.STATUS_DOWN.settingKey, "J")
+
+        val settings = SettingsRepositoryImpl(store)
+        assertEquals(Hotkey("Left", ctrl = true), settings.current.hotkeys[HotkeyAction.PREV_WORD])
+        assertEquals(Hotkey("Right", ctrl = true), settings.current.hotkeys[HotkeyAction.NEXT_WORD])
+        assertEquals(Hotkey("Up", ctrl = true), settings.current.hotkeys[HotkeyAction.STATUS_UP])
+        assertEquals(Hotkey("J"), settings.current.hotkeys[HotkeyAction.STATUS_DOWN])
+
+        // Once saved, a plain arrow chosen again by hand stays.
+        settings.update { it.copy(hotkeys = it.hotkeys + (HotkeyAction.PREV_WORD to Hotkey("Left"))) }
+        assertEquals(Hotkey("Left"), SettingsRepositoryImpl(store).current.hotkeys[HotkeyAction.PREV_WORD])
+    }
+
+    @Test
     fun aNewInstallGetsEveryDefault() {
         val keys = SettingsRepositoryImpl(MapSettings()).current.hotkeys
         assertEquals(Hotkey("Space"), keys[HotkeyAction.LISTEN_PLAY_PAUSE])

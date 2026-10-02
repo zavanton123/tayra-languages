@@ -873,7 +873,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
                 }
             }
             Text(
-                "While a word is selected, the arrows and W act on the word instead.",
+                "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status. While a word is selected, W sets it to Well known.",
                 style = MaterialTheme.typography.bodySmall,
                 color = colors.onSurfaceVariant,
             )
