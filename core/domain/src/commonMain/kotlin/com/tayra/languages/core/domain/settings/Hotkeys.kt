@@ -51,14 +51,15 @@ enum class HotkeyCategory(val label: String) {
 }
 
 /**
- * All customisable hotkeys with their defaults. Listening shortcuts share keys with word
- * shortcuts (arrows, W): while a word is selected the key acts on the word, otherwise on reading
+ * All customisable hotkeys with their defaults. The plain arrows read aloud; moving between words
+ * and changing a word's status take Ctrl (⌘ on a Mac) with the arrows. A key shared by a word
+ * shortcut and a listening one (W) acts on the word while one is selected, otherwise on reading
  * aloud; see [HotkeyAction.resolve].
  */
 enum class HotkeyAction(val category: HotkeyCategory, val description: String, val default: Hotkey?) {
     START_HOVER(HotkeyCategory.NAVIGATION, "Deselect all words", Hotkey("Escape")),
-    PREV_WORD(HotkeyCategory.NAVIGATION, "Move to previous word", Hotkey("Left")),
-    NEXT_WORD(HotkeyCategory.NAVIGATION, "Move to next word", Hotkey("Right")),
+    PREV_WORD(HotkeyCategory.NAVIGATION, "Move to previous word", Hotkey("Left", ctrl = true)),
+    NEXT_WORD(HotkeyCategory.NAVIGATION, "Move to next word", Hotkey("Right", ctrl = true)),
     PREV_UNKNOWN_WORD(HotkeyCategory.NAVIGATION, "Move to previous unknown word", null),
     NEXT_UNKNOWN_WORD(HotkeyCategory.NAVIGATION, "Move to next unknown word", null),
     PREV_SENTENCE(HotkeyCategory.NAVIGATION, "Move to previous sentence", null),
@@ -81,8 +82,8 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     STATUS_4(HotkeyCategory.STATUS, "Set status to 4", Hotkey("4")),
     STATUS_IGNORE(HotkeyCategory.STATUS, "Set status to Ignore", Hotkey("I")),
     STATUS_WELL_KNOWN(HotkeyCategory.STATUS, "Set status to Well Known", Hotkey("W")),
-    STATUS_UP(HotkeyCategory.STATUS, "Bump the status up by 1", Hotkey("Up")),
-    STATUS_DOWN(HotkeyCategory.STATUS, "Bump the status down by 1", Hotkey("Down")),
+    STATUS_UP(HotkeyCategory.STATUS, "Bump the status up by 1", Hotkey("Up", ctrl = true)),
+    STATUS_DOWN(HotkeyCategory.STATUS, "Bump the status down by 1", Hotkey("Down", ctrl = true)),
     DELETE_TERM(HotkeyCategory.STATUS, "Delete term (set status to Unknown)", null),
 
     PREVIOUS_PAGE(HotkeyCategory.PAGING, "Go to previous page, do not mark current page read", Hotkey("Left", shift = true)),
@@ -117,6 +118,17 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
 
         /** Actions given defaults after people already had saved shortcuts; applied once where still unassigned. */
         val laterDefaults: List<HotkeyAction> = listOf(PREVIOUS_PAGE, NEXT_PAGE)
+
+        /**
+         * Defaults that changed after people already had saved shortcuts, with the old key: a shortcut
+         * still on its old default moves to the new one, once; one changed by hand stays as it is.
+         */
+        val changedDefaults: Map<HotkeyAction, Hotkey> = mapOf(
+            PREV_WORD to Hotkey("Left"),
+            NEXT_WORD to Hotkey("Right"),
+            STATUS_UP to Hotkey("Up"),
+            STATUS_DOWN to Hotkey("Down"),
+        )
 
         /**
          * The action for [pressed] among [hotkeys]. Keys shared by a word shortcut and a listening one
