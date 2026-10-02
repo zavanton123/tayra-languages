@@ -64,6 +64,9 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.key.isShiftPressed
+import androidx.compose.ui.input.key.Key
+import com.tayra.languages.core.ui.hotkeys.ShiftTracker
 import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.utf16CodePoint
 import co.touchlab.kermit.Logger
@@ -157,6 +160,7 @@ fun ReadingScreen(
     var confirmDeletePage by remember { mutableStateOf(false) }
     var panelFocused by remember { mutableStateOf(false) }
     val focusRequester = remember { FocusRequester() }
+    val shift = remember { ShiftTracker() }
 
     CollectEvents(viewModel.events) { event ->
         when (event) {
@@ -270,11 +274,14 @@ fun ReadingScreen(
                 .focusRequester(focusRequester)
                 .focusable()
                 // Before the focused button sees it, so Space after clicking a button still plays or pauses.
+                .onFocusChanged { if (!it.hasFocus) shift.reset() }
                 .onPreviewKeyEvent { event ->
+                    val isShift = event.key == Key.ShiftLeft || event.key == Key.ShiftRight
+                    if (shift.onKey(isShift, down = event.type == KeyEventType.KeyDown)) return@onPreviewKeyEvent false
                     if (event.type != KeyEventType.KeyDown || panelFocused || state.items.isEmpty()) return@onPreviewKeyEvent false
-                    val pressed = HotkeyMatcher.fromEvent(event) ?: return@onPreviewKeyEvent false
+                    val pressed = HotkeyMatcher.fromEvent(event)?.let(shift::adjust) ?: return@onPreviewKeyEvent false
                     val action = HotkeyAction.resolve(hotkeys, pressed, wordSelected = state.marked.isNotEmpty(), listening = state.settings.showSentencePlay)
-                    Logger.d { "Reader key ${event.key} (char ${event.utf16CodePoint}) read as $pressed: ${action ?: "no shortcut"}" }
+                    Logger.d { "Reader key ${event.key} (char ${event.utf16CodePoint}, Shift flag ${event.isShiftPressed}, Shift held ${shift.held}) read as $pressed: ${action ?: "no shortcut"}" }
                     if (action == null) return@onPreviewKeyEvent false
                     handleAction(action)
                 },
