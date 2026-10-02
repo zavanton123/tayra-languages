@@ -39,6 +39,10 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.runBlocking
 import org.junit.After
 import org.junit.Rule
+import androidx.compose.ui.test.pressKey
+import androidx.compose.ui.test.performKeyInput
+import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.input.key.Key
 import kotlin.test.assertTrue
 import kotlin.math.abs
 import androidx.compose.ui.test.performScrollTo
@@ -83,6 +87,31 @@ class ContinuousReadingTest {
         assertEquals(listOf("O lobo dorme."), readUntilSilent())
         rule.onNodeWithContentDescription("Read the page").performClick()
         assertEquals(listOf("A noite é fria."), readUntilSilent())
+    }
+
+    /** The keyboard drives reading aloud: Space plays and goes on after an auto-pause, A goes back, Q and Shift+→ too. */
+    @Test
+    fun theKeyboardControlsReadingAloud() {
+        show(autoPause = true)
+        fun press(key: Key, shift: Boolean = false) = rule.onRoot().performKeyInput {
+            if (shift) keyDown(Key.ShiftLeft)
+            pressKey(key)
+            if (shift) keyUp(Key.ShiftLeft)
+        }
+
+        press(Key.Spacebar)
+        assertEquals(listOf("O lobo dorme."), readUntilSilent())
+        // After an auto-pause Space goes on with the next sentence.
+        press(Key.Spacebar)
+        assertEquals(listOf("A noite é fria."), readUntilSilent())
+        press(Key.A)
+        assertEquals(listOf("O lobo dorme."), readUntilSilent())
+
+        press(Key.Q)
+        rule.waitUntil(2_000) { rule.onAllNodesWithContentDescription("Auto-pause off").fetchSemanticsNodes().isNotEmpty() }
+
+        press(Key.DirectionRight, shift = true)
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText("O dia chega.", substring = true)).fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** On a long page the sentence being read is scrolled to the middle of the reading area. */

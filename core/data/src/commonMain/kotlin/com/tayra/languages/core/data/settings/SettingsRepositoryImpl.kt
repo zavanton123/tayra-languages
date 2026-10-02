@@ -87,7 +87,9 @@ class SettingsRepositoryImpl(
             argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
             hotkeys = HotkeyAction.entries.associateWith { action ->
                 val stored = store.getStringOrNull(action.settingKey)
-                if (stored == null) action.default else Hotkey.parse(stored)
+                // Saving settings stores every shortcut, so a default added later would never show; it is applied once.
+                val laterDefault = action in HotkeyAction.laterDefaults && stored == "" && !store.getBoolean(Keys.LATER_HOTKEY_DEFAULTS, false)
+                if (stored == null || laterDefault) action.default else Hotkey.parse(stored)
             },
         )
     }
@@ -148,6 +150,7 @@ class SettingsRepositoryImpl(
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
         }
+        store.putBoolean(Keys.LATER_HOTKEY_DEFAULTS, true)
     }
 
     private object Keys {
@@ -166,6 +169,7 @@ class SettingsRepositoryImpl(
         const val SHOW_SENTENCE_PLAY = "reading_show_sentence_play"
         const val SPEAK_WORD_ON_CLICK = "reading_speak_word_on_click"
         const val AUTO_PAUSE = "reading_auto_pause"
+        const val LATER_HOTKEY_DEFAULTS = "hotkeys_later_defaults_applied"
         const val SPEECH_ENGINE = "speech_engine"
         const val SPEECH_VOICES = "speech_voices"
         const val SPEECH_SPEED = "speech_speed"
