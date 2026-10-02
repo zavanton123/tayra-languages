@@ -133,6 +133,39 @@ class ContinuousReadingTest {
         rule.waitUntil(5_000) { rule.onAllNodes(hasText("O dia chega.", substring = true)).fetchSemanticsNodes().isNotEmpty() }
     }
 
+    /** Ctrl with + and − sizes the text, with Shift the line height; ↑ pauses and resumes like W. */
+    @Test
+    fun displayShortcutsAndTheUpArrow() {
+        show(autoPause = true, sentenceMillis = 3_000)
+        fun press(key: Key, shift: Boolean = false) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput {
+            keyDown(Key.CtrlLeft)
+            if (shift) keyDown(Key.ShiftLeft)
+            pressKey(key)
+            if (shift) keyUp(Key.ShiftLeft)
+            keyUp(Key.CtrlLeft)
+        }
+        val font = settings.current.readingFontScale
+        val lines = settings.current.readingLineHeight
+        press(Key.Equals)
+        rule.waitUntil(2_000) { settings.current.readingFontScale > font }
+        press(Key.Minus)
+        rule.waitUntil(2_000) { settings.current.readingFontScale == font }
+        press(Key.Equals, shift = true)
+        rule.waitUntil(2_000) { settings.current.readingLineHeight > lines }
+        press(Key.Minus, shift = true)
+        rule.waitUntil(2_000) { settings.current.readingLineHeight == lines }
+        assertEquals(font, settings.current.readingFontScale, "line-height keys leave the text size alone")
+
+        fun tap(key: Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
+        fun reading() = rule.onAllNodes(hasContentDescription("Stop")).fetchSemanticsNodes().isNotEmpty()
+        tap(Key.Spacebar)
+        rule.waitUntil(2_000) { reading() }
+        tap(Key.DirectionUp)
+        rule.waitUntil(2_000) { !reading() }
+        tap(Key.DirectionUp)
+        rule.waitUntil(2_000) { reading() }
+    }
+
     /** Next on the page's last sentence stays there: no page turn, and the place is kept. */
     @Test
     fun nextOnTheLastSentenceStaysThere() {

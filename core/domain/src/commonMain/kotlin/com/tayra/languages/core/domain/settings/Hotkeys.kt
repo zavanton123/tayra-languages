@@ -3,7 +3,8 @@ package com.tayra.languages.core.domain.settings
 /**
  * A keyboard shortcut. [key] is a platform-neutral key name: a single character
  * for letters and digits (`W`, `1`), or names like `Up`, `Down`, `Left`, `Right`,
- * `Enter`, `Escape`, `Space`, `Tab`, `F1`..`F12`.
+ * `Enter`, `Escape`, `Space`, `Tab`, `F1`..`F12`, and `Plus` / `Minus` for the + and −
+ * keys (+ is the = key on the main keyboard), which keeps `+` free as the separator.
  */
 data class Hotkey(
     val key: String,
@@ -46,6 +47,7 @@ enum class HotkeyCategory(val label: String) {
     STATUS("Update status"),
     PAGING("Paging"),
     TRANSLATE("Translate"),
+    DISPLAY("Display"),
     COPY("Copy"),
     MISC("Misc"),
 }
@@ -62,6 +64,8 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     NEXT_WORD(HotkeyCategory.NAVIGATION, "Move to next word", Hotkey("Right", ctrl = true)),
     PREV_UNKNOWN_WORD(HotkeyCategory.NAVIGATION, "Move to previous unknown word", null),
     NEXT_UNKNOWN_WORD(HotkeyCategory.NAVIGATION, "Move to next unknown word", null),
+    PREV_COLORED_WORD(HotkeyCategory.NAVIGATION, "Move to previous coloured word (not known or ignored)", Hotkey("Left", shift = true, ctrl = true)),
+    NEXT_COLORED_WORD(HotkeyCategory.NAVIGATION, "Move to next coloured word (not known or ignored)", Hotkey("Right", shift = true, ctrl = true)),
     PREV_SENTENCE(HotkeyCategory.NAVIGATION, "Move to previous sentence", null),
     NEXT_SENTENCE(HotkeyCategory.NAVIGATION, "Move to next sentence", null),
 
@@ -73,7 +77,7 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     LISTEN_REPEAT(HotkeyCategory.LISTENING, "Read the current sentence again", Hotkey("S")),
     LISTEN_REPEAT_ARROW(HotkeyCategory.LISTENING, "Read the current sentence again (second key)", Hotkey("Down")),
     LISTEN_PAUSE(HotkeyCategory.LISTENING, "Pause or resume reading aloud", Hotkey("W")),
-    LISTEN_PAUSE_ARROW(HotkeyCategory.LISTENING, "Pause reading aloud (second key)", Hotkey("Up")),
+    LISTEN_PAUSE_ARROW(HotkeyCategory.LISTENING, "Pause or resume reading aloud (second key)", Hotkey("Up")),
     LISTEN_AUTO_PAUSE(HotkeyCategory.LISTENING, "Turn auto-pause on or off", Hotkey("Q")),
 
     STATUS_1(HotkeyCategory.STATUS, "Set status to 1", Hotkey("1")),
@@ -94,6 +98,11 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     TRANSLATE_SENTENCE(HotkeyCategory.TRANSLATE, "Translate the sentence of the current word", Hotkey("T")),
     TRANSLATE_PARAGRAPH(HotkeyCategory.TRANSLATE, "Translate the paragraph of the current word", Hotkey("T", shift = true)),
     TRANSLATE_PAGE(HotkeyCategory.TRANSLATE, "Translate the full page", null),
+
+    TEXT_LARGER(HotkeyCategory.DISPLAY, "Make the text larger", Hotkey("Plus", ctrl = true)),
+    TEXT_SMALLER(HotkeyCategory.DISPLAY, "Make the text smaller", Hotkey("Minus", ctrl = true)),
+    LINES_FURTHER(HotkeyCategory.DISPLAY, "Increase the line height", Hotkey("Plus", shift = true, ctrl = true)),
+    LINES_CLOSER(HotkeyCategory.DISPLAY, "Decrease the line height", Hotkey("Minus", shift = true, ctrl = true)),
 
     COPY_SENTENCE(HotkeyCategory.COPY, "Copy the sentence of the current word", Hotkey("C")),
     COPY_PARAGRAPH(HotkeyCategory.COPY, "Copy the paragraph of the current word", Hotkey("C", shift = true)),
