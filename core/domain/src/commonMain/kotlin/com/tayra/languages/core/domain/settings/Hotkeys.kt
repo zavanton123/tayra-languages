@@ -52,9 +52,9 @@ enum class HotkeyCategory(val label: String) {
 
 /**
  * All customisable hotkeys with their defaults. The plain arrows read aloud; moving between words
- * and changing a word's status take Ctrl (⌘ on a Mac) with the arrows. A key shared by a word
- * shortcut and a listening one (W) acts on the word while one is selected, otherwise on reading
- * aloud; see [HotkeyAction.resolve].
+ * and changing a word's status take Ctrl (⌘ on a Mac) with the arrows. Should a key be given to
+ * both a word shortcut and a listening one, it acts on the word while one is selected and on
+ * reading aloud otherwise; see [HotkeyAction.resolve].
  */
 enum class HotkeyAction(val category: HotkeyCategory, val description: String, val default: Hotkey?) {
     START_HOVER(HotkeyCategory.NAVIGATION, "Deselect all words", Hotkey("Escape")),
@@ -72,7 +72,7 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     LISTEN_NEXT_ARROW(HotkeyCategory.LISTENING, "Read the next sentence (second key)", Hotkey("Right")),
     LISTEN_REPEAT(HotkeyCategory.LISTENING, "Read the current sentence again", Hotkey("S")),
     LISTEN_REPEAT_ARROW(HotkeyCategory.LISTENING, "Read the current sentence again (second key)", Hotkey("Down")),
-    LISTEN_PAUSE(HotkeyCategory.LISTENING, "Pause reading aloud", Hotkey("W")),
+    LISTEN_PAUSE(HotkeyCategory.LISTENING, "Pause or resume reading aloud", Hotkey("W")),
     LISTEN_PAUSE_ARROW(HotkeyCategory.LISTENING, "Pause reading aloud (second key)", Hotkey("Up")),
     LISTEN_AUTO_PAUSE(HotkeyCategory.LISTENING, "Turn auto-pause on or off", Hotkey("Q")),
 
@@ -81,7 +81,7 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     STATUS_3(HotkeyCategory.STATUS, "Set status to 3", Hotkey("3")),
     STATUS_4(HotkeyCategory.STATUS, "Set status to 4", Hotkey("4")),
     STATUS_IGNORE(HotkeyCategory.STATUS, "Set status to Ignore", Hotkey("I")),
-    STATUS_WELL_KNOWN(HotkeyCategory.STATUS, "Set status to Well Known", Hotkey("W")),
+    STATUS_WELL_KNOWN(HotkeyCategory.STATUS, "Set status to Known", Hotkey("K")),
     STATUS_UP(HotkeyCategory.STATUS, "Bump the status up by 1", Hotkey("Up", ctrl = true)),
     STATUS_DOWN(HotkeyCategory.STATUS, "Bump the status down by 1", Hotkey("Down", ctrl = true)),
     DELETE_TERM(HotkeyCategory.STATUS, "Delete term (set status to Unknown)", null),
@@ -89,7 +89,7 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     PREVIOUS_PAGE(HotkeyCategory.PAGING, "Go to previous page, do not mark current page read", Hotkey("Left", shift = true)),
     NEXT_PAGE(HotkeyCategory.PAGING, "Go to next page, do not mark current page read", Hotkey("Right", shift = true)),
     MARK_READ(HotkeyCategory.PAGING, "Mark page as read, go to next page", null),
-    MARK_READ_WELL_KNOWN(HotkeyCategory.PAGING, "Set remaining unknown words to Well Known, mark page as read, go to next page", null),
+    MARK_READ_WELL_KNOWN(HotkeyCategory.PAGING, "Set remaining unknown words to Known, mark page as read, go to next page", null),
 
     TRANSLATE_SENTENCE(HotkeyCategory.TRANSLATE, "Translate the sentence of the current word", Hotkey("T")),
     TRANSLATE_PARAGRAPH(HotkeyCategory.TRANSLATE, "Translate the paragraph of the current word", Hotkey("T", shift = true)),
@@ -129,6 +129,9 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
             STATUS_UP to Hotkey("Up"),
             STATUS_DOWN to Hotkey("Down"),
         )
+
+        /** The Known status moved from W to K, which leaves W to pause and resume reading aloud. */
+        val knownKeyChange: Map<HotkeyAction, Hotkey> = mapOf(STATUS_WELL_KNOWN to Hotkey("W"))
 
         /**
          * The action for [pressed] among [hotkeys]. Keys shared by a word shortcut and a listening one

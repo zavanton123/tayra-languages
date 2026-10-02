@@ -333,7 +333,7 @@ private fun StandaloneFields(state: TermFormUiState, viewModel: TermFormViewMode
             StatusSelector(selected = state.draft.status, onSelect = viewModel::setStatus, expanded = true)
             Row(Modifier.fillMaxWidth()) {
                 Text("1 New", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
-                Text("W Known", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text("K Known", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
             InfoRow("Added", state.createdAt?.let { it.formatDate() } ?: "Not saved yet")

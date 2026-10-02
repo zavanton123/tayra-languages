@@ -41,7 +41,7 @@ class StatusMigrationTest {
     @Test
     fun aStatusFiveFromOutsideIsReadAsWellKnown() {
         assertEquals(TermStatus.WELL_KNOWN, TermStatus.fromValue(5))
-        assertEquals(listOf("1", "2", "3", "4", "W", "I"), TermStatus.selectable.map { it.abbreviation })
-        assertEquals(listOf("U", "1", "2", "3", "4", "W", "I"), TermStatus.paneButtons.map { it.abbreviation })
+        assertEquals(listOf("1", "2", "3", "4", "K", "I"), TermStatus.selectable.map { it.abbreviation })
+        assertEquals(listOf("U", "1", "2", "3", "4", "K", "I"), TermStatus.paneButtons.map { it.abbreviation })
     }
 }

@@ -123,6 +123,11 @@ class ContinuousReadingTest {
 
         press(Key.Q)
         rule.waitUntil(2_000) { rule.onAllNodesWithContentDescription("Auto-pause off").fetchSemanticsNodes().isNotEmpty() }
+        // W resumes reading, and pauses it again.
+        press(Key.W)
+        rule.waitUntil(2_000) { rule.onAllNodesWithContentDescription("Pause reading").fetchSemanticsNodes().isNotEmpty() }
+        press(Key.W)
+        rule.waitUntil(2_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isNotEmpty() }
 
         press(Key.DirectionRight, shift = true)
         rule.waitUntil(5_000) { rule.onAllNodes(hasText("O dia chega.", substring = true)).fetchSemanticsNodes().isNotEmpty() }
