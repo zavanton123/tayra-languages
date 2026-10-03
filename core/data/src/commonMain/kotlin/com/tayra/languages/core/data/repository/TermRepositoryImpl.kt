@@ -88,6 +88,7 @@ class TermRepositoryImpl(
                 createdAt = now,
                 statusChangedAt = now,
                 translationLanguage = languageFor(term.translation),
+                sentence = term.sentence,
             )
             q.lastInsertId().awaitAsOne()
         } else {
@@ -104,6 +105,7 @@ class TermRepositoryImpl(
                 flashMessage = term.flashMessage,
                 // Saving other fields keeps the language the unchanged translation was written in.
                 translationLanguage = if (previous != null && previous.translation == term.translation) previous.translation_language else languageFor(term.translation),
+                sentence = term.sentence,
             )
             if (previous != null && previous.status != term.status.value.toLong()) {
                 q.updateStatus(status = term.status.value.toLong(), changedAt = now, ids = listOf(term.id))
@@ -165,6 +167,10 @@ class TermRepositoryImpl(
                 database.termsQueries.updateStatus(status = status.value.toLong(), changedAt = now, ids = chunk)
             }
         }
+    }
+
+    override suspend fun updateSentence(termId: Long, sentence: String?) {
+        withContext(databaseDispatcher) { db().termsQueries.updateSentence(sentence = sentence, id = termId) }
     }
 
     override suspend fun updateSyncStatus(termId: Long, syncStatus: Boolean) {
@@ -330,7 +336,7 @@ class TermRepositoryImpl(
         id = id, language_id = language_id, text = text, text_lc = text_lc, status = status, translation = translation,
         romanization = romanization, token_count = token_count, sync_status = sync_status,
         flash_message = flash_message, created_at = created_at, status_changed_at = status_changed_at,
-        translation_language = translation_language,
+        translation_language = translation_language, sentence = sentence,
     )
 
     private companion object {

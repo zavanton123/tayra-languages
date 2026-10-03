@@ -220,6 +220,7 @@ class TermsListViewModel(
                 term.status.value.toString(),
                 if (term.syncStatus) "y" else "",
                 term.romanization.orEmpty(),
+                term.sentence.orEmpty(),
             )
         }
         events.send(TermsListEvent.ExportReady(Csv.format(rows)))

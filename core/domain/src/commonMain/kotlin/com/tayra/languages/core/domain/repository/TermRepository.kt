@@ -43,6 +43,7 @@ interface TermRepository {
     suspend fun insertAll(terms: List<Term>): List<Long>
     suspend fun setParents(termId: Long, parentIds: List<Long>)
     suspend fun updateStatus(termIds: Collection<Long>, status: TermStatus)
+    suspend fun updateSentence(termId: Long, sentence: String?)
     suspend fun updateSyncStatus(termId: Long, syncStatus: Boolean)
     suspend fun clearFlashMessage(termId: Long)
     suspend fun delete(termId: Long)

@@ -37,10 +37,12 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlin.time.Instant
 
-/** What the term form edits. */
+/** What the term form edits; [sentence] is the one the term is being read in, when it was opened from a text. */
 sealed interface TermFormKey {
-    data class ById(val termId: Long) : TermFormKey
-    data class ByText(val languageId: Long, val text: String) : TermFormKey
+    val sentence: String? get() = null
+
+    data class ById(val termId: Long, override val sentence: String? = null) : TermFormKey
+    data class ByText(val languageId: Long, val text: String, override val sentence: String? = null) : TermFormKey
     data object New : TermFormKey
 }
 
@@ -108,6 +110,14 @@ class TermFormViewModel(
     private var packJob: Job? = null
     private var lookupJob: Job? = null
     private var entryJob: Job? = null
+
+    /** The sentence the form's term is read in, stored with a term that starts being learned while it still occurs there. */
+    private fun sentenceFor(draft: TermDraft): String? {
+        val sentence = key.sentence ?: return null
+        val letters = { text: String -> text.filter { it.isLetterOrDigit() }.lowercase() }
+        val term = letters(draft.text)
+        return sentence.takeIf { term.isNotEmpty() && letters(it).contains(term) }
+    }
 
     init {
         viewModelScope.launch { load() }
@@ -284,8 +294,9 @@ class TermFormViewModel(
         entryJob?.cancel()
         if (before.dirty && before.draft.text.isNotBlank()) {
             val pending = toSave(before.draft)
+            val sentence = sentenceFor(before.draft)
             viewModelScope.launch {
-                val id = runCatching { termService.save(pending) }.getOrNull() ?: return@launch
+                val id = runCatching { termService.save(pending, sentence) }.getOrNull() ?: return@launch
                 events.send(TermFormEvent.Saved(id, keepOpen = true))
             }
         }
@@ -323,7 +334,7 @@ class TermFormViewModel(
         // The form can disappear with unsaved edits (panel closed, navigation); persist them.
         val state = _state.value
         if (state.dirty && !state.loading && state.draft.languageId != 0L && state.draft.text.isNotBlank()) {
-            GlobalScope.launch { runCatching { termService.save(toSave(state.draft)) } }
+            GlobalScope.launch { runCatching { termService.save(toSave(state.draft), sentenceFor(state.draft)) } }
         }
     }
 
@@ -415,7 +426,7 @@ class TermFormViewModel(
         }
         _state.update { it.copy(saving = true, error = null) }
         return try {
-            val id = termService.save(draft)
+            val id = termService.save(draft, sentenceFor(draft))
             _state.update {
                 // The stored status shows from now on: 1 for a word just started.
                 val shown = if (it.draft.status == TermStatus.UNKNOWN && !it.draft.statusExplicitlySet) it.draft.copy(status = draft.status) else it.draft

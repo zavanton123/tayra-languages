@@ -122,6 +122,7 @@ class TranslationLanguageKeeperTest {
         val id = env.term(pt, "maldição", "curse")
         DriverManager.getConnection("jdbc:sqlite:${env.file.absolutePath}").use {
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN translation_language")
+            it.createStatement().execute("ALTER TABLE terms DROP COLUMN sentence")
             it.createStatement().execute("PRAGMA user_version = 5")
         }
 
