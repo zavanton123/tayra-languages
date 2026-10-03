@@ -79,6 +79,7 @@ class LearningSentenceTest {
         // A database from before the sentence was stored.
         DriverManager.getConnection("jdbc:sqlite:${env.file.absolutePath}").use {
             it.createStatement().execute("ALTER TABLE terms DROP COLUMN sentence")
+            it.createStatement().execute("ALTER TABLE terms DROP COLUMN anki_exported_at")
             it.createStatement().execute("PRAGMA user_version = 7")
         }
 

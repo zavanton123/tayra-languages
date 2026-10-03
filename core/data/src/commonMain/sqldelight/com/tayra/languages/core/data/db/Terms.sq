@@ -12,7 +12,8 @@ CREATE TABLE terms (
     created_at INTEGER NOT NULL,
     status_changed_at INTEGER NOT NULL,
     translation_language TEXT,
-    sentence TEXT
+    sentence TEXT,
+    anki_exported_at INTEGER
 );
 
 CREATE UNIQUE INDEX terms_text_lc_language ON terms(text_lc, language_id);
@@ -65,6 +66,9 @@ updateStatus:
 UPDATE terms SET status = :status, status_changed_at = :changedAt,
     created_at = CASE WHEN status = 0 AND :status != 0 THEN :changedAt ELSE created_at END
 WHERE id IN :ids AND status != :status;
+
+markAnkiExported:
+UPDATE terms SET anki_exported_at = :at WHERE id IN :ids;
 
 updateSentence:
 UPDATE terms SET sentence = :sentence WHERE id = :id;

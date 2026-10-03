@@ -63,7 +63,7 @@ data class TermsListUiState(
 
 sealed interface TermsListEvent {
     data class ExportReady(val csv: String) : TermsListEvent
-    class AnkiReady(val fileName: String, val bytes: ByteArray) : TermsListEvent
+    class AnkiReady(val export: AnkiExportService.Export) : TermsListEvent
 }
 
 class TermsListViewModel(
@@ -226,12 +226,21 @@ class TermsListViewModel(
         exporting.value = "0 of ${ids.size}"
         try {
             val export = anki.export(ids) { done, total -> exporting.value = "$done of $total" }
-            events.send(TermsListEvent.AnkiReady(export.fileName, export.bytes))
+            if (export == null) message.value = if (ids.size == 1) "This word is already in Anki" else "All ${ids.size} words are already in Anki"
+            else events.send(TermsListEvent.AnkiReady(export))
         } catch (e: Exception) {
             message.value = "Could not export: ${e.message}"
         } finally {
             exporting.value = null
         }
+    }
+
+    /** The package was saved: its words are not exported again. */
+    fun ankiSaved(export: AnkiExportService.Export) = viewModelScope.launch {
+        anki.markExported(export)
+        val count = export.termIds.size
+        val skipped = if (export.skipped > 0) ", ${export.skipped} already in Anki left out" else ""
+        message.value = "Exported $count word${if (count == 1) "" else "s"} to Anki$skipped"
     }
 
     fun exportCsv() = viewModelScope.launch {
