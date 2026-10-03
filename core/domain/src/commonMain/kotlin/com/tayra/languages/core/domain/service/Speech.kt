@@ -40,6 +40,9 @@ interface LocalSpeechEngine {
     /** Whether the engine has a runtime of its own to install and check. */
     val hasRuntimeSetup: Boolean
 
+    /** Whether [synthesize] honours its speed; the speed controls are hidden otherwise. */
+    val supportsSpeed: Boolean get() = true
+
     /** What an install or download is doing right now, null when idle. */
     val progress: StateFlow<String?>
 
