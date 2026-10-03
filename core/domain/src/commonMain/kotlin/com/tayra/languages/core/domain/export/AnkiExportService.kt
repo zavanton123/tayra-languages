@@ -158,9 +158,11 @@ class AnkiExportService(
         private val FRONT = """
 <div class="tl-page">
     <div class="tl-card">
-        {{#Item Title}}<div class="tl-title">{{Item Title}}</div>{{/Item Title}}
-        <div class="tl-sentence" lang="{{Language}}">{{cloze:Cloze}}</div>
-        {{#Translation}}<div class="tl-translation" lang="{{Translation Language}}">{{Translation}}</div>{{/Translation}}
+        <div class="tl-top">
+            {{#Item Title}}<div class="tl-title">{{Item Title}}</div>{{/Item Title}}
+            <div class="tl-sentence" lang="{{Language}}">{{cloze:Cloze}}</div>
+            {{#Translation}}<div class="tl-translation" lang="{{Translation Language}}">{{Translation}}</div>{{/Translation}}
+        </div>
     </div>
 </div>
 """.trim()
@@ -168,15 +170,19 @@ class AnkiExportService(
         private val BACK = """
 <div class="tl-page">
     <div class="tl-card">
-        {{#Item Title}}<div class="tl-title">{{Item Title}}</div>{{/Item Title}}
-        <div class="tl-sentence" lang="{{Language}}">{{cloze:Cloze}}</div>
-        {{#Translation}}<div class="tl-translation" lang="{{Translation Language}}">{{Translation}}</div>{{/Translation}}
-        <div class="tl-word-row">
-            <span class="tl-word" lang="{{Language}}">{{Word}}</span>
-            {{#Part of Speech}}<span class="tl-pos">{{Part of Speech}}</span>{{/Part of Speech}}
-            {{#Word Definition}}<span class="tl-definition" lang="{{Translation Language}}">{{Word Definition}}</span>{{/Word Definition}}
+        <div class="tl-top">
+            {{#Item Title}}<div class="tl-title">{{Item Title}}</div>{{/Item Title}}
+            <div class="tl-sentence" lang="{{Language}}">{{cloze:Cloze}}</div>
+            {{#Translation}}<div class="tl-translation" lang="{{Translation Language}}">{{Translation}}</div>{{/Translation}}
         </div>
-        {{#Word Transliteration}}<div class="tl-reading">{{Word Transliteration}}</div>{{/Word Transliteration}}
+        <div class="tl-bottom">
+            <div class="tl-word-row">
+                <span class="tl-word" lang="{{Language}}">{{Word}}</span>
+                {{#Part of Speech}}<span class="tl-pos">{{Part of Speech}}</span>{{/Part of Speech}}
+                {{#Word Definition}}<span class="tl-definition" lang="{{Translation Language}}">{{Word Definition}}</span>{{/Word Definition}}
+            </div>
+            {{#Word Transliteration}}<div class="tl-reading">{{Word Transliteration}}</div>{{/Word Transliteration}}
+        </div>
     </div>
     {{Audio Clip}}
 </div>
@@ -197,14 +203,12 @@ html, body {
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 23px;
     text-align: center;
-    color: #1f1f1f;
-    background: #f3f4f6;
+    color: #222222;
+    background: #e9ecf2;
 }
 .nightMode.card {
-    color: #f2f2f2;
-    background: #1b1b1d;
+    background: #17191d;
 }
 .tl-page {
     width: 100%;
@@ -216,83 +220,85 @@ html, body {
 }
 .tl-card {
     width: 100%;
-    max-width: 620px;
-    box-sizing: border-box;
-    padding: 22px 26px;
-    border-radius: 16px;
-    background: #ffffff;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    max-width: 860px;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
 }
 .nightMode .tl-card {
-    background: #3a3a3d;
-    box-shadow: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+.tl-top {
+    background: #24324f;
+    color: #ffffff;
+    padding: 36px 40px;
 }
 .tl-title {
-    font-size: 13px;
-    color: #8a8a8a;
-    margin-bottom: 10px;
+    font-size: 16px;
+    color: #aab6d0;
+    margin-bottom: 12px;
 }
 .tl-sentence {
-    font-size: 23px;
-    line-height: 1.4;
+    font-size: 38px;
+    line-height: 1.35;
 }
 .cloze {
-    font-weight: normal;
-    color: #ffffff;
-    background: #2e5fa8;
-    border-radius: 6px;
-    padding: 1px 7px;
+    color: #ffd166;
+    font-weight: 600;
 }
 .tl-translation {
-    font-size: 15px;
-    color: #6b6b6b;
-    margin-top: 10px;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #aab6d0;
+    margin-top: 16px;
 }
-.nightMode .tl-translation {
-    color: #b8b8b8;
+.tl-bottom {
+    background: #f7f5ef;
+    color: #222222;
+    padding: 24px 40px;
 }
 .tl-word-row {
-    margin-top: 18px;
-    padding-top: 14px;
-    border-top: 1px solid #e3e3e6;
     display: flex;
     justify-content: center;
     align-items: baseline;
-    gap: 10px;
+    gap: 16px;
     flex-wrap: wrap;
 }
-.nightMode .tl-word-row {
-    border-top-color: #4d4d50;
-}
 .tl-word {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 500;
 }
 .tl-pos {
-    font-size: 12px;
-    color: #2e5fa8;
-    border: 1px solid #2e5fa8;
-    border-radius: 10px;
-    padding: 1px 8px;
-}
-.nightMode .tl-pos {
-    color: #8ab4f8;
-    border-color: #8ab4f8;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #7a6a3a;
+    background: #ffe9a8;
+    border-radius: 6px;
+    padding: 3px 9px;
 }
 .tl-definition {
-    font-size: 16px;
+    font-size: 24px;
     color: #444444;
 }
-.nightMode .tl-definition {
-    color: #d8d8d8;
-}
 .tl-reading {
-    font-size: 14px;
-    color: #8a8a8a;
-    margin-top: 6px;
+    font-size: 18px;
+    color: #8a7f66;
+    margin-top: 8px;
 }
 .replay-button {
-    margin-top: 16px;
+    margin-top: 20px;
+}
+.replay-button svg {
+    width: 52px;
+    height: 52px;
+}
+@media (max-width: 600px) {
+    .tl-top, .tl-bottom { padding-left: 22px; padding-right: 22px; }
+    .tl-sentence { font-size: 28px; }
+    .tl-translation { font-size: 18px; }
+    .tl-word { font-size: 26px; }
+    .tl-definition { font-size: 20px; }
 }
 """.trim()
     }
