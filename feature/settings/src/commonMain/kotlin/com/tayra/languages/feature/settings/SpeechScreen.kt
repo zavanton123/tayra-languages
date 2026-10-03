@@ -233,15 +233,17 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
                     }
                 }
 
-                Section("Speed")
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    Slider(
-                        value = settings.speechSpeed,
-                        onValueChange = { v -> viewModel.update { it.copy(speechSpeed = (v * 20).toInt() / 20f) } },
-                        valueRange = 0.5f..1.5f,
-                        modifier = Modifier.weight(1f),
-                    )
-                    Text("${(settings.speechSpeed * 100).toInt()}%", style = MaterialTheme.typography.bodyMedium)
+                if (engine.supportsSpeed) {
+                    Section("Speed")
+                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                        Slider(
+                            value = settings.speechSpeed,
+                            onValueChange = { v -> viewModel.update { it.copy(speechSpeed = (v * 20).toInt() / 20f) } },
+                            valueRange = 0.5f..1.5f,
+                            modifier = Modifier.weight(1f),
+                        )
+                        Text("${(settings.speechSpeed * 100).toInt()}%", style = MaterialTheme.typography.bodyMedium)
+                    }
                 }
 
                 val choosable = inUse.filter { (voices[it.code]?.size ?: 0) > 0 }

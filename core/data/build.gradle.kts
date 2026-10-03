@@ -63,6 +63,9 @@ kotlin {
             implementation(libs.ktor.client.js)
             implementation(npm("sql.js", "1.13.0"))
             implementation(npm("@cashapp/sqldelight-sqljs-worker", libs.versions.sqldelight.get()))
+            // Piper in the browser; its ONNX runtime binaries come from a CDN pinned to 1.18.0, so the library must match.
+            implementation(npm("@mintplex-labs/piper-tts-web", "1.0.5"))
+            implementation(npm("onnxruntime-web", "1.18.0"))
         }
         jvmTest.dependencies {
             implementation(libs.sqldelight.sqlite.driver)

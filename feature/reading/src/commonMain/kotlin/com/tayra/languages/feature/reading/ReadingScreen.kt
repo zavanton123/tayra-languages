@@ -545,7 +545,7 @@ private fun SpeechSection(state: ReadingUiState, viewModel: ReadingViewModel, on
                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
             )
         }
-        AdjustRow(AppIcons.Speed, "Speed", "${(prefs.speechSpeed * 100).roundToInt()}%", onLess = { viewModel.adjustSpeechSpeed(-0.1f) }, onMore = { viewModel.adjustSpeechSpeed(0.1f) })
+        if (viewModel.speechSpeedAdjustable()) AdjustRow(AppIcons.Speed, "Speed", "${(prefs.speechSpeed * 100).roundToInt()}%", onLess = { viewModel.adjustSpeechSpeed(-0.1f) }, onMore = { viewModel.adjustSpeechSpeed(0.1f) })
     }
     MenuRow(AppIcons.Tune, "Speech settings", onClick = onSettings)
 }

@@ -659,6 +659,9 @@ class ReadingViewModel(
     /** Speech engines the drawer can offer here. */
     val speechEngines: List<SpeechEngine> = localSpeech.available
 
+    /** Whether the chosen engine reads faster or slower on request. */
+    fun speechSpeedAdjustable(): Boolean = localSpeech.find(settingsRepository.current.speechEngine)?.supportsSpeed != false
+
     private val _speechVoices = MutableStateFlow<List<SpeechVoice>>(emptyList())
 
     /** The chosen engine's usable voices for the book's language. */
