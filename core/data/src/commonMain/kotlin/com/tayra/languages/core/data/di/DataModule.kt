@@ -62,6 +62,9 @@ import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
 import com.tayra.languages.core.domain.service.LearningTranslations
+import com.tayra.languages.core.domain.export.AnkiExportService
+import com.tayra.languages.core.domain.export.AnkiPackager
+import com.tayra.languages.core.data.export.AnkiPackagerImpl
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import org.koin.core.module.Module
 import org.koin.dsl.module
@@ -135,6 +138,8 @@ val dataModule: Module = module {
     }
 
     single { LearningTranslations(get(), get(), get()) }
+    single<AnkiPackager> { AnkiPackagerImpl() }
+    single { AnkiExportService(get(), get(), get(), get(), get(), get(), get()) }
     single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request) }
     single { ExampleRecordings(KtorRecordingFetcher(get()), get()) }
     single { SentenceAudio(get(), get(), get(), get()) }

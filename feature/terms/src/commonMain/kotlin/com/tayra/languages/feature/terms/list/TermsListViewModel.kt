@@ -14,6 +14,7 @@ import com.tayra.languages.core.domain.repository.TermSortField
 import com.tayra.languages.core.domain.service.BulkTermUpdate
 import com.tayra.languages.core.domain.service.TermImportService
 import com.tayra.languages.core.domain.service.TermService
+import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.service.TermValidationException
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.term.Csv
@@ -45,6 +46,8 @@ data class TermsListUiState(
     val totalTerms: Int = 0,
     val learningCount: Int = 0,
     val knownCount: Int = 0,
+    /** Progress of an Anki export under way, e.g. "3 of 12", or null. */
+    val exporting: String? = null,
 ) {
     /** The single status the list is narrowed to, or null when a range is shown. */
     val statusChoice: TermStatus?
@@ -60,6 +63,7 @@ data class TermsListUiState(
 
 sealed interface TermsListEvent {
     data class ExportReady(val csv: String) : TermsListEvent
+    class AnkiReady(val fileName: String, val bytes: ByteArray) : TermsListEvent
 }
 
 class TermsListViewModel(
@@ -68,6 +72,7 @@ class TermsListViewModel(
     languages: LanguageRepository,
     private val settings: SettingsRepository,
     private val termService: TermService,
+    private val anki: AnkiExportService,
 ) : ViewModel() {
 
     private val filter = MutableStateFlow(
@@ -82,6 +87,7 @@ class TermsListViewModel(
     private val pageSize = MutableStateFlow(PAGE_SIZE)
     private val selected = MutableStateFlow<Set<Long>>(emptySet())
     private val message = MutableStateFlow<String?>(null)
+    private val exporting = MutableStateFlow<String?>(null)
     private val filtersVisible = MutableStateFlow(initialTermIds != null)
     val events = UiEvents<TermsListEvent>()
 
@@ -106,9 +112,9 @@ class TermsListViewModel(
         pageFlow,
         languages.observeAll(),
         selected,
-        combine(message, filtersVisible) { m, v -> m to v },
+        combine(message, filtersVisible, exporting) { m, v, e -> Triple(m, v, e) },
         counts,
-    ) { base, languageList, sel, (msg, visible), c ->
+    ) { base, languageList, sel, (msg, visible, export), c ->
         TermsListUiState(
             loading = false,
             filter = base.filter,
@@ -120,6 +126,7 @@ class TermsListViewModel(
             languages = languageList,
             selected = sel,
             message = msg,
+            exporting = export,
             filtersVisible = visible,
             totalTerms = c.total,
             learningCount = c.learning,
@@ -205,6 +212,25 @@ class TermsListViewModel(
             message.value = "Updated ${update.termIds.size.coerceAtLeast(selected.value.size)} term(s)"
         } catch (e: TermValidationException) {
             message.value = "Error: ${e.message}"
+        }
+    }
+
+    /** Packages the selected terms, or every listed term when none is selected, for Anki. */
+    fun exportAnki() = viewModelScope.launch {
+        if (exporting.value != null) return@launch
+        val ids = selected.value.toList().ifEmpty { terms.list(filter.value, sort.value, 0, 1_000_000).items.map { it.id } }
+        if (ids.isEmpty()) {
+            message.value = "Nothing to export"
+            return@launch
+        }
+        exporting.value = "0 of ${ids.size}"
+        try {
+            val export = anki.export(ids) { done, total -> exporting.value = "$done of $total" }
+            events.send(TermsListEvent.AnkiReady(export.fileName, export.bytes))
+        } catch (e: Exception) {
+            message.value = "Could not export: ${e.message}"
+        } finally {
+            exporting.value = null
         }
     }
 
