@@ -66,6 +66,8 @@ kotlin {
             // Piper in the browser; its ONNX runtime binaries come from a CDN pinned to 1.18.0, so the library must match.
             implementation(npm("@mintplex-labs/piper-tts-web", "1.0.5"))
             implementation(npm("onnxruntime-web", "1.18.0"))
+            // Kokoro in the browser; its non-English voices are phonemized with the eSpeak build Piper ships.
+            implementation(npm("kokoro-js", "1.2.1"))
         }
         jvmTest.dependencies {
             implementation(libs.sqldelight.sqlite.driver)

@@ -5,6 +5,7 @@ import com.tayra.languages.core.data.settings.BrowserSecureStore
 import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.data.speech.WebPiperEngine
+import com.tayra.languages.core.data.speech.WebKokoroEngine
 import com.russhwolf.settings.StorageSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
@@ -21,5 +22,5 @@ actual val platformDataModule: Module = module {
     single { DictionaryPackStorage() }
     single<Settings> { StorageSettings() }
     single<SecureStore> { BrowserSecureStore() }
-    single { LocalSpeech(listOf(WebPiperEngine())) }
+    single { LocalSpeech(listOf(WebPiperEngine(), WebKokoroEngine())) }
 }
