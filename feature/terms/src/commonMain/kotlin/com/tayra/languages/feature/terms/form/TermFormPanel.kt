@@ -176,7 +176,7 @@ fun TermFormPanel(
         val pack = state.dictionaryPack
         when {
             empty -> Unit
-            !state.dictionary.isEmpty -> DictionarySection(state.dictionary, onAdd = viewModel::addGloss)
+            !state.dictionary.isEmpty -> DictionarySection(state.dictionary, language?.let { LanguageCodes.codeFor(it.name) }, onAdd = viewModel::addGloss)
             pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
         }
 
@@ -612,10 +612,11 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
     }
 }
 
-/** Meanings from the offline dictionary; the plus adds a meaning to the translation. */
+/** Meanings from the offline dictionary; the speaker reads a headword aloud, the plus adds a meaning to the translation. */
 @Composable
-private fun DictionarySection(lookup: DictionaryLookup, onAdd: (String) -> Unit) {
+private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, onAdd: (String) -> Unit) {
     val colors = MaterialTheme.colorScheme
+    val speaker = rememberSpeaker(koinInject(), koinInject())
     SectionCard({ DictionaryBadge() }, "Dictionary", count = lookup.entries.size, tint = null, filled = false) {
         lookup.entries.forEachIndexed { index, entry ->
             if (index > 0) HorizontalDivider(Modifier.padding(vertical = 6.dp), color = colors.outlineVariant)
@@ -623,6 +624,7 @@ private fun DictionarySection(lookup: DictionaryLookup, onAdd: (String) -> Unit)
                 Text(entry.word, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                 Text(entry.pos, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 if (entry.ipa != null) Text(entry.ipa!!, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                SpeakButton(entry.word, languageCode, speaker, Modifier.size(32.dp))
             }
             entry.senses.forEachIndexed { senseIndex, sense ->
                 val gloss = sense.glosses.joinToString("; ")
