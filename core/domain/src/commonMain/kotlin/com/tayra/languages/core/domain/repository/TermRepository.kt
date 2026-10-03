@@ -62,6 +62,12 @@ interface TermRepository {
     /** Replaces a translation, unless it no longer reads [expected]. Returns whether it was replaced. */
     suspend fun replaceTranslation(termId: Long, expected: String, translation: String, language: String): Boolean
 
+    /** Stores [translation] for a term that has none. Returns whether it was stored. */
+    suspend fun fillTranslation(termId: Long, translation: String): Boolean
+
+    /** Ids of the terms being learned (statuses 1 to 4) that have no translation. */
+    suspend fun learningWithoutTranslation(): List<Long>
+
     /** Records [language] for translations whose language was never recorded. */
     suspend fun markTranslationLanguage(termIds: Collection<Long>, language: String)
 

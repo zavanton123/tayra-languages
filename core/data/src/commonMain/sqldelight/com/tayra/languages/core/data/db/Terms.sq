@@ -83,6 +83,15 @@ replaceTranslation:
 UPDATE terms SET translation = :translation, translation_language = :language
 WHERE id = :id AND translation = :expected;
 
+-- Guarded so a translation written meanwhile is never overwritten.
+fillTranslation:
+UPDATE terms SET translation = :translation, translation_language = :language
+WHERE id = :id AND (translation IS NULL OR trim(translation) = '');
+
+-- Terms being learned (statuses 1 to 4) that have no translation.
+selectLearningWithoutTranslation:
+SELECT id FROM terms WHERE status BETWEEN 1 AND 4 AND (translation IS NULL OR trim(translation) = '');
+
 markTranslationLanguage:
 UPDATE terms SET translation_language = :language WHERE id IN :ids AND translation_language IS NULL;
 

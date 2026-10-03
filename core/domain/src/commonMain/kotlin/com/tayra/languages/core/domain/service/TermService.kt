@@ -27,6 +27,8 @@ data class BulkTermUpdate(
 class TermService(
     private val terms: TermRepository,
     private val languages: LanguageRepository,
+    /** Called with terms that may be starting to be learned without a translation, so one is looked up. */
+    private val translationsWanted: (Collection<Long>) -> Unit = {},
 ) {
 
     suspend fun language(languageId: Long): Language =
@@ -122,10 +124,13 @@ class TermService(
             }
         }
         term = term.copy(syncStatus = syncStatus, sentence = existing.sentenceAt(term.status, sentence))
+        // A term being learned always has a translation: an emptied one is kept, a missing one looked up.
+        if (term.status.isLearning && term.translation.isNullOrBlank()) term = term.copy(translation = existing?.translation?.takeIf { it.isNotBlank() })
 
         val id = terms.save(term)
         terms.setParents(id, parents.map { it.id })
         propagateStatusToFollowingChildren(id, term.status, term.sentence)
+        if (term.status.isLearning) translationsWanted(listOf(id) + parents.map { it.id })
         return id
     }
 
@@ -144,6 +149,7 @@ class TermService(
     private suspend fun applyStatus(targets: List<Term>, status: TermStatus, provided: (Term) -> String?) {
         if (targets.isEmpty()) return
         terms.updateStatus(targets.map { it.id }, status)
+        if (status.isLearning) translationsWanted(targets.filter { it.translation.isNullOrBlank() }.map { it.id })
         for (term in targets) {
             val sentence = term.sentenceAt(status, provided(term))
             if (sentence != term.sentence) terms.updateSentence(term.id, sentence)
