@@ -114,8 +114,8 @@ fun ExamplesSearchScreen(
     val compact = LocalWindowWidth.current.isCompact
     val wide = LocalWindowWidth.current.isExpanded
     var sheetOpen by remember { mutableStateOf(false) }
-    val openWord: (String) -> Unit = { word ->
-        viewModel.openTerm(word)
+    val openWord: (String, String) -> Unit = { word, sentence ->
+        viewModel.openTerm(word, sentence)
         if (!wide) sheetOpen = true
     }
     val wordTranslations = koinInject<WordTranslationService>()
@@ -162,7 +162,7 @@ fun ExamplesSearchScreen(
                                 onPlay = { audio.toggle(example, LanguageCodes.codeFor(query.language.name)) },
                                 direction = direction,
                                 compact = compact,
-                                onWordClick = openWord,
+                                onWordClick = { word -> openWord(word, example.text) },
                             )
                             Spacer(Modifier.height(10.dp))
                         }
@@ -186,7 +186,7 @@ fun ExamplesSearchScreen(
                     shape = RoundedCornerShape(14.dp),
                     color = MaterialTheme.colorScheme.surface,
                 ) {
-                    TermPane(query.language.id, term, onClose = viewModel::closePane, onOpenTerm = viewModel::openTerm, onNavigate = onNavigate)
+                    TermPane(query.language.id, term, state.paneSentence, onClose = viewModel::closePane, onOpenTerm = { viewModel.openTerm(it, state.paneSentence) }, onNavigate = onNavigate)
                 }
             }
         }
@@ -197,7 +197,7 @@ fun ExamplesSearchScreen(
     if (!wide && sheetOpen && sheetTerm != null && sheetLanguage != null) {
         val close = { sheetOpen = false }
         ModalBottomSheet(onDismissRequest = close, sheetState = rememberModalBottomSheetState()) {
-            TermPane(sheetLanguage.id, sheetTerm, onClose = close, onOpenTerm = viewModel::openTerm, onNavigate = onNavigate)
+            TermPane(sheetLanguage.id, sheetTerm, state.paneSentence, onClose = close, onOpenTerm = { viewModel.openTerm(it, state.paneSentence) }, onNavigate = onNavigate)
         }
     }
 }
@@ -207,9 +207,9 @@ fun ExamplesSearchScreen(
  * may have moved on to a looked-up word. An old form keeps saving on its own.
  */
 @Composable
-private fun TermPane(languageId: Long, text: String, onClose: () -> Unit, onOpenTerm: (String) -> Unit, onNavigate: (Route) -> Unit) {
+private fun TermPane(languageId: Long, text: String, sentence: String?, onClose: () -> Unit, onOpenTerm: (String) -> Unit, onNavigate: (Route) -> Unit) {
     val opening = remember(languageId, text) { Random.nextLong() }
-    val form = koinViewModel<TermFormViewModel>(key = "examples-term-$languageId-$text-$opening") { parametersOf(TermFormKey.ByText(languageId, text)) }
+    val form = koinViewModel<TermFormViewModel>(key = "examples-term-$languageId-$text-$opening") { parametersOf(TermFormKey.ByText(languageId, text, sentence)) }
     CollectEvents(form.events) { event ->
         when (event) {
             is TermFormEvent.Saved -> Unit

@@ -514,6 +514,47 @@ class ReadingHoverTest {
         }
     }
 
+    /** A word that starts being learned keeps the sentence it was read in, until it is known, ignored or unknown again. */
+    @Test
+    fun aWordStartingToBeLearnedKeepsItsSentence() = runBlocking {
+        val vm = reader()
+        suspend fun lobo() = termRepository.findByTextLc(languageId, "lobo")
+        suspend fun await(status: TermStatus) = withTimeout(5_000) { while (lobo()?.status != status) delay(20) }
+
+        vm.markToLearn(vm.index("lobo"))
+        await(TermStatus.NEW_1)
+        assertEquals("O lobo dorme na floresta.", lobo()?.sentence, "a right click stores the sentence")
+        // The right click left the word selected, so the status keys act on it.
+        vm.shiftStatus(1)
+        await(TermStatus.NEW_2)
+        assertEquals("O lobo dorme na floresta.", lobo()?.sentence, "kept while the word goes on being learned")
+        vm.setStatus(TermStatus.WELL_KNOWN)
+        await(TermStatus.WELL_KNOWN)
+        assertNull(lobo()?.sentence, "cleared once the word is known")
+        vm.markToLearn(vm.index("lobo"))
+        await(TermStatus.NEW_1)
+        assertEquals("O lobo dorme na floresta.", lobo()?.sentence)
+        vm.setStatus(TermStatus.UNKNOWN)
+        await(TermStatus.UNKNOWN)
+        assertNull(lobo()?.sentence, "cleared once the word is unknown again")
+    }
+
+    /** A status picked in the term pane stores the sentence the word was opened from. */
+    @Test
+    fun theTermPaneStoresTheSentenceOfTheOpenedWord() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        vm.onWordClick(vm.index("lobo"), shift = false)
+        val three = androidx.compose.ui.test.hasText("3") and androidx.compose.ui.test.hasClickAction()
+        rule.waitUntil(5_000) { rule.onAllNodes(three).fetchSemanticsNodes().isNotEmpty() }
+        rule.onAllNodes(three)[0].performClick()
+        fun lobo() = runBlocking { termRepository.findByTextLc(languageId, "lobo") }
+        rule.waitUntil(5_000) { lobo()?.status == TermStatus.LEARNING_3 }
+        assertEquals("O lobo dorme na floresta.", lobo()?.sentence)
+    }
+
     private fun silentWav(samples: Int = 800): ByteArray {
         val data = samples * 2
         val header = java.nio.ByteBuffer.allocate(44).order(java.nio.ByteOrder.LITTLE_ENDIAN).apply {

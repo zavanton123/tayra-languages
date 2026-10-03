@@ -55,8 +55,8 @@ import kotlin.math.roundToInt
 /** What is shown in the side panel / bottom sheet. */
 sealed interface ReadingPanel {
     data object None : ReadingPanel
-    data class EditTerm(val termId: Long, val version: Int = 0) : ReadingPanel
-    data class NewTerm(val languageId: Long, val text: String) : ReadingPanel
+    data class EditTerm(val termId: Long, val version: Int = 0, val sentence: String? = null) : ReadingPanel
+    data class NewTerm(val languageId: Long, val text: String, val sentence: String? = null) : ReadingPanel
     data class BulkEdit(val termIds: List<Long>) : ReadingPanel
 }
 
@@ -268,11 +268,23 @@ class ReadingViewModel(
      */
     private fun setStatusForItem(item: TextItem, status: TermStatus) {
         val language = _state.value.language ?: return
+        val sentence = sentenceOf(item)
         viewModelScope.launch {
             val id = item.termId
-            if (id != null) termService.setStatus(listOf(id), status) else readingService.setStatusForTexts(language, listOf(item.text), status)
+            if (id != null) termService.setStatus(listOf(id), status, sentence?.let { mapOf(id to it) }.orEmpty()) else readingService.setStatusForTexts(language, listOf(item.text), status, sentence)
             afterTermChange()
         }
+    }
+
+    /** The sentence [item] is read in, as shown on screen; stored with a word that starts being learned. */
+    private fun sentenceOf(item: TextItem): String? =
+        _state.value.page.paragraphs.asSequence().flatMap { it.sentences }.firstOrNull { s -> s.items.any { it === item } }?.displayText?.takeIf { it.isNotBlank() }
+
+    /** The sentences the active words are read in, by term id. */
+    private fun activeSentences(): Map<Long, String> {
+        val s = _state.value
+        return s.activeWordIndexes.mapNotNull { s.items.getOrNull(it) }
+            .mapNotNull { item -> item.termId?.let { id -> sentenceOf(item)?.let { id to it } } }.toMap()
     }
 
     /**
@@ -291,7 +303,8 @@ class ReadingViewModel(
 
     private fun openTerm(item: TextItem) {
         val termId = item.termId
-        val panel = if (termId != null) ReadingPanel.EditTerm(termId) else ReadingPanel.NewTerm(item.term?.languageId ?: return, item.text)
+        val sentence = sentenceOf(item)
+        val panel = if (termId != null) ReadingPanel.EditTerm(termId, sentence = sentence) else ReadingPanel.NewTerm(item.term?.languageId ?: return, item.text, sentence)
         _state.update { it.copy(panel = panel) }
     }
 
@@ -382,7 +395,7 @@ class ReadingViewModel(
             if (copy && text.isNotEmpty()) copyText(text)
             return
         }
-        _state.update { it.copy(selection = range, selecting = false, marked = emptySet(), panel = ReadingPanel.NewTerm(language.id, text)) }
+        _state.update { it.copy(selection = range, selecting = false, marked = emptySet(), panel = ReadingPanel.NewTerm(language.id, text, items.firstOrNull()?.let(::sentenceOf))) }
     }
 
     fun cancelSelection() = _state.update { it.copy(selection = null, selecting = false) }
@@ -438,8 +451,9 @@ class ReadingViewModel(
     fun setStatus(status: TermStatus) {
         val ids = _state.value.activeTermIds
         if (ids.isEmpty()) return
+        val sentences = activeSentences()
         viewModelScope.launch {
-            termService.setStatus(ids, status)
+            termService.setStatus(ids, status, sentences)
             afterTermChange()
         }
     }
@@ -447,8 +461,9 @@ class ReadingViewModel(
     fun shiftStatus(delta: Int) {
         val ids = _state.value.activeTermIds
         if (ids.isEmpty()) return
+        val sentences = activeSentences()
         viewModelScope.launch {
-            termService.shiftStatus(ids, delta)
+            termService.shiftStatus(ids, delta, sentences)
             afterTermChange()
         }
     }
@@ -480,8 +495,16 @@ class ReadingViewModel(
         viewModelScope.launch { afterTermChange() }
     }
 
+    /** Opens a parent from the term pane; the family was met in the pane's sentence, so it goes along. */
     fun openParentTerm(languageId: Long, text: String) {
-        _state.update { it.copy(panel = ReadingPanel.NewTerm(languageId, text)) }
+        _state.update {
+            val sentence = when (val panel = it.panel) {
+                is ReadingPanel.EditTerm -> panel.sentence
+                is ReadingPanel.NewTerm -> panel.sentence
+                else -> null
+            }
+            it.copy(panel = ReadingPanel.NewTerm(languageId, text, sentence))
+        }
     }
 
     private suspend fun afterTermChange() {

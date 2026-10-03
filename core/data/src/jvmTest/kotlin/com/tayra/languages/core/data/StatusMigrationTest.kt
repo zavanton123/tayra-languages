@@ -27,6 +27,7 @@ class StatusMigrationTest {
         // A database from before the change, with one term still at status 5.
         DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use {
             it.createStatement().execute("UPDATE terms SET status = 5 WHERE id = $learned")
+            it.createStatement().execute("ALTER TABLE terms DROP COLUMN sentence")
             it.createStatement().execute("PRAGMA user_version = 6")
         }
 

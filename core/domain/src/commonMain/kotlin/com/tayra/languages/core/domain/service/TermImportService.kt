@@ -17,8 +17,8 @@ data class TermImportResult(val created: Int, val updated: Int, val skipped: Int
 
 /**
  * Imports terms from CSV with columns `language`, `term` and optionally
- * `translation`, `parent`, `status`, `pronunciation`, `link_status`. Lute's `tags` and
- * `added` columns are accepted and ignored.
+ * `translation`, `parent`, `status`, `pronunciation`, `link_status` and `sentence` (kept for
+ * terms being learned). Lute's `tags` and `added` columns are accepted and ignored.
  */
 class TermImportService(
     private val terms: TermRepository,
@@ -99,12 +99,12 @@ class TermImportService(
                     var draft = termService.findOrNew(language.id, text)
                     draft = applyRow(draft, row)
                     if (options.newAsUnknown) draft = draft.copy(status = TermStatus.UNKNOWN, statusExplicitlySet = true)
-                    termService.save(draft)
+                    termService.save(draft, sentenceOf(row))
                     created++
                     touched.add(key(language.id, text))
                 }
                 options.updateTerms && existing != null -> {
-                    termService.save(applyRow(termService.draftOf(existing), row))
+                    termService.save(applyRow(termService.draftOf(existing), row), sentenceOf(row))
                     updated++
                     touched.add(key(language.id, text))
                 }
@@ -123,11 +123,13 @@ class TermImportService(
             var draft = termService.draftOf(existing).copy(parents = parent.split(",").map { it.trim() }.filter { it.isNotEmpty() })
             row["link_status"]?.let { draft = draft.copy(syncStatus = it.trim().lowercase() == "y") }
             row["status"]?.let { s -> statusOf(s)?.let { draft = draft.copy(status = it, statusExplicitlySet = true) } }
-            termService.save(draft)
+            termService.save(draft, sentenceOf(row))
         }
 
         return TermImportResult(created, updated, skipped)
     }
+
+    private fun sentenceOf(row: Map<String, String>): String? = row["sentence"]?.trim()?.ifEmpty { null }
 
     private fun applyRow(draft: com.tayra.languages.core.domain.model.TermDraft, row: Map<String, String>): com.tayra.languages.core.domain.model.TermDraft {
         var result = draft
@@ -139,8 +141,8 @@ class TermImportService(
 
     companion object {
         val REQUIRED_FIELDS = listOf("language", "term")
-        val ALLOWED_FIELDS = REQUIRED_FIELDS + listOf("translation", "parent", "status", "pronunciation", "link_status")
+        val ALLOWED_FIELDS = REQUIRED_FIELDS + listOf("translation", "parent", "status", "pronunciation", "link_status", "sentence")
         val IGNORED_FIELDS = listOf("added", "tags")
-        val EXPORT_HEADERS = listOf("term", "parent", "translation", "language", "status", "link_status", "pronunciation")
+        val EXPORT_HEADERS = listOf("term", "parent", "translation", "language", "status", "link_status", "pronunciation", "sentence")
     }
 }

@@ -1191,8 +1191,8 @@ private fun ActionCard(modifier: Modifier, title: String, subtitle: String, fill
 private fun PanelContent(state: ReadingUiState, viewModel: ReadingViewModel, onNavigate: (Route) -> Unit) {
     when (val panel = state.panel) {
         ReadingPanel.None -> Unit
-        is ReadingPanel.EditTerm -> EmbeddedTermForm(TermFormKey.ById(panel.termId), "edit-${panel.termId}-${panel.version}", viewModel, onNavigate)
-        is ReadingPanel.NewTerm -> EmbeddedTermForm(TermFormKey.ByText(panel.languageId, panel.text), "new-${panel.languageId}-${panel.text}", viewModel, onNavigate)
+        is ReadingPanel.EditTerm -> EmbeddedTermForm(TermFormKey.ById(panel.termId, panel.sentence), "edit-${panel.termId}-${panel.version}", viewModel, onNavigate)
+        is ReadingPanel.NewTerm -> EmbeddedTermForm(TermFormKey.ByText(panel.languageId, panel.text, panel.sentence), "new-${panel.languageId}-${panel.text}", viewModel, onNavigate)
         is ReadingPanel.BulkEdit -> Column(Modifier.padding(12.dp)) {
             Text("Updating ${panel.termIds.size} term(s)", style = MaterialTheme.typography.titleMedium)
             BulkEditDialog(count = panel.termIds.size, onApply = viewModel::applyBulkUpdate, onDismiss = viewModel::closePanel)

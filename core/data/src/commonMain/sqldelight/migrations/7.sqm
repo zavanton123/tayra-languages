@@ -1,0 +1,2 @@
+-- The sentence a term was being read in when it started being learned (statuses 1 to 4).
+ALTER TABLE terms ADD COLUMN sentence TEXT;

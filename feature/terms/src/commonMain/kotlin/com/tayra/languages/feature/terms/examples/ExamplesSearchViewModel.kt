@@ -29,6 +29,8 @@ data class ExamplesSearchUiState(
     val error: String? = null,
     /** The term shown in the term pane: the searched one, or a word clicked in an example; null once closed. */
     val paneTerm: String? = null,
+    /** The example the pane's term was clicked in, if any. */
+    val paneSentence: String? = null,
 ) {
     val hasMore: Boolean get() = nextPage != null
 }
@@ -86,18 +88,19 @@ class ExamplesSearchViewModel(
         if (query.text.isBlank()) return
         filterJob?.cancel()
         searchJob?.cancel()
-        _state.update { it.copy(searching = true, error = null, results = emptyList(), total = null, nextPage = null, paneTerm = query.text.trim()) }
+        _state.update { it.copy(searching = true, error = null, results = emptyList(), total = null, nextPage = null, paneTerm = query.text.trim(), paneSentence = null) }
         searchJob = viewModelScope.launch {
             val result = provider.search(query)
             _state.update { it.copy(searching = false, results = result.sentences, total = result.total, nextPage = result.nextPage) }
         }
     }
 
-    fun openTerm(word: String) {
-        word.trim().takeIf { it.isNotEmpty() }?.let { text -> _state.update { it.copy(paneTerm = text) } }
+    /** Shows the pane for [word]; [sentence] is the example it was clicked in. */
+    fun openTerm(word: String, sentence: String? = null) {
+        word.trim().takeIf { it.isNotEmpty() }?.let { text -> _state.update { it.copy(paneTerm = text, paneSentence = sentence) } }
     }
 
-    fun closePane() = _state.update { it.copy(paneTerm = null) }
+    fun closePane() = _state.update { it.copy(paneTerm = null, paneSentence = null) }
 
     fun loadMore() {
         val s = _state.value

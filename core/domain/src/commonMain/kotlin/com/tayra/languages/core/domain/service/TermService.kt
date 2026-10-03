@@ -74,7 +74,11 @@ class TermService(
      * @throws TermValidationException if the text is blank, would duplicate another
      *   term, or changes an existing term's text beyond its case.
      */
-    suspend fun save(draft: TermDraft): Long {
+    /**
+     * Saves [draft]. [sentence] is the sentence the term is being read in, if any: it is stored
+     * with the term while the term is being learned (see [sentenceAt]).
+     */
+    suspend fun save(draft: TermDraft, sentence: String? = null): Long {
         if (draft.text.isBlank()) throw TermValidationException("Term text is required")
         val language = language(draft.languageId)
         val spec = TermTextNormalizer.termFromText(language, draft.text)
@@ -106,23 +110,44 @@ class TermService(
             .map { it.trim() }
             .filter { it.isNotEmpty() && language.lowercase(it) != spec.textLc }
             .distinctBy { language.lowercase(it) }
-        val parents = parentTexts.map { findOrCreateParent(it, language, term, isNewTerm = existing == null) }
+        val parents = parentTexts.map { findOrCreateParent(it, language, term.copy(sentence = existing.sentenceAt(term.status, sentence)), isNewTerm = existing == null) }
 
         var syncStatus = draft.syncStatus && parents.size == 1
         if (syncStatus) {
             val parent = parents.single()
             if (draft.statusExplicitlySet || parent.status == TermStatus.UNKNOWN) {
-                if (parent.status != term.status) terms.updateStatus(listOf(parent.id), term.status)
+                if (parent.status != term.status) applyStatus(listOf(parent), term.status) { sentence }
             } else {
                 term = term.copy(status = parent.status)
             }
         }
-        term = term.copy(syncStatus = syncStatus)
+        term = term.copy(syncStatus = syncStatus, sentence = existing.sentenceAt(term.status, sentence))
 
         val id = terms.save(term)
         terms.setParents(id, parents.map { it.id })
-        propagateStatusToFollowingChildren(id, term.status)
+        propagateStatusToFollowingChildren(id, term.status, term.sentence)
         return id
+    }
+
+    /**
+     * The sentence stored with this term once its status is [status]: the one it is being read
+     * in ([provided]) when it starts being learned, the one it already has while it goes on
+     * being learned, and none once it is known, ignored or unknown again.
+     */
+    private fun Term?.sentenceAt(status: TermStatus, provided: String?): String? = when {
+        !status.isLearning -> null
+        this?.status?.isLearning == true -> sentence ?: provided
+        else -> provided
+    }
+
+    /** Sets the status of [targets], storing or clearing their sentences as [sentenceAt] says. */
+    private suspend fun applyStatus(targets: List<Term>, status: TermStatus, provided: (Term) -> String?) {
+        if (targets.isEmpty()) return
+        terms.updateStatus(targets.map { it.id }, status)
+        for (term in targets) {
+            val sentence = term.sentenceAt(status, provided(term))
+            if (sentence != term.sentence) terms.updateSentence(term.id, sentence)
+        }
     }
 
     private suspend fun findOrCreateParent(parentText: String, language: Language, term: Term, isNewTerm: Boolean): Term {
@@ -131,7 +156,7 @@ class TermService(
         val newOrUnknown = found == null || found.status == TermStatus.UNKNOWN
         var parent = found ?: spec.copy(status = term.status)
 
-        if (newOrUnknown) parent = parent.copy(status = term.status)
+        if (newOrUnknown) parent = parent.copy(status = term.status, sentence = found.sentenceAt(term.status, term.sentence))
         if ((newOrUnknown || isNewTerm) && parent.translation.isNullOrBlank()) parent = parent.copy(translation = term.translation)
 
         if (found == null || parent != found) {
@@ -150,34 +175,36 @@ class TermService(
     }
 
     /**
-     * Sets the status of the terms, keeping linked parents and children in sync:
-     * a term following its single parent shares the parent's status.
+     * Sets the status of the terms, keeping linked parents and children in sync: a term
+     * following its single parent shares the parent's status. [sentences] are the sentences the
+     * terms are being read in, by id, stored with the terms that start being learned.
      */
-    suspend fun setStatus(termIds: Collection<Long>, status: TermStatus) {
+    suspend fun setStatus(termIds: Collection<Long>, status: TermStatus, sentences: Map<Long, String> = emptyMap()) {
         if (termIds.isEmpty()) return
-        terms.updateStatus(termIds, status)
-        for (id in termIds) {
-            val term = terms.getById(id) ?: continue
+        val targets = terms.getByIds(termIds)
+        applyStatus(targets, status) { sentences[it.id] }
+        for (term in targets) {
+            val sentence = sentences[term.id]
             if (term.syncStatus && term.parents.size == 1) {
                 val parentId = term.parents.single().id
-                terms.updateStatus(listOf(parentId), status)
-                propagateStatusToFollowingChildren(parentId, status)
+                terms.getById(parentId)?.let { parent -> applyStatus(listOf(parent), status) { sentence } }
+                propagateStatusToFollowingChildren(parentId, status, sentence)
             }
-            propagateStatusToFollowingChildren(id, status)
+            propagateStatusToFollowingChildren(term.id, status, sentence)
         }
     }
 
-    suspend fun shiftStatus(termIds: Collection<Long>, delta: Int) {
+    suspend fun shiftStatus(termIds: Collection<Long>, delta: Int, sentences: Map<Long, String> = emptyMap()) {
         val byStatus = terms.getByIds(termIds).groupBy { it.status }
         for ((status, group) in byStatus) {
             val next = TermStatus.shifted(status, delta)
-            if (next != status) setStatus(group.map { it.id }, next)
+            if (next != status) setStatus(group.map { it.id }, next, sentences)
         }
     }
 
-    private suspend fun propagateStatusToFollowingChildren(parentId: Long, status: TermStatus) {
+    private suspend fun propagateStatusToFollowingChildren(parentId: Long, status: TermStatus, sentence: String?) {
         val following = terms.children(parentId).filter { it.syncStatus && it.parents.size == 1 && it.status != status }
-        if (following.isNotEmpty()) terms.updateStatus(following.map { it.id }, status)
+        applyStatus(following, status) { sentence }
     }
 
     suspend fun applyBulkUpdate(update: BulkTermUpdate) {
@@ -205,6 +232,7 @@ class TermService(
                 if (parent.status != TermStatus.UNKNOWN) term = term.copy(syncStatus = true, status = parent.status)
             }
             update.status?.let { term = term.copy(status = it) }
+            if (term.status != target.status) term = term.copy(sentence = target.sentenceAt(term.status, null))
             terms.save(term)
             terms.setParents(term.id, parentIds)
             if (term.status != target.status) setStatus(listOf(term.id), term.status)

@@ -11,7 +11,8 @@ CREATE TABLE terms (
     flash_message TEXT,
     created_at INTEGER NOT NULL,
     status_changed_at INTEGER NOT NULL,
-    translation_language TEXT
+    translation_language TEXT,
+    sentence TEXT
 );
 
 CREATE UNIQUE INDEX terms_text_lc_language ON terms(text_lc, language_id);
@@ -43,8 +44,8 @@ selectMultiword:
 SELECT id, text_lc, token_count FROM terms WHERE language_id = :languageId AND token_count > 1;
 
 insert:
-INSERT INTO terms(language_id, text, text_lc, status, translation, romanization, token_count, sync_status, flash_message, created_at, status_changed_at, translation_language)
-VALUES (:languageId, :text, :textLc, :status, :translation, :romanization, :tokenCount, :syncStatus, :flashMessage, :createdAt, :statusChangedAt, :translationLanguage);
+INSERT INTO terms(language_id, text, text_lc, status, translation, romanization, token_count, sync_status, flash_message, created_at, status_changed_at, translation_language, sentence)
+VALUES (:languageId, :text, :textLc, :status, :translation, :romanization, :tokenCount, :syncStatus, :flashMessage, :createdAt, :statusChangedAt, :translationLanguage, :sentence);
 
 update:
 UPDATE terms SET
@@ -56,13 +57,17 @@ UPDATE terms SET
     token_count = :tokenCount,
     sync_status = :syncStatus,
     flash_message = :flashMessage,
-    translation_language = :translationLanguage
+    translation_language = :translationLanguage,
+    sentence = :sentence
 WHERE id = :id;
 
 updateStatus:
 UPDATE terms SET status = :status, status_changed_at = :changedAt,
     created_at = CASE WHEN status = 0 AND :status != 0 THEN :changedAt ELSE created_at END
 WHERE id IN :ids AND status != :status;
+
+updateSentence:
+UPDATE terms SET sentence = :sentence WHERE id = :id;
 
 updateSyncStatus:
 UPDATE terms SET sync_status = :syncStatus WHERE id = :id;

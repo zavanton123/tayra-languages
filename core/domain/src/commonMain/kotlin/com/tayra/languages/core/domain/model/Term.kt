@@ -66,6 +66,8 @@ data class Term(
     val parents: List<TermRef> = emptyList(),
     /** When the term was created, or null for terms not yet stored. */
     val createdAt: Instant? = null,
+    /** The sentence the term was being read in when it started being learned; kept while its status is 1 to 4. */
+    val sentence: String? = null,
 ) {
     val displayText: String get() = text.replace(ZWS_STRING, "")
     val isMultiword: Boolean get() = tokenCount > 1

@@ -138,11 +138,11 @@ class ReadingService(
         if (unknownIds.isNotEmpty()) termService.setStatus(unknownIds, TermStatus.WELL_KNOWN)
     }
 
-    /** Creates or updates terms for the given texts with the status (bulk "quick set"). */
-    suspend fun setStatusForTexts(language: Language, texts: List<String>, status: TermStatus) {
+    /** Creates or updates terms for the given texts with the status; [sentence] is the one they are read in. */
+    suspend fun setStatusForTexts(language: Language, texts: List<String>, status: TermStatus, sentence: String? = null) {
         for (text in texts) {
             val draft = termService.findOrNew(language.id, text).copy(status = status, statusExplicitlySet = true)
-            termService.save(draft)
+            termService.save(draft, sentence)
         }
     }
 }
