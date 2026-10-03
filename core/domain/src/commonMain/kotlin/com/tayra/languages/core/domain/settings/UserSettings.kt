@@ -16,7 +16,6 @@ data class UserSettings(
     val readingLineHeight: Float = 1.6f,
     val readingColumnWidth: Int = 720,
     val focusMode: Boolean = false,
-    val tapSetsStatus: Boolean = false,
     /** Start every sentence on its own line while reading. */
     val splitSentences: Boolean = false,
     /** Show a translation under every sentence while reading. */

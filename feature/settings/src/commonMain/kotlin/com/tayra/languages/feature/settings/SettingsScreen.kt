@@ -84,7 +84,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
 
             Section("Behaviour")
             SwitchRow("Show reading streak on home page", settings.showStreakOnHome) { v -> viewModel.update { it.copy(showStreakOnHome = v) } }
-            SwitchRow("Quick set status: tapping an unknown word sets status 1", settings.tapSetsStatus) { v -> viewModel.update { it.copy(tapSetsStatus = v) } }
             SwitchRow("Speak word on click", settings.speakWordOnClick) { v -> viewModel.update { it.copy(speakWordOnClick = v) } }
             OutlinedTextField(
                 value = settings.statsSampleSize.toString(),
