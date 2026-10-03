@@ -404,9 +404,9 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
 
 // Column weights shared by the table header and rows.
 private const val TERM_WEIGHT = 1.6f
-private const val PARENT_WEIGHT = 1.2f
-private const val TRANSLATION_WEIGHT = 3f
-private const val LANGUAGE_WEIGHT = 1.3f
+private const val TRANSLATION_WEIGHT = 2.4f
+private const val EXAMPLE_WEIGHT = 3f
+private const val LANGUAGE_WEIGHT = 1.1f
 private val STATUS_WIDTH = 90.dp
 private val ADDED_WIDTH = 110.dp
 private val MENU_WIDTH = 48.dp
@@ -423,8 +423,8 @@ private fun TableHeader(state: TermsListUiState, viewModel: TermsListViewModel, 
         ) {
             Checkbox(checked = allSelected, onCheckedChange = viewModel::selectAllVisible)
             HeaderCell("Term", Modifier.weight(TERM_WEIGHT), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.TEXT) { viewModel.sortBy(TermSortField.TEXT) }
-            HeaderCell("Parent", Modifier.weight(PARENT_WEIGHT))
             HeaderCell("Translation", Modifier.weight(TRANSLATION_WEIGHT))
+            HeaderCell("Example", Modifier.weight(EXAMPLE_WEIGHT))
             HeaderCell("Language", Modifier.weight(LANGUAGE_WEIGHT), active = state.sort.field == TermSortField.LANGUAGE) { viewModel.sortBy(TermSortField.LANGUAGE) }
             HeaderCell("Status", Modifier.width(STATUS_WIDTH), Icons.Default.Info, active = state.sort.field == TermSortField.STATUS) { viewModel.sortBy(TermSortField.STATUS) }
             HeaderCell("Added", Modifier.width(ADDED_WIDTH), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.CREATED) { viewModel.sortBy(TermSortField.CREATED) }
@@ -462,8 +462,8 @@ private fun TermTableRow(term: Term, languageName: String, selected: Boolean, in
     ) {
         Checkbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
         Text(term.displayText, Modifier.weight(TERM_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        Text(term.parents.joinToString(", ") { it.displayText }, Modifier.weight(PARENT_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Text(term.translation.orEmpty(), Modifier.weight(TRANSLATION_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        Text(term.sentence.orEmpty(), Modifier.weight(EXAMPLE_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
         Row(Modifier.weight(LANGUAGE_WEIGHT), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             LanguageDot(languageName)
             Text(languageName, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
@@ -484,8 +484,8 @@ private fun CompactTermRow(term: Term, languageName: String, selected: Boolean, 
         Checkbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
             Text(term.displayText, style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
-            term.parents.takeIf { it.isNotEmpty() }?.let { Text("parent: ${it.joinToString(", ") { p -> p.displayText }}", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
             term.translation?.takeIf { it.isNotBlank() }?.let { Text(it, style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis) }
+            term.sentence?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis) }
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 LanguageDot(languageName)
                 Text(listOfNotNull(languageName, term.createdAt?.let(::addedLabel)).joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
