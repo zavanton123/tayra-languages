@@ -133,8 +133,27 @@ class AnkiExportTest {
             assertEquals(11, col.getInt(1))
             assertTrue(col.getString(2).contains("\"name\":\"Tayra Languages\"") && col.getString(2).contains("\"type\":1"))
             assertTrue(col.getString(3).contains("Tayra Languages::Portuguese"))
+            assertTrue(col.getString(2).contains("\"id\":1"), "the note type keeps one id across exports")
+            assertTrue(col.getString(2).contains("tl-card"))
         }
         file.delete()
+
+        // A second export a day later uses the same note type and deck ids, so Anki merges it.
+        val later = env.service.export(listOf(lobo))!!
+        assertEquals(idsOf(export.bytes), idsOf(later.bytes))
+    }
+
+    /** The note type and deck ids of a package. */
+    private fun idsOf(apkg: ByteArray): String {
+        val database = ZipInputStream(ByteArrayInputStream(apkg)).use { zip ->
+            generateSequence { zip.nextEntry }.first { it.name == "collection.anki2" }.let { zip.readBytes() }
+        }
+        val file = File.createTempFile("tayra-anki", ".anki2").apply { writeBytes(database) }
+        return DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { c ->
+            val row = c.createStatement().executeQuery("SELECT models, decks FROM col").also { it.next() }
+            val ids = Regex("\"id\":(\\d+)").findAll(row.getString(1) + row.getString(2)).map { it.groupValues[1] }.toList()
+            ids.joinToString(",")
+        }.also { file.delete() }
     }
 
     /** A word is exported once: after its package was saved it is left out, and nothing is made when all are out. */
