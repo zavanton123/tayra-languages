@@ -259,11 +259,7 @@ class ReadingViewModel(
         }
         hidePopup()
         _state.update { it.copy(marked = setOf(itemIndex), hovered = null, selection = null) }
-        if (item.status == TermStatus.UNKNOWN && settingsRepository.current.tapSetsStatus) {
-            setStatusForItem(item, TermStatus.NEW_1)
-        } else {
-            openTerm(item)
-        }
+        openTerm(item)
     }
 
     /**
@@ -609,7 +605,6 @@ class ReadingViewModel(
 
     fun toggleHighlights() = updateSettings { it.copy(showHighlights = !it.showHighlights) }
     fun toggleFocusMode() = updateSettings { it.copy(focusMode = !it.focusMode) }
-    fun toggleTapSetsStatus() = updateSettings { it.copy(tapSetsStatus = !it.tapSetsStatus) }
     fun toggleSplitSentences() = updateSettings { it.copy(splitSentences = !it.splitSentences) }
     fun toggleSideBySideTranslations() = updateSettings { it.copy(sideBySideTranslations = !it.sideBySideTranslations) }
     fun toggleSentencePlay() = updateSettings { it.copy(showSentencePlay = !it.showSentencePlay) }
