@@ -14,6 +14,7 @@ import com.tayra.languages.core.domain.dictionary.DictionarySense
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
 import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.export.Sha1
+import com.tayra.languages.core.domain.export.Crc32
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
@@ -151,6 +152,12 @@ class AnkiExportTest {
         assertEquals(env.clock.now(), env.terms.getById(hesitou)?.ankiExportedAt)
         env.service.markExported(export)
         assertEquals(null, env.service.export(listOf(hesitou, lobo)))
+    }
+
+    @Test
+    fun crc32MatchesTheStandard() {
+        assertEquals(0xCBF43926.toInt(), Crc32.of("123456789".encodeToByteArray()))
+        assertEquals(0, Crc32.of(ByteArray(0)))
     }
 
     @Test
