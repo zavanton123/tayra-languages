@@ -609,6 +609,7 @@ class ReadingViewModel(
     fun toggleSideBySideTranslations() = updateSettings { it.copy(sideBySideTranslations = !it.sideBySideTranslations) }
     fun toggleSentencePlay() = updateSettings { it.copy(showSentencePlay = !it.showSentencePlay) }
     fun toggleAutoPause() = updateSettings { it.copy(autoPause = !it.autoPause) }
+    fun toggleSpeakWordOnClick() = updateSettings { it.copy(speakWordOnClick = !it.speakWordOnClick) }
 
     /** Steps the text size by [steps] tenths, within the range the reader's slider allows. */
     fun stepFontSize(steps: Int) = updateSettings {

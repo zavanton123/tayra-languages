@@ -257,7 +257,8 @@ class ReadingHoverTest {
         click("floresta")
         rule.waitUntil(5_000) { "pt:floresta" in spoken }
 
-        runBlocking { settings.update { it.copy(speakWordOnClick = false) } }
+        vm.toggleSpeakWordOnClick()
+        rule.waitUntil(2_000) { !settings.current.speakWordOnClick }
         click("lobo")
         rule.waitForIdle()
         Thread.sleep(500)
