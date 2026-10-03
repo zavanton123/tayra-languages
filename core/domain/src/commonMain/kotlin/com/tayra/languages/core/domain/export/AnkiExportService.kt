@@ -33,14 +33,20 @@ class AnkiExportService(
     private val clock: Clock = Clock.System,
     private val timeZone: () -> TimeZone = { TimeZone.currentSystemDefault() },
 ) {
-    class Export(val fileName: String, val bytes: ByteArray)
+    /** The package, the ids of the terms in it and how many terms were left out as already exported. */
+    class Export(val fileName: String, val bytes: ByteArray, val termIds: List<Long>, val skipped: Int)
 
-    /** Builds the package for [termIds]; [onProgress] reports how many terms are done out of the total. */
-    suspend fun export(termIds: Collection<Long>, onProgress: (done: Int, total: Int) -> Unit = { _, _ -> }): Export {
+    /**
+     * Builds the package for [termIds], leaving out terms exported before; null when none is
+     * left. [onProgress] reports how many terms are done out of the total.
+     */
+    suspend fun export(termIds: Collection<Long>, onProgress: (done: Int, total: Int) -> Unit = { _, _ -> }): Export? {
         val now = clock.now()
         val native = settings.current.nativeLanguage.trim().lowercase().ifEmpty { "en" }
         val order = termIds.withIndex().associate { (i, id) -> id to i }
-        val selected = terms.getByIds(termIds).sortedBy { order[it.id] }
+        val all = terms.getByIds(termIds).sortedBy { order[it.id] }
+        val selected = all.filter { it.ankiExportedAt == null }
+        if (selected.isEmpty()) return null
         val notes = mutableListOf<AnkiNote>()
         val media = LinkedHashMap<String, AnkiMedia>()
         selected.forEachIndexed { index, term ->
@@ -50,8 +56,11 @@ class AnkiExportService(
         }
         onProgress(selected.size, selected.size)
         val collection = AnkiCollection(noteType(), notes, media.values.toList())
-        return Export("${stamp(now)}.apkg", packager.pack(collection, now))
+        return Export("${stamp(now)}.apkg", packager.pack(collection, now), selected.map { it.id }, all.size - selected.size)
     }
+
+    /** Records that the terms of [export] are in Anki now, once its file was saved. */
+    suspend fun markExported(export: Export) = terms.markAnkiExported(export.termIds, clock.now())
 
     private suspend fun noteFor(term: Term, language: Language, native: String, now: Instant, media: MutableMap<String, AnkiMedia>): AnkiNote {
         val code = LanguageCodes.codeFor(language.name) ?: language.name.lowercase()

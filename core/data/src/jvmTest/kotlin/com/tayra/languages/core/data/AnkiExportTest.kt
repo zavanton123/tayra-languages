@@ -87,8 +87,10 @@ class AnkiExportTest {
         val lobo = env.terms.save(Term(languageId = language, text = "lobo", textLc = "lobo", status = TermStatus.NEW_2, translation = "волк"))
 
         val progress = mutableListOf<Pair<Int, Int>>()
-        val export = env.service.export(listOf(hesitou, lobo)) { done, total -> progress += done to total }
+        val export = env.service.export(listOf(hesitou, lobo)) { done, total -> progress += done to total }!!
         assertEquals("2026-10-03_01-00.apkg", export.fileName)
+        assertEquals(listOf(hesitou, lobo), export.termIds)
+        assertEquals(0, export.skipped)
         assertEquals(listOf(0 to 2, 1 to 2, 2 to 2), progress)
 
         val entries = mutableMapOf<String, ByteArray>()
@@ -132,6 +134,23 @@ class AnkiExportTest {
             assertTrue(col.getString(3).contains("Tayra Languages::Portuguese"))
         }
         file.delete()
+    }
+
+    /** A word is exported once: after its package was saved it is left out, and nothing is made when all are out. */
+    @Test
+    fun exportedWordsAreNotExportedAgain() = runBlocking<Unit> {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val hesitou = env.terms.save(Term(languageId = language, text = "hesitou", textLc = "hesitou", status = TermStatus.NEW_1))
+        val lobo = env.terms.save(Term(languageId = language, text = "lobo", textLc = "lobo", status = TermStatus.NEW_2))
+        env.service.markExported(env.service.export(listOf(hesitou))!!)
+
+        val export = env.service.export(listOf(hesitou, lobo))!!
+        assertEquals(listOf(lobo), export.termIds)
+        assertEquals(1, export.skipped)
+        assertEquals(env.clock.now(), env.terms.getById(hesitou)?.ankiExportedAt)
+        env.service.markExported(export)
+        assertEquals(null, env.service.export(listOf(hesitou, lobo)))
     }
 
     @Test

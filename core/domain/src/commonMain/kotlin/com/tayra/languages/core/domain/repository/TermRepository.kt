@@ -5,6 +5,7 @@ import com.tayra.languages.core.domain.model.TermMatch
 import com.tayra.languages.core.domain.model.TermReference
 import com.tayra.languages.core.domain.model.TermStatus
 import kotlinx.coroutines.flow.Flow
+import kotlin.time.Instant
 
 /** Filters for the term listing. */
 data class TermListFilter(
@@ -44,6 +45,9 @@ interface TermRepository {
     suspend fun setParents(termId: Long, parentIds: List<Long>)
     suspend fun updateStatus(termIds: Collection<Long>, status: TermStatus)
     suspend fun updateSentence(termId: Long, sentence: String?)
+
+    /** Records that the terms were exported to Anki at [at]. */
+    suspend fun markAnkiExported(termIds: Collection<Long>, at: Instant)
     suspend fun updateSyncStatus(termId: Long, syncStatus: Boolean)
     suspend fun clearFlashMessage(termId: Long)
     suspend fun delete(termId: Long)

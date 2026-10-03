@@ -68,6 +68,8 @@ data class Term(
     val createdAt: Instant? = null,
     /** The sentence the term was being read in when it started being learned; kept while its status is 1 to 4. */
     val sentence: String? = null,
+    /** When the term was last exported to Anki; an exported term is not exported again. */
+    val ankiExportedAt: Instant? = null,
 ) {
     val displayText: String get() = text.replace(ZWS_STRING, "")
     val isMultiword: Boolean get() = tokenCount > 1

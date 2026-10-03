@@ -25,6 +25,7 @@ import com.tayra.languages.core.domain.repository.TermSortField
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.withContext
+import kotlin.time.Instant
 import kotlin.time.Clock
 
 /**
@@ -178,6 +179,14 @@ class TermRepositoryImpl(
             termIds.chunked(CHUNK).forEach { chunk ->
                 database.termsQueries.updateStatus(status = status.value.toLong(), changedAt = now, ids = chunk)
             }
+        }
+    }
+
+    override suspend fun markAnkiExported(termIds: Collection<Long>, at: Instant) {
+        if (termIds.isEmpty()) return
+        withContext(databaseDispatcher) {
+            val database = db()
+            database.transaction { termIds.chunked(CHUNK).forEach { database.termsQueries.markAnkiExported(at = at.toEpochMillis(), ids = it) } }
         }
     }
 
@@ -348,7 +357,7 @@ class TermRepositoryImpl(
         id = id, language_id = language_id, text = text, text_lc = text_lc, status = status, translation = translation,
         romanization = romanization, token_count = token_count, sync_status = sync_status,
         flash_message = flash_message, created_at = created_at, status_changed_at = status_changed_at,
-        translation_language = translation_language, sentence = sentence,
+        translation_language = translation_language, sentence = sentence, anki_exported_at = anki_exported_at,
     )
 
     private companion object {

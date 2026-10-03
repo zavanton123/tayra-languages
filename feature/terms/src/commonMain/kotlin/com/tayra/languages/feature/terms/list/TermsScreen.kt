@@ -123,7 +123,7 @@ fun TermsScreen(
     CollectEvents(viewModel.events) { event ->
         when (event) {
             is TermsListEvent.ExportReady -> scope.launch { saveTextFile("terms", "csv", event.csv) }
-            is TermsListEvent.AnkiReady -> scope.launch { saveBinaryFile(event.fileName.removeSuffix(".apkg"), "apkg", event.bytes) }
+            is TermsListEvent.AnkiReady -> scope.launch { if (saveBinaryFile(event.export.fileName.removeSuffix(".apkg"), "apkg", event.export.bytes)) viewModel.ankiSaved(event.export) }
         }
     }
     val compact = LocalWindowWidth.current.isCompact

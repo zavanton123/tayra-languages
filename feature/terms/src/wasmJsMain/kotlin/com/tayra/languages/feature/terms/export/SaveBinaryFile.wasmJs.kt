@@ -19,6 +19,7 @@ private fun downloadBase64(fileName: String, base64: String): Unit = js(
     }""",
 )
 
-actual suspend fun saveBinaryFile(baseName: String, extension: String, bytes: ByteArray) {
+actual suspend fun saveBinaryFile(baseName: String, extension: String, bytes: ByteArray): Boolean {
     downloadBase64("$baseName.$extension", Base64.encode(bytes))
+    return true
 }

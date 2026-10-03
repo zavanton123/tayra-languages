@@ -75,6 +75,7 @@ internal fun Terms.toDomain(parents: List<TermRef>): Term = Term(
     parents = parents,
     createdAt = created_at.toInstant(),
     sentence = sentence,
+    ankiExportedAt = anki_exported_at?.toInstant(),
 )
 
 internal fun Long.toInstant(): Instant = Instant.fromEpochMilliseconds(this)

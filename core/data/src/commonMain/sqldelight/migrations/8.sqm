@@ -1,0 +1,2 @@
+-- When a term was last exported to Anki; such terms are not exported again.
+ALTER TABLE terms ADD COLUMN anki_exported_at INTEGER;
