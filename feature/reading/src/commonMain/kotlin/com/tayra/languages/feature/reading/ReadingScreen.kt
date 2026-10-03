@@ -506,7 +506,7 @@ private fun EngineRow(
     )
 }
 
-/** The Speech screen's everyday settings: the play buttons, the engine, the voice for this book's language and the speed. */
+/** The Speech screen's everyday settings: the play buttons, speaking clicked words, the engine, the voice for this book's language and the speed. */
 @Composable
 private fun SpeechSection(state: ReadingUiState, viewModel: ReadingViewModel, onSettings: () -> Unit) {
     val prefs = state.settings
@@ -517,6 +517,7 @@ private fun SpeechSection(state: ReadingUiState, viewModel: ReadingViewModel, on
 
     MenuSection("Speech")
     SwitchRow(AppIcons.VolumeUp, "Play audio", prefs.showSentencePlay) { viewModel.toggleSentencePlay() }
+    SwitchRow(AppIcons.Abc, "Speak word on click", prefs.speakWordOnClick) { viewModel.toggleSpeakWordOnClick() }
     ChoiceRow(
         icon = AppIcons.VolumeUp,
         title = "Speech engine",
