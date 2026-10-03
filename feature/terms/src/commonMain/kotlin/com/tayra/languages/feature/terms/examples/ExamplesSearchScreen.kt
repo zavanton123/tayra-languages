@@ -243,7 +243,7 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
         }
         Column(Modifier.weight(1f)) {
             Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text("Terms", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable { onNavigate(Route.Terms()) })
+                Text("Vocabulary", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable { onNavigate(Route.Terms()) })
                 Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
                 Text("Examples", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
