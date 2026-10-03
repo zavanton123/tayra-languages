@@ -102,7 +102,7 @@ private fun PageHeader(
                     Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
                 }
             }
-            Text("Terms", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable(onClick = onTerms))
+            Text("Vocabulary", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable(onClick = onTerms))
             Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
             Text(title, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }

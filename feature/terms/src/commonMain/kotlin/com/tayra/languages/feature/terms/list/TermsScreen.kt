@@ -88,6 +88,11 @@ import kotlinx.datetime.TimeZone
 import kotlinx.datetime.minus
 import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.viewmodel.koinViewModel
+import org.koin.compose.koinInject
+import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.ui.audio.Speaker
+import com.tayra.languages.core.ui.audio.SpeakButton
+import com.tayra.languages.core.ui.audio.rememberSpeaker
 import org.koin.core.parameter.parametersOf
 import kotlin.time.Clock
 import kotlin.time.Instant
@@ -134,8 +139,10 @@ fun TermsScreen(
             state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text("OK") } }) { Text(it) } }
         },
     ) { padding ->
+        val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
         val gutter = if (compact) 16.dp else 32.dp
         val rowActions = RowActions(
+            speaker = speaker,
             onOpen = { onNavigate(Route.EditTerm(it.id)) },
             onDelete = { pendingDelete = it },
             onStatus = { term, status -> viewModel.setStatus(term.id, status) },
@@ -193,6 +200,8 @@ fun TermsScreen(
 private class ListActions(val onBulk: () -> Unit, val onDelete: () -> Unit, val onExport: () -> Unit)
 
 private class RowActions(
+    /** Reads a word or its example aloud. */
+    val speaker: Speaker,
     val onOpen: (Term) -> Unit,
     val onDelete: (Term) -> Unit,
     val onStatus: (Term, TermStatus) -> Unit,
@@ -217,7 +226,7 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
 private fun PageHeader(compact: Boolean, onNew: () -> Unit) {
     Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.CenterVertically) {
         Column(Modifier.weight(1f)) {
-            Text("Terms", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+            Text("Vocabulary", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             Text("Review and manage your vocabulary.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
         Button(onClick = onNew, shape = RoundedCornerShape(10.dp)) {
@@ -461,9 +470,16 @@ private fun TermTableRow(term: Term, languageName: String, selected: Boolean, in
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Checkbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
-        Text(term.displayText, Modifier.weight(TERM_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        val code = LanguageCodes.codeFor(languageName)
+        Row(Modifier.weight(TERM_WEIGHT).padding(end = 12.dp), verticalAlignment = Alignment.CenterVertically) {
+            SpeakButton(term.displayText, code, actions.speaker, Modifier.size(32.dp))
+            Text(term.displayText, style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        }
         Text(term.translation.orEmpty(), Modifier.weight(TRANSLATION_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis)
-        Text(term.sentence.orEmpty(), Modifier.weight(EXAMPLE_WEIGHT).padding(end = 12.dp), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        Row(Modifier.weight(EXAMPLE_WEIGHT).padding(end = 12.dp), verticalAlignment = Alignment.CenterVertically) {
+            term.sentence?.let { SpeakButton(it, code, actions.speaker, Modifier.size(32.dp)) }
+            Text(term.sentence.orEmpty(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        }
         Row(Modifier.weight(LANGUAGE_WEIGHT), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             LanguageDot(languageName)
             Text(languageName, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
@@ -483,9 +499,18 @@ private fun CompactTermRow(term: Term, languageName: String, selected: Boolean, 
     ) {
         Checkbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-            Text(term.displayText, style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
+            val code = LanguageCodes.codeFor(languageName)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(term.displayText, style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
+                SpeakButton(term.displayText, code, actions.speaker, Modifier.size(32.dp))
+            }
             term.translation?.takeIf { it.isNotBlank() }?.let { Text(it, style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis) }
-            term.sentence?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis) }
+            term.sentence?.let { sentence ->
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(sentence, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                    SpeakButton(sentence, code, actions.speaker, Modifier.size(32.dp))
+                }
+            }
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 LanguageDot(languageName)
                 Text(listOfNotNull(languageName, term.createdAt?.let(::addedLabel)).joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
