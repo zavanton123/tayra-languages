@@ -61,6 +61,7 @@ import com.tayra.languages.core.domain.service.TranslationEngine
 import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
+import com.tayra.languages.core.domain.service.LearningTranslations
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import org.koin.core.module.Module
 import org.koin.dsl.module
@@ -133,7 +134,8 @@ val dataModule: Module = module {
         TranslationSuggestionProvider(WiktionaryTranslationProvider(get()), get<MyMemoryTranslationProvider>(), get<GoogleTranslationProvider>(), get<AzureTranslationProvider>(), get<AlibabaTranslationProvider>(), get<BaiduTranslationProvider>(), get<DeeplTranslationProvider>(), get<QwenTranslationProvider>(), get(), get())
     }
 
-    single { TermService(get(), get()) }
+    single { LearningTranslations(get(), get(), get()) }
+    single { TermService(get(), get(), translationsWanted = get<LearningTranslations>()::request) }
     single { ExampleRecordings(KtorRecordingFetcher(get()), get()) }
     single { SentenceAudio(get(), get(), get(), get()) }
     single { TranslationLanguageKeeper(get(), get(), get<DictionaryService>(), get(), get()) }

@@ -124,6 +124,18 @@ class TermRepositoryImpl(
         }
     }
 
+    override suspend fun fillTranslation(termId: Long, translation: String): Boolean = withContext(databaseDispatcher) {
+        val database = db()
+        database.transactionWithResult {
+            database.termsQueries.fillTranslation(translation = translation, language = languageFor(translation), id = termId)
+            database.termsQueries.changes().awaitAsOne() > 0
+        }
+    }
+
+    override suspend fun learningWithoutTranslation(): List<Long> = withContext(databaseDispatcher) {
+        db().termsQueries.selectLearningWithoutTranslation().awaitAsList()
+    }
+
     override suspend fun replaceTranslation(termId: Long, expected: String, translation: String, language: String): Boolean =
         withContext(databaseDispatcher) {
             val database = db()
