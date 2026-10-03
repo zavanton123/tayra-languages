@@ -26,7 +26,8 @@ data class AppTheme(
     val statusColors: StatusColors,
     val readingBackground: Color,
     val readingText: Color,
-    val hoverUnderline: Color,
+    /** The letters of the selected word or phrase; its status background stays as it is. */
+    val selectedText: Color,
 )
 
 object AppThemes {
@@ -74,7 +75,7 @@ object AppThemes {
         statusColors = lightStatuses(page = Color.White),
         readingBackground = Color.White,
         readingText = Color.Black,
-        hoverUnderline = Color(0xFF1F5FFF),
+        selectedText = Color(0xFFC2410C),
     )
 
     val sepia = default.copy(
@@ -124,7 +125,7 @@ object AppThemes {
         statusColors = darkStatuses(unknown = Color(0xFF3E5277), learning = Color(0xFF8C7539), page = Color(0xFF48484A)),
         readingBackground = Color(0xFF48484A),
         readingText = Color(0xFFC4C8CE),
-        hoverUnderline = Color(0xFFACACF9),
+        selectedText = Color(0xFFFFB37A),
     )
 
     val night = darkSlate.copy(

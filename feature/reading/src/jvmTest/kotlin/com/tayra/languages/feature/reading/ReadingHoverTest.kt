@@ -264,9 +264,9 @@ class ReadingHoverTest {
         assertEquals(listOf("pt:floresta"), spoken.toList())
     }
 
-    /** Dragging across words underlines the phrase while the button is still held, and nothing else changes colour. */
+    /** Dragging across words colours the phrase's letters while the button is still held, and nothing else. */
     @Test
-    fun aPhraseIsUnderlinedWhileItIsBeingDragged() {
+    fun aPhraseIsColouredWhileItIsBeingDragged() {
         val vm = runBlocking { reader(mainIsDefault = false) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
@@ -277,19 +277,26 @@ class ReadingHoverTest {
         val text = layouts.single().layoutInput.text.text
         val padding = with(rule.density) { 6.dp.toPx() }
         fun at(word: String): Offset = layouts.single().getBoundingBox(text.indexOf(word) + 1).let { Offset(it.center.x, it.center.y + padding) }
-        fun underlined(): String {
+        fun selected(): String {
             val shown = paragraph.fetchSemanticsNode().config[SemanticsProperties.Text].single()
             return shown.getStringAnnotations(SELECTED_ANNOTATION, 0, shown.length).sortedBy { it.start }
+                .joinToString("") { shown.text.substring(it.start, it.end) }
+        }
+        fun coloured(): String {
+            val shown = paragraph.fetchSemanticsNode().config[SemanticsProperties.Text].single()
+            return shown.spanStyles.filter { it.item.color == com.tayra.languages.core.ui.theme.AppThemes.default.selectedText }.sortedBy { it.start }
                 .joinToString("") { shown.text.substring(it.start, it.end) }
         }
 
         paragraph.performMouseInput { moveTo(at("lobo")); press() }
         paragraph.performMouseInput { moveTo(at("dorme")); moveTo(at("floresta")) }
         rule.waitForIdle()
-        assertEquals("lobo dorme na floresta", underlined(), "underlined before the button is released")
+        assertEquals("lobo dorme na floresta", selected(), "selected before the button is released")
+        assertEquals("lobo dorme na floresta", coloured(), "coloured before the button is released")
         paragraph.performMouseInput { release() }
         rule.waitForIdle()
-        assertEquals("lobo dorme na floresta", underlined(), "still underlined while its term is open")
+        assertEquals("lobo dorme na floresta", selected(), "still selected while its term is open")
+        assertEquals("lobo dorme na floresta", coloured(), "still coloured while its term is open")
     }
 
     /**
