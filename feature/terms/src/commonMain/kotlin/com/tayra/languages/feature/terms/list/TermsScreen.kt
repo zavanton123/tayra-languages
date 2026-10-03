@@ -82,6 +82,7 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.terms.export.saveTextFile
+import com.tayra.languages.feature.terms.export.saveBinaryFile
 import kotlinx.coroutines.launch
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
@@ -120,7 +121,10 @@ fun TermsScreen(
     var pendingDelete by remember { mutableStateOf<Term?>(null) }
     val scope = androidx.compose.runtime.rememberCoroutineScope()
     CollectEvents(viewModel.events) { event ->
-        if (event is TermsListEvent.ExportReady) scope.launch { saveTextFile("terms", "csv", event.csv) }
+        when (event) {
+            is TermsListEvent.ExportReady -> scope.launch { saveTextFile("terms", "csv", event.csv) }
+            is TermsListEvent.AnkiReady -> scope.launch { saveBinaryFile(event.fileName.removeSuffix(".apkg"), "apkg", event.bytes) }
+        }
     }
     val compact = LocalWindowWidth.current.isCompact
     val listActions = ListActions(onBulk = { bulkEdit = true }, onDelete = { confirmDelete = true }, onExport = viewModel::exportCsv)
@@ -149,7 +153,7 @@ fun TermsScreen(
             onToggle = { viewModel.toggleSelected(it.id) },
         )
         LazyColumn(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp)) {
-            item { PageHeader(compact, onNew = { onNavigate(Route.NewTerm) }) }
+            item { PageHeader(compact, exporting = state.exporting, onExport = viewModel::exportAnki, onNew = { onNavigate(Route.NewTerm) }) }
             item { StatCards(state, compact) }
             item { Toolbar(state, viewModel, compact) }
             if (state.filtersVisible) item { FilterPanel(state, viewModel) }
@@ -223,11 +227,16 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
 }
 
 @Composable
-private fun PageHeader(compact: Boolean, onNew: () -> Unit) {
-    Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.CenterVertically) {
+private fun PageHeader(compact: Boolean, exporting: String?, onExport: () -> Unit, onNew: () -> Unit) {
+    Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
         Column(Modifier.weight(1f)) {
             Text("Vocabulary", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             Text("Review and manage your vocabulary.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        OutlinedButton(onClick = onExport, enabled = exporting == null, shape = RoundedCornerShape(10.dp)) {
+            Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
+            Spacer(Modifier.width(6.dp))
+            Text(if (exporting == null) "Export to Anki" else "Exporting $exporting")
         }
         Button(onClick = onNew, shape = RoundedCornerShape(10.dp)) {
             Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
