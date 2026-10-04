@@ -71,7 +71,8 @@ class BookFormScreenTest {
         onNodeWithText("short").assertExists()
         onNodeWithText("5").assertExists()
         assertEquals(0, onAllNodesWithText("Import file").fetchSemanticsNodes().size)
-        onNodeWithText("The book has 6 pages. Change the text or these settings to rebuild them.").assertExists()
+        onNodeWithText("The book has 6 pages. Change the text or the words per page to rebuild them.").assertExists()
+        assertEquals(0, onAllNodesWithText("Split by").fetchSemanticsNodes().size, "pages always end at a sentence")
     }
 
     @Test

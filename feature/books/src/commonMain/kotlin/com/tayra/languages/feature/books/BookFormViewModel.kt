@@ -6,7 +6,6 @@ import com.tayra.languages.core.data.files.FileImportException
 import com.tayra.languages.core.data.files.FileTextExtractor
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.Language
-import com.tayra.languages.core.domain.model.PageSplitMode
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.BookService
@@ -28,15 +27,15 @@ data class BookFormUiState(
     val error: String? = null,
     val notice: String? = null,
     val busy: Boolean = false,
-    /** For an existing book: its text and page settings as loaded, to tell whether the pages need rebuilding. */
+    /** For an existing book: its text and page size as loaded, to tell whether the pages need rebuilding. */
     val loaded: BookDraft? = null,
     val pageCount: Int = 0,
 ) {
     val isNew: Boolean get() = draft.id == null
 
-    /** Whether saving cuts the text into new pages: only when the text or the page settings changed. */
+    /** Whether saving cuts the text into new pages: only when the text or the page size changed. */
     val rebuildsPages: Boolean
-        get() = loaded != null && (draft.text != loaded.text || draft.splitBy != loaded.splitBy || draft.wordsPerPage != loaded.wordsPerPage)
+        get() = loaded != null && (draft.text != loaded.text || draft.wordsPerPage != loaded.wordsPerPage)
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
 }
 
@@ -131,9 +130,5 @@ class BookFormViewModel(
                 _state.update { it.copy(busy = false, error = e.message ?: "Could not save book") }
             }
         }
-    }
-
-    companion object {
-        val splitModes = PageSplitMode.entries
     }
 }

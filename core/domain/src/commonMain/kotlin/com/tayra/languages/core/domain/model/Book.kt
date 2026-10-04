@@ -73,15 +73,6 @@ data class BookListItem(
     val sourceUri: String?,
 )
 
-enum class PageSplitMode(val key: String, val label: String) {
-    PARAGRAPHS("paragraphs", "Paragraphs"),
-    SENTENCES("sentences", "Sentences");
-
-    companion object {
-        fun fromKey(key: String): PageSplitMode = entries.firstOrNull { it.key == key } ?: PARAGRAPHS
-    }
-}
-
 /** Data captured when creating or editing a book. */
 data class BookDraft(
     val id: Long? = null,
@@ -90,7 +81,6 @@ data class BookDraft(
     val text: String = "",
     val sourceUri: String = "",
     val tags: List<String> = emptyList(),
-    val splitBy: PageSplitMode = PageSplitMode.PARAGRAPHS,
     val wordsPerPage: Int = DEFAULT_WORDS_PER_PAGE,
     val audioFilename: String? = null,
 ) {

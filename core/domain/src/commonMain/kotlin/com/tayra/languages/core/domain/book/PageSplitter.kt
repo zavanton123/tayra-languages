@@ -1,22 +1,22 @@
 package com.tayra.languages.core.domain.book
 
 import com.tayra.languages.core.domain.model.Language
-import com.tayra.languages.core.domain.model.PageSplitMode
 import com.tayra.languages.core.domain.parse.PARAGRAPH_MARK
 import com.tayra.languages.core.domain.parse.ParsedToken
 import com.tayra.languages.core.domain.parse.parseTokens
 
 /**
- * Splits a book's full text into pages of roughly [wordsPerPage] words, breaking at
- * sentence or paragraph boundaries. Lines consisting only of `---` force a page break.
+ * Splits a book's full text into pages of roughly [wordsPerPage] words: a page ends at the first
+ * end of a sentence (or paragraph) after it passes that many words. Lines consisting only of
+ * `---` force a page break.
  */
 object PageSplitter {
 
-    fun split(text: String, language: Language, splitBy: PageSplitMode, wordsPerPage: Int): List<String> {
+    fun split(text: String, language: Language, wordsPerPage: Int): List<String> {
         val pages = mutableListOf<String>()
         for (segment in splitAtPageBreaks(text)) {
             val tokens = language.parseTokens(segment)
-            for (group in groupTokens(tokens, splitBy, wordsPerPage)) {
+            for (group in groupTokens(tokens, wordsPerPage)) {
                 val pageText = group.joinToString("") { it.token }
                     .replace("\r", "")
                     .replace(PARAGRAPH_MARK, "\n")
@@ -43,19 +43,13 @@ object PageSplitter {
         return segments
     }
 
-    /**
-     * Groups tokens by sentence or paragraph, each group holding at least [threshold]
-     * word tokens (except possibly the last).
-     */
-    fun groupTokens(tokens: List<ParsedToken>, splitBy: PageSplitMode, threshold: Int): List<List<ParsedToken>> {
+    /** Groups whole sentences, each group holding more than [threshold] word tokens (except possibly the last). */
+    fun groupTokens(tokens: List<ParsedToken>, threshold: Int): List<List<ParsedToken>> {
         val groups = mutableListOf<List<ParsedToken>>()
         var currentGroup = mutableListOf<ParsedToken>()
         var buffer = mutableListOf<ParsedToken>()
 
-        fun isDelimiter(token: ParsedToken) = when (splitBy) {
-            PageSplitMode.SENTENCES -> token.isEndOfSentence
-            PageSplitMode.PARAGRAPHS -> token.isEndOfParagraph
-        }
+        fun isDelimiter(token: ParsedToken) = token.isEndOfSentence || token.isEndOfParagraph
 
         for (token in tokens) {
             buffer.add(token)

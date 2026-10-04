@@ -1,7 +1,6 @@
 package com.tayra.languages.core.domain.book
 
 import com.tayra.languages.core.domain.TestLanguages
-import com.tayra.languages.core.domain.model.PageSplitMode
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -10,28 +9,35 @@ class PageSplitterTest {
 
     @Test
     fun smallTextIsOnePage() {
-        val pages = PageSplitter.split("Here is a dog.  Here is a cat.", english, PageSplitMode.PARAGRAPHS, 250)
+        val pages = PageSplitter.split("Here is a dog.  Here is a cat.", english, 250)
         assertEquals(listOf("Here is a dog. Here is a cat."), pages)
     }
 
     @Test
-    fun splitsByParagraphWhenThresholdExceeded() {
+    fun paragraphEndsAreSentenceEnds() {
+        val text = "one two three\nfour five six\nseven eight nine"
+        val pages = PageSplitter.split(text, english, 3)
+        assertEquals(listOf("one two three\nfour five six", "seven eight nine"), pages)
+    }
+
+    @Test
+    fun splitsBetweenParagraphsWhenThresholdExceeded() {
         val text = "one two three.\nfour five six.\nseven eight nine."
-        val pages = PageSplitter.split(text, english, PageSplitMode.PARAGRAPHS, 3)
+        val pages = PageSplitter.split(text, english, 3)
         assertEquals(listOf("one two three.\nfour five six.", "seven eight nine."), pages)
     }
 
     @Test
-    fun splitsBySentence() {
+    fun splitsInsideAParagraphAtTheEndOfASentence() {
         val text = "one two three. four five six. seven eight nine."
-        val pages = PageSplitter.split(text, english, PageSplitMode.SENTENCES, 3)
+        val pages = PageSplitter.split(text, english, 3)
         assertEquals(listOf("one two three. four five six.", "seven eight nine."), pages)
     }
 
     @Test
     fun explicitPageBreaks() {
         val text = "one two.\n---\nthree four.\n\n---\nfive."
-        val pages = PageSplitter.split(text, english, PageSplitMode.PARAGRAPHS, 250)
+        val pages = PageSplitter.split(text, english, 250)
         assertEquals(listOf("one two.", "three four.", "five."), pages)
     }
 

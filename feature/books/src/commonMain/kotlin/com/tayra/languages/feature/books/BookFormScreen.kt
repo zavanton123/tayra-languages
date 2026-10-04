@@ -70,8 +70,8 @@ private enum class ContentSource(val label: String) { PASTE("Paste text"), FILE(
 
 /**
  * Creates a book from pasted text or a file, or edits a book: the same form, with the book's
- * whole text, title and tags filled in and no file import. Changing the text or the page setup
- * rebuilds the pages on save.
+ * whole text, title and tags filled in and no file import. Changing the text or the words per
+ * page rebuilds the pages on save.
  */
 @Composable
 fun BookFormScreen(
@@ -283,16 +283,6 @@ private fun DetailsCard(state: BookFormUiState, viewModel: BookFormViewModel, mo
 private fun PageSetupCard(state: BookFormUiState, viewModel: BookFormViewModel) {
     val draft = state.draft
     ContentCard("Page setup", "Control how your book is split into pages.", icon = Icons.Default.Settings) {
-        FieldLabel("Split by")
-        Dropdown(
-            options = BookFormViewModel.splitModes,
-            selected = draft.splitBy,
-            onSelect = { mode -> viewModel.update { it.copy(splitBy = mode) } },
-            label = null,
-            optionLabel = { it.label },
-            modifier = Modifier.fillMaxWidth(),
-        )
-        Spacer(Modifier.height(16.dp))
         FieldLabel("Words per page")
         OutlinedTextField(
             value = draft.wordsPerPage.toString(),
@@ -302,7 +292,7 @@ private fun PageSetupCard(state: BookFormUiState, viewModel: BookFormViewModel) 
             modifier = Modifier.fillMaxWidth(),
         )
         Text(
-            "Maximum ${BookDraft.MAX_WORDS_PER_PAGE}",
+            "A page ends at the end of a sentence once it passes this many words. Maximum ${BookDraft.MAX_WORDS_PER_PAGE}.",
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(top = 4.dp),
@@ -313,7 +303,7 @@ private fun PageSetupCard(state: BookFormUiState, viewModel: BookFormViewModel) 
             when {
                 state.isNew -> "Pages will be created automatically when you save."
                 state.rebuildsPages -> "Saving rebuilds the pages. Your place, bookmarks and read pages carry over."
-                else -> "The book has $pages. Change the text or these settings to rebuild them."
+                else -> "The book has $pages. Change the text or the words per page to rebuild them."
             },
         )
     }

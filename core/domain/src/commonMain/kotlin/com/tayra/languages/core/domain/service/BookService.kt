@@ -28,7 +28,7 @@ class BookService(
             throw BookValidationException("Words per page must be between 1 and ${BookDraft.MAX_WORDS_PER_PAGE}")
         }
         val language = language(draft.languageId)
-        val pages = PageSplitter.split(draft.text, language, draft.splitBy, draft.wordsPerPage)
+        val pages = PageSplitter.split(draft.text, language, draft.wordsPerPage)
             .map { NewPage(it, SentenceBuilder.wordCount(it, language)) }
         if (pages.isEmpty()) throw BookValidationException("Text contains no words")
         val book = Book(
@@ -43,7 +43,7 @@ class BookService(
 
     /**
      * Saves the book's title, tags and source. With [rebuildPages] the draft's text is cut into
-     * pages again by its page settings; see [replacePages] for what carries over.
+     * pages again by its words per page; see [replacePages] for what carries over.
      */
     suspend fun update(draft: BookDraft, rebuildPages: Boolean = false) {
         val id = draft.id ?: throw BookValidationException("Book is not saved")
@@ -89,7 +89,7 @@ class BookService(
             throw BookValidationException("Words per page must be between 1 and ${BookDraft.MAX_WORDS_PER_PAGE}")
         }
         val language = language(book.languageId)
-        val texts = PageSplitter.split(draft.text, language, draft.splitBy, draft.wordsPerPage)
+        val texts = PageSplitter.split(draft.text, language, draft.wordsPerPage)
         if (texts.isEmpty()) throw BookValidationException("Text contains no words")
         val counts = texts.map { SentenceBuilder.wordCount(it, language) }
         val old = books.getPages(book.id)
