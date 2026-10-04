@@ -75,7 +75,8 @@ fun BookFormScreen(
             ErrorMessage(state.error)
             state.notice?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.bodyMedium) }
 
-            if (state.isNew) {
+            // A new book is in the language being learned; the field is only for the case that none is chosen.
+            if (state.isNew && draft.languageId == 0L) {
                 Dropdown(
                     options = state.languages,
                     selected = state.language,

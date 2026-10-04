@@ -54,9 +54,9 @@ class DictionariesViewModel(
     val settings: StateFlow<UserSettings> = settings.settings
     val packs: StateFlow<List<PackStatus>> = dictionaries.packs
 
-    /** Source-language codes of the languages that have books, so the list can lead with them. */
-    val languagesInUse: StateFlow<Set<String>> = languages.observeSummaries()
-        .map { summaries -> summaries.filter { it.bookCount > 0 }.mapNotNull { LanguageCodes.codeFor(it.name) }.toSet() }
+    /** The code of the language being learned, so the list can lead with its dictionaries. */
+    val languagesInUse: StateFlow<Set<String>> = learningLanguage(languages, settings)
+        .map { setOfNotNull(it?.code) }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptySet())
 
     fun download(pack: DictionaryPack) = viewModelScope.launch { dictionaries.download(pack) }
@@ -79,7 +79,7 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
                 "Downloaded dictionaries translate words without a network connection and link inflected forms to their base word. One pack covers one language, with meanings in one language.",
                 style = MaterialTheme.typography.bodyMedium,
             )
-            // Packs for languages with books, or already on the device, come first; the rest hide behind a toggle.
+            // Packs for the language being learned, or already on the device, come first; the rest hide behind a toggle.
             val relevant = packs.filter { it.pack.id.sourceLanguage in inUse || it.state !is PackState.NotInstalled }
             val shown = if (showAll || relevant.isEmpty()) packs else relevant
             // Grouped by the language the meanings are in, the native language first.
@@ -99,7 +99,7 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
             }
             if (relevant.size < packs.size) {
                 TextButton(onClick = { showAll = !showAll }) {
-                    Text(if (showAll) "Show only my languages" else "Show all ${packs.size} dictionaries")
+                    Text(if (showAll) "Show only my language" else "Show all ${packs.size} dictionaries")
                 }
             }
         }

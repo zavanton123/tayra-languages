@@ -238,7 +238,6 @@ private data class StatCard(val label: String, val value: String, val icon: Imag
 private fun StatCards(state: BooksUiState, compact: Boolean) {
     val cards = buildList {
         add(StatCard("Total books", state.books.size.toString(), AppIcons.Book, Color(0xFF3B6FE0)))
-        add(StatCard("Languages", state.languageCount.toString(), AppIcons.Globe, Color(0xFF1FA463)))
         add(StatCard("Words learned", state.wordsLearned.toString(), AppIcons.BarChart, Color(0xFF7C4DDB)))
         if (state.showStreak) add(StatCard("Reading streak", "${state.streak} day${if (state.streak == 1) "" else "s"}", AppIcons.Flame, Color(0xFFEA7A1B)))
     }
@@ -344,7 +343,6 @@ private fun ViewToggle(selected: BooksView, onSelect: (BooksView) -> Unit) {
 
 // Column weights shared by the table header and rows.
 private const val TITLE_WEIGHT = 3f
-private const val LANGUAGE_WEIGHT = 1.2f
 private const val POSITION_WEIGHT = 2.4f
 private const val OPENED_WEIGHT = 1.5f
 private const val MASTERY_WEIGHT = 1.8f
@@ -360,7 +358,6 @@ private fun TableHeader(sort: BookSort, onSort: (BookSort) -> Unit) {
             verticalAlignment = Alignment.CenterVertically,
         ) {
             HeaderCell("Title", TITLE_WEIGHT, AppIcons.UnfoldMore, active = sort == BookSort.TITLE) { onSort(BookSort.TITLE) }
-            HeaderCell("Language", LANGUAGE_WEIGHT, active = sort == BookSort.LANGUAGE) { onSort(BookSort.LANGUAGE) }
             HeaderCell("Reading position", POSITION_WEIGHT)
             HeaderCell("Last opened", OPENED_WEIGHT, Icons.Default.KeyboardArrowDown, active = sort == BookSort.RECENT) { onSort(BookSort.RECENT) }
             HeaderCell("Vocabulary mastery", MASTERY_WEIGHT, Icons.Default.Info, active = sort == BookSort.MASTERY) { onSort(BookSort.MASTERY) }
@@ -409,7 +406,6 @@ private fun BookTableRow(book: BookListItem, index: Int, actions: BookActions) {
             )
             if (book.isCompleted) Text(" ✓", color = colors.tertiary)
         }
-        Text(book.languageName, Modifier.weight(LANGUAGE_WEIGHT), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         Column(Modifier.weight(POSITION_WEIGHT).padding(end = 24.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text("page ${book.currentPage}/${book.pageCount}  ·  ${book.wordCount} words", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -448,7 +444,6 @@ private fun BookCard(book: BookListItem, actions: BookActions, modifier: Modifie
             Spacer(Modifier.width(12.dp))
             Column(Modifier.weight(1f)) {
                 Text(book.title, style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                Text(book.languageName, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             }
             BookMenu(book, actions)
         }
@@ -526,7 +521,6 @@ private fun Footer(state: BooksUiState) {
     Row(Modifier.fillMaxWidth().padding(top = 24.dp), verticalAlignment = Alignment.CenterVertically) {
         val parts = buildList {
             add("${state.books.size} book${if (state.books.size == 1) "" else "s"}")
-            add("${state.languageCount} language${if (state.languageCount == 1) "" else "s"}")
             if (!state.archived) add("${state.wordsLearned} words learned")
         }
         Text(parts.joinToString("  ·  "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f))

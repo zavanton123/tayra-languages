@@ -22,12 +22,15 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlin.time.Instant
 
-enum class BookSort(val label: String) { RECENT("Recently read"), TITLE("Title"), LANGUAGE("Language"), MASTERY("Mastery") }
+enum class BookSort(val label: String) { RECENT("Recently read"), TITLE("Title"), MASTERY("Mastery") }
 
 /** Buckets of [masteryPercent]; books without stats only match [ALL]. */
 enum class MasteryFilter(val label: String, val range: IntRange) {
@@ -62,19 +65,16 @@ data class BooksUiState(
     val filteredBooks: List<BookListItem>
         get() {
             val matching = books.filter { book ->
-                (currentLanguageId == 0L || book.languageId == currentLanguageId) &&
-                    (search.isBlank() || book.title.contains(search, ignoreCase = true) || book.tags.any { it.contains(search, ignoreCase = true) }) &&
+                (search.isBlank() || book.title.contains(search, ignoreCase = true) || book.tags.any { it.contains(search, ignoreCase = true) }) &&
                     (mastery == MasteryFilter.ALL || book.masteryPercent?.let { it in mastery.range } == true)
             }
             return when (sort) {
                 BookSort.RECENT -> matching.sortedWith(compareByDescending<BookListItem> { it.lastOpened ?: Instant.DISTANT_PAST }.thenBy { it.title.lowercase() })
                 BookSort.TITLE -> matching.sortedBy { it.title.lowercase() }
-                BookSort.LANGUAGE -> matching.sortedWith(compareBy<BookListItem> { it.languageName }.thenBy { it.title.lowercase() })
                 BookSort.MASTERY -> matching.sortedWith(compareByDescending<BookListItem> { it.masteryPercent ?: -1 }.thenBy { it.title.lowercase() })
             }
         }
 
-    val languageCount: Int get() = books.distinctBy { it.languageId }.size
 }
 
 class BooksViewModel(
@@ -100,8 +100,12 @@ class BooksViewModel(
 
     private data class Options(val sort: BookSort, val mastery: MasteryFilter, val view: BooksView, val extras: Extras, val wordsLearned: Int)
 
-    private val wordsLearned = terms
-        .observeList(TermListFilter(minStatus = TermStatus.WELL_KNOWN, maxStatus = TermStatus.WELL_KNOWN), TermListSort(), 0, 1)
+    /** Words known in the language being learned. */
+    @OptIn(ExperimentalCoroutinesApi::class)
+    private val wordsLearned = settings.settings.map { it.currentLanguageId }.distinctUntilChanged()
+        .flatMapLatest { id ->
+            terms.observeList(TermListFilter(languageId = id.takeIf { it != 0L }, minStatus = TermStatus.WELL_KNOWN, maxStatus = TermStatus.WELL_KNOWN), TermListSort(), 0, 1)
+        }
         .map { it.totalCount }
         .catch { e -> Logger.w(e) { "Counting learned terms failed" }; emit(0) }
 
@@ -114,12 +118,14 @@ class BooksViewModel(
         search,
         options,
     ) { bookList, languageList, prefs, query, opts ->
+        val currentLanguageId = if (languageList.any { it.id == prefs.currentLanguageId }) prefs.currentLanguageId else 0
         BooksUiState(
             loading = false,
             archived = archived,
-            books = bookList,
+            // The page lists the books of the language being learned.
+            books = if (currentLanguageId == 0L) bookList else bookList.filter { it.languageId == currentLanguageId },
             languages = languageList,
-            currentLanguageId = if (languageList.any { it.id == prefs.currentLanguageId }) prefs.currentLanguageId else 0,
+            currentLanguageId = currentLanguageId,
             search = query,
             sort = opts.sort,
             mastery = opts.mastery,

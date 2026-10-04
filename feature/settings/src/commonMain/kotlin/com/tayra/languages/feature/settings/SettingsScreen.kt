@@ -51,17 +51,12 @@ class SettingsViewModel(
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
-    /** Source-language codes of the languages that have books, so the pack list can lead with them. */
-    val languagesInUse: StateFlow<Set<String>> = languages.observeSummaries()
-        .map { summaries -> summaries.filter { it.bookCount > 0 }.mapNotNull { LanguageCodes.codeFor(it.name) }.toSet() }
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptySet())
     fun update(transform: (UserSettings) -> UserSettings) = viewModelScope.launch { settings.update(transform) }
 }
 
 @Composable
 fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = koinViewModel()) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
-    val inUse by viewModel.languagesInUse.collectAsStateWithLifecycle()
     Scaffold(topBar = { AppTopBar(title = "Settings", onNavigate = onNavigate, section = NavSection.SETTINGS) }) { padding ->
         Column(
             Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 720.dp),

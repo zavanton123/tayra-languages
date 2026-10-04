@@ -128,6 +128,7 @@ fun HoverTranslatedText(
     val secondaryClick by rememberUpdatedState(onWordSecondaryClick)
     val phraseSelect by rememberUpdatedState(onPhraseSelect)
     val hoverChanged by rememberUpdatedState(onHover)
+    val wordClick by rememberUpdatedState(onWordClick)
     Box(modifier) {
         // The inner box wraps the text exactly, so the popup's anchor is the text itself.
         Box {
@@ -137,8 +138,9 @@ fun HoverTranslatedText(
                 onTextLayout = { layout = it },
                 modifier = Modifier.then(
                     if (onWordClick == null) Modifier
-                    else Modifier.pointerInput(text, onWordClick) {
-                        detectTapGestures { position -> layout?.let { wordUnder(it, text.text, position) }?.let { onWordClick(it.word) } }
+                    // Keyed by the characters alone: a change of colours must not drop a click under way.
+                    else Modifier.pointerInput(text.text) {
+                        detectTapGestures { position -> layout?.let { wordUnder(it, text.text, position) }?.let { wordClick?.invoke(it.word) } }
                     },
                 ).pointerInput(text) {
                     awaitPointerEventScope {

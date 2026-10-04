@@ -104,11 +104,9 @@ class SpeechViewModel(
         .flatMapLatest { engine -> localSpeech.find(engine)?.progress ?: flowOf(null) }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 
-    /** The languages that have books, which the lists lead with. */
-    val languagesInUse: StateFlow<List<LanguageOption>> = languages.observeSummaries()
-        .map { summaries ->
-            summaries.filter { it.bookCount > 0 }.mapNotNull { s -> LanguageCodes.codeFor(s.name)?.let { LanguageOption(it, s.name) } }.distinctBy { it.code }.sortedBy { it.name }
-        }
+    /** The language being learned, which the lists lead with. */
+    val languagesInUse: StateFlow<List<LanguageOption>> = learningLanguage(languages, settings)
+        .map { listOfNotNull(it) }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
 
     fun engine(): LocalSpeechEngine? = localSpeech.find(state.value.speechEngine)
@@ -277,7 +275,7 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
                     }
                     if (relevant.size < packages.size) {
                         TextButton(onClick = { showAll = !showAll }) {
-                            Text(if (showAll) "Show only my languages" else "Show all ${packages.size} downloads")
+                            Text(if (showAll) "Show only ${inUse.firstOrNull()?.name ?: "my language"}" else "Show all ${packages.size} downloads")
                         }
                     }
                 }
@@ -288,7 +286,7 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
     }
 }
 
-/** A sentence and a language to hear the chosen engine with. */
+/** A sentence in the language being learned to hear the chosen engine with. */
 @Composable
 private fun TryIt(viewModel: SpeechViewModel, languages: List<LanguageOption>, voiced: Set<String>) {
     if (languages.isEmpty()) return
@@ -301,7 +299,6 @@ private fun TryIt(viewModel: SpeechViewModel, languages: List<LanguageOption>, v
     }
     var text by remember(language) { mutableStateOf(SAMPLES[language.code].orEmpty()) }
     Section("Try it")
-    Dropdown(options = languages, selected = language, onSelect = { language = it }, label = "Language", optionLabel = { it.name }, modifier = Modifier.fillMaxWidth())
     OutlinedTextField(
         value = text,
         onValueChange = { text = it },

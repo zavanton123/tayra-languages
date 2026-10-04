@@ -321,21 +321,7 @@ private fun StandaloneFields(state: TermFormUiState, viewModel: TermFormViewMode
             TermField(state, viewModel, direction, focusRequester)
             RomanizationField(state, viewModel)
             TranslationField(state, viewModel, hint = "Use a concise meaning or contextual translation.")
-            val language = state.language
-            if (language != null) {
-                Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                    OutlinedTextField(
-                        value = language.name,
-                        onValueChange = {},
-                        readOnly = true,
-                        label = { Text("Language") },
-                        singleLine = true,
-                        shape = RoundedCornerShape(10.dp),
-                        modifier = Modifier.weight(1f),
-                    )
-                    Box(Modifier.weight(1f)) { ParentField(state, viewModel) }
-                }
-            }
+            if (state.language != null) ParentField(state, viewModel)
         }
     }
     val status = @Composable { modifier: Modifier ->

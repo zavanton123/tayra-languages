@@ -103,7 +103,6 @@ private enum class TermSortOption(val label: String, val sort: TermListSort) {
     OLDEST("Oldest first", TermListSort(TermSortField.CREATED, ascending = true)),
     TEXT("Term A–Z", TermListSort(TermSortField.TEXT, ascending = true)),
     STATUS("Status", TermListSort(TermSortField.STATUS, ascending = true)),
-    LANGUAGE("Language", TermListSort(TermSortField.LANGUAGE, ascending = true)),
 }
 
 private val PAGE_SIZES = listOf(25, 50, 100)
@@ -421,7 +420,6 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
 private const val TERM_WEIGHT = 1.6f
 private const val TRANSLATION_WEIGHT = 2.4f
 private const val EXAMPLE_WEIGHT = 3f
-private const val LANGUAGE_WEIGHT = 1.1f
 private val STATUS_WIDTH = 90.dp
 private val ADDED_WIDTH = 110.dp
 private val MENU_WIDTH = 48.dp
@@ -440,7 +438,6 @@ private fun TableHeader(state: TermsListUiState, viewModel: TermsListViewModel, 
             HeaderCell("Term", Modifier.weight(TERM_WEIGHT), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.TEXT) { viewModel.sortBy(TermSortField.TEXT) }
             HeaderCell("Translation", Modifier.weight(TRANSLATION_WEIGHT))
             HeaderCell("Example", Modifier.weight(EXAMPLE_WEIGHT))
-            HeaderCell("Language", Modifier.weight(LANGUAGE_WEIGHT), active = state.sort.field == TermSortField.LANGUAGE) { viewModel.sortBy(TermSortField.LANGUAGE) }
             HeaderCell("Status", Modifier.width(STATUS_WIDTH), Icons.Default.Info, active = state.sort.field == TermSortField.STATUS) { viewModel.sortBy(TermSortField.STATUS) }
             HeaderCell("Added", Modifier.width(ADDED_WIDTH), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.CREATED) { viewModel.sortBy(TermSortField.CREATED) }
             Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { ListMenu(state, actions) }
@@ -486,10 +483,6 @@ private fun TermTableRow(term: Term, languageName: String, selected: Boolean, in
             term.sentence?.let { SpeakButton(it, code, actions.speaker, Modifier.size(32.dp)) }
             Text(term.sentence.orEmpty(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
         }
-        Row(Modifier.weight(LANGUAGE_WEIGHT), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            LanguageDot(languageName)
-            Text(languageName, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        }
         Box(Modifier.width(STATUS_WIDTH)) { StatusChip(term.status) { actions.onStatus(term, it) } }
         Text(term.createdAt?.let(::addedLabel).orEmpty(), Modifier.width(ADDED_WIDTH), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { RowMenu(term, actions) }
@@ -517,31 +510,14 @@ private fun CompactTermRow(term: Term, languageName: String, selected: Boolean, 
                     SpeakButton(sentence, code, actions.speaker, Modifier.size(32.dp))
                 }
             }
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                LanguageDot(languageName)
-                Text(listOfNotNull(languageName, term.createdAt?.let(::addedLabel)).joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            }
+            term.createdAt?.let { Text(addedLabel(it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
         }
         StatusChip(term.status) { actions.onStatus(term, it) }
         RowMenu(term, actions)
     }
 }
 
-private val dotTints = listOf(
-    Color(0xFF1FA463), Color(0xFF7C4DDB), Color(0xFFDC4A4A), Color(0xFFC98A05),
-    Color(0xFF3B6FE0), Color(0xFF0E96B0), Color(0xFFE0641B), Color(0xFFD9337E),
-)
-
 /** A small coloured disc with the language code, standing in for a flag. */
-@Composable
-private fun LanguageDot(languageName: String) {
-    val code = LanguageCodes.codeFor(languageName)?.uppercase() ?: languageName.take(2).uppercase()
-    val tint = dotTints[(code.hashCode() and Int.MAX_VALUE) % dotTints.size]
-    Box(Modifier.size(24.dp).clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
-        Text(code, color = tint, style = MaterialTheme.typography.labelSmall, fontWeight = FontWeight.Bold)
-    }
-}
-
 @Composable
 private fun StatusChip(status: TermStatus, onSelect: (TermStatus) -> Unit) {
     val colors = TayraTheme.current.statusColors

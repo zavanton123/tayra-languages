@@ -122,9 +122,9 @@ class OfflineTranslationViewModel(
     /** What the translator is downloading or installing right now, for the progress line. */
     val progress: StateFlow<String?> = localTranslation.translator?.progress ?: MutableStateFlow(null)
 
-    /** Source-language codes of the languages that have books, so the package list can lead with them. */
-    val languagesInUse: StateFlow<Set<String>> = languages.observeSummaries()
-        .map { summaries -> summaries.filter { it.bookCount > 0 }.mapNotNull { LanguageCodes.codeFor(it.name) }.toSet() }
+    /** The code of the language being learned, so the package list can lead with what it needs. */
+    val languagesInUse: StateFlow<Set<String>> = learningLanguage(languages, settings)
+        .map { setOfNotNull(it?.code) }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptySet())
 
     fun update(transform: (UserSettings) -> UserSettings) {
@@ -330,7 +330,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 }
                 if (relevant.size < packages.size) {
                     TextButton(onClick = { showAll = !showAll }) {
-                        Text(if (showAll) "Show only my languages" else "Show all ${packages.size} packages")
+                        Text(if (showAll) "Show only my language" else "Show all ${packages.size} packages")
                     }
                 }
             }
