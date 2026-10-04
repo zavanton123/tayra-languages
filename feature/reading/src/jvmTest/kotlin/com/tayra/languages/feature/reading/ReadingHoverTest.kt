@@ -303,6 +303,21 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Lora").fetchSemanticsNodes().isNotEmpty() }
     }
 
+    /** The Vocabulary section keeps the page's term list; translating, themes and shortcuts are left to their keys and Settings. */
+    @Test
+    fun theMenuNoLongerOffersTranslatingThemesOrShortcuts() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Menu").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("VOCABULARY").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Term list for this page").assertExists()
+        for (gone in listOf("LANGUAGE TOOLS", "Translate sentence", "Translate page", "Next theme", "Keyboard shortcuts", "MORE")) {
+            assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is no longer in the menu")
+        }
+    }
+
     /** Hovering the page's vocabulary bar explains it; ignored words count as known. */
     @Test
     fun hoveringTheVocabularyBarShowsTheCountsByStatus() {

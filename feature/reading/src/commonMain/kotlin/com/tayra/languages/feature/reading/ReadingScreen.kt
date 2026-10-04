@@ -251,11 +251,7 @@ fun ReadingScreen(
         onBookmarks = { onNavigate(Route.Bookmarks(bookId)) },
         onAddBookmark = { bookmarkDialog = true },
         onTermList = { onNavigate(Route.Terms(viewModel.pageTermIds(), bookId, state.pageNumber)) },
-        onTranslateSentence = { viewModel.translate(TextScope.SENTENCE) },
-        onTranslatePage = { viewModel.translate(TextScope.PAGE) },
-        onNextTheme = viewModel::nextTheme,
         onToggleHighlights = viewModel::toggleHighlights,
-        onShortcuts = { onNavigate(Route.Shortcuts) },
         onSpeechSettings = { onNavigate(Route.Speech) },
         onSource = { state.book?.sourceUri?.let { uriHandler.openUri(it) } },
     )
@@ -343,11 +339,7 @@ private class ReadingMenuActions(
     val onBookmarks: () -> Unit,
     val onAddBookmark: () -> Unit,
     val onTermList: () -> Unit,
-    val onTranslateSentence: () -> Unit,
-    val onTranslatePage: () -> Unit,
-    val onNextTheme: () -> Unit,
     val onToggleHighlights: () -> Unit,
-    val onShortcuts: () -> Unit,
     val onSource: () -> Unit,
     val onSpeechSettings: () -> Unit,
 )
@@ -413,15 +405,13 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         MenuRow(AppIcons.Bookmark, "List bookmarks") { onClose(); actions.onBookmarks() }
         MenuRow(AppIcons.BookmarkAdd, "Add bookmark") { onClose(); actions.onAddBookmark() }
 
-        MenuSection("Language tools")
+        MenuSection("Vocabulary")
         MenuRow(Icons.AutoMirrored.Filled.List, "Term list for this page") { onClose(); actions.onTermList() }
-        MenuRow(AppIcons.Translate, "Translate sentence") { onClose(); actions.onTranslateSentence() }
-        MenuRow(AppIcons.Page, "Translate page") { onClose(); actions.onTranslatePage() }
 
-        MenuSection("More")
-        MenuRow(AppIcons.Palette, "Next theme") { onClose(); actions.onNextTheme() }
-        MenuRow(AppIcons.Keyboard, "Keyboard shortcuts") { onClose(); actions.onShortcuts() }
-        if (!state.book?.sourceUri.isNullOrBlank()) MenuRow(AppIcons.Link, "Show source URL") { onClose(); actions.onSource() }
+        if (!state.book?.sourceUri.isNullOrBlank()) {
+            MenuSection("More")
+            MenuRow(AppIcons.Link, "Show source URL") { onClose(); actions.onSource() }
+        }
     }
 }
 
