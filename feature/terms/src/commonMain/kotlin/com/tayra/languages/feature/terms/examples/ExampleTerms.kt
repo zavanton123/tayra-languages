@@ -1,27 +1,37 @@
 package com.tayra.languages.feature.terms.examples
 
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import com.tayra.languages.core.domain.model.Language
-import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
-import com.tayra.languages.core.domain.parse.parseTokens
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.ui.theme.StatusColors
 
 /**
- * Saved terms in example sentences: which words and phrases are being learned, and saving a
- * word from an example the way the reader's right click does.
+ * Terms in example sentences: the status of every word and saved phrase, and saving a word
+ * from an example the way the reader does.
  */
 class ExampleTerms(private val reading: ReadingService, private val terms: TermService) {
 
-    /** The terms being learned (statuses 1 to 4) found in each of [sentences]. */
-    suspend fun learning(sentences: List<String>, language: Language): Map<String, List<Term>> {
+    /**
+     * The words and saved phrases of each of [sentences] with their statuses, worked out as the
+     * reader does for a page; a word never saved is unknown. Nothing is stored.
+     */
+    suspend fun statuses(sentences: List<String>, language: Language): Map<String, List<WordStatus>> {
         val index = reading.multiwordIndex(language)
         return sentences.distinct().associateWith { sentence ->
-            reading.findTermsInTokens(language.parseTokens(sentence.replace(Regex(" +"), " ")), language, index).filter { it.status.isLearning }
+            var cursor = 0
+            reading.renderItems(sentence, language, index).filter { it.isWord && !it.isParagraphMark }.mapNotNull { item ->
+                val shown = item.renderText
+                // Each item is found in the sentence as written, after the one before it.
+                val at = if (shown.isBlank()) -1 else sentence.indexOf(shown, cursor)
+                if (at < 0) return@mapNotNull null
+                cursor = at + shown.length
+                WordStatus(at, cursor, item.status)
+            }
         }
     }
 
@@ -51,30 +61,45 @@ class ExampleTerms(private val reading: ReadingService, private val terms: TermS
     }
 }
 
+/** A word or saved phrase of a sentence, from [start] to [end] (exclusive), and its status. */
+data class WordStatus(val start: Int, val end: Int, val status: TermStatus)
+
 /**
- * Paints the terms being learned in their status colours, as the reader does. Words already
- * styled, such as the searched term, keep their look; longer terms win over the words in them.
+ * Paints the words in their status colours as the reader does: unknown and learning words are
+ * coloured, known and ignored ones are left plain. [highlight] is the reader's "Highlight terms".
  */
-fun AnnotatedString.withLearning(terms: List<Term>, colors: StatusColors): AnnotatedString {
-    if (terms.isEmpty()) return this
-    val source = text
-    val taken = spanStyles.map { it.start until it.end }.toMutableList()
+fun AnnotatedString.withStatuses(words: List<WordStatus>, colors: StatusColors, highlight: Boolean = true): AnnotatedString {
+    if (!highlight || words.isEmpty()) return this
     return buildAnnotatedString {
-        append(this@withLearning)
-        for (term in terms.sortedByDescending { it.displayText.length }) {
-            val needle = term.displayText
-            if (needle.isBlank()) continue
-            var from = 0
-            while (true) {
-                val at = source.indexOf(needle, from, ignoreCase = true)
-                if (at < 0) break
-                val end = at + needle.length
-                from = end
-                val whole = (at == 0 || !source[at - 1].isLetterOrDigit()) && (end == source.length || !source[end].isLetterOrDigit())
-                if (!whole || taken.any { it.first < end && at <= it.last }) continue
-                taken += at until end
-                addStyle(SpanStyle(background = colors.background(term.status), color = colors.onHighlight), at, end)
+        append(this@withStatuses)
+        for (word in words) {
+            if (word.status == TermStatus.WELL_KNOWN || word.status == TermStatus.IGNORED || word.end > length) continue
+            val background = colors.background(word.status)
+            val style = when {
+                word.status == TermStatus.UNKNOWN && colors.unknownAsText -> SpanStyle(color = background)
+                background != Color.Transparent -> SpanStyle(background = background, color = colors.onHighlight)
+                else -> continue
             }
+            addStyle(style, word.start, word.end)
+        }
+    }
+}
+
+/** Shows the whole-word occurrences of [term], the word or phrase open in the term pane, in the reader's selection colour. */
+fun AnnotatedString.withSelected(term: String?, color: Color): AnnotatedString {
+    val needle = term?.replace("\u200B", "")?.trim().orEmpty()
+    if (needle.isEmpty()) return this
+    val source = text
+    return buildAnnotatedString {
+        append(this@withSelected)
+        var from = 0
+        while (true) {
+            val at = source.indexOf(needle, from, ignoreCase = true)
+            if (at < 0) break
+            val end = at + needle.length
+            from = end
+            val whole = (at == 0 || !source[at - 1].isLetterOrDigit()) && (end == source.length || !source[end].isLetterOrDigit())
+            if (whole) addStyle(SpanStyle(color = color), at, end)
         }
     }
 }

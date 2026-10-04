@@ -67,6 +67,7 @@ import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.pointerInput
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.settings.HotkeyAction
+import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.theme.TayraTheme
 import androidx.compose.ui.text.SpanStyle
@@ -137,6 +138,7 @@ fun ExamplesSearchScreen(
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> state.language?.let { wordTranslations.translate(it, word) } }
 
+    val showHighlights = koinInject<SettingsRepository>().settings.collectAsStateWithLifecycle().value.showHighlights
     // Status shortcuts work while the results, not a text field, have the keyboard.
     val focus = remember { FocusRequester() }
     var listFocused by remember { mutableStateOf(false) }
@@ -226,7 +228,9 @@ fun ExamplesSearchScreen(
                     else -> {
                         items(state.results) { example ->
                             ExampleCard(
-                                text = emphasize(example.text, query.text).withLearning(state.learning[example.text].orEmpty(), TayraTheme.current.statusColors),
+                                text = emphasize(example.text, query.text)
+                                    .withStatuses(state.words[example.text].orEmpty(), TayraTheme.current.statusColors, showHighlights)
+                                    .withSelected(state.paneTerm, TayraTheme.current.selectedText),
                                 translateWord = translateWord,
                                 translation = example.translation,
                                 sound = audio.soundOf(example),
@@ -521,7 +525,8 @@ private fun ActionButton(icon: ImageVector, description: String, enabled: Boolea
 /** Highlights the term and its inflections (same stem) in the sentence. */
 @Composable
 private fun emphasize(sentence: String, term: String): AnnotatedString {
-    val highlight = SpanStyle(fontWeight = FontWeight.SemiBold, color = Color(0xFF166534), background = Color(0xFF16A34A).copy(alpha = 0.16f))
+    // Weight alone marks the searched term: the colours are the statuses' and the selection's, as in the reader.
+    val highlight = SpanStyle(fontWeight = FontWeight.SemiBold)
     return remember(sentence, term) {
         buildAnnotatedString {
             val needle = term.trim().lowercase()

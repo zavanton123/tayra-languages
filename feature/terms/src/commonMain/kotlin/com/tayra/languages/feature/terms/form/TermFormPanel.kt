@@ -54,7 +54,9 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.material3.CircularProgressIndicator
 import com.tayra.languages.feature.terms.examples.PrepareSpeech
 import com.tayra.languages.feature.terms.examples.rememberExampleAudio
-import com.tayra.languages.feature.terms.examples.withLearning
+import com.tayra.languages.feature.terms.examples.withStatuses
+import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.feature.terms.examples.withSelected
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -669,6 +671,7 @@ private fun ExamplesSection(
     val audio = rememberExampleAudio()
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> language?.let { wordTranslations.translate(it, word) } }
+    val showHighlights = koinInject<SettingsRepository>().settings.collectAsStateWithLifecycle().value.showHighlights
     val languageCode = language?.let { LanguageCodes.codeFor(it.name) }
     audio.PrepareSpeech(if (expanded) state.examples else state.examples.take(VISIBLE_EXAMPLES), languageCode)
     val total = state.examplesTotal ?: state.examples.size
@@ -702,7 +705,9 @@ private fun ExamplesSection(
                     val sentence = @Composable {
                         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
                             HoverTranslatedText(
-                                emphasize(example.text, term).withLearning(state.learningInExamples[example.text].orEmpty(), TayraTheme.current.statusColors),
+                                emphasize(example.text, term)
+                                    .withStatuses(state.exampleWords[example.text].orEmpty(), TayraTheme.current.statusColors, showHighlights)
+                                    .withSelected(term, TayraTheme.current.selectedText),
                                 translate = translateWord,
                                 style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
                                 modifier = Modifier.weight(1f).padding(end = 10.dp),
@@ -768,7 +773,7 @@ private fun rememberLeftTooltipPositionProvider(): PopupPositionProvider {
  * when it starts with the term, or with the term minus its last letter for terms of five
  * letters or more (extranjero → extranjeras).
  */
-private val TERM_HIGHLIGHT = SpanStyle(fontWeight = FontWeight.SemiBold, color = Color(0xFF166534), background = Color(0xFF16A34A).copy(alpha = 0.16f))
+private val TERM_HIGHLIGHT = SpanStyle(fontWeight = FontWeight.SemiBold)
 
 private fun emphasize(sentence: String, term: String) = buildAnnotatedString {
     val needle = term.trim().lowercase()

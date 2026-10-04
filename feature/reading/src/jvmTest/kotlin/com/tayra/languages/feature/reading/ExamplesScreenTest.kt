@@ -122,12 +122,26 @@ class ExamplesScreenTest {
         return shown.spanStyles.lastOrNull { it.start == start && it.end == start + word.length && it.item.background != androidx.compose.ui.graphics.Color.Unspecified }?.item?.background
     }
 
+    /** The text colour the text node of [sentence] gives [word], or null. */
+    private fun colorOf(sentence: String, word: String): androidx.compose.ui.graphics.Color? {
+        val shown = rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().first().config[androidx.compose.ui.semantics.SemanticsProperties.Text].single()
+        val start = sentence.indexOf(word)
+        return shown.spanStyles.lastOrNull { it.start == start && it.end == start + word.length && it.item.color != androidx.compose.ui.graphics.Color.Unspecified }?.item?.color
+    }
+
     /** A right click on a word of a result saves it with that result as its sentence and colours it; another makes it known. */
     @Test
     fun aRightClickSavesAWordOfAnExample() {
         val sentence = "O tempo voa depressa."
         show(listOf(ExampleSentence(text = sentence, translation = null)))
         rule.waitUntil(5_000) { rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().isNotEmpty() }
+
+        // Words are coloured as on a page: one never saved is unknown, and nothing is stored for it.
+        val colors = com.tayra.languages.core.ui.theme.AppThemes.default
+        rule.waitUntil(5_000) { backgroundOf(sentence, "voa") == colors.statusColors.background(TermStatus.UNKNOWN) }
+        assertNull(savedTerm("voa"))
+        // The searched term is the one open in the pane, so it shows as selected.
+        assertEquals(colors.selectedText, colorOf(sentence, "tempo"))
 
         rule.onAllNodes(hasText(sentence))[0].performMouseInput { rightClick(at(sentence, "voa")) }
         rule.waitUntil(5_000) { savedTerm("voa")?.status == TermStatus.NEW_1 }
@@ -196,6 +210,9 @@ class ExamplesScreenTest {
         // A click opens the word in the pane; with the mouse off the words the shortcut goes to that term.
         rule.onAllNodes(hasText(sentence))[0].performMouseInput { click(at(sentence, "depressa")) }
         rule.waitUntil(5_000) { termField("depressa") }
+        val selected = com.tayra.languages.core.ui.theme.AppThemes.default.selectedText
+        rule.waitUntil(5_000) { colorOf(sentence, "depressa") == selected }
+        assertEquals(false, colorOf(sentence, "tempo") == selected, "only the pane's word is selected")
         press(androidx.compose.ui.input.key.Key.Three)
         rule.waitUntil(5_000) { savedTerm("depressa")?.status == TermStatus.LEARNING_3 }
         assertEquals(sentence, savedTerm("depressa")?.sentence)

@@ -27,6 +27,7 @@ import com.tayra.languages.core.domain.service.TermValidationException
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.state.UiEvents
 import com.tayra.languages.feature.terms.examples.ExampleTerms
+import com.tayra.languages.feature.terms.examples.WordStatus
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.Job
@@ -75,8 +76,8 @@ data class TermFormUiState(
     val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
     /** The downloadable pack for the language pair and whether it is on the device; null when none exists. */
     val dictionaryPack: PackStatus? = null,
-    /** The terms being learned found in each example, by its text. */
-    val learningInExamples: Map<String, List<Term>> = emptyMap(),
+    /** The words of each example with their statuses, by the example's text. */
+    val exampleWords: Map<String, List<WordStatus>> = emptyMap(),
 ) {
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
     val isNew: Boolean get() = draft.isNew
@@ -271,8 +272,8 @@ class TermFormViewModel(
         val helper = exampleTerms ?: return
         val current = _state.value
         val language = current.language ?: return
-        val found = helper.learning(current.examples.map { it.text }, language)
-        _state.update { it.copy(learningInExamples = found) }
+        val found = helper.statuses(current.examples.map { it.text }, language)
+        _state.update { it.copy(exampleWords = found) }
     }
 
     /** A right click on a word of an example: saved as the reader does, with the example as its sentence. */

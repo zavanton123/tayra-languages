@@ -3,7 +3,6 @@ package com.tayra.languages.feature.terms.examples
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.model.Language
-import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.settings.Hotkey
 import com.tayra.languages.core.domain.settings.HotkeyAction
@@ -35,8 +34,8 @@ data class ExamplesSearchUiState(
     val paneTerm: String? = null,
     /** The example the pane's term was clicked in, if any. */
     val paneSentence: String? = null,
-    /** The terms being learned found in each result, by its text. */
-    val learning: Map<String, List<Term>> = emptyMap(),
+    /** The words of each result with their statuses, by the result's text. */
+    val words: Map<String, List<WordStatus>> = emptyMap(),
 ) {
     val hasMore: Boolean get() = nextPage != null
 }
@@ -113,8 +112,8 @@ class ExamplesSearchViewModel(
         val helper = exampleTerms ?: return
         val current = _state.value
         val language = current.language ?: return
-        val found = helper.learning(current.results.map { it.text }, language)
-        _state.update { it.copy(learning = found) }
+        val found = helper.statuses(current.results.map { it.text }, language)
+        _state.update { it.copy(words = found) }
     }
 
     /** The status shortcuts, as the reader uses them. */
