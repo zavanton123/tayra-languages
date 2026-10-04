@@ -40,9 +40,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -329,7 +332,25 @@ private fun HistoryCard(
 
 @Composable
 private fun BackupRow(backup: Backup, latest: Boolean, enabled: Boolean, onRestore: () -> Unit, onExport: () -> Unit, onDelete: () -> Unit) {
-    val compact = LocalWindowWidth.current.isCompact
+    // Too narrow for the date, status and buttons on one line, the buttons go below. The width is
+    // measured rather than read from constraints, since the card sits in a row sized by intrinsics.
+    val density = LocalDensity.current
+    var stacked by remember { mutableStateOf(false) }
+    Box(Modifier.fillMaxWidth().onSizeChanged { stacked = with(density) { it.width.toDp() } < 700.dp }) {
+        BackupRowContent(backup, latest, enabled, stacked = stacked || LocalWindowWidth.current.isCompact, onRestore, onExport, onDelete)
+    }
+}
+
+@Composable
+private fun BackupRowContent(
+    backup: Backup,
+    latest: Boolean,
+    enabled: Boolean,
+    stacked: Boolean,
+    onRestore: () -> Unit,
+    onExport: () -> Unit,
+    onDelete: () -> Unit,
+) {
     var menu by remember { mutableStateOf(false) }
     val actions: @Composable () -> Unit = {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -357,7 +378,13 @@ private fun BackupRow(backup: Backup, latest: Boolean, enabled: Boolean, onResto
             Spacer(Modifier.width(14.dp))
             Column(Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(formatBackupTime(backup), style = MaterialTheme.typography.titleMedium)
+                    Text(
+                        formatBackupTime(backup),
+                        style = MaterialTheme.typography.titleMedium,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                        modifier = Modifier.weight(1f, fill = false),
+                    )
                     if (latest) {
                         Spacer(Modifier.width(10.dp))
                         Tag("Latest", MaterialTheme.colorScheme.primary)
@@ -365,7 +392,7 @@ private fun BackupRow(backup: Backup, latest: Boolean, enabled: Boolean, onResto
                 }
                 Text(formatSize(backup.sizeBytes), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
-            if (!compact) {
+            if (!stacked) {
                 Box(Modifier.size(8.dp).clip(CircleShape).background(SettingsColors.ok))
                 Spacer(Modifier.width(8.dp))
                 Text("Ready", style = MaterialTheme.typography.bodyMedium, color = SettingsColors.ok)
@@ -373,7 +400,7 @@ private fun BackupRow(backup: Backup, latest: Boolean, enabled: Boolean, onResto
                 actions()
             }
         }
-        if (compact) {
+        if (stacked) {
             Spacer(Modifier.height(6.dp))
             actions()
         }

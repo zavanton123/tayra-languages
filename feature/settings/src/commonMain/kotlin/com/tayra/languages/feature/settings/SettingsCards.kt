@@ -308,6 +308,8 @@ internal fun Tag(text: String, color: Color) {
         Modifier.clip(RoundedCornerShape(50)).background(color.copy(alpha = 0.12f)).padding(horizontal = 12.dp, vertical = 6.dp),
         style = MaterialTheme.typography.bodyMedium,
         color = color,
+        maxLines = 1,
+        softWrap = false,
     )
 }
 
