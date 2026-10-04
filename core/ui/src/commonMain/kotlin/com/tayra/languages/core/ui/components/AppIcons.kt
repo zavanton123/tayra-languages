@@ -153,6 +153,10 @@ object AppIcons {
         )
     }
 
+    val DoneAll: ImageVector by lazy {
+        icon("DoneAll", "M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z")
+    }
+
     val ArrowLeft: ImageVector by lazy { icon("ArrowLeft", "M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z") }
     val ArrowRight: ImageVector by lazy { icon("ArrowRight", "M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z") }
     val ArrowUp: ImageVector by lazy { icon("ArrowUp", "M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z") }

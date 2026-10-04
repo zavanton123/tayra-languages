@@ -113,7 +113,7 @@ sealed interface ReadingEvent {
     data class CopyText(val text: String) : ReadingEvent
     data class OpenUrl(val url: String) : ReadingEvent
     data class Navigate(val bookId: Long, val page: Int) : ReadingEvent
-    data object BookArchived : ReadingEvent
+    data object BookFinished : ReadingEvent
 }
 
 class ReadingViewModel(
@@ -777,18 +777,12 @@ class ReadingViewModel(
         }
     }
 
-    fun archiveBook() {
+    /** Marks the last page read, which completes the book, and goes back to the library. */
+    fun finishBook() {
         viewModelScope.launch {
-            bookService.archive(bookId)
-            events.send(ReadingEvent.BookArchived)
-        }
-    }
-
-    /** Brings an archived book back to the library and keeps reading it. */
-    fun unarchiveBook() {
-        viewModelScope.launch {
-            bookService.unarchive(bookId)
-            load(_state.value.pageNumber, trackOpen = false, keepMarked = true)
+            readingService.markPageRead(bookId, _state.value.pageNumber, markRestAsKnown = false)
+            bookStats.markStale(bookId)
+            events.send(ReadingEvent.BookFinished)
         }
     }
 

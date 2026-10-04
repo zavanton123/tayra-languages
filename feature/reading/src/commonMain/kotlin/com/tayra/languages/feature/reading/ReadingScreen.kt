@@ -25,11 +25,11 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.List
-import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Home
@@ -83,7 +83,6 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.ui.draw.shadow
 import androidx.compose.runtime.SideEffect
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.focus.FocusRequester
@@ -97,6 +96,12 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.layout.Layout
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.layout.layout
 import androidx.compose.ui.window.Popup
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.model.TermStatus
@@ -170,7 +175,7 @@ fun ReadingScreen(
             is ReadingEvent.CopyText -> clipboard.setText(AnnotatedString(event.text))
             is ReadingEvent.OpenUrl -> uriHandler.openUri(event.url)
             is ReadingEvent.Navigate -> onNavigate(Route.Read(event.bookId, event.page))
-            ReadingEvent.BookArchived -> onHome()
+            ReadingEvent.BookFinished -> onHome()
         }
     }
     LaunchedEffect(state.loading, state.panel) {
@@ -798,7 +803,8 @@ private fun ReadingBody(
             .clip(RoundedCornerShape(14.dp))
             .background(theme.readingBackground)
             .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
-            .padding(horizontal = edgePadding, vertical = if (compact) 16.dp else 28.dp)
+            // No bottom padding: the footer runs to the card's bottom edge.
+            .padding(start = edgePadding, end = edgePadding, top = if (compact) 16.dp else 28.dp)
     }
     Box(Modifier.fillMaxSize()) {
     // The visible height, so the sentence being read can be scrolled to the middle of it.
@@ -846,7 +852,7 @@ private fun ReadingBody(
             if (state.selecting) {
                 Text("Long-press the last word of the expression, or tap to cancel.", style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
-            if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome)
+            if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome, edgePadding)
         }
         Spacer(Modifier.height(120.dp))
     }
@@ -1059,76 +1065,119 @@ private fun PageVocabulary(state: ReadingUiState) {
 }
 
 @Composable
-private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit) {
+private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, edgePadding: Dp) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val uriHandler = LocalUriHandler.current
     val unknowns = remember(state.page) { BookStatsCalculator.calculate(state.items).distinctUnknowns }
     val last = state.isLastPage
-    Column(Modifier.fillMaxWidth().padding(top = 28.dp), verticalArrangement = Arrangement.spacedBy(20.dp)) {
+    Column(Modifier.fillMaxWidth().padding(top = 28.dp), verticalArrangement = Arrangement.spacedBy(28.dp)) {
         val source = state.book?.sourceUri
         if (!source.isNullOrBlank()) {
             SourceChip(source) { uriHandler.openUri(source) }
         }
-        Column(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.05f))
-                .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(if (compact) 16.dp else 24.dp),
-            verticalArrangement = Arrangement.spacedBy(20.dp),
-        ) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(18.dp)) {
-                Box(Modifier.size(56.dp).clip(RoundedCornerShape(28.dp)).background(Color(0xFF16A34A).copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
-                    Icon(Icons.Default.Check, contentDescription = null, tint = Color(0xFF15803D), modifier = Modifier.size(30.dp))
-                }
-                Column(Modifier.weight(1f)) {
-                    Text(
-                        if (last) "You\u2019ve reached the end" else "End of page ${state.pageNumber}",
-                        style = MaterialTheme.typography.titleLarge,
-                        fontWeight = FontWeight.Bold,
-                    )
-                    Text(
-                        if (unknowns > 0) "Review the remaining words, or mark them all as known." else "Every word on this page has a status.",
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = colors.onSurfaceVariant,
-                    )
-                }
-            }
-            // Only offered while the page still has unknown words.
-            if (unknowns > 0) {
-                ActionCard(
-                    modifier = if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(max = 560.dp).fillMaxWidth(),
-                    title = "Mark remaining words as known",
-                    subtitle = "$unknowns unknown word${if (unknowns == 1) "" else "s"}${if (last) "" else " \u00b7 then next page"}",
-                    filled = true,
-                    onClick = { viewModel.markPageRead(true, if (last) 0 else 1) },
-                )
-            }
-            HorizontalDivider(color = colors.outlineVariant)
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                Row(
-                    Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).background(colors.surface)
-                        .clickable(onClick = onHome).padding(horizontal = 16.dp, vertical = 12.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                ) {
-                    Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
-                    Text("Back to library", style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
-                }
-                val archived = state.book?.archived == true
-                if (last || archived) {
-                    Row(
-                        Modifier.clip(RoundedCornerShape(10.dp)).clickable(onClick = if (archived) viewModel::unarchiveBook else viewModel::archiveBook)
-                            .padding(horizontal = 12.dp, vertical = 12.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(8.dp),
-                    ) {
-                        Icon(AppIcons.Book, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-                        Text(if (archived) "Unarchive book" else "Archive book", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        // Reaches the card's edges, below the text.
+        val strip = Modifier.bleed(edgePadding).drawBehind { drawLine(colors.outlineVariant, Offset.Zero, Offset(size.width, 0f), 1.dp.toPx()) }
+            .background(colors.onSurface.copy(alpha = 0.025f)).padding(horizontal = edgePadding, vertical = if (compact) 16.dp else 20.dp)
+        // Next page also marks this one read, which counts its words as read; on the last page that completes the book.
+        val markRemaining: @Composable (Modifier) -> Unit = { modifier ->
+            if (unknowns > 0) MarkRemainingButton(unknowns, modifier) { viewModel.markPageRead(true, if (last) 0 else 1) }
+        }
+        val next: @Composable (Modifier) -> Unit = { modifier ->
+            if (last) PrimaryFooterButton("Finish book", modifier, viewModel::finishBook) else PrimaryFooterButton("Next page", modifier) { viewModel.markPageRead(false, 1) }
+        }
+        Layout(
+            content = {
+                BackToLibrary(onHome)
+                markRemaining(Modifier)
+                next(Modifier)
+            },
+            modifier = strip,
+        ) { measurables, constraints ->
+            // One row when the buttons fit side by side; otherwise the actions stack at full width above the way back.
+            val gap = 12.dp.roundToPx()
+            val needed = measurables.sumOf { it.maxIntrinsicWidth(Constraints.Infinity) } + gap * (measurables.size - 1)
+            val width = constraints.maxWidth
+            val back = measurables.first()
+            val actions = measurables.drop(1)
+            if (needed <= width) {
+                val placeables = measurables.map { it.measure(Constraints(maxWidth = width)) }
+                val height = placeables.maxOf { it.height }
+                layout(width, height) {
+                    placeables.first().place(0, (height - placeables.first().height) / 2)
+                    var x = width
+                    for (p in placeables.drop(1).reversed()) {
+                        x -= p.width
+                        p.place(x, (height - p.height) / 2)
+                        x -= gap
                     }
                 }
-                Spacer(Modifier.weight(1f))
-                if (!compact) Text("Page ${state.pageNumber} of ${state.pageCount}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            } else {
+                val rowGap = 12.dp.roundToPx()
+                val placeables = actions.map { it.measure(Constraints.fixedWidth(width)) } + back.measure(Constraints(maxWidth = width))
+                layout(width, placeables.sumOf { it.height } + rowGap * (placeables.size - 1)) {
+                    var y = 0
+                    for (p in placeables) {
+                        p.place(0, y)
+                        y += p.height + rowGap
+                    }
+                }
             }
         }
+    }
+}
+
+/** Widens the content by [horizontal] on each side, into its parent's padding. */
+private fun Modifier.bleed(horizontal: Dp) = layout { measurable, constraints ->
+    val extra = horizontal.roundToPx()
+    val width = constraints.maxWidth + 2 * extra
+    val placeable = measurable.measure(constraints.copy(minWidth = width, maxWidth = width))
+    layout(constraints.maxWidth, placeable.height) { placeable.place(-extra, 0) }
+}
+
+@Composable
+private fun BackToLibrary(onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.clip(RoundedCornerShape(10.dp)).clickable(onClick = onClick).padding(horizontal = 6.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
+        Text("Back to library", style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
+    }
+}
+
+@Composable
+private fun MarkRemainingButton(unknowns: Int, modifier: Modifier, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        modifier.height(52.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outline.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
+            .background(colors.surface).clickable(onClick = onClick).padding(start = 16.dp, end = 10.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
+    ) {
+        Icon(AppIcons.DoneAll, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
+        Text("Mark remaining words as known", style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = colors.onSurface, softWrap = false)
+        Text(
+            "$unknowns",
+            Modifier.clip(RoundedCornerShape(50)).background(colors.surfaceVariant).padding(horizontal = 10.dp, vertical = 3.dp),
+            style = MaterialTheme.typography.labelLarge,
+            color = colors.onSurfaceVariant,
+        )
+    }
+}
+
+@Composable
+private fun PrimaryFooterButton(label: String, modifier: Modifier, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        modifier.height(52.dp).clip(RoundedCornerShape(10.dp)).background(colors.primary).clickable(onClick = onClick).padding(horizontal = 20.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally),
+    ) {
+        Text(label, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = colors.onPrimary, softWrap = false)
+        Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(20.dp))
     }
 }
 
@@ -1149,26 +1198,6 @@ private fun SourceChip(url: String, onClick: () -> Unit) {
         Box(Modifier.width(1.dp).height(20.dp).background(colors.outlineVariant))
         Text(host, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         Icon(AppIcons.OpenInNew, contentDescription = "Open source", tint = colors.onSurfaceVariant, modifier = Modifier.size(16.dp))
-    }
-}
-
-@Composable
-private fun ActionCard(modifier: Modifier, title: String, subtitle: String, filled: Boolean, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val foreground = if (filled) colors.onPrimary else colors.primary
-    Row(
-        modifier.clip(RoundedCornerShape(12.dp))
-            .background(if (filled) colors.primary else colors.surface)
-            .border(1.dp, if (filled) colors.primary else colors.outlineVariant, RoundedCornerShape(12.dp))
-            .clickable(onClick = onClick).padding(horizontal = 18.dp, vertical = 16.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-    ) {
-        Icon(Icons.Default.CheckCircle, contentDescription = null, tint = foreground, modifier = Modifier.size(28.dp))
-        Column {
-            Text(title, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = if (filled) colors.onPrimary else colors.onSurface)
-            Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = if (filled) colors.onPrimary.copy(alpha = 0.8f) else colors.onSurfaceVariant)
-        }
     }
 }
 

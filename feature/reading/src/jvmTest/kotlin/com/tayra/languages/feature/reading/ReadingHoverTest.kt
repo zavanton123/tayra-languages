@@ -58,6 +58,7 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPackStore
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import com.tayra.languages.feature.terms.form.TermFormKey
 import androidx.compose.ui.test.click
+import androidx.compose.ui.test.assertTextContains
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.graphics.toAwtImage
@@ -193,19 +194,29 @@ class ReadingHoverTest {
         assertNull(vm.hoverCard("lobo"), "the word whose pane is open needs no card")
     }
 
-    /** The end of the page offers to mark the unknown words as known, and only while there are some. */
+    /**
+     * The footer offers to mark the unknown words as known, with their count, only while there
+     * are some; on the last page "Finish book" goes back to the library.
+     */
     @Test
-    fun theEndOfThePageOffersToMarkUnknownWordsOnlyWhileThereAreSome() {
+    fun theFooterMarksUnknownWordsAndFinishesTheBook() {
         val vm = runBlocking { reader(mainIsDefault = false) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
-        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        var home = false
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = { home = true }, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Mark remaining words as known").fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(rule.onAllNodesWithText("Mark page as read").fetchSemanticsNodes().isEmpty())
+        rule.onNodeWithText("Mark remaining words as known").performScrollTo().assertTextContains("5")
+        System.getenv("READING_FOOTER_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
 
-        rule.onNodeWithText("Mark remaining words as known").performScrollTo().performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Every word on this page has a status.").fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(rule.onAllNodesWithText("Mark remaining words as known").fetchSemanticsNodes().isEmpty())
+        rule.onNodeWithText("Mark remaining words as known").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Mark remaining words as known").fetchSemanticsNodes().isEmpty() }
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { termRepository.findByTextLc(languageId, "lobo") }?.status)
+
+        rule.onNodeWithText("Finish book").performScrollTo().performClick()
+        rule.waitUntil(5_000) { home }
     }
 
     /** Hovering the page's vocabulary bar explains it; ignored words count as known. */
