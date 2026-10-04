@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
 import kotlin.coroutines.cancellation.CancellationException
 import androidx.lifecycle.ViewModel
@@ -636,6 +637,7 @@ class ReadingViewModel(
         it.copy(readingFontScale = ((it.readingFontScale * 10).roundToInt() + steps).coerceIn(6, 25) / 10f)
     }
 
+    fun setReadingFont(font: ReadingFont) = updateSettings { it.copy(readingFont = font.id) }
     fun resetFontSize() = updateSettings { it.copy(readingFontScale = UserSettings().readingFontScale) }
 
     fun resetLineHeight() = updateSettings { it.copy(readingLineHeight = UserSettings().readingLineHeight) }

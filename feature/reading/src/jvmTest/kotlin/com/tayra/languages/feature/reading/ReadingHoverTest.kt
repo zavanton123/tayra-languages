@@ -283,6 +283,26 @@ class ReadingHoverTest {
         assertTrue(top("One sentence per line") < heading, "reading options stay under Reading")
     }
 
+    /** Typography offers the reading fonts; picking one saves it and the row shows it. */
+    @Test
+    fun theMenuChangesTheReadingFont() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Menu").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Font").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Font").performScrollTo().performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Lora").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("FONT_MENU_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        rule.onNodeWithText("Lora").performClick()
+        rule.waitUntil(5_000) { settings.current.readingFont == "lora" }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Lora").fetchSemanticsNodes().isNotEmpty() }
+    }
+
     /** Hovering the page's vocabulary bar explains it; ignored words count as known. */
     @Test
     fun hoveringTheVocabularyBarShowsTheCountsByStatus() {

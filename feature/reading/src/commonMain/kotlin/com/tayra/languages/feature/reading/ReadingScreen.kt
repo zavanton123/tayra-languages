@@ -391,6 +391,16 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         SpeechSection(state, viewModel, onSettings = { onClose(); actions.onSpeechSettings() })
 
         MenuSection("Typography")
+        val font = ReadingFont.byId(prefs.readingFont)
+        ChoiceRow(
+            icon = AppIcons.Abc,
+            title = "Font",
+            value = font.label,
+            options = ReadingFont.choices,
+            optionLabel = { it.label },
+            optionFont = { it },
+            onSelect = viewModel::setReadingFont,
+        )
         AdjustRow(AppIcons.FormatSize, "Font size", "${(prefs.readingFontScale * 100).toInt()}%", onLess = { viewModel.adjustFontScale(-0.1f) }, onMore = { viewModel.adjustFontScale(0.1f) })
         AdjustRow(AppIcons.LineSpacing, "Line height", "${(prefs.readingLineHeight * 10).toInt() / 10f}", onLess = { viewModel.adjustLineHeight(-0.1f) }, onMore = { viewModel.adjustLineHeight(0.1f) })
         AdjustRow(AppIcons.OpenInFull, "Text width", "${prefs.readingColumnWidth}", onLess = { viewModel.adjustColumnWidth(-80) }, onMore = { viewModel.adjustColumnWidth(80) })
@@ -546,6 +556,8 @@ private fun <T> ChoiceRow(
     options: List<T>,
     optionLabel: (T) -> String,
     optionEnabled: (T) -> Boolean = { true },
+    /** Shows each option in its own reading font, for a choice of fonts. */
+    optionFont: ((T) -> ReadingFont)? = null,
     onSelect: (T) -> Unit,
 ) {
     var open by remember { mutableStateOf(false) }
@@ -565,7 +577,11 @@ private fun <T> ChoiceRow(
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             options.forEach { option ->
-                AppMenuItem(text = { Text(optionLabel(option)) }, onClick = { open = false; onSelect(option) }, enabled = optionEnabled(option))
+                AppMenuItem(
+                    text = { Text(optionLabel(option), fontFamily = optionFont?.invoke(option)?.fontFamily()) },
+                    onClick = { open = false; onSelect(option) },
+                    enabled = optionEnabled(option),
+                )
             }
         }
     }
