@@ -71,7 +71,6 @@ private val menuGroups = listOf(
  * Vocabulary, Settings, About), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
  *
  * @param section the area the current screen belongs to; its tab is highlighted.
- * @param centerContent an optional widget shown in the middle of the wide bar, such as a search box.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -81,7 +80,6 @@ fun AppTopBar(
     onBack: (() -> Unit)? = null,
     showMenu: Boolean = true,
     section: NavSection? = null,
-    centerContent: (@Composable () -> Unit)? = null,
     actions: @Composable () -> Unit = {},
 ) {
     val width = LocalWindowWidth.current
@@ -122,10 +120,6 @@ fun AppTopBar(
                     LearningLanguageSelector(compact = false)
                 }
                 Spacer(Modifier.weight(1f))
-                if (centerContent != null) {
-                    Box(Modifier.weight(2f).widthIn(max = 600.dp)) { centerContent() }
-                    Spacer(Modifier.weight(1f))
-                }
                 actions()
                 if (showMenu) WideMenu(section, onNavigate)
             }

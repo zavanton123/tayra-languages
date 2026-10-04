@@ -97,7 +97,6 @@ fun BooksScreen(
                 onNavigate = onNavigate,
                 onBack = onBack,
                 section = NavSection.BOOKS,
-                centerContent = if (compact) null else ({ SearchBox(state.search, viewModel::setSearch) }),
                 actions = {
                     if (!archived) {
                         IconButton(onClick = viewModel::refreshAllStats) { Icon(Icons.Default.Refresh, contentDescription = "Refresh stats") }
@@ -180,10 +179,10 @@ private class BookActions(
 )
 
 @Composable
-private fun SearchBox(value: String, onChange: (String) -> Unit) {
+private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
-        Modifier.fillMaxWidth().height(40.dp).clip(RoundedCornerShape(10.dp)).background(colors.surfaceVariant.copy(alpha = 0.6f))
+        modifier.height(40.dp).clip(RoundedCornerShape(10.dp)).background(colors.surfaceVariant.copy(alpha = 0.6f))
             .border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -198,7 +197,7 @@ private fun SearchBox(value: String, onChange: (String) -> Unit) {
             modifier = Modifier.weight(1f),
             decorationBox = { inner ->
                 Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text("Search books", color = colors.onSurfaceVariant, style = LocalTextStyle.current)
+                    if (value.isEmpty()) Text("Search books", color = colors.onSurfaceVariant, style = LocalTextStyle.current, maxLines = 1, overflow = TextOverflow.Ellipsis)
                     inner()
                 }
             },
@@ -288,6 +287,8 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, count: Int, viewModel
             verticalArrangement = Arrangement.spacedBy(10.dp),
             itemVerticalAlignment = Alignment.CenterVertically,
         ) {
+            // On wide screens the search leads the filters; phones have it full width above them.
+            if (!compact) SearchBox(state.search, viewModel::setSearch, Modifier.width(300.dp))
             FilterMenu(icon = AppIcons.SwapVert, label = state.sort.label, options = BookSort.entries, optionLabel = { it.label }, onSelect = viewModel::setSort)
             FilterMenu(icon = AppIcons.BarChart, label = state.mastery.label, options = MasteryFilter.entries, optionLabel = { it.label }, onSelect = viewModel::setMastery)
             if (!compact) {
