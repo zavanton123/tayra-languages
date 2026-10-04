@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -22,7 +23,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
@@ -35,16 +36,21 @@ import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.PlainTooltip
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.material3.TooltipAnchorPosition
+import androidx.compose.material3.TooltipBox
+import androidx.compose.material3.TooltipDefaults
+import androidx.compose.material3.rememberTooltipState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
@@ -59,19 +65,21 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.layout.Layout
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.BookListItem
 import com.tayra.languages.core.ui.components.AppIcons
-import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
+import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
-import com.tayra.languages.core.ui.components.StatusDistributionBar
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
@@ -88,7 +96,6 @@ fun BooksScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     var pendingDelete by remember { mutableStateOf<BookListItem?>(null) }
     var confirmWipe by remember { mutableStateOf(false) }
-    val compact = LocalWindowWidth.current.isCompact
 
     Scaffold(
         topBar = {
@@ -109,43 +116,25 @@ fun BooksScreen(
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        val books = state.filteredBooks
-        val gutter = if (compact) 16.dp else 32.dp
-        val actions = BookActions(
-            onOpen = { onNavigate(Route.Read(it.id)) },
-            onEdit = { onNavigate(Route.EditBook(it.id)) },
-            onArchive = { if (it.isArchived) viewModel.unarchive(it.id) else viewModel.archive(it.id) },
-            onDelete = { pendingDelete = it },
-            onBookmarks = { onNavigate(Route.Bookmarks(it.id)) },
+        BooksContent(
+            state = state,
+            callbacks = BooksCallbacks(
+                onOpen = { onNavigate(Route.Read(it.id)) },
+                onEdit = { onNavigate(Route.EditBook(it.id)) },
+                onArchive = { if (it.isArchived) viewModel.unarchive(it.id) else viewModel.archive(it.id) },
+                onDelete = { pendingDelete = it },
+                onBookmarks = { onNavigate(Route.Bookmarks(it.id)) },
+                onNewBook = { onNavigate(Route.NewBook) },
+                onOpenTutorial = { onNavigate(Route.Read(it, 1)) },
+                onWipe = { confirmWipe = true },
+                onDismissDemo = viewModel::dismissDemoNotice,
+                onSearch = viewModel::setSearch,
+                onSort = viewModel::setSort,
+                onProgress = viewModel::setProgress,
+                onView = viewModel::setView,
+            ),
+            modifier = Modifier.padding(padding),
         )
-        LazyColumn(
-            Modifier.padding(padding).fillMaxSize(),
-            contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(0.dp),
-        ) {
-            if (state.isDemo && !archived) {
-                item {
-                    DemoNotice(
-                        tutorialBookId = state.tutorialBookId,
-                        onOpenTutorial = { onNavigate(Route.Read(it, 1)) },
-                        onWipe = { confirmWipe = true },
-                        onDismiss = viewModel::dismissDemoNotice,
-                    )
-                }
-            }
-            item { PageHeader(archived, compact, onNewBook = { onNavigate(Route.NewBook) }) }
-            if (!archived) item { StatCards(state, compact) }
-            item { Toolbar(state, compact, books.size, viewModel) }
-            when {
-                books.isEmpty() -> item { EmptyState(archived, onNewBook = { onNavigate(Route.NewBook) }) }
-                compact || state.view == BooksView.GRID -> item { BookGrid(books, compact, actions) }
-                else -> {
-                    item { TableHeader(state.sort, onSort = viewModel::setSort) }
-                    itemsIndexed(books, key = { _, book -> book.id }) { index, book -> BookTableRow(book, index, actions) }
-                }
-            }
-            item { Footer(state) }
-        }
     }
 
     pendingDelete?.let { book ->
@@ -170,34 +159,199 @@ fun BooksScreen(
     }
 }
 
-private class BookActions(
-    val onOpen: (BookListItem) -> Unit,
-    val onEdit: (BookListItem) -> Unit,
-    val onArchive: (BookListItem) -> Unit,
-    val onDelete: (BookListItem) -> Unit,
-    val onBookmarks: (BookListItem) -> Unit,
+internal class BooksCallbacks(
+    val onOpen: (BookListItem) -> Unit = {},
+    val onEdit: (BookListItem) -> Unit = {},
+    val onArchive: (BookListItem) -> Unit = {},
+    val onDelete: (BookListItem) -> Unit = {},
+    val onBookmarks: (BookListItem) -> Unit = {},
+    val onNewBook: () -> Unit = {},
+    val onOpenTutorial: (Long) -> Unit = {},
+    val onWipe: () -> Unit = {},
+    val onDismissDemo: () -> Unit = {},
+    val onSearch: (String) -> Unit = {},
+    val onSort: (BookSort) -> Unit = {},
+    val onProgress: (ProgressFilter) -> Unit = {},
+    val onView: (BooksView) -> Unit = {},
 )
+
+/** The page below the top bar, from the header to the list of books. */
+@Composable
+internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifier: Modifier = Modifier) {
+    val compact = LocalWindowWidth.current.isCompact
+    // The table needs a wide window; narrower ones list the books as cards.
+    val wide = LocalWindowWidth.current.isExpanded
+    val books = state.filteredBooks
+    LazyColumn(
+        modifier.fillMaxSize(),
+        contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
+    ) {
+        if (state.isDemo && !state.archived) {
+            item { DemoNotice(state.tutorialBookId, callbacks) }
+        }
+        item { PageHeader(state.archived, compact, callbacks.onNewBook) }
+        if (!state.archived) item { StatCards(state, stacked = !wide) }
+        item { Toolbar(state, compact, wide, books.size, callbacks) }
+        item {
+            when {
+                books.isEmpty() -> EmptyState(state.archived, callbacks.onNewBook)
+                !wide || state.view == BooksView.GRID -> BookGrid(books, compact, callbacks)
+                else -> BookTable(books, state.sort, callbacks)
+            }
+        }
+    }
+}
+
+@Composable
+private fun PageHeader(archived: Boolean, compact: Boolean, onNewBook: () -> Unit) {
+    Row(Modifier.fillMaxWidth().padding(bottom = 24.dp), verticalAlignment = Alignment.CenterVertically) {
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            Text(
+                if (archived) "Archived books" else "Books",
+                style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium,
+                fontWeight = FontWeight.Bold,
+            )
+            Text(
+                if (archived) "Books you have set aside. Unarchive one to keep reading it." else "Read, learn, and explore languages through great texts.",
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+        if (!archived) {
+            Button(onClick = onNewBook, shape = RoundedCornerShape(10.dp), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 12.dp)) {
+                Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
+                Spacer(Modifier.width(8.dp))
+                Text("New book", fontWeight = FontWeight.SemiBold)
+            }
+        }
+    }
+}
+
+private data class StatCard(val value: String, val label: String, val icon: ImageVector, val tint: Color)
+
+private val BLUE = Color(0xFF3B6FE0)
+private val PURPLE = Color(0xFF7C4DDB)
+private val GREEN = Color(0xFF2E9D57)
+private val ORANGE = Color(0xFFEA7A1B)
+private val PROGRESS = Color(0xFF4A90E2)
+private val KNOWN = Color(0xFF4CC38A)
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun StatCards(state: BooksUiState, stacked: Boolean) {
+    val cards = buildList {
+        add(StatCard(state.books.size.grouped(), if (state.books.size == 1) "Book" else "Books", AppIcons.Book, BLUE))
+        add(StatCard(state.wordsLearned.grouped(), "Words learned", AppIcons.BarChart, PURPLE))
+        add(StatCard(state.currentlyReading.grouped(), "Currently reading", AppIcons.MenuBook, GREEN))
+        if (state.showStreak) add(StatCard("${state.streak}", if (state.streak == 1) "Day streak" else "Days streak", AppIcons.Flame, ORANGE))
+    }
+    FlowRow(
+        Modifier.fillMaxWidth().padding(bottom = 24.dp),
+        horizontalArrangement = Arrangement.spacedBy(if (stacked) 10.dp else 20.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
+        maxItemsInEachRow = if (stacked && cards.size > 3) 2 else cards.size,
+    ) {
+        cards.forEach { card ->
+            val shape = RoundedCornerShape(14.dp)
+            val box = Modifier.weight(1f).clip(shape).background(card.tint.copy(alpha = 0.05f)).border(1.dp, card.tint.copy(alpha = 0.16f), shape)
+            if (stacked) {
+                // Narrow windows stack the icon, figure and label so three cards fit side by side.
+                Column(box.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Box(Modifier.size(32.dp).clip(CircleShape).background(card.tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
+                        Icon(card.icon, contentDescription = null, tint = card.tint, modifier = Modifier.size(18.dp))
+                    }
+                    Text(card.value, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, maxLines = 1)
+                    Text(card.label, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, minLines = 2, maxLines = 2)
+                }
+            } else {
+                Row(box.padding(horizontal = 22.dp, vertical = 18.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(Modifier.size(64.dp).clip(CircleShape).background(card.tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
+                        Icon(card.icon, contentDescription = null, tint = card.tint, modifier = Modifier.size(28.dp))
+                    }
+                    Spacer(Modifier.width(22.dp))
+                    Column {
+                        Text(card.value, style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold, maxLines = 1)
+                        Text(card.label, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count: Int, callbacks: BooksCallbacks) {
+    val colors = MaterialTheme.colorScheme
+    val sortMenu: @Composable (Modifier) -> Unit = { FilterMenu(AppIcons.SwapVert, state.sort.label, BookSort.entries, { it.label }, callbacks.onSort, it) }
+    val progressMenu: @Composable (Modifier) -> Unit = { FilterMenu(AppIcons.BarChart, state.progress.label, ProgressFilter.entries, { it.label }, callbacks.onProgress, it) }
+    if (compact) {
+        Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            SearchBox(state.search, callbacks.onSearch, Modifier.fillMaxWidth())
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                sortMenu(Modifier.weight(1f))
+                progressMenu(Modifier.weight(1f))
+            }
+        }
+        return
+    }
+    Layout(
+        content = {
+            SearchBox(state.search, callbacks.onSearch)
+            sortMenu(Modifier)
+            progressMenu(Modifier)
+            // Only wide windows have the table to switch to.
+            if (wide) ViewToggle(state.view, callbacks.onView) else Spacer(Modifier)
+            Text("$count book${if (count == 1) "" else "s"}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
+        },
+        modifier = Modifier.fillMaxWidth().padding(bottom = 20.dp),
+    ) { measurables, constraints ->
+        // The search takes what the other controls leave, up to a comfortable width; when too
+        // little is left it gets a row of its own above them.
+        val gap = 14.dp.roundToPx()
+        val width = constraints.maxWidth
+        val loose = Constraints(maxWidth = width)
+        val (search, sort, progress, toggle, label) = measurables
+        val controls = listOf(sort, progress, toggle, label).map { it.measure(loose) }
+        val controlsWidth = controls.sumOf { it.width } + gap * 3 + 16.dp.roundToPx()
+        val searchWidth = (width - controlsWidth - gap).coerceAtMost(520.dp.roundToPx())
+        val ownRow = searchWidth < 200.dp.roundToPx()
+        val field = search.measure(Constraints.fixedWidth(if (ownRow) width else searchWidth))
+        val rowHeight = maxOf(field.height, controls.maxOf { it.height })
+        val top = if (ownRow) field.height + 12.dp.roundToPx() else 0
+        layout(width, top + rowHeight) {
+            fun centred(p: androidx.compose.ui.layout.Placeable, x: Int) = p.place(x, top + (rowHeight - p.height) / 2)
+            var x = 0
+            if (ownRow) field.place(0, 0) else { field.place(0, (rowHeight - field.height) / 2); x = field.width + gap }
+            centred(controls[0], x)
+            centred(controls[1], x + controls[0].width + gap)
+            centred(controls[3], width - controls[3].width)
+            centred(controls[2], width - controls[3].width - 20.dp.roundToPx() - controls[2].width)
+        }
+    }
+}
+
+private val CONTROL_HEIGHT = 48.dp
 
 @Composable
 private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.height(40.dp).clip(RoundedCornerShape(10.dp)).background(colors.surfaceVariant.copy(alpha = 0.6f))
-            .border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 12.dp),
+        modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).background(colors.surfaceVariant.copy(alpha = 0.45f))
+            .border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 16.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-        Spacer(Modifier.width(8.dp))
+        Icon(Icons.Default.Search, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
+        Spacer(Modifier.width(12.dp))
         BasicTextField(
             value = value,
             onValueChange = onChange,
             singleLine = true,
-            textStyle = LocalTextStyle.current.copy(color = colors.onSurface),
+            textStyle = MaterialTheme.typography.bodyLarge.copy(color = colors.onSurface),
             cursorBrush = SolidColor(colors.primary),
             modifier = Modifier.weight(1f),
             decorationBox = { inner ->
                 Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text("Search books", color = colors.onSurfaceVariant, style = LocalTextStyle.current, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    if (value.isEmpty()) Text("Search books", color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                     inner()
                 }
             },
@@ -206,115 +360,19 @@ private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modif
 }
 
 @Composable
-private fun PageHeader(archived: Boolean, compact: Boolean, onNewBook: () -> Unit) {
-    Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.CenterVertically) {
-        Column(Modifier.weight(1f)) {
-            Text(
-                if (archived) "Archived books" else "Books",
-                style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium,
-                fontWeight = FontWeight.Bold,
-            )
-            Text(
-                if (archived) "Books you have set aside. Unarchive one to keep reading it." else "Read, learn, and explore languages through great texts.",
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-        if (!archived) {
-            Button(onClick = onNewBook, shape = RoundedCornerShape(10.dp)) {
-                Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
-                Spacer(Modifier.width(6.dp))
-                Text("New book")
-            }
-        }
-    }
-}
-
-private data class StatCard(val label: String, val value: String, val icon: ImageVector, val tint: Color)
-
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun StatCards(state: BooksUiState, compact: Boolean) {
-    val cards = buildList {
-        add(StatCard("Total books", state.books.size.toString(), AppIcons.Book, Color(0xFF3B6FE0)))
-        add(StatCard("Words learned", state.wordsLearned.toString(), AppIcons.BarChart, Color(0xFF7C4DDB)))
-        if (state.showStreak) add(StatCard("Reading streak", "${state.streak} day${if (state.streak == 1) "" else "s"}", AppIcons.Flame, Color(0xFFEA7A1B)))
-    }
-    FlowRow(
-        Modifier.fillMaxWidth().padding(bottom = 20.dp),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp),
-        maxItemsInEachRow = if (compact) 2 else cards.size,
-    ) {
-        cards.forEach { card ->
-            Row(
-                Modifier.weight(1f).clip(RoundedCornerShape(14.dp)).background(card.tint.copy(alpha = 0.06f))
-                    .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
-                    .padding(horizontal = 16.dp, vertical = 18.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Box(Modifier.size(48.dp).clip(RoundedCornerShape(24.dp)).background(card.tint.copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
-                    Icon(card.icon, contentDescription = null, tint = card.tint, modifier = Modifier.size(24.dp))
-                }
-                Spacer(Modifier.width(14.dp))
-                Column {
-                    Text(card.label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    Text(card.value, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                }
-            }
-        }
-    }
-}
-
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun Toolbar(state: BooksUiState, compact: Boolean, count: Int, viewModel: BooksViewModel) {
-    Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        if (compact) {
-            OutlinedTextField(
-                value = state.search,
-                onValueChange = viewModel::setSearch,
-                placeholder = { Text("Search books") },
-                leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
-                singleLine = true,
-                shape = RoundedCornerShape(10.dp),
-                modifier = Modifier.fillMaxWidth(),
-            )
-        }
-        FlowRow(
-            Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(10.dp),
-            verticalArrangement = Arrangement.spacedBy(10.dp),
-            itemVerticalAlignment = Alignment.CenterVertically,
-        ) {
-            // On wide screens the search leads the filters; phones have it full width above them.
-            if (!compact) SearchBox(state.search, viewModel::setSearch, Modifier.width(300.dp))
-            FilterMenu(icon = AppIcons.SwapVert, label = state.sort.label, options = BookSort.entries, optionLabel = { it.label }, onSelect = viewModel::setSort)
-            FilterMenu(icon = AppIcons.BarChart, label = state.mastery.label, options = MasteryFilter.entries, optionLabel = { it.label }, onSelect = viewModel::setMastery)
-            if (!compact) {
-                Spacer(Modifier.weight(1f))
-                ViewToggle(state.view, onSelect = viewModel::setView)
-                Text("$count book${if (count == 1) "" else "s"}", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-        }
-    }
-}
-
-@Composable
-private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, optionLabel: (T) -> String, onSelect: (T) -> Unit) {
+private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, optionLabel: (T) -> String, onSelect: (T) -> Unit, modifier: Modifier = Modifier) {
+    val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
-    Box {
-        OutlinedButton(
-            onClick = { open = true },
-            shape = RoundedCornerShape(10.dp),
-            contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
-            colors = androidx.compose.material3.ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.onSurface),
+    Box(modifier) {
+        Row(
+            Modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+                .background(colors.surface).clickable { open = true }.padding(start = 16.dp, end = 10.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(8.dp))
-            Text(label, style = MaterialTheme.typography.bodyMedium)
-            Spacer(Modifier.width(4.dp))
-            Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant)
+            Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
+            Text(label, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = colors.onSurfaceVariant)
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             options.forEach { option ->
@@ -327,150 +385,209 @@ private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, o
 @Composable
 private fun ViewToggle(selected: BooksView, onSelect: (BooksView) -> Unit) {
     val colors = MaterialTheme.colorScheme
-    Row(Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(3.dp)) {
+    Row(
+        Modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+            .background(colors.surface).padding(4.dp),
+        horizontalArrangement = Arrangement.spacedBy(4.dp),
+    ) {
         listOf(BooksView.LIST to AppIcons.ViewList, BooksView.GRID to AppIcons.GridView).forEach { (view, icon) ->
             val active = view == selected
             Box(
-                Modifier.size(34.dp).clip(RoundedCornerShape(8.dp))
+                Modifier.fillMaxHeight().width(44.dp).clip(RoundedCornerShape(8.dp))
                     .background(if (active) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
                     .clickable { onSelect(view) },
                 contentAlignment = Alignment.Center,
             ) {
-                Icon(icon, contentDescription = view.name.lowercase(), tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
+                Icon(icon, contentDescription = "${view.name.lowercase()} view", tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
             }
         }
     }
 }
 
 // Column weights shared by the table header and rows.
-private const val TITLE_WEIGHT = 3f
-private const val POSITION_WEIGHT = 2.4f
-private const val OPENED_WEIGHT = 1.5f
-private const val MASTERY_WEIGHT = 1.8f
+private const val BOOK_WEIGHT = 3.2f
+private const val PROGRESS_WEIGHT = 2.6f
+private const val OPENED_WEIGHT = 1.4f
+private const val KNOWN_WEIGHT = 2.2f
 private val MENU_WIDTH = 48.dp
+
+@Composable
+private fun BookTable(books: List<BookListItem>, sort: BookSort, callbacks: BooksCallbacks) {
+    val colors = MaterialTheme.colorScheme
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).background(colors.surface),
+    ) {
+        TableHeader(sort, callbacks.onSort)
+        books.forEach { book ->
+            HorizontalDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
+            BookTableRow(book, callbacks)
+        }
+    }
+}
 
 @Composable
 private fun TableHeader(sort: BookSort, onSort: (BookSort) -> Unit) {
     val colors = MaterialTheme.colorScheme
-    CompositionLocalProvider(LocalContentColor provides colors.onSurfaceVariant, LocalTextStyle provides MaterialTheme.typography.bodyMedium) {
+    CompositionLocalProvider(LocalContentColor provides colors.onSurfaceVariant, LocalTextStyle provides MaterialTheme.typography.bodyLarge) {
         Row(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(topStart = 10.dp, topEnd = 10.dp)).background(colors.surfaceVariant.copy(alpha = 0.5f))
-                .padding(horizontal = 16.dp, vertical = 12.dp),
+            Modifier.fillMaxWidth().background(colors.surfaceVariant.copy(alpha = 0.35f)).padding(horizontal = 20.dp, vertical = 14.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            HeaderCell("Title", TITLE_WEIGHT, AppIcons.UnfoldMore, active = sort == BookSort.TITLE) { onSort(BookSort.TITLE) }
-            HeaderCell("Reading position", POSITION_WEIGHT)
+            HeaderCell("Book", BOOK_WEIGHT, active = sort == BookSort.TITLE) { onSort(BookSort.TITLE) }
+            HeaderCell("Reading progress", PROGRESS_WEIGHT)
             HeaderCell("Last opened", OPENED_WEIGHT, Icons.Default.KeyboardArrowDown, active = sort == BookSort.RECENT) { onSort(BookSort.RECENT) }
-            HeaderCell("Vocabulary mastery", MASTERY_WEIGHT, Icons.Default.Info, active = sort == BookSort.MASTERY) { onSort(BookSort.MASTERY) }
-            Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { Text("···") }
+            Row(Modifier.weight(KNOWN_WEIGHT), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                HeaderLabel("Vocabulary known", active = sort == BookSort.MASTERY) { onSort(BookSort.MASTERY) }
+                InfoTooltip("The share of the book's distinct words that are no longer new: being learned, known or ignored.")
+            }
+            Spacer(Modifier.width(MENU_WIDTH))
         }
     }
 }
 
 @Composable
 private fun RowScope.HeaderCell(label: String, weight: Float, icon: ImageVector? = null, active: Boolean = false, onClick: (() -> Unit)? = null) {
+    Box(Modifier.weight(weight)) { HeaderLabel(label, icon, active, onClick) }
+}
+
+@Composable
+private fun HeaderLabel(label: String, icon: ImageVector? = null, active: Boolean = false, onClick: (() -> Unit)? = null) {
+    val tint = if (active) MaterialTheme.colorScheme.primary else LocalContentColor.current
     Row(
-        Modifier.weight(weight).then(if (onClick != null) Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onClick) else Modifier),
+        (if (onClick != null) Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onClick) else Modifier).padding(vertical = 2.dp),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(4.dp),
+        horizontalArrangement = Arrangement.spacedBy(6.dp),
     ) {
-        Text(label, color = if (active) MaterialTheme.colorScheme.primary else LocalContentColor.current, fontWeight = FontWeight.Medium)
-        if (icon != null) Icon(icon, contentDescription = null, modifier = Modifier.size(16.dp), tint = if (active) MaterialTheme.colorScheme.primary else LocalContentColor.current)
+        Text(label, color = tint, fontWeight = FontWeight.Medium)
+        if (icon != null) Icon(icon, contentDescription = null, modifier = Modifier.size(18.dp), tint = tint)
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun InfoTooltip(text: String) {
+    TooltipBox(
+        positionProvider = TooltipDefaults.rememberTooltipPositionProvider(TooltipAnchorPosition.Above),
+        tooltip = { PlainTooltip { Text(text) } },
+        state = rememberTooltipState(isPersistent = true),
+    ) {
+        Icon(Icons.Default.Info, contentDescription = text, tint = LocalContentColor.current, modifier = Modifier.size(18.dp))
     }
 }
 
 @Composable
-private fun BookTableRow(book: BookListItem, index: Int, actions: BookActions) {
+private fun BookTableRow(book: BookListItem, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
-    val background = when {
-        hovered -> colors.primary.copy(alpha = 0.08f)
-        index % 2 == 1 -> colors.surfaceVariant.copy(alpha = 0.25f)
-        else -> Color.Transparent
-    }
     Row(
-        Modifier.fillMaxWidth().background(background).hoverable(interaction).clickable { actions.onOpen(book) }
-            .padding(horizontal = 16.dp, vertical = 10.dp),
+        Modifier.fillMaxWidth().background(if (hovered) colors.primary.copy(alpha = 0.04f) else Color.Transparent)
+            .hoverable(interaction).clickable { callbacks.onOpen(book) }.padding(horizontal = 20.dp, vertical = 16.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Row(Modifier.weight(TITLE_WEIGHT).padding(end = 16.dp), verticalAlignment = Alignment.CenterVertically) {
-            LanguageBadge(book.languageName)
-            Spacer(Modifier.width(14.dp))
-            Text(
-                book.title,
-                Modifier.weight(1f, fill = false),
-                style = MaterialTheme.typography.bodyLarge,
-                fontWeight = FontWeight.Medium,
-                maxLines = 1,
-                overflow = TextOverflow.Ellipsis,
-            )
-            if (book.isCompleted) Text(" ✓", color = colors.tertiary)
-        }
-        Column(Modifier.weight(POSITION_WEIGHT).padding(end = 24.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text("page ${book.currentPage}/${book.pageCount}  ·  ${book.wordCount} words", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                StatusDistributionBar(book.stats, Modifier.weight(1f))
-                Text(book.stats?.let { "${it.unknownPercent}% new" } ?: "…", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, softWrap = false)
+        Row(Modifier.weight(BOOK_WEIGHT).padding(end = 24.dp), verticalAlignment = Alignment.CenterVertically) {
+            LanguageBadge(book.languageName, 48.dp)
+            Spacer(Modifier.width(18.dp))
+            Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Text(
+                        book.title,
+                        Modifier.weight(1f, fill = false),
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.SemiBold,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                    StatusTag(book.readingStatus)
+                }
+                Text(words(book.wordCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
         }
-        Text(book.lastOpened?.relativeTo() ?: "Not yet", Modifier.weight(OPENED_WEIGHT), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        Box(Modifier.weight(MASTERY_WEIGHT).padding(end = 16.dp)) { MasteryBar(book.masteryPercent) }
-        Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { BookMenu(book, actions) }
+        Column(Modifier.weight(PROGRESS_WEIGHT).padding(end = 32.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text("Page ${book.currentPage} of ${book.pageCount}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            PercentBar(book.progressPercent, PROGRESS)
+        }
+        Text(book.lastOpened?.relativeTo() ?: "Not opened yet", Modifier.weight(OPENED_WEIGHT).padding(end = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        Box(Modifier.weight(KNOWN_WEIGHT).padding(end = 24.dp)) { PercentBar(book.masteryPercent, KNOWN) }
+        Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { BookMenu(book, callbacks) }
+    }
+}
+
+@Composable
+private fun StatusTag(status: ReadingStatus) {
+    val (label, tint) = when (status) {
+        ReadingStatus.READING -> "Reading" to BLUE
+        ReadingStatus.FINISHED -> "Finished" to GREEN
+        ReadingStatus.NOT_STARTED -> return
+    }
+    Text(
+        label,
+        Modifier.clip(RoundedCornerShape(50)).background(tint.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
+        style = MaterialTheme.typography.labelLarge,
+        color = tint,
+        maxLines = 1,
+        softWrap = false,
+    )
+}
+
+/** A thin bar filled to [percent] with the figure beside it; "…" while the figure is not known yet. */
+@Composable
+private fun PercentBar(percent: Int?, color: Color) {
+    val colors = MaterialTheme.colorScheme
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+        Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(4.dp)).background(colors.surfaceVariant)) {
+            if (percent != null && percent > 0) Box(Modifier.fillMaxWidth(percent / 100f).fillMaxHeight().clip(RoundedCornerShape(4.dp)).background(color))
+        }
+        Text(percent?.let { "$it%" } ?: "…", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.width(40.dp), softWrap = false)
     }
 }
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun BookGrid(books: List<BookListItem>, compact: Boolean, actions: BookActions) {
+private fun BookGrid(books: List<BookListItem>, compact: Boolean, callbacks: BooksCallbacks) {
     FlowRow(
         Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        books.forEach { book -> BookCard(book, actions, if (compact) Modifier.fillMaxWidth() else Modifier.width(320.dp)) }
+        books.forEach { book -> BookCard(book, callbacks, if (compact) Modifier.fillMaxWidth() else Modifier.width(340.dp)) }
     }
 }
 
 @Composable
-private fun BookCard(book: BookListItem, actions: BookActions, modifier: Modifier) {
+private fun BookCard(book: BookListItem, callbacks: BooksCallbacks, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     Column(
-        modifier.clip(RoundedCornerShape(14.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp))
-            .clickable { actions.onOpen(book) }.padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(10.dp),
+        modifier.clip(RoundedCornerShape(14.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).background(colors.surface)
+            .clickable { callbacks.onOpen(book) }.padding(18.dp),
+        verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            LanguageBadge(book.languageName)
-            Spacer(Modifier.width(12.dp))
-            Column(Modifier.weight(1f)) {
-                Text(book.title, style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            LanguageBadge(book.languageName, 44.dp)
+            Spacer(Modifier.width(14.dp))
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Text(book.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(words(book.wordCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
-            BookMenu(book, actions)
+            BookMenu(book, callbacks)
         }
-        Text(
-            "page ${book.currentPage}/${book.pageCount}  ·  ${book.wordCount} words  ·  ${book.lastOpened?.relativeTo() ?: "not opened yet"}",
-            style = MaterialTheme.typography.bodySmall,
-            color = colors.onSurfaceVariant,
-        )
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            StatusDistributionBar(book.stats, Modifier.weight(1f))
-            Text(book.stats?.let { "${it.unknownPercent}% new" } ?: "…", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, softWrap = false)
+        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text("Page ${book.currentPage} of ${book.pageCount}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            PercentBar(book.progressPercent, PROGRESS)
         }
-        MasteryBar(book.masteryPercent)
-    }
-}
-
-@Composable
-private fun MasteryBar(percent: Int?) {
-    val colors = MaterialTheme.colorScheme
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-        Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(4.dp)).background(colors.surfaceVariant)) {
-            if (percent != null && percent > 0) {
-                Box(Modifier.fillMaxWidth(percent / 100f).height(8.dp).background(Color(0xFF4CC38A)))
-            }
+        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text("Vocabulary known", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            PercentBar(book.masteryPercent, KNOWN)
         }
-        Text(percent?.let { "$it%" } ?: "…", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.width(40.dp))
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(
+                book.lastOpened?.let { "Opened ${it.relativeTo()}" } ?: "Not opened yet",
+                Modifier.weight(1f),
+                style = MaterialTheme.typography.bodySmall,
+                color = colors.onSurfaceVariant,
+            )
+            StatusTag(book.readingStatus)
+        }
     }
 }
 
@@ -480,25 +597,25 @@ private val badgeTints = listOf(
 )
 
 @Composable
-private fun LanguageBadge(languageName: String) {
+private fun LanguageBadge(languageName: String, size: Dp) {
     val code = LanguageCodes.codeFor(languageName)?.uppercase() ?: languageName.take(2).uppercase()
     val tint = badgeTints[(code.hashCode() and Int.MAX_VALUE) % badgeTints.size]
-    Box(Modifier.size(40.dp).clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.14f)), contentAlignment = Alignment.Center) {
-        Text(code, color = tint, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold)
+    Box(Modifier.size(size).clip(RoundedCornerShape(10.dp)).background(tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
+        Text(code, color = tint, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
     }
 }
 
 @Composable
-private fun BookMenu(book: BookListItem, actions: BookActions) {
+private fun BookMenu(book: BookListItem, callbacks: BooksCallbacks) {
     var open by remember { mutableStateOf(false) }
     Box {
         IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Actions", tint = MaterialTheme.colorScheme.onSurfaceVariant) }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text("Read") }, onClick = { open = false; actions.onOpen(book) })
-            AppMenuItem(text = { Text("Edit") }, onClick = { open = false; actions.onEdit(book) })
-            AppMenuItem(text = { Text("Bookmarks") }, onClick = { open = false; actions.onBookmarks(book) })
-            AppMenuItem(text = { Text(if (book.isArchived) "Unarchive" else "Archive") }, onClick = { open = false; actions.onArchive(book) })
-            AppMenuItem(text = { Text("Delete") }, onClick = { open = false; actions.onDelete(book) })
+            AppMenuItem(text = { Text("Read") }, onClick = { open = false; callbacks.onOpen(book) })
+            AppMenuItem(text = { Text("Edit") }, onClick = { open = false; callbacks.onEdit(book) })
+            AppMenuItem(text = { Text("Bookmarks") }, onClick = { open = false; callbacks.onBookmarks(book) })
+            AppMenuItem(text = { Text(if (book.isArchived) "Unarchive" else "Archive") }, onClick = { open = false; callbacks.onArchive(book) })
+            AppMenuItem(text = { Text("Delete") }, onClick = { open = false; callbacks.onDelete(book) })
         }
     }
 }
@@ -516,29 +633,22 @@ private fun EmptyState(archived: Boolean, onNewBook: () -> Unit) {
     }
 }
 
-@Composable
-private fun Footer(state: BooksUiState) {
-    val colors = MaterialTheme.colorScheme
-    Row(Modifier.fillMaxWidth().padding(top = 24.dp), verticalAlignment = Alignment.CenterVertically) {
-        val parts = buildList {
-            add("${state.books.size} book${if (state.books.size == 1) "" else "s"}")
-            if (!state.archived) add("${state.wordsLearned} words learned")
-        }
-        Text(parts.joinToString("  ·  "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, modifier = Modifier.weight(1f))
-    }
-}
-
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun DemoNotice(tutorialBookId: Long?, onOpenTutorial: (Long) -> Unit, onWipe: () -> Unit, onDismiss: () -> Unit) {
+private fun DemoNotice(tutorialBookId: Long?, callbacks: BooksCallbacks) {
     Card(Modifier.fillMaxWidth().padding(bottom = 20.dp)) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text("The database has been loaded with a brief tutorial and some languages and short texts for you to try out.")
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                if (tutorialBookId != null) Button(onClick = { onOpenTutorial(tutorialBookId) }) { Text("Open the tutorial") }
-                TextButton(onClick = onWipe) { Text("Clear database") }
-                TextButton(onClick = onDismiss) { Text("Dismiss") }
+                if (tutorialBookId != null) Button(onClick = { callbacks.onOpenTutorial(tutorialBookId) }) { Text("Open the tutorial") }
+                TextButton(onClick = callbacks.onWipe) { Text("Clear database") }
+                TextButton(onClick = callbacks.onDismissDemo) { Text("Dismiss") }
             }
         }
     }
 }
+
+private fun words(count: Int) = if (count == 1) "1 word" else "${count.grouped()} words"
+
+/** 1223 → "1,223". */
+private fun Int.grouped(): String = toString().reversed().chunked(3).joinToString(",").reversed()

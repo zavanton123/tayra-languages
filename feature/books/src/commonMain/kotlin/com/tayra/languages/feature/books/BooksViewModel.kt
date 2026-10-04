@@ -30,14 +30,31 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlin.time.Instant
 
-enum class BookSort(val label: String) { RECENT("Recently read"), TITLE("Title"), MASTERY("Mastery") }
+enum class BookSort(val label: String) { RECENT("Recently read"), TITLE("Title"), MASTERY("Vocabulary known") }
 
-/** Buckets of [masteryPercent]; books without stats only match [ALL]. */
-enum class MasteryFilter(val label: String, val range: IntRange) {
-    ALL("All mastery levels", 0..100),
-    NEW("Mostly new", 0..29),
-    LEARNING("In progress", 30..69),
-    KNOWN("Mostly known", 70..100),
+enum class ReadingStatus { NOT_STARTED, READING, FINISHED }
+
+/** Finished once the last page is marked read; reading once opened. */
+val BookListItem.readingStatus: ReadingStatus
+    get() = when {
+        isCompleted -> ReadingStatus.FINISHED
+        lastOpened != null -> ReadingStatus.READING
+        else -> ReadingStatus.NOT_STARTED
+    }
+
+/** How far through the book the reader is: the current page's share of the pages, 100 only once finished. */
+val BookListItem.progressPercent: Int
+    get() = when (readingStatus) {
+        ReadingStatus.FINISHED -> 100
+        ReadingStatus.NOT_STARTED -> 0
+        ReadingStatus.READING -> if (pageCount > 0) (100 * currentPage / pageCount).coerceIn(0, 99) else 0
+    }
+
+enum class ProgressFilter(val label: String, val status: ReadingStatus?) {
+    ALL("All progress", null),
+    NOT_STARTED("Not started", ReadingStatus.NOT_STARTED),
+    READING("Reading", ReadingStatus.READING),
+    FINISHED("Finished", ReadingStatus.FINISHED),
 }
 
 enum class BooksView { LIST, GRID }
@@ -54,7 +71,7 @@ data class BooksUiState(
     val currentLanguageId: Long = 0,
     val search: String = "",
     val sort: BookSort = BookSort.RECENT,
-    val mastery: MasteryFilter = MasteryFilter.ALL,
+    val progress: ProgressFilter = ProgressFilter.ALL,
     val view: BooksView = BooksView.LIST,
     val isDemo: Boolean = false,
     val tutorialBookId: Long? = null,
@@ -66,7 +83,7 @@ data class BooksUiState(
         get() {
             val matching = books.filter { book ->
                 (search.isBlank() || book.title.contains(search, ignoreCase = true) || book.tags.any { it.contains(search, ignoreCase = true) }) &&
-                    (mastery == MasteryFilter.ALL || book.masteryPercent?.let { it in mastery.range } == true)
+                    (progress.status == null || book.readingStatus == progress.status)
             }
             return when (sort) {
                 BookSort.RECENT -> matching.sortedWith(compareByDescending<BookListItem> { it.lastOpened ?: Instant.DISTANT_PAST }.thenBy { it.title.lowercase() })
@@ -74,6 +91,8 @@ data class BooksUiState(
                 BookSort.MASTERY -> matching.sortedWith(compareByDescending<BookListItem> { it.masteryPercent ?: -1 }.thenBy { it.title.lowercase() })
             }
         }
+
+    val currentlyReading: Int get() = books.count { it.readingStatus == ReadingStatus.READING }
 
 }
 
@@ -91,14 +110,14 @@ class BooksViewModel(
 
     private val search = MutableStateFlow("")
     private val sort = MutableStateFlow(BookSort.RECENT)
-    private val mastery = MutableStateFlow(MasteryFilter.ALL)
+    private val progress = MutableStateFlow(ProgressFilter.ALL)
     private val view = MutableStateFlow(BooksView.LIST)
     private val extras = MutableStateFlow(Extras())
     private val statsInFlight = HashSet<Long>()
 
     private data class Extras(val tutorialBookId: Long? = null, val streak: Int = 0)
 
-    private data class Options(val sort: BookSort, val mastery: MasteryFilter, val view: BooksView, val extras: Extras, val wordsLearned: Int)
+    private data class Options(val sort: BookSort, val progress: ProgressFilter, val view: BooksView, val extras: Extras, val wordsLearned: Int)
 
     /** Words known in the language being learned. */
     @OptIn(ExperimentalCoroutinesApi::class)
@@ -109,7 +128,7 @@ class BooksViewModel(
         .map { it.totalCount }
         .catch { e -> Logger.w(e) { "Counting learned terms failed" }; emit(0) }
 
-    private val options = combine(sort, mastery, view, extras, wordsLearned) { s, m, v, e, w -> Options(s, m, v, e, w) }
+    private val options = combine(sort, progress, view, extras, wordsLearned) { s, m, v, e, w -> Options(s, m, v, e, w) }
 
     val state: StateFlow<BooksUiState> = combine(
         books.observeBooks(archived).onEach(::computeMissingStats),
@@ -128,7 +147,7 @@ class BooksViewModel(
             currentLanguageId = currentLanguageId,
             search = query,
             sort = opts.sort,
-            mastery = opts.mastery,
+            progress = opts.progress,
             view = opts.view,
             isDemo = prefs.demoDataLoaded,
             tutorialBookId = opts.extras.tutorialBookId,
@@ -173,8 +192,8 @@ class BooksViewModel(
         sort.value = value
     }
 
-    fun setMastery(value: MasteryFilter) {
-        mastery.value = value
+    fun setProgress(value: ProgressFilter) {
+        progress.value = value
     }
 
     fun setView(value: BooksView) {
