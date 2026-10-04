@@ -21,7 +21,7 @@ class KokoroSpeechEngine(
     override val description: String = "Kokoro is a high-quality neural voice that runs on this computer with no network. It speaks English, Spanish, French, Italian and Portuguese; other languages fall back to the system voice."
     override val packagesDescription: String = "One download holds the model and all its voices."
 
-    override suspend fun installedSummary(): String = if (isInstalled()) "The model is downloaded." else "The model is not downloaded yet."
+    override suspend fun installedSummary(): String = if (isInstalled()) "Model downloaded" else "Model not downloaded yet"
 
     override suspend fun packages(): List<SpeechPackage> = listOf(
         SpeechPackage(PACKAGE, "Kokoro model with ${VOICES.size} voices", languageCode = null, group = "English, Spanish, French, Italian, Portuguese", sizeBytes = MODEL_BYTES + VOICES_BYTES, installed = isInstalled()),

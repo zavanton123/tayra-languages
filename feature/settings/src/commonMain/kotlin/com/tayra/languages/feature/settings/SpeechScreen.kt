@@ -1,29 +1,43 @@
 package com.tayra.languages.feature.settings
 
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material.icons.filled.KeyboardArrowUp
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Slider
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -32,7 +46,13 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -49,8 +69,11 @@ import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppIcons
+import com.tayra.languages.core.ui.components.AppMenu
+import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.Dropdown
+import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -64,7 +87,6 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 
 /** The speech engines: which one reads aloud, its runtime, and the voices to download. */
@@ -171,175 +193,517 @@ class SpeechViewModel(
 @Composable
 fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: SpeechViewModel = koinViewModel()) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
-    val status by viewModel.status.collectAsStateWithLifecycle()
-    val ready by viewModel.ready.collectAsStateWithLifecycle()
-    val failed by viewModel.failed.collectAsStateWithLifecycle()
     val busy by viewModel.busy.collectAsStateWithLifecycle()
-    val progress by viewModel.progress.collectAsStateWithLifecycle()
-    val packages by viewModel.packages.collectAsStateWithLifecycle()
-    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
+    val ready by viewModel.ready.collectAsStateWithLifecycle()
     val voices by viewModel.voices.collectAsStateWithLifecycle()
+    val packages by viewModel.packages.collectAsStateWithLifecycle()
     val inUse by viewModel.languagesInUse.collectAsStateWithLifecycle()
-    var showAll by remember { mutableStateOf(false) }
+    var checked by remember { mutableStateOf(false) }
     val engine = viewModel.localSpeech.find(settings.speechEngine)
-    LaunchedEffect(settings.speechEngine, inUse) { viewModel.check() }
+    LaunchedEffect(settings.speechEngine, inUse) {
+        viewModel.check()
+        checked = true
+    }
+    val learning = inUse.firstOrNull()
+    val compact = LocalWindowWidth.current.isCompact
+    val pill: @Composable () -> Unit = { SpeechStatusPill(engine, busy || !checked, ready, learning, voices) }
 
-    Scaffold(topBar = { AppTopBar(title = "Speech", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) }) { padding ->
-        Column(
-            Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 800.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp),
-        ) {
-            Section("Engine")
+    Scaffold(
+        topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
+    ) { padding ->
+        SettingsPageColumn(padding) {
+            SettingsHeader("Speech", "Choose how words and passages are spoken.", onBackToSettings = onBack) { if (!compact) pill() }
+            if (compact) pill()
+            if (LocalWindowWidth.current.isExpanded) {
+                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
+                    EngineCard(settings, viewModel, engine, Modifier.weight(1f).fillMaxHeight())
+                    VoiceCard(settings, viewModel, engine, learning, voices, Modifier.weight(1f).fillMaxHeight())
+                }
+            } else {
+                EngineCard(settings, viewModel, engine)
+                VoiceCard(settings, viewModel, engine, learning, voices)
+            }
+            if (engine != null && packages.isNotEmpty()) {
+                if (packages.size == 1) ModelCard(viewModel, engine, packages.single(), settings, learning, voices)
+                else VoicesCard(viewModel, engine, packages, settings, learning, voices)
+            }
+        }
+    }
+}
+
+@Composable
+private fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, ready: Boolean, learning: LanguageOption?, voices: Map<String, List<SpeechVoice>>) {
+    when {
+        engine == null -> StatusPill("Using system voices", MaterialTheme.colorScheme.primary)
+        checking -> StatusPill("Checking speech", MaterialTheme.colorScheme.outline)
+        !ready -> StatusPill("${engine.displayName} is not installed", SettingsColors.warning)
+        learning != null && voices[learning.code].isNullOrEmpty() -> StatusPill("No ${learning.name} voice yet", SettingsColors.warning)
+        else -> StatusPill("Offline speech ready", SettingsColors.ok)
+    }
+}
+
+/** The engine choice, what it is, whether it works, and a way to reinstall it. */
+@Composable
+private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, modifier: Modifier = Modifier) {
+    val compact = LocalWindowWidth.current.isCompact
+    SettingsCard("Speech engine", "Reader playback and term pronunciation use this engine.", icon = AppIcons.Memory, modifier = modifier) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             Dropdown(
                 options = viewModel.engines,
                 selected = settings.speechEngine.takeIf { it in viewModel.engines } ?: SpeechEngine.SYSTEM,
                 onSelect = { chosen -> viewModel.update { it.copy(speechEngine = chosen) } },
                 label = "Speech engine",
                 optionLabel = { it.label },
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier.weight(1f),
             )
-            Text(
-                "The play buttons in the reader and the speaker buttons on terms use this engine. When it has no voice for a language, the system voice speaks instead.",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-
-            if (engine == null) {
-                Section("System voices")
-                Text(
-                    "The voices installed in the operating system. They need no download here; more voices and languages are added in the system's own settings.",
-                    style = MaterialTheme.typography.bodyMedium,
-                )
-            } else {
-                Section(engine.displayName)
-                Text(engine.description, style = MaterialTheme.typography.bodyMedium)
-
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    OutlinedButton(onClick = viewModel::check, enabled = !busy) { Text(if (busy) "Working..." else "Check installation") }
-                    if (engine.hasRuntimeSetup && !ready) Button(onClick = viewModel::install, enabled = !busy) { Text("Install ${engine.displayName}") }
-                }
-                progress?.let {
-                    Text(it, style = MaterialTheme.typography.bodySmall)
-                    LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
-                }
-                status?.let { text ->
-                    Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        if (busy) CircularProgressIndicator(modifier = Modifier.size(18.dp), strokeWidth = 2.dp)
-                        else if (ready && !failed) Icon(Icons.Default.CheckCircle, contentDescription = "Working", tint = Color(0xFF2E7D32), modifier = Modifier.size(18.dp))
-                        else Icon(Icons.Default.Warning, contentDescription = "Not working", tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(18.dp))
-                        Text(text, style = MaterialTheme.typography.bodySmall)
-                    }
-                }
-
-                if (engine.supportsSpeed) {
-                    Section("Speed")
-                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                        Slider(
-                            value = settings.speechSpeed,
-                            onValueChange = { v -> viewModel.update { it.copy(speechSpeed = (v * 20).toInt() / 20f) } },
-                            valueRange = 0.5f..1.5f,
-                            modifier = Modifier.weight(1f),
-                        )
-                        Text("${(settings.speechSpeed * 100).toInt()}%", style = MaterialTheme.typography.bodyMedium)
-                    }
-                }
-
-                val choosable = inUse.filter { (voices[it.code]?.size ?: 0) > 0 }
-                if (choosable.isNotEmpty()) {
-                    Section("Voices")
-                    choosable.forEach { language ->
-                        val options = voices[language.code].orEmpty()
-                        val chosen = settings.speechVoices["${engine.engine.name}:${language.code}"]
-                        Dropdown(
-                            options = options,
-                            selected = options.firstOrNull { it.id == chosen } ?: options.first(),
-                            onSelect = { voice -> viewModel.chooseVoice(engine.engine, language.code, voice.id) },
-                            label = language.name,
-                            optionLabel = { it.name },
-                            modifier = Modifier.fillMaxWidth(),
-                        )
-                    }
-                }
-
-                if (packages.isNotEmpty()) {
-                    Section("Downloads")
-                    Text(engine.packagesDescription, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    val codes = inUse.map { it.code }.toSet()
-                    val relevant = packages.filter { it.installed || it.languageCode == null || it.languageCode in codes }
-                    val shown = if (showAll || relevant.isEmpty()) packages else relevant
-                    shown.groupBy { it.group }.entries.sortedBy { it.key }.forEach { (group, items) ->
-                        Text(group, style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(top = 8.dp))
-                        items.forEach { pkg ->
-                            SpeechPackageRow(pkg, busy = pkg.id in packageBusy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
-                        }
-                    }
-                    if (relevant.size < packages.size) {
-                        TextButton(onClick = { showAll = !showAll }) {
-                            Text(if (showAll) "Show only ${inUse.firstOrNull()?.name ?: "my language"}" else "Show all ${packages.size} downloads")
-                        }
-                    }
-                }
-            }
-
-            TryIt(viewModel, inUse, voices.filterValues { it.isNotEmpty() }.keys)
+            if (!compact) EngineTags(settings.speechEngine)
+        }
+        Spacer(Modifier.height(10.dp))
+        Text(
+            engine?.description ?: "The voices that come with the operating system. They need no download; more voices are added in the system's own settings.",
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        if (engine != null) {
+            Spacer(Modifier.height(14.dp))
+            EngineStatus(viewModel, engine)
         }
     }
 }
 
-/** A sentence in the language being learned to hear the chosen engine with. */
 @Composable
-private fun TryIt(viewModel: SpeechViewModel, languages: List<LanguageOption>, voiced: Set<String>) {
-    if (languages.isEmpty()) return
+private fun EngineTags(engine: SpeechEngine) {
+    when (engine) {
+        SpeechEngine.SYSTEM -> Tag("Built in", MaterialTheme.colorScheme.primary)
+        SpeechEngine.PIPER -> { Tag("Offline", SettingsColors.ok); Tag("Many languages", MaterialTheme.colorScheme.primary) }
+        SpeechEngine.KOKORO -> { Tag("Offline", SettingsColors.ok); Tag("High quality", MaterialTheme.colorScheme.primary) }
+    }
+}
+
+@Composable
+private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) {
+    val busy by viewModel.busy.collectAsStateWithLifecycle()
+    val status by viewModel.status.collectAsStateWithLifecycle()
+    val ready by viewModel.ready.collectAsStateWithLifecycle()
+    val failed by viewModel.failed.collectAsStateWithLifecycle()
+    val progress by viewModel.progress.collectAsStateWithLifecycle()
+    val compact = LocalWindowWidth.current.isCompact
+    var advanced by remember { mutableStateOf(false) }
+    val working = ready && !failed
+    val tint = when {
+        busy -> MaterialTheme.colorScheme.outline
+        working -> SettingsColors.ok
+        else -> SettingsColors.warning
+    }
+    val action: @Composable () -> Unit = {
+        if (engine.hasRuntimeSetup && !ready && !busy) {
+            Button(onClick = viewModel::install, shape = RoundedCornerShape(10.dp)) { Text("Install") }
+        } else {
+            OutlinedButton(onClick = viewModel::check, enabled = !busy, shape = RoundedCornerShape(10.dp)) { Text("Check installation") }
+        }
+    }
+    Row(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.08f))
+            .border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(12.dp)).padding(16.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        when {
+            busy -> CircularProgressIndicator(Modifier.size(28.dp), strokeWidth = 3.dp)
+            working -> Icon(Icons.Default.CheckCircle, contentDescription = null, tint = tint, modifier = Modifier.size(32.dp))
+            else -> Icon(Icons.Default.Warning, contentDescription = null, tint = tint, modifier = Modifier.size(32.dp))
+        }
+        Spacer(Modifier.width(14.dp))
+        Column(Modifier.weight(1f)) {
+            Text(
+                when {
+                    busy -> "Checking…"
+                    working -> "Installed and working"
+                    ready -> "Something went wrong"
+                    else -> "Not installed"
+                },
+                style = MaterialTheme.typography.titleSmall,
+                fontWeight = FontWeight.Bold,
+                color = if (working && !busy) tint else MaterialTheme.colorScheme.onSurface,
+            )
+            status?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+        }
+        if (!compact) {
+            Spacer(Modifier.width(12.dp))
+            action()
+        }
+    }
+    if (compact) {
+        Spacer(Modifier.height(8.dp))
+        action()
+    }
+    progress?.let {
+        Spacer(Modifier.height(10.dp))
+        Text(it, style = MaterialTheme.typography.bodySmall)
+        LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
+    }
+    if (engine.hasRuntimeSetup) {
+        Spacer(Modifier.height(12.dp))
+        Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(12.dp))) {
+            Row(
+                Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = 16.dp, vertical = 12.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Icon(if (advanced) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, modifier = Modifier.size(20.dp))
+                Spacer(Modifier.width(10.dp))
+                Text("Advanced engine settings", style = MaterialTheme.typography.bodyLarge)
+            }
+            if (advanced) {
+                Column(Modifier.padding(start = 16.dp, end = 16.dp, bottom = 14.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text(
+                        "${engine.displayName} runs in the app's own Python, kept in the app folder. Reinstalling downloads it again, which repairs a broken installation; downloaded voices are kept.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    OutlinedButton(onClick = viewModel::install, enabled = !busy, shape = RoundedCornerShape(10.dp)) { Text("Reinstall ${engine.displayName}") }
+                }
+            }
+        }
+    }
+}
+
+/** The voice for the language being learned, the speed, and a sentence to hear them with. */
+@Composable
+private fun VoiceCard(
+    settings: UserSettings,
+    viewModel: SpeechViewModel,
+    engine: LocalSpeechEngine?,
+    learning: LanguageOption?,
+    voices: Map<String, List<SpeechVoice>>,
+    modifier: Modifier = Modifier,
+) {
+    val languageName = learning?.name ?: "your language"
+    SettingsCard(
+        "Voice & playback",
+        when {
+            engine == null -> "Hear how $languageName sounds with the system voice."
+            engine.supportsSpeed -> "Choose the $languageName voice and playback speed."
+            else -> "Choose the $languageName voice and hear it."
+        },
+        icon = AppIcons.VolumeUp,
+        modifier = modifier,
+    ) {
+        val options = learning?.let { voices[it.code] }.orEmpty()
+        when {
+            engine == null -> Text(
+                "The system picks the voice for each language.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            learning != null && options.isNotEmpty() -> {
+                val chosen = settings.speechVoices["${engine.engine.name}:${learning.code}"]
+                Dropdown(
+                    options = options,
+                    selected = options.firstOrNull { it.id == chosen } ?: options.first(),
+                    onSelect = { voice -> viewModel.chooseVoice(engine.engine, learning.code, voice.id) },
+                    label = "${learning.name} voice",
+                    optionLabel = { it.name },
+                    modifier = Modifier.fillMaxWidth(),
+                )
+            }
+            else -> InfoBanner(
+                "${engine.displayName} has no $languageName voice on this device yet, so the system voice reads $languageName.",
+                tint = SettingsColors.warning,
+                icon = Icons.Default.Warning,
+            )
+        }
+        if (engine?.supportsSpeed == true) {
+            SettingRow("Speech speed", stackOnCompact = true) {
+                SliderStepper(
+                    value = settings.speechSpeed,
+                    range = 0.5f..1.5f,
+                    step = 0.05f,
+                    label = "${kotlin.math.round(settings.speechSpeed * 100).toInt()}%",
+                    name = "speech speed",
+                    onChange = { v -> viewModel.update { it.copy(speechSpeed = v) } },
+                    modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(440.dp),
+                )
+            }
+        }
+        HorizontalDivider(Modifier.padding(vertical = 12.dp), color = MaterialTheme.colorScheme.outlineVariant)
+        TryIt(viewModel, learning)
+    }
+}
+
+/** A sentence in the language being learned, to hear the chosen engine and voice with. */
+@Composable
+private fun TryIt(viewModel: SpeechViewModel, language: LanguageOption?) {
     val speaker = rememberSpeaker(viewModel.localSpeech, viewModel.settingsRepository)
     val working by speaker.working.collectAsStateWithLifecycle()
     val playing by speaker.playing.collectAsStateWithLifecycle()
-    // Starts on a language the chosen engine can speak, so Play demonstrates that engine.
-    var language by remember(languages, voiced) {
-        mutableStateOf(languages.firstOrNull { it.code in voiced } ?: languages.firstOrNull { it.code in SAMPLES } ?: languages.first())
-    }
-    var text by remember(language) { mutableStateOf(SAMPLES[language.code].orEmpty()) }
-    Section("Try it")
+    var text by remember(language) { mutableStateOf(language?.let { SAMPLES[it.code] }.orEmpty()) }
+    Text("Try this voice", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+    Spacer(Modifier.height(8.dp))
     OutlinedTextField(
         value = text,
         onValueChange = { text = it },
-        label = { Text("Text to read") },
-        placeholder = { Text("Type a sentence in ${language.name}") },
+        placeholder = { Text("Type a sentence in ${language?.name ?: "the language you are learning"}") },
+        shape = RoundedCornerShape(10.dp),
         modifier = Modifier.fillMaxWidth(),
     )
+    Spacer(Modifier.height(14.dp))
     val active = playing != null && playing == text
-    Button(onClick = { speaker.toggle(text, language.code) }, enabled = text.isNotBlank()) {
-        Icon(if (active) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = null, modifier = Modifier.size(18.dp))
-        Text(
-            when {
-                active && working -> "  Preparing..."
-                active -> "  Stop"
-                else -> "  Play"
-            },
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Button(
+            onClick = { speaker.toggle(text, language?.code ?: "en") },
+            enabled = text.isNotBlank(),
+            shape = RoundedCornerShape(50),
+            contentPadding = PaddingValues(horizontal = 26.dp, vertical = 14.dp),
+        ) {
+            Icon(if (active && !working) AppIcons.Stop else AppIcons.VolumeUp, contentDescription = null, modifier = Modifier.size(22.dp))
+            Spacer(Modifier.width(10.dp))
+            Text(
+                when {
+                    active && working -> "Preparing…"
+                    active -> "Stop"
+                    else -> "Play sample"
+                },
+                fontWeight = FontWeight.SemiBold,
+            )
+        }
+        Spacer(Modifier.width(24.dp))
+        Waveform(active = active && !working, modifier = Modifier.weight(1f).height(44.dp))
+    }
+}
+
+/** A row of bars like a recording's waveform, in the accent colour while the sample plays. */
+@Composable
+private fun Waveform(active: Boolean, modifier: Modifier = Modifier) {
+    val color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.primary.copy(alpha = 0.35f)
+    Canvas(modifier) {
+        val bar = 3.dp.toPx()
+        val gap = 4.dp.toPx()
+        val count = ((size.width + gap) / (bar + gap)).toInt()
+        for (i in 0 until count) {
+            // A fixed pattern of louder and softer bars, so it reads as speech without real audio data.
+            val level = 0.2f + 0.8f * (0.5f + 0.5f * kotlin.math.sin(i * 0.9f) * kotlin.math.cos(i * 0.37f)) * (if (i % 7 == 3) 1f else 0.7f)
+            val height = size.height * level.coerceIn(0.15f, 1f)
+            drawRoundRect(color, Offset(i * (bar + gap), (size.height - height) / 2), Size(bar, height), CornerRadius(bar / 2))
+        }
+    }
+}
+
+/** One download that holds the model and every voice, as Kokoro has. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun ModelCard(
+    viewModel: SpeechViewModel,
+    engine: LocalSpeechEngine,
+    pkg: SpeechPackage,
+    settings: UserSettings,
+    learning: LanguageOption?,
+    voices: Map<String, List<SpeechVoice>>,
+) {
+    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
+    val busy = pkg.id in packageBusy
+    val compact = LocalWindowWidth.current.isCompact
+    val voiceCount = Regex("""(\d+) voices""").find(pkg.title)?.groupValues?.get(1)
+    SettingsCard(
+        "Voice model",
+        engine.packagesDescription,
+        icon = AppIcons.Download,
+        titleExtra = { if (pkg.installed) Tag("Installed", SettingsColors.ok) else Tag("Not downloaded", SettingsColors.warning) },
+    ) {
+        Column(
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp)).padding(12.dp),
+        ) {
+            val languages = pkg.group.split(", ").filter { it.isNotBlank() }
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(Modifier.size(44.dp).clip(RoundedCornerShape(8.dp)).background(SettingsColors.ok.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
+                    Icon(AppIcons.Storage, contentDescription = null, tint = SettingsColors.ok, modifier = Modifier.size(22.dp))
+                }
+                Spacer(Modifier.width(14.dp))
+                Column(Modifier.weight(1f)) {
+                    Text("${engine.displayName} voice model", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                    Text(
+                        listOfNotNull(voiceCount?.let { "$it voices" }, pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+                if (!compact) LanguageChips(languages)
+                Spacer(Modifier.width(12.dp))
+                PackageAction(pkg, busy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) })
+            }
+            if (compact) {
+                Spacer(Modifier.height(10.dp))
+                LanguageChips(languages)
+            }
+            if (busy) LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 8.dp))
+        }
+        Spacer(Modifier.height(12.dp))
+        DefaultVoiceNote(engine, settings, learning, voices, others = "Other languages fall back to the system voice.")
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun LanguageChips(names: List<String>) {
+    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        names.forEach { name ->
+            Row(
+                Modifier.clip(RoundedCornerShape(8.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(8.dp)).padding(end = 12.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                CodeTile(LanguageCodes.codeFor(name) ?: name.take(2), size = 34)
+                Spacer(Modifier.width(10.dp))
+                Text(name, style = MaterialTheme.typography.bodyMedium)
+            }
+        }
+    }
+}
+
+/** One download per voice, as Piper has: what is installed, and the rest to search and download. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun VoicesCard(
+    viewModel: SpeechViewModel,
+    engine: LocalSpeechEngine,
+    packages: List<SpeechPackage>,
+    settings: UserSettings,
+    learning: LanguageOption?,
+    voices: Map<String, List<SpeechVoice>>,
+) {
+    val packageBusy by viewModel.packageBusy.collectAsStateWithLifecycle()
+    val compact = LocalWindowWidth.current.isCompact
+    val installed = packages.filter { it.installed }
+    // Without a voice for the language being learned, the list opens on the voices to download for it.
+    val hasLearningVoice = learning == null || installed.any { it.languageCode == learning.code }
+    var tab by remember(hasLearningVoice) { mutableStateOf(if (hasLearningVoice) PackageTab.INSTALLED else PackageTab.AVAILABLE) }
+    var query by remember { mutableStateOf("") }
+    val matches = { pkg: SpeechPackage -> query.isBlank() || pkg.title.contains(query.trim(), true) || pkg.group.contains(query.trim(), true) }
+    val shown = when (tab) {
+        PackageTab.INSTALLED -> installed.sortedWith(compareBy({ it.languageCode != learning?.code }, { it.group }, { it.title }))
+        // Voices for the language being learned come first; the rest only when searched for.
+        PackageTab.AVAILABLE -> packages.filter { !it.installed && (query.isNotBlank() || it.languageCode == learning?.code) }.sortedBy { it.title }
+    }.filter(matches)
+    val search: @Composable (Modifier) -> Unit = { m ->
+        OutlinedTextField(
+            value = query,
+            onValueChange = { query = it },
+            placeholder = { Text("Search voices") },
+            leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
+            singleLine = true,
+            shape = RoundedCornerShape(10.dp),
+            modifier = m,
         )
+    }
+    SettingsCard(
+        "Voices",
+        engine.packagesDescription,
+        icon = AppIcons.Download,
+        headerExtra = {
+            if (!compact) {
+                Tag("${installed.size} installed", MaterialTheme.colorScheme.primary)
+                Spacer(Modifier.width(16.dp))
+                search(Modifier.width(260.dp))
+                Spacer(Modifier.width(12.dp))
+                TabToggle(tab) { tab = it }
+            }
+        },
+    ) {
+        if (compact) {
+            search(Modifier.fillMaxWidth())
+            Spacer(Modifier.height(10.dp))
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Tag("${installed.size} installed", MaterialTheme.colorScheme.primary)
+                Spacer(Modifier.weight(1f))
+                TabToggle(tab) { tab = it }
+            }
+            Spacer(Modifier.height(12.dp))
+        }
+        if (shown.isEmpty()) {
+            Text(
+                when {
+                    query.isNotBlank() -> "No voices match “${query.trim()}”."
+                    tab == PackageTab.INSTALLED -> "No voices downloaded yet."
+                    else -> "Every ${learning?.name ?: ""} voice is downloaded. Search to find voices for other languages."
+                },
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.padding(vertical = 8.dp),
+            )
+        }
+        FlowRow(
+            Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+            maxItemsInEachRow = if (compact) 1 else 2,
+        ) {
+            shown.forEach { pkg ->
+                VoiceTile(pkg, busy = pkg.id in packageBusy, onInstall = { viewModel.installPackage(pkg) }, onRemove = { viewModel.removePackage(pkg) }, modifier = Modifier.weight(1f))
+            }
+            if (!compact && shown.size % 2 == 1) Spacer(Modifier.weight(1f))
+        }
+        Spacer(Modifier.height(12.dp))
+        DefaultVoiceNote(engine, settings, learning, voices, others = "Languages without a downloaded voice use the system voice.")
     }
 }
 
 @Composable
-private fun SpeechPackageRow(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit) {
-    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+private fun VoiceTile(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
+    Row(
+        modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp))
+            .padding(start = 12.dp, end = 4.dp, top = 8.dp, bottom = 8.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        CodeTile(pkg.languageCode ?: pkg.group.take(2))
+        Spacer(Modifier.width(14.dp))
         Column(Modifier.weight(1f)) {
-            Text(pkg.title, style = MaterialTheme.typography.bodyMedium)
-            val size = if (pkg.sizeBytes > 0) formatSize(pkg.sizeBytes) else ""
-            val detail = when {
-                busy && pkg.installed -> "Removing..."
-                busy -> "Downloading..."
-                pkg.installed -> listOf("Installed", size).filter { it.isNotEmpty() }.joinToString(", ")
-                else -> listOf("Not installed", size).filter { it.isNotEmpty() }.joinToString(", ")
-            }
-            Text(detail, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            if (busy) LinearProgressIndicator(modifier = Modifier.fillMaxWidth().padding(top = 4.dp))
+            Text(pkg.title, style = MaterialTheme.typography.bodyLarge, maxLines = if (LocalWindowWidth.current.isCompact) 2 else 1, overflow = TextOverflow.Ellipsis)
+            Text(
+                listOfNotNull(pkg.group, pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize)).joinToString(" · "),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            if (busy) LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
         }
+        Spacer(Modifier.width(12.dp))
+        PackageAction(pkg, busy, onInstall, onRemove)
+    }
+}
+
+/** "Installed" with a menu to remove it, a download button, or what is happening right now. */
+@Composable
+private fun PackageAction(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Unit, onRemove: () -> Unit) {
+    var menu by remember { mutableStateOf(false) }
+    Row(verticalAlignment = Alignment.CenterVertically) {
         when {
-            busy -> {}
-            pkg.installed -> OutlinedButton(onClick = onRemove) { Text("Remove") }
-            else -> Button(onClick = onInstall) { Text("Install") }
+            busy -> Text(if (pkg.installed) "Removing…" else "Downloading…", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = 12.dp))
+            pkg.installed -> {
+                Box(Modifier.size(8.dp).clip(CircleShape).background(SettingsColors.ok))
+                Spacer(Modifier.width(8.dp))
+                Text("Installed", style = MaterialTheme.typography.bodyMedium, color = SettingsColors.ok)
+                Spacer(Modifier.width(4.dp))
+                Box {
+                    IconButton(onClick = { menu = true }) { Icon(AppIcons.MoreHoriz, contentDescription = "More for ${pkg.title}") }
+                    AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
+                        AppMenuItem(text = { Text("Remove") }, onClick = { menu = false; onRemove() })
+                    }
+                }
+            }
+            else -> Button(onClick = onInstall, shape = RoundedCornerShape(10.dp), modifier = Modifier.padding(end = 8.dp)) { Text("Download") }
         }
     }
+}
+
+/** Which voice the language being learned uses, and what happens to the others. */
+@Composable
+private fun DefaultVoiceNote(engine: LocalSpeechEngine, settings: UserSettings, learning: LanguageOption?, voices: Map<String, List<SpeechVoice>>, others: String) {
+    val options = learning?.let { voices[it.code] }.orEmpty()
+    val chosen = learning?.let { settings.speechVoices["${engine.engine.name}:${it.code}"] }
+    val voice = options.firstOrNull { it.id == chosen } ?: options.firstOrNull()
+    val first = when {
+        learning == null -> null
+        voice != null -> "${learning.name} uses ${voice.name}."
+        else -> "${learning.name} has no ${engine.displayName} voice yet."
+    }
+    InfoBanner(listOfNotNull(first, others).joinToString("   •   "))
 }
 
 /** A short sentence per language so the Try it field is never empty for the common ones. */

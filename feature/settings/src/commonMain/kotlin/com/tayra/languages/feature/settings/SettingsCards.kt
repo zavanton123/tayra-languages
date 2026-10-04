@@ -100,6 +100,7 @@ internal fun SettingsCard(
     iconText: String? = null,
     modifier: Modifier = Modifier,
     headerExtra: @Composable RowScope.() -> Unit = {},
+    titleExtra: @Composable RowScope.() -> Unit = {},
     content: @Composable ColumnScope.() -> Unit,
 ) {
     Column(
@@ -113,6 +114,7 @@ internal fun SettingsCard(
             Column(Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                    titleExtra()
                 }
                 Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
@@ -342,5 +344,44 @@ internal fun SettingsPageColumn(padding: PaddingValues, content: @Composable Col
             verticalArrangement = Arrangement.spacedBy(20.dp),
             content = content,
         )
+    }
+}
+
+internal enum class PackageTab(val label: String) { INSTALLED("Installed"), AVAILABLE("Available") }
+
+/** The Installed / Available switch above a list of downloads. */
+@Composable
+internal fun TabToggle(selected: PackageTab, onSelect: (PackageTab) -> Unit) {
+    Row(Modifier.clip(RoundedCornerShape(10.dp)).background(MaterialTheme.colorScheme.surfaceContainer).padding(3.dp)) {
+        PackageTab.entries.forEach { tab ->
+            val active = tab == selected
+            Box(
+                Modifier.clip(RoundedCornerShape(8.dp))
+                    .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.14f) else Color.Transparent)
+                    .clickable { onSelect(tab) }
+                    .padding(horizontal = 18.dp, vertical = 10.dp),
+            ) {
+                Text(
+                    tab.label,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
+                    fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
+                )
+            }
+        }
+    }
+}
+
+private val codeTints = listOf(
+    Color(0xFF3B6FE0), Color(0xFF1FA463), Color(0xFF7C4DDB), Color(0xFFDC4A4A), Color(0xFFC98A05), Color(0xFF0E8FA3), Color(0xFFD9488B),
+)
+
+/** A language code on a square tinted per code, as on download tiles. */
+@Composable
+internal fun CodeTile(languageCode: String, size: Int = 44) {
+    val code = languageCode.uppercase().take(3)
+    val tint = codeTints[(code.hashCode() and Int.MAX_VALUE) % codeTints.size]
+    Box(Modifier.size(size.dp).clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
+        Text(code, color = tint, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold)
     }
 }

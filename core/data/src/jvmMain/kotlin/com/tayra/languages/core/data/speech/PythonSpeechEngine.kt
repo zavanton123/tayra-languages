@@ -32,8 +32,8 @@ abstract class PythonSpeechEngine(
     override suspend fun status(): String = try {
         val reply = worker.request(STATUS_TIMEOUT_MS, "cmd" to "status", "engine" to workerName)
         val version = reply["version"]?.jsonPrimitive?.content ?: "?"
-        val py = reply["python"]?.jsonPrimitive?.content?.let { " on Python $it" }.orEmpty()
-        "$displayName $version$py. ${installedSummary()}"
+        val py = reply["python"]?.jsonPrimitive?.content?.let { " · Python $it" }.orEmpty()
+        "$displayName $version$py · ${installedSummary()}"
     } catch (e: Exception) {
         "$displayName is not installed yet: ${e.message}"
     }

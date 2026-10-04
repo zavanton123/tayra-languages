@@ -498,8 +498,6 @@ private fun TranslationEngine.shortName(localName: String): String = when (this)
     TranslationEngine.GOOGLE -> "Google Translate"
 }
 
-private enum class PackageTab(val label: String) { INSTALLED("Installed"), AVAILABLE("Available") }
-
 /** The translator's language packages: what is installed, what the language pair needs, and the rest to download. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -646,32 +644,6 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
 }
 
 @Composable
-private fun TabToggle(selected: PackageTab, onSelect: (PackageTab) -> Unit) {
-    Row(Modifier.clip(RoundedCornerShape(10.dp)).background(MaterialTheme.colorScheme.surfaceContainer).padding(3.dp)) {
-        PackageTab.entries.forEach { tab ->
-            val active = tab == selected
-            Box(
-                Modifier.clip(RoundedCornerShape(8.dp))
-                    .background(if (active) MaterialTheme.colorScheme.primary.copy(alpha = 0.14f) else Color.Transparent)
-                    .clickable { onSelect(tab) }
-                    .padding(horizontal = 18.dp, vertical = 10.dp),
-            ) {
-                Text(
-                    tab.label,
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
-                    fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
-                )
-            }
-        }
-    }
-}
-
-private val codeTints = listOf(
-    Color(0xFF3B6FE0), Color(0xFF1FA463), Color(0xFF7C4DDB), Color(0xFFDC4A4A), Color(0xFFC98A05), Color(0xFF0E8FA3), Color(0xFFD9488B),
-)
-
-@Composable
 private fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onInstall: () -> Unit, onRemove: () -> Unit, modifier: Modifier = Modifier) {
     var menu by remember { mutableStateOf(false) }
     Row(
@@ -679,11 +651,7 @@ private fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onIns
             .padding(start = 12.dp, end = 4.dp, top = 8.dp, bottom = 8.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        val code = pkg.fromCode.uppercase().take(3)
-        val tint = codeTints[(code.hashCode() and Int.MAX_VALUE) % codeTints.size]
-        Box(Modifier.size(44.dp).clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
-            Text(code, color = tint, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold)
-        }
+        CodeTile(pkg.fromCode)
         Spacer(Modifier.width(14.dp))
         Column(Modifier.weight(1f)) {
             Text(pkg.title, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)

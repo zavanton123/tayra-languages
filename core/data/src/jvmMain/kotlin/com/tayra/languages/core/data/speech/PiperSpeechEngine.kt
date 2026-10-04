@@ -25,7 +25,7 @@ class PiperSpeechEngine(
 
     override suspend fun installedSummary(): String {
         val count = dir.listFiles()?.count { isInstalled(it.name) } ?: 0
-        return if (count == 0) "No voices downloaded yet." else "$count voice${if (count == 1) "" else "s"} downloaded."
+        return if (count == 0) "No voices downloaded yet" else "$count voice${if (count == 1) "" else "s"} downloaded"
     }
 
     override suspend fun packages(): List<SpeechPackage> = voices().map { SpeechPackage(it.key, it.title, it.appCode, it.language, it.size, isInstalled(it.key)) }
