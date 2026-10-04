@@ -411,7 +411,7 @@ private fun BookTableRow(book: BookListItem, index: Int, actions: BookActions) {
             Text("page ${book.currentPage}/${book.pageCount}  ·  ${book.wordCount} words", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 StatusDistributionBar(book.stats, Modifier.weight(1f))
-                Text(book.stats?.let { "${it.unknownPercent}% new" } ?: "…", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+                Text(book.stats?.let { "${it.unknownPercent}% new" } ?: "…", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, softWrap = false)
             }
         }
         Text(book.lastOpened?.relativeTo() ?: "Not yet", Modifier.weight(OPENED_WEIGHT), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -455,7 +455,7 @@ private fun BookCard(book: BookListItem, actions: BookActions, modifier: Modifie
         )
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             StatusDistributionBar(book.stats, Modifier.weight(1f))
-            Text(book.stats?.let { "${it.unknownPercent}% new" } ?: "…", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            Text(book.stats?.let { "${it.unknownPercent}% new" } ?: "…", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, softWrap = false)
         }
         MasteryBar(book.masteryPercent)
     }

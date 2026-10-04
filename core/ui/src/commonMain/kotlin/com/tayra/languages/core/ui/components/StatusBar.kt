@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -54,18 +55,21 @@ fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scop
     }
     val colors = TayraTheme.current.statusColors
     val count = { statuses: List<TermStatus> -> statuses.sumOf { stats.statusDistribution[it] ?: 0 } }
-    TooltipBox(
-        positionProvider = TooltipDefaults.rememberTooltipPositionProvider(TooltipAnchorPosition.Above),
-        tooltip = { RichTooltip(title = { Text("Vocabulary $scope") }) { StatusBreakdown(stats) } },
-        state = rememberTooltipState(),
-        modifier = modifier,
-    ) {
-        Row(Modifier.testTag(STATUS_BAR_TAG).height(10.dp).clip(RoundedCornerShape(4.dp)).background(MaterialTheme.colorScheme.surfaceVariant)) {
-            val segments = listOf(TermStatus.UNKNOWN to count(listOf(TermStatus.UNKNOWN))) +
-                LEARNING.map { it to count(listOf(it)) } +
-                (TermStatus.WELL_KNOWN to count(KNOWN))
-            for ((status, n) in segments) {
-                if (n > 0) Box(Modifier.fillMaxHeight().weight(n.toFloat()).background(colors.background(status)))
+    // The caller's modifier stays on this box: a row weight set on the tooltip box is not applied.
+    Box(modifier) {
+        TooltipBox(
+            positionProvider = TooltipDefaults.rememberTooltipPositionProvider(TooltipAnchorPosition.Above),
+            tooltip = { RichTooltip(title = { Text("Vocabulary $scope") }) { StatusBreakdown(stats) } },
+            state = rememberTooltipState(),
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().height(10.dp).clip(RoundedCornerShape(4.dp)).background(MaterialTheme.colorScheme.surfaceVariant)) {
+                val segments = listOf(TermStatus.UNKNOWN to count(listOf(TermStatus.UNKNOWN))) +
+                    LEARNING.map { it to count(listOf(it)) } +
+                    (TermStatus.WELL_KNOWN to count(KNOWN))
+                for ((status, n) in segments) {
+                    if (n > 0) Box(Modifier.fillMaxHeight().weight(n.toFloat()).background(colors.background(status)))
+                }
             }
         }
     }
