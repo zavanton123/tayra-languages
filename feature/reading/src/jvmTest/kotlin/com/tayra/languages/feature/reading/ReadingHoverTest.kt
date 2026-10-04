@@ -265,6 +265,24 @@ class ReadingHoverTest {
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.EditBook(1)), visited)
     }
 
+    /** The menu groups the translation options under their own heading, between Reading and Speech. */
+    @Test
+    fun theMenuGroupsTheTranslationOptions() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Menu").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("TRANSLATION").fetchSemanticsNodes().isNotEmpty() }
+        fun top(text: String) = rule.onNodeWithText(text, useUnmergedTree = true).fetchSemanticsNode().boundsInRoot.top
+        val heading = top("TRANSLATION")
+        assertTrue(top("READING") < heading, "Reading comes first")
+        for (option in listOf("Show translations", "Translations side by side", "Translation engine")) {
+            assertTrue(top(option) > heading, "$option sits under Translation")
+        }
+        assertTrue(top("One sentence per line") < heading, "reading options stay under Reading")
+    }
+
     /** Hovering the page's vocabulary bar explains it; ignored words count as known. */
     @Test
     fun hoveringTheVocabularyBarShowsTheCountsByStatus() {

@@ -374,6 +374,8 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         SwitchRow(AppIcons.Fullscreen, "Focus mode", prefs.focusMode) { viewModel.toggleFocusMode() }
         SwitchRow(AppIcons.Palette, "Highlight terms", prefs.showHighlights) { viewModel.toggleHighlights() }
         SwitchRow(AppIcons.LineSpacing, "One sentence per line", prefs.splitSentences) { viewModel.toggleSplitSentences() }
+
+        MenuSection("Translation")
         SwitchRow(AppIcons.Translate, "Show translations", prefs.showTranslations) { viewModel.toggleShowTranslations() }
         SwitchRow(AppIcons.ViewColumn, "Translations side by side", prefs.sideBySideTranslations) { viewModel.toggleSideBySideTranslations() }
         EngineRow(
