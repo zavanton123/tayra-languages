@@ -18,7 +18,7 @@ val settingsModule = module {
 fun NavGraphBuilder.settingsGraph(navController: NavController) {
     val navigate: (Route) -> Unit = { navController.navigate(it) }
     composable<Route.Settings> { SettingsScreen(onNavigate = navigate) }
-    composable<Route.Shortcuts> { ShortcutsScreen(onNavigate = navigate) }
+    composable<Route.Shortcuts> { ShortcutsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.Speech> { SpeechScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.OfflineDictionaries> { DictionariesScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.OfflineTranslation> { OfflineTranslationScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
