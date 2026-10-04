@@ -244,10 +244,17 @@ class ReadingHoverTest {
         assertEquals(2, rule.onAllNodesWithText("2 words (40%)").fetchSemanticsNodes().size, "unknown: o, na; known: dorme and the ignored floresta")
         rule.onNodeWithText("1 word (20%)").assertExists()
         rule.onNodeWithText("5 words in total").assertExists()
+        fun tooltipShown() = rule.onAllNodesWithText("5 words in total").fetchSemanticsNodes().isNotEmpty()
+        // Longer than the 1.5 s a timed tooltip stays for; that timeout runs on real time.
+        Thread.sleep(2_500)
+        rule.waitForIdle()
+        assertTrue(tooltipShown(), "the tooltip stays while the pointer is on the bar")
         System.getenv("STATUS_BAR_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
+        rule.onNodeWithTag(STATUS_BAR_TAG, useUnmergedTree = true).performMouseInput { moveTo(center + Offset(0f, 200f)) }
+        rule.waitUntil(5_000) { !tooltipShown() }
     }
 
     /** The whole screen, as the app shows it: hovering a word with the mouse brings up its card. */

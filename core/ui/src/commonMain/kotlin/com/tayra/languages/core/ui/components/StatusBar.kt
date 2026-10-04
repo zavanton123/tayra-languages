@@ -60,7 +60,8 @@ fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scop
         TooltipBox(
             positionProvider = TooltipDefaults.rememberTooltipPositionProvider(TooltipAnchorPosition.Above),
             tooltip = { RichTooltip(title = { Text("Vocabulary $scope") }) { StatusBreakdown(stats) } },
-            state = rememberTooltipState(),
+            // Persistent: stays while the pointer is on the bar (or, on touch, until a tap elsewhere) instead of hiding after 1.5 s.
+            state = rememberTooltipState(isPersistent = true),
             modifier = Modifier.fillMaxWidth(),
         ) {
             Row(Modifier.testTag(STATUS_BAR_TAG).fillMaxWidth().height(10.dp).clip(RoundedCornerShape(4.dp)).background(MaterialTheme.colorScheme.surfaceVariant)) {
