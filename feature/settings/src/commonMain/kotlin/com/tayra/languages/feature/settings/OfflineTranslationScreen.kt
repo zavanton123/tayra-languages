@@ -1,6 +1,17 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.background
+import com.tayra.languages.core.ui.components.CodeTile
+import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.PackageTab
+import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.StatusPill
+import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.TabToggle
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.formatSize
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -236,8 +247,8 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        SettingsPageColumn(padding) {
-            SettingsHeader("Translation", "Choose how translations are generated and stored.", onBackToSettings = onBack) {
+        PageColumn(padding) {
+            ScreenHeader("Translation", "Choose how translations are generated and stored.", onBackToSettings = onBack) {
                 if (!LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pair)
             }
             if (LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pair)
@@ -265,22 +276,22 @@ private class PairState(val learning: String?, val native: String, val missing: 
 private fun EngineStatusPill(settings: UserSettings, viewModel: OfflineTranslationViewModel, local: Boolean, checking: Boolean, ready: Boolean, pair: PairState) {
     when (settings.translationEngine) {
         TranslationEngine.ARGOS -> when {
-            !local -> StatusPill("Online translation: MyMemory", SettingsColors.ok)
+            !local -> StatusPill("Online translation: MyMemory", StatusTints.ok)
             checking -> StatusPill("Checking offline translation", MaterialTheme.colorScheme.outline)
-            !ready -> StatusPill("${viewModel.localName} is not installed", SettingsColors.warning)
-            !pair.ready -> StatusPill("Language packages needed", SettingsColors.warning)
-            else -> StatusPill("Offline translation ready", SettingsColors.ok)
+            !ready -> StatusPill("${viewModel.localName} is not installed", StatusTints.warning)
+            !pair.ready -> StatusPill("Language packages needed", StatusTints.warning)
+            else -> StatusPill("Offline translation ready", StatusTints.ok)
         }
-        TranslationEngine.MYMEMORY -> StatusPill("Online translation: MyMemory", SettingsColors.ok)
+        TranslationEngine.MYMEMORY -> StatusPill("Online translation: MyMemory", StatusTints.ok)
         TranslationEngine.GOOGLE ->
-            if (settings.googleTranslateApiKey.isBlank()) StatusPill("Google API key needed", SettingsColors.warning)
-            else StatusPill("Online translation: Google", SettingsColors.ok)
+            if (settings.googleTranslateApiKey.isBlank()) StatusPill("Google API key needed", StatusTints.warning)
+            else StatusPill("Online translation: Google", StatusTints.ok)
     }
 }
 
 @Composable
 private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslationViewModel, learningName: String?, nativeName: String, modifier: Modifier = Modifier) {
-    SettingsCard("Language pair", "Translations and example sentences use your native language.", icon = AppIcons.SwapHoriz, modifier = modifier) {
+    ContentCard("Language pair", "Translations and example sentences use your native language.", icon = AppIcons.SwapHoriz, modifier = modifier) {
         val compact = LocalWindowWidth.current.isCompact
         val learning: @Composable (Modifier) -> Unit = { m ->
             Column(m) {
@@ -348,7 +359,7 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
         else -> "A free online service. Sentences are sent over the network."
     }
     val compact = LocalWindowWidth.current.isCompact
-    SettingsCard("Translation engine", subtitle, icon = AppIcons.Memory, modifier = modifier) {
+    ContentCard("Translation engine", subtitle, icon = AppIcons.Memory, modifier = modifier) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             Dropdown(
                 options = viewModel.engines,
@@ -360,8 +371,8 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
                 modifier = Modifier.weight(1f),
             )
             if (!compact) {
-                if (local) Tag("Offline", SettingsColors.ok) else Tag("Online", MaterialTheme.colorScheme.primary)
-                if (engine == TranslationEngine.GOOGLE) Tag("Paid", SettingsColors.warning) else Tag("Free", MaterialTheme.colorScheme.primary)
+                if (local) Tag("Offline", StatusTints.ok) else Tag("Online", MaterialTheme.colorScheme.primary)
+                if (engine == TranslationEngine.GOOGLE) Tag("Paid", StatusTints.warning) else Tag("Free", MaterialTheme.colorScheme.primary)
             }
         }
         Spacer(Modifier.height(16.dp))
@@ -400,8 +411,8 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     }
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
-        ready -> SettingsColors.ok
-        else -> SettingsColors.warning
+        ready -> StatusTints.ok
+        else -> StatusTints.warning
     }
     Row(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.08f))
@@ -526,7 +537,7 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
             modifier = modifier,
         )
     }
-    SettingsCard(
+    ContentCard(
         title,
         if (viewModel.hasRuntimeSetup) "Download language models for offline translation." else "Download language models for translation on this device.",
         icon = AppIcons.Download,
@@ -615,11 +626,11 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
         if (pair.learning != null && !pair.sameLanguage) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 if (pair.ready) {
-                    Icon(Icons.Default.CheckCircle, contentDescription = null, tint = SettingsColors.ok, modifier = Modifier.size(20.dp))
+                    Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(20.dp))
                     Spacer(Modifier.width(8.dp))
                     Text("${pair.label} is ready", style = MaterialTheme.typography.bodyMedium)
                 } else {
-                    Icon(Icons.Default.Warning, contentDescription = null, tint = SettingsColors.warning, modifier = Modifier.size(20.dp))
+                    Icon(Icons.Default.Warning, contentDescription = null, tint = StatusTints.warning, modifier = Modifier.size(20.dp))
                     Spacer(Modifier.width(8.dp))
                     Text("${pair.label} needs ${pair.missing.joinToString { it.title }}", style = MaterialTheme.typography.bodyMedium)
                     Spacer(Modifier.width(12.dp))
@@ -663,9 +674,9 @@ private fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onIns
         when {
             busy -> Text(if (pkg.installed) "Removing…" else "Downloading…", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = 12.dp))
             pkg.installed -> {
-                Box(Modifier.size(8.dp).clip(CircleShape).background(SettingsColors.ok))
+                Box(Modifier.size(8.dp).clip(CircleShape).background(StatusTints.ok))
                 Spacer(Modifier.width(8.dp))
-                Text("Installed", style = MaterialTheme.typography.bodyMedium, color = SettingsColors.ok)
+                Text("Installed", style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(4.dp))
                 Box {
                     IconButton(onClick = { menu = true }) { Icon(AppIcons.MoreHoriz, contentDescription = "More for ${pkg.title}") }

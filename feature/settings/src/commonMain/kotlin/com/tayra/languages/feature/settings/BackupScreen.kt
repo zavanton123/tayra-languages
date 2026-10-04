@@ -1,6 +1,15 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.background
+import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.StatusPill
+import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.formatSize
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -170,15 +179,15 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
     val compact = LocalWindowWidth.current.isCompact
     val count = state.backups.size
     val pill: @Composable () -> Unit = {
-        if (state.loaded) StatusPill(if (count == 0) "No backups yet" else "$count local backup${if (count == 1) "" else "s"}", if (count == 0) SettingsColors.warning else SettingsColors.ok)
+        if (state.loaded) StatusPill(if (count == 0) "No backups yet" else "$count local backup${if (count == 1) "" else "s"}", if (count == 0) StatusTints.warning else StatusTints.ok)
     }
 
     Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        SettingsPageColumn(padding) {
-            SettingsHeader("Backups", "Protect your library, vocabulary, progress, and preferences.", onBackToSettings = onBack) { if (!compact) pill() }
+        PageColumn(padding) {
+            ScreenHeader("Backups", "Protect your library, vocabulary, progress, and preferences.", onBackToSettings = onBack) { if (!compact) pill() }
             if (compact) pill()
             val create: @Composable (Modifier) -> Unit = { m ->
                 ActionCard(
@@ -263,7 +272,7 @@ private fun Progress(state: BackupState) {
             LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 6.dp))
         }
     }
-    state.message?.let { InfoBanner(it, tint = SettingsColors.ok, icon = Icons.Default.CheckCircle) }
+    state.message?.let { InfoBanner(it, tint = StatusTints.ok, icon = Icons.Default.CheckCircle) }
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
 }
 
@@ -296,7 +305,7 @@ private fun HistoryCard(
     onDelete: (Backup) -> Unit,
     modifier: Modifier = Modifier,
 ) {
-    SettingsCard(
+    ContentCard(
         "Backup history",
         "Newest first.",
         icon = AppIcons.History,
@@ -393,9 +402,9 @@ private fun BackupRowContent(
                 Text(formatSize(backup.sizeBytes), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             if (!stacked) {
-                Box(Modifier.size(8.dp).clip(CircleShape).background(SettingsColors.ok))
+                Box(Modifier.size(8.dp).clip(CircleShape).background(StatusTints.ok))
                 Spacer(Modifier.width(8.dp))
-                Text("Ready", style = MaterialTheme.typography.bodyMedium, color = SettingsColors.ok)
+                Text("Ready", style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(24.dp))
                 actions()
             }
@@ -420,7 +429,7 @@ private fun IncludedCard(modifier: Modifier = Modifier) {
             Text("What's included", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
         }
         Spacer(Modifier.height(14.dp))
-        listOf("Languages and books", "Vocabulary", "Reading history", "Settings").forEach { IncludedLine(it, Icons.Default.CheckCircle, SettingsColors.ok) }
+        listOf("Languages and books", "Vocabulary", "Reading history", "Settings").forEach { IncludedLine(it, Icons.Default.CheckCircle, StatusTints.ok) }
         HorizontalDivider(Modifier.padding(vertical = 14.dp), color = MaterialTheme.colorScheme.outlineVariant)
         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
             Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(22.dp))

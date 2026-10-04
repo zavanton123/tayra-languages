@@ -1,4 +1,4 @@
-package com.tayra.languages.feature.settings
+package com.tayra.languages.core.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -48,17 +48,16 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.tayra.languages.core.ui.components.LocalWindowWidth
 
-/** Colours of the status pills and banners, readable on light and dark themes alike. */
-internal object SettingsColors {
+/** Colours of status pills, tags and banners, readable on light and dark themes alike. */
+object StatusTints {
     val ok = Color(0xFF2E9D57)
     val warning = Color(0xFFD68A00)
 }
 
 /** The page heading: an optional way back to Settings, the title and subtitle, and actions on the right. */
 @Composable
-internal fun SettingsHeader(
+fun ScreenHeader(
     title: String,
     subtitle: String,
     onBackToSettings: (() -> Unit)? = null,
@@ -93,7 +92,7 @@ internal fun SettingsHeader(
 
 /** A white card with an icon tile, a title and a subtitle, and its content below. */
 @Composable
-internal fun SettingsCard(
+fun ContentCard(
     title: String,
     subtitle: String,
     icon: ImageVector? = null,
@@ -126,7 +125,7 @@ internal fun SettingsCard(
 }
 
 @Composable
-internal fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48) {
+fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48) {
     Box(
         Modifier.size(size.dp).clip(RoundedCornerShape(12.dp)).background(MaterialTheme.colorScheme.primary.copy(alpha = 0.09f)),
         contentAlignment = Alignment.Center,
@@ -141,7 +140,7 @@ internal fun IconTile(icon: ImageVector?, text: String? = null, size: Int = 48) 
  * phones a wide control goes below the text.
  */
 @Composable
-internal fun SettingRow(
+fun SettingRow(
     title: String,
     description: String? = null,
     divider: Boolean = false,
@@ -169,13 +168,13 @@ internal fun SettingRow(
 }
 
 @Composable
-internal fun SwitchSetting(title: String, description: String?, checked: Boolean, divider: Boolean = false, onChange: (Boolean) -> Unit) {
+fun SwitchSetting(title: String, description: String?, checked: Boolean, divider: Boolean = false, onChange: (Boolean) -> Unit) {
     SettingRow(title, description, divider) { Switch(checked = checked, onCheckedChange = onChange) }
 }
 
 /** A value with minus and plus buttons around a slider, moving in [step]s within [range]. */
 @Composable
-internal fun SliderStepper(
+fun SliderStepper(
     value: Float,
     range: ClosedFloatingPointRange<Float>,
     step: Float,
@@ -198,7 +197,7 @@ internal fun SliderStepper(
 /** A slider with a round thumb on a thin track. */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun RoundSlider(value: Float, onValueChange: (Float) -> Unit, valueRange: ClosedFloatingPointRange<Float>, modifier: Modifier = Modifier) {
+fun RoundSlider(value: Float, onValueChange: (Float) -> Unit, valueRange: ClosedFloatingPointRange<Float>, modifier: Modifier = Modifier) {
     val primary = MaterialTheme.colorScheme.primary
     val colors = SliderDefaults.colors(activeTrackColor = primary, inactiveTrackColor = MaterialTheme.colorScheme.outlineVariant, thumbColor = primary)
     Slider(
@@ -227,7 +226,7 @@ internal fun RoundSlider(value: Float, onValueChange: (Float) -> Unit, valueRang
 
 /** A whole number with minus and plus buttons on either side. */
 @Composable
-internal fun NumberStepper(value: Int, range: IntRange, name: String, onChange: (Int) -> Unit) {
+fun NumberStepper(value: Int, range: IntRange, name: String, onChange: (Int) -> Unit) {
     Row(
         Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp)),
         verticalAlignment = Alignment.CenterVertically,
@@ -274,7 +273,7 @@ private fun StepButton(symbol: String, description: String, enabled: Boolean, bo
 
 /** A tinted note with an info icon. */
 @Composable
-internal fun InfoBanner(text: String, modifier: Modifier = Modifier, tint: Color = MaterialTheme.colorScheme.primary, icon: ImageVector = Icons.Default.Info) {
+fun InfoBanner(text: String, modifier: Modifier = Modifier, tint: Color = MaterialTheme.colorScheme.primary, icon: ImageVector = Icons.Default.Info) {
     Row(
         modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.07f))
             .border(1.dp, tint.copy(alpha = 0.18f), RoundedCornerShape(12.dp)).padding(horizontal = 16.dp, vertical = 14.dp),
@@ -288,7 +287,7 @@ internal fun InfoBanner(text: String, modifier: Modifier = Modifier, tint: Color
 
 /** A rounded label with a coloured dot, such as "Offline translation ready". */
 @Composable
-internal fun StatusPill(text: String, color: Color) {
+fun StatusPill(text: String, color: Color) {
     Row(
         Modifier.clip(RoundedCornerShape(50)).background(color.copy(alpha = 0.1f)).border(1.dp, color.copy(alpha = 0.3f), RoundedCornerShape(50))
             .padding(horizontal = 14.dp, vertical = 8.dp),
@@ -302,7 +301,7 @@ internal fun StatusPill(text: String, color: Color) {
 
 /** A small tinted tag, such as "Offline" or "Free". */
 @Composable
-internal fun Tag(text: String, color: Color) {
+fun Tag(text: String, color: Color) {
     Text(
         text,
         Modifier.clip(RoundedCornerShape(50)).background(color.copy(alpha = 0.12f)).padding(horizontal = 12.dp, vertical = 6.dp),
@@ -315,7 +314,7 @@ internal fun Tag(text: String, color: Color) {
 
 /** The outlined button with an icon used for page actions. */
 @Composable
-internal fun HeaderButton(text: String, icon: ImageVector, onClick: () -> Unit, enabled: Boolean = true) {
+fun HeaderButton(text: String, icon: ImageVector, onClick: () -> Unit, enabled: Boolean = true) {
     OutlinedButton(onClick = onClick, enabled = enabled, shape = RoundedCornerShape(10.dp), contentPadding = PaddingValues(horizontal = 16.dp, vertical = 10.dp)) {
         Icon(icon, contentDescription = null, modifier = Modifier.size(20.dp))
         Spacer(Modifier.width(8.dp))
@@ -323,12 +322,7 @@ internal fun HeaderButton(text: String, icon: ImageVector, onClick: () -> Unit, 
     }
 }
 
-@Composable
-internal fun Section(title: String) {
-    Text(title, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 8.dp))
-}
-
-internal fun formatSize(bytes: Long): String = when {
+fun formatSize(bytes: Long): String = when {
     bytes >= 1_000_000_000 -> "${(bytes / 10_000_000) / 100.0} GB"
     bytes >= 1_000_000 -> "${(bytes / 100_000) / 10.0} MB"
     bytes >= 1_000 -> "${bytes / 1_000} kB"
@@ -337,7 +331,7 @@ internal fun formatSize(bytes: Long): String = when {
 
 /** The scrolling page body, centred and kept to a readable width on large windows. */
 @Composable
-internal fun SettingsPageColumn(padding: PaddingValues, content: @Composable ColumnScope.() -> Unit) {
+fun PageColumn(padding: PaddingValues, content: @Composable ColumnScope.() -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
     Box(Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()), contentAlignment = Alignment.TopCenter) {
         Column(
@@ -349,11 +343,11 @@ internal fun SettingsPageColumn(padding: PaddingValues, content: @Composable Col
     }
 }
 
-internal enum class PackageTab(val label: String) { INSTALLED("Installed"), AVAILABLE("Available") }
+enum class PackageTab(val label: String) { INSTALLED("Installed"), AVAILABLE("Available") }
 
 /** The Installed / Available switch above a list of downloads. */
 @Composable
-internal fun TabToggle(selected: PackageTab, onSelect: (PackageTab) -> Unit) {
+fun TabToggle(selected: PackageTab, onSelect: (PackageTab) -> Unit) {
     Row(Modifier.clip(RoundedCornerShape(10.dp)).background(MaterialTheme.colorScheme.surfaceContainer).padding(3.dp)) {
         PackageTab.entries.forEach { tab ->
             val active = tab == selected
@@ -380,7 +374,7 @@ private val codeTints = listOf(
 
 /** A language code on a square tinted per code, as on download tiles. */
 @Composable
-internal fun CodeTile(languageCode: String, size: Int = 44) {
+fun CodeTile(languageCode: String, size: Int = 44) {
     val code = languageCode.uppercase().take(3)
     val tint = codeTints[(code.hashCode() and Int.MAX_VALUE) % codeTints.size]
     Box(Modifier.size(size.dp).clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {

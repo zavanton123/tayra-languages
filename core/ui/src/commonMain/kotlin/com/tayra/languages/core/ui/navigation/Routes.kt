@@ -11,7 +11,7 @@ sealed interface Route {
     data object ArchivedBooks : Route
 
     @Serializable
-    data class NewBook(val importUrl: String? = null) : Route
+    data object NewBook : Route
 
     @Serializable
     data class EditBook(val bookId: Long) : Route

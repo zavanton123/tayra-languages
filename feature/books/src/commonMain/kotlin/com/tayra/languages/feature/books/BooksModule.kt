@@ -11,7 +11,7 @@ import org.koin.dsl.module
 
 val booksModule = module {
     viewModel { (archived: Boolean) -> BooksViewModel(archived, get(), get(), get(), get(), get(), get(), get(), get()) }
-    viewModel { (bookId: Long?, importUrl: String?) -> BookFormViewModel(bookId, importUrl, get(), get(), get(), get(), get()) }
+    viewModel { (bookId: Long?) -> BookFormViewModel(bookId, get(), get(), get(), get()) }
     viewModel { (bookId: Long) -> BookmarksViewModel(bookId, get()) }
     viewModel { (mode: PageEditMode) -> PageEditViewModel(mode, get(), get(), get()) }
 }
@@ -24,11 +24,9 @@ fun NavGraphBuilder.booksGraph(navController: NavController) {
     composable<Route.ArchivedBooks> {
         BooksScreen(archived = true, onNavigate = navigate, onBack = { navController.popBackStack() })
     }
-    composable<Route.NewBook> { entry ->
-        val route = entry.toRoute<Route.NewBook>()
+    composable<Route.NewBook> {
         BookFormScreen(
             bookId = null,
-            importUrl = route.importUrl,
             onNavigate = navigate,
             onBack = { navController.popBackStack() },
             onSaved = { id, _ -> navController.navigate(Route.Read(id, 1)) { popUpTo<Route.Home>() } },
@@ -38,7 +36,6 @@ fun NavGraphBuilder.booksGraph(navController: NavController) {
         val route = entry.toRoute<Route.EditBook>()
         BookFormScreen(
             bookId = route.bookId,
-            importUrl = null,
             onNavigate = navigate,
             onBack = { navController.popBackStack() },
             onSaved = { _, _ -> navController.popBackStack() },

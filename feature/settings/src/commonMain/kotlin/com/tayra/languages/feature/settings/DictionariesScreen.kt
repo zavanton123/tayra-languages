@@ -1,6 +1,15 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.background
+import com.tayra.languages.core.ui.components.CodeTile
+import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.StatusPill
+import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.formatSize
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -119,8 +128,8 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
     val compact = LocalWindowWidth.current.isCompact
     val pill: @Composable () -> Unit = {
         when {
-            current?.state is PackState.Installed -> StatusPill("Offline lookup ready", SettingsColors.ok)
-            current != null -> StatusPill("Dictionary not downloaded", SettingsColors.warning)
+            current?.state is PackState.Installed -> StatusPill("Offline lookup ready", StatusTints.ok)
+            current != null -> StatusPill("Dictionary not downloaded", StatusTints.warning)
             else -> StatusPill("Online lookup only", MaterialTheme.colorScheme.outline)
         }
     }
@@ -129,8 +138,8 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        SettingsPageColumn(padding) {
-            SettingsHeader("Dictionaries", "Manage offline word definitions and base-form lookup.", onBackToSettings = onBack) { if (!compact) pill() }
+        PageColumn(padding) {
+            ScreenHeader("Dictionaries", "Manage offline word definitions and base-form lookup.", onBackToSettings = onBack) { if (!compact) pill() }
             if (compact) pill()
             CurrentLookupCard(learning, nativeName, current, onDownload = { viewModel.download(it) }, onTest = { testing = it })
             if (LocalWindowWidth.current.isExpanded) {
@@ -169,10 +178,10 @@ private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, cur
     }
     val status: @Composable (Modifier) -> Unit = { modifier ->
         val (icon, tint, title, text) = when {
-            state is PackState.Installed -> LookupStatus(Icons.Default.CheckCircle, SettingsColors.ok, "Dictionary ready", "Downloaded dictionaries work without a network connection and link inflected forms to their base word. Online dictionaries remain available as a fallback.")
+            state is PackState.Installed -> LookupStatus(Icons.Default.CheckCircle, StatusTints.ok, "Dictionary ready", "Downloaded dictionaries work without a network connection and link inflected forms to their base word. Online dictionaries remain available as a fallback.")
             state is PackState.Downloading -> LookupStatus(Icons.Default.Info, MaterialTheme.colorScheme.primary, "Downloading the dictionary…", "It works offline as soon as the download finishes.")
             state is PackState.Failed -> LookupStatus(Icons.Default.Warning, MaterialTheme.colorScheme.error, "Download failed", state.message)
-            current != null -> LookupStatus(Icons.Default.Warning, SettingsColors.warning, "${current.pack.title} is not downloaded", "Download it to look words up offline and find their base forms. Until then the online dictionaries are used.")
+            current != null -> LookupStatus(Icons.Default.Warning, StatusTints.warning, "${current.pack.title} is not downloaded", "Download it to look words up offline and find their base forms. Until then the online dictionaries are used.")
             else -> LookupStatus(Icons.Default.Info, MaterialTheme.colorScheme.outline, "No offline dictionary for this pair", "Words are looked up in the online dictionaries set up for the language.")
         }
         Row(modifier, verticalAlignment = Alignment.Top) {
@@ -252,7 +261,7 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
         .sortedBy { it.pack.title }
     val shown = if (showAll || query.isNotBlank()) matching else matching.take(INSTALLED_PREVIEW)
 
-    SettingsCard("Installed dictionaries", "Manage downloaded dictionaries for offline lookup.", icon = AppIcons.Storage, modifier = modifier) {
+    ContentCard("Installed dictionaries", "Manage downloaded dictionaries for offline lookup.", icon = AppIcons.Storage, modifier = modifier) {
         if (installed.isEmpty()) {
             Text(
                 "No dictionaries downloaded yet. Download one on the right to look words up offline.",
@@ -260,7 +269,7 @@ private fun InstalledCard(packs: List<PackStatus>, nativeName: String, viewModel
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(vertical = 8.dp),
             )
-            return@SettingsCard
+            return@ContentCard
         }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
             OutlinedTextField(
@@ -346,9 +355,9 @@ private fun InstalledRow(status: PackStatus, onRemove: () -> Unit) {
         if (state is PackState.Downloading) {
             Text("Downloading…", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(end = 12.dp))
         } else {
-            Box(Modifier.size(8.dp).clip(CircleShape).background(SettingsColors.ok))
+            Box(Modifier.size(8.dp).clip(CircleShape).background(StatusTints.ok))
             Spacer(Modifier.width(8.dp))
-            Text("Installed", style = MaterialTheme.typography.bodyMedium, color = SettingsColors.ok, modifier = if (compact) Modifier else Modifier.width(110.dp))
+            Text("Installed", style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok, modifier = if (compact) Modifier else Modifier.width(110.dp))
             Box {
                 IconButton(onClick = { menu = true }) { Icon(AppIcons.MoreHoriz, contentDescription = "More for ${status.pack.title}") }
                 AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
@@ -371,7 +380,7 @@ private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, na
     val forLearning = missing.filter { it.pack.id.sourceLanguage == learning?.code }
         .sortedWith(compareBy({ it.pack.id.targetLanguage != native }, { it.pack.title }))
     val shown = if (browsing || learning == null) missing.filter { query.isBlank() || it.pack.title.contains(query.trim(), ignoreCase = true) } else forLearning
-    SettingsCard(
+    ContentCard(
         if (browsing || learning == null) "All dictionaries" else "Available for ${learning.name}",
         if (browsing || learning == null) "Every dictionary not on this device." else "Add meanings in another language.",
         icon = AppIcons.Download,

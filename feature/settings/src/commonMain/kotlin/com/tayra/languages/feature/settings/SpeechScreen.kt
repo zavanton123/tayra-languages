@@ -1,6 +1,19 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.Canvas
+import com.tayra.languages.core.ui.components.CodeTile
+import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.PackageTab
+import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SettingRow
+import com.tayra.languages.core.ui.components.SliderStepper
+import com.tayra.languages.core.ui.components.StatusPill
+import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.TabToggle
+import com.tayra.languages.core.ui.components.Tag
+import com.tayra.languages.core.ui.components.formatSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -212,8 +225,8 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        SettingsPageColumn(padding) {
-            SettingsHeader("Speech", "Choose how words and passages are spoken.", onBackToSettings = onBack) { if (!compact) pill() }
+        PageColumn(padding) {
+            ScreenHeader("Speech", "Choose how words and passages are spoken.", onBackToSettings = onBack) { if (!compact) pill() }
             if (compact) pill()
             if (LocalWindowWidth.current.isExpanded) {
                 Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(20.dp)) {
@@ -237,9 +250,9 @@ private fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, read
     when {
         engine == null -> StatusPill("Using system voices", MaterialTheme.colorScheme.primary)
         checking -> StatusPill("Checking speech", MaterialTheme.colorScheme.outline)
-        !ready -> StatusPill("${engine.displayName} is not installed", SettingsColors.warning)
-        learning != null && voices[learning.code].isNullOrEmpty() -> StatusPill("No ${learning.name} voice yet", SettingsColors.warning)
-        else -> StatusPill("Offline speech ready", SettingsColors.ok)
+        !ready -> StatusPill("${engine.displayName} is not installed", StatusTints.warning)
+        learning != null && voices[learning.code].isNullOrEmpty() -> StatusPill("No ${learning.name} voice yet", StatusTints.warning)
+        else -> StatusPill("Offline speech ready", StatusTints.ok)
     }
 }
 
@@ -247,7 +260,7 @@ private fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, read
 @Composable
 private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, modifier: Modifier = Modifier) {
     val compact = LocalWindowWidth.current.isCompact
-    SettingsCard("Speech engine", "Reader playback and term pronunciation use this engine.", icon = AppIcons.Memory, modifier = modifier) {
+    ContentCard("Speech engine", "Reader playback and term pronunciation use this engine.", icon = AppIcons.Memory, modifier = modifier) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             Dropdown(
                 options = viewModel.engines,
@@ -276,8 +289,8 @@ private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engin
 private fun EngineTags(engine: SpeechEngine) {
     when (engine) {
         SpeechEngine.SYSTEM -> Tag("Built in", MaterialTheme.colorScheme.primary)
-        SpeechEngine.PIPER -> { Tag("Offline", SettingsColors.ok); Tag("Many languages", MaterialTheme.colorScheme.primary) }
-        SpeechEngine.KOKORO -> { Tag("Offline", SettingsColors.ok); Tag("High quality", MaterialTheme.colorScheme.primary) }
+        SpeechEngine.PIPER -> { Tag("Offline", StatusTints.ok); Tag("Many languages", MaterialTheme.colorScheme.primary) }
+        SpeechEngine.KOKORO -> { Tag("Offline", StatusTints.ok); Tag("High quality", MaterialTheme.colorScheme.primary) }
     }
 }
 
@@ -293,8 +306,8 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine) 
     val working = ready && !failed
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
-        working -> SettingsColors.ok
-        else -> SettingsColors.warning
+        working -> StatusTints.ok
+        else -> StatusTints.warning
     }
     val action: @Composable () -> Unit = {
         if (engine.hasRuntimeSetup && !ready && !busy) {
@@ -378,7 +391,7 @@ private fun VoiceCard(
     modifier: Modifier = Modifier,
 ) {
     val languageName = learning?.name ?: "your language"
-    SettingsCard(
+    ContentCard(
         "Voice & playback",
         when {
             engine == null -> "Hear how $languageName sounds with the system voice."
@@ -408,7 +421,7 @@ private fun VoiceCard(
             }
             else -> InfoBanner(
                 "${engine.displayName} has no $languageName voice on this device yet, so the system voice reads $languageName.",
-                tint = SettingsColors.warning,
+                tint = StatusTints.warning,
                 icon = Icons.Default.Warning,
             )
         }
@@ -503,19 +516,19 @@ private fun ModelCard(
     val busy = pkg.id in packageBusy
     val compact = LocalWindowWidth.current.isCompact
     val voiceCount = Regex("""(\d+) voices""").find(pkg.title)?.groupValues?.get(1)
-    SettingsCard(
+    ContentCard(
         "Voice model",
         engine.packagesDescription,
         icon = AppIcons.Download,
-        titleExtra = { if (pkg.installed) Tag("Installed", SettingsColors.ok) else Tag("Not downloaded", SettingsColors.warning) },
+        titleExtra = { if (pkg.installed) Tag("Installed", StatusTints.ok) else Tag("Not downloaded", StatusTints.warning) },
     ) {
         Column(
             Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp)).padding(12.dp),
         ) {
             val languages = pkg.group.split(", ").filter { it.isNotBlank() }
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.size(44.dp).clip(RoundedCornerShape(8.dp)).background(SettingsColors.ok.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
-                    Icon(AppIcons.Storage, contentDescription = null, tint = SettingsColors.ok, modifier = Modifier.size(22.dp))
+                Box(Modifier.size(44.dp).clip(RoundedCornerShape(8.dp)).background(StatusTints.ok.copy(alpha = 0.12f)), contentAlignment = Alignment.Center) {
+                    Icon(AppIcons.Storage, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(22.dp))
                 }
                 Spacer(Modifier.width(14.dp))
                 Column(Modifier.weight(1f)) {
@@ -593,7 +606,7 @@ private fun VoicesCard(
             modifier = m,
         )
     }
-    SettingsCard(
+    ContentCard(
         "Voices",
         engine.packagesDescription,
         icon = AppIcons.Download,
@@ -676,9 +689,9 @@ private fun PackageAction(pkg: SpeechPackage, busy: Boolean, onInstall: () -> Un
         when {
             busy -> Text(if (pkg.installed) "Removing…" else "Downloading…", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = 12.dp))
             pkg.installed -> {
-                Box(Modifier.size(8.dp).clip(CircleShape).background(SettingsColors.ok))
+                Box(Modifier.size(8.dp).clip(CircleShape).background(StatusTints.ok))
                 Spacer(Modifier.width(8.dp))
-                Text("Installed", style = MaterialTheme.typography.bodyMedium, color = SettingsColors.ok)
+                Text("Installed", style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(4.dp))
                 Box {
                     IconButton(onClick = { menu = true }) { Icon(AppIcons.MoreHoriz, contentDescription = "More for ${pkg.title}") }

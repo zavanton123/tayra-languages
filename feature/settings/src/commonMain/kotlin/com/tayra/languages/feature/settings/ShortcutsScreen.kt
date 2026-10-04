@@ -1,6 +1,12 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.background
+import com.tayra.languages.core.ui.components.HeaderButton
+import com.tayra.languages.core.ui.components.IconTile
+import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.StatusTints
+import com.tayra.languages.core.ui.components.Tag
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.focusable
@@ -92,8 +98,8 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        SettingsPageColumn(padding) {
-            SettingsHeader("Keyboard shortcuts", "Customize how you navigate and listen while reading.", onBackToSettings = onBack) {
+        PageColumn(padding) {
+            ScreenHeader("Keyboard shortcuts", "Customize how you navigate and listen while reading.", onBackToSettings = onBack) {
                 HeaderButton(if (compact) "Reset" else "Reset to defaults", Icons.Default.Refresh, onClick = { confirmReset = true })
             }
             SearchBanner(query, onQuery = { query = it }, assigned = hotkeys.values.count { it != null }, conflicts = conflicts.size)
@@ -225,7 +231,7 @@ private fun SearchBanner(query: String, onQuery: (String) -> Unit, assigned: Int
         if (!compact) Box(Modifier.width(1.dp).height(36.dp).background(MaterialTheme.colorScheme.outlineVariant))
         Row(verticalAlignment = Alignment.CenterVertically) {
             val ok = conflicts == 0
-            val color = if (ok) SettingsColors.ok else MaterialTheme.colorScheme.error
+            val color = if (ok) StatusTints.ok else MaterialTheme.colorScheme.error
             Icon(if (ok) Icons.Default.CheckCircle else Icons.Default.Warning, contentDescription = null, tint = color, modifier = Modifier.size(24.dp))
             Spacer(Modifier.width(8.dp))
             Text(
@@ -257,7 +263,7 @@ private fun CategoryCard(
             Spacer(Modifier.width(16.dp))
             Text(category.label, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Spacer(Modifier.width(14.dp))
-            Tag("${actions.count { hotkeys[it] != null }} assigned", SettingsColors.ok)
+            Tag("${actions.count { hotkeys[it] != null }} assigned", StatusTints.ok)
         }
         Spacer(Modifier.height(10.dp))
         actions.forEachIndexed { i, action ->

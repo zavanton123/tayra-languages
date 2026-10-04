@@ -133,11 +133,11 @@ fun BooksScreen(
                     )
                 }
             }
-            item { PageHeader(archived, compact, onNewBook = { onNavigate(Route.NewBook()) }) }
+            item { PageHeader(archived, compact, onNewBook = { onNavigate(Route.NewBook) }) }
             if (!archived) item { StatCards(state, compact) }
             item { Toolbar(state, compact, books.size, viewModel) }
             when {
-                books.isEmpty() -> item { EmptyState(archived, onNewBook = { onNavigate(Route.NewBook()) }) }
+                books.isEmpty() -> item { EmptyState(archived, onNewBook = { onNavigate(Route.NewBook) }) }
                 compact || state.view == BooksView.GRID -> item { BookGrid(books, compact, actions) }
                 else -> {
                     item { TableHeader(state.sort, onSort = viewModel::setSort) }

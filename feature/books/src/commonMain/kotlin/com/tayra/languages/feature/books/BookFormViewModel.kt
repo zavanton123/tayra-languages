@@ -4,8 +4,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.data.files.FileImportException
 import com.tayra.languages.core.data.files.FileTextExtractor
-import com.tayra.languages.core.data.network.WebImportException
-import com.tayra.languages.core.data.network.WebPageImporter
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.PageSplitMode
@@ -26,7 +24,6 @@ data class BookFormUiState(
     val draft: BookDraft = BookDraft(languageId = 0, title = ""),
     val languages: List<Language> = emptyList(),
     val tagSuggestions: List<String> = emptyList(),
-    val importUrl: String = "",
     val importedFileName: String? = null,
     val error: String? = null,
     val notice: String? = null,
@@ -42,15 +39,13 @@ sealed interface BookFormEvent {
 
 class BookFormViewModel(
     private val bookId: Long?,
-    initialImportUrl: String?,
     private val books: BookRepository,
     private val languages: LanguageRepository,
     private val settings: SettingsRepository,
     private val bookService: BookService,
-    private val webPageImporter: WebPageImporter,
 ) : ViewModel() {
 
-    private val _state = MutableStateFlow(BookFormUiState(importUrl = initialImportUrl.orEmpty()))
+    private val _state = MutableStateFlow(BookFormUiState())
     val state: StateFlow<BookFormUiState> = _state.asStateFlow()
     val events = UiEvents<BookFormEvent>()
 
@@ -78,38 +73,11 @@ class BookFormViewModel(
                 BookDraft(languageId = languageId, title = "")
             }
             _state.update { it.copy(loading = false, draft = draft, languages = languageList, tagSuggestions = tags) }
-            if (!initialImportUrl.isNullOrBlank()) importWebPage()
         }
     }
 
     fun update(transform: (BookDraft) -> BookDraft) {
         _state.update { it.copy(draft = transform(it.draft), error = null) }
-    }
-
-    fun setImportUrl(url: String) = _state.update { it.copy(importUrl = url) }
-
-    fun importWebPage() {
-        val url = _state.value.importUrl.trim()
-        if (url.isEmpty()) return
-        _state.update { it.copy(busy = true, error = null, notice = null) }
-        viewModelScope.launch {
-            try {
-                val page = webPageImporter.import(url)
-                _state.update {
-                    it.copy(
-                        busy = false,
-                        draft = it.draft.copy(
-                            title = it.draft.title.ifBlank { page.title },
-                            text = page.text,
-                            sourceUri = page.sourceUrl,
-                        ),
-                        notice = "Imported ${page.text.length} characters from the page.",
-                    )
-                }
-            } catch (e: WebImportException) {
-                _state.update { it.copy(busy = false, error = e.message) }
-            }
-        }
     }
 
     fun importFile(fileName: String, bytes: ByteArray) {

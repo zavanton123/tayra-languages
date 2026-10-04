@@ -1,6 +1,15 @@
 package com.tayra.languages.feature.settings
 
 import androidx.compose.foundation.background
+import com.tayra.languages.core.ui.components.ContentCard
+import com.tayra.languages.core.ui.components.HeaderButton
+import com.tayra.languages.core.ui.components.InfoBanner
+import com.tayra.languages.core.ui.components.NumberStepper
+import com.tayra.languages.core.ui.components.PageColumn
+import com.tayra.languages.core.ui.components.ScreenHeader
+import com.tayra.languages.core.ui.components.SettingRow
+import com.tayra.languages.core.ui.components.SliderStepper
+import com.tayra.languages.core.ui.components.SwitchSetting
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -94,8 +103,8 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        SettingsPageColumn(padding) {
-            SettingsHeader("Settings", "Personalize your reading experience.") {
+        PageColumn(padding) {
+            ScreenHeader("Settings", "Personalize your reading experience.") {
                 HeaderButton(if (compact) "Reset" else "Reset to defaults", Icons.Default.Refresh, onClick = { confirmReset = true })
             }
             if (wide) {
@@ -133,7 +142,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
 
 @Composable
 private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    SettingsCard("Appearance", "Customize the look and feel of Tayra.", icon = AppIcons.Palette) {
+    ContentCard("Appearance", "Customize the look and feel of Tayra.", icon = AppIcons.Palette) {
         SettingRow("Theme", "Choose how Tayra looks.", stackOnCompact = true) {
             Dropdown(
                 options = AppThemes.all,
@@ -153,7 +162,7 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
 @Composable
 private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
     val sliderWidth = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(450.dp)
-    SettingsCard("Reading", "Adjust the text size and spacing for a comfortable reading experience.", iconText = "Aa") {
+    ContentCard("Reading", "Adjust the text size and spacing for a comfortable reading experience.", iconText = "Aa") {
         SettingRow("Reading font size", stackOnCompact = true) {
             SliderStepper(
                 value = settings.readingFontScale,
@@ -181,7 +190,7 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
 
 @Composable
 private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    SettingsCard("Behaviour", "Control how Tayra behaves on different pages.", icon = Icons.Default.Settings) {
+    ContentCard("Behaviour", "Control how Tayra behaves on different pages.", icon = Icons.Default.Settings) {
         SwitchSetting("Show reading streak on home page", "Display your current streak on the Home dashboard.", settings.showStreakOnHome) { v ->
             viewModel.update { it.copy(showStreakOnHome = v) }
         }
@@ -201,7 +210,7 @@ private fun PreviewCard(settings: UserSettings) {
     val theme = TayraTheme.current
     val learning = LocalLearningLanguage.current?.let { state -> state.languages.firstOrNull { it.first == state.currentId }?.second }
     val sample = PreviewSamples.forLanguage(learning?.let { LanguageCodes.codeFor(it) })
-    SettingsCard("Reading preview", "Preview updates as you adjust the controls.", icon = AppIcons.MenuBook) {
+    ContentCard("Reading preview", "Preview updates as you adjust the controls.", icon = AppIcons.MenuBook) {
         Column(
             Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(theme.readingBackground)
                 .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(12.dp)).padding(horizontal = 28.dp, vertical = 24.dp),

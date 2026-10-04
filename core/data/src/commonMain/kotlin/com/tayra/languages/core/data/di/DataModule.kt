@@ -10,7 +10,6 @@ import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.data.network.GoogleTranslationProvider
 import com.tayra.languages.core.data.network.TatoebaExamplesProvider
 import com.tayra.languages.core.data.network.TranslationSuggestionProvider
-import com.tayra.languages.core.data.network.WebPageImporter
 import com.tayra.languages.core.data.network.WiktionaryTranslationProvider
 import com.tayra.languages.core.data.network.createHttpClient
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
@@ -91,7 +90,6 @@ val dataModule: Module = module {
     single<OfflineDictionary> { get<DictionaryService>() }
 
     single { createHttpClient() }
-    single { WebPageImporter(get()) }
     single<ExampleSentencesProvider> { TatoebaExamplesProvider(get()) }
     single { MyMemoryTranslationProvider(get(), get()) }
     single { GoogleTranslationProvider(get(), get()) }
