@@ -94,8 +94,7 @@ class BooksScreenTest {
         waitForIdle()
         System.getenv("BOOKS_SCREENSHOT")?.let { save(it) }
 
-        onNodeWithText("Page 3 of 5").assertExists()
-        assertEquals(0, onAllNodesWithText("Page 1 of 1").fetchSemanticsNodes().size, "one-page books have no page label")
+        assertEquals(0, onAllNodesWithText("Page ", substring = true).fetchSemanticsNodes().size, "the list shows no page numbers")
         onNodeWithText("60%").assertExists()
         onNodeWithText("1,223 words").assertExists()
         onNodeWithText("Reading").assertExists()

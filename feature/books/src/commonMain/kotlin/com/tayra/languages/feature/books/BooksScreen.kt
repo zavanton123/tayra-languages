@@ -481,10 +481,7 @@ private fun BookTableRow(book: BookListItem, callbacks: BooksCallbacks) {
                 Text(words(book.wordCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
         }
-        Column(Modifier.weight(PROGRESS_WEIGHT).padding(end = 32.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            pageLabel(book)?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
-            PercentBar(book.progressPercent, PROGRESS)
-        }
+        Box(Modifier.weight(PROGRESS_WEIGHT).padding(end = 32.dp)) { PercentBar(book.progressPercent, PROGRESS) }
         Box(Modifier.weight(KNOWN_WEIGHT).padding(end = 32.dp)) { PercentBar(book.masteryPercent, KNOWN) }
         Text(book.lastOpened?.relativeTo() ?: "Not opened yet", Modifier.weight(OPENED_WEIGHT).padding(end = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { BookMenu(book, callbacks) }
@@ -550,7 +547,7 @@ private fun BookCard(book: BookListItem, callbacks: BooksCallbacks, modifier: Mo
             BookMenu(book, callbacks)
         }
         Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text(pageLabel(book) ?: "Reading progress", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Text("Reading progress", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             PercentBar(book.progressPercent, PROGRESS)
         }
         Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
@@ -625,9 +622,6 @@ private fun DemoNotice(tutorialBookId: Long?, callbacks: BooksCallbacks) {
         }
     }
 }
-
-/** "Page 3 of 5"; nothing for a one-page book, where the page says nothing. */
-private fun pageLabel(book: BookListItem): String? = if (book.pageCount > 1) "Page ${book.currentPage} of ${book.pageCount}" else null
 
 private fun words(count: Int) = if (count == 1) "1 word" else "${count.grouped()} words"
 
