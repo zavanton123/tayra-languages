@@ -128,6 +128,8 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.StatusDistributionBar
+import com.tayra.languages.core.ui.components.ToastHost
+import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -169,6 +171,7 @@ fun ReadingScreen(
     var panelFocused by remember { mutableStateOf(false) }
     val focusRequester = remember { FocusRequester() }
     val shift = remember { ShiftTracker() }
+    val toast = rememberToastState()
 
     CollectEvents(viewModel.events) { event ->
         when (event) {
@@ -176,6 +179,7 @@ fun ReadingScreen(
             is ReadingEvent.OpenUrl -> uriHandler.openUri(event.url)
             is ReadingEvent.Navigate -> onNavigate(Route.Read(event.bookId, event.page))
             ReadingEvent.BookFinished -> onHome()
+            is ReadingEvent.Toast -> toast.show(event.message)
         }
     }
     LaunchedEffect(state.loading, state.panel) {
@@ -347,6 +351,7 @@ fun ReadingScreen(
             onDismiss = { confirmDeletePage = false },
         )
     }
+    ToastHost(toast)
 }
 
 private class ReadingMenuActions(

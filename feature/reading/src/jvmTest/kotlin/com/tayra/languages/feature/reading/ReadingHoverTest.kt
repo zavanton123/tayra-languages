@@ -196,7 +196,7 @@ class ReadingHoverTest {
 
     /**
      * The footer offers to mark the unknown words as known, with their count, only while there
-     * are some; on the last page "Finish book" goes back to the library.
+     * are some, and a toast confirms it; on the last page "Finish book" goes back to the library.
      */
     @Test
     fun theFooterMarksUnknownWordsAndFinishesTheBook() {
@@ -213,7 +213,13 @@ class ReadingHoverTest {
 
         rule.onNodeWithText("Mark remaining words as known").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Mark remaining words as known").fetchSemanticsNodes().isEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("5 words marked as known").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("READING_TOAST_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { termRepository.findByTextLc(languageId, "lobo") }?.status)
+        rule.waitUntil(8_000) { rule.onAllNodesWithText("5 words marked as known").fetchSemanticsNodes().isEmpty() }
 
         rule.onNodeWithText("Finish book").performScrollTo().performClick()
         rule.waitUntil(5_000) { home }

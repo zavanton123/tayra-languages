@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.domain.stats.BookStatsCalculator
 import kotlin.coroutines.cancellation.CancellationException
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -114,6 +115,7 @@ sealed interface ReadingEvent {
     data class OpenUrl(val url: String) : ReadingEvent
     data class Navigate(val bookId: Long, val page: Int) : ReadingEvent
     data object BookFinished : ReadingEvent
+    data class Toast(val message: String) : ReadingEvent
 }
 
 class ReadingViewModel(
@@ -224,8 +226,10 @@ class ReadingViewModel(
     fun markPageRead(markRestAsKnown: Boolean, thenGoToRelative: Int) {
         viewModelScope.launch {
             val s = _state.value
+            val unknowns = if (markRestAsKnown) BookStatsCalculator.calculate(s.items).distinctUnknowns else 0
             readingService.markPageRead(bookId, s.pageNumber, markRestAsKnown)
             bookStats.markStale(bookId)
+            if (unknowns > 0) events.send(ReadingEvent.Toast("${if (unknowns == 1) "1 word" else "$unknowns words"} marked as known"))
             load(s.pageNumber + thenGoToRelative, trackOpen = true)
         }
     }
