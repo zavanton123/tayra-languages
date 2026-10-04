@@ -4,6 +4,12 @@ plugins {
 }
 
 kotlin {
+    // The bundled reading fonts are Compose resources, which an Android library only packages with this on.
+    androidLibrary {
+        androidResources {
+            enable = true
+        }
+    }
     sourceSets {
         commonMain.dependencies {
             api(projects.core.domain)

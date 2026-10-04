@@ -14,6 +14,8 @@ data class UserSettings(
     val statsSampleSize: Int = 5,
     val readingFontScale: Float = 1.0f,
     val readingLineHeight: Float = 1.6f,
+    /** The typeface of the reader's text, by id; see the reading fonts in the UI. */
+    val readingFont: String = DEFAULT_READING_FONT,
     val readingColumnWidth: Int = 720,
     val focusMode: Boolean = false,
     /** Start every sentence on its own line while reading. */
@@ -51,6 +53,7 @@ data class UserSettings(
 
     companion object {
         const val DEFAULT_THEME = "default"
+        const val DEFAULT_READING_FONT = "serif"
         const val MIN_STATS_SAMPLE_SIZE = 1
         const val MAX_STATS_SAMPLE_SIZE = 500
     }

@@ -116,6 +116,7 @@ fun ReadingText(
     lineHeight: Float,
     rightToLeft: Boolean,
     callbacks: ReadingTextCallbacks,
+    fontFamily: FontFamily = FontFamily.Serif,
     modifier: Modifier = Modifier,
     /** Lay each sentence out on its own line instead of flowing a paragraph together. */
     splitSentences: Boolean = false,
@@ -197,6 +198,7 @@ fun ReadingText(
                         lineHeight = lineHeight,
                         rightToLeft = rightToLeft,
                         callbacks = callbacks,
+                        fontFamily = fontFamily,
                     )
                 }
                 val translated = translations != null && sentenceText.any { it.isLetter() }
@@ -356,6 +358,7 @@ private fun ParagraphText(
     lineHeight: Float,
     rightToLeft: Boolean,
     callbacks: ReadingTextCallbacks,
+    fontFamily: FontFamily = FontFamily.Serif,
     /** Local item positions that start a sentence, with the sentence to read, for inline play buttons. */
     inlinePlay: Map<Int, String> = emptyMap(),
     onSpeakSentence: ((String) -> Unit)? = null,
@@ -403,7 +406,7 @@ private fun ParagraphText(
                 lineHeight = (18 * fontScale * lineHeight).sp,
                 color = theme.readingText,
                 textDirection = if (rightToLeft) TextDirection.Rtl else TextDirection.Ltr,
-                fontFamily = FontFamily.Serif,
+                fontFamily = fontFamily,
             ),
             onTextLayout = { layout = it },
             inlineContent = inlineContent,

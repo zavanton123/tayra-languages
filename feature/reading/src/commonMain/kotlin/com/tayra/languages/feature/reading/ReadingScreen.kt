@@ -130,6 +130,8 @@ import com.tayra.languages.core.ui.components.TextInputDialog
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.theme.ReadingFont
+import com.tayra.languages.core.ui.theme.fontFamily
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.terms.form.TermFormEvent
 import com.tayra.languages.feature.terms.form.TermFormKey
@@ -826,6 +828,7 @@ private fun ReadingBody(
                 fontScale = state.settings.readingFontScale,
                 lineHeight = state.settings.readingLineHeight,
                 rightToLeft = state.language?.rightToLeft == true,
+                fontFamily = ReadingFont.byId(state.settings.readingFont).fontFamily(),
                 splitSentences = state.settings.splitSentences,
                 translations = if (state.settings.showTranslations) state.translations else null,
                 sideBySide = state.settings.sideBySideTranslations,

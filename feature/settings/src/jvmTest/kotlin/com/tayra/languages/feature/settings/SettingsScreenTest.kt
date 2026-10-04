@@ -8,6 +8,8 @@ import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
@@ -45,11 +47,19 @@ class SettingsScreenTest {
         onNodeWithContentDescription("Decrease book stats page sample size").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.statsSampleSize == 4 }
 
+        // The reading font is chosen from a list whose entries are drawn in their own fonts.
+        onNodeWithText("System serif").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Literata").fetchSemanticsNodes().isNotEmpty() }
+        onAllNodesWithText("Literata").onLast().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.readingFont == "literata" }
+        System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-literata.png")) }
+
         onNodeWithText("Reset to defaults").performClick()
         onNodeWithText("Reset").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.0f }
         assertEquals(5, settings.current.statsSampleSize)
         assertEquals(false, settings.current.showStreakOnHome)
+        assertEquals("serif", settings.current.readingFont)
     }
 
     private fun ComposeUiTest.save(path: String) {

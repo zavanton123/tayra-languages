@@ -48,7 +48,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -67,6 +66,8 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.theme.AppTheme
+import com.tayra.languages.core.ui.theme.ReadingFont
+import com.tayra.languages.core.ui.theme.fontFamily
 import com.tayra.languages.core.ui.theme.AppThemes
 import com.tayra.languages.core.ui.theme.TayraTheme
 import kotlinx.coroutines.flow.StateFlow
@@ -86,6 +87,7 @@ class SettingsViewModel(private val settings: SettingsRepository) : ViewModel() 
             showHighlights = defaults.showHighlights,
             readingFontScale = defaults.readingFontScale,
             readingLineHeight = defaults.readingLineHeight,
+            readingFont = defaults.readingFont,
             showStreakOnHome = defaults.showStreakOnHome,
             statsSampleSize = defaults.statsSampleSize,
         )
@@ -162,8 +164,19 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
 @Composable
 private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
     val sliderWidth = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(450.dp)
-    ContentCard("Reading", "Adjust the text size and spacing for a comfortable reading experience.", iconText = "Aa") {
-        SettingRow("Reading font size", stackOnCompact = true) {
+    ContentCard("Reading", "Adjust the font, text size and spacing for a comfortable reading experience.", iconText = "Aa") {
+        SettingRow("Reading font", "The typeface of the text you read.", stackOnCompact = true) {
+            Dropdown(
+                options = ReadingFont.choices,
+                selected = ReadingFont.byId(settings.readingFont),
+                onSelect = { font -> viewModel.update { it.copy(readingFont = font.id) } },
+                label = null,
+                optionLabel = { it.label },
+                optionContent = { Text(it.label, fontFamily = it.fontFamily(), style = MaterialTheme.typography.bodyLarge) },
+                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(250.dp),
+            )
+        }
+        SettingRow("Reading font size", divider = true, stackOnCompact = true) {
             SliderStepper(
                 value = settings.readingFontScale,
                 range = 0.6f..2.5f,
@@ -234,7 +247,7 @@ private fun PreviewCard(settings: UserSettings) {
                     fontSize = (18 * settings.readingFontScale).sp,
                     lineHeight = (18 * settings.readingFontScale * settings.readingLineHeight).sp,
                     color = theme.readingText,
-                    fontFamily = FontFamily.Serif,
+                    fontFamily = ReadingFont.byId(settings.readingFont).fontFamily(),
                 ),
                 modifier = Modifier.padding(vertical = 8.dp),
             )

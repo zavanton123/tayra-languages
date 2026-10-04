@@ -78,6 +78,7 @@ class SettingsRepositoryImpl(
             statsSampleSize = store.getInt(Keys.STATS_SAMPLE_SIZE, defaults.statsSampleSize),
             readingFontScale = store.getFloat(Keys.FONT_SCALE, defaults.readingFontScale),
             readingLineHeight = store.getFloat(Keys.LINE_HEIGHT, defaults.readingLineHeight),
+            readingFont = store.getString(Keys.READING_FONT, defaults.readingFont),
             readingColumnWidth = store.getInt(Keys.COLUMN_WIDTH, defaults.readingColumnWidth),
             focusMode = store.getBoolean(Keys.FOCUS_MODE, defaults.focusMode),
             splitSentences = store.getBoolean(Keys.SPLIT_SENTENCES, defaults.splitSentences),
@@ -163,6 +164,7 @@ class SettingsRepositoryImpl(
         store.putInt(Keys.STATS_SAMPLE_SIZE, s.statsSampleSize)
         store.putFloat(Keys.FONT_SCALE, s.readingFontScale)
         store.putFloat(Keys.LINE_HEIGHT, s.readingLineHeight)
+        store.putString(Keys.READING_FONT, s.readingFont)
         store.putInt(Keys.COLUMN_WIDTH, s.readingColumnWidth)
         store.putBoolean(Keys.FOCUS_MODE, s.focusMode)
         store.putBoolean(Keys.SPLIT_SENTENCES, s.splitSentences)
@@ -202,6 +204,7 @@ class SettingsRepositoryImpl(
         const val STATS_SAMPLE_SIZE = "stats_calc_sample_size"
         const val FONT_SCALE = "reading_font_scale"
         const val LINE_HEIGHT = "reading_line_height"
+        const val READING_FONT = "reading_font"
         const val COLUMN_WIDTH = "reading_column_width"
         const val FOCUS_MODE = "reading_focus_mode"
         const val SPLIT_SENTENCES = "reading_split_sentences"

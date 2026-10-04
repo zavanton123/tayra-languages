@@ -29,6 +29,8 @@ fun <T> Dropdown(
     optionLabel: (T) -> String,
     modifier: Modifier = Modifier,
     enabled: Boolean = true,
+    /** How an option is drawn in the menu, such as a font name in its own font; the label is shown otherwise. */
+    optionContent: (@Composable (T) -> Unit)? = null,
 ) {
     var expanded by remember { mutableStateOf(false) }
     ExposedDropdownMenuBox(expanded = expanded, onExpandedChange = { if (enabled) expanded = it }, modifier = modifier) {
@@ -52,7 +54,7 @@ fun <T> Dropdown(
         ) {
             options.forEach { option ->
                 AppMenuItem(
-                    text = { Text(optionLabel(option)) },
+                    text = { if (optionContent != null) optionContent(option) else Text(optionLabel(option)) },
                     onClick = {
                         onSelect(option)
                         expanded = false
