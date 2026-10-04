@@ -114,9 +114,7 @@ fun AppTopBar(
                 Spacer(Modifier.width(12.dp))
                 Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
                 if (LocalLearningLanguage.current?.currentName != null) {
-                    Spacer(Modifier.width(20.dp))
-                    Box(Modifier.width(1.dp).height(28.dp).background(MaterialTheme.colorScheme.outlineVariant))
-                    Spacer(Modifier.width(20.dp))
+                    Spacer(Modifier.width(24.dp))
                     LearningLanguageSelector(compact = false)
                 }
                 Spacer(Modifier.weight(1f))

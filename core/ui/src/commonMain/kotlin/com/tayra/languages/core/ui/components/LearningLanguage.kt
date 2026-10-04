@@ -5,7 +5,6 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -33,7 +32,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.tayra.languages.core.domain.language.LanguageCodes
 
 /** The language being learned and the ones to choose from; [languages] are ids with their names. */
@@ -75,16 +73,13 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
                 .border(1.dp, colors.primary.copy(alpha = 0.12f), RoundedCornerShape(12.dp))
                 .clickable { open = true }
                 .semantics { contentDescription = "Learning language: $name" }
-                .padding(horizontal = if (compact) 8.dp else 12.dp, vertical = 6.dp),
+                .padding(horizontal = if (compact) 8.dp else 12.dp, vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(if (compact) 4.dp else 10.dp),
         ) {
             LanguageFlag(name, if (compact) 18.dp else 22.dp)
             if (!compact) {
-                Column {
-                    Text("LEARNING LANGUAGE", fontSize = 10.sp, letterSpacing = 0.8.sp, color = colors.onSurfaceVariant, fontWeight = FontWeight.Medium, lineHeight = 12.sp)
-                    Text(name, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                }
+                Text(name, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
             Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
         }
