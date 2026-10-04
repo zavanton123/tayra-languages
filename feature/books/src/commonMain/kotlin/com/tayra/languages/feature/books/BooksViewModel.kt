@@ -78,6 +78,8 @@ data class BooksUiState(
     val streak: Int = 0,
     val showStreak: Boolean = false,
     val wordsLearned: Int = 0,
+    /** Ticked books; only those still listed count, so a filter never hides a selected book from a bulk action. */
+    val selected: Set<Long> = emptySet(),
 ) {
     val filteredBooks: List<BookListItem>
         get() {
@@ -93,6 +95,8 @@ data class BooksUiState(
         }
 
     val currentlyReading: Int get() = books.count { it.readingStatus == ReadingStatus.READING }
+
+    val selectedBooks: List<BookListItem> get() = filteredBooks.filter { it.id in selected }
 
 }
 
@@ -112,6 +116,7 @@ class BooksViewModel(
     private val sort = MutableStateFlow(BookSort.RECENT)
     private val progress = MutableStateFlow(ProgressFilter.ALL)
     private val view = MutableStateFlow(BooksView.LIST)
+    private val selected = MutableStateFlow<Set<Long>>(emptySet())
     private val extras = MutableStateFlow(Extras())
     private val statsInFlight = HashSet<Long>()
 
@@ -134,9 +139,9 @@ class BooksViewModel(
         books.observeBooks(archived).onEach(::computeMissingStats),
         languages.observeAll(),
         settings.settings,
-        search,
+        combine(search, selected, ::Pair),
         options,
-    ) { bookList, languageList, prefs, query, opts ->
+    ) { bookList, languageList, prefs, (query, ticked), opts ->
         val currentLanguageId = if (languageList.any { it.id == prefs.currentLanguageId }) prefs.currentLanguageId else 0
         BooksUiState(
             loading = false,
@@ -146,6 +151,7 @@ class BooksViewModel(
             languages = languageList,
             currentLanguageId = currentLanguageId,
             search = query,
+            selected = ticked,
             sort = opts.sort,
             progress = opts.progress,
             view = opts.view,
@@ -198,6 +204,28 @@ class BooksViewModel(
 
     fun setView(value: BooksView) {
         view.value = value
+    }
+
+    fun toggleSelected(bookId: Long) {
+        selected.value = if (bookId in selected.value) selected.value - bookId else selected.value + bookId
+    }
+
+    /** Ticks every listed book, or clears the selection. */
+    fun selectAll(select: Boolean) {
+        selected.value = if (select) state.value.filteredBooks.map { it.id }.toSet() else emptySet()
+    }
+
+    /** Archives the selected books, or brings them back on the archive page. */
+    fun archiveSelected() = viewModelScope.launch {
+        val ids = state.value.selectedBooks.map { it.id }
+        selected.value = emptySet()
+        for (id in ids) if (archived) bookService.unarchive(id) else bookService.archive(id)
+    }
+
+    fun deleteSelected() = viewModelScope.launch {
+        val ids = state.value.selectedBooks.map { it.id }
+        selected.value = emptySet()
+        for (id in ids) bookService.delete(id)
     }
 
     fun archive(bookId: Long) = viewModelScope.launch { bookService.archive(bookId) }

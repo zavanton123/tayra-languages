@@ -61,6 +61,10 @@ import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material3.Checkbox
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.BookListItem
@@ -88,6 +92,7 @@ fun BooksScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     var pendingDelete by remember { mutableStateOf<BookListItem?>(null) }
     var confirmWipe by remember { mutableStateOf(false) }
+    var confirmDeleteSelected by remember { mutableStateOf(false) }
 
     Scaffold(
         topBar = {
@@ -119,6 +124,10 @@ fun BooksScreen(
                 onSort = viewModel::setSort,
                 onProgress = viewModel::setProgress,
                 onView = viewModel::setView,
+                onToggle = { viewModel.toggleSelected(it.id) },
+                onSelectAll = viewModel::selectAll,
+                onArchiveSelected = { viewModel.archiveSelected() },
+                onDeleteSelected = { confirmDeleteSelected = true },
             ),
             modifier = Modifier.padding(padding),
         )
@@ -132,6 +141,17 @@ fun BooksScreen(
             destructive = true,
             onConfirm = { viewModel.delete(book.id); pendingDelete = null },
             onDismiss = { pendingDelete = null },
+        )
+    }
+    if (confirmDeleteSelected) {
+        val count = state.selectedBooks.size
+        ConfirmDialog(
+            title = "Delete $count book${if (count == 1) "" else "s"}?",
+            text = "The books and their pages will be deleted. Terms are kept.",
+            confirmLabel = "Delete",
+            destructive = true,
+            onConfirm = { viewModel.deleteSelected(); confirmDeleteSelected = false },
+            onDismiss = { confirmDeleteSelected = false },
         )
     }
     if (confirmWipe) {
@@ -160,6 +180,10 @@ internal class BooksCallbacks(
     val onSort: (BookSort) -> Unit = {},
     val onProgress: (ProgressFilter) -> Unit = {},
     val onView: (BooksView) -> Unit = {},
+    val onToggle: (BookListItem) -> Unit = {},
+    val onSelectAll: (Boolean) -> Unit = {},
+    val onArchiveSelected: () -> Unit = {},
+    val onDeleteSelected: () -> Unit = {},
 )
 
 /** The page below the top bar, from the header to the list of books. */
@@ -182,8 +206,12 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
         item {
             when {
                 books.isEmpty() -> EmptyState(state.archived, callbacks.onNewBook)
-                !wide || state.view == BooksView.GRID -> BookGrid(books, compact, callbacks)
-                else -> BookTable(books, state.sort, callbacks)
+                !wide || state.view == BooksView.GRID -> Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                    // Cards have no header, so the bulk actions show up once something is ticked.
+                    if (state.selectedBooks.isNotEmpty()) SelectionBar(state, callbacks)
+                    BookGrid(books, state.selected, compact, callbacks)
+                }
+                else -> BookTable(state, callbacks)
             }
         }
     }
@@ -288,7 +316,8 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count:
             progressMenu(Modifier)
             // Only wide windows have the table to switch to.
             if (wide) ViewToggle(state.view, callbacks.onView) else Spacer(Modifier)
-            Text("$count book${if (count == 1) "" else "s"}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
+            val ticked = state.selectedBooks.size
+            Text(if (ticked > 0) "$ticked of $count selected" else "$count book${if (count == 1) "" else "s"}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
         },
         modifier = Modifier.fillMaxWidth().padding(bottom = 20.dp),
     ) { measurables, constraints ->
@@ -399,32 +428,37 @@ private const val KNOWN_WEIGHT = 2.2f
 private val MENU_WIDTH = 48.dp
 
 @Composable
-private fun BookTable(books: List<BookListItem>, sort: BookSort, callbacks: BooksCallbacks) {
+private fun BookTable(state: BooksUiState, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
     Column(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).background(colors.surface),
     ) {
-        TableHeader(sort, callbacks.onSort)
-        books.forEach { book ->
+        TableHeader(state, callbacks)
+        state.filteredBooks.forEach { book ->
             HorizontalDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
-            BookTableRow(book, callbacks)
+            BookTableRow(book, book.id in state.selected, callbacks)
         }
     }
 }
 
 @Composable
-private fun TableHeader(sort: BookSort, onSort: (BookSort) -> Unit) {
+private fun TableHeader(state: BooksUiState, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
+    val sort = state.sort
+    val onSort = callbacks.onSort
+    val allSelected = state.filteredBooks.isNotEmpty() && state.selectedBooks.size == state.filteredBooks.size
     CompositionLocalProvider(LocalContentColor provides colors.onSurfaceVariant, LocalTextStyle provides MaterialTheme.typography.bodyLarge) {
         Row(
-            Modifier.fillMaxWidth().background(colors.surfaceVariant.copy(alpha = 0.35f)).padding(horizontal = 20.dp, vertical = 14.dp),
+            Modifier.fillMaxWidth().background(colors.surfaceVariant.copy(alpha = 0.35f)).padding(start = 8.dp, end = 20.dp, top = 4.dp, bottom = 4.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
+            Checkbox(checked = allSelected, onCheckedChange = callbacks.onSelectAll, modifier = Modifier.semantics { contentDescription = "Select all books" })
+            Spacer(Modifier.width(CHECKBOX_GAP))
             HeaderCell("Book", BOOK_WEIGHT, active = sort == BookSort.TITLE) { onSort(BookSort.TITLE) }
             HeaderCell("Reading progress", PROGRESS_WEIGHT)
             HeaderCell("Vocabulary known", KNOWN_WEIGHT, active = sort == BookSort.MASTERY) { onSort(BookSort.MASTERY) }
             HeaderCell("Last opened", OPENED_WEIGHT, Icons.Default.KeyboardArrowDown, active = sort == BookSort.RECENT) { onSort(BookSort.RECENT) }
-            Spacer(Modifier.width(MENU_WIDTH))
+            Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { BulkMenu(state, callbacks) }
         }
     }
 }
@@ -448,15 +482,22 @@ private fun HeaderLabel(label: String, icon: ImageVector? = null, active: Boolea
 }
 
 @Composable
-private fun BookTableRow(book: BookListItem, callbacks: BooksCallbacks) {
+private fun BookTableRow(book: BookListItem, selected: Boolean, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
+    val background = when {
+        selected -> colors.primary.copy(alpha = 0.07f)
+        hovered -> colors.primary.copy(alpha = 0.04f)
+        else -> Color.Transparent
+    }
     Row(
-        Modifier.fillMaxWidth().background(if (hovered) colors.primary.copy(alpha = 0.04f) else Color.Transparent)
-            .hoverable(interaction).clickable { callbacks.onOpen(book) }.padding(horizontal = 20.dp, vertical = 16.dp),
+        Modifier.fillMaxWidth().background(background)
+            .hoverable(interaction).clickable { callbacks.onOpen(book) }.padding(start = 8.dp, end = 20.dp, top = 16.dp, bottom = 16.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
+        BookCheckbox(book, selected, callbacks)
+        Spacer(Modifier.width(CHECKBOX_GAP))
         Row(Modifier.weight(BOOK_WEIGHT).padding(end = 24.dp), verticalAlignment = Alignment.CenterVertically) {
             LanguageBadge(book.languageName, 48.dp)
             Spacer(Modifier.width(18.dp))
@@ -504,7 +545,7 @@ private fun StatusTag(status: ReadingStatus) {
 private fun PercentBar(percent: Int?, color: Color) {
     val colors = MaterialTheme.colorScheme
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-        Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(4.dp)).background(colors.surfaceVariant)) {
+        Box(Modifier.weight(1f).height(8.dp).clip(RoundedCornerShape(4.dp)).background(colors.onSurface.copy(alpha = 0.07f))) {
             if (percent != null && percent > 0) Box(Modifier.fillMaxWidth(percent / 100f).fillMaxHeight().clip(RoundedCornerShape(4.dp)).background(color))
         }
         Text(percent?.let { "$it%" } ?: "…", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.width(40.dp), softWrap = false)
@@ -513,25 +554,29 @@ private fun PercentBar(percent: Int?, color: Color) {
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun BookGrid(books: List<BookListItem>, compact: Boolean, callbacks: BooksCallbacks) {
+private fun BookGrid(books: List<BookListItem>, selected: Set<Long>, compact: Boolean, callbacks: BooksCallbacks) {
     FlowRow(
         Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.spacedBy(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        books.forEach { book -> BookCard(book, callbacks, if (compact) Modifier.fillMaxWidth() else Modifier.width(340.dp)) }
+        books.forEach { book -> BookCard(book, book.id in selected, callbacks, if (compact) Modifier.fillMaxWidth() else Modifier.width(340.dp)) }
     }
 }
 
 @Composable
-private fun BookCard(book: BookListItem, callbacks: BooksCallbacks, modifier: Modifier) {
+private fun BookCard(book: BookListItem, selected: Boolean, callbacks: BooksCallbacks, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
+    val shape = RoundedCornerShape(14.dp)
     Column(
-        modifier.clip(RoundedCornerShape(14.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).background(colors.surface)
-            .clickable { callbacks.onOpen(book) }.padding(18.dp),
+        modifier.clip(shape).border(1.dp, if (selected) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant, shape)
+            .background(if (selected) colors.primary.copy(alpha = 0.05f) else colors.surface)
+            .clickable { callbacks.onOpen(book) }.padding(start = 6.dp, end = 18.dp, top = 18.dp, bottom = 18.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
+            BookCheckbox(book, selected, callbacks)
+            Spacer(Modifier.width(4.dp))
             LanguageBadge(book.languageName, 44.dp)
             Spacer(Modifier.width(14.dp))
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -540,15 +585,15 @@ private fun BookCard(book: BookListItem, callbacks: BooksCallbacks, modifier: Mo
             }
             BookMenu(book, callbacks)
         }
-        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        Column(Modifier.padding(start = CARD_INDENT), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text("Reading progress", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             PercentBar(book.progressPercent, PROGRESS)
         }
-        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        Column(Modifier.padding(start = CARD_INDENT), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text("Vocabulary known", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             PercentBar(book.masteryPercent, KNOWN)
         }
-        Row(verticalAlignment = Alignment.CenterVertically) {
+        Row(Modifier.padding(start = CARD_INDENT), verticalAlignment = Alignment.CenterVertically) {
             Text(
                 book.lastOpened?.let { "Opened ${it.relativeTo()}" } ?: "Not opened yet",
                 Modifier.weight(1f),
@@ -557,6 +602,49 @@ private fun BookCard(book: BookListItem, callbacks: BooksCallbacks, modifier: Mo
             )
             StatusTag(book.readingStatus)
         }
+    }
+}
+
+private val CHECKBOX_GAP = 4.dp
+
+/** Lines the card's bars up with its badge, past the checkbox beside it. */
+private val CARD_INDENT = 52.dp
+
+@Composable
+private fun BookCheckbox(book: BookListItem, selected: Boolean, callbacks: BooksCallbacks) {
+    Checkbox(checked = selected, onCheckedChange = { callbacks.onToggle(book) }, modifier = Modifier.semantics { contentDescription = "Select ${book.title}" })
+}
+
+/** The header's menu of actions on the ticked books, as on the vocabulary page. */
+@Composable
+private fun BulkMenu(state: BooksUiState, callbacks: BooksCallbacks) {
+    var open by remember { mutableStateOf(false) }
+    val count = state.selectedBooks.size
+    Box {
+        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Selected books actions", tint = MaterialTheme.colorScheme.onSurfaceVariant) }
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            val archiveLabel = if (state.archived) "Unarchive" else "Archive"
+            AppMenuItem(text = { Text(if (count > 0) "$archiveLabel $count selected" else "$archiveLabel selected") }, enabled = count > 0, onClick = { open = false; callbacks.onArchiveSelected() })
+            AppMenuItem(text = { Text(if (count > 0) "Delete $count selected" else "Delete selected") }, enabled = count > 0, onClick = { open = false; callbacks.onDeleteSelected() })
+        }
+    }
+}
+
+@Composable
+private fun SelectionBar(state: BooksUiState, callbacks: BooksCallbacks) {
+    val colors = MaterialTheme.colorScheme
+    val count = state.selectedBooks.size
+    val all = count == state.filteredBooks.size
+    Row(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(colors.primary.copy(alpha = 0.07f))
+            .border(1.dp, colors.primary.copy(alpha = 0.2f), RoundedCornerShape(12.dp)).padding(start = 6.dp, end = 8.dp, top = 2.dp, bottom = 2.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Checkbox(checked = all, onCheckedChange = callbacks.onSelectAll, modifier = Modifier.semantics { contentDescription = "Select all books" })
+        Text("$count selected", Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
+        TextButton(onClick = callbacks.onArchiveSelected) { Text(if (state.archived) "Unarchive" else "Archive") }
+        TextButton(onClick = callbacks.onDeleteSelected) { Text("Delete", color = colors.error) }
+        IconButton(onClick = { callbacks.onSelectAll(false) }) { Icon(Icons.Default.Close, contentDescription = "Clear selection", tint = colors.onSurfaceVariant) }
     }
 }
 

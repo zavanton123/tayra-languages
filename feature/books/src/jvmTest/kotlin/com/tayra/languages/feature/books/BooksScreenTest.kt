@@ -15,6 +15,7 @@ import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.tayra.languages.core.domain.model.BookListItem
@@ -65,6 +66,9 @@ class BooksScreenTest {
         book(6, "Not opened", 1, 3, 420, null, finished = false, unknownPercent = 80),
     )
 
+    /** The books a bulk action was asked for, by action. */
+    private val bulk = mutableMapOf<String, List<String>>()
+
     private fun ComposeUiTest.show() = setContent {
         var state by remember { mutableStateOf(BooksUiState(loading = false, books = books, wordsLearned = 349)) }
         TayraTheme {
@@ -79,6 +83,10 @@ class BooksScreenTest {
                                     onSort = { state = state.copy(sort = it) },
                                     onProgress = { state = state.copy(progress = it) },
                                     onView = { state = state.copy(view = it) },
+                                    onToggle = { book -> state = state.copy(selected = if (book.id in state.selected) state.selected - book.id else state.selected + book.id) },
+                                    onSelectAll = { all -> state = state.copy(selected = if (all) state.filteredBooks.map { it.id }.toSet() else emptySet()) },
+                                    onArchiveSelected = { bulk["archive"] = state.selectedBooks.map { it.title } },
+                                    onDeleteSelected = { bulk["delete"] = state.selectedBooks.map { it.title } },
                                 ),
                             )
                         }
@@ -114,6 +122,38 @@ class BooksScreenTest {
         onNodeWithText("1 book").assertExists()
         onNodeWithText("Not opened").assertExists()
         assertEquals(0, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
+    }
+
+    @Test
+    fun tickedBooksGoToTheBulkActionsInTheTableHeader() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onNodeWithContentDescription("Select Long text").performClick()
+        onNodeWithContentDescription("Select Demo").performClick()
+        onNodeWithText("2 of 6 selected").assertExists()
+        System.getenv("BOOKS_SELECTED_SCREENSHOT")?.let { save(it) }
+        onNodeWithContentDescription("Selected books actions").performClick()
+        onNodeWithText("Archive 2 selected").performClick()
+        waitForIdle()
+        assertEquals(listOf("Long text", "Demo"), bulk["archive"])
+
+        onNodeWithContentDescription("Select all books").performClick()
+        onNodeWithText("6 of 6 selected").assertExists()
+        onNodeWithContentDescription("Select all books").performClick()
+        onNodeWithText("6 books").assertExists()
+    }
+
+    @Test
+    fun cardsShowTheBulkActionsOnceABookIsTicked() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onNodeWithContentDescription("grid view").performClick()
+        assertEquals(0, onAllNodesWithText("1 selected").fetchSemanticsNodes().size)
+        onNodeWithContentDescription("Select Short Demo").performClick()
+        onNodeWithText("1 selected").assertExists()
+        onNodeWithText("Delete").performClick()
+        waitForIdle()
+        assertEquals(listOf("Short Demo"), bulk["delete"])
+        onNodeWithContentDescription("Clear selection").performClick()
+        assertEquals(0, onAllNodesWithText("1 selected").fetchSemanticsNodes().size)
     }
 
     @Test
