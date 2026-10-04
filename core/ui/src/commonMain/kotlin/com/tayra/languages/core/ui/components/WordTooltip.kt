@@ -97,7 +97,7 @@ fun HoverTranslationPopup(target: IntRect, word: String, translate: suspend (Str
  * them. [onWordClick], when given, receives the word under a click or tap, and
  * [onWordSecondaryClick] the word under a right click. [onPhraseSelect] receives the words a
  * mouse drag ran over, from the first to the last, once the button is released; they show in
- * the selection colour meanwhile.
+ * the selection colour meanwhile. [onHover] follows the word under the mouse, null when none.
  */
 @Composable
 fun HoverTranslatedText(
@@ -108,6 +108,7 @@ fun HoverTranslatedText(
     onWordClick: ((String) -> Unit)? = null,
     onWordSecondaryClick: ((String) -> Unit)? = null,
     onPhraseSelect: ((String) -> Unit)? = null,
+    onHover: ((String?) -> Unit)? = null,
 ) {
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
     var hovered by remember(text) { mutableStateOf<HoveredWord?>(null) }
@@ -126,6 +127,7 @@ fun HoverTranslatedText(
     }
     val secondaryClick by rememberUpdatedState(onWordSecondaryClick)
     val phraseSelect by rememberUpdatedState(onPhraseSelect)
+    val hoverChanged by rememberUpdatedState(onHover)
     Box(modifier) {
         // The inner box wraps the text exactly, so the popup's anchor is the text itself.
         Box {
@@ -149,7 +151,10 @@ fun HoverTranslatedText(
                                 PointerEventType.Exit, PointerEventType.Press, PointerEventType.Scroll -> null
                                 else -> hovered
                             }
-                            if (next?.range != hovered?.range) hovered = next
+                            if (next?.range != hovered?.range) {
+                                hovered = next
+                                hoverChanged?.invoke(next?.word)
+                            }
                         }
                     }
                 }.then(

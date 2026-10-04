@@ -25,6 +25,20 @@ class ExampleTerms(private val reading: ReadingService, private val terms: TermS
         }
     }
 
+    /** Gives [word] the status, with [sentence] as its example when it starts being learned. */
+    suspend fun setStatus(word: String, sentence: String?, language: Language, status: TermStatus) {
+        // A word that was never saved is unknown already; no term is made just to say so.
+        if (status == TermStatus.UNKNOWN && terms.find(language.id, word) == null) return
+        reading.setStatusForTexts(language, listOf(word), status, sentence)
+    }
+
+    /** Moves [word] one status up or down, an unsaved word counting as unknown. */
+    suspend fun shiftStatus(word: String, sentence: String?, language: Language, delta: Int) {
+        val current = terms.find(language.id, word)?.status ?: TermStatus.UNKNOWN
+        val next = TermStatus.shifted(current, delta)
+        if (next != current) setStatus(word, sentence, language, next)
+    }
+
     /**
      * A word not being learned starts at status 1 with [sentence] as its example; one being
      * learned becomes known. Returns the term's id.

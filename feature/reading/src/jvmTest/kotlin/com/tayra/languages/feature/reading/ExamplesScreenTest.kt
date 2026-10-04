@@ -64,6 +64,8 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 import androidx.compose.ui.test.rightClick
+import androidx.compose.ui.test.performKeyInput
+import androidx.compose.ui.test.pressKey
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.domain.model.TermStatus
@@ -168,6 +170,35 @@ class ExamplesScreenTest {
         val phrase = runBlocking { terms.list(com.tayra.languages.core.domain.repository.TermListFilter(languageId = languageId, minStatus = TermStatus.LEARNING_3, maxStatus = TermStatus.LEARNING_3), com.tayra.languages.core.domain.repository.TermListSort(), 0, 5) }.items.single()
         assertEquals("voa depressa", phrase.displayText)
         assertEquals(sentence, phrase.sentence)
+    }
+
+    /** The status shortcuts act on the word under the mouse, as in the reader, and otherwise on the pane's term. */
+    @OptIn(androidx.compose.ui.test.ExperimentalTestApi::class)
+    @Test
+    fun statusShortcutsActOnTheHoveredWordOrThePanesTerm() {
+        val sentence = "O tempo voa depressa."
+        show(listOf(ExampleSentence(text = sentence, translation = null)))
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().isNotEmpty() }
+        fun press(key: androidx.compose.ui.input.key.Key) = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].performKeyInput { pressKey(key) }
+
+        rule.onAllNodes(hasText(sentence))[0].performMouseInput { moveTo(at(sentence, "voa")) }
+        rule.waitForIdle()
+        press(androidx.compose.ui.input.key.Key.Two)
+        rule.waitUntil(5_000) { savedTerm("voa")?.status == TermStatus.NEW_2 }
+        assertEquals(sentence, savedTerm("voa")?.sentence)
+        press(androidx.compose.ui.input.key.Key.K)
+        rule.waitUntil(5_000) { savedTerm("voa")?.status == TermStatus.WELL_KNOWN }
+        press(androidx.compose.ui.input.key.Key.I)
+        rule.waitUntil(5_000) { savedTerm("voa")?.status == TermStatus.IGNORED }
+        press(androidx.compose.ui.input.key.Key.U)
+        rule.waitUntil(5_000) { savedTerm("voa")?.status == TermStatus.UNKNOWN }
+
+        // A click opens the word in the pane; with the mouse off the words the shortcut goes to that term.
+        rule.onAllNodes(hasText(sentence))[0].performMouseInput { click(at(sentence, "depressa")) }
+        rule.waitUntil(5_000) { termField("depressa") }
+        press(androidx.compose.ui.input.key.Key.Three)
+        rule.waitUntil(5_000) { savedTerm("depressa")?.status == TermStatus.LEARNING_3 }
+        assertEquals(sentence, savedTerm("depressa")?.sentence)
     }
 
     /** The examples in the term pane work the same way: a right click saves the word with the example as its sentence. */

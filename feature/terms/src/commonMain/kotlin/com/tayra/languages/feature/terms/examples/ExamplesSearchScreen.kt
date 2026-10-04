@@ -53,6 +53,21 @@ import androidx.compose.ui.text.AnnotatedString
 import org.koin.compose.koinInject
 import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.ui.components.HoverTranslatedText
+import androidx.compose.foundation.focusable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.ui.input.key.KeyEventType
+import androidx.compose.ui.input.key.onPreviewKeyEvent
+import androidx.compose.ui.input.key.type
+import androidx.compose.ui.input.pointer.PointerEventPass
+import androidx.compose.ui.input.pointer.PointerEventType
+import androidx.compose.ui.input.pointer.pointerInput
+import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.settings.HotkeyAction
+import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
 import com.tayra.languages.core.ui.theme.TayraTheme
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -122,6 +137,29 @@ fun ExamplesSearchScreen(
     val wordTranslations = koinInject<WordTranslationService>()
     val translateWord: suspend (String) -> String? = { word -> state.language?.let { wordTranslations.translate(it, word) } }
 
+    // Status shortcuts work while the results, not a text field, have the keyboard.
+    val focus = remember { FocusRequester() }
+    var listFocused by remember { mutableStateOf(false) }
+    val focusList: () -> Unit = { runCatching { focus.requestFocus() } }
+    /** The word under the mouse and the example it is in. */
+    var hovered by remember { mutableStateOf<Pair<String, String>?>(null) }
+    var paneForm by remember { mutableStateOf<TermFormViewModel?>(null) }
+
+    /** Applies a status shortcut to the word under the mouse, or else to the pane's term; [status] null means a step of [delta]. */
+    fun applyStatus(status: TermStatus?, delta: Int = 0): Boolean {
+        val (word, sentence) = hovered ?: state.paneTerm?.let { it to state.paneSentence } ?: return false
+        val form = paneForm
+        // The pane's own term changes through its form, which holds its unsaved edits.
+        if (form != null && state.paneTerm.equals(word, ignoreCase = true)) {
+            form.setStatus(status ?: TermStatus.shifted(form.state.value.draft.status, delta))
+        } else if (status != null) {
+            viewModel.setStatus(word, sentence, status)
+        } else {
+            viewModel.shiftStatus(word, sentence, delta)
+        }
+        return true
+    }
+
     Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) },
     ) { padding ->
@@ -131,12 +169,44 @@ fun ExamplesSearchScreen(
         }
         val direction = if (query.language.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
         val gutter = if (compact) 16.dp else 32.dp
-        Row(Modifier.padding(padding).fillMaxSize()) {
+        Row(
+            Modifier.padding(padding).fillMaxSize()
+                .focusRequester(focus)
+                .onFocusChanged { listFocused = it.isFocused }
+                .focusable()
+                .onPreviewKeyEvent { event ->
+                    if (event.type != KeyEventType.KeyDown || !listFocused) return@onPreviewKeyEvent false
+                    val pressed = HotkeyMatcher.fromEvent(event) ?: return@onPreviewKeyEvent false
+                    when (HotkeyAction.resolve(viewModel.hotkeys, pressed, wordSelected = true, listening = false)) {
+                        HotkeyAction.STATUS_1 -> applyStatus(TermStatus.NEW_1)
+                        HotkeyAction.STATUS_2 -> applyStatus(TermStatus.NEW_2)
+                        HotkeyAction.STATUS_3 -> applyStatus(TermStatus.LEARNING_3)
+                        HotkeyAction.STATUS_4 -> applyStatus(TermStatus.LEARNING_4)
+                        HotkeyAction.STATUS_IGNORE -> applyStatus(TermStatus.IGNORED)
+                        HotkeyAction.STATUS_WELL_KNOWN -> applyStatus(TermStatus.WELL_KNOWN)
+                        HotkeyAction.DELETE_TERM -> applyStatus(TermStatus.UNKNOWN)
+                        HotkeyAction.STATUS_UP -> applyStatus(null, 1)
+                        HotkeyAction.STATUS_DOWN -> applyStatus(null, -1)
+                        else -> false
+                    }
+                },
+        ) {
+            // Asked for here, once the row exists: the scaffold builds its content after the screen's own effects ran.
+            LaunchedEffect(state.paneTerm == null) { focusList() }
             // One scrolling list holds the filters and the results so both fit on small screens.
-            LazyColumn(Modifier.weight(1f).fillMaxHeight(), contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp)) {
+            LazyColumn(
+                Modifier.weight(1f).fillMaxHeight()
+                    // A press on the results hands them the keyboard; a text field under it takes it right back.
+                    .pointerInput(Unit) {
+                        awaitPointerEventScope {
+                            while (true) if (awaitPointerEvent(PointerEventPass.Initial).type == PointerEventType.Press) focusList()
+                        }
+                    },
+                contentPadding = PaddingValues(horizontal = gutter, vertical = 16.dp),
+            ) {
                 item { PageHeader(query, compact, onBack, onNavigate) }
                 item { ErrorMessage(state.error) }
-                item { SearchBar(query, viewModel) }
+                item { SearchBar(query, viewModel, onSearch = { viewModel.search(); focusList() }) }
                 item { FilterRow(query, viewModel) }
                 item {
                     Text(
@@ -166,6 +236,10 @@ fun ExamplesSearchScreen(
                                 onWordClick = { word -> openWord(word, example.text) },
                                 onWordSecondaryClick = { word -> viewModel.markWord(word, example.text) },
                                 onPhraseSelect = { phrase -> openWord(phrase, example.text) },
+                                onHover = { word ->
+                                    if (word != null) hovered = word to example.text
+                                    else if (hovered?.second == example.text) hovered = null
+                                },
                             )
                             Spacer(Modifier.height(10.dp))
                         }
@@ -189,7 +263,7 @@ fun ExamplesSearchScreen(
                     shape = RoundedCornerShape(14.dp),
                     color = MaterialTheme.colorScheme.surface,
                 ) {
-                    TermPane(query.language.id, term, state.paneSentence, onClose = viewModel::closePane, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onNavigate = onNavigate)
+                    TermPane(query.language.id, term, state.paneSentence, onClose = viewModel::closePane, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onNavigate = onNavigate)
                 }
             }
         }
@@ -200,7 +274,7 @@ fun ExamplesSearchScreen(
     if (!wide && sheetOpen && sheetTerm != null && sheetLanguage != null) {
         val close = { sheetOpen = false }
         ModalBottomSheet(onDismissRequest = close, sheetState = rememberModalBottomSheetState()) {
-            TermPane(sheetLanguage.id, sheetTerm, state.paneSentence, onClose = close, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onNavigate = onNavigate)
+            TermPane(sheetLanguage.id, sheetTerm, state.paneSentence, onClose = close, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onForm = { paneForm = it }, onNavigate = onNavigate)
         }
     }
 }
@@ -219,10 +293,16 @@ private fun TermPane(
     onOpenTerm: (String, String?) -> Unit,
     /** A term was saved in the pane, so the results' colours may be out of date. */
     onTermsChanged: () -> Unit,
+    /** The form showing the term, null once the pane is gone. */
+    onForm: (TermFormViewModel?) -> Unit,
     onNavigate: (Route) -> Unit,
 ) {
     val opening = remember(languageId, text) { Random.nextLong() }
     val form = koinViewModel<TermFormViewModel>(key = "examples-term-$languageId-$text-$opening") { parametersOf(TermFormKey.ByText(languageId, text, sentence)) }
+    DisposableEffect(form) {
+        onForm(form)
+        onDispose { onForm(null) }
+    }
     CollectEvents(form.events) { event ->
         when (event) {
             is TermFormEvent.Saved -> onTermsChanged()
@@ -285,7 +365,7 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
 }
 
 @Composable
-private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewModel) {
+private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewModel, onSearch: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Row(
@@ -301,7 +381,7 @@ private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewMo
                 textStyle = MaterialTheme.typography.bodyLarge.copy(color = colors.onSurface),
                 cursorBrush = SolidColor(colors.primary),
                 keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
-                keyboardActions = KeyboardActions(onSearch = { viewModel.search() }),
+                keyboardActions = KeyboardActions(onSearch = { onSearch() }),
                 modifier = Modifier.weight(1f),
                 decorationBox = { inner ->
                     Box(contentAlignment = Alignment.CenterStart) {
@@ -311,7 +391,7 @@ private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewMo
                 },
             )
         }
-        Button(onClick = viewModel::search, enabled = query.text.isNotBlank(), shape = RoundedCornerShape(10.dp), modifier = Modifier.height(48.dp)) {
+        Button(onClick = onSearch, enabled = query.text.isNotBlank(), shape = RoundedCornerShape(10.dp), modifier = Modifier.height(48.dp)) {
             Text("Search")
         }
     }
@@ -380,6 +460,7 @@ private fun ExampleCard(
     onWordClick: (String) -> Unit,
     onWordSecondaryClick: (String) -> Unit,
     onPhraseSelect: (String) -> Unit,
+    onHover: (String?) -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
     val clipboard = LocalClipboardManager.current
@@ -398,6 +479,7 @@ private fun ExampleCard(
                 onWordClick = onWordClick,
                 onWordSecondaryClick = onWordSecondaryClick,
                 onPhraseSelect = onPhraseSelect,
+                onHover = onHover,
             )
             translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
         }

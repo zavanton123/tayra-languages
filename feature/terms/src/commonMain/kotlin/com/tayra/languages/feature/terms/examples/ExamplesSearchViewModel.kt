@@ -4,6 +4,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
+import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.settings.Hotkey
+import com.tayra.languages.core.domain.settings.HotkeyAction
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSentence
@@ -112,6 +115,28 @@ class ExamplesSearchViewModel(
         val language = current.language ?: return
         val found = helper.learning(current.results.map { it.text }, language)
         _state.update { it.copy(learning = found) }
+    }
+
+    /** The status shortcuts, as the reader uses them. */
+    val hotkeys: Map<HotkeyAction, Hotkey?> get() = settings.current.hotkeys
+
+    /** A status shortcut on a word of a result. */
+    fun setStatus(word: String, sentence: String?, status: TermStatus) {
+        val helper = exampleTerms ?: return
+        val language = _state.value.language ?: return
+        viewModelScope.launch {
+            helper.setStatus(word, sentence, language, status)
+            loadLearning()
+        }
+    }
+
+    fun shiftStatus(word: String, sentence: String?, delta: Int) {
+        val helper = exampleTerms ?: return
+        val language = _state.value.language ?: return
+        viewModelScope.launch {
+            helper.shiftStatus(word, sentence, language, delta)
+            loadLearning()
+        }
     }
 
     /** A right click on a word of a result: saved as the reader does, with the result as its sentence. */
