@@ -19,6 +19,8 @@ import com.tayra.languages.core.domain.model.Sentence
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.NewPage
+import com.tayra.languages.core.domain.repository.RebuiltBookmark
+import com.tayra.languages.core.domain.repository.RebuiltPage
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.withContext
@@ -142,6 +144,33 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
     override suspend fun updatePageText(pageId: Long, text: String, wordCount: Int) {
         withContext(databaseDispatcher) {
             db().booksQueries.updatePageText(text = text, wordCount = wordCount.toLong(), id = pageId)
+        }
+    }
+
+    override suspend fun replacePages(bookId: Long, pages: List<RebuiltPage>, currentIndex: Int, bookmarks: List<RebuiltBookmark>) = withContext(databaseDispatcher) {
+        val database = db()
+        val q = database.booksQueries
+        database.transaction {
+            q.deleteSentencesOfBook(bookId)
+            q.deleteBookmarksOfBook(bookId)
+            database.wordsReadQueries.detachPagesOfBook(bookId)
+            q.deletePagesOfBook(bookId)
+            val ids = pages.mapIndexed { index, page ->
+                q.insertPageWithDates(
+                    bookId = bookId,
+                    pageOrder = (index + 1).toLong(),
+                    text = page.text,
+                    wordCount = page.wordCount.toLong(),
+                    startDate = page.startDate?.toEpochMillis(),
+                    readDate = page.readDate?.toEpochMillis(),
+                )
+                q.lastInsertId().awaitAsOne()
+            }
+            q.setCurrentPage(pageId = ids.getOrNull(currentIndex) ?: ids.firstOrNull(), id = bookId)
+            for (bookmark in bookmarks) {
+                ids.getOrNull(bookmark.pageIndex)?.let { q.insertBookmark(it, bookmark.title) }
+            }
+            q.deleteStats(bookId)
         }
     }
 

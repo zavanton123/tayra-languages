@@ -167,6 +167,22 @@ UPDATE pages SET text = :text, word_count = :wordCount WHERE id = :id;
 deletePage:
 DELETE FROM pages WHERE id = :id;
 
+-- Rebuilding a book's pages. Rows that point at the pages are cleared here as well, since not
+-- every platform's driver enforces the cascades.
+
+deleteSentencesOfBook:
+DELETE FROM sentences WHERE page_id IN (SELECT id FROM pages WHERE book_id = :bookId);
+
+deleteBookmarksOfBook:
+DELETE FROM page_bookmarks WHERE page_id IN (SELECT id FROM pages WHERE book_id = :bookId);
+
+deletePagesOfBook:
+DELETE FROM pages WHERE book_id = :bookId;
+
+insertPageWithDates:
+INSERT INTO pages(book_id, page_order, text, word_count, start_date, read_date)
+VALUES (:bookId, :pageOrder, :text, :wordCount, :startDate, :readDate);
+
 setPageStartDate:
 UPDATE pages SET start_date = :startDate WHERE id = :id;
 

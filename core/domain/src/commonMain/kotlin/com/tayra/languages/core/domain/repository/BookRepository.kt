@@ -11,6 +11,12 @@ import kotlin.time.Instant
 
 data class NewPage(val text: String, val wordCount: Int)
 
+/** A page of a rebuilt book, with the dates carried over from the pages it replaces. */
+data class RebuiltPage(val text: String, val wordCount: Int, val startDate: Instant? = null, val readDate: Instant? = null)
+
+/** A bookmark to re-add on a rebuilt book, on the page at [pageIndex] (from 0). */
+data class RebuiltBookmark(val pageIndex: Int, val title: String)
+
 interface BookRepository {
     fun observeBooks(archived: Boolean): Flow<List<BookListItem>>
     fun observeBook(id: Long): Flow<Book?>
@@ -30,6 +36,12 @@ interface BookRepository {
     /** Inserts a page at [order], shifting later pages. Returns the new page id. */
     suspend fun insertPage(bookId: Long, order: Int, page: NewPage): Long
     suspend fun updatePageText(pageId: Long, text: String, wordCount: Int)
+    /**
+     * Replaces all of the book's pages in one transaction: the old pages go with their sentences
+     * and bookmarks (words read keep their counts), [bookmarks] are added on the new pages and the
+     * book opens at the page at [currentIndex].
+     */
+    suspend fun replacePages(bookId: Long, pages: List<RebuiltPage>, currentIndex: Int, bookmarks: List<RebuiltBookmark>)
     /** Deletes the page and renumbers the following pages. */
     suspend fun deletePage(pageId: Long)
     suspend fun setCurrentPage(bookId: Long, pageId: Long)

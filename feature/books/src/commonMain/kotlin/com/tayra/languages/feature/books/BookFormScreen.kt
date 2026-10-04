@@ -69,8 +69,9 @@ import org.koin.core.parameter.parametersOf
 private enum class ContentSource(val label: String) { PASTE("Paste text"), FILE("Import file") }
 
 /**
- * Creates a book from pasted text or a file, or edits a book's title and tags. The text and its
- * pages are fixed once the book exists, so editing shows the details only.
+ * Creates a book from pasted text or a file, or edits a book: the same form, with the book's
+ * whole text, title and tags filled in and no file import. Changing the text or the page setup
+ * rebuilds the pages on save.
  */
 @Composable
 fun BookFormScreen(
@@ -107,7 +108,7 @@ fun BookFormScreen(
             ScreenHeader(
                 if (state.isNew) "Create new book" else "Edit book",
                 when {
-                    !state.isNew -> "Change the title and tags of “${state.draft.title.ifBlank { "this book" }}”."
+                    !state.isNew -> "Change the text, title, tags and pages of “${state.loaded?.title?.ifBlank { null } ?: "this book"}”."
                     languageName != null -> "Add a $languageName text to your library."
                     else -> "Add a text to your library."
                 },
@@ -115,7 +116,6 @@ fun BookFormScreen(
             state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
             state.notice?.let { InfoBanner(it, tint = StatusTints.ok) }
             when {
-                !state.isNew -> DetailsCard(state, viewModel, Modifier.widthIn(max = 720.dp))
                 wide -> Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
                     BookContentCard(state, source, onSource = { source = it }, onChooseFile = { filePicker.launch() }, viewModel, Modifier.weight(1.65f))
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
@@ -145,14 +145,18 @@ private fun BookContentCard(
 ) {
     val formats = FileTextExtractor.supportedExtensions.joinToString(" · ") { it.uppercase() }
     val rtl = state.language?.rightToLeft == true
-    ContentCard("Book content", "Add the text for your book.", icon = AppIcons.FileOutline, modifier = modifier) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            SourceToggle(source, onSource)
-            Spacer(Modifier.width(20.dp))
-            Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    val subtitle = if (state.isNew) "Add the text for your book." else "Edit the text of your book."
+    ContentCard("Book content", subtitle, icon = AppIcons.FileOutline, modifier = modifier) {
+        // A file can only start a book; an existing book's text is edited in place.
+        if (state.isNew) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                SourceToggle(source, onSource)
+                Spacer(Modifier.width(20.dp))
+                Text(formats, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            Spacer(Modifier.height(16.dp))
         }
-        Spacer(Modifier.height(16.dp))
-        when (source) {
+        when (if (state.isNew) source else ContentSource.PASTE) {
             ContentSource.PASTE -> {
                 FieldLabel("Text")
                 OutlinedTextField(
@@ -304,7 +308,14 @@ private fun PageSetupCard(state: BookFormUiState, viewModel: BookFormViewModel) 
             modifier = Modifier.padding(top = 4.dp),
         )
         Spacer(Modifier.height(16.dp))
-        InfoBanner("Pages will be created automatically when you save.")
+        val pages = "${state.pageCount} page${if (state.pageCount == 1) "" else "s"}"
+        InfoBanner(
+            when {
+                state.isNew -> "Pages will be created automatically when you save."
+                state.rebuildsPages -> "Saving rebuilds the pages. Your place, bookmarks and read pages carry over."
+                else -> "The book has $pages. Change the text or these settings to rebuild them."
+            },
+        )
     }
 }
 

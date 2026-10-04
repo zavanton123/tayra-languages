@@ -13,3 +13,6 @@ selectAllWithLanguage:
 SELECT w.read_at, w.word_count, l.name AS language_name
 FROM words_read w INNER JOIN languages l ON l.id = w.language_id
 ORDER BY w.read_at;
+
+detachPagesOfBook:
+UPDATE words_read SET page_id = NULL WHERE page_id IN (SELECT id FROM pages WHERE book_id = :bookId);

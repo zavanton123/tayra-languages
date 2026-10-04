@@ -28,8 +28,15 @@ data class BookFormUiState(
     val error: String? = null,
     val notice: String? = null,
     val busy: Boolean = false,
+    /** For an existing book: its text and page settings as loaded, to tell whether the pages need rebuilding. */
+    val loaded: BookDraft? = null,
+    val pageCount: Int = 0,
 ) {
     val isNew: Boolean get() = draft.id == null
+
+    /** Whether saving cuts the text into new pages: only when the text or the page settings changed. */
+    val rebuildsPages: Boolean
+        get() = loaded != null && (draft.text != loaded.text || draft.splitBy != loaded.splitBy || draft.wordsPerPage != loaded.wordsPerPage)
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
 }
 
@@ -53,8 +60,8 @@ class BookFormViewModel(
         viewModelScope.launch {
             val languageList = languages.getAll()
             val tags = books.allBookTags()
+            val book = bookId?.let { books.getBook(it) }
             val draft = if (bookId != null) {
-                val book = books.getBook(bookId)
                 if (book == null) {
                     BookDraft(languageId = 0, title = "")
                 } else {
@@ -62,8 +69,10 @@ class BookFormViewModel(
                         id = book.id,
                         languageId = book.languageId,
                         title = book.title,
+                        text = bookService.text(book.id),
                         sourceUri = book.sourceUri.orEmpty(),
                         tags = book.tags,
+                        wordsPerPage = bookService.estimatedWordsPerPage(book.id),
                         audioFilename = book.audioFilename,
                     )
                 }
@@ -72,7 +81,16 @@ class BookFormViewModel(
                 val languageId = if (languageList.any { it.id == current }) current else languageList.singleOrNull()?.id ?: 0
                 BookDraft(languageId = languageId, title = "")
             }
-            _state.update { it.copy(loading = false, draft = draft, languages = languageList, tagSuggestions = tags) }
+            _state.update {
+                it.copy(
+                    loading = false,
+                    draft = draft,
+                    languages = languageList,
+                    tagSuggestions = tags,
+                    loaded = draft.takeIf { book != null },
+                    pageCount = book?.let { b -> books.pageCount(b.id) } ?: 0,
+                )
+            }
         }
     }
 
@@ -101,10 +119,11 @@ class BookFormViewModel(
 
     fun save() {
         val draft = _state.value.draft
+        val rebuild = _state.value.rebuildsPages
         _state.update { it.copy(busy = true, error = null) }
         viewModelScope.launch {
             try {
-                val id = if (draft.id == null) bookService.create(draft) else { bookService.update(draft); draft.id!! }
+                val id = if (draft.id == null) bookService.create(draft) else { bookService.update(draft, rebuildPages = rebuild); draft.id!! }
                 events.send(BookFormEvent.Saved(id, draft.id == null))
             } catch (e: BookValidationException) {
                 _state.update { it.copy(busy = false, error = e.message) }
