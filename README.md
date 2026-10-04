@@ -49,15 +49,10 @@ Translation screen:
 | --- | --- |
 | MyMemory | nothing; free, with a daily quota |
 | Google Translate | a Google Cloud API key |
-| Microsoft Translator | an Azure AI Translator key and region |
-| Alibaba Cloud Translation | an Alibaba Cloud AccessKey |
-| Baidu Translate | a Baidu Translate App ID and key |
-| DeepL | a DeepL API key |
-| Qwen-MT | an Alibaba Model Studio API key |
 | On this device | nothing online after the first download |
 
 Keys are kept in the platform's secure storage: the Keychain on macOS and iOS, the Keystore
-on Android, the Data Protection API on Windows. Each engine has a *Check key* button.
+on Android, the Data Protection API on Windows. Google Translate has a *Check key* button.
 
 **On this device** works with no network at all. On Android and iOS it uses Google ML Kit,
 with one small model per language that you download once. On desktop it uses Argos

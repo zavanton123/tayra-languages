@@ -11,7 +11,7 @@ val settingsModule = module {
     viewModel { SettingsViewModel(get(), get()) }
     viewModel { DictionariesViewModel(get(), get(), get()) }
     viewModel { SpeechViewModel(get(), get(), get()) }
-    viewModel { OfflineTranslationViewModel(get(), get(), get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
 }
 
 fun NavGraphBuilder.settingsGraph(navController: NavController) {

@@ -87,11 +87,6 @@ class TranslationSuggestionProvider(
     private val wiktionary: TermTranslationProvider,
     private val myMemory: TermTranslationProvider,
     private val google: TermTranslationProvider,
-    private val azure: TermTranslationProvider,
-    private val alibaba: TermTranslationProvider,
-    private val baidu: TermTranslationProvider,
-    private val deepl: TermTranslationProvider,
-    private val qwen: TermTranslationProvider,
     private val settings: SettingsRepository,
     private val local: LocalTranslation,
 ) : TermTranslationProvider {
@@ -114,11 +109,6 @@ class TranslationSuggestionProvider(
                 }
             }
             TranslationEngine.GOOGLE -> google.suggest(text, language)?.let { return it }
-            TranslationEngine.AZURE -> azure.suggest(text, language)?.let { return it }
-            TranslationEngine.ALIBABA -> alibaba.suggest(text, language)?.let { return it }
-            TranslationEngine.BAIDU -> baidu.suggest(text, language)?.let { return it }
-            TranslationEngine.DEEPL -> deepl.suggest(text, language)?.let { return it }
-            TranslationEngine.QWEN -> qwen.suggest(text, language)?.let { return it }
             TranslationEngine.MYMEMORY -> {}
         }
         val providers = if (target.isEmpty() || target == "en") listOf(wiktionary, myMemory) else listOf(myMemory)

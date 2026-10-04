@@ -97,11 +97,6 @@ class CachedSentenceTranslator(
 class RoutingSentenceTranslator(
     private val myMemory: SentenceTranslator,
     private val google: SentenceTranslator,
-    private val azure: SentenceTranslator,
-    private val alibaba: SentenceTranslator,
-    private val baidu: SentenceTranslator,
-    private val deepl: SentenceTranslator,
-    private val qwen: SentenceTranslator,
     private val local: SentenceTranslator?,
     /** The effective engine, see [effectiveEngine]. */
     private val engine: () -> TranslationEngine,
@@ -109,11 +104,6 @@ class RoutingSentenceTranslator(
     override suspend fun translate(text: String, language: Language): String? = when (engine()) {
         TranslationEngine.ARGOS -> (local ?: myMemory).translate(text, language)
         TranslationEngine.GOOGLE -> google.translate(text, language)
-        TranslationEngine.AZURE -> azure.translate(text, language)
-        TranslationEngine.ALIBABA -> alibaba.translate(text, language)
-        TranslationEngine.BAIDU -> baidu.translate(text, language)
-        TranslationEngine.DEEPL -> deepl.translate(text, language)
-        TranslationEngine.QWEN -> qwen.translate(text, language)
         TranslationEngine.MYMEMORY -> myMemory.translate(text, language)
     }
 }

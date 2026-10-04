@@ -43,11 +43,6 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.LocalPackage
 import com.tayra.languages.core.domain.service.LocalSentenceTranslator
-import com.tayra.languages.core.domain.service.AlibabaTranslation
-import com.tayra.languages.core.domain.service.AzureTranslation
-import com.tayra.languages.core.domain.service.BaiduTranslation
-import com.tayra.languages.core.domain.service.DeeplTranslation
-import com.tayra.languages.core.domain.service.QwenTranslation
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
@@ -74,11 +69,6 @@ class OfflineTranslationViewModel(
     languages: LanguageRepository,
     private val localTranslation: LocalTranslation,
     private val google: GoogleTranslation,
-    private val azure: AzureTranslation,
-    private val alibaba: AlibabaTranslation,
-    private val baidu: BaiduTranslation,
-    private val deepl: DeeplTranslation,
-    private val qwen: QwenTranslation,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
@@ -112,76 +102,6 @@ class OfflineTranslationViewModel(
         viewModelScope.launch {
             _googleStatus.value = try { google.checkKey() } catch (e: Exception) { "Google Translate: ${e.message}" }
             _googleBusy.value = false
-        }
-    }
-
-    private val _azureStatus = MutableStateFlow<String?>(null)
-    val azureStatus: StateFlow<String?> = _azureStatus.asStateFlow()
-    private val _azureBusy = MutableStateFlow(false)
-    val azureBusy: StateFlow<Boolean> = _azureBusy.asStateFlow()
-
-    fun checkAzureKey() {
-        if (_azureBusy.value) return
-        _azureBusy.value = true
-        viewModelScope.launch {
-            _azureStatus.value = try { azure.checkKey() } catch (e: Exception) { "Microsoft Translator: ${e.message}" }
-            _azureBusy.value = false
-        }
-    }
-
-    private val _alibabaStatus = MutableStateFlow<String?>(null)
-    val alibabaStatus: StateFlow<String?> = _alibabaStatus.asStateFlow()
-    private val _alibabaBusy = MutableStateFlow(false)
-    val alibabaBusy: StateFlow<Boolean> = _alibabaBusy.asStateFlow()
-
-    fun checkAlibabaKey() {
-        if (_alibabaBusy.value) return
-        _alibabaBusy.value = true
-        viewModelScope.launch {
-            _alibabaStatus.value = try { alibaba.checkKey() } catch (e: Exception) { "Alibaba Cloud Translation: ${e.message}" }
-            _alibabaBusy.value = false
-        }
-    }
-
-    private val _baiduStatus = MutableStateFlow<String?>(null)
-    val baiduStatus: StateFlow<String?> = _baiduStatus.asStateFlow()
-    private val _baiduBusy = MutableStateFlow(false)
-    val baiduBusy: StateFlow<Boolean> = _baiduBusy.asStateFlow()
-
-    fun checkBaiduKey() {
-        if (_baiduBusy.value) return
-        _baiduBusy.value = true
-        viewModelScope.launch {
-            _baiduStatus.value = try { baidu.checkKey() } catch (e: Exception) { "Baidu Translate: ${e.message}" }
-            _baiduBusy.value = false
-        }
-    }
-
-    private val _deeplStatus = MutableStateFlow<String?>(null)
-    val deeplStatus: StateFlow<String?> = _deeplStatus.asStateFlow()
-    private val _deeplBusy = MutableStateFlow(false)
-    val deeplBusy: StateFlow<Boolean> = _deeplBusy.asStateFlow()
-
-    fun checkDeeplKey() {
-        if (_deeplBusy.value) return
-        _deeplBusy.value = true
-        viewModelScope.launch {
-            _deeplStatus.value = try { deepl.checkKey() } catch (e: Exception) { "DeepL: ${e.message}" }
-            _deeplBusy.value = false
-        }
-    }
-
-    private val _qwenStatus = MutableStateFlow<String?>(null)
-    val qwenStatus: StateFlow<String?> = _qwenStatus.asStateFlow()
-    private val _qwenBusy = MutableStateFlow(false)
-    val qwenBusy: StateFlow<Boolean> = _qwenBusy.asStateFlow()
-
-    fun checkQwenKey() {
-        if (_qwenBusy.value) return
-        _qwenBusy.value = true
-        viewModelScope.launch {
-            _qwenStatus.value = try { qwen.checkKey() } catch (e: Exception) { "Qwen-MT: ${e.message}" }
-            _qwenBusy.value = false
         }
     }
 
@@ -343,159 +263,6 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
             }
             googleStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
 
-            }
-
-            if (settings.translationEngine == TranslationEngine.AZURE) {
-            var showKey by remember { mutableStateOf(false) }
-            Section("Microsoft Translator")
-            val azureBusy by viewModel.azureBusy.collectAsStateWithLifecycle()
-            val azureStatus by viewModel.azureStatus.collectAsStateWithLifecycle()
-            OutlinedTextField(
-                value = settings.azureTranslatorApiKey,
-                onValueChange = { v -> viewModel.update { it.copy(azureTranslatorApiKey = v.trim()) } },
-                label = { Text("API key") },
-                supportingText = { Text("A key of an Azure AI Translator (or multi-service) resource. Calls are billed to that resource. The key is ${viewModel.secretStorage}.") },
-                singleLine = true,
-                visualTransformation = if (showKey) VisualTransformation.None else PasswordVisualTransformation(),
-                trailingIcon = { TextButton(onClick = { showKey = !showKey }) { Text(if (showKey) "Hide" else "Show") } },
-                modifier = Modifier.fillMaxWidth(),
-            )
-            OutlinedTextField(
-                value = settings.azureTranslatorRegion,
-                onValueChange = { v -> viewModel.update { it.copy(azureTranslatorRegion = v.trim()) } },
-                label = { Text("Region") },
-                placeholder = { Text("westeurope") },
-                supportingText = { Text("The resource's region as shown in the Azure portal, for example westeurope or eastus. Leave empty only for a global resource.") },
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
-            )
-            OutlinedButton(onClick = viewModel::checkAzureKey, enabled = !azureBusy && settings.azureTranslatorApiKey.isNotBlank()) {
-                Text(if (azureBusy) "Checking..." else "Check key")
-            }
-            azureStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
-            }
-
-            if (settings.translationEngine == TranslationEngine.ALIBABA) {
-            var showSecret by remember { mutableStateOf(false) }
-            Section("Alibaba Cloud Translation")
-            val alibabaBusy by viewModel.alibabaBusy.collectAsStateWithLifecycle()
-            val alibabaStatus by viewModel.alibabaStatus.collectAsStateWithLifecycle()
-            OutlinedTextField(
-                value = settings.alibabaAccessKeyId,
-                onValueChange = { v -> viewModel.update { it.copy(alibabaAccessKeyId = v.trim()) } },
-                label = { Text("AccessKey ID") },
-                supportingText = { Text("A RAM user's AccessKey with the Machine Translation permission (AliyunMTFullAccess or read access). Both parts are ${viewModel.secretStorage}.") },
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
-            )
-            OutlinedTextField(
-                value = settings.alibabaAccessKeySecret,
-                onValueChange = { v -> viewModel.update { it.copy(alibabaAccessKeySecret = v.trim()) } },
-                label = { Text("AccessKey Secret") },
-                singleLine = true,
-                visualTransformation = if (showSecret) VisualTransformation.None else PasswordVisualTransformation(),
-                trailingIcon = { TextButton(onClick = { showSecret = !showSecret }) { Text(if (showSecret) "Hide" else "Show") } },
-                modifier = Modifier.fillMaxWidth(),
-            )
-            OutlinedTextField(
-                value = settings.alibabaEndpoint,
-                onValueChange = { v -> viewModel.update { it.copy(alibabaEndpoint = v.trim()) } },
-                label = { Text("Endpoint") },
-                placeholder = { Text("mt.aliyuncs.com") },
-                supportingText = { Text("mt.aliyuncs.com works for most accounts; a regional host such as mt.cn-hangzhou.aliyuncs.com or mt.ap-southeast-1.aliyuncs.com can be used instead.") },
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
-            )
-            OutlinedButton(onClick = viewModel::checkAlibabaKey, enabled = !alibabaBusy && settings.alibabaAccessKeyId.isNotBlank() && settings.alibabaAccessKeySecret.isNotBlank()) {
-                Text(if (alibabaBusy) "Checking..." else "Check AccessKey")
-            }
-            alibabaStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
-            }
-
-            if (settings.translationEngine == TranslationEngine.BAIDU) {
-            var showSecret by remember { mutableStateOf(false) }
-            Section("Baidu Translate")
-            val baiduBusy by viewModel.baiduBusy.collectAsStateWithLifecycle()
-            val baiduStatus by viewModel.baiduStatus.collectAsStateWithLifecycle()
-            OutlinedTextField(
-                value = settings.baiduAppId,
-                onValueChange = { v -> viewModel.update { it.copy(baiduAppId = v.trim()) } },
-                label = { Text("App ID") },
-                supportingText = { Text("From the Baidu Translate open platform (fanyi-api.baidu.com), general translation API. Both values are ${viewModel.secretStorage}.") },
-                singleLine = true,
-                modifier = Modifier.fillMaxWidth(),
-            )
-            OutlinedTextField(
-                value = settings.baiduSecretKey,
-                onValueChange = { v -> viewModel.update { it.copy(baiduSecretKey = v.trim()) } },
-                label = { Text("Secret key") },
-                singleLine = true,
-                visualTransformation = if (showSecret) VisualTransformation.None else PasswordVisualTransformation(),
-                trailingIcon = { TextButton(onClick = { showSecret = !showSecret }) { Text(if (showSecret) "Hide" else "Show") } },
-                modifier = Modifier.fillMaxWidth(),
-            )
-            OutlinedButton(onClick = viewModel::checkBaiduKey, enabled = !baiduBusy && settings.baiduAppId.isNotBlank() && settings.baiduSecretKey.isNotBlank()) {
-                Text(if (baiduBusy) "Checking..." else "Check App ID")
-            }
-            baiduStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
-            }
-
-            if (settings.translationEngine == TranslationEngine.DEEPL) {
-            var showKey by remember { mutableStateOf(false) }
-            Section("DeepL")
-            val deeplBusy by viewModel.deeplBusy.collectAsStateWithLifecycle()
-            val deeplStatus by viewModel.deeplStatus.collectAsStateWithLifecycle()
-            OutlinedTextField(
-                value = settings.deeplApiKey,
-                onValueChange = { v -> viewModel.update { it.copy(deeplApiKey = v.trim()) } },
-                label = { Text("API key") },
-                supportingText = { Text("A DeepL API key (free keys end in :fx and use the free host). The key is ${viewModel.secretStorage}.") },
-                singleLine = true,
-                visualTransformation = if (showKey) VisualTransformation.None else PasswordVisualTransformation(),
-                trailingIcon = { TextButton(onClick = { showKey = !showKey }) { Text(if (showKey) "Hide" else "Show") } },
-                modifier = Modifier.fillMaxWidth(),
-            )
-            OutlinedButton(onClick = viewModel::checkDeeplKey, enabled = !deeplBusy && settings.deeplApiKey.isNotBlank()) {
-                Text(if (deeplBusy) "Checking..." else "Check key")
-            }
-            deeplStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
-            }
-
-            if (settings.translationEngine == TranslationEngine.QWEN) {
-            var showKey by remember { mutableStateOf(false) }
-            Section("Qwen-MT")
-            val qwenBusy by viewModel.qwenBusy.collectAsStateWithLifecycle()
-            val qwenStatus by viewModel.qwenStatus.collectAsStateWithLifecycle()
-            OutlinedTextField(
-                value = settings.qwenApiKey,
-                onValueChange = { v -> viewModel.update { it.copy(qwenApiKey = v.trim()) } },
-                label = { Text("API key") },
-                supportingText = { Text("An Alibaba Cloud Model Studio (DashScope) API key. Calls are billed to that account. The key is ${viewModel.secretStorage}.") },
-                singleLine = true,
-                visualTransformation = if (showKey) VisualTransformation.None else PasswordVisualTransformation(),
-                trailingIcon = { TextButton(onClick = { showKey = !showKey }) { Text(if (showKey) "Hide" else "Show") } },
-                modifier = Modifier.fillMaxWidth(),
-            )
-            Dropdown(
-                options = listOf("qwen-mt-turbo", "qwen-mt-plus"),
-                selected = settings.qwenModel,
-                onSelect = { model -> viewModel.update { it.copy(qwenModel = model) } },
-                label = "Model",
-                optionLabel = { if (it == "qwen-mt-plus") "qwen-mt-plus (better)" else "qwen-mt-turbo (faster, cheaper)" },
-                modifier = Modifier.fillMaxWidth(),
-            )
-            Dropdown(
-                options = listOf(true, false),
-                selected = settings.qwenInternational,
-                onSelect = { intl -> viewModel.update { it.copy(qwenInternational = intl) } },
-                label = "Region",
-                optionLabel = { if (it) "International (dashscope-intl.aliyuncs.com)" else "China (dashscope.aliyuncs.com)" },
-                modifier = Modifier.fillMaxWidth(),
-            )
-            OutlinedButton(onClick = viewModel::checkQwenKey, enabled = !qwenBusy && settings.qwenApiKey.isNotBlank()) {
-                Text(if (qwenBusy) "Checking..." else "Check key")
-            }
-            qwenStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
             }
 
             if (viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS) {

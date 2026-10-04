@@ -1,6 +1,6 @@
 package com.tayra.languages.core.data.network
 
-/** MD5 in plain Kotlin, for request signatures that still demand it (Baidu). Not for anything security-sensitive. */
+/** MD5 in plain Kotlin, for short file names derived from cache keys. Not for anything security-sensitive. */
 object Md5 {
     fun hex(message: ByteArray): String = digest(message).joinToString("") { (it.toInt() and 0xFF).toString(16).padStart(2, '0') }
 

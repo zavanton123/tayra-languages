@@ -45,6 +45,7 @@ class SettingsRepositoryImpl(
     }
 
     private fun load(): UserSettings {
+        forgetRetiredSettings()
         val defaults = UserSettings()
         return UserSettings(
             currentLanguageId = store.getLong(Keys.CURRENT_LANGUAGE, defaults.currentLanguageId),
@@ -72,17 +73,6 @@ class SettingsRepositoryImpl(
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
             translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
             googleTranslateApiKey = loadSecret(Keys.GOOGLE_TRANSLATE_API_KEY),
-            azureTranslatorApiKey = loadSecret(Keys.AZURE_TRANSLATOR_API_KEY),
-            azureTranslatorRegion = store.getString(Keys.AZURE_TRANSLATOR_REGION, defaults.azureTranslatorRegion),
-            alibabaAccessKeyId = loadSecret(Keys.ALIBABA_ACCESS_KEY_ID),
-            alibabaAccessKeySecret = loadSecret(Keys.ALIBABA_ACCESS_KEY_SECRET),
-            alibabaEndpoint = store.getString(Keys.ALIBABA_ENDPOINT, defaults.alibabaEndpoint),
-            baiduAppId = loadSecret(Keys.BAIDU_APP_ID),
-            baiduSecretKey = loadSecret(Keys.BAIDU_SECRET_KEY),
-            deeplApiKey = loadSecret(Keys.DEEPL_API_KEY),
-            qwenApiKey = loadSecret(Keys.QWEN_API_KEY),
-            qwenModel = store.getString(Keys.QWEN_MODEL, defaults.qwenModel),
-            qwenInternational = store.getBoolean(Keys.QWEN_INTERNATIONAL, defaults.qwenInternational),
             argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
             hotkeys = loadHotkeys(),
         )
@@ -124,6 +114,14 @@ class SettingsRepositoryImpl(
         return runCatching { secure.get(key) }.onFailure { Logger.w(it) { "Could not read $key from secure storage" } }.getOrNull().orEmpty()
     }
 
+    /** Drops what was saved for translation services the app no longer offers, keys and secrets included. */
+    private fun forgetRetiredSettings() {
+        for (key in Keys.RETIRED) {
+            if (store.hasKey(key)) store.remove(key)
+            runCatching { secure.remove(key) }
+        }
+    }
+
     private fun storeSecret(key: String, value: String) {
         runCatching { if (value.isBlank()) secure.remove(key) else secure.put(key, value) }
             .onFailure { Logger.w(it) { "Could not write $key to secure storage" } }
@@ -153,17 +151,6 @@ class SettingsRepositoryImpl(
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
         storeSecret(Keys.GOOGLE_TRANSLATE_API_KEY, s.googleTranslateApiKey)
-        storeSecret(Keys.AZURE_TRANSLATOR_API_KEY, s.azureTranslatorApiKey)
-        store.putString(Keys.AZURE_TRANSLATOR_REGION, s.azureTranslatorRegion)
-        storeSecret(Keys.ALIBABA_ACCESS_KEY_ID, s.alibabaAccessKeyId)
-        storeSecret(Keys.ALIBABA_ACCESS_KEY_SECRET, s.alibabaAccessKeySecret)
-        store.putString(Keys.ALIBABA_ENDPOINT, s.alibabaEndpoint)
-        storeSecret(Keys.BAIDU_APP_ID, s.baiduAppId)
-        storeSecret(Keys.BAIDU_SECRET_KEY, s.baiduSecretKey)
-        storeSecret(Keys.DEEPL_API_KEY, s.deeplApiKey)
-        storeSecret(Keys.QWEN_API_KEY, s.qwenApiKey)
-        store.putString(Keys.QWEN_MODEL, s.qwenModel)
-        store.putBoolean(Keys.QWEN_INTERNATIONAL, s.qwenInternational)
         store.putString(Keys.ARGOS_PYTHON, s.argosPython)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
@@ -175,6 +162,12 @@ class SettingsRepositoryImpl(
     }
 
     private object Keys {
+        /** Settings of the Microsoft, Alibaba, Baidu, DeepL and Qwen translation services, removed on 2026-10-03. */
+        val RETIRED = listOf(
+            "azure_translator_api_key", "azure_translator_region", "alibaba_access_key_id", "alibaba_access_key_secret", "alibaba_endpoint",
+            "baidu_app_id", "baidu_secret_key", "deepl_api_key", "qwen_api_key", "qwen_model", "qwen_international",
+        )
+
         const val CURRENT_LANGUAGE = "current_language_id"
         const val THEME = "current_theme"
         const val SHOW_HIGHLIGHTS = "show_highlights"
@@ -199,17 +192,6 @@ class SettingsRepositoryImpl(
         const val SHOW_TRANSLATIONS = "reading_show_translations"
         const val TRANSLATION_ENGINE = "translation_engine"
         const val GOOGLE_TRANSLATE_API_KEY = "google_translate_api_key"
-        const val AZURE_TRANSLATOR_API_KEY = "azure_translator_api_key"
-        const val AZURE_TRANSLATOR_REGION = "azure_translator_region"
-        const val ALIBABA_ACCESS_KEY_ID = "alibaba_access_key_id"
-        const val ALIBABA_ACCESS_KEY_SECRET = "alibaba_access_key_secret"
-        const val ALIBABA_ENDPOINT = "alibaba_endpoint"
-        const val BAIDU_APP_ID = "baidu_app_id"
-        const val BAIDU_SECRET_KEY = "baidu_secret_key"
-        const val DEEPL_API_KEY = "deepl_api_key"
-        const val QWEN_API_KEY = "qwen_api_key"
-        const val QWEN_MODEL = "qwen_model"
-        const val QWEN_INTERNATIONAL = "qwen_international"
         const val ARGOS_PYTHON = "argos_python"
         const val DEMO_DATA = "is_demo_data"
         const val NATIVE_LANGUAGE = "native_language"

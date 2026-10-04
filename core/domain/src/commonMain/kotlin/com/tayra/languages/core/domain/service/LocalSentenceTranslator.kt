@@ -9,11 +9,6 @@ enum class TranslationEngine(val label: String) {
     ARGOS("On this device (offline, free)"),
     MYMEMORY("MyMemory (online, free)"),
     GOOGLE("Google Translate (online, API key)"),
-    AZURE("Microsoft Translator (online, API key)"),
-    ALIBABA("Alibaba Cloud Translation (online, AccessKey)"),
-    BAIDU("Baidu Translate (online, App ID)"),
-    DEEPL("DeepL (online, API key)"),
-    QWEN("Qwen-MT (online, API key)"),
 }
 
 /** The engine's name in menus; the on-device one is named after this platform's translator, [localTranslatorName]. */
@@ -27,11 +22,6 @@ fun TranslationEngine.label(localTranslatorName: String?): String =
 fun UserSettings.effectiveEngine(hasLocalTranslator: Boolean): TranslationEngine = when {
     translationEngine == TranslationEngine.ARGOS && !hasLocalTranslator -> TranslationEngine.MYMEMORY
     translationEngine == TranslationEngine.GOOGLE && googleTranslateApiKey.isBlank() -> TranslationEngine.MYMEMORY
-    translationEngine == TranslationEngine.AZURE && azureTranslatorApiKey.isBlank() -> TranslationEngine.MYMEMORY
-    translationEngine == TranslationEngine.ALIBABA && (alibabaAccessKeyId.isBlank() || alibabaAccessKeySecret.isBlank()) -> TranslationEngine.MYMEMORY
-    translationEngine == TranslationEngine.BAIDU && (baiduAppId.isBlank() || baiduSecretKey.isBlank()) -> TranslationEngine.MYMEMORY
-    translationEngine == TranslationEngine.DEEPL && deeplApiKey.isBlank() -> TranslationEngine.MYMEMORY
-    translationEngine == TranslationEngine.QWEN && qwenApiKey.isBlank() -> TranslationEngine.MYMEMORY
     else -> translationEngine
 }
 
@@ -41,30 +31,6 @@ interface GoogleTranslation {
     suspend fun checkKey(): String
 }
 
-/** The Microsoft (Azure AI) Translator client's self-check, for the Settings screen. */
-interface AzureTranslation {
-    suspend fun checkKey(): String
-}
-
-/** The Alibaba Cloud Machine Translation client's self-check, for the Settings screen. */
-interface AlibabaTranslation {
-    suspend fun checkKey(): String
-}
-
-/** The Baidu Translate client's self-check, for the Settings screen. */
-interface BaiduTranslation {
-    suspend fun checkKey(): String
-}
-
-/** The DeepL client's self-check, for the Settings screen. */
-interface DeeplTranslation {
-    suspend fun checkKey(): String
-}
-
-/** The Qwen-MT (Alibaba Model Studio) client's self-check, for the Settings screen. */
-interface QwenTranslation {
-    suspend fun checkKey(): String
-}
 
 /** One downloadable model of the local translator, translating [fromCode] into [toCode]. */
 data class LocalPackage(

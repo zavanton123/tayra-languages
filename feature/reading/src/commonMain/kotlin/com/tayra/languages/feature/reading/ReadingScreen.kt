@@ -389,11 +389,6 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
             localTranslatorName = viewModel.localTranslatorName,
             keyed = setOfNotNull(
                 TranslationEngine.GOOGLE.takeIf { prefs.googleTranslateApiKey.isNotBlank() },
-                TranslationEngine.AZURE.takeIf { prefs.azureTranslatorApiKey.isNotBlank() },
-                TranslationEngine.ALIBABA.takeIf { prefs.alibabaAccessKeyId.isNotBlank() && prefs.alibabaAccessKeySecret.isNotBlank() },
-                TranslationEngine.BAIDU.takeIf { prefs.baiduAppId.isNotBlank() && prefs.baiduSecretKey.isNotBlank() },
-                TranslationEngine.DEEPL.takeIf { prefs.deeplApiKey.isNotBlank() },
-                TranslationEngine.QWEN.takeIf { prefs.qwenApiKey.isNotBlank() },
             ),
             onSelect = viewModel::setTranslationEngine,
         )

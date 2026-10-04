@@ -91,11 +91,6 @@ dispatches sentence translations, `TranslationSuggestionProvider` term suggestio
 `CachedSentenceTranslator` caches results for a day per sentence and engine.
 
 - Google: Cloud Translation v2 with an API key.
-- Microsoft: Translator API v3, key and region as headers.
-- Alibaba Cloud: `TranslateGeneral`, requests signed by `AliyunSigner` (RPC HMAC-SHA1).
-- Baidu: general translation API, `sign = md5(appid + q + salt + key)`, Baidu's own language codes.
-- DeepL: v2, free `:fx` keys use the free host, uppercase codes with EN-US and PT-PT targets.
-- Qwen-MT: Model Studio's OpenAI-compatible chat endpoint with `translation_options`.
 - On device: `LocalSentenceTranslator`. Desktop uses Argos Translate through a Python worker
   (`core/data/src/jvmMain/resources/argos_worker.py`); the app downloads a standalone CPython
   build into its data folder and pip-installs `argostranslate` on first use. Android uses ML Kit
