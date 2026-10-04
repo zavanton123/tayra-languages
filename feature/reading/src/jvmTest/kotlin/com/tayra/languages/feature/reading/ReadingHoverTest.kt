@@ -14,6 +14,7 @@ import com.tayra.languages.core.data.network.createHttpClient
 import com.tayra.languages.core.data.network.KtorRecordingFetcher
 import com.tayra.languages.core.domain.service.ExampleRecordings
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onAllNodesWithContentDescription
 import com.tayra.languages.core.domain.service.MemorySpeechAudioCache
@@ -186,6 +187,21 @@ class ReadingHoverTest {
         assertEquals(setOf(vm.index("lobo")), vm.state.value.marked)
         assertEquals("<floresta>", vm.hoverCard("floresta"))
         assertNull(vm.hoverCard("lobo"), "the word whose pane is open needs no card")
+    }
+
+    /** The end of the page offers to mark the unknown words as known, and only while there are some. */
+    @Test
+    fun theEndOfThePageOffersToMarkUnknownWordsOnlyWhileThereAreSome() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Mark remaining words as known").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(rule.onAllNodesWithText("Mark page as read").fetchSemanticsNodes().isEmpty())
+
+        rule.onNodeWithText("Mark remaining words as known").performScrollTo().performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Every word on this page has a status.").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(rule.onAllNodesWithText("Mark remaining words as known").fetchSemanticsNodes().isEmpty())
+        assertEquals(TermStatus.WELL_KNOWN, runBlocking { termRepository.findByTextLc(languageId, "lobo") }?.status)
     }
 
     /** The whole screen, as the app shows it: hovering a word with the mouse brings up its card. */

@@ -1086,34 +1086,21 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
                         fontWeight = FontWeight.Bold,
                     )
                     Text(
-                        if (last) "Review the remaining words, then mark this page as complete." else "Review the remaining words, then continue to the next page.",
+                        if (unknowns > 0) "Review the remaining words, or mark them all as known." else "Every word on this page has a status.",
                         style = MaterialTheme.typography.bodyMedium,
                         color = colors.onSurfaceVariant,
                     )
                 }
             }
-            val known = @Composable { modifier: Modifier ->
+            // Only offered while the page still has unknown words.
+            if (unknowns > 0) {
                 ActionCard(
-                    modifier = modifier,
+                    modifier = if (compact) Modifier.fillMaxWidth() else Modifier.widthIn(max = 560.dp).fillMaxWidth(),
                     title = "Mark remaining words as known",
                     subtitle = "$unknowns unknown word${if (unknowns == 1) "" else "s"}${if (last) "" else " \u00b7 then next page"}",
-                    filled = false,
+                    filled = true,
                     onClick = { viewModel.markPageRead(true, if (last) 0 else 1) },
                 )
-            }
-            val read = @Composable { modifier: Modifier ->
-                ActionCard(
-                    modifier = modifier,
-                    title = "Mark page as read",
-                    subtitle = if (last) "Save your reading progress" else "Continue to page ${state.pageNumber + 1}",
-                    filled = true,
-                    onClick = { viewModel.markPageRead(false, if (last) 0 else 1) },
-                )
-            }
-            if (compact) {
-                Column(verticalArrangement = Arrangement.spacedBy(12.dp)) { known(Modifier.fillMaxWidth()); read(Modifier.fillMaxWidth()) }
-            } else {
-                Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) { known(Modifier.weight(1f)); read(Modifier.weight(1f)) }
             }
             HorizontalDivider(color = colors.outlineVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
