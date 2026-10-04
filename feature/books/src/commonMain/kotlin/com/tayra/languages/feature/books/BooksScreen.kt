@@ -29,28 +29,21 @@ import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ArrowDropDown
-import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.PlainTooltip
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
-import androidx.compose.material3.TooltipAnchorPosition
-import androidx.compose.material3.TooltipBox
-import androidx.compose.material3.TooltipDefaults
-import androidx.compose.material3.rememberTooltipState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
@@ -435,11 +428,8 @@ private fun TableHeader(sort: BookSort, onSort: (BookSort) -> Unit) {
         ) {
             HeaderCell("Book", BOOK_WEIGHT, active = sort == BookSort.TITLE) { onSort(BookSort.TITLE) }
             HeaderCell("Reading progress", PROGRESS_WEIGHT)
+            HeaderCell("Vocabulary known", KNOWN_WEIGHT, active = sort == BookSort.MASTERY) { onSort(BookSort.MASTERY) }
             HeaderCell("Last opened", OPENED_WEIGHT, Icons.Default.KeyboardArrowDown, active = sort == BookSort.RECENT) { onSort(BookSort.RECENT) }
-            Row(Modifier.weight(KNOWN_WEIGHT), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                HeaderLabel("Vocabulary known", active = sort == BookSort.MASTERY) { onSort(BookSort.MASTERY) }
-                InfoTooltip("The share of the book's distinct words that are no longer new: being learned, known or ignored.")
-            }
             Spacer(Modifier.width(MENU_WIDTH))
         }
     }
@@ -460,18 +450,6 @@ private fun HeaderLabel(label: String, icon: ImageVector? = null, active: Boolea
     ) {
         Text(label, color = tint, fontWeight = FontWeight.Medium)
         if (icon != null) Icon(icon, contentDescription = null, modifier = Modifier.size(18.dp), tint = tint)
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun InfoTooltip(text: String) {
-    TooltipBox(
-        positionProvider = TooltipDefaults.rememberTooltipPositionProvider(TooltipAnchorPosition.Above),
-        tooltip = { PlainTooltip { Text(text) } },
-        state = rememberTooltipState(isPersistent = true),
-    ) {
-        Icon(Icons.Default.Info, contentDescription = text, tint = LocalContentColor.current, modifier = Modifier.size(18.dp))
     }
 }
 
@@ -504,11 +482,11 @@ private fun BookTableRow(book: BookListItem, callbacks: BooksCallbacks) {
             }
         }
         Column(Modifier.weight(PROGRESS_WEIGHT).padding(end = 32.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text("Page ${book.currentPage} of ${book.pageCount}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            pageLabel(book)?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
             PercentBar(book.progressPercent, PROGRESS)
         }
+        Box(Modifier.weight(KNOWN_WEIGHT).padding(end = 32.dp)) { PercentBar(book.masteryPercent, KNOWN) }
         Text(book.lastOpened?.relativeTo() ?: "Not opened yet", Modifier.weight(OPENED_WEIGHT).padding(end = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-        Box(Modifier.weight(KNOWN_WEIGHT).padding(end = 24.dp)) { PercentBar(book.masteryPercent, KNOWN) }
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { BookMenu(book, callbacks) }
     }
 }
@@ -572,7 +550,7 @@ private fun BookCard(book: BookListItem, callbacks: BooksCallbacks, modifier: Mo
             BookMenu(book, callbacks)
         }
         Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text("Page ${book.currentPage} of ${book.pageCount}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Text(pageLabel(book) ?: "Reading progress", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             PercentBar(book.progressPercent, PROGRESS)
         }
         Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
@@ -647,6 +625,9 @@ private fun DemoNotice(tutorialBookId: Long?, callbacks: BooksCallbacks) {
         }
     }
 }
+
+/** "Page 3 of 5"; nothing for a one-page book, where the page says nothing. */
+private fun pageLabel(book: BookListItem): String? = if (book.pageCount > 1) "Page ${book.currentPage} of ${book.pageCount}" else null
 
 private fun words(count: Int) = if (count == 1) "1 word" else "${count.grouped()} words"
 
