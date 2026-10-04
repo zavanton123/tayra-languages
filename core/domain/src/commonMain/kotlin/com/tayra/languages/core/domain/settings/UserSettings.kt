@@ -47,6 +47,18 @@ data class UserSettings(
     val googleTranslateApiKey: String = "",
     /** Python executable that has Argos Translate installed; empty means `python3` from the PATH. */
     val argosPython: String = "",
+    /** New flashcards introduced per day, per language. */
+    val flashcardNewPerDay: Int = 20,
+    /** Reviews shown per day, per language; 0 is no limit. */
+    val flashcardReviewsPerDay: Int = 0,
+    /** The chance of recall flashcard reviews are timed for, in percent. */
+    val flashcardRetention: Int = 90,
+    /** Waits before a new card comes back while it is learned, e.g. "1m 10m"; see the flashcards' LearningSteps. */
+    val flashcardLearnSteps: String = "1m 10m",
+    /** Waits before a forgotten card comes back. */
+    val flashcardRelearnSteps: String = "10m",
+    /** Read the sentence (or word) aloud when a flashcard's answer is shown. */
+    val flashcardAutoplay: Boolean = true,
     val hotkeys: Map<HotkeyAction, Hotkey?> = HotkeyAction.defaults,
 ) {
     fun hotkeyFor(action: HotkeyAction): Hotkey? = hotkeys[action]
@@ -56,5 +68,8 @@ data class UserSettings(
         const val DEFAULT_READING_FONT = "serif"
         const val MIN_STATS_SAMPLE_SIZE = 1
         const val MAX_STATS_SAMPLE_SIZE = 500
+        const val MAX_FLASHCARDS_PER_DAY = 9999
+        const val MIN_FLASHCARD_RETENTION = 70
+        const val MAX_FLASHCARD_RETENTION = 97
     }
 }

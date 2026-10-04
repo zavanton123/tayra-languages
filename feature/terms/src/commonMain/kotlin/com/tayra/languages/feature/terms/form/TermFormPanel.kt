@@ -1,5 +1,8 @@
 package com.tayra.languages.feature.terms.form
 
+import kotlin.time.Clock
+import androidx.compose.material3.Switch
+import com.tayra.languages.core.domain.flashcards.CardState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -221,6 +224,7 @@ fun TermFormPanel(
             if (LocalWindowWidth.current.isCompact) {
                 InformationCard(Modifier.fillMaxWidth(), state, viewModel, direction, focusRequester)
                 StatusCard(Modifier.fillMaxWidth(), state, viewModel)
+                FlashcardCard(Modifier.fillMaxWidth(), state, viewModel)
                 dictionaryBlock()
                 examplesBlock()
                 links(Modifier.fillMaxWidth())
@@ -234,6 +238,7 @@ fun TermFormPanel(
                     }
                     Column(Modifier.weight(1.1f), verticalArrangement = Arrangement.spacedBy(16.dp)) {
                         StatusCard(Modifier.fillMaxWidth(), state, viewModel)
+                        FlashcardCard(Modifier.fillMaxWidth(), state, viewModel)
                         links(Modifier.fillMaxWidth())
                         delete(Modifier.fillMaxWidth())
                     }
@@ -382,6 +387,62 @@ private fun StatusCard(modifier: Modifier, state: TermFormUiState, viewModel: Te
         HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
         InfoRow("Added", state.createdAt?.let { it.formatDate() } ?: "Not saved yet")
         InfoRow("Last updated", if (state.saved) "Just now" else if (state.dirty) "Unsaved changes" else "\u2014")
+    }
+}
+
+/** The term's flashcard: where it stands, with the ways to set it aside or start it over. */
+@Composable
+private fun FlashcardCard(modifier: Modifier, state: TermFormUiState, viewModel: TermFormViewModel) {
+    if (!state.flashcardsShown || state.isNew) return
+    var confirmReset by remember { mutableStateOf(false) }
+    FormCard(modifier, AppIcons.Bookmark, "Flashcard") {
+        val card = state.flashcard
+        if (card == null) {
+            Text(
+                "This term has no flashcard. Terms at status 1 to 4 get one.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            return@FormCard
+        }
+        val schedule = card.schedule
+        val stateName = when (schedule.state) {
+            CardState.NEW -> "New"
+            CardState.LEARNING -> "Learning"
+            CardState.REVIEW -> "Review"
+            CardState.RELEARNING -> "Relearning"
+        }
+        InfoRow("State", if (card.suspended) "$stateName, suspended" else stateName)
+        InfoRow(
+            "Next review",
+            when {
+                card.suspended -> "Suspended"
+                schedule.state == CardState.NEW -> "Not shown yet"
+                schedule.due <= Clock.System.now() -> "Due now"
+                else -> schedule.due.formatDate()
+            },
+        )
+        if (schedule.state == CardState.REVIEW) InfoRow("Interval", "${schedule.intervalDays} day${if (schedule.intervalDays == 1) "" else "s"}")
+        InfoRow("Answers", if (schedule.lapses > 0) "${schedule.reps}, forgotten ${schedule.lapses} time${if (schedule.lapses == 1) "" else "s"}" else "${schedule.reps}")
+        HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+            Column(Modifier.weight(1f)) {
+                Text("Suspend flashcard", style = MaterialTheme.typography.bodyLarge)
+                Text("Keep the card but leave it out of reviews.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            Switch(checked = card.suspended, onCheckedChange = viewModel::setFlashcardSuspended)
+        }
+        if (schedule.state != CardState.NEW) OutlineActionButton("Reset flashcard progress") { confirmReset = true }
+    }
+    if (confirmReset) {
+        ConfirmDialog(
+            title = "Reset this flashcard?",
+            text = "The card becomes new again and its review schedule is forgotten. The term's status stays as it is.",
+            confirmLabel = "Reset",
+            destructive = true,
+            onConfirm = { viewModel.restartFlashcard(); confirmReset = false },
+            onDismiss = { confirmReset = false },
+        )
     }
 }
 

@@ -98,6 +98,13 @@ class SettingsRepositoryImpl(
             translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
             googleTranslateApiKey = googleTranslateApiKey,
             argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
+            flashcardNewPerDay = store.getInt(Keys.FLASHCARD_NEW_PER_DAY, defaults.flashcardNewPerDay).coerceIn(0, UserSettings.MAX_FLASHCARDS_PER_DAY),
+            flashcardReviewsPerDay = store.getInt(Keys.FLASHCARD_REVIEWS_PER_DAY, defaults.flashcardReviewsPerDay).coerceIn(0, UserSettings.MAX_FLASHCARDS_PER_DAY),
+            flashcardRetention = store.getInt(Keys.FLASHCARD_RETENTION, defaults.flashcardRetention)
+                .coerceIn(UserSettings.MIN_FLASHCARD_RETENTION, UserSettings.MAX_FLASHCARD_RETENTION),
+            flashcardLearnSteps = store.getString(Keys.FLASHCARD_LEARN_STEPS, defaults.flashcardLearnSteps),
+            flashcardRelearnSteps = store.getString(Keys.FLASHCARD_RELEARN_STEPS, defaults.flashcardRelearnSteps),
+            flashcardAutoplay = store.getBoolean(Keys.FLASHCARD_AUTOPLAY, defaults.flashcardAutoplay),
             hotkeys = loadHotkeys(store),
         )
     }
@@ -181,6 +188,12 @@ class SettingsRepositoryImpl(
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
         store.putString(Keys.ARGOS_PYTHON, s.argosPython)
+        store.putInt(Keys.FLASHCARD_NEW_PER_DAY, s.flashcardNewPerDay)
+        store.putInt(Keys.FLASHCARD_REVIEWS_PER_DAY, s.flashcardReviewsPerDay)
+        store.putInt(Keys.FLASHCARD_RETENTION, s.flashcardRetention)
+        store.putString(Keys.FLASHCARD_LEARN_STEPS, s.flashcardLearnSteps)
+        store.putString(Keys.FLASHCARD_RELEARN_STEPS, s.flashcardRelearnSteps)
+        store.putBoolean(Keys.FLASHCARD_AUTOPLAY, s.flashcardAutoplay)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")
         }
@@ -227,5 +240,11 @@ class SettingsRepositoryImpl(
         const val NATIVE_LANGUAGE = "native_language"
         const val LEGACY_TRANSLATION_TARGET = "translation_target_language"
         const val TRANSLATION_EMAIL = "translation_contact_email"
+        const val FLASHCARD_NEW_PER_DAY = "flashcard_new_per_day"
+        const val FLASHCARD_REVIEWS_PER_DAY = "flashcard_reviews_per_day"
+        const val FLASHCARD_RETENTION = "flashcard_retention"
+        const val FLASHCARD_LEARN_STEPS = "flashcard_learn_steps"
+        const val FLASHCARD_RELEARN_STEPS = "flashcard_relearn_steps"
+        const val FLASHCARD_AUTOPLAY = "flashcard_autoplay"
     }
 }

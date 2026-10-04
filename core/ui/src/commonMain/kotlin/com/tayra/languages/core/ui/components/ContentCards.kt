@@ -233,16 +233,16 @@ fun RoundSlider(value: Float, onValueChange: (Float) -> Unit, valueRange: Closed
 
 /** A whole number with minus and plus buttons on either side. */
 @Composable
-fun NumberStepper(value: Int, range: IntRange, name: String, onChange: (Int) -> Unit) {
+fun NumberStepper(value: Int, range: IntRange, name: String, step: Int = 1, onChange: (Int) -> Unit) {
     Row(
         Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp)),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        StepButton("−", "Decrease $name", enabled = value > range.first, bordered = false) { onChange(value - 1) }
+        StepButton("−", "Decrease $name", enabled = value > range.first, bordered = false) { onChange((value - step).coerceAtLeast(range.first)) }
         Box(Modifier.height(44.dp).width(1.dp).background(MaterialTheme.colorScheme.outlineVariant))
         Text(value.toString(), Modifier.widthIn(min = 64.dp).padding(horizontal = 12.dp), textAlign = TextAlign.Center, style = MaterialTheme.typography.bodyLarge)
         Box(Modifier.height(44.dp).width(1.dp).background(MaterialTheme.colorScheme.outlineVariant))
-        StepButton("+", "Increase $name", enabled = value < range.last, bordered = false) { onChange(value + 1) }
+        StepButton("+", "Increase $name", enabled = value < range.last, bordered = false) { onChange((value + step).coerceAtMost(range.last)) }
     }
 }
 

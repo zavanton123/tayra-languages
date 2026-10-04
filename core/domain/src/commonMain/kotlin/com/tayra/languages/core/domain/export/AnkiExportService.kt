@@ -3,6 +3,7 @@ package com.tayra.languages.core.domain.export
 import com.tayra.languages.core.domain.dictionary.DictionaryLookup
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
+import com.tayra.languages.core.domain.flashcards.Cloze
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
@@ -118,15 +119,8 @@ class AnkiExportService(
 
     /** The sentence with its first whole occurrence of [word] blanked out; the word alone when it does not occur. */
     internal fun cloze(sentence: String, word: String): String {
-        var from = 0
-        while (true) {
-            val at = sentence.indexOf(word, from, ignoreCase = true)
-            if (at < 0) return "{{c1::$word}}<br>$sentence"
-            val end = at + word.length
-            val whole = (at == 0 || !sentence[at - 1].isLetterOrDigit()) && (end == sentence.length || !sentence[end].isLetterOrDigit())
-            if (whole) return sentence.substring(0, at) + "{{c1::" + sentence.substring(at, end) + "}}" + sentence.substring(end)
-            from = end
-        }
+        val found = Cloze.range(sentence, word) ?: return "{{c1::$word}}<br>$sentence"
+        return sentence.substring(0, found.first) + "{{c1::" + sentence.substring(found) + "}}" + sentence.substring(found.last + 1)
     }
 
     private fun stamp(instant: Instant, pretty: Boolean = false): String {

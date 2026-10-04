@@ -17,6 +17,7 @@ kotlin {
             api(projects.core.data)
             api(projects.core.ui)
             implementation(projects.feature.books)
+            implementation(projects.feature.flashcards)
             implementation(projects.feature.languages)
             implementation(projects.feature.terms)
             implementation(projects.feature.reading)

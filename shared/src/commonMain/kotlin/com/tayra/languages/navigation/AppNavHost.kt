@@ -1,5 +1,6 @@
 package com.tayra.languages.navigation
 
+import com.tayra.languages.feature.flashcards.flashcardsGraph
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
@@ -18,6 +19,7 @@ fun AppNavHost() {
         booksGraph(navController)
         languagesGraph(navController)
         termsGraph(navController)
+        flashcardsGraph(navController)
         readingGraph(navController)
         settingsGraph(navController)
         statsGraph(navController)

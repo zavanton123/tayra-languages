@@ -1,5 +1,7 @@
 package com.tayra.languages
 
+import com.tayra.languages.core.domain.flashcards.FlashcardService
+import com.tayra.languages.core.ui.components.LocalFlashcardsDue
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -79,7 +81,11 @@ fun App(titleBarInset: Dp = 0.dp) {
                         is BootstrapState.Failed -> Box(Modifier.fillMaxSize().padding(24.dp), contentAlignment = Alignment.Center) {
                             Text("Could not start: ${s.message}", color = MaterialTheme.colorScheme.error)
                         }
-                        BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId) { AppNavHost() }
+                        BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId) {
+                            val flashcards = koinInject<FlashcardService>()
+                            val due by remember(flashcards) { flashcards.observeDueCount() }.collectAsStateWithLifecycle(0)
+                            CompositionLocalProvider(LocalFlashcardsDue provides due) { AppNavHost() }
+                        }
                     }
                     }
                 }

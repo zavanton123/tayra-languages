@@ -1,5 +1,8 @@
 package com.tayra.languages.core.data.di
 
+import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
+import com.tayra.languages.core.domain.flashcards.FlashcardService
+import com.tayra.languages.core.domain.repository.FlashcardRepository
 import com.russhwolf.settings.Settings
 import com.tayra.languages.core.data.backup.BackupRepositoryImpl
 import com.tayra.languages.core.data.db.DatabaseProvider
@@ -129,4 +132,6 @@ val dataModule: Module = module {
     single { LearningLanguageService(get(), get(), get()) }
     single { DemoDataService(get(), get(), get(), get(), get()) }
     single { StatsService(get()) }
+    single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
+    single { FlashcardService(get(), get(), get()) }
 }

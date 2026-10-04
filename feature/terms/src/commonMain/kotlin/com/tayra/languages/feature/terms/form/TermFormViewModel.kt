@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.terms.form
 
+import com.tayra.languages.core.domain.flashcards.Flashcard
+import com.tayra.languages.core.domain.flashcards.FlashcardService
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.dictionary.DictionaryPacks
@@ -78,6 +80,10 @@ data class TermFormUiState(
     val dictionaryPack: PackStatus? = null,
     /** The words of each example with their statuses, by the example's text. */
     val exampleWords: Map<String, List<WordStatus>> = emptyMap(),
+    /** The term's flashcard; null when it has none (its status is not 1 to 4, or it is not saved yet). */
+    val flashcard: Flashcard? = null,
+    /** Whether this form can show and change the term's flashcard. */
+    val flashcardsShown: Boolean = false,
 ) {
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
     val isNew: Boolean get() = draft.isNew
@@ -109,6 +115,8 @@ class TermFormViewModel(
     private val dictionaries: DictionaryService,
     /** Lets words of the examples be saved; without it the examples are only shown. */
     private val exampleTerms: ExampleTerms? = null,
+    /** Lets the form show the term's flashcard, suspend it and reset it. */
+    private val flashcards: FlashcardService? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(TermFormUiState())
@@ -177,6 +185,7 @@ class TermFormViewModel(
             draft.id?.let { terms.clearFlashMessage(it) }
             val createdAt = draft.id?.let { terms.getById(it)?.createdAt }
             _state.update { it.copy(createdAt = createdAt) }
+            refreshFlashcard(draft.id)
             val language = _state.value.language
             val lookup = lookupDictionary(draft.text, language)
             // Words on a page exist as placeholders before anyone opens them, so "new" is judged by
@@ -476,6 +485,8 @@ class TermFormViewModel(
                 val shown = if (it.draft.status == TermStatus.UNKNOWN && !it.draft.statusExplicitlySet) it.draft.copy(status = draft.status) else it.draft
                 it.copy(saving = false, dirty = toSave(shown) != draft, saved = true, draft = shown.copy(id = id, originalText = draft.text))
             }
+            // A new status may have given the term a card, or taken it away.
+            refreshFlashcard(id)
             id
         } catch (e: TermValidationException) {
             _state.update { it.copy(saving = false, error = e.message, duplicateOf = e.duplicateOf) }
@@ -483,6 +494,30 @@ class TermFormViewModel(
         } catch (e: Exception) {
             _state.update { it.copy(saving = false, error = e.message ?: "Could not save term") }
             null
+        }
+    }
+
+    private suspend fun refreshFlashcard(termId: Long?) {
+        val service = flashcards ?: return
+        val card = termId?.let { service.cardFor(it) }
+        _state.update { it.copy(flashcard = card, flashcardsShown = true) }
+    }
+
+    /** A suspended flashcard is kept but not shown for review. */
+    fun setFlashcardSuspended(suspended: Boolean) {
+        val id = _state.value.draft.id ?: return
+        viewModelScope.launch {
+            flashcards?.setSuspended(id, suspended)
+            refreshFlashcard(id)
+        }
+    }
+
+    /** Makes the flashcard new again, forgetting its reviews. */
+    fun restartFlashcard() {
+        val id = _state.value.draft.id ?: return
+        viewModelScope.launch {
+            flashcards?.restart(id)
+            refreshFlashcard(id)
         }
     }
 

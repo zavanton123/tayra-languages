@@ -1,0 +1,31 @@
+-- One flashcard per term being learned (status 1 to 4), scheduled as in Anki with FSRS.
+CREATE TABLE IF NOT EXISTS flashcards (
+    term_id INTEGER NOT NULL PRIMARY KEY REFERENCES terms(id) ON DELETE CASCADE,
+    -- 0 new, 1 learning, 2 review, 3 relearning
+    state INTEGER NOT NULL DEFAULT 0,
+    due INTEGER NOT NULL,
+    stability REAL,
+    difficulty REAL,
+    interval_days INTEGER NOT NULL DEFAULT 0,
+    remaining_steps INTEGER NOT NULL DEFAULT 0,
+    reps INTEGER NOT NULL DEFAULT 0,
+    lapses INTEGER NOT NULL DEFAULT 0,
+    last_review INTEGER,
+    suspended INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
+    -- The term's status when the card last saw it; a different status now is a change made elsewhere.
+    seen_status INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS flashcards_due ON flashcards(state, due);
+
+CREATE TABLE IF NOT EXISTS flashcard_reviews (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    term_id INTEGER NOT NULL REFERENCES terms(id) ON DELETE CASCADE,
+    reviewed_at INTEGER NOT NULL,
+    rating INTEGER NOT NULL,
+    state_before INTEGER NOT NULL,
+    interval_days INTEGER NOT NULL,
+    elapsed_days INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS flashcard_reviews_at ON flashcard_reviews(reviewed_at);

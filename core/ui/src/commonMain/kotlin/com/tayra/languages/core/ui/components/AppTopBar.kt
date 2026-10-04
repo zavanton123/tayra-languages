@@ -39,11 +39,18 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.ui.semantics.Role
 import com.tayra.languages.core.ui.navigation.Route
 
 /** The main navigation areas, used to highlight the active tab. */
-enum class NavSection(val label: String) { HOME("Home"), BOOKS("Books"), TERMS("Vocabulary"), SETTINGS("Settings"), ABOUT("About") }
+enum class NavSection(val label: String) { HOME("Home"), BOOKS("Books"), TERMS("Vocabulary"), FLASHCARDS("Flashcards"), SETTINGS("Settings"), ABOUT("About") }
+
+/** How many flashcards wait today, shown beside the Flashcards tab; provided at the root of the app. */
+val LocalFlashcardsDue = compositionLocalOf { 0 }
 
 private data class MenuEntry(val label: String, val route: Route)
 
@@ -52,6 +59,7 @@ private data class MenuGroup(val section: NavSection, val entries: List<MenuEntr
 private val menuGroups = listOf(
     MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Home), MenuEntry("Create new book", Route.NewBook), MenuEntry("Book archive", Route.ArchivedBooks))),
     MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()))),
+    MenuGroup(NavSection.FLASHCARDS, listOf(MenuEntry("Review flashcards", Route.Flashcards), MenuEntry("Flashcard settings", Route.FlashcardSettings))),
     MenuGroup(
         NavSection.SETTINGS,
         listOfNotNull(
@@ -60,6 +68,7 @@ private val menuGroups = listOf(
             MenuEntry("Translation", Route.OfflineTranslation),
             MenuEntry("Dictionaries", Route.OfflineDictionaries),
             MenuEntry("Speech", Route.Speech),
+            MenuEntry("Flashcards", Route.FlashcardSettings),
             MenuEntry("Keyboard shortcuts", Route.Shortcuts),
             MenuEntry("Backups", Route.Backups),
         ),
@@ -168,7 +177,20 @@ private fun NavTab(section: NavSection, active: Boolean, onClick: () -> Unit) {
         Modifier.width(IntrinsicSize.Max).clip(RoundedCornerShape(6.dp)).clickable(onClick = onClick).padding(horizontal = 12.dp, vertical = 8.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Text(section.label, style = MaterialTheme.typography.bodyLarge, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium, color = color)
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text(section.label, style = MaterialTheme.typography.bodyLarge, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium, color = color)
+            val due = LocalFlashcardsDue.current
+            if (section == NavSection.FLASHCARDS && due > 0) {
+                Text(
+                    if (due > 999) "999+" else "$due",
+                    Modifier.clip(RoundedCornerShape(50)).background(MaterialTheme.colorScheme.primary).padding(horizontal = 7.dp, vertical = 1.dp)
+                        .semantics { contentDescription = "$due flashcards due" },
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onPrimary,
+                    fontWeight = FontWeight.SemiBold,
+                )
+            }
+        }
         Spacer(Modifier.height(4.dp))
         Box(
             Modifier.fillMaxWidth().height(2.dp).clip(RoundedCornerShape(1.dp))

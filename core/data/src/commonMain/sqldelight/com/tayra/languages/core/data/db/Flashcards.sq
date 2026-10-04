@@ -1,0 +1,131 @@
+-- One flashcard per term being learned (status 1 to 4), scheduled as in Anki with FSRS.
+CREATE TABLE flashcards (
+    term_id INTEGER NOT NULL PRIMARY KEY REFERENCES terms(id) ON DELETE CASCADE,
+    -- 0 new, 1 learning, 2 review, 3 relearning
+    state INTEGER NOT NULL DEFAULT 0,
+    due INTEGER NOT NULL,
+    stability REAL,
+    difficulty REAL,
+    interval_days INTEGER NOT NULL DEFAULT 0,
+    remaining_steps INTEGER NOT NULL DEFAULT 0,
+    reps INTEGER NOT NULL DEFAULT 0,
+    lapses INTEGER NOT NULL DEFAULT 0,
+    last_review INTEGER,
+    suspended INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
+    -- The term's status when the card last saw it; a different status now is a change made elsewhere.
+    seen_status INTEGER NOT NULL
+);
+
+CREATE INDEX flashcards_due ON flashcards(state, due);
+
+CREATE TABLE flashcard_reviews (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    term_id INTEGER NOT NULL REFERENCES terms(id) ON DELETE CASCADE,
+    reviewed_at INTEGER NOT NULL,
+    rating INTEGER NOT NULL,
+    state_before INTEGER NOT NULL,
+    interval_days INTEGER NOT NULL,
+    elapsed_days INTEGER NOT NULL
+);
+
+CREATE INDEX flashcard_reviews_at ON flashcard_reviews(reviewed_at);
+
+selectByTerm:
+SELECT * FROM flashcards WHERE term_id = :termId;
+
+nextInStates:
+SELECT f.*
+FROM flashcards f
+INNER JOIN terms t ON t.id = f.term_id
+WHERE f.suspended = 0 AND f.state IN :states AND f.due <= :dueBy
+  AND (:languageId IS NULL OR t.language_id = :languageId)
+ORDER BY f.due, f.term_id
+LIMIT 1;
+
+countInStates:
+SELECT count(*)
+FROM flashcards f
+INNER JOIN terms t ON t.id = f.term_id
+WHERE f.suspended = 0 AND f.state IN :states AND f.due <= :dueBy
+  AND (:languageId IS NULL OR t.language_id = :languageId);
+
+earliestInStates:
+SELECT min(f.due)
+FROM flashcards f
+INNER JOIN terms t ON t.id = f.term_id
+WHERE f.suspended = 0 AND f.state IN :states
+  AND (:languageId IS NULL OR t.language_id = :languageId);
+
+save:
+INSERT OR REPLACE INTO flashcards(term_id, state, due, stability, difficulty, interval_days, remaining_steps, reps, lapses, last_review, suspended, seen_status)
+VALUES (:termId, :state, :due, :stability, :difficulty, :intervalDays, :remainingSteps, :reps, :lapses, :lastReview, :suspended, :seenStatus);
+
+setSuspended:
+UPDATE flashcards SET suspended = :suspended WHERE term_id = :termId;
+
+restart:
+UPDATE flashcards SET state = 0, due = :now, stability = NULL, difficulty = NULL, interval_days = 0, remaining_steps = 0,
+    reps = 0, lapses = 0, last_review = NULL
+WHERE term_id = :termId;
+
+-- Reviews
+
+insertReview:
+INSERT INTO flashcard_reviews(term_id, reviewed_at, rating, state_before, interval_days, elapsed_days)
+VALUES (:termId, :reviewedAt, :rating, :stateBefore, :intervalDays, :elapsedDays);
+
+lastReviewId:
+SELECT last_insert_rowid();
+
+deleteReview:
+DELETE FROM flashcard_reviews WHERE id = :id;
+
+countReviewsSince:
+SELECT count(*)
+FROM flashcard_reviews r
+INNER JOIN terms t ON t.id = r.term_id
+WHERE r.reviewed_at >= :since AND r.state_before = :stateBefore
+  AND (:languageId IS NULL OR t.language_id = :languageId);
+
+-- Keeping cards in line with the terms' statuses. Cards and reviews of deleted terms are removed
+-- here as well, since not every platform's driver enforces the cascades.
+
+outOfLine:
+SELECT
+    (SELECT count(*) FROM flashcards f WHERE NOT EXISTS (SELECT 1 FROM terms t WHERE t.id = f.term_id))
+    + (SELECT count(*) FROM flashcard_reviews r WHERE NOT EXISTS (SELECT 1 FROM terms t WHERE t.id = r.term_id))
+    + (SELECT count(*) FROM flashcards f INNER JOIN terms t ON t.id = f.term_id WHERE t.status != f.seen_status)
+    + (SELECT count(*) FROM terms t WHERE t.status IN (1, 2, 3, 4) AND NOT EXISTS (SELECT 1 FROM flashcards f WHERE f.term_id = t.id));
+
+deleteOrphanCards:
+DELETE FROM flashcards WHERE term_id NOT IN (SELECT id FROM terms);
+
+deleteOrphanReviews:
+DELETE FROM flashcard_reviews WHERE term_id NOT IN (SELECT id FROM terms);
+
+-- A term marked known, ignored or unknown outside the flashcards has no card any more.
+deleteRetired:
+DELETE FROM flashcards
+WHERE EXISTS (SELECT 1 FROM terms t WHERE t.id = flashcards.term_id AND t.status NOT IN (1, 2, 3, 4) AND t.status != flashcards.seen_status);
+
+-- A term the flashcards made known and that was moved back to learning starts over.
+restartReturned:
+UPDATE flashcards SET state = 0, due = :now, stability = NULL, difficulty = NULL, interval_days = 0, remaining_steps = 0,
+    reps = 0, lapses = 0, last_review = NULL
+WHERE seen_status NOT IN (1, 2, 3, 4)
+  AND EXISTS (SELECT 1 FROM terms t WHERE t.id = flashcards.term_id AND t.status IN (1, 2, 3, 4));
+
+followStatus:
+UPDATE flashcards SET seen_status = (SELECT t.status FROM terms t WHERE t.id = flashcards.term_id)
+WHERE EXISTS (SELECT 1 FROM terms t WHERE t.id = flashcards.term_id AND t.status IN (1, 2, 3, 4) AND t.status != flashcards.seen_status);
+
+-- New cards queue in the order their terms were added.
+createMissing:
+INSERT INTO flashcards(term_id, state, due, seen_status)
+SELECT t.id, 0, t.created_at, t.status
+FROM terms t
+WHERE t.status IN (1, 2, 3, 4) AND t.id NOT IN (SELECT term_id FROM flashcards);
+
+-- Changes whenever terms, cards or reviews are written; observed to refresh what is due.
+changeMarker:
+SELECT (SELECT count(*) FROM terms) + (SELECT count(*) FROM flashcards) + (SELECT count(*) FROM flashcard_reviews);
