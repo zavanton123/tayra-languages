@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.books
 
+import com.tayra.languages.core.ui.components.ScreenTitle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -122,6 +123,7 @@ fun PageEditScreen(
             return@Scaffold
         }
         Column(Modifier.padding(padding).fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            ScreenTitle(title)
             ErrorMessage(state.error)
             OutlinedTextField(
                 value = state.text,

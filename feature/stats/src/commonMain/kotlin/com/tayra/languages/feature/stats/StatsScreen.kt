@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.stats
 
+import com.tayra.languages.core.ui.components.ScreenTitle
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -64,11 +65,12 @@ fun StatsScreen(onNavigate: (Route) -> Unit, viewModel: StatsViewModel = koinVie
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        if (data.table.isEmpty()) {
-            EmptyMessage("No reading recorded yet. Mark pages as read to build statistics.", Modifier.padding(padding))
-            return@Scaffold
-        }
         Column(Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 900.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            ScreenTitle("Statistics")
+            if (data.table.isEmpty()) {
+                EmptyMessage("No reading recorded yet. Mark pages as read to build statistics.")
+                return@Column
+            }
             Text("Reading streak: ${data.streak} day${if (data.streak == 1) "" else "s"}", style = MaterialTheme.typography.titleMedium)
             Text("Words read", style = MaterialTheme.typography.titleMedium)
             Row(Modifier.fillMaxWidth()) {

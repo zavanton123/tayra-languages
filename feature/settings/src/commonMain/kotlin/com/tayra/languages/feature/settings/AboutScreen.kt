@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.components.ScreenTitle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -19,6 +20,7 @@ import com.tayra.languages.core.ui.navigation.Route
 fun AboutScreen(onNavigate: (Route) -> Unit) {
     Scaffold(topBar = { AppTopBar(title = "About", onNavigate = onNavigate, section = NavSection.ABOUT) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize().padding(16.dp).widthIn(max = 720.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            ScreenTitle("About")
             Text("Tayra Languages", style = MaterialTheme.typography.headlineSmall)
             Text("Learn languages by reading. Import texts, click words to look them up and track what you know.", style = MaterialTheme.typography.bodyLarge)
             Text("A Kotlin Multiplatform port of Lute (Learning Using Texts), running on Android, iOS, desktop and the web with a shared Compose UI.", style = MaterialTheme.typography.bodyMedium)

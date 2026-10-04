@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.languages
 
+import com.tayra.languages.core.ui.components.ScreenTitle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -75,6 +76,7 @@ fun LanguageEditScreen(
                 .widthIn(max = if (wide) 900.dp else Int.MAX_VALUE.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
+            ScreenTitle(language.name)
             ErrorMessage(state.error)
             OutlinedTextField(
                 value = language.name,

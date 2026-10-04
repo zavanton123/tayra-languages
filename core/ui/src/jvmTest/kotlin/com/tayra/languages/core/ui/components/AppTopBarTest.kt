@@ -2,6 +2,7 @@ package com.tayra.languages.core.ui.components
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import com.tayra.languages.core.ui.navigation.Route
@@ -14,10 +15,11 @@ class AppTopBarTest {
     val rule = createComposeRule()
 
     @Test
-    fun theLogoAndNameLeadHome() {
+    fun theLogoAlwaysShowsTheAppNameAndLeadsHome() {
         val visited = mutableListOf<Route>()
-        rule.setContent { MaterialTheme { AppTopBar(title = "Tayra Languages", onNavigate = { visited += it }, section = NavSection.BOOKS) } }
+        rule.setContent { MaterialTheme { AppTopBar(title = "Statistics", onNavigate = { visited += it }, section = NavSection.ABOUT) } }
         rule.onNodeWithText("Tayra Languages").performClick()
         assertEquals(listOf<Route>(Route.Home), visited)
+        assertEquals(0, rule.onAllNodesWithText("Statistics").fetchSemanticsNodes().size, "the screen's own title stays out of the wide bar")
     }
 }

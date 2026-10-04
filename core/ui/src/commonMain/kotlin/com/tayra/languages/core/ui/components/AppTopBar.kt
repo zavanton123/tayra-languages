@@ -67,9 +67,15 @@ private val menuGroups = listOf(
     MenuGroup(NavSection.ABOUT, listOf(MenuEntry("Statistics", Route.Stats), MenuEntry("About", Route.About))),
 )
 
+const val APP_NAME = "Tayra Languages"
+
 /**
  * The application bar with the choice of the language being learned and the main menu (Books,
  * Vocabulary, Settings, About), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
+ *
+ * Wide windows always show the logo with the app's name, which leads home. [title] names the
+ * screen only in the compact bar on phones, so screens show their own heading on wide windows
+ * (see [ScreenTitle]).
  *
  * @param section the area the current screen belongs to; its tab is highlighted.
  */
@@ -121,7 +127,7 @@ fun AppTopBar(
                 ) {
                     Icon(AppIcons.Otter, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(34.dp))
                     Spacer(Modifier.width(12.dp))
-                    Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                    Text(APP_NAME, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
                 }
                 if (LocalLearningLanguage.current?.currentName != null) {
                     Spacer(Modifier.width(24.dp))

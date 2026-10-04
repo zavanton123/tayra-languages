@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.books
 
+import com.tayra.languages.core.ui.components.ScreenTitle
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -66,6 +67,7 @@ fun BookmarksScreen(
 
     Scaffold(topBar = { AppTopBar(title = "Bookmarks: ${state.title}", onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
+            ScreenTitle("Bookmarks: ${state.title}", Modifier.padding(16.dp))
             if (state.bookmarks.isEmpty()) {
                 EmptyMessage("No bookmarks yet. Add one from the reading menu.")
             } else {

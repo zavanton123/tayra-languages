@@ -55,6 +55,13 @@ object StatusTints {
     val warning = Color(0xFFD68A00)
 }
 
+/** The screen's name as a heading, on wide windows only: phones show it in the top bar instead. */
+@Composable
+fun ScreenTitle(title: String, modifier: Modifier = Modifier) {
+    if (LocalWindowWidth.current.isCompact) return
+    Text(title, modifier, style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+}
+
 /** The page heading: an optional way back to Settings, the title and subtitle, and actions on the right. */
 @Composable
 fun ScreenHeader(

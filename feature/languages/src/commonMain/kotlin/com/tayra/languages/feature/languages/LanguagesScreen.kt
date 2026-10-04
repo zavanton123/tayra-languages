@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.languages
 
+import com.tayra.languages.core.ui.components.ScreenTitle
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -36,6 +37,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, viewModel: LanguagesViewModel =
 
     Scaffold(topBar = { AppTopBar(title = "Languages", onNavigate = onNavigate, section = NavSection.SETTINGS) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
+            ScreenTitle("Languages", Modifier.padding(start = 16.dp, end = 16.dp, top = 16.dp))
             Text(
                 "Languages you can learn. Tap one to change its dictionaries and text settings.",
                 modifier = Modifier.padding(16.dp),
