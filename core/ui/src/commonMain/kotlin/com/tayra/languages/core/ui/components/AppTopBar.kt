@@ -39,6 +39,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.semantics.Role
 import com.tayra.languages.core.ui.navigation.Route
 
 /** The main navigation areas, used to highlight the active tab. */
@@ -103,16 +104,25 @@ fun AppTopBar(
     Surface(color = MaterialTheme.colorScheme.surface) {
         Column(Modifier.windowInsetsPadding(WindowInsets.statusBars)) {
             Row(
-                Modifier.fillMaxWidth().height(64.dp).padding(horizontal = 24.dp),
+                // 18 + the link's own 6 keeps the logo 24 from the edge.
+                Modifier.fillMaxWidth().height(64.dp).padding(start = 18.dp, end = 24.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 if (onBack != null) {
                     IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") }
                     Spacer(Modifier.width(4.dp))
                 }
-                Icon(AppIcons.Otter, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(34.dp))
-                Spacer(Modifier.width(12.dp))
-                Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                // The logo and name lead home, as on most sites.
+                Row(
+                    Modifier.clip(RoundedCornerShape(10.dp))
+                        .clickable(onClickLabel = "Go to Home", role = Role.Button) { onNavigate(Route.Home) }
+                        .padding(horizontal = 6.dp, vertical = 4.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Icon(AppIcons.Otter, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(34.dp))
+                    Spacer(Modifier.width(12.dp))
+                    Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                }
                 if (LocalLearningLanguage.current?.currentName != null) {
                     Spacer(Modifier.width(24.dp))
                     LearningLanguageSelector(compact = false)
