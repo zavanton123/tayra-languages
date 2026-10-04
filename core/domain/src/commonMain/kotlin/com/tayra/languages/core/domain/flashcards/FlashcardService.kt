@@ -9,6 +9,7 @@ import com.tayra.languages.core.domain.settings.UserSettings
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.conflate
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flow
 import kotlin.random.Random
@@ -166,7 +167,8 @@ class FlashcardService(
                 delay(1.minutes)
             }
         }
-        return combine(cards.observeChanges(), settings.settings, everyMinute) { _, s, _ -> counts(s.currentLanguageId.takeIf { it != 0L }).total }
+        // Conflated: a burst of writes, such as marking a page's words known, is counted once.
+        return combine(cards.observeChanges().conflate(), settings.settings, everyMinute) { _, s, _ -> counts(s.currentLanguageId.takeIf { it != 0L }).total }
             .distinctUntilChanged()
     }
 

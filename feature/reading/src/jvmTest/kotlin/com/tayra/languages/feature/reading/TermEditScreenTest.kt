@@ -1,5 +1,8 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.test.isToggleable
+import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
+import com.tayra.languages.core.domain.flashcards.FlashcardService
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
@@ -109,6 +112,7 @@ class TermEditScreenTest {
             },
         ).also { runBlocking { it.refresh() } }
         val termService = TermService(terms, languages)
+        val flashcards = FlashcardService(FlashcardRepositoryImpl(provider), terms, settings)
         val exampleTerms = ExampleTerms(ReadingService(BookRepositoryImpl(provider), languages, terms, WordsReadRepositoryImpl(provider), termService), termService)
         startKoin {
             modules(module {
@@ -118,7 +122,7 @@ class TermEditScreenTest {
                 single { SentenceAudio(get(), settings, cache, get()) }
                 single<SettingsRepository> { settings }
                 single { WordTranslationService(terms, dictionaries, engine, settings) }
-                viewModel { (key: TermFormKey) -> TermFormViewModel(key, termService, terms, languages, settings, engine, sentences, dictionaries, dictionaries, exampleTerms) }
+                viewModel { (key: TermFormKey) -> TermFormViewModel(key, termService, terms, languages, settings, engine, sentences, dictionaries, dictionaries, exampleTerms, flashcards) }
             })
         }
         var done = false
@@ -134,10 +138,18 @@ class TermEditScreenTest {
 
         waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("a week's wages")).fetchSemanticsNodes().isNotEmpty() }
         waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Tom lê vários livros por semana.")).fetchSemanticsNodes().isNotEmpty() }
-        for (part in listOf("Term information", "Learning status", "Dictionaries", "Delete term", "Edit term")) {
+        for (part in listOf("Term information", "Learning status", "Flashcard", "Dictionaries", "Delete term", "Edit term")) {
             assertTrue(onAllNodes(hasText(part)).fetchSemanticsNodes().isNotEmpty(), "$part is shown")
         }
         System.getenv("TERM_EDIT_SCREENSHOT")?.let { save(it) }
+
+        // A term being learned has a flashcard, which can be set aside from here.
+        onNodeWithText("Not shown yet").assertExists()
+        onNode(isToggleable()).performClick()
+        waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == true }
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("New, suspended")).fetchSemanticsNodes().isNotEmpty() }
+        onNode(isToggleable()).performClick()
+        waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == false }
 
         onAllNodes(hasText("2") and isSelectable())[0].performClick()
         onNodeWithText("Save changes").performClick()

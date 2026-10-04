@@ -1,5 +1,9 @@
 package com.tayra.languages.core.data
 
+import com.tayra.languages.core.domain.model.Term
+import com.tayra.languages.core.domain.flashcards.Rating
+import com.tayra.languages.core.domain.flashcards.FlashcardService
+import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.backup.BackupFiles
 import com.tayra.languages.core.data.backup.BackupRepositoryImpl
@@ -48,6 +52,30 @@ class BackupTest {
         val settings = SettingsRepositoryImpl(MapSettings())
         val folder: File = Files.createTempDirectory("tayra-backups").toFile()
         val backups = BackupRepositoryImpl(provider, settings, BackupFiles(folder), Ticking(), timeZone = { TimeZone.UTC })
+    }
+
+    @Test
+    fun aBackupCarriesTheFlashcardsAndTheirSettings() = runBlocking<Unit> {
+        val env = Env()
+        val language = env.languages.save(Language(name = "Portuguese"))
+        val lobo = env.terms.save(Term(languageId = language, text = "lobo", textLc = "lobo", status = TermStatus.NEW_1, translation = "wolf"))
+        val flashcards = FlashcardService(FlashcardRepositoryImpl(env.provider), env.terms, env.settings)
+        env.settings.update { it.copy(flashcardNewPerDay = 7, flashcardLearnSteps = "5m") }
+        flashcards.answer(flashcards.next(language).card!!, Rating.EASY)
+        val answered = flashcards.cardFor(lobo)!!
+        assertEquals(TermStatus.LEARNING_3, env.terms.getById(lobo)!!.status)
+        val backup = env.backups.create()
+
+        // After the backup the card is started over and the settings change.
+        flashcards.restart(lobo)
+        env.settings.update { it.copy(flashcardNewPerDay = 20, flashcardLearnSteps = "1m 10m") }
+
+        env.backups.restore(backup.name)
+        assertEquals(answered, flashcards.cardFor(lobo))
+        assertEquals(7, env.settings.current.flashcardNewPerDay)
+        assertEquals("5m", env.settings.current.flashcardLearnSteps)
+        // The answer given before the backup still counts against the day's new cards.
+        assertEquals(0, flashcards.counts(language).total)
     }
 
     @Test
