@@ -70,6 +70,10 @@ sealed interface Route {
     @Serializable
     data object Speech : Route
 
+    /** Backups of all data and settings. */
+    @Serializable
+    data object Backups : Route
+
     @Serializable
     data object Stats : Route
 

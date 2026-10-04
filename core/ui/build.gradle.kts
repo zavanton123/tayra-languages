@@ -11,6 +11,7 @@ kotlin {
             api(libs.kotlinx.collections.immutable)
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.kermit)
+            implementation(libs.filekit.dialogs.compose)
         }
         jvmMain.dependencies {
             implementation(libs.jlayer)

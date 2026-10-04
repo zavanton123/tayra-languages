@@ -82,7 +82,7 @@ import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.feature.terms.export.saveTextFile
-import com.tayra.languages.feature.terms.export.saveBinaryFile
+import com.tayra.languages.core.ui.files.saveBinaryFile
 import kotlinx.coroutines.launch
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone

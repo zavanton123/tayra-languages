@@ -44,8 +44,31 @@ class SettingsRepositoryImpl(
         return result
     }
 
+    /**
+     * The settings a backup carries, as stored values. API keys and the Python path stay out:
+     * secrets do not belong in a file, and the path only makes sense on this computer.
+     */
+    fun backupValues(): Map<String, String> {
+        val values = StringMapSettings()
+        write(current, values)
+        values.remove(Keys.ARGOS_PYTHON)
+        return values.values
+    }
+
+    /** Takes the settings in a backup's [values], keeping the API keys and Python path of this device. */
+    suspend fun restoreBackupValues(values: Map<String, String>) {
+        val local = current
+        val restored = read(StringMapSettings(values.toMutableMap()), googleTranslateApiKey = local.googleTranslateApiKey)
+            .copy(argosPython = local.argosPython)
+        update { restored }
+    }
+
     private fun load(): UserSettings {
         forgetRetiredSettings()
+        return read(store, googleTranslateApiKey = loadSecret(Keys.GOOGLE_TRANSLATE_API_KEY))
+    }
+
+    private fun read(store: Settings, googleTranslateApiKey: String): UserSettings {
         val defaults = UserSettings()
         return UserSettings(
             currentLanguageId = store.getLong(Keys.CURRENT_LANGUAGE, defaults.currentLanguageId),
@@ -72,9 +95,9 @@ class SettingsRepositoryImpl(
             ).code,
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
             translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
-            googleTranslateApiKey = loadSecret(Keys.GOOGLE_TRANSLATE_API_KEY),
+            googleTranslateApiKey = googleTranslateApiKey,
             argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
-            hotkeys = loadHotkeys(),
+            hotkeys = loadHotkeys(store),
         )
     }
 
@@ -83,7 +106,7 @@ class SettingsRepositoryImpl(
      * are applied once here: an unassigned page shortcut gets its new key, and a word shortcut still
      * on its old plain arrow, or clashing with another shortcut, moves to its Ctrl arrow.
      */
-    private fun loadHotkeys(): Map<HotkeyAction, Hotkey?> {
+    private fun loadHotkeys(store: Settings): Map<HotkeyAction, Hotkey?> {
         val stored = HotkeyAction.entries.associateWith { store.getStringOrNull(it.settingKey) }
         val saved = stored.mapValues { (action, value) -> if (value == null) action.default else Hotkey.parse(value) }
         val laterDefaults = !store.getBoolean(Keys.LATER_HOTKEY_DEFAULTS, false)
@@ -128,6 +151,11 @@ class SettingsRepositoryImpl(
     }
 
     private fun persist(s: UserSettings) {
+        write(s, store)
+        storeSecret(Keys.GOOGLE_TRANSLATE_API_KEY, s.googleTranslateApiKey)
+    }
+
+    private fun write(s: UserSettings, store: Settings) {
         store.putLong(Keys.CURRENT_LANGUAGE, s.currentLanguageId)
         store.putString(Keys.THEME, s.themeId)
         store.putBoolean(Keys.SHOW_HIGHLIGHTS, s.showHighlights)
@@ -150,7 +178,6 @@ class SettingsRepositoryImpl(
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
-        storeSecret(Keys.GOOGLE_TRANSLATE_API_KEY, s.googleTranslateApiKey)
         store.putString(Keys.ARGOS_PYTHON, s.argosPython)
         for (action in HotkeyAction.entries) {
             store.putString(action.settingKey, s.hotkeys[action]?.serialized ?: "")

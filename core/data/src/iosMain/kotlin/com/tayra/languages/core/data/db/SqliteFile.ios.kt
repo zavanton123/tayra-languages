@@ -1,4 +1,4 @@
-package com.tayra.languages.core.data.export
+package com.tayra.languages.core.data.db
 
 import app.cash.sqldelight.db.AfterVersion
 import app.cash.sqldelight.db.QueryResult
@@ -17,7 +17,9 @@ import platform.Foundation.NSData
 import platform.Foundation.NSFileManager
 import platform.Foundation.NSTemporaryDirectory
 import platform.Foundation.NSUUID
+import platform.Foundation.create
 import platform.Foundation.dataWithContentsOfFile
+import platform.Foundation.writeToFile
 import platform.posix.memcpy
 
 /** The schema of an empty file: the statements build the Anki tables themselves. */
@@ -28,7 +30,7 @@ private object EmptySchema : SqlSchema<QueryResult.Value<Unit>> {
 }
 
 @OptIn(ExperimentalForeignApi::class)
-internal actual suspend fun ankiSqliteBytes(statements: List<String>): ByteArray = withContext(Dispatchers.IO) {
+internal actual suspend fun newSqliteFile(statements: List<String>): ByteArray = withContext(Dispatchers.IO) {
     val directory = NSTemporaryDirectory().trimEnd('/')
     val name = "tayra-anki-${NSUUID().UUIDString}.anki2"
     val path = "$directory/$name"
@@ -49,6 +51,35 @@ internal actual suspend fun ankiSqliteBytes(statements: List<String>): ByteArray
         val data = NSData.dataWithContentsOfFile(path) ?: error("Could not read the Anki collection")
         val size = data.length.toInt()
         ByteArray(size).also { bytes -> if (size > 0) bytes.usePinned { memcpy(it.addressOf(0), data.bytes, data.length) } }
+    } finally {
+        NSFileManager.defaultManager.removeItemAtPath(path, error = null)
+    }
+}
+
+@OptIn(ExperimentalForeignApi::class)
+internal actual suspend fun readSqliteFile(file: ByteArray, queries: List<SqliteQuery>): List<List<List<String?>>> = withContext(Dispatchers.IO) {
+    val directory = NSTemporaryDirectory().trimEnd('/')
+    val name = "tayra-read-${NSUUID().UUIDString}.sqlite"
+    val path = "$directory/$name"
+    try {
+        val data = file.usePinned { NSData.create(bytes = it.addressOf(0), length = file.size.toULong()) }
+        if (!data.writeToFile(path, atomically = true)) error("Could not write $path")
+        val driver = NativeSqliteDriver(
+            schema = EmptySchema,
+            name = name,
+            onConfiguration = { config: DatabaseConfiguration ->
+                config.copy(journalMode = JournalMode.DELETE, extendedConfig = DatabaseConfiguration.Extended(basePath = directory))
+            },
+        )
+        try {
+            queries.map { query ->
+                driver.executeQuery(null, query.sql, { cursor ->
+                    QueryResult.Value(buildList { while (cursor.next().value) add(List(query.columns) { cursor.getString(it) }) })
+                }, 0).value
+            }
+        } finally {
+            driver.close()
+        }
     } finally {
         NSFileManager.defaultManager.removeItemAtPath(path, error = null)
     }

@@ -60,6 +60,7 @@ private val menuGroups = listOf(
             MenuEntry("Dictionaries", Route.OfflineDictionaries),
             MenuEntry("Speech", Route.Speech),
             MenuEntry("Keyboard shortcuts", Route.Shortcuts),
+            MenuEntry("Backups", Route.Backups),
         ),
     ),
     MenuGroup(NavSection.ABOUT, listOf(MenuEntry("Statistics", Route.Stats), MenuEntry("About", Route.About))),

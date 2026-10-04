@@ -1,4 +1,4 @@
-package com.tayra.languages.feature.terms.export
+package com.tayra.languages.core.ui.files
 
 import io.github.vinceglb.filekit.FileKit
 import io.github.vinceglb.filekit.dialogs.openFileSaver

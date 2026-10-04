@@ -1,7 +1,9 @@
 package com.tayra.languages.core.data.di
 
 import com.russhwolf.settings.Settings
+import com.tayra.languages.core.data.backup.BackupRepositoryImpl
 import com.tayra.languages.core.data.db.DatabaseProvider
+import com.tayra.languages.core.domain.backup.BackupRepository
 import com.tayra.languages.core.data.network.MyMemoryTranslationProvider
 import com.tayra.languages.core.domain.service.effectiveEngine
 import com.tayra.languages.core.domain.service.GoogleTranslation
@@ -70,7 +72,9 @@ val dataModule: Module = module {
     includes(platformDataModule)
 
     single { DatabaseProvider(get()) }
-    single<SettingsRepository> { SettingsRepositoryImpl(get<Settings>(), get<SecureStore>()) }
+    single { SettingsRepositoryImpl(get<Settings>(), get<SecureStore>()) }
+    single<SettingsRepository> { get<SettingsRepositoryImpl>() }
+    single<BackupRepository> { BackupRepositoryImpl(get(), get(), get()) }
     single<LanguageRepository> { LanguageRepositoryImpl(get()) }
     single<BookRepository> { BookRepositoryImpl(get()) }
     single<TermRepository> {

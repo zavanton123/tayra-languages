@@ -13,14 +13,17 @@ class DatabaseProvider(private val driverFactory: DatabaseDriverFactory) {
     private val mutex = Mutex()
 
     @Volatile
-    private var database: TayraDatabase? = null
+    private var opened: Pair<SqlDriver, TayraDatabase>? = null
 
-    suspend fun database(): TayraDatabase {
-        database?.let { return it }
+    suspend fun database(): TayraDatabase = open().second
+
+    /** The driver under [database], for statements over whole tables such as backups. */
+    suspend fun driver(): SqlDriver = open().first
+
+    private suspend fun open(): Pair<SqlDriver, TayraDatabase> {
+        opened?.let { return it }
         return mutex.withLock {
-            database ?: createDatabase(driverFactory.createDriver()).also { database = it }
+            opened ?: driverFactory.createDriver().let { it to TayraDatabase(it) }.also { opened = it }
         }
     }
-
-    private fun createDatabase(driver: SqlDriver): TayraDatabase = TayraDatabase(driver)
 }

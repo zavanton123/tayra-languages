@@ -12,6 +12,7 @@ val settingsModule = module {
     viewModel { DictionariesViewModel(get(), get(), get()) }
     viewModel { SpeechViewModel(get(), get(), get()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
+    viewModel { BackupViewModel(get()) }
 }
 
 fun NavGraphBuilder.settingsGraph(navController: NavController) {
@@ -21,5 +22,13 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
     composable<Route.Speech> { SpeechScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.OfflineDictionaries> { DictionariesScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.OfflineTranslation> { OfflineTranslationScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
+    composable<Route.Backups> {
+        BackupScreen(
+            onNavigate = navigate,
+            onBack = { navController.popBackStack() },
+            // Screens opened before the restore show data that is gone, so the app starts over from the books.
+            onRestored = { navController.navigate(Route.Home) { popUpTo<Route.Home> { inclusive = true } } },
+        )
+    }
     composable<Route.About> { AboutScreen(onNavigate = navigate) }
 }
