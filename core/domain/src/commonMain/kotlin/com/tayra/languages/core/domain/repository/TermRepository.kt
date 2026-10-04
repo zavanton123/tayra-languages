@@ -14,6 +14,8 @@ data class TermListFilter(
     val minStatus: TermStatus = TermStatus.UNKNOWN,
     val maxStatus: TermStatus = TermStatus.WELL_KNOWN,
     val includeIgnored: Boolean = false,
+    /** When set, only terms with one of these statuses, in place of the range above. */
+    val statuses: Set<TermStatus>? = null,
     val minAgeDays: Int? = null,
     val maxAgeDays: Int? = null,
     val termIds: List<Long>? = null,

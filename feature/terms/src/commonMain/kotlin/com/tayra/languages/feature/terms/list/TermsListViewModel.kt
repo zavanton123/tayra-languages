@@ -47,13 +47,13 @@ data class TermsListUiState(
     /** Progress of an Anki export under way, e.g. "3 of 12", or null. */
     val exporting: String? = null,
 ) {
-    /** The single status the list is narrowed to, or null when a range is shown. */
-    val statusChoice: TermStatus?
-        get() = when {
-            filter.includeIgnored && filter.minStatus > filter.maxStatus -> TermStatus.IGNORED
-            filter.minStatus == filter.maxStatus -> filter.minStatus
-            else -> null
-        }
+    /** The statuses ticked in the filter panel; none means every learning status and known. */
+    val chosenStatuses: Set<TermStatus> get() = filter.statuses.orEmpty()
+
+    val ageFiltered: Boolean get() = filter.minAgeDays != null || filter.maxAgeDays != null
+
+    /** How many kinds of filter are on, for the badge on the Filters button. */
+    val activeFilterCount: Int get() = listOf(chosenStatuses.isNotEmpty(), ageFiltered).count { it }
 
     val pageCount: Int get() = if (totalCount == 0) 1 else (totalCount + pageSize - 1) / pageSize
     fun languageName(id: Long): String = languages.firstOrNull { it.id == id }?.name ?: ""
@@ -157,15 +157,14 @@ class TermsListViewModel(
 
     fun toggleFilters() { filtersVisible.value = !filtersVisible.value }
 
-    /** Narrows the list to one status, or shows the full learning range for null. */
-    fun setStatusChoice(status: TermStatus?) = updateFilter {
-        when (status) {
-            null -> it.copy(minStatus = TermStatus.NEW_1, maxStatus = TermStatus.WELL_KNOWN, includeIgnored = false)
-            // An empty range plus the ignored flag yields ignored terms only.
-            TermStatus.IGNORED -> it.copy(minStatus = TermStatus.WELL_KNOWN, maxStatus = TermStatus.NEW_1, includeIgnored = true)
-            else -> it.copy(minStatus = status, maxStatus = status, includeIgnored = false)
-        }
+    /** Ticks or unticks a status; with none ticked the list shows every status but ignored. */
+    fun toggleStatus(status: TermStatus) = updateFilter {
+        val chosen = it.statuses.orEmpty().let { set -> if (status in set) set - status else set + status }
+        it.copy(statuses = chosen.ifEmpty { null })
     }
+
+    /** Terms added between [fromDays] and [toDays] days ago; null leaves that end open. */
+    fun setAddedRange(fromDays: Int?, toDays: Int?) = updateFilter { it.copy(minAgeDays = fromDays, maxAgeDays = toDays) }
 
     fun setSort(value: TermListSort) {
         sort.value = value

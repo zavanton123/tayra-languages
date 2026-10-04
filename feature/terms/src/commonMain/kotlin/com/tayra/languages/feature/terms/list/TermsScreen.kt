@@ -45,7 +45,6 @@ import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Text
@@ -65,6 +64,13 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.clearAndSetSemantics
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.material.icons.filled.KeyboardArrowUp
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.foundation.shape.CircleShape
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Term
@@ -154,6 +160,7 @@ fun TermsScreen(
             item { StatCards(state, compact) }
             item { Toolbar(state, viewModel, compact) }
             if (state.filtersVisible) item { FilterPanel(state, viewModel) }
+            if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel) }
             if (state.loading) {
                 item { Text("Loading...", Modifier.padding(16.dp), color = MaterialTheme.colorScheme.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
@@ -260,8 +267,8 @@ private fun StatCards(state: TermsListUiState, compact: Boolean) {
     ) {
         cards.forEach { card ->
             Row(
-                Modifier.weight(1f).clip(RoundedCornerShape(14.dp)).background(card.tint.copy(alpha = 0.06f))
-                    .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+                Modifier.weight(1f).clip(RoundedCornerShape(14.dp)).background(card.tint.copy(alpha = 0.05f))
+                    .border(1.dp, card.tint.copy(alpha = 0.16f), RoundedCornerShape(14.dp))
                     .padding(horizontal = 16.dp, vertical = 18.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
@@ -283,32 +290,16 @@ private fun StatCards(state: TermsListUiState, compact: Boolean) {
 private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
-    val statusOptions = listOf<TermStatus?>(null) + TermStatus.selectable
-    val statusLabel = state.statusChoice?.label ?: "All statuses"
     val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: "Custom order"
     FlowRow(
-        Modifier.fillMaxWidth().padding(bottom = 16.dp),
-        horizontalArrangement = Arrangement.spacedBy(10.dp),
+        Modifier.fillMaxWidth().padding(bottom = 14.dp),
+        horizontalArrangement = Arrangement.spacedBy(12.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp),
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
-        SearchBox(filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, if (compact) Modifier.fillMaxWidth() else Modifier.width(300.dp))
-        FilterMenu(AppIcons.BarChart, statusLabel, statusOptions, { it?.label ?: "All statuses" }, viewModel::setStatusChoice)
-        FilterMenu(AppIcons.SwapVert, sortLabel, TermSortOption.entries, { it.label }) { viewModel.setSort(it.sort) }
-        val active = state.filtersVisible
-        OutlinedButton(
-            onClick = viewModel::toggleFilters,
-            shape = RoundedCornerShape(10.dp),
-            contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
-            colors = ButtonDefaults.outlinedButtonColors(
-                containerColor = if (active) colors.primary.copy(alpha = 0.1f) else Color.Transparent,
-                contentColor = if (active) colors.primary else colors.onSurface,
-            ),
-        ) {
-            Icon(AppIcons.Tune, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(8.dp))
-            Text("Filters", style = MaterialTheme.typography.bodyMedium)
-        }
+        SearchBox(filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, if (compact) Modifier.fillMaxWidth() else Modifier.width(560.dp))
+        FilterMenu(AppIcons.SwapVert, "Sort: $sortLabel", TermSortOption.entries, { it.label }) { viewModel.setSort(it.sort) }
+        FiltersButton(open = state.filtersVisible, count = state.activeFilterCount, onClick = viewModel::toggleFilters)
         if (!compact) {
             Spacer(Modifier.weight(1f))
             Text(
@@ -316,6 +307,33 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
+        }
+    }
+}
+
+/** Opens and closes the filter panel; the badge counts the kinds of filter that are on. */
+@Composable
+private fun FiltersButton(open: Boolean, count: Int, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val highlighted = open || count > 0
+    Row(
+        Modifier.height(44.dp).clip(RoundedCornerShape(10.dp))
+            .background(if (highlighted) colors.primary.copy(alpha = 0.08f) else Color.Transparent)
+            .border(1.dp, if (highlighted) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant, RoundedCornerShape(10.dp))
+            .clickable(onClick = onClick).padding(horizontal = 14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        val tint = if (highlighted) colors.primary else colors.onSurface
+        Icon(AppIcons.Tune, contentDescription = null, tint = tint, modifier = Modifier.size(18.dp))
+        Text("Filters", style = MaterialTheme.typography.bodyMedium, color = tint, fontWeight = FontWeight.Medium)
+        if (count > 0) {
+            Box(
+                Modifier.size(22.dp).clip(CircleShape).background(colors.primary).clearAndSetSemantics { contentDescription = "$count filter${if (count == 1) "" else "s"} on" },
+                contentAlignment = Alignment.Center,
+            ) {
+                Text("$count", style = MaterialTheme.typography.labelMedium, color = colors.onPrimary, fontWeight = FontWeight.SemiBold)
+            }
         }
     }
 }
@@ -370,38 +388,182 @@ private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, o
     }
 }
 
-/** Less common filters, shown on demand. */
+/** "New", "Learning", "Known" or "Ignored": the status's name without its number, which the badge shows. */
+private val TermStatus.chipName: String get() = label.substringBefore(" (")
+
+/** The status's highlight colour, or a neutral one where the theme has none. */
+@Composable
+private fun statusTint(status: TermStatus): Color =
+    TayraTheme.current.statusColors.background(status).takeIf { it != Color.Transparent } ?: MaterialTheme.colorScheme.surfaceVariant
+
+/** The filters, applied as soon as they change: the statuses to show and how long ago terms were added. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) {
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
     Column(
-        Modifier.fillMaxWidth().padding(bottom = 16.dp).clip(RoundedCornerShape(12.dp)).background(colors.surfaceVariant.copy(alpha = 0.4f)).padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(10.dp),
+        Modifier.fillMaxWidth().padding(bottom = 14.dp).clip(RoundedCornerShape(14.dp)).background(colors.surface)
+            .border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(horizontal = 20.dp, vertical = 16.dp),
     ) {
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp), itemVerticalAlignment = Alignment.CenterVertically) {
-            OutlinedTextField(
-                value = filter.minAgeDays?.toString().orEmpty(),
-                onValueChange = { v -> viewModel.updateFilter { it.copy(minAgeDays = v.toIntOrNull()) } },
-                label = { Text("Age min (days)") },
-                singleLine = true,
-                shape = RoundedCornerShape(10.dp),
-                modifier = Modifier.width(150.dp),
-            )
-            OutlinedTextField(
-                value = filter.maxAgeDays?.toString().orEmpty(),
-                onValueChange = { v -> viewModel.updateFilter { it.copy(maxAgeDays = v.toIntOrNull()) } },
-                label = { Text("Age max (days)") },
-                singleLine = true,
-                shape = RoundedCornerShape(10.dp),
-                modifier = Modifier.width(150.dp),
-            )
-            TextButton(onClick = viewModel::clearFilters) { Text("Clear all") }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text("Filter vocabulary", Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            TextButton(onClick = viewModel::clearFilters) { Text("Reset all") }
+        }
+        Text("Learning status", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp, bottom = 10.dp))
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            TermStatus.selectable.forEach { status ->
+                StatusFilterChip(status, selected = status in state.chosenStatuses) { viewModel.toggleStatus(status) }
+            }
+        }
+        HorizontalDivider(Modifier.padding(vertical = 16.dp), color = colors.outlineVariant)
+        Text("Added", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(bottom = 10.dp))
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
+            Text("From", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            DaysField(filter.minAgeDays, "Added from, days ago") { viewModel.setAddedRange(it, filter.maxAgeDays) }
+            Text("To", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            DaysField(filter.maxAgeDays, "Added to, days ago") { viewModel.setAddedRange(filter.minAgeDays, it) }
+            Text("days ago", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         if (filter.termIds != null) {
-            Text("Showing ${filter.termIds!!.size} terms from the current page.", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Text(
+                "Showing ${filter.termIds!!.size} terms from the current page.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = colors.onSurfaceVariant,
+                modifier = Modifier.padding(top = 12.dp),
+            )
         }
+    }
+}
+
+/** A status to tick: its colour, a mark when ticked, its name and its badge. */
+@Composable
+private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () -> Unit) {
+    val tint = statusTint(status)
+    val strong = tint.darken(0.7f)
+    Row(
+        Modifier.testTag("status-filter-${status.abbreviation}").height(44.dp).clip(RoundedCornerShape(10.dp))
+            .background(tint.copy(alpha = if (selected) 0.45f else 0.2f))
+            .border(if (selected) 1.5.dp else 1.dp, if (selected) strong else tint, RoundedCornerShape(10.dp))
+            .clickable(onClickLabel = if (selected) "Stop showing ${status.label}" else "Show ${status.label}", onClick = onClick)
+            .padding(horizontal = 14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        if (selected) {
+            Box(Modifier.size(20.dp).clip(CircleShape).background(strong), contentAlignment = Alignment.Center) {
+                Icon(Icons.Default.Check, contentDescription = null, tint = Color.White, modifier = Modifier.size(14.dp))
+            }
+        } else {
+            Box(Modifier.size(20.dp).clip(CircleShape).border(1.5.dp, strong, CircleShape))
+        }
+        Text(status.chipName, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Medium, color = MaterialTheme.colorScheme.onSurface)
+        StatusBadge(status)
+    }
+}
+
+/** The status's number or letter on its colour. */
+@Composable
+private fun StatusBadge(status: TermStatus) {
+    Text(
+        status.abbreviation,
+        Modifier.clip(RoundedCornerShape(6.dp)).background(statusTint(status).copy(alpha = 0.85f)).padding(horizontal = 8.dp, vertical = 2.dp),
+        style = MaterialTheme.typography.labelMedium,
+        fontWeight = FontWeight.SemiBold,
+        color = Color(0xFF1B1F24),
+    )
+}
+
+/** A number of days, typed or stepped with the arrows; empty leaves that end of the range open. */
+@Composable
+private fun DaysField(value: Int?, description: String, onChange: (Int?) -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.width(140.dp).height(44.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+            .padding(start = 14.dp, end = 4.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        BasicTextField(
+            value = value?.toString().orEmpty(),
+            onValueChange = { text -> onChange(text.filter { it.isDigit() }.take(5).toIntOrNull()) },
+            singleLine = true,
+            textStyle = MaterialTheme.typography.bodyMedium.copy(color = colors.onSurface),
+            cursorBrush = SolidColor(colors.primary),
+            modifier = Modifier.weight(1f).semantics { contentDescription = description },
+            decorationBox = { inner ->
+                Box(contentAlignment = Alignment.CenterStart) {
+                    if (value == null) Text("Any", color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
+                    inner()
+                }
+            },
+        )
+        Column {
+            Icon(
+                Icons.Default.KeyboardArrowUp,
+                contentDescription = "More days",
+                tint = colors.onSurfaceVariant,
+                modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(RoundedCornerShape(4.dp)).clickable { onChange((value ?: -1) + 1) },
+            )
+            Icon(
+                Icons.Default.KeyboardArrowDown,
+                contentDescription = "Fewer days",
+                tint = colors.onSurfaceVariant,
+                modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(RoundedCornerShape(4.dp))
+                    .clickable(enabled = value != null) { onChange(value?.let { if (it > 0) it - 1 else null }) },
+            )
+        }
+    }
+}
+
+/** The filters that are on, each removable on its own, under the toolbar. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewModel) {
+    val filter = state.filter
+    FlowRow(
+        Modifier.fillMaxWidth().padding(bottom = 14.dp),
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+        itemVerticalAlignment = Alignment.CenterVertically,
+    ) {
+        TermStatus.selectable.filter { it in state.chosenStatuses }.forEach { status ->
+            val tint = statusTint(status)
+            RemovableChip(background = tint.copy(alpha = 0.3f), border = tint, removeLabel = "Remove ${status.label}", onRemove = { viewModel.toggleStatus(status) }) {
+                Text(status.chipName, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
+                StatusBadge(status)
+            }
+        }
+        if (state.ageFiltered) {
+            val from = filter.minAgeDays
+            val to = filter.maxAgeDays
+            val label = when {
+                from != null && to != null -> "Added: $from–$to days"
+                to != null -> "Added: up to $to days ago"
+                else -> "Added: $from+ days ago"
+            }
+            val neutral = MaterialTheme.colorScheme.surfaceVariant
+            RemovableChip(background = neutral.copy(alpha = 0.6f), border = neutral, removeLabel = "Remove the added filter", onRemove = { viewModel.setAddedRange(null, null) }) {
+                Text(label, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
+            }
+        }
+        TextButton(onClick = viewModel::clearFilters) { Text("Clear all") }
+    }
+}
+
+@Composable
+private fun RemovableChip(background: Color, border: Color, removeLabel: String, onRemove: () -> Unit, content: @Composable RowScope.() -> Unit) {
+    Row(
+        Modifier.height(34.dp).clip(RoundedCornerShape(8.dp)).background(background).border(1.dp, border, RoundedCornerShape(8.dp)).padding(start = 12.dp, end = 4.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        content()
+        Icon(
+            Icons.Default.Close,
+            contentDescription = removeLabel,
+            tint = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.size(24.dp).clip(CircleShape).clickable(onClick = onRemove).padding(4.dp),
+        )
     }
 }
 
@@ -529,7 +691,7 @@ private fun StatusChip(status: TermStatus, onSelect: (TermStatus) -> Unit) {
     }
 }
 
-private fun Color.darken(): Color = Color(red * 0.85f, green * 0.85f, blue * 0.85f, alpha)
+private fun Color.darken(factor: Float = 0.85f): Color = Color(red * factor, green * factor, blue * factor, alpha)
 
 @Composable
 private fun RowMenu(term: Term, actions: RowActions) {

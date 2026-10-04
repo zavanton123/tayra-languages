@@ -269,9 +269,11 @@ class TermRepositoryImpl(
         database.termsQueries.listTerms(
             languageId = filter.languageId?.takeIf { it != 0L },
             search = searchPattern(filter),
-            minStatus = filter.minStatus.value.toLong(),
-            maxStatus = filter.maxStatus.value.toLong(),
-            includeIgnored = if (filter.includeIgnored) 1L else 0L,
+            minStatus = filter.statusRange.first,
+            maxStatus = filter.statusRange.last,
+            includeIgnored = if (filter.includeIgnored || filter.statuses != null) 1L else 0L,
+            anyStatus = if (filter.statuses == null) 1L else 0L,
+            statuses = filter.statuses?.map { it.value.toLong() }?.ifEmpty { null } ?: listOf(-1L),
             minCreated = filter.minAgeDays?.let { ageThreshold(it) },
             maxCreated = filter.maxAgeDays?.let { ageThreshold(it) },
             filterIds = if (filter.termIds != null) 1L else 0L,
@@ -285,14 +287,20 @@ class TermRepositoryImpl(
         database.termsQueries.countTerms(
             languageId = filter.languageId?.takeIf { it != 0L },
             search = searchPattern(filter),
-            minStatus = filter.minStatus.value.toLong(),
-            maxStatus = filter.maxStatus.value.toLong(),
-            includeIgnored = if (filter.includeIgnored) 1L else 0L,
+            minStatus = filter.statusRange.first,
+            maxStatus = filter.statusRange.last,
+            includeIgnored = if (filter.includeIgnored || filter.statuses != null) 1L else 0L,
+            anyStatus = if (filter.statuses == null) 1L else 0L,
+            statuses = filter.statuses?.map { it.value.toLong() }?.ifEmpty { null } ?: listOf(-1L),
             minCreated = filter.minAgeDays?.let { ageThreshold(it) },
             maxCreated = filter.maxAgeDays?.let { ageThreshold(it) },
             filterIds = if (filter.termIds != null) 1L else 0L,
             ids = filter.termIds ?: listOf(-1L),
         ).awaitAsOne().toInt()
+
+    /** The status range to query: every status when a set of statuses narrows the list instead. */
+    private val TermListFilter.statusRange: LongRange
+        get() = if (statuses != null) TermStatus.UNKNOWN.value.toLong()..TermStatus.WELL_KNOWN.value.toLong() else minStatus.value.toLong()..maxStatus.value.toLong()
 
     private fun searchPattern(filter: TermListFilter): String =
         filter.search.trim().lowercase().let { if (it.isEmpty()) "" else "%${likeEscape(it)}%" }
