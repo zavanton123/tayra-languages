@@ -131,16 +131,6 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
         db().booksQueries.countPages(bookId).awaitAsOne().toInt()
     }
 
-    override suspend fun insertPage(bookId: Long, order: Int, page: NewPage): Long = withContext(databaseDispatcher) {
-        val database = db()
-        val q = database.booksQueries
-        database.transactionWithResult {
-            q.shiftPagesFrom(bookId = bookId, fromOrder = order.toLong())
-            q.insertPage(bookId = bookId, pageOrder = order.toLong(), text = page.text, wordCount = page.wordCount.toLong())
-            q.lastInsertId().awaitAsOne()
-        }
-    }
-
     override suspend fun updatePageText(pageId: Long, text: String, wordCount: Int) {
         withContext(databaseDispatcher) {
             db().booksQueries.updatePageText(text = text, wordCount = wordCount.toLong(), id = pageId)
@@ -171,22 +161,6 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
                 ids.getOrNull(bookmark.pageIndex)?.let { q.insertBookmark(it, bookmark.title) }
             }
             q.deleteStats(bookId)
-        }
-    }
-
-    override suspend fun deletePage(pageId: Long) = withContext(databaseDispatcher) {
-        val database = db()
-        val q = database.booksQueries
-        database.transaction {
-            val page = q.selectPageById(pageId).awaitAsOneOrNull() ?: return@transaction
-            q.deletePage(pageId)
-            q.shiftPagesDownAfter(bookId = page.book_id, afterOrder = page.page_order)
-            val book = q.selectById(page.book_id).awaitAsOneOrNull()
-            if (book?.current_page_id == pageId) {
-                val replacement = q.selectPage(page.book_id, maxOf(1L, page.page_order - 1)).awaitAsOneOrNull()
-                    ?: q.selectPage(page.book_id, page.page_order).awaitAsOneOrNull()
-                q.setCurrentPage(pageId = replacement?.id, id = page.book_id)
-            }
         }
     }
 

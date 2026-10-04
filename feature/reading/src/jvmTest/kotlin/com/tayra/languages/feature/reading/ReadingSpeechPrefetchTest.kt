@@ -94,7 +94,7 @@ class ReadingSpeechPrefetchTest {
             override suspend fun lookup(dictionary: DictionaryId, text: String) = error("not installed")
         }
         val vm = ReadingViewModel(
-            bookId, 1, readingService, bookService, books, termService,
+            bookId, 1, readingService, books, termService,
             TermPopupBuilder(terms, languages, readingService), BookStatsService(books, languages, settings, readingService), settings,
             object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null },
             LocalTranslation(null), speech, WordTranslationService(terms, offline, engine, settings),

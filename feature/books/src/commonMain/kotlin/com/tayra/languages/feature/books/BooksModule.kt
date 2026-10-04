@@ -4,7 +4,6 @@ import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
-import com.tayra.languages.core.domain.service.PagePosition
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
@@ -13,7 +12,7 @@ val booksModule = module {
     viewModel { (archived: Boolean) -> BooksViewModel(archived, get(), get(), get(), get(), get(), get(), get(), get()) }
     viewModel { (bookId: Long?) -> BookFormViewModel(bookId, get(), get(), get(), get()) }
     viewModel { (bookId: Long) -> BookmarksViewModel(bookId, get()) }
-    viewModel { (mode: PageEditMode) -> PageEditViewModel(mode, get(), get(), get()) }
+    viewModel { (bookId: Long, page: Int) -> PageEditViewModel(bookId, page, get(), get(), get()) }
 }
 
 fun NavGraphBuilder.booksGraph(navController: NavController) {
@@ -48,16 +47,8 @@ fun NavGraphBuilder.booksGraph(navController: NavController) {
     composable<Route.EditPage> { entry ->
         val route = entry.toRoute<Route.EditPage>()
         PageEditScreen(
-            mode = PageEditMode.Edit(route.bookId, route.page),
-            onNavigate = navigate,
-            onBack = { navController.popBackStack() },
-            onSaved = { page -> navController.navigate(Route.Read(route.bookId, page)) { popUpTo<Route.Home>() } },
-        )
-    }
-    composable<Route.NewPage> { entry ->
-        val route = entry.toRoute<Route.NewPage>()
-        PageEditScreen(
-            mode = PageEditMode.New(route.bookId, route.page, if (route.after) PagePosition.AFTER else PagePosition.BEFORE),
+            bookId = route.bookId,
+            page = route.page,
             onNavigate = navigate,
             onBack = { navController.popBackStack() },
             onSaved = { page -> navController.navigate(Route.Read(route.bookId, page)) { popUpTo<Route.Home>() } },

@@ -23,9 +23,6 @@ sealed interface Route {
     data class EditPage(val bookId: Long, val page: Int) : Route
 
     @Serializable
-    data class NewPage(val bookId: Long, val page: Int, val after: Boolean) : Route
-
-    @Serializable
     data class Bookmarks(val bookId: Long) : Route
 
     @Serializable

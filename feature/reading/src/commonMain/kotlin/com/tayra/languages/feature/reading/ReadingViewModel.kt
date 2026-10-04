@@ -14,7 +14,6 @@ import com.tayra.languages.core.domain.model.ZWS_STRING
 import com.tayra.languages.core.domain.render.RenderedPage
 import com.tayra.languages.core.domain.render.TextItem
 import com.tayra.languages.core.domain.repository.BookRepository
-import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookStatsService
 import com.tayra.languages.core.domain.service.BulkTermUpdate
 import com.tayra.languages.core.domain.service.LocalTranslationProblem
@@ -122,7 +121,6 @@ class ReadingViewModel(
     private val bookId: Long,
     initialPage: Int?,
     private val readingService: ReadingService,
-    private val bookService: BookService,
     private val books: BookRepository,
     private val termService: TermService,
     private val popupBuilder: TermPopupBuilder,
@@ -767,17 +765,6 @@ class ReadingViewModel(
             _state.update { it.copy(flash = "Bookmark \"$title\" added") }
             delay(1500)
             _state.update { it.copy(flash = null) }
-        }
-    }
-
-    fun deleteCurrentPage() {
-        viewModelScope.launch {
-            val s = _state.value
-            if (!bookService.deletePage(bookId, s.pageNumber)) {
-                _state.update { it.copy(flash = "Cannot delete the only page in the book") }
-                return@launch
-            }
-            load(s.pageNumber, trackOpen = true)
         }
     }
 

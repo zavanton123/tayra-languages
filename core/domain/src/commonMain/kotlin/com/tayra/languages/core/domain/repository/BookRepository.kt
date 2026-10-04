@@ -33,8 +33,6 @@ interface BookRepository {
     suspend fun getPage(bookId: Long, order: Int): Page?
     suspend fun getPageById(pageId: Long): Page?
     suspend fun pageCount(bookId: Long): Int
-    /** Inserts a page at [order], shifting later pages. Returns the new page id. */
-    suspend fun insertPage(bookId: Long, order: Int, page: NewPage): Long
     suspend fun updatePageText(pageId: Long, text: String, wordCount: Int)
     /**
      * Replaces all of the book's pages in one transaction: the old pages go with their sentences
@@ -42,8 +40,6 @@ interface BookRepository {
      * book opens at the page at [currentIndex].
      */
     suspend fun replacePages(bookId: Long, pages: List<RebuiltPage>, currentIndex: Int, bookmarks: List<RebuiltBookmark>)
-    /** Deletes the page and renumbers the following pages. */
-    suspend fun deletePage(pageId: Long)
     suspend fun setCurrentPage(bookId: Long, pageId: Long)
     suspend fun setPageStartDate(pageId: Long, date: Instant)
     suspend fun setPageReadDate(pageId: Long, date: Instant)

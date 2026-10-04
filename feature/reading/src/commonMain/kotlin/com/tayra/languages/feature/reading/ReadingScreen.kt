@@ -31,7 +31,6 @@ import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Refresh
@@ -124,7 +123,6 @@ import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.StatusDistributionBar
 import com.tayra.languages.core.ui.components.ToastHost
@@ -166,7 +164,6 @@ fun ReadingScreen(
     val scope = rememberCoroutineScope()
     val drawerState = rememberDrawerState(DrawerValue.Closed)
     var bookmarkDialog by remember { mutableStateOf(false) }
-    var confirmDeletePage by remember { mutableStateOf(false) }
     var panelFocused by remember { mutableStateOf(false) }
     val focusRequester = remember { FocusRequester() }
     val shift = remember { ShiftTracker() }
@@ -250,10 +247,8 @@ fun ReadingScreen(
     }
 
     val menu = ReadingMenuActions(
+        onEditBook = { onNavigate(Route.EditBook(bookId)) },
         onEditPage = { onNavigate(Route.EditPage(bookId, state.pageNumber)) },
-        onAddPageAfter = { onNavigate(Route.NewPage(bookId, state.pageNumber, after = true)) },
-        onAddPageBefore = { onNavigate(Route.NewPage(bookId, state.pageNumber, after = false)) },
-        onDeletePage = { confirmDeletePage = true },
         onBookmarks = { onNavigate(Route.Bookmarks(bookId)) },
         onAddBookmark = { bookmarkDialog = true },
         onTermList = { onNavigate(Route.Terms(viewModel.pageTermIds(), bookId, state.pageNumber)) },
@@ -340,24 +335,12 @@ fun ReadingScreen(
             onDismiss = { bookmarkDialog = false },
         )
     }
-    if (confirmDeletePage) {
-        ConfirmDialog(
-            title = "Delete current page?",
-            text = "Page ${state.pageNumber} will be removed.",
-            confirmLabel = "Delete",
-            destructive = true,
-            onConfirm = { viewModel.deleteCurrentPage(); confirmDeletePage = false },
-            onDismiss = { confirmDeletePage = false },
-        )
-    }
     ToastHost(toast)
 }
 
 private class ReadingMenuActions(
+    val onEditBook: () -> Unit,
     val onEditPage: () -> Unit,
-    val onAddPageAfter: () -> Unit,
-    val onAddPageBefore: () -> Unit,
-    val onDeletePage: () -> Unit,
     val onBookmarks: () -> Unit,
     val onAddBookmark: () -> Unit,
     val onTermList: () -> Unit,
@@ -412,11 +395,9 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         AdjustRow(AppIcons.LineSpacing, "Line height", "${(prefs.readingLineHeight * 10).toInt() / 10f}", onLess = { viewModel.adjustLineHeight(-0.1f) }, onMore = { viewModel.adjustLineHeight(0.1f) })
         AdjustRow(AppIcons.OpenInFull, "Text width", "${prefs.readingColumnWidth}", onLess = { viewModel.adjustColumnWidth(-80) }, onMore = { viewModel.adjustColumnWidth(80) })
 
-        MenuSection("Page")
+        MenuSection("Edit")
+        MenuRow(AppIcons.MenuBook, "Edit book") { onClose(); actions.onEditBook() }
         MenuRow(AppIcons.Page, "Edit current page") { onClose(); actions.onEditPage() }
-        MenuRow(AppIcons.PageAdd, "Add page after") { onClose(); actions.onAddPageAfter() }
-        MenuRow(AppIcons.PageAdd, "Add page before") { onClose(); actions.onAddPageBefore() }
-        MenuRow(Icons.Default.Delete, "Delete current page", destructive = true) { onClose(); actions.onDeletePage() }
 
         MenuSection("Bookmarks")
         MenuRow(AppIcons.Bookmark, "List bookmarks") { onClose(); actions.onBookmarks() }

@@ -24,7 +24,6 @@ import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.BookService
-import com.tayra.languages.core.domain.service.PagePosition
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ErrorMessage
@@ -40,14 +39,6 @@ import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
-/** Editing an existing page, or adding a new page before/after the given one. */
-sealed interface PageEditMode {
-    val bookId: Long
-
-    data class Edit(override val bookId: Long, val page: Int) : PageEditMode
-    data class New(override val bookId: Long, val page: Int, val position: PagePosition) : PageEditMode
-}
-
 data class PageEditUiState(
     val loading: Boolean = true,
     val text: String = "",
@@ -56,8 +47,10 @@ data class PageEditUiState(
     val saving: Boolean = false,
 )
 
+/** Edits the text of page [page] of the book. */
 class PageEditViewModel(
-    private val mode: PageEditMode,
+    private val bookId: Long,
+    private val page: Int,
     private val books: BookRepository,
     private val languages: LanguageRepository,
     private val bookService: BookService,
@@ -70,9 +63,9 @@ class PageEditViewModel(
 
     init {
         viewModelScope.launch {
-            val book = books.getBook(mode.bookId)
+            val book = books.getBook(bookId)
             val rtl = book?.let { languages.getById(it.languageId)?.rightToLeft } ?: false
-            val text = (mode as? PageEditMode.Edit)?.let { books.getPage(it.bookId, it.page)?.text }.orEmpty()
+            val text = books.getPage(bookId, page)?.text.orEmpty()
             _state.update { it.copy(loading = false, text = text, rtl = rtl) }
         }
     }
@@ -88,13 +81,7 @@ class PageEditViewModel(
         _state.update { it.copy(saving = true) }
         viewModelScope.launch {
             try {
-                val page = when (mode) {
-                    is PageEditMode.Edit -> {
-                        bookService.updatePageText(mode.bookId, mode.page, text)
-                        mode.page
-                    }
-                    is PageEditMode.New -> bookService.addPage(mode.bookId, mode.position, mode.page, text)
-                }
+                bookService.updatePageText(bookId, page, text)
                 events.send(page)
             } catch (e: Exception) {
                 _state.update { it.copy(saving = false, error = e.message ?: "Could not save page") }
@@ -105,18 +92,16 @@ class PageEditViewModel(
 
 @Composable
 fun PageEditScreen(
-    mode: PageEditMode,
+    bookId: Long,
+    page: Int,
     onNavigate: (Route) -> Unit,
     onBack: () -> Unit,
     onSaved: (page: Int) -> Unit,
-    viewModel: PageEditViewModel = koinViewModel(key = "page-edit-$mode") { parametersOf(mode) },
+    viewModel: PageEditViewModel = koinViewModel(key = "page-edit-$bookId-$page") { parametersOf(bookId, page) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     CollectEvents(viewModel.events) { onSaved(it) }
-    val title = when (mode) {
-        is PageEditMode.Edit -> "Edit page ${mode.page}"
-        is PageEditMode.New -> "New page"
-    }
+    val title = "Edit page $page"
     Scaffold(topBar = { AppTopBar(title = title, onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack, showMenu = false) }) { padding ->
         if (state.loading) {
             LoadingIndicator(Modifier.padding(padding))

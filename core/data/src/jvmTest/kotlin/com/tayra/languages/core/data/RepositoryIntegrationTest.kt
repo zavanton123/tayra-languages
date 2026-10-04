@@ -188,11 +188,9 @@ class RepositoryIntegrationTest {
         val langId = env.english()
         val bookId = env.bookService.create(BookDraft(languageId = langId, title = "Pages", text = "one.\n---\ntwo.\n---\nthree."))
         assertEquals(3, env.books.pageCount(bookId))
-        env.bookService.addPage(bookId, com.tayra.languages.core.domain.service.PagePosition.AFTER, 1, "inserted.")
-        assertEquals(listOf("one.", "inserted.", "two.", "three."), env.books.getPages(bookId).map { it.text })
-        assertTrue(env.bookService.deletePage(bookId, 3))
-        assertEquals(listOf(1, 2, 3), env.books.getPages(bookId).map { it.order })
-        assertEquals(listOf("one.", "inserted.", "three."), env.books.getPages(bookId).map { it.text })
+        env.bookService.updatePageText(bookId, 2, "two changed.")
+        assertEquals(listOf("one.", "two changed.", "three."), env.books.getPages(bookId).map { it.text })
+        assertEquals(2, env.books.getPage(bookId, 2)!!.wordCount)
     }
 
     @Test

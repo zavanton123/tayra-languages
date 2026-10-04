@@ -14,8 +14,6 @@ import kotlinx.coroutines.flow.first
 
 class BookValidationException(message: String) : Exception(message)
 
-enum class PagePosition { BEFORE, AFTER }
-
 class BookService(
     private val books: BookRepository,
     private val languages: LanguageRepository,
@@ -132,28 +130,6 @@ class BookService(
         books.updatePageText(page.id, text, SentenceBuilder.wordCount(text, language))
         books.replaceSentences(page.id, SentenceBuilder.build(text, language))
         books.clearStats(bookId)
-    }
-
-    /** Adds a page next to [pageNumber]; returns the new page's number. */
-    suspend fun addPage(bookId: Long, position: PagePosition, pageNumber: Int, text: String): Int {
-        val book = books.getBook(bookId) ?: throw NoSuchElementException("No book $bookId")
-        val language = language(book.languageId)
-        val count = books.pageCount(bookId)
-        val anchor = pageNumber.coerceIn(1, maxOf(count, 1))
-        val order = if (position == PagePosition.BEFORE) anchor else anchor + 1
-        val pageId = books.insertPage(bookId, order, NewPage(text, SentenceBuilder.wordCount(text, language)))
-        books.setCurrentPage(bookId, pageId)
-        books.clearStats(bookId)
-        return order
-    }
-
-    /** Deletes the page unless it is the only one. Returns false if nothing was deleted. */
-    suspend fun deletePage(bookId: Long, pageNumber: Int): Boolean {
-        if (books.pageCount(bookId) <= 1) return false
-        val page = books.getPage(bookId, pageNumber) ?: return false
-        books.deletePage(page.id)
-        books.clearStats(bookId)
-        return true
     }
 
     private suspend fun language(languageId: Long): Language =

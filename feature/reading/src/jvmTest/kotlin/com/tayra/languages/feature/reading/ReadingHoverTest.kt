@@ -157,7 +157,7 @@ class ReadingHoverTest {
         }
         sentenceAudio = SentenceAudio(speech, settings, MemorySpeechAudioCache())
         val vm = ReadingViewModel(
-            bookId, null, readingService, bookService, books, termService,
+            bookId, null, readingService, books, termService,
             TermPopupBuilder(terms, languages, readingService), BookStatsService(books, languages, settings, readingService), settings,
             object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null },
             LocalTranslation(null), speech, words, sentenceAudio,
@@ -243,6 +243,26 @@ class ReadingHoverTest {
         }
         rule.onNodeWithContentDescription("Previous page").performClick()
         rule.waitUntil(5_000) { vm.state.value.pageNumber == 1 }
+    }
+
+    /** The menu's Edit section opens the whole book or the current page for editing, and adds or deletes no pages. */
+    @Test
+    fun theMenuEditsTheBookOrThePage() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Menu").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Edit book").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("EDIT", ignoreCase = true).assertExists()
+        rule.onNodeWithText("Edit current page").assertExists()
+        for (gone in listOf("Add page after", "Add page before", "Delete current page")) {
+            assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is no longer offered")
+        }
+        rule.onNodeWithText("Edit book").performScrollTo().performClick()
+        rule.waitUntil(5_000) { visited.isNotEmpty() }
+        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.EditBook(1)), visited)
     }
 
     /** Hovering the page's vocabulary bar explains it; ignored words count as known. */
