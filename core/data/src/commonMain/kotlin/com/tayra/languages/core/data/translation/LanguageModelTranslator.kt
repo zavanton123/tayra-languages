@@ -70,8 +70,8 @@ abstract class LanguageModelTranslator(private val settings: SettingsRepository)
 
     override suspend fun status(): String = try {
         val models = downloadedModels().map { nameFor(it) }.sorted()
-        if (models.isEmpty()) "$displayName is ready but has no downloaded language models yet."
-        else "$displayName with ${models.size} downloaded language model${if (models.size == 1) "" else "s"}: ${models.joinToString(", ")}"
+        if (models.isEmpty()) "$displayName · no language models yet"
+        else "$displayName · ${models.size} language model${if (models.size == 1) "" else "s"}"
     } catch (e: Exception) {
         "$displayName is not available: ${e.message}"
     }

@@ -174,10 +174,9 @@ class ArgosSentenceTranslator(
         val reply = request(STATUS_TIMEOUT_MS, "cmd" to "status")
         val pairs = reply["pairs"]?.jsonArray?.map { it.jsonPrimitive.content } ?: emptyList()
         val version = reply["version"]?.jsonPrimitive?.content ?: "?"
-        val python = reply["python"]?.jsonPrimitive?.content?.let { " on Python $it" }.orEmpty()
-        val executable = reply["executable"]?.jsonPrimitive?.content?.let { " ($it)" }.orEmpty()
-        if (pairs.isEmpty()) "Argos Translate $version$python$executable is installed but has no language packages yet."
-        else "Argos Translate $version$python$executable with ${pairs.size} language pair${if (pairs.size == 1) "" else "s"}: ${pairs.joinToString(", ")}"
+        val python = reply["python"]?.jsonPrimitive?.content?.let { " · Python $it" }.orEmpty()
+        val count = if (pairs.isEmpty()) "no language packages yet" else "${pairs.size} language pair${if (pairs.size == 1) "" else "s"}"
+        "Argos Translate $version$python · $count"
     } catch (e: Exception) {
         "Argos Translate is not available: ${e.message}"
     }
