@@ -19,5 +19,3 @@ VALUES (:sentence, :targetLanguage, :translation, :createdAt);
 deleteOlderThan:
 DELETE FROM sentence_translations WHERE created_at < :cutoff;
 
-deleteAll:
-DELETE FROM sentence_translations;

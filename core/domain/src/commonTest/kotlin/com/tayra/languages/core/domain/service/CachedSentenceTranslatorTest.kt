@@ -18,7 +18,6 @@ class CachedSentenceTranslatorTest {
             rows[sentence to targetLanguage] = translation to createdAt
         }
         override suspend fun prune(cutoff: Long) { rows.entries.removeAll { it.value.second < cutoff } }
-        override suspend fun clear() = rows.clear()
     }
 
     private class CountingTranslator(private val answer: String?) : SentenceTranslator {
@@ -64,18 +63,6 @@ class CachedSentenceTranslatorTest {
         assertEquals("fresh", translator.translate("Dizem", language), "an entry from long ago is ignored")
         assertEquals(1, inner.calls)
         assertNull(store.rows["Dizem" to "en"]?.takeIf { it.second == 0L }, "the stale row was replaced")
-    }
-
-    @Test
-    fun clearForgetsEverything() = runTest {
-        val store = FakeStore()
-        val inner = CountingTranslator("x")
-        val translator = CachedSentenceTranslator(inner, store, targetLanguage = { "en" }, minIntervalMs = 0)
-        translator.translate("Dizem", language)
-        translator.clearCache()
-        translator.translate("Dizem", language)
-        assertEquals(2, inner.calls)
-        assertEquals(1, store.rows.size)
     }
 
     @Test

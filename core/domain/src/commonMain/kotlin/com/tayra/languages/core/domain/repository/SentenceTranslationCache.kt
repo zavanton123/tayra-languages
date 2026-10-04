@@ -7,5 +7,4 @@ interface SentenceTranslationCache {
     suspend fun put(sentence: String, targetLanguage: String, translation: String, createdAt: Long)
     /** Drops entries older than [cutoff] (epoch millis). */
     suspend fun prune(cutoff: Long)
-    suspend fun clear()
 }

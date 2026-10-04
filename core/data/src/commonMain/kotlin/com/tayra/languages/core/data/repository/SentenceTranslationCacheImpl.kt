@@ -21,8 +21,4 @@ class SentenceTranslationCacheImpl(private val provider: DatabaseProvider) : Sen
     override suspend fun prune(cutoff: Long) {
         withContext(databaseDispatcher) { provider.database().sentenceTranslationsQueries.deleteOlderThan(cutoff) }
     }
-
-    override suspend fun clear() {
-        withContext(databaseDispatcher) { provider.database().sentenceTranslationsQueries.deleteAll() }
-    }
 }

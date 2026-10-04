@@ -11,9 +11,6 @@ import kotlin.time.Clock
 interface SentenceTranslator {
     /** The translation, or null when the service has none or is unavailable. Never throws. */
     suspend fun translate(text: String, language: Language): String?
-
-    /** Forgets stored translations, if this translator keeps any. */
-    suspend fun clearCache() {}
 }
 
 /** State of one sentence's translation on the reading page. */
@@ -71,13 +68,6 @@ class CachedSentenceTranslator(
             remember(key, Entry(result, lastRequestAt))
             if (result != null) runCatching { store.put(text, target, result, lastRequestAt) }
             return result
-        }
-    }
-
-    override suspend fun clearCache() {
-        lock.withLock {
-            memory.clear()
-            runCatching { store.clear() }
         }
     }
 

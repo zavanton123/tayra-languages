@@ -33,7 +33,6 @@ import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Menu
-import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.LinearProgressIndicator
@@ -386,7 +385,6 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
             ),
             onSelect = viewModel::setTranslationEngine,
         )
-        MenuRow(Icons.Default.Refresh, "Clear translation cache") { onClose(); viewModel.clearTranslationCache() }
 
         SpeechSection(state, viewModel, onSettings = { onClose(); actions.onSpeechSettings() })
 
