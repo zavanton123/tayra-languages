@@ -110,7 +110,7 @@ class ReadingHoverTest {
     }
 
     /** [mainIsDefault] swaps the UI thread for a pool, for tests that never draw the screen. */
-    private suspend fun reader(mainIsDefault: Boolean = true, speech: LocalSpeech = LocalSpeech(emptyList()), pages: Int = 1): ReadingViewModel {
+    private suspend fun reader(mainIsDefault: Boolean = true, speech: LocalSpeech = LocalSpeech(emptyList()), pages: Int = 1, translation: String? = null): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
@@ -159,7 +159,7 @@ class ReadingHoverTest {
         val vm = ReadingViewModel(
             bookId, null, readingService, books, termService,
             TermPopupBuilder(terms, languages, readingService), BookStatsService(books, languages, settings, readingService), settings,
-            object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null },
+            object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = translation },
             LocalTranslation(null), speech, words, sentenceAudio,
         )
         withTimeout(10_000) { while (vm.state.value.items.none { it.isWord }) delay(20) }
@@ -316,6 +316,30 @@ class ReadingHoverTest {
         for (gone in listOf("LANGUAGE TOOLS", "Translate sentence", "Translate page", "Next theme", "Keyboard shortcuts", "MORE")) {
             assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is no longer in the menu")
         }
+    }
+
+    /** A translation under its sentence starts where the sentence does, with or without the play buttons before sentences. */
+    @Test
+    fun aTranslationUnderItsSentenceLinesUpWithIt() = translationLinesUp(playButtons = false)
+
+    @Test
+    fun aTranslationLinesUpWithItsSentenceBesideAPlayButton() = translationLinesUp(playButtons = true)
+
+    private fun translationLinesUp(playButtons: Boolean) {
+        val vm = runBlocking { reader(mainIsDefault = false, translation = "The wolf sleeps in the forest.") }
+        runBlocking { settings.update { it.copy(showTranslations = true, sideBySideTranslations = false, showSentencePlay = playButtons) } }
+        // The page was loaded before translations were on; loading it again translates it.
+        vm.refresh()
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("The wolf sleeps in the forest.").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("TRANSLATION_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path.replace(".png", "-$playButtons.png")))
+        }
+        val sentence = rule.onNodeWithText("lobo dorme", substring = true).fetchSemanticsNode().boundsInRoot
+        val translation = rule.onNodeWithText("The wolf sleeps in the forest.").fetchSemanticsNode().boundsInRoot
+        assertEquals(sentence.left, translation.left, 1f, "the translation starts under the sentence's first letter")
     }
 
     /** Hovering the page's vocabulary bar explains it; ignored words count as known. */

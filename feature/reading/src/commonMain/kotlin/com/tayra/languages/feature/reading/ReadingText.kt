@@ -330,10 +330,11 @@ private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, 
         is SentenceTranslation.Done -> Text(
             translation.text,
             style = TextStyle(fontSize = size.sp, lineHeight = (size * spacing).sp, color = color),
-            modifier = Modifier.fillMaxWidth().padding(start = if (large) 0.dp else 12.dp, bottom = if (large) 0.dp else 10.dp),
+            // It starts under the sentence's first letter.
+            modifier = Modifier.fillMaxWidth().padding(bottom = if (large) 0.dp else 10.dp),
         )
         SentenceTranslation.Loading, null -> Row(
-            Modifier.padding(start = 12.dp, top = 2.dp, bottom = 10.dp),
+            Modifier.padding(top = 2.dp, bottom = 10.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
