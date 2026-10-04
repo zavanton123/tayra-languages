@@ -58,6 +58,10 @@ import com.tayra.languages.core.domain.dictionary.DictionaryPackStore
 import com.tayra.languages.feature.terms.form.TermFormViewModel
 import com.tayra.languages.feature.terms.form.TermFormKey
 import androidx.compose.ui.test.click
+import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.graphics.toAwtImage
+import com.tayra.languages.core.ui.components.STATUS_BAR_TAG
 import kotlinx.coroutines.flow.MutableStateFlow
 import com.tayra.languages.core.domain.service.SpeechVoice
 import com.tayra.languages.core.domain.service.SpeechPackage
@@ -202,6 +206,37 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Every word on this page has a status.").fetchSemanticsNodes().isNotEmpty() }
         assertTrue(rule.onAllNodesWithText("Mark remaining words as known").fetchSemanticsNodes().isEmpty())
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { termRepository.findByTextLc(languageId, "lobo") }?.status)
+    }
+
+    /** Hovering the page's vocabulary bar explains it; ignored words count as known. */
+    @Test
+    fun hoveringTheVocabularyBarShowsTheCountsByStatus() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, termPane) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        fun status(word: String) = runBlocking { termRepository.findByTextLc(languageId, word)?.status }
+        fun mark(word: String, expected: TermStatus) {
+            vm.markToLearn(vm.index(word))
+            rule.waitUntil(5_000) { status(word) == expected && vm.state.value.items[vm.index(word)].status == expected }
+        }
+        mark("lobo", TermStatus.NEW_1)
+        mark("dorme", TermStatus.NEW_1)
+        mark("dorme", TermStatus.WELL_KNOWN)
+        mark("floresta", TermStatus.NEW_1)
+        runBlocking { termService.setStatus(listOf(termRepository.findByTextLc(languageId, "floresta")!!.id), TermStatus.IGNORED, emptyMap()) }
+        vm.refresh()
+        rule.waitUntil(5_000) { vm.state.value.items[vm.index("floresta")].status == TermStatus.IGNORED }
+
+        rule.onNodeWithTag(STATUS_BAR_TAG, useUnmergedTree = true).performMouseInput { moveTo(center) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Vocabulary on this page", substring = false).fetchSemanticsNodes().size > 1 }
+        assertEquals(2, rule.onAllNodesWithText("2 words (40%)").fetchSemanticsNodes().size, "unknown: o, na; known: dorme and the ignored floresta")
+        rule.onNodeWithText("1 word (20%)").assertExists()
+        rule.onNodeWithText("5 words in total").assertExists()
+        System.getenv("STATUS_BAR_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
     }
 
     /** The whole screen, as the app shows it: hovering a word with the mouse brings up its card. */
