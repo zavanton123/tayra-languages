@@ -23,8 +23,6 @@ import org.jetbrains.compose.resources.painterResource
 import tayra_languages.core.ui.generated.resources.Res
 import tayra_languages.core.ui.generated.resources.flag_ke
 import tayra_languages.core.ui.generated.resources.flag_eg
-import tayra_languages.core.ui.generated.resources.flag_ca
-import tayra_languages.core.ui.generated.resources.flag_be
 import tayra_languages.core.ui.generated.resources.flag_br
 import tayra_languages.core.ui.generated.resources.flag_al
 import tayra_languages.core.ui.generated.resources.flag_am
@@ -90,8 +88,8 @@ import tayra_languages.core.ui.generated.resources.flag_za
 /**
  * The flag shown for a language: the country most associated with it, a region where the
  * language is that region's own (Catalonia, Galicia, the Basque Country, Wales), or the Vatican
- * for Latin. A language with two major countries (English, Portuguese, Spanish, French, Dutch,
- * Arabic, Swahili) shows both, split along the diagonal. Languages of no country (Esperanto, Toki
+ * for Latin. A language with two major countries (English, Portuguese, Spanish, Arabic, Swahili)
+ * shows both, split along the diagonal, the first above it. Languages of no country (Esperanto, Toki
  * Pona, Gothic, Tibetan) have none. The flags
  * are PNGs rendered from flag-icons (MIT, licence in composeResources/files/licenses).
  */
@@ -116,13 +114,13 @@ private val flags: Map<String, List<DrawableResource>> by lazy {
         "hr" to listOf(Res.drawable.flag_hr),
         "cs" to listOf(Res.drawable.flag_cz),
         "da" to listOf(Res.drawable.flag_dk),
-        "nl" to listOf(Res.drawable.flag_nl, Res.drawable.flag_be),
-        "en" to listOf(Res.drawable.flag_gb, Res.drawable.flag_us),
+        "nl" to listOf(Res.drawable.flag_nl),
+        "en" to listOf(Res.drawable.flag_us, Res.drawable.flag_gb),
         "et" to listOf(Res.drawable.flag_ee),
         "fo" to listOf(Res.drawable.flag_fo),
         "fa" to listOf(Res.drawable.flag_ir),
         "fi" to listOf(Res.drawable.flag_fi),
-        "fr" to listOf(Res.drawable.flag_fr, Res.drawable.flag_ca),
+        "fr" to listOf(Res.drawable.flag_fr),
         "gl" to listOf(Res.drawable.flag_es_ga),
         "ka" to listOf(Res.drawable.flag_ge),
         "de" to listOf(Res.drawable.flag_de),
