@@ -204,11 +204,6 @@ class BooksViewModel(
     fun unarchive(bookId: Long) = viewModelScope.launch { bookService.unarchive(bookId) }
     fun delete(bookId: Long) = viewModelScope.launch { bookService.delete(bookId) }
 
-    fun refreshAllStats() = viewModelScope.launch {
-        for (book in state.value.books) bookStats.markStale(book.id)
-        bookStats.refreshAll()
-    }
-
     fun dismissDemoNotice() = viewModelScope.launch { demoData.dismissDemoFlag() }
 
     fun wipeDatabase() = viewModelScope.launch {

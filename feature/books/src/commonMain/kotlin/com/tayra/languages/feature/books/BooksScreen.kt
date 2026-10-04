@@ -31,7 +31,6 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
@@ -97,11 +96,6 @@ fun BooksScreen(
                 onNavigate = onNavigate,
                 onBack = onBack,
                 section = NavSection.BOOKS,
-                actions = {
-                    if (!archived) {
-                        IconButton(onClick = viewModel::refreshAllStats) { Icon(Icons.Default.Refresh, contentDescription = "Refresh stats") }
-                    }
-                },
             )
         },
     ) { padding ->
