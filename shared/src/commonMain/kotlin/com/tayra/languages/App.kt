@@ -20,6 +20,15 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.bootstrap.AppBootstrapViewModel
 import com.tayra.languages.bootstrap.BootstrapState
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.domain.repository.LanguageRepository
+import com.tayra.languages.core.domain.service.LearningLanguageService
+import com.tayra.languages.core.ui.components.LearningLanguageState
+import com.tayra.languages.core.ui.components.LocalLearningLanguage
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.launch
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.AppThemes
@@ -28,6 +37,24 @@ import com.tayra.languages.navigation.AppNavHost
 import org.koin.compose.KoinContext
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
+
+/**
+ * Gives every screen's top bar the choice of the language being learned, and picks a language
+ * again whenever the chosen one is gone (deleted, or the database was reset).
+ */
+@Composable
+private fun ProvideLearningLanguage(currentId: Long, content: @Composable () -> Unit) {
+    val languages by koinInject<LanguageRepository>().observeAll().collectAsStateWithLifecycle(emptyList())
+    val learning = koinInject<LearningLanguageService>()
+    val scope = rememberCoroutineScope()
+    LaunchedEffect(currentId, languages) {
+        if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure()
+    }
+    val state = remember(languages, currentId) {
+        LearningLanguageState(languages.sortedBy { it.name }.map { it.id to it.name }, currentId) { id -> scope.launch { learning.select(id) } }
+    }
+    CompositionLocalProvider(LocalLearningLanguage provides state, content = content)
+}
 
 /**
  * @param titleBarInset height of a transparent native title bar the content extends under
@@ -52,7 +79,7 @@ fun App(titleBarInset: Dp = 0.dp) {
                         is BootstrapState.Failed -> Box(Modifier.fillMaxSize().padding(24.dp), contentAlignment = Alignment.Center) {
                             Text("Could not start: ${s.message}", color = MaterialTheme.colorScheme.error)
                         }
-                        BootstrapState.Ready -> AppNavHost()
+                        BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId) { AppNavHost() }
                     }
                     }
                 }

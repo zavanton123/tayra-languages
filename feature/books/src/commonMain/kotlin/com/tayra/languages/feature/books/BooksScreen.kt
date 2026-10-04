@@ -271,8 +271,6 @@ private fun StatCards(state: BooksUiState, compact: Boolean) {
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun Toolbar(state: BooksUiState, compact: Boolean, count: Int, viewModel: BooksViewModel) {
-    val languageOptions = listOf(0L to "All languages") + state.languages.map { it.id to it.name }
-    val currentLanguage = languageOptions.firstOrNull { it.first == state.currentLanguageId } ?: languageOptions.first()
     Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
         if (compact) {
             OutlinedTextField(
@@ -291,11 +289,6 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, count: Int, viewModel
             verticalArrangement = Arrangement.spacedBy(10.dp),
             itemVerticalAlignment = Alignment.CenterVertically,
         ) {
-            if (state.languages.size > 1) {
-                FilterMenu(icon = AppIcons.Globe, label = currentLanguage.second, options = languageOptions, optionLabel = { it.second }) {
-                    viewModel.setLanguageFilter(it.first)
-                }
-            }
             FilterMenu(icon = AppIcons.SwapVert, label = state.sort.label, options = BookSort.entries, optionLabel = { it.label }, onSelect = viewModel::setSort)
             FilterMenu(icon = AppIcons.BarChart, label = state.mastery.label, options = MasteryFilter.entries, optionLabel = { it.label }, onSelect = viewModel::setMastery)
             if (!compact) {

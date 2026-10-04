@@ -8,6 +8,7 @@ import com.tayra.languages.core.domain.service.DemoDataService
 import com.tayra.languages.core.domain.service.DictionaryService
 import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
 import com.tayra.languages.core.domain.service.LearningTranslations
+import com.tayra.languages.core.domain.service.LearningLanguageService
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -30,6 +31,7 @@ class AppBootstrapViewModel(
     private val dictionaries: DictionaryService,
     private val translationLanguages: TranslationLanguageKeeper,
     private val learningTranslations: LearningTranslations,
+    private val learningLanguage: LearningLanguageService,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow<BootstrapState>(BootstrapState.Loading)
@@ -39,6 +41,7 @@ class AppBootstrapViewModel(
         viewModelScope.launch {
             try {
                 demoData.ensureLanguages()
+                learningLanguage.ensure()
                 _state.value = BootstrapState.Ready
                 bookStats.refreshAll()
                 dictionaries.refresh()

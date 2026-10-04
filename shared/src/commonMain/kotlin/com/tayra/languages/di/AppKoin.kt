@@ -14,7 +14,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 private val appModule = module {
-    viewModel { AppBootstrapViewModel(get(), get(), get(), get(), get()) }
+    viewModel { AppBootstrapViewModel(get(), get(), get(), get(), get(), get()) }
 }
 
 /** Feature modules wired into the app. */

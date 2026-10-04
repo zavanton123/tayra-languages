@@ -287,8 +287,6 @@ private fun StatCards(state: TermsListUiState, compact: Boolean) {
 private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
-    val languageOptions = listOf<Pair<Long?, String>>(null to "All languages") + state.languages.map { it.id to it.name }
-    val currentLanguage = languageOptions.firstOrNull { it.first == filter.languageId } ?: languageOptions.first()
     val statusOptions = listOf<TermStatus?>(null) + TermStatus.selectable
     val statusLabel = state.statusChoice?.label ?: "All statuses"
     val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: "Custom order"
@@ -299,7 +297,6 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
         SearchBox(filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, if (compact) Modifier.fillMaxWidth() else Modifier.width(300.dp))
-        FilterMenu(AppIcons.Globe, currentLanguage.second, languageOptions, { it.second }) { viewModel.setLanguage(it.first) }
         FilterMenu(AppIcons.BarChart, statusLabel, statusOptions, { it?.label ?: "All statuses" }, viewModel::setStatusChoice)
         FilterMenu(AppIcons.SwapVert, sortLabel, TermSortOption.entries, { it.label }) { viewModel.setSort(it.sort) }
         val active = state.filtersVisible

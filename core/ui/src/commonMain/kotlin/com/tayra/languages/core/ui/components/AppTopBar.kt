@@ -66,8 +66,8 @@ private val menuGroups = listOf(
 )
 
 /**
- * The application bar with the main menu (Books, Terms, Settings, About), shown on all
- * screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
+ * The application bar with the choice of the language being learned and the main menu (Books,
+ * Vocabulary, Settings, About), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
  *
  * @param section the area the current screen belongs to; its tab is highlighted.
  * @param centerContent an optional widget shown in the middle of the wide bar, such as a search box.
@@ -94,6 +94,7 @@ fun AppTopBar(
             },
             actions = {
                 actions()
+                LearningLanguageSelector(compact = true)
                 if (showMenu) CompactMenu(onNavigate)
             },
             colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
@@ -113,6 +114,12 @@ fun AppTopBar(
                 Icon(AppIcons.Otter, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(34.dp))
                 Spacer(Modifier.width(12.dp))
                 Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                if (LocalLearningLanguage.current?.currentName != null) {
+                    Spacer(Modifier.width(20.dp))
+                    Box(Modifier.width(1.dp).height(28.dp).background(MaterialTheme.colorScheme.outlineVariant))
+                    Spacer(Modifier.width(20.dp))
+                    LearningLanguageSelector(compact = false)
+                }
                 Spacer(Modifier.weight(1f))
                 if (centerContent != null) {
                     Box(Modifier.weight(2f).widthIn(max = 600.dp)) { centerContent() }

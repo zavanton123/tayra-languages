@@ -175,10 +175,6 @@ class BooksViewModel(
         view.value = value
     }
 
-    fun setLanguageFilter(languageId: Long) {
-        viewModelScope.launch { settings.update { it.copy(currentLanguageId = languageId) } }
-    }
-
     fun archive(bookId: Long) = viewModelScope.launch { bookService.archive(bookId) }
     fun unarchive(bookId: Long) = viewModelScope.launch { bookService.unarchive(bookId) }
     fun delete(bookId: Long) = viewModelScope.launch { bookService.delete(bookId) }

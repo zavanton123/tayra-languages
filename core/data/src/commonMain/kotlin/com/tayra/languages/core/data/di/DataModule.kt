@@ -52,6 +52,7 @@ import com.tayra.languages.core.domain.service.SentenceTranslator
 import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.TranslationLanguageKeeper
 import com.tayra.languages.core.domain.service.LearningTranslations
+import com.tayra.languages.core.domain.service.LearningLanguageService
 import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.export.AnkiPackager
 import com.tayra.languages.core.data.export.AnkiPackagerImpl
@@ -124,6 +125,7 @@ val dataModule: Module = module {
     single { BookService(get(), get()) }
     single { BookStatsService(get(), get(), get(), get()) }
     single { LanguageService(get(), get(), get()) }
+    single { LearningLanguageService(get(), get(), get()) }
     single { DemoDataService(get(), get(), get(), get(), get()) }
     single { StatsService(get()) }
     single { TermImportService(get(), get(), get()) }

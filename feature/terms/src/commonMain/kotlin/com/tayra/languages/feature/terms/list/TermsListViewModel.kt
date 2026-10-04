@@ -77,7 +77,8 @@ class TermsListViewModel(
 
     private val filter = MutableStateFlow(
         TermListFilter(
-            languageId = settings.current.currentLanguageId.takeIf { it != 0L },
+            // A list of given terms shows them whatever their language; otherwise the language being learned.
+            languageId = settings.current.currentLanguageId.takeIf { it != 0L && initialTermIds == null },
             minStatus = if (initialTermIds != null) TermStatus.UNKNOWN else TermStatus.NEW_1,
             termIds = initialTermIds,
         ),
@@ -90,6 +91,17 @@ class TermsListViewModel(
     private val exporting = MutableStateFlow<String?>(null)
     private val filtersVisible = MutableStateFlow(initialTermIds != null)
     val events = UiEvents<TermsListEvent>()
+
+    init {
+        // The list follows the language chosen in the top bar.
+        if (initialTermIds == null) {
+            viewModelScope.launch {
+                settings.settings.map { it.currentLanguageId }.distinctUntilChanged().collect { id ->
+                    if (filter.value.languageId != id.takeIf { it != 0L }) updateFilter { it.copy(languageId = id.takeIf { it != 0L }) }
+                }
+            }
+        }
+    }
 
     @OptIn(ExperimentalCoroutinesApi::class)
     private val pageFlow = combine(filter, sort, page, pageSize) { f, s, p, size -> Base(TermListPage(emptyList(), 0), f, s, p, size) }
@@ -144,14 +156,9 @@ class TermsListViewModel(
         selected.value = emptySet()
     }
 
-    fun clearFilters() = updateFilter { TermListFilter(minStatus = TermStatus.NEW_1) }
+    fun clearFilters() = updateFilter { TermListFilter(languageId = it.languageId, minStatus = TermStatus.NEW_1) }
 
     fun toggleFilters() { filtersVisible.value = !filtersVisible.value }
-
-    fun setLanguage(languageId: Long?) {
-        updateFilter { it.copy(languageId = languageId) }
-        viewModelScope.launch { settings.update { it.copy(currentLanguageId = languageId ?: 0) } }
-    }
 
     /** Narrows the list to one status, or shows the full learning range for null. */
     fun setStatusChoice(status: TermStatus?) = updateFilter {
