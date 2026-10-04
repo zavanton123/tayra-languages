@@ -110,7 +110,7 @@ class ReadingHoverTest {
     }
 
     /** [mainIsDefault] swaps the UI thread for a pool, for tests that never draw the screen. */
-    private suspend fun reader(mainIsDefault: Boolean = true, speech: LocalSpeech = LocalSpeech(emptyList())): ReadingViewModel {
+    private suspend fun reader(mainIsDefault: Boolean = true, speech: LocalSpeech = LocalSpeech(emptyList()), pages: Int = 1): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
@@ -122,7 +122,7 @@ class ReadingHoverTest {
         val readingService = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), termService)
         val bookService = BookService(books, languages)
         languageId = languages.save(Language(name = "Portuguese"))
-        val bookId = bookService.create(BookDraft(languageId = languageId, title = "T", text = "O lobo dorme na floresta."))
+        val bookId = bookService.create(BookDraft(languageId = languageId, title = "T", text = List(pages) { "O lobo dorme na floresta." }.joinToString("\n\n"), wordsPerPage = 5))
         val engine = object : TermTranslationProvider {
             override val name = "Fake"
             override suspend fun suggestTranslation(text: String, language: Language): String? = "<$text>"
@@ -223,6 +223,26 @@ class ReadingHoverTest {
 
         rule.onNodeWithText("Finish book").performScrollTo().performClick()
         rule.waitUntil(5_000) { home }
+    }
+
+    /** The toolbar shows "page of pages" between the arrows, with a slider across the book. */
+    @Test
+    fun theToolbarShowsThePagePositionAndMovesBetweenPages() {
+        val vm = runBlocking { reader(mainIsDefault = false, pages = 12) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
+        val count = vm.state.value.pageCount
+        assertTrue(count > 2, "the book should have several pages")
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("1  of $count").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithContentDescription("Next page").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("2  of $count").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(2, vm.state.value.pageNumber)
+        System.getenv("PAGE_PROGRESS_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        rule.onNodeWithContentDescription("Previous page").performClick()
+        rule.waitUntil(5_000) { vm.state.value.pageNumber == 1 }
     }
 
     /** Hovering the page's vocabulary bar explains it; ignored words count as known. */

@@ -44,7 +44,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.ModalDrawerSheet
 import androidx.compose.material3.ModalNavigationDrawer
-import androidx.compose.material3.Slider
 import androidx.compose.material3.Snackbar
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
@@ -606,7 +605,6 @@ private fun SwitchRow(icon: androidx.compose.ui.graphics.vector.ImageVector, lab
 
 @Composable
 private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit, onHome: () -> Unit) {
-    val compact = LocalWindowWidth.current.isCompact
     Surface(tonalElevation = 2.dp) {
         Column(Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 4.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -618,34 +616,13 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
                     style = MaterialTheme.typography.titleMedium.copy(textDirection = if (state.language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr),
                     maxLines = 1,
                 )
-                Text("${state.pageNumber}/${state.pageCount}", style = MaterialTheme.typography.labelLarge)
             }
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                IconButton(onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage) {
-                    Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = "Previous page")
-                }
-                if (state.pageCount > 1) {
-                    var sliderValue by remember(state.pageNumber) { mutableStateOf(state.pageNumber.toFloat()) }
-                    Slider(
-                        value = sliderValue,
-                        onValueChange = { sliderValue = it },
-                        onValueChangeFinished = { viewModel.goToPage(sliderValue.toInt()) },
-                        valueRange = 1f..state.pageCount.toFloat(),
-                        steps = (state.pageCount - 2).coerceAtLeast(0),
-                        modifier = Modifier.weight(1f).padding(horizontal = if (compact) 4.dp else 16.dp),
-                    )
-                } else {
-                    Spacer(Modifier.weight(1f))
-                }
-                IconButton(onClick = { viewModel.goToRelativePage(1) }, enabled = !state.isLastPage) {
-                    Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = "Next page")
-                }
-            }
+            PageProgress(state.pageNumber, state.pageCount, viewModel::goToPage, sliderWidth = null, modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 6.dp))
         }
     }
 }
 
-/** Wide-screen toolbar: breadcrumb on the left, the pager in the middle and the page slider on the right. */
+/** Wide-screen toolbar: breadcrumb on the left, the page position and slider in the middle. */
 @Composable
 private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit, onHome: () -> Unit) {
     val colors = MaterialTheme.colorScheme
@@ -672,35 +649,13 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
                 overflow = TextOverflow.Ellipsis,
             )
         }
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            PagerButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, "Previous page", enabled = !state.isFirstPage) { viewModel.goToRelativePage(-1) }
-            Text("Page ${state.pageNumber} of ${state.pageCount}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            PagerButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, "Next page", enabled = !state.isLastPage) { viewModel.goToRelativePage(1) }
-        }
-        Box(Modifier.weight(1f), contentAlignment = Alignment.CenterEnd) {
-            if (state.pageCount > 1) {
-                var sliderValue by remember(state.pageNumber) { mutableStateOf(state.pageNumber.toFloat()) }
-                Slider(
-                    value = sliderValue,
-                    onValueChange = { sliderValue = it },
-                    onValueChangeFinished = { viewModel.goToPage(sliderValue.toInt()) },
-                    valueRange = 1f..state.pageCount.toFloat(),
-                    steps = (state.pageCount - 2).coerceAtLeast(0),
-                    modifier = Modifier.widthIn(max = 280.dp).padding(start = 24.dp),
-                )
-            }
-        }
-    }
-}
-
-@Composable
-private fun PagerButton(icon: androidx.compose.ui.graphics.vector.ImageVector, description: String, enabled: Boolean, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Box(
-        Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
-            .clickable(enabled = enabled, onClick = onClick).padding(6.dp),
-    ) {
-        Icon(icon, contentDescription = description, tint = if (enabled) colors.onSurface else colors.outlineVariant)
+        PageProgress(
+            state.pageNumber,
+            state.pageCount,
+            viewModel::goToPage,
+            sliderWidth = if (LocalWindowWidth.current.isExpanded) 300.dp else 160.dp,
+        )
+        Spacer(Modifier.weight(1f))
     }
 }
 
