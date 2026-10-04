@@ -187,7 +187,7 @@ class BackupRepositoryImpl(
         const val INFO_CREATED_AT = "created_at"
         val KEY_VALUE = listOf("key", "value")
 
-        /** Rows per INSERT, and the length past which a statement is cut (Android refuses SQL over 1 MB). */
+        /** Rows per INSERT, and the length past which a statement is cut, so no statement holds a large share of the data. */
         const val ROWS_PER_INSERT = 200
         const val CHARS_PER_INSERT = 400_000
 
