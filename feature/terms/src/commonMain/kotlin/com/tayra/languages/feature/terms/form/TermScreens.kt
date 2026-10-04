@@ -63,7 +63,6 @@ fun TermEditScreen(
         Column(Modifier.padding(padding).fillMaxSize()) {
             PageHeader(
                 title = if (isNew) "New term" else "Edit term",
-                subtitle = if (isNew) "Add a word or phrase to your vocabulary." else "Update the term, translation, and learning status.",
                 compact = compact,
                 gutter = gutter,
                 saving = state.saving,
@@ -86,7 +85,6 @@ fun TermEditScreen(
 @Composable
 private fun PageHeader(
     title: String,
-    subtitle: String,
     compact: Boolean,
     gutter: androidx.compose.ui.unit.Dp,
     saving: Boolean,
@@ -108,10 +106,7 @@ private fun PageHeader(
             Text(title, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Column(Modifier.weight(1f)) {
-                Text(title, style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-                Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            }
+            Text(title, Modifier.weight(1f), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             OutlinedButton(onClick = onBack, shape = RoundedCornerShape(10.dp)) { Text("Cancel") }
             Spacer(Modifier.width(12.dp))
             Button(onClick = onSave, enabled = canSave && !saving, shape = RoundedCornerShape(10.dp)) { Text(if (saving) "Saving..." else "Save changes") }

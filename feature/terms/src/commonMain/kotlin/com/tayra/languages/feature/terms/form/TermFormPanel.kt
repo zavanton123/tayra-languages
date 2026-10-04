@@ -40,6 +40,8 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -104,6 +106,7 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.ui.components.HoverTranslatedText
+import com.tayra.languages.core.ui.components.IconTile
 import org.koin.compose.koinInject
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.audio.SpeakButton
@@ -162,6 +165,38 @@ fun TermFormPanel(
             }
         } ?: ErrorMessage(state.error)
 
+        val pack = state.dictionaryPack
+        val dictionaryBlock: @Composable () -> Unit = {
+            when {
+                empty -> Unit
+                !state.dictionary.isEmpty -> DictionarySection(state.dictionary, language?.let { LanguageCodes.codeFor(it.name) }, onAdd = viewModel::addGloss)
+                pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
+            }
+        }
+        val linksContent: @Composable () -> Unit = {
+            if (language != null) {
+                if (language.termDictionaries.isEmpty()) {
+                    Text("No online dictionaries enabled for ${language.name}.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+                val source = LanguageOption(LanguageCodes.codeFor(language.name) ?: "en", language.name)
+                val target = LanguageCatalog.nativeOption(state.nativeLanguage)
+                val labels = OnlineDictionaries.labels(language.termDictionaries, source, target)
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    language.termDictionaries.forEach { dictionary ->
+                        LinkChip(labels[dictionary] ?: OnlineDictionaries.host(dictionary.url)) {
+                            uriHandler.openUri(dictionary.lookupUrl(draft.text.replace("​", "").encodeURLParameter()))
+                        }
+                    }
+                }
+                if (onManageDictionaries != null) {
+                    OutlineActionButton("Manage dictionaries") { onManageDictionaries(language.id) }
+                }
+            }
+        }
+        val examplesBlock: @Composable () -> Unit = {
+            if (!empty) ExamplesSection(state, language, onOpenExamples, onMarkWord = viewModel::markExampleWord, onOpenWord = viewModel::openExampleTerm)
+        }
+
         if (embedded) {
             SectionCard({ TermBadge() }, "Term", tint = MaterialTheme.colorScheme.primary) {
                 LanguageSelector(state, viewModel)
@@ -173,36 +208,39 @@ fun TermFormPanel(
                     StatusSelector(selected = draft.status, onSelect = viewModel::setStatus, large = true)
                 }
             }
+            dictionaryBlock()
+            if (language != null && !empty) SectionCard({ BadgeIcon(AppIcons.Link) }, "Dictionaries", tint = null) { linksContent() }
+            examplesBlock()
         } else {
-            StandaloneFields(state, viewModel, direction, focusRequester, onConfirmDelete = { confirmDelete = true })
-        }
-        val pack = state.dictionaryPack
-        when {
-            empty -> Unit
-            !state.dictionary.isEmpty -> DictionarySection(state.dictionary, language?.let { LanguageCodes.codeFor(it.name) }, onAdd = viewModel::addGloss)
-            pack != null && pack.state !is PackState.Installed -> DictionaryDownloadCard(pack, onDownload = viewModel::downloadDictionary)
-        }
-
-        if (language != null && draft.text.isNotBlank()) SectionCard({ BadgeIcon(AppIcons.Link) }, "Dictionaries", tint = null) {
-            if (language.termDictionaries.isEmpty()) {
-                Text("No online dictionaries enabled for ${language.name}.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            // The editor page: what the term is and says on the left, its status and links on the right.
+            val links: @Composable (Modifier) -> Unit = { m ->
+                if (language != null && !empty) FormCard(m, AppIcons.Link, "Dictionaries") { linksContent() }
             }
-            val source = LanguageOption(LanguageCodes.codeFor(language.name) ?: "en", language.name)
-            val target = LanguageCatalog.nativeOption(state.nativeLanguage)
-            val labels = OnlineDictionaries.labels(language.termDictionaries, source, target)
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                language.termDictionaries.forEach { dictionary ->
-                    LinkChip(labels[dictionary] ?: OnlineDictionaries.host(dictionary.url)) {
-                        uriHandler.openUri(dictionary.lookupUrl(draft.text.replace("​", "").encodeURLParameter()))
+            val delete: @Composable (Modifier) -> Unit = { m -> if (!state.isNew) DeleteCard(m, onClick = { confirmDelete = true }) }
+            CompositionLocalProvider(LocalPageSections provides true) {
+            if (LocalWindowWidth.current.isCompact) {
+                InformationCard(Modifier.fillMaxWidth(), state, viewModel, direction, focusRequester)
+                StatusCard(Modifier.fillMaxWidth(), state, viewModel)
+                dictionaryBlock()
+                examplesBlock()
+                links(Modifier.fillMaxWidth())
+                delete(Modifier.fillMaxWidth())
+            } else {
+                Row(horizontalArrangement = Arrangement.spacedBy(20.dp), verticalAlignment = Alignment.Top) {
+                    Column(Modifier.weight(2f), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                        InformationCard(Modifier.fillMaxWidth(), state, viewModel, direction, focusRequester)
+                        dictionaryBlock()
+                        examplesBlock()
+                    }
+                    Column(Modifier.weight(1.1f), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                        StatusCard(Modifier.fillMaxWidth(), state, viewModel)
+                        links(Modifier.fillMaxWidth())
+                        delete(Modifier.fillMaxWidth())
                     }
                 }
             }
-            if (onManageDictionaries != null) {
-                OutlineActionButton("Manage dictionaries") { onManageDictionaries(language.id) }
             }
         }
-
-        if (!empty) ExamplesSection(state, language, onOpenExamples, onMarkWord = viewModel::markExampleWord, onOpenWord = viewModel::openExampleTerm)
         if (embedded) Spacer(Modifier.height(24.dp))
     }
     if (confirmDelete) {
@@ -312,61 +350,73 @@ private fun ParentField(state: TermFormUiState, viewModel: TermFormViewModel) {
 }
 
 /** Two cards side by side on wide screens: the term's fields and its learning status. */
+/** The term itself: its text (with its parent beside it on wide screens), pronunciation and translation. */
 @Composable
-private fun StandaloneFields(state: TermFormUiState, viewModel: TermFormViewModel, direction: TextDirection, focusRequester: FocusRequester, onConfirmDelete: () -> Unit) {
+private fun InformationCard(modifier: Modifier, state: TermFormUiState, viewModel: TermFormViewModel, direction: TextDirection, focusRequester: FocusRequester) {
     val compact = LocalWindowWidth.current.isCompact
-    val information = @Composable { modifier: Modifier ->
-        FormCard(modifier, AppIcons.Book, "Term information") {
-            LanguageSelector(state, viewModel)
+    FormCard(modifier, null, "Term information", iconText = "Aa") {
+        LanguageSelector(state, viewModel)
+        if (compact || state.language == null) {
             TermField(state, viewModel, direction, focusRequester)
-            RomanizationField(state, viewModel)
-            TranslationField(state, viewModel, hint = "Use a concise meaning or contextual translation.")
             if (state.language != null) ParentField(state, viewModel)
-        }
-    }
-    val status = @Composable { modifier: Modifier ->
-        FormCard(modifier, AppIcons.BarChart, "Learning status") {
-            Text("How well do you know this term?", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            StatusSelector(selected = state.draft.status, onSelect = viewModel::setStatus, expanded = true)
-            Row(Modifier.fillMaxWidth()) {
-                Text("1 New", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
-                Text("K Known", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-            HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
-            InfoRow("Added", state.createdAt?.let { it.formatDate() } ?: "Not saved yet")
-            InfoRow("Last updated", if (state.saved) "Just now" else if (state.dirty) "Unsaved changes" else "\u2014")
-            if (!state.isNew) {
-                HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
-                Row(
-                    Modifier.clip(RoundedCornerShape(8.dp)).clickable(onClick = onConfirmDelete).padding(vertical = 6.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(10.dp),
-                ) {
-                    Icon(Icons.Default.Delete, contentDescription = null, tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(20.dp))
-                    Text("Delete term", style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.error, fontWeight = FontWeight.Medium)
-                }
+        } else {
+            Row(horizontalArrangement = Arrangement.spacedBy(20.dp), verticalAlignment = Alignment.Bottom) {
+                Box(Modifier.weight(1f)) { TermField(state, viewModel, direction, focusRequester) }
+                Box(Modifier.weight(1f)) { ParentField(state, viewModel) }
             }
         }
-    }
-    if (compact) {
-        information(Modifier.fillMaxWidth())
-        status(Modifier.fillMaxWidth())
-    } else {
-        Row(horizontalArrangement = Arrangement.spacedBy(20.dp), verticalAlignment = Alignment.Top) {
-            information(Modifier.weight(2f))
-            status(Modifier.weight(1.1f))
-        }
+        RomanizationField(state, viewModel)
+        TranslationField(state, viewModel, hint = "Use a concise meaning or contextual translation.", compact = true)
     }
 }
 
 @Composable
-private fun FormCard(modifier: Modifier, icon: androidx.compose.ui.graphics.vector.ImageVector, title: String, content: @Composable () -> Unit) {
+private fun StatusCard(modifier: Modifier, state: TermFormUiState, viewModel: TermFormViewModel) {
+    FormCard(modifier, AppIcons.BarChart, "Learning status") {
+        Text("How well do you know this term?", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        StatusSelector(selected = state.draft.status, onSelect = viewModel::setStatus, expanded = true)
+        Row(Modifier.fillMaxWidth()) {
+            Text("1 New", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
+            Text("K Known", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+        InfoRow("Added", state.createdAt?.let { it.formatDate() } ?: "Not saved yet")
+        InfoRow("Last updated", if (state.saved) "Just now" else if (state.dirty) "Unsaved changes" else "\u2014")
+    }
+}
+
+/** Deleting gets a card of its own, apart from the fields, so it is not pressed by accident. */
+@Composable
+private fun DeleteCard(modifier: Modifier, onClick: () -> Unit) {
+    Row(
+        modifier.clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
+            .clickable(onClick = onClick).padding(horizontal = 24.dp, vertical = 20.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
+    ) {
+        Icon(Icons.Default.Delete, contentDescription = null, tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(24.dp))
+        Text("Delete term", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.error, fontWeight = FontWeight.SemiBold)
+    }
+}
+
+@Composable
+private fun FormCard(
+    modifier: Modifier,
+    icon: androidx.compose.ui.graphics.vector.ImageVector?,
+    title: String,
+    iconText: String? = null,
+    content: @Composable () -> Unit,
+) {
     Column(
         modifier.clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
             .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
-        SectionTitle(icon, title)
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+            IconTile(icon, iconText, size = 44)
+            Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+        }
         content()
     }
 }
@@ -457,12 +507,16 @@ private fun SectionCard(
     }
     val border = if (tint != null) tint.copy(alpha = 0.15f) else colors.outlineVariant
     Column(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(background).border(1.dp, border, RoundedCornerShape(14.dp)).padding(14.dp),
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(background).border(1.dp, border, RoundedCornerShape(14.dp)).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            icon()
-            Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (LocalPageSections.current) 14.dp else 10.dp)) {
+            if (LocalPageSections.current) {
+                Box(Modifier.size(44.dp).clip(RoundedCornerShape(12.dp)).background(colors.primary.copy(alpha = 0.09f)), contentAlignment = Alignment.Center) { icon() }
+            } else {
+                icon()
+            }
+            Text(title, style = sectionTitleStyle(), fontWeight = FontWeight.SemiBold)
             if (count != null) CountBadge(count)
         }
         content()
@@ -491,12 +545,22 @@ private fun BadgeIcon(icon: androidx.compose.ui.graphics.vector.ImageVector) {
 @Composable
 private fun SectionTitle(icon: androidx.compose.ui.graphics.vector.ImageVector, title: String, count: Int? = null) {
     val colors = MaterialTheme.colorScheme
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-        Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
-        Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+    val page = LocalPageSections.current
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(if (page) 14.dp else 10.dp)) {
+        if (page) IconTile(icon, size = 44) else Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
+        Text(title, style = sectionTitleStyle(), fontWeight = FontWeight.SemiBold)
         if (count != null) CountBadge(count)
     }
 }
+
+/** True on the editor page, whose cards have the page's larger headers; the reader's pane keeps them small. */
+private val LocalPageSections = staticCompositionLocalOf { false }
+
+@Composable
+private fun sectionPadding() = if (LocalPageSections.current) 20.dp else 14.dp
+
+@Composable
+private fun sectionTitleStyle() = if (LocalPageSections.current) MaterialTheme.typography.titleLarge else MaterialTheme.typography.titleMedium
 
 @Composable
 private fun CountBadge(count: Int) {
@@ -574,7 +638,7 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
     val state = status.state
     Column(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.05f))
-            .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(14.dp),
+            .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         SectionTitle(AppIcons.Book, "Dictionary")
@@ -665,7 +729,7 @@ private fun ExamplesSection(
 
     Column(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.05f))
-            .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(14.dp),
+            .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
