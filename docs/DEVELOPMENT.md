@@ -25,7 +25,7 @@ core/data        SQLDelight database, repositories, settings, secure storage, HT
 core/ui          theme, navigation routes, shared composables
 feature/books    book listing, create/edit, bookmarks, page editing
 feature/reading  reading screen, term popups, keyboard shortcuts
-feature/terms    term form, term listing, bulk edit, CSV import/export
+feature/terms    term form, term listing, bulk edit, CSV and Anki export
 feature/languages, feature/settings, feature/stats
 shared           app composition: DI, bootstrap, navigation graph, iOS framework
 androidApp, desktopApp, webApp, iosApp   thin platform launchers

@@ -33,8 +33,8 @@ everything you learn stays on your own device.
 
 ## Vocabulary
 
-- **A terms list** with search, status filters and sorting, bulk status changes, and CSV
-  import and export.
+- **A vocabulary list** with search, status filters and sorting, bulk status changes, and CSV
+  and Anki export.
 - **Parents and components.** Link an inflected form to its base word; the popup shows the
   base word's meaning and, for expressions, the words inside them.
 - **Pronunciation** with the device's speech voices, and recorded example sentences.

@@ -40,8 +40,6 @@ sealed interface Route {
     @Serializable
     data class Examples(val languageId: Long, val text: String) : Route
 
-    @Serializable
-    data object ImportTerms : Route
 
     @Serializable
     data object Languages : Route

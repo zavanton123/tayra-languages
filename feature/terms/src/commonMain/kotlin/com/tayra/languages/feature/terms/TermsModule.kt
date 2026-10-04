@@ -11,8 +11,6 @@ import com.tayra.languages.feature.terms.examples.ExampleTerms
 import com.tayra.languages.feature.terms.form.TermEditScreen
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormViewModel
-import com.tayra.languages.feature.terms.import.TermImportScreen
-import com.tayra.languages.feature.terms.import.TermImportViewModel
 import com.tayra.languages.feature.terms.list.TermsListViewModel
 import com.tayra.languages.feature.terms.list.TermsScreen
 import kotlinx.serialization.Serializable
@@ -23,7 +21,6 @@ val termsModule = module {
     single { ExampleTerms(get(), get()) }
     viewModel { (key: TermFormKey) -> TermFormViewModel(key, get(), get(), get(), get(), get(), get(), get(), get(), get()) }
     viewModel { (termIds: List<Long>?) -> TermsListViewModel(termIds, get(), get(), get(), get(), get()) }
-    viewModel { TermImportViewModel(get()) }
     viewModel { (languageId: Long, text: String) -> ExamplesSearchViewModel(languageId, text, get(), get(), get(), get()) }
 }
 
@@ -49,7 +46,6 @@ fun NavGraphBuilder.termsGraph(navController: NavController) {
     composable<Route.NewTerm> {
         TermEditScreen(TermFormKey.New, navigate, { navController.popBackStack() }, { navController.popBackStack() }, openParent)
     }
-    composable<Route.ImportTerms> { TermImportScreen(onNavigate = navigate) }
     composable<Route.Examples> { entry ->
         val route = entry.toRoute<Route.Examples>()
         ExamplesSearchScreen(languageId = route.languageId, text = route.text, onNavigate = navigate, onBack = { navController.popBackStack() })

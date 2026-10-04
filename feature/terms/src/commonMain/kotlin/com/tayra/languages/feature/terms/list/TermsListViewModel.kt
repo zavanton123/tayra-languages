@@ -12,7 +12,6 @@ import com.tayra.languages.core.domain.repository.TermListSort
 import com.tayra.languages.core.domain.repository.TermRepository
 import com.tayra.languages.core.domain.repository.TermSortField
 import com.tayra.languages.core.domain.service.BulkTermUpdate
-import com.tayra.languages.core.domain.service.TermImportService
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.service.TermValidationException
@@ -253,7 +252,7 @@ class TermsListViewModel(
     fun exportCsv() = viewModelScope.launch {
         val all = terms.list(filter.value, sort.value, 0, 1_000_000).items
         val languageNames = state.value.languages.associate { it.id to it.name }
-        val rows = listOf(TermImportService.EXPORT_HEADERS) + all.map { term ->
+        val rows = listOf(CSV_HEADERS) + all.map { term ->
             listOf(
                 term.displayText,
                 term.parents.joinToString(", ") { it.displayText },
@@ -272,3 +271,6 @@ class TermsListViewModel(
         const val PAGE_SIZE = 50
     }
 }
+
+/** The columns of the vocabulary CSV export, in Lute's order with the learning sentence last. */
+private val CSV_HEADERS = listOf("term", "parent", "translation", "language", "status", "link_status", "pronunciation", "sentence")

@@ -14,8 +14,8 @@ class TermTextNormalizerTest {
     }
 
     @Test
-    fun csvRoundTrip() {
-        val rows = listOf(listOf("a", "b,c", "d\"e"), listOf("1", "", "x"))
-        assertEquals(rows, Csv.parse(Csv.format(rows)))
+    fun csvQuotesOnlyWhatNeedsIt() {
+        val rows = listOf(listOf("a", "b,c", "d\"e"), listOf("1", "", "x\ny"))
+        assertEquals("a,\"b,c\",\"d\"\"e\"\n1,,\"x\ny\"", Csv.format(rows))
     }
 }

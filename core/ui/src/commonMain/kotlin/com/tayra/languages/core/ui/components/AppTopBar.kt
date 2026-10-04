@@ -50,7 +50,7 @@ private data class MenuGroup(val section: NavSection, val entries: List<MenuEntr
 
 private val menuGroups = listOf(
     MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Home), MenuEntry("Create new book", Route.NewBook()), MenuEntry("Book archive", Route.ArchivedBooks))),
-    MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()), MenuEntry("Import vocabulary", Route.ImportTerms))),
+    MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()))),
     MenuGroup(
         NavSection.SETTINGS,
         listOfNotNull(
