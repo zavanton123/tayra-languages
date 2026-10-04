@@ -53,6 +53,7 @@ import androidx.compose.ui.text.AnnotatedString
 import org.koin.compose.koinInject
 import com.tayra.languages.core.domain.service.WordTranslationService
 import com.tayra.languages.core.ui.components.HoverTranslatedText
+import com.tayra.languages.core.ui.theme.TayraTheme
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
@@ -155,7 +156,7 @@ fun ExamplesSearchScreen(
                     else -> {
                         items(state.results) { example ->
                             ExampleCard(
-                                text = emphasize(example.text, query.text),
+                                text = emphasize(example.text, query.text).withLearning(state.learning[example.text].orEmpty(), TayraTheme.current.statusColors),
                                 translateWord = translateWord,
                                 translation = example.translation,
                                 sound = audio.soundOf(example),
@@ -163,6 +164,8 @@ fun ExamplesSearchScreen(
                                 direction = direction,
                                 compact = compact,
                                 onWordClick = { word -> openWord(word, example.text) },
+                                onWordSecondaryClick = { word -> viewModel.markWord(word, example.text) },
+                                onPhraseSelect = { phrase -> openWord(phrase, example.text) },
                             )
                             Spacer(Modifier.height(10.dp))
                         }
@@ -186,7 +189,7 @@ fun ExamplesSearchScreen(
                     shape = RoundedCornerShape(14.dp),
                     color = MaterialTheme.colorScheme.surface,
                 ) {
-                    TermPane(query.language.id, term, state.paneSentence, onClose = viewModel::closePane, onOpenTerm = { viewModel.openTerm(it, state.paneSentence) }, onNavigate = onNavigate)
+                    TermPane(query.language.id, term, state.paneSentence, onClose = viewModel::closePane, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onNavigate = onNavigate)
                 }
             }
         }
@@ -197,7 +200,7 @@ fun ExamplesSearchScreen(
     if (!wide && sheetOpen && sheetTerm != null && sheetLanguage != null) {
         val close = { sheetOpen = false }
         ModalBottomSheet(onDismissRequest = close, sheetState = rememberModalBottomSheetState()) {
-            TermPane(sheetLanguage.id, sheetTerm, state.paneSentence, onClose = close, onOpenTerm = { viewModel.openTerm(it, state.paneSentence) }, onNavigate = onNavigate)
+            TermPane(sheetLanguage.id, sheetTerm, state.paneSentence, onClose = close, onOpenTerm = viewModel::openTerm, onTermsChanged = viewModel::refreshTerms, onNavigate = onNavigate)
         }
     }
 }
@@ -207,14 +210,25 @@ fun ExamplesSearchScreen(
  * may have moved on to a looked-up word. An old form keeps saving on its own.
  */
 @Composable
-private fun TermPane(languageId: Long, text: String, sentence: String?, onClose: () -> Unit, onOpenTerm: (String) -> Unit, onNavigate: (Route) -> Unit) {
+private fun TermPane(
+    languageId: Long,
+    text: String,
+    sentence: String?,
+    onClose: () -> Unit,
+    /** Another term to show, with the sentence it was picked in. */
+    onOpenTerm: (String, String?) -> Unit,
+    /** A term was saved in the pane, so the results' colours may be out of date. */
+    onTermsChanged: () -> Unit,
+    onNavigate: (Route) -> Unit,
+) {
     val opening = remember(languageId, text) { Random.nextLong() }
     val form = koinViewModel<TermFormViewModel>(key = "examples-term-$languageId-$text-$opening") { parametersOf(TermFormKey.ByText(languageId, text, sentence)) }
     CollectEvents(form.events) { event ->
         when (event) {
-            is TermFormEvent.Saved -> Unit
-            TermFormEvent.Deleted -> onClose()
-            is TermFormEvent.OpenParent -> onOpenTerm(event.text)
+            is TermFormEvent.Saved -> onTermsChanged()
+            TermFormEvent.Deleted -> { onTermsChanged(); onClose() }
+            is TermFormEvent.OpenParent -> onOpenTerm(event.text, sentence)
+            is TermFormEvent.OpenTerm -> onOpenTerm(event.text, event.sentence)
         }
     }
     TermFormPanel(
@@ -364,6 +378,8 @@ private fun ExampleCard(
     direction: TextDirection,
     compact: Boolean,
     onWordClick: (String) -> Unit,
+    onWordSecondaryClick: (String) -> Unit,
+    onPhraseSelect: (String) -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
     val clipboard = LocalClipboardManager.current
@@ -380,6 +396,8 @@ private fun ExampleCard(
                 translate = translateWord,
                 style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction, lineHeight = MaterialTheme.typography.bodyLarge.lineHeight * 1.25),
                 onWordClick = onWordClick,
+                onWordSecondaryClick = onWordSecondaryClick,
+                onPhraseSelect = onPhraseSelect,
             )
             translation?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
         }

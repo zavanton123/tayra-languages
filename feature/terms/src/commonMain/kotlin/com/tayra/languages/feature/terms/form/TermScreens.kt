@@ -53,6 +53,7 @@ fun TermEditScreen(
             is TermFormEvent.Saved -> if (!event.keepOpen) onDone()
             TermFormEvent.Deleted -> onDone()
             is TermFormEvent.OpenParent -> onOpenParent(event.languageId, event.text)
+            is TermFormEvent.OpenTerm -> onOpenParent(event.languageId, event.text)
         }
     }
     val isNew = key is TermFormKey.New

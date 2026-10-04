@@ -3,6 +3,7 @@ package com.tayra.languages.feature.terms.examples
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.model.Language
+import com.tayra.languages.core.domain.model.Term
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.ExampleSearchQuery
 import com.tayra.languages.core.domain.service.ExampleSentence
@@ -31,6 +32,8 @@ data class ExamplesSearchUiState(
     val paneTerm: String? = null,
     /** The example the pane's term was clicked in, if any. */
     val paneSentence: String? = null,
+    /** The terms being learned found in each result, by its text. */
+    val learning: Map<String, List<Term>> = emptyMap(),
 ) {
     val hasMore: Boolean get() = nextPage != null
 }
@@ -41,6 +44,8 @@ class ExamplesSearchViewModel(
     private val languages: LanguageRepository,
     private val settings: SettingsRepository,
     private val provider: ExampleSentencesProvider,
+    /** Lets words of the results be saved; without it the results are only shown. */
+    private val exampleTerms: ExampleTerms? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(ExamplesSearchUiState())
@@ -92,6 +97,30 @@ class ExamplesSearchViewModel(
         searchJob = viewModelScope.launch {
             val result = provider.search(query)
             _state.update { it.copy(searching = false, results = result.sentences, total = result.total, nextPage = result.nextPage) }
+            loadLearning()
+        }
+    }
+
+    /** Looks the saved terms of the results up again, after one of them may have changed. */
+    fun refreshTerms() {
+        viewModelScope.launch { loadLearning() }
+    }
+
+    private suspend fun loadLearning() {
+        val helper = exampleTerms ?: return
+        val current = _state.value
+        val language = current.language ?: return
+        val found = helper.learning(current.results.map { it.text }, language)
+        _state.update { it.copy(learning = found) }
+    }
+
+    /** A right click on a word of a result: saved as the reader does, with the result as its sentence. */
+    fun markWord(word: String, sentence: String) {
+        val helper = exampleTerms ?: return
+        val language = _state.value.language ?: return
+        viewModelScope.launch {
+            helper.toggle(word, sentence, language)
+            loadLearning()
         }
     }
 
@@ -110,6 +139,7 @@ class ExamplesSearchViewModel(
         viewModelScope.launch {
             val result = provider.nextPage(next, s.query?.targetLanguage ?: "en")
             _state.update { it.copy(loadingMore = false, results = it.results + result.sentences, nextPage = result.nextPage) }
+            loadLearning()
         }
     }
 

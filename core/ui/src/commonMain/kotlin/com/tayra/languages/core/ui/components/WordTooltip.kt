@@ -16,6 +16,11 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.gestures.awaitEachGesture
+import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.ui.input.pointer.isPrimaryPressed
+import androidx.compose.ui.input.pointer.isSecondaryPressed
+import com.tayra.languages.core.ui.theme.TayraTheme
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.input.pointer.PointerEventPass
@@ -89,7 +94,10 @@ fun HoverTranslationPopup(target: IntRect, word: String, translate: suspend (Str
 
 /**
  * Text whose words show their translation in a tooltip above them while the mouse rests on
- * them. [onWordClick], when given, receives the word under a click or tap.
+ * them. [onWordClick], when given, receives the word under a click or tap, and
+ * [onWordSecondaryClick] the word under a right click. [onPhraseSelect] receives the words a
+ * mouse drag ran over, from the first to the last, once the button is released; they show in
+ * the selection colour meanwhile.
  */
 @Composable
 fun HoverTranslatedText(
@@ -98,18 +106,26 @@ fun HoverTranslatedText(
     modifier: Modifier = Modifier,
     style: TextStyle = LocalTextStyle.current,
     onWordClick: ((String) -> Unit)? = null,
+    onWordSecondaryClick: ((String) -> Unit)? = null,
+    onPhraseSelect: ((String) -> Unit)? = null,
 ) {
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
     var hovered by remember(text) { mutableStateOf<HoveredWord?>(null) }
+    var selection by remember(text) { mutableStateOf<IntRange?>(null) }
     val tint = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.22f)
+    val selectedColor = TayraTheme.current.selectedText
     val range = hovered?.range
+    val picked = selection
     // The same characters with the hovered word tinted gray, so the layout and word positions stay put.
-    val shown = remember(text, range, tint) {
-        if (range == null) text else buildAnnotatedString {
+    val shown = remember(text, range, tint, picked, selectedColor) {
+        if (range == null && picked == null) text else buildAnnotatedString {
             append(text)
-            addStyle(SpanStyle(background = tint), range.first, range.last + 1)
+            if (range != null) addStyle(SpanStyle(background = tint), range.first, range.last + 1)
+            if (picked != null) addStyle(SpanStyle(color = selectedColor), picked.first, picked.last + 1)
         }
     }
+    val secondaryClick by rememberUpdatedState(onWordSecondaryClick)
+    val phraseSelect by rememberUpdatedState(onPhraseSelect)
     Box(modifier) {
         // The inner box wraps the text exactly, so the popup's anchor is the text itself.
         Box {
@@ -136,7 +152,42 @@ fun HoverTranslatedText(
                             if (next?.range != hovered?.range) hovered = next
                         }
                     }
-                },
+                }.then(
+                    if (onWordSecondaryClick == null && onPhraseSelect == null) Modifier
+                    else Modifier.pointerInput(text) {
+                        awaitEachGesture {
+                            // A secondary mouse button never sets `pressed`, so wait for the raw press event.
+                            var press = awaitPointerEvent()
+                            while (press.type != PointerEventType.Press) press = awaitPointerEvent()
+                            val down = press.changes.first()
+                            if (down.type != PointerType.Mouse) return@awaitEachGesture
+                            val start = layout?.let { wordUnder(it, text.text, down.position) } ?: return@awaitEachGesture
+                            if (press.buttons.isSecondaryPressed || !press.buttons.isPrimaryPressed) {
+                                var release = awaitPointerEvent()
+                                while (release.type != PointerEventType.Release) release = awaitPointerEvent()
+                                val end = layout?.let { wordUnder(it, text.text, release.changes.first().position) }
+                                if (end?.range == start.range) secondaryClick?.invoke(start.word)
+                                return@awaitEachGesture
+                            }
+                            if (phraseSelect == null) return@awaitEachGesture
+                            var dragged: IntRange? = null
+                            while (true) {
+                                val event = awaitPointerEvent()
+                                val change = event.changes.first()
+                                if (event.type == PointerEventType.Release) {
+                                    // A drag that picked a phrase is not also a click on its last word.
+                                    dragged?.let { change.consume(); phraseSelect?.invoke(text.text.substring(it.first, it.last + 1)) }
+                                    break
+                                }
+                                val over = layout?.let { wordUnder(it, text.text, change.position) } ?: continue
+                                dragged = if (over.range == start.range) null
+                                else minOf(start.range.first, over.range.first)..maxOf(start.range.last, over.range.last)
+                                selection = dragged
+                            }
+                            selection = null
+                        }
+                    },
+                ),
             )
             hovered?.let { HoverTranslationPopup(it.rect, it.word, translate) }
         }

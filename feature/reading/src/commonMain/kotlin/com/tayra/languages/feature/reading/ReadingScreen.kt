@@ -1205,6 +1205,7 @@ private fun EmbeddedTermForm(key: TermFormKey, keyString: String, viewModel: Rea
             is TermFormEvent.Saved -> if (event.keepOpen) viewModel.onTermChanged() else viewModel.onTermFormDone()
             TermFormEvent.Deleted -> viewModel.onTermFormDone()
             is TermFormEvent.OpenParent -> viewModel.openParentTerm(event.languageId, event.text)
+            is TermFormEvent.OpenTerm -> viewModel.openTermFromExample(event.languageId, event.text, event.sentence)
         }
     }
     Column(Modifier.fillMaxSize()) {

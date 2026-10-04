@@ -26,6 +26,7 @@ import com.tayra.languages.core.domain.service.TermTranslationProvider
 import com.tayra.languages.core.domain.service.TermValidationException
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.state.UiEvents
+import com.tayra.languages.feature.terms.examples.ExampleTerms
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.Job
@@ -74,6 +75,8 @@ data class TermFormUiState(
     val dictionary: DictionaryLookup = DictionaryLookup.EMPTY,
     /** The downloadable pack for the language pair and whether it is on the device; null when none exists. */
     val dictionaryPack: PackStatus? = null,
+    /** The terms being learned found in each example, by its text. */
+    val learningInExamples: Map<String, List<Term>> = emptyMap(),
 ) {
     val language: Language? get() = languages.firstOrNull { it.id == draft.languageId }
     val isNew: Boolean get() = draft.isNew
@@ -85,6 +88,9 @@ sealed interface TermFormEvent {
     data class Saved(val termId: Long, val keepOpen: Boolean = false) : TermFormEvent
     data object Deleted : TermFormEvent
     data class OpenParent(val languageId: Long, val text: String) : TermFormEvent
+
+    /** A word or phrase of an example was picked; [sentence] is that example. */
+    data class OpenTerm(val languageId: Long, val text: String, val sentence: String?) : TermFormEvent
 }
 
 private const val AUTOSAVE_DELAY_MS = 700L
@@ -100,6 +106,8 @@ class TermFormViewModel(
     private val examplesProvider: ExampleSentencesProvider,
     private val dictionary: OfflineDictionary,
     private val dictionaries: DictionaryService,
+    /** Lets words of the examples be saved; without it the examples are only shown. */
+    private val exampleTerms: ExampleTerms? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(TermFormUiState())
@@ -256,6 +264,41 @@ class TermFormViewModel(
         val native = settings.current.nativeLanguage.ifBlank { "en" }
         val result = examplesProvider.search(ExampleSearchQuery(text, language, native, minWords = 1, maxWords = 15, sort = ExampleSort.RANDOM, limit = 10))
         _state.update { it.copy(examples = result.sentences, examplesTotal = result.total, loadingExamples = false, nativeLanguage = native) }
+        refreshExampleTerms()
+    }
+
+    private suspend fun refreshExampleTerms() {
+        val helper = exampleTerms ?: return
+        val current = _state.value
+        val language = current.language ?: return
+        val found = helper.learning(current.examples.map { it.text }, language)
+        _state.update { it.copy(learningInExamples = found) }
+    }
+
+    /** A right click on a word of an example: saved as the reader does, with the example as its sentence. */
+    fun markExampleWord(word: String, sentence: String) {
+        val helper = exampleTerms ?: return
+        val language = _state.value.language ?: return
+        viewModelScope.launch {
+            val id = helper.toggle(word, sentence, language) ?: return@launch
+            // The form's own term shows its new status too.
+            if (id == _state.value.draft.id) terms.getById(id)?.let { term -> _state.update { it.copy(draft = it.draft.copy(status = term.status)) } }
+            refreshExampleTerms()
+            events.send(TermFormEvent.Saved(id, keepOpen = true))
+        }
+    }
+
+    /** A click on a word of an example, or a phrase dragged over in one: the form moves on to it. */
+    fun openExampleTerm(text: String, sentence: String) {
+        val languageId = _state.value.draft.languageId
+        if (languageId == 0L || text.isBlank()) return
+        viewModelScope.launch {
+            if (_state.value.dirty) {
+                val saved = doSave() ?: return@launch
+                events.send(TermFormEvent.Saved(saved, keepOpen = true))
+            }
+            events.send(TermFormEvent.OpenTerm(languageId, text.trim(), sentence))
+        }
     }
 
     /** Fills an empty translation with a dictionary gloss; never overwrites what the user typed. */

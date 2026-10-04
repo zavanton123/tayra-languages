@@ -7,6 +7,7 @@ import androidx.navigation.toRoute
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.feature.terms.examples.ExamplesSearchScreen
 import com.tayra.languages.feature.terms.examples.ExamplesSearchViewModel
+import com.tayra.languages.feature.terms.examples.ExampleTerms
 import com.tayra.languages.feature.terms.form.TermEditScreen
 import com.tayra.languages.feature.terms.form.TermFormKey
 import com.tayra.languages.feature.terms.form.TermFormViewModel
@@ -19,10 +20,11 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val termsModule = module {
-    viewModel { (key: TermFormKey) -> TermFormViewModel(key, get(), get(), get(), get(), get(), get(), get(), get()) }
+    single { ExampleTerms(get(), get()) }
+    viewModel { (key: TermFormKey) -> TermFormViewModel(key, get(), get(), get(), get(), get(), get(), get(), get(), get()) }
     viewModel { (termIds: List<Long>?) -> TermsListViewModel(termIds, get(), get(), get(), get(), get()) }
     viewModel { TermImportViewModel(get()) }
-    viewModel { (languageId: Long, text: String) -> ExamplesSearchViewModel(languageId, text, get(), get(), get()) }
+    viewModel { (languageId: Long, text: String) -> ExamplesSearchViewModel(languageId, text, get(), get(), get(), get()) }
 }
 
 /** Editing a term found by text, e.g. when following a parent link. */

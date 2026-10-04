@@ -54,6 +54,7 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.material3.CircularProgressIndicator
 import com.tayra.languages.feature.terms.examples.PrepareSpeech
 import com.tayra.languages.feature.terms.examples.rememberExampleAudio
+import com.tayra.languages.feature.terms.examples.withLearning
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -199,7 +200,7 @@ fun TermFormPanel(
             }
         }
 
-        if (!empty) ExamplesSection(state, language, onOpenExamples)
+        if (!empty) ExamplesSection(state, language, onOpenExamples, onMarkWord = viewModel::markExampleWord, onOpenWord = viewModel::openExampleTerm)
         if (embedded) Spacer(Modifier.height(24.dp))
     }
     if (confirmDelete) {
@@ -651,7 +652,15 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, o
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenExamples: ((Long, String) -> Unit)?) {
+private fun ExamplesSection(
+    state: TermFormUiState,
+    language: Language?,
+    onOpenExamples: ((Long, String) -> Unit)?,
+    /** A right click on a word of an example, with the example. */
+    onMarkWord: (String, String) -> Unit,
+    /** A click on a word, or a phrase dragged over, with the example. */
+    onOpenWord: (String, String) -> Unit,
+) {
     val colors = MaterialTheme.colorScheme
     val term = state.draft.text.replace("\u200B", "")
     var expanded by remember(term) { mutableStateOf(false) }
@@ -693,10 +702,13 @@ private fun ExamplesSection(state: TermFormUiState, language: Language?, onOpenE
                     val sentence = @Composable {
                         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
                             HoverTranslatedText(
-                                emphasize(example.text, term),
+                                emphasize(example.text, term).withLearning(state.learningInExamples[example.text].orEmpty(), TayraTheme.current.statusColors),
                                 translate = translateWord,
                                 style = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
                                 modifier = Modifier.weight(1f).padding(end = 10.dp),
+                                onWordClick = { word -> onOpenWord(word, example.text) },
+                                onWordSecondaryClick = { word -> onMarkWord(word, example.text) },
+                                onPhraseSelect = { phrase -> onOpenWord(phrase, example.text) },
                             )
                             val sound = audio.soundOf(example)
                             RoundIconButton(sound.icon, sound.description, active = sound.playing, loading = sound.loading) { audio.toggle(example, languageCode) }

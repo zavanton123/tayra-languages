@@ -62,6 +62,13 @@ import java.net.InetSocketAddress
 import java.util.Collections
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertNull
+import androidx.compose.ui.test.rightClick
+import com.tayra.languages.core.data.repository.BookRepositoryImpl
+import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
+import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.domain.service.ReadingService
+import com.tayra.languages.feature.terms.examples.ExampleTerms
 
 class ExamplesScreenTest {
 
@@ -70,6 +77,8 @@ class ExamplesScreenTest {
 
     /** What the fake speech engine was asked to read, as "language:text". */
     private val spoken: MutableList<String> = Collections.synchronizedList(mutableListOf())
+    private lateinit var terms: TermRepositoryImpl
+    private var languageId = 0L
 
     @After
     fun tearDown() {
@@ -92,6 +101,86 @@ class ExamplesScreenTest {
 
         rule.onNodeWithContentDescription("Close").performClick()
         rule.waitUntil(5_000) { !termField("voa") }
+    }
+
+    /** Where [word] sits in the text node showing [sentence]; the first node is the results list's. */
+    private fun at(sentence: String, word: String): Offset {
+        val node = rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().first { SemanticsActions.GetTextLayoutResult in it.config }
+        val layouts = mutableListOf<TextLayoutResult>()
+        node.config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        return layouts.single().getBoundingBox(sentence.indexOf(word) + 1).center
+    }
+
+    private fun savedTerm(text: String) = runBlocking { terms.findByTextLc(languageId, text) }
+
+    /** The background the text node of [sentence] paints [word] with, or null. */
+    private fun backgroundOf(sentence: String, word: String): androidx.compose.ui.graphics.Color? {
+        val shown = rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().first().config[androidx.compose.ui.semantics.SemanticsProperties.Text].single()
+        val start = sentence.indexOf(word)
+        return shown.spanStyles.lastOrNull { it.start == start && it.end == start + word.length && it.item.background != androidx.compose.ui.graphics.Color.Unspecified }?.item?.background
+    }
+
+    /** A right click on a word of a result saves it with that result as its sentence and colours it; another makes it known. */
+    @Test
+    fun aRightClickSavesAWordOfAnExample() {
+        val sentence = "O tempo voa depressa."
+        show(listOf(ExampleSentence(text = sentence, translation = null)))
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().isNotEmpty() }
+
+        rule.onAllNodes(hasText(sentence))[0].performMouseInput { rightClick(at(sentence, "voa")) }
+        rule.waitUntil(5_000) { savedTerm("voa")?.status == TermStatus.NEW_1 }
+        assertEquals(sentence, savedTerm("voa")?.sentence)
+        val yellow = com.tayra.languages.core.ui.theme.AppThemes.default.statusColors.background(TermStatus.NEW_1)
+        rule.waitUntil(5_000) { backgroundOf(sentence, "voa") == yellow }
+
+        rule.onAllNodes(hasText(sentence))[0].performMouseInput { rightClick(at(sentence, "voa")) }
+        rule.waitUntil(5_000) { savedTerm("voa")?.status == TermStatus.WELL_KNOWN }
+        assertNull(savedTerm("voa")?.sentence)
+        rule.waitUntil(5_000) { backgroundOf(sentence, "voa") == null }
+    }
+
+    /** Dragging over words of a result opens the phrase in the pane, where a status saves it with the result as its sentence. */
+    @Test
+    fun draggingOverAnExampleOpensThePhrase() {
+        val sentence = "O tempo voa depressa."
+        show(listOf(ExampleSentence(text = sentence, translation = null)))
+        rule.waitUntil(5_000) { termField("tempo") }
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().isNotEmpty() }
+
+        rule.onAllNodes(hasText(sentence))[0].performMouseInput {
+            moveTo(at(sentence, "voa"))
+            press()
+            moveTo(at(sentence, "depressa"))
+            release()
+        }
+        // A phrase's words are joined by zero-width spaces in the term field.
+        rule.waitUntil(5_000) {
+            rule.onAllNodes(hasSetTextAction()).fetchSemanticsNodes().any { node ->
+                androidx.compose.ui.semantics.SemanticsProperties.EditableText in node.config &&
+                    node.config[androidx.compose.ui.semantics.SemanticsProperties.EditableText].text.replace("\u200B", "") == "voa depressa"
+            }
+        }
+
+        val three = hasText("3") and androidx.compose.ui.test.hasClickAction()
+        rule.waitUntil(5_000) { rule.onAllNodes(three).fetchSemanticsNodes().isNotEmpty() }
+        rule.onAllNodes(three)[0].performClick()
+        rule.waitUntil(5_000) { runBlocking { terms.list(com.tayra.languages.core.domain.repository.TermListFilter(languageId = languageId, minStatus = TermStatus.LEARNING_3, maxStatus = TermStatus.LEARNING_3), com.tayra.languages.core.domain.repository.TermListSort(), 0, 5) }.items.isNotEmpty() }
+        val phrase = runBlocking { terms.list(com.tayra.languages.core.domain.repository.TermListFilter(languageId = languageId, minStatus = TermStatus.LEARNING_3, maxStatus = TermStatus.LEARNING_3), com.tayra.languages.core.domain.repository.TermListSort(), 0, 5) }.items.single()
+        assertEquals("voa depressa", phrase.displayText)
+        assertEquals(sentence, phrase.sentence)
+    }
+
+    /** The examples in the term pane work the same way: a right click saves the word with the example as its sentence. */
+    @Test
+    fun aRightClickSavesAWordOfThePanesExamples() {
+        val sentence = "Eu não tenho tempo."
+        show(sentences = emptyList(), paneSentences = listOf(ExampleSentence(text = sentence, translation = null)))
+        rule.waitUntil(5_000) { rule.onAllNodes(hasText(sentence)).fetchSemanticsNodes().isNotEmpty() }
+        rule.onAllNodes(hasText(sentence))[0].performScrollTo()
+
+        rule.onAllNodes(hasText(sentence))[0].performMouseInput { rightClick(at(sentence, "tenho")) }
+        rule.waitUntil(5_000) { savedTerm("tenho")?.status == TermStatus.NEW_1 }
+        assertEquals(sentence, savedTerm("tenho")?.sentence)
     }
 
     /**
@@ -185,10 +274,10 @@ class ExamplesScreenTest {
     private fun show(sentences: List<ExampleSentence>, paneSentences: List<ExampleSentence> = emptyList(), speechDelayMs: Long = 0) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-examples", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
-        val terms = TermRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider).also { this.terms = it }
         val settings = SettingsRepositoryImpl(MapSettings())
         runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER) } }
-        val languageId = runBlocking { languages.save(Language(name = "Portuguese")) }
+        val languageId = runBlocking { languages.save(Language(name = "Portuguese")) }.also { this.languageId = it }
         val examples = object : ExampleSentencesProvider {
             override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult(sentences, sentences.size, null)
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
@@ -211,6 +300,8 @@ class ExamplesScreenTest {
             },
         )
         val termService = TermService(terms, languages)
+        val readingService = ReadingService(BookRepositoryImpl(provider), languages, terms, WordsReadRepositoryImpl(provider), termService)
+        val exampleTerms = ExampleTerms(readingService, termService)
         startKoin {
             modules(module {
                 single { LocalSpeech(listOf(RecordingSpeech(spoken, speechDelayMs))) }
@@ -224,10 +315,10 @@ class ExamplesScreenTest {
                     override suspend fun search(query: ExampleSearchQuery) = ExampleSearchResult(paneSentences, paneSentences.size, null)
                     override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
                 }
-                viewModel { (key: TermFormKey) -> TermFormViewModel(key, termService, terms, languages, settings, engine, paneExamples, dictionaries, dictionaries) }
+                viewModel { (key: TermFormKey) -> TermFormViewModel(key, termService, terms, languages, settings, engine, paneExamples, dictionaries, dictionaries, exampleTerms) }
             })
         }
-        val vm = ExamplesSearchViewModel(languageId, "tempo", languages, settings, examples)
+        val vm = ExamplesSearchViewModel(languageId, "tempo", languages, settings, examples, exampleTerms)
         rule.setContent { ExamplesSearchScreen(languageId, "tempo", onNavigate = {}, onBack = {}, viewModel = vm) }
     }
 

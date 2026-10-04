@@ -507,6 +507,11 @@ class ReadingViewModel(
         }
     }
 
+    /** Opens a word or phrase picked in one of the term pane's examples; that example is its sentence. */
+    fun openTermFromExample(languageId: Long, text: String, sentence: String?) {
+        _state.update { it.copy(panel = ReadingPanel.NewTerm(languageId, text, sentence)) }
+    }
+
     private suspend fun afterTermChange() {
         bookStats.markStale(bookId)
         load(_state.value.pageNumber, trackOpen = false, keepMarked = true)
