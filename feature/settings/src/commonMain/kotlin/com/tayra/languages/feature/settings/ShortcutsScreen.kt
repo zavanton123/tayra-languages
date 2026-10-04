@@ -124,7 +124,6 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
             } else {
                 groups.forEach { (category, actions) -> card(category, actions) }
             }
-            SavedFooter()
         }
     }
 
@@ -457,18 +456,5 @@ private fun KeyListener(onDone: () -> Unit, onAssign: (Hotkey?) -> Unit) {
             Spacer(Modifier.width(6.dp))
             Text("Listening", style = MaterialTheme.typography.bodySmall, color = primary)
         }
-    }
-}
-
-@Composable
-private fun SavedFooter() {
-    Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp)).padding(horizontal = 24.dp, vertical = 18.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Icon(Icons.Default.CheckCircle, contentDescription = null, tint = SettingsColors.ok, modifier = Modifier.size(26.dp))
-        Spacer(Modifier.width(14.dp))
-        Text("Changes are saved automatically.", style = MaterialTheme.typography.bodyLarge)
     }
 }
