@@ -59,8 +59,8 @@ fun LanguageCodeBadge(languageName: String, size: Dp = 28.dp) {
 }
 
 /**
- * The global choice of the language being learned, for the top bar: the name with its badge on
- * wide screens, just the badge on [compact] ones. Shows nothing until languages exist.
+ * The global choice of the language being learned, for the top bar: the name with its flag on
+ * wide screens, just the flag on [compact] ones. Shows nothing until languages exist.
  */
 @Composable
 fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
@@ -79,7 +79,7 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(if (compact) 4.dp else 10.dp),
         ) {
-            LanguageCodeBadge(name, if (compact) 26.dp else 32.dp)
+            LanguageFlag(name, if (compact) 18.dp else 22.dp)
             if (!compact) {
                 Column {
                     Text("LEARNING LANGUAGE", fontSize = 10.sp, letterSpacing = 0.8.sp, color = colors.onSurfaceVariant, fontWeight = FontWeight.Medium, lineHeight = 12.sp)
@@ -93,7 +93,7 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
                 AppMenuItem(
                     text = {
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                            LanguageCodeBadge(language, 24.dp)
+                            LanguageFlag(language, 18.dp)
                             Text(language, Modifier.weight(1f), fontWeight = if (id == state.currentId) FontWeight.SemiBold else FontWeight.Normal)
                             if (id == state.currentId) Icon(Icons.Default.Check, contentDescription = "Selected", tint = colors.primary, modifier = Modifier.size(18.dp))
                         }
