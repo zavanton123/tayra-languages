@@ -156,7 +156,6 @@ FROM terms t
 INNER JOIN languages l ON l.id = t.language_id
 WHERE (:languageId IS NULL OR t.language_id = :languageId)
   AND (:search = '' OR t.text_lc LIKE :search OR lower(COALESCE(t.translation, '')) LIKE :search)
-  AND (:parentsOnly = 0 OR NOT EXISTS (SELECT 1 FROM term_parents tp WHERE tp.term_id = t.id))
   AND ((t.status BETWEEN :minStatus AND :maxStatus AND t.status != 98) OR (:includeIgnored = 1 AND t.status = 98))
   AND (:minCreated IS NULL OR t.created_at <= :minCreated)
   AND (:maxCreated IS NULL OR t.created_at >= :maxCreated)
@@ -179,7 +178,6 @@ FROM terms t
 INNER JOIN languages l ON l.id = t.language_id
 WHERE (:languageId IS NULL OR t.language_id = :languageId)
   AND (:search = '' OR t.text_lc LIKE :search OR lower(COALESCE(t.translation, '')) LIKE :search)
-  AND (:parentsOnly = 0 OR NOT EXISTS (SELECT 1 FROM term_parents tp WHERE tp.term_id = t.id))
   AND ((t.status BETWEEN :minStatus AND :maxStatus AND t.status != 98) OR (:includeIgnored = 1 AND t.status = 98))
   AND (:minCreated IS NULL OR t.created_at <= :minCreated)
   AND (:maxCreated IS NULL OR t.created_at >= :maxCreated)

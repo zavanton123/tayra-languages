@@ -12,10 +12,4 @@ class TermTextNormalizerTest {
         assertEquals("a​ ​dog", term.textLc)
         assertEquals(3, term.tokenCount)
     }
-
-    @Test
-    fun csvQuotesOnlyWhatNeedsIt() {
-        val rows = listOf(listOf("a", "b,c", "d\"e"), listOf("1", "", "x\ny"))
-        assertEquals("a,\"b,c\",\"d\"\"e\"\n1,,\"x\ny\"", Csv.format(rows))
-    }
 }

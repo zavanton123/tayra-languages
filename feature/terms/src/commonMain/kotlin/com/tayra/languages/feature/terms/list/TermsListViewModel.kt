@@ -16,7 +16,6 @@ import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.export.AnkiExportService
 import com.tayra.languages.core.domain.service.TermValidationException
 import com.tayra.languages.core.domain.settings.SettingsRepository
-import com.tayra.languages.core.domain.term.Csv
 import com.tayra.languages.core.ui.state.UiEvents
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -61,7 +60,6 @@ data class TermsListUiState(
 }
 
 sealed interface TermsListEvent {
-    data class ExportReady(val csv: String) : TermsListEvent
     class AnkiReady(val export: AnkiExportService.Export) : TermsListEvent
 }
 
@@ -249,28 +247,7 @@ class TermsListViewModel(
         message.value = "Exported $count word${if (count == 1) "" else "s"} to Anki$skipped"
     }
 
-    fun exportCsv() = viewModelScope.launch {
-        val all = terms.list(filter.value, sort.value, 0, 1_000_000).items
-        val languageNames = state.value.languages.associate { it.id to it.name }
-        val rows = listOf(CSV_HEADERS) + all.map { term ->
-            listOf(
-                term.displayText,
-                term.parents.joinToString(", ") { it.displayText },
-                term.translation.orEmpty(),
-                languageNames[term.languageId].orEmpty(),
-                term.status.value.toString(),
-                if (term.syncStatus) "y" else "",
-                term.romanization.orEmpty(),
-                term.sentence.orEmpty(),
-            )
-        }
-        events.send(TermsListEvent.ExportReady(Csv.format(rows)))
-    }
-
     companion object {
         const val PAGE_SIZE = 50
     }
 }
-
-/** The columns of the vocabulary CSV export, in Lute's order with the learning sentence last. */
-private val CSV_HEADERS = listOf("term", "parent", "translation", "language", "status", "link_status", "pronunciation", "sentence")

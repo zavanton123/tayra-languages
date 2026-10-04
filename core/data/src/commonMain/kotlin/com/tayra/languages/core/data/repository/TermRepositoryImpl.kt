@@ -269,7 +269,6 @@ class TermRepositoryImpl(
         database.termsQueries.listTerms(
             languageId = filter.languageId?.takeIf { it != 0L },
             search = searchPattern(filter),
-            parentsOnly = if (filter.parentsOnly) 1L else 0L,
             minStatus = filter.minStatus.value.toLong(),
             maxStatus = filter.maxStatus.value.toLong(),
             includeIgnored = if (filter.includeIgnored) 1L else 0L,
@@ -286,7 +285,6 @@ class TermRepositoryImpl(
         database.termsQueries.countTerms(
             languageId = filter.languageId?.takeIf { it != 0L },
             search = searchPattern(filter),
-            parentsOnly = if (filter.parentsOnly) 1L else 0L,
             minStatus = filter.minStatus.value.toLong(),
             maxStatus = filter.maxStatus.value.toLong(),
             includeIgnored = if (filter.includeIgnored) 1L else 0L,

@@ -11,7 +11,6 @@ import kotlin.time.Instant
 data class TermListFilter(
     val languageId: Long? = null,
     val search: String = "",
-    val parentsOnly: Boolean = false,
     val minStatus: TermStatus = TermStatus.UNKNOWN,
     val maxStatus: TermStatus = TermStatus.WELL_KNOWN,
     val includeIgnored: Boolean = false,

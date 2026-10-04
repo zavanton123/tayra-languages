@@ -81,7 +81,6 @@ import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.TayraTheme
-import com.tayra.languages.feature.terms.export.saveTextFile
 import com.tayra.languages.core.ui.files.saveBinaryFile
 import kotlinx.coroutines.launch
 import kotlinx.datetime.DateTimeUnit
@@ -121,12 +120,11 @@ fun TermsScreen(
     val scope = androidx.compose.runtime.rememberCoroutineScope()
     CollectEvents(viewModel.events) { event ->
         when (event) {
-            is TermsListEvent.ExportReady -> scope.launch { saveTextFile("terms", "csv", event.csv) }
             is TermsListEvent.AnkiReady -> scope.launch { if (saveBinaryFile(event.export.fileName.removeSuffix(".apkg"), "apkg", event.export.bytes)) viewModel.ankiSaved(event.export) }
         }
     }
     val compact = LocalWindowWidth.current.isCompact
-    val listActions = ListActions(onBulk = { bulkEdit = true }, onDelete = { confirmDelete = true }, onExport = viewModel::exportCsv)
+    val listActions = ListActions(onBulk = { bulkEdit = true }, onDelete = { confirmDelete = true })
 
     Scaffold(
         topBar = {
@@ -200,7 +198,7 @@ fun TermsScreen(
     }
 }
 
-private class ListActions(val onBulk: () -> Unit, val onDelete: () -> Unit, val onExport: () -> Unit)
+private class ListActions(val onBulk: () -> Unit, val onDelete: () -> Unit)
 
 private class RowActions(
     /** Reads a word or its example aloud. */
@@ -220,7 +218,6 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             AppMenuItem(text = { Text(if (selected > 0) "Bulk edit $selected selected" else "Bulk edit selected") }, enabled = selected > 0, onClick = { open = false; actions.onBulk() })
             AppMenuItem(text = { Text(if (selected > 0) "Delete $selected selected" else "Delete selected") }, enabled = selected > 0, onClick = { open = false; actions.onDelete() })
-            AppMenuItem(text = { Text("Export CSV") }, onClick = { open = false; actions.onExport() })
         }
     }
 }
@@ -400,14 +397,6 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
                 shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.width(150.dp),
             )
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Checkbox(checked = filter.parentsOnly, onCheckedChange = { v -> viewModel.updateFilter { it.copy(parentsOnly = v) } })
-                Text("Parent terms only")
-            }
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Checkbox(checked = filter.includeIgnored, onCheckedChange = { v -> viewModel.updateFilter { it.copy(includeIgnored = v) } })
-                Text("Include ignored")
-            }
             TextButton(onClick = viewModel::clearFilters) { Text("Clear all") }
         }
         if (filter.termIds != null) {
