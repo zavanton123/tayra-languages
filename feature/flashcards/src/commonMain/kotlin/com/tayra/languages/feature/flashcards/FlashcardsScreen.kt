@@ -60,17 +60,18 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.components.AppIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.flashcards.CardState
-import com.tayra.languages.core.domain.flashcards.DueCounts
 import com.tayra.languages.core.domain.flashcards.Rating
 import com.tayra.languages.core.domain.service.SentenceAudio
 import com.tayra.languages.core.ui.audio.SpeakButton
 import com.tayra.languages.core.ui.audio.Speaker
 import com.tayra.languages.core.ui.audio.rememberSpeaker
 import com.tayra.languages.core.ui.components.AppTopBar
-import com.tayra.languages.core.ui.components.HeaderButton
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
@@ -129,14 +130,7 @@ internal class FlashcardActions(
     val onVocabulary: () -> Unit = {},
 )
 
-// The card's colours are those of the cards exported to Anki, the same in every theme.
-private val CARD_TOP = Color(0xFF24324F)
-private val CARD_TEXT = Color(0xFFFFFFFF)
-private val CARD_MUTED = Color(0xFFAAB6D0)
-private val CARD_WORD = Color(0xFFFFD166)
-private val CARD_BOTTOM = Color(0xFFF7F5EF)
-private val CARD_BOTTOM_TEXT = Color(0xFF222222)
-private val CARD_BOTTOM_MUTED = Color(0xFF444444)
+private val WORD_HIGHLIGHT = Color(0xFFFFD166)
 private val POS_BACKGROUND = Color(0xFFFFE9A8)
 private val POS_TEXT = Color(0xFF7A6A3A)
 
@@ -179,136 +173,208 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
         contentAlignment = Alignment.TopCenter,
     ) {
         Column(
-            Modifier.widthIn(max = 900.dp).fillMaxWidth().padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 28.dp),
-            verticalArrangement = Arrangement.spacedBy(20.dp),
+            Modifier.widthIn(max = 1048.dp).fillMaxWidth().padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 28.dp),
+            verticalArrangement = Arrangement.spacedBy(if (compact) 16.dp else 22.dp),
         ) {
             Header(state, compact, actions)
+            Progress(state, compact)
             val card = state.card
             if (card == null) {
                 Finished(state, actions)
             } else {
-                Card(card, state.revealed, speaker, compact)
-                Answers(state, actions, compact)
+                Card(card, state.revealed, speaker, compact, actions.onReveal)
+                if (state.revealed) Answers(state, actions, compact)
                 CardFooter(card, state.canUndo, actions)
             }
         }
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun Header(state: FlashcardsUiState, compact: Boolean, actions: FlashcardActions) {
-    FlowRow(
-        Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.spacedBy(12.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-        itemVerticalAlignment = Alignment.CenterVertically,
-    ) {
+    val colors = MaterialTheme.colorScheme
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Column(Modifier.weight(1f)) {
             Text("Flashcards", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             Text(
                 if (state.languageName.isEmpty()) "Review the words you are learning." else "Review the ${state.languageName} words you are learning.",
                 style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                color = colors.onSurfaceVariant,
             )
         }
-        Counts(state.counts)
-        HeaderButton(if (compact) "" else "Settings", Icons.Default.Settings, onClick = actions.onSettings)
+        Box(
+            Modifier.size(44.dp).clip(RoundedCornerShape(10.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
+                .clickable(onClick = actions.onSettings),
+            contentAlignment = Alignment.Center,
+        ) {
+            Icon(Icons.Default.Settings, contentDescription = "Flashcard settings", tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
+        }
     }
 }
 
-/** New, learning and review cards waiting today, as under Anki's cards. */
+/** How far through today's cards the session is, with the new, learning and review cards still waiting, as under Anki's cards. */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun Counts(counts: DueCounts) {
-    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        CountPill("New", counts.new, NEW_TINT)
-        CountPill("Learning", counts.learning, LEARNING_TINT)
-        CountPill("To review", counts.review, REVIEW_TINT)
+private fun Progress(state: FlashcardsUiState, compact: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    val counts = state.counts
+    // Answers given this session plus what still waits; a card answered Again waits again, so the total can grow.
+    val total = state.answered + counts.total
+    val current = if (state.card != null) (state.answered + 1).coerceAtMost(total.coerceAtLeast(1)) else state.answered
+    val pills: @Composable () -> Unit = {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            CountPill("New", counts.new, NEW_TINT)
+            PillDivider()
+            CountPill("Learning", counts.learning, LEARNING_TINT)
+            PillDivider()
+            CountPill("To review", counts.review, REVIEW_TINT)
+        }
     }
+    val bar: @Composable (Modifier) -> Unit = { m ->
+        Box(m.height(10.dp).clip(RoundedCornerShape(5.dp)).background(colors.onSurface.copy(alpha = 0.08f))) {
+            val share = if (total > 0) current.toFloat() / total else 0f
+            if (share > 0f) Box(Modifier.fillMaxWidth(share.coerceIn(0f, 1f)).height(10.dp).clip(RoundedCornerShape(5.dp)).background(NEW_TINT))
+        }
+    }
+    val label: @Composable () -> Unit = {
+        Text(
+            when {
+                total == 0 -> "No cards today"
+                state.card == null -> "$current of $total answered"
+                else -> "Card $current of $total"
+            },
+            style = MaterialTheme.typography.bodyLarge,
+            color = colors.onSurfaceVariant,
+            softWrap = false,
+            modifier = Modifier.testTag("flashcard-progress"),
+        )
+    }
+    val box = Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp))
+    if (compact) {
+        Column(box.padding(14.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                label()
+                bar(Modifier.weight(1f))
+            }
+            pills()
+        }
+    } else {
+        Row(box.padding(horizontal = 20.dp, vertical = 14.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(22.dp)) {
+            label()
+            bar(Modifier.weight(1f))
+            pills()
+        }
+    }
+}
+
+@Composable
+private fun PillDivider() {
+    Box(Modifier.width(1.dp).height(22.dp).background(MaterialTheme.colorScheme.outlineVariant))
 }
 
 @Composable
 private fun CountPill(label: String, count: Int, tint: Color) {
     Row(
         Modifier.clip(RoundedCornerShape(50)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.3f), RoundedCornerShape(50))
-            .padding(horizontal = 12.dp, vertical = 6.dp).testTag("count-$label"),
+            .padding(horizontal = 12.dp, vertical = 5.dp).testTag("count-$label"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(6.dp),
     ) {
         Text("$count", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold, color = tint)
-        Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurface)
+        Text(label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurface, softWrap = false)
     }
 }
 
 /**
- * The card. Its front is the sentence the word was read in with the word blanked out, over the
- * sentence's translation; the answer puts the word back and adds the word with its part of
- * speech, translation and romanization. A word saved without a sentence is shown on its own.
+ * The card, with the content of the cards exported to Anki. Its front is the sentence the word
+ * was read in with the word blanked out, over the sentence's translation; the answer puts the
+ * word back and adds the word with its part of speech, translation and romanization. A word
+ * saved without a sentence is shown on its own.
  */
 @Composable
-private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compact: Boolean) {
+private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compact: Boolean, onReveal: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
-    val sentenceSize = if (compact) 24.sp else 30.sp
-    Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(22.dp)).testTag("flashcard")) {
-        Column(
-            Modifier.fillMaxWidth().background(CARD_TOP).heightIn(min = if (compact) 160.dp else 220.dp).padding(horizontal = if (compact) 20.dp else 40.dp, vertical = if (compact) 24.dp else 36.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(16.dp, Alignment.CenterVertically),
-        ) {
+    val sentenceSize = if (compact) 22.sp else 30.sp
+    val inset = if (compact) 18.dp else 32.dp
+    Column(
+        Modifier.fillMaxWidth().clip(RoundedCornerShape(18.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(18.dp))
+            .padding(horizontal = inset, vertical = if (compact) 18.dp else 22.dp).testTag("flashcard"),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Row(Modifier.fillMaxWidth().heightIn(min = 48.dp), verticalAlignment = Alignment.CenterVertically) {
             StateLabel(card.state)
-            val sentence = card.sentence
-            val range = card.wordRange
-            val front = when {
-                sentence == null -> buildAnnotatedString { withStyle(SpanStyle(color = CARD_WORD, fontWeight = FontWeight.SemiBold)) { append(card.word) } }
-                range == null -> buildAnnotatedString {
-                    // The word is not in the sentence as written: it leads, as on the exported card.
-                    withStyle(SpanStyle(color = CARD_WORD, fontWeight = FontWeight.SemiBold)) { append(if (revealed) card.word else BLANK) }
-                    append("\n")
-                    append(sentence)
-                }
-                else -> buildAnnotatedString {
-                    append(sentence.substring(0, range.first))
-                    withStyle(SpanStyle(color = CARD_WORD, fontWeight = FontWeight.SemiBold)) { append(if (revealed) sentence.substring(range) else BLANK) }
-                    append(sentence.substring(range.last + 1))
-                }
-            }
-            Text(
-                front,
-                style = TextStyle(fontSize = sentenceSize, lineHeight = sentenceSize * 1.35f, color = CARD_TEXT, textAlign = TextAlign.Center, textDirection = direction),
-                modifier = Modifier.testTag("flashcard-front"),
-            )
-            card.sentenceTranslation?.let {
-                Text(it, style = TextStyle(fontSize = if (compact) 16.sp else 19.sp, lineHeight = 26.sp, color = CARD_MUTED, textAlign = TextAlign.Center))
+            Spacer(Modifier.weight(1f))
+            if (speaker != null) {
+                Box(
+                    Modifier.size(48.dp).clip(RoundedCornerShape(12.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(12.dp)),
+                    contentAlignment = Alignment.Center,
+                ) { SpeakButton(card.spoken, card.languageCode, speaker, Modifier.size(44.dp)) }
             }
         }
+        val highlight = SpanStyle(background = WORD_HIGHLIGHT.copy(alpha = 0.55f), fontWeight = FontWeight.SemiBold)
+        val sentence = card.sentence
+        val range = card.wordRange
+        val front = when {
+            sentence == null -> buildAnnotatedString { withStyle(highlight) { append(card.word) } }
+            range == null -> buildAnnotatedString {
+                // The word is not in the sentence as written: it leads, as on the exported card.
+                withStyle(highlight) { append(if (revealed) card.word else BLANK) }
+                append("\n")
+                append(sentence)
+            }
+            else -> buildAnnotatedString {
+                append(sentence.substring(0, range.first))
+                withStyle(highlight) { append(if (revealed) sentence.substring(range) else BLANK) }
+                append(sentence.substring(range.last + 1))
+            }
+        }
+        Text(
+            front,
+            style = TextStyle(fontSize = sentenceSize, lineHeight = sentenceSize * 1.45f, color = colors.onSurface, fontWeight = FontWeight.Medium, textAlign = TextAlign.Center, textDirection = direction),
+            modifier = Modifier.padding(top = if (compact) 8.dp else 12.dp, bottom = if (compact) 16.dp else 24.dp).testTag("flashcard-front"),
+        )
+        card.sentenceTranslation?.let { translation ->
+            HorizontalDivider(color = colors.outlineVariant)
+            Text(
+                translation,
+                Modifier.padding(top = 14.dp).fillMaxWidth().clip(RoundedCornerShape(10.dp)).background(colors.primary.copy(alpha = 0.05f))
+                    .padding(horizontal = if (compact) 14.dp else 40.dp, vertical = 16.dp),
+                style = TextStyle(fontSize = if (compact) 15.sp else 18.sp, lineHeight = 26.sp, color = colors.onSurfaceVariant, textAlign = TextAlign.Center),
+            )
+        }
         if (revealed) {
+            HorizontalDivider(Modifier.padding(top = 16.dp), color = colors.outlineVariant)
             Column(
-                Modifier.fillMaxWidth().background(CARD_BOTTOM).padding(horizontal = if (compact) 20.dp else 40.dp, vertical = 22.dp).testTag("flashcard-answer"),
+                Modifier.fillMaxWidth().padding(top = 18.dp, bottom = 4.dp).testTag("flashcard-answer"),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(6.dp),
             ) {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp, Alignment.CenterHorizontally)) {
-                    if (speaker != null) SpeakButton(card.word, card.languageCode, speaker, Modifier.size(36.dp))
-                    Text(card.word, style = TextStyle(fontSize = if (compact) 24.sp else 28.sp, fontWeight = FontWeight.Medium, color = CARD_BOTTOM_TEXT, textDirection = direction))
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterHorizontally)) {
+                    if (speaker != null) SpeakButton(card.word, card.languageCode, speaker, Modifier.size(40.dp))
+                    Text(card.word, style = TextStyle(fontSize = if (compact) 24.sp else 30.sp, fontWeight = FontWeight.Medium, color = colors.onSurface, textDirection = direction))
                     if (card.partOfSpeech.isNotEmpty()) {
                         Text(
                             card.partOfSpeech.uppercase(),
                             Modifier.clip(RoundedCornerShape(6.dp)).background(POS_BACKGROUND).padding(horizontal = 9.dp, vertical = 3.dp),
-                            style = TextStyle(fontSize = 12.sp, letterSpacing = 1.2.sp, color = POS_TEXT, fontWeight = FontWeight.Medium),
+                            style = TextStyle(fontSize = 12.sp, letterSpacing = 1.2.sp, color = POS_TEXT, fontWeight = FontWeight.SemiBold),
                         )
                     }
                 }
                 Text(
                     card.translation.ifEmpty { "No translation saved yet" },
-                    style = TextStyle(fontSize = if (compact) 18.sp else 22.sp, color = if (card.translation.isEmpty()) CARD_BOTTOM_MUTED.copy(alpha = 0.6f) else CARD_BOTTOM_MUTED, textAlign = TextAlign.Center),
+                    style = TextStyle(fontSize = if (compact) 18.sp else 22.sp, color = if (card.translation.isEmpty()) colors.outline else colors.onSurfaceVariant, textAlign = TextAlign.Center),
                 )
-                if (card.romanization.isNotEmpty()) Text(card.romanization, style = TextStyle(fontSize = 16.sp, color = Color(0xFF8A7F66)))
-                if (speaker != null && card.sentence != null) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        SpeakButton(card.sentence, card.languageCode, speaker, Modifier.size(36.dp))
-                        Text("Listen to the sentence", style = TextStyle(fontSize = 14.sp, color = CARD_BOTTOM_MUTED))
-                    }
-                }
+                if (card.romanization.isNotEmpty()) Text(card.romanization, style = MaterialTheme.typography.bodyLarge, color = colors.outline)
+            }
+        } else {
+            Button(
+                onClick = onReveal,
+                shape = RoundedCornerShape(12.dp),
+                modifier = Modifier.padding(top = 20.dp, bottom = 8.dp).widthIn(min = if (compact) 220.dp else 360.dp).height(if (compact) 52.dp else 64.dp),
+            ) {
+                Text("Show answer", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                if (!compact) KeyHint("Space")
             }
         }
     }
@@ -319,37 +385,33 @@ private const val BLANK = "[...]"
 @Composable
 private fun StateLabel(state: CardState) {
     val (label, tint) = when (state) {
-        CardState.NEW -> "NEW" to Color(0xFF8FB1FF)
-        CardState.LEARNING -> "LEARNING" to Color(0xFFFFB38A)
-        CardState.RELEARNING -> "RELEARNING" to Color(0xFFFFB38A)
-        CardState.REVIEW -> "REVIEW" to Color(0xFF8ADBA6)
+        CardState.NEW -> "NEW" to NEW_TINT
+        CardState.LEARNING -> "LEARNING" to LEARNING_TINT
+        CardState.RELEARNING -> "RELEARNING" to LEARNING_TINT
+        CardState.REVIEW -> "REVIEW" to REVIEW_TINT
     }
-    Text(label, style = TextStyle(fontSize = 12.sp, letterSpacing = 1.4.sp, color = tint, fontWeight = FontWeight.SemiBold))
+    Text(
+        label,
+        Modifier.clip(RoundedCornerShape(8.dp)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.25f), RoundedCornerShape(8.dp))
+            .padding(horizontal = 14.dp, vertical = 6.dp),
+        style = TextStyle(fontSize = 13.sp, letterSpacing = 1.2.sp, color = tint, fontWeight = FontWeight.Bold),
+    )
 }
 
-/** "Show answer", then the four answers with how long each puts the card away for. */
+/** The four answers with how long each puts the card away for. */
 @Composable
 private fun Answers(state: FlashcardsUiState, actions: FlashcardActions, compact: Boolean) {
-    if (!state.revealed) {
-        Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
-            Button(onClick = actions.onReveal, shape = RoundedCornerShape(12.dp), modifier = Modifier.widthIn(min = 240.dp).height(52.dp)) {
-                Text("Show answer", style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
-                if (!compact) KeyHint("Space", onPrimary = true)
-            }
-        }
-        return
-    }
     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(if (compact) 8.dp else 14.dp)) {
         Rating.entries.forEach { rating ->
             val tint = rating.tint
             Column(
                 Modifier.weight(1f).clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.45f), RoundedCornerShape(12.dp))
-                    .clickable(onClickLabel = rating.label) { actions.onAnswer(rating) }.padding(vertical = 10.dp, horizontal = 6.dp).testTag("answer-${rating.label}"),
+                    .clickable(onClickLabel = rating.label) { actions.onAnswer(rating) }.padding(vertical = 12.dp, horizontal = 6.dp).testTag("answer-${rating.label}"),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(2.dp),
+                verticalArrangement = Arrangement.spacedBy(3.dp),
             ) {
                 Text(state.waits[rating].orEmpty(), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                Text(rating.label, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = tint)
+                Text(rating.label, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = tint)
                 if (!compact) Text("${rating.value}", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.outline)
             }
         }
@@ -357,31 +419,33 @@ private fun Answers(state: FlashcardsUiState, actions: FlashcardActions, compact
 }
 
 @Composable
-private fun KeyHint(key: String, onPrimary: Boolean = false) {
-    val colors = MaterialTheme.colorScheme
-    Spacer(Modifier.width(12.dp))
+private fun KeyHint(key: String) {
+    Spacer(Modifier.width(14.dp))
     Text(
         key,
-        Modifier.clip(RoundedCornerShape(6.dp)).background((if (onPrimary) colors.onPrimary else colors.onSurface).copy(alpha = 0.16f)).padding(horizontal = 8.dp, vertical = 2.dp),
-        style = MaterialTheme.typography.labelMedium,
+        Modifier.clip(RoundedCornerShape(6.dp)).background(MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.18f)).padding(horizontal = 10.dp, vertical = 3.dp),
+        style = MaterialTheme.typography.labelLarge,
     )
 }
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardActions) {
-    FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(4.dp, Alignment.CenterHorizontally), itemVerticalAlignment = Alignment.CenterVertically) {
-        TextButton(onClick = actions.onUndo, enabled = canUndo) {
-            Icon(Icons.Default.Refresh, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(6.dp))
-            Text("Undo last answer")
-        }
-        TextButton(onClick = { actions.onEdit(card.termId) }) {
-            Icon(Icons.Default.Edit, contentDescription = null, modifier = Modifier.size(18.dp))
-            Spacer(Modifier.width(6.dp))
-            Text("Edit term")
-        }
-        TextButton(onClick = actions.onSuspend) { Text("Suspend card") }
+    FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally), itemVerticalAlignment = Alignment.CenterVertically) {
+        FooterLink(Icons.Default.Refresh, "Undo last answer", enabled = canUndo, onClick = actions.onUndo)
+        PillDivider()
+        FooterLink(Icons.Default.Edit, "Edit term", onClick = { actions.onEdit(card.termId) })
+        PillDivider()
+        FooterLink(AppIcons.Pause, "Suspend card", onClick = actions.onSuspend)
+    }
+}
+
+@Composable
+private fun FooterLink(icon: ImageVector, label: String, enabled: Boolean = true, onClick: () -> Unit) {
+    TextButton(onClick = onClick, enabled = enabled) {
+        Icon(icon, contentDescription = null, modifier = Modifier.size(20.dp))
+        Spacer(Modifier.width(8.dp))
+        Text(label, style = MaterialTheme.typography.bodyLarge)
     }
 }
 

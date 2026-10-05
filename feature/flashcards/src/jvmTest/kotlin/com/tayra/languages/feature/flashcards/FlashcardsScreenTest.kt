@@ -119,6 +119,7 @@ class FlashcardsScreenTest {
         onNodeWithText("Quando precisamos [...] alguma coisa, passamos no supermercado.").assertExists()
         assertEquals(0, onAllNodesWithTag("flashcard-answer").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithText("купить, покупать").fetchSemanticsNodes().size)
+        onNodeWithText("Card 1 of 1").assertExists()
         save("FLASHCARD_FRONT_SCREENSHOT")
 
         onNodeWithText("Show answer").performClick()
@@ -141,6 +142,8 @@ class FlashcardsScreenTest {
         // Ten minutes to wait and nothing else to show: the card comes straight back, as in Anki.
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("LEARNING").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(TermStatus.NEW_1, status())
+        // One answer given, one card still waiting.
+        onNodeWithText("Card 2 of 2").assertExists()
 
         // Space shows the answer, and Space again answers Good.
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Spacebar) }
@@ -148,6 +151,7 @@ class FlashcardsScreenTest {
         onNodeWithTag("flashcard").performKeyInput { pressKey(Key.Spacebar) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("All done for today").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(TermStatus.NEW_2, status(), "the card now waits a day or more")
+        onNodeWithText("2 of 2 answered").assertExists()
         save("FLASHCARD_DONE_SCREENSHOT")
 
         onNodeWithText("Undo last answer").performClick()
