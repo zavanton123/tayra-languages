@@ -299,7 +299,7 @@ fun ReadingScreen(
             }
             Row(Modifier.weight(1f).background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else 0.3f))) {
                 Box(Modifier.weight(1f).fillMaxHeight()) {
-                    ReadingBody(state, viewModel, speaker, continuous, onHome = onHome, onSettings = { onNavigate(Route.OfflineTranslation) }, focusText = { runCatching { focusRequester.requestFocus() } })
+                    ReadingBody(state, viewModel, speaker, continuous, onHome = onHome, onPractice = { onNavigate(Route.Practice(bookId, state.pageNumber)) }, onSettings = { onNavigate(Route.OfflineTranslation) }, focusText = { runCatching { focusRequester.requestFocus() } })
                 }
                 if (wide && state.panel != ReadingPanel.None) {
                     Surface(
@@ -670,6 +670,7 @@ private fun ReadingBody(
     speaker: Speaker,
     continuous: ContinuousReading,
     onHome: () -> Unit,
+    onPractice: () -> Unit,
     onSettings: () -> Unit,
     focusText: () -> Unit,
 ) {
@@ -799,7 +800,7 @@ private fun ReadingBody(
             if (state.selecting) {
                 Text("Long-press the last word of the expression, or tap to cancel.", style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
-            if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome, edgePadding)
+            if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome, onPractice, edgePadding)
         }
         Spacer(Modifier.height(120.dp))
     }
@@ -1012,7 +1013,7 @@ private fun PageVocabulary(state: ReadingUiState) {
 }
 
 @Composable
-private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, edgePadding: Dp) {
+private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, onHome: () -> Unit, onPractice: () -> Unit, edgePadding: Dp) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val uriHandler = LocalUriHandler.current
@@ -1030,12 +1031,16 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         val markRemaining: @Composable (Modifier) -> Unit = { modifier ->
             if (unknowns > 0) MarkRemainingButton(unknowns, modifier) { viewModel.markPageRead(true, if (last) 0 else 1) }
         }
+        // Practice asks about the words being learned, so it is offered only when the page has some.
+        val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
+        val practice: @Composable (Modifier) -> Unit = { modifier -> if (practisable) PracticeButton(modifier, onPractice) }
         val next: @Composable (Modifier) -> Unit = { modifier ->
             if (last) PrimaryFooterButton("Finish book", modifier, viewModel::finishBook) else PrimaryFooterButton("Next page", modifier) { viewModel.markPageRead(false, 1) }
         }
         Layout(
             content = {
                 BackToLibrary(onHome)
+                practice(Modifier)
                 markRemaining(Modifier)
                 next(Modifier)
             },
@@ -1092,6 +1097,20 @@ private fun BackToLibrary(onClick: () -> Unit) {
     ) {
         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
         Text("Back to library", style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
+    }
+}
+
+@Composable
+private fun PracticeButton(modifier: Modifier, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        modifier.height(52.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.primary.copy(alpha = 0.5f), RoundedCornerShape(10.dp))
+            .background(colors.primary.copy(alpha = 0.06f)).clickable(onClick = onClick).padding(horizontal = 16.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
+    ) {
+        Icon(AppIcons.Abc, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
+        Text("Practice this page", style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = colors.primary, softWrap = false)
     }
 }
 

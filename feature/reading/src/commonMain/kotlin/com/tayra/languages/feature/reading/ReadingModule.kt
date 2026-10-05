@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.feature.reading.practice.PracticeScreen
+import com.tayra.languages.feature.reading.practice.PracticeViewModel
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
@@ -10,6 +12,7 @@ import org.koin.dsl.module
 
 val readingModule = module {
     viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { (bookId: Long, page: Int) -> PracticeViewModel(bookId, page, get(), get(), get(), get(), get(), get()) }
 }
 
 fun NavGraphBuilder.readingGraph(navController: NavController) {
@@ -21,5 +24,9 @@ fun NavGraphBuilder.readingGraph(navController: NavController) {
             onNavigate = { navController.navigate(it) },
             onHome = { navController.navigate(Route.Home) { popUpTo<Route.Home>() } },
         )
+    }
+    composable<Route.Practice> { entry ->
+        val route = entry.toRoute<Route.Practice>()
+        PracticeScreen(bookId = route.bookId, page = route.page, onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
     }
 }

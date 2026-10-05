@@ -19,6 +19,9 @@ sealed interface Route {
     @Serializable
     data class Read(val bookId: Long, val page: Int? = null) : Route
 
+    /** Exercises on the words being learned on a page. */
+    @Serializable
+    data class Practice(val bookId: Long, val page: Int) : Route
     @Serializable
     data class EditPage(val bookId: Long, val page: Int) : Route
 

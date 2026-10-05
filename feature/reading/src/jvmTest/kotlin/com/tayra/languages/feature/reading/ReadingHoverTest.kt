@@ -342,6 +342,23 @@ class ReadingHoverTest {
         assertEquals(sentence.left, translation.left, 1f, "the translation starts under the sentence's first letter")
     }
 
+    /** Once the page has a word being learned, the footer offers to practise it. */
+    @Test
+    fun theFooterOffersPracticeOnceAWordIsBeingLearned() {
+        val vm = runBlocking { reader(mainIsDefault = false) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(rule.onAllNodesWithText("Practice this page").fetchSemanticsNodes().isEmpty(), "every word is still unknown")
+
+        vm.markToLearn(vm.index("lobo"))
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Practice this page").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Practice this page").performScrollTo().performClick()
+        rule.waitUntil(5_000) { visited.isNotEmpty() }
+        assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.Practice(1, 1)), visited)
+    }
+
     /** Hovering the page's vocabulary bar explains it; ignored words count as known. */
     @Test
     fun hoveringTheVocabularyBarShowsTheCountsByStatus() {
