@@ -180,7 +180,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
                 Finished(state, actions)
             } else {
                 Card(card, state.revealed, speaker, compact, actions.onReveal)
-                if (state.revealed) Answers(state, actions, compact)
+                if (state.revealed) Answers(actions, compact)
                 CardFooter(card, state.canUndo, actions)
             }
         }
@@ -361,7 +361,6 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
                 modifier = Modifier.padding(top = 20.dp, bottom = 8.dp).widthIn(min = if (compact) 220.dp else 360.dp).height(if (compact) 52.dp else 64.dp),
             ) {
                 Text("Show answer", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-                if (!compact) KeyHint("Space")
             }
         }
     }
@@ -385,34 +384,21 @@ private fun StateLabel(state: CardState) {
     )
 }
 
-/** The four answers with how long each puts the card away for. */
+/** The four answers. */
 @Composable
-private fun Answers(state: FlashcardsUiState, actions: FlashcardActions, compact: Boolean) {
+private fun Answers(actions: FlashcardActions, compact: Boolean) {
     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(if (compact) 8.dp else 14.dp)) {
         Rating.entries.forEach { rating ->
             val tint = rating.tint
             Column(
                 Modifier.weight(1f).clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.45f), RoundedCornerShape(12.dp))
-                    .clickable(onClickLabel = rating.label) { actions.onAnswer(rating) }.padding(vertical = 12.dp, horizontal = 6.dp).testTag("answer-${rating.label}"),
+                    .clickable(onClickLabel = rating.label) { actions.onAnswer(rating) }.padding(vertical = if (compact) 16.dp else 20.dp, horizontal = 6.dp).testTag("answer-${rating.label}"),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(3.dp),
             ) {
-                Text(state.waits[rating].orEmpty(), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 Text(rating.label, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = tint)
-                if (!compact) Text("${rating.value}", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.outline)
             }
         }
     }
-}
-
-@Composable
-private fun KeyHint(key: String) {
-    Spacer(Modifier.width(14.dp))
-    Text(
-        key,
-        Modifier.clip(RoundedCornerShape(6.dp)).background(MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.18f)).padding(horizontal = 10.dp, vertical = 3.dp),
-        style = MaterialTheme.typography.labelLarge,
-    )
 }
 
 @OptIn(ExperimentalLayoutApi::class)

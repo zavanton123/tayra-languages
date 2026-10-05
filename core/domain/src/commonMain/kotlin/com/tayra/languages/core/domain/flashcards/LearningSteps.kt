@@ -40,21 +40,3 @@ object LearningSteps {
         }
     }
 }
-
-/** How long until a card comes back, for the answer buttons: "<1m", "<10m", "3h", "4d", "1.2mo", "2.1y". */
-fun waitLabel(wait: Duration): String {
-    val minutes = wait.inWholeSeconds / 60.0
-    val days = minutes / 1440.0
-    fun oneDecimal(value: Double): String {
-        val tenths = kotlin.math.round(value * 10).toLong()
-        return if (tenths % 10 == 0L) "${tenths / 10}" else "${tenths / 10}.${tenths % 10}"
-    }
-    return when {
-        minutes < 1 -> "<1m"
-        minutes < 60 -> "<${kotlin.math.ceil(minutes).toInt()}m"
-        days < 1 -> "${oneDecimal(minutes / 60)}h"
-        days < 30.5 -> "${kotlin.math.round(days).toInt()}d"
-        days < 365 -> "${oneDecimal(days / 30.4)}mo"
-        else -> "${oneDecimal(days / 365.25)}y"
-    }
-}

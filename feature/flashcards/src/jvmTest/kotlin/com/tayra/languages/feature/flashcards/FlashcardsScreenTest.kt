@@ -125,12 +125,9 @@ class FlashcardsScreenTest {
         onNodeWithText("Show answer").performClick()
         onNodeWithText(sentence).assertExists()
         onNodeWithText("купить, покупать").assertExists()
-        // What each answer does to a new card: the learning steps, or days away for Easy.
-        onNodeWithText("<1m").assertExists()
-        onNodeWithText("<6m").assertExists()
-        onNodeWithText("<10m").assertExists()
-        // About eight days for Easy, moved a day either way by the interval fuzz.
-        assertEquals(1, listOf("7d", "8d", "9d").count { onAllNodesWithText(it).fetchSemanticsNodes().isNotEmpty() })
+        // The answers carry their names only, without the waits.
+        for (answer in listOf("Again", "Hard", "Good", "Easy")) onNodeWithText(answer).assertExists()
+        for (gone in listOf("<1m", "<6m", "<10m", "Space")) assertEquals(0, onAllNodesWithText(gone).fetchSemanticsNodes().size, gone)
         save("FLASHCARD_BACK_SCREENSHOT")
     }
 

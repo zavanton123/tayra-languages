@@ -9,7 +9,6 @@ import com.tayra.languages.core.domain.flashcards.DueCounts
 import com.tayra.languages.core.domain.flashcards.Flashcard
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.flashcards.Rating
-import com.tayra.languages.core.domain.flashcards.waitLabel
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.Term
@@ -57,8 +56,6 @@ data class FlashcardsUiState(
     val languageName: String = "",
     val card: CardContent? = null,
     val revealed: Boolean = false,
-    /** How long each answer would put the card away for, as on Anki's buttons. */
-    val waits: Map<Rating, String> = emptyMap(),
     val counts: DueCounts = DueCounts(),
     /** With no card to show: when the next card being learned comes back today. */
     val nextLearningAt: Instant? = null,
@@ -119,7 +116,6 @@ class FlashcardsViewModel(
                     languageName = language?.name.orEmpty(),
                     card = if (session.card != null && term != null) content(term, language, session.card!!.schedule.state) else null,
                     revealed = false,
-                    waits = session.outcomes.mapValues { (_, outcome) -> waitLabel(outcome.due - session.shownAt) },
                     counts = session.counts,
                     nextLearningAt = session.nextLearningAt,
                     canUndo = lastAnswer != null,
