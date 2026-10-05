@@ -43,6 +43,7 @@ import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
@@ -154,6 +155,21 @@ class FlashcardsScreenTest {
         onNodeWithText("Undo last answer").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(TermStatus.NEW_1, status())
+    }
+
+    /** The answer is read aloud when shown, and the reading stops as the card goes away. */
+    @Test
+    fun movingOnStopsTheReading() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show()
+        val events = java.util.Collections.synchronizedList(mutableListOf<FlashcardsEvent>())
+        val collecting = kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.Default).launch { viewModel.events.flow.collect { events += it } }
+        onNodeWithText("Show answer").performClick()
+        waitUntil(timeoutMillis = 5_000) { events.size == 1 }
+        assertEquals(FlashcardsEvent.Speak(sentence, "pt"), events[0])
+        onNodeWithTag("answer-Good").performClick()
+        waitUntil(timeoutMillis = 5_000) { events.size == 2 }
+        assertEquals(FlashcardsEvent.StopSpeaking, events[1])
+        collecting.cancel()
     }
 
     @Test

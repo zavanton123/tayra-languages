@@ -67,6 +67,9 @@ data class FlashcardsUiState(
 sealed interface FlashcardsEvent {
     /** Read [text] aloud; the answer was just shown. */
     data class Speak(val text: String, val languageCode: String?) : FlashcardsEvent
+
+    /** The card on show is going away: whatever is being read aloud stops. */
+    data object StopSpeaking : FlashcardsEvent
 }
 
 class FlashcardsViewModel(
@@ -193,6 +196,7 @@ class FlashcardsViewModel(
         val card = current ?: return
         if (!_state.value.revealed) return
         current = null
+        events.trySend(FlashcardsEvent.StopSpeaking)
         viewModelScope.launch {
             lastAnswer = service.answer(card, rating)
             _state.update { it.copy(answered = it.answered + 1) }
@@ -204,6 +208,7 @@ class FlashcardsViewModel(
     fun undo() {
         val answered = lastAnswer ?: return
         lastAnswer = null
+        events.trySend(FlashcardsEvent.StopSpeaking)
         viewModelScope.launch {
             service.undo(answered)
             _state.update { it.copy(answered = (it.answered - 1).coerceAtLeast(0)) }
@@ -215,6 +220,7 @@ class FlashcardsViewModel(
     fun suspendCard() {
         val card = current ?: return
         current = null
+        events.trySend(FlashcardsEvent.StopSpeaking)
         viewModelScope.launch {
             service.setSuspended(card.termId, true)
             load()

@@ -34,6 +34,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
@@ -90,8 +91,11 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     CollectEvents(viewModel.events) { event ->
         when (event) {
             is FlashcardsEvent.Speak -> speaker.speak(event.text, event.languageCode)
+            FlashcardsEvent.StopSpeaking -> speaker.stop()
         }
     }
+    // Leaving the screen stops the reading too.
+    DisposableEffect(speaker) { onDispose { speaker.stop() } }
     // Coming back from editing a term or the settings shows the card as it is now.
     LaunchedEffect(Unit) { viewModel.load() }
     Scaffold(
