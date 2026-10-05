@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.feature.reading.practice.PracticeScreen
 import com.tayra.languages.feature.reading.practice.PracticeViewModel
 import androidx.navigation.NavController
@@ -11,7 +12,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val readingModule = module {
-    viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get()) }
+    viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading) }
     viewModel { (bookId: Long, page: Int) -> PracticeViewModel(bookId, page, get(), get(), get(), get(), get(), get()) }
 }
 

@@ -6,6 +6,7 @@ import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.BookService
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 
 /**
@@ -31,6 +32,15 @@ class CourseService(
 
     private fun progress(course: Course, opened: Map<String, LessonBook>) =
         CourseProgress(course, course.lessons.map { LessonProgress(it, opened[it.id]) })
+
+    /** The lesson that the text with [bookId] was made from, or null for one of the reader's own books. */
+    suspend fun lessonReading(bookId: Long): LessonReading? {
+        val lessonId = books.observeLessonBooks().first().values.firstOrNull { it.bookId == bookId }?.lessonId ?: return null
+        val code = books.getBook(bookId)?.let { languages.getById(it.languageId) }?.let { LanguageCodes.codeFor(it.name) } ?: return null
+        return source.courses(code).firstNotNullOfOrNull { course ->
+            course.lessons.firstOrNull { it.id == lessonId }?.let { LessonReading(course, it) }
+        }
+    }
 
     /**
      * The text to read for a lesson, made on first use. Null when the app does not have the

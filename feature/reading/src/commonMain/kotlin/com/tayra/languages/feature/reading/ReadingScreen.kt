@@ -293,8 +293,8 @@ fun ReadingScreen(
                 state.settings.focusMode -> FocusBar(state, viewModel, onMenu = { scope.launch { drawerState.open() } })
                 compact -> ReadingHeader(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = onHome)
                 else -> {
-                    AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.BOOKS)
-                    ReaderToolbar(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = onHome)
+                    AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = if (state.lesson == null) NavSection.BOOKS else NavSection.COURSES)
+                    ReaderToolbar(state, viewModel, onMenu = { scope.launch { drawerState.open() } }, onHome = onHome, onCourses = { onNavigate(Route.Courses) })
                 }
             }
             Row(Modifier.weight(1f).background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = if (state.settings.focusMode) 0f else 0.3f))) {
@@ -397,9 +397,12 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
         AdjustRow(AppIcons.LineSpacing, "Line height", "${(prefs.readingLineHeight * 10).toInt() / 10f}", onLess = { viewModel.adjustLineHeight(-0.1f) }, onMore = { viewModel.adjustLineHeight(0.1f) })
         AdjustRow(AppIcons.OpenInFull, "Text width", "${prefs.readingColumnWidth}", onLess = { viewModel.adjustColumnWidth(-80) }, onMore = { viewModel.adjustColumnWidth(80) })
 
-        MenuSection("Edit")
-        MenuRow(AppIcons.MenuBook, "Edit book") { onClose(); actions.onEditBook() }
-        MenuRow(AppIcons.Page, "Edit current page") { onClose(); actions.onEditPage() }
+        // A lesson's text belongs to its course.
+        if (state.lesson == null) {
+            MenuSection("Edit")
+            MenuRow(AppIcons.MenuBook, "Edit book") { onClose(); actions.onEditBook() }
+            MenuRow(AppIcons.Page, "Edit current page") { onClose(); actions.onEditPage() }
+        }
 
         MenuSection("Bookmarks")
         MenuRow(AppIcons.Bookmark, "List bookmarks") { onClose(); actions.onBookmarks() }
@@ -526,7 +529,7 @@ private fun SpeechSection(state: ReadingUiState, viewModel: ReadingViewModel, on
             )
         } else {
             Text(
-                "No voice for $languageName is downloaded, so the system voice reads this book. Download one in Speech settings.",
+                "No voice for $languageName is downloaded, so the system voice reads this text. Download one in Speech settings.",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
@@ -596,7 +599,8 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
         Column(Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 4.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = "Menu") }
-                IconButton(onClick = onHome) { Icon(Icons.Default.Home, contentDescription = "Home") }
+                if (state.lesson == null) IconButton(onClick = onHome) { Icon(Icons.Default.Home, contentDescription = "Home") }
+                else IconButton(onClick = onHome) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back to course") }
                 Text(
                     state.book?.title.orEmpty(),
                     Modifier.weight(1f),
@@ -611,22 +615,25 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
 
 /** Wide-screen toolbar: breadcrumb on the left, the page position and slider in the middle. */
 @Composable
-private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit, onHome: () -> Unit) {
+private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit, onHome: () -> Unit, onCourses: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val rtl = state.language?.rightToLeft == true
     Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
         Row(Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically) {
             IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = "Menu") }
             Spacer(Modifier.width(8.dp))
-            Row(
-                Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onHome).padding(horizontal = 6.dp, vertical = 4.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(6.dp),
-            ) {
-                Icon(Icons.Default.Home, contentDescription = "Home", tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp))
-                Text("Books", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            val lesson = state.lesson
+            val separator: @Composable () -> Unit = {
+                Text("/", style = MaterialTheme.typography.bodyLarge, color = colors.outline, modifier = Modifier.padding(horizontal = 8.dp))
             }
-            Text("/", style = MaterialTheme.typography.bodyLarge, color = colors.outline, modifier = Modifier.padding(horizontal = 8.dp))
+            if (lesson == null) {
+                Crumb("Books", onHome) { Icon(Icons.Default.Home, contentDescription = "Home", tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp)) }
+            } else {
+                Crumb("Courses", onCourses) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp).size(20.dp)) }
+                separator()
+                Crumb(lesson.course.title, onHome, Modifier.weight(1f, fill = false))
+            }
+            separator()
             Text(
                 state.book?.title.orEmpty(),
                 Modifier.weight(1f, fill = false).padding(end = 16.dp),
@@ -643,6 +650,19 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
             sliderWidth = if (LocalWindowWidth.current.isExpanded) 300.dp else 160.dp,
         )
         Spacer(Modifier.weight(1f))
+    }
+}
+
+/** A place to go back to, in the toolbar's breadcrumb. */
+@Composable
+private fun Crumb(label: String, onClick: () -> Unit, modifier: Modifier = Modifier, icon: @Composable () -> Unit = {}) {
+    Row(
+        modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onClick).padding(horizontal = 6.dp, vertical = 4.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(6.dp),
+    ) {
+        icon()
+        Text(label, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
     }
 }
 
@@ -1035,11 +1055,11 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
         val practice: @Composable (Modifier) -> Unit = { modifier -> if (practisable) PracticeButton(modifier, onPractice) }
         val next: @Composable (Modifier) -> Unit = { modifier ->
-            if (last) PrimaryFooterButton("Finish book", modifier, viewModel::finishBook) else PrimaryFooterButton("Next page", modifier) { viewModel.markPageRead(false, 1) }
+            if (last) PrimaryFooterButton(if (state.lesson == null) "Finish book" else "Finish lesson", modifier, viewModel::finishBook) else PrimaryFooterButton("Next page", modifier) { viewModel.markPageRead(false, 1) }
         }
         Layout(
             content = {
-                BackToLibrary(onHome)
+                BackToLibrary(if (state.lesson == null) "Back to library" else "Back to course", onHome)
                 practice(Modifier)
                 markRemaining(Modifier)
                 next(Modifier)
@@ -1088,7 +1108,7 @@ private fun Modifier.bleed(horizontal: Dp) = layout { measurable, constraints ->
 }
 
 @Composable
-private fun BackToLibrary(onClick: () -> Unit) {
+private fun BackToLibrary(label: String, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
         Modifier.clip(RoundedCornerShape(10.dp)).clickable(onClick = onClick).padding(horizontal = 6.dp, vertical = 12.dp),
@@ -1096,7 +1116,7 @@ private fun BackToLibrary(onClick: () -> Unit) {
         horizontalArrangement = Arrangement.spacedBy(10.dp),
     ) {
         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, tint = colors.primary, modifier = Modifier.size(20.dp))
-        Text("Back to library", style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
+        Text(label, style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
     }
 }
 

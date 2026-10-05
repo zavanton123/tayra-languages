@@ -115,4 +115,18 @@ class CourseServiceTest {
         assertNotNull(upgraded.openLesson("pt-primeiros-passos", "pt-primeiros-passos-1"))
         assertEquals(3, upgraded.observeCourses(portuguese).first().size)
     }
+
+    @Test
+    fun aLessonsTextKnowsItsCourse() = runTest {
+        languages.save(Language(name = "Portuguese"))
+        val course = BuiltInCourses.ALL.first()
+        val bookId = assertNotNull(service.openLesson(course.id, course.lessons[2].id))
+        val reading = assertNotNull(service.lessonReading(bookId))
+        assertEquals(course.id, reading.course.id)
+        assertEquals(course.lessons[2].id, reading.lesson.id)
+        assertEquals(3, reading.number)
+
+        val own = bookService.create(BookDraft(languageId = languages.getAll().first().id, title = "Mine", text = "Um texto."))
+        assertNull(service.lessonReading(own), "the reader's own book belongs to no course")
+    }
 }

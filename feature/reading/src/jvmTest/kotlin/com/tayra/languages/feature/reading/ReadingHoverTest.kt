@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.domain.courses.BuiltInCourses
+import com.tayra.languages.core.domain.courses.LessonReading
 import com.russhwolf.settings.MapSettings
 import kotlin.test.assertTrue
 import org.koin.dsl.module
@@ -110,7 +112,7 @@ class ReadingHoverTest {
     }
 
     /** [mainIsDefault] swaps the UI thread for a pool, for tests that never draw the screen. */
-    private suspend fun reader(mainIsDefault: Boolean = true, speech: LocalSpeech = LocalSpeech(emptyList()), pages: Int = 1, translation: String? = null): ReadingViewModel {
+    private suspend fun reader(mainIsDefault: Boolean = true, speech: LocalSpeech = LocalSpeech(emptyList()), pages: Int = 1, translation: String? = null, lesson: LessonReading? = null): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-hover", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
@@ -161,6 +163,7 @@ class ReadingHoverTest {
             TermPopupBuilder(terms, languages, readingService), BookStatsService(books, languages, settings, readingService), settings,
             object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = translation },
             LocalTranslation(null), speech, words, sentenceAudio,
+            lessonOf = { lesson },
         )
         withTimeout(10_000) { while (vm.state.value.items.none { it.isWord }) delay(20) }
         return vm
@@ -263,6 +266,36 @@ class ReadingHoverTest {
         rule.onNodeWithText("Edit book").performScrollTo().performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.EditBook(1)), visited)
+    }
+
+    /** A course lesson is shown as part of its course: no word of books or the library, and no editing. */
+    @Test
+    fun aLessonIsShownAsPartOfItsCourse() {
+        val course = BuiltInCourses.ALL.first()
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[1])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
+        var back = 0
+        rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = { back++ }, viewModel = vm) }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Finish lesson").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("LESSON_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        for (gone in listOf("Back to library", "Finish book")) {
+            assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is not shown in a lesson")
+        }
+        rule.onNodeWithText(course.title).performClick()
+        rule.waitUntil(5_000) { back == 1 }
+        rule.onNodeWithText("Back to course").performScrollTo().performClick()
+        rule.waitUntil(5_000) { back == 2 }
+        rule.onNodeWithText("Finish lesson").performScrollTo().performClick()
+        rule.waitUntil(5_000) { back == 3 }
+
+        rule.onNodeWithContentDescription("Menu").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("List bookmarks").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(rule.onAllNodesWithText("Edit book").fetchSemanticsNodes().isEmpty(), "a lesson's text is not edited")
+        assertTrue(rule.onAllNodesWithText("Edit current page").fetchSemanticsNodes().isEmpty())
     }
 
     /** The menu groups the translation options under their own heading, between Reading and Speech. */

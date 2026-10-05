@@ -53,6 +53,12 @@ data class LessonBook(
     val isCompleted: Boolean,
 )
 
+/** A lesson being read, and where it sits in its course. */
+data class LessonReading(val course: Course, val lesson: Lesson) {
+    /** The lesson's place in the course, from 1. */
+    val number: Int get() = course.lessons.indexOfFirst { it.id == lesson.id } + 1
+}
+
 enum class LessonStatus { NOT_STARTED, IN_PROGRESS, COMPLETED }
 
 data class LessonProgress(val lesson: Lesson, val book: LessonBook?) {

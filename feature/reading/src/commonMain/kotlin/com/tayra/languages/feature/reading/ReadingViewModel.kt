@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.domain.courses.LessonReading
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
 import kotlin.coroutines.cancellation.CancellationException
@@ -71,6 +72,8 @@ data class PopupState(val itemIndex: Int, val popup: TermPopup)
 data class ReadingUiState(
     val loading: Boolean = true,
     val book: Book? = null,
+    /** Set when the text is a course lesson, which is shown as part of its course rather than as a book. */
+    val lesson: LessonReading? = null,
     val language: Language? = null,
     val pageNumber: Int = 1,
     val pageCount: Int = 1,
@@ -132,6 +135,7 @@ class ReadingViewModel(
     private val localSpeech: LocalSpeech,
     private val wordTranslations: WordTranslationService,
     private val sentenceAudio: SentenceAudio,
+    private val lessonOf: suspend (Long) -> LessonReading? = { null },
 ) : ViewModel() {
 
     private val local = localTranslation.translator
@@ -177,6 +181,7 @@ class ReadingViewModel(
                 _state.update { it.copy(loading = false, error = "Book not found") }
                 return@launch
             }
+            _state.update { it.copy(lesson = lessonOf(bookId)) }
             val page = initialPage ?: readingService.currentPageNumber(book)
             load(page, trackOpen = true)
         }
@@ -760,7 +765,7 @@ class ReadingViewModel(
         }
     }
 
-    /** Marks the last page read, which completes the book, and goes back to the library. */
+    /** Marks the last page read, which completes the book or lesson, and goes back to the library or the course. */
     fun finishBook() {
         viewModelScope.launch {
             readingService.markPageRead(bookId, _state.value.pageNumber, markRestAsKnown = false)
