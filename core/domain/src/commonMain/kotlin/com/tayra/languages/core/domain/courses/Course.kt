@@ -36,7 +36,7 @@ data class Course(
     val wordCount: Int get() = lessons.sumOf { it.wordCount }
 }
 
-/** Where courses come from: built into the app for now, a server later. */
+/** Where courses come from: the server, or the ones built into the app. */
 interface CourseSource {
     /** The courses teaching the language with [languageCode], in the order to show them. */
     suspend fun courses(languageCode: String): List<Course>

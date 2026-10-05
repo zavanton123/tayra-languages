@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Desktop app + backend" type="CompoundRunConfigurationType">
+    <toRun name="Backend" type="ShConfigurationType" />
+    <toRun name="Desktop app" type="GradleRunConfiguration" />
+    <method v="2" />
+  </configuration>
+</component>
