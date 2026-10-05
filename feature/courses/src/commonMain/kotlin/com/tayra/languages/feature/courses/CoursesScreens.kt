@@ -20,7 +20,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -54,6 +53,9 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseProgress
@@ -330,66 +332,87 @@ fun CourseScreen(
 @Composable
 internal fun CourseContent(state: CourseUiState, onOpenLesson: (lessonId: String) -> Unit, onCourses: () -> Unit, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
-    val compact = LocalWindowWidth.current.isCompact
-    Box(modifier.fillMaxSize().verticalScroll(rememberScrollState()), contentAlignment = Alignment.TopCenter) {
-        Column(
-            Modifier.widthIn(max = 1000.dp).fillMaxWidth().padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
-            verticalArrangement = Arrangement.spacedBy(20.dp),
-        ) {
+    val width = LocalWindowWidth.current
+    val compact = width.isCompact
+    val progress = state.progress
+    Column(
+        modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
+        verticalArrangement = Arrangement.spacedBy(20.dp),
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
             Row(
                 Modifier.clip(RoundedCornerShape(8.dp)).clickable(onClick = onCourses).padding(vertical = 4.dp, horizontal = 2.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, modifier = Modifier.size(18.dp), tint = colors.onSurfaceVariant)
-                Spacer(Modifier.width(8.dp))
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, modifier = Modifier.size(20.dp), tint = colors.onSurfaceVariant)
+                Spacer(Modifier.width(10.dp))
                 Text("Courses", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
-            val progress = state.progress
-            if (progress == null) {
-                Notice("Course not found", "This course is no longer available.")
-                return@Column
+            if (progress != null) {
+                Text("/", Modifier.padding(horizontal = 10.dp), style = MaterialTheme.typography.bodyLarge, color = colors.outline)
+                Text(progress.course.title, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
-            state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
-            val course = progress.course
-            Column(
-                Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp))
-                    .padding(if (compact) 18.dp else 28.dp),
-                verticalArrangement = Arrangement.spacedBy(16.dp),
-            ) {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(18.dp)) {
-                    LevelTile(course.level, 64)
-                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                        Text(course.title, style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-                        Text(
-                            "${course.level.label} · ${course.topic} · ${count(course.lessons.size, "lesson")} · ${course.wordCount} words",
-                            style = MaterialTheme.typography.bodyLarge,
-                            color = colors.onSurfaceVariant,
-                        )
-                    }
+        }
+        if (progress == null) {
+            Notice("Course not found", "This course is no longer available.")
+            return@Column
+        }
+        state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
+        if (width.isExpanded) {
+            Row(horizontalArrangement = Arrangement.spacedBy(20.dp), verticalAlignment = Alignment.Top) {
+                CourseSummary(progress, onOpenLesson, Modifier.weight(1f))
+                LessonList(progress, compact = false, onOpenLesson, Modifier.weight(2.05f))
+            }
+        } else {
+            CourseSummary(progress, onOpenLesson, Modifier.fillMaxWidth())
+            LessonList(progress, compact, onOpenLesson, Modifier.fillMaxWidth())
+        }
+    }
+}
+
+/** What the course is, how far the reader has got, and the way into the next lesson. */
+@Composable
+private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Unit, modifier: Modifier) {
+    val colors = MaterialTheme.colorScheme
+    val course = progress.course
+    Column(modifier.clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp))) {
+        // A stripe in the level's colour.
+        Box(Modifier.fillMaxWidth().height(5.dp).background(course.level.tint.copy(alpha = 0.55f)))
+        Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(18.dp)) {
+                LevelTile(course.level, 60)
+                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    Text(course.title, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                    Text("${course.level.label} · ${course.topic}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
-                Text(course.description, style = MaterialTheme.typography.bodyLarge)
+            }
+            Text(course.description, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                Fact(AppIcons.MenuBook, count(course.lessons.size, "lesson"))
+                Box(Modifier.width(1.dp).height(22.dp).background(colors.outlineVariant))
+                Fact(AppIcons.FileOutline, "${course.wordCount} words")
+            }
+            HorizontalDivider(color = colors.outlineVariant)
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Text("Course progress", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                 ProgressLine(progress)
-                progress.nextLesson?.let { next ->
-                    Button(onClick = { onOpenLesson(next.lesson.id) }, shape = RoundedCornerShape(12.dp), modifier = Modifier.height(48.dp)) {
-                        Text(
-                            when (progress.status) {
-                                LessonStatus.NOT_STARTED -> "Start course"
-                                LessonStatus.COMPLETED -> "Read again from the start"
-                                LessonStatus.IN_PROGRESS -> "Continue: ${next.lesson.title}"
-                            },
-                            Modifier.padding(horizontal = 10.dp),
-                            fontWeight = FontWeight.SemiBold,
-                            maxLines = 1,
-                            overflow = TextOverflow.Ellipsis,
-                        )
-                    }
-                }
             }
-            Column(Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp))) {
-                Text("Lessons", Modifier.padding(horizontal = if (compact) 18.dp else 28.dp, vertical = 16.dp), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
-                progress.lessons.forEachIndexed { index, lesson ->
-                    HorizontalDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
-                    LessonRow(index + 1, lesson, compact) { onOpenLesson(lesson.lesson.id) }
+            progress.nextLesson?.let { next ->
+                Button(onClick = { onOpenLesson(next.lesson.id) }, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(56.dp)) {
+                    Text(
+                        when (progress.status) {
+                            LessonStatus.NOT_STARTED -> "Start course"
+                            LessonStatus.COMPLETED -> "Read again from the start"
+                            LessonStatus.IN_PROGRESS -> "Continue: ${next.lesson.title}"
+                        },
+                        Modifier.weight(1f, fill = false),
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.SemiBold,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                    Spacer(Modifier.width(12.dp))
+                    Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, modifier = Modifier.size(20.dp))
                 }
             }
         }
@@ -397,33 +420,100 @@ internal fun CourseContent(state: CourseUiState, onOpenLesson: (lessonId: String
 }
 
 @Composable
-private fun LessonRow(number: Int, progress: LessonProgress, compact: Boolean, onClick: () -> Unit) {
+private fun Fact(icon: ImageVector, text: String) {
+    val colors = MaterialTheme.colorScheme
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+        Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
+        Text(text, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+    }
+}
+
+/** The lessons in order, joined by a line, with the one to read next picked out. */
+@Composable
+private fun LessonList(progress: CourseProgress, compact: Boolean, onOpenLesson: (String) -> Unit, modifier: Modifier) {
+    val colors = MaterialTheme.colorScheme
+    val course = progress.course
+    val next = progress.nextLesson?.takeIf { progress.status != LessonStatus.COMPLETED }
+    Column(modifier.clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp))) {
+        Column(Modifier.padding(start = if (compact) 18.dp else 28.dp, end = 18.dp, top = 22.dp, bottom = 18.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            Text("Lessons", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+            Text("${count(course.lessons.size, "lesson")} · ${course.wordCount} words", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        }
+        progress.lessons.forEachIndexed { index, lesson ->
+            HorizontalDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
+            LessonRow(
+                number = index + 1,
+                progress = lesson,
+                compact = compact,
+                first = index == 0,
+                last = index == progress.lessons.lastIndex,
+                hint = if (lesson === next) (if (progress.status == LessonStatus.NOT_STARTED) "Start here" else "Continue here") else null,
+                onClick = { onOpenLesson(lesson.lesson.id) },
+            )
+        }
+        Spacer(Modifier.height(8.dp))
+    }
+}
+
+private val LESSON_CIRCLE = 48.dp
+
+@Composable
+private fun LessonRow(number: Int, progress: LessonProgress, compact: Boolean, first: Boolean, last: Boolean, hint: String?, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val lesson = progress.lesson
     val status = progress.status
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
+    val inset = if (compact) 10.dp else 22.dp
+    val line = colors.outlineVariant
     Row(
-        Modifier.fillMaxWidth().background(if (hovered) colors.primary.copy(alpha = 0.04f) else Color.Transparent).hoverable(interaction)
-            .clickable(onClick = onClick).padding(horizontal = if (compact) 18.dp else 28.dp, vertical = 16.dp).testTag("lesson-${lesson.id}"),
+        Modifier.fillMaxWidth()
+            .padding(horizontal = 8.dp, vertical = if (hint != null) 4.dp else 0.dp)
+            .clip(RoundedCornerShape(12.dp))
+            .background(
+                when {
+                    hint != null -> colors.primary.copy(alpha = 0.07f)
+                    hovered -> colors.primary.copy(alpha = 0.04f)
+                    else -> Color.Transparent
+                },
+            )
+            // The line through the numbers, from the first lesson's to the last one's.
+            .drawBehind {
+                val x = (inset + LESSON_CIRCLE / 2).toPx()
+                val middle = size.height / 2
+                drawLine(line, Offset(x, if (first) middle else 0f), Offset(x, if (last) middle else size.height), 1.5.dp.toPx())
+            }
+            .hoverable(interaction).clickable(onClick = onClick)
+            .padding(horizontal = inset, vertical = 18.dp).testTag("lesson-${lesson.id}"),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(if (compact) 14.dp else 18.dp),
+        horizontalArrangement = Arrangement.spacedBy(if (compact) 14.dp else 26.dp),
     ) {
         val done = status == LessonStatus.COMPLETED
         Box(
-            Modifier.size(40.dp).clip(CircleShape).background(if (done) GREEN else colors.primary.copy(alpha = 0.08f)),
+            Modifier.size(LESSON_CIRCLE).clip(CircleShape).background(colors.surface).background(if (done) GREEN else colors.primary.copy(alpha = 0.09f)),
             contentAlignment = Alignment.Center,
         ) {
-            if (done) Icon(Icons.Default.Check, contentDescription = "Completed", tint = Color.White, modifier = Modifier.size(22.dp))
-            else Text("$number", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = colors.primary)
+            if (done) Icon(Icons.Default.Check, contentDescription = "Completed", tint = Color.White, modifier = Modifier.size(24.dp))
+            else Text("$number", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, color = colors.primary)
         }
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-            Text(lesson.title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-            Text(lesson.summary, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+                Text(lesson.title, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                if (hint != null) {
+                    Text(
+                        hint,
+                        Modifier.clip(RoundedCornerShape(50)).background(GREEN.copy(alpha = 0.14f)).padding(horizontal = 12.dp, vertical = 3.dp),
+                        style = MaterialTheme.typography.labelLarge,
+                        color = GREEN,
+                        softWrap = false,
+                    )
+                }
+            }
+            Text(lesson.summary, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             if (compact) Text("${lesson.wordCount} words · ${status.label}", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
         if (!compact) {
-            Text("${lesson.wordCount} words", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, softWrap = false)
+            Text("${lesson.wordCount} words", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
             val tint = when (status) {
                 LessonStatus.COMPLETED -> GREEN
                 LessonStatus.IN_PROGRESS -> BLUE
@@ -431,13 +521,13 @@ private fun LessonRow(number: Int, progress: LessonProgress, compact: Boolean, o
             }
             Text(
                 status.label,
-                Modifier.width(112.dp).clip(RoundedCornerShape(50)).background(tint.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 4.dp),
-                style = MaterialTheme.typography.labelLarge,
+                Modifier.width(128.dp).clip(RoundedCornerShape(50)).background(tint.copy(alpha = 0.12f)).padding(horizontal = 12.dp, vertical = 6.dp),
+                style = MaterialTheme.typography.bodyMedium,
                 color = tint,
                 textAlign = androidx.compose.ui.text.style.TextAlign.Center,
                 softWrap = false,
             )
         }
-        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.outline)
+        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
     }
 }

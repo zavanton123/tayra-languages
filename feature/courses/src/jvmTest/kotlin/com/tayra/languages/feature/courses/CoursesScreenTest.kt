@@ -132,6 +132,9 @@ class CoursesScreenTest {
             if (!state.loading) CourseContent(state, onOpenLesson = viewModel::openLesson, onCourses = {})
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Primeiros passos").fetchSemanticsNodes().isNotEmpty() }
+        // The first lesson is picked out as the place to start.
+        onNodeWithText("Start here").assertExists()
+        save("COURSE_NEW_SCREENSHOT")
         for (lesson in listOf("Olá! Eu sou a Ana", "Minha família", "Minha casa", "Meu dia", "No café")) onNodeWithText(lesson).assertExists()
         onNodeWithText("Start course").assertExists()
         assertEquals(5, onAllNodesWithText("Not started").fetchSemanticsNodes().size - 1, "five lessons, and the course itself")
@@ -148,6 +151,8 @@ class CoursesScreenTest {
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue: Minha família").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("1 of 5 read").assertExists()
+        onNodeWithText("Continue here").assertExists()
+        assertEquals(0, onAllNodesWithText("Start here").fetchSemanticsNodes().size)
         assertNotNull(onAllNodesWithText("Completed").fetchSemanticsNodes().singleOrNull())
         save("COURSE_SCREENSHOT")
         collecting.cancel()
