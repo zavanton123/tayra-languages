@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "tayra",
+    "buildTool": "gradle",
+    "cacheProvider": "no",
+    "clientFramework": "angular",
+    "devDatabaseType": "h2Disk",
+    "enableTranslation": false,
+    "entities": ["Course", "Lesson"],
+    "jhipsterVersion": "9.1.0",
+    "jwtSecretKey": "ZmJkOTkyMjZlMmNlM2I2MmRhMjU3YzkzMWRkODFkZjZmYTZmMTdmZTFhNDFkNTM4Mjk0N2Q1OWNjYjc3MWU0M2ViOTZjNjg0NGUzYmU1MTY5ZTEyODhiODQ4OWZjNjI4YTVhN2QyNDYxNTM4YWY0MmMxZWViMDhlNDRiNzk3ODE=",
+    "lastLiquibaseTimestamp": 1791229925000,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "packageName": "com.tayra.languages.backend",
+    "prodDatabaseType": "postgresql",
+    "serverPort": "8085",
+    "skipCommitHook": true,
+    "skipFakeData": true,
+    "testFrameworks": []
+  }
+}

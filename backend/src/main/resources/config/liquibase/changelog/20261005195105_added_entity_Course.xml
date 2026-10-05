@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Course.
+    -->
+    <changeSet id="20261005195105-1" author="jhipster">
+        <createTable tableName="course" remarks="A course: lessons to read in order, for one language.">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="slug" type="varchar(80)" remarks="The course&apos;s id in the app, stable once published, e.g. pt-primeiros-passos.">
+                <constraints nullable="false" unique="true" uniqueConstraintName="ux_course__slug" />
+            </column>
+            <column name="language_code" type="varchar(8)" remarks="ISO 639-1 code of the language taught.">
+                <constraints nullable="false" />
+            </column>
+            <column name="title" type="varchar(200)">
+                <constraints nullable="false" />
+            </column>
+            <column name="description" type="varchar(1000)">
+                <constraints nullable="true" />
+            </column>
+            <column name="level" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="topic" type="varchar(100)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sort_order" type="integer" remarks="Where the course comes in the list of its language.">
+                <constraints nullable="false" />
+            </column>
+            <column name="published" type="boolean" remarks="Only published courses are served to the app.">
+                <constraints nullable="false" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+</databaseChangeLog>

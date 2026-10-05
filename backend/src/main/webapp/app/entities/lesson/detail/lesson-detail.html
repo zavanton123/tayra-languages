@@ -1,0 +1,58 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    @if (lesson(); as lessonRef) {
+      <div>
+        <h2 data-cy="lessonDetailsHeading"><span>Lesson</span></h2>
+
+        <hr />
+
+        <jhi-alert-error />
+
+        <jhi-alert />
+
+        <dl class="row-md jh-entity-details">
+          <dt><span>ID</span></dt>
+          <dd>
+            <span>{{ lessonRef.id }}</span>
+          </dd>
+          <dt><span ngbTooltip="The lesson's id in the app, stable once published, e.g. pt-primeiros-passos-1.">Slug</span></dt>
+          <dd>
+            <span>{{ lessonRef.slug }}</span>
+          </dd>
+          <dt><span>Title</span></dt>
+          <dd>
+            <span>{{ lessonRef.title }}</span>
+          </dd>
+          <dt><span>Summary</span></dt>
+          <dd>
+            <span>{{ lessonRef.summary }}</span>
+          </dd>
+          <dt><span ngbTooltip="The text of the lesson.">Content</span></dt>
+          <dd>
+            <span>{{ lessonRef.content }}</span>
+          </dd>
+          <dt><span ngbTooltip="Where the lesson comes in its course.">Sort Order</span></dt>
+          <dd>
+            <span>{{ lessonRef.sortOrder }}</span>
+          </dd>
+          <dt><span>Course</span></dt>
+          <dd>
+            @if (lesson()!.course) {
+              <div>
+                <a [routerLink]="['/course', lesson()!.course?.id, 'view']">{{ lessonRef.course?.title }}</a>
+              </div>
+            }
+          </dd>
+        </dl>
+
+        <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+          <fa-icon icon="arrow-left" />&nbsp;<span>Back</span>
+        </button>
+
+        <button type="button" [routerLink]="['/lesson', lessonRef.id, 'edit']" class="btn btn-primary">
+          <fa-icon icon="pencil-alt" />&nbsp;<span>Edit</span>
+        </button>
+      </div>
+    }
+  </div>
+</div>

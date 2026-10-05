@@ -1,0 +1,62 @@
+dependencies {
+    implementation "org.postgresql:postgresql"
+    testImplementation "org.testcontainers:testcontainers-postgresql"
+    // jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
+}
+
+ext {
+    if (project.hasProperty("api-docs")) {
+        springProfiles += ",api-docs"
+    }
+}
+
+springBoot {
+    buildInfo()
+}
+
+bootRun {
+    args = ["--spring.profiles.active=${springProfiles}"]
+}
+
+def webapp = tasks.register('webapp', NpmTask) {
+    dependsOn(npmInstall)
+    args = ["run", "webapp:prod"]
+    environment = [APP_VERSION: project.version]
+}
+
+processResources {
+    inputs.property('version', version)
+    inputs.property('springProfiles', springProfiles)
+    filesMatching("**/application.yml") {
+        filter {
+            it.replace("@project.version@", version)
+        }
+        filter {
+            it.replace("@spring.profiles.active@", springProfiles)
+        }
+    }
+}
+
+def integrationTest = tasks.register('integrationTest', Test) {
+    maxHeapSize = "1G"
+    useJUnitPlatform()
+    description = "Execute integration tests."
+    group = "verification"
+    // Gradle 9 no longer points a custom Test task at the test source set by itself.
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    include "**/*IT*", "**/*IntTest*"
+    testLogging {
+        events = ['FAILED', 'SKIPPED']
+        exceptionFormat = "full"
+    }
+    systemProperty('spring.profiles.active', springTestProfiles)
+    // uncomment if the tests reports are not generated
+    // see https://github.com/jhipster/generator-jhipster/pull/2771 and https://github.com/jhipster/generator-jhipster/pull/4484
+    // ignoreFailures true
+    reports.html.required = false
+    dependsOn(tasks.named('test'))
+}
+
+tasks.named('processResources').configure { dependsOn(webapp) }
+tasks.named('bootJar').configure { dependsOn(tasks.named('processResources')) }

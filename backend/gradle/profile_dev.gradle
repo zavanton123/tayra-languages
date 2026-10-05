@@ -1,0 +1,84 @@
+sourceSets {
+    test {
+        java {
+            exclude 'com/tayra/languages/backend//config/DatabaseTestcontainer.java'
+        }
+    }
+}
+
+dependencies {
+    developmentOnly "org.springframework.boot:spring-boot-devtools"
+    implementation "com.h2database:h2"
+    // jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
+}
+
+springBoot {
+    buildInfo {
+        excludes = ['time']
+    }
+}
+
+bootRun {
+    args = ["--spring.profiles.active=${springProfiles}"]
+}
+
+def webapp = tasks.register('webapp', NpmTask) {
+    inputs.property('appVersion', project.version)
+    inputs.files("build.gradle")
+        .withPropertyName('build.gradle')
+        .withPathSensitivity(PathSensitivity.RELATIVE)
+    inputs.files('angular.json', 'package-lock.json', 'package.json', 'tsconfig.app.json', 'tsconfig.json')
+        .withPropertyName('angular-build')
+        .withPathSensitivity(PathSensitivity.RELATIVE)
+    inputs.dir("build-plugins/")
+        .withPropertyName("build-plugins/")
+        .withPathSensitivity(PathSensitivity.RELATIVE)
+    inputs.dir("src/main/webapp/")
+        .withPropertyName("src/main/webapp/")
+        .withPathSensitivity(PathSensitivity.RELATIVE)
+
+    outputs.dir("build/resources/main/static/")
+        .withPropertyName("webapp-build-dir")
+
+    dependsOn(npmInstall)
+
+    args = ["run", "webapp:build"]
+    environment = [APP_VERSION: project.version]
+}
+
+processResources {
+    inputs.property('version', version)
+    inputs.property('springProfiles', springProfiles)
+    filesMatching("**/application.yml") {
+        filter {
+            it.replace("@project.version@", version)
+        }
+        filter {
+            it.replace("@spring.profiles.active@", springProfiles)
+        }
+    }
+}
+
+def integrationTest = tasks.register('integrationTest', Test) {
+    maxHeapSize = "1G"
+    useJUnitPlatform()
+    description = "Execute integration tests."
+    group = "verification"
+    // Gradle 9 no longer points a custom Test task at the test source set by itself.
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+    include "**/*IT*", "**/*IntTest*"
+    testLogging {
+        events = ['FAILED', 'SKIPPED']
+        exceptionFormat = "full"
+    }
+    systemProperty('spring.profiles.active', springTestProfiles)
+    // uncomment if the tests reports are not generated
+    // see https://github.com/jhipster/generator-jhipster/pull/2771 and https://github.com/jhipster/generator-jhipster/pull/4484
+    // ignoreFailures true
+    reports.html.required = false
+    dependsOn(tasks.named('test'))
+}
+
+tasks.named('processResources').configure { dependsOn(webapp) }
+tasks.named('bootJar').configure { dependsOn(tasks.named('processResources')) }

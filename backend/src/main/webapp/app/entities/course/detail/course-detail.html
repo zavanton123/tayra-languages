@@ -1,0 +1,62 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    @if (course(); as courseRef) {
+      <div>
+        <h2 data-cy="courseDetailsHeading"><span>Course</span></h2>
+
+        <hr />
+
+        <jhi-alert-error />
+
+        <jhi-alert />
+
+        <dl class="row-md jh-entity-details">
+          <dt><span>ID</span></dt>
+          <dd>
+            <span>{{ courseRef.id }}</span>
+          </dd>
+          <dt><span ngbTooltip="The course's id in the app, stable once published, e.g. pt-primeiros-passos.">Slug</span></dt>
+          <dd>
+            <span>{{ courseRef.slug }}</span>
+          </dd>
+          <dt><span ngbTooltip="ISO 639-1 code of the language taught.">Language Code</span></dt>
+          <dd>
+            <span>{{ courseRef.languageCode }}</span>
+          </dd>
+          <dt><span>Title</span></dt>
+          <dd>
+            <span>{{ courseRef.title }}</span>
+          </dd>
+          <dt><span>Description</span></dt>
+          <dd>
+            <span>{{ courseRef.description }}</span>
+          </dd>
+          <dt><span>Level</span></dt>
+          <dd>
+            <span>{{ { null: '', A1: 'A1', A2: 'A2', B1: 'B1', B2: 'B2' }[courseRef.level ?? 'null'] }}</span>
+          </dd>
+          <dt><span>Topic</span></dt>
+          <dd>
+            <span>{{ courseRef.topic }}</span>
+          </dd>
+          <dt><span ngbTooltip="Where the course comes in the list of its language.">Sort Order</span></dt>
+          <dd>
+            <span>{{ courseRef.sortOrder }}</span>
+          </dd>
+          <dt><span ngbTooltip="Only published courses are served to the app.">Published</span></dt>
+          <dd>
+            <span>{{ courseRef.published }}</span>
+          </dd>
+        </dl>
+
+        <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+          <fa-icon icon="arrow-left" />&nbsp;<span>Back</span>
+        </button>
+
+        <button type="button" [routerLink]="['/course', courseRef.id, 'edit']" class="btn btn-primary">
+          <fa-icon icon="pencil-alt" />&nbsp;<span>Edit</span>
+        </button>
+      </div>
+    }
+  </div>
+</div>

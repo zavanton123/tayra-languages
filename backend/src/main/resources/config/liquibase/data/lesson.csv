@@ -1,0 +1,15 @@
+id;slug;title;summary;content;sort_order;course_id
+1;"pt-primeiros-passos-1";"Olá! Eu sou a Ana";"Ana introduces herself: name, age, city and work.";../data/lessons/pt-primeiros-passos-1.txt;1;1
+2;"pt-primeiros-passos-2";"Minha família";"Ana describes her parents, her brother and her grandmother.";../data/lessons/pt-primeiros-passos-2.txt;2;1
+3;"pt-primeiros-passos-3";"Minha casa";"A small apartment, room by room.";../data/lessons/pt-primeiros-passos-3.txt;3;1
+4;"pt-primeiros-passos-4";"Meu dia";"A normal working day, from morning to night.";../data/lessons/pt-primeiros-passos-4.txt;4;1
+5;"pt-primeiros-passos-5";"No café";"Ordering a coffee and something to eat.";../data/lessons/pt-primeiros-passos-5.txt;5;1
+6;"pt-vida-na-cidade-1";"No supermercado";"A weekly shop, with prices and a forgotten list.";../data/lessons/pt-vida-na-cidade-1.txt;1;2
+7;"pt-vida-na-cidade-2";"Pegando o ônibus";"Asking the way and taking the right bus.";../data/lessons/pt-vida-na-cidade-2.txt;2;2
+8;"pt-vida-na-cidade-3";"No restaurante";"Choosing from the menu and a small mistake with the bill.";../data/lessons/pt-vida-na-cidade-3.txt;3;2
+9;"pt-vida-na-cidade-4";"Uma consulta médica";"Describing symptoms and understanding the doctor's advice.";../data/lessons/pt-vida-na-cidade-4.txt;4;2
+10;"pt-vida-na-cidade-5";"Um fim de semana no Rio";"A short trip: the beach, the views and the food.";../data/lessons/pt-vida-na-cidade-5.txt;5;2
+11;"pt-historias-curtas-1";"A carta sem remetente";"An unsigned letter arrives after many years.";../data/lessons/pt-historias-curtas-1.txt;1;3
+12;"pt-historias-curtas-2";"O guarda-chuva trocado";"Two strangers take each other's umbrella by mistake.";../data/lessons/pt-historias-curtas-2.txt;2;3
+13;"pt-historias-curtas-3";"A última viagem do trem";"A railway worker's last day on an old line.";../data/lessons/pt-historias-curtas-3.txt;3;3
+14;"pt-historias-curtas-4";"O vizinho do terceiro andar";"Everyone has a theory about the quiet neighbour.";../data/lessons/pt-historias-curtas-4.txt;4;3
