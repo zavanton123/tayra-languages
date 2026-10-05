@@ -27,7 +27,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Refresh
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -112,7 +111,6 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onUndo = viewModel::undo,
                 onSuspend = viewModel::suspendCard,
                 onEdit = { onNavigate(Route.EditTerm(it)) },
-                onSettings = { onNavigate(Route.FlashcardSettings) },
                 onVocabulary = { onNavigate(Route.Terms()) },
             ),
             modifier = Modifier.padding(padding),
@@ -126,7 +124,6 @@ internal class FlashcardActions(
     val onUndo: () -> Unit = {},
     val onSuspend: () -> Unit = {},
     val onEdit: (termId: Long) -> Unit = {},
-    val onSettings: () -> Unit = {},
     val onVocabulary: () -> Unit = {},
 )
 
@@ -176,7 +173,7 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
             Modifier.widthIn(max = 1048.dp).fillMaxWidth().padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 28.dp),
             verticalArrangement = Arrangement.spacedBy(if (compact) 16.dp else 22.dp),
         ) {
-            Header(state, compact, actions)
+            Header(state, compact)
             Progress(state, compact)
             val card = state.card
             if (card == null) {
@@ -191,24 +188,14 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
 }
 
 @Composable
-private fun Header(state: FlashcardsUiState, compact: Boolean, actions: FlashcardActions) {
-    val colors = MaterialTheme.colorScheme
-    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        Column(Modifier.weight(1f)) {
-            Text("Flashcards", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-            Text(
-                if (state.languageName.isEmpty()) "Review the words you are learning." else "Review the ${state.languageName} words you are learning.",
-                style = MaterialTheme.typography.bodyLarge,
-                color = colors.onSurfaceVariant,
-            )
-        }
-        Box(
-            Modifier.size(44.dp).clip(RoundedCornerShape(10.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))
-                .clickable(onClick = actions.onSettings),
-            contentAlignment = Alignment.Center,
-        ) {
-            Icon(Icons.Default.Settings, contentDescription = "Flashcard settings", tint = colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
-        }
+private fun Header(state: FlashcardsUiState, compact: Boolean) {
+    Column(Modifier.fillMaxWidth()) {
+        Text("Flashcards", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+        Text(
+            if (state.languageName.isEmpty()) "Review the words you are learning." else "Review the ${state.languageName} words you are learning.",
+            style = MaterialTheme.typography.bodyLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
     }
 }
 
