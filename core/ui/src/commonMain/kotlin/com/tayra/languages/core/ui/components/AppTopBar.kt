@@ -47,17 +47,19 @@ import androidx.compose.ui.semantics.Role
 import com.tayra.languages.core.ui.navigation.Route
 
 /** The main navigation areas, used to highlight the active tab. */
-enum class NavSection(val label: String) { HOME("Home"), BOOKS("Books"), TERMS("Vocabulary"), FLASHCARDS("Flashcards"), SETTINGS("Settings"), ABOUT("About") }
+enum class NavSection(val label: String) { HOME("Home"), BOOKS("Books"), COURSES("Courses"), TERMS("Vocabulary"), FLASHCARDS("Flashcards"), SETTINGS("Settings"), ABOUT("About") }
 
 /** How many flashcards wait today, shown beside the Flashcards tab; provided at the root of the app. */
 val LocalFlashcardsDue = compositionLocalOf { 0 }
 
 private data class MenuEntry(val label: String, val route: Route)
 
-private data class MenuGroup(val section: NavSection, val entries: List<MenuEntry>)
+/** [direct] groups have one destination, opened by the tab itself with no menu. */
+private data class MenuGroup(val section: NavSection, val entries: List<MenuEntry>, val direct: Boolean = false)
 
 private val menuGroups = listOf(
     MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Home), MenuEntry("Create new book", Route.NewBook), MenuEntry("Book archive", Route.ArchivedBooks))),
+    MenuGroup(NavSection.COURSES, listOf(MenuEntry("Courses", Route.Courses)), direct = true),
     MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()))),
     MenuGroup(NavSection.FLASHCARDS, listOf(MenuEntry("Review flashcards", Route.Flashcards), MenuEntry("Flashcard settings", Route.FlashcardSettings))),
     MenuGroup(
@@ -159,7 +161,7 @@ private fun WideMenu(section: NavSection?, onNavigate: (Route) -> Unit) {
             var open by remember { mutableStateOf(false) }
             // The dropdown anchors to its enclosing composable, so each tab gets its own Box.
             Box {
-                NavTab(group.section, active = section == group.section, onClick = { open = true })
+                NavTab(group.section, active = section == group.section, onClick = { if (group.direct) onNavigate(group.entries.single().route) else open = true })
                 AppMenu(expanded = open, onDismissRequest = { open = false }) {
                     group.entries.forEach { entry ->
                         AppMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })

@@ -10,6 +10,7 @@ import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.db.ListBooks
 import com.tayra.languages.core.data.db.TayraDatabase
 import com.tayra.languages.core.data.db.databaseDispatcher
+import com.tayra.languages.core.domain.courses.LessonBook
 import com.tayra.languages.core.domain.model.Book
 import com.tayra.languages.core.domain.model.BookListItem
 import com.tayra.languages.core.domain.model.BookStats
@@ -37,6 +38,31 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
         db().booksQueries.listBooks(archived).asFlow().mapToList(databaseDispatcher).collect { rows ->
             emit(rows.map { it.toListItem() })
         }
+    }
+
+    override fun observeLessonBooks(): Flow<Map<String, LessonBook>> = flow {
+        db().booksQueries.listLessonBooks().asFlow().mapToList(databaseDispatcher).collect { rows ->
+            emit(
+                rows.associate { row ->
+                    row.lesson_id to LessonBook(
+                        lessonId = row.lesson_id,
+                        bookId = row.book_id,
+                        currentPage = row.current_page.toInt(),
+                        pageCount = row.page_count.toInt(),
+                        lastOpened = row.last_opened?.toInstant(),
+                        isCompleted = row.last_page_read_date != null,
+                    )
+                },
+            )
+        }
+    }
+
+    override suspend fun lessonBookId(lessonId: String): Long? = withContext(databaseDispatcher) {
+        db().booksQueries.lessonBookId(lessonId).awaitAsOneOrNull()
+    }
+
+    override suspend fun linkLesson(lessonId: String, bookId: Long) {
+        withContext(databaseDispatcher) { db().booksQueries.linkLesson(lessonId, bookId) }
     }
 
     override fun observeBook(id: Long): Flow<Book?> = flow {

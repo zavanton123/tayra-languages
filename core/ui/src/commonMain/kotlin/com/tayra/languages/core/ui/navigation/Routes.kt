@@ -41,6 +41,12 @@ sealed interface Route {
     data class Examples(val languageId: Long, val text: String) : Route
 
 
+    /** The courses for the language being learned. */
+    @Serializable
+    data object Courses : Route
+    /** A course and its lessons. */
+    @Serializable
+    data class Course(val courseId: String) : Route
     /** Reviewing the flashcards of the language being learned. */
     @Serializable
     data object Flashcards : Route

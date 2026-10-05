@@ -1,5 +1,6 @@
 package com.tayra.languages.core.domain.repository
 
+import com.tayra.languages.core.domain.courses.LessonBook
 import com.tayra.languages.core.domain.model.Book
 import com.tayra.languages.core.domain.model.BookListItem
 import com.tayra.languages.core.domain.model.BookStats
@@ -28,6 +29,12 @@ interface BookRepository {
     suspend fun setArchived(id: Long, archived: Boolean)
     suspend fun deleteBook(id: Long)
     suspend fun allBookTags(): List<String>
+
+    /** The texts made from course lessons, by lesson id; they are left out of [observeBooks]. */
+    fun observeLessonBooks(): Flow<Map<String, LessonBook>>
+    suspend fun lessonBookId(lessonId: String): Long?
+    /** Makes [bookId] the text of the lesson. */
+    suspend fun linkLesson(lessonId: String, bookId: Long)
 
     suspend fun getPages(bookId: Long): List<Page>
     suspend fun getPage(bookId: Long, order: Int): Page?

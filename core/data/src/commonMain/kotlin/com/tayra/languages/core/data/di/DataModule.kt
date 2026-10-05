@@ -1,5 +1,8 @@
 package com.tayra.languages.core.data.di
 
+import com.tayra.languages.core.domain.courses.BuiltInCourses
+import com.tayra.languages.core.domain.courses.CourseService
+import com.tayra.languages.core.domain.courses.CourseSource
 import com.tayra.languages.core.data.repository.FlashcardRepositoryImpl
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import com.tayra.languages.core.domain.repository.FlashcardRepository
@@ -132,6 +135,8 @@ val dataModule: Module = module {
     single { LearningLanguageService(get(), get(), get()) }
     single { DemoDataService(get(), get(), get(), get(), get()) }
     single { StatsService(get()) }
+    single<CourseSource> { BuiltInCourses() }
+    single { CourseService(get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
     single { FlashcardService(get(), get(), get()) }
 }

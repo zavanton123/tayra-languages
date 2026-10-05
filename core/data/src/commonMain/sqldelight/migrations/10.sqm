@@ -1,0 +1,5 @@
+-- The texts made from course lessons, by lesson. They are read like books but listed under their courses.
+CREATE TABLE IF NOT EXISTS course_lessons (
+    lesson_id TEXT NOT NULL PRIMARY KEY,
+    book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE
+);

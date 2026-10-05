@@ -60,6 +60,12 @@ CREATE TABLE book_stats (
     status_distribution TEXT NOT NULL
 );
 
+-- The texts made from course lessons, by lesson. They are read like books but listed under their courses.
+CREATE TABLE course_lessons (
+    lesson_id TEXT NOT NULL PRIMARY KEY,
+    book_id INTEGER NOT NULL REFERENCES books(id) ON DELETE CASCADE
+);
+
 selectById:
 SELECT * FROM books WHERE id = :id;
 
@@ -91,7 +97,27 @@ FROM books b
 INNER JOIN languages l ON l.id = b.language_id
 LEFT OUTER JOIN book_stats s ON s.book_id = b.id
 WHERE b.archived = :archived
+  AND b.id NOT IN (SELECT book_id FROM course_lessons)
 ORDER BY last_opened DESC, b.title;
+
+-- Course lessons
+
+listLessonBooks:
+SELECT
+    cl.lesson_id,
+    b.id AS book_id,
+    COALESCE((SELECT page_order FROM pages WHERE id = b.current_page_id), 1) AS current_page,
+    (SELECT count(*) FROM pages p WHERE p.book_id = b.id) AS page_count,
+    (SELECT max(start_date) FROM pages p WHERE p.book_id = b.id) AS last_opened,
+    (SELECT read_date FROM pages p WHERE p.book_id = b.id ORDER BY page_order DESC LIMIT 1) AS last_page_read_date
+FROM course_lessons cl
+INNER JOIN books b ON b.id = cl.book_id;
+
+lessonBookId:
+SELECT b.id FROM course_lessons cl INNER JOIN books b ON b.id = cl.book_id WHERE cl.lesson_id = :lessonId;
+
+linkLesson:
+INSERT OR REPLACE INTO course_lessons(lesson_id, book_id) VALUES (:lessonId, :bookId);
 
 insert:
 INSERT INTO books(language_id, title, source_uri, current_page_id, archived, audio_filename, audio_current_pos, audio_bookmarks)
