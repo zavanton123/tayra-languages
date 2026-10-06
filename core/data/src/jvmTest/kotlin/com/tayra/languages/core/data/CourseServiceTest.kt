@@ -5,9 +5,9 @@ import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
-import com.tayra.languages.core.data.repository.UserCourseRepositoryImpl
+import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
-import com.tayra.languages.core.domain.courses.BuiltInCourses
+import com.tayra.languages.core.domain.courses.SampleCourses
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.courses.LessonStatus
@@ -35,11 +35,11 @@ class CourseServiceTest {
     private val terms = TermRepositoryImpl(provider)
     private val bookService = BookService(books, languages)
     private val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages))
-    private val service = CourseService(BuiltInCourses(), books, languages, bookService, UserCourseRepositoryImpl(provider))
+    private val service = CourseService(books, languages, bookService, CourseRepositoryImpl(provider))
 
     @Test
-    fun theBuiltInCoursesAreWellFormed() {
-        val courses = BuiltInCourses.ALL
+    fun theSampleCoursesAreWellFormed() {
+        val courses = SampleCourses.ALL
         assertEquals(listOf(CourseLevel.A1, CourseLevel.A2, CourseLevel.B1), courses.map { it.level })
         assertEquals(courses.size, courses.map { it.id }.toSet().size)
         val lessons = courses.flatMap { it.lessons }
@@ -54,6 +54,7 @@ class CourseServiceTest {
     @Test
     fun coursesAreListedForTheirLanguageOnly() = runTest {
         val portuguese = languages.save(Language(name = "Portuguese"))
+        service.seedSamples()
         val spanish = languages.save(Language(name = "Spanish"))
         assertEquals(listOf("Primeiros passos", "A vida na cidade", "Histórias curtas"), service.observeCourses(portuguese).first().map { it.course.title })
         assertEquals(emptyList(), service.observeCourses(spanish).first())
@@ -62,6 +63,7 @@ class CourseServiceTest {
     @Test
     fun aLessonBecomesATextOnceAndItsReadingIsItsProgress() = runTest {
         val portuguese = languages.save(Language(name = "Portuguese"))
+        service.seedSamples()
         val own = bookService.create(BookDraft(languageId = portuguese, title = "My own book", text = "O lobo dorme."))
         val course = service.observeCourses(portuguese).first().first()
         val lesson = course.course.lessons.first()
@@ -112,7 +114,8 @@ class CourseServiceTest {
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
         val upgradedBooks = BookRepositoryImpl(reopened)
         val upgradedLanguages = LanguageRepositoryImpl(reopened)
-        val upgraded = CourseService(BuiltInCourses(), upgradedBooks, upgradedLanguages, BookService(upgradedBooks, upgradedLanguages), UserCourseRepositoryImpl(reopened))
+        val upgraded = CourseService(upgradedBooks, upgradedLanguages, BookService(upgradedBooks, upgradedLanguages), CourseRepositoryImpl(reopened))
+        upgraded.seedSamples()
         assertNotNull(upgraded.openLesson("pt-primeiros-passos", "pt-primeiros-passos-1"))
         assertEquals(3, upgraded.observeCourses(portuguese).first().size)
     }
@@ -120,7 +123,8 @@ class CourseServiceTest {
     @Test
     fun aLessonsTextKnowsItsCourse() = runTest {
         languages.save(Language(name = "Portuguese"))
-        val course = BuiltInCourses.ALL.first()
+        service.seedSamples()
+        val course = SampleCourses.ALL.first()
         val bookId = assertNotNull(service.openLesson(course.id, course.lessons[2].id))
         val reading = assertNotNull(service.lessonReading(bookId))
         assertEquals(course.id, reading.course.id)

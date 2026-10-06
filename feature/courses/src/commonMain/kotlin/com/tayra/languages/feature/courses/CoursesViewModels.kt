@@ -51,6 +51,11 @@ data class CoursesUiState(
 
 /** The courses of the language being learned. */
 class CoursesViewModel(service: CourseService, languages: LanguageRepository, settings: SettingsRepository) : ViewModel() {
+    init {
+        // A language added since the app started gets its sample courses here.
+        viewModelScope.launch { service.seedSamples() }
+    }
+
     private val search = MutableStateFlow("")
     private val level = MutableStateFlow<CourseLevel?>(null)
     private val status = MutableStateFlow<LessonStatus?>(null)

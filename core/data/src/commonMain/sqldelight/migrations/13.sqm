@@ -1,0 +1,36 @@
+-- The app's courses move into the database beside the reader's own: one pair of tables for both,
+-- with a flag for the app's samples. Courses made since version 12 are copied over.
+CREATE TABLE IF NOT EXISTS courses (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL DEFAULT '',
+    level TEXT NOT NULL,
+    topic TEXT NOT NULL DEFAULT '',
+    created_at INTEGER NOT NULL,
+    built_in INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS lessons (
+    id TEXT NOT NULL PRIMARY KEY,
+    course_id TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    summary TEXT NOT NULL DEFAULT '',
+    text TEXT NOT NULL,
+    position INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS lessons_course ON lessons(course_id, position);
+
+CREATE TABLE IF NOT EXISTS course_seeds (
+    language_id INTEGER NOT NULL PRIMARY KEY REFERENCES languages(id) ON DELETE CASCADE
+);
+
+INSERT OR IGNORE INTO courses(id, language_id, title, description, level, topic, created_at, built_in)
+SELECT id, language_id, title, description, level, topic, created_at, 0 FROM user_courses;
+
+INSERT OR IGNORE INTO lessons(id, course_id, title, summary, text, position)
+SELECT id, course_id, title, summary, text, position FROM user_lessons;
+
+DROP TABLE IF EXISTS user_lessons;
+DROP TABLE IF EXISTS user_courses;

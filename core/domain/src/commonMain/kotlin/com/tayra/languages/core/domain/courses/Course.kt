@@ -35,13 +35,12 @@ data class Course(
     val level: CourseLevel,
     val topic: String,
     val lessons: List<Lesson>,
-    /** The language of a course the reader made; null for the courses that come with the app. */
-    val languageId: Long? = null,
+    /** The language the course is stored for; 0 in the sample data before it is written into the database. */
+    val languageId: Long = 0,
+    /** Whether the course is one of the app's samples rather than one the reader made; both can be changed. */
+    val builtIn: Boolean = false,
 ) {
     val wordCount: Int get() = lessons.sumOf { it.wordCount }
-
-    /** Whether the reader made the course, and so can change it. */
-    val isOwn: Boolean get() = languageId != null
 }
 
 /** What the reader writes about a course of their own. */
@@ -52,8 +51,8 @@ data class LessonDraft(val title: String, val summary: String = "", val text: St
 
 class CourseValidationException(message: String) : IllegalArgumentException(message)
 
-/** The courses the reader makes, with their lessons in order. */
-interface UserCourseRepository {
+/** The courses, the app's samples and the reader's own, with their lessons in order. */
+interface CourseRepository {
     fun observeCourses(languageId: Long): Flow<List<Course>>
     fun observeCourse(courseId: String): Flow<Course?>
     suspend fun course(courseId: String): Course?
@@ -66,13 +65,11 @@ interface UserCourseRepository {
     suspend fun deleteLesson(lessonId: String)
     /** Moves the lesson [by] places, later for positive, keeping it within the course. */
     suspend fun moveLesson(lessonId: String, by: Int)
-}
 
-/** Where the courses that come with the app are read from. */
-interface CourseSource {
-    /** The courses teaching the language with [languageCode], in the order to show them. */
-    suspend fun courses(languageCode: String): List<Course>
-    suspend fun course(id: String): Course?
+    /** Whether the samples were written for the language with [languageId] already, so ones deleted since stay deleted. */
+    suspend fun samplesSeeded(languageId: Long): Boolean
+    /** Writes [courses] with their lessons for the language as samples, and notes that it was done. */
+    suspend fun seedSamples(languageId: Long, courses: List<Course>)
 }
 
 /** A lesson that was opened: the text made from it, and how far its reading has got. */

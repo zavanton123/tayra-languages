@@ -25,10 +25,9 @@ import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
-import com.tayra.languages.core.data.repository.UserCourseRepositoryImpl
+import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
-import com.tayra.languages.core.domain.courses.BuiltInCourses
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.BookService
@@ -58,9 +57,9 @@ class CoursesScreenTest {
     private val books = BookRepositoryImpl(provider)
     private val terms = TermRepositoryImpl(provider)
     private val settings = SettingsRepositoryImpl(MapSettings())
-    private val service = CourseService(BuiltInCourses(), books, languages, BookService(books, languages), UserCourseRepositoryImpl(provider))
+    private val service = CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider))
     private val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages))
-    private val languageId = runBlocking { languages.save(Language(name = "Portuguese")).also { id -> settings.update { it.copy(currentLanguageId = id) } } }
+    private val languageId = runBlocking { languages.save(Language(name = "Portuguese")).also { id -> settings.update { it.copy(currentLanguageId = id) }; service.seedSamples() } }
 
     private fun ComposeUiTest.host(section: NavSection = NavSection.COURSES, content: @androidx.compose.runtime.Composable () -> Unit) = setContent {
         TayraTheme {

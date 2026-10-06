@@ -70,7 +70,7 @@ data class CourseFormUiState(
     val error: String? = null,
 )
 
-/** Makes one of the reader's courses, or changes one ([courseId]). */
+/** Makes a course, or changes one ([courseId]). */
 class CourseFormViewModel(
     private val courseId: String?,
     private val service: CourseService,
@@ -92,7 +92,7 @@ class CourseFormViewModel(
                 languageId = languageId,
                 languageName = languages.getById(languageId)?.name.orEmpty(),
                 draft = course?.let { CourseDraft(it.title, it.description, it.level, it.topic) } ?: CourseDraft(""),
-                error = if (courseId != null && course?.isOwn != true) "Only your own courses can be changed." else null,
+                error = if (courseId != null && course == null) "This course no longer exists." else null,
             )
         }
     }
@@ -116,7 +116,7 @@ class CourseFormViewModel(
     }
 }
 
-/** The form for a course of the reader's own: its title, what it is about, its level and topic. */
+/** The form for a course: its title, what it is about, its level and topic. */
 @Composable
 fun CourseFormScreen(
     courseId: String?,
@@ -221,7 +221,7 @@ data class LessonFormUiState(
     val error: String? = null,
 )
 
-/** Adds a lesson to one of the reader's courses, or changes one ([lessonId]). */
+/** Adds a lesson to a course, or changes one ([lessonId]). */
 class LessonFormViewModel(
     private val courseId: String,
     private val lessonId: String?,
@@ -242,7 +242,7 @@ class LessonFormViewModel(
                 courseTitle = course?.title.orEmpty(),
                 languageName = course?.languageId?.let { languages.getById(it)?.name }.orEmpty(),
                 draft = lesson?.let { LessonDraft(it.title, it.summary, it.text) } ?: LessonDraft("", text = ""),
-                error = if (course?.isOwn != true) "Only your own courses can be changed." else null,
+                error = if (course == null) "This course no longer exists." else null,
             )
         }
     }

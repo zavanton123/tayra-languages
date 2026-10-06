@@ -21,9 +21,8 @@ import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
-import com.tayra.languages.core.data.repository.UserCourseRepositoryImpl
+import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
-import com.tayra.languages.core.domain.courses.BuiltInCourses
 import com.tayra.languages.core.domain.courses.CourseDraft
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.courses.LessonDraft
@@ -41,15 +40,15 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
-/** The reader makes a course of their own through the forms, and its page offers what the app's courses do not: changing it. */
+/** The reader makes a course through the forms and changes it from its page, as with the sample courses. */
 @OptIn(ExperimentalTestApi::class)
 class OwnCoursesScreenTest {
     private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-own-courses-ui", ".db").also { it.delete() }))
     private val languages = LanguageRepositoryImpl(provider)
     private val books = BookRepositoryImpl(provider)
     private val settings = SettingsRepositoryImpl(MapSettings())
-    private val service = CourseService(BuiltInCourses(), books, languages, BookService(books, languages), UserCourseRepositoryImpl(provider))
-    private val portuguese = runBlocking { languages.save(Language(name = "Portuguese")).also { id -> settings.update { it.copy(currentLanguageId = id) } } }
+    private val service = CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider))
+    private val portuguese = runBlocking { languages.save(Language(name = "Portuguese")).also { id -> settings.update { it.copy(currentLanguageId = id) }; service.seedSamples() } }
 
     private fun ComposeUiTest.host(content: @androidx.compose.runtime.Composable () -> Unit) = setContent {
         TayraTheme {
@@ -126,7 +125,8 @@ class OwnCoursesScreenTest {
                 ),
             )
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your course").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Minhas leituras").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(onAllNodesWithText("Sample course").fetchSemanticsNodes().isEmpty(), "only the samples are tagged")
         System.getenv("OWN_COURSE_SCREENSHOT")?.let { save(it) }
         onNodeWithTag("edit-course").performClick()
         onNodeWithTag("add-lesson").performClick()
@@ -145,13 +145,15 @@ class OwnCoursesScreenTest {
     }
 
     @Test
-    fun theAppsCoursesHaveNoEditing() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun aSampleCourseIsTaggedAndCanBeChangedToo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = CourseViewModel("pt-primeiros-passos", service)
         host { CourseContent(viewModel.state.collectAsStateValue(), onOpenLesson = {}, onCourses = {}, editing = CourseEditing()) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Primeiros passos").fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(onAllNodesWithTag("edit-course").fetchSemanticsNodes().isEmpty())
-        assertTrue(onAllNodesWithTag("add-lesson").fetchSemanticsNodes().isEmpty())
-        assertTrue(onAllNodesWithText("Your course").fetchSemanticsNodes().isEmpty())
+        onNodeWithText("Sample course").assertExists()
+        onNodeWithTag("edit-course").assertExists()
+        onNodeWithTag("add-lesson").assertExists()
+        onNodeWithTag("lesson-menu-pt-primeiros-passos-1").assertExists()
+        System.getenv("SAMPLE_COURSE_SCREENSHOT")?.let { save(it) }
     }
 
     @androidx.compose.runtime.Composable

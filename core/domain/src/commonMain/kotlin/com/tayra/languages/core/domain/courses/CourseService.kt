@@ -11,30 +11,37 @@ import kotlinx.coroutines.flow.first
 import kotlin.random.Random
 
 /**
- * Courses and how far the reader has got in them: the ones that come with the app and the ones
- * the reader makes. A lesson is read like any text: the first time it is opened a text is made
- * from it, kept apart from the reader's own books, and from then on the lesson's progress is that
- * text's.
+ * Courses and how far the reader has got in them. All courses are stored alike and can be
+ * changed: the app's samples, written in once per language, and the ones the reader makes. A
+ * lesson is read like any text: the first time it is opened a text is made from it, kept apart
+ * from the reader's own books, and from then on the lesson's progress is that text's.
  */
 class CourseService(
-    private val source: CourseSource,
     private val books: BookRepository,
     private val languages: LanguageRepository,
     private val bookService: BookService,
-    private val own: UserCourseRepository,
+    private val repository: CourseRepository,
+    private val samples: List<Course> = SampleCourses.ALL,
 ) {
-    /** The courses for the language with [languageId], the app's first, then the reader's, kept up to date. */
+    /** The courses for the language with [languageId], oldest first, kept up to date. */
     fun observeCourses(languageId: Long): Flow<List<CourseProgress>> =
-        combine(books.observeLessonBooks(), own.observeCourses(languageId)) { opened, mine ->
-            val code = languages.getById(languageId)?.let { LanguageCodes.codeFor(it.name) }
-            val builtIn = code?.let { source.courses(it) }.orEmpty()
-            (builtIn + mine).map { progress(it, opened) }
-        }
+        combine(books.observeLessonBooks(), repository.observeCourses(languageId)) { opened, courses -> courses.map { progress(it, opened) } }
 
     fun observeCourse(courseId: String): Flow<CourseProgress?> =
-        combine(books.observeLessonBooks(), own.observeCourse(courseId)) { opened, mine ->
-            (mine ?: source.course(courseId))?.let { progress(it, opened) }
+        combine(books.observeLessonBooks(), repository.observeCourse(courseId)) { opened, course -> course?.let { progress(it, opened) } }
+
+    /**
+     * Writes the sample courses for each language they are in, once: a sample the reader deleted
+     * stays deleted. They keep their ids, so the place reached in a sample lesson carries over.
+     */
+    suspend fun seedSamples() {
+        for (language in languages.getAll()) {
+            val code = LanguageCodes.codeFor(language.name) ?: continue
+            val theirs = samples.filter { it.languageCode == code }
+            if (theirs.isEmpty() || repository.samplesSeeded(language.id)) continue
+            repository.seedSamples(language.id, theirs)
         }
+    }
 
     private fun progress(course: Course, opened: Map<String, LessonBook>) =
         CourseProgress(course, course.lessons.map { LessonProgress(it, opened[it.id]) })
@@ -43,9 +50,7 @@ class CourseService(
     suspend fun lessonReading(bookId: Long): LessonReading? {
         val lessonId = books.observeLessonBooks().first().values.firstOrNull { it.bookId == bookId }?.lessonId ?: return null
         val book = books.getBook(bookId) ?: return null
-        val code = languages.getById(book.languageId)?.let { LanguageCodes.codeFor(it.name) }
-        val courses = own.observeCourses(book.languageId).first() + code?.let { source.courses(it) }.orEmpty()
-        return courses.firstNotNullOfOrNull { course ->
+        return repository.observeCourses(book.languageId).first().firstNotNullOfOrNull { course ->
             course.lessons.firstOrNull { it.id == lessonId }?.let { LessonReading(course, it) }
         }
     }
@@ -55,41 +60,39 @@ class CourseService(
      * course's language.
      */
     suspend fun openLesson(courseId: String, lessonId: String): Long? {
-        val course = own.course(courseId) ?: source.course(courseId) ?: return null
+        val course = repository.course(courseId) ?: return null
         val lesson = course.lessons.firstOrNull { it.id == lessonId } ?: return null
         books.lessonBookId(lessonId)?.let { return it }
-        val language = course.languageId?.let { languages.getById(it) }
-            ?: languages.getAll().firstOrNull { LanguageCodes.codeFor(it.name) == course.languageCode }
-            ?: return null
+        val language = languages.getById(course.languageId) ?: return null
         val bookId = bookService.create(BookDraft(languageId = language.id, title = lesson.title, text = lesson.text))
         books.linkLesson(lessonId, bookId)
         return bookId
     }
 
-    // The reader's own courses; the app's cannot be changed.
+    // Changing courses.
 
     /** Makes a course for the language with [languageId]; returns its id. */
     suspend fun createCourse(languageId: Long, draft: CourseDraft): String {
         val clean = validated(draft)
         val id = newId("course")
-        own.createCourse(id, languageId, clean)
+        repository.createCourse(id, languageId, clean)
         return id
     }
 
-    suspend fun updateCourse(courseId: String, draft: CourseDraft) = own.updateCourse(ownCourse(courseId).id, validated(draft))
+    suspend fun updateCourse(courseId: String, draft: CourseDraft) = repository.updateCourse(stored(courseId).id, validated(draft))
 
     /** Deletes the course, its lessons and the texts made from them. */
     suspend fun deleteCourse(courseId: String) {
-        val course = ownCourse(courseId)
+        val course = stored(courseId)
         for (lesson in course.lessons) books.lessonBookId(lesson.id)?.let { bookService.delete(it) }
-        own.deleteCourse(course.id)
+        repository.deleteCourse(course.id)
     }
 
     /** Adds a lesson at the end of the course; returns its id. */
     suspend fun addLesson(courseId: String, draft: LessonDraft): String {
-        val course = ownCourse(courseId)
+        val course = stored(courseId)
         val id = newId("lesson")
-        own.addLesson(id, course.id, validated(draft))
+        repository.addLesson(id, course.id, validated(draft))
         return id
     }
 
@@ -98,9 +101,9 @@ class CourseService(
      * when the words changed, keeping the place reached as far as the new pages allow.
      */
     suspend fun updateLesson(courseId: String, lessonId: String, draft: LessonDraft) {
-        val before = ownCourse(courseId).lessons.firstOrNull { it.id == lessonId } ?: throw NoSuchElementException("No lesson $lessonId")
+        val before = stored(courseId).lessons.firstOrNull { it.id == lessonId } ?: throw NoSuchElementException("No lesson $lessonId")
         val clean = validated(draft)
-        own.updateLesson(lessonId, clean)
+        repository.updateLesson(lessonId, clean)
         val bookId = books.lessonBookId(lessonId) ?: return
         val book = books.getBook(bookId) ?: return
         val textChanged = clean.text != before.text
@@ -121,18 +124,18 @@ class CourseService(
 
     /** Deletes the lesson and the text made from it. */
     suspend fun deleteLesson(courseId: String, lessonId: String) {
-        ownCourse(courseId)
+        stored(courseId)
         books.lessonBookId(lessonId)?.let { bookService.delete(it) }
-        own.deleteLesson(lessonId)
+        repository.deleteLesson(lessonId)
     }
 
     suspend fun moveLesson(courseId: String, lessonId: String, by: Int) {
-        ownCourse(courseId)
-        own.moveLesson(lessonId, by)
+        stored(courseId)
+        repository.moveLesson(lessonId, by)
     }
 
-    private suspend fun ownCourse(courseId: String): Course =
-        own.course(courseId) ?: throw CourseValidationException("Only your own courses can be changed")
+    private suspend fun stored(courseId: String): Course =
+        repository.course(courseId) ?: throw CourseValidationException("This course no longer exists")
 
     private fun validated(draft: CourseDraft): CourseDraft {
         if (draft.title.isBlank()) throw CourseValidationException("A course needs a title")
@@ -145,7 +148,7 @@ class CourseService(
         return draft.copy(title = draft.title.trim(), summary = draft.summary.trim(), text = draft.text.trim())
     }
 
-    /** Ids apart from the app's courses' ("pt-primeiros-passos-1"), since lessons are found by id. */
+    /** Ids apart from the samples' ("pt-primeiros-passos-1"), since lessons are found by id. */
     private fun newId(kind: String): String =
         "own-$kind-" + (1..12).map { ID_CHARS[Random.nextInt(ID_CHARS.length)] }.joinToString("")
 

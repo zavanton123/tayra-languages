@@ -4,8 +4,7 @@ import com.tayra.languages.core.data.db.DatabaseDriverFactory
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
-import com.tayra.languages.core.data.repository.UserCourseRepositoryImpl
-import com.tayra.languages.core.domain.courses.BuiltInCourses
+import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.domain.courses.CourseDraft
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseService
@@ -16,6 +15,7 @@ import com.tayra.languages.core.domain.service.BookService
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import java.io.File
+import java.sql.DriverManager
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
@@ -25,15 +25,18 @@ import kotlin.test.assertTrue
 
 /** The reader's own courses: made, filled with lessons, reordered, changed and deleted, alongside the app's. */
 class OwnCoursesTest {
-    private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-own-courses", ".db").also { it.delete() }))
+    private val file = File.createTempFile("tayra-own-courses", ".db").also { it.delete() }
+    private val provider = DatabaseProvider(DatabaseDriverFactory(file))
     private val languages = LanguageRepositoryImpl(provider)
     private val books = BookRepositoryImpl(provider)
     private val bookService = BookService(books, languages)
-    private val service = CourseService(BuiltInCourses(), books, languages, bookService, UserCourseRepositoryImpl(provider))
+    private val repository = CourseRepositoryImpl(provider)
+    private val service = CourseService(books, languages, bookService, repository)
 
     @Test
-    fun anOwnCourseIsListedAfterTheAppsAndKeepsItsLessonsInOrder() = runTest {
+    fun anOwnCourseIsListedAfterTheSamplesAndKeepsItsLessonsInOrder() = runTest {
         val pt = languages.save(Language(name = "Portuguese"))
+        service.seedSamples()
         val id = service.createCourse(pt, CourseDraft("  Minhas leituras ", "Textos que eu escolhi.", CourseLevel.B1, "Notícias"))
         val first = service.addLesson(id, LessonDraft("Primeira", "A first one", "Era uma vez um gato."))
         val second = service.addLesson(id, LessonDraft("Segunda", text = "O gato dormia."))
@@ -42,7 +45,7 @@ class OwnCoursesTest {
         val courses = service.observeCourses(pt).first()
         assertEquals(listOf("Primeiros passos", "A vida na cidade", "Histórias curtas", "Minhas leituras"), courses.map { it.course.title })
         val mine = courses.last().course
-        assertTrue(mine.isOwn && !courses.first().course.isOwn)
+        assertTrue(!mine.builtIn && courses.first().course.builtIn, "the flag tells the samples from the reader's own")
         assertEquals(CourseLevel.B1, mine.level)
         assertEquals(listOf(first, second, third), mine.lessons.map { it.id })
 
@@ -65,6 +68,7 @@ class OwnCoursesTest {
     @Test
     fun changingAnOpenedLessonUpdatesItsTextAndDeletingTakesTheTextAway() = runTest {
         val pt = languages.save(Language(name = "Portuguese"))
+        service.seedSamples()
         val id = service.createCourse(pt, CourseDraft("Minhas leituras"))
         val lesson = service.addLesson(id, LessonDraft("Gato", text = "Era uma vez um gato."))
         val bookId = assertNotNull(service.openLesson(id, lesson))
@@ -83,14 +87,34 @@ class OwnCoursesTest {
         service.deleteCourse(id)
         assertNull(books.getBook(otherBook))
         assertNull(service.observeCourse(id).first())
-        assertEquals(3, service.observeCourses(pt).first().size, "the app's courses stay")
+        assertEquals(3, service.observeCourses(pt).first().size, "the samples stay")
     }
 
     @Test
-    fun theAppsCoursesCannotBeChangedAndDraftsNeedTheirParts() = runTest {
+    fun theSamplesAreWrittenOnceAndCanBeChangedLikeAnyCourse() = runTest {
         val pt = languages.save(Language(name = "Portuguese"))
-        assertFailsWith<CourseValidationException> { service.updateCourse("pt-primeiros-passos", CourseDraft("Mine now")) }
-        assertFailsWith<CourseValidationException> { service.addLesson("pt-primeiros-passos", LessonDraft("Extra", text = "Texto.")) }
+        val de = languages.save(Language(name = "German"))
+        service.seedSamples()
+        service.seedSamples()
+        assertEquals(listOf("Primeiros passos", "A vida na cidade", "Histórias curtas"), service.observeCourses(pt).first().map { it.course.title }, "once, in their order")
+        assertEquals(emptyList(), service.observeCourses(de).first(), "German has no samples")
+
+        service.updateCourse("pt-primeiros-passos", CourseDraft("Os meus primeiros passos", level = CourseLevel.A1))
+        service.addLesson("pt-primeiros-passos", LessonDraft("Extra", text = "Mais um texto."))
+        val changed = service.observeCourse("pt-primeiros-passos").first()!!.course
+        assertEquals("Os meus primeiros passos", changed.title)
+        assertEquals(6, changed.lessons.size)
+        assertTrue(changed.builtIn, "still marked as a sample")
+
+        service.deleteCourse("pt-historias-curtas")
+        service.seedSamples()
+        assertEquals(listOf("pt-primeiros-passos", "pt-vida-na-cidade"), service.observeCourses(pt).first().map { it.course.id }, "a deleted sample stays deleted")
+    }
+
+    @Test
+    fun draftsNeedTheirParts() = runTest {
+        val pt = languages.save(Language(name = "Portuguese"))
+        assertFailsWith<CourseValidationException> { service.updateCourse("no-such-course", CourseDraft("Mine now")) }
         assertFailsWith<CourseValidationException> { service.createCourse(pt, CourseDraft("  ")) }
         val id = service.createCourse(pt, CourseDraft("Minhas leituras"))
         assertFailsWith<CourseValidationException> { service.addLesson(id, LessonDraft("Vazia", text = " ")) }
@@ -98,5 +122,28 @@ class OwnCoursesTest {
         val course = service.observeCourse(id).first()!!.course
         assertEquals("Leituras", course.title)
         assertEquals(CourseLevel.C1, course.level)
+    }
+
+    @Test
+    fun coursesMadeBeforeTheTablesWereSharedAreMovedOver() = runTest {
+        val pt = languages.save(Language(name = "Portuguese"))
+        val id = service.createCourse(pt, CourseDraft("Minhas leituras"))
+        service.addLesson(id, LessonDraft("Gato", text = "Era uma vez um gato."))
+        // Back to version 13, when the reader's courses had tables of their own.
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { db ->
+            val st = db.createStatement()
+            st.execute("CREATE TABLE user_courses (id TEXT NOT NULL PRIMARY KEY, language_id INTEGER NOT NULL, title TEXT NOT NULL, description TEXT NOT NULL DEFAULT '', level TEXT NOT NULL, topic TEXT NOT NULL DEFAULT '', created_at INTEGER NOT NULL)")
+            st.execute("CREATE TABLE user_lessons (id TEXT NOT NULL PRIMARY KEY, course_id TEXT NOT NULL, title TEXT NOT NULL, summary TEXT NOT NULL DEFAULT '', text TEXT NOT NULL, position INTEGER NOT NULL)")
+            st.execute("INSERT INTO user_courses SELECT id, language_id, title, description, level, topic, created_at FROM courses")
+            st.execute("INSERT INTO user_lessons SELECT id, course_id, title, summary, text, position FROM lessons")
+            st.execute("DELETE FROM lessons")
+            st.execute("DELETE FROM courses")
+            st.execute("PRAGMA user_version = 13")
+        }
+        val reopened = DatabaseProvider(DatabaseDriverFactory(file))
+        val upgraded = CourseService(BookRepositoryImpl(reopened), LanguageRepositoryImpl(reopened), BookService(BookRepositoryImpl(reopened), LanguageRepositoryImpl(reopened)), CourseRepositoryImpl(reopened))
+        val course = upgraded.observeCourse(id).first()!!.course
+        assertEquals(listOf("Gato"), course.lessons.map { it.title })
+        assertTrue(!course.builtIn)
     }
 }

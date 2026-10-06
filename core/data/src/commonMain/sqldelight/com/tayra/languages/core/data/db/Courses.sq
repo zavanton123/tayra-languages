@@ -1,0 +1,72 @@
+-- Courses to read lesson by lesson: the app's samples (built_in = 1) and the reader's own, alike
+-- in every other way.
+CREATE TABLE courses (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL DEFAULT '',
+    level TEXT NOT NULL,
+    topic TEXT NOT NULL DEFAULT '',
+    created_at INTEGER NOT NULL,
+    built_in INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0
+);
+
+-- Their lessons, in order by position.
+CREATE TABLE lessons (
+    id TEXT NOT NULL PRIMARY KEY,
+    course_id TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    summary TEXT NOT NULL DEFAULT '',
+    text TEXT NOT NULL,
+    position INTEGER NOT NULL
+);
+
+CREATE INDEX lessons_course ON lessons(course_id, position);
+
+-- The languages the samples were written for, so a sample the reader deleted is not written again.
+CREATE TABLE course_seeds (
+    language_id INTEGER NOT NULL PRIMARY KEY REFERENCES languages(id) ON DELETE CASCADE
+);
+
+selectCourses:
+SELECT * FROM courses WHERE language_id = :languageId ORDER BY created_at, id;
+
+selectCourse:
+SELECT * FROM courses WHERE id = :id;
+
+selectLessons:
+SELECT * FROM lessons WHERE course_id IN :courseIds ORDER BY course_id, position;
+
+selectLesson:
+SELECT * FROM lessons WHERE id = :id;
+
+insertCourse:
+INSERT INTO courses(id, language_id, title, description, level, topic, created_at, built_in)
+VALUES (:id, :languageId, :title, :description, :level, :topic, :createdAt, :builtIn);
+
+updateCourse:
+UPDATE courses SET title = :title, description = :description, level = :level, topic = :topic WHERE id = :id;
+
+deleteCourse:
+DELETE FROM courses WHERE id = :id;
+
+nextPosition:
+SELECT COALESCE(MAX(position), -1) + 1 FROM lessons WHERE course_id = :courseId;
+
+insertLesson:
+INSERT INTO lessons(id, course_id, title, summary, text, position) VALUES (:id, :courseId, :title, :summary, :text, :position);
+
+updateLesson:
+UPDATE lessons SET title = :title, summary = :summary, text = :text WHERE id = :id;
+
+deleteLesson:
+DELETE FROM lessons WHERE id = :id;
+
+setPosition:
+UPDATE lessons SET position = :position WHERE id = :id;
+
+isSeeded:
+SELECT COUNT(*) FROM course_seeds WHERE language_id = :languageId;
+
+markSeeded:
+INSERT OR IGNORE INTO course_seeds(language_id) VALUES (:languageId);

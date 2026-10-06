@@ -113,11 +113,11 @@ private fun count(n: Int, one: String) = if (n == 1) "1 $one" else "$n ${one}s"
 private val com.tayra.languages.core.domain.courses.Course.subtitle: String
     get() = if (topic.isBlank()) level.label else "${level.label} · $topic"
 
-/** Marks a course the reader made. */
+/** Marks one of the app's sample courses. */
 @Composable
-private fun OwnTag() {
+private fun SampleTag() {
     Text(
-        "Your course",
+        "Sample course",
         Modifier.clip(RoundedCornerShape(50)).background(PURPLE.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
         style = MaterialTheme.typography.labelMedium,
         color = PURPLE,
@@ -248,7 +248,7 @@ private fun CourseCard(progress: CourseProgress, modifier: Modifier, onClick: ()
                 Text(course.subtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
         }
-        if (course.isOwn) OwnTag()
+        if (course.builtIn) SampleTag()
         if (course.description.isNotBlank()) {
             Text(course.description, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 3, overflow = TextOverflow.Ellipsis)
         }
@@ -425,8 +425,7 @@ internal fun CourseContent(
             return@Column
         }
         state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
-        // The app's courses are read only; the reader's own can be changed from here.
-        val own = editing.takeIf { progress.course.isOwn }
+        val own = editing
         if (width.isExpanded) {
             Row(horizontalArrangement = Arrangement.spacedBy(20.dp), verticalAlignment = Alignment.Top) {
                 CourseSummary(progress, onOpenLesson, own, Modifier.weight(1f))
@@ -455,7 +454,7 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                     Text(course.subtitle, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
             }
-            if (course.isOwn) OwnTag()
+            if (course.builtIn) SampleTag()
             if (course.description.isNotBlank()) Text(course.description, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
                 Fact(AppIcons.MenuBook, count(course.lessons.size, "lesson"))
@@ -512,7 +511,7 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
     }
 }
 
-/** What can be done to one of the reader's own courses; the app's courses get none of it. */
+/** What can be done to a course from its page; null where nothing can. */
 internal data class CourseEditing(
     val onEdit: () -> Unit = {},
     val onDelete: () -> Unit = {},

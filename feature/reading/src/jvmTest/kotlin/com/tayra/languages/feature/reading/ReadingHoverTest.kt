@@ -1,6 +1,6 @@
 package com.tayra.languages.feature.reading
 
-import com.tayra.languages.core.domain.courses.BuiltInCourses
+import com.tayra.languages.core.domain.courses.SampleCourses
 import com.tayra.languages.core.domain.courses.LessonReading
 import com.russhwolf.settings.MapSettings
 import kotlin.test.assertTrue
@@ -271,7 +271,7 @@ class ReadingHoverTest {
     /** A course lesson is shown as part of its course: no word of books or the library, and no editing. */
     @Test
     fun aLessonIsShownAsPartOfItsCourse() {
-        val course = BuiltInCourses.ALL.first()
+        val course = SampleCourses.ALL.first()
         val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[1])) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         val visited = mutableListOf<com.tayra.languages.core.ui.navigation.Route>()
