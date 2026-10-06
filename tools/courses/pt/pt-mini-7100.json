@@ -1,0 +1,209 @@
+{
+  "id": "pt-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Saúde pública",
+  "description": "Ten calm texts about public health in Brazil: a community health agent's rounds, how the SUS is organised, a vaccination campaign in the interior, a quiet night in a public emergency room, sanitation and disease, a nurse in an Indigenous health district, a cooking group at a health post, bone marrow donation, a mental health centre and a street health team.",
+  "topic": "Public health",
+  "names": [
+    "Brasil",
+    "Cida",
+    "Recife",
+    "Severino",
+    "Lurdes",
+    "Jéssica",
+    "SUS",
+    "Santas",
+    "Casas",
+    "Renata",
+    "Santa",
+    "Rita",
+    "Bahia",
+    "Joaquim",
+    "Toninho",
+    "Helena",
+    "Lucas",
+    "Zélia",
+    "Belém",
+    "Tietê",
+    "Paulo",
+    "Luana",
+    "Gabriel",
+    "Cachoeira",
+    "Amazonas",
+    "Nheengatu",
+    "Tukano",
+    "Baniwa",
+    "Marina",
+    "Fátima",
+    "Gilberto",
+    "Ivana",
+    "Curitiba",
+    "Croácia",
+    "Tânia",
+    "Belo",
+    "Horizonte",
+    "CAPS",
+    "Rodrigo",
+    "Raimundo",
+    "Bete",
+    "Europa",
+    "Adriático"
+  ],
+  "lessons": [
+    {
+      "title": "A ronda da agente comunitária",
+      "summary": "A community health agent in Recife visits an old man who fell, a hospitable neighbour and a newly arrived family, then writes up her notes.",
+      "newWords": [
+        "habitualmente",
+        "hospitalidade",
+        "bolacha",
+        "quadril",
+        "familiarizar",
+        "rascunho",
+        "redigir",
+        "capricho"
+      ],
+      "text": "Cida é agente comunitária de saúde há 12 anos num bairro da periferia de Recife. O trabalho dela é simples de descrever e difícil de fazer: visitar, todo mês, cada uma das quase 150 famílias da sua área, conhecer as necessidades de cada casa e servir de ponte entre os moradores e o posto de saúde. Habitualmente, ela começa a ronda às 7 horas, antes que o sol fique forte demais. Leva um boné, o tablet do posto e um caderno velho, que nunca abandona.\n\nA primeira visita daquela terça-feira foi à casa de Seu Severino, de 82 anos, que mora sozinho desde que ficou viúvo. No mês anterior, ele tinha escorregado no banheiro e machucado o quadril. Não quebrou nada, mas a queda acendeu um sinal de alerta: numa pessoa dessa idade, uma fratura no quadril pode mudar a vida inteira. Por isso Cida observa a casa com olhos de detetive: o tapete solto na sala, a luz fraca do corredor, o chão molhado do banheiro. Desta vez, o tapete já não estava lá, e o neto tinha instalado uma barra de apoio ao lado do chuveiro. Cida perguntou pelo quadril, e Seu Severino respondeu, satisfeito, que já caminhava sozinho até a padaria.\n\nNa rua seguinte, Dona Lurdes a esperava com a mesa posta: café passado na hora e um prato de bolachas de goma. A hospitalidade de Dona Lurdes é famosa no bairro, e Cida sabe que recusar seria uma desfeita. Enquanto comia uma bolacha, conferiu se a vizinha estava tomando os remédios da pressão nos horários certos. Para Cida, aquela hospitalidade não é um detalhe: é a prova de que a confiança foi construída aos poucos, visita após visita.\n\nDepois, ela bateu à porta de uma família recém-chegada do interior. Jéssica e os dois filhos ainda não estavam familiarizados com o funcionamento do posto: não sabiam que era preciso fazer um cadastro, nem que as vacinas das crianças eram gratuitas. Cida explicou tudo com calma e marcou a primeira consulta. \"Em pouco tempo vocês vão estar familiarizados com tudo\", disse. \"No começo, o posto parece um labirinto; depois, vira um lugar conhecido.\"\n\nAo meio-dia, Cida sentou-se num banco da praça e abriu o caderno. Durante a manhã, tinha feito ali um rascunho de cada visita: frases curtas, setas, palavras pela metade. O rascunho é só para ela; ninguém mais entenderia aquela letra apressada. À tarde, no posto, ela redige os relatórios no sistema, frase por frase. Redigir com clareza é importante, porque a enfermeira e o médico tomam decisões a partir do que ela escreve.\n\nCida faz tudo com capricho: o boné bem ajustado, o relatório sem erros, o sorriso ao chegar em cada casa. Quando lhe perguntam qual é o segredo, ela responde que não há segredo nenhum, só capricho e paciência. \"É voltar todo mês\", diz. \"A saúde de um bairro se faz assim, de porta em porta.\"\n\nPerguntas:\nO que Cida faz habitualmente às 7 horas?\nHabitualmente, ela começa a ronda pelas casas da sua área.\nPor que Cida se preocupa com o quadril de Seu Severino?\nPorque, numa pessoa de 82 anos, uma fratura no quadril pode mudar a vida inteira.\nO que Dona Lurdes ofereceu a Cida?\nEla ofereceu café passado na hora e bolachas de goma.\nO que a família de Jéssica ainda não sabia?\nEles não sabiam que era preciso fazer um cadastro, nem que as vacinas das crianças eram gratuitas.\nPara que serve o rascunho no caderno?\nServe para Cida anotar cada visita antes de redigir os relatórios no sistema, à tarde."
+    },
+    {
+      "title": "O SUS em poucas linhas",
+      "summary": "A short explanation of how Brazil's public health system came about and how it is organised.",
+      "newWords": [
+        "unificação",
+        "pressuposto",
+        "junção",
+        "sumário",
+        "recessão",
+        "analítico",
+        "dispersão",
+        "arbitrário",
+        "inclusivo",
+        "provisão"
+      ],
+      "text": "Quase todo brasileiro já passou pelo SUS, mesmo quem acha que nunca o usou. A vacina tomada na infância, a fiscalização dos restaurantes, o remédio retirado no posto, a ambulância que atende uma chamada de emergência: tudo isso faz parte do Sistema Único de Saúde.\n\nAté os anos 1980, a saúde pública no Brasil era marcada pela dispersão. Havia um instituto federal que atendia apenas os trabalhadores com carteira assinada; havia os serviços dos estados e das prefeituras, cada um com as suas regras; e havia as Santas Casas e outras instituições de caridade, que recebiam quem não tinha para onde ir. Essa dispersão deixava milhões de pessoas sem atendimento, sobretudo no campo e nas periferias.\n\nA Constituição de 1988 mudou esse quadro. Ela afirmou que a saúde é direito de todos e dever do Estado, e criou o SUS. A palavra \"único\" diz muito: o sistema nasceu da unificação de serviços que antes funcionavam separados. Essa unificação não aconteceu de um dia para o outro; foi um processo de anos, regulamentado por uma lei de 1990.\n\nO sistema parte de alguns pressupostos. O primeiro é a universalidade: qualquer pessoa no país tem direito ao atendimento. O segundo é a integralidade, isto é, o cuidado completo, da prevenção ao tratamento. O terceiro é a equidade: oferecer mais a quem precisa mais. Um sistema construído sobre esses pressupostos é, por definição, inclusivo. Ninguém precisa provar que é pobre nem mostrar a carteira de trabalho para ser atendido, e esse caráter inclusivo é talvez a marca mais forte do SUS.\n\nNa prática, o SUS é a junção de três níveis de governo. A União define as políticas gerais e financia boa parte do sistema; os estados organizam a rede regional e os hospitais maiores; os municípios cuidam da atenção básica, como os postos de saúde. A junção desses níveis nem sempre é tranquila, mas é ela que permite que uma cidade pequena encaminhe um paciente para um hospital especializado a centenas de quilômetros.\n\nA divisão do país em regiões de saúde também não é arbitrária. Ela leva em conta as distâncias, as estradas e o caminho que a população já costuma fazer em busca de atendimento.\n\nUm olhar analítico mostra, no entanto, as fragilidades do sistema: filas longas, falta de médicos em regiões distantes e um financiamento que muitos especialistas consideram curto para a provisão de serviços a mais de 200 milhões de pessoas. Em tempos de recessão, o desafio cresce, porque muitas famílias perdem o plano de saúde junto com o emprego. O SUS recebe mais gente justamente quando o dinheiro fica mais escasso, e por isso a provisão de remédios e de leitos precisa ser planejada com muito cuidado.\n\nPara terminar, um breve sumário: o SUS é público, universal e gratuito no atendimento, e é dividido entre a União, os estados e os municípios. Um sumário assim deixa muita coisa de fora, mas ajuda a entender por que tanta gente defende o sistema.\n\nPerguntas:\nComo era a saúde pública no Brasil antes do SUS?\nEra marcada pela dispersão: cada serviço tinha as suas regras, e milhões de pessoas ficavam sem atendimento.\nPor que a divisão em regiões de saúde não é arbitrária?\nPorque ela leva em conta as distâncias, as estradas e o caminho que a população já costuma fazer.\nO que um olhar analítico mostra sobre o sistema?\nMostra as suas fragilidades: filas longas, falta de médicos em regiões distantes e pouco dinheiro.\nO que acontece com o SUS numa recessão?\nEle recebe mais gente, porque muitas famílias perdem o plano de saúde junto com o emprego."
+    },
+    {
+      "title": "Vacina no braço, criança no abraço",
+      "summary": "A nurse leads a two-week campaign to update children's vaccines in a small town in Bahia, with help from a song, a preacher and a Sunday football game.",
+      "newWords": [
+        "pontapé",
+        "refrão",
+        "pregador",
+        "várzea",
+        "pelada",
+        "cavaco",
+        "regressivo",
+        "estrelado"
+      ],
+      "text": "O pontapé inicial da campanha foi dado num sábado de manhã, na praça de Santa Rita, uma cidade de 8 mil habitantes no interior da Bahia. Durante 2 semanas, a equipe do posto de saúde ia percorrer a cidade e os povoados vizinhos para pôr em dia as vacinas das crianças. Nos últimos anos, muitas famílias tinham deixado de levar os filhos para tomar as doses previstas, e a enfermeira Renata queria mudar esse quadro. Ela sabia que o pontapé inicial é só o começo: uma campanha se ganha no dia a dia.\n\nPara chamar a atenção, a prefeitura contratou um carro de som. Ele percorria as ruas tocando uma música com um refrão fácil: \"Vacina no braço, criança no abraço\". O refrão era tão simples que, no segundo dia, as crianças já o cantavam na saída da escola. Renata dizia, rindo, que aquele refrão fazia mais pela campanha do que todos os cartazes juntos.\n\nUma ajuda importante veio da igreja. Seu Joaquim, pregador da pequena igreja do bairro alto, pediu para falar da campanha no culto de domingo. Ele contou que, na infância, tinha visto vizinhos adoecerem de doenças que hoje se evitam com uma simples dose de vacina. As palavras do pregador tiveram efeito: na segunda-feira, várias mães apareceram no posto com o cartão de vacina dos filhos na mão.\n\nNo domingo seguinte, a equipe montou uma tenda ao lado do campo de várzea, à beira do rio. O campo tem esse nome porque fica na várzea, a terra baixa que a água do rio cobre na época das chuvas; na seca, a várzea vira um gramado largo. Todo domingo, os rapazes da cidade jogam ali uma pelada, um futebol sem juiz nem uniforme. Renata combinou com os jogadores: no intervalo da pelada, quem estivesse com alguma dose atrasada passaria pela tenda. Muitos passaram, e alguns trouxeram os irmãos menores.\n\nEnquanto as crianças esperavam na fila, Toninho, um senhor conhecido na cidade, tocava sambas antigos no cavaquinho, ou no cavaco, como dizem os músicos de samba. O som do cavaco deixava a espera mais leve, e até os pequenos que tinham medo da agulha acabavam batendo palmas.\n\nNa porta do posto, Renata pendurou um cartaz com uma contagem regressiva: \"Faltam 10 dias\", \"Faltam 9 dias\", e assim por diante. A cada manhã, uma criança tinha a honra de trocar o número. A contagem regressiva transformou a meta da campanha em algo que todos podiam acompanhar.\n\nNa última noite, voltando de um povoado distante, a equipe parou o carro na estrada de terra para descansar um pouco. O céu estava estrelado como Renata nunca tinha visto na capital. Diante daquele céu estrelado, ela fez as contas de cabeça: mais de 90% das crianças da cidade estavam com as vacinas em dia. No dia seguinte, o carro de som tocou o refrão pela última vez.\n\nPerguntas:\nOnde foi dado o pontapé inicial da campanha?\nFoi dado na praça de Santa Rita, uma cidade do interior da Bahia.\nPor que o refrão ajudou a campanha?\nPorque era tão simples que as crianças o cantavam na saída da escola.\nO que o pregador contou no culto?\nEle contou que, na infância, tinha visto vizinhos adoecerem de doenças que hoje se evitam com vacina.\nPor que o campo se chama campo de várzea?\nPorque fica na várzea, a terra baixa que a água do rio cobre na época das chuvas.\nComo Toninho ajudou a equipe?\nEle tocou sambas no cavaco enquanto as crianças esperavam na fila.\nPara que servia a contagem regressiva?\nServia para que todos pudessem acompanhar a meta da campanha."
+    },
+    {
+      "title": "Uma noite de ouro no pronto-socorro",
+      "summary": "A nurse writes about a calm night in a public emergency room: a wedding guest with a nosebleed, an old woman unsure about her pills and a student who wanted more action.",
+      "newWords": [
+        "recinto",
+        "gravata",
+        "hemorragia",
+        "hilário",
+        "deduzir",
+        "overdose",
+        "luzir",
+        "fixação",
+        "sobrepor",
+        "aspirante"
+      ],
+      "text": "Terça-feira, 3 horas da manhã. Escrevo estas linhas na sala da enfermagem do pronto-socorro do hospital municipal, durante uma pausa. Quem conhece o pronto-socorro só pelos filmes imagina correria e sirenes. Esta noite, porém, foi daquelas que os colegas chamam de \"noite de ouro\": calma do começo ao fim.\n\nO plantão começou às 7 da noite. Neste hospital, os turnos se sobrepõem por cerca de meia hora, para que a equipe que chega receba as informações da equipe que sai. Esses minutos em que os plantões se sobrepõem são sagrados: é ali que se conta quem está em observação e quem precisa de atenção especial.\n\nÀs 11 da noite, o recinto da espera, que costuma ficar lotado, tinha apenas 6 pessoas. Logo na entrada, cada paciente passa pela classificação de risco e recebe uma cor: vermelho e laranja para os casos mais graves, amarelo para os urgentes, verde e azul para os menos urgentes. Naquele recinto tranquilo, havia só pulseiras verdes e azuis.\n\nO primeiro caso da madrugada chegou de terno e gravata, vindo direto do casamento da filha. Era um senhor de 60 anos, com um lenço no nariz: uma pequena hemorragia, provocada pelo ar seco e pela pressão um pouco alta depois de muitas horas de dança. Com 10 minutos de compressão, a hemorragia parou. Ele então ajeitou a gravata diante do espelho e perguntou, muito sério, se ainda dava tempo de voltar para a festa. A pergunta foi hilária, e até a médica, cansada, riu. Ele mesmo achou hilário ter trocado a festa pelo pronto-socorro.\n\nDepois chegou Dona Zélia, de 78 anos, trazida pelo filho. Ela não lembrava se tinha tomado o comprimido da pressão uma ou duas vezes. A médica pediu a caixinha de remédios, organizada por dias da semana, e conseguiu deduzir o que tinha acontecido: o espaço de segunda estava vazio, e o de terça também. Ela deduziu que Dona Zélia tinha tomado a dose do dia seguinte por engano. A médica explicou ao filho que uma dose a mais não chega a ser uma overdose; uma overdose de verdade exige uma quantidade muito maior. Ainda assim, deixou a senhora em observação por algumas horas, medindo a pressão.\n\nNa sala de observação, a única luz vinha dos monitores. Cada tela luzia em verde, marcando as batidas regulares do coração; no escuro, o monitor luzia como uma pequena janela acesa. Aproveitei para trocar a fixação do soro no braço de um rapaz que dormia; a fixação antiga estava solta, e um acesso mal preso pode sair da veia.\n\nO estudante Lucas, que faz estágio conosco, é aspirante a cirurgião e passou a noite procurando alguma coisa para fazer. Para um aspirante a cirurgião, uma noite calma parece quase uma decepção. Eu lhe disse que um dia ele vai agradecer por noites assim.\n\nPerguntas:\nPor que os turnos se sobrepõem por meia hora?\nPara que a equipe que chega receba as informações da equipe que sai.\nComo estava o recinto da espera às 11 da noite?\nEstava tranquilo, com apenas 6 pessoas e só pulseiras verdes e azuis.\nO que causou a hemorragia do senhor de gravata?\nO ar seco e a pressão um pouco alta, depois de muitas horas de dança.\nO que a médica deduziu ao ver a caixinha de remédios?\nEla deduziu que Dona Zélia tinha tomado a dose do dia seguinte por engano.\nPor que a dose a mais não era uma overdose?\nPorque uma overdose de verdade exige uma quantidade muito maior de remédio.\nComo Lucas se sentiu durante a noite calma?\nComo aspirante a cirurgião, ele achou a noite quase uma decepção."
+    },
+    {
+      "title": "Saneamento é saúde",
+      "summary": "A short essay on why sewers and clean water are a health issue, from contaminated streams to floods in Belém and foam on the Tietê river.",
+      "newWords": [
+        "literal",
+        "débito",
+        "ingerir",
+        "equatorial",
+        "transbordar",
+        "desastroso",
+        "espuma",
+        "virtualmente"
+      ],
+      "text": "Os médicos sanitaristas costumam repetir uma frase: \"Saneamento é saúde\". À primeira vista, parece um slogan; na verdade, é quase literal. Boa parte das doenças que ainda enchem os postos nas periferias brasileiras não começa no corpo, e sim na rua: na água sem tratamento, no esgoto a céu aberto, no lixo acumulado. Quando dizemos que um cano de esgoto é um problema de saúde, não estamos usando uma imagem; o sentido é literal.\n\nOs números ajudam a medir o tamanho do débito. Segundo dados oficiais recentes, quase metade dos brasileiros ainda não tem o esgoto coletado, e dezenas de milhões não recebem água tratada em casa. Os especialistas falam num débito histórico: durante décadas, as cidades cresceram mais depressa do que as redes de água e esgoto. Em 2020, uma lei fixou a meta de levar água tratada a 99% da população e coleta de esgoto a 90% até 2033. Pagar esse débito vai exigir dinheiro, obras e paciência.\n\nO caminho entre o esgoto e a doença é curto. Uma criança que brinca num córrego contaminado pode ingerir, sem perceber, um pouco de água com bactérias e vírus. Ao ingerir essa água, ela fica exposta a infecções intestinais, à hepatite A e a parasitas. Essas infecções, que parecem coisa simples, ainda levam muitas crianças pequenas ao hospital nas regiões mais pobres.\n\nO risco aumenta com a chuva. Em cidades de clima equatorial, como Belém, chove quase todos os dias durante boa parte do ano. Quando o esgoto não tem para onde ir, os canais transbordam, e a água suja invade ruas e casas. Depois que um canal transborda, os médicos já sabem o que esperar: nas semanas seguintes, crescem os casos de leptospirose, uma doença transmitida pela urina de ratos misturada à água das enchentes. No clima equatorial, a combinação de chuva forte e esgoto aberto pode ser desastrosa.\n\nOs efeitos desastrosos da falta de saneamento chegam também aos rios. Quem passa por certos trechos do rio Tietê, no interior de São Paulo, às vezes vê uma espuma branca cobrindo a água como se fosse neve. Essa espuma é formada por restos de sabão e de outros produtos de limpeza que chegam ao rio junto com o esgoto das casas, sem tratamento. A imagem é curiosa de longe e triste de perto.\n\nHá, porém, boas notícias. Na Europa do século 19, doenças transmitidas pela água, como a cólera, virtualmente desapareceram das grandes cidades depois que se construíram redes de esgoto. Hoje, virtualmente todos os especialistas concordam que cada real investido em saneamento economiza dinheiro no tratamento de doenças.\n\nO saneamento não aparece na fila do posto nem na sala do médico. Trabalha em silêncio, debaixo da terra. Talvez por isso seja tão fácil esquecê-lo, e tão importante lembrar dele.\n\nPerguntas:\nPor que a frase \"saneamento é saúde\" é quase literal?\nPorque muitas doenças começam na rua, na água sem tratamento e no esgoto a céu aberto.\nDe que débito histórico falam os especialistas?\nFalam do fato de que as cidades cresceram mais depressa do que as redes de água e esgoto.\nO que pode acontecer com uma criança que brinca num córrego contaminado?\nEla pode ingerir água com bactérias e vírus e ficar exposta a infecções e parasitas.\nO que acontece em Belém quando os canais transbordam?\nA água suja invade ruas e casas, e depois crescem os casos de leptospirose.\nDe que é formada a espuma do rio Tietê?\nÉ formada por restos de sabão e de outros produtos de limpeza que chegam ao rio com o esgoto."
+    },
+    {
+      "title": "Uma enfermeira no Alto Rio Negro",
+      "summary": "An interview with a nurse who works in an Indigenous health district in the Amazon, about the trips, the local health agents and what she has learnt.",
+      "newWords": [
+        "demarcação",
+        "alojar",
+        "granito",
+        "mediador",
+        "divindade",
+        "exprimir",
+        "intimamente",
+        "vivência"
+      ],
+      "text": "Luana tem 34 anos e trabalha há 6 como enfermeira no Distrito Sanitário Especial Indígena do Alto Rio Negro, no Amazonas, com sede em São Gabriel da Cachoeira. Conversamos com ela durante uma folga.\n\nO que é um distrito sanitário indígena?\nÉ uma parte do SUS dedicada aos povos indígenas. O país tem 34 distritos, e eles não seguem as fronteiras dos estados: seguem, em grande parte, os territórios dos povos, muitos deles reconhecidos pela demarcação de terras indígenas. A demarcação tem relação direta com a saúde. Sem território, não há roça, não há pesca, não há alimento.\n\nComo é a sua rotina?\nA equipe passa cerca de 30 dias na área, viajando de barco entre as aldeias. Ficamos alojados num polo base, uma casa simples de madeira à beira do rio, e de lá seguimos para as comunidades. Quando a aldeia é longe, somos alojados na casa de alguma família, que nos recebe com muita gentileza. Na seca, as margens mostram enormes pedras de granito, escuras e lisas, que parecem costas de animais dormindo. Os pilotos conhecem cada pedra de granito do caminho.\n\nComo vocês se comunicam com as famílias?\nEm São Gabriel, além do português, há línguas indígenas oficiais, como o nheengatu, o tukano e o baniwa. Eu falo pouco. Por isso, o agente indígena de saúde é essencial. Ele é da comunidade, fala a língua e conhece cada família. É o nosso mediador: traduz as palavras, mas também os costumes. Sem esse mediador, eu cometeria muitos erros.\n\nE quando as explicações das famílias são diferentes das suas?\nMuitas famílias procuram também o pajé. As explicações sobre a doença às vezes envolvem espíritos e divindades da floresta e do rio. Não cabe a mim discutir as divindades de ninguém. Eu aprendi a ouvir primeiro e a explicar depois, e o tratamento costuma andar junto com o cuidado tradicional.\n\nO que foi mais difícil no início?\nEntender como as pessoas exprimem a dor. Muitos não exprimem o que sentem do jeito que aprendi na faculdade. Uma senhora pode dizer apenas que está \"fraca\", e eu preciso descobrir o que isso quer dizer. Também aprendi que, para eles, a saúde está intimamente ligada à terra, ao rio e à vida em comunidade.\n\nE o que você leva dessa experiência?\nA vivência na aldeia me ensinou mais do que muitos livros. Hoje conheço intimamente cada família da minha área: sei quem acabou de ter um bebê, quem cuida dos avós, quem pesca melhor. Essa vivência mudou o meu jeito de ser enfermeira, e também de ser gente.\n\nPerguntas:\nO que os distritos sanitários indígenas seguem, em vez das fronteiras dos estados?\nSeguem, em grande parte, os territórios dos povos, muitos deles reconhecidos pela demarcação.\nOnde a equipe fica alojada durante as viagens?\nFica alojada num polo base à beira do rio e, nas aldeias distantes, na casa de alguma família.\nComo são as pedras de granito do rio na seca?\nSão enormes, escuras e lisas, e parecem costas de animais dormindo.\nPor que o agente indígena de saúde é essencial?\nPorque ele é o mediador: fala a língua, conhece as famílias e traduz também os costumes.\nO que foi mais difícil para Luana no início?\nFoi entender como as pessoas exprimem a dor."
+    },
+    {
+      "title": "A cozinha do posto de saúde",
+      "summary": "A nutritionist at a health post runs a cooking group for older people with diabetes and high blood pressure, showing that healthy food can be cheap and tasty.",
+      "newWords": [
+        "etário",
+        "carma",
+        "nutriente",
+        "sardinha",
+        "caldo",
+        "fritar",
+        "leitão",
+        "sedutor",
+        "significante"
+      ],
+      "text": "Toda quinta-feira, às 9 da manhã, a cozinha do posto de saúde se enche de vozes. É o dia do grupo de culinária da nutricionista Marina, criado para pacientes com diabetes e pressão alta. A maioria está na faixa etária dos 50 aos 70 anos, mas ninguém liga muito para a idade. \"Aqui, a faixa etária que importa é a da panela\", brinca Dona Fátima, a mais animada do grupo.\n\nNo primeiro encontro, Seu Gilberto anunciou que a diabetes era carma da família: o pai tinha, a mãe tinha, os irmãos também. Marina ouviu com respeito e explicou que a herança da família aumenta o risco, sim, mas não é um destino fechado. \"Não é carma\", disse. \"É uma tendência, e a gente pode trabalhar com ela.\" Seu Gilberto ficou pensativo e, desde então, não falta a nenhuma quinta-feira.\n\nA base do trabalho de Marina é o guia alimentar do Ministério da Saúde, que recomenda montar o prato com alimentos frescos ou pouco processados, como arroz, feijão, legumes, frutas, ovos e carnes, e evitar os produtos prontos cheios de sal, açúcar e gordura. \"Comida de verdade tem mais nutrientes e menos aditivos\", explica. Ela gosta de mostrar que um nutriente importante pode estar no alimento mais barato do mercado.\n\nO exemplo preferido dela é a sardinha. Em lata ou fresca, a sardinha é rica em proteína e em gorduras boas para o coração, e a de lata, comida com as espinhas moles, ainda oferece cálcio. Numa das aulas, o grupo preparou um caldo de feijão com legumes, temperado com cebola, alho e ervas, sem os caldos prontos em cubo, que levam muito sal. O caldo ficou tão bom que Dona Fátima pediu a receita para levar à neta.\n\nOutro tema frequente é o modo de preparo. Marina não proíbe ninguém de fritar; prefere falar de frequência. Fritar o peixe todo dia é diferente de fritar uma vez por mês. No resto da semana, o forno resolve, e o peixe assado com limão desperta elogios de todos.\n\nQuando chega dezembro, alguém sempre pergunta se vai poder comer leitão no Natal. A resposta de Marina é sempre a mesma: pode, sim. Uma fatia de leitão numa festa de família não estraga o cuidado do ano inteiro; o que pesa é o que se come todos os dias.\n\nEla também ensina o grupo a ler os rótulos. As embalagens dos produtos prontos são coloridas e sedutoras, e a propaganda é ainda mais sedutora, com promessas de saúde e de energia. Marina pede que todos virem a embalagem e leiam a lista de ingredientes: quanto mais longa e estranha, pior.\n\nDepois de 6 meses, vários participantes tiveram uma melhora pequena, mas significante, nos exames. Para Seu Gilberto, a mudança mais significante foi outra: ele aprendeu a cozinhar, aos 68 anos, e agora é ele quem prepara o almoço de domingo.\n\nPerguntas:\nQual é a faixa etária da maioria do grupo?\nA maioria está na faixa etária dos 50 aos 70 anos.\nPor que Seu Gilberto achava que a diabetes era carma?\nPorque o pai, a mãe e os irmãos dele também tinham a doença.\nPor que Marina gosta tanto da sardinha?\nPorque é barata e rica em proteína, em gorduras boas e, na de lata, em cálcio.\nO que Marina diz sobre fritar os alimentos?\nEla não proíbe fritar, mas diz que o importante é a frequência.\nO que Marina pede que o grupo faça com as embalagens sedutoras?\nEla pede que todos virem a embalagem e leiam a lista de ingredientes."
+    },
+    {
+      "title": "O baú da avó e a medula óssea",
+      "summary": "A young woman of Croatian descent registers as a bone marrow donor and, two years later, is called to donate to a patient she does not know.",
+      "newWords": [
+        "baú",
+        "croata",
+        "cotovelo",
+        "medula",
+        "dispensa",
+        "restabelecer",
+        "generosidade",
+        "incondicional"
+      ],
+      "text": "Ivana tem 29 anos e mora em Curitiba. Os avós dela eram croatas que chegaram ao Brasil depois da Segunda Guerra. Ela sempre soube disso, mas só se interessou de verdade pela história da família quando a mãe abriu o baú da avó, guardado num canto do quarto. Dentro do baú havia cartas em croata, fotos de um porto no mar Adriático e o velho diploma de enfermeira da avó, que tinha trabalhado num hospital antes de deixar a Croácia.\n\nNa mesma época, a empresa onde Ivana trabalha fez uma campanha para estimular os funcionários a se cadastrarem como doadores de medula óssea. A medula óssea é o tecido que fica dentro dos ossos e produz as células do sangue. Para algumas doenças graves do sangue, o transplante de medula é o tratamento mais indicado, mas ele depende de encontrar um doador compatível. Entre pessoas sem parentesco, a chance de compatibilidade é muito pequena, cerca de 1 em 100 mil.\n\nO cadastro foi simples. No centro de coleta, Ivana respondeu a um questionário e tirou um pouco de sangue de uma veia na dobra do cotovelo, como num exame comum. Ficou com um pequeno curativo no cotovelo e voltou para o trabalho. Uma enfermeira explicou que pessoas de origem parecida têm mais chance de ser compatíveis, e que, por isso, é importante que o cadastro reúna gente de todas as origens, inclusive descendentes de croatas.\n\nDois anos depois, o telefone tocou. Ivana era compatível com um paciente que precisava de um transplante. Ela não sabia quem ele era, e as regras não permitem que doador e paciente se conheçam no início. Fez novos exames e pediu dispensa do trabalho. O chefe concedeu a dispensa sem hesitar e ainda lhe desejou boa sorte.\n\nA doação foi feita no hospital, sob anestesia: os médicos retiraram a medula de um osso da bacia, perto do quadril. Ivana sentiu o quadril dolorido por alguns dias, como depois de um exercício pesado. Os médicos explicaram que o próprio corpo iria restabelecer a medula doada em poucas semanas. Eles também esperavam que a medula nova ajudasse o paciente a restabelecer a produção de células saudáveis.\n\nA família de Ivana deu um apoio incondicional. A mãe a acompanhou ao hospital, e o irmão cozinhou para ela durante a semana de descanso. Esse apoio incondicional, disse Ivana depois, tornou tudo mais leve.\n\nQuando alguém fala da sua generosidade, Ivana muda de assunto. Para ela, a generosidade é de quem se cadastra sem saber se um dia será chamado. Na semana seguinte, ela voltou ao baú da avó e ficou um longo tempo olhando o diploma de enfermeira. Pensou que a avó teria gostado de saber da doação.\n\nPerguntas:\nO que havia dentro do baú da avó?\nHavia cartas em croata, fotos de um porto e o diploma de enfermeira da avó.\nO que é a medula óssea?\nÉ o tecido que fica dentro dos ossos e produz as células do sangue.\nComo foi o cadastro de Ivana?\nEla respondeu a um questionário e tirou um pouco de sangue de uma veia na dobra do cotovelo.\nO que Ivana pediu ao chefe quando foi chamada?\nEla pediu dispensa do trabalho, e o chefe a concedeu sem hesitar.\nEm quanto tempo o corpo de Ivana iria restabelecer a medula doada?\nEm poucas semanas, segundo os médicos.\nPara Ivana, onde está a verdadeira generosidade?\nEstá em quem se cadastra sem saber se um dia será chamado."
+    },
+    {
+      "title": "As paredes do CAPS",
+      "summary": "A psychologist at a mental health centre in Belo Horizonte organises a graffiti workshop, and a young man with depression finds a way back to other people.",
+      "newWords": [
+        "obediência",
+        "insatisfação",
+        "grafite",
+        "apropriação",
+        "depressivo",
+        "irrelevante",
+        "teia",
+        "seita"
+      ],
+      "text": "Durante grande parte do século 20, muitas pessoas com transtornos mentais no Brasil passavam anos internadas em grandes hospitais psiquiátricos, longe da família. Nesses lugares, a regra principal era a obediência: horários rígidos, roupas iguais, pouca conversa. A obediência valia mais do que o tratamento. Em 2001, uma lei federal mudou o rumo da assistência e deu prioridade ao cuidado em liberdade, perto de casa. Os Centros de Atenção Psicossocial, conhecidos como CAPS, são uma das principais respostas a essa mudança.\n\nTânia é psicóloga num CAPS de Belo Horizonte há 15 anos. Quando chegou, o prédio tinha paredes brancas e frias, que lembravam um hospital antigo. A insatisfação era geral: os usuários diziam que o lugar parecia uma sala de espera sem fim, e a equipe sentia a mesma insatisfação. Foi então que Tânia teve a ideia de uma oficina de grafite.\n\nEla convidou um artista do bairro, conhecido pelos seus grafites coloridos nos muros da cidade. Durante 3 meses, usuários e funcionários desenharam juntos, discutiram cores e pintaram as paredes do pátio. O grafite final mostra um rio largo, cheio de peixes, atravessando uma cidade. Para Tânia, o resultado mais importante não foi o desenho, e sim a apropriação do espaço: as pessoas passaram a sentir que o CAPS também era delas. Essa apropriação mudou o clima da casa.\n\nUm dos participantes era Rodrigo, de 24 anos, que chegou ao CAPS num quadro depressivo grave. Ele quase não saía do quarto e dizia que se sentia irrelevante, como se nada do que fizesse tivesse importância. Na oficina, ficou encarregado de pintar os peixes. No começo, pintava em silêncio; depois, começou a dar opiniões sobre as cores. O médico acompanhou o tratamento com cuidado, e o período depressivo foi ficando para trás. Um dia, Rodrigo disse a Tânia que, diante daquela parede, já não se sentia irrelevante.\n\nTânia insiste que o CAPS não trabalha sozinho. O cuidado é uma teia: o posto de saúde, a família, a escola, o trabalho, os vizinhos. Quando um fio da teia se rompe, os outros seguram a pessoa até que o fio seja refeito.\n\nNem sempre os vizinhos entenderam esse trabalho. No começo, alguns desconfiavam dos grupos que se reuniam no pátio e chegaram a dizer que o CAPS era uma espécie de seita. A desconfiança passou quando a equipe abriu as portas para uma festa junina e todos viram o grafite de perto. Ninguém mais falou em seita. Hoje, os vizinhos trazem os netos para ver os peixes.\n\nPerguntas:\nQual era a regra principal nos antigos hospitais psiquiátricos?\nA regra principal era a obediência: horários rígidos, roupas iguais e pouca conversa.\nPor que havia insatisfação no CAPS quando Tânia chegou?\nPorque as paredes eram brancas e frias e o lugar parecia uma sala de espera sem fim.\nPara Tânia, qual foi o resultado mais importante da oficina de grafite?\nFoi a apropriação do espaço: as pessoas passaram a sentir que o CAPS também era delas.\nComo Rodrigo se sentia quando chegou ao CAPS?\nEle se sentia irrelevante e quase não saía do quarto.\nPor que Tânia diz que o cuidado é uma teia?\nPorque o CAPS trabalha junto com o posto, a família, a escola e os vizinhos."
+    },
+    {
+      "title": "A equipe que atende na rua",
+      "summary": "A street health team in São Paulo visits a former truck driver living under a viaduct and helps him get his documents back.",
+      "newWords": [
+        "viaduto",
+        "passarela",
+        "estereótipo",
+        "zombar",
+        "habilitação",
+        "entreter",
+        "mágoa"
+      ],
+      "text": "Toda manhã, uma van branca sai de um posto de saúde do centro de São Paulo. Dentro dela vai a equipe do Consultório na Rua: a enfermeira Bete, um médico, uma assistente social e um agente de saúde que já morou na rua. O trabalho deles é levar o SUS até quem não consegue chegar ao posto, sobretudo as pessoas que vivem nas calçadas, nas praças e embaixo dos viadutos.\n\nA primeira parada daquela quarta-feira foi embaixo de um viaduto perto da rodoviária. Ali mora Seu Raimundo, de 58 anos, há quase 2 anos. Ele guardava as suas coisas num carrinho de supermercado e mantinha o seu canto do viaduto limpo e organizado. Bete mediu a pressão dele, olhou um machucado no pé e perguntou pela tosse, que tinha começado semanas antes. A tosse longa preocupa a equipe, porque a tuberculose é muito mais comum entre quem vive na rua.\n\nPara chegar ao segundo grupo, do outro lado da avenida, a equipe atravessou uma passarela. Do alto da passarela, via-se a cidade inteira acordando: carros, ônibus, gente apressada. Bete comentou que muita gente passa todos os dias por ali sem olhar para baixo.\n\nEla conhece bem o estereótipo que pesa sobre quem mora na rua: a ideia de que são todos preguiçosos ou perigosos. O estereótipo esconde as histórias individuais. Alguns pedestres chegam a zombar das pessoas que dormem nas calçadas, e Bete já viu adolescentes zombarem de um senhor que dormia. A equipe faz o contrário: chama cada um pelo nome.\n\nNa conversa, Seu Raimundo contou que tinha sido motorista de caminhão durante 30 anos. Perdera tudo depois de uma separação difícil, e falava da família com uma mágoa antiga, que ainda não tinha passado. Bete não insistiu no assunto; sabe que uma mágoa assim precisa de tempo. Ele também tinha perdido os documentos, inclusive a carteira de habilitação. Sem a habilitação, não podia voltar a dirigir, e sem documentos não conseguia nem se cadastrar nos serviços da prefeitura.\n\nA assistente social marcou um horário para tirar a nova carteira de identidade e explicou como pedir a segunda via da habilitação. Enquanto preenchiam os papéis, Seu Raimundo entretinha a equipe com histórias das estradas do Norte e do Nordeste. Bete disse que ele sabia entreter qualquer pessoa, e ele riu pela primeira vez naquela manhã.\n\nUm mês depois, Seu Raimundo já tinha os documentos, uma vaga num centro de acolhida e o resultado do exame: não era tuberculose. Na despedida, ele prometeu que, quando voltasse a dirigir, levaria a equipe para conhecer o Nordeste.\n\nPerguntas:\nQual é o trabalho da equipe do Consultório na Rua?\nÉ levar o SUS até quem não consegue chegar ao posto, como as pessoas que vivem na rua.\nOnde mora Seu Raimundo?\nEle mora embaixo de um viaduto perto da rodoviária.\nO que Bete viu do alto da passarela?\nEla viu a cidade inteira acordando: carros, ônibus e gente apressada.\nQue estereótipo pesa sobre quem mora na rua?\nA ideia de que são todos preguiçosos ou perigosos.\nPor que Seu Raimundo precisava da carteira de habilitação?\nPorque sem a habilitação não podia voltar a dirigir caminhão.\nComo Seu Raimundo entretinha a equipe?\nEle contava histórias das estradas do Norte e do Nordeste."
+    }
+  ]
+}

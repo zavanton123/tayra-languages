@@ -1,0 +1,210 @@
+{
+  "id": "pt-mini-7800",
+  "rankUpTo": 7800,
+  "level": "C1",
+  "title": "Instituições e cidadania",
+  "description": "Clear, non-partisan texts on how Brazilian institutions work: lawmaking, electronic voting, city councils, the courts, jury service, public hearings, access to information and the secular state.",
+  "topic": "Institutions and citizenship",
+  "names": [
+    "Brasil",
+    "Congresso Nacional",
+    "Congresso",
+    "Nacional",
+    "Ficha Limpa",
+    "Ficha",
+    "Limpa",
+    "Câmara dos Deputados",
+    "Câmara",
+    "Senado",
+    "República Federativa do Brasil",
+    "Distrito Federal",
+    "Helena",
+    "Martins",
+    "Justiça Eleitoral",
+    "Amazônia",
+    "Marajó",
+    "Pará",
+    "Belém",
+    "Supremo Tribunal Federal",
+    "Estados Unidos",
+    "Austrália",
+    "Mediterrâneo",
+    "Samira",
+    "Haddad",
+    "São Paulo",
+    "Paulo",
+    "Zahra",
+    "Cabul",
+    "Ipiranga",
+    "Pedro",
+    "I",
+    "Europa",
+    "Cripta Imperial",
+    "Cripta",
+    "Imperial",
+    "Leopoldina",
+    "Amélia",
+    "Tiradentes",
+    "Nossa Senhora Aparecida",
+    "Aparecida"
+  ],
+  "lessons": [
+    {
+      "title": "O caminho de um projeto de lei",
+      "summary": "An explanation of how a bill moves through the Brazilian Congress, from the first proposal to sanction, veto and publication.",
+      "newWords": [
+        "escopo",
+        "desfavorável",
+        "supressão",
+        "conjuntamente",
+        "consoante",
+        "federativo",
+        "trilhão",
+        "encabeçar",
+        "gradual",
+        "imperativo"
+      ],
+      "text": "Muita gente imagina que uma lei nasce pronta. Na verdade, o caminho de um projeto de lei no Congresso Nacional é longo, e cada etapa existe por uma razão.\n\nTudo começa com uma proposta. Deputados, senadores e o presidente da República podem apresentar um projeto. Os cidadãos também podem: um projeto de iniciativa popular precisa da assinatura de pelo menos 1% dos eleitores do país, distribuídos por no mínimo 5 estados. A Lei da Ficha Limpa, de 2010, nasceu de uma campanha encabeçada por organizações da sociedade civil, que reuniram mais de 1 milhão de assinaturas.\n\nA primeira pergunta sobre um projeto diz respeito ao seu escopo: de que assunto trata, a quem se aplica, até onde vai. Um projeto de escopo muito amplo costuma ser difícil de aprovar, porque mexe com interesses demais ao mesmo tempo.\n\nDepois, o texto passa pelas comissões, grupos menores de parlamentares que estudam temas como saúde ou educação. Em cada comissão, um relator escreve um parecer, favorável ou desfavorável. Um parecer desfavorável não encerra o projeto sozinho, mas indica que ele vai enfrentar resistência. A Comissão de Constituição e Justiça verifica se o texto respeita a Constituição; consoante o resultado, o projeto segue adiante ou é arquivado.\n\nOs parlamentares também podem apresentar emendas, isto é, propostas de mudança. Algumas acrescentam trechos; outras pedem a supressão de artigos inteiros. A supressão de uma única palavra pode mudar o sentido de uma lei.\n\nO Congresso tem duas casas. Quando o projeto começa na Câmara dos Deputados, como acontece com a maioria, ele depois vai para o Senado. Os deputados representam a população; os senadores, 3 por estado, representam os estados de forma igual, qualquer que seja o seu tamanho. É um traço do modelo federativo: a República Federativa do Brasil reúne a União, os estados, o Distrito Federal e os municípios. Se o Senado mudar o texto, ele volta para a Câmara, que dá a palavra final.\n\nAprovado nas duas casas, o projeto vai para o presidente, que tem 15 dias úteis para sancionar ou vetar. Se ele ficar em silêncio, a sanção acontece automaticamente. Se houver veto, deputados e senadores se reúnem em sessão conjunta e votam conjuntamente; o veto só cai com o voto da maioria absoluta de cada casa. Também em sessão conjunta é votada, todos os anos, a lei do orçamento, que trata de trilhões de reais. Um trilhão são mil bilhões.\n\nPor fim, a lei é publicada e passa a valer consoante o que o próprio texto determina: às vezes na data da publicação, às vezes meses depois. Muitas leis preveem uma entrada em vigor gradual, para que empresas e órgãos públicos tenham tempo de se adaptar.\n\nO processo é lento, mas a demora dá tempo para o debate e para a correção de erros. Numa democracia, ouvir os diferentes lados não é um luxo; é um imperativo. Outro imperativo é que o cidadão conheça esse caminho, porque só acompanha uma lei quem sabe por onde ela passa.\n\nPerguntas:\nQuem encabeçou a campanha da Lei da Ficha Limpa?\nA campanha foi encabeçada por organizações da sociedade civil.\nPor que um projeto de escopo muito amplo é difícil de aprovar?\nPorque mexe com interesses demais ao mesmo tempo.\nO que indica um parecer desfavorável?\nIndica que o projeto vai enfrentar resistência.\nO que acontece quando o presidente veta um projeto?\nDeputados e senadores votam conjuntamente, e o veto só cai com a maioria absoluta de cada casa.\nPor que muitas leis têm uma entrada em vigor gradual?\nPara que empresas e órgãos públicos tenham tempo de se adaptar."
+    },
+    {
+      "title": "Como funciona a urna eletrônica",
+      "summary": "An interview with an electoral court employee about paper ballots, the electronic voting machine, invalid votes, security tests and election logistics.",
+      "newWords": [
+        "inválido",
+        "riscar",
+        "majoritário",
+        "opcional",
+        "logístico",
+        "periodicamente",
+        "balsa",
+        "cauteloso"
+      ],
+      "text": "A urna eletrônica brasileira já tem mais de 25 anos de uso. Para entender como ela funciona, conversamos com Helena Martins, servidora da Justiça Eleitoral há duas décadas.\n\nComo se votava antes da urna eletrônica?\nCom cédulas de papel. O eleitor marcava o candidato na cédula ou escrevia o nome ou o número dele. A apuração levava dias. Se o eleitor riscava um nome e escrevia outro por cima, ou se a letra era difícil de ler, começava a discussão, e muitos votos acabavam considerados inválidos.\n\nQuando isso mudou?\nA urna eletrônica foi usada pela primeira vez em 1996, em algumas cidades. Em 2000, todos os eleitores do país já votaram nela. O eleitor digita o número do candidato, confere a foto na tela e aperta a tecla verde.\n\nE os votos brancos e nulos?\nO eleitor pode votar em branco, numa tecla própria, ou digitar um número que não corresponde a nenhum candidato, o que anula o voto. Brancos e nulos são votos inválidos: não vão para nenhum candidato e não entram no cálculo do resultado. Muita gente acredita que, se a maioria anular, a eleição é cancelada, mas isso não é verdade.\n\nO resultado é calculado da mesma forma para todos os cargos?\nNão. Presidente, governador, senador e prefeito são eleitos pelo sistema majoritário: vence quem tem mais votos. Para presidente e governador, e para prefeito nas cidades com mais de 200 mil eleitores, é preciso ter mais da metade dos votos válidos; se ninguém chegar a isso, há segundo turno. Deputados e vereadores são eleitos pelo sistema proporcional, em que conta também o total de votos do partido. O sistema majoritário é o mais fácil de entender.\n\nA urna pode ser invadida pela internet?\nA urna não fica ligada à internet nem a nenhuma rede. Além disso, a Justiça Eleitoral realiza periodicamente o Teste Público de Segurança, em que especialistas tentam encontrar falhas no sistema, que depois são corrigidas. Os programas da urna também são abertos periodicamente para a fiscalização de partidos e universidades.\n\nQual é a parte mais difícil do seu trabalho?\nOs desafios logísticos. O país é enorme, e as urnas precisam chegar a aldeias indígenas, a ilhas, a comunidades no meio da floresta. Na Amazônia, muitas viajam de barco ou de balsa durante dias; outras vão de avião. Já acompanhei uma balsa que levava urnas por um rio inteiro. O planejamento logístico começa meses antes.\n\nO voto é obrigatório para todos?\nPara quem tem entre 18 e 70 anos, sim. Para jovens de 16 e 17 anos, para pessoas com mais de 70 e para analfabetos, o voto é opcional. Mesmo sendo opcional, sempre digo aos jovens que vale a pena votar.\n\nQue conselho a senhora dá ao eleitor?\nQue seja cauteloso com as mensagens que recebe pelo celular. Antes de compartilhar uma notícia sobre a urna, é bom procurar a informação nos canais oficiais. Um eleitor cauteloso protege o próprio voto e o dos outros.\n\nPerguntas:\nPor que muitos votos em papel eram considerados inválidos?\nPorque o eleitor às vezes riscava um nome e escrevia outro, ou a letra era difícil de ler.\nO que acontece com os votos brancos e nulos?\nNão vão para nenhum candidato e não entram no cálculo do resultado.\nQuais cargos são eleitos pelo sistema majoritário?\nPresidente, governador, senador e prefeito.\nComo as urnas chegam às comunidades da Amazônia?\nMuitas viajam de barco ou de balsa durante dias; outras vão de avião.\nPara quem o voto é opcional?\nPara jovens de 16 e 17 anos, para pessoas com mais de 70 e para analfabetos."
+    },
+    {
+      "title": "Uma noite na Câmara Municipal",
+      "summary": "A woman from a small town on Marajó island attends her first city council session and learns what councillors do.",
+      "newWords": [
+        "discursar",
+        "flutuante",
+        "letivo",
+        "búfalo",
+        "capoeira",
+        "escadaria",
+        "terceirização",
+        "rebolar",
+        "estreitar",
+        "devolução"
+      ],
+      "text": "Moro desde criança numa cidade pequena da ilha de Marajó, no Pará, e só na semana passada, aos 40 anos, assisti pela primeira vez a uma sessão da Câmara Municipal. Fui por curiosidade.\n\nA Câmara funciona num prédio antigo perto do porto, onde chega a balsa de Belém. Subi a escadaria de pedra junto com um grupo de estudantes do ensino médio, que faziam um trabalho da escola. No alto da escadaria, uma placa lembrava que as sessões são abertas a qualquer cidadão.\n\nAntes da sessão, um servidor explicou aos estudantes que os vereadores têm duas funções principais: fazer as leis do município e fiscalizar o trabalho do prefeito. É a Câmara que vota o orçamento da cidade. Para cidades do nosso tamanho, a Constituição prevê no máximo 9 vereadores, e a nossa tem exatamente 9.\n\nOs vereadores sobem à tribuna, um de cada vez, para discursar. O primeiro a discursar falou dos búfalos. A ilha tem o maior rebanho de búfalos do país, e os animais às vezes andam soltos pela estrada, à noite. Ele propôs uma lei que obriga os criadores a manter as cercas em bom estado, para evitar acidentes com búfalos.\n\nDepois, uma vereadora falou do calendário escolar. Por causa das chuvas, várias escolas da zona rural ficaram fechadas no início do ano, e o ano letivo corria o risco de não cumprir os 200 dias letivos exigidos por lei. \"A prefeitura vai ter que rebolar para repor essas aulas sem gastar mais\", disse ela. No sentido figurado, rebolar quer dizer esforçar-se muito para resolver um problema.\n\nO tema mais discutido foi a terceirização da limpeza das praças. Um vereador defendia que uma empresa contratada faria o serviço melhor; uma colega lembrava que a terceirização nem sempre sai mais barata. Ao fim, decidiram pedir um estudo antes de votar.\n\nHouve também uma votação rápida: um projeto que reconhece a roda de capoeira da praça do mercado como patrimônio cultural do município. O mestre de capoeira, de cabelos brancos, estava na primeira fila e se emocionou.\n\nNo fim, o presidente da Câmara anunciou a devolução de parte do dinheiro que a Câmara não tinha gastado no ano anterior. A Câmara recebe uma parte do orçamento municipal para funcionar, e o que sobra volta para a prefeitura. Dessa vez, a devolução seria usada na reforma de um posto de saúde.\n\nUm vereador ainda mencionou a população flutuante. Nas férias de julho, chegam muitos turistas; essa população flutuante usa as ruas, a água e o posto de saúde, mas não vota aqui. Como planejar serviços para quem vem e vai?\n\nA sessão durou três horas. Ao descer a escadaria, pensei que a melhor maneira de estreitar a distância entre a Câmara e a cidade é simplesmente aparecer. Os estudantes pareciam pensar o mesmo e combinaram voltar no mês seguinte. Estreitar esse laço não exige muito: só uma terça-feira à noite.\n\nPerguntas:\nQuais são as duas funções principais dos vereadores?\nFazer as leis do município e fiscalizar o trabalho do prefeito.\nPor que o primeiro vereador falou dos búfalos?\nPorque os búfalos às vezes andam soltos pela estrada, e ele propôs uma lei para evitar acidentes.\nO que quer dizer \"rebolar\" no sentido figurado?\nQuer dizer esforçar-se muito para resolver um problema.\nO que os vereadores decidiram sobre a terceirização da limpeza?\nDecidiram pedir um estudo antes de votar.\nPara que seria usada a devolução do dinheiro?\nSeria usada na reforma de um posto de saúde."
+    },
+    {
+      "title": "Para que servem os tribunais",
+      "summary": "A short explanation of how the Brazilian courts are organised, what the Supreme Court does, what habeas corpus is and why the powers sometimes clash.",
+      "newWords": [
+        "habeas",
+        "ativismo",
+        "atrito",
+        "ímpar",
+        "análogo",
+        "notoriedade",
+        "incompatível",
+        "modelar"
+      ],
+      "text": "Quando duas pessoas discordam sobre um contrato, quando alguém acha que foi preso sem motivo ou quando uma lei parece contrariar a Constituição, a decisão final cabe ao Poder Judiciário. Os tribunais são o lugar onde os conflitos deixam a rua e passam a ser resolvidos por regras.\n\nA organização é feita em degraus. A maioria dos casos começa com um juiz, na primeira instância. Quem não concorda pode recorrer a um tribunal, onde o caso é revisto por desembargadores. Acima deles estão os tribunais superiores e, no topo, o Supremo Tribunal Federal, guardião da Constituição.\n\nO Supremo tem 11 ministros. Não é por acaso que o número é ímpar: com um número ímpar de votos, é mais difícil haver empate. Os ministros são indicados pelo presidente da República e precisam ser aprovados pelo Senado. A Constituição exige que tenham mais de 35 e menos de 70 anos, notável saber jurídico e reputação sem manchas. Não se trata, portanto, de notoriedade: um jurista pode ter grande notoriedade na televisão e pouco saber jurídico, ou o contrário.\n\nUma das funções mais importantes do Supremo é dizer se uma lei é incompatível com a Constituição. Quando uma lei é considerada incompatível, ela deixa de valer, mesmo que tenha sido aprovada pelo Congresso e sancionada pelo presidente. A ideia de que a Constituição está acima das leis comuns modelou muitas democracias modernas. No Brasil, a primeira Constituição da República, de 1891, foi modelada em boa parte pela dos Estados Unidos.\n\nOutra garantia antiga é o habeas corpus. A expressão vem do latim e significa, de forma livre, \"que tenhas o corpo\". Na prática, é um pedido feito à Justiça quando alguém está preso, ou ameaçado de prisão, de forma ilegal. Qualquer pessoa pode pedir um habeas corpus em favor de outra, mesmo sem advogado.\n\nNos últimos anos, uma expressão passou a aparecer com frequência nos jornais: ativismo judicial. Ela descreve a situação em que os juízes, em vez de apenas aplicar a lei, tomam decisões que alguns consideram próprias do Legislativo. Há quem veja no ativismo judicial uma forma de proteger direitos quando o Congresso demora a agir; há quem veja nele um risco, porque juízes não são eleitos. O debate existe em muitos países.\n\nDiscussões desse tipo às vezes geram atrito entre os Poderes. A Constituição diz que eles são independentes e devem viver em harmonia, mas independência não significa ausência de atrito. Um certo grau de atrito faz parte do sistema. A situação é análoga à de uma casa em que vários moradores dividem as despesas: eles discordam, negociam e chegam a acordos, sem que nenhum possa decidir tudo sozinho. Em casos análogos, o que mantém o equilíbrio são regras aceitas por todos antes do conflito.\n\nPor fim, em regra, o Judiciário só age quando alguém leva um caso até ele.\n\nPerguntas:\nPor que o número de ministros do Supremo é ímpar?\nPorque, com um número ímpar de votos, é mais difícil haver empate.\nA Constituição exige notoriedade dos ministros?\nNão. Exige notável saber jurídico, que não é o mesmo que notoriedade.\nO que acontece com uma lei incompatível com a Constituição?\nEla deixa de valer, mesmo que tenha sido aprovada e sancionada.\nPara que serve o habeas corpus?\nServe para proteger quem está preso, ou ameaçado de prisão, de forma ilegal.\nQuais são os dois lados do debate sobre o ativismo judicial?\nUns veem nele uma proteção de direitos; outros, um risco, porque juízes não são eleitos."
+    },
+    {
+      "title": "Sete pessoas numa sala",
+      "summary": "A nurse called for jury service describes, step by step, a day as a juror in a Brazilian jury trial.",
+      "newWords": [
+        "sussurrar",
+        "tédio",
+        "película",
+        "vascular",
+        "patologia",
+        "mandíbula",
+        "presunto",
+        "imaculado"
+      ],
+      "text": "Quando recebi a carta que me convocava para o Tribunal do Júri, fiquei preocupada. Sou enfermeira no setor de cirurgia vascular de um hospital e não sabia se poderia deixar meus plantões. Uma colega me acalmou: o serviço de jurado é obrigatório, e a lei proíbe descontar do salário o dia de quem comparece ao júri.\n\nEu conhecia o júri apenas das películas americanas, em que 12 pessoas discutem durante horas numa sala fechada. No Brasil, descobri, é diferente. O júri popular julga crimes contra a vida em que houve intenção, mesmo quando a vítima sobrevive. No dia da sessão, 7 cidadãos são sorteados entre os convocados para formar o conselho de sentença. A defesa e a acusação podem recusar até 3 jurados cada uma, sem explicar o motivo. Fui sorteada e ninguém me recusou.\n\nOutra diferença em relação às películas: aqui os jurados não conversam entre si sobre o caso. Durante o julgamento, não podemos comentar nada, nem mesmo sussurrar uma opinião ao vizinho. O juiz explicou isso logo no início, com voz calma, e eu passei o dia com medo de sussurrar alguma coisa sem querer.\n\nO caso era o de um homem acusado de ferir outro numa briga, na saída de um bar. A vítima sobreviveu depois de uma longa cirurgia. Por causa do meu trabalho, prestei atenção especial quando um médico com formação em patologia explicou os laudos. A patologia, ele lembrou, é a área da medicina que estuda as doenças e as lesões do corpo. Ele falou com termos simples, para que todos entendessem.\n\nConfesso que houve momentos de tédio. Entre um depoimento e outro, havia longas leituras de documentos, e o tédio pesava sobre a sala como o calor de uma tarde sem vento. Um senhor ao meu lado apertava a mandíbula para disfarçar o sono. Eu mesma, em certo momento, senti a mandíbula doer, mais de nervoso do que de tédio.\n\nNo almoço, comemos juntos numa sala separada, sempre acompanhados por um oficial de justiça: sanduíche de presunto e queijo, suco e uma fruta. Falamos de tudo, menos do caso. Um dos jurados disse, rindo, que nunca mais comeria presunto sem lembrar daquele dia.\n\nA sala de votação era pequena e imaculada: paredes brancas, uma mesa, cadeiras e uma urna. O juiz leu as perguntas, chamadas quesitos, e cada um de nós recebeu duas pequenas cédulas, uma com a palavra \"sim\" e outra com a palavra \"não\". Para cada quesito, colocamos uma cédula na urna. Quando aparecem 4 votos iguais, a contagem para, e ninguém fica sabendo se a decisão foi unânime. O voto é secreto, e assim deve continuar.\n\nO conselho decidiu pela condenação, e o juiz leu a sentença em voz alta. Saí do fórum à noite, cansada, mas com a certeza de que cada um ali tinha levado o trabalho a sério. Na manhã seguinte, de uniforme branco e imaculado, voltei para a cirurgia vascular.\n\nPerguntas:\nPor que a narradora ficou preocupada com a convocação?\nPorque trabalha no setor de cirurgia vascular e não sabia se poderia deixar seus plantões.\nQual é a diferença entre o júri brasileiro e o das películas americanas?\nNo Brasil, os 7 jurados não podem conversar sobre o caso, nem mesmo sussurrar uma opinião.\nO que o médico explicou sobre a patologia?\nÉ a área da medicina que estuda as doenças e as lesões do corpo.\nO que os jurados comeram no almoço?\nComeram sanduíche de presunto e queijo, suco e uma fruta.\nComo era a sala de votação?\nEra pequena e imaculada, com paredes brancas, uma mesa, cadeiras e uma urna."
+    },
+    {
+      "title": "Audiência pública sobre o novo parque",
+      "summary": "A short report on a public hearing where residents discuss the design of a new municipal park: eucalyptus, a swamp, orchids and a car park.",
+      "newWords": [
+        "eucalipto",
+        "orquídea",
+        "pântano",
+        "loureiro",
+        "geométrico",
+        "ambientalista",
+        "sarcasmo",
+        "temperado",
+        "retrocesso"
+      ],
+      "text": "Na noite de quinta-feira, o auditório da escola municipal ficou pequeno para a audiência pública sobre o futuro parque da antiga fazenda do bairro. A área pertence à prefeitura há uma década e está fechada desde então. Como o terreno vai se tornar um parque natural municipal, a lei exige uma consulta pública antes da criação, para que a população conheça a proposta e dê sua opinião.\n\nA arquiteta responsável apresentou o projeto. Na entrada, haveria um jardim de desenho geométrico, com canteiros em forma de quadrados e círculos. Mais adiante, as trilhas abandonariam as formas geométricas e acompanhariam o relevo natural. A maior mudança seria a retirada gradual dos eucaliptos plantados há 50 anos para produzir madeira. O eucalipto, originário da Austrália, cresce rápido e, segundo a arquiteta, consome muita água. No lugar de cada eucalipto seriam plantadas árvores nativas.\n\nO ponto mais delicado era o pântano no fundo do terreno. Muitos moradores viam o pântano apenas como um lugar de mosquitos. Um biólogo explicou que ele funciona como uma esponja: guarda a água das chuvas e ajuda a evitar enchentes no bairro. Por isso, o projeto previa uma passarela de madeira sobre o pântano, sem aterrar nenhuma parte dele.\n\nUma moradora que cultiva orquídeas há 30 anos pediu a palavra. Ela contou que, nas árvores velhas perto do pântano, há orquídeas nativas que florescem no inverno, e pediu que essas árvores fossem preservadas. A arquiteta anotou o pedido.\n\nOutro morador, um senhor de 80 anos, pediu que fosse mantido o loureiro ao lado da antiga casa da fazenda. O loureiro é uma árvore de clima temperado, vinda do Mediterrâneo, mas aquele exemplar se adaptou bem à região. Há décadas, contou ele, os vizinhos colhem ali as folhas de louro com que deixam o feijão bem temperado.\n\nUm grupo de ambientalistas apoiou a proposta em geral, mas criticou o estacionamento para 200 carros previsto na entrada. Para os ambientalistas, transformar parte da área verde em asfalto seria um retrocesso. Outros moradores discordaram: sem estacionamento, os carros ocupariam as ruas do bairro. Um deles disse, com algum sarcasmo, que só quem mora longe acharia isso um retrocesso. O mediador pediu calma e lembrou que o sarcasmo não ajudava ninguém: cada um tinha o direito de falar, e todas as falas seriam registradas em ata.\n\nApesar desse momento, o debate foi temperado com bom humor na maior parte do tempo. No fim, a arquiteta propôs uma solução: reduzir o estacionamento pela metade e criar uma linha de ônibus até a entrada do parque. A proposta foi recebida com aplausos. A prefeitura terá 30 dias para responder por escrito às sugestões, e uma segunda audiência está marcada para o mês que vem.\n\nPerguntas:\nPor que a lei exige uma consulta pública antes da criação do parque?\nPorque o terreno vai se tornar um parque natural municipal, e a população deve conhecer a proposta e dar sua opinião.\nPor que os eucaliptos seriam retirados?\nPorque o eucalipto, segundo a arquiteta, consome muita água, e no lugar dele seriam plantadas árvores nativas.\nPara que serve o pântano, segundo o biólogo?\nFunciona como uma esponja: guarda a água das chuvas e ajuda a evitar enchentes.\nO que a moradora que cultiva orquídeas pediu?\nPediu que as árvores velhas com orquídeas nativas fossem preservadas.\nO que os ambientalistas criticaram?\nCriticaram o estacionamento para 200 carros, que para eles seria um retrocesso."
+    },
+    {
+      "title": "Um pedido de informação",
+      "summary": "A master's student uses Brazil's Access to Information Law to get public health data for her research on young children.",
+      "newWords": [
+        "pente",
+        "abacaxi",
+        "bula",
+        "bolsista",
+        "vacinação",
+        "envenenamento",
+        "intrigante",
+        "negligenciar"
+      ],
+      "text": "Sou bolsista de mestrado em saúde pública, e os dados de que eu precisava não estavam em nenhum site. Minha pesquisa trata da saúde das crianças pequenas em dois bairros da minha cidade, e eu queria saber duas coisas: a taxa de vacinação infantil em cada bairro e o número de atendimentos por envenenamento acidental, aquele que acontece quando uma criança bebe um produto de limpeza ou engole um remédio deixado ao seu alcance.\n\nMinha orientadora sugeriu que eu usasse a Lei de Acesso à Informação. A lei, de 2011, garante a qualquer pessoa o direito de pedir informações a órgãos públicos, sem precisar explicar o motivo do pedido. O órgão tem até 20 dias para responder, prazo que pode ser estendido por mais 10, com justificativa.\n\nConfesso que achei que seria um abacaxi. Na linguagem do dia a dia, um abacaxi é um problema complicado, cheio de espinhos, que ninguém quer resolver. O pedido, no entanto, foi simples: preenchi um formulário no site da prefeitura, escrevi as perguntas e recebi um número de protocolo.\n\nEscrever perguntas claras foi a parte mais difícil, porque uma pergunta vaga recebe uma resposta vaga. Em vez de perguntar \"como está a vacinação no bairro\", pedi \"o número de crianças de até 2 anos com a vacinação completa, por bairro, nos últimos 5 anos\".\n\nA resposta chegou em 18 dias. Os dados de vacinação vieram completos. Os de envenenamento, não: a secretaria de saúde informou que os atendimentos eram registrados apenas como \"acidente\", sem separar os casos de envenenamento. Achei intrigante que uma informação tão importante não estivesse organizada. Mais intrigante ainda foi descobrir, numa conversa com uma enfermeira, que não havia má vontade: o sistema antigo simplesmente não tinha esse campo. Ninguém tinha decidido negligenciar o assunto; ele apenas nunca tinha sido prioridade. Ainda assim, é um tema que não se pode negligenciar.\n\nEntrei com um recurso, como a lei permite, e pedi a lista de todos os atendimentos por acidente, sem nomes nem dados pessoais, com a breve descrição de cada caso. Dessa vez, o pedido foi atendido. Durante semanas, passei um pente-fino na lista. Passar o pente-fino quer dizer examinar algo com todo o cuidado, como um pente de dentes muito próximos, que não deixa escapar nada.\n\nO resultado confirmou o que os médicos já desconfiavam: a maior parte dos casos envolvia remédios guardados em lugares baixos e produtos de limpeza em garrafas de refrigerante. Muitos pais, contou a enfermeira, nunca leem a bula dos remédios das crianças, embora a bula traga a dose correta e o que fazer em caso de acidente.\n\nNo fim, enviei a pesquisa à secretaria de saúde. Meses depois, soube que o novo sistema da prefeitura passou a registrar os casos de envenenamento separadamente. Foi apenas uma lei sendo usada para aquilo que ela foi feita.\n\nPerguntas:\nQue dados a bolsista queria obter?\nQueria a taxa de vacinação infantil em cada bairro e o número de atendimentos por envenenamento acidental.\nO que garante a Lei de Acesso à Informação?\nGarante a qualquer pessoa o direito de pedir informações a órgãos públicos, sem explicar o motivo.\nO que significa \"um abacaxi\" na linguagem do dia a dia?\nSignifica um problema complicado, que ninguém quer resolver.\nPor que os dados de envenenamento não vieram na primeira resposta?\nPorque o sistema antigo registrava os atendimentos apenas como \"acidente\", sem separar esses casos.\nO que quer dizer \"passar o pente-fino\"?\nQuer dizer examinar algo com todo o cuidado, sem deixar escapar nada."
+    },
+    {
+      "title": "Entre o cínico e o pessimista",
+      "summary": "A reflective essay on cynicism, pessimism and resentment towards public life, and on a patient, modest form of citizenship.",
+      "newWords": [
+        "cínico",
+        "pessimista",
+        "ressentimento",
+        "desesperar",
+        "milagroso",
+        "desesperadamente",
+        "fulano",
+        "admirável",
+        "surfar",
+        "aspirar"
+      ],
+      "text": "Em qualquer conversa sobre política, cedo ou tarde alguém diz: \"São todos iguais\". A frase vem às vezes de um cínico, às vezes de um pessimista, e vale a pena distinguir os dois.\n\nO cínico acredita que ninguém age de boa-fé. Para ele, toda lei esconde um interesse, todo discurso é teatro, e quem vai a uma audiência pública é ingênuo. O pessimista é diferente: acredita que existem pessoas honestas e instituições sérias, mas acha que elas não vão conseguir mudar nada. O cínico desconfia das intenções; o pessimista desconfia dos resultados.\n\nÉ justo reconhecer que os dois têm alguma razão. Instituições são feitas de pessoas, e pessoas erram e defendem os próprios interesses. O pessimista lembra que as mudanças são lentas, e o cínico nos impede de acreditar em qualquer promessa. Uma pequena dose de desconfiança é saudável numa democracia.\n\nO problema começa quando a desconfiança vira ressentimento. O ressentimento é uma raiva antiga, que se alimenta de si mesma e já não espera nada. Quem vive no ressentimento deixa de votar com atenção, de ler, de perguntar. Se o cidadão se retira, as decisões continuam sendo tomadas, só que sem ele.\n\nHá também o risco oposto: esperar uma solução milagrosa. De tempos em tempos, surge quem prometa resolver tudo de uma vez, como se os problemas de um país dependessem apenas de boa vontade. Não existem soluções milagrosas para a saúde, a educação ou a segurança; existem políticas públicas, avaliadas e corrigidas ao longo de anos. Desconfiar de promessas milagrosas é uma forma de maturidade.\n\nNa vida pública, como no mar, há quem prefira surfar a onda do momento: dizer o que a plateia quer ouvir e mudar de opinião conforme o vento. É fácil surfar nas emoções do público; difícil é construir algo que dure depois que a onda passa. A crítica vale para qualquer lado: o cidadão atento aprende a reconhecer o gesto, seja qual for o fulano que o faz, e não apenas quando é um fulano de quem ele não gosta.\n\nConheço uma professora aposentada que, há 15 anos, assiste às sessões da Câmara da sua cidade e escreve um resumo para os vizinhos. Ela não é ingênua: já viu bons projetos serem arquivados e promessas esquecidas. Mas não se desespera. \"Se eu me desesperar, quem vai contar o que aconteceu?\", ela me disse. Acho admirável essa paciência. Não é a coragem dos heróis, mas outra, mais rara e igualmente admirável: a de continuar.\n\nNinguém precisa aspirar a ser herói. Basta aspirar a algo mais modesto: entender como as coisas funcionam, votar com informação, perguntar quando não entende. Não é preciso procurar desesperadamente um herói, nem fugir desesperadamente de tudo o que é público. Entre o cínico e o ingênuo, existe um caminho mais calmo.\n\nPerguntas:\nQual é a diferença entre o cínico e o pessimista?\nO cínico desconfia das intenções; o pessimista desconfia dos resultados.\nPor que o ressentimento é um problema, segundo o texto?\nPorque quem vive no ressentimento deixa de participar, e as decisões são tomadas sem ele.\nPor que o autor desconfia das soluções milagrosas?\nPorque os problemas exigem políticas públicas corrigidas ao longo de anos.\nO que faz a professora aposentada?\nEla assiste às sessões da Câmara da sua cidade há 15 anos e escreve um resumo para os vizinhos.\nA que o cidadão pode aspirar, segundo o autor?\nA entender como as coisas funcionam, votar com informação e perguntar quando não entende."
+    },
+    {
+      "title": "A voz que explica a lei",
+      "summary": "A profile of a radio presenter of Lebanese descent who explains citizens' rights on air and teaches civics classes to immigrants and refugees.",
+      "newWords": [
+        "comunicador",
+        "afegão",
+        "descendência",
+        "popularizar",
+        "repudiar",
+        "meigo",
+        "sorridente",
+        "nevada"
+      ],
+      "text": "Quem liga o rádio às 7 da manhã, numa cidade do interior de São Paulo, ouve uma voz calma que começa sempre com a mesma frase: \"Bom dia, cidadão. Hoje vamos falar de um direito seu.\" A voz é de Samira Haddad, de 58 anos, comunicadora há mais de três décadas. Colegas de profissão dizem que ela é a comunicadora mais paciente da região.\n\nSamira é de descendência libanesa: os avós chegaram ao Brasil nos anos 1920 e abriram uma loja de tecidos. Foi ali, atrás do balcão, que ela aprendeu a conversar com todo tipo de gente. \"Meu avô dizia que um bom comerciante explica antes de vender\", lembra. A descendência aparece no sobrenome, que os ouvintes às vezes erram, e nos doces que ela leva para a rádio.\n\nO programa tem uma ideia simples: traduzir a lei para a linguagem de todos os dias. Em cada edição, Samira escolhe um tema, como pedir um documento à prefeitura ou reclamar de um produto com defeito, e explica tudo com exemplos. Ela ajudou a popularizar na região a Lei de Acesso à Informação, que muitos ouvintes nem sabiam que existia. \"Uma lei que ninguém conhece não protege ninguém\", diz. Para popularizar um direito, segundo ela, é preciso repetir, repetir e repetir. Um bom comunicador, acrescenta, nunca tem vergonha de repetir.\n\nHá quatro anos, Samira começou um trabalho voluntário: aulas de cidadania para imigrantes e refugiados, aos sábados, numa sala emprestada pela associação do bairro. Entre os alunos estão venezuelanos, haitianos e uma família afegã que chegou ao Brasil com um visto humanitário. Nas aulas, eles aprendem a tirar documentos, a matricular os filhos na escola e a usar o sistema público de saúde.\n\nA filha mais velha da família afegã, Zahra, de 17 anos, conta que no começo tudo era estranho: o calor, a língua, o barulho das ruas. \"Em Cabul, no inverno, a nevada cobria a cidade e tudo ficava em silêncio\", lembra. \"Aqui nunca vi uma nevada, mas vi muita gente disposta a ajudar.\" Hoje ela fala português quase sem sotaque e quer estudar direito. Outros jovens afegãos já pediram para entrar na turma.\n\nOs alunos descrevem Samira como uma professora meiga, mas firme. É meiga com quem tem dificuldade e firme com quem desrespeita os outros. Em sala, não aceita piadas sobre a origem de ninguém. \"Eu repudio qualquer preconceito, e a Constituição também repudia\", explica, lembrando que a lei brasileira trata o racismo como crime.\n\nNo fim de cada semestre, a turma faz uma pequena festa. Nas fotos do grupo, Samira aparece sempre sorridente, no meio dos alunos. Uma ouvinte que a encontrou no mercado escreveu à rádio: \"Eu imaginava a senhora exatamente assim, sorridente.\" Ela guardou a carta numa gaveta, junto com outras.\n\nPerguntas:\nComo Samira começa o seu programa de rádio?\nEla começa sempre com a frase: \"Bom dia, cidadão. Hoje vamos falar de um direito seu.\"\nDe que descendência é Samira?\nEla é de descendência libanesa; os avós chegaram ao Brasil nos anos 1920.\nSegundo Samira, o que é preciso fazer para popularizar um direito?\nÉ preciso repetir, repetir e repetir.\nO que Zahra lembra de Cabul?\nLembra que, no inverno, a nevada cobria a cidade e tudo ficava em silêncio.\nComo os alunos descrevem Samira?\nEles a descrevem como uma professora meiga, mas firme."
+    },
+    {
+      "title": "Diante da tumba do imperador",
+      "summary": "A visit to the Imperial Crypt in São Paulo leads the narrator to reflect on Brazil's constitutions, the official religion of the Empire and the secular state.",
+      "newWords": [
+        "tumba",
+        "alteza",
+        "apostólico",
+        "teológico",
+        "padroeiro",
+        "forca",
+        "burguesia",
+        "ascender"
+      ],
+      "text": "Debaixo do Monumento à Independência, no bairro do Ipiranga, em São Paulo, há um lugar silencioso que muitos paulistanos nunca visitaram: a Cripta Imperial. Ali estão as tumbas de dom Pedro I e de suas duas esposas, a imperatriz Leopoldina e a imperatriz Amélia. Diante da tumba do primeiro imperador, comecei a pensar menos nele e mais nas regras que o país teve ao longo do tempo.\n\nEm 1822, antes da Independência, dom Pedro era príncipe regente, e os documentos se dirigiam a ele como Sua Alteza Real. Depois da Independência, ele foi aclamado imperador, e o tratamento mudou de Alteza para Majestade. A palavra nova marcava uma posição nova.\n\nEm 1824, o imperador deu ao Brasil a sua primeira Constituição. Ela não foi votada por representantes eleitos: foi imposta por ele, depois que ele fechou a Assembleia Constituinte. Essa Constituição dizia que a religião Católica Apostólica Romana continuaria a ser a religião do Império. As outras religiões só podiam ter culto em casas particulares, sem aparência exterior de templo. O Estado tinha, portanto, uma religião oficial, a católica apostólica.\n\nA própria ideia de constituição vinha da Europa. Nos séculos anteriores, a burguesia, formada por comerciantes, banqueiros e profissionais liberais, tinha começado a ascender e passou a exigir limites ao poder dos reis. Parlamentos e direitos individuais foram, em boa parte, conquistas dessa burguesia que ascendia. O Brasil herdou essas ideias, mas num império com escravidão, o que mostra que uma constituição, sozinha, não garante direitos a todos.\n\nPensei também em Tiradentes, condenado à forca em 1792 por participar de um movimento contra o domínio português. A forca era uma pena pública, pensada para servir de exemplo. A Constituição de 1988, ao contrário, proíbe a pena de morte, exceto em caso de guerra declarada.\n\nCom a República, veio a separação entre a Igreja e o Estado: um decreto de 1890 acabou com a religião oficial, e a Constituição de 1891 confirmou a mudança. Desde então, o Brasil é um Estado laico. Isso não significa ser contra a religião: significa que o Estado não adota uma religião oficial, trata todas as crenças da mesma forma e não decide questões teológicas, isto é, questões sobre a fé e sobre a interpretação de textos sagrados. Debates teológicos pertencem às igrejas e às universidades; ao Estado cabe garantir que todos possam crer, ou não crer, em paz.\n\nA tradição religiosa, no entanto, continua presente na vida pública. Nossa Senhora Aparecida é a padroeira do Brasil, e o dia 12 de outubro é feriado nacional desde 1980. Muitas cidades têm um santo padroeiro, e em muitas delas o dia do padroeiro é feriado municipal, criado por lei da câmara de vereadores. Há quem veja nisso uma contradição com o Estado laico e há quem veja apenas o respeito a uma tradição cultural.\n\nSaí da cripta com uma impressão curiosa: a tumba do imperador que deu ao país uma religião oficial fica hoje num parque público de uma república laica e recebe visitantes de todas as crenças.\n\nPerguntas:\nQuem está na Cripta Imperial?\nEstão ali as tumbas de dom Pedro I e de suas duas esposas.\nPor que o tratamento de dom Pedro mudou de Alteza para Majestade?\nPorque, depois da Independência, ele foi aclamado imperador.\nO que a Constituição de 1824 dizia sobre a religião?\nQue a religião Católica Apostólica Romana continuaria a ser a religião do Império.\nO que a burguesia europeia passou a exigir quando começou a ascender?\nPassou a exigir limites ao poder dos reis.\nO que significa um Estado laico, segundo o texto?\nÉ um Estado que não adota religião oficial e não decide questões teológicas."
+    }
+  ]
+}

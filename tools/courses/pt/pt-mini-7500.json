@@ -1,0 +1,219 @@
+{
+  "id": "pt-mini-7500",
+  "rankUpTo": 7500,
+  "level": "C1",
+  "title": "Profissões e mercado de trabalho",
+  "description": "Ten texts about working life: a career counsellor's column, an air traffic controller, a court interpreter, a coffee sommelier, an app delivery rider, a union assembly explained neutrally, a CV that tells a story, a family pastel stall, an urban archaeologist and an actor who trains doctors.",
+  "topic": "Jobs and the labour market",
+  "names": [
+    "Brasil",
+    "Helena",
+    "Prado",
+    "Renata",
+    "Márcio",
+    "Teles",
+    "Lúcia",
+    "Ramos",
+    "Polícia",
+    "Federal",
+    "Justiça",
+    "América",
+    "Latina",
+    "Reino",
+    "Unido",
+    "Davi",
+    "Moreira",
+    "Sul",
+    "Minas",
+    "Severino",
+    "Lima",
+    "Campina",
+    "Grande",
+    "Rio",
+    "Janeiro",
+    "Sudeste",
+    "Lei",
+    "Áurea",
+    "África",
+    "CLT",
+    "Constituição",
+    "Tiago",
+    "Moura",
+    "Curitiba",
+    "Londrina",
+    "ONG",
+    "Lurdes",
+    "Camila",
+    "Osvaldo",
+    "São",
+    "Paulo",
+    "Marina",
+    "Sales",
+    "República",
+    "Rui",
+    "Fontes"
+  ],
+  "lessons": [
+    {
+      "title": "A curinga do escritório",
+      "summary": "In a career column, a reader who has become her office's all-purpose stand-in asks whether to quit, and the counsellor suggests naming her skills and asking for a new role.",
+      "newWords": [
+        "curinga",
+        "exigente",
+        "desilusão",
+        "francamente",
+        "transversal",
+        "teoricamente",
+        "surtar",
+        "confortar",
+        "pólvora",
+        "indeterminado"
+      ],
+      "text": "Toda semana, a orientadora de carreira Helena Prado responde nesta coluna à carta de um leitor. A carta de hoje é de Renata, de 29 anos, que trabalha numa pequena empresa de eventos.\n\n\"Querida Helena, há 3 anos fui contratada por prazo indeterminado como assistente administrativa. Teoricamente, minha função é cuidar de contratos e pagamentos. Na prática, virei a curinga do escritório: atendo os clientes quando a recepcionista falta, organizo festas quando a produtora está de férias e até conserto a impressora. No começo, ser a curinga me deixava orgulhosa. Hoje sinto uma desilusão que não sei explicar. Minha chefe é exigente, mas justa; mesmo assim, ninguém se lembra de mim na hora das promoções, porque ninguém sabe dizer o que eu faço. Às vezes acho que vou surtar. Devo procurar outro emprego? Renata.\"\n\n\"Querida Renata, francamente, sua carta se parece com muitas que recebo. O papel de curinga é precioso para a empresa e arriscado para quem o ocupa. No baralho, o curinga vale por qualquer carta; justamente por isso, não tem valor próprio.\n\nAntes de pensar em sair, olhe com atenção para o que você já sabe fazer. Atender clientes, resolver problemas sob pressão, organizar eventos: são as chamadas competências transversais, aquelas que atravessam várias profissões, como uma rua transversal que cruza muitas avenidas. Um chefe exigente valoriza essas competências, mas só quando elas aparecem com nome e resultado.\n\nMinha sugestão é simples, e você não precisa descobrir a pólvora para segui-la. A expressão, como você sabe, se usa para quem apresenta como grande novidade algo que todos já conhecem. Aqui, nada é novidade: durante um mês, anote cada tarefa que fizer fora da sua função e quanto tempo ela levou. Depois, peça uma conversa com a sua chefe e mostre a lista. Não leve uma reclamação, mas uma proposta: talvez um novo cargo, de coordenadora de operações, que dê nome ao que você já faz.\n\nNão quero apenas confortar você com palavras bonitas. A desilusão é compreensível, mas também é um sinal útil: mostra que você espera mais do seu trabalho. Teoricamente, um contrato por prazo indeterminado traz segurança; na prática, segurança sem crescimento cansa. Se, depois da conversa, nada mudar, aí sim vale procurar outro emprego, agora com uma lista concreta das suas competências.\n\nPor fim, quando sentir que vai surtar, faça uma pausa curta, respire e volte à lista. Ninguém precisa surtar para ser levado a sério. Espero que estas linhas possam confortar você e, francamente, ajudar você a agir. Helena.\"\n\nPerguntas:\nQual é a função de Renata, teoricamente?\nTeoricamente, a função dela é cuidar de contratos e pagamentos.\nPor que Renata diz que virou a curinga do escritório?\nPorque ela faz o trabalho de várias pessoas: atende clientes, organiza festas e até conserta a impressora.\nO que são competências transversais, segundo Helena?\nSão competências que atravessam várias profissões, como atender clientes e resolver problemas sob pressão.\nO que significa a expressão \"descobrir a pólvora\"?\nSignifica apresentar como grande novidade algo que todos já conhecem.\nO que Helena sugere que Renata faça durante um mês?\nEla sugere que Renata anote cada tarefa que fizer fora da sua função e mostre a lista à chefe.\nQuando, segundo Helena, vale procurar outro emprego?\nVale procurar outro emprego se, depois da conversa com a chefe, nada mudar."
+    },
+    {
+      "title": "A torre no meio da planície",
+      "summary": "A profile of an air traffic controller who keeps planes apart over a wide plain, works through thunderstorms and takes regular breaks because of the mental strain.",
+      "newWords": [
+        "planície",
+        "colidir",
+        "trovoada",
+        "ágil",
+        "ditar",
+        "desgaste",
+        "desgastar",
+        "correlação",
+        "meteoro"
+      ],
+      "text": "O aeroporto onde Márcio Teles trabalha fica numa planície tão aberta que, do alto da torre de controle, se vê o horizonte inteiro. Não há montanhas nem prédios altos por perto; a planície se estende em todas as direções, verde na época das chuvas e dourada na seca. Márcio é controlador de tráfego aéreo há 15 anos.\n\nA tarefa dele, resumida numa frase, é impedir que os aviões colidam. \"Dito assim, parece simples\", explica. \"Mas é uma conversa permanente com muitos pilotos ao mesmo tempo.\" O controlador autoriza pousos e decolagens, indica a cada piloto a altitude e a direção que deve seguir e garante que entre duas aeronaves haja sempre uma distância mínima, definida por regras internacionais. Se essa distância diminuir demais, há risco de os aviões colidirem, e o controlador precisa agir em segundos.\n\nNos dias de trovoada, o trabalho muda de ritmo. As grandes nuvens de tempestade aparecem primeiro na tela do radar, depois no céu, escuras e pesadas sobre a planície. Durante uma trovoada, os pilotos pedem para desviar das nuvens, os pousos atrasam e os aviões que esperam ficam dando voltas no ar. \"Nesses dias, quem manda não é o horário\", diz Márcio. \"São as nuvens que ditam o ritmo da torre.\" Num dia assim, o tempo pode ditar a agenda inteira do aeroporto, e é preciso um raciocínio ágil para organizar de novo a fila de pousos. Mas Márcio insiste num ponto: um controlador ágil não é o que fala mais rápido, e sim o que decide rápido e fala com clareza.\n\nEsse esforço tem um preço, e ele não esconde: o desgaste mental. Passar horas com a atenção no máximo pode desgastar até o profissional mais experiente. Por isso, os controladores trabalham em turnos com pausas regulares, e ninguém fica tempo demais diante da tela sem descansar. Estudos sobre segurança na aviação mostram uma correlação clara entre cansaço e erro humano: quanto maior o cansaço, maior a chance de falhas. \"Essa correlação não é teoria para nós\", afirma Márcio. \"É a razão pela qual paramos, mesmo quando achamos que não precisamos.\"\n\nPara ele, o que mais desgasta não é a trovoada, mas a monotonia das madrugadas sem movimento, quando é difícil manter a atenção. Nessas noites calmas, ele já viu meteoros riscarem o céu sobre a planície. \"O meteoro é o único visitante que cruza o meu céu sem pedir autorização\", diz, sorrindo. Depois de ver um meteoro, ele volta os olhos para a tela, porque a qualquer momento um piloto pode chamar.\n\nQuando perguntam se ele trocaria de profissão, Márcio responde que não. O desgaste existe, mas também existe a satisfação de saber que, a cada turno, centenas de pessoas chegam em segurança ao seu destino.\n\nPerguntas:\nComo é a paisagem ao redor do aeroporto onde Márcio trabalha?\nO aeroporto fica numa planície aberta, sem montanhas nem prédios altos por perto.\nQual é a principal tarefa de um controlador de tráfego aéreo?\nA principal tarefa é impedir que os aviões colidam, mantendo uma distância mínima entre eles.\nO que acontece nos dias de trovoada?\nOs pilotos pedem para desviar das nuvens, os pousos atrasam e os aviões ficam dando voltas no ar.\nPara Márcio, o que é um controlador ágil?\nÉ o controlador que decide rápido e fala com clareza, e não o que fala mais rápido.\nQue correlação os estudos mostram?\nOs estudos mostram uma correlação clara entre o cansaço e o erro humano.\nO que Márcio já viu nas noites calmas?\nEle já viu meteoros riscarem o céu sobre a planície."
+    },
+    {
+      "title": "A intérprete do tribunal",
+      "summary": "A court interpreter explains her work through the case of a Colombian trader stopped at airport customs: she must translate exactly, without bias, even what is only implied.",
+      "newWords": [
+        "alfândega",
+        "indiciar",
+        "amparo",
+        "implícito",
+        "indireto",
+        "viés",
+        "peruca",
+        "sentenciar",
+        "árduo"
+      ],
+      "text": "Lúcia Ramos é intérprete de espanhol e trabalha há 12 anos em audiências judiciais. Seu trabalho começa quando alguém que não fala português precisa falar diante de um juiz. A lei brasileira garante esse amparo: o acusado estrangeiro que não entende a língua tem direito a um intérprete. Sem esse amparo, ele não poderia se defender de verdade.\n\nUm dos casos que Lúcia lembra bem foi o de um comerciante colombiano. Ao desembarcar num aeroporto brasileiro, ele foi parado na alfândega com 2 malas cheias de celulares que não tinha declarado. Os fiscais da alfândega chamaram a Polícia Federal, e o homem foi indiciado por trazer mercadorias ao país sem pagar os impostos. Ser indiciado, ela explica, ainda não é ser condenado: significa que a polícia reuniu indícios suficientes para que o caso seja levado à Justiça.\n\nA preparação para uma audiência é um trabalho árduo, que ninguém vê. Lúcia lê o processo, estuda os termos técnicos e monta pequenos glossários. \"O árduo não é traduzir palavras difíceis\", diz ela. \"É traduzir as fáceis sem mudar nada.\"\n\nNa audiência, o comerciante falava de modo indireto, como é comum em muitas culturas. Em vez de dizer \"eu não sabia\", dizia algo como \"talvez alguém devesse ter me avisado\". Esse estilo indireto carrega uma mensagem implícita, e a tentação do intérprete é explicar o que ficou implícito. Lúcia não pode fazer isso. Ela repete a frase exatamente como foi dita, com a mesma hesitação, e deixa que o juiz tire as próprias conclusões.\n\nOutro perigo é o viés. Um intérprete pode simpatizar com o acusado, ou antipatizar com ele, e esse viés pode aparecer numa palavra mais suave ou mais dura. \"Eu sou a voz dele, mas não sou a advogada dele\", resume Lúcia. Para evitar qualquer viés, ela fala na primeira pessoa, como se fosse o próprio acusado, e nunca acrescenta comentários.\n\nQuando estudantes perguntam se o tribunal brasileiro se parece com os dos filmes, ela ri. Nos filmes ingleses, juízes e advogados usam peruca branca, uma tradição que ainda existe em muitos tribunais do Reino Unido. No Brasil não há peruca; nos tribunais, os juízes vestem uma toga preta, e em muitas audiências comuns a roupa é apenas formal. \"Sem peruca, sem martelo e sem discursos de cinema\", diz Lúcia.\n\nSemanas depois da audiência, o juiz sentenciou o caso: o comerciante foi sentenciado a prestar serviços à comunidade e a pagar uma multa. Lúcia soube da decisão pelo processo, como sempre. Ela não comemora nem lamenta as sentenças. O que lhe importa é que, no dia em que o homem falou, cada palavra dele chegou ao juiz sem perder nada.\n\nPerguntas:\nQue amparo a lei brasileira garante ao acusado estrangeiro?\nA lei garante que o acusado estrangeiro que não entende português tenha direito a um intérprete.\nPor que o comerciante foi parado na alfândega?\nPorque ele trazia 2 malas cheias de celulares que não tinha declarado.\nO que significa ser indiciado?\nSignifica que a polícia reuniu indícios suficientes para que o caso seja levado à Justiça.\nComo o comerciante falava na audiência?\nEle falava de modo indireto, e suas frases carregavam mensagens implícitas.\nO que Lúcia faz para evitar qualquer viés?\nEla fala na primeira pessoa, como se fosse o acusado, e nunca acrescenta comentários.\nA que o comerciante foi sentenciado?\nEle foi sentenciado a prestar serviços à comunidade e a pagar uma multa."
+    },
+    {
+      "title": "O sommelier de café",
+      "summary": "A coffee sommelier in the south of Minas Gerais explains how a cupping works, from slurping with a spoon to comparing six coffees side by side.",
+      "newWords": [
+        "renome",
+        "saboroso",
+        "glândula",
+        "cristalino",
+        "comparativo",
+        "rum",
+        "arrepiar",
+        "deliciar"
+      ],
+      "text": "Quando se fala de vinho, todo mundo entende o que faz um sommelier. Quando se fala de café, muita gente se surpreende. Davi Moreira é sommelier de café numa cooperativa do Sul de Minas, região de renome entre os produtores, num país que é o maior produtor de café do mundo há mais de um século. O renome da região, explica ele, não veio por acaso: veio da altitude, do clima e do cuidado de famílias que cultivam café há gerações.\n\nO trabalho de Davi é provar, descrever e classificar cafés. Todas as manhãs, ele faz a chamada prova de xícara. Primeiro, cheira o pó seco. Depois, coloca água quente sobre ele, espera alguns minutos e quebra a camada que se forma na superfície com uma colher, para sentir o aroma que sobe. Então vem a parte que mais surpreende os visitantes: ele leva a colher à boca e suga o café com força, fazendo barulho. \"Não é falta de educação\", ri. \"Ao sugar com força, espalho o café pela boca inteira e sinto melhor o sabor.\"\n\nDavi explica que a acidez de um bom café não é defeito. Ela age sobre as glândulas salivares, que começam a trabalhar logo no primeiro gole. \"Quando as glândulas respondem, a boca fica úmida e o café parece mais vivo\", diz. Um café com acidez equilibrada e sem defeitos ele descreve como cristalino: um sabor limpo, em que cada nota aparece com clareza, como pedras no fundo de um rio de água cristalina.\n\nÀs quintas-feiras, ele organiza uma prova comparativa. Seis cafés de fazendas diferentes são servidos lado a lado, sem identificação, e os provadores dão notas a cada um. O método comparativo, segundo Davi, é o mais justo: ninguém sabe de que fazenda vem cada xícara, e o café precisa se defender sozinho. Num desses testes comparativos, um café de uma pequena fazenda familiar ficou em primeiro lugar.\n\nAlguns cafés passam por fermentações especiais e ganham sabores inesperados. Davi já provou cafés com notas de frutas vermelhas, de chocolate e até de rum. \"Não tem rum nenhum dentro, claro\", explica. \"É a fermentação que cria um aroma parecido com o do rum.\" Um café assim, saboroso e complexo, chega a arrepiar quem o prova pela primeira vez. Davi confessa que, depois de tantos anos, ainda se arrepia quando encontra um café excepcional.\n\nO que ele mais gosta, no entanto, é de ver os visitantes se deliciando com algo que tomavam todos os dias sem prestar atenção. Ele os convida a deliciar-se devagar: cheirar antes, provar em pequenos goles, esperar o sabor que fica na boca. \"Um café saboroso não precisa de açúcar para ser bom\", diz. \"Precisa de tempo.\"\n\nPerguntas:\nPor que o Sul de Minas tem renome entre os produtores de café?\nPor causa da altitude, do clima e do cuidado de famílias que cultivam café há gerações.\nPor que Davi suga o café com força, fazendo barulho?\nPorque assim ele espalha o café pela boca inteira e sente melhor o sabor.\nComo a acidez age sobre as glândulas salivares?\nEla faz as glândulas trabalharem, a boca fica úmida e o café parece mais vivo.\nO que Davi chama de café cristalino?\nÉ um café de sabor limpo, em que cada nota aparece com clareza.\nPor que o método comparativo é o mais justo, segundo Davi?\nPorque ninguém sabe de que fazenda vem cada xícara, e o café precisa se defender sozinho.\nDe onde vem o aroma de rum em alguns cafés?\nVem da fermentação especial, que cria um aroma parecido com o do rum."
+    },
+    {
+      "title": "Duas rodas e muitos endereços",
+      "summary": "A delivery rider from Paraíba working in Rio describes the freedom and the risks of app work: heat, rain, long routes, defensive riding and unstable earnings.",
+      "newWords": [
+        "paraibano",
+        "êxodo",
+        "descolar",
+        "itinerário",
+        "castigar",
+        "térreo",
+        "faturar",
+        "defensivo",
+        "impactar",
+        "maneiro"
+      ],
+      "text": "Severino Lima, de 34 anos, é paraibano de Campina Grande. Chegou ao Rio de Janeiro aos 20, seguindo um caminho conhecido: durante décadas, milhões de nordestinos deixaram o interior em busca de trabalho nas grandes cidades do Sudeste. Esse êxodo marcou a história do país, e a família de Severino faz parte dele: o pai já tinha feito o mesmo caminho nos anos 1980. \"Na minha família, o êxodo é quase uma tradição\", diz ele.\n\nDepois de trabalhar como ajudante de obra e como garçom, Severino conseguiu descolar uma moto usada e se cadastrou num aplicativo de entregas. Descolar, na linguagem informal, quer dizer conseguir algo com esforço e um pouco de sorte. Hoje ele entrega comida e remédios 6 dias por semana.\n\nO dia começa às 10 horas. O aplicativo mostra cada pedido e desenha no mapa o itinerário até o cliente, mas Severino sabe que o itinerário da tela nem sempre é o melhor. Conhece as ruas que alagam, os túneis que congestionam e os atalhos que o mapa não vê. Ao meio-dia, o sol castiga quem está na rua. \"No verão, o sol castiga de um jeito que só quem trabalha na rua entende\", conta. Com chuva, é pior: o asfalto fica perigoso e os pedidos aumentam.\n\nNos prédios, a regra quase sempre é a mesma: o entregador não sobe e entrega a comida no térreo, na portaria. Alguns clientes descem rápido; outros demoram, e cada minuto parado no térreo é um minuto sem ganhar.\n\nSeverino não tem salário fixo. Ganha por entrega, e o que consegue faturar varia muito. Num sábado de chuva, pode faturar o dobro de uma terça-feira tranquila. Mas esse dinheiro não é lucro: precisa pagar a gasolina, a manutenção da moto e o celular. Quando a moto quebra, ele fica sem renda.\n\nO maior medo dele são os acidentes. Por isso, fez um curso de direção defensiva, que ensina a prever os erros dos outros motoristas. Pilotar de modo defensivo, para ele, significa manter distância, não confiar no sinal verde e nunca correr para salvar alguns minutos. \"Quem corre ganha uma entrega e pode perder o resto da vida\", resume.\n\nA vida de entregador tem dois lados, e Severino fala dos dois. De um lado, há a liberdade: ele escolhe os horários e não tem chefe gritando. Um colega mais jovem, carioca, acha isso maneiro. \"É maneiro não ter patrão\", diz o rapaz. De outro lado, falta proteção: sem carteira assinada, não há férias pagas nem auxílio em caso de doença. Qualquer mudança nas regras do aplicativo pode impactar a renda. O debate sobre novas regras para esse tipo de trabalho continua no país, e o resultado vai impactar a vida de milhares de entregadores.\n\nPerguntas:\nDe onde Severino é e quando chegou ao Rio de Janeiro?\nEle é paraibano de Campina Grande e chegou ao Rio de Janeiro aos 20 anos.\nO que foi o êxodo de que o texto fala?\nFoi a saída de milhões de nordestinos do interior em busca de trabalho nas grandes cidades do Sudeste.\nPor que Severino nem sempre segue o itinerário do aplicativo?\nPorque ele conhece as ruas que alagam, os túneis que congestionam e os atalhos que o mapa não vê.\nOnde os entregadores costumam deixar a comida nos prédios?\nEles costumam deixar a comida no térreo, na portaria.\nPor que o dinheiro que Severino consegue faturar não é lucro?\nPorque ele precisa pagar a gasolina, a manutenção da moto e o celular.\nO que significa pilotar de modo defensivo, para Severino?\nSignifica manter distância, não confiar no sinal verde e nunca correr para salvar alguns minutos."
+    },
+    {
+      "title": "Como funciona uma assembleia sindical",
+      "summary": "A neutral explanation of what a union assembly is, with a short history of workers' rights in Brazil and an example of a vote on a factory's proposal.",
+      "newWords": [
+        "filiação",
+        "escravizar",
+        "abolir",
+        "promulgar",
+        "memorando",
+        "superintendente",
+        "moderação",
+        "incitar",
+        "insistência",
+        "honroso"
+      ],
+      "text": "Para muita gente, a palavra \"sindicato\" lembra apenas greves e discursos inflamados. Na prática, a maior parte da vida de um sindicato é feita de reuniões longas, contas e negociações. Este texto explica, sem tomar partido, o que é uma assembleia sindical e como ela costuma funcionar.\n\nUm sindicato é uma associação que representa os trabalhadores de uma categoria, como os metalúrgicos ou os bancários, nas negociações com as empresas. Para entender o lugar dos sindicatos no Brasil, vale lembrar um pouco de história. Durante mais de três séculos, a economia do país dependeu do trabalho de pessoas escravizadas, trazidas da África ou nascidas aqui. A escravidão só foi abolida em 1888, pela Lei Áurea. Nas décadas seguintes, trabalhadores livres, entre eles imigrantes europeus e descendentes de pessoas escravizadas, começaram a se organizar nas primeiras associações operárias. Em 1943, as leis do trabalho foram reunidas na CLT, e em 1988 foi promulgada a Constituição atual, que garante a liberdade sindical. Na Constituição promulgada naquele ano, há uma regra clara: ninguém é obrigado a manter filiação a um sindicato. A filiação é uma escolha de cada trabalhador.\n\nA assembleia é o momento em que o sindicato consulta a categoria. Imagine uma fábrica de peças de automóveis. A empresa enviou ao sindicato um memorando com uma proposta: um reajuste de salário menor do que o pedido, mas com um vale-alimentação maior. O memorando foi lido em voz alta no início da assembleia, e o superintendente da fábrica, convidado, explicou os números da empresa. Depois de falar, o superintendente deixou o local, para que os trabalhadores pudessem discutir com liberdade.\n\nA condução da assembleia cabe a uma mesa, que organiza a moderação dos debates. A moderação define a ordem das falas, controla o tempo de cada pessoa e garante que defensores e críticos da proposta sejam ouvidos. Um bom moderador pede calma quando os ânimos esquentam e não permite que ninguém use a palavra para incitar agressões contra colegas, nem contra representantes da empresa. Incitar hostilidade pode parecer eficaz por alguns minutos, mas costuma enfraquecer a negociação.\n\nNaquela assembleia, um grupo pediu com insistência que a proposta fosse recusada. Outro grupo, com a mesma insistência, defendeu que ela fosse aceita, porque a empresa passava por dificuldades. Depois de 2 horas de debate, a votação foi feita com as mãos levantadas, e a maioria aprovou uma contraproposta: aceitar o vale maior, desde que o reajuste fosse revisto em 6 meses.\n\nA empresa aceitou. Os dois lados descreveram o resultado como um acordo honroso, isto é, um acordo em que ninguém sai humilhado. Um acordo honroso nem sempre deixa todos felizes, mas permite que a fábrica continue funcionando e que a conversa continue no ano seguinte.\n\nPerguntas:\nO que é um sindicato?\nÉ uma associação que representa os trabalhadores de uma categoria nas negociações com as empresas.\nQuando a escravidão foi abolida no Brasil?\nA escravidão foi abolida em 1888, pela Lei Áurea.\nO que a Constituição promulgada em 1988 diz sobre a filiação?\nEla diz que ninguém é obrigado a manter filiação a um sindicato.\nO que dizia o memorando da empresa?\nPropunha um reajuste de salário menor do que o pedido, mas com um vale-alimentação maior.\nQual é o papel da moderação numa assembleia?\nA moderação define a ordem das falas, controla o tempo e garante que todos sejam ouvidos.\nPor que o resultado foi chamado de acordo honroso?\nPorque foi um acordo em que nenhum dos lados saiu humilhado."
+    },
+    {
+      "title": "Um currículo que conta uma história",
+      "summary": "After an existential crisis at the peak of a banking career, a man rewrites his CV as a story that starts with his years as a scout, and lands a job in environmental education.",
+      "newWords": [
+        "ápice",
+        "existencial",
+        "escoteiro",
+        "colegial",
+        "tatuar",
+        "adotivo",
+        "conspirar",
+        "pose",
+        "ventura"
+      ],
+      "text": "Aos 31 anos, Tiago Moura estava no ápice da carreira num grande banco de Curitiba. Tinha um bom salário, uma sala com vista para a cidade e uma promoção prometida. Foi justamente no ápice que veio a dúvida. Numa segunda-feira comum, diante de uma planilha, ele se perguntou para que servia o que fazia. Não era cansaço nem preguiça; era uma crise existencial, dessas que não se resolvem com férias. A pergunta existencial ficou com ele durante meses.\n\nPara encontrar uma resposta, Tiago voltou à infância. Dos 10 aos 17 anos, tinha sido escoteiro. Com o grupo de escoteiros, aprendeu a montar barracas, a ler mapas e a cuidar de crianças menores nos acampamentos. No colegial, como muita gente ainda chamava o ensino médio, organizava mutirões para limpar o rio do bairro. Percebeu que as melhores lembranças da vida dele estavam ao ar livre, ensinando alguém.\n\nDecidiu, então, trabalhar com educação ambiental. O problema era o currículo. O antigo era uma lista de cargos e números do banco, que não dizia nada sobre o escoteiro nem sobre o rapaz do colegial. Uma amiga recrutadora sugeriu outro caminho: um currículo que contasse uma história. Não uma história inventada, mas uma linha clara que ligasse o passado ao futuro.\n\nO novo currículo começava com uma frase curta: \"Aprendi a liderar como escoteiro e a planejar como analista; quero unir as duas coisas na educação ambiental.\" Depois, cada experiência mostrava uma competência: no banco, gestão de projetos e de orçamento; nos escoteiros, liderança e paciência. Até o trabalho voluntário com o rio, no colegial, entrou no texto.\n\nHavia, porém, uma insegurança. Tiago tinha mandado tatuar uma bússola no braço, lembrança dos tempos de escoteiro, e temia que isso pesasse numa entrevista. A amiga o tranquilizou: hoje, um braço tatuado raramente assusta um recrutador, e numa organização ambiental ninguém se importaria. Ela também deu uma sugestão sobre a foto do perfil profissional: nada de pose forçada, de braços cruzados e sorriso rígido. A pose ideal, disse ela, é a que parece natural.\n\nDurante algumas semanas, tudo pareceu conspirar contra a mudança: a promoção no banco foi confirmada, os pais ficaram preocupados e as primeiras respostas foram negativas. Mas nada conspirava de verdade; eram apenas os obstáculos normais de qualquer mudança. No segundo mês, uma ONG que trabalha com escolas o chamou para uma entrevista. Na conversa, a coordenadora disse que o currículo dele tinha sido o único que ela leu até o fim.\n\nTiago nasceu em Londrina, mas considera Curitiba a sua cidade adotiva. É nos parques da cidade adotiva que ele hoje leva estudantes para conhecer a natureza. Ele diz que teve a ventura de descobrir cedo o que gostava de fazer, e a ventura ainda maior de voltar a isso.\n\nPerguntas:\nO que aconteceu com Tiago quando ele estava no ápice da carreira?\nEle teve uma crise existencial e se perguntou para que servia o que fazia.\nO que Tiago aprendeu como escoteiro?\nAprendeu a montar barracas, a ler mapas e a cuidar de crianças menores.\nO que ele fazia no colegial?\nEle organizava mutirões para limpar o rio do bairro.\nComo era o novo currículo de Tiago?\nEra um currículo que contava uma história, ligando o passado de escoteiro ao futuro na educação ambiental.\nQue conselho a amiga deu sobre a foto do perfil?\nEla disse que ele não devia fazer uma pose forçada, e sim uma pose que parecesse natural.\nPor que Curitiba é a cidade adotiva de Tiago?\nPorque ele nasceu em Londrina, mas escolheu viver em Curitiba."
+    },
+    {
+      "title": "Pastéis de feira",
+      "summary": "A mother and daughter who sell pastéis at a street market talk about their work, the vegetables they buy from an organic grower, Lent and the busy December weeks.",
+      "newWords": [
+        "pastel",
+        "duo",
+        "legume",
+        "larva",
+        "suíno",
+        "quaresma",
+        "rachar",
+        "banquete",
+        "festivo"
+      ],
+      "text": "Toda quarta-feira e todo domingo, às 6 da manhã, Lurdes e a filha, Camila, montam a barraca de pastel numa feira de rua de São Paulo. Há 18 anos elas trabalham juntas, e os clientes já as chamam de \"o duo do pastel\". O duo tem uma divisão clara: Lurdes prepara a massa e os recheios em casa, na véspera; Camila frita os pastéis, cuida do caixa e conversa com os clientes.\n\nO pastel de feira é um salgado de massa fina, frito na hora, que fica crocante e cheio de bolhas. Os sabores clássicos são carne, queijo e palmito, mas a barraca do duo ficou conhecida por um pastel de legumes. Os legumes vêm da barraca ao lado, de um agricultor chamado Osvaldo, que cultiva tudo sem agrotóxicos num sítio perto da cidade.\n\nOsvaldo gosta de explicar como combate as pragas sem veneno. Um dos seus métodos é usar joaninhas. A larva da joaninha come os pulgões, pequenos insetos que atacam as folhas. \"Cada larva come dezenas de pulgões por dia\", diz ele. Por isso, quando vê uma larva de joaninha na horta, ele a deixa trabalhar. Camila confessa que, no começo, achava estranho comprar legumes de alguém que fala de larvas com tanto carinho, mas hoje acha que esse cuidado se sente no sabor.\n\nO cardápio muda com o calendário. Um dos pastéis mais pedidos é o de pernil, carne suína temperada com alho e limão. Durante a quaresma, porém, as vendas de pastel de carne caem, porque muitos católicos evitam carne nas sextas-feiras desse período. Na quaresma, a carne suína quase não sai, e sobem os pedidos de bacalhau, de queijo e de legumes. Lurdes já sabe: na quaresma, prepara metade do recheio de carne e o dobro do de bacalhau.\n\nEntre os clientes fiéis há estudantes que costumam rachar um pastel grande e um caldo de cana. Rachar a conta, para eles, é questão de sobrevivência no fim do mês. Lurdes acha bonito ver os dois amigos dividindo tudo e, às vezes, coloca um pouco mais de recheio no pastel que eles vão rachar.\n\nPara muitos frequentadores, um pastel quente com caldo de cana gelado é um verdadeiro banquete. Não é um banquete de casamento, com mesa longa e garçons, mas um banquete simples, que se come em pé, ao lado da barraca. Em dezembro, a feira ganha um clima festivo: os feirantes penduram luzes, e o movimento quase dobra. Nesse período festivo, Camila e Lurdes chegam ainda mais cedo.\n\nQuando perguntam a Lurdes se ela pensa em parar, a resposta é sempre a mesma: enquanto houver feira, haverá pastel.\n\nPerguntas:\nPor que os clientes chamam Lurdes e Camila de \"o duo do pastel\"?\nPorque elas trabalham juntas na barraca de pastel há 18 anos.\nDe onde vêm os legumes do pastel de legumes?\nVêm da barraca ao lado, do agricultor Osvaldo, que cultiva tudo sem agrotóxicos.\nPor que Osvaldo deixa as larvas de joaninha na horta?\nPorque cada larva come dezenas de pulgões por dia.\nO que acontece com as vendas durante a quaresma?\nAs vendas de pastel de carne caem, e sobem os pedidos de bacalhau, de queijo e de legumes.\nO que os estudantes costumam rachar?\nEles costumam rachar um pastel grande e um caldo de cana.\nComo fica a feira em dezembro?\nA feira ganha um clima festivo, com luzes, e o movimento quase dobra."
+    },
+    {
+      "title": "Debaixo do asfalto",
+      "summary": "An urban archaeologist digs beside an old town hall before a construction project and finds tram rails, a silver-plated fork, a bone toothbrush and a religious medal.",
+      "newWords": [
+        "escavar",
+        "subsolo",
+        "paço",
+        "proclamação",
+        "bonde",
+        "prateado",
+        "garfo",
+        "dental",
+        "venerar",
+        "simpósio"
+      ],
+      "text": "Quando se pensa em arqueologia, a imagem mais comum é a de pirâmides no deserto. Mas a arqueóloga Marina Sales passa a maior parte do tempo no centro de cidades brasileiras, entre carros, ônibus e obras. Ela faz arqueologia preventiva: antes de uma grande obra, a lei exige que especialistas estudem o terreno, para que nada importante seja destruído. Por isso, antes que as máquinas cheguem, ela e a equipe vão escavar.\n\nNo último projeto, a prefeitura de uma cidade do interior de São Paulo ia construir um estacionamento subterrâneo ao lado do antigo paço municipal. O paço, como se chama o prédio da prefeitura em muitas cidades, foi erguido poucos anos depois da proclamação da República, em 1889. A proclamação mudou o regime do país, e muitas cidades quiseram, então, prédios públicos novos, que mostrassem os novos tempos. O paço daquela cidade era um desses prédios.\n\nA equipe de Marina começou a escavar com cuidado, camada por camada. O subsolo de uma cidade antiga funciona como um livro de páginas empilhadas: quanto mais fundo, mais antigo. Logo abaixo do asfalto apareceram os trilhos de ferro de um bonde. Durante décadas, o bonde elétrico levou os moradores do centro, em frente ao paço, até a estação de trem, até ser substituído pelos ônibus. Muita gente mais velha ainda se lembra do bonde, mas quase ninguém sabia que os trilhos continuavam ali, escondidos no subsolo.\n\nMais fundo, num antigo depósito de lixo do quintal de uma casa, surgiram objetos do dia a dia do século 19. Havia pratos quebrados, garrafas de vidro e um garfo prateado. Marina explica que o garfo não era de prata pura: era prateado, isto é, coberto por uma fina camada de prata, o que o tornava mais barato. \"Um garfo prateado diz muito sobre uma família que queria parecer mais rica do que era\", comenta. Também apareceu uma escova dental feita de osso. Antes do plástico, era comum fazer a escova dental com osso de boi e pelos de animais.\n\nO achado que mais emocionou a equipe foi uma pequena medalha religiosa, com a imagem de um santo muito venerado na região. A medalha mostra que os moradores veneravam aquele santo há mais de 100 anos, e que esse costume continua vivo nas festas da cidade.\n\nTodos os objetos foram limpos, fotografados e registrados. Meses depois, Marina apresentou os resultados num simpósio de arqueologia urbana, em que pesquisadores de vários estados discutiram como conciliar obras e patrimônio. No simpósio, ela defendeu uma ideia simples: uma cidade que conhece o próprio subsolo constrói melhor sobre ele. O estacionamento foi construído, e os objetos hoje estão expostos no próprio paço.\n\nPerguntas:\nO que faz uma arqueóloga que trabalha com arqueologia preventiva?\nEla estuda o terreno antes de uma grande obra, para que nada importante seja destruído.\nQuando o paço municipal foi construído?\nFoi construído poucos anos depois da proclamação da República, em 1889.\nPor que o subsolo de uma cidade antiga se parece com um livro?\nPorque tem camadas empilhadas: quanto mais fundo, mais antigo.\nO que a equipe encontrou logo abaixo do asfalto?\nEncontrou os trilhos de ferro de um bonde.\nQual é a diferença entre um garfo de prata e um garfo prateado?\nO garfo prateado não é de prata pura; é coberto por uma fina camada de prata.\nOnde Marina apresentou os resultados da escavação?\nEla apresentou os resultados num simpósio de arqueologia urbana."
+    },
+    {
+      "title": "O ator que treina médicos",
+      "summary": "A former comedy actor now works as a simulated patient at a medical school, helping students practise an allergy emergency and chest compressions.",
+      "newWords": [
+        "humorístico",
+        "ciumento",
+        "encenação",
+        "pedagogia",
+        "alérgico",
+        "compressão",
+        "bendito"
+      ],
+      "text": "Durante 10 anos, Rui Fontes trabalhou num programa humorístico de televisão. Fazia vários personagens, mas o mais famoso era um marido ciumento que desconfiava de tudo: do carteiro, do vizinho e até do papagaio da casa. O marido ciumento fazia o país rir aos domingos. Quando o programa humorístico acabou, Rui ficou alguns meses sem trabalho e sem saber o que fazer.\n\nFoi então que uma antiga colega de teatro o convidou para trabalhar numa faculdade de medicina, como paciente simulado. Rui não entendeu o convite. A colega explicou: muitas faculdades usam atores para representar pacientes, e os estudantes treinam com eles antes de atender pessoas reais. É uma encenação, mas uma encenação a serviço do ensino.\n\nEssa forma de ensinar tem nome e método. A pedagogia da simulação parte de uma ideia simples: aprende-se melhor fazendo, num ambiente seguro, onde o erro não machuca ninguém. Uma professora da faculdade, especialista em pedagogia médica, explicou a Rui que cada simulação tem 3 partes: a preparação, a cena e a conversa final, em que os estudantes analisam o que fizeram.\n\nNuma das primeiras cenas, Rui fez o papel de um homem alérgico a camarão. Segundo o roteiro, ele tinha comido num restaurante sem saber que o prato levava camarão e chegava ao pronto-socorro com o rosto inchado e dificuldade para respirar. Os estudantes precisavam perceber que se tratava de uma reação alérgica grave e agir rápido. Rui seguia o roteiro com precisão: respirava cada vez pior, ficava ansioso e repetia que era alérgico. Um estudante perguntou primeiro sobre o histórico do paciente, e só depois tratou a reação. Na conversa final, a turma discutiu essa ordem, e todos concluíram que, numa reação grave, o tratamento não pode esperar.\n\nEm outra simulação, Rui não precisava atuar: ficava ao lado de um boneco, fazendo o papel do filho desesperado de um paciente que tinha desmaiado. Os estudantes treinavam a massagem cardíaca no boneco. A professora explicava que cada compressão no peito deve ser firme e rápida, num ritmo de 100 a 120 compressões por minuto. Enquanto isso, Rui gritava e fazia perguntas, como fazem os parentes de verdade, para que os estudantes aprendessem a manter a calma.\n\nRui diz que o teatro o preparou bem para esse trabalho. Saber ouvir, reagir na hora e não sair do personagem são habilidades de ator. A diferença é que, agora, o público não ri: aprende. \"Bendita a hora em que aceitei o convite\", diz ele. Ele ainda sente saudade do marido ciumento, mas fica feliz quando um ex-aluno, já formado, conta que se lembrou de uma simulação ao atender um paciente real. Bendito trabalho, pensa Rui, que transforma uma encenação em cuidado.\n\nPerguntas:\nQue personagem fez Rui ficar famoso no programa humorístico?\nO personagem de um marido ciumento que desconfiava de tudo.\nO que faz um paciente simulado?\nÉ um ator que representa um paciente para que os estudantes treinem antes de atender pessoas reais.\nQual é a ideia principal da pedagogia da simulação?\nA ideia é que se aprende melhor fazendo, num ambiente seguro, onde o erro não machuca ninguém.\nQue papel Rui fez numa das primeiras cenas?\nEle fez o papel de um homem alérgico a camarão, com o rosto inchado e dificuldade para respirar.\nEm que ritmo deve ser feita cada compressão no peito?\nNum ritmo de 100 a 120 compressões por minuto.\nPor que Rui diz que o teatro o preparou bem para esse trabalho?\nPorque saber ouvir, reagir na hora e não sair do personagem são habilidades de ator."
+    }
+  ]
+}
