@@ -1404,6 +1404,12 @@ DISPLAY = {
 
 # Found after the Greek final-sigma fix brought in wordfreq's counts.
 OVERRIDES["el"]["κάνεις"] = ["κάνω"]
+# Romanian nouns in -ă the dictionary also lists as verbs in -a ("a pagina"), whose articled form
+# ("pagina") is far more common than the bare noun and so headed the line.
+for _articled in ("mașina", "pagina", "oferta", "suma", "grupa", "litera", "structura", "cifra", "masca", "taxa", "factura", "norma", "gara", "sămânța", "cota", "axa", "flota", "ancheta"):
+    OVERRIDES["ro"][_articled] = [_articled[:-1] + "ă"]
+    OVERRIDES["ro"].setdefault(_articled[:-1] + "ă", [_articled[:-1] + "ă"])
+
 # Portuguese's later additions apply on top of its first set.
 OVERRIDES["pt"] = {**PORTUGUESE_OVERRIDES["pt"], **OVERRIDES.get("pt", {})}
 EXCLUDE["pt"] = PORTUGUESE_EXCLUDE["pt"] | EXCLUDE.get("pt", set())

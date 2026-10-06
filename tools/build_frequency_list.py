@@ -112,6 +112,13 @@ def english_share(form):
     return wordfreq.word_frequency(form, "en")
 
 
+def normalise(language, form):
+    """A form as the reader writes it: Romanian text has ş, ţ turned into ș, ț."""
+    if language == "ro":
+        return form.replace("ş", "ș").replace("ţ", "ț")
+    return form
+
+
 def eszett_spellings(form):
     """The spellings of a form with ss written as ß: every ss at once, and each one alone."""
     spots = [i for i in range(len(form) - 1) if form[i:i + 2] == "ss"]
@@ -272,7 +279,7 @@ def build(language, source, size):
     for _, counts, _ in found:
         total = sum(counts.values())
         for w, c in counts.items():
-            freq[w] += c / total / len(found)
+            freq[normalise(language, w)] += c / total / len(found)
     label = " + ".join(f"{label} ({SOURCE_LICENCES[name]})" for name, _, label in found)
     pos, lemmas, common = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
@@ -373,6 +380,12 @@ def build(language, source, size):
         if language == "de":
             # wordfreq writes ß as ss ("weisst"); texts write "weißt", which the dictionary knows.
             counted = list(dict.fromkeys(counted + [v for f in counted for v in eszett_spellings(f) if v in lemmas or v in pos]))
+        if language in ("ru", "be"):
+            # Most texts write ё as е ("идет" for "идёт").
+            counted = list(dict.fromkeys(counted + [f.replace("ё", "е") for f in counted if "ё" in f]))
+        if language == "be":
+            # A word starts with ў after a vowel ("і ўсе") and with у elsewhere.
+            counted = list(dict.fromkeys(counted + [{"у": "ў", "ў": "у"}[f[0]] + f[1:] for f in counted if f[:1] in ("у", "ў")]))
         lines.append((common.get(word) or guessed.get(word) or word) + "\t" + " ".join(counted))
     return "\n".join(lines) + "\n", label
 
