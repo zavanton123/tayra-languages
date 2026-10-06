@@ -1,0 +1,59 @@
+-- Courses the reader makes, for a language of theirs.
+CREATE TABLE user_courses (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL DEFAULT '',
+    level TEXT NOT NULL,
+    topic TEXT NOT NULL DEFAULT '',
+    created_at INTEGER NOT NULL
+);
+
+-- Their lessons, in order by position.
+CREATE TABLE user_lessons (
+    id TEXT NOT NULL PRIMARY KEY,
+    course_id TEXT NOT NULL REFERENCES user_courses(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    summary TEXT NOT NULL DEFAULT '',
+    text TEXT NOT NULL,
+    position INTEGER NOT NULL
+);
+
+CREATE INDEX user_lessons_course ON user_lessons(course_id, position);
+
+selectCourses:
+SELECT * FROM user_courses WHERE language_id = :languageId ORDER BY created_at, id;
+
+selectCourse:
+SELECT * FROM user_courses WHERE id = :id;
+
+selectLessons:
+SELECT * FROM user_lessons WHERE course_id IN :courseIds ORDER BY course_id, position;
+
+selectLesson:
+SELECT * FROM user_lessons WHERE id = :id;
+
+insertCourse:
+INSERT INTO user_courses(id, language_id, title, description, level, topic, created_at)
+VALUES (:id, :languageId, :title, :description, :level, :topic, :createdAt);
+
+updateCourse:
+UPDATE user_courses SET title = :title, description = :description, level = :level, topic = :topic WHERE id = :id;
+
+deleteCourse:
+DELETE FROM user_courses WHERE id = :id;
+
+nextPosition:
+SELECT COALESCE(MAX(position), -1) + 1 FROM user_lessons WHERE course_id = :courseId;
+
+insertLesson:
+INSERT INTO user_lessons(id, course_id, title, summary, text, position) VALUES (:id, :courseId, :title, :summary, :text, :position);
+
+updateLesson:
+UPDATE user_lessons SET title = :title, summary = :summary, text = :text WHERE id = :id;
+
+deleteLesson:
+DELETE FROM user_lessons WHERE id = :id;
+
+setPosition:
+UPDATE user_lessons SET position = :position WHERE id = :id;

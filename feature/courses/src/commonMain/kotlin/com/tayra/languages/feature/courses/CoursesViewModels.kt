@@ -74,6 +74,9 @@ data class CourseUiState(val loading: Boolean = true, val progress: CourseProgre
 sealed interface CourseEvent {
     /** The lesson's text is ready to read. */
     data class Read(val bookId: Long) : CourseEvent
+
+    /** The course was deleted. */
+    data object Deleted : CourseEvent
 }
 
 /** One course with its lessons. */
@@ -98,6 +101,27 @@ class CourseViewModel(private val courseId: String, private val service: CourseS
             }
             if (bookId == null) _state.update { it.copy(error = "This course's language is not set up in the app.") }
             else events.send(CourseEvent.Read(bookId))
+        }
+    }
+
+    // Changing one of the reader's own courses.
+
+    fun deleteCourse() = change {
+        service.deleteCourse(courseId)
+        events.send(CourseEvent.Deleted)
+    }
+
+    fun deleteLesson(lessonId: String) = change { service.deleteLesson(courseId, lessonId) }
+
+    fun moveLesson(lessonId: String, by: Int) = change { service.moveLesson(courseId, lessonId, by) }
+
+    private fun change(block: suspend () -> Unit) {
+        viewModelScope.launch {
+            try {
+                block()
+            } catch (e: Exception) {
+                _state.update { it.copy(error = e.message ?: "Could not change the course") }
+            }
         }
     }
 }

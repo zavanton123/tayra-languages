@@ -1,0 +1,22 @@
+-- Courses the reader makes, for a language of theirs.
+CREATE TABLE IF NOT EXISTS user_courses (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL DEFAULT '',
+    level TEXT NOT NULL,
+    topic TEXT NOT NULL DEFAULT '',
+    created_at INTEGER NOT NULL
+);
+
+-- Their lessons, in order by position.
+CREATE TABLE IF NOT EXISTS user_lessons (
+    id TEXT NOT NULL PRIMARY KEY,
+    course_id TEXT NOT NULL REFERENCES user_courses(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    summary TEXT NOT NULL DEFAULT '',
+    text TEXT NOT NULL,
+    position INTEGER NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS user_lessons_course ON user_lessons(course_id, position);

@@ -59,6 +59,20 @@ sealed interface Route {
     /** A course and its lessons. */
     @Serializable
     data class Course(val courseId: String) : Route
+
+    /** A new course of the reader's own, for the language being learned. */
+    @Serializable
+    data object NewCourse : Route
+
+    @Serializable
+    data class EditCourse(val courseId: String) : Route
+
+    /** A new lesson at the end of one of the reader's courses. */
+    @Serializable
+    data class NewLesson(val courseId: String) : Route
+
+    @Serializable
+    data class EditLesson(val courseId: String, val lessonId: String) : Route
     /** Reviewing the flashcards of the language being learned. */
     @Serializable
     data object Flashcards : Route

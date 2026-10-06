@@ -5,6 +5,7 @@ import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
+import com.tayra.languages.core.data.repository.UserCourseRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.domain.courses.BuiltInCourses
 import com.tayra.languages.core.domain.courses.CourseLevel
@@ -34,7 +35,7 @@ class CourseServiceTest {
     private val terms = TermRepositoryImpl(provider)
     private val bookService = BookService(books, languages)
     private val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages))
-    private val service = CourseService(BuiltInCourses(), books, languages, bookService)
+    private val service = CourseService(BuiltInCourses(), books, languages, bookService, UserCourseRepositoryImpl(provider))
 
     @Test
     fun theBuiltInCoursesAreWellFormed() {
@@ -111,7 +112,7 @@ class CourseServiceTest {
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
         val upgradedBooks = BookRepositoryImpl(reopened)
         val upgradedLanguages = LanguageRepositoryImpl(reopened)
-        val upgraded = CourseService(BuiltInCourses(), upgradedBooks, upgradedLanguages, BookService(upgradedBooks, upgradedLanguages))
+        val upgraded = CourseService(BuiltInCourses(), upgradedBooks, upgradedLanguages, BookService(upgradedBooks, upgradedLanguages), UserCourseRepositoryImpl(reopened))
         assertNotNull(upgraded.openLesson("pt-primeiros-passos", "pt-primeiros-passos-1"))
         assertEquals(3, upgraded.observeCourses(portuguese).first().size)
     }
