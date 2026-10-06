@@ -1,0 +1,197 @@
+{
+  "id": "pt-mini-9500",
+  "rankUpTo": 9500,
+  "level": "C2",
+  "title": "Urbanismo e espaço público",
+  "description": "Explanations, crônicas, a report and an essay on public space: how a square is designed, Curitiba's bus corridors, Brasília's superquadras, Seoul's restored stream, trees and shade, Copacabana's promenade, a bike-lane hearing, who the street belongs to, a riverside park and Rio's Quinta da Boa Vista.",
+  "topic": "Urbanism and public space",
+  "names": [
+    "Brasil",
+    "Europa",
+    "Curitiba",
+    "Jaime",
+    "Lerner",
+    "Bogotá",
+    "Colômbia",
+    "Brasília",
+    "Lúcio",
+    "Costa",
+    "Asmara",
+    "Unesco",
+    "Seul",
+    "Coreia",
+    "Han",
+    "Cheonggyecheon",
+    "Cuiabá",
+    "Helena",
+    "Batista",
+    "Copacabana",
+    "Lisboa",
+    "Rossio",
+    "Roberto",
+    "Burle",
+    "Marx",
+    "Londres",
+    "Estocolmo",
+    "Tiago",
+    "Moreira",
+    "Clara",
+    "Cristóvão",
+    "Auguste",
+    "Glaziou",
+    "Bendegó",
+    "Bahia"
+  ],
+  "lessons": [
+    {
+      "title": "Como se desenha uma praça",
+      "summary": "An urbanist explains, step by step, how a good square is observed, furnished, lit, paved and adjusted after it opens.",
+      "newWords": [
+        "congregar",
+        "ibero",
+        "sabre",
+        "piedoso",
+        "caramelo",
+        "mobília",
+        "lux",
+        "estria",
+        "retocar",
+        "girassol"
+      ],
+      "text": "Quem atravessa uma boa praça raramente pensa que ela foi desenhada. Na verdade, cada detalhe foi decidido por alguém, quase sempre com o mesmo objetivo: congregar pessoas. Uma praça que não congrega ninguém é apenas um espaço vazio entre prédios.\n\nA tradição vem de longe. Nas cidades ibero-americanas, fundadas por portugueses e espanhóis, a praça principal costumava ficar diante da igreja matriz, e as ruas partiam dela. Ali se faziam a feira, as procissões e os anúncios do governo. Muitas cidades do interior do Brasil ainda guardam esse desenho de origem ibero-americana: a igreja de um lado, a prefeitura do outro e, no meio, a estátua de algum herói local, muitas vezes um general a cavalo, com o sabre erguido.\n\nO urbanista começa observando. Antes de propor qualquer mudança, ele passa dias na praça, em horários diferentes, e anota quem chega, por onde entra e onde fica mais tempo. Às 7 da manhã, as senhoras piedosas saem da missa e atravessam em linha reta até a padaria. Às 10, um vira-lata caramelo dorme à sombra da estátua, logo abaixo do sabre do general. À tarde chegam as crianças da escola; à noite, os casais e os grupos de amigos. Cada grupo usa a praça de um jeito, e o projeto precisa servir a todos, das senhoras piedosas ao cachorro caramelo, que o bairro inteiro alimenta.\n\nDepois vem a mobília urbana: bancos, lixeiras, postes. A regra mais simples é também a mais esquecida: as pessoas gostam de sentar onde podem ver o movimento, de preferência com as costas protegidas. Por isso a melhor mobília costuma ficar nas bordas, voltada para o centro, e não espalhada ao acaso.\n\nA luz é outro capítulo. Uma praça escura à noite deixa de congregar e passa a afastar. Os projetos medem a iluminação em lux, a unidade que indica quanta luz chega a uma superfície. Um caminho de pedestres costuma receber de 10 a 20 lux à noite; a luz do dia, mesmo com o céu nublado, passa facilmente de 1.000 lux. Mais importante do que o número, porém, é que a luz seja uniforme, sem cantos escuros.\n\nHá ainda o chão. O piso tátil guia as pessoas cegas, que o sentem com a ponta da bengala: as estrias em relevo indicam a direção a seguir, e os pontos avisam que há um obstáculo.\n\nPor fim, um bom projeto aceita ser retocado. Ninguém acerta tudo de primeira. Depois da inauguração, o urbanista volta e retoca o que não funcionou: muda um banco de lugar, planta árvores onde falta sombra. Às vezes, o retoque mais feliz é o mais modesto: um canteiro de girassóis no lugar de um canto abandonado. Os girassóis, que se voltam para o sol, acabam virando o fundo preferido das fotografias.\n\nPerguntas:\nQual é o principal objetivo de quem desenha uma praça?\nO objetivo é congregar pessoas; uma praça que não congrega ninguém é apenas um espaço vazio entre prédios.\nComo era a praça principal nas cidades ibero-americanas?\nEla ficava diante da igreja matriz, as ruas partiam dela, e ali se faziam a feira, as procissões e os anúncios do governo.\nOnde costuma ficar a melhor mobília urbana, e por quê?\nFica nas bordas, voltada para o centro, porque as pessoas gostam de ver o movimento com as costas protegidas.\nPara que servem as estrias do piso tátil?\nElas guiam as pessoas cegas e indicam a direção a seguir.\nQual pode ser o retoque mais feliz de um projeto?\nPode ser o mais modesto, como um canteiro de girassóis no lugar de um canto abandonado."
+    },
+    {
+      "title": "Os corredores de ônibus de Curitiba",
+      "summary": "An explanation of how Curitiba tied its express bus corridors to land-use rules, and what its tube stations changed.",
+      "newWords": [
+        "locomoção",
+        "ordenamento",
+        "concretamente",
+        "geograficamente",
+        "cobrador",
+        "inacessível",
+        "deformar",
+        "rastreador",
+        "sistemático"
+      ],
+      "text": "Quem chega a Curitiba pela primeira vez costuma estranhar as estações de ônibus: grandes tubos de vidro e metal que lembram um cenário de ficção científica. Os tubos são a parte mais visível de um sistema que começou a ser pensado nos anos 1960 e que mudou a maneira como o mundo discute a locomoção nas cidades.\n\nA ideia central é fácil de resumir. Em vez de construir linhas de metrô, bem mais caras, a cidade daria aos ônibus algumas vantagens do metrô: pistas exclusivas, embarque rápido e paradas regulares. Em 1974, na gestão do prefeito Jaime Lerner, entrou em operação o primeiro eixo, ligando o norte ao sul da cidade. No meio de cada eixo corre uma pista só para os ônibus expressos, com pistas para os carros dos dois lados.\n\nO mais interessante, porém, é o que foi construído ao lado do asfalto. O plano diretor da cidade associou o transporte ao ordenamento do uso do solo. Ao longo dos eixos, a lei permitiu prédios mais altos e mais comércio; longe deles, as construções deviam ser mais baixas. Esse ordenamento concentrou moradores e empregos justamente onde passa o ônibus. Concretamente, muita gente pode sair de casa, andar poucos minutos e tomar um expresso. Geograficamente, a cidade cresceu ao longo de linhas retas que partem do centro, e não como uma mancha que se espalha em todas as direções. Uma cidade que cresce assim, geograficamente organizada, facilita a locomoção de quem não tem carro.\n\nOs tubos chegaram em 1991. Neles, o passageiro paga a passagem antes de embarcar. Durante décadas, na entrada de cada tubo, um cobrador recebia o dinheiro; assim, ninguém precisava pagar dentro do ônibus. Concretamente, cada parada ficou mais curta. Além disso, o piso do tubo fica na mesma altura do piso do ônibus. Antes, para quem usava cadeira de rodas, os ônibus de degraus altos eram inacessíveis. Os tubos ganharam ainda um elevador na entrada, para que nenhuma estação fosse inacessível.\n\nUm sistema assim exige cuidados sistemáticos. O peso dos ônibus deforma o asfalto com o tempo, sobretudo nas paradas, onde os veículos freiam e arrancam; por isso, muitos corredores de ônibus pelo mundo usam placas de concreto nas paradas, que se deformam menos. Hoje, cada veículo leva um rastreador, e os dados do rastreador mostram, minuto a minuto, onde está cada ônibus.\n\nO modelo inspirou dezenas de cidades, entre elas Bogotá, na Colômbia. Tem também os seus problemas: os ônibus andam lotados nos horários de pico, e a região metropolitana cresceu muito além dos eixos originais. Ainda assim, os esforços sistemáticos de Curitiba deixaram uma lição que hoje parece óbvia: o transporte e o desenho da cidade precisam ser planejados juntos.\n\nPerguntas:\nQual era a ideia central do sistema de Curitiba?\nEra dar aos ônibus vantagens do metrô, como pistas exclusivas e embarque rápido, sem o custo de um metrô.\nComo o transporte foi associado ao ordenamento do uso do solo?\nA lei permitiu prédios mais altos e mais comércio ao longo dos eixos, e construções mais baixas longe deles.\nO que fazia o cobrador na entrada dos tubos?\nEle recebia o dinheiro da passagem antes do embarque, para que o ônibus não precisasse esperar.\nPor que os tubos ajudaram quem usa cadeira de rodas?\nPorque o piso do tubo fica na altura do ônibus e há elevador na entrada; os ônibus de degraus altos eram inacessíveis.\nPor que muitos corredores usam placas de concreto nas paradas?\nPorque o peso dos ônibus deforma o asfalto, e o concreto se deforma menos."
+    },
+    {
+      "title": "Crescer numa superquadra",
+      "summary": "A woman who grew up in Brasília describes the superquadra, the ideas behind it and what did not come true.",
+      "newWords": [
+        "deliberado",
+        "refeitório",
+        "igualitário",
+        "repartir",
+        "objetividade",
+        "instauração",
+        "eritreu"
+      ],
+      "text": "Cresci na Asa Sul de Brasília, numa superquadra, e só entendi o que isso significava quando, já adulta, me mudei para outra cidade, onde os prédios encostam na calçada.\n\nA superquadra é a unidade básica do plano de Lúcio Costa para a nova capital, inaugurada em 1960. Cada uma é um quadrado de cerca de 280 metros de lado, cercado por uma faixa larga de árvores, com entrada para carros por um único lado. Lá dentro, os prédios de apartamentos têm, em geral, 6 andares e ficam apoiados em colunas, de modo que o térreo fica livre. Era por baixo dos prédios que eu atravessava a quadra inteira, a pé, sem cruzar uma rua, para chegar à escola.\n\nNada disso foi acaso; tudo foi deliberado: a altura igual dos prédios, o verde em volta, o comércio local numa faixa entre duas quadras. Cada grupo de 4 superquadras forma uma unidade de vizinhança, com escola, igreja, cinema e clube. Na minha infância, tínhamos aula de manhã na escola-classe, perto de casa; à tarde, íamos para a escola-parque, onde havia música, artes e esportes, e um refeitório enorme em que almoçavam centenas de crianças de várias quadras. Foi no refeitório que fiz amigos de outras quadras.\n\nPor trás desse desenho havia uma ideia igualitária. Lúcio Costa esperava que famílias de rendas diferentes vivessem perto umas das outras, repartindo os mesmos jardins, a mesma escola e o mesmo comércio. A cidade seria igualitária não por decreto, mas pelo próprio espaço, que todos teriam de repartir.\n\nCom objetividade, é preciso reconhecer que o sonho não se realizou como se esperava. Os apartamentos do Plano Piloto ficaram caros, e a maioria dos trabalhadores que construíram a capital acabou morando em cidades-satélites, longe do centro. A instauração da nova capital trouxe também a instauração de uma distância: entre quem mora nas superquadras e quem passa horas no ônibus para chegar até elas. Os críticos lembram ainda que, fora das quadras, as distâncias são grandes e a cidade foi feita para o carro.\n\nA mesma objetividade obriga a registrar o outro lado. Em 1987, Brasília foi declarada Patrimônio da Humanidade pela Unesco, como exemplo raro de uma cidade moderna planejada de uma só vez. Em 2017, a Unesco reconheceu também Asmara, a capital da Eritreia, cujos prédios modernos foram construídos em grande parte por arquitetos italianos nos anos 1930. Os eritreus, como os brasilienses, aprenderam a morar dentro de um patrimônio. Há, porém, uma diferença: a capital eritreia cresceu ao longo de décadas, enquanto Brasília foi uma escolha deliberada, desenhada de uma vez, no papel.\n\nQuando volto à minha quadra, vejo as mesmas árvores, agora enormes, e as crianças ainda atravessam por baixo dos prédios. Talvez o plano não tenha criado a cidade igualitária que prometia; mas criou, pelo menos, um lugar em que dá para ir a pé até a escola.\n\nPerguntas:\nOnde a narradora fez amigos de outras quadras?\nEla fez amigos no refeitório da escola-parque, onde almoçavam crianças de várias quadras.\nQual era a ideia igualitária por trás do desenho?\nLúcio Costa esperava que famílias de rendas diferentes vivessem perto umas das outras, repartindo os mesmos jardins, a mesma escola e o mesmo comércio.\nPor que o sonho não se realizou como se esperava?\nPorque os apartamentos ficaram caros e a maioria dos trabalhadores foi morar em cidades-satélites, longe do centro.\nQue diferença há entre Brasília e a capital eritreia?\nAsmara cresceu ao longo de décadas, enquanto Brasília foi uma escolha deliberada, desenhada de uma vez."
+    },
+    {
+      "title": "O riacho que voltou ao centro de Seul",
+      "summary": "A report on how Seoul tore down an elevated expressway and brought a buried stream back, with its gains and its critics.",
+      "newWords": [
+        "inspecionar",
+        "alçar",
+        "tubulação",
+        "purificação",
+        "flutuação",
+        "imprevisto",
+        "decrescente",
+        "conclusivo",
+        "ancorar"
+      ],
+      "text": "Durante mais de 30 anos, quem passava pelo centro de Seul, na Coreia do Sul, não enxergava água nenhuma, só um enorme elevado, apoiado em pilares de concreto. Embaixo dele, coberto por uma laje, corria o que restava do Cheonggyecheon, um riacho que atravessava a cidade havia séculos.\n\nO riacho tinha sido coberto aos poucos, a partir dos anos 1950, quando a cidade crescia depressa e as suas margens estavam ocupadas por moradias precárias. Por cima da laje, entre os anos 1960 e 1970, ergueu-se o elevado. Na época, ele foi visto como um símbolo de progresso.\n\nNos anos 1990, os engenheiros encarregados de inspecionar a estrutura encontraram concreto rachado e partes de ferro gastas. Consertar tudo sairia caríssimo. Ganhou força, então, uma proposta que parecia exagerada: em vez de reformar o elevado, demoli-lo e trazer o riacho de volta. O prefeito eleito em 2002 fez da ideia a sua principal promessa, e as obras começaram em 2003. Em 2005, o novo parque, com quase 6 quilômetros de margens, foi aberto ao público. O sucesso da obra alçou Seul à condição de exemplo citado no mundo inteiro e ajudou a alçar o então prefeito à Presidência do país, para a qual ele foi eleito em 2007.\n\nHavia um problema prático: o riacho original estava quase seco. Hoje, a maior parte da água vem do rio Han, por uma tubulação de vários quilômetros, e passa por um processo de purificação antes de correr pelo leito; uma parte vem de águas subterrâneas. É graças à purificação que as crianças podem pôr os pés na água. Nas chuvas fortes do verão, o nível sobe muito, e o leito foi desenhado para suportar essa flutuação; quando a flutuação é grande demais, o parque é fechado por segurança.\n\nOs críticos temiam o pior para o trânsito: sem o elevado, o centro ia parar. O imprevisto foi o contrário. Com a reforma do sistema de ônibus, que ganhou faixas exclusivas em 2004, e com parte dos motoristas deixando o carro em casa, o caos anunciado não veio. Segundo a prefeitura, o número de carros que entravam no centro seguiu uma curva decrescente nos anos seguintes.\n\nOs estudos feitos depois mostraram outros efeitos. Nos dias quentes, a temperatura junto ao riacho ficou alguns graus mais baixa do que em ruas próximas, e voltaram peixes, aves e insetos. Nem todos os resultados, porém, são conclusivos. Muitos comerciantes que trabalhavam sob o elevado foram transferidos para outras áreas e reclamaram de prejuízos. Os preços dos imóveis subiram. E há quem diga que um riacho alimentado por bombas é mais uma grande fonte artificial do que um rio de verdade, com um custo de manutenção alto.\n\nAinda assim, o caso de Seul virou referência no debate urbano, como um argumento ancorado num exemplo real: uma via expressa não precisa ser eterna. Talvez a conclusão mais segura seja modesta: os dados não são conclusivos sobre tudo, mas a decisão, ancorada numa inspeção técnica e numa escolha política, mostrou que uma cidade pode mudar de ideia.\n\nPerguntas:\nO que havia sobre o riacho no centro de Seul antes de 2003?\nHavia um enorme elevado sobre a laje que cobria o riacho.\nO que os engenheiros encontraram ao inspecionar a estrutura?\nEncontraram concreto rachado e partes de ferro gastas, e consertar tudo sairia caríssimo.\nDe onde vem hoje a água do riacho?\nA maior parte vem do rio Han, por uma tubulação, e passa por purificação.\nQual foi o imprevisto em relação ao trânsito?\nO caos anunciado não veio, e o número de carros que entravam no centro seguiu uma curva decrescente."
+    },
+    {
+      "title": "A sombra que a cidade esqueceu",
+      "summary": "A forest engineer in Cuiabá measures heat, explains how trees cool the street, and scans a trunk to decide how to prune it.",
+      "newWords": [
+        "metabólico",
+        "náuseas",
+        "orifício",
+        "sedento",
+        "debilitado",
+        "tomografia",
+        "podar",
+        "decapitar",
+        "clemente"
+      ],
+      "text": "Às 2 da tarde de um dia de outubro, a engenheira florestal Helena Batista aponta um pequeno aparelho para o asfalto de uma rua sem árvores, em Cuiabá. O aparelho mede a temperatura das superfícies e marca 58 graus. Ela atravessa a rua e aponta para a calçada que fica sob uma mangueira. O número cai para 31. \"É a mesma rua e o mesmo sol\", diz. \"A diferença é a árvore.\"\n\nHelena trabalha há 15 anos com as árvores da cidade. Ela explica que uma árvore refresca a rua de 2 maneiras. A primeira é óbvia: a copa faz sombra e impede que o sol bata direto no chão e nas paredes. A segunda é menos visível: pelas folhas, a árvore libera água no ar, e a água, ao virar vapor, consome calor, como o suor que seca na nossa pele.\n\nO corpo humano, lembra ela, também produz calor por dentro. Mesmo parados, geramos calor com a atividade metabólica, e o corpo precisa se livrar dele. Quando o ar está muito quente e não há sombra, essa troca fica difícil. Os sinais de alerta são conhecidos: cansaço, dor de cabeça e náuseas. Idosos e crianças sentem as náuseas e o cansaço mais cedo, porque o organismo deles controla pior o calor produzido pela atividade metabólica.\n\nMas uma árvore urbana vive em condições duras. As raízes ficam presas num pequeno orifício aberto na calçada. Por esse orifício entram a chuva e o ar de que as raízes precisam. Quando o orifício é coberto de cimento, a árvore fica sedenta, mesmo numa cidade de chuvas fortes. Uma árvore sedenta fica debilitada, e uma árvore debilitada cai com mais facilidade nos temporais.\n\nA parte do trabalho de que Helena mais gosta é a tomografia. Assim como um médico examina um paciente, ela prende pequenos sensores em volta do tronco e faz o som atravessar a madeira. Onde a madeira está sã, o som passa depressa; onde há partes vazias ou podres, ele se atrasa. Um programa de computador transforma essas medições numa imagem do interior do tronco. Com a tomografia, ela pode dizer se a árvore precisa ser retirada ou se basta podar alguns galhos.\n\nPodar, aliás, é o assunto que mais a irrita. Muitas árvores são podadas de maneira errada, para liberar fios elétricos ou fachadas de lojas. Num corte drástico, tiram-se quase todos os galhos, e a árvore fica reduzida ao tronco. \"Isso não é podar, é decapitar\", diz ela. Uma árvore decapitada perde as folhas de que precisa para se alimentar e fica debilitada, sujeita a doenças. Em muitas cidades brasileiras, decapitar uma árvore na calçada sem autorização é proibido.\n\nNo fim da tarde, quando o sol fica mais clemente, Helena guarda o aparelho. \"Ninguém escolhe o clima da cidade onde vive\", diz. \"Mas podemos torná-lo mais clemente, rua por rua.\"\n\nPerguntas:\nDe que 2 maneiras uma árvore refresca a rua?\nA copa faz sombra, e as folhas liberam água no ar, que consome calor ao virar vapor.\nO que acontece quando o orifício da calçada é coberto de cimento?\nA árvore fica sedenta, depois debilitada, e pode cair com mais facilidade nos temporais.\nPara que serve a tomografia de uma árvore?\nEla mostra o interior do tronco e ajuda a decidir se a árvore deve ser retirada ou se basta podar alguns galhos.\nPor que Helena diz que certos cortes não são podar, mas decapitar?\nPorque tiram quase todos os galhos e deixam a árvore reduzida ao tronco."
+    },
+    {
+      "title": "As ondas do calçadão",
+      "summary": "Over coffee at a Copacabana kiosk, the narrator tells where the wave pavement came from and how the promenade lives through the year.",
+      "newWords": [
+        "torrada",
+        "cafeína",
+        "certeiro",
+        "calcanhar",
+        "esporádico",
+        "ofertar",
+        "natalino"
+      ],
+      "text": "Toda manhã, antes do trabalho, tomo um café num quiosque de Copacabana, na Avenida Atlântica. Peço sempre a mesma coisa: um café forte e uma torrada com manteiga. Enquanto espero a cafeína fazer efeito, olho para o chão, para as ondas pretas e brancas do calçadão, que já foram fotografadas por milhões de turistas e que, no entanto, poucos sabem de onde vieram.\n\nO desenho nasceu do outro lado do oceano. Em meados do século 19, em Lisboa, a praça do Rossio recebeu um calçamento de pedras pequenas, brancas e pretas, que formava ondas e ganhou o nome de Mar Largo. A técnica, a famosa pedra portuguesa, atravessou o Atlântico e se espalhou por várias cidades brasileiras. Quando a Avenida Atlântica foi aberta, em 1906, as ondas foram assentadas na calçada da praia, mas perpendiculares ao mar.\n\nEntre o fim dos anos 1960 e o começo dos anos 1970, a praia foi alargada com areia retirada do fundo do mar, e a avenida ganhou mais pistas. O paisagista Roberto Burle Marx foi chamado para desenhar o novo calçadão. A escolha foi certeira. Ele manteve as ondas, mas as virou: agora elas correm paralelas à praia, como se repetissem o movimento da água. No canteiro central e na calçada dos prédios, desenhou grandes figuras abstratas, que só se veem por inteiro do alto. Foi um gesto certeiro, porque juntou uma tradição antiga a uma linguagem moderna.\n\nO calçadão é bonito, mas não é fácil de cuidar. As pedras se soltam, e cada buraco é uma armadilha para quem anda distraído. Quem já torceu o pé ali conhece a sensação: o calcanhar afunda num buraco que não existia na véspera. Os sapatos de salto fino sofrem ainda mais, porque o salto, logo abaixo do calcanhar, entra entre as pedras. Os consertos acontecem, mas são esporádicos e costumam aparecer apenas quando o buraco já cresceu. Moradores reclamam que a manutenção deveria ser constante, e não esporádica.\n\nAo longo do dia, o calçadão vira um mercado em movimento. Os vendedores circulam ofertando água de coco, chapéus, óculos e cadeiras de praia. Uns ofertam os produtos aos gritos; outros, em silêncio, apenas com a mercadoria erguida.\n\nO calçadão também muda com o calendário. Em dezembro, os postes recebem a decoração natalina, e os quiosques penduram luzes coloridas. O clima natalino dura pouco, porque logo vem a festa de Ano-Novo, quando milhões de pessoas vestidas de branco ocupam a areia e as ondas de pedra desaparecem sob tantos pés.\n\nTermino o café, como o último pedaço da torrada e sigo para o trabalho. A cafeína já fez efeito. As ondas de pedra continuam ali, imóveis, ao lado das ondas de verdade.\n\nPerguntas:\nO que o narrador pede todas as manhãs no quiosque?\nEle pede um café forte e uma torrada com manteiga.\nDe onde veio o desenho de ondas do calçadão?\nVeio da praça do Rossio, em Lisboa, onde um calçamento de pedras brancas e pretas formava ondas e ganhou o nome de Mar Largo.\nO que Burle Marx mudou nas ondas?\nEle virou as ondas, que eram perpendiculares ao mar, para que corressem paralelas à praia.\nPor que o calcanhar é um problema no calçadão?\nPorque as pedras se soltam, o calcanhar afunda nos buracos e o salto fino entra entre as pedras.\nO que os vendedores ofertam ao longo do dia?\nEles ofertam água de coco, chapéus, óculos e cadeiras de praia.\nComo o calçadão muda em dezembro?\nOs postes recebem a decoração natalina, e os quiosques penduram luzes coloridas."
+    },
+    {
+      "title": "A audiência da ciclovia",
+      "summary": "A resident and cyclist reports on a long public hearing about a planned bike lane, with every side heard.",
+      "newWords": [
+        "munir",
+        "formalidade",
+        "fundamentar",
+        "dedução",
+        "inviável",
+        "aditivo",
+        "governista",
+        "intencionado",
+        "homologar"
+      ],
+      "text": "Na terça-feira à noite, a Câmara Municipal ficou cheia como em dia de jogo. Na pauta, uma audiência pública sobre a ciclovia da Avenida das Palmeiras, um projeto de 4 quilômetros que a prefeitura quer construir no lugar de uma das faixas de estacionamento. Fui como moradora e como ciclista, munida de um caderno e de muita paciência.\n\nA audiência começou com as formalidades de sempre: a leitura da ata, a apresentação dos vereadores presentes, as regras para quem quisesse falar. Cada inscrito teria 3 minutos. Houve quem reclamasse das formalidades, mas elas têm um sentido: garantem que todos falem e que tudo fique registrado.\n\nO secretário de Mobilidade apresentou o projeto. Ele procurou fundamentar a proposta com números: contagens feitas na avenida mostravam cerca de 600 ciclistas por dia, a maioria trabalhadores a caminho do centro, e o número de acidentes com bicicletas no trecho tinha dobrado em 5 anos. A conclusão, disse ele, era uma dedução simples: se tanta gente já pedala ali sem proteção, uma ciclovia vai salvar vidas.\n\nDepois vieram os moradores. Um comerciante, munido de uma pasta cheia de fotografias, disse que a perda das vagas tornaria inviável o seu negócio, porque os clientes não teriam onde parar. Uma senhora contou que usa a bicicleta para ir ao mercado e que já foi fechada por carros 2 vezes. Um rapaz lembrou que a ciclovia de outro bairro, construída anos atrás, tinha custado o dobro do previsto por causa de um aditivo no contrato da obra, e pediu que a prefeitura explicasse como evitaria um novo aditivo.\n\nOs vereadores se dividiram mais ou menos como se esperava. Os governistas defenderam o projeto; os de oposição criticaram o pouco tempo de debate. Nem tudo, porém, seguiu a linha dos partidos: um vereador governista pediu que a obra fosse feita em etapas, e uma vereadora da oposição apoiou a ideia, desde que a prefeitura criasse vagas de carga e descarga para o comércio.\n\nPor volta das 11 da noite, muita gente já tinha ido embora. Pensei no que tinha ouvido. Quase todos os que falaram eram bem-intencionados, inclusive os que eram contra: o comerciante, bem-intencionado, queria salvar a loja; a senhora queria chegar inteira ao mercado. A minha dedução foi outra: o projeto não era inviável, mas precisava de ajustes.\n\nA audiência não decide nada sozinha. As sugestões serão analisadas pela prefeitura, e o projeto final vai à votação na Câmara. Se ele for aprovado, a escolha da empresa que fará a obra ainda terá de ser homologada. Homologar, explicou o secretário, é confirmar oficialmente que a escolha seguiu todas as regras; só depois de homologar o resultado a prefeitura pode assinar o contrato. Saí da Câmara à meia-noite, cansada, mas com a sensação de que todos tinham sido ouvidos.\n\nPerguntas:\nSobre o que era a audiência pública?\nEra sobre uma ciclovia de 4 quilômetros na Avenida das Palmeiras, no lugar de uma das faixas de estacionamento.\nPor que as formalidades do começo têm sentido?\nPorque garantem que todos falem e que tudo fique registrado.\nComo o secretário procurou fundamentar a proposta?\nCom contagens de cerca de 600 ciclistas por dia e com o aumento dos acidentes no trecho.\nPor que o comerciante achava o projeto inviável?\nPorque, sem as vagas, os clientes não teriam onde parar.\nO que o rapaz temia em relação ao contrato?\nEle temia um novo aditivo, como o que fez outra ciclovia custar o dobro do previsto.\nO que significa homologar a escolha da empresa?\nSignifica confirmar oficialmente que a escolha seguiu todas as regras."
+    },
+    {
+      "title": "De quem é a rua?",
+      "summary": "An urbanist's essay weighing the driver's, the cyclist's and the pedestrian's answers to who the street belongs to.",
+      "newWords": [
+        "intruso",
+        "neoliberal",
+        "substantivo",
+        "motoqueiro",
+        "indecente",
+        "retaguarda",
+        "injustamente"
+      ],
+      "text": "Pergunte a um motorista, a um ciclista e a um pedestre de quem é a rua, e você ouvirá três respostas diferentes. O motorista dirá que paga impostos e que a rua foi feita para circular. O ciclista dirá que a rua deveria ser de quem a usa com menos risco para os outros. O pedestre dirá que a rua é de todos e que ele é quem mais sofre nela. Como urbanista, escrevo este ensaio para levar a sério as três respostas.\n\nAté o começo do século 20, a rua era um espaço misturado, de crianças, vendedores e carroças. Com a chegada do automóvel, a rua foi dividida. O centro passou a pertencer aos carros, e o pedestre foi empurrado para a calçada, como se fosse um intruso no próprio caminho. Ainda hoje, quem atravessa fora da faixa se sente um intruso.\n\nHá quem defenda essa divisão com argumentos sérios. Numa visão liberal, que os seus críticos chamam de neoliberal, a rua é um recurso escasso, e o melhor seria deixar que um preço decidisse quem a ocupa. Londres e Estocolmo cobram uma taxa de quem entra de carro no centro. Curiosamente, uma medida de inspiração neoliberal acabou sendo defendida também por ambientalistas, porque reduziu o trânsito e a poluição.\n\nOutros respondem que a rua não é um produto como os outros. Por ela passam ambulâncias, crianças a caminho da escola, idosos a caminho da farmácia. Para esses críticos, a questão é substantiva, e não apenas técnica: não se trata de quantos carros cabem numa avenida, mas de que tipo de vida a cidade quer permitir. Uma mudança substantiva, para eles, seria dividir o espaço de outro modo: calçadas mais largas, faixas de ônibus, ciclovias.\n\nNo meio dessa disputa estão os que costumam ser esquecidos. O motoqueiro que faz entregas passa o dia na rua e quase nunca é convidado para os debates. Muitos motoqueiros trabalham para aplicativos e correm riscos enormes para cumprir prazos curtos. Culpar apenas o motoqueiro pelos acidentes seria tratá-lo injustamente; ele é, muitas vezes, o elo mais fraco de um sistema que exige pressa.\n\nHá números que incomodam. Em várias capitais brasileiras, os carros particulares ocupam a maior parte do espaço das vias, embora transportem uma parcela menor das pessoas. Alguns colegas chamam essa diferença de indecente. Prefiro uma palavra menos forte, mas compreendo a indignação: há algo de indecente numa calçada estreita, por onde uma cadeira de rodas não passa, ao lado de pistas largas e vazias à noite.\n\nO urbanismo, no entanto, não deve trabalhar na retaguarda da política, apenas apagando incêndios depois que as decisões foram tomadas. Deve estar à frente, oferecendo dados e alternativas. Ficar na retaguarda é cômodo; ir à frente exige ouvir todos os lados.\n\nDe quem é a rua, afinal? A minha resposta é que ela não pertence a ninguém em particular e, por isso mesmo, precisa ser repartida com cuidado. Ninguém deveria se sentir um intruso no espaço que é de todos, e ninguém deveria ser excluído dele injustamente.\n\nPerguntas:\nPor que o pedestre se sente um intruso?\nPorque, com a chegada do automóvel, foi empurrado para a calçada.\nO que defende a visão que os críticos chamam de neoliberal?\nDefende que um preço decida quem ocupa a rua, como as taxas cobradas em Londres e Estocolmo.\nQue mudança substantiva os críticos propõem?\nPropõem calçadas mais largas, faixas de ônibus e ciclovias.\nPor que seria injusto culpar apenas o motoqueiro pelos acidentes?\nPorque ele é muitas vezes o elo mais fraco de um sistema que exige pressa."
+    },
+    {
+      "title": "Sábado no parque do rio",
+      "summary": "A canoeing instructor opens the base at a riverside park, checks the support boat, spots wildlife and teaches a school group.",
+      "newWords": [
+        "canoagem",
+        "convés",
+        "ignição",
+        "capim",
+        "tatu",
+        "réptil",
+        "bronca"
+      ],
+      "text": "Todo sábado, às 7 da manhã, o instrutor Tiago Moreira abre o portão da base de canoagem do parque do rio. O parque ocupa as 2 margens de um trecho de rio que, até 20 anos atrás, corria entre muros de concreto, escondido atrás de depósitos e terrenos abandonados. Hoje há trilhas, quadras, um gramado e uma pequena escola de canoagem, onde Tiago ensina crianças e adultos a remar.\n\nAntes da primeira aula, ele faz a mesma ronda. Confere os barcos, os remos e os coletes salva-vidas. Depois desce até o barco de apoio, um pequeno barco a motor com um convés de madeira, de onde a equipe acompanha as turmas. Ele sobe no convés, gira a chave na ignição e escuta o motor. Se a ignição falhar, a aula não começa: sem barco de apoio, ninguém entra na água.\n\nO parque também mudou a vida dos bichos. Nas margens, onde a prefeitura deixou crescer o capim e plantou árvores nativas, voltaram animais que ninguém via havia décadas. Tiago já viu capivaras, aves de pescoço comprido e, de manhã cedo, um tatu atravessando a trilha. O tatu, explica ele às crianças, cava buracos na terra da margem e sai sobretudo à noite. Os répteis também aparecem: lagartos tomando sol nas pedras e, de vez em quando, um jacaré pequeno. Cada réptil desses, diz ele, é sinal de que a água está mais limpa e de que há comida na margem.\n\nO capim alto não está ali por descuido. Ele segura a terra da margem, filtra a água da chuva antes de ela chegar ao rio e serve de abrigo para os bichos. Por isso, há placas pedindo que ninguém corte o capim nem entre nas áreas protegidas.\n\nÀs 9, chega a primeira turma: 8 adolescentes de uma escola pública do bairro. Tiago explica as regras: colete sempre, ninguém rema sozinho, ninguém se aproxima dos bichos. Um dos meninos tenta entrar no barco sem o colete e leva uma bronca. Não é uma bronca grosseira; Tiago apenas explica, com firmeza, que o rio parece calmo, mas tem correntes. O menino veste o colete, meio envergonhado, e a aula segue.\n\nNo fim da manhã, quando os barcos voltam, os alunos estão molhados e contentes. Um deles conta que viu um tatu na margem, e todos querem ir ver. Tiago ri e lembra a regra: os bichos vivem ali, e nós somos visitantes. Antes de ir embora, ele sobe de novo no convés do barco de apoio, desliga a ignição e anota no caderno o resumo do dia: um tatu, 2 répteis ao sol e 8 novos alunos de canoagem.\n\nPerguntas:\nComo era o trecho do rio antes do parque?\nO rio corria entre muros de concreto, escondido atrás de depósitos e terrenos abandonados.\nO que Tiago faz no convés do barco de apoio antes da aula?\nEle gira a chave na ignição e escuta o motor, porque sem barco de apoio ninguém entra na água.\nQue animais voltaram às margens do rio?\nVoltaram capivaras, aves, um tatu, lagartos e outros répteis, como um jacaré pequeno.\nPara que serve o capim alto da margem?\nEle segura a terra, filtra a água da chuva e serve de abrigo para os bichos.\nPor que o menino levou uma bronca?\nPorque tentou entrar no barco sem o colete, e o rio tem correntes."
+    },
+    {
+      "title": "Domingos na Quinta",
+      "summary": "A divorced father spends Sundays with his daughter at Rio's Quinta da Boa Vista and tells the story of its meteorite.",
+      "newWords": [
+        "divorciado",
+        "meteorito",
+        "desânimo",
+        "raridade",
+        "inseparável",
+        "conjugal"
+      ],
+      "text": "Sou divorciado há 3 anos, e os domingos com a minha filha, Clara, de 9 anos, seguem quase sempre o mesmo roteiro: pegamos o metrô até São Cristóvão e passamos a manhã na Quinta da Boa Vista, no Rio. O parque fica cheio de pais como eu. Aos domingos, os pais divorciados se reconhecem de longe: todos com uma mochila cheia de lanches e uma lista de programas para preencher o dia.\n\nA Quinta tem uma história longa. No século 19, foi residência da família imperial, e os seus jardins foram redesenhados pelo paisagista francês Auguste Glaziou, com lagos, grutas e caminhos curvos. Depois da Proclamação da República, o palácio passou a abrigar o Museu Nacional, e os jardins viraram um parque público, aberto a qualquer pessoa. Hoje, famílias de toda a cidade fazem piquenique na grama.\n\nEm setembro de 2018, um incêndio destruiu a maior parte do Museu Nacional. Lembro bem do desânimo daquela semana. Clara ainda era pequena, mas viu as imagens na televisão e perguntou se a \"pedra grande\" tinha queimado. A pedra grande era o Bendegó, o maior meteorito já encontrado no Brasil, com mais de 5 toneladas, que ficava logo na entrada do museu. Não queimou. Feito quase todo de ferro, o meteorito resistiu ao fogo e continuou inteiro. No meio do desânimo geral, a imagem do meteorito, intacto entre as cinzas, virou um pequeno símbolo de esperança.\n\nA história do Bendegó é, por si só, uma raridade. Ele foi encontrado em 1784, no sertão da Bahia, e só chegou ao Rio mais de um século depois, em 1888, numa viagem difícil, por terra e por mar. Um meteorito daquele tamanho é uma raridade em qualquer lugar do mundo; poder tocá-lo, como as crianças sempre fizeram no museu, é uma raridade maior ainda.\n\nHoje, Clara e eu temos um ritual inseparável dos nossos domingos: passamos diante do palácio, ainda em obras, e ela conta quantas janelas novas apareceram desde a última visita. Depois damos a volta no lago e dividimos um sorvete. Para ela, o parque e o pai ficaram inseparáveis, e eu não poderia receber elogio melhor.\n\nQuando eu ainda era casado, a Quinta era um passeio raro. A nossa rotina conjugal tinha outros roteiros: o shopping, o almoço de domingo na casa da minha sogra, as tarefas da semana. Sem a rotina conjugal, aprendi a andar devagar e a reparar nas coisas. A separação mudou a nossa família, mas não mudou o parque: ele continua aberto a quem chega, casado ou divorciado, com pressa ou sem ela. Talvez seja essa a maior qualidade de um espaço público: não perguntar quem somos.\n\nPerguntas:\nO que o narrador e a filha fazem aos domingos?\nEles pegam o metrô até São Cristóvão e passam a manhã na Quinta da Boa Vista.\nO que era a Quinta antes de virar parque público?\nEra a residência da família imperial, e depois o palácio passou a abrigar o Museu Nacional.\nO que aconteceu com o meteorito no incêndio de 2018?\nO meteorito, feito quase todo de ferro, resistiu ao fogo e continuou inteiro.\nPor que a história do Bendegó é uma raridade?\nPorque ele foi encontrado em 1784, chegou ao Rio só em 1888, e um meteorito daquele tamanho é raro no mundo inteiro.\nQue ritual é inseparável dos domingos de Clara e do pai?\nEles passam diante do palácio, contam as janelas novas e depois dão a volta no lago."
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "pt-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "A física do cotidiano",
+  "description": "Explanations, crônicas, a report, an interview and a profile about the physics of everyday life: the blue sky, the microwave oven, a famous free kick, floating ice, the pressure cooker, the rainbow, concert halls, a kitchen classroom, rising warm air and the radio.",
+  "topic": "Everyday physics",
+  "names": [
+    "Brasil",
+    "Europa",
+    "Marte",
+    "John",
+    "Tyndall",
+    "Lord",
+    "Rayleigh",
+    "Percy",
+    "Spencer",
+    "Roberto",
+    "Carlos",
+    "Lyon",
+    "França",
+    "Fabien",
+    "Barthez",
+    "Magnus",
+    "Juninho",
+    "Pernambucano",
+    "Didi",
+    "Nelson",
+    "Rodrigues",
+    "Himalaia",
+    "Denis",
+    "Papin",
+    "Londres",
+    "Inmetro",
+    "Teodorico",
+    "Freiberg",
+    "Descartes",
+    "Newton",
+    "Irlanda",
+    "Oxumaré",
+    "Américas",
+    "Renata",
+    "Alves",
+    "Wallace",
+    "Sabine",
+    "Symphony",
+    "Boston",
+    "Paulo",
+    "Ravel",
+    "Lúcia",
+    "Rangel",
+    "Xingu",
+    "Nikola",
+    "Itália",
+    "Guglielmo",
+    "Marconi",
+    "Atlântico",
+    "Landell",
+    "Moura"
+  ],
+  "lessons": [
+    {
+      "title": "O azul do céu",
+      "summary": "A narrator answers her niece's question about why the sky is blue, sunsets are red and clouds are white.",
+      "newWords": [
+        "espantoso",
+        "quadrante",
+        "empírico",
+        "revelador",
+        "recorte",
+        "maravilhar",
+        "adicionalmente"
+      ],
+      "text": "A minha sobrinha de 6 anos olhou para cima e fez a pergunta que quase todas as crianças fazem um dia: por que o céu é azul? Respondi o que me ocorreu na hora, algo vago sobre o reflexo do mar, e ela ficou satisfeita. Eu, não. A resposta estava errada, e a verdadeira é bem mais espantosa.\n\nA luz do sol parece branca, mas é uma mistura de todas as cores, do vermelho ao violeta. Cada cor corresponde a uma onda de comprimento diferente: o vermelho tem as ondas mais longas; o azul e o violeta, as mais curtas. Quando essa mistura atravessa a atmosfera, encontra bilhões de moléculas de ar, muito menores do que as próprias ondas. Essas moléculas desviam a luz em todas as direções, e o espantoso é que não fazem isso por igual: desviam a luz azul várias vezes mais do que a vermelha. Assim, para onde quer que olhemos, chega aos nossos olhos luz azul espalhada pelo ar. O céu inteiro brilha porque o próprio ar está iluminado.\n\nEssa explicação não nasceu de uma ideia bonita, mas de um trabalho empírico. No século 19, o irlandês John Tyndall fez passar um feixe de luz por um tubo com partículas muito finas e observou que, vista de lado, a luz espalhada era azulada. Pouco depois, o inglês Lord Rayleigh transformou essas observações empíricas em cálculo e mostrou por que as ondas curtas são as mais desviadas.\n\nMas, se o violeta tem ondas ainda mais curtas, por que o céu não é violeta? Porque o sol emite menos violeta do que azul, e parte dessa luz é absorvida no alto da atmosfera. Adicionalmente, os nossos olhos são pouco sensíveis ao violeta.\n\nA mesma ideia explica o pôr do sol. No fim da tarde, a luz atravessa uma camada de ar muito mais grossa até chegar a nós e, no caminho, perde quase todo o azul. Sobram o laranja e o vermelho. O céu também não tem o mesmo tom em toda parte: perto do horizonte ele é mais claro, quase branco, enquanto no quadrante mais alto, acima da nossa cabeça, o azul é mais escuro. Nesse quadrante, a luz atravessou pouco ar; perto do horizonte, foi desviada tantas vezes que as cores voltaram a se misturar.\n\nAs nuvens são outro dado revelador. Suas gotas de água são grandes em comparação com as ondas de luz e desviam todas as cores por igual; por isso as nuvens são brancas. E Marte oferece o exemplo mais revelador de todos: lá, a poeira fina do ar deixa o céu cor de caramelo durante o dia, e o pôr do sol é azulado, o contrário do nosso.\n\nHoje, da janela do meu apartamento, vejo apenas um recorte de céu entre dois prédios. Mesmo esse pequeno recorte continua a me maravilhar. Saber como ele funciona só me deixa mais maravilhada.\n\nPerguntas:\nPor que a luz azul chega aos nossos olhos de todas as direções?\nPorque as moléculas do ar desviam a luz azul várias vezes mais do que a vermelha e a espalham por todo o céu.\nComo se chegou, no século 19, à explicação do azul do céu?\nPelo trabalho empírico do irlandês John Tyndall, com as suas experiências, e pelos cálculos do inglês Lord Rayleigh.\nPor que o céu não é violeta?\nPorque o sol emite menos violeta, parte dessa luz é absorvida no alto da atmosfera e, adicionalmente, os nossos olhos são pouco sensíveis a essa cor.\nPor que as nuvens são brancas?\nPorque as suas gotas são grandes e desviam todas as cores por igual."
+    },
+    {
+      "title": "O jantar frio do micro-ondas",
+      "summary": "A narrator's leftovers come out hot at the edge and cold in the middle, so she finds out how a microwave oven heats food.",
+      "newWords": [
+        "ui",
+        "misteriosamente",
+        "papelão",
+        "bacteriano",
+        "agilizar",
+        "enumerar"
+      ],
+      "text": "Ontem cheguei tarde do trabalho, com fome. Tirei da geladeira o resto do almoço, arroz, feijão e um pedaço de frango, e coloquei o prato no micro-ondas por 2 minutos. Quando o forno apitou, peguei o prato e enfiei o garfo no feijão. Ui! O feijão da borda estava queimando. O do meio, porém, misteriosamente, continuava frio. Enquanto o prato dava mais uma volta, resolvi entender o que acontece lá dentro.\n\nO forno produz ondas eletromagnéticas parecidas com as do rádio, só que mais curtas: cada uma mede cerca de 12 centímetros. O campo elétrico dessas ondas muda de sentido quase 5 bilhões de vezes por segundo. A molécula de água tem um lado ligeiramente positivo e outro ligeiramente negativo e, por isso, tenta girar a cada mudança. Nesse giro sem fim, as moléculas esbarram umas nas outras, e essa agitação é justamente o que chamamos de calor.\n\nPor isso o forno aquece tão bem o que tem água e tão mal o que é seco. Uma caixa de papelão vazia quase não esquenta, e é por esse motivo que muitas comidas prontas vêm em embalagens de papelão. O gelo também esquenta devagar, porque no cristal as moléculas estão presas e mal conseguem girar.\n\nMuita gente acha que o micro-ondas aquece a comida de dentro para fora. Não é verdade. As ondas só penetram alguns centímetros; o resto do alimento esquenta aos poucos, pelo contato com as partes já quentes. Além disso, as ondas batem nas paredes de metal do forno e formam regiões fortes e fracas, e é para que a comida passe por todas elas que o prato gira. Num monte grosso e gelado de comida, como o meu, sobram ilhas frias no meio.\n\nEssas ilhas não são só um incômodo. Uma parte que não chegou a uma temperatura segura pode guardar uma contaminação bacteriana. Os fabricantes recomendam mexer a comida no meio do aquecimento e deixá-la descansar um minuto antes de comer, para que o calor se distribua e o risco bacteriano diminua.\n\nEm 1945, o engenheiro americano Percy Spencer trabalhava com equipamentos de radar quando percebeu que uma barra de chocolate tinha derretido misteriosamente no seu bolso. Curioso, ele colocou grãos de milho perto do aparelho e viu a pipoca estourar. Dois anos depois, a empresa onde ele trabalhava vendia o primeiro forno de micro-ondas, que tinha quase a altura de uma pessoa e pesava mais de 300 quilos.\n\nHoje o forno cabe em qualquer cozinha e agiliza a vida de milhões de pessoas. Agilizar, porém, não é fazer tudo de uma vez. Do meu jantar de ontem, tirei 3 lições, que posso enumerar: espalhar a comida no prato, em vez de fazer um monte no meio; mexer na metade do tempo; e esperar um pouco antes de comer. Enumeradas assim, parecem óbvias, mas evitam tanto a boca queimada quanto o meio gelado. Ui, como eu queria ter sabido disso antes!\n\nPerguntas:\nO que a narradora percebeu quando enfiou o garfo no feijão?\nO feijão da borda estava queimando, mas o do meio continuava frio.\nPor que as moléculas de água esquentam no micro-ondas?\nPorque tentam girar a cada mudança do campo elétrico e esbarram umas nas outras, e essa agitação é calor.\nPor que uma caixa de papelão vazia quase não esquenta?\nPorque é seca, e o forno aquece bem só o que tem água.\nPor que é importante mexer a comida e deixá-la descansar?\nPara que o calor se distribua e o risco de contaminação bacteriana diminua."
+    },
+    {
+      "title": "A curva de Roberto Carlos",
+      "summary": "A report on the physics behind a famous free kick: spin, the spiral path and the wobbling ball without spin.",
+      "newWords": [
+        "empolgante",
+        "brusco",
+        "imobilizar",
+        "estabilização",
+        "turbulento",
+        "alcunha",
+        "manequim",
+        "desvalorizar"
+      ],
+      "text": "Em 3 de junho de 1997, em Lyon, o Brasil enfrentava a França num torneio amistoso quando ganhou uma falta a cerca de 35 metros do gol. Roberto Carlos, lateral conhecido pela força do chute, recuou vários passos e bateu com a parte de fora do pé esquerdo. A bola saiu muito para a direita, longe da barreira. Então fez uma curva brusca para a esquerda, tocou na trave e entrou. O goleiro Fabien Barthez ficou imobilizado, sem nenhuma reação. Foi um dos gols mais empolgantes da década e um dos mais estudados.\n\nO segredo está na rotação. Quando a bola gira em torno de um eixo vertical, um dos seus lados se move no mesmo sentido do ar que passa por ela, e o outro, no sentido contrário. O ar acompanha melhor um lado do que o outro e sai desviado; como reação, a bola é empurrada para o lado oposto. Os físicos chamam isso de efeito Magnus.\n\nMas por que a curva parece tão brusca no fim? Em 2010, pesquisadores franceses mostraram que a trajetória de uma bola que gira e perde velocidade não é um arco regular, e sim uma espiral: à medida que a bola fica mais lenta, a curva se fecha. Num chute de 35 metros, a espiral tem espaço para aparecer, e a mudança de direção parece brusca a quem assiste.\n\nA rotação tem ainda outra função: a estabilização. Uma bola que gira mantém o eixo firme e segue um caminho previsível. Sem rotação não há estabilização, e o que acontece atrás da bola passa a mandar. O ar que fica para trás forma um rastro turbulento, cheio de movimentos irregulares, que mudam de lado sem aviso. Esse rastro turbulento empurra a bola ora para um lado, ora para o outro, e ela balança no ar. Juninho Pernambucano, que jogou no Lyon, ficou famoso por bater faltas assim, quase sem rotação, deixando muitos goleiros imobilizados no meio do gol.\n\nMuito antes deles, nos anos 1950, Didi já fazia a bola subir e cair de repente, como uma folha seca, e a jogada ficou conhecida por esse nome. O próprio Didi recebeu do escritor Nelson Rodrigues a alcunha de Príncipe Etíope, pela elegância com que tratava a bola. Poucas alcunhas do futebol brasileiro foram tão bem escolhidas.\n\nNos centros de treinamento, os cobradores de falta passam horas chutando contra uma fileira de manequins que imitam a barreira. O manequim não pula nem se mexe, e o jogador pode repetir o mesmo chute 100 vezes.\n\nNada disso deve desvalorizar o talento. A física explica a curva, mas não a ensina: saber que a rotação desvia a bola não ajuda ninguém a acertar o pé na bola. Também seria um erro desvalorizar a física, porque é ela que mostra por que alguns chutes funcionam e outros não. O que torna a cobrança de falta tão empolgante é justamente essa mistura de ciência e arte.\n\nPerguntas:\nO que aconteceu com a bola no chute de Roberto Carlos, em 1997?\nEla saiu muito para a direita e depois fez uma curva brusca para a esquerda, tocou na trave e entrou.\nPor que uma bola que gira faz curva?\nPorque o ar sai desviado para um lado, e a bola é empurrada para o lado oposto.\nPor que a curva parece mais brusca no fim de um chute longo?\nPorque a bola perde velocidade, e a sua trajetória forma uma espiral que se fecha.\nO que acontece com uma bola chutada quase sem rotação?\nSem estabilização, ela é empurrada pelo rastro turbulento ora para um lado, ora para o outro."
+    },
+    {
+      "title": "O gelo no copo",
+      "summary": "At a neighbourhood bar the narrator watches ice float in a glass and explains why ice is lighter than water and why lakes freeze from the top.",
+      "newWords": [
+        "boteco",
+        "unitário",
+        "calculadora",
+        "profundeza",
+        "presumivelmente",
+        "ressurgir"
+      ],
+      "text": "Sexta-feira, fim de tarde, num boteco perto de casa. Peço um refrigerante com gelo e fico olhando o copo. As pedras de gelo boiam, e só uma pequena ponta fica fora da superfície. Parece a coisa mais natural do mundo, mas não é: quase todas as substâncias ficam mais densas quando passam do estado líquido para o sólido, e o sólido afunda no próprio líquido. Um pedaço de metal sólido, por exemplo, afunda no mesmo metal derretido. A água é uma das poucas exceções.\n\nA explicação está na forma da molécula de água. Quando a água congela, as moléculas se organizam em cristais de seis lados, ligadas umas às outras de um jeito que deixa muito espaço vazio no meio. O gelo, portanto, ocupa mais lugar do que a mesma quantidade de água líquida, cerca de 9% a mais. Os físicos chamam de densidade a massa contida num volume unitário, por exemplo, num centímetro cúbico. Num volume unitário de gelo há menos massa do que no mesmo volume de água, e o que é menos denso flutua.\n\nEntre um gole e outro, faço as contas na calculadora do celular. Se a densidade do gelo é cerca de 92% da densidade da água, uns 92% de cada pedra deveriam ficar submersos em água pura. A calculadora confirma o que o copo mostra: só a pontinha aparece. Com os icebergs acontece quase o mesmo: cerca de 90% do seu volume fica escondido debaixo do mar.\n\nNo boteco, o detalhe é curioso; na natureza, é decisivo. A água líquida tem ainda outra particularidade: fica mais densa a cerca de 4 graus. Quando o inverno chega a um lago num país frio, a água da superfície esfria, fica mais pesada e desce, até que todo o lago chega a uns 4 graus. A partir daí, a água mais fria fica em cima e congela. Forma-se uma tampa de gelo que protege o resto do lago do ar gelado. Nas profundezas, a água continua líquida, e os peixes passam o inverno ali, quase parados.\n\nSe o gelo afundasse, cada camada nova desceria para o fundo, e os lagos presumivelmente congelariam de baixo para cima, até virar blocos sólidos. Presumivelmente, a vida nas águas frias do planeta seria muito mais pobre, ou nem existiria.\n\nNa primavera, o gelo derrete, a água volta a se misturar, e a vida ressurge na superfície: as pequenas plantas, os insetos, os peixes que sobem das profundezas para se alimentar. Todo ano a vida ressurge assim, desde muito antes de existir qualquer pessoa para observá-lo.\n\nPeço a conta. O garçom anota numa folha o preço unitário do refrigerante e dos pastéis e soma tudo sem calculadora. No fundo do copo, o gelo já derreteu quase todo. A água que sobrou, um pouco mais densa e um pouco mais fria, ficou embaixo, como num pequeno lago de inverno.\n\nPerguntas:\nO que o narrador observa no copo, no boteco?\nEle observa que as pedras de gelo boiam e que só uma pequena ponta fica fora da superfície.\nPor que o gelo ocupa mais lugar do que a água líquida?\nPorque, ao congelar, as moléculas formam cristais que deixam muito espaço vazio no meio.\nO que é a densidade?\nÉ a massa contida num volume unitário, por exemplo, num centímetro cúbico.\nO que a calculadora confirmou?\nConfirmou que cerca de 92% de cada pedra de gelo deveria ficar submersa em água pura.\nPor que os peixes sobrevivem ao inverno nos lagos congelados?\nPorque o gelo forma uma tampa na superfície, e nas profundezas a água continua líquida."
+    },
+    {
+      "title": "Meia hora de pressão",
+      "summary": "A newspaper column answers a reader's question about how a pressure cooker cooks faster and how to use it safely.",
+      "newWords": [
+        "prescrever",
+        "monastério",
+        "coletividade",
+        "medidor",
+        "obrigatoriamente",
+        "prescrição",
+        "soneca",
+        "inadmissível"
+      ],
+      "text": "Uma leitora de Belo Horizonte escreve para esta coluna. Ela herdou da avó uma receita de feijão que prescreve \"meia hora de pressão\" e quer saber duas coisas: por que a panela de pressão cozinha tão mais depressa e se é mesmo segura.\n\nAo nível do mar, a água ferve a 100 graus. Ferver significa formar bolhas de vapor dentro do líquido, e essas bolhas só conseguem se formar quando a pressão do vapor iguala a pressão de fora. Numa panela comum, por mais que o fogo esteja alto, a água não passa dos 100 graus: o calor extra só produz mais vapor, que escapa. Numa panela fechada, o vapor fica preso, a pressão interna sobe até quase o dobro da pressão do ar, e a água só ferve perto dos 120 graus. Parece pouco, mas, a essa temperatura, a comida cozinha em cerca de um terço do tempo.\n\nO contrário acontece nas montanhas. Num monastério do Himalaia, a mais de 4 mil metros de altitude, a pressão do ar é bem menor, e a água ferve a cerca de 86 graus. O feijão pode levar horas nessa água sem ficar macio. Não é por acaso que, em muitas cozinhas de altitude, a panela de pressão é peça indispensável, inclusive nas cozinhas dos monastérios, onde se cozinha todo dia para uma coletividade de dezenas de monges. Para uma coletividade tão grande, cada hora de fogo economizada conta.\n\nA ideia é antiga. Em 1679, o físico francês Denis Papin apresentou em Londres um recipiente de ferro bem fechado, capaz de deixar macios até ossos. Para evitar explosões, ele acrescentou uma válvula de segurança, ideia que mais tarde seria usada nas máquinas a vapor.\n\nAs panelas de hoje seguem o mesmo princípio. O pino que fica na tampa é um peso: quando a pressão chega ao valor certo, o vapor o levanta, escapa e produz o famoso chiado. Se esse caminho ficar bloqueado, existe uma segunda válvula de segurança, que se abre antes que a pressão fique perigosa. Alguns modelos modernos têm até um pequeno medidor, que mostra se ainda há pressão lá dentro; sem medidor, o sinal é o vapor que sai pelo pino. No Brasil, as panelas de pressão precisam obrigatoriamente ter o selo do Inmetro.\n\nQuanto à segurança, o manual de cada panela traz prescrições simples, que devem ser seguidas obrigatoriamente: limpar o pino e a válvula, trocar a borracha da tampa quando ela estiver gasta e nunca encher a panela além do limite marcado. A prescrição mais importante, porém, é a paciência. Abrir a panela antes que a pressão tenha baixado é inadmissível; é preciso esperar que o vapor pare de sair, e só então abri-la. Também é inadmissível deixar a panela no fogo e ir tirar uma soneca. A soneca pode esperar o feijão ficar pronto.\n\nCom esses cuidados, a receita da avó pode continuar a prescrever a sua meia hora de pressão por muitos anos.\n\nPerguntas:\nO que a receita da avó da leitora prescreve?\nEla prescreve meia hora de pressão para o feijão.\nPor que a comida cozinha mais depressa na panela de pressão?\nPorque o vapor fica preso, a pressão sobe e a água só ferve perto dos 120 graus.\nPor que a água ferve a cerca de 86 graus num monastério do Himalaia?\nPorque, a mais de 4 mil metros de altitude, a pressão do ar é bem menor.\nQual é a prescrição mais importante para usar a panela com segurança?\nÉ a paciência: nunca abrir a panela antes que a pressão tenha baixado e nunca deixá-la no fogo para tirar uma soneca."
+    },
+    {
+      "title": "Um rodapé sobre o arco-íris",
+      "summary": "A footnote in an anthology leads the narrator to the medieval friar who explained the rainbow, and to the stories and beliefs around it.",
+      "newWords": [
+        "antologia",
+        "rodapé",
+        "frade",
+        "inacabado",
+        "fábula",
+        "orixá",
+        "diáspora",
+        "pluma",
+        "besouro"
+      ],
+      "text": "Numa antologia de textos antigos sobre a luz, comprada numa livraria de usados, há um rodapé que eu quase deixei passar. Em 3 linhas, ele diz que a primeira explicação convincente do arco-íris foi dada no começo do século 14 por um frade alemão, Teodorico de Freiberg. O rodapé era curto, mas me fez fechar o livro e ir atrás do resto da história.\n\nTeodorico era um frade dominicano e, numa época em que pouca gente fazia experiências, fez uma muito simples: encheu de água uma esfera de vidro e a usou como se fosse uma gota de chuva gigante. Observando o caminho da luz do sol dentro da esfera, percebeu o que acontece em cada gota: a luz entra e se desvia, bate no fundo da gota e volta, e se desvia de novo ao sair. Como cada cor se desvia um pouco diferente, as cores se separam. O frade explicou também o segundo arco, mais fraco, que às vezes aparece por fora do primeiro, com as cores na ordem contrária: nele, a luz bate duas vezes no fundo da gota antes de sair. Mais de 3 séculos depois, Descartes repetiu a experiência com o mesmo tipo de esfera, e Newton mostrou, com um prisma, que a luz branca é feita de todas as cores.\n\nO arco-íris aparece sempre do lado oposto ao sol: quem quer vê-lo precisa ficar de costas para o sol, com a chuva à frente. Visto do chão, o arco parece inacabado, porque o horizonte corta a parte de baixo. De um avião, porém, às vezes se vê o círculo inteiro, e aquele arco que parecia inacabado revela-se uma volta completa.\n\nNão admira que ele tenha inspirado tantas histórias. Na Irlanda, conta-se a fábula do pote de ouro escondido no fim do arco-íris, um fim que ninguém alcança. A fábula acerta sem querer: o arco anda junto com quem o procura, porque cada pessoa vê o seu próprio arco, formado por gotas diferentes.\n\nNo Brasil, o arco-íris tem também um lugar sagrado. No candomblé, ele está ligado a Oxumaré, orixá associado à chuva, ao movimento contínuo e à ligação entre o céu e a terra. O culto a esse orixá chegou ao país com a diáspora africana, junto com os milhões de pessoas trazidas à força para a escravidão. A diáspora espalhou essas crenças pelas Américas, onde elas resistem até hoje.\n\nNem todo brilho colorido vem da chuva, no entanto. As plumas do pavão e as asas duras de certos besouros brilham em verde e azul sem ter pigmento dessas cores. Camadas finíssimas na superfície refletem a luz e reforçam algumas cores, que mudam conforme o ângulo de quem olha. Uma pluma de pavão moída vira um pó escuro, e o besouro, visto de outro ângulo, muda de cor.\n\nFechei a antologia pensando que, às vezes, o melhor de um livro está no rodapé.\n\nPerguntas:\nO que o rodapé da antologia dizia?\nDizia que a primeira explicação convincente do arco-íris foi dada no começo do século 14 por um frade alemão, Teodorico de Freiberg.\nPor que o arco-íris parece inacabado quando visto do chão?\nPorque o horizonte corta a parte de baixo do círculo.\nEm que a fábula do pote de ouro acerta sem querer?\nEla acerta porque o arco anda junto com quem o procura, e ninguém alcança o seu fim.\nComo chegou ao Brasil o culto a Oxumaré?\nChegou com a diáspora africana, junto com as pessoas trazidas à força para a escravidão."
+    },
+    {
+      "title": "A sala que toca junto",
+      "summary": "An interview with an acoustic engineer about how a concert hall carries sound without any amplifier.",
+      "newWords": [
+        "passeata",
+        "virtuoso",
+        "amplificador",
+        "atenuar",
+        "blecaute",
+        "cantiga",
+        "chicote",
+        "comover"
+      ],
+      "text": "A engenheira acústica Renata Alves passou 20 anos medindo o som de salas de concerto pelo Brasil.\n\n— O que faz uma boa sala de concertos?\n\n— Quando um músico toca uma nota, o som não chega até nós só pelo caminho direto. Ele bate nas paredes, no teto e no chão e chega aos nossos ouvidos várias vezes, um pouco atrasado. Esses reflexos prolongam a nota depois que o músico parou. Para a música sinfônica, o ideal é que o som leve cerca de 2 segundos para desaparecer. Menos do que isso, a música fica seca; muito mais, as notas se misturam numa confusão. Ao ar livre, numa praça ou numa passeata, não há paredes para devolver o som, e ele se perde. Quem já tentou ouvir um discurso no meio de uma passeata sabe bem disso.\n\n— Como se chegou a esse número?\n\n— Graças a um físico americano, Wallace Sabine. No fim do século 19, ele mediu o som de várias salas da universidade onde trabalhava, com um relógio e as almofadas das cadeiras de um teatro. Assim, descobriu uma regra que liga o tamanho da sala e os materiais ao tempo que o som leva para sumir. O Symphony Hall de Boston, inaugurado em 1900, foi a primeira sala projetada com essa regra.\n\n— E os materiais, o que fazem?\n\n— Cortinas, tapetes e até as roupas do público atenuam o som. Por isso as poltronas são cobertas de tecido: uma poltrona vazia deve atenuar o som quase tanto quanto uma pessoa sentada, para que o ensaio, com a sala vazia, soe parecido com o concerto. A Sala São Paulo, inaugurada em 1999, tem ainda um teto de painéis que sobem e descem, para ajustar a sala a cada tipo de música.\n\n— Numa sala assim não há nenhum amplificador?\n\n— Nenhum. A própria sala é o amplificador. Quando um virtuoso do violino toca uma nota baixinha, quem está na última fila precisa ouvi-la, e numa sala boa o virtuoso não precisa forçar nada. Uma vez, durante um ensaio, houve um blecaute no bairro inteiro. Os músicos acenderam as lanternas dos celulares e continuaram tocando, e o som não mudou. Num show de rock, um blecaute acaba com a festa, porque sem eletricidade nenhum amplificador funciona.\n\n— E os sons mais fortes?\n\n— Um concerto para piano de Ravel começa com um estalo de chicote. Na orquestra, o chicote é um instrumento feito de duas tábuas de madeira que batem uma na outra. O chicote de verdade estala porque a sua ponta passa da velocidade do som; aquele estalo é uma pequena onda de choque.\n\n— A senhora tem algum ritual ao chegar a uma sala nova?\n\n— Tenho. Subo ao palco e canto uma cantiga de roda que a minha avó cantava. Pela maneira como a cantiga volta para mim, já sei muita coisa sobre a sala. Uma boa sala é aquela que deixa a música comover. Já vi uma plateia inteira comovida por uma única nota.\n\nPerguntas:\nO que acontece com o som de uma nota dentro de uma sala?\nEle bate nas paredes, no teto e no chão e chega aos nossos ouvidos várias vezes, um pouco atrasado.\nPor que as poltronas são cobertas de tecido?\nPorque uma poltrona vazia deve atenuar o som quase tanto quanto uma pessoa sentada.\nO que aconteceu durante o blecaute no ensaio?\nOs músicos continuaram tocando, e o som não mudou, porque a sala não usava nenhum amplificador.\nPara que Renata canta uma cantiga de roda numa sala nova?\nPela maneira como a cantiga volta para ela, Renata já sabe muita coisa sobre a sala."
+    },
+    {
+      "title": "A professora da cozinha",
+      "summary": "A profile of a physics teacher from Espírito Santo who teaches with straws, paper napkins, crabs and a charcoal grill.",
+      "newWords": [
+        "capixaba",
+        "fobia",
+        "individualidade",
+        "capilar",
+        "canudo",
+        "girafa",
+        "siri",
+        "abanar",
+        "sadio"
+      ],
+      "text": "Lúcia Rangel, de 52 anos, é capixaba de Vila Velha e dá aulas de física numa escola pública de Vitória há quase 30 anos. Muitos alunos chegam à sua turma com verdadeira fobia de física: medo das fórmulas, das contas, da prova. Lúcia conhece bem essa fobia, porque também a teve na escola. A sua solução foi trocar o quadro pela cozinha.\n\nToda semana, ela leva a turma para a pequena cozinha da escola. Num dia, coloca a ponta de um guardanapo de papel num copo de água colorida e pede aos alunos que observem. Aos poucos, a água sobe pelo papel, contra o próprio peso. É a ação capilar: entre as fibras do papel há espaços finíssimos, e a água, atraída por elas, vai subindo de espaço em espaço. O mesmo fenômeno capilar faz um pedaço de pão absorver o café.\n\nNoutro dia, ela distribui um canudo para cada aluno e um copo de suco. Quando chupamos um canudo, explica, não puxamos o suco: tiramos o ar de dentro do canudo, e é o peso do ar sobre o copo que empurra o suco para cima. Então vem a pergunta preferida dela: uma girafa conseguiria tomar suco com um canudo de 15 metros? A resposta é não. Mesmo com uma bomba perfeita, o ar só consegue empurrar a água até cerca de 10 metros. Nenhuma girafa, por mais forte que fosse, venceria esse limite. Os alunos riem, mas nunca mais esquecem a girafa nem a pressão do ar.\n\nO calor ela ensina com uma lembrança de infância. O pai de Lúcia era pescador, e em casa se cozinhava muito siri, ingrediente da famosa torta capixaba. Ela conta aos alunos que o siri entra escuro na panela e sai vermelho. O pigmento vermelho estava lá desde o começo, preso a uma proteína que o escondia; o calor desfaz essa ligação, e a cor aparece. Um siri cozido, diz ela, é uma aula de química e de física ao mesmo tempo.\n\nNos dias de festa, a aula vai para a churrasqueira. Lúcia pede a um aluno que comece a abanar o carvão: mais ar significa mais oxigênio, e o fogo fica mais forte. Depois, num dia quente, pede que cada um volte a abanar, desta vez o próprio rosto. O ar em movimento ajuda o suor a secar, e a água, ao secar, leva consigo o calor da pele.\n\nLúcia acredita que cada turma é formada por pessoas muito diferentes e procura respeitar a individualidade de cada aluno. Uns aprendem mexendo nas coisas; outros, fazendo contas; outros, conversando. Respeitar essa individualidade, para ela, é parte do trabalho.\n\nO que ela mais deseja, diz, é deixar nos alunos uma curiosidade sadia, que dure depois da escola. Uma curiosidade sadia não precisa de laboratório caro. Às vezes, basta uma cozinha.\n\nPerguntas:\nDe onde é Lúcia Rangel?\nEla é capixaba de Vila Velha.\nCom que problema muitos alunos chegam à sua turma?\nEles chegam com fobia de física: medo das fórmulas, das contas e da prova.\nO que acontece com o guardanapo na água colorida?\nA água sobe pelo papel por causa da ação capilar.\nPor que uma girafa não conseguiria tomar suco com um canudo de 15 metros?\nPorque, mesmo com uma bomba perfeita, o ar só consegue empurrar a água até cerca de 10 metros.\nPor que o siri fica vermelho na panela?\nPorque o calor desfaz a ligação entre o pigmento vermelho e a proteína que o escondia."
+    },
+    {
+      "title": "O urubu e o asfalto",
+      "summary": "On hot afternoons in a town in the backcountry, the narrator watches vultures ride rising warm air and thinks about how houses and cars deal with heat.",
+      "newWords": [
+        "urubu",
+        "emanar",
+        "macabro",
+        "gambá",
+        "caiar",
+        "oca",
+        "fusca"
+      ],
+      "text": "Passo as férias de janeiro na casa da minha tia, numa pequena cidade do sertão. Depois do almoço, quando o calor é mais forte, sento na varanda e fico olhando os urubus. Eles sobem em círculos largos, cada vez mais alto, sem bater as asas uma única vez. Durante anos achei que era preguiça. Era física.\n\nO sol não aquece o chão por igual. O asfalto da rua, a terra seca e os telhados esquentam muito mais do que a grama ou a água do açude. Do asfalto quente emana um calor que se sente de longe. Esse calor que emana do chão aquece o ar logo acima, e o ar quente, menos denso, sobe como uma bolha, formando colunas invisíveis que os pilotos de planadores chamam de térmicas. O urubu encontra uma dessas colunas e começa a girar dentro dela, deixando-se levar. Quando chega ao topo, abre as asas e desce devagar até a próxima. Pode voar assim horas a fio, gastando quase nenhuma energia.\n\nA fama do urubu, porém, é macabra. Ave preta, de cabeça sem penas, ele aparece onde há bicho morto e, por isso, entra em muitas histórias de medo. Essa fama macabra é injusta. Comendo animais mortos, o urubu limpa o campo e ajuda a evitar doenças. Algo parecido acontece com o gambá, que visita o quintal da minha tia à noite. Muita gente tem nojo dele, mas o gambá come insetos, ratos e até escorpiões.\n\nNa cidade, as pessoas também aprenderam a lidar com o sol. Todo ano, antes das festas, a minha tia manda caiar a fachada da casa. A parede caiada, branca como leite, reflete a maior parte da luz do sol e esquenta pouco; uma parede escura absorveria essa luz e a transformaria em calor. Não é por acaso que se costuma caiar as casas em tantas regiões quentes do mundo.\n\nOs povos indígenas resolveram o mesmo problema de outra maneira. Numa oca do Xingu, o grande teto de palha desce quase até o chão. A palha grossa, cheia de ar preso entre as folhas, segura o calor do sol antes que ele chegue a quem está dentro. Por isso, mesmo nas horas mais quentes, o interior de uma oca costuma ser fresco.\n\nNa garagem, o fusca do meu tio, de 1975, tem outra solução. O motor do fusca não usa água: fica atrás e é resfriado a ar. Um ventilador movido pelo próprio motor sopra ar sobre aletas de metal, que aumentam a superfície de contato e deixam o calor escapar.\n\nNo fim da tarde, o asfalto esfria, as colunas de ar quente desaparecem e os urubus pousam nas árvores. Amanhã, quando o sol voltar a esquentar o chão, eles voltarão a subir, sem esforço, pelas mesmas escadas invisíveis.\n\nPerguntas:\nO que o narrador observa da varanda, depois do almoço?\nEle observa os urubus subindo em círculos, sem bater as asas.\nComo se formam as colunas de ar quente?\nO calor emana do asfalto e da terra seca, aquece o ar logo acima, e esse ar, menos denso, sobe como uma bolha.\nPor que a fama macabra do urubu é injusta?\nPorque, comendo animais mortos, ele limpa o campo e ajuda a evitar doenças.\nPor que a parede caiada esquenta pouco?\nPorque é branca e reflete a maior parte da luz do sol.\nComo o motor do fusca é resfriado?\nÉ resfriado a ar: um ventilador sopra ar sobre aletas de metal, que deixam o calor escapar."
+    },
+    {
+      "title": "O padre que sintonizou o ar",
+      "summary": "A short history of how a radio tunes in a station, of a Brazilian priest-inventor and of the dispute over who invented radio.",
+      "newWords": [
+        "sintonizar",
+        "bobina",
+        "tesla",
+        "consensual",
+        "patriarca",
+        "catolicismo",
+        "reconciliar",
+        "trâmite",
+        "litígio"
+      ],
+      "text": "Girar o botão de um rádio antigo até ouvir com clareza uma estação é um gesto tão simples que ninguém pensa nele. No entanto, sintonizar uma estação é uma pequena maravilha da física.\n\nO ar à nossa volta está cheio de ondas de rádio de várias estações ao mesmo tempo, cada uma com a sua frequência. A antena recebe todas elas. Para sintonizar uma só, o rádio usa um circuito formado por uma bobina, um fio enrolado muitas vezes, e por um conjunto de placas de metal que se aproximam ou se afastam quando giramos o botão. Esse circuito tem uma frequência própria, como um balanço tem o seu ritmo próprio. Se empurramos um balanço no ritmo certo, ele vai cada vez mais alto; se empurramos fora do ritmo, ele mal se mexe. Da mesma forma, o circuito responde com força só à estação que tem a sua frequência. Ao girar o botão, mudamos essa frequência e escolhemos a estação.\n\nBobinas como essa estão em toda parte, e uma das mais famosas leva o nome de Nikola Tesla. Em sua homenagem, o tesla tornou-se em 1960 a unidade de medida do campo magnético. O campo magnético da Terra vale cerca de 0,00005 tesla; um aparelho de ressonância magnética de hospital trabalha com 1,5 ou 3 tesla.\n\nQuem inventou o rádio? A resposta não é consensual. Muitos apontam o italiano Guglielmo Marconi, que obteve a sua primeira patente em 1896 e, em 1901, enviou um sinal através do Atlântico. Vários países, porém, têm o seu candidato a patriarca do rádio, e o Brasil tem o padre Roberto Landell de Moura, nascido em Porto Alegre em 1861. Esse patriarca brasileiro do rádio era padre e cientista ao mesmo tempo. Em 1900, segundo jornais da época, ele transmitiu a voz humana, sem fios, entre dois bairros de São Paulo, a cerca de 8 quilômetros de distância.\n\nNo catolicismo da época, nem todos entendiam um padre que passava as noites entre fios e bobinas. Para Landell, porém, não havia o que reconciliar: o catolicismo e a ciência eram, para ele, caminhos que não se opunham. Nunca precisou reconciliar uma com a outra, porque, para ele, nunca tinham brigado.\n\nA parte mais difícil foi a burocracia. Depois de obter uma patente no Brasil, em 1901, Landell foi para os Estados Unidos e enfrentou ali todos os trâmites do escritório de patentes. Os trâmites levaram anos, mas em 1904 ele recebeu 3 patentes americanas.\n\nA disputa sobre a invenção, aliás, chegou aos tribunais. A empresa de Marconi abriu um litígio contra o governo dos Estados Unidos, e esse litígio só terminou em 1943, quando a Suprema Corte anulou parte de uma patente de Marconi, apontando trabalhos anteriores de outros inventores, entre eles Tesla. Da próxima vez que você sintonizar uma estação, lembre-se de que muita gente ajudou a construir aquele gesto tão simples.\n\nPerguntas:\nComo o rádio consegue sintonizar uma única estação?\nEle usa um circuito com uma bobina e placas de metal, que responde com força só à estação que tem a sua frequência.\nO que o tesla mede?\nO tesla é a unidade de medida do campo magnético.\nPor que a resposta sobre quem inventou o rádio não é consensual?\nPorque vários países têm o seu candidato, como Marconi, na Itália, e Landell de Moura, no Brasil.\nPor que Landell não precisava reconciliar a ciência e a fé?\nPorque ele via as duas como caminhos que não se opunham.\nComo terminou o litígio da empresa de Marconi?\nTerminou em 1943, quando a Suprema Corte anulou parte de uma patente de Marconi."
+    }
+  ]
+}
