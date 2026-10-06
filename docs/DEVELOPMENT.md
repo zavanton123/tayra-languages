@@ -172,7 +172,7 @@ A word's status on the screen is its own term's, or else the furthest status amo
 reader has saved.
 
 The vocabulary level (a band's button, which sets it to the rank just above the band as in
-Language Reactor, or Vocabulary settings) is stored per language
+Language Reactor, or Settings → Vocabulary) is stored per language
 in `vocabulary_levels`. Setting it saves every word ranked up to it, and its forms linked to it as
 parent, as known terms, except text the language already has a term for; the terms it saved are
 listed in `level_terms`, so a lower level deletes those still known and leaves any the reader

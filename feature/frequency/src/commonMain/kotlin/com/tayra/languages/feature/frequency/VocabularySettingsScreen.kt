@@ -70,7 +70,7 @@ fun VocabularySettingsScreen(onNavigate: (Route) -> Unit, viewModel: VocabularyS
     CollectEvents(viewModel.events) { toast.show(it) }
     ToastHost(toast)
     Scaffold(
-        topBar = { AppTopBar(title = "Vocabulary settings", onNavigate = onNavigate, section = NavSection.TERMS) },
+        topBar = { AppTopBar(title = "Vocabulary settings", onNavigate = onNavigate, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -78,16 +78,32 @@ fun VocabularySettingsScreen(onNavigate: (Route) -> Unit, viewModel: VocabularyS
             return@Scaffold
         }
         PageColumn(padding) {
-            VocabularySettingsContent(state, onPick = viewModel::pick, onSave = viewModel::save, onWordFrequency = { onNavigate(Route.WordFrequency) })
+            VocabularySettingsContent(
+                state,
+                onPick = viewModel::pick,
+                onSave = viewModel::save,
+                onWordFrequency = { onNavigate(Route.WordFrequency) },
+                onBackToSettings = { onNavigate(Route.Settings) },
+            )
         }
     }
 }
 
 @Composable
-internal fun VocabularySettingsContent(state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit, onWordFrequency: () -> Unit) {
+internal fun VocabularySettingsContent(
+    state: VocabularySettingsUiState,
+    onPick: (Int) -> Unit,
+    onSave: () -> Unit,
+    onWordFrequency: () -> Unit,
+    onBackToSettings: (() -> Unit)? = null,
+) {
     val wide = LocalWindowWidth.current.isExpanded
     var confirming by remember { mutableStateOf(false) }
-    ScreenHeader("Vocabulary settings", if (state.languageName.isEmpty()) "How much of the language you know already." else "How much ${state.languageName} you know already.")
+    ScreenHeader(
+        "Vocabulary",
+        if (state.languageName.isEmpty()) "How much of the language you know already." else "How much ${state.languageName} you know already.",
+        onBackToSettings = onBackToSettings,
+    )
     val list = state.list
     if (list == null) {
         ContentCard("Vocabulary level", "There is no word frequency list for ${state.languageName.ifEmpty { "this language" }}, so a level cannot be set.", icon = AppIcons.BarChart) {}
