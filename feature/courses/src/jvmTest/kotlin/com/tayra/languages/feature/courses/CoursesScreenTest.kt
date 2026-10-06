@@ -80,7 +80,7 @@ class CoursesScreenTest {
         System.getenv(env)?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
     }
 
-    private val ids = (100..1000 step 100).map { "pt-freq-" + it.toString().padStart(4, '0') }
+    private val ids = (100..1000 step 100).map { "pt-mini-" + it.toString().padStart(4, '0') }
 
     private fun ComposeUiTest.shown(): List<String> =
         ids.filter { onAllNodesWithTag("course-$it").fetchSemanticsNodes().isNotEmpty() }
@@ -99,8 +99,8 @@ class CoursesScreenTest {
         save("COURSES_SCREENSHOT")
 
         // The search looks in lesson titles too.
-        onNodeWithTag("course-search").performTextInput("Natal em Natal")
-        waitUntil(timeoutMillis = 5_000) { shown() == listOf("pt-freq-0900") }
+        onNodeWithTag("course-search").performTextInput("O prêmio da Clara")
+        waitUntil(timeoutMillis = 5_000) { shown() == listOf("pt-mini-0800") }
         onNodeWithText("1 course").assertExists()
         onNodeWithTag("course-search").performTextClearance()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("10 courses").fetchSemanticsNodes().isNotEmpty() }
@@ -121,37 +121,37 @@ class CoursesScreenTest {
         onNodeWithText("Not started").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("10 courses").fetchSemanticsNodes().isNotEmpty() }
 
-        onNodeWithTag("course-pt-freq-0200").performClick()
-        assertEquals(listOf("pt-freq-0200"), opened)
+        onNodeWithTag("course-pt-mini-0200").performClick()
+        assertEquals(listOf("pt-mini-0200"), opened)
     }
 
     @Test
     fun aCourseListsItsLessonsAndOpensThemForReading() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = CourseViewModel("pt-freq-0100", service)
+        val viewModel = CourseViewModel("pt-mini-0100", service)
         val read = java.util.Collections.synchronizedList(mutableListOf<Long>())
         val collecting = CoroutineScope(Dispatchers.Default).launch { viewModel.events.flow.collect { if (it is CourseEvent.Read) read += it.bookId } }
         host {
             val state by viewModel.state.collectAsState()
             if (!state.loading) CourseContent(state, onOpenLesson = viewModel::openLesson, onCourses = {})
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("O gato de ninguém").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Em casa e com a família").fetchSemanticsNodes().isNotEmpty() }
         // The first lesson is picked out as the place to start.
         onNodeWithText("Start here").assertExists()
         save("COURSE_NEW_SCREENSHOT")
-        for (lesson in listOf("O primeiro dia", "Pipoca", "Duas casas")) onNodeWithText(lesson).assertExists()
+        for (lesson in listOf("A casa nova", "Onde está o Tom?", "Um computador para dois")) onNodeWithText(lesson).assertExists()
         onNodeWithText("Start course").assertExists()
 
-        onNodeWithTag("lesson-pt-freq-0100-01").performClick()
+        onNodeWithTag("lesson-pt-mini-0100-01").performClick()
         waitUntil(timeoutMillis = 5_000) { read.size == 1 }
         val bookId = read.single()
-        assertEquals("O primeiro dia", runBlocking { books.getBook(bookId) }?.title)
+        assertEquals("A casa nova", runBlocking { books.getBook(bookId) }?.title)
 
         // Reading the lesson to its end completes it, and the course goes on with the next.
         runBlocking {
             reading.openPage(bookId, 1, trackOpen = true)
             reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue: Pipoca").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue: Onde está o Tom?").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("1 of 10 read").assertExists()
         onNodeWithText("Continue here").assertExists()
         assertEquals(0, onAllNodesWithText("Start here").fetchSemanticsNodes().size)

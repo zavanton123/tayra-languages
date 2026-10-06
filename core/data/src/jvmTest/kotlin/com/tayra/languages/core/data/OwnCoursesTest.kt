@@ -13,6 +13,7 @@ import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.courses.CourseValidationException
 import com.tayra.languages.core.domain.courses.LessonDraft
+import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.service.BookService
 import kotlinx.coroutines.flow.first
@@ -170,7 +171,7 @@ class OwnCoursesTest {
         val pt = languages.save(Language(name = "Portuguese"))
         fun course(id: String, rank: Int?) = Course(id, "pt", id, "", CourseLevel.A1, "", listOf(Lesson("$id-1", "Um", "", "Texto um.")), rankUpTo = rank)
         val retired = listOf("pt-primeiros-passos", "pt-vida-na-cidade", "pt-historias-curtas")
-        val seeding = CourseService(books, languages, bookService, repository, SampleCourseSource { retired.map { course(it, null) } + course("pt-freq-0100", 100) })
+        val seeding = CourseService(books, languages, bookService, repository, SampleCourseSource { retired.map { course(it, null) } + course("pt-mini-0100", 100) })
         seeding.seedSamples()
         val opened = assertNotNull(seeding.openLesson("pt-primeiros-passos", "pt-primeiros-passos-1"))
         val mine = seeding.createCourse(pt, CourseDraft("Minhas leituras"))
@@ -179,8 +180,27 @@ class OwnCoursesTest {
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
         val upgradedBooks = BookRepositoryImpl(reopened)
         val upgraded = CourseService(upgradedBooks, LanguageRepositoryImpl(reopened), BookService(upgradedBooks, LanguageRepositoryImpl(reopened)), CourseRepositoryImpl(reopened), SampleCourseSource { emptyList() })
-        assertEquals(listOf("pt-freq-0100", mine), upgraded.observeCourses(pt).first().map { it.course.id })
+        assertEquals(listOf("pt-mini-0100", mine), upgraded.observeCourses(pt).first().map { it.course.id })
         assertNull(upgradedBooks.getBook(opened), "the text read from a retired lesson goes too")
         assertNull(upgradedBooks.lessonBookId("pt-primeiros-passos-1"))
+    }
+
+    @Test
+    fun theFirstFrequencyCoursesGiveWayToTheMiniStories() = runTest {
+        val pt = languages.save(Language(name = "Portuguese"))
+        fun course(id: String, rank: Int) = Course(id, "pt", id, "", CourseLevel.A1, "", listOf(Lesson("$id-01", "Um", "", "Texto um.")), rankUpTo = rank)
+        val old = CourseService(books, languages, bookService, repository, SampleCourseSource { listOf(course("pt-freq-0100", 100), course("pt-freq-0200", 200)) })
+        old.seedSamples()
+        val opened = assertNotNull(old.openLesson("pt-freq-0100", "pt-freq-0100-01"))
+        val own = bookService.create(BookDraft(languageId = pt, title = "Mine", text = "Um texto."))
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute("PRAGMA user_version = 16") }
+
+        val reopened = DatabaseProvider(DatabaseDriverFactory(file))
+        val upgradedBooks = BookRepositoryImpl(reopened)
+        val upgraded = CourseService(upgradedBooks, LanguageRepositoryImpl(reopened), BookService(upgradedBooks, LanguageRepositoryImpl(reopened)), CourseRepositoryImpl(reopened), SampleCourseSource { listOf(course("pt-mini-0100", 100)) })
+        upgraded.seedSamples()
+        assertEquals(listOf("pt-mini-0100"), upgraded.observeCourses(pt).first().map { it.course.id })
+        assertNull(upgradedBooks.getBook(opened), "the text read from a replaced lesson goes too")
+        assertNotNull(upgradedBooks.getBook(own), "the reader's own books stay")
     }
 }

@@ -9,7 +9,7 @@ frequency list, lesson by lesson, so generated lessons stay readable at their le
   course, and used at least twice in its lesson, counting its forms;
 - length: words per lesson within the course's range.
 
-Usage: python3 tools/check_course.py tools/courses/pt/pt-freq-0100.json [--brief]
+Usage: python3 tools/check_course.py tools/courses/pt/pt-mini-0100.json [--brief]
 Exit status 0 when every lesson passes.
 """
 import json
@@ -26,12 +26,12 @@ BAND = 100
 def rules(rank_up_to):
     """Coverage and length a lesson needs: the first courses have few words to work with."""
     if rank_up_to <= 100:
-        return 0.90, 50, 130
+        return 0.90, 80, 180
     if rank_up_to <= 300:
-        return 0.93, 80, 180
+        return 0.93, 120, 240
     if rank_up_to <= 600:
-        return 0.95, 130, 240
-    return 0.95, 170, 300
+        return 0.95, 180, 320
+    return 0.95, 220, 380
 
 
 def load_list(code):

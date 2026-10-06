@@ -12,7 +12,7 @@ class BundledSampleCoursesTest {
         val courses = BundledSampleCourses().courses("pt")
         assertEquals((100..1000 step 100).toList(), courses.map { it.rankUpTo })
         courses.forEach { course ->
-            assertTrue(course.id.startsWith("pt-freq-") && course.lessons.size == 10, course.id)
+            assertTrue(course.id.startsWith("pt-mini-") && course.lessons.size == 10, course.id)
             assertTrue(course.lessons.all { it.newWords.isNotEmpty() && it.text.isNotBlank() }, course.id)
         }
         assertEquals(emptyList(), BundledSampleCourses().courses("xx"))

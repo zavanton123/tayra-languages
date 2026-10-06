@@ -146,13 +146,13 @@ class OwnCoursesScreenTest {
 
     @Test
     fun aSampleCourseIsTaggedAndCanBeChangedToo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = CourseViewModel("pt-freq-0100", service)
+        val viewModel = CourseViewModel("pt-mini-0100", service)
         host { CourseContent(viewModel.state.collectAsStateValue(), onOpenLesson = {}, onCourses = {}, editing = CourseEditing()) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("O gato de ninguém").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Em casa e com a família").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Sample course").assertExists()
         onNodeWithTag("edit-course").assertExists()
         onNodeWithTag("add-lesson").assertExists()
-        onNodeWithTag("lesson-menu-pt-freq-0100-01").assertExists()
+        onNodeWithTag("lesson-menu-pt-mini-0100-01").assertExists()
         System.getenv("SAMPLE_COURSE_SCREENSHOT")?.let { save(it) }
     }
 

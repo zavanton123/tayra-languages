@@ -274,8 +274,8 @@ class ReadingHoverTest {
     @Test
     fun aLessonIsShownAsPartOfItsCourse() {
         val course = Course(
-            "pt-freq-0100", "pt", "O gato de ninguém", "", CourseLevel.A1, "",
-            listOf(Lesson("pt-freq-0100-01", "O primeiro dia", "", "O lobo dorme."), Lesson("pt-freq-0100-02", "Pipoca", "", "O lobo dorme.")),
+            "pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "",
+            listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme."), Lesson("pt-mini-0100-02", "Onde está o Tom?", "", "O lobo dorme.")),
         )
         val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[1])) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }

@@ -1,0 +1,53 @@
+-- The first frequency courses (pt-freq-*) are replaced by the mini-story courses (pt-mini-*): they go,
+-- with the texts made from their lessons.
+-- Each table is cleared in turn, children first, as not every driver enforces the foreign keys.
+UPDATE words_read SET page_id = NULL WHERE page_id IN (
+    SELECT p.id FROM pages p
+    INNER JOIN course_lessons cl ON cl.book_id = p.book_id
+    INNER JOIN lessons l ON l.id = cl.lesson_id
+    WHERE l.course_id LIKE 'pt-freq-%'
+);
+
+DELETE FROM sentences WHERE page_id IN (
+    SELECT p.id FROM pages p
+    INNER JOIN course_lessons cl ON cl.book_id = p.book_id
+    INNER JOIN lessons l ON l.id = cl.lesson_id
+    WHERE l.course_id LIKE 'pt-freq-%'
+);
+
+DELETE FROM page_bookmarks WHERE page_id IN (
+    SELECT p.id FROM pages p
+    INNER JOIN course_lessons cl ON cl.book_id = p.book_id
+    INNER JOIN lessons l ON l.id = cl.lesson_id
+    WHERE l.course_id LIKE 'pt-freq-%'
+);
+
+DELETE FROM pages WHERE book_id IN (
+    SELECT cl.book_id FROM course_lessons cl INNER JOIN lessons l ON l.id = cl.lesson_id
+    WHERE l.course_id LIKE 'pt-freq-%'
+);
+
+DELETE FROM book_tag_map WHERE book_id IN (
+    SELECT cl.book_id FROM course_lessons cl INNER JOIN lessons l ON l.id = cl.lesson_id
+    WHERE l.course_id LIKE 'pt-freq-%'
+);
+
+DELETE FROM book_stats WHERE book_id IN (
+    SELECT cl.book_id FROM course_lessons cl INNER JOIN lessons l ON l.id = cl.lesson_id
+    WHERE l.course_id LIKE 'pt-freq-%'
+);
+
+DELETE FROM books WHERE id IN (
+    SELECT cl.book_id FROM course_lessons cl INNER JOIN lessons l ON l.id = cl.lesson_id
+    WHERE l.course_id LIKE 'pt-freq-%'
+);
+
+DELETE FROM course_lessons WHERE lesson_id IN (
+    SELECT id FROM lessons WHERE course_id LIKE 'pt-freq-%'
+);
+
+DELETE FROM lessons WHERE course_id LIKE 'pt-freq-%';
+
+DELETE FROM courses WHERE id LIKE 'pt-freq-%';
+
+DELETE FROM seeded_courses WHERE course_id LIKE 'pt-freq-%';
