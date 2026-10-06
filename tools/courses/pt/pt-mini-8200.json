@@ -1,0 +1,223 @@
+{
+  "id": "pt-mini-8200",
+  "rankUpTo": 8200,
+  "level": "C2",
+  "title": "Prevenção e resiliência",
+  "description": "Ten calm texts on preparing for natural hazards and recovering from them: how a flood warning works, a civil defence volunteer, a town rebuilt after a landslide, earthquake-resistant buildings in Chile, living with drought in the semi-arid, a school drill, a linguist on warning messages, health after a flood, a night watch by a stream, and a review of a book on prepared cities.",
+  "topic": "Disaster prevention and resilience",
+  "names": [
+    "Brasil",
+    "Defesa",
+    "Civil",
+    "Marlene",
+    "Brasília",
+    "Rio de Janeiro",
+    "Rio",
+    "Janeiro",
+    "Diego",
+    "São Joaquim do Vale",
+    "São",
+    "Joaquim",
+    "Vale",
+    "Helena",
+    "Afonso",
+    "Chile",
+    "Nazca",
+    "Pacífico",
+    "Valdivia",
+    "Gran Torre Santiago",
+    "Gran",
+    "Torre",
+    "Santiago",
+    "América do Sul",
+    "América",
+    "Sul",
+    "Atacama",
+    "Andes",
+    "Mendoza",
+    "San Juan",
+    "San",
+    "Juan",
+    "Pernambuco",
+    "Socorro",
+    "Afogados da Ingazeira",
+    "Afogados",
+    "Ingazeira",
+    "Bahia",
+    "lear",
+    "Monte Alegre",
+    "Monte",
+    "Alegre",
+    "Tiago",
+    "Pedro",
+    "Lia",
+    "Carolina Prado",
+    "Carolina",
+    "Prado",
+    "Minas Gerais",
+    "Minas",
+    "Gerais",
+    "Libras",
+    "Ivone",
+    "Biscoito",
+    "Jorge",
+    "Renata Albuquerque",
+    "Renata",
+    "Albuquerque"
+  ],
+  "lessons": [
+    {
+      "title": "Da gota ao aviso: como funciona um alerta de enchente",
+      "summary": "An explanation of how a flood warning system turns rain measurements into a message on every resident's phone.",
+      "newWords": [
+        "acumulação",
+        "regularidade",
+        "radiodifusão",
+        "disque",
+        "haste",
+        "urgentemente",
+        "planilha"
+      ],
+      "text": "Quando a chuva começa a cair numa cidade de serra, muita gente olha para o céu e tenta adivinhar se aquela água vai passar ou vai virar problema. Os técnicos da Defesa Civil não precisam adivinhar. Eles trabalham com números, e o caminho que leva da primeira gota até o aviso no celular de cada morador é mais simples do que parece.\n\nTudo começa com a medição. Em vários pontos da cidade, há pequenos aparelhos presos no alto de uma haste de metal, longe de árvores e telhados, que recolhem a chuva e medem quantos milímetros caíram. A haste existe por um motivo prático: se o aparelho ficasse perto do chão ou embaixo de uma árvore, a medida sairia errada. Os dados seguem pela internet com regularidade, em intervalos de poucos minutos, e é essa regularidade que permite acompanhar a chuva quase em tempo real.\n\nUm único número, porém, diz pouco. O que interessa aos técnicos é a acumulação: quanto choveu nas últimas horas e nos últimos dias. Uma chuva forte depois de uma semana seca costuma ser absorvida pelo solo. A mesma chuva, depois de três dias de chuva fina, encontra a terra molhada, e aí a acumulação de água pode provocar enchentes nos rios e deslizamentos nas encostas.\n\nPara não depender da memória de ninguém, a equipe organiza tudo numa planilha. Em cada linha da planilha está um bairro; nas colunas, a chuva acumulada em 24, 48 e 72 horas e os limites que, segundo estudos anteriores, indicam perigo. Quando um número passa do limite, a célula muda de cor, e o técnico de plantão sabe que precisa agir.\n\nO aviso então segue por vários caminhos ao mesmo tempo. Quem cadastrou o endereço recebe uma mensagem de texto, e quem está com o celular ligado pode receber um alerta que toca mesmo no modo silencioso. As rádios locais também são avisadas, porque a radiodifusão continua chegando às casas quando falta luz ou a internet cai: um rádio a pilha não depende da rede elétrica.\n\nO texto do aviso é curto e direto: diz o que está acontecendo, onde e o que fazer. Se a mensagem pede que os moradores de uma área deixem a casa urgentemente, a orientação é ir para um ponto de apoio já conhecido, como uma escola ou uma igreja, sem esperar a água subir. Em caso de dúvida, disque 199, o número da Defesa Civil, ou 193, o dos bombeiros.\n\nNenhum sistema funciona sozinho. Ele depende de aparelhos bem cuidados, de técnicos atentos e, sobretudo, de moradores que conhecem o caminho até o ponto de apoio. Por isso, as cidades que levam o tema a sério fazem treinamentos todos os anos, antes da estação das chuvas.\n\nPerguntas:\nPor que o aparelho que mede a chuva fica no alto de uma haste?\nPorque, perto do chão ou embaixo de uma árvore, a medida sairia errada.\nPor que a acumulação de chuva importa mais do que um único número?\nPorque a mesma chuva é mais perigosa quando a terra já está molhada depois de dias de chuva fina.\nO que acontece na planilha quando um número passa do limite?\nA célula muda de cor, e o técnico de plantão sabe que precisa agir.\nPor que a radiodifusão é importante num alerta?\nPorque um rádio a pilha continua funcionando quando falta luz ou a internet cai.\nPara que número se deve ligar em caso de dúvida?\nDisque 199, o número da Defesa Civil, ou 193, o dos bombeiros.\nO que fazer quando o aviso pede que você saia urgentemente?\nIr para um ponto de apoio já conhecido, sem esperar a água subir."
+    },
+    {
+      "title": "A voluntária que conhece cada degrau do morro",
+      "summary": "A profile of a civil defence volunteer from Brasília who has spent twelve years helping her hillside neighbours prepare for the rains.",
+      "newWords": [
+        "brasiliense",
+        "persistência",
+        "blitz",
+        "dianteira",
+        "bingo",
+        "malhação",
+        "caçula",
+        "cadete"
+      ],
+      "text": "Marlene tem 58 anos, é brasiliense e mora há 25 anos numa cidade serrana do estado do Rio de Janeiro. Os amigos costumam brincar que ela trouxe de Brasília o gosto pelas linhas retas e pelos planos bem desenhados. Para uma brasiliense, uma cidade de ruas tortas, subidas e escadarias parecia, no início, um labirinto. Hoje ela conhece cada degrau do bairro onde vive, no alto de um morro, e é uma das voluntárias mais antigas do núcleo comunitário de Defesa Civil.\n\nO núcleo reúne moradores que recebem treinamento para ajudar os vizinhos antes, durante e depois das chuvas. Marlene entrou no grupo há 12 anos, depois de uma tempestade que derrubou o muro da casa ao lado. Ninguém se feriu, mas ela percebeu que não sabia o que fazer. \"Fiquei parada na janela, olhando a água descer pela rua. Prometi a mim mesma que nunca mais ficaria assim\", conta.\n\nO trabalho dela é feito de pequenas tarefas repetidas com persistência. Ela atualiza a lista dos moradores que precisam de ajuda para sair de casa, como idosos e pessoas com deficiência; confere se as lanternas do núcleo têm pilhas; e visita, uma por uma, as famílias que chegaram há pouco ao bairro, para mostrar onde fica o ponto de apoio. \"A prevenção não tem nada de heroico. É persistência: repetir a mesma coisa até todo mundo saber\", diz.\n\nUma vez por ano, antes da estação das chuvas, o núcleo organiza uma blitz educativa na entrada do bairro. Os voluntários param os carros por alguns segundos, entregam um folheto com os números de emergência e explicam como se cadastrar para receber os alertas no celular. A blitz dura uma manhã inteira, e Marlene faz questão de ir na dianteira do grupo, com o colete laranja e os folhetos na mão. Ela gosta de tomar a dianteira porque, segundo ela, um rosto conhecido convence mais do que qualquer cartaz.\n\nPara pagar o material, o núcleo promove um bingo no salão da igreja. O bingo virou uma festa do bairro, com bolo, café e prêmios doados pelos comerciantes. Com o dinheiro do último bingo, o grupo comprou rádios a pilha e cordas novas.\n\nMarlene se cuida para continuar subindo as escadarias. Três vezes por semana, faz malhação numa academia ao ar livre perto da praça. \"A malhação não é vaidade. Quem trabalha num morro precisa de perna boa\", explica, rindo.\n\nO maior orgulho dela é o filho caçula, Diego, de 22 anos. O caçula da família cresceu acompanhando a mãe nas reuniões do núcleo e hoje é cadete na academia do Corpo de Bombeiros. Quando o cadete volta para casa nos fins de semana, os dois sobem juntos o morro para conferir as rotas de saída. \"Ele aprendeu comigo e agora me ensina coisas novas\", diz Marlene. \"É assim que deve ser.\"\n\nPerguntas:\nDe onde Marlene é?\nEla é brasiliense, de Brasília, e mora há 25 anos numa cidade serrana do Rio de Janeiro.\nPor que ela entrou no núcleo de Defesa Civil?\nPorque, durante uma tempestade, ela percebeu que não sabia o que fazer.\nSegundo Marlene, o que é a prevenção?\nÉ persistência: repetir a mesma coisa até todo mundo saber.\nO que os voluntários fazem na blitz educativa?\nEles param os carros, entregam folhetos e explicam como receber os alertas no celular.\nPara que serve o bingo do núcleo?\nO bingo serve para pagar o material, como rádios a pilha e cordas.\nQuem é Diego?\nDiego é o filho caçula de Marlene e é cadete na academia do Corpo de Bombeiros."
+    },
+    {
+      "title": "A cidade que voltou a sorrir",
+      "summary": "After a landslide destroys forty houses without killing anyone, an architect born in the town leads a hopeful rebuilding plan.",
+      "newWords": [
+        "urbanístico",
+        "cume",
+        "conglomerado",
+        "cavidade",
+        "ilegalidade",
+        "modular",
+        "inaugural",
+        "teólogo"
+      ],
+      "text": "Numa madrugada de janeiro, depois de quatro dias de chuva, parte da encosta que fica atrás da pequena cidade de São Joaquim do Vale deslizou. O alerta tinha chegado horas antes, e os moradores da área de risco já estavam no ginásio da escola quando a terra desceu. Ninguém morreu, mas 40 casas foram destruídas, e a cidade precisou decidir como recomeçar.\n\nA arquiteta Helena, que nasceu ali e trabalhava na capital, voltou para coordenar o novo plano urbanístico. Antes de desenhar qualquer coisa, ela subiu até o cume do morro com uma equipe de especialistas em solo. Lá do cume, era possível ver o caminho que a terra tinha percorrido e entender por que ela tinha cedido. Os especialistas explicaram que a encosta era formada, em parte, por um conglomerado, uma rocha feita de pedras redondas presas numa espécie de cimento natural. Em alguns pontos, a água tinha aberto cavidades por baixo do conglomerado, e foi por essas cavidades que o solo começou a se desfazer.\n\nO estudo mostrou também um problema antigo. Muitas das casas atingidas tinham sido construídas na ilegalidade, em terrenos que a própria prefeitura considerava perigosos. Helena fez questão de explicar que ilegalidade, nesse caso, não era sinônimo de culpa: as famílias tinham construído ali porque não havia outro lugar acessível para morar. O plano urbanístico, portanto, não podia apenas proibir; precisava oferecer uma alternativa.\n\nA alternativa foi um bairro novo, num terreno plano doado por uma antiga fazenda, a dois quilômetros do centro. Para que as famílias não esperassem anos, as casas foram feitas com um sistema modular: paredes e telhados chegavam prontos da fábrica e eram montados no local em poucas semanas. O sistema modular permitia também que cada família acrescentasse um quarto no futuro. A encosta, por sua vez, recebeu canais para a água da chuva, muros de pedra e milhares de árvores nativas, que vão segurar o solo com as raízes.\n\nNo dia da entrega das chaves, a cidade inteira se reuniu na praça do novo bairro. A cerimônia inaugural começou com a banda municipal e terminou com um almoço comunitário. O discurso inaugural ficou a cargo do padre Afonso, que, além de cuidar da igreja da cidade, é teólogo e dá aulas num seminário da região. O teólogo falou pouco. Disse que reconstruir uma cidade é um ato de esperança, porque ninguém planta uma árvore numa encosta sem acreditar que estará ali para vê-la crescer.\n\nCinco anos depois, as árvores da encosta já passam de dois metros. Helena voltou para a capital, mas sobe o morro sempre que visita a família. Do cume, ela gosta de olhar o bairro novo, com as roupas estendidas ao sol e as crianças brincando na praça.\n\nPerguntas:\nO que aconteceu com a encosta numa madrugada de janeiro?\nParte da encosta deslizou depois de quatro dias de chuva, mas ninguém morreu.\nPor que Helena subiu até o cume do morro?\nPara ver o caminho da terra e entender, com os especialistas, por que a encosta tinha cedido.\nO que é um conglomerado?\nÉ uma rocha feita de pedras redondas presas numa espécie de cimento natural.\nPor que muitas casas estavam na ilegalidade?\nPorque foram construídas em terrenos perigosos, já que as famílias não tinham outro lugar acessível.\nQual foi a vantagem do sistema modular?\nAs casas ficaram prontas em poucas semanas, e cada família poderá acrescentar um quarto no futuro.\nO que disse o teólogo no discurso inaugural?\nEle disse que reconstruir uma cidade é um ato de esperança."
+    },
+    {
+      "title": "Prédios que balançam, mas não caem",
+      "summary": "How Chile, one of the most earthquake-prone countries, learned to build towers, hospitals and even observatories that withstand strong tremors.",
+      "newWords": [
+        "intrigar",
+        "dureza",
+        "longevidade",
+        "icônico",
+        "astronomia",
+        "telescópio",
+        "imperfeito",
+        "fronteiriço"
+      ],
+      "text": "O Chile é um dos países que mais tremem no mundo. Ao longo de toda a costa, a placa de Nazca, que fica sob o oceano Pacífico, desliza lentamente por baixo da placa sul-americana, e a pressão acumulada se libera, de tempos em tempos, em terremotos. Foi lá que ocorreu o terremoto mais forte já medido por instrumentos, em 1960, perto da cidade de Valdivia, com magnitude 9,5. Viver no Chile é aprender a construir para um chão que se move.\n\nEm 2010, um terremoto de magnitude 8,8 atingiu o centro e o sul do país. Houve perdas, sobretudo na costa, atingida pelas grandes ondas que vieram depois do tremor. Mesmo assim, um fato intrigou engenheiros de vários países: pouquíssimos edifícios modernos caíram. O que os intrigava era uma pergunta simples: como prédios altos tinham resistido a um tremor tão forte?\n\nA resposta tem várias partes. A primeira é que, ao contrário do que se imagina, a dureza sozinha não salva um prédio. Um edifício muito rígido, incapaz de se dobrar, pode rachar de uma vez. Os prédios chilenos costumam ter muitas paredes de concreto armado, que dão resistência, e as normas exigem aço suficiente para que a estrutura possa se curvar um pouco sem se romper.\n\nA segunda parte é tecnológica. Alguns hospitais e prédios novos ficam sobre grandes blocos de borracha e aço, colocados entre o chão e a estrutura. Quando a terra treme, esses blocos absorvem boa parte do movimento, e o prédio balança devagar, como um barco numa onda longa.\n\nA terceira parte é cultural. Depois de cada grande terremoto, os chilenos revisam as normas de construção a partir do que deu errado. Esse hábito ajuda a explicar a longevidade dos edifícios: eles são feitos para durar décadas num país onde um forte tremor é quase certo. Ali, pensar na longevidade de uma obra é pensar nos terremotos que ela vai enfrentar.\n\nUm exemplo icônico é a Gran Torre Santiago, com cerca de 300 metros, um dos edifícios mais altos da América do Sul. Projetada para enfrentar terremotos fortes, a torre icônica da capital virou um símbolo dessa engenharia.\n\nO norte do Chile é um dos melhores lugares do planeta para a astronomia, graças ao céu limpo e seco do deserto do Atacama. Cada grande telescópio instalado ali precisa ser projetado para resistir aos tremores. Fazer astronomia no Chile exige conhecer tanto as estrelas quanto o chão, e nenhum telescópio é construído sem fundações pensadas para os terremotos.\n\nOs próprios engenheiros chilenos admitem que o sistema é imperfeito. Ninguém consegue prever o dia de um terremoto, e prédios antigos continuam frágeis. Mas um conhecimento imperfeito, corrigido a cada tremor, é melhor do que nenhum. Do outro lado dos Andes, na região fronteiriça, cidades argentinas como Mendoza e San Juan também constroem pensando nos terremotos.\n\nPerguntas:\nPor que o Chile tem tantos terremotos?\nPorque a placa de Nazca desliza por baixo da placa sul-americana ao longo da costa.\nO que intrigou os engenheiros depois do terremoto de 2010?\nIntrigou-os o fato de pouquíssimos edifícios modernos terem caído.\nPor que a dureza sozinha não salva um prédio?\nPorque um edifício muito rígido, incapaz de se dobrar, pode rachar de uma vez.\nO que explica a longevidade dos edifícios chilenos?\nEles são feitos para durar décadas, e as normas são revisadas depois de cada grande terremoto.\nPor que o norte do Chile é bom para a astronomia?\nPor causa do céu limpo e seco do deserto do Atacama.\nO que acontece na região fronteiriça, do outro lado dos Andes?\nCidades como Mendoza e San Juan também constroem pensando nos terremotos."
+    },
+    {
+      "title": "Conviver com a seca",
+      "summary": "A farmer in the semi-arid backlands of Pernambuco explains how cisterns, a vegetable garden and a strip of native scrub let her family live through the dry season.",
+      "newWords": [
+        "ardente",
+        "cílio",
+        "mula",
+        "carroça",
+        "verdura",
+        "fertilizante",
+        "cinturão",
+        "cascavel",
+        "arara"
+      ],
+      "text": "No sertão de Pernambuco, a chuva tem época marcada, ainda que nem sempre cumpra o combinado: costuma se concentrar em poucos meses do primeiro semestre e, no resto do ano, quase desaparece. Durante meses, o sol ardente castiga a terra, e a poeira fina, levantada pelo vento, gruda nos cílios de quem trabalha na roça. Dona Socorro, de 63 anos, conhece bem esse sol ardente e essa poeira nos cílios. Ela nasceu num sítio perto de Afogados da Ingazeira e já viu muitas secas.\n\nNa infância dela, a água vinha de longe. O pai saía de madrugada com uma mula e uma carroça carregada de latas, e voltava horas depois com água de um açude, nem sempre limpa. Quando a mula adoecia, a carroça ficava parada, e a família dependia dos vizinhos. \"A gente vivia esperando a chuva e, quando ela não vinha, esperando a ajuda\", lembra.\n\nHoje, a rotina é outra, e a diferença tem nome: planejamento. Ao lado da casa de Dona Socorro há uma cisterna, uma grande caixa de cimento enterrada pela metade, que guarda 16 mil litros de água da chuva, recolhida do telhado. Esse volume basta para a família beber e cozinhar durante a estação seca. Programas públicos e organizações da sociedade civil construíram mais de 1 milhão dessas caixas no sertão nas últimas duas décadas. A ideia é simples: não se trata de combater a seca, que faz parte do clima, mas de aprender a conviver com ela.\n\nUma segunda caixa, maior, serve à produção. Com ela, Dona Socorro rega, gota a gota, uma horta de verduras. As verduras que sobram vão para a feira da cidade. Ela não compra fertilizante. Usa o estrume das cabras, misturado com folhas secas, um fertilizante natural que não custa nada e devolve vida ao solo. Em volta da roça, a família deixou um cinturão de mata nativa. Esse cinturão protege o solo do vento e abriga abelhas.\n\nViver no meio da mata seca exige também atenção. A cascavel é comum na região, e Dona Socorro ensina os netos a andar de botas na roça e a olhar onde põem as mãos. \"A cascavel não ataca à toa. Ela avisa com o barulho da cauda, e a gente se afasta\", explica.\n\nA mata do sertão, a caatinga, só existe no Brasil e é rica em vida. A algumas centenas de quilômetros dali, no nordeste da Bahia, vive a arara-azul-de-lear, uma ave rara que se alimenta do coco de uma palmeira da região. Graças à proteção da área onde vive, a população dessa arara voltou a crescer. Dona Socorro nunca viu uma de perto, mas guarda na parede uma foto da arara. \"É para lembrar que o sertão não é só falta. Também é fartura\", diz.\n\nPerguntas:\nComo é o clima no sertão de Pernambuco?\nA chuva se concentra em poucos meses do primeiro semestre; no resto do ano, o sol ardente castiga a terra.\nComo a família de Dona Socorro buscava água antigamente?\nO pai ia de madrugada com uma mula e uma carroça buscar água num açude.\nQuanta água a caixa ao lado da casa guarda?\nEla guarda 16 mil litros de água da chuva, suficientes para beber e cozinhar na seca.\nQue fertilizante Dona Socorro usa na horta de verduras?\nEla usa o estrume das cabras, misturado com folhas secas.\nPara que serve o cinturão de mata nativa?\nEle protege o solo do vento e abriga abelhas.\nO que Dona Socorro ensina aos netos sobre a cascavel?\nEla ensina a andar de botas e a olhar onde põem as mãos."
+    },
+    {
+      "title": "O dia do simulado",
+      "summary": "A class of ten-year-olds practises leaving their school at the foot of a hill and walking calmly to the meeting point under the mulberry tree.",
+      "newWords": [
+        "impaciente",
+        "idiotice",
+        "irado",
+        "lobisomem",
+        "descalço",
+        "descontrolado",
+        "amora",
+        "rosado",
+        "reprise"
+      ],
+      "text": "A Escola Municipal Monte Alegre fica no pé de um morro, numa cidade onde as chuvas de verão às vezes provocam deslizamentos. Por isso, todo ano, em outubro, antes da estação das chuvas, a escola faz um simulado de saída com a Defesa Civil. Naquela terça-feira, o professor Tiago chegou mais cedo para revisar o plano com a turma do quinto ano.\n\nÀs nove horas, ele explicou mais uma vez como seria. Quando o alarme tocasse, os alunos deixariam o material na mesa, formariam uma fila e subiriam, sem correr, pela escada lateral até a praça do alto, onde fica um pé de amora. \"O ponto de encontro é embaixo do pé de amora. Ninguém sai de lá até eu contar todo mundo\", disse.\n\nPedro, de 10 anos, levantou a mão. Estava impaciente, porque o simulado ia acontecer na hora do recreio, e ele queria jogar futebol. \"Professor, isso é uma idiotice. Nem está chovendo\", reclamou. Tiago respondeu com calma que era justamente por isso: o caminho se aprende num dia de sol, para não haver dúvidas num dia de chuva. Pedro cruzou os braços, ainda irado e impaciente.\n\nLia, sentada ao lado dele, estava quieta. Quando o professor perguntou se estava tudo bem, ela confessou que tinha medo das tempestades. Tiago contou que, quando era pequeno, tinha medo do lobisomem das histórias da avó. \"O medo do lobisomem passava quando eu acendia a luz e via que o quarto estava vazio. O medo da chuva passa de um jeito parecido: quando a gente sabe o que fazer\", explicou. Lia sorriu pela primeira vez naquela manhã.\n\nÀs dez horas, o alarme tocou. Um menino que tinha tirado os tênis no tapete de leitura começou a andar descalço até a porta. Tiago pediu que ele calçasse os tênis depressa, porque a escada era de pedra. \"Na época das chuvas, ninguém fica descalço na sala\", lembrou. A fila saiu em ordem. Duas meninas começaram a correr, e o professor as chamou de volta sem gritar: uma correria descontrolada causa quedas, e uma criança machucada atrasa a saída de todos. Depois disso, ninguém mais andou de forma descontrolada.\n\nEm seis minutos, a turma inteira estava embaixo do pé de amora, com o rosto rosado por causa da subida. Tiago contou os alunos: 28, todos presentes. Um técnico da Defesa Civil elogiou a turma e explicou que, num deslizamento, poucos minutos fazem diferença.\n\nNa volta, a diretora anunciou que haveria uma reprise do simulado no mês seguinte, desta vez sem aviso. Pedro perguntou se a reprise seria de novo na hora do recreio. Quando soube que não, abriu um sorriso. \"Então tudo bem. Até que não foi uma idiotice\", admitiu, com as bochechas ainda rosadas.\n\nPerguntas:\nPor que a escola faz um simulado todo ano?\nPorque fica no pé de um morro, numa cidade onde as chuvas às vezes provocam deslizamentos.\nPor que Pedro estava impaciente?\nPorque o simulado ia acontecer na hora do recreio, e ele queria jogar futebol.\nComo Tiago ajudou Lia a perder o medo?\nEle contou que o medo do lobisomem passava quando acendia a luz, e o da chuva passa quando a gente sabe o que fazer.\nComo Pedro ficou depois da resposta do professor?\nEle cruzou os braços, ainda irado e impaciente.\nPor que não se deve correr de forma descontrolada?\nPorque uma correria descontrolada causa quedas e atrasa a saída de todos.\nO que a diretora anunciou no fim?\nEla anunciou uma reprise do simulado no mês seguinte, sem aviso."
+    },
+    {
+      "title": "Entrevista: palavras que protegem",
+      "summary": "A linguist explains why the wording of disaster warnings matters, from technical jargon and alert levels to minority languages and false rumours.",
+      "newWords": [
+        "linguista",
+        "cilada",
+        "semântico",
+        "discriminar",
+        "pronúncia",
+        "minoritário",
+        "paquistanês",
+        "malicioso"
+      ],
+      "text": "A linguista Carolina Prado, professora de uma universidade pública em Minas Gerais, estuda há dez anos a linguagem dos avisos de desastres. Na conversa abaixo, ela explica por que as palavras importam tanto quanto os aparelhos.\n\nPor que uma linguista se interessa por alertas de enchente?\nPorque um alerta é, antes de tudo, um texto. Os técnicos fazem um trabalho excelente para prever a chuva, mas, no fim, tudo depende de uma frase que o morador lê no celular em poucos segundos. Se a frase não for clara, o trabalho anterior se perde.\n\nQual é o erro mais comum?\nA linguagem técnica. Durante muito tempo, os avisos falavam em \"precipitação acumulada\". É uma cilada achar que todo mundo entende um termo só porque ele é correto. Prefiro \"muita chuva nas últimas horas\".\n\nA senhora fala também de um problema semântico. Qual é?\nOs níveis de aviso usam palavras como \"atenção\", \"alerta\" e \"alerta máximo\". Para os técnicos, cada uma tem um sentido preciso. Para muita gente, porém, \"atenção\" e \"alerta\" querem dizer quase a mesma coisa. É uma questão semântica: se as pessoas não conseguem discriminar um nível do outro, não sabem quando sair de casa. Por isso, recomendo que cada nível venha com uma ação concreta, como \"prepare uma mochila\" ou \"saia agora\". A ação resolve a dúvida semântica.\n\nE a pronúncia? Ela importa?\nImporta nos avisos falados, no rádio e nos carros de som. Já ouvi locutores lerem com a pronúncia errada o nome de um bairro ou de um rio da região. Parece um detalhe, mas o morador pensa: se não sabem nem a pronúncia do meu bairro, será que o aviso é mesmo para mim? Por isso, sugiro que as rádios comunitárias gravem os avisos com vozes da própria cidade.\n\nQuem costuma ficar de fora dos alertas?\nOs grupos minoritários, quase sempre. No Brasil, há comunidades indígenas que falam outras línguas, imigrantes que ainda estão aprendendo o português e pessoas surdas, que se comunicam pela Libras. Um aviso apenas em português escrito acaba por discriminar, sem querer, quem não domina a língua. Uma colega paquistanesa me contou que, no país dela, onde se falam muitas línguas, um mesmo aviso precisa ser traduzido para várias delas. A experiência paquistanesa mostra que atender os grupos minoritários não é um luxo: é parte do sistema.\n\nE as mensagens falsas?\nSão um risco real. Em toda emergência surgem boatos, alguns ingênuos, outros maliciosos, criados para assustar ou para vender alguma coisa. A melhor defesa contra um boato malicioso é a confiança. Se as pessoas conhecem o canal oficial e sabem como ele escreve, desconfiam do que foge desse padrão.\n\nPerguntas:\nPor que uma linguista estuda alertas?\nPorque um alerta é um texto, e tudo depende de uma frase que o morador lê em poucos segundos.\nQual é a cilada da linguagem técnica?\nÉ achar que todo mundo entende um termo só porque ele é correto.\nQual é o problema semântico dos níveis de aviso?\nMuita gente não consegue discriminar \"atenção\" de \"alerta\", e por isso não sabe quando sair de casa.\nPor que a pronúncia importa nos avisos falados?\nPorque, se o locutor erra a pronúncia do bairro, o morador duvida que o aviso seja para ele.\nO que contou a colega paquistanesa?\nEla contou que, no país dela, um mesmo aviso precisa ser traduzido para várias línguas.\nQual é a melhor defesa contra um boato malicioso?\nÉ a confiança no canal oficial, que as pessoas conhecem e sabem como escreve."
+    },
+    {
+      "title": "Quando a água baixa: cuidados com a saúde",
+      "summary": "A practical explanation of how to stay healthy after a flood: protective gear, vaccines, safe water and food, and care in shelters.",
+      "newWords": [
+        "neurológico",
+        "vacinar",
+        "ingestão",
+        "cólera",
+        "descartável",
+        "maionese",
+        "gema",
+        "aminoácido",
+        "pneumonia"
+      ],
+      "text": "Depois de uma enchente, quando a água finalmente baixa, a vontade de todos é voltar para casa e começar a limpeza. É um momento de alívio, mas também de cuidado, porque a lama e a água parada podem trazer doenças. A boa notícia é que quase todas elas podem ser evitadas com medidas simples.\n\nO primeiro cuidado é com a pele. A água da enchente costuma estar misturada com esgoto e com a urina de ratos, que transmite a leptospirose, uma doença grave. Por isso, quem vai limpar a casa deve usar botas e luvas de borracha. Quem tiver febre e dor nas pernas nas semanas seguintes ao contato com a água deve procurar um posto de saúde e contar que esteve na enchente.\n\nO segundo cuidado é com os ferimentos. Um corte feito num prego ou num pedaço de vidro, no meio da lama, pode causar o tétano, uma doença neurológica grave, que ataca os nervos e provoca contrações fortes nos músculos. A prevenção é antiga e eficaz: a vacina. Os postos de saúde costumam vacinar os moradores das áreas atingidas, e quem não lembra quando tomou a última dose deve aproveitar para se vacinar.\n\nO terceiro cuidado é com o que se bebe e se come. Muitas doenças que surgem depois das enchentes começam pela ingestão de água ou de alimentos contaminados, como a hepatite A e as diarreias. A água deve ser fervida ou tratada com o produto distribuído gratuitamente nos postos. A cólera, que também se espalha pela ingestão de água suja, não circula no Brasil há mais de 20 anos, mas ainda preocupa outros países depois de grandes cheias, o que mostra a importância de manter a água limpa.\n\nNos abrigos, onde muita gente come junta, a atenção dobra. Copos e pratos descartáveis evitam que uma louça mal lavada espalhe doenças, e o material descartável deve ir para sacos fechados. As cozinhas evitam a maionese caseira, feita com gema crua, porque a gema crua pode transmitir bactérias, e uma maionese fora da geladeira estraga depressa, sobretudo se faltar luz. O cardápio preferido é o velho arroz com feijão. Além de barato, ele alimenta bem: o arroz e o feijão se completam, porque cada um tem os aminoácidos que faltam no outro, e juntos formam uma proteína de boa qualidade.\n\nPor fim, há a respiração. Abrigos cheios, roupas úmidas e noites frias facilitam as gripes, que podem evoluir para pneumonia, principalmente em idosos e crianças pequenas. Por isso, as equipes de saúde também procuram vacinar contra a gripe quem está nos abrigos. Febre alta e falta de ar podem indicar uma pneumonia, e, nesse caso, a orientação é procurar atendimento logo.\n\nPerguntas:\nPor que quem limpa a casa deve usar botas e luvas?\nPorque a água da enchente costuma estar misturada com esgoto e com a urina de ratos.\nQue tipo de doença é o tétano?\nÉ uma doença neurológica grave, que ataca os nervos, e pode ser evitada com a vacina.\nComo começam muitas doenças depois das enchentes?\nComeçam pela ingestão de água ou de alimentos contaminados.\nPor que as cozinhas dos abrigos evitam a maionese caseira?\nPorque ela é feita com gema crua, que pode transmitir bactérias, e estraga depressa fora da geladeira.\nPor que o arroz com feijão é um bom cardápio?\nPorque cada um tem os aminoácidos que faltam no outro, e juntos formam uma proteína de boa qualidade.\nA cólera circula hoje no Brasil?\nNão. A cólera não circula no Brasil há mais de 20 anos, mas ainda preocupa outros países depois de grandes cheias."
+    },
+    {
+      "title": "Noite de vigília",
+      "summary": "A crônica of a rainy night on which two neighbourhood volunteers watch the level of the stream, share food from neighbours and hand over to the next shift.",
+      "newWords": [
+        "vigília",
+        "apagão",
+        "subitamente",
+        "brasa",
+        "bacalhau",
+        "pêssego",
+        "foragido",
+        "rendição"
+      ],
+      "text": "Choveu o dia inteiro, uma chuva grossa e teimosa, e às oito da noite o grupo de voluntários do bairro decidiu fazer vigília na ponte do córrego. Sempre que a chuva insiste, alguém precisa olhar a régua pintada no pilar da ponte, uma faixa de números brancos que mostra quanto a água subiu. Se ela chegar à marca vermelha, avisamos a Defesa Civil e batemos de porta em porta. Naquela noite, a vigília coube a mim e à dona Ivone, que mora na primeira casa depois da ponte.\n\nFicamos debaixo da cobertura da padaria, que o dono deixa aberta para nós. A água do córrego corria escura e rápida. A cada meia hora, eu descia com a lanterna, olhava a régua e anotava o número num caderno. A água subia devagar, centímetro por centímetro, ainda longe da marca vermelha.\n\nPouco depois das onze, houve um apagão. Subitamente, o bairro inteiro sumiu no escuro, e só ficaram as lanternas e o barulho da chuva. O apagão não nos assustou, porque já contávamos com ele. Dona Ivone foi até a casa dela e voltou com um pequeno fogão de ferro, que acendeu com carvão na entrada da padaria, protegida do vento. Logo as brasas brilhavam, vermelhas, e sobre elas ela esquentou o café. Há algo de antigo numa noite assim: a chuva lá fora, as brasas acesas, duas pessoas conversando baixo enquanto esperam.\n\nA vizinhança, mesmo de longe, não nos deixou sozinhos. Um rapaz trouxe um prato de bolinhos de bacalhau que tinham sobrado de um aniversário. Uma senhora mandou um pote de pêssego em calda. Comemos os bolinhos de bacalhau quentes, aquecidos sobre as brasas, e depois o pêssego. Nunca um pêssego em calda me pareceu tão bom.\n\nPor volta da meia-noite, apareceu um cachorro magro e molhado, com a coleira azul do Biscoito, o cachorro do seu Jorge. Estava foragido desde a tarde, quando um trovão forte o fez pular o portão. Dona Ivone o enrolou numa toalha, e ele dormiu ao lado do fogo, como se nada tivesse acontecido. O foragido tinha encontrado, sozinho, o lugar mais quente da rua.\n\nÀs duas da manhã chegou a rendição: o próprio seu Jorge e o filho dele, que ficariam até o amanhecer. Antes da rendição, mostrei a eles o caderno com as medidas e expliquei que a água tinha parado de subir havia uma hora. Seu Jorge encontrou o Biscoito dormindo e riu de alívio.\n\nFui para casa sem pressa. Já deitado, ouvi a chuva diminuir e, subitamente, parar. De manhã, o córrego estava baixo, e a régua no pilar mostrava a água bem longe da marca vermelha. Não tinha acontecido nada, e era exatamente por isso que a vigília tinha valido a pena.\n\nPerguntas:\nPor que os voluntários fizeram vigília na ponte?\nPorque choveu o dia inteiro, e alguém precisava olhar a régua que mostra quanto a água subiu.\nO que aconteceu pouco depois das onze?\nHouve um apagão, e o bairro inteiro sumiu subitamente no escuro.\nO que dona Ivone fez com as brasas?\nEla esquentou o café sobre as brasas, e depois eles aqueceram os bolinhos de bacalhau.\nO que a vizinhança mandou para os voluntários?\nUm rapaz trouxe bolinhos de bacalhau, e uma senhora mandou um pote de pêssego em calda.\nPor que o Biscoito estava foragido?\nPorque um trovão forte o fez pular o portão durante a tarde.\nQuem chegou na rendição das duas da manhã?\nChegaram o seu Jorge e o filho dele, que ficariam até o amanhecer."
+    },
+    {
+      "title": "Resenha: um livro sobre cidades que se preparam",
+      "summary": "A review of a (fictional) book of reportage on how Brazilian towns prepare for floods, landslides and droughts.",
+      "newWords": [
+        "simbolismo",
+        "exaustivo",
+        "xeque",
+        "melhoramento",
+        "iate",
+        "extremista",
+        "renovável",
+        "insensível",
+        "prestigiar"
+      ],
+      "text": "\"A cidade que aprendeu a esperar a chuva\", da jornalista Renata Albuquerque, é um livro que se lê de uma vez, embora trate de um tema que muitos considerariam árido: como as cidades brasileiras se preparam para enchentes, deslizamentos e secas.\n\nO título tem um simbolismo que só se revela aos poucos. Esperar a chuva, no livro, não é ficar parado; é preparar-se para ela, como quem arruma a casa antes de uma visita. Esse simbolismo atravessa os oito capítulos, cada um dedicado a uma cidade diferente, do litoral ao sertão.\n\nO trabalho de pesquisa é exaustivo. A autora passou três anos viajando, entrevistou técnicos, prefeitos e, sobretudo, moradores, e leu relatórios que pouca gente se dá ao trabalho de abrir. Mesmo assim, o livro não cansa: os números aparecem sempre ao lado de rostos.\n\nA tese central põe em xeque uma expressão que usamos todos os dias: \"desastre natural\". A chuva forte é natural, argumenta a autora; o desastre depende de onde e de como construímos. Isso não significa culpar ninguém: se o desastre depende das nossas escolhas, também pode ser evitado por elas.\n\nOs capítulos mais bonitos tratam de melhoramentos modestos. Num bairro da periferia, uma escadaria nova, com apoio para as mãos e boa iluminação, tornou-se a rota de saída da comunidade. Numa cidade do interior, a limpeza regular das bocas de lobo reduziu as inundações. Nenhum melhoramento desses virou manchete, mas, somados, eles mudaram a vida de milhares de pessoas.\n\nHá também um capítulo sobre uma cidade do litoral, em que a autora compara os iates de luxo da marina com os barcos dos pescadores. Numa noite de mar forte, o iate clube abriu a sede para as famílias do bairro vizinho, e os donos dos iates ajudaram a guardar os barcos menores. O retrato evita o tom extremista de quem vê o mundo dividido entre bons e maus. Ao recusar qualquer visão extremista, a autora ganha a confiança do leitor.\n\nOutro capítulo mostra abrigos que funcionam mesmo quando falta luz, graças a painéis solares e baterias. A autora lembra que a energia renovável não serve apenas ao clima: numa emergência, uma fonte renovável e local pode manter acesa a luz de uma escola cheia de famílias.\n\nEm nenhum momento o texto é insensível com quem perdeu a casa. Ao contrário, a autora deixa as pessoas falarem e nunca usa a dor alheia como espetáculo. Quem procura um livro insensível, cheio de imagens chocantes, vai se decepcionar; quem procura compreensão vai encontrá-la.\n\nO lançamento, num sábado de chuva, reuniu tanta gente que a livraria ficou pequena. Muitos voluntários foram prestigiar a autora, e ela, por sua vez, fez questão de prestigiar os voluntários, chamando vários deles para falar. É um bom resumo do livro: uma obra sobre preparação, mas sobretudo sobre gente.\n\nPerguntas:\nQual é o simbolismo do título do livro?\nEsperar a chuva significa preparar-se para ela, como quem arruma a casa antes de uma visita.\nPor que o trabalho de pesquisa é exaustivo?\nPorque a autora viajou durante três anos, entrevistou muita gente e leu relatórios que pouca gente abre.\nQue expressão a autora põe em xeque?\nEla põe em xeque a expressão \"desastre natural\", porque o desastre depende de onde e de como construímos.\nQue exemplos de melhoramento o livro apresenta?\nUma escadaria nova numa periferia e a limpeza regular das bocas de lobo numa cidade do interior.\nO que fizeram os donos dos iates na cidade do litoral?\nEles abriram a sede do iate clube para as famílias e ajudaram a guardar os barcos menores."
+    }
+  ]
+}

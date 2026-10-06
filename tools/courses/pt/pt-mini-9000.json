@@ -1,0 +1,204 @@
+{
+  "id": "pt-mini-9000",
+  "rankUpTo": 9000,
+  "level": "C2",
+  "title": "Ensaios sobre o tempo",
+  "description": "Reflective essays and crônicas about time: short holidays, railway clocks, waiting rooms, plants, a lifelong diary, a caretaker's last day, slow cities, smells, monastery hours and healing.",
+  "topic": "Time",
+  "names": [
+    "Brasil",
+    "Europa",
+    "Constituição",
+    "Londres",
+    "Bristol",
+    "Greenwich",
+    "Grã-Bretanha",
+    "Grã",
+    "Bretanha",
+    "Estados Unidos",
+    "Bahia",
+    "Califórnia",
+    "Laura",
+    "Jane Goodall",
+    "Jane",
+    "Goodall",
+    "Tanzânia",
+    "Campinas",
+    "Justiça",
+    "Roma",
+    "Juscelino Kubitschek",
+    "Juscelino",
+    "Kubitschek",
+    "Brasília",
+    "Oscar Niemeyer",
+    "Oscar",
+    "Niemeyer",
+    "Lúcio Costa",
+    "Lúcio",
+    "Costa",
+    "Marcel Proust",
+    "Marcel",
+    "Proust",
+    "Em Busca do Tempo Perdido",
+    "São Paulo",
+    "Paulo",
+    "São Bento",
+    "Bento"
+  ],
+  "lessons": [
+    {
+      "title": "Por que as férias encurtam",
+      "summary": "An essay on why holidays seem to shrink while they last and grow long in memory.",
+      "newWords": [
+        "constatação",
+        "encurtar",
+        "inciso",
+        "psicologicamente",
+        "inércia",
+        "mascarado",
+        "carrossel",
+        "liquidação"
+      ],
+      "text": "Todo ano, no fim de janeiro, faço a mesma constatação: as férias encurtaram. Não no calendário, claro. O inciso 17 do artigo 7 da Constituição garante ao trabalhador brasileiro férias anuais pagas com um terço a mais do salário, e a lei trabalhista fixa a sua duração em 30 dias. E, no entanto, esses dias parecem encurtar de um ano para o outro, como uma camisa lavada em água quente. O inciso continua o mesmo; o que muda é a minha percepção.\n\nPsicologicamente, o tempo não é uma régua, mas uma espécie de massa que se estica ou se encolhe conforme o que colocamos dentro dela. Os pesquisadores costumam distinguir duas medidas: o tempo tal como o vivemos, enquanto ele passa, e o tempo tal como o lembramos depois. Nas férias, o tempo vivido corre, e quase não olhamos o relógio. Quando voltamos, porém, a lembrança dessas semanas é enorme, cheia de imagens distintas. Com a rotina acontece o contrário. Um mês inteiro de rotina ocupa pouquíssimo espaço na memória, porque os dias se repetem e se fundem num só.\n\nA rotina tem a sua própria inércia. Assim como um corpo em movimento tende a continuar em movimento, um dia igual ao anterior tende a produzir outro dia igual. Essa inércia é confortável, mas tem um preço: os dias iguais não deixam marcas. Romper a inércia exige esforço, e talvez seja por isso que os primeiros dias de férias costumam ser tão cansativos.\n\nO carnaval é um bom exemplo. Durante alguns dias, as ruas de muitas cidades brasileiras se enchem de blocos e de mascarados, e o calendário parece suspenso. Os mascarados que dançam na praça e a pessoa que acompanha os desfiles pela televisão, deitada no sofá, vivem exatamente as mesmas horas. Psicologicamente, contudo, vivem feriados de tamanhos muito diferentes. Os primeiros vão lembrar aqueles dias como se fossem uma semana inteira; a segunda talvez nem lembre, um mês depois, o que fez no feriado.\n\nNa infância, uma volta de carrossel durava uma eternidade. Hoje, quando levo a minha sobrinha ao parque e a vejo girar no carrossel, entendo por quê: para ela, cada volta ainda é nova. Para mim, o carrossel gira três vezes e pronto.\n\nConheço gente que passa as férias correndo de uma liquidação para outra e volta com a mala cheia e a memória vazia, porque uma liquidação de loja é muito parecida com qualquer outra. O que alonga a lembrança não é a quantidade de coisas, mas a quantidade de experiências diferentes.\n\nA minha constatação, portanto, não precisa ser triste. Se as férias encurtam enquanto passam, elas se alongam depois, na memória. Talvez o segredo não seja ter mais dias de descanso, mas levar para o resto do ano um pouco do que as férias têm: um caminho novo, uma conversa inesperada, uma pequena quebra da inércia.\n\nPerguntas:\nQue constatação o autor faz todo ano?\nEle constata que as férias parecem encurtar de um ano para o outro, embora durem sempre 30 dias.\nO que garante o inciso 17 do artigo 7 da Constituição?\nGarante ao trabalhador brasileiro férias anuais pagas com um terço a mais do salário.\nPor que um mês de rotina ocupa pouco espaço na memória?\nPorque os dias se repetem e se fundem num só: a inércia da rotina não deixa marcas.\nPor que a sobrinha do autor acha longa cada volta de carrossel?\nPorque, para ela, cada volta ainda é nova.\nSegundo o autor, o que alonga a lembrança das férias?\nNão é a quantidade de coisas, como as compras de uma liquidação, mas a quantidade de experiências diferentes."
+    },
+    {
+      "title": "Os relógios e as ferrovias",
+      "summary": "From an abandoned station, the author tells how railways and the telegraph gave the world a common time.",
+      "newWords": [
+        "ferrugem",
+        "cromo",
+        "industrialização",
+        "calamidade",
+        "frear",
+        "eletromagnético",
+        "arcaico",
+        "normativo",
+        "lotação"
+      ],
+      "text": "Escrevo sentado num banco de uma antiga estação de trem do interior. Os trilhos estão cobertos de ferrugem, e o mato cresce entre eles. Na parede da plataforma, um grande relógio dos anos 1950, com moldura de cromo, marca 4 e 20 há sabe-se lá quanto tempo. O cromo ainda brilha um pouco; os ponteiros já não andam. É curioso: foram justamente as ferrovias que ensinaram o mundo a acertar os relógios.\n\nAté meados do século 19, cada cidade vivia na sua própria hora. O meio-dia era o momento em que o sol atingia o ponto mais alto do céu, e como o sol não passa ao mesmo tempo sobre todos os lugares, o meio-dia de uma cidade nunca coincidia exatamente com o da cidade vizinha. Entre Londres e Bristol, por exemplo, a diferença era de cerca de 10 minutos.\n\nA industrialização mudou esse quadro. Com as fábricas vieram as ferrovias, e com elas um problema novo: os horários dos trens viraram um quebra-cabeça, porque cada estação seguia o seu relógio local. Houve acidentes, verdadeiras calamidades, em que dois trens se encontraram na mesma linha porque os relógios dos funcionários não marcavam a mesma hora; quando se avistava o outro trem, já não havia como frear a tempo. Uma única calamidade dessas bastava para mostrar que a industrialização exigia um tempo comum.\n\nA solução veio de outra invenção da época: o telégrafo elétrico, um aparelho eletromagnético capaz de enviar sinais por fios, a grandes distâncias, em poucos segundos. Na década de 1840, as ferrovias inglesas adotaram a hora de Londres em todas as estações. A partir de 1852, sinais eletromagnéticos enviados pelo telégrafo levavam a hora exata do observatório de Greenwich a estações de todo o país.\n\nDurante algumas décadas, porém, conviveram duas horas: a da ferrovia e a da cidade. A hora local começou a parecer arcaica, coisa de quem ainda não tinha entrado na era do vapor. Em Bristol, o relógio do antigo mercado de cereais ganhou um segundo ponteiro de minutos, para mostrar as duas horas ao mesmo tempo, e ainda hoje conserva esse detalhe arcaico. Só em 1880 a hora de Greenwich ganhou valor normativo na Grã-Bretanha, isto é, tornou-se a hora oficial, válida para contratos e tribunais. Nos Estados Unidos, as ferrovias dividiram o país em fusos horários em 1883, mas o governo só deu caráter normativo a essa divisão em 1918.\n\nNos tempos de lotação máxima, centenas de pessoas consultavam aquele relógio de cromo antes de subir nos vagões. Hoje a lotação da estação se resume a mim e a um gato. A ferrugem venceu os trilhos, mas a ideia que nasceu nos trilhos venceu o mundo: em qualquer cidade, aceitamos sem discutir que são 4 e 20 ao mesmo tempo para nós e para o vizinho. O que parece tão natural tem, na verdade, menos de 2 séculos.\n\nPerguntas:\nComo está a antiga estação onde o autor escreve?\nOs trilhos estão cobertos de ferrugem, e o relógio de cromo da plataforma está parado.\nPor que a industrialização exigiu um tempo comum?\nPorque, com as ferrovias, os relógios diferentes causavam erros e até calamidades, quando os trens não conseguiam frear a tempo.\nComo a hora de Greenwich chegava às estações?\nChegava por sinais eletromagnéticos enviados pelo telégrafo.\nQuando a hora de Greenwich ganhou valor normativo na Grã-Bretanha?\nGanhou valor normativo em 1880.\nO que o autor quer dizer com \"a ideia que nasceu nos trilhos venceu o mundo\"?\nEle quer dizer que a hora comum, criada pelas ferrovias, hoje é aceita em todo lugar como algo natural."
+    },
+    {
+      "title": "Salas de espera",
+      "summary": "While waiting at his dentist's, the author looks at a waiting room without his phone and notices its small kindnesses.",
+      "newWords": [
+        "odontologia",
+        "poltrona",
+        "aquecedor",
+        "gibi",
+        "menosprezar",
+        "esquivar",
+        "revirar",
+        "cibernético",
+        "autismo"
+      ],
+      "text": "A sala de espera da clínica de odontologia aonde vou desde a adolescência quase não mudou em 30 anos. As mesmas poltronas de couro marrom, um pouco gastas nos braços; o mesmo aquecedor elétrico no canto, que só é ligado nos dias mais frios de julho; a mesma mesinha com revistas antigas e uma pilha de gibis para as crianças. Ontem, enquanto esperava a minha vez, peguei um gibi por puro hábito e percebi que talvez fosse o mesmo que eu lia aos 12 anos.\n\nA sala de espera é um lugar curioso. Costumamos menosprezar esse tempo, como se fosse tempo perdido, um intervalo vazio entre a nossa vida e o compromisso marcado. Mas talvez seja injusto menosprezar essas horas. Poucas situações da vida moderna nos obrigam a ficar parados, sem tarefa, ao lado de desconhecidos.\n\nQuem observa uma sala de espera com atenção nota que cada pessoa tem a sua maneira de esquivar-se do silêncio. Uma senhora revirava a bolsa à procura de algo que nunca encontrava; um rapaz revirava as páginas de uma revista sem ler nada; um senhor se esquivava dos olhares fixando a vista no chão. E a maioria mergulhava no celular. O espaço cibernético virou a grande sala de espera da humanidade: entramos nele para não estar onde estamos. Não condeno ninguém: eu mesmo fujo para o mundo cibernético quando espero o ônibus.\n\nOntem, porém, o aquecedor estava ligado, a poltrona era confortável, e eu tinha esquecido o celular no carro. Sem saída, fiquei olhando a sala. Reparei num quadro novo na parede, com a fotografia de um jardim. E reparei num pequeno canto separado por uma cortina, com almofadas e luz fraca.\n\nA secretária da clínica me explicou que aquele canto tinha sido criado para crianças com autismo. Muitas delas sofrem com o barulho, a luz forte e a demora das salas de espera comuns, e a espera, que para mim é apenas cansativa, pode ser para elas uma experiência muito difícil. Desde então, várias famílias de crianças com autismo passaram a escolher aquela clínica.\n\nFiquei pensando que uma sala de espera diz muito sobre quem a organiza. Ela pode ser apenas um depósito de pessoas, ou pode ser um lugar pensado para que a espera doa menos. O gibi antigo, o aquecedor, a poltrona macia e o canto silencioso são pequenas formas de cuidado, e quem as menospreza perde a oportunidade de notá-las.\n\nQuando a dentista finalmente me chamou, quase senti pena de sair. Devolvi o gibi à pilha. Foram 40 minutos de espera, e eu não os tinha perdido.\n\nPerguntas:\nO que quase não mudou na clínica de odontologia?\nA sala de espera, com as mesmas poltronas, o mesmo aquecedor e a mesma pilha de gibis.\nPor que o autor acha injusto menosprezar o tempo da espera?\nPorque poucas situações da vida moderna nos obrigam a ficar parados, sem tarefa, ao lado de desconhecidos.\nComo as pessoas se esquivavam do silêncio?\nUma senhora revirava a bolsa, um rapaz revirava as páginas de uma revista, e a maioria mergulhava no celular.\nO que o autor diz sobre o espaço cibernético?\nEle diz que o espaço cibernético virou a grande sala de espera da humanidade.\nPara que serve o canto separado por uma cortina?\nEle foi criado para crianças com autismo, que sofrem com o barulho e a luz forte das salas de espera comuns.\nPor que o autor diz que não perdeu os 40 minutos?\nPorque, sem o celular, ele observou a sala e percebeu as pequenas formas de cuidado que havia nela."
+    },
+    {
+      "title": "O tempo das plantas",
+      "summary": "A garden in the hills teaches the author that mustard, araucarias, orange trees and crickets each keep their own time.",
+      "newWords": [
+        "ameno",
+        "mostarda",
+        "vigoroso",
+        "pinhal",
+        "pentágono",
+        "azedo",
+        "umbigo",
+        "escurecer",
+        "grilo"
+      ],
+      "text": "Moro numa cidade da serra, onde o clima é ameno quase o ano inteiro, e há alguns anos comecei a cultivar uma horta no quintal. Foi a horta que me ensinou que as plantas têm um relógio próprio, que não se deixa apressar.\n\nA primeira lição veio da mostarda. Plantei as sementes, minúsculas como grãos de areia, numa manhã de sábado; em 4 dias, os brotos já apareciam, vigorosos, empurrando a terra para cima. Em pouco mais de um mês, eu colhia folhas de mostarda para a salada. Quem começa uma horta pela mostarda imagina, sem razão, que todas as plantas responderão com o mesmo crescimento vigoroso.\n\nA segunda lição veio de uma araucária. Perto da minha casa há um pinhal, um bosque de araucárias, a árvore que dá o pinhão e que já cobriu boa parte do Sul do Brasil. Plantei uma muda de araucária no fundo do quintal. Ela cresce, mas sem pressa nenhuma: uma araucária leva mais de 10 anos para produzir as primeiras pinhas e pode viver vários séculos. Quando caminho pelo pinhal, penso que algumas daquelas árvores já estavam ali antes de existir a cidade. Plantar uma araucária é um gesto para os netos.\n\nEntre a pressa da mostarda e a paciência da araucária, há todos os ritmos intermediários. A laranjeira, por exemplo. A minha deu as primeiras flores no terceiro ano: flores brancas, de 5 pétalas, que, vistas de cima, formam quase um pentágono perfeito. Corte uma maçã ao meio, na horizontal, e verá algo parecido: as sementes dispostas num pentágono, como uma estrela. As primeiras laranjas, colhidas cedo demais, estavam azedas. Aprendi que uma fruta azeda é, quase sempre, apenas uma fruta que ainda não teve o seu tempo.\n\nA minha laranjeira é de uma variedade chamada laranja-de-umbigo, por causa da pequena marca na ponta da fruta, que lembra mesmo um umbigo. No começo do século 19, numa plantação da Bahia, um galho de laranjeira passou a produzir frutas diferentes, sem sementes e com esse umbigo. Como as frutas não têm sementes, essas laranjeiras só se multiplicam por enxerto. Todas as laranjeiras-de-umbigo do mundo, inclusive as da Califórnia, para onde algumas mudas foram levadas no fim do século 19, vêm daquele único galho baiano.\n\nAs plantas também marcam as horas do dia. Há flores que só se abrem de manhã, e outras, como a maravilha, que se abrem no fim da tarde, pouco antes de escurecer. Os grilos fazem algo parecido com o som: começam a cantar quando o céu escurece e, curiosamente, cantam mais depressa nas noites amenas e mais devagar quando esfria.\n\nHoje, no fim da tarde, sentei no quintal para ouvir os grilos. A muda de araucária já está mais alta do que eu. Ainda não dá pinhas, e talvez eu não chegue a vê-las. Não faz mal: aprendi com a horta que nem todo tempo é nosso.\n\nPerguntas:\nQue lição a mostarda ensinou ao autor?\nQue algumas plantas crescem muito depressa: os brotos vigorosos apareceram em 4 dias.\nO que é um pinhal?\nÉ um bosque de araucárias, a árvore que dá o pinhão.\nQuanto tempo uma araucária leva para produzir as primeiras pinhas?\nLeva mais de 10 anos, e pode viver vários séculos.\nPor que as primeiras laranjas estavam azedas?\nPorque foram colhidas cedo demais, antes do seu tempo.\nDe onde vem o nome laranja-de-umbigo?\nVem da pequena marca na ponta da fruta, que lembra um umbigo.\nO que acontece com o canto dos grilos nas noites amenas?\nOs grilos cantam mais depressa nas noites amenas e mais devagar quando esfria."
+    },
+    {
+      "title": "Quarenta anos de diário",
+      "summary": "A man who has kept a diary since he was twenty rereads it and learns how memory rewrites the past.",
+      "newWords": [
+        "reformular",
+        "maldoso",
+        "remorso",
+        "psicanálise",
+        "indagar",
+        "paternidade",
+        "lúcido",
+        "chimpanzé"
+      ],
+      "text": "Comecei a escrever um diário em março de 1985, aos 20 anos, num caderno de capa preta. Nunca parei. Hoje, aos 60, tenho 40 anos de vida guardados em 63 cadernos, numa estante do escritório. É uma experiência estranha: reconheço a minha letra, mas nem sempre reconheço a pessoa que escreveu.\n\nA primeira coisa que o diário me ensinou é que a memória não é um arquivo fiel. Ela reformula o passado o tempo todo. Cada vez que lembramos um episódio, a memória o reformula um pouco, de acordo com quem somos naquele momento. Eu tinha certeza, por exemplo, de que tinha deixado o meu primeiro emprego por coragem. O diário de 1989 conta outra história: saí por medo, depois de semanas de dúvida. A versão corajosa foi reformulada mais tarde, porque era mais agradável de contar.\n\nA segunda lição foi menos confortável. Em várias páginas da juventude, encontrei comentários maldosos sobre colegas, amigos e até sobre a minha irmã. Não eram crimes, eram pequenas frases maldosas, escritas por um rapaz inseguro que se sentia melhor diminuindo os outros. Senti remorso ao relê-las, um remorso tardio, porque algumas daquelas pessoas já morreram. Com outras, pude conversar. Telefonei para a minha irmã e li para ela um trecho de 1987. Ela riu e disse que já sabia. O remorso não desapareceu, mas ficou mais leve.\n\nFiz psicanálise durante alguns anos, na década de 1990, e a minha analista costumava indagar por que eu escrevia todos os dias. Ela indagava com paciência, e acho que só agora entendo a resposta: eu escrevia para ter uma testemunha. A psicanálise e o diário têm algo em comum, pois ambos nos obrigam a pôr em palavras o que preferiríamos deixar vago.\n\nHá também páginas de alegria. A do dia em que a minha filha nasceu, em 1996, é a mais curta de todos os cadernos: \"Hoje nasceu a Laura. Não consigo escrever.\" A paternidade aparece no diário como uma mudança de assunto: a partir daquele dia, falo menos de mim e mais dela. Hoje vejo que a paternidade me tornou mais paciente e, curiosamente, mais lúcido.\n\nQuem me deu coragem para continuar escrevendo foi a cientista inglesa Jane Goodall. Li, quando jovem, que ela começou em 1960 a observar chimpanzés na Tanzânia e manteve as suas anotações durante décadas. Foi a paciência daquelas anotações que lhe permitiu mostrar que os chimpanzés usam ferramentas e que cada um deles tem um caráter próprio. Pensei: se é possível compreender os chimpanzés anotando um pouco todos os dias, talvez seja possível compreender a si mesmo do mesmo modo.\n\nAos 60 anos, sou um leitor mais lúcido do meu diário do que fui o seu autor. Talvez seja essa a utilidade de um diário: permitir que uma pessoa, com o passar do tempo, leia a própria vida com olhos mais calmos.\n\nPerguntas:\nHá quanto tempo o autor escreve um diário?\nEle escreve um diário há 40 anos, desde março de 1985.\nO que o diário ensinou sobre a memória?\nQue a memória não é um arquivo fiel: ela reformula o passado o tempo todo.\nPor que o autor sentiu remorso?\nPorque encontrou no diário comentários maldosos que tinha escrito sobre colegas, amigos e a irmã.\nO que a analista costumava indagar durante a psicanálise?\nEla costumava indagar por que ele escrevia todos os dias.\nComo a paternidade aparece no diário?\nAparece como uma mudança de assunto: depois do nascimento da filha, ele fala menos de si e mais dela.\nPor que o exemplo de Jane Goodall deu coragem ao autor?\nPorque ela compreendeu os chimpanzés anotando um pouco todos os dias, durante décadas."
+    },
+    {
+      "title": "O primeiro e o último dia",
+      "summary": "On the evening of his retirement, a school caretaker compares his first and last day at work.",
+      "newWords": [
+        "zelador",
+        "carpinteiro",
+        "alça",
+        "requisição",
+        "alocar",
+        "intimação",
+        "holofote",
+        "protagonismo",
+        "gratificante"
+      ],
+      "text": "Fui zelador de uma escola estadual de Campinas durante 32 anos. Hoje foi o meu último dia de trabalho, e escrevo estas linhas à noite, na cozinha de casa, para não esquecer como ele foi. Curiosamente, lembro do primeiro dia com a mesma clareza.\n\nNo primeiro dia, em fevereiro de 1993, cheguei uma hora antes de todo mundo, com uma caixa de ferramentas que tinha sido do meu pai. Ele era carpinteiro e me ensinou, desde menino, a consertar cadeiras, portas e janelas. A caixa era de madeira, com uma alça de couro que ele mesmo tinha costurado. A diretora me recebeu com uma pilha de papéis. O primeiro foi uma requisição de material: eu precisava listar tudo o que faltava para o ano letivo, de vassouras a lâmpadas. Nunca tinha preenchido uma requisição na vida e levei a manhã inteira. Depois ela me mostrou o quartinho que a escola tinha decidido alocar para mim, ao lado da cantina, onde eu guardaria as ferramentas.\n\nNa semana anterior, quando recebi a carta da secretaria de educação que me chamava para começar, eu tinha levado um susto: o papel era tão formal que parecia uma intimação da Justiça. Naquela primeira manhã, entre vassouras e lâmpadas, ri de mim mesmo. Não era intimação nenhuma; era o começo de uma vida.\n\nNos 32 anos seguintes, preenchi centenas de requisições, troquei milhares de lâmpadas e consertei mais carteiras do que consigo contar. Fiz como o meu pai, o carpinteiro: cada carteira consertada era uma carteira que não ia para o lixo. A escola me alocou outros espaços ao longo dos anos, sempre um pouco maiores, mas a caixa de ferramentas continuou a mesma. Só a alça precisou ser trocada, duas vezes.\n\nUm zelador vive longe dos holofotes. Nas festas juninas, era eu quem montava os holofotes da quadra, mas a luz era para as crianças, para as quadrilhas e para os professores. Nunca quis protagonismo. O protagonismo, numa escola, é dos alunos, e acho que é assim que deve ser. Ainda assim, foi um trabalho profundamente gratificante. Conheci três gerações de uma mesma família: o pai, a filha e, este ano, o neto.\n\nHoje, no último dia, cheguei de novo uma hora antes. Abri o portão, acendi as luzes, conferi o quartinho. Na hora do recreio, a diretora tocou o sinal fora do horário, e os alunos se reuniram no pátio. Desta vez, o holofote estava virado para mim. Uma menina leu uma carta, e o neto daquela família me entregou uma caixa de ferramentas nova, com uma alça de couro. Fiquei sem palavras.\n\nVolto para casa com duas caixas: a do meu pai e a nova. Vou dar esta última ao meu neto, que gosta de consertar coisas. Ser zelador foi gratificante porque cuidar de um lugar é, no fundo, cuidar das pessoas que passam por ele.\n\nPerguntas:\nDurante quanto tempo o autor foi zelador?\nEle foi zelador de uma escola estadual durante 32 anos.\nO que ele levou no primeiro dia?\nLevou a caixa de ferramentas do pai, que era carpinteiro, com uma alça de couro.\nQual foi a primeira tarefa que a diretora lhe deu?\nEla lhe deu uma requisição de material para preencher.\nPor que a carta da secretaria o assustou?\nPorque o papel era tão formal que parecia uma intimação da Justiça.\nPor que o autor diz que nunca quis protagonismo?\nPorque, para ele, o protagonismo numa escola é dos alunos.\nO que aconteceu no recreio do último dia?\nOs alunos se reuniram no pátio, uma menina leu uma carta, e o neto de uma família lhe entregou uma caixa de ferramentas nova."
+    },
+    {
+      "title": "Cidades lentas",
+      "summary": "An essay on the slow-city movement, cars, Brasília and the time of a fishing town.",
+      "newWords": [
+        "pesqueiro",
+        "repúdio",
+        "contundente",
+        "automobilístico",
+        "modernismo",
+        "vandalismo",
+        "agregação",
+        "anarquia",
+        "desmascarar"
+      ],
+      "text": "Cresci numa pequena cidade pesqueira, onde o dia começava às 4 da manhã, quando os barcos saíam para o mar, e terminava cedo, quando eles voltavam. O porto pesqueiro era o relógio da cidade. Hoje moro numa metrópole e vivo com a sensação de estar sempre atrasado.\n\nNão sou o único a sentir que a pressa saiu do controle. Em 1986, quando uma rede americana de lanchonetes anunciou uma loja perto de uma das praças mais famosas de Roma, um grupo de italianos organizou um protesto em repúdio à comida rápida. Desse repúdio nasceu um movimento em defesa da comida feita sem pressa. No fim dos anos 1990, algumas pequenas cidades italianas levaram a ideia adiante e criaram uma rede de cidades lentas, que hoje reúne municípios de vários países.\n\nO que é uma cidade lenta? É uma cidade que se organiza em torno das pessoas, e não dos carros: calçadas largas, praças cheias, comércio de bairro. A crítica mais contundente que o movimento faz às grandes cidades é a de que elas foram planejadas para a velocidade dos automóveis, e não para a de quem anda a pé.\n\nNo Brasil, essa crítica tem uma história concreta. Nos anos 1950, o governo de Juscelino Kubitschek apostou na indústria automobilística como motor do desenvolvimento, e Brasília, inaugurada em 1960, tornou-se o grande símbolo do modernismo na arquitetura. Os edifícios de Oscar Niemeyer são belíssimos, e o modernismo do plano de Lúcio Costa tinha ideais generosos; mas a cidade, com as suas grandes avenidas, foi pensada em boa parte para o carro. O sonho automobilístico daquele tempo deixou marcas em quase todas as cidades do país.\n\nOs defensores das cidades lentas usam um argumento contundente: ruas feitas para carros afastam as pessoas, e ruas sem pessoas se degradam. Onde ninguém caminha, o comércio fecha, a iluminação falha e o vandalismo encontra espaço. Onde há gente na praça a qualquer hora, o vandalismo é mais raro, porque há sempre alguém olhando. A praça cheia é um lugar de agregação, onde os vizinhos se conhecem.\n\nHá quem diga que, sem pressa, uma cidade cai na anarquia. Penso o contrário. A anarquia está no trânsito parado das 6 da tarde, em que cada motorista disputa um metro de asfalto. A calma bem planejada não é desordem: é uma ordem diferente.\n\nAs cidades lentas também ajudam a desmascarar uma ilusão: a de que andar mais depressa nos dá mais tempo. Quem passa 2 horas por dia dentro do carro não ganhou tempo nenhum com a velocidade; perdeu. Desmascarar essa ilusão é o primeiro passo para imaginar outra cidade.\n\nÀs vezes volto à minha cidade pesqueira. Os barcos continuam saindo de madrugada, e as pessoas ainda param na rua para conversar. Gostaria que as metrópoles aprendessem com ela que o tempo de uma cidade também pode ser medido pelos passos de quem caminha.\n\nPerguntas:\nComo nasceu o movimento pela comida feita sem pressa?\nNasceu de um protesto em repúdio à comida rápida, em Roma, em 1986.\nQual é a crítica mais contundente do movimento às grandes cidades?\nA de que elas foram planejadas para a velocidade dos automóveis, e não para quem anda a pé.\nPor que Brasília aparece no texto?\nPorque é o grande símbolo do modernismo e foi pensada em boa parte para o carro, numa época em que o governo apostava na indústria automobilística.\nPor que o vandalismo é mais raro numa praça cheia?\nPorque há sempre alguém olhando, e a praça é um lugar de agregação entre vizinhos.\nQue ilusão as cidades lentas ajudam a desmascarar?\nA ilusão de que andar mais depressa nos dá mais tempo."
+    },
+    {
+      "title": "A memória de um cheiro",
+      "summary": "The smell of fresh bread sends the author back to his grandmother's kitchen and leads him to Proust and the science of smell.",
+      "newWords": [
+        "involuntário",
+        "cientificamente",
+        "fumante",
+        "trouxa",
+        "gelatina",
+        "repugnante",
+        "saborear",
+        "irresistível"
+      ],
+      "text": "Outro dia, às 6 da manhã, passei em frente a uma padaria no momento em que os pães saíam do forno. Senti o cheiro e, sem querer, voltei 40 anos no tempo. Eu estava de novo na cozinha da minha avó, numa manhã de inverno. A lembrança foi tão forte e tão involuntária que precisei parar na calçada.\n\nEsse tipo de lembrança ficou famoso na literatura. O escritor francês Marcel Proust, no primeiro volume de Em Busca do Tempo Perdido, descreve um narrador que molha um bolinho numa xícara de chá e, de repente, vê voltar toda a cidade da sua infância. Proust chamou esse fenômeno de memória involuntária: uma lembrança que não procuramos e que nos chega inteira, provocada por um sabor ou por um cheiro.\n\nHoje se sabe, cientificamente, por que os cheiros têm esse poder. O olfato é o único sentido cujos sinais chegam quase diretamente às regiões do cérebro ligadas à emoção e à memória, sem passar antes pela estação intermediária por onde passam a visão e a audição. Dito de forma simples, e não muito cientificamente, o cheiro pega um atalho.\n\nHá também uma ligação estreita entre o cheiro e o sabor. Saborear é, em boa parte, cheirar: quem já teve um resfriado sabe que a comida perde o gosto quando o nariz está fechado. Talvez por isso o bolinho de Proust funcione tão bem.\n\nCada família tem os seus cheiros. O meu avô era fumante, e o cheiro doce do tabaco dele ficou nas cortinas da sala por anos depois da sua morte. Hoje sei o mal que o tabaco faz, e não sinto saudade do hábito. Sinto saudade do avô fumante, sentado na poltrona, lendo o jornal. Às sextas-feiras, a mulher que lavava roupa para o bairro entregava uma trouxa de roupa limpa, amarrada num lençol. Quando a minha avó desfazia a trouxa, a casa inteira cheirava a sabão e a sol. E na geladeira quase sempre havia uma gelatina de morango, que ela fazia para os netos. Até hoje, o cheiro doce e artificial da gelatina me devolve aquela cozinha.\n\nNem toda memória de cheiro é agradável. O cheiro de hospital, por exemplo, pode ser repugnante para quem passou ali momentos difíceis. E há cheiros que eram repugnantes na infância e se tornaram queridos depois: eu detestava o cheiro forte do café, que hoje é o primeiro prazer do meu dia.\n\nNaquela manhã, entrei na padaria, é claro. O cheiro era irresistível, como deve ser irresistível para quase todo mundo o cheiro de pão quente. Pensei que os cheiros guardam o tempo melhor do que as fotografias. Uma fotografia mostra o passado; um cheiro o devolve.\n\nPerguntas:\nO que aconteceu quando o autor passou em frente à padaria?\nEle sentiu o cheiro de pão e teve uma lembrança involuntária da cozinha da avó.\nO que Proust chamou de memória involuntária?\nUma lembrança que não procuramos e que nos chega inteira, provocada por um sabor ou por um cheiro.\nO que se sabe cientificamente sobre o olfato?\nQue os seus sinais chegam quase diretamente às regiões do cérebro ligadas à emoção e à memória.\nPor que saborear é, em boa parte, cheirar?\nPorque, quando o nariz está fechado, a comida perde o gosto.\nQue cheiros o autor lembra da casa dos avós?\nO tabaco do avô fumante, a trouxa de roupa limpa e a gelatina de morango.\nQue cheiro era repugnante para o autor na infância?\nO cheiro forte do café, que hoje é o primeiro prazer do seu dia."
+    },
+    {
+      "title": "As horas do mosteiro",
+      "summary": "A week in a Benedictine monastery shows the author how bells, monks and days of rest shaped our clock time.",
+      "newWords": [
+        "abade",
+        "discernimento",
+        "recolhimento",
+        "infringir",
+        "sinagoga",
+        "evangelização",
+        "redimir"
+      ],
+      "text": "No ano passado, passei uma semana num mosteiro no interior de São Paulo. Não sou religioso; fui em busca de silêncio. Lá, descobri que os monges vivem num tempo muito diferente do nosso e que, curiosamente, o nosso tempo de relógio nasceu em parte num lugar como aquele.\n\nO dia no mosteiro é dividido pelo sino. Ele toca antes do nascer do sol, para a primeira oração, e volta a tocar várias vezes até a noite: para as orações, o trabalho, as refeições e a leitura. Essa divisão vem da regra escrita por São Bento no século 6, que organizou a vida dos monges em horas fixas de oração e de trabalho. Para que o sino tocasse sempre na hora certa, inclusive de madrugada, os mosteiros da Europa precisavam medir o tempo com precisão. Alguns historiadores acreditam que essa necessidade ajudou a estimular a invenção dos relógios mecânicos, que surgiram no fim do século 13.\n\nO abade do mosteiro me explicou que a regra não é tão rígida quanto parece. São Bento pedia ao abade que tivesse discernimento: que soubesse adaptar o ritmo às forças de cada monge, sem exigir demais dos mais fracos nem de menos dos mais fortes. \"Sem discernimento, a regra vira um castigo\", disse o abade. \"Com ele, vira um caminho.\"\n\nDepois da última oração, por volta das 8 da noite, começava o recolhimento. Até a manhã seguinte, ninguém falava. Na segunda noite, infringi a regra sem querer: cumprimentei em voz alta um monge no corredor. No dia seguinte, perguntei ao abade se era grave infringir o silêncio. Ele riu e disse que o recolhimento não é uma proibição, mas um presente: uma noite inteira sem precisar dizer nada.\n\nConversando com ele, lembrei de um amigo judeu que me levou certa vez à sinagoga numa sexta-feira à noite. Para os judeus, o dia começa ao pôr do sol, e o sábado é um dia inteiro reservado ao descanso. Naquela noite, na sinagoga, entendi que o descanso pode ser uma forma de organizar o tempo, e não apenas uma pausa no meio dele.\n\nTambém no Brasil o sino teve um papel importante. A partir de 1549, os jesuítas que chegaram ao país para a evangelização dos povos indígenas fundaram aldeias em que o sino marcava as horas da missa, do trabalho e da escola. A evangelização trouxe, junto com a fé, um modo europeu de dividir o dia, diferente dos ritmos que os indígenas conheciam.\n\nDurante muito tempo, achei que o domingo existia para redimir a semana, como se um dia de descanso pudesse compensar seis dias de pressa. O abade discordou. Para ele, o descanso não serve para redimir o trabalho, mas para dar sentido a ele. Voltei para casa com um hábito novo: todas as noites, por meia hora, desligo o celular e faço o meu pequeno recolhimento.\n\nPerguntas:\nPor que o autor foi passar uma semana no mosteiro?\nEle foi em busca de silêncio.\nPor que os mosteiros precisavam medir o tempo com precisão?\nPorque o sino precisava tocar sempre na hora certa, inclusive de madrugada.\nO que São Bento pedia ao abade?\nPedia que ele tivesse discernimento para adaptar o ritmo às forças de cada monge.\nO que é o recolhimento no mosteiro?\nÉ o silêncio que começa depois da última oração e vai até a manhã seguinte.\nComo o autor infringiu a regra?\nEle cumprimentou em voz alta um monge no corredor durante o recolhimento.\nPara o abade, para que serve o descanso?\nEle não serve para redimir o trabalho, mas para dar sentido a ele."
+    },
+    {
+      "title": "O tempo de sarar",
+      "summary": "After a bicycle fall, the author learns the stages of healing and the patience the body demands.",
+      "newWords": [
+        "cervical",
+        "inflamatório",
+        "inchaço",
+        "imunológico",
+        "cicatrizar",
+        "digestivo",
+        "diarreia",
+        "remediar"
+      ],
+      "text": "Em maio, caí de bicicleta numa descida e machuquei o pescoço. Nada grave, segundo o médico: uma lesão leve na região cervical, alguns arranhões no braço e um joelho inchado. Saí do pronto-socorro com um colar cervical, uma receita de anti-inflamatório e um conselho que, na hora, me pareceu banal: \"Tenha paciência. O corpo tem o tempo dele.\"\n\nNas semanas seguintes, descobri que eu não tinha paciência nenhuma. Queria voltar a correr, a trabalhar, a dirigir. Fiz então o que sempre faço quando estou ansioso: fui ler sobre o assunto. E aprendi que o corpo, ao se recuperar de uma lesão, segue etapas bem conhecidas, que não se deixam apressar.\n\nA primeira é a fase inflamatória. Nas horas e nos dias depois do machucado, o local fica vermelho, quente e inchado. O inchaço, que tanto nos incomoda, não é um defeito: é o sinal de que o sistema imunológico está trabalhando. O sangue traz para a região células de defesa, que limpam os tecidos danificados e combatem possíveis infecções. O processo inflamatório costuma durar poucos dias. O remédio alivia a dor, mas não dispensa essa etapa. Não é por acaso que pessoas com o sistema imunológico enfraquecido demoram mais para sarar.\n\nDepois vem a fase em que o corpo constrói tecido novo. Os arranhões do meu braço começaram a cicatrizar em poucos dias: primeiro uma casca escura, depois uma pele rosada e fina. Um corte simples costuma cicatrizar em 1 ou 2 semanas. Por fim, há uma longa fase de reorganização, em que a marca deixada pelo corte se torna mais firme e, aos poucos, mais clara. Essa última etapa pode durar um ano ou mais.\n\nFiquei impressionado também com a velocidade de outros órgãos. O revestimento interno do intestino, por exemplo, se renova quase inteiro em poucos dias. Por isso o sistema digestivo se recupera depressa de problemas comuns: uma diarreia causada por um alimento estragado costuma passar em 2 ou 3 dias. O sistema digestivo é rápido; os ossos, os tendões e as articulações, ao contrário, são lentos. O meu joelho levou 2 meses para voltar ao normal, e o inchaço foi diminuindo devagar, quase sem que eu percebesse.\n\nAprendi, com tudo isso, que nem tudo se pode remediar com pressa. Há coisas que só o tempo resolve, e a nossa ansiedade não acelera a pele nova. Quando, impaciente, voltei a correr antes da hora, senti dor de novo e tive de parar mais 2 semanas. Foi um erro fácil de remediar, mas que me ensinou a lição do médico.\n\nHoje, 6 meses depois, quase não há marca no braço, e o pescoço está bom. Penso às vezes que a recuperação de uma tristeza ou de uma briga talvez siga um caminho parecido: primeiro o inchaço, depois a pele nova e, por fim, a longa e silenciosa reorganização.\n\nPerguntas:\nO que aconteceu com o autor em maio?\nEle caiu de bicicleta e teve uma lesão leve na região cervical, arranhões no braço e um joelho inchado.\nO que o inchaço indica na fase inflamatória?\nIndica que o sistema imunológico está trabalhando.\nQuanto tempo um corte simples costuma levar para cicatrizar?\nCostuma cicatrizar em 1 ou 2 semanas.\nPor que o sistema digestivo se recupera depressa?\nPorque o revestimento do intestino se renova quase inteiro em poucos dias; por isso uma diarreia comum passa em 2 ou 3 dias.\nO que aconteceu quando o autor voltou a correr antes da hora?\nEle sentiu dor de novo e teve de parar mais 2 semanas.\nQue lição o autor aprendeu?\nQue nem tudo se pode remediar com pressa, porque o corpo tem o tempo dele."
+    }
+  ]
+}

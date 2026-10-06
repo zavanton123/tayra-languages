@@ -1,0 +1,207 @@
+{
+  "id": "pt-mini-8100",
+  "rankUpTo": 8100,
+  "level": "C2",
+  "title": "O corpo humano",
+  "description": "Ten texts about the human body: the heart and exercise, the immune system, a surgeon's profile, sleep and memory, the history of anaesthesia, posture, the gut and its bacteria, a documentary review, a cold on match day and a community health agent.",
+  "topic": "The human body",
+  "names": [
+    "Brasil",
+    "Terra",
+    "Teresa",
+    "Okada",
+    "São Paulo",
+    "Paulo",
+    "Japão",
+    "Estados Unidos",
+    "Boston",
+    "Horace",
+    "Wells",
+    "William",
+    "Morton",
+    "Oliver",
+    "Wendell",
+    "Holmes",
+    "Charles",
+    "Jackson",
+    "Crawford",
+    "Long",
+    "James",
+    "Simpson",
+    "Vitória",
+    "Primeira Guerra Mundial",
+    "Renata",
+    "Lopes",
+    "Santos",
+    "Havaí",
+    "Por dentro",
+    "Copa do Mundo",
+    "Carla",
+    "Davi",
+    "Vale do Ribeira",
+    "Vale",
+    "Ribeira",
+    "Mata Atlântica",
+    "Mata",
+    "Atlântica",
+    "Rosa",
+    "Ferreira",
+    "Antônio"
+  ],
+  "lessons": [
+    {
+      "title": "Como o coração se adapta ao exercício",
+      "summary": "An explanation of how the heart grows stronger with training, slows down at rest and changes back when training stops, even in space.",
+      "newWords": [
+        "pulsar",
+        "repousar",
+        "acelerador",
+        "combustão",
+        "dióxido",
+        "fisiológico",
+        "inativo",
+        "tripulante",
+        "irreversível"
+      ],
+      "text": "O coração humano pulsa cerca de 100 mil vezes por dia, sem descanso e sem que a gente precise pensar nisso. É um músculo do tamanho de um punho fechado, mas a sua capacidade de adaptação impressiona até os especialistas. Quando uma pessoa começa a se exercitar com frequência, esse músculo muda, devagar e de maneira previsível.\n\nPara entender essas mudanças, convém lembrar o que o exercício pede ao corpo. Os músculos das pernas e dos braços precisam de energia, e essa energia vem de uma espécie de combustão lenta: as células queimam açúcares e gorduras com a ajuda do oxigênio. Como em toda combustão, sobra um resíduo, o dióxido de carbono, que o sangue leva de volta aos pulmões para ser eliminado. Quanto mais intenso é o esforço, mais oxigênio precisa chegar aos músculos e mais dióxido de carbono precisa sair deles. Quem faz essa entrega é o coração.\n\nNos primeiros minutos de uma corrida, o sistema nervoso funciona como um pé no acelerador: o coração passa a pulsar mais depressa e com mais força. Quando a corrida termina, o pé sai do acelerador, e o ritmo volta aos poucos ao normal. Até aqui, nada de novo; a novidade aparece com os meses de treino. O coração de quem treina fica maior e mais forte, e cada batida passa a mandar mais sangue para o corpo. Por isso, quando a pessoa repousa, o coração precisa pulsar menos vezes por minuto. Em muitos atletas de resistência, o coração de quem repousa bate entre 40 e 60 vezes por minuto, enquanto o de um adulto inativo costuma bater entre 70 e 80.\n\nOs médicos chamam esse conjunto de mudanças de \"coração de atleta\" e o consideram uma resposta fisiológica, isto é, uma adaptação normal do organismo, e não uma doença. Uma prova disso é que as mudanças não são irreversíveis. Se o atleta para de treinar, o coração volta, em alguns meses, a um tamanho parecido com o de antes. Da mesma forma, o coração de uma pessoa inativa não está condenado: começar a caminhar aos 50 ou aos 60 anos ainda traz benefícios claros.\n\nA prova mais curiosa vem do espaço. Os tripulantes das estações espaciais passam meses quase sem gravidade, e o coração deles, que já não precisa empurrar o sangue para cima, tende a perder um pouco de massa e a ficar mais redondo. Por isso, os tripulantes fazem exercício todos os dias a bordo. De volta à Terra, o coração se recupera: mais uma vez, a mudança fisiológica não é irreversível.\n\nTodas essas histórias ensinam o mesmo: o coração responde ao que pedimos a ele. Se pedimos pouco, ele se acomoda; se pedimos mais, com paciência, ele se fortalece para atender.\n\nPerguntas:\nDe onde vem a energia que os músculos usam no exercício?\nEla vem de uma espécie de combustão lenta, em que as células queimam açúcares e gorduras com a ajuda do oxigênio.\nO que o sangue leva de volta aos pulmões?\nO sangue leva o dióxido de carbono, que sobra dessa combustão.\nPor que o coração de um atleta pulsa menos vezes quando ele repousa?\nPorque o coração ficou maior e mais forte, e cada batida manda mais sangue para o corpo.\nPor que os médicos dizem que o coração de atleta é uma resposta fisiológica?\nPorque é uma adaptação normal do organismo, e as mudanças não são irreversíveis.\nO que acontece com o coração dos tripulantes no espaço?\nEle tende a perder um pouco de massa e a ficar mais redondo, mas se recupera na volta à Terra."
+    },
+    {
+      "title": "O sistema imune explicado",
+      "summary": "An explanation of the body's defences: skin, sneezing, defence cells, fever, immune memory and vaccines, and allergies such as asthma.",
+      "newWords": [
+        "xerife",
+        "espirrar",
+        "encurralar",
+        "destruidor",
+        "arrepio",
+        "reativar",
+        "picar",
+        "asma",
+        "aglomeração",
+        "assolar"
+      ],
+      "text": "Todos os dias, sem que a gente perceba, o nosso corpo enfrenta milhares de invasores: vírus, bactérias, partículas de poeira. Quase sempre, nada acontece. Isso se deve ao sistema imune, um conjunto de células, órgãos e substâncias que trabalham juntos para proteger o organismo.\n\nÉ comum comparar o sistema imune a um xerife que vigia uma pequena cidade. Mas esse xerife não trabalha sozinho. A primeira barreira é a pele, que impede a entrada da maioria dos invasores. Depois vem o nariz. Quando uma partícula estranha o irrita, a gente espirra; o espirro é uma forma rápida de expulsar o invasor antes que ele avance. Espirrar, portanto, não é sinal de fraqueza, mas de defesa.\n\nSe o invasor ultrapassa essas barreiras, entram em ação as células de defesa. Algumas delas encurralam as bactérias e as engolem, como um xerife que encurrala o fugitivo num beco sem saída. Outras, que alguns livros chamam de células destruidoras, eliminam as células do próprio corpo que foram infectadas por um vírus. O nome assusta, mas essas destruidoras agem com precisão, sem atingir as células saudáveis. Ao mesmo tempo, o corpo eleva a sua temperatura. A febre e os arrepios que a acompanham são desagradáveis, mas fazem parte do plano: muitos vírus e bactérias se multiplicam mais devagar no calor. O arrepio, aliás, é uma maneira de produzir calor, porque os músculos tremem e, ao tremer, aquecem o corpo.\n\nA parte mais sofisticada do sistema é a memória. Depois de enfrentar um vírus, o organismo guarda células capazes de reconhecê-lo. Se o mesmo vírus aparecer anos depois, a defesa é reativada em poucos dias, e muitas vezes a pessoa nem percebe que esteve exposta. As vacinas usam esse mecanismo: apresentam ao corpo uma versão inofensiva do invasor, e as doses de reforço servem para reativar uma memória que, com o tempo, enfraquece.\n\nÀs vezes, porém, o xerife exagera. Na alergia, o sistema imune trata como inimigo algo inofensivo, como o pelo de um gato ou as substâncias que os mosquitos deixam quando picam. Por isso, as picadas que, numa pessoa, deixam só uma pequena marca vermelha podem, em outra, provocar uma reação forte. Na asma alérgica, a reação acontece nos caminhos do ar dentro dos pulmões, que se estreitam e dificultam a respiração. A asma não tem cura, mas tem tratamento, e a maioria das pessoas com asma leva uma vida normal.\n\nHá também hábitos que ajudam o sistema a funcionar. Dormir bem, comer de forma variada e lavar as mãos depois de passar por uma aglomeração reduzem as chances de ficar doente. Quando a gripe assola a cidade, nos meses frios, vale evitar aglomerações em lugares fechados. Nada disso garante proteção total, mas facilita o trabalho de um xerife que, na maior parte do tempo, nos protege em silêncio.\n\nPerguntas:\nPor que a gente espirra?\nPorque o espirro é uma forma rápida de expulsar uma partícula estranha antes que ela avance.\nO que fazem algumas células de defesa com as bactérias?\nElas encurralam as bactérias e as engolem.\nPor que a febre e os arrepios fazem parte do plano?\nPorque muitos vírus e bactérias se multiplicam mais devagar no calor, e o arrepio ajuda a produzir calor.\nPara que servem as doses de reforço das vacinas?\nElas servem para reativar uma memória que enfraquece com o tempo.\nO que acontece na asma alérgica?\nOs caminhos do ar dentro dos pulmões se estreitam, e a respiração fica difícil.\nO que vale fazer quando a gripe assola a cidade?\nVale evitar aglomerações em lugares fechados e lavar as mãos depois de passar por elas."
+    },
+    {
+      "title": "Perfil: Teresa Okada, a cirurgiã que fala baixo",
+      "summary": "A profile of a calm, respected heart surgeon: her immigrant family, her father's registry office, her honorary doctorate and the way she decides when to operate.",
+      "newWords": [
+        "eminente",
+        "cortejo",
+        "emigrante",
+        "cartório",
+        "honoris",
+        "serenidade",
+        "adiamento",
+        "elegível",
+        "espiritualidade"
+      ],
+      "text": "Quem acompanha a doutora Teresa Okada pelos corredores do hospital, numa manhã qualquer, nota primeiro o silêncio. Aos 63 anos, ela é uma das mais eminentes especialistas em cirurgia cardíaca do país, mas fala baixo, anda sem pressa e cumprimenta pelo nome os funcionários da limpeza. Atrás da eminente cirurgiã segue um pequeno cortejo de residentes, com cadernos na mão, que anotam cada palavra da visita aos pacientes. Ela não gosta muito da palavra. \"Isso não é cortejo de rainha\", diz, sorrindo. \"Eles me acompanham porque estão aprendendo, e eu também aprendo com eles.\"\n\nTeresa nasceu no interior de São Paulo, neta de emigrantes japoneses que deixaram o Japão nos anos 1930 para trabalhar nas lavouras de café. Os avós, como tantos emigrantes da época, chegaram sem falar português e com poucos recursos. O pai dela foi o primeiro da família a terminar os estudos e passou a vida trabalhando num cartório da cidade. Foi no cartório, aonde ia depois da escola, que Teresa aprendeu a respeitar os registros cuidadosos. \"Meu pai dizia que um erro num documento de cartório podia mudar a vida de uma família\", lembra. \"Na cirurgia é igual: cada detalhe conta.\"\n\nFormada em medicina, ela fez residência em cirurgia cardíaca numa época em que quase não havia mulheres na especialidade. Desde então, operou milhares de pacientes e formou dezenas de cirurgiões. No ano passado, recebeu de uma universidade estrangeira o título de doutora honoris causa, homenagem concedida a pessoas de contribuição notável. Ela pendurou o diploma honoris causa no consultório, ao lado de um desenho feito pela neta, e diz que os dois têm o mesmo valor.\n\nOs colegas afirmam que a maior qualidade dela é a serenidade. Teresa explica que a serenidade não vem da ausência de medo, mas de uma preparação cuidadosa. Antes de cada operação, ela revisa os exames e conversa com a família. Se algum dado não está claro, não hesita em pedir o adiamento da cirurgia. \"Um paciente com febre ou com uma infecção não é elegível para uma operação dessas\", explica. \"O adiamento de dois ou três dias pode decepcionar a família, mas é o que protege o paciente.\" Ela insiste para que os residentes aprendam a decidir quem é elegível e quem precisa esperar, porque, segundo ela, saber esperar também é uma técnica.\n\nPerguntada sobre o que a sustenta nos dias difíceis, ela fala de espiritualidade, sem mencionar uma religião específica. Todas as manhãs, antes de sair de casa, passa 10 minutos em silêncio no jardim. Para ela, a espiritualidade é isso: um momento para lembrar que cada paciente é uma pessoa inteira, com uma história, e não apenas um coração sobre a mesa de operação.\n\nPerguntas:\nO que segue a doutora Teresa pelos corredores do hospital?\nUm pequeno cortejo de residentes, que anotam cada palavra da visita aos pacientes.\nDe onde vieram os avós de Teresa?\nEles eram emigrantes japoneses que deixaram o Japão para trabalhar nas lavouras de café.\nO que Teresa aprendeu no cartório do pai?\nEla aprendeu a respeitar os registros cuidadosos, porque cada detalhe conta.\nQue título ela recebeu no ano passado?\nEla recebeu o título de doutora honoris causa de uma universidade estrangeira.\nQuando Teresa pede o adiamento de uma cirurgia?\nQuando algum dado não está claro, ou quando o paciente não é elegível, por exemplo por ter febre ou uma infecção.\nO que é a espiritualidade para ela?\nÉ um momento de silêncio para lembrar que cada paciente é uma pessoa inteira, com uma história."
+    },
+    {
+      "title": "O que o sono faz pela memória",
+      "summary": "A woman who once slept little to study for a public exam explains what she learned about how sleep fixes memories, and how she changed her habits.",
+      "newWords": [
+        "estressado",
+        "lembrete",
+        "boleto",
+        "ortográfico",
+        "estimulante",
+        "infiel",
+        "atalho",
+        "inevitavelmente",
+        "bexiga"
+      ],
+      "text": "Durante muito tempo, achei que dormir era perder tempo. Há alguns anos, quando me preparava para um concurso público, cortei as horas de sono para estudar mais. Eu tinha 25 anos, trabalhava de dia, estudava à noite e vivia estressada. No celular, acumulava lembretes: revisar as regras de pontuação, pagar o boleto do curso, pagar o boleto do aluguel, estudar as normas do acordo ortográfico. Tomava café depois das 10 da noite, porque o estimulante me mantinha acordada até as 2 da manhã.\n\nO resultado foi o contrário do que eu esperava. Eu estudava uma regra ortográfica à noite e, no dia seguinte, ela tinha desaparecido. Achava que a culpa era da minha memória, que eu considerava fraca e infiel. Só mais tarde, numa palestra de uma médica especialista em sono, entendi o que estava acontecendo.\n\nEla explicou que a memória não se forma no momento em que lemos alguma coisa. Durante o dia, o cérebro registra as informações de maneira provisória. É durante o sono, sobretudo nas fases de sono profundo, que muitas dessas informações são organizadas e guardadas de forma mais estável. Quem dorme pouco interrompe esse trabalho, e a lembrança, que ainda era frágil, se perde. A memória, portanto, não é infiel por natureza; ela precisa de tempo e de descanso para se fixar.\n\nA médica disse também que não existe atalho. Nenhum estimulante substitui uma noite inteira de sono, e o café tomado tarde costuma piorar a qualidade do descanso, mesmo quando a pessoa consegue adormecer. Contou que, inevitavelmente, em todas as palestras alguém pergunta se não há um atalho: um aplicativo, um suplemento, um chá especial. A resposta é sempre a mesma: horários regulares, quarto escuro e silêncio.\n\nOutro detalhe me chamou a atenção: até a bexiga pode atrapalhar o estudo. Eu bebia duas canecas de chá antes de deitar e, com a bexiga cheia, acordava duas ou três vezes por noite. Segundo a médica, cada vez que acordamos o sono se interrompe, e as fases profundas ficam mais curtas.\n\nMudei os meus hábitos aos poucos. Passei a tomar o último café às 3 da tarde e a beber menos líquido à noite, para que a bexiga não me acordasse. Deixei de estudar regras ortográficas de madrugada e passei a revisar a matéria antes de dormir, por meia hora, com calma. O único lembrete que ficou no celular foi o das 10 e meia, com duas palavras: \"hora de desligar\". Com o tempo, também passei a me sentir menos estressada, porque já não lutava contra o cansaço o dia inteiro.\n\nFui aprovada no concurso no ano seguinte. Não posso provar que foi por causa do sono. Sei apenas que, nas semanas em que dormia pouco, eu inevitavelmente esquecia o que tinha estudado, e que, quando passei a respeitar as minhas noites, a minha memória ficou bem mais fiel.\n\nPerguntas:\nPor que a narradora tomava café depois das 10 da noite?\nPorque o estimulante a mantinha acordada até as 2 da manhã.\nO que acontecia com as regras ortográficas que ela estudava à noite?\nNo dia seguinte, elas tinham desaparecido da memória dela.\nSegundo a médica, quando muitas informações são guardadas de forma mais estável?\nDurante o sono, sobretudo nas fases de sono profundo.\nExiste um atalho para substituir o sono?\nNão. Nenhum estimulante, aplicativo ou chá substitui uma noite inteira de sono.\nPor que a bexiga atrapalhava o sono da narradora?\nPorque ela bebia muito chá antes de deitar e acordava com a bexiga cheia duas ou três vezes por noite.\nQue lembrete ficou no celular dela?\nFicou só o lembrete das 10 e meia: \"hora de desligar\"."
+    },
+    {
+      "title": "Uma breve história da anestesia",
+      "summary": "How anaesthesia arrived in the 1840s through dentists, ether and chloroform, amid long disputes over who deserved the credit, and how it was used in the First World War.",
+      "newWords": [
+        "anestesia",
+        "dentário",
+        "desentendimento",
+        "justificação",
+        "contestação",
+        "charge",
+        "trincheira",
+        "infantaria",
+        "processual"
+      ],
+      "text": "Quem entra hoje numa sala de cirurgia raramente pensa na sorte que tem. Até meados do século 19, operar alguém significava operar uma pessoa acordada. Os cirurgiões mais respeitados eram os mais rápidos. A anestesia mudou essa realidade em poucos anos, e a sua história, reconstruída a partir de cartas, jornais e relatórios da época, mostra como uma grande descoberta pode nascer cercada de desentendimentos.\n\nO primeiro capítulo envolve dentistas. Nos anos 1840, o tratamento dentário era temido por quase todos, e alguns dentistas dos Estados Unidos começaram a testar gases capazes de diminuir a dor. Em 1845, em Boston, o dentista Horace Wells tentou demonstrar o efeito de um desses gases numa extração dentária diante de estudantes de medicina. O paciente gemeu, e a plateia concluiu que a demonstração tinha falhado.\n\nNo ano seguinte, em 16 de outubro de 1846, outro dentista, William Morton, que tinha trabalhado com Wells, fez uma nova demonstração num hospital de Boston. Dessa vez, usou éter. O paciente dormiu, o cirurgião retirou um tumor do pescoço dele, e ele não sentiu dor. Pouco depois, o médico e escritor Oliver Wendell Holmes sugeriu, numa carta a Morton, a palavra \"anestesia\", de origem grega, que significa algo como \"ausência de sensação\".\n\nFoi então que começaram os desentendimentos. Morton quis ser reconhecido como o único autor da descoberta, pediu uma patente e, no início, escondeu que o produto era éter. A justificação que deu foi a de que precisava proteger o seu trabalho; muitos colegas, no entanto, acharam que um recurso tão útil não podia ter dono. O químico Charles Jackson, que tinha orientado Morton, também reivindicou o mérito, e Wells lembrava que tinha sido o primeiro a tentar. Mais tarde, soube-se que um médico do interior, Crawford Long, já usava éter desde 1842, mas só tinha publicado os resultados em 1849. A contestação entre esses homens durou anos. A patente de Morton também foi parar nos tribunais, e a disputa processual só terminou em 1862, quando a Justiça a considerou inválida. Encerrada a questão processual, o assunto passou aos historiadores, que hoje tendem a ver a anestesia como obra de vários, e não de um só.\n\nUma segunda contestação veio de outro lado. No fim de 1847, o médico escocês James Simpson passou a usar clorofórmio para aliviar a dor do parto, e algumas vozes disseram que isso contrariava a natureza. Simpson publicou uma longa justificação do método, e o debate perdeu força em 1853, quando a rainha Vitória recebeu clorofórmio no nascimento de um dos filhos.\n\nSe esse episódio acontecesse hoje, renderia uma charge em qualquer jornal: quatro homens puxando a mesma garrafa, cada um gritando \"fui eu\". A charge seria engraçada, mas a história também tem capítulos sérios. Na Primeira Guerra Mundial, médicos montaram hospitais perto das trincheiras, e muitos milhares de soldados da infantaria foram operados sob anestesia. O trabalho nesses hospitais, longe de qualquer conforto, ensinou muito sobre como aplicar a anestesia com segurança.\n\nPerguntas:\nO que aconteceu na demonstração de Horace Wells?\nO paciente gemeu durante a extração dentária, e a plateia concluiu que a demonstração tinha falhado.\nQuem sugeriu a palavra \"anestesia\"?\nFoi o médico e escritor Oliver Wendell Holmes, numa carta a Morton.\nQual foi a justificação de Morton para esconder que usava éter?\nEle disse que precisava proteger o seu trabalho.\nPor que houve contestação sobre a descoberta?\nPorque Morton, Jackson, Wells e Long tinham razões para reivindicar o mérito, e a disputa processual durou até 1862.\nO que aconteceu com muitos soldados da infantaria na Primeira Guerra Mundial?\nMuitos milhares deles foram operados sob anestesia, em hospitais montados perto das trincheiras."
+    },
+    {
+      "title": "Postura não é pose: entrevista com uma fisioterapeuta",
+      "summary": "A physiotherapist who began by treating dock workers talks about office posture, the muscles that hold us up, balance, workplace exercise and occasional back pain.",
+      "newWords": [
+        "doca",
+        "algemar",
+        "sustentação",
+        "caracol",
+        "laboral",
+        "ocasional",
+        "semanalmente",
+        "desanimar"
+      ],
+      "text": "Renata Lopes atende há 20 anos em Santos, no litoral paulista. Começou a carreira tratando os trabalhadores das docas e hoje cuida sobretudo de quem passa o dia diante de um computador. Conversamos com ela sobre postura, dor nas costas e pequenos hábitos.\n\nA senhora começou a carreira nas docas. O que aprendeu lá?\n\nNas docas, o trabalho era pesado: carregar, levantar, puxar. Os problemas vinham do excesso de esforço. Quando passei a atender pessoas de escritório, achei que os problemas seriam menores. Não são menores, são diferentes. O trabalhador das docas se mexia demais; o de escritório se mexe de menos.\n\nExiste uma postura correta?\n\nMenos do que se imagina. Costumo dizer que a melhor postura é a próxima, ou seja, mudar de posição é mais importante do que encontrar a posição perfeita. O corpo não foi feito para ficar algemado a uma cadeira oito horas por dia. Muitos dos meus pacientes passam a jornada inteira praticamente algemados ao computador e só se levantam para almoçar.\n\nO que mantém o corpo de pé?\n\nA coluna, claro, mas ela não trabalha sozinha. Ao redor dela e na barriga ficam os músculos de sustentação, que funcionam como os cabos que seguram um poste. Quando esses músculos de sustentação estão fracos, a coluna recebe mais carga do que deveria. Há também o equilíbrio, que depende do ouvido interno. Ali fica o caracol, uma pequena estrutura enrolada como a concha desse animal, que serve para ouvir. Ao lado do caracol há canais cheios de líquido que informam ao cérebro a posição da cabeça.\n\nA ginástica laboral funciona?\n\nFunciona, desde que seja regular. A ginástica laboral é um conjunto de exercícios curtos feitos no próprio local de trabalho, durante a jornada. Dez minutos de exercícios leves por dia ajudam mais do que uma hora de esforço uma vez por mês. As empresas que incluem essas pausas na rotina laboral costumam registrar menos queixas de dor.\n\nUma dor ocasional nas costas é motivo de preocupação?\n\nUma dor ocasional depois de um dia cansativo é muito comum e costuma passar em poucos dias. O sinal de alerta é quando ela deixa de ser ocasional, dura semanas ou vem acompanhada de fraqueza nas pernas. Nesses casos, é bom procurar um médico.\n\nQue conselho a senhora dá a quem quer começar a cuidar da postura?\n\nPrimeiro, escolher uma atividade de que goste, porque ninguém mantém por muito tempo o que detesta. Peço aos meus pacientes que pratiquem essa atividade pelo menos três vezes por semana e que me contem semanalmente como estão. Ver o progresso semanalmente ajuda a manter a disciplina. Segundo, não desanimar. O corpo leva semanas para fortalecer os músculos de sustentação. Muita gente se sente desanimada no primeiro mês, porque espera resultados rápidos. Eu sempre digo: não desanime; a mudança chega, só que devagar.\n\nPerguntas:\nCom quem Renata Lopes começou a trabalhar?\nEla começou tratando os trabalhadores das docas de Santos.\nQual é a diferença entre o trabalhador das docas e o de escritório, segundo ela?\nO trabalhador das docas se mexia demais, e o de escritório se mexe de menos.\nPara que servem os músculos de sustentação?\nEles seguram a coluna, como os cabos que seguram um poste.\nO que fica no ouvido interno, ao lado do caracol?\nHá canais cheios de líquido que informam ao cérebro a posição da cabeça.\nO que é a ginástica laboral?\nÉ um conjunto de exercícios curtos feitos no próprio local de trabalho, durante a jornada.\nQuando uma dor nas costas deixa de ser apenas ocasional?\nQuando dura semanas ou vem acompanhada de fraqueza nas pernas."
+    },
+    {
+      "title": "O intestino e as suas bactérias",
+      "summary": "An explanation of the bacteria that live in the gut, what they do for digestion and health, what upsets their balance, and why miracle products should be doubted.",
+      "newWords": [
+        "fisiologia",
+        "celeiro",
+        "acrescer",
+        "caju",
+        "azeitona",
+        "desequilíbrio",
+        "embrulhar",
+        "falsidade",
+        "sucumbir"
+      ],
+      "text": "Durante muito tempo, o intestino foi visto como um simples tubo por onde passam os restos da comida. Hoje se sabe que ele abriga uma comunidade enorme de seres vivos, sobretudo bactérias. Estimativas recentes indicam que, no corpo de um adulto, há aproximadamente tantas bactérias quanto células humanas, e a maior parte delas vive no intestino grosso. A ciência que estuda o funcionamento do corpo, a fisiologia, passou a tratar essas bactérias como uma parte do organismo, e não como hóspedes de passagem.\n\nPara essas bactérias, o intestino grosso é uma espécie de celeiro. É ali que chegam as fibras dos alimentos, que o nosso próprio corpo não consegue aproveitar. As bactérias se alimentam dessas fibras e, em troca, produzem substâncias que nutrem a parede do intestino e ajudam a proteger o organismo. Quanto mais variado é esse celeiro, mais variadas são as bactérias que ele sustenta. Frutas como o caju, a manga e a banana, legumes, feijão e cereais integrais estão entre as melhores fontes de fibra. O caju, além disso, é muito rico em vitaminas.\n\nAlguns alimentos podem trazer, eles próprios, bactérias vivas. É o caso do iogurte natural e de certas azeitonas preparadas de modo tradicional, em que bactérias agem durante semanas antes de o alimento chegar à mesa. Uma porção de azeitonas não transforma ninguém, mas, somada a uma alimentação variada, contribui para manter a diversidade dessa comunidade.\n\nA esse papel acresce outro, menos conhecido. As bactérias do intestino conversam com o sistema imune e, por caminhos que ainda estão sendo estudados, com o próprio cérebro. Boa parte da serotonina, uma substância ligada ao humor, é produzida no intestino. A esse fato acresce outro: o intestino tem uma rede de nervos tão extensa que alguns pesquisadores o chamam de \"segundo cérebro\". Nessa área, a fisiologia ainda guarda muitas perguntas sem resposta.\n\nO equilíbrio dessa comunidade, no entanto, é delicado. Um tratamento com antibióticos, necessário em muitas infecções, elimina também parte das bactérias úteis e pode provocar um desequilíbrio passageiro. Quem já tomou antibióticos conhece a sensação de estômago embrulhado. Na maioria das vezes, o desequilíbrio se corrige sozinho em algumas semanas, sobretudo se a pessoa mantém uma alimentação rica em fibras. Mesmo com o estômago embrulhado, nunca se deve interromper o antibiótico por conta própria.\n\nPor ser um tema novo e atraente, o intestino também virou alvo de promessas exageradas. Há produtos vendidos como capazes de curar quase tudo, da tristeza ao cansaço. Muitos desses anúncios misturam um pouco de ciência com muita falsidade, e a falsidade nem sempre é fácil de perceber. Os especialistas recomendam não sucumbir a essas promessas: quem sucumbe a elas costuma gastar dinheiro sem benefício claro. O conselho mais sólido continua sendo o mais simples: comer comida de verdade, variada e rica em fibras.\n\nPerguntas:\nOnde vive a maior parte das bactérias do corpo?\nA maior parte delas vive no intestino grosso.\nPor que o intestino grosso é uma espécie de celeiro para as bactérias?\nPorque é ali que chegam as fibras dos alimentos, de que as bactérias se alimentam.\nQue alimentos trazem bactérias vivas?\nO iogurte natural e certas azeitonas preparadas de modo tradicional.\nO que pode provocar um desequilíbrio nessa comunidade?\nUm tratamento com antibióticos, que elimina também parte das bactérias úteis.\nO que se deve fazer quando o antibiótico deixa o estômago embrulhado?\nNão se deve interromper o tratamento por conta própria.\nO que os especialistas recomendam sobre os produtos milagrosos?\nEles recomendam não sucumbir às promessas, porque muitos anúncios misturam ciência com falsidade."
+    },
+    {
+      "title": "Resenha: uma série documental sobre o corpo",
+      "summary": "A review of a six-episode documentary series about the human body, praising its 3D models, its clear reasoning and a moving scene, with one small criticism.",
+      "newWords": [
+        "documental",
+        "modelagem",
+        "argumentação",
+        "havaiano",
+        "tramar",
+        "comovente"
+      ],
+      "text": "As séries sobre o corpo humano costumam cair em dois extremos. Ou exageram nos efeitos visuais e esquecem a ciência, ou explicam tudo com tanta seriedade que o espectador desiste no segundo episódio. \"Por dentro\", série documental em 6 episódios que estreou neste mês, encontra um caminho entre os dois, e é por isso que merece ser vista.\n\nCada episódio trata de um sistema do corpo: o coração, os pulmões, o cérebro, a pele, o sistema imune e o intestino. O formato se repete, o que facilita a vida do espectador: primeiro, uma pergunta simples; depois, uma explicação com imagens; por fim, uma conversa com pesquisadores. Essa estrutura previsível é uma virtude, e não um defeito. Numa série documental, o que importa é que o público entenda, e a repetição do formato ajuda a entender.\n\nO ponto alto, do ponto de vista técnico, é a modelagem em três dimensões. Graças a uma modelagem feita a partir de exames de pessoas reais, a câmera parece entrar no coração e acompanhar o sangue de uma câmara para outra. Em vez de desenhos genéricos, vemos órgãos com as pequenas irregularidades de um corpo de verdade.\n\nNo episódio sobre os pulmões, a equipe viajou até as ilhas do Havaí para acompanhar um grupo de pescadores havaianos que mergulham sem equipamento, apenas prendendo a respiração. A série mostra como, durante o mergulho, o coração desses pescadores havaianos bate mais devagar, para economizar oxigênio. A explicação é clara e não exige do espectador nenhum conhecimento prévio.\n\nOutra qualidade da série é a argumentação. Os roteiristas não tramaram mistérios artificiais nem precisaram tramar sustos para prender a atenção. A argumentação parte sempre de uma observação concreta e chega a uma conclusão modesta, sem prometer milagres. Quando um pesquisador não sabe a resposta, ele diz que não sabe, e a série respeita esse limite.\n\nA cena mais comovente está no episódio sobre o coração. Uma mulher grávida faz um exame e ouve, pela primeira vez, o coração do filho. A câmera não se aproxima demais, não há música dramática: ouvimos apenas o som rápido daquele coração tão pequeno. É comovente justamente porque é simples.\n\nSe há um defeito, é a narração, um pouco solene nos primeiros minutos de cada episódio. É um detalhe, porém. \"Por dentro\" é uma série documental feita com cuidado, que trata o espectador como alguém inteligente e curioso. Recomendo-a a estudantes, professores e a qualquer pessoa que já tenha se perguntado o que acontece dentro de si.\n\nPerguntas:\nEm quais dois extremos costumam cair as séries sobre o corpo humano?\nOu exageram nos efeitos visuais e esquecem a ciência, ou são tão sérias que o espectador desiste.\nPor que a estrutura previsível é uma virtude?\nPorque ajuda o público a entender, e numa série documental isso é o que importa.\nComo foi feita a modelagem em três dimensões?\nFoi feita a partir de exames de pessoas reais.\nO que acontece com o coração dos pescadores havaianos durante o mergulho?\nEle bate mais devagar, para economizar oxigênio.\nComo é a argumentação da série?\nEla parte de uma observação concreta e chega a uma conclusão modesta, sem prometer milagres.\nQual é a cena mais comovente?\nÉ a cena em que uma mulher grávida ouve, pela primeira vez, o coração do filho."
+    },
+    {
+      "title": "Gripe em dia de jogo",
+      "summary": "A crônica: the narrator falls ill on the day of Brazil's first World Cup match and watches it from the sofa, cared for by his sister and missed by his little nephew.",
+      "newWords": [
+        "adoecer",
+        "enfeitar",
+        "patriótico",
+        "estampa",
+        "deprimente",
+        "chorão",
+        "panqueca"
+      ],
+      "text": "Adoeci, como quase sempre, na pior hora possível: no dia da estreia do Brasil na Copa do Mundo. Tenho a impressão de que o meu corpo escolhe com cuidado as datas em que vai adoecer. Acordei com a garganta ardendo, o nariz entupido e uma febre baixa, dessas que não impedem a pessoa de andar, mas tiram toda a vontade de fazê-lo.\n\nMoro com a minha irmã, Carla, e com o filho dela, o Davi, de 4 anos. Na véspera, nós três tínhamos passado a tarde inteira enfeitando a sala. Havia bandeirinhas no teto, balões nas janelas e uma faixa de papel na porta. A sala enfeitada de verde e amarelo parecia pronta para uma festa, e eu tinha prometido ao Davi que assistiríamos ao jogo juntos, lado a lado, no sofá.\n\nO Davi vive um momento patriótico intenso. Sabe cantar o hino quase inteiro, embora troque algumas palavras, e escolheu para o dia do jogo uma camiseta com a estampa da bandeira. Eu também tinha separado a minha, uma camisa antiga com a estampa desbotada de um jogador dos anos 1990. O espírito patriótico da casa estava completo; só faltava a saúde do tio.\n\nA Carla mediu a minha temperatura e decidiu que eu assistiria ao jogo no sofá, sim, mas na outra ponta, longe do sobrinho, para não passar a gripe para ele. Confesso que achei a situação um pouco deprimente: um adulto de 35 anos enrolado num cobertor, com a camisa do Brasil por cima do pijama, olhando de longe para a festa que ele mesmo tinha preparado. Mais deprimente ainda foi ver a cara do Davi, que não entendia por que não podia sentar no meu colo.\n\nO Davi anda chorão nestes dias, e chorou um pouco quando a mãe explicou a regra. A Carla, que conhece bem o filho chorão que tem, encontrou uma solução: ele seria o meu \"enfermeiro\". Caberia a ele trazer o lenço, o copo de água e, no intervalo, as panquecas. A minha irmã faz panquecas de carne com molho de tomate desde que éramos crianças, e não existe, para mim, remédio melhor.\n\nO plano funcionou. O Davi levou a função a sério: a cada lance perigoso, corria até a minha ponta do sofá para perguntar se eu estava bem e voltava correndo para a dele. No intervalo, trouxe as panquecas com tanto cuidado que demorou quase cinco minutos para atravessar a sala. O Brasil venceu por 2 a 0. No fim do jogo, ainda com febre, percebi que a gripe não tinha estragado nada; tinha apenas mudado o lugar de cada um no sofá.\n\nPerguntas:\nQuando o narrador adoeceu?\nEle adoeceu no dia da estreia do Brasil na Copa do Mundo.\nComo a sala estava enfeitada?\nEstava enfeitada de verde e amarelo, com bandeirinhas, balões e uma faixa na porta.\nQue estampa tinha a camiseta do Davi?\nA camiseta dele tinha a estampa da bandeira.\nPor que o narrador achou a situação deprimente?\nPorque teve de assistir ao jogo de longe, enrolado num cobertor, sem poder ficar com o sobrinho.\nQue solução a Carla encontrou para o filho chorão?\nEla fez do Davi o \"enfermeiro\" do tio, encarregado do lenço, da água e das panquecas.\nComo terminou o jogo?\nO Brasil venceu por 2 a 0."
+    },
+    {
+      "title": "A agente de saúde do Vale do Ribeira",
+      "summary": "A profile of a community health agent from a quilombola community in a mountainous region of São Paulo state, who visits families every week.",
+      "newWords": [
+        "montanhoso",
+        "eldorado",
+        "quilombola",
+        "caboclo",
+        "redondeza",
+        "remunerar",
+        "tesoureiro",
+        "acomodação"
+      ],
+      "text": "No sul do estado de São Paulo, o Vale do Ribeira tem estradas estreitas e uma paisagem montanhosa, coberta por uma das maiores áreas contínuas de Mata Atlântica do país. No século 17, quando se encontrou ouro nos rios da região, o vale chegou a ser visto como um eldorado. O eldorado durou pouco, mas deixou marcas. Muitos africanos escravizados foram levados para trabalhar ali e, com o tempo, formaram comunidades livres, os quilombos. Hoje, o Vale do Ribeira reúne dezenas de comunidades quilombolas, além de aldeias indígenas e de famílias caboclas que vivem da roça e da pesca.\n\nÉ nesse terreno montanhoso que trabalha Rosa Ferreira, de 48 anos, agente comunitária de saúde. Rosa é quilombola, nasceu na comunidade onde mora e conhece cada família pelo nome. Todas as manhãs, ela sai de casa com uma bolsa de lona, um caderno e um aparelho de medir pressão, e percorre a pé as casas das redondezas. Algumas ficam a mais de uma hora de caminhada, em trilhas que a chuva transforma em lama.\n\nO trabalho de Rosa é simples de descrever e difícil de fazer. Ela visita as famílias, mede a pressão dos idosos, pergunta se as crianças tomaram as vacinas, lembra as gestantes das consultas e avisa a equipe do posto quando alguém precisa de atendimento. Entre os seus pacientes está o seu Antônio, um caboclo de 80 anos que conhece todas as plantas da mata e que, durante anos, se recusou a tomar o remédio para pressão. Foram meses de conversa até ele aceitar.\n\nAntes de ser contratada, Rosa já fazia parte desse trabalho por conta própria, sem ser remunerada. Levava vizinhos ao posto, ajudava a preencher documentos, acompanhava partos. Há 15 anos, passou a ser remunerada pela prefeitura como agente de saúde. Além disso, é tesoureira da associação da comunidade, eleita pelos vizinhos. O marido, que foi tesoureiro antes dela, brinca que ela herdou o cargo e o caderno de contas.\n\nUma vez por mês, uma médica e uma enfermeira vêm da cidade para atender na comunidade. Como a viagem é longa, elas dormem numa pequena acomodação que a associação construiu ao lado da escola. A acomodação é simples, com duas camas e uma cozinha, mas Rosa faz questão de deixá-la limpa e com flores na mesa. \"Quem vem cuidar da gente tem de ser bem recebido\", diz.\n\nPerguntada sobre o que mais mudou nas redondezas desde que começou, Rosa não fala de remédios nem de exames. Fala de confiança. \"No começo, as pessoas fechavam a porta. Hoje, elas me chamam para tomar café.\"\n\nPerguntas:\nComo é a paisagem do Vale do Ribeira?\nÉ uma paisagem montanhosa, coberta por uma das maiores áreas contínuas de Mata Atlântica do país.\nPor que o vale chegou a ser visto como um eldorado?\nPorque no século 17 se encontrou ouro nos rios da região.\nQuem é Rosa Ferreira?\nÉ uma agente comunitária de saúde quilombola, de 48 anos.\nO que Rosa faz nas casas das redondezas?\nEla mede a pressão dos idosos, pergunta pelas vacinas das crianças e avisa a equipe do posto quando alguém precisa de atendimento.\nDesde quando Rosa é remunerada pelo trabalho?\nEla é remunerada pela prefeitura há 15 anos.\nOnde dormem a médica e a enfermeira que vêm da cidade?\nElas dormem numa pequena acomodação que a associação construiu ao lado da escola."
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "pt-mini-8400",
+  "rankUpTo": 8400,
+  "level": "C2",
+  "title": "Emoções e relações",
+  "description": "Calm texts on everyday psychology: envy and admiration, apologising well, explaining grief to a child, shyness in adults, the science of laughter, nostalgia, a couples column, respect instead of pity, a pilgrimage with a mother, and two brothers who became friends.",
+  "topic": "Emotions and relationships",
+  "names": [
+    "Brasil",
+    "Patrícia",
+    "Sílvia",
+    "Andrade",
+    "Antônio",
+    "Lia",
+    "Helena",
+    "Prado",
+    "São Paulo",
+    "Paulo",
+    "Robert",
+    "Provine",
+    "Angelo",
+    "Agostini",
+    "Pedro",
+    "II",
+    "Salvador",
+    "Johannes",
+    "Hofer",
+    "Regina",
+    "Daniel",
+    "Luana",
+    "Recife",
+    "Etiópia",
+    "Nordeste",
+    "Marta",
+    "Lins",
+    "Dawit",
+    "Bekele",
+    "Aparecida",
+    "Santiago",
+    "Espanha",
+    "Caio",
+    "Rafael"
+  ],
+  "lessons": [
+    {
+      "title": "Entre a inveja e a admiração",
+      "summary": "A columnist feels envy when an old school friend wins a swimming title, and learns to turn it into a push towards her own wish to write.",
+      "newWords": [
+        "sarcástico",
+        "ilegítimo",
+        "sagrar",
+        "canalizar",
+        "descontente",
+        "anseio",
+        "respeitável",
+        "transformador",
+        "ecoar"
+      ],
+      "text": "No mês passado, li no jornal que a Patrícia, minha colega dos tempos de escola, se sagrou campeã brasileira de natação na sua faixa de idade, aos 45 anos. Na foto, ela sorria na beira da piscina, com a medalha no peito. Confesso que a minha primeira reação não foi bonita. Senti uma ponta de inveja e, antes de pensar, escrevi no grupo de antigos colegas um comentário sarcástico: \"Pelo visto, tem gente com tempo de sobra para nadar.\" Apaguei a mensagem dois minutos depois, mas a frase continuou ecoando na minha cabeça durante o dia inteiro.\n\nÀ noite, tentei entender o que tinha acontecido. Eu não queria me sagrar campeã de nada; nem gosto de piscina. O que me incomodava era outra coisa. A Patrícia tinha feito aquilo que eu vivo adiando: dedicar-se de corpo e alma a uma paixão. A vitória dela ecoava um anseio antigo meu, o de voltar a escrever contos, um anseio que deixei de lado quando os filhos nasceram e o trabalho cresceu. No fundo, eu não estava descontente com ela; estava descontente comigo.\n\nOs psicólogos costumam distinguir dois tipos de inveja. No primeiro, a pessoa deseja que o outro perca o que conquistou; no segundo, deseja apenas alcançar algo parecido. Esse segundo tipo fica muito perto da admiração e pode ter um efeito transformador, porque mostra, com uma clareza às vezes dolorosa, aquilo que queremos para nós. O meu comentário sarcástico pertencia ao primeiro tipo, mas o sentimento por trás dele, pensando bem, era do segundo.\n\nLi também que a inveja, em si, não é um sentimento ilegítimo. Ninguém escolhe o que sente; escolhemos apenas o que fazer com isso. Tratar a inveja como algo ilegítimo, de que devemos nos envergonhar, costuma piorar as coisas: escondida, ela se transforma em ironia, como aconteceu comigo. Reconhecida, pode ser canalizada para algo útil. Canalizar a inveja não significa fingir que ela não existe, mas usá-la como um mapa que indica o que nos falta.\n\nFoi o que tentei fazer. No dia seguinte, mandei uma mensagem sincera à Patrícia, dando parabéns pela conquista e perguntando como ela conseguia treinar com uma rotina tão cheia. Ela respondeu com carinho e contou que acorda às cinco da manhã, quatro vezes por semana. Achei respeitável a disciplina dela, e mais respeitável ainda a calma com que falou dos anos em que perdeu todas as provas.\n\nDesde então, acordo uma hora mais cedo e escrevo antes do café. Ainda não terminei nenhum conto, mas já tenho três começos de que gosto. A vitória da Patrícia continua ecoando em mim, só que agora de outro jeito: não como acusação, mas como convite. Descobri que a admiração também pode ser transformadora quando a gente aceita aprender com ela.\n\nPerguntas:\nO que a narradora leu no jornal?\nEla leu que a Patrícia se sagrou campeã brasileira de natação na sua faixa de idade.\nQual foi a primeira reação da narradora?\nEla sentiu inveja e escreveu um comentário sarcástico no grupo de antigos colegas.\nPor que a narradora estava descontente?\nPorque a vitória da Patrícia lembrava o seu anseio de voltar a escrever contos, que ela tinha deixado de lado.\nSegundo o texto, a inveja é um sentimento ilegítimo?\nNão. Ninguém escolhe o que sente, e a inveja pode ser canalizada para algo útil.\nO que a narradora achou respeitável na Patrícia?\nEla achou respeitável a disciplina da amiga e a calma com que falava das provas que tinha perdido.\nO que a narradora faz desde então?\nEla acorda uma hora mais cedo e escreve antes do café."
+    },
+    {
+      "title": "Entrevista: a arte de pedir desculpas",
+      "summary": "An interview with a psychologist on what makes an apology work, with an example from a customer service call.",
+      "newWords": [
+        "precipitar",
+        "compreensivo",
+        "estaca",
+        "sublinhar",
+        "minimamente",
+        "autenticidade",
+        "fatura",
+        "ramal",
+        "pepino"
+      ],
+      "text": "A psicóloga Sílvia Andrade estuda há 20 anos a maneira como as pessoas fazem as pazes. Na conversa abaixo, ela explica o que separa um pedido de desculpas que funciona de outro que só piora a situação.\n\nPor que é tão difícil pedir desculpas?\nPorque pedir desculpas é admitir uma falha, e quase todos nós temos medo de parecer fracos. Por isso tanta gente prefere explicar, justificar, mudar de assunto. Gosto de sublinhar uma coisa logo no começo: reconhecer um erro não diminui ninguém.\n\nO que é, então, um bom pedido de desculpas?\nEle tem três partes. Primeiro, dizer com clareza o que fez, sem rodeios. Depois, reconhecer o efeito que isso teve no outro. Por fim, oferecer alguma reparação e mudar o comportamento. E há uma palavra que estraga quase tudo: o \"mas\". \"Desculpe, mas você também...\" não é um pedido de desculpas; é o começo de uma nova discussão.\n\nPode dar um exemplo do dia a dia?\nUm leitor me contou que recebeu, durante três meses, uma fatura de telefone com um valor errado. Cada vez que ligava para a empresa, era transferido de ramal em ramal, e ninguém resolvia nada. Todo mundo passava o pepino adiante. No quarto mês, uma atendente ouviu a história até o fim, sem transferir a ligação, e disse: \"O senhor tem toda a razão. A fatura estava errada, o erro foi nosso, e eu vou acompanhar o seu caso até o fim.\" Ela resolveu o pepino que todos evitavam, e o leitor desistiu de cancelar o contrato.\n\nE nas relações pessoais?\nO princípio é o mesmo, mas a autenticidade pesa ainda mais. Quem convive com a gente percebe na hora quando o pedido é só uma fórmula para encerrar o assunto. A autenticidade aparece nos detalhes: no tom de voz, no olhar, na disposição de ouvir a resposta.\n\nExiste pressa demais na hora de se desculpar?\nExiste, sim. Uma desculpa precipitada, dada no calor da briga, muitas vezes soa falsa, porque a pessoa ainda não entendeu bem o que fez. Não convém se precipitar. Às vezes é melhor dizer: \"Eu sei que errei, preciso pensar, e amanhã a gente conversa\". Essa frase já é minimamente honesta e mostra ao outro que o assunto não vai ser esquecido.\n\nE quando o outro não aceita as desculpas?\nÉ um direito dele. Um pedido de desculpas não é uma troca, como se eu pedisse e você fosse obrigado a perdoar. Quando a confiança foi muito abalada, às vezes a relação volta à estaca zero, e é preciso reconstruí-la aos poucos. Voltar à estaca zero assusta, mas é um recomeço. Quero sublinhar também a importância de ser compreensivo com a demora do outro e compreensivo consigo mesmo. Quem é minimamente honesto sabe que todos erram; o que define uma relação é o que fazemos depois.\n\nPerguntas:\nSegundo a psicóloga, por que é difícil pedir desculpas?\nPorque pedir desculpas é admitir uma falha, e muitas pessoas têm medo de parecer fracas.\nO que aconteceu com o leitor que recebia uma fatura errada?\nEle era transferido de ramal em ramal, até que uma atendente assumiu o erro.\nPor que uma desculpa precipitada pode soar falsa?\nPorque a pessoa ainda não entendeu bem o que fez.\nO que acontece quando a confiança foi muito abalada?\nÀs vezes a relação volta à estaca zero e precisa ser reconstruída aos poucos.\nCom quem é preciso ser compreensivo?\nCom a demora do outro e também consigo mesmo."
+    },
+    {
+      "title": "Como falar de luto com uma criança",
+      "summary": "A gentle guide for parents, following how one family helped six-year-old Lia after her grandfather died.",
+      "newWords": [
+        "decomposição",
+        "cesto",
+        "indefeso",
+        "dissipar",
+        "caloroso",
+        "sossego",
+        "acúmulo",
+        "unicórnio"
+      ],
+      "text": "Quando o avô Antônio morreu, aos 82 anos, a pequena Lia tinha 6 anos. Os pais dela, ainda tomados pela tristeza, não sabiam por onde começar a conversa. Algumas ideias simples ajudam nesse momento.\n\nA primeira é usar palavras claras. Expressões como \"o vovô foi dormir\" ou \"o vovô viajou\" parecem mais suaves, mas podem confundir a criança e até lhe dar medo de dormir ou de viajar. É melhor dizer, com um abraço caloroso, que o vovô morreu, que o corpo dele parou de funcionar e que ele não sente mais dor, nem frio, nem fome.\n\nA segunda é aceitar as perguntas, mesmo quando elas parecem estranhas para um adulto. As crianças costumam fazer perguntas muito concretas: onde está o corpo, o que acontece com ele, se a pessoa volta. Os pais da Lia aproveitaram um passeio pelo parque, no outono, para falar das folhas caídas. Explicaram que, com o tempo, as folhas passam por uma decomposição lenta e viram terra, e que essa terra alimenta as plantas novas. A decomposição, para a Lia, deixou de ser uma ideia assustadora e passou a fazer parte de um ciclo que ela via todos os dias no jardim. Cada família pode juntar a isso as suas crenças.\n\nA terceira ideia é lembrar que as crianças vivem o luto em ondas. Num momento choram, no outro querem brincar, e isso não significa que não se importem. Depois de um acúmulo de perguntas e de emoções, elas precisam de pausas, de brincadeira e de sossego. Esse acúmulo cansa, e respeitar o sossego da criança é tão importante quanto conversar com ela.\n\nDiante da morte, a criança pode se sentir indefesa, como se o mundo tivesse ficado menos seguro. Por isso, ajuda manter a rotina: o horário da escola, o banho, a história antes de dormir. A rotina mostra à criança que ela não está indefesa, que os adultos continuam ali, cuidando dela.\n\nNa casa da Lia, a família montou um cesto de lembranças. Dentro do cesto, colocaram o chapéu do avô, fotografias, a receita do bolo que ele fazia aos domingos e os desenhos da neta. Um deles mostrava um unicórnio colorido ao lado de um senhor de chapéu. \"O vovô gostava das minhas histórias de unicórnio\", explicou a Lia. Sempre que sente saudade, ela abre o cesto e escolhe um objeto para conversar sobre ele com a mãe, que a escuta com um carinho caloroso.\n\nPor fim, é bom saber que a tristeza não se dissipa de uma vez. Ela vai se dissipando aos poucos, como a neblina de uma manhã fria, e dá lugar a uma saudade mais tranquila. Os adultos também podem chorar na frente das crianças: isso ensina que a tristeza é natural e que se pode atravessá-la juntos.\n\nPerguntas:\nQuantos anos a Lia tinha quando o avô morreu?\nEla tinha 6 anos.\nPor que é melhor evitar expressões como \"o vovô foi dormir\"?\nPorque elas podem confundir a criança e lhe dar medo de dormir ou de viajar.\nComo os pais da Lia explicaram a decomposição?\nEles mostraram as folhas caídas no parque e explicaram que elas viram terra e alimentam as plantas novas.\nPor que é importante manter a rotina da criança?\nPorque a rotina mostra que ela não está indefesa e que os adultos continuam cuidando dela.\nO que havia no cesto de lembranças?\nHavia o chapéu do avô, fotografias, a receita do bolo e os desenhos da Lia, como o do unicórnio.\nA tristeza se dissipa de uma vez?\nNão. Ela se dissipa aos poucos e dá lugar a uma saudade mais tranquila."
+    },
+    {
+      "title": "Helena, tímida desde sempre",
+      "summary": "A profile of a shy copywriter who learned, step by step, to speak up without trying to stop being shy.",
+      "newWords": [
+        "redator",
+        "selfie",
+        "fantoche",
+        "cravar",
+        "transcrever",
+        "envolvente",
+        "conectividade",
+        "interdisciplinar",
+        "impossibilidade"
+      ],
+      "text": "Helena Prado tem 41 anos e trabalha como redatora numa editora de São Paulo. Escreve os textos das capas dos livros, catálogos e apresentações de autores. Os colegas elogiam o seu estilo envolvente, capaz de convencer qualquer leitor a abrir um livro. Escrever textos envolventes sempre foi, para ela, mais fácil do que falar. Poucos imaginam o esforço que, durante muito tempo, ela fez para falar numa reunião com mais de três pessoas.\n\n\"Sou tímida desde que me lembro\", conta Helena. Na infância, a única maneira que encontrou de falar diante da turma foi por meio de um fantoche. A professora percebeu que a menina, tão calada, se transformava quando escondia a mão dentro de um fantoche de pano, um cachorro de orelhas compridas. Era o cachorro quem respondia às perguntas, contava histórias e fazia a classe rir.\n\nNa adolescência, a timidez cresceu. Nas festas, Helena passava a noite perto da cozinha. Quando alguém lhe fazia uma pergunta, ela cravava os olhos no chão e respondia com uma frase curta. \"Eu tinha a sensação de que todo mundo estava me avaliando\", lembra. Na faculdade, apresentar um trabalho em voz alta parecia uma impossibilidade. Essa impossibilidade, no entanto, era mais medo do que incapacidade, como ela descobriria mais tarde.\n\nOs especialistas costumam distinguir o tímido do introvertido. O introvertido gosta de ficar sozinho e recupera a energia no silêncio; o tímido, muitas vezes, gostaria de estar no meio das pessoas, mas tem medo do julgamento delas. Helena se reconhece um pouco nas duas descrições, mas é o medo do julgamento que mais a incomodou ao longo da vida.\n\nO primeiro emprego ajudou. Antes de virar redatora, ela passou dois anos transcrevendo entrevistas para uma revista. Transcrever a voz dos outros, palavra por palavra, ensinou-lhe que quase todo mundo hesita, repete e se corrige ao falar. \"Percebi que ninguém fala como um livro. Isso me acalmou.\"\n\nA internet também teve o seu papel. Com a conectividade de hoje, Helena conversa com autores do país inteiro por mensagens escritas, que a deixam mais à vontade. Mas ela aponta um risco: \"A conectividade não pode virar esconderijo. Eu me obrigo a fazer algumas ligações por semana.\"\n\nHoje Helena faz parte de uma equipe interdisciplinar, com designers, revisores e especialistas em vendas. O trabalho interdisciplinar a obriga a defender as suas ideias em voz alta, e ela aprendeu a se preparar: anota três pontos num cartão e o leva consigo. Ainda fica com as mãos frias, mas fala. Às vezes, quando se sente insegura, crava os olhos no cartão por um segundo e respira fundo antes de continuar.\n\nE as fotos? Ela ri. \"Selfie, para mim, continua sendo um esporte radical.\" Nos lançamentos de livros, quando os leitores pedem uma selfie, ela aceita, sorri e, por dentro, conta até dez. Helena não quer deixar de ser tímida. Quer apenas que a timidez não decida por ela.\n\nPerguntas:\nEm que Helena trabalha?\nEla é redatora numa editora de São Paulo.\nComo Helena conseguia falar diante da turma na infância?\nEla falava por meio de um fantoche de pano, um cachorro de orelhas compridas.\nO que Helena fazia quando alguém lhe fazia uma pergunta numa festa?\nEla cravava os olhos no chão e respondia com uma frase curta.\nO que ela aprendeu ao transcrever entrevistas?\nEla aprendeu que quase todo mundo hesita, repete e se corrige ao falar.\nQual risco da conectividade ela aponta?\nEla diz que a conectividade não pode virar um esconderijo.\nComo Helena se sente quando os leitores pedem uma selfie?\nEla aceita e sorri, mas por dentro conta até dez."
+    },
+    {
+      "title": "Por que rimos?",
+      "summary": "A short science piece on laughter: why it is mostly social, what happens in the body and brain, and how caricature let people laugh at power.",
+      "newWords": [
+        "caricatura",
+        "monarca",
+        "clero",
+        "sarro",
+        "codificação",
+        "legislatura",
+        "tórax",
+        "informático"
+      ],
+      "text": "Rimos muitas vezes por dia e quase nunca paramos para pensar no motivo. Os cientistas, porém, estudam o riso há bastante tempo, e as suas descobertas ajudam a entender por que ele é tão importante nas nossas relações.\n\nPara começar, o riso é sobretudo social. O psicólogo americano Robert Provine, que passou anos observando pessoas em shoppings, ruas e salas de aula, concluiu que rimos cerca de 30 vezes mais quando estamos acompanhados do que quando estamos sozinhos. Além disso, a maior parte das risadas que ele registrou não vinha de piadas, mas de frases comuns, como \"até amanhã\" ou \"você viu isso?\". O riso, portanto, funciona menos como resposta ao humor e mais como um sinal: estou com você, estamos bem.\n\nTambém não somos os únicos que riem. Outros primatas emitem sons parecidos durante as brincadeiras, e até os ratos produzem sons agudos, que o ouvido humano não percebe, quando um pesquisador brinca com eles.\n\nE o corpo? Quando rimos de verdade, os músculos do tórax e da barriga se contraem em pequenos golpes, e o ar sai dos pulmões em jatos curtos. É por isso que uma boa risada cansa e, às vezes, até dói. O tórax sacode, os olhos se apertam, e por alguns segundos fica difícil falar.\n\nNo cérebro, o processo começa antes. Muitos estudiosos acreditam que achamos graça quando percebemos uma pequena contradição sem perigo: algo que não era o que esperávamos, mas que não ameaça ninguém. A codificação dessa surpresa, isto é, a maneira como o cérebro registra e interpreta a informação, acontece em frações de segundo. Em alguns laboratórios, um programa informático compara gravações de risadas espontâneas e forçadas. Esse sistema informático, assim como os ouvintes humanos, costuma perceber a diferença com facilidade: o riso espontâneo e o forçado nascem em caminhos diferentes do cérebro, e essa codificação diferente aparece no som.\n\nO riso tem, no entanto, um lado delicado. Rir com alguém aproxima; tirar sarro de alguém pode machucar. A diferença está em quem participa da brincadeira. Entre amigos, tirar sarro de um pequeno defeito pode ser uma forma de carinho; diante de estranhos, a mesma brincadeira pode humilhar.\n\nA história mostra que o humor sempre teve também um papel público. No Brasil do século 19, caricaturistas como o italiano Angelo Agostini publicavam desenhos em que o monarca, dom Pedro II, aparecia com a sua longa barba e um ar distraído. Membros do clero e deputados também viravam alvo, e a cada nova legislatura surgiam rostos novos para desenhar. A caricatura permitia rir do poder, e esse riso ajudava os leitores a pensar. Uma boa caricatura exagera um traço para revelar uma verdade.\n\nRir, enfim, é uma forma de conversar. Talvez por isso seja tão difícil rir sozinho, e tão fácil rir com quem amamos.\n\nPerguntas:\nO que Robert Provine concluiu sobre o riso?\nEle concluiu que rimos cerca de 30 vezes mais quando estamos acompanhados do que sozinhos.\nO que acontece com o tórax quando rimos de verdade?\nOs músculos do tórax se contraem em pequenos golpes, e o ar sai dos pulmões em jatos curtos.\nO que o programa informático compara?\nEle compara gravações de risadas espontâneas e forçadas.\nQual é a diferença entre rir com alguém e tirar sarro de alguém?\nRir com alguém aproxima, mas tirar sarro de alguém pode machucar, sobretudo diante de estranhos.\nQuem aparecia nas caricaturas do século 19?\nApareciam o monarca dom Pedro II, membros do clero e deputados de cada legislatura."
+    },
+    {
+      "title": "O gosto bom da nostalgia",
+      "summary": "A song on the radio takes the narrator back to her grandmother's house in Salvador, and she reflects on what psychology now says about nostalgia.",
+      "newWords": [
+        "limeira",
+        "goma",
+        "cardápio",
+        "trança",
+        "imaterial",
+        "axé",
+        "cálice",
+        "tonalidade"
+      ],
+      "text": "Outro dia, numa padaria do meu bairro, em São Paulo, tocou no rádio uma música de axé dos anos 90. Em poucos segundos, eu estava de volta a Salvador, com 9 anos, no quintal da casa da minha avó. Lembrei da limeira carregada de frutas, do rádio em cima da geladeira, sempre ligado na mesma estação. Fiquei parada no meio da padaria, com o pão na mão, sorrindo sozinha.\n\nA palavra nostalgia foi criada em 1688 por um estudante de medicina suíço, Johannes Hofer, para descrever o sofrimento de soldados que viviam longe de casa. Durante muito tempo, a nostalgia foi tratada como doença. Hoje os psicólogos a veem de outra forma. Pesquisas das últimas décadas indicam que, para a maioria das pessoas, recordar o passado com carinho melhora o humor, reforça a sensação de que a vida tem sentido e nos aproxima dos outros. Quase sempre, essas lembranças têm pessoas no centro.\n\nAs minhas certamente têm. Na casa da minha avó, as manhãs começavam com tapioca. Ela molhava a goma de mandioca, espalhava a goma na frigideira quente e, em um minuto, dobrava a tapioca com coco e manteiga. Enquanto a gente comia, ela fazia uma trança no meu cabelo, firme e perfeita, que durava o dia inteiro. Hoje, quando faço uma trança na minha filha, sinto as mãos dela guiando as minhas.\n\nAos domingos, íamos almoçar num restaurante perto da praia. O cardápio era sempre o mesmo, escrito à mão numa folha já gasta, e eu sabia o cardápio de cor: peixe, arroz, feijão e doce de coco. No Natal, o meu avô servia a cada adulto um cálice de licor, e às crianças, um cálice pequeno de suco de caju, para que ninguém se sentisse de fora do brinde.\n\nCuriosamente, quando procuro as fotos daquela época, elas não têm as cores que eu lembro. Com o tempo, o papel ganhou uma tonalidade mais amarela. Talvez a memória faça o mesmo: muda a tonalidade das coisas e guarda o essencial.\n\nOs pesquisadores lembram que a nostalgia só faz mal quando vira uma recusa do presente, a ideia de que tudo era melhor antes. Usada com equilíbrio, ela funciona como uma ponte. Muitas das coisas que mais amo não cabem numa gaveta: o jeito de fazer a tapioca, as músicas, as conversas no quintal. São uma espécie de patrimônio imaterial da família. Não por acaso, o Brasil protege como patrimônio imaterial saberes como o ofício das baianas de acarajé. Aliás, a própria palavra axé, usada no candomblé, quer dizer força, energia vital.\n\nNaquela tarde, saí da padaria e liguei para a minha mãe. Conversamos sobre a limeira, que ainda está lá. No fim de semana, fiz tapioca para os meus filhos. Eles não conheciam as músicas, mas aprenderam a receita.\n\nPerguntas:\nO que tocou no rádio da padaria?\nTocou uma música de axé dos anos 90.\nQuem criou a palavra nostalgia e com que objetivo?\nFoi Johannes Hofer, em 1688, para descrever o sofrimento de soldados que viviam longe de casa.\nComo a avó fazia a tapioca?\nEla molhava a goma de mandioca, espalhava a goma na frigideira quente e dobrava a tapioca com coco e manteiga.\nO que o avô servia no Natal?\nEle servia um cálice de licor aos adultos e um cálice de suco de caju às crianças.\nQue tonalidade as fotos antigas ganharam?\nElas ganharam uma tonalidade mais amarela.\nPor que a narradora fala em patrimônio imaterial da família?\nPorque muitas das coisas que ela mais ama, como receitas, músicas e conversas, não podem ser guardadas numa gaveta."
+    },
+    {
+      "title": "Conversa a dois: a guerra do banheiro",
+      "summary": "In a couples therapist's column, a young woman writes about daily fights over the shared bathroom, and the therapist answers calmly.",
+      "newWords": [
+        "idem",
+        "platina",
+        "desagradar",
+        "higiênico",
+        "ralo",
+        "escoamento",
+        "grampo",
+        "acabamento",
+        "reorganização",
+        "aval"
+      ],
+      "text": "Querida Regina,\n\nMoro com o meu namorado, o Daniel, há oito meses. Nós nos amamos, mas o banheiro virou um campo de batalha. Ele reclama dos meus grampos de cabelo, que, segundo ele, aparecem em todo lugar: na pia, no chão, até na gaveta das meias. Eu reclamo do papel higiênico: quando o rolo acaba, ele nunca coloca outro. E há o ralo do chuveiro. O meu cabelo é comprido e, admito, acaba fechando o ralo, a água demora a sair, e o escoamento lento virou assunto diário. No mês passado, decidimos reformar o banheiro, e foi pior: discutimos durante semanas por causa do acabamento da parede. Quando pergunto ao Daniel o que mais o incomoda, ele responde apenas \"idem\", como se as minhas queixas fossem as dele. Será que não combinamos?\n\nLuana, 29 anos\n\nQuerida Luana,\n\nPela sua carta, vocês não parecem um casal que não combina; parecem um casal no primeiro ano de convivência, o que é bem diferente. Quase todos os casais que dividem uma casa descobrem, cedo ou tarde, que o amor não resolve a questão do papel higiênico. Não é sinal de que algo vai mal.\n\nBrigas por grampo, ralo e acabamento raramente são sobre grampo, ralo e acabamento. Por trás delas costuma haver uma pergunta mais funda: \"Você presta atenção em mim? Você leva em conta o que me incomoda?\" Quando o Daniel encontra um grampo na gaveta das meias, talvez não se importe tanto com o grampo, e sim com a sensação de que o espaço dele está sendo ocupado. Quando você encontra o rolo de papel higiênico vazio, talvez sinta que o cuidado com a casa ficou só com você.\n\nSugiro uma conversa marcada, fora do banheiro e longe da hora da briga. Cada um pode dizer, com calma, o que mais lhe desagrada na convivência e também o que mais lhe agrada. Mas não basta dizer o que desagrada; é preciso propor uma saída. Muitas vezes, a solução é uma pequena reorganização prática: uma caixinha para os grampos, um cesto com rolos de papel higiênico ao lado do vaso, uma pequena tela sobre o ralo para proteger o escoamento. Essa reorganização parece simples demais, mas evita que um precise lembrar o outro, todos os dias, das mesmas coisas.\n\nQuanto ao \"idem\" do Daniel, desconfio que seja menos preguiça e mais dificuldade de falar de si. Experimente perguntar de outra forma: em vez de \"o que te incomoda?\", pergunte \"o que deixaria o banheiro melhor para você?\". Talvez a resposta, desta vez, não seja idem.\n\nPor fim, nas decisões sobre a casa, combinem que nenhuma escolha importante será feita sem o aval do outro. O aval não precisa ser entusiasmado; basta que seja sincero. Certa vez, atendi um casal com mais de 60 anos de casamento, já perto das bodas de platina. Perguntei o segredo, e a senhora, de cabelos cor de platina, respondeu: \"A gente nunca deixou uma briga pequena virar uma briga grande.\"\n\nUm abraço,\nRegina\n\nPerguntas:\nPor que o escoamento do chuveiro ficou lento?\nPorque o cabelo comprido da Luana acaba fechando o ralo.\nO que o Daniel responde quando a Luana pergunta o que o incomoda?\nEle responde apenas \"idem\".\nQue reorganização a terapeuta sugere?\nEla sugere uma caixinha para os grampos, um cesto com papel higiênico e uma tela sobre o ralo.\nO que o casal deve combinar sobre as decisões da casa?\nEles devem combinar que nenhuma escolha importante será feita sem o aval do outro.\nQual era o segredo do casal perto das bodas de platina?\nEles nunca deixaram uma briga pequena virar uma briga grande."
+    },
+    {
+      "title": "Mãos que sabem",
+      "summary": "A review of a photo exhibition that shows artisans from Ethiopia and from the Brazilian caatinga through their skills, not through pity.",
+      "newWords": [
+        "curadoria",
+        "esmola",
+        "coitadinho",
+        "desumano",
+        "sensibilizar",
+        "etíope",
+        "caatinga",
+        "dote",
+        "embrião"
+      ],
+      "text": "Há exposições que nos pedem pena. A mostra \"Mãos que sabem\", em cartaz até dezembro num centro cultural do Recife, faz o contrário: pede atenção. São 60 fotografias de artesãos, agricultores e cozinheiras, metade feitas em aldeias do interior da Etiópia, metade em comunidades da caatinga, no sertão do Nordeste.\n\nO embrião do projeto foi uma conversa. A fotógrafa pernambucana Marta Lins e o fotógrafo etíope Dawit Bekele se conheceram num festival e perceberam que os dois estavam cansados do mesmo tipo de imagem: crianças magras, chão rachado, olhares tristes voltados para a câmera. Daquele embrião nasceu a ideia de fotografar o sertão e a Etiópia a partir do que as pessoas sabem fazer, e não do que lhes falta.\n\nA curadoria, assinada pelos próprios fotógrafos, tomou uma decisão simples e corajosa: nenhuma foto mostra alguém pedindo esmola ou esperando ajuda. Vemos uma senhora etíope dando forma a um pote de barro; ao lado, uma artesã do sertão tecendo um chapéu de palha; mais adiante, um agricultor da caatinga colhendo mel e uma jovem etíope preparando café, planta que, segundo a tradição, foi descoberta justamente naquela região do mundo. A curadoria aproximou as imagens pelos gestos, e não pela pobreza.\n\nO texto de abertura explica a escolha. Segundo os artistas, o olhar de quem vê o outro como \"coitadinho\" pode parecer generoso, mas acaba sendo injusto, porque reduz uma pessoa inteira à sua dificuldade. Tratar alguém sempre como coitadinho, escrevem eles, é uma forma delicada de não o enxergar. Em certos casos, transformar o sofrimento alheio em espetáculo chega a ser desumano. Não se trata de negar os problemas, que existem nas duas regiões, mas de não apagar todo o resto.\n\nO que a mostra revela, então, são dotes: o dote da bordadeira que cria desenhos complexos sem nunca os ter traçado no papel, o dote do músico que fabrica a própria flauta, o dote da cozinheira que reconhece pelo cheiro o ponto exato do doce. São dotes aprendidos em casa e passados de geração em geração. A caatinga, único grande ambiente natural que só existe no Brasil, aparece cheia de verde, como fica depois das chuvas, longe da imagem habitual de seca permanente.\n\nCada foto traz o nome da pessoa e uma frase dita por ela. Uma doceira do sertão afirma: \"Eu não quero esmola, quero que comprem o meu doce.\" É talvez a frase que melhor resume a exposição.\n\n\"Mãos que sabem\" consegue sensibilizar o visitante sem recorrer à culpa. Saí de lá com menos pena e mais admiração, e com vontade de conhecer as duas regiões. É uma maneira mais justa de sensibilizar o público: em vez de pedir que a gente sinta pelos outros, pede que a gente os veja.\n\nPerguntas:\nOnde foram feitas as fotografias da mostra?\nMetade foi feita em aldeias da Etiópia e metade em comunidades da caatinga, no sertão do Nordeste.\nQual foi o embrião do projeto?\nFoi uma conversa entre a fotógrafa Marta Lins e o fotógrafo etíope Dawit Bekele.\nQue decisão a curadoria tomou?\nEla decidiu que nenhuma foto mostraria alguém pedindo esmola ou esperando ajuda.\nPor que os artistas criticam o olhar do \"coitadinho\"?\nPorque ele reduz uma pessoa inteira à sua dificuldade, e transformar o sofrimento em espetáculo pode ser desumano.\nQue dotes a exposição mostra?\nEla mostra dotes como o da bordadeira, o do músico que fabrica a própria flauta e o da cozinheira.\nComo a exposição consegue sensibilizar o visitante?\nEla sensibiliza sem recorrer à culpa, mostrando o que as pessoas sabem fazer."
+    },
+    {
+      "title": "Dezessete dias até Aparecida",
+      "summary": "A son walks a pilgrimage route with his mother after her cataract surgery, and the long walk brings them closer.",
+      "newWords": [
+        "peregrinação",
+        "calçar",
+        "inflamação",
+        "catarata",
+        "oferenda",
+        "estância",
+        "dezessete"
+      ],
+      "text": "Quando a minha mãe fez a cirurgia de catarata, aos 68 anos, ela prometeu que, se voltasse a enxergar bem, faria uma peregrinação a pé até o Santuário de Aparecida. A cirurgia correu bem. Uma semana depois, ela me ligou emocionada: conseguia ler o jornal sem dificuldade e via de novo as cores das flores da varanda. \"A catarata deixava tudo cinzento, e eu nem percebia\", disse. \"Agora quero cumprir a promessa. Você vem comigo?\"\n\nEu não sou religioso, mas não tive coragem de dizer não. Escolhemos o Caminho da Fé, um percurso criado no começo dos anos 2000 e inspirado no famoso caminho de Santiago, na Espanha. Começamos em Águas da Prata, uma pequena estância no interior de São Paulo, conhecida pelas fontes de água mineral. Na véspera da partida, passeamos pela estância, bebemos água das fontes e dormimos cedo, nervosos como crianças antes do primeiro dia de aula.\n\nA peregrinação durou dezessete dias. Todas as manhãs, antes de o sol nascer, a minha mãe se sentava na cama e calçava as botas com uma calma que me irritava no começo e que, com o tempo, passei a admirar. Calçar as botas, para ela, era quase uma oração. Eu, apressado, calçava as minhas de qualquer jeito, e paguei o preço: no quarto dia, tive uma inflamação no tornozelo e precisei procurar uma farmácia numa cidadezinha do sul de Minas. O farmacêutico recomendou gelo, repouso e paciência. A inflamação melhorou em dois dias, e eu aprendi a calçar as botas como a minha mãe.\n\nCaminhamos entre plantações de café, subimos serras e atravessamos cidades pequenas, onde as pessoas nos ofereciam água e perguntavam de onde vínhamos. Conversamos mais naqueles dezessete dias do que nos dez anos anteriores. A minha mãe me contou da infância na roça, do namoro com o meu pai, dos medos que sentia quando eu era bebê. Eu contei coisas que nunca tinha contado a ninguém.\n\nQuando finalmente chegamos a Aparecida, ela quis visitar a Sala das Promessas, onde os fiéis deixam fotografias, cartas e objetos como oferenda ou agradecimento. A minha mãe tirou da bolsa os óculos grossos que usava antes da cirurgia e os deixou ali, junto com um bilhete. Foi a oferenda dela. Eu deixei uma foto de nós dois no caminho, tirada no décimo dia, os dois cansados e rindo.\n\nNão sei se voltei mais religioso. Sei que voltei mais perto da minha mãe. Talvez seja isso o que uma peregrinação faz: não leva a gente apenas a um lugar, mas também a alguém.\n\nPerguntas:\nO que a mãe prometeu quando fez a cirurgia de catarata?\nEla prometeu fazer uma peregrinação a pé até o Santuário de Aparecida.\nOnde mãe e filho começaram o caminho?\nEles começaram em Águas da Prata, uma pequena estância no interior de São Paulo.\nQuantos dias durou a peregrinação?\nA peregrinação durou dezessete dias.\nPor que o filho teve uma inflamação no tornozelo?\nPorque ele calçava as botas de qualquer jeito, com pressa.\nQue oferenda a mãe deixou na Sala das Promessas?\nEla deixou os óculos grossos que usava antes da cirurgia, junto com um bilhete.\nO que a peregrinação mudou na relação entre os dois?\nO filho voltou mais perto da mãe, porque eles conversaram muito durante o caminho."
+    },
+    {
+      "title": "O meu irmão, o delator",
+      "summary": "A man looks back on his younger brother, who told on him as a child, and on how the two became close friends as adults.",
+      "newWords": [
+        "delator",
+        "mandante",
+        "polvo",
+        "atum",
+        "tufão",
+        "abstenção",
+        "ingrato"
+      ],
+      "text": "Eu me chamo Rafael, e o meu irmão Caio é três anos mais novo do que eu. Quando éramos crianças, a nossa mãe dizia que ele era um tufão: entrava em casa correndo, derrubava as cadeiras, espalhava os brinquedos pela sala. Além disso, era o maior delator da família. Bastava eu comer um biscoito antes do jantar ou chegar cinco minutos atrasado para o Caio correr até a cozinha e contar tudo. Eu o chamava de delator, ele chorava, e a briga estava feita.\n\nHoje sei que muitas crianças passam por essa fase. Os especialistas explicam que contar o erro do irmão é, muitas vezes, uma forma de testar as regras e de chamar a atenção dos pais. Na época, porém, eu não sabia nada disso. Só sabia que tinha um pequeno tufão delator dormindo no quarto ao lado.\n\nNa adolescência, as brigas mudaram de assunto: futebol. Torcíamos para times rivais da nossa cidade, e nos dias de clássico a casa ficava dividida. Passávamos a semana discutindo se o time mandante, aquele que joga no próprio estádio, teria vantagem. Quando o meu time era o mandante e perdia, o Caio cantava pela casa.\n\nAos 20 e poucos anos, tivemos a nossa briga mais séria. Eu me mudei para outra cidade por causa do trabalho e, durante meses, quase não liguei para casa. Quando o nosso pai quebrou a perna, foi o Caio quem o levou ao médico, fez as compras e passou as noites com ele. Quando finalmente telefonei, ele me disse: \"Você é um ingrato.\" A palavra doeu, porque era justa. Eu tinha sido ingrato com os nossos pais e também com ele.\n\nPedi desculpas sem procurar explicações, e foi a partir dali que começamos a conversar como adultos.\n\nHoje nos encontramos todos os domingos na casa da nossa mãe. O Caio virou um ótimo cozinheiro e se especializou em polvo: cozinha o polvo devagar, com cebola, e depois o leva ao forno com batatas. Eu, que não tenho o mesmo talento, fico com a salada de atum, a única coisa que faço bem. A nossa mãe come o polvo do Caio, elogia a minha salada de atum e, assim, mantém a paz entre os filhos.\n\nNo ano passado, a família votou onde passar o Natal: na praia ou na casa da mãe. Eu votei na praia, o Caio votou na casa da mãe, e ela declarou abstenção. \"A abstenção é o direito de quem não quer escolher entre os filhos\", disse, rindo. Acabamos na casa dela, claro, e o Caio fez polvo.\n\nÀs vezes ainda brincamos com o passado. Quando chego atrasado ao almoço, ele ameaça contar tudo para a mãe. O delator da infância virou o meu melhor amigo, e o tufão virou um homem tranquilo. Eu, felizmente, aprendi a não ser ingrato.\n\nPerguntas:\nPor que a mãe dizia que o Caio era um tufão?\nPorque ele entrava em casa correndo, derrubava as cadeiras e espalhava os brinquedos.\nPor que o Rafael chamava o irmão de delator?\nPorque o Caio contava para a mãe tudo o que o irmão fazia de errado.\nO que os irmãos discutiam nos dias de clássico?\nEles discutiam se o time mandante teria vantagem.\nPor que o Caio chamou o Rafael de ingrato?\nPorque o Rafael quase não ligava para casa, e foi o Caio quem cuidou do pai.\nO que cada irmão prepara no almoço de domingo?\nO Caio prepara polvo, e o Rafael faz uma salada de atum.\nPor que a mãe declarou abstenção na votação do Natal?\nPorque ela não queria escolher entre os filhos."
+    }
+  ]
+}
