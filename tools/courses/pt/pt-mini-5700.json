@@ -1,0 +1,204 @@
+{
+  "id": "pt-mini-5700",
+  "rankUpTo": 5700,
+  "level": "C1",
+  "title": "Transporte e mobilidade",
+  "description": "Ten texts about getting around in Brazil: the history of the railways, an airline captain, a container port, a new tram, an old ferry, cycling to work, truck drivers on film, a bus-station café, the car in the city and the Corcovado mountain train.",
+  "topic": "Transport and mobility",
+  "names": [
+    "Brasil",
+    "Irineu",
+    "Evangelista",
+    "Sousa",
+    "Mauá",
+    "Europa",
+    "Minas",
+    "Gerais",
+    "Santos",
+    "Jundiaí",
+    "Lúcia",
+    "Ramos",
+    "Natal",
+    "Nordeste",
+    "Sudeste",
+    "Marcos",
+    "Pontes",
+    "Terra",
+    "Karim",
+    "Hassan",
+    "Bagdá",
+    "América",
+    "Latina",
+    "Dito",
+    "Paulo",
+    "Paulista",
+    "Teresa",
+    "Lins",
+    "Valdir",
+    "Neusa",
+    "Almeida",
+    "Cristo",
+    "Redentor",
+    "Corcovado",
+    "Tijuca",
+    "Suíça"
+  ],
+  "lessons": [
+    {
+      "title": "Os trilhos do Brasil",
+      "summary": "A short history of Brazil's railways, from the first line in 1854 to the empty stations of today.",
+      "newWords": [
+        "antecedente",
+        "ruptura",
+        "modernização",
+        "camisola",
+        "brotar",
+        "comumente",
+        "lacuna",
+        "permanentemente"
+      ],
+      "text": "Quando se fala de transporte no Brasil, comumente se pensa em rodovias, ônibus e caminhões. É uma associação natural, já que hoje a maior parte das pessoas e das mercadorias viaja por estrada. No entanto, durante quase um século, foi o trem que ligou as fazendas aos portos e o interior às capitais. Conhecer essa história ajuda a entender por que o país se move hoje como se move.\n\nToda história tem seus antecedentes. Antes do trem, o café e o açúcar desciam as serras nas costas de burros, em viagens lentas e caras. Esses antecedentes explicam o entusiasmo com que a novidade foi recebida. A primeira estrada de ferro brasileira foi inaugurada em 1854, perto do Rio de Janeiro, por iniciativa de Irineu Evangelista de Sousa, que ficaria conhecido como Barão de Mauá. A linha tinha cerca de 14 quilômetros, mas mostrava que a técnica que estava transformando a Europa também podia funcionar aqui.\n\nNas décadas seguintes, os trilhos se multiplicaram, sobretudo em São Paulo e em Minas Gerais, puxados pelo café. Em 1867, uma empresa inglesa inaugurou a linha entre Santos e Jundiaí, que subia a serra do Mar com a ajuda de cabos de aço. Por ela, o café chegava ao porto e seguia para o mundo.\n\nOs trens de passageiros também tiveram seus anos de glória. Nas viagens noturnas entre grandes cidades, havia pequenos quartos com camas, e muitas famílias guardam lembranças dessas noites. Minha avó, por exemplo, contava que vestia a camisola na cabine estreita e adormecia com o barulho regular das rodas. Para uma menina, vestir a camisola dentro de um trem em movimento era uma pequena aventura.\n\nA partir dos anos 1950, porém, houve uma ruptura. O governo passou a investir principalmente em rodovias, e a indústria de automóveis cresceu depressa. Não foi uma ruptura de um dia para o outro, mas o resultado foi claro: faltou dinheiro para a modernização das linhas antigas, que tinham curvas fechadas e trilhos de larguras diferentes. Sem modernização, o trem ficou lento e perdeu passageiros. Muitos trechos foram fechados permanentemente, e as estações ficaram vazias.\n\nNos anos 1990, as ferrovias foram entregues a empresas privadas, por meio de concessões. Desde então, o transporte de carga passou por uma modernização e hoje leva minério e grãos em trens enormes. Já os trens de passageiros de longa distância quase desapareceram; restam poucas linhas.\n\nEm várias cidades do interior, ainda se veem estações abandonadas, com plantas que brotam entre os trilhos e pequenas árvores que brotam nas antigas salas de espera. Elas lembram uma lacuna real: um país enorme com poucas opções de viagem além do ônibus e do avião. Há projetos para preencher essa lacuna, mas, por enquanto, muitas dessas estações parecem fechadas permanentemente.\n\nPerguntas:\nEm que se pensa comumente quando se fala de transporte no Brasil?\nComumente se pensa em rodovias, ônibus e caminhões.\nQuais são os antecedentes do trem no Brasil?\nAntes do trem, o café e o açúcar desciam as serras nas costas de burros, em viagens lentas e caras.\nDe que a avó do autor se lembrava?\nEla se lembrava de vestir a camisola na cabine estreita e de adormecer com o barulho das rodas.\nQue ruptura aconteceu a partir dos anos 1950?\nO governo passou a investir principalmente em rodovias, e faltou dinheiro para a modernização das linhas antigas.\nO que se vê hoje em muitas estações abandonadas?\nVeem-se plantas que brotam entre os trilhos e nas antigas salas de espera.\nQue lacuna essas estações lembram?\nElas lembram que o país tem poucas opções de viagem além do ônibus e do avião."
+    },
+    {
+      "title": "A comandante Lúcia",
+      "summary": "A profile of an airline captain: her childhood dream of space, flight school, her promotion and the course she gives for people afraid of flying.",
+      "newWords": [
+        "órbita",
+        "matricular",
+        "careca",
+        "apelidar",
+        "admissão",
+        "hesitar",
+        "assunção",
+        "psiquiatra",
+        "cordão"
+      ],
+      "text": "Lúcia Ramos tem 46 anos e, há 12, é comandante numa companhia aérea brasileira. Ela voa sobretudo entre as capitais do Nordeste e do Sudeste, num avião de cerca de 180 lugares. Quem a vê na cabine, calma e concentrada, não imagina que, quando criança, em Natal, ela não sonhava com aviões, mas com o espaço.\n\n\"Eu queria ser astronauta\", conta ela. \"Desenhava foguetes e satélites em órbita ao redor da Terra.\" Com o tempo, Lúcia percebeu que a órbita era um destino distante demais, mas que o céu estava bem mais perto. Em 2006, quando Marcos Pontes se tornou o primeiro brasileiro a entrar em órbita, ela já voava em aviões pequenos e acompanhou a viagem dele com emoção.\n\nAos 19 anos, Lúcia se matriculou numa escola de aviação. Era a única mulher matriculada na turma. Seu primeiro instrutor, um senhor careca e muito paciente, foi apelidado pelos alunos de \"Seu Calma\", porque nunca levantava a voz. \"Ele dizia que o avião sente o nervoso do piloto\", lembra Lúcia, rindo. \"Até hoje, quando vejo um senhor careca de óculos num aeroporto, penso nele.\" Ela também ganhou um apelido: foi apelidada de \"Relógio\", porque nunca chegava atrasada.\n\nDepois de anos voando em aviões pequenos, Lúcia fez o processo de admissão numa grande companhia. A admissão inclui exames médicos, provas técnicas, entrevistas e muitas horas de treinamento. Ela foi aprovada na segunda tentativa. \"Na primeira, fiquei nervosa demais. Na segunda, já sabia o que esperar.\"\n\nAos 34 anos, recebeu a proposta de se tornar comandante. Lúcia hesitou. Hesitou porque a promoção significava a assunção de uma responsabilidade muito maior: a decisão final, em qualquer situação, seria dela. \"Hesitar não é fraqueza\", diz. \"Quem não hesita diante de uma responsabilidade assim talvez não a tenha entendido.\" Ela aceitou, e a assunção do comando mudou sua forma de trabalhar: hoje ela ouve mais a equipe e explica melhor as suas decisões.\n\nAos sábados, Lúcia participa de um curso para pessoas que têm medo de voar, organizado por um psiquiatra. O psiquiatra explica de onde vem o medo e como lidar com ele; Lúcia explica, com calma, como o avião funciona e por que os movimentos que assustam os passageiros, na maioria dos casos, não são perigosos. \"Muita gente termina o curso e faz a primeira viagem tranquila em anos\", conta.\n\nNo pescoço, Lúcia usa um cordão fino com uma pequena medalha que a mãe lhe deu no dia da sua primeira viagem como comandante. \"Nunca voo sem esse cordão\", diz. \"Não é medo. É só uma forma de levar a minha mãe comigo.\"\n\nPerguntas:\nCom o que Lúcia sonhava quando era criança?\nEla sonhava em ser astronauta e desenhava foguetes e satélites em órbita.\nPor que o instrutor careca foi apelidado de \"Seu Calma\"?\nPorque ele era muito paciente e nunca levantava a voz.\nO que inclui o processo de admissão numa grande companhia?\nInclui exames médicos, provas técnicas, entrevistas e muitas horas de treinamento.\nPor que Lúcia hesitou antes de se tornar comandante?\nPorque a promoção significava a assunção de uma responsabilidade muito maior.\nO que Lúcia faz aos sábados?\nEla participa de um curso para pessoas com medo de voar, organizado por um psiquiatra.\nO que Lúcia usa no pescoço?\nEla usa um cordão fino com uma pequena medalha que a mãe lhe deu."
+    },
+    {
+      "title": "As caixas de aço do porto",
+      "summary": "An Iraqi engineer who came to Santos as an interpreter explains how a container terminal is organised.",
+      "newWords": [
+        "fileira",
+        "iraquiano",
+        "intérprete",
+        "contabilizar",
+        "duzentos",
+        "abundância",
+        "escassez",
+        "cinzento"
+      ],
+      "text": "Do alto do prédio da administração, o porto parece um enorme jogo de montar. Há navios no cais, caminhões nas ruas internas e, por toda parte, caixas de aço coloridas, organizadas em longas fileiras. \"Tudo isso que parece desordem tem uma lógica\", explica Karim Hassan, engenheiro de planejamento de um terminal do porto de Santos, o maior da América Latina.\n\nKarim é iraquiano e vive no Brasil há 15 anos. Nasceu em Bagdá, estudou engenharia e, como falava árabe, inglês e francês, começou a trabalhar como intérprete numa empresa de navegação. Foi como intérprete que chegou a Santos pela primeira vez, acompanhando uma reunião entre a empresa e as autoridades do porto. \"Vim por duas semanas e fiquei\", diz o engenheiro iraquiano, num português quase sem sotaque.\n\nO contêiner, explica ele, é uma caixa de aço com medidas iguais em todo o mundo. Os mais comuns têm cerca de 6 ou 12 metros de comprimento. Como as medidas são sempre as mesmas, a caixa pode passar do navio para o caminhão ou para o trem sem que ninguém toque na carga. Por isso, a movimentação de um porto é contabilizada em caixas: cada contêiner que entra ou sai é contabilizado por um sistema que sabe exatamente onde ele está.\n\nO trabalho de Karim é decidir onde cada caixa vai ficar. As fileiras não são formadas por acaso. As caixas que vão embarcar primeiro ficam nas fileiras mais próximas do cais; as que levam carga que precisa de frio ficam perto das tomadas elétricas. Num dia comum, cerca de duzentos caminhões passam pelos portões a cada hora, e duzentas pessoas trabalham em cada turno no terminal.\n\nO ritmo do porto acompanha o mundo. Na época da colheita, há abundância de soja, açúcar e café para exportar, e os pátios ficam cheios. Essa abundância é boa para todos, mas exige muito planejamento. Durante a pandemia, aconteceu o contrário: houve escassez de contêineres no mundo todo, porque muitas caixas ficaram paradas em portos distantes. \"A escassez durou meses\", lembra Karim. \"O preço do transporte subiu muito, e a gente contabilizava cada caixa vazia como se fosse ouro.\"\n\nNo fim da tarde, o céu de Santos fica muitas vezes cinzento, e a água do canal ganha a mesma cor cinzenta. Karim gosta desse momento. Do alto, ele vê as fileiras de caixas, os navios saindo devagar e os caminhões formando filas nas ruas. \"Quando era intérprete, eu traduzia as palavras dos outros\", diz. \"Hoje, de certa forma, eu traduzo o movimento do porto.\"\n\nPerguntas:\nDe onde é Karim e há quanto tempo ele vive no Brasil?\nKarim é iraquiano e vive no Brasil há 15 anos.\nComo ele chegou a Santos pela primeira vez?\nEle chegou como intérprete, acompanhando uma reunião entre uma empresa de navegação e as autoridades do porto.\nPor que a movimentação do porto é contabilizada em caixas?\nPorque os contêineres têm medidas iguais em todo o mundo, e cada um é contabilizado por um sistema.\nComo as fileiras de caixas são organizadas?\nAs que vão embarcar primeiro ficam nas fileiras mais próximas do cais, e as que precisam de frio ficam perto das tomadas elétricas.\nO que aconteceu durante a pandemia?\nHouve escassez de contêineres no mundo todo, e o preço do transporte subiu muito.\nComo fica o céu de Santos no fim da tarde?\nMuitas vezes ele fica cinzento, e a água do canal ganha a mesma cor."
+    },
+    {
+      "title": "O bonde voltou",
+      "summary": "A city column on a new tram line six months after it opened: what passengers like, the app, the rules, and the critics.",
+      "newWords": [
+        "marfim",
+        "consórcio",
+        "deslizar",
+        "mural",
+        "funcionalidade",
+        "feedback",
+        "isento",
+        "pet",
+        "unanimidade"
+      ],
+      "text": "Há seis meses, o centro da nossa cidade ganhou uma linha de bonde moderno. São 12 quilômetros de trilhos, 18 estações e carros elétricos de cor marfim, com uma faixa verde na lateral. A obra foi feita por um consórcio de três empresas, que também vai operar a linha pelos próximos 25 anos. Meio ano depois da inauguração, é hora de perguntar: o novo transporte deu certo?\n\nA primeira impressão é boa. O bonde desliza pelas avenidas quase sem ruído, e quem estava acostumado ao barulho dos ônibus estranha o silêncio. Os carros cor de marfim deslizam ao lado das calçadas largas, que foram reformadas durante a obra. As estações são simples, mas bem cuidadas, e várias têm murais pintados por artistas da região. O mural da estação do mercado, que mostra pescadores e vendedores de frutas, virou ponto de fotografia. Outro mural, na estação da praça, conta a história dos antigos bondes da cidade.\n\nO consórcio também lançou um aplicativo. Sua funcionalidade mais usada é a que mostra, em tempo real, quanto falta para o próximo carro chegar. Outra funcionalidade permite pagar a passagem com o celular. Pelo aplicativo, os passageiros podem ainda dar feedback sobre a viagem, e o consórcio afirma que já mudou alguns horários por causa desse feedback. O feedback mais comum, segundo a empresa, é um pedido de mais carros nos horários de pico.\n\nAs regras agradam a muita gente. Pessoas com mais de 65 anos são isentas da tarifa, como nos outros meios de transporte público, e estudantes pagam metade. Também é permitido levar pets pequenos, desde que estejam em caixas de transporte. \"Levo a minha gata para tomar vacina e passear\", conta uma aposentada de 70 anos, que, pela idade, está isenta da passagem. \"Antes, eu precisava pegar táxi. Agora, nós duas vamos de bonde.\" Muitos donos de pets dizem o mesmo.\n\nAinda assim, a linha não é unanimidade. Os comerciantes da avenida principal reclamam dos 2 anos de obras, que afastaram clientes. Alguns motoristas criticam a perda de faixas para carros. E há quem diga que o dinheiro teria sido mais útil nos bairros da periferia, onde os ônibus continuam lotados. São críticas razoáveis, e a falta de unanimidade não é, em si, um mau sinal: nenhuma obra grande agrada a todos.\n\nOs números, por enquanto, são positivos. A linha transporta cerca de 40 mil pessoas por dia, e uma pesquisa encomendada pela prefeitura mostrou que 8 em cada 10 usuários aprovam o serviço. O próximo passo, prometido pelo consórcio, é levar os trilhos até os bairros mais distantes. Se isso acontecer, talvez o bonde chegue perto da unanimidade.\n\nPerguntas:\nQuem construiu a nova linha?\nA linha foi construída por um consórcio de três empresas, que também vai operá-la.\nComo são os carros do bonde?\nSão carros elétricos de cor marfim, com uma faixa verde na lateral, que deslizam quase sem ruído.\nQual é a funcionalidade mais usada do aplicativo?\nÉ a que mostra, em tempo real, quanto falta para o próximo carro chegar.\nQuem é isento da tarifa?\nAs pessoas com mais de 65 anos são isentas da tarifa.\nQue regra vale para os pets?\nÉ permitido levar pets pequenos, desde que estejam em caixas de transporte.\nPor que a linha não é unanimidade?\nPorque os comerciantes reclamam das obras, alguns motoristas criticam a perda de faixas e há quem prefira investimentos na periferia."
+    },
+    {
+      "title": "A última travessia",
+      "summary": "A man crosses the bay one last time on the old ferry of his childhood before a new bridge replaces it.",
+      "newWords": [
+        "península",
+        "gemer",
+        "ferver",
+        "canela",
+        "reggae",
+        "louça",
+        "tabuleiro",
+        "adorável",
+        "rubro",
+        "terraço"
+      ],
+      "text": "Na cidade onde cresci, a forma mais rápida de chegar à península era a balsa. A estrada contornava a baía por quase 80 quilômetros, enquanto a travessia de barco levava apenas 40 minutos. Por isso, todos os verões, meus pais e eu cruzávamos a baía para passar as férias na casa dos meus avós, na península. No mês que vem, uma ponte nova vai ser inaugurada, e a velha balsa deixará de funcionar. Antes disso, quis fazer a travessia mais uma vez.\n\nO barco é o mesmo da minha infância, só que mais velho. Quando o motor é ligado, a embarcação inteira treme, e o motor geme como um animal cansado. Quando eu era pequeno, aquele gemido me assustava. Minha avó dizia que o barco gemia de preguiça, porque preferia ficar dormindo no cais. Desta vez, ouvindo o motor gemer de novo, achei o som quase carinhoso.\n\nNa parte de cima, há um pequeno café. O dono, Seu Dito, trabalha ali há 30 anos. Ele ferve a água numa panela antiga e prepara um café com canela que eu nunca encontrei em outro lugar. Enquanto a água ferve, ele escolhe a música: sempre reggae, num rádio pequeno. \"O reggae combina com o mar\", diz ele, \"porque não tem pressa.\" Seu Dito serve o café em xícaras de louça, e não de plástico. \"Café em xícara de louça tem outro gosto\", explica. Eu concordo. Tomei o café devagar, sentindo o cheiro de canela misturado ao cheiro do mar, enquanto o reggae tocava baixinho.\n\nPerto da escada, uma senhora vendia doces de coco num tabuleiro de madeira. Ela leva o mesmo tabuleiro há 20 anos, apoiado num banquinho. Comprei um doce para mim e outro para uma menina que viajava com o pai e com um cachorro adorável, de orelhas enormes, que dormia no chão. A menina achou o doce uma delícia. O cachorro ficou ainda mais adorável quando acordou e pediu um pedaço.\n\nChegamos à península no fim da tarde. O céu estava rubro, e a água refletia aquele vermelho intenso. Lembrei-me da casa dos meus avós, que ficava perto do cais, e do terraço onde a família se reunia à noite. Era do terraço que olhávamos a balsa chegar e partir, com as luzes acesas. A casa foi vendida há muitos anos, mas o terraço continua lá; eu o vi de longe, sob o céu rubro.\n\nA ponte vai diminuir o tempo da viagem e facilitar a vida de muita gente, e isso é bom. Ainda assim, vou sentir falta do motor que geme, do café com canela e do reggae de Seu Dito. Algumas viagens servem para chegar; outras servem para lembrar.\n\nPerguntas:\nPor que a família do narrador atravessava a baía de barco?\nPorque a estrada contornava a baía por quase 80 quilômetros, e a travessia levava apenas 40 minutos.\nO que a avó dizia sobre o motor que geme?\nEla dizia que o barco gemia de preguiça, porque preferia ficar dormindo no cais.\nComo Seu Dito prepara o café?\nEle ferve a água numa panela antiga, faz um café com canela e o serve em xícaras de louça.\nPor que Seu Dito sempre toca reggae?\nPorque, para ele, o reggae combina com o mar e não tem pressa.\nO que a senhora vendia perto da escada?\nEla vendia doces de coco num tabuleiro de madeira.\nO que o narrador viu ao chegar à península?\nEle viu o céu rubro e, de longe, o terraço da antiga casa dos avós."
+    },
+    {
+      "title": "De bike para o trabalho",
+      "summary": "A São Paulo office worker explains what two years of cycling to work have taught him about clothes, hills, hurry, safety and anger.",
+      "newWords": [
+        "bike",
+        "jeans",
+        "fôlego",
+        "apressar",
+        "crânio",
+        "letal",
+        "vitimar",
+        "insultar",
+        "desprezo",
+        "compaixão"
+      ],
+      "text": "Há 2 anos, vou de bike para o trabalho. Moro na zona oeste de São Paulo e trabalho num escritório perto da avenida Paulista, a cerca de 8 quilômetros de casa. De carro, nos horários de pico, eu levava quase uma hora. De bike, levo 35 minutos, quase sempre os mesmos, faça chuva ou faça sol.\n\nQuando comecei, achei que precisaria de roupas especiais. Não precisei. Ando de bike de calça jeans e camiseta, devagar, para não chegar suado. No escritório, troco de camisa e pronto. O jeans aguenta bem; só tive que trocar uma calça, que rasgou na corrente da bicicleta.\n\nO mais difícil, no começo, foram as subidas. São Paulo não é uma cidade plana, e na primeira semana eu perdia o fôlego antes da metade da subida mais forte do caminho. Precisava parar, recuperar o fôlego e continuar empurrando a bicicleta. Aos poucos, o corpo se acostumou. Hoje subo a mesma rua sem parar e ainda tenho fôlego para cumprimentar o vizinho quando chego em casa.\n\nAprendi também a não me apressar. Quem anda apressado corre riscos desnecessários: passa no sinal amarelo, entra entre os carros, esquece de olhar para trás. No trânsito, a pressa é a pior conselheira. Prefiro sair 10 minutos mais cedo a ter que me apressar no caminho.\n\nUso capacete todos os dias. Pode parecer exagero numa faixa exclusiva, mas o capacete protege o crânio, e uma batida na cabeça pode ser letal mesmo em baixa velocidade. Os números são claros: o trânsito vitima milhares de pessoas por ano no Brasil, e muitos dos acidentes que vitimaram ciclistas nos últimos anos aconteceram perto de casa, em ruas que eles conheciam bem. A velocidade dos carros é o fator mais letal; por isso, as ruas onde os carros andam mais devagar são também as mais seguras para quem vai de bicicleta.\n\nNem todos os motoristas gostam de dividir a rua. Certa vez, num cruzamento, um homem abriu a janela e começou a me insultar, porque achava que eu estava ocupando espaço demais. Ele me insultou por quase um minuto, até o sinal abrir. Senti raiva, claro, e depois uma espécie de desprezo. Mas o desprezo não me fez bem. Mais tarde, pensando no assunto, tentei sentir compaixão: aquele homem passava horas preso no trânsito todos os dias, cansado e sem saída. A compaixão não justifica o que ele fez, mas me ajudou a esquecer.\n\nIr de bike não resolve todos os problemas da cidade, e nem todo mundo pode fazer o mesmo: há distâncias longas demais e trabalhos que exigem carro. Para mim, porém, essa escolha mudou o começo do dia. Chego ao escritório acordado, sem pressa e com a sensação de que a cidade, apesar de tudo, também é minha.\n\nPerguntas:\nQuanto tempo o narrador leva de bike até o trabalho?\nEle leva 35 minutos, quase sempre os mesmos.\nQue roupa ele usa no caminho?\nEle usa calça jeans e camiseta e anda devagar, para não chegar suado.\nO que acontecia nas subidas no começo?\nEle perdia o fôlego antes da metade da subida mais forte e precisava parar.\nPor que ele prefere não se apressar?\nPorque quem anda apressado corre riscos desnecessários.\nPor que ele usa capacete?\nPorque o capacete protege o crânio, e uma batida na cabeça pode ser letal mesmo em baixa velocidade.\nO que ele sentiu quando o motorista o insultou?\nPrimeiro sentiu raiva e desprezo; depois tentou sentir compaixão."
+    },
+    {
+      "title": "Entrevista: a vida na estrada",
+      "summary": "An interview with a documentary director who spent three months riding with truck drivers and filming the phrases on their trucks.",
+      "newWords": [
+        "realizador",
+        "adesivo",
+        "ortodoxo",
+        "abertamente",
+        "alusão",
+        "comediante",
+        "diva",
+        "imortal"
+      ],
+      "text": "A realizadora Teresa Lins passou 3 meses viajando ao lado de motoristas de caminhão pelas rodovias do país. O resultado é o documentário \"Frases da estrada\", que estreia este mês nos cinemas. Conversamos com a realizadora sobre o filme, os motoristas e as frases que eles levam nos caminhões.\n\nComo surgiu a ideia do filme?\nSempre achei curiosas as frases que os motoristas escrevem nos caminhões. Algumas são pintadas, outras são adesivos colados na traseira. Um dia, parada numa estrada, contei mais de 20 adesivos num único caminhão. Pensei: cada adesivo desses conta um pedaço de uma vida. Quis conhecer essas vidas.\n\nO seu método de filmagem foi pouco comum.\nÉ verdade, não é um método muito ortodoxo. Um documentário mais ortodoxo teria entrevistas marcadas, luz preparada e uma equipe grande. Eu viajei sozinha, com uma câmera pequena, sentada no banco do passageiro. Dormi em postos de gasolina e comi nos mesmos restaurantes que eles. Só assim os motoristas passaram a confiar em mim.\n\nE eles falaram com facilidade?\nNo começo, não. Mas, com o tempo, falaram abertamente sobre coisas difíceis: a solidão, a saudade dos filhos, o cansaço das noites sem dormir. Um deles me disse: \"Nunca falei disso tão abertamente, nem com a minha mulher.\" Nesse momento, percebi que o filme existia.\n\nMuitas frases fazem alusão a Deus, à mãe ou à estrada. Por quê?\nSão os três grandes temas. Há frases que fazem alusão à fé, como pedidos de proteção; outras são alusões à família que ficou em casa. E há as frases de humor, claro. Um dos motoristas do filme, o Seu Valdir, é um verdadeiro comediante. Ele inventa frases novas toda semana e as testa com os colegas pelo rádio. Um comediante profissional aprenderia muito viajando com ele.\n\nA música também tem um papel importante no documentário.\nMuito importante. Quase todos ouvem as mesmas canções românticas dos anos 1970 e 1980. A preferida de muitos é uma cantora que eles chamam de \"a diva da estrada\". Ela gravou dezenas de discos, e para os motoristas é uma diva de verdade: eles sabem as letras de cor e cantam junto.\n\nPor que essas canções duram tanto?\nPorque falam de coisas simples: amor, distância, volta para casa. Para esses homens, são canções imortais. Uma vez, perguntei ao Seu Valdir se ele não se cansava de ouvi-las. Ele respondeu: \"Música boa é como a estrada: é imortal; a gente só passa por ela.\"\n\nO que a senhora espera do público?\nQue olhe com outros olhos para os caminhões na estrada. Atrás de cada adesivo, há alguém que está longe de casa para que as mercadorias cheguem até nós.\n\nPerguntas:\nO que a realizadora Teresa Lins fez para o documentário?\nEla passou 3 meses viajando ao lado de motoristas de caminhão pelas rodovias do país.\nPor que Seu Valdir é um verdadeiro comediante?\nPorque ele inventa frases novas toda semana e as testa com os colegas pelo rádio.\nPor que o método dela não foi muito ortodoxo?\nPorque ela viajou sozinha, com uma câmera pequena, sem entrevistas marcadas nem equipe grande.\nSobre o que os motoristas falaram abertamente?\nEles falaram abertamente sobre a solidão, a saudade dos filhos e o cansaço.\nA que as frases dos caminhões costumam fazer alusão?\nElas costumam fazer alusão a Deus, à mãe ou à estrada.\nQuem é a \"diva da estrada\"?\nÉ uma cantora de canções românticas que os motoristas admiram e cujas letras eles sabem de cor."
+    },
+    {
+      "title": "O café da rodoviária",
+      "summary": "A profile of a woman who has run a small café at the town's bus station for 28 years and pays attention to every passenger.",
+      "newWords": [
+        "rodoviária",
+        "florido",
+        "diferentemente",
+        "inverso",
+        "vegetariano",
+        "alergia",
+        "diferencial",
+        "suspeitar",
+        "ligeiramente"
+      ],
+      "text": "Todos os dias, às 5 da manhã, Neusa Almeida levanta a porta de aço do seu pequeno café na rodoviária da cidade. Ela tem 61 anos e trabalha ali há 28. Usa sempre um lenço florido na cabeça, que se tornou uma espécie de marca: muitos passageiros não sabem o nome dela, mas sabem que \"o café da senhora do lenço florido\" é o melhor da rodoviária.\n\nDiferentemente de um aeroporto, onde quase todos estão de passagem, a rodoviária tem passageiros fiéis. Há estudantes que voltam para casa todo fim de semana, trabalhadores que viajam toda segunda-feira e idosos que vão visitar os filhos na capital. Na sexta-feira à tarde, chegam ônibus cheios de estudantes e trabalhadores que voltam para casa; no domingo à noite, acontece o movimento inverso, e as mesmas pessoas fazem o caminho inverso, de volta para as aulas e para o trabalho na capital. Neusa conhece esse ritmo como ninguém.\n\nAs opções do café são simples: café, pão de queijo, bolos e salgados. Há alguns anos, porém, ela incluiu novidades. \"Uma estudante me perguntou se eu tinha alguma coisa vegetariana\", conta. \"Eu não tinha. Na semana seguinte, comecei a fazer uma torta de legumes.\" Hoje há dois salgados vegetarianos à venda, e eles estão entre os mais procurados. Neusa também aprendeu a perguntar sobre alergias. Ela escreve os ingredientes num cartão ao lado de cada produto, porque muitos passageiros têm alergia a leite, a ovo ou a outros alimentos e precisam saber o que estão comendo.\n\nDiferentemente de muitos comerciantes, Neusa não acha que o seu diferencial esteja no preço ou na comida. \"O meu diferencial é prestar atenção\", diz. Ela percebe quem está perdido. Quando vê alguém olhando muitas vezes para o relógio e para o painel de horários, costuma suspeitar que a pessoa não encontrou a plataforma certa e vai perguntar se ela precisa de ajuda. Na semana passada, por exemplo, suspeitou que um senhor estava perdido, e estava certa: ele esperava o ônibus na plataforma errada. Já ajudou idosos que não enxergavam o painel, estrangeiros que não falavam português e uma menina que viajava sozinha pela primeira vez e estava ligeiramente assustada.\n\nO trabalho é cansativo. Neusa admite que, nos últimos anos, as costas doem ligeiramente mais no fim do dia, e que pensa em trabalhar menos horas. Mas ainda não quer deixar a rodoviária. \"Aqui eu vejo a cidade inteira passar\", explica. \"Uns vão, outros voltam. E todos precisam de um café.\"\n\nPerguntas:\nPor que muitos passageiros conhecem o café de Neusa?\nPorque ela usa sempre um lenço florido na cabeça, e o café dela é considerado o melhor da rodoviária.\nO que acontece na rodoviária no domingo à noite?\nAcontece o movimento inverso: as pessoas voltam para as aulas e para o trabalho na capital.\nQue mudança Neusa fez depois do pedido da estudante?\nEla passou a fazer salgados vegetarianos, como uma torta de legumes.\nPor que ela escreve os ingredientes num cartão?\nPorque muitos passageiros têm alergia a algum alimento e precisam saber o que estão comendo.\nQual é o diferencial de Neusa, segundo ela?\nO diferencial dela é prestar atenção nas pessoas.\nO que Neusa costuma suspeitar quando alguém olha muito para o relógio e para o painel?\nEla costuma suspeitar que a pessoa não encontrou a plataforma certa."
+    },
+    {
+      "title": "O carro e a cidade",
+      "summary": "A short essay weighing the arguments for and against the car in big cities, and what a better mix of transport would need.",
+      "newWords": [
+        "vertente",
+        "ademais",
+        "ecologia",
+        "inerente",
+        "trindade",
+        "negação",
+        "fortalecimento",
+        "governança"
+      ],
+      "text": "Nas grandes cidades brasileiras, discutir mobilidade é quase sempre discutir o carro. Para uns, ele é sinônimo de liberdade; para outros, é a causa do trânsito parado, da poluição e do barulho. Como acontece em muitos debates, as duas vertentes têm argumentos sérios, e vale a pena ouvi-las com atenção.\n\nA primeira vertente lembra que o carro resolve problemas reais. Em bairros distantes, com poucos ônibus, ele é muitas vezes a única forma de chegar ao trabalho a tempo. Para quem tem filhos pequenos, pais idosos ou dificuldade para andar, o carro oferece conforto e segurança. Ademais, a indústria de automóveis emprega muita gente. Pedir que essas pessoas simplesmente abandonem o carro, sem oferecer alternativas, seria injusto.\n\nA segunda vertente parte da ecologia urbana. A ecologia nos ensina a olhar a cidade como um sistema, em que cada escolha afeta as outras. Um carro leva, em média, pouco mais de uma pessoa e ocupa um espaço que poderia servir a dezenas de pedestres ou a um ônibus cheio. Os problemas do uso intenso do carro, como o trânsito lento, a poluição do ar e os acidentes, não são defeitos que a tecnologia vá resolver sozinha; são inerentes ao próprio modelo. Ademais, quanto mais avenidas se constroem, mais carros aparecem para ocupá-las, e esse efeito também parece inerente ao modelo.\n\nEntre as duas posições, cresce uma proposta que muitos especialistas defendem: a trindade formada por andar a pé, ir de bicicleta e usar o transporte coletivo. Essa trindade não significa a negação do carro. Significa apenas que ele deixaria de ser a primeira opção para todos os deslocamentos. A negação pura e simples do automóvel seria tão pouco realista quanto a negação dos problemas que ele causa.\n\nPara que essa trindade funcione, porém, é preciso mais do que boas intenções. É preciso o fortalecimento do transporte público: ônibus frequentes, metrô que chegue à periferia, calçadas seguras e faixas para bicicletas ligadas entre si. E esse fortalecimento depende de governança. Numa região metropolitana, um mesmo trabalhador pode morar numa cidade, trabalhar em outra e atravessar uma terceira no caminho. Sem uma governança comum, com as prefeituras e o governo estadual decidindo juntos, cada cidade cuida apenas do seu pedaço, e o passageiro paga a conta com tempo e dinheiro.\n\nNo fim, talvez a pergunta certa não seja \"carro ou ônibus?\", mas \"que cidade queremos?\". Uma cidade onde a maioria possa escolher como se deslocar, sem depender de um único meio de transporte, parece um objetivo razoável para as duas vertentes.\n\nPerguntas:\nQue argumentos a primeira vertente apresenta a favor do carro?\nEla lembra que, em bairros distantes, o carro é muitas vezes a única forma de chegar ao trabalho, e que ele oferece conforto e segurança.\nO que a ecologia urbana nos ensina, segundo o texto?\nEla nos ensina a olhar a cidade como um sistema, em que cada escolha afeta as outras.\nQue problemas são inerentes ao uso intenso do carro?\nO trânsito lento, a poluição do ar e os acidentes.\nQue trindade muitos especialistas defendem?\nA trindade formada por andar a pé, ir de bicicleta e usar o transporte coletivo.\nEssa proposta significa a negação do carro?\nNão. Significa apenas que o carro deixaria de ser a primeira opção para todos os deslocamentos.\nPor que o fortalecimento do transporte público depende de governança?\nPorque, numa região metropolitana, as pessoas atravessam várias cidades, e sem uma governança comum cada cidade cuida apenas do seu pedaço."
+    },
+    {
+      "title": "O trem que sobe a montanha",
+      "summary": "How the Corcovado rack railway in Rio de Janeiro climbs the mountain, where its trains come from and how it is maintained.",
+      "newWords": [
+        "maciço",
+        "prolongado",
+        "suíço",
+        "aprimorar",
+        "compacto",
+        "cronograma",
+        "especificação"
+      ],
+      "text": "Quem visita o Rio de Janeiro quase sempre quer ver de perto o Cristo Redentor, no alto do Corcovado. A forma mais antiga e, para muitos, a mais bonita de chegar lá é o trem que sobe a montanha pela floresta. Ele funciona desde 1884 e é o exemplo mais conhecido, no Brasil, de um tipo especial de estrada de ferro: a de cremalheira.\n\nO Corcovado faz parte do maciço da Tijuca, um conjunto de montanhas de rocha maciça coberto, em grande parte, pela floresta. Num maciço assim, as subidas são fortes demais para um trem comum. As rodas de aço deslizam sobre os trilhos de aço, e o trem não consegue subir.\n\nA solução é a cremalheira: um trilho central com dentes, colocado entre os dois trilhos comuns. Embaixo do trem, há uma roda com dentes que se encaixa nesse trilho central. Assim, mesmo numa subida prolongada e muito forte, o trem avança com segurança e, na descida, controla a velocidade sem perder o equilíbrio.\n\nOs suíços conhecem bem esse sistema. A Suíça, um país de muitas montanhas, construiu várias estradas de ferro desse tipo no século 19, e os engenheiros suíços aprimoraram a técnica ao longo de décadas. Não é por acaso que os trens que hoje sobem o Corcovado foram fabricados na Suíça. São trens elétricos e compactos: cada um tem poucos carros, porque um trem compacto faz as curvas estreitas da montanha com mais facilidade.\n\nA história da linha também é uma história de modernização. No começo, os trens eram movidos a vapor. No início do século 20, a linha passou a ser elétrica, e desde então o sistema foi aprimorado muitas vezes. Quando o Cristo foi construído, entre 1922 e 1931, foi o trem que levou boa parte do material até o alto.\n\nUma estrada de ferro assim exige cuidado constante. O uso prolongado gasta os dentes do trilho central e das rodas, e o ar úmido da floresta prejudica as peças de metal. Por isso, a manutenção segue um cronograma rigoroso: há inspeções diárias, revisões mensais e grandes reformas a cada alguns anos. Quando chegam peças novas, os técnicos verificam se elas correspondem às especificações do fabricante, porque uma pequena diferença pode causar problemas numa subida tão forte. As especificações indicam, por exemplo, o tamanho exato de cada dente e o tipo de aço usado. Se o cronograma não é cumprido, o trem não sai.\n\nA viagem dura cerca de 20 minutos. Pela janela, passam árvores enormes e pássaros; de vez em quando, entre as árvores, aparece de repente a cidade, com o mar ao fundo. No alto, o visitante entende por que tanta gente trabalhou, durante tanto tempo, para que um trem conseguisse subir até ali.\n\nPerguntas:\nPor que não é por acaso que os trens do Corcovado vieram da Suíça?\nPorque a Suíça construiu muitas estradas de ferro de montanha, e os engenheiros suíços aprimoraram essa técnica durante décadas.\nPor que um trem comum não consegue subir o maciço da Tijuca?\nPorque as subidas são fortes demais, e as rodas de aço deslizam sobre os trilhos de aço.\nO que é a cremalheira?\nÉ um trilho central com dentes, no qual se encaixa uma roda com dentes que fica embaixo do trem.\nPor que os trens do Corcovado são compactos?\nPorque um trem compacto faz as curvas estreitas da montanha com mais facilidade.\nPor que a manutenção segue um cronograma rigoroso?\nPorque o uso prolongado gasta as peças e o ar úmido da floresta prejudica o metal.\nO que os técnicos verificam quando chegam peças novas?\nEles verificam se elas correspondem às especificações do fabricante."
+    }
+  ]
+}

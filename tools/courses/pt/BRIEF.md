@@ -50,7 +50,16 @@ story; a lesson never needs another lesson to make sense.
   - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content: a short
     essay or reflective crônica that weighs two sides, an interview, a profile, a review; precise
     vocabulary for feelings, ideas and processes; long sentences that stay easy to parse; tone
-    and register chosen to suit the text type.
+    and register chosen to suit the text type;
+  - ranks 5001–6000 (C1): the same, with the more specialised words of professions, sciences
+    and the arts, each made clear by its context, and texts that explain a process or compare
+    viewpoints in some depth;
+  - ranks 6001–8000 (C1): the same, with figurative language and idioms used more freely, words
+    chosen for their shades of meaning, and topics that need some background, which the text
+    gives;
+  - ranks 8001–10000 (C2): texts close to what native readers meet: literary prose with images
+    and rhythm, academic and journalistic registers, regional and learned words explained by
+    their context. Still standalone, calm and easy to follow for a reader at the level.
   From rank 2000 a lesson may also be a short informative or opinion text (a column, a letter to
   a newspaper, a short report), as long as it is everyday, calm and easy to follow.
   Still one clear idea at a time: a learner at the level should follow every sentence on first
@@ -100,7 +109,7 @@ Write `tools/courses/pt/<id>.json`:
 }
 ```
 
-Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, up to 5000 `C1`.
+Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, up to 8000 `C1`, up to 10000 `C2`.
 
 ## The rules, checked by `python3 tools/check_course.py tools/courses/pt/<id>.json`
 

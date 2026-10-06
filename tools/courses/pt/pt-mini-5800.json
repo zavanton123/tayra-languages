@@ -1,0 +1,210 @@
+{
+  "id": "pt-mini-5800",
+  "rankUpTo": 5800,
+  "level": "C1",
+  "title": "A língua portuguesa",
+  "description": "Ten texts about the Portuguese language itself: regional accents in Brazil, a calm comparison with European Portuguese, where slang comes from, a dictionary maker's work, Libras and deaf culture, a bilingual family, fieldwork on regional words, animal sayings, sports language and plain-language writing.",
+  "topic": "The Portuguese language",
+  "names": [
+    "Brasil",
+    "Curitiba",
+    "Paraná",
+    "São Paulo",
+    "Recife",
+    "Porto Alegre",
+    "Belém",
+    "Portugal",
+    "Lisboa",
+    "Açores",
+    "Madeira",
+    "Atlântico",
+    "Eça de Queirós",
+    "Machado de Assis",
+    "Rio de Janeiro",
+    "Paris",
+    "Helena",
+    "Prado",
+    "Libras",
+    "Lúcia",
+    "Ponta Porã",
+    "Mato Grosso do Sul",
+    "Paraguai",
+    "Pedro Juan Caballero",
+    "Rafael",
+    "Mirta",
+    "Tomás",
+    "Chapada Diamantina",
+    "Bahia",
+    "Salvador",
+    "Jogos Olímpicos",
+    "Paulo",
+    "Eça",
+    "Queirós",
+    "Assis",
+    "Porã",
+    "Pedro",
+    "Juan",
+    "Caballero",
+    "Diamantina"
+  ],
+  "lessons": [
+    {
+      "title": "O sotaque que eu trouxe de Curitiba",
+      "summary": "A woman from Paraná living in São Paulo reflects on how her accent once made her shy and why every regional variety is genuine Portuguese.",
+      "newWords": [
+        "paranaense",
+        "polonês",
+        "variante",
+        "diferir",
+        "intimidar",
+        "envergonhar",
+        "genuíno",
+        "distorcer",
+        "roça"
+      ],
+      "text": "Sou paranaense, nasci em Curitiba e moro em São Paulo há 12 anos. Na primeira semana de trabalho, um colega riu quando eu pedi um copo de leite quente. Para ele, eu pronunciava cada vogal com um cuidado exagerado. Para mim, era ele quem falava de um jeito estranho. Foi assim que descobri que eu tinha sotaque.\n\nNaquele tempo, confesso, o riso dos colegas chegou a me intimidar. Nas reuniões, eu falava pouco, com medo de chamar atenção. Hoje sei que muita gente passa por isso. Quem muda de cidade costuma se envergonhar do próprio sotaque, e alguns tentam imitar o sotaque local. Não há nada de errado em se adaptar, mas ninguém deveria se envergonhar do modo como aprendeu a falar.\n\nO sotaque paranaense, como todos os outros, tem uma história. A partir do século 19, o Paraná recebeu muitos imigrantes europeus, entre eles um grande número de poloneses. Há quem diga que o modo de pronunciar as vogais em Curitiba vem da influência do polonês. É uma hipótese interessante, mas os estudiosos lembram que um sotaque nasce de muitas causas ao mesmo tempo, e não só do contato com o polonês.\n\nO mesmo vale para o resto do país. O jeito de falar do interior paulista, que muitos associam à vida na roça, também se ouve em cidades grandes. A roça ajudou a formar esse modo de falar, mas ele não pertence só a ela. Quando transformamos um sotaque em piada, acabamos por distorcer a realidade: ligamos uma pronúncia a um tipo de pessoa, e essa imagem distorcida passa a valer mais do que os fatos.\n\nOs especialistas preferem uma palavra mais neutra: variante. O português falado em Recife é uma variante da língua, assim como o de Porto Alegre, o de Belém ou o de Curitiba. Essas variantes podem diferir no som das vogais, no vocabulário e até em detalhes da gramática, mas todas são português genuíno. Não existe uma variante mais genuína do que as outras. O que costumamos chamar de sotaque \"neutro\" é apenas aquele que ouvimos com mais frequência na televisão.\n\nHoje, quando alguém comenta o meu \"leite quente\", respondo com bom humor e faço uma pergunta: como se diz isso na sua cidade? A conversa quase sempre melhora. Descobrimos juntos que o nosso jeito de falar difere em muitos pontos, mas que nos entendemos perfeitamente. O sotaque já não me intimida. Ele apenas conta de onde eu venho.\n\nPerguntas:\nPor que a autora descobriu que tinha sotaque?\nPorque um colega riu quando ela pediu um copo de leite quente, e ela percebeu que pronunciava as vogais de outro jeito.\nComo ela se sentia nas reuniões, no começo?\nO riso dos colegas a intimidava, por isso ela falava pouco, com medo de chamar atenção.\nO que se diz sobre a influência do polonês no sotaque paranaense?\nHá quem diga que ela explica as vogais de Curitiba, mas os estudiosos lembram que um sotaque nasce de muitas causas ao mesmo tempo.\nPor que transformar um sotaque em piada pode distorcer a realidade?\nPorque liga uma pronúncia a um tipo de pessoa, e essa imagem distorcida passa a valer mais do que os fatos.\nO que é uma variante, segundo o texto?\nÉ uma forma da língua falada num lugar, como o português de Recife ou o de Curitiba; todas são português genuíno.\nO que a autora faz hoje quando alguém comenta o seu sotaque?\nEla responde com bom humor e pergunta como se diz aquilo na cidade da outra pessoa."
+    },
+    {
+      "title": "Brasil e Portugal, sem pressa de julgar",
+      "summary": "A calm comparison of Brazilian and European Portuguese: vowels, vocabulary, the long separation, the islands, spelling reform and shared literature.",
+      "newWords": [
+        "suprimir",
+        "mouse",
+        "afastamento",
+        "arquipélago",
+        "mediterrâneo",
+        "reator",
+        "prudente",
+        "ponderar",
+        "aceitável",
+        "florescer"
+      ],
+      "text": "Muitos brasileiros que visitam Portugal pela primeira vez têm a mesma surpresa: entendem bem o que leem, mas nem sempre entendem o que ouvem. A explicação está, em grande parte, nas vogais. No português europeu, as vogais que não são pronunciadas com força ficam muito reduzidas e, às vezes, quase desaparecem. Os portugueses parecem suprimir metade das vogais; os brasileiros pronunciam quase todas. Para um ouvido brasileiro, suprimir tantas vogais deixa a fala rápida e fechada. Para um ouvido português, a fala brasileira soa lenta e aberta.\n\nAs diferenças não param na pronúncia. No vocabulário, há casos bem conhecidos: o brasileiro pega o trem, o português apanha o comboio; o brasileiro toma café da manhã, o português toma o pequeno-almoço. No computador, o brasileiro usa o mouse, palavra que veio do inglês, enquanto o português usa o rato, que é a tradução da mesma imagem.\n\nEssas diferenças nasceram de um longo afastamento. Durante séculos, as duas comunidades viveram separadas por um oceano, e cada uma recebeu influências próprias. No Brasil, o português conviveu com línguas indígenas, com línguas africanas e com as dos imigrantes. O afastamento explica boa parte da distância, mas não toda: as línguas mudam o tempo todo, mesmo quando ninguém viaja.\n\nTambém é bom lembrar que Portugal não é só o continente. O país inclui dois arquipélagos no Atlântico, os Açores e a Madeira, e o português de cada arquipélago tem marcas próprias. Além disso, embora boa parte do país tenha clima mediterrâneo, Portugal não fica no mar Mediterrâneo: toda a sua costa dá para o Atlântico.\n\nNas últimas décadas, houve um esforço para aproximar a escrita. Um acordo assinado em 1990 eliminou letras que não se pronunciavam. Em Portugal, por exemplo, escrevia-se \"reactor\"; hoje, nos dois países, a forma é reator. O acordo não mudou o modo de falar: a palavra reator continua sendo dita de um jeito em Lisboa e de outro em São Paulo.\n\nDiante dessas diferenças, qual variante é a certa? A pergunta é comum, mas não é a melhor. É mais prudente ponderar o contexto. Num texto para brasileiros, \"pequeno-almoço\" soaria estranho; num jornal de Lisboa, \"café da manhã\" também. As duas formas são aceitáveis, cada uma no seu lugar. O que não é aceitável é tratar uma delas como erro da outra. A atitude prudente é a de quem observa antes de julgar.\n\nPonderar com calma também ajuda a ver o que une as duas variantes. A literatura floresceu dos dois lados do oceano, e um leitor brasileiro lê Eça de Queirós com o mesmo prazer com que um leitor português lê Machado de Assis. Uma língua pode florescer em muitas casas sem deixar de ser uma só.\n\nPerguntas:\nPor que muitos brasileiros não entendem bem o português falado em Portugal?\nPorque, no português europeu, as vogais que não são pronunciadas com força ficam muito reduzidas, e os portugueses parecem suprimir metade delas.\nComo se chama o mouse do computador em Portugal?\nEm Portugal, ele se chama rato, que é a tradução da mesma imagem.\nDe onde vêm as diferenças entre as duas variantes?\nElas nasceram de um longo afastamento, em que cada comunidade recebeu influências próprias.\nQuais são os arquipélagos de Portugal?\nSão os Açores e a Madeira, que ficam no oceano Atlântico.\nO que o acordo de 1990 mudou na palavra reator?\nEliminou a letra que não se pronunciava, e a forma passou a ser reator nos dois países.\nQual é a atitude prudente diante das diferenças?\nÉ ponderar o contexto e observar antes de julgar, porque as duas formas são aceitáveis, cada uma no seu lugar."
+    },
+    {
+      "title": "De onde vêm as gírias",
+      "summary": "An essay on where slang comes from: groups, other languages and metaphors, with a word on guessing origins and on talking across generations.",
+      "newWords": [
+        "mutante",
+        "otário",
+        "chique",
+        "metáfora",
+        "especular",
+        "abismo",
+        "sermão",
+        "proveito"
+      ],
+      "text": "Toda geração inventa palavras. Os avós estranham as expressões dos netos, os netos riem das expressões dos avós, e quase ninguém se lembra de que, um dia, as palavras dos avós também foram novidade. A gíria é a parte mais mutante da língua: muda tão depressa que os dicionários mal conseguem acompanhá-la. Mas essa língua mutante não nasce do nada. Ela tem pelo menos três fontes conhecidas.\n\nA primeira fonte são os grupos. Jovens, músicos, esportistas e profissionais de várias áreas criam palavras para falar entre si, e algumas acabam saindo do grupo. No Rio de Janeiro do início do século 20, muitos sambas contavam histórias de malandros, e nessas histórias o malandro sempre tinha um oposto: o otário. O otário era a pessoa ingênua, que acreditava em tudo e se deixava enganar com facilidade. A palavra se espalhou pelo país e continua viva. Hoje, chamar alguém de otário é uma ofensa, e o melhor é evitar; mas a palavra ainda guarda um pouco da história daquela cidade.\n\nA segunda fonte são as outras línguas. Chique veio do francês chic, numa época em que Paris ditava a moda e a elegância. Para muitos brasileiros do século 19, falar francês era chique, e a palavra ficou, com uma forma adaptada ao português. Hoje, quase ninguém pensa em Paris quando diz que uma festa foi chique.\n\nA terceira fonte é a metáfora. Muitas expressões informais são imagens. Quando alguém finalmente entende uma coisa, diz que \"caiu a ficha\". A metáfora vem dos antigos telefones públicos, os orelhões, que funcionavam com fichas: a ligação só se completava quando a ficha caía. Os orelhões quase desapareceram, mas a metáfora continua, e muitos jovens a usam sem nunca ter visto uma ficha telefônica.\n\nHá quem goste de especular sobre a origem de cada expressão, e é preciso cuidado com isso. Especular é divertido, mas, sem documentos antigos, uma explicação bonita continua sendo só uma hipótese. Os estudiosos preferem dizer \"não sabemos\" a especular sem provas.\n\nE o abismo entre as gerações? Ele parece enorme quando um avô ouve a conversa do neto pela primeira vez, mas é menor do que parece. Em vez de um sermão sobre o \"português correto\", o avô pode perguntar o que a expressão quer dizer. Um sermão costuma fechar a conversa; uma pergunta costuma abri-la. O neto, por sua vez, pode tirar proveito das expressões antigas do avô, muitas das quais ainda funcionam muito bem. Quando os dois tiram proveito um do outro, o abismo vira uma ponte.\n\nPerguntas:\nPor que o texto diz que a gíria é a parte mais mutante da língua?\nPorque ela muda tão depressa que os dicionários mal conseguem acompanhá-la.\nQuem era o otário nas histórias de malandros?\nEra a pessoa ingênua, que acreditava em tudo e se deixava enganar com facilidade.\nDe onde vem a palavra chique?\nEla vem do francês chic, de uma época em que Paris ditava a moda.\nQual é a origem da metáfora \"caiu a ficha\"?\nEla vem dos orelhões, que funcionavam com fichas: a ligação só se completava quando a ficha caía.\nPor que é preciso cuidado ao especular sobre a origem das expressões?\nPorque, sem documentos antigos, uma explicação bonita continua sendo só uma hipótese.\nO que o avô pode fazer em vez de um sermão?\nEle pode perguntar ao neto o que a expressão quer dizer, porque uma pergunta abre a conversa."
+    },
+    {
+      "title": "Entrevista: quem faz o dicionário",
+      "summary": "An interview with a lexicographer about how words enter a dictionary, how definitions are written and what happens to words that fall out of use.",
+      "newWords": [
+        "uísque",
+        "slogan",
+        "milímetro",
+        "teor",
+        "incompleto",
+        "finalização",
+        "dispensado",
+        "enterro",
+        "profecia"
+      ],
+      "text": "Helena Prado trabalha há 25 anos na equipe de um grande dicionário da língua portuguesa. Conversamos com ela sobre a entrada de palavras novas, o trabalho de escrever definições e o destino das palavras que saem de uso.\n\nComo uma palavra nova chega ao dicionário?\nNão basta que alguém a use uma vez. Reunimos milhões de textos: jornais, livros, revistas, sites. Quando uma palavra aparece muitas vezes, em fontes diferentes e durante vários anos, ela entra na nossa lista. Depois, a equipe discute cada caso com calma.\n\nE as palavras que vêm de outras línguas?\nAlgumas se adaptam ao português. Uísque é um exemplo clássico: veio do inglês e, com o tempo, ganhou uma forma portuguesa. Registramos uísque como forma principal, porque é assim que muitos brasileiros escrevem. Outras palavras ficam como chegaram, como slogan. Já me perguntaram por que slogan continua com a forma inglesa. A resposta é simples: foi assim que os falantes o adotaram. O dicionário não inventa a língua; ele descreve o que os falantes fazem. Se um dia todos escreverem slogan de outro jeito, nós vamos registrar.\n\nQual é a parte mais difícil do trabalho?\nEscrever as definições. Cada uma precisa ser medida quase ao milímetro. Uma definição larga demais serve para qualquer coisa; uma estreita demais deixa de fora usos reais. Às vezes passo uma tarde inteira ajustando, milímetro a milímetro, o teor de três linhas. E o teor precisa ser neutro: a definição não deve elogiar nem condenar ninguém.\n\nAlgum dia o dicionário fica pronto?\nNunca. Todo dicionário é incompleto, e não há nada de triste nisso. Quando chega a finalização de uma edição, já existem palavras novas esperando a próxima. A finalização é um momento feliz, com revisões, provas e muito café, mas sabemos que o livro já nasce incompleto.\n\nE o que acontece com as palavras que ninguém usa mais?\nElas raramente são retiradas. Uma palavra antiga quase nunca é dispensada: ela recebe uma marca de \"antiga\" ou de \"pouco usada\" e continua lá, porque alguém pode encontrá-la num romance do século 19 e precisar saber o que ela quer dizer. Para nós, sair de uso não é o enterro de uma palavra. Um enterro seria apagá-la, e isso nós evitamos. Só é dispensada a palavra que entrou por engano, o que é muito raro.\n\nA senhora consegue prever quais palavras novas vão durar?\nNão faço profecias. Já vi palavras que pareciam modas passageiras e estão aí há 30 anos, e outras que pareciam eternas e desapareceram em pouco tempo. A língua não obedece a nenhuma profecia. O meu trabalho é observar com atenção e registrar com honestidade.\n\nPerguntas:\nQuando uma palavra nova entra na lista do dicionário?\nQuando ela aparece muitas vezes, em fontes diferentes e durante vários anos.\nPor que o dicionário registra slogan sem adaptação?\nPorque foi assim que os falantes adotaram a palavra, e o dicionário descreve o que os falantes fazem.\nPor que cada definição precisa ser medida quase ao milímetro?\nPorque uma definição larga demais serve para qualquer coisa, e uma estreita demais deixa de fora usos reais.\nPor que todo dicionário é incompleto?\nPorque, quando chega a finalização de uma edição, já existem palavras novas esperando a próxima.\nO que acontece com uma palavra que sai de uso?\nEla quase nunca é dispensada: recebe uma marca de \"antiga\" e continua no dicionário.\nPor que Helena não faz profecias sobre as palavras novas?\nPorque já viu modas passageiras durarem 30 anos e palavras que pareciam eternas desaparecerem."
+    },
+    {
+      "title": "Libras, uma língua feita para os olhos",
+      "summary": "An explanatory text about Libras: a full language with its own grammar and history, its legal recognition, bilingual schools and everyday deaf culture.",
+      "newWords": [
+        "auditivo",
+        "sancionar",
+        "pedagógico",
+        "exercitar",
+        "apoiador",
+        "trava",
+        "louvor",
+        "evacuação"
+      ],
+      "text": "A Libras, a Língua Brasileira de Sinais, é a língua da comunidade surda brasileira. Muita gente ainda pensa que ela é uma espécie de mímica, ou o português traduzido para as mãos. Não é. A Libras é uma língua completa, com regras próprias. Nela, o sentido depende da forma da mão, do lugar onde o sinal é feito, do movimento e também da expressão do rosto.\n\nA Libras também não é universal. Cada país tem a sua língua de sinais, e a brasileira tem uma origem em comum com a francesa. Isso tem uma explicação histórica: em 1857, foi fundada no Rio de Janeiro uma escola para surdos, com a ajuda de um professor francês que também era surdo. Como qualquer língua, ela tem variantes regionais.\n\nDurante muito tempo, ser surdo foi visto apenas como um problema auditivo, algo a ser corrigido com aparelhos e exercícios de fala. Muitos surdos, no entanto, não se definem pela perda auditiva, mas pela língua e pela cultura que compartilham. Por isso, muitos preferem ser chamados de surdos, e não de deficientes auditivos.\n\nUm passo importante veio em 2002, quando o presidente da República sancionou a lei que reconhece a Libras como meio legal de comunicação e expressão. Ao sancionar a lei, ele confirmou algo que a comunidade surda já sabia havia muito tempo: a Libras é uma língua.\n\nA lei também trouxe mudanças para a escola. Hoje, muitos especialistas defendem um modelo pedagógico em que a criança surda aprende primeiro a Libras e, depois, o português escrito como segunda língua. Esse modelo pedagógico respeita a língua que a criança aprende de forma mais natural.\n\nA cultura surda aparece em detalhes do dia a dia. Para chamar alguém, toca-se de leve no seu ombro ou acende-se e apaga-se a luz. Para aplaudir, a plateia levanta as mãos e as agita no ar: um gesto de louvor feito para ser visto, e não ouvido. Esse louvor silencioso emociona muitos artistas surdos.\n\nHá ainda desafios. A falta de intérpretes em hospitais e escritórios públicos continua sendo uma trava para muitos surdos. Outra trava está na segurança: em caso de evacuação de um prédio, um alarme apenas sonoro não avisa quem não ouve. Por isso, alarmes de luz são essenciais em qualquer plano de evacuação.\n\nCada vez mais ouvintes querem ajudar a mudar esse quadro. O bom apoiador da comunidade surda começa por aprender Libras e exercitar a língua com frequência, de preferência conversando com pessoas surdas. Como qualquer língua, a Libras se perde quando não é exercitada. Um apoiador que conversa de verdade faz muita diferença.\n\nPerguntas:\nPor que a Libras não é uma mímica?\nPorque ela é uma língua completa, com regras próprias, em que o sentido depende da mão, do lugar, do movimento e do rosto.\nPor que a Libras tem uma origem em comum com a língua de sinais francesa?\nPorque a escola para surdos fundada no Rio de Janeiro, em 1857, contou com a ajuda de um professor surdo francês.\nPor que muitos surdos não se definem pela perda auditiva?\nPorque se definem pela língua e pela cultura que compartilham.\nO que aconteceu em 2002?\nO presidente da República sancionou a lei que reconhece a Libras como meio legal de comunicação e expressão.\nComo funciona o modelo pedagógico defendido por muitos especialistas?\nA criança surda aprende primeiro a Libras e, depois, o português escrito como segunda língua.\nPor que os alarmes de luz são importantes num plano de evacuação?\nPorque um alarme apenas sonoro não avisa quem não ouve."
+    },
+    {
+      "title": "Duas línguas na mesma mesa",
+      "summary": "In a border town, a Brazilian grandmother, her Paraguayan daughter-in-law and a four-year-old boy share a home where Portuguese and Spanish live side by side.",
+      "newWords": [
+        "nora",
+        "paraguaio",
+        "embalar",
+        "perturbação",
+        "instinto",
+        "carinhoso",
+        "humorado",
+        "cozido",
+        "apetite"
+      ],
+      "text": "Dona Lúcia mora em Ponta Porã, uma cidade de Mato Grosso do Sul que fica colada à fronteira com o Paraguai. Basta atravessar uma avenida para chegar a Pedro Juan Caballero, a cidade paraguaia vizinha. Há 6 anos, o filho de Dona Lúcia, Rafael, casou-se com Mirta, que nasceu do outro lado da avenida. Assim, Dona Lúcia ganhou uma nora paraguaia.\n\nA nora fala espanhol e guarani, as duas línguas oficiais do Paraguai, e aprendeu português depois do casamento. Quando o neto, Tomás, nasceu, a família tomou uma decisão: Rafael e Dona Lúcia falariam com ele em português, e Mirta, em espanhol. Cada adulto falaria a sua própria língua com o menino, todos os dias.\n\nNo começo, Dona Lúcia ficou preocupada. À noite, ela gostava de embalar o neto com as canções que tinha aprendido com a mãe. Mirta, por sua vez, costumava embalar o menino com canções paraguaias. A avó se perguntava se tantas palavras diferentes não iam confundir a criança. Será que duas línguas não causariam alguma perturbação no desenvolvimento dele?\n\nEla levou a dúvida à médica de Tomás. A médica explicou, com paciência, que crescer com duas línguas não causa nenhuma perturbação. As crianças bilíngues podem misturar palavras por algum tempo, mas isso é normal e passa. Para a médica, o mais importante era que cada língua chegasse ao menino com carinho e com muita conversa.\n\nHoje, Tomás tem 4 anos e muda de língua por instinto. Com a avó, fala português; com a mãe, fala espanhol; ninguém precisa lembrá-lo. Esse instinto, diz Mirta, vem do afeto: ele fala com cada pessoa na língua em que ela o abraça. Tomás é um menino carinhoso e bem-humorado. Chama a avó de \"vó\" e a mãe de \"mamá\", e o jeito carinhoso é o mesmo nas duas línguas. Só fica mal-humorado quando tem sono, e aí não quer falar língua nenhuma.\n\nAos domingos, a família almoça junta. Dona Lúcia prepara um cozido de carne com legumes, e Mirta leva uma sopa paraguaia, que, apesar do nome, não é uma sopa: é um bolo salgado de milho e queijo. Tomás tem um apetite enorme e come o cozido e a sopa paraguaia com o mesmo entusiasmo. A avó diz que o apetite do neto é a melhor prova de que, naquela casa, as duas culturas se dão muito bem.\n\nDepois do almoço, todos ficam à mesa, bem-humorados, conversando em português, em espanhol e às vezes nas duas línguas na mesma frase. Ninguém se confunde.\n\nPerguntas:\nQuem é Mirta?\nMirta é a nora paraguaia de Dona Lúcia, casada com o filho dela, Rafael.\nQue decisão a família tomou quando Tomás nasceu?\nRafael e Dona Lúcia falariam com ele em português, e Mirta, em espanhol.\nPor que Dona Lúcia ficou preocupada no começo?\nEla tinha medo de que duas línguas causassem alguma perturbação no desenvolvimento do neto.\nO que a médica explicou?\nEla explicou que crescer com duas línguas não causa perturbação e que misturar palavras por algum tempo é normal.\nComo Tomás escolhe a língua em que vai falar?\nEle muda de língua por instinto: fala português com a avó e espanhol com a mãe.\nO que é a sopa paraguaia?\nApesar do nome, não é uma sopa, mas um bolo salgado de milho e queijo."
+    },
+    {
+      "title": "Diário de campo na Chapada",
+      "summary": "A linguistics student keeps a diary while collecting regional words in a small town of the Chapada Diamantina, from kites to cassava.",
+      "newWords": [
+        "chapada",
+        "hospedagem",
+        "suor",
+        "tenda",
+        "disfarçado",
+        "pipa",
+        "carregamento",
+        "abundante"
+      ],
+      "text": "Segunda-feira. Cheguei hoje a uma pequena cidade da Chapada Diamantina, no interior da Bahia. Sou estudante de Letras e vim recolher palavras regionais para um projeto da universidade. Quem chega à chapada pela primeira vez entende logo o nome: a estrada sobe por entre serras de paredes altas e termina em terras planas no alto, cobertas de vegetação baixa. A hospedagem é simples, uma casa de família com 4 quartos, mas a dona me recebeu com café e bolo. Para um estudante sem muito dinheiro, não podia haver hospedagem melhor.\n\nTerça-feira. Comecei as entrevistas cedo, porque à tarde o calor é forte. Mesmo assim, voltei para a hospedagem coberto de suor. O método do projeto é curioso: nunca digo a palavra que procuro. A pergunta vai sempre disfarçada numa descrição. Em vez de perguntar \"você diz pipa?\", pergunto: \"como se chama aquele brinquedo de papel e varetas que as crianças soltam no vento, preso a uma linha?\". Se eu dissesse a palavra, a pessoa poderia repeti-la só para me agradar. Com a pergunta disfarçada, a resposta é a dela.\n\nQuarta-feira. Hoje houve feira na praça, e passei a manhã de tenda em tenda. Numa tenda de verduras, perguntei a uma senhora como ela chama aquela raiz comprida, de casca marrom, que se cozinha ou se frita. Ela respondeu \"aipim\" sem hesitar. Um rapaz na tenda ao lado disse \"mandioca\". Os dois são da mesma cidade, e nenhum achou estranha a palavra do outro.\n\nQuinta-feira. Passei o dia na escola, conversando com as crianças. Sobre o brinquedo de papel, a maioria disse \"arraia\". Duas meninas disseram pipa, porque é a palavra que ouvem nos vídeos da internet. A professora acha que, em alguns anos, pipa pode se tornar a palavra mais comum ali. Anotei tudo no caderno, com nome, idade e bairro de cada pessoa.\n\nSexta-feira. Depois da última entrevista, conversei no posto de gasolina com o motorista de um caminhão que levava um carregamento de bananas. Ele me contou que leva o mesmo carregamento para várias cidades e que, em cada uma, as pessoas dão nomes diferentes às mesmas frutas. Quando eu disse que era exatamente isso que eu estudava, ele riu e me deu 3 bananas.\n\nSábado. Volto amanhã para Salvador. O material recolhido é abundante: 40 entrevistas, centenas de respostas e quase o mesmo número de histórias. As frutas também foram abundantes, e o suor, mais ainda. Saio daqui com a certeza de que cada palavra regional guarda um pedaço da vida do lugar.\n\nPerguntas:\nPor que o estudante foi à Chapada Diamantina?\nEle foi recolher palavras regionais para um projeto da universidade.\nComo era a hospedagem?\nEra simples, uma casa de família com 4 quartos, e a dona o recebeu com café e bolo.\nPor que as perguntas vão sempre disfarçadas?\nPorque, se ele dissesse a palavra, a pessoa poderia repeti-la só para agradá-lo.\nO que aconteceu na feira, nas tendas?\nUma senhora chamou a raiz de aipim, e um rapaz da tenda ao lado a chamou de mandioca.\nPor que duas meninas disseram pipa?\nPorque é a palavra que elas ouvem nos vídeos da internet.\nO que o motorista do caminhão contou?\nEle contou que leva o mesmo carregamento para várias cidades e que, em cada uma, as frutas têm nomes diferentes."
+    },
+    {
+      "title": "Bichos e plantas no meio da conversa",
+      "summary": "A light essay on the animals and plants hidden in Portuguese words and sayings: bats, sloths, horns, grey cats, thorns, parasites and venom.",
+      "newWords": [
+        "morcego",
+        "preguiça",
+        "chifre",
+        "pardo",
+        "espinho",
+        "parasita",
+        "envenenar",
+        "inchar"
+      ],
+      "text": "Basta prestar atenção para perceber: a língua portuguesa está cheia de bichos e plantas. Alguns aparecem nos nomes das coisas, outros nos ditados que repetimos sem pensar. Vale a pena olhar alguns de perto.\n\nComecemos pelo morcego. A palavra vem do latim e quer dizer, mais ou menos, \"rato cego\". Quem deu esse nome ao animal achava que ele não enxergava, mas estava enganado. O morcego enxerga, e muitas espécies também se orientam pelo eco dos sons que produzem. Assim, o nome do morcego conserva um erro antigo, como uma fotografia de uma ideia que já não aceitamos.\n\nCom a preguiça acontece o contrário: o nome de um comportamento humano passou para um animal. O bicho-preguiça recebeu esse nome por causa dos seus movimentos lentos. Os biólogos explicam, porém, que não se trata de preguiça. O animal se alimenta de folhas, que dão pouca energia, e por isso precisa economizar cada movimento. O que parece preguiça é, na verdade, uma forma inteligente de sobreviver.\n\nOs ditados também gostam de bichos. Quem vê problema onde não há nenhum está \"procurando chifre em cabeça de cavalo\": como o cavalo não tem chifre, a busca não pode dar certo. E quando, no escuro, não conseguimos distinguir uma coisa da outra, dizemos que \"à noite, todos os gatos são pardos\". O pardo, cor entre o marrom e o cinza, serve aqui para mostrar que, sem luz, as diferenças desaparecem.\n\nAs plantas não ficam atrás. \"Não há rosa sem espinho\", diz o ditado, para lembrar que as coisas boas também trazem dificuldades. O espinho, nesse caso, não é um defeito da rosa, mas parte dela.\n\nA biologia empresta ainda palavras para falar das pessoas. Um parasita é um ser que vive à custa de outro, e por isso se chama de parasita, de modo nada gentil, quem vive do trabalho alheio. O veneno das cobras também virou imagem: dizemos que um comentário maldoso pode envenenar uma conversa, ou que uma fofoca acabou por envenenar uma amizade antiga. Ninguém morre, mas algo realmente adoece.\n\nAté o corpo entra nessa história. Uma parte do corpo pode inchar depois de uma pancada, e o verbo inchar passou a descrever outras coisas que crescem de forma desordenada. Nos jornais, lemos que algumas cidades começaram a inchar quando receberam mais moradores do que conseguiam atender, sem ruas, escolas e hospitais suficientes.\n\nEssas imagens tornam a língua mais viva. Quando dizemos que alguém procura chifre em cabeça de cavalo, não pensamos no cavalo; mas ele está lá, escondido na frase, como um morcego dormindo no teto de uma caverna.\n\nPerguntas:\nO que quer dizer, mais ou menos, a palavra morcego?\nEla quer dizer \"rato cego\", embora o morcego enxergue.\nPor que os movimentos do bicho-preguiça são lentos?\nPorque ele se alimenta de folhas, que dão pouca energia, e precisa economizar cada movimento.\nO que faz quem está procurando chifre em cabeça de cavalo?\nEssa pessoa vê problema onde não há nenhum.\nO que significa o ditado sobre os gatos pardos?\nSignifica que, no escuro, sem luz, as diferenças entre as coisas desaparecem.\nO que acontece quando um comentário maldoso consegue envenenar uma conversa?\nNinguém morre, mas algo realmente adoece na conversa ou na amizade.\nO que quer dizer que uma cidade começou a inchar?\nQuer dizer que ela recebeu mais moradores do que conseguia atender, sem ruas, escolas e hospitais suficientes."
+    },
+    {
+      "title": "A língua do esporte",
+      "summary": "A column on the language of sports journalism: words borrowed from English, Brazil–Portugal differences and the metaphors of victory and defeat.",
+      "newWords": [
+        "impedimento",
+        "desarmar",
+        "selar",
+        "perdedor",
+        "detentor",
+        "mercenário",
+        "vingador",
+        "pódio",
+        "rali"
+      ],
+      "text": "O futebol chegou ao Brasil no fim do século 19, e com ele chegou um vocabulário inglês. A própria palavra futebol é uma adaptação de football, e gol vem de goal. No início, muitos termos eram usados em inglês mesmo, e só aos poucos ganharam forma portuguesa. Um bom exemplo é o impedimento. Os primeiros torcedores brasileiros diziam offside, ou uma pronúncia aproximada disso; com o tempo, a palavra impedimento venceu. Em Portugal, curiosamente, a mesma regra recebeu outro nome: lá se diz que o jogador está fora de jogo, e não em impedimento.\n\nEssa não é a única diferença entre os dois países. O brasileiro comemora o gol, o português comemora o golo. O time brasileiro é a equipa portuguesa, o goleiro é o guarda-redes, e o torcedor é o adepto. Quem ouve uma partida narrada em Lisboa entende tudo, mas percebe a cada minuto que está em outra casa da mesma língua.\n\nO português também criou palavras próprias para o jogo. No Brasil, quando um defensor tira a bola do atacante de forma limpa, dizemos que ele conseguiu desarmar o adversário. A imagem é militar: desarmar alguém é tirar-lhe a arma. Bons zagueiros sabem desarmar sem cometer falta.\n\nAliás, a linguagem do esporte gosta muito de imagens de guerra e de justiça. Um gol no último minuto pode selar a vitória, como quem fecha uma carta com um selo. O time que perde é o perdedor, mas os jornais costumam ser mais gentis com um perdedor que lutou até o fim. O campeão do ano anterior é o detentor do título, e todos querem derrotar o detentor. Quando um jogador marca um gol contra o seu antigo clube, a manchete o chama de vingador, embora o vingador, na maioria das vezes, nem comemore, por respeito à antiga torcida. E o jogador que muda de clube só por dinheiro às vezes é chamado de mercenário, uma palavra pesada, que vem das guerras e nem sempre é justa: o que parece ambição de um mercenário pode ser apenas a busca de uma carreira melhor.\n\nOutros esportes têm o seu próprio vocabulário. Nos Jogos Olímpicos, os atletas querem subir ao pódio, palavra de origem grega que hoje significa o lugar dos 3 primeiros colocados. Para muitos atletas, subir ao pódio já é uma vitória, mesmo sem a medalha de ouro. No rali, as provas de carro feitas muitas vezes em estradas de terra, o piloto conta com um navegador, que lê as anotações do percurso em voz alta.\n\nAs palavras, aliás, circulam nos dois sentidos. O esporte tomou imagens da guerra, da justiça e do correio, e a vida comum toma imagens do esporte. Quando alguém diz que um colega \"pisou na bola\" ou que \"vestiu a camisa\" de um projeto, está falando a língua do futebol sem perceber.\n\nPerguntas:\nO que pode selar a vitória numa partida?\nUm gol no último minuto pode selar a vitória, como quem fecha uma carta com um selo.\nComo se diz impedimento em Portugal?\nEm Portugal, diz-se que o jogador está fora de jogo.\nO que um defensor faz quando consegue desarmar o atacante?\nEle tira a bola do atacante de forma limpa, sem cometer falta.\nQuem é o detentor do título?\nÉ o campeão do ano anterior, que todos querem derrotar.\nPor que a palavra mercenário nem sempre é justa?\nPorque o que parece ambição pode ser apenas a busca de uma carreira melhor.\nO que faz o navegador numa prova de rali?\nEle lê as anotações do percurso em voz alta para o piloto."
+    },
+    {
+      "title": "O direito de entender",
+      "summary": "A report on plain-language work: rewriting court decisions, hospital leaflets and public forms so that every citizen can understand them.",
+      "newWords": [
+        "reger",
+        "subordinado",
+        "fiança",
+        "furtar",
+        "agressor",
+        "artéria",
+        "sonda",
+        "referendo",
+        "protótipo",
+        "sintético"
+      ],
+      "text": "Quem já recebeu uma carta da Justiça ou um folheto de hospital sabe como é difícil entender certos textos públicos. Há alguns anos, um movimento tenta mudar isso. É a chamada linguagem simples, um conjunto de regras que deve reger a escrita de qualquer texto feito para o cidadão. Algumas cidades brasileiras já têm leis de linguagem simples que regem os seus documentos. A ideia central é fácil de dizer: quem lê tem o direito de entender na primeira leitura.\n\nUma equipe de uma universidade pública trabalha justamente nisso. O primeiro passo é encontrar o que torna um texto difícil. Muitas vezes, o problema está nas frases longas demais. Numa decisão judicial analisada pela equipe, uma única frase tinha mais de 100 palavras, com uma oração subordinada dentro da outra. Cada trecho subordinado ao anterior obrigava o leitor a voltar ao começo. A solução foi dividir a frase em 6 frases curtas, cada uma com uma só ideia.\n\nOutro problema são os termos técnicos. A palavra fiança, por exemplo, aparece em muitas decisões, mas nem todos sabem o que ela significa. No texto revisado, a equipe explicou que a fiança é um valor pago para que a pessoa possa responder ao processo em liberdade. Também foi preciso explicar a diferença entre furtar e roubar. Na fala do dia a dia, as duas parecem iguais; para a lei, não são. Furtar é levar uma coisa de alguém sem violência nem ameaça, e roubar envolve violência ou ameaça. Num caso de proteção à vítima, a equipe escreveu, numa frase direta, que o agressor não pode se aproximar dela, em vez de esconder o agressor no meio de termos técnicos.\n\nNos hospitais, o desafio é parecido. Um folheto antigo falava de um exame feito \"por via arterial\". A nova versão diz que um tubo muito fino vai entrar por uma artéria do braço e seguir até o coração, e explica que a artéria leva o sangue do coração para o corpo. Outro folheto, sobre pacientes que não conseguem engolir, passou a explicar que a sonda é um tubo fino que leva o alimento até o estômago e que a sonda não causa dor depois de colocada.\n\nNa vida política, ser claro também importa. A pergunta de um referendo precisa ser tão clara que ninguém tenha dúvida sobre o que significa votar \"sim\". Uma pergunta confusa pode mudar o resultado de um referendo inteiro.\n\nAntes de publicar qualquer texto novo, a equipe faz um protótipo e o testa com pessoas comuns. Se os leitores não entendem uma parte, o protótipo volta para a mesa e é escrito de novo. O objetivo é um texto sintético, mas completo. Ser sintético, aqui, não é cortar informação: é dizer o que importa com poucas palavras difíceis.\n\nPerguntas:\nQual é a ideia central da linguagem simples?\nA ideia é que quem lê tem o direito de entender o texto na primeira leitura.\nComo a equipe resolveu a frase de mais de 100 palavras?\nEla dividiu a frase em 6 frases curtas.\nO que é a fiança, segundo o texto revisado?\nÉ um valor pago para que a pessoa possa responder ao processo em liberdade.\nQual é a diferença entre furtar e roubar para a lei?\nFurtar é levar uma coisa sem violência nem ameaça; roubar envolve violência ou ameaça.\nComo o novo folheto explica a sonda?\nEle explica que a sonda é um tubo fino que leva o alimento até o estômago.\nPor que a equipe faz um protótipo antes de publicar um texto?\nPara testá-lo com pessoas comuns e escrever de novo as partes que os leitores não entendem."
+    }
+  ]
+}

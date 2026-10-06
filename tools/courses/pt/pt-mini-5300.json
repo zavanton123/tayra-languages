@@ -1,0 +1,201 @@
+{
+  "id": "pt-mini-5300",
+  "rankUpTo": 5300,
+  "level": "C1",
+  "title": "Os biomas do Brasil",
+  "description": "Ten calm, informative texts about Brazil's biomes: the Caatinga in the dry season, the Pampa's grasslands, the Mata Atlântica's recovery, the Cerrado's water, the Pantanal's floods, the coastal mangroves, an exhibition, a bird-counting programmer, a hospital boat in the Amazon and a closing essay.",
+  "topic": "Brazil's biomes",
+  "names": [
+    "Brasil",
+    "Caatinga",
+    "Pampa",
+    "Cerrado",
+    "Pantanal",
+    "Amazônia",
+    "Paraíba",
+    "Socorro",
+    "Marcos",
+    "Uruguai",
+    "Argentina",
+    "Arno",
+    "Portugal",
+    "Espanha",
+    "Helena",
+    "Lúcia",
+    "Lurdes",
+    "Corumbá",
+    "Bahia",
+    "Jorge",
+    "Marajó",
+    "Curupira",
+    "Tiago",
+    "Ramos",
+    "Brasília",
+    "Goiânia",
+    "Ana",
+    "Paula",
+    "Pará",
+    "Nordeste",
+    "Paulo",
+    "Miguel",
+    "guaranis"
+  ],
+  "lessons": [
+    {
+      "title": "A Caatinga na seca",
+      "summary": "Dona Socorro, who lives on a small farm in the sertão of Paraíba, looks after her water during the dry season and calmly waits for the rain.",
+      "newWords": [
+        "escasso",
+        "sereno",
+        "xícara",
+        "degrau",
+        "habituar",
+        "tapar",
+        "alegrar",
+        "desagradável",
+        "capacete"
+      ],
+      "text": "Em outubro, no sertão da Paraíba, a chuva é apenas uma lembrança. Faz quase 6 meses que não chove, e a água é escassa em todo o município. As árvores da Caatinga perderam as folhas, e a paisagem ficou cinza. Quem chega de fora costuma achar essa paisagem triste, quase morta. Quem vive ali sabe que ela não está morta: está apenas descansando.\n\nDona Socorro tem 64 anos e mora num sítio pequeno, a 20 quilômetros da cidade. Ela acorda antes do sol, quando o ar ainda está fresco e o céu está sereno, sem uma nuvem. Prepara o café, enche uma xícara e se senta no degrau da porta da cozinha. Daquele degrau, ela vê o quintal, as cabras e, mais longe, a serra azul. É o momento mais sereno do dia, e ela o protege com cuidado. Só depois da segunda xícara começa o trabalho.\n\nO primeiro trabalho é cuidar da água. Ao lado da casa, há um reservatório que recolhe a chuva que cai no telhado durante o inverno, como no sertão se chama a estação das chuvas. Agora, na seca, cada litro conta, porque a água escassa precisa durar até as próximas chuvas. Dona Socorro mantém o reservatório sempre tapado, porque um reservatório aberto recebe poeira, folhas e mosquitos. Na cozinha, a água de beber fica num pote de barro, também tapado com um pano limpo. \"Água boa é água tapada\", ela gosta de dizer.\n\nAs plantas da Caatinga se habituaram à seca de um jeito impressionante. Muitas perdem as folhas para gastar menos água. Outras guardam água nas raízes ou no tronco, como o cacto, que continua verde quando tudo em volta está cinza. Os animais também se habituaram: descansam nas horas quentes e saem à procura de comida no fim da tarde. Dona Socorro faz o mesmo. Depois do almoço, quando o calor fica desagradável, ela descansa na rede. O vento quente da tarde é desagradável para quem vem da capital, mas, para ela, é apenas uma parte do ano.\n\nNo fim da tarde, o filho dela, Marcos, chega da cidade de moto. Ele tira o capacete, cheio de poeira, e o deixa no degrau. Marcos traz uma notícia que alegra a mãe: segundo a previsão do tempo, as primeiras chuvas devem chegar entre dezembro e janeiro. A notícia alegra também o filho, que sabe o que vem depois. Quando chove, a Caatinga muda em poucos dias. As folhas voltam, as flores se abrem, e o cinza vira verde.\n\nDona Socorro sorri, pega o capacete do filho para guardá-lo e diz que vai fazer mais café. Ainda faltam semanas de seca, mas ela não tem pressa. Já viu essa mudança muitas vezes, e ela sempre a alegra como se fosse a primeira.\n\nPerguntas:\nPor que a paisagem da Caatinga fica cinza na seca?\nPorque muitas árvores perdem as folhas para gastar menos água.\nOnde Dona Socorro toma a primeira xícara de café?\nEla toma a primeira xícara sentada no degrau da porta da cozinha.\nPor que ela mantém o reservatório sempre tapado?\nPorque um reservatório aberto recebe poeira, folhas e mosquitos.\nComo os animais se habituaram à seca?\nEles descansam nas horas quentes e saem à procura de comida no fim da tarde.\nQue notícia alegra Dona Socorro?\nSegundo a previsão do tempo, as primeiras chuvas devem chegar entre dezembro e janeiro.\nO que acontece com a Caatinga quando chove?\nEm poucos dias, as folhas voltam, as flores se abrem e o cinza vira verde."
+    },
+    {
+      "title": "O Pampa e a grandeza do campo",
+      "summary": "An explanation of the Pampa grasslands of southern Brazil, through the eyes of a seventy-year-old cattle farmer who sells meat raised on native grass.",
+      "newWords": [
+        "cardeal",
+        "exportar",
+        "centenário",
+        "setenta",
+        "grandeza",
+        "freio",
+        "valorização",
+        "mundialmente",
+        "internacionalmente",
+        "sangrento"
+      ],
+      "text": "No extremo sul do Brasil, há uma paisagem que muitos brasileiros conhecem pouco: o Pampa. Ele ocupa mais da metade do Rio Grande do Sul e continua no Uruguai e na Argentina. À primeira vista, é uma paisagem simples: campos baixos, quase sem árvores, que vão até o horizonte, cortados aqui e ali por um rio ou por uma cerca. Quem passa de carro pode achar que não há nada para ver. Basta parar, porém, para perceber a grandeza desse lugar.\n\nA grandeza do Pampa não está apenas no tamanho do céu. Está também na variedade que existe no chão. Num único metro quadrado de campo nativo podem crescer dezenas de espécies de plantas, entre ervas, flores pequenas e outras plantas baixas. Os campos abrigam também muitas aves. Uma das mais conhecidas é o cardeal, um pássaro de costas cinza, peito branco e cabeça vermelha, que gosta de ficar perto das casas. Para muitos gaúchos, o canto do cardeal é o som das manhãs no campo.\n\nSeu Arno, um criador de gado de setenta anos, conhece bem esse som. A fazenda da família é centenária: foi fundada pela família dele há mais de 100 anos, e a casa centenária ainda tem as mesmas paredes de pedra. Seu Arno aprendeu a andar a cavalo antes dos 10 anos e, aos setenta, ainda coloca o freio no cavalo todas as manhãs. \"Com o freio, a gente guia o cavalo\", ele explica, \"mas quem conhece o caminho é ele.\"\n\nA região nem sempre foi tranquila. Entre os séculos 18 e 19, o Pampa foi palco de conflitos sangrentos, quando Portugal, a Espanha e, mais tarde, os novos países da região disputavam aquelas terras. Muitas fronteiras de hoje nasceram desses tempos sangrentos. Hoje, o que se discute no Pampa é outra coisa: o uso do solo.\n\nDurante séculos, o gado viveu nos campos nativos, e esse uso, quando é moderado, ajuda a manter o campo. Nas últimas décadas, no entanto, uma parte importante dos campos deu lugar a lavouras de soja e de arroz e a plantações de árvores. O estado exporta carne, arroz e soja para muitos países, e esses produtos exportados trazem renda. O problema é que o campo nativo, depois de destruído, demora muito para voltar.\n\nPor isso, alguns produtores, como Seu Arno, apostam na valorização da carne criada no campo nativo. A ideia é que o consumidor pague um pouco mais por um produto que ajuda a conservar a paisagem. Essa valorização depende de informação: quem compra precisa saber de onde vem a carne.\n\nA questão interessa também a outros países. Os campos naturais estão entre as paisagens menos protegidas mundialmente, e cientistas que trabalham internacionalmente estudam o Pampa como um exemplo importante. Ainda pouco conhecido mundialmente, ele começa a ser discutido internacionalmente com mais atenção.\n\nNo fim da tarde, Seu Arno tira o freio do cavalo e se senta na varanda. Um cardeal canta na cerca. \"Isto aqui\", ele diz, \"não é um campo vazio.\"\n\nPerguntas:\nOnde fica o Pampa?\nEle ocupa mais da metade do Rio Grande do Sul e continua no Uruguai e na Argentina.\nComo é o cardeal?\nÉ um pássaro de costas cinza, peito branco e cabeça vermelha.\nPor que a fazenda de Seu Arno é centenária?\nPorque foi fundada pela família dele há mais de 100 anos.\nO que o Pampa viveu entre os séculos 18 e 19?\nEle foi palco de conflitos sangrentos pela posse daquelas terras.\nO que o estado exporta?\nO estado exporta carne, arroz e soja para muitos países.\nEm que Seu Arno aposta?\nEle aposta na valorização da carne criada no campo nativo."
+    },
+    {
+      "title": "A floresta que volta",
+      "summary": "A report on a project that restores a piece of the Mata Atlântica on an old pasture, with seedlings, drones and help from the residents of a home for the elderly.",
+      "newWords": [
+        "metodologia",
+        "mortalidade",
+        "viável",
+        "ativamente",
+        "drone",
+        "prévio",
+        "paradigma",
+        "asilo"
+      ],
+      "text": "A Mata Atlântica já cobriu boa parte da costa brasileira. Hoje, resta pouco mais de um décimo da floresta original, dividida em pedaços pequenos entre cidades, estradas e fazendas. Nessa região vive a maior parte da população do país. Mesmo assim, ou talvez por isso mesmo, a floresta começa a voltar em muitos lugares. Um desses lugares é um antigo pasto no interior do Rio de Janeiro, onde a bióloga Helena coordena um projeto de restauração.\n\nO trabalho começou com um estudo prévio. Antes de plantar uma única árvore, a equipe passou meses analisando o solo, a água e os restos de floresta em volta. \"O estudo prévio mostra o que o lugar ainda tem e o que precisa receber\", explica Helena. Esse estudo definiu a metodologia do projeto, isto é, o conjunto de passos que a equipe segue em cada área.\n\nDurante muito tempo, restaurar uma floresta significava plantar tudo, árvore por árvore. Esse paradigma mudou. Hoje, os pesquisadores sabem que, perto de uma floresta saudável, a natureza também trabalha: os pássaros trazem sementes, o vento espalha outras, e muitas plantas nascem sozinhas. O novo paradigma combina as duas coisas. Onde a floresta tem força para voltar, a equipe apenas protege a área. Onde ela não tem, a equipe planta ativamente, com mudas de espécies nativas. Plantar ativamente custa mais, por isso essa escolha precisa ser bem pensada.\n\nUma parte da metodologia é medir a mortalidade das mudas. No primeiro ano, algumas mudas morrem por falta de chuva, por causa das formigas ou do capim alto. Uma mortalidade baixa indica que a escolha das espécies foi boa; uma mortalidade alta mostra que algo precisa mudar. Para acompanhar áreas grandes, a equipe usa um drone. Uma vez por mês, o drone voa sobre o terreno e faz fotos que mostram onde a floresta cresce e onde ela ainda tem dificuldade.\n\nAs mudas vêm de um lugar inesperado para muitos visitantes: um asilo da cidade vizinha. No quintal do asilo, alguns idosos cuidam de milhares de mudas. Eles enchem os sacos de terra, regam as plantas e anotam o crescimento de cada espécie. Dona Lúcia, de 81 anos, diz que o trabalho no asilo lhe deu uma nova rotina. \"Eu não vou ver essa floresta grande\", ela diz, \"mas meus netos vão.\"\n\nUm projeto assim só é viável com apoio de muitos lados: proprietários de terra, prefeituras, empresas e voluntários. Ele também precisa ser viável a longo prazo, porque uma floresta não se forma em poucos anos. Depois de 8 anos, porém, o resultado já aparece. As árvores mais altas passam de 5 metros, e as fotos do drone mostram manchas verdes onde antes havia apenas pasto. Os pássaros voltaram, e com eles chegam novas sementes.\n\nPerguntas:\nPara que serviu o estudo prévio?\nEle mostrou o que o lugar ainda tinha e definiu a metodologia do projeto.\nQual paradigma mudou na restauração de florestas?\nAntes, restaurar uma floresta significava plantar tudo; hoje, os pesquisadores combinam o plantio com a ajuda da própria natureza.\nO que indica uma mortalidade baixa das mudas?\nIndica que a escolha das espécies foi boa.\nPara que a equipe usa o drone?\nEla usa o drone para fazer fotos que mostram onde a floresta cresce e onde tem dificuldade.\nQuem cuida das mudas no asilo?\nAlguns idosos do asilo enchem os sacos de terra, regam as plantas e anotam o crescimento.\nO que torna o projeto viável?\nO apoio de proprietários, prefeituras, empresas e voluntários."
+    },
+    {
+      "title": "O Cerrado e a água escondida",
+      "summary": "A short essay on why the Cerrado is called the cradle of Brazil's waters, weighing the value of farming and mining against the protection of its rivers.",
+      "newWords": [
+        "ocultar",
+        "enfraquecer",
+        "multinacional",
+        "acionista",
+        "populacional",
+        "contribuinte",
+        "minério",
+        "explícito",
+        "esclarecimento"
+      ],
+      "text": "O Cerrado não impressiona à primeira vista. Suas árvores são baixas, têm troncos tortos e cascas grossas, e na seca o capim fica amarelo. Quem espera uma floresta alta pode passar por ele sem prestar atenção. No entanto, o que o Cerrado tem de mais valioso não está à vista: está oculto embaixo da terra.\n\nMuitas plantas do Cerrado têm raízes profundas, que descem vários metros em busca de água. Por isso, há quem diga que o Cerrado é uma floresta de cabeça para baixo. Essas raízes ocultas ajudam a chuva a entrar no solo e a encher as reservas de água subterrânea. Dessas reservas nascem rios que correm para o norte, para o leste e para o sul. Não é por acaso que o Cerrado é chamado de berço das águas do Brasil.\n\nQuando a vegetação nativa é retirada, esse sistema começa a enfraquecer. A chuva corre pela superfície em vez de entrar na terra, e as nascentes recebem menos água. Em várias regiões, pesquisadores já observam rios enfraquecidos na seca. Um rio enfraquecido afeta a pesca, a produção de energia e o abastecimento das cidades.\n\nÉ preciso reconhecer, por outro lado, a importância econômica do Cerrado. A região produz grande parte dos grãos do país, e muitas famílias vivem desse trabalho. O Cerrado guarda também minério, e a extração de minério gera empregos e impostos. Seria injusto tratar quem produz como inimigo da natureza. A questão não é escolher entre a economia e a água, mas encontrar uma forma de ter as duas.\n\nPara isso, as regras precisam ser explícitas. Uma regra explícita diz com clareza quanto de vegetação cada propriedade deve manter e onde ela deve ficar, como as margens dos rios. Regras vagas favorecem quem quer ocultar problemas; regras claras protegem quem trabalha direito.\n\nAs empresas também têm um papel. Uma multinacional que compra grãos da região responde a acionistas de vários países, e muitos desses acionistas já exigem saber de onde vem o que a empresa compra. Quando uma multinacional se recusa a comprar de áreas destruídas, o efeito chega rápido ao campo.\n\nHá ainda o lado das cidades. O crescimento populacional de capitais como Brasília e Goiânia aumenta a necessidade de água a cada ano. Com a pressão populacional, cada nascente protegida passa a valer mais. E quando falta água, quem paga a conta é o contribuinte, que financia obras cada vez mais caras. Proteger as nascentes, portanto, é também uma forma de cuidar do dinheiro do contribuinte.\n\nO debate sobre o Cerrado precisa, acima de tudo, de esclarecimento. Muitas pessoas nunca ouviram falar de suas raízes nem de seus rios. Um esclarecimento simples, feito nas escolas e nos jornais, pode mudar a forma como o país olha para essa paisagem de árvores baixas.\n\nPerguntas:\nPor que se diz que o Cerrado é uma floresta de cabeça para baixo?\nPorque muitas de suas plantas têm raízes profundas, que ficam ocultas embaixo da terra.\nO que acontece quando a vegetação nativa é retirada?\nA chuva entra menos no solo, as nascentes recebem menos água e os rios podem enfraquecer.\nQual é a importância econômica do Cerrado?\nA região produz grande parte dos grãos do país e guarda minério, o que gera empregos e impostos.\nPara que servem as regras explícitas?\nElas dizem com clareza quanto de vegetação cada propriedade deve manter.\nPor que a falta de água afeta o contribuinte?\nPorque é o contribuinte que financia as obras, cada vez mais caras, quando falta água."
+    },
+    {
+      "title": "Quando o Pantanal enche",
+      "summary": "An interview with Dona Lurdes, a boat guide in the Pantanal, about the yearly flood and her life by the river.",
+      "newWords": [
+        "telefonema",
+        "aquário",
+        "desenrolar",
+        "genial",
+        "fidelidade",
+        "edificação",
+        "emocionado",
+        "plenamente"
+      ],
+      "text": "Dona Lurdes tem 58 anos e trabalha há três décadas como guia de barco no Pantanal, perto de Corumbá, em Mato Grosso do Sul. Na fazenda onde ela mora, o sinal do celular é fraco, e a entrevista foi marcada por um telefonema curto. No telefonema, ela avisou: \"Venha em junho. É quando a água está mais bonita.\" Em junho, conversamos na varanda da casa dela, de frente para o rio.\n\nO que é a cheia, para quem nunca viu?\nÉ o momento em que o Pantanal se enche de água. As chuvas começam em outubro ou novembro, mas a água chega devagar, porque a região é muito plana. Aqui no sul, a cheia só se forma plenamente entre maio e julho. Então os campos viram lagoas, e a gente vai de barco a lugares onde, na seca, andava a pé.\n\nComo o ano se desenrola para quem vive aqui?\nO ano se desenrola em dois tempos: o tempo da água e o tempo da seca. Na cheia, o gado é levado para as partes altas, e a gente trabalha mais com turismo e pesca. Na seca, a água baixa, e os campos voltam a aparecer. Quem nasceu aqui aprende isso cedo.\n\nAs casas ficam perto da água?\nNão muito. Toda edificação de uma fazenda antiga fica num ponto mais alto do terreno, porque os antigos sabiam até onde a água chegava. Quem constrói uma edificação nova hoje deveria fazer o mesmo.\n\nO que mais impressiona os turistas?\nA água clara. Em alguns lugares, ela fica tão transparente que dá para ver os peixes entre as plantas, como num aquário. Os turistas dizem que o Pantanal parece um aquário enorme, só que com jacarés! E os animais se adaptam de um jeito genial: as aves fazem os ninhos na época certa, os peixes se alimentam nos campos cobertos de água. Eu acho genial como tudo acompanha o ritmo da água.\n\nOs últimos anos foram difíceis?\nForam. Tivemos secas fortes e muitos incêndios, e em alguns anos a cheia quase não veio. Mas, nos anos de chuva boa, o Pantanal se recupera. Ele precisa de tempo e de cuidado.\n\nPor que a senhora nunca foi embora?\nPor fidelidade, eu acho. Fidelidade ao meu pai, que me ensinou a pilotar o barco, e fidelidade a este lugar.\n\nNesse momento, Dona Lurdes fica emocionada e faz uma pausa. Depois continua: \"Desculpe, eu sempre fico emocionada quando falo dele. Meu pai dizia que o rio não pertence à gente; a gente é que pertence ao rio.\"\n\nNo fim da tarde, ela leva a equipe para um passeio curto. A água está calma e brilhante, e o sol desce devagar atrás das árvores.\n\nPerguntas:\nComo a entrevista foi marcada?\nEla foi marcada por um telefonema curto.\nQuando a cheia se forma plenamente no sul do Pantanal?\nA cheia se forma plenamente entre maio e julho.\nComo o ano se desenrola para quem vive no Pantanal?\nO ano se desenrola em dois tempos: o tempo da água e o tempo da seca.\nPor que as edificações antigas ficam em pontos mais altos?\nPorque os antigos sabiam até onde a água chegava.\nPor que os turistas comparam o Pantanal a um aquário?\nPorque, em alguns lugares, a água fica tão clara que dá para ver os peixes entre as plantas.\nPor que Dona Lurdes nunca foi embora?\nPor fidelidade ao pai, que a ensinou a pilotar o barco, e ao lugar onde vive."
+    },
+    {
+      "title": "O dia do mutirão no mangue",
+      "summary": "A fishing community on the coast of Bahia cleans its mangrove after a high tide, and the text explains why mangroves matter to fish, crabs and fishermen.",
+      "newWords": [
+        "estoque",
+        "previdência",
+        "filiar",
+        "sindical",
+        "dispersar",
+        "convocação",
+        "apuração",
+        "interino"
+      ],
+      "text": "Na costa do Brasil, onde os rios encontram o mar, cresce uma vegetação especial: o mangue. Suas árvores vivem num solo de lama, que a maré cobre e descobre duas vezes por dia. Para quem passa de longe, o mangue pode parecer apenas um lugar escuro e cheio de lama. Para quem vive da pesca, ele é a base de tudo.\n\nO mangue funciona como um berçário. Muitos peixes, camarões e caranguejos nascem ou crescem entre as raízes das árvores, protegidos das ondas e dos animais maiores. Quando adultos, muitos deles vão para o mar. Por isso, o estoque de peixes da costa depende da saúde do mangue. Se o mangue é destruído, o estoque diminui, e os pescadores sentem a diferença em poucos anos.\n\nAs próprias árvores do mangue têm um jeito curioso de se espalhar. A semente de uma das espécies mais comuns começa a crescer ainda presa à árvore. Quando cai, ela pode flutuar na água por semanas. É a maré que dispersa essas sementes pela costa, e algumas delas param na lama de um lugar novo e criam raízes. Sem a água para dispersar as sementes, o mangue não chegaria tão longe.\n\nNuma pequena cidade do litoral da Bahia, os pescadores conhecem bem esse ambiente. Quase todos são filiados à colônia de pescadores da cidade, uma entidade de caráter sindical que representa a categoria. Estar filiado traz direitos. Durante o período em que a pesca de certas espécies é proibida, para proteger a reprodução, os pescadores registrados recebem um benefício pago pela Previdência Social. Esse apoio da Previdência permite que eles respeitem o período de descanso sem ficar sem renda.\n\nEm março, uma maré muito alta deixou no mangue uma grande quantidade de lixo: garrafas, sacos plásticos e restos de redes. O presidente da colônia estava doente, e quem assumiu o problema foi Jorge, o presidente interino. Como presidente interino, ele não podia tomar todas as decisões, mas podia chamar os sócios. Fez então uma convocação para um mutirão no sábado. A convocação foi lida na rádio da cidade e colada na porta da colônia.\n\nNo sábado, mais de 60 pessoas apareceram: pescadores, pescadoras, estudantes e até alguns turistas. Durante a manhã inteira, eles andaram na lama com luvas e sacos, sempre com cuidado para não ferir as raízes. No fim do dia, a equipe fez a apuração do que foi retirado. A apuração mostrou 312 sacos de lixo, a maior parte de plástico.\n\nJorge agradeceu a todos pela rádio. Ele lembrou que a entidade sindical existe para defender a categoria, mas que defender o mangue também é defender o trabalho de cada um. \"O mangue cuida da gente\", disse ele, \"e hoje nós cuidamos dele.\"\n\nPerguntas:\nPor que se diz que o mangue funciona como um berçário?\nPorque muitos peixes, camarões e caranguejos nascem ou crescem entre as raízes das árvores.\nComo as sementes do mangue chegam a lugares novos?\nA maré dispersa as sementes pela costa.\nO que a Previdência Social paga aos pescadores?\nEla paga um benefício durante o período em que a pesca de certas espécies é proibida.\nPor que Jorge fez a convocação para o mutirão?\nPorque uma maré muito alta deixou uma grande quantidade de lixo no mangue.\nO que mostrou a apuração no fim do dia?\nA apuração mostrou 312 sacos de lixo, a maior parte de plástico."
+    },
+    {
+      "title": "Uma exposição sobre os biomas",
+      "summary": "A review of an exhibition in a park pavilion that shows Brazil's biomes through art: pottery, arrows, pencil drawings, silk paintings, myths and a children's parody.",
+      "newWords": [
+        "pavilhão",
+        "mitologia",
+        "lápis",
+        "musa",
+        "seda",
+        "versar",
+        "cerâmica",
+        "paródia",
+        "aplauso",
+        "flecha",
+        "cristianismo"
+      ],
+      "text": "Abriu na semana passada, no pavilhão principal do parque da cidade, uma exposição que vale a visita. O título é simples, \"Seis paisagens, um país\", e a proposta também: mostrar as grandes regiões naturais do Brasil por meio da arte. O pavilhão, um prédio amplo e cheio de luz, foi dividido em seis salas, e cada sala versa sobre uma delas. A exposição não pretende versar sobre tudo, e essa é uma das suas qualidades: ela escolhe poucos objetos e os apresenta bem.\n\nA primeira sala é dedicada à Caatinga e reúne peças de cerâmica feitas por artesãos do sertão. São figuras de barro que mostram a vida no campo: uma mulher carregando água, um vaqueiro, uma família em volta de uma mesa. A cerâmica popular do Nordeste já é conhecida, mas vê-la ao lado de fotos da paisagem ajuda a entender de onde vêm aquelas cenas.\n\nA sala da Amazônia é a mais rica. Ao lado de vasos de cerâmica antiga, encontrados na ilha de Marajó, estão arcos e flechas de diferentes povos indígenas. Cada flecha tem penas de cores diferentes, e um texto curto explica como cada povo as fabrica. Na mesma sala, um painel apresenta a mitologia ligada à floresta. Ali o visitante conhece o Curupira, o protetor das matas, que tem os pés virados para trás para enganar os caçadores. A mitologia, mostra a exposição, também é uma forma de ensinar o respeito pela natureza.\n\nNa sala da Mata Atlântica, estão desenhos a lápis feitos por viajantes estrangeiros no século 19. Com um simples lápis, eles registraram árvores, flores e pássaros com uma precisão impressionante. Um texto lembra que essa floresta foi a musa de muitos artistas e poetas brasileiros. Como toda musa, ela inspirou obras de grande beleza, mas nem sempre recebeu o cuidado que merecia.\n\nUma das surpresas agradáveis está na sala do Pampa: uma série de pinturas em seda feitas por uma artista do Rio Grande do Sul. Sobre a seda fina e clara, os campos parecem ainda mais abertos, e o céu ocupa quase toda a obra. Na mesma sala, fotos das ruínas de São Miguel das Missões, no Rio Grande do Sul, lembram os padres que, a partir do século 17, levaram o cristianismo aos povos guaranis da região. Um texto explica que o cristianismo não chegou sozinho: os padres trouxeram também o gado, que se espalhou pelos campos do sul e até hoje faz parte da vida no Pampa.\n\nAs salas do Cerrado e do Pantanal são mais modestas, mas cumprem o seu papel, com fotos de rios e de árvores de troncos tortos.\n\nNo dia da abertura, um grupo de teatro infantil apresentou, no jardim do pavilhão, uma paródia dos documentários de televisão sobre a natureza. Na paródia, um apresentador muito sério tenta filmar uma capivara, que nunca faz o que ele espera. As crianças riram muito, e o grupo recebeu um longo aplauso. O aplauso, aliás, poderia ser estendido à exposição inteira.\n\nPerguntas:\nOnde fica a exposição?\nEla fica no pavilhão principal do parque da cidade.\nO que há na sala da Caatinga?\nHá peças de cerâmica feitas por artesãos do sertão.\nO que o visitante encontra na sala da Amazônia?\nEncontra vasos de cerâmica antiga, arcos e flechas de povos indígenas e um painel sobre a mitologia da floresta.\nO que os viajantes desenharam a lápis no século 19?\nEles desenharam árvores, flores e pássaros da Mata Atlântica.\nSobre o que é a paródia apresentada na abertura?\nÉ uma paródia dos documentários de televisão sobre a natureza."
+    },
+    {
+      "title": "O programador que conta pássaros",
+      "summary": "A profile of Tiago, a programmer from Brasília who stuttered as a child, learned to watch the sky from his father and built an app for counting birds in the Cerrado.",
+      "newWords": [
+        "programador",
+        "avatar",
+        "arquivar",
+        "controlador",
+        "empregador",
+        "matrícula",
+        "gago",
+        "verbal"
+      ],
+      "text": "Tiago Ramos tem 36 anos e trabalha como programador numa empresa de tecnologia em Brasília. Durante a semana, passa o dia na frente de duas telas. Nos fins de semana, acorda às 5 horas, pega um binóculo e vai para o Cerrado contar pássaros. Essas duas partes da vida dele parecem distantes, mas há alguns anos elas se encontraram.\n\nNa infância, Tiago era gago. Falar na frente da turma era um sofrimento, e ele preferia ficar calado. \"Eu sempre tive mais facilidade com a escrita do que com a comunicação verbal\", conta. O pai dele era controlador de voo no aeroporto da cidade. Como controlador, o pai passava horas olhando o céu e ouvindo os aviões, e nos dias de folga levava o filho para passear no parque. Foi ali que Tiago descobriu que olhar para o céu não exige nenhuma palavra. Os pássaros não se importavam se ele era gago.\n\nCom o tempo, a gagueira diminuiu, e a paixão pelos pássaros cresceu. Aos 30 anos, Tiago fez a matrícula num curso de observação de aves oferecido pela universidade. A matrícula era gratuita, e as aulas aconteciam aos sábados. No curso, ele aprendeu que os pesquisadores precisam de muitos dados para acompanhar as espécies do Cerrado, que perde vegetação nativa a cada ano.\n\nFoi então que o programador e o observador se uniram. Tiago criou um aplicativo simples, em que qualquer pessoa pode registrar os pássaros que viu, com o lugar, a hora e uma foto. Cada usuário escolhe um avatar, sempre o desenho de uma ave da região. O avatar de Tiago é uma coruja pequena. Os registros não se perdem: o aplicativo arquiva cada observação num banco de dados público, que os cientistas podem consultar. Até agora, ele já ajudou a arquivar mais de 40 mil observações.\n\nO empregador de Tiago apoiou a ideia desde o início. A empresa permite que os funcionários dediquem um dia por mês a projetos voluntários. O acordo com o empregador foi verbal, feito numa conversa de corredor, mas tem sido respeitado há 4 anos.\n\nHoje, Tiago dá palestras em escolas sobre o aplicativo e sobre os pássaros do Cerrado. Às vezes, quando está nervoso, ele ainda fica um pouco gago no começo da fala. Ninguém parece se importar. As crianças querem saber qual avatar escolher e quantas espécies ele já viu. Ele responde com calma, como quem tem todo o tempo do mundo.\n\nPerguntas:\nComo Tiago se sentia na infância ao falar na frente da turma?\nEle era gago e preferia ficar calado, porque falar era um sofrimento.\nQual era a profissão do pai de Tiago?\nEle era controlador de voo no aeroporto da cidade.\nEm que curso Tiago fez a matrícula?\nEle fez a matrícula num curso de observação de aves oferecido pela universidade.\nO que o aplicativo faz com cada observação?\nEle arquiva cada observação num banco de dados público.\nComo foi feito o acordo com o empregador?\nO acordo foi verbal, feito numa conversa de corredor."
+    },
+    {
+      "title": "Um hospital sobre as águas",
+      "summary": "A report on a hospital boat that brings doctors, vaccines and simple surgery to riverside communities in the Amazon.",
+      "newWords": [
+        "clínico",
+        "cirúrgico",
+        "injeção",
+        "higiene",
+        "alcoólico",
+        "doador",
+        "medição",
+        "pulseira"
+      ],
+      "text": "Na Amazônia, os rios são as estradas. Muitas comunidades ficam a dias de barco da cidade mais próxima, e uma consulta médica pode exigir uma viagem longa e cara. Para diminuir essa distância, alguns estados mantêm barcos que funcionam como pequenos hospitais. Um desses barcos sobe um grande rio do Pará a cada dois meses e para em cerca de 20 comunidades.\n\nA médica Ana Paula trabalha no barco há 3 anos. Ela é clínica geral, ou seja, atende todo tipo de problema, da dor de cabeça à pressão alta. O atendimento clínico é a parte principal do trabalho: em cada parada, ela vê dezenas de pacientes por dia e faz em cada um deles um exame clínico completo. Ao lado dela trabalham outros médicos, enfermeiros, um dentista e um farmacêutico.\n\nO barco tem também um pequeno centro cirúrgico. Ali, a equipe faz operações simples, que antes obrigavam os moradores a viajar até a capital. Antes de cada procedimento cirúrgico, o paciente recebe uma pulseira com o nome e o tipo de atendimento. A pulseira evita confusões num ambiente onde muitas pessoas circulam ao mesmo tempo. As crianças, que também ganham uma pulseira colorida na vacinação, costumam mostrá-la aos amigos com orgulho.\n\nO dia começa cedo. Na entrada do barco, cada pessoa limpa as mãos com gel alcoólico. A higiene é uma preocupação constante, porque o calor e a umidade favorecem as infecções. A equipe usa solução alcoólica nas mesas, nos instrumentos e nas mãos, várias vezes por dia. Quem trabalha ali aprende que a higiene não é um detalhe, mas a base de todo o resto.\n\nDepois vêm as vacinas. Para muitas crianças, a injeção é o momento mais temido da visita. Os enfermeiros conversam, distraem, prometem um desenho, e a injeção acaba antes que o choro comece. Em seguida, é feita a medição do peso e da altura das crianças, e a medição da pressão dos adultos. Esses números ficam registrados e permitem acompanhar cada pessoa de uma visita para outra.\n\nO trabalho tem dado resultado. Nas comunidades atendidas, a mortalidade infantil caiu nos últimos anos, e doenças que antes eram descobertas tarde passaram a ser tratadas no início. Parte dos equipamentos foi comprada com a ajuda de doadores, como empresas e associações. Um desses doadores, um médico aposentado, visita o barco uma vez por ano para conhecer as comunidades.\n\nO ritmo do barco depende do rio. Na época da seca, a água baixa, e alguns braços do rio ficam rasos demais. Então a equipe desce em barcos menores para chegar às casas mais distantes. \"Aqui, quem manda é o rio\", diz Ana Paula. \"A gente apenas aprende a acompanhá-lo.\"\n\nPerguntas:\nPor que os barcos-hospital são importantes na Amazônia?\nPorque muitas comunidades ficam a dias de barco da cidade mais próxima.\nQual é a especialidade de Ana Paula?\nEla é clínica geral e atende todo tipo de problema.\nPara que serve a pulseira dada antes de um procedimento cirúrgico?\nEla evita confusões, porque mostra o nome do paciente e o tipo de atendimento.\nPor que a higiene é tão importante no barco?\nPorque o calor e a umidade favorecem as infecções.\nO que acontece depois da injeção?\nÉ feita a medição do peso e da altura das crianças e a medição da pressão dos adultos."
+    },
+    {
+      "title": "Quem deve cuidar dos biomas?",
+      "summary": "A closing essay that weighs the views of city dwellers and of the people who live in each biome, and argues for patient, shared care beyond election cycles.",
+      "newWords": [
+        "reeleição",
+        "vitorioso",
+        "hipócrita",
+        "arrogante",
+        "decepção",
+        "vergonhoso",
+        "inadequado"
+      ],
+      "text": "Quando se fala em proteger a natureza do Brasil, a conversa costuma se dividir em dois lados. De um lado, estão os que vivem nas grandes cidades e pedem mais proteção para as florestas, os rios e os campos. Do outro, estão os que vivem nessas paisagens e dependem delas para trabalhar: agricultores, pescadores, criadores de gado. Cada lado tem as suas razões, e vale a pena ouvi-las com calma.\n\nQuem mora na cidade tem razão ao lembrar que a natureza é de todos. A água que sai da torneira em São Paulo nasce em matas e nascentes distantes. O ar, o clima e a chuva não respeitam fronteiras. No entanto, seria hipócrita cobrar do agricultor e esquecer o próprio consumo. Quem come carne, usa papel e compra roupas também participa da pressão sobre a terra. Exigir sacrifícios apenas dos outros é uma posição hipócrita, por melhor que seja a intenção.\n\nPor outro lado, também seria arrogante achar que só os técnicos sabem o que é melhor. Uma senhora do sertão sabe guardar água melhor do que muitos especialistas. O pescador do mangue conhece o ritmo da maré, e o criador do Pampa sabe quanto gado o campo aguenta. Uma política que ignora esse conhecimento corre o risco de ser arrogante e, pior ainda, inadequada. Uma regra pensada para a Amazônia pode ser inadequada para o Pampa, e uma solução que funciona no Cerrado pode fracassar na Caatinga.\n\nHá ainda o problema do tempo. Uma floresta leva décadas para se recuperar, mas a política trabalha com prazos de 4 anos. Muitos governantes pensam na próxima eleição, ou na reeleição, e preferem projetos que mostrem resultados rápidos. Quando a reeleição se torna mais importante do que o futuro, programas inteiros são abandonados no meio do caminho. Isso gera decepção nas comunidades que acreditaram neles. E cada decepção torna mais difícil convencer as pessoas na vez seguinte.\n\nÉ vergonhoso, sem dúvida, que ainda se destruam áreas protegidas por lei. Também é vergonhoso que tantos rios recebam o esgoto das cidades. Mas a raiva, sozinha, não resolve. Muitos exemplos mostram que há caminhos possíveis: famílias que guardam a água da chuva, voluntários que plantam mudas, pescadores que limpam o mangue, moradores da cidade que contam pássaros e mandam os dados aos cientistas. Nenhuma dessas pessoas está numa guerra. Elas apenas fazem a sua parte com paciência.\n\nTalvez a pergunta do título esteja mal formulada. Não existe um lado vitorioso nessa história, porque, quando um rio seca, todos perdem. O único resultado vitorioso possível é aquele em que a cidade e o campo aprendem a trabalhar juntos. Não é uma solução rápida nem fácil, mas é a única que pode durar.\n\nPerguntas:\nQuais são os dois lados da conversa sobre a natureza?\nDe um lado estão os que vivem nas cidades e pedem mais proteção; do outro, os que vivem nessas paisagens e dependem delas para trabalhar.\nPor que seria hipócrita cobrar apenas do agricultor?\nPorque quem mora na cidade também participa da pressão sobre a terra com o próprio consumo.\nPor que uma política pode ser arrogante e inadequada?\nPorque pode ignorar o conhecimento de quem vive na região e não servir para a realidade local.\nQual é o problema da reeleição, segundo o autor?\nMuitos governantes preferem projetos rápidos, e programas inteiros são abandonados, o que gera decepção.\nQual é o único resultado vitorioso possível?\nAquele em que a cidade e o campo aprendem a trabalhar juntos."
+    }
+  ]
+}

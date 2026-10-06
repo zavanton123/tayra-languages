@@ -1,0 +1,202 @@
+{
+  "id": "pt-mini-6000",
+  "rankUpTo": 6000,
+  "level": "C1",
+  "title": "Memórias",
+  "description": "Ten short memoir pieces and reflective crônicas: a childhood summer on the grandparents' farm, a first job in a bank, an old street revisited, a teacher who mattered, a photograph found in a drawer, a journey to the Andes, a school choir, a grandfather who was mayor, an older brother, and a mother who was a nurse.",
+  "topic": "Memoirs and remembered moments",
+  "names": [
+    "Brasil",
+    "Minas",
+    "Gerais",
+    "Curitiba",
+    "Lúcia",
+    "Porto",
+    "Alegre",
+    "Nápoles",
+    "Itália",
+    "Helena",
+    "Salvador",
+    "Rio",
+    "Janeiro",
+    "Copacabana",
+    "Rodrigo",
+    "Bolívia",
+    "Chile",
+    "Ernesto",
+    "Santiago",
+    "Argentina",
+    "São",
+    "Paulo",
+    "Recife",
+    "Augusto",
+    "Joaquim",
+    "Goiás",
+    "Marcelo",
+    "Belo",
+    "Horizonte",
+    "Fortaleza"
+  ],
+  "lessons": [
+    {
+      "title": "O verão na fazenda",
+      "summary": "The narrator remembers childhood summers on his grandparents' farm: planting carrots, watching the calves, crossing the river and sanding boards for a bench.",
+      "newWords": [
+        "mamar",
+        "cenoura",
+        "fértil",
+        "assado",
+        "raso",
+        "tropeçar",
+        "rodear",
+        "tábua",
+        "lixar"
+      ],
+      "text": "Todo mês de janeiro, quando as aulas terminavam, meus pais me levavam para a fazenda dos meus avós, no interior de Minas Gerais. Eu tinha 9 anos no primeiro verão de que me lembro bem. A viagem de carro durava quase o dia inteiro, e eu passava as últimas horas com o rosto colado na janela, esperando ver os morros que rodeiam a fazenda. Quando eles apareciam, verdes e redondos, eu sabia que tínhamos chegado.\n\nA casa ficava no fundo de um vale, rodeada de árvores e de pastos. Meu avô dizia que aquela era a terra mais fértil da região. Atrás da casa, minha avó cuidava de uma horta enorme, e era ali que eu passava as manhãs. Ela me ensinou a plantar cenoura: abrir um buraco raso na terra, colocar as sementes e cobrir tudo com uma camada fina de terra. \"Se o buraco for fundo demais, a semente não nasce\", explicava. Semanas depois, eu puxava as cenouras do chão com as duas mãos, orgulhoso, como se tivesse feito um milagre. A terra fértil, dizia minha avó, faz metade do trabalho; a outra metade é paciência.\n\nÀ tarde, eu acompanhava meu avô até o curral. Os bezerros mais novos ainda mamavam nas vacas, e ele me deixava ficar perto, em silêncio, vendo cada um mamar. Um bezerro que mamava bem, explicava ele, crescia forte e saudável. Depois, descíamos até o rio. Naquele trecho, o rio era raso, e a água mal chegava aos meus joelhos. Eu gostava de atravessá-lo pulando de pedra em pedra, mas muitas vezes tropecei e caí sentado na água fria. Meu avô ria e dizia: \"Quem não tropeça não aprende a andar.\" Até hoje, quando tropeço em alguma dificuldade, lembro dessa frase.\n\nMeu avô também tinha uma pequena oficina, onde guardava ferramentas e tábuas de madeira. Num daqueles verões, construímos juntos um banco para a varanda. Ele cortou as tábuas, e eu fiquei encarregado de lixar cada uma delas. Lixar é um trabalho lento: é preciso passar a lixa sempre na mesma direção, até a madeira ficar lisa ao toque. Passei três dias lixando as tábuas, com os braços cansados e o rosto coberto de pó. Quando o banco ficou pronto, meu avô passou a mão sobre a madeira e disse apenas: \"Bem lixado.\" Foi o maior elogio que recebi naquele ano.\n\nAos domingos, minha avó preparava um frango assado com batatas e cenouras. O cheiro do assado enchia a casa desde cedo, e a família inteira se reunia em volta da mesa comprida. Ainda hoje, quando sinto cheiro de frango assado, volto por um instante àquela cozinha.\n\nA fazenda foi vendida há muitos anos, e meus avós já não estão aqui. O banco, porém, está na minha varanda. A madeira escureceu, mas continua lisa.\n\nPerguntas:\nOnde ficava a fazenda dos avós do narrador?\nFicava no interior de Minas Gerais, no fundo de um vale rodeado de morros, árvores e pastos.\nComo a avó ensinou o narrador a plantar cenoura?\nEla ensinou a abrir um buraco raso na terra, colocar as sementes e cobri-las com uma camada fina de terra.\nO que o narrador via no curral?\nEle via os bezerros mais novos mamando nas vacas.\nO que acontecia quando ele atravessava o rio raso?\nMuitas vezes ele tropeçava nas pedras e caía sentado na água fria.\nO que o narrador fez na oficina do avô?\nEle lixou as tábuas do banco que construiu com o avô para a varanda.\nO que a avó preparava aos domingos?\nEla preparava um frango assado com batatas e cenouras."
+    },
+    {
+      "title": "O primeiro emprego",
+      "summary": "At 18 the narrator starts work at a bank counter, where a senior cashier teaches him to balance the till, and he remembers the armoured car, the banker's visit and the restructuring.",
+      "newWords": [
+        "banqueiro",
+        "balcão",
+        "montante",
+        "totalizar",
+        "sênior",
+        "exausto",
+        "advertir",
+        "reestruturação",
+        "blindado"
+      ],
+      "text": "Consegui o meu primeiro emprego aos 18 anos, numa agência bancária do centro de Curitiba. Era 1994, e eu tinha acabado de entrar na faculdade. O trabalho era simples, pelo menos na descrição: atender os clientes no balcão, receber pagamentos e conferir documentos. Na prática, nada era simples para quem nunca tinha trabalhado.\n\nNo primeiro dia, o gerente me apresentou a dona Lúcia, a funcionária mais antiga da agência. Ela era a caixa sênior, e todos a respeitavam. \"Você vai ficar ao lado dela no balcão durante um mês\", disse o gerente. \"Observe tudo o que ela faz.\" Dona Lúcia tinha mais de 30 anos de banco e uma calma que me impressionava. Os clientes faziam fila diante do balcão dela, mesmo quando outros caixas estavam livres.\n\nO momento mais difícil do dia era o fim do expediente. Depois que a porta fechava, cada caixa precisava contar o dinheiro e totalizar as operações do dia. O montante registrado no sistema tinha de ser exatamente igual ao montante guardado na gaveta. Se faltasse um centavo, ninguém ia para casa até descobrir o erro. Na primeira semana, eu levava quase uma hora para totalizar o meu caixa, e quase sempre encontrava alguma diferença. Dona Lúcia sentava ao meu lado e refazia as contas comigo, sem pressa. Ela totalizava o dela em 10 minutos.\n\nEla também me advertiu sobre um erro comum dos iniciantes. \"Nunca conte o dinheiro com o cliente falando com você\", disse. \"Quem conversa e conta ao mesmo tempo erra as duas coisas.\" Semanas depois, esqueci o conselho e paguei um valor a mais a um senhor apressado. Dessa vez, ela não me advertiu com palavras. Apenas me olhou, e o olhar bastou.\n\nÀs sextas-feiras, um carro blindado parava na frente da agência para levar o dinheiro ao cofre central. Dois seguranças desciam do veículo blindado, entravam pelos fundos e saíam carregando sacos pesados. Para mim, aquela cena parecia de filme. Para dona Lúcia, era só mais uma sexta-feira.\n\nCerta vez, o dono do banco visitou a agência. Era um banqueiro famoso, que eu só conhecia das fotos de jornal. O banqueiro cumprimentou os funcionários, fez perguntas rápidas e foi embora em 15 minutos. Depois, dona Lúcia comentou que ele nunca tinha trabalhado num balcão de atendimento. \"Mas quem conhece o cliente somos nós\", disse.\n\nFiquei 2 anos naquela agência. Saí pouco antes de uma grande reestruturação do banco, que fechou várias agências e transferiu funcionários para outras cidades. Dona Lúcia se aposentou durante a reestruturação, depois de ensinar o ofício a mais um jovem. Lembro das noites em que eu chegava em casa exausto, com os dedos cheirando a dinheiro e a cabeça cheia de números. Mesmo exausto, eu tinha a sensação de estar aprendendo algo importante: que um trabalho bem feito depende da atenção aos pequenos detalhes. Foi com ela que aprendi essa lição.\n\nPerguntas:\nQual era o trabalho do narrador no banco?\nEle atendia os clientes no balcão, recebia pagamentos e conferia documentos.\nQuem era dona Lúcia?\nEra a caixa sênior da agência, a funcionária mais antiga e mais respeitada.\nO que cada caixa precisava fazer no fim do expediente?\nPrecisava contar o dinheiro e totalizar as operações, porque o montante do sistema tinha de ser igual ao da gaveta.\nSobre o que dona Lúcia advertiu o narrador?\nEla o advertiu de que não devia contar o dinheiro enquanto o cliente falava com ele.\nO que acontecia às sextas-feiras?\nUm carro blindado parava na frente da agência para levar o dinheiro ao cofre central.\nQuando dona Lúcia se aposentou?\nEla se aposentou durante a reestruturação do banco."
+    },
+    {
+      "title": "A rua onde eu cresci",
+      "summary": "After almost 30 years the narrator walks down his childhood street, finds his old house renovated and eats pasta at the Italian restaurant behind it, where the owner still remembers his father.",
+      "newWords": [
+        "reformado",
+        "detrás",
+        "umidade",
+        "penetração",
+        "macarrão",
+        "outrora",
+        "troço",
+        "assemelhar",
+        "desordem"
+      ],
+      "text": "No mês passado, depois de quase 30 anos, voltei à rua onde passei a infância, num bairro antigo de Porto Alegre. Queria saber se a rua ainda se assemelhava à rua das minhas lembranças.\n\nÀ primeira vista, pouca coisa se assemelha ao que eu conhecia. O terreno vazio onde jogávamos bola deu lugar a um prédio de 10 andares, e as casas baixas, que outrora tinham jardins na frente, agora têm muros altos e portões eletrônicos. O bairro de outrora, com crianças brincando na calçada até a noite, parecia ter desaparecido.\n\nDepois, com calma, comecei a reconhecer os detalhes. A casa onde eu morava continua lá, mas foi reformada. A casa reformada é bonita, pintada de azul, mas eu me lembro dela com as paredes marcadas pela umidade. No inverno, a umidade subia do chão e formava marcas escuras na parte de baixo das paredes. Meu pai explicava que a penetração da água acontecia pela base das paredes, porque a casa não tinha sido bem protegida quando foi construída. Para impedir a penetração, seria preciso abrir o piso e refazer a base, uma obra cara demais para nós. Então ele pintava as paredes todo ano, e todo ano as marcas voltavam.\n\nLogo detrás da minha antiga casa havia um pequeno restaurante italiano, de uma família que tinha vindo de Nápoles. Para minha alegria, ele continua lá. Entrei e pedi o prato que meu pai pedia todo sábado: macarrão com molho de tomate. O macarrão ainda é feito à mão, e o molho tem o mesmo gosto de antes.\n\nDa cozinha, que fica detrás do salão, saiu o dono, um senhor de cabelos brancos. Contei que tinha sido vizinho dele quando criança. Ele pensou um pouco e sorriu: \"Você é o filho do homem das paredes!\" O bairro inteiro sabia da luta do meu pai contra a umidade.\n\nConversamos por meia hora. Ele me mostrou um troço velho pendurado na parede, uma máquina de ferro para fazer macarrão, e disse: \"Este troço veio da Itália com o meu avô. Não funciona mais, mas ninguém tem coragem de tirar daí.\"\n\nAntes de ir embora, perguntei se ele não sentia falta do bairro antigo. Ele respondeu que o bairro de hoje tem mais barulho e mais desordem, com carros nas calçadas e obras por todo lado. Mas acrescentou que a desordem também é sinal de vida: um bairro sem obras e sem barulho é um bairro que está morrendo. Saí pensando nisso. Talvez as lembranças sejam mais organizadas do que a realidade jamais foi. Na minha memória, a rua era tranquila e perfeita; na verdade, ela também tinha a sua desordem, as suas brigas e as suas paredes úmidas.\n\nPerguntas:\nO que o narrador queria saber ao voltar à rua da infância?\nEle queria saber se a rua ainda se assemelhava às suas lembranças.\nO que mudou na rua?\nO terreno vazio deu lugar a um prédio, e as casas que outrora tinham jardins agora têm muros altos.\nQual era o problema da antiga casa do narrador?\nA umidade subia do chão e deixava marcas escuras nas paredes, por causa da penetração da água pela base.\nO que o narrador comeu no restaurante detrás da casa?\nEle comeu macarrão com molho de tomate, o prato que o pai pedia todo sábado.\nO que o dono mostrou ao narrador?\nEle mostrou um troço velho pendurado na parede, uma máquina de ferro para fazer macarrão.\nPor que, para o dono, a desordem é um sinal de vida?\nPorque um bairro sem obras e sem barulho é um bairro que está morrendo."
+    },
+    {
+      "title": "Dona Helena",
+      "summary": "A Portuguese teacher turns reading from an obligation into an invitation, teaches the narrator to punctuate and helps him through a hard term; years later he studies literature and becomes a teacher himself.",
+      "newWords": [
+        "ministrar",
+        "cursar",
+        "especialização",
+        "pontuar",
+        "fictício",
+        "canalha",
+        "preocupante",
+        "primordial",
+        "imposição"
+      ],
+      "text": "Tive muitos professores na vida, mas só uma professora mudou a direção da minha vida: dona Helena, que ministrava as aulas de português no meu colégio, em Salvador. Eu tinha 15 anos e não gostava de ler. Achava que os livros eram uma imposição da escola, uma tarefa como outra qualquer, que eu cumpria sem vontade.\n\nDona Helena ministrava as aulas de um jeito diferente. Ela começava pelas histórias. Lia em voz alta o primeiro capítulo de um romance e parava no ponto mais interessante. \"O resto vocês descobrem sozinhos\", dizia. Para ela, a leitura não podia ser uma imposição; tinha de ser um convite.\n\nLembro bem de um romance cujo personagem principal era um canalha encantador, um homem que mentia para todos e, mesmo assim, conquistava a simpatia do leitor. Na aula, ela perguntou: \"Por que gostamos desse canalha, se sabemos o que ele faz?\" Discutimos durante uma hora. Alguns colegas defendiam o personagem; outros diziam que um canalha é sempre um canalha. Dona Helena ouviu todos e, no fim, explicou que os personagens fictícios nos permitem conhecer pessoas que não gostaríamos de ter por perto na vida real. Um mundo fictício, dizia ela, é um lugar seguro para entender o que é perigoso.\n\nEla também era rigorosa com a escrita. Devolvia as nossas redações cheias de marcas vermelhas, quase todas sobre a pontuação. \"Pontuar bem é respirar bem\", repetia. Ensinou-nos que uma vírgula fora do lugar pode mudar o sentido de uma frase inteira, e que pontuar um texto é, antes de tudo, pensar no leitor. Para ela, ser claro era primordial: antes da beleza, vinha a clareza. Era uma regra primordial, que ela também seguia nas suas explicações.\n\nNo segundo semestre, as minhas notas caíram por causa de problemas em casa. Dona Helena me chamou depois da aula. Disse apenas que a minha situação era preocupante e perguntou se eu precisava de ajuda. Ela me emprestou livros e, durante alguns meses, leu as minhas redações com uma atenção especial. As notas voltaram a subir, e com elas a minha confiança.\n\nAnos depois, decidi cursar Letras na universidade. Quando contei aos meus pais, eles acharam a escolha preocupante, porque temiam que eu não conseguisse emprego. Cursei os 4 anos com prazer e, em seguida, fiz uma especialização em literatura brasileira. Na especialização, escrevi um trabalho sobre os personagens canalhas dos nossos romances, uma homenagem silenciosa àquela aula de dona Helena.\n\nHoje também sou professor. Quando um aluno me diz que não gosta de ler, não falo de regras nem de obrigações. Leio em voz alta o primeiro capítulo e paro no ponto mais interessante.\n\nPerguntas:\nO que o narrador pensava dos livros aos 15 anos?\nEle achava que os livros eram uma imposição da escola, uma tarefa que cumpria sem vontade.\nComo dona Helena ministrava as aulas?\nEla começava pelas histórias: lia o primeiro capítulo de um romance e parava no ponto mais interessante.\nO que os personagens fictícios nos permitem, segundo ela?\nEles nos permitem conhecer pessoas que não gostaríamos de ter por perto na vida real.\nPor que, para dona Helena, era importante pontuar bem?\nPorque uma vírgula fora do lugar pode mudar o sentido de uma frase, e pontuar é pensar no leitor.\nO que ela fez quando as notas do narrador caíram?\nDisse que a situação era preocupante, perguntou se ele precisava de ajuda e leu as suas redações com atenção especial.\nO que o narrador fez depois de cursar Letras?\nEle fez uma especialização em literatura brasileira e, hoje, também é professor."
+    },
+    {
+      "title": "Uma foto na gaveta",
+      "summary": "Under a silk handkerchief in a drawer the narrator finds her parents' engagement photo, and her mother tells the story of the dress, the handkerchief and the single carnation.",
+      "newWords": [
+        "lenço",
+        "estilista",
+        "manchar",
+        "presentear",
+        "cravo",
+        "malha",
+        "cândido",
+        "artefato",
+        "deletar"
+      ],
+      "text": "Na semana passada, ajudando minha mãe a arrumar o quarto, encontrei uma fotografia no fundo de uma gaveta, embaixo de um lenço de seda dobrado. Era uma foto em preto e branco, com as bordas amarelas. Nela, uma moça de uns 20 anos sorria ao lado de um rapaz de terno. Demorei alguns segundos para reconhecer os meus pais e fiquei emocionada.\n\nA foto estava manchada num dos cantos, como se alguém tivesse derrubado café sobre ela muitos anos antes. A parte manchada não chegava ao rosto de ninguém. Levei a fotografia até a cozinha, onde minha mãe preparava o almoço, e perguntei sobre ela. Minha mãe colocou os óculos e ficou um longo tempo em silêncio.\n\nA foto tinha sido tirada no dia do noivado deles, em 1968, no Rio de Janeiro. Naquela época, minha mãe fazia vestidos para uma estilista conhecida, que criava modelos para as senhoras ricas de Copacabana. O vestido da foto, contou minha mãe, tinha sido um presente. A estilista a presenteou com o tecido e com o desenho, e minha mãe fez o vestido à noite, depois do trabalho.\n\nPerguntei pelo lenço. Minha mãe sorriu: o lenço tinha sido do meu pai. Na foto, ele usa o lenço no bolso e um cravo branco no peito. O cravo, disse ela, foi comprado na última hora, numa banca de flores perto da igreja. Meu pai queria presenteá-la com um buquê de cravos, mas só tinha dinheiro para um. Então prendeu o único cravo no próprio terno e disse que aquele cravo era para ela. Ela guardou o lenço quando ele morreu, e a foto acabou ficando embaixo dele, na mesma gaveta.\n\nOlhei de novo para a foto. O rapaz tinha um sorriso cândido, quase infantil, de quem ainda não conhecia as preocupações da vida adulta. Eu só conheci meu pai já mais velho, sério e cansado; aquele sorriso cândido era novo para mim. Minha mãe vestia, sobre o vestido, uma malha leve, porque fazia frio naquela noite. Ela se lembrava até da cor da malha: era azul.\n\nHoje tiramos dezenas de fotos por dia com o celular, e quase todas são deletadas sem que ninguém as olhe duas vezes. Uma foto ruim pode ser deletada em um segundo. Naquela época, cada fotografia custava dinheiro e era tirada com cuidado, porque não havia como deletar nada. Por isso, uma foto antiga é quase um artefato, como os objetos que os museus guardam: um artefato que mostra como as pessoas viviam, se vestiam e se amavam.\n\nMinha mãe me pediu que mandasse fazer uma cópia sem a mancha, se fosse possível. Um técnico removeu a mancha no computador, e a cópia ficou perfeita. Mesmo assim, minha mãe guardou de volta na gaveta a original, manchada, embaixo do lenço.\n\nPerguntas:\nOnde a narradora encontrou a fotografia?\nEla a encontrou no fundo de uma gaveta, embaixo de um lenço de seda.\nEm que estado estava a foto?\nEstava manchada num dos cantos, como se alguém tivesse derrubado café sobre ela.\nQuem presenteou a mãe com o tecido do vestido?\nA estilista para quem ela trabalhava a presenteou com o tecido e com o desenho.\nPor que o pai usava um único cravo no peito?\nPorque queria presentear a noiva com um buquê de cravos, mas só tinha dinheiro para um.\nComo era o sorriso do pai na foto?\nEra um sorriso cândido, quase infantil, que a narradora não conhecia.\nPor que, segundo a narradora, uma foto antiga é quase um artefato?\nPorque, como os objetos dos museus, ela mostra como as pessoas viviam, se vestiam e se amavam."
+    },
+    {
+      "title": "A viagem aos Andes",
+      "summary": "At 20 the narrator travels with a friend by bus and train through Bolivia to Chile, learns how a volcano erupts, breaks his wrist on his first ski lesson and discovers his own vulnerability.",
+      "newWords": [
+        "esqui",
+        "pouso",
+        "fratura",
+        "vulnerabilidade",
+        "erupção",
+        "boliviano",
+        "desconfortável",
+        "praticante",
+        "extremidade"
+      ],
+      "text": "Em julho de 1989, quando eu tinha 20 anos, fiz com meu amigo Rodrigo a viagem mais longa da minha juventude. Saímos de São Paulo de ônibus, atravessamos a Bolívia de trem e chegamos ao Chile 12 dias depois. Tínhamos pouco dinheiro, duas mochilas e uma certeza: nada de mal podia nos acontecer.\n\nO trem boliviano andava devagar entre as montanhas, e cada trecho durava horas. Numa dessas horas, conhecemos Ernesto, um professor boliviano que voltava para casa depois de visitar a família. Pela janela, ele nos mostrou um vulcão coberto de neve e explicou como acontece uma erupção: a pressão vai se acumulando dentro da montanha durante anos, até que a rocha líquida encontra uma saída e sobe à superfície. A última erupção daquele vulcão, contou, tinha acontecido muito antes de ele nascer, mas os mais velhos ainda falavam dela como de um fato recente.\n\nEm Santiago, decidimos subir a uma estação de esqui. Rodrigo era um praticante dedicado de esportes de aventura e já tinha feito uma aula de esqui na Argentina. Eu nunca tinha visto neve. Um instrutor chileno nos deu uma aula. Ele explicou que um bom praticante de esqui mantém os joelhos dobrados e o peso do corpo para a frente, e que, ao perder o controle, deve cair de lado. Eu ouvi tudo, mas não fiz nada do que ele disse. Na terceira descida, ganhei velocidade demais e caí sobre o braço esquerdo.\n\nNo hospital, o médico confirmou: era uma fratura no pulso, na extremidade do osso, perto da mão. Ele explicou que esse tipo de fratura é comum entre quem começa no esqui, porque o instinto nos manda apoiar a mão quando caímos. Para quem está aprendendo, disse, a extremidade do braço é a parte que mais sofre. Saí de lá com o braço no gesso.\n\nO resto da viagem foi desconfortável. O gesso pesava e não me deixava dormir direito. No ônibus, cada buraco da estrada me lembrava da fratura. Mas o mais desconfortável não era a dor. Era perceber, pela primeira vez, a minha própria vulnerabilidade. Aos 20 anos, eu me considerava forte, livre e protegido de tudo. Uma única queda bastou para mostrar o contrário. Essa vulnerabilidade, que naquele momento me pareceu uma vergonha, foi talvez a coisa mais importante que trouxe da viagem.\n\nVoltamos de avião de Santiago para São Paulo, porque minha mãe insistiu e pagou as passagens. Durante o pouso, o avião balançou um pouco, e eu segurei o braço contra o peito. Depois do pouso, vi minha mãe no aeroporto, com os olhos vermelhos de quem tinha chorado.\n\nHoje, mais de 30 anos depois, Rodrigo e eu ainda falamos daquela viagem. Ele lembra das montanhas e de Ernesto; eu lembro do gesso. Nós dois temos razão.\n\nPerguntas:\nComo o narrador e Rodrigo chegaram ao Chile?\nEles saíram de São Paulo de ônibus, atravessaram a Bolívia de trem e chegaram ao Chile 12 dias depois.\nQuem era Ernesto?\nEra um professor boliviano que eles conheceram no trem.\nComo Ernesto explicou uma erupção?\nEle disse que a pressão se acumula dentro da montanha durante anos, até que a rocha líquida encontra uma saída e sobe à superfície.\nO que aconteceu na aula de esqui?\nO narrador ganhou velocidade demais, caiu sobre o braço e teve uma fratura no pulso, na extremidade do osso.\nPor que o resto da viagem foi desconfortável?\nPorque o gesso pesava e não o deixava dormir, e porque ele percebeu a sua própria vulnerabilidade.\nQuem estava esperando o narrador depois do pouso?\nA mãe dele estava esperando no aeroporto."
+    },
+    {
+      "title": "O maestro do coral",
+      "summary": "A shy boy joins the school choir, whose conductor records every rehearsal on a tape recorder, teaches that choral singing is collaborative and sends a recording to a festival where the choir is cheered.",
+      "newWords": [
+        "maestro",
+        "ensaiar",
+        "aclamar",
+        "gravador",
+        "colaborativo",
+        "submissão",
+        "linear",
+        "evidentemente"
+      ],
+      "text": "Aos 13 anos, entrei no coral da minha escola, no Recife. Não foi por amor à música, mas porque eu era tímido: no coral, eu podia cantar sem que ninguém ouvisse a minha voz sozinha. O coral era dirigido pelo maestro Augusto, um senhor magro, de óculos redondos.\n\nO coral ensaiava duas vezes por semana, depois das aulas, numa sala pequena e quente. O maestro levava sempre um gravador de fitas, que colocava sobre o piano no começo de cada ensaio. Depois de ensaiar uma música, ele apertava um botão e nos fazia ouvir a gravação. No começo, eu detestava esse momento. No gravador, as nossas vozes soavam diferentes, e os erros, que durante o canto passavam despercebidos, ficavam evidentes. \"O gravador não mente\", dizia o maestro. \"Vocês precisam ouvir o que o público ouve.\"\n\nO maestro Augusto tinha uma convicção: cantar num coral é um trabalho colaborativo. Ninguém é estrela, e ninguém pode ficar de fora. Quando um grupo de vozes errava, ele não procurava culpados; pedia que os colegas ao lado ajudassem. \"Num trabalho colaborativo, quem acerta puxa quem erra\", explicava. Para um menino tímido como eu, essa regra foi um alívio.\n\nNo segundo ano, o maestro anunciou que queria inscrever o coral num festival de corais escolares. Para participar, era preciso enviar uma gravação até o fim de maio. Durante 2 meses, ensaiamos quase todos os dias. O maestro nos avisou que o progresso de um coral não é linear: há semanas em que tudo melhora e semanas em que parece que voltamos ao começo. Ele tinha razão. Em abril, cantamos pior do que em março, e alguns colegas quiseram desistir. O maestro repetiu que o caminho não era linear, mas que, no fim, sempre subia.\n\nA submissão da gravação foi feita no último dia do prazo. Quando chegou a carta informando que a submissão tinha sido aceita e que tínhamos sido escolhidos para cantar na final, a sala de ensaio virou uma festa.\n\nA final aconteceu num teatro grande, com mais de 500 pessoas. Evidentemente, estávamos todos nervosos. Antes de subirmos ao palco, o maestro reuniu o grupo e disse apenas: \"Cantem como no ensaio. Vocês já ensaiaram tudo o que precisavam.\" Cantamos 3 músicas. Quando terminamos, o público se levantou e aplaudiu durante quase um minuto. Fomos aclamados como um coral profissional. Não ganhamos o primeiro lugar, evidentemente; ficamos em quarto. Mas a sensação de ser aclamado por um teatro inteiro, ao lado dos meus colegas, valeu mais do que qualquer prêmio.\n\nMuitos anos depois, encontrei numa caixa a fita daquela final, com a letra do maestro na etiqueta. Já não tenho um gravador para ouvi-la. Guardo a fita mesmo assim, porque me lembro de cada nota.\n\nPerguntas:\nPor que o narrador entrou no coral?\nPorque era tímido, e no coral ninguém ouvia a sua voz sozinha.\nPara que o maestro usava o gravador?\nEle gravava os ensaios e fazia o coral ouvir a gravação, para que todos percebessem os erros.\nPor que o maestro dizia que o coral era um trabalho colaborativo?\nPorque ninguém era estrela, e quem acertava ajudava quem errava.\nO que o maestro disse sobre o progresso do coral?\nDisse que o progresso não é linear: há semanas boas e semanas em que parece que se volta ao começo.\nQuando foi feita a submissão da gravação?\nFoi feita no último dia do prazo, e depois chegou uma carta dizendo que tinha sido aceita.\nComo o público reagiu na final?\nO público se levantou, aplaudiu durante quase um minuto e o coral foi aclamado."
+    },
+    {
+      "title": "O meu avô prefeito",
+      "summary": "The narrator remembers his grandfather, twice-elected mayor of a lakeside town in Goiás: his idea of patriotism, his fight to legalise families' land, the night a lightning strike cut the power, and their weekends at the boat club.",
+      "newWords": [
+        "reeleger",
+        "patriota",
+        "liminar",
+        "legalizar",
+        "reparação",
+        "náutico",
+        "descarga",
+        "suprir",
+        "indiretamente",
+        "dominação"
+      ],
+      "text": "Meu avô Joaquim foi prefeito de uma pequena cidade às margens de um lago, no interior de Goiás. Foi eleito pela primeira vez nos anos 70 e reeleito mais tarde, com quase todos os votos da cidade. Quando alguém lhe perguntava o segredo para ser reeleito, ele respondia: \"Atender o telefone.\"\n\nMeu avô era um patriota à moda antiga. Todas as manhãs, levantava a bandeira na frente da prefeitura, e gostava de contar aos netos a história do país, desde os séculos de dominação portuguesa. Dizia que a independência tinha posto fim à dominação estrangeira, mas que cada geração precisava defender a liberdade outra vez. Para ele, ser patriota não era gritar o nome do país, mas cuidar do lugar onde se vive. \"Um patriota de verdade conserta a calçada da própria rua\", dizia.\n\nDurante o seu governo, o maior problema da cidade era a situação das famílias que moravam perto do lago. Muitas tinham construído as suas casas em terrenos sem documento, e uma empresa dizia ser dona da área. Meu avô passou anos tentando legalizar aqueles terrenos. Legalizar uma casa, ele me explicou, é dar ao morador um papel que diz: isto é seu, e ninguém pode tirar. Quando a empresa tentou retirar as famílias, um juiz concedeu uma liminar que suspendia a retirada até o fim do processo. No dia em que a liminar saiu, meu avô chegou em casa sorrindo. Uma liminar, explicou, não resolve tudo, mas impede que o pior aconteça enquanto a justiça decide. Os terrenos foram legalizados 3 anos depois.\n\nOutra lembrança forte é a de uma tempestade de verão. Um raio caiu sobre a estação de energia, e a descarga elétrica queimou os equipamentos. Uma única descarga deixou a cidade inteira dois dias sem luz. Meu avô não dormiu. Organizou caminhões para suprir de água os bairros mais altos, onde as bombas não funcionavam sem energia, e pediu geradores à capital para suprir o hospital. Depois da tempestade, cuidou pessoalmente da reparação da estação e da ponte, que também tinha sido danificada. A reparação levou semanas.\n\nNos fins de semana, porém, o prefeito descansava. Íamos juntos ao clube náutico do lago, onde ele guardava um pequeno barco. Ele tinha sido um dos fundadores do clube náutico e gostava de dizer que o lago era a praia de quem vive longe do mar. Foi ali, no barco dele, que aprendi a pescar.\n\nMeu avô nunca me deu aulas de política. Indiretamente, porém, ensinou-me muito. Foi indiretamente, observando os seus dias, que aprendi que governar é, em grande parte, resolver problemas pequenos e concretos: uma ponte, uma bomba de água, um papel com o nome de uma família.\n\nPerguntas:\nQuantas vezes o avô do narrador foi eleito prefeito?\nEle foi eleito duas vezes: a primeira nos anos 70 e, mais tarde, foi reeleito.\nO que significava, para o avô, ser patriota?\nSignificava cuidar do lugar onde se vive, e não apenas gritar o nome do país.\nPor que o avô queria legalizar os terrenos perto do lago?\nPorque as famílias moravam em terrenos sem documento, e uma empresa dizia ser dona da área.\nO que a liminar do juiz fez?\nEla suspendeu a retirada das famílias até o fim do processo.\nO que aconteceu durante a tempestade?\nUm raio caiu sobre a estação de energia, e a descarga elétrica deixou a cidade dois dias sem luz.\nO que o narrador aprendeu indiretamente com o avô?\nAprendeu que governar é, em grande parte, resolver problemas pequenos e concretos."
+    },
+    {
+      "title": "Meu irmão mais velho",
+      "summary": "The narrator remembers his older brother: top scorer of the street team, a fierce competitor, the planner of water-balloon ambushes, the builder of a living-room boxing ring, a manga reader and the maker of huge sandwiches.",
+      "newWords": [
+        "emboscada",
+        "mangá",
+        "ringue",
+        "detonar",
+        "competidor",
+        "artilheiro",
+        "hélio",
+        "sanduíche",
+        "faminto"
+      ],
+      "text": "Meu irmão Marcelo é 4 anos mais velho do que eu. Durante a nossa infância, num apartamento pequeno de Belo Horizonte, ele foi ao mesmo tempo o meu herói, o meu professor e o meu maior adversário. Eu o seguia por toda parte, e ele, quase sempre, me deixava seguir.\n\nMarcelo era o artilheiro do time da nossa rua. Nos campeonatos entre as ruas do bairro, foi o artilheiro por 3 anos seguidos, com gols que os vizinhos comentavam durante semanas. Eu jogava no gol, não por talento, mas porque ninguém mais queria. Mesmo assim, ele dizia a todos que metade dos gols do artilheiro era mérito do goleiro, que impedia os gols do outro time. Eu nunca entendi bem a lógica, mas adorava ouvir.\n\nEle era também um competidor feroz. Transformava qualquer coisa em competição: quem comia mais rápido, quem subia a escada primeiro, quem ficava mais tempo sem piscar. Como competidor, não aceitava perder, mas também não aceitava que eu perdesse de propósito para agradá-lo. \"Ganhar assim não vale\", reclamava.\n\nNas tardes de calor, organizávamos emboscadas com balões de água contra os nossos primos. Marcelo planejava cada emboscada como um general: um de nós ficava escondido detrás do muro do prédio, enquanto o outro levava os primos até ali. A emboscada quase sempre terminava com todos molhados, inclusive nós dois.\n\nDepois de assistir a lutas de boxe na televisão com o nosso pai, Marcelo montou um ringue na sala. O ringue era feito de almofadas no chão e de uma corda amarrada entre 4 cadeiras. Lutávamos de brincadeira, com luvas de cozinha, até nossa mãe chegar e desmontar tudo.\n\nAos 12 anos, ele descobriu os mangás, as histórias em quadrinhos japonesas que se leem da direita para a esquerda. Gastava todo o dinheiro que ganhava em mangás e passava horas copiando os desenhos. Foi por causa dos mangás que decidiu ser desenhista, a profissão que tem até hoje.\n\nNo meu aniversário de 7 anos, ganhei um balão de hélio, prateado e brilhante. Sem querer, soltei o fio, e o balão subiu até desaparecer no céu. Chorei muito. Para me consolar, Marcelo explicou que o hélio é um gás mais leve do que o ar e que, por isso, o balão não ia cair: ia continuar subindo, talvez até as nuvens. Aquela explicação sobre o hélio, dada por um menino de 11 anos, me consolou mais do que qualquer abraço.\n\nQuando voltávamos da rua, famintos, ele preparava sanduíches enormes de pão, queijo e tudo o que houvesse na geladeira. Comíamos os sanduíches em pé, ainda suados. Um dia, nossa mãe abriu a geladeira vazia e disse: \"Vocês detonaram tudo!\" Na língua dela, detonar queria dizer comer até não sobrar nada. Desde então, sempre que estamos famintos, Marcelo pergunta: \"Vamos detonar uns sanduíches?\"\n\nPerguntas:\nEm que Marcelo se destacava no futebol da rua?\nEle era o artilheiro do time e foi o artilheiro dos campeonatos do bairro por 3 anos seguidos.\nQue tipo de competidor Marcelo era?\nEra um competidor feroz, que não aceitava perder nem ganhar quando o irmão perdia de propósito.\nComo os irmãos faziam as emboscadas?\nUm ficava escondido detrás do muro do prédio, enquanto o outro levava os primos até ali.\nDe que era feito o ringue da sala?\nEra feito de almofadas no chão e de uma corda amarrada entre 4 cadeiras.\nComo Marcelo consolou o irmão quando o balão de hélio subiu?\nEle explicou que o hélio é mais leve do que o ar e que o balão ia continuar subindo.\nO que significava \"detonar\" na língua da mãe?\nSignificava comer até não sobrar nada."
+    },
+    {
+      "title": "Minha mãe, enfermeira",
+      "summary": "The narrator remembers how his mother, a nurse in a kidney unit, brought the hospital's lessons home: soap and toothbrushes, worms and bare feet, finishing antibiotics, and how the kidneys filter the blood.",
+      "newWords": [
+        "renal",
+        "sódio",
+        "filtrar",
+        "contrair",
+        "verme",
+        "antibiótico",
+        "imune",
+        "escova",
+        "sabão"
+      ],
+      "text": "Minha mãe trabalhou como enfermeira durante 35 anos num hospital público de Fortaleza. Passou a maior parte desse tempo na unidade renal, onde cuidava de pacientes com doenças nos rins. Ela quase não falava do trabalho, mas o hospital estava presente na nossa casa, sobretudo nas regras de higiene.\n\nA primeira regra era o sabão. Ao chegar da rua, todos tinham de lavar as mãos com água e sabão, contando até 20. Minha mãe explicava que o sabão não tira apenas o que vemos, mas também o que não vemos. A segunda regra era a escova de dentes. Cada um tinha a sua, de uma cor diferente, e ninguém podia usar a escova de outra pessoa.\n\nTambém aprendemos cedo a não andar sem sapatos no quintal. Minha mãe contava que muitas crianças que ela tinha atendido no começo da carreira haviam contraído vermes brincando na terra sem sapatos. Explicava que certos vermes entram pela pele dos pés e se instalam no corpo. \"Contrair vermes é fácil\", dizia. \"Difícil é se livrar deles.\"\n\nQuando eu tinha uns 10 anos, tive uma infecção na garganta, e o médico me deu um antibiótico. Depois de 3 dias, eu já me sentia bem e quis parar o remédio. Minha mãe não deixou. Explicou que o antibiótico mata as bactérias aos poucos e que as mais resistentes são as últimas a morrer. Se o tratamento for interrompido no meio, essas bactérias sobrevivem e se multiplicam, e da próxima vez o antibiótico pode não funcionar.\n\nFoi também minha mãe quem me explicou, um dia, o que eram os rins. Desenhou dois feijões num papel e disse que eles funcionam como filtros: os rins filtram o sangue o tempo todo, retirando o que o corpo não quer e devolvendo o que ainda é útil. Quando os rins param de filtrar, os pacientes precisam de uma máquina que faça esse trabalho, e era dessas pessoas que ela cuidava na unidade renal. Muitos desses pacientes, contava, tinham comido sal demais durante a vida. O excesso de sódio obriga o corpo a trabalhar mais e, com os anos, cansa os rins. Por isso, na nossa casa, a comida tinha pouco sal. Meu pai reclamava, mas ela não mudava: \"O sódio não perdoa\", dizia.\n\nNo hospital, os colegas dela brincavam que ela era imune à gripe, porque nunca faltava ao trabalho. Ela ria e dizia que ninguém é imune a nada; é tudo uma questão de lavar as mãos.\n\nHoje ela está aposentada, mas continua a mesma. Quando a visito, a primeira coisa que ouço, antes mesmo de um abraço, é a pergunta de sempre: \"Já lavou as mãos?\"\n\nPerguntas:\nOnde a mãe do narrador trabalhou durante a maior parte da carreira?\nEla trabalhou na unidade renal de um hospital público de Fortaleza.\nQuais eram as duas primeiras regras de higiene da casa?\nLavar as mãos com água e sabão ao chegar da rua e não usar a escova de dentes de outra pessoa.\nPor que as crianças não podiam andar sem sapatos no quintal?\nPorque podiam contrair vermes que entram pela pele dos pés.\nPor que a mãe não deixou o narrador parar o antibiótico?\nPorque, se o tratamento for interrompido, as bactérias mais resistentes sobrevivem e o antibiótico pode não funcionar da próxima vez.\nComo funcionam os rins, segundo a mãe?\nEles funcionam como filtros: filtram o sangue, retirando o que o corpo não quer e devolvendo o que é útil.\nPor que a comida da casa tinha pouco sal?\nPorque o excesso de sódio obriga o corpo a trabalhar mais e, com os anos, cansa os rins."
+    }
+  ]
+}
