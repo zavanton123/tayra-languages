@@ -34,8 +34,16 @@ sealed interface Route {
     @Serializable
     data class EditTerm(val termId: Long) : Route
 
+    /** The term with this text, or a new one for it. */
+    @Serializable
+    data class EditTermByText(val languageId: Long, val text: String) : Route
+
     @Serializable
     data object NewTerm : Route
+
+    /** The most common words of the language being learned, by how often they are used. */
+    @Serializable
+    data object WordFrequency : Route
 
     @Serializable
     data class Examples(val languageId: Long, val text: String) : Route

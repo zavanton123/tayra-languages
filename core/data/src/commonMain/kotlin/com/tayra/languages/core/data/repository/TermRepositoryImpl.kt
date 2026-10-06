@@ -67,6 +67,12 @@ class TermRepositoryImpl(
         db().termsQueries.selectMultiword(languageId).awaitAsList().map { MultiwordTerm(it.id, it.text_lc, it.token_count.toInt()) }
     }
 
+    override fun observeWordStatuses(languageId: Long): Flow<Map<String, TermStatus>> = flow {
+        db().termsQueries.selectWordStatuses(languageId).asFlow().mapToList(databaseDispatcher).collect { rows ->
+            emit(rows.associate { it.text_lc to (TermStatus.fromValueOrNull(it.status.toInt()) ?: TermStatus.UNKNOWN) })
+        }
+    }
+
     override suspend fun save(term: Term): Long = withContext(databaseDispatcher) {
         val database = db()
         database.transactionWithResult { saveInTransaction(database, term) }

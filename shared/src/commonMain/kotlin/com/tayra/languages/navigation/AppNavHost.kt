@@ -2,6 +2,7 @@ package com.tayra.languages.navigation
 
 import com.tayra.languages.feature.courses.coursesGraph
 import com.tayra.languages.feature.flashcards.flashcardsGraph
+import com.tayra.languages.feature.frequency.frequencyGraph
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
@@ -22,6 +23,7 @@ fun AppNavHost() {
         languagesGraph(navController)
         termsGraph(navController)
         flashcardsGraph(navController)
+        frequencyGraph(navController)
         readingGraph(navController)
         settingsGraph(navController)
         statsGraph(navController)

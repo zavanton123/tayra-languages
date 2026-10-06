@@ -147,6 +147,21 @@ Android, iOS and desktop unpack a downloaded pack into app storage and open it r
 second SQLDelight database; the web build keeps the compressed file in the browser Cache API and
 inflates it in its own sql.js worker, which needs the pack host to allow cross-origin requests.
 
+## Word frequency lists
+
+The Word frequency screen (feature/frequency) shows the 10,000 most common words of a language,
+bundled as `feature/frequency/src/commonMain/composeResources/files/frequency/<code>.tsv`: one
+dictionary word per line, most common first, with the forms counted for it after a tab. Only
+Portuguese has a list so far.
+
+`tools/build_frequency_list.py --language <code>` makes a list. Counts come from wordfreq
+(`pip install wordfreq`), or for languages it lacks, from FrequencyWords and then the Leipzig
+Corpora Collection (downloads cached in `dictionaries/frequency-sources`); `--source` forces
+one. Forms are grouped under their dictionary words with the forms table of the language's
+`dictionaries/<code>-en.sqlite` pack, and the script's per-language `OVERRIDES` and `EXCLUDE`
+fix the cases the dictionary gets wrong (contractions, names). A word's status on the screen is
+its own term's, or else the furthest status among its forms the reader has saved.
+
 ## Platform notes
 
 - Term pronunciation uses the platform speech engine: Android `TextToSpeech`,

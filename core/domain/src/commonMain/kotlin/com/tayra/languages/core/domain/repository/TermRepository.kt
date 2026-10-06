@@ -39,6 +39,8 @@ interface TermRepository {
     suspend fun findByTextLc(languageId: Long, textLc: String): Term?
     suspend fun findByTextLcs(languageId: Long, textLcs: Collection<String>): List<Term>
     suspend fun multiwordTerms(languageId: Long): List<MultiwordTerm>
+    /** The status of every single-word term of the language, by lowercase text, kept up to date. */
+    fun observeWordStatuses(languageId: Long): Flow<Map<String, TermStatus>>
 
     /** Inserts or updates the term and its flash message. Returns the id. */
     suspend fun save(term: Term): Long
