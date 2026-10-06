@@ -22,12 +22,28 @@ story; a lesson never needs another lesson to make sense.
 - **Plain narration**: third person, short sentences, one idea per sentence, common word order.
   Present tense up to rank 500; from rank 600 the story may be told in the simple past
   (pretérito perfeito / imperfeito). Little dialogue; when there is some, short and simple.
+- **Growing difficulty after rank 1000**: the stories stay standalone, everyday and free of
+  twists, but sentences get longer and joined (relative clauses, *porque*, *quando*, *embora*,
+  *no entanto*, *portanto*), dialogue can carry more of the story, and a story may be told by a
+  first-person narrator or as an e-mail or diary entry. Grammar grows with the bands, each band
+  using what came before:
+  - ranks 1001–1300: all the past tenses with the perfeito/imperfeito contrast, the pretérito
+    perfeito composto (*tenho trabalhado*), the future (*vou fazer*, *farei*) and the conditional
+    (*faria*), relative clauses with *que*, *onde*, *quem*;
+  - ranks 1301–1600: the present subjunctive (*quero que você venha*, *é importante que*,
+    *embora seja*), commands, reported speech (*ela disse que estava cansada*), the passive
+    (*a casa foi construída*);
+  - ranks 1601–2000: the imperfect and future subjunctive (*se eu tivesse tempo*, *quando ele
+    chegar*), conditional sentences, the pluperfect (*tinha saído*), the personal infinitive
+    (*para eles entenderem*).
+  Still one clear idea at a time: a learner at the level should follow every sentence on first
+  reading.
 - **Repetition on purpose**: repeat key words and phrases the way a teacher would — the new words
   three times or more where it reads naturally, the story's key sentence pattern several times
   (*Ele procura na cozinha. Ele procura no quarto. Ele procura na sala.*).
 - **Questions at the end**: after the story, a paragraph starting `Perguntas:` with 4–6 simple
   questions about the story, each followed on its own line by a full-sentence answer that reuses
-  the story's words:
+  the story's words (after rank 1000 they may also ask why and how, with fuller answers):
 
   ```
   Perguntas:
@@ -67,7 +83,7 @@ Write `tools/courses/pt/<id>.json`:
 }
 ```
 
-Levels: up to rank 300 `A1`, up to 1000 `A2`.
+Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`.
 
 ## The rules, checked by `python3 tools/check_course.py tools/courses/pt/<id>.json`
 
@@ -78,7 +94,7 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`.
 - **New words**: each is in the course's band, introduced once in the course, and used at least
   twice in its lesson (any form counts: *disse* for *dizer*). Reuse earlier lessons' new words too.
 - **Length** (story and questions together): 80–180 words per lesson in the first course,
-  120–240 up to rank 300, 180–320 up to 600, 220–380 after.
+  120–240 up to rank 300, 180–320 up to 600, 220–380 up to 1000, 260–450 after.
 - **Coverage of the band**: aim to teach at least 90 of the 100 words. Skip a word that is not
   worth a lesson (a letter, an abbreviation, a vulgar word, a list error such as a plural or a
   name); the checker's last line lists the band words not taught yet.

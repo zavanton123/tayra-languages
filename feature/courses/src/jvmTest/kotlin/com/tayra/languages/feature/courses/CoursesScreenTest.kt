@@ -80,7 +80,7 @@ class CoursesScreenTest {
         System.getenv(env)?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
     }
 
-    private val ids = (100..1000 step 100).map { "pt-mini-" + it.toString().padStart(4, '0') }
+    private val ids = (100..2000 step 100).map { "pt-mini-" + it.toString().padStart(4, '0') }
 
     private fun ComposeUiTest.shown(): List<String> =
         ids.filter { onAllNodesWithTag("course-$it").fetchSemanticsNodes().isNotEmpty() }
@@ -93,7 +93,7 @@ class CoursesScreenTest {
             val state by viewModel.state.collectAsState()
             if (!state.loading) CoursesContent(state, viewModel::setSearch, viewModel::setLevel, viewModel::setStatus, onOpen = { opened += it })
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("10 courses").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("20 courses").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(ids.take(2), shown().take(2), "in the order of their ranks")
         onNodeWithText("Guided Portuguese lessons to read, level by level.").assertExists()
         save("COURSES_SCREENSHOT")
@@ -103,7 +103,7 @@ class CoursesScreenTest {
         waitUntil(timeoutMillis = 5_000) { shown() == listOf("pt-mini-0800") }
         onNodeWithText("1 course").assertExists()
         onNodeWithTag("course-search").performTextClearance()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("10 courses").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("20 courses").fetchSemanticsNodes().isNotEmpty() }
 
         onNodeWithText("All levels").performClick()
         onNodeWithText("A1 · Beginner").performClick()
@@ -111,7 +111,7 @@ class CoursesScreenTest {
         onNodeWithText("3 courses").assertExists()
         onNodeWithText("A1 · Beginner").performClick()
         onNodeWithText("All levels").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("10 courses").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("20 courses").fetchSemanticsNodes().isNotEmpty() }
 
         // Nothing is started yet, so "In progress" leaves no course.
         onNodeWithText("Any progress").performClick()
@@ -119,7 +119,7 @@ class CoursesScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No courses match").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("In progress").performClick()
         onNodeWithText("Not started").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("10 courses").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("20 courses").fetchSemanticsNodes().isNotEmpty() }
 
         onNodeWithTag("course-pt-mini-0200").performClick()
         assertEquals(listOf("pt-mini-0200"), opened)

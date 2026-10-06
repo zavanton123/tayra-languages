@@ -10,7 +10,7 @@ class BundledSampleCoursesTest {
     @Test
     fun thePortugueseCoursesAreBundled() = runBlocking {
         val courses = BundledSampleCourses().courses("pt")
-        assertEquals((100..1000 step 100).toList(), courses.map { it.rankUpTo })
+        assertEquals((100..2000 step 100).toList(), courses.map { it.rankUpTo })
         courses.forEach { course ->
             assertTrue(course.id.startsWith("pt-mini-") && course.lessons.size == 10, course.id)
             assertTrue(course.lessons.all { it.newWords.isNotEmpty() && it.text.isNotBlank() }, course.id)
