@@ -1,0 +1,213 @@
+{
+  "id": "pt-mini-3500",
+  "rankUpTo": 3500,
+  "level": "B2",
+  "title": "Tecnologia e sociedade",
+  "description": "Ten calm texts on technology in everyday life: artificial intelligence at the office, privacy on social networks, a week without a phone, a library teaching coding, online scams explained, a grandmother's first smartphone class, old phones and electronic waste, a youth robot contest, a video consultation on a farm and a square redesigned with residents' online help.",
+  "topic": "Technology and society",
+  "names": [
+    "Brasil",
+    "Curitiba",
+    "São",
+    "Paulo",
+    "Sérgio",
+    "Lúcia",
+    "Fernanda",
+    "Lopes",
+    "Ramos",
+    "Beatriz",
+    "Bia",
+    "Davi",
+    "Minas",
+    "Gerais",
+    "Bento",
+    "Santa",
+    "Rita",
+    "Neusa",
+    "Luana",
+    "Caio",
+    "Albertina",
+    "Clara",
+    "Juliana",
+    "Lagoa",
+    "Tiago",
+    "Júlia",
+    "Marcos",
+    "Recife",
+    "Ernesto",
+    "Antônio",
+    "Goiás",
+    "Marta",
+    "Helena",
+    "Cláudia",
+    "Moreira",
+    "Porto",
+    "Alegre",
+    "Rio",
+    "Grande",
+    "Sul"
+  ],
+  "lessons": [
+    {
+      "title": "Uma nova colega no escritório",
+      "summary": "An office worker tells how her company brought in artificial intelligence, and how fear of losing jobs turned into calm.",
+      "newWords": [
+        "artificial",
+        "consultor",
+        "diretoria",
+        "matriz",
+        "despedir",
+        "substituição",
+        "aconselhar",
+        "trabalhista",
+        "patrão"
+      ],
+      "text": "Trabalho há 12 anos no departamento financeiro de uma fábrica de móveis, em Curitiba. É um escritório tranquilo, de mesas cinzentas e janelas largas, onde o barulho mais forte costuma ser o da máquina de café. Por isso, quando a diretoria anunciou, numa segunda-feira de março, que a empresa passaria a usar inteligência artificial, o silêncio da sala ficou ainda mais pesado.\n\nA notícia veio da matriz, em São Paulo. A matriz tinha comprado um programa capaz de organizar tabelas e escrever relatórios em minutos. O Sérgio, meu colega de mesa, disse em voz baixa:\n\n— Pronto. Daqui a pouco a máquina faz o meu trabalho, e eu sou despedido.\n\nNão era só ele que pensava assim. Muitos temiam a substituição das pessoas por um programa. A dona Lúcia, que trabalha conosco há mais de 20 anos, chegou a consultar um advogado trabalhista. O advogado explicou a ela, com paciência, as leis trabalhistas, mas aconselhou que ela esperasse para ver o que a diretoria faria.\n\nNa semana seguinte, a matriz enviou uma consultora, a doutora Fernanda Lopes, para nos apresentar o programa. A consultora reuniu todos na sala de reuniões e falou num tom formal, porém gentil:\n\n— Bom dia a todos. Sei que os senhores estão preocupados. Permitam-me ser clara: este programa não veio para substituir ninguém. A diretoria garantiu que nenhum funcionário será despedido por causa dele.\n\n— Desculpe, doutora — disse o Sérgio —, mas então para que ele serve?\n\n— Serve para fazer as tarefas repetitivas — respondeu a consultora. — A substituição será de tarefas, não de pessoas. Vocês terão mais tempo para atender os clientes.\n\nDepois, ela nos aconselhou a sempre conferir o que o programa escreve. — Uma inteligência artificial pode errar com muita confiança — disse. — Quem decide continua sendo uma pessoa.\n\nÀ tarde, o patrão, o seu Ramos, desceu até o nosso andar, o que quase nunca acontece. O patrão é um senhor de poucas palavras, mas naquele dia parou em cada mesa. Disse a todos que não pretendia trocar ninguém por uma máquina.\n\nPassaram-se 6 meses. Hoje, o programa prepara os relatórios simples, e eu os confiro com atenção. Às vezes encontro erros curiosos: certa vez, a máquina escreveu que tínhamos vendido 3 mil cadeiras num domingo em que a fábrica estava fechada. Rimos muito. A dona Lúcia, que tinha tanto medo, hoje ensina os mais novos.\n\nAprendi, contudo, que o medo diminui quando as pessoas são ouvidas e quando a mudança é explicada com clareza. No fim da semana, quando a consultora se despediu de nós, o Sérgio apertou a mão dela e disse, meio sem graça:\n\n— Obrigado, doutora. A senhora nos tirou um peso das costas.\n\nPerguntas:\nO que a diretoria anunciou numa segunda-feira de março?\nA diretoria anunciou que a empresa passaria a usar inteligência artificial.\nPor que o Sérgio estava preocupado?\nPorque ele achava que a máquina faria o seu trabalho e que ele seria despedido.\nO que o advogado trabalhista aconselhou à dona Lúcia?\nEle aconselhou que ela esperasse para ver o que a diretoria faria.\nSegundo a consultora, qual seria a substituição?\nSeria uma substituição de tarefas, não de pessoas.\nO que o patrão disse aos funcionários?\nEle disse que não pretendia trocar ninguém por uma máquina."
+    },
+    {
+      "title": "Uma tarde de chuva e senhas novas",
+      "summary": "A teenager learns that her data leaked from a games site, and her uncle calmly teaches her about privacy on social networks.",
+      "newWords": [
+        "vazar",
+        "captura",
+        "abusar",
+        "delicado",
+        "besteira",
+        "impulso",
+        "pesadelo",
+        "posicionar",
+        "maduro",
+        "partidário"
+      ],
+      "text": "A Beatriz, que todos chamam de Bia, tem 15 anos e adora as redes sociais. Todas as tardes, ao voltar da escola, ela publica fotos e comentários sobre tudo: o almoço, o cachorro, a prova de matemática. Numa quinta-feira de chuva, porém, ela recebeu uma mensagem que a deixou nervosa. Um site de jogos, onde ela tinha uma conta, avisava que os dados dos usuários tinham vazado. Nomes, endereços e senhas tinham vazado para a internet.\n\n— Que pesadelo! — disse a Bia, com o celular na mão.\n\nEla correu até o tio Davi, que vive no apartamento ao lado e trabalha com segurança de computadores.\n\n— Não é um pesadelo, Bia. É um problema, e problemas têm solução. Primeiro, vamos trocar a sua senha nesse site e em todos os outros onde você usa a mesma senha.\n\nA Bia ficou vermelha. Ela usava a mesma senha em todo lugar.\n\nDepois de trocarem as senhas, o tio aproveitou para conversar sobre um assunto delicado: a privacidade nas redes. Ele abriu o perfil da sobrinha e mostrou que qualquer pessoa podia ver as fotos dela, o nome da escola e até a rua onde ela vive.\n\n— Eu sou partidário dos perfis fechados — disse ele. — Não porque a internet seja um lugar ruim, mas porque nem todo mundo merece ver a sua vida. Há quem abuse da confiança dos jovens. Quem abusa assim costuma juntar pequenas informações, uma de cada vez.\n\nEle também falou da captura de tela.\n\n— Tudo o que você manda pode virar uma captura de tela. Uma mensagem que parece privada pode ser copiada num segundo. Por isso, antes de enviar algo, pergunte a si mesma: eu ficaria tranquila se isso aparecesse para a escola inteira?\n\nA Bia lembrou que, na semana anterior, tinha escrito uma besteira sobre uma professora num grupo de amigas. Tinha sido por impulso, num momento de raiva. Agora, ela imaginava aquela besteira numa captura de tela e sentia vergonha.\n\n— Todo mundo faz besteira — disse o tio, gentil. — Quando vier o impulso de postar com raiva, espere 10 minutos. Na maioria das vezes, o impulso passa.\n\nPor fim, o tio mostrou como posicionar o celular nas fotos tiradas em casa, a fim de que o número do prédio não aparecesse pela janela. — Basta posicionar a câmera para o outro lado — explicou. — A privacidade é um assunto delicado, mas muitas vezes a solução é simples.\n\nNaquela noite, a Bia apagou a mensagem sobre a professora e, no dia seguinte, pediu desculpas a ela. Também fechou o perfil e deixou só os amigos de verdade. A mãe, quando soube de tudo, disse que a filha tinha tomado uma decisão madura. A Bia sorriu. Ela não se sentia tão madura assim, mas se sentia mais segura.\n\nPerguntas:\nO que a mensagem do site de jogos avisava?\nA mensagem avisava que os dados dos usuários tinham vazado para a internet.\nO que o tio Davi fez primeiro?\nEle ajudou a Bia a trocar as senhas.\nDe que tipo de perfil o tio é partidário?\nEle é partidário dos perfis fechados.\nPor que a Bia sentiu vergonha?\nPorque tinha escrito, por impulso, uma besteira sobre uma professora.\nO que a mãe disse sobre a decisão da Bia?\nEla disse que a filha tinha tomado uma decisão madura."
+    },
+    {
+      "title": "Diário de uma semana sem celular",
+      "summary": "A journalist spends a week without her phone at a mountain monastery and keeps a short diary of what she notices.",
+      "newWords": [
+        "passear",
+        "contemplar",
+        "monge",
+        "orar",
+        "sino",
+        "vara",
+        "pátio",
+        "acostumado",
+        "regresso"
+      ],
+      "text": "Domingo, à noite\n\nCheguei hoje a um mosteiro nas montanhas de Minas Gerais. Há alguns anos, os monges daqui passaram a receber visitantes que desejam passar uns dias longe do barulho da cidade. Na entrada, um monge jovem, de voz baixa e passos lentos, pediu o meu celular com educação:\n\n— A senhora o receberá de volta no dia do seu regresso.\n\nEntreguei o aparelho com o coração apertado. Sou jornalista e estou acostumada a responder mensagens até de madrugada. Não sei se vou aguentar.\n\nSegunda-feira\n\nAcordei às 5 horas com o som do sino. O sino toca várias vezes por dia: chama os monges para orar, para comer e para trabalhar. Os visitantes não precisam orar, mas podem assistir em silêncio. Fiquei no fundo da capela, ouvindo os monges orando com vozes graves e calmas. Durante o dia, procurei o celular no bolso umas 20 vezes. A mão vai sozinha, como um hábito antigo.\n\nTerça-feira\n\nHoje passeei a manhã inteira. Há uma trilha que desce até um rio de água escura e fria. Lá encontrei o irmão Bento, um monge de cabelos brancos, sentado numa pedra com uma vara de pescar. Ele me ofereceu outra vara, e ficamos 2 horas sem pegar nenhum peixe. Ele disse que a vara é só uma desculpa para contemplar o rio.\n\n— A senhora já parou para contemplar alguma coisa sem tirar uma foto? — perguntou.\n\nFiquei sem resposta.\n\nQuarta-feira\n\nO mosteiro tem um pátio quadrado, com um poço no meio. À tarde, sentei no pátio e fiquei olhando a luz mudar sobre as pedras. Antes, eu teria fotografado tudo. Hoje apenas contemplei. O silêncio do pátio, que no primeiro dia me incomodava, agora me faz bem.\n\nQuinta-feira\n\nPasseando pelo jardim, conversei com o irmão Bento sobre o meu trabalho. Contei que vivo cansada, sempre atrasada, com a sensação de que estou perdendo alguma notícia. Ele riu baixinho.\n\n— Nós, monges, também estamos acostumados a uma rotina rígida — disse. — A diferença é que a nossa rotina tem pausas. O sino nos lembra de parar.\n\nSexta-feira\n\nHoje não procurei o celular nenhuma vez. Passeamos, eu e outras 2 visitantes, até o alto de um morro, de onde se vê o vale inteiro.\n\nSábado, dia do regresso\n\nRecebi o celular de volta. Havia 312 mensagens. Nada de grave tinha acontecido no mundo sem mim. Na viagem de regresso, tomei uma decisão: vou criar o meu próprio sino. Todos os dias, às 8 da noite, o celular vai ficar desligado. Não sei se vou conseguir sempre, mas quero tentar.\n\nPerguntas:\nOnde a jornalista passou a semana?\nEla passou a semana num mosteiro nas montanhas de Minas Gerais.\nPara que serve o sino do mosteiro?\nO sino chama os monges para orar, para comer e para trabalhar.\nO que o irmão Bento fazia no rio?\nEle estava sentado numa pedra com uma vara de pescar e contemplava o rio.\nSegundo o irmão Bento, qual é a diferença entre a rotina dos monges e a da jornalista?\nA rotina dos monges também é rígida, mas tem pausas.\nQue decisão ela tomou na viagem de regresso?\nEla decidiu criar o seu próprio sino e desligar o celular todos os dias às 8 da noite."
+    },
+    {
+      "title": "A biblioteca que ensina a programar",
+      "summary": "An old neighbourhood library starts a free coding course for teenagers, and a trio of friends builds their first app.",
+      "newWords": [
+        "fundar",
+        "caderno",
+        "juvenil",
+        "semestre",
+        "coordenação",
+        "incentivo",
+        "motivar",
+        "imaginação",
+        "trio"
+      ],
+      "text": "A Biblioteca Santa Rita fica numa casa amarela de esquina, com janelas altas e um jardim pequeno. Ela foi fundada em 1975 por um grupo de moradores que queriam um lugar tranquilo para as crianças estudarem. Durante muitos anos, foi apenas isso: estantes de madeira, mesas compridas e o cheiro doce de papel antigo.\n\nHá 2 anos, porém, a nova coordenação da biblioteca teve uma ideia. A coordenação, formada pela bibliotecária Neusa e por 2 voluntários, decidiu oferecer um curso gratuito de programação para jovens. O curso dura um semestre inteiro e acontece na sala juvenil, um espaço colorido no segundo andar, onde ficam os livros juvenis.\n\n— Nem todo jovem tem computador em casa — explica a Neusa. — Esta biblioteca foi fundada para dar acesso ao conhecimento. Hoje, programar também é conhecimento.\n\nOs computadores vieram de uma doação de uma empresa do bairro, e a prefeitura deu um pequeno incentivo em dinheiro para pagar a internet. O incentivo foi modesto; não obstante, foi suficiente para começar.\n\nNo primeiro semestre, apareceram 15 alunos. Entre eles estava um trio inseparável: a Luana, o Caio e a Rita, todos de 14 anos. O trio chegava junto, sentava junto e discutia junto. Cada um trazia um caderno. No caderno, eles desenhavam as telas dos programas que queriam criar, antes de escrever uma única linha de código.\n\n— O caderno é importante — diz o professor voluntário, o Paulo. — Antes de falar com a máquina, a gente precisa organizar as ideias no papel. E, para isso, é preciso imaginação.\n\nA imaginação do trio parecia não ter limites. A Luana queria um jogo sobre uma tartaruga que limpava o mar. O Caio queria um programa que ajudasse a avó a lembrar dos remédios. A Rita queria um aplicativo para trocar livros entre vizinhos.\n\nNem tudo era fácil. Houve semanas em que nada funcionava, e o Caio pensou em desistir. O professor Paulo, no entanto, sabia motivar os alunos sem pressão. Ele mostrava os pequenos avanços, elogiava cada tentativa e lembrava que os erros fazem parte do caminho.\n\n— O que mais me motiva é ver um aluno resolver sozinho um problema que parecia impossível — conta ele.\n\nNo fim do semestre, houve uma pequena apresentação no salão da biblioteca. O trio mostrou o aplicativo de troca de livros, que tinha sido ideia da Rita, mas acabou unindo os três. Os pais aplaudiram, e a Neusa, emocionada, anunciou que o curso continuaria no semestre seguinte.\n\nHoje, a lista de espera tem mais de 40 nomes. A biblioteca continua com as suas estantes de madeira e o seu cheiro de papel, mas agora também tem o som baixo dos computadores e das conversas dos jovens.\n\nPerguntas:\nQuando e por quem a biblioteca foi fundada?\nEla foi fundada em 1975 por um grupo de moradores.\nO que a coordenação da biblioteca decidiu oferecer?\nA coordenação decidiu oferecer um curso gratuito de programação para jovens, que dura um semestre.\nPara que o trio usava o caderno?\nNo caderno, eles desenhavam as telas dos programas antes de escrever o código.\nComo o professor Paulo sabia motivar os alunos?\nEle mostrava os pequenos avanços, elogiava cada tentativa e lembrava que os erros fazem parte do caminho.\nQual foi a ideia da Rita?\nA ideia da Rita foi um aplicativo para trocar livros entre vizinhos."
+    },
+    {
+      "title": "Golpes na internet, sem pânico",
+      "summary": "A calm newspaper column explains the most common online scams and what to do if you fall for one.",
+      "newWords": [
+        "parcela",
+        "mercadoria",
+        "prejuízo",
+        "chutar",
+        "transferido",
+        "assustador",
+        "probabilidade",
+        "abalar",
+        "boato",
+        "concorrente"
+      ],
+      "text": "Toda semana, algum leitor me conta, com a voz nervosa, que quase caiu num golpe. As histórias costumam ser parecidas, e é justamente por isso que podemos aprender com elas. Falar de golpes pode parecer assustador, mas o assunto fica bem menos assustador quando entendemos como eles funcionam.\n\nO golpe mais comum é a loja falsa. A pessoa vê o anúncio de uma televisão pela metade do preço cobrado pelos concorrentes. A loja promete entrega rápida e pagamento em 10 parcelas sem juros. A pessoa paga a primeira parcela, ou o valor inteiro, e a mercadoria nunca chega. Quando ela tenta reclamar, o site já desapareceu.\n\nComo evitar? Uma regra simples ajuda muito: se o preço é muito menor do que o dos concorrentes, a probabilidade de golpe é alta. Antes de comprar, procure o nome da loja na internet e veja se outras pessoas receberam a mercadoria. Desconfie de lojas que só aceitam transferência imediata.\n\nOutro golpe frequente é a mensagem do falso parente. Alguém escreve: \"Mãe, troquei de número. Preciso pagar uma conta urgente. Pode me mandar o dinheiro?\" Muitos pais, preocupados, mandam o dinheiro na hora. Depois que o valor é transferido para a conta do criminoso, é muito difícil recuperá-lo. Por isso, antes de qualquer pagamento, ligue para o número antigo do seu filho. Quase sempre, ele vai atender e dizer que está tudo bem.\n\nHá ainda criminosos que tentam chutar senhas. Eles não adivinham por mágica: chutam combinações simples, como 123456, a data de nascimento ou o nome do cachorro. Uma senha longa, feita de palavras que só você conhece, é muito difícil de chutar.\n\nTambém é preciso cuidado com os boatos. Às vezes, circula um boato de que um banco vai fechar ou de que certo aplicativo vai começar a cobrar dos usuários. O boato assusta, e o criminoso aproveita: manda um link \"para resolver o problema\". Antes de acreditar num boato, procure a notícia em jornais conhecidos.\n\nCaso, apesar de todo o cuidado, você caia num golpe, o primeiro passo é respirar. Muita gente fica abalada, sente vergonha e não conta a ninguém. Entendo: é natural ficar abalado depois de um prejuízo. No entanto, quanto mais cedo você agir, maior será a probabilidade de diminuir o prejuízo. Avise o banco imediatamente, registre a ocorrência na polícia e conte à família. Cair num golpe não diz nada sobre a sua inteligência.\n\nPor fim, deixo um conselho que vale para quase tudo na internet: desconfie da pressa. Quem quer enganar você deseja que tudo seja decidido em poucos minutos. Quem é honesto pode esperar.\n\nPerguntas:\nComo funciona o golpe da loja falsa?\nA loja anuncia um produto pela metade do preço dos concorrentes, a pessoa paga e a mercadoria nunca chega.\nQuando a probabilidade de golpe é alta?\nQuando o preço é muito menor do que o dos concorrentes.\nO que fazer antes de mandar dinheiro a um parente que trocou de número?\nÉ preciso ligar para o número antigo da pessoa antes que qualquer dinheiro seja transferido.\nQue senhas são fáceis de chutar?\nCombinações simples, como 123456, a data de nascimento ou o nome do cachorro.\nO que fazer depois de um prejuízo?\nÉ preciso avisar o banco imediatamente, registrar a ocorrência na polícia e contar à família."
+    },
+    {
+      "title": "A primeira aula da dona Albertina",
+      "summary": "A grandmother takes her first smartphone class, learns icons and gestures, and makes a video call to her granddaughter.",
+      "newWords": [
+        "ícone",
+        "gesto",
+        "navegar",
+        "novinha",
+        "acostumar",
+        "contente",
+        "redondo",
+        "traço",
+        "conviver"
+      ],
+      "text": "A dona Albertina tem 78 anos e, durante toda a vida, usou um telefone antigo, que só servia para ligar. No aniversário dela, os netos lhe deram um celular novinho, ainda na caixa.\n\n— Novinho, vó! É o melhor da loja! — disse a neta, a Clara, toda contente.\n\nA dona Albertina também ficou contente, mas, ao mesmo tempo, sentiu um pouco de medo. A tela era lisa e brilhante, e o aparelho quase não tinha botões.\n\nPor isso, na semana seguinte, ela se inscreveu numa aula gratuita para idosos, oferecida pelo centro cultural do bairro. A professora, uma moça paciente chamada Juliana, recebeu os alunos com um sorriso.\n\n— Bom dia, senhoras e senhores. Hoje não vamos ter pressa. Ninguém aqui precisa aprender tudo de uma vez.\n\nA primeira lição foi sobre os ícones. A Juliana explicou que cada ícone é um pequeno desenho que abre um aplicativo. O ícone verde, com um telefone, serve para ligar. O ícone com uma câmera serve para tirar fotos. A dona Albertina anotou tudo num papel, com letra cuidadosa, e desenhou cada ícone ao lado.\n\nDepois, vieram os gestos.\n\n— O celular entende os gestos dos nossos dedos — disse a professora. — Um toque leve abre. Arrastar o dedo para cima mostra mais coisas. Afastar 2 dedos aumenta a foto.\n\nOs alunos repetiram os gestos várias vezes, devagar, como quem aprende os passos de uma dança.\n\nO mais difícil foi a senha. O celular da dona Albertina pedia um desenho: era preciso ligar alguns pontos redondos com um traço, sem tirar o dedo da tela. Na primeira tentativa, o traço saiu torto. Na segunda, ela esqueceu um dos pontos redondos. Na terceira, conseguiu, e a turma inteira aplaudiu.\n\n— Não se preocupe, dona Albertina — disse a Juliana. — A gente acaba se acostumando. Eu também demorei para me acostumar.\n\nNa última parte da aula, a professora ensinou a navegar na internet. Ela mostrou como procurar uma receita de bolo e como ver a previsão do tempo. A dona Albertina navegou com cuidado, como quem atravessa uma rua movimentada.\n\nContudo, o que ela mais queria era outra coisa. Os netos vivem em outra cidade, e ela convive pouco com eles. No fim da aula, a Juliana a ajudou a fazer a primeira chamada de vídeo. Na tela, apareceu o rosto da Clara, surpresa e feliz.\n\n— Vó! A senhora conseguiu!\n\nNaquela noite, a dona Albertina contou à vizinha que já estava se acostumando ao aparelho.\n\n— Não posso conviver com os meus netos todos os dias — disse ela —, mas agora vejo o sorriso deles sempre que quero.\n\nPerguntas:\nO que os netos deram à dona Albertina no aniversário?\nEles deram a ela um celular novinho, ainda na caixa.\nO que é um ícone, segundo a professora?\nUm ícone é um pequeno desenho que abre um aplicativo.\nComo era a senha do celular da dona Albertina?\nEra preciso ligar alguns pontos redondos com um traço, sem tirar o dedo da tela.\nO que a professora ensinou na última parte da aula?\nEla ensinou a navegar na internet, a procurar uma receita e a ver a previsão do tempo.\nPor que a chamada de vídeo era tão importante para a dona Albertina?\nPorque os netos vivem em outra cidade e ela convive pouco com eles."
+    },
+    {
+      "title": "A segunda vida do celular velho",
+      "summary": "A short report on electronic waste: why old phones should not go in the bin, how one town collects them, and greener alternatives.",
+      "newWords": [
+        "resíduo",
+        "ecológico",
+        "aquecimento",
+        "marinho",
+        "fumaça",
+        "consolidar",
+        "aderir",
+        "alternativo",
+        "favorecer"
+      ],
+      "text": "Quase toda casa tem uma gaveta esquecida. Nela, entre pilhas usadas e fios enrolados, dormem 2 ou 3 celulares antigos, um carregador sem dono e, às vezes, um computador que ninguém liga há anos. Esses aparelhos parecem inocentes, mas são resíduos eletrônicos, e o destino deles importa.\n\nOs resíduos eletrônicos contêm metais que podem sujar a terra e a água quando são jogados no lixo comum. Levados pela chuva até os rios, alguns desses materiais chegam ao mar e fazem mal aos animais marinhos, como peixes e tartarugas. Pior ainda é quando os aparelhos são queimados a céu aberto. A fumaça escura que sobe dessas fogueiras prejudica a saúde de quem vive por perto, e esse tipo de fumaça também contribui para o aquecimento do planeta. O aquecimento global, como se sabe, já afeta o clima de muitas regiões.\n\nNa pequena cidade de Lagoa Clara, no interior de São Paulo, a prefeitura decidiu enfrentar o problema há 3 anos. Criou pontos de coleta ecológicos em escolas, mercados e farmácias. São caixas verdes, simples, onde qualquer pessoa pode deixar aparelhos velhos. No início, poucas lojas aderiram ao programa. Com o tempo, outras aderiram, porque perceberam que os clientes gostavam da ideia. Hoje, mais de 50 lojas fazem parte do projeto, que se consolidou e entrou na rotina da cidade. Para consolidar o hábito, as escolas ensinam as crianças a separar o lixo eletrônico desde cedo.\n\nA prefeitura também criou uma regra que favorece as empresas que dão novo uso aos materiais: elas pagam menos imposto. Essa regra favoreceu a abertura de 2 pequenas oficinas, que deram emprego a moradores da cidade.\n\nMas entregar o aparelho para a coleta não é o único caminho. Há caminhos alternativos, ainda mais ecológicos. O primeiro é consertar: muitas vezes, o celular só precisa de uma bateria nova. O segundo é doar: um aparelho que parece velho para você pode ser muito útil para um estudante. O terceiro é vender para lojas de produtos usados. Essas soluções alternativas favorecem o planeta e o bolso.\n\nAntes de doar ou vender um aparelho, porém, é preciso apagar os dados pessoais e retirar o cartão de memória. Assim, as suas fotos e mensagens não seguem viagem junto com o celular.\n\nDa próxima vez que abrir aquela gaveta esquecida, lembre-se de que o seu celular velho ainda pode ter uma segunda vida. Basta escolher bem o caminho.\n\nPerguntas:\nPor que os resíduos eletrônicos não devem ir para o lixo comum?\nPorque eles contêm metais que podem sujar a terra e a água e fazer mal aos animais marinhos.\nQual é o problema de queimar os aparelhos?\nA fumaça prejudica a saúde de quem vive por perto e contribui para o aquecimento do planeta.\nO que a prefeitura de Lagoa Clara criou?\nEla criou pontos de coleta ecológicos em escolas, mercados e farmácias.\nPor que mais lojas aderiram ao programa?\nPorque perceberam que os clientes gostavam da ideia.\nQuais são os caminhos alternativos para um celular velho?\nÉ possível consertar, doar ou vender o aparelho para lojas de produtos usados."
+    },
+    {
+      "title": "O robô inseto",
+      "summary": "Three students build an insect-like robot for a youth robot competition and meet a team from Indonesia.",
+      "newWords": [
+        "troféu",
+        "ídolo",
+        "mecânica",
+        "encerramento",
+        "organizador",
+        "inseto",
+        "temática",
+        "indonésio"
+      ],
+      "text": "O Tiago tem 16 anos e passa as tardes de sábado na oficina da escola, em Recife. Ali, entre caixas de peças, fios coloridos e o cheiro de metal quente, ele e mais 2 colegas, a Júlia e o Marcos, montam robôs.\n\nNeste ano, os três se inscreveram num campeonato de robôs para estudantes, em São Paulo. Os organizadores anunciaram a temática com meses de antecedência: \"A natureza como inspiração\". Cada equipe deveria criar um robô inspirado num ser vivo.\n\nA Júlia sugeriu um peixe. O Marcos queria um pássaro. O Tiago, que adora biologia, propôs um inseto.\n\n— Um inseto tem 6 pernas — explicou ele. — Se uma perna falha, as outras continuam. A mecânica de um inseto é ótima para andar em terreno difícil.\n\nOs amigos gostaram da ideia. Durante 4 meses, estudaram como um inseto se move. Assistiram a vídeos de formigas em câmera lenta e desenharam a mecânica das pernas muitas vezes. A parte mais difícil foi fazer as 6 pernas se moverem em ordem, sem que o robô caísse de lado.\n\nO ídolo do Tiago é o professor Ernesto, que dá aulas de física na escola e que, quando era jovem, ganhou um troféu nesse mesmo campeonato. O troféu, já um pouco sem brilho, fica numa estante da oficina. Sempre que algo dava errado, o Tiago olhava para o troféu e para o seu ídolo, que repetia com calma:\n\n— Calma, rapaz. A máquina tem paciência. Quem precisa aprender a ter paciência é você.\n\nNo dia do campeonato, o ginásio estava cheio. Havia equipes de várias cidades do país e até uma equipe de estudantes indonésios, que tinham viajado mais de 20 horas para chegar ali. Os indonésios trouxeram um robô em forma de tartaruga, que nadava num tanque de água. O Tiago ficou encantado e, com o seu inglês simples, conversou com um dos jovens indonésios sobre a temática do campeonato e sobre o robô deles.\n\nO robô inseto andou bem na pista de areia, mas tropeçou numa pedra na prova final. Não ganhou o primeiro lugar: ficou em terceiro. Na cerimônia de encerramento, um dos organizadores entregou à equipe um troféu pequeno, de metal prateado. A equipe indonésia ganhou o primeiro lugar, e todos aplaudiram de pé.\n\nAinda durante o encerramento, o professor Ernesto abraçou os três.\n\n— Esse troféu é de vocês — disse. — Mas o mais importante foi o que vocês aprenderam.\n\nHoje, o troféu novo fica ao lado do antigo, na mesma estante. E o Tiago troca mensagens com o amigo indonésio quase todas as semanas.\n\nPerguntas:\nQual era a temática do campeonato?\nA temática era \"A natureza como inspiração\".\nPor que o Tiago propôs um robô em forma de inseto?\nPorque um inseto tem 6 pernas e, se uma perna falha, as outras continuam.\nQuem é o ídolo do Tiago?\nO ídolo do Tiago é o professor Ernesto, que ganhou um troféu nesse mesmo campeonato quando era jovem.\nQue robô os estudantes indonésios trouxeram?\nEles trouxeram um robô em forma de tartaruga, que nadava num tanque de água.\nO que aconteceu na cerimônia de encerramento?\nUm dos organizadores entregou à equipe do Tiago um troféu pequeno, de metal prateado, pelo terceiro lugar."
+    },
+    {
+      "title": "O médico na tela",
+      "summary": "A cattle farmer far from the city gets a diagnosis by video call, takes his flu vaccine and stops dreading the long road.",
+      "newWords": [
+        "diagnóstico",
+        "vacina",
+        "gene",
+        "boi",
+        "telecomunicação",
+        "estimado",
+        "tortura",
+        "aliviar",
+        "chapa"
+      ],
+      "text": "O seu Antônio cria bois numa fazenda no interior de Goiás, a 3 horas da cidade mais próxima. Ele tem 62 anos, acorda antes do sol, conta os bois no campo e só volta para casa quando o céu fica cor de laranja.\n\nDurante anos, ir ao médico era uma tortura. A estrada de terra é cheia de buracos, e a viagem de ônibus até a cidade levava a manhã inteira. Para quem sente dor nas costas, como o seu Antônio, cada buraco era uma pequena tortura. Por isso, ele adiava as consultas o máximo que podia.\n\nIsso mudou quando uma empresa de telecomunicações instalou uma antena na região. Com o sinal novo, a internet chegou à fazenda. Ao mesmo tempo, o posto de saúde do distrito passou a oferecer consultas por vídeo. As telecomunicações, que antes pareciam coisa de cidade grande, agora ajudavam um criador de bois a cuidar da saúde.\n\nNo mês passado, o seu Antônio ficou com uma tosse forte. A filha dele, a Marta, insistiu que ele marcasse uma consulta pelo celular. Na tela, apareceu a doutora Helena, uma médica de voz serena.\n\n— Bom dia, senhor Antônio. Como o senhor está se sentindo?\n\n— Mais ou menos, doutora. Essa tosse não me deixa dormir.\n\nA médica explicou que, para um diagnóstico seguro, precisava ver os pulmões dele. Então, ele foi ao posto do distrito, a apenas 20 minutos de casa, onde uma técnica tirou uma chapa dos seus pulmões. A chapa foi enviada pela internet, e a médica a examinou na mesma tarde.\n\nO diagnóstico foi uma infecção leve. — Não é nada grave — disse a doutora. — O tempo estimado de tratamento é de 10 dias. Este remédio vai aliviar a tosse já nas primeiras noites.\n\nO seu Antônio ficou aliviado. Em seguida, fez uma pergunta que guardava havia muito tempo:\n\n— Doutora, o meu pai tinha problema de coração. Isso passa de pai para filho?\n\n— Alguns problemas de saúde passam pelos genes, sim — explicou ela. — Os genes são como instruções que recebemos dos nossos pais. Mas ter um gene não significa ficar doente. Uma boa alimentação e exames regulares ajudam muito.\n\nPor fim, a médica perguntou se ele tinha tomado a vacina da gripe. Ele confessou que nunca tinha tomado nenhuma vacina depois de adulto.\n\n— A vacina é gratuita no posto e muito importante para quem trabalha ao ar livre, como o senhor — disse ela.\n\nNa semana seguinte, o seu Antônio tomou a vacina, e a tosse foi passando. Hoje, quando os vizinhos reclamam da estrada, ele mostra o celular com orgulho:\n\n— A estrada continua ruim, mas agora o médico vem até mim.\n\nPerguntas:\nPor que ir ao médico era uma tortura para o seu Antônio?\nPorque a estrada é cheia de buracos e a viagem levava a manhã inteira.\nO que mudou na região?\nUma empresa de telecomunicações instalou uma antena, e o posto passou a oferecer consultas por vídeo.\nComo a médica conseguiu ver os pulmões dele?\nUma técnica tirou uma chapa no posto e a enviou pela internet.\nQual foi o diagnóstico e qual é o tempo estimado de tratamento?\nO diagnóstico foi uma infecção leve, e o tempo estimado de tratamento é de 10 dias.\nO que a médica explicou sobre os genes?\nEla explicou que ter um gene não significa ficar doente."
+    },
+    {
+      "title": "A praça que os moradores desenharam",
+      "summary": "An architect finishing her doctorate redesigns her hometown square with the help of residents' online comments.",
+      "newWords": [
+        "arquiteto",
+        "estátua",
+        "continuidade",
+        "doutorado",
+        "teórico",
+        "semelhança",
+        "cercado",
+        "piso",
+        "recomendação"
+      ],
+      "text": "A arquiteta Cláudia Moreira tem 34 anos e está terminando o doutorado numa universidade de Porto Alegre. No doutorado, ela estuda como as praças mudam a vida dos bairros. Durante muito tempo, o seu trabalho foi sobretudo teórico: livros, artigos, mapas antigos. No último ano, contudo, ela recebeu a chance de sair da teoria e entrar na prática.\n\nA prefeitura da sua cidade natal, no interior do Rio Grande do Sul, pediu que ela desenhasse uma nova versão da praça central. É uma praça quadrada, cercada de casas baixas e de uma igreja de pedra. No centro, há uma estátua de bronze de um antigo professor da cidade, com um livro aberto nas mãos. Ao redor da estátua, o piso de pedras pretas e brancas está quebrado em muitos lugares.\n\nA Cláudia sabia que os moradores amavam aquela praça, ainda que ela precisasse de cuidados. Por isso, antes de desenhar qualquer coisa, decidiu ouvi-los. Num programa de computador, criou um modelo da praça em 3 dimensões. Qualquer pessoa podia abrir o site da prefeitura e caminhar pela praça nova na tela, vendo os bancos, as árvores e a estátua de todos os lados. Ao lado do modelo, havia um espaço para comentários e recomendações.\n\nAs recomendações chegaram aos montes. Uma senhora pediu mais sombra. Um grupo de jovens pediu um espaço para andar de bicicleta. Muitos idosos fizeram a mesma recomendação: não tirar a estátua do lugar.\n\n— Conheci a minha mulher perto daquela estátua — escreveu um senhor de 80 anos.\n\nA arquiteta percebeu uma semelhança entre os comentários: quase todos falavam de memória. As pessoas não queriam uma praça moderna demais. Queriam continuidade. Queriam reconhecer, na praça nova, a praça da infância. Ela lembrou de um autor teórico que tinha lido no doutorado, segundo o qual um bom projeto é aquele em que o novo conversa com o antigo. Pela primeira vez, aquela ideia teórica fazia sentido na prática.\n\nO projeto final manteve a estátua no centro, mas criou um piso novo, plano e seguro para quem usa cadeira de rodas. O desenho do piso guarda semelhança com as pedras antigas. As árvores velhas foram mantidas, e novas árvores de flores amarelas foram plantadas ao redor, de modo que a praça agora fica cercada de amarelo na primavera.\n\nNa inauguração, o prefeito fez um discurso formal:\n\n— Agradecemos à arquiteta pela dedicação e aos cidadãos pelas valiosas recomendações.\n\nDepois, um menino se aproximou da Cláudia e perguntou baixinho:\n\n— Moça, a estátua vai ficar aqui para sempre?\n\nEla sorriu.\n\n— Vai, sim. Essa é a continuidade que vocês pediram.\n\nPerguntas:\nO que a Cláudia estuda no doutorado?\nEla estuda como as praças mudam a vida dos bairros.\nComo é a praça central da cidade?\nÉ uma praça quadrada, cercada de casas baixas e de uma igreja, com uma estátua de bronze no centro.\nComo a arquiteta ouviu os moradores?\nEla criou um modelo da praça no computador, e os moradores deixaram comentários e recomendações no site da prefeitura.\nQue semelhança ela percebeu entre os comentários?\nQuase todos falavam de memória, e as pessoas queriam continuidade.\nO que o projeto final fez com a estátua e com o piso?\nManteve a estátua no centro e criou um piso novo, plano e seguro."
+    }
+  ]
+}

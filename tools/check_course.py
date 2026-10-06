@@ -35,7 +35,9 @@ def rules(rank_up_to):
         return 0.95, 220, 380
     if rank_up_to <= 2000:
         return 0.95, 260, 450
-    return 0.95, 300, 520
+    if rank_up_to <= 3000:
+        return 0.95, 300, 520
+    return 0.95, 320, 550
 
 
 def load_list(code):
