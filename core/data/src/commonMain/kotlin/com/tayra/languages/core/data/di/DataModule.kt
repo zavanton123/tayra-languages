@@ -11,7 +11,6 @@ import com.tayra.languages.core.data.backup.BackupRepositoryImpl
 import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.domain.backup.BackupRepository
 import com.tayra.languages.core.data.network.MyMemoryTranslationProvider
-import com.tayra.languages.core.data.network.RemoteCourses
 import com.tayra.languages.core.domain.service.effectiveEngine
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.data.network.GoogleTranslationProvider
@@ -136,7 +135,7 @@ val dataModule: Module = module {
     single { LearningLanguageService(get(), get(), get()) }
     single { DemoDataService(get(), get(), get(), get(), get()) }
     single { StatsService(get()) }
-    single<CourseSource> { RemoteCourses(get(), fallback = BuiltInCourses()) }
+    single<CourseSource> { BuiltInCourses() }
     single { CourseService(get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
     single { FlashcardService(get(), get(), get()) }

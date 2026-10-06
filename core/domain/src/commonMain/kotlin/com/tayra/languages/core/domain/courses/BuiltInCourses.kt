@@ -1,6 +1,6 @@
 package com.tayra.languages.core.domain.courses
 
-/** The courses shipped with the app, shown while the server has not been reached. */
+/** The courses shipped with the app. */
 class BuiltInCourses : CourseSource {
     override suspend fun courses(languageCode: String): List<Course> = ALL.filter { it.languageCode == languageCode.lowercase() }
     override suspend fun course(id: String): Course? = ALL.firstOrNull { it.id == id }

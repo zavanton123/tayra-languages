@@ -1,2 +1,0 @@
-org.springframework.test.context.ContextCustomizerFactory = \
-    com.tayra.languages.backend.config.SqlTestContainersSpringContextCustomizerFactory
