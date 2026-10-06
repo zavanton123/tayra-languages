@@ -39,7 +39,7 @@ everything you learn stays on your own device.
   base word's meaning and, for expressions, the words inside them.
 - **Word frequency.** The 10,000 most common words of the language, a hundred to a band and
   coloured by your status, with your level marked; hover for a translation, click to save.
-  Portuguese for now.
+  For every language the app teaches.
 - **Pronunciation** with the device's speech voices, and recorded example sentences.
 - **Statistics** of words read and learned over time, per language and per book.
 

@@ -13,16 +13,21 @@ import kotlinx.coroutines.flow.map
 data class FrequencyWord(
     /** 1 for the most common word. */
     val rank: Int,
+    /** As a dictionary writes it, so German nouns keep their capital ("Haus"). */
     val word: String,
+    /** Lowercase. */
     val forms: List<String>,
-)
+) {
+    /** The word as saved terms are matched: lowercase. */
+    val key: String = word.lowercase()
+}
 
 /** A language's most common words, most common first, and where the counts came from. */
 data class FrequencyList(val source: String, val words: List<FrequencyWord>) {
     companion object {
         /**
          * Reads a list made by tools/build_frequency_list.py: `# source: ...` and other comment
-         * lines, then one word per line with its forms after a tab, separated by spaces.
+         * lines, then one word per line with its lowercase forms after a tab, separated by spaces.
          */
         fun parse(text: String): FrequencyList {
             var source = ""
@@ -113,7 +118,7 @@ class WordFrequencyService(
          * since a word is usually saved as it was met in a text ("disse" known makes "dizer" known).
          */
         fun statusOf(word: FrequencyWord, statuses: Map<String, TermStatus>): TermStatus {
-            statuses[word.word]?.takeIf { it != TermStatus.UNKNOWN }?.let { return it }
+            statuses[word.key]?.takeIf { it != TermStatus.UNKNOWN }?.let { return it }
             return word.forms.mapNotNull { statuses[it] }.filter { it != TermStatus.UNKNOWN }.maxByOrNull { if (it == TermStatus.IGNORED) 0 else it.value }
                 ?: TermStatus.UNKNOWN
         }

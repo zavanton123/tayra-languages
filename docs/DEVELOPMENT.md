@@ -149,18 +149,27 @@ inflates it in its own sql.js worker, which needs the pack host to allow cross-o
 
 ## Word frequency lists
 
-The Word frequency screen (feature/frequency) shows the 10,000 most common words of a language,
-bundled as `feature/frequency/src/commonMain/composeResources/files/frequency/<code>.tsv`: one
-dictionary word per line, most common first, with the forms counted for it after a tab. Only
-Portuguese has a list so far.
+The Word frequency screen (feature/frequency) shows the most common words of the language being
+learned, bundled as `feature/frequency/src/commonMain/composeResources/files/frequency/<code>.tsv`
+for every language in `LanguageCatalog.targetLanguages`: one dictionary word per line, most common
+first, written as the dictionary writes it ("Haus"), with up to 12 lowercase forms counted for it
+after a tab. Lists have 10,000 words, except Latvian (about 6,600) and Belarusian (about 3,800),
+whose dictionaries and lemmatizer coverage are small.
 
-`tools/build_frequency_list.py --language <code>` makes a list. Counts come from wordfreq
-(`pip install wordfreq`), or for languages it lacks, from FrequencyWords and then the Leipzig
-Corpora Collection (downloads cached in `dictionaries/frequency-sources`); `--source` forces
-one. Forms are grouped under their dictionary words with the forms table of the language's
-`dictionaries/<code>-en.sqlite` pack, and the script's per-language `OVERRIDES` and `EXCLUDE`
-fix the cases the dictionary gets wrong (contractions, names). A word's status on the screen is
-its own term's, or else the furthest status among its forms the reader has saved.
+`tools/build_frequency_list.py --language <code>|all` makes them; it needs `pip install wordfreq
+simplemma` and the `dictionaries/<code>-en.sqlite` packs. Counts come from wordfreq; Croatian,
+Serbian, Estonian and Galician from FrequencyWords (OpenSubtitles); Belarusian and Latin from the
+Leipzig Corpora Collection. A language for which wordfreq keeps only its short list is blended with
+the other sources. Downloads are cached in `dictionaries/frequency-sources`.
+
+Forms are grouped under their dictionary words with the pack's forms table, then simplemma for
+forms the pack lacks. Both are noisy (pronoun tables list every pronoun as a form of the others,
+aspect partners and look-alike nouns appear as forms), so each language's top 600 words were read
+and corrected in `tools/frequency_fixes.py`. Change the general rules in the script with care:
+those corrections were tested against them, so rebuild all lists and compare the top of each.
+
+A word's status on the screen is its own term's, or else the furthest status among its forms the
+reader has saved.
 
 ## Platform notes
 

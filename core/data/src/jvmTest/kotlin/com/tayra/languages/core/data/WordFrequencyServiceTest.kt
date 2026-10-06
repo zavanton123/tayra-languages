@@ -82,8 +82,20 @@ class WordFrequencyServiceTest {
     }
 
     @Test
+    fun aCapitalisedWordMatchesItsLowercaseTerm() = runTest {
+        val german = languages.save(Language(name = "German"))
+        terms.save(Term(languageId = german, text = "Häuser", textLc = "häuser", status = TermStatus.LEARNING_4))
+        val lists = object : FrequencyLists {
+            override suspend fun list(languageCode: String) = FrequencyList.parse("Haus\thaus häuser hause\n")
+        }
+        val word = WordFrequencyService(lists, terms, languages).observe(german).first()!!.words.single()
+        assertEquals("Haus", word.word.word)
+        assertEquals(TermStatus.LEARNING_4, word.status)
+    }
+
+    @Test
     fun aLanguageWithoutAListHasNone() = runTest {
-        assertNull(service.observe(languages.save(Language(name = "German"))).first())
+        assertNull(service.observe(languages.save(Language(name = "Spanish"))).first())
         assertNull(service.observe(12345).first())
     }
 }

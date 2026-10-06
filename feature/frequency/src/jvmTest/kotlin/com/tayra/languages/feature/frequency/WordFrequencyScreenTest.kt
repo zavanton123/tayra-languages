@@ -25,6 +25,8 @@ import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.frequency.RankedWord
 import com.tayra.languages.core.domain.frequency.WordFrequencyOverview
 import com.tayra.languages.core.domain.frequency.WordKnowledge
+import com.tayra.languages.core.domain.language.LanguageCatalog
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
@@ -85,6 +87,20 @@ class WordFrequencyScreenTest {
         assertTrue(listOf("foi", "disse", "do", "minha", "the").none { it in top }, "forms and foreign words are not words of their own")
         assertTrue("disse" in list.words.first { it.word == "dizer" }.forms)
         assertNull(ResourceFrequencyLists().list("xx"))
+    }
+
+    @Test
+    fun everyLanguageTheAppTeachesHasAList() = runBlocking {
+        val lists = ResourceFrequencyLists()
+        for (name in LanguageCatalog.targetLanguages) {
+            val code = LanguageCodes.codeFor(name)!!
+            val list = lists.list(code)
+            assertTrue(list != null && list.words.size >= 3_000, "$name has a list of at least 3,000 words")
+            assertTrue(list.source.isNotBlank(), "$name names its source")
+            assertEquals(list.words.size, list.words.map { it.key }.toSet().size, "$name lists each word once")
+        }
+        val german = lists.list("de")!!.words.take(300).map { it.word }
+        assertTrue("Jahr" in german && "haben" in german, "German nouns keep their capital, verbs do not")
     }
 
     @Test

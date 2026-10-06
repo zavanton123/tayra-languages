@@ -43,7 +43,7 @@ data class WordFrequencyUiState(
         }
 
     private fun RankedWord.matches(query: String): Boolean =
-        knowledge in shown && (query.isEmpty() || word.word.startsWith(query) || word.forms.any { it.startsWith(query) })
+        knowledge in shown && (query.isEmpty() || word.key.startsWith(query) || word.forms.any { it.startsWith(query) })
 }
 
 /** The most common words of the language being learned, with how far the reader has got with each. */

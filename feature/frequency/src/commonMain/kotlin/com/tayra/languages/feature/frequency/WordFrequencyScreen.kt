@@ -196,7 +196,7 @@ internal fun WordFrequencyContent(
                         Notice(
                             "No frequency list yet",
                             if (state.languageName.isEmpty()) "Choose a language to learn to see its most common words."
-                            else "There is no word frequency list for ${state.languageName} yet. Lists are available for Portuguese.",
+                            else "There is no word frequency list for ${state.languageName}. Lists come with the languages the app offers to learn.",
                         )
                     }
                     bands.isEmpty() -> item(key = "empty") { Notice("No words match", "Try another search, or show more kinds of words.") }
@@ -212,7 +212,7 @@ internal fun WordFrequencyContent(
                         }
                         item(key = "credit") {
                             Text(
-                                "Word counts: ${overview.source}. Words are grouped with their forms using Wiktionary data (CC BY-SA 4.0).",
+                                "Word counts: ${overview.source}. Words are grouped with their forms using Wiktionary data (CC BY-SA 4.0) and the simplemma lemmatizer.",
                                 Modifier.padding(top = 28.dp),
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -238,7 +238,7 @@ internal fun WordFrequencyContent(
  * already says how common a word is, and a band read like an index is easier to scan.
  */
 private fun columnRows(words: List<RankedWord>, columns: Int): List<List<RankedWord>> {
-    val sorted = words.sortedWith(compareBy({ sortKey(it.word.word) }, { it.word.word }))
+    val sorted = words.sortedWith(compareBy({ sortKey(it.word.key) }, { it.word.word }))
     val height = (sorted.size + columns - 1) / columns
     return List(height) { row -> (0 until columns).mapNotNull { column -> sorted.getOrNull(column * height + row) } }
 }
@@ -363,7 +363,7 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
                 RichTooltip(title = { Text("${word.word.word}  ·  #${word.word.rank}") }) {
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                         Text(if (looked) translation ?: "No translation found" else "Looking up…", fontWeight = FontWeight.Medium)
-                        val others = word.word.forms.filter { it != word.word.word }.take(8)
+                        val others = word.word.forms.filter { it != word.word.key }.take(8)
                         if (others.isNotEmpty()) Text("Also: ${others.joinToString(", ")}", style = MaterialTheme.typography.bodySmall)
                         Text(statusLabel(word.status), style = MaterialTheme.typography.bodySmall)
                     }
