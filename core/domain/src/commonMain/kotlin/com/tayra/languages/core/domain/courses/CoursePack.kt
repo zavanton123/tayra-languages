@@ -18,7 +18,7 @@ data class CoursePack(
 ) {
     companion object {
         /** The layout of the pack files, matching the "format" row of their meta table and PRAGMA user_version. */
-        const val FORMAT = 1
+        const val FORMAT = 2
     }
 }
 
@@ -33,7 +33,7 @@ object CoursePacks {
             title = "Portuguese (Brazil)",
             summary = "100 courses, 1,000 lessons: graded mini stories from A1 to C2, built on the 10,000 most common words.",
             url = "$BASE_URL/courses-pt.sqlite.gzip",
-            downloadSize = 1_206_045,
+            downloadSize = 1_208_672,
         ),
     )
 

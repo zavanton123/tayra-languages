@@ -47,17 +47,17 @@ class CoursePackTest {
         val driver = JdbcSqliteDriver("jdbc:sqlite:${file.absolutePath}")
         listOf(
             "CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL)",
-            "CREATE TABLE courses (id TEXT NOT NULL PRIMARY KEY, position INTEGER NOT NULL, rank_up_to INTEGER, level TEXT NOT NULL, title TEXT NOT NULL, description TEXT NOT NULL, topic TEXT NOT NULL)",
-            "CREATE TABLE lessons (id TEXT NOT NULL PRIMARY KEY, course_id TEXT NOT NULL, position INTEGER NOT NULL, title TEXT NOT NULL, summary TEXT NOT NULL, new_words TEXT NOT NULL, text TEXT NOT NULL)",
+            "CREATE TABLE courses (id TEXT NOT NULL PRIMARY KEY, position INTEGER NOT NULL, rank_up_to INTEGER, level TEXT NOT NULL, title TEXT NOT NULL, description TEXT NOT NULL, topic TEXT NOT NULL, tags TEXT NOT NULL)",
+            "CREATE TABLE lessons (id TEXT NOT NULL PRIMARY KEY, course_id TEXT NOT NULL, position INTEGER NOT NULL, title TEXT NOT NULL, summary TEXT NOT NULL, new_words TEXT NOT NULL, tags TEXT NOT NULL, text TEXT NOT NULL)",
             "CREATE INDEX lessons_course ON lessons(course_id, position)",
             "INSERT INTO meta VALUES ('format', '$format'), ('language', 'pt')",
             """INSERT INTO courses VALUES
-                ('pt-mini-0100', 0, 100, 'A1', 'Em casa', 'Stories at home.', 'Home'),
-                ('pt-mini-0200', 1, 200, 'A2', 'O dia a dia', 'Daily routine.', 'Daily life')""",
+                ('pt-mini-0100', 0, 100, 'A1', 'Em casa', 'Stories at home.', 'Home', 'tayra'),
+                ('pt-mini-0200', 1, 200, 'A2', 'O dia a dia', 'Daily routine.', 'Daily life', 'tayra')""",
             """INSERT INTO lessons VALUES
-                ('pt-mini-0100-02', 'pt-mini-0100', 1, 'O gato', 'A cat.', 'gato casa', 'O gato está em casa.'),
-                ('pt-mini-0100-01', 'pt-mini-0100', 0, 'A casa nova', 'A new house.', 'casa nova', 'A Ana tem uma casa nova.'),
-                ('pt-mini-0200-01', 'pt-mini-0200', 0, 'A manhã', 'Morning.', 'manhã', 'De manhã, o Pedro acorda cedo.')""",
+                ('pt-mini-0100-02', 'pt-mini-0100', 1, 'O gato', 'A cat.', 'gato casa', 'tayra', 'O gato está em casa.'),
+                ('pt-mini-0100-01', 'pt-mini-0100', 0, 'A casa nova', 'A new house.', 'casa nova', 'tayra', 'A Ana tem uma casa nova.'),
+                ('pt-mini-0200-01', 'pt-mini-0200', 0, 'A manhã', 'Morning.', 'manhã', 'tayra', 'De manhã, o Pedro acorda cedo.')""",
             "PRAGMA user_version = $format",
         ).forEach { driver.execute(null, it, 0) }
         driver.close()
@@ -97,9 +97,12 @@ class CoursePackTest {
         assertTrue(first.builtIn, "the pack's courses are samples")
         assertEquals(listOf("A casa nova", "O gato"), first.lessons.map { it.title }, "lessons in their order")
         assertEquals(listOf("casa", "nova"), first.lessons.first().newWords)
+        assertEquals(listOf("tayra"), first.tags, "the app's own courses are tagged")
+        assertEquals(listOf("tayra"), first.lessons.first().tags)
 
         val own = env.courses.createCourse(pt, CourseDraft("Minhas leituras"))
         val opened = assertNotNull(env.courses.openLesson("pt-mini-0100", "pt-mini-0100-01"))
+        assertEquals(listOf("tayra"), env.books.getBook(opened)!!.tags, "the lesson's text carries its tags")
         env.packs.remove(pack)
         assertEquals(PackState.NotInstalled, env.packs.packs.value.single().state)
         assertEquals(listOf(own), env.courses.observeCourses(pt).first().map { it.course.id }, "the reader's own course stays")

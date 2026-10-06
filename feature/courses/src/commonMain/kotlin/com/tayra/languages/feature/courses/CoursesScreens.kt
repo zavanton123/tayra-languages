@@ -116,10 +116,11 @@ private val com.tayra.languages.core.domain.courses.Course.subtitle: String
 /** The course's tags: the words of the frequency list it covers, and whether it is one of the samples. */
 @Composable
 private fun CourseTags(course: com.tayra.languages.core.domain.courses.Course) {
-    if (!course.builtIn && course.rankUpTo == null) return
+    if (!course.builtIn && course.rankUpTo == null && course.tags.isEmpty()) return
     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         course.rankUpTo?.let { RankTag(it) }
-        if (course.builtIn) SampleTag()
+        // A tag such as "tayra" says where a course comes from, so it stands in for the sample tag.
+        if (course.tags.isNotEmpty()) course.tags.forEach { LabelTag(it) } else if (course.builtIn) SampleTag()
     }
 }
 
@@ -132,6 +133,19 @@ private fun RankTag(rankUpTo: Int) {
         style = MaterialTheme.typography.labelMedium,
         color = BLUE,
         fontWeight = FontWeight.SemiBold,
+    )
+}
+
+/** One of a course's or a lesson's tags. */
+@Composable
+private fun LabelTag(label: String) {
+    Text(
+        label,
+        Modifier.clip(RoundedCornerShape(50)).background(PURPLE.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
+        style = MaterialTheme.typography.labelMedium,
+        color = PURPLE,
+        fontWeight = FontWeight.SemiBold,
+        softWrap = false,
     )
 }
 
@@ -678,6 +692,7 @@ private fun LessonRow(
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
                 Text(lesson.title, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                lesson.tags.forEach { LabelTag(it) }
                 if (hint != null) {
                     Text(
                         hint,

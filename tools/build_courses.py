@@ -31,7 +31,9 @@ from check_course import check  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "course-packs")
-FORMAT = 1
+FORMAT = 2
+# Every course and lesson this tool builds is one of the app's own; a course's "tags" in its JSON add to these.
+TAGS = ["tayra"]
 
 SCHEMA = """
 CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL);
@@ -42,7 +44,8 @@ CREATE TABLE courses (
     level TEXT NOT NULL,
     title TEXT NOT NULL,
     description TEXT NOT NULL,
-    topic TEXT NOT NULL
+    topic TEXT NOT NULL,
+    tags TEXT NOT NULL
 );
 CREATE TABLE lessons (
     id TEXT NOT NULL PRIMARY KEY,
@@ -51,6 +54,7 @@ CREATE TABLE lessons (
     title TEXT NOT NULL,
     summary TEXT NOT NULL,
     new_words TEXT NOT NULL,
+    tags TEXT NOT NULL,
     text TEXT NOT NULL
 );
 CREATE INDEX lessons_course ON lessons(course_id, position);
@@ -86,6 +90,7 @@ def main():
             "title": source["title"],
             "description": source["description"],
             "topic": source.get("topic", ""),
+            "tags": TAGS + [t for t in source.get("tags", []) if t not in TAGS],
             "lessons": [
                 {
                     "id": f"{source['id']}-{i:02}",
@@ -124,12 +129,12 @@ def write_pack(path, language, courses):
     ])
     for position, course in enumerate(courses):
         db.execute(
-            "INSERT INTO courses VALUES (?, ?, ?, ?, ?, ?, ?)",
-            (course["id"], position, course["rankUpTo"], course["level"], course["title"], course["description"], course["topic"]),
+            "INSERT INTO courses VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+            (course["id"], position, course["rankUpTo"], course["level"], course["title"], course["description"], course["topic"], " ".join(course["tags"])),
         )
         db.executemany(
-            "INSERT INTO lessons VALUES (?, ?, ?, ?, ?, ?, ?)",
-            [(lesson["id"], course["id"], i, lesson["title"], lesson["summary"], " ".join(lesson["newWords"]), lesson["text"])
+            "INSERT INTO lessons VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+            [(lesson["id"], course["id"], i, lesson["title"], lesson["summary"], " ".join(lesson["newWords"]), " ".join(course["tags"]), lesson["text"])
              for i, lesson in enumerate(course["lessons"])],
         )
     db.execute(f"PRAGMA user_version = {FORMAT}")

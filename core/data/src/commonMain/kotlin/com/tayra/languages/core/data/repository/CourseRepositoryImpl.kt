@@ -66,16 +66,19 @@ class CourseRepositoryImpl(
                 description = row.description,
                 level = CourseLevel.entries.firstOrNull { it.name == row.level } ?: CourseLevel.A1,
                 topic = row.topic,
-                lessons = lessons[row.id].orEmpty().map { Lesson(it.id, it.title, it.summary, it.text, it.new_words.split(' ').filter { word -> word.isNotBlank() }) },
+                lessons = lessons[row.id].orEmpty().map { Lesson(it.id, it.title, it.summary, it.text, words(it.new_words), words(it.tags)) },
                 languageId = row.language_id,
                 builtIn = row.built_in,
                 rankUpTo = row.rank_up_to?.toInt(),
+                tags = words(row.tags),
             )
         }
     }
 
+    private fun words(spaced: String): List<String> = spaced.split(' ').filter { it.isNotBlank() }
+
     override suspend fun createCourse(id: String, languageId: Long, draft: CourseDraft) = withContext(databaseDispatcher) {
-        db().coursesQueries.insertCourse(id, languageId, draft.title, draft.description, draft.level.name, draft.topic, clock.now().toEpochMilliseconds(), false, null)
+        db().coursesQueries.insertCourse(id, languageId, draft.title, draft.description, draft.level.name, draft.topic, clock.now().toEpochMilliseconds(), false, null, "")
         Unit
     }
 
@@ -93,7 +96,7 @@ class CourseRepositoryImpl(
         val database = db()
         database.transaction {
             val position = database.coursesQueries.nextPosition(courseId).awaitAsOne()
-            database.coursesQueries.insertLesson(id, courseId, draft.title, draft.summary, draft.text, position, "")
+            database.coursesQueries.insertLesson(id, courseId, draft.title, draft.summary, draft.text, position, "", "")
         }
     }
 
@@ -121,9 +124,10 @@ class CourseRepositoryImpl(
                 if (database.coursesQueries.selectCourse(course.id).awaitAsOneOrNull() == null) {
                     database.coursesQueries.insertCourse(
                         course.id, languageId, course.title, course.description, course.level.name, course.topic, now - courses.size + i, true, course.rankUpTo?.toLong(),
+                        course.tags.joinToString(" "),
                     )
                     course.lessons.forEachIndexed { position, lesson ->
-                        database.coursesQueries.insertLesson(lesson.id, course.id, lesson.title, lesson.summary, lesson.text, position.toLong(), lesson.newWords.joinToString(" "))
+                        database.coursesQueries.insertLesson(lesson.id, course.id, lesson.title, lesson.summary, lesson.text, position.toLong(), lesson.newWords.joinToString(" "), lesson.tags.joinToString(" "))
                     }
                 }
                 database.coursesQueries.markSeeded(course.id, languageId)

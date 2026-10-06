@@ -22,6 +22,8 @@ data class Lesson(
     val text: String,
     /** The words of the language's frequency list the lesson introduces, as the list writes them. */
     val newWords: List<String> = emptyList(),
+    /** Labels such as "tayra" for the lessons made for the app; a text made from the lesson gets them as its tags. */
+    val tags: List<String> = emptyList(),
 ) {
     /** Words in the text, counted at spaces. */
     val wordCount: Int get() = text.split(Regex("""\s+""")).count { part -> part.any { it.isLetterOrDigit() } }
@@ -43,6 +45,8 @@ data class Course(
     val builtIn: Boolean = false,
     /** The rank in the language's frequency list of the rarest word the course teaches; null for courses not built on it. */
     val rankUpTo: Int? = null,
+    /** Labels such as "tayra", which marks the courses made for the app. */
+    val tags: List<String> = emptyList(),
 ) {
     val wordCount: Int get() = lessons.sumOf { it.wordCount }
 }

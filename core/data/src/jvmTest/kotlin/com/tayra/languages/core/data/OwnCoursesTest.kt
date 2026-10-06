@@ -203,4 +203,20 @@ class OwnCoursesTest {
         assertNull(upgradedBooks.getBook(opened), "the text read from a replaced lesson goes too")
         assertNotNull(upgradedBooks.getBook(own), "the reader's own books stay")
     }
+
+    @Test
+    fun theCoursesFromTheFirstPackGetTheTayraTag() = runTest {
+        val pt = languages.save(Language(name = "Portuguese"))
+        fun course(id: String, rank: Int) = Course(id, "pt", id, "", CourseLevel.A1, "", listOf(Lesson("$id-01", "Um", "", "Texto um.")), rankUpTo = rank)
+        CourseService(books, languages, bookService, repository, SampleCourseSource { listOf(course("pt-mini-0100", 100)) }).seedSamples()
+        val mine = service.createCourse(pt, CourseDraft("Minhas leituras"))
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute("PRAGMA user_version = 17") }
+
+        val reopened = DatabaseProvider(DatabaseDriverFactory(file))
+        val upgraded = CourseRepositoryImpl(reopened)
+        val tagged = upgraded.course("pt-mini-0100")!!
+        assertEquals(listOf("tayra"), tagged.tags)
+        assertEquals(listOf("tayra"), tagged.lessons.single().tags)
+        assertEquals(emptyList(), upgraded.course(mine)!!.tags, "the reader's own course is left as it is")
+    }
 }

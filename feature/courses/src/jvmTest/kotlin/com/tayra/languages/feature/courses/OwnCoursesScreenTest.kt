@@ -126,7 +126,7 @@ class OwnCoursesScreenTest {
             )
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Minhas leituras").fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(onAllNodesWithText("Sample course").fetchSemanticsNodes().isEmpty(), "only the samples are tagged")
+        assertTrue(onAllNodesWithText("Sample course").fetchSemanticsNodes().isEmpty() && onAllNodesWithText("tayra").fetchSemanticsNodes().isEmpty(), "only the app's courses are tagged")
         System.getenv("OWN_COURSE_SCREENSHOT")?.let { save(it) }
         onNodeWithTag("edit-course").performClick()
         onNodeWithTag("add-lesson").performClick()
@@ -149,7 +149,7 @@ class OwnCoursesScreenTest {
         val viewModel = CourseViewModel("pt-mini-0100", service)
         host { CourseContent(viewModel.state.collectAsStateValue(), onOpenLesson = {}, onCourses = {}, editing = CourseEditing()) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Em casa e com a família").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Sample course").assertExists()
+        assertTrue(onAllNodesWithText("tayra").fetchSemanticsNodes().size > 1, "the course and its lessons carry the tayra tag")
         onNodeWithTag("edit-course").assertExists()
         onNodeWithTag("add-lesson").assertExists()
         onNodeWithTag("lesson-menu-pt-mini-0100-01").assertExists()

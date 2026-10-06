@@ -9,7 +9,9 @@ CREATE TABLE courses (
     level TEXT NOT NULL,
     title TEXT NOT NULL,
     description TEXT NOT NULL,
-    topic TEXT NOT NULL
+    topic TEXT NOT NULL,
+    -- Labels separated by spaces, such as "tayra".
+    tags TEXT NOT NULL
 );
 
 -- new_words: the words the lesson introduces, separated by spaces.
@@ -20,6 +22,7 @@ CREATE TABLE lessons (
     title TEXT NOT NULL,
     summary TEXT NOT NULL,
     new_words TEXT NOT NULL,
+    tags TEXT NOT NULL,
     text TEXT NOT NULL
 );
 

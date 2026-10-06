@@ -32,11 +32,14 @@ class CoursePackRepository(private val files: CoursePackFiles) : CoursePackStore
                 description = row.description,
                 level = CourseLevel.entries.firstOrNull { it.code == row.level } ?: CourseLevel.A1,
                 topic = row.topic,
-                lessons = lessons[row.id].orEmpty().map { Lesson(it.id, it.title, it.summary, it.text, it.new_words.split(' ').filter { word -> word.isNotBlank() }) },
+                lessons = lessons[row.id].orEmpty().map { Lesson(it.id, it.title, it.summary, it.text, words(it.new_words), words(it.tags)) },
                 rankUpTo = row.rank_up_to?.toInt(),
+                tags = words(row.tags),
             )
         }
     }.orEmpty()
+
+    private fun words(spaced: String): List<String> = spaced.split(' ').filter { it.isNotBlank() }
 
     private suspend fun <T> read(pack: CoursePack, block: suspend (CoursePackDatabase) -> T): T? = withContext(databaseDispatcher) {
         val driver = try {

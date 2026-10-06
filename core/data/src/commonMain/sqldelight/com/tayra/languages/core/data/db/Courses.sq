@@ -10,7 +10,9 @@ CREATE TABLE courses (
     created_at INTEGER NOT NULL,
     built_in INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
     -- The rarest word, by its rank in the language's frequency list, the course teaches; null for courses not built on the list.
-    rank_up_to INTEGER
+    rank_up_to INTEGER,
+    -- Labels separated by spaces, such as "tayra" on the courses made for the app.
+    tags TEXT NOT NULL DEFAULT ''
 );
 
 -- Their lessons, in order by position.
@@ -22,7 +24,9 @@ CREATE TABLE lessons (
     text TEXT NOT NULL,
     position INTEGER NOT NULL,
     -- The words, from the frequency list, the lesson introduces, separated by spaces.
-    new_words TEXT NOT NULL DEFAULT ''
+    new_words TEXT NOT NULL DEFAULT '',
+    -- Labels separated by spaces; a text made from the lesson gets them as its tags.
+    tags TEXT NOT NULL DEFAULT ''
 );
 
 CREATE INDEX lessons_course ON lessons(course_id, position);
@@ -48,8 +52,8 @@ selectLesson:
 SELECT * FROM lessons WHERE id = :id;
 
 insertCourse:
-INSERT INTO courses(id, language_id, title, description, level, topic, created_at, built_in, rank_up_to)
-VALUES (:id, :languageId, :title, :description, :level, :topic, :createdAt, :builtIn, :rankUpTo);
+INSERT INTO courses(id, language_id, title, description, level, topic, created_at, built_in, rank_up_to, tags)
+VALUES (:id, :languageId, :title, :description, :level, :topic, :createdAt, :builtIn, :rankUpTo, :tags);
 
 updateCourse:
 UPDATE courses SET title = :title, description = :description, level = :level, topic = :topic WHERE id = :id;
@@ -61,7 +65,7 @@ nextPosition:
 SELECT COALESCE(MAX(position), -1) + 1 FROM lessons WHERE course_id = :courseId;
 
 insertLesson:
-INSERT INTO lessons(id, course_id, title, summary, text, position, new_words) VALUES (:id, :courseId, :title, :summary, :text, :position, :newWords);
+INSERT INTO lessons(id, course_id, title, summary, text, position, new_words, tags) VALUES (:id, :courseId, :title, :summary, :text, :position, :newWords, :tags);
 
 updateLesson:
 UPDATE lessons SET title = :title, summary = :summary, text = :text WHERE id = :id;

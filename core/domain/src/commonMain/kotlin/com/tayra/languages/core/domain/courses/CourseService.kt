@@ -77,7 +77,7 @@ class CourseService(
         val lesson = course.lessons.firstOrNull { it.id == lessonId } ?: return null
         books.lessonBookId(lessonId)?.let { return it }
         val language = languages.getById(course.languageId) ?: return null
-        val bookId = bookService.create(BookDraft(languageId = language.id, title = lesson.title, text = lesson.text))
+        val bookId = bookService.create(BookDraft(languageId = language.id, title = lesson.title, text = lesson.text, tags = lesson.tags))
         books.linkLesson(lessonId, bookId)
         return bookId
     }

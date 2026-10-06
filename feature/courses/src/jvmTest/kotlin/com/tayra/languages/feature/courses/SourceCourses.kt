@@ -11,7 +11,7 @@ import kotlinx.serialization.json.jsonObject
 import kotlinx.serialization.json.jsonPrimitive
 import java.io.File
 
-/** The Portuguese courses read from their sources in tools/courses/pt, as the course pack carries them. */
+/** The Portuguese courses read from their sources in tools/courses/pt, tagged as tools/build_courses.py tags them in the pack. */
 object SourceCourses : SampleCourseSource {
     private val all: List<Course> by lazy {
         File("../../tools/courses/pt").listFiles { file -> file.name.startsWith("pt-mini-") && file.name.endsWith(".json") }!!
@@ -40,9 +40,11 @@ object SourceCourses : SampleCourseSource {
                     summary = lesson["summary"]?.jsonPrimitive?.content.orEmpty(),
                     text = lesson.getValue("text").jsonPrimitive.content.trim(),
                     newWords = lesson["newWords"]?.jsonArray?.map { it.jsonPrimitive.content }.orEmpty(),
+                    tags = listOf("tayra"),
                 )
             },
             rankUpTo = json.getValue("rankUpTo").jsonPrimitive.int,
+            tags = listOf("tayra"),
         )
     }
 }
