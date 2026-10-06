@@ -61,7 +61,7 @@ import com.tayra.languages.core.ui.state.CollectEvents
 import org.koin.compose.viewmodel.koinViewModel
 
 /** The colour of words the level covers, in the picker and the example. */
-private val KNOWN_GREEN = Color(0xFF2E9D57)
+internal val KNOWN_GREEN = Color(0xFF2E9D57)
 
 @Composable
 fun VocabularySettingsScreen(onNavigate: (Route) -> Unit, viewModel: VocabularySettingsViewModel = koinViewModel()) {
@@ -217,7 +217,7 @@ internal fun LevelPicker(list: FrequencyList, shown: Int?, onPick: (Int) -> Unit
 }
 
 /** Six words spread over the ranks a level adds. */
-private fun samples(list: FrequencyList, from: Int, to: Int): List<String> {
+internal fun samples(list: FrequencyList, from: Int, to: Int): List<String> {
     val span = to - from
     if (span <= 0) return emptyList()
     return (0 until 6).map { i -> list.words[(from + span * (2 * i + 1) / 12).coerceIn(from, to - 1)].word }.distinct()

@@ -9,10 +9,12 @@ import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsEnabled
-import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.semantics.SemanticsActions
+import androidx.compose.ui.test.performSemanticsAction
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
+import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -59,11 +61,11 @@ class VocabularyLevelPromptTest {
     @Test
     fun puttingItOffClosesWithoutALevel() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-0").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("How much Portuguese do you know?").assertExists()
-        onNodeWithTag("prompt-set-level").assertIsNotEnabled()
-        System.getenv("LEVEL_PROMPT_SCREENSHOT")?.let { save(it) }
-        onNodeWithText("Not now").performClick()
+        assertEquals(2, onAllNodesWithText("Starting out").fetchSemanticsNodes().size, "the level's name and the slider's start")
+        onNodeWithText("Start from scratch").assertExists()
+        onNodeWithText("Skip for now").performClick()
         waitForIdle()
         assertEquals(1, closed)
         assertTrue(onAllNodesWithTag("vocabulary-level-prompt").fetchSemanticsNodes().isEmpty())
@@ -71,12 +73,26 @@ class VocabularyLevelPromptTest {
     }
 
     @Test
-    fun choosingJustStartingOutStopsTheQuestion() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun movingTheSliderPicksALevelAndStartingSavesIt() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-0").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("level-0").performClick()
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("level-slider").performSemanticsAction(SemanticsActions.SetProgress) { it(3f) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Start with 300 words").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Early beginner").assertExists()
+        onNodeWithText("Words around this level").assertExists()
+        System.getenv("LEVEL_PROMPT_SCREENSHOT")?.let { save(it) }
+        onNodeWithText("Start with 300 words").performClick()
+        waitUntil(timeoutMillis = 10_000) { closed == 1 }
+        assertEquals(false, runBlocking { service.needsLevel(portuguese) })
+        assertEquals(300, viewModel.state.value.level)
+    }
+
+    @Test
+    fun startingFromScratchStopsTheQuestion() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("prompt-set-level").assertIsEnabled()
-        onNodeWithText("Set level to 0").performClick()
+        onNodeWithText("Start from scratch").performClick()
         waitUntil(timeoutMillis = 10_000) { closed == 1 }
         assertEquals(false, runBlocking { service.needsLevel(portuguese) })
     }
