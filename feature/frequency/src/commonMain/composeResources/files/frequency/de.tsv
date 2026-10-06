@@ -26,7 +26,7 @@ als	als
 du	du dir dich dus
 so	so son so'n sone sonen so'ne
 ihr	ihr ihre ihrer ihren euch ihrem ihres ihrs
-dass	dass dat dasz
+dass	dass dat dasz daß
 dieser	diese dieser diesem dieses diesen dies
 wir	wir uns wirs
 wie	wie
@@ -43,7 +43,7 @@ um	um ums hierum
 man	man
 kein	keine kein keinen keiner keinem keines keins
 mein	meine mein meiner meinem meinen meines meins meyn
-müssen	muss müssen musste musst müsste mussten müssten müsse müsst müsstest musstest müsstet musstet gemusst
+müssen	muss müssen musste musst müsste mussten müssten müsse müsst müsstest musstest müsstet musstet gemusst müßte müßten
 machen	machen macht gemacht mach machte mache machst machten macher mächte machs mächten machern machens machend machet machtest macherinnen
 über	über übers hierüber übern überm
 geben	gibt geben gab gegeben gibt's gebe gibts geb gaben gib gäbe gebt gibst gebet gebeten gegebenen gebete gegebene gegebener geber gegebenem gebets gäben gegebenes gebetes gabst gebens gebend gebers
@@ -72,7 +72,7 @@ immer	immer
 neu	neue neuen neu neues neuer neuem neuesten neueste neuere neueren neusten neuste neuerer neuester neuestem neuestes neueres neustem neuster neustes
 ganz	ganz ganze ganzen ganzes ganzer ganzem janz gantz
 wieder	wieder
-groß	grosse grossen gross grosser grösste grössten grosses grössere grösser grösseren grossem grösster grösserer grösseres grösstes grösserem grösstem
+groß	grosse grossen gross grosser grösste grössten grosses grössere grösser grösseren grossem grösster grösserer grösseres grösstes grösserem grösstem große großen groß großer größte größten großes größere größer größeren großem größter größerer größeres größtes größerem größtem
 alle	alle
 finden	finden findet finde gefunden fand findest fanden find fände gefundenen gefundene fänden funden fandest gefundenes fande fändest fandet gefundener findens
 sehr	sehr
@@ -80,8 +80,8 @@ alles	alles allen
 unter	unter unterm unters untern worunter hierunter
 jeder	jeder jeden jede jedes jedem
 stehen	steht stehen stand standen stehe stehenden gestanden stehst steh stehende stände stehend stünde ständen stande stünden stehn stehender stehendes standes stands ständchen gestandene stehendem gestandenen stund standest standl gestandener stahn stehet
-lassen	lassen lässt liess lass lasst gelassen lasse liesse liesst lasset gelassener gelassenen gelassene lassend liessest lasser lassens
-wissen	weiss wissen wusste weisst wisst gewusst wussten wüsste wissens wüssten wisse wusstest wüsstest wissend wusstet wüsstet wisset
+lassen	lassen lässt liess lass lasst gelassen lasse liesse liesst lasset gelassener gelassenen gelassene lassend liessest lasser lassens laßen läßt ließ laß gelaßen ließe ließt ließest
+wissen	weiss wissen wusste weisst wisst gewusst wussten wüsste wissens wüssten wisse wusstest wüsstest wissend wusstet wüsstet wisset weiß weißt wußten
 unser	unsere unser unserer unseren unserem unseres unsre unsern unserm unsrer unsren unsrem unsers unsres
 deutsch	deutschen deutsche deutsch deutscher deutsches deutschem teutsch deutscheste
 erste	ersten erste erster erstes erstem
@@ -191,7 +191,7 @@ Teil	teil teile teiles
 einmal	einmal
 sprechen	sprechen spricht sprach gesprochen sprachen sprich spreche sprichst sprecht sprech spräche sprächen sprechend sprachst sprechens
 lesen	lesen gelesen liest leser last lese las les lies lasten laster lest lasen lastet lesens gelesenen gelesene lesend lesenden lasters lastern lastete lesende läst laste lasteten gelesenes
-heißen	heisst heissen heiss hiess
+heißen	heisst heissen heiss hiess heißt heißen heiß hieß
 Seite	seite seiten
 darauf	darauf drauf
 Freund	freunde freund freundin freunden freundes freundchen freundet freunds freundete freundeten
@@ -274,7 +274,7 @@ Hand	hand hände händen händchen
 Sache	sache sachen
 neben	neben
 statt	statt
-essen	essen gegessen isst esse iss ess essens esst essenden essend gessen essende
+essen	essen gegessen isst esse iss ess essens esst essenden essend gessen essende ißt
 fallen	fällt fallen fiel fielen falle fallt fiele fallend fällst
 bestimmt	bestimmt bestimmte bestimmten bestimmter bestimmtes bestimmtem
 schlecht	schlecht schlechte schlechter schlechten schlechtes schlechteste schlechtesten schlechtem schlechtere schlechteren schlechtestes schlechteres schlechtester schlechterer schlechterem
@@ -306,7 +306,7 @@ Abend	abend abends abende abenden
 stimmen	stimmt stimmen stimmte gestimmt stimmten stimm stimmst gestimmten stimmenden
 beginnen	beginnt begann beginnen begonnen begannen beginnend beginne beginnst
 Gruppe	gruppe gruppen grüppchen grupp
-passen	passt passen pass passend passende passenden passte pässe gepasst passe passender passendes passten pässen passes passendem passendere passenderen passenderes passendste passendsten
+passen	passt passen pass passend passende passenden passte pässe gepasst passe passender passendes passten pässen passes passendem passendere passenderen passenderes passendste passendsten paßt
 jung	jung junge junger jungen jüngeren jünger jungs jüngere jüngsten jüngste junges jüngster jüngerer jüngstes jüngern jüngeres jungem jüngers jüngerem jüngstem
 entscheiden	entscheiden entschieden entscheidet entscheidend entschied entscheidende entscheidenden entscheide entscheidender entscheidest entscheidendes entscheider entscheid entschiedenen entschiedener entschiedene entschiedenes entscheidern entscheidene entscheidendem entschiedensten entscheids
 Gott	gott gottes götter göttin göttern göttinnen gotts gotte gotten
@@ -322,9 +322,9 @@ deutlich	deutlich deutliche deutlicher deutlichen deutliches deutlichsten deutli
 legen	legen legt legte gelegt lege leg legten legst legend gelegten leger gelegte legere gelegtes gelegter legerer
 Punkt	punkt punkte punkten punktet pünktchen punktes gepunktet punktete gepunkteten gepunktete punkts punkteten
 schwarz	schwarz schwarze schwarzen schwarzer schwarzes schwarzem schwärzer schwärzesten schwärzeste
-Straße	strasse strassen
+Straße	strasse strassen straße straßen
 bieten	bietet bieten bot geboten biete boten bots gebotenen gebotene bietenden böte bietest böten biet gebotener
-außerdem	ausserdem
+außerdem	ausserdem außerdem
 leider	leider
 online	online
 wählen	wählen gewählt wählt gewählten wähle wählte gewählte wählten gewählter wählst wähl gewähltes wählenden gewähltem
@@ -339,7 +339,7 @@ sorgen	sorgen sorge sorgt gesorgt sorgte sorgten sorg sorgst sorgende
 Anfang	anfang anfangs anfänge anfängen anfange
 grün	grünen grüne grün grüner grünes grünem grünt grüns
 halt	halt halts
-sitzen	sitzen sitzt sitz sitze gesessen sitzend sitzenden sitzende sässe sässen sitzes sitzender sitzendes sasst sitzens
+sitzen	sitzen sitzt sitz sitze gesessen sitzend sitzenden sitzende sässe sässen sitzes sitzender sitzendes sasst sitzens säße säßen saßt
 passieren	passiert passieren passierte passierten passiere passier passierenden
 sterben	sterben gestorben starb stirbt starben sterbe sterbenden stirbst stirb sterbende gestorbenen gestorbene sterbender sterbens sterbend sterb sterbt stürbe sterbendes
 niemand	niemand niemanden niemandem niemandes
@@ -417,7 +417,7 @@ Richtung	richtung richtungen richtungs
 Möglichkeit	möglichkeit möglichkeiten
 oben	oben
 Regierung	regierung regierungen regierungs
-vergessen	vergessen vergisst vergiss vergesse vergesst vergass vergessene vergessenen vergess vergassen vergessenes vergessener vergessens
+vergessen	vergessen vergisst vergiss vergesse vergesst vergass vergessene vergessenen vergess vergassen vergessenes vergessener vergessens vergaß vergaßen
 reichen	reicht reichen reichte gereicht reiche reichten reichende reichst reichend
 erzählen	erzählt erzählen erzählte erzähl erzähle erzählten erzählst erzählens erzählenden erzählter erzähltes erzählend
 Tod	tod tode todes todt toden tods
@@ -460,7 +460,7 @@ Entwicklung	entwicklung entwicklungen entwicklungs
 ähnlich	ähnlich ähnliche ähnlichen ähnliches ähnlicher ähnlichem ähnlichsten
 befinden	befindet befinden befand befanden befunden befinde befindest befänden befände befindenden
 oh	oh
-schließlich	schliesslich
+schließlich	schliesslich schließlich
 Klasse	klasse klassen
 schlimm	schlimm schlimmer schlimmste schlimmsten schlimme schlimmes schlimmeres schlimmen schlimmere schlimmeren schlimmster schlimmstes schlimmerem schlimmerer
 schicken	schicken geschickt schickt schick schickte schicke schickten schickst chic schickes geschickte schicker geschickter geschickten geschicktes geschicktesten schicks schickem schicktest
@@ -470,7 +470,7 @@ Stück	stück stücke stücken stückchen stücks stückes
 Mädchen	mädchen mädchens
 bilden	bilden bildet gebildet bildete bildeten gebildeten bildenden gebildete bildende gebildeter bilde bildender bildest gebildetes bildend bildt
 erkennen	erkennen erkannt erkennt erkannte erkenne erkennst erkannten erkenn erkennenden erkennens
-Spaß	spass spässen spasses
+Spaß	spass spässen spasses spaß späßen spaßes
 europäisch	europäischen europäische europäischer europäisches europäisch europäischem
 schaden	schaden schade schäden schadet geschadet schadens schad schadete schadt schadest schadeten
 Sieg	sieg sieger siegen siege siegte siegt sieges siegten gesiegt siegs
@@ -526,7 +526,7 @@ Beitrag	beitrag beiträge beiträgen beitrags beitrages beitrage
 Gemeinde	gemeinde gemeinden
 normal	normal normalen normale normaler normales normalem normalste
 Post	post posten gepostet postet posts poste postest postete postens pöstchen
-verlassen	verlassen verlässt verliess verliessen verlass verlasse verlassenen verlassene verlasst verlassenes verlassener verliesse
+verlassen	verlassen verlässt verliess verliessen verlass verlasse verlassenen verlassene verlasst verlassenes verlassener verliesse verläßt verließ verließen verlaß verließe
 Einsatz	einsatz einsätze einsätzen einsatzes
 Firma	firma firmen firm firme
 Kreis	kreis kreisen kreise kreises kreischen kreist kreischt kreiste kreischend kreisenden kreisten kreischende kreischenden kreisch krisch kreischte kreischten
@@ -545,7 +545,7 @@ März	märz mär märzen
 ach	ach achs
 zahlreich	zahlreiche zahlreichen zahlreicher zahlreich zahlreiches zahlreicheren
 trotz	trotz trotze
-außer	ausser
+außer	ausser außer
 gestern	gestern
 na	na
 vorbei	vorbei
@@ -577,7 +577,7 @@ funktionieren	funktioniert funktionieren funktionierte funktionierende funktioni
 Lösung	lösung lösungen
 Schüler	schüler schülern schülerinnen schülerin schülers
 verkaufen	verkaufen verkauf verkaufe verkaufte verkäufe verkauften verkaufs verkaufst verkäufen verkaufenden verkaufes
-besitzen	besitzt besitzen besitzer besass besessen besassen besitze besessenen besessene besässen besässe besitzenden besessener
+besitzen	besitzt besitzen besitzer besass besessen besassen besitze besessenen besessene besässen besässe besitzenden besessener besaß besaßen besäßen besäße
 Menge	menge mengen meng
 Kraft	kraft kräfte kräften krafft
 August	august auguste augusts
@@ -589,7 +589,7 @@ tot	tot toten tote toter totes totem todt totems
 singen	singen sänger singt sängerin gesungen sang sing singe sangen sängerinnen sängern sängers singend singst gesungenen gesungene singens singet saenger gesungenes
 vorstellen	vorstellen vorgestellt vorzustellen vorstellt vorgestellten vorstelle vorstellte vorgestellte vorstellst vorstellten vorstellend vorgestelltes
 November	november novembers
-scheiße	scheisse
+scheiße	scheisse scheiße
 sowohl	sowohl
 Gesicht	gesicht gesichter gesichtern gesichts gesichtes gesichte
 per	per pers pere
@@ -650,7 +650,7 @@ Bad	bad bäder bade bädern bades zkb bads
 Markt	markt märkte marktes märkten markts markte
 falls	falls
 rechts	rechts
-Messe	mass messe messen gemessen miss misst missen gemessenen gemessene misses gemessener messt misse massen masst
+Messe	mass messe messen gemessen miss misst missen gemessenen gemessene misses gemessener messt misse massen masst maß meße meßen gemeßen mißt meßt maßen maßt
 erfolgen	erfolgt erfolgen erfolgte erfolgten erfolge erfolgter erfolgtem erfolgenden
 wachsen	wächst wachsen gewachsen wuchs wachsenden wachsende wachs wachsender wuchsen gewachsenen gewachsene wachse wachsendes wachsendem wachst wachsend gewachsener gewachsenes gewachst wüchsen
 Schuld	schuld schulden geschuldet schuldet schulde schuldest geschuldeten schuldete schuldt schuldeten
@@ -696,7 +696,7 @@ Sonntag	sonntag sonntags sonntage sonntagen
 perfekt	perfekt perfekte perfekten perfektes perfekter perfektem perfekteste
 Traum	traum träume träumen geträumt träumt träumte träum träumst traums träumten traumes traume träumend
 Tor	tor tore toren thor tores tors
-weiß	weissen weisse weisser
+weiß	weissen weisse weisser weißen weiße weißer
 schützen	schützen geschützt schützt geschützten schütz geschützte schütze schützende geschützter schützte schützenden schützend geschütztes schützten schützender schützendes geschütztem schützin schützinnen
 trinken	trinken getrunken trinkt trinke trink trank trinkst tranken tränke getränkt tränken trinkend trinkens tränkt trinket
 Saison	saison saisons saisonen
@@ -752,7 +752,7 @@ eng	eng enge engen enger engeren engsten engere enges engem engste engstem engst
 wesentlich	wesentlich wesentlichen wesentliche wesentlicher wesentliches wesentlichste wesentlichsten
 entfernt	entfernt entfernten entfernte entferntesten entfernter entferntes entfernteren entferntere
 veröffentlicht	veröffentlicht veröffentlichte veröffentlichten veröffentlichter veröffentlichtes veröffentlichtem
-anschließen	anschliessend anschliessen anschliessenden anschliessende anzuschliessen anschliessender anschliesst anschliessendem anschloss anschlossen anschliessendes anschliesse
+anschließen	anschliessend anschliessen anschliessenden anschliessende anzuschliessen anschliessender anschliesst anschliessendem anschloss anschlossen anschliessendes anschliesse anschließend anschließen anschließenden anschließende anzuschließen anschließender anschließt anschließendem anschließendes anschließe
 erwarten	erwarten erwarte erwartete erwartest erwartenden erwarteten erwartende erwartender erwart
 Kritik	kritik kritiken
 Stimme	stimme stimmchen
@@ -772,7 +772,7 @@ Professor	professor prof professoren professorin professors professorinnen profe
 Zeug	zeug zeugen zeuge zeugt zeugin zeugs gezeugt zeugte zeugten zeuginnen gezeugten
 Sport	sport sports sportes
 Februar	februar februars
-Fußball	fussball
+Fußball	fussball fußball
 heraus	heraus
 Informationen	informationen
 nochmal	nochmal
@@ -868,7 +868,7 @@ Samstag	samstag samstags samstagen samstage
 interessiert	interessiert interessierte interessierten interessierter interessiertes
 Studie	studie studien
 amerikanisch	amerikanischen amerikanische amerikanischer amerikanisch amerikanisches amerikanischem
-Fuß	fuss füsse
+Fuß	fuss füsse fuß füße
 Künstler	künstler künstlerin künstlern künstlers künstlerinnen
 facebooken	facebook
 genauso	genauso
@@ -890,7 +890,7 @@ rücken	rücken rückt rückte gerückt rück rückten rückens rücke ruecken g
 verletzt	verletzt verletzte verletzten verletzter verletztes verletztem
 Unterstützung	unterstützung unterstützungen
 heiligen	heiligen heilige heilig heiliger heiliges geheiligt heiligsten heiligt heiligste heiligem
-scheißen	scheiss scheissen geschissen
+scheißen	scheiss scheissen geschissen scheiß scheißen
 Geschäft	geschäft geschäfte geschäften geschäfts geschäftes
 Amt	amt amtes ämter ämtern amts amte
 durchaus	durchaus
@@ -905,7 +905,7 @@ vergehen	vergangenen vergehen vergangen vergeht vergangene vergangener vergangen
 verantwortlich	verantwortlich verantwortlichen verantwortliche verantwortlicher verantwortliches
 zwingen	gezwungen zwingen zwang zwingend zwingt zwangen zwängen zwingende zwänge zwinge zwangs zwingenden zwing zwingender zwängt zwingst gezwängt zwingendes gezwungener gezwungene gezwungenen zwängte zwanges
 Besuch	besuch besuche besuchs besuches
-Schluss	schluss schlüsse schlüssen schlusse
+Schluss	schluss schlüsse schlüssen schlusse schluße
 Prozess	prozess prozesse prozesses prozessen
 Funktion	funktion funktionen
 Wunsch	wunsch wünsche wünsch wunsches wunsche
@@ -954,7 +954,7 @@ Freude	freude freud freuden
 Hintergrund	hintergrund hintergründe hintergründen hintergrunds hintergrundes
 irgendetwas	irgendwas irgendetwas iwas
 Schiff	schiff schiffe schiffen schiffes schiffs schiffchen schiffte schifft geschifft
-fassen	fassen gefasst fasst fass fasste fasse fässer gefassten gefasste fässern fassten fassenden fässchen gefasster fasses gefasstes
+fassen	fassen gefasst fasst fass fasste fasse fässer gefassten gefasste fässern fassten fassenden fässchen gefasster fasses gefasstes gefaßt faßt gefaßten gefaßte fäßchen gefaßter gefaßtes
 wissenschaftlich	wissenschaftliche wissenschaftlichen wissenschaftlich wissenschaftlicher wissenschaftliches wissenschaftlichem
 Fahrrad	fahrrad rad räder fahrräder rädern fahrrädern rade rades rädchen radl fahrrads fahrrades gerädert rads
 Park	park parken parks parker geparkt parkt parkte parke parkes parkers parkten parkst parkens
@@ -966,7 +966,7 @@ ficken	ficken fick gefickt fickt ficke fickst fickte ficks
 erfüllen	erfüllt erfüllen erfüllte erfülle erfüllten erfülltes erfüllende erfüllst erfüllend erfüllter erfüll
 krank	krank kranken kranke kranker krankes krankt kränker krankem
 Partner	partner partnern partnerin partners partnerinnen
-Maßnahme	massnahmen massnahme
+Maßnahme	massnahmen massnahme maßnahmen maßnahme
 erwähnt	erwähnt erwähnte erwähnten erwähnter erwähntes
 modern	modernen modern moderner modernes modernsten modernste modernem modernere modernster moderneren moder moderneres modernstes modernstem
 cm	cm
@@ -976,7 +976,7 @@ Nordost	no nordost
 Handy	handy handys
 speziell	speziell spezielle speziellen spezielles spezieller speziellem speziellere spezielleren
 zerstören	zerstört zerstören zerstörte zerstörten zerstörer zerstöre zerstörtes zerstörst zerstörter zerstör zerstörern zerstörende zerstörend
-Schloss	schloss schlösser schlosses schlössern schlösschen schlosse
+Schloss	schloss schlösser schlosses schlössern schlösschen schlosse schloß schlößchen schloße
 leer	leer leere leeren leerer leeres geleert leerem leert leerte leerten leers
 Haar	haare haar haaren härchen haares haars haart
 extrem	extrem extreme extremen extremer extremes extremsten extremem extremste extremere extremeren
@@ -1007,7 +1007,7 @@ App	app apps
 weltweit	weltweit weltweiten weltweite weltweiter weltweites weltweitem
 Gerät	gerät geräte geräten gerätes geräts
 Ausdruck	ausdruck ausdrücken ausgedrückt ausdrucken auszudrücken ausdrücke ausdrückt ausgedruckt ausdrucks ausdrückte ausdrucke auszudrucken ausgedruckten ausgedrückte ausdrückten ausdrückst ausgedrückten
-Einfluss	einfluss einflüsse einflüssen einflusses
+Einfluss	einfluss einflüsse einflüssen einflusses einfluß
 Stein	stein steine steinen steins steinchen steines steindl
 sammeln	sammeln gesammelt sammelt sammelte sammelten sammle sammel sammelst sammele sammelns
 tanzen	tanzen tanz tanzt tänzer getanzt tänze tanzte tanze tanzten tanzenden tanzes tänzen tanzend tänzchen tanzens
@@ -1067,9 +1067,9 @@ Operation	op operation operationen
 leiten	leitet geleitet leiten leitete leitende leitenden leitender leite leiteten leit leitest leitend leitendes geleitetes
 Auswahl	auswahl auswahlen
 derzeit	derzeit
-regelmäßig	regelmässig
+regelmäßig	regelmässig regelmäßig
 Grundlage	grundlage grundlagen
-Bus	bus busse bussen buss busses
+Bus	bus busse bussen buss busses buße bußen
 Zeitpunkt	zeitpunkt zeitpunkten zeitpunkte zeitpunkts zeitpunktes
 Konzept	konzept konzepte konzepten konzepts konzeptes
 dicht	dicht dichter dichte dichten dichters dichtes dichterin dichtem dichtern dichtesten gedichtet dichtete dichtet dichtere dichteste dichteren dichterinnen dichteres dichteten
@@ -1118,9 +1118,9 @@ Pferd	pferd pferde pferden stute hengst pferdes wallach stuten hengste pferdchen
 Lust	lust lüste
 präsentieren	präsentiert präsentieren präsentierte präsentierten präsentiere präsentierst
 Anzahl	anzahl
-bloß	bloss
+bloß	bloss bloß
 erstmal	erstmal
-Größe	grösse
+Größe	grösse größe
 immerhin	immerhin
 sobald	sobald
 solange	solange
@@ -1141,18 +1141,18 @@ ankommen	angekommen ankommt ankommen ankam ankamen anzukommen ankomme ankommende
 unglaublich	unglaublich unglaubliche unglaublichen unglaubliches unglaublicher unglaublichsten unglaublichem
 Wand	wand wände wänden
 willkommen	willkommen willkommene willkommener willkommens willkommenes willkommenen
-bewusst	bewusst bewusste bewusster bewussten bewusstes bewusstem
+bewusst	bewusst bewusste bewusster bewussten bewusstes bewusstem bewußte bewußter bewußten bewußtes bewußtem
 Eindruck	eindruck eindrücke eindrücken eingedrückt eindrucks
-Schließe	schliessen schliesse schlossen schliessende schliesser
+Schließe	schliessen schliesse schlossen schliessende schliesser schließen schließe schloßen schließer
 sichern	sichern gesichert sichert sicherte sicherten sichere sicherst
 staatlich	staatlichen staatliche staatlich staatlicher staatliches staatlichem
 Verlag	verlag verlage verlags verlages verlagen
 Auftrag	auftrag aufträge aufträgen auftrags auftrage auftrages
 betragen	beträgt betragen betrugen betrogen betrügt betrügen betrage betrogene betrüge betrügst betrog betrogenen
 breit	breit breiter breiten breites breiteren breitere breitet breitem breiteres breitete breitesten breiteste breiterer breiteten
-außerhalb	ausserhalb
+außerhalb	ausserhalb außerhalb
 stören	stört stören gestört störend störte gestörte störe störende gestörten störenden stör störten gestörter gestörtes störst störendes störender
-gewiss	gewisse gewiss gewisser gewisses gewissem
+gewiss	gewisse gewiss gewisser gewisses gewissem gewiße gewißer gewißes gewißem
 greifen	greifen greift gegriffen greife griffen greif griffe greifst greifende greifenden gegriffenen gegriffene greifend
 entdeckt	entdeckt entdeckte entdeckten entdecktes entdeckter
 negativ	negativ negative negativen negatives negativer negativem
@@ -1192,7 +1192,7 @@ eingesetzt	eingesetzt eingesetzten eingesetzte eingesetzter eingesetztes
 Untersuchung	untersuchung untersuchungen
 prüfen	prüfen geprüft prüft prüfe geprüften prüfte geprüfter prüf prüften prüfenden prüfende prüfend geprüftes prüfst
 Spur	spur spuren spurt gespurt
-draußen	draussen
+draußen	draussen draußen
 Jugend	jugend
 möglichst	möglichst
 komisch	komisch komische komischen komisches komischer komischem komischsten
@@ -1236,11 +1236,11 @@ reagieren	reagiert reagieren reagierte reagierten reagiere reagierst reagierende
 Konzert	konzert konzerte konzerten konzerts konzertes
 Halle	halle hallen hallt hallte halles hallten
 Baby	baby babys babies
-ausschließlich	ausschliesslich ausschliessliche ausschliesslichen ausschliesslicher ausschliessliches
+ausschließlich	ausschliesslich ausschliessliche ausschliesslichen ausschliesslicher ausschliessliches ausschließlich ausschließliche ausschließlichen ausschließlicher ausschließliches
 schmerzen	schmerzen schmerz schmerzt schmerzes schmerzte schmerzenden geschmerzt schmerzten schmerze
 still	still stille stillen stiller gestillt stilles stillt stillem stillende stillte stillens
 behalten	behalten behält behielt behalte behielten behalt behaltet behältst
-Wissenschaft	wissenschaft wissenschaften wissenschafts
+Wissenschaft	wissenschaft wissenschaften wissenschafts wißenschaft wißenschaften
 darstellen	darstellen darstellt darzustellen darstellte darstellten darstelle darstellende darstellst darstellend
 organisieren	organisiert organisieren organisierte organisierten organisierter organisiertes organisiere organisierenden organisiertem organisier organisierst
 kritisch	kritisch kritische kritischen kritischer kritisches kritischem kritischsten kritischere kritischste
@@ -1274,7 +1274,7 @@ abgeben	abgeben abgegeben abzugeben abgaben abgibt abgegebenen abgab abgegebene 
 Religion	religion religionen reli
 Bürgermeister	bürgermeister bürgermeisters bürgermeisterin bürgermeistern bürgermeisterinnen
 Umgebung	umgebung umgebungen
-Masse	masse massen masst
+Masse	masse massen masst maße maßen maßt
 sinken	sinkt sinken sankt sank gesunken sinkende sinkenden sanken sinkender gesunkenen gesunkene sinke sink sinkend sinkendes sinkendem gesunkener
 Jugendlicher	jugendliche jugendlichen jugendlicher jugendlichem
 Nachbar	nachbarn nachbar nachbarin nachbars nachbarinnen
@@ -1323,7 +1323,7 @@ Zentrum	zentrum zentren zentrums
 Ausstellung	ausstellung ausstellungen
 Schuh	schuhe schuh schuhen schuhs schühchen
 Wille	willen wille willens
-verpassen	verpasst verpassen verpasste verpasse verpassten verpass verpasster
+verpassen	verpasst verpassen verpasste verpasse verpassten verpass verpasster verpaßt
 pflanzen	pflanzen pflanze gepflanzt pflanzt pflänzchen pflanzte pflanz pflanzten pflanzer gepflanzten
 Praxis	praxis praxen
 Theater	theater theaters theatern
@@ -1442,13 +1442,13 @@ klicken	klicken klick klicks klickt klicke geklickt klickst klickte klickten
 ordentlich	ordentlich ordentlichen ordentliche ordentliches ordentlicher ordentlichem
 Prüfung	prüfung prüfungen
 Standort	standort standorte standorten standortes standorts
-Gewissen	gewissen gewissens
+Gewissen	gewissen gewissens gewißen
 ewig	ewig ewige ewigen ewiger ewiges ewigem
 Forderung	forderung forderungen
 Holz	holz hölzernen hölzerne hölzer holzes hölzern holtz hölzernes hölzerner hölzchen holze
 rechtlich	rechtlichen rechtliche rechtlich rechtlicher rechtliches rechtlichem
 fett	fett fette fetten fettes fetter fettem fettesten fetteste gefettet
-außen	aussen
+außen	aussen außen
 Heimat	heimat
 innen	innen
 vorne	vorne
@@ -1478,7 +1478,7 @@ Struktur	struktur strukturen
 Anwendung	anwendung anwendungen anwendungs
 herzlich	herzlich herzlichen herzliche herzliches herzlicher herzlichsten herzlichste herzlichem herzlichstes
 Be	be
-ausschließen	ausgeschlossen ausschliessen auszuschliessen ausschliesst ausschloss ausschliesse ausschliessende ausschliessend ausschliessenden
+ausschließen	ausgeschlossen ausschliessen auszuschliessen ausschliesst ausschloss ausschliesse ausschliessende ausschliessend ausschliessenden ausschließen auszuschließen ausschließt ausschließe ausschließende ausschließend ausschließenden
 eindeutig	eindeutig eindeutige eindeutigen eindeutiger eindeutiges eindeutigem
 weichen	weichen weich weiche weicht wich weicher weiches gewichen weichem wicht wichen wichst weichere weicheren weichst wichte weicheres
 weh	weh wehe weht wehen wehte geweht wehten
@@ -1688,7 +1688,7 @@ Kommission	kommission kommissionen
 Anhänger	anhänger anhängern anhängers anhängerin
 Hochschule	hochschule hochschulen hochschul
 heiraten	heiraten geheiratet heirat heiratete heiratet heirate heirateten heiratest
-genießen	geniessen genoss genossen
+genießen	geniessen genoss genossen genießen
 pflegen	pflegen gepflegt pflegt pfleger pflegte gepflegten gepflegte pflegenden pflegerin pflegten gepflegtes gepflegter pflegern pflegst pflegers pfleg gepflegtem
 Rang	rang range ränge ranges rängen rangs rangen
 verteidigen	verteidigen verteidigt verteidigte verteidige verteidigten verteidigst verteidigenden verteidigende
@@ -1708,7 +1708,7 @@ kaputt	kaputt kaputte kaputten kaputtes kaputter kaputtem
 Fähigkeit	fähigkeiten fähigkeit
 Ehefrau	ehefrau ehemann ehefrauen ehemannes ehemänner ehemanns ehemännern
 kulturell	kulturelle kulturellen kulturell kultureller kulturelles kulturellem
-Fresse	fresse fressen frisst gefressen frass friss fress fresst fressende fresser
+Fresse	fresse fressen frisst gefressen frass friss fress fresst fressende fresser fraß
 Verbrechen	verbrechen verbracht verbrechens verbrochen
 betrachten	betrachten betracht betrachte betrachtete betrachteten betrachtest betrachtenden betrachtend
 Nation	nationen nation
@@ -1769,7 +1769,7 @@ belegen	belegen belege beleg belegte belegten
 dargestellt	dargestellt dargestellten dargestellte dargestellter
 Anfrage	anfrage anfragen angefragt anzufragen angefragten
 Einwohner	einwohner einwohnern einwohnerin
-Kuss	kuss küssen küsse küsst geküsst küsschen küss küsste küssten kusse kusses küssend
+Kuss	kuss küssen küsse küsst geküsst küsschen küss küsste küssten kusse kusses küssend küßchen
 Bescheid	bescheid bescheiden bescheidenen bescheidene beschieden bescheide bescheidener bescheidenes bescheidenem beschied bescheides bescheids bescheideneren
 Umgang	umgang umgangs umgänge
 Übersetzung	übersetzung übersetzungen übersetzungs
@@ -1829,8 +1829,8 @@ andererseits	andererseits andrerseits
 Argument	argumente argument argumenten arguments argumentes
 Motiv	motiv motive motiven motivs
 West	west wests
-Fluss	fluss flüsse flusses flüssen flüsschen flusse
-süßen	süss süssen
+Fluss	fluss flüsse flusses flüssen flüsschen flusse flußes flüßen flüßchen
+süßen	süss süssen süß süßen
 sichtbar	sichtbar sichtbare sichtbaren sichtbarer sichtbares sichtbarem
 nackt	nackt nackte nackten nackter nacktes nacktem
 News	news
@@ -1845,7 +1845,7 @@ Aspekt	aspekte aspekt aspekten aspekts
 Christ	christen christ christin christinnen
 schieben	schieben schiebt geschoben schob schiebe schieber schieb schoben schiebst schiebend geschobenen schiebern
 Webseite	webseite webseiten
-As	as assen asse asses
+As	as assen asse asses aßen
 Instrument	instrument instrumente instrumenten instruments instrumentes
 Hamburger	hamburger hamburgern hamburgerin hamburgers
 Republik	republik republiken
@@ -1904,7 +1904,7 @@ Gymnasium	gymnasium gymnasiums gymnasien gymi
 römisch	römischen römische römisch römischer römisches römischem
 streichen	streichen gestrichen streich streicht streiche striche gestrichenen strichen gestrichene streichst streichenden streichs
 eventuell	eventuell eventuelle eventuellen eventueller eventuelles eventuellem
-gemäß	gemäss
+gemäß	gemäss gemäß
 nachts	nachts
 aufstehen	aufstehen aufstand aufgestanden aufzustehen aufstände aufsteht aufstandes aufstands aufständen aufstehe aufstehst aufstanden
 gegenseitig	gegenseitig gegenseitige gegenseitigen gegenseitiges gegenseitiger gegenseitigem
@@ -1923,7 +1923,7 @@ gelungen	gelungen gelungene gelungenen gelungener gelungenes gelungenem gelungen
 Griff	griff griffen griffe griffes griffs
 Philosophie	philosophie philo philosophien
 Welle	welle wellen well gewellt gewellten gewellte wellt
-erfassen	erfasst erfassen erfasste erfassten erfasse
+erfassen	erfasst erfassen erfasste erfassten erfasse erfaßt
 Landschaft	landschaft landschaften landschafts
 finanzieren	finanziert finanzieren finanzierte finanzierten finanziere finanzier finanziers finanziertes finanzierter finanzierenden finanzierst financier
 Frühstück	frühstück frühstücken gefrühstückt frühstücks frühstücke frühstückt frühstückten frühstückte
@@ -1960,7 +1960,7 @@ Jean	jean jeans
 Event	event events
 Ticket	tickets ticket
 garantieren	garantiert garantieren garantierte garantiere garantierten garantierter garantiertes
-Schuss	schuss schüsse schüssen schusses
+Schuss	schuss schüsse schüssen schusses schuß
 mischen	mischen gemischt mischt gemischten gemischte misch mischte mische gemischter gemischtes mischten gemischtem mischst
 Formel	formel formeln
 Summe	summe summen summt summ sümmchen summte summend
@@ -2048,7 +2048,7 @@ Brand	brand brände brandes brands bränden brande
 Bundesland	bundesländern bundesland bundesländer bundeslandes bundeslands
 anscheinend	anscheinend
 Drogen	drogen
-großartig	grossartig
+großartig	grossartig großartig
 Media	media
 Nord	nord
 spätestens	spätestens
@@ -2103,7 +2103,7 @@ fünfte	fünften fünfte fünfter fünftes fünftem
 Pfarrer	pfarrer pfarrers pfarrerin pfarrern pfarrerinnen
 Oma	oma omas
 Herausforderung	herausforderung herausforderungen
-hinterlassen	hinterlassen hinterlässt hinterliess hinterliessen hinterlasse hinterlasst hinterlassenen hinterlassene
+hinterlassen	hinterlassen hinterlässt hinterliess hinterliessen hinterlasse hinterlasst hinterlassenen hinterlassene hinterließ hinterließen
 Format	format formate formaten formats formates
 Paket	paket pakete paketen pakets paketes
 Option	option optionen
@@ -2114,7 +2114,7 @@ beschlossen	beschlossen beschlossene beschlossenen beschlossenes
 Augenblick	augenblick augenblicke augenblicken augenblicks
 ausbilden	ausgebildet ausbilden ausgebildeten ausbilder auszubilden ausgebildeter ausbildet ausgebildetes ausbildern ausbildete ausbildenden ausgebildetem ausbildner ausbildende
 aufgebaut	aufgebaut aufgebauten aufgebaute aufgebautes aufgebauter
-Schwangerschaft	ss schwangerschaft schwangerschaften
+Schwangerschaft	ss schwangerschaft schwangerschaften ß
 Plattform	plattform plattformen
 sportlich	sportliche sportlich sportlichen sportlicher sportliches sportlichem
 übergeben	übergeben übergab übergibt übergaben übergebe übergebenen übergebene
@@ -2131,7 +2131,7 @@ löschen	löschen löscht lösch lösche löschte löschst löschten losch lisch
 angesichts	angesichts
 gratis	gratis
 letztlich	letztlich
-liessen	liessen
+liessen	liessen ließen
 ohnehin	ohnehin
 worauf	worauf
 zumal	zumal
@@ -2144,10 +2144,10 @@ Schwerpunkt	schwerpunkt schwerpunkte schwerpunkten schwerpunkts schwerpunktes
 zitieren	zitiert zitieren zitierte zitierten zitiere zitierst zitier zitierter zitierend
 enorm	enorm enorme enormen enormer enormes enormem
 ignorieren	ignorieren ignoriert ignoriere ignorierte ignorierst ignorier ignorierten ignorierend
-umfasst	umfasst umfasste umfassten
+umfasst	umfasst umfasste umfassten umfaßt
 entschuldigen	entschuldigen entschuldigt entschuldige entschuldigte entschuldigend entschuldigst entschuldigten
 Austausch	austausch austauschen auszutauschen austausches austauschs austauscht austausche austauschten austauschte
-Stress	stress stressen stresst stresstest stresstests stresses stresse
+Stress	stress stressen stresst stresstest stresstests stresses stresse streß
 hervorragend	hervorragend hervorragende hervorragenden hervorragender hervorragendes hervorragendem hervorragendsten
 Gedicht	gedichte gedicht gedichten gedichts gedichtes
 Probe	probe proben probst geprobt prob probt probten probte
@@ -2160,7 +2160,7 @@ Bibliothek	bibliothek bibliotheken bib bibliotheks
 ungar	ungarn ungar ungarin
 zukünftig	zukünftig zukünftige zukünftigen zukünftiger zukünftiges zukünftigem
 Sitzung	sitzung sitzungen
-überlassen	überlassen überlässt überliess überlasse überliessen überlass überlassenen überlasst überlassene
+überlassen	überlassen überlässt überliess überlasse überliessen überlass überlassenen überlasst überlassene überläßt überließ überließen
 Status	status stati
 Silber	silber silbers
 Account	account accounts
@@ -2199,7 +2199,7 @@ behandeln	behandeln behandelnden behandle behandelte behandelten behandelst beha
 Zustimmung	zustimmung zustimmungen
 erheben	erheben erhebt erhob erhebe erhebenden erhebend erheb
 Server	server servern servers
-vermissen	vermissen vermisse vermisste vermissten vermiss
+vermissen	vermissen vermisse vermisste vermissten vermiss vermiß
 polnisch	polnischen polnische polnisch polnischer polnisches polnischem
 riechen	riecht riechen roch roche rieche gerochen riechst rochen riech riechende riechenden roches riechendes riechend
 langfristig	langfristig langfristige langfristigen langfristiger langfristiges langfristigem
@@ -2332,7 +2332,7 @@ enttäuscht	enttäuscht enttäuschte enttäuschten enttäuschter
 Community	community communitys
 verwandeln	verwandelt verwandeln verwandelte verwandelten verwandle verwandelst verwandelter verwandele
 Schriftsteller	schriftsteller schriftstellerin schriftstellers schriftstellern schriftstellerinnen
-Großteil	grossteil grossteils
+Großteil	grossteil grossteils großteil großteils
 Bord	bord borden borde
 rasen	rasen rast raste rasten rasend ras rastet gerast rasenden rasende rasender rasens rastete rase rasendem
 genügend	genügend genügende genügenden genügender
@@ -2486,10 +2486,10 @@ bewahren	bewahren bewahrt bewahre bewahrte bewahrten bewahrer bewahr
 Überblick	überblick überblicken überblickt überblicke überblicks
 Unterhaltung	unterhaltung unterhaltungen
 Kette	kette ketten gekettet kettchen kettet kett
-Russe	russen russe russin russinnen
+Russe	russen russe russin russinnen rußen ruße
 entfernen	entfernen entferne entfernten entfernte entfernst entfern
 Motto	motto mottos motti
-entlassen	entlassen entlässt entliess entlassenen entlassene entliessen entlassener entlasse
+entlassen	entlassen entlässt entliess entlassenen entlassene entliessen entlassener entlasse entließ entließen
 Provinz	provinz provinzen
 Horst	horst horsten horste
 zugeben	zugeben zugegeben zuzugeben zugibt zugaben zugab zugibst zugebe
@@ -2585,7 +2585,7 @@ gelegentlich	gelegentlich gelegentliche gelegentlichen gelegentlicher gelegentli
 verbergen	verbergen verborgen verbirgt verborgenen verborgene verbarg verborgenes verberge verborgener verbargen
 Lippe	lippen lippe
 Öffentlichkeitsarbeit	pr öffentlichkeitsarbeit
-beschließen	beschloss beschliesst beschliessen beschliesse beschliessenden
+beschließen	beschloss beschliesst beschliessen beschliesse beschliessenden beschloß beschließt beschließen beschließe
 Sand	sand sande sands sanden sandes
 festgelegt	festgelegt festgelegten festgelegte festgelegter festgelegtes
 verliebt	verliebt verliebte verliebten verliebter verliebtes
@@ -2599,7 +2599,7 @@ Erweiterung	erweiterung erweiterungen
 jederzeit	jederzeit
 sexy	sexy
 wofür	wofür
-schießen	schiessen schiess schiesse schiessenden geschossen schossen geschossenen geschossene
+schießen	schiessen schiess schiesse schiessenden geschossen schossen geschossenen geschossene schießen schieß schieße geschoßen
 abgelehnt	abgelehnt abgelehnte abgelehnten abgelehnter
 Nachteil	nachteile nachteil nachteilen
 erzeugt	erzeugt erzeugten erzeugte erzeugter erzeugtes erzeugtem
@@ -2610,7 +2610,7 @@ jetzig	jetzigen jetzige jetziger jetziges jetzigem
 Arbeitnehmer	arbeitnehmer arbeitnehmern arbeitnehmers arbeitnehmerin
 Bernd	bernd bernadette bernds
 juristisch	juristische juristischen juristisch juristischer juristisches juristischem
-befassen	befasst befassen befasste befassten befasse
+befassen	befasst befassen befasste befassten befasse befaßt
 danken	danken dankt dankte gedankt dankend dankten danket
 Ausgleich	ausgleich ausgleichen auszugleichen ausgleichs ausgleicht ausgleichend ausglich
 bequem	bequem bequemer bequeme bequemen bequemes bequemste bequemsten bequemere bequemeren bequemeres
@@ -2635,7 +2635,7 @@ Investition	investitionen investition
 Rathaus	rathaus rathauses rathäuser rathäusern
 feucht	feucht feuchte feuchten feuchter feuchtes feuchtem feuchteren
 Mittelpunkt	mittelpunkt mittelpunkte
-zusammenfassen	zusammengefasst zusammenfassen zusammenfassend zusammenzufassen zusammenfasst zusammenfassende zusammengefassten zusammenfasste zusammenfassenden
+zusammenfassen	zusammengefasst zusammenfassen zusammenfassend zusammenzufassen zusammenfasst zusammenfassende zusammengefassten zusammenfasste zusammenfassenden zusammengefaßt
 Innenstadt	innenstadt innenstädte innenstädten
 derartig	derartige derartigen derartiger derartig derartiges derartigem
 Kriterium	kriterien kriterium kriteriums
@@ -2647,7 +2647,7 @@ unnötig	unnötig unnötige unnötigen unnötiger unnötiges unnötigem
 Vertrieb	vertrieb vertrieben vertriebenen vertriebs vertriebene vertriebener vertriebe
 zugänglich	zugänglich zugänglichen zugängliche zugänglicher zugängliches
 Chemie	chemie
-einschließlich	einschliesslich
+einschließlich	einschliesslich einschließlich
 ferner	ferner
 hinterher	hinterher
 Rassismus	rassismus
@@ -2659,7 +2659,7 @@ bedingt	bedingt bedingte bedingten bedingter bedingtem bedingtes
 engagiert	engagiert engagierte engagierten engagierter engagiertes engagiertesten
 Beteiligung	beteiligung beteiligungen
 Vorschrift	vorschriften vorschrift
-vermisst	vermisst vermisster vermisstes vermisste vermissten vermisstem
+vermisst	vermisst vermisster vermisstes vermisste vermissten vermisstem vermißt
 Zoll	zoll zölle zöllen zolls zolle
 Meisterschaft	meisterschaft meisterschaften
 Erwartung	erwartungen erwartung
@@ -2671,7 +2671,7 @@ Mode	mode moden modes
 Gipfel	gipfel gipfels gipfeln gipfelte gipfelt gipfelten
 Haufen	haufen haufe häufchen hauf häuflein haufens
 logo	logo logos
-nass	nass nassen nasse nasser nasses nassem
+nass	nass nassen nasse nasser nasses nassem naß
 Widerspruch	widerspruch widersprüche widerspruchs widersprüchen
 Salz	salz salze salzen gesalzen gesalzene salzes gesalzenen
 Wirklichkeit	wirklichkeit wirklichkeiten
@@ -2712,7 +2712,7 @@ Architekt	architekten architekt architektin architektinnen
 Ernährung	ernährung
 nachher	nachher
 zufolge	zufolge
-erschießen	erschossen erschiessen erschoss erschossenen erschiess erschossene erschiesse
+erschießen	erschossen erschiessen erschoss erschossenen erschiess erschossene erschiesse erschießen erschieß erschieße
 Center	center centers centern
 Aufwand	aufwand aufwands aufwandes aufwände
 Trick	trick tricks
@@ -2773,7 +2773,7 @@ monatlich	monatlich monatlichen monatliche monatliches monatlicher monatlichem
 genügen	genügt genügen genüge genügte genügten
 fremd	fremd fremden fremdes fremder fremdem
 Migrant	migranten migrant migrantinnen migrantin
-Erdgeschoss	eg erdgeschoss erdgeschosses
+Erdgeschoss	eg erdgeschoss erdgeschosses erdgeschoß erdgeschoßes
 Hahn	hahn hähnchen hähne hahne hahns hähnlein hähnen hahnen
 Bildschirm	bildschirm schirm bildschirme bildschirmen schirme schirmen bildschirms schirmt schirmchen schirms
 kontrolliert	kontrolliert kontrollierte kontrollierten kontrollierter kontrolliertes kontrolliertem
@@ -2893,7 +2893,7 @@ Annahme	annahme annahmen
 gefüllt	gefüllt gefüllte gefüllten gefüllter gefülltes gefülltem
 bürgerlich	bürgerlichen bürgerliche bürgerlich bürgerlicher bürgerliches bürgerlichem
 beschweren	beschweren beschwert beschwerte beschwer beschwere beschwerten beschwerst
-zulassen	zulassen zulässt zuzulassen zuliess zulasse zuliessen zuliesse
+zulassen	zulassen zulässt zuzulassen zuliess zulasse zuliessen zuliesse zuließ zuließen zuließe
 abhalten	abgehalten abhalten abzuhalten abhält abhielt abgehaltenen abgehaltene abhielten abhalte
 Golf	golf golfen golfs golfes golfe
 spezifisch	spezifische spezifischen spezifisch spezifischer spezifisches spezifischem spezifischere
@@ -2914,9 +2914,9 @@ Fernseher	fernseher fernsehern fernsehers
 merkwürdig	merkwürdig merkwürdige merkwürdigen merkwürdiges merkwürdiger merkwürdigsten merkwürdigste
 Weltmeister	weltmeister weltmeisterin weltmeisters weltmeistern
 verbleiben	verbleiben verbleibenden verbliebenen verbleibt verbleibende verblieben verbliebene verblieb verbleibe verbliebener verbleibender
-hässlich	hässlich hässliche hässlichen hässlicher hässliches hässlichste hässlichsten
+hässlich	hässlich hässliche hässlichen hässlicher hässliches hässlichste hässlichsten häßliche häßlichen häßlicher häßliches häßlichste häßlichsten
 erfreuen	erfreut erfreuen erfreute erfreuten erfreue
-verstoßen	verstossen verstoss verstösst verstosse verstiess verstiessen verstossene verstossenen
+verstoßen	verstossen verstoss verstösst verstosse verstiess verstiessen verstossene verstossenen verstoßen verstoß verstößt verstoße verstieß verstießen
 Zeichnung	zeichnungen zeichnung
 verleihen	verleihen verleiht verlieh verleih verleihe verleiher
 Pressemitteilung	pressemitteilung pm pressemitteilungen
@@ -2982,7 +2982,7 @@ demnächst	demnächst
 Justiz	justiz
 oftmals	oftmals
 voran	voran
-Gruß	grüssen gruss
+Gruß	grüssen gruss grüßen gruß
 beauftragen	beauftragt beauftragte beauftragen beauftragten beauftrage
 ermordet	ermordet ermordeten ermordete ermordeter
 romantisch	romantische romantisch romantischen romantischer romantisches romantischem romantischste romantischsten
@@ -2992,7 +2992,7 @@ Mitteilung	mitteilung mitteilungen
 Entschuldigung	entschuldigung tschuldigung entschuldigungen
 produzieren	produzieren produzierte produzierten produzierenden produzierende produziere produzierendes produzierst
 Fassung	fassung fassungen
-beeinflusst	beeinflusst beeinflusste beeinflussten
+beeinflusst	beeinflusst beeinflusste beeinflussten beeinflußt
 vermeintlich	vermeintlich vermeintlichen vermeintliche vermeintlicher vermeintliches vermeintlichem
 unterbrechen	unterbrochen unterbrechen unterbrach unterbricht unterbrochene unterbrochenen unterbrachen unterbreche
 furchtbar	furchtbar furchtbare furchtbaren furchtbarer furchtbares furchtbarsten furchtbarste
@@ -3006,7 +3006,7 @@ Gemüse	gemüse gemüsen gemüses
 blockieren	blockiert blockieren blockierte blockierten blockiere blockierer blockier blockierst
 Auszeichnung	auszeichnung auszeichnungen
 Sorte	sorte sorten
-Kongress	kongress kongresses kongresse kongressen
+Kongress	kongress kongresses kongresse kongressen kongreß
 Pizza	pizza pizzen pizzas
 Potenzial	potenzial potential potenziale potenzials potenzialen
 Apfel	apfel äpfel appel äpfeln apfels
@@ -3032,15 +3032,15 @@ Vereinbarung	vereinbarung vereinbarungen vb
 Einblick	einblick einblicke einblicken
 erhältlich	erhältlich erhältlichen erhältliche erhältlicher
 Gründer	gründer gründerin gründern gründers gründerinnen
-außergewöhnlich	aussergewöhnlich aussergewöhnliche aussergewöhnlichen aussergewöhnliches aussergewöhnlicher aussergewöhnlichem aussergewöhnlichsten aussergewöhnlichste
-Geschoss	geschossen geschoss geschosse geschosses geschossenen geschossene
+außergewöhnlich	aussergewöhnlich aussergewöhnliche aussergewöhnlichen aussergewöhnliches aussergewöhnlicher aussergewöhnlichem aussergewöhnlichsten aussergewöhnlichste außergewöhnlich außergewöhnliche außergewöhnlichen außergewöhnliches außergewöhnlicher außergewöhnlichem außergewöhnlichsten außergewöhnlichste
+Geschoss	geschossen geschoss geschosse geschosses geschossenen geschossene geschoßen geschoß geschoße geschoßes
 Agentur	agentur agenturen
 Bonus	bonus boni
 aussuchen	aussuchen ausgesucht auszusuchen ausgesuchten aussucht ausgesuchter aussuchte aussuchst
 anlegen	anlegen anzulegen anlegt anlegte anlegst anlegten anlege
 Abstimmung	abstimmung abstimmungen
 spezial	special spezial
-Bewusstsein	bewusstsein bewusstseins
+Bewusstsein	bewusstsein bewusstseins bewußtseins
 Comic	comic comics
 festnehmen	festgenommen festnehmen festgenommenen festzunehmen festnahmen festgenommene festnahm festgenommener festnimmt
 ausgerechnet	ausgerechnet
@@ -3088,7 +3088,7 @@ bitter	bitter bittere bitteren bitterer bitteres bitterem bitterste bittersten b
 übersehen	übersehen übersieht übersah übersehe übersahen übersiehst übersäht übersehene
 korrigieren	korrigiert korrigieren korrigierte korrigiere korrigierten korrigierende korrigier korrigierend
 gönnen	gönnen gegönnt gönnt gönne gönn gönner gönnte gönnst gönnten
-anlässlich	anlässlich
+anlässlich	anlässlich anläßlich
 einander	einander
 Mercedes	mercedes
 beinhalten	beinhaltet beinhalten beinhaltete beinhalteten beinhalte
@@ -3134,7 +3134,7 @@ Fantasie	fantasie phantasie fantasien
 Grafik	grafik grafiken
 Tunnel	tunnel tunnels tunneln
 Plakat	plakate plakat plakaten plakats plakates
-angepasst	angepasst angepasste angepassten angepasster angepasstes
+angepasst	angepasst angepasste angepassten angepasster angepasstes angepaßte angepaßten angepaßter angepaßtes
 veröffentlichen	veröffentlichen veröffentlichte veröffentlichten veröffentliche veröffentlich veröffentlichst
 Zigarette	zigaretten zigarette
 ran	ran
@@ -3186,7 +3186,7 @@ reduzieren	reduzieren reduzierte reduzierten reduziere reduzierenden
 irgend	irgend
 jenseits	jenseits
 mega	mega
-äußern	äussern
+äußern	äussern äußern
 indisch	indischen indische indischer indisch indisches indischem
 Kapital	kapital kapitals kapitale kapitalen
 Pirat	piraten pirat piratin
@@ -3211,7 +3211,7 @@ befreien	befreien befreite befreiend befreiten befreie befreiende befreiendes be
 unsicher	unsicher unsicheren unsichere unsicherer unsicheres unsicherem
 zurückziehen	zurückgezogen zurückziehen zurückzuziehen zurückzieht zurückzog zurückzogen zurückziehe zurückgezogenen zurückgezogene zurückgezogenes
 heimlich	heimlich heimliche heimlichen heimlicher heimliches
-erlassen	erlassen erlass erliess erlässt erlassenen erlassene erlasse erlasses erliessen
+erlassen	erlassen erlass erliess erlässt erlassenen erlassene erlasse erlasses erliessen erlaßen erlaß erließ erlaße erlaßes erließen
 Investor	investoren investor investors
 bundesweit	bundesweit bundesweiten bundesweite bundesweiter bundesweites
 WLAN	wlan wlans
@@ -3323,7 +3323,7 @@ Einschätzung	einschätzung einschätzungen
 Denkmal	denkmal denkmäler denkmals denkmälern denkmale denkmalen
 Vergnügen	vergnügen vergnügt vergnügens vergnügte vergnügten vergnüge
 ökonomisch	ökonomischen ökonomische ökonomisch ökonomischer ökonomisches ökonomischem
-fleißig	fleissig fleissigen fleissige fleissiger fleissiges fleissigsten fleissigste
+fleißig	fleissig fleissigen fleissige fleissiger fleissiges fleissigsten fleissigste fleißig fleißigen fleißige fleißiger fleißiges fleißigsten fleißigste
 Terror	terror terrors
 Bär	bär bären bärchen bärin
 kotzen	kotzen kotzt kotze kotz gekotzt kotzte
@@ -3355,7 +3355,7 @@ Depression	depression depressionen
 vornehmen	vornehmen vorzunehmen vornimmt vornehme vornahm vornahmen
 Kartoffel	kartoffeln kartoffel
 afrikanisch	afrikanischen afrikanische afrikanischer afrikanisches afrikanisch afrikanischem
-Boss	boss bosse bossen bosses
+Boss	boss bosse bossen bosses boß boße boßen
 verzweifelt	verzweifelt verzweifelte verzweifelten verzweifelter verzweifeltes
 pfeifen	pfeifen pfeife pfeift pfiff gepfiffen pfiffe pfeif pfiffen pfeifend pfeifenden pfeifende pfeifst pfeifchen
 neigen	neigt neigen geneigt neige geneigten geneigte neigte neigten geneigter neigst geneigtem
@@ -3391,7 +3391,7 @@ blond	blonde blond blonden blondes blonder blondem
 Gläubiger	gläubigen gläubiger gläubige gläubigern gläubigers
 Komponente	komponenten komponente
 Tempo	tempo tempi tempos
-verfasst	verfasst verfasste verfassten verfasstes verfasster
+verfasst	verfasst verfasste verfassten verfasstes verfasster verfaßt
 Minderheit	minderheit minderheiten
 heimisch	heimischen heimische heimisch heimischer heimischem heimisches
 Erhebung	erhebung erhebungen
@@ -3411,7 +3411,7 @@ abschaffen	abgeschafft abschaffen abzuschaffen abschafft abschaffte abgeschaffte
 verfallen	verfallen verfall verfällt verfiel verfallenen verfalls verfallene verfielen verfalle verfallenden
 bewaffnet	bewaffnet bewaffneten bewaffnete bewaffneter bewaffnetes bewaffnetem
 Radfahrer	radfahrer radfahrern radfahrerin radfahrers
-maßgeblich	massgeblich massgeblichen massgebliche massgeblicher massgebliches
+maßgeblich	massgeblich massgeblichen massgebliche massgeblicher massgebliches maßgeblich maßgeblichen maßgebliche maßgeblicher maßgebliches
 Nationalmannschaft	nationalmannschaft nationalmannschaften nati
 sächsisch	sächsischen sächsische sächsisch sächsischer sächsisches sächsischem
 atmen	atmen atmet atme atmete geatmet atmest atmend atmeten atmende atmenden
@@ -3440,7 +3440,7 @@ eingetragen	eingetragen eingetragenen eingetragene eingetragener eingetragenes
 angeschlossen	angeschlossen angeschlossenen angeschlossene angeschlossener angeschlossenem angeschlossenes
 Akku	akku akkus
 Lieferung	lieferung lieferungen
-Schoss	schoss schossen schosse
+Schoss	schoss schossen schosse schoß schoße
 neugierig	neugierig neugierige neugierigen neugieriger neugieriges
 Opa	opa opas
 Grundsatz	grundsatz grundsätze grundsätzen grundsatzes
@@ -3453,7 +3453,7 @@ Laptop	laptop laptops
 Beat	beat beate beats
 Roboter	roboter robotern roboters
 kombinieren	kombiniert kombinieren kombinierte kombinierten kombiniere kombinierter kombiniertes kombinierst
-Rasse	rasse rassen
+Rasse	rasse rassen raße raßen
 Heer	heer heeres heere heeren heers
 Dachterrasse	dt dachterrasse dachterrassen
 Schalk	schalke schalk schalkes
@@ -3480,7 +3480,7 @@ Universum	universum universums universen
 permanent	permanent permanente permanenten permanenter permanentes permanentem
 Substanz	substanz substanzen
 asiatisch	asiatischen asiatische asiatisch asiatischer asiatisches asiatischem
-gießen	giessen giesst goss giesse gossen
+gießen	giessen giesst goss giesse gossen gießen gießt gieße
 Filter	filter filtern gefiltert filtert filters gefilterte gefilterten
 Kühlschrank	kühlschrank kühlschränke kühlschränken kühlschranks
 Handwerk	handwerk handwerks handwerke handwerken
@@ -3493,7 +3493,7 @@ Auffassung	auffassung auffassungen
 Nahrung	nahrung nahrungs
 steil	steil steilen steile steiler steilem steiles steilsten steileren steilere steilste
 transportieren	transportiert transportieren transportierte transportierten transportiere transportierenden
-Riss	riss risse rissen risses
+Riss	riss risse rissen risses riß
 einreichen	eingereicht einreichen einzureichen eingereichten eingereichte einreicht einreichte einreichten
 nachgewiesen	nachgewiesen nachgewiesenen nachgewiesene nachgewiesener
 fake	fake fakten fakes fak faken gefaked faker
@@ -3502,7 +3502,7 @@ kommunal	kommunalen kommunale kommunaler kommunal kommunales kommunalem
 Rätsel	rätsel rätseln rätsels gerätselt rätselt
 anstrengend	anstrengend anstrengenden anstrengende anstrengender anstrengendes anstrengendste
 flammen	flammen flamme flammt flamm flammte flammten flammend flämmchen
-mäßigen	mässig gemässigten mässigen gemässigt mässige mässiger mässigem mässiges
+mäßigen	mässig gemässigten mässigen gemässigt mässige mässiger mässigem mässiges mäßig gemäßigten mäßigen gemäßigt mäßige mäßiger mäßigem mäßiges
 industriell	industriellen industrielle industriell industrieller industrielles industriellem
 Reiter	reiter reitern reiterin reiters
 Budget	budget budgets
@@ -3514,7 +3514,7 @@ Nagel	nagel nägel nägeln nagels
 Chip	chips chip
 verzeihen	verzeihen verziehen verzeiht verzogen verzeih verzieht verzeihe verzog verzieh verzogene verzogenen verziehe verzeihst
 basieren	basierend basieren basierende basierenden basierte basierten basiere basierendes basierender
-begrüßen	begrüssen
+begrüßen	begrüssen begrüßen
 happy	happy
 Lee	lee
 Vielzahl	vielzahl
@@ -3547,7 +3547,7 @@ beibringen	beigebracht beibringen beizubringen beibringt beibrachte beibrachten
 regulär	regulären reguläre regulär regulärer reguläres regulärem
 Affe	affen affe äffchen
 Samen	samen same samet samens
-abschließen	abschliessen abzuschliessen abschliesst abschloss abschlossen abschliesse
+abschließen	abschliessen abzuschliessen abschliesst abschloss abschlossen abschliesse abschließen abzuschließen abschließt abschließe
 sinnlos	sinnlos sinnlose sinnlosen sinnloses sinnloser sinnlosem
 Part	part parts parte partes
 Koffer	koffer koffern koffers köfferchen
@@ -3647,7 +3647,7 @@ erneuern	erneuert erneuern erneuerte erneuerten erneuere erneuernde erneuertes
 Katalog	katalog kataloge katalogen katalogs kataloges
 Kapazität	kapazität kapazitäten kappa
 telefonieren	telefonieren telefoniert telefoniere telefonierte telefonierten telefonierst telefonier
-abschliessend	abschliessend abschliessenden abschliessende abschliessendes abschliessender abschliessendem
+abschliessend	abschliessend abschliessenden abschliessende abschliessendes abschliessender abschliessendem abschließend abschließenden abschließende abschließendes abschließender abschließendem
 vorherig	vorherigen vorherige vorheriger vorheriges vorherigem
 hinterer	hinteren hintere hintersten hinterer hinterste hinteres hinterem
 Daumen	daumen däumchen daumens
@@ -3660,7 +3660,7 @@ Unglück	unglück unglücks unglücke unglücken
 gestatten	gestattet gestatten gestattete gestatte gestatteten gestattest
 orientiert	orientiert orientierte orientierten orientierter orientiertes
 Elite	elite eliten
-Fließ	fliessen floss geflossen fliess flösse flössen flösst flossen
+Fließ	fliessen floss geflossen fliess flösse flössen flösst flossen fließen floß fließ flöße flößen flößt floßen
 Lampe	lampe lampen lämpchen lamp
 Haupt	haupt hauptes häupter haupte häuptern haupts
 Rücktritt	rücktritt rücktritts rücktritte rücktritten
@@ -3687,11 +3687,11 @@ Publikation	publikationen publikation
 Knopf	knopf knöpfe knöpfen knopp knöpfchen knöpft knöpfte knopfes knopfe
 Kader	kader kaders kadern
 Datenbank	datenbank datenbanken
-stoßen	stossen stoss
+stoßen	stossen stoss stoßen stoß
 anerkennen	anerkennen anzuerkennen anerkennt anerkannte anerkannten anerkennend anerkenne anerkennende anerkennenden anerkennendes
 Strich	strich striche strichen
 Tasse	tasse tassen tässchen
-Missbrauch	missbrauch missbrauchs missbrauche missbräuche missbräuchen
+Missbrauch	missbrauch missbrauchs missbrauche missbräuche missbräuchen mißbrauch mißbrauche
 einseitig	einseitig einseitige einseitigen einseitiger einseitiges einseitigem
 Wohnzimmer	wohnzimmer wohnzimmern wohnzimmers
 unerwartet	unerwartet unerwartete unerwarteten unerwartetes unerwarteter unerwartetem
@@ -3744,7 +3744,7 @@ Schlafzimmer	schlafzimmer schlafzimmern schlafzimmers
 Abbildung	abbildung abbildungen
 Workshop	workshop workshops
 Beschäftigung	beschäftigung beschäftigungen
-großzügig	grosszügig grosszügige grosszügigen grosszügiger grosszügiges grosszügigere grosszügigsten grosszügigem
+großzügig	grosszügig grosszügige grosszügigen grosszügiger grosszügiges grosszügigere grosszügigsten grosszügigem großzügig großzügige großzügigen großzügiger großzügiges großzügigere großzügigsten großzügigem
 Wiese	wiese wiesen
 Audi	audi audis
 Hirn	hirn hirne hirns hirnen
@@ -3779,7 +3779,7 @@ Porst	porsche porsch porst
 abseits	abseits
 aha	aha
 erstens	erstens
-größtenteils	grösstenteils
+größtenteils	grösstenteils größtenteils
 keineswegs	keineswegs
 Panik	panik
 Unabhängigkeit	unabhängigkeit
@@ -3795,7 +3795,7 @@ Diagnose	diagnose diagnosen
 Unterschrift	unterschrift unterschriften
 Geschwister	geschwister geschwistern geschwisterchen
 auffordern	aufgefordert auffordern auffordert aufforderte aufzufordern aufforderten auffordernd
-äusserer	äusseren äusserer äusserster
+äusserer	äusseren äusserer äusserster äußeren äußerer äußerster
 ersparen	erspart ersparen erspartes erspare ersparte ersparten erspar ersparst
 Tablet	tablet tablets
 Bann	bann gebannt bannen bannt banne gebannten banns bannte
@@ -3899,7 +3899,7 @@ gestehen	gestehen gesteht gestand gestehe gesteh
 einbrechen	einbrecher eingebrochen einbrechen einzubrechen einbricht einbrach einbrachen einbrechenden
 Schleife	schleife schleifen schliff geschliffen geschleift schleift schleif schlaufe schleifchen schlaufen schleifte schleiften
 trocknen	trocknen getrocknet trocknet getrocknete getrockneten trockne getrocknetes getrockneter trocknete getrocknetem trockneten trocknende
-Außenminister	aussenminister
+Außenminister	aussenminister außenminister
 Ber	ber
 Eintracht	eintracht
 Ferien	ferien
@@ -3947,7 +3947,7 @@ Individuum	individuen individuum individuums
 Leipziger	leipziger leipzigern
 Zusage	zugesagt zusage zusagen zusagt zugesagten zusagte zuzusagen zusagten
 Säule	säulen säule
-Passwort	passwort passwörter passwörtern passworts
+Passwort	passwort passwörter passwörtern passworts paßwort paßwörter paßwörtern paßworts
 aushalten	aushalten auszuhalten ausgehalten aushält aushalte aushielt aushältst
 Ausrüstung	ausrüstung ausrüstungen
 Match	match matches matchen
@@ -3968,7 +3968,7 @@ Rezension	rezension rezensionen
 klettern	klettern klettert kletterte geklettert kletterten kletter klettere
 Id	id ids
 Hemd	hemd hemden hemdchen hemdes
-missbrauchen	missbraucht missbrauchen missbrauchte missbrauchten missbrauche
+missbrauchen	missbraucht missbrauchen missbrauchte missbrauchten missbrauche mißbraucht mißbrauchen mißbrauchte mißbrauchten mißbrauche
 Engländer	engländer engländern engländerin engländers
 Ortsteil	ortsteil ortsteilen ortsteile ortsteils ortsteiles
 Office	office offices
@@ -4067,9 +4067,9 @@ abschalten	abschalten abgeschaltet abzuschalten abschaltet abgeschalteten
 Ewigkeit	ewigkeit ewigkeiten
 Italiener	italiener italienern italieners
 Podcast	podcast podcasts
-einlassen	einlassen eingelassen einzulassen einlässt eingelassenen einliess eingelassene einlasse einliessen
+einlassen	einlassen eingelassen einzulassen einlässt eingelassenen einliess eingelassene einlasse einliessen einließ einließen
 Duo	duo duos
-ausmessen	ausmass ausmassen ausgemessen ausmessen
+ausmessen	ausmass ausmassen ausgemessen ausmessen ausmaß ausmaßen
 Gleis	gleis gleise gleisen gleises geleise
 schweizerisch	schweizerischen schweizerische schweizerischer schweizerisches schweizerisch schweizerischem
 dunkeln	dunkeln dunkle dunkelt
@@ -4209,7 +4209,7 @@ knacken	knacken geknackt knackt knacker knack knacks knackte knacke knackten kna
 schweben	schwebt schweben schwebte schwebe schwebende schwebend schwebten geschwebt schwebst
 schwingen	schwingen schwingt geschwungen schwang schwinge schwing schwangen schwingend schwange schwingst
 parlamentarisch	parlamentarischen parlamentarische parlamentarischer parlamentarisch parlamentarisches
-preußisch	preussischen preussisch
+preußisch	preussischen preussisch preußischen preußisch
 Kommando	kommando kommandos
 Benzin	benzin
 freilich	freilich
@@ -4294,7 +4294,7 @@ Mathe	mathe
 nirgendwo	nirgendwo
 ähm	ähm
 öfters	öfters
-bass	bass bässe basse bässen basses bassen
+bass	bass bässe basse bässen basses bassen bäße bäßen baßes
 gratulieren	gratulieren gratuliere gratuliert gratulierte gratulierten
 Cloud	cloud clouds
 Ideologie	ideologie ideologien
@@ -4316,7 +4316,7 @@ transparent	transparent transparente transparenten transparenter transparentes t
 verkehrt	verkehrt verkehrte verkehrten verkehrtes
 Fassade	fassade fassaden
 kaiserlich	kaiserlichen kaiserliche kaiserlicher kaiserlich kaiserliches kaiserlichem
-Ass	ass assen asse asses
+Ass	ass assen asse asses aß aßen
 Vergewaltigung	vergewaltigung vergewaltigungen
 Radweg	radweg radwege radwegen radweges radwegs
 hinzufügen	hinzufügen hinzuzufügen hinzufügt hinzufügte hinzufüge
@@ -4365,7 +4365,7 @@ Brd	brd
 Errichtung	errichtung
 oberhalb	oberhalb
 Siemens	siemens
-Strauß	strauss
+Strauß	strauss strauß
 vorwärts	vorwärts
 Abfahrt	abfahrt abfahrten
 flüssig	flüssig flüssigen flüssige flüssiger flüssiges flüssigem
@@ -4410,7 +4410,7 @@ Kamerad	kameraden kamerad kameradin
 grinsen	grinsen grinst grinsend grinste grins grinse gegrinst grinsenden grinsende
 gefertigt	gefertigt gefertigte gefertigten gefertigtes gefertigter
 überraschen	überraschen überraschte überrasche überraschten überrasch überraschst
-einschließen	eingeschlossen einschliessen einschliesst eingeschlossene einschloss einzuschliessen
+einschließen	eingeschlossen einschliessen einschliesst eingeschlossene einschloss einzuschliessen einschließen einschließt einzuschließen
 minimal	minimal minimale minimalen minimaler minimalem minimales
 Zeitalter	zeitalter zeitalters zeitaltern
 Bezahlung	bezahlung bezahlungen
@@ -4486,7 +4486,7 @@ checken	checken gecheckt checkt checke checkst checkte
 Islamist	islamisten islamist
 Migration	migration migrationen
 Uniform	uniform uniformen
-Obergeschoss	og obergeschoss obergeschosses obergeschossen obergeschosse
+Obergeschoss	og obergeschoss obergeschosses obergeschossen obergeschosse obergeschoß obergeschoßes obergeschoßen obergeschoße
 Sponsor	sponsoren sponsor sponsors sponsort
 Szenario	szenario szenarien szenarios szenarium
 Liebhaber	liebhaber liebhabern liebhaberin liebhabers
@@ -4505,7 +4505,7 @@ Wohnhaus	wohnhaus wohnhäuser wohnhäusern wohnhauses
 Dialekt	dialekt dialekte dialekten dialekts dialektes
 Grundrecht	grundrechte grundrecht grundrechten grundrechts
 circa	circa
-einigermaßen	einigermassen
+einigermaßen	einigermassen einigermaßen
 Energiewende	energiewende
 garnicht	garnicht
 Knast	knast
@@ -4623,7 +4623,7 @@ Feature	feature features
 Horizont	horizont horizonte horizonts horizonten
 Haustür	haustür haustüre haustüren
 bevorzugen	bevorzugen bevorzuge bevorzugte bevorzugten bevorzugst
-Ross	ross rosse rossen rössel rösser
+Ross	ross rosse rossen rössel rösser roß roße roßen
 Echo	echo echos
 bescheuert	bescheuert bescheuerte bescheuerten bescheuerter bescheuertes
 unterhaltsam	unterhaltsam unterhaltsame unterhaltsamen unterhaltsamer unterhaltsames unterhaltsamsten unterhaltsamste
@@ -4653,7 +4653,7 @@ Bindung	bindung bindungen bindungs
 sortieren	sortiert sortieren sortierten sortiere sortierte sortier sortierst sortierter
 bekanntlich	bekanntlich
 Football	football
-Großvater	grossvater
+Großvater	grossvater großvater
 hä	hä
 Ostern	ostern
 überschritten	überschritten
@@ -4712,7 +4712,7 @@ fraglich	fraglich fraglichen fragliche fraglicher
 Pfeil	pfeil pfeile pfeilen pfeils
 Order	order ordre ordern geordert orderte ordert
 leugnen	leugnen leugnet geleugnet leugne leugnete leugnest leugneten
-reißen	reissen risse rissen
+reißen	reissen risse rissen reißen
 Anwesenheit	anwesenheit
 Anzeichen	anzeichen
 Arbeitslosigkeit	arbeitslosigkeit
@@ -4728,7 +4728,7 @@ knoten	knoten knotens knötchen geknotet knot
 Oberbürgermeister	oberbürgermeister oberbürgermeisters oberbürgermeisterin
 Tool	tool tools
 verschwenden	verschwenden verschwendet verschwende verschwendete verschwendest verschwendeten
-Biss	biss bissen bisserl bisse bisses
+Biss	biss bissen bisserl bisse bisses biß bißen biße bißes
 Maas	maas maassen
 Komödie	komödie komödien
 Erdbeben	erdbeben erdbebens
@@ -4813,7 +4813,7 @@ Thread	thread threads
 Passage	passage passagen
 abgesagt	abgesagt abgesagte abgesagten
 ethisch	ethische ethischen ethisch ethischer ethisches
-Sasse	sassen sasse
+Sasse	sassen sasse saßen
 Wohnraum	wohnraum wohnräume wohnräumen wohnraums
 Heizung	heizung heizungen
 Gebirge	gebirge gebirges gebirgen
@@ -4861,7 +4861,7 @@ anfassen	anfassen angefasst anzufassen anfasst anfasse anfasste
 Kohl	kohl kohls kohlen
 Debüt	debüt debüts
 anfertigen	angefertigt anfertigen anzufertigen angefertigten anfertigte anfertigt angefertigtes
-Nuss	nüsse nuss nüssen nüsschen nüsslein
+Nuss	nüsse nuss nüssen nüsschen nüsslein nuß nüßchen
 Hubschrauber	hubschrauber hubschraubern hubschraubers
 Asche	asche asch aschen
 Zahnarzt	zahnarzt zahnärzte zahnärztin zahnärzten zahnarztes
@@ -4983,7 +4983,7 @@ obdachlos	obdachlose obdachlosen obdachlos obdachloser
 aufsuchen	aufsuchen aufgesucht aufzusuchen aufsucht aufsuchte aufsuchten aufsuchende
 Festung	festung festungen
 Bekämpfung	bekämpfung
-gleichermassen	gleichermassen
+gleichermassen	gleichermassen gleichermaßen
 hierzulande	hierzulande
 Journalismus	journalismus
 Kacke	kacke
@@ -5056,7 +5056,7 @@ gefärbt	gefärbt gefärbte gefärbten gefärbtes gefärbter gefärbtem
 überarbeitet	überarbeitet überarbeitete überarbeiteten überarbeiteter überarbeitetes
 Talk	talk talks
 ägyptisch	ägyptischen ägyptische ägyptischer ägyptisch ägyptisches ägyptischem
-gleichmäßig	gleichmässig gleichmässige gleichmässigen gleichmässiger gleichmässiges gleichmässigere gleichmässigem
+gleichmäßig	gleichmässig gleichmässige gleichmässigen gleichmässiger gleichmässiges gleichmässigere gleichmässigem gleichmäßig gleichmäßige gleichmäßigen gleichmäßiger gleichmäßiges gleichmäßigere gleichmäßigem
 Ausgangspunkt	ausgangspunkt ausgangspunkte
 Patent	patent patente patenten patents patentes
 Zorn	zorn zorns zornes
@@ -5176,7 +5176,7 @@ dual	dual dualen duale duales dualer
 Steuerzahler	steuerzahler steuerzahlern steuerzahlers
 erliegen	erliegen erlag erlegen erlegt erliegt erlegte erlegten erlagen
 Gate	gates gate
-Missverständnis	missverständnis missverständnisse missverständnissen missverständnisses
+Missverständnis	missverständnis missverständnisse missverständnissen missverständnisses mißverständnisse mißverständniße mißverständnisses mißverständnißes
 Erwerb	erwerb erwerbs erwerbe
 stationär	stationären stationäre stationär stationärer stationäres
 zuschreiben	zugeschrieben zuzuschreiben zuschreiben zuschreibt zugeschriebenen zugeschriebene zuschrieb
@@ -5237,7 +5237,7 @@ Hardcore	hardcore
 hinauf	hinauf
 indes	indes
 Manchester	manchester
-Maßstab	massstab
+Maßstab	massstab maßstab
 nebenan	nebenan
 Nürnberger	nürnberger
 Oberliga	oberliga
@@ -5287,7 +5287,7 @@ Verarbeitung	verarbeitung verarbeitungen
 ausbreiten	ausbreiten ausgebreitet ausbreitet auszubreiten ausbreitete ausgebreiteten ausbreitenden ausbreiteten
 frieren	frieren friert gefroren gefrorenen gefrorene friere frier fror gefrorenes frierend gefrorener gefrorenem frierst froren frierenden
 Packung	packung packungen
-vergrößern	vergrössern vergrösserte vergrösserten vergrössere
+vergrößern	vergrössern vergrösserte vergrösserten vergrössere vergrößern vergrößerte vergrößerten vergrößere
 Frosch	frosch frösche fröschen frosches
 Satellit	satelliten satellit
 Strick	strick stricken gestrickt stricke strickt strickte
@@ -5316,7 +5316,7 @@ Evolution	evolution
 Faschismus	faschismus
 gab's	gab's
 glücklicherweise	glücklicherweise
-Großmutter	grossmutter
+Großmutter	grossmutter großmutter
 jap	jap
 jedesmal	jedesmal
 Magie	magie
@@ -5375,8 +5375,8 @@ Verzögerung	verzögerung verzögerungen
 Zombie	zombie zombies
 Verbund	verbund verbündet verbündeten verbünden verbundes verbünde verbunds
 abspielen	abspielen abgespielt abspielt abspielte abzuspielen abspielten abspiele
-Schmeiße	schmeissen geschmissen schmissen
-erschließen	erschliessen erschliesst erschloss
+Schmeiße	schmeissen geschmissen schmissen schmeißen
+erschließen	erschliessen erschliesst erschloss erschließen erschließt erschloß
 verfehlt	verfehlt verfehlte verfehlten verfehlter
 ironisch	ironisch ironische ironischen ironischer ironisches ironischem
 ausgedehnt	ausgedehnte ausgedehnten ausgedehnt ausgedehntes ausgedehnter
@@ -5482,7 +5482,7 @@ vorhersagen	vorhersagen vorhersage vorhergesagt vorherzusagen vorhergesagten vor
 Staatssekretär	staatssekretär staatssekretäre staatssekretärs staatssekretären
 ansässig	ansässigen ansässig ansässige ansässiger ansässiges
 erfolglos	erfolglos erfolglosen erfolglose erfolgloser
-veranlasst	veranlasst veranlasste veranlassten
+veranlasst	veranlasst veranlasste veranlassten veranlaßt
 optimieren	optimieren optimiert optimierte optimierten optimiertes optimierter
 Porto	porto portos
 angetan	angetan
@@ -5665,7 +5665,7 @@ ansteigen	angestiegen ansteigen ansteigt ansteigend angestiegenen anzusteigen an
 herein	herein hierin
 aufm	aufm
 ausgeliefert	ausgeliefert
-Außenpolitik	aussenpolitik
+Außenpolitik	aussenpolitik außenpolitik
 Ausübung	ausübung
 drüben	drüben
 eigens	eigens
@@ -5698,7 +5698,7 @@ eilen	eilt eilen eilte eilten geeilt eil eilenden
 Abschiebung	abschiebung abschiebungen
 geheimnisvoll	geheimnisvolle geheimnisvollen geheimnisvoll geheimnisvolles geheimnisvoller
 Krankenschwester	krankenschwester krankenschwestern
-schweissen	schweiss schweissen geschweisst schweisst schweisse geschweissten
+schweissen	schweiss schweissen geschweisst schweisst schweisse geschweissten schweiß schweißen geschweißt schweißt schweiße geschweißten
 Psychiatrie	psychiatrie psychiatrien
 hungrig	hungrig hungrigen hungrige hungriger hungriges
 Zeh	zehen zeh zehe
@@ -5708,7 +5708,7 @@ erfreulich	erfreulich erfreuliche erfreulichen erfreulicher erfreuliches
 nationalsozialistisch	nationalsozialistischen nationalsozialistische nationalsozialistischer nationalsozialistisch nationalsozialistisches nationalsozialistischem
 visuell	visuelle visuellen visuell visueller visuelles
 willkürlich	willkürlich willkürliche willkürlichen willkürlicher willkürliches
-Selbstbewusstsein	selbstbewusstsein selbstbewusstseins
+Selbstbewusstsein	selbstbewusstsein selbstbewusstseins selbstbewußtsein
 Festplatte	festplatte festplatten
 absprechen	abgesprochen absprechen abzusprechen absprachen abspricht abgesprochenen abgesprochene absprach
 beschimpfen	beschimpft beschimpfen beschimpfte beschimpften beschimpfe beschimpfst
@@ -5728,7 +5728,7 @@ anfallen	anfallen anfallenden angefallen anfällt anfallende angefallenen anfiel
 kanadisch	kanadischen kanadische kanadischer kanadisches kanadisch kanadischem
 überzogen	überzogen überzogene überzogenen überzogener überzogenes
 Abweichung	abweichungen abweichung
-Nachlass	nachlass nachlasses nachlässe nachlässen nachlasse
+Nachlass	nachlass nachlasses nachlässe nachlässen nachlasse nachlaß
 einschränken	einschränken einzuschränken einschränkt einschränkend einschränkende einschränkenden einschränkte einschränke einschränkten
 Gehäuse	gehäuse gehäuses gehäusen
 mühsam	mühsam mühsame mühsamer mühsamen mühsames
@@ -5752,8 +5752,8 @@ Bundesverfassungsgericht	bundesverfassungsgericht bundesverfassungsgerichts bund
 vertiefen	vertiefen vertiefung vertiefte vertiefungen vertieften vertiefende vertiefend
 Beachtung	beachtung
 Claude	claude
-Fußgänger	fussgänger
-Großeltern	grosseltern
+Fußgänger	fussgänger fußgänger
+Großeltern	grosseltern großeltern
 His	his
 Inflation	inflation
 Mitarbeit	mitarbeit
@@ -5820,7 +5820,7 @@ Darm	darm darms därme darmes
 Ausschreibung	ausschreibung ausschreibungen
 Bug	bug bugs
 Ruine	ruinen ruine
-Strassburg	strassburg strassburgs
+Strassburg	strassburg strassburgs straßburg straßburgs
 beitreten	beitreten beigetreten beizutreten beitrat beitraten
 Einreise	einreise einreisen eingereist einreist eingereisten einzureisen einreisenden
 Schnauze	schnauze schnauzen schnauz
@@ -5850,8 +5850,8 @@ letztens	letztens
 netto	netto
 Renaissance	renaissance
 Romantik	romantik
-Schließung	schliessung
-Straßenbahn	strassenbahn
+Schließung	schliessung schließung
+Straßenbahn	strassenbahn straßenbahn
 ungern	ungern
 Weimarer	weimarer
 lesbisch	lesbische lesbisch lesbischen lesbisches lesbischer
@@ -5930,7 +5930,7 @@ Stempel	stempel stempeln gestempelt stempelt stempels
 württembergisch	württembergischen württembergische württembergischer württembergisches
 Durchgang	durchgang durchgänge durchgängen durchgangs
 optimistisch	optimistisch optimistische optimistischen optimistischer optimistisches
-Straßenverkehr	strassenverkehr verkehr
+Straßenverkehr	strassenverkehr verkehr straßenverkehr
 after	after
 Aids	aids
 Beendigung	beendigung
@@ -5939,7 +5939,7 @@ Energy	energy
 Entspannung	entspannung
 Feierabend	feierabend
 fortan	fortan
-Großstadt	grossstadt
+Großstadt	grossstadt großstadt
 hinunter	hinunter
 Lebensqualität	lebensqualität
 nebeneinander	nebeneinander
@@ -5974,7 +5974,7 @@ alleinig	alleinige alleiniger alleinigen alleiniges alleinig
 Diktator	diktator diktatoren diktators
 stolpern	gestolpert stolpern stolpert stolperte stolpere stolper stolperst stolperten
 barock	barock barocken barocke barocker barocks barockes barockem
-Zusammenschluss	zusammenschluss zusammenschlüsse zusammenschlusses zusammenschlüssen
+Zusammenschluss	zusammenschluss zusammenschlüsse zusammenschlusses zusammenschlüssen zusammenschluß
 lila	lila lilas
 blass	blass blassen blasse blasser blasses
 Umweg	umweg umwege umwegen
@@ -5991,12 +5991,12 @@ Stadtgebiet	stadtgebiet stadtgebietes stadtgebiets stadtgebiete stadtgebieten
 Limit	limit limits limite
 Rezeption	rezeption rezeptionen
 Lehrbuch	lehrbuch lehrbücher lehrbüchern lehrbuchs lehrbuches
-loslassen	loslassen losgelassen loszulassen loslässt losliess
+loslassen	loslassen losgelassen loszulassen loslässt losliess losließ
 Vorgehensweise	vorgehensweise vorgehensweisen vorgangsweise
 wiederfinden	wiederfinden wiedergefunden wiederzufinden wiederfindet wiederfand wiederfinde wiederfanden wiedergefundene
 Hausfrau	hausfrau hausfrauen
 Zertifikat	zertifikat zertifikate zertifikaten zertifikats zertifikates
-unregelmäßig	unregelmässig unregelmässigen unregelmässige unregelmässiger unregelmässiges unregelmässigem
+unregelmäßig	unregelmässig unregelmässigen unregelmässige unregelmässiger unregelmässiges unregelmässigem unregelmäßig unregelmäßigen unregelmäßige unregelmäßiger unregelmäßiges unregelmäßigem
 Anspielung	anspielung anspielungen
 erbärmlich	erbärmlich erbärmliche erbärmlichen erbärmlicher erbärmliches
 Auslegung	auslegung auslegungen
@@ -6031,7 +6031,7 @@ schockieren	schockiert schockieren schockierte schockierten
 Beifall	beifall
 Bewährung	bewährung
 Blues	blues
-Hauptstraße	hauptstrasse
+Hauptstraße	hauptstrasse hauptstraße
 Herrmann	herrmann
 Kilogramm	kilogramm
 Klarheit	klarheit
@@ -6113,7 +6113,7 @@ Acker	acker äcker äckern ackers
 anderswo	anderswo
 beiseite	beiseite
 Bonner	bonner
-Bundesstraße	bundesstrasse
+Bundesstraße	bundesstrasse bundesstraße
 Empörung	empörung
 Homosexualität	homosexualität
 Logistik	logistik
@@ -6163,7 +6163,7 @@ befolgen	befolgen befolgt befolgte befolge befolgten
 Lebewesen	lebewesen lebewesens
 toben	toben tobt tobte tobten getobt tob tobe
 Parameter	parameter parametern parameters
-vergrössert	vergrössert vergrösserter vergrössertes vergrössertem
+vergrössert	vergrössert vergrösserter vergrössertes vergrössertem vergrößert vergrößerter vergrößertes vergrößertem
 Apotheker	apotheker apothekerin apothekers apothekern
 zubereiten	zubereitet zubereiten zuzubereiten zubereitete zubereiteten zubereitetes zubereite
 Verleger	verleger verlegers verlegern
@@ -6225,7 +6225,7 @@ Newsletter	newsletter newsletters
 fiktiv	fiktiven fiktive fiktiv fiktives fiktiver
 Freundeskreis	freundeskreis freundeskreises freundeskreise freundeskreisen
 Fahrbahn	fahrbahn fahrbahnen
-Weiße	weisser
+Weiße	weisser weißer
 bescheren	beschert bescheren bescherte bescherten
 Biber	bieber biber bibern bibers
 Kap	kap kaps
@@ -6288,7 +6288,7 @@ fortführen	fortgeführt fortführen fortzuführen fortführt fortgeführten for
 Verwirrung	verwirrung verwirrungen
 Gender	gender gendern gegendert gendert
 Zugehörigkeit	zugehörigkeit zugehörigkeiten
-Abriss	abriss abrisses abrisse abrissen
+Abriss	abriss abrisses abrisse abrissen abriß
 Bäckerei	bäckerei bäckereien
 erschwert	erschwert erschwerten erschwerte
 Defizit	defizite defizit defiziten defizits
@@ -6314,7 +6314,7 @@ fucking	fucking
 gleichwohl	gleichwohl
 GPS	gps
 Halloween	halloween
-Landstraße	landstrasse
+Landstraße	landstrasse landstraße
 Madame	madame
 neuerdings	neuerdings
 Reformation	reformation
@@ -6339,7 +6339,7 @@ verbauen	verbaut verbauen verbauten verbaute verbau
 mild	mild milder milden mildes mildere milderen mildem milderes mildeste
 Resolution	resolution resolutionen
 Vorzug	vorzüge vorzug vorzügen
-verhältnismäßig	verhältnismässig verhältnismässige
+verhältnismäßig	verhältnismässig verhältnismässige verhältnismäßig verhältnismäßige
 ersichtlich	ersichtlich ersichtlichen ersichtliche
 vorbildlich	vorbildlich vorbildliche vorbildlichen vorbildlicher vorbildliches
 Birne	birne birnen
@@ -6367,7 +6367,7 @@ nutzbar	nutzbar nutzbare nutzbaren nutzbarer nutzbares
 einstimmig	einstimmig einstimmigen einstimmige einstimmiger einstimmiges
 übereinstimmen	übereinstimmen übereinstimmt übereinstimmend übereinstimme übereinstimmten übereinstimmte übereingestimmt übereinzustimmen
 Schema	schema schemata schemen schemas
-Zuschuss	zuschuss zuschüsse zuschüssen zuschusses
+Zuschuss	zuschuss zuschüsse zuschüssen zuschusses zuschuß
 Erika	erika erikas
 Hype	hype hypes
 impfen	impfen geimpft impf geimpften geimpfte impft
@@ -6390,7 +6390,7 @@ interaktiv	interaktive interaktiven interaktiv interaktives interaktiver
 Mainstream	mainstream mainstreams
 Schulzeit	schulzeit schulzeiten
 Novum	nova novum novae
-Fußballerin	fussballer fussballerin
+Fußballerin	fussballer fussballerin fußballer fußballerin
 Klausur	klausur klausuren
 Bruttoinlandsprodukt	bip bruttoinlandsprodukt bruttoinlandsprodukts bruttoinlandsproduktes
 Flanke	flanke flanken flankt flankte
@@ -6432,7 +6432,7 @@ Funktionär	funktionäre funktionär funktionären funktionärs funktionärin
 Insider	insider insidern insiders
 Psychiater	psychiater psychiaterin psychiatern psychiaters
 hinreichend	hinreichend hinreichende hinreichenden hinreichender hinreichendes
-übermäßig	übermässig übermässige übermässigen übermässiger übermässigem übermässiges
+übermäßig	übermässig übermässige übermässigen übermässiger übermässigem übermässiges übermäßig übermäßige übermäßigen übermäßiger übermäßigem übermäßiges
 Kanone	kanonen kanone
 Copyright	copyright copyrights
 rumänisch	rumänischen rumänische rumänisch rumänischer rumänisches
@@ -6449,7 +6449,7 @@ Millionär	millionär millionäre millionären millionärs millionärin
 betteln	betteln bettelt gebettelt bettel bettelte bettelst bettelten bettelnd bettelnde bettle
 Sachverständiger	sachverständigen sachverständige sachverständiger
 beachtlich	beachtliche beachtlich beachtlichen beachtlicher beachtliches beachtlichem
-mutmaßlich	mutmasslichen mutmasslich
+mutmaßlich	mutmasslichen mutmasslich mutmaßlichen mutmaßlich
 Lexikon	lexikon lexika lexikons
 Maschinenbau	maschinenbau maschinenbaus
 amtieren	amtierenden amtierende amtierender amtierte amtiert amtieren
@@ -6465,7 +6465,7 @@ Getreide	getreide getreides
 verachten	verachten verachtet verachte verachtete verachteten verachtend verachtende verachtest verachtenden
 deep	deep deeper
 ausgiebig	ausgiebig ausgiebige ausgiebigen ausgiebiger ausgiebiges ausgiebigem
-misstrauen	misstrauen misstraut misstrauens misstraute misstraue misstrauten
+misstrauen	misstrauen misstraut misstrauens misstraute misstraue misstrauten mißtraut mißtraute mißtraue mißtrauten
 killen	kill gekillt killen killt kille
 unterdrücken	unterdrücken unterdrückten unterdrückte unterdrücke unterdrückenden
 unwichtig	unwichtig unwichtige unwichtigen unwichtiger unwichtiges unwichtigste
@@ -6507,7 +6507,7 @@ Schacht	schacht schächten schächte schachtes schachts
 Lappen	lappen lapp gelappt gelappten
 Appetit	appetit
 Cash	cash
-dreißig	dreissig
+dreißig	dreissig dreißig
 ebenda	ebenda
 Einsamkeit	einsamkeit
 Geschäftsführung	geschäftsführung
@@ -6578,9 +6578,9 @@ bessern	bessern gebessert bessert besser besserte besserten bessere
 alpin	alpine alpinen alpin alpiner alpines
 Herzinfarkt	herzinfarkt herzinfarkte herzinfarkten herzinfarkts herzinfarktes
 kacken	kacken kack kackt gekackt kackst
-entschließen	entschloss entschliesst entschliessen entschliesse
+entschließen	entschloss entschliesst entschliessen entschliesse entschließt entschließen entschließe
 Massaker	massaker massakers massakern
-unterlassen	unterlassen unterlassene unterlass unterlässt unterlassener unterliess unterlasse unterlassenen
+unterlassen	unterlassen unterlassene unterlass unterlässt unterlassener unterliess unterlasse unterlassenen unterläßt unterließ
 strafrechtlich	strafrechtlich strafrechtliche strafrechtlichen strafrechtlicher strafrechtliches
 flüstern	flüstert flüstern flüsterte flüsternd geflüstert flüstere flüster flüsterten flüsternde
 Orgasmus	orgasmus orgasmen
@@ -6610,7 +6610,7 @@ orthodox	orthodoxen orthodoxe orthodox orthodoxer
 Mittelstand	mittelstand mittelstands mittelstandes
 verfassen	verfassen verfasste verfassten verfasse
 Gattin	gattin gattinnen
-belassen	belassen belässt beliess belasse beliessen
+belassen	belassen belässt beliess belasse beliessen beließ beließen
 abermals	abermals
 Germania	germania
 ihrerseits	ihrerseits
@@ -6625,7 +6625,7 @@ letzen	letzten letzen letze letz
 linsen	linsen linse lins
 Synagoge	synagoge synagogen
 ausschlaggebend	ausschlaggebend ausschlaggebende ausschlaggebender ausschlaggebenden
-aufreißen	aufgerissen aufreissen aufriss aufreisst aufzureissen aufgerissenen aufgerissene aufreisser
+aufreißen	aufgerissen aufreissen aufriss aufreisst aufzureissen aufgerissenen aufgerissene aufreisser aufreißen aufreißt aufzureißen aufreißer
 stabilisieren	stabilisieren stabilisiert stabilisierte stabilisierten stabilisierende stabilisierend
 Sattel	sattel sättel sattels sätteln
 häuslich	häusliche häuslichen häuslicher häuslich häusliches
@@ -6675,13 +6675,13 @@ personell	personelle personellen personell personeller personelles
 bedürfen	bedürfen bedurfte bedürfe bedurft bedürfte bedurften bedürften
 erschlagen	erschlagen erschlägt erschlug erschlagenen erschlugen
 Maurer	maurer maurers maurern
-niederlassen	niedergelassen niederlassen niedergelassenen niederzulassen niedergelassene niederliess niederliessen niedergelassener niederlässt
+niederlassen	niedergelassen niederlassen niedergelassenen niederzulassen niedergelassene niederliess niederliessen niedergelassener niederlässt niederließ niederließen
 Verkehrsmittel	verkehrsmittel verkehrsmitteln verkehrsmittels
 namhaft	namhafte namhaften namhafter namhaft namhaftesten
 Ansprechpartner	ansprechpartner ansprechpartnern
 technologisch	technologischen technologische technologisch technologischer technologisches technologischem
 Halbjahr	halbjahr halbjahres halbjahre
-Entschluss	entschluss entschlüsse
+Entschluss	entschluss entschlüsse entschluß
 Nationalspieler	nationalspieler nationalspielerin nationalspielers nationalspielern nationalspielerinnen
 Ausweg	ausweg auswege
 Arbeitskreis	arbeitskreis arbeitskreises arbeitskreise arbeitskreisen
@@ -6704,7 +6704,7 @@ brillant	brillant brillanten brillante brillanter brillantes brillantesten brill
 allenfalls	allenfalls
 aneinander	aneinander
 Arbeitsbedingungen	arbeitsbedingungen
-außerordentlich	ausserordentlich
+außerordentlich	ausserordentlich außerordentlich
 Cross	cross
 Hygiene	hygiene
 Mans	mans
@@ -6747,7 +6747,7 @@ kompensieren	kompensieren kompensiert kompensierte kompensiere
 hausen	hausen hause haust gehaust hausten hauste
 Startup	startup startups
 Spitzenkandidat	spitzenkandidat spitzenkandidaten spitzenkandidatin
-nachlassen	nachgelassen nachlassen nachlässt nachliess nachlassende nachzulassen nachlassenden nachlassender nachgelassene nachliessen nachgelassenen nachlasse
+nachlassen	nachgelassen nachlassen nachlässt nachliess nachlassende nachzulassen nachlassenden nachlassender nachgelassene nachliessen nachgelassenen nachlasse nachließ nachließen
 auszeichnen	auszeichnet auszeichnen auszeichnete auszuzeichnen auszeichneten auszeichne
 zurückhaltend	zurückhaltend zurückhaltende zurückhaltender zurückhaltenden zurückhaltendes
 mangelhaft	mangelhaft mangelhafte mangelhaften mangelhafter mangelhaftes
@@ -6847,7 +6847,7 @@ Relation	relation relationen
 rammen	gerammt rammt rammen rammte ramm ramme
 handwerklich	handwerklich handwerkliche handwerklichen handwerkliches handwerklicher handwerklichem
 Type	type typen
-zeitgemäss	zeitgemäss zeitgemässe zeitgemässen zeitgemässer zeitgemässes
+zeitgemäss	zeitgemäss zeitgemässe zeitgemässen zeitgemässer zeitgemässes zeitgemäß zeitgemäße zeitgemäßen zeitgemäßer zeitgemäßes
 auspacken	auspacken ausgepackt auszupacken auspackt auspackte
 mom	mom moms
 Repertoire	repertoire repertoires
@@ -6874,7 +6874,7 @@ zweifelhaft	zweifelhaft zweifelhaften zweifelhafte zweifelhafter zweifelhaftem z
 Annäherung	annäherung annäherungen
 aufsetzen	aufsetzen aufzusetzen aufsetzt aufsetzte aufsetzten aufsetze
 Notruf	notruf notrufe notrufen notrufs
-rechtmäßig	rechtmässig rechtmässigen rechtmässige rechtmässiger rechtmässiges
+rechtmäßig	rechtmässig rechtmässigen rechtmässige rechtmässiger rechtmässiges rechtmäßig rechtmäßigen rechtmäßige rechtmäßiger rechtmäßiges
 betätigen	betätigen betätigt betätigte betätigten betätige
 herausholen	rausholen herausholen herauszuholen herausgeholt herausholt herausholte
 Anzeiger	anzeiger anzeigers
@@ -6900,7 +6900,7 @@ widerstehen	widerstehen widersteht widerstanden widerstände widerstehe widerst�
 Lack	lack lacke lacken lacks
 Switch	switch switches switchen switche
 Berner	berner berners bernern
-Ruß	russ russen
+Ruß	russ russen ruß rußen
 allemal	allemal
 Allgemeinheit	allgemeinheit
 Erfassung	erfassung
@@ -6994,7 +6994,7 @@ Verlegung	verlegung verlegungen
 Steak	steak steaks
 Spezialität	spezialitäten spezialität
 Anlauf	anlauf anläufe anläufen
-zurücklassen	zurückgelassen zurücklassen zurücklässt zurückzulassen zurückliess zurückgelassenen zurückgelassene zurückliessen
+zurücklassen	zurückgelassen zurücklassen zurücklässt zurückzulassen zurückliess zurückgelassenen zurückgelassene zurückliessen zurückließ zurückließen
 Kalorie	kalorien kalorie
 Volksbank	volksbank volksbanken
 abgestellt	abgestellt abgestellten abgestellte
@@ -7007,7 +7007,7 @@ Einspruch	einspruch einsprüche einspruchs einsprüchen
 nachsehen	nachsehen nachgesehen nachzusehen nachsah
 Selbstständigkeit	selbstständigkeit selbständigkeit
 alias	alias
-Anstoß	anstoss
+Anstoß	anstoss anstoß
 auswendig	auswendig
 Chirurgie	chirurgie
 Eugh	eugh
@@ -7097,7 +7097,7 @@ lenz	lenz lenzen lenze
 Nahverkehr	nahverkehr nahverkehrs
 ausruhen	ausruhen ausgeruht auszuruhen ausruht
 vorsehen	vorsieht vorsehen vorsah vorzusehen vorsahen vorsehe
-abschießen	abgeschossen abschiessen abzuschiessen abschiesst abgeschossenen abschoss abgeschossene
+abschießen	abgeschossen abschiessen abzuschiessen abschiesst abgeschossenen abschoss abgeschossene abschießen abzuschießen abschießt
 Schnur	schnur schnüren schnüre geschnürt schnürchen schnürt schnürte
 dastehen	dastehen dasteht dazustehen dagestanden dastehe dastand dastehst dastanden
 Altersgruppe	altersgruppen altersgruppe
@@ -7110,7 +7110,7 @@ Abc	abc
 aufsehen	aufsehen
 boah	boah
 Dankbarkeit	dankbarkeit
-dermaßen	dermassen
+dermaßen	dermassen dermaßen
 fame	fame
 Glaubwürdigkeit	glaubwürdigkeit
 Jacques	jacques
@@ -7152,7 +7152,7 @@ Evangelium	evangelium evangelien evangeliums evangelii
 Erdbeere	erdbeeren erdbeere erdbeer
 Entlastung	entlastung entlastungen
 vorsätzlich	vorsätzlich vorsätzliche vorsätzlichen vorsätzlicher vorsätzliches vorsätzlichem
-aufschließen	aufgeschlossen aufschliessen aufgeschlossene aufgeschlossener aufgeschlossenen aufzuschliessen aufschliesst aufschloss
+aufschließen	aufgeschlossen aufschliessen aufgeschlossene aufgeschlossener aufgeschlossenen aufzuschliessen aufschliesst aufschloss aufschließen aufzuschließen aufschließt
 ungläubig	ungläubigen ungläubig ungläubige ungläubiger ungläubiges
 abfahren	abfahren abführen abfuhr abfährt abzuführen abzufahren abführt abfuhren
 einmischen	einmischen einzumischen eingemischt einmischt einmischte einmische
@@ -7259,7 +7259,7 @@ wünschenswert	wünschenswert wünschenswerte wünschenswerten wünschenswerter 
 ängstlich	ängstlich ängstliche ängstlichen ängstlicher ängstliches
 Ermordung	ermordung ermordungen
 Flöte	flöte flöten flötet
-freilassen	freigelassen freilassen freizulassen freilässt freiliess
+freilassen	freigelassen freilassen freizulassen freilässt freiliess freiließ
 Vorgeschichte	vorgeschichte vorgeschichten
 Organisator	organisatoren organisator organisatorin organisatorinnen organisators
 Patriot	patrioten patriot patriotin
@@ -7394,7 +7394,7 @@ läuten	läuten läutet läutete geläutet läuteten läute
 entsenden	entsandt entsenden entsendet entsandte entsandten entsendete
 Manier	manier manieren
 Facharzt	facharzt fachärzte fachärztin fachärzten
-Überschuss	überschuss überschüsse überschüssen überschusses
+Überschuss	überschuss überschüsse überschüssen überschusses überschüßen
 durchgängig	durchgängig durchgängige durchgängigen durchgängiger durchgängiges
 Weizen	weizen weizens
 finster	finster finsteren finstere finsterer finsteres finstersten
@@ -7404,7 +7404,7 @@ Verknüpfung	verknüpfung verknüpfungen
 Jubel	jubel jubels
 Bataillon	bataillon bataillons bataillone bataillonen
 nachdenklich	nachdenklich nachdenkliche nachdenklichen nachdenklicher nachdenkliches
-Sommersemester	ss sommersemester sommersemesters
+Sommersemester	ss sommersemester sommersemesters ß
 unvollständig	unvollständig unvollständige unvollständigen unvollständiger unvollständiges
 vielversprechend	vielversprechend vielversprechende vielversprechenden vielversprechender vielversprechendes vielversprechendsten vielversprechendste
 auswandern	auswandern ausgewandert auszuwandern ausgewanderten auswanderte auswanderten auswandert
@@ -7470,7 +7470,7 @@ Mitwirkung	mitwirkung
 parat	parat
 Unesco	unesco
 Unschuld	unschuld
-Äußerung	äusserung
+Äußerung	äusserung äußerung
 Adenauer	adenauer adenauers
 Brenner	brenner brenners brennern
 Schöpfer	schöpfer schöpfers schöpfern
@@ -7515,7 +7515,7 @@ sensationell	sensationell sensationelle sensationellen sensationeller sensatione
 berauben	beraubt berauben beraubte beraubten beraube
 dehnen	dehnen dehnt gedehnt dehnte dehn dehne dehnten gedehnten gedehnte
 Schott	schott schotten schotts
-Gewissheit	gewissheit gewissheiten
+Gewissheit	gewissheit gewissheiten gewißheit
 ausgestrahlt	ausgestrahlt ausgestrahlten ausgestrahlte
 Parkhaus	parkhaus parkhäuser parkhäusern parkhauses
 Erwägung	erwägung erwägungen
@@ -7550,7 +7550,7 @@ mobilisieren	mobilisieren mobilisiert mobilisierte mobilisierten
 Postleitzahl	plz postleitzahl postleitzahlen
 vage	vage vagen vager vages
 Boxer	boxer boxers boxerin boxern
-planmäßig	planmässig planmässige planmässigen planmässiger
+planmäßig	planmässig planmässige planmässigen planmässiger planmäßig planmäßige planmäßigen planmäßiger
 Zuschlag	zuschlag zuschläge zuschlägen zuschlags
 unbequem	unbequem unbequeme unbequemen unbequemer unbequemes
 Anbetracht	anbetracht
@@ -7651,7 +7651,7 @@ Dominanz	dominanz
 Geltung	geltung
 Genfer	genfer
 geschweige	geschweige
-gewissermassen	gewissermassen
+gewissermassen	gewissermassen gewissermaßen
 Gleichstellung	gleichstellung
 Leichtigkeit	leichtigkeit
 Lügenpresse	lügenpresse
@@ -7659,7 +7659,7 @@ Most	most
 Produktivität	produktivität
 Psychotherapie	psychotherapie
 Schnäppchen	schnäppchen
-Soße	sosse
+Soße	sosse soße
 Stroh	stroh
 unweit	unweit
 Vorfreude	vorfreude
@@ -7684,7 +7684,7 @@ Nationalismus	nationalismus nationalismen
 Henri	henri henris
 Seide	seide seidenen seiden seidene
 Neuling	neuling neulinge neulingen neulings
-anstoßen	anstossen angestossen anzustossen anstösst angestossene angestossenen anstiess
+anstoßen	anstossen angestossen anzustossen anstösst angestossene angestossenen anstiess anstoßen angestoßen anzustoßen anstößt anstieß
 Verteidigungsminister	verteidigungsminister verteidigungsministerin verteidigungsministers
 weglassen	weglassen weggelassen wegzulassen weglässt
 Notar	notar notare notars notaren notarin
@@ -7761,7 +7761,7 @@ verbannt	verbannt verbannte verbannten
 Piano	piano pianos
 Ungleichheit	ungleichheit ungleichheiten
 Gitarrist	gitarrist gitarristen gitarristin
-beißen	beissen gebissen bisse
+beißen	beissen gebissen bisse beißen biße
 aufwärts	aufwärts
 Boeing	boeing
 Demenz	demenz
@@ -7837,7 +7837,7 @@ behindern	behindern behinderten behindere
 Kennzeichnung	kennzeichnung kennzeichnungen
 Fernsehsender	fernsehsender fernsehsenders fernsehsendern
 Säge	säge sägen gesägt sägt säg sägte gesägten
-Missstand	missstände missstand missständen
+Missstand	missstände missstand missständen mißstände mißständen
 freudig	freudig freudige freudigen freudiger freudiges
 verheerend	verheerenden verheerende verheerend verheerender verheerendes verheerendsten
 architektonisch	architektonischen architektonische architektonisch architektonischer architektonisches
@@ -7913,7 +7913,7 @@ völkisch	völkischen völkisch völkische völkischer völkisches
 Nachbarland	nachbarland nachbarländern nachbarländer nachbarlandes
 Welpe	welpen welpe
 Gedenkstätte	gedenkstätte gedenkstätten
-einfließen	einfliessen eingeflossen einfliesst einflössen einzuflössen einflösst einflössend
+einfließen	einfliessen eingeflossen einfliesst einflössen einzuflössen einflösst einflössend einfließen einfließt einflößen einzuflößen einflößt einflößend
 Butler	butler butlers
 ungeklärt	ungeklärt ungeklärten ungeklärte ungeklärter
 Feministin	feministinnen feministin feminist feministen
@@ -7968,7 +7968,7 @@ Kodex	codex kodex kodizes
 abrunden	abgerundet abgerundeten abrunden abzurunden abgerundeter abgerundetes abrundet
 beschwören	beschwören beschwört beschworen beschwor beschwöre beschworene beschworenen beschwörend
 Heroin	heroin heroine
-Verschluss	verschluss verschlüsse verschlusses verschlüssen
+Verschluss	verschluss verschlüsse verschlusses verschlüssen verschluß
 öde	öde öden öd ödem ödeme öder ödes ödemen ödet
 vorbeischauen	vorbeischauen vorbeizuschauen vorbeigeschaut vorbeischaut vorbeischaust
 Sonde	sonde sonden
@@ -8005,7 +8005,7 @@ County	county countys
 Gesetzentwurf	gesetzentwurf gesetzentwürfe gesetzentwurfs gesetzentwurfes
 Koks	koks koksen gekokst kokst
 Angesicht	angesicht
-Erschließung	erschliessung
+Erschließung	erschliessung erschließung
 facto	facto
 Freilassung	freilassung
 Gier	gier
@@ -8023,7 +8023,7 @@ Empire	empire empires
 Metapher	metapher metaphern
 reibungslos	reibungslos reibungslosen reibungslose reibungsloser
 Hausmeister	hausmeister hausmeisters hausmeisterin
-ungewiss	ungewiss ungewisse ungewissen ungewisser ungewissem
+ungewiss	ungewiss ungewisse ungewissen ungewisser ungewissem ungewiße ungewißen ungewißer ungewißem
 Vorstandsvorsitzender	vorstandsvorsitzender vorstandsvorsitzende vorstandsvorsitzenden
 Linkspartei	linkspartei linksparteien
 Wanderweg	wanderwege wanderweg wanderwegen wanderweges wanderwegs
@@ -8036,7 +8036,7 @@ verschmelzen	verschmelzen verschmolzen verschmilzt verschmolz verschmolzenen
 Sequenz	sequenz sequenzen
 Suchmaschine	suchmaschine suchmaschinen
 Giovanni	giovanni giovannis
-fußen	fusse fussen
+fußen	fusse fussen fuße fußen
 unbedeutend	unbedeutend unbedeutende unbedeutenden unbedeutender unbedeutendes
 Lebenszeit	lebenszeit lebenszeiten
 angeschlagen	angeschlagen angeschlagenen angeschlagene angeschlagener
@@ -8079,7 +8079,7 @@ diamanten	diamanten diamantene diamantenen
 Holländer	holländer holländern holländerin holländers
 eifersüchtig	eifersüchtig eifersüchtige eifersüchtigen eifersüchtiger
 Festlegung	festlegung festlegungen
-Vorstoss	vorstoss vorstösse vorstössen vorstosses
+Vorstoss	vorstoss vorstösse vorstössen vorstosses vorstoß vorstöße vorstößen vorstoßes
 Kuppel	kuppel kuppeln gekuppelt gekuppelten
 einstecken	einstecken eingesteckt einzustecken einsteckt
 blocken	geblockt blocken blockt blockte blocke
@@ -8131,7 +8131,7 @@ plausibel	plausibel plausible plausiblen plausibler plausibles
 Titelverteidiger	titelverteidiger titelverteidigerin
 Ventil	ventil ventile ventilen ventils
 leiblich	leibliche leiblichen leiblicher leibliches leiblich
-missachten	missachtet missachten missachtete missachteten missachte
+missachten	missachtet missachten missachtete missachteten missachte mißachtet mißachten mißachtete mißachteten mißachte
 Psalm	psalm psalmen salm psalms salmen
 Hausarzt	hausarzt hausärzte hausärztin hausarztes hausärzten
 Anatomie	anatomie
@@ -8142,7 +8142,7 @@ Durchsetzung	durchsetzung
 Ehrlichkeit	ehrlichkeit
 Eifersucht	eifersucht
 fünfzig	fünfzig
-Größenordnung	grössenordnung
+Größenordnung	grössenordnung größenordnung
 Hockey	hockey
 infrage	infrage
 Jahresende	jahresende
@@ -8152,7 +8152,7 @@ Scham	scham
 Tageslicht	tageslicht
 Tischtennis	tischtennis
 Verpflegung	verpflegung
-äusserst	äussersten
+äusserst	äussersten äußersten
 Allergie	allergie allergien
 Assoziation	assoziation assoziationen
 Jasmin	jasmin jasmine
@@ -8290,7 +8290,7 @@ Intendant	intendant intendanten intendantin
 schüren	schüren schürt geschürt schürte schürten
 einsammeln	einsammeln eingesammelt einzusammeln einsammelt eingesammelten
 Chemiker	chemiker chemikerin chemikern chemikers
-missverstehen	missverstanden missverstehen missversteht missverstandene missverstandenen missverstehst
+missverstehen	missverstanden missverstehen missversteht missverstandene missverstandenen missverstehst mißverstehen
 angetrieben	angetrieben angetriebene angetriebenen
 Gala	gala galas
 Verschlüsselung	verschlüsselung verschlüsselungen
@@ -8435,12 +8435,12 @@ contra	contra contras
 stattlich	stattliche stattlichen stattlicher stattlich stattliches
 Krawatte	krawatte krawatten
 rekonstruieren	rekonstruieren rekonstruiert rekonstruierten rekonstruierte
-verschließen	verschliessen verschloss verschliesse
+verschließen	verschliessen verschloss verschliesse verschließen verschließe
 knackig	knackig knackige knackigen knackiger knackiges
 kürzen	kürzen kürzt kürzte
 lautstark	lautstark lautstarken lautstarke lautstarker
 gegenüberstehen	gegenüberstehen gegenübersteht gegenüberstanden gegenüberstand gegenüberstehe gegenübergestanden gegenüberzustehen gegenüberstehenden
-zweitgrösster	zweitgrösste zweitgrössten zweitgrösster
+zweitgrösster	zweitgrösste zweitgrössten zweitgrösster zweitgrößte zweitgrößten zweitgrößter
 Staatsangehörigkeit	staatsangehörigkeit staatsangehörigkeiten
 Feed	feed feeds
 Briefmarke	briefmarken briefmarke
@@ -8502,7 +8502,7 @@ Than	than
 Unfähigkeit	unfähigkeit
 Wichtigkeit	wichtigkeit
 Wortlaut	wortlaut
-äußerlich	äusserlich
+äußerlich	äusserlich äußerlich
 Guthaben	guthaben guthabens
 Saum	saum gesäumt säumen säume säumten gesäumten säumt
 Mobiltelefon	mobiltelefon mobiltelefone mobiltelefonen mobiltelefons
@@ -8533,7 +8533,7 @@ Softwareentwickler	se softwareentwickler
 hervorgehoben	hervorgehoben hervorgehobene hervorgehobenen
 unsinnig	unsinnig unsinnige unsinnigen unsinniger unsinniges
 Pflegeheim	pflegeheim pflegeheimen pflegeheime pflegeheims
-ordnungsgemäß	ordnungsgemäss ordnungsgemässe ordnungsgemässen ordnungsgemässer
+ordnungsgemäß	ordnungsgemäss ordnungsgemässe ordnungsgemässen ordnungsgemässer ordnungsgemäß ordnungsgemäße ordnungsgemäßen ordnungsgemäßer
 Freiraum	freiraum freiräume freiräumen freigeräumt
 paradox	paradox paradoxe paradoxen paradoxes paradoxer
 Muschel	muscheln muschel
@@ -8575,7 +8575,7 @@ poppen	popp poppen poppe poppt gepoppt
 Gottheit	gottheit gottheiten
 Benachrichtigung	benachrichtigung benachrichtigungen
 Dachgeschoss	dachgeschoss dg dachgeschosses
-Schusswaffe	schusswaffen schusswaffe
+Schusswaffe	schusswaffen schusswaffe schußwaffe
 Tierschutz	tierschutz tierschutzes
 zuversichtlich	zuversichtlich zuversichtlicher
 Sozialwissenschaft	sozialwissenschaften sozialwissenschaft
@@ -8630,7 +8630,7 @@ Piste	piste pisten
 Neuheit	neuheiten neuheit
 Selfie	selfie selfies
 einheimisch	einheimischen einheimische einheimisch einheimisches
-großflächig	grossflächig grossflächige grossflächigen grossflächiger grossflächiges
+großflächig	grossflächig grossflächige grossflächigen grossflächiger grossflächiges großflächig großflächige großflächigen großflächiger großflächiges
 Kalk	kalk kalke kalken
 abrechnen	abgerechnet abrechnen abzurechnen abrechnet abgerechneten
 Granit	granit granite graniten
@@ -8650,7 +8650,7 @@ Kreuzer	kreuzer kreuzern kreuzers
 Dreijährige	dreijährigen dreijährige dreijähriger dreijährigem
 Reflex	reflex reflexe reflexen
 umsehen	umsehen umgesehen umzusehen umsieht umsah umsehe
-zusammenschließen	zusammengeschlossen zusammenschliessen zusammengeschlossenen zusammenzuschliessen zusammenschlossen
+zusammenschließen	zusammengeschlossen zusammenschliessen zusammengeschlossenen zusammenzuschliessen zusammenschlossen zusammenschließen zusammenzuschließen
 knallhart	knallhart knallharte knallharten knallharter knallhartes
 hergeben	hergeben hergibt hergegeben herzugeben hergab
 Lastwagen	lastwagen lastwagens
@@ -8788,7 +8788,7 @@ Torschütze	torschütze torschützen torschützin
 zurückholen	zurückholen zurückzuholen zurückgeholt zurückholt zurückholte
 zuschneiden	zugeschnitten zugeschnittene zuschneiden zugeschnittenen zugeschnittenes zuzuschneiden zuschnitte
 Windel	windeln windel
-mittelgroß	mittelgrossen mittelgrosse mittelgross mittelgrosser mittelgrosses
+mittelgroß	mittelgrossen mittelgrosse mittelgross mittelgrosser mittelgrosses mittelgroßen mittelgroße mittelgroß mittelgroßer mittelgroßes
 brauen	brauen gebraut brau braust braue braute
 Sprengstoff	sprengstoff sprengstoffe sprengstoffen
 triggern	trigger triggern triggert getriggert
@@ -8798,7 +8798,7 @@ symbolisieren	symbolisiert symbolisieren symbolisierte symbolisierten
 Färbung	färbung färbungen
 Kahn	kahn kähne kahns kähnen
 thermisch	thermische thermischen thermisch thermischer thermisches
-mitreißen	mitreissen mitgerissen mitreissend mitreissende mitreissenden mitreisst mitreissender mitreissendes mitzureissen
+mitreißen	mitreissen mitgerissen mitreissend mitreissende mitreissenden mitreisst mitreissender mitreissendes mitzureissen mitreißen mitreißend mitreißende mitreißenden mitreißt mitreißender mitreißendes mitzureißen
 Abteilungsleiter	abteilungsleiter abteilungsleiterin abteilungsleiters abteilungsleitern
 Sense	sense sens sensen
 Abneigung	abneigung abneigungen
@@ -8808,7 +8808,7 @@ Komiker	komiker komikerin komikers komikern
 verschleppen	verschleppt verschleppen verschleppten verschleppte
 Steuerberater	steuerberater stb steuerberatern steuerberaterin steuerberaters
 gescheit	gescheit gescheites gescheite gescheiter gescheiten gescheut
-außenpolitisch	aussenpolitischen aussenpolitische aussenpolitisch aussenpolitischer aussenpolitisches
+außenpolitisch	aussenpolitischen aussenpolitische aussenpolitisch aussenpolitischer aussenpolitisches außenpolitischen außenpolitische außenpolitisch außenpolitischer außenpolitisches
 Violine	violine violinen
 Freitagabend	freitagabend freitagabends
 Dynastie	dynastie dynastien
@@ -8820,7 +8820,7 @@ Staatspräsident	staatspräsident staatspräsidenten
 Relief	relief reliefs
 gegossen	gegossen gegossene gegossenen gegossenes
 unvorstellbar	unvorstellbar unvorstellbare unvorstellbaren unvorstellbarer unvorstellbares
-misshandeln	misshandelt misshandeln misshandelte misshandelten
+misshandeln	misshandelt misshandeln misshandelte misshandelten mißhandelt mißhandeln mißhandelte mißhandelten
 widersetzen	widersetzen widersetzt widersetzte widersetzten widersetze
 GAU	gau gaus gaue gaues gauen
 Karst	karsten karst
@@ -8855,7 +8855,7 @@ zurückbringen	zurückgebracht zurückbringen zurückzubringen zurückbringt zur
 Brasilianer	brasilianer brasilianern brasilianerin brasilianerinnen
 hosten	host hosten gehostet hostet hoste
 Caritas	caritas
-Eiweiß	eiweiss
+Eiweiß	eiweiss eiweiß
 Firefox	firefox
 Gesamtheit	gesamtheit
 Gmünd	gmünd
@@ -8970,7 +8970,7 @@ Dgb	dgb
 eineinhalb	eineinhalb
 Einigkeit	einigkeit
 Endeffekt	endeffekt
-folgendermassen	folgendermassen
+folgendermassen	folgendermassen folgendermaßen
 herausgestellt	herausgestellt
 Isolation	isolation
 Jamaika-Koalition	jamaika
@@ -9218,7 +9218,7 @@ Commerzbank	commerzbank
 Cornelius	cornelius
 Erwärmung	erwärmung
 Fließmittel	fm
-Großraum	grossraum
+Großraum	grossraum großraum
 Haller	haller
 Handhabung	handhabung
 Heidelberger	heidelberger
@@ -9387,7 +9387,7 @@ Tube	tube tuben
 halbieren	halbiert halbieren halbierte halbierten
 differenzieren	differenzieren differenzierte differenzierten differenzierende
 Prozentpunkt	prozentpunkte prozentpunkten prozentpunkt
-misslingen	misslang misslingt misslungen misslungenen misslungene misslingen misslungener
+misslingen	misslang misslingt misslungen misslungenen misslungene misslingen misslungener mißlang mißlingt mißlungen
 Unterhose	unterhose unterhosen
 ansteckend	ansteckend ansteckende ansteckenden ansteckender ansteckendes
 Cartoon	cartoon cartoons
@@ -9470,7 +9470,7 @@ unfreiwillig	unfreiwillig unfreiwillige unfreiwilligen unfreiwilliger
 gekoppelt	gekoppelt gekoppelten gekoppelte
 ansatzweise	ansatzweise
 Attraktivität	attraktivität
-Außenseiter	aussenseiter
+Außenseiter	aussenseiter außenseiter
 Beantwortung	beantwortung
 Buenos	buenos
 Deko	deko
@@ -9489,7 +9489,7 @@ obgleich	obgleich
 Pfannkuchen	pfannkuchen
 Pubertät	pubertät
 Reue	reue
-spießen	spiess
+spießen	spiess spieß
 Sushi	sushi
 Techno	techno
 Une	une
@@ -9543,7 +9543,7 @@ Strafverfahren	strafverfahren strafverfahrens
 betrauen	betraut betraute betrauen betrauten
 Picasso	picasso picassos
 Prüfer	prüfer prüfern prüfers
-ablassen	ablassen abgelassen abzulassen ablässt abliess
+ablassen	ablassen abgelassen abzulassen ablässt abliess ablaßen abgelaßen abließ
 schnarchen	schnarchen schnarcht schnarch schnarcher geschnarcht
 Mexikaner	mexikaner mexikanern
 Lama	lama lamas
@@ -9604,7 +9604,7 @@ abschätzen	abschätzen abzuschätzen abgeschätzt
 Pendler	pendler pendlern
 anlocken	anlocken angelockt anzulocken anlockt anlockte
 Heilmittel	heilmittel heilmitteln heilmittels
-Flosse	flossen flosse
+Flosse	flossen flosse floßen floße
 Staubsauger	staubsauger staubsaugern
 Pelz	pelz pelze pelzen
 anklicken	anklicken angeklickt anklickt anzuklicken
@@ -9637,7 +9637,7 @@ Buchhaltung	buchhaltung
 Bundesebene	bundesebene
 Eignung	eignung
 Entsorgung	entsorgung
-Fußboden	fussboden
+Fußboden	fussboden fußboden
 Gelächter	gelächter
 Georges	georges
 Grazer	grazer
@@ -9717,7 +9717,7 @@ Geschäftspartner	geschäftspartner geschäftspartnern geschäftspartners gesch�
 eingespielt	eingespielt eingespielten eingespieltes
 Verteidigungsministerium	verteidigungsministerium verteidigungsministeriums
 Saite	saiten saite
-Untergeschoss	untergeschoss ug
+Untergeschoss	untergeschoss ug untergeschoß
 signieren	signiert signierte signieren signierten
 Prädikat	prädikat prädikate prädikats
 Stoffwechsel	stoffwechsel stoffwechsels
@@ -9840,7 +9840,7 @@ Biologe	biologen biologe biologin
 Kohlenhydrat	kohlenhydrate kohlenhydraten kohlenhydrat
 flechten	flechten geflochten geflochtenen geflochtene flechte flicht
 entwendet	entwendet entwendeten entwendete
-Misserfolg	misserfolg misserfolge misserfolgen misserfolgs misserfolges
+Misserfolg	misserfolg misserfolge misserfolgen misserfolgs misserfolges mißerfolg
 Timing	timing timings
 Vakuum	vakuum vakuums
 krähen	krähen krähe kräht
@@ -9889,7 +9889,7 @@ verschlagen	verschlagen verschlägt verschlug verschlag verschlagenen verschlage
 Reichsbürger	reichsbürger reichsbürgern
 Konstrukt	konstrukt konstrukte konstrukten konstrukts
 panisch	panisch panische panischen panischer panisches
-abstoßen	abstossend abstossen abstossende abstösst abzustossen abstossenden abstossender abstossendes
+abstoßen	abstossend abstossen abstossende abstösst abzustossen abstossenden abstossender abstossendes abstoßend abstoßen abstoßende abstößt abzustoßen abstoßenden abstoßender abstoßendes
 melancholisch	melancholisch melancholische melancholischen melancholischer melancholisches
 animiert	animiert animierte animierten animierter animiertes
 Sketch	sketch sketche sketchen sketches

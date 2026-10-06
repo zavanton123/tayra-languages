@@ -57,6 +57,18 @@ class VocabularyLevelTest {
     }
 
     @Test
+    fun wordsAndFormsOnlySeenOnAPageBecomeKnown() = runTest {
+        val pt = languages.save(Language(name = "Portuguese"))
+        // Opening a page saves its words with status 0 until the reader judges them.
+        for (seen in listOf("dizer", "disse", "foi")) terms.save(Term(languageId = pt, text = seen, textLc = seen, status = TermStatus.UNKNOWN))
+        val change = service.setLevel(pt, 3)!!
+        for (known in listOf("dizer", "disse", "foi")) assertEquals(TermStatus.WELL_KNOWN, status(pt, known), known)
+        assertEquals(9, change.added, "ser foi é era, ir vai, dizer diz disse")
+        service.setLevel(pt, 0)
+        assertNull(status(pt, "disse"), "a level's known terms go when it is lowered, whether it made them or raised them from 0")
+    }
+
+    @Test
     fun loweringTheLevelTakesBackOnlyWhatTheLevelSavedAndTheReaderLeftKnown() = runTest {
         val pt = languages.save(Language(name = "Portuguese"))
         service.setLevel(pt, 4)

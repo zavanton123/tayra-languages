@@ -112,6 +112,17 @@ def english_share(form):
     return wordfreq.word_frequency(form, "en")
 
 
+def eszett_spellings(form):
+    """The spellings of a form with ss written as ß: every ss at once, and each one alone."""
+    spots = [i for i in range(len(form) - 1) if form[i:i + 2] == "ss"]
+    if not spots:
+        return []
+    variants = {form.replace("ss", "ß")}
+    for i in spots:
+        variants.add(form[:i] + "ß" + form[i + 2:])
+    return sorted(variants)
+
+
 def lower(language, text):
     """Lowercase as the language does: Turkish dotted and dotless i keep apart."""
     if language == "tr":
@@ -359,6 +370,9 @@ def build(language, source, size):
         if language == "sr":
             # The counts are of Latin-script text; Serbian is read in Cyrillic too.
             counted = list(dict.fromkeys(counted + [to_serbian_cyrillic(f) for f in counted]))
+        if language == "de":
+            # wordfreq writes ß as ss ("weisst"); texts write "weißt", which the dictionary knows.
+            counted = list(dict.fromkeys(counted + [v for f in counted for v in eszett_spellings(f) if v in lemmas or v in pos]))
         lines.append((common.get(word) or guessed.get(word) or word) + "\t" + " ".join(counted))
     return "\n".join(lines) + "\n", label
 

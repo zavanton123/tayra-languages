@@ -76,9 +76,12 @@ class VocabularyLevelRepositoryImpl(
             for (word in known) {
                 val wordId = knownTerm(word.text, word.textLc)
                 for (form in word.forms) {
-                    // A form the reader saved, or another word's, keeps the links it has.
-                    if (form in existing) continue
-                    terms.insertParent(knownTerm(form, form), wordId)
+                    val before = existing[form]
+                    // A form the reader has judged, or another word's saved here already, stays as it is.
+                    if (before != null && before.second != TermStatus.UNKNOWN.value.toLong()) continue
+                    // One only seen on a page (status 0) becomes known like a new one.
+                    val formId = knownTerm(form, form)
+                    if (before == null) terms.insertParent(formId, wordId)
                 }
             }
             levels.upsertLevel(languageId, level.toLong())
