@@ -1,0 +1,228 @@
+{
+  "id": "pt-mini-6100",
+  "rankUpTo": 6100,
+  "level": "C1",
+  "title": "O universo e as estrelas",
+  "description": "Ten C1 texts about the sky and the universe: a night at a mountain observatory, how stars are born, a baker who watches the stars in the backlands, the first Brazilian in space, eclipses and the Sobral eclipse of 1919, Galileo's trial, a travelling planetarium for schools, light pollution, the Bendegó meteorite, and a review of a science-fiction trilogy.",
+  "topic": "Astronomy and the universe",
+  "names": [
+    "Brasil",
+    "Minas",
+    "Gerais",
+    "Caio",
+    "Láctea",
+    "Georges",
+    "Lemaître",
+    "Damião",
+    "Paraíba",
+    "Saturno",
+    "Júpiter",
+    "Marcos",
+    "Pontes",
+    "Baikonur",
+    "Cazaquistão",
+    "Bauru",
+    "São",
+    "Paulo",
+    "NASA",
+    "Houston",
+    "Columbia",
+    "Rússia",
+    "Soyuz",
+    "Santos",
+    "Dumont",
+    "Paris",
+    "Einstein",
+    "China",
+    "Sobral",
+    "Ceará",
+    "África",
+    "Galileu",
+    "Galilei",
+    "Pádua",
+    "Itália",
+    "Copérnico",
+    "Roma",
+    "Inquisição",
+    "Arcetri",
+    "Florença",
+    "Maria",
+    "Celeste",
+    "Holanda",
+    "João",
+    "Regina",
+    "Alves",
+    "Tiago",
+    "Rio",
+    "Janeiro",
+    "Cristóvão",
+    "Bendegó",
+    "Sandra",
+    "Lima",
+    "Bahia",
+    "Salvador",
+    "Pedro",
+    "França",
+    "Lívia",
+    "Moraes",
+    "Iara",
+    "Tomás",
+    "II"
+  ],
+  "lessons": [
+    {
+      "title": "Uma noite no observatório",
+      "summary": "After a bad week for his football team, the narrator spends a night at a mountain observatory with a friend who works there, learns how the telescope, its mirror and the cameras work, and sees the Milky Way.",
+      "newWords": [
+        "surra",
+        "rebaixamento",
+        "cilindro",
+        "potente",
+        "sujeira",
+        "congelado",
+        "tecla",
+        "diretório",
+        "anotação"
+      ],
+      "text": "Fui ao observatório numa semana ruim. No domingo, o meu time de futebol tinha levado uma surra de 5 a 0, e o rebaixamento para a segunda divisão parecia certo. Um amigo, o Caio, que trabalha como técnico num observatório no alto de uma serra, no sul de Minas Gerais, me convidou para passar uma noite lá. \"Lá em cima ninguém fala de rebaixamento\", prometeu. Aceitei na hora.\n\nCheguei no fim da tarde. O observatório fica longe das cidades, a mais de 1.500 metros de altitude, porque a luz e a sujeira do ar urbano atrapalham a observação. Lá, o ar é seco e limpo, e o céu, nas noites boas, parece um tecido escuro cheio de pequenos furos.\n\nCaio me levou primeiro ao prédio principal, uma construção branca com uma cúpula redonda no topo. Dentro dela estava o telescópio. Visto de perto, ele parecia um enorme cilindro de metal, apontado para uma abertura estreita no teto. Na verdade, explicou Caio, o cilindro não é fechado: é uma estrutura vazada, que guarda no fundo um espelho grande e muito bem trabalhado. É esse espelho que recolhe a luz das estrelas. Quanto maior o espelho, mais potente é o instrumento, e um instrumento potente consegue registrar objetos tão fracos que nenhum olho humano veria sozinho.\n\nO espelho é tratado com um cuidado quase religioso. Qualquer sujeira, mesmo uma camada fina de poeira, rouba um pouco da luz. Por isso, de tempos em tempos, a equipe limpa a superfície com produtos especiais.\n\nQuando a noite caiu, a temperatura baixou de repente. Eu tinha levado um casaco, mas não bastou: depois de uma hora, estava congelado, com as mãos duras e o nariz vermelho. Caio riu e me emprestou luvas. A cúpula não pode ser aquecida, explicou ele, porque o ar quente que sobe pela abertura faz a imagem tremer. Os pesquisadores trabalham congelados para que as estrelas fiquem paradas.\n\nUma coisa me surpreendeu: ninguém olhava pelo telescópio. Hoje, a luz é registrada por uma câmera, e tudo é controlado numa sala ao lado, cheia de computadores. Caio digitava comandos, apertava uma tecla, e a cúpula começava a girar. Outra tecla, e a câmera se abria. Cada imagem era salva num diretório com a data da noite; de manhã, haveria dezenas de arquivos naquele diretório, prontos para serem estudados durante meses.\n\nAo lado do teclado havia um caderno grosso. Ali, Caio fazia as suas anotações à mão: a hora, o estado do céu, a passagem de uma nuvem, um problema na câmera. \"O computador guarda as imagens, mas é a anotação que conta a história da noite\", disse ele.\n\nÀs 3 da manhã, ele me levou para fora. Sem nenhum instrumento, vi a Via Láctea atravessando o céu de ponta a ponta. Esqueci o frio, o time e o rebaixamento. Diante daquele céu, até uma surra de 5 a 0 parecia um assunto pequeno.\n\nPerguntas:\nPor que o narrador estava numa semana ruim?\nPorque o seu time tinha levado uma surra de 5 a 0, e o rebaixamento parecia certo.\nPor que o observatório fica longe das cidades?\nPorque a luz e a sujeira do ar urbano atrapalham a observação.\nO que torna o instrumento mais potente?\nUm espelho maior, que recolhe mais luz das estrelas.\nPor que a cúpula não pode ser aquecida?\nPorque o ar quente que sobe pela abertura faz a imagem tremer.\nOnde as imagens da noite eram salvas?\nElas eram salvas num diretório com a data da noite.\nPara que servem as anotações de Caio?\nElas registram a hora, o estado do céu e os problemas, e contam a história da noite."
+    },
+    {
+      "title": "Como nasce uma estrela",
+      "summary": "An explanation of where stars come from: Lemaître's idea of an expanding universe, the first light elements, a cold cloud of gas collapsing until its centre is hot enough for fusion, why nebula pictures are coloured, and the open questions.",
+      "newWords": [
+        "elementar",
+        "belga",
+        "premissa",
+        "intuição",
+        "patamar",
+        "colorir",
+        "insignificante",
+        "enigma"
+      ],
+      "text": "De onde vêm as estrelas? Parece uma pergunta elementar, dessas que as crianças fazem, mas a ciência levou séculos para começar a respondê-la. E, para entender o nascimento de uma estrela, é preciso voltar ao começo de tudo.\n\nEm 1927, um padre belga chamado Georges Lemaître, que também era físico, propôs que o universo está em expansão. A sua premissa era simples: se as galáxias estão se afastando umas das outras, como as observações indicavam, então o universo está crescendo. E, se está crescendo hoje, no passado ele foi menor. Seguindo essa premissa até o fim, o padre belga concluiu que, há muito tempo, todo o universo esteve concentrado num estado extremamente quente e denso. Muitos desconfiaram, mas as observações das décadas seguintes deram razão à sua intuição. Hoje se calcula que o universo tenha cerca de 13,8 bilhões de anos.\n\nNos primeiros minutos, formaram-se os elementos mais simples, quase só hidrogênio e hélio. O carbono, o oxigênio e o ferro, sem os quais a vida não existiria, só apareceriam muito mais tarde, dentro das próprias estrelas.\n\nComo, então, nasce uma estrela? Tudo começa numa nuvem enorme de gás e poeira, fria e escura. A gravidade faz o resto: a região mais densa atrai mais gás, que atrai ainda mais gás, e a nuvem começa a se contrair. À medida que se contrai, ela esquenta.\n\nO momento decisivo chega quando o centro dessa bola de gás atinge um patamar de cerca de 10 milhões de graus. Abaixo desse patamar, nada de especial acontece; acima dele, os núcleos de hidrogênio passam a se unir e formar hélio, liberando uma quantidade gigantesca de energia. É a fusão nuclear. Nesse instante, nasce uma estrela: ela brilha com a própria luz.\n\nAs fotografias dessas nuvens estão entre as imagens mais bonitas da ciência, mas muitas delas são coloridas pelos pesquisadores. Os telescópios registram tipos de luz que o olho humano não vê, e cada tipo recebe uma cor na imagem final. Colorir uma imagem, nesse caso, não é decoração: é uma forma de mostrar o que ficaria invisível.\n\nO nosso Sol nasceu assim, há cerca de 4,6 bilhões de anos. Entre os bilhões de estrelas da nossa galáxia, ele é uma estrela comum, quase insignificante. Mas há um detalhe que nada tem de insignificante: o carbono e o oxigênio do nosso corpo foram produzidos no interior de estrelas antigas, que morreram antes que o Sol nascesse. Somos, literalmente, feitos de restos de estrelas.\n\nMuita coisa ainda é um enigma. Os cientistas não sabem exatamente como se formaram as primeiras estrelas, nem por que algumas nuvens produzem muitas estrelas e outras quase nenhuma. O enigma continua, mas a intuição de Lemaître e aquela pergunta elementar de criança já nos levaram bem longe.\n\nPerguntas:\nQual era a premissa de Lemaître?\nSe as galáxias estão se afastando umas das outras, o universo está crescendo e, no passado, foi menor.\nComo uma nuvem de gás começa a se transformar numa estrela?\nA gravidade faz a região mais densa atrair mais gás, e a nuvem se contrai e esquenta.\nQue patamar o centro da nuvem precisa atingir?\nEle precisa atingir cerca de 10 milhões de graus, quando começa a fusão nuclear.\nPor que os pesquisadores colorem as imagens das nuvens?\nPorque os telescópios registram tipos de luz que o olho não vê, e as cores mostram essa luz.\nPor que o texto diz que somos feitos de restos de estrelas?\nPorque o carbono e o oxigênio do nosso corpo foram produzidos no interior de estrelas antigas."
+    },
+    {
+      "title": "O padeiro que olha o céu",
+      "summary": "A profile of Seu Damião, a baker in the backlands of Paraíba who has watched the night sky since boyhood, bought a telescope at 40, keeps it on his late father's small farm and shows the Moon and planets to the townspeople once a month.",
+      "newWords": [
+        "bigode",
+        "padaria",
+        "moleque",
+        "chácara",
+        "plantio",
+        "paragem",
+        "desmontar",
+        "transplante",
+        "comporta",
+        "enchente"
+      ],
+      "text": "Seu Damião tem 62 anos, um bigode branco e grosso e uma padaria numa pequena cidade do sertão da Paraíba. Todos os dias, ele acorda às 3 da manhã para preparar o pão. E todos os dias, antes de acender o forno, faz a mesma coisa: sai para o quintal e olha para cima.\n\n\"Desde moleque eu faço isso\", conta ele, passando a mão no bigode. Quando era moleque, Damião ajudava o pai numa chácara a poucos quilômetros da cidade. O plantio do milho e do feijão começava com as primeiras chuvas, e a família dependia de cada grão. Nas noites de calor, todos dormiam em redes na varanda, e o menino ficava acordado contando estrelas. \"Nestas paragens, o céu é o melhor espetáculo que existe. Não tem luz de cidade grande, e quase não chove.\" De fato, no sertão, o ar seco e as poucas nuvens deixam o céu muito limpo durante boa parte do ano, e quem conhece aquelas paragens sabe que as noites ali parecem ter mais estrelas.\n\nO primeiro telescópio chegou tarde, quando Damião já tinha 40 anos e a padaria ia bem. Aprendeu sozinho, com livros e vídeos, a montar e desmontar o aparelho. Hoje, ele mantém o telescópio na velha chácara do pai, numa pequena casa de madeira com um teto que se abre. Mesmo assim, toda manhã ele desmonta as peças mais delicadas e as guarda numa caixa, por causa da poeira que o vento traz.\n\nA chácara continua produzindo: no começo das chuvas, Damião cuida do plantio, como fazia o pai. Também cultiva mudas de árvores de fruta em pequenos sacos e faz o transplante para a terra quando elas estão fortes. \"O transplante tem que ser feito na hora certa, depois de uma boa chuva. É como no céu: tudo tem o seu momento.\"\n\nChuva, aliás, é assunto sério por ali. A chácara fica perto de um açude, um reservatório que guarda água para os meses de seca. Na maior parte dos anos, o problema é a falta de água. Há alguns anos, porém, choveu tanto que o açude encheu e foi preciso abrir as comportas. A enchente do riacho chegou até a cerca da chácara. \"Foi a primeira enchente que vi na vida. Abriram as comportas de madrugada, e eu fiquei de olho na água e no céu ao mesmo tempo\", lembra ele, rindo.\n\nHoje, uma vez por mês, seu Damião leva o telescópio à praça e deixa quem quiser olhar a Lua, os anéis de Saturno e as luas de Júpiter. Crianças e adultos fazem fila diante do aparelho.\n\n\"Meu sonho é que algum moleque daqui olhe pelo telescópio e resolva estudar o céu de verdade\", diz. Depois, volta para a padaria: às 5 horas, o pão precisa estar pronto.\n\nPerguntas:\nO que seu Damião faz antes de acender o forno da padaria?\nEle sai para o quintal e olha para o céu.\nO que ele fazia quando era moleque?\nEle ajudava o pai na chácara e, nas noites de calor, ficava acordado contando estrelas.\nPor que o céu do sertão é tão limpo?\nPorque o ar é seco, há poucas nuvens e não há luz de cidade grande.\nPor que ele desmonta as peças do telescópio toda manhã?\nPor causa da poeira que o vento traz.\nQuando deve ser feito o transplante das mudas, segundo ele?\nNa hora certa, depois de uma boa chuva.\nO que aconteceu no ano em que choveu demais?\nO açude encheu, abriram as comportas, e a enchente chegou até a cerca da chácara."
+    },
+    {
+      "title": "O primeiro brasileiro no espaço",
+      "summary": "A profile of Marcos Pontes: his selection by the Brazilian Space Agency, training in Houston, the halt in shuttle flights after the Columbia accident, his 2006 flight on a Soyuz, what microgravity does to the body, and his talks in schools.",
+      "newWords": [
+        "recrutamento",
+        "rigor",
+        "paralisação",
+        "inserção",
+        "anormal",
+        "veia",
+        "intestino",
+        "urina",
+        "retribuir"
+      ],
+      "text": "No dia 30 de março de 2006, uma nave russa partiu da base de Baikonur, no Cazaquistão, levando 3 pessoas a bordo. Uma delas era Marcos Pontes, tenente-coronel da Força Aérea Brasileira. Naquele momento, ele se tornava o primeiro brasileiro a viajar para o espaço.\n\nPontes nasceu em 1963, em Bauru, no interior de São Paulo. Tornou-se piloto militar e engenheiro. Em 1998, a Agência Espacial Brasileira abriu um processo de recrutamento para escolher o primeiro astronauta do país. O recrutamento incluiu provas, exames médicos e testes psicológicos, e Pontes foi o escolhido.\n\nSeguiram-se anos de treinamento na NASA, em Houston, nos Estados Unidos. O rigor era enorme: os candidatos estudavam as naves, treinavam emergências e passavam horas numa piscina gigante que imita a sensação de estar no espaço. Esse rigor tinha uma razão: lá em cima, um erro pequeno pode custar muito caro.\n\nO plano era voar num ônibus espacial americano. Em 2003, porém, o ônibus espacial Columbia se partiu ao voltar para a Terra, e os 7 astronautas morreram. Depois do acidente, houve uma longa paralisação dos voos, e a missão brasileira ficou sem data. Nesse período, o Brasil negociou com a Rússia, e Pontes passou a treinar para a nave Soyuz.\n\nA viagem, chamada Missão Centenário, homenageava os 100 anos do voo de Santos Dumont em Paris. Cerca de 9 minutos depois da partida, veio a inserção em órbita: o momento em que a nave atinge a velocidade necessária para dar voltas em torno da Terra sem cair. Depois da inserção, os motores se desligam, e tudo o que está solto fica suspenso no ar. Dois dias mais tarde, a nave chegou à Estação Espacial Internacional, onde Pontes passou cerca de uma semana fazendo experimentos. Um deles, preparado por estudantes brasileiros, observava como sementes de feijão crescem sem gravidade.\n\nViver em órbita exige que o corpo se acostume a uma situação anormal. Na Terra, a gravidade puxa o sangue e os outros líquidos para as pernas. No espaço, eles se espalham para a parte de cima do corpo: o rosto fica inchado, e as veias do pescoço ficam mais visíveis. Curiosamente, comer não é um problema: os músculos do estômago e do intestino empurram os alimentos sem precisar da gravidade, e o intestino funciona quase como na Terra.\n\nA água é preciosa. Hoje, na estação, a urina dos astronautas é filtrada e transformada novamente em água limpa. Depois de tratada, a água que vem da urina é mais pura do que a de muitas cidades.\n\nPontes voltou no dia 8 de abril de 2006, numa cápsula que pousou no Cazaquistão. Desde então, dá palestras em escolas de todo o país, como uma forma de retribuir o investimento que recebeu. Para muitos estudantes, ouvi-lo foi a primeira vez que o espaço pareceu ao seu alcance, e talvez seja essa a melhor maneira de retribuir: abrir a porta para quem vem depois.\n\nPerguntas:\nComo Marcos Pontes foi escolhido?\nNum processo de recrutamento da Agência Espacial Brasileira, em 1998.\nPor que o treinamento tinha tanto rigor?\nPorque, no espaço, um erro pequeno pode custar muito caro.\nO que aconteceu depois do acidente do Columbia?\nHouve uma longa paralisação dos voos, e o Brasil negociou com a Rússia uma viagem na nave Soyuz.\nO que acontece com o corpo na situação anormal da órbita?\nOs líquidos sobem, o rosto fica inchado e as veias do pescoço ficam mais visíveis.\nComo Pontes procura retribuir o investimento que recebeu?\nEle dá palestras em escolas de todo o país."
+    },
+    {
+      "title": "Quando o dia vira noite",
+      "summary": "An explanation of solar and lunar eclipses: old beliefs, the alignment that causes them, the Moon's cone of shadow, why they are not monthly, how to watch safely, and the 1919 eclipse in Sobral that tested Einstein's idea.",
+      "newWords": [
+        "súbito",
+        "devorar",
+        "ocasionar",
+        "cone",
+        "precaução",
+        "iludir",
+        "indispensável",
+        "subestimar"
+      ],
+      "text": "Poucos espetáculos impressionam tanto quanto um eclipse total do Sol. Em pleno dia, o céu fica escuro de modo súbito, a temperatura cai, os pássaros se calam e algumas estrelas aparecem. Essa noite súbita assustou a humanidade durante séculos. Na China antiga, dizia-se que um dragão estava tentando devorar o Sol, e as pessoas faziam barulho com tambores para espantá-lo.\n\nO que ocasiona um eclipse, na verdade, é uma simples questão de posição. Num eclipse do Sol, a Lua passa exatamente entre o Sol e a Terra. Num eclipse da Lua, é a Terra que fica entre o Sol e a Lua, e a sombra do nosso planeta cobre o satélite. Nesse caso, a Lua não desaparece, mas fica cor de cobre: o ar da Terra desvia um pouco de luz vermelha para dentro da sombra, e é esse desvio que ocasiona a cor.\n\nHá uma coincidência curiosa por trás do eclipse total: o Sol é cerca de 400 vezes maior que a Lua, mas está cerca de 400 vezes mais longe. Por isso, vistos daqui, os dois parecem ter o mesmo tamanho, e a Lua consegue cobrir o Sol por completo.\n\nA sombra da Lua tem a forma de um cone. Quem está dentro desse cone vê o eclipse total; quem está em volta dele vê apenas uma parte do Sol coberta. Como a ponta do cone é estreita quando chega à Terra, o eclipse total só é visto numa faixa que, em geral, tem menos de 300 quilômetros de largura.\n\nA Lua gira em torno da Terra todo mês. Por que, então, não há eclipses todos os meses? Porque a órbita da Lua não está no mesmo plano que a da Terra. Na maioria dos meses, ela passa um pouco acima ou abaixo da linha entre o Sol e a Terra.\n\nUm eclipse do Sol exige precaução. Nunca se deve olhar diretamente para o Sol, nem mesmo quando ele está quase todo coberto. Não se deixe iludir: um Sol pela metade parece fraco, mas a sua luz continua capaz de causar danos graves aos olhos. Óculos escuros comuns não protegem. Para observar com segurança, é indispensável usar filtros próprios, com certificação. A luz fraca ilude, e a precaução é indispensável até o último minuto.\n\nOs eclipses também ajudaram a ciência. Einstein tinha previsto que a gravidade do Sol desviaria a luz de uma estrela distante ao passar perto dele. Para testar essa previsão, havia um problema: as estrelas próximas do Sol só são visíveis durante um eclipse total. Em 29 de maio de 1919, uma expedição britânica fotografou o eclipse em Sobral, no Ceará, enquanto outra equipe observava da ilha do Príncipe, na África. As imagens de Sobral mostraram as estrelas ligeiramente fora da posição esperada, como Einstein havia previsto.\n\nQuem acha que um eclipse é só uma curiosidade costuma subestimar o seu valor. Não convém subestimar alguns minutos de escuridão: em 1919, eles ajudaram a mudar a física.\n\nPerguntas:\nO que acontece durante um eclipse total do Sol?\nO céu fica escuro de repente, a temperatura cai, os pássaros se calam e algumas estrelas aparecem.\nO que se dizia na China antiga sobre os eclipses?\nDizia-se que um dragão tentava devorar o Sol.\nO que ocasiona um eclipse do Sol?\nA Lua passa exatamente entre o Sol e a Terra.\nPor que é preciso tomar precaução durante um eclipse do Sol?\nPorque, mesmo quando o Sol está quase todo coberto, a sua luz pode causar danos graves aos olhos.\nO que as imagens de Sobral mostraram em 1919?\nAs estrelas apareceram um pouco fora da posição esperada."
+    },
+    {
+      "title": "Galileu e o céu proibido",
+      "summary": "A profile of Galileo: his first telescope, the mountains of the Moon and the moons of Jupiter, the Dialogue of 1632, the trial of 1633 where he knelt and abjured, his house arrest near his daughter's convent, and the Church's recognition in 1992.",
+      "newWords": [
+        "modernidade",
+        "relevo",
+        "dialogar",
+        "censurar",
+        "ajoelhar",
+        "juramento",
+        "domiciliar",
+        "mosteiro",
+        "intolerância"
+      ],
+      "text": "No fim de 1609, um professor de matemática de Pádua, na Itália, apontou para o céu um instrumento que ele mesmo tinha construído: um tubo com duas lentes, que aumentava os objetos cerca de 20 vezes. Chamava-se Galileu Galilei, e o que ele viu naquelas noites ajudou a abrir as portas da modernidade. A ciência da modernidade, que confia mais na observação do que na autoridade, deve muito a ele.\n\nA primeira surpresa foi a Lua. Na época, acreditava-se que os corpos do céu eram perfeitos e lisos. Galileu viu outra coisa: um relevo cheio de montanhas e vales, com sombras que mudavam conforme a luz do Sol. O relevo da Lua mostrava que ela era um mundo parecido com a Terra, e não uma esfera perfeita.\n\nEm janeiro de 1610, veio a segunda surpresa: 4 pequenos pontos de luz ao lado de Júpiter, que mudavam de posição a cada noite. Eram luas de Júpiter. Se havia corpos que não giravam em torno da Terra, a ideia de que a Terra era o centro de tudo ficava difícil de defender.\n\nGalileu passou a defender a teoria de Copérnico, segundo a qual a Terra e os outros planetas giram em torno do Sol. Isso o colocou em conflito com a Igreja, que, em 1616, condenou essa teoria. Em 1632, Galileu publicou o livro Diálogo sobre os dois principais sistemas do mundo. Nele, três personagens dialogam durante 4 dias: um defende Copérnico, outro defende a visão antiga, e o terceiro, um homem curioso, ouve os dois. Com os personagens dialogando, Galileu apresentava ideias proibidas sem falar em seu próprio nome, mas estava claro de que lado ele estava.\n\nO livro foi censurado, e Galileu foi chamado a Roma pela Inquisição. Em 1633, aos 69 anos, foi julgado e obrigado a se ajoelhar diante dos juízes e fazer um juramento no qual renunciava à ideia de que a Terra se move.\n\nA pena foi a prisão domiciliar. Galileu passou os últimos anos numa casa em Arcetri, perto de Florença, de onde não podia sair sem autorização. A prisão domiciliar teve um alívio: ali perto ficava o mosteiro onde vivia a sua filha mais velha, que se tornara freira com o nome de irmã Maria Celeste. As cartas que ela escreveu do mosteiro para o pai, guardadas até hoje, mostram o carinho entre os dois. Galileu morreu em 1642.\n\nO caso de Galileu se tornou um símbolo da intolerância contra o pensamento livre. Mas também lembra que a intolerância raramente vence a longo prazo. Em 1992, o papa João Paulo II reconheceu oficialmente os erros cometidos no julgamento. O livro que um dia foi censurado hoje está em qualquer biblioteca, e a Terra, como sempre, continua girando.\n\nPerguntas:\nO que Galileu viu na Lua?\nEle viu um relevo cheio de montanhas e vales, e não uma esfera perfeita.\nPor que as luas de Júpiter eram uma descoberta importante?\nPorque mostravam que havia corpos que não giravam em torno da Terra.\nComo Galileu apresentou as ideias de Copérnico no seu livro de 1632?\nEle pôs três personagens dialogando: um defendia Copérnico, e outro, a visão antiga.\nO que aconteceu com Galileu em Roma, em 1633?\nEle foi obrigado a se ajoelhar diante dos juízes e fazer um juramento contra a ideia de que a Terra se move.\nQual foi a pena de Galileu?\nA pena foi a prisão domiciliar numa casa perto de Florença.\nQuem vivia no mosteiro perto da casa de Galileu?\nA sua filha mais velha, que se tornara freira com o nome de irmã Maria Celeste."
+    },
+    {
+      "title": "Um planetário para as escolas",
+      "summary": "A report on a travelling inflatable planetarium created by a university physics teacher: how it is funded by the rectorate and a yearly bazaar, how a student curates the shows from a tablet, and how schools prepare their pupils.",
+      "newWords": [
+        "idealizar",
+        "almofada",
+        "reitoria",
+        "bazar",
+        "curador",
+        "tablet",
+        "menu",
+        "engajar",
+        "cartucho"
+      ],
+      "text": "Em muitas cidades do interior, as crianças crescem sem nunca ter entrado num planetário. Os poucos que existem no país ficam, em geral, nas cidades grandes, e uma viagem com uma turma inteira custa caro. Foi pensando nisso que Regina Alves, professora de física de uma universidade pública, idealizou um projeto simples: se as escolas não podem ir ao planetário, o planetário vai às escolas.\n\nO projeto idealizado por Regina há 5 anos usa uma cúpula que se enche de ar, feita de um tecido escuro e resistente. Em menos de meia hora, ela é montada no ginásio ou no pátio da escola. Dentro dela, cabem cerca de 30 crianças sentadas no chão, sobre almofadas coloridas, olhando para cima. Um aparelho no centro da cúpula mostra o céu como ele seria visto numa noite sem nuvens e sem luzes.\n\nO dinheiro inicial veio da reitoria da universidade, que aprovou a ideia como projeto de extensão. Mas a verba da reitoria cobria apenas a cúpula e o equipamento. Para comprar as almofadas e pagar o transporte, os estudantes do curso de física organizaram um bazar de roupas e livros usados. O bazar deu tão certo que virou tradição: acontece todo ano, no fim do semestre.\n\nQuem conduz as sessões é Tiago, um estudante de 22 anos que atua como curador do conteúdo. Cabe a ele escolher o que será mostrado em cada visita e adaptar a linguagem a cada idade. \"Ser curador, aqui, é saber escolher. O céu tem coisas demais; se eu mostrar tudo, as crianças não guardam nada\", explica.\n\nTudo é controlado por um tablet. Na tela, um menu simples permite escolher a data, a hora e o lugar de onde o céu será visto. Tiago abre o menu, toca numa opção, e o céu de Sobral no dia 29 de maio de 1919 aparece na cúpula, com o Sol coberto pela Lua. Outra opção do menu mostra o céu visto do polo Sul. Quando uma criança faz uma pergunta, ele usa o tablet para apontar uma estrela ou ligar várias delas com linhas, formando figuras.\n\nO segredo, segundo Regina, é engajar os alunos antes e depois da visita. Uma semana antes, os professores da escola recebem um material com atividades: mapas do céu, perguntas e desenhos para colorir. No começo, algumas escolas reclamaram do gasto com cartuchos de tinta para imprimir tanto material. Como os cartuchos custam caro, a equipe passou a levar os mapas já impressos.\n\nOs resultados animam a equipe. Em 5 anos, a cúpula visitou mais de 200 escolas. Professores contam que os alunos mais engajados passaram a observar a Lua de casa e a fazer perguntas nas aulas de ciências. Para Regina, engajar as crianças é o verdadeiro objetivo: \"Não queremos que elas decorem nomes de estrelas. Queremos que saiam daqui com vontade de olhar para cima.\"\n\nPerguntas:\nQue projeto Regina Alves idealizou?\nEla idealizou um planetário que vai às escolas, com uma cúpula que se enche de ar.\nOnde as crianças se sentam dentro da cúpula?\nElas se sentam no chão, sobre almofadas coloridas.\nDe onde veio o dinheiro do projeto?\nA reitoria pagou a cúpula e o equipamento, e um bazar organizado pelos estudantes pagou as almofadas e o transporte.\nO que faz Tiago como curador do conteúdo?\nEle escolhe o que será mostrado em cada visita e adapta a linguagem a cada idade.\nPara que serve o menu do tablet?\nEle permite escolher a data, a hora e o lugar de onde o céu será visto.\nPor que a equipe passou a levar os mapas já impressos?\nPorque as escolas reclamaram do gasto com cartuchos de tinta."
+    },
+    {
+      "title": "O céu que estamos perdendo",
+      "summary": "An opinion column on light pollution: how much of humanity no longer sees the Milky Way, how Rio's old observatory had to move, how beach lights confuse baby sea turtles, the real need for safe streets, and simple ways to light cities better.",
+      "newWords": [
+        "problemática",
+        "demolição",
+        "predador",
+        "promotoria",
+        "beco",
+        "inconveniente",
+        "luminoso",
+        "centralizar",
+        "pedalar"
+      ],
+      "text": "Quando eu era criança, no interior, bastava sair de casa à noite para ver a Via Láctea. Hoje moro numa cidade média do litoral, e o céu que vejo da janela tem, com sorte, uma dúzia de estrelas. Não foi o céu que mudou: fomos nós que o cobrimos de luz.\n\nA poluição luminosa é o excesso de luz artificial durante a noite. Segundo um estudo de 2016, mais de 80% da população do mundo vive sob um céu iluminado por luzes artificiais, e mais de um terço da humanidade já não consegue ver a Via Láctea. A problemática não é nova, mas cresceu junto com as cidades.\n\nA história do Rio de Janeiro dá um exemplo curioso. O antigo observatório da cidade funcionava no morro do Castelo, no centro. Nos anos 1920, a demolição do morro obrigou o observatório a se mudar para o bairro de São Cristóvão. O motivo eram obras urbanas, não as luzes, mas o caso mostra como a cidade empurra o céu para longe.\n\nMas a problemática vai além das estrelas: a luz em excesso também afeta os animais. Nas praias onde as tartarugas marinhas põem ovos, os filhotes nascem à noite e se orientam pelo brilho do horizonte sobre o mar. Quando há luzes fortes na praia, eles andam na direção errada, gastam energia e ficam expostos a predadores. Por isso, há regras no país para a iluminação perto dos ninhos. Na minha cidade, a promotoria de meio ambiente chegou a cobrar da prefeitura o cumprimento dessas regras num trecho de praia. O pedido da promotoria foi atendido, e as luzes foram trocadas.\n\nHá, é claro, o outro lado. A luz traz segurança. Ninguém quer atravessar um beco escuro às 11 da noite, e uma rua bem iluminada ajuda a evitar crimes e acidentes. Quem pede menos luz precisa reconhecer esse inconveniente. O problema, porém, não é a luz em si, mas a luz mal usada: postes que iluminam o céu em vez do chão, lojas acesas a noite inteira, o luminoso enorme que brilha para uma rua vazia. Um beco pode ser iluminado por uma luz voltada para baixo, que ilumina o chão sem apagar as estrelas.\n\nAs soluções existem e nem são caras: lâmpadas fechadas por cima, luz de cor mais quente, iluminação que diminui de madrugada. Algumas cidades decidiram centralizar o controle da iluminação pública num único sistema, que ajusta cada poste conforme o horário e o movimento da rua. Centralizar esse controle tem um custo inicial, mas reduz o gasto com energia ao longo dos anos. O único inconveniente verdadeiro é a mudança de hábito.\n\nÀs vezes, pego a bicicleta e vou pedalar até a saída da cidade, onde as luzes acabam. Pedalo uns 40 minutos, paro e olho para cima. As estrelas continuam lá, como sempre estiveram. Nenhum luminoso, por mais bonito que seja, vale esse céu.\n\nPerguntas:\nPor que o antigo observatório do Rio de Janeiro mudou de lugar?\nPor causa da demolição do morro do Castelo, nos anos 1920.\nPor que as luzes da praia são perigosas para os filhotes de tartaruga?\nPorque eles andam na direção errada, gastam energia e ficam expostos a predadores.\nQual é o inconveniente de ter menos luz nas ruas, segundo o autor?\nMenos luz pode trazer menos segurança, por exemplo num beco escuro à noite.\nPor que algumas cidades decidiram centralizar o controle da iluminação?\nPara ajustar cada poste ao horário e ao movimento da rua e gastar menos energia.\nO que o autor faz para ver as estrelas?\nEle vai pedalar até a saída da cidade, onde as luzes acabam."
+    },
+    {
+      "title": "Entrevista: a pedra que caiu do céu",
+      "summary": "An interview with a geologist about the Bendegó meteorite: its discovery in the Bahia backlands in 1784, the failed move of 1785, Emperor Pedro II's expedition by ox cart, railway and ship, its survival in the 2018 museum fire, and what iron meteorites teach.",
+      "newWords": [
+        "rebanho",
+        "desconfiança",
+        "ranger",
+        "majestade",
+        "ferrovia",
+        "esgotado"
+      ],
+      "text": "O Bendegó é o maior meteorito já encontrado no Brasil: um bloco de metal, quase todo de ferro, com mais de 5 toneladas, exposto no Museu Nacional, no Rio de Janeiro. Conversamos com a pesquisadora Sandra Lima, que estuda pedras do espaço há 20 anos, sobre a história do Bendegó.\n\nComo o Bendegó foi encontrado?\n\nSegundo os registros, em 1784, por um jovem que cuidava do rebanho de uma fazenda perto de Monte Santo, no sertão da Bahia. Ele procurava animais do rebanho que tinham se perdido e encontrou uma pedra escura, enorme, muito diferente das outras.\n\nNaquela época já se sabia que pedras caíam do céu?\n\nNão, e isso é o mais curioso. No século 18, a maioria dos cientistas europeus tratava os relatos de pedras caindo do céu com desconfiança. Essa desconfiança só acabou no começo do século 19, quando uma chuva de pedras foi vista por centenas de pessoas numa cidade da França.\n\nO que aconteceu com a pedra depois de encontrada?\n\nEm 1785, o governo da Bahia tentou levá-la para Salvador num carro de bois. Imagino as rodas de madeira rangendo sob o peso. Numa descida, o carro correu sem controle, e a pedra caiu perto do riacho Bendegó, que lhe deu o nome. Ela ficou ali por mais de 100 anos.\n\nE como ela chegou ao Rio?\n\nGraças ao imperador Dom Pedro II, que se interessava muito por ciência. Ele soube da pedra por meio de cientistas franceses, e Sua Majestade, como era chamado, apoiou uma expedição para buscá-la. A equipe partiu em 1887.\n\nFoi uma viagem difícil?\n\nMuito. Os homens abriram caminho no mato até a ferrovia mais próxima, e a pedra seguiu num carro reforçado, puxado por bois, que rangia o dia inteiro. Os animais terminavam cada dia esgotados, e os homens também. Foram meses até a estação. Dali, a pedra foi de trem até Salvador e, depois, de navio até o Rio, onde chegou em 1888. Imagino a equipe esgotada, mas orgulhosa, vendo a pedra entrar no navio.\n\nO Bendegó sobreviveu ao incêndio do Museu Nacional, em 2018. Como isso foi possível?\n\nO fogo destruiu quase todo o acervo, mas não teve força para danificar um bloco de metal. O ferro só derrete a temperaturas muito mais altas do que as de um incêndio comum. No dia seguinte, a pedra estava lá, inteira, no meio das cinzas.\n\nO que uma pedra como essa nos ensina?\n\nOs meteoritos de ferro são pedaços do interior de corpos antigos, que se formaram no começo do sistema solar, há cerca de 4,6 bilhões de anos. Estudá-los é como olhar para dentro de um planeta que não chegou a existir. Quando estou diante do Bendegó, sinto algo parecido com o que se sente diante de uma montanha: uma espécie de majestade silenciosa. Ele veio de muito longe, esperou um século no sertão e sobreviveu ao fogo.\n\nPerguntas:\nQuem encontrou o Bendegó?\nUm jovem que cuidava do rebanho de uma fazenda perto de Monte Santo, no sertão da Bahia.\nO que aconteceu na primeira tentativa de levar a pedra para Salvador?\nNuma descida, o carro de bois correu sem controle, e a pedra caiu perto do riacho Bendegó.\nQuem apoiou a expedição que levou a pedra para o Rio?\nO imperador Dom Pedro II, chamado de Sua Majestade.\nComo a pedra viajou até o Rio?\nEla foi num carro puxado por bois até a ferrovia, de trem até Salvador e de navio até o Rio.\nPor que o Bendegó sobreviveu ao incêndio de 2018?\nPorque o ferro só derrete a temperaturas muito mais altas do que as de um incêndio comum."
+    },
+    {
+      "title": "Resenha: a trilogia Céu de Ferro",
+      "summary": "A review of an invented science-fiction trilogy about a mining colony on a cold planet: a kidnapped scientist, a governor corrupted by power, an old anarchist, an out-of-place mounted guard, and a final volume full of suspense.",
+      "newWords": [
+        "trilogia",
+        "suspense",
+        "raptar",
+        "corromper",
+        "anarquista",
+        "cavalaria",
+        "atormentar"
+      ],
+      "text": "Poucas obras de ficção científica brasileira foram tão comentadas nos últimos anos quanto a trilogia Céu de Ferro, da escritora Lívia Moraes. O terceiro volume acaba de sair, e agora é possível avaliar o conjunto. Adianto a conclusão: é uma trilogia irregular, mas com um final que compensa os tropeços do caminho.\n\nA história se passa daqui a 300 anos, numa colônia humana instalada num planeta frio, que gira em torno de uma pequena estrela vermelha. A colônia é governada por uma empresa de mineração, que controla a água, a energia e até a hora de apagar as luzes. A protagonista, Iara, é uma jovem engenheira que cuida das máquinas que tiram água do gelo.\n\nO primeiro volume é o mais lento. A autora gasta muitas páginas descrevendo a colônia, e o suspense demora a aparecer. Quando aparece, porém, é bem construído: um cientista importante desaparece, e Iara descobre que ele foi raptado a mando do próprio governador. Por que raptar um homem que só estudava o gelo do planeta? A resposta, que vem aos poucos, move toda a trilogia: o cientista descobriu que a empresa esconde a verdadeira quantidade de água disponível, para manter os moradores dependentes.\n\nO tema central é o poder e a forma como ele pode corromper até as pessoas de boas intenções. O governador não é um vilão de desenho animado. No início, ele acredita que protege a colônia. Aos poucos, o medo de perder o controle o corrompe, e ele passa a mentir, a vigiar e a punir. Essa transformação, contada sem pressa, é o ponto forte do segundo volume.\n\nOutro personagem marcante é Tomás, um velho anarquista que vive nas galerias abandonadas das minas. Ele não aceita nenhum governo, nem o da empresa nem o dos rebeldes que querem substituí-la. As conversas entre Iara e o velho anarquista estão entre as melhores páginas da obra: dois modos de entender a liberdade, apresentados com honestidade, sem que a autora tome partido.\n\nHá também falhas. A mais estranha é a cavalaria da colônia: uma guarda que patrulha os campos montada em grandes animais nativos, parecidos com cavalos. A imagem é bonita, mas soa fora de lugar num mundo de tecnologia avançada.\n\nO terceiro volume reúne tudo com força. Iara, atormentada pela culpa de ter confiado na empresa durante tantos anos, precisa decidir se revela a verdade, mesmo sabendo que isso pode provocar uma revolta. A autora não tenta iludir o leitor com uma solução fácil: a verdade vem à tona, mas tem um preço, e a colônia que surge no fim é mais livre e também mais frágil. O suspense das últimas 100 páginas é de tirar o fôlego.\n\nFica a recomendação, com um aviso: quem tiver paciência para atravessar o primeiro volume será recompensado. Uma trilogia não é uma corrida de 100 metros; é uma maratona, e esta chega bem ao fim.\n\nPerguntas:\nOnde se passa a história da trilogia?\nNuma colônia humana instalada num planeta frio, governada por uma empresa de mineração.\nO que acontece com o cientista no primeiro volume?\nEle é raptado a mando do próprio governador.\nComo o poder muda o governador?\nO medo de perder o controle o corrompe, e ele passa a mentir, a vigiar e a punir.\nQuem é Tomás?\nÉ um velho anarquista que vive nas galerias abandonadas das minas e não aceita nenhum governo.\nPor que o autor da resenha critica a cavalaria da colônia?\nPorque ela soa fora de lugar num mundo de tecnologia avançada.\nO que atormenta Iara no terceiro volume?\nA culpa de ter confiado na empresa durante tantos anos."
+    }
+  ]
+}

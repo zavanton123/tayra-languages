@@ -1,0 +1,212 @@
+{
+  "id": "pt-mini-6300",
+  "rankUpTo": 6300,
+  "level": "C1",
+  "title": "Alimentação e nutrição",
+  "description": "Ten texts about food and health: a food column, a school cook, a farm visit, food labels, a vegetarian family, Cerrado fruits, convent sweets, living with diabetes, an athlete's diet and food fraud.",
+  "topic": "Food and nutrition",
+  "names": [
+    "Brasil",
+    "Sérgio",
+    "Niterói",
+    "Marta",
+    "Lins",
+    "Marinha",
+    "Neide",
+    "Barbosa",
+    "Santa",
+    "Rita",
+    "Goiânia",
+    "Goiás",
+    "Monte",
+    "Verde",
+    "Campinas",
+    "Camila",
+    "Antônio",
+    "Diego",
+    "Téo",
+    "Lurdes",
+    "São",
+    "Paulo",
+    "Chapada",
+    "Veadeiros",
+    "Joana",
+    "Cerrado",
+    "Portugal",
+    "Lisboa",
+    "Clarice",
+    "Fontes",
+    "Belo",
+    "Horizonte",
+    "Kenji",
+    "Okada",
+    "México",
+    "Paraná",
+    "Luísa",
+    "Andrade",
+    "Curitiba"
+  ],
+  "lessons": [
+    {
+      "title": "Carta de um ex-fuzileiro",
+      "summary": "A former marine writes to a food column after gaining weight, and the columnist answers with small, patient changes.",
+      "newWords": [
+        "fuzileiro",
+        "desabafar",
+        "desabafo",
+        "envergonhado",
+        "conceber",
+        "irresponsável",
+        "autoestima",
+        "construtivo",
+        "atentar",
+        "leme"
+      ],
+      "text": "Toda semana, nesta coluna, a especialista em alimentação Marta Lins responde à carta de um leitor. Hoje, publicamos o desabafo do senhor Sérgio, de 54 anos, que mora em Niterói.\n\n\"Cara Marta, escrevo para desabafar. Fui fuzileiro naval durante 20 anos. No quartel, a comida era farta, mas a gente gastava tudo nos treinos: corridas na areia, horas de natação no mar, marchas com peso nas costas. Quando deixei a Marinha, continuei comendo como um fuzileiro, só que passei a viver como um homem sentado. Hoje trabalho num escritório e engordei 15 quilos. Fico envergonhado quando perco o fôlego numa escada, e mais envergonhado ainda quando meu filho me chama para jogar bola e eu invento uma desculpa. Já tentei várias dietas radicais e desisti de todas. Minha autoestima está no chão. Não sei por onde começar.\"\n\nCaro Sérgio, obrigada pela confiança. Um desabafo como o seu não é sinal de fraqueza; muitas vezes, é o primeiro passo de uma mudança.\n\nComecemos pelo quartel. A alimentação dos fuzileiros foi concebida para corpos que gastam muita energia todos os dias. O problema não está no que o senhor comia, mas no fato de que a vida mudou e o prato continuou o mesmo. Isso não é preguiça nem falta de caráter: é hábito, e um hábito de 20 anos não desaparece de uma semana para outra.\n\nPor isso, peço que o senhor não se considere irresponsável. Irresponsável seria fingir que nada está acontecendo; o senhor, ao contrário, está olhando para o problema de frente. Também não recomendo as dietas radicais que já tentou. Elas costumam funcionar por algumas semanas e terminar em frustração, o que só piora a autoestima.\n\nProponho um caminho mais modesto e mais construtivo. Primeiro, atente para o tamanho das porções: muitas vezes, basta servir um pouco menos e comer devagar. Segundo, atente para o que bebe ao longo do dia, porque refrigerantes e sucos com açúcar pesam mais do que parecem. Terceiro, procure um médico para um exame completo antes de voltar a fazer exercícios.\n\nQuanto ao exercício, o senhor tem uma vantagem: o corpo de um ex-fuzileiro guarda a memória da disciplina. Comece com caminhadas curtas e aceite, enfim, o convite do seu filho. Uma partida de futebol no domingo pode ser mais construtiva do que uma hora sofrida na academia.\n\nPor fim, uma imagem que talvez lhe seja familiar. Num barco, quem segura o leme não muda o rumo de uma vez; faz pequenas correções, uma após a outra, até chegar aonde quer. Com a comida é igual. O leme está nas suas mãos, e pequenas correções, feitas com paciência, levam longe.\n\nUm abraço, e me escreva contando como foi.\n\nPerguntas:\nPor que o senhor Sérgio escreveu para a coluna?\nEle escreveu para desabafar, porque engordou depois de deixar a Marinha e não sabe por onde começar.\nEm que situações ele fica envergonhado?\nEle fica envergonhado quando perde o fôlego numa escada e quando inventa desculpas para não jogar bola com o filho.\nPara que foi concebida a alimentação dos fuzileiros?\nEla foi concebida para corpos que gastam muita energia todos os dias.\nPor que a colunista diz que ele não é irresponsável?\nPorque irresponsável seria fingir que nada está acontecendo, e ele está olhando para o problema de frente.\nPara que ele deve atentar, segundo a coluna?\nEle deve atentar para o tamanho das porções e para o que bebe ao longo do dia.\nO que a imagem do leme quer dizer?\nQuer dizer que o rumo muda com pequenas correções, feitas uma após a outra, e não de uma vez."
+    },
+    {
+      "title": "A cozinheira da escola",
+      "summary": "A profile of a school cook in Goiânia who has spent 26 years getting children to eat well.",
+      "newWords": [
+        "vocação",
+        "recordação",
+        "textura",
+        "alternar",
+        "miniatura",
+        "malandro",
+        "confiscar",
+        "reabrir",
+        "machismo",
+        "evacuar"
+      ],
+      "text": "Há 26 anos, Neide Barbosa chega à Escola Municipal Santa Rita, em Goiânia, antes das 6 da manhã. Ela costuma dizer que chegou à cozinha da escola por acaso, mas quem a vê trabalhar não tem dúvida: cozinhar para crianças é a sua vocação.\n\nNeide aprendeu a cozinhar com a avó, numa fazenda do interior de Goiás. A recordação mais antiga que guarda é a de ficar em pé num banquinho, mexendo uma panela quase maior do que ela. \"Minha avó dizia que comida feita com raiva não alimenta\", conta. Essa recordação a acompanha até hoje.\n\nNa escola, Neide descobriu que alimentar 400 crianças exige mais do que boas receitas. Muitas vezes, a criança recusa um alimento não pelo sabor, mas pela textura. A abóbora cozida, mole demais, voltava quase inteira nos pratos. Neide passou a prepará-la no forno, em cubos, dourada por fora e macia por dentro. A textura mudou, e os pratos começaram a voltar vazios.\n\nEla também aprendeu a alternar. Para que ninguém se canse, alterna o arroz branco com o integral, o feijão carioca com o preto, a carne com o frango e o ovo. Alternar, explica, é uma forma de ensinar sem dar aula: a criança prova coisas novas sem perceber.\n\nUm dos seus truques preferidos são os pratos em miniatura. Para os menores, ela prepara bolinhos de peixe e pequenas tortas de frango em miniatura. \"Comida em miniatura parece brincadeira, e criança não recusa brincadeira\", diz.\n\nNeide conhece o malandro de cada turma: o que esconde a cenoura debaixo do arroz. Ela não briga. Senta ao lado do malandro, conversa um pouco e oferece só um pedaço. \"Na semana seguinte, ele já pede mais\", conta.\n\nQuando um aluno traz biscoitos de casa, a escola não os confisca. \"Confiscar o lanche de uma criança só ensina que comida é castigo\", opina.\n\nEm 2019, a cozinha passou por uma reforma de 3 meses. No dia em que foi reaberta, com fogão novo e janelas largas, as crianças fizeram cartazes de boas-vindas. Reabrir aquela cozinha, lembra Neide, foi como voltar para casa.\n\nO caminho nem sempre foi fácil. No começo, um parente disse a ela que cozinhar era obrigação de mulher, e não profissão. Hoje, 2 homens trabalham na equipe da cozinha, e Neide afirma que o machismo não tem lugar ali. Para ela, recusar o machismo é também dar valor ao próprio trabalho.\n\nHouve ainda um susto: certa manhã, um vazamento de gás obrigou a direção a evacuar a escola. Os alunos foram evacuados com calma, os bombeiros resolveram o problema e o almoço saiu com uma hora de atraso. Desde então, Neide confere o gás todas as manhãs.\n\nPerguntas:\nQual é a recordação mais antiga de Neide?\nÉ a de ficar em pé num banquinho, na fazenda da avó, mexendo uma panela quase maior do que ela.\nPor que muitas crianças recusavam a abóbora?\nPor causa da textura, porque a abóbora cozida ficava mole demais.\nPor que Neide gosta de alternar os alimentos?\nPorque alternar é uma forma de ensinar sem dar aula: a criança prova coisas novas sem perceber.\nO que ela faz com o malandro que esconde a cenoura?\nEla senta ao lado dele, conversa e oferece só um pedaço.\nPor que a escola não confisca os biscoitos trazidos de casa?\nPorque, segundo Neide, confiscar o lanche ensina que comida é castigo.\nPor que se pode dizer que Neide tem vocação para o trabalho?\nPorque ela cozinha para crianças há 26 anos com paciência e cuidado, e cozinhar para elas é a sua vocação."
+    },
+    {
+      "title": "Uma excursão ao sítio",
+      "summary": "A teacher takes her second-year class to the family farm that supplies the school's lunches.",
+      "newWords": [
+        "excursão",
+        "golfinho",
+        "alfabetização",
+        "licenciatura",
+        "trator",
+        "intermédio",
+        "comercialização",
+        "reciclar",
+        "arrebentar"
+      ],
+      "text": "Na Escola Estadual Monte Verde, perto de Campinas, a turma do segundo ano tem um apelido: os golfinhos. Foram as próprias crianças que escolheram o nome, e a porta da sala tem um golfinho azul desenhado por elas. A professora, Camila, fez licenciatura em Pedagogia e, logo depois da licenciatura, começou a trabalhar com turmas de alfabetização. Já são 8 anos. Neste texto, escrito para o jornal da escola, ela conta como foi a excursão da turma no mês passado.\n\nTudo começou com uma pergunta. Durante o almoço, um aluno quis saber de onde vinha a mandioca do prato. Eu não soube responder direito e prometi descobrir. Descobri que boa parte das frutas e dos alimentos frescos da nossa escola vem do sítio do seu Antônio, a 20 quilômetros daqui. Ele faz parte de uma cooperativa de agricultores familiares, e é por intermédio dela que os alimentos chegam até nós. A cooperativa cuida da comercialização: recebe os pedidos, organiza as entregas e cuida dos papéis. Sem esse intermédio, um pequeno agricultor dificilmente conseguiria vender para tantas escolas.\n\nOrganizar uma excursão com 25 crianças de 7 anos não é simples. Foram 3 semanas de bilhetes para as famílias, autorizações e listas. No dia marcado, saímos às 8 horas, com lanches e garrafas de água.\n\nNo sítio, seu Antônio nos esperava ao lado de um trator vermelho. As crianças ficaram encantadas: queriam subir e tocar em tudo. Ele explicou que o trator ajuda a preparar a terra, mas que muita coisa ainda é feita à mão, como a colheita das folhas. Depois, mostrou a horta, com uma placa de madeira em cada parte: tomate, cenoura, mandioca, milho. Para uma turma em plena alfabetização, foi uma festa. Cada criança queria ler uma placa em voz alta, e lemos todas, devagar, letra por letra. Nenhuma aula de alfabetização na sala teve tanto entusiasmo.\n\nSeu Antônio também nos mostrou como o sítio recicla o que sobra. Cascas, folhas velhas e restos da colheita vão para um canto do terreno, onde viram composto orgânico para a horta. \"Aqui nada se perde\", disse ele. Na volta, as crianças propuseram reciclar as cascas de fruta do lanche da escola, e já estamos montando uma pequena horta no pátio.\n\nAntes de irmos embora, ganhamos um saco de laranjas. No caminho até o ônibus, o saco arrebentou, e as laranjas rolaram pela estrada de terra. \"As laranjas!\", gritou uma aluna. Durante 5 minutos, os golfinhos correram atrás das laranjas, rindo. Ninguém se machucou, e o saco que arrebentou acabou virando a parte mais lembrada do passeio.\n\nNa semana seguinte, quando a mandioca apareceu de novo no almoço, a turma inteira sabia de onde ela vinha.\n\nPerguntas:\nPor que a turma do segundo ano se chama \"os golfinhos\"?\nPorque as próprias crianças escolheram esse nome, e há um golfinho azul desenhado na porta da sala.\nComo os alimentos do sítio chegam até a escola?\nEles chegam por intermédio de uma cooperativa de agricultores familiares, que cuida da comercialização.\nO que seu Antônio explicou sobre o trator?\nEle explicou que o trator ajuda a preparar a terra, mas que muita coisa ainda é feita à mão.\nPor que as placas da horta fizeram sucesso?\nPorque a turma está em plena alfabetização, e cada criança queria ler uma placa em voz alta.\nComo o sítio recicla o que sobra?\nCascas, folhas velhas e restos da colheita viram composto orgânico para a horta.\nO que aconteceu com o saco de laranjas?\nO saco arrebentou no caminho até o ônibus, e as crianças correram atrás das laranjas."
+    },
+    {
+      "title": "Como ler um rótulo",
+      "summary": "A columnist explains, step by step, how to read the front and back of a food package.",
+      "newWords": [
+        "prateleira",
+        "casual",
+        "luxuoso",
+        "gótico",
+        "matemático",
+        "agrupamento",
+        "exceder",
+        "frasco",
+        "sacudir"
+      ],
+      "text": "Diante da prateleira do supermercado, temos poucos segundos para decidir. Um olhar casual reconhece a marca, a cor da embalagem, talvez uma foto bonita, e o produto vai para o carrinho. O problema é que esse olhar casual vê exatamente o que a indústria quer que ele veja. Ler um rótulo de verdade leva um pouco mais de tempo, mas não exige nenhum talento especial.\n\nComece desconfiando da frente da embalagem. Ela é feita para vender, não para informar. Uma caixa luxuosa, com letras douradas, não garante um produto melhor; muitas vezes, o luxuoso está só no papel. Vi recentemente, numa prateleira, um pote de geleia com o nome escrito em letras góticas, como num livro antigo. As letras góticas sugeriam tradição, receita de família, fazenda. No verso, porém, o primeiro ingrediente era açúcar, e a fruta aparecia só em terceiro lugar.\n\nIsso nos leva à regra mais útil de todas: no Brasil, a lista de ingredientes aparece em ordem decrescente de quantidade. O que vem primeiro é o que existe em maior quantidade. Se o açúcar abre a lista, o produto é, antes de tudo, açúcar.\n\nHá um detalhe, porém. O açúcar pode aparecer com vários nomes: xarope de glicose, maltodextrina, açúcar invertido. Espalhados pela lista, eles parecem pouca coisa. Faça o agrupamento desses nomes, e o quadro muda: o agrupamento mostra que o açúcar, somado, talvez seja o ingrediente principal.\n\nDepois, olhe a tabela nutricional. Não é preciso ser matemático para entendê-la. Desde 2022, ela traz uma coluna com os valores para 100 gramas, o que facilita comparar 2 marcas do mesmo produto. Basta ver qual tem menos sódio, menos açúcar ou mais fibras. O raciocínio é mais de comparação do que matemático.\n\nTambém desde 2022, alguns produtos trazem na frente o desenho de uma lupa, com o aviso \"alto em\" açúcar adicionado, gordura saturada ou sódio. Esse aviso aparece quando o produto excede certos limites. Ele não significa que o alimento é proibido, mas que convém consumi-lo com menos frequência. Lembre também que o sal se acumula ao longo do dia: um pão, um molho, um salgadinho, e é fácil exceder a quantidade recomendada sem perceber.\n\nPor fim, leia as pequenas instruções. Num frasco de molho de salada, por exemplo, quase sempre está escrito: \"Sacuda antes de usar\". O conselho tem motivo. O óleo e os outros ingredientes se separam no frasco parado, e quem não o sacode serve uma primeira porção com óleo demais e uma última muito ácida.\n\nNão é preciso ler cada rótulo todas as vezes; basta conhecer os produtos que entram sempre na sua casa. Depois de algumas semanas, a ida ao supermercado volta a ser rápida, só que agora com os olhos abertos.\n\nPerguntas:\nO que um olhar casual vê na prateleira?\nEle vê a marca, a cor da embalagem e a foto, ou seja, o que a indústria quer que ele veja.\nO que as letras góticas da geleia sugeriam?\nElas sugeriam tradição e receita de família, mas o primeiro ingrediente era açúcar.\nComo estão ordenados os ingredientes de um rótulo no Brasil?\nEles aparecem em ordem decrescente de quantidade: o que vem primeiro existe em maior quantidade.\nPara que serve o agrupamento dos nomes do açúcar?\nServe para mostrar que o açúcar, somado, talvez seja o ingrediente principal.\nQuando aparece o aviso com a lupa?\nEle aparece quando o produto excede certos limites de açúcar adicionado, gordura saturada ou sódio.\nPor que é preciso sacudir o frasco de molho?\nPorque o óleo e os outros ingredientes se separam quando o frasco fica parado."
+    },
+    {
+      "title": "O almoço de domingo",
+      "summary": "A vegetarian couple invites the husband's mother to Sunday lunch and they find a middle ground.",
+      "newWords": [
+        "sogra",
+        "fralda",
+        "jade",
+        "desrespeito",
+        "desrespeitar",
+        "patético",
+        "opa",
+        "convergência",
+        "comunhão"
+      ],
+      "text": "Meu marido, Diego, e eu somos vegetarianos há 10 anos. Não comemos carne nem peixe, mas comemos ovos, leite e queijo. Quando o nosso filho, Téo, nasceu, combinamos com a médica dele que ele também seria vegetariano, com acompanhamento médico e exames regulares. Ela nos explicou que uma alimentação vegetariana bem planejada pode ser adequada para uma criança, desde que se dê atenção especial ao ferro e à vitamina B12.\n\nMinha sogra, dona Lurdes, nunca aceitou bem essa decisão. Ela não se opunha às nossas escolhas; para ela, adultos comem o que quiserem. O neto, porém, era outra história. Téo tinha 1 ano e meio, ainda usava fralda, e ela tinha medo de que ele não crescesse direito.\n\nO assunto explodiu num domingo de março. Convidamos dona Lurdes para almoçar, e ela chegou com uma travessa da sua famosa costela assada. Diego explicou, com cuidado, que não daríamos a costela ao Téo. Minha sogra ficou em silêncio e começou a girar no dedo o anel de jade que tinha sido da mãe dela, um gesto que eu já conhecia: era sinal de que estava magoada. \"Recusar a comida de uma avó é um desrespeito\", disse por fim.\n\nEu entendi a mágoa dela. Para dona Lurdes, cozinhar é uma forma de amor, e aquela costela era a receita da família inteira. Expliquei que não queríamos desrespeitar a sua tradição nem o seu carinho, mas que tínhamos feito uma escolha pensada, com ajuda da médica. Diego tentou ajudar, mas cada um repetia os mesmos argumentos, e a conversa durou quase uma hora.\n\nEnquanto isso, Téo, de fralda nova, batia a colher na mesa, sem entender nada. De repente, derrubou o prato de feijão no chão. \"Opa!\", disse dona Lurdes, e todos nós rimos ao mesmo tempo. Olhando para a cena, percebi como era patético: 3 adultos discutindo proteína enquanto o assunto da discussão só queria brincar com a comida. Minha sogra deve ter pensado o mesmo. \"Estamos sendo patéticos\", disse ela, e voltou a mexer no anel de jade, agora mais calma.\n\nNaquela tarde, encontramos uma convergência. Ela aceitou ler o relatório da médica; nós aceitamos que ela cozinhasse para o Téo, desde que fossem pratos sem carne. Na semana seguinte, dona Lurdes chegou com um feijão tropeiro sem carne, feito com ovos, e Téo repetiu o prato. Nem todas as diferenças sumiram, mas ninguém mais fala em desrespeito, e ninguém se sente desrespeitado.\n\nHoje, o almoço de domingo é o momento de comunhão da família. Cada um traz um prato, ninguém é obrigado a provar tudo, e a mesa voltou a ser um lugar de encontro. A comunhão, afinal, não depende de comermos a mesma coisa, mas de comermos juntos.\n\nPerguntas:\nO que a médica explicou sobre a alimentação vegetariana?\nExplicou que uma alimentação vegetariana bem planejada pode ser adequada para uma criança, com atenção ao ferro e à vitamina B12.\nO que a sogra fazia quando ficava magoada?\nEla girava no dedo o anel de jade que tinha sido da mãe dela.\nPor que dona Lurdes falou em desrespeito?\nPorque, para ela, recusar a comida de uma avó era um desrespeito.\nO que a narradora explicou à sogra?\nExplicou que não queriam desrespeitar a tradição nem o carinho dela, mas que a escolha tinha sido pensada.\nO que fez a família rir?\nO Téo derrubou o prato de feijão no chão, e dona Lurdes disse \"Opa!\".\nQue convergência a família encontrou?\nA sogra aceitou ler o relatório da médica, e o casal aceitou que ela cozinhasse pratos sem carne para o Téo."
+    },
+    {
+      "title": "As frutas do Cerrado",
+      "summary": "A visitor from São Paulo spends a week in Goiás and learns how local families gather and use Cerrado fruits.",
+      "newWords": [
+        "metrópole",
+        "cabana",
+        "predominante",
+        "curvar",
+        "amadurecer",
+        "aperceber",
+        "mapeamento",
+        "compilação",
+        "têxtil"
+      ],
+      "text": "Moro em São Paulo há 30 anos e, como quase todo habitante de uma metrópole, conheço as frutas pela prateleira do supermercado. Em julho, passei uma semana na Chapada dos Veadeiros, em Goiás, e descobri que o Brasil tem uma riqueza de frutas que eu ignorava.\n\nFiquei numa cabana de madeira, na beira de uma pequena vila. Da janela da cabana, via uma paisagem que, à primeira vista, me pareceu pobre: grama seca e árvores baixas. O Cerrado é a vegetação predominante no centro do país, e a forma predominante das suas árvores é justamente essa: troncos curvados, casca grossa, folhas duras. Dona Joana, a dona da cabana, me explicou que a casca grossa protege as árvores do fogo e da seca. Os galhos se curvam de um jeito que, para quem vem da metrópole, parece falta de cuidado. Para quem nasceu ali, é sinal de resistência.\n\nFoi dona Joana quem me apresentou às frutas. Primeiro, o baru, uma castanha que se come assada e tem um sabor delicado. Depois, a cagaita, pequena e amarela, boa para matar a sede. Por fim, o pequi, a fruta mais famosa de Goiás, de cheiro forte e cor amarela intensa.\n\nCom o pequi, aprendi a ter cuidado. A polpa esconde, por dentro, uma camada de espinhos finos. Por isso, ninguém morde o pequi: a polpa é raspada devagar com os dentes. Também aprendi que o pequi não se colhe na árvore. Espera-se que ele amadureça e caia sozinho no chão. \"Fruta que cai é fruta que amadureceu\", disse dona Joana. Em julho, fora da época, só provei o pequi que ela tinha guardado congelado.\n\nSó no terceiro dia me apercebi de que aquela paisagem \"pobre\" alimentava a vila inteira. As famílias vendem a polpa e fazem doces, óleos e farinhas. Uma cooperativa de mulheres está fazendo o mapeamento das árvores da região: cada árvore recebe um número e um ponto no mapa. Esse mapeamento ajuda a planejar a colheita sem esgotar as árvores e mostra que o Cerrado em pé vale mais do que o Cerrado derrubado.\n\nAs mesmas mulheres preparam uma compilação de receitas antigas, recolhidas com as avós da vila. Na compilação há arroz com pequi, bolo de baru e sorvete de cagaita.\n\nNa última noite, ganhei de presente uma bolsa feita com a fibra de uma palmeira que cresce perto da água, o buriti. Dona Joana explicou que essa fibra é usada como matéria têxtil há gerações, em bolsas, tapetes e redes. Pensei na indústria têxtil de São Paulo e na paciência das mãos que tinham feito aquela bolsa.\n\nVoltei para a metrópole com 2 quilos de baru na mala e uma certeza: me apercebi tarde de quanta comida existe no Cerrado, mas não vou esquecer.\n\nPerguntas:\nOnde o narrador ficou durante a viagem?\nEle ficou numa cabana de madeira, na beira de uma pequena vila na Chapada dos Veadeiros.\nPor que as árvores do Cerrado têm casca grossa?\nPorque a casca grossa as protege do fogo e da seca.\nComo se deve comer o pequi?\nA polpa deve ser raspada devagar com os dentes, sem morder, porque esconde uma camada de espinhos finos.\nPor que o pequi não se colhe na árvore?\nPorque se espera que ele amadureça e caia sozinho no chão.\nPara que serve o mapeamento das árvores?\nServe para planejar a colheita sem esgotar as árvores e para mostrar o valor do Cerrado em pé.\nO que há na compilação de receitas das mulheres?\nHá receitas antigas, como arroz com pequi, bolo de baru e sorvete de cagaita."
+    },
+    {
+      "title": "Os doces de convento",
+      "summary": "A short essay on how egg-yolk sweets from Portuguese convents came to Brazil and changed along the way.",
+      "newWords": [
+        "convento",
+        "véu",
+        "remontar",
+        "célebre",
+        "devoção",
+        "inventor",
+        "batismo",
+        "abolição"
+      ],
+      "text": "Quem já foi a uma festa de família no Brasil conhece a mesa de doces: quindins brilhantes, papos de anjo, fios de ovos dourados. Poucos sabem, porém, que muitos desses doces remontam aos conventos de Portugal, há mais de 3 séculos.\n\nEntre 1600 e 1800, os conventos portugueses eram também grandes cozinhas. As freiras, de hábito e véu, passavam horas preparando doces com açúcar e gemas de ovos. Conta-se que as claras eram usadas para deixar firmes o tecido da roupa e o véu das freiras, e que as gemas que sobravam iam para os doces. Os historiadores discutem até que ponto essa explicação é verdadeira, mas ela ajuda a entender por que esses doces levam tantas gemas.\n\nO açúcar, naquela época, era um produto caro, e uma parte importante dele vinha do Brasil. Os doces de convento eram, portanto, um luxo: apareciam em festas religiosas e eram oferecidos a visitantes importantes. Neles se misturavam o trabalho, a fé e a devoção das freiras. A devoção, aliás, está até nos nomes, como em \"papo de anjo\" ou \"barriga de freira\".\n\nMuitos desses doces se tornaram célebres. O mais célebre de todos talvez seja o pastel de nata, nascido num mosteiro de Lisboa e hoje vendido no mundo inteiro. No Brasil, as receitas que remontam aos conventos chegaram com os portugueses e logo mudaram. Ganharam coco, mandioca, frutas da terra. O quindim é um bom exemplo: tem as gemas e o açúcar da tradição portuguesa e o coco do litoral brasileiro. Ninguém sabe ao certo quem foi o seu inventor. Provavelmente, não houve um único inventor, mas muitas cozinheiras anônimas, que foram ajustando a receita aos ingredientes que tinham.\n\nEssa história também tem um lado triste, e é importante lembrá-lo. O açúcar desses doces era produzido, no Brasil, com o trabalho de pessoas escravizadas, situação que só terminou com a abolição, em 1888. Nas cozinhas das casas-grandes, muitas mulheres escravizadas transformaram as receitas portuguesas com o seu conhecimento e a sua criatividade. Depois da abolição, muitas delas e as suas filhas viveram de vender doces nas ruas. Parte do que chamamos de doce brasileiro nasceu das mãos delas.\n\nHoje, esses doces continuam ligados às datas importantes da vida. Aparecem nos casamentos, nos aniversários, na festa de batismo de um bebê e na primeira comunhão. Numa festa de batismo, a avó que passa a tarde fazendo fios de ovos repete, sem saber, o gesto das freiras de 300 anos atrás.\n\nE a saúde? São doces muito ricos em açúcar e gordura, feitos para ocasiões especiais. Nasceram para as festas, e é nas festas que fazem sentido. Um quindim num batismo não faz mal a ninguém. O que pesa é o que comemos todos os dias, e não o que comemos de vez em quando, com alegria e em boa companhia.\n\nPerguntas:\nA que remontam muitos doces das festas brasileiras?\nEles remontam aos conventos de Portugal, há mais de 3 séculos.\nPor que, segundo se conta, os doces de convento levam tantas gemas?\nPorque as claras eram usadas para deixar firmes a roupa e o véu das freiras, e as gemas sobravam.\nPor que os doces de convento eram um luxo?\nPorque o açúcar, naquela época, era um produto caro.\nQuem foi o inventor do quindim?\nNinguém sabe ao certo; provavelmente foram muitas cozinheiras anônimas, que ajustaram a receita.\nO que aconteceu com muitas mulheres que faziam doces depois da abolição?\nMuitas delas e as suas filhas viveram de vender doces nas ruas.\nEm que ocasiões esses doces aparecem hoje?\nAparecem em casamentos, aniversários, festas de batismo e na primeira comunhão."
+    },
+    {
+      "title": "Uma violinista e o diagnóstico",
+      "summary": "A violinist learns she has type 2 diabetes, goes through a sleepless phase and slowly builds new habits.",
+      "newWords": [
+        "violino",
+        "jejum",
+        "diabetes",
+        "angústia",
+        "travesseiro",
+        "desbloquear",
+        "pijama",
+        "déficit",
+        "trimestre"
+      ],
+      "text": "Clarice Fontes, de 48 anos, toca violino numa orquestra de Belo Horizonte há mais de 20 anos. Toda manhã, antes de qualquer coisa, estuda 1 hora sozinha. O violino, diz ela, é um instrumento que não perdoa a pressa: qualquer tensão no braço aparece no som.\n\nNo ano passado, numa consulta de rotina, ela fez um exame de sangue em jejum. O resultado da glicose veio alto. Repetiu o exame, de novo em jejum, e o valor continuou acima do limite. A médica confirmou: Clarice tinha diabetes tipo 2, a forma mais comum da doença, em que o corpo passa a usar mal a insulina.\n\nAs primeiras semanas foram de angústia. Clarice tinha visto o pai conviver com diabetes durante anos e lembrava das dificuldades dele. À noite, a angústia aumentava. Na primeira noite depois do diagnóstico, ela deitou a cabeça no travesseiro, fechou os olhos e, minutos depois, pegou o celular. Desbloqueou a tela e leu tudo o que encontrou sobre a doença, de artigos sérios a vídeos assustadores. Nas noites seguintes, ficava horas desbloqueando o celular, 10, 20 vezes por noite. Quanto mais lia, menos dormia.\n\nFoi a médica quem percebeu o problema. Na consulta seguinte, explicou que o déficit de sono, por si só, dificulta o controle da glicose. \"O sono também faz parte do tratamento\", disse. Explicou também que a diabetes tipo 2 pode ser bem controlada com alimentação, atividade física e, quando necessário, remédios. Muitas pessoas vivem décadas com a doença, trabalhando, viajando e tocando instrumentos.\n\nClarice saiu da consulta com um plano. Para a comida, foi encaminhada a uma especialista, que não lhe deu uma lista de proibições, mas um jeito novo de montar o prato: metade de salada e vegetais cozidos, um quarto de arroz ou outro cereal, um quarto de feijão, ovos, frango ou peixe. As frutas continuaram; os sucos e os doces passaram a ser ocasionais.\n\nPara a noite, criou um pequeno ritual. Às 10 da noite, o celular fica carregando na sala, longe do quarto. Ela toma banho, veste o pijama e lê algumas páginas de um romance. \"O pijama virou um sinal para o corpo de que o dia acabou\", conta. Nos primeiros dias, sentiu vontade de desbloquear o celular para pesquisar mais um sintoma. Resistiu. Na segunda semana, já dormia 7 horas.\n\nHoje, Clarice faz exames a cada trimestre para acompanhar a glicose, como a médica pediu. O último trimestre trouxe o melhor resultado desde o diagnóstico. Ela caminha 30 minutos depois do almoço e voltou a estudar violino com a calma de antes.\n\n\"No começo, achei que a diabetes ia tirar o meu sono para sempre\", diz. \"Aprendi que o travesseiro é para dormir, não para pesquisar doenças.\"\n\nPerguntas:\nQue exame mostrou o problema de Clarice?\nUm exame de sangue em jejum, que ela repetiu e que mostrou a glicose acima do limite.\nPor que as primeiras semanas foram de angústia?\nPorque ela tinha visto o pai conviver com a doença e lembrava das dificuldades dele.\nO que Clarice fazia à noite, quando não conseguia dormir?\nEla ficava desbloqueando o celular e lendo tudo o que encontrava sobre a doença.\nO que a médica disse sobre o déficit de sono?\nEla disse que o déficit de sono, por si só, dificulta o controle da glicose.\nQual é o ritual de Clarice antes de dormir?\nEla deixa o celular na sala, toma banho, veste o pijama e lê algumas páginas de um romance.\nCom que frequência ela faz exames hoje?\nEla faz exames a cada trimestre para acompanhar a glicose."
+    },
+    {
+      "title": "Comida de jogador de beisebol",
+      "summary": "An interview with a young baseball player about what he eats before games and how food affects his focus.",
+      "newWords": [
+        "beisebol",
+        "rebater",
+        "preparatório",
+        "embarque",
+        "cognitivo",
+        "satisfatório",
+        "vibrar",
+        "tribal",
+        "telespectador"
+      ],
+      "text": "O beisebol chegou ao Brasil com os imigrantes japoneses, no começo do século 20, e até hoje é forte nas cidades do interior de São Paulo e do Paraná. Kenji Okada, de 19 anos, joga beisebol desde os 7 e já defendeu a seleção brasileira de base. Conversamos com ele na semana do embarque para um torneio no México.\n\nComo começou a sua relação com o beisebol?\nMeu avô jogava, meu pai jogava, e eu cresci no campo do clube. Aos 7 anos, ganhei um taco do meu avô. Aos 12, comecei a treinar a sério.\n\nQuando você passou a prestar atenção na comida?\nAos 16, numa fase de treinos preparatórios para um campeonato. Eu treinava muito e comia mal: pulava o café da manhã, almoçava correndo, às vezes chegava ao treino em jejum. Meu rendimento caiu. Eu não conseguia rebater bolas que antes rebatia sem esforço. O clube tinha uma especialista em alimentação esportiva, e ela me mostrou que eu estava gastando muito mais energia do que comia.\n\nE o que mudou?\nQuase tudo, sem nada de extraordinário. Café da manhã com pão, ovo e fruta. Almoço com arroz, feijão, uma carne e salada, como na casa da minha avó. Antes do jogo, uma refeição leve, 3 horas antes, e água o tempo todo.\n\nMuita gente acha que o beisebol é um esporte parado. A alimentação faz tanta diferença assim?\nFaz, e não só para o corpo. O beisebol é um esporte muito cognitivo. Para rebater, você tem menos de meio segundo para ver a bola, decidir e girar o taco. Se estou com fome ou mal hidratado, essa parte cognitiva é a primeira a falhar: eu decido tarde. A especialista me explicou que o cérebro também precisa de combustível, e eu senti isso na pele.\n\nComo você avalia a sua temporada?\nSatisfatória. Não foi perfeita, mas foi satisfatória: rebati melhor do que no ano anterior e não tive nenhuma lesão.\n\nComo é jogar no Brasil, onde o beisebol tem pouco público?\nO público é pequeno, mas apaixonado. Nas finais, a torcida do clube leva tambores japoneses e toca o jogo inteiro, num ritmo quase tribal. Quando alguém consegue rebater uma bola longa, o estádio inteiro vibra. Aquele som tribal me dá energia. Pela internet, alguns jogos chegam a ter milhares de telespectadores, e muitos deles nunca tinham visto beisebol antes. Fico feliz quando um telespectador escreve dizendo que passou a torcer.\n\nE para o embarque, o que vai na mala?\nUniforme, luvas, o taco do meu avô e um saco de castanhas, frutas secas e biscoitos. No dia do embarque, a especialista sempre manda a mesma mensagem: \"Coma de 3 em 3 horas e beba água.\"\n\nPerguntas:\nComo o beisebol chegou ao Brasil?\nEle chegou com os imigrantes japoneses, no começo do século 20.\nO que aconteceu com Kenji na fase de treinos preparatórios, aos 16 anos?\nEle treinava muito e comia mal, e não conseguia mais rebater bolas que antes rebatia sem esforço.\nPor que Kenji diz que o beisebol é um esporte cognitivo?\nPorque, para rebater, ele tem menos de meio segundo para ver a bola, decidir e girar o taco.\nComo ele avalia a sua temporada?\nEle a avalia como satisfatória, porque rebateu melhor e não teve nenhuma lesão.\nO que a torcida faz nas finais?\nEla toca tambores japoneses num ritmo quase tribal, e o estádio vibra com as boas jogadas.\nO que Kenji leva na mala para o embarque?\nEle leva o uniforme, as luvas, o taco do avô e um saco de castanhas, frutas secas e biscoitos."
+    },
+    {
+      "title": "De onde vem o que comemos",
+      "summary": "An interview with a food scientist about tracing food, detecting fraud and why food myths spread so easily.",
+      "newWords": [
+        "rastreamento",
+        "forense",
+        "molecular",
+        "monopólio",
+        "propagar",
+        "panfleto",
+        "folheto",
+        "distorção",
+        "coalizão"
+      ],
+      "text": "A engenheira de alimentos Luísa Andrade coordena um laboratório de análise de alimentos numa universidade de Curitiba. Pedimos que ela explicasse o que acontece entre o campo e o nosso prato.\n\nO que é o rastreamento de um alimento?\nÉ a possibilidade de seguir o caminho de um produto, da origem até o consumidor. Num bom sistema de rastreamento, sabemos em que fazenda o animal nasceu e por onde a carne passou. Muitos produtos já trazem um código na embalagem, que o consumidor pode ler no celular. O rastreamento é útil sobretudo quando algo dá errado: se um lote está contaminado, é possível retirá-lo do mercado rapidamente.\n\nO seu laboratório faz o que a senhora chama de análise forense de alimentos. O que é isso?\nA palavra forense lembra crimes, e não é por acaso. Usamos métodos parecidos com os da polícia científica para descobrir fraudes. Um exemplo comum é o mel misturado com açúcar. Outro é o peixe vendido com o nome de uma espécie mais cara. Nesse caso, fazemos uma análise molecular: o DNA do filé revela a espécie verdadeira, mesmo que o peixe já esteja cortado e congelado.\n\nAs fraudes são frequentes?\nFelizmente, a maior parte do que se vende é o que diz ser. Mas a fiscalização precisa ser constante, porque quem comete fraude conta com a falta de atenção de todos.\n\nAlém das fraudes, a senhora também estuda os mitos sobre comida. Por que eles se propagam tanto?\nPorque são simples e dão medo, e o medo se propaga mais rápido do que a dúvida. Antes, os mitos circulavam em panfletos. Lembro de um panfleto, distribuído na porta de um mercado, que garantia que o leite causava todas as doenças do mundo. Hoje, o panfleto virou vídeo, mas o mecanismo é o mesmo.\n\nE como acontece a distorção de um estudo científico?\nMuitas vezes, um estudo pequeno, feito com ratos ou com poucas pessoas, vira uma manchete absoluta. Quem lê só a manchete recebe uma distorção do que os pesquisadores realmente disseram. A distorção quase nunca é uma mentira completa; é um exagero que perdeu o contexto.\n\nO que o consumidor pode fazer?\nDesconfiar de quem promete milagres. E lembrar que nenhuma pessoa, nenhuma empresa e nem mesmo a ciência tem o monopólio da verdade. A ciência erra, mas corrige os próprios erros. Quem vende certezas absolutas quer, no fundo, o monopólio da sua atenção.\n\nHá iniciativas para combater esses mitos?\nSim. Participamos de uma coalizão de universidades, associações de consumidores e escolas. Essa coalizão produz um folheto mensal, distribuído em postos de saúde, que explica um mito por vez, com linguagem simples.\n\nPerguntas:\nPara que serve o rastreamento de um alimento?\nServe para seguir o caminho de um produto e, se algo der errado, retirar um lote do mercado rapidamente.\nPor que a análise do laboratório se chama forense?\nPorque usa métodos parecidos com os da polícia científica para descobrir fraudes.\nComo a análise molecular revela a espécie de um peixe?\nPelo DNA do filé, mesmo que o peixe já esteja cortado e congelado.\nPor que os mitos sobre comida se propagam tanto?\nPorque são simples e dão medo, e o medo se propaga mais rápido do que a dúvida.\nO que é, segundo Luísa, a distorção de um estudo?\nÉ um exagero que perdeu o contexto, quando um estudo pequeno vira uma manchete absoluta.\nO que faz a coalizão de que o laboratório participa?\nEla produz um folheto mensal que explica um mito por vez, com linguagem simples."
+    }
+  ]
+}

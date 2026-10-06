@@ -1,0 +1,213 @@
+{
+  "id": "pt-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Números e raciocínio",
+  "description": "Ten texts about mathematics in everyday life: an olympiad student, statistics in the news, a puzzle club, the weather forecast, geometry, the history of zero, cryptography, household budgets, rhythm and exponential growth.",
+  "topic": "Mathematics in everyday life",
+  "names": [
+    "Brasil",
+    "Rafael",
+    "Anápolis",
+    "Goiás",
+    "Antônio",
+    "Rio",
+    "Janeiro",
+    "Cecília",
+    "Davi",
+    "Márcia",
+    "Belo",
+    "Horizonte",
+    "José",
+    "Anchieta",
+    "Mesopotâmia",
+    "Índia",
+    "Brahmagupta",
+    "Bakhshali",
+    "Paquistão",
+    "Bagdá",
+    "Al",
+    "Khwarizmi",
+    "Fibonacci",
+    "Florença",
+    "Júlio",
+    "César",
+    "Inglaterra",
+    "Alan",
+    "Turing",
+    "Satoshi",
+    "Nakamoto",
+    "Teresa",
+    "Paula",
+    "Mega",
+    "Sena",
+    "Luana",
+    "Prado",
+    "São",
+    "Paulo",
+    "Terra",
+    "Lua"
+  ],
+  "lessons": [
+    {
+      "title": "Um goiano na olimpíada",
+      "summary": "A profile of a stubborn teenager from Goiás who won a gold medal in the national maths olympiad with the help of a teacher.",
+      "newWords": [
+        "goiano",
+        "teimoso",
+        "tutor",
+        "abatido",
+        "defensiva",
+        "otimismo",
+        "desconforto",
+        "telefonar",
+        "memorável",
+        "maioridade",
+        "financeiramente"
+      ],
+      "text": "Rafael tem 17 anos e mora em Anápolis, no interior de Goiás. Filho de uma cozinheira e de um motorista de ônibus, estudou a vida inteira em escola pública. No ano passado, ganhou a medalha de ouro na olimpíada nacional de Matemática. Para os vizinhos, foi uma surpresa; para quem o conhecia de perto, nem tanto. Desde pequeno, o jovem goiano tinha fama de teimoso.\n\nNo caso dele, ser teimoso queria dizer uma coisa precisa: não largar os problemas que ainda não conseguia resolver. \"Quando um problema me vence, eu não durmo direito\", conta, rindo. \"Fico com ele na cabeça o dia inteiro, como uma pedra no sapato.\" Aos 10 anos, ele passou um fim de semana inteiro diante de uma única questão. Um menino menos teimoso teria desistido no sábado à tarde.\n\nFoi um professor da escola, Antônio, que percebeu o talento do aluno e se ofereceu para ser o seu tutor. Duas vezes por semana, depois das aulas, os dois se encontravam na biblioteca. O tutor não dava respostas; fazia perguntas. \"Um bom tutor não carrega o aluno no colo\", diz Rafael. \"Ele mostra onde está a escada.\"\n\nNem tudo foi fácil. Na primeira vez que participou da competição, aos 14 anos, Rafael não passou da segunda fase. Voltou para casa abatido, convencido de que não tinha talento. Durante semanas, ficou na defensiva: quando alguém falava da prova, mudava de assunto. O professor não insistiu. Um mês depois, quando o rapaz já não parecia tão abatido, deixou sobre a mesa dele um problema novo, sem dizer nada. No dia seguinte, Rafael apareceu com três páginas de cálculos. O otimismo tinha voltado, e com ele a vontade de tentar outra vez.\n\nHavia também o desconforto de ser diferente. Alguns colegas achavam estranho que alguém passasse o recreio fazendo contas. \"No começo, aquilo me incomodava\", admite. \"Depois entendi que o desconforto era meu, não deles. Cada um tem a sua paixão.\" Hoje, ele dá aulas de reforço para os mais novos.\n\nQuando o resultado saiu, Rafael telefonou para a mãe antes de falar com qualquer outra pessoa. \"Ela chorou tanto que eu não entendia o que dizia\", lembra. Depois, telefonou para o professor, que respondeu apenas: \"Eu sabia.\" Meses depois, a cerimônia de entrega das medalhas foi no Rio de Janeiro, e foi a primeira viagem de avião da vida dele. Foi um dia memorável, mas, para ele, o mais memorável foi a volta para casa, quando a escola inteira o esperou no portão.\n\nRafael ainda não atingiu a maioridade, mas já tem planos claros: quer estudar Matemática numa universidade pública e, um dia, ser professor. Financeiramente, a família não poderia pagar um curso particular, mas a medalha lhe abriu as portas para uma bolsa de estudos. \"Vou chegar à maioridade sabendo o que quero\", diz. Com o otimismo de sempre, resume: \"A Matemática me ensinou a ter paciência com o que eu ainda não sei.\"\n\nPerguntas:\nPor que o jovem goiano tinha fama de teimoso?\nPorque não largava os problemas que ainda não conseguia resolver.\nComo o tutor ajudava Rafael?\nEle não dava respostas; fazia perguntas e mostrava onde estava a escada.\nComo Rafael ficou depois da primeira competição?\nFicou abatido e passou semanas na defensiva, mudando de assunto quando alguém falava da prova.\nPara quem Rafael telefonou quando o resultado saiu?\nEle telefonou primeiro para a mãe e depois para o professor Antônio.\nPor que a medalha foi importante financeiramente?\nPorque a família não poderia pagar um curso particular, e a medalha lhe abriu as portas para uma bolsa de estudos."
+    },
+    {
+      "title": "Como ler os números do jornal",
+      "summary": "A column that teaches four simple questions for reading statistics in the news: absolute or relative, the base of comparison, what a number covers, and cause versus coincidence.",
+      "newWords": [
+        "penitenciário",
+        "demográfico",
+        "migrante",
+        "despercebido",
+        "englobar",
+        "conformidade",
+        "compreensível",
+        "veredito",
+        "marxista",
+        "esquerdista"
+      ],
+      "text": "Todos os dias, os jornais nos oferecem números: a inflação do mês, o desemprego, a população de uma cidade. Os números parecem neutros, mas vêm sempre acompanhados de um título e de uma interpretação. Ler esses números com cuidado não exige muito: basta fazer algumas perguntas simples.\n\nA primeira pergunta é: estamos falando de valores absolutos ou relativos? Imagine que a população do sistema penitenciário de dois estados cresceu no mesmo ano. No primeiro, havia 10 mil presos e passou a haver 11 mil; no segundo, havia mil e passou a haver 1.500. O primeiro estado ganhou mil presos; o segundo, apenas 500. Em percentual, porém, o crescimento do primeiro foi de 10%, e o do segundo, de 50%. Os dois números são verdadeiros, e cada título pode escolher o que mais chama a atenção. Um bom relatório sobre o sistema penitenciário mostra os dois.\n\nA segunda pergunta é: qual é a base de comparação? Os dados demográficos são um bom exemplo. Uma cidade que recebe muitos migrantes vê a sua população crescer depressa, e, com ela, cresce também o número de acidentes de trânsito. Comparar o total de acidentes de uma cidade de 2 milhões de habitantes com o de uma cidade de 50 mil não faz sentido; é preciso dividir pelo número de habitantes. Um estudo demográfico sério sempre faz essa conta, mas ela costuma passar despercebida na notícia. Também passa despercebido que os migrantes costumam chegar em idade de trabalhar.\n\nA terceira pergunta é: o que o número engloba? A taxa de desemprego, por exemplo, não engloba todas as pessoas sem trabalho, mas apenas as que procuraram emprego nas últimas semanas e estavam disponíveis para começar. Essa definição está em conformidade com as normas internacionais, o que permite comparar países, e é compreensível que seja assim. Mas quem desistiu de procurar fica de fora da conta. Por isso, uma queda do desemprego pode esconder uma notícia ruim.\n\nA quarta pergunta é a mais antiga: uma coisa causou a outra, ou as duas apenas aconteceram juntas? No verão, a venda de sorvete aumenta, e os acidentes no mar também. Ninguém diria que o sorvete causa acidentes; os dois dependem do calor. Diante de um gráfico assim, é compreensível querer dar um veredito rápido, mas o veredito honesto costuma exigir mais dados.\n\nPor fim, vale lembrar que o mesmo número permite leituras diferentes. Diante de um aumento do salário médio, um economista marxista pode lembrar que a riqueza continua concentrada, e um economista liberal pode celebrar o crescimento. Um leitor esquerdista e um leitor conservador também podem sair da mesma notícia com conclusões opostas. Ninguém precisa abandonar as suas ideias para ler um gráfico; precisa apenas saber o que ele mede.\n\nPerguntas:\nQual é a diferença entre os dois estados do exemplo?\nO primeiro ganhou mais presos em valor absoluto, mas o segundo cresceu mais em percentual.\nPor que os dados demográficos precisam de uma base de comparação?\nPorque é preciso dividir pelo número de habitantes, uma conta que costuma passar despercebida.\nO que a taxa de desemprego engloba?\nEla engloba apenas as pessoas que procuraram emprego nas últimas semanas e estavam disponíveis para começar.\nCom que normas a definição de desemprego está em conformidade?\nEstá em conformidade com as normas internacionais, o que permite comparar países.\nPor que um leitor esquerdista e um leitor conservador podem tirar conclusões opostas?\nPorque o mesmo número permite leituras diferentes.\nComo um economista marxista e um liberal podem ler o mesmo aumento de salário?\nO marxista pode lembrar que a riqueza continua concentrada, e o liberal pode celebrar o crescimento."
+    },
+    {
+      "title": "O clube dos enigmas",
+      "summary": "A retired narrator describes a Saturday puzzle club at the library and four of its puzzles: an archer's target, the digit 7, the sum up to 24 and the paths across city blocks.",
+      "newWords": [
+        "arqueiro",
+        "dígito",
+        "trezentos",
+        "quarteirão",
+        "coçar",
+        "apegar",
+        "acenar",
+        "gracinha",
+        "amendoim",
+        "afinidade"
+      ],
+      "text": "Depois que me aposentei, procurei uma atividade que me tirasse de casa aos sábados. Encontrei, num cartaz da biblioteca do bairro, o anúncio de um clube de enigmas. Nunca tive grande afinidade com a Matemática, mas resolvi experimentar. Há 2 anos não perco um encontro.\n\nO clube é organizado por dona Cecília, uma professora aposentada de cabelos brancos e voz firme. Somos umas 15 pessoas, de todas as idades. O mais novo é o Davi, de 9 anos, que vem com o avô e é uma gracinha: quando descobre uma resposta, acena com as duas mãos, como quem chama um táxi. Os outros sorriem, porque é impossível não achar aquilo uma gracinha. Na mesa do centro, há sempre um pote de amendoim, e quem resolve um problema primeiro ganha um pacote de doce de amendoim. Davi já levou vários para casa.\n\nOs enigmas são fáceis de explicar e difíceis de largar. Num dos primeiros sábados, dona Cecília desenhou um alvo no quadro, com zonas de 1, 3, 5, 7 e 9 pontos. \"Um arqueiro atira 3 flechas e acerta todas\", disse. \"Ele pode fazer exatamente 10 pontos?\" Passamos meia hora somando números. Cada um coçava a cabeça, tentava uma combinação e recomeçava. A resposta é não: a soma de 3 números ímpares é sempre ímpar. O arqueiro pode treinar a vida inteira e nunca chegará a 10.\n\nOutro enigma: quantas vezes o dígito 7 aparece quando escrevemos os números de 1 a 100? Quase todos responderam 19, porque se esqueceram de que o 77 tem o dígito duas vezes. São 10 vezes nas unidades e 10 nas dezenas: 20 no total.\n\nO meu preferido, porém, foi o da soma. Dona Cecília pediu a soma dos números de 1 a 24, sem papel. Comecei a somar um por um, mas o Davi acenou antes de mim. Ele tinha percebido que 1 mais 24 dá 25, que 2 mais 23 também dá 25, e assim por diante. São 12 pares de 25, ou seja, trezentos. Fiquei olhando para aquele trezentos no quadro, admirado com a simplicidade da ideia.\n\nHá também os problemas da cidade. A padaria fica 3 quarteirões ao norte e 2 a leste da casa de dona Cecília. Andando sempre para o norte ou para o leste, quantos caminhos diferentes ela pode fazer? Desenhamos cada quarteirão como um quadrado e contamos com paciência: são 10 caminhos.\n\nO que aprendi no clube vai além das contas. Descobri, primeiro, que a afinidade com os números se constrói; ninguém nasce com ela. Aprendi a não me apegar à primeira ideia. Quem se apega a uma resposta errada perde tempo defendendo-a, em vez de procurar outra. Aprendi também que coçar a cabeça faz parte do trabalho. Quando volto para casa, ao meio-dia, levo comigo um problema novo e, às vezes, um pacote de doce de amendoim.\n\nPerguntas:\nQuem frequenta o clube dos enigmas?\nUmas 15 pessoas de todas as idades; o mais novo é o Davi, de 9 anos, que vem com o avô.\nPor que o arqueiro não pode fazer exatamente 10 pontos?\nPorque a soma de 3 números ímpares é sempre ímpar.\nQuantas vezes o dígito 7 aparece de 1 a 100?\nAparece 20 vezes: 10 nas unidades e 10 nas dezenas.\nComo o Davi chegou a trezentos?\nEle percebeu que podia formar 12 pares de números que somam 25.\nO que o narrador aprendeu além das contas?\nAprendeu a não se apegar à primeira ideia e que coçar a cabeça faz parte do trabalho."
+    },
+    {
+      "title": "Setenta por cento de chance de chuva",
+      "summary": "A crônica on a hot, stuffy afternoon that explains what a 70% chance of rain means, how forecasts are made and why they lose accuracy after a few days.",
+      "newWords": [
+        "abafar",
+        "prece",
+        "tina",
+        "transmissor",
+        "planetário",
+        "sopro",
+        "adverso",
+        "astral",
+        "redenção"
+      ],
+      "text": "Era uma tarde abafada de outubro, dessas em que o ar parece parado e a roupa gruda no corpo. No celular, a previsão anunciava 70% de chance de chuva para o fim do dia. Minha avó, sentada na varanda, olhou para o céu e fez uma pequena prece. Ela confia mais na prece do que no celular, mas, desta vez, os dois diziam a mesma coisa.\n\nMuita gente entende mal aquele número. 70% de chance de chuva não quer dizer que vai chover durante 70% do dia, nem que a chuva vai cobrir 70% da cidade. Quer dizer que, em situações parecidas com aquela, choveu em 7 de cada 10 casos. É uma afirmação sobre a frequência, não uma promessa. Se não chover, a previsão não estava necessariamente errada: aquele era apenas um dos 3 casos em 10.\n\nPara chegar a esse número, os especialistas partem de uma enorme quantidade de medidas. Estações espalhadas pelo país registram a temperatura, a umidade, a pressão e o vento, e cada uma tem um transmissor que envia os dados a cada poucos minutos. Tudo isso, junto com as imagens de satélite, alimenta programas de computador que simulam o movimento do ar em escala planetária, porque a chuva que cai aqui pode ter começado a se formar a milhares de quilômetros. Sem essa visão planetária, nenhuma previsão passaria de um palpite.\n\nO problema é que a atmosfera é muito sensível a pequenas diferenças. Um sopro de vento que nenhum transmissor registrou pode, depois de alguns dias, mudar o caminho de uma frente fria. É por isso que as previsões para amanhã costumam acertar, e as previsões para daqui a 2 semanas valem pouco. Os cientistas não erram por falta de cuidado: o próprio ar, sopro a sopro, guarda uma parte imprevisível.\n\nMinha avó tem o seu próprio método. No quintal, deixa uma tina velha, de lados retos, e depois de cada temporal mede a altura da água. Um milímetro de água na tina corresponde a um litro de chuva por metro quadrado, e é exatamente assim que as estações oficiais medem a chuva. Ela anota tudo num caderno, ano após ano. Quando o tempo fica adverso, com ventos fortes e alertas, ela fecha as janelas e espera, calma. As condições adversas a assustam menos do que a seca.\n\nNaquela tarde, o calor abafava até as conversas. Todos estavam de baixo astral, sem vontade de nada. Às 6 da tarde, a chuva caiu forte, de uma vez. O ar abafado desapareceu em minutos, e o astral da casa mudou junto. Para a minha avó, a chuva foi uma pequena redenção depois de semanas secas. No dia seguinte, a tina marcava 32 milímetros. Ela anotou o número e disse que a prece e a previsão, juntas, tinham acertado.\n\nPerguntas:\nO que quer dizer 70% de chance de chuva?\nQuer dizer que, em situações parecidas, choveu em 7 de cada 10 casos.\nPara que serve o transmissor de cada estação?\nEle envia os dados de temperatura, umidade, pressão e vento a cada poucos minutos.\nPor que os modelos simulam o ar em escala planetária?\nPorque a chuva que cai num lugar pode ter começado a se formar a milhares de quilômetros.\nPor que as previsões para 2 semanas valem pouco?\nPorque um pequeno sopro de vento pode mudar, depois de alguns dias, o caminho de uma frente fria.\nComo a avó mede a chuva com a tina?\nEla mede a altura da água; cada milímetro corresponde a um litro de chuva por metro quadrado.\nPor que a chuva foi uma redenção?\nPorque acabou com o ar abafado e veio depois de semanas secas."
+    },
+    {
+      "title": "A professora que tira a geometria do papel",
+      "summary": "A profile of a teacher who makes geometry visible: measuring the school's flat roof, rolling a bicycle wheel to find pi, designing a ramp, and studying a railway wagon.",
+      "newWords": [
+        "laje",
+        "aro",
+        "acessibilidade",
+        "vagão",
+        "compartimento",
+        "revitalização",
+        "formador",
+        "imitação"
+      ],
+      "text": "Na escola onde a professora Márcia dá aulas, em Belo Horizonte, é raro encontrar os alunos dela sentados. Numa semana, eles estão na laje do prédio, com fitas métricas na mão; na outra, no pátio, empurrando uma bicicleta. Márcia ensina Matemática há 20 anos e tem uma convicção: a geometria só faz sentido quando sai do papel.\n\nO projeto da laje começou com uma pergunta da direção. A escola queria transformar a laje, que estava vazia, numa horta. Quantos canteiros caberiam lá em cima? Os alunos mediram a laje, desenharam a planta em escala, calcularam a área e descontaram o espaço para circular. Descobriram que cabiam 18 canteiros. \"Eles nunca mais esqueceram como se calcula uma área\", diz a professora, \"porque a conta virou uma horta de verdade.\"\n\nA aula mais famosa dela, porém, é a da bicicleta. Márcia leva uma bicicleta aro 26 para o pátio e pede que os alunos meçam a roda. O diâmetro é de cerca de 66 centímetros. Depois, eles marcam um ponto no pneu e empurram a bicicleta até a roda dar uma volta completa. A distância percorrida é de pouco mais de 2 metros. Quando dividem essa distância pelo diâmetro, encontram um número próximo de 3,14. Com um aro maior ou menor, o resultado é o mesmo. \"É nesse momento que eles entendem o que é o pi\", conta. \"Não é um número inventado pelo livro: está em qualquer aro, em qualquer roda.\"\n\nNo ano passado, a turma se envolveu num projeto de acessibilidade. A entrada da biblioteca tinha um degrau de 50 centímetros, e um colega que usa cadeira de rodas não conseguia entrar sozinho. Os alunos estudaram as normas de acessibilidade e descobriram que uma rampa não deve ter inclinação maior do que 8,33%, ou seja, ela deve subir 1 metro a cada 12. Para vencer 50 centímetros, portanto, a rampa precisaria de 6 metros de comprimento. A direção aceitou o projeto, e a rampa foi construída nas férias.\n\nHouve também uma visita ao antigo pátio da estação de trem, que passa por uma revitalização. Lá, os alunos calcularam o volume do compartimento de carga de um vagão antigo e compararam com o de um caminhão. Um único vagão levava a carga de vários caminhões. A prefeitura gostou tanto dos cálculos que convidou a turma para apresentar ideias para a revitalização da área.\n\nHoje, Márcia também trabalha como professora formadora: uma vez por mês, ensina outros professores a montar atividades parecidas. Como formadora, ela repete sempre o mesmo conselho: não se aprende geometria por imitação. Copiar uma fórmula do quadro é imitação; entender de onde ela vem é aprendizado. \"Cada vagão, cada compartimento, cada rampa\", diz, \"é uma aula esperando para acontecer.\"\n\nPerguntas:\nO que os alunos fizeram na laje da escola?\nMediram a laje, desenharam a planta, calcularam a área e descobriram que cabiam 18 canteiros.\nComo os alunos encontram o pi com a bicicleta aro 26?\nEles dividem a distância percorrida numa volta da roda pelo diâmetro e encontram um número próximo de 3,14.\nPor que a turma estudou as normas de acessibilidade?\nPorque um colega que usa cadeira de rodas não conseguia entrar sozinho na biblioteca.\nO que os alunos calcularam no pátio da estação?\nCalcularam o volume do compartimento de carga de um vagão antigo e compararam com o de um caminhão.\nQual é o conselho de Márcia como formadora?\nEla diz que não se aprende geometria por imitação: é preciso entender de onde a fórmula vem."
+    },
+    {
+      "title": "A longa história do zero",
+      "summary": "An explanation of how the zero was invented: Babylonian and Maya signs, the rules of Brahmagupta, an Indian manuscript, Baghdad, Fibonacci, and the slow end of Roman numerals in Europe.",
+      "newWords": [
+        "inexistente",
+        "cósmico",
+        "relíquia",
+        "saquear",
+        "privar",
+        "infração",
+        "obsoleto",
+        "tupi",
+        "gramática"
+      ],
+      "text": "Hoje, uma criança escreve o zero sem pensar. No entanto, foram precisos milhares de anos para que a humanidade aceitasse a ideia de um número que representa uma quantidade inexistente. Como dar nome ao que não existe? Essa pergunta, que parece filosófica, tem uma história concreta.\n\nMuitos povos contavam bem sem o zero. O tupi antigo, por exemplo, tinha palavras próprias apenas para os primeiros números e usava outras expressões para as quantidades maiores. Essa língua foi descrita no século 16 pelo padre José de Anchieta, numa gramática que mostra uma língua rica, capaz de descrever o mundo de quem a falava. O zero não nasceu de uma necessidade da vida diária, mas da escrita dos números.\n\nO problema aparece quando a posição de um sinal muda o seu valor. No nosso sistema, o 1 de 10 vale dez vezes o 1 de 1. Os povos da Mesopotâmia, que usavam um sistema parecido, deixavam a princípio um espaço vazio para indicar uma posição inexistente, o que causava confusões. Com o tempo, criaram um sinal para marcar esse vazio. Do outro lado do oceano, os maias também tinham um sinal para o zero, que usavam nos seus calendários e nos cálculos dos grandes ciclos cósmicos, que para eles organizavam o tempo.\n\nFoi na Índia, porém, que o zero deixou de ser apenas um espaço vazio e se tornou um número. No ano de 628, o matemático Brahmagupta escreveu regras para usá-lo nas contas: um número menos ele mesmo dá zero, e um número somado a zero continua igual. Uma relíquia importante dessa história é o manuscrito de Bakhshali, encontrado num campo do atual Paquistão, em que o zero aparece como um ponto. Alguns pesquisadores acreditam que partes dessa relíquia sejam do século 3 ou 4.\n\nDa Índia, o sistema chegou a Bagdá, onde sábios como Al-Khwarizmi escreveram sobre ele no século 9. A cidade tinha bibliotecas famosas, mas, em 1258, foi saqueada por um exército mongol. Segundo os relatos, os invasores saquearam palácios e destruíram milhares de livros. O conhecimento, no entanto, já tinha viajado.\n\nEm 1202, o italiano Fibonacci publicou um livro que apresentava os novos números aos comerciantes europeus. A mudança foi lenta. Em Florença, um estatuto de 1299 proibia os banqueiros de usar esses números nos livros de contas: escrevê-los era uma infração, porque se temia que fossem fáceis de alterar. Durante muito tempo, o medo da infração e o hábito privaram muitos europeus de um método mais simples de calcular. Mas ninguém conseguiu privar os comerciantes dessa vantagem para sempre.\n\nAos poucos, os números romanos se tornaram obsoletos para as contas. Experimente multiplicar 48 por 37 em números romanos e entenderá por quê. Eles não desapareceram, mas hoje estão nos relógios e nos nomes dos reis. Obsoleto para calcular, o sistema romano sobreviveu como decoração. O zero, por sua vez, está em cada preço e em cada computador.\n\nPerguntas:\nPor que foi difícil aceitar o zero?\nPorque é um número que representa uma quantidade inexistente.\nO que a gramática do padre Anchieta mostra sobre o tupi?\nMostra uma língua rica, capaz de descrever o mundo de quem a falava.\nPara que os maias usavam o zero?\nUsavam o zero nos seus calendários e nos cálculos dos grandes ciclos cósmicos.\nQue relíquia mostra o zero como um ponto?\nO manuscrito de Bakhshali, encontrado num campo do atual Paquistão.\nO que acontecia em Florença em 1299?\nUsar os novos números nos livros de contas dos banqueiros era uma infração.\nPor que os números romanos se tornaram obsoletos?\nPorque as contas com eles eram muito mais difíceis do que com o novo sistema."
+    },
+    {
+      "title": "Segredos em números",
+      "summary": "An explanation of cryptography from Caesar's cipher and wartime dispatches to the large prime numbers behind today's messages and the challenge of quantum computers.",
+      "newWords": [
+        "criptografia",
+        "cifra",
+        "suborno",
+        "despacho",
+        "marechal",
+        "paradeiro",
+        "pseudônimo",
+        "quântico"
+      ],
+      "text": "Sempre que mandamos uma mensagem pelo celular ou pagamos uma conta pela internet, usamos criptografia sem perceber. A palavra vem do grego e quer dizer, mais ou menos, \"escrita escondida\". A ideia é antiga: transformar um texto de modo que só quem o recebe consiga lê-lo. O que mudou ao longo dos séculos foi a Matemática por trás disso.\n\nUma das cifras mais conhecidas leva o nome de Júlio César. Segundo os historiadores romanos, ele trocava cada letra pela que estava 3 posições à frente no alfabeto: a primeira letra virava a quarta, a segunda virava a quinta, e assim por diante. Era uma cifra simples, mas funcionava. A fraqueza dessas cifras antigas é que basta descobrir a regra para ler todas as mensagens. Por isso, a segurança dependia sobretudo do mensageiro, que podia ser vítima de suborno. Um mensageiro leal valia mais do que qualquer cifra; um suborno bem pago podia destruir um plano inteiro.\n\nNo século 20, a criptografia passou a usar máquinas. Na Segunda Guerra Mundial, o exército alemão protegia os seus despachos com aparelhos que mudavam a regra a cada letra digitada. Os despachos mais secretos, trocados entre o alto comando e os seus generais e marechais, usavam uma máquina ainda mais complexa. Na Inglaterra, uma equipe de matemáticos, entre os quais estava Alan Turing, conseguiu ler boa parte dessas mensagens. Graças a esse trabalho, os aliados descobriam o paradeiro dos submarinos inimigos e os planos de cada marechal antes que as ordens fossem cumpridas.\n\nA criptografia que usamos hoje se baseia numa ideia diferente. Multiplicar dois números primos muito grandes é fácil para um computador. Fazer o caminho inverso, isto é, descobrir quais primos foram multiplicados a partir do resultado, é tão difícil que levaria milhares de anos. Essa diferença entre o fácil e o difícil protege as nossas senhas e as nossas conversas. A regra não é secreta: todos a conhecem, mas ninguém consegue usá-la ao contrário em tempo útil.\n\nO mundo digital também trouxe outros usos para essa Matemática. O criador de uma famosa moeda digital, por exemplo, apresentou a sua ideia em 2008 sob um pseudônimo, Satoshi Nakamoto, e até hoje ninguém sabe ao certo quem está por trás desse pseudônimo. O sistema funciona porque se apoia em regras matemáticas, e não na confiança em uma pessoa.\n\nO próximo desafio vem da física. Um computador quântico, que usa as leis estranhas do mundo dos átomos, poderia, em teoria, encontrar aqueles números primos muito mais depressa. Os computadores quânticos de hoje ainda são pequenos demais para isso, mas os especialistas já desenvolvem novos métodos capazes de resistir a eles. A história da criptografia é assim: uma corrida em que, a cada nova forma de esconder, surge uma nova forma de procurar.\n\nPerguntas:\nO que quer dizer a palavra criptografia?\nQuer dizer, mais ou menos, escrita escondida.\nComo funcionava a cifra de Júlio César?\nCada letra era trocada pela que estava 3 posições à frente no alfabeto.\nPor que o suborno era um perigo para as mensagens antigas?\nPorque a segurança dependia do mensageiro, e um mensageiro comprado podia entregar o segredo.\nO que os aliados descobriam ao ler os despachos alemães?\nDescobriam o paradeiro dos submarinos inimigos e os planos de cada marechal.\nEm que se baseia a criptografia de hoje?\nNa diferença entre multiplicar dois números primos grandes, que é fácil, e descobrir esses primos a partir do resultado, que é muito difícil.\nPor que o computador quântico é um desafio?\nPorque poderia, em teoria, encontrar aqueles números primos muito mais depressa."
+    },
+    {
+      "title": "As contas de Teresa",
+      "summary": "After her divorce, Teresa learns to manage the household budget with financial counselling: payday, receipts, the price of steak per kilo, the gym, the health plan and the lottery.",
+      "newWords": [
+        "divorciar",
+        "aconselhamento",
+        "creditar",
+        "recibo",
+        "bife",
+        "malhar",
+        "atestado",
+        "convênio",
+        "bilionário"
+      ],
+      "text": "Teresa se divorciou aos 45 anos, depois de quase 20 de casamento. Durante todo esse tempo, era o marido quem cuidava das contas da casa. Ela trabalhava, recebia o salário e o entregava, sem fazer perguntas. Quando se divorciou, percebeu que não sabia quanto gastava por mês com luz, com comida ou com os filhos. Pela primeira vez, sentiu medo de não dar conta.\n\nUma amiga lhe falou de um serviço gratuito de aconselhamento financeiro, oferecido por uma universidade da cidade. Teresa marcou um horário, meio envergonhada. Quem a recebeu foi Paula, uma estudante de Economia. \"Ninguém nasce sabendo\", disse. \"O aconselhamento serve justamente para isso.\"\n\nO primeiro passo foi olhar para as datas. O salário de Teresa era creditado na conta no dia 5, mas várias contas venciam no dia 1. Todo mês, portanto, ela passava 4 dias no vermelho e pagava juros. Bastou mudar a data de pagamento das contas para que esse gasto desaparecesse. \"Às vezes, o problema não é quanto você ganha, mas quando\", explicou Paula.\n\nO segundo passo foi guardar cada recibo. Durante um mês, Teresa juntou todos numa caixa de sapatos. No fim, somou os recibos e encontrou surpresas. No supermercado, por exemplo, comprava sempre o bife já cortado. Fez as contas pelo preço do quilo e viu que o bife cortado custava quase 30% mais do que a peça inteira, que ela mesma podia cortar em casa. Um recibo de supermercado, lido com atenção, é uma pequena aula de Matemática.\n\nDepois veio a academia. Teresa pagava 120 reais por mês para malhar, mas, ao conferir os registros, viu que tinha ido apenas 4 vezes no último mês. Cada dia de malhar custava, portanto, 30 reais. Ela decidiu continuar, porque gostava, mas passou a ir 3 vezes por semana. Para isso, precisou renovar o atestado médico que a academia exigia, e aproveitou o mesmo atestado para fazer exames que vinha adiando.\n\nO convênio médico era o gasto mais pesado. Paula a ajudou a comparar os planos. O convênio que ela tinha cobria hospitais em vários estados, coisa de que Teresa não precisava. Trocou por um convênio regional, com os mesmos médicos, e economizou mais de 200 reais por mês.\n\nPor fim, as duas falaram de jogos de azar. Teresa jogava na Mega-Sena todas as semanas, sonhando em ficar bilionária. Paula mostrou os números: a chance de acertar os 6 números da Mega-Sena com uma aposta simples é de cerca de 1 em 50 milhões. \"Nem os bilionários ficaram ricos assim\", disse, sorrindo. Teresa não parou de jogar, mas passou a apostar só no fim do ano.\n\nSeis meses depois, Teresa ainda não está rica, mas, financeiramente, dorme tranquila. Tem uma pequena reserva no banco e descobriu que gosta de fazer contas.\n\nPerguntas:\nPor que Teresa procurou aconselhamento financeiro depois que se divorciou?\nPorque, durante o casamento, o marido cuidava das contas, e ela não sabia quanto gastava por mês.\nQual era o problema da data em que o salário era creditado?\nO salário era creditado no dia 5, mas várias contas venciam no dia 1, e ela pagava juros.\nO que Teresa descobriu com os recibos do supermercado?\nDescobriu que o bife cortado custava quase 30% mais do que a peça inteira.\nQuanto custava cada dia de malhar na academia?\nCustava 30 reais, porque ela pagava 120 reais por mês e ia apenas 4 vezes.\nComo Teresa economizou com o convênio médico?\nTrocou o convênio nacional por um regional, com os mesmos médicos.\nQual é a chance de acertar os 6 números da Mega-Sena com uma aposta simples?\nÉ de cerca de 1 em 50 milhões."
+    },
+    {
+      "title": "O ritmo também é matemática",
+      "summary": "An interview with a percussionist who explains rhythm as fractions, compares musical timing with a comedian's timing and talks about recording music for a telenovela.",
+      "newWords": [
+        "percussão",
+        "profissionalmente",
+        "guitarrista",
+        "telenovela",
+        "socar",
+        "maltratar",
+        "humorista",
+        "psíquico"
+      ],
+      "text": "Luana Prado toca percussão profissionalmente há 15 anos. Já gravou com grandes nomes da música popular e, no ano passado, gravou a percussão da trilha sonora de uma telenovela. Formada também em Matemática, ela diz que nunca saiu de nenhuma das duas áreas. Conversamos com ela em São Paulo.\n\nComo a Matemática entrou na sua vida de música?\nEntrou antes de eu saber o nome dela. Na percussão, tudo é divisão do tempo. Num grupo de 4 tempos, uma nota pode durar um tempo inteiro, meio tempo ou um quarto de tempo. Quando uma criança aprende ritmo, está aprendendo frações com o corpo, mesmo que ninguém use essa palavra.\n\nE quando o ritmo fica mais complexo?\nAí a conta fica mais bonita. Muitas músicas africanas e brasileiras tocam ao mesmo tempo uma divisão em 3 e outra em 2. Para quem ouve, parece um balanço natural. Para quem toca, é um exercício de frações: as duas divisões só voltam a coincidir no início de cada ciclo.\n\nMuita gente acha que tocar percussão é só bater com força.\nPois é. Há quem pense que basta socar o tambor. Mas quem soca o instrumento não toca melhor; só faz mais barulho. Socar o couro, aliás, é uma forma de maltratar o instrumento e a música. O som vem do controle: da altura de onde a mão cai, do ponto em que ela toca. Um músico que maltrata o tambor não tem controle sobre o som.\n\nVocê trabalha com outros músicos da família?\nCom o meu irmão, que é guitarrista. Ele diz que eu sou a régua da banda. O guitarrista pode variar e atrasar uma nota de propósito, mas só pode fazer isso porque alguém está segurando o tempo.\n\nComo foi gravar para uma telenovela?\nFoi uma experiência nova. Na telenovela, cada música tem uma duração exata, porque precisa acompanhar uma cena. Às vezes, eu tinha 47 segundos para começar, crescer e terminar uma frase. Era preciso fazer contas o tempo todo.\n\nHá alguma semelhança entre a música e outras artes?\nMuitas. Eu gosto de comparar quem toca percussão com o humorista. Um bom humorista sabe que a mesma piada funciona ou não dependendo da pausa antes da última frase. É uma questão de tempo, como na música. Já vi um humorista ensaiar uma pausa como eu ensaio uma entrada.\n\nQual é o efeito do ritmo sobre quem ouve?\nÉ físico e psíquico. Físico, porque o corpo acompanha: o pé bate, a respiração muda. Psíquico, porque o ritmo organiza a atenção. Um ritmo regular acalma; um ritmo que surpreende desperta.\n\nQue conselho você daria a quem quer começar?\nQue conte os tempos. Em voz alta, se for preciso. A liberdade na música vem depois da contagem, nunca antes.\n\nPerguntas:\nHá quanto tempo Luana toca percussão profissionalmente?\nEla toca percussão profissionalmente há 15 anos.\nPor que ela diz que uma criança que aprende ritmo aprende frações?\nPorque, na percussão, tudo é divisão do tempo: um tempo inteiro, meio tempo, um quarto de tempo.\nO que acontece quando alguém soca o tambor?\nNão toca melhor; só faz mais barulho e maltrata o instrumento e a música.\nPor que o irmão guitarrista diz que Luana é a régua da banda?\nPorque ele só pode variar e atrasar notas de propósito quando ela segura o tempo.\nO que Luana compara ao trabalho do humorista?\nEla compara a pausa antes da última frase de uma piada com o tempo na música.\nPor que o efeito do ritmo é psíquico?\nPorque o ritmo organiza a atenção: um ritmo regular acalma, e um ritmo que surpreende desperta."
+    },
+    {
+      "title": "A matemática do dobro",
+      "summary": "An explanation of exponential growth through folded paper, bacteria, flu and the yellow scorpion that spreads in Brazilian cities, with advice on what to do after a sting.",
+      "newWords": [
+        "proliferação",
+        "enzima",
+        "hospedeiro",
+        "tosse",
+        "escorpião",
+        "venenoso",
+        "silvestre",
+        "socorrer"
+      ],
+      "text": "Pegue uma folha de papel bem fina, com um décimo de milímetro de espessura, e dobre-a ao meio. A espessura dobra. Dobre de novo, e ela dobra outra vez. Se fosse possível dobrar a mesma folha 42 vezes, a pilha passaria da distância entre a Terra e a Lua. Parece impossível, mas é o que acontece com tudo o que dobra: no começo, o crescimento quase não se nota; depois, foge do controle. A natureza está cheia de exemplos.\n\nO mais conhecido é o das bactérias. Em condições ideais de laboratório, certas bactérias se dividem a cada 20 minutos. Cada uma produz enzimas que quebram o alimento à sua volta, cresce e se divide em duas. Uma única bactéria pode, assim, dar origem a milhões em poucas horas. Na prática, a proliferação para quando o alimento acaba. Nenhum crescimento desse tipo dura para sempre.\n\nOs vírus seguem uma lógica parecida, mas precisam de um hospedeiro. Sozinhos, não se reproduzem; dependem das células do hospedeiro para se multiplicar. Uma pessoa com gripe espalha o vírus com a tosse, e cada tosse pode lançar milhares de gotas no ar. Se cada doente transmite a gripe para 2 pessoas, e cada uma delas para outras 2, o número de casos dobra a cada etapa. Por isso, cobrir a boca na hora da tosse e ficar em casa quando se está doente são gestos pequenos com efeito grande: cada etapa interrompida evita muitas outras.\n\nUm exemplo bem brasileiro é o do escorpião-amarelo. Esse escorpião vivia em ambientes silvestres, mas se adaptou muito bem às cidades. Lá, encontra abrigo nos esgotos e muita comida, sobretudo baratas. Além disso, faltam os animais silvestres que o comeriam na natureza. Há ainda um detalhe que acelera a proliferação: as fêmeas se reproduzem sem precisar de machos, e cada uma pode ter dezenas de filhotes por ano. Um único escorpião num quarteirão pode, em poucos anos, se transformar em muitos.\n\nO escorpião-amarelo é considerado o mais venenoso do Brasil, e as crianças e os idosos são os que correm mais risco. Por isso, é importante saber o que fazer. A vítima deve ser socorrida o quanto antes e levada a um serviço de saúde. Quem socorre a vítima não deve fazer cortes nem tentar retirar o veneno com a boca. Sempre que possível, vale levar o animal, ou uma foto dele, para que os médicos confirmem se ele é venenoso.\n\nA Matemática não elimina os escorpiões nem as bactérias, mas ajuda a entender por que agir cedo faz tanta diferença. Contra o que dobra, cada dia conta.\n\nPerguntas:\nO que aconteceria se fosse possível dobrar uma folha 42 vezes?\nA pilha passaria da distância entre a Terra e a Lua.\nPara que servem as enzimas das bactérias?\nElas quebram o alimento à volta da bactéria, que cresce e se divide em duas.\nPor que os vírus precisam de um hospedeiro?\nPorque sozinhos não se reproduzem; dependem das células do hospedeiro para se multiplicar.\nPor que é importante cobrir a boca na hora da tosse?\nPorque cada tosse lança milhares de gotas, e cada etapa de transmissão interrompida evita muitas outras.\nPor que a proliferação do escorpião-amarelo nas cidades é tão rápida?\nPorque ele encontra abrigo e comida, faltam os animais silvestres que o comeriam, e as fêmeas se reproduzem sem machos.\nO que se deve fazer quando um escorpião ataca alguém?\nA vítima deve ser socorrida o quanto antes e levada a um serviço de saúde."
+    }
+  ]
+}
