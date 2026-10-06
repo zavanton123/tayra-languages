@@ -5,7 +5,10 @@ import com.tayra.languages.core.data.db.DatabaseProvider
 import com.tayra.languages.core.data.repository.BookRepositoryImpl
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.CourseRepositoryImpl
+import com.tayra.languages.core.domain.courses.Course
 import com.tayra.languages.core.domain.courses.CourseDraft
+import com.tayra.languages.core.domain.courses.Lesson
+import com.tayra.languages.core.domain.courses.SampleCourseSource
 import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.courses.CourseValidationException
@@ -112,6 +115,22 @@ class OwnCoursesTest {
     }
 
     @Test
+    fun samplesAddedLaterReachALanguageSeededBefore() = runTest {
+        val pt = languages.save(Language(name = "Portuguese"))
+        fun course(id: String, rank: Int?) = Course(id, "pt", id, "", CourseLevel.A1, "", listOf(Lesson("$id-01", "Um", "", "Texto um.", listOf("um"))), rankUpTo = rank)
+        var bundled = listOf(course("pt-old", null))
+        val seeding = CourseService(books, languages, bookService, repository, SampleCourseSource { bundled })
+        seeding.seedSamples()
+        seeding.deleteCourse("pt-old")
+        bundled = listOf(course("pt-old", null), course("pt-freq-0200", 200), course("pt-freq-0100", 100))
+        seeding.seedSamples()
+        val courses = seeding.observeCourses(pt).first().map { it.course }
+        assertEquals(listOf("pt-freq-0100", "pt-freq-0200"), courses.map { it.id }, "new samples arrive, ordered by rank; the deleted one stays deleted")
+        assertEquals(100, courses.first().rankUpTo)
+        assertEquals(listOf("um"), courses.first().lessons.single().newWords)
+    }
+
+    @Test
     fun draftsNeedTheirParts() = runTest {
         val pt = languages.save(Language(name = "Portuguese"))
         assertFailsWith<CourseValidationException> { service.updateCourse("no-such-course", CourseDraft("Mine now")) }
@@ -136,8 +155,7 @@ class OwnCoursesTest {
             st.execute("CREATE TABLE user_lessons (id TEXT NOT NULL PRIMARY KEY, course_id TEXT NOT NULL, title TEXT NOT NULL, summary TEXT NOT NULL DEFAULT '', text TEXT NOT NULL, position INTEGER NOT NULL)")
             st.execute("INSERT INTO user_courses SELECT id, language_id, title, description, level, topic, created_at FROM courses")
             st.execute("INSERT INTO user_lessons SELECT id, course_id, title, summary, text, position FROM lessons")
-            st.execute("DELETE FROM lessons")
-            st.execute("DELETE FROM courses")
+            for (table in listOf("lessons", "courses", "seeded_courses")) st.execute("DROP TABLE $table")
             st.execute("PRAGMA user_version = 13")
         }
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))

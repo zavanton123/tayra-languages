@@ -126,7 +126,8 @@ class WordFrequencyScreenTest {
         waitForIdle()
         System.getenv("FREQUENCY_FILTER_SCREENSHOT")?.let { save(it) }
         assertTrue(onAllNodesWithTag("word-de").fetchSemanticsNodes().isEmpty(), "known words are hidden")
-        assertTrue(onAllNodesWithTag("word-casa").fetchSemanticsNodes().isEmpty(), "new words are hidden")
+        val firstNew = overview.words.first { it.knowledge == WordKnowledge.NEW }.word.word
+        assertTrue(onAllNodesWithTag("word-$firstNew").fetchSemanticsNodes().isEmpty(), "new words are hidden")
 
         onNodeWithTag("chip-KNOWN").performClick()
         onNodeWithTag("chip-NEW").performClick()

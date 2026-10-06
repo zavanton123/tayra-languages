@@ -3,6 +3,12 @@ plugins {
 }
 
 kotlin {
+    // The sample courses are Compose resources, which an Android library only packages with this on.
+    androidLibrary {
+        androidResources {
+            enable = true
+        }
+    }
     sourceSets {
         jvmTest.dependencies {
             implementation(projects.core.data)

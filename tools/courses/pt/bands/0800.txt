@@ -1,0 +1,100 @@
+701	sinal	sinal sinais sinalzinho
+702	superior	superior superiores superiora superioras
+703	mau	mau má más maus mazinha mauzinho mauzinhos
+704	pior	pior
+705	material	material materiais
+706	praia	praia praias prainha praião
+707	título	título títulos
+708	busca	busca buscas
+709	estranho	estranho estranha estranhos estranhas estranhíssimo
+710	cabelo	cabelo cabelos cabelinho cabelão
+711	policial	policial policiais policiar policies policiando policias policiado
+712	rádio	rádio rádios radinho
+713	chama	chama chamas
+714	criação	criação criações
+715	pronto	pronto pronta prontos prontas prontinho prontinha prontinhos prontinhas prontíssima prontíssimo
+716	capaz	capaz capazes
+717	virar	virar virou virada virando vire viraram virado viro virais virei
+718	levantar	levantar levanta levante levantou levantando levantado levantei levantada levantadas levantaram
+719	retirar	retirada retirar retirado retiro retirou retirados retira retire retiradas retirando
+720	sol	sol sóis solzinho solzão
+721	anterior	anterior anteriores
+722	dor	dor dores dorzinha
+723	referir	refere referir referido referindo referida referem referiu referia referidos refiro
+724	fase	fase fases
+725	função	função funções
+726	erro	erro erros
+727	roubar	roubar roubo roubado roubou rouba roubando roubos roubaram roubada roubam
+728	atacar	atacar atacado atacou ataca ataques atacando atacaram atacada atacados atacam
+729	blogue	blog blogue blogues
+730	banda	banda bandas
+731	república	república repúblicas
+732	buscar	buscar buscando buscam buscou buscava busque buscamos busco buscas buscavam
+733	cantar	cantar cantando canta cantou cantada cantam cantava cantaram cantadas cantado
+734	prática	prática práticas
+735	prêmio	prêmio prêmios
+736	prisão	prisão prisões
+737	zona	zona zonas
+738	estudar	estudar estuda estudando estudou estudado estudei estudam estudava estudada estudados
+739	vítima	vítima vítimas
+740	estabelecer	estabelecer estabelecido estabelece estabelecida estabelecidos estabelecidas estabeleceu estabelecendo estabeleceram estabelecem
+741	europeu	europeia europeu europeus europeias
+742	dez	dez
+743	comentário	comentários comentário
+744	cuidar	cuidar cuida cuidando cuide cuidados cuido cuidem cuidou cuidam cuidava
+745	exército	exército exércitos
+746	divulgar	divulgar divulgado divulgou divulgada divulgados divulga divulgadas divulgando divulgue divulgaram
+747	realidade	realidade realidades
+748	código	código códigos
+749	preto	preto preta pretos pretas pretinho pretinha pretinhos pretinhas
+750	necessidade	necessidade necessidades
+751	assumir	assumir assume assumiu assumindo assumido assumem assumiram assumo assuma assumida
+752	metro	metros metrô metro
+753	pôr	pôr põe postos pôs pô posta pondo ponha porão ponho
+754	municipal	municipal municipais
+755	mar	mar mares
+756	marca	marca marcas marquinha
+757	simplesmente	simplesmente simplismente
+758	aluno	alunos aluno aluna alunas
+759	finalmente	finalmente
+760	portanto	portanto
+761	estrutura	estrutura estruturas estructura
+762	reunir	reunir reúne reuniu reunidos reuniram reunindo reúnem reunido reunidas reunida
+763	acordar	acordar acorda acordado acordei acordou acordada acorde acordem acordados acordes
+764	subir	subir subiu sobe subindo subida subiram sobem suba subi subimos
+765	proposta	proposta propostas
+766	união	união uniões
+767	disponível	disponível disponíveis
+768	cortar	cortar corta cortou cortado cortada cortes cortando cortei cortadas cortados
+769	normal	normal normais normalíssimo
+770	sentar	sentar senta sentado sente sentada sentados sentou sentem sentei sentando
+771	evitar	evitar evitando evita evite evitado evitou evitam evitá evitem evitadas
+772	personagem	personagem personagens
+773	advogado	advogado advogados advogada advogadas
+774	apoiar	apoiar apoia apoiado apoiando apoiou apoiam apoiada apoiaram apoiados apoie
+775	destacar	destaca destacou destacar destacando destacam destacado destacaram destacados destacada destacadas
+776	definir	define definir definido definida definiu definidas definidos definem definindo defina
+777	reunião	reunião reuniões reunion
+778	sábado	sábado sábados sabado sabadão
+779	conversa	conversa conversas cv
+780	instituição	instituições instituição
+781	melhorar	melhorar melhora melhorou melhorando melhoras melhorado melhore melhorada melhoraram melhoram
+782	documento	documentos documento
+783	risco	risco riscos risquinhos risquinho
+784	escolha	escolha escolhas
+785	resto	resto restos restinho restinhos
+786	verde	verde verdes verdinho verdinha verdinhas verdinhos
+787	liga	liga ligas
+788	visita	visita visitas visitinha visitinhas
+789	esquerdo	esquerda esquerdo esquerdas esquerdos
+790	espera	espera esperas
+791	gerar	gerar gera gerou gerando gerado gerada gerais geram gerados geradas
+792	etc	etc etcs
+793	conhecimento	conhecimento conhecimentos
+794	aquilo	aquilo
+795	desejar	deseja desejar desejam desejava desejamos desejado desejando desejou desejada deseje
+796	presença	presença presenças
+797	transporte	transporte transportes
+798	comida	comida comidas comidinha
+799	missão	missão missões
+800	instituto	instituto institutos

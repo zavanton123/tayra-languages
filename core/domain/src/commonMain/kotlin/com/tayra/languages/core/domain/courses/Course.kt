@@ -20,6 +20,8 @@ data class Lesson(
     val title: String,
     val summary: String,
     val text: String,
+    /** The words of the language's frequency list the lesson introduces, as the list writes them. */
+    val newWords: List<String> = emptyList(),
 ) {
     /** Words in the text, counted at spaces. */
     val wordCount: Int get() = text.split(Regex("""\s+""")).count { part -> part.any { it.isLetterOrDigit() } }
@@ -39,6 +41,8 @@ data class Course(
     val languageId: Long = 0,
     /** Whether the course is one of the app's samples rather than one the reader made; both can be changed. */
     val builtIn: Boolean = false,
+    /** The rank in the language's frequency list of the rarest word the course teaches; null for courses not built on it. */
+    val rankUpTo: Int? = null,
 ) {
     val wordCount: Int get() = lessons.sumOf { it.wordCount }
 }
@@ -66,10 +70,15 @@ interface CourseRepository {
     /** Moves the lesson [by] places, later for positive, keeping it within the course. */
     suspend fun moveLesson(lessonId: String, by: Int)
 
-    /** Whether the samples were written for the language with [languageId] already, so ones deleted since stay deleted. */
-    suspend fun samplesSeeded(languageId: Long): Boolean
-    /** Writes [courses] with their lessons for the language as samples, and notes that it was done. */
+    /** The sample courses written for the language with [languageId] so far, so ones deleted since stay deleted. */
+    suspend fun seededSamples(languageId: Long): Set<String>
+    /** Writes [courses] with their lessons for the language as samples, and notes each one. */
     suspend fun seedSamples(languageId: Long, courses: List<Course>)
+}
+
+/** The sample courses the app comes with, for a language by its ISO 639-1 code. */
+fun interface SampleCourseSource {
+    suspend fun courses(languageCode: String): List<Course>
 }
 
 /** A lesson that was opened: the text made from it, and how far its reading has got. */

@@ -4,11 +4,13 @@ import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
+import com.tayra.languages.core.domain.courses.SampleCourseSource
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val coursesModule = module {
+    single<SampleCourseSource> { BundledSampleCourses() }
     viewModel { CoursesViewModel(get(), get(), get()) }
     viewModel { (courseId: String) -> CourseViewModel(courseId, get()) }
     viewModel { (courseId: String?) -> CourseFormViewModel(courseId, get(), get(), get()) }

@@ -1,0 +1,70 @@
+-- Courses built on the frequency list: the rarest word a course teaches, and the words each lesson
+-- introduces. The tables are rebuilt rather than given new columns, so this runs whether a column
+-- is there already or not.
+CREATE TABLE courses_v14 (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL DEFAULT '',
+    level TEXT NOT NULL,
+    topic TEXT NOT NULL DEFAULT '',
+    created_at INTEGER NOT NULL,
+    built_in INTEGER NOT NULL DEFAULT 0,
+    rank_up_to INTEGER
+);
+
+INSERT INTO courses_v14(id, language_id, title, description, level, topic, created_at, built_in)
+SELECT id, language_id, title, description, level, topic, created_at, built_in FROM courses;
+
+-- The lessons wait in a table without links while their course table is replaced.
+CREATE TABLE lessons_v14 (
+    id TEXT NOT NULL PRIMARY KEY,
+    course_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    summary TEXT NOT NULL DEFAULT '',
+    text TEXT NOT NULL,
+    position INTEGER NOT NULL
+);
+
+INSERT INTO lessons_v14(id, course_id, title, summary, text, position)
+SELECT id, course_id, title, summary, text, position FROM lessons;
+
+DROP TABLE lessons;
+DROP TABLE courses;
+ALTER TABLE courses_v14 RENAME TO courses;
+
+CREATE TABLE lessons (
+    id TEXT NOT NULL PRIMARY KEY,
+    course_id TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    summary TEXT NOT NULL DEFAULT '',
+    text TEXT NOT NULL,
+    position INTEGER NOT NULL,
+    new_words TEXT NOT NULL DEFAULT ''
+);
+
+INSERT INTO lessons(id, course_id, title, summary, text, position)
+SELECT id, course_id, title, summary, text, position FROM lessons_v14;
+
+DROP TABLE lessons_v14;
+
+CREATE INDEX IF NOT EXISTS lessons_course ON lessons(course_id, position);
+
+-- Samples are noted one by one, so new ones in a later version reach languages seeded before.
+CREATE TABLE IF NOT EXISTS seeded_courses (
+    course_id TEXT NOT NULL,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    PRIMARY KEY (course_id, language_id)
+);
+
+-- The languages seeded so far had the three samples of the time, deleted since or not.
+CREATE TABLE IF NOT EXISTS course_seeds (
+    language_id INTEGER NOT NULL PRIMARY KEY
+);
+
+INSERT OR IGNORE INTO seeded_courses(course_id, language_id)
+SELECT sample.id, seeds.language_id
+FROM course_seeds seeds
+CROSS JOIN (SELECT 'pt-primeiros-passos' AS id UNION ALL SELECT 'pt-vida-na-cidade' UNION ALL SELECT 'pt-historias-curtas') sample;
+
+DROP TABLE course_seeds;

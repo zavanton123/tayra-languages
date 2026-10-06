@@ -1410,6 +1410,9 @@ for _articled in ("mașina", "pagina", "oferta", "suma", "grupa", "litera", "str
     OVERRIDES["ro"][_articled] = [_articled[:-1] + "ă"]
     OVERRIDES["ro"].setdefault(_articled[:-1] + "ă", [_articled[:-1] + "ă"])
 
+# "vir" is also a form of "ver" ("quando eu vir"), which took it and every form of "vir" with it.
+OVERRIDES["pt"].update({"vir": ["vir"], "veio": ["vir"], "vinha": ["vir"], "vindo": ["vir"], "vinham": ["vir"]})
+
 # Portuguese's later additions apply on top of its first set.
 OVERRIDES["pt"] = {**PORTUGUESE_OVERRIDES["pt"], **OVERRIDES.get("pt", {})}
 EXCLUDE["pt"] = PORTUGUESE_EXCLUDE["pt"] | EXCLUDE.get("pt", set())

@@ -113,6 +113,28 @@ private fun count(n: Int, one: String) = if (n == 1) "1 $one" else "$n ${one}s"
 private val com.tayra.languages.core.domain.courses.Course.subtitle: String
     get() = if (topic.isBlank()) level.label else "${level.label} · $topic"
 
+/** The course's tags: the words of the frequency list it covers, and whether it is one of the samples. */
+@Composable
+private fun CourseTags(course: com.tayra.languages.core.domain.courses.Course) {
+    if (!course.builtIn && course.rankUpTo == null) return
+    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        course.rankUpTo?.let { RankTag(it) }
+        if (course.builtIn) SampleTag()
+    }
+}
+
+/** The most common words a course built on the frequency list covers. */
+@Composable
+private fun RankTag(rankUpTo: Int) {
+    Text(
+        "Words ${rankUpTo - 99}–$rankUpTo",
+        Modifier.clip(RoundedCornerShape(50)).background(BLUE.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
+        style = MaterialTheme.typography.labelMedium,
+        color = BLUE,
+        fontWeight = FontWeight.SemiBold,
+    )
+}
+
 /** Marks one of the app's sample courses. */
 @Composable
 private fun SampleTag() {
@@ -248,7 +270,7 @@ private fun CourseCard(progress: CourseProgress, modifier: Modifier, onClick: ()
                 Text(course.subtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
         }
-        if (course.builtIn) SampleTag()
+        CourseTags(course)
         if (course.description.isNotBlank()) {
             Text(course.description, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 3, overflow = TextOverflow.Ellipsis)
         }
@@ -454,7 +476,7 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                     Text(course.subtitle, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
             }
-            if (course.builtIn) SampleTag()
+            CourseTags(course)
             if (course.description.isNotBlank()) Text(course.description, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
                 Fact(AppIcons.MenuBook, count(course.lessons.size, "lesson"))
@@ -653,6 +675,15 @@ private fun LessonRow(
                 }
             }
             if (lesson.summary.isNotBlank()) Text(lesson.summary, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            if (lesson.newWords.isNotEmpty()) {
+                Text(
+                    "New words: ${lesson.newWords.joinToString(", ")}",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = colors.primary,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
+                )
+            }
             if (compact) Text("${lesson.wordCount} words · ${status.label}", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
         if (!compact) {

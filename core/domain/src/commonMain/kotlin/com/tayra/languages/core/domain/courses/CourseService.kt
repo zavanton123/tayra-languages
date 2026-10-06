@@ -21,7 +21,7 @@ class CourseService(
     private val languages: LanguageRepository,
     private val bookService: BookService,
     private val repository: CourseRepository,
-    private val samples: List<Course> = SampleCourses.ALL,
+    private val samples: SampleCourseSource = SampleCourseSource { code -> SampleCourses.ALL.filter { it.languageCode == code } },
 ) {
     /** The courses for the language with [languageId], oldest first, kept up to date. */
     fun observeCourses(languageId: Long): Flow<List<CourseProgress>> =
@@ -31,15 +31,16 @@ class CourseService(
         combine(books.observeLessonBooks(), repository.observeCourse(courseId)) { opened, course -> course?.let { progress(it, opened) } }
 
     /**
-     * Writes the sample courses for each language they are in, once: a sample the reader deleted
-     * stays deleted. They keep their ids, so the place reached in a sample lesson carries over.
+     * Writes each sample course for each language it is in, once: a sample the reader deleted stays
+     * deleted, and one added in a later version is written then. Samples keep their ids, so the
+     * place reached in a sample lesson carries over.
      */
     suspend fun seedSamples() {
         for (language in languages.getAll()) {
             val code = LanguageCodes.codeFor(language.name) ?: continue
-            val theirs = samples.filter { it.languageCode == code }
-            if (theirs.isEmpty() || repository.samplesSeeded(language.id)) continue
-            repository.seedSamples(language.id, theirs)
+            val seeded = repository.seededSamples(language.id)
+            val new = samples.courses(code).filter { it.id !in seeded }
+            if (new.isNotEmpty()) repository.seedSamples(language.id, new)
         }
     }
 

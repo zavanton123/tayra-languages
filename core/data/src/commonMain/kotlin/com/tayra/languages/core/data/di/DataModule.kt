@@ -138,7 +138,7 @@ val dataModule: Module = module {
     single { DemoDataService(get(), get(), get(), get(), get()) }
     single { StatsService(get()) }
     single<CourseRepository> { CourseRepositoryImpl(get()) }
-    single { CourseService(get(), get(), get(), get()) }
+    single { CourseService(get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
     single<VocabularyLevelRepository> { VocabularyLevelRepositoryImpl(get()) }
     single { FlashcardService(get(), get(), get()) }
