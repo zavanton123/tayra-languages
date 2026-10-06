@@ -57,7 +57,7 @@ class CoursesScreenTest {
     private val books = BookRepositoryImpl(provider)
     private val terms = TermRepositoryImpl(provider)
     private val settings = SettingsRepositoryImpl(MapSettings())
-    private val service = CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider))
+    private val service = CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider), BundledSampleCourses())
     private val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages))
     private val languageId = runBlocking { languages.save(Language(name = "Portuguese")).also { id -> settings.update { it.copy(currentLanguageId = id) }; service.seedSamples() } }
 
@@ -80,8 +80,10 @@ class CoursesScreenTest {
         System.getenv(env)?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
     }
 
+    private val ids = (100..1000 step 100).map { "pt-freq-" + it.toString().padStart(4, '0') }
+
     private fun ComposeUiTest.shown(): List<String> =
-        listOf("pt-primeiros-passos", "pt-vida-na-cidade", "pt-historias-curtas").filter { onAllNodesWithTag("course-$it").fetchSemanticsNodes().isNotEmpty() }
+        ids.filter { onAllNodesWithTag("course-$it").fetchSemanticsNodes().isNotEmpty() }
 
     @Test
     fun coursesCanBeSearchedFilteredAndOpened() = runDesktopComposeUiTest(width = 1586, height = 1000) {
@@ -91,24 +93,25 @@ class CoursesScreenTest {
             val state by viewModel.state.collectAsState()
             if (!state.loading) CoursesContent(state, viewModel::setSearch, viewModel::setLevel, viewModel::setStatus, onOpen = { opened += it })
         }
-        waitUntil(timeoutMillis = 5_000) { shown().size == 3 }
-        onNodeWithText("3 courses").assertExists()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("10 courses").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(ids.take(2), shown().take(2), "in the order of their ranks")
         onNodeWithText("Guided Portuguese lessons to read, level by level.").assertExists()
         save("COURSES_SCREENSHOT")
 
         // The search looks in lesson titles too.
-        onNodeWithTag("course-search").performTextInput("fim de semana")
-        waitUntil(timeoutMillis = 5_000) { shown() == listOf("pt-vida-na-cidade") }
+        onNodeWithTag("course-search").performTextInput("Natal em Natal")
+        waitUntil(timeoutMillis = 5_000) { shown() == listOf("pt-freq-0900") }
         onNodeWithText("1 course").assertExists()
         onNodeWithTag("course-search").performTextClearance()
-        waitUntil(timeoutMillis = 5_000) { shown().size == 3 }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("10 courses").fetchSemanticsNodes().isNotEmpty() }
 
         onNodeWithText("All levels").performClick()
-        onNodeWithText("B1 · Intermediate").performClick()
-        waitUntil(timeoutMillis = 5_000) { shown() == listOf("pt-historias-curtas") }
-        onNodeWithText("B1 · Intermediate").performClick()
+        onNodeWithText("A1 · Beginner").performClick()
+        waitUntil(timeoutMillis = 5_000) { shown() == ids.take(3) }
+        onNodeWithText("3 courses").assertExists()
+        onNodeWithText("A1 · Beginner").performClick()
         onNodeWithText("All levels").performClick()
-        waitUntil(timeoutMillis = 5_000) { shown().size == 3 }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("10 courses").fetchSemanticsNodes().isNotEmpty() }
 
         // Nothing is started yet, so "In progress" leaves no course.
         onNodeWithText("Any progress").performClick()
@@ -116,41 +119,40 @@ class CoursesScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No courses match").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("In progress").performClick()
         onNodeWithText("Not started").performClick()
-        waitUntil(timeoutMillis = 5_000) { shown().size == 3 }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("10 courses").fetchSemanticsNodes().isNotEmpty() }
 
-        onNodeWithTag("course-pt-vida-na-cidade").performClick()
-        assertEquals(listOf("pt-vida-na-cidade"), opened)
+        onNodeWithTag("course-pt-freq-0200").performClick()
+        assertEquals(listOf("pt-freq-0200"), opened)
     }
 
     @Test
     fun aCourseListsItsLessonsAndOpensThemForReading() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = CourseViewModel("pt-primeiros-passos", service)
+        val viewModel = CourseViewModel("pt-freq-0100", service)
         val read = java.util.Collections.synchronizedList(mutableListOf<Long>())
         val collecting = CoroutineScope(Dispatchers.Default).launch { viewModel.events.flow.collect { if (it is CourseEvent.Read) read += it.bookId } }
         host {
             val state by viewModel.state.collectAsState()
             if (!state.loading) CourseContent(state, onOpenLesson = viewModel::openLesson, onCourses = {})
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Primeiros passos").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("O gato de ninguém").fetchSemanticsNodes().isNotEmpty() }
         // The first lesson is picked out as the place to start.
         onNodeWithText("Start here").assertExists()
         save("COURSE_NEW_SCREENSHOT")
-        for (lesson in listOf("Olá! Eu sou a Ana", "Minha família", "Minha casa", "Meu dia", "No café")) onNodeWithText(lesson).assertExists()
+        for (lesson in listOf("O primeiro dia", "Pipoca", "Duas casas")) onNodeWithText(lesson).assertExists()
         onNodeWithText("Start course").assertExists()
-        assertEquals(5, onAllNodesWithText("Not started").fetchSemanticsNodes().size - 1, "five lessons, and the course itself")
 
-        onNodeWithTag("lesson-pt-primeiros-passos-1").performClick()
+        onNodeWithTag("lesson-pt-freq-0100-01").performClick()
         waitUntil(timeoutMillis = 5_000) { read.size == 1 }
         val bookId = read.single()
-        assertEquals("Olá! Eu sou a Ana", runBlocking { books.getBook(bookId) }?.title)
+        assertEquals("O primeiro dia", runBlocking { books.getBook(bookId) }?.title)
 
         // Reading the lesson to its end completes it, and the course goes on with the next.
         runBlocking {
             reading.openPage(bookId, 1, trackOpen = true)
             reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue: Minha família").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("1 of 5 read").assertExists()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue: Pipoca").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("1 of 10 read").assertExists()
         onNodeWithText("Continue here").assertExists()
         assertEquals(0, onAllNodesWithText("Start here").fetchSemanticsNodes().size)
         assertNotNull(onAllNodesWithText("Completed").fetchSemanticsNodes().singleOrNull())

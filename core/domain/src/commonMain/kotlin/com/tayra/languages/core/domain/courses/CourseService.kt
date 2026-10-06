@@ -21,7 +21,7 @@ class CourseService(
     private val languages: LanguageRepository,
     private val bookService: BookService,
     private val repository: CourseRepository,
-    private val samples: SampleCourseSource = SampleCourseSource { code -> SampleCourses.ALL.filter { it.languageCode == code } },
+    private val samples: SampleCourseSource,
 ) {
     /** The courses for the language with [languageId], oldest first, kept up to date. */
     fun observeCourses(languageId: Long): Flow<List<CourseProgress>> =
@@ -149,7 +149,7 @@ class CourseService(
         return draft.copy(title = draft.title.trim(), summary = draft.summary.trim(), text = draft.text.trim())
     }
 
-    /** Ids apart from the samples' ("pt-primeiros-passos-1"), since lessons are found by id. */
+    /** Ids apart from the samples' ("pt-freq-0100-01"), since lessons are found by id. */
     private fun newId(kind: String): String =
         "own-$kind-" + (1..12).map { ID_CHARS[Random.nextInt(ID_CHARS.length)] }.joinToString("")
 

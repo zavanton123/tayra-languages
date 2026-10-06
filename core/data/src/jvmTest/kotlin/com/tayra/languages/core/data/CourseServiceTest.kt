@@ -7,8 +7,6 @@ import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.repository.CourseRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
-import com.tayra.languages.core.domain.courses.SampleCourses
-import com.tayra.languages.core.domain.courses.CourseLevel
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.domain.model.BookDraft
@@ -35,21 +33,7 @@ class CourseServiceTest {
     private val terms = TermRepositoryImpl(provider)
     private val bookService = BookService(books, languages)
     private val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages))
-    private val service = CourseService(books, languages, bookService, CourseRepositoryImpl(provider))
-
-    @Test
-    fun theSampleCoursesAreWellFormed() {
-        val courses = SampleCourses.ALL
-        assertEquals(listOf(CourseLevel.A1, CourseLevel.A2, CourseLevel.B1), courses.map { it.level })
-        assertEquals(courses.size, courses.map { it.id }.toSet().size)
-        val lessons = courses.flatMap { it.lessons }
-        assertEquals(lessons.size, lessons.map { it.id }.toSet().size, "lesson ids are unique across courses")
-        lessons.forEach { lesson ->
-            assertTrue(lesson.wordCount in 60..220, "${lesson.id} has ${lesson.wordCount} words")
-            assertTrue(lesson.title.isNotBlank() && lesson.summary.isNotBlank())
-            assertTrue(lesson.text.lines().none { it.startsWith(" ") }, "${lesson.id} is not indented")
-        }
-    }
+    private val service = CourseService(books, languages, bookService, CourseRepositoryImpl(provider), TestCourses.source)
 
     @Test
     fun coursesAreListedForTheirLanguageOnly() = runTest {
@@ -100,8 +84,8 @@ class CourseServiceTest {
     @Test
     fun aLessonOfALanguageTheAppLacksIsNotOpened() = runTest {
         languages.save(Language(name = "Spanish"))
-        assertNull(service.openLesson("pt-primeiros-passos", "pt-primeiros-passos-1"))
-        assertNull(service.openLesson("pt-primeiros-passos", "no-such-lesson"))
+        assertNull(service.openLesson("pt-test-a1", "pt-test-a1-1"))
+        assertNull(service.openLesson("pt-test-a1", "no-such-lesson"))
     }
 
     @Test
@@ -114,9 +98,9 @@ class CourseServiceTest {
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
         val upgradedBooks = BookRepositoryImpl(reopened)
         val upgradedLanguages = LanguageRepositoryImpl(reopened)
-        val upgraded = CourseService(upgradedBooks, upgradedLanguages, BookService(upgradedBooks, upgradedLanguages), CourseRepositoryImpl(reopened))
+        val upgraded = CourseService(upgradedBooks, upgradedLanguages, BookService(upgradedBooks, upgradedLanguages), CourseRepositoryImpl(reopened), TestCourses.source)
         upgraded.seedSamples()
-        assertNotNull(upgraded.openLesson("pt-primeiros-passos", "pt-primeiros-passos-1"))
+        assertNotNull(upgraded.openLesson("pt-test-a1", "pt-test-a1-1"))
         assertEquals(3, upgraded.observeCourses(portuguese).first().size)
     }
 
@@ -124,7 +108,7 @@ class CourseServiceTest {
     fun aLessonsTextKnowsItsCourse() = runTest {
         languages.save(Language(name = "Portuguese"))
         service.seedSamples()
-        val course = SampleCourses.ALL.first()
+        val course = TestCourses.ALL.first()
         val bookId = assertNotNull(service.openLesson(course.id, course.lessons[2].id))
         val reading = assertNotNull(service.lessonReading(bookId))
         assertEquals(course.id, reading.course.id)

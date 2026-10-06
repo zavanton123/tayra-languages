@@ -34,7 +34,7 @@ class OwnCoursesTest {
     private val books = BookRepositoryImpl(provider)
     private val bookService = BookService(books, languages)
     private val repository = CourseRepositoryImpl(provider)
-    private val service = CourseService(books, languages, bookService, repository)
+    private val service = CourseService(books, languages, bookService, repository, TestCourses.source)
 
     @Test
     fun anOwnCourseIsListedAfterTheSamplesAndKeepsItsLessonsInOrder() = runTest {
@@ -102,16 +102,16 @@ class OwnCoursesTest {
         assertEquals(listOf("Primeiros passos", "A vida na cidade", "Histórias curtas"), service.observeCourses(pt).first().map { it.course.title }, "once, in their order")
         assertEquals(emptyList(), service.observeCourses(de).first(), "German has no samples")
 
-        service.updateCourse("pt-primeiros-passos", CourseDraft("Os meus primeiros passos", level = CourseLevel.A1))
-        service.addLesson("pt-primeiros-passos", LessonDraft("Extra", text = "Mais um texto."))
-        val changed = service.observeCourse("pt-primeiros-passos").first()!!.course
+        service.updateCourse("pt-test-a1", CourseDraft("Os meus primeiros passos", level = CourseLevel.A1))
+        service.addLesson("pt-test-a1", LessonDraft("Extra", text = "Mais um texto."))
+        val changed = service.observeCourse("pt-test-a1").first()!!.course
         assertEquals("Os meus primeiros passos", changed.title)
         assertEquals(6, changed.lessons.size)
         assertTrue(changed.builtIn, "still marked as a sample")
 
-        service.deleteCourse("pt-historias-curtas")
+        service.deleteCourse("pt-test-b1")
         service.seedSamples()
-        assertEquals(listOf("pt-primeiros-passos", "pt-vida-na-cidade"), service.observeCourses(pt).first().map { it.course.id }, "a deleted sample stays deleted")
+        assertEquals(listOf("pt-test-a1", "pt-test-a2"), service.observeCourses(pt).first().map { it.course.id }, "a deleted sample stays deleted")
     }
 
     @Test
@@ -159,9 +159,28 @@ class OwnCoursesTest {
             st.execute("PRAGMA user_version = 13")
         }
         val reopened = DatabaseProvider(DatabaseDriverFactory(file))
-        val upgraded = CourseService(BookRepositoryImpl(reopened), LanguageRepositoryImpl(reopened), BookService(BookRepositoryImpl(reopened), LanguageRepositoryImpl(reopened)), CourseRepositoryImpl(reopened))
+        val upgraded = CourseService(BookRepositoryImpl(reopened), LanguageRepositoryImpl(reopened), BookService(BookRepositoryImpl(reopened), LanguageRepositoryImpl(reopened)), CourseRepositoryImpl(reopened), TestCourses.source)
         val course = upgraded.observeCourse(id).first()!!.course
         assertEquals(listOf("Gato"), course.lessons.map { it.title })
         assertTrue(!course.builtIn)
+    }
+
+    @Test
+    fun theFirstHandWrittenSamplesAreRemovedWithTheirTexts() = runTest {
+        val pt = languages.save(Language(name = "Portuguese"))
+        fun course(id: String, rank: Int?) = Course(id, "pt", id, "", CourseLevel.A1, "", listOf(Lesson("$id-1", "Um", "", "Texto um.")), rankUpTo = rank)
+        val retired = listOf("pt-primeiros-passos", "pt-vida-na-cidade", "pt-historias-curtas")
+        val seeding = CourseService(books, languages, bookService, repository, SampleCourseSource { retired.map { course(it, null) } + course("pt-freq-0100", 100) })
+        seeding.seedSamples()
+        val opened = assertNotNull(seeding.openLesson("pt-primeiros-passos", "pt-primeiros-passos-1"))
+        val mine = seeding.createCourse(pt, CourseDraft("Minhas leituras"))
+        DriverManager.getConnection("jdbc:sqlite:${file.absolutePath}").use { it.createStatement().execute("PRAGMA user_version = 15") }
+
+        val reopened = DatabaseProvider(DatabaseDriverFactory(file))
+        val upgradedBooks = BookRepositoryImpl(reopened)
+        val upgraded = CourseService(upgradedBooks, LanguageRepositoryImpl(reopened), BookService(upgradedBooks, LanguageRepositoryImpl(reopened)), CourseRepositoryImpl(reopened), SampleCourseSource { emptyList() })
+        assertEquals(listOf("pt-freq-0100", mine), upgraded.observeCourses(pt).first().map { it.course.id })
+        assertNull(upgradedBooks.getBook(opened), "the text read from a retired lesson goes too")
+        assertNull(upgradedBooks.lessonBookId("pt-primeiros-passos-1"))
     }
 }

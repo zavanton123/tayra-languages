@@ -47,7 +47,7 @@ class OwnCoursesScreenTest {
     private val languages = LanguageRepositoryImpl(provider)
     private val books = BookRepositoryImpl(provider)
     private val settings = SettingsRepositoryImpl(MapSettings())
-    private val service = CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider))
+    private val service = CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider), BundledSampleCourses())
     private val portuguese = runBlocking { languages.save(Language(name = "Portuguese")).also { id -> settings.update { it.copy(currentLanguageId = id) }; service.seedSamples() } }
 
     private fun ComposeUiTest.host(content: @androidx.compose.runtime.Composable () -> Unit) = setContent {
@@ -146,13 +146,13 @@ class OwnCoursesScreenTest {
 
     @Test
     fun aSampleCourseIsTaggedAndCanBeChangedToo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = CourseViewModel("pt-primeiros-passos", service)
+        val viewModel = CourseViewModel("pt-freq-0100", service)
         host { CourseContent(viewModel.state.collectAsStateValue(), onOpenLesson = {}, onCourses = {}, editing = CourseEditing()) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Primeiros passos").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("O gato de ninguém").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Sample course").assertExists()
         onNodeWithTag("edit-course").assertExists()
         onNodeWithTag("add-lesson").assertExists()
-        onNodeWithTag("lesson-menu-pt-primeiros-passos-1").assertExists()
+        onNodeWithTag("lesson-menu-pt-freq-0100-01").assertExists()
         System.getenv("SAMPLE_COURSE_SCREENSHOT")?.let { save(it) }
     }
 
