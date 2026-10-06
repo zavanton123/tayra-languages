@@ -69,6 +69,7 @@ private val menuGroups = listOf(
             MenuEntry("Settings", Route.Settings),
             MenuEntry("Translation", Route.OfflineTranslation),
             MenuEntry("Dictionaries", Route.OfflineDictionaries),
+            MenuEntry("Courses", Route.CoursePacks),
             MenuEntry("Speech", Route.Speech),
             MenuEntry("Flashcards", Route.FlashcardSettings),
             MenuEntry("Vocabulary", Route.VocabularySettings),

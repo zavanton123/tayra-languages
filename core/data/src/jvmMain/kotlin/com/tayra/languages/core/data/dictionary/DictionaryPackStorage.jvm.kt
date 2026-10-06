@@ -3,6 +3,7 @@ package com.tayra.languages.core.data.dictionary
 import app.cash.sqldelight.db.SqlDriver
 import app.cash.sqldelight.driver.jdbc.sqlite.JdbcSqliteDriver
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
+import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryPack
 import com.tayra.languages.core.domain.dictionary.DictionaryPackStore
 import java.io.File
@@ -14,15 +15,15 @@ actual class DictionaryPackStorage(
 ) : DictionaryPackStore {
     private val files = PackFiles(directory, downloader)
 
-    actual override suspend fun installedSize(pack: DictionaryPack): Long? = files.installedSize(pack)
+    actual override suspend fun installedSize(pack: DictionaryPack): Long? = files.installedSize(pack.id.name, DictionaryId.FORMAT)
 
-    actual override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) = files.install(pack, onProgress)
+    actual override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) = files.install(pack.id.name, pack.url, DictionaryId.FORMAT, onProgress)
 
-    actual override suspend fun remove(pack: DictionaryPack) = files.remove(pack)
+    actual override suspend fun remove(pack: DictionaryPack) = files.remove(pack.id.name)
 
     actual suspend fun openDriver(pack: DictionaryPack): SqlDriver? {
-        if (files.installedSize(pack) == null) return null
+        if (files.installedSize(pack.id.name, DictionaryId.FORMAT) == null) return null
         val properties = Properties().apply { put("open_mode", "1") } // SQLITE_OPEN_READONLY
-        return JdbcSqliteDriver("jdbc:sqlite:${files.file(pack).absolutePath}", properties)
+        return JdbcSqliteDriver("jdbc:sqlite:${files.file(pack.id.name).absolutePath}", properties)
     }
 }

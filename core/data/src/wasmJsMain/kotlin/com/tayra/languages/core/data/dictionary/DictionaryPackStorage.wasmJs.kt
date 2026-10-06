@@ -8,7 +8,7 @@ import kotlinx.coroutines.await
 import org.w3c.dom.Worker
 import kotlin.js.Promise
 
-private fun cacheInstall(url: String): Promise<JsAny?> = js(
+internal fun cacheInstall(url: String): Promise<JsAny?> = js(
     """caches.open('tayra-dictionaries').then(function (cache) {
         return fetch(url).then(function (response) {
             if (!response.ok) throw new Error('Server answered ' + response.status);
@@ -17,16 +17,16 @@ private fun cacheInstall(url: String): Promise<JsAny?> = js(
     }).then(function () { return null; })""",
 )
 
-private fun cacheSize(url: String): Promise<JsAny?> = js(
+internal fun cacheSize(url: String): Promise<JsAny?> = js(
     """caches.open('tayra-dictionaries').then(function (cache) { return cache.match(url); })
         .then(function (response) { return response ? response.blob().then(function (blob) { return blob.size; }) : null; })""",
 )
 
-private fun cacheRemove(url: String): Promise<JsAny?> = js(
+internal fun cacheRemove(url: String): Promise<JsAny?> = js(
     """caches.open('tayra-dictionaries').then(function (cache) { return cache.delete(url); }).then(function () { return null; })""",
 )
 
-private fun loadMessage(url: String): JsAny = js("({ action: 'load', url: url })")
+internal fun loadMessage(url: String): JsAny = js("({ action: 'load', url: url })")
 
 /**
  * Browsers have no file system, so packs live in the Cache API under their download URL and

@@ -166,6 +166,7 @@ fun CoursesScreen(onNavigate: (Route) -> Unit, viewModel: CoursesViewModel = koi
             onStatus = viewModel::setStatus,
             onOpen = { onNavigate(Route.Course(it)) },
             onNewCourse = { onNavigate(Route.NewCourse) },
+            onDownloadCourses = { onNavigate(Route.CoursePacks) },
             modifier = Modifier.padding(padding),
         )
     }
@@ -180,6 +181,7 @@ internal fun CoursesContent(
     onStatus: (LessonStatus?) -> Unit,
     onOpen: (courseId: String) -> Unit,
     onNewCourse: () -> Unit = {},
+    onDownloadCourses: () -> Unit = {},
     modifier: Modifier = Modifier,
 ) {
     val colors = MaterialTheme.colorScheme
@@ -210,9 +212,20 @@ internal fun CoursesContent(
         if (state.courses.isEmpty()) {
             Notice(
                 "No courses yet",
-                if (state.languageName.isEmpty()) "Choose a language to learn to see its courses."
-                else "There are no ${state.languageName} courses yet. Make one of your own with New course, from texts you choose.",
-            )
+                when {
+                    state.languageName.isEmpty() -> "Choose a language to learn to see its courses."
+                    state.packAvailable -> "Download the ready-made ${state.languageName} courses, or make one of your own with New course, from texts you choose."
+                    else -> "There are no ${state.languageName} courses yet. Make one of your own with New course, from texts you choose."
+                },
+            ) {
+                if (state.packAvailable) {
+                    Button(onClick = onDownloadCourses, shape = RoundedCornerShape(12.dp), modifier = Modifier.testTag("download-courses")) {
+                        Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(20.dp))
+                        Spacer(Modifier.width(8.dp))
+                        Text("Download courses")
+                    }
+                }
+            }
             return@Column
         }
         FlowRow(
@@ -310,7 +323,7 @@ private fun ProgressLine(progress: CourseProgress) {
 }
 
 @Composable
-private fun Notice(title: String, text: String) {
+private fun Notice(title: String, text: String, action: @Composable () -> Unit = {}) {
     val colors = MaterialTheme.colorScheme
     Column(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp)).padding(36.dp),
@@ -320,6 +333,7 @@ private fun Notice(title: String, text: String) {
         Icon(AppIcons.MenuBook, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(36.dp))
         Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
         Text(text, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        action()
     }
 }
 

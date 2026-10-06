@@ -147,6 +147,21 @@ Android, iOS and desktop unpack a downloaded pack into app storage and open it r
 second SQLDelight database; the web build keeps the compressed file in the browser Cache API and
 inflates it in its own sql.js worker, which needs the pack host to allow cross-origin requests.
 
+## Course packs
+
+The ready-made courses of a language are one download, offered in Settings > Courses: a
+gzip-compressed SQLite file (tables `meta`, `courses`, `lessons`) listed in `CoursePacks` and
+published as an asset of the `courses-v1` GitHub release. `tools/build_courses.py --language pt`
+checks each course in `tools/courses/<code>/` (written as its `BRIEF.md` says) and writes
+`course-packs/courses-<code>.sqlite.gzip` (ignored by git); upload that file to the release and
+update `downloadSize` in `CoursePacks`. If the layout changes, bump `FORMAT` in the script and in
+`CoursePack`.
+
+Installing a pack stores it like a dictionary pack and writes its courses into the database as
+samples for every language it teaches, also ones added later. Removing it deletes those courses,
+with their lessons and the texts read from them, and the file. A course reaches a database once,
+so a reworked course needs a new id.
+
 ## Word frequency lists
 
 The Word frequency screen (feature/frequency) shows the most common words of the language being

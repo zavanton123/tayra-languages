@@ -3,9 +3,11 @@ package com.tayra.languages.feature.courses
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.courses.CourseLevel
+import com.tayra.languages.core.domain.courses.CoursePacks
 import com.tayra.languages.core.domain.courses.CourseProgress
 import com.tayra.languages.core.domain.courses.CourseService
 import com.tayra.languages.core.domain.courses.LessonStatus
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.ui.state.UiEvents
@@ -25,6 +27,8 @@ import kotlinx.coroutines.launch
 data class CoursesUiState(
     val loading: Boolean = true,
     val languageName: String = "",
+    /** Whether ready-made courses for the language can be downloaded, offered while there are none. */
+    val packAvailable: Boolean = false,
     val courses: List<CourseProgress> = emptyList(),
     val search: String = "",
     /** Null shows every level. */
@@ -65,8 +69,9 @@ class CoursesViewModel(service: CourseService, languages: LanguageRepository, se
         .flatMapLatest { id -> service.observeCourses(id).map { list -> (languages.getById(id)?.name.orEmpty()) to list } }
 
     val state: StateFlow<CoursesUiState> = combine(courses, search, level, status) { (language, list), query, lvl, st ->
+        val packAvailable = LanguageCodes.codeFor(language)?.let { CoursePacks.forLanguage(it).isNotEmpty() } == true
         // A level chosen for another language's courses does not hide this one's.
-        CoursesUiState(loading = false, languageName = language, courses = list, search = query, level = lvl?.takeIf { l -> list.any { it.course.level == l } }, status = st)
+        CoursesUiState(loading = false, languageName = language, packAvailable = packAvailable, courses = list, search = query, level = lvl?.takeIf { l -> list.any { it.course.level == l } }, status = st)
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), CoursesUiState())
 
     fun setSearch(query: String) { search.value = query }

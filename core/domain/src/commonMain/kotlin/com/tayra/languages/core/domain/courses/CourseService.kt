@@ -12,9 +12,10 @@ import kotlin.random.Random
 
 /**
  * Courses and how far the reader has got in them. All courses are stored alike and can be
- * changed: the app's samples, written in once per language, and the ones the reader makes. A
- * lesson is read like any text: the first time it is opened a text is made from it, kept apart
- * from the reader's own books, and from then on the lesson's progress is that text's.
+ * changed: the samples from the installed course packs, written in once per language, and the
+ * ones the reader makes. A lesson is read like any text: the first time it is opened a text is
+ * made from it, kept apart from the reader's own books, and from then on the lesson's progress
+ * is that text's.
  */
 class CourseService(
     private val books: BookRepository,
@@ -39,9 +40,20 @@ class CourseService(
         for (language in languages.getAll()) {
             val code = LanguageCodes.codeFor(language.name) ?: continue
             val seeded = repository.seededSamples(language.id)
+            // The ids are read first, so the lessons are only read when there is something to write.
+            if (samples.courseIds(code).all { it in seeded }) continue
             val new = samples.courses(code).filter { it.id !in seeded }
             if (new.isNotEmpty()) repository.seedSamples(language.id, new)
         }
+    }
+
+    /**
+     * Deletes the sample courses with [courseIds] in every language, with the texts read from
+     * their lessons, and forgets they were written, so installing their pack again restores them.
+     */
+    suspend fun removeSamples(courseIds: Set<String>) {
+        for (id in courseIds) repository.course(id)?.let { deleteCourse(it.id) }
+        repository.forgetSeeded(courseIds)
     }
 
     private fun progress(course: Course, opened: Map<String, LessonBook>) =

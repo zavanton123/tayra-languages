@@ -57,7 +57,7 @@ class CoursesScreenTest {
     private val books = BookRepositoryImpl(provider)
     private val terms = TermRepositoryImpl(provider)
     private val settings = SettingsRepositoryImpl(MapSettings())
-    private val service = CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider), BundledSampleCourses())
+    private val service = CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider), SourceCourses)
     private val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages))
     private val languageId = runBlocking { languages.save(Language(name = "Portuguese")).also { id -> settings.update { it.copy(currentLanguageId = id) }; service.seedSamples() } }
 
@@ -158,5 +158,14 @@ class CoursesScreenTest {
         assertNotNull(onAllNodesWithText("Completed").fetchSemanticsNodes().singleOrNull())
         save("COURSE_SCREENSHOT")
         collecting.cancel()
+    }
+
+    @Test
+    fun withoutCoursesTheReadyMadeOnesAreOfferedForDownload() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        var asked = 0
+        host { CoursesContent(CoursesUiState(loading = false, languageName = "Portuguese", packAvailable = true), {}, {}, {}, onOpen = {}, onDownloadCourses = { asked++ }) }
+        onNodeWithText("No courses yet").assertExists()
+        onNodeWithTag("download-courses").performClick()
+        assertEquals(1, asked)
     }
 }

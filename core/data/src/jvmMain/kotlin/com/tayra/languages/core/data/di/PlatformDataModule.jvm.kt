@@ -10,6 +10,7 @@ import com.tayra.languages.core.data.speech.TtsWorker
 import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.data.settings.desktopSecureStore
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
+import com.tayra.languages.core.data.coursepack.CoursePackFiles
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.data.translation.ArgosSentenceTranslator
 import com.tayra.languages.core.domain.service.LocalTranslation
@@ -30,6 +31,7 @@ actual val platformDataModule: Module = module {
     single { BackupFiles() }
     single<SpeechAudioCache> { FileSpeechAudioCache(File(DatabaseDriverFactory.dataDirectory(), "speech-cache")) }
     single { DictionaryPackStorage(get()) }
+    single { CoursePackFiles(get()) }
     single<Settings> { PreferencesSettings(Preferences.userRoot().node("com/tayra/languages")) }
     single<SecureStore> { desktopSecureStore() }
 }

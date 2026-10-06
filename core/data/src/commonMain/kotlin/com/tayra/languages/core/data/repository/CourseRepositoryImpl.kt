@@ -131,6 +131,11 @@ class CourseRepositoryImpl(
         }
     }
 
+    override suspend fun forgetSeeded(courseIds: Collection<String>) = withContext(databaseDispatcher) {
+        if (courseIds.isNotEmpty()) db().coursesQueries.forgetSeeded(courseIds)
+        Unit
+    }
+
     override suspend fun moveLesson(lessonId: String, by: Int) = withContext(databaseDispatcher) {
         val database = db()
         database.transaction {

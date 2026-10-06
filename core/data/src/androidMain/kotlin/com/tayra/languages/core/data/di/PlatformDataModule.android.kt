@@ -11,6 +11,7 @@ import com.tayra.languages.core.data.translation.MlKitSentenceTranslator
 import com.tayra.languages.core.data.settings.SecureStore
 import com.russhwolf.settings.SharedPreferencesSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
+import com.tayra.languages.core.data.coursepack.CoursePackFiles
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.data.backup.BackupFiles
@@ -28,6 +29,7 @@ actual val platformDataModule: Module = module {
     single { BackupFiles(get<Context>()) }
     single<SpeechAudioCache> { FileSpeechAudioCache(File(get<Context>().cacheDir, "speech-cache")) }
     single { DictionaryPackStorage(get<Context>(), get()) }
+    single { CoursePackFiles(get<Context>(), get()) }
     single<Settings> { SharedPreferencesSettings(get<Context>().getSharedPreferences("tayra_settings", Context.MODE_PRIVATE)) }
     single<SecureStore> { AndroidSecureStore(get<Context>()) }
 }

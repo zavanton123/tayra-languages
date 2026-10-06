@@ -1,0 +1,38 @@
+-- A downloaded course pack, read only: the sample courses of one language, written by
+-- tools/build_courses.py. PRAGMA user_version equals the format, so drivers never create it.
+CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL);
+
+CREATE TABLE courses (
+    id TEXT NOT NULL PRIMARY KEY,
+    position INTEGER NOT NULL,
+    rank_up_to INTEGER,
+    level TEXT NOT NULL,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL,
+    topic TEXT NOT NULL
+);
+
+-- new_words: the words the lesson introduces, separated by spaces.
+CREATE TABLE lessons (
+    id TEXT NOT NULL PRIMARY KEY,
+    course_id TEXT NOT NULL,
+    position INTEGER NOT NULL,
+    title TEXT NOT NULL,
+    summary TEXT NOT NULL,
+    new_words TEXT NOT NULL,
+    text TEXT NOT NULL
+);
+
+CREATE INDEX lessons_course ON lessons(course_id, position);
+
+selectMeta:
+SELECT value FROM meta WHERE key = :key;
+
+selectCourseIds:
+SELECT id FROM courses;
+
+selectCourses:
+SELECT * FROM courses ORDER BY position;
+
+selectLessons:
+SELECT * FROM lessons ORDER BY course_id, position;

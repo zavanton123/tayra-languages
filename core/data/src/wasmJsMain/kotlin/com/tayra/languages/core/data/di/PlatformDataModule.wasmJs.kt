@@ -8,6 +8,7 @@ import com.tayra.languages.core.data.speech.WebPiperEngine
 import com.tayra.languages.core.data.speech.WebKokoroEngine
 import com.russhwolf.settings.StorageSettings
 import com.tayra.languages.core.data.db.DatabaseDriverFactory
+import com.tayra.languages.core.data.coursepack.CoursePackFiles
 import com.tayra.languages.core.data.dictionary.DictionaryPackStorage
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.data.backup.BackupFiles
@@ -22,6 +23,7 @@ actual val platformDataModule: Module = module {
     single { BackupFiles() }
     single<SpeechAudioCache> { MemorySpeechAudioCache() }
     single { DictionaryPackStorage() }
+    single { CoursePackFiles() }
     single<Settings> { StorageSettings() }
     single<SecureStore> { BrowserSecureStore() }
     single { LocalSpeech(listOf(WebPiperEngine(), WebKokoroEngine())) }

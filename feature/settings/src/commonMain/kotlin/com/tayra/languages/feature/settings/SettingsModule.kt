@@ -10,6 +10,7 @@ import org.koin.dsl.module
 val settingsModule = module {
     viewModel { SettingsViewModel(get()) }
     viewModel { DictionariesViewModel(get(), get(), get()) }
+    viewModel { CoursePacksViewModel(get()) }
     viewModel { SpeechViewModel(get(), get(), get()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
@@ -22,6 +23,7 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
     composable<Route.Speech> { SpeechScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.FlashcardSettings> { FlashcardSettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.OfflineDictionaries> { DictionariesScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
+    composable<Route.CoursePacks> { CoursePacksScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.OfflineTranslation> { OfflineTranslationScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.Backups> {
         BackupScreen(

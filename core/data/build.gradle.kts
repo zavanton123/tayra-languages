@@ -16,6 +16,12 @@ sqldelight {
             srcDirs.setFrom("src/commonMain/sqldelight-dictionary")
             generateAsync.set(true)
         }
+        // Read-only course packs downloaded from Settings > Courses (tools/build_courses.py).
+        create("CoursePackDatabase") {
+            packageName.set("com.tayra.languages.core.data.coursepack")
+            srcDirs.setFrom("src/commonMain/sqldelight-coursepack")
+            generateAsync.set(true)
+        }
     }
 }
 

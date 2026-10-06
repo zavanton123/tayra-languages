@@ -101,6 +101,10 @@ sealed interface Route {
     @Serializable
     data object OfflineDictionaries : Route
 
+    /** Downloadable course packs, the ready-made courses of a language as one file. */
+    @Serializable
+    data object CoursePacks : Route
+
     /** Speech engines and their voices. */
     @Serializable
     data object Speech : Route

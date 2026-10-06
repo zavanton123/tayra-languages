@@ -74,11 +74,16 @@ interface CourseRepository {
     suspend fun seededSamples(languageId: Long): Set<String>
     /** Writes [courses] with their lessons for the language as samples, and notes each one. */
     suspend fun seedSamples(languageId: Long, courses: List<Course>)
+    /** Forgets that the samples with [courseIds] were written, so they are written again when their pack is. */
+    suspend fun forgetSeeded(courseIds: Collection<String>)
 }
 
-/** The sample courses the app comes with, for a language by its ISO 639-1 code. */
+/** The sample courses on the device, for a language by its ISO 639-1 code. */
 fun interface SampleCourseSource {
     suspend fun courses(languageCode: String): List<Course>
+
+    /** The ids of [courses], which a source may read without the lessons. */
+    suspend fun courseIds(languageCode: String): Set<String> = courses(languageCode).map { it.id }.toSet()
 }
 
 /** A lesson that was opened: the text made from it, and how far its reading has got. */

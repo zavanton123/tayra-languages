@@ -47,7 +47,7 @@ class OwnCoursesScreenTest {
     private val languages = LanguageRepositoryImpl(provider)
     private val books = BookRepositoryImpl(provider)
     private val settings = SettingsRepositoryImpl(MapSettings())
-    private val service = CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider), BundledSampleCourses())
+    private val service = CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider), SourceCourses)
     private val portuguese = runBlocking { languages.save(Language(name = "Portuguese")).also { id -> settings.update { it.copy(currentLanguageId = id) }; service.seedSamples() } }
 
     private fun ComposeUiTest.host(content: @androidx.compose.runtime.Composable () -> Unit) = setContent {

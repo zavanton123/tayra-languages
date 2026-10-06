@@ -77,3 +77,6 @@ SELECT course_id FROM seeded_courses WHERE language_id = :languageId;
 
 markSeeded:
 INSERT OR IGNORE INTO seeded_courses(course_id, language_id) VALUES (:courseId, :languageId);
+
+forgetSeeded:
+DELETE FROM seeded_courses WHERE course_id IN :courseIds;
