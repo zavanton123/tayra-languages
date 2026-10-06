@@ -19,6 +19,9 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
+import com.tayra.languages.core.domain.frequency.VocabularyLevelService
+import com.tayra.languages.core.ui.state.UiEvents
 
 data class WordFrequencyUiState(
     val loading: Boolean = true,
@@ -30,7 +33,14 @@ data class WordFrequencyUiState(
     val search: String = "",
     /** The word open in the term panel. */
     val selected: String? = null,
+    /** The vocabulary level the reader set, 0 for none. */
+    val level: Int = 0,
+    /** True while a new level is being saved. */
+    val savingLevel: Boolean = false,
 ) {
+    /** The band the reader's level ends in, or, before one is set, the first band not yet mostly known. */
+    val levelBand: Int? get() = if (level > 0) (level - 1) / WordFrequencyOverview.BAND_SIZE else overview?.levelBand
+
     /** The bands with the words the filters and the search keep; bands left empty are dropped. */
     val visibleBands: List<FrequencyBand>
         get() {
@@ -52,26 +62,48 @@ class WordFrequencyViewModel(
     private val languages: LanguageRepository,
     settings: SettingsRepository,
     private val translations: WordTranslationService,
+    private val levels: VocabularyLevelService,
 ) : ViewModel() {
     private val shown = MutableStateFlow(WordKnowledge.entries.toSet())
     private val search = MutableStateFlow("")
     private val selected = MutableStateFlow<String?>(null)
+    private val saving = MutableStateFlow(false)
+    val events = UiEvents<String>()
 
     @OptIn(ExperimentalCoroutinesApi::class)
     private val overview = settings.settings.map { it.currentLanguageId }.distinctUntilChanged()
-        .flatMapLatest { id -> service.observe(id).map { id to it } }
+        .flatMapLatest { id -> combine(service.observe(id), levels.observeLevel(id)) { list, level -> Triple(id, list, level) } }
 
-    val state: StateFlow<WordFrequencyUiState> = combine(overview, shown, search, selected) { (id, list), kinds, query, word ->
+    private val filters = combine(shown, search, selected, saving) { kinds, query, word, busy -> Filters(kinds, query, word, busy) }
+
+    private data class Filters(val shown: Set<WordKnowledge>, val search: String, val selected: String?, val saving: Boolean)
+
+    val state: StateFlow<WordFrequencyUiState> = combine(overview, filters) { (id, list, level), filters ->
         WordFrequencyUiState(
             loading = false,
             languageId = id,
             languageName = list?.languageName ?: languages.getById(id)?.name.orEmpty(),
             overview = list,
-            shown = kinds,
-            search = query,
-            selected = word,
+            shown = filters.shown,
+            search = filters.search,
+            selected = filters.selected,
+            level = level,
+            savingLevel = filters.saving,
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), WordFrequencyUiState())
+
+    /** Makes the reader's level [level]: the words ranked up to it are saved as known. */
+    fun setLevel(level: Int) {
+        if (saving.value) return
+        saving.value = true
+        viewModelScope.launch {
+            try {
+                levels.setLevel(state.value.languageId, level)?.let { events.send(it.message()) }
+            } finally {
+                saving.value = false
+            }
+        }
+    }
 
     /** Shows or hides the words of [knowledge]; hiding the last one shown shows them all again. */
     fun toggle(knowledge: WordKnowledge) {

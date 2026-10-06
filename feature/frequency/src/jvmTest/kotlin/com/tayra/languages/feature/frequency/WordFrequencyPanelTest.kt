@@ -19,12 +19,14 @@ import com.tayra.languages.core.data.network.KtorRecordingFetcher
 import com.tayra.languages.core.data.network.createHttpClient
 import com.tayra.languages.core.data.repository.LanguageRepositoryImpl
 import com.tayra.languages.core.data.repository.TermRepositoryImpl
+import com.tayra.languages.core.data.repository.VocabularyLevelRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.domain.dictionary.DictionaryEntry
 import com.tayra.languages.core.domain.dictionary.DictionaryId
 import com.tayra.languages.core.domain.dictionary.DictionaryPack
 import com.tayra.languages.core.domain.dictionary.DictionaryPackStore
 import com.tayra.languages.core.domain.dictionary.OfflineDictionary
+import com.tayra.languages.core.domain.frequency.VocabularyLevelService
 import com.tayra.languages.core.domain.frequency.WordFrequencyService
 import com.tayra.languages.core.domain.frequency.WordKnowledge
 import com.tayra.languages.core.domain.model.Language
@@ -75,7 +77,10 @@ class WordFrequencyPanelTest {
         override suspend fun lookup(dictionary: DictionaryId, text: String) = error("not installed")
     }
     private val translations = WordTranslationService(terms, offline, engine, settings)
-    private val viewModel = WordFrequencyViewModel(WordFrequencyService(ResourceFrequencyLists(), terms, languages), languages, settings, translations)
+    private val viewModel = WordFrequencyViewModel(
+        WordFrequencyService(ResourceFrequencyLists(), terms, languages), languages, settings, translations,
+        VocabularyLevelService(ResourceFrequencyLists(), VocabularyLevelRepositoryImpl(provider), languages),
+    )
 
     private val testModule = module {
         single { LocalSpeech(emptyList()) }

@@ -1,6 +1,6 @@
 # source: wordfreq 3.1.1 (CC BY-SA 4.0)
 # words: 10000
-vara	är vara varit vore va vare vart varor varan varorna varade äro
+vara	är vara varit vore va vare vart varor varan varorna varade äro varar varande varat voro ären varu varas varans äst varaner varen varandes varats äm varornas varors vares varandets
 det	det re red dä dets detet rett redde rer
 att	att å ån åar åns åarna
 och	och å ån åar åns åarna
@@ -8,7 +8,7 @@ en	en ett enar förstas förstes enen etts
 i	i
 jag	jag mig jaget jags jagets jö
 på	på
-ha	har ha hade haft havet hav have has haven havs havets haver
+ha	har ha hade haft havet hav have has haven havs havets haver hava hades havande havens hasar hande haden hasorna hasen hasor
 inte	inte int nt
 som	som
 för	för förs förens fören förarna förar förarnas
@@ -16,7 +16,7 @@ med	med me meds medar meden medens medarna
 du	du dig re red rej rett redde rer
 av	av af afs
 om	om
-så	så sår sås såsen såret såren såser sådde sått sådd såserna sådden
+så	så sår sås såsen såret såren såser sådde sått sådd såserna sådden såddes såtts sådda
 till	till til
 den	den then dens dän
 de	de dem di dis dien diset dins
@@ -24,25 +24,25 @@ kunna	kan kunna kunde kunnat kunnande kunnandet kunne kunn
 vi	vi oss hvi
 ska	ska skulle skall skallen sku skolen skallens skole skolat skullen skallet
 men	men mens mensen menen
-få	får få fick fått minst färre fången fås fåren fån fåret fångna
-man	man män mannen männen mans mannens mäns männens manar mannar manen mannarna
+få	får få fick fått minst färre fången fås fåren fån fåret fångna finge fingo fårens fårets ficks fånget fåtts fånen
+man	man män mannen männen mans mannens mäns männens manar mannar manen mannarna manens
 var	var va vart vars varar hvar varen hvars hwar varet
-göra	gör göra gjort gjorde görs göras göran gjordes gjord gjorts gjorda görans
-komma	kommer kom komma kommit kommande kommen komme komer kommas kommo komman kommat
-bli	blir bli blev blivit vart blivande bliva blitt bliv bliver blivet bleve
+göra	gör göra gjort gjorde görs göras göran gjordes gjord gjorts gjorda görans gö göre görande göranden görandet gören gjöra göres
+komma	kommer kom komma kommit kommande kommen komme komer kommas kommo komman kommat koms
+bli	blir bli blev blivit vart blivande bliva blitt bliv bliver blivet bleve bliven blevo blive
 någon	någon något några nån nåt någons ngt ngn någots någras
 mycket	mycket mer mest mesta mkt
-min	min mitt mina mitten miner minor mins minas minen minan miners mittens
+min	min mitt mina mitten miner minor mins minas minen minan miners mittens minorna minerna minors
 han	han honom
 när	när
-se	se ser sett såg ses sågs setts sedd sågar sågen seende sågarna
+se	se ser sett såg ses sågs setts sedd sågar sågen seende sågarna seendet sågo
 vad	vad va vader vaden hvad vadet vaderna vadar vaders vads
 bra	bra bättre bästa bäst bäste bästas
 nu	nu nuet nus nuets
-gå	går gå gick gått gången gående gås gångna gäss gåsen gåendes gässen
+gå	går gå gick gått gången gående gås gångna gäss gåsen gåendes gässen gån gånget gånge gingo gack ginge gåtts
 från	från frå
 här	här hären härar härens härarna härs
-ta	ta tar tog tag tagit tas taget togs tagen tagits tagna tage
+ta	ta tar tog tag tagit tas taget togs tagen tagits tagna tage tan tager taga tags ta't togo tages tagande tatt tagas toge tagandet
 vilja	vill ville vilja velat viljan viljor vilje viljans viljen
 bara	bara ba
 eller	eller lr elr
@@ -53,7 +53,7 @@ alla	alla
 finnas	finns fanns finnas funnits finnes funnes
 sig	sig
 där	där der
-säga	säger säga sa sagt säg sägs sade sägas sas sagts sades sagda
+säga	säger säga sa sagt säg sägs sade sägas sas sagts sades sagda säjer sägen säja sägner sägnen sagd säges sägnerna säj sägande sagde sägandes
 lite	lite mindre minst litet
 annan	andra annat annan andras annans andre annats andrar
 ingen	ingen inget inga inge inger ingens ingav inges ingas ingivit ingett ingavs
@@ -65,16 +65,16 @@ upp	upp opp oppen
 ju	ju
 din	din ditt dina ditten
 in	in
-tro	tror tro trodde trott tron troende tronen tros trotts trons trodd troddes
+tro	tror tro trodde trott tron troende tronen tros trotts trons trodd troddes troendes troner trodda tro't tronens tronerna
 stor	stor stora större stort största störst store störste stors storas
 sen	sen senare senaste sent senast sena senor senares senan senorna sene senas
 hon	hon henne ho hana hoar hons
 veta	vet veta visste vetat vete vetande vetet veten vetandets vetandes vetandet
 än	än
-dag	dag dagen dagar dags dagens dagarna dan dans dar dagars dax dansen
+dag	dag dagen dagar dags dagens dagarna dan dans dar dagars dax dansen dana danser dagarnas dant dane dansens danserna danes danas da'n danerna danernas dars danade daner danar danande
 efter	efter
 över	över öfver öfwer
-känna	känner känns känna kände känt kändes känd kända kännas känn känts kändaste
+känna	känner känns känna kände känt kändes känd kända kännas känn känts kändaste kännande kändare känne
 också	också oxå
 måste	måste måsta måsten måst moste måstena
 allt	allt allts alltet alltets
@@ -82,37 +82,37 @@ allt	allt allts alltet alltets
 under	under undret undrens unders
 vår	vår våra vårt våren våras vårens vårar vårarna
 väl	väl bättre bäst väll bästas
-ge	ge ger gav gett ges givet givit givande given gavs gif gener
+ge	ge ger gav gett ges givet givit givande given gavs gif gener gen give givna givits getts generna gent giv genen gifs gives giva giver gaf gens givens geddes givas givarna gåvo givar genernas gifva givandet geners genare
 många	många mest mesta
-behöva	behöver behöva behövs behövde behövt behövas behövdes behövande behövts behövd behöv behövda
+behöva	behöver behöva behövs behövde behövt behövas behövdes behövande behövts behövd behöv behövda behöves behöve
 vid	vid vitt vida vide vidas vidaste viden vidt hvitt
 vilken	vilket vilken vilka vilkas vilkens hvilken hvilka hvilket
-tänka	tänker tänka tänkte tänk tänkt tänkande tänkas tänkta tänkandet tänket tänke tänktes
+tänka	tänker tänka tänkte tänk tänkt tänkande tänkas tänkta tänkandet tänket tänke tänktes tänks tänkandets tänkts tänkandes
 ja	ja jas
 mot	mot mots motet moten
 ny	nya ny nytt nyare nye nyaste nyast nynas
 kanske	kanske
-hålla	håller hålla håll höll hållet hållit hålls hållas hölls hållt hållen hållits
+hålla	håller hålla håll höll hållet hållit hålls hållas hölls hållt hållen hållits hållande hålles hållandes hålle hållts höllo
 tid	tid tiden tider tiderna tids tidens tiders tidernas
 två	två andres tvår tvås
 varför	varför vf vrf hvarför
 själv	själv själva sj självt självet sjelf själf
-tycka	tycker tyckte tycka tycks tyckt tycke tyckas tyck tycktes tyckande tycket tyckanden
+tycka	tycker tyckte tycka tycks tyckt tycke tyckas tyck tycktes tyckande tycket tyckanden tycken tyckes tyckandet
 hela	hela helen helande helan helade hele helad helar hels helas helat helandet
 helt	helt
 utan	utan
 fler	flera fler flesta flest fleras
 börja	börjar börja började börjat börje börjas börjades börjes börjande börjats börj börjad
 del	del delar delen dels delarna delens delarnas delars
-rätt	rätt rätta rätten rättare rättar rätter rättade rätte rättas rättat rättens rättad
+rätt	rätt rätta rätten rättare rättar rätter rättade rätte rättas rättat rättens rättad rätterna rätts rättades rätters rättats
 aldrig	aldrig alldrig
 gång	gång gånger gången gångs gångerna gångar gångna gångarna gångers gånget gångens
-fråga	fråga frågan frågor frågar frågade frågorna frågat frågande frågad frågas frågades frågans
-sluta	sluta slut slutet slutar slutade slutat sluten sluter slutna slöt sluts slutit
+fråga	fråga frågan frågor frågar frågade frågorna frågat frågande frågad frågas frågades frågans fråge frågats frågors frågornas
+sluta	sluta slut slutet slutar slutade slutat sluten sluter slutna slöt sluts slutit slöts slutits slutas slutande slutades
 böra	borde bör böra
 dom	dom domen domar domarna domarnas domens doms
 barn	barn barnen barnet barns barnens barnets barnes barna barne barnas
-skriva	skriva skriver skrev skrivit skriv skriven skrivet skrivs skrevs skrivna skrivas skrivits
+skriva	skriva skriver skrev skrivit skriv skriven skrivet skrivs skrevs skrivna skrivas skrivits skrivande skrevet skrivandet skrive skrivandets skrifva skrives
 sedan	sedan sedanen sedans sedaner
 svenska	svenska svenskan svenskans svenskor svenskorna
 åt	åt
@@ -124,12 +124,12 @@ stå	står stå stod stått stående stog ståendes statt stånden stode
 använda	använda använder används användas använde använd använt användes använts användande
 hitta	hitta hittar hittade hittat hittades hittas hittats hittad hitte hitten
 alltid	alltid altid
-lägga	lägga lägger la lägg lagt lade läggs läggas lades las lagts lagd
+lägga	lägga lägger la lägg lagt lade läggs läggas lades las lagts lagd lagda lägges läggen lägget lagde läggande
 försöka	försöker försöka försök försökte försökt försöket försöken försöks försökts försökta
 förstå	förstår förstå förstås förstått förstod förstående förstådd
 liten	liten lilla små mindre minsta lille minst litet lilles minste
 människa	människor människa människan människorna människors människans människas människornas människo mänska
-läsa	läsa läs läser läst läste las läsas lass läses lästa låses läsande
+läsa	läsa läs läser läst läste las läsas lass läses lästa låses läsande lästes lassen lasset lästs läsandet läster läsandes läse
 tack	tack tacken tacket
 igen	igen
 just	just justa
@@ -148,14 +148,14 @@ ner	ner
 spela	spelar spela spelade spelat spelas spelades spelen spelande spelad spelats
 samma	samma samme
 vem	vem vilka vems vilkas hvem hvilka
-höra	hör höra hört hörde hörs höras hörd hördes hörda hörts hörande hören
+höra	hör höra hört hörde hörs höras hörd hördes hörda hörts hörande hören höres höre
 land	landet land länder landets länderna lands länders ländernas landen
-köpa	köpa köper köpte köp köpt köpet köptes köps köpas köpts köpen köpes
+köpa	köpa köper köpte köp köpt köpet köptes köps köpas köpts köpen köpes köpande köpe köpandet
 verkligen	verkligen
-visa	visar visa visade visat visas visades visats visor vise visad visan vises
-svensk	svensk svenskt svenskar svenskarna svensken svenskarnas svenske svenskars svenskens svenskaste swensk svenskare
-hög	högre hög högt högsta höga högst högen högste högar höge högarna högs
-åka	åka åker åkte åkt åk åke åkrar åkern åket åkande åkrarna åkers
+visa	visar visa visade visat visas visades visats visor vise visad visan vises visande visorna visans visarna
+svensk	svensk svenskt svenskar svenskarna svensken svenskarnas svenske svenskars svenskens svenskaste swensk svenskare svensks
+hög	högre hög högt högsta höga högst högen högste högar höge högarna högs högan högstes
+åka	åka åker åkte åkt åk åke åkrar åkern åket åkande åkrarna åkers åkandes åkas åkta åks åktes åkandet
 jobb	jobb jobbet jobben jobbets jobbs
 gammal	gamla gammal äldre gammalt äldsta gamle äldste äldst äldres gamlas gamles äldstes
 fel	fel felet felen
@@ -163,43 +163,43 @@ egen	egen egna eget egne egens
 genom	genom genomet
 hans	hans
 ligga	ligger ligga legat ligg liggande liggandes liggare ligget legaten liggaren liggen legatet
-låta	låter låta lät låtit läten läte låtom lätet låte låtas läto låtits
-följa	följa följer följande följ följde följd följt följs följas följder följdes följden
-köra	kör köra körde kört körs körd kören körda köras kördes körts körer
+låta	låter låta lät låtit läten läte låtom lätet låte låtas läto låtits låtanden lätena låtande låts
+följa	följa följer följande följ följde följd följt följs följas följder följdes följden följe följderna följts följda följet följen
+köra	kör köra körde kört körs körd kören körda köras kördes körts körer körande körens körerna körar körade körandet
 jobba	jobbar jobba jobbat jobbade jobben jobbas jobbande
 hem	hem hemmet hemmen hemmets hems hemmens
 varje	varje hvarje
 riktigt	riktigt riktigare
 bort	bort
 mellan	mellan
-sitta	sitter sitta satt suttit sittande sittandes säten satts satta setat sitte sitts
+sitta	sitter sitta satt suttit sittande sittandes säten satts satta setat sitte sitts sitten sutto
 precis	precis precist precisa
 ens	ens änns
-dra	dra drar drog drag droger dragit dras drogs drogerna dragen drogen dragits
+dra	dra drar drog drag droger dragit dras drogs drogerna dragen drogen dragits draget dragna dragandes dragande draga drogo drogernas drager drogens drogers drags drage dragas dratt drages
 prata	pratar prata pratade pratat pratas pratades pratats pratande pratandes
 ändå	ändå endå änna
-kalla	kallar kalla kallas kallade kallad kallat kalle kallades kallats kalles kallen kallande
-god	god goda bättre bästa go bäst gode goa godaste godare goes godo
+kalla	kallar kalla kallas kallade kallad kallat kalle kallades kallats kalles kallen kallande kallan kallor
+god	god goda bättre bästa go bäst gode goa godaste godare goes godo godast goat bäste goaste godas goe goats goare goas bästas
 väldigt	väldigt
-vecka	vecka veckan veckor veckans veckorna veckors veckas vecko veckade veckad veckornas vecken
+vecka	vecka veckan veckor veckans veckorna veckors veckas vecko veckade veckad veckornas vecken veckar veckat
 värld	världen världens värld världar världs världarna världarnas världars
 problem	problem problemet problemen problems problemets
 fram	fram
 redan	redan
 hand	hand händer handen händerna hands handens händernas händers
-gilla	gillar gillade gilla gillat gillas gills gillande gille gillet gilles gillades gillen
+gilla	gillar gillade gilla gillat gillas gills gillande gille gillet gilles gillades gillen gillad gillets
 dock	dock
 inom	inom
 bild	bild bilder bilden bilderna bildens bildernas bilds
-död	död döda döden dött dödar dödade döds dödas dödades dödat dödad dödens
-lära	lär lära lärt lärde lärande läran lärda lärandet läror lärd läras lärs
+död	död döda döden dött dödar dödade döds dödas dödades dödat dödad dödens dödats dödande döde dödes dödare dödaren
+lära	lär lära lärt lärde lärande läran lärda lärandet läror lärd läras lärs lärdes lärorna läro lärts läre lärans
 tillbaka	tillbaka tillbaks
 all	all alls alle
 mena	menar menade mena menas menat menad menades menande mene menen
 sätta	sätta sätter satt satte sättas sattes sätts satts satta sätten sätte sättande
 olika	olika
-välja	välja väljer valde valt väljare välj väljarna valda vald valdes väljs väljas
-bo	bor bo bodde boende bott bot boenden bon boendet boet botar bone
+välja	välja väljer valde valt väljare välj väljarna valda vald valdes väljs väljas valts väljarnas väljaren väljar väljares väljarens
+bo	bor bo bodde boende bott bot boenden bon boendet boet botar bone bones bos böterna boendes bona boten borna bottar boendena bots bors bonad boets bonader bons bonaden bonar botarna bonat boen boendets bonas bottens
 väg	väg vägen vägar vägarna vägs vägens vägarnas vägars
 jävla	jävla jäkla djävla jädra
 ganska	ganska
@@ -214,41 +214,41 @@ tre	tre
 fall	fall fallet fallen falls fallna fallens fallets fallne
 alltså	alltså asså allså
 kolla	kolla kollar kollade kollat kollas kollad kollen kollades kollande kolle kollats
-leva	lever leva levande levde levt lev leve levern leverne levat levas levandes
+leva	lever leva levande levde levt lev leve levern leverne levat levas levandes leven levar levana levs leverns levrar levernet
 enligt	enligt
 polis	polisen polis poliser polisens poliserna polisers polisernas
 ofta	ofta oftast oftare
 verka	verkar verkade verka verkat verken verkande verkas
 sida	sidan sida sidor sidorna side siden sidans sido sidors sidas sides sidornas
-skola	skolan skola skolor skolans skolorna skol skolas skolade skolad skolornas skolar skolors
-hjälpa	hjälpa hjälper hjälpte hjälpt hjälpen hjälpas hjälpande hjälps hjälpta hjälpare hjälpe hjälptes
+skola	skolan skola skolor skolans skolorna skol skolas skolade skolad skolornas skolar skolors skolades skolats skolen skole skullen skolat
+hjälpa	hjälpa hjälper hjälpte hjälpt hjälpen hjälpas hjälpande hjälps hjälpta hjälpare hjälpe hjälptes hjälpts
 pengar	pengar penga
 ur	ur yr yrar yra uret urs yran yrade yrande uren yrde yrat
 hända	hänt hände hända händer händ
-vän	vänner vän vännen vänt vännerna väninna vänners väns väninnor väninnan vännernas vännens
+vän	vänner vän vännen vänt vännerna väninna vänners väns väninnor väninnan vännernas vännens väna väninnorna vänaste väninnas väne
 stad	stan stad staden städer stadens städerna stans stads städernas städers stansen stedt
 faktiskt	faktiskt
 tidigt	tidigare tidigt tidigast
-nära	nära närmare närmaste närmast närmsta närmre närmst närt närande närde närs närmste
-äta	äta äter ätit ät äts ätas eda ätande åts ätits ede ätare
+nära	nära närmare närmaste närmast närmsta närmre närmst närt närande närde närs närmste näras
+äta	äta äter ätit ät äts ätas eda ätande åts ätits ede ätare äten äte ätes åte
 enda	enda endas endes
 bland	bland
 samt	samt
 bil	bil bilen bilar bilarna bilens bils bilarnas bilars
 långt	långt längre längst
 namn	namn namnet namnen namns namnets
-månad	månader månad månaden mån månaders månaderna månen månads månadens måns måna månens
+månad	månader månad månaden mån månaders månaderna månen månads månadens måns måna månens månar månadernas månade månanden
 svårt	svårt svårare svårast
 hoppas	hoppas hoppades hoppats hoppandes
 därför	därför
 hos	hos
 kvar	kvar
 dålig	dålig värsta dåliga värre sämsta sämre värst sämst värste dåligare sämste dåligaste
-betala	betala betalar betalt betalat betalade betalas betald betalda betalande betalades betalats betal
+betala	betala betalar betalt betalat betalade betalas betald betalda betalande betalades betalats betal betalde betalad betalts
 fast	fast fasta fastan fastande fastar fastare faste fastat fastade fasten
 eftersom	eftersom
 viss	vissa viss vissas visse
-lätt	lätt lättare lätta lättaste lättast lättad lättar lättade lättat lättas lättats lättande
+lätt	lätt lättare lätta lättaste lättast lättad lättar lättade lättat lättas lättats lättande lättades
 ord	ord ordet orden ordnar ordets ordens ords ordnarna ordnarnas
 lämna	lämna lämnar lämnade lämnat lämnas lämnades lämnad lämnats lämnande lemna
 gälla	gäller gälla gällde gällt gäll
@@ -263,13 +263,13 @@ låt	låt låtar låten låtarna låtens låtarnas låts
 tjej	tjejer tjej tjejen tjejerna tjejers tjejernas tjejs tjejens
 vanlig	vanligt vanliga vanlig vanligaste vanligare vanligast vanlige
 vänta	vänta väntar väntat väntade väntas väntande väntad väntades väntandes väntandet vänte
-ung	unga ung yngre unge ungar ungarna ungen yngsta ungt ungas yngste yngst
+ung	unga ung yngre unge ungar ungarna ungen yngsta ungt ungas yngste yngst ungarnas ungens unges ungars yngres
 istället	istället
 lång	lång längre långa längsta längst långe långan längste långs
 kille	kille killar killen killarna killens killarnas killes killars
 kommun	kommun kommunen kommuner kommunerna kommunens kommuns kommunernas kommuners
 rolig	roligt rolig roliga roligare roligaste roligast rolige
-tala	talar tala talat talas talade talande talen talades talats tales tale talad
+tala	talar tala talat talas talade talande talen talades talats tales tale talad talandes
 nästan	nästan
 skicka	skicka skickar skickade skickat skickas skickades skickats skickad
 träffa	träffa träffar träffade träffat träffas träffades träffats träffad träffen träffande
@@ -277,30 +277,30 @@ slå	slå slår slog slagit slogs slås slagen slående slagits slått slån
 både	både
 klart	klart
 per	per pers
-ställa	ställa ställer ställde ställt ställ ställs ställas ställdes ställd ställda ställts ställande
-bygga	bygga bygger byggt byggde bygg byggas byggdes byggs byggd bygget byggda byggts
+ställa	ställa ställer ställde ställt ställ ställs ställas ställdes ställd ställda ställts ställande ställets
+bygga	bygga bygger byggt byggde bygg byggas byggdes byggs byggd bygget byggda byggts byggandet byggande bygge byggen byggena byggets bygges
 fin	fin fina finaste finare fine finast finas
 hjälp	hjälp hjälpen hjälps hjelp
 hemma	hemma
-söka	söker söka sök sökte sökt sökande sökandet sökes sökanden söks sökta sökandes
+söka	söker söka sök sökte sökt sökande sökandet sökes sökanden söks sökta sökandes sökas söktes sökts sökandens
 titta	titta tittar tittade tittat tittande tittandes tittas titten tittandet
 låg	låg lägre lågt låga lägsta lägst lågor lågorna lågan lågornas
 kul	kul
 ute	ute
 dö	dör dö dog dött döende doge dogo döendet
 klara	klara klarar klarade klarat klaras klarades klarats klare
-skapa	skapa skapar skapat skapade skapas skapades skapad skapats skapandet skapande skapt skapta
+skapa	skapa skapar skapat skapade skapas skapades skapad skapats skapandet skapande skapt skapta skap skop skapet skapandets
 snart	snart
 ännu	ännu
-må	mår må mått mån mådde månen måttet måtte måns mås måtten mående
+må	mår må mått mån mådde månen måttet måtte måns mås måtten mående måna måsar måsen månens månar måsarna måendet månade månanden
 ibland	ibland
 kväll	kväll kvällen kvällens kvällar kvällarna kvälls
 sista	sista siste
 tal	talet tal talets tals talen talens
-grund	grund grunden grundades grunder grundare grundade grundar grundat grunda grundad grunderna grundas
+grund	grund grunden grundades grunder grundare grundade grundar grundat grunda grundad grunderna grundas grundaren grundarna grunt grundande grundats grundet grundarnas grundarens grundares grundens
 mamma	mamma mammas mamman mammor mammorna mammans mammors mammornas
 familj	familj familjen familjer familjens familjerna familjs familje familjers familjernas
-öka	ökar öka ökat ökad ökade ökande öknen öken ökas öknar ökades ökats
+öka	ökar öka ökat ökad ökade ökande öknen öken ökas öknar ökades ökats öknens öknarna
 mat	mat maten mats matens
 skit	skit skiten skitet skitar skitarna
 stark	stark starkt starka starkare starkaste starkast starke starkes starkas
@@ -316,23 +316,23 @@ område	området områden område områdena områdets områdes områdenas områd
 tillsammans	tillsammans tsm
 berätta	berätta berättar berättade berättat berättas berättande berättad berättades berättats berättandet
 lyssna	lyssna lyssnar lyssnade lyssnat lyssnande lyssnas lyssnandes
-leda	leder leda ledde led ledande lett leds leden ledet ledd ledda leddes
-kort	kort korta kortare kortet korten kortaste kortast kortas kortade kortat kortar korte
+leda	leder leda ledde led ledande lett leds leden ledet ledd ledda leddes ledas lederna lede ledar letter letters letts ledade ledad ledens ledat ledan ledes letterna
+kort	kort korta kortare kortet korten kortaste kortast kortas kortade kortat kortar korte kortets kortades korts kortad kortats
 betyda	betyder betyda betydande betydde betytt betyde
 samhälle	samhälle samhället samhällen samhällets samhälls samhällena samhälles samhällens samhällenas
-heta	heter hette heta het hets hett hetaste hetare hetat hetsen hetast hete
+heta	heter hette heta het hets hett hetaste hetare hetat hetsen hetast hete heten
 massa	massa massor massan massorna massans massornas massas
-ringa	ringa ringer ring ringde ringt ringen ringar rang ringarna rings ringens rangen
+ringa	ringa ringer ring ringde ringt ringen ringar rang ringarna rings ringens rangen ringande ringat ringaren ringdes ringade ringarnas ringaste ringas ringe ringare ringts rangens ringda ringad ringandet runge
 viktig	viktig viktiga viktigaste viktigare viktigast viktige
 flytta	flytta flyttade flyttar flyttat flyttas flytten flyttades flyttats flyttad flyttande
 samtidigt	samtidigt
-sälja	sälja säljer sålde sålt säljs sälj säljas såldes sålda såld sålts säljes
+sälja	sälja säljer sålde sålt säljs sälj säljas såldes sålda såld sålts säljes säljande säljandet selja
 öppna	öppna öppnar öppnade öppnat öppnas öppnades öppnande öppnats öppnad öppnandet
 dåligt	dåligt värre sämre värst sämst
 minut	minuter minut minuten minuters minuterna minuts minutrarna
 tanke	tanke tanken tankar tankarna tankens tankars tankarnas
 tills	tills tess
-be	be ber bad bett badet bed bettet baden bes bedja bedjande beda
+be	be ber bad bett badet bed bettet baden bes bedja bedjande beda betts betten beder bads beds badets bedd bede badens
 bok	bok boken böcker böckerna bokar bokens boks böckernas böckers
 krona	kr kronor krona kronan kronans kronorna kronors kron
 hennes	hennes
@@ -340,9 +340,9 @@ okej	okej
 säkert	säkert
 tv	tv tvn
 svar	svar svaret svaren svars
-klocka	klockan kl klocka klockor klockorna klockans klock klockar klockat klockade klockas klockad
+klocka	klockan kl klocka klockor klockorna klockans klock klockar klockat klockade klockas klockad klockornas
 kräva	kräver krävs kräva krävde krävdes krävande krävas krävt kräv krävts krävd kräves
-val	val valet valen vals valar valets valsar valsen valens valarna valser valsarna
+val	val valet valen vals valar valets valsar valsen valens valarna valser valsarna valars valarnas valne
 heller	heller hlr
 hus	hus huset husen husets husens husarer husar husaren husarerna
 annars	annars
@@ -356,7 +356,7 @@ grupp	grupp gruppen grupper grupperna gruppens gruppers grupps gruppernas
 dessutom	dessutom
 glad	glad glada glatt gladare glatta gladaste gladast glade gladan glador
 svara	svara svarar svarade svarat svaren svarande svaranden svaras svarandens svarandes
-rädd	rädd rädda räddar räddade räddat räddas räddad räddades räddare räddaren räddats räddande
+rädd	rädd rädda räddar räddade räddat räddas räddad räddades räddare räddaren räddats räddande räddast
 båda	båda bådar bådas båd bådade
 antal	antal antalet antalen
 lyckas	lyckas lyckades lyckats lyckad lyckat lyckade
@@ -364,16 +364,16 @@ intressant	intressant intressanta intressantare intressantaste intressantast
 fyra	fyra fyran fyren fyrar fyror fyras fyrans fyrorna fyrade
 jo	jo
 trots	trots
-byta	byta byter bytte bytt byte byt bytas bytet byts byten byttes bytts
+byta	byta byter bytte bytt byte byt bytas bytet byts byten byttes bytts bytes bytta böt bytena bytar bytade byttan bytat bytets
 sakna	saknar saknas sakna saknade saknat saknad saknades saknaden saknats saknande
 tyvärr	tyvärr tyvär
-plan	plan planen planer planet planeten planerna planeter plant planeterna planetens plana planets
+plan	plan planen planer planet planeten planerna planeter plant planeterna planetens plana planets plane plans planar planens planeternas planat planeters planade
 spel	spel spelet spelen spelets spels spelens
-resa	resa resan reser resor reste rest res resande resorna resans resandet restes
+resa	resa resan reser resor reste rest res resande resorna resans resandet restes rese resas resta rests reses resandes resen resanden
 sova	sova sover sov sovit sovande sovandes sovas sovandet
 enkelt	enkelt
 tur	tur turen turer turerna turens
-fri	fri fria fritt friare frias friade friar friades friad fries friande friat
+fri	fri fria fritt friare frias friade friar friades friad fries friande friat friats friarna friaste friaren frie
 sex	sex sexet
 släppa	släppa släpper släppte släppt släpptes släpp släpps släppas släppts släppet släppen
 morgon	morgon morgonen morse morgonens morgnarna morgnar mornarna mornar morgons
@@ -395,7 +395,7 @@ fantastisk	fantastiskt fantastisk fantastiska fantastiske
 natt	natt natten nätter nätterna nattens natts nätters nätternas
 via	via
 förälder	föräldrar föräldrarna förälder föräldrars föräldrarnas föräldern förälders förälderns
-växa	växer växa växte växter växt växande vuxit väx växten växterna vuxnas vox
+växa	växer växa växte växter växt växande vuxit väx växten växterna vuxnas vox växternas växtens växters
 helvete	helvete helvetet helvetes pipan helsike fanders helskotta helvetets helveten pipsvängen helsikes
 undra	undrar undra undrade undrat undre undrande undrandes
 ske	sker ske skett skedde sken skedd skenet skeenden skeende skeendet skedda skeendena
@@ -403,7 +403,7 @@ säker	säker säkra säkrare säkrat säkrade säkraste säkrar säkrast säkra
 miljon	miljoner miljon mille milj million miljonen miljonerna millar miljoners milles millen
 arbete	arbete arbetet arbeten arbets arbetets arbetena arbetes
 arbeta	arbetar arbeta arbetade arbetat arbetande arbetad arbetas arbetandes arbetades arbetats arbetes
-dela	dela delas delade delar delen delat delad delades delats dele delande delare
+dela	dela delas delade delar delen delat delad delades delats dele delande delare delandet delarna delarnas
 sann	sant sanna sann sanne sannare sannes sannaste
 dess	dess dessen
 igenom	igenom
@@ -411,25 +411,25 @@ utanför	utanför
 viktigt	viktigt
 parti	parti partiet partier partierna partiets partiers partis partiernas
 historia	historia historien historier historiens historian historierna historias historians
-bestämma	bestämmer bestämma bestämt bestämde bestämd bestäms bestämda bestäm bestämdes bestämmas bestämmande bestämts
+bestämma	bestämmer bestämma bestämt bestämde bestämd bestäms bestämda bestäm bestämdes bestämmas bestämmande bestämts bestämmandet bestämdaste bestämmes
 politiker	politiker politikerna politikern politikernas politikers politikerns
 snabbt	snabbt snabbare snabbast
 dit	dit
 match	match matcher matchen matcherna matchens matchers matchs
 artikel	artikel artiklar artikeln artiklarna artikelns artiklarnas artikels
 ställe	stället ställe ställen ställena ställets
-dricka	dricka dricker drack druckit drick dricks drickande drickas drickan drickandet dricksen dracks
+dricka	dricka dricker drack druckit drick dricks drickande drickas drickan drickandet dricksen dracks drickor drickat drucken druckna drickandes drucket druckits
 huvud	huvudet huvud huvet huvuden huvudena huvudets huve hufvud hövve
-lugn	lugnt lugn lugna lugnare lugnande lugnet lugnar lugnat lugnade lugnaste lugnets lugnas
+lugn	lugnt lugn lugna lugnare lugnande lugnet lugnar lugnat lugnade lugnaste lugnets lugnas lugnad lugnast
 skön	skönt skön sköna skönare skönaste skönast sköns sköne
-skada	skada skador skadad skadade skadar skadat skadan skadas skadades skadorna skadats skade
+skada	skada skador skadad skadade skadar skadat skadan skadas skadades skadorna skadats skade skadans skadande skadornas
 innebära	innebär innebära innebar inneburit innebärande
 rösta	rösta röstar röstade röstat rösten röstades röstas röstande röstats röstandet röste röstad
 välkommen	välkommen välkomna välkomnar välkomnande välkommet välkomnas välkomnade välkomnat välkomnades välkomnad välkomnandet välkomnats
-gud	gud guds gudar gudarna guden gudinna gudinnan gudarnas gudars gudinnor gudens gudi
+gud	gud guds gudar gudarna guden gudinna gudinnan gudarnas gudars gudinnor gudens gudi gudinnans gudinnorna
 pappa	pappa pappan pappas pappor pappans papporna pappors
 snälla	snälla
-lösa	lösa löser löst lös löste lösas löses lösen lösta löstes lösare lösts
+lösa	lösa löser löst lös löste lösas löses lösen lösta löstes lösare lösts lösandet lösande
 bry	bryr bry brydde brytt bryn brydd bryns brydda brynen
 minnas	minns minnas mindes minnes mints
 känsla	känsla känslor känslan känslorna känslo känslans känslornas känslors
@@ -461,9 +461,9 @@ funka	funkar funka funkade funkat funke funken
 början	början
 medan	medan
 starta	starta startade startar startat startades starten startas startats startad startande startandet
-hänga	hänger hänga hängde häng hängt hängas hängande hängs hängdes hang hängandes hänge
+hänga	hänger hänga hängde häng hängt hängas hängande hängs hängdes hang hängandes hänge hängd hängts hänget hängav hängda hängen hängivit hängena
 öga	ögon ögonen ögat öga ögats ögonens ögons
-möta	möter möta mötte möts mött möttes möten mötas möt mötes mötande mötts
+möta	möter möta mötte möts mött möttes möten mötas möt mötes mötande mötts mötta
 kropp	kropp kroppen kroppar kroppens kropparna kropps kroppars kropparnas
 skillnad	skillnad skillnaden skillnader skillnaderna
 säsong	säsongen säsong säsonger säsongens säsongerna säsongs säsongernas säsongers
@@ -471,7 +471,7 @@ roll	roll rollen roller rollerna rolls rollers rollens
 text	text texten texter texterna textens texts texternas
 fem	fem
 politisk	politiska politisk politiskt politiske
-fylla	fyller fylla fyllt fyllde fylld fyll fyllda fylls fyllan fyllas fylldes fyllts
+fylla	fyller fylla fyllt fyllde fylld fyll fyllda fylls fyllan fyllas fylldes fyllts fylle fyllor
 önska	önskar önska önskade önskat önskas önskad önskades
 hit	hit hits hiten hitsen hitten
 stanna	stanna stannar stannade stannat stannad stannas
@@ -481,7 +481,7 @@ fort	fort fortare fortet forts fortast forten fortets
 ca	ca
 anledning	anledning anledningen anledningar anledningarna
 inse	inser insåg inse insett inses inseende
-anta	antar anta antog antas antagen antaganden antogs antagande antagit antagandet antagna antagits
+anta	antar anta antog antas antagen antaganden antogs antagande antagit antagandet antagna antagits antaget antaga antagandena
 kompis	kompis kompisar kompisen kompisarna kompisars kompisens kompisarnas
 son	son sonen söner sons sonens sönerna söners sönernas
 krig	krig kriget krigets krigen krigs krigens
@@ -497,7 +497,7 @@ kring	kring
 självklart	självklart
 fixa	fixa fixar fixat fixade fixas fixad fixare fixades fixats fixen fixes
 höger	höger högre högern högra högerns
-springa	springa springer sprang spring sprungit springs springande springandes sprungen springan springor springorna
+springa	springa springer sprang spring sprungit springs springande springandes sprungen springan springor springorna springandet
 exakt	exakt exakta exaktare
 dator	dator data datorn datorer datan datorerna datorns datat dators datorernas datas datorers
 vänster	vänster vänstern vänstra vänsterns vänsters
@@ -505,9 +505,9 @@ resultat	resultat resultatet resultaten
 medlem	medlemmar medlem medlemmarna medlemmen medlemmarnas medlemmars medlems
 hjärta	hjärta hjärtat hjärtan hjärtans hjärt hjärtats hjärtas hjerta järta hjärtana
 lärare	lärare läraren lärarna lärarnas lärarens lärares lärarinna lärar lärarinnan lärarinnor
-stämma	stämmer stämma stämde stämman stämt stämmor stäm stämd stämda stäms stämmas stämmorna
-skjuta	skjuta skjuter sköt skjuts skjuten skjut sköts skjutit skjutas skjutna skjutits skjutsar
-lista	lista listan listor listar listade listat listas listorna listen listad listans listades
+stämma	stämmer stämma stämde stämman stämt stämmor stäm stämd stämda stäms stämmas stämmorna stämdes stämts stämmans
+skjuta	skjuta skjuter sköt skjuts skjuten skjut sköts skjutit skjutas skjutna skjutits skjutsar skjutsen skjutet skjutande sköte skjutandet skjutne skötarna skjutare skötes skötet
+lista	lista listan listor listar listade listat listas listorna listen listad listans listades listats liste
 hata	hatar hata hatade hatat hatad hatas hatande
 stöd	stöd stödet stöds stöden
 inne	inne
@@ -537,7 +537,7 @@ förslag	förslag förslaget förslagen förslagna förslagets förslags
 kommentar	kommentarer kommentar kommentarerna kommentaren kommentars
 ensam	ensam ensamma ensamt ensamme ensammast ensammaste ensammare
 utbildning	utbildning utbildningen utbildningar utbildningarna utbildnings utbildningens utbildningarnas
-äga	äger äga ägs ägde ägt ägande ägda ägd ägor ägandet ägdes ägorna
+äga	äger äga ägs ägde ägt ägande ägda ägd ägor ägandet ägdes ägorna äg ägas ägts ega
 system	system systemet systemen systems systemets systemens
 stat	staten statens stat stater staterna stats staternas staters
 någonsin	någonsin
@@ -545,7 +545,7 @@ ansvar	ansvar ansvaret ansvars
 ekonomisk	ekonomiska ekonomisk ekonomiskt ekonomiske
 tvinga	tvingas tvinga tvingar tvingade tvingades tvingats tvingad tvingat tvingande tvangs tvang tving
 video	video videon videos videor videorna videons
-hinna	hinner hann hinna hunnit hinns hanns hinnan hinn hinnas hunnits hinnor hunnen
+hinna	hinner hann hinna hunnit hinns hanns hinnan hinn hinnas hunnits hinnor hunnen hinnorna hunna
 varm	varmt varm varma varmare varmaste varmast varme
 stoppa	stoppa stoppar stoppade stoppas stoppat stoppad stoppades stoppats stoppen
 is	is isen isar isarna isens
@@ -555,15 +555,15 @@ elev	elever eleverna elev eleven elevernas elevers elevens elevs
 någonting	någonting nånting
 leta	letar leta letade letat letande letandet letas letandes
 räkna	räkna räknar räknat räknade räknades räknats räknad räknande räknandet räkne
-bryta	bryta bryter bröt brutit bryts bruten brutna brytas bröts bryt brutet brutits
-bjuda	bjuder bjuda bjöd bjudit bjuden bjud bjuds bjudna bjöds bjudas bjudits bjudande
-reda	reda red reder reds rett redas redde rede redd rer redden redet
+bryta	bryta bryter bröt brutit bryts bruten brutna brytas bröts bryt brutet brutits brytit brytande brytet bröte brytes
+bjuda	bjuder bjuda bjöd bjudit bjuden bjud bjuds bjudna bjöds bjudas bjudits bjudande bjudet
+reda	reda red reder reds rett redas redde rede redd rer redden redet reden retts
 påverka	påverkar påverka påverkas påverkade påverkat påverkad påverkats påverkades påverkande
 ihåg	ihåg
 imorgon	imorgon
 vuxen	vuxna vuxen vuxet vuxne vuxnare vuxens
 helg	helgen helg helger helgerna helgens helgs
-bära	bära bar baren barer bart buren burit bärs bars bärande bäras bare
+bära	bära bar baren barer bart buren burit bärs bars bärande bäras bare bure barerna bären barts burits bärandes bures bärandet bärde baras buret barens buro bärsen bäres
 kung	kung kungen kungens kungar kungarna kungs kungarnas kungars
 program	program programmet programmen programmets programs programmens
 råd	råd rådet rådets råden råds rådd
@@ -580,12 +580,12 @@ sjuk	sjuk sjuka sjukaste sjukan sjukare sjuke sjukas sjukast sjukes
 lägenhet	lägenhet lägenheten lägenheter lägenheterna lgh lägenhetens lägenhets lägenheternas
 kärlek	kärlek kärleken kärlekens kärleks kärlekar
 enkel	enkel enklare enkla enklaste enklast enkle
-styra	styr styra styrs styre styrde styrande styrt styras styret styrd styrda styrdes
+styra	styr styra styrs styre styrde styrande styrt styras styret styrd styrda styrdes styrts styren styrandet styrandes
 trött	trött trötta tröttare tröttaste tröttast tröttande tröttar trötte tröttade tröttat tröttas
 rest	resten rester resterna rest rests
 oavsett	oavsett
-fara	for fara faran faror farit farorna fores fore farande fare foro farans
-nämna	nämna nämnde nämner nämns nämnt nämnda nämnas nämn nämndes nämnts nämnd nämnden
+fara	for fara faran faror farit farorna fores fore farande fare foro farans faren farandes
+nämna	nämna nämnde nämner nämns nämnt nämnda nämnas nämn nämndes nämnts nämnd nämnden nämnder nämndens nämnderna nämnes nämnandet
 testa	testa testat testar testade testas testats testades testad testen teste testande testandet
 skaffa	skaffa skaffar skaffat skaffade skaffas skaffades
 gift	gift gifta gifte gifter giftet gifts giftas gifterna giftes giften
@@ -607,9 +607,9 @@ tips	tips tipset tipsen
 falla	faller föll falla fallit fallande fallen fallet fallna falle fallne
 förutom	förutom
 ungefär	ungefär
-förstöra	förstör förstöra förstört förstörd förstörde förstördes förstörda förstörs förstöras förstörts förstörande förstörare
-ren	ren rena renare renar renaste renarna renas rene renat renen renande renade
-flyga	flyga flyg flyger flög flyget flygande flugit flygen flygets flygs flögs flygas
+förstöra	förstör förstöra förstört förstörd förstörde förstördes förstörda förstörs förstöras förstörts förstörande förstörare förstörandet
+ren	ren rena renare renar renaste renarna renas rene renat renen renande renade rens renad renats renens renarnas renades renes renast
+flyga	flyga flyg flyger flög flyget flygande flugit flygen flygets flygs flögs flygas flygandes flygit flygandet flugits
 klass	klass klassen klasser klassens klasserna klassernas
 fundera	fundera funderar funderat funderade funderande
 hoppa	hoppa hoppar hoppade hoppat hoppades hoppats hoppande hoppe hoppare hoppen hoppad hoppandet
@@ -617,11 +617,11 @@ situation	situation situationen situationer situationerna situationens situation
 utveckla	utveckla utvecklas utvecklat utvecklats utvecklade utvecklar utvecklades utvecklad utvecklande utvecklandet
 ben	ben benen benet bena bene bens benens benets benes benan benat benar
 inlägg	inlägg inlägget inläggen inläggets inläggs
-beskriva	beskriver beskriva beskrivs beskrev beskrivas beskriv beskrivit beskrevs beskrivet beskrivna beskrivits beskrivande
-finna	finner finna fann funnit funnits finn finnar finne finnarna funnen funna finnen
+beskriva	beskriver beskriva beskrivs beskrev beskrivas beskriv beskrivit beskrevs beskrivet beskrivna beskrivits beskrivande beskriven beskrives
+finna	finner finna fann funnit funnits finn finnar finne finnarna funnen funna finnen finnes funnet finnarnas funnes
 by	by byn byar byarna byns bys byarnas byars
 telefon	telefon telefonen telefoner telefonerna telefonens
-erbjuda	erbjuda erbjuder erbjudande erbjöd erbjuds erbjudanden erbjudandet erbjudit erbjuden erbjudas erbjöds erbjud
+erbjuda	erbjuda erbjuder erbjudande erbjöd erbjuds erbjudanden erbjudandet erbjudit erbjuden erbjudas erbjöds erbjud erbjudits erbjudna erbjudandena erbjudet
 vakna	vakna vaknade vaknar vaknat vaknande
 bero	beror bero berodde berott
 mark	mark marken marks marker markerna markens markers
@@ -633,7 +633,7 @@ speciellt	speciellt
 krav	krav kraven kravet kravs
 intressera	intresserad intresserade intresserar intressera intresserat intresseras
 lokal	lokala lokal lokaler lokalt lokalen lokalerna lokale lokalens
-leka	leka leker lek lekte leken lekar lekt lekande lekarna leks lekens lekas
+leka	leka leker lek lekte leken lekar lekt lekande lekarna leks lekens lekas leke
 tråkig	tråkigt tråkig tråkiga tråkigaste tråkigare tråkigast
 tom	tom tomt tomma tomten tomter toms tomtens tomterna tomme tommare tomer
 läge	läget läge lägen lägena
@@ -641,7 +641,7 @@ språk	språk språket språken språkets språkens språks
 hämta	hämta hämtar hämtade hämtat hämtad hämtas hämtades hämtats hämt
 synd	synd synder synden syndernas syndens synderna synders
 steg	steg steget stegen stegs stegens
-rik	rika rik riket rike rikt rikets rikaste rikare riks rikes riken rikast
+rik	rika rik riket rike rikt rikets rikaste rikare riks rikes riken rikast rikas rikena riksens rikenas rikens
 tio	tio ti
 kasta	kasta kastar kastade kastas kastat kastades kastad kastats kasten kastande kaste
 alldeles	alldeles
@@ -649,7 +649,7 @@ gratis	gratis
 ont	ont
 sjukt	sjukt
 tappa	tappat tappar tappa tappade tappad tappas tappades tappats tappen
-driva	driva drev drivs drivit drive drivande driv driven drivas drivna drevs drevet
+driva	driva drev drivs drivit drive drivande driv driven drivas drivna drevs drevet drivet drivits drivor drives
 peng	pengarna peng pengarnas pengen pengars
 våga	vågar våga vågade vågat vågen vågad våge
 läkare	läkare läkaren läkarna läkares läkarens läkar läkarnas
@@ -660,7 +660,7 @@ kaffe	kaffe kaffet kaffets caffe
 faktum	fakta faktum faktumet faktas
 internet	internet internets
 skatt	skatt skatter skatten skatterna skattens skatternas
-påstå	påstår påstå påstod påstående påståenden påstått påståendet påstås påstådda påstods påstådd påståendena
+påstå	påstår påstå påstod påstående påståenden påstått påståendet påstås påstådda påstods påstådd påståendena påståtts påstådde
 chef	chef chefen chefer cheferna chefens chefs chefernas chefers
 diskutera	diskutera diskuterar diskuteras diskuterade diskuterat diskuterades diskuterats diskuterande diskuterad
 mm	mm
@@ -688,10 +688,10 @@ vann	vann
 hår	hår håret håren hårets
 länk	länkar länk länken länkarna länkens
 flicka	flickor flicka flickan flickorna flickans flickors flickas flickornas
-sprida	sprida sprider sprids spred sprid spridas spridit spridda spreds spritt spridd spridits
+sprida	sprida sprider sprids spred sprid spridas spridit spridda spreds spritt spridd spridits spridande spritts spridde spriddes
 rapport	rapport rapporten rapporter rapporterna rapportens rapports
 bror	bror bröderna bröder brors brodern brödernas broderns broders bröders
-döma	döma dömd döms dömer dömda dömdes dömas dömts dömde döm dömt dömande
+döma	döma dömd döms dömer dömda dömdes dömas dömts dömde döm dömt dömande dömes dömdas
 tillhöra	tillhör tillhörande tillhörde tillhöra tillhört tillhörandes
 hemsk	hemskt hemska hemsk hemskaste hemskare hemske
 ärlig	ärligt ärlig ärliga ärligare ärligaste ärlige
@@ -704,12 +704,12 @@ buss	bussen buss bussar bussarna bussens bussarnas
 skydda	skydda skyddar skyddade skyddas skyddad skyddat skyddande skyddades skyddats skydden skydde skyddandet
 organisation	organisation organisationer organisationen organisationens organisationerna organisations organisationers organisationernas
 studie	studier studie studien studierna studies studiens studiernas
-utföra	utföra utför utfört utförs utförde utförd utförda utföras utfördes utförande utförts utförandet
+utföra	utföra utför utfört utförs utförde utförd utförda utföras utfördes utförande utförts utförandet utförare utföranden utföres
 lösning	lösning lösningar lösningen lösningarna lösningens lösnings
 ex	ex exet exets exen
 vita	vita vitas vitan vitor
 tåg	tåget tåg tågen tågets tågens
-le	le leende ler log lett les len leendet loge logen leenden logo
+le	le leende ler log lett les len leendet loge logen leenden logo logos lene loger lent logon letter letters logerna letts lenare logs leendena leendes logens leendets letterna
 åsikt	åsikter åsikt åsikterna åsikten åsikts åsikters
 spara	spara sparar sparade sparat sparande sparas spar sparad sparandet sparades sparats spare
 dam	damer dam damerna damen damernas dams damens damers
@@ -735,7 +735,7 @@ nyheter	nyheter
 samla	samla samlade samlar samlas samlat samlades samlats samlad samlande samlandet
 lön	lön löner lönen lönerna
 jävel	jävlar jävel jäklar jäveln jävlarna jäkel djävlar jädrar djävel järnspikar jävlars
-ena	ena enas enade ene enat enades enad enats enes enande enare enandet
+ena	ena enas enade ene enat enades enad enats enes enande enare enandet enar enen
 idiot	idiot idioter idioten idioterna idiots idioternas idiotens
 ämne	ämnen ämnet ämne ämnena ämnets ämnes ämnens ämnenas
 orka	orkar orka orkade orkat orken
@@ -753,10 +753,10 @@ samtal	samtal samtalet samtalen samtals samtalets
 smart	smart smarta smartare smartaste smartast smarte
 makt	makt makten makter maktens makterna makts makters makternas
 ljuga	ljuger ljuga ljög ljugit ljug ljugande
-tillåta	tillåter tillåta tillåtet tillåts tillåtna tillåt tillät tillåtas tillåten tillåtit tilläts tillåtande
+tillåta	tillåter tillåta tillåtet tillåts tillåtna tillåt tillät tillåtas tillåten tillåtit tilläts tillåtande tillåtits tillåtes
 koll	koll kollar kollen
 nummer	nummer numret numren numrets
-skrika	skriker skrika skrek skrik skrikande skrikit skriket skriken skrikandes skriks skrikas skreks
+skrika	skriker skrika skrek skrik skrikande skrikit skriket skriken skrikandes skriks skrikas skreks skrikandet
 tyst	tyst tysta tystas tystare tystar tystade tystades tystat tystaste tystad tystats tyste
 snabb	snabb snabba snabbare snabbaste snabbast snabbar snabbe snabbade snabbas
 era	era eras erans eror
@@ -764,7 +764,7 @@ modern	modern moderna modernt modernare modernaste moderne modernas modernast
 intresse	intresse intressen intresset intressena
 omkring	omkring
 arg	arg arga argt argare arge argaste argast
-gräva	gräva grovt grov grova gräver grävt gräv grövre grävde grävande grove grövsta
+gräva	gräva grovt grov grova gräver grävt gräv grövre grävde grävande grove grövsta grävs grävdes grävas grävts groves grävd grävandet
 ansikte	ansiktet ansikte ansikten ansiktena ansiktets ansikts ansiktes
 kultur	kultur kulturen kulturer kulturens kulturerna kulturs kulturers
 dyka	dyker dök dyka dykt dyk dyke dyket dykande dykes dykte
@@ -773,7 +773,7 @@ behandla	behandla behandlar behandlas behandlade behandlad behandlat behandlades
 galen	galet galen galna galnaste galnare galne
 ekonomi	ekonomi ekonomin eko ekot ekonomier ekon ekots ekonomins ekonomierna ekos
 underbar	underbar underbara underbaraste underbare underbarare
-röka	röka röker rök rökt röken rökte rökta rökande röks rökat rökarna rökas
+röka	röka röker rök rökt röken rökte rökta rökande röks rökat rökarna rökas röke rökar rökandet röktes
 post	post posten poster postens posts posterna posters postern
 pojke	pojkar pojke pojken pojkarna pojk pojkens pojkars pöjk pojkarnas pojkes
 uppdrag	uppdrag uppdraget uppdragen uppdragets uppdrags
@@ -800,7 +800,7 @@ verksamhet	verksamhet verksamheten verksamheter verksamheterna verksamhetens ver
 sol	solen sol solens solar sols solarna
 bidra	bidrar bidra bidragit bidrog bidragande bidragen bidraga bidrager
 fly	fly flyr flytt flydde flyttar flyende flytten flydda flyn
-erkänna	erkänna erkänner erkännande erkänt erkände erkänn erkänd erkända erkännandet erkännas erkänns erkännanden
+erkänna	erkänna erkänner erkännande erkänt erkände erkänn erkänd erkända erkännandet erkännas erkänns erkännanden erkändes erkänts erkännandena
 klubb	klubben klubb klubbar klubbens klubbarna klubbarnas klubbars klubbs
 kostnad	kostnader kostnad kostnaden kostnaderna kostnads
 skratta	skratta skrattar skrattade skrattat skrattande skratten skrattas skrattandes skrattad
@@ -821,7 +821,7 @@ hantera	hantera hanterar hanteras hanterat hanterade hanterats hanterades hanter
 sort	sorts sorters sort sortens sorter sorten sorterna
 någonstans	någonstans nånstans
 förvänta	förväntar förväntas förvänta förväntat förväntade förväntad förväntades förväntats
-fira	fira firar firas firade fire firande firat firandet firades firad firats firanden
+fira	fira firar firas firade fire firande firat firandet firades firad firats firanden fires
 lyfta	lyfta lyfter lyft lyfte lyfts lyftas lyftes lyftet lyften lyftande lyftar
 erfarenhet	erfarenhet erfarenheter erfarenheten erfarenheterna erfarenhetens
 laga	laga lagen lagar lagade lagat lagad lagas lage lagades lagats lages
@@ -831,7 +831,7 @@ kall	kallt kall kallare kalle kallaste kallast kalls kallet kallen
 söt	söt söta sött sötaste sötare söte sötast sötat sötad sötade
 behov	behov behovet behoven behovs
 kämpa	kämpa kämpar kämpat kämpade kämpe kämpande kämparna kämpen kämpas kämpandes kämpades
-sjunga	sjunga sjunger sjöng sjung sjungit sjungande sjungs sjungas sjöngs sjungen sjungandes sjungna
+sjunga	sjunga sjunger sjöng sjung sjungit sjungande sjungs sjungas sjöngs sjungen sjungandes sjungna sjungits sjungandet sjunget
 fot	fot fötter fötterna foten fots fotens fötternas
 råka	råkar råkade råkat råka råkas råkades råkor
 öl	öl ölet øl ölets öler
@@ -851,9 +851,9 @@ vård	vård vården vårdens
 ladda	ladda laddar laddat laddade laddad laddas laddades laddats
 journalist	journalister journalist journalisten journalisterna journalisters journalistens journalisternas journalists
 offentlig	offentliga offentlig offentligt offentligas offentlige
-röra	röra rörande rörde rört rörd röran rören röras rördes rörda rörs röror
+röra	röra rörande rörde rört rörd röran rören röras rördes rörda rörs röror rörts
 enorm	enormt enorm enorma
-föda	föddes föda föds föder födas fötts födde fött födan föd födande föddas
+föda	föddes föda föds föder födas fötts födde fött födan föd födande föddas födandet
 max	max maxar
 anställd	anställda anställd anställde anställt anställdas anställds
 grön	gröna grön grönt grönare gröne grönas grönaste gröns
@@ -863,7 +863,7 @@ middag	middag middagen middagar middags middagarna
 central	centrala central centralt centralen centraler centrale centralens centralerna centralare centrals
 prova	prova provat provar provade proven provas provats prove provad provades
 effekt	effekt effekter effekten effekterna effektens
-sköta	sköter sköta sköt skötte skött sköts skötas sköttes skötts skötta sköte skötarna
+sköta	sköter sköta sköt skötte skött sköts skötas sköttes skötts skötta sköte skötarna skötes skötet
 anmäla	anmäla anmäler anmälda anmält anmäl anmälde anmäld anmäls anmäldes anmälts anmälas anmälare
 uppskatta	uppskattar uppskatta uppskattas uppskattat uppskattad uppskattade uppskattades uppskattats uppskattande
 guld	guld guldet gulden guldets
@@ -881,7 +881,7 @@ föra	föra förde fört fördes föras förts förd förande förs förandet f�
 åtminstone	åtminstone åtminstonde
 individ	individer individ individen individens individerna individers individs individernas
 bilda	bilda bildar bilden bildas bildades bildade bildat bildats bildad bildandet bildande bilde
-trycka	trycka trycker tryckte tryckt tryckta tryckas trycktes trycks tryckts tryckande tröck trycke
+trycka	trycka trycker tryckte tryckt tryckta tryckas trycktes trycks tryckts tryckande tröck trycke trycken
 butik	butik butiken butiker butikerna butikens butiks butikernas butikers
 miljard	miljarder miljard miljarderna miljarden miljarders
 affär	affären affärer affär affärerna affärs affärens affärers affärernas
@@ -921,18 +921,18 @@ besöka	besöka besökte besöker besökt besökta besöktes besökande besöks 
 ledsen	ledsen ledsna lessen ledsnat ledsnade ledsnar ledsnare lessna ledset
 riksdag	riksdagen riksdag riksdagens riksdags riksdagar riksdagarna
 låna	låna lånar lånade lånat lånas lånad lånen lånades lånats låne lånande
-suga	suger suga sug sög sugar sugit sugs suget sugas suge sugande sögs
-sänka	sänka sänker sänkt sänk sänkte sänks sänkas sänktes sänkts sänkan sänke sänkor
+suga	suger suga sug sög sugar sugit sugs suget sugas suge sugande sögs sugits sugars
+sänka	sänka sänker sänkt sänk sänkte sänks sänkas sänktes sänkts sänkan sänke sänkor sänkorna
 förhållande	förhållande förhållanden förhållandet förhållandena
 april	april aprils
 nuvarande	nuvarande
 rakt	rakt
 sju	sju
-sticka	sticker sticka stack stick stacken stuckit stickade sticket stickad sticks stackarna stucken
+sticka	sticker sticka stack stick stacken stuckit stickade sticket stickad sticks stackarna stucken stickan stickar stickor stickat stacks stickande stickas stickorna stackar sticken stuckna stuckits
 undvika	undvika undviker undvik undvikas undvek undvikit undvikande undviks undvikits undveks undvikandet
 syfte	syfte syftet syften syftena
 villa	ville villa villor villan villas villorna villans villar villes villande villat
-förbjuda	förbjuda förbjudet förbjuder förbjudna förbjuden förbjud förbjudas förbjöd förbjudit förbjöds förbjuds förbjude
+förbjuda	förbjuda förbjudet förbjuder förbjudna förbjuden förbjud förbjudas förbjöd förbjudit förbjöds förbjuds förbjude förbjudits
 gråta	gråta gråter grät gråt gråtit gråtande gråten gråtandes
 duktig	duktig duktiga duktigt duktigare duktige duktigaste duktigast
 bevis	bevis beviset bevisen
@@ -987,7 +987,7 @@ km	km
 naturligtvis	naturligtvis
 undan	undan
 personal	personal personalen personalens personals
-måndag	måndag måndagen mån måndags måndagar månen måns måndagens måna månens måndagarna månar
+måndag	måndag måndagen mån måndags måndagar månen måns måndagens måna månens måndagarna månar månade månanden
 straff	straff straffet straffar straffen straffarna straffets
 besök	besök besöket besöks besöken
 snäll	snäll snällt snällare snällaste snälle snel snällast
@@ -997,9 +997,9 @@ sten	sten stenar stenen stenarna stenens stens stenarnas
 pågå	pågår pågått pågick pågå
 konto	konto kontot konton kontona kontots kontos
 syster	syster systrar systrarna systern systers systerns systrarnas systrars
-skilja	skiljer skilja skiljas skilde skild skiljs skildes skiljde skilt skilj skiljdes skiljt
+skilja	skiljer skilja skiljas skilde skild skiljs skildes skiljde skilt skilj skiljdes skiljt skilts skiljts skiljande skils
 hjärna	hjärnan hjärna hjärnor hjärnans hjärn hjärnorna hjärnas hjärne
-bred	bred brett breda bredare bredd bredden bre breder brer bredaste bredde bredast
+bred	bred brett breda bredare bredd bredden bre breder brer bredaste bredde bredast bredder brede bres breds
 siffra	siffror siffrorna siffra siffran siffrornas siffer siffrors
 underbart	underbart underbarare
 varken	varken hvarken
@@ -1009,7 +1009,7 @@ samtliga	samtliga
 strax	strax
 höja	höja höjer höjs höj höjas höjt höjde höjdes höjts höjande höje
 allmän	allmänna allmän allmännas allmännare allmänne
-täcka	täcker täcka täckt täcket täcks täcke täckta täck täckte täcken täckas täckande
+täcka	täcker täcka täckt täcket täcks täcke täckta täck täckte täcken täckas täckande täcktes täckts täckena täckes
 diskussion	diskussion diskussionen diskussioner diskussionerna diskussions diskussionens
 skita	skiter skita sket skitit skitar skitat skitan
 lunch	lunch lunchen luncher luncherna
@@ -1024,21 +1024,21 @@ sjukhus	sjukhus sjukhuset sjukhusen sjukhusets sjukhusens
 räknas	räknas räknades räknats
 nät	nätet nät näten nätets
 spår	spår spåret spåren spårets spårs
-bränna	bränna bränner brände bränt bränd bränn bränns brändes brännas brännande bränts brännan
+bränna	bränna bränner brände bränt bränd bränn bränns brändes brännas brännande bränts brännan brännandet
 himla	himla himlen himlar himlade himle
 påminna	påminner påminna påminde påmind påminn påminns påminnas påmint påminda påminnande påmindes
-vila	vila vilar vil vilade vilande vilat vilan vilas vile vilo vilans vilandes
+vila	vila vilar vil vilade vilande vilat vilan vilas vile vilo vilans vilandes hvila vilen
 väder	väder vädret vädrets väders
 negativ	negativa negativt negativ negative negativen negativet
 naturlig	naturligt naturlig naturliga naturligare naturligaste naturlige
 granne	granne grannar grannen grannarna grannens grannes grannarnas grannars
-värme	värmen värme värmer värma värm värmde värms värmt värmande värmas värmdes värmts
+värme	värmen värme värmer värma värm värmde värms värmt värmande värmas värmdes värmts värmens värmd värmda
 världsmästerskap	vm världsmästerskap världsmästerskapet världsmästerskapen
 oktober	oktober okt oktobers
-hyra	hyra hyr hyran hyrde hyrt hyror hyrs hyrorna hyres hyrd hyrda hyras
+hyra	hyra hyr hyran hyrde hyrt hyror hyrs hyrorna hyres hyrd hyrda hyras hyrdes hyrts
 förlåt	förlåt förlåter förlåten
 rejäl	rejält rejäl rejäla rejälare
-stödja	stödja stödjer stöder stött stödde stötte stödjande stöde stödda stödd stöds stödjas
+stödja	stödja stödjer stöder stött stödde stötte stödjande stöde stödda stödd stöds stödjas stöddes stötts stöden
 lita	lita litar litade litat litas
 sport	sport sporten sporter sports sportens sporterna
 dryg	drygt dryg dryga drygaste drygar drygade drygare
@@ -1155,19 +1155,19 @@ avgöra	avgöra avgör avgörs avgjorde avgöras avgjordes avgjort avgjord avgjo
 fönster	fönster fönstret fönstren fönstrena fönsterna fönstrens fönstrets
 gård	gården gård gårdar gårdarna gårdens gårds gårdarnas gårdars
 strid	strid strider striden strida stred striderna stridande stridit stridens strids stride
-fånga	fånga fångar fångade fångat fångarna fånge fångas fångad fångades fångats fångarnas fångars
+fånga	fånga fångar fångade fångat fångarna fånge fångas fångad fångades fångats fångarnas fångars fången fångande fångens fångna fånget
 utnyttja	utnyttja utnyttjar utnyttjas utnyttjade utnyttjad utnyttjande utnyttjat utnyttjades utnyttjats utnyttjandet
 misstag	misstag misstaget misstagen
 ful	fula ful fult fulaste fulare fule fulast
 överleva	överleva överlever överlevde överlevt överlevande överlev överlevandes
-te	te ter tes ten teet tesen teser tens thé teer tedde tett
+te	te ter tes ten teet tesen teser tens thé teer tedde tett teserna tenar teets
 allra	allra
 givetvis	givetvis
 mera	mera
 sällan	sällan
 såhär	såhär
 app	app appen appar apparna apps appens
-styrka	styrka styrkor styrkan styrkorna styrker styrkt styrkas styrke styrks styrkte styrkornas styrkans
+styrka	styrka styrkor styrkan styrkorna styrker styrkt styrkas styrke styrks styrkte styrkornas styrkans styrk styrkande styrkts styrkors
 studera	studera studerar studerat studerade studerande studeras studerats studerades studerad studerandet studerandes studeranden
 lund	lund lunds lunden lundar lundens
 hälft	hälften hälft hälfter
@@ -1182,7 +1182,7 @@ medborgare	medborgare medborgarna medborgarnas medborgaren medborgares medborgar
 konstig	konstig konstiga konstigare konstigaste konstigast
 allvarligt	allvarligt allvarligare allvarligast
 konst	konst konsten konstens konster konsterna konsternas
-låsa	låsa låst lås låser låsta låste låset låsas låsen låstes låstas låsts
+låsa	låsa låst lås låser låsta låste låset låsas låsen låstes låstas låsts låses
 my	my mys
 sparka	sparka sparken sparkar sparkade sparkad sparkas sparkat sparkades sparkats sparkande
 avtal	avtal avtalet avtalen avtalets avtals
@@ -1200,7 +1200,7 @@ utifrån	utifrån
 överens	överens
 betydlig	betydligt betydlig betydliga
 förmåga	förmåga förmågan förmågor förmågorna
-klä	klä klär klädd klädda klädde klätt kläs kläd kläddes kläde klätts kläda
+klä	klä klär klädd klädda klädde klätt kläs kläd kläddes kläde klätts kläda klättar klädes kläderna klädernas
 oerhörd	oerhört oerhörd oerhörda
 spendera	spendera spenderar spenderat spenderade spenderas spenderades spenderad spenderats spenderande
 orolig	orolig oroliga oroligt oroligare
@@ -1220,16 +1220,16 @@ utöver	utöver
 meddelande	meddelande meddelanden meddelandet meddelandena meddelandets
 knulla	knulla knullar knullade knullad knullat knullas knullande
 seger	seger segern segrar segrarna segerns segers
-klippa	klippa klipper klippt klippte klippan klippor klipporna klippas klippen klippans klipptes klippta
+klippa	klippa klipper klippt klippte klippan klippor klipporna klippas klippen klippans klipptes klippta klippts klipps klippande
 ursäkta	ursäkta ursäktar ursäkten ursäktas ursäktande ursäktad ursäktade ursäktat
 imponera	imponerande imponerad imponera imponerade imponerar imponeras imponerat imponerades imponerats
-gripa	gripen greps gripa gripande grep griper grip grips gripits gripas gripit gripandet
+gripa	gripen greps gripa gripande grep griper grip grips gripits gripas gripit gripandet gripanden gripens gripe gripar gripandena grepe gripes grepen
 position	position positioner positionen positionerna positions
 rörelse	rörelse rörelsen rörelser rörelsens rörelserna rörelses
 mor	mor mors mödrar moderns moders mödrarna morerna mödrars moren morer mödrarnas
 resurs	resurser resurs resurserna resursen
 historisk	historiska historiskt historisk historiske
-rulla	rullar rulla rulle rullade rullat rullande rullen rullas rull rullarna rullades rullad
+rulla	rullar rulla rulle rullade rullat rullande rullen rullas rull rullarna rullades rullad rullats rullorna rullor rullandes rullan
 bredvid	bredvid breve
 fisk	fisk fiskar fisken fiskarna fiskars fiskarnas fiskens fisks
 brev	brev brevet breven bref brevets brevens
@@ -1246,13 +1246,13 @@ februari	februari
 herregud	herregud
 ifall	ifall
 norra	norra
-föredra	föredrar föredra föredrag föredrog föredragit föredragande föredraget föredragna föredras fördrar föredragen föredrogs
+föredra	föredrar föredra föredrag föredrog föredragit föredragande föredraget föredragna föredras fördrar föredragen föredrogs fördra fördragen fördragna
 allians	alliansen alliansens allians allianser allianserna
 kvalitet	kvalitet kvalité kvaliteten kvalitén kvaliteter kvalitéer kvalitets kvaliteterna
 lik	likt lik liket liks likare liken likens
 drömma	drömmer drömma drömde drömt drömmen drömmande drömda
 demokrati	demokrati demokratin demokratins demokratier demokratis demokratierna
-skär	skär skära skar skurit skuren skärs skäras skurna skars skärt skären skurits
+skär	skär skära skar skurit skuren skärs skäras skurna skars skärt skären skurits skärande skäran skäret skuret skärare skärde skäror
 åring	åring åringar åringen åringarna åringens årings åringars
 grabb	grabbar grabben grabbarna grabb grabbens grabbarnas grabbars grabbs
 scen	scen scenen scener scenerna scenens
@@ -1260,10 +1260,10 @@ begrepp	begreppet begrepp begreppen begreppets
 kära	kära käre käranden kärande kärandens kärat käras
 city	city citys
 forskare	forskare forskarna forskaren forskares forskarnas forskarens
-ersätta	ersätta ersätter ersättas ersätts ersatt ersatte ersatts ersattes ersätt ersatta ersättande ersättes
+ersätta	ersätta ersätter ersättas ersätts ersatt ersatte ersatts ersattes ersätt ersatta ersättande ersättes ersätte
 klimat	klimat klimatet klimatets klimaten
 insats	insats insatser insatsen insatserna
-blåsa	blåser blåsa blåst blåste blås blåsta blåsten blåsor blåsan blåstes blåses blåsas
+blåsa	blåser blåsa blåst blåste blås blåsta blåsten blåsor blåsan blåstes blåses blåsas blåsorna blåsts blåsande
 cykel	cykel cykeln cyklar cykler cyklarna cykelns cyckel cyklerna
 begå	begår begå begått begick begås begåtts begicks begångna begånget begången
 team	team teamet teams teamen teamets
@@ -1279,7 +1279,7 @@ paket	paket paketet paketen paketets
 yta	yta ytan ytor yt ytorna ytans
 tryck	tryck trycket trycks trycken
 religion	religion religioner religionen religionerna religionens religions religionernas religioners
-avslöja	avslöja avslöjar avslöjade avslöjas avslöjande avslöjat avslöjad avslöjades avslöjanden avslöjandet avslöjats avslöjandena
+avslöja	avslöja avslöjar avslöjade avslöjas avslöjande avslöjat avslöjad avslöjades avslöjanden avslöjandet avslöjats avslöjandena avslöjare
 reklam	reklam reklamen reklamer reklamerna reklamens
 herr	herr herrar herrarna herrarnas herrn herrars herrns
 papper	papper pappret papperet pappers pappren papperna papperen papperets papprets
@@ -1296,7 +1296,7 @@ producera	producera producerar produceras producerat producerade producerad prod
 karriär	karriär karriären karriärer karriärens karriärs karriärerna
 id	id ide ts iden ns ids nas idet ides
 vikt	vikt vikten vikter vikterna
-sträcka	sträcker sträcka sträckan sträck sträckor sträckte sträckt sträckorna sträcks sträcket sträckas sträckta
+sträcka	sträcker sträcka sträckan sträck sträckor sträckte sträckt sträckorna sträcks sträcket sträckas sträckta sträcktes sträckande
 angående	angående
 start	start starten starter starterna starts starters startern
 uppstå	uppstår uppstod uppstå uppstått uppstånden uppståndne uppstående uppståndna
@@ -1313,7 +1313,7 @@ strand	stranden strand stränder stränderna strands strandens strändernas
 ryska	ryska ryskan ryskor ryskorna
 biljett	biljetter biljett biljetterna biljetten
 låtsas	låtsas låtsades låtsats
-simma	sam simma simmar sim sims simmade sams summit simmat simmande simme summits
+simma	sam simma simmar sim sims simmade sams summit simmat simmande simme summits simmas simmandes
 stjäla	stjäla stjäl stal stulen stulit stulna stals stulet stulits stjäls stjälas stjäler
 boll	bollen boll bollar bollarna bollens bolls
 blogg	blogg bloggen bloggar bloggarna bloggens
@@ -1332,7 +1332,7 @@ städa	städa städar städat städade städad städas städats städades städa
 verklig	verkliga verklig verkligt verklige verkligare
 ägare	ägare ägaren ägarna ägarens ägarnas ägares ägar
 tillverka	tillverka tillverkade tillverkas tillverkar tillverkad tillverkat tillverkades tillverkats tillverkande
-mäta	mäta mätt mäter mätta mäts mätte mätas mät mättande mättar mättad mättat
+mäta	mäta mätt mäter mätta mäts mätte mätas mät mättande mättar mättad mättat mättade mättes mätts mättas mättare
 fysisk	fysiska fysiskt fysisk
 metod	metoder metod metoden metoderna metodens
 islam	islam islams
@@ -1356,18 +1356,18 @@ träd	träd träden trädet trädens trädets trän träds
 bro	bro bron brons broar bros broarna bronset
 kram	kram kramar krama kramas kramade kramen kramat kramades krams kramande kramad kramarna
 gemensam	gemensam gemensamma gemensamme
-skiva	skiva skivan skivor skivorna skivans skivad skivat skivade skivar skiv skivas skivornas
+skiva	skiva skivan skivor skivorna skivans skivad skivat skivade skivar skiv skivas skivornas skive
 partner	partner partners partnern partnerns partnerna
 detsamma	detsamma dsm
-besluta	beslutade beslutat beslutar beslöt besluta beslutades beslutande beslutas beslutad beslutats besluten beslöts
+besluta	beslutade beslutat beslutar beslöt besluta beslutades beslutande beslutas beslutad beslutats besluten beslöts beslutet beslutit beslutna besluts
 tex	tex
 speciell	speciell speciella specielle
 ansvarig	ansvarig ansvariga ansvarige ansvarigt
 rasist	rasister rasist rasisterna rasisten rasisternas
-frysa	fryser frysa frysen frys frysta fryst frusen frös frusna frusit fruset frysar
+frysa	fryser frysa frysen frys frysta fryst frusen frös frusna frusit fruset frysar frysas fryses frystes fryste frysande frysarna frysts frusits
 oroa	oroa oroar oroande oroad oroade oroas oroat oroades
 stopp	stopp stoppar stoppet stoppen
-riva	river riva rev riv rivas riven revs rivit rivs rivna rivits rivet
+riva	river riva rev riv rivas riven revs rivit rivs rivna rivits rivet revet reven rive reve rivande revets
 betyg	betyg betyget betygen betygs
 dölja	dölja döljer dolda dold dolt döljs dolde döljas dölj doldes dolts döljande
 somna	somna somnade somnar somnat somn
@@ -1387,7 +1387,7 @@ utom	utom
 statlig	statliga statlig statligt
 typisk	typiskt typisk typiska typiske
 karl	karl karln karlar karls karlarna karlen karlns
-slita	sliter slita sliten slit slet slitna slitit slits slitet slitas slite slets
+slita	sliter slita sliten slit slet slitna slitit slits slitet slitas slite slets slitits slitande slitsar
 gymnasium	gymnasiet gymnasium gymnasie gymnasier gymnasiets gymnasiums gymnasierna
 aktuell	aktuellt aktuella aktuell aktuellts aktuelle
 djupt	djupt djupare djupast
@@ -1416,7 +1416,7 @@ söder	söder södern söders söderns sör
 hundra	hundra
 framgång	framgång framgångar framgången framgångarna framgångens
 gubbe	gubben gubbe gubbar gubbarna gubbens gubb gubbes gubbarnas
-gömma	gömma gömmer gömt gömde gömda gömd göm göms gömmas gömdes gömts gömman
+gömma	gömma gömmer gömt gömde gömda gömd göm göms gömmas gömdes gömts gömman gömmor gömmaren gömmorna
 reagera	reagerar reagera reagerade reagerat
 dygn	dygnet dygn dygnets dygnen dygns
 ovan	ovan ovana ovant ovanan ovanor
@@ -1436,12 +1436,12 @@ hittills	hittills
 troligen	troligen
 centrum	centrum centret centrumet centra centrets centrat centrums centrumets centrumen
 högskola	högskola högskolan högskolor högskolans högskolorna högskole högskolas högskolornas
-uttrycka	uttrycka uttrycker uttryckt uttryckte uttryckas utrycka uttrycks uttrycken uttryckta uttrycktes uttryckts uttryckande
+uttrycka	uttrycka uttrycker uttryckt uttryckte uttryckas utrycka uttrycks uttrycken uttryckta uttrycktes uttryckts uttryckande utryckt
 nödvändig	nödvändigt nödvändig nödvändiga nödvändigaste
 kristna	kristna kristne kristnas kristnades kristnandet kristnade
 stör	stör störs störar stören
 nytta	nytta nyttan nytto
-locka	locka lockar lockande lockade lockas lockat locke lockades lockad locken lockats lockes
+locka	locka lockar lockande lockade lockas lockat locke lockades lockad locken lockats lockes lockarna
 vadå	vadå dårå
 samarbeta	samarbeta samarbetar samarbetat samarbetade samarbeten samarbetande
 invånare	invånare invånarna invånarnas invånaren invånares
@@ -1519,7 +1519,7 @@ sång	sång sången sånger sångerna sångens sångernas
 ras	ras race raser rasen racet rasens raserna raset races racen rasernas rasers
 trafik	trafik trafiken trafikens
 press	press pressen pressar pressens pressarna
-ro	ro rosor ros ron rodd ror rosorna rodde rosen rosens rott rosornas
+ro	ro rosor ros ron rodd ror rosorna rodde rosen rosens rott rosornas rodden rons rodda roddes roddat
 torsdag	torsdag torsdags torsdagen torsdagar torsdagens torsdagarna
 äkta	äkta äktade äktat äktar äkt
 nyfiken	nyfiken nyfikna nyfiket nyfikne
@@ -1542,7 +1542,7 @@ desto	desto
 sammanhang	sammanhang sammanhanget sammanhangen
 förutsättning	förutsättningar förutsättningarna förutsättning förutsättningen
 undersöka	undersöka undersöker undersökt undersökte undersökas undersök undersöktes undersöks undersökande undersökta undersökts undersökare
-prins	prins prinsessan prinsessa prinsen prinsessor prinsar prinsens prinsessorna prinsarna prinsessans prinsessas prinsarnas
+prins	prins prinsessan prinsessa prinsen prinsessor prinsar prinsens prinsessorna prinsarna prinsessans prinsessas prinsarnas prinsess prinsesse
 lopp	lopp loppet loppen loppets
 ordna	ordna ordnat ordnade ordnar ordnas ordnad ordnades ordnats ordnande ordnandet
 översättning	översättning översättningar översättningen översättningarna öfversättning
@@ -1565,7 +1565,7 @@ stycken	stycken
 vind	vinden vind vindar vindarna vindens vindarnas vint vindor vinda vinde
 mormor	mormor mormors mormodern mormödrar mormoderns
 fattig	fattiga fattig fattigare fattigt fattigaste fattige fattigas fattigast fattiges
-backa	backa backar backen backe backade backat backas backarna backades backes backad backande
+backa	backa backar backen backe backade backat backas backarna backades backes backad backande backens backarnas
 storlek	storlek storleken storlekar storlekarna storleks
 produktion	produktion produktionen produktioner produktions produktionerna produktionens
 släkt	släkt släkten närmre släkter släktens släkts släkterna närmst
@@ -1627,14 +1627,14 @@ mjölk	mjölk mjölken mjölkens
 bibliotek	bibliotek biblioteket biblioteken bibliotekets bibliotekens biblioteks
 danska	danska danskan
 nation	nation nationer nationen nationens nations nationerna nationernas nationers
-platt	platt platta plattan plattor plattorna plattare plattat platts platte plattar plattas plattade
+platt	platt platta plattan plattor plattorna plattare plattat platts platte plattar plattas plattade platten plattans plattornas
 pizza	pizza pizzan pizzor pizzorna pizzans
 representera	representerar representera representerade representeras representerat representerad representerades representerande representerats
 fastna	fastnade fastnat fastnar fastna
 ond	onda ond onde ondo ondare ondas ondaste ondes ondast
 närma	närmar närma närmade närmande närmanden närmat närmandet närmas
 pol	polen pol polens polerna poler polers
-tolka	tolka tolkar tolkas tolkade tolkat tolkades tolkats tolken tolkad tolkande tolkare tolkaren
+tolka	tolka tolkar tolkas tolkade tolkat tolkades tolkats tolken tolkad tolkande tolkare tolkaren tolkarna
 knapp	knappen knapp knappar knappa knapparna knappat knappade knappas knapps knappats
 brand	brand branden bränder bränderna brands brandens
 specifik	specifika specifikt specifik
@@ -1655,10 +1655,10 @@ utsätta	utsätts utsatts utsätta utsattes utsätter utsättas utsätt utsatte 
 uttalande	uttalande uttalanden uttalandet uttalandena
 franska	franska franskan franskans
 back	back backar backen backarna backs backens backarnas
-skrämma	skrämmer skrämma skrämde skäms skrämmas skrämd skräms skrämt skräm skrämda skämdes skrämdes
+skrämma	skrämmer skrämma skrämde skäms skrämmas skrämd skräms skrämt skräm skrämda skämdes skrämdes skrämts skämmes skämts
 not	not noter noterna noten
 psykisk	psykisk psykiskt psykiska
-hylla	hylla hyllan hyllar hyllade hyllas hyllorna hyllades hyllad hyllor hyllat hyllats hyllande
+hylla	hylla hyllan hyllar hyllade hyllas hyllorna hyllades hyllad hyllor hyllat hyllats hyllande hyll hyllandet hylle
 tradition	tradition traditioner traditionen traditionerna traditionens traditions
 ägna	ägna ägnar ägnade ägnat ägnades ägnad ägnas ägnats
 aktie	aktier aktie aktien aktierna aktiens aktiernas
@@ -1680,7 +1680,7 @@ snubbe	snubbe snubben snubbar snubbarna snubbens snubbes
 domare	domare domaren domarens domares domarna domarnas
 finska	finska finskan finskor finskans finskorna
 cykla	cykla cyklar cyklade cyklat cyklande cyklandet cyklandes cyklades
-fälla	fälla fäller fällde fälld fälls fällan fällande fälldes fällas fällor fällt fäll
+fälla	fälla fäller fällde fälld fälls fällan fällande fälldes fällas fällor fällt fäll fällts fällda fällorna fällen
 upprörd	upprörd upprörda upprört upprörde
 klipp	klipp klippet klippen klipps
 bas	bas basen baser basar baserna basaren basens basarer basarna basarerna
@@ -1694,7 +1694,7 @@ efteråt	efteråt
 japp	japp
 längd	längd längden längder längderna
 nervös	nervös nervösa nervöst nervösare
-kyla	kylen kyla kylan kyl kyle kyler kyld kyls kylas kylt kylar kylande
+kyla	kylen kyla kylan kyl kyle kyler kyld kyls kylas kylt kylar kylande kyles kylde kyldes kylarna kylts kylans
 process	processen process processer processerna processens
 smärta	smärta smärtan smärtor smärtar smärtorna smärtans smärtade smärtande smärtat
 salt	salt salta saltet salter saltade saltat saltad saltar saltas saltare salts salterna
@@ -1704,7 +1704,7 @@ black	black blacks blacka blacken
 professor	professor professorn professorer professorerna professorns professors
 knä	knä knäna knät knän knäet
 tjock	tjock tjocka tjockare tjockt tjockaste tjocke tjockast
-rå	rå rånad råna rånar rånade råa rådde rått rånat rår rånades rånas
+rå	rå rånad råna rånar rånade råa rådde rått rånat rår rånades rånas råare rånats rånen råaste
 sverigedemokrat	sverigedemokraterna sverigedemokraternas sverigedemokrater sverigedemokrat sverigedemokraten
 fiende	fiender fiende fienden fiendens fienderna fiendes fienders fiendernas
 kritisk	kritisk kritiska kritiskt
@@ -1732,7 +1732,7 @@ vänlig	vänlig vänliga vänligt vänligare vänligaste vänlige vänligast
 vardag	vardag vardagen vardagar vardags vardagarna vardagens
 ära	ära äran äre ärade ärans äras ärad ärar ärat ären
 akut	akut akuten akuta akutens
-matt	matt mattan matta mattor matten mattorna mattas mattare mattades mattes mattans mattats
+matt	matt mattan matta mattor matten mattorna mattas mattare mattades mattes mattans mattats mattar
 förskola	förskola förskolan förskolor förskolorna förskolans förskole förskolornas
 matte	matte matten mattes mattar
 onsdag	onsdag onsdags onsdagen onsdagar onsdagens onsdagarna
@@ -1767,7 +1767,7 @@ koka	koka kokar kokt kokande kokade kokat kokta kokas kokad kokats kokades koke
 ångra	ångrar ångra ångrade ångrat ångras
 brun	brun bruna brunt brunare brune
 identifiera	identifiera identifierar identifierade identifierat identifieras identifierats identifierad identifierades identifierande
-rida	rida rider red rid ride ridit ridande riders ridas rids reds ridandes
+rida	rida rider red rid ride ridit ridande riders ridas rids reds ridandes rides riden ridits rede redet reden
 torka	torka torkar torkade torkat torkan torkad tork torkas torken torkats torkades torkande
 praktik	praktiken praktik praktiker
 motsvarande	motsvarande
@@ -1835,7 +1835,7 @@ noga	noga
 bak	bak bakar baken baket baks
 choklad	choklad chokladen
 utmaning	utmaning utmaningar utmaningen utmaningarna
-godkänna	godkänt godkänner godkänna godkännande godkännas godkändes godkänns godkände godkänts godkännandet godkänn godkännes
+godkänna	godkänt godkänner godkänna godkännande godkännas godkändes godkänns godkände godkänts godkännandet godkänn godkännes godkännanden
 or	or oren orena orent ors
 sannolik	sannolikt sannolika sannolik sannolikare
 inkomst	inkomst inkomster inkomsten inkomsterna
@@ -1847,15 +1847,15 @@ datum	datum datumet datumen datas
 gräs	gräs gräset gräsen gräsets
 magisk	magiska magiskt magisk magiske
 behandling	behandling behandlingen behandlingar behandlingarna behandlings behandlingens
-vittna	vittnen vittnar vittna vittne vittnat vittnet vittnade vittnena vittnens vittnes vittnets vittnenas
+vittna	vittnen vittnar vittna vittne vittnat vittnet vittnade vittnena vittnens vittnes vittnets vittnenas vittnande
 etablera	etablerade etablera etablerat etablerad etablerar etablerades etableras etablerats etablerandet etablerande
 värdering	värderingar värdering värderingen värderingarna
 bonde	bönder bonde bönderna bonden bonne böndernas bondens bönders bondes
-parkera	parkera parkering parkeringen parkerade parkerar parkerad parkerat parkeringar parkerings parkeras parkerats parkeringarna
+parkera	parkera parkering parkeringen parkerade parkerar parkerad parkerat parkeringar parkerings parkeras parkerats parkeringarna parkerades
 jämförelse	jämförelse jämförelser jämförelsen jämförelserna
 kombination	kombination kombinationen kombinationer kombinationerna kombinations
 attackera	attackera attackerade attackerar attackerad attackerades attackerat attackeras attackerats attackerande
-rymma	rymden rymmer rymma ryms rymde rymd rymt rymmen rymmas rymdens rymdes rymder
+rymma	rymden rymmer rymma ryms rymde rymd rymt rymmen rymmas rymdens rymdes rymder rym rymmande
 sikt	sikt siktar sikten
 premiär	premiär premiären premiärer premiärerna
 omfatta	omfattar omfattas omfatta omfattade omfattades omfattat omfattats omfattad
@@ -1907,7 +1907,7 @@ trivas	trivs trivas trivdes trivts
 prioritera	prioritera prioriterar prioriteras prioriterat prioriterade prioriterad prioriterades prioriterats
 so	so sos sons sor
 mörka	mörka mörkar mörkat mörkade mörkas mörkande mörken mörke mörkades
-stötta	stötta stöttar stöttat stötte stöttade stöttande stöttas stöttning stöttor stöttes stöttad stöttades
+stötta	stötta stöttar stöttat stötte stöttade stöttande stöttas stöttning stöttor stöttes stöttad stöttades stöttorna
 näsa	näsan näsa näsor näsorna näsans
 pension	pension pensioner pensionen pensionerna pensions
 trädgård	trädgården trädgård trädgårdar trädgårds trädgårdarna trädgårdens trädgårdarnas
@@ -1958,9 +1958,9 @@ omedelbart	omedelbart
 såväl	såväl
 uppenbart	uppenbart
 begränsad	begränsad begränsade begränsat
-ström	ström strömmen strömmar strömma strömmade strömmande strömmarna ströms strömt strömmens strömmat strömmad
+ström	ström strömmen strömmar strömma strömmade strömmande strömmarna ströms strömt strömmens strömmat strömmad strömmas
 servera	servera serverar serveras serverade serverat serverad serverades serverats
-grav	grav graven graf gravar gravt grafer gravarna graves grava gravad grave gravens
+grav	grav graven graf gravar gravt grafer gravarna graves grava gravad grave gravens graferna gravas
 avdelning	avdelning avdelningen avdelningar avdelningarna avdelningens avdelnings
 civil	civila civil civilt civile civilas civilare
 silver	silver silvret silvers silfver
@@ -2002,7 +2002,7 @@ gym	gymmet gym gymmen gyms gymmets
 rot	rötter rot roten rötterna rötternas rotens
 flod	floden flod floder floderna flodens flodernas
 liga	ligan liga ligor ligans ligorna ligornas
-avbryta	avbryta avbryter avbröt avbryt avbruten avbröts avbryts avbrutna avbrytas avbrutit avbrutits avbrutet
+avbryta	avbryta avbryter avbröt avbryt avbruten avbröts avbryts avbrutna avbrytas avbrutit avbrutits avbrutet avbrytande
 socker	socker sockret
 allihop	allihopa allihop alltihop alltihopa
 general	general generalen generaler generalerna generals generalens generalernas
@@ -2014,7 +2014,7 @@ oberoende	oberoende oberoendet
 eventuell	eventuella eventuell
 flagga	flagga flaggan flaggor flagg flaggorna flaggar flaggans flaggade flaggat flaggas flaggades flaggad
 fika	fika fikar fikat fikade fiken
-lat	lat lata late later latar lataste latt latens latare laterna latade laten
+lat	lat lata late later latar lataste latt latens latare laterna latade laten lats
 bada	bada badar badade badat badande bade baden badad badas badandet
 ting	ting tingen tinget tingens tings
 handel	handel handeln handels handelns
@@ -2029,7 +2029,7 @@ hustru	hustru hustrun hustrus hustrur hustruns hustrurna
 saga	saga sagan sagor sagorna sagans sagas sagornas
 aktivitet	aktiviteter aktivitet aktiviteten aktiviteterna aktivitets
 trist	trist trista tristaste tristare triste
-linda	linda linde lindas linden lindar lindat lindade lindes lindad lindor lindan lindorna
+linda	linda linde lindas linden lindar lindat lindade lindes lindad lindor lindan lindorna lindades lindans lindats
 avgörande	avgörande avgörandet avgöranden
 demokratisk	demokratiska demokratisk demokratiske
 snack	snack snacket snacks snacksen
@@ -2066,7 +2066,7 @@ professionell	professionell professionella professionellt professionelle
 vetenskap	vetenskap vetenskapen vetenskapens vetenskaper vetenskaps vetenskaperna vetenskapernas
 hänsyn	hänsyn hänsynen
 stärka	stärka stärker stärkt stärkas stärkande stärks stärk stärkte stärktes stärkts stärkandet
-skala	skala skalan skalar skalor scala skalade skalen skalas skalat skalad skalorna skalans
+skala	skala skalan skalar skalor scala skalade skalen skalas skalat skalad skalorna skalans skalare skalades
 alltför	alltför
 framöver	framöver
 löjligt	löjligt
@@ -2075,7 +2075,7 @@ online	online
 sund	sunt sund sunda sundet sundare sunde sunds sunden sundets sundaste
 älskling	älskling älsklingen älsklingar älsklings älsklingens älsklingarna
 jack	jack jacks jacket jackets
-uppge	uppger uppges uppgav uppge uppgett uppgiven uppgivna uppgavs uppgivit uppgivet uppgetts uppgivits
+uppge	uppger uppges uppgav uppge uppgett uppgiven uppgivna uppgavs uppgivit uppgivet uppgetts uppgivits uppgivande
 fält	fält fältet fälten fältets
 investera	investera investerar investerat investerade investeras investerad investerats investerades investerande
 kyckling	kyckling kycklingen kycklingar kycklingarna kycklingens
@@ -2099,19 +2099,19 @@ försäljning	försäljning försäljningen försäljningar försäljnings förs
 usel	usel usla uselt uslaste uslare
 amerikan	amerikaner amerikan amerikanerna amerikanen amerikanernas amerikans amerikaners
 ränta	ränta räntan räntor räntorna ränte
-ko	ko kor kon korna kos koner koret kons konen konerna koren kornas
+ko	ko kor kon korna kos koner koret kons konen konerna koren kornas korets
 paus	paus pausen pauser pauserna
 automatiskt	automatiskt
 möjligen	möjligen
 tunnelbana	tunnelbanan tunnelbana tunnelbanans tunnelbanor tunnelbane tunnelbanorna
 bråka	bråka bråkar bråkade bråkat bråken bråkan bråkas bråkande
 grå	grå grått gråa gråare
-vrida	vrida vrede vrider vred vrid vriden vreden vridas vridna vridit vrids vridet
+vrida	vrida vrede vrider vred vrid vriden vreden vridas vridna vridit vrids vridet vredens vreds vredet vridande vredes vridits
 citat	citat citatet citaten
 förneka	förnekar förneka förnekade förnekat förnekas förnekande förnekandet förnekats förnekades förnekad förnekanden
 volym	volym volymen volymer volymerna
 straffa	straffas straffa straffad straffade straffar straffen straffades straffats straffat straffande
-binda	binder binda bunden bundna bindande bundet bind binds bindor bundit bindas bundits
+binda	binder binda bunden bundna bindande bundet bind binds bindor bundit bindas bundits bands bindan binde
 föreläsning	föreläsning föreläsningar föreläsningen föreläsningarna föreläsnings
 duga	duger duga dög dug
 utställning	utställning utställningen utställningar utställningarna utställningens utställnings
@@ -2145,14 +2145,14 @@ spåra	spåra spårar spårade spårat spåras spåren spårad spårare spårats
 smälta	smälter smälta smält smälte smalt smältande smälts smältas smältes smältan
 jacka	jacka jackan jackor jackorna
 struktur	struktur strukturer strukturen strukturerna strukturens
-hälla	hälla häll häller hällde hällt hälls hällen hällar hälldes hällarna hällas hälle
+hälla	hälla häll häller hällde hällt hälls hällen hällar hälldes hällarna hällas hälle hällts
 förare	förare föraren förarens förares förarna förarnas
 division	division divisionen divisioner divisionerna divisionens divisions
 kapten	kapten kaptenen kaptener kaptens kaptenens kaptenerna
-trappa	trappan trappa trappor trapporna trappen trappas trappar trappat trappades trappats trappade trappans
+trappa	trappan trappa trappor trapporna trappen trappas trappar trappat trappades trappats trappade trappans trappe
 avse	avser avses avsåg avse avsett avsågs avsetts
 granskning	granskning granskningen granskningar gransknings granskningarna
-fiska	fiska fiske fiskar fisken fiskade fisket fiskat fiskas fiskande fiskades fiskad fiskens
+fiska	fiska fiske fiskar fisken fiskade fisket fiskat fiskas fiskande fiskades fiskad fiskens fiskets fiskandet
 borg	borg borgen borgarna borgs borgar borgarnas borgens borger borgerna
 gul	gul gult gule gulare
 generellt	generellt
@@ -2181,7 +2181,7 @@ garantera	garantera garanterar garanterad garanteras garanterade garanterades
 beröra	berör berörs berörd beröra berörde berörande berört berördes beröras berörts
 motivera	motivera motiverad motiverar motiverade motiverat motiveras motiverande motiverades motiverats
 världskrig	världskriget världskrig världskrigets världskrigen
-ansluta	ansluta ansluter anslöt anslutna ansluten anslutit anslut anslutande anslutet ansluts anslutas anslöts
+ansluta	ansluta ansluter anslöt anslutna ansluten anslutit anslut anslutande anslutet ansluts anslutas anslöts anslutits
 klok	klok kloka klokare klokast kloke klokaste
 sjuksköterska	sjuksköterska sjuksköterskor sjuksköterskan sjuksköterskorna sjuksköterskornas sjuksköterske sjuksköterskors sjuksköterskans
 blind	blind blinda blint blinde blindas
@@ -2189,7 +2189,7 @@ rekord	rekord rekordet rekorden rekords
 matcha	matchar matcha matchen matchande matchade matchat matchas matches matchades matchad
 tipsa	tipsa tipsar tipsade tipsat tipsen tipsad tipsades
 resultera	resulterade resulterar resulterat resultera resulterande
-hugga	hugga hugger hugg högg hugget huggen huggit höggs huggas huggs huggits huggare
+hugga	hugga hugger hugg högg hugget huggen huggit höggs huggas huggs huggits huggare huggande huggaren
 dubbelt	dubbelt
 femte	femte
 hehe	hehe
@@ -2213,7 +2213,7 @@ burk	burk burken burkar burkarna burks
 skärm	skärmen skärm skärmar skärmarna skärmens
 kika	kika kikar kikat kikade kike
 identitet	identitet identiteter identiteten identitets identiteterna
-bita	bita biter bitar bitit bitande bitas bite bits bites beto bets bitare
+bita	bita biter bitar bitit bitande bitas bite bits bites beto bets bitare bitits betes
 definiera	definieras definiera definierar definierade definierat definierad definierats definierades definierande
 humör	humör humöret
 tåla	tål tåla tåls tålde tåler tålt tålas
@@ -2276,7 +2276,7 @@ spanska	spanska spanskan spanskans
 församling	församling församlingen församlingar församlingens församlingarna församlings församlingarnas församlingars
 ogilla	ogillar ogilla ogillade ogillande ogillas ogillades ogillat ogillad ogillandet
 egendom	egendom egendomen egendomar egendomens egendomarna egendoms
-hacka	hacka hackade hackar hackad hackat hackor hackas hackande hackats hacke hackades hacken
+hacka	hacka hackade hackar hackad hackat hackor hackas hackande hackats hacke hackades hacken hackan hackandet
 dubbla	dubbla dubblar dubblat dubblas dubblade dubblats dubblades dubble
 fabrik	fabriken fabrik fabriker fabrikerna fabrikens fabriks fabrikers
 tant	tant tanten tanter tanterna tantens
@@ -2287,7 +2287,7 @@ uppfylla	uppfyller uppfylla uppfyllt uppfylls uppfylld uppfyllde uppfyllas uppfy
 självmord	självmord självmordet självmorden självmords
 likadan	likadana likadan
 underhålla	underhållande underhålla underhåller underhöll underhållas underhålls underhållit underhölls underhållen underhållits
-bemöta	bemöta bemötande bemöter bemött bemötas bemöts bemötandet bemötte bemöt bemötta bemöttes bemötts
+bemöta	bemöta bemötande bemöter bemött bemötas bemöts bemötandet bemötte bemöt bemötta bemöttes bemötts bemötanden
 framstå	framstå framstår framstående framstod framstått
 helhet	helhet helheten helheter
 dagligen	dagligen
@@ -2333,7 +2333,7 @@ kö	kö köer köerna köns
 tvåa	tvåa tvåan tvåor tvåorna tvåans
 sektor	sektor sektorn sektorer sektorns sektorerna
 pornografi	porr pornografi pornografin
-hal	halt hal halter haltar hala hale halten haltande halta haltade halterna halen
+hal	halt hal halter haltar hala hale halten haltande halta haltade halterna halen hales halare halar halte halade halas haltat halat
 story	story storyn storys
 medarbetare	medarbetare medarbetarna medarbetares medarbetaren medarbetarnas
 äventyr	äventyr äventyret äventyren äventyrs äventyrets äventyrens
@@ -2380,7 +2380,7 @@ tröttna	tröttnat tröttnar tröttna tröttnade
 mäktig	mäktig mäktiga mäktigt mäktigaste mäktigare mäktige mäktigast
 läxa	läxa läxor läxan läxorna läxas läx
 motsats	motsatsen motsats motsatser motsatserna motsatsernas
-stuga	stugan stuga stugor stugorna stuvade stuva stuvad stuvar stug stugans stuvat stuvas
+stuga	stugan stuga stugor stugorna stuvade stuva stuvad stuvar stug stugans stuvat stuvas stuv
 union	unionen union unionens unions unioner
 institution	institutioner institutionen institution institutionerna institutionens institutions institutionernas institutioners
 överraska	överraskad överraska överraskade överraskar överraskat överraskades överraskas överraskats
@@ -2398,7 +2398,7 @@ stress	stress stressen
 varannan	varannan vartannat varannat
 varv	varv varvet varven varf varvets varvs
 bråk	bråk bråket bråken
-spränga	spränga spränger sprängs sprängde sprängdes sprängt spräng sprängas sprängd sprängda sprängts sprängare
+spränga	spränga spränger sprängs sprängde sprängdes sprängt spräng sprängas sprängd sprängda sprängts sprängare sprängaren sprängande
 föreställning	föreställning föreställningen föreställningar föreställningarna föreställningens
 bomb	bomber bomb bomben bomberna bombers bombs bombens
 övre	övre öfre
@@ -2415,7 +2415,7 @@ skål	skål skålar skålen skålarna skålens
 vänsterparti	vänsterpartiet vänsterpartiets vänsterparti vänsterpartier vänsterpartierna vänsterpartiernas
 gåva	gåva gåvor gåvan gåvorna gåvans
 intervjua	intervjua intervjuade intervjuar intervjuas intervjuad intervjuat intervjuades intervjuare intervjuats intervjuen
-knyta	knyta knyter knuten knöt knyt knutet knytas knyts knutit knöts knutits knyten
+knyta	knyta knyter knuten knöt knyt knutet knytas knyts knutit knöts knutits knyten knyte knytet
 stig	stig stigen stigar stigs stigarna stigens
 framme	framme
 sid	sid
@@ -2429,7 +2429,7 @@ grilla	grilla grillat grillad grillen grillade grillar grillas grillades grille 
 skänka	skänka skänker skänkt skänkte skänk skänks skänktes skänkta skänkts skänkas skänken
 förvandla	förvandlas förvandla förvandlats förvandlades förvandlar förvandlade förvandlat förvandlad
 tyda	tyder tyda tydde tyd tydas tytt
-vika	vika viker vek viken veka viket vikande veken vikas vekar vekt viks
+vika	vika viker vek viken veka viket vikande veken vikas vekar vekt viks veke vekare vikit vike veks
 tillbringa	tillbringade tillbringa tillbringar tillbringat tillbringades tillbringas tillbragte
 villig	villig villiga villigt villigare
 ögonblick	ögonblick ögonblicket ögonblicken ögonblicks ögonblickets
@@ -2451,7 +2451,7 @@ asylsökande	asylsökande asylsökanden asylsökandes
 uppdatering	uppdatering uppdateringar uppdateringen uppdateringarna
 akademisk	akademiska akademisk akademiskt
 brittiska	brittiska brittiskan
-inta	inta intar intag intog intagit intagen intogs intaget intas intagande intagits intaga
+inta	inta intar intag intog intagit intagen intogs intaget intas intagande intagits intaga intagandet
 flotta	flottan flotta flottans flotten flotte flottor flottar flottorna flottarna
 efterhand	efterhand
 främmande	främmande
@@ -2459,7 +2459,7 @@ green	green greens greenen greener greenerna
 skarp	skarpt skarp skarpa skarpare skarpaste skarpast
 halvtimme	halvtimme halvtimmen halvtimmes
 markera	markera markerar markerade markerad markerat markeras markerats markerades markerande
-överge	överge överger övergivna övergav övergiven övergett övergivet övergivit övergavs överges övergivits övergivande
+överge	överge överger övergivna övergav övergiven övergett övergivet övergivit övergavs överges övergivits övergivande övergetts
 farsa	farsan farsa farsans farsor farsas
 tveksam	tveksam tveksamt tveksamma
 teckna	tecknade tecknad teckna tecknat tecknar tecknades tecknas tecknen tecknandet tecknande tecknats
@@ -2480,7 +2480,7 @@ pensionär	pensionärer pensionär pensionärerna pensionären pensionärernas p
 hänvisa	hänvisar hänvisa hänvisade hänvisas hänvisad hänvisat hänvisades hänvisande hänvisats
 insikt	insikt insikten insikter insikterna
 baby	baby babyn babies babys babyns
-knäpp	knäpp knäppa knäppt knäpper knäppte knäppare knäppaste knäppta knäpps knäppas knäppande knäpptes
+knäpp	knäpp knäppa knäppt knäpper knäppte knäppare knäppaste knäppta knäpps knäppas knäppande knäpptes knäppen knäppe
 kilo	kilo kilon kilos kilot kilona
 försäkring	försäkring försäkringar försäkringen försäkrings försäkringarna
 dubbel	dubbel dubbeln dubble
@@ -2499,7 +2499,7 @@ närvaro	närvaro närvaron
 schysst	schysst schyssta schyst sjysst sjyst schysstare
 hud	hud huden hudens hudar huds
 krog	krogen krog krogar krogarna krogens
-skugga	skuggan skugga skuggor skuggorna skuggar skugge skuggornas skuggade skuggans skuggas skuggat skugg
+skugga	skuggan skugga skuggor skuggorna skuggar skugge skuggornas skuggade skuggans skuggas skuggat skugg skuggad skuggande skuggades
 sinne	sinne sinnen sinnet sinnes sinnena sinnens sinnenas sinnets
 revolution	revolution revolutionen revolutioner revolutionens revolutions revolutionerna
 offra	offra offrar offrade offren offras offrat offrades offrats offrad offrandet offrande
@@ -2507,7 +2507,7 @@ sorgligt	sorgligt sorgligare sorgligast
 sand	sand sanden sands sandens
 farfar	farfar farfars farfadern farfaderns
 arbetslöshet	arbetslöshet arbetslösheten arbetslöshetens arbetslöshets
-klämma	klämma klämmer kläm klämde klämt kläms klämdes klämmor klämd klämman klämmas klämmorna
+klämma	klämma klämmer kläm klämde klämt kläms klämdes klämmor klämd klämman klämmas klämmorna klämda klämts
 huvudstad	huvudstad huvudstaden huvudstäder huvudstadens huvudstäderna
 därav	därav deraf
 närvarande	närvarande
@@ -2529,7 +2529,7 @@ monster	monster monstret monsters monstren monstrets
 neka	neka nekar nekas nekade nekad nekades nekat nekats nekande
 utsträckning	utsträckning utsträckningen
 kvarter	kvarter kvarteret kvarteren kvarterets kvarters kvarterens
-svära	svär svära svor svurit svärje svärande svors svuren svurna svärs svärja svurits
+svära	svär svära svor svurit svärje svärande svors svuren svurna svärs svärja svurits svurne
 morsa	morsan morsa morsans morsor morses morsas
 förutsätta	förutsätter förutsatt förutsätta förutsatte förutsätts förutsätt förutsattes
 integration	integration integrationen integrations
@@ -2736,7 +2736,7 @@ underlätta	underlätta underlättar underlättat underlättade underlättas und
 grand	grand grands grandet
 blad	blad bladen bladet bladens bladets blads
 rättegång	rättegång rättegången rättegångar rättegångarna rättegångens rättegångs
-framställa	framställa framställs framställer framställt framställas framställd framställdes framställde framställts framställandet framställande framställ
+framställa	framställa framställs framställer framställt framställas framställd framställdes framställde framställts framställandet framställande framställ framställes
 inriktning	inriktning inriktningar inriktningen inriktningarna
 vinkel	vinkel vinklar vinkeln vinklarna
 överenskommelse	överenskommelse överenskommelsen överenskommelser överenskommelserna
@@ -2760,11 +2760,11 @@ ilska	ilska ilskan
 feber	feber febern
 åstadkomma	åstadkomma åstadkommit åstadkommer åstadkom åstadkommas åstadkoms åstadkommits åstadkommande åstadkommes åstadkommanden
 moln	moln molnen molnet molnens molnets
-pipa	piper pipa pip pepe pep peps pipor pipe pipet pipande piporna pipen
+pipa	piper pipa pip pepe pep peps pipor pipe pipet pipande piporna pipen pips pipit pipan pipans pipandet
 sändning	sändning sändningen sändningar sändningarna sändnings
 torn	tornet torn tornen tornets torns tornar tornens
 blond	blond blonda blont blonde blondare
-häva	hovet häva hov hovar häver hävd hof hoven häv hovets hovarna hävt
+häva	hovet häva hov hovar häver hävd hof hoven häv hovets hovarna hävt hävas hävs hovs hävts hove hävde hävdes hävande
 dialog	dialog dialogen dialoger dialogerna dialogens
 spontan	spontant spontan spontana spontanare
 gött	gött gôtt
@@ -2776,7 +2776,7 @@ dominera	dominerar domineras dominerade dominera dominerat dominerad dominerades
 kommunicera	kommunicera kommunicerar kommunicerade kommuniceras kommunicerat kommunicerande
 medge	medge medger medgivande medges medgav medgett medgivit medgivanden medgavs medgivandet
 svälta	svälter svälta svält svalt svältande svälten svultit svälte svulten svultna
-knäcka	knäcka knäckt knäcker knäck knäckte knäcks knäckas knäcken knäcktes knäckta knäcke knäckande
+knäcka	knäcka knäckt knäcker knäck knäckte knäcks knäckas knäcken knäcktes knäckta knäcke knäckande knäckts knäcket
 tok	tok token tokar toka tokens tokarna
 brutal	brutalt brutal brutala brutalare brutalaste brutale
 fysik	fysik fysiken fysikens
@@ -2861,7 +2861,7 @@ importera	importera importerade importerar importerat importerad importeras impo
 utsikt	utsikt utsikten utsikter utsikterna utsiktens
 motivation	motivation motivationen motivationer
 konferens	konferens konferensen konferenser konferenserna konferensens
-tömma	tömma tömmer tömt töm tömde töms tömd tömmas tömdes tömda tömts tömmarna
+tömma	tömma tömmer tömt töm tömde töms tömd tömmas tömdes tömda tömts tömmarna tömmar
 anfall	anfall anfallet anfallen anfalls
 sexuellt	sexuellt
 äh	äh
@@ -2909,7 +2909,7 @@ termin	termin terminen terminer terminens terminerna termins
 häck	häcken häck häckar häckens häckarna
 grundskola	grundskolan grundskola grundskolor grundskolans grundskole grundskolorna
 socialdemokratisk	socialdemokratiska socialdemokratisk socialdemokratiskt socialdemokratiske
-tränga	tränga tränger trängas trängde trängs trängt trängd trängdes trängande trängda träng trängts
+tränga	tränga tränger trängas trängde trängs trängt trängd trängdes trängande trängda träng trängts trängen
 muskel	muskler musklerna muskel muskeln muskelns musklernas
 orange	orange orangea oranga oranget
 anstränga	anstränga anstränger ansträngt ansträngande ansträngd ansträngde ansträngda ansträng
@@ -3044,7 +3044,7 @@ objektiv	objektiv objektivt objektiva objektivet objektiven objektivets
 lady	lady ladyn
 föregående	föregående föregåendes
 vänja	vänja vänjer vant vande vänj vand vanten
-böja	böja böjer böj böjd böjda böjde böjt böjs böjas böjdes böjen böjar
+böja	böja böjer böj böjd böjda böjde böjt böjs böjas böjdes böjen böjar böjts
 sallad	sallad salladen sallader sallads
 pm	pm
 pågående	pågående
@@ -3058,7 +3058,7 @@ våldtäktsman	våldtäktsmän våldtäktsman våldtäktsmannen våldtäktsmänn
 värdera	värderar värdera värderas värderade värderad värderat värderades värderande värderats
 kapitel	kapitel kapitlet kapitlen kapitlets
 drama	drama dramat dramer draman dramats dramerna
-para	para parad paraden parade parar paras parader parat pares parades pare parata
+para	para parad paraden parade parar paras parader parat pares parades pare parata paradens paraderna paren
 officer	officer officerare officerarna officeren officers officerarnas officerares officern
 pjäs	pjäs pjäsen pjäser pjäserna pjäsens
 pinne	pinne pinnar pinnen pinnarna
@@ -3183,7 +3183,7 @@ rak	rak rakare rakaste rake
 ledarskap	ledarskap ledarskapet ledarskapets ledarskaps
 ständig	ständiga ständig ständige
 flykt	flykt flykten
-stryka	stryka stryker strök strukit strykas ströks struken stryks strukits strukna struket strykt
+stryka	stryka stryker strök strukit strykas ströks struken stryks strukits strukna struket strykt strykande
 dialekt	dialekt dialekter dialekten dialekterna
 tillägg	tillägg tillägget tilläggen tilläggs
 avsedd	avsedd avsedda avsett
@@ -3216,8 +3216,8 @@ road	road roade roat
 intelligent	intelligent intelligenta intelligentare intelligentaste intelligente
 brorsa	brorsan brorsa brorsans brorsas brorsor brorsorna
 abort	abort aborter aborten aborterna
-sky	sky skyn skyr skyarna skyar skytt skyttar skytten skys skytts skyttarna skydde
-pumpa	pumpa pumpar pumpen pumpas pumpade pumpat pumpor pumpan pumpad pumpades pumpande pumpats
+sky	sky skyn skyr skyarna skyar skytt skyttar skytten skys skytts skyttarna skydde skyttens
+pumpa	pumpa pumpar pumpen pumpas pumpade pumpat pumpor pumpan pumpad pumpades pumpande pumpats pumporna
 sekreterare	sekreterare sekreteraren sekreterarna sekreterarens sekreterares
 valuta	valuta valutor valutan valutorna valutans
 kudde	kudde kudden kuddar kuddarna
@@ -3267,7 +3267,7 @@ omdöme	omdöme omdömen omdömet omdömena
 databas	databas databasen databaser databaserna
 virus	virus viruset virusets virusen
 teoretisk	teoretiska teoretisk teoretiskt
-angripa	angriper angripa angrep angripna angripen angrips angripit angreps angripas angripet angripits angripande
+angripa	angriper angripa angrep angripna angripen angrips angripit angreps angripas angripet angripits angripande angrip
 faktisk	faktiska faktisk
 bistånd	bistånd biståndet bistånds
 fattigdom	fattigdom fattigdomen fattigdomens
@@ -3411,7 +3411,7 @@ lucka	luckan lucka luckor luckorna
 blöda	blöder blöda blödde blödande
 gyllene	gyllene gyllne
 kåt	kåt kåta kåtor kåtare kåtan kåtaste
-gala	galan gala gal gale gol galten galt galor gals galans gales galorna
+gala	galan gala gal gale gol galten galt galor gals galans gales galorna galande galtar galer
 redigera	redigera redigerat redigerade redigerar redigerad redigerades redigeras redigerats
 upprätta	upprätta upprättas upprättat upprättade upprättar upprättandet upprättades upprättats upprättad upprättande
 presentation	presentation presentationen presentationer presentationerna
@@ -3491,7 +3491,7 @@ slöja	slöja slöjan slöjor slöjans
 kalender	kalendern kalender kalendrar kalendrarna kalenderns
 novell	noveller novell novellen novellerna novellens
 efterbliven	efterbliven efterblivna efterblivet
-motta	motta mottagit mottog mottar mottaga mottagen mottages mottogs mottagna mottas mottaget mottagits
+motta	motta mottagit mottog mottar mottaga mottagen mottages mottogs mottagna mottas mottaget mottagits mottagas
 utgångspunkt	utgångspunkt utgångspunkten utgångspunkter utgångspunkterna
 förfluten	förflutna förflutet förfluten förflutnas
 idol	idol idoler idols idolerna idolen
@@ -3508,10 +3508,10 @@ bacon	bacon baconet baconen bacons
 trång	trångt trång trånga trängre
 anka	anka ankan ankor ankas ankorna ank anke
 passion	passion passionen passioner passions passionens
-blek	blek bleka blekt blekaste blekare bleker blekta blekte bleke bleket bleks blekas
+blek	blek bleka blekt blekaste blekare bleker blekta blekte bleke bleket bleks blekas blekts
 orm	ormar orm ormen ormens ormarna ormarnas orms
 pack	pack packet packs
-brygga	brygga bryggan brygger bryggor bryggt bryggs brygge bryggorna brygg bryggde bryggdes bryggans
+brygga	brygga bryggan brygger bryggor bryggt bryggs brygge bryggorna brygg bryggde bryggdes bryggans bryggd bryggen bryggts bryggas
 chockad	chockad chockade chockat
 generell	generella generell
 stadig	stadigt stadig stadiga stadigare
@@ -3523,7 +3523,7 @@ deprimerad	deprimerad deprimerade deprimerat
 fuska	fuskar fuska fuskat fuskade fuskas fuskande
 sörja	sörja sörjer sörjande sörjan sörjt sörjde sörj sörjas sörjd
 metall	metall metaller metallen metallerna metallens metalls
-bomba	bomba bombar bombade bomben bombat bombas bombad bombades bombats bombare bombaren bombarna
+bomba	bomba bombar bombade bomben bombat bombas bombad bombades bombats bombare bombaren bombarna bombe
 tillkomma	tillkommer tillkommit tillkom tillkomma tillkommande tillkomna tillkommen tillkomme
 löjlig	löjlig löjliga löjligaste löjligare
 nyttja	nyttja nyttjar nyttjas nyttjade nyttjande nyttjat nyttjades nyttjats nyttjad
@@ -3567,7 +3567,7 @@ fynd	fynd fyndet fynden
 nedre	nedre nedersta
 strategisk	strategiskt strategiska strategisk
 filter	filter filtret filtren filters
-elda	elda elden eldade eldar eldas eldat eldades eldare eldad eldaren eldande eldats
+elda	elda elden eldade eldar eldas eldat eldades eldare eldad eldaren eldande eldats eldarna
 slappna	slappna slappnar slappnade slappnat
 trafikverk	trafikverket trafikverkets trafikverk
 förhör	förhör förhöret förhören förhörs
@@ -3578,7 +3578,7 @@ förövare	förövare förövaren förövarna förövarens förövarnas
 tillräcklig	tillräcklig tillräckliga
 upplaga	upplaga upplagan upplagor upplagorna
 skräck	skräck skräcken skräckens
-återställa	återställa återställd återställas återställer återställ återställs återställt återställde återställande återställts återställdes återställda
+återställa	återställa återställd återställas återställer återställ återställs återställt återställde återställande återställts återställdes återställda återställandet
 begränsning	begränsningar begränsning begränsningen begränsningarna
 trakt	trakten trakterna trakter traktens trakt
 bajs	bajs bajset
@@ -3638,7 +3638,7 @@ dumhet	dumheter dumhet dumheterna dumheten dumhetens
 lila	lila lilas
 köpare	köpare köparen köparna köparens köparnas
 skribent	skribent skribenter skribenten skribenterna skribentens
-smörja	smörja smörjer smörj smörjan smort smörjt smorde smörjas smord smörjde smordes smorda
+smörja	smörja smörjer smörj smörjan smort smörjt smorde smörjas smord smörjde smordes smorda smörjs
 ironi	ironi ironin ironier
 hälsosam	hälsosamt hälsosam hälsosamma hälsosammare
 utdelning	utdelning utdelningen utdelningar utdelningarna
@@ -3841,7 +3841,7 @@ grotta	grotta grottan grottor grottorna grottans
 demonstrera	demonstrera demonstrerar demonstrerade demonstrerat demonstreras demonstrerande demonstrerades demonstrerats
 protein	protein proteiner proteinet proteinerna proteinets proteiners proteins
 mysa	mysa myser myst myste mysas mös
-fördöma	fördömer fördöma fördömande fördömde fördömt fördömda fördömanden fördömas fördöms fördömd fördömdas fördömdes
+fördöma	fördömer fördöma fördömande fördömde fördömt fördömda fördömanden fördömas fördöms fördömd fördömdas fördömdes fördömandet fördömts fördöm
 laglig	lagliga laglig
 skrivbord	skrivbord skrivbordet skrivbords skrivborden
 research	research researchen
@@ -3884,7 +3884,7 @@ passiv	passiv passivt passiva passive
 skrapa	skrapa skrapar skrapade skrapat skrapan skrapas skrapor skrapande skrapades skrapats skraporna
 byrå	byrån byrå byråer byråns byråerna byråar
 överklaga	överklaga överklagar överklagas överklagade överklagat överklagande överklagades överklagats överklagad
-erhålla	erhålla erhållit erhöll erhåller erhålls erhållas erhölls erhålles erhållits erhållna erhållen erhållande
+erhålla	erhålla erhållit erhöll erhåller erhålls erhållas erhölls erhålles erhållits erhållna erhållen erhållande erhållet
 vansinne	vansinne vansinnet vansinnets
 docka	docka dockor dockan dockorna dockans dockade dockad dockar dockornas dockas dockat
 norrman	norrmän norrman norrmännen norrmannen norrmännens
@@ -3950,7 +3950,7 @@ tunna	tunna tunnor tunnan tunnorna tunnas tunnar tunnats tunne
 uppvärmning	uppvärmning uppvärmningen
 socialist	socialist socialister socialisterna socialisten socialisternas socialists
 cash	cash cashen cashs
-beta	beta betan betande betat betade betagen betor betar betas betagande betagna betad
+beta	beta betan betande betat betade betagen betor betar betas betagande betagna betad betorna beten betes
 foster	foster fostret fostrets fosters fostren
 klia	kliar klia kliade kliande kliad kliat kliandet klias
 syd	syd syds
@@ -4092,7 +4092,7 @@ runka	runka runkar runkade runkat runkande runken
 upplopp	upplopp upploppet upploppen
 frekvens	frekvens frekvensen frekvenser frekvenserna
 lukt	lukt lukten lukter lukterna
-anlägga	anlägga anlagda anlagd anlades anlade anlagt anläggas anlägger anläggs anlagts anläggande anläggandet
+anlägga	anlägga anlagda anlagd anlades anlade anlagt anläggas anlägger anläggs anlagts anläggande anläggandet anläggare anlägg
 uppvisa	uppvisar uppvisa uppvisade uppvisat uppvisas uppvisande uppvisad uppvisades
 arbetskraft	arbetskraft arbetskraften arbetskrafts arbetskraftens
 kidnappa	kidnappad kidnappa kidnappade kidnappar kidnappat kidnappades kidnappats kidnappas
@@ -4207,11 +4207,11 @@ grill	grill grillen grillar griller grillarna grills
 rota	rota roten rotade rotat rotar rotad rote rotas rotande rotens
 årtionde	årtionden årtionde årtiondena årtiondet årtiondets
 tweet	tweet tweets tweeten tweetar
-ranka	rankas rankade rankad rankar ranka rankat rankades rankor rankats ranken rankorna ranke
+ranka	rankas rankade rankad rankar ranka rankat rankades rankor rankats ranken rankorna ranke rankan
 hovrätt	hovrätten hovrätt hovrättens hovrätts hovrätterna hovrätter
 kebab	kebab kebaben
 värva	värva värvade värvades värvat värvar värv värvas värvad värvet värvats värvare
-begrava	begrava begraven begravdes begravas begravs begravts begraver begrav begravde begravt begravna begrovs
+begrava	begrava begraven begravdes begravas begravs begravts begraver begrav begravde begravt begravna begrovs begravet
 tillvaro	tillvaro tillvaron tillvarons
 mjöl	mjöl mjölet
 utfall	utfall utfallet utfallen
@@ -4470,7 +4470,7 @@ anmärkningsvärd	anmärkningsvärt anmärkningsvärd anmärkningsvärda
 republikan	republikanerna republikaner republikan republikanernas republikanen
 träda	träder träda träden trädde trätt träds
 brandman	brandmän brandman brandmännen brandmannen brandmännens
-mala	male mala malt maler malde malet malda malande mald malas males malen
+mala	male mala malt maler malde malet malda malande mald malas males malen maldes mals malten malts
 livsfarlig	livsfarligt livsfarlig livsfarliga
 vegan	vegan veganer veganerna veganen
 tiotal	tiotal tiotals tiotalet
@@ -4572,7 +4572,7 @@ frustration	frustration frustrationen frustrationer
 korsa	korsa korsade korsat korsas korsande korsades korsats korsad korsen
 famn	famn famnen famnar
 massage	massage massagen
-utge	utger utge utgav utges utgavs utgett utgivits utgivande utgivit utgivandet utgiva utgifven
+utge	utger utge utgav utges utgavs utgett utgivits utgivande utgivit utgivandet utgiva utgifven utgetts
 vett	vett vettet
 kyss	kyss kyssar kyssen kyssarna
 hänvisning	hänvisning hänvisningar hänvisningen hänvisningarna
@@ -4794,7 +4794,7 @@ hopplöst	hopplöst
 massvis	massvis
 nedåt	nedåt
 någorlunda	någorlunda
-bibehålla	bibehålla bibehållen bibehåller bibehållas bibehålls bibehållande bibehållet bibehållit bibehållna bibehöll bibehåll bibehållits
+bibehålla	bibehålla bibehållen bibehåller bibehållas bibehålls bibehållande bibehållet bibehållit bibehållna bibehöll bibehåll bibehållits bibehölls bibehållandet
 korrigera	korrigera korrigerar korrigerat korrigeras korrigerade korrigerad korrigerande korrigerades korrigerats
 blues	blues bluesen bluesens
 familjemedlem	familjemedlemmar familjemedlem familjemedlemmarna familjemedlemmen familjemedlemmars familjemedlems
@@ -5218,7 +5218,7 @@ oundviklig	oundvikligt oundvikliga oundviklig
 senior	senior seniorer seniors seniorerna seniora
 calla	calle callen calles callas calla
 medelklass	medelklassen medelklass medelklassens
-borra	borra borrar borrade borrat borras borren borrades borrad borre borrande borrats borrare
+borra	borra borrar borrade borrat borras borren borrades borrad borre borrande borrats borrare borrandet
 börda	börda bördan bördor bördorna
 monopol	monopol monopolet monopolen monopolets
 zoo	zoo zoot zoon zoos
@@ -5368,7 +5368,7 @@ pedagogik	pedagogik pedagogiken pedagogikens
 namnge	namnge namngivna namngiven namngav namngavs namnger namnges namngett namngetts namngivit namngivet namngivits
 ledighet	ledighet ledigheten ledigheter
 framkalla	framkalla framkallar framkallade framkallande framkallat framkallas framkallad framkallades framkallats framkallare
-stupa	stupade stupar stupat stöpet stupa stöpa stupad stöpt stöp stöpta stöper stupan
+stupa	stupade stupar stupat stöpet stupa stöpa stupad stöpt stöp stöpta stöper stupan stöps stupades stupande stöpte
 psykopat	psykopat psykopater psykopaten psykopaterna
 staket	staket staketet staketen
 grace	grace graces gracerna
@@ -5703,7 +5703,7 @@ hipster	hipster hipsters hipstern
 ruin	ruiner ruinerna ruin ruinen ruinens ruins
 spädbarn	spädbarn spädbarnet spädbarns spädbarnets spädbarnen
 spa	spa span spat spas spaet
-återge	återger återge återges återgav återgivna återgiven återgett återgivet återgivande återgavs återgivit återgetts
+återge	återger återge återges återgav återgivna återgiven återgett återgivet återgivande återgavs återgivit återgetts återgivits
 censur	censur censuren censurens
 obetydlig	obetydlig obetydliga obetydligt
 kortsiktig	kortsiktiga kortsiktigt kortsiktig
@@ -5773,7 +5773,7 @@ klinisk	klinisk kliniska kliniskt
 skriftlig	skriftliga skriftlig
 brukare	brukare brukaren brukarna brukarens
 borgare	borgare borgarna borgaren borgarnas
-fasa	fasa fasar fasas fasor fasan fasaner fasade fasades fasat fasorna fasanen fasats
+fasa	fasa fasar fasas fasor fasan fasaner fasade fasades fasat fasorna fasanen fasats fasanerna fasans
 slutlig	slutliga slutlig slutligt
 arabisk	arabisk arabiskt arabiske
 våldsbrott	våldsbrott våldsbrotten
@@ -6024,7 +6024,7 @@ tjusig	tjusigt tjusiga tjusig tjusigare tjusigaste
 träsk	träsk träsket träsken träskets
 kat	kat khat kats
 argumentation	argumentation argumentationen argumentationer
-gjuta	gjuten göte gjuta gjutna göt gjutet gjuter götar gjutas gjutit götes götarna
+gjuta	gjuten göte gjuta gjutna göt gjutet gjuter götar gjutas gjutit götes götarna gjuts göts gjutits gjutare götarnas gjut
 rally	rally rallyt rallyn
 skvaller	skvaller skvallret
 lotteri	lotteri lotteriet lotterier lotterierna lotteriets
@@ -6241,7 +6241,7 @@ instängd	instängd instängda instängt
 skrivare	skrivare skrivaren skrivarna skrivares
 uppföljning	uppföljning uppföljningen uppföljningar
 knepig	knepig knepiga knepigare
-iaktta	iaktta iakttar iakttas iakttog iakttagit iakttagits iakttogs iakttagen iakttagna iakttaga iakttagande iakttagas
+iaktta	iaktta iakttar iakttas iakttog iakttagit iakttagits iakttogs iakttagen iakttagna iakttaga iakttagande iakttagas iakttag
 jogga	jogga joggar jogg joggade joggat joggande
 ologisk	ologiskt ologiska ologisk
 blankett	blankett blanketten blanketter blanketterna
@@ -7448,7 +7448,7 @@ lurig	lurigt luriga lurig lurigare
 generator	generator generatorer generatorn generatorerna generatorns
 frälst	frälst frälsta frälste
 mörkrädd	mörkrädd mörkrädda
-väva	väver väva vov vävda väven vävt vävde vävd vävs vof vävare vävts
+väva	väver väva vov vävda väven vävt vävde vävd vävs vof vävare vävts vävdes vävas vävaren vävarna
 sofistikerad	sofistikerad sofistikerade sofistikerat
 studiebesök	studiebesök studiebesöket
 upprustning	upprustning upprustningen upprustningar
@@ -7835,7 +7835,7 @@ strukturell	strukturell strukturellt
 muntlig	muntliga muntlig
 slagfält	slagfältet slagfält slagfälten slagfältets
 ven	ven vener hven venerna venen vens
-smida	smider smida smide smitt smid smidde smidd smids smiddes smidet smidas smitts
+smida	smider smida smide smitt smid smidde smidd smids smiddes smidet smidas smitts smidit smides
 nedsätta	nedsatt nedsätta nedsätter nedsattes
 undermålig	undermåliga undermålig undermåligt
 enzym	enzym enzymer enzymet enzymerna enzymen

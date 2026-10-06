@@ -57,6 +57,7 @@ class WordFrequencyScreenTest {
 
     private val overview = WordFrequencyOverview("Portuguese", list.source, list.words.map { RankedWord(it, status(it.rank)) })
     private val opened = mutableListOf<String>()
+    private val levelsSet = mutableListOf<Int>()
 
     private fun ComposeUiTest.show() = setContent {
         var state by remember { mutableStateOf(WordFrequencyUiState(loading = false, languageId = 1, languageName = "Portuguese", overview = overview)) }
@@ -71,6 +72,7 @@ class WordFrequencyScreenTest {
                             onSearch = { state = state.copy(search = it) },
                             onOpen = { opened += it },
                             translate = { "<$it>" },
+                            onSetLevel = { levelsSet += it },
                         )
                     }
                 }
@@ -134,6 +136,19 @@ class WordFrequencyScreenTest {
         val found = onAllNodes(hasTestTagStartingWith("word-")).fetchSemanticsNodes().size
         assertTrue(found in 1..6, "a form finds its word, and only words starting with it: $found")
         assertTrue(onAllNodesWithTag("word-casa").fetchSemanticsNodes().isEmpty())
+    }
+
+    @Test
+    fun aBandSetsTheLevelAfterAsking() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        onNodeWithTag("set-level-200").performClick()
+        onNodeWithText("Change vocabulary level from 0 to 200?", substring = true).assertExists()
+        System.getenv("FREQUENCY_LEVEL_DIALOG_SCREENSHOT")?.let { save(it) }
+        onNodeWithText("Cancel").performClick()
+        assertEquals(emptyList(), levelsSet)
+        onNodeWithTag("set-level-200").performClick()
+        onNodeWithText("Yes").performClick()
+        assertEquals(listOf(200), levelsSet)
     }
 
     @Test

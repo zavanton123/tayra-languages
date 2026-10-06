@@ -1,0 +1,28 @@
+-- The vocabulary level set per language: the reader knows the words ranked up to it.
+CREATE TABLE vocabulary_levels (
+    language_id INTEGER NOT NULL PRIMARY KEY REFERENCES languages(id) ON DELETE CASCADE,
+    level INTEGER NOT NULL
+);
+
+-- Terms saved as known by setting a level, so lowering the level can take them back.
+CREATE TABLE level_terms (
+    term_id INTEGER NOT NULL PRIMARY KEY REFERENCES terms(id) ON DELETE CASCADE
+);
+
+selectLevel:
+SELECT level FROM vocabulary_levels WHERE language_id = :languageId;
+
+upsertLevel:
+INSERT OR REPLACE INTO vocabulary_levels(language_id, level) VALUES (:languageId, :level);
+
+selectLevelTerms:
+SELECT t.id, t.text_lc, t.status FROM level_terms lt INNER JOIN terms t ON t.id = lt.term_id WHERE t.language_id = :languageId;
+
+insertLevelTerm:
+INSERT OR IGNORE INTO level_terms(term_id) VALUES (:termId);
+
+deleteLevelTerms:
+DELETE FROM level_terms WHERE term_id IN :ids;
+
+selectWordTerms:
+SELECT id, text_lc, status FROM terms WHERE language_id = :languageId AND token_count = 1;

@@ -1,0 +1,10 @@
+-- The vocabulary level set per language: the reader knows the words ranked up to it.
+CREATE TABLE IF NOT EXISTS vocabulary_levels (
+    language_id INTEGER NOT NULL PRIMARY KEY REFERENCES languages(id) ON DELETE CASCADE,
+    level INTEGER NOT NULL
+);
+
+-- Terms saved as known by setting a level, so lowering the level can take them back.
+CREATE TABLE IF NOT EXISTS level_terms (
+    term_id INTEGER NOT NULL PRIMARY KEY REFERENCES terms(id) ON DELETE CASCADE
+);

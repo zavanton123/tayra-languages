@@ -1,15 +1,15 @@
 # source: wordfreq 3.1.1 (CC BY-SA 4.0)
 # words: 10000
-der	die der das den dem des denen deren dessen derer dat det
-sein	ist sind war sein bin seine waren seiner wäre seinen sei seinem
+der	die der das den dem des denen deren dessen derer dat det dero
+sein	ist sind war sein bin seine waren seiner wäre seinen sei seinem bist gewesen seines wären seien seid wär warst wärst wart seins wärt seist wärest seyn gewesenen gewesene wäret seiest warts seiend gewesener gewesenes
 und	und vnd unnd
 in	in im ins inn worin hierin
-ein	ein eine einen einer einem eines nen ner eint geeint geeinten geeintes
+ein	ein eine einen einer einem eines nen ner eint geeint geeinten geeintes einte geeinte
 ich	ich mir mich ichs
 zu	zu zum zur hierzu
-haben	hat haben habe hatte hab hast hätte hatten hätten habt gehabt hättest
+haben	hat haben habe hatte hab hast hätte hatten hätten habt gehabt hättest hammer hattest han haste ham hättet hattet hämmern habens hämmert hämmer hammers hämmerte gehämmert hamse hane habend habet hasts hämmerten
 von	von vom hiervon vong
-werden	wird werden wurde würde wurden werde worden würden geworden wirst würdest werd
+werden	wird werden wurde würde wurden werde worden würden geworden wirst würdest werd werdet würdet ward werdenden gewordenen wurdest gewordene werdende werdens wurdet gewordener werdender worde werdend gewordenes werdendes werdendem
 nicht	nicht nich net nech
 auf	auf am aufs uff hierauf auff
 mit	mit hiermit mim
@@ -20,7 +20,7 @@ er	er ihm ihn
 sich	sich sichs
 an	an am ans hieran
 auch	auch
-können	kann können könnte konnte kannst könnten konnten könnt könne könntest könntet gekonnt
+können	kann können könnte konnte kannst könnten konnten könnt könne könntest könntet gekonnt konntest könnens konntet könner gekonnten gekonnte könnern gekonnter
 bei	bei beim hierbei bey beis beys
 als	als
 du	du dir dich dus
@@ -36,17 +36,17 @@ nach	nach wonach hiernach
 noch	noch
 nur	nur
 wenn	wenn wenns
-gut	gut besser gute guten besten beste guter gutes bessere bester besseren besseres
+gut	gut besser gute guten besten beste guter gutes bessere bester besseren besseres bestes gutem güter besserer gütern bestem guts besserem jut
 oder	oder
 was	was wat wes waser
 um	um ums hierum
 man	man
 kein	keine kein keinen keiner keinem keines keins
 mein	meine mein meiner meinem meinen meines meins meyn
-müssen	muss müssen musste musst müsste mussten müssten müsse müsst müsstest musstest müsstet
-machen	machen macht gemacht mach machte mache machst machten macher mächte machs mächten
+müssen	muss müssen musste musst müsste mussten müssten müsse müsst müsstest musstest müsstet musstet gemusst
+machen	machen macht gemacht mach machte mache machst machten macher mächte machs mächten machern machens machend machet machtest macherinnen
 über	über übers hierüber übern überm
-geben	gibt geben gab gegeben gibt's gebe gibts geb gaben gib gäbe gebt
+geben	gibt geben gab gegeben gibt's gebe gibts geb gaben gib gäbe gebt gibst gebet gebeten gegebenen gebete gegebene gegebener geber gegebenem gebets gäben gegebenes gebetes gabst gebens gebend gebers
 viel	viel viele vielen meisten meist vieler meiste mehrerer mehrer mehre
 da	da
 dann	dann
@@ -54,84 +54,84 @@ schon	schon
 ja	ja
 mehr	mehr
 Jahr	jahr jahren jahre jahres jar jahrs jährchen
-gehen	geht gehen ging gehe geh geht's gegangen gingen gehst ginge gehn gehend
-vor	vor vorn vorderen vordere vors vorder wovor vorderster vorderer vordersten vorderste vorderes
+gehen	geht gehen ging gehe geh geht's gegangen gingen gehst ginge gehn gehend gehet gingst gangen gehens
+vor	vor vorn vorderen vordere vors vorder wovor vorderster vorderer vordersten vorderste vorderes hiervor vorderem
 sollen	soll sollte sollen sollten solltest solle sollst solltet sollt solls sölle
-kommen	kommt kommen kam gekommen kamen komm komme kommst käme kommenden kämen kommend
-wollen	will wollen wollte willst wollten wollt wolle gewollt wolltest wolltet gewollte gewollten
+kommen	kommt kommen kam gekommen kamen komm komme kommst käme kommenden kämen kommend kamst kommender kommendes kommet kamt kommendem kämst kommens kömmt
+wollen	will wollen wollte willst wollten wollt wolle gewollt wolltest wolltet gewollte gewollten wollens gewollter wollner gewolltes wollend
 mal	mal ma male mals males
 durch	durch wodurch durchs hierdurch
 hier	hier hie
 bis	bis
 doch	doch
-sehen	sehen sieht gesehen sehe sah siehe siehst seh sahen seht sieh sehn
+sehen	sehen sieht gesehen sehe sah siehe siehst seh sahen seht sieh sehn sähe sähen sehens sahst sehet sehend saht säht
 anderer	anderen andere anderes anderem anderer andern andre andres andren andrer anderm andrem
 jetzt	jetzt jz jez getz jetze itzt
-sagen	sagen sagt sagte gesagt sag sage sagst sagten sagtest sags saget sagens
+sagen	sagen sagt sagte gesagt sag sage sagst sagten sagtest sags saget sagens sagend sagtet
 immer	immer
-neu	neue neuen neu neues neuer neuem neuesten neueste neuere neueren neusten neuste
+neu	neue neuen neu neues neuer neuem neuesten neueste neuere neueren neusten neuste neuerer neuester neuestem neuestes neueres neustem neuster neustes
 ganz	ganz ganze ganzen ganzes ganzer ganzem janz gantz
 wieder	wieder
-groß	grosse grossen gross grosser grösste grössten grosses grössere grösser grösseren grossem grösster
+groß	grosse grossen gross grosser grösste grössten grosses grössere grösser grösseren grossem grösster grösserer grösseres grösstes grösserem grösstem
 alle	alle
-finden	finden findet finde gefunden fand findest fanden find fände gefundenen gefundene fänden
+finden	finden findet finde gefunden fand findest fanden find fände gefundenen gefundene fänden funden fandest gefundenes fande fändest fandet gefundener findens
 sehr	sehr
 alles	alles allen
 unter	unter unterm unters untern worunter hierunter
 jeder	jeder jeden jede jedes jedem
-stehen	steht stehen stand standen stehe stehenden gestanden stehst steh stehende stände stehend
-lassen	lassen lässt liess lass lasst gelassen lasse liesse liesst lasset gelassener gelassenen
-wissen	weiss wissen wusste weisst wisst gewusst wussten wüsste wissens wüssten wisse wusstest
-unser	unsere unser unserer unseren unserem unseres unsre unsern unserm unsrer unsren unsrem
+stehen	steht stehen stand standen stehe stehenden gestanden stehst steh stehende stände stehend stünde ständen stande stünden stehn stehender stehendes standes stands ständchen gestandene stehendem gestandenen stund standest standl gestandener stahn stehet
+lassen	lassen lässt liess lass lasst gelassen lasse liesse liesst lasset gelassener gelassenen gelassene lassend liessest lasser lassens
+wissen	weiss wissen wusste weisst wisst gewusst wussten wüsste wissens wüssten wisse wusstest wüsstest wissend wusstet wüsstet wisset
+unser	unsere unser unserer unseren unserem unseres unsre unsern unserm unsrer unsren unsrem unsers unsres
 deutsch	deutschen deutsche deutsch deutscher deutsches deutschem teutsch deutscheste
 erste	ersten erste erster erstes erstem
 Zeit	zeit zeiten
 gegen	gegen wogegen hiergegen
 dein	deine dein deinen deiner deinem deines deins
-einfach	einfach einfache einfacher einfachen einfaches einfachste einfachsten einfachere einfacheren einfachem einfacheres einfacherer
-leben	leben lebens lebt lebe lebte gelebt lebenden lebten lebende lebst lebend leb
+einfach	einfach einfache einfacher einfachen einfaches einfachste einfachsten einfachere einfacheren einfachem einfacheres einfacherer einfachster eif
+leben	leben lebens lebt lebe lebte gelebt lebenden lebten lebende lebst lebend leb lebender gelebte lebendes gelebten gelebter gelebtes lebendem lebet
 also	also
 Tag	tag tage tagen tages tags tagt tagte tach getagt tagenden tagten brückentage
 ab	ab
 Mensch	menschen mensch mensche menschlein
 denn	denn
 damit	damit
-lange	lange lang länger langen langer längere langem längeren langes gelangt längerer längerem
+lange	lange lang länger langen langer längere langem längeren langes gelangt längerer längerem längste längsten längeres langt langs langte längster langst langten
 zwei	zwei zweier zweien zwey
 ohne	ohne
 weil	weil
-weit	weitere weit weiteren weiteres weiterer weite weiten weitem weitesten weitet weiterem weites
+weit	weitere weit weiteren weiteres weiterer weite weiten weitem weitesten weitet weiterem weites weiteste weitete weiteten geweitet weitest
 etwas	etwas
 nichts	nichts nix nixe nischt nixen
 wer	wer wen wem wessen wers wes
-klein	kleine kleinen kleiner klein kleines kleinere kleineren kleinste kleinsten kleinem kleinerer kleineres
+klein	kleine kleinen kleiner klein kleines kleinere kleineren kleinste kleinsten kleinem kleinerer kleineres kleinerem kleinster kleinstes kleins kleinstem kleinst
 Mann	mann männer männern mannes männchen manns mannen manne männlein mandl männchens männle
 seit	seit
-stellen	stellen stellt stelle gestellt stellte stell stellten gestellten stellst gestellte gestellter gestelltes
+stellen	stellen stellt stelle gestellt stellte stell stellten gestellten stellst gestellte gestellter gestelltes stellenden stellend
 Frau	frau frauen fräulein frauchen fräuleins
-tun	tun tut tat getan tu taten tue tust täte täten tuen tät
+tun	tun tut tat getan tu taten tue tust täte täten tuen tät tuns tatest tätest tuet
 selbst	selbst
 wo	wo
 all	allem aller all allen alls
-nehmen	nehmen nimmt genommen nahm nehme nahmen nimm nimmst nehmt nähme nähmen nehmend
+nehmen	nehmen nimmt genommen nahm nehme nahmen nimm nimmst nehmt nähme nähmen nehmend nehmens nehmet nahmst
 heute	heute heut
 nun	nun nu
-alt	alten alte alt alter ältere älteren älter altes ältesten älteste älterer ältester
+alt	alten alte alt alter ältere älteren älter altes ältesten älteste älterer ältester älteres altem ältestes älterem alts ältestem
 wenig	wenig weniger wenige wenigen wenigsten minder mindesten wenigste weniges
 gerade	gerade grad grade geraden grades gerader graden geradem gerades
-mögen	möchte mag möchten mögen möchtest magst möge mochte mochten möchtet gemocht mögt
-liegen	liegt liegen lag gelegen liege lagen liegenden gelegenen liegende gelegene liegend liegst
-denken	denke denken dachte gedacht denkt denk denkst dachten denkens gedenkt denkende dachtest
-spielen	spielen spielt spieler gespielt spiele spielte spielten spielst gespielten spielend gespielter spielens
-hoch	hoch hohen hohe höher höhere hoher höchsten höchste höheren hohem höchst hohes
+mögen	möchte mag möchten mögen möchtest magst möge mochte mochten möchtet gemocht mögt mögest möget mochtest
+liegen	liegt liegen lag gelegen liege lagen liegenden gelegenen liegende gelegene liegend liegst läge lägen lieg gelegenes liegender liegendes gelegener lags liegendem lagst lagt gelegenem
+denken	denke denken dachte gedacht denkt denk denkst dachten denkens gedenkt denkende dachtest denkenden denkender denkend dachtet dächte dächten denket
+spielen	spielen spielt spieler gespielt spiele spielte spielten spielst gespielten spielend gespielter spielens gespieltes
+hoch	hoch hohen hohe höher höhere hoher höchsten höchste höheren hohem höchst hohes höchster höherer höheres höchstem höherem höchstes hochs hoechst
 Kind	kinder kind kindern kindes kinde kindchen kindlein kinds kinders
-bleiben	bleibt bleiben blieb geblieben blieben bleibe bleib bleibst bliebe bleibenden bleibende bleibend
+bleiben	bleibt bleiben blieb geblieben blieben bleibe bleib bleibst bliebe bleibenden bleibende bleibend bleibendes bleibender bliebt bleibendem bleibet
 welcher	welche welches welcher welchen welchem
 ob	ob ob's
-dürfen	darf dürfen dürfte durfte darfst dürften durften dürfe dürft dürftest durftest dürftet
+dürfen	darf dürfen dürfte durfte darfst dürften durften dürfe dürft dürftest durftest dürftet gedurft durftet
 zwischen	zwischen
 beide	beiden beide beides beider beidem
-schön	schön schöne schönen schöner schönes schönsten schönste schöneres schönem schönere schöneren schönster
+schön	schön schöne schönen schöner schönes schönsten schönste schöneres schönem schönere schöneren schönster schönstes geschönt schönstem schönerer geschönten schöns
 gern	gerne lieber gern liebsten
 dabei	dabei
 gleich	gleich gleichen gleiche gleicher gleiches gleicht gleichem glich glichen gliche
@@ -139,12 +139,12 @@ letzte	letzten letzte letzter letztes letztem
 dort	dort
 sondern	sondern sonder gesondert gesonderte gesonderten gesonderter gesondertes sondert
 recht	recht rechte rechten rechter rechtes rechtem
-bringen	bringen bringt gebracht brachte brachten bring bringe bringst bracht brächte gebrachten gebrachte
+bringen	bringen bringt gebracht brachte brachten bring bringe bringst bracht brächte gebrachten gebrachte brächten bringende
 zeigen	zeigt zeigen gezeigt zeigte zeigten zeige zeig zeigst gezeigten gezeigte zeigenden zeigend
 einige	einige einigen einiges einiger einig geeinigt einigem einigten einigte einigt
 wirklich	wirklich wirkliche wirklichen wirklicher wirkliches wirklichem
 richtig	richtig richtige richtigen richtiger richtiges richtigem
-halten	halten hält halte hielt gehalten hielten haltet hältst gehaltenen gehaltene hielte haltend
+halten	halten hält halte hielt gehalten hielten haltet hältst gehaltenen gehaltene hielte haltend gehaltener gehaltenes
 erst	erst ers
 glauben	glaube glauben glaub glaubt glaubst geglaubt glaubte glaubens glaubten
 warum	warum
@@ -154,43 +154,43 @@ wohl	wohl wohle woll wohler wol wohlen wohlsten wohls
 Land	land ländern landes länder lande lands ländchen
 drei	drei dreier dreien drey dreiern
 vielleicht	vielleicht vllt
-brauchen	braucht brauchen brauche gebraucht brauchst brauch brauchte bräuchte brauchten bräuchten gebrauchte gebrauchten
-nah	nächsten nächste näher nächstes nah nahen nächster nähere nähern nähert näheren naht
+brauchen	braucht brauchen brauche gebraucht brauchst brauch brauchte bräuchte brauchten bräuchten gebrauchte gebrauchten bräuche gebrauchtes gebrauchter bräuchtest bräuchen brauchs brauchtest
+nah	nächsten nächste näher nächstes nah nahen nächster nähere nähern nähert näheren naht naher näheres näherte näherer näherten nähte nächstem genähert nahenden nähten näherin näherem nahem nahes näherinnen nahte nähernden nähre nähesten näherst
 Frage	frage fragen
 weg	weg wege weges wegs
-genau	genau genauer genaue genauen genauere genaues genaueres genaueren genauerer genauerem genauem genaueste
+genau	genau genauer genaue genauen genauere genaues genaueres genaueren genauerer genauerem genauem genaueste genauesten genauester
 bekommen	bekommen bekommt bekam bekomme bekommst bekamen bekomm bekäme bekämen bekamst
 eigen	eigenen eigene eigenes eigener eigenem eigen eigner eigne eignes eignern
 dazu	dazu
-folgen	folgen folgenden folgt folgende folgte gefolgt folgendes folgten folgender folgend folgendem folgst
-suchen	suchen suche sucht gesucht such suchte suchst suchten gesuchten suchenden gesuchter suchend
+folgen	folgen folgenden folgt folgende folgte gefolgt folgendes folgten folgender folgend folgendem folgst folg folger folget
+suchen	suchen suche sucht gesucht such suchte suchst suchten gesuchten suchenden gesuchter suchend suchet süchte gesuchtet suchens süchten suchtest gesuchtes
 Leute	leute leuten leut leude leutchen leuts
 Fall	fall fällen fälle falle falles fällte fällst fällten fäll
 bitte	bitte bete beete
-führen	führt führen geführt führte führten führenden führende geführten geführte führe führender führend
-laufen	läuft laufen lauf lief laufe gelaufen laufenden liefen läufer laufende laufend laufender
+führen	führt führen geführt führte führten führenden führende geführten geführte führe führender führend führ führendes führst geführtes geführter führens führendem führet
+laufen	läuft laufen lauf lief laufe gelaufen laufenden liefen läufer laufende laufend laufender läufst lauft läufe läufen liefe läufern laufendem laufendes laufs laufes läuferin laufer läufers laufens
 Haus	haus hause häuser hauses häusern häuschen häusle häusl häuschens
 sowie	sowie
-hören	gehört hören hört höre hör hörte hörst hörten hörtest hörende hörens hörenden
-wichtig	wichtig wichtige wichtiger wichtigsten wichtigen wichtigste wichtiges wichtigere wichtigster wichtigstes wichtigeres wichtigeren
+hören	gehört hören hört höre hör hörte hörst hörten hörtest hörende hörens hörenden höret hörend gehörter gehörtes
+wichtig	wichtig wichtige wichtiger wichtigsten wichtigen wichtigste wichtiges wichtigere wichtigster wichtigstes wichtigeres wichtigeren wichtigem wichtigerer wichtigstem
 während	während währenden währende währender
 dafür	dafür
-fahren	fahren fährt fahrt fahrer fuhr gefahren fahre fahr fuhren fahrten fährst führe
+fahren	fahren fährt fahrt fahrer fuhr gefahren fahre fahr fuhren fahrten fährst führe fahrenden fahrende führst fahrens fahrender fahrendes fahrend fuhrt führet
 Uhr	uhr uhren
-kurz	kurz kurze kurzen kurzer kurzem kürzer kurzes kürzester kürzeren kürzere kürzeste kürzesten
+kurz	kurz kurze kurzen kurzer kurzem kürzer kurzes kürzester kürzeren kürzere kürzeste kürzesten kurtz kürzerer kürzeres kürzerem kürzestem
 Ende	ende endes
-arbeiten	arbeiten arbeitet gearbeitet arbeiter arbeite arbeitete arbeiteten arbeitest arbeitenden arbeitende arbeitens gearbeiteten
+arbeiten	arbeiten arbeitet gearbeitet arbeiter arbeite arbeitete arbeiteten arbeitest arbeitenden arbeitende arbeitens gearbeiteten arbeitend arbeitendes gearbeitetes
 Welt	welt welten
-schnell	schnell schneller schnelle schnellen schnelles schnellste schnellsten schnellere schnelleren schnellem schnelleres schnellster
+schnell	schnell schneller schnelle schnellen schnelles schnellste schnellsten schnellere schnelleren schnellem schnelleres schnellster schnellerer schnelltest schnellte schnellst schnellt schnelltests schnellstes schnellstem schnellerem schnellten geschnellt
 natürlich	natürlich natürliche natürlichen natürlicher natürliches natürlichem natürlichste natürlichsten ntl
 bereits	bereits
 nie	nie
 wegen	wegen
-schreiben	schreiben geschrieben schreibt schrieb schreibe schreib schreibst schrieben schreibens schreibenden schriebst schriebe
+schreiben	schreiben geschrieben schreibt schrieb schreibe schreib schreibst schrieben schreibens schreibenden schriebst schriebe schreibend schriebt
 Teil	teil teile teiles
 einmal	einmal
-sprechen	sprechen spricht sprach gesprochen sprachen sprich spreche sprichst sprecht sprech spräche sprächen
-lesen	lesen gelesen liest leser last lese las les lies lasten laster lest
+sprechen	sprechen spricht sprach gesprochen sprachen sprich spreche sprichst sprecht sprech spräche sprächen sprechend sprachst sprechens
+lesen	lesen gelesen liest leser last lese las les lies lasten laster lest lasen lastet lesens gelesenen gelesene lesend lesenden lasters lastern lastete lesende läst laste lasteten gelesenes
 heißen	heisst heissen heiss hiess
 Seite	seite seiten
 darauf	darauf drauf
@@ -199,8 +199,8 @@ gar	gar garen gare gegart gart
 danke	danke
 klar	klar klare klaren klarer klares klarem klarere klarsten klarste klareren klareres klart
 eigentlich	eigentlich eigentliche eigentlichen eig eigentlicher eigentliches eigentlichem
-verstehen	verstehen verstehe verstanden versteht verstand versteh verstehst verstandes verstandenen verstandene versteher verstehens
-stark	stark starke stärker starken starker starkes stärksten stärkste stärkere starkem stärkeren stärkeres
+verstehen	verstehen verstehe verstanden versteht verstand versteh verstehst verstandes verstandenen verstandene versteher verstehens verstünden verstehende verstandener verstünde verstande verstands
+stark	stark starke stärker starken starker starkes stärksten stärkste stärkere starkem stärkeren stärkeres stärkerer stärkster stärkerem stärkstes
 Bild	bild bilder bildern bildes bilde bildchen bilds
 Woche	woche wochen
 etwa	etwa
@@ -209,63 +209,63 @@ jemand	jemand jemanden jemandem jemandes
 Name	namen name namens nahme
 Geld	geld gelder geldes geldern gelde
 sicher	sicher sichere sicherer sicheren sicheres sicherste sichersten sicherem sicherere sichereren sichereres
-kennen	kennen kennt kenne kannte kennst kenn kannten gekannt kanntest gekannten kennet kanntet
+kennen	kennen kennt kenne kannte kennst kenn kannten gekannt kanntest gekannten kennet kanntet gekannter
 solch	solche solchen solcher solch solches solchem
 Spiel	spiel spiele spiels spielchen spieles
 zweite	zweiten zweite zweiter zweites zweitem
 paar	paar paare par pärchen paaren gepaart paares paart paars pärchens
-setzen	setzen setzt gesetzt setzte setzten setze setz gesetzten gesetzte gesetzter setzer gesetztes
-treffen	treffen trifft getroffen traf trafen treffe treffend triffst triff getroffenen getroffene treffens
+setzen	setzen setzt gesetzt setzte setzten setze setz gesetzten gesetzte gesetzter setzer gesetztes setzenden
+treffen	treffen trifft getroffen traf trafen treffe treffend triffst triff getroffenen getroffene treffens trefft treffende treffender treffenden träfe träfen treffendes getroffener treffendste
 Art	art arten arte geartete artet gearteten artes artete geartet geartetes
-früh	früher früh früheren frühen frühere frühe früherer frühesten frühes früheste früheres frühester
+früh	früher früh früheren frühen frühere frühe früherer frühesten frühes früheste früheres frühester frühem früherem frühsten frühs
 davon	davon
 fast	fast
-bestehen	besteht bestehen bestand bestehenden bestehende bestanden bestehend bestehe bestände bestehens bestehender bestehendes
+bestehen	besteht bestehen bestand bestehenden bestehende bestanden bestehend bestehe bestände bestehens bestehender bestehendes beständen bestünde bestandenen bestandes bestandene bestünden bestandener bestehst bestands bestehendem bestandenem besteh
 Arbeit	arbeit arbeits
 nein	nein nee nö nä neins
 zurück	zurück
 Person	person personen
-erhalten	erhalten erhält erhielt erhielten erhalt erhaltenen erhalte erhaltene erhältst erhaltet erhaltenes erhaltener
-meinen	meinen meint meinte meinst gemeint meinten meintest gemeinte gemeinten gemeinter gemeintes meynen
+erhalten	erhalten erhält erhielt erhielten erhalt erhaltenen erhalte erhaltene erhältst erhaltet erhaltenes erhaltener erhielte erhaltende erhalts erhaltenem
+meinen	meinen meint meinte meinst gemeint meinten meintest gemeinte gemeinten gemeinter gemeintes meynen meinet
 jedoch	jedoch
 zusammen	zusammen zsm
-gewinnen	gewinnen gewonnen gewinn gewinnt gewann gewinner gewinne gewannen gewonnenen gewonnene gewinnst gewinns
-schaffen	schaffen geschafft schafft geschaffen schaffst schaffte schaffe schuf schaff geschaffenen schafften schöpfen
-ziehen	ziehen zieht zog gezogen zogen ziehe zieh ziehst gezogenen gezogene ziehenden gezogener
+gewinnen	gewinnen gewonnen gewinn gewinnt gewann gewinner gewinne gewannen gewonnenen gewonnene gewinnst gewinns gewonnener gewonnenes gewinnenden gewinnes gewonnenem
+schaffen	schaffen geschafft schafft geschaffen schaffst schaffte schaffe schuf schaff geschaffenen schafften schöpfen geschaffene schufen schaffens schöpft schöpf geschöpft schöpfte schuft schöpften geschaffenes schöpfe schaffs geschaffener schufte
+ziehen	ziehen zieht zog gezogen zogen ziehe zieh ziehst gezogenen gezogene ziehenden gezogener zögen zöge ziehend gezogenem gezogenes
 Stunde	stunden stunde stündchen stund stündlein gestundet
-schwer	schwer schwere schweren schwerer schwert schweres schwersten schwerste schwerter schwerem schwerte schwerere
+schwer	schwer schwere schweren schwerer schwert schweres schwersten schwerste schwerter schwerem schwerte schwerere schwertern schwereren schwertes schwerst schwerster schwereres schwerts schwererer
 reden	reden rede red redet geredet redest redete redeten redens redenden redend
 versuchen	versucht versuchen versuche versuchte versuchten versuchst versuchter versuchtem
 frei	frei freien freie freier freies freiem freiern freiere freieren freiesten freit
 echt	echt echte echten echter echtes echtem
 möglich	möglich möglichen mögliche möglicher mögliches möglichem möglichstes möglichste
 Platz	platz plätze plätzen platzes plätzchen platze
-fragen	fragen gefragt fragt frag fragte fragst fragten fragend gefragter gefragte gefragten frägt
+fragen	fragen gefragt fragt frag fragte fragst fragten fragend gefragter gefragte gefragten frägt fragenden fragende gefragtesten frug fragtest frägst gefragtes fragender
 oft	oft öfter öftesten
 Junge	junge jungen jungs jungens
 sogar	sogar
 zwar	zwar
 Wort	wort worte worten wörter wortes wörtern wörtchen worts
 Geschichte	geschichte geschichten geschichtchen
-helfen	helfen hilft geholfen helfer half helft helfe hilf halfen hilfst helfende helf
-gelten	gilt gelten galt geltend geltenden galten geltende gelte geltendes gegolten geltendem geltender
+helfen	helfen hilft geholfen helfer half helft helfe hilf halfen hilfst helfende helf helfend hälfe hülfe
+gelten	gilt gelten galt geltend geltenden galten geltende gelte geltendes gegolten geltendem geltender gälte
 allerdings	allerdings
 Herr	herr herren herrn herrin herrchen herrinnen herrchens
-tragen	tragen trägt trug getragen träger trage trugen trägst trag tragende trägern getragene
+tragen	tragen trägt trug getragen träger trage trugen trägst trag tragende trägern getragene tragenden tragt getragenen trägerin trägers trügt trügen trog tragend trägerinnen getragener getragenes tragender tragendes trüge trogen tragens tröge trögen
 Thema	thema themen themas
 daran	daran dran
-kaufen	kaufen gekauft kauf kauft käufer kaufe kaufte kaufst kauften käufe kaufs käufen
+kaufen	kaufen gekauft kauf kauft käufer kaufe kaufte kaufst kauften käufe kaufs käufen kaufes
 Monat	monate monat monaten monats monates
 später	später
 Familie	familie familien
-gehören	gehört gehören gehörte gehörten gehöre gehör gehörst gehörenden gehörende gehörend gehörs gehörendes
+gehören	gehört gehören gehörte gehörten gehöre gehör gehörst gehörenden gehörende gehörend gehörs gehörendes gehörender gehörter gehörtes
 bekannt	bekannt bekannten bekannte bekannter bekanntesten bekannteste bekanntes bekannteren bekanntem bekanntester bekanntestes bekanntere
 allein	allein alleine
 eben	eben ebene ebenen ebner ebnen geebnet ebnet ebener ebnete ebenem ebneten ebenes
 morgen	morgen morgens
 Minute	minuten minute
 Grund	grund gründe grunde grundes grunds
-Schule	schule schulen schul schulung schulte geschult schulungen schult geschulten geschultes schulten geschulter
+Schule	schule schulen schul schulung schulte geschult schulungen schult geschulten geschultes schulten geschulter geschultem schulende
 verschieden	verschiedenen verschiedene verschiedener verschieden verschiedensten verschiedenste verschiedenes verschiedenster verschiedenem
 rund	rund runde runden runder gerundet rundes rundet rundem rundete rundeten rundt
 darüber	darüber drüber
@@ -277,14 +277,14 @@ statt	statt
 essen	essen gegessen isst esse iss ess essens esst essenden essend gessen essende
 fallen	fällt fallen fiel fielen falle fallt fiele fallend fällst
 bestimmt	bestimmt bestimmte bestimmten bestimmter bestimmtes bestimmtem
-schlecht	schlecht schlechte schlechter schlechten schlechtes schlechteste schlechtesten schlechtem schlechtere schlechteren schlechtestes schlechteres
+schlecht	schlecht schlechte schlechter schlechten schlechtes schlechteste schlechtesten schlechtem schlechtere schlechteren schlechtestes schlechteres schlechtester schlechterer schlechterem
 Unternehmen	unternehmen unternehmens unternommen unternimmt unternahm unternahmen unternehme unternimmst unternommenen unternommene
 voll	voll voller volle vollen vollem volles vollstes vollsten vollste vollster vollere
-verlieren	verloren verlieren verliert verlor verlierer verlorenen verlorene verliere verlierst verlier verlorener verlorenes
+verlieren	verloren verlieren verliert verlor verlierer verlorenen verlorene verliere verlierst verlier verlorener verlorenes verlorenem verlöre verlören
 direkt	direkt direkte direkten direkter direktem direktes direktere direkteren direkteste
 besonders	besonders
 ne	ne
-schauen	schauen schau schaut schaue geschaut schaute schaust schauer schauten schauern schauend schauerte
+schauen	schauen schau schaut schaue geschaut schaute schaust schauer schauten schauern schauend schauerte schauenden schauende
 leicht	leicht leichter leichte leichten leichtes leichtem leichtere leichteren leichtesten leichteste leichteres leichterer
 vier	vier vierer vieren
 scheinen	scheint scheinen schien schein schienen scheine schiene scheinst scheins scheinenden geschienen schient
@@ -294,21 +294,21 @@ Ding	dinge ding dingen dinger dings dingern dingens dinges dang
 Ort	ort orte orten ortes orts örtchen geortet ortet
 einzig	einzige einzigen einzig einziger einziges einzigem
 sonst	sonst
-Film	film filme filmen films gefilmt filmt filmes filmchen filmte filmten gefilmten filmst
+Film	film filme filmen films gefilmt filmt filmes filmchen filmte filmten gefilmten filmst filmende
 Beispiel	beispiel beispiele beispielen beispiels
 erreichen	erreicht erreichen erreichte erreichten erreiche erreichst erreichenden erreich erreichtes erreichter erreichens
 politisch	politische politischen politisch politischer politisches politischem
 Euro	euro euros euronen
 Auto	auto autos
-erklären	erklärt erklären erklärte erkläre erklärten erklär erklärst erklärtes erklärter erklärenden erklärende erklärend
-lernen	lernen gelernt lernt lernte lerne lern lernst lernten gelernte lernens gelernter gelernten
+erklären	erklärt erklären erklärte erkläre erklärten erklär erklärst erklärtes erklärter erklärenden erklärende erklärend erklärer
+lernen	lernen gelernt lernt lernte lerne lern lernst lernten gelernte lernens gelernter gelernten lerner gelerntes lernet lernenden lernende
 Abend	abend abends abende abenden
 stimmen	stimmt stimmen stimmte gestimmt stimmten stimm stimmst gestimmten stimmenden
 beginnen	beginnt begann beginnen begonnen begannen beginnend beginne beginnst
 Gruppe	gruppe gruppen grüppchen grupp
-passen	passt passen pass passend passende passenden passte pässe gepasst passe passender passendes
-jung	jung junge junger jungen jüngeren jünger jungs jüngere jüngsten jüngste junges jüngster
-entscheiden	entscheiden entschieden entscheidet entscheidend entschied entscheidende entscheidenden entscheide entscheidender entscheidest entscheidendes entscheider
+passen	passt passen pass passend passende passenden passte pässe gepasst passe passender passendes passten pässen passes passendem passendere passenderen passenderes passendste passendsten
+jung	jung junge junger jungen jüngeren jünger jungs jüngere jüngsten jüngste junges jüngster jüngerer jüngstes jüngern jüngeres jungem jüngers jüngerem jüngstem
+entscheiden	entscheiden entschieden entscheidet entscheidend entschied entscheidende entscheidenden entscheide entscheidender entscheidest entscheidendes entscheider entscheid entschiedenen entschiedener entschiedene entschiedenes entscheidern entscheidene entscheidendem entschiedensten entscheids
 Gott	gott gottes götter göttin göttern göttinnen gotts gotte gotten
 Auge	augen auge aug auges äuglein
 je	je
@@ -317,21 +317,21 @@ mehrere	mehrere mehreren mehrerer
 Polizei	polizei polizeien
 deshalb	deshalb
 Nacht	nacht nächte nächten
-nutzen	nutzen genutzt nutzt nutze nutzte nutzten nützen genutzten genutzte nutz genutzter genutztes
+nutzen	nutzen genutzt nutzt nutze nutzte nutzten nützen genutzten genutzte nutz genutzter genutztes nutzens nutzend nutzenden nutzende genutztem
 deutlich	deutlich deutliche deutlicher deutlichen deutliches deutlichsten deutlichem deutlichere deutlichste deutlicheren deutlicheres
-legen	legen legt legte gelegt lege leg legten legst legend gelegten leger gelegte
+legen	legen legt legte gelegt lege leg legten legst legend gelegten leger gelegte legere gelegtes gelegter legerer
 Punkt	punkt punkte punkten punktet pünktchen punktes gepunktet punktete gepunkteten gepunktete punkts punkteten
 schwarz	schwarz schwarze schwarzen schwarzer schwarzes schwarzem schwärzer schwärzesten schwärzeste
 Straße	strasse strassen
-bieten	bietet bieten bot geboten biete boten bots gebotenen gebotene bietenden böte bietest
+bieten	bietet bieten bot geboten biete boten bots gebotenen gebotene bietenden böte bietest böten biet gebotener
 außerdem	ausserdem
 leider	leider
 online	online
-wählen	wählen gewählt wählt gewählten wähle wählte gewählte wählten gewählter wählst wähl gewähltes
-fühlen	fühlen fühlt fühle gefühlt fühlte fühl fühlst fühlten gefühlten gefühlter fühlenden gefühltes
-Wert	wert werte werten gewertet wertet wertes wertete werter werts werteten wertend wertende
-Kopf	kopf köpfe köpfen kopp kopfes köpfchen geköpft köpft köppen kopfe köpf köpfte
-aktuell	aktuell aktuelle aktuellen aktueller aktuelles aktuellem aktuellsten aktuellste aktuellere aktuelleren aktuelleres aktuellstes
+wählen	wählen gewählt wählt gewählten wähle wählte gewählte wählten gewählter wählst wähl gewähltes wählenden gewähltem
+fühlen	fühlen fühlt fühle gefühlt fühlte fühl fühlst fühlten gefühlten gefühlter fühlenden gefühltes fühlens fühlend
+Wert	wert werte werten gewertet wertet wertes wertete werter werts werteten wertend wertende wertenden gewerteten
+Kopf	kopf köpfe köpfen kopp kopfes köpfchen geköpft köpft köppen kopfe köpf köpfte köppe kopfs geköpften
+aktuell	aktuell aktuelle aktuellen aktueller aktuelles aktuellem aktuellsten aktuellste aktuellere aktuelleren aktuelleres aktuellstes aktuellster
 daher	daher
 kaum	kaum
 kosten	kosten kostet gekostet kostete kost koste kosteten kostest
@@ -339,16 +339,16 @@ sorgen	sorgen sorge sorgt gesorgt sorgte sorgten sorg sorgst sorgende
 Anfang	anfang anfangs anfänge anfängen anfange
 grün	grünen grüne grün grüner grünes grünem grünt grüns
 halt	halt halts
-sitzen	sitzen sitzt sitz sitze gesessen sitzend sitzenden sitzende sässe sässen sitzes sitzender
+sitzen	sitzen sitzt sitz sitze gesessen sitzend sitzenden sitzende sässe sässen sitzes sitzender sitzendes sasst sitzens
 passieren	passiert passieren passierte passierten passiere passier passierenden
-sterben	sterben gestorben starb stirbt starben sterbe sterbenden stirbst stirb sterbende gestorbenen gestorbene
+sterben	sterben gestorben starb stirbt starben sterbe sterbenden stirbst stirb sterbende gestorbenen gestorbene sterbender sterbens sterbend sterb sterbt stürbe sterbendes
 niemand	niemand niemanden niemandem niemandes
-Preis	preis preise preisen preises gepriesen preist pries priest preiset gepriesene priesen gepriesenen
+Preis	preis preise preisen preises gepriesen preist pries priest preiset gepriesene priesen gepriesenen priese
 hinter	hinter hintern hinterm hinters
 fest	fest feste festen fester festes festem vest veste fests festere festeren
 gemeinsam	gemeinsam gemeinsamen gemeinsame gemeinsames gemeinsamer gemeinsamem
-fehlen	fehlt fehlen fehlende fehlte fehlenden gefehlt fehlender fehlten fehl fehle fehlst fehlendes
-handeln	handelt handeln gehandelt handelte handle handele handelns handelnden handelten handelnde gehandelten handelst
+fehlen	fehlt fehlen fehlende fehlte fehlenden gefehlt fehlender fehlten fehl fehle fehlst fehlendes fehlendem fehlens fehlend
+handeln	handelt handeln gehandelt handelte handle handele handelns handelnden handelten handelnde gehandelten handelst gehandelte handelnd handelnder händeln
 genug	genug genung
 Staat	staat staaten staates staats staate
 link	linken linke link linker linkes linkem gelinkt linkt
@@ -356,18 +356,18 @@ rot	rot roten rote roth roter rotes rotem röter
 überhaupt	überhaupt
 Ziel	ziel ziele zielen zielt zielte ziels zielten zieles zielende
 Idee	idee ideen
-rein	rein reine reiner reinen reines reinste reinem rin reinsten reinster reindl reinstes
+rein	rein reine reiner reinen reines reinste reinem rin reinsten reinster reindl reinstes reinstem
 Wasser	wasser wassers wassern wässern wässer gewässert wässerchen
 Bereich	bereich bereichen bereiche bereichs bereiches
 freuen	freuen freut freue gefreut freu freute freust freuten freuet
 nennen	nennen nennt nannte nenne nenn nannten nennst nennenden
-bedeuten	bedeutet bedeuten bedeutende bedeutete bedeutenden bedeutendsten bedeutend bedeutender bedeutendste bedeute bedeutendes bedeuteten
+bedeuten	bedeutet bedeuten bedeutende bedeutete bedeutenden bedeutendsten bedeutend bedeutender bedeutendste bedeute bedeutendes bedeuteten bedeutest bedeutendster bedeutendere bedeutenderen bedeutendem bedeutendstes bedeut
 Antwort	antwort antworten antwortet antwortete geantwortet antworte antwortest antworteten antwortenden
 anders	anders
 laut	laut lauter laute lautes lautesten lautem lauteste lauterer lauteren lautere
-entstehen	entstehen entstanden entsteht entstand entstandenen entstandene entstehenden entstehende entstehe entstünde entstandener entstünden
+entstehen	entstehen entstanden entsteht entstand entstandenen entstandene entstehenden entstehende entstehe entstünde entstandener entstünden entstandenes entstehens entstehender
 euer	eure euer euren eurer eurem eures euere euerm eueren euerer
-warten	warten warte wartet gewartet wartete warteten wartest wartenden wartend wartende wartens wart
+warten	warten warte wartet gewartet wartete warteten wartest wartenden wartend wartende wartens wart warts
 öffentlich	öffentlichen öffentlich öffentliche öffentlicher öffentliches öffentlichem
 Team	team teams
 dank	dank dankes
@@ -387,15 +387,15 @@ Gesellschaft	gesellschaft gesellschaften
 Form	form formen geformt formt formte formten forme
 Sohn	sohn söhne sohnes söhnen sohns söhnchen sohne söhnlein
 Partei	partei parteien
-schlagen	schlagen schlägt geschlagen schlug schlag schlage schläge schlugen schlägen schlagt schlägst geschlagenen
+schlagen	schlagen schlägt geschlagen schlug schlag schlage schläge schlugen schlägen schlagt schlägst geschlagenen geschlagene schlagenden schlagend schlagende schlages schlags geschlagener schlagendes schlüge schlagender
 danach	danach darnach
 Krieg	krieg kriege krieges kriegs
-zahlen	zahlen zahlt gezahlt zahle zahlte zahlst zahlende zahlenden zahlten gezahlten zahler zahlender
+zahlen	zahlen zahlt gezahlt zahle zahlte zahlst zahlende zahlenden zahlten gezahlten zahler zahlender gezahlter
 gefallen	gefallen gefällt gefiel gefallenen gefallene gefalle gefielen gefallener gefällst gefallt gefiele gefall
 hoffen	hoffe hoffen hofft gehofft hoffte hoff hofften hoffst hoffend hoffest hoffens
-Regel	regel regeln geregelt regelt geregelten geregelte regelte geregeltes geregelter regelten regle regele
+Regel	regel regeln geregelt regelt geregelten geregelte regelte geregeltes geregelter regelten regle regele geregeltem
 los	los lose loser losen loses gelost looser losem losers losern
-Raum	raum räume räumen räumt geräumt raumes raums räumte räum räumten raume geräumten
+Raum	raum räume räumen räumt geräumt raumes raums räumte räum räumten raume geräumten raumer räumst geräumte
 Verein	verein vereins vereine vereinen vereint vereinten vereinte vereines vereintes vereinter
 Mitglied	mitglieder mitglied mitgliedern mitglieds mitgliedes
 endlich	endlich endliche endlichen endlicher endliches
@@ -417,7 +417,7 @@ Richtung	richtung richtungen richtungs
 Möglichkeit	möglichkeit möglichkeiten
 oben	oben
 Regierung	regierung regierungen regierungs
-vergessen	vergessen vergisst vergiss vergesse vergesst vergass vergessene vergessenen vergess vergassen vergessenes vergessener
+vergessen	vergessen vergisst vergiss vergesse vergesst vergass vergessene vergessenen vergess vergassen vergessenes vergessener vergessens
 reichen	reicht reichen reichte gereicht reiche reichten reichende reichst reichend
 erzählen	erzählt erzählen erzählte erzähl erzähle erzählten erzählst erzählens erzählenden erzählter erzähltes erzählend
 Tod	tod tode todes todt toden tods
@@ -426,8 +426,8 @@ Herz	herz herzen herzens hertz herzchen herze geherzt
 Eltern	eltern elter
 bisher	bisher
 ernst	ernst ernste ernstes ernsten ernster ernstere ernstem ernsteren ernsts ernsteres
-Blick	blick blicken blicke blickt blickte blickten geblickt blickes blickst blicks blickend blickenden
-ändern	ändern geändert ändert änderte ändere geänderten geänderte änderten änderst änder ändernden geänderter
+Blick	blick blicken blicke blickt blickte blickten geblickt blickes blickst blicks blickend blickenden blickende
+ändern	ändern geändert ändert änderte ändere geänderten geänderte änderten änderst änder ändernden geänderter ändernde geändertes
 selber	selber selben selbe selbes selbem
 Hilfe	hilfe hilfen hülfe
 manch	manche manchen mancher manches manch manchem
@@ -435,11 +435,11 @@ Mitte	mitte mitten
 her	her
 trotzdem	trotzdem
 Glück	glück glücks glückes glücke
-steigen	steigt steigen stieg gestiegen steigenden stiegen steigende steigender steige steig steigend gestiegenen
-Mittel	mittel mittels mittleren mitteln mittlere mittlerer mittler mittleres mittlerem gemittelt mittelchen mittlern
+steigen	steigt steigen stieg gestiegen steigenden stiegen steigende steigender steige steig steigend gestiegenen gestiegene steigendem steiger stiege steigst steigendes gestiegener
+Mittel	mittel mittels mittleren mitteln mittlere mittlerer mittler mittleres mittlerem gemittelt mittelchen mittlern mittlerin
 Erfolg	erfolg erfolge erfolgs erfolges
 allgemein	allgemein allgemeinen allgemeine allgemeines allgemeiner allgemeinem allgemeinere allgemeineren
-erscheinen	erscheint erscheinen erschienen erschien erschienenen erschienene erscheinenden erscheine erscheinens erschienenes erschienener erscheinst
+erscheinen	erscheint erscheinen erschienen erschien erschienenen erschienene erscheinenden erscheine erscheinens erschienenes erschienener erscheinst erschiene erschienenem
 entsprechend	entsprechend entsprechenden entsprechende entsprechender entsprechendes entsprechendem
 Internet	internet internets
 sozial	sozialen soziale sozial soziales sozialer sozialem
@@ -449,9 +449,9 @@ zunächst	zunächst
 einzeln	einzelnen einzelne einzeln einzelner einzelnes einzelnem
 besondere	besondere besonderen besonderes besonderer besonderem
 bisschen	bisschen bischen bisch
-wünschen	wünschen wünsche wünscht wünschte gewünscht gewünschten gewünschte wünsch wünschten wünschst gewünschter gewünschtes
+wünschen	wünschen wünsche wünscht wünschte gewünscht gewünschten gewünschte wünsch wünschten wünschst gewünschter gewünschtes gewünschtem
 darum	darum drum
-arm	arm arme armen armer armes ärmsten ärmer arms ärmeren ärmere ärmste ärmchen
+arm	arm arme armen armer armes ärmsten ärmer arms ärmeren ärmere ärmste ärmchen ärmster ärmerer
 bauen	bauen gebaut baut baute bauten gebauten gebaute baue baust bauens gebauter gebautes
 holen	holen holt geholt holte hol hole holten holst geholten
 persönlich	persönlich persönliche persönlichen persönlicher persönliches persönlichem persönlichste persönlichsten persönlichere
@@ -462,13 +462,13 @@ befinden	befindet befinden befand befanden befunden befinde befindest befänden 
 oh	oh
 schließlich	schliesslich
 Klasse	klasse klassen
-schlimm	schlimm schlimmer schlimmste schlimmsten schlimme schlimmes schlimmeres schlimmen schlimmere schlimmeren schlimmster schlimmstes
-schicken	schicken geschickt schickt schick schickte schicke schickten schickst chic schickes geschickte schicker
+schlimm	schlimm schlimmer schlimmste schlimmsten schlimme schlimmes schlimmeres schlimmen schlimmere schlimmeren schlimmster schlimmstes schlimmerem schlimmerer
+schicken	schicken geschickt schickt schick schickte schicke schickten schickst chic schickes geschickte schicker geschickter geschickten geschicktes geschicktesten schicks schickem schicktest
 Band	band bande bands bände bänder banden bänden bandes bändern bändchen bandl
 Prozent	prozent prozente prozenten
 Stück	stück stücke stücken stückchen stücks stückes
 Mädchen	mädchen mädchens
-bilden	bilden bildet gebildet bildete bildeten gebildeten bildenden gebildete bildende gebildeter bilde bildender
+bilden	bilden bildet gebildet bildete bildeten gebildeten bildenden gebildete bildende gebildeter bilde bildender bildest gebildetes bildend bildt
 erkennen	erkennen erkannt erkennt erkannte erkenne erkennst erkannten erkenn erkennenden erkennens
 Spaß	spass spässen spasses
 europäisch	europäischen europäische europäischer europäisches europäisch europäischem
@@ -476,34 +476,34 @@ schaden	schaden schade schäden schadet geschadet schadens schad schadete schadt
 Sieg	sieg sieger siegen siege siegte siegt sieges siegten gesiegt siegs
 Lage	lage lagen lages
 Moment	moment momente momenten moments momentchen
-lieben	lieben liebt geliebt geliebten geliebte liebst liebte liebend geliebter liebten geliebtes liebens
+lieben	lieben liebt geliebt geliebten geliebte liebst liebte liebend geliebter liebten geliebtes liebens liebet
 Zukunft	zukunft zukunfts
 Werk	werk werke werken werkes werks
 erinnern	erinnert erinnern erinnere erinnerte erinnerst erinnerten erinner erinnernden erinnerns erinnernd
-teilen	teilen teilt geteilt teile teilte teilten geteilten geteilte teilst geteilter geteiltes teilens
-gründen	gründen gegründet gründe gründete gegründete gegründeten gründet gründeten gegründetes gründenden gegründeter gründ
+teilen	teilen teilt geteilt teile teilte teilten geteilten geteilte teilst geteilter geteiltes teilens geteiltem
+gründen	gründen gegründet gründe gründete gegründete gegründeten gründet gründeten gegründetes gründenden gegründeter gründ gründende gründest
 Erfahrung	erfahrung erfahrungen erfahrungs
 Angst	angst ängste ängsten
-unterstützen	unterstützt unterstützen unterstützer unterstützte unterstütze unterstützten unterstützern unterstützend unterstützende unterstützenden unterstütz unterstützerin
-wirken	wirkt wirken wirkte wirkten gewirkt wirkende wirkenden wirke wirkens wirkst wirkendes wirkender
-tief	tief tiefe tiefer tiefen tiefsten tieferen tiefes tiefere tiefste tiefem tiefster tiefstem
+unterstützen	unterstützt unterstützen unterstützer unterstützte unterstütze unterstützten unterstützern unterstützend unterstützende unterstützenden unterstütz unterstützerin unterstützter unterstütztes unterstützendes unterstützender
+wirken	wirkt wirken wirkte wirkten gewirkt wirkende wirkenden wirke wirkens wirkst wirkendes wirkender wirk wirkend
+tief	tief tiefe tiefer tiefen tiefsten tieferen tiefes tiefere tiefste tiefem tiefster tiefstem tiefs tiefstes tieferes teufe tieferer tieferem
 ziemlich	ziemlich ziemlicher ziemliche ziemlichen ziemliches
 häufig	häufig häufiger häufigsten häufige häufigste häufigen häufiges häufigere häufigeren häufigem häufigster
 Meinung	meinung meinungen meinungs
-wohnen	wohnen wohnt gewohnt wohne wohn wohnst wohnte gewohnten wohnten gewohnte gewohnter wohnenden
+wohnen	wohnen wohnt gewohnt wohne wohn wohnst wohnte gewohnten wohnten gewohnte gewohnter wohnenden wohnens gewohntes gewohntem wohnend
 Projekt	projekt projekte projekten projekts projektes
 Text	text texte texten textes texts getextet textet
 genannt	genannt genannten genannte genannter genanntes genanntem
 super	super supi
 Gefühl	gefühl gefühle gefühlen gefühls
 Wohnung	wohnung wohnungen wohnungs
-hart	hart harte harten harter härter hartes härtesten härtere härteste hartem härteren härteres
+hart	hart harte harten harter härter hartes härtesten härtere härteste hartem härteren härteres härterer härtester härterem
 Mai	mai mais maite maien
 völlig	völlig völliger völlige völligen völliges völligem
 bevor	bevor
 manchmal	manchmal
 raus	raus
-schlafen	schlafen schlaf geschlafen schläft schlafe schlief schläfst schliefen schlaft schlafend schläfe schlafes
+schlafen	schlafen schlaf geschlafen schläft schlafe schlief schläfst schliefen schlaft schlafend schläfe schlafes schläfen schliefst schläfchen schlafs schlafens schliefe
 Interesse	interesse interessen interesses
 Chance	chance chancen
 Mitarbeiter	mitarbeiter mitarbeitern mitarbeiterin mitarbeiterinnen mitarbeiters
@@ -512,8 +512,8 @@ bereit	bereit bereitet bereiten bereitete bereite bereiteten berittene berittene
 obwohl	obwohl
 tatsächlich	tatsächlich tatsächlichen tatsächliche tatsächlicher tatsächliches tatsächlichem
 Bruder	bruder brüder bruders brüdern brüderchen brüderlein
-vertreten	vertreten vertreter vertritt vertretern vertrat vertretenen vertrete vertreterin vertretene vertraten vertreters vertretenden
-übernehmen	übernehmen übernommen übernimmt übernahm übernahmen übernehme übernommenen übernommene übernimmst übernimm übernehmt übernehm
+vertreten	vertreten vertreter vertritt vertretern vertrat vertretenen vertrete vertreterin vertretene vertraten vertreters vertretenden vertrittst vertretet
+übernehmen	übernehmen übernommen übernimmt übernahm übernahmen übernehme übernommenen übernommene übernimmst übernimm übernehmt übernehm übernehmenden übernehmende
 Job	job jobs
 englisch	englisch englischen englische englischer englisches englischem
 Entscheidung	entscheidung entscheidungen entscheid entscheidungs entscheids
@@ -529,7 +529,7 @@ Post	post posten gepostet postet posts poste postest postete postens pöstchen
 verlassen	verlassen verlässt verliess verliessen verlass verlasse verlassenen verlassene verlasst verlassenes verlassener verliesse
 Einsatz	einsatz einsätze einsätzen einsatzes
 Firma	firma firmen firm firme
-Kreis	kreis kreisen kreise kreises kreischen kreist kreischt kreiste kreischend kreisenden kreisten kreischende
+Kreis	kreis kreisen kreise kreises kreischen kreist kreischt kreiste kreischend kreisenden kreisten kreischende kreischenden kreisch krisch kreischte kreischten
 aufgrund	aufgrund
 innerhalb	innerhalb
 insgesamt	insgesamt
@@ -549,9 +549,9 @@ außer	ausser
 gestern	gestern
 na	na
 vorbei	vorbei
-fordern	fordert fordern gefordert forderte fordere forderten geforderten geforderte fordernd forderst fordernde fordernden
+fordern	fordert fordern gefordert forderte fordere forderten geforderten geforderte fordernd forderst fordernde fordernden fordernder forder geforderter
 wahrscheinlich	wahrscheinlich wahrscheinlicher wahrscheinlichsten wahrscheinlichste wahrscheinliche wahrscheinlichen wsl wahrscheinlichere
-erfahren	erfahren erfährt erfuhr erfahrene erfahrenen erfahre erfuhren erfahrener erfährst erfahrt erfahrensten erfahreneren
+erfahren	erfahren erfährt erfuhr erfahrene erfahrenen erfahre erfuhren erfahrener erfährst erfahrt erfahrensten erfahreneren erfahrenes erfahrenere erfahrenste erfahr erführe erführen erfahrende
 Gesetz	gesetz gesetze gesetzes gesetzen
 Jahrhundert	jahrhundert jahrhunderts jahrhunderte jahrhunderten
 Präsident	präsident präsidenten präsidentin präsi präsidentinnen
@@ -559,25 +559,25 @@ positiv	positiv positive positiven positives positiver positivem positivere posi
 benutzen	benutzt benutzen benutze benutzte benutzten benutz benützen
 Tier	tiere tier tieren tieres tierchen tiers
 spät	spät späteren späten spätere späte späterer späteres spätes späteste späterem spätesten spätem
-zählen	zählt zählen gezählt zählte zähle zählten zähler zählenden zähl zählst zählern gezählten
+zählen	zählt zählen gezählt zählte zähle zählten zähler zählenden zähl zählst zählern gezählten gezählte zählend zählers
 König	könig königs könige königen
 dagegen	dagegen
 ebenso	ebenso
 wobei	wobei
 Sprache	sprache sprachen
-Druck	druck gedruckt drucken drucker drücke gedruckten drucke drucks druckt druckte gedrucktes druckern
+Druck	druck gedruckt drucken drucker drücke gedruckten drucke drucks druckt druckte gedrucktes druckern gedruckter druckers druckes druckten druckst
 langsam	langsam langsamer langsame langsamen langsames langsameren langsamere langsamste langsamsten langsameres langsamem
 komplett	komplett komplette kompletten komplettes kompletter komplettem
 aktiv	aktiv aktive aktiven aktiver aktives aktivsten aktivem aktivere aktivste aktiveren
 Tochter	tochter töchter töchtern töchterchen töchterlein
 interessant	interessant interessante interessanter interessantes interessanten interessantesten interessanteste interessantere interessanteres interessantem interessanteren
 sechs	sechs sechser sechsen sechsern
-laden	laden lädt geladen läden lade lud geladenen lad luden geladene ladens ladet
+laden	laden lädt geladen läden lade lud geladenen lad luden geladene ladens ladet lädst geladener lädchen geladenes
 funktionieren	funktioniert funktionieren funktionierte funktionierende funktioniere funktionierten funktionierender funktionier funktionierend
 Lösung	lösung lösungen
 Schüler	schüler schülern schülerinnen schülerin schülers
 verkaufen	verkaufen verkauf verkaufe verkaufte verkäufe verkauften verkaufs verkaufst verkäufen verkaufenden verkaufes
-besitzen	besitzt besitzen besitzer besass besessen besassen besitze besessenen besessene besässen besässe besitzenden
+besitzen	besitzt besitzen besitzer besass besessen besassen besitze besessenen besessene besässen besässe besitzenden besessener
 Menge	menge mengen meng
 Kraft	kraft kräfte kräften krafft
 August	august auguste augusts
@@ -586,7 +586,7 @@ reich	reich reiches reiche reicher reichs reichsten reichste reichem reicheren r
 Gedanke	gedanken gedanke gedankens
 rufen	ruft rufen rief gerufen riefen rufe rufst gerufene gerufenen rufend rufenden riefe
 tot	tot toten tote toter totes totem todt totems
-singen	singen sänger singt sängerin gesungen sang sing singe sangen sängerinnen sängern sängers
+singen	singen sänger singt sängerin gesungen sang sing singe sangen sängerinnen sängern sängers singend singst gesungenen gesungene singens singet saenger gesungenes
 vorstellen	vorstellen vorgestellt vorzustellen vorstellt vorgestellten vorstelle vorstellte vorgestellte vorstellst vorstellten vorstellend vorgestelltes
 November	november novembers
 scheiße	scheisse
@@ -597,25 +597,25 @@ selten	selten seltener seltene seltenen seltenes seltensten seltenere selteneren
 Arzt	arzt ärzte ärzten ärztin arztes ärztinnen arzte artzt
 privat	private privaten privat privater privates privatem
 Datum	daten datum datums datest gedatet datet dat
-enthalten	enthält enthalten enthielt enthaltenen enthielten enthaltene enthalte innehalten enthaltend enthaltenden innezuhalten enthaltende
+enthalten	enthält enthalten enthielt enthaltenen enthielten enthaltene enthalte innehalten enthaltend enthaltenden innezuhalten enthaltende enthalt enthaltener enthaltenes innehält enthielte innehielt
 Region	region regionen
 Höhe	höhe höhen höh
 Opfer	opfer opfern opfers geopfert opfert opferte opfere opferten geopferten
 Reihe	reihe reihen reiht reih gereiht reihte reihten riehen gereihten
-hängen	hängt hängen hang hing hänge gehängt hingen häng hängst gehangen hängte hängend
+hängen	hängt hängen hang hing hänge gehängt hingen häng hängst gehangen hängte hängend hinge hängten hangen hingst hanges hangs hange gehängten
 Titel	titel titeln titels titelte titelt
 gleichzeitig	gleichzeitig gleichzeitiger gleichzeitige gleichzeitigen gleichzeitigem gleichzeitiges
-werfen	werfen wirft geworfen warf werft werfe warfen wirf wirfst werf würfe werften
+werfen	werfen wirft geworfen warf werft werfe warfen wirf wirfst werf würfe werften würfen geworfenen geworfene
 Plan	plan pläne plänen plane planer plans planes planern
 absolut	absolut absolute absoluten absoluter absolutes absolutem
 jährig	jährige jährigen jähriger jähriges jährig jährigem
 berichten	berichtet berichten berichtete berichte berichteten berichtest
 April	april aprils aprile
-treten	treten trat traten getreten trete getretenen tretet trittst getretene tret tretenden träten
+treten	treten trat traten getreten trete getretenen tretet trittst getretene tret tretenden träten träte tretend
 Betrieb	betrieb betrieben betriebe betriebs betriebenen betriebene betriebes betriebener betriebenes
 insbesondere	insbesondere
-gering	gering geringer geringen geringe geringere geringeren geringsten geringste geringem geringerer geringes geringerem
-melden	melden gemeldet meldet melde meldete milde meldeten milden gemeldeten meld meldest melle
+gering	gering geringer geringen geringe geringere geringeren geringsten geringste geringem geringerer geringes geringerem geringeres minder geringster geringstes geringstem
+melden	melden gemeldet meldet melde meldete milde meldeten milden gemeldeten meld meldest melle gemeldete milte gemeldeter molten
 weise	weise weis weiser weises weiseste weisesten
 bezahlen	bezahlen bezahlt bezahlte bezahlten bezahle bezahlst bezahl bezahlenden
 Karte	karte karten carte kärtchen
@@ -627,17 +627,17 @@ zusätzlich	zusätzlich zusätzliche zusätzlichen zusätzlicher zusätzliches z
 dauern	dauert dauern dauernd dauerte gedauert dauernden dauernde dauerten dauernder dauere dauerndes dauertest
 Alter	alter alters altern alla altem altere alder gealtert altert alterns
 Kunst	kunst künste künsten
-Hund	hund hunde hunden hündin hundes rüde hündchen rüden hundi hündinnen petze hundchen
+Hund	hund hunde hunden hündin hundes rüde hündchen rüden hundi hündinnen petze hundchen petz hunds rüder
 Bahn	bahn bahnen bahnt bahnte gebahnt bahnten bahne
 Juli	juli julis
 Programm	programm programme programms programmen programmes
 nämlich	nämlich nämlichen nämliche
 Oktober	oktober oktobers
 links	links
-lehren	lehrer lehren gelehrt lehrt gelehrten lehrte lehr gelehrte gelehrter lehrten lehrens lehrenden
+lehren	lehrer lehren gelehrt lehrt gelehrten lehrte lehr gelehrte gelehrter lehrten lehrens lehrenden lehrende
 Nichtraucher	nr nichtraucher nichtrauchern nichtraucherin
 Rahmen	rahmen rahmens rahm gerahmt rohm rahmt
-Wechsel	wechsel wechseln wechselt gewechselt wechselte wechselnden wechselten wechselnde wechsle wechselnder wechsels wechselnd
+Wechsel	wechsel wechseln wechselt gewechselt wechselte wechselnden wechselten wechselnde wechsle wechselnder wechsels wechselnd wechselst wechselndem gewechselten wechsele wechselndes
 unterschiedlich	unterschiedliche unterschiedlichen unterschiedlich unterschiedlicher unterschiedlichsten unterschiedlichem unterschiedlichster unterschiedliches unterschiedlichste
 Beweis	beweis beweisen beweise bewiesen beweist bewies beweises bewiesene bewiesenen
 Wochenende	wochenende we wochenenden wochenendes
@@ -650,9 +650,9 @@ Bad	bad bäder bade bädern bades zkb bads
 Markt	markt märkte marktes märkten markts markte
 falls	falls
 rechts	rechts
-Messe	mass messe messen gemessen miss misst missen gemessenen gemessene misses gemessener messt
+Messe	mass messe messen gemessen miss misst missen gemessenen gemessene misses gemessener messt misse massen masst
 erfolgen	erfolgt erfolgen erfolgte erfolgten erfolge erfolgter erfolgtem erfolgenden
-wachsen	wächst wachsen gewachsen wuchs wachsenden wachsende wachs wachsender wuchsen gewachsenen gewachsene wachse
+wachsen	wächst wachsen gewachsen wuchs wachsenden wachsende wachs wachsender wuchsen gewachsenen gewachsene wachse wachsendes wachsendem wachst wachsend gewachsener gewachsenes gewachst wüchsen
 Schuld	schuld schulden geschuldet schuldet schulde schuldest geschuldeten schuldete schuldt schuldeten
 Kultur	kultur kulturen
 fertig	fertig fertigen fertige fertigt fertigte fertiges fertiger fertigten
@@ -676,11 +676,11 @@ derselbe	dasselbe dieselbe derselben dieselben denselben desselben demselben der
 Wirtschaft	wirtschaft wirtschafts wirtschaften gewirtschaftet wirtschaftens wirtschaftet wirtschaftenden
 zumindest	zumindest
 übrigens	übrigens
-aussehen	aussehen aussieht aussah ausgesehen auszusehen aussehe aussiehst aussahen aussehens aussehend aussähe ausseht
+aussehen	aussehen aussieht aussah ausgesehen auszusehen aussehe aussiehst aussahen aussehens aussehend aussähe ausseht aussähen
 Licht	licht lichter lichts lichte lichten lichtes lichtern lichtet lichtlein gelichtet lichtete lichtem
-drehen	drehen dreht gedreht drehte dreh drehe drehten drehst gedrehten drehenden drehs drehend
+drehen	drehen dreht gedreht drehte dreh drehe drehten drehst gedrehten drehenden drehs drehend gedrehter gedrehtes
 klingen	klingt klingen klinge klänge kling klingende klingst klangen klängen geklungen klingend
-öffnen	öffnen geöffnet öffnet öffnete öffne geöffneten öffneten geöffnete öffnest geöffnetem öffnenden geöffneter
+öffnen	öffnen geöffnet öffnet öffnete öffne geöffneten öffneten geöffnete öffnest geöffnetem öffnenden geöffneter geöffnetes öffnend
 Politiker	politiker politikern politikerin politikers
 Bank	bank banken bänke bänken
 Bürger	bürger bürgern bürgerinnen bürgers bürgerin bürgerte
@@ -694,15 +694,15 @@ französisch	französischen französische französisch französischer französis
 Fan	fans fan
 Sonntag	sonntag sonntags sonntage sonntagen
 perfekt	perfekt perfekte perfekten perfektes perfekter perfektem perfekteste
-Traum	traum träume träumen geträumt träumt träumte träum träumst traums träumten traumes traume
+Traum	traum träume träumen geträumt träumt träumte träum träumst traums träumten traumes traume träumend
 Tor	tor tore toren thor tores tors
 weiß	weissen weisse weisser
-schützen	schützen geschützt schützt geschützten schütz geschützte schütze schützende geschützter schützte schützenden schützend
-trinken	trinken getrunken trinkt trinke trink trank trinkst tranken tränke getränkt tränken trinkend
+schützen	schützen geschützt schützt geschützten schütz geschützte schütze schützende geschützter schützte schützenden schützend geschütztes schützten schützender schützendes geschütztem schützin schützinnen
+trinken	trinken getrunken trinkt trinke trink trank trinkst tranken tränke getränkt tränken trinkend trinkens tränkt trinket
 Saison	saison saisons saisonen
 Körper	körper körpers körpern körperchen
 Luft	luft lüften lüfte gelüftet lüftchen lüftet lüftete
-ansehen	ansehen angesehen anzusehen ansieht ansehe angesehenen ansah angesehene ansiehst angesehener angesehensten ansahen
+ansehen	ansehen angesehen anzusehen ansieht ansehe angesehenen ansah angesehene ansiehst angesehener angesehensten ansahen ansehens angesehenes angesehenste anseht
 Kaltmiete	km kaltmiete
 historisch	historischen historische historisch historischer historisches historischem
 stecken	steckt stecken gesteckt steckte stecke steck steckten steckst gesteckten steckenden stak
@@ -713,12 +713,12 @@ weiterhin	weiterhin
 überall	überall
 Boden	boden böden bodens
 sieben	sieben siebten siebte sieb siebter siebente siebe siebt siebtes gesiebt
-lachen	lachen lacht gelacht lachend lachte lach lache lachten lachst lachenden lachende lachens
+lachen	lachen lacht gelacht lachend lachte lach lache lachten lachst lachenden lachende lachens lachender lachendes
 Flüchtling	flüchtlinge flüchtlingen flüchtling flüchtlings
 Mannschaft	mannschaft mannschaften
 Vertrag	vertrag verträge vertrages verträgen vertrags vertrage
-fliegen	fliegen fliegt geflogen flog fliege flogen fliegende fliegenden flieg fliegst fliegender fliegendes
-stammen	stammt stammen stamm stämme stammende stammte stammenden stammten stämmen stammes stamme stammend
+fliegen	fliegen fliegt geflogen flog fliege flogen fliegende fliegenden flieg fliegst fliegender fliegendes fliegend fliegens fliegendem flöge
+stammen	stammt stammen stamm stämme stammende stammte stammenden stammten stämmen stammes stamme stammend stammender stamms stammendes stammst
 Linie	linie linien
 Tür	tür türen türe türchen
 Dezember	dezember dezembers
@@ -733,7 +733,7 @@ Volk	volk volkes völker volks völkern volke völkchen volck
 offiziell	offiziell offiziellen offizielle offizieller offizielles offiziellem
 nett	nett nette netter netten nettes netteste nettesten nettem nettere netteren
 teilnehmen	teilnehmer teilnehmen teilgenommen teilzunehmen teilnimmt teilnahm teilnahmen teilnehme teilnimmst
-lösen	lösen gelöst löst löste lösten löse gelösten gelöste lös gelöster lösende lösenden
+lösen	lösen gelöst löst löste lösten löse gelösten gelöste lös gelöster lösende lösenden gelöstes gelöstem
 Versuch	versuch versuche versuchs versuches
 dumm	dumm dumme dummen dummes dummer dümmer dümmste dümmsten dümmere dümmeres dümmeren
 glücklich	glücklich glückliche glücklicher glücklichen glückliches glücklichsten glücklichste glücklichere glücklicheren glücklichem glücklicheres glücklichster
@@ -748,7 +748,7 @@ Nähe	nähe
 vorher	vorher
 Begriff	begriff begriffe begriffen begriffs begriffes begriffenen begriffene
 besuchen	besuchen besucht besuchte besuchten besuche besuchst
-eng	eng enge engen enger engeren engsten engere enges engem engste engstem engster
+eng	eng enge engen enger engeren engsten engere enges engem engste engstem engster engt engerer engeres
 wesentlich	wesentlich wesentlichen wesentliche wesentlicher wesentliches wesentlichste wesentlichsten
 entfernt	entfernt entfernten entfernte entferntesten entfernter entferntes entfernteren entferntere
 veröffentlicht	veröffentlicht veröffentlichte veröffentlichten veröffentlichter veröffentlichtes veröffentlichtem
@@ -760,7 +760,7 @@ kriegen	kriegen kriegt kriegst kriege gekriegt kriegte kriegten
 Grenze	grenze grenzen
 leisten	leisten geleistet leistet leistete leiste leisteten leistest leist
 ergeben	ergibt ergeben ergab ergaben ergebe ergebenden ergäbe ergebenen ergäben ergebener ergebene
-Schatz	schatz schätzen schätze geschätzt schätzt geschätzten geschätzte schätzte schätzchen schatzi geschätzter schätzten
+Schatz	schatz schätzen schätze geschätzt schätzt geschätzten geschätzte schätzte schätzchen schatzi geschätzter schätzten schatzes schätz geschätztes schatze
 vertrauen	vertrauen vertraut vertraute vertrauten vertrauens vertraue vertrauter vertrau vertraust vertrautes vertrautem vertrauend
 Serie	serie serien
 Gebäude	gebäude gebäudes gebäuden
@@ -785,28 +785,28 @@ bezeichnet	bezeichnet bezeichnete bezeichneten bezeichneter bezeichnetes
 empfehlen	empfehlen empfiehlt empfohlen empfehle empfahl empfohlenen empfohlene empfahlen empfehlt empfiehlst empfehl empfiehl
 Mark	mark marke marken marks märker
 Bevölkerung	bevölkerung bevölkerungen bevölkerungs
-Berg	berg berge bergen birgt geborgen berges barg bergs bürgen bargen bürgt bürge
+Berg	berg berge bergen birgt geborgen berges barg bergs bürgen bargen bürgt bürge geborgenen geborgene bürg bergt bergens birg bürgin gebürgt
 merken	merkt merken gemerkt merke merkte merkst merk merkten merks merkens
 Inhalt	inhalt inhalte inhalten inhalts inhaltes
-verhalten	verhalten verhält verhaltens verhalte verhielt verhielten verhältst verhaltenen verhaltene verhaltener verhaltet verhalt
+verhalten	verhalten verhält verhaltens verhalte verhielt verhielten verhältst verhaltenen verhaltene verhaltener verhaltet verhalt verhaltenes verhaltenem
 Beziehung	beziehung beziehungen
 herum	herum rum rums
 http	http https
 bestätigen	bestätigt bestätigen bestätigte bestätigten bestätige bestätigst bestätigter bestätigenden bestätigend
 lustig	lustig lustige lustigen lustiger lustiges lustigsten lustigste lustigem
 Zusammenhang	zusammenhang zusammenhänge zusammenhängen zusammenhängt zusammenhängende zusammenhängenden zusammenhängend zusammenhängendes zusammenhangs zusammenhängender zusammenhing zusammenhingen
-wagen	wagen gewagt wagt wage wagens wagte wagten gewagte wag wägen gewagten wagst
+wagen	wagen gewagt wagt wage wagens wagte wagten gewagte wag wägen gewagten wagst gewagtes wägt gewagter wägelchen wäge wog gewogen wogt
 Chef	chef chefin chefs chefinnen
 darin	darin
 Nachrichten	nachrichten
 total	total totale totalen totaler totales totalem
-bewegen	bewegen bewegt bewegte bewegten bewege bewegende bewogen bewegenden bewegend bewegst beweg bewog
+bewegen	bewegen bewegt bewegte bewegten bewege bewegende bewogen bewegenden bewegend bewegst beweg bewog bewegtes bewegender bewegter bewegendes bewegtem
 teilweise	teilweise teilweisen teilweiser teilweises
 geil	geil geile geilen geiler geiles geilste geilsten geilem geileres geilt geilere goil
 frank	frank franken franke franks frankens
-Wein	wein weinen weine weint geweint weinte weinend weinst weines weinenden weins weinende
+Wein	wein weinen weine weint geweint weinte weinend weinst weines weinenden weins weinende weinten weinendes
 Gespräch	gespräch gespräche gesprächen gesprächs gespräches
-brechen	brechen bricht brach gebrochen brecht brachen gebrochenen gebrochene breche brech gebrochenem gebrochenes
+brechen	brechen bricht brach gebrochen brecht brachen gebrochenen gebrochene breche brech gebrochenem gebrochenes gebrochener brache brich brichst brechend brechende bracht bracher brechenden bräche
 Bedeutung	bedeutung bedeutungen
 Club	club klub clubs klubs
 Dame	damen dame dames
@@ -829,7 +829,7 @@ enden	endet enden end endete endeten geendet endenden endende endend endest
 weisen	weist weisen wies wiesen weis gewiesen wiest weisenden
 Veranstaltung	veranstaltungen veranstaltung veranstaltungs
 Zustand	zustand zustande zustände zuständen zustandes zustands
-beziehen	bezieht beziehen bezogen bezog beziehe bezogenen bezieher bezogene beziehst beziehern bezogenes bezieh
+beziehen	bezieht beziehen bezogen bezog beziehe bezogenen bezieher bezogene beziehst beziehern bezogenes bezieh bezogener bezögen beziehenden
 schwierig	schwierig schwieriger schwierige schwierigen schwieriges schwierigsten schwierigste schwierigere schwierigeren schwierigem schwierigeres schwierigster
 Bericht	bericht berichte berichts berichtes
 acht	acht
@@ -839,7 +839,7 @@ wenigstens	wenigstens
 zuvor	zuvor
 Bewegung	bewegung bewegungen
 ehrlich	ehrlich ehrliche ehrlichen ehrlicher ehrliches ehrlichste ehrlichsten ehrlichem
-gestalten	gestalten gestaltet gestalt gestaltete gestalteten gestalter gestalte gestalteter gestaltetes gestaltende gestaltend gestalterin
+gestalten	gestalten gestaltet gestalt gestaltete gestalteten gestalter gestalte gestalteter gestaltetes gestaltende gestaltend gestalterin gestaltens gestaltern gestaltetem
 verhindern	verhindern verhindert verhinderte verhinderten verhindere verhinderst verhinderter
 Osten	osten ost ostens oste ostend
 Universität	universität universitäten
@@ -850,7 +850,7 @@ rechnen	rechnen gerechnet rechner rechnet rechne rechnete rechnern rechneten rec
 böse	böse bösen böses böser bös bösem bösesten böseste
 Aussage	aussage aussagen ausgesagt aussagt auszusagen aussagte aussagten
 verwenden	verwenden verwandten verwandte verwandt verwende verwendeten verwandter verwendete verwendest verwandtes
-kochen	kochen koch gekocht kocht koche köche köchin kocher kochte gekochte kochst kochs
+kochen	kochen koch gekocht kocht koche köche köchin kocher kochte gekochte kochst kochs gekochten gekochtes köchen kochend kochten kochens gekochtem köchinnen gekochter
 annehmen	angenommen annehmen anzunehmen annimmt annahm annahmen angenommenen annehme angenommene annimmst angenommener
 vorhanden	vorhanden vorhandenen vorhandene vorhandener vorhandenes vorhandenem
 Ahnung	ahnung ahnungen
@@ -858,7 +858,7 @@ jener	jene jener jenen jenem jenes
 indem	indem
 okay	okay
 zuerst	zuerst
-verfahren	verfahren verfahrens verführen verführt verführer verfährt verführte verfuhren verführe verfuhr verfahrenen verführten
+verfahren	verfahren verfahrens verführen verführt verführer verfährt verführte verfuhren verführe verfuhr verfahrenen verführten verfahrene verfahre
 Position	position positionen
 Lied	lied lieder liedern liedes liedchen lieds liede
 nötig	nötig nötigen nötige genötigt nötigste nötiger nötigsten nötigt nötigte nötiges
@@ -903,7 +903,7 @@ Aktion	aktion aktionen
 top	top tops
 vergehen	vergangenen vergehen vergangen vergeht vergangene vergangener vergangenes verging vergingen vergehens vergangenem vergehe
 verantwortlich	verantwortlich verantwortlichen verantwortliche verantwortlicher verantwortliches
-zwingen	gezwungen zwingen zwang zwingend zwingt zwangen zwängen zwingende zwänge zwinge zwangs zwingenden
+zwingen	gezwungen zwingen zwang zwingend zwingt zwangen zwängen zwingende zwänge zwinge zwangs zwingenden zwing zwingender zwängt zwingst gezwängt zwingendes gezwungener gezwungene gezwungenen zwängte zwanges
 Besuch	besuch besuche besuchs besuches
 Schluss	schluss schlüsse schlüssen schlusse
 Prozess	prozess prozesse prozesses prozessen
@@ -911,7 +911,7 @@ Funktion	funktion funktionen
 Wunsch	wunsch wünsche wünsch wunsches wunsche
 verbunden	verbunden verbundenen verbundene verbundener verbundenes verbundenem
 Natur	natur naturen
-verschwinden	verschwinden verschwunden verschwindet verschwand verschwanden verschwundenen verschwindend verschwundene verschwinde verschwindens verschwundener verschwindest
+verschwinden	verschwinden verschwunden verschwindet verschwand verschwanden verschwundenen verschwindend verschwundene verschwinde verschwindens verschwundener verschwindest verschwindende verschwindenden verschwundenes
 Modell	modell modelle modellen modells
 rennen	rennen rennt rannte renner gerannt renn rennens renne rannten rennst renners
 frisch	frisch frische frischen frischer frisches frischem frischt frischesten frischeren
@@ -924,7 +924,7 @@ Organisation	organisation organisationen
 geplant	geplant geplanten geplante geplanter geplantes geplantem
 vermutlich	vermutlich vermutliche vermutlichen vmtl vermutlicher
 Ordnung	ordnung ordnungen
-steuern	steuern steuer gesteuert steuert steuerte gesteuerte gesteuerten steuerten steuere gesteuerter gesteuertes steuernde
+steuern	steuern steuer gesteuert steuert steuerte gesteuerte gesteuerten steuerten steuere gesteuerter gesteuertes steuernde steuerst steuernd
 Meister	meister meistern meisters meisterin gemeistert meistert meisterte meisterten meistere
 fangen	fängt fangen fing fang fange fingen fängst fangt fängen fänge fangs
 ruhig	ruhig ruhiger ruhige ruhigen ruhiges ruhigeren ruhigere ruhigem ruhigeres ruhigste ruhigsten
@@ -935,7 +935,7 @@ Dollar	dollar dollars
 richten	richten richtet gerichtet richtete richte richteten gerichteten richt gerichteter richtest gerichtetes
 Fahrzeug	fahrzeuge fahrzeug fahrzeugen fahrzeugs fahrzeuges
 Baum	baum bäume bäumen baumes bäumchen baums baume bäumte bäumt
-günstig	günstig günstiger günstige günstigen günstigsten günstigere günstigste günstigeren günstiges günstigem günstigeres günstigster
+günstig	günstig günstiger günstige günstigen günstigsten günstigere günstigste günstigeren günstiges günstigem günstigeres günstigster günstigerer günstigstes
 betroffen	betroffenen betroffen betroffene betroffener betroffenes betroffenem
 Fenster	fenster fenstern fensters fensterchen
 Start	start starte starts
@@ -945,7 +945,7 @@ Donnerstag	donnerstag do donnerstags donnerstage
 verkauft	verkauft verkaufte verkauften verkaufter verkauftes
 darunter	darunter drunter
 Freiheit	freiheit freiheiten
-teuer	teuer teurer teure teuren teuerste teuersten teures teureren teurere teurem teuerster teuerstes
+teuer	teuer teurer teure teuren teuerste teuersten teures teureren teurere teurem teuerster teuerstes teureres
 entweder	entweder
 leiden	leiden leidet gelitten litt litten leide leidens leidest leidend litte
 gucken	gucken guck guckt geguckt gucke guckst guckte kucken guckten
@@ -954,10 +954,10 @@ Freude	freude freud freuden
 Hintergrund	hintergrund hintergründe hintergründen hintergrunds hintergrundes
 irgendetwas	irgendwas irgendetwas iwas
 Schiff	schiff schiffe schiffen schiffes schiffs schiffchen schiffte schifft geschifft
-fassen	fassen gefasst fasst fass fasste fasse fässer gefassten gefasste fässern fassten fassenden
+fassen	fassen gefasst fasst fass fasste fasse fässer gefassten gefasste fässern fassten fassenden fässchen gefasster fasses gefasstes
 wissenschaftlich	wissenschaftliche wissenschaftlichen wissenschaftlich wissenschaftlicher wissenschaftliches wissenschaftlichem
-Fahrrad	fahrrad rad räder fahrräder rädern fahrrädern rade rades rädchen radl fahrrads fahrrades
-Park	park parken parks parker geparkt parkt parkte parke parkes parkers parkten parkst
+Fahrrad	fahrrad rad räder fahrräder rädern fahrrädern rade rades rädchen radl fahrrads fahrrades gerädert rads
+Park	park parken parks parker geparkt parkt parkte parke parkes parkers parkten parkst parkens
 national	nationalen nationale national nationaler nationales nationalem
 Zweck	zweck zwecke zwecks zwecken zweckes
 Bau	bau bauten baue baus baues
@@ -968,14 +968,14 @@ krank	krank kranken kranke kranker krankes krankt kränker krankem
 Partner	partner partnern partnerin partners partnerinnen
 Maßnahme	massnahmen massnahme
 erwähnt	erwähnt erwähnte erwähnten erwähnter erwähntes
-modern	modernen modern moderner modernes modernsten modernste modernem modernere modernster moderneren moder moderneres
+modern	modernen modern moderner modernes modernsten modernste modernem modernere modernster moderneren moder moderneres modernstes modernstem
 cm	cm
 jedenfalls	jedenfalls
 nahe	nahe
 Nordost	no nordost
 Handy	handy handys
 speziell	speziell spezielle speziellen spezielles spezieller speziellem speziellere spezielleren
-zerstören	zerstört zerstören zerstörte zerstörten zerstörer zerstöre zerstörtes zerstörst zerstörter zerstör zerstörern zerstörende
+zerstören	zerstört zerstören zerstörte zerstörten zerstörer zerstöre zerstörtes zerstörst zerstörter zerstör zerstörern zerstörende zerstörend
 Schloss	schloss schlösser schlosses schlössern schlösschen schlosse
 leer	leer leere leeren leerer leeres geleert leerem leert leerte leerten leers
 Haar	haare haar haaren härchen haares haars haart
@@ -995,22 +995,22 @@ Sicht	sicht gesichtet sichten sichtet sichtete sichteten gesichteten
 Gewalt	gewalt gewalten
 daraus	daraus draus
 gefährlich	gefährlich gefährliche gefährlichen gefährlicher gefährliches gefährlichsten gefährlichste gefährlichem gefährlichere gefährlicheren gefährlicheres gefährlichster
-sparen	sparen spart gespart spar sparte spare sparten sparer sparst sparern sparens gesparten
+sparen	sparen spart gespart spar sparte spare sparten sparer sparst sparern sparens gesparten gespartes
 Reise	reise
 Waffe	waffen waffe
 retten	retten gerettet rettet rettete rette retteten rettest rett
-treiben	treiben treibt getrieben trieb trieben treibende triebe treibe treibenden treibst treib getriebene
+treiben	treiben treibt getrieben trieb trieben treibende triebe treibe treibenden treibst treib getriebene getriebenen treibend triebes treibens getriebener
 Anspruch	anspruch ansprüche ansprüchen anspruchs anspruches
 polen	polen pol pole polens polin polt polinnen gepolt poles pols polte
 Dorf	dorf dörfer dörfern dorfes dörfchen dorfs dorfe dörflein
 App	app apps
 weltweit	weltweit weltweiten weltweite weltweiter weltweites weltweitem
 Gerät	gerät geräte geräten gerätes geräts
-Ausdruck	ausdruck ausdrücken ausgedrückt ausdrucken auszudrücken ausdrücke ausdrückt ausgedruckt ausdrucks ausdrückte ausdrucke auszudrucken
+Ausdruck	ausdruck ausdrücken ausgedrückt ausdrucken auszudrücken ausdrücke ausdrückt ausgedruckt ausdrucks ausdrückte ausdrucke auszudrucken ausgedruckten ausgedrückte ausdrückten ausdrückst ausgedrückten
 Einfluss	einfluss einflüsse einflüssen einflusses
 Stein	stein steine steinen steins steinchen steines steindl
 sammeln	sammeln gesammelt sammelt sammelte sammelten sammle sammel sammelst sammele sammelns
-tanzen	tanzen tanz tanzt tänzer getanzt tänze tanzte tanze tanzten tanzenden tanzes tänzen
+tanzen	tanzen tanz tanzt tänzer getanzt tänze tanzte tanze tanzten tanzenden tanzes tänzen tanzend tänzchen tanzens
 Rat	rat rate rates räte rats räten
 Anteil	anteil anteile anteilen anteils antheil
 Szene	szene szenen
@@ -1023,7 +1023,7 @@ Zeichen	zeichen zeichens
 Sonne	sonne sonnen sonn sonnst sonnt sonnet sonnte
 überlegen	überlegen überlegt überlege überleg überlegenen überlegte überlegene überlegst überlegten überlegener überlegenes überlegter
 Brief	brief briefe briefen briefes briefs briefchen gebrieft
-niedrig	niedrigen niedriger niedrig niedrige niedrigeren niedrigere niedrigsten niedrigste niedrigem niedriges niedrigerer niedrigerem
+niedrig	niedrigen niedriger niedrig niedrige niedrigeren niedrigere niedrigsten niedrigste niedrigem niedriges niedrigerer niedrigerem niedrigeres niedrigster niedrigstem
 Sachs	sachsen sachs sachsens sachse sächsin
 Insel	insel inseln inselchen
 informieren	informiert informieren informierte informiere informierten informier informierter informierst
@@ -1039,13 +1039,13 @@ Schutz	schutz schütze schutze schutzes schützin schützinnen
 See	see seen sees
 Star	star stars stare staar
 eröffnen	eröffnet eröffnen eröffnete eröffneten eröffne eröffnenden eröffnest eröffnetes
-ausgehen	ausgehen ausgegangen ausgeht ausgehend auszugehen ausgehenden ausging ausgehe ausgehende ausgingen ausgehst ausginge
+ausgehen	ausgehen ausgegangen ausgeht ausgehend auszugehen ausgehenden ausging ausgehe ausgehende ausgingen ausgehst ausginge ausgegangenen ausgehender
 drin	drin
 zuletzt	zuletzt
 vollständig	vollständig vollständige vollständigen vollständiger vollständiges vollständigem vollständigste vollständigsten
 klassisch	klassischen klassische klassischer klassisch klassisches klassischem
 bestellen	bestellt bestellen bestellte bestelle bestell bestellten bestellst besteller bestelltes bestellers
-versprechen	versprechen versprochen verspricht versprach verspreche versprachen versprochene versprochenen versprichst versprich versprechend versprechens
+versprechen	versprechen versprochen verspricht versprach verspreche versprachen versprochene versprochenen versprichst versprich versprechend versprechens versprechende versprechenden versprech versprecht versprechender
 Technik	technik techniken
 regen	regen regt reg rege regte reger regens reges regst regten regesten regem
 froh	froh frohe frohes frohen froher
@@ -1064,7 +1064,7 @@ Polizist	polizisten polizist polizistin polizistinnen
 Bein	beine bein beinen beinchen beines beins
 Verhältnis	verhältnis verhältnisse verhältnissen verhältnisses
 Operation	op operation operationen
-leiten	leitet geleitet leiten leitete leitende leitenden leitender leite leiteten leit leitest leitend
+leiten	leitet geleitet leiten leitete leitende leitenden leitender leite leiteten leit leitest leitend leitendes geleitetes
 Auswahl	auswahl auswahlen
 derzeit	derzeit
 regelmäßig	regelmässig
@@ -1072,18 +1072,18 @@ Grundlage	grundlage grundlagen
 Bus	bus busse bussen buss busses
 Zeitpunkt	zeitpunkt zeitpunkten zeitpunkte zeitpunkts zeitpunktes
 Konzept	konzept konzepte konzepten konzepts konzeptes
-dicht	dicht dichter dichte dichten dichters dichtes dichterin dichtem dichtern dichtesten gedichtet dichtete
-fördern	fördern gefördert fördert förderer geförderten geförderte förderte förder förderten fördere förderern fördernde
+dicht	dicht dichter dichte dichten dichters dichtes dichterin dichtem dichtern dichtesten gedichtet dichtete dichtet dichtere dichteste dichteren dichterinnen dichteres dichteten
+fördern	fördern gefördert fördert förderer geförderten geförderte förderte förder förderten fördere förderern fördernde fördernden geförderter gefördertes fördernd förderndes förderin
 Institut	institut instituts institute instituten institutes
 Winter	winter winters wintern
-wenden	wenden wende wendet wandte gewandt gewendet wendete wandten winde wendeten wendest wend
+wenden	wenden wende wendet wandte gewandt gewendet wendete wandten winde wendeten wendest wend gewandten gewandte gewandter winden windet wände wänden gewundenen gewunden gewundene
 Anlage	anlage anlagen
-drücken	drücken drückt gedrückt drückte drück drücke drückst drückten drückend drückende drückenden gedrückte
+drücken	drücken drückt gedrückt drückte drück drücke drückst drückten drückend drückende drückenden gedrückte drückender gedrückten gedrückter
 Vorteil	vorteil vorteile vorteilen vorteils
 Stern	stern sterne sternen sternchen sterns sternes sternlein
 Arbeitgeber	ag arbeitgeber arbeitgebern arbeitgebers arbeitgeberin
 relativ	relativ relative relativen relativer relatives
-Decke	decke decken deckt gedeckt deck deckte decks gedeckten deckten gedeckte gedeckter deckst
+Decke	decke decken deckt gedeckt deck deckte decks gedeckten deckten gedeckte gedeckter deckst deckend deckchen gedecktes
 Richter	richter richterin richtern richters richterinnen
 Show	show shows
 Himmel	himmel himmels himmeln
@@ -1097,7 +1097,7 @@ betreffen	betrifft betreffen betreffenden betreffend betreffende betraf betrafen
 beenden	beendet beenden beendete beendeten beende beendest beendeter
 erstmals	erstmals
 mm	mm
-schwach	schwach schwache schwachen schwächer schwacher schwächeren schwächere schwaches schwächsten schwächste schwachem schwächerer
+schwach	schwach schwache schwachen schwächer schwacher schwächeren schwächere schwaches schwächsten schwächste schwachem schwächerer schwächeres schwächster schwächstes
 Kamera	kamera kameras
 Party	party partys parties
 Tipp	tipps tipp
@@ -1109,7 +1109,7 @@ Urlaub	urlaub urlaubs urlaube urlauben urlaubt urlaubes
 Arsch	arsch ärsche ärschen arsche
 Ehre	ehre ehren geehrt ehrt ehr ehrte ehret ehrten
 derjenige	diejenigen derjenige denjenigen diejenige derjenigen demjenigen dasjenige desjenigen
-lügen	lügen lüge gelogen lügt log loge logen lügst logs lüg loggen loggt
+lügen	lügen lüge gelogen lügt log loge logen lügst logs lüg loggen loggt logge lügenden
 Bier	bier biere bierchen bieres bieren biers
 Material	material materialien materials
 österreichisch	österreichischen österreichische österreichischer österreichisch österreichisches österreichischem
@@ -1149,11 +1149,11 @@ staatlich	staatlichen staatliche staatlich staatlicher staatliches staatlichem
 Verlag	verlag verlage verlags verlages verlagen
 Auftrag	auftrag aufträge aufträgen auftrags auftrage auftrages
 betragen	beträgt betragen betrugen betrogen betrügt betrügen betrage betrogene betrüge betrügst betrog betrogenen
-breit	breit breiter breiten breites breiteren breitere breitet breitem breiteres breitete breitesten breiteste
+breit	breit breiter breiten breites breiteren breitere breitet breitem breiteres breitete breitesten breiteste breiterer breiteten
 außerhalb	ausserhalb
-stören	stört stören gestört störend störte gestörte störe störende gestörten störenden stör störten
+stören	stört stören gestört störend störte gestörte störe störende gestörten störenden stör störten gestörter gestörtes störst störendes störender
 gewiss	gewisse gewiss gewisser gewisses gewissem
-greifen	greifen greift gegriffen greife griffen greif griffe greifst greifende greifenden gegriffenen gegriffene
+greifen	greifen greift gegriffen greife griffen greif griffe greifst greifende greifenden gegriffenen gegriffene greifend
 entdeckt	entdeckt entdeckte entdeckten entdecktes entdeckter
 negativ	negativ negative negativen negatives negativer negativem
 typisch	typisch typische typischen typischer typisches typischem
@@ -1163,11 +1163,11 @@ konkret	konkrete konkreten konkret konkreter konkretes konkretere konkretem konk
 Johannes	johannes jo johannis johanne johanni
 unterscheiden	unterscheiden unterscheidet unterschiede unterschieden unterscheide unterscheid unterscheidende unterscheidenden unterscheidest
 verbessern	verbessern verbessert verbesserte verbesserten verbesserter verbessere verbessertes verbesserst verbessertem verbesser
-stattfinden	stattfinden stattfindet stattgefunden stattfand stattfindenden stattfindende stattfanden stattgefundenen stattfinde stattzufinden stattgefundene stattfindender
+stattfinden	stattfinden stattfindet stattgefunden stattfand stattfindenden stattfindende stattfanden stattgefundenen stattfinde stattzufinden stattgefundene stattfindender stattfindendes
 erwachsen	erwachsene erwachsenen erwachsen erwachsener erwächst erwuchs erwachsenes erwachsenem erwachsenden erwuchsen erwachst
 Vorstellung	vorstellung vorstellungen
 Information	information info informations
-fein	fein feine feinen feines feiner feinsten feinste feinem feinster feinere feinstes feinstem
+fein	fein feine feinen feines feiner feinsten feinste feinem feinster feinere feinstes feinstem feineren feinst feineres
 Nazi	nazis nazi
 verzichten	verzichten verzichtet verzicht verzichtete verzichte verzichteten verzichtest verzichts
 Garten	garten gärten gartens gärtchen
@@ -1190,7 +1190,7 @@ Generation	generation generationen
 Finale	finale final finalen finals finales finaler
 eingesetzt	eingesetzt eingesetzten eingesetzte eingesetzter eingesetztes
 Untersuchung	untersuchung untersuchungen
-prüfen	prüfen geprüft prüft prüfe geprüften prüfte geprüfter prüf prüften prüfenden prüfende prüfend
+prüfen	prüfen geprüft prüft prüfe geprüften prüfte geprüfter prüf prüften prüfenden prüfende prüfend geprüftes prüfst
 Spur	spur spuren spurt gespurt
 draußen	draussen
 Jugend	jugend
@@ -1207,7 +1207,7 @@ traurig	traurig traurige traurigen trauriger trauriges traurigste traurigsten tr
 Maschine	maschine maschinen
 Gegner	gegner gegnern gegners gegnerin gegnerinnen
 Alternative	alternative alternativen
-schenken	geschenkt schenken schenkt schenk schenkte schenke schenker schenkten schenkst geschenkten geschenkte schänke
+schenken	geschenkt schenken schenkt schenk schenkte schenke schenker schenkten schenkst geschenkten geschenkte schänke geschenktes schank schenkenden schenkens
 Landkreis	landkreis landkreises landkreise landkreisen
 Flughafen	flughafen flughäfen flughafens
 Mine	min mine minen mint
@@ -1223,12 +1223,12 @@ Stärke	stärke stärken gestärkt stärkt stärkte stärkten stärk stärkenden
 real	real realen reale realer reales realem reals
 klappen	klappt geklappt klappen klappe klappte klapp klappten
 stets	stets
-achten	achten achte geachtet achtet achter achtete achtern achtest achtes achteten geachteten geachteter
+achten	achten achte geachtet achtet achter achtete achtern achtest achtes achteten geachteten geachteter geachtete
 Student	studenten student studentin
 Vorschlag	vorschlag vorschläge vorschlägen vorschlags vorschlage vorschlages
-Ring	ring ringe ringen rings ringt gerungen ringes ränge rängen rangen ringens ringenden
+Ring	ring ringe ringen rings ringt gerungen ringes ränge rängen rangen ringens ringenden ringlein ringend
 herstellen	hersteller herstellen herzustellen herstellt herstellte herstellten herstelle herstellst
-Blut	blut bluten blutes blutet blute blutende blutete blutend geblutet bluts bluter blutest
+Blut	blut bluten blutes blutet blute blutende blutete blutend geblutet bluts bluter blutest bluteten
 Presse	presse press pressen gepresst presst gepressten presste gepresste gepresster pressten gepresstem gepresstes
 zufrieden	zufrieden zufriedener zufriedene zufriedenen zufriedenes
 irgendwo	irgendwo iwo
@@ -1245,7 +1245,7 @@ darstellen	darstellen darstellt darzustellen darstellte darstellten darstelle da
 organisieren	organisiert organisieren organisierte organisierten organisierter organisiertes organisiere organisierenden organisiertem organisier organisierst
 kritisch	kritisch kritische kritischen kritischer kritisches kritischem kritischsten kritischere kritischste
 diskutieren	diskutiert diskutieren diskutierten diskutierte diskutiere diskutiertes diskutier diskutierst diskutierter
-Mangel	mangel mangels mängel mangelnde mangelt mangelnder mangelnden mängeln mangelndes mangelte mangeln mangelndem
+Mangel	mangel mangels mängel mangelnde mangelt mangelnder mangelnden mängeln mangelndes mangelte mangeln mangelndem gemangelt mangele mangle
 finanziell	finanzielle finanziellen finanziell finanzieller finanzielles finanziellem
 Haut	haut häuten häute gehäutet häutet häutchen
 Methode	methode methoden
@@ -1265,8 +1265,8 @@ gelb	gelb gelbe gelben gelber gelbes gelbem gehl
 Tour	tour touren tourt tourte tourten
 Breite	breite breiten breites breitet breitete breiteten
 verändert	verändert veränderte veränderten veränderter verändertes verändertem
-Strom	strom strömen strömt ströme stroms strömten strömenden strömte stromes strömendem ström geströmt
-Zweifel	zweifel zweifeln zweifelt zweifle gezweifelt zweifelte zweifler zweifelst zweifels zweifelten zweifele zweifelnden
+Strom	strom strömen strömt ströme stroms strömten strömenden strömte stromes strömendem ström geströmt strömender strömende strome
+Zweifel	zweifel zweifeln zweifelt zweifle gezweifelt zweifelte zweifler zweifelst zweifels zweifelten zweifele zweifelnden zweifelnd zweiflern
 Roman	roman romane romans romanen romanes
 Jude	juden jude jüdin jüdinnen
 Leiter	leiter leiterin leitern leiters leiterinnen
@@ -1275,11 +1275,11 @@ Religion	religion religionen reli
 Bürgermeister	bürgermeister bürgermeisters bürgermeisterin bürgermeistern bürgermeisterinnen
 Umgebung	umgebung umgebungen
 Masse	masse massen masst
-sinken	sinkt sinken sankt sank gesunken sinkende sinkenden sanken sinkender gesunkenen gesunkene sinke
+sinken	sinkt sinken sankt sank gesunken sinkende sinkenden sanken sinkender gesunkenen gesunkene sinke sink sinkend sinkendes sinkendem gesunkener
 Jugendlicher	jugendliche jugendlichen jugendlicher jugendlichem
 Nachbar	nachbarn nachbar nachbarin nachbars nachbarinnen
 Vergangenheit	vergangenheit vergangenheiten
-heben	hebt hob heben gehoben hub gehobenen hebe heb gehobene hoben gehobener hüben
+heben	hebt hob heben gehoben hub gehobenen hebe heb gehobene hoben gehobener hüben hebst hubs gehobenes huben gehobenem hube gehobeneren
 üblich	üblich üblichen übliche üblicher übliches üblichem
 Gegensatz	gegensatz gegensätze gegensätzen gegensatzes
 hinten	hinten
@@ -1300,16 +1300,16 @@ Literatur	literatur literaturen
 Mund	mund munde münder mundes mündern
 Leitung	leitung leitungen
 miteinander	miteinander miteinanders
-packen	packen pack gepackt packt packte packe packst packs packet packende packten packend
+packen	packen pack gepackt packt packte packe packst packs packet packende packten packend gepackten
 Meer	meer meeres meere meeren meers
 Vogel	vogel vögel vögeln vogels vögelchen gevögelt vögelt vögele vöglein vögelein
-drohen	droht drohen drohte gedroht drohenden drohende drohten drohe drohender drohend droh drohendes
-scheitern	scheitern gescheitert scheiterte scheitert scheiterten gescheiterten gescheiterte scheiterns gescheiterter scheitere gescheitertes scheiterst
+drohen	droht drohen drohte gedroht drohenden drohende drohten drohe drohender drohend droh drohendes drohendem drohst
+scheitern	scheitern gescheitert scheiterte scheitert scheiterten gescheiterten gescheiterte scheiterns gescheiterter scheitere gescheitertes scheiterst scheiter
 Seele	seele seelen seelchen
 geeignet	geeignet geeignete geeigneten geeigneter geeignetes geeignetsten geeignetem geeignetste geeignetere geeigneteren
 angeblich	angeblich angeblichen angebliche angeblicher angebliches angeblichem
 erlaubt	erlaubt erlaubte erlaubten erlaubter erlaubtes
-Ton	ton töne tönen tone tönt tons getönt tönte tones getönten getönte tonen
+Ton	ton töne tönen tone tönt tons getönt tönte tones getönten getönte tonen tönende tön
 Angabe	angaben angabe
 Frieden	frieden friedens friede
 offensichtlich	offensichtlich offensichtliche offensichtlichen offensichtlicher offensichtliches offensichtlichste offensichtlichsten offensichtlichem
@@ -1328,7 +1328,7 @@ pflanzen	pflanzen pflanze gepflanzt pflanzt pflänzchen pflanzte pflanz pflanzte
 Praxis	praxis praxen
 Theater	theater theaters theatern
 Witz	witz witze witzen witzes witzchen
-rauchen	rauchen rauch geraucht raucher raucht rauche rauchte rauchst rauchten rauchens rauchend rauchs
+rauchen	rauchen rauch geraucht raucher raucht rauche rauchte rauchst rauchten rauchens rauchend rauchs rauches
 Zuhause	zuhause zuhauses
 vierte	vierten vierte vierter viertes viertem
 Schauspieler	schauspieler schauspielerin schauspielern schauspielerinnen schauspielers geschauspielert schauspielert
@@ -1345,7 +1345,7 @@ hundert	hundert hunderte hunderten
 Wind	wind winde winden windes windet wände wänden gewundenen winds gewunden gewundene
 Krankheit	krankheit krankheiten
 vorbereiten	vorbereitet vorbereiten vorzubereiten vorbereitete vorbereiteten vorbereitenden vorbereite vorbereitetes vorbereitest vorbereiteter vorbereitend
-scharf	scharf scharfe scharfen scharfer schärfer scharfes schärfste schärfere schärfsten scharfem schärferen schärfster
+scharf	scharf scharfe scharfen scharfer schärfer scharfes schärfste schärfere schärfsten scharfem schärferen schärfster schärferes schärferer
 Journalist	journalisten journalist journalistin journalistinnen
 Finger	finger fingern fingers gefingert fingert fingerchen fingerte
 Demokratie	demokratie demokratien
@@ -1365,7 +1365,7 @@ wiederum	wiederum
 zugleich	zugleich
 Ansicht	ansicht ansichten
 aufhören	aufhören aufgehört aufhört aufzuhören aufhörte aufhörst aufhöre aufhörten
-billig	billig billiger billige billigen billiges gebilligt billigste billigsten billigere billigt billigeren billigem
+billig	billig billiger billige billigen billiges gebilligt billigste billigsten billigere billigt billigeren billigem billigend billigte billigst billigeres billigten billigster gebilligten
 braun	braun braune braunen brauner braunes braunem brauns
 zeichnen	zeichnen zeichnet gezeichnet zeichnete zeichne zeichneten gezeichneten gezeichnete zeichnest gezeichnetes gezeichneter zeichnens
 Charakter	charakter charaktere charakteren charakters
@@ -1392,13 +1392,13 @@ längst	längst
 Umstand	umständen umstände umstand umstandes umstands
 Glas	glas gläser gläsern gläschen gläsernen gläserne glases gläserner gläsernes glase glasl
 Ausland	ausland auslands auslandes
-brennen	brennt brennen brannte brennenden brennende gebrannt brannten brennend brennender brenne brennendes brenn
+brennen	brennt brennen brannte brennenden brennende gebrannt brannten brennend brennender brenne brennendes brenn gebrannte gebrannten brennendem brennst gebranntem gebranntes gebrannter brennet
 Handel	handel handels händel händels händeln
 jeweilig	jeweiligen jeweilige jeweilig jeweiliger jeweiliges jeweiligem
-hell	hell heller helle hellen helles hellem hellste hellsten hellere helleren hellt hellers
+hell	hell heller helle hellen helles hellem hellste hellsten hellere helleren hellt hellers helleres hellte hellerer
 Standard	standard standards
 original	original originale originalen originals originaler originales
-Anhalt	anhalt anhalten angehalten anhaltende anhaltenden anhält anhalter anzuhalten anhaltend anhaltender anhalts anhielt
+Anhalt	anhalt anhalten angehalten anhaltende anhaltenden anhält anhalter anzuhalten anhaltend anhaltender anhalts anhielt anhaltendes anhaltendem anhielten anhalte
 Lady	lady lord ladies gentleman lords ladys gentlemen kavalier lorde kavaliere
 Änderung	änderung änderungen
 Herbst	herbst herbstes
@@ -1416,7 +1416,7 @@ diesmal	diesmal
 hoffentlich	hoffentlich
 plus	plus
 Mord	mord morde mordes morden gemordet mordet mords mordenden mordend mordens mordete mordeten
-lecken	lecker lecken leckere leck leckeren leckeres leckt geleckt leckerer leckte lecke lecks
+lecken	lecker lecken leckere leck leckeren leckeres leckt geleckt leckerer leckte lecke lecks leckerem leckerste leckst leckersten
 Parlament	parlament parlaments parlamente parlamenten parlamentes
 fernsehen	fernsehen fernsehens fernzusehen fernsehe fernsieht ferngesehen
 Rand	rand rande rändern ränder randes randen rands
@@ -1431,7 +1431,7 @@ doppelt	doppelt doppelte doppelten doppelter doppeltes doppeltem
 verbringen	verbringen verbrachte verbracht verbringt verbringe verbrachten verbringst verbring
 traditionell	traditionellen traditionelle traditionell traditioneller traditionelles traditionellem
 Gelegenheit	gelegenheit gelegenheiten
-empfangen	empfangen empfang empfängt empfing empfingen empfange empfangenen empfangs empfangene empfänge empfängen empfangt
+empfangen	empfangen empfang empfängt empfing empfingen empfange empfangenen empfangs empfangene empfänge empfängen empfangt empfangenden empfängst
 verbinden	verbindet verbinden verbände verbinde verbänden verbanden verbindende verbindest verbindend
 erheblich	erheblich erhebliche erheblichen erheblicher erheblichem erhebliches
 Tatsache	tatsache tatsachen
@@ -1456,13 +1456,13 @@ Produktion	produktion produktionen
 Verwendung	verwendung verwendungen
 Ereignis	ereignisse ereignis ereignissen ereignisses
 Zentrale	zentrale zentralen
-überzeugen	überzeugen überzeugend überzeugende überzeugte überzeugenden überzeugender überzeugendes überzeugten überzeuge überzeug überzeugst überzeugendsten
+überzeugen	überzeugen überzeugend überzeugende überzeugte überzeugenden überzeugender überzeugendes überzeugten überzeuge überzeug überzeugst überzeugendsten überzeugendste
 zuständig	zuständig zuständigen zuständige zuständiger zuständiges
 Eis	eis eisen eises eisens eise
 britisch	britischen britische britischer britisch britisches britischem
 Ball	ball bälle balls bällen bällchen balles balle
 Besucher	besucher besuchern besucherin besuchers
-eingehen	eingehen eingegangen einzugehen eingeht eingehend eingehende einging eingehenden eingehender eingegangenen eingingen eingehe
+eingehen	eingehen eingegangen einzugehen eingeht eingehend eingehende einging eingehenden eingehender eingegangenen eingingen eingehe eingegangene eingehst
 Aufnahme	aufnahme aufnahmen
 durchgeführt	durchgeführt durchgeführten durchgeführte durchgeführter durchgeführtes
 katholisch	katholischen katholische katholisch katholischer katholisches katholischem
@@ -1480,7 +1480,7 @@ herzlich	herzlich herzlichen herzliche herzliches herzlicher herzlichsten herzli
 Be	be
 ausschließen	ausgeschlossen ausschliessen auszuschliessen ausschliesst ausschloss ausschliesse ausschliessende ausschliessend ausschliessenden
 eindeutig	eindeutig eindeutige eindeutigen eindeutiger eindeutiges eindeutigem
-weichen	weichen weich weiche weicht wich weicher weiches gewichen weichem wicht wichen wichst
+weichen	weichen weich weiche weicht wich weicher weiches gewichen weichem wicht wichen wichst weichere weicheren weichst wichte weicheres
 weh	weh wehe weht wehen wehte geweht wehten
 nachdenken	nachdenken nachgedacht nachzudenken nachdenkt nachdenke nachdenkst nachdachte nachdenkens
 aufstellen	aufgestellt aufstellen aufzustellen aufgestellten aufstellt aufstellte aufstellten aufgestelltes aufgestellter aufstelle
@@ -1510,7 +1510,7 @@ Stil	stil stile stils stiles stilen
 Wolf	wolf wölfe wölfen wolfs wolfe wolfes wölfin wolfi wölfchen fähe
 unmöglich	unmöglich unmögliche unmöglichen unmögliches unmöglicher unmöglichsten
 automatisch	automatisch automatische automatischen automatischer automatisches automatischem
-beraten	berater beraten berät beratend beriet beratende beratenden berate beratender berieten berat beratendes
+beraten	berater beraten berät beratend beriet beratende beratenden berate beratender berieten berat beratendes beratenen
 Rechnung	rechnung rechnungen rechnungs
 Computer	computer computern computers
 Täter	täter tätern täters täterin
@@ -1533,13 +1533,13 @@ Graf	graf grafen gräfin grafe grafs
 christlich	christlichen christliche christlich christlicher christliches christlichem
 Küche	küche küchen küchlein zkb
 zunehmend	zunehmend zunehmende zunehmenden zunehmender zunehmendem zunehmendes
-vermitteln	vermitteln vermittelt vermittler vermittelte vermittelten vermittle vermittlerin vermittelnde vermittlern vermittlers vermittelst vermittelnd
+vermitteln	vermitteln vermittelt vermittler vermittelte vermittelten vermittle vermittlerin vermittelnde vermittlern vermittlers vermittelst vermittelnd vermittele
 Kreuz	kreuz kreuze kreuzes kreuzen kreuzt gekreuzt kreuzchen kreuzte kreuzten kreutz kreuzenden creutz
 Abstand	abstand abständen abstände abstands abstandes
 extra	extra extras
 spanisch	spanischen spanisch spanische spanischer spanisches spanischem
 ausgezeichnet	ausgezeichnet ausgezeichnete ausgezeichneten ausgezeichneter ausgezeichnetes ausgezeichnetem
-reifen	reifen reife reif reifer gereift reift reifte reifere reiferen reifens reifes reifem
+reifen	reifen reife reif reifer gereift reift reifte reifere reiferen reifens reifes reifem reifenden reiften
 verursachen	verursacht verursachen verursachte verursachten verursache verursachenden verursachst
 selbstverständlich	selbstverständlich selbstverständliche selbstverständlicher selbstverständlichen selbstverständliches
 Sturm	sturm stürmen stürme stürmt gestürmt stürmte sturms stürmten sturmes sturme
@@ -1547,7 +1547,7 @@ beschrieben	beschrieben beschriebenen beschriebene beschriebenes beschriebener
 mehrfach	mehrfach mehrfacher mehrfache mehrfachen mehrfaches mehrfachem
 Schwede	schweden schwede schwedin
 Pause	pause pausen paus päuschen
-dick	dick dicken dickes dicker digga dicksten dickem dickere digger dickeren dickens dickste
+dick	dick dicken dickes dicker digga dicksten dickem dickere digger dickeren dickens dickste dickeres dickerer diggah
 gesellschaftlich	gesellschaftlichen gesellschaftliche gesellschaftlich gesellschaftlicher gesellschaftliches gesellschaftlichem
 schreien	schreien schreit schrei schrie schreie geschrien schreiend schrien schreist geschrieen schrieen
 demokratisch	demokratischen demokratische demokratisch demokratischer demokratisches demokratischem
@@ -1593,7 +1593,7 @@ vieles	vieles vielem
 verurteilen	verurteilt verurteilen verurteilte verurteilten verurteile verurteilter verurteilst
 mailen	mail mailen gemailt maile mailt mailte
 planen	planen plant plante plane planten planst planenden
-unterliegen	unterlagen unterliegen unterliegt unterlag unterlegen unterlegt unterlegenen unterlegene unterliege unterlegte unterliegenden unterlegten
+unterliegen	unterlagen unterliegen unterliegt unterlag unterlegen unterlegt unterlegenen unterlegene unterliege unterlegte unterliegenden unterlegten unterlegener unterlägen
 verbreitet	verbreitet verbreitete verbreiteten verbreiteter verbreitetes verbreitetsten verbreitetste
 Länge	länge längen längt
 Vortrag	vortrag vorträge vorträgen vortrags vortrages
@@ -1606,16 +1606,16 @@ Bühne	bühne bühnen
 Hesse	hessen hesse hesses
 Norden	norden nordens nordend nordende
 betreiben	betreiben betreibt betriebe betreibe betreibst betreibenden
-üben	üben geübt übt übte übe übten üb geübte geübten übst geübter übenden
-anziehen	anziehen anzug angezogen anzuziehen anzieht anzüge anziehend anzügen anziehe anzog anziehende anziehst
+üben	üben geübt übt übte übe übten üb geübte geübten übst geübter übenden übens
+anziehen	anziehen anzug angezogen anzuziehen anzieht anzüge anziehend anzügen anziehe anzog anziehende anziehst anziehenden anzugs angezogene anzogen angezogenen anziehender angezogener anziehendes
 Stoff	stoff stoffe stoffen stoffes stoffs
 timen	tim time timen
 spüren	spüren spürt spüre spürte gespürt spürst spür spürten
 at	at ats
 geraten	geraten geriet gerieten geratenen geratene gerate gerätst geratener gerat geratenes geriete
-Schild	schild schildert schilder schildern geschildert schilderte schilde schildes schildchen schilden schildere schilderten
+Schild	schild schildert schilder schildern geschildert schilderte schilde schildes schildchen schilden schildere schilderten schilderst schilds
 Einführung	einführung einführungen
-ansprechen	angesprochen ansprechen anzusprechen anspricht ansprechend ansprechende ansprach ansprachen ansprechenden ansprechender ansprechendes anspreche
+ansprechen	angesprochen ansprechen anzusprechen anspricht ansprechend ansprechende ansprach ansprachen ansprechenden ansprechender ansprechendes anspreche ansprichst
 wunderschön	wunderschön wunderschöne wunderschönen wunderschönes wunderschöner wunderschönem wunderschönste
 senden	senden gesendet sendet sende gesandt sandte send sendete gesendeten sandten sendest sendeten
 Fleisch	fleisch fleisches fleische
@@ -1623,7 +1623,7 @@ Voraussetzung	voraussetzungen voraussetzung
 Flugzeug	flugzeug flugzeuge flugzeugen flugzeugs flugzeuges
 Fisch	fisch fische fischen gefischt fischt fisches fischte fischten fischchen fischlein
 anbieten	anbieten anzubieten anbietet anbiete anboten anbot anbietest anbietenden
-vorliegen	vorliegen vorliegt vorliegenden vorliegende vorlagen vorlag vorliege vorgelegen vorliegend vorliegender vorlägen vorliegens
+vorliegen	vorliegen vorliegt vorliegenden vorliegende vorlagen vorlag vorliege vorgelegen vorliegend vorliegender vorlägen vorliegens vorzuliegen vorliegendem vorliegendes vorläge
 Miete	miete mieten gemietet miet mietet gemieteten mietete mieteten
 Nase	nase nasen näschen
 seitdem	seitdem
@@ -1645,13 +1645,13 @@ Weltkrieg	weltkrieg weltkriegs weltkrieges weltkriege weltkriegen
 Dienstag	dienstag dienstags dienstage
 divers	diverse diversen diverser divers diverses
 angehen	angeht angehen angegangen anzugehen angehende angehenden anging angehender angehe angingen anginge angehst
-anwenden	anwenden angewendet angewandte anzuwenden angewandt anwender angewandten anwendet anwendern angewandter angewendeten angewendete
+anwenden	anwenden angewendet angewandte anzuwenden angewandt anwender angewandten anwendet anwendern angewandter angewendeten angewendete anwende anwandte angewandtes anwenders anwendete anwendest
 Tasche	tasche taschen täschchen
 Restaurant	restaurant restaurants
-unterhalten	unterhalten unterhalt unterhält unterhielt unterhielten unterhalte unterhaltend unterhalts unterhaltet unterhaltende unterhältst unterhaltenden
+unterhalten	unterhalten unterhalt unterhält unterhielt unterhielten unterhalte unterhaltend unterhalts unterhaltet unterhaltende unterhältst unterhaltenden unterhaltenen unterhaltene unterhaltender
 weihnachten	weihnachten weihnachts weihnacht weihnachtet
 Flug	flug flüge flügen fluges flugs fluge
-Back	back backen bäcker gebacken backe backt backend buk bäckern bäckerin backs bäckers
+Back	back backen bäcker gebacken backe backt backend buk bäckern bäckerin backs bäckers bäckt bäckchen backst backte
 chinesisch	chinesischen chinesische chinesisch chinesischer chinesisches chinesischem
 Inneres	inneren innere innern inneres innerer innerem
 Stimmung	stimmung stimmungen
@@ -1689,13 +1689,13 @@ Anhänger	anhänger anhängern anhängers anhängerin
 Hochschule	hochschule hochschulen hochschul
 heiraten	heiraten geheiratet heirat heiratete heiratet heirate heirateten heiratest
 genießen	geniessen genoss genossen
-pflegen	pflegen gepflegt pflegt pfleger pflegte gepflegten gepflegte pflegenden pflegerin pflegten gepflegtes gepflegter
+pflegen	pflegen gepflegt pflegt pfleger pflegte gepflegten gepflegte pflegenden pflegerin pflegten gepflegtes gepflegter pflegern pflegst pflegers pfleg gepflegtem
 Rang	rang range ränge ranges rängen rangs rangen
 verteidigen	verteidigen verteidigt verteidigte verteidige verteidigten verteidigst verteidigenden verteidigende
 konzentrieren	konzentrieren konzentriert konzentrierte konzentrierten konzentriere konzentrierter konzentrier konzentriertes konzentrierst konzentriertem
 Widerstand	widerstand widerstands widerstände widerstandes widerständen
 bar	bar bars bares bare baren barer barem
-streng	streng strenge strengen strenger strengere strengeren strengsten strenges strengste strengem strengster strengerer
+streng	streng strenge strengen strenger strengere strengeren strengsten strenges strengste strengem strengster strengerer strengeres
 sauber	sauber saubere sauberen sauberer sauberes sauberem sauberste saubersten sauberere
 Fach	fach fächer fächern fache faches fachs gefächert gefächertes gefächerten
 Phase	phase phasen
@@ -1735,7 +1735,7 @@ runter	runter
 sodass	sodass
 teils	teils
 woher	woher
-vorkommen	vorkommen vorkommt vorgekommen vorkommenden vorkam vorkommende vorkamen vorkomme vorzukommen vorkommens vorkommender vorkommendes
+vorkommen	vorkommen vorkommt vorgekommen vorkommenden vorkam vorkommende vorkamen vorkomme vorzukommen vorkommens vorkommender vorkommendes vorkommend vorkommst
 witzig	witzig witzige witzigen witziger witziges witzigste witzigsten
 anrufen	anrufen angerufen anzurufen anrufe anruft anrief anrufst angerufenen angerufene anriefen
 sämtlich	sämtliche sämtlichen sämtlicher sämtlich sämtliches
@@ -1754,7 +1754,7 @@ verraten	verraten verrät verrat verriet verrate verrats verrieten verrätst ver
 Haushalt	haushalt haushalte haushalten haushalts haushaltes
 dicke	dicke dicken dicker digga digger dickens dickem diggah
 bewohnen	bewohner bewohnt bewohnten bewohnte bewohnen
-heil	heil heilen geheilt heile heilt heiler heilende heilenden heilte heils heilst heilend
+heil	heil heilen geheilt heile heilt heiler heilende heilenden heilte heils heilst heilend geheilten heilten heiles heilender
 sonstig	sonstige sonstigen sonstiges sonstiger sonstigem sonstig
 momentan	momentan momentanen momentane momentaner momentanes
 probieren	probieren probiert probier probiere probierte probierten probierst
@@ -1770,10 +1770,10 @@ dargestellt	dargestellt dargestellten dargestellte dargestellter
 Anfrage	anfrage anfragen angefragt anzufragen angefragten
 Einwohner	einwohner einwohnern einwohnerin
 Kuss	kuss küssen küsse küsst geküsst küsschen küss küsste küssten kusse kusses küssend
-Bescheid	bescheid bescheiden bescheidenen bescheidene beschieden bescheide bescheidener bescheidenes bescheidenem beschied bescheides bescheids
+Bescheid	bescheid bescheiden bescheidenen bescheidene beschieden bescheide bescheidener bescheidenes bescheidenem beschied bescheides bescheids bescheideneren
 Umgang	umgang umgangs umgänge
 Übersetzung	übersetzung übersetzungen übersetzungs
-einnehmen	einnahmen eingenommen einnehmen einnimmt einzunehmen einnahm eingenommenen eingenommene einnehme einnimmst einnehmend einnehmenden
+einnehmen	einnahmen eingenommen einnehmen einnimmt einzunehmen einnahm eingenommenen eingenommene einnehme einnimmst einnehmend einnehmenden einnehmende
 bestimmen	bestimmen bestimmte bestimmten bestimme bestimmende bestimmenden bestimmend bestimmst bestimm
 betrachtet	betrachtet betrachtete betrachteten
 Musiker	musiker musikern musikerin musikers musikerinnen
@@ -1824,7 +1824,7 @@ Dokument	dokumente dokument dokumenten dokuments dokumentes
 Erkenntnis	erkenntnis erkenntnisse erkenntnissen
 Mauer	mauer mauern mauren gemauerten gemauert mauert maure maurin mäuerchen
 bezeichnen	bezeichnen bezeichnete bezeichnend bezeichneten bezeichne bezeichnest bezeichnenden bezeichnende bezeichner bezeichnender bezeichnendes
-Lob	lob gelobt loben lobt lobte lobe lobend lobende lobes lobten lobet lobenden
+Lob	lob gelobt loben lobt lobte lobe lobend lobende lobes lobten lobet lobenden gelobtes gelobet
 andererseits	andererseits andrerseits
 Argument	argumente argument argumenten arguments argumentes
 Motiv	motiv motive motiven motivs
@@ -1838,7 +1838,7 @@ weshalb	weshalb
 Zeitschrift	zeitschrift zeitschriften
 Handlung	handlung handlungen
 Verhandlung	verhandlungen verhandlung verhandlungs
-empfinden	empfinden empfunden empfinde empfindet empfand empfindest empfanden empfundene empfundenen empfundenes empfindens empfundener
+empfinden	empfinden empfunden empfinde empfindet empfand empfindest empfanden empfundene empfundenen empfundenes empfindens empfundener empfänden empfände
 Befehl	befehl befehle befahl befohlen befehlen befiehlt befehls befiehl befahlen befohlenen
 sexuell	sexuelle sexuellen sexuell sexueller sexuelles sexuellem
 Aspekt	aspekte aspekt aspekten aspekts
@@ -1894,7 +1894,7 @@ generell	generell generelle generellen generelles genereller
 endgültig	endgültig endgültige endgültigen endgültiges endgültiger
 interessieren	interessieren interessierte interessiere interessierten interessierst interessierenden interessier
 Gegenteil	gegenteil gegenteils
-bellen	bill bell bellen belle boll ballen bellt ballet geballten geballt ballt bellte
+bellen	bill bell bellen belle boll ballen bellt ballet geballten geballt ballt bellte ballte gebellt bellenden bölle bellens bollen balle
 Süden	süden südens
 Fakt	fakten fakt
 Aktivität	aktivitäten aktivität aktivitäts
@@ -1951,7 +1951,7 @@ hervor	hervor
 nahezu	nahezu
 CD	cd cds cd's
 Gemeinschaft	gemeinschaft gemeinschaften gemeinschafts
-Wandel	wandel gewandelt wandelt wandeln wandels wandelte wandelnde wandelnden wandelten wandelndes wandle wandelnder
+Wandel	wandel gewandelt wandelt wandeln wandels wandelte wandelnde wandelnden wandelten wandelndes wandle wandelnder gewandelten
 bewerten	bewertet bewerten bewertete bewerte bewerteten bewertenden bewertest bewerter
 locker	locker lockerer lockere lockeren lockeres lockerem
 parallel	parallel parallelen parallele paralleler paralleles
@@ -1961,7 +1961,7 @@ Event	event events
 Ticket	tickets ticket
 garantieren	garantiert garantieren garantierte garantiere garantierten garantierter garantiertes
 Schuss	schuss schüsse schüssen schusses
-mischen	mischen gemischt mischt gemischten gemischte misch mischte mische gemischter gemischtes mischten gemischtem
+mischen	mischen gemischt mischt gemischten gemischte misch mischte mische gemischter gemischtes mischten gemischtem mischst
 Formel	formel formeln
 Summe	summe summen summt summ sümmchen summte summend
 Blume	blumen blume blümchen blümlein blümelein
@@ -1996,7 +1996,7 @@ Geschmack	geschmack geschmacks geschmäcker
 Shop	shop shops
 aufmerksam	aufmerksam aufmerksame aufmerksamer aufmerksamen aufmerksames
 Sender	sender senders sendern
-abnehmen	abnehmen abgenommen abzunehmen abnimmt abnehmender abnahm abnehmenden abnehmende abnehme abnehmend abnahmen abgenommenen
+abnehmen	abnehmen abgenommen abzunehmen abnimmt abnehmender abnahm abnehmenden abnehmende abnehme abnehmend abnahmen abgenommenen abnehmendem abnimmst
 Zahn	zähne zahn zähnen zahnes zähnchen gezähnt zahns zahne
 Blog	blog blogs
 Betrug	betrug betrogen betrügen betrugs betruges betrogene betrügt betrüge betrog betrogenen betrügst
@@ -2015,7 +2015,7 @@ Volkswagen	vw volkswagen volkswagens
 Kern	kern kerne kernen kerns kernes
 erstellt	erstellt erstellte erstellten erstelltes erstellter
 Teilnahme	teilnahme teilnahmen
-malen	malen gemalt malte malt mahlen malten mühlen malst gemahlen mahlt gemahlene male
+malen	malen gemalt malte malt mahlen malten mühlen malst gemahlen mahlt gemahlene male mahle gemahlenen malens gemahlenem malenden gemahlener
 treu	treu treue treuen treuer treues treuesten treueste treusten treuester
 hi	hi
 Medizin	medizin
@@ -2088,7 +2088,7 @@ Versicherung	versicherung versicherungen versicherungs
 einst	einst
 womit	womit
 Bezeichnung	bezeichnung bezeichnungen
-Hut	hut hüten hüte hütet hütete hütchen gehütet hütt hüt gehütetes hutes gehüteten
+Hut	hut hüten hüte hütet hütete hütchen gehütet hütt hüt gehütetes hutes gehüteten hüteten
 Studio	studio studios
 Vorbild	vorbild vorbilder vorbildern vorbilds vorbildes
 müde	müde müden müder müdes müd
@@ -2112,7 +2112,7 @@ arabisch	arabischen arabische arabisch arabischer arabisches arabischem
 inner	inneren innere inner innerer innersten innerste innerstes innerem
 beschlossen	beschlossen beschlossene beschlossenen beschlossenes
 Augenblick	augenblick augenblicke augenblicken augenblicks
-ausbilden	ausgebildet ausbilden ausgebildeten ausbilder auszubilden ausgebildeter ausbildet ausgebildetes ausbildern ausbildete ausbildenden ausgebildetem
+ausbilden	ausgebildet ausbilden ausgebildeten ausbilder auszubilden ausgebildeter ausbildet ausgebildetes ausbildern ausbildete ausbildenden ausgebildetem ausbildner ausbildende
 aufgebaut	aufgebaut aufgebauten aufgebaute aufgebautes aufgebauter
 Schwangerschaft	ss schwangerschaft schwangerschaften
 Plattform	plattform plattformen
@@ -2153,7 +2153,7 @@ Gedicht	gedichte gedicht gedichten gedichts gedichtes
 Probe	probe proben probst geprobt prob probt probten probte
 Zitat	zitat zitate zitaten zitats zitates
 Autobahn	autobahn autobahnen
-steigern	steigern gesteigert steigert steigerte gesteigerte gesteigerten steigerten steigere steiger gesteigertes gesteigerter steigerst
+steigern	steigern gesteigert steigert steigerte gesteigerte gesteigerten steigerten steigere steiger gesteigertes gesteigerter steigerst steigernden gesteigertem
 Arbeitsplatz	arbeitsplätze arbeitsplatz arbeitsplätzen arbeitsplatzes
 gespannt	gespannt gespannte gespannten gespannter gespanntes
 Bibliothek	bibliothek bibliotheken bib bibliotheks
@@ -2201,7 +2201,7 @@ erheben	erheben erhebt erhob erhebe erhebenden erhebend erheb
 Server	server servern servers
 vermissen	vermissen vermisse vermisste vermissten vermiss
 polnisch	polnischen polnische polnisch polnischer polnisches polnischem
-riechen	riecht riechen roch roche rieche gerochen riechst rochen riech riechende riechenden roches
+riechen	riecht riechen roch roche rieche gerochen riechst rochen riech riechende riechenden roches riechendes riechend
 langfristig	langfristig langfristige langfristigen langfristiger langfristiges langfristigem
 unterschreiben	unterschreiben unterschrieben unterschrieb unterschreibt unterschreibe unterschreib unterschriebenen unterschriebene unterschreibst unterschriebenes
 Gehirn	gehirn gehirns gehirne gehirnen
@@ -2250,7 +2250,7 @@ vielmehr	vielmehr
 wohin	wohin
 Shirt	shirt shirts
 blind	blind blinde blinden blinder blindes blindem
-kühl	kühl kühlen kühle kühler gekühlt kühlt kühles kühleren gekühlten kühlem kühlere gekühlte
+kühl	kühl kühlen kühle kühler gekühlt kühlt kühles kühleren gekühlten kühlem kühlere gekühlte kühlte kühlende kühlenden kühleres kühlend gekühltes
 Haft	haft haften haftet hafte haftende haftete haftend gehaftet hafteten
 kompliziert	kompliziert komplizierter komplizierte komplizierten kompliziertes kompliziertere komplizierteren kompliziertesten komplizierteste
 Fraktion	fraktion fraktionen
@@ -2288,7 +2288,7 @@ Rückkehr	rückkehr
 sofern	sofern
 erweisen	erwiesen erwies erweisen erweist erweise erwiesene erwiesener erwiesenen
 friedlich	friedlich friedliche friedlichen friedlicher friedliches friedlichem friedlichste friedlichere friedlicheren
-fliehen	fliehen geflohen floh flieht flohen flöhe geflohenen fliehenden geflohene fliehe flöhen flieh
+fliehen	fliehen geflohen floh flieht flohen flöhe geflohenen fliehenden geflohene fliehe flöhen flieh flohe
 gebühren	gebühren gebühr gebührt gebührend gebührenden gebührende gebühre gebührte gebührendem gebührender
 Begründung	begründung begründungen
 erlangen	erlangen erlangt erlangte erlangten erlange erlang erlangst
@@ -2334,7 +2334,7 @@ verwandeln	verwandelt verwandeln verwandelte verwandelten verwandle verwandelst 
 Schriftsteller	schriftsteller schriftstellerin schriftstellers schriftstellern schriftstellerinnen
 Großteil	grossteil grossteils
 Bord	bord borden borde
-rasen	rasen rast raste rasten rasend ras rastet gerast rasenden rasende rasender rasens
+rasen	rasen rast raste rasten rasend ras rastet gerast rasenden rasende rasender rasens rastete rase rasendem
 genügend	genügend genügende genügenden genügender
 Glückwunsch	glückwunsch glückwünsche gw glückwünschen
 Sprecher	sprecher sprecherin sprechers sprechern
@@ -2365,10 +2365,10 @@ aufhalten	aufhalten aufgehalten aufzuhalten aufhält aufhielt aufhielten aufhalt
 Deal	deal deals
 Zelle	zellen zelle
 wecken	wecken geweckt weckt weckte weck wecke weckten weckst
-strahlen	strahlen strahlt strahl strahlend strahlte strahlenden strahlende strahlendem strahlender strahlendes strahlten strahlst
+strahlen	strahlen strahlt strahl strahlend strahlte strahlenden strahlende strahlendem strahlender strahlendes strahlten strahlst strahle strahls gestrahlt
 Bock	bock böcke bocks böcken
 Beck	beck becken beckens becks becke
-ausfallen	ausfallen ausgefallen ausfällt ausgefallene ausfiel ausgefallenen ausfielen ausgefallenes ausfallend ausgefallener ausfallenden ausfallende
+ausfallen	ausfallen ausgefallen ausfällt ausgefallene ausfiel ausgefallenen ausfielen ausgefallenes ausfallend ausgefallener ausfallenden ausfallende auszufallen ausfalle
 Pilot	pilot piloten pilotin pilotinnen
 eur	eur
 hinein	hinein
@@ -2401,7 +2401,7 @@ tauschen	tauschen tausch getauscht tauscht tausche tauschten tauschte
 Reform	reform reformen
 Empfehlung	empfehlung empfehlungen
 Schlacht	schlacht schlachten geschlachtet schlachtet schlachte geschlachteten schlachtete schlachteten
-reiten	reiten ritt reitet geritten reit reite ritten reitest reitenden reute ritte reitend
+reiten	reiten ritt reitet geritten reit reite ritten reitest reitenden reute ritte reitend reut
 Liter	liter litern
 Technologie	technologie technologien
 Umsetzung	umsetzung umsetzungen
@@ -2409,7 +2409,7 @@ Lohn	lohn löhne löhnen lohne lohns lohnes
 türken	türken türke türk türkin getürkt türkinnen
 Klima	klima klimas
 Kanzler	kanzler kanzlerin kanzlers
-Stift	stift stifte stifter gestiftet stiften stiftes stiftete stiftet stifts gestifteten stifters stifteten
+Stift	stift stifte stifter gestiftet stiften stiftes stiftete stiftet stifts gestifteten stifters stifteten stiftern
 Talent	talent talente talenten talents talentes
 deuten	deutet deuten deutete gedeutet deut deute deuteten deutest
 berechtigt	berechtigt berechtigte berechtigten berechtigter berechtigtes berechtigtem
@@ -2445,7 +2445,7 @@ Parkplatz	parkplatz parkplätze parkplätzen parkplatzes
 Schnee	schnee schnees
 Mond	mond monde mondes monden
 Kellergeschoss	kg kellergeschoss
-leuchten	leuchten leuchtet leuchtende leuchtenden leuchtend leuchte leuchtete leuchtendes leuchteten leuchtender leucht geleuchtet
+leuchten	leuchten leuchtet leuchtende leuchtenden leuchtend leuchte leuchtete leuchtendes leuchteten leuchtender leucht geleuchtet leuchtendem leuchtest
 angemessen	angemessen angemessene angemessenen angemessener angemessenes angemessenem angemessenere
 emotional	emotional emotionale emotionalen emotionaler emotionales emotionalem emotionalsten emotionalste
 Block	block blöcke blocks blöcken blocke blockes
@@ -2453,12 +2453,12 @@ Wachstum	wachstum wachstums
 Neubau	neubau neubauten nb neubaus neubaues
 formulieren	formuliert formulieren formulierte formulierten formuliere formulierter formuliertes formulier formulierst
 Definition	definition definitionen
-drängen	drängen gedrängt drängt drängte drängten drängenden drängende dränge drängender gedrängten drängend drängendsten
+drängen	drängen gedrängt drängt drängte drängten drängenden drängende dränge drängender gedrängten drängend drängendsten drängendes
 schriftlich	schriftlich schriftliche schriftlichen schriftlicher schriftliches schriftlichem
 islamisch	islamischen islamische islamischer islamisch islamisches islamischem
 schlicht	schlicht schlichten schlichte schlichter schlichtes schlichtem geschlichtet schlichtere
 glatt	glatt glatte glatten glatter glattes glattem
-stützen	stützen gestützt stützt stütze stützte stutzen gestützte gestützten stütz gestutzt stützten stutz
+stützen	stützen gestützt stützt stütze stützte stutzen gestützte gestützten stütz gestutzt stützten stutz stutzt stotz stützende stutzte gestützter stützend gestütztes gestutzten
 Niedersachse	niedersachsen niedersachse
 einkaufen	einkaufen eingekauft einzukaufen einkäufer einkauft einkaufe eingekauften einkaufst einkäuferin einkäufern
 örtlich	örtlichen örtliche örtlich örtlicher örtliches örtlichem
@@ -2498,7 +2498,7 @@ rechtfertigen	rechtfertigen gerechtfertigt rechtfertigt rechtfertigte rechtferti
 vermuten	vermuten vermute vermutete vermuteten vermutest vermut
 Schlüssel	schlüssel schlüsseln schlüssels
 benennen	benannt benennen benannten benennt benannte benannter benenne benanntes
-scheiden	scheiden geschieden scheidet schied scheide schieden geschiedene geschiedenen scheidenden scheidt scheid scheidende
+scheiden	scheiden geschieden scheidet schied scheide schieden geschiedene geschiedenen scheidenden scheidt scheid scheidende geschiedener
 Wesen	wesen wesens
 verstecken	verstecken versteck versteckte versteckten verstecke versteckst
 Master	master masters mastern
@@ -2510,7 +2510,7 @@ Chor	chor chöre chores chors chören
 Ministerium	ministerium ministeriums ministerien
 gewöhnlich	gewöhnlich gewöhnlichen gewöhnliche gewöhnlicher gewöhnliches gewöhnlichem
 radikal	radikale radikalen radikal radikaler radikales radikalsten radikalere radikaleren radikalem radikalste
-begeben	begeben begab begibt begabt begabte begaben begabten begabter begebe begib begibst begabtesten
+begeben	begeben begab begibt begabt begabte begaben begabten begabter begebe begib begibst begabtesten begebt begabteste
 herausfinden	herauszufinden herausfinden herausgefunden rausfinden herausfindet herausfand herausfanden herausfindest herausfinde
 ausgestattet	ausgestattet ausgestattete ausgestatteten ausgestattetes ausgestatteter
 Bestandteil	bestandteil bestandteile bestandteilen
@@ -2539,7 +2539,7 @@ Herrschaft	herrschaft herrschaften
 ausgesprochen	ausgesprochen ausgesprochene ausgesprochenen ausgesprochener ausgesprochenes
 versagen	versagt versagen versagte versagten versagens versage
 Mittag	mittag mittags
-zuhören	zuhören zuhörer zugehört zuzuhören zuhört zuhörern zuhöre zuhörte zuhörerin zuhörst zuhörers zuhörten
+zuhören	zuhören zuhörer zugehört zuzuhören zuhört zuhörern zuhöre zuhörte zuhörerin zuhörst zuhörers zuhörten zuhörenden zuhörens
 lebendig	lebendig lebendige lebendigen lebendiger lebendiges lebendigem lebendigsten
 mini	mini minis
 senken	senken gesenkt senkt senkte senke senkten senk
@@ -2823,9 +2823,9 @@ rosa	rosa rosas rosane
 beruhen	beruht beruhen beruhte beruhenden beruhende beruhe beruhten beruhend
 bestrafen	bestraft bestrafen bestrafte bestraften bestrafe
 Stadtteil	stadtteil stadtteile stadtteilen stadtteils
-wiegen	wiegt wiegen wiege wog wogen gewogen wiegst woge wogte wiegende wiegenden wiegte
+wiegen	wiegt wiegen wiege wog wogen gewogen wiegst woge wogte wiegende wiegenden wiegte wogenden gewiegt wogende wogt
 abkommen	abkommen abkommens abgekommen abkam abkommt abzukommen
-tippen	tippen tippe tickt ticken tick getippt tippt tippte ticks tippst ticke tickst
+tippen	tippen tippe tickt ticken tick getippt tippt tippte ticks tippst ticke tickst tickte
 Trennung	trennung trennungen trennungs
 Henry	henry henrys
 Kiel	kiel kiels kiele
@@ -2923,7 +2923,7 @@ Pressemitteilung	pressemitteilung pm pressemitteilungen
 Kindheit	kindheit kindheits
 Symptom	symptome symptom symptomen symptoms
 Eintrag	eintrag einträge einträgen eintrags eintrage
-Reiz	reiz gereizt reizen reizt reize reizende reizend reizenden reizte reizender reizendes reizes
+Reiz	reiz gereizt reizen reizt reize reizende reizend reizenden reizte reizender reizendes reizes reizten
 schwedisch	schwedischen schwedische schwedisch schwedischer schwedisches schwedischem
 eintreten	eintreten eingetreten einzutreten eintrat eintraten eingetretenen eintretenden eingetretene eintrete eintretens eingetretener
 Gewerkschaft	gewerkschaften gewerkschaft
@@ -2933,7 +2933,7 @@ objektiv	objektiv objektive objektiven objektiver objektives objektivs
 Katastrophe	katastrophe katastrophen
 aggressiv	aggressiv aggressiven aggressive aggressiver aggressives aggressivem aggressivere aggressivsten aggressiveren
 Offizier	offizier offiziere offizieren offiziers offizierin
-vorfahren	vorfahren vorgeführt vorfahrt vorführen vorzuführen vorführt vorfahre vorgefahren vorfahr vorführte vorfährt vorgeführten
+vorfahren	vorfahren vorgeführt vorfahrt vorführen vorzuführen vorführt vorfahre vorgefahren vorfahr vorführte vorfährt vorgeführten vorführer vorfuhr vorführten
 Durchschnitt	durchschnitt durchschnitts durchschnitten durchschnitte
 Ersatz	ersatz ersatzes
 Set	set sets
@@ -2948,7 +2948,7 @@ Chaos	chaos
 vorgeben	vorgaben vorgegeben vorgegebenen vorgeben vorgibt vorgegebene vorgab vorzugeben vorgegebener vorgegebenes vorgebe
 würdig	würdig gewürdigt würdigen würdigt würdigte würdiger würdige würdiges würdigten
 verweigern	verweigert verweigern verweigerte verweigerten verweigere verweigerst verweigerter
-aufregen	aufregen aufregend aufregende aufregt aufzuregen aufregenden aufregendes aufregender aufrege aufregst aufregendsten aufregendste
+aufregen	aufregen aufregend aufregende aufregt aufzuregen aufregenden aufregendes aufregender aufrege aufregst aufregendsten aufregendste aufregte
 Ingenieur	ingenieur ingenieure ingenieuren ingenieurs ingenieurin ingenieurinnen
 versetzt	versetzt versetzte versetzten versetztes versetzter
 ausgesetzt	ausgesetzt ausgesetzten ausgesetzte
@@ -3171,7 +3171,7 @@ einsam	einsam einsame einsamen einsamer einsames einsamsten
 eingeschränkt	eingeschränkt eingeschränkte eingeschränkten eingeschränkter eingeschränktes eingeschränktem
 wütend	wütend wütende wütenden wütender wütendes
 vorwerfen	vorgeworfen vorwerfen vorwürfe vorzuwerfen vorwirft vorwürfen vorwarf vorwarfen vorgeworfenen vorwerfe vorgeworfene
-beten	beten betet bet gebetet betete beteten betenden betend beter betende betest betens
+beten	beten betet bet gebetet betete beteten betenden betend beter betende betest betens bete beete
 Fabrik	fabrik fabriken
 Vision	vision visionen
 verwirrt	verwirrt verwirrte verwirrten verwirrter verwirrtes
@@ -3238,7 +3238,7 @@ dortig	dortigen dortige dortiger dortiges
 abwarten	abwarten abzuwarten abgewartet abwartend abwartet abwartende
 dokumentieren	dokumentiert dokumentieren dokumentierte dokumentierten dokumentiere dokumentierter
 verfügen	verfügen verfüge verfügte verfügten verfügst
-stechen	stechen sticht gestochen stach stachen stech stechenden steche stechend stechende stechender gestochenen
+stechen	stechen sticht gestochen stach stachen stech stechenden steche stechend stechende stechender gestochenen stecht stichst gestochene
 Krankenkasse	krankenkassen krankenkasse kk
 Botschafter	botschafter botschafterin botschafters botschaftern
 aussteigen	aussteigen ausstieg ausgestiegen auszusteigen aussteigt ausstiegs aussteige ausstiegen
@@ -3260,7 +3260,7 @@ Leo	leo leos
 anpassen	anpassen anzupassen anpasst anpasste anpassten anpasse
 Dienstleistung	dienstleistungen dienstleistung
 Übertragung	übertragung übertragungen übertragungs
-beschissen	beschissen beschissene beschissenen beschissener bescheiden beschissenes bescheidenen bescheidene beschissenste beschieden bescheidener bescheidenes
+beschissen	beschissen beschissene beschissenen beschissener bescheiden beschissenes bescheidenen bescheidene beschissenste beschieden bescheidener bescheidenes beschissensten bescheidenem beschied bescheide bescheideneren
 Wahrnehmung	wahrnehmung wahrnehmungen
 unterzeichnen	unterzeichnet unterzeichnen unterzeichneten unterzeichnete unterzeichner unterzeichne unterzeichnenden unterzeichnetes
 exklusiv	exklusiv exklusive exklusiven exklusives exklusiver exklusivsten
@@ -3357,7 +3357,7 @@ Kartoffel	kartoffeln kartoffel
 afrikanisch	afrikanischen afrikanische afrikanischer afrikanisches afrikanisch afrikanischem
 Boss	boss bosse bossen bosses
 verzweifelt	verzweifelt verzweifelte verzweifelten verzweifelter verzweifeltes
-pfeifen	pfeifen pfeife pfeift pfiff gepfiffen pfiffe pfeif pfiffen pfeifend pfeifenden pfeifende pfeifst
+pfeifen	pfeifen pfeife pfeift pfiff gepfiffen pfiffe pfeif pfiffen pfeifend pfeifenden pfeifende pfeifst pfeifchen
 neigen	neigt neigen geneigt neige geneigten geneigte neigte neigten geneigter neigst geneigtem
 College	college colleges
 derart	derart
@@ -3403,7 +3403,7 @@ Scherz	scherz scherze scherzen scherzt scherzte gescherzt scherzend scherzten sc
 Magen	magen magens mägen mage
 unglücklich	unglücklich unglücklichen unglückliche unglücklicher unglückliches unglücklichste
 Image	image images
-überfahren	überfahren überführt überführen überfahrt überführung überfährt überfuhr überführte überführten überfahrten übergeführt überführungen
+überfahren	überfahren überführt überführen überfahrt überführung überfährt überfuhr überführte überführten überfahrten übergeführt überführungen überfahre
 gegenwärtig	gegenwärtig gegenwärtigen gegenwärtige gegenwärtiger gegenwärtiges gegenwärtigem
 Geräusch	geräusch geräusche geräuschen
 Kaufmann	kaufmann kaufleute kaufmanns kaufleuten kauffrau kaufmannes
@@ -3488,7 +3488,7 @@ abziehen	abgezogen abziehen abzuziehen abzieht abzog abzogen abziehst abziehe ab
 gebrauchen	gebrauchen gebrauchte gebrauchten gebrauche
 unschuldig	unschuldig unschuldige unschuldigen unschuldiger unschuldiges
 Verlängerung	verlängerung verlängerungen
-starren	starren starr starre starrt starrte starrten starrer gestarrt starres starrst starrem starrend
+starren	starren starr starre starrt starrte starrten starrer gestarrt starres starrst starrem starrend storr
 Auffassung	auffassung auffassungen
 Nahrung	nahrung nahrungs
 steil	steil steilen steile steiler steilem steiles steilsten steileren steilere steilste
@@ -3512,7 +3512,7 @@ Betreuung	betreuung betreuungen
 Action	action actions
 Nagel	nagel nägel nägeln nagels
 Chip	chips chip
-verzeihen	verzeihen verziehen verzeiht verzogen verzeih verzieht verzeihe verzog verzieh verzogene verzogenen verziehe
+verzeihen	verzeihen verziehen verzeiht verzogen verzeih verzieht verzeihe verzog verzieh verzogene verzogenen verziehe verzeihst
 basieren	basierend basieren basierende basierenden basierte basierten basiere basierendes basierender
 begrüßen	begrüssen
 happy	happy
@@ -3700,7 +3700,7 @@ Spektrum	spektrum spektrums spektren
 brav	brav brave braven braver braves braf
 Empfänger	empfänger empfängern empfängers empfängerin
 Feder	feder federn federt federnd federnden federnde
-Anhang	anhang anhängen angehängt anhänge anzuhängen angehängten anhängt anhangs angehängte anhange angehangen anhängenden
+Anhang	anhang anhängen angehängt anhänge anzuhängen angehängten anhängt anhangs angehängte anhange angehangen anhängenden anhing
 einführen	einführen einzuführen einführt einführte einführenden einführten
 Verteilung	verteilung verteilungen
 aufeinander	aufeinander
@@ -3906,7 +3906,7 @@ Ferien	ferien
 vorwiegend	vorwiegend
 Zuviel	zuviel
 physisch	physische physischen physisch physischer physisches physischem
-Duft	duft duftet düfte dufte duften duftenden duftende düften duftend duftender duftete duftendes
+Duft	duft duftet düfte dufte duften duftenden duftende düften duftend duftender duftete duftendes duftes dufter
 Gebot	gebot gebote gebots gebotes
 Berichterstattung	berichterstattung berichterstattungen
 Beleidigung	beleidigung beleidigungen
@@ -4093,7 +4093,7 @@ hierher	hierher
 WhatsApp	whatsapp
 zurückführen	zurückzuführen zurückführen zurückführt zurückführte
 Moschee	moschee moscheen
-füttern	füttern gefüttert füttert füttere futtern fütterte fütterst gefütterte fütter gefütterten gefuttert fütterten
+füttern	füttern gefüttert füttert füttere futtern fütterte fütterst gefütterte fütter gefütterten gefuttert fütterten futtert
 Römer	römer römern römers römerin
 Diktatur	diktatur diktaturen
 smart	smart smarte smarten smarter smartes
@@ -4138,7 +4138,7 @@ elegant	elegant elegante eleganten eleganter elegantes elegantem elegantere eleg
 Herd	herd herde herden herdes
 virtuell	virtuelle virtuellen virtuell virtueller virtuelles virtuellem
 simpel	simple simpel simplen simples simpler simpelste
-ansiedeln	angesiedelt anzusiedeln ansiedeln angesiedelten siedeln siedelte siedelten angesiedelte siedelt ansiedelten ansiedelt siedle
+ansiedeln	angesiedelt anzusiedeln ansiedeln angesiedelten siedeln siedelte siedelten angesiedelte siedelt ansiedelten ansiedelt siedle ansiedelte ansiedler
 austragen	ausgetragen austragen auszutragen ausgetragenen ausgetragene austrägt austrug
 nervös	nervös nervöser nervöse nervösen nervöses
 Meile	meilen meile
@@ -4190,7 +4190,7 @@ eindringen	eindringen eingedrungen einzudringen eindringt eindrang eindrangen ei
 Heide	heide heiden heyde
 Stich	stich stiche stichen
 autonom	autonomen autonome autonom autonomes autonomer
-durchziehen	durchziehen durchgezogen durchzogen durchzieht durchzuziehen durchzog durchgezogene durchzogenen durchziehst durchziehenden durchzogene durchgezogenen
+durchziehen	durchziehen durchgezogen durchzogen durchzieht durchzuziehen durchzog durchgezogene durchzogenen durchziehst durchziehenden durchzogene durchgezogenen durchziehe
 dringen	dringt dringen drangen drängt gedrungen dringe gedrungenen gedrungene dring gedrungener dränge
 Fachmann	fachleute fachmann fachleuten fachfrau fachmänner fachmanns
 seitlich	seitlich seitlichen seitliche seitlicher seitliches seitlichem
@@ -4258,9 +4258,9 @@ repräsentieren	repräsentiert repräsentieren repräsentierte repräsentierten 
 Elb	elbe elben elb
 unwahrscheinlich	unwahrscheinlich unwahrscheinlicher unwahrscheinlichen unwahrscheinliche unwahrscheinliches unwahrscheinlichsten
 Tarif	tarif tarife tarifen tarifs
-Dampf	dampf gedämpft dämpfen dämpfe gedämpfte dämpft gedämpften gedämpfter dämpfte dampfe gedämpftes dampfes
+Dampf	dampf gedämpft dämpfen dämpfe gedämpfte dämpft gedämpften gedämpfter dämpfte dampfe gedämpftes dampfes dämpfend gedämpftem dämpfende
 Landwirt	landwirte landwirt landwirten landwirts landwirtes landwirtin
-biegen	biegen biegt gebogen bog gebogenen gebogene biege bögen gebogener bieg gebogenem böge
+biegen	biegen biegt gebogen bog gebogenen gebogene biege bögen gebogener bieg gebogenem böge gebogenes
 Report	report reports reporten reporte
 Wiederholung	wiederholung wiederholungen
 ablenken	ablenken abgelenkt abzulenken ablenkt ablenkte ablenkend
@@ -4522,7 +4522,7 @@ Ankündigung	ankündigung ankündigungen
 Style	style styles
 revolutionär	revolutionäre revolutionären revolutionär revolutionärer revolutionäres revolutionärs revolutionärin
 theologisch	theologischen theologische theologisch theologischer theologisches
-schmelzen	schmelzen schmilzt geschmolzen schmelze schmelz schmolz geschmolzene geschmolzenen geschmolzener schmolzen geschmolzenes geschmolzenem
+schmelzen	schmelzen schmilzt geschmolzen schmelze schmelz schmolz geschmolzene geschmolzenen geschmolzener schmolzen geschmolzenes geschmolzenem schmelzenden schmelzende
 Landtagswahl	landtagswahl landtagswahlen
 Rucksack	rucksack rucksäcke rucksäcken rucksacks
 Saft	saft säfte säften saftes
@@ -4741,7 +4741,7 @@ ordnen	ordnet ordnen ordnete ordne ordneten ordnende
 operieren	operiert operieren operierten operierte operierenden operiere
 Zusammensetzung	zusammensetzung zusammensetzungen
 Felsen	felsen felsens
-schwanken	schwankt schwanken schwankte schwanke schwankenden schwank schwankende schwankend schwankten schwankender geschwankt schwänke
+schwanken	schwankt schwanken schwankte schwanke schwankenden schwank schwankende schwankend schwankten schwankender geschwankt schwänke schwankendem
 Tageszeitung	tageszeitung tageszeitungen
 Verkehrsunfall	verkehrsunfall verkehrsunfälle verkehrsunfällen verkehrsunfalls verkehrsunfalles
 kühn	kühn kühne kühnen kühner kühnsten kühnes kühns kühnste
@@ -4797,7 +4797,7 @@ belangen	belange belangen belangt belang
 silbern	silbernen silberne silberner silbern silbernes silbernem
 Futter	futter futtern futters gefuttert futtert
 zugeordnet	zugeordnet zugeordneten zugeordnete
-ertrinken	ertrinken ertrunken ertrinkt ertränken ertränkt ertrank ertranken ertrunkenen ertrinke ertrinkenden ertrunkene ertränke
+ertrinken	ertrinken ertrunken ertrinkt ertränken ertränkt ertrank ertranken ertrunkenen ertrinke ertrinkenden ertrunkene ertränke ertränkte
 Abstieg	abstieg abstiegs abstiege abstiegen
 Satire	satire satiren
 inszenieren	inszeniert inszenieren inszenierte inszenierten inszenierter inszeniertes
@@ -5018,7 +5018,7 @@ Seil	seil seile seilen seils seiles
 unentschieden	unentschieden unentschiedenen unentschiedene
 jammern	jammern jammer jammert gejammert jammerte jammerst jammere jammers jammernd jammernde
 schädlich	schädlich schädliche schädlichen schädlicher schädliches
-reiben	reiben reibt gerieben reibe rieb rieben geriebenen reib geriebene geriebenem geriebener riebe
+reiben	reiben reibt gerieben reibe rieb rieben geriebenen reib geriebene geriebenem geriebener riebe reibst
 Taktik	taktik taktiken
 charakteristisch	charakteristisch charakteristischen charakteristische charakteristisches charakteristischer charakteristischem
 Süddeutscher	süddeutschen süddeutsche süddeutscher
@@ -5250,7 +5250,7 @@ Ratschlag	ratschläge ratschlag ratschlägen
 differenziert	differenziert differenzierte differenzierter differenzierten differenziertes differenziertere differenzierteres differenzierteren
 Schreiber	schreiber schreibers schreibern schreiberin
 Huhn	huhn hühnchen hühnern huhns
-verwirren	verwirrend verwirren verworren verwirrende verworrene verwirrenden verwirrender verwirrte verwirrten verworrenen verwirrst verwirre
+verwirren	verwirrend verwirren verworren verwirrende verworrene verwirrenden verwirrender verwirrte verwirrten verworrenen verwirrst verwirre verwirrendes verworrener
 Generalsekretär	generalsekretär generalsekretärin generalsekretärs generalsekretäre
 neunte	neunten neunte neunter neuntes
 Container	container containern containers
@@ -5285,7 +5285,7 @@ Diskurs	diskurs diskurses diskurse diskursen
 konzipieren	konzipiert konzipierte konzipierten konzipieren konzipiertes konzipierter
 Verarbeitung	verarbeitung verarbeitungen
 ausbreiten	ausbreiten ausgebreitet ausbreitet auszubreiten ausbreitete ausgebreiteten ausbreitenden ausbreiteten
-frieren	frieren friert gefroren gefrorenen gefrorene friere frier fror gefrorenes frierend gefrorener gefrorenem
+frieren	frieren friert gefroren gefrorenen gefrorene friere frier fror gefrorenes frierend gefrorener gefrorenem frierst froren frierenden
 Packung	packung packungen
 vergrößern	vergrössern vergrösserte vergrösserten vergrössere
 Frosch	frosch frösche fröschen frosches
@@ -5905,7 +5905,7 @@ Petersburg	petersburg petersburgs
 einstig	einstigen einstige einstiger einstiges
 verhelfen	verhelfen verholfen verhalf verhilft verhalfen verhelfe
 Festnahme	festnahme festnahmen
-auslaufen	auslaufen ausgelaufen ausläuft auslaufenden auslaufende auslief auslaufend ausgelaufene auslaufender ausgelaufenen ausliefen auslaufendes
+auslaufen	auslaufen ausgelaufen ausläuft auslaufenden auslaufende auslief auslaufend ausgelaufene auslaufender ausgelaufenen ausliefen auslaufendes auszulaufen
 ereignen	ereignete ereignet ereignen ereigneten
 kooperieren	kooperieren kooperiert kooperierte kooperierenden kooperierten kooperiere
 versaut	versaut versaute versauten versautes versauter

@@ -100,7 +100,7 @@ INFLECTED_TAKEOVER = 0.2
 # rather than a form of any of them, and is counted as itself.
 MAX_LEMMAS_PER_FORM = 6
 # Forms considered per word, most common first; the app matches saved words against them.
-FORMS_PER_WORD = 12
+FORMS_PER_WORD = 40
 
 
 def english_share(form):

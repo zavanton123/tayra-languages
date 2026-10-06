@@ -28,6 +28,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -68,6 +69,8 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.ToastHost
+import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -105,6 +108,9 @@ private fun WordKnowledge.tint(): Color {
 fun WordFrequencyScreen(onNavigate: (Route) -> Unit, viewModel: WordFrequencyViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val expanded = LocalWindowWidth.current.isExpanded
+    val toast = rememberToastState()
+    CollectEvents(viewModel.events) { toast.show(it) }
+    ToastHost(toast)
     Scaffold(
         topBar = { AppTopBar(title = "Word frequency", onNavigate = onNavigate, section = NavSection.TERMS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -121,6 +127,8 @@ fun WordFrequencyScreen(onNavigate: (Route) -> Unit, viewModel: WordFrequencyVie
                 // Wide windows edit the word beside the list; narrow ones open it on its own screen.
                 onOpen = { word -> if (expanded) viewModel.select(word) else onNavigate(Route.EditTermByText(state.languageId, word)) },
                 translate = viewModel::translate,
+                onSetLevel = viewModel::setLevel,
+                onSettings = { onNavigate(Route.VocabularySettings) },
                 modifier = Modifier.weight(1f),
             )
             val selected = state.selected
@@ -165,8 +173,12 @@ internal fun WordFrequencyContent(
     onSearch: (String) -> Unit,
     onOpen: (word: String) -> Unit,
     translate: suspend (String) -> String?,
+    onSetLevel: (Int) -> Unit = {},
+    onSettings: (() -> Unit)? = null,
     modifier: Modifier = Modifier,
 ) {
+    var asking by remember { mutableStateOf<Int?>(null) }
+    asking?.let { to -> LevelConfirmDialog(from = state.level, to = to, onConfirm = { asking = null; onSetLevel(to) }, onDismiss = { asking = null }) }
     val width = LocalWindowWidth.current
     val compact = width.isCompact
     val overview = state.overview
@@ -190,7 +202,7 @@ internal fun WordFrequencyContent(
                 state = listState,
                 contentPadding = PaddingValues(start = side, end = if (index) 8.dp else side, top = if (compact) 16.dp else 24.dp, bottom = 32.dp),
             ) {
-                item(key = "header") { Header(state, onToggle, onSearch) }
+                item(key = "header") { Header(state, onToggle, onSearch, onSettings) }
                 when {
                     overview == null -> item(key = "none") {
                         Notice(
@@ -202,7 +214,15 @@ internal fun WordFrequencyContent(
                     bands.isEmpty() -> item(key = "empty") { Notice("No words match", "Try another search, or show more kinds of words.") }
                     else -> {
                         bands.forEachIndexed { i, band ->
-                            item(key = "band-${band.index}") { BandHeader(overview.bands[band.index], isLevel = band.index == overview.levelBand) }
+                            item(key = "band-${band.index}") { BandHeader(
+                                    overview.bands[band.index],
+                                    isLevel = band.index == state.levelBand,
+                                    // The level set ends where this band does; the button is for moving it here.
+                                    isSetLevel = state.level == overview.bands[band.index].lastRank,
+                                    saving = state.savingLevel,
+                                    onSetLevel = { asking = overview.bands[band.index].lastRank },
+                                )
+                            }
                             items(rows[i], key = { "row-${it.first().word.rank}" }) { row ->
                                 Row(Modifier.fillMaxWidth()) {
                                     row.forEach { WordCell(it, selected = it.word.word == state.selected, onOpen, translate, Modifier.weight(1f)) }
@@ -257,7 +277,7 @@ private val INDEX_WIDTH = 56.dp
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Unit, onSearch: (String) -> Unit) {
+private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Unit, onSearch: (String) -> Unit, onSettings: (() -> Unit)?) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val overview = state.overview
@@ -272,6 +292,26 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
             )
         }
         if (overview == null) return@Column
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            Text(
+                if (state.level > 0) "Your vocabulary level: ${formatCount(state.level)}" else "No vocabulary level set yet: use a band's button, or",
+                style = MaterialTheme.typography.bodyMedium,
+                color = colors.onSurfaceVariant,
+            )
+            if (onSettings != null) {
+                Text(
+                    if (state.level > 0) "Change" else "choose one",
+                    Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onSettings).padding(horizontal = 4.dp, vertical = 2.dp),
+                    style = MaterialTheme.typography.bodyMedium,
+                    fontWeight = FontWeight.SemiBold,
+                    color = colors.primary,
+                )
+            }
+            if (state.savingLevel) {
+                CircularProgressIndicator(Modifier.size(16.dp), strokeWidth = 2.dp)
+                Text("Saving the level…", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            }
+        }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
             SearchBox(state.search, onSearch, if (compact) Modifier.fillMaxWidth() else Modifier.width(320.dp))
             WordKnowledge.entries.forEach { knowledge ->
@@ -302,7 +342,7 @@ private fun KnowledgeChip(knowledge: WordKnowledge, count: Int, selected: Boolea
 
 /** The band's ranks, how many of its words are known or being learned, and whether the reader's level is here. */
 @Composable
-private fun BandHeader(band: FrequencyBand, isLevel: Boolean) {
+private fun BandHeader(band: FrequencyBand, isLevel: Boolean, isSetLevel: Boolean, saving: Boolean, onSetLevel: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val known = band.count(WordKnowledge.KNOWN)
@@ -319,6 +359,22 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean) {
                     fontWeight = FontWeight.SemiBold,
                     color = colors.onPrimary,
                 )
+            }
+            if (!isSetLevel) {
+                Row(
+                    Modifier.clip(RoundedCornerShape(50)).border(1.dp, colors.outlineVariant, RoundedCornerShape(50))
+                        .clickable(enabled = !saving, onClick = onSetLevel).padding(horizontal = 10.dp, vertical = 4.dp)
+                        .testTag("set-level-${band.lastRank}"),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(6.dp),
+                ) {
+                    Icon(AppIcons.DoneAll, contentDescription = null, tint = colors.primary, modifier = Modifier.size(16.dp))
+                    Text(
+                        if (compact) "My level" else "I know up to here",
+                        style = MaterialTheme.typography.labelMedium,
+                        color = if (saving) colors.onSurfaceVariant else colors.primary,
+                    )
+                }
             }
             Spacer(Modifier.weight(1f))
             if (!compact) {
@@ -459,6 +515,3 @@ private fun Notice(title: String, text: String) {
         Text(text, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
     }
 }
-
-/** 10000 as "10,000". */
-private fun formatCount(n: Int): String = n.toString().reversed().chunked(3).joinToString(",").reversed()

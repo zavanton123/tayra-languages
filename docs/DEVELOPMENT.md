@@ -152,7 +152,7 @@ inflates it in its own sql.js worker, which needs the pack host to allow cross-o
 The Word frequency screen (feature/frequency) shows the most common words of the language being
 learned, bundled as `feature/frequency/src/commonMain/composeResources/files/frequency/<code>.tsv`
 for every language in `LanguageCatalog.targetLanguages`: one dictionary word per line, most common
-first, written as the dictionary writes it ("Haus"), with up to 12 lowercase forms counted for it
+first, written as the dictionary writes it ("Haus"), with up to 40 lowercase forms counted for it
 after a tab. Lists have 10,000 words, except Latvian (about 6,600) and Belarusian (about 3,800),
 whose dictionaries and lemmatizer coverage are small.
 
@@ -170,6 +170,12 @@ those corrections were tested against them, so rebuild all lists and compare the
 
 A word's status on the screen is its own term's, or else the furthest status among its forms the
 reader has saved.
+
+The vocabulary level (a band's "I know up to here", or Vocabulary settings) is stored per language
+in `vocabulary_levels`. Setting it saves every word ranked up to it, and its forms linked to it as
+parent, as known terms, except text the language already has a term for; the terms it saved are
+listed in `level_terms`, so a lower level deletes those still known and leaves any the reader
+changed since.
 
 ## Platform notes
 

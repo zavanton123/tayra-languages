@@ -45,6 +45,10 @@ sealed interface Route {
     @Serializable
     data object WordFrequency : Route
 
+    /** The vocabulary level and other vocabulary settings. */
+    @Serializable
+    data object VocabularySettings : Route
+
     @Serializable
     data class Examples(val languageId: Long, val text: String) : Route
 
