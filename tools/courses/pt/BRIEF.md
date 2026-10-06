@@ -36,6 +36,15 @@ story; a lesson never needs another lesson to make sense.
   - ranks 1601–2000: the imperfect and future subjunctive (*se eu tivesse tempo*, *quando ele
     chegar*), conditional sentences, the pluperfect (*tinha saído*), the personal infinitive
     (*para eles entenderem*).
+  - ranks 2001–2500: the compound tenses of the subjunctive (*espero que tenha gostado*, *se
+    tivesse sabido*), the future perfect (*terei terminado*) and conditional perfect (*teria
+    ido*), gerund clauses (*chegando em casa, ...*), the passive and impersonal *se* (*aluga-se*,
+    *fala-se*);
+  - ranks 2501–3000: a richer, more formal register: connectors such as *contudo*, *todavia*,
+    *uma vez que*, *à medida que*, *ainda que*; common idioms explained by their context; full
+    reported speech with the tenses shifted back.
+  From rank 2000 a lesson may also be a short informative or opinion text (a column, a letter to
+  a newspaper, a short report), as long as it is everyday, calm and easy to follow.
   Still one clear idea at a time: a learner at the level should follow every sentence on first
   reading.
 - **Repetition on purpose**: repeat key words and phrases the way a teacher would — the new words
@@ -83,7 +92,7 @@ Write `tools/courses/pt/<id>.json`:
 }
 ```
 
-Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`.
+Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 3000 `B2`.
 
 ## The rules, checked by `python3 tools/check_course.py tools/courses/pt/<id>.json`
 
@@ -94,7 +103,8 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`.
 - **New words**: each is in the course's band, introduced once in the course, and used at least
   twice in its lesson (any form counts: *disse* for *dizer*). Reuse earlier lessons' new words too.
 - **Length** (story and questions together): 80–180 words per lesson in the first course,
-  120–240 up to rank 300, 180–320 up to 600, 220–380 up to 1000, 260–450 after.
+  120–240 up to rank 300, 180–320 up to 600, 220–380 up to 1000, 260–450 up to 2000,
+  300–520 after.
 - **Coverage of the band**: aim to teach at least 90 of the 100 words. Skip a word that is not
   worth a lesson (a letter, an abbreviation, a vulgar word, a list error such as a plural or a
   name); the checker's last line lists the band words not taught yet.
