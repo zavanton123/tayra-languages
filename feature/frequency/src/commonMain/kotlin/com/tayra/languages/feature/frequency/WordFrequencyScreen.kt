@@ -217,10 +217,12 @@ internal fun WordFrequencyContent(
                             item(key = "band-${band.index}") { BandHeader(
                                     overview.bands[band.index],
                                     isLevel = band.index == state.levelBand,
-                                    // The level set ends where this band does; the button is for moving it here.
-                                    isSetLevel = state.level == overview.bands[band.index].lastRank,
+                                    // As in Language Reactor, a band's button puts the level on the line above it:
+                                    // the reader knows every word before this band.
+                                    levelAbove = overview.bands[band.index].firstRank - 1,
+                                    currentLevel = state.level,
                                     saving = state.savingLevel,
-                                    onSetLevel = { asking = overview.bands[band.index].lastRank },
+                                    onSetLevel = { asking = overview.bands[band.index].firstRank - 1 },
                                 )
                             }
                             items(rows[i], key = { "row-${it.first().word.rank}" }) { row ->
@@ -342,7 +344,7 @@ private fun KnowledgeChip(knowledge: WordKnowledge, count: Int, selected: Boolea
 
 /** The band's ranks, how many of its words are known or being learned, and whether the reader's level is here. */
 @Composable
-private fun BandHeader(band: FrequencyBand, isLevel: Boolean, isSetLevel: Boolean, saving: Boolean, onSetLevel: () -> Unit) {
+private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, currentLevel: Int, saving: Boolean, onSetLevel: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val known = band.count(WordKnowledge.KNOWN)
@@ -360,17 +362,17 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, isSetLevel: Boolea
                     color = colors.onPrimary,
                 )
             }
-            if (!isSetLevel) {
+            if (levelAbove != currentLevel) {
                 Row(
                     Modifier.clip(RoundedCornerShape(50)).border(1.dp, colors.outlineVariant, RoundedCornerShape(50))
                         .clickable(enabled = !saving, onClick = onSetLevel).padding(horizontal = 10.dp, vertical = 4.dp)
-                        .testTag("set-level-${band.lastRank}"),
+                        .testTag("set-level-$levelAbove"),
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(6.dp),
                 ) {
                     Icon(AppIcons.DoneAll, contentDescription = null, tint = colors.primary, modifier = Modifier.size(16.dp))
                     Text(
-                        if (compact) "My level" else "I know up to here",
+                        if (compact) "Level ${formatCount(levelAbove)}" else "Set level to ${formatCount(levelAbove)}",
                         style = MaterialTheme.typography.labelMedium,
                         color = if (saving) colors.onSurfaceVariant else colors.primary,
                     )

@@ -138,17 +138,20 @@ class WordFrequencyScreenTest {
         assertTrue(onAllNodesWithTag("word-casa").fetchSemanticsNodes().isEmpty())
     }
 
+    /** As in Language Reactor, band 101–200's button sets the level to 100: every word before the band is known. */
     @Test
     fun aBandSetsTheLevelAfterAsking() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        onNodeWithTag("set-level-200").performClick()
-        onNodeWithText("Change vocabulary level from 0 to 200?", substring = true).assertExists()
+        onNodeWithText("Set level to 100").assertExists()
+        assertTrue(onAllNodesWithTag("set-level-0").fetchSemanticsNodes().isEmpty(), "the first band's button would not change the level")
+        onNodeWithTag("set-level-100").performClick()
+        onNodeWithText("Change vocabulary level from 0 to 100?", substring = true).assertExists()
         System.getenv("FREQUENCY_LEVEL_DIALOG_SCREENSHOT")?.let { save(it) }
         onNodeWithText("Cancel").performClick()
         assertEquals(emptyList(), levelsSet)
-        onNodeWithTag("set-level-200").performClick()
+        onNodeWithTag("set-level-100").performClick()
         onNodeWithText("Yes").performClick()
-        assertEquals(listOf(200), levelsSet)
+        assertEquals(listOf(100), levelsSet)
     }
 
     @Test
