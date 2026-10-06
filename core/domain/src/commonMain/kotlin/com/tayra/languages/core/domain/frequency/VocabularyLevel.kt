@@ -4,6 +4,7 @@ import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.parse.lowercase
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
 
 /** A word known through the vocabulary level, with the forms of it saved as known too. */
 data class KnownWord(val text: String, val textLc: String, val forms: List<String>)
@@ -13,9 +14,9 @@ data class LevelChange(val from: Int, val to: Int, val added: Int, val removed: 
 
 /** The vocabulary level of each language and the known terms it saved. */
 interface VocabularyLevelRepository {
-    /** 0 while no level is set. */
-    fun observeLevel(languageId: Long): Flow<Int>
-    suspend fun level(languageId: Long): Int
+    /** Null while no level was ever chosen; 0 once the reader said they are just starting out. */
+    fun observeLevel(languageId: Long): Flow<Int?>
+    suspend fun level(languageId: Long): Int?
 
     /**
      * Makes [level] the language's level. Each of [known] and its forms is saved as a known term
@@ -35,7 +36,14 @@ class VocabularyLevelService(
     private val levels: VocabularyLevelRepository,
     private val languages: LanguageRepository,
 ) {
-    fun observeLevel(languageId: Long): Flow<Int> = levels.observeLevel(languageId)
+    /** 0 while no level is set. */
+    fun observeLevel(languageId: Long): Flow<Int> = levels.observeLevel(languageId).map { it ?: 0 }
+
+    /** Null while the reader has never chosen a level for the language. */
+    fun observeChosenLevel(languageId: Long): Flow<Int?> = levels.observeLevel(languageId)
+
+    /** Whether to ask the reader for their level: the language has a frequency list and no level was chosen yet. */
+    suspend fun needsLevel(languageId: Long): Boolean = levels.level(languageId) == null && list(languageId) != null
 
     /** The frequency list of the language with [languageId], or null when the app has none. */
     suspend fun list(languageId: Long): FrequencyList? =

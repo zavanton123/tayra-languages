@@ -80,6 +80,18 @@ class VocabularyLevelTest {
     }
 
     @Test
+    fun aLevelIsAskedForUntilOneIsChosenEvenJustStartingOut() = runTest {
+        val pt = languages.save(Language(name = "Portuguese"))
+        val custom = languages.save(Language(name = "Klingon"))
+        assertEquals(true, service.needsLevel(pt))
+        assertEquals(false, service.needsLevel(custom), "a language without a list is not asked about")
+        assertNull(service.observeChosenLevel(pt).first())
+        service.setLevel(pt, 0)
+        assertEquals(false, service.needsLevel(pt), "starting out is a choice")
+        assertEquals(0, service.observeChosenLevel(pt).first())
+    }
+
+    @Test
     fun theLevelIsKeptPerLanguageAndNeedsAList() = runTest {
         val pt = languages.save(Language(name = "Portuguese"))
         val de = languages.save(Language(name = "German"))

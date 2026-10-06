@@ -69,7 +69,7 @@ class VocabularySettingsScreenTest {
         System.getenv("VOCABULARY_SETTINGS_SCREENSHOT")?.let { save(it) }
 
         onNodeWithTag("set-vocabulary-level").performScrollTo().performClick()
-        onNodeWithText("Change vocabulary level from 0 to 500?", substring = true).assertExists()
+        onNodeWithText("Set your vocabulary level to 500?", substring = true).assertExists()
         onNodeWithText("Yes").performClick()
         waitUntil(timeoutMillis = 10_000) { viewModel.state.value.level == 500 && !viewModel.state.value.saving }
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { terms.findByTextLc(portuguese, "dizer") }?.status)

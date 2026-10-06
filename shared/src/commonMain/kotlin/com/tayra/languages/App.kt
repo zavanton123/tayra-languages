@@ -30,6 +30,10 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import com.tayra.languages.core.domain.frequency.VocabularyLevelService
+import com.tayra.languages.feature.frequency.VocabularyLevelPrompt
 import kotlinx.coroutines.launch
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
@@ -42,20 +46,32 @@ import org.koin.compose.viewmodel.koinViewModel
 
 /**
  * Gives every screen's top bar the choice of the language being learned, and picks a language
- * again whenever the chosen one is gone (deleted, or the database was reset).
+ * again whenever the chosen one is gone (deleted, or the database was reset). Choosing a language
+ * never given a vocabulary level asks for one.
  */
 @Composable
 private fun ProvideLearningLanguage(currentId: Long, content: @Composable () -> Unit) {
     val languages by koinInject<LanguageRepository>().observeAll().collectAsStateWithLifecycle(emptyList())
     val learning = koinInject<LearningLanguageService>()
+    val levels = koinInject<VocabularyLevelService>()
     val scope = rememberCoroutineScope()
+    // The language just chosen to learn, while it waits for its vocabulary level.
+    var askLevelFor by remember { mutableStateOf<Long?>(null) }
     LaunchedEffect(currentId, languages) {
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure()
     }
     val state = remember(languages, currentId) {
-        LearningLanguageState(languages.sortedBy { it.name }.map { it.id to it.name }, currentId) { id -> scope.launch { learning.select(id) } }
+        LearningLanguageState(languages.sortedBy { it.name }.map { it.id to it.name }, currentId) { id ->
+            scope.launch {
+                learning.select(id)
+                if (id != currentId && levels.needsLevel(id)) askLevelFor = id
+            }
+        }
     }
-    CompositionLocalProvider(LocalLearningLanguage provides state, content = content)
+    CompositionLocalProvider(LocalLearningLanguage provides state) {
+        content()
+        VocabularyLevelPrompt(askLevelFor, onClosed = { askLevelFor = null })
+    }
 }
 
 /**

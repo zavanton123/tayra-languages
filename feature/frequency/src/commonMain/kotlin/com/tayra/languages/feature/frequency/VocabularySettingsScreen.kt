@@ -115,7 +115,7 @@ internal fun VocabularySettingsContent(
         icon = AppIcons.BarChart,
         titleExtra = {
             Text(
-                if (state.level > 0) "Set to ${formatCount(state.level)}" else "Not set",
+                if (state.chosen) "Set to ${formatCount(state.level)}" else "Not set",
                 Modifier.clip(RoundedCornerShape(50)).background(MaterialTheme.colorScheme.primary.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
                 style = MaterialTheme.typography.labelMedium,
                 color = MaterialTheme.colorScheme.primary,
@@ -154,13 +154,13 @@ internal fun VocabularySettingsContent(
     }
     val picked = state.picked
     if (confirming && picked != null) {
-        LevelConfirmDialog(from = state.level, to = picked, onConfirm = { confirming = false; onSave() }, onDismiss = { confirming = false })
+        LevelConfirmDialog(from = state.level, to = picked, first = !state.chosen, onConfirm = { confirming = false; onSave() }, onDismiss = { confirming = false })
     }
 }
 
 /** The levels, each with six of the words it adds; the last row picked has a dashed line under it. */
 @Composable
-private fun LevelPicker(list: FrequencyList, shown: Int, onPick: (Int) -> Unit, modifier: Modifier) {
+internal fun LevelPicker(list: FrequencyList, shown: Int?, onPick: (Int) -> Unit, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
     val shape = RoundedCornerShape(12.dp)
@@ -170,7 +170,7 @@ private fun LevelPicker(list: FrequencyList, shown: Int, onPick: (Int) -> Unit, 
         choices.forEachIndexed { i, level ->
             val previous = if (i == 0) 0 else choices[i - 1]
             val selected = level == shown
-            val known = level <= shown
+            val known = shown != null && level <= shown
             Row(
                 Modifier.fillMaxWidth()
                     .background(if (selected) colors.primary.copy(alpha = 0.08f) else Color.Transparent)
@@ -225,7 +225,7 @@ private fun samples(list: FrequencyList, from: Int, to: Int): List<String> {
 
 /** A sample text coloured by the level picked: the words it knows, the ones it doesn't, and rarer ones. */
 @Composable
-private fun ExampleText(state: VocabularySettingsUiState, modifier: Modifier) {
+internal fun ExampleText(state: VocabularySettingsUiState, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val level = state.shownLevel
     val rare = colors.onSurfaceVariant.copy(alpha = 0.55f)

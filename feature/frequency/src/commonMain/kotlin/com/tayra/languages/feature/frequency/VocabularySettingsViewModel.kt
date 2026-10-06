@@ -32,6 +32,8 @@ data class VocabularySettingsUiState(
     val list: FrequencyList? = null,
     /** The level set, 0 for none. */
     val level: Int = 0,
+    /** Whether the reader has ever chosen a level for the language ("just starting out" counts). */
+    val chosen: Boolean = false,
     /** The level picked in the list, not set yet; null while it is the one set. */
     val picked: Int? = null,
     val saving: Boolean = false,
@@ -60,23 +62,29 @@ class VocabularySettingsViewModel(
             val language = languages.getById(id)
             val list = levels.list(id)
             emit(Loaded(id, language?.name.orEmpty(), list, if (language != null && list != null) example(language, list) else emptyList()))
-        }.flatMapLatest { loaded -> levels.observeLevel(loaded.id).map { loaded to it } }
+        }.flatMapLatest { loaded -> levels.observeChosenLevel(loaded.id).map { loaded to it } }
     }
 
-    val state: StateFlow<VocabularySettingsUiState> = combine(language, picked, saving) { (loaded, level), pick, busy ->
+    val state: StateFlow<VocabularySettingsUiState> = combine(language, picked, saving) { (loaded, chosen), pick, busy ->
+        val level = chosen ?: 0
         VocabularySettingsUiState(
             loading = false,
             languageId = loaded.id,
             languageName = loaded.name,
             list = loaded.list,
             level = level,
-            picked = pick?.takeIf { it != level },
+            chosen = chosen != null,
+            // A first choice may be the level already shown: "just starting out" is 0 too.
+            picked = pick?.takeIf { it != level || chosen == null },
             saving = busy,
             example = loaded.example,
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), VocabularySettingsUiState())
 
     fun pick(level: Int) { picked.value = level }
+
+    /** Closes without choosing, so the reader is asked again next time. */
+    fun forgetPick() { picked.value = null }
 
     /** Sets the picked level: the words ranked up to it are saved as known. */
     fun save() {

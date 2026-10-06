@@ -23,13 +23,13 @@ class VocabularyLevelRepositoryImpl(
     private val clock: Clock = Clock.System,
 ) : VocabularyLevelRepository {
 
-    override fun observeLevel(languageId: Long): Flow<Int> = flow {
+    override fun observeLevel(languageId: Long): Flow<Int?> = flow {
         val query = provider.database().vocabularyLevelsQueries.selectLevel(languageId)
-        emitAll(query.asFlow().mapToOneOrNull(databaseDispatcher).map { it?.toInt() ?: 0 })
+        emitAll(query.asFlow().mapToOneOrNull(databaseDispatcher).map { it?.toInt() })
     }
 
-    override suspend fun level(languageId: Long): Int = withContext(databaseDispatcher) {
-        provider.database().vocabularyLevelsQueries.selectLevel(languageId).awaitAsOneOrNull()?.toInt() ?: 0
+    override suspend fun level(languageId: Long): Int? = withContext(databaseDispatcher) {
+        provider.database().vocabularyLevelsQueries.selectLevel(languageId).awaitAsOneOrNull()?.toInt()
     }
 
     override suspend fun setLevel(languageId: Long, level: Int, known: List<KnownWord>): LevelChange = withContext(databaseDispatcher) {
