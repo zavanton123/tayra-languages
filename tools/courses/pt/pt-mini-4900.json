@@ -1,0 +1,222 @@
+{
+  "id": "pt-mini-4900",
+  "rankUpTo": 4900,
+  "level": "C1",
+  "title": "Esporte e sociedade",
+  "description": "Ten texts on sport and society: a Paralympic swimmer's profile, the history of women's football in Brazil, a community sports project, a referee's interview, the accounts of a small club, an old stadium's memories, a grandfather's football superstitions, a doctor's column on amateur running, an open-water swim on the coast and an essay on when athletes should retire.",
+  "topic": "Sport and society",
+  "names": [
+    "Brasil",
+    "Luana",
+    "Prado",
+    "Campinas",
+    "Ivo",
+    "Aldo",
+    "Londres",
+    "Marta",
+    "Jardim",
+    "Esperança",
+    "Quadra",
+    "Aberta",
+    "Davi",
+    "Kauã",
+    "Fátima",
+    "Rogério",
+    "Matos",
+    "Belo",
+    "Horizonte",
+    "Ipê",
+    "Helena",
+    "Campos",
+    "São",
+    "Paulo",
+    "Santa",
+    "Rita",
+    "Anísio",
+    "Lopes",
+    "Tonico",
+    "Ernesto",
+    "Internacional",
+    "Inter",
+    "Porto",
+    "Alegre",
+    "Kenneth",
+    "Álvaro",
+    "Arraial",
+    "Sul",
+    "Catarina",
+    "Sílvia",
+    "Ramos",
+    "Florianópolis",
+    "Tadeu",
+    "Santarém",
+    "Pará",
+    "Belém"
+  ],
+  "lessons": [
+    {
+      "title": "Perfil: Luana Prado, nadadora paralímpica",
+      "summary": "A profile of a Paralympic swimmer: her stepfather, her instructor, the trials and a bronze medal in London.",
+      "newWords": [
+        "natação",
+        "genético",
+        "padrasto",
+        "instrutor",
+        "seletivo",
+        "rigoroso",
+        "comprido",
+        "triunfo",
+        "londrino"
+      ],
+      "text": "Luana Prado tem 31 anos, mora em Campinas e treina natação todos os dias, às 6 da manhã. Quem a vê na piscina, concentrada e rápida, talvez não imagine o caminho que ela percorreu até chegar ali. Luana nasceu com um problema genético raro, que deixou a sua perna esquerda mais curta e mais fraca do que a direita. Os médicos explicaram aos pais que aquele problema genético não tinha cura, mas que o exercício, sobretudo a natação, poderia ajudar muito.\n\nQuem a levou à água pela primeira vez foi o padrasto, o seu Ivo, um homem calmo que trabalhava como motorista. Luana tinha 7 anos quando a mãe se casou com ele. \"Eu tinha medo de que um padrasto fosse uma pessoa distante\", lembra ela. \"Ele foi o contrário: foi ele quem descobriu a piscina pública do bairro e me levou lá todos os sábados.\" O padrasto não sabia nadar, mas ficava sentado na beira da piscina, assistindo a cada aula do começo ao fim.\n\nFoi ali que Luana conheceu o instrutor que mudaria a sua vida, o professor Aldo. O instrutor percebeu logo que a menina tinha um talento especial: dentro da água, a diferença entre as pernas quase desaparecia. \"O meu instrutor dizia que a água não pergunta de onde você vem; ela só pede que você se mova\", conta Luana.\n\nAos 15 anos, ela participou da sua primeira seletiva, a competição que escolhe os atletas da seleção brasileira. Não passou. Um ano depois, tentou de novo, e a segunda seletiva foi diferente: Luana venceu duas provas e entrou para a seleção. A partir daí, a rotina ficou rigorosa. O treino rigoroso incluía 2 horas de piscina pela manhã, academia à tarde e uma alimentação controlada. \"Na piscina comprida, de 50 metros, cada metro parece mais longo quando você está cansada\", diz ela, sorrindo. \"Mas aprendi a gostar da piscina comprida. É nela que a gente descobre quanto aguenta.\"\n\nO maior triunfo veio em 2012, nos Jogos Paralímpicos de Londres, quando Luana conquistou a medalha de bronze nos 100 metros costas. Ela ainda se lembra do barulho do público londrino, que aplaudia todos os atletas, do primeiro ao último. \"O público londrino me ensinou que o esporte não é só ganhar\", afirma. Para ela, o triunfo não foi apenas a medalha, mas também a viagem: o seu Ivo, o padrasto que nunca tinha saído do país, estava na plateia.\n\nHoje, Luana divide o tempo entre os treinos e um projeto de natação para crianças com deficiência. Quando alguém pergunta qual é o segredo, ela responde sem pensar duas vezes: paciência, um bom instrutor e uma pessoa que acredite em você antes de você mesma.\n\nPerguntas:\nCom que problema Luana nasceu?\nEla nasceu com um problema genético raro, que deixou a sua perna esquerda mais curta e mais fraca.\nQuem a levou à piscina pela primeira vez?\nFoi o padrasto, o seu Ivo, que a levava à piscina pública do bairro todos os sábados.\nO que o instrutor percebeu na menina?\nEle percebeu que, dentro da água, a diferença entre as pernas quase desaparecia.\nO que aconteceu nas duas seletivas?\nNa primeira seletiva, Luana não passou; na segunda, venceu duas provas e entrou para a seleção.\nPor que o triunfo de 2012 foi especial para ela?\nPorque, além da medalha de bronze, o padrasto estava na plateia e o público londrino aplaudia todos os atletas."
+    },
+    {
+      "title": "O futebol que as mulheres jogaram escondidas",
+      "summary": "A plain, step-by-step account of women's football in Brazil: the 1941 law, the ban of the 1960s, its end in 1979 and the players who kept going.",
+      "newWords": [
+        "desconhecer",
+        "compatível",
+        "sessenta",
+        "silenciar",
+        "obscuro",
+        "jornalístico",
+        "tolerar",
+        "batom",
+        "irmandade",
+        "garra"
+      ],
+      "text": "Durante muito tempo, as mulheres brasileiras que gostavam de futebol tiveram de jogar escondidas. Muitos torcedores desconhecem essa parte da história do esporte mais popular do país. Outros já ouviram falar dela, mas desconhecem os detalhes. Por isso, vale a pena contá-la com calma e em ordem.\n\nEm 1941, uma lei proibiu as mulheres de praticar esportes que, segundo o governo da época, não eram compatíveis com a natureza feminina. A lei não citava o futebol pelo nome, mas, na prática, ele foi tratado como um esporte não compatível com as mulheres. Nos anos sessenta, em 1965, uma nova regra deixou tudo claro: o futebol feminino passou a ser oficialmente proibido. As jogadoras foram silenciadas por normas que ninguém tinha discutido com elas.\n\nMesmo assim, o jogo não desapareceu. Nos anos sessenta e setenta, grupos de mulheres continuaram a jogar em campos de terra, em praias e em quintais, longe dos jornais. Foi um período obscuro: há poucas fotos, quase nenhum registro jornalístico e muitos nomes que se perderam. A cobertura jornalística da época simplesmente ignorava essas partidas, e várias atletas daquele tempo continuam obscuras até hoje, conhecidas apenas pelas amigas e pelas famílias.\n\nEm 1979, a proibição terminou, e em 1983 o futebol feminino foi finalmente regulamentado. Os primeiros times enfrentaram muitas dificuldades: uniformes velhos, campos ruins e salários muito baixos, quando havia salário. Além disso, as jogadoras tinham de tolerar comentários que hoje seriam considerados ofensivos. Havia dirigentes que só toleravam o futebol feminino como espetáculo, e jornais que falavam mais da aparência das atletas, do cabelo ou do batom, do que dos gols. Hoje, uma jogadora pode entrar em campo de batom ou sem batom: a escolha é dela, e o que importa é o jogo.\n\nO que sustentou essas mulheres foi a irmandade. Num ambiente tão difícil, as colegas de time viravam família: dividiam a comida, o transporte e as esperanças. Muitas ex-jogadoras dizem que essa irmandade valeu tanto quanto qualquer título. Também foi preciso garra, aquela vontade de lutar que o torcedor brasileiro tanto admira. Com garra, a seleção feminina chegou à final da Copa do Mundo de 2007 e conquistou a medalha de prata nos Jogos Olímpicos de 2004, 2008 e 2024. Uma jogadora brasileira, Marta, foi eleita 6 vezes a melhor do mundo.\n\nAinda há muito a fazer: os salários continuam desiguais, e os estádios nem sempre ficam cheios. No entanto, as vozes que foram silenciadas durante quase 40 anos hoje são ouvidas. Conhecer essa história é uma forma de impedir que elas sejam silenciadas outra vez.\n\nPerguntas:\nO que a lei de 1941 proibiu?\nEla proibiu as mulheres de praticar esportes que o governo não considerava compatíveis com a natureza feminina.\nO que aconteceu em 1965, nos anos sessenta?\nUma nova regra deixou claro que o futebol feminino era oficialmente proibido.\nPor que aquele período é chamado de obscuro?\nPorque há poucas fotos, quase nenhum registro jornalístico e muitos nomes que se perderam.\nO que as jogadoras tinham de tolerar depois de 1983?\nElas tinham de tolerar salários baixos, campos ruins e comentários sobre a aparência, o cabelo ou o batom.\nO que sustentou essas mulheres?\nA irmandade entre as colegas de time e a garra de quem queria continuar jogando."
+    },
+    {
+      "title": "Sábado na Quadra Aberta",
+      "summary": "A volunteer describes a free sports project in her neighbourhood: the planning, the gloves, the snacks, the vegetable garden and the children.",
+      "newWords": [
+        "solidário",
+        "logística",
+        "providência",
+        "luva",
+        "vitamina",
+        "casca",
+        "tomate",
+        "cova",
+        "inocência",
+        "rodeado"
+      ],
+      "text": "Todo sábado de manhã, a quadra do bairro Jardim Esperança fica cheia de crianças. Ali funciona o projeto Quadra Aberta, criado há 5 anos por um grupo de vizinhos que queria oferecer esporte gratuito aos meninos e às meninas da região. Sou voluntária desde o começo e, aos poucos, aprendi que um projeto solidário depende de muito mais do que boa vontade.\n\nA primeira lição foi a logística. Para que 80 crianças joguem futebol, vôlei e basquete numa única manhã, é preciso organizar horários, dividir os grupos por idade e garantir água para todos. Parece simples, mas a logística de um sábado começa na quarta-feira, com mensagens, listas e telefonemas. Quem cuida da logística é o seu Davi, um aposentado que trabalhou a vida inteira com caminhões e não deixa nenhum detalhe escapar.\n\nA segunda lição foi tomar providências antes que os problemas crescessem. Quando a rede do gol rasgou, o seu Davi tomou a providência de pedir uma rede nova a uma loja do bairro. Quando o goleiro mais novo, o Kauã, apareceu com as mãos machucadas, outra providência foi tomada: uma vizinha costureira fez para ele um par de luvas de tecido grosso. Kauã ficou tão orgulhoso das luvas que passou a usá-las até para ir à escola.\n\nDepois dos jogos, há o lanche. Um grupo de comerciantes solidários doa frutas, pão e leite, e a dona Fátima, mãe de dois alunos, prepara uma vitamina de banana que as crianças adoram. Para não desperdiçar nada, as cascas de banana e de laranja vão para uma pequena horta ao lado da quadra, onde as cascas se transformam em adubo. Nessa horta, as crianças plantaram tomate e cebolinha. Cada uma abriu a sua cova na terra, colocou ali uma pequena planta de tomate e cobriu a cova com cuidado. Em março, elas colheram os primeiros tomates, e a vitamina daquele sábado ganhou a companhia de uma salada.\n\nO que mais me emociona é a inocência das crianças. Elas não perguntam quem é rico ou pobre; perguntam apenas de que time você é. Essa inocência me lembra por que comecei. Num sábado de sol, sentada na arquibancada, rodeada de crianças que discutiam um pênalti, percebi que estava exatamente onde queria estar. Rodeada de barulho, de risadas e de bolas perdidas, eu me senti em casa.\n\nUm projeto solidário não muda o mundo inteiro. Mas muda uma quadra, uma manhã e, às vezes, a vida de uma criança. E isso já é muito.\n\nPerguntas:\nQuem criou o projeto Quadra Aberta?\nFoi um grupo de vizinhos que queria oferecer esporte gratuito às crianças da região.\nPor que a logística começa na quarta-feira?\nPorque é preciso organizar horários, dividir os grupos e garantir água para 80 crianças.\nQue providência foi tomada para ajudar o Kauã?\nUma vizinha costureira fez para ele um par de luvas de tecido grosso.\nO que acontece com as cascas de frutas?\nAs cascas de banana e de laranja vão para a horta, onde se transformam em adubo.\nComo as crianças plantaram o tomate?\nCada uma abriu a sua cova na terra, colocou uma pequena planta e cobriu a cova com cuidado."
+    },
+    {
+      "title": "Entrevista: o árbitro que aprendeu a respirar",
+      "summary": "An interview with a referee who is also a lawyer: controlling his nerves, judging a play, selfish players and the first whistle.",
+      "newWords": [
+        "advocacia",
+        "nervo",
+        "budista",
+        "discípulo",
+        "ótica",
+        "apocalipse",
+        "enquadrar",
+        "egoísta",
+        "metálico",
+        "coincidir"
+      ],
+      "text": "Rogério Matos, de 44 anos, é árbitro de futebol há 15 anos. Como a maioria dos árbitros brasileiros, ele tem outra profissão: trabalha com advocacia num pequeno escritório em Belo Horizonte. Conversamos com ele sobre pressão, erros e calma.\n\nO senhor divide o seu tempo entre a advocacia e a arbitragem. Como as duas coisas se combinam?\nMelhor do que parece. Na advocacia, aprendi a ler as regras com atenção e a ouvir os dois lados. No campo, faço o mesmo. A diferença é o tempo: no escritório, tenho semanas para pensar; no campo, tenho um segundo.\n\nQual é a parte mais difícil do trabalho?\nControlar os nervos. Num clássico, com 40 mil pessoas gritando, os nervos ficam à flor da pele, e não só os meus: os jogadores também estão tensos. Se o árbitro perde o controle dos nervos, o jogo inteiro perde.\n\nE como o senhor aprendeu a controlá-los?\nCom um professor de meditação, um senhor budista que conheci há uns 10 anos. Eu não sou budista, mas me tornei uma espécie de discípulo dele. O que ele me ensinou parece simples: respirar e observar antes de reagir. Ainda hoje me considero um discípulo imperfeito, porque às vezes esqueço a lição.\n\nOs torcedores costumam dizer que o árbitro errou. Como o senhor vê essas críticas?\nDepende da ótica. Da ótica do torcedor, o lance é sempre claro, porque ele vê a repetição na televisão, de vários ângulos. Da ótica do árbitro, o lance acontece uma única vez, em velocidade real, às vezes atrás de outros jogadores. Não digo isso para fugir da responsabilidade: erros acontecem, e o árbitro deve reconhecê-los. Mas um erro não é o apocalipse. O apocalipse, para mim, seria parar de aprender com eles.\n\nO que significa enquadrar um lance?\nÉ decidir em que regra ele se enquadra. Uma entrada forte pode ser enquadrada como falta simples, como falta para cartão amarelo ou como falta para cartão vermelho. Enquadrar bem cada lance é o coração do nosso trabalho.\n\nExiste algum tipo de jogador que o incomoda?\nO jogador egoísta, que só pensa em si e tenta enganar o árbitro para ganhar uma falta. O jogador egoísta acaba prejudicando o próprio time. Felizmente, ele é minoria.\n\nHá algum momento do jogo de que o senhor goste especialmente?\nO primeiro apito. Aquele som metálico, no começo da partida, ainda me emociona. Às vezes, o som metálico do apito coincide com o grito da torcida, e então parece que o estádio inteiro respira junto. Quando as duas coisas coincidem, eu me lembro de por que escolhi este caminho.\n\nPerguntas:\nQual é a outra profissão de Rogério Matos?\nEle trabalha com advocacia num pequeno escritório em Belo Horizonte.\nComo ele aprendeu a controlar os nervos?\nCom um professor de meditação budista, de quem se tornou uma espécie de discípulo.\nPor que a ótica do torcedor é diferente da ótica do árbitro?\nPorque o torcedor vê a repetição de vários ângulos, e o árbitro vê o lance uma única vez, em velocidade real.\nO que significa enquadrar um lance?\nSignifica decidir em que regra o lance se enquadra, por exemplo, falta simples ou falta para cartão.\nQue tipo de jogador o incomoda?\nO jogador egoísta, que só pensa em si e tenta enganar o árbitro."
+    },
+    {
+      "title": "As contas de um clube modesto",
+      "summary": "A report on how the manager of a small club keeps it alive: one loyal sponsor, hidden costs, the water crisis, the pandemic and a season that started in last place.",
+      "newWords": [
+        "modesto",
+        "permanência",
+        "gestor",
+        "firma",
+        "oculto",
+        "hídrico",
+        "pandemia",
+        "capitalista",
+        "especulação",
+        "lanterna"
+      ],
+      "text": "O Ipê Futebol Clube é um clube modesto do interior de São Paulo. Tem um estádio para 5 mil pessoas, cerca de 30 funcionários e uma torcida fiel, que conhece cada jogador pelo nome. Nesta temporada, o objetivo é claro: garantir a permanência na segunda divisão do campeonato estadual. A permanência vale mais do que parece, porque um clube que cai de divisão perde patrocínio, público e dinheiro da televisão.\n\nQuem cuida das contas é a gestora Helena Campos, de 38 anos, formada em administração. Como gestora, ela passa mais tempo diante do computador do que diante do gramado. \"As pessoas imaginam que um clube vive de gols\", diz. \"Na verdade, ele vive de contas pagas no dia certo.\"\n\nO orçamento é modesto. A maior parte vem de uma firma de materiais de construção da cidade, que patrocina o clube há 12 anos. O dono da firma é torcedor desde criança e nunca pediu nada em troca, além do nome na camisa. O restante vem dos ingressos, das mensalidades dos sócios e da venda de jogadores jovens.\n\nSegundo Helena, os custos ocultos são o maior perigo. Ninguém pensa neles quando o time está ganhando, mas eles aparecem todos os meses: a manutenção do gramado, os exames médicos, as viagens de ônibus, a energia das luzes do estádio. Um exemplo é a água. Durante a última crise hídrica, a região enfrentou meses de seca, e manter o campo verde ficou caro. Para economizar recursos hídricos, o clube construiu um sistema que guarda a água da chuva. \"Era um custo oculto que virou uma solução\", conta a gestora.\n\nA pandemia foi o período mais difícil. Sem público nos estádios, o dinheiro dos ingressos desapareceu de um dia para o outro. Durante a pandemia, o clube cortou gastos, conversou com os credores e contou com a ajuda dos sócios, que continuaram pagando mesmo sem poder assistir aos jogos.\n\nHá quem critique a lógica capitalista do futebol moderno, em que os grandes clubes compram os melhores jogadores e os pequenos sobrevivem vendendo os seus talentos. Helena entende a crítica, mas prefere ser prática. \"O mercado é capitalista, e eu não vou mudá-lo sozinha. O que posso fazer é vender bem e na hora certa.\" Por isso, ela evita a especulação. Quando um empresário aparece prometendo milhões por um garoto de 16 anos, ela desconfia. \"Especulação não paga salário. Eu só acredito em contrato assinado.\"\n\nNo ano passado, o Ipê terminou o primeiro turno como lanterna do campeonato, ou seja, em último lugar. Muitos torcedores já davam a queda como certa. Ser lanterna, porém, não desanimou a gestora: ela manteve o treinador, pagou os salários em dia e teve paciência. No segundo turno, o time reagiu e garantiu a permanência na última rodada.\n\nPerguntas:\nQual é o objetivo do Ipê nesta temporada?\nO objetivo é garantir a permanência na segunda divisão do campeonato estadual.\nDe onde vem a maior parte do dinheiro do clube?\nVem de uma firma de materiais de construção, que patrocina o clube há 12 anos.\nQue custo oculto virou uma solução?\nO custo da água: durante a crise hídrica, o clube construiu um sistema que guarda a água da chuva.\nPor que Helena evita a especulação?\nPorque, para ela, especulação não paga salário; ela só acredita em contrato assinado.\nO que significa ser lanterna do campeonato?\nSignifica estar em último lugar, como o Ipê no fim do primeiro turno."
+    },
+    {
+      "title": "O Campo da Estação",
+      "summary": "A crônica of a small town's old stadium: the coffee farm it was built on, the wooden stands, the food stalls outside and the debate about its future.",
+      "newWords": [
+        "monarquia",
+        "proclamar",
+        "primitivo",
+        "acomodar",
+        "vegetação",
+        "denominação",
+        "barraca",
+        "bacon",
+        "altar"
+      ],
+      "text": "O estádio municipal de Santa Rita fica numa rua tranquila, perto da estação de trem. Hoje está cercado de prédios, mas o terreno tem uma história antiga. No tempo da monarquia, antes de 1889, ali existia uma fazenda de café. Depois que a República foi proclamada, a fazenda foi dividida, e uma parte do terreno ficou sem uso durante décadas. Sem que ninguém imaginasse, o fim da monarquia acabou dando à cidade o terreno do seu futuro estádio. Foi nesse pedaço de terra que, em 1952, os moradores construíram o campo.\n\nNo começo, as condições eram primitivas. Não havia vestiário, nem luz, nem banheiros de verdade. As arquibancadas eram de madeira e acomodavam cerca de 3 mil pessoas. Quem não cabia nelas se acomodava como podia, no meio da vegetação que crescia em volta do campo. Meu avô contava que, nos dias de jogo grande, a vegetação ficava coberta de gente, como se as próprias árvores também torcessem.\n\nA denominação oficial é Estádio Municipal Professor Anísio Lopes, em homenagem a um professor que organizou os primeiros campeonatos da cidade. No entanto, quase ninguém usa essa denominação. Para todos, ele é simplesmente o Campo da Estação.\n\nFui ao Campo da Estação pela primeira vez aos 6 anos, levado pela mão do meu pai. Lembro-me menos do jogo do que do cheiro. Do lado de fora, havia uma fila de barracas de comida. Numa barraca, vendiam pastel; em outra, milho cozido; e na barraca do seu Tonico vendia-se o famoso sanduíche de pão com ovo e bacon. O cheiro do bacon chegava até a arquibancada e fazia parte do espetáculo tanto quanto os gols.\n\nCom o tempo, o estádio foi reformado. As arquibancadas de madeira deram lugar a degraus de concreto, e as condições primitivas ficaram no passado. Foi ali, numa tarde de 1974, que o time da cidade foi proclamado campeão regional pela primeira vez. Meu pai descrevia aquela tarde como a mais feliz da sua juventude.\n\nPara muitos torcedores, o Campo da Estação é uma espécie de altar. Não um altar de igreja, claro, mas um lugar onde se celebram as alegrias e as tristezas da cidade. Há até casais que, depois de passar pelo altar da igreja, vão tirar as fotos do casamento no gramado.\n\nHoje, a prefeitura discute se deve vender o terreno. Há bons argumentos dos dois lados: a cidade precisa de dinheiro e de moradias, mas também precisa de memória. Eu, que ainda sinto o cheiro de bacon quando passo por aquela rua, espero que o estádio fique. Há coisas que não se medem em metros quadrados.\n\nPerguntas:\nO que existia no terreno no tempo da monarquia?\nExistia uma fazenda de café, que foi dividida depois que a República foi proclamada.\nComo eram as condições do estádio no começo?\nEram primitivas: não havia vestiário, nem luz, nem banheiros de verdade.\nOnde se acomodava quem não cabia nas arquibancadas?\nEssas pessoas se acomodavam no meio da vegetação que crescia em volta do campo.\nO que se vendia nas barracas do lado de fora?\nVendiam pastel, milho cozido e, na barraca do seu Tonico, um sanduíche de pão com ovo e bacon.\nPor que o autor chama o estádio de altar?\nPorque é um lugar onde se celebram as alegrias e as tristezas da cidade."
+    },
+    {
+      "title": "O manto do meu avô",
+      "summary": "A grandchild's crônica about a grandfather who supports Internacional: his old shirt, his sofa superstition, his favourite move and his guesses at the score.",
+      "newWords": [
+        "colorado",
+        "signo",
+        "manto",
+        "lençol",
+        "maldição",
+        "fascinante",
+        "ressuscitar",
+        "mosca",
+        "eternidade"
+      ],
+      "text": "Meu avô Ernesto é colorado, isto é, torcedor do Internacional, de Porto Alegre. Ele diz que nasceu colorado, assim como outras pessoas nascem sob um signo do zodíaco. \"Tem gente que é do signo de Leão ou de Peixes\", explica. \"Eu sou do signo colorado.\" Ele não acredita em horóscopo, mas acredita, com uma fé absoluta, no seu manto.\n\nManto é como muitos torcedores chamam a camisa do time do coração. O manto do meu avô é vermelho, já um pouco apagado, e foi comprado em 1979, o ano em que o Inter foi campeão brasileiro sem perder nenhum jogo. Ele o guarda dobrado dentro de um lençol branco, no fundo do armário, e só tira o manto do lençol em dia de jogo importante.\n\nPara ele, o futebol tem regras que nenhum árbitro conhece. Uma delas é a maldição do sofá: se ele se levantar durante um pênalti, o Inter erra. Meu avô sabe que é só uma crença e até ri dela, mas prefere não arriscar. \"Não acredito em maldição\", diz, \"mas também não vou testar.\" Por causa da maldição do sofá, ninguém pode se sentar no lugar dele em dia de jogo.\n\nO que mais me encanta, porém, são as histórias. Ele se lembra de jogadas antigas com detalhes fascinantes: a posição de cada jogador, a cor do céu, o placar de cada tempo. A jogada que ele mais admira é o lençol, quando o jogador passa a bola por cima da cabeça do adversário e a recupera do outro lado. \"Um lençol bem dado vale mais do que um gol feio\", afirma. Quando descreve um lençol, mexe as mãos no ar, como se a bola ainda estivesse ali.\n\nEm 2016, o Inter caiu para a segunda divisão. Foi o dia mais triste que vi na vida do meu avô. Ele guardou o manto no lençol e passou uma semana sem falar de futebol. No ano seguinte, o time voltou à primeira divisão. \"O clube ressuscitou\", disse ele, com os olhos cheios de água. \"E eu ressuscitei junto com ele.\"\n\nEle também tem o hábito de adivinhar placares. Antes de cada partida, escreve num papel o resultado que espera. Quase sempre erra, mas, quando acerta na mosca, guarda o papel na carteira durante meses. No domingo passado, acertou na mosca: 2 a 1, com um gol no último minuto. Os minutos finais pareceram uma eternidade. Ficamos de mãos dadas, em silêncio, até o gol.\n\nAcho fascinante que um homem de 81 anos ainda sinta o coração bater forte por causa de uma bola. Talvez seja isso o que ele chama de eternidade: não um tempo sem fim, mas um amor que não envelhece.\n\nPerguntas:\nO que significa dizer que o avô Ernesto é colorado?\nSignifica que ele é torcedor do Internacional, de Porto Alegre.\nOnde o avô guarda o seu manto?\nEle guarda o manto dobrado dentro de um lençol branco, no fundo do armário.\nO que é a maldição do sofá?\nÉ a crença de que, se o avô se levantar durante um pênalti, o Inter erra.\nO que é um lençol no futebol?\nÉ quando o jogador passa a bola por cima da cabeça do adversário e a recupera do outro lado.\nO que o avô disse quando o Inter voltou à primeira divisão?\nEle disse que o clube tinha ressuscitado."
+    },
+    {
+      "title": "Antes do cooper, uma consulta",
+      "summary": "A doctor's newspaper column on amateur running: why a check-up first, the story of a patient who overdid it, and advice on shoes and surfaces.",
+      "newWords": [
+        "cooper",
+        "preventivo",
+        "sanguíneo",
+        "internado",
+        "chumbo",
+        "devidamente",
+        "previamente",
+        "centímetro",
+        "macio"
+      ],
+      "text": "Toda segunda-feira, no meu consultório, recebo pacientes que começaram a fazer cooper no fim de semana. Cooper, para quem não conhece a palavra, é como muitos brasileiros chamam a corrida leve, feita por saúde e por prazer. O nome vem de um médico americano, Kenneth Cooper, que criou nos anos sessenta um teste de corrida usado até hoje. Fazer cooper é um dos exercícios mais democráticos que existem: basta um par de tênis e uma rua tranquila.\n\nMesmo assim, recomendo sempre um cuidado preventivo. Antes de começar, a pessoa deve passar por uma avaliação médica. Um exame preventivo simples mede a pressão sanguínea e o ritmo do coração e, se for o caso, inclui um exame de sangue. Muitos acham isso um exagero, mas o cuidado preventivo custa pouco perto do que pode evitar. A pressão sanguínea alta, por exemplo, muitas vezes não dá nenhum sinal.\n\nConto sempre a história de um paciente, o seu Álvaro, de 52 anos. Num domingo, depois de 20 anos sem fazer exercício, ele decidiu correr 10 quilômetros com um amigo. Na volta, sentiu uma dor forte no peito e foi levado ao hospital, onde ficou internado por 2 dias. Felizmente, não era nada grave, mas ele saiu de lá assustado. \"Doutor, minhas pernas pareciam de chumbo, e eu continuei correndo\", disse ele na consulta. Pernas de chumbo são um aviso do corpo, e o corpo deve ser ouvido.\n\nHoje, o seu Álvaro corre 3 vezes por semana, devidamente acompanhado por um treinador. Ele aprendeu a aquecer previamente os músculos, a se hidratar devidamente e a aumentar a distância aos poucos. Planeja previamente cada percurso, para saber onde pode parar e descansar. Nunca mais precisou ser internado.\n\nHá também conselhos práticos. O tênis deve ter cerca de 1 centímetro de espaço entre o dedo maior do pé e a ponta do calçado; parece pouco, mas esse centímetro protege as unhas e evita feridas. A sola deve ser macia, mas firme. Sempre que puder, prefira correr em terra ou na grama, que são superfícies mais macias do que o asfalto e cansam menos os joelhos.\n\nPor fim, um lembrete: o cooper não é uma competição com o vizinho. É um encontro com o próprio corpo. Quem respeita os seus limites corre por muito mais tempo.\n\nPerguntas:\nO que é cooper?\nÉ como muitos brasileiros chamam a corrida leve, feita por saúde e por prazer.\nO que mede um exame preventivo simples?\nEle mede a pressão sanguínea e o ritmo do coração e pode incluir um exame de sangue.\nPor que o seu Álvaro ficou internado?\nPorque, depois de 20 anos sem exercício, ele correu 10 quilômetros e sentiu uma dor forte no peito.\nO que ele faz hoje antes de correr?\nEle aquece previamente os músculos e planeja previamente cada percurso.\nComo deve ser o tênis de corrida?\nDeve ter cerca de 1 centímetro de espaço na ponta e uma sola macia, mas firme."
+    },
+    {
+      "title": "A travessia da baía",
+      "summary": "A short report on an open-water swim in a coastal town: the environmental licence, the bay's ecosystem, an invasive coral, foreign swimmers and a race with no rubbish.",
+      "newWords": [
+        "costeiro",
+        "obtenção",
+        "ecossistema",
+        "flora",
+        "exótico",
+        "concretizar",
+        "venezuelano",
+        "búlgaro",
+        "compartilhamento",
+        "totalidade"
+      ],
+      "text": "Arraial do Sul é uma pequena cidade costeira do litoral de Santa Catarina. Todo mês de fevereiro, ela recebe a Travessia da Baía, uma prova de natação de 2 quilômetros no mar. A ideia surgiu há 8 anos, numa conversa entre a professora de educação física Sílvia Ramos e um grupo de pescadores. Durante muito tempo, porém, a ideia ficou só no papel.\n\nO maior obstáculo foi a obtenção da licença ambiental. A baía faz parte de um ecossistema costeiro delicado, com mangues, peixes jovens e uma flora marinha que não pode ser destruída por barcos e por centenas de pessoas na água. Para a obtenção da licença, Sílvia precisou apresentar um plano detalhado: o número máximo de atletas, o caminho exato da prova e as regras de proteção da flora e dos animais. O processo levou quase 2 anos.\n\nDurante esse processo, os biólogos encontraram na baía um coral exótico, o coral-sol, que veio de outros oceanos, provavelmente preso a navios e plataformas de petróleo. Como acontece com muitas espécies exóticas, ele cresce depressa e ocupa o espaço das espécies locais, prejudicando o ecossistema. Sílvia teve então uma ideia: transformar a prova numa ocasião para cuidar da baía. Na véspera da travessia, mergulhadores voluntários retiram o coral exótico das pedras, sob a orientação dos biólogos.\n\nO sonho finalmente se concretizou há 6 anos. Na primeira edição, havia 90 participantes; hoje, são mais de 400. Entre eles, há atletas de outros países, como um nadador venezuelano que vive em Florianópolis e uma nadadora búlgara que passa as férias na cidade todos os anos. O venezuelano já venceu 2 vezes. A búlgara diz que nunca viu uma água tão quente: \"Em fevereiro, no meu país, o mar está gelado\".\n\nA organização também incentiva o compartilhamento. Há um sistema de compartilhamento de carros para quem vem de longe, e as fotos da prova são publicadas numa página da internet onde todos podem baixá-las de graça. A totalidade do dinheiro das inscrições vai para a escola de natação da cidade, que ensina crianças a nadar no mar com segurança.\n\nPara Sílvia, o maior orgulho é que a totalidade do lixo produzido no dia da prova é recolhida antes do anoitecer. \"Concretizar a travessia foi difícil\", diz ela, \"mas o importante é que a baía fique melhor depois de nós do que antes.\"\n\nPerguntas:\nO que é a Travessia da Baía?\nÉ uma prova de natação de 2 quilômetros no mar, em Arraial do Sul, uma cidade costeira de Santa Catarina.\nQual foi o maior obstáculo para organizar a prova?\nO maior obstáculo foi a obtenção da licença ambiental, porque a baía tem um ecossistema delicado.\nO que é o coral-sol, e por que ele é um problema?\nÉ um coral exótico que cresce depressa e ocupa o espaço das espécies locais.\nQue atletas estrangeiros participam da prova?\nParticipam, por exemplo, um nadador venezuelano e uma nadadora búlgara.\nPara onde vai a totalidade do dinheiro das inscrições?\nVai para a escola de natação da cidade, que ensina crianças a nadar no mar."
+    },
+    {
+      "title": "A hora de parar",
+      "summary": "A short essay on when an athlete should retire, weighing stopping at the top against playing on, with the example of a midfielder from Pará.",
+      "newWords": [
+        "astro",
+        "declínio",
+        "renúncia",
+        "maturidade",
+        "originário",
+        "frontal",
+        "consequente",
+        "estimação"
+      ],
+      "text": "Todo atleta, mais cedo ou mais tarde, enfrenta a mesma pergunta: quando parar? Não existe uma resposta certa, e talvez por isso o tema provoque tantas discussões entre torcedores, jornalistas e os próprios jogadores. Vale a pena olhar os dois lados com calma.\n\nDe um lado, há quem defenda que o atleta deve parar no ponto mais alto da carreira. Segundo essa visão, o astro que se despede enquanto ainda é admirado protege a sua imagem e a memória dos torcedores. Ninguém quer ver o seu ídolo em declínio, perdendo para adversários que antes vencia com facilidade. Nesse caso, a renúncia ao esporte seria um gesto de maturidade: abrir mão de algo que ainda se ama, antes que o declínio se torne evidente para todos.\n\nDe outro lado, há quem veja nessa decisão uma renúncia desnecessária. Afinal, o declínio físico não significa o fim do talento. Muitos jogadores mais velhos mudam de posição, jogam menos minutos e se tornam importantes de outra forma: orientam os mais jovens, acalmam o grupo nos momentos difíceis e mostram, com o exemplo, o que é ser profissional. Para quem pensa assim, maturidade não é parar cedo, mas saber mudar de papel.\n\nConheço um caso que ilustra bem esse dilema. O meio-campista Tadeu, originário de Santarém, no Pará, foi o astro de um clube de Belém durante quase 10 anos. Aos 34, sofreu um choque frontal com um zagueiro, numa disputa de bola pelo alto. O choque frontal causou uma lesão no joelho, e a consequente cirurgia o deixou longe do campo por 8 meses. Com a consequente perda de ritmo, muitos acharam que era o momento de parar.\n\nTadeu não pensou assim. Voltou a jogar, agora num clube menor de Santarém, a sua cidade natal, e ficou lá mais 2 anos, como uma espécie de professor dos jogadores jovens. Só então anunciou a sua despedida, sem pressa e sem tristeza. Hoje, ele treina meninos numa escola de futebol e finalmente tem tempo para os seus animais de estimação: dois cachorros e um papagaio. \"Durante 20 anos, eu não podia ter um animal de estimação, porque vivia viajando\", conta, rindo.\n\nO exemplo de Tadeu não prova que um lado está certo e o outro está errado. Mostra apenas que a decisão é pessoal. Talvez a verdadeira maturidade seja ouvir o próprio corpo, e não apenas o barulho da arquibancada.\n\nPerguntas:\nPor que algumas pessoas acham que o atleta deve parar no ponto mais alto?\nPorque o astro que se despede ainda admirado protege a sua imagem, e ninguém quer ver o ídolo em declínio.\nPor que outras pessoas veem essa decisão como uma renúncia desnecessária?\nPorque o declínio físico não significa o fim do talento, e o jogador mais velho pode mudar de papel.\nDe onde Tadeu é originário?\nEle é originário de Santarém, no Pará.\nO que aconteceu com Tadeu aos 34 anos?\nEle sofreu um choque frontal com um zagueiro, machucou o joelho e ficou 8 meses longe do campo.\nO que Tadeu faz hoje?\nEle treina meninos numa escola de futebol e cuida dos seus animais de estimação."
+    }
+  ]
+}

@@ -47,6 +47,10 @@ story; a lesson never needs another lesson to make sense.
     adjectives and clear images, the *crônica* (a light reflection on everyday life, as in
     Brazilian newspapers), dialogue that marks formal and informal speech, and less common
     connectors (*a fim de que*, *a menos que*, *caso*, *de modo que*, *não obstante*).
+  - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content: a short
+    essay or reflective crônica that weighs two sides, an interview, a profile, a review; precise
+    vocabulary for feelings, ideas and processes; long sentences that stay easy to parse; tone
+    and register chosen to suit the text type.
   From rank 2000 a lesson may also be a short informative or opinion text (a column, a letter to
   a newspaper, a short report), as long as it is everyday, calm and easy to follow.
   Still one clear idea at a time: a learner at the level should follow every sentence on first
@@ -96,7 +100,7 @@ Write `tools/courses/pt/<id>.json`:
 }
 ```
 
-Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`.
+Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, up to 5000 `C1`.
 
 ## The rules, checked by `python3 tools/check_course.py tools/courses/pt/<id>.json`
 
@@ -108,7 +112,7 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`.
   twice in its lesson (any form counts: *disse* for *dizer*). Reuse earlier lessons' new words too.
 - **Length** (story and questions together): 80–180 words per lesson in the first course,
   120–240 up to rank 300, 180–320 up to 600, 220–380 up to 1000, 260–450 up to 2000,
-  300–520 up to 3000, 320–550 after.
+  300–520 up to 3000, 320–550 up to 4000, 350–600 after.
 - **Coverage of the band**: aim to teach at least 90 of the 100 words. Skip a word that is not
   worth a lesson (a letter, an abbreviation, a vulgar word, a list error such as a plural or a
   name); the checker's last line lists the band words not taught yet.

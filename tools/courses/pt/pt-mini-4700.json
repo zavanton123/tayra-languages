@@ -1,0 +1,228 @@
+{
+  "id": "pt-mini-4700",
+  "rankUpTo": 4700,
+  "level": "C1",
+  "title": "Brasileiros pelo mundo",
+  "description": "Ten texts about Brazilians living abroad: a chef in Lisbon, a student in Japan, a nurse in Canada, a capoeira teacher in Germany, a researcher in Egypt, fans in Dublin, a letter about a far-away consulate, an essay on saudade, a book review and a retired emigrant coming home.",
+  "topic": "Brazilians abroad",
+  "names": [
+    "Brasil",
+    "Lisboa",
+    "Alfama",
+    "Portugal",
+    "Rodrigo",
+    "Alves",
+    "Minas",
+    "Gerais",
+    "Tiago",
+    "Sendai",
+    "Shirin",
+    "Larissa",
+    "Japão",
+    "Patrícia",
+    "Lima",
+    "Toronto",
+    "Canadá",
+    "Porto",
+    "Alegre",
+    "Olena",
+    "Colônia",
+    "Alemanha",
+    "Jair",
+    "Santos",
+    "Bahia",
+    "Helena",
+    "Moura",
+    "Egito",
+    "Gizé",
+    "Tutancâmon",
+    "Europa",
+    "Dublin",
+    "Seán",
+    "Martín",
+    "Goiás",
+    "Braga",
+    "Cláudia",
+    "Ribeiro",
+    "Londres",
+    "Goiânia",
+    "Berlim",
+    "Tóquio",
+    "Beatriz",
+    "Andrade",
+    "Boston",
+    "Paris",
+    "Milão",
+    "Sydney",
+    "Antônio",
+    "Florianópolis",
+    "Débora",
+    "Zélia",
+    "Estados",
+    "Unidos"
+  ],
+  "lessons": [
+    {
+      "title": "O brigadeiro de Lisboa",
+      "summary": "A chef from Minas Gerais runs a small restaurant in Lisbon, wins the city over with brigadeiros and trains a successor.",
+      "newWords": [
+        "cebola",
+        "esmagar",
+        "trigo",
+        "podre",
+        "brigadeiro",
+        "delícia",
+        "multiplicar",
+        "comercializar",
+        "sucessor"
+      ],
+      "text": "Quem passa à noite por uma das ruas estreitas da Alfama, o bairro mais antigo de Lisboa, sente logo o cheiro de cebola dourando na manteiga. O cheiro vem de um restaurante pequeno, de apenas 8 mesas, onde o mineiro Rodrigo Alves cozinha há 6 anos. Ele chegou a Portugal com 2 malas, um caderno de receitas da avó e uma ideia fixa: mostrar aos portugueses que a comida brasileira vai muito além da feijoada.\n\nA cozinha de Rodrigo é feita de detalhes. Ele não pica o alho; prefere esmagar cada dente com a lâmina da faca, porque, segundo ele, o alho esmagado solta mais perfume. A cebola também tem o seu ritual. \"A cebola pede tempo\", explica. \"Se a gente tiver pressa, ela queima e deixa tudo amargo.\" Por isso, a cebola do feijão cozinha em fogo baixo durante quase 20 minutos, enquanto ele prepara o resto do jantar.\n\nOs primeiros meses não foram fáceis. Rodrigo não encontrava os mesmos ingredientes que usava em Minas Gerais e teve de adaptar receitas inteiras. A farinha de trigo portuguesa, por exemplo, absorve a água de outro modo, e a massa dos primeiros pastéis saiu dura demais. Foram semanas de testes até ele acertar a proporção de trigo e água. Houve também o dia em que um fornecedor entregou uma caixa de tomates podres. Rodrigo devolveu a caixa inteira e explicou ao rapaz da entrega, com educação, que com tomate podre não se faz molho.\n\nMas o que conquistou a cidade foi uma sobremesa simples: o brigadeiro. No fim de cada jantar, Rodrigo oferecia um brigadeiro a cada cliente. Os portugueses provavam, fechavam os olhos e diziam: \"Que delícia!\" A frase se repetia tanto que ele decidiu chamar o doce de \"a delícia da casa\". Logo os clientes passaram a pedir caixas para levar, e os pedidos se multiplicaram: eram 10 por semana, depois 50, depois 200. Rodrigo brinca que a única coisa que se multiplica mais rápido do que os pedidos é o trabalho.\n\nFoi uma cliente, dona de uma loja de doces, quem sugeriu comercializar o brigadeiro fora do restaurante. Hoje, Rodrigo comercializa caixas de brigadeiros em 3 lojas de Lisboa, sempre feitos à mão, com chocolate de boa qualidade.\n\nAos 45 anos, ele já pensa no futuro. Está formando um sucessor: o jovem português Tiago, que começou lavando pratos e hoje cuida sozinho do feijão. \"Um bom sucessor não copia a receita; ele entende por que cada passo existe\", diz Rodrigo. Tiago já aprendeu a primeira lição: esmagar o alho, nunca picar, e dar à cebola todo o tempo de que ela precisa.\n\nPerguntas:\nOnde fica o restaurante de Rodrigo e como ele é?\nFica na Alfama, o bairro mais antigo de Lisboa, e é um restaurante pequeno, de apenas 8 mesas.\nPor que Rodrigo prefere esmagar o alho?\nPorque, segundo ele, o alho esmagado solta mais perfume.\nQue problema ele teve com a farinha de trigo portuguesa?\nA farinha absorve a água de outro modo, e a massa dos primeiros pastéis saiu dura demais.\nO que aconteceu com os pedidos de brigadeiro?\nOs pedidos se multiplicaram: eram 10 por semana, depois 50, depois 200.\nQuem é o sucessor de Rodrigo?\nÉ o jovem português Tiago, que começou lavando pratos e hoje cuida sozinho do feijão."
+    },
+    {
+      "title": "Um e-mail de Sendai",
+      "summary": "A Brazilian master's student in Japan writes to her mother about her Iranian friend, her first earthquake and the frogs behind her building.",
+      "newWords": [
+        "ingressar",
+        "iraniano",
+        "acionar",
+        "terremoto",
+        "tremer",
+        "lâmpada",
+        "cortina",
+        "escuridão",
+        "silencioso",
+        "emagrecer",
+        "sapo"
+      ],
+      "text": "Querida mãe,\n\nFaz 3 meses que cheguei a Sendai, e só agora consigo escrever com calma. Desculpe a demora: as primeiras semanas foram uma correria de documentos, aulas e listas de compras em japonês.\n\nComo você sabe, ingressei no mestrado de engenharia em abril. Ingressar numa universidade japonesa era um sonho antigo, e confesso que ainda me emociono quando atravesso o portão principal. As aulas são em inglês, mas fora da sala tudo é em japonês, de modo que estudo a língua todas as noites.\n\nMoro num prédio para estudantes estrangeiros. Divido a cozinha com a Shirin, uma estudante iraniana de química que virou a minha melhor amiga aqui. Ela me ensinou a fazer um arroz iraniano com frutas secas, e eu ensinei a ela a fazer brigadeiro. A família dela também está longe, e a gente se entende muito bem nessa saudade.\n\nAgora, a notícia que prometi contar sem assustar você. Na semana passada, senti o meu primeiro terremoto. Eram 2 da manhã. Alguns segundos antes, o celular acionou um alarme muito alto; aqui, o sistema de alerta é acionado automaticamente quando a terra começa a se mexer longe da cidade. Logo depois, a cama começou a tremer. A lâmpada do teto ia de um lado para o outro, e as cortinas se mexiam como se houvesse vento, embora a janela estivesse fechada. Tudo tremeu por uns 30 segundos, que pareceram muito mais.\n\nDepois, a luz acabou, e o quarto ficou numa escuridão completa. Fiz exatamente o que tinham ensinado no treinamento: peguei a lanterna, que fica sempre ao lado da cama, e saí para o corredor. Na escuridão, ouvi a voz da Shirin me chamando. Fomos juntas até o pátio, onde os outros estudantes já estavam reunidos.\n\nO que mais me impressionou foi a calma de todos. O pátio estava silencioso; ninguém gritava, ninguém corria. Os funcionários contavam os estudantes com uma lista na mão, num silêncio quase completo. Meia hora depois, a luz voltou, a lâmpada do corredor acendeu, e o prédio continuou silencioso por um bom tempo. O responsável disse que o terremoto tinha sido fraco e que não havia perigo. De volta ao quarto, abri a cortina e vi a rua tranquila, como se nada tivesse acontecido. Aqui, mãe, um terremoto fraco é assunto de 5 minutos no café da manhã.\n\nFique tranquila também com outra coisa: eu emagreci um pouco, mas não estou doente. É que ando de bicicleta para todo lado e como muito peixe e verdura. Se continuar assim, vou emagrecer mais 2 quilos antes do Natal!\n\nPara terminar, uma coisa bonita. Atrás do prédio há plantações de arroz, e à noite os sapos cantam sem parar. Na primeira semana, o barulho dos sapos não me deixava dormir. Hoje, é ele que me faz dormir, porque me lembra o sítio do vovô.\n\nUm beijo grande, com saudade,\nLarissa\n\nPerguntas:\nOnde a Larissa ingressou em abril?\nEla ingressou no mestrado de engenharia de uma universidade japonesa.\nQuem é a Shirin?\nÉ uma estudante iraniana de química que divide a cozinha com a Larissa.\nO que aconteceu antes de a cama começar a tremer?\nO celular acionou um alarme de terremoto alguns segundos antes.\nO que a Larissa fez quando o quarto ficou na escuridão?\nEla pegou a lanterna ao lado da cama e saiu para o corredor.\nPor que ela emagreceu?\nPorque anda de bicicleta para todo lado e come muito peixe e verdura.\nPor que o canto dos sapos agora ajuda a Larissa a dormir?\nPorque ele lembra o sítio do avô dela."
+    },
+    {
+      "title": "Entrevista: o inverno de uma enfermeira",
+      "summary": "An interview with a nurse from Porto Alegre about getting licensed in Toronto, the winter emergencies and her Ukrainian colleague.",
+      "newWords": [
+        "licenciado",
+        "qualificar",
+        "térmico",
+        "viatura",
+        "punho",
+        "agudo",
+        "complicação",
+        "diagnosticar",
+        "ucraniano",
+        "agulha"
+      ],
+      "text": "A gaúcha Patrícia Lima, de 38 anos, trabalha há 5 anos como enfermeira num hospital de Toronto. Antes de se mudar para o Canadá, ela tinha 12 anos de experiência em Porto Alegre. Nesta entrevista, ela fala do processo para voltar a exercer a profissão, do frio e dos colegas que encontrou pelo caminho.\n\nComo foi começar a trabalhar como enfermeira no Canadá?\nFoi mais demorado do que eu imaginava. Para trabalhar aqui, a enfermeira precisa ser licenciada pelo conselho de enfermagem da província. Eu tinha muita experiência, mas o meu diploma brasileiro não bastava. Precisei me qualificar de novo: fiz um curso de adaptação, provas de inglês e um exame muito difícil. Levei quase 2 anos até ser licenciada.\n\nIsso foi frustrante?\nÀs vezes, sim. Conheci muitos imigrantes qualificados, médicos e engenheiros, trabalhando em restaurantes enquanto esperavam a licença. Mas entendo o motivo: cada país tem as suas regras, e o paciente precisa de segurança. Hoje vejo aquele período como um investimento.\n\nE o frio?\nO frio é muito intenso. No primeiro inverno, a sensação térmica chegou a 30 graus negativos, um frio que dói no rosto. Aprendi rápido a usar roupa térmica por baixo do uniforme, porque saio de casa às 6 da manhã, ainda no escuro.\n\nO inverno muda o trabalho no hospital?\nMuda muito. Trabalho no setor de emergência, e no inverno as viaturas de resgate chegam sem parar. Muita gente escorrega no gelo e quebra o punho ao tentar se apoiar no chão. Numa única manhã, já atendi 4 pacientes com o punho quebrado. Também recebemos idosos com dor aguda no peito depois de tirar a neve da frente de casa. Esse esforço no frio pode trazer complicações sérias para o coração.\n\nQual é o papel da enfermeira nesses casos?\nQuem diagnostica é o médico, mas a enfermeira costuma ser a primeira pessoa que observa o paciente. Quando uma viatura chega, eu meço a pressão, ouço a queixa e decido quem precisa ser atendido primeiro. Um caso agudo não pode esperar. Se eu perceber os sinais de uma complicação a tempo, o médico consegue diagnosticar o problema mais cedo.\n\nVocê trabalha com muitos estrangeiros?\nSim, a equipe é muito internacional. A minha melhor amiga no hospital é a Olena, uma enfermeira ucraniana que chegou há 3 anos. Ela me ajudou nas primeiras semanas, e eu ajudei a família dela a encontrar um apartamento. Às vezes, atendemos juntas pacientes ucranianos que ainda não falam inglês, e a Olena traduz tudo com uma paciência enorme.\n\nDo que você sente mais falta do Brasil?\nDo calor humano, mais do que do calor do sol. Mas descobri uma coisa curiosa: o paciente canadense também tem medo de agulha. Quando vejo um homem enorme ficar branco diante de uma agulha pequena, lembro que, no fundo, as pessoas são iguais em qualquer lugar.\n\nPerguntas:\nO que a Patrícia precisou fazer para trabalhar como enfermeira no Canadá?\nEla precisou se qualificar de novo e ser licenciada pelo conselho de enfermagem da província.\nComo foi o primeiro inverno dela?\nFoi um frio muito intenso: a sensação térmica chegou a 30 graus negativos.\nPor que muita gente quebra o punho no inverno?\nPorque as pessoas escorregam no gelo e tentam se apoiar no chão com a mão.\nQual é a diferença entre o papel do médico e o da enfermeira?\nO médico diagnostica, mas a enfermeira costuma ser a primeira pessoa que observa o paciente e decide quem precisa ser atendido primeiro.\nQuem é a Olena?\nÉ uma enfermeira ucraniana que se tornou a melhor amiga da Patrícia no hospital."
+    },
+    {
+      "title": "A roda de Colônia",
+      "summary": "A profile of a capoeira teacher from Bahia who teaches German pupils by Cologne Cathedral and runs a free class for immigrant children.",
+      "newWords": [
+        "gramado",
+        "catedral",
+        "balançar",
+        "chute",
+        "tronco",
+        "historicamente",
+        "resistente",
+        "plateia",
+        "espontâneo",
+        "subsídio"
+      ],
+      "text": "Aos sábados de manhã, quando o tempo permite, um grupo se reúne no gramado de um parque perto da catedral de Colônia, a enorme igreja que domina a paisagem da cidade. No centro do grupo está o baiano Jair Santos, de 50 anos, professor de capoeira há mais de 20, os últimos 12 na Alemanha. Ao som da música, os alunos formam uma roda e, um de cada vez, entram no meio para jogar.\n\nJair chegou à Alemanha para uma apresentação de 2 semanas e acabou ficando. Hoje tem cerca de 80 alunos, a maioria alemães, mas também turcos, poloneses e brasileiros. \"Quase nenhum deles tinha ouvido falar de capoeira antes\", conta. \"Agora cantam em português melhor do que muito brasileiro.\"\n\nA primeira coisa que ele ensina é a ginga, o movimento de balançar o corpo de um lado para o outro, sem parar, como quem dança. \"O aluno alemão chega querendo aprender o chute mais bonito\", diz Jair, rindo. \"Mas, se ele não aprender a balançar, o chute não serve para nada.\" Na ginga, explica, o tronco fica solto, os braços protegem o rosto e os pés nunca param. É dessa base que nascem todos os movimentos. Um chute na capoeira, aliás, raramente toca o outro jogador: ele passa perto, e o colega se defende abaixando o tronco. É um diálogo entre os corpos, não uma briga.\n\nJair gosta de contar a história da capoeira antes de cada treino. Historicamente, ela foi criada no Brasil por africanos trazidos à força, que escondiam a luta dentro da música e da dança. Durante muitos anos, a capoeira foi proibida e perseguida. \"Historicamente, ela é uma arte de resistência\", diz ele. \"E quem treina aprende a ser resistente também: resistente ao cansaço, à frustração, ao medo de errar.\" Os alunos ouvem com atenção, e muitos dizem que a história os ajudou a entender as músicas.\n\nNo verão, a roda do parque atrai uma plateia de turistas e vizinhos. As pessoas param para olhar, fazem fotos e, no fim, aplaudem. Os aplausos da plateia são espontâneos, e às vezes uma criança tenta imitar a ginga no meio do gramado. Esses momentos espontâneos, diz Jair, valem mais do que qualquer apresentação ensaiada.\n\nHá 2 anos, a prefeitura de Colônia passou a oferecer um subsídio para um projeto de Jair numa escola pública. Com o subsídio, ele dá aulas gratuitas para 30 crianças de famílias imigrantes, que assim praticam esporte, aprendem música e fazem amigos. \"Muitas delas também estão longe da terra dos pais, como eu\", diz. \"Na roda, ninguém é estrangeiro.\"\n\nQuando o treino termina, Jair olha para as torres da catedral e para o grupo cansado e feliz. Ele diz que sente saudade da Bahia todos os dias, mas que, aos sábados de manhã, a saudade fica um pouco menor.\n\nPerguntas:\nOnde o grupo de Jair se reúne aos sábados?\nO grupo se reúne no gramado de um parque perto da catedral de Colônia.\nO que é a ginga?\nÉ o movimento de balançar o corpo de um lado para o outro, sem parar, como quem dança.\nPor que, segundo Jair, a capoeira é uma arte de resistência?\nPorque, historicamente, ela foi criada por africanos trazidos à força e foi proibida e perseguida durante muitos anos.\nComo a plateia reage no verão?\nAs pessoas param para olhar, fazem fotos e aplaudem de forma espontânea.\nPara que serve o subsídio da prefeitura?\nCom o subsídio, Jair dá aulas gratuitas de capoeira para 30 crianças de famílias imigrantes."
+    },
+    {
+      "title": "Uma brasileira entre as pirâmides",
+      "summary": "A profile of a researcher from São Paulo who studies the workers' town near the pyramids of Giza and explains how the work is done today.",
+      "newWords": [
+        "pirâmide",
+        "arqueológico",
+        "dinossauro",
+        "fragmento",
+        "magnífico",
+        "laser",
+        "perito",
+        "induzir",
+        "lorde"
+      ],
+      "text": "A paulista Helena Moura trabalha há 9 anos no Egito, onde participa de pesquisas arqueológicas perto das pirâmides de Gizé. Quando conta o que faz, ouve quase sempre a mesma pergunta: \"Então você procura dinossauros?\" Ela sorri e explica com paciência que os dinossauros não são o seu assunto. O seu trabalho é estudar o que os seres humanos deixaram. \"Os dinossauros desapareceram milhões de anos antes da primeira pirâmide\", diz. \"Nunca encontrei um dinossauro, e nem quero. O meu trabalho é com gente.\"\n\nO dia de Helena começa às 5 da manhã, antes que o calor fique forte demais. A equipe, formada por egípcios, franceses e uma brasileira, trabalha numa área onde viviam os trabalhadores que construíram as pirâmides. As pesquisas indicam que essas pessoas recebiam comida, tinham casas simples e eram tratadas por médicos quando se machucavam.\n\nO que a equipe encontra raramente é magnífico como nos filmes. São fragmentos: um pedaço de pote, um fragmento de osso de peixe, restos de pão. Cada fragmento é limpo com um pincel, fotografado e registrado num caderno. \"Um fragmento sozinho não diz quase nada\", explica Helena. \"Mas mil fragmentos juntos contam como aquelas pessoas comiam, trabalhavam e cuidavam umas das outras.\"\n\nA tecnologia mudou muito a pesquisa arqueológica. Hoje, um aparelho a laser mede cada parede e cada buraco com enorme precisão, e o computador transforma essas medidas num desenho em 3 dimensões. Com o laser, a equipe consegue estudar uma construção sem tocar nela, o que ajuda a preservar o lugar.\n\nCom os anos, Helena se tornou perita em potes antigos. Quando um pedaço de pote aparece, os colegas chamam a perita brasileira para dizer a época e o uso do objeto. Ela avisa, porém, que até um perito pode errar. \"A pressa pode induzir ao erro\", diz. \"Às vezes, a cor de um fragmento induz a gente a pensar numa época, e só a análise do laboratório mostra a verdade.\" Por isso, ela nunca dá uma resposta final no mesmo dia.\n\nHelena gosta de lembrar que a pesquisa no Egito já foi muito diferente. No começo do século 20, os trabalhos eram muitas vezes pagos por estrangeiros ricos, como o lorde inglês que financiou a busca pelo túmulo de Tutancâmon. Naquela época, muitos objetos eram levados para museus da Europa sem grande cuidado. Hoje, diz ela, os egípcios comandam as pesquisas, e nenhum lorde estrangeiro decide o que sai do país.\n\nNo fim da tarde, quando o trabalho termina, Helena costuma olhar para as pirâmides iluminadas pelo sol baixo. Depois de 9 anos, ela ainda acha a vista magnífica. \"Penso nos milhares de pessoas que trabalharam aqui\", diz. \"Os fragmentos que eu encontro são a história delas.\"\n\nPerguntas:\nQue pergunta Helena ouve quase sempre?\nEla ouve quase sempre a pergunta: \"Então você procura dinossauros?\"\nO que a equipe de Helena encontra no trabalho?\nA equipe encontra fragmentos: pedaços de pote, ossos de peixe e restos de pão.\nPara que serve o aparelho a laser?\nEle mede paredes e buracos com enorme precisão e permite estudar uma construção sem tocar nela.\nPor que Helena nunca dá uma resposta final no mesmo dia?\nPorque a pressa pode induzir ao erro, e só a análise do laboratório mostra a verdade.\nComo era a pesquisa no Egito no começo do século 20?\nOs trabalhos eram muitas vezes pagos por estrangeiros ricos, como um lorde inglês, e muitos objetos eram levados para a Europa sem grande cuidado."
+    },
+    {
+      "title": "A semifinal em Dublin",
+      "summary": "A Brazilian woman in Dublin watches a World Cup semi-final in a packed pub, teased all week by her Argentine friend.",
+      "newWords": [
+        "semifinal",
+        "esgotar",
+        "zoar",
+        "dificilmente",
+        "chatear",
+        "reinar",
+        "exagerado",
+        "culminar",
+        "bônus"
+      ],
+      "text": "Moro em Dublin há 4 anos e já me acostumei com quase tudo: a chuva fina, o ônibus sempre cheio, o pôr do sol às 4 da tarde em dezembro. Uma coisa, porém, continua me surpreendendo: o que acontece com os brasileiros daqui em dia de jogo da seleção.\n\nNa Copa passada, o Brasil chegou à semifinal, e a comunidade brasileira de Dublin decidiu assistir ao jogo num pub do centro que tinha uma tela enorme. Os lugares se esgotaram em 2 horas. Quem não conseguiu reservar ficou na calçada, olhando pela janela. O dono, um irlandês simpático chamado Seán, nunca tinha visto nada parecido. No meio da tarde, os pastéis que um casal de Goiás tinha levado também se esgotaram, e ele começou a entender que aquela não seria uma tarde comum.\n\nFui com o meu amigo Martín, um argentino que adora zoar os brasileiros. Zoar, para quem não conhece a palavra, é fazer piada com alguém de um jeito amigável, sem querer ofender. O Martín passou a semana inteira me zoando: dizia que o Brasil dificilmente passaria da semifinal, que a seleção estava fraca e que eu ia voltar para casa calada. Eu fingia não ligar, mas confesso que fiquei um pouco chateada.\n\nQuando o jogo começou, um silêncio nervoso reinava no pub. Ninguém comia, ninguém conversava. O primeiro tempo terminou 0 a 0, e o silêncio continuou a reinar até o meio do segundo tempo. Então veio o gol do Brasil, e o pub inteiro explodiu: gente pulando, gente chorando, gente abraçando desconhecidos. O Seán, assustado, perguntou se aquilo não era um pouco exagerado. Talvez fosse. Mas, para quem vive longe, um gol da seleção não é só um gol: é um pedaço de casa que aparece de repente na tela. Ninguém achou a alegria exagerada.\n\nO Brasil marcou mais um no fim e venceu por 2 a 0. A festa culminou com a comunidade inteira cantando o hino na calçada, sob uma chuva fina que ninguém parecia notar. Uma tarde de tanta tensão dificilmente poderia culminar de um jeito mais bonito.\n\nO Martín, para ser justo, foi o primeiro a me dar os parabéns. \"Não fique chateada com as minhas piadas\", disse, rindo. \"Zoar faz parte do futebol.\" E ainda pagou um refrigerante para mim.\n\nHouve também um bônus que ninguém esperava. O Seán gostou tanto do clima que ofereceu o pub para a final, com uma tela ainda maior. Como bônus, prometeu servir os pastéis do casal de Goiás. Desde então, o pub do Seán é o ponto de encontro dos brasileiros de Dublin, com ou sem Copa.\n\nPerguntas:\nOnde a comunidade brasileira assistiu à semifinal?\nAssistiu num pub do centro de Dublin que tinha uma tela enorme.\nO que significa zoar?\nZoar é fazer piada com alguém de um jeito amigável, sem querer ofender.\nO que o Martín dizia durante a semana?\nEle dizia que o Brasil dificilmente passaria da semifinal e que a seleção estava fraca.\nComo era o clima no pub no começo do jogo?\nUm silêncio nervoso reinava no pub: ninguém comia nem conversava.\nComo a festa culminou?\nA festa culminou com a comunidade inteira cantando o hino na calçada, sob uma chuva fina.\nQual foi o bônus que ninguém esperava?\nO Seán ofereceu o pub para a final e prometeu servir os pastéis do casal de Goiás."
+    },
+    {
+      "title": "Carta à redação: o consulado fica longe",
+      "summary": "A letter to a newspaper from a group of Brazilian associations in northern Portugal asking for a consular service that travels to them.",
+      "newWords": [
+        "coligação",
+        "jurisdição",
+        "diplomático",
+        "decorrente",
+        "cobrança",
+        "formalmente",
+        "exclusão",
+        "marginal"
+      ],
+      "text": "Senhor editor,\n\nMoro em Braga há 7 anos e escrevo esta carta em nome de uma coligação de 12 associações de brasileiros do norte de Portugal. Formamos essa coligação no ano passado porque percebemos que os nossos problemas eram os mesmos e que, juntos, teríamos mais força para ser ouvidos.\n\nO principal problema é a distância do consulado. Cada consulado tem a sua jurisdição, isto é, a região cujos cidadãos ele deve atender. A nossa região está sob a jurisdição do consulado do Porto, que atende dezenas de milhares de brasileiros. Para renovar um passaporte, registrar um filho ou pedir um documento, é preciso marcar horário pela internet, e a espera chega a 3 meses. Quem mora no interior perde um dia de trabalho, às vezes 2, para ser atendido.\n\nSabemos que os funcionários fazem o possível. O pessoal diplomático e administrativo é pequeno para tanta gente, e os atrasos são decorrentes, sobretudo, dessa falta de funcionários, e não da má vontade de ninguém. Os problemas decorrentes desses atrasos, porém, são sérios: há famílias que não conseguem viajar, trabalhadores que perdem oportunidades e idosos que desistem de resolver a sua situação.\n\nHá também a questão da cobrança das taxas. Hoje, a cobrança é feita apenas em dinheiro, o que obriga muitas pessoas a passar no banco antes do atendimento. Pedimos que a cobrança possa ser feita também com cartão, como em qualquer loja.\n\nFormalmente, já enviamos 2 pedidos ao consulado e um ao Ministério das Relações Exteriores, propondo que uma pequena equipe visite as cidades do interior algumas vezes por ano. Outros países fazem isso, e a experiência mostra que funciona. Até agora, recebemos apenas respostas formais: educadas, mas sem nenhuma data.\n\nNão escrevo para reclamar por reclamar. Escrevo porque muitos brasileiros daqui sentem uma espécie de exclusão silenciosa. Pagam impostos, trabalham e criam os filhos, mas sentem que são cidadãos de segunda classe. Essa exclusão não é intencional, mas existe. Muitas vezes, o imigrante vive numa posição marginal: não está totalmente dentro do país onde mora nem é lembrado pelo país de onde veio. Não queremos ser marginais nem na sociedade portuguesa nem na brasileira.\n\nPeço, por isso, que o seu jornal ajude a dar atenção ao tema. Um serviço diplomático que vai até as pessoas é um sinal de respeito, e o respeito é a melhor forma de diminuir a distância entre quem partiu e quem ficou.\n\nAtenciosamente,\nCláudia Ribeiro, Braga\n\nPerguntas:\nPor que as associações formaram uma coligação?\nPorque perceberam que os problemas eram os mesmos e que, juntas, teriam mais força para ser ouvidas.\nO que é a jurisdição de um consulado?\nÉ a região cujos cidadãos ele deve atender.\nDe que são decorrentes os atrasos, segundo a autora?\nOs atrasos são decorrentes, sobretudo, da falta de funcionários.\nO que a coligação propôs formalmente?\nPropôs que uma pequena equipe do consulado visite as cidades do interior algumas vezes por ano.\nPor que muitos imigrantes sentem uma exclusão silenciosa?\nPorque pagam impostos, trabalham e criam os filhos, mas sentem que são cidadãos de segunda classe."
+    },
+    {
+      "title": "Saudade não tem sinônimo",
+      "summary": "A short essay weighing two views of saudade, the romantic one and the one that sees it as a weight, and looking for a balance.",
+      "newWords": [
+        "sinônimo",
+        "poético",
+        "vínculo",
+        "enlouquecer",
+        "emergir",
+        "sertanejo",
+        "carente",
+        "pérola"
+      ],
+      "text": "Dizem que a palavra saudade não tem tradução. Não sei se é verdade, mas sei que ela não tem um sinônimo perfeito nem em português. \"Falta\" é um sinônimo pobre, porque fala do que não temos, e não do carinho que sentimos pelo que ficou. Quem mora fora do Brasil aprende depressa que a saudade é um sentimento de muitas camadas, e que vale a pena olhar para ela com calma.\n\nHá quem veja na saudade algo bonito e poético. É a visão dos poetas, das canções e dos cartões-postais: a saudade como prova de amor, como sinal de que existe um vínculo forte com um lugar e com as pessoas que ficaram. Desse ponto de vista, sentir saudade é bom, porque mostra que o vínculo continua vivo, mesmo a 10 mil quilômetros de distância.\n\nOutros, porém, desconfiam dessa visão poética. Para eles, a saudade em excesso atrapalha a vida nova. O imigrante que passa o dia comparando tudo com o Brasil não aprende a língua, não faz amigos e vive num lugar que só existe na memória. Uma psicóloga brasileira que atende imigrantes em Londres me disse uma frase que guardei: \"Ninguém deve enlouquecer de saudade, mas também ninguém deve fingir que ela não existe.\" Fingir que não sente nada, explicou, também pode enlouquecer uma pessoa aos poucos.\n\nPenso que as 2 visões têm razão. A saudade costuma emergir em situações pequenas: o cheiro de café, uma música sertaneja tocando no rádio de um táxi, a voz da mãe numa mensagem. Conheço um engenheiro de Goiânia, sério e calado, que nunca ouvia música sertaneja no Brasil. Em Berlim, passou a ouvir todas as noites, porque era a música que tocava na casa dos avós. Quando a saudade emerge assim, não adianta lutar contra ela; é melhor deixá-la passar, como uma onda.\n\nHá dias em que o imigrante se sente carente, e não há vergonha nisso. Ficar carente longe de casa é natural: faltam os abraços, as visitas sem aviso, o almoço de domingo. O importante é que a pessoa carente não se isole. Telefonar para a família ajuda, mas criar novos vínculos no país onde se vive ajuda ainda mais.\n\nUma amiga minha, que mora em Tóquio há 15 anos, resume tudo isso com uma pérola: \"A saudade é a prova de que eu tive uma casa; os amigos daqui são a prova de que eu tenho outra.\" Guardo essa pérola como quem guarda uma joia. Talvez seja essa a melhor resposta: aceitar a saudade, sem deixar que ela decida a nossa vida.\n\nPerguntas:\nPor que \"falta\" é um sinônimo pobre de saudade, segundo o autor?\nPorque fala do que não temos, e não do carinho que sentimos pelo que ficou.\nComo os poetas veem a saudade?\nEles a veem como algo bonito e poético, como prova de amor e sinal de um vínculo forte.\nPor que algumas pessoas desconfiam da visão poética da saudade?\nPorque, para elas, a saudade em excesso atrapalha a vida nova do imigrante.\nEm que situações a saudade costuma emergir?\nEm situações pequenas, como o cheiro de café, uma música sertaneja no rádio ou a voz da mãe numa mensagem.\nO que ajuda uma pessoa carente longe de casa?\nTelefonar para a família ajuda, mas criar novos vínculos no novo país ajuda ainda mais.\nQual é a pérola da amiga que mora em Tóquio?\n\"A saudade é a prova de que eu tive uma casa; os amigos daqui são a prova de que eu tenho outra.\""
+    },
+    {
+      "title": "Resenha: Malas de mulher",
+      "summary": "A review of an imagined book of interviews with twenty Brazilian women living abroad: its strengths and its weak points.",
+      "newWords": [
+        "encantar",
+        "espectro",
+        "evidenciar",
+        "sacrificar",
+        "brutal",
+        "feminismo",
+        "superficial",
+        "questionamento"
+      ],
+      "text": "Em \"Malas de mulher\", a jornalista Beatriz Andrade reúne os relatos de 20 brasileiras que vivem fora do país. São mulheres de idades, profissões e origens muito diferentes: uma faxineira em Boston, uma cientista em Paris, uma cuidadora de idosos em Milão, uma empresária em Sydney. O resultado é um livro sensível e bem organizado, que deve encantar tanto quem já emigrou quanto quem nunca saiu de casa.\n\nO maior mérito do livro é o espectro amplo de experiências que ele apresenta. A autora evita a história única da imigrante que só sofre e também a da imigrante que vence sem esforço. Entre esses 2 extremos, há um espectro enorme de situações, e é nele que o livro se concentra. Os capítulos evidenciam como a mesma decisão, a de partir, pode significar liberdade para uma mulher e solidão para outra. Um capítulo sobre o trabalho doméstico evidencia, além disso, quanto esforço existe por trás de vidas que quase ninguém vê.\n\nMuitas entrevistadas falam do que precisaram sacrificar. Uma médica sacrificou a carreira para acompanhar o marido; anos depois, voltou a estudar e hoje trabalha num hospital de Lisboa. Uma mãe de 3 filhos conta que sacrificou a convivência diária com a própria mãe e que, por isso, os filhos cresceram conversando com a avó pelo telefone. A sinceridade desses relatos às vezes é brutal: há quem admita arrependimento, há quem fale abertamente de preconceito, há quem confesse que só ficou por falta de dinheiro para voltar. Essa honestidade brutal, contudo, é o que dá força ao livro.\n\nO feminismo atravessa o livro, mas sem discursos. A autora não escreve um manifesto; ela deixa que as próprias mulheres contem como a mudança de país transformou a forma como veem o trabalho, o casamento e a independência. Várias entrevistadas dizem que só descobriram o feminismo longe do Brasil, ao perceber que podiam viver sozinhas, ganhar o próprio dinheiro e tomar decisões sem pedir licença. Outras discordam e acham o tema mais complicado. O livro registra as 2 posições com respeito.\n\nHá, no entanto, um ponto fraco. Alguns capítulos são curtos demais, e certas histórias ficam superficiais: a leitora gostaria de saber mais, mas a autora passa rápido para a próxima entrevistada. Um olhar superficial sobre vidas tão ricas é uma pena. Também faltou um questionamento mais profundo sobre o papel do governo brasileiro, que aparece pouco nos relatos. Esse questionamento, porém, talvez seja assunto para outro livro.\n\nNo conjunto, \"Malas de mulher\" é uma leitura que vale a pena. O livro encanta pela delicadeza, emociona pela sinceridade e deixa uma pergunta para quem fecha a última página: o que cada um de nós estaria disposto a sacrificar por uma vida nova?\n\nPerguntas:\nO que o livro \"Malas de mulher\" reúne?\nReúne os relatos de 20 brasileiras que vivem fora do país.\nQual é o maior mérito do livro, segundo a resenha?\nÉ o espectro amplo de experiências que ele apresenta, entre a imigrante que só sofre e a que vence sem esforço.\nO que a médica precisou sacrificar?\nEla sacrificou a carreira para acompanhar o marido, mas depois voltou a estudar.\nComo o feminismo aparece no livro?\nEle atravessa o livro sem discursos: as próprias mulheres contam como a mudança de país transformou a forma como veem o trabalho, o casamento e a independência.\nQual é o ponto fraco do livro?\nAlguns capítulos são curtos demais, certas histórias ficam superficiais e faltou um questionamento mais profundo sobre o papel do governo brasileiro."
+    },
+    {
+      "title": "A volta do seu Antônio",
+      "summary": "A retired house painter comes home to Florianópolis after 25 years in Boston: lost luggage, a small car, high prices, the electric shower and fishing at dawn.",
+      "newWords": [
+        "aposentado",
+        "bagagem",
+        "compensação",
+        "estacionar",
+        "traseira",
+        "chocado",
+        "provedor",
+        "chuveiro",
+        "pescar",
+        "tartaruga"
+      ],
+      "text": "Depois de 25 anos trabalhando como pintor de paredes em Boston, o seu Antônio decidiu que era hora de voltar. Aposentado aos 67 anos, ele vendeu o carro, deu os móveis aos vizinhos e comprou uma passagem só de ida para Florianópolis, onde mora a filha mais velha, a Débora. A mulher dele, a dona Zélia, também aposentada, voltou com ele.\n\nA viagem começou com um susto. Quando o casal chegou ao aeroporto de Florianópolis, uma das 3 malas não apareceu. A bagagem perdida era justamente a mais importante, com as fotos da família e os presentes dos netos. Seu Antônio preencheu um formulário e, 2 dias depois, a companhia aérea entregou a bagagem em casa, inteira. Como compensação pelo atraso, o casal recebeu uma quantia em dinheiro. \"Eu preferia ter a mala no primeiro dia a receber qualquer compensação\", disse ele, mas aceitou o dinheiro com um sorriso.\n\nNaquela noite, a Débora tinha estacionado o carro longe da saída, porque não havia vaga perto. Seu Antônio colocou as malas na traseira do carro, mas a traseira era pequena, e uma das malas foi no colo da dona Zélia. Ele riu: em Boston, o carro dele, enorme, ficava estacionado na porta de casa; aqui, o carro da filha mal cabia na garagem do prédio.\n\nNas primeiras semanas, quase tudo deixou o casal chocado. Seu Antônio ficou chocado com os preços do supermercado, muito mais altos do que ele lembrava. A dona Zélia ficou chocada com a quantidade de prédios novos no bairro onde tinha crescido. E os 2 ficaram chocados com a burocracia: para instalar a internet, precisaram comparar 4 provedores, ler contratos enormes e esperar uma semana pelo técnico. No fim, escolheram o mesmo provedor que a Débora usava.\n\nMas houve também reencontros felizes. O primeiro banho no chuveiro elétrico, por exemplo, fez seu Antônio rir sozinho. Nos Estados Unidos, ele sentia falta do barulho e do calor daquele chuveiro simples, tão brasileiro. \"Esse chuveiro é a minha casa\", disse à filha.\n\nAgora, as manhãs têm uma rotina nova. Seu Antônio acorda cedo, pega a vara e vai pescar com um vizinho na praia. Pescar sempre foi o seu sonho de aposentado; em Boston, o inverno longo não deixava. Numa dessas manhãs, os 2 viram uma tartaruga marinha nadando perto das pedras. Um rapaz de um projeto de proteção dos animais explicou que as tartarugas voltam todos os anos à mesma região. Seu Antônio achou graça: \"Então eu sou como a tartaruga. Demorei, mas voltei para o lugar de onde saí.\"\n\nPerguntas:\nPor que o seu Antônio voltou ao Brasil?\nPorque se aposentou depois de 25 anos trabalhando em Boston e decidiu que era hora de voltar.\nO que aconteceu com a bagagem do casal?\nUma das malas não apareceu, mas a companhia aérea entregou a bagagem 2 dias depois e deu uma compensação pelo atraso.\nPor que uma das malas foi no colo da dona Zélia?\nPorque a traseira do carro da Débora era pequena.\nO que deixou o casal chocado nas primeiras semanas?\nOs preços do supermercado, os prédios novos no bairro e a burocracia para instalar a internet.\nO que o seu Antônio faz agora de manhã?\nEle acorda cedo e vai pescar com um vizinho na praia.\nPor que ele se compara a uma tartaruga?\nPorque as tartarugas voltam à mesma região, e ele também voltou para o lugar de onde saiu."
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "pt-mini-4600",
+  "rankUpTo": 4600,
+  "level": "C1",
+  "title": "Ciência e descobertas",
+  "description": "Stories, profiles, an interview, a review and short essays about Brazilian science: rock paintings, dinosaur bones, a comet, a museum, a seed lab, a famous doctor, city pigeons and a school science fair.",
+  "topic": "Science and discovery",
+  "names": [
+    "Brasil",
+    "Helena",
+    "Duarte",
+    "Serra",
+    "Capivara",
+    "Piauí",
+    "Antônio",
+    "Valter",
+    "Lívia",
+    "Campos",
+    "Minas",
+    "Gerais",
+    "Clara",
+    "Nogueira",
+    "Javier",
+    "Peru",
+    "Halley",
+    "Jorge",
+    "Teresa",
+    "Lima",
+    "Noruega",
+    "Carlos",
+    "Chagas",
+    "Oliveira",
+    "Oswaldo",
+    "Cruz",
+    "Lassance",
+    "Berenice",
+    "Trypanosoma",
+    "cruzi",
+    "Rio",
+    "Janeiro",
+    "Renata",
+    "Lopes",
+    "Paulo",
+    "al",
+    "Sufi",
+    "Andrômeda",
+    "Júlia",
+    "Mateus",
+    "Gabriel",
+    "Parnaíba",
+    "Maranhão",
+    "Bruna",
+    "Pedro",
+    "Estados",
+    "Unidos"
+  ],
+  "lessons": [
+    {
+      "title": "Os paredões da Serra da Capivara",
+      "summary": "An archaeologist explains how she records, interprets and protects the rock paintings of the Serra da Capivara.",
+      "newWords": [
+        "cercar",
+        "propriamente",
+        "adivinhar",
+        "clã",
+        "ausente",
+        "contestar",
+        "justificativa",
+        "intervir",
+        "minimizar"
+      ],
+      "text": "Helena Duarte é arqueóloga e trabalha há 20 anos no Parque Nacional Serra da Capivara, no sudeste do Piauí. Todas as manhãs, antes que o sol fique forte demais, ela caminha até os paredões de pedra que cercam os vales do parque. Cercada por essas paredes vermelhas e pela vegetação baixa da caatinga, ela tem a impressão de estar diante de um livro aberto, escrito por pessoas que viveram ali há milhares de anos.\n\nNos paredões há milhares de pinturas: veados, onças, cenas de caça, de dança e de família, quase sempre em tons de vermelho. Muita gente imagina que o trabalho de Helena consiste propriamente em descobrir pinturas novas. Na verdade, o trabalho propriamente dito é mais lento: medir, fotografar e descrever cada figura, e depois comparar os desenhos de um sítio com os de outro. \"Descobrir é o momento bonito\", diz ela. \"Mas o que dá sentido à descoberta são os anos de registro que vêm depois.\"\n\nA pergunta que ela mais ouve dos visitantes é o que as pinturas significam. Helena prefere ser honesta: é impossível adivinhar com certeza. Pode-se supor que certas cenas mostram rituais, ou que figuras repetidas marcavam o território de um clã, isto é, de um grupo de famílias ligadas por um antepassado comum. Cada clã talvez tivesse os seus próprios símbolos. No entanto, os autores estão ausentes há milhares de anos, e não há ninguém para confirmar essa leitura. \"Quem afirma saber exatamente o que um desenho quer dizer está apenas tentando adivinhar\", explica. \"A ciência começa quando admitimos o que não sabemos.\"\n\nOutro tema delicado é a idade da presença humana na região. Algumas datas propostas para os sítios da serra são muito antigas e foram contestadas por pesquisadores de outros países. Helena não vê problema nisso. Para ela, contestar um resultado faz parte do método: cada nova data precisa de uma justificativa sólida, baseada em amostras, análises e comparações. Sem essa justificativa, uma data não passa de uma opinião. Quando uma conclusão é contestada, os cientistas voltam ao campo, reúnem mais dados e discutem de novo.\n\nHoje, uma parte importante do trabalho é proteger as pinturas. O sol, a chuva e a poeira causam danos, assim como os insetos que fazem ninhos de barro sobre as rochas. Às vezes é preciso intervir, limpando a superfície ou desviando a água da chuva. Helena insiste, porém, que a equipe só deve intervir quando for realmente necessário, porque cada limpeza também desgasta um pouco a pedra. O objetivo é minimizar os danos, e não deixar as pinturas com aparência de novas. Para minimizar o impacto das visitas, há caminhos de madeira e regras claras: ninguém toca nas paredes.\n\nNo fim da tarde, quando a luz deixa os paredões quase dourados, Helena gosta de ficar alguns minutos em silêncio. Os pintores estão ausentes, mas as suas imagens continuam ali, conversando com quem chega.\n\nPerguntas:\nO que cerca os vales do parque?\nParedões de pedra cercam os vales do parque.\nEm que consiste o trabalho propriamente dito de Helena?\nConsiste em medir, fotografar e descrever cada figura, e em comparar os desenhos de sítios diferentes.\nPor que é impossível adivinhar com certeza o que as pinturas significam?\nPorque os autores estão ausentes há milhares de anos e não há ninguém para confirmar a leitura.\nO que é preciso para que uma nova data seja aceita?\nÉ preciso uma justificativa sólida, baseada em amostras, análises e comparações.\nPor que a equipe só deve intervir quando é realmente necessário?\nPorque cada limpeza também desgasta a pedra, e o objetivo é minimizar os danos."
+    },
+    {
+      "title": "Um osso na pedreira",
+      "summary": "A builder finds a dinosaur bone in a quarry in Minas Gerais, and the quarry owner and a researcher agree on a plan to dig it out.",
+      "newWords": [
+        "pedreiro",
+        "britar",
+        "construtor",
+        "tijolo",
+        "encantado",
+        "restringir",
+        "solucionar",
+        "confiante",
+        "agendar"
+      ],
+      "text": "Seu Antônio é pedreiro há 30 anos numa pequena cidade do interior de Minas Gerais. Durante a semana, levanta paredes de tijolo nas obras da cidade; aos sábados, faz serviços extras numa pedreira próxima, onde a rocha é cortada, britada e vendida como pedra para o concreto. É um trabalho barulhento e cheio de poeira, mas Antônio já está acostumado.\n\nNuma manhã de julho, enquanto a máquina quebrava um bloco de rocha, Antônio viu algo diferente no meio do pó: um pedaço escuro e liso, com a forma de um osso enorme. Pediu ao colega que desligasse a máquina. \"Essa pedra não vai ser britada antes que alguém olhe para ela\", disse.\n\nO dono da pedreira, seu Valter, também era construtor: a sua empresa fazia casas e pequenos prédios na região, e quase toda a pedra britada ia para as suas próprias obras. No início, ele ficou preocupado, porque, como todo construtor, sabia que uma obra parada custa caro. Mesmo assim, telefonou para a universidade federal mais próxima.\n\nDois dias depois, chegou a pesquisadora Lívia Campos, que estuda fósseis de dinossauros. Ela examinou o osso com cuidado e sorriu. \"Parece parte da coluna de um titanossauro\", explicou, \"um dinossauro enorme, de pescoço longo, que comia plantas e viveu nesta região há cerca de 70 milhões de anos.\" Antônio, que nunca tinha visto um fóssil de perto, ficou encantado. O neto dele, de 9 anos, ficou ainda mais encantado e passou a semana desenhando dinossauros em todos os cadernos.\n\nPara proteger o local, Lívia pediu que o acesso àquela parte da pedreira fosse restringido. Seu Valter aceitou restringir a extração numa área de 50 metros, mas fez uma pergunta justa: \"E as minhas obras? Não posso ficar meses sem pedra.\" Para solucionar o problema, os dois combinaram um plano simples: as máquinas continuariam trabalhando do outro lado da pedreira, e a equipe da universidade teria 4 meses para retirar os ossos. Antônio, com a experiência de pedreiro, levantou uma pequena parede de tijolos para desviar a água da chuva e proteger a escavação.\n\nO trabalho foi lento. Cada osso era limpo com pincéis, coberto com gesso e levado para o laboratório. Lívia estava confiante desde o primeiro dia. \"Onde há um osso, quase sempre há outros\", dizia. E ela tinha razão: em 4 meses, a equipe encontrou 23 ossos do mesmo animal. Ainda falta solucionar uma dúvida, que só o estudo no laboratório vai esclarecer: se o animal pertence a uma espécie já conhecida ou a uma espécie nova. Os pesquisadores estão confiantes de que a resposta virá em breve.\n\nNo ano seguinte, alguns ossos foram expostos no pequeno museu da cidade. A prefeitura agendou visitas de todas as escolas, e a diretora do museu agendou uma conversa entre os alunos e o pedreiro que tinha mandado parar a máquina. Antônio contou a história tantas vezes que já a sabe de cor, como sabe o peso de cada tijolo.\n\nPerguntas:\nQual é a profissão de seu Antônio?\nEle é pedreiro e, aos sábados, trabalha numa pedreira onde a rocha é britada.\nPor que seu Valter ficou preocupado no início?\nPorque ele também era construtor e sabia que uma obra parada custa caro.\nComo os dois solucionaram o problema da pedra para as obras?\nAs máquinas continuaram do outro lado da pedreira, e a extração foi restringida numa área de 50 metros.\nComo Antônio ajudou a proteger a escavação?\nEle levantou uma pequena parede de tijolos para desviar a água da chuva.\nO que a prefeitura agendou quando os ossos foram expostos?\nA prefeitura agendou visitas de todas as escolas ao museu."
+    },
+    {
+      "title": "A noite do cometa",
+      "summary": "An astronomer and her Peruvian colleague prepare to photograph a comet, worry about a storm, and get their images.",
+      "newWords": [
+        "aparição",
+        "correspondência",
+        "peruano",
+        "xadrez",
+        "mira",
+        "magnético",
+        "ajuste",
+        "temporal",
+        "processamento"
+      ],
+      "text": "Clara Nogueira estuda cometas há 15 anos num observatório no alto de uma serra, no sul de Minas Gerais. Naquele ano, um cometa descoberto em março se aproximava do Sol e prometia uma aparição rara: segundo os cálculos, ele seria visível a olho nu durante algumas semanas de outubro. Para muitos jovens, seria o primeiro cometa visto a olho nu. Clara gosta de lembrar que não vale a pena esperar pelo famoso Halley: a próxima aparição dele só acontecerá em 2061.\n\nHavia meses que Clara mantinha uma correspondência diária com Javier, um colega peruano que trabalha num observatório no sul do Peru. Na correspondência, os dois trocavam previsões, mapas do céu e dúvidas técnicas. Nas noites nubladas, quando não havia nada a observar, jogavam xadrez pela internet. O colega peruano costumava ganhar, e Clara dizia que o xadrez era a única área em que aceitava perder.\n\nDesde março, o cometa estava na mira dos astrônomos do mundo inteiro. Clara queria estudar, em especial, a sua cauda. Ela costuma explicar aos estudantes que um cometa é uma mistura de gelo e poeira. Quando se aproxima do Sol, o gelo se transforma em gás, e o cometa ganha duas caudas: uma de poeira, curva e amarelada, e outra de gás, reta e azulada. A cauda de gás é empurrada pelo vento solar, e o seu desenho depende do campo magnético que esse vento carrega. Ao observar essa cauda, os cientistas aprendem sobre o próprio campo magnético do Sol.\n\nNa véspera da noite em que o cometa estaria mais brilhante, Clara passou horas fazendo ajustes no equipamento. Cada ajuste era pequeno: o foco, a posição da câmera, o tempo de cada foto. \"Um bom ajuste vale mais do que um equipamento caro\", repetia aos alunos que a acompanhavam.\n\nEntão veio a má notícia. A previsão do tempo anunciava um temporal justamente para a tarde da grande noite, com chuva forte e muito vento. Javier escreveu do Peru: \"Aqui o céu está limpo. Se o temporal chegar aí, eu faço as fotos por nós dois.\" Clara agradeceu, mas não desistiu. Ficou na janela, olhando as nuvens escuras que subiam a serra.\n\nO temporal veio, durou duas horas e foi embora antes da meia-noite. O céu ficou limpo como poucas vezes ela tinha visto. Clara colocou o cometa na mira do instrumento e trabalhou até o amanhecer, enquanto Javier fazia o mesmo no Peru.\n\nNas semanas seguintes, começou a parte menos bonita e mais demorada: o processamento das imagens. Cada foto passava por um processamento cuidadoso no computador, que descontava o brilho do céu causado pela Lua e pelas luzes das cidades. Só depois desse processamento era possível medir as mudanças na cauda. No fim, os dois colegas assinaram juntos um artigo. E, para comemorar, jogaram mais uma partida de xadrez. Javier ganhou de novo.\n\nPerguntas:\nO que prometia o cometa descoberto em março?\nEle prometia uma aparição rara: seria visível a olho nu durante algumas semanas de outubro.\nSobre o que Clara e o colega peruano falavam na correspondência?\nEles trocavam previsões, mapas do céu e dúvidas técnicas.\nDo que depende o desenho da cauda de gás?\nDepende do vento solar e do campo magnético que ele carrega.\nO que Clara fez na véspera da noite em que o cometa estaria mais brilhante?\nEla passou horas fazendo pequenos ajustes no equipamento.\nPara que serviu o processamento das imagens?\nServiu para descontar o brilho do céu e, depois, medir as mudanças na cauda."
+    },
+    {
+      "title": "O museu que não fechou",
+      "summary": "A small natural history museum close to bankruptcy is saved by a fund-raising campaign and an educational programme.",
+      "newWords": [
+        "anfitrião",
+        "pendurar",
+        "espetacular",
+        "catálogo",
+        "atlas",
+        "falência",
+        "arrecadação",
+        "regimento",
+        "educativo"
+      ],
+      "text": "Na minha cidade há um pequeno museu de história natural, instalado num casarão antigo perto da praça da matriz. Quem nos recebe na porta é o seu Jorge, biólogo aposentado e anfitrião do museu há mais de 20 anos. É um anfitrião à moda antiga: cumprimenta cada visitante pelo nome, pergunta pela família e, só depois, começa a visita.\n\nA primeira sala é a mais famosa. Do teto está pendurado o esqueleto de uma baleia de 12 metros, encontrada numa praia do litoral nos anos 1970. Pendurar aquele esqueleto foi uma aventura: foram precisos 3 dias, 8 pessoas e muita paciência. O efeito é espetacular. As crianças entram, olham para cima e ficam em silêncio por alguns segundos, o que, para quem conhece crianças, é de fato espetacular. Nas paredes, o seu Jorge mandou pendurar desenhos antigos de aves e peixes, feitos por naturalistas que passaram pela região há quase 200 anos.\n\nNas salas seguintes ficam as coleções: milhares de insetos, conchas, rochas e plantas secas. Cada peça tem um número no catálogo do museu, um caderno grosso que o seu Jorge escreveu à mão durante anos e que hoje está sendo passado para o computador. \"Sem catálogo, uma coleção é só um monte de coisas bonitas\", diz ele. Na biblioteca, há um atlas do século 19 com mapas e desenhos das plantas e dos animais da região. Os pesquisadores ainda consultam esse atlas para saber onde certas espécies viviam antes das cidades.\n\nHá 3 anos, porém, o museu esteve perto da falência. As contas de luz e de manutenção tinham subido, o número de visitantes tinha caído, e a prefeitura avisou que não poderia aumentar a ajuda. A palavra falência apareceu até no jornal local. Foi então que um grupo de professores e ex-alunos organizou uma campanha de arrecadação. A arrecadação começou tímida, com uma caixa na entrada, e cresceu com festas, uma feira de livros e doações de empresas. Em 6 meses, o museu pagou as dívidas.\n\nO salvamento trouxe também regras novas. O regimento interno, que não mudava desde a fundação, foi reescrito. Pelo novo regimento, parte de toda a arrecadação deve ir para um programa educativo, e o museu deve receber gratuitamente as escolas públicas da região. Esse programa educativo inclui oficinas, visitas guiadas e uma caixa de ossos e conchas que os alunos podem tocar.\n\nConfesso que, antes da crise, eu não dava muito valor ao museu. Achava que era um lugar parado, de objetos velhos. Hoje penso o contrário: um museu assim não guarda apenas objetos, guarda perguntas. E o seu Jorge, anfitrião de sempre, continua na porta, esperando quem venha fazê-las.\n\nPerguntas:\nQuem é o seu Jorge?\nEle é um biólogo aposentado e anfitrião do museu há mais de 20 anos.\nPor que pendurar o esqueleto da baleia foi uma aventura?\nPorque foram precisos 3 dias, 8 pessoas e muita paciência.\nPara que serve o catálogo do museu?\nEle dá um número a cada peça e organiza a coleção.\nPor que o museu esteve perto da falência?\nPorque as contas tinham subido, os visitantes tinham diminuído e a prefeitura não podia aumentar a ajuda.\nO que o novo regimento determina?\nEle determina que parte da arrecadação vá para um programa educativo e que as escolas públicas sejam recebidas gratuitamente."
+    },
+    {
+      "title": "O cofre das sementes",
+      "summary": "At a forest seed lab, collectors bring baskets of seeds that are dried, tested and stored for reforestation.",
+      "newWords": [
+        "cesta",
+        "louro",
+        "prover",
+        "agregar",
+        "lâmina",
+        "moderado",
+        "tampa",
+        "cofre"
+      ],
+      "text": "Numa cidade do interior de São Paulo, perto do que resta da Mata Atlântica, funciona um laboratório que estuda sementes de árvores nativas. A bióloga Teresa Lima coordena o trabalho. Ela gosta de dizer que a floresta é generosa, mas não é infinita: a floresta provê água, sombra, alimento e madeira, e quem quer continuar recebendo esses presentes precisa ajudá-la a se renovar.\n\nO trabalho começa longe do laboratório. Cerca de 40 famílias da região coletam sementes na mata e as trazem em cestas de palha, cada cesta com uma etiqueta: o nome da árvore, o lugar e a data da coleta. Numa manhã comum, chegam cestas com sementes de várias árvores, entre elas o louro. \"Não é o louro da cozinha, cujas folhas vão no feijão\", explica Teresa aos visitantes. \"É uma árvore nativa de madeira muito boa, que também é chamada de louro.\" As sementes do louro estão entre as mais procuradas pelos projetos de recuperação da mata.\n\nA rede de coletores tem também um papel social. Ela consegue agregar famílias que antes trabalhavam sozinhas e agregar valor a um conhecimento antigo: saber quando cada árvore dá frutos e onde encontrá-la. As famílias vendem as sementes ao laboratório, e o laboratório passa a prover sementes de qualidade a quem planta árvores em todo o estado.\n\nNo laboratório, as sementes são limpas, contadas e testadas. Para examinar o interior de uma semente, a técnica faz um corte muito fino com uma lâmina e o observa ao microscópio. Esse corte feito com a lâmina mostra se a semente está viva ou se foi atacada por insetos. Depois, as sementes são secas em temperatura moderada, porque o calor excessivo as mataria. Um ambiente moderado, nem quente nem úmido, é o melhor para essa etapa.\n\nEm seguida, as sementes secas vão para potes de vidro com tampa. Cada tampa precisa fechar muito bem, para que a umidade do ar não entre. Os potes são guardados numa câmara fria, a 18 graus abaixo de zero. É ali que fica o verdadeiro cofre do laboratório: milhares de potes que, juntos, guardam a memória genética da floresta. Teresa lembra que existe na Noruega um enorme cofre de sementes, construído dentro de uma montanha gelada, com amostras do mundo inteiro.\n\nNem todas as sementes, no entanto, aceitam esse cofre. Muitas espécies tropicais morrem quando são secas e congeladas. Para elas, a equipe pesquisa outros caminhos, como plantar logo as sementes e conservar as árvores jovens. \"Não existe um método único\", diz Teresa. \"Cada espécie nos obriga a aprender alguma coisa.\"\n\nPerguntas:\nO que a floresta provê, segundo Teresa?\nA floresta provê água, sombra, alimento e madeira.\nComo as sementes chegam ao laboratório?\nElas chegam em cestas de palha, cada uma com uma etiqueta.\nQue louro é esse de que Teresa fala?\nÉ uma árvore nativa de madeira muito boa, e não o louro da cozinha.\nPara que a técnica usa uma lâmina?\nEla usa a lâmina para fazer um corte fino na semente e ver se ela está viva.\nPor que a tampa dos potes precisa fechar bem?\nPorque a umidade do ar não pode entrar nos potes."
+    },
+    {
+      "title": "Carlos Chagas, o médico de Lassance",
+      "summary": "A profile of Carlos Chagas, who in 1909 described a whole new disease, from its parasite to the insect that carries it.",
+      "newWords": [
+        "mentor",
+        "rebelião",
+        "ambição",
+        "sugar",
+        "portar",
+        "desencadear",
+        "agravar",
+        "decente",
+        "docente"
+      ],
+      "text": "Carlos Chagas nasceu em 1879, numa fazenda perto de Oliveira, em Minas Gerais, e estudou medicina no Rio de Janeiro. Ainda estudante, aproximou-se de Oswaldo Cruz, que se tornaria o seu mentor. Foi sob a orientação desse mentor que Chagas escreveu, em 1903, a sua tese sobre a malária.\n\nOswaldo Cruz era, naquela época, o principal responsável pela saúde pública da capital. Em 1904, a lei que tornava obrigatória a vacina contra a varíola provocou uma rebelião popular no Rio, que ficou conhecida como Revolta da Vacina. A rebelião durou poucos dias, mas mostrou uma lição importante: a ciência precisa convencer as pessoas, e não apenas impor regras.\n\nEm 1907, Chagas foi enviado a Lassance, no norte de Minas, para combater a malária entre os trabalhadores que construíam uma estrada de ferro. Ali, um engenheiro lhe mostrou um inseto que vivia nos buracos das paredes de barro e que, à noite, sugava o sangue das pessoas. A população o chamava de barbeiro, porque costumava atacar o rosto. Chagas examinou o intestino do inseto e encontrou um parasita desconhecido. Mais tarde, os cientistas descobriram que o barbeiro não transmite o parasita pela picada: o inseto pode portar o parasita durante toda a vida, e a infecção acontece quando as suas fezes, deixadas na pele enquanto ele suga o sangue, entram na ferida.\n\nEm abril de 1909, Chagas encontrou o mesmo parasita no sangue de uma menina de 2 anos, chamada Berenice. Era o primeiro caso humano da doença que hoje leva o nome de Chagas. Em homenagem ao mentor, ele deu ao parasita o nome de Trypanosoma cruzi. A ambição do trabalho era enorme: um só pesquisador descreveu o parasita, o inseto que o transmite, os animais que o portam e os sinais da doença no corpo humano. Poucas vezes na história da medicina uma ambição desse tamanho foi realizada com tanto sucesso.\n\nA descoberta desencadeou admiração no mundo inteiro, e Chagas foi indicado ao Prêmio Nobel. Mais tarde, porém, também desencadeou polêmicas: alguns médicos duvidavam da importância da doença. Hoje se sabe que ela pode ficar silenciosa por muitos anos e depois, em parte dos pacientes, se agravar, atingindo sobretudo o coração. Quando o quadro se agrava, o paciente pode precisar de tratamento por toda a vida.\n\nChagas entendeu cedo que a doença estava ligada à pobreza. Defendia que, sem casas decentes, com paredes lisas onde o barbeiro não pudesse se esconder, a doença não seria vencida. Moradia decente era, para ele, uma medida de saúde.\n\nDepois da morte de Oswaldo Cruz, Chagas dirigiu o instituto que tinha o nome do mestre e foi docente de medicina tropical na faculdade onde estudara. Como docente, formou uma geração de pesquisadores. Morreu em 1934, no Rio de Janeiro. Berenice, a menina de 1909, viveu mais de 70 anos.\n\nPerguntas:\nQuem foi o mentor de Carlos Chagas?\nO mentor dele foi Oswaldo Cruz.\nQue lição a rebelião de 1904 mostrou?\nEla mostrou que a ciência precisa convencer as pessoas, e não apenas impor regras.\nComo o barbeiro transmite o parasita?\nAs fezes do inseto, deixadas na pele enquanto ele suga o sangue, entram na ferida.\nPor que a ambição do trabalho de Chagas era enorme?\nPorque um só pesquisador descreveu o parasita, o inseto, os animais que o portam e os sinais da doença.\nPor que Chagas defendia casas decentes?\nPorque o barbeiro se esconde nos buracos das paredes de barro, e, sem casas decentes, a doença não seria vencida."
+    },
+    {
+      "title": "Entrevista: a cientista dos pombos",
+      "summary": "An interview with a biologist who studies city pigeons with the help of volunteers.",
+      "newWords": [
+        "pombo",
+        "risada",
+        "desempregado",
+        "centavo",
+        "ronda",
+        "armadilha",
+        "passivo",
+        "adepto",
+        "generoso"
+      ],
+      "text": "A bióloga Renata Lopes estuda os pombos de São Paulo há 8 anos. Conversamos numa praça do centro, entre dezenas de aves.\n\nPor que estudar pombos? Muita gente acha que eles são só uma praga.\n(Risada.) Essa é a primeira pergunta que todos me fazem. O pombo vive ao nosso lado há milhares de anos e se adaptou à cidade como poucos animais. Entender como ele vive ajuda a entender a própria cidade: onde há comida, onde há lixo, onde há doenças.\n\nComo a senhora começou?\nDepois do doutorado, fiquei desempregada por quase um ano. Foi um período difícil. Ser uma cientista desempregada não é raro no Brasil, mas é sempre doloroso. Como não tinha laboratório, comecei a observar os pombos do meu bairro, com um caderno e um celular. A pesquisa nasceu sem um centavo. Só depois consegui uma bolsa, e hoje cada centavo do projeto vem de uma agência pública.\n\nComo é um dia de trabalho?\nComeça cedo, com a ronda das praças. Faço a mesma ronda todas as semanas: são 12 praças, sempre na mesma ordem e no mesmo horário. Em algumas, usamos uma armadilha simples, uma gaiola que se fecha quando os pombos entram para comer milho. A armadilha não machuca as aves. Colocamos uma pequena argola colorida na pata, anotamos o peso e soltamos cada pombo em poucos minutos.\n\nE o que essas argolas revelam?\nQue os pombos são muito fiéis ao seu bairro. Muitos passam a vida inteira em 2 ou 3 praças. Também sabemos, por outros estudos, que eles usam o campo magnético da Terra e a posição do Sol para se orientar. O pombo não é um animal passivo, que apenas espera o pão cair do céu: ele aprende, escolhe e se lembra.\n\nA senhora conta com a ajuda de voluntários?\nSim, e eles são fundamentais. Temos mais de 300 adeptos da ciência cidadã, pessoas comuns que fotografam os pombos com argola e mandam a foto com a data e o lugar. Há adeptos de todas as idades, de estudantes a aposentados, e as fotos que eles mandam às vezes nos rendem boas risadas. Alguns fazem uma observação passiva, só enviando o que veem pelo caminho; outros seguem as aves com uma dedicação impressionante.\n\nQue conselho a senhora daria a quem alimenta os pombos?\nEntendo o gesto: as pessoas querem ser generosas. Mas ser generoso com pão e pipoca faz mal às aves e aumenta o número de pombos além do que a cidade consegue suportar. O melhor jeito de ser generoso com eles é deixá-los procurar a própria comida.\n\nPerguntas:\nPor que Renata estuda os pombos?\nPorque entender como o pombo vive ajuda a entender a própria cidade.\nComo a pesquisa começou?\nComeçou quando ela estava desempregada, sem um centavo, com um caderno e um celular.\nO que Renata faz na ronda das praças?\nEla visita 12 praças, usa uma armadilha simples e coloca argolas coloridas nas patas dos pombos.\nPor que o pombo não é um animal passivo?\nPorque ele aprende, escolhe e se lembra, e usa o campo magnético e o Sol para se orientar.\nQual é o melhor jeito de ser generoso com os pombos, segundo Renata?\nÉ deixá-los procurar a própria comida."
+    },
+    {
+      "title": "Crítica: uma série sobre a história da ciência",
+      "summary": "A review of a television series on the history of science, weighing its strengths and weaknesses.",
+      "newWords": [
+        "televisivo",
+        "milionário",
+        "traje",
+        "coro",
+        "persa",
+        "comentarista",
+        "manchete",
+        "credibilidade",
+        "difusão"
+      ],
+      "text": "Estreou neste mês, na televisão pública, a série \"Perguntas Antigas\", que conta em 8 episódios a história de algumas grandes descobertas científicas. É raro ver um projeto televisivo dedicado à ciência com tanto cuidado, e por isso a série merece atenção, embora tenha também os seus defeitos.\n\nComecemos pelo que impressiona. A produção, de orçamento milionário para os padrões brasileiros, não economizou nos detalhes. Atores em traje de época reconstituem cenas em laboratórios, navios e salas de aula, e cada traje parece ter sido estudado em pinturas e documentos. A trilha sonora, com um coro de vozes graves, acompanha os momentos de descoberta sem exagerar. Quando o coro entra, sabemos que algo importante vai acontecer.\n\nO melhor episódio é o terceiro, dedicado à astronomia medieval. Ele conta a história de al-Sufi, astrônomo persa do século 10, que descreveu as estrelas visíveis a olho nu e registrou, pela primeira vez, uma \"pequena nuvem\" no céu que hoje conhecemos como a galáxia de Andrômeda. O episódio mostra que a ciência não nasceu num só lugar, e que os sábios persas, árabes, indianos e chineses guardaram e ampliaram o conhecimento antigo.\n\nA série tem uma apresentadora e, em cada episódio, um comentarista convidado, quase sempre um pesquisador brasileiro. Alguns comentaristas falam com clareza e entusiasmo; outros se perdem em termos técnicos. O formato funciona melhor quando o comentarista conta como ele próprio trabalha, porque aproxima o passado do presente.\n\nNem tudo, porém, convence, e um orçamento milionário não garante, sozinho, uma boa série. Alguns episódios dão a impressão de que a ciência avança por meio de gênios solitários e de momentos de inspiração, como se cada descoberta fosse uma manchete de jornal. A ciência real é mais coletiva e mais lenta. A série poderia mostrar mais os erros, as dúvidas e os anos de trabalho que nenhuma manchete costuma registrar.\n\nAinda assim, o saldo é positivo. A série tem credibilidade: cada roteiro foi revisto por historiadores da ciência, e as fontes aparecem no site do programa. Essa credibilidade é preciosa num tempo em que tantas informações falsas circulam sem controle. Além disso, a série contribui para a difusão do conhecimento entre pessoas que talvez nunca abram um livro de história da ciência. Uma boa difusão científica não substitui a escola, mas desperta a curiosidade.\n\nRecomendo a série a famílias com adolescentes e a professores que buscam material para as aulas. Quem já conhece o assunto encontrará poucas novidades, mas talvez se encante, como eu, com o episódio persa.\n\nPerguntas:\nO que é \"Perguntas Antigas\"?\nÉ uma série televisiva em 8 episódios sobre a história de grandes descobertas científicas.\nComo a produção cuidou dos trajes?\nCada traje de época parece ter sido estudado em pinturas e documentos.\nQuem foi al-Sufi?\nFoi um astrônomo persa do século 10 que descreveu as estrelas e registrou a galáxia de Andrômeda.\nQual é a principal crítica do autor?\nA série às vezes mostra a ciência como obra de gênios solitários, como se cada descoberta fosse uma manchete.\nPor que a série tem credibilidade?\nPorque cada roteiro foi revisto por historiadores da ciência e as fontes estão no site do programa."
+    },
+    {
+      "title": "À espera da encomenda",
+      "summary": "A kidney-cancer researcher writes about waiting for imported supplies and weighs buying abroad against producing at home.",
+      "newWords": [
+        "rim",
+        "tumor",
+        "sangrar",
+        "encomendar",
+        "encomenda",
+        "importação",
+        "presidir"
+      ],
+      "text": "Sou médica e pesquisadora num hospital universitário e estudo tumores do rim. Todo mês, recebo perguntas de pacientes e de amigos sobre o meu trabalho, e uma delas me faz pensar há algum tempo: por que a pesquisa no Brasil parece andar tão devagar? Resolvi escrever sobre isso a partir de uma experiência recente.\n\nPrimeiro, um pouco sobre o assunto que estudo. Temos 2 rins, que filtram o sangue e eliminam o que o corpo não usa. É possível viver bem com um só rim, o que permite, em muitos casos, retirar o órgão doente. Muitos tumores do rim são descobertos por acaso, num exame feito por outro motivo. Quanto mais cedo um tumor é encontrado, maiores são as chances de cura.\n\nNo nosso laboratório, comparamos amostras de sangue de pacientes com e sem tumor, em busca de sinais que permitam um diagnóstico precoce. Os voluntários costumam perguntar se a coleta dói. Respondo que é uma picada rápida: o braço quase não chega a sangrar, e, se sangrar um pouco, basta apertar o algodão por um minuto.\n\nEm março, precisei encomendar um reagente essencial para o próximo experimento. Ele não é fabricado no país, e encomendar um produto desses exige formulários, licenças e paciência. A encomenda saiu dos Estados Unidos em abril e ficou parada mais de 2 meses na alfândega, à espera de uma autorização. Quando a encomenda finalmente chegou, parte do material já estava perto da data de validade. Tivemos de refazer o planejamento inteiro.\n\nCasos assim são comuns. A importação de equipamentos e reagentes é cara, lenta e sujeita à variação do dólar. Muitos colegas defendem que o país deveria produzir esses materiais, em vez de depender da importação. Concordo em parte. Produzir aqui criaria empregos e daria segurança aos laboratórios. No entanto, construir uma indústria desse tipo leva décadas, e, enquanto isso, as pesquisas não podem parar. Talvez o caminho mais realista seja combinar as duas coisas: simplificar a importação hoje e investir na produção nacional para amanhã.\n\nEste ano, fui escolhida para presidir o comitê de ética do hospital, que avalia todos os estudos com pacientes. Presidir esse comitê me mostrou o outro lado da demora: algumas etapas são lentas porque protegem as pessoas, e essas não devem ser eliminadas. O desafio é separar a lentidão que protege da lentidão que só atrapalha.\n\nEnquanto escrevo, espero mais uma encomenda. Chega, dizem, na semana que vem.\n\nPerguntas:\nO que a autora estuda?\nEla estuda tumores do rim.\nPor que é possível retirar um rim doente em muitos casos?\nPorque é possível viver bem com um só rim.\nA coleta de sangue faz o braço sangrar muito?\nNão. O braço quase não sangra, e basta apertar o algodão por um minuto.\nO que aconteceu com a encomenda de março?\nEla ficou parada mais de 2 meses na alfândega e chegou perto da data de validade.\nO que a autora aprendeu ao presidir o comitê de ética?\nAprendeu que algumas etapas são lentas porque protegem as pessoas e não devem ser eliminadas."
+    },
+    {
+      "title": "A feira de ciências",
+      "summary": "A teacher describes three projects at a school science fair: grape juice as an indicator, a river delta and a small waterfall that lights a lamp.",
+      "newWords": [
+        "uva",
+        "indicador",
+        "delta",
+        "cano",
+        "cachoeira",
+        "conversão",
+        "naval",
+        "tapa"
+      ],
+      "text": "Dou aulas de ciências numa escola pública há 12 anos, e a feira de ciências continua sendo o meu dia preferido. Neste ano, os alunos do oitavo ano apresentaram mais de 30 projetos. Quero contar alguns deles, porque mostram bem o que uma feira pode ensinar.\n\nO primeiro foi o da Júlia e do Mateus, que usaram suco de uva como indicador. O suco de uva roxa contém pigmentos que mudam de cor conforme o líquido é ácido ou não. Em copos com limão, o suco ficava mais vermelho; em copos com água e bicarbonato, ficava azulado ou esverdeado. Os visitantes traziam líquidos de casa, e os dois alunos tentavam adivinhar o resultado antes de misturar. Um indicador caseiro, feito de uva, explicou em 5 minutos o que eu às vezes levo uma aula inteira para explicar.\n\nO segundo projeto mostrava como se forma um delta. O Gabriel montou uma caixa com areia, um pouco inclinada, e ligou nela um cano fino, por onde corria a água de um balde. A água descia pelo cano, levava a areia e, ao chegar à parte mais baixa da caixa, onde a água ficava parada, perdia força e deixava a areia ali. Aos poucos, formava-se um leque de pequenos canais, igual ao de um delta de verdade. Ao lado, o Gabriel colou uma foto do Delta do Parnaíba, entre o Piauí e o Maranhão, para comparar.\n\nO terceiro foi uma cachoeira em miniatura. A Bruna construiu uma pequena cachoeira com garrafas e um cano de plástico; a água caía sobre uma roda ligada a um motor velho de brinquedo, que acendia uma pequena lâmpada. O cartaz explicava a conversão de energia: a energia do movimento da água vira energia elétrica, como nas grandes usinas. Quando a lâmpada acendeu pela primeira vez, a turma inteira aplaudiu. A conversão era pequena, mas a alegria foi enorme.\n\nHouve também um barco de lata feito pelo Pedro com a ajuda do tio, que é engenheiro naval. O projeto explicava por que um navio de aço não afunda. O tio, orgulhoso, contou aos visitantes que escolheu a engenharia naval depois de uma feira como aquela. No meio da explicação, o barco começou a afundar. O Pedro deu um tapa na testa, riu e descobriu o furo em segundos. O tio lhe deu um tapinha no ombro: \"Isso também é ciência\".\n\nNo fim do dia, os alunos estavam cansados e felizes. Eu também.\n\nPerguntas:\nComo o suco de uva funcionou como indicador?\nO suco mudava de cor: ficava mais vermelho com limão e azulado ou esverdeado com bicarbonato.\nPara que servia o cano no projeto do Gabriel?\nPor ele corria a água que levava a areia e formava o delta.\nO que a cachoeira da Bruna mostrava?\nMostrava a conversão da energia do movimento da água em energia elétrica.\nQual é a profissão do tio do Pedro?\nEle é engenheiro naval.\nO que o Pedro fez quando o barco começou a afundar?\nEle deu um tapa na testa, riu e descobriu o furo em segundos."
+    }
+  ]
+}
