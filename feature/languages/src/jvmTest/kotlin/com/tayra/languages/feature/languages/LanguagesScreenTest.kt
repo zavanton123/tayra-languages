@@ -63,12 +63,10 @@ class LanguagesScreenTest {
         onNodeWithTag("native-language").performClick()
         onAllNodesWithText("Russian").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.nativeLanguage == "ru" }
-        onNodeWithText("Learn German with Russian translations").assertExists()
 
         onNodeWithTag("interface-language").performClick()
         onAllNodesWithText("Русский").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.uiLanguage == "ru" }
         assertEquals("ru", settings.current.nativeLanguage)
-        onNodeWithText("App interface: Русский").assertExists()
     }
 }

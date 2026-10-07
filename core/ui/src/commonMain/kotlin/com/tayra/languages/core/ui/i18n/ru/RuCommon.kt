@@ -139,11 +139,6 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Interface language" to "Язык интерфейса",
     "Used for menus, buttons and messages." to "Для меню, кнопок и сообщений.",
     "Changes saved" to "Изменения сохранены",
-    "Learn {0} with {1} translations" to "Учите {0} с переводом на {1}",
-    "Meanings in {0}" to "Значения на {0} языке",
-    "with translations in" to "с переводом на",
-    "Your setup" to "Ваш выбор",
-    "App interface: {0}" to "Интерфейс: {0}",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
     "{0} · changes apply immediately" to "{0} · изменения применяются сразу",

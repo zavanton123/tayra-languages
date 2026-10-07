@@ -1,8 +1,6 @@
 package com.tayra.languages.feature.languages
 
 import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.i18n.LanguageCase
-import com.tayra.languages.core.ui.i18n.languageInSentence
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -27,16 +25,13 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.KeyboardArrowDown
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.VerticalDivider
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -71,7 +66,6 @@ import org.koin.compose.viewmodel.koinViewModel
 fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: LanguagesViewModel = koinViewModel()) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
     val learning = LocalLearningLanguage.current
-    val learningName = learning?.currentName
     val native = LanguageCatalog.nativeOption(settings.nativeLanguage)
     val ui = LanguageCatalog.interfaceOption(settings.uiLanguage)
     val compact = LocalWindowWidth.current.isCompact
@@ -147,8 +141,6 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                         uiTile(Modifier.fillMaxWidth())
                     }
                 }
-                HorizontalDivider(Modifier.padding(vertical = 24.dp), color = MaterialTheme.colorScheme.outlineVariant)
-                SetupSummary(learningName, native.name, ui.name, wide)
             }
             if (compact) SavedNote(changes)
         }
@@ -266,63 +258,3 @@ private fun <T> FlagPicker(
     }
 }
 
-/**
- * The three choices in one line: learning → native, in words, and the interface language.
- * [learning] and [native] are English names; [ui] is the interface language in its own name.
- */
-@Composable
-private fun SetupSummary(learning: String?, native: String, ui: String, wide: Boolean) {
-    val sentence = if (learning != null) {
-        tr("Learn {0} with {1} translations", languageInSentence(learning), languageInSentence(native))
-    } else {
-        tr("Meanings in {0}", languageInSentence(native, LanguageCase.PREPOSITIONAL))
-    }
-    val pair: @Composable () -> Unit = {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            if (learning != null) {
-                LanguageChip(learning, wide)
-                Icon(
-                    Icons.AutoMirrored.Filled.ArrowForward,
-                    contentDescription = tr("with translations in"),
-                    tint = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(horizontal = if (wide) 14.dp else 8.dp).size(22.dp),
-                )
-            }
-            LanguageChip(native, wide)
-        }
-    }
-    val note: @Composable (String) -> Unit = { Text(it, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-    if (wide) {
-        Row(Modifier.height(IntrinsicSize.Min), verticalAlignment = Alignment.CenterVertically) {
-            Text(tr("Your setup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-            Spacer(Modifier.width(40.dp))
-            pair()
-            VerticalDivider(Modifier.padding(horizontal = 32.dp).height(48.dp), color = MaterialTheme.colorScheme.outlineVariant)
-            note(sentence)
-            VerticalDivider(Modifier.padding(horizontal = 32.dp).height(48.dp), color = MaterialTheme.colorScheme.outlineVariant)
-            note(tr("App interface: {0}", ui))
-        }
-    } else {
-        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Text(tr("Your setup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-            pair()
-            note(sentence)
-            note(tr("App interface: {0}", ui))
-        }
-    }
-}
-
-/** A language by its English [name], shown in the interface language. */
-@Composable
-private fun LanguageChip(name: String, roomy: Boolean) {
-    Row(
-        Modifier.clip(RoundedCornerShape(50)).background(MaterialTheme.colorScheme.surfaceContainerLow)
-            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(50))
-            .padding(horizontal = if (roomy) 18.dp else 12.dp, vertical = 10.dp),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        LanguageFlag(name, 22.dp)
-        Spacer(Modifier.width(if (roomy) 12.dp else 8.dp))
-        Text(tr(name), style = MaterialTheme.typography.titleMedium, maxLines = 1, softWrap = false)
-    }
-}
