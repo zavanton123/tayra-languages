@@ -1,0 +1,218 @@
+{
+  "id": "de-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Öffentliche Gesundheit",
+  "description": "Informative texts, profiles and columns about public health: Robert Koch and tuberculosis, Semmelweis and handwashing, Hamburg's cholera of 1892, how the flu season is tracked, a school doctor's year, the seat-belt law, a community nurse, sleep, a handwashing song and how to read health news.",
+  "topic": "Public health",
+  "names": [
+    "Robert",
+    "Berlin",
+    "Europa",
+    "Wollstein",
+    "Posen",
+    "Emil",
+    "Behring",
+    "Ignaz",
+    "Semmelweis",
+    "Ungarn",
+    "Wien",
+    "Österreich",
+    "Jakob",
+    "Kolletschka",
+    "Hamburg",
+    "Hamburger",
+    "Altona",
+    "Preußen",
+    "Deutschland",
+    "Elbe",
+    "Kaltehofe",
+    "Katrin",
+    "Albers",
+    "Niedersachsen",
+    "Lina",
+    "Linas",
+    "Jonas",
+    "Westdeutschlands",
+    "Westdeutschland",
+    "John",
+    "Paul",
+    "Stapp",
+    "Volvo",
+    "Karlsruhe",
+    "Anke",
+    "Böhmer",
+    "Lindner",
+    "Lindners",
+    "Weinand",
+    "Pfalz",
+    "Kaiserswerth",
+    "Rhein",
+    "Elisabeth",
+    "Leipzig",
+    "Hoang",
+    "Kühn"
+  ],
+  "lessons": [
+    {
+      "title": "Ein winziger Zylinder",
+      "summary": "How Robert Koch went from country doctor to the discovery of the tuberculosis bacterium in 1882, and what followed.",
+      "newWords": [
+        "Feuchtigkeit",
+        "Hirte",
+        "erstmalig",
+        "Zylinder",
+        "nachsehen",
+        "Anstoß",
+        "fruchtbar",
+        "Lehrgang",
+        "hervorbringen",
+        "Preisträger"
+      ],
+      "text": "Im 19. Jahrhundert war die Tuberkulose eine der häufigsten Ursachen des Todes in Europa. Nach den Schätzungen der Zeit starb etwa jeder siebte Mensch an ihr. Besonders betroffen waren die Armen in den schnell wachsenden Städten. Sie lebten eng zusammen, in dunklen Wohnungen, in denen die Feuchtigkeit an den Wänden stand. Viele Ärzte glaubten, die Krankheit liege in der Familie oder entstehe aus schlechter Luft und Feuchtigkeit.\n\nRobert Koch arbeitete in den 1870er Jahren als Arzt auf dem Land, in Wollstein, einer kleinen Stadt in der damaligen Provinz Posen. Dort litten Bauern und Hirten unter dem Milzbrand, einer Krankheit, an der viele Schafe und Rinder starben. Die Hirten wussten nicht, wie sie ihre Tiere schützen sollten. Koch richtete sich neben seiner Praxis ein kleines Labor ein und konnte 1876 erstmalig zeigen, dass ein bestimmtes Bakterium eine bestimmte Krankheit auslöst. Dass ein solcher Zusammenhang erstmalig sauber bewiesen war, machte ihn unter Ärzten bekannt, und bald holte man ihn nach Berlin.\n\nDort suchte er nach dem Erreger der Tuberkulose, der viel schwerer zu finden war. Das Bakterium ist winzig und sieht aus wie ein Stäbchen, also wie ein sehr dünner Zylinder. Mit den üblichen Farben ließ sich dieser Zylinder kaum sichtbar machen. Koch probierte viele Wochen lang, bis die Stäbchen endlich blau leuchteten.\n\nAm Abend des 24. März 1882 stellte er seine Entdeckung in einem Saal in Berlin vor. Er hatte seine Geräte mitgebracht, und nach dem Vortrag durfte jeder selbst nachsehen. Viele Zuhörer blieben lange, um mit eigenen Augen nachzusehen, ob es stimmte. Koch hatte gezeigt, dass ein Bakterium die Krankheit verursacht und dass es von Mensch zu Mensch übertragen wird. Enge und Feuchtigkeit waren also nicht die Ursache, aber sie machten es dem Bakterium leicht.\n\nDer Vortrag gab den Anstoß zu einem neuen Blick auf die Krankheit. Wenn Menschen einen Erreger übertragen, kann man sich schützen: mit Licht und Luft in den Wohnungen, mit weniger Enge, mit eigenen Häusern für Kranke. Den Anstoß zu besseren Wohnungen hatten schon andere gegeben; Koch lieferte die Gründe.\n\nFür Koch selbst begann eine fruchtbare Zeit. Ärzte aus vielen Ländern kamen nach Berlin, um in einem Lehrgang zu lernen, wie man Bakterien färbt und züchtet. Aus jedem Lehrgang nahmen sie Methoden mit nach Hause, die bis heute im Labor gelten. Die Jahre waren so fruchtbar, dass sein Kreis eine ganze Reihe bedeutender Forscher hervorbrachte, darunter Emil von Behring. Kaum ein Labor der Zeit hat so viele große Namen hervorgebracht.\n\nAls 1901 zum ersten Mal der Nobelpreis für Medizin vergeben wurde, ging er an Behring. 1905 erhielt ihn Koch selbst; Koch folgte also seinem früheren Mitarbeiter in die Reihe der Preisträger, und unter den ersten Preisträgern standen gleich 2 Forscher aus demselben Kreis. Das Institut, das 1891 für Koch gegründet wurde, trägt heute seinen Namen: das Robert Koch-Institut.\n\nFragen:\nWarum war die Tuberkulose in den armen Vierteln so verbreitet?\nDie Menschen lebten eng zusammen in dunklen Wohnungen voller Feuchtigkeit.\nWas zeigte Koch 1876 in Wollstein erstmalig?\nEr zeigte erstmalig, dass ein bestimmtes Bakterium eine bestimmte Krankheit auslöst, nämlich den Milzbrand.\nWelche Form hat das Bakterium der Tuberkulose?\nEs sieht aus wie ein Stäbchen, also wie ein sehr dünner Zylinder.\nWas konnten die Zuhörer nach dem Vortrag im März 1882 tun?\nSie konnten selbst nachsehen, ob Koch den Erreger wirklich gefunden hatte.\nWarum kamen Ärzte aus vielen Ländern nach Berlin?\nSie wollten in einem Lehrgang lernen, wie man Bakterien färbt und züchtet.\nWer von beiden wurde zuerst Preisträger des Nobelpreises, Koch oder Behring?\nBehring erhielt den Preis 1901, Koch erst 1905."
+    },
+    {
+      "title": "Zwei Kliniken in Wien",
+      "summary": "Ignaz Semmelweis finds out why far more mothers fall ill in one of Vienna's two maternity clinics, and introduces handwashing.",
+      "newWords": [
+        "zuziehen",
+        "überein",
+        "versehentlich",
+        "Gewand",
+        "vornherein",
+        "aufrichtig",
+        "Kummer",
+        "Geständnis",
+        "Reflexion",
+        "Chirurgie"
+      ],
+      "text": "Im Jahr 1846 begann ein junger Arzt aus Ungarn seine Arbeit am Allgemeinen Krankenhaus in Wien. Er hieß Ignaz Semmelweis und arbeitete in der Abteilung für Geburten. Dort gab es 2 Kliniken. In der ersten arbeiteten Ärzte und Studenten, in der zweiten Hebammen und ihre Schülerinnen.\n\nEinen Unterschied aber kannten die Frauen in Wien genau: In der ersten Klinik starben viel mehr Mütter am Kindbettfieber, einer schweren Infektion nach der Geburt. In manchen Monaten traf es jede zehnte Frau. Viele Frauen baten unter Tränen, nicht in die erste Klinik zu kommen. Semmelweis nahm ihren Kummer ernst; bald war es auch sein eigener Kummer. Er wollte wissen, warum sich eine Mutter die Krankheit gerade dort so oft zuzog, während sie in der zweiten Klinik viel seltener war.\n\nEr prüfte eine Erklärung nach der anderen: die Luft, die Enge, die Lage der Betten. Keine stimmte mit seinen Zahlen überein. 1847 verletzte ein Student seinen Freund, den Professor Jakob Kolletschka, versehentlich mit dem Messer, als dieser einen Verstorbenen untersuchte. Kolletschka wurde schwer krank und starb, und seine Krankheit glich dem Kindbettfieber sehr.\n\nFür Semmelweis war das der entscheidende Hinweis. Ärzte und Studenten kamen oft direkt aus dem Saal, in dem Verstorbene untersucht wurden, zu den Frauen. Weiße Kittel trug man damals nicht; die Ärzte arbeiteten in ihrem gewöhnlichen Gewand. In Österreich heißt Kleidung bis heute oft so. An den Händen und am Gewand, so vermutete Semmelweis, trugen die Ärzte unsichtbare Stoffe aus dem Saal zu den Müttern, ohne Absicht, so wie man versehentlich Sand ins Haus trägt. Die Hebammen dagegen hatten mit diesem Saal nichts zu tun.\n\nIm Mai 1847 führte er eine einfache Regel ein: Wer zu den Frauen ging, musste sich vorher die Hände in einer Lösung mit Chlor waschen. Schon nach wenigen Monaten war die Zahl der Frauen, die sich die Krankheit zugezogen hatten, stark gesunken. Sie stimmte nun fast mit der Zahl in der zweiten Klinik überein.\n\nDoch viele Kollegen lehnten seine Idee von vornherein ab. Von Bakterien wusste man noch nichts, und der Gedanke, dass Ärzte selbst Krankheit bringen könnten, war schwer zu ertragen. Wer eine Idee von vornherein ablehnt, prüft sie nicht. Semmelweis war aufrichtig, aber kein Diplomat; er schrieb scharfe Briefe, die ihm wenige Freunde machten. 1850 verließ er Wien und kehrte nach Ungarn zurück.\n\nBemerkenswert ist ein Geständnis in seinem Buch, das 1861 erschien. Darin schrieb er sinngemäß, dass auch er selbst, ohne es zu wissen, die Krankheit zu vielen Frauen getragen habe. Ein solches Geständnis verlangt Mut. Es ist eine aufrichtige Reflexion über die Verantwortung des Arztes, und diese Reflexion beginnt bei den eigenen Händen.\n\nEinige Jahre später begann man in der Chirurgie, Wunden und Instrumente regelmäßig zu reinigen. In der Chirurgie ist das Waschen der Hände seitdem selbstverständlich, und es gilt bis heute als eine der einfachsten Regeln der öffentlichen Gesundheit.\n\nFragen:\nWorin unterschieden sich die beiden Kliniken?\nIn der ersten arbeiteten Ärzte und Studenten, in der zweiten Hebammen und ihre Schülerinnen.\nWarum wollten viele Frauen nicht in die erste Klinik?\nDort zogen sich viel mehr Mütter das Kindbettfieber zu.\nWelche Regel führte Semmelweis im Mai 1847 ein?\nWer zu den Frauen ging, musste sich vorher die Hände in einer Lösung mit Chlor waschen.\nWarum lehnten viele Kollegen seine Idee von vornherein ab?\nMan wusste noch nichts von Bakterien, und der Gedanke war schwer zu ertragen, dass Ärzte selbst Krankheit bringen.\nWas gesteht Semmelweis in seinem Buch?\nEr gesteht, dass auch er die Krankheit, ohne es zu wissen, zu vielen Frauen getragen hatte."
+    },
+    {
+      "title": "Wasser aus der Elbe",
+      "summary": "Why the cholera of 1892 struck Hamburg so hard while neighbouring Altona, with its filtered water, was largely spared.",
+      "newWords": [
+        "Einkunft",
+        "formell",
+        "hindurch",
+        "Schauplatz",
+        "Transaktion",
+        "aufrechterhalten",
+        "zusammenbrechen",
+        "dastehen",
+        "karren",
+        "Gaststätte"
+      ],
+      "text": "Im Sommer 1892 war Hamburg eine der reichsten Städte des Deutschen Reiches. Der Hafen war voller Schiffe, Kaufleute machten Geschäfte mit der ganzen Welt, und die Einkünfte der Stadt wuchsen von Jahr zu Jahr. Formell war Hamburg ein eigener Staat innerhalb des Reiches, mit eigenem Senat. Direkt daneben lag Altona, das formell zu Preußen gehörte. Die Grenze zwischen beiden lief mitten durch Straßen; im Alltag merkten die Menschen kaum, auf welcher Seite sie wohnten.\n\nBeide Städte nahmen ihr Wasser aus der Elbe. Hamburg leitete es fast ungefiltert in die Häuser. Altona dagegen hatte seit Jahrzehnten eine Anlage, in der das Wasser vor dem Trinken gereinigt wurde. Dort floss es langsam durch dicke Schichten aus Sand hindurch, und der Sand hielt den größten Teil der Erreger zurück. Auch Hamburg hatte Pläne für eine solche Anlage, aber sie waren teuer und wurden immer wieder verschoben.\n\nIm August 1892 wurde Hamburg zum Schauplatz der letzten großen Cholera in Deutschland. Als die ersten Fälle bekannt wurden, zögerte man, sie öffentlich zu machen. Viele Kaufleute fürchteten um ihre Transaktionen mit dem Ausland, denn einen Hafen mit einer Seuche meiden die Schiffe, und jede Transaktion stockt. Man wollte den Handel so lange wie möglich aufrechterhalten. Doch die Krankheit breitete sich schnell aus. In wenigen Wochen erkrankten rund 17 000 Menschen, etwa 8600 von ihnen starben. Die Krankenhäuser waren voll, Schulen wurden geschlossen, und das öffentliche Leben schien zusammenzubrechen. Auch der Handel, den man hatte schützen wollen, war bald zusammengebrochen, und die Einkünfte vieler Firmen fehlten für Monate.\n\nEnde August kam Robert Koch aus Berlin. An der Grenze fand er ein deutliches Bild: Auf der Hamburger Seite einer Straße gab es viele Kranke, auf der anderen Seite, in Altona, kaum welche, obwohl die Menschen dort dieselbe Luft atmeten. Die Straße wurde so zum Schauplatz eines Vergleichs, den kein Labor besser hätte planen können. Der Unterschied lag im Wasser. Dass die reiche Stadt so schlecht dastand, hatte also auch mit den gesparten Kosten zu tun.\n\nNun handelte Hamburg entschlossen. Wagen mit großen Fässern voll gekochtem Wasser fuhren durch die Viertel; das saubere Wasser wurde bis in die engsten Gassen gekarrt, wo die Menschen keine andere Quelle hatten. Bald begannen Helfer, auch Decken und Seife zu den Familien zu karren. Die Wirte der Gaststätten durften nur noch gekochtes Wasser ausgeben, und manche Gaststätte hängte ein Schild ins Fenster, damit die Gäste das wussten. Den ganzen Herbst hindurch arbeiteten Ärzte und Freiwillige bis spät in die Nacht.\n\nIm Mai 1893 ging auf der Elbinsel Kaltehofe endlich eine große Anlage in Betrieb, die das Wasser durch Sand filterte. Nie wieder wollte die Stadt so dastehen wie im Sommer 1892. Die Versorgung mit sauberem Wasser wollte man von nun an um jeden Preis aufrechterhalten. Die alte Anlage ist heute ein Museum, und ihre Lehre gilt weltweit: Sauberes Wasser schützt die Gesundheit vieler Menschen auf einmal.\n\nFragen:\nZu welchem Staat gehörte Altona im Jahr 1892?\nAltona gehörte formell zu Preußen.\nWie wurde das Wasser in Altona gereinigt?\nEs floss langsam durch dicke Schichten aus Sand hindurch.\nWarum zögerte man, die ersten Fälle öffentlich zu machen?\nDie Kaufleute fürchteten um ihre Transaktionen und wollten den Handel aufrechterhalten.\nWas fand Robert Koch an der Grenze?\nAuf der Hamburger Seite einer Straße gab es viele Kranke, in Altona kaum welche.\nWie kam sauberes Wasser zu den Menschen?\nDas Wasser wurde in Fässern bis in die engsten Gassen gekarrt.\nWas ging im Mai 1893 in Betrieb?\nAuf der Elbinsel Kaltehofe ging eine große Anlage in Betrieb, die das Wasser durch Sand filterte."
+    },
+    {
+      "title": "Perlen an einer Schnur",
+      "summary": "How the Robert Koch Institute follows a flu season week by week, from doctors' practices, laboratories and volunteers.",
+      "newWords": [
+        "absehen",
+        "vorsehen",
+        "Schnittstelle",
+        "statisch",
+        "Schnur",
+        "Konstellation",
+        "überdurchschnittlich",
+        "Nahverkehr",
+        "viermal"
+      ],
+      "text": "In jedem Herbst stellt sich in Deutschland dieselbe Frage: Wann kommt die Grippe, und wie stark wird sie? Für das Robert Koch-Institut in Berlin beginnt die Saison in der 40. Kalenderwoche, also Anfang Oktober. Wie stark sie wird, ist zu diesem Zeitpunkt kaum abzusehen. Niemand kann das Ende einer Saison an ihrem Anfang absehen. Man kann sie nur genau beobachten.\n\nDafür gibt es mehrere Quellen. Die erste sind mehrere hundert Praxen im ganzen Land, die freiwillig mitmachen. Sie melden jede Woche, wie viele Menschen mit Husten, Fieber oder Schmerzen im Hals zu ihnen gekommen sind. Von einem Teil dieser Kranken schicken sie Proben an ein Labor, das untersucht, welche Viren gerade unterwegs sind.\n\nDie zweite Quelle sind die Labore. Wenn sie bei einem Kranken die Grippe nachweisen, müssen sie den Fall melden, wie es das Gesetz zum Schutz vor Infektionen vorsieht. Was das Gesetz außerdem vorsieht, ist der Weg einer Meldung: vom Labor zum örtlichen Amt und von dort zum Institut. Früher kamen viele Meldungen per Fax. Heute laufen sie meist elektronisch über eine Schnittstelle, die Labore, Ämter und Institut verbindet. Eine gute Schnittstelle spart Tage, denn eine Meldung, die auf einem Tisch liegen bleibt, hilft niemandem.\n\nDie dritte Quelle sind die Bürger selbst. Auf einer Website können Freiwillige jede Woche angeben, ob sie sich krank fühlen, auch wenn sie nicht zum Arzt gehen. So erfährt man etwas über die vielen leichten Fälle, die sonst in keiner Statistik auftauchen. Ein Erwachsener hat im Durchschnitt bis zu viermal im Jahr eine Erkältung, kleine Kinder oft mehr als viermal.\n\nAus all dem entsteht jede Woche ein Bericht. Wichtig ist dabei: Die Zahlen sind nicht statisch. Eine Kurve, die heute flach aussieht, kann in 2 Wochen steil steigen. Ein statisches Bild wäre wie ein Foto, eine Saison aber ist eher ein Film. Die Wochen reihen sich aneinander wie Perlen an einer Schnur, und erst wenn man die ganze Schnur betrachtet, erkennt man die Form der Welle.\n\nWelche Viren unterwegs sind, ist jedes Jahr anders. Manchmal kommt eine ungünstige Konstellation zusammen: ein Virus, gegen das viele Menschen wenig geschützt sind, ein kalter Winter und volle Räume. In einer solchen Konstellation steigen die Zahlen früh und schnell. In manchen Jahren erkranken überdurchschnittlich viele Kinder, in anderen trifft es überdurchschnittlich oft ältere Menschen.\n\nWo steckt man sich an? Überall dort, wo viele Menschen eng zusammen sind: in Schulen, in Büros, in Bussen und Bahnen des Nahverkehrs. Im Nahverkehr sitzt man im Winter dicht an dicht, oft mit geschlossenen Fenstern.\n\nLäuft dabei immer alles wie am Schnürchen, also ohne jede Störung? Nicht ganz. Über die Feiertage melden manche Praxen weniger, und die Kurve sinkt scheinbar, obwohl nur weniger gezählt wurde. Deshalb lesen die Fachleute ihre Zahlen mit Vorsicht. Am Ende einer Saison, meist im Frühling, lässt sich dann sagen, wie stark sie wirklich war.\n\nFragen:\nWann beginnt für das Robert Koch-Institut die Saison?\nSie beginnt in der 40. Kalenderwoche, also Anfang Oktober.\nWas melden die Praxen jede Woche?\nSie melden, wie viele Menschen mit Husten, Fieber oder Schmerzen im Hals zu ihnen gekommen sind.\nWozu dient die Schnittstelle?\nÜber sie laufen die Meldungen elektronisch zwischen Laboren, Ämtern und Institut.\nWarum sind die Zahlen nicht statisch?\nEine Kurve, die heute flach aussieht, kann in 2 Wochen steil steigen.\nWas ist eine ungünstige Konstellation?\nEin Virus, gegen das viele wenig geschützt sind, ein kalter Winter und volle Räume kommen zusammen.\nWarum steckt man sich im Nahverkehr leicht an?\nIm Winter sitzt man dort dicht an dicht, oft mit geschlossenen Fenstern."
+    },
+    {
+      "title": "Das Jahr einer Schulärztin",
+      "summary": "A school doctor's year in a district of Lower Saxony: examinations before school starts, a new pair of glasses, and swimming in the summer.",
+      "newWords": [
+        "kognitiv",
+        "kraus",
+        "Spielerin",
+        "neidisch",
+        "schmunzeln",
+        "aufgesetzt",
+        "ausstellen",
+        "Freibad",
+        "Olympiasieger"
+      ],
+      "text": "Katrin Albers ist Ärztin, aber eine eigene Praxis hat sie nicht. Sie arbeitet für das Amt für Gesundheit eines Landkreises in Niedersachsen, und ihr Arbeitsplatz sind vor allem die Schulen. Ihr Jahr folgt dem Kalender der Schule, und es beginnt im Herbst.\n\nVon Oktober bis zum Frühling sieht sie jedes Kind, das im nächsten Sommer in die erste Klasse kommt. Die Untersuchung ist in Niedersachsen Pflicht und dauert etwa eine Stunde. Frau Albers prüft, wie gut ein Kind sieht und hört, wie sicher es auf einem Bein steht und wie es spricht. Dazu kommen kleine Aufgaben zur kognitiven Entwicklung: Formen erkennen, bis 10 zählen, einen Menschen malen. „Kognitiv“ klingt streng, sagt sie, aber für die Kinder ist es ein Spiel. Es geht nicht um Noten, sondern darum, ob ein Kind Hilfe braucht, bevor die Schule beginnt.\n\nAn einem Dienstag im November kommt Lina, ein Mädchen mit krausen Haaren und einem Trikot ihres Vereins. Sie erzählt sofort, dass sie Fußball spielt. „Ich bin die beste Spielerin in meiner Mannschaft“, sagt sie. Ihr kleiner Bruder ist mitgekommen und schaut neidisch zu, wie Lina auf einem Bein hüpft und ihre Aufgaben löst. Er ist neidisch, weil er auch untersucht werden möchte. Frau Albers muss schmunzeln. Sie lässt ihn einmal auf die Waage steigen, und er strahlt. Lina schüttelt ihre krausen Locken und malt einen Menschen mit Fußballschuhen. Auch die kognitiven Aufgaben löst die beste Spielerin ihrer Mannschaft ohne Mühe.\n\nNicht jedes Kind hat so einen leichten Tag. Bei Jonas merkt Frau Albers, dass er die Bilder an der Wand für den Test der Augen kaum erkennt. Sie schreibt den Eltern, dass sie mit ihm zum Augenarzt gehen sollen. Im Februar besucht sie seine Kita noch einmal. Jonas hat stolz die neue Brille aufgesetzt und erkennt jetzt jedes Bild an der Wand. Sein Lächeln ist nicht aufgesetzt, es ist echt.\n\nIm Frühling wird es ruhiger, und Frau Albers verbringt mehr Zeit am Schreibtisch. Sie muss Gutachten ausstellen, etwa wenn ein Kind wegen einer Krankheit länger fehlen wird oder in der Schule besondere Hilfe braucht. Ein solches Gutachten auszustellen dauert oft länger als die Untersuchung selbst, weil es gut begründet sein muss. Außerdem berät sie Lehrerinnen, die Fragen zu Allergien oder Läusen haben.\n\nIm Sommer beschäftigt sie ein anderes Thema. Viele Kinder können am Ende der Grundschule nicht sicher schwimmen. Deshalb organisiert sie zusammen mit dem Freibad der Kreisstadt Kurse für die dritten Klassen. Am ersten Tag stehen 20 Kinder am Rand des Beckens. Ein Junge fragt, ob man in diesem Freibad Olympiasieger werden kann. Frau Albers schmunzelt. „Vielleicht“, sagt sie. „Aber jeder Olympiasieger hat einmal mit dem ersten Zug im Wasser angefangen.“\n\nFragen:\nFür wen arbeitet Katrin Albers?\nSie arbeitet für das Amt für Gesundheit eines Landkreises in Niedersachsen.\nWas prüft sie bei der Untersuchung vor der ersten Klasse?\nSie prüft das Sehen, das Hören, das Gleichgewicht, das Sprechen und die kognitive Entwicklung.\nWarum ist Linas Bruder neidisch?\nEr möchte auch untersucht werden.\nWas hat Jonas im Februar aufgesetzt?\nEr hat stolz seine neue Brille aufgesetzt.\nWarum dauert es lange, ein Gutachten auszustellen?\nEs muss gut begründet sein, und das braucht Zeit.\nWas organisiert Frau Albers im Sommer mit dem Freibad?\nSie organisiert Kurse im Schwimmen für die dritten Klassen."
+    },
+    {
+      "title": "Der Gurt und die Freiheit",
+      "summary": "The history of the seat-belt law in West Germany: the research behind the belt, the debates of the 1970s, the fines of 1984 and what remains to be done.",
+      "newWords": [
+        "Luftwaffe",
+        "Crash",
+        "Blech",
+        "Palme",
+        "Stammtisch",
+        "gefälligst",
+        "rechtswidrig",
+        "Einspruch",
+        "Gleichberechtigung"
+      ],
+      "text": "Heute legt fast jeder im Auto den Gurt an, ohne darüber nachzudenken. Doch die Pflicht dazu war in Deutschland lange heftig umstritten.\n\nDie Geschichte beginnt in der Forschung. In den 1940er und 1950er Jahren untersuchte John Paul Stapp, ein Arzt der amerikanischen Luftwaffe, wie viel Bremskraft ein Mensch aushält. Seine Versuche für die Luftwaffe zeigten: Ein gut gehaltener Körper übersteht erstaunlich starke Kräfte. 1959 brachte der schwedische Hersteller Volvo den Gurt mit 3 Punkten auf den Markt, wie wir ihn heute kennen. Die Firma gab ihre Idee frei, sodass alle Hersteller sie nutzen konnten.\n\nWas bei einem Crash geschieht, lässt sich einfach erklären. Das Auto bleibt in einem Augenblick stehen, der Mensch darin bewegt sich weiter. Das Blech vorn am Wagen gibt nach und nimmt einen Teil der Kraft auf. Der Gurt hält den Körper fest, sodass auch er nicht plötzlich, sondern etwas langsamer gebremst wird. Ohne Gurt hilft auch das beste Blech wenig. In Versuchen mit Puppen lässt sich jeder Crash genau messen.\n\nTrotzdem trug um 1970 kaum jemand einen Gurt. Im Jahr 1970 starben auf den Straßen Westdeutschlands mehr als 19 000 Menschen. Am 1. Januar 1976 trat deshalb eine neue Regel in Kraft: Wer vorn im Auto sitzt, muss den Gurt anlegen. Die neue Pflicht brachte viele Menschen auf die Palme. Am Stammtisch wurde laut gestritten, und an manchem Stammtisch hieß es, der Staat solle sich gefälligst aus dem eigenen Auto heraushalten. Auch in den Zeitungen war das Thema groß, und in Briefen an die Redaktion stand, die Politik solle sich gefälligst um wichtigere Dinge kümmern. Ein Kommentator nannte den Gurt eine Fessel, ein anderer nannte ihn ein Geschenk.\n\nZunächst kostete es nichts, den Gurt zu vergessen, und viele vergaßen ihn. Im August 1984 wurde deshalb ein Bußgeld eingeführt. Auch das brachte manche auf die Palme, doch der Anteil der Angeschnallten stieg bald auf über 90 Prozent. Einige hielten die Strafe für rechtswidrig, weil der Staat damit in ihre Freiheit eingreife. Sie legten Einspruch gegen ihr Bußgeld ein, und ein solcher Einspruch landete schließlich in Karlsruhe beim Bundesverfassungsgericht. Die Richter entschieden noch in den 1980er Jahren, die Pflicht sei nicht rechtswidrig, denn ein Unfall treffe nicht nur den Fahrer selbst, sondern auch Helfer, Familien und die Allgemeinheit.\n\nHeute sterben in Deutschland jedes Jahr etwa 3000 Menschen im Verkehr, obwohl viel mehr Autos fahren als 1970. Der Gurt ist nicht der einzige Grund, aber ein wichtiger.\n\nGanz fertig ist die Geschichte nicht. Lange wurden die Puppen in Versuchen nach dem Körper eines durchschnittlichen Mannes gebaut. Frauen sind im Durchschnitt kleiner und leichter, und sie sitzen anders im Auto. Erst seit einigen Jahren gibt es auch Puppen, die dem Körper einer Frau entsprechen. Viele sehen darin eine Frage der Gleichberechtigung: Sicherheit soll für alle gleich gut gemessen werden. Auch beim Gurt geht es also um Gleichberechtigung.\n\nFragen:\nWas untersuchte John Paul Stapp für die Luftwaffe?\nEr untersuchte, wie viel Bremskraft ein Mensch aushält.\nWelche Aufgabe hat das Blech bei einem Crash?\nEs gibt nach und nimmt einen Teil der Kraft auf.\nWas trat am 1. Januar 1976 in Kraft?\nWer vorn im Auto sitzt, muss seitdem den Gurt anlegen.\nWas sagte man an manchem Stammtisch?\nMan sagte, der Staat solle sich gefälligst aus dem eigenen Auto heraushalten.\nWie entschied das Bundesverfassungsgericht über die Pflicht?\nEs entschied, die Pflicht sei nicht rechtswidrig, weil ein Unfall auch andere Menschen trifft.\nWarum ist der Gurt auch eine Frage der Gleichberechtigung?\nDie Puppen wurden lange nach dem Körper eines Mannes gebaut, doch Sicherheit soll für alle gleich gut gemessen werden."
+    },
+    {
+      "title": "Unterwegs mit der Gemeindeschwester",
+      "summary": "A profile of a community health nurse in the Palatinate who visits people over 80 at home, and of the history of her profession.",
+      "newWords": [
+        "Selbstständigkeit",
+        "protestantisch",
+        "Patron",
+        "Telefonat",
+        "lenz",
+        "Kamin",
+        "Mikrowelle",
+        "Blutdruck",
+        "Pascal",
+        "Residenz"
+      ],
+      "text": "Der Tag von Anke Böhmer beginnt mit einem Telefonat. Frau Lindner, eine alte Dame aus dem Nachbardorf, möchte den Termin am Nachmittag bestätigen. Das Telefonat dauert 2 Minuten, dann steigt Anke Böhmer in ihr kleines Auto. Sie ist Gemeindeschwester in einem Landkreis in der Pfalz, und ihre Aufgabe klingt einfach: Sie besucht Menschen über 80, die noch allein zu Hause leben und keine Pflege brauchen.\n\nDer Beruf hat eine lange Geschichte. Im 19. Jahrhundert schickten protestantische Häuser wie das in Kaiserswerth am Rhein ausgebildete Schwestern in die Dörfer, um Kranke und Arme zu versorgen. Große Teile der Pfalz sind traditionell protestantisch, und auch hier gab es in fast jedem Dorf eine solche Schwester. In katholischen Gegenden kamen die Schwestern oft aus Orden, die einen Heiligen als Patron oder eine Heilige als Patronin hatten, etwa die heilige Elisabeth, die bis heute als Patronin der Kranken gilt. In den 1970er Jahren verschwand die Gemeindeschwester in Westdeutschland fast überall. Seit einigen Jahren gibt es sie in mehreren Bundesländern wieder, in neuer Form.\n\nAm Vormittag besucht Anke Böhmer Herrn Weinand. Er zählt 86 Lenze, wie er selbst gern sagt; „Lenz“ ist ein altes Wort der Dichter für den Frühling. Früher war er Lehrer für Physik. Sie sprechen über seine Medikamente und darüber, dass er seinen Blutdruck regelmäßig beim Hausarzt messen lassen soll. Herr Weinand schmunzelt. „Druck misst man eigentlich in Pascal“, erklärt er, „nur beim Blutdruck nehmen die Ärzte noch die alte Einheit.“ Anke Böhmer lacht. Das mit dem Pascal hat er ihr schon dreimal erklärt, und sie hört es jedes Mal gern.\n\nSie pflegt nicht; ihr Ziel ist, die Selbstständigkeit der alten Menschen zu erhalten. Sie fragt, ob die Treppe sicher ist, ob jemand beim Einkaufen hilft und ob der Mensch noch Kontakt zu anderen hat. Oft geht es um kleine Dinge. Für Herrn Weinand hat sie einen Dienst gefunden, der jeden Tag Essen bringt; er macht es sich in der Mikrowelle warm. Die Mikrowelle hat ihm sein Enkel gezeigt. Solche Hilfen schützen seine Selbstständigkeit, ohne ihm etwas abzunehmen, das er noch selbst kann.\n\nAm Nachmittag sitzt sie bei Frau Lindner im Wohnzimmer. Im Kamin brennt ein kleines Feuer, obwohl es erst Oktober ist. Frau Lindner zählt 91 Lenze und lebt seit dem Tod ihres Mannes allein. Ihre Tochter möchte, dass sie in eine Residenz für Senioren in der Stadt zieht. Frau Lindner möchte bleiben, hier bei ihrem Kamin, ihren Nachbarn und ihrem Garten. Anke Böhmer hört zu, erklärt, welche Hilfen es gibt, und verspricht, die Residenz und die Hilfen zu Hause mit der Tochter in Ruhe zu vergleichen.\n\nAm Abend schreibt sie ihre Notizen. 6 Besuche, 3 Telefonate, ein Rollator, ein Platz in einer Gruppe für Senioren. Große Taten sind das nicht. Aber für viele alte Menschen entscheiden genau solche kleinen Dinge darüber, wie lange sie gut zu Hause leben können.\n\nFragen:\nWomit beginnt der Tag von Anke Böhmer?\nEr beginnt mit einem Telefonat mit Frau Lindner.\nWoher kamen die ersten Gemeindeschwestern in protestantischen Gegenden?\nSie kamen aus protestantischen Häusern wie dem in Kaiserswerth am Rhein.\nWer gilt als Patronin der Kranken?\nDie heilige Elisabeth gilt bis heute als Patronin der Kranken.\nWas erklärt Herr Weinand über den Druck?\nEr erklärt, dass man Druck eigentlich in Pascal misst und dass die Ärzte beim Blutdruck eine alte Einheit nehmen.\nWas ist das Ziel der Gemeindeschwester?\nIhr Ziel ist, die Selbstständigkeit der alten Menschen zu erhalten.\nWas möchte Frau Lindners Tochter?\nSie möchte, dass ihre Mutter in eine Residenz für Senioren in der Stadt zieht."
+    },
+    {
+      "title": "Lob des Schlafs",
+      "summary": "A columnist reflects on sleep as a public-health topic: how much adults sleep, what keeps them awake, and why rest is not a luxury.",
+      "newWords": [
+        "selig",
+        "Matratze",
+        "Streaming",
+        "ausruhen",
+        "Sessel",
+        "lauschen",
+        "Mücke",
+        "Laub",
+        "Karma"
+      ],
+      "text": "Ich beginne mit einem Bekenntnis: Ich gehöre zu den Menschen, die abends noch eine Folge schauen wollen und am Ende 3 Folgen gesehen haben. Streaming hat das sehr leicht gemacht. Keine Sendung endet mehr um 23 Uhr, die nächste Folge beginnt von selbst, und der Schlaf wartet geduldig, bis man ihn endlich ruft. Wer Streaming am Abend kennt, kennt auch den Morgen danach.\n\nSchlaf klingt nach einer privaten Sache. Tatsächlich aber ist er längst ein Thema der öffentlichen Gesundheit. Fachleute empfehlen Erwachsenen meist 7 bis 9 Stunden pro Nacht. Umfragen zeigen jedoch, dass ein großer Teil der Menschen in Deutschland regelmäßig weniger schläft oder schlecht schläft. Wer über Jahre zu wenig schläft, ist nicht nur müde. Er macht mehr Fehler, ist häufiger krank und reagiert langsamer, auch am Steuer.\n\nDie Gründe sind vielfältig. Manche arbeiten nachts, im Krankenhaus, bei der Bahn, in der Fabrik. Andere tragen Sorgen ins Bett, die sich nicht abschalten lassen. Und viele von uns halten das Telefon bis zur letzten Minute in der Hand.\n\nMeine Großmutter hätte über all das gelacht. Sie hatte eine einfache Regel: Wer müde ist, soll sich ausruhen, und zwar nicht im Sessel vor dem Fernseher, sondern im Bett. Im Sessel einzuschlafen hielt sie für den schlechtesten aller Kompromisse. Man schläft im Sessel nicht richtig und ist hinterher trotzdem nicht mehr wach genug für das Bett.\n\nInzwischen weiß ich, dass sie recht hatte. Ein Schlafzimmer sollte dunkel, ruhig und eher kühl sein. Eine gute Matratze hilft, auch wenn die teuerste Matratze nicht automatisch die beste ist. Wichtiger als jede Matratze ist ein fester Rhythmus: jeden Tag etwa zur gleichen Zeit schlafen gehen und aufstehen.\n\nIm Sommer kommen andere Feinde hinzu. Es ist warm, das Fenster steht offen, und irgendwann summt eine Mücke über dem Kissen. Eine einzige Mücke kann eine ganze Nacht verderben. Im Herbst dagegen liebe ich die Nächte mit offenem Fenster. Ich liege im Dunkeln und lausche dem Wind, der durch das Laub im Garten geht. Wer dem Laub eine Weile lauscht, merkt, wie die Gedanken langsamer werden.\n\nUnsere Katze kennt keine dieser Sorgen. Sie schläft selig auf der Decke, 16 Stunden am Tag, und sieht dabei aus, als hätte sie die Welt verstanden. Ein Kollege sagt halb im Scherz, ein Mittagsschlaf sei gut für das Karma. Ich glaube nicht an Karma, aber ich glaube an meine Katze.\n\nSchlaf ist kein Luxus, den man sich verdienen muss. Man sollte sich ausruhen dürfen, ohne ein schlechtes Gewissen zu haben. Seit einigen Wochen stelle ich mir einen Wecker, nicht zum Aufstehen, sondern zum Schlafengehen. Er klingelt um 22 Uhr. Meistens schlafe ich bald darauf selig ein.\n\nFragen:\nWarum schaut die Autorin abends oft mehr Folgen als geplant?\nBeim Streaming beginnt die nächste Folge von selbst.\nWie viele Stunden Schlaf empfehlen Fachleute Erwachsenen?\nSie empfehlen meist 7 bis 9 Stunden pro Nacht.\nWas hielt die Großmutter vom Schlaf im Sessel?\nSie hielt ihn für den schlechtesten aller Kompromisse.\nWas kann im Sommer eine Nacht verderben?\nEine einzige Mücke über dem Kissen kann eine ganze Nacht verderben.\nWem lauscht die Autorin im Herbst?\nSie lauscht dem Wind, der durch das Laub im Garten geht.\nWozu stellt sie sich seit einigen Wochen einen Wecker?\nSie stellt ihn sich zum Schlafengehen, nicht zum Aufstehen."
+    },
+    {
+      "title": "Dreißig Sekunden in Dur",
+      "summary": "A primary-school class in Leipzig writes its own song for washing hands, learns it by heart and wins a prize.",
+      "newWords": [
+        "Lyrik",
+        "Poesie",
+        "Hymne",
+        "Dur",
+        "kreieren",
+        "auswendig",
+        "ausgelassen",
+        "alias"
+      ],
+      "text": "Im Winter waren in der Klasse 2b einer Grundschule in Leipzig viele Kinder krank, manchmal fehlte ein Drittel der Klasse. Die Klassenlehrerin, Frau Hoang, sprach mit den Kindern über das Waschen der Hände. Sie erklärte, dass man die Hände mit Seife etwa 20 bis 30 Sekunden waschen soll. „Wie lange sind 30 Sekunden?“, fragte ein Junge. Niemand wusste es genau.\n\nDa hatte Frau Hoang eine Idee. Die Klasse sollte ein eigenes Lied kreieren, das genau so lange dauert, wie man zum Waschen braucht. Das Wort „kreieren“ kannten die Kinder nicht. „Kreieren heißt, etwas Neues erfinden“, sagte Frau Hoang. „Wir erfinden unser eigenes Lied.“\n\nZuerst ging es um den Text. Frau Hoang erzählte, dass man Gedichte auch Lyrik nennt. In der Lyrik zählen Klang, Reim und Rhythmus. Die Kinder sammelten Wörter, die sich reimen: Schaum und Baum, Hand und Rand, Wasser und nasser. Ein Mädchen sagte: „Das ist ja Poesie!“ Frau Hoang lächelte. Poesie, erklärte sie, ist ein altes Wort für Dichtung, aber man sagt es auch, wenn etwas besonders schön klingt. Und ein bisschen Poesie passt sogar zu Seife.\n\nNach einer Woche stand der Text: 4 kurze Strophen über die Handflächen, den Rücken der Hand, die Finger und die Daumen. Dann kam die Musik. Der Musiklehrer, Herr Kühn, spielte den Kindern 2 Melodien vor, eine in Moll und eine in Dur. Die in Moll klang traurig, und die Kinder schüttelten die Köpfe. Die Melodie in Dur klang hell und fröhlich. „Dur!“, riefen alle. So stand das Lied am Ende in Dur.\n\nDie Kinder lernten das Lied auswendig. Nach 2 Wochen konnte es die ganze Klasse auswendig, auch die Kinder, die sonst nicht gern singen. Vor jedem Essen stellten sie sich am Waschbecken an und sangen. Es wurde nun lauter in der Schule, aber die Hände wurden sauberer. Die Hausmeisterin meinte, das Lied sei inzwischen die heimliche Hymne der Schule. Bald sangen es auch andere Klassen, und es wurde wirklich zu einer kleinen Hymne.\n\nIm Frühling schickte Frau Hoang das Lied zu einem Wettbewerb der Stadt über Gesundheit in der Schule. Unter das Lied schrieben die Kinder: „Text und Musik: Klasse 2b alias die Schaumbande.“ Über den Namen hatten sie lange abgestimmt, und am Ende blieb es bei „Klasse 2b alias die Schaumbande“.\n\nIm Juni kam ein Brief: Die Klasse gehörte zu den Preisträgern. Bei der Feier im Rathaus standen die Preisträger auf einer kleinen Bühne. Die Kinder sangen ihr Lied, zuerst ein wenig aufgeregt, dann immer ausgelassener. Am Ende tanzten einige ausgelassen über die Bühne, und der Saal klatschte im Takt.\n\nOb weniger Kinder krank waren, weil sie gesungen haben, kann niemand sicher sagen. Aber alle wissen jetzt, wie lange 30 Sekunden sind.\n\nFragen:\nWarum sprach Frau Hoang mit der Klasse über das Waschen der Hände?\nIm Winter waren viele Kinder in der Klasse krank.\nWas bedeutet „kreieren“?\nKreieren heißt, etwas Neues erfinden.\nWas zählt in der Lyrik?\nIn der Lyrik zählen Klang, Reim und Rhythmus.\nWarum steht das Lied in Dur?\nDie Melodie in Dur klang hell und fröhlich, die in Moll klang traurig.\nWie nennt sich die Klasse unter ihrem Lied?\nSie nennt sich „Klasse 2b alias die Schaumbande“.\nWas geschah bei der Feier im Rathaus?\nDie Kinder sangen als Preisträger ihr Lied, und am Ende tanzten einige ausgelassen über die Bühne."
+    },
+    {
+      "title": "Bringt der Storch die Kinder?",
+      "summary": "A column on reading health news with care: storks and birth rates, self-descriptions in personal ads, who pays for a study, and homeopathy.",
+      "newWords": [
+        "Storch",
+        "Kontaktanzeige",
+        "Holding",
+        "Rhetorik",
+        "Homöopathie",
+        "Kommentator"
+      ],
+      "text": "Wo in Europa viele Störche leben, werden oft auch mehr Kinder geboren. Das lässt sich mit Zahlen tatsächlich zeigen, und Lehrer der Statistik lieben dieses Beispiel. Bringt also doch der Storch die Kinder? Natürlich nicht. Störche leben eher auf dem Land, und auf dem Land bekommen Familien im Durchschnitt etwas mehr Kinder als in großen Städten. Hinter beidem steht ein dritter Umstand, das Leben auf dem Land; das eine verursacht nicht das andere.\n\nIch erzähle diese Geschichte gern, wenn mir jemand eine Schlagzeile über Gesundheit zeigt. „Wer Kaffee trinkt, lebt länger“, steht da, oder „Wer früh aufsteht, ist glücklicher“. Oft steckt dahinter eine Studie, die nur zeigt, dass 2 Dinge zusammen auftreten. Ob das eine das andere bewirkt, ist die erste Frage, die man stellen sollte. Der Storch erinnert mich jedes Mal daran.\n\nDie zweite Frage lautet: Woher stammen die Daten? Viele Studien beruhen darauf, dass Menschen über sich selbst Auskunft geben. Das ist nützlich, aber nicht immer genau. Man denke an eine Kontaktanzeige in der Zeitung. In fast jeder Kontaktanzeige ist der Mensch sportlich, gesund und Nichtraucher. Niemand lügt mit Absicht, aber jeder zeigt sich von seiner besten Seite. Bei Umfragen über Sport, Essen oder Alkohol ist es ganz ähnlich.\n\nDie dritte Frage: Wer hat die Studie bezahlt? Das ist kein Grund, ihr von vornherein nicht zu glauben. Aber es lohnt sich nachzusehen. Ich habe einmal eine Studie über ein Mittel für den Schlaf gelesen, die sehr gute Ergebnisse meldete. Erst im Kleingedruckten stand, dass eine Holding sie bezahlt hatte, zu der auch der Hersteller des Mittels gehört. Die Holding hatte also ein Interesse an guten Zahlen. Gute Forscher geben so etwas offen an, und gute Leser achten darauf.\n\nDie vierte Frage gilt der Sprache. Werbung für Gesundheit arbeitet mit Rhetorik: „natürlich“, „sanft“, „klinisch getestet“. Getestet heißt aber noch nicht, dass etwas wirkt. Gute Rhetorik ersetzt keinen Nachweis.\n\nEin Beispiel, über das in Deutschland viel gestritten wird, ist die Homöopathie. Viele Menschen haben gute Erfahrungen gemacht, und das soll man ernst nehmen. Große Übersichtsarbeiten, die viele Studien zusammenfassen, haben jedoch keine Wirkung der Homöopathie gefunden, die über den Effekt eines Scheinmittels hinausgeht. Dass sich Menschen nach einem Gespräch und einer Behandlung besser fühlen, ist echt; nur liegt es nach dem Stand der Forschung nicht an den Kügelchen selbst.\n\nIn Talkshows hört man oft einen Kommentator, der mit großer Sicherheit spricht. Ein guter Kommentator dagegen sagt auch, was man nicht weiß. Das klingt weniger spannend, ist aber ehrlicher. Wer Nachrichten über Gesundheit liest, sollte deshalb 4 Fragen stellen: Ist es nur ein Zusammenhang? Woher kommen die Daten? Wer hat bezahlt? Und was bleibt, wenn man die schönen Worte weglässt? Der Storch hilft, sich daran zu erinnern.\n\nFragen:\nWarum gibt es in manchen Gegenden mehr Störche und mehr Kinder?\nStörche leben eher auf dem Land, und auf dem Land bekommen Familien im Durchschnitt etwas mehr Kinder.\nWas zeigt das Beispiel mit der Kontaktanzeige?\nMenschen zeigen sich von ihrer besten Seite, wenn sie über sich selbst Auskunft geben.\nWer hatte die Studie über das Mittel für den Schlaf bezahlt?\nEine Holding, zu der auch der Hersteller des Mittels gehört, hatte sie bezahlt.\nWas ersetzt gute Rhetorik nicht?\nGute Rhetorik ersetzt keinen Nachweis.\nWas haben große Übersichtsarbeiten über die Homöopathie gefunden?\nSie haben keine Wirkung gefunden, die über den Effekt eines Scheinmittels hinausgeht.\nWas sagt ein guter Kommentator?\nEin guter Kommentator sagt auch, was man nicht weiß."
+    }
+  ]
+}
