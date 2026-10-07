@@ -1,0 +1,195 @@
+{
+  "id": "en-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Numbers and Reasoning",
+  "description": "Ten clear texts about thinking with numbers: a misleading chart, the birthday puzzle, chances at a county fair, averages, a statistician, the history of zero, compound interest, errors in argument, counting fish and the numbers of the human body.",
+  "topic": "Numbers, probability and clear thinking",
+  "names": [
+    "Irene",
+    "Victor",
+    "April",
+    "August",
+    "Lily",
+    "Naomi",
+    "Brandt",
+    "Midwest",
+    "Babylon",
+    "Brahmagupta",
+    "Gwalior",
+    "India",
+    "Gerbert",
+    "Fibonacci",
+    "Florence",
+    "Maria",
+    "Dale",
+    "Hughes",
+    "June",
+    "America",
+    "Pisa"
+  ],
+  "lessons": [
+    {
+      "title": "The Cola Chart",
+      "summary": "A store manager looks closely at the charts a cola promoter shows her and finds what they hide.",
+      "newWords": [
+        "cola",
+        "promoter",
+        "excerpt",
+        "questionable",
+        "traction",
+        "dent",
+        "swipe",
+        "avatar",
+        "allergic",
+        "literal"
+      ],
+      "text": "Last spring, a promoter from a cola company visited the small chain of grocery stores where I work. A promoter's job is to make a product look attractive, and this one was good at it. His emails arrived with a small avatar beside his name, a cartoon bottle of cola, and the same avatar smiled from every slide he showed us. He wanted his new cola to get more space on our shelves, and he had brought charts to prove that it deserved it.\n\nOver the years, I have become allergic to charts that look too good. I do not mean allergic in the literal sense. I mean that a chart which seems to shout makes me want to look more closely.\n\nHis first chart showed monthly sales of the cola over six months. The bars rose so sharply that the last one seemed to climb off the screen. \"Our cola is really gaining traction,\" he said. In the literal sense, traction is the grip a tire has on the road; in business, it means that a product has begun to catch on. But the vertical axis did not begin at zero. It began at 950,000 bottles and ended at 1,000,000. The shortest bar stood at about 960,000 and the tallest at about 1,000,000, so sales had grown by roughly 4 percent. Because the bottom of the chart had been cut away, a small rise looked like a mountain.\n\nThen he swiped to the next slide, which showed a competitor's sales. Here the axis began at zero, so a fall of 15 percent looked like no more than a small dent in a tall bar. Side by side, the two charts suggested that his cola was flying while the other had suffered only a dent.\n\nI asked him to swipe back to the first chart, and I asked the question I always ask: \"Where does this axis start?\" A little embarrassed, he said that the designers had zoomed in \"to show the detail.\" Zooming in is not always wrong; sometimes a small change really matters. But a chart that zooms in on your own sales and zooms out on a competitor's is questionable at best.\n\nAnother chart was questionable, too. Its line, showing the customers who had tried the cola, went up every month. But it showed the total since the launch, not each month's number, and a total like that can only rise, even when sales are falling.\n\nOn my desk, I keep an excerpt from a statistics book I read years ago, a short list of rules: read both axes, check where the vertical axis starts, ask whether you are seeing totals or monthly numbers, and compare charts only when they use the same scale. I have shared that excerpt with every new employee. In the end, we gave the new cola a little more space, in proportion to its real growth.\n\nQuestions:\nWhat did the promoter want?\nHe wanted his new cola to get more space on the store's shelves.\nWhat does traction mean in business?\nIt means that a product has begun to catch on.\nWhy did a rise of 4 percent look like a mountain?\nBecause the vertical axis began at 950,000 instead of zero.\nWhy could the line of customers who had tried the cola only go up?\nBecause it showed the total since the launch, not each month's number.\nWhat does the writer keep on her desk?\nShe keeps an excerpt from a statistics book with rules for reading charts."
+    },
+    {
+      "title": "Twenty-Three Guests",
+      "summary": "At her aunt's birthday party, a math teacher explains why two of the 23 guests probably share a birthday.",
+      "newWords": [
+        "intrigue",
+        "acquaintance",
+        "definite",
+        "formulate",
+        "geek",
+        "hum",
+        "wherein",
+        "velvet",
+        "floral",
+        "wallpaper"
+      ],
+      "text": "My aunt Irene turned 70 last month, and the family gathered in her apartment to celebrate. The living room has not changed since I was a child: the same floral wallpaper, with pink roses climbing toward the ceiling, and the same green velvet sofa that nobody is allowed to put a glass on. My aunt wore a floral dress that almost matched the wallpaper. There were 23 of us that afternoon: relatives, people from her building, and a few acquaintances from her book club.\n\nWhile we waited for the cake, one of these acquaintances, a quiet man named Victor, asked me what I did. When I said that I taught math, he admitted that he was something of a math geek himself. As a boy, he said, he had loved an old book wherein every chapter presented one surprising puzzle. Then he asked a question that seemed to intrigue everyone around us: \"What are the chances that two people in this room share a birthday?\"\n\nMost guests guessed low. One cousin said 1 in 20. Another said there was no definite way to know. In fact, there is a definite answer, and it surprises nearly everyone: with 23 people, the chance is slightly better than even.\n\nTo explain why, I tried to formulate the problem more simply. If I ask, \"Does anyone here share my birthday?\" the chance really is small, about 6 percent with 22 other guests. But Victor had asked whether any two people share a birthday, which is a very different question. With 23 people, there are 253 possible pairs: the first guest can be paired with 22 others, the second with 21 more, and so on. Each pair has only a small chance of a match, but 253 small chances add up quickly.\n\nThe cleanest way to formulate the calculation is to look at the opposite case, wherein nobody shares a birthday. The second guest must avoid the first guest's birthday, which leaves 364 days out of 365. The third must avoid two birthdays, which leaves 363 out of 365. You multiply these fractions together, one for each guest, and with 23 guests the result falls just below one half. So the chance of at least one shared birthday is just above one half. With 50 people, it is about 97 percent.\n\nVictor sank back into the velvet sofa, delighted. \"Let's test it,\" he said. We went around the room, and each guest called out a birthday. Some people began to hum while they waited, and my aunt hummed loudest of all. With the fifteenth guest, we found a match: Victor and my cousin's husband were both born on April 9.\n\nOf course, one party proves nothing; about half of all groups of 23 have no match at all. But the experiment made the idea stick. As my aunt blew out her candles, Victor told me that nothing had intrigued him so much in years. Two math geeks had found each other.\n\nQuestions:\nWhat does Irene's living room look like?\nIt has floral wallpaper with pink roses and a green velvet sofa.\nWhat question did Victor ask?\nHe asked what the chances were that two people in the room shared a birthday.\nWhy is the chance much higher than most guests guessed?\nBecause 23 people make 253 possible pairs, and many small chances add up quickly.\nHow did the teacher formulate the calculation?\nShe looked at the opposite case, wherein nobody shares a birthday.\nWho shared a birthday at the party?\nVictor and the teacher's cousin's husband were both born on April 9."
+    },
+    {
+      "title": "A Day at the County Fair",
+      "summary": "A father and his daughter work out the chances behind the games at the county fair.",
+      "newWords": [
+        "arcade",
+        "attendant",
+        "sprinkle",
+        "chopped",
+        "polo",
+        "discourage",
+        "cater",
+        "bliss",
+        "bravo",
+        "confederate"
+      ],
+      "text": "Every August, the county fair comes to the fields outside our town, and every August my daughter Lily, who is twelve, saves her allowance for it. This year she had 20 dollars, and she wanted to spend all of it on games. I did not want to discourage her, because the fair is meant to be fun, but I did want her to understand what she was paying for. So we made a deal: before each game, we would work out the chances together.\n\nWe started with food. A long row of stands caters to every taste, and one even caters to dogs. I had a hot dog with chopped onions and chopped peppers. Lily chose fried dough, and the woman at the stand liked to sprinkle sugar freely; she sprinkled so much on Lily's dough that it looked like snow. For a few minutes, my daughter was in a state of pure bliss.\n\nThe first game was a big wheel with 20 numbers. A spin cost 1 dollar, and if the wheel stopped on your number, you won a stuffed animal. The attendant, a young man in a red polo shirt, called out to everyone who passed: \"Somebody wins every few minutes!\" That was true, because many people were playing at once. But for each player, the chance was 1 in 20. Lily worked it out: to win once, she would have to spend about 20 dollars on average, and the stuffed animal probably cost the fair 3 or 4. \"So the wheel always wins,\" she said. Exactly.\n\nAt the next game, you threw a ball at a pile of bottles. While we watched, a man in a red polo shirt like the attendant's knocked the bottles down three times in a row and walked away with a huge bear. Ten minutes later, the same man came back without the bear and won again. He might have been a confederate, a person who secretly works with the attendant and wins on purpose so that the game looks easy. We could not be sure, of course, but even the possibility of a confederate was a good reason to keep our money in our pockets.\n\nFinally, we went into the arcade tent, where the games depend more on skill than on luck. In one game, you roll balls up a ramp into holes worth different points, and Lily is very good at it. In the arcade, the chances were partly in her own hands. She played for half an hour and won enough tickets for a small toy. When she handed over her tickets, the woman at the counter clapped and said, \"Bravo!\" I said \"Bravo\" too.\n\nOn the way home, Lily counted her money. She had spent 12 dollars and kept 8. Holding her new toy in quiet bliss, she told me that the best part of the day had been working out the chances. As a father, I counted that as a victory.\n\nQuestions:\nWhy did the father not want to discourage Lily?\nBecause the fair is meant to be fun.\nWhat were Lily's chances of winning at the wheel?\nHer chances were 1 in 20 on each spin.\nWhat is a confederate in a fair game?\nIt is a person who secretly works with the attendant and wins on purpose so that the game looks easy.\nWhy was the arcade different from the other games?\nBecause its games depend more on skill than on luck.\nHow much money did Lily keep?\nShe kept 8 dollars."
+    },
+    {
+      "title": "The River That Was Three Feet Deep",
+      "summary": "A short essay on why a single average can hide what we most need to know.",
+      "newWords": [
+        "mu",
+        "swimmer",
+        "drowning",
+        "prevalent",
+        "drainage",
+        "sewer",
+        "developmental",
+        "parental",
+        "rigid",
+        "transformer"
+      ],
+      "text": "People who work with data like to repeat an old warning. A man who cannot swim should never cross a river just because its average depth is 3 feet. Near the banks, the water may be only a few inches deep, but in the middle it may be 8 feet deep, and that is where the danger lies. Many cases of drowning happen in places like this, and even a strong swimmer can be caught by a sudden drop. The average tells us something true about the river, but it hides the one thing a swimmer most needs to know.\n\nIn statistics, the average of a whole population is usually written with the Greek letter mu. Averages are useful, but a single number cannot describe how widely the values spread. Two rivers can have the same mu and be completely different to cross: one may be 3 feet deep everywhere, while the other hides a hole where drowning becomes a real risk.\n\nA city does not design its drainage for an average day of rain, because on an average day almost any pipe would do. It designs for the worst storm it expects in many years. When that storm arrives, the sewer under a street must carry many times its usual load, and a sewer built for the average simply cannot cope. The same is true of a transformer, the gray box on a power pole that lowers the voltage before electricity enters your home. A transformer must survive the hottest afternoon of summer, not an average afternoon in spring.\n\nAverages can mislead in personal matters, too. Many parents read that the average child takes his first steps at about 12 months, and they begin to worry when their own child is 13 months old and still crawling. In fact, healthy children walk at anything from about 9 to 18 months. Doctors who study developmental stages speak of ranges, not single ages, because a developmental average is not a rigid deadline. Parental worry is natural, and good doctors calm parental fears by showing the whole range.\n\nAnother prevalent mistake is to confuse the average with what is typical. Suppose ten people in a cafe each earn 40,000 dollars a year, and then a billionaire who earns 1 billion a year walks in. The average income in the room jumps above 90 million dollars, although nobody's life has changed. The median, the middle value when everyone is lined up in order, stays at 40,000. Because this mistake is so prevalent, careful reports on income give the median.\n\nNone of this means that averages are useless. It means that every average should come with a second question: how widely do the values spread around it? Treated as a rigid rule, an average can mislead us; treated as one fact among several, it helps.\n\nQuestions:\nWhy should a man who cannot swim not trust the average depth of a river?\nBecause the middle of the river may be much deeper than the average.\nWhat does the Greek letter mu stand for in statistics?\nIt stands for the average of a whole population.\nWhy is drainage not designed for an average day of rain?\nBecause it must handle the worst storm the city expects in many years.\nWhen do healthy children begin to walk?\nThey walk at anything from about 9 to 18 months.\nWhy do careful reports on income give the median?\nBecause one very rich person can push the average far above what is typical."
+    },
+    {
+      "title": "The Woman Who Counts Births",
+      "summary": "A profile of a state statistician whose numbers shape decisions about schools, workers and laws.",
+      "newWords": [
+        "sociology",
+        "collaborative",
+        "constructive",
+        "fertility",
+        "legislator",
+        "amended",
+        "veto",
+        "indictment",
+        "continuity",
+        "rabbi",
+        "embarrassment"
+      ],
+      "text": "Naomi Brandt has spent thirty years counting things that most people never think about: births, marriages, and families moving from one county to another. She leads the statistics office of her state's health department, and although her name rarely appears in the newspaper, her numbers appear there almost every week.\n\nShe grew up in the Midwest, the daughter of a rabbi and a teacher. Her father, she says, taught her the key skill of her profession. \"At dinner, he would make me argue both sides of a question,\" she says. \"A rabbi learns to read a text slowly and ask what it does not say. That is exactly what I do with a table of numbers.\"\n\nAt college, she first studied sociology, the science of how societies work, because she wanted to understand why families make the choices they do. Then a statistics course showed her that the big questions of sociology needed careful numbers.\n\nHer specialty is fertility, which in her field means the number of children women have, on average, over their lives. Across the country, and in her state, the fertility rate has fallen from about 2.1 children per woman in 2007 to about 1.6 today. A change like that decides how many schools a state will need in ten years and how many workers it will have in thirty.\n\nThe hardest moment of her career came early. In her first major report, she made an error in a formula and found it only after the report had appeared. \"I had to stand in front of my whole department and explain it,\" she says. \"The embarrassment lasted a week. The lesson has lasted thirty years.\" Since then, her office has worked in a collaborative way: every number it releases is checked by two people who did not produce it. \"Collaborative work is slower,\" she admits, \"but nobody can see all of their own mistakes.\" Colleagues call her criticism tough but constructive. \"She never just says that something is wrong,\" says one. \"Her criticism is constructive: she shows you how to make it right.\"\n\nSeveral years ago, a legislator asked her office whether a program for new mothers was working. Her report showed that the program had kept such poor records that nobody could tell. Newspapers called the report an indictment of the program. \"It was not an indictment of anyone,\" Naomi says. \"It was a description of missing data.\" The legislator then proposed a law requiring better records. The bill was amended twice and passed, but the governor issued a veto because of its cost. A year later, a version amended to cost less became law without a veto.\n\nWhat Naomi values most is continuity. Many of her office's surveys have asked the same questions in the same way for decades. \"If you change a question, you can no longer compare this year with 1990,\" she says. \"Continuity is what turns a pile of numbers into a history.\"\n\nQuestions:\nWhat did Naomi learn from her father, the rabbi?\nShe learned to argue both sides of a question and to ask what a text does not say.\nHow did the embarrassment of her early error change her office?\nHer office began to work in a collaborative way.\nWhat happened to the law the legislator proposed?\nIt was amended twice and met a veto, but a cheaper version later became law.\nWhy does Naomi value continuity?\nBecause asking the same questions in the same way lets her compare one year with another."
+    },
+    {
+      "title": "Who Invented Nothing?",
+      "summary": "A short history of zero, from marks on bones to the numbers we use today.",
+      "newWords": [
+        "invent",
+        "flint",
+        "cosmic",
+        "commemorate",
+        "quo",
+        "departed",
+        "robe",
+        "omega"
+      ],
+      "text": "No single person sat down one day to invent zero. Several peoples, in different places and centuries, were inventing it slowly, often without knowing of one another.\n\nFor most of human history, people counted without zero. Some of the oldest known counting tools are bones with rows of marks cut into them more than 20,000 years ago, probably with a sharp piece of flint, the hard stone that served as the knife of the ancient world. A mark cut with flint stands for one thing: one day, one animal, one person. To count nothing, you simply make no mark.\n\nThe need for zero appeared with place value, the system in which the position of a digit tells you its size. In the number 302, the 3 means three hundreds because two digits stand after it. But how do you show that the middle place is empty? The people of ancient Babylon faced this problem. By about 300 BC, they were using a special mark to show an empty place, but it was not yet a number that you could add or multiply.\n\nThe Greeks wrote numbers with the letters of their alphabet. Alpha meant 1, beta meant 2, and omega, the last letter, meant 800. Such a system needs no zero, and even the phrase \"from alpha to omega,\" meaning from beginning to end, has no place for nothing.\n\nFar away, in what is now Central America, the Maya made the same discovery on their own. Their priests followed great cosmic cycles of time across thousands of years, and their calendar needed a sign for an empty position. They drew it as a shell. Keeping track of these cosmic cycles was, for them, a sacred duty.\n\nThe decisive step came in India. In the year 628, a scholar named Brahmagupta wrote rules for zero as a number: a number plus zero is the same number, and a number multiplied by zero is zero. One of the oldest surviving round zeros is carved on the wall of a small temple in Gwalior. The stone was carved in 876 to commemorate a gift of land to the temple. Many stones commemorate gifts, but this one is famous for its numbers, 270 and 50, each written with a small circle for zero.\n\nThe new numbers traveled west through the Arab world and reached Europe slowly. Around the year 1000, Gerbert, a French scholar who wore the robe of a monk and later the white robe of the pope, tried to spread the new digits, but without zero. In 1202, Fibonacci, the son of a merchant from Pisa, wrote a book that departed from tradition: it showed merchants how much easier their work became with the new numbers, zero included.\n\nEven so, the status quo did not give way easily. In 1299, the city of Florence banned the new numbers from bank records, partly because a 0 could easily be changed into a 6 or a 9. The old Roman system was the status quo, and people trusted what they knew. Only after three more centuries had most merchants departed from the old system for good.\n\nQuestions:\nWhy did early people not need a sign for zero?\nBecause each mark stood for one thing, and to count nothing they made no mark.\nWhat did omega mean in Greek numbers?\nOmega, the last letter of the alphabet, meant 800.\nWhat did the stone in Gwalior commemorate?\nIt commemorated a gift of land to a temple.\nWhy did Florence ban the new numbers in 1299?\nPartly because a 0 could easily be changed into a 6 or a 9."
+    },
+    {
+      "title": "Grandpa's Cigar Money",
+      "summary": "A grandmother shows her grandson how a small habit, saved instead, grew through compound interest.",
+      "newWords": [
+        "mattress",
+        "cushion",
+        "sabotage",
+        "mitigate",
+        "unwanted",
+        "jointly",
+        "foe",
+        "reclaim",
+        "cigar",
+        "subdivision"
+      ],
+      "text": "When my grandfather was 30, he smoked a cigar on the porch every evening. One night, my grandmother showed him a calculation of what his cigars cost each year. He gave up cigars that year, and every month he put the money the cigars would have cost, 30 dollars, into a savings account that he and my grandmother held jointly. They kept it up for 40 years.\n\nLast summer, after I got my first job, my grandmother showed me that account. Over 40 years, they had put in about 14,400 dollars. The account now held about 60,000. \"That is the cigar money,\" she said, \"and most of it is interest.\"\n\nThen she explained compound interest. Suppose you put 1,000 dollars into an account that pays 5 percent a year. After one year, you have 1,050. In the second year, you earn 5 percent of 1,050, which is 52.50, not 50, because you now earn interest on your interest as well. The difference looks tiny, but after 30 years the account holds about 4,300 dollars, while simple interest, paid only on the original 1,000, would give you 2,500. She also taught me a quick rule: divide 72 by the interest rate, and you get roughly the number of years it takes money to double. At 6 percent, about what their account earned, money doubles every 12 years.\n\n\"The same rule works against you when you borrow,\" she said. A credit card that charges 24 percent a year can double a debt in about 3 years. \"For someone who saves, compound interest is a friend. For someone who owes, it is a foe that never sleeps.\"\n\nHer own mother had kept her savings in cash under her mattress. The mattress kept the money safe from thieves but not from rising prices. If prices rise by 3 percent a year, cash loses about half of what it can buy in 24 years.\n\nShe warned me about fees, which can quietly sabotage a lifetime of saving. A fee of 1 percent a year sounds small, but over 40 years of monthly saving, it can take away about a quarter of the final sum. Nobody means to sabotage their own future, she said, but many people do it by never reading the small print. Once, the bank charged her a fee by mistake, and she called until she could reclaim it. She did reclaim every dollar.\n\nNo investment is free of risk, she said, but you can mitigate risk by keeping fees low and spreading your money across many investments. Patience, too, helps to mitigate risk.\n\nThe money gave my grandparents a cushion. When the roof needed repair, or when my grandfather lost his job for a year, they had a cushion to fall back on, and they never took on unwanted debt. With part of it, they paid off their house in a quiet subdivision at the edge of town, the same subdivision where they still live. An unwanted bill, she said, is much easier to face when you have saved for it.\n\nI opened my own account the next day. I do not smoke cigars, but I do buy coffee.\n\nQuestions:\nWhat did the grandfather do with his cigar money?\nHe put 30 dollars a month into an account that he and the grandmother held jointly.\nWhy is compound interest a foe for someone who owes money?\nBecause it makes a debt grow quickly.\nWhat happened to money kept under a mattress?\nIt was safe from thieves but lost value as prices rose.\nHow did the savings help the grandparents?\nThey gave them a cushion in hard times."
+    },
+    {
+      "title": "Arguments at the Holiday Table",
+      "summary": "A column on the common errors in reasoning that turn up in family arguments.",
+      "newWords": [
+        "dummy",
+        "disrespect",
+        "assertion",
+        "contradict",
+        "dictator",
+        "mimic",
+        "stereo",
+        "sermon",
+        "halo",
+        "lust"
+      ],
+      "text": "Every family has an argument that returns at every holiday meal. In mine, it is whether our town should turn an old parking lot into a park. I have heard it so often that I now notice not what people say, but how they argue. The same errors in reasoning appear every year, and philosophers named most of them long ago.\n\nThe first is the straw man. My cousin says the town should spend a little money on a park, and my uncle replies as if she had said the town should spend all its money on parks. Instead of fighting the real argument, he builds a weaker one, like a dummy stuffed with straw, and knocks it down. Defeating a dummy is easy, but it proves nothing.\n\nMy cousin sometimes attacks the person instead of the idea: \"You only say that because you never go outside.\" This is a form of disrespect, and it says nothing about parks. An argument stands or falls on its own, and disrespect for the speaker does not weaken it.\n\nThen there is the bare assertion. \"Everybody knows parks bring crime,\" says my uncle. An assertion repeated loudly is still only an assertion until someone offers evidence. Last year, my uncle and my aunt made that claim at once, from opposite ends of the table, so I heard it in stereo. But a claim does not become truer when it comes in stereo.\n\n\"All the other towns are doing it,\" says my cousin. But the fact that towns mimic one another proves little. A good idea does not become better because many people mimic it, and a bad one does not become good.\n\nWhen the mayor proposed a small parking fee, my uncle called her a dictator. A dictator rules with unlimited power, usually driven by a lust for control. A mayor who charges 2 dollars for parking is not a dictator, and nothing in a 2 dollar fee suggests a lust for power. Comparisons like this end conversations instead of helping them.\n\nThere is also the halo effect, which is less an error of argument than a habit of the mind. If we admire someone in one area, we assume they are right in others, as if a halo of good judgment surrounded them. A famous athlete who praises a medicine is still not a doctor.\n\nIt is worth noticing, too, when people contradict themselves. Two years ago, my uncle said the town had no money for anything; this year he wants a new road. When I said that he seemed to contradict his earlier view, he laughed and agreed.\n\nPointing out such errors is not the same as winning. Someone's reasoning can be weak while his conclusion is true. So I try not to deliver a sermon at the table, since nobody enjoys a sermon over dessert. Instead, I ask one calm question: \"What would change your mind?\" That question often does more than any argument.\n\nQuestions:\nWhat is a straw man?\nIt is a weaker version of someone's argument that is easy to knock down.\nWhy does disrespect for the speaker not weaken an argument?\nBecause an argument stands or falls on its own.\nWhy is the mayor not a dictator?\nBecause she does not rule with unlimited power; she only proposed a small parking fee.\nWhat does the writer do instead of delivering a sermon?\nThe writer asks one calm question: \"What would change your mind?\""
+    },
+    {
+      "title": "Counting Fish You Cannot See",
+      "summary": "A biology student helps her professor estimate the number of trout in a mountain lake.",
+      "newWords": [
+        "trout",
+        "beetle",
+        "lizard",
+        "extinction",
+        "axle",
+        "squadron",
+        "bunker"
+      ],
+      "text": "Maria was in her second year of biology when her professor, Dale Hughes, invited her to help with his summer project. Every June, he counted the trout in a small mountain lake. \"How do you count fish you can't see?\" Maria asked. \"You don't count them,\" he said. \"You estimate them.\"\n\nThe last part of the drive was a rough dirt road, and halfway up, the rear axle of the professor's old truck began to make a terrible noise. They drove the last miles slowly, and he promised to have the axle checked before the trip home.\n\nNear the shore stood a small concrete bunker that the forest service had once used to store supplies. Dale kept his nets and tags in the bunker. In the afternoon sun, its walls grew warm, and several small lizards lay on its roof.\n\nOn the first day, they caught 60 trout with nets, marked each fish with a tiny tag near its back fin, and let it go. Then they waited a week, so that the marked trout could mix with the others. On their second visit, they caught 50 trout, and 10 of them had tags.\n\n\"Now think,\" said Dale. \"If 10 of the 50 fish we caught are marked, then about one fish in five in the whole lake is marked. We marked 60. So the lake holds about five times 60.\" Maria did the math: about 300 trout.\n\nThe method, Dale explained, works only if certain things are true. The marked fish must mix well with the others. The tags must not fall off. No fish may enter or leave the lake between the two visits. And marked fish must be no easier and no harder to catch than the rest. If any of these conditions fails, the estimate goes wrong.\n\nScientists use the same idea for many animals. Dale's colleagues mark each beetle in a forest with a small dot of paint on its back; the paint does not hurt a beetle, and it lasts for weeks. Others mark lizards in the desert.\n\n\"Why does it matter how many there are?\" Maria asked. Dale said that you cannot protect an animal if you do not know how many there are. Counting the same lake year after year shows whether a population is growing or shrinking, and a shrinking number is often the first warning that a species is moving toward extinction in that place. Thirty years earlier, a related kind of trout in a nearby stream had come close to extinction, and only careful counting had shown the danger in time.\n\nOn the last evening, a squadron of geese flew low over the lake in a neat line. Maria counted them: 14 birds. \"Finally,\" she said, \"something I can count directly.\" The squadron turned west and disappeared over the trees. The next morning, Dale had the axle fixed in town, and they drove home in peace.\n\nQuestions:\nWhy does Dale estimate the trout instead of counting them?\nBecause the fish cannot be seen, so they cannot be counted directly.\nWhat did Dale keep in the bunker?\nHe kept his nets and tags in the bunker.\nHow did they estimate that the lake held about 300 trout?\nThey marked 60 trout, and later 10 of the 50 they caught had tags, so about one fish in five was marked.\nWhy does it matter how many animals there are?\nBecause a shrinking number is often the first warning that a species is moving toward extinction."
+    },
+    {
+      "title": "The Numbers Inside You",
+      "summary": "An informative text about the large numbers of the human body and how to think about them.",
+      "newWords": [
+        "genome",
+        "ape",
+        "metabolism",
+        "iris",
+        "cavity",
+        "bodily"
+      ],
+      "text": "Large numbers are hard to imagine, and the human body is full of them. Thinking about a few of them is good practice in reasoning, because it teaches us to compare numbers instead of simply being impressed by them.\n\nStart with the genome, the complete set of instructions written in the DNA of every cell. The human genome contains about 3 billion pairs of chemical letters. If you read one letter every second, day and night, without stopping, it would take you about 95 years to read your own genome from beginning to end.\n\nNow consider a comparison that is often quoted: humans share about 98.8 percent of their DNA with chimpanzees, our closest relatives among the great apes. Humans, in fact, are apes too. A difference of 1.2 percent sounds tiny. But 1.2 percent of 3 billion is 36 million letters, which leaves a great deal of room for difference between two kinds of ape. The lesson is a general one: a small percentage of a very large number can still be a very large number.\n\nYour heart sits in the chest cavity, the space protected by your ribs, which it shares with your lungs. Beating about 70 times a minute, it beats roughly 100,000 times a day and more than 2.5 billion times in a long life. The number is an average, of course: it rises when you run and falls when you sleep. Each beat sends blood out of the chest cavity to every part of the body.\n\nYour metabolism is the sum of the chemical processes that keep you alive, and it uses energy even while you sleep. An adult at rest burns roughly 1,500 to 1,800 calories a day, mostly to keep basic bodily processes running: breathing, staying warm, and repairing cells. The brain makes up only about 2 percent of the body's weight, yet it uses about 20 percent of the energy that your metabolism produces at rest. A part that is small by weight can be large by cost.\n\nFinally, look closely into someone's eyes. The iris, the colored ring around the dark center of the eye, carries a pattern of lines and spots so detailed that even the left and right iris of the same person are different. Identical twins, who share the same genome, still have different patterns. This is why some airports use iris scanners: the chance of mistaking one person's pattern for another's is extremely small.\n\nNumbers like these are not just interesting facts. Each one invites the question that good reasoning always asks: compared with what? Three billion letters is a long book; 20 percent of your energy is a large share for a small organ. Even ordinary bodily facts become clearer when we place them next to something we already understand.\n\nQuestions:\nHow long would it take to read the human genome at one letter per second?\nIt would take about 95 years.\nWhy is a difference of 1.2 percent between humans and chimpanzees not so small?\nBecause 1.2 percent of 3 billion is 36 million letters.\nWhat does the chest cavity hold?\nIt holds the heart and the lungs.\nWhat share of the energy from your metabolism does the brain use?\nIt uses about 20 percent, although it is only about 2 percent of the body's weight.\nWhy can iris scanners tell people apart?\nBecause every iris has a detailed pattern, and the chance of mistaking two patterns is extremely small."
+    }
+  ]
+}

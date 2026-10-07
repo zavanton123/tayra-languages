@@ -1,0 +1,216 @@
+{
+  "id": "en-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "Engineering and Building",
+  "description": "Ten short texts about how things are built and why they stand: a suspension bridge, Hoover Dam, a bridge engineer, swaying skyscrapers, the first tunnel under a river, earthquake-proof buildings, a barn raising, a water treatment plant, the Brooklyn Bridge and a famous lighthouse.",
+  "topic": "Bridges, dams, tunnels and buildings",
+  "names": [
+    "San",
+    "Francisco",
+    "Tacoma",
+    "Washington",
+    "Colorado",
+    "Nevada",
+    "Arizona",
+    "Hoover",
+    "August",
+    "Herbert",
+    "Linda",
+    "Reyes",
+    "Taipei",
+    "Taiwan",
+    "Petronas",
+    "Malaysia",
+    "Marc",
+    "Brunel",
+    "Thames",
+    "London",
+    "France",
+    "England",
+    "California",
+    "Northridge",
+    "Japan",
+    "Ohio",
+    "Tom",
+    "Ruth",
+    "Ellen",
+    "Mr",
+    "Hale",
+    "Carla",
+    "Diaz",
+    "Brooklyn",
+    "John",
+    "Roebling",
+    "Roeblings",
+    "Emily",
+    "May",
+    "York",
+    "Plymouth",
+    "Eddystone",
+    "Smeaton"
+  ],
+  "lessons": [
+    {
+      "title": "How a Suspension Bridge Stands",
+      "summary": "A short explanation of the forces that hold up a suspension bridge, and what engineers learned when one failed.",
+      "newWords": [
+        "sidewalk",
+        "awe",
+        "straightforward",
+        "wholly",
+        "denote",
+        "economically",
+        "inherent",
+        "distort",
+        "refined",
+        "metallic"
+      ],
+      "text": "Stand on the sidewalk of a great suspension bridge, such as the Golden Gate Bridge in San Francisco, and it is hard not to feel a sense of awe. The towers rise hundreds of feet above the water, and the road seems to float in the air. Yet the idea that holds it up is surprisingly straightforward.\n\nA suspension bridge has four main parts: two tall towers, two main cables, the deck that carries the traffic, and the anchors at each end. The main cables pass over the tops of the towers and are tied, at both ends, to enormous blocks of concrete set deep in the ground. From the main cables hang hundreds of thinner vertical cables, and these hold up the deck. The road does not rest wholly on anything beneath it. It hangs.\n\nEngineers use two words to denote the main forces in a structure. Tension denotes a pulling force, and compression denotes a pushing force. In a suspension bridge, the cables are in tension, because the weight of the deck pulls on them all the time. The towers are in compression, because the cables press down on them.\n\nSteel wire is extremely strong when it is pulled, so a cable made of thousands of thin wires can carry a load that would crush a stone column. Because the steel does so much work, a suspension bridge can cross a long span more economically than most other designs. Once you see the cables as ropes and the towers as posts, the rest is straightforward.\n\nFlexibility, however, is inherent in a bridge that hangs. On a hot day, the steel expands, the cables grow longer and the deck sinks by several feet. In strong wind, the deck can twist. This is not a fault but a quality inherent in the design, and engineers learned to respect it the hard way. In 1940, the new Tacoma Narrows Bridge in Washington State began to twist in a steady wind until it broke apart. Its deck was too thin and too light, so the wind could distort its shape, and each twist made the next one larger.\n\nAfter that disaster, the design was refined. Engineers made decks stiffer and deeper, and they began to test models in wind tunnels before building. Today every new design is refined in this way until the wind can no longer distort it.\n\nIn 2020, after new railings were added to the Golden Gate Bridge, people across the city began to hear a strange metallic hum on windy days. The wind was passing through the thin metallic strips of the railings and making them sing. Even its sounds remind us that the bridge is full of forces. No wonder the people on its sidewalk so often stop in awe.\n\nQuestions:\nWhat are the four main parts of a suspension bridge?\nThey are two towers, two main cables, the deck and the anchors at each end.\nDoes the road rest wholly on anything beneath it?\nNo. The road hangs from the cables.\nWhy can a suspension bridge cross a long span economically?\nSteel wire is very strong when it is pulled, so the cables make good use of the steel.\nWhat happened to the Tacoma Narrows Bridge in 1940?\nIts thin, light deck twisted in a steady wind until it broke apart.\nWhat caused the metallic hum on the Golden Gate Bridge?\nThe wind made the thin strips of the new railings sing."
+    },
+    {
+      "title": "The Dam in the Desert",
+      "summary": "How thousands of workers, during the Great Depression, built Hoover Dam across the Colorado River.",
+      "newWords": [
+        "harness",
+        "inland",
+        "depressing",
+        "migrate",
+        "morale",
+        "prohibition",
+        "boulder",
+        "designation",
+        "greenhouse"
+      ],
+      "text": "Few places on earth seem less friendly to human beings than Black Canyon, where the Colorado River cuts through the desert between Nevada and Arizona. Yet it was there, between 1931 and 1936, that workers built what is now called Hoover Dam, one of the great engineering achievements of its time.\n\nThe purpose of the dam was to harness the Colorado. For centuries, the river had flooded its valley in spring and shrunk to a thin stream in late summer. A dam could store the spring floods in a huge lake, release the water steadily all year and harness its fall to produce electricity. Cities and farms far inland, hundreds of miles from the sea, would finally have a reliable supply of water and power.\n\nThose were depressing years for the whole country: millions of people had lost their jobs, and many families had lost their homes. When the news spread that there was work in the canyon, men migrated there from every part of the country, often with their wives and children. They migrated not because the work was attractive, but because it was work at all.\n\nConditions at first were brutal. In the summer of 1931, temperatures in the canyon rose to about 120 degrees, and many families lived in tents by the river. Morale was low, and that August the workers went on strike. Life improved when the government finished Boulder City, a planned town on the hills above the canyon, with real houses, shops and a school. In line with national Prohibition, alcohol was banned in the town, and the ban there lasted long after Prohibition ended in 1933.\n\nThe engineering problems were enormous. First, the river had to be moved. Workers drilled four huge tunnels through the canyon walls and sent the whole Colorado around the building site. Then men hung from ropes on the cliffs and used drills and explosives to remove loose rock. Every boulder had to go, because a single boulder falling from that height could kill a man below. Finally came the concrete, more than 3 million cubic yards of it. If it had been poured as one solid block, it would have taken over a century to cool, so engineers poured it in separate columns and pumped cold water through steel pipes inside them.\n\nEven the name has a history. The project began as the Boulder Canyon Project, and for years people used two names for the dam. Its official designation changed more than once before Congress settled on Hoover Dam in 1947, in honor of President Herbert Hoover. Many older people, however, kept the designation they had grown up with and called it Boulder Dam all their lives.\n\nToday the dam's turbines produce electricity without burning any fuel, so they release no greenhouse gases as they run. In a century worried about greenhouse gases, that old concrete wall in the desert looks more modern than ever.\n\nQuestions:\nWhy was the dam built?\nIt was built to harness the Colorado River and bring water and power to cities and farms far inland.\nWhy did so many men migrate to the canyon?\nThose were depressing years, when millions had lost their jobs, and the canyon offered work.\nWhat improved the workers' morale?\nBoulder City, with its real houses, shops and a school, did a great deal for morale.\nWhat designation did Congress settle on in 1947?\nCongress settled on Hoover Dam, in honor of President Herbert Hoover."
+    },
+    {
+      "title": "The Engineer Who Says No",
+      "summary": "A profile of a state bridge engineer, from a childhood dream of space to the hardest decision of her career.",
+      "newWords": [
+        "astronaut",
+        "nerd",
+        "gin",
+        "psychiatrist",
+        "prom",
+        "diploma",
+        "hopeful",
+        "hierarchy",
+        "discriminate",
+        "temptation",
+        "coward",
+        "honorable"
+      ],
+      "text": "When Linda Reyes was nine, she wanted to be an astronaut. She had a poster of a rocket over her bed, and she could name every astronaut who had walked on the moon. \"I was a complete nerd,\" she says, laughing. \"Other kids collected dolls. I collected bolts.\" Today, at fifty-eight, she is the chief bridge engineer for her state, responsible for the safety of more than 6,000 bridges. She has no regrets. \"It turns out that I didn't want to leave the earth,\" she says. \"I wanted to know how things stand on it.\"\n\nHer interest started on her grandfather's farm, where an old cotton gin stood in a shed. A cotton gin is a machine that separates the soft fibers of cotton from its seeds, and her grandfather spent every summer keeping that gin running. Linda handed him his tools and asked why each part moved the way it did. Her mother, a psychiatrist, was not surprised. \"A psychiatrist asks questions for a living,\" Linda says. \"She understood.\"\n\nLinda stayed a proud nerd through high school. She did go to her prom, but she spent part of the evening explaining to her date how the roof of the gym was held up. \"He married me eight years after that prom,\" she says, \"so I can't have been too boring.\"\n\nShe earned her diploma in civil engineering in 1990 and joined a construction company, hopeful and, by her own account, a little too trusting. A building site has a strict hierarchy, and a young woman with a fresh diploma stood near the bottom of that hierarchy. Some men refused to take orders from her. \"The law said no one could discriminate against me, but people discriminate in small ways that no law can see,\" she says. \"They ignored my emails. They checked my numbers with someone else.\" She answered by being right, again and again, until they stopped.\n\nHer hardest lesson came a few years later. A contractor was behind schedule, and her report on a bridge's steel joints was the only thing standing in his way. He asked her to sign it quickly. The temptation was real: the joints looked fine. Instead, she ordered more tests, which found cracks hidden inside two of them. \"Signing something you don't believe is what a coward does,\" she says. \"I was scared, but I didn't want to be a coward.\" The temptation to say yes, she adds, never goes away; resisting it is simply part of the job.\n\nThat is why she calls engineering an honorable profession. Engineers follow a code of ethics whose first rule is to place the safety of the public above everything else. \"An honorable engineer is not one who never makes a mistake,\" Linda says. \"It's one who is willing to say no.\" She is hopeful about the future, too: almost half of the young engineers she hires are women. On her office wall, next to her diploma, hangs a small photo of a rocket.\n\nQuestions:\nWhat did Linda want to be when she was nine?\nShe wanted to be an astronaut.\nWhat is a cotton gin?\nIt is a machine that separates the soft fibers of cotton from its seeds.\nHow did some men treat her on the building site?\nThey refused to take orders from her and ignored her emails.\nWhy did she not sign the report quickly?\nShe did not believe it was right, and the extra tests found cracks inside two of the joints."
+    },
+    {
+      "title": "Why Skyscrapers Sway",
+      "summary": "Why tall buildings are designed to move in the wind, how people sense the motion, and how engineers keep it small.",
+      "newWords": [
+        "wardrobe",
+        "overly",
+        "perceive",
+        "neuron",
+        "gadget",
+        "vicious",
+        "dominance",
+        "nationalism"
+      ],
+      "text": "If you work on a high floor of a skyscraper, you may have noticed something odd on a day of strong wind: the water in your glass shakes slightly, or the clothes in a hotel wardrobe swing gently, though no one has touched them. Tall buildings sway, and they are designed to.\n\nThat may sound alarming, but a building that could not bend at all would be overly heavy, overly expensive and, in a strong wind, more likely to crack. Steel and concrete, like a tree, survive by giving a little. In a storm, the top of a very tall tower may move a foot or more. The goal of engineers is not to stop the movement but to keep it small enough that the people inside do not perceive it.\n\nPeople do not perceive distance very well; what they perceive is a change in speed. Deep in the inner ear, tiny hairs in a fluid sense every movement of the head, and neurons carry these signals to the brain. When a building moves slowly and steadily, the neurons send nothing alarming. When it speeds up and slows down too quickly, the brain receives mixed messages, and some people begin to feel sick. Engineers therefore judge the comfort of a building by how quickly its speed changes, which they call its acceleration.\n\nAs the wind flows around a tall, box-shaped building, it forms spinning currents of air that break away from one side and then the other, pushing the tower from side to side. To confuse the wind, designers make towers that narrow as they rise, cut notches into their corners or give them a gentle twist, so that the currents never fall into step.\n\nSome towers also carry a huge weight near the top. The most famous is in Taipei 101, in Taiwan, which hangs a steel ball of about 660 tons between its 87th and 92nd floors. It is far more than a clever gadget: when the wind pushes the building one way, the heavy ball swings the other way and absorbs much of the motion. Taiwan suffers vicious storms almost every year, and in 2015, during one vicious typhoon, the ball swung about 3 feet, more than ever before. Smaller towers use cheaper versions of the same gadget, such as large tanks of water.\n\nFor most of the last century, the United States held a clear dominance in tall buildings: the world's tallest tower almost always stood in one of its cities. That dominance ended in 1998, when the Petronas Towers in Malaysia took the title. Some historians see a touch of nationalism in this race, since a record tower announces a country's success to the world. Yet nationalism does not hold a building up. Whatever the reason for building high, the tower must still answer to the wind.\n\nQuestions:\nWhat signs of sway might you notice on a high floor?\nThe water in your glass may shake, or the clothes in a wardrobe may swing.\nWhy would a building that could not bend be a bad idea?\nIt would be overly heavy, overly expensive and more likely to crack in a strong wind.\nWhat do people actually perceive when a building moves?\nThey perceive changes in speed, which the inner ear senses and neurons carry to the brain.\nHow does the steel ball in Taipei 101 work?\nWhen the wind pushes the building one way, the ball swings the other way and absorbs the motion."
+    },
+    {
+      "title": "The First Tunnel Under a River",
+      "summary": "How Marc Brunel, using an idea he took from a worm, built the Thames Tunnel in London.",
+      "newWords": [
+        "overthrow",
+        "primitive",
+        "airway",
+        "multiply",
+        "restart",
+        "redemption",
+        "redeem",
+        "utilized"
+      ],
+      "text": "Today, trains run under rivers all over the world, and passengers barely notice. Two hundred years ago, however, digging beneath a river seemed close to impossible. The soft, wet ground kept collapsing, and the water above was always ready to rush in. The first tunnel known to be built under a river used by large ships was the Thames Tunnel in London, and its story is one of failure, patience and, in the end, redemption.\n\nIts designer, Marc Brunel, was born in France in 1769. He supported the king, so when the French Revolution set out to overthrow the king, Brunel had to flee for his life. He went first to the United States and later to England, where he became a successful engineer.\n\nBrunel's great idea came from an unlikely teacher: the shipworm, a small creature that bores through the wood of ships. As it digs, it protects itself with a hard shell at its front. Brunel designed an iron shield on the same principle. The shield was a huge frame divided into 36 cells, and in each cell a miner dug away a few inches of earth at a time, while other men built the tunnel's brick walls right behind him. Work began in 1825.\n\nBy modern standards, the tools were primitive: picks, candles and the strength of human arms. The air supply was equally primitive. The river above was full of waste from the city, the air in the tunnel was foul, and there was no proper airway to bring fresh air in. Men fell ill. Then the problems multiplied. The river broke in twice, in 1827 and 1828, and the second flood killed six workers. As the costs multiplied, the money ran out, the tunnel was bricked up, and for seven years nothing moved.\n\nIn 1835, with a loan from the government, work could restart. Brunel built a new, stronger shield, and the miners began again exactly where they had stopped. After this restart, progress was slow but steady, and the tunnel finally opened in 1843. About a million people visited in its first few months.\n\nYet the tunnel was also a disappointment. There was no money left to build the long ramps that horses and carriages needed, so it carried only people on foot, and over the years it became a dark place with a poor reputation. Its redemption came in 1869, when trains began to run through it as part of a new railway. The trains redeemed the tunnel, and they still run through it today.\n\nBrunel's shield redeemed his reputation, too. Modern tunnel boring machines are far larger and are run by computers, but they are utilized in the same way: a protective shield at the front, with the walls built right behind it. The same principle is utilized under rivers all over the world, and today's tunnels also have a separate airway with powerful fans. Every one of them owes something to a worm.\n\nQuestions:\nWhy did Marc Brunel have to leave France?\nHe supported the king, so when the Revolution set out to overthrow the king, he had to flee.\nWhat gave Brunel the idea for his shield?\nThe shipworm, which protects itself with a hard shell as it bores through wood.\nWhy did the work stop for seven years?\nThe river broke in twice, the costs multiplied, and the money ran out.\nWhat was the tunnel's redemption?\nIn 1869, trains began to run through it and gave it a purpose."
+    },
+    {
+      "title": "Buildings That Bend but Do Not Break",
+      "summary": "How engineers study past earthquakes to design buildings that survive the next one.",
+      "newWords": [
+        "vulnerability",
+        "psychic",
+        "derive",
+        "rewrite",
+        "outright",
+        "weaken",
+        "reinforced",
+        "replicate",
+        "shrine"
+      ],
+      "text": "When an earthquake strikes, the ground beneath a building moves suddenly, first one way and then the other. The foundation moves with the ground, but the floors above, because of their weight, tend to stay where they are. As a result, the building bends, and its upper floors swing back and forth. A building's vulnerability depends on how well it can survive that bending.\n\nEngineers are not psychic. No one, psychic or scientist, can say on which day the next large earthquake will strike. What engineers can do is study the past. From records of the ground's movement during real earthquakes, they derive the forces that a new building must be able to resist. After almost every major earthquake, investigators study which buildings failed and why, and parts of the building codes are rewritten. In California, for example, the rules for steel buildings were rewritten after the Northridge earthquake of 1994 revealed that some steel connections could crack.\n\nSome of the greatest weaknesses are simple. Old buildings made of brick, without steel inside, can fall apart outright, because brick holds well when it is pressed down but breaks when it is bent. Another common vulnerability is a weak ground floor, such as an apartment building over a parking garage, with open spaces where walls should be. Large openings weaken the lowest floor, and in a strong earthquake, a floor that is too weak may give way under the weight above it.\n\nMost modern buildings are made of reinforced concrete, which is concrete with steel bars inside. The concrete resists pushing, while the steel resists pulling, so a reinforced column can crack and bend without breaking. The cracks weaken it, but they do not destroy it. The goal is not to prevent all damage. A building may be so badly damaged that it has to be torn down later, but it must not collapse outright, so that everyone inside can get out alive.\n\nSome buildings go further and stand on special pads made of layers of rubber and steel. When the ground moves, the pads let it slide beneath the building, so the building itself moves far less. To test such ideas, engineers use shake tables, huge platforms that can replicate a recorded earthquake. The largest, in Japan, can carry a full-size building of several floors and replicate the shaking of a real earthquake with great accuracy.\n\nJapan also offers a much older lesson. Many of its old wooden temples and shrines have stood through centuries of earthquakes in one of the most earthquake-prone countries in the world. In the tall towers of some temples, the floors are not firmly fixed to one another, so each floor can shift a little on its own, while a thick central post keeps them from moving too far. The builders of those temples and shrines had no computers, but they understood the same truth as modern engineers: a structure that can bend survives.\n\nQuestions:\nHow do engineers derive the forces a building must resist?\nThey derive them from records of the ground's movement during real earthquakes.\nWhy can old brick buildings fall apart outright?\nBrick holds well when it is pressed down but breaks when it is bent.\nWhat is a shake table used for?\nIt is used to replicate a recorded earthquake in order to test buildings.\nWhat truth did the builders of old temples and shrines understand?\nThey understood that a structure that can bend survives."
+    },
+    {
+      "title": "The Day We Raised a Barn",
+      "summary": "A narrator describes how a whole community raised a timber-frame barn on her uncle's farm in a single day.",
+      "newWords": [
+        "livestock",
+        "humidity",
+        "sunrise",
+        "biscuit",
+        "brew",
+        "dart",
+        "innocence",
+        "refreshing",
+        "daisy",
+        "bulldog"
+      ],
+      "text": "Last spring, a storm knocked down the old barn on my uncle's farm in Ohio. The barn was more than a hundred years old, and my uncle, Tom, could not imagine the farm without one. His livestock, thirty cows and a few goats, needed shelter before winter, so he decided to build a new barn the old way: a timber frame, raised in a single day by the whole community.\n\nFor two months before the raising, a carpenter named Ruth worked in Tom's yard, cutting the joints by hand. In a timber frame, no nails hold the main beams together. Instead, the end of one beam is cut into a kind of tongue that fits into a hole in the next beam. Then a hole is drilled through both, and a wooden peg is driven in. Ruth explained that the holes are drilled slightly out of line, so that the peg pulls the joint tight as it goes in.\n\nShe also had to think about humidity. Fresh oak is full of water, and as it dries over the next few years, it shrinks. When the humidity is low, it shrinks faster. \"The frame will keep moving for years,\" Ruth said, \"but the pegs will hold it.\"\n\nThe raising began at sunrise. My aunt, Ellen, had been up long before sunrise, and she greeted each family with a hot biscuit and coffee, which she brewed in a huge pot borrowed from the church. By seven, sixty people had arrived, and she had brewed three more pots.\n\nThe frame went up in sections, each one a whole wall of beams. Every section was pinned together flat on the floor and then raised by thirty people with ropes and long poles. Ruth stood in front and called out the steps, and everyone pushed at once. Swallows from the old barn darted around the new frame all morning, darting in and out between the beams as if they were checking our work.\n\nChildren helped too, carrying pegs in buckets. They cheered every time a wall rose, as if they had lifted it alone, and there was a kind of innocence in their joy. Watching that innocence, I understood why people had raised barns this way for centuries: the work was hard, but it belonged to everyone.\n\nAt noon, we ate lunch in the field behind the house, sitting among the daisies. A little girl put a daisy behind her father's ear, and he wore it all afternoon. The afternoon was hot, and Mr. Hale, a neighbor, brought jars of iced tea; nothing has ever tasted as refreshing. Even more refreshing was the shade. His old bulldog slept under a wagon all day, and the bulldog woke up only for lunch.\n\nBy evening, the roof beams were in place. At sunset, Ruth climbed to the highest point of the frame and tied a small pine branch there, an old builders' custom. Everyone below clapped, and Tom, who rarely speaks in public, said simply, \"Thank you. This barn is yours as much as mine.\"\n\nQuestions:\nWhy did Tom need a new barn before winter?\nHis livestock needed shelter before winter.\nWhy did Ruth have to think about humidity?\nFresh oak shrinks as it dries, and it shrinks faster when the humidity is low.\nWhat did Ellen give each family at sunrise?\nShe gave each family a hot biscuit and coffee, which she brewed in a huge pot."
+    },
+    {
+      "title": "From the River to Your Glass",
+      "summary": "A reporter spends a morning at a water treatment plant and learns how river water is made safe to drink.",
+      "newWords": [
+        "naive",
+        "rainfall",
+        "timer",
+        "peek",
+        "bleach",
+        "outlaw",
+        "directive",
+        "brewer",
+        "shrimp"
+      ],
+      "text": "Most of us turn on the tap without a thought. It is naive, however, to believe that water is safe simply because it looks clear. Clear water can still carry bacteria, viruses and chemicals that the eye cannot see. To learn how our city's water is made safe, I spent a morning at the water treatment plant with Carla Diaz, who runs it.\n\nThe plant takes its water from the river. Carla first showed me the screens at the intake, which stop fish, branches and trash. Then the water enters large tanks, where a chemical is added that makes tiny particles of mud stick together. The water is stirred slowly, the particles grow into soft lumps, and the lumps gradually sink to the bottom. \"After heavy rainfall, the river turns brown,\" Carla said, \"and we have to add more of the chemical.\"\n\nNext, the water passes slowly through deep beds of sand and gravel, which trap the smaller particles. She let me peek into one of the filters through a small window, and I saw the water sinking slowly through the sand. Over time, the filters become blocked, so they are cleaned by pumping water backward through them. Some plants do this on a timer. Carla's plant uses both a timer and sensors that show how hard the water is pushing.\n\nThen comes the most important step: killing any bacteria that remain. Bacteria multiply quickly in warm water, so the plant adds a chemical that is very similar to household bleach, only much stronger. \"It's the same chemistry as the bleach under your sink,\" she said. A small amount stays in the water all the way to people's homes, so that bacteria cannot multiply in the pipes. If the water sometimes smells a little like a swimming pool, that is why.\n\nSome older houses in the city are still connected by lead pipes. The country outlawed lead pipes for new homes in 1986, but a law that can outlaw new pipes cannot remove the old ones. Lead is especially harmful to children, because it damages the developing brain. So the plant adds a substance that forms a thin coating inside old pipes, and a state directive requires it to test water from homes with lead pipes every year. The same directive tells the plant to warn families if a test fails.\n\nBefore I left, I took one more peek into the control room, where screens showed every tank. Carla's most demanding customer, she told me, is not a scientist but a local brewer, who calls whenever the taste of the water changes, because even a small change affects everything he brews.\n\nThe used water from our homes goes to a second plant, which cleans it again before it flows back to the river and down to the bay, where boats still catch shrimp. Carla likes to remind visitors that the river belongs to everyone, the shrimp included.\n\nQuestions:\nWhy is it naive to believe that clear water is safe?\nClear water can still carry bacteria, viruses and chemicals that the eye cannot see.\nWhat happens to the river after heavy rainfall?\nIt turns brown, and the plant has to add more of the chemical.\nWhy does the water sometimes smell a little like a swimming pool?\nThe plant adds a chemical similar to bleach, and a small amount stays in the water.\nWhy does a local brewer call Carla?\nHe calls whenever the taste of the water changes, because it affects everything he brews."
+    },
+    {
+      "title": "A Film About the Brooklyn Bridge",
+      "summary": "A review of a documentary that tells how one family built the Brooklyn Bridge.",
+      "newWords": [
+        "premise",
+        "intro",
+        "imagery",
+        "narrator",
+        "applause",
+        "fireworks",
+        "muse",
+        "immortal",
+        "belle"
+      ],
+      "text": "The premise of \"The Bridge Builders,\" a new documentary about the Brooklyn Bridge, is simple: the bridge was not built by one genius but by one family, over two generations and fourteen years. It is not a new premise, but the film tells the story with such care that it feels fresh.\n\nThe intro is a quiet one. For the first few minutes, there is no voice at all, only imagery of the bridge at dawn: the stone towers, the web of cables, the mist on the East River. When the narrator finally speaks, she speaks quietly, almost like a friend, and her voice suits the material. A good narrator knows when to be silent, and this one does.\n\nThe story begins with John Roebling, the German-born engineer who designed the bridge. In 1869, while he was studying the site, a ferry crushed his foot against a pier, and he died of an infection a few weeks later, before construction had even begun. His son, Washington, took over. To build the foundations of the towers, workers dug inside enormous wooden boxes that had been sunk to the bottom of the river and filled with air under high pressure to keep the water out. Many men who came up too quickly fell seriously ill, and in 1872 Washington Roebling himself became so sick that he could no longer visit the site.\n\nThe real heroine of the film is Emily, his wife. For eleven years, Washington watched the work through a telescope from his window in Brooklyn, and Emily carried his instructions to the engineers. She studied mathematics and the strength of materials so that she could answer their questions herself. The imagery of this section stays with you: a sick man at a window, and a woman crossing the building site with notes in her hand.\n\nThe final section shows the opening on May 24, 1883, when Emily became the first person to cross the bridge by carriage. That night the sky above the river filled with fireworks, and the crowds broke into applause. The film shows drawings of the fireworks made at the time, and at the showing I attended, the audience broke into applause as well.\n\nThe film then shows how the bridge became a muse for painters, poets and photographers, a muse that has inspired artists for more than a century. If the documentary has a weakness, it is a slightly slow middle. Still, it leaves no doubt that the Roeblings are immortal in the only way engineers can be immortal: as long as the bridge stands, their work lives. When it opened, the bridge was the belle of New York: the most admired structure in the city and the longest suspension bridge in the world. Many bridges are longer now, but in the eyes of many people it is still the belle of the city, and this film shows why.\n\nQuestions:\nWhat is the premise of the documentary?\nThe premise is that the bridge was built not by one genius but by one family, over two generations.\nHow does the film's intro begin?\nIt begins with no voice at all, only imagery of the bridge at dawn.\nWhat did Emily Roebling do while her husband was ill?\nShe carried his instructions to the engineers and studied mathematics and the strength of materials.\nWhat happened on the night the bridge opened?\nThe sky filled with fireworks, and the crowds broke into applause."
+    },
+    {
+      "title": "The Lighthouse on the Rocks",
+      "summary": "How John Smeaton learned from an oak tree to build a lighthouse that stood for over a century.",
+      "newWords": [
+        "notorious",
+        "phantom",
+        "beacon",
+        "hostility",
+        "thoughtful",
+        "seeker",
+        "infinity"
+      ],
+      "text": "About 12 miles off the coast of Plymouth, England, a group of rocks called the Eddystone lies in the path of ships. For centuries, the Eddystone was notorious among sailors. At high tide, most of the rocks disappear beneath the waves, so the reef was a kind of phantom: invisible, yet deadly. A captain could sail straight into the phantom without ever seeing it, and many ships were wrecked there.\n\nPeople tried to build a beacon on the rocks to warn ships away. The first tower, finished in 1698, was washed away in a great storm in 1703, with its builder inside. The second, made largely of wood, burned down in 1755. So the next builder, John Smeaton, was asked for a tower that could survive fire, water and the endless hostility of the sea.\n\nSmeaton was a thoughtful man, more a seeker of answers than a seeker of fame. Before he drew a single line, he mused for a long time on a simple question: what in nature stands firm against the wind? His answer was the oak tree. An oak is wide at its base, narrows as it rises and curves gently at the bottom, so that the force of the wind passes down into its roots. It was a thoughtful answer, and it shaped his tower.\n\nHe designed a stone tower with the same shape. To fight the hostility of the waves, he cut each granite block so that it locked into the blocks around it, like the pieces of a puzzle, and he cut steps into the rock itself so that the lowest blocks locked into it. He also needed a mortar that would harden under water, so he tested many kinds of lime until he found one that did. His tests helped other builders on the long road toward modern cement.\n\nThe tower was finished in 1759, and its light, provided by 24 candles, became a beacon for every ship in the area. For more than a century, through vicious storms, the beacon never failed. It was not the tower that gave way but the rock beneath it, which the sea had slowly worn away. A new lighthouse was built on a nearby rock, and the upper part of Smeaton's tower was taken down stone by stone and rebuilt on land in Plymouth, where visitors can still climb it.\n\nFrom the top, on a clear day, the gray sea seems to stretch to infinity. Nothing built by human hands lasts to infinity, but Smeaton's tower has come close. He was also among the first people to call himself a \"civil engineer,\" to show that he built for ordinary people rather than for the army. Many engineers today still see him as the father of their profession.\n\nQuestions:\nWhy was the Eddystone notorious among sailors?\nAt high tide, most of the rocks disappeared, so many ships were wrecked there.\nWhat happened to the first two towers on the rocks?\nThe first was washed away in a great storm, and the second burned down.\nWhat did Smeaton learn from the oak tree?\nHe learned that a shape that is wide at the base and narrow at the top stands firm against the wind.\nHow did Smeaton fight the hostility of the waves?\nHe cut each granite block so that it locked into the blocks around it and into the rock.\nWhat happened to the upper part of Smeaton's tower?\nIt was taken down stone by stone and rebuilt on land in Plymouth."
+    }
+  ]
+}
