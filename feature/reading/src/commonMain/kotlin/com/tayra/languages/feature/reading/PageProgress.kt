@@ -39,6 +39,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import com.tayra.languages.core.ui.i18n.tr
 import kotlin.math.roundToInt
 
 /**
@@ -60,11 +61,14 @@ internal fun PageProgress(
     var dragged by remember(pageNumber, pageCount) { mutableFloatStateOf(pageNumber.toFloat()) }
     val shown = dragged.roundToInt()
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-        PageStepButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, "Previous page", enabled = pageNumber > 1) { onGoTo(pageNumber - 1) }
+        PageStepButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, tr("Previous page"), enabled = pageNumber > 1) { onGoTo(pageNumber - 1) }
         Text(
             buildAnnotatedString {
+                val text = tr("{0}  of {1}", shown, pageCount)
+                val number = text.indexOf("$shown").coerceAtLeast(0)
+                withStyle(SpanStyle(color = colors.onSurfaceVariant)) { append(text.substring(0, number)) }
                 withStyle(SpanStyle(fontWeight = FontWeight.Bold, color = colors.onSurface, fontSize = MaterialTheme.typography.titleLarge.fontSize)) { append("$shown") }
-                withStyle(SpanStyle(color = colors.onSurfaceVariant)) { append("  of $pageCount") }
+                withStyle(SpanStyle(color = colors.onSurfaceVariant)) { append(text.substring(number + "$shown".length)) }
             },
             style = MaterialTheme.typography.bodyMedium,
             softWrap = false,
@@ -88,7 +92,7 @@ internal fun PageProgress(
         } else if (sliderWidth == null) {
             Spacer(Modifier.weight(1f))
         }
-        PageStepButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, "Next page", enabled = pageNumber < pageCount) { onGoTo(pageNumber + 1) }
+        PageStepButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, tr("Next page"), enabled = pageNumber < pageCount) { onGoTo(pageNumber + 1) }
     }
 }
 

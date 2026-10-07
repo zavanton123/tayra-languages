@@ -13,6 +13,7 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.service.TermPopup
+import com.tayra.languages.core.ui.i18n.tr
 
 /** Hover/tap information for a term. */
 @Composable
@@ -24,7 +25,7 @@ fun TermPopupCard(popup: TermPopup, modifier: Modifier = Modifier) {
                 Column(Modifier.padding(top = 10.dp)) { popup.parents.forEach { PopupEntry(it, isMain = false) } }
             }
             if (popup.components.isNotEmpty()) {
-                Text("Components", style = MaterialTheme.typography.labelMedium, fontStyle = FontStyle.Italic, modifier = Modifier.padding(top = 10.dp))
+                Text(tr("Components"), style = MaterialTheme.typography.labelMedium, fontStyle = FontStyle.Italic, modifier = Modifier.padding(top = 10.dp))
                 popup.components.forEach { PopupEntry(it, isMain = false) }
             }
         }

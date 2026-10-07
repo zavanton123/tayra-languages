@@ -79,6 +79,7 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.render.RenderedPage
 import com.tayra.languages.core.domain.render.TextItem
 import com.tayra.languages.core.ui.theme.AppTheme
+import com.tayra.languages.core.ui.i18n.tr
 
 /** Callbacks from the text to the screen. Item indexes refer to [RenderedPage.items]. */
 class ReadingTextCallbacks(
@@ -260,9 +261,10 @@ private const val PLAY_BUTTON_SIZE = 32
 @Composable
 private fun SpeakerCircle(playing: Boolean, preparing: Boolean, modifier: Modifier, onClick: () -> Unit) {
     val primary = MaterialTheme.colorScheme.primary
+    val description = if (playing) tr("Stop") else if (preparing) tr("Preparing sentence") else tr("Play sentence")
     Box(
         modifier.clip(CircleShape).background(primary.copy(alpha = 0.12f)).clickable(onClick = onClick)
-            .semantics { contentDescription = if (playing) "Stop" else if (preparing) "Preparing sentence" else "Play sentence" },
+            .semantics { contentDescription = description },
         contentAlignment = Alignment.Center,
     ) {
         when {
@@ -295,8 +297,9 @@ private fun Modifier.followed(isReading: Boolean, follow: Boolean, tint: Color, 
             requester.bringIntoView()
         }
     }
+    val current = tr(CURRENT_SENTENCE)
     val measured = onSizeChanged { measuredSize = it }.bringIntoViewRequester(requester)
-        .then(if (isReading) Modifier.semantics { stateDescription = CURRENT_SENTENCE } else Modifier)
+        .then(if (isReading) Modifier.semantics { stateDescription = current } else Modifier)
     if (!isReading || tint == Color.Transparent) return measured
     return measured.drawBehind {
         val side = reach.toPx()
@@ -339,7 +342,7 @@ private fun TranslationLine(translation: SentenceTranslation?, theme: AppTheme, 
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             CircularProgressIndicator(modifier = Modifier.size(12.dp), strokeWidth = 1.5.dp, color = color)
-            Text("Translating\u2026", style = TextStyle(fontSize = (13 * fontScale).sp, color = color))
+            Text(tr("Translating\u2026"), style = TextStyle(fontSize = (13 * fontScale).sp, color = color))
         }
         SentenceTranslation.Unavailable -> Spacer(Modifier.height(6.dp))
     }

@@ -105,7 +105,6 @@ import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.service.LocalTranslationProblem
 import com.tayra.languages.core.domain.service.SentenceTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
-import com.tayra.languages.core.domain.service.label
 import androidx.compose.runtime.collectAsState
 import kotlin.math.roundToInt
 import com.tayra.languages.core.domain.service.SpeechEngine
@@ -131,6 +130,8 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.TextInputDialog
 import com.tayra.languages.core.ui.hotkeys.HotkeyMatcher
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.ReadingFont
@@ -324,8 +325,8 @@ fun ReadingScreen(
     }
     if (bookmarkDialog) {
         TextInputDialog(
-            title = "Add bookmark",
-            label = "Title",
+            title = tr("Add bookmark"),
+            label = tr("Title"),
             onConfirm = { viewModel.addBookmark(it.trim()); bookmarkDialog = false },
             onDismiss = { bookmarkDialog = false },
         )
@@ -353,23 +354,23 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
             Icon(AppIcons.Otter, contentDescription = null, tint = colors.primary, modifier = Modifier.size(40.dp))
             Spacer(Modifier.width(14.dp))
             Column(Modifier.weight(1f)) {
-                Text("Reader settings", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+                Text(tr("Reader settings"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
                 Text(state.book?.title.orEmpty(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
             }
             Box(
                 Modifier.size(40.dp).clip(RoundedCornerShape(20.dp)).background(colors.surfaceVariant.copy(alpha = 0.6f)).clickable(onClick = onClose),
                 contentAlignment = Alignment.Center,
-            ) { Icon(Icons.Default.Close, contentDescription = "Close menu", modifier = Modifier.size(20.dp)) }
+            ) { Icon(Icons.Default.Close, contentDescription = tr("Close menu"), modifier = Modifier.size(20.dp)) }
         }
 
-        MenuSection("Reading")
-        SwitchRow(AppIcons.Fullscreen, "Focus mode", prefs.focusMode) { viewModel.toggleFocusMode() }
-        SwitchRow(AppIcons.Palette, "Highlight terms", prefs.showHighlights) { viewModel.toggleHighlights() }
-        SwitchRow(AppIcons.LineSpacing, "One sentence per line", prefs.splitSentences) { viewModel.toggleSplitSentences() }
+        MenuSection(tr("Reading"))
+        SwitchRow(AppIcons.Fullscreen, tr("Focus mode"), prefs.focusMode) { viewModel.toggleFocusMode() }
+        SwitchRow(AppIcons.Palette, tr("Highlight terms"), prefs.showHighlights) { viewModel.toggleHighlights() }
+        SwitchRow(AppIcons.LineSpacing, tr("One sentence per line"), prefs.splitSentences) { viewModel.toggleSplitSentences() }
 
-        MenuSection("Translation")
-        SwitchRow(AppIcons.Translate, "Show translations", prefs.showTranslations) { viewModel.toggleShowTranslations() }
-        SwitchRow(AppIcons.ViewColumn, "Translations side by side", prefs.sideBySideTranslations) { viewModel.toggleSideBySideTranslations() }
+        MenuSection(tr("Translation"))
+        SwitchRow(AppIcons.Translate, tr("Show translations"), prefs.showTranslations) { viewModel.toggleShowTranslations() }
+        SwitchRow(AppIcons.ViewColumn, tr("Translations side by side"), prefs.sideBySideTranslations) { viewModel.toggleSideBySideTranslations() }
         EngineRow(
             selected = prefs.translationEngine,
             options = viewModel.availableEngines,
@@ -382,38 +383,38 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
 
         SpeechSection(state, viewModel, onSettings = { onClose(); actions.onSpeechSettings() })
 
-        MenuSection("Typography")
+        MenuSection(tr("Typography"))
         val font = ReadingFont.byId(prefs.readingFont)
         ChoiceRow(
             icon = AppIcons.Abc,
-            title = "Font",
-            value = font.label,
+            title = tr("Font"),
+            value = tr(font.label),
             options = ReadingFont.choices,
-            optionLabel = { it.label },
+            optionLabel = { tr(it.label) },
             optionFont = { it },
             onSelect = viewModel::setReadingFont,
         )
-        AdjustRow(AppIcons.FormatSize, "Font size", "${(prefs.readingFontScale * 100).toInt()}%", onLess = { viewModel.adjustFontScale(-0.1f) }, onMore = { viewModel.adjustFontScale(0.1f) })
-        AdjustRow(AppIcons.LineSpacing, "Line height", "${(prefs.readingLineHeight * 10).toInt() / 10f}", onLess = { viewModel.adjustLineHeight(-0.1f) }, onMore = { viewModel.adjustLineHeight(0.1f) })
-        AdjustRow(AppIcons.OpenInFull, "Text width", "${prefs.readingColumnWidth}", onLess = { viewModel.adjustColumnWidth(-80) }, onMore = { viewModel.adjustColumnWidth(80) })
+        AdjustRow(AppIcons.FormatSize, tr("Font size"), "${(prefs.readingFontScale * 100).toInt()}%", onLess = { viewModel.adjustFontScale(-0.1f) }, onMore = { viewModel.adjustFontScale(0.1f) })
+        AdjustRow(AppIcons.LineSpacing, tr("Line height"), "${(prefs.readingLineHeight * 10).toInt() / 10f}", onLess = { viewModel.adjustLineHeight(-0.1f) }, onMore = { viewModel.adjustLineHeight(0.1f) })
+        AdjustRow(AppIcons.OpenInFull, tr("Text width"), "${prefs.readingColumnWidth}", onLess = { viewModel.adjustColumnWidth(-80) }, onMore = { viewModel.adjustColumnWidth(80) })
 
         // A lesson's text belongs to its course.
         if (state.lesson == null) {
-            MenuSection("Edit")
-            MenuRow(AppIcons.MenuBook, "Edit book") { onClose(); actions.onEditBook() }
-            MenuRow(AppIcons.Page, "Edit current page") { onClose(); actions.onEditPage() }
+            MenuSection(tr("Edit"))
+            MenuRow(AppIcons.MenuBook, tr("Edit book")) { onClose(); actions.onEditBook() }
+            MenuRow(AppIcons.Page, tr("Edit current page")) { onClose(); actions.onEditPage() }
         }
 
-        MenuSection("Bookmarks")
-        MenuRow(AppIcons.Bookmark, "List bookmarks") { onClose(); actions.onBookmarks() }
-        MenuRow(AppIcons.BookmarkAdd, "Add bookmark") { onClose(); actions.onAddBookmark() }
+        MenuSection(tr("Bookmarks"))
+        MenuRow(AppIcons.Bookmark, tr("List bookmarks")) { onClose(); actions.onBookmarks() }
+        MenuRow(AppIcons.BookmarkAdd, tr("Add bookmark")) { onClose(); actions.onAddBookmark() }
 
-        MenuSection("Vocabulary")
-        MenuRow(Icons.AutoMirrored.Filled.List, "Term list for this page") { onClose(); actions.onTermList() }
+        MenuSection(tr("Vocabulary"))
+        MenuRow(Icons.AutoMirrored.Filled.List, tr("Term list for this page")) { onClose(); actions.onTermList() }
 
         if (!state.book?.sourceUri.isNullOrBlank()) {
-            MenuSection("More")
-            MenuRow(AppIcons.Link, "Show source URL") { onClose(); actions.onSource() }
+            MenuSection(tr("More"))
+            MenuRow(AppIcons.Link, tr("Show source URL")) { onClose(); actions.onSource() }
         }
     }
 }
@@ -484,13 +485,17 @@ private fun EngineRow(
     onSelect: (TranslationEngine) -> Unit,
 ) {
     fun usable(engine: TranslationEngine) = engine in setOf(TranslationEngine.MYMEMORY, TranslationEngine.ARGOS) || engine in keyed
-    fun name(engine: TranslationEngine) = engine.label(localTranslatorName)
+    fun name(engine: TranslationEngine) = when (engine) {
+        TranslationEngine.ARGOS -> if (localTranslatorName != null) tr("{0} (offline, free)", localTranslatorName) else tr("On this device (offline, free)")
+        TranslationEngine.MYMEMORY -> tr("MyMemory (online, free)")
+        TranslationEngine.GOOGLE -> tr("Google Translate (online, API key)")
+    }
     ChoiceRow(
         icon = AppIcons.Globe,
-        title = "Translation engine",
+        title = tr("Translation engine"),
         value = name(selected),
         options = options,
-        optionLabel = { if (usable(it)) name(it) else "${name(it)} \u2013 add a key in Settings" },
+        optionLabel = { if (usable(it)) name(it) else tr("{0} \u2013 add a key in Settings", name(it)) },
         optionEnabled = ::usable,
         onSelect = onSelect,
     )
@@ -505,15 +510,15 @@ private fun SpeechSection(state: ReadingUiState, viewModel: ReadingViewModel, on
     val local = prefs.speechEngine != SpeechEngine.SYSTEM && prefs.speechEngine in viewModel.speechEngines
     val languageName = state.language?.name.orEmpty()
 
-    MenuSection("Speech")
-    SwitchRow(AppIcons.VolumeUp, "Play audio", prefs.showSentencePlay) { viewModel.toggleSentencePlay() }
-    SwitchRow(AppIcons.Abc, "Speak word on click", prefs.speakWordOnClick) { viewModel.toggleSpeakWordOnClick() }
+    MenuSection(tr("Speech"))
+    SwitchRow(AppIcons.VolumeUp, tr("Play audio"), prefs.showSentencePlay) { viewModel.toggleSentencePlay() }
+    SwitchRow(AppIcons.Abc, tr("Speak word on click"), prefs.speakWordOnClick) { viewModel.toggleSpeakWordOnClick() }
     ChoiceRow(
         icon = AppIcons.VolumeUp,
-        title = "Speech engine",
-        value = (prefs.speechEngine.takeIf { it in viewModel.speechEngines } ?: SpeechEngine.SYSTEM).label,
+        title = tr("Speech engine"),
+        value = speechEngineName(prefs.speechEngine.takeIf { it in viewModel.speechEngines } ?: SpeechEngine.SYSTEM),
         options = viewModel.speechEngines,
-        optionLabel = { it.label },
+        optionLabel = ::speechEngineName,
         onSelect = viewModel::setSpeechEngine,
     )
     if (local) {
@@ -521,7 +526,7 @@ private fun SpeechSection(state: ReadingUiState, viewModel: ReadingViewModel, on
             val chosen = prefs.speechVoices["${prefs.speechEngine.name}:${viewModel.speechLanguage}"]
             ChoiceRow(
                 icon = AppIcons.RecordVoiceOver,
-                title = if (languageName.isEmpty()) "Voice" else "$languageName voice",
+                title = if (languageName.isEmpty()) tr("Voice") else tr("{0} voice", tr(languageName)),
                 value = (voices.firstOrNull { it.id == chosen } ?: voices.first()).name,
                 options = voices,
                 optionLabel = { it.name },
@@ -529,15 +534,21 @@ private fun SpeechSection(state: ReadingUiState, viewModel: ReadingViewModel, on
             )
         } else {
             Text(
-                "No voice for $languageName is downloaded, so the system voice reads this text. Download one in Speech settings.",
+                tr("No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings.", tr(languageName)),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
             )
         }
-        if (viewModel.speechSpeedAdjustable()) AdjustRow(AppIcons.Speed, "Speed", "${(prefs.speechSpeed * 100).roundToInt()}%", onLess = { viewModel.adjustSpeechSpeed(-0.1f) }, onMore = { viewModel.adjustSpeechSpeed(0.1f) })
+        if (viewModel.speechSpeedAdjustable()) AdjustRow(AppIcons.Speed, tr("Speed"), "${(prefs.speechSpeed * 100).roundToInt()}%", onLess = { viewModel.adjustSpeechSpeed(-0.1f) }, onMore = { viewModel.adjustSpeechSpeed(0.1f) })
     }
-    MenuRow(AppIcons.Tune, "Speech settings", onClick = onSettings)
+    MenuRow(AppIcons.Tune, tr("Speech settings"), onClick = onSettings)
+}
+
+private fun speechEngineName(engine: SpeechEngine): String = when (engine) {
+    SpeechEngine.SYSTEM -> tr("System voices")
+    SpeechEngine.PIPER -> tr("Piper (offline, downloadable voices)")
+    SpeechEngine.KOKORO -> tr("Kokoro (offline, high quality)")
 }
 
 /** A setting picked from a menu anchored to the row, showing the current [value] under the [title]. */
@@ -598,9 +609,9 @@ private fun ReadingHeader(state: ReadingUiState, viewModel: ReadingViewModel, on
     Surface(tonalElevation = 2.dp) {
         Column(Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 4.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = "Menu") }
-                if (state.lesson == null) IconButton(onClick = onHome) { Icon(Icons.Default.Home, contentDescription = "Home") }
-                else IconButton(onClick = onHome) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back to course") }
+                IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = tr("Menu")) }
+                if (state.lesson == null) IconButton(onClick = onHome) { Icon(Icons.Default.Home, contentDescription = tr("Home")) }
+                else IconButton(onClick = onHome) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back to course")) }
                 Text(
                     state.book?.title.orEmpty(),
                     Modifier.weight(1f),
@@ -620,16 +631,16 @@ private fun ReaderToolbar(state: ReadingUiState, viewModel: ReadingViewModel, on
     val rtl = state.language?.rightToLeft == true
     Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
         Row(Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically) {
-            IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = "Menu") }
+            IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = tr("Menu")) }
             Spacer(Modifier.width(8.dp))
             val lesson = state.lesson
             val separator: @Composable () -> Unit = {
                 Text("/", style = MaterialTheme.typography.bodyLarge, color = colors.outline, modifier = Modifier.padding(horizontal = 8.dp))
             }
             if (lesson == null) {
-                Crumb("Books", onHome) { Icon(Icons.Default.Home, contentDescription = "Home", tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp)) }
+                Crumb(tr("Books"), onHome) { Icon(Icons.Default.Home, contentDescription = tr("Home"), tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp)) }
             } else {
-                Crumb("Courses", onCourses) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp).size(20.dp)) }
+                Crumb(tr("Courses"), onCourses) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.padding(end = 2.dp).size(20.dp)) }
                 separator()
                 Crumb(lesson.course.title, onHome, Modifier.weight(1f, fill = false))
             }
@@ -670,16 +681,16 @@ private fun Crumb(label: String, onClick: () -> Unit, modifier: Modifier = Modif
 @Composable
 private fun FocusBar(state: ReadingUiState, viewModel: ReadingViewModel, onMenu: () -> Unit) {
     Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-        IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = "Menu") }
+        IconButton(onClick = onMenu) { Icon(Icons.Default.Menu, contentDescription = tr("Menu")) }
         Spacer(Modifier.weight(1f))
         IconButton(onClick = { viewModel.goToRelativePage(-1) }, enabled = !state.isFirstPage) {
-            Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = "Previous page")
+            Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous page"))
         }
         Text("${state.pageNumber}/${state.pageCount}", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
         IconButton(onClick = { viewModel.goToRelativePage(1) }, enabled = !state.isLastPage) {
-            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = "Next page")
+            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = tr("Next page"))
         }
-        TextButton(onClick = viewModel::toggleFocusMode) { Text("Exit focus") }
+        TextButton(onClick = viewModel::toggleFocusMode) { Text(tr("Exit focus")) }
     }
 }
 
@@ -818,7 +829,7 @@ private fun ReadingBody(
                 callbacks = callbacks,
             )
             if (state.selecting) {
-                Text("Long-press the last word of the expression, or tap to cancel.", style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
+                Text(tr("Long-press the last word of the expression, or tap to cancel."), style = MaterialTheme.typography.labelSmall, modifier = Modifier.clickable { viewModel.cancelSelection() })
             }
             if (!state.settings.focusMode) ReadingFooter(state, viewModel, onHome, onPractice, edgePadding)
         }
@@ -845,34 +856,34 @@ private val CONTROL_BORDER = 1.5.dp
 @Composable
 private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
     val colors = MaterialTheme.colorScheme
+    // Keys for one action are alternatives ("or"); a row of two opposite actions pairs them with "/".
+    val or = tr("or")
     val rows = listOf(
-        "Play / pause" to listOf(HotkeyAction.LISTEN_PLAY_PAUSE),
-        "Previous sentence" to listOf(HotkeyAction.LISTEN_PREVIOUS, HotkeyAction.LISTEN_PREVIOUS_ARROW),
-        "Next sentence" to listOf(HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW),
-        "Repeat sentence" to listOf(HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW),
-        "Pause / resume" to listOf(HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW),
-        "Mark word as known" to listOf(HotkeyAction.STATUS_WELL_KNOWN),
-        "Mark word as unknown" to listOf(HotkeyAction.DELETE_TERM),
-        "Show / hide the term pane" to listOf(HotkeyAction.TOGGLE_TERM_PANE),
-        "Next coloured word" to listOf(HotkeyAction.NEXT_COLORED_WORD),
-        "Previous coloured word" to listOf(HotkeyAction.PREV_COLORED_WORD),
-        "Larger / smaller text" to listOf(HotkeyAction.TEXT_LARGER, HotkeyAction.TEXT_SMALLER),
-        "More / less line height" to listOf(HotkeyAction.LINES_FURTHER, HotkeyAction.LINES_CLOSER),
-        "Text size / line height back to default" to listOf(HotkeyAction.TEXT_RESET, HotkeyAction.LINES_RESET),
-        "Auto-pause on / off" to listOf(HotkeyAction.LISTEN_AUTO_PAUSE),
-        "Next page" to listOf(HotkeyAction.NEXT_PAGE),
-        "Previous page" to listOf(HotkeyAction.PREVIOUS_PAGE),
-    ).mapNotNull { (label, actions) -> actions.mapNotNull { hotkeys[it] }.takeIf { it.isNotEmpty() }?.let { label to it } }
-    // Keys for one action are alternatives ("or"); a "this / that" row pairs two opposite actions.
-    fun separator(label: String) = if (" / " in label && !label.startsWith("Pause")) "/" else "or"
+        Triple(tr("Play / pause"), listOf(HotkeyAction.LISTEN_PLAY_PAUSE), or),
+        Triple(tr("Previous sentence"), listOf(HotkeyAction.LISTEN_PREVIOUS, HotkeyAction.LISTEN_PREVIOUS_ARROW), or),
+        Triple(tr("Next sentence"), listOf(HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW), or),
+        Triple(tr("Repeat sentence"), listOf(HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW), or),
+        Triple(tr("Pause / resume"), listOf(HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW), or),
+        Triple(tr("Mark word as known"), listOf(HotkeyAction.STATUS_WELL_KNOWN), or),
+        Triple(tr("Mark word as unknown"), listOf(HotkeyAction.DELETE_TERM), or),
+        Triple(tr("Show / hide the term pane"), listOf(HotkeyAction.TOGGLE_TERM_PANE), or),
+        Triple(tr("Next coloured word"), listOf(HotkeyAction.NEXT_COLORED_WORD), or),
+        Triple(tr("Previous coloured word"), listOf(HotkeyAction.PREV_COLORED_WORD), or),
+        Triple(tr("Larger / smaller text"), listOf(HotkeyAction.TEXT_LARGER, HotkeyAction.TEXT_SMALLER), "/"),
+        Triple(tr("More / less line height"), listOf(HotkeyAction.LINES_FURTHER, HotkeyAction.LINES_CLOSER), "/"),
+        Triple(tr("Text size / line height back to default"), listOf(HotkeyAction.TEXT_RESET, HotkeyAction.LINES_RESET), "/"),
+        Triple(tr("Auto-pause on / off"), listOf(HotkeyAction.LISTEN_AUTO_PAUSE), or),
+        Triple(tr("Next page"), listOf(HotkeyAction.NEXT_PAGE), or),
+        Triple(tr("Previous page"), listOf(HotkeyAction.PREVIOUS_PAGE), or),
+    ).mapNotNull { (label, actions, separator) -> actions.mapNotNull { hotkeys[it] }.takeIf { it.isNotEmpty() }?.let { Triple(label, it, separator) } }
     Surface(shape = RoundedCornerShape(14.dp), color = colors.surface, shadowElevation = 8.dp, border = BorderStroke(1.dp, colors.outlineVariant)) {
         Column(Modifier.padding(16.dp).width(440.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text("Keyboard shortcuts", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
-            rows.forEach { (label, keys) ->
+            Text(tr("Keyboard shortcuts"), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold)
+            rows.forEach { (label, keys, separator) ->
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     Row(Modifier.width(250.dp), horizontalArrangement = Arrangement.spacedBy(4.dp), verticalAlignment = Alignment.CenterVertically) {
                         keys.forEachIndexed { index, key ->
-                            if (index > 0) Text(separator(label), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant)
+                            if (index > 0) Text(separator, style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant)
                             KeyCap(key)
                         }
                     }
@@ -880,7 +891,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
                 }
             }
             Text(
-                "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word.",
+                tr("Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word."),
                 style = MaterialTheme.typography.bodySmall,
                 color = colors.onSurfaceVariant,
             )
@@ -932,6 +943,9 @@ private fun ContinuousControls(
 ) {
     val colors = MaterialTheme.colorScheme
     var showShortcuts by remember { mutableStateOf(false) }
+    val shortcutsDescription = tr("Keyboard shortcuts")
+    val playDescription = if (playing) tr("Pause reading") else tr("Read the page")
+    val autoPauseDescription = if (autoPause) tr("Auto-pause on") else tr("Auto-pause off")
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         if (hotkeys != null) {
             Box {
@@ -939,7 +953,7 @@ private fun ContinuousControls(
                     Modifier.size(CONTROL_SIZE).clip(CircleShape).background(colors.surface)
                         .border(CONTROL_BORDER, colors.primary, CircleShape)
                         .clickable { showShortcuts = !showShortcuts }
-                        .semantics { contentDescription = "Keyboard shortcuts" },
+                        .semantics { contentDescription = shortcutsDescription },
                     contentAlignment = Alignment.Center,
                 ) { Icon(AppIcons.Keyboard, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp)) }
                 if (showShortcuts) {
@@ -954,7 +968,7 @@ private fun ContinuousControls(
         Box(
             Modifier.size(60.dp).shadow(6.dp, CircleShape).clip(CircleShape).background(colors.primary)
                 .clickable(onClick = onPlay)
-                .semantics { contentDescription = if (playing) "Pause reading" else "Read the page" },
+                .semantics { contentDescription = playDescription },
             contentAlignment = Alignment.Center,
         ) {
             Icon(if (playing) AppIcons.Pause else AppIcons.PlayArrow, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(32.dp))
@@ -964,10 +978,10 @@ private fun ContinuousControls(
                 .background(if (autoPause) colors.primary else colors.surface)
                 .border(CONTROL_BORDER, colors.primary, CircleShape)
                 .clickable(onClick = onAutoPause)
-                .semantics { contentDescription = if (autoPause) "Auto-pause on" else "Auto-pause off" },
+                .semantics { contentDescription = autoPauseDescription },
             contentAlignment = Alignment.Center,
         ) {
-            Text("AP", style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold, color = if (autoPause) colors.onPrimary else colors.primary)
+            Text(tr("AP"), style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold, color = if (autoPause) colors.onPrimary else colors.primary)
         }
     }
 }
@@ -989,23 +1003,30 @@ private fun TranslationNotice(problem: LocalTranslationProblem, viewModel: Readi
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             Text(
-                if (failed) "Offline translation failed: ${problem.message}" else problem.message,
+                when (problem) {
+                    is LocalTranslationProblem.Failed -> tr("Offline translation failed: {0}", problem.message)
+                    is LocalTranslationProblem.ModelMissing -> tr("Offline translation for {0} \u2192 {1} is available, but its models are not installed.", languageName(problem.fromCode), languageName(problem.toCode))
+                    is LocalTranslationProblem.NoModel -> tr("{0} has no {1} \u2192 {2} model. Turn offline translation off to use MyMemory.", problem.engineName, tr(problem.fromName), tr(problem.toName))
+                },
                 Modifier.weight(1f),
                 style = MaterialTheme.typography.bodySmall,
                 color = if (failed) colors.onErrorContainer else colors.onSecondaryContainer,
             )
             when (problem) {
-                is LocalTranslationProblem.ModelMissing -> Button(onClick = viewModel::installOfflineModels) { Text("Install") }
+                is LocalTranslationProblem.ModelMissing -> Button(onClick = viewModel::installOfflineModels) { Text(tr("Install")) }
                 is LocalTranslationProblem.NoModel -> {
-                    Text("Offline", style = MaterialTheme.typography.bodySmall, color = colors.onSecondaryContainer)
+                    Text(tr("Offline"), style = MaterialTheme.typography.bodySmall, color = colors.onSecondaryContainer)
                     Switch(checked = true, onCheckedChange = { on -> if (!on) viewModel.useOnlineEngine() })
                 }
-                is LocalTranslationProblem.Failed -> OutlinedButton(onClick = viewModel::retryOfflineTranslation) { Text("Try again") }
+                is LocalTranslationProblem.Failed -> OutlinedButton(onClick = viewModel::retryOfflineTranslation) { Text(tr("Try again")) }
             }
-            TextButton(onClick = onSettings) { Text("Settings") }
+            TextButton(onClick = onSettings) { Text(tr("Settings")) }
         }
     }
 }
+
+/** The translated name of the language with [code], or the code when it is not a known one. */
+private fun languageName(code: String): String = LanguageCodes.option(code)?.name?.let { tr(it) } ?: code
 
 @Composable
 private fun TranslationProgress(message: String) {
@@ -1015,7 +1036,7 @@ private fun TranslationProgress(message: String) {
         modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 12.dp),
     ) {
         Column(Modifier.padding(horizontal = 12.dp, vertical = 8.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text("Setting up offline translation: $message", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSecondaryContainer)
+            Text(tr("Setting up offline translation: {0}", message), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSecondaryContainer)
             LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
         }
     }
@@ -1026,9 +1047,9 @@ private fun PageVocabulary(state: ReadingUiState) {
     val stats = remember(state.page) { BookStatsCalculator.calculate(state.items) }
     val colors = MaterialTheme.colorScheme
     Row(Modifier.fillMaxWidth().padding(top = 10.dp, bottom = 16.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-        Text("Vocabulary on this page", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Text(tr("Vocabulary on this page"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         StatusDistributionBar(stats, Modifier.widthIn(max = 360.dp).weight(1f, fill = false).fillMaxWidth(), scope = "on this page")
-        Text(if (stats.distinctTerms > 0) "${stats.unknownPercent}% new" else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Text(if (stats.distinctTerms > 0) tr("{0}% new", stats.unknownPercent) else "—", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
 }
 
@@ -1055,11 +1076,11 @@ private fun ReadingFooter(state: ReadingUiState, viewModel: ReadingViewModel, on
         val practisable = remember(state.page, state.items) { state.items.any { it.isWord && it.status.isLearning } }
         val practice: @Composable (Modifier) -> Unit = { modifier -> if (practisable) PracticeButton(modifier, onPractice) }
         val next: @Composable (Modifier) -> Unit = { modifier ->
-            if (last) PrimaryFooterButton(if (state.lesson == null) "Finish book" else "Finish lesson", modifier, viewModel::finishBook) else PrimaryFooterButton("Next page", modifier) { viewModel.markPageRead(false, 1) }
+            if (last) PrimaryFooterButton(if (state.lesson == null) tr("Finish book") else tr("Finish lesson"), modifier, viewModel::finishBook) else PrimaryFooterButton(tr("Next page"), modifier) { viewModel.markPageRead(false, 1) }
         }
         Layout(
             content = {
-                BackToLibrary(if (state.lesson == null) "Back to library" else "Back to course", onHome)
+                BackToLibrary(if (state.lesson == null) tr("Back to library") else tr("Back to course"), onHome)
                 practice(Modifier)
                 markRemaining(Modifier)
                 next(Modifier)
@@ -1130,7 +1151,7 @@ private fun PracticeButton(modifier: Modifier, onClick: () -> Unit) {
         horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
     ) {
         Icon(AppIcons.Abc, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
-        Text("Practice this page", style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = colors.primary, softWrap = false)
+        Text(tr("Practice this page"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = colors.primary, softWrap = false)
     }
 }
 
@@ -1144,7 +1165,7 @@ private fun MarkRemainingButton(unknowns: Int, modifier: Modifier, onClick: () -
         horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally),
     ) {
         Icon(AppIcons.DoneAll, contentDescription = null, tint = colors.primary, modifier = Modifier.size(22.dp))
-        Text("Mark remaining words as known", style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = colors.onSurface, softWrap = false)
+        Text(tr("Mark remaining words as known"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold, color = colors.onSurface, softWrap = false)
         Text(
             "$unknowns",
             Modifier.clip(RoundedCornerShape(50)).background(colors.surfaceVariant).padding(horizontal = 10.dp, vertical = 3.dp),
@@ -1180,10 +1201,10 @@ private fun SourceChip(url: String, onClick: () -> Unit) {
         Box(Modifier.size(32.dp).clip(RoundedCornerShape(16.dp)).background(colors.primary.copy(alpha = 0.1f)), contentAlignment = Alignment.Center) {
             Icon(AppIcons.Link, contentDescription = null, tint = colors.primary, modifier = Modifier.size(18.dp))
         }
-        Text("Read the full story", style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
+        Text(tr("Read the full story"), style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
         Box(Modifier.width(1.dp).height(20.dp).background(colors.outlineVariant))
         Text(host, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        Icon(AppIcons.OpenInNew, contentDescription = "Open source", tint = colors.onSurfaceVariant, modifier = Modifier.size(16.dp))
+        Icon(AppIcons.OpenInNew, contentDescription = tr("Open source"), tint = colors.onSurfaceVariant, modifier = Modifier.size(16.dp))
     }
 }
 
@@ -1194,7 +1215,7 @@ private fun PanelContent(state: ReadingUiState, viewModel: ReadingViewModel, onN
         is ReadingPanel.EditTerm -> EmbeddedTermForm(TermFormKey.ById(panel.termId, panel.sentence), "edit-${panel.termId}-${panel.version}", viewModel, onNavigate)
         is ReadingPanel.NewTerm -> EmbeddedTermForm(TermFormKey.ByText(panel.languageId, panel.text, panel.sentence), "new-${panel.languageId}-${panel.text}", viewModel, onNavigate)
         is ReadingPanel.BulkEdit -> Column(Modifier.padding(12.dp)) {
-            Text("Updating ${panel.termIds.size} term(s)", style = MaterialTheme.typography.titleMedium)
+            Text(trPlural(panel.termIds.size, "Updating {0} term", "Updating {0} terms"), style = MaterialTheme.typography.titleMedium)
             BulkEditDialog(count = panel.termIds.size, onApply = viewModel::applyBulkUpdate, onDismiss = viewModel::closePanel)
         }
     }
