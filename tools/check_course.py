@@ -82,6 +82,9 @@ def check(path, brief=False):
         outside = {}
         known = 0
         for t in lowered:
+            # An English possessive ("emma's") counts as its word: the list has few of them.
+            if t.endswith(("'s", "’s")) and t not in ranks and len(t) > 2:
+                t = t[:-2]
             if t in names:
                 known += 1
                 continue

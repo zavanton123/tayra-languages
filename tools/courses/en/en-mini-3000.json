@@ -1,0 +1,216 @@
+{
+  "id": "en-mini-3000",
+  "rankUpTo": 3000,
+  "level": "B2",
+  "title": "Opinions and Debates",
+  "description": "Ten calm opinion texts and the people behind them: letters to the newspaper, columns, neighborhood meetings and friendly discussions about parks, screens, markets, work, tourism, books and more.",
+  "topic": "Opinions and debates",
+  "names": [
+    "Margaret",
+    "Hill",
+    "Laura",
+    "Chen",
+    "Oakdale",
+    "Thursday",
+    "Saturday",
+    "May",
+    "October",
+    "Paul",
+    "Garcia",
+    "Helen",
+    "Ward",
+    "Mr",
+    "Mike",
+    "Anna",
+    "Sunday",
+    "Kate",
+    "Daniel",
+    "Brooks",
+    "Westport",
+    "America",
+    "July",
+    "Millbrook",
+    "Ruth",
+    "Allen",
+    "March",
+    "Hillside",
+    "September",
+    "November",
+    "Evans",
+    "Leo",
+    "Dr",
+    "Sarah",
+    "Kim",
+    "Tuesday",
+    "Grace",
+    "Tom",
+    "Nora",
+    "Hayes",
+    "Westerhaven"
+  ],
+  "lessons": [
+    {
+      "title": "A Letter About Creek Park",
+      "summary": "A woman writes to the newspaper with her ideas for making the town park better.",
+      "newWords": [
+        "creek",
+        "acre",
+        "fence",
+        "duck",
+        "abandoned",
+        "restriction",
+        "toilet",
+        "installed",
+        "annoying",
+        "flame"
+      ],
+      "text": "Dear Editor,\n\nI have lived next to Creek Park for 25 years, and I walk there almost every morning. The park covers 40 acres of grass and trees, with a small creek in the middle. To me, these 40 acres are the best place in our town. However, the park needs some attention.\n\nFirst, the old toilets near the playground have been closed for two years. Families with small children often stay all afternoon, so they need toilets. Last year the city installed new lights along the main path, which was a good decision. Nevertheless, I believe that new toilets should be installed next.\n\nSecond, the fence along the creek is broken in several places. The fence is there to keep small children away from the water, which can be deep after a heavy rain. A broken fence is almost worse than no fence at all, because parents think their children are safe when they are not.\n\nThird, there is an abandoned building at the north end of the park. It used to be a coffee shop, but it has been abandoned for ten years. Its windows are broken. Instead of leaving it empty, the city could open a coffee shop there again, or a room where school groups learn about the creek and its animals.\n\nI know that some people who live nearby would like more restrictions in the park. For example, they want a restriction on cooking fires, because open flames are a risk in dry summers. I understand them: a flame from a small fire can easily reach the dry grass. Still, too many restrictions would make the park less friendly, even though each one might seem reasonable on its own.\n\nFinally, a word about the ducks. Many people feed bread to the ducks, and I used to do it too. However, bread is bad for ducks. It is also annoying for people who sit by the creek, because the ducks then follow everyone around and make a lot of noise. Being followed by hungry ducks is funny once, but it quickly becomes annoying. A small sign explaining what ducks can eat would solve the problem.\n\nCreek Park belongs to all of us, and it deserves a little care.\n\nBest regards,\nMargaret Hill\n\nQuestions:\nHow long has Margaret lived next to Creek Park?\nShe has lived next to it for 25 years.\nWhat does Margaret think should be installed next?\nShe thinks new toilets should be installed next, because families with small children need them.\nWhy is the broken fence a problem?\nIt is a problem because parents think their children are safe when they are not.\nWhat could the city do with the abandoned building?\nIt could open a coffee shop there again, or a room where school groups learn about the creek.\nWhy do some people want a restriction on cooking fires?\nThey want it because open flames are a risk when the grass is dry.\nWhy is feeding bread to the ducks a bad idea?\nBread is bad for ducks, and the hungry ducks are annoying for people who sit by the creek."
+    },
+    {
+      "title": "Screens and the Middle Way",
+      "summary": "A mother writes a column about the moderate screen rules in her family.",
+      "newWords": [
+        "concentrate",
+        "peer",
+        "podcast",
+        "upload",
+        "discipline",
+        "moderate",
+        "lately",
+        "silly",
+        "scary",
+        "consent"
+      ],
+      "text": "Screen Time: Finding the Middle Way\nBy Laura Chen\n\nLately, every parent I know seems to be talking about screen time. At school and at birthday parties, the question is the same: how many hours a day should children spend looking at a phone? I have two children, aged 10 and 14, and I have been thinking about this a lot lately.\n\nSome articles make screens sound truly scary. They say that children who use phones too much cannot concentrate, sleep badly and lose interest in books. Other articles say that phones are simply a modern tool, like the TV for earlier generations. In my view, both sides go too far. Screens are not scary monsters, but they are not completely safe either.\n\nLast year my son told me that all his peers had phones and that he felt left out without one. Peer pressure is real, and I did not want him to feel alone. Nevertheless, I was worried that he would not be able to concentrate on his school work. So we agreed on a moderate plan. He can use his phone for 2 hours a day, as long as his school work is done first. In my experience, moderate rules work better than very strict ones, because children actually follow them.\n\nDiscipline is part of it, too. I mean the discipline to put the phone in another room during dinner and school work. Adults need this discipline as much as children do. I have to admit that I check my own phone far too often.\n\nNot everything on a screen is bad. My daughter listens to a science podcast every evening, and at dinner she tells us what she has learned.\n\nOne rule in our house is very strict, though. Nobody uploads a photo of another person without asking for consent first. Once a photo is uploaded, it can stay online forever. My children were surprised when I said that this rule applies to me as well. I used to upload silly photos of them as babies. Now I ask for their consent before I upload anything, even a picture that seems too silly to matter.\n\nThe debate about screens is not going to end soon. Still, I believe that moderate rules, some discipline and a lot of talking can help most families find their own middle way.\n\nQuestions:\nWhat has Laura been thinking about lately?\nShe has been thinking about how much time children should spend on screens.\nWhat do some articles say about children who use phones too much?\nThey say these children cannot concentrate, sleep badly and lose interest in books.\nWhy did Laura's son want a phone?\nHe wanted one because all his peers had phones and he felt left out.\nWhat is the family's moderate plan?\nThe son can use his phone for 2 hours a day, as long as his school work is done first.\nWhat does Laura's daughter listen to every evening?\nShe listens to a science podcast.\nWhat must everyone do before they upload a photo of another person?\nThey must ask for that person's consent."
+    },
+    {
+      "title": "A Market for Downtown",
+      "summary": "Neighbors meet to discuss a new farmers' market in an empty parking lot downtown.",
+      "newWords": [
+        "organic",
+        "potato",
+        "venue",
+        "downtown",
+        "dealer",
+        "lease",
+        "announcement",
+        "poster",
+        "attract",
+        "buyer"
+      ],
+      "text": "Last Thursday evening, about 60 people came to the library in Oakdale for a meeting about a new farmers' market. The meeting began with an announcement from the city: a group of local farmers wanted to sell their food downtown every Saturday morning from May to October. After the announcement, residents were invited to share their opinions.\n\nThe first question was about the venue. The farmers had suggested the large parking lot of an old car dealer on Main Street. The dealer had moved to a new building outside town, and the lot was empty. Paul Garcia, who spoke for the farmers, explained that the city would lease the lot from its owner. He said that the lease would cost about $500 a month and that the farmers would pay most of it.\n\nMany people liked the idea. Helen Ward, who owns a bookstore downtown, said that a market would attract new visitors to the center. She said that people who came for fresh vegetables would probably stay for coffee or a book. \"A market like this attracts families,\" she added, \"and families are exactly what downtown needs.\"\n\nNot everyone agreed, however. A man who lives next to the lot said that he was worried about noise and traffic early on Saturday mornings. Mr. Garcia answered that the farmers would not arrive before 7 and that the market would close at 1 in the afternoon.\n\nAnother resident said that organic food was often too expensive for ordinary families. Mr. Garcia replied that not all the farmers grew organic food. Some would sell organic vegetables, whereas others would sell regular ones at lower prices. He promised there would be cheap potatoes and eggs as well as organic tomatoes. \"Potatoes from a farm 10 miles away are fresher than potatoes that have traveled across the country,\" he said.\n\nA young woman asked whether there would be enough buyers. Mr. Garcia admitted that he did not know yet. He said that the farmers needed at least 300 buyers every Saturday. If there were fewer buyers, they would look for a smaller venue.\n\nAt the end of the meeting, the city agreed to a trial of 3 months. Volunteers offered to put up posters in shops, schools and offices. The first poster, made by a high school student, shows a box of potatoes and the words \"Fresh from the farm, every Saturday.\"\n\nQuestions:\nWhat was the announcement at the beginning of the meeting?\nA group of local farmers wanted to sell their food downtown every Saturday morning.\nWhich venue did the farmers suggest?\nThey suggested the parking lot of an old car dealer on Main Street.\nWhy did Helen Ward like the idea?\nShe said the market would attract new visitors and families to downtown.\nWhat did a resident say about organic food?\nShe said that organic food was often too expensive for ordinary families.\nHow many buyers did the farmers need every Saturday?\nThey needed at least 300 buyers.\nWhat does the first poster show?\nIt shows a box of potatoes and the words \"Fresh from the farm, every Saturday.\""
+    },
+    {
+      "title": "Home or Office?",
+      "summary": "Two old friends compare working from home with going to the office every day.",
+      "newWords": [
+        "spouse",
+        "efficiency",
+        "sake",
+        "tunnel",
+        "convinced",
+        "decent",
+        "fold",
+        "whereas",
+        "nowhere",
+        "borrow"
+      ],
+      "text": "Mike and Anna have been friends since college. Last Sunday they met for coffee and, as usual, started talking about work. For the past year, Anna has worked from home 4 days a week, whereas Mike goes to the office every day.\n\n\"I don't know how you do it,\" Anna said. \"You spend an hour in the car every morning.\"\n\n\"Not quite an hour,\" Mike said with a smile. \"About 40 minutes, if the tunnel is clear. The problem is the tunnel under the river. When there's an accident in the tunnel, the traffic goes nowhere for half an hour.\"\n\n\"That's exactly why I love working from home,\" Anna said. \"I don't have to drive anywhere. I just walk from the kitchen to my desk.\"\n\n\"Do you have a real desk?\" Mike asked.\n\n\"Not at first. For a month, I worked at a small folding table in the living room. Every evening I folded it up and put it behind a chair. Then I borrowed a decent desk from my brother, and now one corner of the bedroom is my office.\"\n\nMike was not convinced. \"But don't you miss people? At the office, I can ask a question and get an answer in a minute. At home, you have to write an email and wait.\"\n\n\"Sometimes, yes,\" Anna admitted. \"But my efficiency has improved. Nobody stops by my desk to chat, so I finish my work faster. Last spring my manager measured our team's efficiency, and the people at home did slightly better.\"\n\n\"Well, I'm not convinced it would work for me,\" Mike said. \"My spouse, Kate, works from home too, and our apartment is small. If we were both at home, we would be in each other's way all day. For the sake of our marriage, I'd better go to the office.\" He laughed.\n\nAnna laughed too. \"That's fair. My spouse works at the hospital all day, so I have the apartment to myself.\"\n\n\"I can see both sides,\" Mike said finally. \"Maybe the best plan is a mix: 2 days at home and 3 at the office. Then I would only sit in the tunnel 3 times a week, and I would still see my team.\"\n\n\"That sounds like a decent plan,\" Anna agreed. \"And if you need a folding table for your days at home, you can borrow mine.\"\n\nQuestions:\nHow often does Anna work from home?\nShe works from home 4 days a week, whereas Mike goes to the office every day.\nWhat happens when there is an accident in the tunnel?\nThe traffic goes nowhere for half an hour.\nWhere did Anna work during her first month at home?\nShe worked at a small folding table in the living room.\nWhere did Anna get her desk?\nShe borrowed a decent desk from her brother.\nWhy does Mike go to the office for the sake of his marriage?\nHis spouse also works from home, and their apartment is small, so they would be in each other's way.\nWhat plan does Mike suggest at the end?\nHe suggests 2 days at home and 3 days at the office."
+    },
+    {
+      "title": "A Reader's View on Tourism",
+      "summary": "A man explains what the tourism boom has brought to his small fishing town, both good and bad.",
+      "newWords": [
+        "readers",
+        "photographer",
+        "fame",
+        "boom",
+        "residence",
+        "ownership",
+        "trailer",
+        "observed",
+        "sudden",
+        "resist"
+      ],
+      "text": "This week's letter comes from one of our readers, Daniel Brooks, who has lived in Westport all his life.\n\nTen years ago, Westport was a quiet fishing town that few people outside the state had heard of. Then a photographer from a travel magazine came here on vacation. Her photos of our port at sunset appeared on the cover of the magazine, and our sudden fame began. The change was sudden: within two years, Westport was on every list of \"the most beautiful small towns in America.\"\n\nFame has brought a tourism boom. In summer, there are three times as many people in town as in winter. Restaurants are full, shops stay open late, and many young people have found jobs. I am glad about all of this. Nevertheless, I have observed some changes that worry me, and I think many readers have observed them too.\n\nThe first change concerns housing. Many houses in the center are no longer anyone's main residence. They are vacation homes that stand empty for 9 months of the year, or they are rented to tourists by the night. On my street, only 3 of the 12 houses are a family's main residence. When the ownership of homes moves from local families to people who live far away, the town slowly loses the people who make it a community.\n\nThe second change is traffic. During the boom, the road to the beach is full of cars, and in July many visitors arrive with large trailers. Some of them park their trailers along the beach road, where parking is not allowed. Last summer I observed two trailers blocking the road for a whole afternoon.\n\nI understand why it is hard to resist the money that tourism brings. Few towns could resist it. Even so, I believe that we can welcome visitors and protect our town at the same time. The town could limit short rentals in the center and support local ownership of homes. It could also build a parking area for trailers outside the center.\n\nI do not blame the photographer whose pictures made us famous. She simply showed the world what we already knew: Westport is beautiful. Our task now is to keep it a place where people can live, not only visit.\n\nQuestions:\nHow did Westport's sudden fame begin?\nIt began when a photographer's photos of the port appeared on the cover of a travel magazine.\nWhat good things has the tourism boom brought?\nRestaurants are full, shops stay open late, and many young people have found jobs.\nHow many houses on Daniel's street are a family's main residence?\nOnly 3 of the 12 houses are a family's main residence.\nWhat has Daniel observed on the beach road?\nHe has observed trailers parked where parking is not allowed, blocking the road.\nWhy is it hard for towns to resist tourism?\nIt is hard because tourism brings a lot of money.\nDoes Daniel blame the photographer?\nNo, he does not blame her, because she only showed the world that Westport is beautiful."
+    },
+    {
+      "title": "From Railroad to Trail",
+      "summary": "A resident writes about what the town should do with its old railroad line.",
+      "newWords": [
+        "railroad",
+        "acquired",
+        "assess",
+        "summary",
+        "comprise",
+        "thirty",
+        "patch",
+        "tackle",
+        "fundamental",
+        "archive"
+      ],
+      "text": "For almost a hundred years, a railroad ran through the town of Millbrook. Trains carried wood to the city, and later passengers as well. The last train ran more than thirty years ago. Since then, the old railroad line has been empty. Today it is a long, narrow patch of land covered in tall grass, and the town has to decide what to do with it.\n\nTwo years ago, the town acquired the land from the railroad company for just $1. Since the town acquired it, people have offered many ideas. Some want to sell it for new houses; others want to turn it into a trail for walking and riding bikes. To help the town decide, a team of 5 experts was asked to assess both ideas. The team comprised two engineers, a lawyer, a park manager and a banker. Last month, the experts presented a summary of their report.\n\nAccording to the summary, the land comprises 12 miles of old track, 4 small bridges and 2 old stations. The experts assessed the bridges first, because they were the biggest worry. They said that 3 of the bridges were in good condition, whereas the fourth would need major repairs. They also assessed a patch of land next to the old station, where the trail could begin. The summary also said that a trail would cost about $2 million.\n\nBefore the meeting, Ruth Allen, who writes about local history, spent several weeks in the town archive. In the archive she found old photos, maps and letters about the railroad. She said that the railroad was a fundamental part of the town's history. \"Without the railroad, Millbrook would never have grown,\" she explained. In her opinion, a trail would keep that history alive.\n\nMy own view, as someone who has lived here for thirty years, is that the trail is the better choice. In spite of the cost, I believe a trail would serve the whole town, whereas new houses would serve only a few families. A place to walk safely is a fundamental need for any town, not a luxury. However, the town must tackle two problems first. It has to tackle the repairs on the fourth bridge, and it has to find the money, perhaps with help from the state.\n\nThe town will vote in March. Until then, the summary and the old photos from the archive can be seen at the library.\n\nQuestions:\nWhen did the last train run through Millbrook?\nThe last train ran more than thirty years ago.\nHow did the town get the land?\nThe town acquired the land from the railroad company for just $1.\nWhat does the land comprise?\nIt comprises 12 miles of old track, 4 small bridges and 2 old stations.\nWhat did the experts say about the bridges?\nThey said that 3 bridges were in good condition, whereas the fourth would need major repairs.\nWhat did Ruth Allen find in the town archive?\nShe found old photos, maps and letters about the railroad.\nWhich two problems must the town tackle first?\nIt must repair the fourth bridge and find the money."
+    },
+    {
+      "title": "My First Debate",
+      "summary": "A high school student takes part in a first debate and learns to control nerves.",
+      "newWords": [
+        "nerve",
+        "overcome",
+        "lecture",
+        "physics",
+        "rugby",
+        "dramatic",
+        "scream",
+        "certificate",
+        "rebel",
+        "progressive"
+      ],
+      "text": "I joined the debate club at Hillside High School in September. Hillside is known as a progressive school, which means that it likes to try new ways of teaching. Like many progressive schools, it wants every student to learn to speak in public.\n\nIn the first week, our teacher, Mr. Evans, gave us a lecture on the rules. In his lecture, he explained that a debate is not a fight. \"Nobody wins if they scream,\" he said. \"When you scream, people stop listening.\" He also told us that a good speaker never makes things sound more dramatic than they are. A calm voice, clear facts and good manners win more points than a dramatic speech.\n\nIn November, our club had its first competition against another school. The question was: \"Should our school spend more money on sports than on science?\" My partner, Leo, and I had to argue for science. I chose to talk about the physics lab, which is old and has a lot of broken equipment. Leo's job was harder, because he plays rugby. He had to argue against more money for his own rugby team. He said he felt like a rebel, but he was a very kind rebel.\n\nOn the morning of the competition, my nerves were terrible. My hands were shaking. Mr. Evans noticed and told me that everyone has nerves before a debate. He said that the best way to overcome them was to breathe slowly and look at one friendly face in the audience. He added that it had taken him years to overcome his own fear of speaking.\n\nWhen my turn came, I looked at my mother in the third row and started to speak. I said that the physics lab was used by 400 students every week, whereas the rugby field was used by 40. I said that the school had not bought new equipment for the lab in ten years. I kept my voice calm and did not try to be dramatic.\n\nThe other team spoke well, too. They said that sports helped students stay healthy.\n\nIn the end, we lost by 2 points, but I didn't mind. Each of us received a certificate with our name on it. My certificate now hangs above my desk. I had overcome my nerves, and that felt like winning.\n\nQuestions:\nWhat does a progressive school like to do?\nIt likes to try new ways of teaching.\nWhat did Mr. Evans say in his lecture about people who scream?\nHe said that nobody wins if they scream, because people stop listening.\nWhy was Leo's job harder?\nIt was harder because he plays rugby and had to argue against more money for his own team.\nHow did Mr. Evans say the writer could overcome nerves?\nHe said the writer should breathe slowly and look at one friendly face in the audience.\nWhat did the writer say about the physics lab?\nThe writer said that it was used by 400 students every week and had not received new equipment in ten years.\nWhat did each student receive at the end?\nEach student received a certificate with their name on it."
+    },
+    {
+      "title": "Can You Trust What You Read Online?",
+      "summary": "A doctor gives her readers advice on judging health claims they find on the internet.",
+      "newWords": [
+        "physician",
+        "provider",
+        "substance",
+        "laboratory",
+        "possess",
+        "margin",
+        "buried",
+        "fancy",
+        "domain"
+      ],
+      "text": "Ask the Doctor\nBy Dr. Sarah Kim\n\nAs a physician, I meet many patients who have read about their health online before they come to see me. That is not a bad thing. Patients who are curious about their health often take better care of themselves. However, the internet is full of claims that are wrong, and some of them can do real harm. Here is the advice I give my patients.\n\nFirst, look at who is behind the information. Check the domain of the website, which is the main part of its address. A domain that belongs to a hospital, a university or a health care provider is usually more trustworthy than the domain of a company that sells products. If you are not sure, ask your physician or another health care provider.\n\nSecond, be careful with products that claim to possess special powers. No medicine possesses the power to cure every illness, help you lose 20 pounds in a week and make you look 10 years younger. If a product says it possesses all these powers, it is almost certainly not true.\n\nThird, ask whether the substance has been tested. A real medicine is tested in a laboratory and then on thousands of patients. Many products sold online have never been near a laboratory. Some of them contain a substance that can be dangerous when it is taken together with other medicines. That is why you should always tell your physician what you take.\n\nFourth, do not trust a product because of a fancy bottle or fancy words. A product described with long scientific words is not necessarily better than a cheap one.\n\nFifth, read the small print. The most important information is often buried at the bottom of the page, in tiny letters. A warning about side effects may be buried there, far below the photos of happy customers.\n\nFinally, remember that every study has a margin of error. When a study says that a product helped 52 out of 100 people, whereas 48 out of 100 felt better without it, the difference may be within the margin of error. In other words, the product may not really work at all.\n\nThe internet can be a useful tool, as long as you use it with care. When in doubt, ask a professional.\n\nQuestions:\nWhy is it not a bad thing when patients read about their health online?\nPatients who are curious about their health often take better care of themselves.\nWhich domains are usually more trustworthy?\nDomains that belong to a hospital, a university or a health care provider are usually more trustworthy.\nWhat should you think about a product that claims to possess many powers?\nYou should think that it is almost certainly not true.\nHow is a real medicine tested?\nIt is tested in a laboratory and then on thousands of patients.\nWhere is important information often buried?\nIt is often buried at the bottom of the page, in tiny letters.\nWhat does Dr. Kim say about the margin of error?\nShe says that a small difference may be within the margin of error, so the product may not really work."
+    },
+    {
+      "title": "Paper or Screen?",
+      "summary": "A book club discusses whether paper books are better than digital ones.",
+      "newWords": [
+        "poetry",
+        "publisher",
+        "detective",
+        "composition",
+        "lifetime",
+        "smash",
+        "cop"
+      ],
+      "text": "Every second Tuesday, 6 friends meet at Grace's house for their book club. Usually they talk about the book they have just read. Last week, however, they had a different discussion: are paper books better than digital books?\n\nGrace spoke first. She has loved books for her whole lifetime, and she told the group that she would never change. \"A good paper book is a friend for a lifetime,\" she said. \"I still have the poetry books my father gave me when I was a girl.\" She explained that poetry especially needed paper, because the composition of a poem on the page was part of its beauty. In her opinion, the composition, with each line beginning and ending in its place, often looked wrong on a small screen.\n\nTom disagreed. He mostly reads detective stories, and he reads them on his phone. He said that he could carry 200 detective novels in his pocket and that he could make the letters bigger when his eyes were tired. \"My father was a cop for 30 years,\" he said, \"and he loves detective stories too. Because he was a cop, he always tries to find the answer before the detective does. He's 80 now, and he can only read on a screen, because he can make the letters large.\"\n\nNora, who works for a small publisher, offered a third point of view. She said that her publisher sold both paper and digital books and that both were important. \"Last year one of our books was a smash hit,\" she said. \"By a smash hit, I mean a huge success. It sold 50,000 copies, and more than half of them were digital. Without digital books, it would never have been such a smash.\"\n\nGrace asked whether any poetry books sold that well. Nora laughed and said that poetry rarely did, but that her publisher still printed a few poetry books every year, on paper, because readers asked for them.\n\nIn the end, the group agreed that the question had no single answer. Grace would keep her poetry on paper, whereas Tom would keep his detective stories on his phone. Nora said that as long as people kept reading, her publisher was happy.\n\nQuestions:\nHow long has Grace loved books?\nShe has loved books for her whole lifetime.\nWhy does Grace think poetry needs paper?\nShe thinks the composition of a poem on the page is part of its beauty.\nWhat kind of stories does Tom read on his phone?\nHe mostly reads detective stories.\nWhat was Tom's father's job?\nHe was a cop for 30 years.\nWhat does Nora mean by a smash hit?\nShe means a book that is a huge success.\nWhy does Nora's publisher still print poetry books on paper?\nIt prints them because readers ask for them."
+    },
+    {
+      "title": "Is Our Sister City Worth It?",
+      "summary": "A resident explains why her town should keep its friendship with a Dutch town across the ocean.",
+      "newWords": [
+        "ambassador",
+        "treaty",
+        "dutch",
+        "atlantic",
+        "fleet",
+        "spare",
+        "funeral"
+      ],
+      "text": "In 1985, two fishing towns on opposite sides of the Atlantic Ocean decided to become sister cities. One was our town, Port Hayes. The other was Westerhaven, a small Dutch town by the sea. Both towns had large fishing fleets at the time, and both had lost many jobs when their fleets became smaller. The two mayors believed that the towns could learn from each other.\n\nThe Dutch ambassador to the United States came to Port Hayes for the ceremony. The ambassador and the two mayors signed a friendship agreement. It was not a real treaty between countries, of course, but people here still call it \"the treaty.\" A copy of the treaty hangs in the town hall.\n\nSince then, hundreds of students have crossed the Atlantic. Every summer, 10 students from Port Hayes spend 3 weeks in Westerhaven, and 10 Dutch students come here. They stay with families who have a spare room. During their visit, the students are expected to act as young ambassadors for their towns. My family has hosted 4 Dutch students in our spare room, and we are still in touch with all of them.\n\nLately, however, some people have asked whether the program is worth the money. The town spends about $15,000 a year on it, mostly on travel. At a council meeting last month, one member said that the money could be used to repair roads. Another said that the program only helped a small number of families.\n\nI understand these concerns. $15,000 is not a small sum for a town like ours. Nevertheless, I believe the program is worth it, and here is why.\n\nWhen the Dutch mayor who had signed the treaty died 5 years ago, 6 people from Port Hayes flew across the Atlantic to attend his funeral. The people of Westerhaven still talk about it. At the funeral, his daughter said that her father had always called Port Hayes \"our second home.\" That kind of friendship cannot be bought.\n\nToday both fishing fleets are small, but the friendship is not. Instead of ending the program, the town could ask local businesses to help pay for the travel. Families with a spare room could keep opening their doors. In this way, the friendship could continue for another 40 years.\n\nQuestions:\nWhen did Port Hayes and Westerhaven become sister cities?\nThey became sister cities in 1985.\nWhat did both towns have at the time?\nBoth towns had large fishing fleets.\nWho came to Port Hayes for the ceremony?\nThe Dutch ambassador to the United States came for the ceremony.\nWhy do people call the agreement \"the treaty\"?\nIt was not a real treaty, but people here still call it that.\nWhere do the Dutch students stay?\nThey stay with families who have a spare room.\nWhy did 6 people from Port Hayes fly across the Atlantic 5 years ago?\nThey flew there to attend the funeral of the Dutch mayor who had signed the treaty."
+    }
+  ]
+}

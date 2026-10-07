@@ -1,0 +1,205 @@
+{
+  "id": "en-mini-3500",
+  "rankUpTo": 3500,
+  "level": "B2",
+  "title": "Technology and Society",
+  "description": "Ten calm stories and columns about how technology changes everyday life: artificial intelligence at work, privacy online, a week without a phone, a library coding class, online scams, a grandmother's first smartphone and more.",
+  "topic": "Technology and society",
+  "names": [
+    "Elena",
+    "Ruiz",
+    "Thomas",
+    "Reed",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday",
+    "Walter",
+    "Riverton",
+    "Marcus",
+    "Julia",
+    "Park",
+    "Rosa",
+    "Bianchi",
+    "Mia",
+    "Martin",
+    "Shaw",
+    "Dr",
+    "Amara",
+    "Okafor",
+    "March",
+    "Hannah",
+    "Lowe",
+    "Millford",
+    "Frank",
+    "Dolan",
+    "October",
+    "Grace",
+    "Miller"
+  ],
+  "lessons": [
+    {
+      "title": "The Architect and the Machine",
+      "summary": "An architect learns to use an artificial intelligence tool at work and decides what it should and should not do.",
+      "newWords": [
+        "architect",
+        "prompt",
+        "modified",
+        "extract",
+        "scope",
+        "protocol",
+        "involvement",
+        "constructed"
+      ],
+      "text": "Elena Ruiz is an architect. She works with four other architects in an office on the second floor of an old brick building, where the morning light falls across long tables covered with drawings. For twenty years, the work there followed the same pattern: phone calls, meetings, plans drawn by hand and late evenings with cold coffee.\n\nLast spring, the office began to use an artificial intelligence tool. At first Elena was not sure about it. She had read several articles claiming that machines would soon replace architects, and she wondered whether her own job was at risk.\n\nThe tool turned out to be far less dramatic than the articles. It does not design buildings. Instead, it reads. Every new project comes with a mountain of documents: city rules, reports about the soil, letters from the client and long lists of materials. Elena writes a short prompt, such as \"List every rule about the height of the building,\" and the tool extracts the answer from three hundred pages in less than a minute. Before, extracting that information took her a whole day.\n\nWriting a good prompt, she soon learned, is a skill of its own. A poor prompt gets a poor answer, while a clear prompt with the right details gets a useful one.\n\nThe tool can also produce a rough first plan of a house. However, Elena has modified almost every plan it has given her. A modified plan, with her changes in red, is usually much better than the original.\n\nThe scope of the tool is limited. It cannot visit a site, feel the wind on a hill or understand why a family wants a big kitchen rather than a big living room. Those things are outside its scope, and Elena is glad that they are.\n\nThe office has also agreed on a simple protocol. According to the protocol, a person checks every answer the tool gives, and no plan leaves the office without an architect's signature. The protocol exists because the tool sometimes makes mistakes with great confidence. Once, it stated that a building could have six floors, when the rules allowed only four.\n\nElena now believes that human involvement is the heart of the work. The machine saves time, but clients pay for her judgment and her involvement in every decision. Last month, a library she designed was constructed on the edge of the town park. Walking through it for the first time, she thought about the hours the tool had saved her, hours she had spent on the details that people would actually notice.\n\nQuestions:\nWhat does the tool in Elena's office do?\nIt reads long documents and extracts useful information from them.\nWhat happens when Elena writes a poor prompt?\nA poor prompt gets a poor answer.\nWhy is a visit to a site outside the scope of the tool?\nIt is outside its scope because the tool cannot feel the wind on a hill or understand what a family really wants.\nWhat is the office's protocol?\nA person checks every answer the tool gives, and no plan leaves the office without an architect's signature.\nWhat did Elena design that was constructed last month?\nShe designed a library, which was constructed on the edge of the town park."
+    },
+    {
+      "title": "Before You Post",
+      "summary": "A columnist explains, calmly and kindly, how he thinks about privacy before he shares something on social media.",
+      "newWords": [
+        "publicly",
+        "perception",
+        "imply",
+        "copyright",
+        "globe",
+        "outlet",
+        "bold",
+        "awkward",
+        "guideline",
+        "partly"
+      ],
+      "text": "Before You Post: A Few Thoughts on Privacy\nBy Thomas Reed\n\nEvery evening, millions of people around the globe share small pieces of their lives on social media: a plate of pasta, a red sky over the sea, a child's first day at school. I do it too. Lately, however, I have started to ask myself a simple question before I press the button: who will see this, and what will they do with it?\n\nWhen we post something publicly, it is no longer only ours. A photo that is shared publicly can travel across the globe in a single afternoon. It can be copied, saved and shown to strangers. News outlets sometimes use pictures from social media in their articles. Some outlets ask for permission first; others do not.\n\nMany people believe that copyright protects their photos completely. This is only partly true. In most countries, the person who takes a photo owns the copyright to it. However, when you join a social network, you usually accept rules that let the company use your pictures in certain ways. Few of us read those rules, partly because they are long and partly because they are written in difficult language.\n\nThere is also the question of perception. The things we post shape other people's perception of us. A teacher, a future employer or a new neighbor may form an opinion of us before we have even met. Of course, a single photo from a party does not imply that someone is careless or lazy. Still, people often take one picture to imply far more than it really shows.\n\nThen there are the awkward moments. Most of us have been tagged in a photo we did not like, perhaps with our eyes half closed or our mouth full of cake. It is awkward to ask a friend to delete it, but it is far more awkward to see it appear again ten years later.\n\nI am not suggesting that we should stop sharing. Social media helps families on different continents stay close, and that is a wonderful thing. What I suggest is a few personal guidelines. Here are mine, written in bold letters on a note above my desk: ask before you post a photo of someone else; never share your address or travel plans publicly; and check your privacy settings twice a year.\n\nThese guidelines are not perfect, but they help me to pause. In my experience, a short pause is the best protection of all.\n\nQuestions:\nHow far can a photo travel when it is shared publicly?\nIt can travel across the globe in a single afternoon.\nWho usually owns the copyright to a photo?\nThe person who takes the photo usually owns the copyright to it.\nWhy do few people read the rules of social networks?\nThey do not read them partly because the rules are long and partly because they are written in difficult language.\nDoes a single photo from a party imply that someone is careless?\nNo, it does not, but people often take one picture to imply more than it shows.\nWhat is written in bold letters on the note above Thomas's desk?\nHis personal guidelines are written there in bold letters."
+    },
+    {
+      "title": "Seven Days at the Lake",
+      "summary": "In a short diary, a young woman spends a week at a mountain lodge without her phone.",
+      "newWords": [
+        "lodge",
+        "darkness",
+        "echo",
+        "swim",
+        "oak",
+        "fade",
+        "cease",
+        "physically",
+        "dip",
+        "forecast"
+      ],
+      "text": "Monday\nI have arrived at a small wooden lodge by a lake in the mountains, and this morning I locked my phone in a drawer. My plan is simple: seven days without a screen. My sister thinks I will not last two days. The lodge has no TV and almost no internet signal, so it is the right place to try.\n\nThe first evening was strange. Again and again my hand reached into my pocket, looking for a phone that was not there. Before dinner, I counted: it happened at least thirty times.\n\nTuesday\nWithout my phone, I had no weather forecast, so I asked the owner of the lodge, an old man named Walter, whether it would rain. He studied the sky for a long moment and said, \"Not before evening, young lady.\" His forecast was correct. I spent the day walking under huge oak trees, whose leaves were just beginning to turn gold.\n\nWednesday\nI went for a swim in the lake before breakfast. The water was so cold that at first I only dipped my feet in it. Then I took a deep breath and swam out to a large rock. When I called out from the rock, my voice came back as an echo from the hills on the other side. Afterward I felt physically tired but wonderfully awake.\n\nThursday\nThe need to check my phone is beginning to fade. I read a whole novel in one afternoon, sitting under an oak near the water. I cannot remember the last time I did that.\n\nFriday\nTonight there was no moon. When Walter turned off the lights outside the lodge, the darkness was complete. At home, the darkness is never real: there is always a screen shining somewhere, or a street light outside the window. Here, the darkness was soft and deep, and the stars seemed close enough to touch. Somewhere a bird called, and the echo of its voice crossed the lake.\n\nSaturday\nI swam again this morning, all the way to the rock and back without stopping. I have noticed two changes. My headaches have ceased, and the constant noise in my head has ceased as well. I am also sleeping eight hours a night. Physically, I feel better than I have in months.\n\nSunday\nToday I took my phone out of the drawer. There were 214 messages, but almost none of them were important. I am not going to give up my phone completely, but I have decided to keep one evening a week free of screens. I hope that the calm of this week will not fade too quickly.\n\nQuestions:\nWhy did the writer choose this lodge?\nShe chose it because it has no TV and almost no internet signal.\nHow did she get a weather forecast without her phone?\nShe asked Walter, the owner of the lodge, and his forecast was correct.\nWhat did she do before she swam out to the rock?\nAt first she only dipped her feet in the cold water.\nWhat was the darkness like on Friday night?\nIt was complete, soft and deep, and the stars seemed very close.\nWhat changes did she notice on Saturday?\nHer headaches had ceased, and she felt physically better than she had in months."
+    },
+    {
+      "title": "Saturday Code at the Library",
+      "summary": "A shy teenager joins a free coding class at the town library and discovers a new interest.",
+      "newWords": [
+        "municipal",
+        "organize",
+        "talented",
+        "dot",
+        "arrow",
+        "install",
+        "eligible",
+        "scholarship",
+        "cooperation",
+        "spark"
+      ],
+      "text": "The municipal library in the town of Riverton is a gray stone building with tall windows and a wide staircase. For more than a hundred years, it has lent books to the people of the town. Two years ago, it began to lend something new: skills.\n\nEvery Saturday morning, the library organizes a free coding class for teenagers. The class is the result of cooperation between the library and a small software company on Main Street. The company sends two volunteers, and the library provides the room, the computers and the coffee. Without this cooperation, the class would not exist. Anyone between the ages of 12 and 18 who has a library card is eligible to join.\n\nMarcus, who was 13, joined the class last fall. His mother had read about it in the municipal newsletter. Marcus was quiet and a little shy, and he did not consider himself talented at anything in particular. On the first morning, he sat in the back row and said nothing.\n\nThe volunteers began by helping everyone install a free program for beginners. Installing it took ten minutes. Then they gave the students a simple task: make a small red dot move across the screen. When you pressed the right arrow key, the dot moved right. When you pressed the left arrow, it moved left.\n\nIt sounds like a small thing, but when Marcus's dot moved for the first time, he felt a spark of excitement. That spark stayed with him all week. By the next Saturday, he had added a second dot, which chased the first one, and he was asking how to keep score.\n\n\"You're more talented than you think,\" one of the volunteers told him. \"Most people need three weeks to do that.\"\n\nOver the winter, Marcus built a simple game in which a dot collects stars while avoiding falling stones. He showed it to his mother, who laughed and played it four times in a row. He asked whether he could install the program on the old family computer, and the volunteers showed him how.\n\nIn the spring, the software company announced a scholarship for a summer coding camp. To be eligible, students had to attend the library class regularly and present a project of their own. Marcus presented his game in front of thirty people in the library hall. His voice shook at first, but it grew steadier as he went on.\n\nHe won the scholarship. When the librarians congratulated him, he said that he wanted to help organize the class himself one day, so that other quiet kids could feel the same spark.\n\nQuestions:\nWho organizes the coding class?\nThe municipal library organizes it, in cooperation with a small software company.\nWho is eligible to join the class?\nAnyone between the ages of 12 and 18 who has a library card is eligible.\nWhat was the first task in the class?\nThe students had to make a small red dot move across the screen with the arrow keys.\nWhat did Marcus feel when his dot moved for the first time?\nHe felt a spark of excitement.\nHow did Marcus win the scholarship?\nHe attended the class regularly and presented his own game in front of thirty people."
+    },
+    {
+      "title": "A Calm Guide to Online Scams",
+      "summary": "After her aunt receives a strange message, a writer explains the common signs of an online scam and how to stay safe.",
+      "newWords": [
+        "bitcoin",
+        "gut",
+        "seize",
+        "pirate",
+        "enforce",
+        "distinct",
+        "similarly",
+        "aunt",
+        "cited"
+      ],
+      "text": "A Calm Guide to Online Scams\nBy Julia Park\n\nLast winter, my aunt received an email that seemed to come from her bank. It said that her account had been locked and that the bank would seize her savings unless she paid a small fee within two hours. Stranger still, the fee had to be paid in bitcoin. My aunt is a careful person, but the message scared her, and she called me before doing anything.\n\nI am glad she did. The email was a scam, and her bank had never sent it. Since then, I have spoken to a police officer who deals with online crime. What follows is a calm guide, not a scary one. Most scams are easy to recognize once you know what to look for.\n\nThe officer cited three distinct signs that appear in almost every scam. The first is pressure: you must act now, within hours or even minutes. The second is fear or excitement: your money will be seized, or you have won a prize. The third is an unusual way to pay, such as gift cards or bitcoin. A real bank will never ask you to pay a fee in bitcoin. Similarly, no government office will ever ask you to pay with gift cards. Each of these three signs is distinct, but they often appear together.\n\nShe also cited a simple rule: when a message makes your heart beat faster, slow down. Do not click on any link. Instead, call your bank or the company directly, using a number you already know.\n\nYour gut can help, too. If something feels wrong, listen to your gut. My aunt's gut told her that the message was strange before she understood why.\n\nScams do not only arrive by email. They can also hide in pirated software. Many people download pirated games or movies because they are free, but pirated files often contain harmful programs. Similarly, a \"free\" app from an unknown website can steal your passwords. A phone call from someone who claims to be from a technology company and asks for control of your computer should also be ended at once.\n\nWhy don't the police simply stop the people behind these scams? They try. However, many of them live in other countries, where our laws are hard to enforce. Countries are learning to work together to enforce laws against online crime, but this takes time.\n\nIn the meantime, the best protection is a habit of pausing. My aunt now keeps a note next to her computer: \"No one honest is in a hurry for my money.\" It is good advice for all of us.\n\nQuestions:\nWhat did the email to the writer's aunt say?\nIt said that the bank would seize her savings unless she paid a fee in bitcoin within two hours.\nWhat are the three distinct signs of a scam?\nThey are pressure, fear or excitement, and an unusual way to pay.\nWhat simple rule did the police officer cite?\nShe said that when a message makes your heart beat faster, you should slow down.\nWhy can pirated software be dangerous?\nPirated files often contain harmful programs.\nWhy are these laws hard to enforce?\nThey are hard to enforce because many of the people behind the scams live in other countries."
+    },
+    {
+      "title": "Rosa Learns to Swipe",
+      "summary": "A grandmother who keeps chickens takes her first smartphone class and sends her grandson a photo.",
+      "newWords": [
+        "chick",
+        "huh",
+        "rub",
+        "ounce",
+        "medication",
+        "supplement",
+        "satisfy",
+        "wisdom",
+        "devote",
+        "verb"
+      ],
+      "text": "Rosa Bianchi is 78 years old, and she lives on a small farm at the edge of town, where she keeps a dozen chickens. For her birthday, her grandson gave her a smartphone. It was thin and black, and it weighed only 6 ounces, but to Rosa it felt heavier than a stone. For two weeks, it lay on the kitchen table, and she did not touch it.\n\nThen she saw a notice at the community center: \"Smartphones for Beginners, Tuesday mornings, free.\" Rosa decided to devote her Tuesday mornings to the class. She had devoted her whole life to learning practical things, from fixing fences to baking bread, and she was not going to let a telephone beat her.\n\nThe teacher, a patient young woman named Mia, began the first lesson in an unusual way. She wrote three words on the board: tap, swipe and scroll. \"Each of these is a verb,\" she said. \"Today we will learn what each verb means with our fingers.\" The students laughed, but it worked. By the end of the morning, Rosa knew all three verbs, and her finger knew them too.\n\nSome things were harder. The letters on the screen were tiny, and Rosa kept rubbing her glasses with the corner of her sweater. Mia showed her how to make the letters bigger. \"Huh,\" Rosa said, leaning back in her chair. \"Why didn't anyone tell me that before?\"\n\nIn the third class, Mia taught the group how to set reminders, and this turned out to be the most useful lesson of all. Rosa takes medication for her heart every morning and a vitamin supplement every evening, and she used to forget one or the other. Now the phone reminds her: one sound for the medication, a different sound for the supplement. \"Huh,\" Rosa said again when she heard the two sounds for the first time. \"This little phone knows more than I thought.\"\n\nMia often said that her students brought their own wisdom to the class. \"You already have patience, and patience is half of the work,\" she told them. Rosa liked that idea. Wisdom, she thought, was simply knowing which things are worth learning.\n\nIn the fourth class, they learned to take photos. That week, five new chicks had hatched on the farm. Rosa took a photo of the yellow chicks in the straw, and with Mia beside her, she sent it to her grandson. His answer came back in less than a minute: three red hearts and the words \"Grandma, you did it!\"\n\nNothing could satisfy her more than that small message. On the way home, she carried the phone in her hand instead of in her bag, and it no longer felt heavy at all. It was a deeply satisfying day.\n\nQuestions:\nHow much did Rosa's new phone weigh?\nIt weighed only 6 ounces.\nWhat three verbs did Mia write on the board?\nShe wrote tap, swipe and scroll.\nWhy did Rosa keep rubbing her glasses?\nShe kept rubbing them because the letters on the screen were tiny.\nHow do the reminders help Rosa?\nThey remind her to take her medication in the morning and her supplement in the evening.\nWhat photo did Rosa send to her grandson?\nShe sent him a photo of five new chicks in the straw."
+    },
+    {
+      "title": "A Robot in the Operating Room",
+      "summary": "A runner with a damaged knee learns how a surgeon and a robot will work together during his operation.",
+      "newWords": [
+        "surgeon",
+        "heal",
+        "employ",
+        "athletic",
+        "intend",
+        "sweat",
+        "admission",
+        "pierce"
+      ],
+      "text": "Martin Shaw had always been athletic. At 52, he still ran five mornings a week, and every fall he ran a long race along the river with his oldest friend. Then, one wet morning in March, he slipped on a hill and felt a piercing pain in his right knee. Weeks of rest did not help. Each time he tried to run, the same piercing pain returned.\n\nHis doctor sent him to a surgeon at the city hospital, Dr. Amara Okafor. She studied the pictures of his knee and explained that he needed an operation. Then she told him something that surprised him. \"The hospital employs two robots for operations,\" she said, \"and I intend to use one of them for your knee.\"\n\nMartin began to sweat a little. He imagined a machine with metal arms working alone while the doctors drank coffee in the hall. Dr. Okafor smiled, because she had heard this worry many times before.\n\n\"The robot doesn't decide anything,\" she said. \"I control every movement from a seat a few feet away. Think of it as a very steady hand. My own hands are good, but after three hours even a surgeon's hands can get tired. The robot's hands never shake.\"\n\nShe explained that the robot allows her to work through a few small cuts instead of one large one. Small cuts usually heal faster, cause less pain and leave smaller marks. \"Most of my patients walk on the same day, and athletic people like you often recover even faster,\" she said. \"The knee still needs months to heal completely, but the first weeks are much easier.\"\n\n\"Does the hospital intend to replace its surgeons with robots one day?\" Martin asked. Dr. Okafor shook her head. \"Hospitals employ robots the way a carpenter employs a good saw. The tool is excellent, but someone has to know where to cut, and why.\"\n\nOn the day of his admission, Martin filled out the admission forms with a pen that would not stop shaking in his hand. He was still nervous, and he could feel the sweat on his palms. However, the operation went smoothly, and that same evening he walked slowly down the hall with a nurse beside him.\n\nHis knee healed well. Four months later, he was walking every day, and by the end of the summer he was running again, carefully at first. In the fall, Martin and his friend ran their race along the river once more. He was not the fastest runner that year, but he finished, and that was enough for him.\n\nQuestions:\nWhy did Martin need an operation?\nHe hurt his knee when he slipped on a hill, and rest did not help.\nWhy did Martin begin to sweat when he heard about the robot?\nHe imagined a machine working alone without the doctors.\nWho controls the robot during an operation?\nThe surgeon controls every movement from a seat a few feet away.\nWhy do small cuts help patients?\nSmall cuts usually heal faster, cause less pain and leave smaller marks.\nWhat did Martin do in the fall?\nHe ran the race along the river with his friend again."
+    },
+    {
+      "title": "Can a Machine Make Art?",
+      "summary": "A potter who works with clay reflects on pictures and music made with artificial intelligence.",
+      "newWords": [
+        "abstract",
+        "genre",
+        "opera",
+        "clay",
+        "tribute",
+        "derived",
+        "spectrum",
+        "quest",
+        "racial",
+        "collective"
+      ],
+      "text": "Can a Machine Make Art?\nBy Hannah Lowe\n\nI am a potter. For thirty years I have worked with clay. Clay is honest: if you press too hard, it falls; if you are patient, it rises into a bowl or a cup. So when my nephew showed me pictures made by a computer program, I did not expect to like them.\n\nHe typed a few words: \"an abstract painting of a city at night, in blue and gold.\" Seconds later, the screen showed four images. They were beautiful. The colors covered the whole spectrum, from deep purple to bright yellow, and the shapes had the calm balance of good abstract art.\n\nThen my nephew explained how the program works, and I began to feel differently. The images are derived from millions of pictures made by human artists. The program studied all of them and learned their patterns. In a sense, every image it produces is derived from the collective work of countless painters, most of whom never agreed to take part and were never paid.\n\nThe same is true of music. Last winter, a small theater in our city presented a short opera whose music was partly written by a computer. Opera is a genre I love, so I bought a ticket. The music was pleasant and correct, but it seemed to belong to no particular genre and no particular person. When the singers finished, I applauded, but my heart stayed quiet.\n\nThere is another problem. Because these programs learn from old pictures, they can repeat old habits. When my nephew asked for \"a portrait of a doctor,\" the program showed only men, and almost all of them came from the same racial group. The machine was not trying to be unfair. It was simply copying the past. Its makers are now working to give it a wider racial and cultural range.\n\nI do not want to sound too negative. Opinions about these programs cover a wide spectrum, and mine sits somewhere in the middle. My nephew uses the program to plan his own paintings, and it gives him new ideas. Used like that, it can be a good tool, as long as we remember that it rests on our collective work.\n\nStill, I believe that art is a quest, not a product. It is the long search for a shape or a sound that says something true. Last year I made a clay bowl as a tribute to my grandmother, who taught me to cook. It took me eleven attempts. The bowl is not perfect, but every mark in it is a tribute to her, and every mark is mine.\n\nQuestions:\nWhat did the nephew ask the program to make?\nHe asked for an abstract painting of a city at night, in blue and gold.\nWhere are the program's images derived from?\nThey are derived from millions of pictures made by human artists.\nWhat does Hannah believe art is?\nShe believes that art is a quest, not a product.\nWhy did the portraits of doctors show almost only one racial group?\nThe program learns from old pictures, so it copies the past.\nWhy did Hannah make a clay bowl?\nShe made it as a tribute to her grandmother, who taught her to cook."
+    },
+    {
+      "title": "The Factory by the Canal",
+      "summary": "Neighbors and small companies save an old factory by a canal and turn it into a shared workspace.",
+      "newWords": [
+        "canal",
+        "coalition",
+        "ton",
+        "conversion",
+        "suite",
+        "furniture",
+        "worthy",
+        "bass"
+      ],
+      "text": "For most of the last century, the red brick factory beside the canal in Millford made cloth. Boats carried cotton along the canal to its doors, and the machines inside ran day and night. Then, about thirty years ago, the factory closed. Its windows were broken, birds nested under its roof, and the canal beside it became quiet and green.\n\nTwo years ago, the city announced that the building would be torn down to make room for a parking lot. Many people in Millford were unhappy. A group of local residents, artists and the owners of three small technology companies formed a coalition to save it. The coalition had a plan: the conversion of the old factory into shared offices for small companies, with fast internet and a public cafe by the water.\n\nThe coalition met every week in the back room of a bakery. They argued, they made drawings, and they collected money from more than six hundred families. At a public meeting, their leader, a retired engineer named Frank Dolan, said, \"This building has served our town for a hundred years. It is worthy of a second life.\" Most people in the hall agreed, and the city accepted the plan.\n\nThe conversion took eighteen months. First, workers removed the old machines. Some of them weighed more than a ton, and one weighed nearly four tons. A crane lifted them out through the roof, one by one, while children watched from the bridge over the canal. Then the workers repaired the walls and put in new windows, which were as tall as the old ones.\n\nThe thick wooden floors could not be saved, but the wood could. A local carpenter turned it into furniture: long tables, benches and shelves. Today, people sit at furniture made from the same boards that workers stood on a century ago.\n\nThe upper floors are now divided into office suites. One suite belongs to a company that builds apps for local farmers, and another suite is used by a group that repairs old computers and gives them to schools. On the ground floor, next to the cafe, there is a small music studio. On most evenings you can hear a young woman practicing the bass there, and the deep notes of her bass guitar float out over the water.\n\nThe building is busy again, but in a new way. It no longer makes cloth; it makes ideas. Many people in Millford say the conversion has given the whole neighborhood a second life, too.\n\nQuestions:\nWhat did the old factory by the canal make?\nIt made cloth.\nWho formed the coalition to save the building?\nA group of local residents, artists and the owners of three small technology companies formed it.\nWhat did Frank Dolan say about the building?\nHe said that it was worthy of a second life.\nHow heavy were some of the old machines?\nSome weighed more than a ton, and one weighed nearly four tons.\nWhat happened to the old wooden floors?\nA local carpenter turned the wood into furniture."
+    },
+    {
+      "title": "My First Ride Without a Driver",
+      "summary": "A journalist takes a ride in a car that drives itself and weighs what it can and cannot do.",
+      "newWords": [
+        "brake",
+        "rage",
+        "laser",
+        "particle",
+        "disabled",
+        "remarkable",
+        "intelligent"
+      ],
+      "text": "Last week, I took my first ride in a car without a driver. It was a gray evening in late October, and the car arrived at the corner exactly on time. There was no one behind the wheel. On its roof, a small device turned slowly, like a lighthouse.\n\nI sat in the back seat, a little nervous, and pressed a button that said \"Start.\" The car pulled away from the curb gently and joined the traffic.\n\nThe device on the roof, I later learned, uses lasers. Several times every second, it sends out beams of laser light and measures how long they take to come back. In this way, the car builds a picture of everything around it: other cars, people, trees and bicycles. The lasers work in daylight and in darkness, which is a remarkable advantage over human eyes.\n\nAbout ten minutes into the ride, a boy on a bicycle suddenly rode out from between two parked vans. Before I had even seen him, the car braked smoothly and waited. A human driver might have braked too late. The boy waved, and the car moved on, as calm as before.\n\nWhat struck me most was that calm. A few minutes later, a man in a truck cut in front of us and sounded his horn. Many drivers would have reacted with rage. The car simply slowed down. It does not feel rage, it does not get tired, and it never looks at a phone.\n\nIs the car intelligent? Not in the way a person is intelligent. It cannot understand why a child might run after a ball, although it can learn that children near the road need extra care. It also has real weaknesses. Heavy rain, snow and even thick dust fill the air with tiny particles, and these particles can confuse the lasers. In bad weather, the company still keeps its cars off the road.\n\nAt the end of my ride, I talked with Grace Miller, a disabled woman in her forties who uses a wheelchair and takes these cars to work every day. \"I can't drive,\" she told me, \"and buses are not always easy for disabled people. This gives me something remarkable: my independence.\"\n\nI am not ready to give up my own car, and I do not think machines are better than people at everything. Still, when I remember the boy on the bicycle and the car's soft, quick braking, I understand why many people are hopeful.\n\nQuestions:\nHow does the device on the roof of the car work?\nIt sends out laser light and measures how long it takes to come back.\nWhat did the car do when the boy rode out on his bicycle?\nIt braked smoothly and waited.\nHow did the car react when the truck cut in front of it?\nIt simply slowed down, because it does not feel rage.\nWhy can bad weather be a problem for the car?\nRain, snow and dust fill the air with tiny particles that can confuse the lasers.\nWhy does Grace Miller find these cars so useful?\nShe is disabled and cannot drive, and the cars give her independence."
+    }
+  ]
+}
