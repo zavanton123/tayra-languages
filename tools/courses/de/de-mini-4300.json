@@ -1,0 +1,214 @@
+{
+  "id": "de-mini-4300",
+  "rankUpTo": 4300,
+  "level": "C1",
+  "title": "Klima und Energie",
+  "description": "Calm, balanced texts on climate and energy: the Energiewende explained, a village that makes its own energy, an interview with a climate researcher, a heat pump in an old house, trees against urban heat, the end of coal in Lusatia and more.",
+  "topic": "Climate and energy",
+  "names": [
+    "Deutschland",
+    "Norwegen",
+    "Spanien",
+    "Europa",
+    "Europas",
+    "Kirchwalde",
+    "Niedersachsen",
+    "Jürgen",
+    "Matthiesen",
+    "Helene",
+    "Marquardt",
+    "Potsdam",
+    "Pinatubo",
+    "Philippinen",
+    "Brandenburg",
+    "Würzburg",
+    "Deutschlands",
+    "Martina",
+    "Hellwig",
+    "Lausitz",
+    "Polen",
+    "Cottbus",
+    "Berlin",
+    "Stuttgart",
+    "Bremen",
+    "Lina",
+    "Behrens",
+    "Oberau",
+    "Georg",
+    "Albrecht",
+    "Heinz",
+    "Lohmann",
+    "Selin",
+    "Yılmaz",
+    "Norwegens",
+    "Spaniens"
+  ],
+  "lessons": [
+    {
+      "title": "Die Energiewende, ruhig erklärt",
+      "summary": "The column calmly explains what the Energiewende is, how it became law and what speaks for and against its pace.",
+      "newWords": [
+        "Konstanz",
+        "Sektor",
+        "Steigerung",
+        "parlamentarisch",
+        "verabschieden",
+        "beleuchten",
+        "Ideologie",
+        "argumentieren",
+        "begründen",
+        "Kontinent"
+      ],
+      "text": "Über kaum ein Thema wird in Deutschland so laut gestritten wie über die Energiewende. Die einen halten sie für ein teures Abenteuer, die anderen für die einzige vernünftige Antwort auf den Wandel des Klimas. Dieser Text möchte nicht noch eine Meinung ergänzen. Er möchte die wichtigsten Fragen in Ruhe beleuchten, damit sich jeder selbst ein Urteil bilden kann.\n\nMit der Energiewende ist gemeint, dass ein Land seine Energie nach und nach nicht mehr aus Kohle, Öl und Gas gewinnt, sondern aus Wind, Sonne und Wasser. Das betrifft nicht nur den Strom. Es betrifft jeden Sektor der Wirtschaft: den Verkehr, die Industrie, die Landwirtschaft und die Wärme in den Häusern. Im Sektor Strom ist Deutschland schon weit gekommen; inzwischen stammt mehr als die Hälfte des Stroms aus erneuerbaren Quellen. In den anderen Sektoren geht es deutlich langsamer voran.\n\nDie Grundlage bilden Gesetze. Bevor der Bundestag ein solches Gesetz verabschieden kann, gibt es lange parlamentarische Beratungen. Das erste wichtige Gesetz dieser Art verabschiedete er im Jahr 2000. Seitdem ist es viele Male geändert worden, meist nach heftigen parlamentarischen Debatten. Die Energiewende wurde also nicht von oben befohlen; sie ist das Ergebnis vieler Kompromisse.\n\nWer für die Energiewende argumentiert, kann das vor allem mit dem Klima begründen: Je weniger Kohle und Gas verbrannt werden, desto weniger Kohlendioxid gelangt in die Atmosphäre. Hinzu kommt ein zweites Argument, das seltener genannt wird. Deutschland muss einen großen Teil seiner Energie im Ausland kaufen. Wind und Sonne dagegen gibt es im eigenen Land, und kein anderer Staat kann ihre Lieferung einfach stoppen.\n\nWer gegen ihr Tempo argumentiert, wird seine Zweifel meist mit zwei Problemen begründen. Das erste ist der Preis. Neue Leitungen, Speicher und Anlagen kosten Milliarden, und eine weitere Steigerung der Preise für Strom würde viele Familien und Betriebe hart treffen. Das zweite Problem ist die Konstanz. Ein großes Kraftwerk liefert Strom mit hoher Konstanz, Tag und Nacht, im Sommer wie im Winter. Wind und Sonne liefern ihn nur, wenn das Wetter mitspielt. Solange es nicht genug Speicher gibt, fehlt dem System diese Konstanz.\n\nHilfreich ist ein Blick über die Grenzen. Das deutsche Netz ist mit den Netzen der Nachbarn verbunden, vom Norden bis zum Süden des Kontinents. Weht in Deutschland kaum Wind, kann Strom aus den Flüssen und Seen Norwegens oder aus der Sonne Spaniens helfen. Je enger die Länder des Kontinents zusammenarbeiten, desto kleiner wird das Problem.\n\nBeide Seiten haben also gute Gründe, und keine von ihnen folgt bloß einer Ideologie. Wer die Frage von allen Seiten beleuchtet, merkt schnell: Mit Ideologie hat sie weniger zu tun, als es im Fernsehen oft scheint. Es geht um Technik, um Geld und um Zeit. Eine gewisse Steigerung der Kosten gilt unter Fachleuten als wahrscheinlich; umstritten ist, wie man sie gerecht verteilt.\n\nFragen:\nWas ist mit der Energiewende gemeint?\nEin Land gewinnt seine Energie nach und nach aus Wind, Sonne und Wasser statt aus Kohle, Öl und Gas.\nWann verabschiedete der Bundestag das erste wichtige Gesetz?\nEr verabschiedete es im Jahr 2000.\nWomit begründen die Kritiker ihre Sorge um die Konstanz?\nWind und Sonne liefern nur Strom, wenn das Wetter mitspielt, und es gibt noch nicht genug Speicher.\nWarum hilft die Zusammenarbeit auf dem Kontinent?\nWenn in Deutschland kaum Wind weht, kann Strom aus anderen Ländern helfen."
+    },
+    {
+      "title": "Ein Dorf heizt sich selbst",
+      "summary": "A profile of a village in Lower Saxony that makes its own heat and power from a farmer's biogas plant and runs the network itself.",
+      "newWords": [
+        "Landwirt",
+        "Gewerbe",
+        "Dampf",
+        "verwalten",
+        "Erlaubnis",
+        "Hindernis",
+        "Einstieg",
+        "Tarif",
+        "Kapelle"
+      ],
+      "text": "Kirchwalde ist ein Dorf mit knapp 600 Einwohnern in Niedersachsen. Es gibt eine Bäckerei, eine Werkstatt, eine Grundschule und eine kleine Kapelle aus rotem Stein. Auf den ersten Blick unterscheidet sich Kirchwalde kaum von hundert anderen Dörfern. Und doch kommen jedes Jahr Besucher aus ganz Deutschland, um es sich anzusehen. Kirchwalde ist ein sogenanntes Bioenergiedorf: Es erzeugt mehr Strom und Wärme, als es selbst verbraucht.\n\nDie Idee stammt von Jürgen Matthiesen, einem Landwirt, dessen Familie den größten Hof des Dorfes seit vier Generationen bewirtschaftet. Vor 15 Jahren baute er neben seinem Stall eine Anlage, in der Mist, Reste von Mais und Gras zu Gas werden. Mit diesem Gas treibt ein Motor einen Generator an, der Strom ins Netz liefert. Dabei entsteht viel Wärme. „Früher ging diese Wärme einfach in die Luft“, sagt der Landwirt. „Das fand ich schade.“\n\nMatthiesen schlug deshalb vor, die Wärme durch Rohre in die Häuser zu leiten. Der Weg dahin war lang. Das erste Hindernis war das Geld, denn die Leitungen durch das ganze Dorf kosteten mehrere Millionen Euro. Das zweite Hindernis waren die Zweifel der Nachbarn: Viele hatten gerade erst eine neue Heizung gekauft. Außerdem brauchte das Projekt die Erlaubnis mehrerer Behörden. Allein auf die Erlaubnis des Landkreises warteten die Bewohner fast ein Jahr.\n\nSchließlich gründeten 140 Haushalte eine Genossenschaft. Seitdem verwalten die Bewohner ihr Netz selbst. Ein Vorstand aus drei Freiwilligen verwaltet die Verträge, die Rechnungen und die Reparaturen. Für den Einstieg zahlte jeder Haushalt 2000 Euro. Wer erst später mitmachen wollte, musste etwas mehr zahlen, doch auch dieser späte Einstieg lohnte sich für die meisten. Der Tarif für die Wärme liegt heute deutlich unter dem Preis für Heizöl, und er schwankt kaum. Einen festen Tarif über viele Jahre schätzen gerade die Rentner im Dorf sehr.\n\nAuch das örtliche Gewerbe profitiert. Die Bäckerei heizt ihre Räume mit der Wärme aus der Anlage, und die Werkstatt zahlt weniger für Strom. „Für ein kleines Gewerbe wie meines machen die geringeren Kosten einen echten Unterschied“, sagt die Bäckerin. Sogar die Kapelle ist angeschlossen. Im Winter ist es dort nun so warm, dass die Besucher des Gottesdienstes ihre Jacken ausziehen.\n\nAn kalten Morgen sieht man über dem Hof von Matthiesen eine Wolke aus weißem Dampf. Manche Besucher halten sie für Rauch und sind besorgt. Matthiesen erklärt dann geduldig, dass es nur Dampf ist, also Wasser, das in der kalten Luft sichtbar wird.\n\nDas Modell passt allerdings nicht für jedes Dorf. Es braucht einen Landwirt, der mitmacht, genug Häuser auf engem Raum und Menschen, die bereit sind, Verantwortung zu übernehmen. In Kirchwalde hat es funktioniert, weil fast das ganze Dorf mitgemacht hat.\n\nFragen:\nWas ist das Besondere an Kirchwalde?\nDas Dorf erzeugt mehr Strom und Wärme, als es selbst verbraucht.\nWas baute der Landwirt Jürgen Matthiesen neben seinem Stall?\nEr baute eine Anlage, in der Mist, Reste von Mais und Gras zu Gas werden.\nWelche Hindernisse gab es am Anfang?\nDie Leitungen waren teuer, viele Nachbarn hatten Zweifel, und man brauchte die Erlaubnis mehrerer Behörden.\nWer verwaltet das Netz heute?\nDie Bewohner verwalten es selbst in einer Genossenschaft, mit einem Vorstand aus drei Freiwilligen.\nWas ist die weiße Wolke über dem Hof?\nEs ist Dampf, also Wasser, das in der kalten Luft sichtbar wird."
+    },
+    {
+      "title": "„Panik hilft niemandem“ – ein Gespräch mit einer Klimaforscherin",
+      "summary": "An interview with a climate researcher about her yearly report, dramatic headlines, a volcano's cooling effect and why she stays calm.",
+      "newWords": [
+        "publizieren",
+        "Report",
+        "Schlagzeilen",
+        "Untergang",
+        "unverändert",
+        "Ausbruch",
+        "orientieren",
+        "freilich",
+        "Berücksichtigung",
+        "geradezu"
+      ],
+      "text": "Helene Marquardt forscht seit über 20 Jahren zum Klima der Erde. Ihr Institut in Potsdam publiziert jedes Jahr im Herbst einen Report über die Temperaturen des vergangenen Jahres. Wir haben mit ihr über Zahlen, Schlagzeilen und ihre Hoffnung gesprochen.\n\nFrau Marquardt, Ihr Institut hat gerade seinen neuen Report publiziert. Was steht darin?\n\nDer Report zeigt, dass das letzte Jahr wieder eines der wärmsten seit Beginn der Messungen war. Das überrascht uns nicht. Der Trend ist seit Jahrzehnten unverändert: Die Temperatur steigt, im Durchschnitt um etwa 0,2 Grad in zehn Jahren. Wir publizieren diese Zahlen jedes Jahr, damit niemand sie vergisst.\n\nAm Tag danach sprachen manche Schlagzeilen vom Untergang der Welt. Ärgert Sie das?\n\nEin wenig, ja. Schlagzeilen müssen kurz sein, das verstehe ich. Aber vom Untergang der Welt steht in unserem Report kein Wort. Die Erde wird nicht untergehen. Die Frage ist, wie gut wir und unsere Kinder auf ihr leben werden. Das ist ernst genug, man muss es nicht dramatischer machen, als es ist.\n\nKritiker sagen, das Klima habe sich schon immer verändert. Was antworten Sie?\n\nDas stimmt freilich. Es gab Eiszeiten und warme Zeiten, lange bevor es Menschen gab. Auch kurzfristig schwankt die Temperatur. Nach dem Ausbruch des Vulkans Pinatubo auf den Philippinen im Jahr 1991 wurde es auf der ganzen Erde für etwa zwei Jahre kühler, weil die Asche das Sonnenlicht abhielt. Ein solcher Ausbruch wirkt aber nur kurz. Der langfristige Trend lässt sich nur unter Berücksichtigung des menschlichen Einflusses erklären. Ohne die Berücksichtigung der Gase, die beim Verbrennen von Kohle, Öl und Gas entstehen, passen unsere Modelle nicht zu den Messungen.\n\nWoran orientieren Sie sich, wenn Sie Prognosen machen?\n\nWir orientieren uns an der Physik und an den Daten. Die Gesetze der Physik sind unverändert, seit es die Erde gibt. Wenn mehr Kohlendioxid in der Luft ist, hält die Atmosphäre mehr Wärme fest. Das ist seit über 150 Jahren bekannt. Unsicher sind eher die Details: wie schnell, wo genau, wie stark.\n\nViele Menschen haben Angst. Was sagen Sie ihnen?\n\nAngst ist verständlich, aber Panik hilft niemandem. In manchen Bereichen geht es geradezu erstaunlich schnell voran. Vor 20 Jahren war Strom aus der Sonne sehr teuer; heute ist er geradezu billig. Freilich reicht das noch nicht. Aber wer nur vom Ende spricht, nimmt den Menschen den Mut, etwas zu tun.\n\nUnd Sie persönlich, sind Sie optimistisch?\n\nIch bin realistisch. Ich habe zwei Enkel, und für sie arbeite ich gern.\n\nFragen:\nWas publiziert das Institut jedes Jahr?\nEs publiziert jedes Jahr im Herbst einen Report über die Temperaturen des vergangenen Jahres.\nWovon sprachen manche Schlagzeilen?\nSie sprachen vom Untergang der Welt, obwohl davon im Report kein Wort steht.\nWas geschah nach dem Ausbruch des Pinatubo?\nEs wurde auf der ganzen Erde für etwa zwei Jahre kühler, weil die Asche das Sonnenlicht abhielt.\nWoran orientiert sich Frau Marquardt bei ihren Prognosen?\nSie orientiert sich an der Physik und an den Daten.\nWarum hält sie Panik für falsch?\nPanik hilft niemandem, und wer nur vom Ende spricht, nimmt den Menschen den Mut, etwas zu tun."
+    },
+    {
+      "title": "Eine Wärmepumpe für ein altes Haus",
+      "summary": "A homeowner describes, step by step, how a heat pump came into his family's house from 1908 and what the first winter showed.",
+      "newWords": [
+        "Flur",
+        "Klo",
+        "preußisch",
+        "Garantie",
+        "blutig",
+        "Öffnung",
+        "bass",
+        "schräg",
+        "ausfüllen",
+        "Einzug"
+      ],
+      "text": "Unser Haus steht in einer Kleinstadt in Brandenburg und wurde 1908 gebaut, also noch zu preußischen Zeiten. Ein Beamter der preußischen Eisenbahn hat es damals für seine Familie errichten lassen. Die Mauern sind dick, die Decken hoch, und unter dem Dach gibt es zwei Zimmer mit schrägen Wänden. Bis vor 60 Jahren lag das Klo noch auf halber Treppe. Heute hat das Haus natürlich ein richtiges Bad, und aus dem alten Klo ist längst ein Schrank geworden. Im Flur wird es im Winter nach wie vor ziemlich kühl.\n\nSeit unserem Einzug vor 8 Jahren haben wir mit Gas geheizt. Schon beim Einzug war die Anlage alt, und im vergangenen Jahr gab sie langsam auf. Wir mussten also entscheiden, was nach ihr kommen sollte. Ein Freund riet uns zu einer Wärmepumpe. Ich war skeptisch. Ich hatte gelesen, dass eine Wärmepumpe nur in neuen, modernen Häusern funktioniere.\n\nBeim Thema Heizung war ich ein blutiger Anfänger. Ich wusste nicht einmal, wie warm das Wasser in unseren Heizkörpern eigentlich war. Als blutiger Anfänger habe ich deshalb einen Berater ins Haus geholt. Er hat jeden Raum genau gemessen, vom Flur bis zu den Zimmern mit den schrägen Wänden. Sein Ergebnis hat mich überrascht: Mit einigen größeren Heizkörpern und neuen Fenstern unter dem Dach würde eine Wärmepumpe auch in unserem Haus genügend Wärme liefern.\n\nDann kamen die Formulare. Für den Zuschuss des Staates musste ich mehrere Anträge ausfüllen, jeder davon viele Seiten lang. Zweimal habe ich ein Feld falsch ausgefüllt und musste von vorn beginnen. Am Ende hat mir der Berater geholfen, die letzten Seiten richtig auszufüllen.\n\nIm März kamen die Handwerker. Zuerst bohrten sie eine Öffnung in die Wand des Kellers, durch die später die Rohre zum Gerät im Garten laufen sollten. Die Öffnung war kaum größer als eine Hand, doch das Bohren durch die dicken preußischen Mauern dauerte einen halben Tag. Nach einer Woche lief die Anlage. Die Firma gibt uns 5 Jahre Garantie auf das Gerät und 2 Jahre Garantie auf die Arbeit.\n\nUnsere Nachbarin hatte Sorge wegen des Lärms. Tatsächlich hört man das Gerät im Garten, aber nur leise: ein gleichmäßiger, tiefer Ton, wie ein entfernter Bass. Im Haus hört man ihn gar nicht. „Diesen Bass kann ich aushalten“, hat die Nachbarin nach einer Woche gesagt und gelacht.\n\nDer erste Winter ist nun vorbei. Unser Verbrauch an Strom ist gestiegen, aber die Rechnung für das Gas fällt weg, und unter dem Strich zahlen wir etwas weniger als vorher. Wichtiger ist mir etwas anderes: Das Haus ist gleichmäßig warm. Sogar im Flur ist es nicht mehr kalt.\n\nFragen:\nWann wurde das Haus gebaut?\nEs wurde 1908 gebaut, also noch zu preußischen Zeiten.\nWomit hat die Familie seit ihrem Einzug geheizt?\nSie hat mit Gas geheizt.\nWarum hat der Autor einen Berater geholt?\nBeim Thema Heizung war er ein blutiger Anfänger.\nWofür brauchten die Handwerker die Öffnung in der Wand?\nDurch die Öffnung sollten die Rohre zum Gerät im Garten laufen.\nWie viel Garantie gibt die Firma?\nSie gibt 5 Jahre Garantie auf das Gerät und 2 Jahre Garantie auf die Arbeit.\nWie klingt das Gerät im Garten?\nMan hört einen leisen, tiefen Ton, wie einen entfernten Bass."
+    },
+    {
+      "title": "Schatten für die Innenstadt",
+      "summary": "A profile of a city gardener in Würzburg who plants a thousand trees against summer heat and finds help among the residents.",
+      "newWords": [
+        "urban",
+        "Taube",
+        "Schere",
+        "Kommando",
+        "biegen",
+        "belasten",
+        "Paradies",
+        "schwingen",
+        "Zielgruppe",
+        "Begeisterung"
+      ],
+      "text": "Würzburg gehört zu den wärmsten Städten Deutschlands. Im Sommer sammelt sich die Hitze zwischen den alten Häusern, auf den Plätzen aus Stein und auf den Parkplätzen aus Beton. Nachts kühlt die Innenstadt kaum ab. Fachleute sprechen von einem urbanen Problem: In einem Raum mit vielen Häusern und wenig Grün ist es oft mehrere Grad wärmer als auf dem Land in der Nähe. Für viele Menschen ist das mehr als unangenehm. Im letzten Sommer belastete die Hitze vor allem ältere Menschen, kleine Kinder und Kranke. Auch für die Bäume, die es schon gibt, sind solche Wochen sehr belastend.\n\nMartina Hellwig arbeitet seit 22 Jahren als Gärtnerin für die Stadt. Vor drei Jahren hat der Stadtrat beschlossen, bis zum Jahr 2030 tausend neue Bäume zu pflanzen. Hellwig leitet das Projekt. „Gegen urbane Hitze ist ein Baum die einfachste Maschine, die es gibt“, sagt sie. „Er spendet Schatten, und über seine Blätter gibt er Wasser an die Luft ab. Das kühlt die ganze Straße.“\n\nSo einfach, wie es klingt, ist es freilich nicht. Unter vielen Straßen liegen Leitungen und Rohre, sodass kaum Platz für Wurzeln bleibt. Außerdem brauchen junge Bäume Zeit. „Bäume wachsen nicht auf Kommando“, sagt Hellwig. „Man kann ihnen kein Kommando geben, schneller groß zu werden. Bis ein Baum richtig Schatten spendet, vergehen oft 15 Jahre.“ Deshalb wählt sie Arten, die Hitze und Trockenheit gut aushalten, viele davon aus dem Süden Europas.\n\nAn einem Morgen im April begleiten wir sie in die Altstadt. Ein junger Baum, kaum dicker als ein Arm, steht an einem Platz. Bei jedem Wind biegen sich seine dünnen Äste, und die Zweige schwingen hin und her. „Keine Sorge“, sagt Hellwig. „Ein junger Baum muss sich biegen können. Wenn seine Zweige im Wind schwingen, wird der Stamm stärker.“ Mit einer kleinen Schere schneidet sie zwei trockene Zweige ab. Die Schere trägt sie immer in der Tasche.\n\nAuf dem Platz sitzen ein paar Tauben auf einer Bank. „Für Tauben ist die Innenstadt ein Paradies“, sagt Hellwig und lacht. „Für Menschen soll sie im Sommer wenigstens kein Backofen mehr sein. Ein Paradies verspreche ich niemandem.“\n\nDas Wichtigste aber sind die Anwohner. Ein junger Baum braucht in einem heißen Sommer jede Woche bis zu 100 Liter Wasser. Die Stadt allein schafft das nicht. Deshalb sucht sie Menschen, die einen Baum vor ihrer Haustür gießen. Zur Zielgruppe gehörten zunächst Familien und Rentner, die viel zu Hause sind. Doch die Begeisterung war größer als erwartet: Auch Studenten, Schulklassen und sogar ein Café haben sich gemeldet. Inzwischen hat fast jeder dritte neue Baum einen Paten. Die Begeisterung hat auch Hellwig überrascht. „Wer einen Baum gießt“, sagt sie, „sieht seine Straße mit anderen Augen.“\n\nFragen:\nWarum ist es in der Innenstadt von Würzburg im Sommer so heiß?\nDie Hitze sammelt sich zwischen den Häusern, und nachts kühlt die Stadt kaum ab.\nWen belastete die Hitze im letzten Sommer besonders?\nSie belastete vor allem ältere Menschen, kleine Kinder und Kranke.\nWas meint Martina Hellwig mit dem Satz „Bäume wachsen nicht auf Kommando“?\nBis ein Baum richtig Schatten spendet, vergehen oft 15 Jahre.\nWarum ist es gut, wenn sich ein junger Baum im Wind biegt?\nWenn seine Zweige im Wind schwingen, wird der Stamm stärker.\nWer gehörte zunächst zur Zielgruppe für das Gießen der Bäume?\nZur Zielgruppe gehörten Familien und Rentner, die viel zu Hause sind."
+    },
+    {
+      "title": "Die Lausitz und das Ende der Kohle",
+      "summary": "An essay that weighs fairly the arguments for and against ending coal mining in Lusatia, a region with a long and proud mining history.",
+      "newWords": [
+        "Sozialismus",
+        "Solidarität",
+        "Trauer",
+        "Mitleid",
+        "Arbeitsmarkt",
+        "befürworten",
+        "Ausrede",
+        "repräsentieren",
+        "anständig",
+        "Mindestlohn"
+      ],
+      "text": "Die Lausitz liegt im Osten Deutschlands, zwischen Berlin und der Grenze zu Polen. Seit über hundert Jahren wird hier Kohle aus der Erde geholt und in großen Kraftwerken zu Strom gemacht. Nach dem Gesetz soll damit spätestens im Jahr 2038 Schluss sein. Kaum eine Entscheidung der Energiewende wird in einer Region so heftig diskutiert wie diese. Dieser Text versucht, beide Seiten fair darzustellen.\n\nIm Sozialismus der DDR galt die Lausitz als das Zentrum der Energie des Landes. Der Staat feierte die Arbeiter der Kohle als Helden, und rund 80 000 Menschen arbeiteten in diesem Bereich. Nach dem Ende des Sozialismus im Jahr 1990 verloren innerhalb weniger Jahre die meisten von ihnen ihre Stelle. Heute arbeiten noch etwa 8000 Menschen direkt in der Kohle. Viele Familien haben den Wandel also schon einmal erlebt, und zwar auf harte Weise.\n\nWer den Ausstieg befürwortet, nennt vor allem das Klima. Kohle setzt beim Verbrennen mehr Kohlendioxid frei als jede andere Quelle von Energie. Außerdem verschwanden für die Gruben im Lauf der Jahrzehnte mehr als 130 Dörfer; ihre Bewohner mussten ihre Heimat verlassen. Die Trauer um diese Dörfer ist in der Region bis heute zu spüren; manche alten Menschen sprechen offen von ihrer Trauer, wenn sie an ihr verlorenes Dorf denken. Wer den Ausstieg befürwortet, sagt deshalb: Je früher er kommt, desto weniger Landschaft geht verloren.\n\nDie Gegner eines schnellen Ausstiegs blicken vor allem auf den Arbeitsmarkt. In der Kohle verdient man anständig, oft deutlich mehr als im Durchschnitt der Region. Viele neue Stellen, die bisher entstanden sind, zahlen dagegen kaum mehr als den Mindestlohn. Ein Ingenieur, der heute anständig bezahlt wird, möchte nicht in zehn Jahren für den Mindestlohn arbeiten. Wenn der Arbeitsmarkt keine guten Alternativen bietet, ziehen junge Menschen weg, wie schon in den Jahren nach 1990.\n\nHinzu kommt etwas, das sich schwer in Zahlen fassen lässt. Für viele Familien repräsentiert die Kohle mehr als einen Arbeitsplatz. Sie repräsentiert die Arbeit vieler Generationen, den Stolz einer ganzen Region und eine starke Solidarität unter Kollegen. Diese Solidarität wünschen sich die Menschen nun auch vom Rest des Landes. Mitleid wollen sie dagegen nicht. „Wir brauchen kein Mitleid, wir brauchen Perspektiven“, sagt eine Frau von der Gewerkschaft in Cottbus.\n\nBeide Seiten werfen einander gelegentlich vor, nur eine Ausrede zu suchen. Die einen sagen, die Sorge um Arbeitsplätze sei bloß eine Ausrede, um nichts ändern zu müssen. Die anderen sagen, der Schutz des Klimas sei ebenso eine Ausrede, um eine ganze Region zu vergessen. Gerecht wird man der Lage nur, wenn man beide Sorgen ernst nimmt.\n\nDer Bund hat der Lausitz Milliarden versprochen: für Forschung, neue Behörden, Straßen und eine bessere Bahn. Sicher ist nur, dass eine Region mit so viel Erfahrung im Wandel nicht zum ersten Mal vor einer großen Aufgabe steht.\n\nFragen:\nWann soll mit der Kohle in der Lausitz Schluss sein?\nNach dem Gesetz soll spätestens im Jahr 2038 Schluss sein.\nWelche Rolle spielte die Lausitz im Sozialismus der DDR?\nSie galt als das Zentrum der Energie des Landes, und rund 80 000 Menschen arbeiteten in der Kohle.\nWarum befürworten manche einen frühen Ausstieg?\nSie nennen das Klima und wollen, dass weniger Landschaft verloren geht.\nWelche Sorge haben die Gegner wegen des Arbeitsmarktes?\nViele neue Stellen zahlen kaum mehr als den Mindestlohn, und junge Menschen könnten die Region verlassen.\nWas repräsentiert die Kohle für viele Familien?\nSie repräsentiert die Arbeit vieler Generationen, den Stolz der Region und die Solidarität unter Kollegen."
+    },
+    {
+      "title": "Vom Stau auf die Schiene",
+      "summary": "A commuter near Stuttgart explains in a column why he swapped his car for the train after moving house, and what is better and worse now.",
+      "newWords": [
+        "Stau",
+        "Benzin",
+        "Haltestelle",
+        "Verspätung",
+        "Eisenbahn",
+        "öfters",
+        "ablenken",
+        "umziehen",
+        "heran",
+        "Mantel"
+      ],
+      "text": "Zehn Jahre lang bin ich jeden Morgen mit dem Auto zur Arbeit gefahren, 35 Kilometer von unserem Dorf bis in die Mitte von Stuttgart. Für diese Strecke brauchte ich an guten Tagen 40 Minuten. Gute Tage waren selten. Meistens stand ich irgendwo im Stau, morgens auf dem Weg ins Büro und abends auf dem Weg nach Hause. Im Stau habe ich Radio gehört, Nachrichten, Musik, wieder Nachrichten. Einmal habe ich ausgerechnet, dass ich in einem Jahr fast zwei volle Wochen im Stau verbracht hatte.\n\nAuch das Geld spielte eine Rolle. Mein Wagen brauchte ungefähr 7 Liter Benzin auf 100 Kilometer. Als der Preis für Benzin vor einigen Jahren stark stieg, zahlte ich jeden Monat über 250 Euro allein an der Tankstelle. Dazu kamen die Kosten für den Parkplatz in der Stadt.\n\nVor einem Jahr haben meine Frau und ich beschlossen, in eine kleine Stadt an der Strecke der Eisenbahn umzuziehen. Wir sind nicht nur wegen der Arbeit umgezogen; die Wohnung war auch größer und die Schule für unsere Tochter näher. Aber der Bahnhof, 10 Minuten zu Fuß von unserer Tür entfernt, hat bei der Entscheidung sehr geholfen. Mein Vater, der sein Leben lang bei der Eisenbahn gearbeitet hat, hat sich darüber besonders gefreut. Ein Freund hatte mich gewarnt: „Überleg dir gut, ob du umziehen willst. Mit der Bahn wirst du dich öfters ärgern, als du denkst.“\n\nEr hatte nicht ganz unrecht. Die Züge haben öfters Verspätung, besonders im Winter. Eine Verspätung von 5 Minuten stört mich nicht. Eine Verspätung von 30 Minuten dagegen ist ärgerlich, vor allem, wenn ich einen wichtigen Termin habe. Im Januar stand ich einmal fast eine Stunde in der Kälte. Seitdem trage ich im Winter einen langen, warmen Mantel, auch wenn er nicht modern aussieht. Der Mantel hat sich schon viele Male gelohnt.\n\nTrotzdem möchte ich nicht zurück. Morgens gehe ich zum Bahnhof. Der Zug rollt langsam heran, und ich freue mich auf die nächste halbe Stunde. Im Auto durfte ich mich nicht ablenken lassen; jeder Blick auf das Telefon war gefährlich. Im Zug darf ich mich ablenken lassen, so viel ich will. Ich lese, schreibe Nachrichten oder schaue einfach aus dem Fenster auf die Felder.\n\nIn Stuttgart nehme ich noch einen Bus. Die Haltestelle liegt direkt vor dem Bahnhof, und von der Haltestelle bis zu meinem Büro sind es nur drei Minuten. Abends warte ich an derselben Haltestelle. Der Bus fährt heran, und ich denke an die Abende im Stau, die ich nicht vermisse.\n\nFür jeden ist dieses Modell nicht. Wer auf dem Land wohnt, wo nur zweimal am Tag ein Bus fährt, braucht ein Auto. Für mich aber war der Umzug der Anfang eines ruhigeren Lebens.\n\nFragen:\nWie lange brauchte der Autor früher mit dem Auto ins Büro?\nAn guten Tagen brauchte er 40 Minuten, aber meistens stand er im Stau.\nWie viel zahlte er an der Tankstelle für Benzin?\nEr zahlte jeden Monat über 250 Euro.\nWarum ist die Familie umgezogen?\nDie Wohnung war größer, die Schule näher, und der Bahnhof liegt nur 10 Minuten entfernt.\nWas trägt er seit der langen Verspätung im Januar?\nSeitdem trägt er im Winter einen langen, warmen Mantel.\nWas macht er im Zug?\nEr darf sich ablenken lassen: Er liest, schreibt Nachrichten oder schaut aus dem Fenster."
+    },
+    {
+      "title": "Wie schwer ist die Cloud?",
+      "summary": "A short explanatory text on the hidden energy use of the cloud and of Bitcoin, and on what data protection has to do with where data is stored.",
+      "newWords": [
+        "Cloud",
+        "Bitcoin",
+        "Datenschutz",
+        "verarbeitet",
+        "verschicken",
+        "unsichtbar",
+        "knacken",
+        "Glied",
+        "schweben",
+        "einsehen"
+      ],
+      "text": "Das Wort Cloud bedeutet auf Englisch Wolke, und es klingt leicht. Wer seine Fotos in der Cloud speichert, stellt sich vielleicht vor, dass sie irgendwo über uns am Himmel schweben. In Wirklichkeit schweben unsere Daten nicht am Himmel. Sie liegen in großen Hallen voller Computer, die Tag und Nacht laufen. Eine einzige solche Halle braucht oft so viel Strom wie eine kleine Stadt. Ein großer Teil davon wird gebraucht, um die Computer zu kühlen.\n\nFür die meisten Menschen ist dieser Verbrauch unsichtbar. Wenn wir eine Nachricht verschicken, sehen wir nur das kleine Zeichen, dass sie angekommen ist. Wir sehen nicht die Kabel, die Antennen und die Hallen, durch die sie läuft. Eine einzelne Nachricht braucht nur sehr wenig Energie. Doch täglich verschicken Menschen auf der Welt viele Milliarden Nachrichten, Fotos und Videos. Jedes Video, das wir am Abend ansehen, wird in einer solchen Halle gespeichert und verarbeitet. Gerade Videos verbrauchen viel, weil große Mengen an Daten verarbeitet werden müssen.\n\nEin besonderer Fall ist Bitcoin. Bitcoin ist eine digitale Währung, die ohne Bank funktioniert. Damit niemand betrügen kann, werden alle Zahlungen in einer langen Kette gespeichert. Jedes Glied dieser Kette baut auf dem vorigen Glied auf, sodass man ältere Einträge nicht unbemerkt ändern kann. Um ein neues Glied hinzuzufügen, müssen Computer auf der ganzen Welt eine schwierige Aufgabe knacken. Wer sie zuerst knackt, erhält als Lohn neue Bitcoin. Dieser Wettbewerb kostet sehr viel Strom: Das Netz von Bitcoin verbraucht nach manchen Schätzungen ungefähr so viel wie ein ganzes Land.\n\nHier muss man fair bleiben. Viele Hallen voller Computer werden heute mit Strom aus Wind und Sonne betrieben, und die Technik wird jedes Jahr effizienter. In einigen Städten heizt die warme Luft aus den Hallen sogar Wohnungen oder ein Schwimmbad. Das Problem lässt sich also lösen, wenn man es ernst nimmt.\n\nWo unsere Daten liegen, ist nicht nur eine Frage der Energie, sondern auch des Datenschutzes. In der Europäischen Union gelten strenge Regeln für den Datenschutz. Jeder Mensch hat das Recht, die Daten einzusehen, die eine Firma über ihn gespeichert hat. Liegen die Daten in einem anderen Teil der Welt, ist es manchmal schwieriger, sie einzusehen, und der Datenschutz kann dort schwächer sein. Manche Firmen werben deshalb damit, dass ihre Cloud ganz in Deutschland betrieben wird.\n\nWas kann der Einzelne tun? Niemand muss aufhören, Fotos zu verschicken. Aber man kann alte Dateien löschen, die man nicht mehr braucht, und Videos nicht in der höchsten Qualität ansehen, wenn ein kleiner Bildschirm genügt. Die Cloud ist keine Wolke, aber sie muss auch keine Last sein.\n\nFragen:\nWas stellen sich manche Menschen unter der Cloud vor?\nSie stellen sich vor, dass ihre Daten irgendwo über uns am Himmel schweben.\nWo liegen die Daten in Wirklichkeit?\nSie liegen in großen Hallen voller Computer, die Tag und Nacht laufen.\nWarum ist der Verbrauch für die meisten Menschen unsichtbar?\nWenn wir eine Nachricht verschicken, sehen wir nur, dass sie angekommen ist, nicht die Kabel und Hallen.\nWarum braucht Bitcoin so viel Strom?\nComputer auf der ganzen Welt müssen eine schwierige Aufgabe knacken, um ein neues Glied der Kette hinzuzufügen.\nWelches Recht gibt der Datenschutz in der Europäischen Union?\nJeder Mensch hat das Recht, die Daten einzusehen, die eine Firma über ihn gespeichert hat."
+    },
+    {
+      "title": "Was auf dem Teller bleibt",
+      "summary": "A class at a school in Bremen weighs the food left on plates at lunch, works out what it costs in energy, and presents the result to a jury.",
+      "newWords": [
+        "Bremer",
+        "Mathe",
+        "Teller",
+        "Gramm",
+        "verderben",
+        "Wiederholung",
+        "Jury",
+        "zusehen",
+        "ähm",
+        "gratulieren"
+      ],
+      "text": "Im Herbst schrieb die Stadt Bremen einen Wettbewerb für Schulen aus. Die Aufgabe lautete: Findet an eurer Schule einen Weg, Energie zu sparen, und messt das Ergebnis. Eine achte Klasse einer Bremer Gesamtschule entschied sich für ein Thema, an das zuerst niemand gedacht hatte: das Mittagessen.\n\nDie Idee kam von Lina, 14 Jahre alt. Ihr war aufgefallen, dass nach dem Essen auf vielen Tellern noch Nudeln, Kartoffeln oder Gemüse lagen. „Das Essen wird gekocht, transportiert und gekühlt“, sagte sie in der Klasse. „Das alles kostet Energie. Und dann werfen wir es weg.“ Ihre Lehrerin, Frau Behrens, unterrichtet Mathe und Biologie. Sie fand die Idee gut, stellte aber eine Bedingung: „Wir schätzen nichts. Wir messen.“\n\nZwei Wochen lang stellten die Schüler nach dem Essen eine Waage neben die Küche. Jeden Teller, der zurückkam, wogen sie, bevor die Reste in den Müll gingen. Am Ende jedes Tages rechneten sie in Mathe aus, wie viel Gramm pro Teller übrig geblieben waren. Das Ergebnis überraschte alle: Im Durchschnitt blieben 95 Gramm auf jedem Teller liegen, bei 400 Essen am Tag also fast 40 Kilo.\n\nAußerdem sprachen die Schüler mit den Köchinnen. Diese erklärten, dass auch in der Küche Lebensmittel verderben, weil man nie genau weiß, wie viele Kinder kommen. Obst und Salat verderben besonders schnell.\n\nDie Klasse machte drei Vorschläge. Erstens sollten die Kinder selbst sagen dürfen, ob sie eine kleine oder eine große Portion wollen. Zweitens sollte man sich in einer Liste am Vortag für das Essen anmelden. Drittens wollten die Schüler ein Plakat mit ihren Zahlen neben die Küche hängen, damit jeder sie sehen konnte.\n\nNach vier Wochen kam die Wiederholung der Messung. Frau Behrens bestand auf dieser Wiederholung: „Ein Ergebnis ohne Wiederholung ist nur eine Vermutung.“ Diesmal blieben im Durchschnitt nur noch 50 Gramm auf jedem Teller, fast die Hälfte weniger.\n\nIm Frühling stellten die Bremer Schulen ihre Projekte im Rathaus vor. Eine Jury aus fünf Personen hörte jeder Klasse zu, und viele Eltern kamen, um zuzusehen. Lina war nervös. Sie begann mit den Worten: „Ähm, wir haben… ähm, gewogen, was auf den Tellern bleibt.“ Dann sah sie, dass ihre Mutter in der ersten Reihe saß und lächelte, und von da an sprach sie ruhig und klar. Sie zeigte die Zahlen vor und nach den Vorschlägen. Die Jury stellte viele Fragen, und die Klasse konnte alle beantworten.\n\nAm Ende des Abends gab die Jury die Preise bekannt. Die Klasse von Frau Behrens gewann den zweiten Preis. Ein Mann aus der Jury kam zu den Schülern, um ihnen persönlich zu gratulieren. „Ich gratuliere euch“, sagte er. „Ihr habt gezeigt, dass man mit Mathe die Welt ein bisschen besser machen kann.“ Die Eltern, die den ganzen Abend zugesehen hatten, klatschten lange.\n\nFragen:\nWelches Thema wählte die Bremer Klasse für den Wettbewerb?\nSie wählte das Mittagessen und das Essen, das auf den Tellern bleibt.\nWelche Bedingung stellte Frau Behrens?\nDie Schüler sollten nichts schätzen, sondern messen.\nWie viel Gramm blieben bei der ersten Messung auf jedem Teller?\nIm Durchschnitt blieben 95 Gramm auf jedem Teller liegen.\nWarum verderben auch in der Küche Lebensmittel?\nMan weiß nie genau, wie viele Kinder zum Essen kommen.\nWas zeigte die Wiederholung der Messung?\nEs blieben nur noch 50 Gramm pro Teller, fast die Hälfte weniger."
+    },
+    {
+      "title": "Ein Abend über fünf Windräder",
+      "summary": "A report from a village meeting in Hesse about a planned wind farm, where two old friends disagree and a councillor explains the procedure calmly.",
+      "newWords": [
+        "Mandat",
+        "formal",
+        "befreundet",
+        "nirgends",
+        "nirgendwo",
+        "Attacke",
+        "unwahrscheinlich"
+      ],
+      "text": "Oberau ist ein Dorf mit 900 Einwohnern in Hessen. Auf dem Hügel über dem Dorf wächst ein Wald, und am Rand dieses Waldes möchte eine Firma fünf große Windräder bauen. An einem Dienstag im November lud der Gemeinderat deshalb zu einer Versammlung in den Saal des Gasthofs ein. Mehr als 200 Menschen kamen, so viele wie seit Jahren nicht.\n\nUnter ihnen saßen Georg Albrecht und Heinz Lohmann. Die beiden Männer sind seit über 50 Jahren befreundet. Sie gingen zusammen zur Schule, spielten im selben Verein Fußball und treffen sich bis heute jeden Freitag zum Kartenspielen. Beim Thema Wind sind sie allerdings verschiedener Meinung. Albrecht ist für die Anlagen: „Wenn wir Strom wollen, muss er von irgendwo kommen.“ Lohmann ist dagegen. Er fürchtet um den Blick über den Wald, den er seit seiner Kindheit kennt. „Nirgendwo ist unsere Landschaft so schön wie dort oben“, sagt er.\n\nDie Versammlung leitete Selin Yılmaz. Sie ist 34 Jahre alt und hat seit zwei Jahren ein Mandat im Gemeinderat. Zu Beginn erklärte sie, was der Gemeinderat entscheiden darf und was nicht. „Formal entscheidet nicht die Gemeinde, sondern die Behörde des Landkreises“, sagte sie. „Wir können eine Stellungnahme abgeben. Das ist formal ein kleiner Schritt, aber die Behörde nimmt ihn ernst.“ Ihr Mandat verstehe sie so, dass sie zuerst zuhören und dann abwägen müsse.\n\nDanach sprach eine Gutachterin. Sie zeigte Karten und Messungen. Nirgends im Landkreis wehe der Wind so gleichmäßig wie auf diesem Hügel, sagte sie, und nirgendwo sonst sei der Abstand zu den Häusern so groß. Die Anlagen sollen mehr als 1000 Meter vom Dorf entfernt stehen. Dass man ihren Lärm in den Häusern hört, sei bei diesem Abstand sehr unwahrscheinlich. Auch für die Vögel im Wald habe man ein eigenes Gutachten erstellt.\n\nDann durften die Bürger sprechen. Die meisten blieben sachlich. Eine Frau fragte nach den Wegen für die Lastwagen, ein junger Mann nach Arbeitsplätzen. Nur einmal wurde es laut. Ein Mann aus dem Nachbardorf warf dem Gemeinderat vor, er habe sich von der Firma kaufen lassen. Viele im Saal schüttelten den Kopf über diese Attacke. Frau Yılmaz antwortete ruhig: „Ich verstehe, dass Sie wütend sind. Aber diese Attacke ist unfair. Alle Unterlagen sind öffentlich, und jeder kann sie im Rathaus lesen.“ Danach wurde es wieder still.\n\nAm Ende erklärte sie, wie es weitergeht. Die Gemeinde würde Geld aus dem Strom der Anlagen bekommen, das man zum Beispiel für den Kindergarten nutzen könnte. Eine schnelle Entscheidung sei aber unwahrscheinlich; vor dem Sommer werde nichts beschlossen.\n\nAlbrecht und Lohmann gingen zusammen nach Hause, wie immer. Überzeugt hatte der Abend keinen von beiden. „Du bleibst also dagegen?“, fragte Albrecht. „Ja“, sagte Lohmann. „Aber ich gebe zu, dass die Frau gut erklärt hat.“ Am Freitag trafen sie sich wieder zum Kartenspielen. Über Wind sprachen sie an diesem Abend nicht.\n\nFragen:\nWas möchte die Firma bei Oberau bauen?\nSie möchte am Rand des Waldes auf dem Hügel fünf große Windräder bauen.\nWie lange sind Georg Albrecht und Heinz Lohmann schon befreundet?\nSie sind seit über 50 Jahren befreundet.\nWer entscheidet formal über die Anlagen?\nFormal entscheidet die Behörde des Landkreises, nicht die Gemeinde.\nWas sagte die Gutachterin über den Wind?\nNirgends im Landkreis wehe der Wind so gleichmäßig wie auf diesem Hügel.\nWie reagierte Frau Yılmaz auf die Attacke?\nSie antwortete ruhig, dass die Attacke unfair sei und alle Unterlagen öffentlich seien."
+    }
+  ]
+}
