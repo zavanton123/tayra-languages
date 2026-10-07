@@ -1,0 +1,14 @@
+-- Bookmarks keep when they were added. The table is rebuilt rather than given a column, so this runs
+-- whether the column is there already or not (as in 17 and 18); bookmarks from before get no date.
+CREATE TABLE page_bookmarks_v19 (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    page_id INTEGER NOT NULL REFERENCES pages(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    created_at INTEGER
+);
+
+INSERT INTO page_bookmarks_v19(id, page_id, title) SELECT id, page_id, title FROM page_bookmarks;
+
+DROP TABLE page_bookmarks;
+
+ALTER TABLE page_bookmarks_v19 RENAME TO page_bookmarks;

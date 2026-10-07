@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.drag
 import androidx.compose.foundation.gestures.waitForUpOrCancellation
@@ -121,6 +122,8 @@ fun ReadingText(
     modifier: Modifier = Modifier,
     /** Lay each sentence out on its own line instead of flowing a paragraph together. */
     splitSentences: Boolean = false,
+    /** Justify the lines of text rather than aligning them to the start. */
+    justify: Boolean = false,
     /** Translations shown under each sentence, keyed by [RenderedSentence.displayText]; null hides them. */
     translations: Map<String, SentenceTranslation>? = null,
     /** With translations, put each sentence in a left column and its translation in a right one. */
@@ -197,6 +200,7 @@ fun ReadingText(
                         popupItem = popupItem,
                         fontScale = fontScale,
                         lineHeight = lineHeight,
+                        justify = justify,
                         rightToLeft = rightToLeft,
                         callbacks = callbacks,
                         fontFamily = fontFamily,
@@ -363,6 +367,7 @@ private fun ParagraphText(
     rightToLeft: Boolean,
     callbacks: ReadingTextCallbacks,
     fontFamily: FontFamily = FontFamily.Serif,
+    justify: Boolean = false,
     /** Local item positions that start a sentence, with the sentence to read, for inline play buttons. */
     inlinePlay: Map<Int, String> = emptyMap(),
     onSpeakSentence: ((String) -> Unit)? = null,
@@ -411,6 +416,7 @@ private fun ParagraphText(
                 color = theme.readingText,
                 textDirection = if (rightToLeft) TextDirection.Rtl else TextDirection.Ltr,
                 fontFamily = fontFamily,
+                textAlign = if (justify) TextAlign.Justify else TextAlign.Start,
             ),
             onTextLayout = { layout = it },
             inlineContent = inlineContent,

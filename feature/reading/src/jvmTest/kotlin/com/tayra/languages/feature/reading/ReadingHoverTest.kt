@@ -64,6 +64,7 @@ import com.tayra.languages.feature.terms.form.TermFormKey
 import androidx.compose.ui.test.click
 import androidx.compose.ui.test.assertTextContains
 import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.graphics.toAwtImage
 import com.tayra.languages.core.ui.components.STATUS_BAR_TAG
@@ -259,13 +260,14 @@ class ReadingHoverTest {
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Menu").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-edit").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("tool-edit").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Edit book").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("EDITING", ignoreCase = true).assertExists()
         rule.onNodeWithText("Edit current page").assertExists()
         for (gone in listOf("Add page after", "Add page before", "Delete current page")) {
             assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is no longer offered")
         }
-        rule.onNodeWithText("Edit book").performScrollTo().performClick()
+        rule.onNodeWithText("Edit book").performClick()
         rule.waitUntil(5_000) { visited.isNotEmpty() }
         assertEquals(listOf<com.tayra.languages.core.ui.navigation.Route>(com.tayra.languages.core.ui.navigation.Route.EditBook(1)), visited)
     }
@@ -298,27 +300,48 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { back == 3 }
 
         rule.onNodeWithContentDescription("Menu").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("List bookmarks").fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(rule.onAllNodesWithText("Edit book").fetchSemanticsNodes().isEmpty(), "a lesson's text is not edited")
-        assertTrue(rule.onAllNodesWithText("Edit current page").fetchSemanticsNodes().isEmpty())
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-bookmarks").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(rule.onAllNodesWithTag("tool-edit").fetchSemanticsNodes().isEmpty(), "a lesson's text is not edited")
     }
 
-    /** The menu groups the translation options under their own heading, between Reading and Speech. */
+    /** The pane sorts its settings into Reading, Audio and Appearance tabs; a layout choice is saved as it is made. */
     @Test
-    fun theMenuGroupsTheTranslationOptions() {
+    fun theReaderPaneSortsItsSettingsIntoTabs() {
         val vm = runBlocking { reader(mainIsDefault = false) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Menu").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("TRANSLATION").fetchSemanticsNodes().isNotEmpty() }
-        fun top(text: String) = rule.onNodeWithText(text, useUnmergedTree = true).fetchSemanticsNode().boundsInRoot.top
-        val heading = top("TRANSLATION")
-        assertTrue(top("READING") < heading, "Reading comes first")
-        for (option in listOf("Show translations", "Translations side by side", "Translation engine")) {
-            assertTrue(top(option) > heading, "$option sits under Translation")
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Reading experience").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File("$path-reading.png"))
         }
-        assertTrue(top("One sentence per line") < heading, "reading options stay under Reading")
+        for (shown in listOf("Translations", "Show translations", "Translation layout", "Translation engine", "Sentence layout")) {
+            rule.onNodeWithText(shown).assertExists()
+        }
+        rule.onNodeWithText("Below").performScrollTo().performClick()
+        rule.waitUntil(5_000) { !settings.current.sideBySideTranslations }
+        rule.onNodeWithText("One per line").performClick()
+        rule.waitUntil(5_000) { settings.current.splitSentences }
+
+        rule.onNodeWithTag("pane-tab-AUDIO").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Playback").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Speak word on click").assertExists()
+        System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File("$path-audio.png"))
+        }
+        assertTrue(rule.onAllNodesWithText("Reading experience").fetchSemanticsNodes().isEmpty())
+
+        rule.onNodeWithTag("pane-tab-APPEARANCE").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Typography").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("READER_PANE_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File("$path-appearance.png"))
+        }
+        rule.onNodeWithText("Justified").performScrollTo().performClick()
+        rule.waitUntil(5_000) { settings.current.readingJustified }
     }
 
     /** Typography offers the reading fonts; picking one saves it and the row shows it. */
@@ -329,8 +352,10 @@ class ReadingHoverTest {
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Menu").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("Font").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("Font").performScrollTo().performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-APPEARANCE").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("pane-tab-APPEARANCE").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("font-choice").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("font-choice").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Lora").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("FONT_MENU_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
@@ -341,18 +366,27 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Lora").fetchSemanticsNodes().isNotEmpty() }
     }
 
-    /** The Vocabulary section keeps the page's term list; translating, themes and shortcuts are left to their keys and Settings. */
+    /** Bookmarks open inside the pane: the current page is added, listed with its opening words, and opened from the list. */
     @Test
-    fun theMenuNoLongerOffersTranslatingThemesOrShortcuts() {
-        val vm = runBlocking { reader(mainIsDefault = false) }
+    fun thePaneBookmarksTheCurrentPage() {
+        val vm = runBlocking { reader(mainIsDefault = false, pages = 3) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         rule.setContent { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, viewModel = vm) }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Menu").performClick()
-        rule.waitUntil(5_000) { rule.onAllNodesWithText("VOCABULARY").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("Term list for this page").assertExists()
-        for (gone in listOf("LANGUAGE TOOLS", "Translate sentence", "Translate page", "Next theme", "Keyboard shortcuts", "MORE")) {
-            assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is no longer in the menu")
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("tool-bookmarks").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("tool-bookmarks").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Page 1 is not bookmarked yet").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("add-bookmark").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("bookmark-1").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithText("Page 1 is bookmarked").assertExists()
+        rule.onNodeWithTag("bookmark-1").assertTextContains("O lobo dorme na floresta.", substring = true)
+        System.getenv("BOOKMARKS_PANE_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        for (gone in listOf("LANGUAGE TOOLS", "Translate sentence", "Translate page", "Next theme", "Keyboard shortcuts")) {
+            assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is not in the pane")
         }
     }
 

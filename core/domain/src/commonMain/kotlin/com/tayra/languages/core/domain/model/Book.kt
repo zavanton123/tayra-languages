@@ -40,6 +40,10 @@ data class PageBookmark(
     val pageId: Long,
     val pageNumber: Int,
     val title: String,
+    /** When it was added; null for bookmarks made before this was kept. */
+    val createdAt: Instant? = null,
+    /** The start of the page's text. */
+    val opening: String = "",
 )
 
 data class WordsReadEntry(

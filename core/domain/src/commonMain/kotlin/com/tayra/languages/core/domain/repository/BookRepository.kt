@@ -16,7 +16,7 @@ data class NewPage(val text: String, val wordCount: Int)
 data class RebuiltPage(val text: String, val wordCount: Int, val startDate: Instant? = null, val readDate: Instant? = null)
 
 /** A bookmark to re-add on a rebuilt book, on the page at [pageIndex] (from 0). */
-data class RebuiltBookmark(val pageIndex: Int, val title: String)
+data class RebuiltBookmark(val pageIndex: Int, val title: String, val createdAt: kotlin.time.Instant? = null)
 
 interface BookRepository {
     fun observeBooks(archived: Boolean): Flow<List<BookListItem>>

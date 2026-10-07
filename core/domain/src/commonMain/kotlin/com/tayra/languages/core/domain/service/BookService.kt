@@ -115,7 +115,7 @@ class BookService(
             )
         }
         val current = old.indexOfFirst { it.id == book.currentPageId }.takeIf { it >= 0 }?.let(::newIndexOfOldPage) ?: 0
-        val bookmarks = books.observeBookmarks(book.id).first().map { RebuiltBookmark(newIndexOfOldPage(it.pageNumber - 1), it.title) }
+        val bookmarks = books.observeBookmarks(book.id).first().map { RebuiltBookmark(newIndexOfOldPage(it.pageNumber - 1), it.title, it.createdAt) }
         books.replacePages(book.id, pages, current, bookmarks)
     }
 

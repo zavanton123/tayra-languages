@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.reading
 
+import com.tayra.languages.core.domain.model.PageBookmark
 import com.tayra.languages.core.domain.courses.LessonReading
 import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.domain.stats.BookStatsCalculator
@@ -755,6 +756,44 @@ class ReadingViewModel(
     private fun updateSettings(transform: (UserSettings) -> UserSettings) {
         viewModelScope.launch { settingsRepository.update(transform) }
     }
+
+    // ---- the reader settings pane
+
+    fun setSplitSentences(on: Boolean) = updateSettings { it.copy(splitSentences = on) }
+    fun setSideBySideTranslations(on: Boolean) = updateSettings { it.copy(sideBySideTranslations = on) }
+    fun setJustified(on: Boolean) = updateSettings { it.copy(readingJustified = on) }
+    fun setFontScale(scale: Float) = updateSettings { it.copy(readingFontScale = ((scale * 10).roundToInt() / 10f).coerceIn(0.6f, 2.5f)) }
+    fun setLineHeight(height: Float) = updateSettings { it.copy(readingLineHeight = ((height * 10).roundToInt() / 10f).coerceIn(1.0f, 3.0f)) }
+    fun setColumnWidth(width: Int) = updateSettings { it.copy(readingColumnWidth = (width / 20 * 20).coerceIn(320, 2000)) }
+    fun setSpeechSpeed(speed: Float) = updateSettings { it.copy(speechSpeed = ((speed.coerceIn(0.5f, 1.5f) * 20).roundToInt() / 20f)) }
+
+    /** Puts the pane's settings (reading, audio and appearance) back to their defaults; the engines and voices stay. */
+    fun resetReaderSettings() = updateSettings {
+        val defaults = UserSettings()
+        it.copy(
+            focusMode = defaults.focusMode,
+            showHighlights = defaults.showHighlights,
+            splitSentences = defaults.splitSentences,
+            showTranslations = defaults.showTranslations,
+            sideBySideTranslations = defaults.sideBySideTranslations,
+            showSentencePlay = defaults.showSentencePlay,
+            speakWordOnClick = defaults.speakWordOnClick,
+            autoPause = defaults.autoPause,
+            speechSpeed = defaults.speechSpeed,
+            readingFont = defaults.readingFont,
+            readingFontScale = defaults.readingFontScale,
+            readingLineHeight = defaults.readingLineHeight,
+            readingColumnWidth = defaults.readingColumnWidth,
+            readingJustified = defaults.readingJustified,
+        )
+    }
+
+    /** The book's bookmarks, in page order. */
+    val bookmarks: StateFlow<List<PageBookmark>> = books.observeBookmarks(bookId)
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
+
+    fun renameBookmark(id: Long, title: String) = viewModelScope.launch { books.renameBookmark(id, title) }
+    fun deleteBookmark(id: Long) = viewModelScope.launch { books.deleteBookmark(id) }
 
     // ---- pages, bookmarks, book
 

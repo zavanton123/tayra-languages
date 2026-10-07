@@ -17,6 +17,8 @@ data class UserSettings(
     /** The typeface of the reader's text, by id; see the reading fonts in the UI. */
     val readingFont: String = DEFAULT_READING_FONT,
     val readingColumnWidth: Int = 720,
+    /** Whether the reading text is justified rather than aligned to the start. */
+    val readingJustified: Boolean = false,
     val focusMode: Boolean = false,
     /** Start every sentence on its own line while reading. */
     val splitSentences: Boolean = false,

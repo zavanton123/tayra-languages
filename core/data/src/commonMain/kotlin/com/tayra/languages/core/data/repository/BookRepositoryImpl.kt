@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.repository
 
+import kotlin.time.Clock
 import app.cash.sqldelight.async.coroutines.awaitAsList
 import app.cash.sqldelight.async.coroutines.awaitAsOne
 import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
@@ -184,7 +185,7 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
             }
             q.setCurrentPage(pageId = ids.getOrNull(currentIndex) ?: ids.firstOrNull(), id = bookId)
             for (bookmark in bookmarks) {
-                ids.getOrNull(bookmark.pageIndex)?.let { q.insertBookmark(it, bookmark.title) }
+                ids.getOrNull(bookmark.pageIndex)?.let { q.insertBookmark(it, bookmark.title, bookmark.createdAt?.toEpochMilliseconds()) }
             }
             q.deleteStats(bookId)
         }
@@ -258,14 +259,14 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
 
     override fun observeBookmarks(bookId: Long): Flow<List<PageBookmark>> = flow {
         db().booksQueries.selectBookmarks(bookId).asFlow().mapToList(databaseDispatcher).collect { rows ->
-            emit(rows.map { PageBookmark(it.id, it.page_id, it.page_order.toInt(), it.title) })
+            emit(rows.map { PageBookmark(it.id, it.page_id, it.page_order.toInt(), it.title, it.created_at?.toInstant(), it.opening.orEmpty()) })
         }
     }
 
     override suspend fun addBookmark(pageId: Long, title: String): Long = withContext(databaseDispatcher) {
         val database = db()
         database.transactionWithResult {
-            database.booksQueries.insertBookmark(pageId, title)
+            database.booksQueries.insertBookmark(pageId, title, Clock.System.now().toEpochMilliseconds())
             database.booksQueries.lastInsertId().awaitAsOne()
         }
     }

@@ -246,15 +246,13 @@ fun ReadingScreen(
         return true
     }
 
-    val menu = ReadingMenuActions(
+    val paneActions = ReaderPaneActions(
         onEditBook = { onNavigate(Route.EditBook(bookId)) },
         onEditPage = { onNavigate(Route.EditPage(bookId, state.pageNumber)) },
-        onBookmarks = { onNavigate(Route.Bookmarks(bookId)) },
-        onAddBookmark = { bookmarkDialog = true },
         onTermList = { onNavigate(Route.Terms(viewModel.pageTermIds(), bookId, state.pageNumber)) },
-        onToggleHighlights = viewModel::toggleHighlights,
-        onSpeechSettings = { onNavigate(Route.Speech) },
         onSource = { state.book?.sourceUri?.let { uriHandler.openUri(it) } },
+        onSpeechSettings = { onNavigate(Route.Speech) },
+        onTranslationSettings = { onNavigate(Route.OfflineTranslation) },
     )
 
     ModalNavigationDrawer(
@@ -264,8 +262,10 @@ fun ReadingScreen(
                 drawerContainerColor = MaterialTheme.colorScheme.surface,
                 drawerShape = RoundedCornerShape(topEnd = 20.dp, bottomEnd = 20.dp),
                 windowInsets = WindowInsets.safeDrawing,
+                // Wider than Material's 360dp drawer, so the tabs and tool tiles fit; a phone keeps a strip of the page.
+                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth(0.9f) else Modifier.width(460.dp),
             ) {
-                ReadingMenu(state, viewModel, menu, onClose = { scope.launch { drawerState.close() } })
+                ReaderPane(state, viewModel, paneActions, onClose = { scope.launch { drawerState.close() } })
             }
         },
     ) {
@@ -332,276 +332,6 @@ fun ReadingScreen(
         )
     }
     ToastHost(toast)
-}
-
-private class ReadingMenuActions(
-    val onEditBook: () -> Unit,
-    val onEditPage: () -> Unit,
-    val onBookmarks: () -> Unit,
-    val onAddBookmark: () -> Unit,
-    val onTermList: () -> Unit,
-    val onToggleHighlights: () -> Unit,
-    val onSource: () -> Unit,
-    val onSpeechSettings: () -> Unit,
-)
-
-@Composable
-private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, actions: ReadingMenuActions, onClose: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val prefs = state.settings
-    Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 20.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Icon(AppIcons.Otter, contentDescription = null, tint = colors.primary, modifier = Modifier.size(40.dp))
-            Spacer(Modifier.width(14.dp))
-            Column(Modifier.weight(1f)) {
-                Text(tr("Reader settings"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
-                Text(state.book?.title.orEmpty(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
-            }
-            Box(
-                Modifier.size(40.dp).clip(RoundedCornerShape(20.dp)).background(colors.surfaceVariant.copy(alpha = 0.6f)).clickable(onClick = onClose),
-                contentAlignment = Alignment.Center,
-            ) { Icon(Icons.Default.Close, contentDescription = tr("Close menu"), modifier = Modifier.size(20.dp)) }
-        }
-
-        MenuSection(tr("Reading"))
-        SwitchRow(AppIcons.Fullscreen, tr("Focus mode"), prefs.focusMode) { viewModel.toggleFocusMode() }
-        SwitchRow(AppIcons.Palette, tr("Highlight terms"), prefs.showHighlights) { viewModel.toggleHighlights() }
-        SwitchRow(AppIcons.LineSpacing, tr("One sentence per line"), prefs.splitSentences) { viewModel.toggleSplitSentences() }
-
-        MenuSection(tr("Translation"))
-        SwitchRow(AppIcons.Translate, tr("Show translations"), prefs.showTranslations) { viewModel.toggleShowTranslations() }
-        SwitchRow(AppIcons.ViewColumn, tr("Translations side by side"), prefs.sideBySideTranslations) { viewModel.toggleSideBySideTranslations() }
-        EngineRow(
-            selected = prefs.translationEngine,
-            options = viewModel.availableEngines,
-            localTranslatorName = viewModel.localTranslatorName,
-            keyed = setOfNotNull(
-                TranslationEngine.GOOGLE.takeIf { prefs.googleTranslateApiKey.isNotBlank() },
-            ),
-            onSelect = viewModel::setTranslationEngine,
-        )
-
-        SpeechSection(state, viewModel, onSettings = { onClose(); actions.onSpeechSettings() })
-
-        MenuSection(tr("Typography"))
-        val font = ReadingFont.byId(prefs.readingFont)
-        ChoiceRow(
-            icon = AppIcons.Abc,
-            title = tr("Font"),
-            value = tr(font.label),
-            options = ReadingFont.choices,
-            optionLabel = { tr(it.label) },
-            optionFont = { it },
-            onSelect = viewModel::setReadingFont,
-        )
-        AdjustRow(AppIcons.FormatSize, tr("Font size"), "${(prefs.readingFontScale * 100).toInt()}%", onLess = { viewModel.adjustFontScale(-0.1f) }, onMore = { viewModel.adjustFontScale(0.1f) })
-        AdjustRow(AppIcons.LineSpacing, tr("Line height"), "${(prefs.readingLineHeight * 10).toInt() / 10f}", onLess = { viewModel.adjustLineHeight(-0.1f) }, onMore = { viewModel.adjustLineHeight(0.1f) })
-        AdjustRow(AppIcons.OpenInFull, tr("Text width"), "${prefs.readingColumnWidth}", onLess = { viewModel.adjustColumnWidth(-80) }, onMore = { viewModel.adjustColumnWidth(80) })
-
-        // A lesson's text belongs to its course.
-        if (state.lesson == null) {
-            MenuSection(tr("Editing"))
-            MenuRow(AppIcons.MenuBook, tr("Edit book")) { onClose(); actions.onEditBook() }
-            MenuRow(AppIcons.Page, tr("Edit current page")) { onClose(); actions.onEditPage() }
-        }
-
-        MenuSection(tr("Bookmarks"))
-        MenuRow(AppIcons.Bookmark, tr("List bookmarks")) { onClose(); actions.onBookmarks() }
-        MenuRow(AppIcons.BookmarkAdd, tr("Add bookmark")) { onClose(); actions.onAddBookmark() }
-
-        MenuSection(tr("Vocabulary"))
-        MenuRow(Icons.AutoMirrored.Filled.List, tr("Term list for this page")) { onClose(); actions.onTermList() }
-
-        if (!state.book?.sourceUri.isNullOrBlank()) {
-            MenuSection(tr("More"))
-            MenuRow(AppIcons.Link, tr("Show source URL")) { onClose(); actions.onSource() }
-        }
-    }
-}
-
-@Composable
-private fun MenuSection(label: String) {
-    Row(Modifier.fillMaxWidth().padding(top = 22.dp, bottom = 6.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(
-            label.uppercase(),
-            style = MaterialTheme.typography.labelMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-            letterSpacing = androidx.compose.ui.unit.TextUnit(1.2f, androidx.compose.ui.unit.TextUnitType.Sp),
-        )
-        HorizontalDivider(Modifier.weight(1f), color = MaterialTheme.colorScheme.outlineVariant)
-    }
-}
-
-@Composable
-private fun MenuIcon(icon: androidx.compose.ui.graphics.vector.ImageVector, tint: androidx.compose.ui.graphics.Color) {
-    Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(22.dp))
-}
-
-@Composable
-private fun MenuRow(icon: androidx.compose.ui.graphics.vector.ImageVector, label: String, destructive: Boolean = false, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val tint = if (destructive) colors.error else colors.primary
-    Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp))
-            .background(if (destructive) colors.error.copy(alpha = 0.08f) else androidx.compose.ui.graphics.Color.Transparent)
-            .clickable(onClick = onClick).padding(horizontal = 12.dp, vertical = 10.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(14.dp),
-    ) {
-        MenuIcon(icon, tint)
-        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, color = if (destructive) colors.error else colors.onSurface)
-        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.outline, modifier = Modifier.size(20.dp))
-    }
-}
-
-@Composable
-private fun AdjustRow(icon: androidx.compose.ui.graphics.vector.ImageVector, label: String, value: String, onLess: () -> Unit, onMore: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Row(Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 6.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-        MenuIcon(icon, colors.primary)
-        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-        Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-        StepButton("−", onLess)
-        StepButton("+", onMore)
-    }
-}
-
-@Composable
-private fun StepButton(label: String, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    Box(
-        Modifier.size(38.dp).clip(RoundedCornerShape(10.dp)).background(colors.primary.copy(alpha = 0.1f)).clickable(onClick = onClick),
-        contentAlignment = Alignment.Center,
-    ) { Text(label, style = MaterialTheme.typography.titleMedium, color = colors.primary) }
-}
-
-/** The translation engine, picked from a menu anchored to the row; engines that need a key are offered once one is set. */
-@Composable
-private fun EngineRow(
-    selected: TranslationEngine,
-    options: List<TranslationEngine>,
-    localTranslatorName: String?,
-    keyed: Set<TranslationEngine>,
-    onSelect: (TranslationEngine) -> Unit,
-) {
-    fun usable(engine: TranslationEngine) = engine in setOf(TranslationEngine.MYMEMORY, TranslationEngine.ARGOS) || engine in keyed
-    fun name(engine: TranslationEngine) = when (engine) {
-        TranslationEngine.ARGOS -> if (localTranslatorName != null) tr("{0} (offline, free)", localTranslatorName) else tr("On this device (offline, free)")
-        TranslationEngine.MYMEMORY -> tr("MyMemory (online, free)")
-        TranslationEngine.GOOGLE -> tr("Google Translate (online, API key)")
-    }
-    ChoiceRow(
-        icon = AppIcons.Globe,
-        title = tr("Translation engine"),
-        value = name(selected),
-        options = options,
-        optionLabel = { if (usable(it)) name(it) else tr("{0} \u2013 add a key in Settings", name(it)) },
-        optionEnabled = ::usable,
-        onSelect = onSelect,
-    )
-}
-
-/** The Speech screen's everyday settings: the play buttons, speaking clicked words, the engine, the voice for this book's language and the speed. */
-@Composable
-private fun SpeechSection(state: ReadingUiState, viewModel: ReadingViewModel, onSettings: () -> Unit) {
-    val prefs = state.settings
-    val voices by viewModel.speechVoices.collectAsState()
-    LaunchedEffect(prefs.speechEngine, state.language?.id) { viewModel.loadSpeechVoices() }
-    val local = prefs.speechEngine != SpeechEngine.SYSTEM && prefs.speechEngine in viewModel.speechEngines
-    val languageName = state.language?.name.orEmpty()
-
-    MenuSection(tr("Speech"))
-    SwitchRow(AppIcons.VolumeUp, tr("Play audio"), prefs.showSentencePlay) { viewModel.toggleSentencePlay() }
-    SwitchRow(AppIcons.Abc, tr("Speak word on click"), prefs.speakWordOnClick) { viewModel.toggleSpeakWordOnClick() }
-    ChoiceRow(
-        icon = AppIcons.VolumeUp,
-        title = tr("Speech engine"),
-        value = speechEngineName(prefs.speechEngine.takeIf { it in viewModel.speechEngines } ?: SpeechEngine.SYSTEM),
-        options = viewModel.speechEngines,
-        optionLabel = ::speechEngineName,
-        onSelect = viewModel::setSpeechEngine,
-    )
-    if (local) {
-        if (voices.isNotEmpty()) {
-            val chosen = prefs.speechVoices["${prefs.speechEngine.name}:${viewModel.speechLanguage}"]
-            ChoiceRow(
-                icon = AppIcons.RecordVoiceOver,
-                title = if (languageName.isEmpty()) tr("Voice") else tr("{0} voice", tr(languageName)),
-                value = (voices.firstOrNull { it.id == chosen } ?: voices.first()).name,
-                options = voices,
-                optionLabel = { it.name },
-                onSelect = { viewModel.setSpeechVoice(it.id) },
-            )
-        } else {
-            Text(
-                tr("No voice for {0} is downloaded, so the system voice reads this text. Download one in Speech settings.", tr(languageName)),
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp),
-            )
-        }
-        if (viewModel.speechSpeedAdjustable()) AdjustRow(AppIcons.Speed, tr("Speed"), "${(prefs.speechSpeed * 100).roundToInt()}%", onLess = { viewModel.adjustSpeechSpeed(-0.1f) }, onMore = { viewModel.adjustSpeechSpeed(0.1f) })
-    }
-    MenuRow(AppIcons.Tune, tr("Speech settings"), onClick = onSettings)
-}
-
-private fun speechEngineName(engine: SpeechEngine): String = when (engine) {
-    SpeechEngine.SYSTEM -> tr("System voices")
-    SpeechEngine.PIPER -> tr("Piper (offline, downloadable voices)")
-    SpeechEngine.KOKORO -> tr("Kokoro (offline, high quality)")
-}
-
-/** A setting picked from a menu anchored to the row, showing the current [value] under the [title]. */
-@Composable
-private fun <T> ChoiceRow(
-    icon: androidx.compose.ui.graphics.vector.ImageVector,
-    title: String,
-    value: String,
-    options: List<T>,
-    optionLabel: (T) -> String,
-    optionEnabled: (T) -> Boolean = { true },
-    /** Shows each option in its own reading font, for a choice of fonts. */
-    optionFont: ((T) -> ReadingFont)? = null,
-    onSelect: (T) -> Unit,
-) {
-    var open by remember { mutableStateOf(false) }
-    val colors = MaterialTheme.colorScheme
-    Box {
-        Row(
-            Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).clickable { open = true }.padding(horizontal = 12.dp, vertical = 10.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(14.dp),
-        ) {
-            MenuIcon(icon, colors.primary)
-            Column(Modifier.weight(1f)) {
-                Text(title, style = MaterialTheme.typography.bodyLarge)
-                Text(value, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            }
-            Icon(AppIcons.UnfoldMore, contentDescription = null, tint = colors.outline, modifier = Modifier.size(20.dp))
-        }
-        AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            options.forEach { option ->
-                AppMenuItem(
-                    text = { Text(optionLabel(option), fontFamily = optionFont?.invoke(option)?.fontFamily()) },
-                    onClick = { open = false; onSelect(option) },
-                    enabled = optionEnabled(option),
-                )
-            }
-        }
-    }
-}
-
-@Composable
-private fun SwitchRow(icon: androidx.compose.ui.graphics.vector.ImageVector, label: String, checked: Boolean, onToggle: () -> Unit) {
-    Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(10.dp)).clickable(onClick = onToggle).padding(horizontal = 12.dp, vertical = 6.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(14.dp),
-    ) {
-        MenuIcon(icon, MaterialTheme.colorScheme.primary)
-        Text(label, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge)
-        Switch(checked = checked, onCheckedChange = { onToggle() })
-    }
 }
 
 @Composable
@@ -815,6 +545,7 @@ private fun ReadingBody(
                 rightToLeft = state.language?.rightToLeft == true,
                 fontFamily = ReadingFont.byId(state.settings.readingFont).fontFamily(),
                 splitSentences = state.settings.splitSentences,
+                justify = state.settings.readingJustified,
                 translations = if (state.settings.showTranslations) state.translations else null,
                 sideBySide = state.settings.sideBySideTranslations,
                 onSpeakSentence = if (state.settings.showSentencePlay) speakSentence else null,

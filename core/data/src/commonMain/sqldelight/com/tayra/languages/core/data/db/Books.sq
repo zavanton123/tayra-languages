@@ -49,7 +49,9 @@ CREATE INDEX sentences_page ON sentences(page_id);
 CREATE TABLE page_bookmarks (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     page_id INTEGER NOT NULL REFERENCES pages(id) ON DELETE CASCADE,
-    title TEXT NOT NULL
+    title TEXT NOT NULL,
+    -- When the bookmark was added, in epoch milliseconds; null for bookmarks from before this was kept.
+    created_at INTEGER
 );
 
 CREATE TABLE book_stats (
@@ -232,14 +234,14 @@ SELECT b.id FROM books b LEFT OUTER JOIN book_stats s ON s.book_id = b.id WHERE 
 -- Bookmarks
 
 selectBookmarks:
-SELECT pb.id, pb.page_id, p.page_order, pb.title
+SELECT pb.id, pb.page_id, p.page_order, pb.title, pb.created_at, substr(p.text, 1, 160) AS opening
 FROM page_bookmarks pb
 INNER JOIN pages p ON p.id = pb.page_id
 WHERE p.book_id = :bookId
 ORDER BY p.page_order, pb.id;
 
 insertBookmark:
-INSERT INTO page_bookmarks(page_id, title) VALUES (:pageId, :title);
+INSERT INTO page_bookmarks(page_id, title, created_at) VALUES (:pageId, :title, :createdAt);
 
 renameBookmark:
 UPDATE page_bookmarks SET title = :title WHERE id = :id;
