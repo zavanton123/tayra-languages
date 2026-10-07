@@ -36,6 +36,8 @@ import com.tayra.languages.core.domain.frequency.VocabularyLevelService
 import com.tayra.languages.feature.frequency.VocabularyLevelPrompt
 import kotlinx.coroutines.launch
 import com.tayra.languages.core.ui.components.LoadingIndicator
+import com.tayra.languages.core.ui.i18n.UiLanguage
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.AppThemes
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -83,6 +85,8 @@ fun App(titleBarInset: Dp = 0.dp) {
     KoinContext {
         val settingsRepository = koinInject<SettingsRepository>()
         val settings by settingsRepository.settings.collectAsStateWithLifecycle()
+        // Set during composition, so the first frame is already in the chosen language.
+        UiLanguage.set(settings.uiLanguage)
         TayraTheme(AppThemes.byId(settings.themeId)) {
             Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
                 Column {
@@ -95,7 +99,7 @@ fun App(titleBarInset: Dp = 0.dp) {
                     when (val s = state) {
                         BootstrapState.Loading -> LoadingIndicator()
                         is BootstrapState.Failed -> Box(Modifier.fillMaxSize().padding(24.dp), contentAlignment = Alignment.Center) {
-                            Text("Could not start: ${s.message}", color = MaterialTheme.colorScheme.error)
+                            Text(tr("Could not start: {0}", s.message), color = MaterialTheme.colorScheme.error)
                         }
                         BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId) {
                             val flashcards = koinInject<FlashcardService>()

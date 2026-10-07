@@ -29,3 +29,13 @@ kotlin {
         }
     }
 }
+
+// TranslationsTest reads the sources of every module that shows text, so they are inputs of the tests.
+tasks.withType<Test>().configureEach {
+    inputs.files(
+        fileTree(rootDir) {
+            include("core/ui/src/**/*.kt", "shared/src/**/*.kt", "feature/*/src/**/*.kt", "desktopApp/src/**/*.kt", "androidApp/src/**/*.kt", "webApp/src/**/*.kt")
+            exclude("**/build/**")
+        },
+    ).withPathSensitivity(PathSensitivity.RELATIVE).withPropertyName("translatedSources")
+}

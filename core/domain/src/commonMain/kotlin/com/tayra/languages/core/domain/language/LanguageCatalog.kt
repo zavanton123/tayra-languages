@@ -17,8 +17,8 @@ object LanguageCatalog {
         LanguageOption("pt", "Portuguese"), LanguageOption("ru", "Russian"), LanguageOption("es", "Spanish"),
     )
 
-    /** Languages the interface can be shown in. */
-    val interfaceLanguages: List<LanguageOption> = nativeLanguages
+    /** Languages the interface is translated into, each named in itself. */
+    val interfaceLanguages: List<LanguageOption> = listOf(LanguageOption("en", "English"), LanguageOption("ru", "Русский"))
 
     fun isTarget(name: String): Boolean = targetLanguages.any { it.equals(name.trim(), ignoreCase = true) }
 

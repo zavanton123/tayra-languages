@@ -124,6 +124,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                             name = { it.name },
                             onSelect = { viewModel.setInterfaceLanguage(it.code) },
                             modifier = Modifier.testTag("interface-language"),
+                            flagName = { LanguageCatalog.nativeOption(it.code).name },
                         )
                         TileDescription("Used for menus, buttons and messages.")
                         Row(
@@ -136,7 +137,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                             Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(20.dp))
                             Spacer(Modifier.width(10.dp))
                             Text(
-                                "Tayra is in English for now; the language you choose is used once Tayra is translated into it.",
+                                "More interface languages will appear as Tayra is translated.",
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.primary,
                             )
@@ -216,7 +217,15 @@ private fun TileDescription(text: String) {
 
 /** A field showing the chosen language with its flag; it opens a menu of the [options], each with its flag. */
 @Composable
-private fun <T> FlagPicker(options: List<T>, selected: T?, name: (T) -> String, onSelect: (T) -> Unit, modifier: Modifier = Modifier) {
+private fun <T> FlagPicker(
+    options: List<T>,
+    selected: T?,
+    name: (T) -> String,
+    onSelect: (T) -> Unit,
+    modifier: Modifier = Modifier,
+    /** The English name the flag is looked up by, when [name] is not it. */
+    flagName: (T) -> String = name,
+) {
     val colors = MaterialTheme.colorScheme
     var open by remember { mutableStateOf(false) }
     Box(modifier.fillMaxWidth()) {
@@ -228,7 +237,7 @@ private fun <T> FlagPicker(options: List<T>, selected: T?, name: (T) -> String, 
             verticalAlignment = Alignment.CenterVertically,
         ) {
             if (selected != null) {
-                LanguageFlag(name(selected), 26.dp)
+                LanguageFlag(flagName(selected), 26.dp)
                 Spacer(Modifier.width(16.dp))
             }
             Text(
@@ -246,7 +255,7 @@ private fun <T> FlagPicker(options: List<T>, selected: T?, name: (T) -> String, 
                 AppMenuItem(
                     text = {
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                            LanguageFlag(name(option), 18.dp)
+                            LanguageFlag(flagName(option), 18.dp)
                             Text(name(option), Modifier.weight(1f), fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal)
                             if (chosen) Icon(Icons.Default.Check, contentDescription = "Selected", tint = colors.primary, modifier = Modifier.size(18.dp))
                         }

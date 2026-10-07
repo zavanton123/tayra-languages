@@ -1,0 +1,42 @@
+package com.tayra.languages.core.ui.i18n.ru
+
+/** Shared words, the language names, and the app's frame: top bar, components, themes and the platform launchers. */
+internal val ruCommon: Map<String, String> = mapOf(
+    // Language names, shown through tr(name).
+    "Belarusian" to "Белорусский",
+    "Bulgarian" to "Болгарский",
+    "Catalan" to "Каталанский",
+    "Croatian" to "Хорватский",
+    "Czech" to "Чешский",
+    "Danish" to "Датский",
+    "Dutch" to "Нидерландский",
+    "English" to "Английский",
+    "Estonian" to "Эстонский",
+    "Finnish" to "Финский",
+    "French" to "Французский",
+    "Galician" to "Галисийский",
+    "German" to "Немецкий",
+    "Greek" to "Греческий",
+    "Hungarian" to "Венгерский",
+    "Icelandic" to "Исландский",
+    "Italian" to "Итальянский",
+    "Latin" to "Латинский",
+    "Latvian" to "Латышский",
+    "Lithuanian" to "Литовский",
+    "Macedonian" to "Македонский",
+    "Norwegian" to "Норвежский",
+    "Polish" to "Польский",
+    "Portuguese" to "Португальский",
+    "Portuguese (Brazil)" to "Португальский (Бразилия)",
+    "Romanian" to "Румынский",
+    "Russian" to "Русский",
+    "Serbian" to "Сербский",
+    "Slovak" to "Словацкий",
+    "Slovene" to "Словенский",
+    "Spanish" to "Испанский",
+    "Swedish" to "Шведский",
+    "Turkish" to "Турецкий",
+    "Ukrainian" to "Украинский",
+
+    "Could not start: {0}" to "Не удалось запустить: {0}",
+)
