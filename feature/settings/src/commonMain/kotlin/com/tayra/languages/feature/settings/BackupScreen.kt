@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.IconTile
@@ -102,27 +104,27 @@ class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
         viewModelScope.launch { refresh() }
     }
 
-    fun create() = run("Creating a backup") {
+    fun create() = run(tr("Creating a backup"), { tr("Could not create the backup: {0}", it) }) {
         val backup = backups.create()
-        "Backup of ${formatBackupTime(backup)} created"
+        tr("Backup of {0} created", formatBackupTime(backup))
     }
 
-    fun delete(backup: Backup) = run("Deleting the backup") {
+    fun delete(backup: Backup) = run(tr("Deleting the backup"), { tr("Could not delete the backup: {0}", it) }) {
         backups.delete(backup.name)
         null
     }
 
-    fun export(backup: Backup) = run("Exporting the backup") {
+    fun export(backup: Backup) = run(tr("Exporting the backup"), { tr("Could not export the backup: {0}", it) }) {
         val bytes = backups.read(backup.name)
-        if (saveBinaryFile(backup.name.removeSuffix(".sqlite"), "sqlite", bytes)) "Backup exported" else null
+        if (saveBinaryFile(backup.name.removeSuffix(".sqlite"), "sqlite", bytes)) tr("Backup exported") else null
     }
 
-    fun import(bytes: ByteArray) = run("Importing the backup") {
+    fun import(bytes: ByteArray) = run(tr("Importing the backup"), { tr("Could not import the backup: {0}", it) }) {
         val backup = backups.import(bytes)
-        "Backup of ${formatBackupTime(backup)} added to the list"
+        tr("Backup of {0} added to the list", formatBackupTime(backup))
     }
 
-    fun restore(backup: Backup) = run("Restoring the backup") {
+    fun restore(backup: Backup) = run(tr("Restoring the backup"), { tr("Could not restore the backup: {0}", it) }) {
         val undo = backups.restore(backup.name)
         _state.update { it.copy(restored = undo) }
         null
@@ -130,7 +132,8 @@ class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
 
     fun restoreSeen() = _state.update { it.copy(restored = null) }
 
-    private fun run(working: String, action: suspend () -> String?) {
+    /** Does [action] while showing [working]; a failure is shown by [failed] with what went wrong. */
+    private fun run(working: String, failed: (String) -> String, action: suspend () -> String?) {
         if (_state.value.working != null) return
         _state.update { it.copy(working = working, message = null, error = null) }
         viewModelScope.launch {
@@ -140,10 +143,11 @@ class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
             } catch (e: CancellationException) {
                 throw e
             } catch (e: BackupException) {
-                _state.update { it.copy(error = e.message) }
+                // The repository's messages are fixed texts, translated like the screen's own.
+                _state.update { it.copy(error = e.message?.let(::tr)) }
             } catch (e: Exception) {
-                Logger.w(e) { "$working failed" }
-                _state.update { it.copy(error = "$working failed: ${e.message ?: e::class.simpleName}") }
+                Logger.w(e) { "Backup action failed: $working" }
+                _state.update { it.copy(error = failed(e.message ?: e::class.simpleName.orEmpty())) }
             } finally {
                 _state.update { it.copy(working = null) }
                 refresh()
@@ -179,7 +183,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
     val compact = LocalWindowWidth.current.isCompact
     val count = state.backups.size
     val pill: @Composable () -> Unit = {
-        if (state.loaded) StatusPill(if (count == 0) "No backups yet" else "$count local backup${if (count == 1) "" else "s"}", if (count == 0) StatusTints.warning else StatusTints.ok)
+        if (state.loaded) StatusPill(if (count == 0) tr("No backups yet") else trPlural(count, "{0} local backup", "{0} local backups"), if (count == 0) StatusTints.warning else StatusTints.ok)
     }
 
     Scaffold(
@@ -187,25 +191,25 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader("Backups", "Protect your library, vocabulary, progress, and preferences.", onBackToSettings = onBack) { if (!compact) pill() }
+            ScreenHeader(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), onBackToSettings = onBack) { if (!compact) pill() }
             if (compact) pill()
             val create: @Composable (Modifier) -> Unit = { m ->
                 ActionCard(
-                    "Create a backup",
-                    "Save your languages, books, vocabulary, reading history, and settings.",
+                    tr("Create a backup"),
+                    tr("Save your languages, books, vocabulary, reading history, and settings."),
                     AppIcons.Storage,
-                    note = "Stored locally on this device.",
+                    note = tr("Stored locally on this device."),
                     modifier = m,
-                ) { Button(onClick = viewModel::create, enabled = idle, shape = RoundedCornerShape(50)) { Text("Create backup", Modifier.padding(horizontal = 24.dp)) } }
+                ) { Button(onClick = viewModel::create, enabled = idle, shape = RoundedCornerShape(50)) { Text(tr("Create backup"), Modifier.padding(horizontal = 24.dp)) } }
             }
             val import: @Composable (Modifier) -> Unit = { m ->
                 ActionCard(
-                    "Import a backup",
-                    "Restore Tayra data from a previously exported backup file.",
+                    tr("Import a backup"),
+                    tr("Restore Tayra data from a previously exported backup file."),
                     AppIcons.UploadFile,
-                    note = "It joins the history below; nothing changes until you restore it.",
+                    note = tr("It joins the history below; nothing changes until you restore it."),
                     modifier = m,
-                ) { OutlinedButton(onClick = { picker.launch() }, enabled = idle, shape = RoundedCornerShape(50)) { Text("Choose file", Modifier.padding(horizontal = 24.dp)) } }
+                ) { OutlinedButton(onClick = { picker.launch() }, enabled = idle, shape = RoundedCornerShape(50)) { Text(tr("Choose file"), Modifier.padding(horizontal = 24.dp)) } }
             }
             if (compact) {
                 create(Modifier)
@@ -232,33 +236,32 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
     restoring?.let { backup ->
         AlertDialog(
             onDismissRequest = { restoring = null },
-            title = { Text("Restore this backup?") },
+            title = { Text(tr("Restore this backup?")) },
             text = {
                 Text(
-                    "All languages, books, vocabulary, reading history and settings will be replaced by those of the backup of ${formatBackupTime(backup)}. " +
-                        "Your current data is backed up first, so you can go back to it.",
+                    tr("All languages, books, vocabulary, reading history and settings will be replaced by those of the backup of {0}. Your current data is backed up first, so you can go back to it.", formatBackupTime(backup)),
                 )
             },
-            confirmButton = { Button(onClick = { restoring = null; viewModel.restore(backup) }) { Text("Restore") } },
-            dismissButton = { TextButton(onClick = { restoring = null }) { Text("Cancel") } },
+            confirmButton = { Button(onClick = { restoring = null; viewModel.restore(backup) }) { Text(tr("Restore")) } },
+            dismissButton = { TextButton(onClick = { restoring = null }) { Text(tr("Cancel")) } },
         )
     }
     deleting?.let { backup ->
         AlertDialog(
             onDismissRequest = { deleting = null },
-            title = { Text("Delete this backup?") },
-            text = { Text("The backup of ${formatBackupTime(backup)} will be deleted from this device. Exported copies are kept.") },
-            confirmButton = { Button(onClick = { deleting = null; viewModel.delete(backup) }) { Text("Delete") } },
-            dismissButton = { TextButton(onClick = { deleting = null }) { Text("Cancel") } },
+            title = { Text(tr("Delete this backup?")) },
+            text = { Text(tr("The backup of {0} will be deleted from this device. Exported copies are kept.", formatBackupTime(backup))) },
+            confirmButton = { Button(onClick = { deleting = null; viewModel.delete(backup) }) { Text(tr("Delete")) } },
+            dismissButton = { TextButton(onClick = { deleting = null }) { Text(tr("Cancel")) } },
         )
     }
     state.restored?.let { undo ->
         val done = { viewModel.restoreSeen(); onRestored() }
         AlertDialog(
             onDismissRequest = done,
-            title = { Text("Backup restored") },
-            text = { Text("The data you had before is kept as the backup of ${formatBackupTime(undo)}.") },
-            confirmButton = { Button(onClick = done) { Text("OK") } },
+            title = { Text(tr("Backup restored")) },
+            text = { Text(tr("The data you had before is kept as the backup of {0}.", formatBackupTime(undo))) },
+            confirmButton = { Button(onClick = done) { Text(tr("OK")) } },
         )
     }
 }
@@ -306,15 +309,15 @@ private fun HistoryCard(
     modifier: Modifier = Modifier,
 ) {
     ContentCard(
-        "Backup history",
-        "Newest first.",
+        tr("Backup history"),
+        tr("Newest first."),
         icon = AppIcons.History,
         modifier = modifier,
-        titleExtra = { if (state.backups.isNotEmpty()) Tag("${state.backups.size} backup${if (state.backups.size == 1) "" else "s"}", MaterialTheme.colorScheme.primary) },
+        titleExtra = { if (state.backups.isNotEmpty()) Tag(trPlural(state.backups.size, "{0} backup", "{0} backups"), MaterialTheme.colorScheme.primary) },
     ) {
         if (state.loaded && state.backups.isEmpty()) {
             Text(
-                "No backups yet. Create one to keep a copy of your data.",
+                tr("No backups yet. Create one to keep a copy of your data."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(vertical = 12.dp),
@@ -335,7 +338,7 @@ private fun HistoryCard(
         // Beside the other card the note sits at the bottom, level with that card's own note.
         if (LocalWindowWidth.current.isExpanded) Spacer(Modifier.weight(1f))
         Spacer(Modifier.height(14.dp))
-        InfoBanner("Restoring replaces your current Tayra data after confirmation.")
+        InfoBanner(tr("Restoring replaces your current Tayra data after confirmation."))
     }
 }
 
@@ -363,17 +366,17 @@ private fun BackupRowContent(
     var menu by remember { mutableStateOf(false) }
     val actions: @Composable () -> Unit = {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            OutlinedButton(onClick = onRestore, enabled = enabled, shape = RoundedCornerShape(10.dp)) { Text("Restore") }
+            OutlinedButton(onClick = onRestore, enabled = enabled, shape = RoundedCornerShape(10.dp)) { Text(tr("Restore")) }
             Spacer(Modifier.width(8.dp))
             TextButton(onClick = onExport, enabled = enabled) {
                 Icon(AppIcons.Share, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.width(8.dp))
-                Text("Export")
+                Text(tr("Export"))
             }
             Box {
-                IconButton(onClick = { menu = true }, enabled = enabled) { Icon(AppIcons.MoreHoriz, contentDescription = "More for the backup of ${formatBackupTime(backup)}") }
+                IconButton(onClick = { menu = true }, enabled = enabled) { Icon(AppIcons.MoreHoriz, contentDescription = tr("More for the backup of {0}", formatBackupTime(backup))) }
                 AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
-                    AppMenuItem(text = { Text("Delete") }, onClick = { menu = false; onDelete() })
+                    AppMenuItem(text = { Text(tr("Delete")) }, onClick = { menu = false; onDelete() })
                 }
             }
         }
@@ -396,7 +399,7 @@ private fun BackupRowContent(
                     )
                     if (latest) {
                         Spacer(Modifier.width(10.dp))
-                        Tag("Latest", MaterialTheme.colorScheme.primary)
+                        Tag(tr("Latest"), MaterialTheme.colorScheme.primary)
                     }
                 }
                 Text(formatSize(backup.sizeBytes), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -404,7 +407,7 @@ private fun BackupRowContent(
             if (!stacked) {
                 Box(Modifier.size(8.dp).clip(CircleShape).background(StatusTints.ok))
                 Spacer(Modifier.width(8.dp))
-                Text("Ready", style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
+                Text(tr("Ready"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(24.dp))
                 actions()
             }
@@ -426,21 +429,21 @@ private fun IncludedCard(modifier: Modifier = Modifier) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             IconTile(AppIcons.VerifiedUser, size = 56)
             Spacer(Modifier.width(16.dp))
-            Text("What's included", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text(tr("What's included"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
         }
         Spacer(Modifier.height(14.dp))
-        listOf("Languages and books", "Vocabulary", "Reading history", "Settings").forEach { IncludedLine(it, Icons.Default.CheckCircle, StatusTints.ok) }
+        listOf(tr("Languages and books"), tr("Vocabulary"), tr("Reading history"), tr("Settings")).forEach { IncludedLine(it, Icons.Default.CheckCircle, StatusTints.ok) }
         HorizontalDivider(Modifier.padding(vertical = 14.dp), color = MaterialTheme.colorScheme.outlineVariant)
         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 4.dp)) {
             Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(22.dp))
             Spacer(Modifier.width(14.dp))
-            Text("Not included", style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
+            Text(tr("Not included"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.SemiBold)
         }
-        listOf("Audio files", "Downloaded dictionaries", "Voices and translation models", "API keys")
+        listOf(tr("Audio files"), tr("Downloaded dictionaries"), tr("Voices and translation models"), tr("API keys"))
             .forEach { IncludedLine(it, AppIcons.RemoveCircle, MaterialTheme.colorScheme.outline) }
         if (LocalWindowWidth.current.isExpanded) Spacer(Modifier.weight(1f))
         Spacer(Modifier.height(14.dp))
-        InfoBanner("These items can be downloaded or configured again after restoring.")
+        InfoBanner(tr("These items can be downloaded or configured again after restoring."))
     }
 }
 
@@ -459,5 +462,5 @@ internal fun formatBackupTime(backup: Backup): String = backup.createdAt?.let(::
 
 private fun formatBackupTime(time: LocalDateTime): String {
     fun two(n: Int) = n.toString().padStart(2, '0')
-    return "${time.day} ${MONTHS[time.month.ordinal]} ${time.year}, ${two(time.hour)}:${two(time.minute)}:${two(time.second)}"
+    return "${time.day} ${tr(MONTHS[time.month.ordinal])} ${time.year}, ${two(time.hour)}:${two(time.minute)}:${two(time.second)}"
 }

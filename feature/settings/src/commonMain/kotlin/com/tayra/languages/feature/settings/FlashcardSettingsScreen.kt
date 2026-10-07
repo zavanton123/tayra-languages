@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -49,12 +50,12 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
     val wide = LocalWindowWidth.current.isExpanded
     val compact = LocalWindowWidth.current.isCompact
     Scaffold(
-        topBar = { AppTopBar(title = "Flashcards", onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader("Flashcards", "Daily limits and how reviews are scheduled.", onBackToSettings = { onNavigate(Route.Settings) }) {
-                HeaderButton(if (compact) "Reset" else "Reset to defaults", Icons.Default.Refresh, onClick = {
+            ScreenHeader(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), onBackToSettings = { onNavigate(Route.Settings) }) {
+                HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = {
                     val defaults = UserSettings()
                     viewModel.update {
                         it.copy(
@@ -91,19 +92,19 @@ fun FlashcardSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vie
 
 @Composable
 private fun LimitsCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    ContentCard("Daily limits", "How many cards a day, for each language.", icon = AppIcons.BarChart) {
-        SettingRow("New cards a day", "Words shown as a flashcard for the first time.", stackOnCompact = true) {
-            NumberStepper(settings.flashcardNewPerDay, 0..UserSettings.MAX_FLASHCARDS_PER_DAY, name = "new cards a day", step = 5) { n ->
+    ContentCard(tr("Daily limits"), tr("How many cards a day, for each language."), icon = AppIcons.BarChart) {
+        SettingRow(tr("New cards a day"), tr("Words shown as a flashcard for the first time."), stackOnCompact = true) {
+            NumberStepper(settings.flashcardNewPerDay, 0..UserSettings.MAX_FLASHCARDS_PER_DAY, name = tr("new cards a day"), step = 5) { n ->
                 viewModel.update { it.copy(flashcardNewPerDay = n) }
             }
         }
         val limited = settings.flashcardReviewsPerDay > 0
-        SwitchSetting("Limit reviews a day", "Off shows every review that is due.", limited, divider = true) { on ->
+        SwitchSetting(tr("Limit reviews a day"), tr("Off shows every review that is due."), limited, divider = true) { on ->
             viewModel.update { it.copy(flashcardReviewsPerDay = if (on) DEFAULT_REVIEW_LIMIT else 0) }
         }
         if (limited) {
-            SettingRow("Reviews a day", "Reviews left over wait for the next day.", stackOnCompact = true) {
-                NumberStepper(settings.flashcardReviewsPerDay, 1..UserSettings.MAX_FLASHCARDS_PER_DAY, name = "reviews a day", step = 10) { n ->
+            SettingRow(tr("Reviews a day"), tr("Reviews left over wait for the next day."), stackOnCompact = true) {
+                NumberStepper(settings.flashcardReviewsPerDay, 1..UserSettings.MAX_FLASHCARDS_PER_DAY, name = tr("reviews a day"), step = 10) { n ->
                     viewModel.update { it.copy(flashcardReviewsPerDay = n) }
                 }
             }
@@ -116,26 +117,26 @@ private const val DEFAULT_REVIEW_LIMIT = 200
 
 @Composable
 private fun SchedulingCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    ContentCard("Scheduling", "Reviews are timed with FSRS, as in Anki.", icon = Icons.Default.Settings) {
-        SettingRow("Desired retention", "The share of cards you want to remember when they come up. Higher means more reviews.", stackOnCompact = true) {
+    ContentCard(tr("Scheduling"), tr("Reviews are timed with FSRS, as in Anki."), icon = Icons.Default.Settings) {
+        SettingRow(tr("Desired retention"), tr("The share of cards you want to remember when they come up. Higher means more reviews."), stackOnCompact = true) {
             SliderStepper(
                 value = settings.flashcardRetention.toFloat(),
                 range = UserSettings.MIN_FLASHCARD_RETENTION.toFloat()..UserSettings.MAX_FLASHCARD_RETENTION.toFloat(),
                 step = 1f,
                 label = "${settings.flashcardRetention}%",
-                name = "desired retention",
+                name = tr("desired retention"),
                 onChange = { v -> viewModel.update { it.copy(flashcardRetention = kotlin.math.round(v).toInt()) } },
                 modifier = Modifier.width(280.dp),
             )
         }
-        StepsRow("Learning steps", "Waits before a new card comes back, until it is learned.", settings.flashcardLearnSteps) { text ->
+        StepsRow(tr("Learning steps"), tr("Waits before a new card comes back, until it is learned."), settings.flashcardLearnSteps) { text ->
             viewModel.update { it.copy(flashcardLearnSteps = text) }
         }
-        StepsRow("Relearning steps", "Waits before a forgotten card comes back.", settings.flashcardRelearnSteps) { text ->
+        StepsRow(tr("Relearning steps"), tr("Waits before a forgotten card comes back."), settings.flashcardRelearnSteps) { text ->
             viewModel.update { it.copy(flashcardRelearnSteps = text) }
         }
         Text(
-            "Write steps as minutes, or with s, m, h or d: 1m 10m, or 30s 5m 1h. Leave empty to let FSRS decide from the first answer.",
+            tr("Write steps as minutes, or with s, m, h or d: 1m 10m, or 30s 5m 1h. Leave empty to let FSRS decide from the first answer."),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(top = 8.dp),
@@ -159,7 +160,7 @@ private fun StepsRow(title: String, description: String, saved: String, onSave: 
             },
             singleLine = true,
             isError = !valid,
-            supportingText = if (valid) null else ({ Text("Use steps such as 1m 10m") }),
+            supportingText = if (valid) null else ({ Text(tr("Use steps such as 1m 10m")) }),
             shape = RoundedCornerShape(10.dp),
             modifier = Modifier.width(220.dp).semantics { contentDescription = title },
         )
@@ -168,8 +169,8 @@ private fun StepsRow(title: String, description: String, saved: String, onSave: 
 
 @Composable
 private fun AnswerCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    ContentCard("Answer", "What happens when a card's answer is shown.", icon = AppIcons.VolumeUp) {
-        SwitchSetting("Read aloud", "Read the sentence, or the word, when the answer is shown.", settings.flashcardAutoplay) { v ->
+    ContentCard(tr("Answer"), tr("What happens when a card's answer is shown."), icon = AppIcons.VolumeUp) {
+        SwitchSetting(tr("Read aloud"), tr("Read the sentence, or the word, when the answer is shown."), settings.flashcardAutoplay) { v ->
             viewModel.update { it.copy(flashcardAutoplay = v) }
         }
     }
@@ -178,7 +179,6 @@ private fun AnswerCard(settings: UserSettings, viewModel: SettingsViewModel) {
 @Composable
 private fun StatusInfo() {
     InfoBanner(
-        "Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, " +
-            "and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card.",
+        tr("Every word at status 1 to 4 has a card. Its status follows the card: waiting a day or more is 2, a week 3, three weeks 4, and ninety days Known. Forgetting a review drops it one level. A status you set yourself wins: Known or Ignored retires the card."),
     )
 }
