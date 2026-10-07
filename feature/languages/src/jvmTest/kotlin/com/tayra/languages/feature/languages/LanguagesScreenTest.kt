@@ -11,6 +11,7 @@ import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
@@ -32,7 +33,7 @@ import kotlin.test.assertEquals
 class LanguagesScreenTest {
 
     @Test
-    fun thePickersChangeTheThreeLanguages() = runDesktopComposeUiTest(width = 1400, height = 900) {
+    fun thePickersChangeTheThreeLanguages() = runDesktopComposeUiTest(width = 1580, height = 1000) {
         val settings = SettingsRepositoryImpl(MapSettings())
         var learningId = 1L
         setContent {
@@ -46,24 +47,25 @@ class LanguagesScreenTest {
                 }
             }
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Your languages")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Language setup")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("LANGUAGES_SCREENSHOT")?.let { path ->
             waitForIdle()
             ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))
         }
 
-        onAllNodesWithText("Portuguese").onLast().performClick()
+        onNodeWithTag("learning-language").performClick()
         onAllNodesWithText("German").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { learningId == 2L }
 
-        onAllNodesWithText("English")[0].performClick()
+        onNodeWithTag("native-language").performClick()
         onAllNodesWithText("Russian").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.nativeLanguage == "ru" }
+        onNodeWithText("Learn German with Russian translations").assertExists()
 
-        onAllNodesWithText("English")[0].performClick()
+        onNodeWithTag("interface-language").performClick()
         onAllNodesWithText("Spanish").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.uiLanguage == "es" }
         assertEquals("ru", settings.current.nativeLanguage)
-        onNodeWithText("Spanish").assertExists()
+        onNodeWithText("App interface: Spanish").assertExists()
     }
 }
