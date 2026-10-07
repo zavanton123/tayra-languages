@@ -11,6 +11,8 @@ import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.BookService
 import com.tayra.languages.core.domain.service.BookValidationException
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.state.UiEvents
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -107,11 +109,11 @@ class BookFormViewModel(
                         busy = false,
                         importedFileName = fileName,
                         draft = it.draft.copy(text = text, title = it.draft.title.ifBlank { fileName.substringBeforeLast('.') }),
-                        notice = "Loaded ${text.length} characters from $fileName.",
+                        notice = trPlural(text.length, "Loaded {0} character from {1}.", "Loaded {0} characters from {1}.", fileName),
                     )
                 }
             } catch (e: FileImportException) {
-                _state.update { it.copy(busy = false, error = e.message) }
+                _state.update { it.copy(busy = false, error = importError(fileName, e.message.orEmpty())) }
             }
         }
     }
@@ -125,10 +127,17 @@ class BookFormViewModel(
                 val id = if (draft.id == null) bookService.create(draft) else { bookService.update(draft, rebuildPages = rebuild); draft.id!! }
                 events.send(BookFormEvent.Saved(id, draft.id == null))
             } catch (e: BookValidationException) {
-                _state.update { it.copy(busy = false, error = e.message) }
+                _state.update { it.copy(busy = false, error = e.message?.let { m -> tr(m) }) }
             } catch (e: Exception) {
-                _state.update { it.copy(busy = false, error = e.message ?: "Could not save book") }
+                _state.update { it.copy(busy = false, error = e.message?.let { m -> tr(m) } ?: tr("Could not save book")) }
             }
         }
+    }
+
+    /** The import error in the interface language; the messages naming the file are matched to put the name in place. */
+    private fun importError(fileName: String, message: String): String = when (message) {
+        "$fileName is empty." -> tr("{0} is empty.", fileName)
+        "$fileName is not utf-8 encoding, please convert it to utf-8 first" -> tr("{0} is not utf-8 encoding, please convert it to utf-8 first", fileName)
+        else -> tr(message)
     }
 }

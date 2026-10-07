@@ -56,6 +56,8 @@ import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TagInput
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import io.github.vinceglb.filekit.dialogs.FileKitType
@@ -106,11 +108,13 @@ fun BookFormScreen(
         val languageName = state.language?.name
         PageColumn(padding) {
             ScreenHeader(
-                if (state.isNew) "Create new book" else "Edit book",
+                if (state.isNew) tr("Create new book") else tr("Edit book"),
                 when {
-                    !state.isNew -> "Change the text, title, tags and pages of “${state.loaded?.title?.ifBlank { null } ?: "this book"}”."
-                    languageName != null -> "Add a $languageName text to your library."
-                    else -> "Add a text to your library."
+                    !state.isNew -> state.loaded?.title?.ifBlank { null }
+                        ?.let { tr("Change the text, title, tags and pages of “{0}”.", it) }
+                        ?: tr("Change the text, title, tags and pages of this book.")
+                    languageName != null -> tr("Add a {0} text to your library.", tr(languageName))
+                    else -> tr("Add a text to your library.")
                 },
             )
             state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
@@ -145,8 +149,8 @@ private fun BookContentCard(
 ) {
     val formats = FileTextExtractor.supportedExtensions.joinToString(" · ") { it.uppercase() }
     val rtl = state.language?.rightToLeft == true
-    val subtitle = if (state.isNew) "Add the text for your book." else "Edit the text of your book."
-    ContentCard("Book content", subtitle, icon = AppIcons.FileOutline, modifier = modifier) {
+    val subtitle = if (state.isNew) tr("Add the text for your book.") else tr("Edit the text of your book.")
+    ContentCard(tr("Book content"), subtitle, icon = AppIcons.FileOutline, modifier = modifier) {
         // A file can only start a book; an existing book's text is edited in place.
         if (state.isNew) {
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -158,11 +162,11 @@ private fun BookContentCard(
         }
         when (if (state.isNew) source else ContentSource.PASTE) {
             ContentSource.PASTE -> {
-                FieldLabel("Text")
+                FieldLabel(tr("Text"))
                 OutlinedTextField(
                     value = state.draft.text,
                     onValueChange = { text -> viewModel.update { it.copy(text = text) } },
-                    placeholder = { Text(state.language?.name?.let { "Paste your $it text here…" } ?: "Paste your text here…") },
+                    placeholder = { Text(state.language?.name?.let { tr("Paste your {0} text here…", tr(it)) } ?: tr("Paste your text here…")) },
                     textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
                     shape = RoundedCornerShape(10.dp),
                     modifier = Modifier.fillMaxWidth().height(400.dp),
@@ -170,13 +174,13 @@ private fun BookContentCard(
                 Spacer(Modifier.height(8.dp))
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(
-                        "Use a line containing only --- to force a page break.",
+                        tr("Use a line containing only --- to force a page break."),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         modifier = Modifier.weight(1f),
                     )
                     val words = wordCount(state.draft.text)
-                    Text("$words word${if (words == 1) "" else "s"}", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Text(trPlural(words, "{0} word", "{0} words"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
             ContentSource.FILE -> FileDrop(state, formats, onChooseFile)
@@ -203,7 +207,7 @@ private fun SourceToggle(selected: ContentSource, onSelect: (ContentSource) -> U
                 val color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant
                 Icon(icon, contentDescription = null, tint = color, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.width(10.dp))
-                Text(option.label, style = MaterialTheme.typography.bodyLarge, color = color, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal)
+                Text(tr(option.label), style = MaterialTheme.typography.bodyLarge, color = color, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal)
             }
         }
     }
@@ -222,13 +226,13 @@ private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -
     ) {
         Icon(AppIcons.UploadFile, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(48.dp))
         Spacer(Modifier.height(14.dp))
-        Text("Choose a file to read its text", style = MaterialTheme.typography.titleMedium)
-        Text("$formats — the text appears under Paste text, ready to check.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text(tr("Choose a file to read its text"), style = MaterialTheme.typography.titleMedium)
+        Text(tr("{0} — the text appears under Paste text, ready to check.", formats), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         Spacer(Modifier.height(16.dp))
-        Button(onClick = onChooseFile, enabled = !state.busy, shape = RoundedCornerShape(50)) { Text(if (state.busy) "Reading…" else "Choose file") }
+        Button(onClick = onChooseFile, enabled = !state.busy, shape = RoundedCornerShape(50)) { Text(if (state.busy) tr("Reading…") else tr("Choose file")) }
         state.importedFileName?.let {
             Spacer(Modifier.height(10.dp))
-            Text("Last imported: $it", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text(tr("Last imported: {0}", it), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
     }
 }
@@ -237,41 +241,41 @@ private fun FileDrop(state: BookFormUiState, formats: String, onChooseFile: () -
 private fun DetailsCard(state: BookFormUiState, viewModel: BookFormViewModel, modifier: Modifier = Modifier) {
     val draft = state.draft
     val rtl = state.language?.rightToLeft == true
-    ContentCard("Book details", "Give your book a title and optional tags.", icon = AppIcons.MenuBook, modifier = modifier) {
+    ContentCard(tr("Book details"), tr("Give your book a title and optional tags."), icon = AppIcons.MenuBook, modifier = modifier) {
         // A new book is in the language being learned; the field is only for the case that none is chosen.
         if (state.isNew && draft.languageId == 0L) {
-            FieldLabel("Language")
+            FieldLabel(tr("Language"))
             Dropdown(
                 options = state.languages,
                 selected = state.language,
                 onSelect = { language -> viewModel.update { it.copy(languageId = language.id) } },
                 label = null,
-                optionLabel = { it.name },
+                optionLabel = { tr(it.name) },
                 modifier = Modifier.fillMaxWidth(),
             )
             Spacer(Modifier.height(16.dp))
         }
-        FieldLabel("Title")
+        FieldLabel(tr("Title"))
         OutlinedTextField(
             value = draft.title,
             onValueChange = { title -> viewModel.update { it.copy(title = title) } },
-            placeholder = { Text("Enter a title") },
+            placeholder = { Text(tr("Enter a title")) },
             singleLine = true,
             textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
             shape = RoundedCornerShape(10.dp),
             modifier = Modifier.fillMaxWidth(),
         )
         Spacer(Modifier.height(16.dp))
-        FieldLabel("Tags")
+        FieldLabel(tr("Tags"))
         TagInput(
             values = draft.tags,
             onValuesChange = { tags -> viewModel.update { it.copy(tags = tags) } },
-            label = "Add tags",
+            label = tr("Add tags"),
             suggestions = state.tagSuggestions,
             modifier = Modifier.fillMaxWidth(),
         )
         Text(
-            "Press Enter or a comma after each tag.",
+            tr("Press Enter or a comma after each tag."),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(top = 4.dp),
@@ -282,8 +286,8 @@ private fun DetailsCard(state: BookFormUiState, viewModel: BookFormViewModel, mo
 @Composable
 private fun PageSetupCard(state: BookFormUiState, viewModel: BookFormViewModel) {
     val draft = state.draft
-    ContentCard("Page setup", "Control how your book is split into pages.", icon = Icons.Default.Settings) {
-        FieldLabel("Words per page")
+    ContentCard(tr("Page setup"), tr("Control how your book is split into pages."), icon = Icons.Default.Settings) {
+        FieldLabel(tr("Words per page"))
         OutlinedTextField(
             value = draft.wordsPerPage.toString(),
             onValueChange = { v -> v.filter { it.isDigit() }.take(4).toIntOrNull()?.let { n -> viewModel.update { it.copy(wordsPerPage = n) } } },
@@ -292,18 +296,21 @@ private fun PageSetupCard(state: BookFormUiState, viewModel: BookFormViewModel) 
             modifier = Modifier.fillMaxWidth(),
         )
         Text(
-            "A page ends at the end of a sentence once it passes this many words. Maximum ${BookDraft.MAX_WORDS_PER_PAGE}.",
+            tr("A page ends at the end of a sentence once it passes this many words. Maximum {0}.", BookDraft.MAX_WORDS_PER_PAGE),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(top = 4.dp),
         )
         Spacer(Modifier.height(16.dp))
-        val pages = "${state.pageCount} page${if (state.pageCount == 1) "" else "s"}"
         InfoBanner(
             when {
-                state.isNew -> "Pages will be created automatically when you save."
-                state.rebuildsPages -> "Saving rebuilds the pages. Your place, bookmarks and read pages carry over."
-                else -> "The book has $pages. Change the text or the words per page to rebuild them."
+                state.isNew -> tr("Pages will be created automatically when you save.")
+                state.rebuildsPages -> tr("Saving rebuilds the pages. Your place, bookmarks and read pages carry over.")
+                else -> trPlural(
+                    state.pageCount,
+                    "The book has {0} page. Change the text or the words per page to rebuild them.",
+                    "The book has {0} pages. Change the text or the words per page to rebuild them.",
+                )
             },
         )
     }
@@ -326,10 +333,10 @@ private fun ActionBar(state: BookFormUiState, onCancel: () -> Unit, onSave: () -
                         .padding(horizontal = if (LocalWindowWidth.current.isCompact) 16.dp else 48.dp, vertical = 12.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    OutlinedButton(onClick = onCancel, shape = RoundedCornerShape(10.dp)) { Text("Cancel", Modifier.padding(horizontal = 12.dp)) }
+                    OutlinedButton(onClick = onCancel, shape = RoundedCornerShape(10.dp)) { Text(tr("Cancel"), Modifier.padding(horizontal = 12.dp)) }
                     Spacer(Modifier.weight(1f))
                     Button(onClick = onSave, enabled = !state.busy, shape = RoundedCornerShape(10.dp)) {
-                        Text(if (state.isNew) "Create book" else "Save changes", Modifier.padding(horizontal = 12.dp))
+                        Text(if (state.isNew) tr("Create book") else tr("Save changes"), Modifier.padding(horizontal = 12.dp))
                     }
                 }
             }

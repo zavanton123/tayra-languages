@@ -28,6 +28,7 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ErrorMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.state.UiEvents
@@ -75,7 +76,7 @@ class PageEditViewModel(
     fun save() {
         val text = _state.value.text
         if (text.isBlank()) {
-            _state.update { it.copy(error = "Text is required") }
+            _state.update { it.copy(error = tr("Text is required")) }
             return
         }
         _state.update { it.copy(saving = true) }
@@ -84,7 +85,7 @@ class PageEditViewModel(
                 bookService.updatePageText(bookId, page, text)
                 events.send(page)
             } catch (e: Exception) {
-                _state.update { it.copy(saving = false, error = e.message ?: "Could not save page") }
+                _state.update { it.copy(saving = false, error = e.message?.let { m -> tr(m) } ?: tr("Could not save page")) }
             }
         }
     }
@@ -101,7 +102,7 @@ fun PageEditScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     CollectEvents(viewModel.events) { onSaved(it) }
-    val title = "Edit page $page"
+    val title = tr("Edit page {0}", page)
     Scaffold(topBar = { AppTopBar(title = title, onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack, showMenu = false) }) { padding ->
         if (state.loading) {
             LoadingIndicator(Modifier.padding(padding))
@@ -113,13 +114,13 @@ fun PageEditScreen(
             OutlinedTextField(
                 value = state.text,
                 onValueChange = viewModel::setText,
-                label = { Text("Text") },
+                label = { Text(tr("Text")) },
                 textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = if (state.rtl) TextDirection.Rtl else TextDirection.Ltr),
                 modifier = Modifier.fillMaxWidth().weight(1f),
             )
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Button(onClick = viewModel::save, enabled = !state.saving) { Text("Save") }
-                OutlinedButton(onClick = onBack) { Text("Cancel") }
+                Button(onClick = viewModel::save, enabled = !state.saving) { Text(tr("Save")) }
+                OutlinedButton(onClick = onBack) { Text(tr("Cancel")) }
             }
         }
     }

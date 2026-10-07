@@ -35,6 +35,7 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.EmptyMessage
 import com.tayra.languages.core.ui.components.TextInputDialog
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -65,11 +66,11 @@ fun BookmarksScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     var renaming by remember { mutableStateOf<PageBookmark?>(null) }
 
-    Scaffold(topBar = { AppTopBar(title = "Bookmarks: ${state.title}", onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = tr("Bookmarks: {0}", state.title), onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
-            ScreenTitle("Bookmarks: ${state.title}", Modifier.padding(16.dp))
+            ScreenTitle(tr("Bookmarks: {0}", state.title), Modifier.padding(16.dp))
             if (state.bookmarks.isEmpty()) {
-                EmptyMessage("No bookmarks yet. Add one from the reading menu.")
+                EmptyMessage(tr("No bookmarks yet. Add one from the reading menu."))
             } else {
                 LazyColumn {
                     items(state.bookmarks, key = { it.id }) { bookmark ->
@@ -79,10 +80,10 @@ fun BookmarksScreen(
                         ) {
                             Column(Modifier.weight(1f)) {
                                 Text(bookmark.title, style = MaterialTheme.typography.titleMedium)
-                                Text("Page ${bookmark.pageNumber}", style = MaterialTheme.typography.bodySmall)
+                                Text(tr("Page {0}", bookmark.pageNumber), style = MaterialTheme.typography.bodySmall)
                             }
-                            IconButton(onClick = { renaming = bookmark }) { Icon(Icons.Default.Edit, contentDescription = "Rename") }
-                            IconButton(onClick = { viewModel.delete(bookmark.id) }) { Icon(Icons.Default.Delete, contentDescription = "Delete") }
+                            IconButton(onClick = { renaming = bookmark }) { Icon(Icons.Default.Edit, contentDescription = tr("Rename")) }
+                            IconButton(onClick = { viewModel.delete(bookmark.id) }) { Icon(Icons.Default.Delete, contentDescription = tr("Delete")) }
                         }
                         HorizontalDivider()
                     }
@@ -92,8 +93,8 @@ fun BookmarksScreen(
     }
     renaming?.let { bookmark ->
         TextInputDialog(
-            title = "Rename bookmark",
-            label = "Title",
+            title = tr("Rename bookmark"),
+            label = tr("Title"),
             initial = bookmark.title,
             onConfirm = { viewModel.rename(bookmark.id, it.trim()); renaming = null },
             onDismiss = { renaming = null },
