@@ -49,7 +49,11 @@ def fold(code, word):
 
 def load_list(code):
     ranks, words = {}, {}
-    with open(os.path.join(LISTS, f"{code}.tsv"), encoding="utf-8") as f:
+    # A language's courses may pin the list they were written against, so a rebuilt app list
+    # (which can reorder ranks) does not move their bands.
+    pinned = os.path.join(ROOT, "tools", "courses", code, "wordlist.tsv")
+    path = pinned if os.path.exists(pinned) else os.path.join(LISTS, f"{code}.tsv")
+    with open(path, encoding="utf-8") as f:
         rank = 0
         for line in f:
             if line.startswith("#") or not line.strip():

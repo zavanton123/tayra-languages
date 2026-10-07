@@ -155,7 +155,9 @@ published as an asset of the `courses-v1` GitHub release; there are packs for `p
 `tools/build_courses.py --language <code>` checks each course in `tools/courses/<code>/` (written as its `BRIEF.md` says) and writes
 `course-packs/courses-<code>.sqlite.gzip` (ignored by git); upload that file to the release and
 update `downloadSize` in `CoursePacks`. If the layout changes, bump `FORMAT` in the script and in
-`CoursePack`.
+`CoursePack`. A language's courses can pin the word list they were written against as
+`tools/courses/<code>/wordlist.tsv`; `tools/check_course.py` then reads it instead of the app's list,
+so rebuilding the app's frequency list does not shift the courses' bands (German does this).
 
 Installing a pack stores it like a dictionary pack and writes its courses into the database as
 samples for every language it teaches, also ones added later. Removing it deletes those courses,

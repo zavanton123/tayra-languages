@@ -133,6 +133,10 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
 
 Things to know about the German list and the checker:
 
+- The courses are pinned to the list they were written against, `tools/courses/de/wordlist.tsv`
+  (a copy of the app's `de.tsv` at that time); the checker reads it instead of the app's list, so
+  a rebuilt app list does not move the bands. The `bands/*.txt` files come from it.
+
 - The checker compares whole words, lowercased, with ß and ss treated alike (the list mostly
   spells *weiss*, *gross*; always write the correct *weiß*, *groß*). Common forms the list
   misses (*saß*, *aß*, *heiße*, *grüße*) are added in `extra_forms.tsv`; add a line there for
