@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.terms.list
 
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -103,11 +105,19 @@ import org.koin.core.parameter.parametersOf
 import kotlin.time.Clock
 import kotlin.time.Instant
 
-private enum class TermSortOption(val label: String, val sort: TermListSort) {
-    RECENT("Recently added", TermListSort(TermSortField.CREATED, ascending = false)),
-    OLDEST("Oldest first", TermListSort(TermSortField.CREATED, ascending = true)),
-    TEXT("Term A–Z", TermListSort(TermSortField.TEXT, ascending = true)),
-    STATUS("Status", TermListSort(TermSortField.STATUS, ascending = true)),
+private enum class TermSortOption(val sort: TermListSort) {
+    RECENT(TermListSort(TermSortField.CREATED, ascending = false)),
+    OLDEST(TermListSort(TermSortField.CREATED, ascending = true)),
+    TEXT(TermListSort(TermSortField.TEXT, ascending = true)),
+    STATUS(TermListSort(TermSortField.STATUS, ascending = true));
+
+    val label: String
+        get() = when (this) {
+            RECENT -> tr("Recently added")
+            OLDEST -> tr("Oldest first")
+            TEXT -> tr("Term A–Z")
+            STATUS -> tr("Status")
+        }
 }
 
 private val PAGE_SIZES = listOf(25, 50, 100)
@@ -143,7 +153,7 @@ fun TermsScreen(
             )
         },
         snackbarHost = {
-            state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text("OK") } }) { Text(it) } }
+            state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text(tr("OK")) } }) { Text(it) } }
         },
     ) { padding ->
         val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
@@ -162,7 +172,7 @@ fun TermsScreen(
             if (state.filtersVisible) item { FilterPanel(state, viewModel) }
             if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel) }
             if (state.loading) {
-                item { Text("Loading...", Modifier.padding(16.dp), color = MaterialTheme.colorScheme.onSurfaceVariant) }
+                item { Text(tr("Loading..."), Modifier.padding(16.dp), color = MaterialTheme.colorScheme.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
                 item { EmptyState() }
             } else if (compact) {
@@ -185,9 +195,9 @@ fun TermsScreen(
     }
     if (confirmDelete) {
         ConfirmDialog(
-            title = "Delete ${state.selected.size} term(s)?",
-            text = "This cannot be undone.",
-            confirmLabel = "Delete",
+            title = trPlural(state.selected.size, "Delete {0} term?", "Delete {0} terms?"),
+            text = tr("This cannot be undone."),
+            confirmLabel = tr("Delete"),
             destructive = true,
             onConfirm = { viewModel.deleteSelected(); confirmDelete = false },
             onDismiss = { confirmDelete = false },
@@ -195,9 +205,9 @@ fun TermsScreen(
     }
     pendingDelete?.let { term ->
         ConfirmDialog(
-            title = "Delete \"${term.displayText}\"?",
-            text = "This cannot be undone.",
-            confirmLabel = "Delete",
+            title = tr("Delete \"{0}\"?", term.displayText),
+            text = tr("This cannot be undone."),
+            confirmLabel = tr("Delete"),
             destructive = true,
             onConfirm = { viewModel.delete(term.id); pendingDelete = null },
             onDismiss = { pendingDelete = null },
@@ -221,10 +231,10 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
     var open by remember { mutableStateOf(false) }
     val selected = state.selected.size
     Box {
-        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "List actions", tint = MaterialTheme.colorScheme.onSurfaceVariant) }
+        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("List actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text(if (selected > 0) "Bulk edit $selected selected" else "Bulk edit selected") }, enabled = selected > 0, onClick = { open = false; actions.onBulk() })
-            AppMenuItem(text = { Text(if (selected > 0) "Delete $selected selected" else "Delete selected") }, enabled = selected > 0, onClick = { open = false; actions.onDelete() })
+            AppMenuItem(text = { Text(if (selected > 0) tr("Bulk edit {0} selected", selected) else tr("Bulk edit selected")) }, enabled = selected > 0, onClick = { open = false; actions.onBulk() })
+            AppMenuItem(text = { Text(if (selected > 0) tr("Delete {0} selected", selected) else tr("Delete selected")) }, enabled = selected > 0, onClick = { open = false; actions.onDelete() })
         }
     }
 }
@@ -233,18 +243,18 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
 private fun PageHeader(compact: Boolean, exporting: String?, onExport: () -> Unit, onNew: () -> Unit) {
     Row(Modifier.fillMaxWidth().padding(bottom = 20.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
         Column(Modifier.weight(1f)) {
-            Text("Vocabulary", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-            Text("Review and manage your vocabulary.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text(tr("Vocabulary"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+            Text(tr("Review and manage your vocabulary."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
         OutlinedButton(onClick = onExport, enabled = exporting == null, shape = RoundedCornerShape(10.dp)) {
             Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
             Spacer(Modifier.width(6.dp))
-            Text(if (exporting == null) "Export to Anki" else "Exporting $exporting")
+            Text(if (exporting == null) tr("Export to Anki") else tr("Exporting {0}", exporting))
         }
         Button(onClick = onNew, shape = RoundedCornerShape(10.dp)) {
             Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
             Spacer(Modifier.width(6.dp))
-            Text("Add term")
+            Text(tr("Add term"))
         }
     }
 }
@@ -255,9 +265,9 @@ private data class StatCard(val label: String, val value: Int, val icon: ImageVe
 @Composable
 private fun StatCards(state: TermsListUiState, compact: Boolean) {
     val cards = listOf(
-        StatCard("Total terms", state.totalTerms, AppIcons.Book, Color(0xFF3B6FE0)),
-        StatCard("Learning", state.learningCount, AppIcons.BarChart, Color(0xFF7C4DDB)),
-        StatCard("Known", state.knownCount, Icons.Default.Check, Color(0xFF1FA463)),
+        StatCard(tr("Total terms"), state.totalTerms, AppIcons.Book, Color(0xFF3B6FE0)),
+        StatCard(tr("Learning"), state.learningCount, AppIcons.BarChart, Color(0xFF7C4DDB)),
+        StatCard(tr("Known"), state.knownCount, Icons.Default.Check, Color(0xFF1FA463)),
     )
     FlowRow(
         Modifier.fillMaxWidth().padding(bottom = 20.dp),
@@ -290,7 +300,7 @@ private fun StatCards(state: TermsListUiState, compact: Boolean) {
 private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
     val filter = state.filter
-    val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: "Custom order"
+    val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: tr("Custom order")
     FlowRow(
         Modifier.fillMaxWidth().padding(bottom = 14.dp),
         horizontalArrangement = Arrangement.spacedBy(12.dp),
@@ -298,12 +308,12 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
         SearchBox(filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, if (compact) Modifier.fillMaxWidth() else Modifier.width(560.dp))
-        FilterMenu(AppIcons.SwapVert, "Sort: $sortLabel", TermSortOption.entries, { it.label }) { viewModel.setSort(it.sort) }
+        FilterMenu(AppIcons.SwapVert, tr("Sort: {0}", sortLabel), TermSortOption.entries, { it.label }) { viewModel.setSort(it.sort) }
         FiltersButton(open = state.filtersVisible, count = state.activeFilterCount, onClick = viewModel::toggleFilters)
         if (!compact) {
             Spacer(Modifier.weight(1f))
             Text(
-                if (state.selected.isEmpty()) "${state.totalCount} term${if (state.totalCount == 1) "" else "s"}" else "${state.selected.size} of ${state.totalCount} selected",
+                if (state.selected.isEmpty()) trPlural(state.totalCount, "{0} term", "{0} terms") else tr("{0} of {1} selected", state.selected.size, state.totalCount),
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
@@ -326,10 +336,10 @@ private fun FiltersButton(open: Boolean, count: Int, onClick: () -> Unit) {
     ) {
         val tint = if (highlighted) colors.primary else colors.onSurface
         Icon(AppIcons.Tune, contentDescription = null, tint = tint, modifier = Modifier.size(18.dp))
-        Text("Filters", style = MaterialTheme.typography.bodyMedium, color = tint, fontWeight = FontWeight.Medium)
+        Text(tr("Filters"), style = MaterialTheme.typography.bodyMedium, color = tint, fontWeight = FontWeight.Medium)
         if (count > 0) {
             Box(
-                Modifier.size(22.dp).clip(CircleShape).background(colors.primary).clearAndSetSemantics { contentDescription = "$count filter${if (count == 1) "" else "s"} on" },
+                Modifier.size(22.dp).clip(CircleShape).background(colors.primary).clearAndSetSemantics { contentDescription = trPlural(count, "{0} filter on", "{0} filters on") },
                 contentAlignment = Alignment.Center,
             ) {
                 Text("$count", style = MaterialTheme.typography.labelMedium, color = colors.onPrimary, fontWeight = FontWeight.SemiBold)
@@ -356,7 +366,7 @@ private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modif
             modifier = Modifier.weight(1f),
             decorationBox = { inner ->
                 Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text("Search terms or translations", color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
+                    if (value.isEmpty()) Text(tr("Search terms or translations"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
                     inner()
                 }
             },
@@ -389,7 +399,7 @@ private fun <T> FilterMenu(icon: ImageVector, label: String, options: List<T>, o
 }
 
 /** "New", "Learning", "Known" or "Ignored": the status's name without its number, which the badge shows. */
-private val TermStatus.chipName: String get() = label.substringBefore(" (")
+private val TermStatus.chipName: String get() = tr(label).substringBefore(" (")
 
 /** The status's highlight colour, or a neutral one where the theme has none. */
 @Composable
@@ -407,27 +417,27 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel) 
             .border(1.dp, colors.outlineVariant, RoundedCornerShape(14.dp)).padding(horizontal = 20.dp, vertical = 16.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("Filter vocabulary", Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-            TextButton(onClick = viewModel::clearFilters) { Text("Reset all") }
+            Text(tr("Filter vocabulary"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            TextButton(onClick = viewModel::clearFilters) { Text(tr("Reset all")) }
         }
-        Text("Learning status", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp, bottom = 10.dp))
+        Text(tr("Learning status"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp, bottom = 10.dp))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             TermStatus.selectable.forEach { status ->
                 StatusFilterChip(status, selected = status in state.chosenStatuses) { viewModel.toggleStatus(status) }
             }
         }
         HorizontalDivider(Modifier.padding(vertical = 16.dp), color = colors.outlineVariant)
-        Text("Added", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(bottom = 10.dp))
+        Text(tr("Added"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(bottom = 10.dp))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
-            Text("From", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            DaysField(filter.minAgeDays, "Added from, days ago") { viewModel.setAddedRange(it, filter.maxAgeDays) }
-            Text("To", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            DaysField(filter.maxAgeDays, "Added to, days ago") { viewModel.setAddedRange(filter.minAgeDays, it) }
-            Text("days ago", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Text(tr("From"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            DaysField(filter.minAgeDays, tr("Added from, days ago")) { viewModel.setAddedRange(it, filter.maxAgeDays) }
+            Text(tr("To"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            DaysField(filter.maxAgeDays, tr("Added to, days ago")) { viewModel.setAddedRange(filter.minAgeDays, it) }
+            Text(tr("days ago"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         if (filter.termIds != null) {
             Text(
-                "Showing ${filter.termIds!!.size} terms from the current page.",
+                trPlural(filter.termIds!!.size, "Showing {0} term from the current page.", "Showing {0} terms from the current page."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
                 modifier = Modifier.padding(top = 12.dp),
@@ -445,7 +455,7 @@ private fun StatusFilterChip(status: TermStatus, selected: Boolean, onClick: () 
         Modifier.testTag("status-filter-${status.abbreviation}").height(44.dp).clip(RoundedCornerShape(10.dp))
             .background(tint.copy(alpha = if (selected) 0.45f else 0.2f))
             .border(if (selected) 1.5.dp else 1.dp, if (selected) strong else tint, RoundedCornerShape(10.dp))
-            .clickable(onClickLabel = if (selected) "Stop showing ${status.label}" else "Show ${status.label}", onClick = onClick)
+            .clickable(onClickLabel = if (selected) tr("Stop showing {0}", tr(status.label)) else tr("Show {0}", tr(status.label)), onClick = onClick)
             .padding(horizontal = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(10.dp),
@@ -492,7 +502,7 @@ private fun DaysField(value: Int?, description: String, onChange: (Int?) -> Unit
             modifier = Modifier.weight(1f).semantics { contentDescription = description },
             decorationBox = { inner ->
                 Box(contentAlignment = Alignment.CenterStart) {
-                    if (value == null) Text("Any", color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
+                    if (value == null) Text(tr("Any"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
                     inner()
                 }
             },
@@ -500,13 +510,13 @@ private fun DaysField(value: Int?, description: String, onChange: (Int?) -> Unit
         Column {
             Icon(
                 Icons.Default.KeyboardArrowUp,
-                contentDescription = "More days",
+                contentDescription = tr("More days"),
                 tint = colors.onSurfaceVariant,
                 modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(RoundedCornerShape(4.dp)).clickable { onChange((value ?: -1) + 1) },
             )
             Icon(
                 Icons.Default.KeyboardArrowDown,
-                contentDescription = "Fewer days",
+                contentDescription = tr("Fewer days"),
                 tint = colors.onSurfaceVariant,
                 modifier = Modifier.size(width = 24.dp, height = 18.dp).clip(RoundedCornerShape(4.dp))
                     .clickable(enabled = value != null) { onChange(value?.let { if (it > 0) it - 1 else null }) },
@@ -528,7 +538,7 @@ private fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewModel
     ) {
         TermStatus.selectable.filter { it in state.chosenStatuses }.forEach { status ->
             val tint = statusTint(status)
-            RemovableChip(background = tint.copy(alpha = 0.3f), border = tint, removeLabel = "Remove ${status.label}", onRemove = { viewModel.toggleStatus(status) }) {
+            RemovableChip(background = tint.copy(alpha = 0.3f), border = tint, removeLabel = tr("Remove {0}", tr(status.label)), onRemove = { viewModel.toggleStatus(status) }) {
                 Text(status.chipName, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
                 StatusBadge(status)
             }
@@ -537,16 +547,16 @@ private fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewModel
             val from = filter.minAgeDays
             val to = filter.maxAgeDays
             val label = when {
-                from != null && to != null -> "Added: $from–$to days"
-                to != null -> "Added: up to $to days ago"
-                else -> "Added: $from+ days ago"
+                from != null && to != null -> trPlural(to, "Added: {1}–{0} day", "Added: {1}–{0} days", from)
+                to != null -> trPlural(to, "Added: up to {0} day ago", "Added: up to {0} days ago")
+                else -> trPlural(from ?: 0, "Added: {0}+ day ago", "Added: {0}+ days ago")
             }
             val neutral = MaterialTheme.colorScheme.surfaceVariant
-            RemovableChip(background = neutral.copy(alpha = 0.6f), border = neutral, removeLabel = "Remove the added filter", onRemove = { viewModel.setAddedRange(null, null) }) {
+            RemovableChip(background = neutral.copy(alpha = 0.6f), border = neutral, removeLabel = tr("Remove the added filter"), onRemove = { viewModel.setAddedRange(null, null) }) {
                 Text(label, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
             }
         }
-        TextButton(onClick = viewModel::clearFilters) { Text("Clear all") }
+        TextButton(onClick = viewModel::clearFilters) { Text(tr("Clear all")) }
     }
 }
 
@@ -586,11 +596,11 @@ private fun TableHeader(state: TermsListUiState, viewModel: TermsListViewModel, 
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Checkbox(checked = allSelected, onCheckedChange = viewModel::selectAllVisible)
-            HeaderCell("Term", Modifier.weight(TERM_WEIGHT), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.TEXT) { viewModel.sortBy(TermSortField.TEXT) }
-            HeaderCell("Translation", Modifier.weight(TRANSLATION_WEIGHT))
-            HeaderCell("Example", Modifier.weight(EXAMPLE_WEIGHT))
-            HeaderCell("Status", Modifier.width(STATUS_WIDTH), Icons.Default.Info, active = state.sort.field == TermSortField.STATUS) { viewModel.sortBy(TermSortField.STATUS) }
-            HeaderCell("Added", Modifier.width(ADDED_WIDTH), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.CREATED) { viewModel.sortBy(TermSortField.CREATED) }
+            HeaderCell(tr("Term"), Modifier.weight(TERM_WEIGHT), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.TEXT) { viewModel.sortBy(TermSortField.TEXT) }
+            HeaderCell(tr("Translation"), Modifier.weight(TRANSLATION_WEIGHT))
+            HeaderCell(tr("Example"), Modifier.weight(EXAMPLE_WEIGHT))
+            HeaderCell(tr("Status"), Modifier.width(STATUS_WIDTH), Icons.Default.Info, active = state.sort.field == TermSortField.STATUS) { viewModel.sortBy(TermSortField.STATUS) }
+            HeaderCell(tr("Added"), Modifier.width(ADDED_WIDTH), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.CREATED) { viewModel.sortBy(TermSortField.CREATED) }
             Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { ListMenu(state, actions) }
         }
     }
@@ -685,7 +695,7 @@ private fun StatusChip(status: TermStatus, onSelect: (TermStatus) -> Unit) {
         )
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
             TermStatus.selectable.forEach { option ->
-                AppMenuItem(text = { Text(option.label) }, onClick = { open = false; onSelect(option) })
+                AppMenuItem(text = { Text(tr(option.label)) }, onClick = { open = false; onSelect(option) })
             }
         }
     }
@@ -697,10 +707,10 @@ private fun Color.darken(factor: Float = 0.85f): Color = Color(red * factor, gre
 private fun RowMenu(term: Term, actions: RowActions) {
     var open by remember { mutableStateOf(false) }
     Box {
-        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Term actions", tint = MaterialTheme.colorScheme.onSurfaceVariant) }
+        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("Term actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text("Edit") }, onClick = { open = false; actions.onOpen(term) })
-            AppMenuItem(text = { Text("Delete") }, onClick = { open = false; actions.onDelete(term) })
+            AppMenuItem(text = { Text(tr("Edit")) }, onClick = { open = false; actions.onOpen(term) })
+            AppMenuItem(text = { Text(tr("Delete")) }, onClick = { open = false; actions.onDelete(term) })
         }
     }
 }
@@ -713,7 +723,7 @@ private fun EmptyState() {
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         Icon(AppIcons.Book, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(36.dp))
-        Text("No terms match the current filters.", style = MaterialTheme.typography.titleMedium)
+        Text(tr("No terms match the current filters."), style = MaterialTheme.typography.titleMedium)
     }
 }
 
@@ -731,19 +741,19 @@ private fun Pager(state: TermsListUiState, viewModel: TermsListViewModel, compac
                 contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
                 colors = ButtonDefaults.outlinedButtonColors(contentColor = colors.onSurface),
             ) {
-                Text("${state.pageSize} per page", style = MaterialTheme.typography.bodyMedium)
+                Text(tr("{0} per page", state.pageSize), style = MaterialTheme.typography.bodyMedium)
                 Spacer(Modifier.width(4.dp))
                 Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(18.dp))
             }
             AppMenu(expanded = open, onDismissRequest = { open = false }) {
-                PAGE_SIZES.forEach { size -> AppMenuItem(text = { Text("$size per page") }, onClick = { open = false; viewModel.setPageSize(size) }) }
+                PAGE_SIZES.forEach { size -> AppMenuItem(text = { Text(tr("{0} per page", size)) }, onClick = { open = false; viewModel.setPageSize(size) }) }
             }
         }
         Spacer(Modifier.weight(1f))
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            PagerButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, "Previous page", enabled = state.page > 0) { viewModel.goToPage(state.page - 1) }
-            Text("$from–$to of ${state.totalCount}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            PagerButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, "Next page", enabled = state.page < state.pageCount - 1) { viewModel.goToPage(state.page + 1) }
+            PagerButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, tr("Previous page"), enabled = state.page > 0) { viewModel.goToPage(state.page - 1) }
+            Text(tr("{0}–{1} of {2}", from, to, state.totalCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            PagerButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, tr("Next page"), enabled = state.page < state.pageCount - 1) { viewModel.goToPage(state.page + 1) }
         }
         if (!compact) Spacer(Modifier.weight(1f))
     }
@@ -759,19 +769,47 @@ private fun PagerButton(icon: ImageVector, description: String, enabled: Boolean
     }
 }
 
-private val monthNames = listOf("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
-
 /** "Today", "Yesterday", or a short date. */
 private fun addedLabel(instant: Instant, now: Instant = Clock.System.now()): String {
     val zone = TimeZone.currentSystemDefault()
     val date = instant.toLocalDateTime(zone).date
     val today = now.toLocalDateTime(zone).date
     return when (date) {
-        today -> "Today"
-        today.minus(1, DateTimeUnit.DAY) -> "Yesterday"
-        else -> {
-            val base = "${monthNames[date.month.ordinal]} ${date.day}"
-            if (date.year == today.year) base else "$base, ${date.year}"
-        }
+        today -> tr("Today")
+        today.minus(1, DateTimeUnit.DAY) -> tr("Yesterday")
+        else -> if (date.year == today.year) shortDate(date.month.ordinal, date.day) else shortDate(date.month.ordinal, date.day, date.year)
+    }
+}
+
+/** "Jan 5", or "Jan 5, 2024" with a [year]. */
+private fun shortDate(month: Int, day: Int, year: Int? = null): String = if (year == null) {
+    when (month) {
+        0 -> tr("Jan {0}", day)
+        1 -> tr("Feb {0}", day)
+        2 -> tr("Mar {0}", day)
+        3 -> tr("Apr {0}", day)
+        4 -> tr("May {0}", day)
+        5 -> tr("Jun {0}", day)
+        6 -> tr("Jul {0}", day)
+        7 -> tr("Aug {0}", day)
+        8 -> tr("Sep {0}", day)
+        9 -> tr("Oct {0}", day)
+        10 -> tr("Nov {0}", day)
+        else -> tr("Dec {0}", day)
+    }
+} else {
+    when (month) {
+        0 -> tr("Jan {0}, {1}", day, year)
+        1 -> tr("Feb {0}, {1}", day, year)
+        2 -> tr("Mar {0}, {1}", day, year)
+        3 -> tr("Apr {0}, {1}", day, year)
+        4 -> tr("May {0}, {1}", day, year)
+        5 -> tr("Jun {0}, {1}", day, year)
+        6 -> tr("Jul {0}, {1}", day, year)
+        7 -> tr("Aug {0}, {1}", day, year)
+        8 -> tr("Sep {0}, {1}", day, year)
+        9 -> tr("Oct {0}, {1}", day, year)
+        10 -> tr("Nov {0}, {1}", day, year)
+        else -> tr("Dec {0}, {1}", day, year)
     }
 }

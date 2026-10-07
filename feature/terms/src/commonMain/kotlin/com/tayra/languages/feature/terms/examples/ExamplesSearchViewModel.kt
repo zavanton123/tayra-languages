@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.terms.examples
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.model.Language
@@ -59,7 +60,7 @@ class ExamplesSearchViewModel(
         viewModelScope.launch {
             val language = languages.getById(languageId)
             if (language == null) {
-                _state.update { it.copy(loading = false, error = "Language not found") }
+                _state.update { it.copy(loading = false, error = tr("Language not found")) }
                 return@launch
             }
             val query = defaultFilters(ExampleSearchQuery(text = initialText, language = language, targetLanguage = settings.current.nativeLanguage.ifBlank { "en" }))

@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.terms.form
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -62,7 +63,7 @@ fun TermEditScreen(
     Scaffold(topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
             PageHeader(
-                title = if (isNew) "New term" else "Edit term",
+                title = if (isNew) tr("New term") else tr("Edit term"),
                 compact = compact,
                 gutter = gutter,
                 saving = state.saving,
@@ -98,18 +99,18 @@ private fun PageHeader(
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             if (!compact) {
                 Box(Modifier.size(28.dp).clip(RoundedCornerShape(6.dp)).clickable(onClick = onBack), contentAlignment = Alignment.Center) {
-                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
+                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
                 }
             }
-            Text("Vocabulary", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable(onClick = onTerms))
+            Text(tr("Vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable(onClick = onTerms))
             Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
             Text(title, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
             Text(title, Modifier.weight(1f), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-            OutlinedButton(onClick = onBack, shape = RoundedCornerShape(10.dp)) { Text("Cancel") }
+            OutlinedButton(onClick = onBack, shape = RoundedCornerShape(10.dp)) { Text(tr("Cancel")) }
             Spacer(Modifier.width(12.dp))
-            Button(onClick = onSave, enabled = canSave && !saving, shape = RoundedCornerShape(10.dp)) { Text(if (saving) "Saving..." else "Save changes") }
+            Button(onClick = onSave, enabled = canSave && !saving, shape = RoundedCornerShape(10.dp)) { Text(if (saving) tr("Saving...") else tr("Save changes")) }
         }
     }
 }

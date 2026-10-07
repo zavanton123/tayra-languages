@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.terms.list
 
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -34,15 +36,15 @@ fun BulkEditDialog(count: Int, onApply: (BulkTermUpdate) -> Unit, onDismiss: () 
 
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Updating $count term(s)") },
+        title = { Text(trPlural(count, "Updating {0} term", "Updating {0} terms")) },
         text = {
             Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                CheckRow("Lowercase terms", lowercase) { lowercase = it }
-                CheckRow("Remove parents", removeParents) { removeParents = it }
-                OutlinedTextField(value = parent, onValueChange = { parent = it }, label = { Text("Set parent") }, singleLine = true, modifier = Modifier.fillMaxWidth())
-                CheckRow("Change status", changeStatus) { changeStatus = it }
+                CheckRow(tr("Lowercase terms"), lowercase) { lowercase = it }
+                CheckRow(tr("Remove parents"), removeParents) { removeParents = it }
+                OutlinedTextField(value = parent, onValueChange = { parent = it }, label = { Text(tr("Set parent")) }, singleLine = true, modifier = Modifier.fillMaxWidth())
+                CheckRow(tr("Change status"), changeStatus) { changeStatus = it }
                 if (changeStatus) {
-                    Dropdown(options = TermStatus.selectable, selected = status, onSelect = { status = it }, label = "Status", optionLabel = { it.label }, modifier = Modifier.fillMaxWidth())
+                    Dropdown(options = TermStatus.selectable, selected = status, onSelect = { status = it }, label = tr("Status"), optionLabel = { tr(it.label) }, modifier = Modifier.fillMaxWidth())
                 }
             }
         },
@@ -57,9 +59,9 @@ fun BulkEditDialog(count: Int, onApply: (BulkTermUpdate) -> Unit, onDismiss: () 
                         status = if (changeStatus) status else null,
                     ),
                 )
-            }) { Text("Apply") }
+            }) { Text(tr("Apply")) }
         },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(tr("Cancel")) } },
     )
 }
 

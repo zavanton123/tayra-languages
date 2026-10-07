@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.terms.list
 
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.model.Language
@@ -210,11 +212,12 @@ class TermsListViewModel(
 
     fun applyBulkUpdate(update: BulkTermUpdate) = viewModelScope.launch {
         try {
-            termService.applyBulkUpdate(update.copy(termIds = selected.value.toList()))
+            val ids = selected.value.toList()
+            termService.applyBulkUpdate(update.copy(termIds = ids))
             selected.value = emptySet()
-            message.value = "Updated ${update.termIds.size.coerceAtLeast(selected.value.size)} term(s)"
+            message.value = trPlural(ids.size, "Updated {0} term", "Updated {0} terms")
         } catch (e: TermValidationException) {
-            message.value = "Error: ${e.message}"
+            message.value = tr("Error: {0}", tr(e.message.orEmpty()))
         }
     }
 
@@ -223,16 +226,16 @@ class TermsListViewModel(
         if (exporting.value != null) return@launch
         val ids = selected.value.toList().ifEmpty { terms.list(filter.value, sort.value, 0, 1_000_000).items.map { it.id } }
         if (ids.isEmpty()) {
-            message.value = "Nothing to export"
+            message.value = tr("Nothing to export")
             return@launch
         }
-        exporting.value = "0 of ${ids.size}"
+        exporting.value = tr("{0} of {1}", 0, ids.size)
         try {
-            val export = anki.export(ids) { done, total -> exporting.value = "$done of $total" }
-            if (export == null) message.value = if (ids.size == 1) "This word is already in Anki" else "All ${ids.size} words are already in Anki"
+            val export = anki.export(ids) { done, total -> exporting.value = tr("{0} of {1}", done, total) }
+            if (export == null) message.value = if (ids.size == 1) tr("This word is already in Anki") else trPlural(ids.size, "All {0} words are already in Anki", "All {0} words are already in Anki")
             else events.send(TermsListEvent.AnkiReady(export))
         } catch (e: Exception) {
-            message.value = "Could not export: ${e.message}"
+            message.value = tr("Could not export: {0}", e.message)
         } finally {
             exporting.value = null
         }
@@ -242,8 +245,8 @@ class TermsListViewModel(
     fun ankiSaved(export: AnkiExportService.Export) = viewModelScope.launch {
         anki.markExported(export)
         val count = export.termIds.size
-        val skipped = if (export.skipped > 0) ", ${export.skipped} already in Anki left out" else ""
-        message.value = "Exported $count word${if (count == 1) "" else "s"} to Anki$skipped"
+        val exported = trPlural(count, "Exported {0} word to Anki", "Exported {0} words to Anki")
+        message.value = if (export.skipped > 0) exported + ", " + tr("{0} already in Anki left out", export.skipped) else exported
     }
 
     companion object {

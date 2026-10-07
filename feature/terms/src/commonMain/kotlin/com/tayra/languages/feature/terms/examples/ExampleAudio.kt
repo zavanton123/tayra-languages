@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.terms.examples
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.runtime.Composable
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.service.SentenceAudioState
@@ -36,11 +37,11 @@ data class ExampleSound(
 
     val description: String
         get() = when {
-            loading && recorded -> "Loading recording"
-            loading -> "Preparing speech"
-            playing -> "Stop"
-            recorded -> "Play recording"
-            else -> "Read aloud"
+            loading && recorded -> tr("Loading recording")
+            loading -> tr("Preparing speech")
+            playing -> tr("Stop")
+            recorded -> tr("Play recording")
+            else -> tr("Read aloud")
         }
 }
 
