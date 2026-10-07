@@ -77,6 +77,8 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.relativeTo
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
@@ -97,7 +99,7 @@ fun BooksScreen(
     Scaffold(
         topBar = {
             AppTopBar(
-                title = if (archived) "Archived books" else "Tayra Languages",
+                title = if (archived) tr("Archived books") else "Tayra Languages",
                 onNavigate = onNavigate,
                 onBack = onBack,
                 section = NavSection.BOOKS,
@@ -135,9 +137,9 @@ fun BooksScreen(
 
     pendingDelete?.let { book ->
         ConfirmDialog(
-            title = "Delete \"${book.title}\"?",
-            text = "The book and its pages will be deleted. Terms are kept.",
-            confirmLabel = "Delete",
+            title = tr("Delete \"{0}\"?", book.title),
+            text = tr("The book and its pages will be deleted. Terms are kept."),
+            confirmLabel = tr("Delete"),
             destructive = true,
             onConfirm = { viewModel.delete(book.id); pendingDelete = null },
             onDismiss = { pendingDelete = null },
@@ -146,9 +148,9 @@ fun BooksScreen(
     if (confirmDeleteSelected) {
         val count = state.selectedBooks.size
         ConfirmDialog(
-            title = "Delete $count book${if (count == 1) "" else "s"}?",
-            text = "The books and their pages will be deleted. Terms are kept.",
-            confirmLabel = "Delete",
+            title = trPlural(count, "Delete {0} book?", "Delete {0} books?"),
+            text = tr("The books and their pages will be deleted. Terms are kept."),
+            confirmLabel = tr("Delete"),
             destructive = true,
             onConfirm = { viewModel.deleteSelected(); confirmDeleteSelected = false },
             onDismiss = { confirmDeleteSelected = false },
@@ -156,9 +158,9 @@ fun BooksScreen(
     }
     if (confirmWipe) {
         ConfirmDialog(
-            title = "Clear the database?",
-            text = "This removes all languages, books and terms so you can start fresh. This cannot be undone.",
-            confirmLabel = "Clear everything",
+            title = tr("Clear the database?"),
+            text = tr("This removes all languages, books and terms so you can start fresh. This cannot be undone."),
+            confirmLabel = tr("Clear everything"),
             destructive = true,
             onConfirm = { viewModel.wipeDatabase(); confirmWipe = false },
             onDismiss = { confirmWipe = false },
@@ -222,12 +224,12 @@ private fun PageHeader(archived: Boolean, compact: Boolean, onNewBook: () -> Uni
     Row(Modifier.fillMaxWidth().padding(bottom = 24.dp), verticalAlignment = Alignment.CenterVertically) {
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
             Text(
-                if (archived) "Archived books" else "Books",
+                if (archived) tr("Archived books") else tr("Books"),
                 style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold,
             )
             Text(
-                if (archived) "Books you have set aside. Unarchive one to keep reading it." else "Read, learn, and explore languages through great texts.",
+                if (archived) tr("Books you have set aside. Unarchive one to keep reading it.") else tr("Read, learn, and explore languages through great texts."),
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -236,7 +238,7 @@ private fun PageHeader(archived: Boolean, compact: Boolean, onNewBook: () -> Uni
             Button(onClick = onNewBook, shape = RoundedCornerShape(10.dp), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 12.dp)) {
                 Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.width(8.dp))
-                Text("New book", fontWeight = FontWeight.SemiBold)
+                Text(tr("New book"), fontWeight = FontWeight.SemiBold)
             }
         }
     }
@@ -255,10 +257,10 @@ private val KNOWN = Color(0xFF4CC38A)
 @Composable
 private fun StatCards(state: BooksUiState, stacked: Boolean) {
     val cards = buildList {
-        add(StatCard(state.books.size.grouped(), if (state.books.size == 1) "Book" else "Books", AppIcons.Book, BLUE))
-        add(StatCard(state.wordsLearned.grouped(), "Words learned", AppIcons.BarChart, PURPLE))
-        add(StatCard(state.currentlyReading.grouped(), "Currently reading", AppIcons.MenuBook, GREEN))
-        if (state.showStreak) add(StatCard("${state.streak}", if (state.streak == 1) "Day streak" else "Days streak", AppIcons.Flame, ORANGE))
+        add(StatCard(state.books.size.grouped(), if (state.books.size == 1) tr("Book") else tr("Books"), AppIcons.Book, BLUE))
+        add(StatCard(state.wordsLearned.grouped(), tr("Words learned"), AppIcons.BarChart, PURPLE))
+        add(StatCard(state.currentlyReading.grouped(), tr("Currently reading"), AppIcons.MenuBook, GREEN))
+        if (state.showStreak) add(StatCard("${state.streak}", trPlural(state.streak, "Day streak", "Days streak"), AppIcons.Flame, ORANGE))
     }
     FlowRow(
         Modifier.fillMaxWidth().padding(bottom = 24.dp),
@@ -297,8 +299,8 @@ private fun StatCards(state: BooksUiState, stacked: Boolean) {
 @Composable
 private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count: Int, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
-    val sortMenu: @Composable (Modifier) -> Unit = { FilterMenu(AppIcons.SwapVert, state.sort.label, BookSort.entries, { it.label }, callbacks.onSort, it) }
-    val progressMenu: @Composable (Modifier) -> Unit = { FilterMenu(AppIcons.BarChart, state.progress.label, ProgressFilter.entries, { it.label }, callbacks.onProgress, it) }
+    val sortMenu: @Composable (Modifier) -> Unit = { FilterMenu(AppIcons.SwapVert, tr(state.sort.label), BookSort.entries, { tr(it.label) }, callbacks.onSort, it) }
+    val progressMenu: @Composable (Modifier) -> Unit = { FilterMenu(AppIcons.BarChart, tr(state.progress.label), ProgressFilter.entries, { tr(it.label) }, callbacks.onProgress, it) }
     if (compact) {
         Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             SearchBox(state.search, callbacks.onSearch, Modifier.fillMaxWidth())
@@ -317,7 +319,7 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count:
             // Only wide windows have the table to switch to.
             if (wide) ViewToggle(state.view, callbacks.onView) else Spacer(Modifier)
             val ticked = state.selectedBooks.size
-            Text(if (ticked > 0) "$ticked of $count selected" else "$count book${if (count == 1) "" else "s"}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
+            Text(if (ticked > 0) tr("{0} of {1} selected", ticked, count) else trPlural(count, "{0} book", "{0} books"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
         },
         modifier = Modifier.fillMaxWidth().padding(bottom = 20.dp),
     ) { measurables, constraints ->
@@ -367,7 +369,7 @@ private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modif
             modifier = Modifier.weight(1f),
             decorationBox = { inner ->
                 Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text("Search books", color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    if (value.isEmpty()) Text(tr("Search books"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                     inner()
                 }
             },
@@ -414,7 +416,7 @@ private fun ViewToggle(selected: BooksView, onSelect: (BooksView) -> Unit) {
                     .clickable { onSelect(view) },
                 contentAlignment = Alignment.Center,
             ) {
-                Icon(icon, contentDescription = "${view.name.lowercase()} view", tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
+                Icon(icon, contentDescription = if (view == BooksView.LIST) tr("list view") else tr("grid view"), tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.size(22.dp))
             }
         }
     }
@@ -452,12 +454,12 @@ private fun TableHeader(state: BooksUiState, callbacks: BooksCallbacks) {
             Modifier.fillMaxWidth().background(colors.surfaceVariant.copy(alpha = 0.35f)).padding(start = 8.dp, end = 20.dp, top = 4.dp, bottom = 4.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            Checkbox(checked = allSelected, onCheckedChange = callbacks.onSelectAll, modifier = Modifier.semantics { contentDescription = "Select all books" })
+            Checkbox(checked = allSelected, onCheckedChange = callbacks.onSelectAll, modifier = Modifier.semantics { contentDescription = tr("Select all books") })
             Spacer(Modifier.width(CHECKBOX_GAP))
-            HeaderCell("Book", BOOK_WEIGHT, active = sort == BookSort.TITLE) { onSort(BookSort.TITLE) }
-            HeaderCell("Reading progress", PROGRESS_WEIGHT)
-            HeaderCell("Vocabulary known", KNOWN_WEIGHT, active = sort == BookSort.MASTERY) { onSort(BookSort.MASTERY) }
-            HeaderCell("Last opened", OPENED_WEIGHT, Icons.Default.KeyboardArrowDown, active = sort == BookSort.RECENT) { onSort(BookSort.RECENT) }
+            HeaderCell(tr("Book"), BOOK_WEIGHT, active = sort == BookSort.TITLE) { onSort(BookSort.TITLE) }
+            HeaderCell(tr("Reading progress"), PROGRESS_WEIGHT)
+            HeaderCell(tr("Vocabulary known"), KNOWN_WEIGHT, active = sort == BookSort.MASTERY) { onSort(BookSort.MASTERY) }
+            HeaderCell(tr("Last opened"), OPENED_WEIGHT, Icons.Default.KeyboardArrowDown, active = sort == BookSort.RECENT) { onSort(BookSort.RECENT) }
             Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { BulkMenu(state, callbacks) }
         }
     }
@@ -518,7 +520,7 @@ private fun BookTableRow(book: BookListItem, selected: Boolean, callbacks: Books
         }
         Box(Modifier.weight(PROGRESS_WEIGHT).padding(end = 32.dp)) { PercentBar(book.progressPercent, PROGRESS) }
         Box(Modifier.weight(KNOWN_WEIGHT).padding(end = 32.dp)) { PercentBar(book.masteryPercent, KNOWN) }
-        Text(book.lastOpened?.relativeTo() ?: "Not opened yet", Modifier.weight(OPENED_WEIGHT).padding(end = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        Text(book.lastOpened?.relativeTo() ?: tr("Not opened yet"), Modifier.weight(OPENED_WEIGHT).padding(end = 16.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { BookMenu(book, callbacks) }
     }
 }
@@ -526,8 +528,8 @@ private fun BookTableRow(book: BookListItem, selected: Boolean, callbacks: Books
 @Composable
 private fun StatusTag(status: ReadingStatus) {
     val (label, tint) = when (status) {
-        ReadingStatus.READING -> "Reading" to BLUE
-        ReadingStatus.FINISHED -> "Finished" to GREEN
+        ReadingStatus.READING -> tr("Reading") to BLUE
+        ReadingStatus.FINISHED -> tr("Finished") to GREEN
         ReadingStatus.NOT_STARTED -> return
     }
     Text(
@@ -586,16 +588,16 @@ private fun BookCard(book: BookListItem, selected: Boolean, callbacks: BooksCall
             BookMenu(book, callbacks)
         }
         Column(Modifier.padding(start = CARD_INDENT), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text("Reading progress", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Text(tr("Reading progress"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             PercentBar(book.progressPercent, PROGRESS)
         }
         Column(Modifier.padding(start = CARD_INDENT), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text("Vocabulary known", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Text(tr("Vocabulary known"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             PercentBar(book.masteryPercent, KNOWN)
         }
         Row(Modifier.padding(start = CARD_INDENT), verticalAlignment = Alignment.CenterVertically) {
             Text(
-                book.lastOpened?.let { "Opened ${it.relativeTo()}" } ?: "Not opened yet",
+                book.lastOpened?.let { tr("Opened {0}", it.relativeTo()) } ?: tr("Not opened yet"),
                 Modifier.weight(1f),
                 style = MaterialTheme.typography.bodySmall,
                 color = colors.onSurfaceVariant,
@@ -612,7 +614,7 @@ private val CARD_INDENT = 52.dp
 
 @Composable
 private fun BookCheckbox(book: BookListItem, selected: Boolean, callbacks: BooksCallbacks) {
-    Checkbox(checked = selected, onCheckedChange = { callbacks.onToggle(book) }, modifier = Modifier.semantics { contentDescription = "Select ${book.title}" })
+    Checkbox(checked = selected, onCheckedChange = { callbacks.onToggle(book) }, modifier = Modifier.semantics { contentDescription = tr("Select {0}", book.title) })
 }
 
 /** The header's menu of actions on the ticked books, as on the vocabulary page. */
@@ -621,11 +623,16 @@ private fun BulkMenu(state: BooksUiState, callbacks: BooksCallbacks) {
     var open by remember { mutableStateOf(false) }
     val count = state.selectedBooks.size
     Box {
-        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Selected books actions", tint = MaterialTheme.colorScheme.onSurfaceVariant) }
+        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("Selected books actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            val archiveLabel = if (state.archived) "Unarchive" else "Archive"
-            AppMenuItem(text = { Text(if (count > 0) "$archiveLabel $count selected" else "$archiveLabel selected") }, enabled = count > 0, onClick = { open = false; callbacks.onArchiveSelected() })
-            AppMenuItem(text = { Text(if (count > 0) "Delete $count selected" else "Delete selected") }, enabled = count > 0, onClick = { open = false; callbacks.onDeleteSelected() })
+            val archiveLabel = when {
+                state.archived && count > 0 -> tr("Unarchive {0} selected", count)
+                state.archived -> tr("Unarchive selected")
+                count > 0 -> tr("Archive {0} selected", count)
+                else -> tr("Archive selected")
+            }
+            AppMenuItem(text = { Text(archiveLabel) }, enabled = count > 0, onClick = { open = false; callbacks.onArchiveSelected() })
+            AppMenuItem(text = { Text(if (count > 0) tr("Delete {0} selected", count) else tr("Delete selected")) }, enabled = count > 0, onClick = { open = false; callbacks.onDeleteSelected() })
         }
     }
 }
@@ -640,11 +647,11 @@ private fun SelectionBar(state: BooksUiState, callbacks: BooksCallbacks) {
             .border(1.dp, colors.primary.copy(alpha = 0.2f), RoundedCornerShape(12.dp)).padding(start = 6.dp, end = 8.dp, top = 2.dp, bottom = 2.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Checkbox(checked = all, onCheckedChange = callbacks.onSelectAll, modifier = Modifier.semantics { contentDescription = "Select all books" })
-        Text("$count selected", Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
-        TextButton(onClick = callbacks.onArchiveSelected) { Text(if (state.archived) "Unarchive" else "Archive") }
-        TextButton(onClick = callbacks.onDeleteSelected) { Text("Delete", color = colors.error) }
-        IconButton(onClick = { callbacks.onSelectAll(false) }) { Icon(Icons.Default.Close, contentDescription = "Clear selection", tint = colors.onSurfaceVariant) }
+        Checkbox(checked = all, onCheckedChange = callbacks.onSelectAll, modifier = Modifier.semantics { contentDescription = tr("Select all books") })
+        Text(tr("{0} selected", count), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium)
+        TextButton(onClick = callbacks.onArchiveSelected) { Text(if (state.archived) tr("Unarchive") else tr("Archive")) }
+        TextButton(onClick = callbacks.onDeleteSelected) { Text(tr("Delete"), color = colors.error) }
+        IconButton(onClick = { callbacks.onSelectAll(false) }) { Icon(Icons.Default.Close, contentDescription = tr("Clear selection"), tint = colors.onSurfaceVariant) }
     }
 }
 
@@ -666,13 +673,13 @@ private fun LanguageBadge(languageName: String, size: Dp) {
 private fun BookMenu(book: BookListItem, callbacks: BooksCallbacks) {
     var open by remember { mutableStateOf(false) }
     Box {
-        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Actions", tint = MaterialTheme.colorScheme.onSurfaceVariant) }
+        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("Actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant) }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text("Read") }, onClick = { open = false; callbacks.onOpen(book) })
-            AppMenuItem(text = { Text("Edit") }, onClick = { open = false; callbacks.onEdit(book) })
-            AppMenuItem(text = { Text("Bookmarks") }, onClick = { open = false; callbacks.onBookmarks(book) })
-            AppMenuItem(text = { Text(if (book.isArchived) "Unarchive" else "Archive") }, onClick = { open = false; callbacks.onArchive(book) })
-            AppMenuItem(text = { Text("Delete") }, onClick = { open = false; callbacks.onDelete(book) })
+            AppMenuItem(text = { Text(tr("Read")) }, onClick = { open = false; callbacks.onOpen(book) })
+            AppMenuItem(text = { Text(tr("Edit")) }, onClick = { open = false; callbacks.onEdit(book) })
+            AppMenuItem(text = { Text(tr("Bookmarks")) }, onClick = { open = false; callbacks.onBookmarks(book) })
+            AppMenuItem(text = { Text(if (book.isArchived) tr("Unarchive") else tr("Archive")) }, onClick = { open = false; callbacks.onArchive(book) })
+            AppMenuItem(text = { Text(tr("Delete")) }, onClick = { open = false; callbacks.onDelete(book) })
         }
     }
 }
@@ -685,8 +692,8 @@ private fun EmptyState(archived: Boolean, onNewBook: () -> Unit) {
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         Icon(AppIcons.Book, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(36.dp))
-        Text(if (archived) "No archived books." else "No books match these filters.", style = MaterialTheme.typography.titleMedium)
-        if (!archived) TextButton(onClick = onNewBook) { Text("Create a book") }
+        Text(if (archived) tr("No archived books.") else tr("No books match these filters."), style = MaterialTheme.typography.titleMedium)
+        if (!archived) TextButton(onClick = onNewBook) { Text(tr("Create a book")) }
     }
 }
 
@@ -695,17 +702,17 @@ private fun EmptyState(archived: Boolean, onNewBook: () -> Unit) {
 private fun DemoNotice(tutorialBookId: Long?, callbacks: BooksCallbacks) {
     Card(Modifier.fillMaxWidth().padding(bottom = 20.dp)) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text("The database has been loaded with a brief tutorial and some languages and short texts for you to try out.")
+            Text(tr("The database has been loaded with a brief tutorial and some languages and short texts for you to try out."))
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                if (tutorialBookId != null) Button(onClick = { callbacks.onOpenTutorial(tutorialBookId) }) { Text("Open the tutorial") }
-                TextButton(onClick = callbacks.onWipe) { Text("Clear database") }
-                TextButton(onClick = callbacks.onDismissDemo) { Text("Dismiss") }
+                if (tutorialBookId != null) Button(onClick = { callbacks.onOpenTutorial(tutorialBookId) }) { Text(tr("Open the tutorial")) }
+                TextButton(onClick = callbacks.onWipe) { Text(tr("Clear database")) }
+                TextButton(onClick = callbacks.onDismissDemo) { Text(tr("Dismiss")) }
             }
         }
     }
 }
 
-private fun words(count: Int) = if (count == 1) "1 word" else "${count.grouped()} words"
+private fun words(count: Int) = trPlural(count, "{1} word", "{1} words", count.grouped())
 
 /** 1223 → "1,223". */
 private fun Int.grouped(): String = toString().reversed().chunked(3).joinToString(",").reversed()
