@@ -1,0 +1,224 @@
+{
+  "id": "de-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Zahlen und Denken",
+  "description": "Short texts about numbers and reasoning: a misleading chart, the birthday paradox at a family party, a Christmas market tombola, why averages mislead, young Gauss and the sum of 1 to 100, compound interest, the history of zero, everyday fallacies, a statistician's profile and counting the seconds to a thunderclap.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Ingrid",
+    "Halbach",
+    "Brinkmann",
+    "Lukas",
+    "Gisela",
+    "Mia",
+    "Bernd",
+    "Mainz",
+    "Pfalz",
+    "Clara",
+    "Martin",
+    "Emil",
+    "Hedwig",
+    "Carl",
+    "Friedrich",
+    "Gauß",
+    "Braunschweig",
+    "Büttner",
+    "Büttners",
+    "Bartels",
+    "Göttingen",
+    "Brahmagupta",
+    "Indien",
+    "Bakhshali",
+    "Pakistan",
+    "Bagdad",
+    "Europa",
+    "Gerbert",
+    "Aurillac",
+    "Reims",
+    "Leonardo",
+    "Pisa",
+    "Florenz",
+    "Adam",
+    "Ries",
+    "Kassel",
+    "Lindenstraße",
+    "Albrecht",
+    "Demir",
+    "Krüger",
+    "Regula",
+    "Aebi",
+    "Bern",
+    "Deutschland",
+    "Nürnberg",
+    "Jeremias",
+    "Gotthelf",
+    "Thomas",
+    "Lena",
+    "Allgäu",
+    "Schweiz"
+  ],
+  "lessons": [
+    {
+      "title": "Die Kurve, die zu steil war",
+      "summary": "In an evening class, a teacher shows how a company chart with a cut-off axis makes a small rise in profit look huge.",
+      "newWords": [
+        "glaubwürdig",
+        "Relation",
+        "zweifelhaft",
+        "Aktionär",
+        "Portfolio",
+        "erwirtschaften",
+        "Ästhetik",
+        "Illustration",
+        "obig"
+      ],
+      "text": "Ingrid Halbach gibt abends an einer Schule für Erwachsene einen Kurs, der „Zahlen verstehen“ heißt. An diesem Dienstag hatte sie eine Grafik mitgebracht, die eine Firma in ihrem Bericht für die Aktionäre veröffentlicht hatte. Man sah eine blaue Kurve, die steil nach oben stieg. Darüber stand in großen Buchstaben: „Unser Gewinn wächst rasant.“\n\n„Was sagt Ihnen dieses Bild?“, fragte Frau Halbach. Herr Brinkmann, ein Lehrer im Ruhestand, besitzt selbst ein kleines Portfolio aus Aktien. „Ich würde sofort kaufen“, sagte er. „Die Firma hat offenbar sehr viel Geld erwirtschaftet.“\n\nFrau Halbach bat die Gruppe, genau auf die Achse am linken Rand zu schauen. Diese Achse begann nicht bei null, sondern bei 98 Millionen Euro, und sie endete bei 102 Millionen. Die Firma hatte also im letzten Jahr 102 Millionen Euro erwirtschaftet, 5 Jahre zuvor waren es 98 Millionen gewesen: ein Plus von ungefähr 4 Prozent. Weil man die Achse so knapp abgeschnitten hatte, sah dieser kleine Anstieg aus wie ein gewaltiger Sprung. „Die Zahlen stimmen“, sagte Frau Halbach, „aber das Bild ist zweifelhaft. Zweifelhaft ist nicht die Rechnung, sondern ihre Darstellung.“\n\nDann erklärte sie, dass man jede Zahl in Relation zu etwas setzen muss. 4 Millionen Euro klingen nach viel Geld. In Relation zum gesamten Gewinn sind sie wenig. Und in Relation zu den Preisen, die in denselben 5 Jahren ebenfalls gestiegen waren, ist der Gewinn vielleicht gar nicht gewachsen. Ein Aktionär, der nur auf die Kurve blickt, bekommt deshalb einen falschen Eindruck.\n\nAnschließend zeigte sie dieselben Daten noch einmal, diesmal mit einer Achse, die bei null begann. Die Kurve war nun beinahe flach. „Diese Fassung ist weniger aufregend“, sagte sie, „aber sie ist glaubwürdig.“\n\nHerr Brinkmann wollte wissen, ob die Firma gelogen habe. Frau Halbach schüttelte den Kopf. Gelogen habe niemand, aber man habe die Ästhetik über die Wahrheit gestellt. Eine schöne Grafik sei nicht verboten. Problematisch werde die Ästhetik erst, wenn sie den Inhalt verstecke. Manche Berichte seien so voller Farben und Illustrationen, dass der Leser vergesse, nach den Achsen zu fragen. Eine Illustration dürfe einen Text schmücken, ersetzen dürfe sie ihn nicht.\n\nZum Schluss teilte Frau Halbach ein Blatt aus. Oben standen drei Fragen, die man jeder Grafik stellen sollte: Wo beginnt die Achse? Welcher Zeitraum wird gezeigt? Womit werden die Zahlen verglichen? Darunter stand: „Wer die obigen Fragen beantworten kann, lässt sich von keiner Kurve täuschen.“ Herr Brinkmann las die obigen Zeilen zweimal. Er nahm sich vor, sie zu prüfen, bevor er wieder etwas für sein Portfolio kauft. Eine Grafik ist für ihn erst dann glaubwürdig, wenn sie alle drei Fragen ehrlich beantwortet.\n\nFragen:\nWas zeigte die Grafik, die Frau Halbach mitgebracht hatte?\nSie zeigte eine blaue Kurve, die steil nach oben stieg. Die Grafik stammte aus einem Bericht für die Aktionäre einer Firma.\nWarum wirkte der Anstieg so groß?\nDie Achse begann nicht bei null, sondern bei 98 Millionen Euro, und war knapp abgeschnitten.\nUm wie viel war der Gewinn wirklich gestiegen?\nEr war in 5 Jahren um ungefähr 4 Prozent gestiegen.\nWas bedeutet es, eine Zahl in Relation zu setzen?\nMan vergleicht sie mit etwas anderem, zum Beispiel mit dem gesamten Gewinn oder mit den Preisen.\nWann wird die Ästhetik einer Grafik zum Problem?\nWenn Farben und Illustrationen den Inhalt verstecken.\nWas nahm sich Herr Brinkmann vor?\nEr wollte die drei Fragen prüfen, bevor er wieder etwas für sein Portfolio kauft."
+    },
+    {
+      "title": "Zwei Geburtstage an einem Tisch",
+      "summary": "At his grandmother's 80th birthday in a country inn, a maths student bets his aunt that two of the 23 guests share a birthday, and explains why.",
+      "newWords": [
+        "Gasthaus",
+        "kulinarisch",
+        "Absprache",
+        "auspacken",
+        "einpacken",
+        "hüpfen",
+        "zutreffen",
+        "derweil",
+        "himmlisch",
+        "Annäherung"
+      ],
+      "text": "Als Lukas' Großmutter 80 Jahre alt wurde, feierte die Familie in einem alten Gasthaus in der Pfalz. Das Gasthaus war für seine Küche bekannt, und auch an diesem Sonntag wurde niemand enttäuscht: Es gab Suppe, Braten mit Kartoffeln und zum Schluss eine Torte, die selbst Lukas' strenge Tante Gisela himmlisch fand. Kulinarisch war der Tag ein voller Erfolg, und für die Großmutter, die selbst ihr Leben lang gern gekocht hatte, war das kulinarische Angebot schon ein Geschenk.\n\nNach einer Absprache in der Familie hatte jeder nur ein kleines Geschenk mitgebracht. Die Absprache war klug, denn so blieb mehr Zeit zum Feiern. Die Großmutter begann, die Geschenke auszupacken, und brauchte dafür eine halbe Stunde, weil sie jedes Papier sorgfältig faltete. Was sie ausgepackt hatte, stellte sie in einer Reihe auf den Tisch. Derweil hüpften die jüngsten Enkel durch den Saal, bis die Wirtin sie freundlich bat, draußen im Hof zu spielen.\n\nLukas studiert Mathematik in Mainz. Beim Kaffee sagte er zu seiner Tante: „Wir sind heute 23 Personen. Ich wette, dass mindestens zwei von uns am selben Tag Geburtstag haben.“ Tante Gisela lachte. „Das Jahr hat 365 Tage. Bei nur 23 Menschen kann das nicht zutreffen.“\n\nLukas erklärte ihr seinen Gedanken. Der Fehler liege darin, dass man an sich selbst denke. Die Chance, dass ein anderer Gast genau am eigenen Geburtstag geboren ist, sei tatsächlich klein. Es gehe aber um irgendein Paar, und aus 23 Menschen könne man 253 verschiedene Paare bilden. Jedes dieser Paare hat eine kleine Chance von 1 zu 365, denselben Geburtstag zu haben. Weil es so viele Paare sind, wird aus vielen kleinen Chancen eine große.\n\nDann rechnete er es auf einem Zettel vor. Am einfachsten ist die umgekehrte Frage: Wie wahrscheinlich ist es, dass alle 23 an verschiedenen Tagen geboren sind? Der zweite Gast muss einen der 364 freien Tage treffen, der dritte einen der 363, und so weiter. Multipliziert man all diese Brüche, erhält man ungefähr 49 Prozent. Also haben mit etwa 51 Prozent mindestens zwei Gäste am selben Tag Geburtstag. Lukas fügte hinzu, dass es für das Ergebnis auch eine bequeme Annäherung gibt, die ohne lange Rechnung auskommt. Die Annäherung liefert ebenfalls fast genau 50 Prozent.\n\nTante Gisela wollte es genau wissen. Sie stand auf und bat alle Gäste, ihren Geburtstag zu nennen. Derweil schrieb Lukas die Daten auf seinen Zettel. Beim 19. Gast war es so weit: Onkel Bernd und Lukas' kleine Cousine Mia haben beide am 3. August Geburtstag. Der ganze Saal klatschte, und Mia hüpfte vor Freude auf ihrem Stuhl. „Ich gebe zu, dass deine Behauptung zutrifft“, sagte Tante Gisela, „auch wenn ich sie immer noch merkwürdig finde.“\n\nAm Abend ließ die Wirtin die übrige Torte einpacken. Die Großmutter bestand darauf, ein großes Stück für Lukas einzupacken. „Für den klugen Kopf“, sagte sie. Lukas bedankte sich. Die Torte war wirklich himmlisch.\n\nFragen:\nWo feierte die Familie den Geburtstag der Großmutter?\nSie feierte in einem alten Gasthaus in der Pfalz.\nWas hatte die Familie vorher abgesprochen?\nNach einer Absprache hatte jeder nur ein kleines Geschenk mitgebracht.\nWas machten die Enkel, während die Großmutter die Geschenke auspackte?\nSie hüpften derweil durch den Saal.\nWarum glaubte Tante Gisela nicht an Lukas' Wette?\nSie dachte, dass bei 365 Tagen und nur 23 Menschen kaum zwei am selben Tag Geburtstag haben.\nWarum ist die Wahrscheinlichkeit trotzdem so hoch?\nAus 23 Menschen kann man 253 Paare bilden, und aus vielen kleinen Chancen wird eine große.\nWer hatte am selben Tag Geburtstag?\nOnkel Bernd und Lukas' Cousine Mia haben beide am 3. August Geburtstag."
+    },
+    {
+      "title": "Fünf Lose für Clara",
+      "summary": "At a Christmas market tombola, a father shows his daughter why five tickets with a ten percent chance each do not make a fifty percent chance.",
+      "newWords": [
+        "Behälter",
+        "glühen",
+        "Lack",
+        "verzieren",
+        "Stadtverwaltung",
+        "Passant",
+        "widerstehen",
+        "konsumieren",
+        "rechtmäßig"
+      ],
+      "text": "Am zweiten Samstag im Dezember gingen Clara und ihr Vater Martin über den Weihnachtsmarkt vor dem Rathaus. Die Buden waren mit grünen Zweigen und goldenen Sternen verziert, und an einem Stand verzierte eine junge Frau große Kekse mit weißer Schrift. Unter einem Grill glühten die Kohlen, und Clara spürte, wie auch ihre Wangen in der Kälte zu glühen begannen.\n\nNeben dem Brunnen hatte der Sportverein eine Tombola aufgebaut. Auf einem Tisch standen die Preise: Bücher, Schals, ein Korb mit Wurst und Käse und als wichtigsten Preis ein kleines Pferd aus Holz mit glänzend rotem Lack. Clara konnte die Augen nicht von dem roten Lack lassen. In einem großen gläsernen Behälter lagen die Lose, sorgfältig gefaltet. Ein Schild verriet die Regeln: 500 Lose, 50 Gewinne, 2 Euro pro Los. Darunter stand, dass die Stadtverwaltung die Tombola genehmigt habe und der Erlös an einen Kindergarten gehe. „Gut“, sagte Martin, „dann ist das Ganze rechtmäßig. Ohne die Erlaubnis der Stadtverwaltung dürfte der Verein keine Lose verkaufen.“ Clara fand es beruhigend, dass alles rechtmäßig zuging.\n\nClara rechnete schnell. „Jedes zehnte Los gewinnt. Wenn ich 5 Lose kaufe, habe ich also eine Chance von 50 Prozent.“ Martin lächelte. „So denken fast alle. Aber Wahrscheinlichkeiten darf man nicht einfach addieren. Sonst hättest du mit 10 Losen eine Chance von 100 Prozent, und das stimmt offensichtlich nicht.“\n\nEr erklärte es von der anderen Seite. Die Chance, dass ein Los nichts gewinnt, beträgt 90 Prozent. Dass alle 5 Lose nichts gewinnen, ist immer noch recht wahrscheinlich, nämlich etwa 59 Prozent: 90 Prozent von 90 Prozent von 90 Prozent, und so weiter, fünfmal hintereinander. Folglich gewinnt Clara mit 5 Losen nur mit etwa 41 Prozent mindestens einen Preis. Im Durchschnitt bekommt sie für 5 Lose einen halben Gewinn.\n\nDann rechneten sie gemeinsam aus, was ein Los im Durchschnitt wert ist. Der Verein nimmt für alle 500 Lose 1000 Euro ein. Die Preise auf dem Tisch kosten zusammen vielleicht 400 Euro. Für jedes Los, das 2 Euro kostet, kommen also im Schnitt 80 Cent als Gewinn zurück. „Bei einer Tombola verliert man fast immer“, sagte Martin. „Aber hier verliert man für einen guten Zweck.“\n\nClara kaufte von ihrem Taschengeld 5 Lose und zog sie selbst aus dem Behälter. 4 waren leer, das fünfte brachte ihr ein Buch über Sterne. Das Pferd mit dem roten Lack gewann ein älterer Herr. Martin hätte gern weitere Lose gekauft, doch er konnte dem Wunsch widerstehen. „Es ist nicht leicht, einem schönen Preis zu widerstehen“, gab er zu.\n\nAuf dem Weg nach Hause schauten sie den Passanten zu, die mit vollen Tüten an ihnen vorbeigingen. Ein Passant trug gleich drei kleine Bäume. Clara meinte, dass die Leute im Dezember mehr konsumieren als im ganzen restlichen Jahr. Martin nickte: „Wer viel konsumiert, sollte wenigstens wissen, was er für sein Geld bekommt.“\n\nFragen:\nWomit waren die Buden auf dem Markt verziert?\nSie waren mit grünen Zweigen und goldenen Sternen verziert.\nWarum war die Tombola rechtmäßig?\nDie Stadtverwaltung hatte sie genehmigt.\nWas glaubte Clara zuerst über ihre Chance?\nSie glaubte, dass sie mit 5 Losen eine Chance von 50 Prozent hat.\nWie groß ist die Chance wirklich?\nMit 5 Losen gewinnt sie nur mit etwa 41 Prozent mindestens einen Preis.\nWas gewann Clara?\nSie gewann ein Buch über Sterne.\nWelchem Wunsch konnte Martin widerstehen?\nEr konnte dem Wunsch widerstehen, weitere Lose zu kaufen."
+    },
+    {
+      "title": "Der Durchschnitt schweigt gern",
+      "summary": "A newspaper column explains, with commuters, incomes and fighter pilots, why an average can describe nobody.",
+      "newWords": [
+        "Kamm",
+        "Gegebenheit",
+        "pendeln",
+        "Dienstleister",
+        "mithalten",
+        "strukturiert",
+        "Fetisch",
+        "Götze",
+        "handwerklich"
+      ],
+      "text": "Kaum eine Zahl begegnet uns so oft wie der Durchschnitt. Er steht in jeder Zeitung, in jedem Bericht, auf jeder Folie. Er ist bequem, denn er fasst viele Werte in einem einzigen zusammen. Gerade darin liegt seine Schwäche: Er verschweigt, wie unterschiedlich diese Werte sind.\n\nEin einfaches Beispiel. In einer kleinen Firma pendelt die Hälfte der Mitarbeiter 55 Minuten zur Arbeit, die andere Hälfte wohnt im Ort und braucht 5 Minuten. Im Durchschnitt pendeln alle 30 Minuten. Diese Zahl ist korrekt, und trotzdem beschreibt sie keinen einzigen Menschen in der Firma. Wer die Gegebenheiten vor Ort nicht kennt, zieht daraus falsche Schlüsse.\n\nNoch deutlicher wird es beim Geld. Stellen wir uns eine Straße mit 10 Haushalten vor. 9 davon verdienen 3000 Euro im Monat, viele in handwerklichen Berufen. Im zehnten Haus wohnt die Besitzerin eines großen Dienstleisters, die im Monat 120.000 Euro verdient. Das durchschnittliche Einkommen in der Straße liegt nun bei 14.700 Euro. Kein einziger Nachbar kann mit dieser Zahl mithalten, außer der Chefin des Dienstleisters selbst. Wer in der Zeitung von solchen Werten liest, glaubt schnell, er könne mit den anderen nicht mithalten. Ein Statistiker würde hier lieber den mittleren Wert nennen, den sogenannten Median: Man ordnet alle Einkommen der Größe nach und nimmt den Wert in der Mitte. Er liegt bei 3000 Euro und beschreibt die Straße weit besser.\n\nEine bekannte Geschichte stammt aus der amerikanischen Luftwaffe. Um 1950 vermaß man dort mehr als 4000 Piloten, weil die Cockpits für den „durchschnittlichen Piloten“ gebaut waren. Man prüfte 10 Maße, etwa die Größe, die Länge der Arme und den Umfang der Brust. Das Ergebnis war verblüffend: Kein einziger Pilot lag bei allen 10 Maßen im mittleren Bereich. Den durchschnittlichen Piloten gab es nicht. Später baute man verstellbare Sitze, die sich den Gegebenheiten jedes Körpers anpassen.\n\nDas ist die Gefahr: Der Durchschnitt schert alle über einen Kamm. Wer Menschen über einen Kamm schert, übersieht, dass die Welt selten gleichmäßig strukturiert ist. Daten können ganz unterschiedlich strukturiert sein: gleichmäßig verteilt, in zwei Gruppen gespalten oder von einem einzigen extremen Wert verzerrt. Eine Zahl allein verrät das nicht. Wer nur den Durchschnitt nennt, begeht einen handwerklichen Fehler, den auch erfahrene Fachleute oft machen.\n\nManche Fachleute warnen deshalb davor, aus dem Durchschnitt einen Fetisch zu machen. Mit Fetisch meinen sie hier ein Ding, das man verehrt, obwohl es diese Verehrung nicht verdient. Wenn ein Betrieb nur noch auf Durchschnittswerte schaut, wird die Zahl zum Götzen, dem man alles opfert, sogar den gesunden Menschenverstand. Ein Götze verlangt Gehorsam, aber er erklärt nichts.\n\nEs wäre trotzdem falsch, den Durchschnitt zu verdammen. Er ist ein nützliches Werkzeug, wenn man ihn richtig verwendet. Man sollte nur immer fragen, wie die Werte verteilt sind, ob es Ausreißer gibt und ob der mittlere Wert etwas anderes erzählt. Erst dann sieht man, was der Durchschnitt so gern verschweigt.\n\nFragen:\nWarum ist der Durchschnitt so beliebt?\nEr ist bequem, weil er viele Werte in einem einzigen zusammenfasst.\nWarum beschreibt die Zahl von 30 Minuten keinen Mitarbeiter?\nDie eine Hälfte pendelt 55 Minuten, die andere braucht nur 5 Minuten.\nWas geschieht mit dem Durchschnitt in der Straße mit 10 Haushalten?\nWegen der Chefin eines großen Dienstleisters steigt er auf 14.700 Euro, obwohl 9 Haushalte 3000 Euro verdienen.\nWas fand die Luftwaffe heraus?\nKein einziger Pilot lag bei allen 10 Maßen im mittleren Bereich.\nWas bedeutet es, alle über einen Kamm zu scheren?\nMan behandelt alle gleich und übersieht ihre Unterschiede.\nWovor warnen manche Fachleute?\nSie warnen davor, aus dem Durchschnitt einen Fetisch oder einen Götzen zu machen."
+    },
+    {
+      "title": "Der kleine Gauß und die Zahlen von 1 bis 100",
+      "summary": "The well-known story of nine-year-old Carl Friedrich Gauß, who added the numbers from 1 to 100 in moments by pairing them.",
+      "newWords": [
+        "klemmen",
+        "hinstellen",
+        "hartnäckig",
+        "distanziert",
+        "Pionier",
+        "Tugend",
+        "dergleichen",
+        "jahrzehntelang",
+        "Routine"
+      ],
+      "text": "Über Carl Friedrich Gauß, einen der größten Mathematiker der Geschichte, erzählt man sich eine Geschichte aus seiner Kindheit. Ob sie sich genau so zugetragen hat, weiß niemand, denn aufgeschrieben wurde sie erst nach seinem Tod. Bis dahin hatte man sie jahrzehntelang nur mündlich weitererzählt. Sie hält sich aber hartnäckig, und das hat einen guten Grund: Sie zeigt in wenigen Minuten, was gutes Denken ausmacht.\n\nGauß wurde 1777 in Braunschweig geboren. Seine Eltern waren einfache Leute, sein Vater arbeitete unter anderem als Gärtner und Maurer. Um 1786 besuchte der Junge eine Schule, in der sehr viele Kinder in einem einzigen Raum saßen. Der Lehrer hieß Büttner. In seiner Klasse herrschte eine strenge Routine: Lesen, Schreiben, Rechnen und dergleichen, jeden Tag in derselben Reihenfolge. Ruhe und Gehorsam galten als die wichtigsten Tugenden eines Schülers.\n\nEines Tages wollte Büttner, so heißt es, die Kinder für längere Zeit beschäftigen. Er gab ihnen die Aufgabe, alle Zahlen von 1 bis 100 zusammenzuzählen. Für die meisten bedeutete das eine lange Routine: 1 plus 2 ist 3, plus 3 ist 6, plus 4 ist 10, und so weiter, 99 Schritte lang. Wer sich dabei einmal verrechnet, bekommt am Ende ein falsches Ergebnis.\n\nGauß jedoch saß nur kurz still. Dann schrieb er eine einzige Zahl auf seine Tafel, klemmte sie unter den Arm und ging nach vorn. Die Tafel fest unter den Arm geklemmt, wartete er, bis der Lehrer aufblickte. Auf der Tafel stand: 5050. Nichts dergleichen hatte Büttner erwartet. Die anderen Kinder rechneten derweil hartnäckig weiter, und viele von ihnen kamen am Ende auf eine falsche Zahl.\n\nWie hatte der Junge das geschafft? Er hatte die Zahlen nicht der Reihe nach addiert, sondern in Paaren betrachtet. Die erste und die letzte Zahl ergeben zusammen 101, denn 1 plus 100 ist 101. Die zweite und die vorletzte ergeben ebenfalls 101, denn 2 plus 99 ist 101. So geht es weiter bis zur Mitte: 50 plus 51 ist wieder 101. Es gibt also 50 Paare, und jedes ergibt 101. 50 mal 101 ist 5050. Statt 99 Rechnungen braucht man nur eine. Gauß zeigte an diesem Tag eine andere Tugend als Ruhe: den Mut, eine Aufgabe von einer neuen Seite zu betrachten.\n\nSpätere Erzähler haben Büttner gern als kalten, harten Mann hingestellt. Es wäre aber ungerecht, ihn nur so hinzustellen. Er war zwar distanziert und streng, aber er erkannte die Begabung des Jungen. Er besorgte ihm ein besseres Buch über das Rechnen. Sein junger Assistent Martin Bartels, damals erst 17 Jahre alt, lernte gemeinsam mit Gauß. Bartels war keineswegs distanziert: Die beiden wurden Freunde, und er half dem Jungen, die Unterstützung des Herzogs von Braunschweig zu gewinnen.\n\nGauß wurde später ein Pionier auf vielen Gebieten: in der Zahlentheorie, in der Astronomie, bei der Vermessung des Landes und in der Erforschung des Magnetismus. Jahrzehntelang leitete er die Sternwarte in Göttingen, von 1807 bis zu seinem Tod im Jahr 1855. Doch sein Weg als Pionier begann, so erzählt man, in jenem Moment mit der Tafel unter dem Arm.\n\nFragen:\nWarum hält sich die Geschichte so hartnäckig?\nSie zeigt in wenigen Minuten, was gutes Denken ausmacht.\nWelche Tugenden galten in Büttners Klasse als die wichtigsten?\nRuhe und Gehorsam galten als die wichtigsten Tugenden eines Schülers.\nWas tat Gauß, nachdem er die Zahl aufgeschrieben hatte?\nEr klemmte die Tafel unter den Arm und ging nach vorn.\nWie kam Gauß auf das Ergebnis 5050?\nEr bildete 50 Paare, die jeweils 101 ergeben, und rechnete 50 mal 101.\nWie war der Lehrer Büttner wirklich?\nEr war distanziert und streng, aber er erkannte die Begabung des Jungen und besorgte ihm ein besseres Buch.\nWas machte Gauß jahrzehntelang?\nEr leitete von 1807 bis 1855 die Sternwarte in Göttingen."
+    },
+    {
+      "title": "Das Schachbrett des Sultans",
+      "summary": "A grandmother explains compound interest to her grandson with real numbers and an old legend about grains on a chessboard.",
+      "newWords": [
+        "Sultan",
+        "begünstigt",
+        "vertraglich",
+        "aufsetzen",
+        "versäumen",
+        "predigen",
+        "herausholen",
+        "modifizieren",
+        "Realisierung",
+        "Bereicherung"
+      ],
+      "text": "Emil war 18 und hatte zum Abitur 1000 Euro geschenkt bekommen. Er wollte sich davon sofort eine neue Kamera kaufen. Seine Großmutter Hedwig hatte ihm sein ganzes Leben lang gepredigt, dass man Geld nicht gleich ausgeben soll. Auch an diesem Nachmittag predigte sie wieder, doch diesmal erklärte sie zum ersten Mal genau, warum.\n\n„Stell dir vor, du legst die 1000 Euro zu 5 Prozent Zinsen an“, sagte sie. „Nach einem Jahr hast du 1050 Euro. Im zweiten Jahr bekommst du aber nicht wieder 50 Euro, sondern 5 Prozent von 1050, also 52,50 Euro. Die Zinsen bringen selbst Zinsen. Das nennt man Zinseszins.“ Nach 10 Jahren, rechnete sie vor, wären es fast 1629 Euro, nicht nur 1500. Nach 30 Jahren wären es sogar über 4300 Euro statt 2500.\n\nDann erzählte sie eine alte Legende. Ein kluger Mann soll einem Sultan das Schachspiel geschenkt haben. Der Sultan war begeistert und wollte ihn belohnen. Der Mann wünschte sich nur Getreide: ein Korn auf dem ersten Feld des Brettes, zwei auf dem zweiten, vier auf dem dritten und so weiter, auf jedem Feld doppelt so viele wie auf dem vorigen. Der Sultan lachte über den bescheidenen Wunsch. Doch schon auf dem 21. Feld lagen über eine Million Körner, und auf allen 64 Feldern zusammen wären es mehr als 18 Trillionen. So viel Getreide wächst auf der ganzen Erde nicht einmal in 1000 Jahren. Der Sultan hatte die Kraft der Verdopplung unterschätzt.\n\n„Beim Zinseszins ist es genauso, nur langsamer“, sagte die Großmutter. „Bei 5 Prozent verdoppelt sich dein Geld etwa alle 14 Jahre. Deshalb begünstigt die Zeit jeden, der früh anfängt.“ Wer mit 20 Jahren 1000 Euro anlegt, hat mit 60 bei 5 Prozent rund 7000 Euro. Wer erst mit 30 anfängt, hat nur gut 4300. Begünstigt ist also nicht unbedingt, wer viel Geld hat, sondern wer früh beginnt. Wer es versäumt, früh zu beginnen, kann das später kaum nachholen. „Ich habe es selbst lange versäumt“, gab sie zu.\n\nEmil wollte wissen, wie man noch mehr aus dem Geld herausholen kann. Man könne die Rechnung modifizieren, sagte sie, etwa wenn die Bank die Zinsen jeden Monat statt einmal im Jahr gutschreibe. Mit dieser modifizierten Rechnung wären es nach 10 Jahren 1647 Euro statt 1629. Wichtiger sei aber, dass der Zins vertraglich festgelegt ist. Nur was vertraglich gesichert ist, darf man fest einplanen. Und man dürfe nicht vergessen, dass auch die Preise steigen. Wer mehr herausholen wolle, müsse meistens auch mehr wagen.\n\nAm Ende schlug Emil einen Kompromiss vor. Er wollte 600 Euro anlegen und für den Rest eine gebrauchte Kamera kaufen. Die Großmutter war einverstanden und bestand darauf, einen kleinen Vertrag aufzusetzen. Emil fand es zuerst komisch, mit der eigenen Großmutter einen Vertrag aufzusetzen, aber dann gefiel ihm die Idee, und beide unterschrieben.\n\nFür die Realisierung seines größeren Traums, einer langen Reise nach dem Studium, hat Emil nun einen Plan. Die Realisierung liegt noch Jahre entfernt, doch das Geld arbeitet schon. Das Gespräch mit der Großmutter war für ihn eine Bereicherung. Es war, sagt er heute, eine größere Bereicherung als jede Kamera.\n\nFragen:\nWas hatte die Großmutter Emil sein Leben lang gepredigt?\nSie hatte ihm gepredigt, dass man Geld nicht gleich ausgeben soll.\nWas ist der Zinseszins?\nDie Zinsen bringen selbst wieder Zinsen.\nWas wünschte sich der kluge Mann vom Sultan?\nEr wünschte sich Getreide, auf jedem Feld des Schachbretts doppelt so viele Körner wie auf dem vorigen.\nWen begünstigt die Zeit?\nDie Zeit begünstigt jeden, der früh anfängt.\nWie kann man die Rechnung modifizieren?\nDie Bank kann die Zinsen jeden Monat statt einmal im Jahr gutschreiben.\nWelchen Kompromiss schlug Emil vor?\nEr wollte 600 Euro anlegen und für den Rest eine gebrauchte Kamera kaufen."
+    },
+    {
+      "title": "Die lange Reise der Null",
+      "summary": "A short history of zero, from a gap in Babylonian numbers and Indian manuscripts to Florence's ban and German arithmetic books.",
+      "newWords": [
+        "Fragment",
+        "Bistum",
+        "Type",
+        "Schöpfung",
+        "Kontroverse",
+        "zurückweisen",
+        "zeitgemäß",
+        "Repertoire",
+        "Urheberrecht"
+      ],
+      "text": "Die Null ist so selbstverständlich, dass wir kaum über sie nachdenken. Und doch hat es Jahrtausende gedauert, bis sie überall angekommen ist. Kein Mensch besitzt ein Urheberrecht an ihr, denn sie hat nicht nur einen Erfinder. Wenn es ein Urheberrecht an Ideen gäbe, müsste man es auf viele Völker verteilen.\n\nSchon die Babylonier schrieben Zahlen so, dass jede Stelle einen eigenen Wert hatte, wie bei uns heute. Für eine leere Stelle ließen sie zuerst eine Lücke, später setzten sie ein eigenes Zeichen. Es hielt nur einen Platz frei; eine Zahl, mit der man rechnete, war es noch nicht.\n\nDiesen Schritt machten Gelehrte in Indien. Im Jahr 628 schrieb der Mathematiker Brahmagupta Regeln für das Rechnen mit der Null auf, zum Beispiel: Eine Zahl minus sich selbst ergibt null. Ein frühes Zeugnis ist eine Handschrift auf Birkenrinde, die man 1881 bei dem Dorf Bakhshali im heutigen Pakistan gefunden hat. Sie besteht aus vielen Fragmenten, und die Null erscheint darin als dicker Punkt. Nach einer Untersuchung im Jahr 2017 stammen manche Fragmente aus dem 3. oder 4. Jahrhundert, andere sind Jahrhunderte jünger. Darüber gibt es eine Kontroverse, denn nicht alle Fachleute halten die Methode hier für zuverlässig. Entschieden ist die Kontroverse bis heute nicht.\n\nÜber arabische Gelehrte in Bagdad kamen die indischen Ziffern nach Westen. In Europa rechnete man aber noch lange mit römischen Zahlen, auch in den Schulen der Klöster und Bistümer. Um das Jahr 980 leitete Gerbert von Aurillac, der später Papst wurde, die Schule des Bistums Reims. Er benutzte die neuen Ziffern auf seinem Rechenbrett, allerdings noch ohne die Null. Erst Leonardo von Pisa machte sie 1202 mit seinem Buch über das Rechnen unter Kaufleuten bekannt.\n\nDoch viele wollten die Neuerung zurückweisen. In Florenz verbot die Zunft der Geldwechsler im Jahr 1299 ihren Mitgliedern, die neuen Ziffern in ihren Büchern zu verwenden. Man fürchtete, dass jemand aus einer 0 leicht eine 6 oder eine 9 machen könnte. Andere hatten Bedenken ganz anderer Art. Das Nichts, so meinten sie, gehöre vor die Schöpfung der Welt und habe in einer Rechnung nichts zu suchen. Eine Zahl für das Nichts schien ihnen mit der Schöpfung schwer vereinbar.\n\nAm Ende war der Nutzen aber zu groß, um die Ziffern dauerhaft zurückzuweisen. Mit einem Repertoire von nur 10 Zeichen kann man jede beliebige Zahl schreiben, und schriftlich rechnen geht viel schneller als mit römischen Zahlen. Als im 15. Jahrhundert der Buchdruck kam, brauchte jede Druckerei für jede Ziffer eine eigene Type aus Metall, auch für die Null. Mit diesen Typen druckte man im 16. Jahrhundert die Bücher von Adam Ries, der den Menschen in deutscher Sprache das Rechnen mit den neuen Ziffern beibrachte. Daher sagt man noch heute, wenn eine Rechnung stimmt: „Das macht nach Adam Riese ...“\n\nRömische Zahlen gelten seitdem nicht mehr als zeitgemäß, außer auf alten Uhren. Zum Rechnen ist nur das Repertoire der 10 Ziffern zeitgemäß, und die Null steht mitten darin.\n\nFragen:\nWarum besitzt niemand ein Urheberrecht an der Null?\nSie hat nicht nur einen Erfinder, sondern viele Völker haben zu ihr beigetragen.\nWorum geht die Kontroverse um die Fragmente aus Bakhshali?\nEs geht um ihr Alter, denn nicht alle Fachleute halten die Methode für zuverlässig.\nWarum wollte die Zunft in Florenz die neuen Ziffern zurückweisen?\nMan fürchtete, dass jemand aus einer 0 leicht eine 6 oder eine 9 machen könnte.\nWas brauchte eine Druckerei für jede Ziffer?\nSie brauchte für jede Ziffer eine eigene Type aus Metall.\nWarum gelten römische Zahlen nicht mehr als zeitgemäß?\nMit einem Repertoire von 10 Ziffern kann man jede Zahl schreiben und viel schneller rechnen."
+    },
+    {
+      "title": "Tempo 30 und vier Denkfehler",
+      "summary": "At a residents' meeting about a speed limit, a philosophy teacher names the fallacies in the arguments until the meeting reaches a decision.",
+      "newWords": [
+        "labern",
+        "Streitigkeit",
+        "Anker",
+        "zutiefst",
+        "verhungern",
+        "hinziehen",
+        "dreist",
+        "befahren",
+        "begrenzen",
+        "Frust"
+      ],
+      "text": "Die Lindenstraße in einer kleinen Stadt bei Kassel ist stark befahren. Viele Kinder gehen dort zur Schule, und die Anwohner klagen über Lärm. Deshalb lud die Stadt an einem Abend im Mai zu einer Versammlung ein. Die Frage war, ob man das Tempo in der Straße auf 30 Kilometer pro Stunde begrenzen sollte. Geleitet wurde die Versammlung von Herrn Albrecht, der am Gymnasium Philosophie unterrichtet. Er wollte nicht über die Lösung urteilen, sondern nur auf die Argumente achten.\n\nZuerst sprach Frau Demir, die mit ihren zwei Kindern direkt an der Straße wohnt. Sie erzählte von ihrem Frust, wenn Lastwagen um 6 Uhr früh an ihrem Fenster vorbeifahren. Herr Krüger, der ein Geschäft in der Straße hat, unterbrach sie: „Sie fahren doch selbst jeden Tag mit dem Auto! Sie labern nur.“\n\nHerr Albrecht bat um Ruhe. „Das ist der erste Denkfehler des Abends“, sagte er. „Man greift die Person an statt ihr Argument. Ob Frau Demir Auto fährt, sagt nichts über ihr Argument. Auch wer selbst Auto fährt, labert nicht automatisch Unsinn.“\n\nHerr Krüger versuchte es anders. „Heute will man das Tempo begrenzen, morgen sperrt man die ganze Straße, und am Ende kommt kein Kunde mehr in die Stadt.“ Herr Albrecht widersprach. Hier werde ein kleiner Schritt so dargestellt, als müsse er zwingend zu einer Katastrophe führen. Ohne jede Begründung sei das eine dreiste Behauptung.\n\nDann meldete sich ein älterer Herr. „Mein Vater ist sein Leben lang 50 gefahren und hatte nie einen Unfall.“ Herr Albrecht erklärte, ein einzelnes Beispiel beweise nichts. Über die Sicherheit einer stark befahrenen Straße sagten die Zahlen vieler Jahre mehr als die Erfahrung eines einzigen Fahrers.\n\nSpäter ging es um die Kosten. Die Stadt hatte zuerst 200.000 Euro für eine neue Ampel genannt. Nun lag ein Vorschlag für 80.000 Euro vor, und viele fanden ihn sofort günstig. Herr Albrecht wies darauf hin, dass die erste Zahl wie ein Anker wirke. An diesem Anker messe man alles, was danach kommt. Ob 80.000 Euro viel oder wenig sind, müsse man aber ohne den Anker prüfen. Wer zuerst eine hohe Zahl nennt, damit die zweite günstig wirkt, handle ziemlich dreist.\n\nWeil sich die Debatte schon über zwei Stunden hinzog, wurden einige Gäste ungeduldig. Auch Herr Albrecht spürte ihren Frust. Er erzählte von einem Esel aus einer alten Geschichte, der genau zwischen zwei gleich großen Haufen Heu steht. Weil er sich nicht entscheiden kann, welchen er zuerst fressen soll, verhungert er am Ende. „Wir sollten nicht verhungern wie dieser Esel“, sagte er, „nur weil sich die Diskussion so lange hingezogen hat.“\n\nSchließlich stimmten die Anwohner ab. Eine knappe Mehrheit war für Tempo 30, zunächst als Versuch für ein Jahr. Herr Krüger war nicht glücklich. „Ich bin zutiefst überzeugt, dass das falsch ist“, sagte er. Dann gab er Frau Demir aber die Hand. Frau Demir dagegen war zutiefst erleichtert, dass die Streitigkeit friedlich geendet hatte. Streitigkeiten zwischen Nachbarn, meinte sie, müssten nicht ewig dauern.\n\nFragen:\nWorum ging es bei der Versammlung?\nEs ging darum, ob man das Tempo in der stark befahrenen Lindenstraße auf 30 begrenzen sollte.\nWas war der erste Denkfehler des Abends?\nHerr Krüger griff Frau Demir als Person an, statt ihr Argument zu prüfen.\nWarum beweist das Beispiel des älteren Herrn nichts?\nEin einzelnes Beispiel sagt weniger als die Zahlen vieler Jahre.\nWie wirkte die erste Zahl von 200.000 Euro?\nSie wirkte wie ein Anker, an dem man alle späteren Zahlen misst.\nWie endete die Streitigkeit?\nEine knappe Mehrheit war für Tempo 30, und Herr Krüger gab Frau Demir die Hand."
+    },
+    {
+      "title": "Porträt: Die Frau, die den Zufall einlädt",
+      "summary": "A profile of an invented statistician from Bern: job centre data in Germany, a crisis year, a hospital study on antibiotics, and music at home.",
+      "newWords": [
+        "Berner",
+        "Jobcenter",
+        "Zusammenbruch",
+        "Antibiotikum",
+        "Chirurg",
+        "therapeutisch",
+        "Revue",
+        "komponieren",
+        "Novelle"
+      ],
+      "text": "Regula Aebi empfängt ihre Besucher in einem schmalen Büro mit Blick über die Dächer der Berner Altstadt. Die 54-jährige Statistikerin arbeitet seit 12 Jahren für ein großes Spital in Bern, wie man in der Schweiz ein Krankenhaus nennt. „Man stellt sich unter meinem Beruf etwas Trockenes vor“, sagt sie und lacht. „Dabei geht es bei uns fast immer um Menschen.“\n\nWenn sie ihre Laufbahn Revue passieren lässt, beginnt die Geschichte in der Schule. Ihr Lehrer für Mathematik ließ die Klasse Würfel werfen und die Ergebnisse zählen. „Ich war fasziniert, dass der Zufall im Einzelnen chaotisch ist und im Großen erstaunlich regelmäßig“, erinnert sie sich. Sie studierte Mathematik in Bern und danach Statistik in Deutschland.\n\nIhre erste Stelle fand sie in Nürnberg, an einem Institut, das Daten der Jobcenter untersuchte. Sie wollte verstehen, warum manche Arbeitslose schneller eine neue Stelle finden als andere. Die Daten der Jobcenter zeigten ihr, wie viel hinter einer einzigen Zahl wie der Arbeitslosigkeit steckt. Im Herbst 2008 kam dann der Zusammenbruch einer großen amerikanischen Bank. Nach diesem Zusammenbruch musste ihr Team plötzlich berechnen, wie schnell die Krise den deutschen Arbeitsmarkt treffen würde. „Damals habe ich gelernt, unter Druck sauber zu rechnen“, sagt sie. Wenn sie diese Monate heute Revue passieren lässt, staunt sie, wie ruhig das Team geblieben ist.\n\n2013 kehrte sie in ihre Heimatstadt zurück. Ihr wichtigstes Projekt dort war eine Studie über ein Antibiotikum, das Patienten vor einer Operation bekommen. Viele Chirurgen gaben es damals mehrere Tage lang, aus Vorsicht. Ein erfahrener Chirurg fragte sie, ob eine einzige Dosis nicht genüge. Um das herauszufinden, schlug Regula Aebi vor, den Zufall entscheiden zu lassen: Ein Computer teilte jeden Patienten zufällig einer von zwei Gruppen zu. Die eine Gruppe bekam das Antibiotikum einmal, die andere mehrere Tage lang. „Wenn der Zufall die Gruppen bildet, sind sie im Durchschnitt gleich“, erklärt sie. „Jeder Unterschied am Ende kommt dann von der Behandlung.“\n\nDas Ergebnis: Eine einzige Dosis schützte genauso gut vor Infektionen. Der therapeutische Nutzen der zusätzlichen Tage war gleich null, aber die Patienten hatten mehr Nebenwirkungen. Heute bekommen in ihrem Spital die meisten Patienten nur noch eine Dosis. Dass weniger Antibiotika auch weniger widerstandsfähige Bakterien bedeuten, freut sie besonders. „Ein therapeutischer Erfolg, der aus einer Tabelle kommt“, sagt sie stolz.\n\nIn ihrer Freizeit singt sie in einem Chor. Seit einigen Jahren komponiert sie auch kleine Stücke für ihn. „Komponieren ist gar nicht so weit von der Statistik entfernt“, meint sie. „In beiden Fällen sucht man Muster und Ordnung.“ Abends liest sie gern, am liebsten Novellen des Berner Schriftstellers Jeremias Gotthelf. Eine Novelle, sagt sie, sei wie eine gute Studie: kurz, klar und mit einem einzigen Ereignis im Mittelpunkt.\n\nFragen:\nWo beginnt die Geschichte, wenn Regula Aebi ihre Laufbahn Revue passieren lässt?\nSie beginnt in der Schule, als ihr Lehrer die Klasse Würfel werfen ließ.\nWas untersuchte sie mit den Daten der Jobcenter?\nSie wollte verstehen, warum manche Arbeitslose schneller eine neue Stelle finden als andere.\nWas geschah nach dem Zusammenbruch der Bank im Jahr 2008?\nIhr Team musste berechnen, wie schnell die Krise den deutschen Arbeitsmarkt treffen würde.\nWelche Frage stellte ihr ein Chirurg?\nEr fragte, ob eine einzige Dosis des Antibiotikums nicht genüge.\nWarum ließ sie den Zufall die Gruppen bilden?\nWenn der Zufall die Gruppen bildet, sind sie im Durchschnitt gleich, und jeder Unterschied kommt von der Behandlung.\nWarum liest sie gern Novellen?\nEine Novelle ist für sie wie eine gute Studie: kurz, klar und mit einem einzigen Ereignis im Mittelpunkt."
+    },
+    {
+      "title": "Drei Sekunden pro Kilometer",
+      "summary": "Camping by a lake, a father and daughter count the seconds between lightning and thunder to work out how far away a storm is.",
+      "newWords": [
+        "Donner",
+        "akustisch",
+        "rammen",
+        "schleudern",
+        "betätigen",
+        "Notruf",
+        "Anhaltspunkt"
+      ],
+      "text": "Im August fuhren Thomas und seine 13-jährige Tochter Lena für ein langes Wochenende an einen See im Allgäu. Auf dem Campingplatz bauten sie ihr kleines Zelt direkt am Ufer auf. Der Boden war hart, und Thomas musste die Haken mit einem Stein in die Erde rammen. „Je tiefer du sie rammst, desto besser hält das Zelt bei Wind“, erklärte er Lena, die die nächsten Haken mit viel Eifer selbst in den Boden rammte.\n\nAm Abend zogen über den Bergen dunkle Wolken auf. Bald sah man den ersten Blitz, und nach einer Weile folgte ein dumpfer Donner. Lena wollte wissen, wie weit das Gewitter entfernt war. Thomas lächelte. „Das können wir berechnen. Du musst die Stoppuhr an deinem Handy betätigen, sobald du den nächsten Blitz siehst, und noch einmal, wenn du den Donner hörst.“\n\nBeim nächsten Blitz drückte Lena sofort auf den Knopf. Sie zählten leise mit, bis der Donner kam: 12 Sekunden. Thomas erklärte ihr, warum man daraus die Entfernung bestimmen kann. Blitz und Donner entstehen im selben Moment. Das Licht ist aber so schnell, dass es praktisch ohne Verzögerung bei uns ankommt. Der Donner dagegen ist ein akustisches Signal, also Schall, und Schall ist viel langsamer. In der Luft legt er etwa 343 Meter in der Sekunde zurück, also ungefähr einen Kilometer in 3 Sekunden. 12 Sekunden bedeuten deshalb, dass das Gewitter etwa 4 Kilometer entfernt ist.\n\n„Ist das genau?“, fragte Lena. „Nicht ganz“, antwortete Thomas. „Die Rechnung ist ein Anhaltspunkt, kein exaktes Maß. In warmer Luft ist der Schall etwas schneller als in kalter, und in den Bergen kann ein Echo die akustische Wahrnehmung täuschen. Aber als Anhaltspunkt ist sie sehr nützlich.“\n\nEr erzählte ihr auch von einer einfachen Regel: Wenn zwischen Blitz und Donner weniger als 30 Sekunden liegen, ist das Gewitter näher als 10 Kilometer, und man sollte Schutz suchen. Beim nächsten Blitz waren es nur noch 9 Sekunden. Sie liefen zum Auto, das in der Nähe stand. Ein Auto aus Metall ist bei einem Gewitter ein guter Ort, solange man Türen und Fenster geschlossen hält.\n\nIm Auto hörten sie, wie der Wind den Regen gegen die Scheiben schleuderte. Manche Äste wurden durch die Luft geschleudert. Für alle Fälle erklärte Thomas, dass der Notruf 112 in ganz Europa gilt und dass man ihn auch ohne Guthaben auf dem Handy wählen kann. Den Notruf brauchten sie an diesem Abend zum Glück nicht.\n\nLena betätigte weiter die Stoppuhr. Zuerst waren es nur noch 6 Sekunden, dann 15, dann 24. „Die Zahlen werden größer“, rief sie. „Das Gewitter zieht weg!“ Nach einer halben Stunde war der Himmel wieder klar, und sie gingen zurück zum Zelt. Es stand noch genau an seinem Platz, denn die Haken waren tief genug in den Boden gerammt.\n\nFragen:\nWarum musste Thomas die Haken mit einem Stein in die Erde rammen?\nDer Boden war hart.\nWie maßen Lena und Thomas die Zeit zwischen Blitz und Donner?\nLena betätigte beim Blitz die Stoppuhr an ihrem Handy und beim Donner noch einmal.\nWarum hört man den Donner später, als man den Blitz sieht?\nDer Donner ist ein akustisches Signal, und der Schall ist viel langsamer als das Licht.\nWie weit war das Gewitter bei 12 Sekunden entfernt?\nEs war etwa 4 Kilometer entfernt, weil der Schall ungefähr einen Kilometer in 3 Sekunden zurücklegt.\nWarum ist die Rechnung nur ein Anhaltspunkt?\nIn warmer Luft ist der Schall etwas schneller, und in den Bergen kann ein Echo täuschen.\nWoran erkannte Lena, dass das Gewitter wegzog?\nDie Zahl der Sekunden wurde immer größer."
+    }
+  ]
+}
