@@ -71,6 +71,7 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -85,10 +86,10 @@ import kotlin.random.Random
 
 private val WordKnowledge.label: String
     get() = when (this) {
-        WordKnowledge.KNOWN -> "Known"
-        WordKnowledge.LEARNING -> "Learning"
-        WordKnowledge.IGNORED -> "Ignored"
-        WordKnowledge.NEW -> "New"
+        WordKnowledge.KNOWN -> tr("Known")
+        WordKnowledge.LEARNING -> tr("Learning")
+        WordKnowledge.IGNORED -> tr("Ignored")
+        WordKnowledge.NEW -> tr("New")
     }
 
 /** The colour a status is shown in, on the filter chips and the band bars. */
@@ -112,7 +113,7 @@ fun WordFrequencyScreen(onNavigate: (Route) -> Unit, viewModel: WordFrequencyVie
     CollectEvents(viewModel.events) { toast.show(it) }
     ToastHost(toast)
     Scaffold(
-        topBar = { AppTopBar(title = "Word frequency", onNavigate = onNavigate, section = NavSection.TERMS) },
+        topBar = { AppTopBar(title = tr("Word frequency"), onNavigate = onNavigate, section = NavSection.TERMS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -206,12 +207,12 @@ internal fun WordFrequencyContent(
                 when {
                     overview == null -> item(key = "none") {
                         Notice(
-                            "No frequency list yet",
-                            if (state.languageName.isEmpty()) "Choose a language to learn to see its most common words."
-                            else "There is no word frequency list for ${state.languageName}. Lists come with the languages the app offers to learn.",
+                            tr("No frequency list yet"),
+                            if (state.languageName.isEmpty()) tr("Choose a language to learn to see its most common words.")
+                            else tr("There is no word frequency list for {0}. Lists come with the languages the app offers to learn.", tr(state.languageName)),
                         )
                     }
-                    bands.isEmpty() -> item(key = "empty") { Notice("No words match", "Try another search, or show more kinds of words.") }
+                    bands.isEmpty() -> item(key = "empty") { Notice(tr("No words match"), tr("Try another search, or show more kinds of words.")) }
                     else -> {
                         bands.forEachIndexed { i, band ->
                             item(key = "band-${band.index}") { BandHeader(
@@ -234,7 +235,7 @@ internal fun WordFrequencyContent(
                         }
                         item(key = "credit") {
                             Text(
-                                "Word counts: ${overview.source}. Words are grouped with their forms using Wiktionary data (CC BY-SA 4.0) and the simplemma lemmatizer.",
+                                tr("Word counts: {0}. Words are grouped with their forms using Wiktionary data (CC BY-SA 4.0) and the simplemma lemmatizer.", overview.source),
                                 Modifier.padding(top = 28.dp),
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -285,10 +286,10 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
     val overview = state.overview
     Column(Modifier.fillMaxWidth().padding(bottom = 12.dp), verticalArrangement = Arrangement.spacedBy(18.dp)) {
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text("Word frequency", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+            Text(tr("Word frequency"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
             Text(
-                if (overview == null) "The most common words of a language, from the most used down."
-                else "The ${formatCount(overview.words.size)} most common ${overview.languageName} words, from the most used down. Click a word to save it or change its status.",
+                if (overview == null) tr("The most common words of a language, from the most used down.")
+                else tr("The {0} most common {1} words, from the most used down. Click a word to save it or change its status.", formatCount(overview.words.size), tr(overview.languageName)),
                 style = MaterialTheme.typography.bodyLarge,
                 color = colors.onSurfaceVariant,
             )
@@ -296,13 +297,13 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
         if (overview == null) return@Column
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             Text(
-                if (state.level > 0) "Your vocabulary level: ${formatCount(state.level)}" else "No vocabulary level set yet: use a band's button, or",
+                if (state.level > 0) tr("Your vocabulary level: {0}", formatCount(state.level)) else tr("No vocabulary level set yet: use a band's button, or"),
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
             if (onSettings != null) {
                 Text(
-                    if (state.level > 0) "Change" else "choose one",
+                    if (state.level > 0) tr("Change") else tr("choose one"),
                     Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onSettings).padding(horizontal = 4.dp, vertical = 2.dp),
                     style = MaterialTheme.typography.bodyMedium,
                     fontWeight = FontWeight.SemiBold,
@@ -311,7 +312,7 @@ private fun Header(state: WordFrequencyUiState, onToggle: (WordKnowledge) -> Uni
             }
             if (state.savingLevel) {
                 CircularProgressIndicator(Modifier.size(16.dp), strokeWidth = 2.dp)
-                Text("Saving the level…", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                Text(tr("Saving the level…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
         }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
@@ -352,10 +353,10 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
     val ignored = band.count(WordKnowledge.IGNORED)
     Column(Modifier.fillMaxWidth().padding(top = 28.dp, bottom = 10.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            Text("Ranks ${band.firstRank}–${band.lastRank}", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            Text(tr("Ranks {0}–{1}", band.firstRank, band.lastRank), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
             if (isLevel) {
                 Text(
-                    "Your level",
+                    tr("Your level"),
                     Modifier.clip(RoundedCornerShape(50)).background(colors.primary).padding(horizontal = 10.dp, vertical = 3.dp),
                     style = MaterialTheme.typography.labelMedium,
                     fontWeight = FontWeight.SemiBold,
@@ -372,7 +373,7 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
                 ) {
                     Icon(AppIcons.DoneAll, contentDescription = null, tint = colors.primary, modifier = Modifier.size(16.dp))
                     Text(
-                        if (compact) "Level ${formatCount(levelAbove)}" else "Set level to ${formatCount(levelAbove)}",
+                        if (compact) tr("Level {0}", formatCount(levelAbove)) else tr("Set level to {0}", formatCount(levelAbove)),
                         style = MaterialTheme.typography.labelMedium,
                         color = if (saving) colors.onSurfaceVariant else colors.primary,
                     )
@@ -381,7 +382,7 @@ private fun BandHeader(band: FrequencyBand, isLevel: Boolean, levelAbove: Int, c
             Spacer(Modifier.weight(1f))
             if (!compact) {
                 Text(
-                    listOfNotNull("$known known", "$learning learning".takeIf { learning > 0 }, "$ignored ignored".takeIf { ignored > 0 }).joinToString(" · "),
+                    listOfNotNull(tr("{0} known", known), tr("{0} learning", learning).takeIf { learning > 0 }, tr("{0} ignored", ignored).takeIf { ignored > 0 }).joinToString(" · "),
                     style = MaterialTheme.typography.bodyMedium,
                     color = colors.onSurfaceVariant,
                 )
@@ -420,9 +421,9 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
             tooltip = {
                 RichTooltip(title = { Text("${word.word.word}  ·  #${word.word.rank}") }) {
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        Text(if (looked) translation ?: "No translation found" else "Looking up…", fontWeight = FontWeight.Medium)
+                        Text(if (looked) translation ?: tr("No translation found") else tr("Looking up…"), fontWeight = FontWeight.Medium)
                         val others = word.word.forms.filter { it != word.word.key }.take(8)
-                        if (others.isNotEmpty()) Text("Also: ${others.joinToString(", ")}", style = MaterialTheme.typography.bodySmall)
+                        if (others.isNotEmpty()) Text(tr("Also: {0}", others.joinToString(", ")), style = MaterialTheme.typography.bodySmall)
                         Text(statusLabel(word.status), style = MaterialTheme.typography.bodySmall)
                     }
                 }
@@ -455,10 +456,10 @@ private fun WordCell(word: RankedWord, selected: Boolean, onOpen: (String) -> Un
 }
 
 private fun statusLabel(status: TermStatus): String = when (status) {
-    TermStatus.UNKNOWN -> "Not saved yet"
-    TermStatus.WELL_KNOWN -> "Known"
-    TermStatus.IGNORED -> "Ignored"
-    else -> "Learning, level ${status.value}"
+    TermStatus.UNKNOWN -> tr("Not saved yet")
+    TermStatus.WELL_KNOWN -> tr("Known")
+    TermStatus.IGNORED -> tr("Ignored")
+    else -> tr("Learning, level {0}", status.value)
 }
 
 /** Jumps to a rank: 1, every hundred up to 900, then every thousand. */
@@ -496,7 +497,7 @@ private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modif
             modifier = Modifier.weight(1f).testTag("frequency-search"),
             decorationBox = { inner ->
                 Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text("Find a word", color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1)
+                    if (value.isEmpty()) Text(tr("Find a word"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1)
                     inner()
                 }
             },
