@@ -24,8 +24,7 @@ fun AboutScreen(onNavigate: (Route) -> Unit) {
             ScreenTitle(tr("About"))
             Text("Tayra Languages", style = MaterialTheme.typography.headlineSmall)
             Text(tr("Learn languages by reading. Import texts, click words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)
-            Text(tr("A Kotlin Multiplatform port of Lute (Learning Using Texts), running on Android, iOS, desktop and the web with a shared Compose UI."), style = MaterialTheme.typography.bodyMedium)
-            Text(tr("Language definitions and sample texts come from the Lute language definitions project."), style = MaterialTheme.typography.bodySmall)
+            Text(tr("A reader for learning languages through texts, running on Android, iOS, desktop and the web with a shared Compose UI."), style = MaterialTheme.typography.bodyMedium)
             Text(tr("The offline English-Russian dictionary is built from the Russian and English Wiktionaries via kaikki.org, licensed CC BY-SA 4.0. Example sentences come from Tatoeba, licensed CC BY 2.0 FR. Word frequency lists come from wordfreq by Robyn Speer and from FrequencyWords by Hermit Dave (OpenSubtitles counts), both licensed CC BY-SA 4.0, and from the Leipzig Corpora Collection (Universität Leipzig)."), style = MaterialTheme.typography.bodySmall)
         }
     }

@@ -64,8 +64,8 @@ class RepositoryIntegrationTest {
             Language(
                 name = "English",
                 dictionaries = listOf(
-                    LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://x/[LUTE]"),
-                    LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://y/[LUTE]"),
+                    LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://x/[WORD]"),
+                    LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://y/[WORD]"),
                 ),
             ),
         )

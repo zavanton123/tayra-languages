@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.languages
 
+import com.tayra.languages.core.domain.model.LanguageDictionary
 import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -120,7 +121,7 @@ private fun DictionaryRow(name: String, url: String, tint: Color?, icon: ImageVe
     val colors = MaterialTheme.colorScheme
     val host = url.substringAfter("://").substringBefore("/").removePrefix("www.")
     // Several stored dictionaries can share a host, so the path tells them apart.
-    val path = url.substringAfter("://").substringAfter("/", "").substringBefore("[LUTE]").substringBefore("###").trimEnd('/', '?', '=', '&')
+    val path = url.substringAfter("://").substringAfter("/", "").substringBefore(LanguageDictionary.LOOKUP_PLACEHOLDER).substringBefore("###").trimEnd('/', '?', '=', '&')
     val detail = if (name.equals(host, ignoreCase = true)) path.takeIf { it.isNotBlank() }?.let { "/$it" } else host
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Column(

@@ -3,7 +3,7 @@ package com.tayra.languages.core.domain.model
 import kotlin.time.Instant
 
 /**
- * Learning status of a term. The numeric values match the classic LWT/Lute statuses, except
+ * Learning status of a term. The numeric values match the classic LWT statuses, except
  * that there is no status 5: a word past status 4 is well known.
  */
 enum class TermStatus(val value: Int, val label: String, val abbreviation: String) {

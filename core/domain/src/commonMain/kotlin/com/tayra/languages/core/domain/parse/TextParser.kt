@@ -36,7 +36,7 @@ internal fun applyCharacterSubstitutions(text: String, substitutions: String): S
 }
 
 /**
- * Old Lute (php) word character patterns could contain `\x{0600}`; convert
+ * Word character patterns written for PHP regexes could contain `\x{0600}`; convert
  * these to the `\u0600` form understood by all Kotlin regex engines.
  */
 internal fun normalizeRegexEscapes(pattern: String): String =

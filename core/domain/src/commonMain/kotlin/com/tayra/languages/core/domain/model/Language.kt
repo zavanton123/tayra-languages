@@ -35,8 +35,14 @@ data class LanguageDictionary(
         url.replace(LOOKUP_PLACEHOLDER, encodedText).replace(LEGACY_PLACEHOLDER, encodedText)
 
     companion object {
-        const val LOOKUP_PLACEHOLDER = "[LUTE]"
+        const val LOOKUP_PLACEHOLDER = "[WORD]"
         const val LEGACY_PLACEHOLDER = "###"
+
+        /** A placeholder in square brackets written under another name in older data, such as "[TERM]". */
+        private val OTHER_PLACEHOLDER = Regex("""\[[A-Z]{2,}]""")
+
+        /** The [url] with any older bracketed placeholder written as [LOOKUP_PLACEHOLDER]. */
+        fun currentPlaceholder(url: String): String = url.replace(OTHER_PLACEHOLDER, LOOKUP_PLACEHOLDER)
     }
 }
 

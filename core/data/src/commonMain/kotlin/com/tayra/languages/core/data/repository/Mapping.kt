@@ -33,7 +33,8 @@ internal fun Language_dictionaries.toDomain(): LanguageDictionary = LanguageDict
     id = id,
     useFor = DictionaryUse.fromKey(use_for),
     type = DictionaryType.fromKey(dict_type),
-    url = url,
+    // Stored before the placeholder got its current name, a link still works and shows it.
+    url = LanguageDictionary.currentPlaceholder(url),
     isActive = is_active,
     sortOrder = sort_order.toInt(),
 )
