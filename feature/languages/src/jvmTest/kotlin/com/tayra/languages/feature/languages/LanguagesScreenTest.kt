@@ -27,6 +27,7 @@ import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 /** The Languages page chooses the language being learned, the native language and the interface language. */
 @OptIn(ExperimentalTestApi::class)
@@ -53,9 +54,11 @@ class LanguagesScreenTest {
             ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))
         }
 
+        assertTrue(onAllNodesWithText("Changes saved").fetchSemanticsNodes().isEmpty(), "nothing has changed yet")
         onNodeWithTag("learning-language").performClick()
         onAllNodesWithText("German").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { learningId == 2L }
+        onNodeWithText("Changes saved").assertExists()
 
         onNodeWithTag("native-language").performClick()
         onAllNodesWithText("Russian").onLast().performClick()

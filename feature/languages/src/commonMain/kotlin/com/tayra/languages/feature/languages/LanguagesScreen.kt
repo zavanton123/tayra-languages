@@ -3,6 +3,12 @@ package com.tayra.languages.feature.languages
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableIntStateOf
+import kotlinx.coroutines.delay
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -70,6 +76,8 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     val native = LanguageCatalog.nativeOption(settings.nativeLanguage)
     val ui = LanguageCatalog.interfaceOption(settings.uiLanguage)
     val compact = LocalWindowWidth.current.isCompact
+    // Counts the changes made here, so each one shows "Changes saved" for a moment.
+    var changes by remember { mutableIntStateOf(0) }
     val wide = LocalWindowWidth.current.isExpanded
 
     Scaffold(
@@ -78,7 +86,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     ) { padding ->
         PageColumn(padding) {
             ScreenHeader(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), onBackToSettings = onBack) {
-                if (!compact) SavedNote()
+                if (!compact) SavedNote(changes)
             }
             Column(
                 Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(MaterialTheme.colorScheme.surface)
@@ -94,7 +102,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                             selected = learning?.languages?.firstOrNull { it.first == learning.currentId },
                             name = { tr(it.second) },
                             // Chosen as in the header, which also asks for the vocabulary level of a language new to the reader.
-                            onSelect = { (id, _) -> learning?.onSelect?.invoke(id) },
+                            onSelect = { (id, _) -> learning?.onSelect?.invoke(id); changes++ },
                             modifier = Modifier.testTag("learning-language"),
                             flagName = { it.second },
                         )
@@ -114,7 +122,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                             options = LanguageCatalog.nativeLanguages,
                             selected = native,
                             name = { tr(it.name) },
-                            onSelect = { viewModel.setNativeLanguage(it.code) },
+                            onSelect = { viewModel.setNativeLanguage(it.code); changes++ },
                             modifier = Modifier.testTag("native-language"),
                             flagName = { it.name },
                         )
@@ -127,7 +135,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                             options = LanguageCatalog.interfaceLanguages,
                             selected = ui,
                             name = { it.name },
-                            onSelect = { viewModel.setInterfaceLanguage(it.code) },
+                            onSelect = { viewModel.setInterfaceLanguage(it.code); changes++ },
                             modifier = Modifier.testTag("interface-language"),
                             flagName = { LanguageCatalog.nativeOption(it.code).name },
                         )
@@ -165,18 +173,27 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 HorizontalDivider(Modifier.padding(vertical = 24.dp), color = MaterialTheme.colorScheme.outlineVariant)
                 SetupSummary(learningName, native.name, ui.name, wide)
             }
-            if (compact) SavedNote()
+            if (compact) SavedNote(changes)
         }
     }
 }
 
-/** Settings are saved as soon as they change, which this says in place of a Save button. */
+/** Settings are saved as soon as they change; after each of the [changes] this says so for a few seconds, in place of a Save button. */
 @Composable
-private fun SavedNote() {
-    Row(verticalAlignment = Alignment.CenterVertically) {
-        Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(24.dp))
-        Spacer(Modifier.width(10.dp))
-        Text(tr("Changes saved"), style = MaterialTheme.typography.bodyLarge, color = StatusTints.ok, fontWeight = FontWeight.Medium)
+private fun SavedNote(changes: Int) {
+    var visible by remember { mutableStateOf(false) }
+    LaunchedEffect(changes) {
+        if (changes == 0) return@LaunchedEffect
+        visible = true
+        delay(2_500)
+        visible = false
+    }
+    AnimatedVisibility(visible, enter = fadeIn(), exit = fadeOut()) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(24.dp))
+            Spacer(Modifier.width(10.dp))
+            Text(tr("Changes saved"), style = MaterialTheme.typography.bodyLarge, color = StatusTints.ok, fontWeight = FontWeight.Medium)
+        }
     }
 }
 
