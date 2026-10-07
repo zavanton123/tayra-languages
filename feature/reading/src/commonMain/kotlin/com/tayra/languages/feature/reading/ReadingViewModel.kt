@@ -13,6 +13,8 @@ import com.tayra.languages.core.domain.model.Book
 import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.model.TermStatus
 import com.tayra.languages.core.domain.model.ZWS_STRING
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.domain.render.RenderedPage
 import com.tayra.languages.core.domain.render.TextItem
 import com.tayra.languages.core.domain.repository.BookRepository
@@ -178,7 +180,7 @@ class ReadingViewModel(
         viewModelScope.launch {
             val book = books.getBook(bookId)
             if (book == null) {
-                _state.update { it.copy(loading = false, error = "Book not found") }
+                _state.update { it.copy(loading = false, error = tr("Book not found")) }
                 return@launch
             }
             _state.update { it.copy(lesson = lessonOf(bookId)) }
@@ -212,7 +214,7 @@ class ReadingViewModel(
             prepareSpeech()
         } catch (e: Exception) {
             Logger.e(e) { "Could not load page" }
-            _state.update { it.copy(loading = false, error = e.message ?: "Could not load page") }
+            _state.update { it.copy(loading = false, error = e.message ?: tr("Could not load page")) }
         }
     }
 
@@ -233,7 +235,7 @@ class ReadingViewModel(
             val unknowns = if (markRestAsKnown) BookStatsCalculator.calculate(s.items).distinctUnknowns else 0
             readingService.markPageRead(bookId, s.pageNumber, markRestAsKnown)
             bookStats.markStale(bookId)
-            if (unknowns > 0) events.send(ReadingEvent.Toast("${if (unknowns == 1) "1 word" else "$unknowns words"} marked as known"))
+            if (unknowns > 0) events.send(ReadingEvent.Toast(trPlural(unknowns, "{0} word marked as known", "{0} words marked as known")))
             load(s.pageNumber + thenGoToRelative, trackOpen = true)
         }
     }
@@ -550,9 +552,10 @@ class ReadingViewModel(
     private fun copyText(text: String) {
         viewModelScope.launch {
             events.send(ReadingEvent.CopyText(text))
-            _state.update { it.copy(flash = "Copied to clipboard") }
+            val copied = tr("Copied to clipboard")
+            _state.update { it.copy(flash = copied) }
             delay(1500)
-            _state.update { if (it.flash == "Copied to clipboard") it.copy(flash = null) else it }
+            _state.update { if (it.flash == copied) it.copy(flash = null) else it }
         }
     }
 
@@ -759,7 +762,7 @@ class ReadingViewModel(
         viewModelScope.launch {
             val page = books.getPage(bookId, _state.value.pageNumber) ?: return@launch
             books.addBookmark(page.id, title)
-            _state.update { it.copy(flash = "Bookmark \"$title\" added") }
+            _state.update { it.copy(flash = tr("Bookmark \"{0}\" added", title)) }
             delay(1500)
             _state.update { it.copy(flash = null) }
         }

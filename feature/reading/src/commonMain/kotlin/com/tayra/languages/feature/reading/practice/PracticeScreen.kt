@@ -71,6 +71,7 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
@@ -89,7 +90,7 @@ fun PracticeScreen(
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     DisposableEffect(speaker) { onDispose { speaker.stop() } }
     Scaffold(
-        topBar = { AppTopBar(title = "Practice", onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack) },
+        topBar = { AppTopBar(title = tr("Practice"), onNavigate = onNavigate, section = NavSection.BOOKS, onBack = onBack) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -168,9 +169,9 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
             verticalArrangement = Arrangement.spacedBy(if (compact) 16.dp else 20.dp),
         ) {
             Column {
-                Text("Practice", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                Text(tr("Practice"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                 Text(
-                    "The words you are learning on page ${state.pageNumber}${if (state.bookTitle.isEmpty()) "" else " of ${state.bookTitle}"}.",
+                    if (state.bookTitle.isEmpty()) tr("The words you are learning on page {0}.", state.pageNumber) else tr("The words you are learning on page {0} of {1}.", state.pageNumber, state.bookTitle),
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -196,21 +197,21 @@ private fun ProgressStrip(state: PracticeUiState) {
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(20.dp),
     ) {
-        Text("Question ${state.index + 1} of ${state.exercises.size}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
+        Text(tr("Question {0} of {1}", state.index + 1, state.exercises.size), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
         Box(Modifier.weight(1f).height(10.dp).clip(RoundedCornerShape(5.dp)).background(colors.onSurface.copy(alpha = 0.08f))) {
             Box(Modifier.fillMaxWidth((state.index + 1f) / state.exercises.size).height(10.dp).clip(RoundedCornerShape(5.dp)).background(colors.primary))
         }
-        Text("${state.correct} right", style = MaterialTheme.typography.bodyLarge, color = RIGHT, fontWeight = FontWeight.Medium, softWrap = false)
+        Text(tr("{0} right", state.correct), style = MaterialTheme.typography.bodyLarge, color = RIGHT, fontWeight = FontWeight.Medium, softWrap = false)
     }
 }
 
 private val Exercise.instruction: String
     get() = when (kind) {
-        ExerciseKind.GAP_CHOICE -> "Choose the missing word"
-        ExerciseKind.GAP_TYPED -> "Type the missing word"
-        ExerciseKind.NEW_CONTEXT -> "A new sentence: choose the missing word"
-        ExerciseKind.HEAR_CHOOSE -> if (answer == word) "Listen and choose the word you hear" else "Listen and choose what the word means"
-        ExerciseKind.DICTATION -> if (wholeSentence) "Listen and type the sentence" else "Listen and type the missing word"
+        ExerciseKind.GAP_CHOICE -> tr("Choose the missing word")
+        ExerciseKind.GAP_TYPED -> tr("Type the missing word")
+        ExerciseKind.NEW_CONTEXT -> tr("A new sentence: choose the missing word")
+        ExerciseKind.HEAR_CHOOSE -> if (answer == word) tr("Listen and choose the word you hear") else tr("Listen and choose what the word means")
+        ExerciseKind.DICTATION -> if (wholeSentence) tr("Listen and type the sentence") else tr("Listen and type the missing word")
     }
 
 @Composable
@@ -229,12 +230,12 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
         if (exercise.isListening && actions.onSpeak != null) {
             Row(
                 Modifier.clip(RoundedCornerShape(50)).background(colors.primary.copy(alpha = 0.08f)).border(1.dp, colors.primary.copy(alpha = 0.25f), RoundedCornerShape(50))
-                    .clickable(onClickLabel = "Listen again") { actions.onSpeak.invoke(exercise.spoken!!) }.padding(horizontal = 22.dp, vertical = 12.dp),
+                    .clickable(onClickLabel = tr("Listen again")) { actions.onSpeak.invoke(exercise.spoken!!) }.padding(horizontal = 22.dp, vertical = 12.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(10.dp),
             ) {
                 Icon(AppIcons.VolumeUp, contentDescription = null, tint = colors.primary, modifier = Modifier.size(26.dp))
-                Text("Listen again", style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
+                Text(tr("Listen again"), style = MaterialTheme.typography.bodyLarge, color = colors.primary, fontWeight = FontWeight.Medium)
             }
         }
 
@@ -269,14 +270,14 @@ private fun Question(state: PracticeUiState, exercise: Exercise, actions: Practi
 
         HorizontalDivider(color = colors.outlineVariant)
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-            if (!answered) TextButton(onClick = actions.onSkip) { Text("Show the answer") }
+            if (!answered) TextButton(onClick = actions.onSkip) { Text(tr("Show the answer")) }
             Spacer(Modifier.weight(1f))
             when {
                 answered -> Button(onClick = actions.onNext, shape = RoundedCornerShape(12.dp), modifier = Modifier.height(48.dp)) {
-                    Text(if (state.index + 1 >= state.exercises.size) "See the result" else "Continue", Modifier.padding(horizontal = 14.dp), fontWeight = FontWeight.SemiBold)
+                    Text(if (state.index + 1 >= state.exercises.size) tr("See the result") else tr("Continue"), Modifier.padding(horizontal = 14.dp), fontWeight = FontWeight.SemiBold)
                 }
                 !exercise.isChoice -> Button(onClick = actions.onSubmit, enabled = state.typed.isNotBlank(), shape = RoundedCornerShape(12.dp), modifier = Modifier.height(48.dp)) {
-                    Text("Check", Modifier.padding(horizontal = 14.dp), fontWeight = FontWeight.SemiBold)
+                    Text(tr("Check"), Modifier.padding(horizontal = 14.dp), fontWeight = FontWeight.SemiBold)
                 }
             }
         }
@@ -305,8 +306,8 @@ private fun Choices(state: PracticeUiState, exercise: Exercise, actions: Practic
         ) {
             Text(text, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, color = if (state.answered && tint == null) colors.onSurfaceVariant else colors.onSurface)
             when (tint) {
-                RIGHT -> Icon(Icons.Default.Check, contentDescription = "Right answer", tint = RIGHT, modifier = Modifier.size(22.dp))
-                WRONG -> Icon(Icons.Default.Close, contentDescription = "Your answer", tint = WRONG, modifier = Modifier.size(22.dp))
+                RIGHT -> Icon(Icons.Default.Check, contentDescription = tr("Right answer"), tint = RIGHT, modifier = Modifier.size(22.dp))
+                WRONG -> Icon(Icons.Default.Close, contentDescription = tr("Your answer"), tint = WRONG, modifier = Modifier.size(22.dp))
                 else -> Unit
             }
         }
@@ -334,7 +335,7 @@ private fun TypedAnswer(state: PracticeUiState, exercise: Exercise, actions: Pra
         onValueChange = actions.onTyped,
         readOnly = state.answered,
         singleLine = true,
-        placeholder = { Text(if (exercise.wholeSentence) "Type the sentence" else "Type the word") },
+        placeholder = { Text(if (exercise.wholeSentence) tr("Type the sentence") else tr("Type the word")) },
         textStyle = MaterialTheme.typography.titleMedium.copy(textDirection = if (state.rightToLeft) TextDirection.Rtl else TextDirection.Ltr),
         shape = RoundedCornerShape(12.dp),
         modifier = Modifier.fillMaxWidth().focusRequester(focus).testTag("practice-input"),
@@ -344,9 +345,9 @@ private fun TypedAnswer(state: PracticeUiState, exercise: Exercise, actions: Pra
 @Composable
 private fun Feedback(state: PracticeUiState, exercise: Exercise) {
     val (tint, title) = when (state.result) {
-        PracticeResult.CORRECT -> RIGHT to "Correct"
-        PracticeResult.ALMOST -> ALMOST to "Almost: mind the accents"
-        else -> WRONG to "Not quite"
+        PracticeResult.CORRECT -> RIGHT to tr("Correct")
+        PracticeResult.ALMOST -> ALMOST to tr("Almost: mind the accents")
+        else -> WRONG to tr("Not quite")
     }
     Row(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.35f), RoundedCornerShape(12.dp))
@@ -378,17 +379,17 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
         Box(Modifier.size(64.dp).clip(CircleShape).background(RIGHT.copy(alpha = 0.14f)), contentAlignment = Alignment.Center) {
             Icon(Icons.Default.Check, contentDescription = null, tint = RIGHT, modifier = Modifier.size(34.dp))
         }
-        Text("${state.correct} of $total right", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+        Text(tr("{0} of {1} right", state.correct, total), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
         Text(
-            if (state.missed.isEmpty()) "Every answer was right." else "Words to look at again: ${state.missed.joinToString(", ")}",
+            if (state.missed.isEmpty()) tr("Every answer was right.") else tr("Words to look at again: {0}", state.missed.joinToString(", ")),
             style = MaterialTheme.typography.bodyLarge,
             color = colors.onSurfaceVariant,
             textAlign = TextAlign.Center,
         )
-        Text("Practice does not change the status of your words.", style = MaterialTheme.typography.bodySmall, color = colors.outline, textAlign = TextAlign.Center)
+        Text(tr("Practice does not change the status of your words."), style = MaterialTheme.typography.bodySmall, color = colors.outline, textAlign = TextAlign.Center)
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            OutlinedButton(onClick = actions.onRestart, shape = RoundedCornerShape(12.dp)) { Text("Practice again") }
-            Button(onClick = actions.onBack, shape = RoundedCornerShape(12.dp)) { Text("Back to reading") }
+            OutlinedButton(onClick = actions.onRestart, shape = RoundedCornerShape(12.dp)) { Text(tr("Practice again")) }
+            Button(onClick = actions.onBack, shape = RoundedCornerShape(12.dp)) { Text(tr("Back to reading")) }
         }
     }
 }
@@ -401,13 +402,13 @@ private fun Empty(actions: PracticeActions) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        Text("Nothing to practise on this page", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
+        Text(tr("Nothing to practise on this page"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
         Text(
-            "Practice uses the words you are learning: give some words on the page a status of 1 to 4 first.",
+            tr("Practice uses the words you are learning: give some words on the page a status of 1 to 4 first."),
             style = MaterialTheme.typography.bodyLarge,
             color = colors.onSurfaceVariant,
             textAlign = TextAlign.Center,
         )
-        Button(onClick = actions.onBack, shape = RoundedCornerShape(12.dp)) { Text("Back to reading") }
+        Button(onClick = actions.onBack, shape = RoundedCornerShape(12.dp)) { Text(tr("Back to reading")) }
     }
 }
