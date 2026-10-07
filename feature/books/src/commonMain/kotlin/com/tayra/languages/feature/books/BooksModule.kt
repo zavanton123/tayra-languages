@@ -17,7 +17,7 @@ val booksModule = module {
 
 fun NavGraphBuilder.booksGraph(navController: NavController) {
     val navigate: (Route) -> Unit = { navController.navigate(it) }
-    composable<Route.Home> {
+    composable<Route.Books> {
         BooksScreen(archived = false, onNavigate = navigate)
     }
     composable<Route.ArchivedBooks> {
@@ -28,7 +28,7 @@ fun NavGraphBuilder.booksGraph(navController: NavController) {
             bookId = null,
             onNavigate = navigate,
             onBack = { navController.popBackStack() },
-            onSaved = { id, _ -> navController.navigate(Route.Read(id, 1)) { popUpTo<Route.Home>() } },
+            onSaved = { id, _ -> navController.navigate(Route.Read(id, 1)) { popUpTo<Route.NewBook> { inclusive = true } } },
         )
     }
     composable<Route.EditBook> { entry ->
@@ -51,7 +51,8 @@ fun NavGraphBuilder.booksGraph(navController: NavController) {
             page = route.page,
             onNavigate = navigate,
             onBack = { navController.popBackStack() },
-            onSaved = { page -> navController.navigate(Route.Read(route.bookId, page)) { popUpTo<Route.Home>() } },
+            // The page edited replaces the reader it was opened from.
+            onSaved = { page -> navController.navigate(Route.Read(route.bookId, page)) { popUpTo<Route.Read> { inclusive = true } } },
         )
     }
 }

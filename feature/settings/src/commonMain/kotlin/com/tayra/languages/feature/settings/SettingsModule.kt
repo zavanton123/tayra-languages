@@ -30,7 +30,7 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
             onNavigate = navigate,
             onBack = { navController.popBackStack() },
             // Screens opened before the restore show data that is gone, so the app starts over from the books.
-            onRestored = { navController.navigate(Route.Home) { popUpTo<Route.Home> { inclusive = true } } },
+            onRestored = { navController.navigate(Route.Courses) { popUpTo<Route.Courses> { inclusive = true } } },
         )
     }
     composable<Route.About> { AboutScreen(onNavigate = navigate) }

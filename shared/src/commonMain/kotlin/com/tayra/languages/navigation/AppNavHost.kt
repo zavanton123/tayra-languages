@@ -17,7 +17,7 @@ import com.tayra.languages.feature.terms.termsGraph
 @Composable
 fun AppNavHost() {
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = Route.Home) {
+    NavHost(navController = navController, startDestination = Route.Courses) {
         booksGraph(navController)
         coursesGraph(navController)
         languagesGraph(navController)

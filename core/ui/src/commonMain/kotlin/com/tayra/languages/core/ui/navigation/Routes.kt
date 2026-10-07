@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 /** Type-safe navigation destinations shared by all features. */
 sealed interface Route {
     @Serializable
-    data object Home : Route
+    data object Books : Route
 
     @Serializable
     data object ArchivedBooks : Route

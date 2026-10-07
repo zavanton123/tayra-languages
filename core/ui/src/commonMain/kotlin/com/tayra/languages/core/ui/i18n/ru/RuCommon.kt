@@ -63,7 +63,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Backups" to "Резервные копии",
     "Statistics" to "Статистика",
     "Back" to "Назад",
-    "Go to Home" to "На главную",
+    "Go to Courses" to "К курсам",
     "{0} flashcards due" to "{0} карточка к повторению|{0} карточки к повторению|{0} карточек к повторению",
     "Menu" to "Меню",
 

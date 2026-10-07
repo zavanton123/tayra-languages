@@ -15,11 +15,11 @@ class AppTopBarTest {
     val rule = createComposeRule()
 
     @Test
-    fun theLogoAlwaysShowsTheAppNameAndLeadsHome() {
+    fun theLogoAlwaysShowsTheAppNameAndLeadsToTheCourses() {
         val visited = mutableListOf<Route>()
         rule.setContent { MaterialTheme { AppTopBar(title = "Statistics", onNavigate = { visited += it }, section = NavSection.TERMS) } }
         rule.onNodeWithText("Tayra Languages").performClick()
-        assertEquals(listOf<Route>(Route.Home), visited)
+        assertEquals(listOf<Route>(Route.Courses), visited)
         assertEquals(0, rule.onAllNodesWithText("Statistics").fetchSemanticsNodes().size, "the screen's own title stays out of the wide bar")
     }
 }
