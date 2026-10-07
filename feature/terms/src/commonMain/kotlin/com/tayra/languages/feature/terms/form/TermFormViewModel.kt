@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.terms.form
 
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.domain.flashcards.Flashcard
 import com.tayra.languages.core.domain.flashcards.FlashcardService
 import androidx.lifecycle.ViewModel
@@ -474,7 +475,7 @@ class TermFormViewModel(
     private suspend fun doSave(): Long? {
         val draft = toSave(_state.value.draft)
         if (draft.languageId == 0L) {
-            _state.update { it.copy(error = "Please select a language") }
+            _state.update { it.copy(error = tr("Please select a language")) }
             return null
         }
         _state.update { it.copy(saving = true, error = null) }
@@ -489,10 +490,10 @@ class TermFormViewModel(
             refreshFlashcard(id)
             id
         } catch (e: TermValidationException) {
-            _state.update { it.copy(saving = false, error = e.message, duplicateOf = e.duplicateOf) }
+            _state.update { it.copy(saving = false, error = e.message?.let { message -> tr(message) }, duplicateOf = e.duplicateOf) }
             null
         } catch (e: Exception) {
-            _state.update { it.copy(saving = false, error = e.message ?: "Could not save term") }
+            _state.update { it.copy(saving = false, error = e.message ?: tr("Could not save term")) }
             null
         }
     }

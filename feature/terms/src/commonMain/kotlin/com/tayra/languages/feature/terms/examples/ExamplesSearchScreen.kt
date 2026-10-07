@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.terms.examples
 
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -213,8 +215,8 @@ fun ExamplesSearchScreen(
                 item {
                     Text(
                         when {
-                            state.searching -> "Searching..."
-                            state.total != null -> "${state.total} sentence${if (state.total == 1) "" else "s"}"
+                            state.searching -> tr("Searching...")
+                            state.total != null -> trPlural(state.total!!, "{0} sentence", "{0} sentences")
                             else -> ""
                         },
                         Modifier.padding(top = 16.dp, bottom = 12.dp),
@@ -224,7 +226,7 @@ fun ExamplesSearchScreen(
                 }
                 when {
                     state.searching -> item { LoadingIndicator(Modifier.fillMaxWidth().padding(32.dp)) }
-                    state.results.isEmpty() -> item { EmptyMessage("No examples match these filters.", Modifier.fillMaxWidth()) }
+                    state.results.isEmpty() -> item { EmptyMessage(tr("No examples match these filters."), Modifier.fillMaxWidth()) }
                     else -> {
                         items(state.results) { example ->
                             ExampleCard(
@@ -251,7 +253,7 @@ fun ExamplesSearchScreen(
                             item {
                                 Row(Modifier.fillMaxWidth().padding(16.dp), horizontalArrangement = Arrangement.Center) {
                                     OutlinedButton(onClick = viewModel::loadMore, enabled = !state.loadingMore, shape = RoundedCornerShape(10.dp)) {
-                                        Text(if (state.loadingMore) "Loading..." else "Load more")
+                                        Text(if (state.loadingMore) tr("Loading...") else tr("Load more"))
                                     }
                                 }
                             }
@@ -336,21 +338,21 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
             Box(
                 Modifier.size(40.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(onClick = onBack),
                 contentAlignment = Alignment.Center,
-            ) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", modifier = Modifier.size(20.dp)) }
+            ) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), modifier = Modifier.size(20.dp)) }
             Spacer(Modifier.width(24.dp))
         }
         Column(Modifier.weight(1f)) {
             Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text("Vocabulary", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable { onNavigate(Route.Terms()) })
+                Text(tr("Vocabulary"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.clickable { onNavigate(Route.Terms()) })
                 Text("/", style = MaterialTheme.typography.bodyMedium, color = colors.outline)
-                Text("Examples", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                Text(tr("Examples"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
             Text(
-                "Examples for ‘${query.text}’",
+                tr("Examples for ‘{0}’", query.text),
                 style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold,
             )
-            Text("${query.language.name} → $target", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            Text("${tr(query.language.name)} → ${tr(target)}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
         Row(
             Modifier.clip(RoundedCornerShape(6.dp)).clickable {
@@ -361,9 +363,9 @@ private fun PageHeader(query: ExampleSearchQuery, compact: Boolean, onBack: () -
             horizontalArrangement = Arrangement.spacedBy(6.dp),
         ) {
             Icon(AppIcons.Globe, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(18.dp))
-            if (!compact) Text("Powered by", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            if (!compact) Text(tr("Powered by"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             Text("Tatoeba", style = MaterialTheme.typography.bodyMedium, color = colors.primary, fontWeight = FontWeight.Medium)
-            Icon(AppIcons.OpenInNew, contentDescription = "Open on Tatoeba", tint = colors.primary, modifier = Modifier.size(16.dp))
+            Icon(AppIcons.OpenInNew, contentDescription = tr("Open on Tatoeba"), tint = colors.primary, modifier = Modifier.size(16.dp))
         }
     }
 }
@@ -389,14 +391,14 @@ private fun SearchBar(query: ExampleSearchQuery, viewModel: ExamplesSearchViewMo
                 modifier = Modifier.weight(1f),
                 decorationBox = { inner ->
                     Box(contentAlignment = Alignment.CenterStart) {
-                        if (query.text.isEmpty()) Text("Search sentences", color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge)
+                        if (query.text.isEmpty()) Text(tr("Search sentences"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge)
                         inner()
                     }
                 },
             )
         }
         Button(onClick = onSearch, enabled = query.text.isNotBlank(), shape = RoundedCornerShape(10.dp), modifier = Modifier.height(48.dp)) {
-            Text("Search")
+            Text(tr("Search"))
         }
     }
 }
@@ -413,16 +415,16 @@ private fun FilterRow(query: ExampleSearchQuery, viewModel: ExamplesSearchViewMo
         verticalArrangement = Arrangement.spacedBy(12.dp),
         itemVerticalAlignment = Alignment.Bottom,
     ) {
-        Select("Min words", (listOf<Int?>(null) + WORD_COUNTS), query.minWords, { it?.toString() ?: "Any" }, 110.dp) { v -> viewModel.updateFilters { it.copy(minWords = v) } }
-        Select("Max words", (listOf<Int?>(null) + WORD_COUNTS), query.maxWords, { it?.toString() ?: "Any" }, 110.dp) { v -> viewModel.updateFilters { it.copy(maxWords = v) } }
-        Select("Sort", ExampleSort.entries, query.sort, { it.label }, 170.dp) { v -> viewModel.updateFilters { it.copy(sort = v) } }
-        Select("Per page", PAGE_SIZES, query.limit, { it.toString() }, 110.dp) { v -> viewModel.updateFilters { it.copy(limit = v) } }
-        Select("Has audio", listOf<YesNo?>(null) + YesNo.entries, query.hasAudio, { it?.label ?: "Any" }, 150.dp) { v -> viewModel.updateFilters { it.copy(hasAudio = v) } }
+        Select(tr("Min words"), (listOf<Int?>(null) + WORD_COUNTS), query.minWords, { it?.toString() ?: tr("Any") }, 110.dp) { v -> viewModel.updateFilters { it.copy(minWords = v) } }
+        Select(tr("Max words"), (listOf<Int?>(null) + WORD_COUNTS), query.maxWords, { it?.toString() ?: tr("Any") }, 110.dp) { v -> viewModel.updateFilters { it.copy(maxWords = v) } }
+        Select(tr("Sort"), ExampleSort.entries, query.sort, { tr(it.label) }, 170.dp) { v -> viewModel.updateFilters { it.copy(sort = v) } }
+        Select(tr("Per page"), PAGE_SIZES, query.limit, { it.toString() }, 110.dp) { v -> viewModel.updateFilters { it.copy(limit = v) } }
+        Select(tr("Has audio"), listOf<YesNo?>(null) + YesNo.entries, query.hasAudio, { it?.label?.let { label -> tr(label) } ?: tr("Any") }, 150.dp) { v -> viewModel.updateFilters { it.copy(hasAudio = v) } }
         Spacer(Modifier.weight(1f))
         OutlinedButton(onClick = viewModel::resetFilters, shape = RoundedCornerShape(10.dp), modifier = Modifier.height(44.dp)) {
             Icon(Icons.Default.Refresh, contentDescription = null, modifier = Modifier.size(16.dp))
             Spacer(Modifier.width(8.dp))
-            Text("Reset filters")
+            Text(tr("Reset filters"))
         }
     }
 }
@@ -497,7 +499,7 @@ private fun ExampleCard(
                 onClick = onPlay,
             )
             if (!compact) {
-                ActionButton(icon = AppIcons.ContentCopy, description = "Copy sentence", onClick = { clipboard.setText(AnnotatedString(text.text)) })
+                ActionButton(icon = AppIcons.ContentCopy, description = tr("Copy sentence"), onClick = { clipboard.setText(AnnotatedString(text.text)) })
             }
         }
     }

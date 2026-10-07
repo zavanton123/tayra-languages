@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.terms.form
 
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.i18n.tr
 import kotlin.time.Clock
 import androidx.compose.material3.Switch
 import com.tayra.languages.core.domain.flashcards.CardState
@@ -163,8 +165,8 @@ fun TermFormPanel(
         if (embedded) PanelHeader(language, state.nativeLanguage, onClose)
         state.duplicateOf?.let { duplicate ->
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text("Term \"${duplicate.displayText}\" already exists.", color = MaterialTheme.colorScheme.error)
-                if (onDuplicateClick != null) TextButton(onClick = { onDuplicateClick(duplicate.id) }) { Text("Open") }
+                Text(tr("Term \"{0}\" already exists.", duplicate.displayText), color = MaterialTheme.colorScheme.error)
+                if (onDuplicateClick != null) TextButton(onClick = { onDuplicateClick(duplicate.id) }) { Text(tr("Open")) }
             }
         } ?: ErrorMessage(state.error)
 
@@ -179,7 +181,7 @@ fun TermFormPanel(
         val linksContent: @Composable () -> Unit = {
             if (language != null) {
                 if (language.termDictionaries.isEmpty()) {
-                    Text("No online dictionaries enabled for ${language.name}.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Text(tr("No online dictionaries enabled for {0}.", tr(language.name)), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
                 val source = LanguageOption(LanguageCodes.codeFor(language.name) ?: "en", language.name)
                 val target = LanguageCatalog.nativeOption(state.nativeLanguage)
@@ -192,7 +194,7 @@ fun TermFormPanel(
                     }
                 }
                 if (onManageDictionaries != null) {
-                    OutlineActionButton("Manage dictionaries") { onManageDictionaries(language.id) }
+                    OutlineActionButton(tr("Manage dictionaries")) { onManageDictionaries(language.id) }
                 }
             }
         }
@@ -201,23 +203,23 @@ fun TermFormPanel(
         }
 
         if (embedded) {
-            SectionCard({ TermBadge() }, "Term", tint = MaterialTheme.colorScheme.primary) {
+            SectionCard({ TermBadge() }, tr("Term"), tint = MaterialTheme.colorScheme.primary) {
                 LanguageSelector(state, viewModel)
                 TermField(state, viewModel, direction, focusRequester)
                 if (empty) {
-                    Text("Type a word or phrase to look it up.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Text(tr("Type a word or phrase to look it up."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 } else {
                     TranslationField(state, viewModel, compact = true)
                     StatusSelector(selected = draft.status, onSelect = viewModel::setStatus, large = true)
                 }
             }
             dictionaryBlock()
-            if (language != null && !empty) SectionCard({ BadgeIcon(AppIcons.Link) }, "Dictionaries", tint = null) { linksContent() }
+            if (language != null && !empty) SectionCard({ BadgeIcon(AppIcons.Link) }, tr("Dictionaries"), tint = null) { linksContent() }
             examplesBlock()
         } else {
             // The editor page: what the term is and says on the left, its status and links on the right.
             val links: @Composable (Modifier) -> Unit = { m ->
-                if (language != null && !empty) FormCard(m, AppIcons.Link, "Dictionaries") { linksContent() }
+                if (language != null && !empty) FormCard(m, AppIcons.Link, tr("Dictionaries")) { linksContent() }
             }
             val delete: @Composable (Modifier) -> Unit = { m -> if (!state.isNew) DeleteCard(m, onClick = { confirmDelete = true }) }
             CompositionLocalProvider(LocalPageSections provides true) {
@@ -250,9 +252,9 @@ fun TermFormPanel(
     }
     if (confirmDelete) {
         ConfirmDialog(
-            title = "Delete \"${draft.text.replace("\u200B", "")}\"?",
-            text = "The term and its translation will be removed. This cannot be undone.",
-            confirmLabel = "Delete",
+            title = tr("Delete \"{0}\"?", draft.text.replace("\u200B", "")),
+            text = tr("The term and its translation will be removed. This cannot be undone."),
+            confirmLabel = tr("Delete"),
             destructive = true,
             onConfirm = { viewModel.delete(); confirmDelete = false },
             onDismiss = { confirmDelete = false },
@@ -267,8 +269,8 @@ private fun LanguageSelector(state: TermFormUiState, viewModel: TermFormViewMode
         options = state.languages,
         selected = state.language,
         onSelect = { l -> viewModel.update { it.copy(languageId = l.id) } },
-        label = "Language",
-        optionLabel = { it.name },
+        label = tr("Language"),
+        optionLabel = { tr(it.name) },
         modifier = Modifier.fillMaxWidth(),
     )
 }
@@ -279,7 +281,7 @@ private fun TermField(state: TermFormUiState, viewModel: TermFormViewModel, dire
     OutlinedTextField(
         value = state.draft.text,
         onValueChange = { text -> viewModel.update { it.copy(text = text) } },
-        label = { Text("Term") },
+        label = { Text(tr("Term")) },
         singleLine = true,
         trailingIcon = { SpeakButton(state.draft.text, language?.let { LanguageCodes.codeFor(it.name) }, rememberSpeaker(koinInject(), koinInject())) },
         textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = direction),
@@ -295,7 +297,7 @@ private fun RomanizationField(state: TermFormUiState, viewModel: TermFormViewMod
     OutlinedTextField(
         value = state.draft.romanization,
         onValueChange = { v -> viewModel.update { it.copy(romanization = v) } },
-        label = { Text("Pronunciation") },
+        label = { Text(tr("Pronunciation")) },
         singleLine = true,
         shape = RoundedCornerShape(10.dp),
         modifier = Modifier.fillMaxWidth(),
@@ -307,9 +309,9 @@ private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewMode
     OutlinedTextField(
         value = state.draft.translation,
         onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
-        label = { Text("Translation") },
+        label = { Text(tr("Translation")) },
         supportingText = when {
-            state.lookingUpTranslation -> ({ Text("Looking up translation...") })
+            state.lookingUpTranslation -> ({ Text(tr("Looking up translation...")) })
             hint != null -> ({ Text(hint) })
             else -> null
         },
@@ -340,8 +342,8 @@ private fun ParentField(state: TermFormUiState, viewModel: TermFormViewModel) {
                 viewModel.setParentQuery(v.substringAfterLast(',').trim())
                 open = v.isNotBlank()
             },
-            label = { Text("Parent term (optional)") },
-            placeholder = { Text("None") },
+            label = { Text(tr("Parent term (optional)")) },
+            placeholder = { Text(tr("None")) },
             singleLine = true,
             shape = RoundedCornerShape(10.dp),
             modifier = Modifier.fillMaxWidth(),
@@ -359,7 +361,7 @@ private fun ParentField(state: TermFormUiState, viewModel: TermFormViewModel) {
 @Composable
 private fun InformationCard(modifier: Modifier, state: TermFormUiState, viewModel: TermFormViewModel, direction: TextDirection, focusRequester: FocusRequester) {
     val compact = LocalWindowWidth.current.isCompact
-    FormCard(modifier, null, "Term information", iconText = "Aa") {
+    FormCard(modifier, null, tr("Term information"), iconText = "Aa") {
         LanguageSelector(state, viewModel)
         if (compact || state.language == null) {
             TermField(state, viewModel, direction, focusRequester)
@@ -371,22 +373,22 @@ private fun InformationCard(modifier: Modifier, state: TermFormUiState, viewMode
             }
         }
         RomanizationField(state, viewModel)
-        TranslationField(state, viewModel, hint = "Use a concise meaning or contextual translation.", compact = true)
+        TranslationField(state, viewModel, hint = tr("Use a concise meaning or contextual translation."), compact = true)
     }
 }
 
 @Composable
 private fun StatusCard(modifier: Modifier, state: TermFormUiState, viewModel: TermFormViewModel) {
-    FormCard(modifier, AppIcons.BarChart, "Learning status") {
-        Text("How well do you know this term?", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    FormCard(modifier, AppIcons.BarChart, tr("Learning status")) {
+        Text(tr("How well do you know this term?"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
         StatusSelector(selected = state.draft.status, onSelect = viewModel::setStatus, expanded = true)
         Row(Modifier.fillMaxWidth()) {
-            Text("1 New", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
-            Text("K Known", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text(tr("1 New"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
+            Text(tr("K Known"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
         HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
-        InfoRow("Added", state.createdAt?.let { it.formatDate() } ?: "Not saved yet")
-        InfoRow("Last updated", if (state.saved) "Just now" else if (state.dirty) "Unsaved changes" else "\u2014")
+        InfoRow(tr("Added"), state.createdAt?.let { it.formatDate() } ?: tr("Not saved yet"))
+        InfoRow(tr("Last updated"), if (state.saved) tr("Just now") else if (state.dirty) tr("Unsaved changes") else "\u2014")
     }
 }
 
@@ -395,11 +397,11 @@ private fun StatusCard(modifier: Modifier, state: TermFormUiState, viewModel: Te
 private fun FlashcardCard(modifier: Modifier, state: TermFormUiState, viewModel: TermFormViewModel) {
     if (!state.flashcardsShown || state.isNew) return
     var confirmReset by remember { mutableStateOf(false) }
-    FormCard(modifier, AppIcons.Bookmark, "Flashcard") {
+    FormCard(modifier, AppIcons.Bookmark, tr("Flashcard")) {
         val card = state.flashcard
         if (card == null) {
             Text(
-                "This term has no flashcard. Terms at status 1 to 4 get one.",
+                tr("This term has no flashcard. Terms at status 1 to 4 get one."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -407,38 +409,38 @@ private fun FlashcardCard(modifier: Modifier, state: TermFormUiState, viewModel:
         }
         val schedule = card.schedule
         val stateName = when (schedule.state) {
-            CardState.NEW -> "New"
-            CardState.LEARNING -> "Learning"
-            CardState.REVIEW -> "Review"
-            CardState.RELEARNING -> "Relearning"
+            CardState.NEW -> tr("New card")
+            CardState.LEARNING -> tr("Being learned")
+            CardState.REVIEW -> tr("In review")
+            CardState.RELEARNING -> tr("Being relearned")
         }
-        InfoRow("State", if (card.suspended) "$stateName, suspended" else stateName)
+        InfoRow(tr("State"), if (card.suspended) tr("{0}, suspended", stateName) else stateName)
         InfoRow(
-            "Next review",
+            tr("Next review"),
             when {
-                card.suspended -> "Suspended"
-                schedule.state == CardState.NEW -> "Not shown yet"
-                schedule.due <= Clock.System.now() -> "Due now"
+                card.suspended -> tr("Suspended")
+                schedule.state == CardState.NEW -> tr("Not shown yet")
+                schedule.due <= Clock.System.now() -> tr("Due now")
                 else -> schedule.due.formatDate()
             },
         )
-        if (schedule.state == CardState.REVIEW) InfoRow("Interval", "${schedule.intervalDays} day${if (schedule.intervalDays == 1) "" else "s"}")
-        InfoRow("Answers", if (schedule.lapses > 0) "${schedule.reps}, forgotten ${schedule.lapses} time${if (schedule.lapses == 1) "" else "s"}" else "${schedule.reps}")
+        if (schedule.state == CardState.REVIEW) InfoRow(tr("Interval"), trPlural(schedule.intervalDays, "{0} day", "{0} days"))
+        InfoRow(tr("Answers"), if (schedule.lapses > 0) trPlural(schedule.lapses, "{1}, forgotten {0} time", "{1}, forgotten {0} times", schedule.reps) else "${schedule.reps}")
         HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
-                Text("Suspend flashcard", style = MaterialTheme.typography.bodyLarge)
-                Text("Keep the card but leave it out of reviews.", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(tr("Suspend flashcard"), style = MaterialTheme.typography.bodyLarge)
+                Text(tr("Keep the card but leave it out of reviews."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             Switch(checked = card.suspended, onCheckedChange = viewModel::setFlashcardSuspended)
         }
-        if (schedule.state != CardState.NEW) OutlineActionButton("Reset flashcard progress") { confirmReset = true }
+        if (schedule.state != CardState.NEW) OutlineActionButton(tr("Reset flashcard progress")) { confirmReset = true }
     }
     if (confirmReset) {
         ConfirmDialog(
-            title = "Reset this flashcard?",
-            text = "The card becomes new again and its review schedule is forgotten. The term's status stays as it is.",
-            confirmLabel = "Reset",
+            title = tr("Reset this flashcard?"),
+            text = tr("The card becomes new again and its review schedule is forgotten. The term's status stays as it is."),
+            confirmLabel = tr("Reset"),
             destructive = true,
             onConfirm = { viewModel.restartFlashcard(); confirmReset = false },
             onDismiss = { confirmReset = false },
@@ -457,7 +459,7 @@ private fun DeleteCard(modifier: Modifier, onClick: () -> Unit) {
         horizontalArrangement = Arrangement.spacedBy(14.dp),
     ) {
         Icon(Icons.Default.Delete, contentDescription = null, tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(24.dp))
-        Text("Delete term", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.error, fontWeight = FontWeight.SemiBold)
+        Text(tr("Delete term"), style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.error, fontWeight = FontWeight.SemiBold)
     }
 }
 
@@ -492,7 +494,7 @@ private fun InfoRow(label: String, value: String) {
 
 /** Host name of a dictionary URL, for button labels. */
 val LanguageDictionary.displayName: String
-    get() = url.substringAfter("://").substringBefore("/").removePrefix("www.").ifEmpty { "Dictionary" }
+    get() = url.substringAfter("://").substringBefore("/").removePrefix("www.").ifEmpty { tr("Dictionary") }
 
 /**
  * Status buttons U (unknown), 1–4, W and I. [expanded] stretches them to fill the row; [large] also fills
@@ -535,14 +537,14 @@ private fun PanelHeader(language: Language?, nativeLanguage: String, onClose: ((
         Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(32.dp))
         Spacer(Modifier.size(12.dp))
         Column(Modifier.weight(1f)) {
-            Text("Term details", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
-            if (language != null) Text("${language.name} \u2192 $native", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            Text(tr("Term details"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
+            if (language != null) Text("${tr(language.name)} \u2192 ${tr(native)}", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
         if (onClose != null) {
             Box(
                 Modifier.size(40.dp).clip(RoundedCornerShape(20.dp)).background(colors.surfaceVariant).clickable(onClick = onClose),
                 contentAlignment = Alignment.Center,
-            ) { Icon(Icons.Default.Close, contentDescription = "Close", modifier = Modifier.size(20.dp)) }
+            ) { Icon(Icons.Default.Close, contentDescription = tr("Close"), modifier = Modifier.size(20.dp)) }
         }
     }
 }
@@ -702,12 +704,12 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
             .border(1.dp, colors.primary.copy(alpha = 0.15f), RoundedCornerShape(14.dp)).padding(sectionPadding()),
         verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        SectionTitle(AppIcons.Book, "Dictionary")
+        SectionTitle(AppIcons.Book, tr("Dictionary"))
         Text(
             when (state) {
-                is PackState.Downloading -> "Downloading the ${status.pack.title} dictionary..."
-                is PackState.Failed -> "The download failed: ${state.message}"
-                else -> "The offline ${status.pack.title} dictionary is not downloaded. Get it to see meanings here without a network connection."
+                is PackState.Downloading -> tr("Downloading the {0} dictionary...", packTitle(status))
+                is PackState.Failed -> tr("The download failed: {0}", state.message)
+                else -> tr("The offline {0} dictionary is not downloaded. Get it to see meanings here without a network connection.", packTitle(status))
             },
             style = MaterialTheme.typography.bodyMedium,
             color = if (state is PackState.Failed) colors.error else colors.onSurfaceVariant,
@@ -720,18 +722,21 @@ private fun DictionaryDownloadCard(status: PackStatus, onDownload: () -> Unit) {
             Button(onClick = onDownload, shape = RoundedCornerShape(10.dp)) {
                 Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.size(8.dp))
-                Text(if (state is PackState.Failed) "Try again" else "Download dictionary")
+                Text(if (state is PackState.Failed) tr("Try again") else tr("Download dictionary"))
             }
         }
     }
 }
+
+/** The pack's language pair, "Spanish → English", with the names in the interface language. */
+private fun packTitle(status: PackStatus): String = status.pack.title.split(" \u2192 ").joinToString(" \u2192 ") { tr(it) }
 
 /** Meanings from the offline dictionary; the speaker reads a headword aloud, the plus adds a meaning to the translation. */
 @Composable
 private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, onAdd: (String) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val speaker = rememberSpeaker(koinInject(), koinInject())
-    SectionCard({ DictionaryBadge() }, "Dictionary", count = lookup.entries.size, tint = null, filled = false) {
+    SectionCard({ DictionaryBadge() }, tr("Dictionary"), count = lookup.entries.size, tint = null, filled = false) {
         lookup.entries.forEachIndexed { index, entry ->
             if (index > 0) HorizontalDivider(Modifier.padding(vertical = 6.dp), color = colors.outlineVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.padding(top = 4.dp)) {
@@ -751,7 +756,7 @@ private fun DictionarySection(lookup: DictionaryLookup, languageCode: String?, o
                         }
                     }
                     Spacer(Modifier.size(8.dp))
-                    RoundIconButton(Icons.Default.Add, "Add to translation") { onAdd(gloss) }
+                    RoundIconButton(Icons.Default.Add, tr("Add to translation")) { onAdd(gloss) }
                 }
             }
         }
@@ -794,20 +799,20 @@ private fun ExamplesSection(
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Box(Modifier.weight(1f)) { SectionTitle(AppIcons.Page, "Examples", if (state.loadingExamples) null else total) }
+            Box(Modifier.weight(1f)) { SectionTitle(AppIcons.Page, tr("Examples"), if (state.loadingExamples) null else total) }
             if (canExpand) {
                 IconButton(onClick = { expanded = !expanded }, modifier = Modifier.size(32.dp)) {
                     Icon(
                         if (expanded) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
-                        contentDescription = if (expanded) "Show fewer examples" else "Show all ${state.examples.size} examples",
+                        contentDescription = if (expanded) tr("Show fewer examples") else tr("Show all {0} examples", state.examples.size),
                         tint = colors.primary,
                     )
                 }
             }
         }
         when {
-            state.loadingExamples -> Text("Looking up examples...", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            state.examples.isEmpty() -> Text("No examples found.", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            state.loadingExamples -> Text(tr("Looking up examples..."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            state.examples.isEmpty() -> Text(tr("No examples found."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             else -> {
                 val direction = if (language?.rightToLeft == true) TextDirection.Rtl else TextDirection.Ltr
                 val visible = if (expanded) state.examples else state.examples.take(VISIBLE_EXAMPLES)
@@ -844,7 +849,7 @@ private fun ExamplesSection(
             }
         }
         if (canOpen && (state.examples.isNotEmpty() || state.examplesTotal != null)) {
-            OutlineActionButton(if (state.examplesTotal != null) "View all $total examples" else "View more examples") { onOpenExamples!!.invoke(languageId!!, term) }
+            OutlineActionButton(if (state.examplesTotal != null) tr("View all {0} examples", total) else tr("View more examples")) { onOpenExamples!!.invoke(languageId!!, term) }
         }
     }
 }
