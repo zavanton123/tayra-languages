@@ -1,0 +1,190 @@
+{
+  "id": "en-mini-5200",
+  "rankUpTo": 5200,
+  "level": "C1",
+  "title": "The Science of Cooking",
+  "description": "Ten clear texts on the chemistry and biology behind everyday cooking: bread, browning, onions, mayonnaise, eggs, salt, fermented vegetables, barbecue, tea and the colors of vegetables.",
+  "topic": "Food science in the kitchen",
+  "names": [
+    "Ruth",
+    "Collins",
+    "Marcus",
+    "Louis",
+    "Camille",
+    "Maillard",
+    "Peter",
+    "Ohio",
+    "Istanbul",
+    "Ramadan",
+    "Helen",
+    "Brooks",
+    "Vermont",
+    "Luis",
+    "Garcia",
+    "Thomas",
+    "Reed",
+    "Boston",
+    "Bostonians",
+    "London",
+    "Tuesday",
+    "Nina",
+    "Patel"
+  ],
+  "lessons": [
+    {
+      "title": "Why Bread Rises",
+      "summary": "A retired science teacher explains the biology of bread to the students of her prison baking class.",
+      "newWords": [
+        "wheat",
+        "organism",
+        "clone",
+        "accumulate",
+        "transparent",
+        "educator",
+        "inmate",
+        "voluntary",
+        "theoretical",
+        "knot"
+      ],
+      "text": "Every Tuesday morning, Ruth Collins drives forty minutes to a state prison outside her town, carrying two bags of flour and a small jar of yeast. Ruth is a retired science educator, and for six years she has taught a bread class to the inmates there. The class is voluntary: no one has to come. Even so, there is a waiting list, and the twelve inmates who attend rarely miss a lesson. Because the class is voluntary, Ruth says, everyone in the room wants to learn.\n\n\"What I teach is really biology,\" she explains. \"The bread is just how we eat the results.\"\n\nLike any good educator, she begins with a simple question: why does bread rise? Ruth tells her students that yeast is a living organism, a tiny fungus made of a single cell. When it is mixed with flour and water, the organism feeds on the sugars in the flour. As it feeds, it produces a little alcohol and a gas called carbon dioxide.\n\nYeast also grows quickly. A yeast cell forms a small bud, which separates from it and becomes a new cell. Each new cell is a clone of its parent, an exact copy, and each clone soon begins to feed and to produce gas of its own.\n\nThe gas would simply escape, however, if it were not for the wheat. Wheat flour contains two proteins that, when they get wet and are worked by hand, join together into a strong network called gluten. As the yeast keeps working, the gas begins to accumulate in thousands of tiny pockets inside this network, and the more gas that accumulates, the bigger the dough becomes. In the oven, the gas expands one last time, and the network sets into the soft structure we call bread.\n\nRuth admits that this part is theoretical, and some students find theoretical lessons hard to sit through. So she moves quickly to practice. In one simple test, a student takes a small piece of dough and gently stretches it between his fingers. If the network is strong enough, the dough becomes so thin that it is almost transparent, and light shines through it. If it tears before it turns transparent, it needs more work.\n\nThen come the shapes. Ruth shows the class how to roll a piece of dough into a rope and tie it into a knot. Each knot then grows larger as the gas accumulates inside it.\n\nMarcus, one of the inmates, hopes to work for a baker when he leaves. \"Before this class, bread was just bread,\" he says. \"Now I know there is a whole living world in it.\"\n\nQuestions:\nWho does Ruth Collins teach, and what does she teach them?\nShe teaches inmates at a state prison how to make bread.\nWhat does yeast produce as it feeds on the sugars in flour?\nIt produces a little alcohol and a gas called carbon dioxide.\nWhy is each new yeast cell called a clone?\nIt is called a clone because it is an exact copy of its parent cell.\nWhat job does the wheat do in bread?\nIts proteins form a strong network, and the gas accumulates in tiny pockets inside it.\nHow can a student test whether the dough is ready?\nHe stretches a small piece until it is almost transparent; if it tears first, it needs more work."
+    },
+    {
+      "title": "Two Kinds of Brown",
+      "summary": "An article explains caramelization and the Maillard reaction, and how cooks use them.",
+      "newWords": [
+        "overlap",
+        "composite",
+        "formally",
+        "notably",
+        "emphasize",
+        "crude",
+        "aluminum",
+        "leverage"
+      ],
+      "text": "Toast, roasted coffee, the outside of a steak, the golden top of a cake: many of the foods we love most are brown. That color is the visible sign of chemistry, and in most kitchens two different processes produce it. They are often confused, but they are not the same thing.\n\nThe first is caramelization. When plain sugar is heated on its own to about 320 degrees Fahrenheit, it melts and its molecules begin to break apart. The pieces react with one another and form hundreds of new compounds. The flavor of caramel is a composite of all these compounds rather than any single one. That is why caramel tastes so much richer than sugar: sugar is one molecule, while caramel is a crowd.\n\nThe second process was formally described in 1912 by a French scientist, Louis Camille Maillard, and today it carries his name: the Maillard reaction. Cooks had used it for centuries before anyone formally named it. Unlike caramelization, it needs two partners: a sugar and a protein. When the two are heated together, they form a different family of compounds, which give us the smell of fresh bread, grilled meat and roasted coffee. This flavor is another composite, notably more complex than that of caramel. Notably, too, the Maillard reaction starts at a much lower temperature. That is why bread turns brown in an oven where sugar alone would stay white.\n\nIn real cooking, the two processes often overlap. When onions cook slowly, for example, some of their sugars break apart on their own while others react with proteins, so the two kinds of flavor overlap in the pan.\n\nFood scientists like to emphasize three points. The first is that water is the enemy of browning. Water cannot get hotter than 212 degrees, so a wet surface stays too cool for either reaction, which is why cooks dry meat before it goes into the pan. The second is crowding: a crowded pan fills with steam, and the food boils instead of browning. The third point they emphasize is that more heat is not always better. Past a certain point, browning turns into burning, and pleasant flavors become bitter.\n\nThe pan matters, too. A light aluminum pan lets you see the color of a sauce as it changes, while a dark pan hides it, and aluminum heats quickly and well.\n\nA crude summary of all this would be \"brown means flavor,\" and although it is crude, it is mostly true. Good cooks leverage this knowledge every day. They leverage the Maillard reaction when they brown a steak in a hot pan, and caramelization when they make caramel. In both cases, the color is the cook's best guide.\n\nQuestions:\nWhat happens when plain sugar is heated to about 320 degrees?\nIt melts, its molecules break apart, and the pieces form hundreds of new compounds.\nWhy does caramel taste richer than sugar?\nIts flavor is a composite of many compounds, while sugar is just one molecule.\nHow is the Maillard reaction different from caramelization?\nIt needs both a sugar and a protein, and it starts at a much lower temperature.\nWhy do cooks dry meat before they cook it?\nA wet surface stays too cool to brown, because water cannot get hotter than 212 degrees.\nWhat crude summary does the article give?\nIt says that brown means flavor, which is crude but mostly true."
+    },
+    {
+      "title": "Why Onions Make Us Cry",
+      "summary": "A writer whose family laughs at her onion tears finds out what really happens and how to stop it.",
+      "newWords": [
+        "tease",
+        "pity",
+        "reckon",
+        "interpret",
+        "messenger",
+        "specially",
+        "upside",
+        "privately"
+      ],
+      "text": "My family has always teased me about onions. Every time I cut one, my eyes fill with tears within a minute, and someone in the kitchen asks, with false pity, whether I am watching a sad movie. Last winter, I decided to find out what was actually happening to me.\n\nThe answer, it turns out, is a small chemical defense. An onion is a living plant, and it protects itself from animals that want to eat it. While the onion is whole, its cells keep certain chemicals apart. When a knife breaks the cells open, these chemicals mix. An enzyme, a protein that speeds up chemical reactions, turns one of them into a gas that contains sulfur. The gas rises from the cutting board and reaches the surface of your eyes.\n\nThe nerves in your eyes act as messengers. When the gas touches them, these messengers carry a signal to the brain, and the brain interprets the signal as pain, as if something harmful had entered the eye. Your eyes respond the only way they can: they produce tears to wash the gas away. In other words, your brain is simply interpreting a chemical as a threat, and your eyes are cleaning themselves.\n\nOnce I understood this, the old kitchen advice began to make sense. My grandmother used to put onions in the fridge before she cut them, and I now know why: cold slows down the enzyme, so less gas is produced. A sharp knife also helps, because it cuts through the cells instead of crushing them, and fewer broken cells mean fewer messengers sent to the brain. Some cooks reckon that it helps to cut the root end last, since the root holds many of these chemicals. I reckon they are right, because it works for me.\n\nThere are even specially designed glasses for cutting onions. They are specially shaped to close around the eyes, so the gas cannot reach them. I bought a pair, and privately I have to admit that they work very well. Privately, I can live with looking silly; in front of my brother, I cannot, so I wear them only when I am alone.\n\nThere is an upside to all this, too. The same sulfur compounds that make us cry are part of what gives a raw onion its sharp, strong flavor. When onions are cooked, these compounds change, and the onion becomes mild and sweet. So the upside of the tears is the flavor.\n\nMy family still teases me, but now I have an answer for them. I am not sad, I tell them. My brain is just doing its job.\n\nQuestions:\nHow does the writer's family react when she cuts onions?\nThey tease her and ask, with false pity, whether she is watching a sad movie.\nWhat happens when a knife breaks the cells of an onion?\nThe chemicals mix, and an enzyme turns one of them into a gas that contains sulfur.\nHow do the nerves in the eye act as messengers?\nThey carry a signal to the brain, and the brain interprets it as pain.\nWhy does it help to put onions in the fridge?\nThe cold slows down the enzyme, so less gas is produced.\nWhat is the upside of the chemicals that make us cry?\nThey give raw onion its strong flavor, and cooking turns them mild and sweet."
+    },
+    {
+      "title": "Dear Madam: My Mayonnaise Failed",
+      "summary": "A reader asks a food columnist why his homemade mayonnaise keeps failing, and she explains the chemistry.",
+      "newWords": [
+        "madam",
+        "cooperate",
+        "necessity",
+        "regain",
+        "herb",
+        "trademark",
+        "proclaim",
+        "vegan",
+        "minus"
+      ],
+      "text": "Dear Madam,\n\nLast weekend I tried to make mayonnaise at home for the first time. I put an egg yolk, lemon juice and salt in a bowl, poured in a cup of oil and beat it. Instead of a thick white sauce, I got a yellow liquid with oil floating on top. The jar I buy at the store proclaims on its label that it contains only oil, eggs and lemon. So why can I not make it myself? Thank you, Madam, for any advice.\n\nPeter, Ohio\n\nDear Peter,\n\nYou are not alone: almost everyone fails at least once, and the reason is simple chemistry.\n\nMayonnaise is a mixture of two liquids that normally refuse to mix. Oil and water simply will not cooperate. If you shake them together, the oil breaks into drops for a moment, but the drops soon join again. To make them cooperate, you need a third ingredient whose molecules can hold on to both. In mayonnaise, that ingredient is the egg yolk. Some of its molecules have one end that is attracted to water and another end that is attracted to oil. They surround each tiny drop of oil and keep it apart from the others. Millions of these crowded drops are what make the sauce thick.\n\nThe problem is that the yolk needs time. If you add the oil all at once, there are too many drops for the yolk to surround, and they join together again. Patience, in this case, is not just a virtue but a necessity. Add the first part of the oil one drop at a time, beating all the while, until the sauce grows thick. After that, you can pour in the rest in a thin, steady stream.\n\nYour sauce can still be saved. Put a fresh yolk in a clean bowl, then add the failed sauce to it very slowly, as if it were the oil. The new yolk will surround the drops, and the sauce will regain its smooth texture. Even a badly failed sauce can regain its body in two minutes this way.\n\nAs for the jar from the store, its label proclaims the truth; the factory simply uses powerful machines. The brand name is a trademark, but no trademark can own the way oil and egg behave.\n\nLater, try adding fresh herbs: an herb mayonnaise is wonderful with fish. And if you have vegan friends, you can make a vegan version, too: it is mayonnaise minus the egg. Instead of the yolk, use a little soy milk, whose proteins can also hold the drops apart. Minus the egg, the sauce is lighter, but it works in the same way.\n\nQuestions:\nWhat went wrong when Peter made mayonnaise?\nHe got a yellow liquid with oil floating on top instead of a thick white sauce.\nWhy do oil and water need a third ingredient?\nThey will not cooperate on their own, so they need something whose molecules hold on to both.\nWhy is patience a necessity when making mayonnaise?\nThe yolk needs time to surround the drops, so the oil must be added slowly at first.\nHow can Peter save his failed sauce?\nHe can add it slowly to a fresh yolk, and the sauce will regain its smooth texture.\nHow can a vegan version be made?\nIt is made minus the egg, with soy milk, whose proteins also hold the drops apart."
+    },
+    {
+      "title": "An Egg Diary",
+      "summary": "A food science student keeps a diary of her experiment to find out how heat changes an egg.",
+      "newWords": [
+        "undergraduate",
+        "textbook",
+        "digit",
+        "delicate",
+        "allocate",
+        "predecessor",
+        "kitty",
+        "corridor"
+      ],
+      "text": "Day 1\n\nThis semester, every undergraduate in our food science course has to run a small experiment of their own. Mine asks how best to cook an egg, and why. Our professor told us to allocate three weeks to the project, and I will allocate two hours every afternoon to it. The lab is at the end of a long corridor in the chemistry building, and this morning I walked down that corridor with four dozen eggs. They were paid for from a kitty: six of us each put ten dollars into the kitty at the start of the semester to buy supplies.\n\nDay 2\n\nToday I read our textbook. Egg white and yolk, it explains, are made mostly of water and protein. In a raw egg, each protein is folded into a small ball. Heat makes the proteins unfold, and once they unfold, they begin to bond with one another, forming a network that traps the water. That is when the egg sets. Some proteins in the white begin to set at about 145 degrees Fahrenheit, but the white is not fully firm until about 180. The yolk grows thick at about 150 and firm at about 160. A perfect egg, then, is a matter of temperature more than of time.\n\nDay 3\n\nI tested the textbook, placing eggs in water baths at different temperatures, each controlled by a machine with a small screen. The screen shows three digits, and I learned to watch the last digit closely, because a change of just a few degrees made a clear difference. At 145 degrees, after an hour, the white was soft and delicate, and the yolk was still liquid. At 150, the yolk had become thick, like honey. At 160, it was firm.\n\nDay 4\n\nToday I boiled eggs the ordinary way. After fifteen minutes in boiling water, the delicate white had turned hard, and there was a gray-green ring around the yolk. My textbook explains the ring: when an egg cooks for too long, iron from the yolk reacts with sulfur from the white. The ring is safe to eat, but it is a sign of too much heat.\n\nDay 5\n\nI found the report of my predecessor, who studied eggs in this lab two years ago. My predecessor found that eggs a week or two old peel more easily than very fresh ones. As an egg gets older, the chemistry of the white slowly changes, and it sticks less to the thin skin inside the shell.\n\nDay 6\n\nMy conclusion is this: for a soft egg, keep the heat gentle; for a hard egg, cook it just long enough, then cool it in ice water to stop the cooking. Tonight we spent the last of the kitty on pizza.\n\nQuestions:\nWhat does every undergraduate in the course have to do?\nEvery undergraduate has to run a small experiment.\nWhere did the money for the eggs come from?\nIt came from a kitty that six students paid into at the start of the semester.\nAccording to the textbook, what happens to egg proteins when they are heated?\nThey unfold and bond with one another, forming a network that traps water.\nWhy did the student watch the last digit on the screen so closely?\nA change of just a few degrees made a clear difference to the egg.\nWhat did her predecessor find out about peeling eggs?\nShe found that eggs a week or two old peel more easily than very fresh ones."
+    },
+    {
+      "title": "Salt and Flavor",
+      "summary": "A writer remembers a fish baked in salt and explains what salt does to flavor, food and health.",
+      "newWords": [
+        "intake",
+        "preservation",
+        "bury",
+        "salmon",
+        "favourable",
+        "pathway",
+        "foreigner",
+        "mosque",
+        "spine"
+      ],
+      "text": "When I was twenty-four, I spent a year teaching English in Istanbul. As a foreigner, I understood very little at first, least of all the food. What I remember best from that year is a dinner at the small mosque on my street. During the month of Ramadan, the families nearby shared a meal there every evening, and as a foreigner living alone, I was always invited.\n\nOne evening, the woman who cooked for the mosque showed me how to bury a whole fish in salt. She mixed a large bowl of salt with a little egg white, packed it around the fish until it was completely buried, and cooked it in a hot oven. When she broke open the hard white shell, the fish inside was tender and perfectly seasoned. Lifting out its spine in one clean piece, she placed the fish on my plate. It was not too salty at all. How could a fish buried in a mountain of salt taste less salty than one I had seasoned myself?\n\nThe answer, I later learned, is that the salt shell does two jobs. It traps the steam, so the fish cooks gently in its own juices, and it lets very little salt pass through the skin. Today I bury a salmon in salt at home in the same way. A whole salmon works well, because its skin protects it, and every time I lift out its spine, I think of that evening at the mosque.\n\nSalt does much more than make food salty. We sense it through special receptors on the tongue, and each basic taste reaches the brain along its own pathway. But salt also changes the other tastes. In small amounts, it reduces bitter tastes, and because bitter tastes hide other flavors, sweet flavors seem stronger. Scientists are still studying the exact pathway, but cooks know the result: a little salt makes a tomato taste more like a tomato.\n\nFor most of human history, salt mattered even more for preservation than for flavor. Bacteria need water to grow, and salt pulls water out of food and out of the bacteria themselves. Salted fish, salted meat and ham could last for months. Before there were fridges, this kind of preservation kept whole towns alive through the winter. Salt can also create favorable conditions for the helpful bacteria that make some foods sour, while making conditions far less favorable for harmful ones.\n\nDoctors advise adults to keep their daily salt intake below about one teaspoon, and most of us eat more than that. Yet most of our salt intake does not come from cooking at home. It comes from bread, soups, sauces and other ready-made foods. A careful cook often uses less salt than a factory does.\n\nQuestions:\nWhy was the writer invited to the evening meals at the mosque?\nAs a foreigner living alone, the writer was always invited during Ramadan.\nHow did the cook prepare the whole fish?\nShe buried it in salt mixed with a little egg white and cooked it in the oven.\nWhy was the fish not too salty?\nThe salt shell trapped the steam and let very little salt pass through the skin.\nHow does salt change other tastes?\nIt reduces bitter tastes, so sweet flavors seem stronger.\nWhy was salt so important for preservation?\nIt pulls water out of food and bacteria, and bacteria need water to grow."
+    },
+    {
+      "title": "A Safe Jar of Sour Vegetables",
+      "summary": "A retired school superintendent teaches a library class how to ferment vegetables at home safely.",
+      "newWords": [
+        "battlefield",
+        "clearance",
+        "purse",
+        "superintendent",
+        "operative",
+        "grape",
+        "shipment",
+        "reservoir",
+        "vinyl"
+      ],
+      "text": "For thirty years, Helen Brooks ran the schools of a small district in Vermont. Since she retired as superintendent, her kitchen has been busier than ever, its shelves full of glass jars of carrots and peppers slowly turning sour. The former superintendent now teaches a class at the town library, and the first thing she tells her students is that fermenting vegetables at home is safe, as long as you follow a few simple rules.\n\n\"Think of the jar as a battlefield,\" she says. Raw vegetables carry many tiny organisms on their surface, some helpful and some harmful. When the vegetables are covered with salt water, a battle begins. The helpful bacteria can live without oxygen and can stand salt. Most harmful organisms cannot. As the helpful bacteria feed on the sugars in the vegetables, they produce acid, and the acid makes the battlefield even less friendly to their enemies.\n\nHelen's first rule is about salt. She uses about two percent salt by weight, which she measures on a kitchen scale. Her second rule is to keep the vegetables under the liquid. \"The operative word is under,\" she tells her students. Anything above the water is exposed to air, and air is where mold grows. Her third rule is to leave clearance at the top of the jar. The bacteria produce gas, and the liquid rises, so she leaves an inch of clearance below the top and opens the jar briefly once a day to let the gas out.\n\nShe also explains what to watch for. Bubbles and a pleasant sour smell are normal. A thin white film on the surface is usually safe and can be removed with a spoon. But colored mold, a very soft texture or a bad smell mean that the jar must be thrown away.\n\nA few small habits come from long practice. She adds a fresh grape leaf to each jar of cucumbers, because grape leaves contain natural compounds that help keep vegetables firm. When she packs hot chili peppers, she wears vinyl gloves, and she asks her students to wear vinyl gloves, too. She keeps a jar of liquid from an old batch as a reservoir of helpful bacteria, and adds a little from that reservoir to each new jar. Every spring, a shipment of new jars arrives, and she gives most of that shipment to her students. She never uses aluminum or other metal containers, since the acid can react with them.\n\nAt the end of each class, the students taste her carrots. Most of them purse their lips at the first sour bite, and then, still pursing their lips, reach for another.\n\nQuestions:\nWhat did Helen Brooks do before she retired?\nShe was the superintendent of the schools in a small district in Vermont.\nWhy does she call the jar a battlefield?\nHelpful and harmful organisms fight in it, and the helpful bacteria win by producing acid.\nWhat is the operative word in her second rule, and why?\nThe operative word is under, because mold grows on anything that is exposed to air.\nWhy does she leave clearance at the top of the jar?\nThe bacteria produce gas and the liquid rises, so the jar needs space below the lid.\nWhat does she keep as a reservoir of helpful bacteria?\nShe keeps a jar of liquid from an old batch and adds a little of it to each new jar."
+    },
+    {
+      "title": "Low and Slow",
+      "summary": "In an interview, a barbecue cook explains how smoke and slow heat turn tough meat tender.",
+      "newWords": [
+        "barbecue",
+        "roar",
+        "junction",
+        "canyon",
+        "patron",
+        "shaft",
+        "instrumental",
+        "renaissance"
+      ],
+      "text": "Luis Garcia runs a barbecue restaurant at the junction of two highways in west Texas, a few miles from a deep red canyon. Tourists stop on their way to the canyon, and trucks stop at the junction all day long. We asked him our questions early in the morning, while his first fire was burning.\n\nYou start very early. Why?\n\nBecause good barbecue takes time. The beef we serve at noon went into the smoker at three in the morning. The cuts we use, mostly from the chest and shoulder of the animal, are tough. They are full of a strong tissue that holds the muscle together. If you cook them fast, that tissue stays hard, and the meat is as tough as an old shoe. If you cook them slowly, at around 225 degrees, for many hours, the tissue slowly melts into a soft gel. That is what makes the meat tender and keeps it juicy.\n\nWhat about the fire itself?\n\nPeople think barbecue means a big fire, but a fire that roars is a fire that is too hot. When I hear the fire roar, I let in less air. You want a small, clean fire that burns quietly. Look at the smoke early in the morning, when a shaft of sunlight falls across the yard. Good smoke is thin and almost blue in that shaft of light. Thick white smoke has bitter compounds in it, and it makes the meat taste bitter too.\n\nIs there anything about the cooking that surprises people?\n\nThe stall. After a few hours, the meat stops getting hotter, sometimes for hours. What is happening is simple: water is leaving the surface of the meat, and that cools it, just as sweat cools your skin. Some cooks wrap the meat in paper to get past the stall. I usually just wait.\n\nWho taught you all this?\n\nMy grandfather. He was instrumental in shaping the way I cook, and he was also instrumental in starting this restaurant. He built the first smoker himself, out of an old oil tank.\n\nMany people say barbecue is having a renaissance. Do you agree?\n\nYes. When I was young, barbecue was something you ate on a highway, not something people wrote about. Now there is a real renaissance. Young cooks are reading about the chemistry and testing different woods. That renaissance is good for everyone.\n\nWhat do your patrons ask you most often?\n\nOur patrons always ask about the pink ring just under the surface, because they think it means the meat is raw. In fact, it is a reaction between gases in the smoke and the proteins near the surface. It is a sign of good, slow smoke, not of raw meat.\n\nQuestions:\nWhere is Luis Garcia's restaurant?\nIt is at the junction of two highways in west Texas, a few miles from a canyon.\nWhy does he cook tough cuts of meat slowly?\nSlow heat melts the strong tissue inside the meat into a soft gel, which makes it tender.\nWhat does it mean when the fire begins to roar?\nIt means the fire is too hot, so he lets in less air.\nWhat does good smoke look like in a shaft of sunlight?\nIt looks thin and almost blue.\nWhat causes the pink ring that patrons ask about?\nIt is a reaction between gases in the smoke and the proteins near the surface of the meat."
+    },
+    {
+      "title": "The Night Porter's Tea",
+      "summary": "A hotel night porter in Boston explains the history and the chemistry of a good cup of tea.",
+      "newWords": [
+        "porter",
+        "beverage",
+        "boycott",
+        "precision",
+        "directory",
+        "sew",
+        "triangle",
+        "secretly"
+      ],
+      "text": "Thomas Reed has been the night porter at a small old hotel in Boston for twenty years. During the day, a porter carries bags and calls taxis, but at night the hotel is quiet, and Thomas has found another job for himself. Guests who cannot sleep come down to the front desk, and he makes them tea. The hotel's guest directory now lists \"Tea with the night porter\" among its services. Thomas is proud that a line in the directory carries his name.\n\nTea is the most popular beverage in the world after water, Thomas likes to say, and Boston has a special history with that beverage. More than 250 years ago, many people in the city refused to buy tea because of a tax that the government in London had placed on it. The boycott grew, and in 1773 a group of men threw a whole shipment of tea into the harbor. Thomas tells this story to almost every guest. \"The boycott was about money and freedom,\" he says, \"not about the taste. Plenty of Bostonians still drink tea today.\"\n\nWhat Thomas really cares about, though, is chemistry, and he makes tea with precision. Tea leaves contain hundreds of compounds, and hot water pulls them out at different speeds. The pleasant flavors and the smell come out first. A group of compounds called tannins comes out more slowly, and too much of them makes tea bitter and dry in the mouth. So timing matters. Thomas steeps black tea for three to four minutes in water that has just boiled, and green tea for only two or three minutes in water well below boiling, at about 175 degrees. Green tea leaves are more delicate, and boiling water burns their flavor.\n\nHe measures the water temperature with the same precision. \"A few degrees can change everything,\" he says.\n\nHe also likes to tell guests where tea bags came from. According to a popular story, a tea merchant in New York in 1908 sent samples to his customers in small silk bags that had been sewn by hand. The customers did not open the bags; they simply put them in hot water. Soon, factories began to sew bags in large numbers. Today, some of the best tea bags are shaped like a triangle, which gives the leaves more space to move and open in the water.\n\nWith the tea, Thomas serves a few small sandwiches, each cut into a small triangle. He admits one thing only to his favorite guests: he secretly keeps a better tea in a drawer behind the desk, a gift from his daughter, and he secretly saves it for the guests who stay up the latest.\n\nQuestions:\nWhat does Thomas Reed do at night?\nHe makes tea for the guests who cannot sleep.\nHow does the hotel's directory show his work?\nThe directory lists \"Tea with the night porter\" among the hotel's services.\nWhat happened during the tea boycott in Boston?\nPeople refused to buy tea because of a tax, and in 1773 a group of men threw a shipment of tea into the harbor.\nWhy does Thomas steep tea with such precision?\nTannins come out slowly, and if the tea steeps too long, they make it bitter.\nWhy are some tea bags shaped like a triangle?\nThe triangle shape gives the leaves more space to move and open in the water."
+    },
+    {
+      "title": "Green, Red and Bright",
+      "summary": "A young cook prepares for a television audition by learning why vegetables change color.",
+      "newWords": [
+        "audition",
+        "spear",
+        "skinny",
+        "ruby",
+        "creativity",
+        "disguise",
+        "neat",
+        "splash"
+      ],
+      "text": "Nina Patel had two weeks to prepare for the biggest day of her life: an audition for a television cooking competition. At the audition, each cook would have thirty minutes to make one plate of vegetables for three judges. Nina knew the judges valued creativity, but she also knew that creativity is not enough. A plate of gray, soft vegetables would end her chances, however creative it was. So before she thought about creativity, she decided to learn the science.\n\nShe started with green vegetables. On her first try, she cooked a bunch of asparagus with the lid on the pot and a splash of lemon juice in the water. After eight minutes, the bright green spears had turned a dull olive color. The green color comes from a substance in the plant that is easily damaged by heat and acid. When vegetables cook in a closed pot, acids from the plant collect in the water, and the lemon adds even more. The green substance changes its structure, and the color fades to olive.\n\nNext, Nina cooked the next bunch in a large pot of boiling salted water with no lid, so the acids could escape with the steam. She took the spears out after two or three minutes and put them straight into ice water, which stopped the cooking at once. They stayed bright green. She also learned to sort the spears by size, because skinny spears cook faster than thick ones. In the end, she chose only skinny spears for the competition, since they cooked evenly and looked elegant.\n\nThe lemon was still useful, she found, but only at the end. A splash of lemon just before serving made the flavor brighter without damaging the color.\n\nNext, Nina studied beets. Their deep ruby color comes from a different kind of substance, one that dissolves easily in water. When she boiled them, much of the ruby color ran out into the water. When she roasted them whole in their skins, the color stayed inside, and the flavor became sweeter, thanks to a little caramelization.\n\nNina did not want to disguise her vegetables under heavy sauces. \"A good sauce should not disguise the vegetables,\" she told her mother. \"It should help them taste more like themselves.\" She chose a light herb oil instead.\n\nOn the day of the audition, she worked calmly. She arranged the green spears and the ruby beets in neat lines on a white plate, added a few drops of herb oil and finished with a splash of lemon. The plate looked simple and neat. One judge called it the brightest plate of the day. A week later, Nina learned that she had passed the audition.\n\nQuestions:\nWhat did Nina have to do at the audition?\nShe had to make one plate of vegetables for three judges in thirty minutes.\nWhy did her first asparagus spears turn olive?\nHeat and acid from the plant and the lemon damaged the green substance in the closed pot.\nHow did she keep the spears bright green?\nShe cooked them briefly in boiling salted water with no lid, then put them in ice water.\nWhy did she choose skinny spears?\nSkinny spears cook faster and more evenly, and they look elegant.\nHow did she keep the ruby color inside the beets?\nShe roasted them whole in their skins instead of boiling them."
+    }
+  ]
+}

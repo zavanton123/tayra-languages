@@ -1,0 +1,190 @@
+{
+  "id": "en-mini-5700",
+  "rankUpTo": 5700,
+  "level": "C1",
+  "title": "Transport and Mobility",
+  "description": "Ten clear texts on how people and goods move: a subway at night, the interstate highways, a freight train, bike lanes, air traffic control, a ferry captain, electric scooters, a truck driver, a museum of vehicle design and the transport of donated organs.",
+  "topic": "Transport and mobility",
+  "names": [
+    "Washington",
+    "San",
+    "Francisco",
+    "Dwight",
+    "Eisenhower",
+    "Chicago",
+    "California",
+    "Asia",
+    "Midwest",
+    "Ohio",
+    "Europe",
+    "Rosa",
+    "Delgado",
+    "Walter",
+    "Kowalski",
+    "Alaska",
+    "Hawaii",
+    "Poland",
+    "Monday"
+  ],
+  "lessons": [
+    {
+      "title": "The Night Shift Under the City",
+      "summary": "How a large subway is watched, powered and repaired, much of it while the city sleeps.",
+      "newWords": [
+        "technician",
+        "supervision",
+        "auxiliary",
+        "antenna",
+        "verified",
+        "reinforce",
+        "robust",
+        "consequently",
+        "appoint",
+        "skeleton"
+      ],
+      "text": "Most riders see a subway only from the platform. A train arrives, the doors open, and twenty minutes later they are at work. What they rarely see is the work behind it, much of which happens while they sleep.\n\nThe heart of a large subway is its control center, a quiet room full of screens. Each screen shows a map of the lines, with every train marked as a small moving light. The people who sit there do not drive the trains. Their job is supervision: they watch the whole system, keep the trains at safe distances from each other and decide what to do when something goes wrong. If one train breaks down, for example, they hold the trains behind it so that they do not crowd together in the tunnel. When supervision is good, passengers notice nothing at all.\n\nThe control center and the drivers talk by radio, and radio signals do not travel well through rock. Consequently, the tunnels are lined with small antennas, placed every few hundred feet, and each antenna passes the signal on to the next one.\n\nAt about one o'clock in the morning, service slows down, and on some lines it stops completely. This is when the technicians arrive. A technician may spend the night checking signals, replacing worn rails or testing an antenna. Before any work begins, the section of track is closed, and the closure must be verified by the control center. No technician steps onto the tracks until it has been verified that no train can enter.\n\nOlder tunnels need special care. Water slowly finds its way through the walls, so engineers reinforce them with steel and fresh concrete. They reinforce one short section at a time, because each night gives them only four or five hours.\n\nPower is another concern. A large subway uses as much electricity as a small city. Consequently, every station has auxiliary systems: auxiliary lights, fans and pumps that switch on by themselves if the main power fails. Without the pumps, some tunnels would fill with water within hours.\n\nOn holidays and late at night, the control center runs with a skeleton staff, a small group that keeps only the essential work going. Even a skeleton staff, however, must be large enough to handle an emergency.\n\nWho is responsible for all this? In most cities, the subway is run by a public authority. The mayor or the governor appoints its leaders, and the leaders appoint the managers below them. Experts often say that a robust system is not one that never fails, but one that recovers quickly when it does. A robust subway needs money, careful planning and the patient night work that riders never see.\n\nQuestions:\nWhat do the people in the control center do?\nTheir job is supervision: they watch the system, keep the trains at safe distances from each other and decide what to do when something goes wrong.\nWhy are the tunnels lined with antennas?\nRadio signals do not travel well through rock, so each antenna passes the signal on to the next one.\nWhat must happen before a technician steps onto the tracks?\nThe closure of the track must be verified by the control center.\nWhy does every station have auxiliary systems?\nThey switch on by themselves if the main power fails, and the pumps keep the tunnels from filling with water.\nWhat is a robust system, according to experts?\nIt is not a system that never fails, but one that recovers quickly when it does."
+    },
+    {
+      "title": "The Roads That Crossed a Continent",
+      "summary": "A short history of the interstate highways, from a slow army trip to a network that changed the country.",
+      "newWords": [
+        "congressman",
+        "expenditure",
+        "cite",
+        "postal",
+        "profound",
+        "flank",
+        "litigation",
+        "remake",
+        "inability"
+      ],
+      "text": "In the summer of 1919, a line of about 80 army trucks left Washington and set out for San Francisco, on the other side of the country. The trip took 62 days. The trucks sank into mud, broke down on rough roads and crossed bridges that could barely hold them. Among the officers on that trip was a young Dwight Eisenhower. Historians often cite the journey as the start of his interest in roads. What it showed him was simple: the country's inability to move people and goods quickly was a real weakness, both in war and in peace.\n\nThe roads were already improving slowly. Early in the century, the postal service had begun to deliver mail to farms, not just to towns, and postal routes needed roads that a mail carrier could use in any weather. Farmers, too, wanted to reach markets. However, each state built its own roads in its own way, and long trips remained slow.\n\nThe great change came in 1956, when Eisenhower, by then the president, signed a law to build a national network of interstate highways. The plan called for about 41,000 miles of wide, fast roads with no traffic lights, connecting almost every large city. It was one of the largest public expenditures in the country's history. The federal government agreed to pay 90 percent of the cost, and the money came mostly from a tax on fuel. Many a congressman worried about such an expenditure, but each congressman could also see the new roads, and the new jobs, that his own district would receive.\n\nThe highways had a profound effect on life in the United States. Trucks began to carry goods that had once moved by rail. Families could drive across the country in a week. Towns along the new roads grew, and soon the exits were flanked by gas stations, restaurants and shopping centers. Towns that the roads passed by often shrank.\n\nThe interstates also remade the cities. To bring highways into city centers, whole neighborhoods were cleared, and the people who lost their homes were often poor. In several cities, residents went to court to stop or move the roads, and some of this litigation lasted for years. In a few places, the litigation succeeded, and a planned highway was never built.\n\nToday, many cities are thinking about how to remake those same areas again. Some have covered sunken highways with parks; others have replaced old elevated roads with ordinary streets, flanked by trees and shops.\n\nSo were the interstates a success? Supporters cite the speed, the safety and the growth they brought. Critics cite the cleared neighborhoods and the long hours people now spend in cars. Both are right, and that is perhaps the most honest way to describe such a profound change.\n\nQuestions:\nWhat happened to the army trucks in 1919?\nThe trip took 62 days, and the trucks sank into mud and broke down on rough roads.\nWhat did the journey show the young Eisenhower?\nIt showed him that the country's inability to move people and goods quickly was a real weakness.\nHow was the interstate network paid for?\nThe federal government paid 90 percent of the cost, mostly with money from a tax on fuel.\nHow did the interstates remake the cities?\nWhole neighborhoods were cleared to bring highways into city centers.\nWhat do supporters and critics cite?\nSupporters cite speed, safety and growth, while critics cite the cleared neighborhoods and the hours spent in cars."
+    },
+    {
+      "title": "A Freight Train Crosses the Country",
+      "summary": "A long freight train carries goods from a West Coast port to Chicago, and its crews change along the way.",
+      "newWords": [
+        "conductor",
+        "coil",
+        "automotive",
+        "textile",
+        "cubic",
+        "distributor",
+        "supermarket",
+        "strawberry",
+        "glimpse",
+        "complement"
+      ],
+      "text": "Late on a Monday night, at a port in Southern California, cranes lift the last containers from a ship onto a freight train. By morning, the train is more than a mile long, and it is ready to begin a journey of about 2,000 miles to Chicago.\n\nWhat does such a train carry? Almost everything. Many of the containers hold textiles from Asia: cotton, wool and finished clothes on their way to stores. Others hold automotive parts, such as engines and seats, which will go to car plants in the Midwest. Near the back of the train are special cars loaded with steel coils. Each coil is a long sheet of steel rolled up tightly, and a single coil can weigh more than a small truck. There are also cooled containers full of California fruit. In spring, strawberries are among the most valuable goods on the train, because a strawberry picked in California this week may be sold in a supermarket in Ohio the next.\n\nA 40-foot container from a ship holds about 2,400 cubic feet. A railroad measures its business in such units: how many cubic feet it moves, how many tons and how fast.\n\nTwo people run the train. The engineer drives it, while the conductor is responsible for the train as a whole: its paperwork, its cars and its safety. If something goes wrong, the conductor walks along the train to find the problem, even at night and in the rain. The two jobs complement each other. The engineer watches the track ahead, and the conductor keeps the whole picture in mind.\n\nNeither of them goes all the way to Chicago. By law, a crew may work only about twelve hours at a time, so the train stops every few hundred miles for a fresh engineer and a fresh conductor. The train itself keeps going, across the desert, through the mountains and over the long, flat plains.\n\nFor people in the small towns it passes, a freight train is only a glimpse: a long line of colors at a crossing, a horn in the night, and then silence. Few of them think about what is inside. Yet that glimpse is a large part of the country's economy moving past them.\n\nIn Chicago, the train is taken apart. Some containers are moved to other trains heading east. Others are placed on trucks, which carry them to each distributor in the region. A distributor sorts the goods and sends them to stores, factories and supermarkets.\n\nTrucks and trains, then, are not really rivals. They complement each other: the train is cheaper over long distances, and the truck can reach any door. Together, they bring the strawberries, the textiles and the automotive parts to the people who need them.\n\nQuestions:\nWhat does the freight train carry?\nIt carries textiles, automotive parts, steel coils and cooled containers of fruit such as strawberries.\nWhat is a steel coil?\nIt is a long sheet of steel rolled up tightly.\nWhat is the difference between the engineer and the conductor?\nThe engineer drives the train, while the conductor is responsible for the train as a whole.\nWhy do the crews change along the way?\nBy law, a crew may work only about twelve hours at a time.\nWhat does a distributor do?\nA distributor sorts the goods and sends them to stores, factories and supermarkets."
+    },
+    {
+      "title": "Bike Lanes, Weighed Calmly",
+      "summary": "A columnist looks at the arguments for and against new bike lanes and asks how a city can decide fairly.",
+      "newWords": [
+        "hedge",
+        "alley",
+        "optimal",
+        "unclear",
+        "citing",
+        "sour",
+        "blunt",
+        "collaborate",
+        "reproduce",
+        "incorrect"
+      ],
+      "text": "Few subjects divide a city council meeting as quickly as a new bike lane. Last month, our city proposed a protected lane along Main Street, and within an hour the discussion had soured. Shop owners said they would lose their customers. Cyclists said they were tired of risking their lives. Both sides spoke loudly, and neither side seemed to listen. I would like to look at the question more calmly.\n\nFirst, the case for the lane. A painted line offers little protection, but a lane that is separated from traffic by a curb, posts or even a low hedge makes riding much safer. Supporters are right to point to research here. Studies in many cities have found that protected lanes reduce serious injuries, and these findings have been reproduced again and again, in large cities and small ones. When a result is reproduced in so many places, we should take it seriously.\n\nNow the case against. To be blunt, a bike lane takes space, and the space must come from somewhere. On Main Street, it would come from about forty parking spaces. The shop owners' fear is not foolish. Many of them depend on customers who drive in, stop for ten minutes and leave.\n\nWhat happens to such shops after a lane is built? Here, the honest answer is that it is unclear. Some studies, citing sales records, found that business stayed the same or even grew, because people on bikes stop more often, even if they spend less each time. Other studies found losses on certain streets. The effect is unclear partly because every street is different. Anyone citing a single study as the final word is probably saying more than the evidence allows.\n\nSome popular claims are simply incorrect. It is incorrect to say that no one rides in winter, since in many northern cities people ride all year. It is equally incorrect to say that drivers never benefit, since fewer cars on the road means less traffic for those who remain.\n\nIs there an optimal design? Probably not one that fits every street. However, there may be an optimal design for Main Street. Deliveries could use the alley behind the shops in the morning, as they already do on two blocks. A row of hedges could protect the lane while keeping the street green. The city could also create short-term parking on the side streets nearby.\n\nMy suggestion is a blunt one: the city and the shop owners should collaborate before anything is built, not argue after. When officials and residents collaborate, they usually find solutions that neither would find alone. The discussion does not have to sour. A good lane, like a good street, should work for everyone who uses it.\n\nQuestions:\nWhat happened at the city council meeting?\nThe discussion soured, and neither side seemed to listen.\nWhy should we take the safety findings seriously?\nThey have been reproduced in many cities, large and small.\nWhat is unclear about bike lanes?\nIt is unclear what happens to the shops after a lane is built.\nWhat does the writer suggest for deliveries?\nDeliveries could use the alley behind the shops in the morning.\nHow could the lane be protected on Main Street?\nA row of hedges could protect the lane while keeping the street green.\nWhat is the writer's blunt suggestion?\nThe city and the shop owners should collaborate before anything is built."
+    },
+    {
+      "title": "How Air Traffic Control Works",
+      "summary": "An explanation of how controllers guide planes from takeoff to landing, and how the system protects them from fatigue.",
+      "newWords": [
+        "zoom",
+        "anticipate",
+        "fatigue",
+        "tilt",
+        "chess",
+        "mortal",
+        "obsession"
+      ],
+      "text": "At any moment during the day, thousands of planes are in the air above the United States. Each one is moving fast, and each one is following instructions from a person on the ground whom the passengers never see. That person is an air traffic controller.\n\nA flight passes through several hands. Before departure, controllers in the tower at the airport guide the plane from the gate to the runway and give it permission to leave. A few miles from the airport, the plane is handed to a second group, who guide it as it climbs. Higher up, it is handed again to a large regional center, which may follow it for hundreds of miles. Near the end of the trip, the same steps happen in reverse. Each time the plane moves from one group to the next, the pilot is told a new radio frequency, and a new voice takes over.\n\nThe basic rule is distance. Two planes at the same height must stay a certain number of miles apart. If they come too close, the controller changes the height, speed or direction of one of them. On the radar screen, every plane appears as a small symbol with its number, height and speed. A controller can zoom in to look closely at a busy area, or zoom out to see the whole sector at once.\n\nGood controllers do not simply react; they anticipate. They look at two planes that are still twenty miles apart and anticipate that their paths will cross in four minutes. For this reason, people often compare the job to chess. A strong chess player thinks several moves ahead, and so does a strong controller. The difference is that in this game of chess, the pieces never stop moving.\n\nPilots, in turn, follow the instructions closely. When a controller asks for a turn, the pilot tilts the plane's wings, and the plane slowly changes direction. From the window, a passenger may notice only that the wing tilts and the clouds move.\n\nControllers are not machines. They are mortals, and mortals make mistakes, especially when they are tired. Fatigue is one of the greatest risks in the job. A controller suffering from fatigue may miss a symbol or hear a number wrong. For this reason, there are strict rules about rest between shifts, and controllers take regular breaks. Pilots must also repeat each important instruction out loud, so that the controller can hear if anything was understood wrong.\n\nPeople who do this work often describe their attention to detail as an obsession. They check, and then check again. In most jobs, such an obsession might seem excessive. In a room full of radar screens, it is exactly what everyone on board a plane depends on.\n\nQuestions:\nWho guides a plane before departure?\nControllers in the tower at the airport guide the plane from the gate to the runway.\nWhy does a controller zoom in or zoom out?\nA controller zooms in to look at a busy area and zooms out to see the whole sector.\nWhy do people compare the job to chess?\nLike a chess player, a controller must anticipate what will happen several moves ahead.\nWhat does a pilot do when asked to turn?\nThe pilot tilts the plane's wings, and the plane changes direction.\nWhy is fatigue dangerous for controllers?\nA controller suffering from fatigue may miss a symbol or hear a number wrong."
+    },
+    {
+      "title": "A Day with a Ferry Captain",
+      "summary": "Captain Rosa Delgado spends a calm working day taking cars and people between a coastal town and an island.",
+      "newWords": [
+        "stern",
+        "gossip",
+        "choir",
+        "chorus",
+        "hut",
+        "refuge",
+        "claw",
+        "wander",
+        "pinch"
+      ],
+      "text": "Captain Rosa Delgado arrived at the harbor at half past five, while the town was still dark. Her first stop was the small wooden hut at the end of the dock, where the ferry company kept its radio, its weather charts and a very old coffee machine. In the hut, she read the forecast. The wind was light, and the sea would be calm all day.\n\nRosa had worked on this ferry for 19 years and had been its captain for 11. The boat carried cars, trucks and about three hundred passengers between the town and an island forty minutes away. For the people on the island, the ferry was not a pleasure trip. It was how their children got to school and how their food arrived.\n\nAt six, the first cars drove on board through the wide door at the stern. A crew member guided each driver into place, and Rosa watched from the bridge. When the last car was in, the stern door closed, and the ferry moved slowly out of the harbor.\n\nThe early crossing was always quiet. Workers drank coffee, and students did their homework. A few regular passengers came up to the bridge to say good morning and to share the island's gossip: who was building a new house, whose daughter was getting married. Rosa enjoyed the gossip, but she kept her eyes on the water.\n\nOn the second crossing, the boat was busier. A school choir from the town was traveling to the island for a concert. Halfway across, the choir began to sing on the open deck. Other passengers began to wander toward the music. When the choir reached a song that everyone knew, the passengers joined in the chorus. Rosa smiled. In 19 years, she had never heard a chorus quite so loud on her boat.\n\nAt noon, the ferry rested at the island for an hour. Rosa ate her lunch on a bench and watched a fisherman empty his traps. One crab held up its claw, and the fisherman lifted it carefully from behind, away from the claw. \"They pinch,\" he said to her, \"and a pinch from a big one hurts for a week.\"\n\nThe afternoon brought a light rain but no real trouble. Rosa knew that on days with storms the island harbor was a refuge for small boats, and twice in her career the ferry itself had waited there until a storm passed. That harbor had been a refuge for fishermen for two hundred years.\n\nOn the last crossing, a few tired passengers wandered the deck, looking at the lights of the town. At seven, the cars drove off at the stern, and Rosa wrote the day's notes in the hut. It had been an ordinary day, which, for a ferry captain, is the best kind.\n\nQuestions:\nWhat did Rosa do in the hut at the start of the day?\nShe read the weather forecast in the hut.\nHow did the cars get on and off the ferry?\nThey drove through the wide door at the stern.\nWhat did the choir do on the second crossing?\nThe choir sang on the open deck, and the passengers joined in the chorus.\nWhat did the fisherman say about the crab?\nHe said that crabs pinch and that a pinch from a big one hurts for a week.\nWhy is the island harbor important on days with storms?\nIt is a refuge for small boats, and the ferry has sometimes waited there until a storm passed."
+    },
+    {
+      "title": "Electric Scooters in the City",
+      "summary": "A report on rental electric scooters: what they offer, what problems they bring and how cities are responding.",
+      "newWords": [
+        "selfie",
+        "rogue",
+        "abolish",
+        "enrollment",
+        "attach",
+        "unconscious",
+        "terrified",
+        "accountant",
+        "tribunal"
+      ],
+      "text": "A few years ago, rental electric scooters appeared in cities around the world almost overnight. You find one on the sidewalk, open an app, pay a small fee and ride. When you arrive, you leave it near the curb for the next person. For short trips, perhaps a mile or two, it is often faster than a bus and cheaper than a taxi.\n\nSupporters argue that scooters fill a real gap. Many people live too far from a train station to walk there, and the scooter solves that \"last mile\" problem. A scooter uses far less energy than a car, and it takes up almost no space.\n\nThe problems, however, became clear quickly. Some riders treated the scooters as toys. They rode two people at a time, rode on crowded sidewalks or took a selfie while moving. A rider taking a selfie with one hand is not really steering. Older residents, in particular, said they were terrified of being hit, and some were terrified even to leave their homes on busy days. Scooters left lying across sidewalks were a danger to people in wheelchairs.\n\nMost riders are careful. The trouble comes from a few rogue riders, and from rogue companies that put thousands of scooters on the streets without asking anyone. Doctors also noticed a rise in head injuries. In one well-reported case, a young man hit a hole in the road, fell and lay unconscious on the street until help arrived. He recovered, but doctors said that a helmet would have protected him. Few riders wear one, and a rider who falls without a helmet can easily be knocked unconscious.\n\nCities have responded in different ways. One capital city in Europe chose to abolish rental scooters completely after a public vote. The companies asked a tribunal to overturn the decision, but the tribunal ruled that the city had the right to abolish them.\n\nMost cities in the United States have chosen rules instead. Companies must now apply for a permit, and the number of scooters is limited. The apps ask riders to attach a photo of the parked scooter at the end of each trip, and some companies attach a small helmet to every scooter. Several cities also offer discounts to residents with low incomes, and enrollment in these programs is simple: a rider shows proof of income once, and the discount appears in the app. In one city, enrollment doubled in the first year.\n\nAre the scooters worth it? An accountant for one city council studied the numbers. The accountant found that permit fees covered the cost of managing the program, and that most rides replaced car trips. The answer, then, may depend less on the scooters themselves than on the rules a city chooses to make.\n\nQuestions:\nWhat problem do scooters solve, according to supporters?\nThey solve the \"last mile\" problem for people who live too far from a train station to walk.\nWhy were some older residents terrified?\nThey were terrified of being hit by riders on crowded sidewalks.\nWhat happened to the young man who hit a hole in the road?\nHe fell and lay unconscious on the street until help arrived.\nWhat did the tribunal decide?\nThe tribunal ruled that the city had the right to abolish rental scooters.\nWhat did the city accountant find?\nThe accountant found that permit fees covered the cost of the program and that most rides replaced car trips."
+    },
+    {
+      "title": "A Life on the Long Haul",
+      "summary": "A profile of Walter Kowalski, a long-haul truck driver who keeps close to his family from the road.",
+      "newWords": [
+        "papa",
+        "adore",
+        "rhyme",
+        "nursery",
+        "bake",
+        "dessert",
+        "ginger",
+        "fellowship",
+        "peasant"
+      ],
+      "text": "Walter Kowalski has driven a truck for 31 years, and he has seen every state except Alaska and Hawaii. He is 58, with gray hair and large, calm hands. For 11 days out of every 14, his home is the cab of his truck. Behind the seats there is a narrow bed, a small refrigerator and a photo of his three grandchildren.\n\nHis great-grandparents were peasants in a small village in Poland. Like most peasants of their time, they rarely traveled more than a few miles from home. \"They would not believe how far I go,\" Walter says. \"I cross more country in a week than they saw in their whole lives.\"\n\nA typical day starts at five. Walter checks the tires, the brakes and the lights, and then he drives. By law, he may drive for 11 hours a day, and his truck records every minute. Most of his loads are food: frozen vegetables, milk, boxes of cereal. He prefers night driving in summer, when the roads are empty and the air is cool.\n\nThe hardest part of the job, he says, is not the driving but being away. When his grandchildren were born, he decided he would not be a stranger to them. Every evening at seven, wherever he is parked, he calls them on video. The children call him Papa. The youngest is three and still goes to nursery school, and she asks Papa for the same thing every night: nursery rhymes. So Walter, a large man in a truck stop parking lot, reads rhymes to a small girl five hundred miles away. He has learned more than fifty nursery rhymes by heart. \"She knows when I get a rhyme wrong,\" he says, laughing. \"She corrects me.\"\n\nOn his days at home, Walter likes to bake. He learned from his mother, and his favorite thing to bake is ginger cookies, the same ones she made every winter. The grandchildren adore them. They also adore his apple cake, which is now the official dessert at every family birthday. \"On the road I eat what I can find,\" he says. \"At home, I make dessert.\"\n\nHe is not lonely on the road, either. Over the years, he has built a quiet fellowship with other drivers. They meet at the same truck stops, share news about weather and road work, and help each other with breakdowns. Some members of this fellowship have known each other for twenty years. Walter calls it the best part of the job.\n\nHe plans to retire in four years. When he does, he says, he will bake every day and read the rhymes in person. Until then, the truck, the road and the evening calls will go on as before.\n\nQuestions:\nWhere did Walter's great-grandparents live?\nThey were peasants in a small village in Poland.\nWhat does Walter do every evening at seven?\nHe calls his grandchildren on video, wherever he is parked.\nWhat does his youngest granddaughter ask Papa for?\nShe asks him for nursery rhymes every night.\nWhat does Walter like to bake at home?\nHe likes to bake ginger cookies, the same ones his mother made.\nWhat fellowship has Walter built on the road?\nHe has built a quiet fellowship with other drivers who meet at the same truck stops and help each other."
+    },
+    {
+      "title": "A Century of Vehicles in One Room",
+      "summary": "A review of a museum retrospective on vehicle design, from early cars to a model of a moon rover.",
+      "newWords": [
+        "retrospective",
+        "anatomy",
+        "pillar",
+        "palette",
+        "superstar",
+        "spotlight",
+        "exotic",
+        "rover"
+      ],
+      "text": "The city's design museum has opened a large retrospective on one hundred years of vehicle design, and it is well worth a visit. Like any good retrospective, it does more than show beautiful objects. It asks why they look the way they do.\n\nThe first room shows the early cars, which look almost like carriages without horses. The second room is the most educational. It is devoted to the anatomy of a car. A real family car has been cut open, so that visitors can see its steel frame, its engine and the space for its passengers. Clear labels explain each part. One label explains the pillars, the narrow posts that hold up the roof. The front pillars, on each side of the front window, have grown much thicker over the decades, because they protect passengers if a car rolls over. Thicker pillars, however, also block part of the driver's view, and engineers still argue about the balance between the two. After this room, you will never look at your own car's anatomy in quite the same way.\n\nThe third room is about color. Early cars were nearly all black. In the middle of the century, the palette grew bright and cheerful: pink, mint green, sky blue. Today's palette is calmer again, mostly white, gray and silver. A wall of painted metal squares shows each decade's palette side by side, and the effect is surprisingly moving.\n\nThe fourth room is the one that draws the crowds. Here, under bright spotlights, stand a dozen exotic sports cars, low, fast and very expensive. Each exotic machine has its own spotlight, like an actor on a stage. Next to each car is a short film about its designer. A few of these designers became superstars in their field, as famous as any film superstar, and the museum clearly enjoys their fame.\n\nThe last room is the most unusual. It holds a full-size model of the rover that astronauts drove on the moon in 1971 and 1972. The rover looks simple, almost like a toy, yet it carried two people across a world with no roads at all. Standing in front of the rover, visitors are reminded that design is, above all, about solving problems.\n\nThe retrospective has one weakness. It says very little about buses, trains and bicycles, which move far more people than sports cars do. A room on public transportation would have given a fuller picture.\n\nStill, this is a thoughtful and generous show. It treats vehicles not as machines alone but as objects that reflect the needs, tastes and fears of their time. Give yourself at least two hours.\n\nQuestions:\nWhat can visitors see in the room about the anatomy of a car?\nThey can see a real family car cut open, with its frame, its engine and the space for its passengers.\nWhy have the front pillars grown thicker?\nThey protect passengers if a car rolls over.\nHow has the palette of car colors changed?\nIt was nearly all black, then bright and cheerful, and today it is mostly white, gray and silver.\nWhat stands under the spotlights in the fourth room?\nA dozen exotic sports cars stand under the spotlights.\nWhat is the weakness of the retrospective?\nIt says very little about buses, trains and bicycles."
+    },
+    {
+      "title": "The Most Urgent Delivery",
+      "summary": "How a donated organ travels from one hospital to another, and how a team makes sure it arrives in time.",
+      "newWords": [
+        "transplant",
+        "antibiotic",
+        "therapeutic",
+        "membrane",
+        "implant",
+        "scrub",
+        "assurance",
+        "thrilled"
+      ],
+      "text": "Most deliveries can wait an hour. A few cannot. When a person dies and has chosen to donate their organs, a race begins to bring each organ to a patient who needs it. For a heart, the team has about four to six hours; for a kidney, it may have a day or more. Transport, in other words, is a central part of every transplant.\n\nThe process begins with a match. A national computer system compares the donor with thousands of patients waiting for a transplant, looking at blood type, body size, the distance between hospitals and how long each patient has waited. Within an hour or two, a patient is chosen, and the patient's hospital is called.\n\nAt the donor's hospital, a surgical team removes the organ. Before they begin, the surgeons scrub their hands and arms for several minutes, as they do before every operation. The organ is then placed in a cold liquid and packed in a cooler, much like a picnic cooler but far more carefully controlled. Cold slows the cells down, and the liquid protects each cell's thin outer membrane from damage. If the membrane breaks, the cell dies, so the temperature must stay low the whole way.\n\nThen comes the trip. For short distances, the cooler travels by car or ambulance. For longer ones, it may go on a small private plane, or even on a regular passenger flight in the care of a trained member of the team. At every stage, someone signs a record, so that the team always knows where the organ is. This is a form of quality assurance: every step is checked, and every check is written down.\n\nMeanwhile, at the receiving hospital, the patient is prepared. The surgeons scrub again, and the patient may receive antibiotics, since an antibiotic given before the operation lowers the risk of infection. When the cooler arrives, the surgeons examine the organ and, if it is in good condition, they implant it. To implant a heart takes several hours of very careful work.\n\nAfter the operation, the patient takes medicine for the rest of their life, so that the body does not reject the new organ. This therapeutic plan also includes regular tests and, in the first weeks, more antibiotics. Doctors adjust the therapeutic doses carefully, month by month.\n\nFor the patient's family, the news that an organ has been found is usually the happiest call of their lives. Many say they were thrilled and frightened at the same time. Weeks later, when the patient goes home, the family is simply thrilled. Behind that happy day stand dozens of people, and one cooler that traveled quickly, with the assurance that every minute was counted.\n\nQuestions:\nWhy is transport a central part of every transplant?\nAn organ can survive outside the body for only a limited time, such as four to six hours for a heart.\nWhat do the surgeons do before every operation?\nThey scrub their hands and arms for several minutes.\nWhy does the organ travel in a cold liquid?\nCold slows the cells down, and the liquid protects each cell's membrane from damage.\nWhy may the patient receive an antibiotic before the operation?\nAn antibiotic lowers the risk of infection.\nHow did many families feel when an organ was found?\nMany say they were thrilled and frightened at the same time."
+    }
+  ]
+}
