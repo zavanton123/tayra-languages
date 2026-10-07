@@ -1,0 +1,224 @@
+{
+  "id": "fr-mini-7400",
+  "rankUpTo": 7400,
+  "level": "C1",
+  "title": "Le comportement animal",
+  "description": "Ten stories, portraits and reports about how animals behave, from dancing bees in Fribourg and a cat in Liège to a dog in Dakar, Valais fighting cows, a Quebec dairy herd and the bearded vulture of the Pyrenees.",
+  "topic": "Animal behaviour",
+  "names": [
+    "Fribourg",
+    "Anaïs",
+    "Pacha",
+    "Liège",
+    "Sophie",
+    "Hans",
+    "Wilhelm",
+    "von",
+    "Osten",
+    "Oskar",
+    "Pfungst",
+    "Malin",
+    "Aïssatou",
+    "Diop",
+    "Dakar",
+    "Simba",
+    "Moussa",
+    "Ibrahima",
+    "Nantes",
+    "Lefèvre",
+    "Nadia",
+    "Élise",
+    "Martin",
+    "Wallonie",
+    "Dinant",
+    "Marseille",
+    "Gabon",
+    "Cameroun",
+    "Provence",
+    "Claire",
+    "Fabre",
+    "Afrique",
+    "Europe",
+    "France",
+    "Léa",
+    "Hérens",
+    "Valais",
+    "Lausanne",
+    "Suisse",
+    "Tornade",
+    "Réjean",
+    "Gagnon",
+    "Sherbrooke",
+    "Québec",
+    "Cantons",
+    "Vivaldi",
+    "Bach",
+    "Pyrénées",
+    "Hélène",
+    "Laborde",
+    "Ariège"
+  ],
+  "lessons": [
+    {
+      "title": "La danse des abeilles",
+      "summary": "A notary's clerk in Fribourg who keeps bees shows his niece how a bee dances to tell the others where the flowers are.",
+      "newWords": [
+        "clerc",
+        "fleurir",
+        "fleuri",
+        "abstraction",
+        "finalité",
+        "horizontal",
+        "prospère",
+        "épuiser",
+        "loupe",
+        "pépin"
+      ],
+      "text": "Je suis clerc de notaire à Fribourg. Le métier de clerc demande de la patience et le goût du détail. Le samedi, je retrouve un autre monde, qui demande les mêmes qualités : mes six ruches, à la sortie de la ville.\n\nAu printemps, quand les arbres commencent à fleurir, les abeilles sortent par milliers. Ce samedi-là, ma nièce Anaïs, qui a douze ans, m'accompagnait. Je lui ai prêté une loupe, j'ai ouvert une ruche et j'ai sorti un cadre couvert de cire.\n\nUne abeille revenait justement des champs. Sur la cire, elle s'est mise à tracer un huit, encore et encore, en agitant le ventre. Anaïs a approché la loupe. « Elle danse ! » a-t-elle dit. Oui, elle dansait, et cette danse avait une finalité très précise : indiquer aux autres la direction et la distance d'une prairie fleurie.\n\nJe lui ai expliqué le principe. Dans la ruche, il fait noir, et les cadres sont verticaux. L'abeille ne peut donc pas montrer le chemin du doigt. Elle prend le soleil comme repère : si elle danse vers le haut, cela veut dire « volez vers le soleil » ; si elle danse un peu vers la droite, il faut voler un peu à droite du soleil. Plus la danse dure, plus la prairie fleurie est loin. En revanche, quand l'abeille danse sur une surface horizontale, devant l'entrée de la ruche par exemple, elle pointe tout simplement vers le but. Sur une surface horizontale, pas besoin de traduire.\n\n« Mais c'est de l'abstraction ! » a dit Anaïs. Elle avait raison. Transformer un angle par rapport au soleil en un angle par rapport au haut de la ruche, c'est une véritable abstraction, une sorte de carte dessinée dans le vide. Avec un cerveau plus petit qu'un grain de riz, l'abeille réussit cette abstraction chaque jour.\n\nAvec la loupe, nous avons aussi vu les petites boules jaunes collées aux pattes des ouvrières. Ce travail les épuise. Une abeille d'été vit à peine six semaines, et elle meurt souvent épuisée. « Elles s'épuisent pour les autres », a dit Anaïs, un peu triste. C'est pourtant la finalité de toute leur vie : servir la colonie.\n\nUne colonie prospère compte jusqu'à cinquante mille abeilles. Pour rester prospère, elle a besoin de champs fleuris du printemps à l'automne. Or, les prés fleuris se font rares.\n\nLe soir, en mangeant une pomme, Anaïs a gardé les pépins. « Sans les abeilles, les arbres pourraient fleurir pour rien, n'est-ce pas ? » Exactement : sans elles, peu de fruits, et donc peu de pépins pour faire pousser d'autres arbres. Elle a emporté ses pépins : elle veut planter un arbre, « pour les abeilles ».\n\nQuestions :\nQue fait le narrateur pendant la semaine ?\nIl est clerc de notaire à Fribourg.\nQuelle est la finalité de la danse de l'abeille ?\nElle indique aux autres abeilles la direction et la distance d'une prairie fleurie.\nComment l'abeille indique-t-elle la direction dans la ruche ?\nElle prend le soleil comme repère : si elle danse vers le haut, il faut voler vers le soleil.\nPourquoi Anaïs parle-t-elle d'abstraction ?\nParce que l'abeille transforme un angle par rapport au soleil en un angle par rapport au haut de la ruche, comme une carte dessinée dans le vide.\nDe quoi une colonie a-t-elle besoin pour rester prospère ?\nElle a besoin de champs fleuris du printemps à l'automne.\nQue veut faire Anaïs avec les pépins ?\nElle veut planter un arbre pour les abeilles."
+    },
+    {
+      "title": "Mon chat est-il cruel ?",
+      "summary": "A columnist in Liège sees his well-fed cat torment a mouse and asks a vet friend whether the cat is cruel.",
+      "newWords": [
+        "cruauté",
+        "psychopathe",
+        "dément",
+        "miséricorde",
+        "trinité",
+        "gâté",
+        "paradoxalement",
+        "plaisanterie",
+        "délibéré",
+        "imprévisible"
+      ],
+      "text": "Mon chat s'appelle Pacha. C'est un gros chat roux de neuf ans, nourri, soigné, brossé : un chat gâté, comme on dit, et même un chat très gâté. Sa vie tient en une sainte trinité : manger, dormir, se faire caresser. Du moins, c'est ce que je croyais jusqu'au mois dernier, car cette trinité cachait un quatrième plaisir.\n\nUn matin, dans notre petit jardin de Liège, je l'ai surpris avec une souris. Il ne la mangeait pas. Il la lâchait, la laissait courir un mètre, puis la rattrapait d'un coup de patte. Il recommençait, encore et encore, sans la moindre miséricorde. J'ai fini par intervenir, et la souris a disparu sous la haie. Pacha m'a regardé d'un air offensé, comme si je venais de gâcher une excellente plaisanterie.\n\nCe jour-là, j'ai éprouvé un vrai malaise. Mon chat si doux était-il capable de cruauté ? Avais-je, sans le savoir, un petit psychopathe à la maison ? Le soir, j'en ai parlé à mon amie Sophie, qui est vétérinaire. Elle a éclaté de rire : « Ton chat n'est ni dément ni psychopathe. Il n'y a là aucune cruauté. » J'ai d'abord cru à une plaisanterie, mais elle était parfaitement sérieuse.\n\nSelon elle, la cruauté suppose une intention : faire souffrir de manière délibérée, en sachant que l'autre souffre. Or rien ne prouve que le chat agisse de manière délibérée. Son comportement est le fruit de l'instinct. Paradoxalement, c'est souvent le chat le mieux nourri qui joue le plus longtemps avec sa proie. Un chat sauvage affamé tue vite, parce qu'il a faim. Un chat gâté, lui, n'a aucune raison de se dépêcher : son instinct de chasseur reste intact, mais son ventre est plein. Il s'entraîne, en quelque sorte.\n\nIl existe aussi une raison plus prudente. Une souris peut mordre, et ses mouvements sont imprévisibles. En la fatiguant, le chat réduit le danger pour son museau et ses yeux. Ce jeu qui nous paraît dément est en réalité une technique : on épuise une proie imprévisible avant de s'en approcher.\n\n« Alors, il n'y a pas de miséricorde chez les chats ? » ai-je demandé. Sophie a répondu : « Ni miséricorde ni cruauté. Ce sont des mots d'humains. Lui, il ne juge pas : il chasse. »\n\nParadoxalement, cette réponse m'a à la fois rassuré et troublé. Je regarde désormais Pacha d'un autre œil. Il dort sur le canapé, le ventre en l'air, l'image même de l'innocence. Le chasseur et le chat gâté vivent dans le même corps, et aucun des deux n'est un monstre. Quant à la souris, j'espère qu'elle a trouvé un jardin plus tranquille.\n\nQuestions :\nQuelle est la sainte trinité de Pacha ?\nManger, dormir et se faire caresser.\nQu'a fait Pacha avec la souris ?\nIl la lâchait, la laissait courir, puis la rattrapait d'un coup de patte, sans la moindre miséricorde.\nPourquoi Sophie dit-elle qu'il n'y a pas de cruauté ?\nParce que la cruauté suppose de faire souffrir de manière délibérée, et rien ne prouve que le chat agisse ainsi : il suit son instinct.\nPourquoi est-ce paradoxalement le chat gâté qui joue le plus longtemps ?\nParce qu'il n'a pas faim : il n'a aucune raison de se dépêcher, mais son instinct de chasseur reste intact.\nPourquoi le chat fatigue-t-il la souris ?\nParce qu'une souris peut mordre et que ses mouvements sont imprévisibles : en la fatiguant, il réduit le danger."
+    },
+    {
+      "title": "Hans, le cheval qui savait compter",
+      "summary": "A portrait of Clever Hans, the Berlin horse who seemed to count, and of the young psychologist who found out how he really answered.",
+      "newWords": [
+        "prussien",
+        "anticipation",
+        "connaisseur",
+        "nullement",
+        "troublant",
+        "incarnation",
+        "postérité",
+        "glissement",
+        "irréprochable",
+        "combine"
+      ],
+      "text": "Vers 1900, dans la capitale prussienne, un cheval attirait chaque jour une foule de curieux. Il s'appelait Hans, et on l'appelait « Hans le Malin », car il semblait savoir compter. Quand on lui demandait combien font trois et deux, il frappait le sol cinq fois du pied.\n\nSon propriétaire, Wilhelm von Osten, était un ancien professeur de mathématiques, un Prussien sévère, d'une honnêteté irréprochable. Il avait passé des années à instruire son cheval comme un écolier, avec un tableau noir et des chiffres. Il croyait sincèrement que les animaux pouvaient raisonner.\n\nBeaucoup de gens soupçonnaient pourtant une combine. Le maître faisait-il des signes secrets ? En 1904, on réunit donc une commission : des professeurs, un directeur de zoo, des connaisseurs de chevaux, et même un officier de l'armée prussienne. Ces connaisseurs observèrent Hans pendant des semaines. Leur conclusion fut troublante : il n'y avait aucune combine. Von Osten ne trichait nullement, et le cheval répondait aussi quand son maître était absent.\n\nUn jeune psychologue, Oskar Pfungst, reprit alors l'enquête avec une méthode simple. Il fit poser les questions par des personnes qui ne connaissaient pas la réponse. Hans se trompa presque toujours. Puis il plaça un écran entre le cheval et cette personne : nouvel échec.\n\nLe secret n'était donc nullement dans les chiffres, mais dans les visages. Quand le cheval approchait du bon nombre de coups, les spectateurs, sans le vouloir, se détendaient : un léger glissement de la tête vers le haut, un souffle, un regard qui change. Ce glissement minuscule suffisait, et Hans s'arrêtait de frapper. Personne ne lui donnait de signal volontaire ; c'était l'anticipation des humains, leur attente de la bonne réponse, qui le guidait. Pfungst lui-même, qui connaissait pourtant le secret, ne parvenait pas à empêcher son corps de trahir cette anticipation.\n\nCe résultat ne rend pas Hans moins remarquable. Le cheval ne savait pas compter, mais il lisait les êtres humains avec une finesse extraordinaire. Il était devenu, sans le savoir, l'incarnation d'une autre intelligence animale : celle de l'attention aux autres. Son maître, lui, mourut en 1909, persuadé que son élève était l'incarnation même du génie animal.\n\nLa postérité a retenu la leçon. Aujourd'hui encore, quand un chercheur teste un animal, il prend soin de ne lui donner aucun indice involontaire. On parle de « l'effet Hans le Malin ». Le nom du cheval est ainsi passé à la postérité, et avec lui une idée troublante : les animaux nous observent souvent mieux que nous ne les observons.\n\nQuestions :\nQue semblait savoir faire Hans ?\nIl semblait savoir compter : il frappait le sol autant de fois que la réponse.\nQui était Wilhelm von Osten ?\nC'était un ancien professeur prussien, sévère et d'une honnêteté irréprochable, qui avait instruit son cheval comme un écolier.\nQu'a conclu la commission de connaisseurs ?\nElle a conclu qu'il n'y avait aucune combine et que von Osten ne trichait nullement.\nComment Oskar Pfungst a-t-il découvert le secret ?\nIl a fait poser les questions par des personnes qui ignoraient la réponse, puis il a placé un écran entre le cheval et cette personne.\nQu'est-ce qui guidait vraiment Hans ?\nL'anticipation des humains : un léger glissement de la tête, un souffle ou un regard qui change quand il arrivait au bon nombre.\nPourquoi le nom de Hans est-il passé à la postérité ?\nParce que les chercheurs parlent encore de « l'effet Hans le Malin » et prennent soin de ne donner aucun indice involontaire aux animaux."
+    },
+    {
+      "title": "Simba et le livreur",
+      "summary": "In Dakar, a dog barks furiously at the delivery man every morning until the owner's nephew explains the habit and helps change it.",
+      "newWords": [
+        "livreur",
+        "badge",
+        "conditionné",
+        "réprimer",
+        "destinataire",
+        "flexible",
+        "provisoirement",
+        "impeccable",
+        "refrain",
+        "dentelle"
+      ],
+      "text": "Aïssatou Diop habite une petite maison blanche dans un quartier calme de Dakar. Elle vit avec Simba, un chien qu'elle a recueilli dans la rue. Simba est doux avec tout le monde, sauf avec une seule personne : Moussa, le livreur.\n\nChaque matin, vers 10 heures, Moussa arrive en moto avec des colis pour tout le quartier. Il porte une chemise bleue impeccable et, sur la poitrine, le badge de sa société. Dès que la moto s'arrête devant le portail, Simba se précipite derrière les rideaux de dentelle du salon et se met à aboyer comme si un voleur entrait. C'est le même refrain tous les jours : la moto, le portail, les cris du chien, puis ceux d'Aïssatou.\n\nAïssatou a tout essayé. Elle a enfermé Simba dans la cuisine, elle a voulu réprimer chaque cri par une punition. Rien n'y faisait. Au contraire, plus elle cherchait à réprimer son chien, plus il hurlait. Moussa, lui, gardait son calme. « Madame, je suis livreur depuis dix ans, disait-il. Tous les chiens de Dakar me détestent. » Aïssatou devait alors réprimer un sourire.\n\nUn dimanche, son neveu Ibrahima, qui étudie pour devenir vétérinaire, lui a expliqué le problème. Pour Simba, l'histoire est toujours la même : un inconnu approche, le chien aboie, et l'inconnu repart. Le livreur s'en va bien sûr parce qu'il a déposé le colis, mais le chien croit que c'est lui qui l'a chassé. Chaque matin, il gagne. Son comportement est devenu un réflexe conditionné, renforcé tous les jours par le départ de Moussa.\n\n« Il faut changer la fin de l'histoire », a dit Ibrahima. Son plan demandait un peu de patience et un horaire flexible. Aïssatou a appelé la société de livraison, et on lui a répondu que Moussa pouvait être flexible : il passerait chez elle en dernier, quand il aurait plus de temps.\n\nProvisoirement, Aïssatou a cessé d'être la destinataire de ses colis : pendant deux semaines, elle les a fait livrer chez sa voisine. Moussa passait quand même chaque jour, sans colis, et lançait à Simba un morceau de viande séchée à travers le portail. Les premiers jours, Simba aboyait avant de manger. Puis il a aboyé moins fort. Au bout de dix jours, il attendait la moto en remuant la queue.\n\nLe chien conditionné à chasser le livreur était devenu un chien conditionné à l'attendre. Aïssatou a pu redevenir la destinataire de ses propres colis. Provisoirement, elle garde tout de même un sac de viande séchée près de la porte.\n\nAujourd'hui, quand le badge de Moussa apparaît derrière le portail, Simba remue la queue derrière les rideaux de dentelle. Le refrain du matin a changé : une moto, un portail, et un chien qui se tait. Moussa, toujours impeccable, a enfin un ami dans le quartier.\n\nQuestions :\nPourquoi Simba aboie-t-il chaque matin ?\nParce que Moussa, le livreur, arrive devant le portail, et que Simba le prend pour un inconnu dangereux.\nComment Aïssatou a-t-elle d'abord réagi ?\nElle a voulu réprimer chaque cri par une punition, mais plus elle le punissait, plus il hurlait.\nSelon Ibrahima, pourquoi le chien continue-t-il ?\nParce qu'il croit que c'est lui qui chasse le livreur : son comportement est devenu un réflexe conditionné.\nPourquoi Aïssatou a-t-elle provisoirement cessé d'être la destinataire de ses colis ?\nPour que Moussa puisse venir sans colis, seulement pour donner de la viande séchée à Simba.\nQuel est le nouveau refrain du matin ?\nUne moto, un portail, et un chien qui se tait en remuant la queue."
+    },
+    {
+      "title": "Deux pêcheurs très patients",
+      "summary": "On a school trip to a wildlife park near Nantes, a guide shows pupils an archerfish shooting down insects and a heron spearing its prey.",
+      "newWords": [
+        "archer",
+        "projectile",
+        "poignarder",
+        "propulser",
+        "nageur",
+        "mouvoir",
+        "pixel",
+        "cutané"
+      ],
+      "text": "Ce mardi-là, la classe de Mme Lefèvre visitait un zoo près de Nantes. Dans la grande serre tropicale, la guide, Nadia, a arrêté les élèves devant un bassin d'eau douce. Des poissons gris, marqués de larges bandes noires, se tenaient juste sous la surface.\n\n« Voici le poisson-archer, a annoncé Nadia. C'est un chasseur comme il en existe peu. » Elle a posé un petit insecte sur une feuille, à quarante centimètres au-dessus de l'eau. Un poisson s'est approché lentement, puis s'est arrêté. Soudain, un jet d'eau est sorti de sa bouche, et l'insecte est tombé. Le poisson l'a avalé aussitôt.\n\nNadia a expliqué le principe. Le poisson-archer presse sa langue contre son palais et propulse l'eau comme un petit pistolet. Il peut propulser ce jet à plus d'un mètre. L'eau devient un véritable projectile. Comme un archer qui vise une cible, il doit calculer sa distance, et même corriger son tir, car vue de l'eau, la position de l'insecte paraît décalée.\n\nSur un écran, Nadia a ensuite montré une vidéo filmée au ralenti, à mille images par seconde. On distinguait chaque goutte. « Regardez la tête du projectile. L'arrière du jet va plus vite que l'avant, et les gouttes se rassemblent juste avant de frapper. » Un élève s'est approché si près de l'écran qu'il ne voyait plus que des pixels. « Avec quelques centaines de pixels, on ne voit pas grand-chose ! » a-t-il dit en riant.\n\nLe poisson-archer n'est pas un grand nageur. Il préfère se mouvoir lentement, sans bruit, pour ne pas effrayer ses proies. Les grands nageurs chassent par la vitesse ; l'archer chasse par la précision.\n\nEn sortant de la serre, les élèves ont découvert un autre chasseur au bord de l'étang : un héron, debout sur une patte. Lui aussi sait attendre. Quand une grenouille est passée près de lui, il a frappé l'eau d'un coup de bec, aussi rapide qu'une flèche. « Le héron ne pince pas sa proie, il la poignarde, a expliqué Nadia. Il peut poignarder un poisson à travers vingt centimètres d'eau. »\n\nLes grenouilles de l'étang ont pourtant un avantage. Elles respirent en partie par la peau. Cette respiration cutanée leur permet de rester longtemps au fond, dans la boue, sans remonter. « Pour échapper au héron, a conclu Nadia, le mieux est de ne pas se mouvoir du tout. » Mais une respiration cutanée a un prix : la grenouille a besoin d'une eau très propre.\n\nQuestions :\nComment le poisson-archer chasse-t-il les insectes ?\nIl presse sa langue contre son palais et propulse un jet d'eau qui devient un projectile.\nPourquoi le compare-t-on à un archer ?\nParce que, comme un archer qui vise une cible, il doit calculer sa distance et corriger son tir.\nQu'a montré la vidéo au ralenti ?\nElle a montré que l'arrière du jet va plus vite que l'avant et que les gouttes se rassemblent juste avant de frapper.\nLe poisson-archer est-il un grand nageur ?\nNon, il préfère se mouvoir lentement, sans bruit : il chasse par la précision et non par la vitesse.\nComment le héron attrape-t-il ses proies ?\nIl les poignarde d'un coup de bec, aussi rapide qu'une flèche.\nÀ quoi sert la respiration cutanée des grenouilles ?\nElle leur permet de rester longtemps au fond de l'étang, dans la boue, sans remonter."
+    },
+    {
+      "title": "Les chauves-souris du gouffre",
+      "summary": "Near Dinant, a nature guide takes walkers to a chasm and an old fort where bats are preparing to sleep through the winter.",
+      "newWords": [
+        "gouffre",
+        "redoute",
+        "frôler",
+        "préparatif",
+        "restreindre",
+        "renaître",
+        "illégalement",
+        "viable",
+        "théoriquement"
+      ],
+      "text": "Au mois d'octobre, Élise Martin, guide nature en Wallonie, emmène un petit groupe de randonneurs dans les bois près de Dinant. Le but de la sortie : un gouffre au milieu de la forêt et, un peu plus loin, une vieille redoute militaire du dix-neuvième siècle, à moitié couverte de lierre. Ces deux lieux ont un point commun : ils abritent l'une des plus grandes colonies de chauves-souris de la région.\n\nÀ la tombée de la nuit, le groupe s'installe en silence au bord du gouffre. Bientôt, des dizaines de petites ombres sortent de l'obscurité. Elles passent si près que certaines frôlent les cheveux des visiteurs. Une dame pousse un cri. « N'ayez pas peur, dit Élise. Elles nous frôlent, mais elles ne nous touchent jamais. Elles voient avec leurs oreilles. » Elle explique que la chauve-souris pousse des cris trop aigus pour nous et en écoute l'écho : elle se construit ainsi une carte sonore de tout ce qui l'entoure.\n\nEn octobre, les chauves-souris commencent leurs préparatifs pour l'hiver. Elles mangent des milliers d'insectes chaque nuit et accumulent de la graisse. Ces préparatifs sont vitaux : de novembre à mars, elles dormiront sans manger, suspendues au fond du gouffre ou dans les galeries humides de la redoute. Leur cœur battra à peine dix fois par minute.\n\nThéoriquement, ce long sommeil est sans danger. Mais si quelqu'un les réveille, elles brûlent en quelques minutes une partie précieuse de leurs réserves. Quelques réveils suffisent pour qu'elles meurent de faim avant le printemps. C'est pourquoi la commune a décidé de restreindre l'accès aux deux sites. Le gouffre est fermé par une grille de novembre à mars, et les visites de la redoute sont restreintes à quelques sorties guidées en été.\n\nThéoriquement, personne n'entre donc en hiver. Pourtant, chaque année, des jeunes pénètrent illégalement dans la redoute pour faire la fête, et des curieux descendent illégalement dans le gouffre. « Ils ne pensent pas à mal, soupire Élise, mais une seule soirée peut tuer des dizaines d'animaux. »\n\nGrâce à ces mesures, la colonie, qui avait presque disparu il y a vingt ans, est redevenue viable : elle compte aujourd'hui près de 2 000 individus. Pour qu'une population soit viable, il lui faut assez de femelles, assez d'insectes et des abris tranquilles.\n\nAu printemps, quand les nuits se réchauffent, la colonie renaît. Les chauves-souris se réveillent, sortent affamées et recommencent à chasser. « Chaque année, j'ai l'impression que la forêt renaît avec elles », dit Élise. En redescendant vers le parking, à la lumière des lampes, les randonneurs sentent encore quelques ailes les frôler dans la nuit.\n\nQuestions :\nQu'ont en commun le gouffre et la vieille redoute ?\nIls abritent l'une des plus grandes colonies de chauves-souris de la région.\nComment les chauves-souris peuvent-elles frôler les visiteurs sans les toucher ?\nElles poussent des cris très aigus et en écoutent l'écho : elles se construisent une carte sonore de ce qui les entoure.\nEn quoi consistent leurs préparatifs pour l'hiver ?\nElles mangent des milliers d'insectes chaque nuit et accumulent de la graisse.\nPourquoi la commune a-t-elle restreint l'accès aux deux sites ?\nParce qu'une chauve-souris réveillée brûle une partie de ses réserves et peut mourir de faim avant le printemps.\nQue font certaines personnes illégalement ?\nDes jeunes entrent dans la redoute pour faire la fête et des curieux descendent dans le gouffre.\nQue se passe-t-il au printemps ?\nLa colonie renaît : les chauves-souris se réveillent et recommencent à chasser."
+    },
+    {
+      "title": "Les perroquets de la camionnette",
+      "summary": "After a trafficking trial in Marseille, a vet looks after seized grey parrots and watches them build a shared language.",
+      "newWords": [
+        "correctionnel",
+        "cartel",
+        "récidive",
+        "palmier",
+        "assimilation",
+        "prescrire",
+        "dialecte",
+        "éligible",
+        "absorption",
+        "boycott"
+      ],
+      "text": "Le tribunal correctionnel de Marseille a jugé la semaine dernière trois hommes accusés d'avoir fait entrer illégalement en France quarante-deux perroquets gris du Gabon. Ces oiseaux, capturés dans les forêts de palmiers du Cameroun, étaient cachés dans des tubes en plastique, au fond d'une camionnette. Selon les enquêteurs, les trois hommes travaillaient pour un cartel qui revend chaque année des milliers d'animaux sauvages en Europe. Le principal accusé était en état de récidive : il avait déjà été condamné pour les mêmes faits quatre ans plus tôt. Le tribunal correctionnel lui a infligé deux ans de prison. Dans ce type de trafic, la récidive est fréquente, car les profits sont énormes.\n\nLes oiseaux, eux, ont été confiés à un refuge en Provence, où la vétérinaire Claire Fabre les soigne depuis six mois. À leur arrivée, ils étaient maigres et perdaient leurs plumes. Claire a dû leur prescrire des vitamines et du calcium, car leur corps, affaibli par le voyage, assurait mal l'absorption de ces éléments. « Sans une bonne absorption du calcium, explique-t-elle, les os deviennent fragiles. » Elle leur a surtout prescrit du calme : peu de visiteurs, de la lumière naturelle et des branches pour grimper.\n\nCe qui frappe Claire, c'est leur voix. Dans la nature, les gris du Gabon imitent les sons de leur forêt et les cris de leurs voisins. Chaque groupe possède ainsi ses propres cris, une sorte de dialecte. Des chercheurs ont montré que deux groupes séparés de quelques dizaines de kilomètres ne parlent pas tout à fait le même dialecte. Au refuge, les oiseaux venus de régions différentes ont d'abord poussé des cris très différents. Puis, peu à peu, une assimilation s'est produite : chacun a repris les sons des autres. Aujourd'hui, ils partagent un répertoire commun. Pour Claire, cette assimilation est le signe d'un groupe qui reprend vie. Quelques-uns imitent même la sonnerie de son téléphone.\n\nCes perroquets ne retourneront jamais sous les palmiers de leur forêt. Après des mois en captivité, ils ne sauraient plus survivre seuls, et ils ne sont donc pas éligibles à un retour en Afrique. Ils seront éligibles à l'adoption l'an prochain, mais seulement auprès de personnes formées, car un perroquet peut vivre plus de cinquante ans.\n\nClaire, elle, appelle au boycott des magasins qui vendent des perroquets sans certificat d'origine. « Tant qu'il y aura des acheteurs, les cartels continueront. Le boycott est notre meilleure arme. »\n\nQuestions :\nPourquoi le tribunal correctionnel de Marseille a-t-il jugé trois hommes ?\nParce qu'ils avaient fait entrer illégalement en France quarante-deux perroquets gris du Gabon pour un cartel.\nPourquoi le principal accusé était-il en état de récidive ?\nParce qu'il avait déjà été condamné pour les mêmes faits quatre ans plus tôt.\nQu'a dû prescrire Claire aux oiseaux ?\nDes vitamines et du calcium, car leur corps assurait mal l'absorption de ces éléments, et beaucoup de calme.\nQu'est-ce qu'un dialecte chez les perroquets ?\nCe sont les cris propres à chaque groupe, qui changent d'une région à l'autre.\nComment les oiseaux du refuge ont-ils créé un répertoire commun ?\nPar une assimilation : chacun a repris peu à peu les sons des autres.\nPourquoi ne sont-ils pas éligibles à un retour en Afrique ?\nParce qu'après des mois en captivité, ils ne sauraient plus survivre seuls."
+    },
+    {
+      "title": "Mon premier combat de reines",
+      "summary": "A young man from Lausanne goes to the Val d'Hérens with his fiancée and watches her family's cow fight for the title of queen.",
+      "newWords": [
+        "bovin",
+        "investiture",
+        "ancienneté",
+        "cumul",
+        "hercule",
+        "orge",
+        "boucherie",
+        "fiancé"
+      ],
+      "text": "Je suis le fiancé de Léa depuis un an, et ce printemps, elle m'a enfin emmené chez ses parents, dans le val d'Hérens, en Valais. « Tu ne peux pas m'épouser sans avoir vu un combat de reines », m'a-t-elle dit. Pour un garçon de Lausanne comme moi, le mot évoquait plutôt une partie d'échecs.\n\nLa famille de Léa élève des vaches de la race d'Hérens, une race bovine noire, courte et musclée, connue dans toute la Suisse. Ces bovins ont un caractère très particulier. Au printemps, quand on les rassemble avant la montée vers les prairies de montagne, les vaches se battent pour savoir laquelle dominera le troupeau. Elles se poussent tête contre tête, cornes contre cornes, jusqu'à ce que l'une recule. Il ne s'agit pas de tuer, mais de mesurer sa force.\n\nLe père de Léa m'a présenté Tornade, sa meilleure vache. « C'est un hercule, m'a-t-il dit, fier. Six cents kilos de muscles. » Tornade mange du foin et un peu d'orge, mais pas trop : une vache trop grasse se fatigue vite.\n\nLe dimanche, l'arène était pleine. Les vaches combattent par catégories, selon leur âge et leur poids. Le père de Léa m'a expliqué que, dans le troupeau, l'ancienneté compte beaucoup : une vieille vache qui a déjà gagné garde souvent son rang, simplement parce que les jeunes la respectent. Mais l'ancienneté ne suffit pas toujours. Ce jour-là, Tornade a dû affronter cinq adversaires, l'une après l'autre. C'est souvent le cumul des combats, plus que la force d'un seul, qui fait la différence : à la fin de la journée, la fatigue pèse lourd. Face à cet hercule qui ne reculait jamais, la dernière adversaire, une jeune génisse, a fini par tourner les talons.\n\nTornade a remporté sa catégorie. On lui a passé au cou une énorme cloche décorée de fleurs : c'est l'investiture de la reine. J'ai vu le père de Léa essuyer une larme. Après cette investiture, Tornade marchera en tête du troupeau tout l'été.\n\nLe soir, à table, j'ai posé une question naïve : que deviennent les vaches qui perdent ? « Elles ne partent pas à la boucherie, si c'est ce que tu crois », a dit le père de Léa en riant. Ici, une bonne vache d'Hérens vit longtemps ; tout le village la connaît par son nom. Une reine, elle, ne finit presque jamais à la boucherie. Léa m'a regardé : « Alors, le fiancé de la ville a compris ? » J'avais compris, et je reviendrai l'an prochain.\n\nQuestions :\nPourquoi Léa a-t-elle emmené son fiancé dans le val d'Hérens ?\nParce qu'elle voulait qu'il voie un combat de reines avant de l'épouser.\nPourquoi les vaches d'Hérens se battent-elles ?\nPour savoir laquelle dominera le troupeau avant la montée vers les prairies de montagne.\nQue mange Tornade ?\nElle mange du foin et un peu d'orge, mais pas trop, pour ne pas devenir trop grasse.\nQuel rôle joue l'ancienneté dans le troupeau ?\nUne vieille vache qui a déjà gagné garde souvent son rang, parce que les jeunes la respectent.\nPourquoi le cumul des combats compte-t-il ?\nParce qu'à la fin de la journée, la fatigue pèse lourd, et c'est souvent elle qui fait la différence.\nComment se passe l'investiture de la reine ?\nOn passe au cou de la vache une énorme cloche décorée de fleurs, et elle marche en tête du troupeau tout l'été."
+    },
+    {
+      "title": "Vivaldi à l'heure de la traite",
+      "summary": "A portrait of a Quebec dairy farmer, a former textile worker and separatist, who plays baroque music to his cows and always wears the same striped shirt.",
+      "newWords": [
+        "baroque",
+        "soja",
+        "séparatiste",
+        "utopie",
+        "manufacture",
+        "mural",
+        "rayé",
+        "vestimentaire",
+        "rabais"
+      ],
+      "text": "À 68 ans, Réjean Gagnon a eu plusieurs vies. Dans sa jeunesse, à Sherbrooke, il travaillait dans une manufacture de textile et militait le soir dans un mouvement séparatiste : il rêvait d'un Québec indépendant. Quand la manufacture a fermé, au milieu des années 1980, il a acheté une petite ferme laitière dans les Cantons-de-l'Est. « De ma période séparatiste, j'ai gardé le goût de l'indépendance, dit-il en souriant. Seulement, maintenant, c'est ma ferme qui est indépendante. »\n\nSa ferme compte quarante vaches. Sur le mur de la grange, une grande peinture murale montre un orchestre de vaches qui jouent du violon. Cette œuvre murale, peinte par sa petite-fille, rappelle l'habitude la plus célèbre de Réjean : chaque matin, pendant la traite, il fait jouer de la musique baroque dans la grange. Vivaldi le lundi, Bach le mardi, et ainsi de suite.\n\n« Au début, c'était presque une plaisanterie, raconte-t-il. Puis j'ai remarqué que les bêtes étaient plus calmes. » Selon lui, la musique baroque, avec son rythme lent et régulier, rassure les vaches. Les chercheurs restent prudents, mais plusieurs études vont dans son sens : une vache calme donne plus facilement son lait, et un bruit doux et régulier couvre les bruits brusques qui l'inquiètent.\n\nRéjean a remarqué un autre détail : ses vaches le reconnaissent à ses vêtements. Depuis vingt ans, il porte la même chemise rayée bleu et blanc pour la traite. Le jour où il est arrivé avec un manteau neuf, les vaches se sont agitées, comme devant un inconnu. Les bovins distinguent en effet les couleurs et associent une tenue à une personne. « Je n'ai aucun goût vestimentaire, dit-il en riant, mais j'ai une grande fidélité vestimentaire. » Il possède désormais six chemises rayées identiques.\n\nPour nourrir son troupeau, Réjean refuse d'acheter du soja vendu au rabais. Ce soja bon marché vient souvent de très loin, et sa qualité varie. Il cultive donc lui-même son foin et une partie de son soja. « Au rabais, rien n'est vraiment bon marché, dit-il. On finit toujours par payer quelque part. »\n\nSa ferme est-elle une utopie ? Il hausse les épaules. « Une utopie, c'est un rêve qui n'existe nulle part. Ma ferme, elle, existe bel et bien. » Il reconnaît pourtant que son modèle, avec peu de vaches, beaucoup de temps et de la musique dans la grange, ressemble pour beaucoup à une utopie, à l'heure des très grandes exploitations. Dans la grange, la musique reprend, et quarante têtes se tournent vers l'homme à la chemise rayée.\n\nQuestions :\nQue faisait Réjean dans sa jeunesse ?\nIl travaillait dans une manufacture de textile à Sherbrooke et militait dans un mouvement séparatiste.\nQue montre la peinture murale de la grange ?\nElle montre un orchestre de vaches qui jouent du violon.\nPourquoi Réjean fait-il jouer de la musique baroque pendant la traite ?\nParce que son rythme lent et régulier rassure les vaches, et qu'une vache calme donne plus facilement son lait.\nPourquoi porte-t-il toujours une chemise rayée ?\nParce que ses vaches le reconnaissent à ses vêtements et s'agitent quand sa tenue change.\nPourquoi refuse-t-il le soja vendu au rabais ?\nParce que ce soja vient souvent de très loin et que sa qualité varie.\nSa ferme est-elle une utopie selon lui ?\nNon : pour lui, une utopie n'existe nulle part, alors que sa ferme existe bel et bien."
+    },
+    {
+      "title": "Le casseur d'os",
+      "summary": "At a village fête in the Pyrenees, a biologist explains how the bearded vulture lives on bones and how it came back to the mountains.",
+      "newWords": [
+        "moelle",
+        "osseux",
+        "épopée",
+        "téléphonie",
+        "élargissement",
+        "prophétie",
+        "patronal"
+      ],
+      "text": "Le gypaète barbu, le plus grand vautour d'Europe, avait presque disparu des Pyrénées il y a cinquante ans. Il revient aujourd'hui. Nous avons rencontré Hélène Laborde, biologiste, à la fête patronale de son village de l'Ariège, où elle tenait un stand consacré à cet oiseau étonnant.\n\nPourquoi tenir un stand à une fête patronale ?\nParce que tout le monde y vient : les bergers, les chasseurs, les familles. C'est la troisième fête patronale où je présente l'oiseau, et chaque année, les gens posent davantage de questions.\n\nPourquoi l'appelle-t-on le « casseur d'os » ?\nParce que c'est presque tout ce qu'il mange ! Son régime est osseux à 80 %. Il arrive après les autres vautours, quand il ne reste d'un animal mort que le squelette. Il avale des os entiers, longs parfois de vingt centimètres, et son estomac est si acide qu'il les digère en quelques heures. Ce qu'il cherche surtout, c'est la moelle, très riche en graisse. Pour lui, la moelle est un repas complet.\n\nEt quand l'os est trop grand pour être avalé ?\nIl le prend dans ses pattes, monte à cinquante ou cent mètres, et le lâche sur les rochers. L'os éclate, et l'oiseau descend chercher les morceaux. Il recommence parfois vingt fois de suite. Les jeunes ratent souvent leur coup ; il leur faut des années pour choisir le bon rocher. C'est un apprentissage, et pas un simple instinct.\n\nComment a-t-il presque disparu ?\nOn l'accusait d'enlever les agneaux, ce qui est faux : il ne chasse pas. On l'a chassé, on l'a empoisonné. Mon grand-père répétait une vieille prophétie de bergers : « Quand le casseur d'os quittera la montagne, les troupeaux la quitteront aussi. » La prophétie s'est presque réalisée : dans les années 1970, les bergers et les oiseaux disparaissaient en même temps.\n\nEt son retour ?\nC'est une véritable épopée. Il a fallu protéger les derniers couples, convaincre les bergers, relâcher des jeunes nés en captivité. Cette épopée a duré quarante ans, et elle n'est pas finie.\n\nComment suivez-vous les oiseaux ?\nCertains portent une petite balise sur le dos. Elle enregistre leur position et l'envoie par le réseau de téléphonie mobile, comme un simple message. Là où la téléphonie ne passe pas, au fond des vallées, les données attendent que l'oiseau remonte. Grâce à ces balises, nous observons un élargissement de son territoire : il revient dans des vallées qu'il avait quittées depuis un siècle. Cet élargissement dépend des bergers, car l'oiseau a besoin des restes osseux des brebis mortes en montagne.\n\nQuestions :\nOù avons-nous rencontré Hélène Laborde ?\nÀ la fête patronale de son village de l'Ariège, où elle tenait un stand sur le gypaète barbu.\nPourquoi appelle-t-on cet oiseau le « casseur d'os » ?\nParce que son régime est osseux à 80 % : il avale des os entiers pour en manger la moelle.\nQue fait-il quand un os est trop grand ?\nIl le lâche de haut sur les rochers pour le faire éclater, puis il descend chercher les morceaux.\nQue disait la vieille prophétie des bergers ?\nElle disait que, quand le casseur d'os quitterait la montagne, les troupeaux la quitteraient aussi.\nComment les biologistes suivent-ils les oiseaux ?\nGrâce à une petite balise qui envoie leur position par le réseau de téléphonie mobile.\nPourquoi l'élargissement de son territoire dépend-il des bergers ?\nParce que l'oiseau a besoin des restes osseux des brebis mortes en montagne."
+    }
+  ]
+}

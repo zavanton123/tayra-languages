@@ -1,0 +1,230 @@
+{
+  "id": "fr-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Santé publique",
+  "description": "Ten reports, interviews and columns on public health across the French-speaking world, from a food-poisoning inquiry in Normandy and nomad vaccination in Chad to a Brussels listening line, a Quebec knitting circle and organ donation in Liège.",
+  "topic": "Public health",
+  "names": [
+    "Calvados",
+    "Caen",
+    "Lisieux",
+    "Claire",
+    "Lemoine",
+    "Tchad",
+    "Halimé",
+    "Abakar",
+    "Moussa",
+    "Sahel",
+    "Bruxelles",
+    "Isabelle",
+    "Morel",
+    "Lyon",
+    "France",
+    "Nièvre",
+    "Lausanne",
+    "Flon",
+    "Luca",
+    "Bernasconi",
+    "Noé",
+    "Dalí",
+    "Afrique",
+    "Amérique",
+    "Chicoutimi",
+    "Saguenay",
+    "Lucie",
+    "Tremblay",
+    "Gérard",
+    "Thérèse",
+    "Besançon",
+    "Doubs",
+    "Odette",
+    "Girard",
+    "Maricel",
+    "Manille",
+    "Vauban",
+    "Asie",
+    "Russie",
+    "Pologne",
+    "Paris",
+    "Lamarque",
+    "Victor",
+    "Hugo",
+    "Louis",
+    "Pasteur",
+    "Belgique",
+    "Sophie",
+    "Lambert",
+    "Liège",
+    "Verviers",
+    "Thomas",
+    "Seraing"
+  ],
+  "lessons": [
+    {
+      "title": "L'enquête du pâté en gelée",
+      "summary": "A health inspector in Normandy rebuilds the timeline of a food-poisoning outbreak and traces it to a small meat workshop with a broken cold room.",
+      "newWords": [
+        "abattoir",
+        "contaminer",
+        "emballer",
+        "gelée",
+        "chronologie",
+        "irresponsable",
+        "impunité",
+        "indemnisation",
+        "éclaircir",
+        "immatriculation"
+      ],
+      "text": "Au mois de juin, dans le Calvados, une vingtaine de personnes sont tombées malades en quelques jours : fièvre, maux de ventre, grande fatigue. Les médecins ont vite trouvé la cause, une bactérie qui se développe dans les aliments mal conservés. Restait à savoir lesquels. C'est le métier de Claire Lemoine, inspectrice des services sanitaires à Caen depuis quinze ans.\n\n« Dans ce genre d'affaire, la première chose à faire, c'est d'établir la chronologie, explique-t-elle. Qui a mangé quoi, où et quand. » Avec deux collègues, elle a appelé chacun des malades. Peu à peu, la chronologie s'est éclaircie : tous avaient acheté, dans la semaine précédente, un pâté de campagne en gelée vendu sur les marchés de la région. La gelée, faite à partir de bouillon, est un milieu idéal pour les bactéries si la chaîne du froid n'est pas respectée.\n\nIl fallait encore éclaircir l'origine du produit. Les étiquettes menaient à un petit atelier près de Lisieux, qui achetait sa viande dans un abattoir du département. Claire a d'abord inspecté l'abattoir. Tout y était en ordre : les températures étaient notées chaque heure, les salles étaient propres. « Un abattoir est très surveillé, dit-elle. Le problème vient plus souvent de ce qui se passe ensuite. »\n\nÀ l'atelier, en revanche, les inspecteurs ont trouvé une chambre froide en panne depuis une semaine. Les ouvriers continuaient pourtant d'emballer les pâtés comme si de rien n'était. On les emballait encore tièdes, puis on les chargeait dans un petit camion sans réfrigération. Grâce à son immatriculation, relevée par une caméra à l'entrée d'un marché, les inspecteurs ont pu suivre le trajet du camion : il avait passé une matinée entière au soleil, sur un parking, avant de livrer les commerçants. Les analyses ont montré que la viande, saine à la sortie de l'abattoir, avait été contaminée à l'atelier. Au total, près de huit cents pâtés contaminés avaient été vendus.\n\nLe patron a reconnu qu'il avait voulu « éviter de perdre la marchandise ». Pour Claire, c'est un comportement irresponsable : « Garder une chambre froide en panne et continuer à emballer de la viande, c'est irresponsable. Ce n'est pas une erreur, c'est un choix. » L'atelier a été fermé, et l'affaire a été transmise à la justice. « Il ne doit pas y avoir d'impunité dans ce domaine, ajoute-t-elle. L'impunité, c'est un encouragement pour les autres. »\n\nLes malades, eux, sont tous guéris. Ils ont demandé une indemnisation pour les jours de travail perdus et les frais médicaux ; l'assurance de l'atelier devrait verser cette indemnisation dans les prochains mois.\n\nQuestions :\nPourquoi Claire Lemoine commence-t-elle par établir la chronologie ?\nParce qu'il faut savoir qui a mangé quoi, où et quand, pour trouver l'aliment responsable.\nPourquoi le pâté en gelée est-il un produit fragile ?\nParce que la gelée est un milieu idéal pour les bactéries si la chaîne du froid n'est pas respectée.\nOù la viande a-t-elle été contaminée ?\nElle a été contaminée à l'atelier, et non à l'abattoir, où tout était en ordre.\nComment les inspecteurs ont-ils suivi le camion ?\nIls l'ont suivi grâce à son immatriculation, relevée par une caméra à l'entrée d'un marché.\nQue demandent les malades ?\nIls demandent une indemnisation pour les jours de travail perdus et les frais médicaux."
+    },
+    {
+      "title": "Les vaccins traversent le fleuve",
+      "summary": "In eastern Chad, a multi-skilled nurse and a vet cross a river with a ferryman to vaccinate the children and the herds of nomadic families.",
+      "newWords": [
+        "nomade",
+        "ethnie",
+        "passeur",
+        "polyvalent",
+        "œuvrer",
+        "acharné",
+        "armer",
+        "sévir",
+        "alphabet",
+        "prononciation"
+      ],
+      "text": "Dans l'est du Tchad, la saison des pluies change tout. Les pistes deviennent des rivières, et les familles nomades partent vers le nord avec leurs troupeaux. Halimé Abakar, 38 ans, les suit depuis dix ans. Elle est infirmière polyvalente : elle vaccine, soigne les plaies, suit les femmes enceintes et, quand il le faut, arrache une dent. « Ici, on ne peut pas être spécialiste, dit-elle en riant. Il faut être polyvalent, ou rester en ville. »\n\nPour les nomades, le centre de santé le plus proche est à quatre jours de marche. Alors c'est l'équipe qui va vers eux. Deux fois par an, Halimé part avec un vétérinaire et un chauffeur, dans une voiture chargée de caisses froides. L'idée est simple : le vétérinaire vaccine les bêtes, l'infirmière vaccine les enfants. Les éleveurs, qui ne se déplaceraient pas pour eux-mêmes, viennent volontiers pour leurs vaches, et ils amènent leurs enfants.\n\nCe matin-là, il faut d'abord traverser le fleuve. Sur la rive, Moussa les attend avec sa grande barque. Il est passeur depuis vingt ans, comme son père avant lui. Le passeur charge les caisses une par une, avec un soin de chirurgien : si l'eau entre dans une caisse, ce sont des centaines de doses perdues. Halimé dit souvent qu'elle est, elle aussi, une sorte de passeuse : elle fait passer les connaissances de la ville vers les campagnes, et les inquiétudes des familles vers les médecins.\n\nDans cette région, plusieurs ethnies vivent côte à côte, chacune avec sa langue et ses habitudes. Halimé a appris à saluer les familles dans la langue de chaque ethnie. Sa prononciation fait parfois rire les enfants. « Je préfère qu'ils rient de ma prononciation plutôt qu'ils aient peur de mon aiguille », dit-elle.\n\nLa plupart des mères n'ont jamais appris l'alphabet. Le carnet de vaccination, écrit en lettres latines, ne leur dit rien. L'équipe a donc inventé un carnet qui se passe de l'alphabet : un soleil pour la première dose, une lune pour la deuxième, une étoile pour la troisième.\n\nCar des maladies que l'on sait éviter sévissent encore ici. Quand une épidémie sévit dans un village de tentes, elle peut emporter plusieurs enfants en une semaine. Pour armer les familles contre ces maladies, il faut des vaccins, mais aussi du temps : il faut s'armer de patience pour expliquer, rassurer, revenir. Halimé œuvre ainsi depuis dix ans, avec une énergie acharnée. Elle n'est pas seule : des centaines d'agents de santé œuvrent comme elle dans tout le Sahel, dans un travail acharné et discret.\n\nLe lendemain, Moussa les ramènera de l'autre côté du fleuve.\n\nQuestions :\nPourquoi Halimé dit-elle qu'il faut être polyvalent ?\nParce que, loin des villes, elle doit tout faire : vacciner, soigner les plaies, suivre les femmes enceintes et même arracher une dent.\nPourquoi l'équipe vient-elle avec un vétérinaire ?\nParce que les éleveurs nomades viennent volontiers pour faire vacciner leurs vaches, et ils amènent alors leurs enfants.\nQuel est le travail de Moussa ?\nMoussa est passeur : avec sa barque, il fait traverser le fleuve à l'équipe et aux caisses de vaccins.\nPourquoi les enfants rient-ils parfois ?\nIls rient de la prononciation de Halimé, qui a appris à saluer les familles dans la langue de chaque ethnie.\nComment l'équipe a-t-elle adapté le carnet de vaccination ?\nComme la plupart des mères n'ont pas appris l'alphabet, elle utilise des dessins : un soleil, une lune et une étoile."
+    },
+    {
+      "title": "Une nuit au bout du fil",
+      "summary": "A volunteer on a Brussels listening line describes one night of calls: a silent caller, a proud widower and a mother worried about her son.",
+      "newWords": [
+        "raccrocher",
+        "pudeur",
+        "orgueil",
+        "agitation",
+        "délivrance",
+        "frustrant",
+        "individuellement",
+        "psychanalyse",
+        "instabilité",
+        "crack"
+      ],
+      "text": "Le jeudi, de 22 heures à 2 heures du matin, je réponds au téléphone dans un petit bureau de Bruxelles. Je suis bénévole sur une ligne d'écoute anonyme depuis trois ans. Je ne suis ni psychologue ni spécialiste de la psychanalyse : j'ai reçu une formation de six mois, en groupe puis individuellement, et je rencontre encore une psychologue individuellement une fois par mois. Notre rôle est d'écouter.\n\nLe premier appel de la nuit est arrivé à 22 h 15. Personne ne parlait. J'ai dit doucement : « Je suis là. Prenez votre temps. » Au bout de deux minutes, la personne a raccroché. C'est le plus frustrant de ce travail : on ne sait jamais ce que devient celui qui raccroche. Parfois, entendre une voix suffit pour ce soir-là ; la personne rappellera peut-être un autre jour, et elle ne raccrochera pas.\n\nVers minuit, un homme a appelé. Il avait 74 ans et il était veuf depuis un an. Il a fini par parler de sa solitude. Il en parlait avec une grande pudeur, en cherchant ses mots, comme s'il avouait une faute. « Je n'ai rien dit à mes enfants, m'a-t-il confié. C'est de l'orgueil, je sais. Un père ne se plaint pas. » Cet orgueil et cette pudeur, je les entends souvent chez les hommes de sa génération. Je lui ai demandé ce qu'il aimait faire autrefois. Il m'a parlé de son jardin pendant vingt minutes, et sa voix a changé. Avant de raccrocher, il m'a dit : « Ça fait du bien. C'est presque une délivrance. »\n\nÀ 1 h 30, une femme a appelé. Dans sa voix, il y avait une agitation que je connais bien : elle parlait vite, revenait sans cesse en arrière. Son fils de 27 ans fume du crack depuis deux ans. Elle m'a décrit son instabilité : il dort chez elle une semaine, puis disparaît, change de travail, d'amis, d'humeur. « Le crack m'a pris mon fils », a-t-elle dit. Je lui ai donné l'adresse d'un service qui aide les familles touchées par le crack, et je l'ai écoutée. Peu à peu, son agitation s'est calmée. Elle a fini par dire : « Je n'en avais jamais parlé à personne. Le dire à voix haute, c'est une délivrance. »\n\nÀ 2 heures, j'ai laissé ma place à la bénévole suivante. Comme chaque fois, je suis rentrée à pied, dans les rues vides, en pensant à ces voix. C'est un travail parfois frustrant, mais je n'ai jamais pensé à arrêter.\n\nQuestions :\nQuelle formation la narratrice a-t-elle reçue ?\nElle a reçu une formation de six mois, en groupe puis individuellement, mais elle n'est ni psychologue ni spécialiste de la psychanalyse.\nPourquoi le premier appel est-il frustrant ?\nParce que la personne a raccroché sans parler, et la narratrice ne saura jamais ce qu'elle est devenue.\nComment le vieil homme parlait-il de sa solitude, et pourquoi n'avait-il rien dit à ses enfants ?\nIl en parlait avec une grande pudeur, et il n'avait rien dit par orgueil, parce qu'un père, selon lui, ne se plaint pas.\nPourquoi la troisième personne s'inquiète-t-elle ?\nElle s'inquiète pour son fils, qui fume du crack et vit dans une grande instabilité.\nComment l'agitation de cette femme a-t-elle changé ?\nElle s'est calmée peu à peu, et la femme a dit que parler était une délivrance."
+    },
+    {
+      "title": "Le cœur et les artères",
+      "summary": "A Lyon cardiologist explains in an interview what science really knows about food, salt and heart disease, and why she puts prevention first.",
+      "newWords": [
+        "vasculaire",
+        "corrélation",
+        "chips",
+        "amande",
+        "prôner",
+        "surcroît",
+        "généralisation",
+        "conditionnel",
+        "aucunement",
+        "primer"
+      ],
+      "text": "Le docteur Isabelle Morel soigne les maladies du cœur à Lyon depuis vingt-cinq ans. Elle vient de publier un livre sur la prévention. Nous l'avons rencontrée dans son cabinet.\n\nPourquoi parlez-vous plus souvent de « santé vasculaire » que de « santé du cœur » ?\nParce que le cœur n'est qu'une partie du problème. Les accidents vasculaires, au cœur comme au cerveau, viennent presque toujours de l'état des artères. Avec les cancers, les maladies vasculaires restent l'une des premières causes de mortalité en France.\n\nOn lit chaque semaine qu'un aliment protège le cœur ou, au contraire, le menace. Que faut-il croire ?\nLa plupart des études trouvent une corrélation, pas une cause. Si les gens qui mangent des amandes ont moins de maladies vasculaires, ce n'est pas forcément grâce aux amandes : ils font peut-être plus de sport, fument moins, gagnent mieux leur vie. Une corrélation n'est pas une preuve. C'est pourquoi les chercheurs sérieux écrivent au conditionnel : tel aliment « pourrait » réduire le risque. Les journaux, eux, oublient souvent le conditionnel.\n\nVous n'êtes donc aucunement contre les amandes ?\nAucunement ! Une poignée d'amandes vaut bien mieux qu'un paquet de chips. Ce que je reproche aux chips, ce n'est pas leur goût, c'est leur sel. Un grand paquet de chips peut contenir une bonne partie du sel qu'on devrait consommer en une journée. Or le sel fait monter la tension, et cela, pour le coup, est une cause bien établie, pas une simple corrélation.\n\nQue prônez-vous, alors ?\nJe ne prône aucun régime miracle. Je prône des choses simples et un peu ennuyeuses : marcher chaque jour, ne pas fumer, cuisiner soi-même, limiter le sel et le sucre. Ces conseils coûtent peu, et, de surcroît, ils protègent aussi contre beaucoup d'autres maladies. Un surcroît d'efforts au quotidien évite souvent un surcroît de médicaments plus tard.\n\nVotre livre plaide aussi pour la généralisation de certains examens.\nOui. Aujourd'hui, beaucoup de gens découvrent que leur tension est trop élevée le jour de leur premier accident. Je souhaite la généralisation d'un contrôle de la tension et du sang à 40 ans, en pharmacie comme chez le médecin. Cette généralisation coûterait de l'argent, mais beaucoup moins que les années d'hôpital qu'elle éviterait.\n\nVous semblez plus intéressée par la prévention que par les soins.\nJe pense que la prévention doit primer. Pendant longtemps, à l'hôpital, la technique a primé sur tout le reste : on était fier d'ouvrir une artère bouchée, beaucoup moins de l'avoir protégée. Un patient qui n'arrive jamais dans mon service, c'est ma plus belle réussite, même si personne ne la voit.\n\nQuestions :\nPourquoi le docteur Morel parle-t-elle de « santé vasculaire » ?\nParce que les accidents vasculaires, au cœur comme au cerveau, viennent presque toujours de l'état des artères.\nQuelle différence fait-elle entre une corrélation et une cause ?\nUne corrélation montre que deux choses vont ensemble, mais elle ne prouve pas que l'une cause l'autre.\nPourquoi les chercheurs sérieux écrivent-ils au conditionnel ?\nParce qu'ils ne veulent pas affirmer plus que ce que leurs études montrent.\nQue reproche-t-elle aux chips ?\nElle leur reproche leur sel, qui fait monter la tension.\nQue prône-t-elle ?\nElle prône des choses simples : marcher, ne pas fumer, cuisiner soi-même, limiter le sel et le sucre, et la généralisation d'un contrôle à 40 ans."
+    },
+    {
+      "title": "Les mercenaires de l'hôpital",
+      "summary": "A columnist from rural Burgundy weighs the case for and against the highly paid stand-in doctors who keep small emergency departments open.",
+      "newWords": [
+        "mercenaire",
+        "rémunérer",
+        "législateur",
+        "affectation",
+        "mécontentement",
+        "privatisation",
+        "fisc",
+        "providence",
+        "arrogant",
+        "marxiste"
+      ],
+      "text": "Dans le petit hôpital de ma ville, dans la Nièvre, les urgences ont failli fermer trois fois l'été dernier. Elles n'ont tenu que grâce à des médecins venus pour quelques jours, payés plus de mille euros pour une garde de vingt-quatre heures. Un ministre les a un jour appelés « les mercenaires de l'hôpital ». Le mot a choqué. Il mérite pourtant qu'on s'y arrête.\n\nUn mercenaire, au sens propre, est un soldat qui se bat pour celui qui le paie, et non pour son pays. Le mot suggère que ces médecins ne servent pas la santé publique, mais leur compte en banque. Il y a du vrai : certains choisissent leurs gardes comme on choisit des vacances, et refusent de revenir si on ne les rémunère pas davantage. Pendant ce temps, leurs collègues de l'hôpital, qui font le même travail dans le même service, sont rémunérés deux ou trois fois moins. On comprend leur mécontentement. Ce mécontentement grandit encore lorsque certains remplaçants se montrent arrogants, comme si l'hôpital leur devait sa survie.\n\nIl faut pourtant regarder l'autre côté. Ces médecins ne sont pas la cause du problème : ils en sont le symptôme. Si l'hôpital doit les payer si cher, c'est qu'il ne trouve personne pour une affectation durable. Les jeunes médecins refusent une affectation dans une ville sans gare, sans lycée, sans emploi pour leur conjoint. Sans eux, les urgences de ma ville seraient fermées depuis longtemps. Les mercenaires, si l'on tient au mot, ont aussi sauvé des vies.\n\nLe législateur a voulu limiter ces rémunérations. Il a fixé un plafond, que beaucoup d'hôpitaux contournent, faute d'autre solution. Le législateur peut interdire, mais il ne peut pas fabriquer des médecins. Certains proposent d'aller plus loin, jusqu'à la privatisation des petits hôpitaux qui coûtent trop cher. D'autres y voient le début de la fin de l'État-providence. Il n'est pas nécessaire d'être marxiste pour craindre qu'une telle privatisation ne laisse les campagnes sans soins : il suffit de faire ses comptes. Même le lecteur le moins marxiste conviendra que le marché, à lui seul, ne fera pas venir un médecin dans la Nièvre.\n\nL'État-providence, financé par nos cotisations et par le fisc, garantit en principe à chacun l'accès aux soins. Je paie donc mes impôts sans regret. Encore faut-il que cette providence arrive jusqu'ici.\n\nJe ne sais pas s'il faut aimer ou détester les mercenaires de l'hôpital. Je sais seulement que, la nuit où ma voisine a fait un malaise, c'est l'un d'eux qui l'a soignée.\n\nQuestions :\nPourquoi un ministre a-t-il appelé ces médecins « les mercenaires de l'hôpital » ?\nParce qu'ils travaillent quelques jours dans un hôpital et sont très bien payés, comme des soldats qui se battent pour celui qui les paie.\nPourquoi les médecins de l'hôpital sont-ils mécontents ?\nParce qu'ils font le même travail mais sont rémunérés deux ou trois fois moins, et que certains remplaçants se montrent arrogants.\nPourquoi l'hôpital doit-il payer ces remplaçants si cher ?\nParce qu'il ne trouve personne pour une affectation durable dans une petite ville sans gare ni lycée.\nQue pense l'auteur de la privatisation des petits hôpitaux ?\nIl craint qu'elle ne laisse les campagnes sans soins, car le marché seul ne fera pas venir un médecin dans la Nièvre.\nComment l'État-providence est-il financé ?\nIl est financé par les cotisations et par le fisc."
+    },
+    {
+      "title": "Des mains sorties de l'imprimante",
+      "summary": "In Lausanne, an engineer designs cheap 3D-printed hands for children and helps a nine-year-old boy choose and paint his first one.",
+      "newWords": [
+        "imprimante",
+        "concepteur",
+        "tutoriel",
+        "binaire",
+        "finition",
+        "perfectionner",
+        "chrome",
+        "pinceau",
+        "figurine",
+        "surréaliste"
+      ],
+      "text": "Dans un atelier du quartier du Flon, à Lausanne, une machine travaille en silence depuis six heures du matin. C'est une imprimante 3D : au lieu d'encre, elle dépose couche après couche un fil de plastique fondu. Ce matin, elle fabrique une main. Son concepteur, Luca Bernasconi, 41 ans, est ingénieur. Depuis cinq ans, il conçoit des mains artificielles pour des enfants nés sans main ou qui en ont perdu une.\n\nTout a commencé par un jeu. Luca avait acheté une petite imprimante pour fabriquer des figurines avec ses fils : des dinosaures, des chevaliers, des figurines de leurs héros préférés. Un jour, il a trouvé sur internet un tutoriel qui expliquait comment imprimer une main simple, que l'on fait bouger par un mouvement du poignet. Il a suivi le tutoriel pendant un week-end, et le résultat l'a stupéfait. « Une main artificielle classique pour enfant coûte des milliers de francs, et l'enfant grandit en un an, explique-t-il. Une main imprimée coûte le prix d'un repas au restaurant. »\n\nDepuis, il n'a cessé de perfectionner ses modèles. Les anciennes mains, en acier et en chrome, étaient lourdes et froides. Les siennes pèsent moins de 200 grammes. Pour perfectionner une articulation, il dessine le modèle à l'ordinateur, qui le traduit en langage binaire, une suite de 0 et de 1 que l'imprimante sait lire. « Pour la machine, tout est binaire. Pour un enfant, rien ne l'est : il veut une main qui marche, mais aussi une main qui lui plaît. »\n\nAujourd'hui, Noé, 9 ans, vient chercher sa première main. Il est né sans main gauche. Avec sa mère, il a choisi les couleurs il y a trois semaines. Il voulait une main « comme dans un rêve » : bleue, couverte d'étoiles, avec de petits yeux sur les doigts. Le résultat est un peu surréaliste, Luca le reconnaît en souriant : « Dalí aurait aimé. Une main surréaliste, ça se montre dans la cour de l'école. Une main couleur de peau, ça se cache. »\n\nL'impression ne prend qu'une nuit ; la finition, elle, demande une journée entière. Il faut nettoyer chaque pièce, assembler les doigts, régler les fils. Pour les étoiles, Luca prend un pinceau très fin et peint à la main. Noé a demandé à donner lui-même le dernier coup de pinceau. La finition est un peu moins régulière, mais c'est désormais sa main.\n\nLuca ne garde rien pour lui. Il publie ses plans gratuitement et a réalisé son propre tutoriel, déjà suivi par des bénévoles en Afrique et en Amérique du Sud. « Le concepteur, ce n'est pas moi seul, dit-il. Chaque famille apporte une idée. Noé m'a appris qu'une main pouvait avoir des yeux. »\n\nEn sortant, Noé a ramassé une balle avec ses nouveaux doigts bleus, et il ne l'a plus lâchée.\n\nQuestions :\nComment Luca a-t-il commencé à fabriquer des mains ?\nIl imprimait des figurines avec ses fils, puis il a suivi sur internet un tutoriel qui expliquait comment imprimer une main simple.\nEn quoi les anciennes mains artificielles étaient-elles faites ?\nElles étaient faites en acier et en chrome, et elles étaient lourdes et froides.\nQue signifie « binaire » pour l'imprimante ?\nL'ordinateur traduit le modèle en langage binaire, une suite de 0 et de 1 que l'imprimante sait lire.\nPourquoi la main de Noé est-elle un peu surréaliste ?\nParce qu'elle est bleue, couverte d'étoiles, avec de petits yeux sur les doigts.\nQu'a fait Noé pendant la finition ?\nIl a donné lui-même le dernier coup de pinceau."
+    },
+    {
+      "title": "Le cercle des écharpes",
+      "summary": "In a Saguenay winter, a social worker runs a knitting circle where isolated elderly people, led by a retired tailor, make scarves for the homeless.",
+      "newWords": [
+        "écharpe",
+        "maille",
+        "nuque",
+        "mutuellement",
+        "concorde",
+        "haleine",
+        "tailleur",
+        "zen",
+        "perpétuer",
+        "romance"
+      ],
+      "text": "À Chicoutimi, au Saguenay, l'hiver dure près de six mois. En janvier, il fait souvent moins trente degrés. Les personnes âgées sortent peu, et beaucoup passent des semaines sans parler à personne. Pour la santé publique, cette solitude n'est pas un détail : on sait aujourd'hui qu'elle augmente le risque de dépression, de chutes et même de maladies du cœur. C'est pour la combattre que Lucie Tremblay, travailleuse sociale au centre de santé du quartier, a créé il y a quatre ans le « cercle des écharpes ».\n\nChaque mardi après-midi, une douzaine de personnes se retrouvent dans la salle d'une église. Pour venir, elles marchent dans le froid ; leur haleine forme de petits nuages blancs dans l'air glacé, et l'on reconnaît de loin, à son haleine fumante, chaque membre qui arrive. À l'intérieur, il y a du café, des biscuits et des paniers de laine. Le but : tricoter des écharpes pour les sans-abri de la ville.\n\nLe cœur du groupe, c'est Gérard, 83 ans. Il a été tailleur pendant cinquante ans ; il a coupé des costumes pour la moitié des hommes de Chicoutimi. « Un tailleur sait coudre, pas tricoter, dit-il. C'est ma femme qui m'a appris les mailles, l'année avant sa mort. » Aujourd'hui, c'est lui qui apprend aux autres à monter les mailles, à les compter, à reprendre une maille perdue. Il est exigeant comme un vieux tailleur : une écharpe doit être assez longue pour faire deux fois le tour du cou et couvrir la nuque. « Le froid entre par la nuque, répète-t-il. Une écharpe qui ne protège pas la nuque, ce n'est pas une écharpe. »\n\nLucie a remarqué que le cercle change les gens. Les membres s'aident mutuellement : ils s'appellent quand l'un d'eux manque une semaine et se conduisent mutuellement chez le médecin. Les disputes sont rares ; le groupe vit dans une concorde que Lucie n'a pas souvent vue ailleurs. « La concorde vient peut-être du rythme, dit-elle. Quand on compte ses mailles, on n'a pas le temps de se disputer. »\n\nThérèse, 79 ans, le confirme : « Chez moi, je m'inquiète de tout. Ici, avec mes aiguilles, je deviens zen. » Rester zen à 79 ans, en plein hiver, n'est pas une petite victoire.\n\nVers la fin de l'après-midi, quelqu'un allume la radio. On y passe de vieilles romances des années 1950, et Gérard chante à voix basse les romances que sa femme aimait. Pour Lucie, ces moments comptent autant que les écharpes : ils permettent de perpétuer un savoir, des chansons, une façon d'être ensemble. Deux adolescentes du quartier viennent maintenant apprendre avec Gérard. Elles aideront peut-être, un jour, à perpétuer le cercle.\n\nQuestions :\nPourquoi Lucie Tremblay a-t-elle créé le cercle des écharpes ?\nElle l'a créé pour combattre la solitude des personnes âgées, qui augmente le risque de dépression, de chutes et de maladies du cœur.\nQuel métier Gérard a-t-il exercé ?\nIl a été tailleur pendant cinquante ans.\nPourquoi une écharpe doit-elle couvrir la nuque, selon Gérard ?\nParce que, selon lui, le froid entre par la nuque.\nComment les membres du cercle s'aident-ils mutuellement ?\nIls s'appellent quand l'un d'eux manque une semaine et se conduisent chez le médecin.\nQue permettent les vieilles romances écoutées à la radio ?\nElles permettent de perpétuer un savoir, des chansons et une façon d'être ensemble."
+    },
+    {
+      "title": "L'été sous les toits",
+      "summary": "During a heat wave in Besançon, a Filipino home carer looks after an 88-year-old woman in her attic flat, and the city opens the cool rooms of its old fortress.",
+      "newWords": [
+        "citadelle",
+        "muraille",
+        "bastion",
+        "infernal",
+        "trappe",
+        "bailleur",
+        "philippine",
+        "convenable"
+      ],
+      "text": "Besançon est une ville de vieilles maisons et d'eau, entourée par une boucle du Doubs et dominée par une immense citadelle construite au dix-septième siècle. Ses murailles épaisses ont longtemps protégé la ville contre les armées ennemies. L'été dernier, elles l'ont protégée contre un autre ennemi : la chaleur. Pendant dix jours, la température a dépassé 38 degrés.\n\nOdette Girard, 88 ans, vit seule au cinquième étage d'un vieil immeuble du centre, juste sous le toit. En hiver, son appartement est agréable. En été, c'est un four. « La chaleur était infernale, raconte-t-elle. Même la nuit, il faisait 32 degrés dans ma chambre. » Au plafond du couloir, une petite trappe donne sur le grenier, où l'air brûlant s'accumule. Odette n'a jamais pu ouvrir cette trappe : elle est trop haute pour elle.\n\nHeureusement, Odette est inscrite sur la liste des personnes fragiles de la mairie. Chaque matin, elle reçoit la visite de Maricel, son aide à domicile. Maricel est philippine ; elle est arrivée de Manille il y a douze ans et parle un français soigné, avec un léger accent. Dans la communauté philippine de la ville, beaucoup de femmes travaillent comme elle auprès des personnes âgées. Pendant la vague de chaleur, Maricel a appliqué les conseils qu'on lui avait donnés : fermer les volets dès le matin, faire boire Odette toutes les heures, lui mouiller le visage et les bras. Elle est même montée sur une chaise pour ouvrir la trappe le soir, afin de laisser sortir l'air chaud du grenier, puis la refermer le matin.\n\nLe troisième jour, la chaleur est devenue trop forte. Maricel a conduit Odette dans une salle fraîche ouverte par la ville, à l'intérieur même de la citadelle. Derrière des murailles de plusieurs mètres d'épaisseur, la température ne dépasse jamais 22 degrés. Les anciens bastions, construits pour les soldats, accueillaient des personnes âgées venues de tout le quartier. « J'ai passé l'après-midi dans un bastion de Vauban, dit Odette en riant. À mon âge, je ne pensais pas entrer dans l'armée ! » Dans un autre bastion, des bénévoles servaient de l'eau fraîche et des fruits.\n\nCette histoire finit bien, mais elle pose une question. Est-il convenable qu'une femme de 88 ans vive dans un logement où il fait plus de 30 degrés la nuit ? La loi oblige le bailleur à louer un logement convenable, mais elle parle surtout du chauffage, rarement de la chaleur. Le bailleur d'Odette, une société de la ville, a promis d'isoler le toit avant l'été prochain. Avec le réchauffement du climat, les étés infernaux seront de plus en plus fréquents, et toutes les villes n'ont pas une citadelle pour abriter leurs anciens.\n\nQuestions :\nPourquoi l'appartement d'Odette est-il si chaud en été ?\nParce qu'il est juste sous le toit, et que l'air brûlant s'accumule dans le grenier, au-dessus de la trappe.\nQui est Maricel ?\nC'est l'aide à domicile d'Odette ; elle est philippine et vit en France depuis douze ans.\nQu'a fait Maricel pendant la vague de chaleur ?\nElle a fermé les volets, fait boire Odette, lui a mouillé le visage et a ouvert la trappe le soir.\nPourquoi fait-il frais dans les bastions de la citadelle ?\nParce que leurs murailles ont plusieurs mètres d'épaisseur.\nQu'est-ce que la loi demande au bailleur ?\nElle l'oblige à louer un logement convenable, mais elle parle surtout du chauffage."
+    },
+    {
+      "title": "Quand les épidémies faisaient l'histoire",
+      "summary": "A review of a Paris exhibition on the history of epidemics, from Viking combs and the medieval plague to the cholera of 1832 and Pasteur.",
+      "newWords": [
+        "viking",
+        "malédiction",
+        "odieux",
+        "slave",
+        "reconstitution",
+        "cabaret",
+        "insurgé",
+        "locomotive",
+        "buste",
+        "athée"
+      ],
+      "text": "Comment les hommes ont-ils vécu les grandes épidémies, avant les vaccins et les antibiotiques ? C'est la question que pose une exposition présentée cet automne dans un musée parisien. Le parcours se visite en une heure et demie.\n\nLa première salle surprend. On y découvre des peignes en os trouvés dans des tombes vikings. Les Vikings, qu'on imagine volontiers sales et barbares, prenaient soin de leur corps : selon certains récits de l'époque, ils se lavaient chaque semaine, plus souvent que leurs voisins. L'hygiène viking n'a pas empêché les maladies, mais elle rappelle que la propreté n'est pas une invention moderne.\n\nLa salle suivante est consacrée à la peste du Moyen Âge. Pour la plupart des gens de l'époque, la maladie était une malédiction envoyée par Dieu pour punir les péchés. Des textes montrent comment on cherchait des coupables à cette malédiction : des étrangers, des pauvres, des juifs, accusés à tort d'avoir empoisonné les puits. Ces accusations odieuses, qui ont conduit à des massacres, sont présentées sans détour.\n\nLe cœur de l'exposition est consacré à l'épidémie de choléra de 1832. Venue d'Asie, la maladie avait traversé la Russie et la Pologne, deux pays slaves, avant d'atteindre Paris au printemps. Des cartes montrent sa marche à travers les plaines slaves. Une reconstitution impressionnante montre une salle d'hôpital de l'époque : des lits serrés, des médecins impuissants. On y apprend aussi que, dans les cabarets des quartiers pauvres, on accusait le gouvernement d'empoisonner l'eau. Les cabarets, où l'on buvait et discutait le soir, étaient alors les lieux où naissaient les nouvelles, vraies ou fausses. Ces rumeurs odieuses ont coûté la vie à des innocents.\n\nUne vitrine rappelle un lien moins connu. Le général Lamarque mourut du choléra en juin 1832, et ses funérailles furent le point de départ d'une insurrection. Pendant deux jours, des insurgés tinrent tête à l'armée dans le centre de Paris. L'exposition montre des dessins de ces insurgés, souvent très jeunes.\n\nLa dernière partie parle de la science. Une maquette de locomotive à vapeur montre comment le chemin de fer a accéléré la marche des maladies au dix-neuvième siècle : une locomotive transportait les voyageurs, mais aussi leurs maladies. Un buste de Louis Pasteur domine la salle, entouré de microscopes. Un texte rappelle que les savants de cette époque, croyants ou athées, pouvaient se disputer sur Dieu, mais finissaient par s'accorder sur les faits. Pasteur était croyant ; plusieurs de ses collègues étaient athées. Devant le buste, ce détail invite à la réflexion.\n\nOn sort de l'exposition avec une idée simple : face aux épidémies, la peur cherche des coupables, la science cherche des causes.\n\nQuestions :\nQue nous apprennent les objets vikings de la première salle ?\nIls montrent que les Vikings prenaient soin de leur corps et que la propreté n'est pas une invention moderne.\nComment les gens du Moyen Âge voyaient-ils la peste ?\nIls la voyaient comme une malédiction envoyée par Dieu pour punir les péchés.\nQue montre la reconstitution consacrée au choléra ?\nElle montre une salle d'hôpital de 1832, avec des lits serrés et des médecins impuissants.\nQuel lien y a-t-il entre le choléra et les insurgés de juin 1832 ?\nLe général Lamarque est mort du choléra, et ses funérailles ont été le point de départ d'une insurrection.\nQue rappelle la maquette de locomotive ?\nElle rappelle que le chemin de fer a accéléré la marche des maladies au dix-neuvième siècle."
+    },
+    {
+      "title": "Un don, une deuxième vie",
+      "summary": "In Liège, a transplant nurse explains how organ donation works in Belgium, and a young youth worker and amateur winger describes his life after a kidney transplant.",
+      "newWords": [
+        "présomption",
+        "condoléance",
+        "concessionnaire",
+        "éducateur",
+        "ailier",
+        "héroïque",
+        "ultérieurement"
+      ],
+      "text": "En Belgique, depuis 1986, la loi repose sur la présomption de consentement : toute personne qui n'a pas dit non de son vivant est considérée comme donneur d'organes. Sophie Lambert est infirmière au centre de greffe de Liège, où elle accompagne les familles des donneurs. Nous lui avons demandé comment fonctionne cette présomption, et ce qu'elle change pour les proches.\n\n« La présomption de consentement ne veut pas dire qu'on oublie les familles, explique-t-elle. Chacun peut s'inscrire à la commune pour dire oui ou non. Quand une personne n'a rien dit, la loi permet le prélèvement, mais nous parlons toujours avec les proches. »\n\nCe moment est le plus difficile de son métier. Avant de parler de don, Sophie présente toujours ses condoléances. « Les condoléances ne sont pas une formule. Je prends le temps de m'asseoir, d'écouter, de parler de la personne. Ce n'est qu'après que j'évoque le don. » Elle se souvient d'une famille de Verviers. Le père, concessionnaire automobile, était mort brutalement à 52 ans. Son fils a dit à Sophie : « Mon père passait sa vie à rendre service. Il aurait voulu servir encore. » Grâce à ce concessionnaire de Verviers, cinq personnes ont reçu un organe.\n\nThomas, 26 ans, fait partie de ces receveurs : pas de cette famille-là, car l'anonymat est total en Belgique, mais d'une histoire semblable. Il est éducateur dans un foyer pour adolescents à Seraing et ailier dans un club de football amateur. À 23 ans, une maladie a détruit ses reins. Pendant deux ans, il a dû passer trois après-midi par semaine à l'hôpital, relié à une machine. « J'étais éducateur le matin et malade l'après-midi, dit-il. »\n\nUn soir de novembre, son téléphone a sonné : un rein compatible était disponible. Six mois plus tard, Thomas a repris son travail d'éducateur, puis, un an après, sa place d'ailier sur le terrain. « Un ailier court tout le match le long de la ligne. Avant la greffe, je ne pouvais même pas monter un escalier. »\n\nOn qualifie souvent le don d'organes de geste héroïque. Sophie est plus prudente : « Les familles ne se sentent pas héroïques. Elles sont en deuil. Elles font simplement ce que la personne aurait voulu. » Thomas, lui, ne connaîtra jamais le nom de son donneur. Il a pourtant écrit une lettre de remerciement sans signature, que le centre transmettra ultérieurement à la famille, si elle le souhaite. « Je ne sais pas si c'est héroïque, écrit-il. Je sais seulement que je cours encore. »\n\nSophie conseille à chacun d'en parler avec ses proches dès maintenant. « Une décision prise ensemble aujourd'hui évite une décision difficile ultérieurement. »\n\nQuestions :\nQue signifie la présomption de consentement en Belgique ?\nElle signifie que toute personne qui n'a pas dit non de son vivant est considérée comme donneur d'organes.\nQue fait toujours Sophie avant de parler de don ?\nElle présente ses condoléances et prend le temps d'écouter la famille.\nQuel était le métier du père de la famille de Verviers ?\nIl était concessionnaire automobile.\nQuelles sont les deux activités de Thomas ?\nIl est éducateur dans un foyer pour adolescents et ailier dans un club de football amateur.\nPourquoi Sophie ne parle-t-elle pas de geste héroïque ?\nParce que les familles ne se sentent pas héroïques : elles sont en deuil et font ce que la personne aurait voulu."
+    }
+  ]
+}
