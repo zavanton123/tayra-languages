@@ -44,6 +44,7 @@ import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.StatusPill
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.formatSize
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -73,25 +74,24 @@ fun CoursePacksScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel
 @Composable
 internal fun CoursePacksContent(packs: List<CoursePackStatus>, onDownload: (CoursePack) -> Unit, onRemove: (CoursePack) -> Unit, onBack: (() -> Unit)? = null) {
     var removing by remember { mutableStateOf<CoursePack?>(null) }
-    ScreenHeader("Courses", "Download the ready-made courses of a language as one file, or remove them to free space.", onBackToSettings = onBack)
-    InfoBanner("Downloaded courses appear under Courses when you learn their language. Like the courses you make, they can be changed.")
+    ScreenHeader(tr("Courses"), tr("Download the ready-made courses of a language as one file, or remove them to free space."), onBackToSettings = onBack)
+    InfoBanner(tr("Downloaded courses appear under Courses when you learn their language. Like the courses you make, they can be changed."))
     packs.forEach { status -> PackCard(status, onDownload = { onDownload(status.pack) }, onRemove = { removing = status.pack }) }
     removing?.let { pack ->
         AlertDialog(
             onDismissRequest = { removing = null },
-            title = { Text("Remove the ${pack.title} courses?") },
+            title = { Text(tr("Remove the {0} courses?", tr(pack.title))) },
             text = {
                 Text(
-                    "Their courses and lessons are deleted, with the lesson texts you opened and how far you read them. " +
-                        "Courses you made yourself stay. You can download the courses again at any time.",
+                    tr("Their courses and lessons are deleted, with the lesson texts you opened and how far you read them. Courses you made yourself stay. You can download the courses again at any time."),
                 )
             },
             confirmButton = {
                 TextButton(onClick = { onRemove(pack); removing = null }, modifier = Modifier.testTag("confirm-remove")) {
-                    Text("Remove", color = MaterialTheme.colorScheme.error)
+                    Text(tr("Remove"), color = MaterialTheme.colorScheme.error)
                 }
             },
-            dismissButton = { TextButton(onClick = { removing = null }) { Text("Cancel") } },
+            dismissButton = { TextButton(onClick = { removing = null }) { Text(tr("Cancel")) } },
         )
     }
 }
@@ -101,29 +101,29 @@ private fun PackCard(status: CoursePackStatus, onDownload: () -> Unit, onRemove:
     val pack = status.pack
     val state = status.state
     ContentCard(
-        pack.title,
-        "Course pack",
+        tr(pack.title),
+        tr("Course pack"),
         iconText = pack.languageCode.uppercase(),
         modifier = Modifier.testTag("pack-${pack.id}"),
         titleExtra = {
             when (state) {
-                is PackState.Installed -> StatusPill("Installed", StatusTints.ok)
-                is PackState.Downloading -> StatusPill("Downloading", MaterialTheme.colorScheme.primary)
-                is PackState.Failed -> StatusPill("Download failed", MaterialTheme.colorScheme.error)
-                PackState.NotInstalled -> StatusPill("Not downloaded", MaterialTheme.colorScheme.outline)
+                is PackState.Installed -> StatusPill(tr("Installed"), StatusTints.ok)
+                is PackState.Downloading -> StatusPill(tr("Downloading"), MaterialTheme.colorScheme.primary)
+                is PackState.Failed -> StatusPill(tr("Download failed"), MaterialTheme.colorScheme.error)
+                PackState.NotInstalled -> StatusPill(tr("Not downloaded"), MaterialTheme.colorScheme.outline)
             }
         },
     ) {
-        Text(pack.summary, style = MaterialTheme.typography.bodyLarge)
+        Text(tr(pack.summary), style = MaterialTheme.typography.bodyLarge)
         Spacer(Modifier.padding(top = 12.dp))
         when (state) {
             is PackState.Downloading -> {
                 val progress = state.progress
                 if (progress != null) LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth())
                 else LinearProgressIndicator(Modifier.fillMaxWidth())
-                Text("Downloading and adding the courses…", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 6.dp))
+                Text(tr("Downloading and adding the courses…"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 6.dp))
             }
-            is PackState.Failed -> Text(state.message, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error)
+            is PackState.Failed -> Text(packFailure(state.message), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error)
             else -> Unit
         }
         Spacer(Modifier.padding(top = 12.dp))
@@ -131,20 +131,20 @@ private fun PackCard(status: CoursePackStatus, onDownload: () -> Unit, onRemove:
             Column(Modifier.weight(1f)) {
                 Text(
                     when (state) {
-                        is PackState.Installed -> "${formatSize(state.sizeBytes)} on this device"
-                        else -> "${formatSize(pack.downloadSize)} to download"
+                        is PackState.Installed -> tr("{0} on this device", formatSize(state.sizeBytes))
+                        else -> tr("{0} to download", formatSize(pack.downloadSize))
                     },
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
             when (state) {
-                is PackState.Installed -> OutlinedButton(onClick = onRemove, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("remove-${pack.id}")) { Text("Remove") }
+                is PackState.Installed -> OutlinedButton(onClick = onRemove, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("remove-${pack.id}")) { Text(tr("Remove")) }
                 is PackState.Downloading -> Unit
                 else -> Button(onClick = onDownload, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("download-${pack.id}")) {
                     Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(18.dp))
                     Spacer(Modifier.width(8.dp))
-                    Text(if (state is PackState.Failed) "Try again" else "Download")
+                    Text(if (state is PackState.Failed) tr("Try again") else tr("Download"))
                 }
             }
         }
