@@ -8,7 +8,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val statsModule = module {
-    viewModel { StatsViewModel(get()) }
+    viewModel { StatsViewModel(get(), get(), get()) }
 }
 
 fun NavGraphBuilder.statsGraph(navController: NavController) {

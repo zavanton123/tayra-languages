@@ -54,6 +54,8 @@ import com.tayra.languages.core.domain.service.ExampleSentencesProvider
 import com.tayra.languages.core.domain.service.LanguageService
 import com.tayra.languages.core.domain.service.ReadingService
 import com.tayra.languages.core.domain.service.StatsService
+import com.tayra.languages.core.domain.stats.LearningStatsRepository
+import com.tayra.languages.core.data.repository.LearningStatsRepositoryImpl
 import com.tayra.languages.core.domain.service.TermPopupBuilder
 import com.tayra.languages.core.domain.service.TermService
 import com.tayra.languages.core.domain.service.WordTranslationService
@@ -141,7 +143,8 @@ val dataModule: Module = module {
     single { LanguageService(get(), get(), get()) }
     single { LearningLanguageService(get(), get(), get()) }
     single { DemoDataService(get(), get(), get(), get(), get()) }
-    single { StatsService(get()) }
+    single<LearningStatsRepository> { LearningStatsRepositoryImpl(get()) }
+    single { StatsService(get(), get()) }
     single<CourseRepository> { CourseRepositoryImpl(get()) }
     single<CoursePackStore> { CoursePackRepository(get()) }
     single<SampleCourseSource> { InstalledCoursePacks(get()) }

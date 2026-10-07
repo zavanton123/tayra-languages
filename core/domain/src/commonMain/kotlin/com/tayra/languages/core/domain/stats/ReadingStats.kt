@@ -3,6 +3,7 @@ package com.tayra.languages.core.domain.stats
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.minus
+import kotlinx.datetime.plus
 
 /** Words read on a day, for one language. */
 data class DailyWordCount(val languageName: String, val date: LocalDate, val wordCount: Int)
@@ -65,4 +66,28 @@ object ReadingStats {
         return streak
     }
 
+    /** The most consecutive days with reading. */
+    fun longestStreak(readDates: Set<LocalDate>): Int {
+        var longest = 0
+        for (date in readDates) {
+            // Counts only from the first day of each run.
+            if (date.minus(1, DateTimeUnit.DAY) in readDates) continue
+            var length = 0
+            var current = date
+            while (current in readDates) {
+                length++
+                current = current.plus(1, DateTimeUnit.DAY)
+            }
+            longest = maxOf(longest, length)
+        }
+        return longest
+    }
+
+    /** The sums of [byDate] over the last [weeks] weeks, oldest first, the last one ending on [today]. */
+    fun weekly(byDate: Map<LocalDate, Int>, today: LocalDate, weeks: Int): List<Int> =
+        (weeks - 1 downTo 0).map { back ->
+            val end = today.minus(back * 7, DateTimeUnit.DAY)
+            val start = end.minus(6, DateTimeUnit.DAY)
+            byDate.entries.filter { it.key in start..end }.sumOf { it.value }
+        }
 }

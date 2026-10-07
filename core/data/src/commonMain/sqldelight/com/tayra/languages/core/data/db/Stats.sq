@@ -1,0 +1,23 @@
+-- Figures for the Statistics screen, one language at a time.
+
+termStatusCounts:
+SELECT status, count(*) AS term_count FROM terms WHERE language_id = :languageId GROUP BY status;
+
+-- When the reader saved each word; the words the vocabulary level marked known were not saved by hand.
+termSavedTimes:
+SELECT created_at FROM terms
+WHERE language_id = :languageId AND id NOT IN (SELECT term_id FROM level_terms);
+
+reviewTimes:
+SELECT r.reviewed_at, r.rating FROM flashcard_reviews r INNER JOIN terms t ON t.id = r.term_id
+WHERE t.language_id = :languageId;
+
+pagesRead:
+SELECT count(*) FROM pages p INNER JOIN books b ON b.id = p.book_id
+WHERE b.language_id = :languageId AND p.read_date IS NOT NULL;
+
+-- A book is finished once its last page is read.
+booksFinished:
+SELECT count(*) FROM books b
+WHERE b.language_id = :languageId
+  AND (SELECT p.read_date FROM pages p WHERE p.book_id = b.id ORDER BY p.page_order DESC LIMIT 1) IS NOT NULL;
