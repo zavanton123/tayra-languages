@@ -81,6 +81,10 @@ compose.desktop {
 // while it was open broke the next screen it drew with NoClassDefFoundError. Runs start from a private copy instead;
 // replacing the copy only unlinks the old files, which an app that is still open keeps reading.
 tasks.withType<JavaExec>().matching { it.name == "run" }.configureEach {
+    // A run from the sources has no bundled `tayra`; Settings > Command-line tool puts the one :cli builds on the PATH instead.
+    dependsOn(":cli:installDist")
+    val windowsHost = System.getProperty("os.name").lowercase().contains("win")
+    systemProperty("tayra.cliLauncher", rootDir.resolve("cli/build/install/tayra/bin/" + if (windowsHost) "tayra.bat" else "tayra").absolutePath)
     val projectRoot = rootDir.absolutePath + File.separator
     val copies = layout.buildDirectory.dir("run-classpath").get().asFile
     val fileCollections = objects

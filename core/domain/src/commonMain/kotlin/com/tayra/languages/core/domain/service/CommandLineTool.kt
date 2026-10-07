@@ -5,8 +5,8 @@ package com.tayra.languages.core.domain.service
  * finds it. Only the desktop app has one.
  */
 interface CommandLineTool {
-    /** False where this copy of the app has no `tayra` beside it, as in a run from the sources. */
-    val bundled: Boolean
+    /** False where this copy of the app has no `tayra` to put on the PATH. */
+    val available: Boolean
 
     suspend fun status(): CommandLineStatus
 
@@ -20,8 +20,10 @@ interface CommandLineTool {
 data class CommandLineStatus(
     /** Whether a new terminal finds `tayra`. */
     val installed: Boolean,
-    /** Where it was put: the script that runs it, or the folder added to the PATH. */
+    /** The `tayra` a new terminal runs. */
     val location: String? = null,
+    /** Whether it is the one this app put there, which it can take away again. */
+    val removable: Boolean = false,
     /** The shell profile or setting that got the PATH entry, when the install changed one. */
     val pathChangedIn: String? = null,
     /** Why the last install or removal failed. */

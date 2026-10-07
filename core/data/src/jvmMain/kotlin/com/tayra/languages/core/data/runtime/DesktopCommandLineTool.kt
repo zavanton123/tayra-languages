@@ -14,11 +14,15 @@ import java.util.concurrent.TimeUnit
  * On macOS and Linux a two-line script in `~/.local/bin` runs the launcher inside the app, and
  * when the login shell does not search that folder yet, a line in its profile adds it. On Windows
  * the app's folder, where `tayra.exe` is, goes on the user's PATH. Either way only new terminals
- * see the change.
+ * see the change. A run from the sources uses the command that `:cli:installDist` builds instead.
  */
 class DesktopCommandLineTool(
-    /** The app's own launcher; jpackage names it in this property, and runs from the sources have none. */
-    private val appLauncher: File? = System.getProperty("jpackage.app-path")?.let(::File),
+    /** The app's own launcher; jpackage names it in this property. */
+    appLauncher: File? = System.getProperty("jpackage.app-path")?.let(::File),
+    /** The command built from the sources, which desktopApp's `run` task names for a run without installers. */
+    private val sourceLauncher: File? = System.getProperty(SOURCE_LAUNCHER_PROPERTY)?.let(::File),
+    /** The Java the built command needs; the installed app brings its own. */
+    private val javaHome: String = System.getProperty("java.home"),
     private val home: File = File(System.getProperty("user.home")),
     private val windows: Boolean = System.getProperty("os.name").lowercase().contains("win"),
     private val mac: Boolean = System.getProperty("os.name").lowercase().contains("mac"),
@@ -27,21 +31,38 @@ class DesktopCommandLineTool(
     private val terminalPath: () -> List<String>? = { loginShellPath(shell) },
 ) : CommandLineTool {
 
-    private val launcher: File? get() = appLauncher?.parentFile?.resolve(if (windows) "tayra.exe" else "tayra")?.takeIf { it.isFile }
+    private val bundledLauncher: File? = appLauncher?.parentFile?.resolve(if (windows) "tayra.exe" else "tayra")?.takeIf { it.isFile }
 
-    override val bundled: Boolean get() = launcher != null
+    private val launcher: File? get() = bundledLauncher ?: sourceLauncher?.takeIf { it.isFile }
+
+    override val available: Boolean get() = launcher != null
 
     private val binDir get() = File(home, ".local/bin")
     private val script get() = File(binDir, "tayra")
 
+    /** Whether a new terminal finds a `tayra`, wherever it came from, and whether it is the one this app put there. */
     override suspend fun status(): CommandLineStatus = withContext(Dispatchers.IO) {
-        val launcher = launcher ?: return@withContext CommandLineStatus(installed = false)
-        if (windows) {
-            val dir = launcher.parentFile.absolutePath
-            CommandLineStatus(installed = windowsUserPath().any { it.equals(dir, ignoreCase = true) }, location = dir)
-        } else {
-            CommandLineStatus(installed = script.isFile && script.readText().contains(launcher.absolutePath), location = script.absolutePath)
-        }
+        if (windows) windowsStatus() else unixStatus()
+    }
+
+    private fun unixStatus(): CommandLineStatus {
+        // When the shell does not say, the script this app wrote is the best guess.
+        val path = terminalPath() ?: listOf(binDir.absolutePath)
+        val found = path.map { File(it.replaceFirst("~", home.absolutePath), "tayra") }.firstOrNull { it.isFile && it.canExecute() }
+            ?: return CommandLineStatus(installed = false)
+        val ours = found.canonicalFile == script.canonicalFile && script.readText().contains(MARKER)
+        return CommandLineStatus(installed = true, location = found.absolutePath, removable = ours)
+    }
+
+    private fun windowsStatus(): CommandLineStatus {
+        val user = runCatching { windowsUserPath() }.getOrDefault(emptyList())
+        val dirs = user + System.getenv("PATH").orEmpty().split(';').filter { it.isNotBlank() }
+        val found = dirs.asSequence()
+            .flatMap { dir -> listOf("tayra.exe", "tayra.bat", "tayra.cmd").asSequence().map { File(dir.trim(), it) } }
+            .firstOrNull { it.isFile }
+            ?: return CommandLineStatus(installed = false)
+        val ours = launcher?.parentFile?.absolutePath?.let { dir -> user.any { it.equals(dir, ignoreCase = true) } && found.parentFile.absolutePath.equals(dir, ignoreCase = true) } == true
+        return CommandLineStatus(installed = true, location = found.absolutePath, removable = ours)
     }
 
     override suspend fun install(): CommandLineStatus = withContext(Dispatchers.IO) {
@@ -55,11 +76,9 @@ class DesktopCommandLineTool(
     }
 
     override suspend fun uninstall(): CommandLineStatus = withContext(Dispatchers.IO) {
-        val launcher = launcher ?: return@withContext CommandLineStatus(installed = false)
         try {
             if (windows) {
-                val dir = launcher.parentFile.absolutePath
-                setWindowsUserPath(windowsUserPath().filterNot { it.equals(dir, ignoreCase = true) })
+                launcher?.parentFile?.absolutePath?.let { dir -> setWindowsUserPath(windowsUserPath().filterNot { it.equals(dir, ignoreCase = true) }) }
             } else if (script.isFile && script.readText().contains(MARKER)) {
                 script.delete()
             }
@@ -71,12 +90,14 @@ class DesktopCommandLineTool(
 
     private fun installOnUnix(launcher: File): CommandLineStatus {
         binDir.mkdirs()
-        script.writeText("#!/bin/sh\n# $MARKER: runs the command-line tool inside the app.\nexec \"${launcher.absolutePath}\" \"\$@\"\n")
+        // The command built from the sources is a start script that looks for Java; the app's launcher brings its own.
+        val java = if (launcher == bundledLauncher) "" else "export JAVA_HOME=\"$javaHome\"\n"
+        script.writeText("#!/bin/sh\n# $MARKER: runs the command-line tool of the app.\n${java}exec \"${launcher.absolutePath}\" \"\$@\"\n")
         script.setExecutable(true, false)
         val path = terminalPath()
-        val searched = path?.any { File(it.replace("~", home.absolutePath)).absoluteFile == binDir.absoluteFile } == true
+        val searched = path?.any { File(it.replaceFirst("~", home.absolutePath)).absoluteFile == binDir.absoluteFile } == true
         val profile = if (searched) null else addToProfile()
-        return CommandLineStatus(installed = true, location = script.absolutePath, pathChangedIn = profile?.absolutePath)
+        return CommandLineStatus(installed = true, location = script.absolutePath, removable = true, pathChangedIn = profile?.absolutePath)
     }
 
     /** Adds `~/.local/bin` to the PATH in the profile of the user's shell, once; returns the file it changed. */
@@ -99,7 +120,7 @@ class DesktopCommandLineTool(
         val dir = launcher.parentFile.absolutePath
         val path = windowsUserPath()
         if (path.none { it.equals(dir, ignoreCase = true) }) setWindowsUserPath(path + dir)
-        return CommandLineStatus(installed = true, location = dir, pathChangedIn = "PATH")
+        return CommandLineStatus(installed = true, location = File(dir, launcher.name).absolutePath, removable = true, pathChangedIn = "PATH")
     }
 
     /** The user's own PATH entries, as stored, with variables such as %USERPROFILE% left as they are. */
@@ -129,6 +150,7 @@ class DesktopCommandLineTool(
 
     companion object {
         const val MARKER = "Added by Tayra Languages"
+        const val SOURCE_LAUNCHER_PROPERTY = "tayra.cliLauncher"
         private const val UNIX_PATH_LINE = "export PATH=\"\$HOME/.local/bin:\$PATH\"  # $MARKER"
         private const val PATH_PREFIX = "__TAYRA_PATH__="
 

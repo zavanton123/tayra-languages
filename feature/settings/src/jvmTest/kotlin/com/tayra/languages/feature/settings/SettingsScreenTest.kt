@@ -90,8 +90,8 @@ class SettingsScreenTest {
         val settings = SettingsRepositoryImpl(MapSettings())
         val tool = object : CommandLineTool {
             var installed = false
-            override val bundled = true
-            override suspend fun status() = CommandLineStatus(installed, "/Users/me/.local/bin/tayra")
+            override val available = true
+            override suspend fun status() = if (installed) CommandLineStatus(true, "/Users/me/.local/bin/tayra", removable = true) else CommandLineStatus(false)
             override suspend fun install(): CommandLineStatus {
                 installed = true
                 return status().copy(pathChangedIn = "/Users/me/.zshrc")
@@ -103,14 +103,15 @@ class SettingsScreenTest {
         }
         setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings, tool)) } }
 
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not installed").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not on your PATH").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("CLI_SCREENSHOT")?.let { save(it) }
         onNodeWithText("Install command-line tool").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Installed").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("On your PATH").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("/Users/me/.local/bin/tayra").assertExists()
         onNodeWithText("Added ~/.local/bin to your PATH in /Users/me/.zshrc. Open a new terminal window to use it.").assertExists()
         System.getenv("CLI_SCREENSHOT")?.let { save(it.replace(".png", "-installed.png")) }
         onNodeWithText("Remove").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not installed").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not on your PATH").fetchSemanticsNodes().isNotEmpty() }
     }
 
     private fun ComposeUiTest.save(path: String) {

@@ -30,8 +30,15 @@ class DesktopCommandLineToolTest {
         root.deleteRecursively()
     }
 
-    private fun tool(path: List<String>?, shell: String = "/bin/zsh", launcher: File? = File(app, "TayraLanguages")) =
-        DesktopCommandLineTool(appLauncher = launcher, home = home, windows = false, mac = true, shell = shell, terminalPath = { path })
+    /** The PATH a new terminal would get: [path], plus ~/.local/bin once a profile line added it. */
+    private fun tool(path: List<String>?, shell: String = "/bin/zsh", launcher: File? = File(app, "TayraLanguages"), source: File? = null) =
+        DesktopCommandLineTool(
+            appLauncher = launcher, sourceLauncher = source, javaHome = "/opt/jdk", home = home, windows = false, mac = true, shell = shell,
+            terminalPath = { path?.let { if (profileAdded()) it + "~/.local/bin" else it } },
+        )
+
+    private fun profileAdded() = listOf(".zshrc", ".bash_profile", ".bashrc", ".profile", ".config/fish/conf.d/tayra.fish")
+        .any { File(home, it).let { file -> file.isFile && DesktopCommandLineTool.MARKER in file.readText() } }
 
     @Test
     fun theScriptRunsTheBundledLauncherAndTheProfileGetsThePathOnce() = runBlocking {
@@ -41,7 +48,9 @@ class DesktopCommandLineToolTest {
         val first = tool.install()
         assertTrue(first.installed)
         assertEquals(File(home, ".zshrc").absolutePath, first.pathChangedIn)
-        assertTrue(tool.status().installed)
+        val status = tool.status()
+        assertTrue(status.installed && status.removable)
+        assertEquals(File(home, ".local/bin/tayra").absolutePath, status.location)
         val output = ProcessBuilder(File(home, ".local/bin/tayra").absolutePath, "books", "add", "--title", "Two words").start().inputStream.bufferedReader().readText()
         assertEquals("[books]\n[add]\n[--title]\n[Two words]\n", output)
 
@@ -72,9 +81,29 @@ class DesktopCommandLineToolTest {
     @Test
     fun aRunFromTheSourcesHasNoCommandToInstall() = runBlocking {
         val tool = tool(path = emptyList(), launcher = null)
-        assertFalse(tool.bundled)
+        assertFalse(tool.available)
         assertFalse(tool.install().installed)
         assertFalse(File(home, ".local/bin/tayra").exists())
+    }
+
+    @Test
+    fun aTayraFromElsewhereIsShownButNotRemoved() = runBlocking {
+        val other = File(root, "usr/local/bin").apply { mkdirs() }
+        File(other, "tayra").apply { writeText("#!/bin/sh\n"); setExecutable(true) }
+        val status = tool(path = listOf(other.absolutePath)).status()
+        assertTrue(status.installed)
+        assertEquals(File(other, "tayra").absolutePath, status.location)
+        assertFalse(status.removable)
+    }
+
+    @Test
+    fun aRunFromTheSourcesInstallsTheBuiltCommandWithItsJava() = runBlocking {
+        val built = File(root, "cli/build/install/tayra/bin/tayra").apply { parentFile.mkdirs(); writeText("#!/bin/sh\n"); setExecutable(true) }
+        val tool = tool(path = listOf("/usr/bin"), launcher = null, source = built)
+        assertTrue(tool.available)
+        assertTrue(tool.install().installed)
+        val script = File(home, ".local/bin/tayra").readText()
+        assertTrue("export JAVA_HOME=\"/opt/jdk\"" in script && built.absolutePath in script, script)
     }
 
     @Test

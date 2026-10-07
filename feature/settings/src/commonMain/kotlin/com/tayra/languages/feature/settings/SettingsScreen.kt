@@ -81,6 +81,11 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import com.tayra.languages.core.domain.service.CommandLineStatus
 import com.tayra.languages.core.domain.service.CommandLineTool
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.foundation.text.selection.SelectionContainer
+import androidx.compose.ui.text.font.FontFamily
+import com.tayra.languages.core.ui.components.StatusPill
+import com.tayra.languages.core.ui.components.StatusTints
 
 class SettingsViewModel(
     private val settings: SettingsRepository,
@@ -281,42 +286,46 @@ private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) 
     }
 }
 
-/** The `tayra` command of the desktop app, and the button that puts it on the PATH. */
+/**
+ * The `tayra` command of the desktop app: where a terminal finds it when it is on the PATH, else the
+ * button that puts it there.
+ */
 @Composable
 private fun CommandLineCard(viewModel: SettingsViewModel) {
     val status by viewModel.commandLineStatus.collectAsStateWithLifecycle()
     val busy by viewModel.commandLineBusy.collectAsStateWithLifecycle()
     val colors = MaterialTheme.colorScheme
-    val bundled = viewModel.commandLine?.bundled == true
+    val available = viewModel.commandLine?.available == true
     ContentCard(
         tr("Command-line tool"),
         tr("Use your library from a terminal with the tayra command, and let AI agents work with it."),
         icon = AppIcons.Terminal,
     ) {
-        if (!bundled) {
-            Text(tr("The tayra command comes with the installed app. From the sources, run it with ./gradlew :cli:run."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            return@ContentCard
-        }
-        val installed = status?.installed == true
-        SettingRow(
-            if (installed) tr("Installed") else tr("Not installed"),
-            if (installed) tr("Type tayra in a new terminal window, for example tayra --help.") else tr("Puts tayra on the PATH, so any terminal finds it."),
-            stackOnCompact = true,
-        ) {
-            if (installed) {
-                OutlinedButton(onClick = viewModel::uninstallCommandLine, enabled = !busy) { Text(tr("Remove")) }
-            } else {
-                Button(onClick = viewModel::installCommandLine, enabled = !busy && status != null, modifier = Modifier.testTag("install-cli")) {
-                    Icon(AppIcons.Terminal, contentDescription = null, modifier = Modifier.size(18.dp))
+        val current = status
+        when {
+            current == null -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
+                Text(tr("Checking whether a terminal finds tayra…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            }
+            current.installed -> {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Box(Modifier.weight(1f)) { StatusPill(tr("On your PATH"), StatusTints.ok) }
+                    if (current.removable) OutlinedButton(onClick = viewModel::uninstallCommandLine, enabled = !busy) { Text(tr("Remove")) }
+                }
+                current.location?.let { CommandBox(it) }
+                Text(tr("Type tayra in a new terminal window, for example tayra --help."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            }
+            available -> SettingRow(tr("Not on your PATH"), tr("Puts tayra on the PATH, so any terminal finds it."), stackOnCompact = true) {
+                Button(onClick = viewModel::installCommandLine, enabled = !busy, modifier = Modifier.testTag("install-cli")) {
+                    if (busy) CircularProgressIndicator(Modifier.size(18.dp), color = colors.onPrimary, strokeWidth = 2.dp)
+                    else Icon(AppIcons.Terminal, contentDescription = null, modifier = Modifier.size(18.dp))
                     Spacer(Modifier.width(8.dp))
                     Text(tr("Install command-line tool"))
                 }
             }
+            else -> Text(tr("The tayra command comes with the installed app. From the sources, run it with ./gradlew :cli:run."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         }
-        status?.location?.takeIf { installed }?.let {
-            Text(tr("Location: {0}", it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-        }
-        status?.pathChangedIn?.let { changed ->
+        current?.pathChangedIn?.let { changed ->
             Text(
                 if (changed == "PATH") tr("Added to your PATH. Open a new terminal window to use it.")
                 else tr("Added ~/.local/bin to your PATH in {0}. Open a new terminal window to use it.", changed),
@@ -324,7 +333,22 @@ private fun CommandLineCard(viewModel: SettingsViewModel) {
                 color = colors.primary,
             )
         }
-        status?.error?.let { Text(tr("Could not change the PATH: {0}", it), style = MaterialTheme.typography.bodySmall, color = colors.error) }
+        current?.error?.let { Text(tr("Could not change the PATH: {0}", it), style = MaterialTheme.typography.bodySmall, color = colors.error) }
+    }
+}
+
+/** A path or command in a monospace box, selectable for copying. */
+@Composable
+private fun CommandBox(text: String) {
+    val colors = MaterialTheme.colorScheme
+    SelectionContainer {
+        Text(
+            text,
+            Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp)).background(colors.surfaceVariant.copy(alpha = 0.6f))
+                .border(1.dp, colors.outlineVariant, RoundedCornerShape(8.dp)).padding(horizontal = 14.dp, vertical = 10.dp),
+            style = MaterialTheme.typography.bodyMedium,
+            fontFamily = FontFamily.Monospace,
+        )
     }
 }
 
