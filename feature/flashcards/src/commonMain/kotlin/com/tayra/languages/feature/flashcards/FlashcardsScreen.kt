@@ -75,6 +75,8 @@ import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import kotlinx.datetime.TimeZone
@@ -99,7 +101,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     // Coming back from editing a term or the settings shows the card as it is now.
     LaunchedEffect(Unit) { viewModel.load() }
     Scaffold(
-        topBar = { AppTopBar(title = "Flashcards", onNavigate = onNavigate, section = NavSection.FLASHCARDS) },
+        topBar = { AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, section = NavSection.FLASHCARDS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -194,9 +196,9 @@ internal fun FlashcardsContent(state: FlashcardsUiState, speaker: Speaker?, acti
 @Composable
 private fun Header(state: FlashcardsUiState, compact: Boolean) {
     Column(Modifier.fillMaxWidth()) {
-        Text("Flashcards", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+        Text(tr("Flashcards"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
         Text(
-            if (state.languageName.isEmpty()) "Review the words you are learning." else "Review the ${state.languageName} words you are learning.",
+            if (state.languageName.isEmpty()) tr("Review the words you are learning.") else tr("Review the {0} words you are learning.", tr(state.languageName)),
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
@@ -214,11 +216,11 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
     val current = if (state.card != null) (state.answered + 1).coerceAtMost(total.coerceAtLeast(1)) else state.answered
     val pills: @Composable () -> Unit = {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            CountPill("New", counts.new, NEW_TINT)
+            CountPill("New", counts.new, trPlural(counts.new, "new", "new"), NEW_TINT)
             PillDivider()
-            CountPill("Learning", counts.learning, LEARNING_TINT)
+            CountPill("Learning", counts.learning, trPlural(counts.learning, "learning", "learning"), LEARNING_TINT)
             PillDivider()
-            CountPill("To review", counts.review, REVIEW_TINT)
+            CountPill("To review", counts.review, trPlural(counts.review, "to review", "to review"), REVIEW_TINT)
         }
     }
     val bar: @Composable (Modifier) -> Unit = { m ->
@@ -230,9 +232,9 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean) {
     val label: @Composable () -> Unit = {
         Text(
             when {
-                total == 0 -> "No cards today"
-                state.card == null -> "$current of $total answered"
-                else -> "Card $current of $total"
+                total == 0 -> tr("No cards today")
+                state.card == null -> tr("{0} of {1} answered", current, total)
+                else -> tr("Card {0} of {1}", current, total)
             },
             style = MaterialTheme.typography.bodyLarge,
             color = colors.onSurfaceVariant,
@@ -264,10 +266,10 @@ private fun PillDivider() {
 }
 
 @Composable
-private fun CountPill(label: String, count: Int, tint: Color) {
+private fun CountPill(tag: String, count: Int, label: String, tint: Color) {
     Row(
         Modifier.clip(RoundedCornerShape(50)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.3f), RoundedCornerShape(50))
-            .padding(horizontal = 12.dp, vertical = 5.dp).testTag("count-$label"),
+            .padding(horizontal = 12.dp, vertical = 5.dp).testTag("count-$tag"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(6.dp),
     ) {
@@ -353,7 +355,7 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
                     }
                 }
                 Text(
-                    card.translation.ifEmpty { "No translation saved yet" },
+                    card.translation.ifEmpty { tr("No translation saved yet") },
                     style = TextStyle(fontSize = if (compact) 18.sp else 22.sp, color = if (card.translation.isEmpty()) colors.outline else colors.onSurfaceVariant, textAlign = TextAlign.Center),
                 )
                 if (card.romanization.isNotEmpty()) Text(card.romanization, style = MaterialTheme.typography.bodyLarge, color = colors.outline)
@@ -364,7 +366,7 @@ private fun Card(card: CardContent, revealed: Boolean, speaker: Speaker?, compac
                 shape = RoundedCornerShape(12.dp),
                 modifier = Modifier.padding(top = 20.dp, bottom = 8.dp).widthIn(min = if (compact) 220.dp else 360.dp).height(if (compact) 52.dp else 64.dp),
             ) {
-                Text("Show answer", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                Text(tr("Show answer"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
             }
         }
     }
@@ -375,10 +377,10 @@ private const val BLANK = "[...]"
 @Composable
 private fun StateLabel(state: CardState) {
     val (label, tint) = when (state) {
-        CardState.NEW -> "NEW" to NEW_TINT
-        CardState.LEARNING -> "LEARNING" to LEARNING_TINT
-        CardState.RELEARNING -> "RELEARNING" to LEARNING_TINT
-        CardState.REVIEW -> "REVIEW" to REVIEW_TINT
+        CardState.NEW -> tr("NEW") to NEW_TINT
+        CardState.LEARNING -> tr("LEARNING") to LEARNING_TINT
+        CardState.RELEARNING -> tr("RELEARNING") to LEARNING_TINT
+        CardState.REVIEW -> tr("REVIEW") to REVIEW_TINT
     }
     Text(
         label,
@@ -394,12 +396,13 @@ private fun Answers(actions: FlashcardActions, compact: Boolean) {
     Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(if (compact) 8.dp else 14.dp)) {
         Rating.entries.forEach { rating ->
             val tint = rating.tint
+            val label = tr(rating.label)
             Column(
                 Modifier.weight(1f).clip(RoundedCornerShape(12.dp)).background(tint.copy(alpha = 0.1f)).border(1.dp, tint.copy(alpha = 0.45f), RoundedCornerShape(12.dp))
-                    .clickable(onClickLabel = rating.label) { actions.onAnswer(rating) }.padding(vertical = if (compact) 16.dp else 20.dp, horizontal = 6.dp).testTag("answer-${rating.label}"),
+                    .clickable(onClickLabel = label) { actions.onAnswer(rating) }.padding(vertical = if (compact) 16.dp else 20.dp, horizontal = 6.dp).testTag("answer-${rating.label}"),
                 horizontalAlignment = Alignment.CenterHorizontally,
             ) {
-                Text(rating.label, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = tint)
+                Text(label, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold, color = tint)
             }
         }
     }
@@ -409,11 +412,11 @@ private fun Answers(actions: FlashcardActions, compact: Boolean) {
 @Composable
 private fun CardFooter(card: CardContent, canUndo: Boolean, actions: FlashcardActions) {
     FlowRow(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp, Alignment.CenterHorizontally), itemVerticalAlignment = Alignment.CenterVertically) {
-        FooterLink(Icons.Default.Refresh, "Undo last answer", enabled = canUndo, onClick = actions.onUndo)
+        FooterLink(Icons.Default.Refresh, tr("Undo last answer"), enabled = canUndo, onClick = actions.onUndo)
         PillDivider()
-        FooterLink(Icons.Default.Edit, "Edit term", onClick = { actions.onEdit(card.termId) })
+        FooterLink(Icons.Default.Edit, tr("Edit term"), onClick = { actions.onEdit(card.termId) })
         PillDivider()
-        FooterLink(AppIcons.Pause, "Suspend card", onClick = actions.onSuspend)
+        FooterLink(AppIcons.Pause, tr("Suspend card"), onClick = actions.onSuspend)
     }
 }
 
@@ -440,20 +443,20 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
             Icon(Icons.Default.Check, contentDescription = null, tint = REVIEW_TINT, modifier = Modifier.size(34.dp))
         }
         val title = when {
-            waiting != null -> "Nothing to review right now"
-            state.answered > 0 -> "All done for today"
-            else -> "No cards are due"
+            waiting != null -> tr("Nothing to review right now")
+            state.answered > 0 -> tr("All done for today")
+            else -> tr("No cards are due")
         }
         Text(title, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
         val detail = when {
-            waiting != null -> "A card you are learning comes back at ${clockTime(waiting)}."
-            state.answered > 0 -> "You answered ${state.answered} card${if (state.answered == 1) "" else "s"}. Come back tomorrow for more."
-            else -> "Words you give a status of 1 to 4 while reading get a card here. More cards are due as their reviews come round."
+            waiting != null -> tr("A card you are learning comes back at {0}.", clockTime(waiting))
+            state.answered > 0 -> trPlural(state.answered, "You answered {0} card. Come back tomorrow for more.", "You answered {0} cards. Come back tomorrow for more.")
+            else -> tr("Words you give a status of 1 to 4 while reading get a card here. More cards are due as their reviews come round.")
         }
         Text(detail, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            if (state.canUndo) TextButton(onClick = actions.onUndo) { Text("Undo last answer") }
-            TextButton(onClick = actions.onVocabulary) { Text("Open vocabulary") }
+            if (state.canUndo) TextButton(onClick = actions.onUndo) { Text(tr("Undo last answer")) }
+            TextButton(onClick = actions.onVocabulary) { Text(tr("Open vocabulary")) }
         }
     }
 }

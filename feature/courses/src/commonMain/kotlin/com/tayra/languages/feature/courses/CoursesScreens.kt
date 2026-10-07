@@ -78,6 +78,8 @@ import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import org.koin.compose.viewmodel.koinViewModel
@@ -102,16 +104,20 @@ private val CourseLevel.tint: Color
 
 private val LessonStatus.label: String
     get() = when (this) {
-        LessonStatus.NOT_STARTED -> "Not started"
-        LessonStatus.IN_PROGRESS -> "In progress"
-        LessonStatus.COMPLETED -> "Completed"
+        LessonStatus.NOT_STARTED -> tr("Not started")
+        LessonStatus.IN_PROGRESS -> tr("In progress")
+        LessonStatus.COMPLETED -> tr("Completed")
     }
 
-private fun count(n: Int, one: String) = if (n == 1) "1 $one" else "$n ${one}s"
+private fun lessonCount(n: Int) = trPlural(n, "{0} lesson", "{0} lessons")
+
+private fun wordCount(n: Int) = trPlural(n, "{0} word", "{0} words")
+
+internal val CourseLevel.display: String get() = "$code · ${tr(label)}"
 
 /** The level, and the topic when there is one. */
 private val com.tayra.languages.core.domain.courses.Course.subtitle: String
-    get() = if (topic.isBlank()) level.label else "${level.label} · $topic"
+    get() = if (topic.isBlank()) tr(level.label) else "${tr(level.label)} · $topic"
 
 /** The course's tags: the words of the frequency list it covers, and whether it is one of the samples. */
 @Composable
@@ -128,7 +134,7 @@ private fun CourseTags(course: com.tayra.languages.core.domain.courses.Course) {
 @Composable
 private fun RankTag(rankUpTo: Int) {
     Text(
-        "Words ${rankUpTo - 99}–$rankUpTo",
+        tr("Words {0}–{1}", rankUpTo - 99, rankUpTo),
         Modifier.clip(RoundedCornerShape(50)).background(BLUE.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
         style = MaterialTheme.typography.labelMedium,
         color = BLUE,
@@ -153,7 +159,7 @@ private fun LabelTag(label: String) {
 @Composable
 private fun SampleTag() {
     Text(
-        "Sample course",
+        tr("Sample course"),
         Modifier.clip(RoundedCornerShape(50)).background(PURPLE.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
         style = MaterialTheme.typography.labelMedium,
         color = PURPLE,
@@ -166,7 +172,7 @@ private fun SampleTag() {
 fun CoursesScreen(onNavigate: (Route) -> Unit, viewModel: CoursesViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     Scaffold(
-        topBar = { AppTopBar(title = "Courses", onNavigate = onNavigate, section = NavSection.COURSES) },
+        topBar = { AppTopBar(title = tr("Courses"), onNavigate = onNavigate, section = NavSection.COURSES) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -208,9 +214,9 @@ internal fun CoursesContent(
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Text("Courses", style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                Text(tr("Courses"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                 Text(
-                    if (state.languageName.isEmpty()) "Guided lessons to read, level by level." else "Guided ${state.languageName} lessons to read, level by level.",
+                    if (state.languageName.isEmpty()) tr("Guided lessons to read, level by level.") else tr("Guided {0} lessons to read, level by level.", tr(state.languageName)),
                     style = MaterialTheme.typography.bodyLarge,
                     color = colors.onSurfaceVariant,
                 )
@@ -219,24 +225,24 @@ internal fun CoursesContent(
                 Button(onClick = onNewCourse, shape = RoundedCornerShape(12.dp), modifier = Modifier.testTag("new-course")) {
                     Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(20.dp))
                     Spacer(Modifier.width(8.dp))
-                    Text(if (compact) "New" else "New course")
+                    Text(if (compact) tr("Create") else tr("New course"))
                 }
             }
         }
         if (state.courses.isEmpty()) {
             Notice(
-                "No courses yet",
+                tr("No courses yet"),
                 when {
-                    state.languageName.isEmpty() -> "Choose a language to learn to see its courses."
-                    state.packAvailable -> "Download the ready-made ${state.languageName} courses, or make one of your own with New course, from texts you choose."
-                    else -> "There are no ${state.languageName} courses yet. Make one of your own with New course, from texts you choose."
+                    state.languageName.isEmpty() -> tr("Choose a language to learn to see its courses.")
+                    state.packAvailable -> tr("Download the ready-made {0} courses, or make one of your own with New course, from texts you choose.", tr(state.languageName))
+                    else -> tr("There are no {0} courses yet. Make one of your own with New course, from texts you choose.", tr(state.languageName))
                 },
             ) {
                 if (state.packAvailable) {
                     Button(onClick = onDownloadCourses, shape = RoundedCornerShape(12.dp), modifier = Modifier.testTag("download-courses")) {
                         Icon(AppIcons.Download, contentDescription = null, modifier = Modifier.size(20.dp))
                         Spacer(Modifier.width(8.dp))
-                        Text("Download courses")
+                        Text(tr("Download courses"))
                     }
                 }
             }
@@ -251,17 +257,17 @@ internal fun CoursesContent(
             SearchBox(state.search, onSearch, if (compact) Modifier.fillMaxWidth() else Modifier.width(if (width.isExpanded) 460.dp else 280.dp))
             FilterMenu(
                 AppIcons.BarChart,
-                state.level?.let { "${it.code} · ${it.label}" } ?: "All levels",
+                state.level?.display ?: tr("All levels"),
                 listOf<CourseLevel?>(null) + state.levels,
-                { it?.let { level -> "${level.code} · ${level.label}" } ?: "All levels" },
+                { it?.display ?: tr("All levels") },
                 onLevel,
             )
-            FilterMenu(AppIcons.Tune, state.status?.label ?: "Any progress", listOf<LessonStatus?>(null) + LessonStatus.entries, { it?.label ?: "Any progress" }, onStatus)
+            FilterMenu(AppIcons.Tune, state.status?.label ?: tr("Any progress"), listOf<LessonStatus?>(null) + LessonStatus.entries, { it?.label ?: tr("Any progress") }, onStatus)
             if (!compact) Spacer(Modifier.weight(1f))
-            Text(count(shown.size, "course"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            Text(trPlural(shown.size, "{0} course", "{0} courses"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
         if (shown.isEmpty()) {
-            Notice("No courses match", "Try another search, or clear the filters.")
+            Notice(tr("No courses match"), tr("Try another search, or clear the filters."))
         } else {
             val columns = when {
                 compact -> 1
@@ -302,7 +308,7 @@ private fun CourseCard(progress: CourseProgress, modifier: Modifier, onClick: ()
             Text(course.description, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 3, overflow = TextOverflow.Ellipsis)
         }
         Spacer(Modifier.weight(1f))
-        Text("${count(course.lessons.size, "lesson")} · ${course.wordCount} words", style = MaterialTheme.typography.bodyMedium)
+        Text("${lessonCount(course.lessons.size)} · ${wordCount(course.wordCount)}", style = MaterialTheme.typography.bodyMedium)
         ProgressLine(progress)
     }
 }
@@ -325,9 +331,9 @@ private fun ProgressLine(progress: CourseProgress) {
         }
         Text(
             when (progress.status) {
-                LessonStatus.COMPLETED -> "Completed"
-                LessonStatus.NOT_STARTED -> "Not started"
-                LessonStatus.IN_PROGRESS -> "${progress.completed} of $total read"
+                LessonStatus.COMPLETED -> tr("Completed")
+                LessonStatus.NOT_STARTED -> tr("Not started")
+                LessonStatus.IN_PROGRESS -> tr("{0} of {1} read", progress.completed, total)
             },
             style = MaterialTheme.typography.bodyMedium,
             color = if (progress.status == LessonStatus.COMPLETED) GREEN else colors.onSurfaceVariant,
@@ -371,7 +377,7 @@ private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modif
             modifier = Modifier.weight(1f).testTag("course-search"),
             decorationBox = { inner ->
                 Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text("Search courses and lessons", color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    if (value.isEmpty()) Text(tr("Search courses and lessons"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                     inner()
                 }
             },
@@ -416,7 +422,7 @@ fun CourseScreen(
         }
     }
     Scaffold(
-        topBar = { AppTopBar(title = state.progress?.course?.title ?: "Course", onNavigate = onNavigate, section = NavSection.COURSES, onBack = onBack) },
+        topBar = { AppTopBar(title = state.progress?.course?.title ?: tr("Course"), onNavigate = onNavigate, section = NavSection.COURSES, onBack = onBack) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -463,7 +469,7 @@ internal fun CourseContent(
             ) {
                 Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, modifier = Modifier.size(20.dp), tint = colors.onSurfaceVariant)
                 Spacer(Modifier.width(10.dp))
-                Text("Courses", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                Text(tr("Courses"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
             if (progress != null) {
                 Text("/", Modifier.padding(horizontal = 10.dp), style = MaterialTheme.typography.bodyLarge, color = colors.outline)
@@ -471,7 +477,7 @@ internal fun CourseContent(
             }
         }
         if (progress == null) {
-            Notice("Course not found", "This course is no longer available.")
+            Notice(tr("Course not found"), tr("This course is no longer available."))
             return@Column
         }
         state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
@@ -507,22 +513,22 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
             CourseTags(course)
             if (course.description.isNotBlank()) Text(course.description, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-                Fact(AppIcons.MenuBook, count(course.lessons.size, "lesson"))
+                Fact(AppIcons.MenuBook, lessonCount(course.lessons.size))
                 Box(Modifier.width(1.dp).height(22.dp).background(colors.outlineVariant))
-                Fact(AppIcons.FileOutline, "${course.wordCount} words")
+                Fact(AppIcons.FileOutline, wordCount(course.wordCount))
             }
             HorizontalDivider(color = colors.outlineVariant)
             Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                Text("Course progress", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                Text(tr("Course progress"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
                 ProgressLine(progress)
             }
             progress.nextLesson?.let { next ->
                 Button(onClick = { onOpenLesson(next.lesson.id) }, shape = RoundedCornerShape(12.dp), modifier = Modifier.fillMaxWidth().height(56.dp)) {
                     Text(
                         when (progress.status) {
-                            LessonStatus.NOT_STARTED -> "Start course"
-                            LessonStatus.COMPLETED -> "Read again from the start"
-                            LessonStatus.IN_PROGRESS -> "Continue: ${next.lesson.title}"
+                            LessonStatus.NOT_STARTED -> tr("Start course")
+                            LessonStatus.COMPLETED -> tr("Read again from the start")
+                            LessonStatus.IN_PROGRESS -> tr("Continue: {0}", next.lesson.title)
                         },
                         Modifier.weight(1f, fill = false),
                         style = MaterialTheme.typography.titleMedium,
@@ -540,18 +546,18 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                     OutlinedButton(onClick = editing.onEdit, shape = RoundedCornerShape(10.dp), modifier = Modifier.weight(1f).testTag("edit-course")) {
                         Icon(Icons.Default.Edit, contentDescription = null, modifier = Modifier.size(18.dp))
                         Spacer(Modifier.width(8.dp))
-                        Text("Edit course")
+                        Text(tr("Edit course"))
                     }
                     OutlinedButton(onClick = { confirm = true }, shape = RoundedCornerShape(10.dp), modifier = Modifier.weight(1f).testTag("delete-course")) {
                         Icon(Icons.Default.Delete, contentDescription = null, tint = colors.error, modifier = Modifier.size(18.dp))
                         Spacer(Modifier.width(8.dp))
-                        Text("Delete", color = colors.error)
+                        Text(tr("Delete"), color = colors.error)
                     }
                 }
                 if (confirm) {
                     ConfirmDelete(
-                        "Delete this course?",
-                        "${course.title} and its ${count(course.lessons.size, "lesson")} are deleted, with your reading progress in them. Words you saved stay in your vocabulary.",
+                        tr("Delete this course?"),
+                        trPlural(course.lessons.size, "{1} and its {0} lesson are deleted, with your reading progress in them. Words you saved stay in your vocabulary.", "{1} and its {0} lessons are deleted, with your reading progress in them. Words you saved stay in your vocabulary.", course.title),
                         onConfirm = { confirm = false; editing.onDelete() },
                         onDismiss = { confirm = false },
                     )
@@ -578,9 +584,9 @@ private fun ConfirmDelete(title: String, text: String, onConfirm: () -> Unit, on
         title = { Text(title) },
         text = { Text(text) },
         confirmButton = {
-            Button(onClick = onConfirm, colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error), modifier = Modifier.testTag("confirm-delete")) { Text("Delete") }
+            Button(onClick = onConfirm, colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error), modifier = Modifier.testTag("confirm-delete")) { Text(tr("Delete")) }
         },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(tr("Cancel")) } },
     )
 }
 
@@ -602,21 +608,21 @@ private fun LessonList(progress: CourseProgress, compact: Boolean, onOpenLesson:
     Column(modifier.clip(RoundedCornerShape(16.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(16.dp))) {
         Row(Modifier.padding(start = if (compact) 18.dp else 28.dp, end = 18.dp, top = 22.dp, bottom = 18.dp), verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Text("Lessons", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-                Text("${count(course.lessons.size, "lesson")} · ${course.wordCount} words", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                Text(tr("Lessons"), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                Text("${lessonCount(course.lessons.size)} · ${wordCount(course.wordCount)}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             }
             if (editing != null) {
                 Button(onClick = editing.onAddLesson, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("add-lesson")) {
                     Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
                     Spacer(Modifier.width(8.dp))
-                    Text("Add lesson")
+                    Text(tr("Add lesson"))
                 }
             }
         }
         if (progress.lessons.isEmpty()) {
             HorizontalDivider(color = colors.outlineVariant.copy(alpha = 0.7f))
             Text(
-                if (editing != null) "No lessons yet. Add the first one: a text you want to read." else "This course has no lessons.",
+                if (editing != null) tr("No lessons yet. Add the first one: a text you want to read.") else tr("This course has no lessons."),
                 Modifier.padding(28.dp),
                 style = MaterialTheme.typography.bodyLarge,
                 color = colors.onSurfaceVariant,
@@ -630,7 +636,7 @@ private fun LessonList(progress: CourseProgress, compact: Boolean, onOpenLesson:
                 compact = compact,
                 first = index == 0,
                 last = index == progress.lessons.lastIndex,
-                hint = if (lesson === next) (if (progress.status == LessonStatus.NOT_STARTED) "Start here" else "Continue here") else null,
+                hint = if (lesson === next) (if (progress.status == LessonStatus.NOT_STARTED) tr("Start here") else tr("Continue here")) else null,
                 onClick = { onOpenLesson(lesson.lesson.id) },
                 editing = editing,
             )
@@ -686,7 +692,7 @@ private fun LessonRow(
             Modifier.size(LESSON_CIRCLE).clip(CircleShape).background(colors.surface).background(if (done) GREEN else colors.primary.copy(alpha = 0.09f)),
             contentAlignment = Alignment.Center,
         ) {
-            if (done) Icon(Icons.Default.Check, contentDescription = "Completed", tint = Color.White, modifier = Modifier.size(24.dp))
+            if (done) Icon(Icons.Default.Check, contentDescription = tr("Completed"), tint = Color.White, modifier = Modifier.size(24.dp))
             else Text("$number", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, color = colors.primary)
         }
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -706,17 +712,17 @@ private fun LessonRow(
             if (lesson.summary.isNotBlank()) Text(lesson.summary, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             if (lesson.newWords.isNotEmpty()) {
                 Text(
-                    "New words: ${lesson.newWords.joinToString(", ")}",
+                    tr("New words: {0}", lesson.newWords.joinToString(", ")),
                     style = MaterialTheme.typography.bodyMedium,
                     color = colors.primary,
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis,
                 )
             }
-            if (compact) Text("${lesson.wordCount} words · ${status.label}", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            if (compact) Text("${wordCount(lesson.wordCount)} · ${status.label}", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
         if (!compact) {
-            Text("${lesson.wordCount} words", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
+            Text(wordCount(lesson.wordCount), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
             val tint = when (status) {
                 LessonStatus.COMPLETED -> GREEN
                 LessonStatus.IN_PROGRESS -> BLUE
@@ -743,19 +749,19 @@ private fun LessonMenu(lessonId: String, title: String, first: Boolean, last: Bo
     var confirm by remember { mutableStateOf(false) }
     Box {
         IconButton(onClick = { open = true }, modifier = Modifier.testTag("lesson-menu-$lessonId")) {
-            Icon(Icons.Default.MoreVert, contentDescription = "Lesson actions", tint = MaterialTheme.colorScheme.onSurfaceVariant)
+            Icon(Icons.Default.MoreVert, contentDescription = tr("Lesson actions"), tint = MaterialTheme.colorScheme.onSurfaceVariant)
         }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text("Edit lesson") }, onClick = { open = false; editing.onEditLesson(lessonId) })
-            AppMenuItem(text = { Text("Move up") }, onClick = { open = false; editing.onMoveLesson(lessonId, -1) }, enabled = !first)
-            AppMenuItem(text = { Text("Move down") }, onClick = { open = false; editing.onMoveLesson(lessonId, 1) }, enabled = !last)
-            AppMenuItem(text = { Text("Delete lesson", color = MaterialTheme.colorScheme.error) }, onClick = { open = false; confirm = true })
+            AppMenuItem(text = { Text(tr("Edit lesson")) }, onClick = { open = false; editing.onEditLesson(lessonId) })
+            AppMenuItem(text = { Text(tr("Move up")) }, onClick = { open = false; editing.onMoveLesson(lessonId, -1) }, enabled = !first)
+            AppMenuItem(text = { Text(tr("Move down")) }, onClick = { open = false; editing.onMoveLesson(lessonId, 1) }, enabled = !last)
+            AppMenuItem(text = { Text(tr("Delete lesson"), color = MaterialTheme.colorScheme.error) }, onClick = { open = false; confirm = true })
         }
     }
     if (confirm) {
         ConfirmDelete(
-            "Delete this lesson?",
-            "$title is deleted, with your reading progress in it. Words you saved stay in your vocabulary.",
+            tr("Delete this lesson?"),
+            tr("{0} is deleted, with your reading progress in it. Words you saved stay in your vocabulary.", title),
             onConfirm = { confirm = false; editing.onDeleteLesson(lessonId) },
             onDismiss = { confirm = false },
         )
