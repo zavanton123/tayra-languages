@@ -147,7 +147,7 @@ class TermEditScreenTest {
         onNodeWithText("Not shown yet").assertExists()
         onNode(isToggleable()).performClick()
         waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == true }
-        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("New, suspended")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("New card, suspended")).fetchSemanticsNodes().isNotEmpty() }
         onNode(isToggleable()).performClick()
         waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == false }
 

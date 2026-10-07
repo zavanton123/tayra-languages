@@ -50,7 +50,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Settings" to "Настройки",
     "About" to "О программе",
     "All books" to "Все книги",
-    "Create new book" to "Создать книгу",
+    "Create new book" to "Новая книга",
     "Book archive" to "Архив книг",
     "Word frequency" to "Частотность слов",
     "Review flashcards" to "Повторить карточки",
@@ -72,7 +72,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Selected" to "Выбрано",
 
     // TagInput.kt
-    "Remove {0}" to "Удалить {0}",
+    "Remove {0}" to "Убрать «{0}»",
 
     // ContentCards.kt (the package tabs are shown through tr(label))
     "Decrease {0}" to "Уменьшить {0}",
@@ -132,6 +132,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "I'm learning" to "Изучаемый язык",
     "Used for books, courses, vocabulary and flashcards." to "Для книг, курсов, слов и карточек.",
     "Also shown in the header" to "Также показан в верхней панели",
+    "Studying" to "Изучение",
     "Translations" to "Переводы",
     "Show meanings in" to "Переводить на",
     "Used for translations, definitions and example sentences." to "Для переводов, определений и примеров.",
@@ -141,7 +142,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "More interface languages will appear as Tayra is translated." to "Другие языки интерфейса появятся по мере перевода Tayra.",
     "Changes saved" to "Изменения сохранены",
     "Learn {0} with {1} translations" to "Учите {0} с переводом на {1}",
-    "Meanings in {0}" to "Перевод на {0}",
+    "Meanings in {0}" to "Значения на {0} языке",
     "with translations in" to "с переводом на",
     "Your setup" to "Ваш выбор",
     "App interface: {0}" to "Интерфейс: {0}",

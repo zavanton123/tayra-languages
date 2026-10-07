@@ -64,3 +64,30 @@ private fun format(text: String, args: Array<out Any?>): String {
     args.forEachIndexed { i, arg -> out = out.replace("{$i}", arg.toString()) }
     return out
 }
+
+/** The case a language name takes inside a Russian sentence. */
+enum class LanguageCase { NOMINATIVE, GENITIVE, PREPOSITIONAL }
+
+/**
+ * The language [name] (stored in English, "Portuguese") for use inside a sentence. English keeps
+ * the name; Russian gives the lowercase adjective in [case], which the Russian text follows with
+ * «язык» where it needs it: «португальский», «(для) португальского (языка)», «(на) португальском (языке)».
+ */
+fun languageInSentence(name: String, case: LanguageCase = LanguageCase.NOMINATIVE): String {
+    if (UiLanguage.code != "ru") return name
+    val russian = tr(name).lowercase()
+    if (!russian.endsWith("ий")) return russian
+    val stem = russian.dropLast(2)
+    return when (case) {
+        LanguageCase.NOMINATIVE -> russian
+        LanguageCase.GENITIVE -> stem + "ого"
+        LanguageCase.PREPOSITIONAL -> stem + "ом"
+    }
+}
+
+/** A whole number with its thousands grouped as the interface language writes them: "10,000", or "10 000" in Russian (with a no-break space). */
+fun formatCount(n: Int): String {
+    val separator = if (UiLanguage.code == "ru") " " else ","
+    val digits = if (n < 0) (-n.toLong()).toString() else n.toString()
+    return (if (n < 0) "-" else "") + digits.reversed().chunked(3).joinToString(separator).reversed()
+}

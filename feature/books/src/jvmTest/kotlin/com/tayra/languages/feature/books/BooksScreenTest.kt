@@ -105,7 +105,7 @@ class BooksScreenTest {
         assertEquals(0, onAllNodesWithText("Page ", substring = true).fetchSemanticsNodes().size, "the list shows no page numbers")
         onNodeWithText("60%").assertExists()
         onNodeWithText("1,223 words").assertExists()
-        onNodeWithText("Reading").assertExists()
+        onNodeWithText("In progress").assertExists()
         assertEquals(4, onAllNodesWithText("Finished").fetchSemanticsNodes().size)
         onNodeWithText("Currently reading").assertExists()
         onNodeWithText("349").assertExists()

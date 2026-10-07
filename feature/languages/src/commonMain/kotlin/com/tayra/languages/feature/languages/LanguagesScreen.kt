@@ -1,7 +1,8 @@
 package com.tayra.languages.feature.languages
 
 import com.tayra.languages.core.ui.i18n.tr
-import com.tayra.languages.core.ui.i18n.UiLanguage
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.languageInSentence
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -87,7 +88,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 Text(tr("Language setup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                 Spacer(Modifier.height(20.dp))
                 val learningTile: @Composable (Modifier) -> Unit = { m ->
-                    LanguageTile(tr("Learning"), tr("I'm learning"), highlighted = true, modifier = m) {
+                    LanguageTile(tr("Studying"), tr("I'm learning"), highlighted = true, modifier = m) {
                         FlagPicker(
                             options = learning?.languages.orEmpty(),
                             selected = learning?.languages?.firstOrNull { it.first == learning.currentId },
@@ -278,9 +279,9 @@ private fun <T> FlagPicker(
 @Composable
 private fun SetupSummary(learning: String?, native: String, ui: String, wide: Boolean) {
     val sentence = if (learning != null) {
-        tr("Learn {0} with {1} translations", inSentence(tr(learning)), inSentence(tr(native)))
+        tr("Learn {0} with {1} translations", languageInSentence(learning), languageInSentence(native))
     } else {
-        tr("Meanings in {0}", inSentence(tr(native)))
+        tr("Meanings in {0}", languageInSentence(native, LanguageCase.PREPOSITIONAL))
     }
     val pair: @Composable () -> Unit = {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -316,9 +317,6 @@ private fun SetupSummary(learning: String?, native: String, ui: String, wide: Bo
         }
     }
 }
-
-/** Russian writes language names in lower case inside a sentence. */
-private fun inSentence(name: String): String = if (UiLanguage.code == "ru") name.replaceFirstChar { it.lowercaseChar() } else name
 
 /** A language by its English [name], shown in the interface language. */
 @Composable

@@ -57,6 +57,8 @@ import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.components.StatusTints
 import com.tayra.languages.core.ui.components.TagInput
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
@@ -113,7 +115,7 @@ fun BookFormScreen(
                     !state.isNew -> state.loaded?.title?.ifBlank { null }
                         ?.let { tr("Change the text, title, tags and pages of “{0}”.", it) }
                         ?: tr("Change the text, title, tags and pages of this book.")
-                    languageName != null -> tr("Add a {0} text to your library.", tr(languageName))
+                    languageName != null -> tr("Add a {0} text to your library.", languageInSentence(languageName, LanguageCase.PREPOSITIONAL))
                     else -> tr("Add a text to your library.")
                 },
             )
@@ -166,7 +168,7 @@ private fun BookContentCard(
                 OutlinedTextField(
                     value = state.draft.text,
                     onValueChange = { text -> viewModel.update { it.copy(text = text) } },
-                    placeholder = { Text(state.language?.name?.let { tr("Paste your {0} text here…", tr(it)) } ?: tr("Paste your text here…")) },
+                    placeholder = { Text(state.language?.name?.let { tr("Paste your {0} text here…", languageInSentence(it, LanguageCase.PREPOSITIONAL)) } ?: tr("Paste your text here…")) },
                     textStyle = MaterialTheme.typography.bodyLarge.copy(textDirection = if (rtl) TextDirection.Rtl else TextDirection.Ltr),
                     shape = RoundedCornerShape(10.dp),
                     modifier = Modifier.fillMaxWidth().height(400.dp),

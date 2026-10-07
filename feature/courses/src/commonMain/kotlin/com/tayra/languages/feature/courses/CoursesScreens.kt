@@ -79,6 +79,8 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
@@ -216,7 +218,7 @@ internal fun CoursesContent(
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Text(tr("Courses"), style = if (compact) MaterialTheme.typography.headlineSmall else MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                 Text(
-                    if (state.languageName.isEmpty()) tr("Guided lessons to read, level by level.") else tr("Guided {0} lessons to read, level by level.", tr(state.languageName)),
+                    if (state.languageName.isEmpty()) tr("Guided lessons to read, level by level.") else tr("Guided {0} lessons to read, level by level.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
                     style = MaterialTheme.typography.bodyLarge,
                     color = colors.onSurfaceVariant,
                 )
@@ -234,8 +236,8 @@ internal fun CoursesContent(
                 tr("No courses yet"),
                 when {
                     state.languageName.isEmpty() -> tr("Choose a language to learn to see its courses.")
-                    state.packAvailable -> tr("Download the ready-made {0} courses, or make one of your own with New course, from texts you choose.", tr(state.languageName))
-                    else -> tr("There are no {0} courses yet. Make one of your own with New course, from texts you choose.", tr(state.languageName))
+                    state.packAvailable -> tr("Download the ready-made {0} courses, or make one of your own with New course, from texts you choose.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))
+                    else -> tr("There are no {0} courses yet. Make one of your own with New course, from texts you choose.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))
                 },
             ) {
                 if (state.packAvailable) {

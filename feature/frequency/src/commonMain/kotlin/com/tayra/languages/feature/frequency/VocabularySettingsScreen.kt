@@ -58,7 +58,10 @@ import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import org.koin.compose.viewmodel.koinViewModel
 
@@ -103,7 +106,7 @@ internal fun VocabularySettingsContent(
     var confirming by remember { mutableStateOf(false) }
     ScreenHeader(
         tr("Vocabulary"),
-        if (state.languageName.isEmpty()) tr("How much of the language you know already.") else tr("How much {0} you know already.", tr(state.languageName)),
+        if (state.languageName.isEmpty()) tr("How much of the language you know already.") else tr("How much {0} you know already.", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)),
         onBackToSettings = onBackToSettings,
     )
     val list = state.list
@@ -111,7 +114,7 @@ internal fun VocabularySettingsContent(
         ContentCard(
             tr("Vocabulary level"),
             if (state.languageName.isEmpty()) tr("There is no word frequency list for this language, so a level cannot be set.")
-            else tr("There is no word frequency list for {0}, so a level cannot be set.", tr(state.languageName)),
+            else tr("There is no word frequency list for {0}, so a level cannot be set.", languageInSentence(state.languageName, LanguageCase.GENITIVE)),
             icon = AppIcons.BarChart,
         ) {}
         return
@@ -248,7 +251,7 @@ internal fun ExampleText(state: VocabularySettingsUiState, modifier: Modifier) {
         Text(tr("Example text"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
         Box(Modifier.fillMaxWidth().clip(shape).border(1.dp, colors.outlineVariant, shape).padding(20.dp)) {
             if (state.example.isEmpty()) {
-                Text(tr("No sample text for {0}.", tr(state.languageName)), color = colors.onSurfaceVariant)
+                Text(tr("No sample text for {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)), color = colors.onSurfaceVariant)
             } else {
                 Text(
                     buildAnnotatedString {

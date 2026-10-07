@@ -45,6 +45,8 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
@@ -146,7 +148,7 @@ fun CourseFormScreen(
 internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft) -> CourseDraft) -> Unit) {
     ScreenHeader(
         if (state.isNew) tr("New course") else tr("Edit course"),
-        if (state.isNew) tr("A course of your own {0} texts, read lesson by lesson.", tr(state.languageName)) else tr("Change what the course is called and what it is about."),
+        if (state.isNew) tr("A course of your own {0} texts, read lesson by lesson.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)) else tr("Change what the course is called and what it is about."),
     )
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
     ContentCard(tr("About the course"), tr("Shown on the course's card and page."), icon = AppIcons.MenuBook) {
@@ -327,7 +329,7 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
             OutlinedTextField(
                 value = state.draft.text,
                 onValueChange = { text -> onChange { it.copy(text = text) } },
-                placeholder = { Text(state.languageName.ifEmpty { null }?.let { tr("Paste or write the {0} text to read…", tr(it)) } ?: tr("Paste or write the text to read…")) },
+                placeholder = { Text(state.languageName.ifEmpty { null }?.let { tr("Paste or write the {0} text to read…", languageInSentence(it, LanguageCase.PREPOSITIONAL)) } ?: tr("Paste or write the text to read…")) },
                 shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth().height(380.dp).testTag("lesson-text"),
             )

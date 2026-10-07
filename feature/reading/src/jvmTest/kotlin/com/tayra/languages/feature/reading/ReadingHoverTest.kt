@@ -260,7 +260,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Menu").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Edit book").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("EDIT", ignoreCase = true).assertExists()
+        rule.onNodeWithText("EDITING", ignoreCase = true).assertExists()
         rule.onNodeWithText("Edit current page").assertExists()
         for (gone in listOf("Add page after", "Add page before", "Delete current page")) {
             assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is no longer offered")

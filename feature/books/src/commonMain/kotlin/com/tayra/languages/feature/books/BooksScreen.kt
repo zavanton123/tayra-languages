@@ -77,6 +77,7 @@ import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.relativeTo
+import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
@@ -528,7 +529,7 @@ private fun BookTableRow(book: BookListItem, selected: Boolean, callbacks: Books
 @Composable
 private fun StatusTag(status: ReadingStatus) {
     val (label, tint) = when (status) {
-        ReadingStatus.READING -> tr("Reading") to BLUE
+        ReadingStatus.READING -> tr("In progress") to BLUE
         ReadingStatus.FINISHED -> tr("Finished") to GREEN
         ReadingStatus.NOT_STARTED -> return
     }
@@ -715,4 +716,4 @@ private fun DemoNotice(tutorialBookId: Long?, callbacks: BooksCallbacks) {
 private fun words(count: Int) = trPlural(count, "{1} word", "{1} words", count.grouped())
 
 /** 1223 → "1,223". */
-private fun Int.grouped(): String = toString().reversed().chunked(3).joinToString(",").reversed()
+private fun Int.grouped(): String = formatCount(this)

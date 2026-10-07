@@ -2,6 +2,7 @@ package com.tayra.languages.core.ui.i18n.ru
 
 /** The reader: its menu, toolbar, footer, term popups, sentence translations and keyboard help, and the practice screen. */
 internal val ruReading: Map<String, String> = mapOf(
+    "Editing" to "Редактирование",
     // ReadingScreen.kt
     "Menu" to "Меню",
     "Home" to "Главная",
@@ -18,9 +19,9 @@ internal val ruReading: Map<String, String> = mapOf(
     "Translations side by side" to "Переводы рядом с текстом",
     "Translation engine" to "Сервис перевода",
     "{0} (offline, free)" to "{0} (офлайн, бесплатно)",
-    "On this device (offline, free)" to "На устройстве (офлайн, бесплатно)",
+    "On this device (offline, free)" to "На этом устройстве (офлайн, бесплатно)",
     "MyMemory (online, free)" to "MyMemory (онлайн, бесплатно)",
-    "Google Translate (online, API key)" to "Google Translate (онлайн, нужен API-ключ)",
+    "Google Translate (online, API key)" to "Google Translate (онлайн, нужен ключ API)",
     "{0} – add a key in Settings" to "{0} – добавьте ключ в настройках",
     "Typography" to "Оформление текста",
     "Font" to "Шрифт",
@@ -86,7 +87,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "{0} has no {1} → {2} model. Turn offline translation off to use MyMemory." to "В {0} нет модели {1} → {2}. Выключите офлайн-перевод, чтобы использовать MyMemory.",
     "Install" to "Установить",
     "Offline" to "Офлайн",
-    "Try again" to "Повторить",
+    "Try again" to "Повторить попытку",
     "Settings" to "Настройки",
     "Setting up offline translation: {0}" to "Настройка офлайн-перевода: {0}",
     "Vocabulary on this page" to "Слова на этой странице",

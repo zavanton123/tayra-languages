@@ -71,7 +71,10 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
+import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
 import com.tayra.languages.core.ui.theme.TayraTheme
@@ -209,7 +212,7 @@ internal fun WordFrequencyContent(
                         Notice(
                             tr("No frequency list yet"),
                             if (state.languageName.isEmpty()) tr("Choose a language to learn to see its most common words.")
-                            else tr("There is no word frequency list for {0}. Lists come with the languages the app offers to learn.", tr(state.languageName)),
+                            else tr("There is no word frequency list for {0}. Lists come with the languages the app offers to learn.", languageInSentence(state.languageName, LanguageCase.GENITIVE)),
                         )
                     }
                     bands.isEmpty() -> item(key = "empty") { Notice(tr("No words match"), tr("Try another search, or show more kinds of words.")) }

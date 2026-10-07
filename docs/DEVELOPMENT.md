@@ -83,6 +83,22 @@ generated into `PredefinedLanguages.kt` by `tools/generate_language_defs.py`. La
 need external tokenisers (Japanese, Thai, Khmer, Mandarin) are not supported. Any language
 outside the catalog found in the database is removed on start together with its books and terms.
 
+## Interface languages
+
+The interface is in English and Russian (`UiLanguage.supported`), chosen on the Languages page
+and stored as `UserSettings.uiLanguage`. Interface text goes through `tr("English text")` and
+`trPlural(count, "{0} book", "{0} books")` in `core/ui/.../i18n`: the English text is the key,
+`{0}`, `{1}`… are placeholders, and `UiLanguage.code` is snapshot state set at the app root, so
+screens recompose when it changes. The Russian texts live in `i18n/ru/`, one map per area of the
+app; a plural maps the English "other" form to its three Russian forms separated by `|`.
+`TranslationsTest` reads the sources of every module and fails when a literal passed to `tr` or
+`trPlural` has no Russian entry (it prints the missing ones ready to paste), when placeholders
+differ, or when two areas translate the same text differently; so pass `tr` one plain literal,
+never a string template. Text that comes from data (language names, option labels) goes through
+`tr(value)` and needs its entries added by hand. To add a language, add its code to
+`UiLanguage.supported` and `LanguageCatalog.interfaceLanguages`, a map like `russianStrings`, and
+its plural rule in `trPlural`.
+
 ## Translation engines
 
 `TranslationEngine` names the engines; `UserSettings.effectiveEngine()` falls back to MyMemory

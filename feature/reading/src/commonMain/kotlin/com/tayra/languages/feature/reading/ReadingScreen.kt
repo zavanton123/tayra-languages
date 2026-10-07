@@ -400,7 +400,7 @@ private fun ReadingMenu(state: ReadingUiState, viewModel: ReadingViewModel, acti
 
         // A lesson's text belongs to its course.
         if (state.lesson == null) {
-            MenuSection(tr("Edit"))
+            MenuSection(tr("Editing"))
             MenuRow(AppIcons.MenuBook, tr("Edit book")) { onClose(); actions.onEditBook() }
             MenuRow(AppIcons.Page, tr("Edit current page")) { onClose(); actions.onEditPage() }
         }

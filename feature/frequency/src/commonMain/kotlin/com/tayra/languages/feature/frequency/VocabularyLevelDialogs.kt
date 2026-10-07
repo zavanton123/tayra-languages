@@ -6,7 +6,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import com.tayra.languages.core.domain.frequency.LevelChange
-import com.tayra.languages.core.ui.i18n.UiLanguage
+import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.i18n.trPlural
 
@@ -41,8 +41,3 @@ internal fun LevelChange.message(): String {
     return if (parts.isEmpty()) "$level." else "$level: ${parts.joinToString(", ")}."
 }
 
-/** 10000 as "10,000", or "10 000" (with a no-break space) in a Russian interface. */
-internal fun formatCount(n: Int): String {
-    val separator = if (UiLanguage.code == "ru") " " else ","
-    return n.toString().reversed().chunked(3).joinToString(separator).reversed()
-}

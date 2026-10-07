@@ -92,7 +92,7 @@ Latin, Latvian, Lithuanian, Macedonian, Norwegian, Polish, Portuguese, Romanian,
 Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian or Welsh, with meanings shown
 in English, French, German, Portuguese, Russian or Spanish. Each language comes with sample
 texts and a short tutorial. The Languages page sets the language being learned, the native
-language meanings are shown in, and the language of the interface (English for now).
+language meanings are shown in, and the language of the interface (English or Russian).
 
 ## Books
 

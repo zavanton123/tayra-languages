@@ -62,7 +62,10 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.LanguageCase
+import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import org.koin.compose.viewmodel.koinViewModel
 
@@ -117,7 +120,7 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
         Column(Modifier.weight(1f, fill = false).verticalScroll(rememberScrollState()).padding(start = 40.dp, end = 28.dp, top = 28.dp, bottom = 24.dp)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f).padding(top = 6.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text(tr("How much {0} do you know?", tr(state.languageName)), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                    Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                     Text(
                         tr("Choose an estimate. Words below this level will start as known. You can change it later in Settings → Vocabulary."),
                         style = MaterialTheme.typography.bodyLarge,
@@ -307,7 +310,7 @@ private fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier: 
         val inner = RoundedCornerShape(14.dp)
         Box(Modifier.fillMaxWidth().weight(1f, fill = false).clip(inner).border(1.dp, colors.outlineVariant, inner).padding(20.dp)) {
             if (state.example.isEmpty()) {
-                Text(tr("No sample text for {0}.", tr(state.languageName)), color = colors.onSurfaceVariant)
+                Text(tr("No sample text for {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)), color = colors.onSurfaceVariant)
             } else {
                 Text(
                     buildAnnotatedString {

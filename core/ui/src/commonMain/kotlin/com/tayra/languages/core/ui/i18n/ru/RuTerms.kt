@@ -52,7 +52,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Custom order" to "Свой порядок",
     "Sort: {0}" to "Сортировка: {0}",
     "{0} terms" to "{0} слово|{0} слова|{0} слов",
-    "{0} of {1} selected" to "Выбрано: {0} из {1}",
+    "{0} of {1} selected" to "Выбрано {0} из {1}",
     "Filters" to "Фильтры",
     "{0} filters on" to "Включён {0} фильтр|Включено {0} фильтра|Включено {0} фильтров",
     "Search terms or translations" to "Поиск слов и переводов",
@@ -202,7 +202,7 @@ internal val ruTerms: Map<String, String> = mapOf(
 
     // TermScreens.kt
     "New term" to "Новое слово",
-    "Edit term" to "Изменение слова",
+    "Edit term" to "Изменить слово",
     "Back" to "Назад",
     "Saving..." to "Сохранение…",
     "Save changes" to "Сохранить изменения",

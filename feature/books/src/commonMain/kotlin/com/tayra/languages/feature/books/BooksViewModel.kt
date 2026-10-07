@@ -53,7 +53,7 @@ val BookListItem.progressPercent: Int
 enum class ProgressFilter(val label: String, val status: ReadingStatus?) {
     ALL("All progress", null),
     NOT_STARTED("Not started", ReadingStatus.NOT_STARTED),
-    READING("Reading", ReadingStatus.READING),
+    READING("In progress", ReadingStatus.READING),
     FINISHED("Finished", ReadingStatus.FINISHED),
 }
 
