@@ -75,7 +75,6 @@ import com.tayra.languages.core.domain.service.LocalPackage
 import com.tayra.languages.core.domain.service.LocalSentenceTranslator
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.TranslationEngine
-import com.tayra.languages.core.domain.service.label
 import com.tayra.languages.core.domain.settings.SettingsRepository
 import com.tayra.languages.core.domain.settings.UserSettings
 import com.tayra.languages.core.ui.components.AppIcons
@@ -86,6 +85,7 @@ import com.tayra.languages.core.ui.components.Dropdown
 import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.navigation.Route
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -178,7 +178,7 @@ class OfflineTranslationViewModel(
 
     /** Downloads the app's own Python with argostranslate; slow, so the status says so meanwhile. */
     fun install() {
-        _status.value = "Installing $localName into the app folder. This downloads about a gigabyte and takes a few minutes\u2026"
+        _status.value = tr("Installing {0} into the app folder. This downloads about a gigabyte and takes a few minutes…", localName)
         task { translator ->
             val summary = translator.setUp()
             val packages = runCatching { translator.packages() }
@@ -202,7 +202,7 @@ class OfflineTranslationViewModel(
                 _packages.value = translator.packages()
                 _status.value = translator.status()
             } catch (e: Exception) {
-                _status.value = "${pkg.title}: ${e.message}"
+                _status.value = "${pkg.displayTitle}: ${e.message}"
             }
             _packageBusy.update { it - pkg.key }
         }
@@ -235,9 +235,9 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
         }
     }
     val wide = LocalWindowWidth.current.isExpanded
-    val learningName = LocalLearningLanguage.current?.currentName
+    val learningName = LocalLearningLanguage.current?.currentName?.let { tr(it) }
     val native = settings.nativeLanguage.ifBlank { "en" }
-    val nativeName = LanguageCatalog.nativeOption(native).name
+    val nativeName = tr(LanguageCatalog.nativeOption(native).name)
     val local = viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS
     val wanted = if (local) viewModel.wantedPackages(inUse, native, packages) else emptySet()
     val missing = packages.filter { it.key in wanted && !it.installed }
@@ -248,7 +248,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader("Translation", "Choose how translations are generated and stored.", onBackToSettings = onBack) {
+            ScreenHeader(tr("Translation"), tr("Choose how translations are generated and stored."), onBackToSettings = onBack) {
                 if (!LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pair)
             }
             if (LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pair)
@@ -268,7 +268,7 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
 
 /** Whether the language being learned can be translated into the native language with what is installed. */
 private class PairState(val learning: String?, val native: String, val missing: List<LocalPackage>, val sameLanguage: Boolean) {
-    val label: String get() = "${learning ?: "Your language"} → $native"
+    val label: String get() = "${learning ?: tr("Your language")} → $native"
     val ready: Boolean get() = missing.isEmpty()
 }
 
@@ -276,22 +276,22 @@ private class PairState(val learning: String?, val native: String, val missing: 
 private fun EngineStatusPill(settings: UserSettings, viewModel: OfflineTranslationViewModel, local: Boolean, checking: Boolean, ready: Boolean, pair: PairState) {
     when (settings.translationEngine) {
         TranslationEngine.ARGOS -> when {
-            !local -> StatusPill("Online translation: MyMemory", StatusTints.ok)
-            checking -> StatusPill("Checking offline translation", MaterialTheme.colorScheme.outline)
-            !ready -> StatusPill("${viewModel.localName} is not installed", StatusTints.warning)
-            !pair.ready -> StatusPill("Language packages needed", StatusTints.warning)
-            else -> StatusPill("Offline translation ready", StatusTints.ok)
+            !local -> StatusPill(tr("Online translation: {0}", "MyMemory"), StatusTints.ok)
+            checking -> StatusPill(tr("Checking offline translation"), MaterialTheme.colorScheme.outline)
+            !ready -> StatusPill(tr("{0} is not installed", viewModel.localName), StatusTints.warning)
+            !pair.ready -> StatusPill(tr("Language packages needed"), StatusTints.warning)
+            else -> StatusPill(tr("Offline translation ready"), StatusTints.ok)
         }
-        TranslationEngine.MYMEMORY -> StatusPill("Online translation: MyMemory", StatusTints.ok)
+        TranslationEngine.MYMEMORY -> StatusPill(tr("Online translation: {0}", "MyMemory"), StatusTints.ok)
         TranslationEngine.GOOGLE ->
-            if (settings.googleTranslateApiKey.isBlank()) StatusPill("Google API key needed", StatusTints.warning)
-            else StatusPill("Online translation: Google", StatusTints.ok)
+            if (settings.googleTranslateApiKey.isBlank()) StatusPill(tr("Google API key needed"), StatusTints.warning)
+            else StatusPill(tr("Online translation: {0}", "Google"), StatusTints.ok)
     }
 }
 
 @Composable
 private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslationViewModel, learningName: String?, nativeName: String, modifier: Modifier = Modifier) {
-    ContentCard("Language pair", "Translations and example sentences use your native language.", icon = AppIcons.SwapHoriz, modifier = modifier) {
+    ContentCard(tr("Language pair"), tr("Translations and example sentences use your native language."), icon = AppIcons.SwapHoriz, modifier = modifier) {
         val compact = LocalWindowWidth.current.isCompact
         val learning: @Composable (Modifier) -> Unit = { m ->
             Column(m) {
@@ -299,13 +299,13 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
                     options = listOfNotNull(learningName),
                     selected = learningName,
                     onSelect = {},
-                    label = "Learning language",
+                    label = tr("Learning language"),
                     optionLabel = { it },
                     enabled = false,
                     modifier = Modifier.fillMaxWidth(),
                 )
                 Text(
-                    "Managed from the header",
+                    tr("Managed from the header"),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.padding(start = 16.dp, top = 4.dp),
@@ -318,8 +318,8 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
                     options = LanguageCatalog.nativeLanguages,
                     selected = LanguageCatalog.nativeOption(settings.nativeLanguage),
                     onSelect = { option -> viewModel.update { it.copy(nativeLanguage = option.code) } },
-                    label = "Native language",
-                    optionLabel = { it.name },
+                    label = tr("Native language"),
+                    optionLabel = { tr(it.name) },
                     modifier = Modifier.fillMaxWidth(),
                 )
                 // Keeps both fields the same height when side by side.
@@ -336,7 +336,7 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
                 learning(Modifier.weight(1f))
                 Icon(
                     Icons.AutoMirrored.Filled.ArrowForward,
-                    contentDescription = "translated into",
+                    contentDescription = tr("translated into"),
                     tint = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.padding(horizontal = 12.dp).padding(top = 22.dp).size(22.dp),
                 )
@@ -344,7 +344,7 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
             }
         }
         Spacer(Modifier.height(12.dp))
-        InfoBanner("${learningName ?: "Your"} terms will be translated into $nativeName.")
+        InfoBanner(learningName?.let { tr("{0} terms will be translated into {1}.", it, nativeName) } ?: tr("Your terms will be translated into {0}.", nativeName))
     }
 }
 
@@ -353,13 +353,13 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
     val engine = settings.translationEngine
     val local = engine == TranslationEngine.ARGOS && viewModel.hasLocalTranslator
     val subtitle = when {
-        local && viewModel.hasRuntimeSetup -> "Runs on this computer. No network connection required."
-        local -> "Runs on this device. No network connection required."
-        engine == TranslationEngine.GOOGLE -> "Google Cloud Translation, billed to your Google Cloud project."
-        else -> "A free online service. Sentences are sent over the network."
+        local && viewModel.hasRuntimeSetup -> tr("Runs on this computer. No network connection required.")
+        local -> tr("Runs on this device. No network connection required.")
+        engine == TranslationEngine.GOOGLE -> tr("Google Cloud Translation, billed to your Google Cloud project.")
+        else -> tr("A free online service. Sentences are sent over the network.")
     }
     val compact = LocalWindowWidth.current.isCompact
-    ContentCard("Translation engine", subtitle, icon = AppIcons.Memory, modifier = modifier) {
+    ContentCard(tr("Translation engine"), subtitle, icon = AppIcons.Memory, modifier = modifier) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             Dropdown(
                 options = viewModel.engines,
@@ -367,12 +367,12 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
                 onSelect = { e -> viewModel.update { it.copy(translationEngine = e) } },
                 label = null,
                 // Wide screens show "Offline" and "Free" as tags beside the name.
-                optionLabel = { if (compact) it.label(viewModel.localName.ifEmpty { null }) else it.shortName(viewModel.localName) },
+                optionLabel = { if (compact) it.displayLabel(viewModel.localName.ifEmpty { null }) else it.shortName(viewModel.localName) },
                 modifier = Modifier.weight(1f),
             )
             if (!compact) {
-                if (local) Tag("Offline", StatusTints.ok) else Tag("Online", MaterialTheme.colorScheme.primary)
-                if (engine == TranslationEngine.GOOGLE) Tag("Paid", StatusTints.warning) else Tag("Free", MaterialTheme.colorScheme.primary)
+                if (local) Tag(tr("Offline"), StatusTints.ok) else Tag(tr("Online"), MaterialTheme.colorScheme.primary)
+                if (engine == TranslationEngine.GOOGLE) Tag(tr("Paid"), StatusTints.warning) else Tag(tr("Free"), MaterialTheme.colorScheme.primary)
             }
         }
         Spacer(Modifier.height(16.dp))
@@ -382,8 +382,8 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
             else -> OutlinedTextField(
                 value = settings.translationContactEmail,
                 onValueChange = { v -> viewModel.update { it.copy(translationContactEmail = v.trim()) } },
-                label = { Text("Contact email (optional)") },
-                supportingText = { Text("Raises MyMemory's free daily quota from about 5,000 to 50,000 characters.") },
+                label = { Text(tr("Contact email (optional)")) },
+                supportingText = { Text(tr("Raises MyMemory's free daily quota from about 5,000 to 50,000 characters.")) },
                 singleLine = true,
                 modifier = Modifier.fillMaxWidth(),
             )
@@ -402,10 +402,10 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     val compact = LocalWindowWidth.current.isCompact
     val action: @Composable () -> Unit = {
         if (viewModel.hasRuntimeSetup && !ready && !busy) {
-            Button(onClick = viewModel::install, shape = RoundedCornerShape(10.dp)) { Text("Install") }
+            Button(onClick = viewModel::install, shape = RoundedCornerShape(10.dp)) { Text(tr("Install")) }
         } else {
             OutlinedButton(onClick = viewModel::check, enabled = !busy, shape = RoundedCornerShape(10.dp)) {
-                Text(if (viewModel.hasRuntimeSetup) "Check installation" else "Check models")
+                Text(if (viewModel.hasRuntimeSetup) tr("Check installation") else tr("Check models"))
             }
         }
     }
@@ -428,14 +428,14 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
         Column(Modifier.weight(1f)) {
             Text(
                 when {
-                    busy -> "Checking…"
-                    ready -> "Installed and working"
-                    else -> "Not installed"
+                    busy -> tr("Checking…")
+                    ready -> tr("Installed and working")
+                    else -> tr("Not installed")
                 },
                 style = MaterialTheme.typography.titleSmall,
                 fontWeight = FontWeight.Bold,
             )
-            val detail = status ?: if (!ready && viewModel.hasRuntimeSetup) "Install downloads a private Python into the app folder with argostranslate in it." else null
+            val detail = status?.let { tr(it) } ?: if (!ready && viewModel.hasRuntimeSetup) tr("Install downloads a private Python into the app folder with argostranslate in it.") else null
             detail?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
         }
         if (!compact) {
@@ -449,7 +449,7 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     }
     progress?.let {
         Spacer(Modifier.height(10.dp))
-        Text(it, style = MaterialTheme.typography.bodySmall)
+        Text(tr(it), style = MaterialTheme.typography.bodySmall)
         LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
     }
     if (viewModel.hasRuntimeSetup) {
@@ -463,15 +463,15 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
             ) {
                 Icon(if (advanced) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, modifier = Modifier.size(20.dp))
                 Spacer(Modifier.width(10.dp))
-                Text("Advanced runtime settings", style = MaterialTheme.typography.bodyLarge)
+                Text(tr("Advanced runtime settings"), style = MaterialTheme.typography.bodyLarge)
             }
             if (advanced) {
                 OutlinedTextField(
                     value = settings.argosPython,
                     onValueChange = { v -> viewModel.update { it.copy(argosPython = v.trim()) } },
-                    label = { Text("Python executable (optional)") },
-                    placeholder = { Text("The app's own Python") },
-                    supportingText = { Text("Leave empty to use the Python the app downloads for itself, or give the full path to one that has argostranslate installed.") },
+                    label = { Text(tr("Python executable (optional)")) },
+                    placeholder = { Text(tr("The app's own Python")) },
+                    supportingText = { Text(tr("Leave empty to use the Python the app downloads for itself, or give the full path to one that has argostranslate installed.")) },
                     singleLine = true,
                     modifier = Modifier.fillMaxWidth().padding(start = 16.dp, end = 16.dp, bottom = 12.dp),
                 )
@@ -488,23 +488,30 @@ private fun GoogleSettings(settings: UserSettings, viewModel: OfflineTranslation
     OutlinedTextField(
         value = settings.googleTranslateApiKey,
         onValueChange = { v -> viewModel.update { it.copy(googleTranslateApiKey = v.trim()) } },
-        label = { Text("API key") },
-        supportingText = { Text("A Google Cloud API key with the Cloud Translation API enabled. The key is ${viewModel.secretStorage}.") },
+        label = { Text(tr("API key")) },
+        supportingText = { Text(tr("A Google Cloud API key with the Cloud Translation API enabled. The key is {0}.", tr(viewModel.secretStorage))) },
         singleLine = true,
         visualTransformation = if (showKey) VisualTransformation.None else PasswordVisualTransformation(),
-        trailingIcon = { TextButton(onClick = { showKey = !showKey }) { Text(if (showKey) "Hide" else "Show") } },
+        trailingIcon = { TextButton(onClick = { showKey = !showKey }) { Text(if (showKey) tr("Hide") else tr("Show")) } },
         modifier = Modifier.fillMaxWidth(),
     )
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         OutlinedButton(onClick = viewModel::checkGoogleKey, enabled = !googleBusy && settings.googleTranslateApiKey.isNotBlank(), shape = RoundedCornerShape(10.dp)) {
-            Text(if (googleBusy) "Checking…" else "Check key")
+            Text(if (googleBusy) tr("Checking…") else tr("Check key"))
         }
-        googleStatus?.let { Text(it, style = MaterialTheme.typography.bodySmall, modifier = Modifier.weight(1f)) }
+        googleStatus?.let { Text(tr(it), style = MaterialTheme.typography.bodySmall, modifier = Modifier.weight(1f)) }
     }
 }
 
+/** The engine's name in menus, as [label] gives it, in the interface language. */
+private fun TranslationEngine.displayLabel(localTranslatorName: String?): String =
+    if (this == TranslationEngine.ARGOS && localTranslatorName != null) tr("{0} (offline, free)", localTranslatorName) else tr(label)
+
+/** The local translator's packages are named "from → to" with the languages' English names, or by [LocalPackage.label]. */
+private val LocalPackage.displayTitle: String get() = label?.let { tr(it) } ?: "${tr(fromName)} \u2192 ${tr(toName)}"
+
 private fun TranslationEngine.shortName(localName: String): String = when (this) {
-    TranslationEngine.ARGOS -> localName.ifEmpty { "On this device" }
+    TranslationEngine.ARGOS -> localName.ifEmpty { tr("On this device") }
     TranslationEngine.MYMEMORY -> "MyMemory"
     TranslationEngine.GOOGLE -> "Google Translate"
 }
@@ -518,9 +525,9 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
     var query by remember { mutableStateOf("") }
     val compact = LocalWindowWidth.current.isCompact
     val installed = packages.filter { it.installed }
-    val noun = if (viewModel.hasRuntimeSetup) "packages" else "models"
-    val title = if (viewModel.hasRuntimeSetup) "Language packages" else "Language models"
-    val matches = { pkg: LocalPackage -> query.isBlank() || pkg.title.contains(query.trim(), ignoreCase = true) }
+    val runtime = viewModel.hasRuntimeSetup
+    val title = if (runtime) tr("Language packages") else tr("Language models")
+    val matches = { pkg: LocalPackage -> query.isBlank() || pkg.title.contains(query.trim(), ignoreCase = true) || pkg.displayTitle.contains(query.trim(), ignoreCase = true) }
     val shown = when (tab) {
         PackageTab.INSTALLED -> installed
         PackageTab.AVAILABLE -> packages.filter { !it.installed }.sortedWith(compareBy({ it.key !in wanted }, { it.title }))
@@ -530,7 +537,7 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
         OutlinedTextField(
             value = query,
             onValueChange = { query = it },
-            placeholder = { Text("Search $noun") },
+            placeholder = { Text(if (runtime) tr("Search packages") else tr("Search models")) },
             leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
             singleLine = true,
             shape = RoundedCornerShape(10.dp),
@@ -539,11 +546,11 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
     }
     ContentCard(
         title,
-        if (viewModel.hasRuntimeSetup) "Download language models for offline translation." else "Download language models for translation on this device.",
+        if (runtime) tr("Download language models for offline translation.") else tr("Download language models for translation on this device."),
         icon = AppIcons.Download,
         headerExtra = {
             if (!compact) {
-                Tag("${installed.size} installed", MaterialTheme.colorScheme.primary)
+                Tag(tr("{0} installed", installed.size), MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.width(16.dp))
                 search(Modifier.width(260.dp))
                 Spacer(Modifier.width(12.dp))
@@ -555,7 +562,7 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
             search(Modifier.fillMaxWidth())
             Spacer(Modifier.height(10.dp))
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Tag("${installed.size} installed", MaterialTheme.colorScheme.primary)
+                Tag(tr("{0} installed", installed.size), MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.weight(1f))
                 TabToggle(tab) { tab = it }
             }
@@ -565,7 +572,11 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
         Spacer(Modifier.height(12.dp))
         if (shown.isEmpty()) {
             Text(
-                if (query.isNotBlank()) "No $noun match “${query.trim()}”." else if (tab == PackageTab.INSTALLED) "No $noun installed yet." else "All $noun are installed.",
+                when {
+                    query.isNotBlank() -> if (runtime) tr("No packages match “{0}”.", query.trim()) else tr("No models match “{0}”.", query.trim())
+                    tab == PackageTab.INSTALLED -> if (runtime) tr("No packages installed yet.") else tr("No models installed yet.")
+                    else -> if (runtime) tr("All packages are installed.") else tr("All models are installed.")
+                },
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(vertical = 12.dp),
@@ -595,7 +606,7 @@ private fun PackagesCard(viewModel: OfflineTranslationViewModel, packages: List<
             OutlinedButton(onClick = { tab = PackageTab.AVAILABLE; query = "" }, shape = RoundedCornerShape(10.dp)) {
                 Icon(AppIcons.OpenInNew, contentDescription = null, modifier = Modifier.size(18.dp))
                 Spacer(Modifier.width(8.dp))
-                Text("Browse all ${packages.size} $noun")
+                Text(if (runtime) tr("Browse all {0} packages", packages.size) else tr("Browse all {0} models", packages.size))
                 Spacer(Modifier.width(4.dp))
                 Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, modifier = Modifier.size(18.dp))
             }
@@ -619,7 +630,7 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(AppIcons.Storage, contentDescription = null, modifier = Modifier.size(20.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
                 Spacer(Modifier.width(10.dp))
-                Text("${formatSize(used)} used", style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
+                Text(tr("{0} used", formatSize(used)), style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.SemiBold)
             }
             Box(Modifier.width(1.dp).height(22.dp).background(MaterialTheme.colorScheme.outlineVariant))
         }
@@ -628,11 +639,11 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
                 if (pair.ready) {
                     Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(20.dp))
                     Spacer(Modifier.width(8.dp))
-                    Text("${pair.label} is ready", style = MaterialTheme.typography.bodyMedium)
+                    Text(tr("{0} is ready", pair.label), style = MaterialTheme.typography.bodyMedium)
                 } else {
                     Icon(Icons.Default.Warning, contentDescription = null, tint = StatusTints.warning, modifier = Modifier.size(20.dp))
                     Spacer(Modifier.width(8.dp))
-                    Text("${pair.label} needs ${pair.missing.joinToString { it.title }}", style = MaterialTheme.typography.bodyMedium)
+                    Text(tr("{0} needs {1}", pair.label, pair.missing.joinToString { it.displayTitle }), style = MaterialTheme.typography.bodyMedium)
                     Spacer(Modifier.width(12.dp))
                     val installing = pair.missing.any { it.key in packageBusy }
                     Button(
@@ -640,14 +651,14 @@ private fun PackageSummary(viewModel: OfflineTranslationViewModel, installed: Li
                         enabled = !installing,
                         shape = RoundedCornerShape(10.dp),
                         contentPadding = PaddingValues(horizontal = 14.dp, vertical = 6.dp),
-                    ) { Text(if (installing) "Installing…" else "Install") }
+                    ) { Text(if (installing) tr("Installing…") else tr("Install")) }
                 }
             }
         }
         Spacer(Modifier.weight(1f))
         Text(
-            if (viewModel.hasRuntimeSetup) "When a direct package is unavailable, Argos can translate through English."
-            else "Each language has its own model; translations go through English.",
+            if (viewModel.hasRuntimeSetup) tr("When a direct package is unavailable, Argos can translate through English.")
+            else tr("Each language has its own model; translations go through English."),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
@@ -665,27 +676,27 @@ private fun PackageTile(pkg: LocalPackage, busy: Boolean, needed: Boolean, onIns
         CodeTile(pkg.fromCode)
         Spacer(Modifier.width(14.dp))
         Column(Modifier.weight(1f)) {
-            Text(pkg.title, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            val detail = listOfNotNull(pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize), "Needed for your language".takeIf { needed && !pkg.installed })
+            Text(pkg.displayTitle, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            val detail = listOfNotNull(pkg.sizeBytes.takeIf { it > 0 }?.let(::formatSize), tr("Needed for your language").takeIf { needed && !pkg.installed })
             if (detail.isNotEmpty()) Text(detail.joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             if (busy) LinearProgressIndicator(Modifier.fillMaxWidth().padding(top = 4.dp))
         }
         Spacer(Modifier.width(12.dp))
         when {
-            busy -> Text(if (pkg.installed) "Removing…" else "Downloading…", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = 12.dp))
+            busy -> Text(if (pkg.installed) tr("Removing…") else tr("Downloading…"), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(end = 12.dp))
             pkg.installed -> {
                 Box(Modifier.size(8.dp).clip(CircleShape).background(StatusTints.ok))
                 Spacer(Modifier.width(8.dp))
-                Text("Installed", style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
+                Text(tr("Installed"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(4.dp))
                 Box {
-                    IconButton(onClick = { menu = true }) { Icon(AppIcons.MoreHoriz, contentDescription = "More for ${pkg.title}") }
+                    IconButton(onClick = { menu = true }) { Icon(AppIcons.MoreHoriz, contentDescription = tr("More for {0}", pkg.displayTitle)) }
                     AppMenu(expanded = menu, onDismissRequest = { menu = false }) {
-                        AppMenuItem(text = { Text("Remove") }, onClick = { menu = false; onRemove() })
+                        AppMenuItem(text = { Text(tr("Remove")) }, onClick = { menu = false; onRemove() })
                     }
                 }
             }
-            else -> Button(onClick = onInstall, shape = RoundedCornerShape(10.dp), modifier = Modifier.padding(end = 8.dp)) { Text("Install") }
+            else -> Button(onClick = onInstall, shape = RoundedCornerShape(10.dp), modifier = Modifier.padding(end = 8.dp)) { Text(tr("Install")) }
         }
     }
 }
