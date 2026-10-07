@@ -53,7 +53,7 @@ internal val ruBooks: Map<String, String> = mapOf(
     "No archived books." to "В архиве нет книг.",
     "No books match these filters." to "Нет книг, подходящих под фильтры.",
     "Create a book" to "Создать книгу",
-    "The database has been loaded with a brief tutorial and some languages and short texts for you to try out." to "В базу данных загружены краткое руководство, несколько языков и короткие тексты, чтобы вы могли попробовать приложение.",
+    "Every language comes with a tutorial book on learning it with Tayra Languages, written in that language. Start with the one for the language you are learning." to "Для каждого языка есть учебная книга о том, как изучать его с Tayra Languages, написанная на этом языке. Начните с книги для языка, который вы изучаете.",
     "Open the tutorial" to "Открыть руководство",
     "Clear database" to "Очистить базу данных",
     "Dismiss" to "Скрыть",

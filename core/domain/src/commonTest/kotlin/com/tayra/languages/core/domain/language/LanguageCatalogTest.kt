@@ -11,7 +11,7 @@ class LanguageCatalogTest {
         LanguageCatalog.targetLanguages.forEach { name ->
             val definition = PredefinedLanguages.all.firstOrNull { it.name == name }
             assertNotNull(definition, name)
-            assertTrue(definition.stories.isNotEmpty(), "$name has sample stories")
+            assertNotNull(Tutorials.forLanguage(name), "$name has its tutorial")
             assertNotNull(LanguageCodes.codeFor(name), "$name has a language code")
         }
         assertTrue(LanguageCatalog.isTarget(" german "))

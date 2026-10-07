@@ -3,10 +3,10 @@
 Generates core/domain/.../language/PredefinedLanguages.kt from a checkout of a language
 definitions repository: one folder per language with a definition.yaml and story .txt files.
 
-Usage: python3 tools/generate_language_defs.py <definitions dir> [--rename OLD=NEW]
+Usage: python3 tools/generate_language_defs.py <definitions dir>
 
 Dictionary links get the app's lookup placeholder, [WORD], in place of the one the definitions
-use; --rename replaces a product name in the story texts (the tutorials) with the app's.
+use. Story texts are not taken: every language's sample book is the tutorial in tools/tutorial.
 """
 import glob
 import os
@@ -18,13 +18,6 @@ import yaml
 OUT = "core/domain/src/commonMain/kotlin/com/tayra/languages/core/domain/language/PredefinedLanguages.kt"
 
 
-def kstr(s):
-    """Kotlin raw string literal."""
-    s = s.replace("$", "${'$'}")
-    s = s.replace('"""', '\\"\\"\\"')
-    return '"""' + s + '"""'
-
-
 def qstr(s):
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"').replace("$", "\\$").replace("\n", "\\n") + '"'
 
@@ -34,31 +27,12 @@ def placeholder(url):
     return re.sub(r"\[[A-Z]{2,}\]", "[WORD]", url)
 
 
-def load_stories(directory, rename=None):
-    stories = []
-    for filename in sorted(glob.glob(os.path.join(directory, "*.txt"))):
-        with open(filename, encoding="utf-8") as f:
-            content = f.read()
-        title = re.search(r"title:\s*(.*)\n", content).group(1).strip()
-        source = None
-        m = re.search(r"source_url:(.*)\n", content)
-        if m and m.group(1).strip():
-            source = m.group(1).strip()
-        content = re.sub(r"#.*\n", "", content).strip()
-        if rename:
-            old, new = rename
-            content = re.sub(rf"\b{re.escape(old)}\b", new, content)
-        stories.append((title, source, content))
-    return stories
-
-
-def main(root, rename=None):
+def main(root):
     defs = []
     for def_file in sorted(glob.glob(os.path.join(root, "*", "definition.yaml"))):
-        directory = os.path.dirname(def_file)
         with open(def_file, encoding="utf-8") as f:
             d = yaml.safe_load(f)
-        defs.append((d, load_stories(directory, rename)))
+        defs.append(d)
 
     lines = []
     lines.append("package com.tayra.languages.core.domain.language")
@@ -74,7 +48,7 @@ def main(root, rename=None):
     lines.append("object PredefinedLanguages {")
     lines.append("")
     names = []
-    for d, stories in defs:
+    for d in defs:
         name = d["name"]
         ident = re.sub(r"[^A-Za-z0-9]", "", name)
         names.append(ident)
@@ -107,11 +81,6 @@ def main(root, rename=None):
             # A parser named with its project's prefix ("x_thai") is known by its language alone.
             lines.append(f"            parserType = {qstr(str(d['parser_type']).rsplit('_', 1)[-1])},")
         lines.append("        ),")
-        lines.append("        stories = listOf(")
-        for title, source, text in stories:
-            src = qstr(source) if source else "null"
-            lines.append(f"            StoryDefinition(title = {qstr(title)}, sourceUrl = {src}, text = {kstr(text)}),")
-        lines.append("        ),")
         lines.append("    )")
         lines.append("")
     lines.append("    val all: List<LanguageDefinition> by lazy {")
@@ -127,10 +96,4 @@ def main(root, rename=None):
 
 
 if __name__ == "__main__":
-    args = sys.argv[1:]
-    rename = None
-    if "--rename" in args:
-        i = args.index("--rename")
-        rename = tuple(args[i + 1].split("=", 1))
-        del args[i:i + 2]
-    main(args[0], rename)
+    main(sys.argv[1])

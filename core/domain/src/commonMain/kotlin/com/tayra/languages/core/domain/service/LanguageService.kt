@@ -3,6 +3,7 @@ package com.tayra.languages.core.domain.service
 import com.tayra.languages.core.domain.language.LanguageCatalog
 import com.tayra.languages.core.domain.language.LanguageDefinition
 import com.tayra.languages.core.domain.language.PredefinedLanguages
+import com.tayra.languages.core.domain.language.Tutorials
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.DictionaryUse
 import com.tayra.languages.core.domain.model.Language
@@ -26,36 +27,32 @@ class LanguageService(
 
     /**
      * Makes the database match the catalog: missing target languages are created, optionally
-     * with their sample stories, and languages outside the catalog are removed with their books
+     * with their tutorial book, and languages outside the catalog are removed with their books
      * and terms.
      */
-    suspend fun syncWithCatalog(withStories: Boolean = true) {
+    suspend fun syncWithCatalog(withTutorial: Boolean = true) {
         val existing = languages.getAll()
         for (language in existing) {
             if (!LanguageCatalog.isTarget(language.name)) delete(language.id)
         }
         val names = existing.map { it.name.lowercase() }.toSet()
         for (name in LanguageCatalog.targetLanguages) {
-            if (name.lowercase() !in names) loadPredefined(name, withStories)
+            if (name.lowercase() !in names) loadPredefined(name, withTutorial)
         }
     }
 
-    /** Loads a predefined language, with its sample stories when asked; returns the language id. */
-    suspend fun loadPredefined(name: String, withStories: Boolean = true): Long {
+    /** Loads a predefined language, with its tutorial book when asked; returns the language id. */
+    suspend fun loadPredefined(name: String, withTutorial: Boolean = true): Long {
         val definition = predefined(name) ?: throw NoSuchElementException("No predefined language '$name'")
         val languageId = languages.findByName(name)?.id ?: languages.save(definition.language)
-        if (!withStories) return languageId
-        for (story in definition.stories) {
-            bookService.create(
-                BookDraft(
-                    languageId = languageId,
-                    title = story.title,
-                    text = story.text,
-                    sourceUri = story.sourceUrl ?: "",
-                ),
-            )
-        }
+        if (withTutorial) addTutorial(languageId, name)
         return languageId
+    }
+
+    /** Adds the tutorial book, in the language itself, to the language named [name]; returns its id, or null without one. */
+    suspend fun addTutorial(languageId: Long, name: String): Long? {
+        val tutorial = Tutorials.forLanguage(name) ?: return null
+        return bookService.create(BookDraft(languageId = languageId, title = tutorial.title, text = tutorial.text))
     }
 
     /** Saves the settings of an existing language; the catalog decides which languages exist. */

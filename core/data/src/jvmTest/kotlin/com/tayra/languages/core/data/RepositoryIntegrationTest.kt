@@ -10,6 +10,7 @@ import com.tayra.languages.core.data.repository.TermRepositoryImpl
 import com.tayra.languages.core.data.repository.WordsReadRepositoryImpl
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
 import com.tayra.languages.core.domain.language.LanguageCatalog
+import com.tayra.languages.core.domain.language.Tutorials
 import com.tayra.languages.core.domain.model.BookDraft
 import com.tayra.languages.core.domain.model.DictionaryType
 import com.tayra.languages.core.domain.model.DictionaryUse
@@ -205,6 +206,30 @@ class RepositoryIntegrationTest {
         assertEquals(LanguageCatalog.targetLanguages.sorted(), env.languages.getAll().map { it.name }.sorted())
         assertTrue(env.books.getBooks().isEmpty())
         assertTrue(!env.demo.isDemoData)
+    }
+
+    @Test
+    fun anOlderLibraryTradesItsSampleBooksForTheTutorialOnce() = runTest {
+        val env = Env()
+        val portuguese = env.languageService.loadPredefined("Portuguese", withTutorial = false)
+        val english = env.languageService.loadPredefined("English", withTutorial = false)
+        val opening = "Dizem no meu país que existe uma maldição que recai sobre o sétimo filho nascido em qualquer família. A maldição não recairá sobre as filhas."
+        // A sample book as earlier versions made it, and a book of the reader's own with a sample's title.
+        val sample = env.bookService.create(BookDraft(languageId = portuguese, title = "A Maldição", text = opening))
+        val own = env.bookService.create(BookDraft(languageId = english, title = "Tutorial", text = "My own notes about the tutorial of my language course, which I wrote myself."))
+        env.demo.ensureLanguages()
+
+        assertNull(env.books.getBook(sample), "the sample is gone")
+        assertNotNull(env.books.getBook(own), "a book of the reader's own stays")
+        val tutorial = Tutorials.forLanguage("Portuguese")!!
+        assertNotNull(env.books.findByTitle(tutorial.title, portuguese))
+        assertNotNull(env.books.findByTitle(Tutorials.forLanguage("English")!!.title, english))
+        assertTrue(env.settings.current.tutorialBooksAdded)
+
+        // Once added, a tutorial the reader deleted does not come back.
+        env.books.deleteBook(env.books.findByTitle(tutorial.title, portuguese)!!.id)
+        env.demo.ensureLanguages()
+        assertNull(env.books.findByTitle(tutorial.title, portuguese))
     }
 
     @Test

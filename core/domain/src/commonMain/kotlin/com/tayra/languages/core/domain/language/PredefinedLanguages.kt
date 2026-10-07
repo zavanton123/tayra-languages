@@ -28,13 +28,6 @@ object PredefinedLanguages {
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Die diere grawe ’n put", sourceUrl = null, text = """Dit het gebeur die jaar toe dit nie gereën het nie. Die bome het verdroog en doodgegaan. Die riviere het verdwyn en die water het opgedroog. Mens en dier het van honger en dors begin doodgaan.
-
-Leeu en Olifant, die leiers van die diere, het bymekaar gekom om die situasie te bespreek. Leeu sê: “Ons sal doodgaan van die dors. Kom ons roep almal bymekaar en praat daaroor om 'n put te grawe sodat ons van die put se water kan drink.”
-
-Olifant stem in en gaan versprei die nuus onder al die diere: “Koning Leeu en Olifant roep ons almal!”"""),
-        ),
     )
 
     private fun ainu() = LanguageDefinition(
@@ -54,48 +47,6 @@ Olifant stem in en gaan versprei die nuus onder al die diere: “Koning Leeu en 
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "織田ステノさんの民話(ｱ) 目つきの悪い犬", sourceUrl = null, text = """001
-	
-アコㇿ　ミチ　アン　アコㇿ　ハポ　アン
-a=kor mici an a=kor hapo an
-002
-	
-シネナンネ　ワ
-sinen _an=ne wa
-003
-	
-アコㇿ　ミチ　ウタㇻ　トゥラ　オカアニケ
-a=kor mici utar tura oka=an __hike
-004
-	
-エキㇺネアン　マ
-ekimne=an _wa
-005
-	
-カムイ　エネ　ユク　エネ　アントモッ　ワ
-kamuy _hene yuk _hene an=tomot wa
-006
-	
-アルプネウタリ　アンレス　カネ　オカアン
-a=rupneutari an=resu kane oka=an
-007
-	
-アウタリ　ウタㇻ　カ　ポロンノ　オカ
-a=utari utar ka poronno oka
-008
-	
-ピㇼカ　メノコポ　カ　ポロンノ　オカ　コㇿカ
-pirka menokopo ka poronno oka korka
-009
-	
-「シネン　ネ　エヤイモニコン　ナ
-“sinen ne e=yaymonikor_ na
-010
-	
-ピㇼカ　ポンメノコ　シネン　トゥラ　アン」
-pirka ponmenoko sinen tura _yan”"""),
         ),
     )
 
@@ -117,13 +68,6 @@ pirka ponmenoko sinen tura _yan”"""),
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Shqiponja dhe mbreti", sourceUrl = null, text = """Na ishte njëherë një djalë që shkonte për gjueti maleve me hark dhe me shigjeta. Një ditë, djali brodhi gjithë pasditen duke gjuajtur maleve, por nuk gjeti asnjë kafshë dhe filloi të shqetësohej se nuk do të kishte gjë për të ngrënë në darkë.
-
-Papritur, djali dëgjoi një klithmë nga lart. Kur hodhi vështrimin lart, ai pa një shqiponjë të fuqishme që fluturonte në qiell me shpejtësi të madhe. Shqiponja mbante me kthetrat e saj të gjata një gjarpër dhe djali pa se zogu i fuqishëm fluturoi drejt folesë së tij lart në mal, shumë afër majës së tij, aty ku djali nuk kishte qenë kurrë më parë.
-
-Ai pa me vëmendje se si shqiponja lëshoi gjarprin në fole, dhe fluturoi sërish për të kërkuar një pre tjetër."""),
-        ),
     )
 
     private fun amharic() = LanguageDefinition(
@@ -143,15 +87,6 @@ Ai pa me vëmendje se si shqiponja lëshoi gjarprin në fole, dhe fluturoi sëri
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "ጉማሬ ለመርዳት ሞከረ", sourceUrl = null, text = """ከተሸፈነው ጫካው ውስጥ ሆኖ ዝሆኑ ቴምቦ፣ አዳኙ በሳር እና በጥቂት እንጨቶች የሚሸፍነውን ጥልቅና ለመግደል የሚያስችል የጉድጓድ ወጥመድ ይመለከታል።
-
-ቴምቦ “ሁሉንም እንስሳት ማስጠንቀቅ አለብኝ፣” ብሎ አሰበ ።
-
-ቴምቦ ለእንስሳቶቹ ጫካቸው አደገኛ ቦታ እየሆነ መምጣቱን በጥብቅ አስረዳ። “ከወጥመድ ተጠንቀቁ!” ብሎ ቴምቦ ጮኾ ተናገረ።
-
-ቴምቦ ወደ ወንዙ እየተቿኮለ ሄደ፣ በመንገድ ላይ ያገኛቸውን በሙሉ ኪቦኮ የሚባለውን ጉማሬን ጭምር አስጠነቀቀ፣ ። ለኪቦኮም “ዲክዲክን ካየኸው ከወጥመዱ እንዲጠነቀቅ ነገረው” አለው።"""),
         ),
     )
 
@@ -174,17 +109,6 @@ Ai pa me vëmendje se si shqiponja lëshoi gjarprin në fole, dhe fluturoi sëri
             rightToLeft = true,
             showRomanization = true,
         ),
-        stories = listOf(
-            StoryDefinition(title = "Examples", sourceUrl = null, text = """مرحبا، كيف حالك ؟
-مرحبا, أنا بخير
-هل انت جديدٌ هنا؟ لم أراك من قبل
-انا طالب جديد.لقد وصلت البارحة
-انا محمد, تشرفت بلقائك
-
-شجرة الحياة
-
-تحكي هذه القصة عن ولد صغير يُدعى «يوسف»، يعيش مع أمه الأرملة الفقيرة، يساعدها ويحنو عليها ويحبها حبًا جمًا. وفي يوم من الأيام يصيب المرض أم يوسف ويشتد عليها، ولا يعرف يوسف ماذا يفعل لإنقاذها، فلا يجد أمامه سوى اللجوء إلى الجِنِّيَّة «وِداد» التي تدله على شجرة فيها الشفاء لأمه، هذه الشجرة تقع في أعلى الجبل المقابل لمنزلهم، وعلى يوسف أن يتسلق هذا الجبل ويواجه المخاطر من أجل أن يأتي لأمه بالدواء الموجود في أوراق هذه الشجرة، فهل سينجح يوسف في ذلك؟ وماذا ينتظره من مخاطر وأهوال؟"""),
-        ),
     )
 
     private fun armenian() = LanguageDefinition(
@@ -205,38 +129,6 @@ Ai pa me vëmendje se si shqiponja lëshoi gjarprin në fole, dhe fluturoi sëri
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "ՄԱՐԴՈՒ ԻՐԱՎՈՒՆՔՆԵՐԻ ՀԱՄԸՆԴՀԱՆՈՒՐ ՀՌՉԱԿԱԳԻՐ*", sourceUrl = null, text = """Ընդունված և հռչակված Ընդհանուր վեհաժողովի 
-1948 թ. դեկտեմբերի 10-ի 217 A (III) բանաձևով 
- 
-Նախաբան 
- 
-Նկատի առնելով , որ մարդկային ընտանիքի բոլոր անդամներին ներհատուկ 
-արժանապատվության և հավասար ու անօտարելի իրավունքների ճանաչումն աշխարհում 
-ազատության , արդարության և խաղաղության հիմքն է, 
-նկատի առնելով , որ մարդու իրավունքների անտեսումն ու դրանց նկատմամբ 
-արհամարհանքը հանգեցրել են մարդկության խիղճը վրդովող բարբարոսական 
-գործողությունների , և որպես մարդկության վեհ նպատակ հռչակված է այնպիսի աշխարհի 
-ստեղծումը , որտեղ մարդիկ կվայելեն խոսքի և համոզմունքի ազատություն և զերծ կլինեն 
-վախից ու կարիքից , 
-նկատի առնելով , որ կարևոր է իրավական պետության կողմից մարդու 
-իրավունքների պաշտպանությունը , որպեսզի մարդը հարկադրված չլինի դիմելու 
-բռնակալության ու ճնշման դեմ ապստամբության՝ որպես վերջին միջոցի , 
-նկատի առնելով ազգերի միջև բարեկամական հարաբերությունների զարգացումը 
-խթանելու կարևորությունը , 
-նկատի առնելով , որ Միավորված ազգերի կազմակերպության ժողովուրդները 
-Կանոնադրության մեջ վերահաստատել են իրենց հավատը մարդու հիմնարար 
-իրավունքների , անհատի արժանապատվության ու արժեքի և տղամարդու ու կնոջ 
-իրավահավասարության նկատմամբ և վճռել են քաջալերել սոցիալական առաջընթացն ու 
-կենսամակարդակի բարելավումն առավել ազատության պայմաններում , 
-նկատի առնելով , որ անդամ պետությունները պարտավորվել են, Միավորված 
-ազգերի կազմակերպության հետ համագործակցելով , հասնել մարդու իրավունքների և 
-հիմնարար ազատությունների նկատմամբ համընդհանուր հարգանքի ու դրանց 
-պահպանման քաջալերմանը , 
-նկատի առնելով , որ այդ իրավունքների ու ազատությունների ընդհանուր ըմբռնումը 
-վիթխարի նշանակություն ունի այս պարտավորության լիակատար իրականացման 
-համար՝"""),
         ),
     )
 
@@ -262,14 +154,6 @@ Ai pa me vëmendje se si shqiponja lëshoi gjarprin në fole, dhe fluturoi sëri
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Ümumdünya insan hüquqları bəyannaməsi", sourceUrl = null, text = """Baş Assambleyanın 1948-ci il 10 dekabr tarixli 217-ci A (III)
-qətnaməsi ilə qəbul və bəyan edilib.
-
-Preambula
-
-Bəşər ailəsinin bütün üzvlərinə xas olan ləyaqətləri və onların bərabər və alınmaz hüquqlarını qəbul etməyin azadlığın, ədalətin və ümumi sülhün təməli olduğunu nəzərə alaraq; və insan hüquqlarına laqeydliyin və həqarətin bəşəriyyətin vicdanını hiddətləndirən vəhşi əməllərə gətirib çıxardığını və insanların söz və əqidə azadlığına mane olacağı, qorxu və ehtiyaclardan azad olacağı bir dünyanın yaradılmasının insanların ən ali arzusu kimi bəyan edildiyini nəzərə alaraq; və insanın müstəbidliyə və zülmkarlığa qarşı sonuncu vasitə kimi qiyama əl atmağa məcbur qalmamasını təmin etmək məqsədilə insan hüquqlarının qanun hökmü ilə qorunmasının zəruri olduğunu nəzərə alaraq; və xalqlar arasında dostluq münasibətlərinin inkişafına yardım etməyin zəruri olduğunu nəzərə alaraq; və Birləşmiş Millətlər Təşkilatına daxil olan xalqların Nizamnamədə insanın əsas hüquqlarına, insan şəxsiyyətinin ləyaqətinə və dəyərliliyinə, kişi və qadınların hüquq bərabərliyinə olan inamlarını təsdiq etdikləri və daha çox azadlıq şəraitində sosial tərəqqiyə və həyat şəraitinin yaxşılaşdırılmasına yardım göstərmək qərarına gəldiklərini nəzərə alaraq; və üzv ölkələrin, Birləşmiş Millətlər Təşkilatı ilə əməkdaşlıq əsasında insan hüquqlarına və əsas azadlıqlara hamılıqlı hörmət və riayət edilməsinə yardım göstərməyi öz öhdələrinə götürdüklərini nəzərə alaraq; və bu hüquq və azadlıqların xarakterinin hamılıqla dərk edilməsinin bu öhdəliklərin tam şəkildə yerinə yetirilməsi üçün böyük əhəmiyyət kəsb etdiyini nəzərə alaraq, Baş Assambleya bütün xalqların və bütün dövlətlərin yerinə yetirməyə can atmalı olduqları vəzifələr kimi hazırkı Ümumdünya Đnsan Hüquqları Bəyannaməsini bəyan edir; bu məqsədlə ki, hər bir insan və cəmiyyətin hər bir qurumu hazırkı Bəyannaməni daim nəzərdə tutaraq, bu hüquqlara və azadlıqlara, maarifçilik və təhsil yolu ilə, mütərəqqi milli və beynəlxalq tədbirlər yolu ilə, onların həm Təşkilata üzv olan dövlətlərin xalqları, həm də bu dövlətlərin yurisdiksiyası altında olan ərazilərin xalqları arasında hamılıqla və səmərəli şəkildə qəbul edilməsi və həyata keçirilməsi yolu ilə hörmət edilməsinə və onların təmin edilməsinə köməklik göstərməyə can atırlar."""),
-        ),
     )
 
     private fun basque() = LanguageDefinition(
@@ -289,11 +173,6 @@ Bəşər ailəsinin bütün üzvlərinə xas olan ləyaqətləri və onların b�
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Jainkoak Dena Egin Zuenean", sourceUrl = null, text = """Nork egin zigun? Bibliak, Jainkoaren Hitzak, dio nola hasi zen giza arraza. Aspaldi, Jainkoak lehen gizona egin eta Adan izendatu zuen. Jainkoak Adan lur hautsetik atera zuen. Jainkoak Adanen bizitza putz egin zuenean, hura bizirik etorri zen. Eden izeneko lorategi eder batean aurkitu zuten.
-
-Jainkoak Adan egin baino lehen, gauza zoragarriz betetako mundu ederra egin zuen. Pausoz pauso, Jainkoak leku menditsuak eta belardi-espazioak, lore zatikatzaileak eta zuhaitz altuak, luma distiratsuko hegaztiak eta elorri zukutsuak, balea biziak eta barraskilo irristakorrak egin zituen. Hain zuzen, Jainkoak dena egin zuen - dena."""),
         ),
     )
 
@@ -319,21 +198,6 @@ Jainkoak Adan egin baino lehen, gauza zoragarriz betetako mundu ederra egin zuen
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Усеагульная Дэкларацыя Правоў Чалавека", sourceUrl = null, text = """Прымаючы пад увагу, што прызнанне годнасцi, якая ўласцiва ўсiм членам чалавечай сям'i, i роўных i неад'емных правоў iх з'яўляецца асновай свабоды, справядлiвасцi i ўсеагульнага мiру; i
-
-прымаючы пад увагу, што грэбаванне i пагарда да правоў чалавека прывялi да варварскiх актаў, якiя абураюць сумленне чалавецтва, i што стварэнне такога свету, у якiм людзi будуць мець свабоду слова i перакананняў i будуць свабодныя ад страху i галечы, абвешчана як высокае iмкненне людзей; i
-
-прымаючы пад увагу, што неабходна, каб правы чалавека ахоўвалiся ўладай закону з мэтай забеспячэння таго, каб чалавек не быў вымушаны ўжываць, у якасцi апошняга сродку, паўстання супроць тыранii i прыгнечання; i
-
-прымаючы пад увагу, што неабходна садзейнiчаць развiццю дружалюбных адносiн памiж народамi; i
-
-прымаючы пад увагу, што народы Аб'яднаных Нацый пацвердзiлi ў Статуце сваю веру ў асноўныя правы чалавека, у годнасць i каштоўнасць чалавечай асобы i ў раўнапраўе мужчын i жанчын i вырашылi садзейнiчаць сацыяльнаму прагрэсу i паляпшэнню ўмоў жыцця пры большай свабодзе; i
-
-прымаючы пад увагу, што дзяржавы-члены абавязалiся садзейнiчаць, у супрацоўнiцтве з Арганiзацыяй Аб'яднаных Нацый, усеагульнай павазе i захаванню правоў чалавека i асноўных свабод; i
-
-прымаючы пад увагу, што ўсеагульнае разуменне характару гэтых правоў i свабод мае велiзарнае значэнне для поўнага выканання гэтага абавязацельства:"""),
-        ),
     )
 
     private fun bengali() = LanguageDefinition(
@@ -354,9 +218,6 @@ Jainkoak Adan egin baino lehen, gauza zoragarriz betetako mundu ederra egin zuen
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "অহর্ষী দ্য বেঙ্গল টাইগার", sourceUrl = null, text = """অহর্ষী নামের বাঘটি ভাল চিন্তা করছিল। সেটা শীতকাল ছিল এবং সে তখন তার থাবায় বরফের অনুভূতির সঙ্গে অভ্যস্ত হচ্ছিল। ম্যানগ্রোভের গরম তলতলে কাদার অনুপস্থিতি অনুভব করে, সে সামান্য শিহরিত হল। অহর্ষী অনেক কিছুরই অনুপস্থিতি অনুভব করছিল। কিভাবে সূর্য তার লোমে রাজকীয় কমলা রঙের আভা তৈরি করত,বা মধ্যাহ্নের উজ্জ্বলতার তীব্ররশ্মি কেমন তার কালো ডোরাগুলোকে খুব সপ্রতিভ এবং সবেগে ধাবমান কালো বজ্রের মতো করে তুলত, তার অনুপস্থিতি সে অনুভব করতো। সন্ধ্যেবেলার তাপে ঝিমানো এবং জঙ্গলের দ্রাক্ষালতার মধ্যে দিয়ে খন্ড হয়ে যাওয়া সূর্যের আলোকরশ্মি ধারণ করার অনুপস্থিতি অনুভব করতো। সে ভাবছিল যে সে কী আর কখনো গাছে থাকা দোয়েল পাখির ডাক শুনতে পাবে, বা বাতাসের পাকা আমের গন্ধ অনুভব করতে। এটা হল এমন অস্থায়ী, গ্লানিকর মুহূর্ত যা বাঘটি তার মনের মধ্যে চিত্রিত করে রাখার চেষ্টা করছিল। অহর্ষী তার বাড়ির অনুপস্থিতি অনুভব করছিল।"""),
-        ),
     )
 
     private fun bosnian() = LanguageDefinition(
@@ -376,13 +237,6 @@ Jainkoak Adan egin baino lehen, gauza zoragarriz betetako mundu ederra egin zuen
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Kada je Bog stvorio sve", sourceUrl = null, text = """Ko nas je stvorio? Biblija, riječ Božja, govori nam kako je nastao ljudski rod. Davno, davno, Bog je stvorio prvog čovjeka i nazvao ga je Adam. Bog je stvorio Adama od zemaljske prašine. Kada je Bog udahnuo život u Adama, on je oživjeo. Našao se tada u predivnom vrtu zvanom Eden.
-
-Prije nego što je Bog stvorio Adama, stvorio je prelijep svijet pun čudesnih stvari. Korak po korak, Bog je dodavao brježuljkaste i prerijske predjele, mirisno cvijeće i visoko drveće, svijetle pernate ptice i zujave pčele, okretne kitove i klizave puževe. Ustvari, Bog je sve tamo stvorio – sve.
-
-Na samom početku, prije nego što je Bog stvorio bilo šta, nije postojalo ništa sem Boga. Bez ljudi ili mjesta ili stvari. Bez svjetla i bez tame. Bez gore i bez dolje. Bez juče i bez sutra. Postojao je samo Bog koji nije imao početak. A onda je počeo sa djelanjem!"""),
         ),
     )
 
@@ -407,25 +261,6 @@ Na samom početku, prije nego što je Bog stvorio bilo šta, nije postojalo niš
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Diskleriadur Hollvedel Gwiriou Mab-den", sourceUrl = null, text = """Embannet gant ar Broadou-Unanet d'an 10 a viz Kerzu 1948
-
-Rakger
---O vezañ ma'z eo war anaout an dellezegezh enstag ouzh holl izili an denelezh hag o gwirioù par ha diwerzhus eo diazezet ar frankiz, ar reizhded hag ar peoc'h,
-
-_ o vezañ ma'z eo war dizanaout ha dismegañsiñ gwirioù mab-den eo bet ganet an aktoù a varbariezh a sav koustiañs mab-den en o enep, ha ma'z eo bet embannet eo donedigezh ur bed a vo ennañ gant an dud frankiz da gomz ha da grediñ, dieubet ma vint diouzh ar spont hag an dienez, a zo mennad uhelañ mab-den,
-
---o vezañ ma'z eo ret-holl diwall gwirioù mabden gant reolenn al lezenn evit na vefe ket rediet an dud d'en em sevel ouzh an tirantegezh hag ar gwaskerezh da rekour diwezhañ,
-
---o vezañ ma'z eo ret-holl kas war-raok an darempredoù a vignoniezh etre ar broadoù,
-
---o vezañ ma'z eo bet embannet adarre er Garta gant pobloù ar Broadoù-Unanet o feiz e gwirioù diazez mab-den, e dellezegezh ha talvoudegezh mab-den, e parded ar baotred hag ar merc'hed en o gwirioù, ha ma'z eo bet disklêriet ganto e oant mennet da gas war-raok an diorroadur kevredigezhel ha da wellaat an aozioù-buhez en ur frankiz vrasoc'h,
-
---o vezañ ma'z eo bet gouestlet gant ar Stadoù-Ezel diogeliñ, gant kenlabour Aozadur ar Broadoù-Unanet, an doujañs hollvedel ha gwirion ouzh gwirioù mab-den hag ar frankizioù pennan,
-
---hago vezañ ma'z eo a bouez bras kengompren ar gwirioù hag ar frankizioù-mañ a-benn seveniñ ar gouestl,
-evel uhelvennad boutin da vezañ diraezet gant an holl bobloù hag an holl vroadoù, d'an holl dud hag ensavadurioù, gant an Disklêriadur-mañ atav en o freder, da lakaat kreskiñ dre ar c'helenn hag an deskadurezh, an doujans ouzh ar gwirioù ha frankizioù-mañ, d'o lakaat da vezañ anavezet ha sevenet tamm-ha-tamm da vat hag e pep lec'h, dre ziarbennoù broadel hag etrevroadel, koulz e-touez pobloù ar Stadoù-Ezel hag e-touez ar re zo war zouaroù dindan o lezennoù."""),
         ),
     )
 
@@ -452,9 +287,6 @@ evel uhelvennad boutin da vezañ diraezet gant an holl bobloù hag an holl vroad
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Вчера (1988) - Film Description", sourceUrl = null, text = """Краят на 60-те години. Дана, дъщеря на дипломат в Лондон, се завръща в България и е настанена в пансион на езикова гимназия, в която учат предимно деца на висши партийни функционери. Иван е син на човек от върхушката и дори по-сериозните провинения са му простени, докато Ростислав е приет в училището само заради способностите си и при най-малката грешка може да бъде преместен."""),
         ),
     )
 
@@ -487,9 +319,6 @@ evel uhelvennad boutin da vezañ diraezet gant an holl bobloù hag an holl vroad
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Merlí - Series description", sourceUrl = null, text = """El professor de filosofia Merlí Bergeron tria un grup d'alumnes de batxillerat per ser els peripatètics del segle XXI. Com si es tractés d'un nou Aristòtil, el Merlí els ensenya a qüestionar les coses, a reflexionar. Però el seu caràcter irònic i irritant és polèmic dins de l'institut, perquè no tots els professors estan disposats a aguantar les seves manies. Ni tampoc el seu fill, l'alumne més difícil que ha tingut mai, i amb qui intentarà recuperar la relació. El Merlí ressuscitarà per als alumnes Sòcrates, Hume, Nietzsche i altres figures de la història del pensament, i els ajudarà, no pas sense conflictes, a resoldre els seus problemes quotidians."""),
-        ),
     )
 
     private fun cebuano() = LanguageDefinition(
@@ -505,88 +334,6 @@ evel uhelvennad boutin da vezañ diraezet gant an holl bobloù hag an holl vroad
             exceptionsSplitSentences = "Mr.|Mrs.|Dr.|[A-Z].|Vd.|Vds.",
             wordCharacters = "a-zA-ZÀ-ÖØ-öø-ȳáéíóúÁÉÍÓÚñÑ-",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Lingq Mini-Story 1", sourceUrl = null, text = """Istorya 1 
-
-A) 
-
-Mubangon si Mike kada alas sais sa buntag. 
-
-Nagluto siya sa iyang pamahaw ug naginom sa iyang kape. 
-Nagdrayb siya paingun sa iyang trabahuan gamit iyang sakyanan. 
-lIyang trabaho magsugaod sa alas syete y medya sa buntag. 
-
-Si Mike kay kusinero sa usa ka restawran. 
-
-Nagahimo siya ug pagkaon alang sa mga gigutom na kustomer. 
-Ang mga kustomer kay gikan sa lain laing mga nasud. 
-
-Lain lain ilang mga sinultian. 
-
-Makahimamat si Mike ug daghang mga mahigalaong tawo. 
-
-
-Malipayon si Mike kada makigstorya siya sa mga kustomer. 
-
-
-B) 
-
-Mubangon ko sa alas sais sa buntag. 
-
-Nagluto ko ug pamahaw ug nag inom sa akong kape. 
-
-Nagdrayb ko paingun sa akong trabahuan gamit akong sakyanan. 
-Akong tfrabaho magsugod sa alas syete y medya sa buntag. 
-
-Usa ko ka kusinero sa usa ka restawran. 
-
-Nagahimo ko ug pagkaon alang sa mga gigutom nga kustomer. 
-Ang mga kustomer kay gikan sa lain lain nga mga nasud. 
-
-Lain lain ilang mga sinultian. 
-
-Makahimamat ko ug daghang mga mahigalaong tao. 
-
-
-Malipayon ko kada makigstorya ko sa mga kustomer. 
-
-
-Mga Pangutana: 
-
-
-1. Si Mike mumata kada alas sais sa buntag. Sayo ba mumata si Mikeze Oo, si Mike mumata kada 
-alas sais sa buntag. 
-
-
-2. Muinom ug kape si Mike. Muinom ba ug t1saa si Mikee Dili, dili MuUinom ug tsaa si Mike, muinom siya 
-ug kape. 
-
-
-3. Nagadrayb si Mike paingun sa iyang trabahuan gamit iyang sakyanan. Nagadrayb ba si Mike 
-paingun sa iyang trabahuan gamit iyang sakyanane OO, nagadraypb si Mike paingun sa iyang 
-trabahuan gamit iyang sakyanan. 
-
-
-4, Magsugod ang trabaho ni Mike sa alas syete y medya sa buntag. Magsugod ba ang trabaho ni 
-Mike sa alas syete sa buntagz Dili, ang trabaho ni Mike dili magsugod sa alas syete sa buntag. Ang 
-iyang trabaho kay magsugaod sa alas syete y medya sa buntag. 
-
-
-5. Kusinero si Mike sa usa ka restawran. Kusinero ba si Mikez Oo, kusinero si Mike sa usa ka restawran. 
-
-
-6. Ang mga kustomer kay gikan sa lain Iain nga mga nasud. Gikan ba sa usa ra ka nasud ang mga 
-kustomerz Dili, ang mga kustomer kay dili lang gikan sa usa ka nasud. Gikan sila sa lain lain nga mga 
-nasud. 
-
-
-7. Ang mga kustomer kay mahigalaon. Mahigalaon ba ang mga kustomerz OOo, ang mga kustomer 
-kay mahigalaon. 
-
-
-8. Malipayon si Mike kada makigstorya sa mga kustomer. Malipayon ba si Mike makigstorya sa mga 
-kustomere OOo, malipayon si Mike makigstorya sa mga kustomer."""),
-        ),
     )
 
     private fun classicalChinese() = LanguageDefinition(
@@ -600,9 +347,6 @@ kustomere OOo, malipayon si Mike makigstorya sa mga kustomer."""),
             wordCharacters = "一-龥",
             showRomanization = true,
             parserType = "classicalchinese",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "逍遙遊", sourceUrl = null, text = """北冥有魚，其名為鯤。鯤之大，不知其幾千里也。化而為鳥，其名為鵬。鵬之背，不知其幾千里也；怒而飛，其翼若垂天之雲。是鳥也，海運則將徙於南冥。南冥者，天池也。齊諧者，志怪者也。諧之言曰：「鵬之徙於南冥也，水擊三千里，摶扶搖而上者九萬里，去以六月息者也。」野馬也，塵埃也，生物之以息相吹也。天之蒼蒼，其正色邪？其遠而無所至極邪？其視下也亦若是，則已矣。且夫水之積也不厚，則負大舟也無力。覆杯水於坳堂之上，則芥為之舟，置杯焉則膠，水淺而舟大也。風之積也不厚，則其負大翼也無力。故九萬里則風斯在下矣，而後乃今培風；背負青天而莫之夭閼者，而後乃今將圖南。蜩與學鳩笑之曰：「我決起而飛，槍1榆、枋，時則不至而控於地而已矣，奚以之九萬里而南為？」適莽蒼者三湌而反，腹猶果然；適百里者宿舂糧；適千里者三月聚糧。之二蟲又何知！小知不及大知，小年不及大年。奚以知其然也？朝菌不知晦朔，蟪蛄不知春秋，此小年也。楚之南有冥靈者，以五百歲為春，五百歲為秋；上古有大椿者，以八千歲為春，八千歲為秋。而彭祖乃今以久特聞，眾人匹之，不亦悲乎！"""),
         ),
     )
 
@@ -625,11 +369,6 @@ kustomere OOo, malipayon si Mike makigstorya sa mga kustomer."""),
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Nebo predivan Božji dom", sourceUrl = null, text = """Dok je živio na zemlji, Isus je pričao učenicima o nebu. Nazvao ga je „kućom svoga oca” i rekao da tamo ima mnogo vila. Vila je velika, predivna kuća. Nebo je veće i ljepše nego zemaljski dom.
-
-Isus je rekao, „Idem vam pripremiti mjesto. A ako odem i pripremim va mjesto, vratit ću se natrag i primiti vas k sebi.” Isus je otišao na nebo nakon što je uskrsnuo od mrtvih. Dok su njegovi učenici gledali, bio je uznesen i prekrio ga je oblak tako da ga više nisu mogli vidjeti."""),
-        ),
     )
 
     private fun czech() = LanguageDefinition(
@@ -642,9 +381,6 @@ Isus je rekao, „Idem vam pripremiti mjesto. A ako odem i pripremim va mjesto, 
             ),
             wordCharacters = "a-zA-ZÀ-ÖØ-öø-ȳáéíóúÁÉÍÓÚñÑ",
             showRomanization = true,
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Hrad Cimburk – Jak vzal vítr pasáčkovi čepici", sourceUrl = null, text = """V jedné rozpadlé chaloupce žil tatínek, maminka a jejich chlapec Tonda. Byli velmi chudí, do střechy jim teklo a často neměli ani na jídlo. Tonda, aby rodičům pomohl, pracoval jako pasáček ovcí. Ale i tak neměl ani na pořádné oblečení, chodil v roztrhaných kalhotách, do kabátku mu táhlo a jeho čepice vypadala stejně otrhaně jako zbytek oděvu. I přesto si každé ráno cestou na pastvu vesele pohvizdoval."""),
         ),
     )
 
@@ -666,13 +402,6 @@ Isus je rekao, „Idem vam pripremiti mjesto. A ako odem i pripremim va mjesto, 
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Prinsessen på ærten", sourceUrl = null, text = """Der var engang en prins, der var meget, meget, meget, meget kræsen. Han besluttede sig for, at tiden var kommet til at han skulle giftes, men hans kommende kone skulle være en ægte prinsesse, der var lige så kræsen som ham selv. Han mente, at kræsenhed var et tegn på kongelighed.
-
-Men hvor kunne han finde en? Han begyndte at søge på kryds og tværs af landet. Men uden held. Han var så kræsen, at hver gang han så en prinsesse, ville han sige:
-
-"Hun er for fed" eller "Hun er for tynd" eller "Hun er for høj" eller "Hun er for lille" eller "Hun lugter for meget" eller "Hendes hår er grønt" eller "Hendes hår er blåt"."""),
-        ),
     )
 
     private fun dutch() = LanguageDefinition(
@@ -693,13 +422,6 @@ Men hvor kunne han finde en? Han begyndte at søge på kryds og tværs af landet
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "De doortocht", sourceUrl = null, text = """De Farao heeft het volk Israel eindelijk toestemming gegeven om uit Egypte te vertrekken. Ze moeten door de woestijn. Een wolkkolom wijst ze de weg.
-
-De wolkkolom is 's nachts niet te zien, en daarom geeft de Heere ze een lichtkolom, zodat ze ook in het donker weten waar ze heen moeten.
-
-Faraoh had de Israelieten met tegenzin vrijgelaten, maar bedacht zich. Hij wilden zijn slaven terug. Waarom hebben we ze eigenlijk laten gaan, vroeg hij zich af?"""),
-        ),
     )
 
     private fun english() = LanguageDefinition(
@@ -718,94 +440,6 @@ Faraoh had de Israelieten met tegenzin vrijgelaten, maar bedacht zich. Hij wilde
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Tutorial", sourceUrl = null, text = """Welcome to Tayra!  This short guide should get you going.
-
-Navigation
-This tutorial has multiple pages.  At the top of the page is a slider to navigate forwards and backwards, or you can click the arrows at either end of the slider.
-
-1. The Basics
-All of these words are blue because they are "unknown" - according to Tayra, this is the first time you're seeing these words.
-You can click on a word, and create a definition.  For example, click on this word: elephant.
-When the form pops up in the right-hand frame, a dictionary is loaded below.  Copy-paste something from the dictionary into the translation, or make up your own, mark the status, add some tags if you want (eg, type "noun" in the tags field), and click save.  From now on, every English text that you read that contains the word "elephant" will show the status.  If you hover over any "elephant", you'll see some information.
-
-1.1 Multiple dictionaries.
-Languages can have multiple dictionaries, configured in the "Languages" link on the homepage.  Each dictionary is shown as a small tab.  For this demo, English has been configured with two dictionaries.  The second dictionary will open a popup window.  If you have many dictionaries, the extra ones will be shown in a small list box next to the tabs.
-
-1.2 Images
-Tayra can do a simple image search for terms.  Next to the Sentences tab is a small image button.  If you click on it, you'll see some happy elephants (if you clicked on elephant!).  If you click on one of the images shown in the list, that image is saved in your data/userimages folder.  When you hover over the word in the reading pane, that picture is included in the word hover.  Try adding an image for your elephant by clicking on the term, clicking the image icon, and clicking a picture you like.  Then hover over your elephant.
-Note: sometimes these images make _no sense_ -- it's using Bing image search, and it does the best it can with the limited context it has.
-To delete an image added to your term, click on it.  Its border will change to red.  Hit Delete or Backspace to delete it, and then save the term (you must save!).
-
-2. Multi-word Terms
-You can create multi-word terms by clicking and dragging across multiple words, then release the mouse.  Try creating a term for the phrase "the cat's pyjamas", and add a translation and set the status.
-(A brief side note: Tayra keeps track of where you are in any text.  If you click the Home link above to leave this tutorial, and later click the Tutorial link from the Text listing, Tayra will open the last page you were at.)
-
-3. Parent Terms
-Sometimes it helps to associate terms with a "parent".  For example, the verb "to have" is conjugated in various forms as "I have a cold", "he has a dog", "they had dinner".  First create a Term for "have".  Then create a Term for "has", and in the Parent field start typing "have".  Tayra will show the existing Term "have" in the drop down, and if you select it, "has" will be associated with that on save, and when you hover over "has" you'll see the parent's information as well.
-If you enter a non-existent Parent word, Tayra will create a placeholder Term for that Parent, copying some content from your term.  For example, try creating a Term for the word "dogs", associating it with the non-existent Term "dog".  When you save "dogs", both will be updated.
-Terms can have multiple parents, too.  Hit the Enter (or Return) key after each parent.  For example, if you wanted to associate the Term "puppies" with both "puppy" and "dog", click on "puppies", and in the Parents text box type "puppy", hit Enter, type "dog", and hit Enter.  Sometimes this is necessary: for example, in Spanish, "se sienta" can either be a conjugation of "sentirse" (to feel) or "sentarse" (to sit), depending on the context.
-
-4. Mark the remainder as "Known"
-When you're done creating Terms on a page, you will likely still have a bunch of blue words, or "unknowns", left over, even though you really know these words.  You can set all of these to "Known" and move to the next page in one shot with the green checkmark at the bottom of the page.  Try that now to see what happens, and then come back to this page using the arrows in the header to finish reading this page.
-The ">" link moves to the next page as well, without setting the unknown terms to "Known."  This can be useful if you're reading quickly, without stopping to define every last term in detail.
-Note: both of these links also mark the page as "Read", which Tayra uses when it searches for references to terms you create.  There's more on this in the tutorial follow-up, which you should read after this tutorial.
-
-5. Keyboard shortcuts
-The "hamburger menu" next to the Tayra logo at the top left of the reading screen opens up a small menu of items, including a link to some keyboard shortcuts.  This section introduces a few of them.
-
-5.1 Updating Status
-If you've worked through the tutorial, you'll have noted that words are underlined in blue when you move the mouse over them.  You can quickly change the status of the current word by hitting 1, 2, 3, 4, 5, w (for Well-Known), or i (for Ignore).  Try hovering over the following words and hit the status buttons: apple, banana, cranberry, donut.
-If you click on a word, it's underlined in red, and the Term edit form is shown.  Before you switch over to the Term editing form, you can still update its status using the hotkeys above, or by using the up and down arrows.  You can jump over to the edit form by hitting Tab, and then start editing.
-When a word has been clicked, it's "active", so it keeps the focus.  Hovering the mouse over other words won't underline them in blue anymore, and hitting status update hotkeys (1 - 5, w, i) will only update the active word.  To "un-click" a word underlined in red, click it again, or hit Escape or Return.  Then you'll be back in "Hover mode".  In "Hover mode", the hotkeys 1-5, w, and i still update the status, but the arrow keys just scroll the window.  Try clicking and un-clicking or Escaping any word in this paragraph to get a feel for it.
-Note that for the keyboard shortcuts to work, the reading pane (where the text is) must have the "focus".  Click anywhere on the reading pane to re-establish focus.
-
-5.1 Bulk updates
-If you hold down Shift and click a bunch of words, you can bulk update their statuses.  This works for the up and down arrow keys as well.
-
-5.2 Arrow keys
-The Right and Left arrow keys click the next and previous words.  Hit Escape or Return to get back to "hover mode".
-
-5.3 Copying text
-When a word is hovered over or clicked, hit "c" to copy that word's sentence to your clipboard.  Hit "C" to copy the word's full paragraph (multiple sentences).  You can also copy arbitrary sections of text by holding down the Shift key while highlighting the text with your mouse.
-
-6. Next steps
-All done this text!
-Tayra keeps track of all of this in your database, so any time you create or import a new Book, all the info you've created is carried forward.
-There's a tutorial follow-up: go to the Home screen, and click the "Tutorial follow-up" in the table."""),
-            StoryDefinition(title = "Tutorial follow-up", sourceUrl = null, text = """Hopefully you've gone through the Tutorial, and created some Terms.
-From the Tutorial, you've already told Tayra that you know most of the words on this page.  You can hover over words to see information about them, such as your information you might have added about dogs.
-There are still a few blue words, which according to Tayra are still "unknown" to you.  You can process them like you did on the last text.
-(fyi - If a text has a spelling mikstaske, you can edit it by clicking the "hamburger menu" -- three lines -- in the top left corner of this screen, and click "Edit page".  If you'd like, correct the mistake now, and resave this text.)
-Now we'll do a brief spin through a few other things Tayra does.  You can read about them and other features in the manual too.
-
-1. The Menus
-In case you missed it, on the Home screen there are some menu bar items on the top right.  Go back there and hover over them to see what you can do.  This is all demo data, so you can do what you want.  (But don't delete the tutorials until you've gone through them.)
-
-2. Term Sentences
-In the "Term" edit form, you can click on the "Sentences" tab to see where that term or its relations have been used.  Click on "elephant", and then click the Sentences tab to see where that term has been used.
-You're only shown sentences on pages that have been marked "Read", using the controls in the footer of the reading screen, i.e. the green checkmark or the ">".  This ensures that you only see references that you have already seen before, so you don't get overwhelmed with new vocabulary, and avoids spoilers of the material you're reading.
-
-3. Archiving, Unarchiving, and Deleting Books
-When you're done reading a book, you can Archive or Delete it.
-Archiving just removes the book from your book listing on the home screen, and you can unarchive at any time.  The sentences for archived books are still available for searching with the Term "Sentences" link.
-On the last page of every book, Tayra shows a link for you to archive the book.  You can also archive it from the Home screen by clicking on the "Archive" action (the image with the little down arrow) in the right-most column.  To unarchive the text, go to Home, Book Archive, and click the "Unarchive" action (the little up arrow).
-Deleting a book completely removes it and its sentences.
-Neither archiving nor deleting touch any Terms you've created.
-
-4. Audio
-You can add an audio file (mp3, wav, or ogg) to your books, so you can read along to an audio track.  See the Tayra manual for more notes on usage and tips.
-
-5. Themes and toggling highlighting
-Tayra has a few themes to make reading more pleasant.  From the "hamburger menu" on the reading screen you can switch to the next theme, or hit the hotkey (m).  You can also toggle highlights, because sometimes they get distracting.
-
-===
-
-Those are the the core feature of Tayra!  There are some sample stories for other languages.  Try those out or create your own.
-When you're done with the demo, go back to the Home screen and click the link to clear out the database.  Tayra will delete all of the demo data, and you can get started.  You'll be prompted to create your first language, and then you can create your first book.  Tayra will then ask you to specify your backup preferences, and with that all done, you'll be off and running.
-There is a Tayra Discord and manual as well -- see the "About" menu bar.
-I hope that you find Tayra a fun tool to use for learning languages.  Cheers and best wishes!"""),
         ),
     )
 
@@ -826,15 +460,6 @@ I hope that you find Tayra a fun tool to use for learning languages.  Cheers and
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "La Viro kun la Tordita Lipo", sourceUrl = null, text = """Kiam mi eniris, flavpala malaja servisto jam estis rapidanta kun pipo kaj drogprovizo por mi, gestante al vaka lignolito.
-
-"Dankon. Mi ne venas por resti," mi diris. "Ĉi tie estas mia amiko, S-ro Isa Whitney, kaj mi deziras paroli kun li."
-
-Dekstre iu movis kaj ekkriis, kaj rigardante tra la malforta lumo mi ekvidis Whitney, pala, marasma, kaj nekombita, kiu rigardis min.
-
-"Mia Di'! Estas Watson," li diris. Li estis en kompatinda reagstato, kun ĉiu nervo agacita. "Diru, Watson, kioma hor'?""""),
         ),
     )
 
@@ -867,9 +492,6 @@ Dekstre iu movis kaj ekkriis, kaj rigardante tra la malforta lumo mi ekvidis Whi
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Tõde ja Õigus - Film Description", sourceUrl = null, text = """A. H. Tammsaare romaani „Tõde ja õigus“ I osal põhinevas mängufilmis tuleb lootusest ja teotahtest pakatav Andres koos noore abikaasa Krõõdaga võlgu ostetud soisele talukohale uut elu rajama. Vargamäe Mäe talust peab saama koht, mis perekonna eest hoolitseb, algab aga hoopis elukestev võitlus nii looduse ja saatuse kui ka kiusliku naabrimehe Pearuga. Kui elukaar jagab Andresele enam kannatusi kui kauaoodatud tulemusi, hakkab mees üha meeleheitlikumalt otsima tõde ja õigust nii kohtust, kõrtsist kui ka Piiblist, tuues oma otsinguil ohvriks perekonna, lähikondlased ja iseenda. Unelm õitsvast ja perekonna eest hoolt kandvast Vargamäest vajub üha sügavamale reaalsuse varju."""),
-        ),
     )
 
     private fun faroese() = LanguageDefinition(
@@ -895,21 +517,6 @@ Dekstre iu movis kaj ekkriis, kaj rigardante tra la malforta lumo mi ekvidis Whi
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "HEIMSYVIRLÝSING UM MANNARÆTTINDI", sourceUrl = null, text = """Tað verður at viðurkenna, at menniskjuni er virðing íborin, og at allir limir mannaættarinnar eiga somu ómissiligu rættindi, og hetta er støðið undir frælsi, rættvísi og friði í heiminum.
-
-Har sum mannarættindini hava verið fyri vanbýti og vanvirðing, hevur tað havt við sær ræðuligar gerðir, sum hava skakað samvitsku mannaættarinnar, og ein heimskipan, har sum fólk nýtur talu- og trúarfrælsi og frælsi frá ótta og neyð, hevur verið boðað sum menniskjunar hægsta mið og mál.
-
-Tað varðar almikið um, mannarættindi verða vard við lógum, um fólk ikki skal verða noytt til sum evstu ráð at taka til uppreistur móti harðræði og kúgan.
-
-Tað varðar almikið um at elva og stimbra vinalag tióðanna millum.
-
-Í sáttmáala sínum hava Sameindu Tjóðirnar av nýggjum váttað trúgv sína á undirstøðulig mannarættindi, á sóma menniskjans og virði, og á javnrættindi fyri kvinnur og menn, og tær hava rátt av at fremja framburð í almannamálum og bøta um lívskor manna í alt meiri frælsi.
-
-Limaríkini hava skyldubundið seg til, í samvinnu við Sameindu Tjóðirnar, at virka fyri at fáa framt, at mannarættindini og undirstøðilig frælsisrættindi verða alment vird og hildin.
-
-Tað at allir partar skilja hesi rættindi og frælsi er fremsta treytin fyri, at henda skylda verður framd út í æsur."""),
-        ),
     )
 
     private fun farsi() = LanguageDefinition(
@@ -930,14 +537,6 @@ Tað at allir partar skilja hesi rættindi og frælsi er fremsta treytin fyri, a
             rightToLeft = true,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "احمق و خر", sourceUrl = null, text = """یک روز صبح، مرد احمقی از خواب بلند شد و با خودش فکر کرد:«به چیزی احتیاج دارم؟ به یک خر نیاز دارم.»
-
-بنابراین خانه‌اش را ترک کرد و پیاده رفت تا به شهر رسید. به طویله‌ی خرها رسید و وارد آن شد. خرهای زیادی آنجا بودند. بعضی‌هایشان بزرگ و بعضی‌ها کوچک بودند. بعضی‌ها گوش‌های دراز داشتند و بعضی‌ها کوتاه. اما در میان آنها تنها یک خر بود که گوش‌های دراز، نرم و ابریشم‌مانندی داشت.
-«این همان خری است که من می‌خواهم.»
-
-احمق به صاحب طویله پول داد و آن خر را که با طنابی بسته شده بود، از طویله و از وسط خیابان‌های شهر گذراند."""),
         ),
     )
 
@@ -972,9 +571,6 @@ Tað at allir partar skilja hesi rættindi og frælsi er fremsta treytin fyri, a
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Sisu - Film description", sourceUrl = null, text = """Syvällä Lapin erämaassa Aatami Korpi etsii kultaa. Ajoittain pommikoneiden ylilento ja etäiset sodan äänet kuuluvat kirkkaina syysöinä. Viimein raskas työ palkitaan ja kultapöly vaskoolissa kasvaa kultakimpaleiksi, Aatami lähtee viemään kulta-aarrettaan lähimpään kaupunkiin. Kun Aatamia vastaan rymistelee SS Obersturmführer Bruno Helldorfin johtama kolmekymmentä henkinen natsituhopartio, alkaa henkeäsalpaava ja kullanhimoinen takaa-ajo läpi tuhotun ja miinoitetun Lapin erämaan."""),
-        ),
     )
 
     private fun french() = LanguageDefinition(
@@ -994,11 +590,6 @@ Tað at allir partar skilja hesi rættindi og frælsi er fremsta treytin fyri, a
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Boucles d’or et les trois ours", sourceUrl = null, text = """Il était une fois trois ours: un papa ours, une maman ours et un bébé ours. Ils habitaient tous ensemble dans une maison jaune au milieu d'une grande forêt.
-
-Un jour, Maman Ours prépara une grande marmite de porridge délicieux et fumant pour le petit déjeuner. Il était trop chaud pour pouvoir être mangé, alors les ours décidèrent d'aller se promener en attendant que le porridge refroidisse."""),
         ),
     )
 
@@ -1028,9 +619,6 @@ Un jour, Maman Ours prépara une grande marmite de porridge délicieux et fumant
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "O Apóstolo - Film Description", sourceUrl = null, text = """Un preso fugado recentemente tenta recuperar o botín agochado hai uns anos nunha remota e isolada vila, mais atopa unha sentenza peor có cárcere. Anciáns siniestros, desaparicións estrañas, espíritos, un sacerdote peculiar e até o mesmo arcipreste de Santiago protagonizan unha historia de terror, humor e fantasía. Primeira produción en stop-motion feita en arxila en España. Participan coas súas voces Luis Tosar, Geraldine Chaplin, Manuel Manquiña, Jorge Sanz e Paul Naschy entre outros."""),
-        ),
     )
 
     private fun generic() = LanguageDefinition(
@@ -1045,63 +633,6 @@ Un jour, Maman Ours prépara une grande marmite de porridge délicieux et fumant
             exceptionsSplitSentences = "Mr.|Mrs.|Dr.|[A-Z].|Vd.|Vds.",
             wordCharacters = "",
             showRomanization = true,
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Generic Parser Demo", sourceUrl = null, text = """English:
-
-This story shows how the space-delimited parser uses Unicode categories to identify words in multiple languages.
-
-Arabic:
-
-‏مرحبا، كيف حالك ؟‎
-
-Czech:
-
-V jedné rozpadlé chaloupce žil tatínek, maminka a jejich chlapec Tonda. Byli velmi chudí, do střechy jim teklo a často neměli ani na jídlo.
-
-French:
-
-Il était une fois trois ours: un papa ours, une maman ours et un bébé ours. Ils habitaient tous ensemble dans une maison jaune au milieu d'une grande forêt.
-
-Georgian:
-
-ყველა ადამიანი იბადება თავისუფალი და თანასწორი თავისი ღირსებითა და უფლებებით.
-
-German:
-
-Es hatte ein Mann einen Esel, der schon lange Jahre die Säcke unverdrossen zur Mühle getragen hatte, dessen Kräfte aber nun zu Ende gingen, sodass er zur Arbeit immer untauglicher wurde. Da dachte der Herr daran, ihn aus dem Futter zu schaffen, aber der Esel merkte, dass kein guter Wind wehte, lief fort und machte sich auf den Weg nach Bremen; dort, meinte er, könnte er ja Stadtmusikant werden.
-
-Gothic:
-
-𐌰𐍄𐍄𐌰 𐌿𐌽𐍃𐌰𐍂 𐌸𐌿 𐌹𐌽 𐌷𐌹𐌼𐌹𐌽𐌰𐌼
-
-Greek:
-
-Πέτρος: Γεια σου, Νίκη. Ο Πέτρος είμαι.
-Νίκη: Α, γεια σου Πέτρο. Τι κάνεις;
-Πέτρος: Μια χαρά. Σε παίρνω για να πάμε καμιά βόλτα αργότερα. Τι λες;
-Νίκη: Α, ωραία. Κι εγώ θέλω να βγω λίγο. Συνέχεια διαβάζω για τις εξετάσεις… κουράστηκα πια. Πού λες να πάμε;
-
-Hindi:
-
-अनुच्छेद १(एक): सभी मनुष्य जन्म से स्वतन्त्र तथा मर्यादा और अधिकारों में समान होते हैं। वे तर्क और विवेक से सम्पन्न हैं तथा उन्हें भ्रातृत्व की भावना से परस्पर के प्रति कार्य करना चाहिए।
-
-Russian:
-
-Встреча с медведем может быть очень опасна. Русские люди любят ходить в лес и собирать грибы и ягоды. Они делают это с осторожностью, так как медведи тоже очень любят ягоды и могут напасть на человека. Медведь ест все: ягоды, рыбу, мясо и даже насекомых. Особенно он любит мед.
-
-Sanskrit:
-
-काशीनगरे एकः पण्डितः अस्ति । पण्डितसमीपम् एकः शिष्यः आगच्छति । शिष्यः वदति - "आचार्य!
-विद्याभ्यासार्थम् आगतः ।" पण्डितः शिष्यबुद्धिपरीक्षार्थं पृच्छति - "वत्स, देवः कुत्र अस्ति?" शिष्यः वदति -
-
-Spanish:
-
-— Decid —le repliqué yo, oyendo lo que me decía—: ¿de qué modo pensáis llenar el vacío de mi temor y reducir a claridad el caos de mi confusión?
-
-Turkish:
-
-Büyük ağaç eskiden aşılanmış ve her yıl güzel, iri, pembe şeftaliler verirmiş, insanın eline sığmazmış bu şeftaliler. Öyle güzelmişler ki insan yemeye kıyamazmış onları. Bahçıvan, bu büyük ağacı yabancı bir uzmanın kendi ülkesinden getirdiği bir tohumla aşıladığını söylermiş. Belli ki böyle masraf edilen bir ağaçta yetişen şeftaliler oldukça değerliymiş."""),
         ),
     )
 
@@ -1126,9 +657,6 @@ Büyük ağaç eskiden aşılanmış ve her yıl güzel, iri, pembe şeftaliler 
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "და ჩვენ ვიცეკვეთ - Film Description", sourceUrl = null, text = """მერაბი ბავშვობიდანვე ქართული ნაციონალური ცეკვის ანსამბლში დადიოდა მის ცეკვის პარტნიორთან, მარისთან ერთად. მერაბის სამყარო მოულოდნელად აღმოჩნდა თავდაყირა, როდესაც ქარიზმატული ირაკლი გაჩნდა მის ცხოვრებაში. იგი გახდა მერაბის კონკურენტი და სურვილიც. ამ კონსერვატიულ გარემოში მერაბი აღმოაჩენს, რომ უნდა გათავისუფლდეს და რისკავს."""),
-        ),
     )
 
     private fun german() = LanguageDefinition(
@@ -1148,11 +676,6 @@ Büyük ağaç eskiden aşılanmış ve her yıl güzel, iri, pembe şeftaliler 
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Die Bremer Stadtmusikanten", sourceUrl = null, text = """Es hatte ein Mann einen Esel, der schon lange Jahre die Säcke unverdrossen zur Mühle getragen hatte, dessen Kräfte aber nun zu Ende gingen, sodass er zur Arbeit immer untauglicher wurde. Da dachte der Herr daran, ihn aus dem Futter zu schaffen, aber der Esel merkte, dass kein guter Wind wehte, lief fort und machte sich auf den Weg nach Bremen; dort, meinte er, könnte er ja Stadtmusikant werden.
-
-Als er ein Weilchen fortgegangen war, fand er einen Jagdhund auf dem Weg liegen, der japste wie einer, der sich müde gelaufen hat. "Nun, was japst du so, Packan?" fragte der Esel. "Ach," sagte der Hund, "weil ich alt bin und jeden Tag schwächer werde, auch auf der Jagd nicht mehr fort kann, hat mich mein Herr wollen totschlagen, da hab ich Reißaus genommen; aber womit soll ich nun mein Brot verdienen?" - "Weißt du was?" sprach der Esel, "ich gehe nach Bremen und werde dort Stadtmusikant, geh mit und lass dich auch bei der Musik annehmen. Ich spiele die Laute, und du schlägst die Pauken."""),
         ),
     )
 
@@ -1174,26 +697,6 @@ Als er ein Weilchen fortgegangen war, fand er einen Jagdhund auf dem Weg liegen,
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Lord's Prayer", sourceUrl = null, text = """𐌰𐍄𐍄𐌰 𐌿𐌽𐍃𐌰𐍂 𐌸𐌿 𐌹𐌽 𐌷𐌹𐌼𐌹𐌽𐌰𐌼
-𐍅𐌴𐌹𐌷𐌽𐌰𐌹 𐌽𐌰𐌼𐍉 𐌸𐌴𐌹𐌽
-𐌵𐌹𐌼𐌰𐌹 𐌸𐌹𐌿𐌳𐌹𐌽𐌰𐍃𐍃𐌿𐍃 𐌸𐌴𐌹𐌽𐍃
-𐍅𐌰𐌹𐍂𐌸𐌰𐌹 𐍅𐌹𐌻𐌾𐌰 𐌸𐌴𐌹𐌽𐍃
-𐍃𐍅𐌴 𐌹𐌽 𐌷𐌹𐌼𐌹𐌽𐌰 𐌾𐌰𐌷 𐌰𐌽𐌰 𐌰𐌹𐍂𐌸𐌰𐌹
-𐌷𐌻𐌰𐌹𐍆 𐌿𐌽𐍃𐌰𐍂𐌰𐌽𐌰 𐌸𐌰𐌽𐌰 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐌰𐌽 𐌲𐌹𐍆
-𐌿𐌽𐍃 𐌷𐌹𐌼𐌼𐌰 𐌳𐌰𐌲𐌰
-
-𐌾𐌰𐌷 𐌰𐍆𐌻𐌴𐍄 𐌿𐌽𐍃 𐌸𐌰𐍄𐌴𐌹 𐍃𐌺𐌿𐌻𐌰𐌽𐍃 𐍃𐌹𐌾𐌰𐌹𐌼𐌰
-𐍃𐍅𐌰𐍃𐍅𐌴 𐌾𐌰𐌷 𐍅𐌴𐌹𐍃 𐌰𐍆𐌻𐌴𐍄𐌰𐌼 𐌸𐌰𐌹𐌼
-𐍃𐌺𐌿𐌻𐌰𐌼 𐌿𐌽𐍃𐌰𐍂𐌰𐌹𐌼
-
-𐌾𐌰𐌷 𐌽𐌹 𐌱𐍂𐌹𐌲𐌲𐌰𐌹𐍃 𐌿𐌽𐍃 𐌹𐌽 𐍆𐍂𐌰𐌹𐍃𐍄𐌿𐌱𐌽𐌾𐌰𐌹
-
-𐌰𐌺 𐌻𐌰𐌿𐍃𐌴𐌹 𐌿𐌽𐍃 𐌰𐍆 𐌸𐌰𐌼𐌼𐌰 𐌿𐌱𐌹𐌻𐌹𐌽
-𐌿𐌽𐍄𐌴 𐌸𐌴𐌹𐌽𐌰 𐌹𐍃𐍄 𐌸𐌹𐌿𐌳𐌰𐌽𐌲𐌰𐍂𐌳𐌹 𐌾𐌰𐌷
-𐌼𐌰𐌷𐍄𐍃
-𐌾𐌰𐌷 𐍅𐌿𐌻𐌸𐌿𐍃 𐌹𐌽 𐌰𐌹𐍅𐌹𐌽𐍃"""),
-        ),
     )
 
     private fun greek() = LanguageDefinition(
@@ -1213,23 +716,6 @@ Als er ein Weilchen fortgegangen war, fand er einen Jagdhund auf dem Weg liegen,
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Γεια σου, Νίκη. Ο Πέτρος είμαι.", sourceUrl = null, text = """Πέτρος: Γεια σου, Νίκη. Ο Πέτρος είμαι.
-Νίκη: Α, γεια σου Πέτρο. Τι κάνεις;
-Πέτρος: Μια χαρά. Σε παίρνω για να πάμε καμιά βόλτα αργότερα. Τι λες;
-Νίκη: Α, ωραία. Κι εγώ θέλω να βγω λίγο. Συνέχεια διαβάζω για τις εξετάσεις… κουράστηκα πια. Πού λες να πάμε;
-Πέτρος: Στη γνωστή καφετέρια στην πλατεία. Θα είναι και άλλα παιδιά από την τάξη μας εκεί.
-Νίκη: Ναι; Ποιοι θα είναι;
-Πέτρος: Ο Γιάννης, ο Αντρέας και η Ελπίδα.
-Νίκη: Ωραία. Θα πάτε και πουθενά αλλού μετά;
-Πέτρος: Ναι, λέμε να πάμε στον κινηματογράφο που είναι κοντά στην καφετέρια. Παίζει μια κωμωδία.
-Νίκη: Α, δεν μπορώ να καθίσω έξω μέχρι τόσο αργά. Πρέπει να γυρίσω σπίτι για να διαβάσω.
-Πέτρος: Έλα τώρα. Διαβάζεις αύριο…
-Νίκη: Όχι, όχι, αδύνατον. Είμαι πολύ πίσω στο διάβασμά μου.
-Πέτρος: Καλά, έλα μόνο στην καφετέρια τότε. Θα περάσω να σε πάρω γύρω στις έξι να πάμε μαζί. Εντάξει;
-Νίκη: Εντάξει. Γεια.
-Πέτρο: Τα λέμε. Γεια."""),
         ),
     )
 
@@ -1264,9 +750,6 @@ Als er ein Weilchen fortgegangen war, fand er einen Jagdhund auf dem Weg liegen,
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "ואלס עם באשיר - Film Description", sourceUrl = null, text = """סרט מסע מצוייר בנבכי התודעה של הבמאי והתסריטאי ארי פולמן, המנסה להתחקות אחר שלושה ימים במלחמת לבנון הראשונה שנמחקו מזיכרונו מבלי להשאיר עקבות. מה שמתחיל ב-26 כלבים משוגעים שרצים בהתקף זעם ברחוב רוטשילד בתל אביב, נמשך במפגשים חטופים עם חבר ילדות בהולנד המושלגת, תופס תפנית פסיכדלית במועדונים של חיפה מתחילת שנות ה-80ʼ, והולך ומתביית בביירות הסוראליסטית של ימי המלחמה. הזיכרון האנושי מתעתע, ורק ציורים חופשיים בשילוב עם אנימציה מופלאה יכולים, אולי, לשים יד מכוונת על אותם ימים חסרים מהעבר הרחוק."""),
-        ),
     )
 
     private fun hindi() = LanguageDefinition(
@@ -1285,9 +768,6 @@ Als er ein Weilchen fortgegangen war, fand er einen Jagdhund auf dem Weg liegen,
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Universal Declaration of Human Rights", sourceUrl = null, text = """अनुच्छेद १(एक): सभी मनुष्य जन्म से स्वतन्त्र तथा मर्यादा और अधिकारों में समान होते हैं। वे तर्क और विवेक से सम्पन्न हैं तथा उन्हें भ्रातृत्व की भावना से परस्पर के प्रति कार्य करना चाहिए।"""),
         ),
     )
 
@@ -1321,9 +801,6 @@ Als er ein Weilchen fortgegangen war, fand er einen Jagdhund auf dem Weg liegen,
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Sátántangó - Film Description", sourceUrl = null, text = """Irimiás és Petrina két szélhámos és munkakerülő, akiknek a rendőrség egy megbízását kell teljesíteniük szabadságuk érdekében. Egy lerobbant alföldi telep elzüllött lakóit veszik célba, hogy átverjék, majd besúgónak szervezzék be őket…"""),
-        ),
     )
 
     private fun icelandic() = LanguageDefinition(
@@ -1349,20 +826,6 @@ Als er ein Weilchen fortgegangen war, fand er einen Jagdhund auf dem Weg liegen,
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Mannréttindayfirlýsing Sameinuðo Þjóðanna", sourceUrl = null, text = """Inngangsorð
-Það ber að viðurkenna, að hver maður sé jafnborinn til virðingar og réttinda, er eigi verði af honum tekin, og er þetta undirstaða frelsis, réttlætis og friðar i heiminum.
-
-Hafi mannréttindi verið fyrir borð borin og lítilsvirt, hefur slíkt haft í för með sér siðlausar athafnir, er ofboðið hafa samvizku mannkynsins, enda hefur því verið yfir lýst, að æðsta markmið almennings um heim allan sé að skapa veröld, þar sem menn fái notið málfrelsis , trúfrelsis og óttaleysis um einkalíf afkomu.
-
-Mannréttindi á að vernda með lögum. Að öðrum kosti hljóta menn að grípa til þess örþrifaráðs að rísa upp gegn kúgun og ofbeldi.
-
-Það er mikilsvert að efla vinsamleg samskipti þjóða í milli.
-
-Í stofnskrá sinni hafa Sameinuðu þjóðdirnar lýst yfir trú sinni á grundvallaratriði mannréttinda, á göfgi og gildi mannsins og jafnrétti karla og kvernna, enda munu þær beita sér fyrir félagslegum framförum og betri lífsafkomu með auknu frelsi manna.
-
-Aðildarríkin hafa bundizt samtökum um að efla almenna virðingu fyrir og gæzlu hinna mikilsverðustu mannréttinda í samráði við Sameinuðu þjóðirnar."""),
-        ),
     )
 
     private fun indonesian() = LanguageDefinition(
@@ -1382,17 +845,6 @@ Aðildarríkin hafa bundizt samtökum um að efla almenna virðingu fyrir og gæ
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "KURA-KURA YANG SOMBONG", sourceUrl = null, text = """Ada seekor kura-kura yang hidup di tepi sebuah rawa, namanya Chale. Chale terkenal sebagai binatang yang sombong dan selalu iri terhadap kelebihan binatang lain.
-
-Suatu siang Chale mendekati Markus dan Wely, sepasang bangau, yang sedang mencari ikan di rawa.
-“Selamat siang, Markus dan Wely,” Chale menyapa ramah.
-“Selamat siang, Chale,” jawab mereka bersama-sama.
-
-“Senang ya kalau aku bisa terbang seperti kalian?”
-“Kupikir menyenangkan juga kalau aku punya pelindung badan yang indah dan kuat sepertimu,” jawab Markus.
-“Tetapi tentu lebih hebat yang bisa terbang sepertimu,” kata Chale."""),
         ),
     )
 
@@ -1435,16 +887,6 @@ Suatu siang Chale mendekati Markus dan Wely, sepasang bangau, yang sedang mencar
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Le avventure di Pinocchio", sourceUrl = null, text = """Il falegname maestro Ciliegia trova un pezzo di legno che piange e ride come un bambino.
-
-Questa è la storia di un pezzo di legno. Non è un pezzo di legno pregiato. È un pezzo di legno comune, come quelli che si mettono nelle stufe e nei caminetti per accendere il fuoco.
-Un giorno, non si sa come, questo pezzo di legno finisce nelle mani di maestro Ciliegia. Maestro Ciliegia è un vecchio falegname. In realtà si chiama mastr'Antonio, ma tutti lo chiamano maestro Ciliegia perché ha la punta del naso rossa come una ciliegia matura.
-
-Quando maestro Ciliegia vede il pezzo di legno è contento e dice: – Questo pezzo di legno va proprio bene per fare una gamba di tavolino.
-
-Quindi prende l'ascia per togliere la corteccia. Mentre sta per dare il primo colpo, rimane con il braccio in aria, perché sente una vocina che dice: – Non mi picchiare tanto forte!"""),
-        ),
     )
 
     private fun japanese() = LanguageDefinition(
@@ -1466,13 +908,6 @@ Quindi prende l'ascia per togliere la corteccia. Mentre sta per dare il primo co
             showRomanization = true,
             parserType = "japanese",
         ),
-        stories = listOf(
-            StoryDefinition(title = "北風と太陽 - きたかぜたいよう", sourceUrl = null, text = """北風と太陽
-
-「おれの方が強い。」「いいや、ぼくの方が強い。」
-北風と太陽の声が聞こえます。二人はどちらの力が強いかでケンカをしているようです。
-「太陽が毎日元気だから、暑くてみんな困っているよ。おれが涼しい風を吹くと、みんな嬉しそうだ。」"""),
-        ),
     )
 
     private fun kazakh() = LanguageDefinition(
@@ -1493,22 +928,6 @@ Quindi prende l'ascia per togliere la corteccia. Mentre sta per dare il primo co
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Menıñ Qazaqstanym", sourceUrl = null, text = """Алтын күн аспаны,
-Алтын дән даласы,
-Ерліктің дастаны –
-Еліме қарашы!
-Ежелден ер деген,
-Даңқымыз шықты ғой,
-Намысын бермеген,
-Қазағым мықты ғой!
-
-Қайырмасы:
-Менің елім, менің елім,
-Гүлің болып егілемін,
-Жырың болып төгілемін, елім!
-Туған жерім менің — Қазақстаным!"""),
-        ),
     )
 
     private fun khmer() = LanguageDefinition(
@@ -1524,9 +943,6 @@ Quindi prende l'ascia per togliere la corteccia. Mentre sta per dare il primo co
             wordCharacters = "ក-៹",
             showRomanization = true,
             parserType = "khmer",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "My Friend", sourceUrl = null, text = """ពួកម៉ាកខ្ញុំឈ្មោះសុខ។ គាត់ជាលេខាធិការនៅកន្លែងធ្វើការខ្ញុំ។ គតចត្ដល្អណាស់។  គាត់ចូលចិត្ជួយអ្នកជិតខាងនិងមិត្ដភក្ដិ។  នៅពេលដែលខ្ញុំមិនយល់ មេរៀនខ្មែរ គាត់ជួយពន្យល់ខ្ញុំ។នៅពេលទំនេរ គាត់តែងតែជួយខ្ញ្ញុំក្នុងការហាតនយាយភសាខ្មែរ។"""),
         ),
     )
 
@@ -1560,9 +976,6 @@ Quindi prende l'ascia per togliere la corteccia. Mentre sta per dare il primo co
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "De re pvblica - Cicero", sourceUrl = null, text = """Nec vero habere virtutem satis est quasi artem aliquam nisi utare; etsi ars quidem cum ea non utare scientia tamen ipsa teneri potest, virtus in usu sui tota posita est; usus autem eius est maximus civitatis gubernatio, et earum ipsarum rerum quas isti in angulis personant, reapse non oratione perfectio. nihil enim dicitur a philosophis, quod quidem recte honesteque dicatur, quod <non> ab iis partum confirmatumque sit, a quibus civitatibus iura discripta sunt."""),
-        ),
     )
 
     private fun latvian() = LanguageDefinition(
@@ -1591,9 +1004,6 @@ Quindi prende l'ascia per togliere la corteccia. Mentre sta per dare il primo co
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Dvēseļu putenis - Film Description", sourceUrl = null, text = """Filma “Dvēseļu putenis” atspoguļo latviešu tautas cīņu par neatkarību un to, ka Latvijas valsts esamība nav pašsaprotama. Mūsu brīvība ir nopelnīta ar pašaizliedzību un visdārgāko ziedojumu - cilvēku dzīvībām. Filma izved cauri vēsturiskajiem notikumiem, padarot tos par personīgo pieredzi. Tā ir stāsts par latviešu saknēm un Latvijas valsts vērtībām. “Dvēseļu putenis” ir mūsu pateicība cilvēkiem, kuru izvēles toreiz ļauj mums dzīvot neatkarīgā valstī šodien.”"""),
         ),
     )
 
@@ -1624,11 +1034,6 @@ Quindi prende l'ascia per togliere la corteccia. Mentre sta per dare il primo co
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Šuolis - Film Description", sourceUrl = null, text = """„Šuolis“ – pasaulį pavergusi istorija apie lietuvio drąsą. 1970-aisiais Simas Kudirka peršoko iš sovietinio laivo į JAV pakrančių apsaugos katerį ir pasiprašė politinio prieglobsčio. Grąžintas atgal ir įkalintas, Simas sulaukė didžiulio tarptautinio palaikymo, dėl jo išlaisvinimo buvo rengiamos tūkstantinės demonstracijos. Lietuvis iš Griškabūdžio tapo tarptautiniu žmogaus laisvių pažeidimo simboliu, o jo likimą sprendė net du JAV prezidentai – Richardas Nixonas ir Geraldas Fordas. Šie įvykiai Šaltojo karo metu sukėlė milžinišką politinį sąmyšį JAV ir Sovietų Sąjungoje.
-
-Po penkiasdešimties metų Simas Kudirka, lydimas žinomos režisierės Giedrės Žickytės, vėl grįžo į amerikiečių laivą „Vigilant“. Šį kartą – dar kartą išgyventi jo likimą pakeitusį šuolį. Taip gimė savo siužetu geriausiems Holivudo trileriams nenusileidžiantis, daugiausia per pastaruosius metus dokumentinio kino laurų pasaulyje surinkęs, lietuvių režisierės Giedrės Žickytės filmas „Šuolis“."""),
-        ),
     )
 
     private fun macedonian() = LanguageDefinition(
@@ -1649,20 +1054,6 @@ Po penkiasdešimties metų Simas Kudirka, lydimas žinomos režisierės Giedrės
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Оче наш", sourceUrl = null, text = """Оче наш, кој си на небесата,
- да се свети името Твое,
- да дојде царството Твое,
- да биде волјата Твоја,
- како на небото, така и на земјата;
- лебот наш насушен дај ни го денес
- и прости ни ги долговите наши
- како и ние што им ги проштеваме на нашите должници;
- и не нѐ воведувај во искушение,
- но избави нѐ од лукавиот
- Зашто Твое е Царството и Силата и Славата, во вечни векови.
- Амин!"""),
-        ),
     )
 
     private fun mandarinChinese() = LanguageDefinition(
@@ -1676,15 +1067,6 @@ Po penkiasdešimties metų Simas Kudirka, lydimas žinomos režisierės Giedrės
             wordCharacters = "一-龥",
             showRomanization = true,
             parserType = "mandarin",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "故乡 - 鲁迅", sourceUrl = null, text = """故乡
-
-我冒了严寒，回到相隔二千馀里，别了二十馀年的故乡去。
-时候既然是深冬；渐近故乡时，天气又阴晦了，冷风吹进船舱中，呜呜的响，从蓬隙向外一望，苍黄的天底下，远近横著几个萧索的荒村，没有一些活气。我的心禁不住悲凉起来了。
-阿！这不是我二十年来时时记得的故乡？
-我所记得的故乡全不如此。我的故乡好得多了。但要我记起他的美丽，说出他的佳处来，却又没有影像，没有言辞了。仿佛也就如此。于是我自己解释说：故乡本也如此，——虽然没有进步，也未必有如我所感的悲凉，这只是我自己心情的改变罢了，因为我这次回乡，本没有什么好心绪。
-我这次是专为了别他而来的。我们多年聚族而居的老屋，已经公同卖给别姓了，交屋的期限，只在本年，所以必须赶在正月初一以前，永别了熟识的老屋，而且远离了熟识的故乡，搬家到我在谋食的异地去。"""),
         ),
     )
 
@@ -1706,14 +1088,6 @@ Po penkiasdešimties metų Simas Kudirka, lydimas žinomos režisierės Giedrės
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "UDHR", sourceUrl = null, text = """Kenke yolki ni tlajtoli
-
-Yolki, pampa ni tlatepanitalotl, ni tlasenkauajkayotl iuan ni kuali nemilistli ipan ni tlalpan, yaya ni moneki moixmatis uan monemilis, ijkinoj nochi kuali tiitstosej ika touampoyouaj.
-Pampa tlaj amo tikixmatij tlatepanitalistli uan tlen kuali nemilistli ipan ni tlalpan, yeka onkatok kualantli, onkatok tlateuilistli, onkatok majmajtli uan sekinok tlamantli teixpanolistli; yeka moneki ma kuali timouikakaj ika nochi touampoyouaj, ma amo onkaj majmajyotl uan teixpanolistli; moneki ma onkaj yejyektlalistli, ma titlajtlajtokaj uan ma tijneltokakaj tlen tojuantij tijnekij tijneltokasej uan amo tlen ma topanti, kenke, pampa tijnekij ma onkaj tlatepanitalistli.
-
-Pampa ni tlatepanitalotl moneki ma tiyejyekokaj, ma tijchiuakaj uan ma tijmanauikaj; ma nojkia kiixmatikaj tekiuajtinij, uejueyij tekiuajtinij, ijkinoj amo onkas nopeka se akajya touampoj san tlen ueli kinekis techchiuilis, technauatis, kinekis technauatis ma tijchiuakaj se tlamantli tlen amo kuali; yeka ni tlatepanitalotl tlauel moneki ipan tonemilis ni tlalpan."""),
-        ),
     )
 
     private fun navajo() = LanguageDefinition(
@@ -1732,9 +1106,6 @@ Pampa ni tlatepanitalotl moneki ma tiyejyekokaj, ma tijchiuakaj uan ma tijmanaui
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Story (Navajo)", sourceUrl = null, text = """Ashiiké tʼóó diigis léiʼ tółikaní łaʼ ádiilnííł dóó nihaa nahidoonih níigo yee hodeezʼą́ jiní. Áko tʼáá ałʼąą chʼil naʼatłʼoʼii kʼiidiilá dóó hááhgóóshį́į́ yinaalnishgo tʼáá áłah chʼil naʼatłʼoʼii néineestʼą́ jiní. Áádóó tółikaní áyiilaago tʼáá bíhígíí tʼáá ałʼąą tłʼízíkágí yiiʼ haidééłbįįd jiní. "Háadida díí tółikaní yígíí doo łaʼ ahaʼdiidził da," níigo ahaʼdeetʼą́ jiníʼ. Áádóó baa nahidoonih biniiyé kintahgóó dah yidiiłjid jiníʼ (…)"""),
         ),
     )
 
@@ -1756,11 +1127,6 @@ Pampa ni tlatepanitalotl moneki ma tiyejyekokaj, ma tijchiuakaj uan ma tijmanaui
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "VILDANDEN", sourceUrl = null, text = """(I grosserer Werles Hus. Kostbart og bekvemt indrettet arbejdsværelse; bogskabe og stoppede møbler; skrivebord med papirer og protokoller midt på gulvet; tændte lamper med grønne skærme, således at værelset er dæmpet belyst. Åben fløjdør med fratrukne forhæng på bagvæggen. Indenfor ses en stor elegant stue, stærkt oplyst af lamper og armstager. Foran til højre i arbejdsværelset fører en liden tapetdør ind til kontorerne. Foran til venstre en kamin med glødende kul i, og længere tilbage en dobbeltdør til spisesalen.)
-
-(Grossererens tjener, Pettersen, i livré, og lejetjener Jensen, i sort, sætter tilrette i arbejdsværelset. I den større stue går to—tre andre lejetjenere omkring, ordner og tænder flere lys. Inde fra spisesalen høres summende samtale og latter af mange stemmer; der bankes med kniven på et glas; stilhed indtræder; en skåltale boldes; bravoråb og så atter summende samtale.)"""),
-        ),
     )
 
     private fun okinawan() = LanguageDefinition(
@@ -1780,11 +1146,6 @@ Pampa ni tlatepanitalotl moneki ma tiyejyekokaj, ma tijchiuakaj uan ma tijmanaui
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "UDHR", sourceUrl = null, text = """人間ー誰ん生まりやぎーなー自由やい、また、胴大切に思ゆる肝とぅ胴守らんでぃる肝ー、誰やてぃんゆぬ如授かとーるむんやん。人間ー元からいー矩ぬ備わとーくとぅ、互ーに兄弟やんでぃる考ーさーに事に当たらんだれーならん。
-
-Ninjinō tā n 'nmariyagīnā jiyu yai, mata, dū tēshichi ni umuyuru chimu tu dū mamurandiru chimō, tā yatin yunugutu sajakatōru mun yan."""),
         ),
     )
 
@@ -1823,13 +1184,6 @@ Ninjinō tā n 'nmariyagīnā jiyu yai, mata, dū tēshichi ni umuyuru chimu tu 
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Adam i Smoczy Skarb", sourceUrl = null, text = """Adam mieszkał w małej wiosce na południu Polski, w pobliżu dużego miasta Kraków. Dla Adama ulubioną porą dnia był czas kolacji. Nie dlatego, że jego mama przygotowywała najlepsze jedzenie na świecie, ale dlatego, że w czasie kolacji cała rodzina zasiadała przed telewizorem i oglądała wiadomości. Żadnej lekcji w szkole nie dało się porównać z historiami, o których Adam dowiadywał się z wiadomości: o ludziach o egzotycznym wyglądzie, żyjących w innych kulturach, o klęskach żywiołowych w krajach, których nigdy nie odwiedził, o najfajniejszych znanych osobach i ich niezwykłym życiu. Jedna z takich historii zmieniła życie Adama na zawsze…
-
-Pewnego wieczoru, tuż przed żniwami, rodzina zasiadła przy parujących talerzach rosołu z domowym makaronem, gdy rozpoczęło się nadawanie wiadomości. Najważniejszą informacją była tajemnicza kradzież z Zamku na Wawelu w pobliskim Krakowie. W nocy złodzieje wdarli się do jamy smoka wawelskiego i ukradli skarb!
-
-Read the full story at: https://worldstories.org.uk/reader/adam-and-the-dragons-treasure/polish/233"""),
         ),
     )
 
@@ -1875,15 +1229,6 @@ Read the full story at: https://worldstories.org.uk/reader/adam-and-the-dragons-
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "A Maldição", sourceUrl = null, text = """Dizem no meu país que existe uma maldição que recai sobre o sétimo filho nascido em qualquer família. A maldição não recairá sobre as filhas, mas se a mãe der à luz sete filhos então o último será com toda a certeza um Lobisomem – uma criatura que é metade homem, metade lobo. Dizem que tais criaturas atacam os humanos; dizem que são ferozes e cruéis. Mas este não era o caso de Filipe.
-
-Há muito, muito tempo, havia uma pequena aldeia à beira da floresta. Na maior das vezes, era uma aldeia pacata, mas os aldeões viviam cheios de medo do Lobisomem que diziam morar nas profundezas da floresta. Os Lobisomens eram criaturas escuras, metade homen metade lobo e dizia‐se que quando era noite de lua cheia estas criaturas rastejavam para fora da floresta em busca de carne humana.
-
-Mas como é que uma criatura destas é criada? É simples: a maldição que recai sobre o sétimo filho nascido em qualquer família
-
-Read the full story at: https://worldstories.org.uk/reader/the-curse/portuguese/366"""),
-        ),
     )
 
     private fun punjabi() = LanguageDefinition(
@@ -1904,16 +1249,6 @@ Read the full story at: https://worldstories.org.uk/reader/the-curse/portuguese/
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "ਜਂਗਲੀ ਦੋਸ੍ਤ", sourceUrl = null, text = """ਤਰਜ਼ਚਾਹੁੰਦਾ ਸੀ ਕਿ ਉਹ ਕਿਸੇ ਜੰਗਲ ਵਿਚ ਜਾ ਸਕੇ। ਉਸ ਦਾ ਅਧਿਆਪਕ ਕਲਾਸਰੂਮ ਵਿਚ ਟਾਈਗਰਾਂ ਬਾਰੇ ਕਹਾਣੀਆਂ ਪੜ੍ਹਦਾ ਹੈ. ਉਹ ਜੰਗਲ ਅਤੇ ਜਾਨਵਰਾਂ ਬਾਰੇ ਸੁਣਨਾ ਪਸੰਦ ਕਰਦਾ ਹੈ
-
-ਇੱਕ ਦਿਨ, ਉਸਦੀ ਇੱਛਾ ਪੂਰੀ ਹੋ ਗਈ!
-ਉਸ ਦਾ ਚਾਚਾ ਉਨ੍ਹਾਂ ਦੇ ਘਰ ਆਇਆ ਅਤੇ ਉਸ ਨੂੰ ਦੱਸਿਆ ਕਿ ਉਹ ਉਸ ਨੂੰਅਤੇ ਉਸਦੇ ਦੋਸਤਾਂਨੂੰ ਜੰਗਲ ਦੀ ਸੈਰ ਲਈ ਲੈ ਜਾ ਸਕਦਾ ਹੈ
-ਤਰਜ਼ ਬਹੁਤ ਖੁਸ਼ ਸੀ
-ਉਹਅਤੇ ਉਸਦੇ ਦੋਸਤ ਦਿਨ ਰਾਤ ਜੰਗਲ ਵਿੱਚ ਘੁੰਮਣਗੇ!
-
-ਘਰ ਤੋਂ ਜੰਗਲ ਲਈ ਬੱਸ ਦੁਆਰਾ ਚਾਰ ਘੰਟੇ ਲੱਗਦੇ ਹਨ. ਜਿਵੇਂ ਹੀ ਤਰ੍ਜ ਬੱਸ ਤੋਂ ਉਤਰਦਾ ਰਹੀ ਹੈ, ਇੱਕ ਮਜ਼ਬੂਤ ਹੱਥ ਉਸਦਾ ਹੱਥ ਹਿਲਾਉਂਦਾ ਹੈ ਅਤੇ ਫਿਰ ਉਸਦੇ ਵਾਲਾਂ ਨੂੰ ਮਲਦਾ ਹੈ. "ਜੰਗਲ ਵਿਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ!" ਉਹ ਚਾਚਾ ਜੀ ਸਨ"""),
         ),
     )
 
@@ -1953,13 +1288,6 @@ Read the full story at: https://worldstories.org.uk/reader/the-curse/portuguese/
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Țestoasa și iepurele", sourceUrl = null, text = """Au fost odată ca niciodată, pe un câmp nu prea departe de tine, un iepure vioi și vesel și o broască țestoasă somnoroasă.
-
-Iepurele vesel se numea Noel, iar țestoasa somnoroasă se numea Archibald. Țestoasei Archibald îi plăcea să stea și să își ronțăie cina încet, în timp ce iepurele Noel își înfuleca în grabă mâncarea și se învârtea în jurul lui Archibald până amețea.
-
-Într-o bună zi, s-au certat."""),
-        ),
     )
 
     private fun russian() = LanguageDefinition(
@@ -1980,9 +1308,6 @@ Iepurele vesel se numea Noel, iar țestoasa somnoroasă se numea Archibald. Țes
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "медведь", sourceUrl = null, text = """Встреча с медведем может быть очень опасна. Русские люди любят ходить в лес и собирать грибы и ягоды. Они делают это с осторожностью, так как медведи тоже очень любят ягоды и могут напасть на человека. Медведь ест все: ягоды, рыбу, мясо и даже насекомых. Особенно он любит мед."""),
-        ),
     )
 
     private fun sanskrit() = LanguageDefinition(
@@ -2001,56 +1326,6 @@ Iepurele vesel se numea Noel, iar țestoasa somnoroasă se numea Archibald. Țes
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "बुद्धिमान् शिष्यः", sourceUrl = null, text = """काशीनगरे एकः पण्डितः अस्ति । पण्डितसमीपम् एकः शिष्यः आगच्छति । शिष्यः वदति - "आचार्य!
-विद्याभ्यासार्थम् आगतः ।" पण्डितः शिष्यबुद्धिपरीक्षार्थं पृच्छति - "वत्स, देवः कुत्र अस्ति?" शिष्यः वदति -
-'गुरो! देवः कुत्र नास्ति? कृपया भवान् एव समाधानं वदतु ।" सन्तुष्टः गुरुः वदति - "दैवः सर्वत्र अस्ति । देवः
-सर्वव्यापी । त्वं बुद्धिमान ।अतः विद्याभ्यासार्थम् अत्रैव वस।""""),
-            StoryDefinition(title = "Bhagavad Ghita (Devanagari)", sourceUrl = null, text = """धृतराष्ट्रो राजा।
-किं धृतराष्ट्रो मन्त्री?
-धृतराष्ट्रो न मन्त्री।
-धृतराष्ट्रो राजा।
-
-संजयः कः?
-किं संजयो राजा?
-संजयो न राजा।
-संजयो मन्त्री।
-संजयो धृतराष्ट्रस्य मन्त्री।
-
-संजयो धृतराष्ट्रं गच्छति।
-संजयो राजानं धृतराष्ट्रं गच्छति।
-धृतराष्ट्रः —
- संजय !
- दुर्योधनः किं करोति?
-
-दुर्योधनः कः?
-किं दुर्योधनो मन्त्री?
-दुर्योधनो न मन्त्री।
-दुर्योधनो धृतराष्ट्रस्य पुत्रः।
-दुर्योधनो राज­पुत्रः।"""),
-            StoryDefinition(title = "Bhagavad Ghita (Latin)", sourceUrl = null, text = """dhṛtarāṣṭro rājā.
-kiṃ dhṛtarāṣṭro mantrī?
-dhṛtarāṣṭro na mantrī.
-dhṛtarāṣṭro rājā.
-
-saṃjayaḥ kaḥ?
-kiṃ saṃjayo rājā?
-saṃjayo na rājā.
-saṃjayo mantrī.
-saṃjayo dhṛtarāṣṭrasya mantrī.
-
-saṃjayo dhṛtarāṣṭraṃ gacchati.
-saṃjayo rājānaṃ dhṛtarāṣṭraṃ gacchati.
-dhṛtarāṣṭraḥ:
- saṃjaya!
- duryodhanaḥ kiṃ karoti?
-
-duryodhanaḥ kaḥ?
-kiṃ duryodhano mantrī?
-duryodhano na mantrī.
-duryodhano dhṛtarāṣṭrasya putraḥ.
-duryodhano rāja­putraḥ."""),
         ),
     )
 
@@ -2072,21 +1347,6 @@ duryodhano rāja­putraḥ."""),
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Млади пас иде у лов", sourceUrl = null, text = """Једног дана, млади пас је кренуо у лов да ухвати нешто за јело.
-
-Покушао је да улови птицу, али она је одлетела.
-
-Покушао је да ухвати жабу, али она је скочила у воду.
-
-Покушао је да ухвати гуштера, али он се завукао под камен.
-
-Покушао је да ухвати пацова, али он је побегао у рупу.
-
-Покушао је да ухвати опосума, али он се попео на дрво.
-
-Пробао је да ухвати змију, али је змија ухватила њега!"""),
         ),
     )
 
@@ -2118,9 +1378,6 @@ duryodhano rāja­putraḥ."""),
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Obchod na korze - Film Description", sourceUrl = null, text = """Dej sa odohráva počas druhej svetovej vojny v malom meste Slovenského štátu. Stolár Tóno Brtko, poctivý a slušný človek prijme pod nátlakom svojej ženy a vysoko postaveného švagra arizačný dekrét na obchod staručkej pani Lautmannovej. Aj keď je obchod nevýnosný, Brtko v ňom zotrváva a predstiera, že arizuje. Stará pani sa o Tóna stará ako o syna a on jej pomáha ako môže. Príde však deň, keď všetci Židia z mestečka obdržia predvolanie k transportu. Všetci okrem pani Lautmannovej. Tóno sa ju spočiatku snaží ukryť, no neskôr ju prehovára, aby sa sama prihlásila. Tlak udalostí dovedie Tóna Brtka k hraničnej životnej situácii…"""),
-        ),
     )
 
     private fun slovene() = LanguageDefinition(
@@ -2148,9 +1405,6 @@ duryodhano rāja­putraḥ."""),
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Kekčeve ukane - Film Description", sourceUrl = null, text = """V tretjem in zadnjem trilogije Kekec se spet pojavi zloben in divji lovec Bedanec. Na Kekcu in njegovih prijateljih je da ga zopet naženejo v "Kozji Rog". Bedanec ujame Brinclja in Rožleta, pogumni Kekec pa ju s svojo domiselnostjo reši in ukane lakomnega Bedanca, ki se ujame v lastno past. Kekec ga na njegove prošnje sicet reši iz pasti, a Bedanca to ne izuči. Bo mir v te kraje lahko prinesel modrijan Vitranc."""),
-        ),
     )
 
     private fun spanish() = LanguageDefinition(
@@ -2171,11 +1425,6 @@ duryodhano rāja­putraḥ."""),
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Aladino y la lámpara maravillosa", sourceUrl = null, text = """Érase una vez un muchacho llamado Aladino que vivía en el lejano Oriente con su madre, en una casa sencilla y humilde. Tenían lo justo para vivir, así que cada día, Aladino recorría el centro de la ciudad en busca de algún alimento que llevarse a la boca.
-
-En una ocasión paseaba entre los puestos de fruta del mercado, cuando se cruzó con un hombre muy extraño con pinta de extranjero. Aladino se quedó sorprendido al escuchar que le llamaba por su nombre."""),
         ),
     )
 
@@ -2201,16 +1450,6 @@ En una ocasión paseaba entre los puestos de fruta del mercado, cuando se cruzó
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Umoja Wa Mataifa Ofisi Ya Idara Ya Habari Taarifa Ya Ulimwengu Juu Ya Haki Za Binadamu", sourceUrl = null, text = """UTANGULIZI
-Kwa kuwa kukiri heshima ya asili na haki sawa kwa binadamu wote ndio msingi wa uhuru, haki na amani duniani,
-
-Kwa kuwa kutojali na kudharau haki za binadamu kumeletea vitendo vya kishenzi ambavyo vimeharibu dhamiri ya binadamu na kwa sababu taarifa ya ulimwengu ambayo itawafanya binadamu wafurahie uhuru wao wa kusema, kusadiki na wa kutoogopa cho chote imekwisha kutangazwa kwamba ndio hamu kuu ya watu wote,
-
-Kwa kuwa ni lazima, ili mtu asishurutizwe kuomba msaada kutokana na maasi ya kupinga dhuluma na uonevu, kwamba haki za binadamu ziwe chini ya ulinzi wa sheria,
-
-Kwa kuwa ni lazima kabisa kuendeleza uhusiano wa kirafiki kati ya mataifa,"""),
         ),
     )
 
@@ -2247,15 +1486,6 @@ Kwa kuwa ni lazima kabisa kuendeleza uhusiano wa kirafiki kati ya mataifa,"""),
             showRomanization = false,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "De tre bockarna Bruse", sourceUrl = null, text = """Det var en gång tre bockar, som alla hette Bruse: lilla bocken Bruse, mellersta bocken Bruse och stora bocken Bruse. De bodde på en äng som låg i en grönskande dal.
-
-Bockarna Bruse älskade att äta färskt gräs, men sorgligt nog hade deras äng blivit brun och kal eftersom de var glupska getter och hade ätit upp vartenda grässtrå.
-
-Men de var fortfarande hungriga.
-
-I fjärran kunde de se en äng som var full av frodigt grönt och gott gräs, men tyvärr fanns det bara ett sätt att komma dit – över en skranglig bro."""),
-        ),
     )
 
     private fun thai() = LanguageDefinition(
@@ -2271,9 +1501,6 @@ I fjärran kunde de se en äng som var full av frodigt grönt och gott gräs, me
             wordCharacters = "ก-๛",
             showRomanization = true,
             parserType = "thai",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Ravens", sourceUrl = null, text = """กาเป็นนกชนิดหนึ่ง เราคนไทยเรียกมันว่ากา เพราะว่ามันร้อง "กา กา" กามีสีดำ ตาและปากของมันก็ดำด้วย ตัวของมันไม่โตนัก  แต่โตกว่านกพิราบนิดหน่อย มันชอบตื่นขึ้นในเวลาเช้า เมื่อมันจะไปหาอาหาร มันเรียกเพื่อนๆ ของมันไปด้วย และเมื่อมันพบอาหารมันก็เรียกเพื่อนของมันให้มากิน มันชอบกินข้าวสุกและหนอนที่อยู่ตามต้นไม้ ในเมืองไทยมีกามาก เราจะเห็นมันทำรังอยู่บนยอดไม้ คนไม่เลี้ยงกาไว้ตามบ้าน เพราะว่ามันเป็นนกที่เลี้ยงไม่เชื่อง"""),
         ),
     )
 
@@ -2295,22 +1522,6 @@ I fjärran kunde de se en äng som var full av frodigt grönt och gott gräs, me
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "༄༅། །ཕར་ཕྱིར་བཅུ་གཅིག་གི་སྨོན་ལམ།", sourceUrl = null, text = """ཐུགས་རྗེ་ཆེན་པོ་རྐང་གཉིས་མཆོག་གྱུར་པ། །
-སྦྱིན་པའི་ཕ་རོལ་ཕྱིན་པ་ཕུན་སུམ་ཚོགས། །
-ཇི་ལྟར་བཅོམ་ལྡན་སྦྱིན་པའི་ཕ་རོལ་ཕྱིན། །
-བདག་གཞན་རིང་པོར་མི་ཐོགས་དེ་འདྲར་ཤོག །
-
-ཐུགས་རྗེ་ཆེན་པོ་རྐང་གཉིས་མཆོག་གྱུར་པ། །
-ཚུལ་ཁྲིམས་ཕ་རོལ་ཕྱིན་པ་ཕུན་སུམ་ཚོགས། །
-ཇི་ལྟར་བཅོམ་ལྡན་ཚུལ་ཁྲིམས་ཕ་རོལ་ཕྱིན།
-བདག་གཞན་རིང་པོར་མི་ཐོགས་དེ་འདྲར་ཤོག །
-
-ཐུགས་རྗེ་ཆེན་པོ་རྐང་གཉིས་མཆོག་གྱུར་པ། །
-བཟོད་པའི་ཕ་རོལ་ཕྱིན་པ་ཕུན་སུམ་ཚོགས། །
-ཇི་ལྟར་བཅོམ་ལྡན་བཟོད་པའི་ཕ་རོལ་ཕྱིན། །
-བདག་གཞན་རིང་པོར་མི་ཐོགས་དེ་འདྲར་ཤོག །"""),
-        ),
     )
 
     private fun tokiPona() = LanguageDefinition(
@@ -2328,17 +1539,6 @@ I fjärran kunde de se en äng som var full av frodigt grönt och gott gräs, me
             rightToLeft = false,
             showRomanization = false,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "toki en sona", sourceUrl = null, text = """jan sona li toki e ni tawa jan lili mute:
-
-jan li sona la jan li toki ala. jan li toki la jan li sona ala.
-
-jan lili li toki e ni: "mi sona ala e toki sina".
-jan sona li toki e ni: "sina sona ala sona e kon pi kasi loje?"
-jan ale li sona.
-jan sona li toki e ni: "ona li seme? o toki."
-jan ala li toki."""),
         ),
     )
 
@@ -2360,13 +1560,6 @@ jan ala li toki."""),
             rightToLeft = false,
             showRomanization = true,
             parserType = "turkish",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "Büyük ağaç", sourceUrl = null, text = """Büyük ağaç eskiden aşılanmış ve her yıl güzel, iri, pembe şeftaliler verirmiş, insanın eline sığmazmış bu şeftaliler. Öyle güzelmişler ki insan yemeye kıyamazmış onları. Bahçıvan, bu büyük ağacı yabancı bir uzmanın kendi ülkesinden getirdiği bir tohumla aşıladığını söylermiş. Belli ki böyle masraf edilen bir ağaçta yetişen şeftaliler oldukça değerliymiş.
-
-İki ağacın da gövdelerine nazar değmesin diye birer nazarlık asılıymış.
-
-Ağaçlardan küçük olanında her yıl bin tane çiçek açarmış ama bir tek şeftali bile yetişmezmiş üzerinde. Ya çiçekleri dökülürmüş, ya da ham şeftaliler kuruyup dallardan düşermiş. Bahçıvan küçük ağaç için elinden geleni yapmış ama değişen bir şey olmamış. Yıllar geçtikçe dalları ve yaprakları çoğalmış ama bir tek şeftali bile görünmemiş üzerinde."""),
         ),
     )
 
@@ -2400,11 +1593,6 @@ Ağaçlardan küçük olanında her yıl bin tane çiçek açarmış ama bir tek
             showRomanization = true,
             parserType = "spacedel",
         ),
-        stories = listOf(
-            StoryDefinition(title = "Скринька Пандори", sourceUrl = null, text = """Давним-давно, у далекій землі, поміж хмар, на високій горі Олімп панували боги, насолоджуючись життям, сповненим веселощів і чвар. Щоразу, коли їм набридало сваритися між собою, вони починали гратися людьми так, як ви можете гратися своїми іграшками.
-
-Одного разу боги створили красуню, яку назвали Пандора, і відправили її до Прометея. Прометей знав, що боги гнівалися на нього через те, що він викрав у них вогонь і віддав його людям. Він підозрював, що боги намагаються його обманути, щоб повернути вогонь, і вирішив не звертати на Пандору уваги."""),
-        ),
     )
 
     private fun vietnamese() = LanguageDefinition(
@@ -2424,15 +1612,6 @@ Ağaçlardan küçük olanında her yıl bin tane çiçek açarmış ama bir tek
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",
-        ),
-        stories = listOf(
-            StoryDefinition(title = "LẶN BIỂN!", sourceUrl = null, text = """Trời xanh và biển lặng - một ngày thật hoàn hảo để đi lặn! Chúng tôi khởi hành trên một chiếc thuyền nhỏ, háo hức mong đợi một cuộc thám hiểm RA TRÒ.
-
-Tới địa điểm lặn, chúng tôi cẩn thận kiểm tra tất cả các thiết bị rồi đeo chân vịt và mặt nạ dưỡng khí.
-
-Vừa lặn xuống dưới nước, chúng tôi được một đàn cá miền lưng vàng chào đón.
-
-Có rất nhiều sinh vật khác nhau quanh rạn san hô này: cá hè phương đông, cá vẹt, cá dơi, và cả một con sên biển có họa tiết rất đẹp nữa."""),
         ),
     )
 

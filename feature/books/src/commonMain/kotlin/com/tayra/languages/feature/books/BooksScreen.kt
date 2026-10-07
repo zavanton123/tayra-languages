@@ -825,7 +825,7 @@ private fun EmptyState(archived: Boolean, onNewBook: () -> Unit) {
 private fun DemoNotice(tutorialBookId: Long?, callbacks: BooksCallbacks) {
     Card(Modifier.fillMaxWidth().padding(bottom = 20.dp)) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text(tr("The database has been loaded with a brief tutorial and some languages and short texts for you to try out."))
+            Text(tr("Every language comes with a tutorial book on learning it with Tayra Languages, written in that language. Start with the one for the language you are learning."))
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 if (tutorialBookId != null) Button(onClick = { callbacks.onOpenTutorial(tutorialBookId) }) { Text(tr("Open the tutorial")) }
                 TextButton(onClick = callbacks.onWipe) { Text(tr("Clear database")) }

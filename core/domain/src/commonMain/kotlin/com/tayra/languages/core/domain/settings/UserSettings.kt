@@ -37,6 +37,8 @@ data class UserSettings(
     /** Playback speed for the local engines, 1 being normal. */
     val speechSpeed: Float = 1f,
     val demoDataLoaded: Boolean = false,
+    /** Whether the languages got their tutorial book, which replaced the sample books of earlier versions. */
+    val tutorialBooksAdded: Boolean = false,
     /** ISO 639-1 code of the user's native language; translations and example sentences are shown in it. */
     val nativeLanguage: String = "en",
     /** ISO 639-1 code of the language the interface is shown in; so far the interface exists only in English. */

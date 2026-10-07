@@ -86,12 +86,12 @@ German, Portuguese, Russian or Spanish, and are managed on the Dictionaries scre
 
 ## Languages
 
-Read in Belarusian, Bosnian, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, English,
-Estonian, Finnish, French, Galician, German, Greek, Hungarian, Icelandic, Irish, Italian,
-Latin, Latvian, Lithuanian, Macedonian, Norwegian, Polish, Portuguese, Romanian, Russian,
-Serbian, Slovak, Slovene, Spanish, Swedish, Turkish, Ukrainian or Welsh, with meanings shown
-in English, French, German, Portuguese, Russian or Spanish. Each language comes with sample
-texts and a short tutorial. The Languages page sets the language being learned, the native
+Read in Belarusian, Bulgarian, Catalan, Croatian, Czech, Danish, Dutch, English, Estonian,
+Finnish, French, Galician, German, Greek, Hungarian, Icelandic, Italian, Latin, Latvian,
+Lithuanian, Macedonian, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak,
+Slovene, Spanish, Swedish, Turkish or Ukrainian, with meanings shown in English, French, German,
+Portuguese, Russian or Spanish. Each language comes with a tutorial book on learning it with the
+app, written in that language. The Languages page sets the language being learned, the native
 language meanings are shown in, and the language of the interface (English or Russian).
 
 ## Books

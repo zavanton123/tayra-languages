@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.frequency.FrequencyList
 import com.tayra.languages.core.domain.frequency.VocabularyLevelService
-import com.tayra.languages.core.domain.language.PredefinedLanguages
+import com.tayra.languages.core.domain.language.Tutorials
 import com.tayra.languages.core.domain.parse.lowercase
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -101,10 +101,9 @@ class VocabularySettingsViewModel(
         }
     }
 
-    /** The start of the language's first sample story, split into words with their ranks. */
+    /** The start of the language's tutorial, split into words with their ranks. */
     private fun example(language: com.tayra.languages.core.domain.model.Language, list: FrequencyList): List<ExampleToken> {
-        val story = PredefinedLanguages.all.firstOrNull { it.name.equals(language.name, ignoreCase = true) }?.stories?.firstOrNull()?.text
-            ?: return emptyList()
+        val story = Tutorials.forLanguage(language.name)?.text ?: return emptyList()
         val ranks = HashMap<String, Int>()
         for (word in list.words) {
             ranks.getOrPut(word.key) { word.rank }
