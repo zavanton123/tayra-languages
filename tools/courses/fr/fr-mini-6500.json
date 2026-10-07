@@ -1,0 +1,233 @@
+{
+  "id": "fr-mini-6500",
+  "rankUpTo": 6500,
+  "level": "C1",
+  "title": "L'art de l'ingénieur",
+  "description": "Ten short texts about engineers at work, from a Swiss glacier and a Tours tramway site to a solar vaccine fridge in Senegal and a pilgrims' museum in the Cévennes.",
+  "topic": "Engineering",
+  "names": [
+    "Valais",
+    "Suisse",
+    "Mathilde",
+    "Favre",
+    "Yannick",
+    "Tours",
+    "Loire",
+    "Hélène",
+    "Garnier",
+    "Julie",
+    "Tremblay",
+    "Montréal",
+    "Andrés",
+    "Restrepo",
+    "Medellín",
+    "Canada",
+    "Colombie",
+    "Alger",
+    "Casbah",
+    "Samir",
+    "Hadj",
+    "Rachid",
+    "Blida",
+    "Neydens",
+    "Savoie",
+    "Genève",
+    "Odile",
+    "Perrin",
+    "Laurent",
+    "Mercier",
+    "Bandol",
+    "Castel",
+    "Marius",
+    "Bastien",
+    "Lambert",
+    "Bruxelles",
+    "Nathalie",
+    "Devos",
+    "Awa",
+    "Diop",
+    "Dakar",
+    "Sénégal",
+    "Mariama",
+    "Tambacounda",
+    "Thomas",
+    "Girard",
+    "Lyon",
+    "Robert",
+    "Jürgen",
+    "Stuttgart",
+    "Élodie",
+    "Roux",
+    "Villeneuve",
+    "Avignon",
+    "Rhône",
+    "Cévennes",
+    "Soubeyran",
+    "France",
+    "Allemagne",
+    "Daniel",
+    "Arnaud"
+  ],
+  "lessons": [
+    {
+      "title": "Le glacier sous surveillance",
+      "summary": "In the Swiss Valais, an engineer uses a computer model and monthly visits to the glacier to guide a summer flood safely into the dam's lake.",
+      "newWords": [
+        "glacier",
+        "torrent",
+        "prédire",
+        "défavorable",
+        "simuler",
+        "périodique",
+        "perpétuel",
+        "minier",
+        "équivaloir"
+      ],
+      "text": "Dans le Valais, en Suisse, Mathilde Favre travaille pour la société qui exploite un barrage au pied d'un grand glacier. Elle est ingénieur, et son métier tient en une phrase : prédire ce que fera l'eau. C'est en effet le glacier qui nourrit le lac du barrage. Chaque été, la glace fond, et l'eau descend vers la vallée sous la forme d'un torrent.\n\nPendant des siècles, on a cru que la glace des montagnes était perpétuelle, comme ces neiges qu'on appelait « éternelles ». Mathilde sait que ce n'est plus vrai. Depuis trente ans, le glacier recule de plusieurs mètres par an, et rien n'est moins perpétuel que ce géant blanc. Pour le barrage, c'est une question de sécurité : trop d'eau d'un coup, et le torrent peut sortir de son lit.\n\nPour prédire le comportement du torrent, Mathilde ne se contente pas d'observer. Elle utilise un logiciel qui permet de simuler la fonte de la glace. Le programme simule alors un été entier, jour après jour, en quelques minutes. « Simuler, ce n'est pas deviner, répète-t-elle aux stagiaires. C'est vivre cent étés sur l'écran pour être prêt le jour où le vrai arrive. »\n\nLes mesures, elles, se font sur le terrain. Une fois par mois, Mathilde monte sur le glacier avec son collègue Yannick. Ces visites périodiques leur permettent de vérifier les instruments et de comparer la réalité avec le modèle.\n\nCet été-là, les prévisions étaient défavorables. L'hiver avait été pauvre en neige, puis une vague de chaleur était annoncée pour juillet. Dans des conditions aussi défavorables, la glace allait fondre très vite. Selon le modèle, l'eau qui descendrait en une semaine équivaudrait à celle d'un mois normal. Mathilde a refait le calcul trois fois : cette quantité d'eau équivalait bien à quatre fois la moyenne.\n\nAu-dessus du barrage, la montagne est traversée par un ancien tunnel minier, creusé au 19e siècle par des hommes qui cherchaient du plomb. Ce passage minier, renforcé quelques années plus tôt, pouvait servir. Mathilde a proposé de l'utiliser pour conduire une partie du torrent directement vers le lac, loin du village.\n\nEn juillet, la chaleur est arrivée, exactement comme prévu. Le torrent a grossi d'heure en heure. Mais l'eau a pris le tunnel, le lac s'est rempli et le village n'a vu qu'un spectacle impressionnant. Le soir, Yannick a dit à Mathilde : « Ton logiciel a vu juste. » Elle a souri : « Il a vu juste parce que nous sommes montés là-haut tous les mois. »\n\nQuestions :\nQuel est le métier de Mathilde ?\nElle est ingénieur dans le Valais : son métier consiste à prédire ce que fera l'eau du glacier.\nPourquoi la glace des montagnes n'est-elle pas perpétuelle ?\nParce que le glacier recule de plusieurs mètres par an depuis trente ans.\nÀ quoi sert le logiciel de Mathilde ?\nIl sert à simuler la fonte de la glace, jour après jour, pendant un été entier.\nPourquoi Mathilde et Yannick font-ils des visites périodiques sur le glacier ?\nIls y montent une fois par mois pour vérifier les instruments et comparer la réalité avec le modèle.\nPourquoi les prévisions de cet été-là étaient-elles défavorables ?\nL'hiver avait été pauvre en neige et une vague de chaleur était annoncée pour juillet.\nComment l'eau du torrent a-t-elle rejoint le lac sans danger ?\nElle a pris un ancien tunnel minier, creusé au 19e siècle."
+    },
+    {
+      "title": "Un chanoine sous les rails",
+      "summary": "In the Tours town bulletin, the deputy mayor in charge of the tramway works explains why the building site stopped when a medieval coffin was found.",
+      "newWords": [
+        "chanoine",
+        "cercueil",
+        "annales",
+        "avancement",
+        "méconnu",
+        "intégralement",
+        "concitoyen",
+        "sensibilisation",
+        "explicitement"
+      ],
+      "text": "La lettre du chantier\n\nChers concitoyens,\n\nComme chaque mois, je fais le point sur l'avancement du chantier du tramway dans le centre de Tours. Je suis adjointe au maire chargée des travaux, et ingénieur de formation. Je sais que ce chantier pèse sur votre quotidien : le bruit, la poussière, les rues fermées. Je vous dois donc des explications claires.\n\nVous l'avez peut-être lu dans la presse : en mars, près de la cathédrale, nos équipes ont dû s'arrêter. En creusant pour poser les rails, une machine a touché un objet en métal. Il s'agissait d'un cercueil en plomb, très ancien, enterré à deux mètres sous la rue. La loi le dit explicitement : quand on découvre des restes anciens, on arrête les machines et on appelle les archéologues. Notre contrat le prévoyait aussi explicitement, et nous l'avons respecté sans discuter.\n\nLes archéologues ont travaillé six semaines. Grâce à une inscription gravée sur le cercueil, ils ont identifié l'homme : un chanoine de la cathédrale, mort vers 1480. Un chanoine, je l'ai appris à cette occasion, est un prêtre attaché à une cathédrale, qui prie et travaille avec les autres chanoines. Le nôtre n'était connu que par quelques lignes dans les annales de la ville, ces registres où l'on notait, année après année, les événements importants. Les annales racontent qu'il avait payé de sa poche la réparation d'un pont sur la Loire. Un personnage méconnu, donc, mais un homme qui, à sa manière, faisait déjà notre métier : il aidait ses voisins à traverser la ville.\n\nLe cercueil a été retiré intégralement, sans être ouvert sur place, puis transporté au laboratoire. Les fouilles, elles, ont été documentées intégralement : chaque objet a été photographié, mesuré et décrit. Cette rigueur a un prix. Je ne vous le cache pas, l'avancement des travaux en a souffert : nous avons pris six semaines de retard. Mais nous avons réorganisé les équipes, et la ligne ouvrira, comme prévu, à l'automne.\n\nBeaucoup d'entre vous se sont arrêtés devant les barrières pour regarder les fouilles. Votre curiosité nous a donné une idée. Avec le service du patrimoine, nous organisons des séances de sensibilisation pour les écoles et pour tous nos concitoyens. On y apprendra comment se lit le sol d'une ville, et pourquoi un chantier moderne doit respecter ce qu'il trouve. Ces séances de sensibilisation auront lieu le samedi matin, devant la cathédrale.\n\nCe chanoine méconnu aura bientôt sa place au musée de la ville. Et quand vous prendrez le tramway, vous passerez juste au-dessus de l'endroit où il a dormi pendant cinq siècles.\n\nHélène Garnier, adjointe chargée des travaux\n\nQuestions :\nQui écrit cette lettre, et à qui ?\nL'adjointe au maire chargée des travaux écrit à ses concitoyens de Tours.\nQu'est-ce que la machine a touché en mars ?\nElle a touché un cercueil en plomb, enterré à deux mètres sous la rue.\nQu'est-ce qu'un chanoine ?\nC'est un prêtre attaché à une cathédrale, qui prie et travaille avec les autres chanoines.\nQue disent les annales de la ville sur cet homme ?\nElles racontent qu'il avait payé de sa poche la réparation d'un pont sur la Loire.\nQuelle conséquence la découverte a-t-elle eue sur l'avancement des travaux ?\nElle a causé six semaines de retard, mais la ligne ouvrira comme prévu à l'automne.\nÀ quoi serviront les séances de sensibilisation ?\nOn y apprendra comment se lit le sol d'une ville et pourquoi un chantier doit respecter ce qu'il trouve."
+    },
+    {
+      "title": "Un petit boîtier pour les cyclistes",
+      "summary": "A Montreal magazine interviews an engineer whose start-up builds a small sensor for racing cyclists, and who learned to solve an overheating problem.",
+      "newWords": [
+        "processeur",
+        "refroidissement",
+        "avatar",
+        "raccourci",
+        "défaillance",
+        "optimal",
+        "colombien",
+        "homologue",
+        "survenue",
+        "sélectionneur"
+      ],
+      "text": "Julie Tremblay a fondé à Montréal, avec son associé Andrés Restrepo, une jeune entreprise qui fabrique un petit boîtier pour les vélos de course. Elle a accepté de répondre à nos questions.\n\n— Julie Tremblay, à quoi sert votre boîtier ?\n\n— Il mesure en temps réel la force du cycliste, sa vitesse, la pente de la route. Le cœur de l'appareil, c'est un processeur pas plus grand qu'un ongle. Ce processeur fait des milliers de calculs par seconde et envoie les résultats à l'ordinateur de l'entraîneur. Sur l'écran, chaque coureur est représenté par un avatar, une petite figure qui avance sur une carte de la course. L'entraîneur voit ainsi l'avatar de chacun de ses coureurs et sait qui est fatigué, qui garde des forces.\n\n— Comment est née l'entreprise ?\n\n— Par une rencontre. Andrés est colombien, il a grandi à Medellín, où tout le monde fait du vélo dans les montagnes. Nous étions dans la même classe à l'université. Un ingénieur colombien fou de vélo et une Québécoise folle de technique : nous étions faits pour travailler ensemble.\n\n— Vous avez pourtant connu des débuts difficiles.\n\n— Oui. Lors de notre premier essai sérieux, sur une route de montagne en plein été, plusieurs appareils se sont arrêtés. La défaillance est survenue au bout d'une heure, toujours dans la même montée. Or la survenue d'une panne en pleine course, c'est le pire cauchemar d'un entraîneur. Nous avons étudié la survenue de chaque panne, minute par minute. La cause était simple : le processeur chauffait trop. Dans le boîtier fermé, le refroidissement était insuffisant.\n\n— Comment avez-vous résolu ce problème ?\n\n— Nous avons revu tout le système de refroidissement. Andrés a dessiné de fines ouvertures qui laissent passer l'air quand le vélo roule. Nous avons aussi appris au processeur à ralentir de lui-même quand il devient trop chaud. Il fallait trouver la température optimale, et le réglage optimal entre vitesse de calcul et chaleur. Depuis, nous n'avons plus connu une seule défaillance.\n\n— Quel conseil donneriez-vous à un jeune ingénieur ?\n\n— Il n'y a pas de raccourci. On rêve toujours de trouver un raccourci, une solution miracle qui ferait gagner des mois. Mais en vérité, il faut tester, rater, recommencer. Même sur un clavier, j'évite les raccourcis que je ne connais pas bien !\n\n— Et aujourd'hui ?\n\n— Le sélectionneur de l'équipe nationale du Canada utilise nos appareils pour choisir ses coureurs. Un sélectionneur doit comparer des athlètes sur des courses différentes, et nos chiffres l'aident à être juste. Son homologue de l'équipe de Colombie nous a contactés le mois dernier. Deux sélectionneurs homologues, de deux pays différents, qui travaillent avec le même outil : Andrés en est très fier.\n\nQuestions :\nQue contient le boîtier de l'entreprise ?\nIl contient un processeur pas plus grand qu'un ongle, qui fait des milliers de calculs par seconde.\nÀ quoi sert l'avatar sur l'écran ?\nL'avatar représente un coureur et permet à l'entraîneur de voir qui est fatigué et qui garde des forces.\nD'où vient Andrés ?\nAndrés est colombien : il a grandi à Medellín.\nQuand la défaillance est-elle survenue, et pourquoi ?\nElle est survenue au bout d'une heure de montée, parce que le processeur chauffait trop.\nComment l'équipe a-t-elle amélioré le refroidissement ?\nAndrés a dessiné de fines ouvertures pour l'air, et le processeur ralentit quand il devient trop chaud.\nPourquoi Julie dit-elle qu'il n'y a pas de raccourci ?\nParce qu'il faut tester, rater et recommencer : il n'existe pas de solution miracle."
+    },
+    {
+      "title": "La maison de la Casbah",
+      "summary": "In Algiers, an engineer and a wood sculptor patiently restore an Ottoman-era house that was close to collapse, with the help of its residents.",
+      "newWords": [
+        "ottoman",
+        "maghrébin",
+        "écrouler",
+        "rampe",
+        "sculpteur",
+        "approprier",
+        "avènement",
+        "relâche"
+      ],
+      "text": "Sur les hauteurs d'Alger, la Casbah descend vers la mer en un labyrinthe de ruelles et d'escaliers. Ses maisons blanches datent pour beaucoup de l'époque ottomane, quand la ville était gouvernée par un représentant de l'empire ottoman, entre le 16e et le 19e siècle. Chacune s'organise autour d'une cour intérieure, comme le veut la tradition maghrébine : des murs presque aveugles du côté de la rue, et toute la lumière à l'intérieur.\n\nSamir Hadj est ingénieur. Depuis vingt ans, il consacre sa vie à ces maisons. Au printemps, la mairie lui confia une demeure du 18e siècle dont un mur venait de s'écrouler après de fortes pluies. Quand il entra dans la cour, il comprit que le reste risquait de s'écrouler à son tour. Les poutres étaient pourries, et une partie du premier étage pendait dans le vide.\n\nLe problème, expliqua-t-il plus tard, venait en grande partie du siècle dernier. Avec l'avènement du béton, on avait réparé les vieilles maisons comme on construisait les immeubles neufs. Mais le béton, lourd et rigide, ne s'accorde pas avec les murs anciens, faits de terre, de brique et de chaux. L'avènement de ce matériau moderne avait été un progrès pour la ville nouvelle ; pour la Casbah, il avait été une catastrophe silencieuse.\n\nSamir décida donc de revenir aux techniques ottomanes. Il fit poser des poutres de bois, comme autrefois, et refaire les murs à la chaux. Ses ouvriers durent d'abord s'approprier ces gestes oubliés, qu'aucune école ne leur avait appris. Pendant des semaines, ils travaillèrent sans relâche, sous la chaleur de l'été. Samir, lui, venait chaque matin sans relâche vérifier le moindre détail.\n\nIl restait l'escalier. Sa rampe en bois, sculptée de fleurs et de lignes géométriques typiques de l'art maghrébin, était brisée en plusieurs morceaux. Samir fit appel à Rachid, un vieux sculpteur sur bois de Blida. Le sculpteur passa deux mois à refaire les pièces manquantes, en copiant les motifs des morceaux sauvés. « Un bon sculpteur ne signe pas son travail ici, disait-il. Il faut qu'on ne voie pas où finit l'ancien et où commence le nouveau. » Quand la rampe fut remise en place, personne ne put en effet distinguer les deux.\n\nÀ l'automne, trois familles revinrent habiter la maison. Samir leur montra comment entretenir la chaux et aérer les pièces. Il savait qu'une maison restaurée ne vit que si ses habitants se l'approprient. Le premier soir, les enfants descendirent l'escalier en glissant la main sur la rampe, et leur grand-mère dit simplement : « Elle est redevenue une vraie maison. »\n\nQuestions :\nDe quelle époque datent beaucoup de maisons de la Casbah ?\nElles datent de l'époque ottomane, entre le 16e et le 19e siècle.\nComment s'organise une maison selon la tradition maghrébine ?\nElle s'organise autour d'une cour intérieure, avec des murs presque aveugles du côté de la rue.\nPourquoi la maison risquait-elle de s'écrouler ?\nSes poutres étaient pourries, et un mur s'était déjà écroulé après de fortes pluies.\nQuel problème l'avènement du béton a-t-il causé ?\nLe béton, lourd et rigide, ne s'accorde pas avec les murs anciens faits de terre, de brique et de chaux.\nQui a refait la rampe de l'escalier ?\nRachid, un vieux sculpteur sur bois de Blida, a refait les pièces manquantes de la rampe.\nPourquoi faut-il que les habitants s'approprient la maison ?\nParce qu'une maison restaurée ne vit que si ses habitants l'entretiennent et l'habitent vraiment."
+    },
+    {
+      "title": "Le nouveau péage",
+      "summary": "An exchange of e-mails between the head of a residents' association near the Swiss border and the motorway engineer in charge of a new toll station.",
+      "newWords": [
+        "péage",
+        "douanier",
+        "alignement",
+        "courtois",
+        "abusif",
+        "cordialement",
+        "concertation",
+        "round",
+        "résidant",
+        "receveur"
+      ],
+      "text": "Objet : projet de nouveau péage\n\nMonsieur,\n\nJe préside l'association des résidants du village de Neydens, en Haute-Savoie, à deux kilomètres de la frontière suisse. Nous avons appris que votre société veut déplacer le péage de l'autoroute à la sortie de notre village. Les résidants sont inquiets. Le péage actuel est déjà proche de la douane, et les camions qui attendent les contrôles des douaniers forment parfois une file de plusieurs kilomètres. Si le péage se rapproche encore, le bruit et la pollution arriveront sous nos fenêtres.\n\nNous trouvons aussi le prix du passage abusif pour les habitants qui travaillent à Genève et qui prennent l'autoroute deux fois par jour. Un tarif pareil, pour quelques kilomètres, nous paraît franchement abusif.\n\nNous souhaitons être associés aux décisions avant qu'il ne soit trop tard.\n\nCordialement,\nOdile Perrin\n\nObjet : RE : projet de nouveau péage\n\nMadame,\n\nJe vous remercie pour votre message, clair et courtois. Je suis l'ingénieur responsable du projet, et je vais tâcher de vous répondre point par point.\n\nD'abord, l'alignement des nouvelles voies n'est pas encore fixé. Le premier projet plaçait le péage à 300 mètres des maisons. Après votre courrier, nous avons étudié un autre alignement, qui le repousse à 900 mètres, derrière la colline. Cet alignement coûte plus cher, mais il protège le village du bruit.\n\nEnsuite, la file des camions. Nous avons rencontré les douaniers, qui ont accepté de contrôler les poids lourds sur une voie séparée, avant le péage. Les voitures ne seront donc plus bloquées derrière eux.\n\nQuant au tarif, je comprends votre colère. Un abonnement à prix réduit pour les résidants est à l'étude. Enfin, beaucoup de personnes âgées nous ont demandé de garder une cabine avec une personne, plutôt que des machines. Nous garderons donc un receveur à toute heure. Le receveur pourra aussi aider les conducteurs perdus.\n\nJe vous propose d'organiser une concertation publique. Ce premier round de discussions aura lieu à la mairie le 12 mai. Si des questions restent ouvertes, un second round suivra en juin.\n\nCordialement,\nLaurent Mercier\n\nObjet : RE : RE : projet de nouveau péage\n\nMonsieur,\n\nMerci pour cette réponse précise. Les résidants seront nombreux à la concertation du 12 mai. Nous apprécions votre ton courtois, et nous viendrons avec des propositions, pas seulement avec des plaintes.\n\nOdile Perrin\n\nQuestions :\nPourquoi les résidants du village sont-ils inquiets ?\nIls craignent que le nouveau péage apporte le bruit et la pollution sous leurs fenêtres.\nPourquoi Odile Perrin trouve-t-elle le tarif abusif ?\nParce que les habitants qui travaillent à Genève paient cher, deux fois par jour, pour quelques kilomètres.\nQuel est l'avantage du nouvel alignement des voies ?\nIl repousse le péage à 900 mètres, derrière la colline, et protège le village du bruit.\nQu'ont accepté les douaniers ?\nIls ont accepté de contrôler les poids lourds sur une voie séparée, avant le péage.\nPourquoi la société garde-t-elle un receveur ?\nParce que beaucoup de personnes âgées préfèrent une cabine avec une personne plutôt que des machines.\nOù et quand aura lieu le premier round de la concertation ?\nIl aura lieu à la mairie le 12 mai."
+    },
+    {
+      "title": "De l'ombre pour la vigne",
+      "summary": "In her work diary, an agricultural engineer in Provence describes how she helped an old estate keep its vines and its rosé cool during a heat wave.",
+      "newWords": [
+        "terroir",
+        "plant",
+        "rosé",
+        "jardinier",
+        "laurier",
+        "rafraîchir",
+        "fraîcheur",
+        "nouer",
+        "suer"
+      ],
+      "text": "Carnet de chantier, domaine des Oliviers, près de Bandol\n\n3 juin. Premier jour au domaine. Je suis ingénieur, spécialiste de l'agriculture, et la propriétaire, Mme Castel, m'a appelée parce que ses vignes souffrent de la chaleur. Le domaine produit surtout du rosé, un vin clair et léger, que l'on boit très frais l'été. Or un bon rosé demande des raisins qui ont gardé leur fraîcheur : trop de soleil, et le vin devient lourd. Mme Castel m'a résumé le problème en une phrase : « Mon terroir n'a pas changé, c'est le climat qui change. »\n\n5 juin. J'ai parcouru les parcelles avec Marius, le vieux jardinier du domaine. Il s'occupe du potager et des haies depuis quarante ans. Ce jardinier connaît chaque coin du terroir : où la terre est profonde, où elle sèche la première, où le vent du nord souffle le plus fort. Il m'a montré les jeunes plants mis en terre l'an dernier. Beaucoup de plants ont séché pendant l'été.\n\n8 juin. C'est le moment où la vigne noue : les fleurs deviennent de minuscules grains de raisin. Si la chaleur arrive trop tôt, les fleurs ne nouent pas, et la récolte est perdue avant même d'avoir commencé. Il faut agir vite.\n\n12 juin. Marius m'a donné une idée. Autrefois, le domaine était entouré de haies de laurier, arrachées dans les années 1970 pour gagner de la place. Le laurier pousse bien ici, garde ses feuilles toute l'année et protège du vent chaud. Nous allons planter de nouveau une haie de laurier au bord des parcelles les plus exposées.\n\n20 juin. Vague de chaleur. Nous avons installé de grands filets au-dessus des jeunes plants, pour leur donner de l'ombre aux heures les plus chaudes. Les ouvriers et moi avons sué toute la journée sous le soleil. À midi, Marius riait : « On sue pour que la vigne ne sue pas ! » Le soir, nous avons arrosé les rangs au goutte-à-goutte, pour rafraîchir la terre sans gaspiller l'eau.\n\n2 juillet. Nouvelle méthode pour rafraîchir les raisins : nous laissons plus de feuilles sur les ceps, du côté de l'après-midi. Elles font un petit toit naturel.\n\n15 septembre. Vendanges. Les raisins sont arrivés à la cave avec une belle fraîcheur. Ce soir, Mme Castel nous a fait goûter le jus qui deviendra le rosé de l'année. Marius a levé son verre : « À la haie de laurier, et à ceux qui ont sué pour elle ! »\n\nQuestions :\nPourquoi Mme Castel a-t-elle appelé l'ingénieur ?\nParce que ses vignes souffrent de la chaleur et que son rosé risque de perdre sa fraîcheur.\nQui est Marius ?\nC'est le vieux jardinier du domaine, qui connaît chaque coin du terroir.\nQue se passe-t-il quand la vigne noue ?\nLes fleurs deviennent de minuscules grains de raisin.\nPourquoi planter de nouveau une haie de laurier ?\nParce que le laurier pousse bien ici, garde ses feuilles et protège les vignes du vent chaud.\nComment l'équipe a-t-elle rafraîchi la terre ?\nElle a arrosé les rangs au goutte-à-goutte le soir, sans gaspiller l'eau.\nQu'a dit Marius en levant son verre ?\nIl a bu à la haie de laurier et à ceux qui ont sué pour elle."
+    },
+    {
+      "title": "Le géant de la scène",
+      "summary": "In Brussels, a stage engineer builds a mechanical giant for a theatre director and learns to slow down before the premiere.",
+      "newWords": [
+        "metteur",
+        "sketch",
+        "articulation",
+        "torse",
+        "rayonner",
+        "excitant",
+        "encouragement",
+        "plaquer",
+        "bourreau"
+      ],
+      "text": "Bastien Lambert est ingénieur dans un grand théâtre de Bruxelles. Son travail ne se voit pas : il conçoit les machines qui font monter les décors, tourner le plancher ou descendre un acteur du ciel. Cet hiver, Nathalie Devos, une metteuse en scène connue pour ses spectacles pleins d'humour, lui a fait une demande inhabituelle.\n\nSon nouveau spectacle était une suite de courts sketchs sur la vie d'un quartier. Dans le dernier sketch, un géant de quatre mètres devait traverser la scène et saluer le public. « Je ne veux pas d'image sur un écran, a dit la metteuse en scène. Je veux un vrai géant, qu'on puisse presque toucher. »\n\nPour Bastien, le projet était excitant. Il est rare qu'un ingénieur de théâtre construise un personnage entier. Mais ce défi excitant était aussi un vrai casse-tête. Le géant devait être léger, pour que deux techniciens puissent le faire bouger, et solide, pour jouer soixante soirs de suite.\n\nBastien a commencé par le torse. Il l'a construit en bois et en tissu tendu sur une structure d'aluminium, comme une aile d'avion. Ce torse vide ne pesait que vingt kilos. Le plus difficile a été de faire les articulations. Une épaule, un coude, un poignet : chaque articulation devait bouger sans bruit, car le moindre bruit s'entend jusqu'au fond de la salle. Il a passé des nuits à régler les articulations des bras, à l'aide de petits câbles cachés.\n\nBastien est un bourreau de travail. Ses collègues le savent : quand un problème lui résiste, il ne rentre plus chez lui. Un soir, Nathalie l'a trouvé seul à minuit, le torse du géant devant lui. « Tu es un vrai bourreau de travail, lui a-t-elle dit. Mais un géant ne se construit pas en une nuit. Va dormir. » Ces mots d'encouragement, dits avec douceur, l'ont touché. Le lendemain, reposé, il a trouvé en une heure la solution qu'il cherchait depuis une semaine.\n\nLa veille de la première, il restait un détail. Au moment du salut, le géant devait plaquer sa grande main contre le décor, comme pour s'y appuyer. Bastien a ajouté un aimant dans la paume, pour plaquer la main au bon endroit, sans qu'elle glisse.\n\nLe soir de la première, le géant est entré dans la lumière. Il a tourné la tête, levé le bras, plaqué sa main contre le mur du décor. Le public a applaudi longtemps. Dans les coulisses, le visage de Nathalie semblait rayonner de joie. Bastien, lui, regardait les techniciens. Il voyait leur fierté rayonner autant que les projecteurs. Le plus bel encouragement, a-t-il pensé, ce sont ces applaudissements que personne ne lui adressait directement.\n\nQuestions :\nQuel est le métier de Bastien ?\nIl est ingénieur dans un grand théâtre de Bruxelles : il conçoit les machines de la scène.\nQue demandait la metteuse en scène pour le dernier sketch ?\nElle voulait un vrai géant de quatre mètres qui traverse la scène et salue le public.\nPourquoi les articulations étaient-elles difficiles à faire ?\nParce que chaque articulation devait bouger sans bruit : le moindre bruit s'entend dans la salle.\nPourquoi Nathalie dit-elle que Bastien est un bourreau de travail ?\nParce qu'il ne rentre plus chez lui quand un problème lui résiste.\nÀ quoi sert l'aimant dans la main du géant ?\nIl sert à plaquer la main contre le décor au bon endroit, sans qu'elle glisse.\nComment Nathalie a-t-elle réagi le soir de la première ?\nSon visage semblait rayonner de joie."
+    },
+    {
+      "title": "Le froid au service des vaccins",
+      "summary": "A Senegalese engineer designs a solar fridge that keeps vaccines cold in remote villages, and gets it certified in time for a national campaign.",
+      "newWords": [
+        "vaccination",
+        "stérile",
+        "certification",
+        "remédier",
+        "coffret",
+        "atroce",
+        "sou",
+        "décréter",
+        "pochette"
+      ],
+      "text": "Awa Diop est ingénieur à Dakar. Depuis cinq ans, elle travaille sur une question qui paraît simple : comment garder des vaccins au froid dans un village sans électricité ? Un vaccin est fragile. S'il chauffe, ne serait-ce que quelques heures, il ne protège plus personne. Or, dans l'est du Sénégal, la chaleur peut être atroce : plus de 45 degrés à l'ombre en mai. Dans cette chaleur atroce, les vieux appareils à gaz tombaient souvent en panne, et les campagnes de vaccination prenaient du retard.\n\nAwa a imaginé un appareil qui fonctionne avec l'énergie du soleil. Le principe est simple : pendant la journée, des panneaux solaires produisent du froid et fabriquent de la glace ; la nuit, cette glace garde les vaccins à la bonne température. Toute l'électronique est rangée dans un coffret métallique, fermé à clé, à l'abri de la poussière. Ce coffret contient aussi une petite batterie, qui envoie chaque heure la température à Dakar par téléphone.\n\nAvant d'installer ses appareils dans les centres de santé, Awa devait obtenir une certification internationale. Pour la certification, l'appareil devait garder le froid pendant cinq jours sans soleil. Le premier essai a échoué : au troisième jour, la température est montée. Awa et son équipe ont cherché comment remédier au problème. Ils ont ajouté une couche d'isolation et changé la place de la glace. Au deuxième essai, l'appareil a tenu six jours.\n\nAu même moment, le ministère de la Santé a décrété une grande campagne de vaccination contre la rougeole dans toute la région. Le ministre a décrété que chaque enfant de moins de cinq ans devait être vacciné avant la saison des pluies. Les appareils d'Awa sont arrivés juste à temps.\n\nEn juin, Awa a accompagné une infirmière, Mariama, dans un village près de Tambacounda. Mariama a sorti les vaccins de l'appareil, puis elle a ouvert une pochette stérile qui contenait le matériel. « Tout ce qui touche l'enfant doit rester stérile, a-t-elle expliqué. On n'ouvre la pochette qu'au dernier moment. » Ce matin-là, elle a ouvert plus de cent pochettes.\n\nLe chef du village a remercié Awa. « Ici, beaucoup de familles n'ont pas un sou pour aller en ville se soigner, a-t-il dit. Avant, nous attendions les vaccins pendant des semaines. » Les familles n'avaient en effet pas à payer un sou : la vaccination était gratuite. En rentrant à Dakar, Awa a regardé longtemps les chiffres de température sur son téléphone. Ils n'avaient pas bougé d'un degré.\n\nQuestions :\nPourquoi faut-il garder les vaccins au froid ?\nParce qu'un vaccin qui chauffe, même quelques heures, ne protège plus personne.\nComment fonctionne l'appareil d'Awa ?\nLe jour, des panneaux solaires fabriquent de la glace ; la nuit, cette glace garde les vaccins au froid.\nQue contient le coffret métallique ?\nIl contient l'électronique et une petite batterie qui envoie la température à Dakar.\nComment l'équipe a-t-elle remédié à l'échec du premier essai ?\nElle a ajouté une couche d'isolation et changé la place de la glace.\nQu'a décrété le ministère de la Santé ?\nIl a décrété une grande campagne de vaccination contre la rougeole dans toute la région.\nPourquoi Mariama ouvre-t-elle la pochette au dernier moment ?\nParce que tout ce qui touche l'enfant doit rester stérile."
+    },
+    {
+      "title": "La poêle parfaite",
+      "summary": "In Lyon, an engineer at a cookware company tests a new frying pan with his collector grandfather's advice and a palace chef's verdict.",
+      "newWords": [
+        "poêle",
+        "saucisse",
+        "poivre",
+        "bouillon",
+        "collectionneur",
+        "germanique",
+        "pondre",
+        "torturer",
+        "palace"
+      ],
+      "text": "Thomas Girard est ingénieur dans une entreprise de Lyon qui fabrique des ustensiles de cuisine. Son projet de l'année : une poêle qui chauffe vite, qui ne colle pas et qui dure toute une vie. En réalité, une poêle est un petit chef-d'œuvre de physique : le métal doit répartir la chaleur sans créer de points brûlants, et la surface doit résister aux coups comme aux fortes températures.\n\nPour trouver des idées, Thomas a rendu visite à son grand-père, Robert, un collectionneur passionné. Dans son garage, ce collectionneur garde plus de deux cents poêles anciennes, en fer, en cuivre, en fonte. « Regarde celle-ci, a dit Robert en lui tendant une lourde poêle noire. Elle a cent ans, et elle cuit encore mieux que les tiennes. » Thomas l'a examinée longtemps. Le fond, très épais, gardait la chaleur comme un vieux mur au soleil.\n\nAu laboratoire, les ingénieurs ont l'habitude de torturer leurs produits. C'est le mot qu'ils emploient. On fait tomber la poêle, on la frotte avec une brosse métallique, on la chauffe et on la plonge dans l'eau froide des milliers de fois. Thomas aime dire qu'il faut torturer un objet pour savoir s'il mérite d'entrer dans une cuisine. Son collègue Jürgen, venu de Stuttgart, apporte à ces essais une rigueur toute germanique : il note chaque résultat dans un grand cahier, à la minute près. Il plaisante souvent sur cette précision germanique, qu'il dit tenir de son père.\n\nRestait l'essai le plus important : la cuisine. Thomas a cuit des saucisses, parce que leur graisse colle facilement. Les saucisses ont doré sans accrocher. Il a ensuite cassé des œufs, ceux des poules de sa grand-mère, qui pondent chaque matin dans le jardin. « Mes poules pondent des œufs plus frais que ceux du magasin, dit-elle. Ta poêle doit les respecter ! » Les œufs ont glissé dans l'assiette comme sur de la glace.\n\nPour finir, Thomas a fait chauffer un bouillon de légumes jusqu'à ébullition, puis il a laissé la poêle refroidir avec le bouillon dedans, toute une nuit. Le lendemain, la surface était intacte.\n\nLa dernière étape a été la plus intimidante. Thomas a apporté sa poêle au chef d'un palace du centre de Lyon, l'un des hôtels de luxe les plus célèbres de la ville. Dans les cuisines d'un palace, le matériel travaille douze heures par jour. Le chef y a fait cuire un filet de bœuf, a ajouté du sel et un tour de poivre, a goûté, puis a rajouté un peu de poivre. « Je la garde », a-t-il dit simplement. Thomas, qui s'était torturé l'esprit pendant des mois, est rentré chez lui soulagé.\n\nQuestions :\nQuel est le projet de Thomas ?\nIl veut créer une poêle qui chauffe vite, qui ne colle pas et qui dure toute une vie.\nQue garde Robert dans son garage ?\nCe collectionneur garde plus de deux cents poêles anciennes, en fer, en cuivre et en fonte.\nQue veut dire « torturer » un produit au laboratoire ?\nOn le fait tomber, on le frotte, on le chauffe et on le refroidit des milliers de fois pour vérifier sa résistance.\nPourquoi Thomas a-t-il cuit des saucisses ?\nParce que leur graisse colle facilement.\nD'où venaient les œufs ?\nIls venaient des poules de sa grand-mère, qui pondent chaque matin dans le jardin.\nQu'a fait le chef du palace ?\nIl a cuit un filet de bœuf avec du sel et du poivre, puis il a décidé de garder la poêle."
+    },
+    {
+      "title": "Une salle pour les pèlerins",
+      "summary": "An engineer adapts an old museum in the Cévennes so that elderly visitors to a yearly Protestant pilgrimage can reach it without climbing stairs.",
+      "newWords": [
+        "pèlerin",
+        "pèlerinage",
+        "rez-de-chaussée",
+        "reins",
+        "rabat",
+        "lez",
+        "persécution",
+        "vouer"
+      ],
+      "text": "Élodie Roux habite Villeneuve-lès-Avignon, une petite ville en face d'Avignon, de l'autre côté du Rhône. Dans les vieux noms de lieux, le mot « lès » veut dire « près de » : Villeneuve-lès-Avignon, c'est la ville neuve près d'Avignon. Élodie est ingénieur, spécialiste des bâtiments anciens. L'an dernier, on lui a confié un chantier dans les Cévennes, à une heure et demie de chez elle.\n\nIl s'agissait du musée du Désert, installé dans une vieille maison du hameau du Mas Soubeyran. Ce musée est voué à la mémoire des protestants français. Aux 17e et 18e siècles, ils ont subi une longue persécution : leurs temples ont été détruits, leurs pasteurs chassés. Malgré la persécution, beaucoup ont continué à prier en secret, dans les bois et les montagnes, qu'on appelait alors « le Désert ». Tout le musée est voué à raconter cette histoire.\n\nChaque année, le premier dimanche de septembre, des milliers de personnes se réunissent devant le musée. Ce pèlerinage dure une journée : on prie en plein air, on chante, on écoute les pasteurs. Certains pèlerins viennent de toute la France, d'autres de Suisse ou d'Allemagne. Or beaucoup de pèlerins sont âgés, et le musée n'était accessible que par des escaliers raides.\n\nLa première fois qu'elle visita les lieux, Élodie rencontra le pasteur Daniel Arnaud, un homme de 80 ans, vêtu de sa robe noire et de son rabat blanc. Le rabat, ces deux bandes de tissu blanc sous le col, fait partie de l'habit traditionnel des pasteurs. Le pasteur Arnaud s'arrêtait toutes les trois marches. « Ce sont mes reins, expliqua-t-il en souriant. Ils ont fait beaucoup de pèlerinages. » Élodie comprit que son projet devait d'abord servir des visiteurs comme lui.\n\nElle proposa d'aménager une grande salle au rez-de-chaussée, dans une ancienne grange voisine. Au rez-de-chaussée, aucune marche : on y entrerait de plain-pied depuis le chemin. Les objets les plus importants du musée y seraient présentés, pour que personne ne soit privé de l'essentiel. Le défi technique était de percer de larges portes dans des murs très anciens sans affaiblir la grange. Élodie fit poser une solide poutre de bois au-dessus de chaque ouverture, comme le faisaient les anciens.\n\nEn septembre, le jour du pèlerinage, la nouvelle salle ouvrit ses portes. Le pasteur Arnaud y entra sans aide, son rabat bien droit sur sa robe. Il fit le tour de la salle lentement, puis il serra la main d'Élodie. « Cette année, dit-il, mes reins vous remercient. »\n\nQuestions :\nQue veut dire le mot « lès » dans Villeneuve-lès-Avignon ?\nDans les vieux noms de lieux, « lès » veut dire « près de ».\nÀ quoi le musée du Désert est-il voué ?\nIl est voué à la mémoire des protestants français et de la persécution qu'ils ont subie.\nQue se passe-t-il le premier dimanche de septembre ?\nDes milliers de pèlerins se réunissent devant le musée pour un pèlerinage d'une journée.\nQu'est-ce qu'un rabat ?\nCe sont deux bandes de tissu blanc sous le col, qui font partie de l'habit des pasteurs.\nPourquoi le pasteur Arnaud s'arrêtait-il toutes les trois marches ?\nParce qu'il avait mal aux reins.\nQuelle solution Élodie a-t-elle proposée ?\nElle a proposé d'aménager une grande salle au rez-de-chaussée, sans aucune marche."
+    }
+  ]
+}

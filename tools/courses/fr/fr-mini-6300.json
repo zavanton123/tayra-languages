@@ -1,0 +1,225 @@
+{
+  "id": "fr-mini-6300",
+  "rankUpTo": 6300,
+  "level": "C1",
+  "title": "Alimentation et santé",
+  "description": "Ten short texts about food and health, from a Ramadan fast in Dakar and a Breton crêperie to a Valais mountain hut, a Provençal sheep farm and a Neuchâtel school canteen.",
+  "topic": "Food and health",
+  "names": [
+    "Dakar",
+    "Ndèye",
+    "Fall",
+    "Awa",
+    "Moussa",
+    "Mecque",
+    "Coran",
+    "Colleville",
+    "Normandie",
+    "Marcel",
+    "Hébert",
+    "Claire",
+    "Julie",
+    "Douarnenez",
+    "Bretagne",
+    "Favre",
+    "Noé",
+    "Sherbrooke",
+    "Josée",
+    "Diane",
+    "Lapointe",
+    "Guadeloupe",
+    "Miami",
+    "Liège",
+    "Sarah",
+    "Luc",
+    "Jonas",
+    "Margaux",
+    "Valais",
+    "Lausanne",
+    "Alpes",
+    "Luberon",
+    "Apt",
+    "Hélène",
+    "Bruno",
+    "Roux",
+    "Provence",
+    "Paris",
+    "Bruxelles",
+    "Lyon",
+    "Bellecour",
+    "Inès",
+    "Villefranche",
+    "Anne",
+    "Delvaux",
+    "Lucie",
+    "Marc",
+    "Neuchâtel",
+    "Martine",
+    "Jacot",
+    "Mexique"
+  ],
+  "lessons": [
+    {
+      "title": "Un ramadan à Dakar",
+      "summary": "In Dakar, a diabetic grandmother wants to fast during Ramadan; the imam and her granddaughter help her find a safe way to do it.",
+      "newWords": [
+        "imam",
+        "verset",
+        "lunaire",
+        "aurore",
+        "consécutive",
+        "gentillesse",
+        "saoudien",
+        "provision",
+        "tranquillité",
+        "abondance"
+      ],
+      "text": "Le ramadan ne commence jamais à la même date, parce qu'il suit le calendrier lunaire. Un mois lunaire compte 29 ou 30 jours, si bien que le mois de jeûne avance d'une dizaine de jours chaque année. Cette année-là, à Dakar, il est tombé à la fin de l'hiver. Ndèye Fall, 68 ans, l'attendait avec impatience, comme toujours. Mais depuis l'automne, elle avait du diabète, et son médecin l'avait prévenue : un long jeûne pouvait être dangereux pour elle.\n\nSa petite-fille Awa, qui étudiait la médecine, lui a conseillé d'aller parler à l'imam du quartier. L'imam était un homme calme, connu dans tout le quartier pour sa gentillesse. Il a reçu Ndèye après la prière du soir, dans la cour de la mosquée. Il l'a écoutée, puis il lui a lu un verset du Coran. Ce verset dit que celui qui est malade peut ne pas jeûner et rattraper les jours plus tard, ou nourrir un pauvre à la place. « Dieu ne veut pas vous rendre la vie difficile, a expliqué l'imam avec gentillesse. Votre santé passe avant tout. »\n\nNdèye est rentrée chez elle rassurée, mais elle ne voulait pas renoncer complètement. Avec son médecin et avec Awa, elle a trouvé une solution : elle jeûnerait les jours où elle se sentait bien, et elle mesurerait son sucre plusieurs fois par jour.\n\nChaque matin, la famille se levait avant l'aurore pour prendre le repas du matin. À l'aurore, la ville était d'une tranquillité étonnante : on n'entendait que les oiseaux et, au loin, l'appel à la prière. Awa préparait pour sa grand-mère une bouillie de mil, du lait et quelques fruits, pour tenir jusqu'au soir. Ndèye aimait cette tranquillité plus que tout.\n\nLe soir, pour rompre le jeûne, il y avait sur la table une abondance de plats : du poisson, du riz, des fruits. Mais Ndèye se méfiait de cette abondance. Elle commençait toujours par un verre d'eau et 3 dattes, comme le veut la tradition. Ces dattes venaient d'un voisin, Moussa, qui avait fait le pèlerinage à La Mecque. Un ami saoudien lui en envoyait chaque année un grand carton, et Moussa partageait ses provisions avec tout l'immeuble. « Les dattes saoudiennes sont les meilleures », répétait-il en riant.\n\nNdèye a jeûné 20 jours sans aucun problème. Le 29e soir, elle a fêté sa dixième journée consécutive de jeûne. Les autres jours, elle donnait un repas à une famille pauvre, comme l'imam le lui avait conseillé. À la fin du mois, elle lui a apporté un sac de provisions pour les pauvres : du riz, de l'huile, du sucre et, bien sûr, des dattes.\n\nQuestions :\nPourquoi le ramadan ne commence-t-il jamais à la même date ?\nParce qu'il suit le calendrier lunaire : un mois lunaire compte 29 ou 30 jours.\nPourquoi Ndèye est-elle allée voir l'imam ?\nElle avait du diabète, et un long jeûne pouvait être dangereux pour elle.\nQue dit le verset que l'imam lui a lu ?\nIl dit que celui qui est malade peut ne pas jeûner et rattraper les jours plus tard, ou nourrir un pauvre.\nComment était la ville à l'aurore ?\nElle était d'une tranquillité étonnante : on n'entendait que les oiseaux et l'appel à la prière.\nQu'a fêté Ndèye le 29e soir ?\nElle a fêté sa dixième journée consécutive de jeûne."
+    },
+    {
+      "title": "Le dernier soldat du village",
+      "summary": "A portrait of a 99-year-old Normandy veteran whose village nurse helps him protect his bones with cheese, sunlight and a daily walk to the church.",
+      "newWords": [
+        "vétéran",
+        "débarquement",
+        "squelette",
+        "robuste",
+        "fermement",
+        "clocher",
+        "tendresse",
+        "armoire",
+        "richelieu"
+      ],
+      "text": "Dans le petit village de Colleville, en Normandie, tout le monde connaît Marcel Hébert. À 99 ans, il est l'un des derniers vétérans du débarquement de juin 1944 encore en vie. Il avait 17 ans quand il a sauté de son bateau sur la plage, avec les commandos français, au milieu des soldats américains et britanniques. Chaque année, le 6 juin, des journalistes viennent l'interroger sur le débarquement, et chaque année le vieux vétéran répond par la même phrase : « J'ai eu de la chance, c'est tout. »\n\nClaire, l'infirmière du village, passe le voir deux fois par semaine. Elle se souvient de sa première visite : elle s'attendait à trouver un vieillard fragile, et elle a découvert un homme robuste, qui coupait encore son bois lui-même. Mais à son âge, même un homme robuste doit faire attention. L'hiver dernier, Marcel est tombé dans son jardin. Les radios n'ont rien montré de cassé, mais le médecin a été clair : son squelette s'affaiblit, comme celui de toutes les personnes très âgées, et il faut le protéger.\n\nClaire a donc expliqué à Marcel ce dont un squelette a besoin pour rester solide : du calcium, que l'on trouve dans le lait, les yaourts et le fromage ; de la vitamine D, que la peau fabrique au soleil ; et des protéines, pour garder des muscles qui tiennent les os. Marcel l'a écoutée en souriant. « Du fromage, en Normandie ? On n'en manque pas ! » Depuis, il mange un morceau de camembert à chaque repas, et Claire a l'impression qu'il obéit à ce conseil avec un plaisir particulier.\n\nElle lui a aussi conseillé de marcher un peu chaque jour, au soleil quand il y en a. Marcel a choisi son trajet : de sa maison jusqu'à l'église, dont le clocher se voit de toute la campagne, puis retour. Il marche lentement, mais fermement, avec sa canne. Quand le clocher sonne midi, il est en général sur le chemin du retour. Pour cette promenade, il porte toujours ses richelieus noirs, des chaussures de ville bien cirées qu'il a achetées il y a 30 ans. Claire aurait préféré des chaussures plus souples, mais Marcel tient fermement à ses richelieus. « Un ancien soldat ne sort pas mal chaussé », dit-il.\n\nDans sa chambre, il y a une vieille armoire en chêne. Un jour, il a ouvert l'armoire devant Claire : son béret de commando était posé sur une étagère, à côté de ses médailles et des lettres de sa femme, morte il y a 10 ans. Il parle d'elle avec une grande tendresse. Sa petite-fille Julie, qui vient le dimanche, a hérité de cette tendresse : elle lui prépare des plats simples et riches en protéines, et elle l'oblige à finir son yaourt.\n\nQuestions :\nQui est Marcel Hébert ?\nC'est l'un des derniers vétérans du débarquement de juin 1944 ; il vit à Colleville, en Normandie.\nPourquoi le médecin veut-il protéger son squelette ?\nParce que son squelette s'affaiblit avec l'âge et que Marcel est tombé l'hiver dernier.\nDe quoi un squelette a-t-il besoin pour rester solide ?\nIl a besoin de calcium, de vitamine D et de protéines.\nOù Marcel marche-t-il chaque jour ?\nIl marche de sa maison jusqu'à l'église et son clocher, puis il revient.\nPourquoi porte-t-il ses richelieus ?\nParce qu'un ancien soldat, dit-il, ne sort pas mal chaussé.\nQue garde-t-il dans son armoire ?\nIl garde son béret de commando, ses médailles et les lettres de sa femme."
+    },
+    {
+      "title": "Une galette sans gluten",
+      "summary": "A crêpe maker in Douarnenez tells how he cooked a safe buckwheat galette for a Swiss boy who cannot eat wheat.",
+      "newWords": [
+        "crêpe",
+        "louche",
+        "basique",
+        "consistant",
+        "rangée",
+        "éponge",
+        "enchanté",
+        "mouiller",
+        "ressemblance",
+        "larguer"
+      ],
+      "text": "Je tiens une petite crêperie sur le port de Douarnenez, en Bretagne. Je l'ai reprise de ma mère il y a 12 ans. Le matin, avant de larguer les amarres, quelques pêcheurs viennent boire un café chez moi. Le soir, quand les bateaux sont rentrés, ce sont les touristes qui remplissent la salle.\n\nUn mardi de juillet, une cliente suisse, Mme Favre, est entrée avec son fils de 10 ans, Noé. Elle m'a expliqué que Noé ne pouvait pas manger de gluten : il avait une maladie qui l'empêchait de digérer le blé. « Est-ce que vous avez quelque chose pour lui ? » m'a-t-elle demandé, un peu inquiète.\n\nJe l'ai rassurée tout de suite. En Bretagne, on distingue la crêpe, sucrée, faite avec de la farine de blé, et la galette, salée, faite avec de la farine de sarrasin. Le sarrasin, malgré son nom de « blé noir », n'a aucune ressemblance avec le blé : c'est une autre plante, sans gluten. La ressemblance n'est que dans le nom et dans la couleur de la farine.\n\nJe devais faire attention à tout. J'ai sorti un bol propre et une louche que je n'avais jamais utilisée pour la pâte à crêpe. Avant de commencer, j'ai pris une éponge neuve, je l'ai mouillée à l'eau chaude et j'ai lavé la plaque une deuxième fois. Il suffisait d'un peu de farine de blé pour rendre Noé malade.\n\nMa recette de galette est très basique : de la farine de sarrasin, de l'eau, du sel, rien d'autre. Ma mère disait qu'une recette basique demande plus de soin qu'une recette compliquée, parce qu'on ne peut rien y cacher. J'ai versé une louche de pâte sur la plaque, je l'ai étalée, puis j'ai cassé un œuf au milieu, avec du jambon et du fromage. C'est ce qu'on appelle une « complète » : un plat consistant, qui nourrit un adulte jusqu'au soir.\n\nNoé a regardé la plaque pendant toute la cuisson. Derrière lui, sur le comptoir, une rangée de crêpes au sucre attendait les clients suivants, et j'ai vu sa mère regarder la rangée avec envie. Elle, elle pouvait manger du blé. J'ai servi à Mme Favre une crêpe au caramel, pendant que Noé terminait sa galette consistante. Il était enchanté.\n\nEn partant, Mme Favre m'a dit qu'elle était enchantée de sa soirée et qu'en Suisse, elle chercherait de la farine de sarrasin pour essayer ma recette. Le lendemain, à 6 heures, en mouillant mon éponge pour nettoyer la plaque, j'ai regardé les pêcheurs larguer les amarres, et j'ai pensé qu'il faudrait écrire « sans gluten » sur la carte.\n\nQuestions :\nOù se trouve la crêperie de l'auteur ?\nElle se trouve sur le port de Douarnenez, en Bretagne.\nPourquoi Noé ne peut-il pas manger de crêpe au blé ?\nParce qu'il a une maladie qui l'empêche de digérer le gluten du blé.\nQuelle ressemblance y a-t-il entre le sarrasin et le blé ?\nIl n'y a aucune vraie ressemblance : le sarrasin est une autre plante, sans gluten.\nQu'a fait l'auteur avec l'éponge neuve ?\nIl l'a mouillée à l'eau chaude et il a lavé la plaque une deuxième fois.\nPourquoi une recette basique demande-t-elle plus de soin ?\nParce qu'on ne peut rien y cacher.\nQu'est-ce qu'une « complète » ?\nC'est une galette avec un œuf, du jambon et du fromage : un plat consistant."
+    },
+    {
+      "title": "Lettre de Sherbrooke",
+      "summary": "In a letter to her sister, a retired woman from Sherbrooke explains how an insurance broker helped her choose travel health insurance after a refused claim.",
+      "newWords": [
+        "courtier",
+        "alinéa",
+        "réclamation",
+        "mutuel",
+        "frustré",
+        "annuaire",
+        "fardeau",
+        "caraïbe",
+        "escale",
+        "indépendantiste"
+      ],
+      "text": "Sherbrooke, le 14 janvier\n\nChère Josée,\n\nTu te souviens de mon voyage dans les Caraïbes l'hiver dernier, et de ma nuit à l'hôpital à cause d'une infection à l'oreille ? Je ne t'ai jamais raconté la suite, parce qu'elle m'a beaucoup frustrée. En rentrant, j'ai envoyé ma réclamation à ma compagnie d'assurance, avec toutes les factures. Trois semaines plus tard, ma réclamation a été refusée. Selon la lettre, l'alinéa 4 de l'article 7 de mon contrat exclut « les problèmes de santé connus avant le départ ». Or j'avais vu mon médecin pour la même oreille au mois d'octobre. La facture de 2 800 dollars est restée à ma charge. Pour une retraitée, c'était un vrai fardeau, et je me suis sentie frustrée surtout parce que personne ne m'avait expliqué ce détail.\n\nCette année, je n'ai pas voulu acheter mon assurance en ligne, en 5 minutes, sans rien lire. J'ai cherché un courtier dans l'annuaire, oui, le vieil annuaire en papier que je garde encore à côté du téléphone. Un courtier ne travaille pas pour une seule compagnie : il compare les contrats de plusieurs compagnies et il conseille son client. J'ai choisi M. Lapointe, parce que son bureau est à deux rues de chez moi.\n\nM. Lapointe a environ 70 ans. Sur le mur de son bureau, il y a une vieille affiche du référendum de 1995. Il m'a raconté qu'il était indépendantiste dans sa jeunesse et qu'il l'est resté, « mais plus calmement ». Je lui ai dit que je n'avais jamais été indépendantiste, et nous avons ri ; la politique s'est arrêtée là.\n\nEnsuite, il a pris le temps de lire chaque alinéa avec moi. Il m'a montré qu'il existe des contrats qui couvrent les problèmes connus, à condition qu'ils soient stables depuis 3 mois et que l'on remplisse honnêtement un questionnaire médical. Il m'a aussi fait remarquer un détail : mon vol pour la Guadeloupe fait une escale à Miami. Pendant cette escale, je serai aux États-Unis, où les soins coûtent une fortune, et certains contrats ne couvrent pas les escales.\n\nFinalement, il m'a conseillé une société d'assurance mutuelle, c'est-à-dire une compagnie qui appartient à ses membres et non à des actionnaires. Le prix est un peu plus élevé, mais tout est écrit clairement, et les Caraïbes figurent en toutes lettres dans la liste des destinations. Nous avons signé le contrat dans un climat de confiance mutuelle : je lui ai tout dit sur ma santé, et il m'a tout dit sur le contrat. S'il y a un problème, c'est lui qui s'occupera de la réclamation, et cela m'enlève un grand fardeau.\n\nJe pars le 3 février. Si tu veux, je te donnerai le numéro de mon courtier pour ton voyage au Mexique.\n\nJe t'embrasse,\nDiane\n\nQuestions :\nPourquoi la réclamation de Diane a-t-elle été refusée l'an dernier ?\nParce qu'un alinéa de son contrat excluait les problèmes de santé connus avant le départ.\nOù Diane a-t-elle trouvé son courtier ?\nElle l'a trouvé dans le vieil annuaire en papier qu'elle garde à côté du téléphone.\nPourquoi l'escale à Miami est-elle importante ?\nParce que les soins coûtent une fortune aux États-Unis et que certains contrats ne couvrent pas les escales.\nQu'est-ce qu'une société d'assurance mutuelle ?\nC'est une compagnie qui appartient à ses membres et non à des actionnaires."
+    },
+    {
+      "title": "Journal d'une bénévole",
+      "summary": "A volunteer nurse writes in her diary about a scorching day at a techno festival near Liège: salts and water, a young man in a fur costume, a panic attack and one ambulance.",
+      "newWords": [
+        "techno",
+        "ion",
+        "ambulance",
+        "garer",
+        "terriblement",
+        "insolite",
+        "anxiété",
+        "fourrure",
+        "intersection"
+      ],
+      "text": "Samedi 19 juillet, 23 heures\n\nTroisième journée du festival, et la plus chaude. Il faisait 34 degrés à l'ombre à 15 heures, et il n'y a presque pas d'ombre sur ce grand terrain près de Liège. Je suis infirmière, et cette année je suis bénévole au poste de secours de la Croix-Rouge. Je n'aime pas spécialement la musique techno, mais j'aime ce travail : soigner des jeunes qui ne pensent qu'à danser.\n\nCe matin, à 9 heures, Luc, notre responsable, nous a rappelé l'essentiel : quand on danse au soleil, on transpire, et la sueur emporte de l'eau, mais aussi des sels minéraux. Le sodium et le potassium sont des ions dont le corps a besoin pour faire fonctionner les muscles et le cœur. Celui qui boit des litres d'eau sans rien manger peut manquer de ces ions. Nous distribuons donc, avec l'eau, des sachets de sels et des biscuits salés.\n\nL'après-midi a été terriblement chargé. Dès que les grands noms de la techno sont montés sur scène, les malaises ont commencé : coups de soleil, maux de tête, deux jeunes filles évanouies. Nous leur mouillions la nuque avec des serviettes froides.\n\nLe cas le plus insolite de la journée : un garçon de 20 ans déguisé en ours, en fausse fourrure de la tête aux pieds, par 34 degrés ! Il avait promis à ses amis de garder sa fourrure toute la journée. Il est arrivé rouge et tremblant. Nous lui avons retiré la fourrure, nous l'avons allongé à l'ombre et nous lui avons fait boire de l'eau salée, lentement. Une heure plus tard, il allait mieux. Je n'oublierai jamais cette scène insolite.\n\nVers 19 heures, un jeune homme est arrivé avec une amie. Il respirait très vite, il avait mal à la poitrine et il croyait qu'il allait mourir. Ce n'était pas le cœur : c'était une crise d'anxiété, aggravée par la chaleur, le bruit et la foule. Je l'ai fait asseoir loin de la musique, et je l'ai aidé à respirer lentement avec moi. Peu à peu, l'anxiété a diminué. Je lui ai conseillé d'en parler à son médecin.\n\nUn seul cas a demandé une ambulance : une femme qui s'était cassé la cheville en tombant d'une barrière. L'ambulance était garée à l'intersection des deux chemins qui mènent à la sortie, là où le chauffeur peut partir sans traverser la foule. Luc avait choisi cette intersection dès le premier jour : en 10 minutes, la blessée était à l'hôpital. Pour garer une ambulance dans un festival, m'a-t-il dit, il faut penser à la sortie avant de penser à l'entrée.\n\nJe suis terriblement fatiguée, mais contente. Demain, dernier jour : il fera encore plus chaud.\n\nQuestions :\nPourquoi faut-il boire de l'eau et manger salé quand on danse au soleil ?\nParce que la sueur emporte de l'eau, mais aussi des ions comme le sodium et le potassium.\nQuel a été le cas le plus insolite de la journée ?\nUn garçon de 20 ans déguisé en ours, avec un costume en fausse fourrure, par 34 degrés.\nQu'avait le jeune homme arrivé vers 19 heures ?\nIl avait une crise d'anxiété, sans doute aggravée par la chaleur, le bruit et la foule.\nOù l'ambulance était-elle garée ?\nElle était garée à l'intersection des deux chemins qui mènent à la sortie.\nPourquoi Luc avait-il choisi cette intersection ?\nPour que le chauffeur puisse partir sans traverser la foule."
+    },
+    {
+      "title": "Deux jours sur la crête",
+      "summary": "A brother and sister hike to a Valais mountain hut; she plans their food with an activity coefficient, and his knee becomes inflamed during the descent.",
+      "newWords": [
+        "alpin",
+        "crête",
+        "refermer",
+        "prévisible",
+        "clarté",
+        "cran",
+        "enflammer",
+        "apocalypse",
+        "coefficient"
+      ],
+      "text": "Jonas et sa sœur Margaux avaient préparé leur randonnée pendant des semaines. Ils voulaient monter, en deux jours, jusqu'à un refuge alpin du Valais, à 2 900 mètres, en passant par une longue crête. Margaux, qui étudiait la nutrition à Lausanne, avait calculé ce qu'ils devaient emporter à manger.\n\nElle avait expliqué sa méthode à son frère. On estime d'abord l'énergie dont le corps a besoin au repos ; ensuite, on la multiplie par un coefficient qui dépend de l'activité. Pour une journée au bureau, ce coefficient est d'environ 1,4 ; pour une longue journée de marche en montagne, avec un sac lourd, il peut dépasser 2. « Autrement dit, demain, tu auras besoin de presque deux fois plus d'énergie qu'un jour normal », conclut-elle.\n\nIls partirent à 6 heures, dans la clarté froide du matin. Le ciel était parfaitement pur, et la clarté était telle qu'on voyait les sommets à des dizaines de kilomètres. La météo annonçait une journée calme ; seul un orage était prévisible en fin d'après-midi, comme souvent en été dans les Alpes. Il fallait donc arriver au refuge avant 16 heures. Les orages de montagne sont assez prévisibles, disait leur père, mais ils ne pardonnent pas à ceux qui traînent.\n\nVers 10 heures, ils atteignirent la crête. Le sentier suivait cette ligne étroite de rochers. Sur la crête, Margaux s'arrêtait toutes les heures pour manger : un morceau de pain, du fromage, des fruits secs. Elle refermait soigneusement son sac après chaque pause, pour que rien ne tombe dans la pente. Jonas, lui, oubliait de refermer le sien, et elle le lui rappelait chaque fois.\n\nDans la descente vers le refuge, le genou droit de Jonas, qui lui faisait mal depuis le matin, devint de plus en plus douloureux. Le soir, au refuge, le genou était chaud et gonflé. Le gardien, un ancien guide alpin, l'examina. « Votre genou est enflammé, dit-il. Rien de grave, sans doute, mais il ne faut pas forcer. » Il lui donna de la glace et lui conseilla, pour le lendemain, de serrer la ceinture de son sac d'un cran : ainsi, le poids reposerait sur les hanches plutôt que sur les genoux. Jonas promit de serrer sa ceinture d'un cran, et même de deux crans s'il le fallait.\n\nPendant ce temps, l'orage arriva, exactement comme prévu. Le tonnerre roulait entre les sommets, et un jeune touriste déclara que c'était l'apocalypse. Le gardien sourit : « Ce n'est pas l'apocalypse, c'est un mardi d'août. » Au dîner, il servit une soupe épaisse et des pâtes au fromage, un repas consistant.\n\nLe lendemain, le genou de Jonas était moins enflammé. Ils renoncèrent au second sommet et rentrèrent par le chemin le plus facile. Margaux nota dans son carnet que, la prochaine fois, elle ajouterait à son calcul un coefficient de prudence.\n\nQuestions :\nComment Margaux calculait-elle ce qu'il fallait manger ?\nElle estimait l'énergie dont le corps a besoin au repos, puis elle la multipliait par un coefficient qui dépend de l'activité.\nPourquoi fallait-il arriver au refuge avant 16 heures ?\nParce qu'un orage était prévisible en fin d'après-midi.\nQu'a dit le gardien du genou de Jonas ?\nIl a dit que le genou était enflammé, que ce n'était sans doute rien de grave, mais qu'il ne fallait pas forcer.\nPourquoi le gardien a-t-il conseillé de serrer la ceinture du sac d'un cran ?\nPour que le poids repose sur les hanches plutôt que sur les genoux."
+    },
+    {
+      "title": "Le mas et la source",
+      "summary": "A report on a sheep-farming couple in the Luberon who fight drought by saving every litre of water and selling their lambs themselves.",
+      "newWords": [
+        "mas",
+        "sécheresse",
+        "agneau",
+        "géologique",
+        "commercialiser",
+        "lobby",
+        "optimisation",
+        "modernité",
+        "fléau"
+      ],
+      "text": "Au pied du Luberon, près d'Apt, le mas d'Hélène et de Bruno Roux a tout d'une carte postale : une grande maison basse aux volets bleus, des oliviers, un troupeau de brebis. En Provence, on appelle mas cette ferme traditionnelle, construite pour résister au vent et au soleil. Les Roux y élèvent 300 brebis et cultivent des légumes.\n\nDepuis quelques années, leur ennemi s'appelle la sécheresse. L'été dernier, il n'a pas plu pendant 4 mois. L'herbe a brûlé, et il a fallu acheter de quoi nourrir les bêtes. « La sécheresse est devenue un fléau, dit Bruno. Autrefois, c'était une mauvaise année sur dix. Maintenant, c'est presque chaque été. » Ce fléau touche toute la région : des villages ont dû limiter l'usage de l'eau, et certains agriculteurs ont abandonné.\n\nLe mas a une chance : une source qui ne s'est jamais arrêtée, même pendant les pires étés. Un ami, professeur de sciences, leur a expliqué pourquoi. Sous le mas, la roche forme une sorte d'immense éponge, qui retient l'eau de pluie pendant des années. C'est cette structure géologique qui leur permet de tenir. Mais cette réserve géologique n'est pas infinie, rappelle Hélène, et il faut la ménager.\n\nC'est pourquoi le couple s'est lancé dans l'optimisation de chaque litre. Les légumes sont arrosés goutte à goutte, la nuit, quand il fait plus frais. De petits appareils mesurent l'humidité de la terre, et un ordinateur décide quand il faut arroser. Bruno se moque un peu de cette modernité : « Mon père arrosait quand il voyait la terre sèche. » Mais il reconnaît que l'optimisation a réduit leur consommation d'eau d'un tiers. Pour Hélène, la modernité n'est pas le contraire de la tradition : elle sert à garder vivant un métier très ancien.\n\nLeurs agneaux, nourris à l'herbe, ont une viande plus maigre que ceux des élevages industriels, ce qui intéresse les familles attentives à leur santé. Les Roux ont donc décidé de les commercialiser eux-mêmes : ils vendent la viande directement aux familles et sur le marché d'Apt. Commercialiser soi-même demande du temps, mais cela rapporte presque deux fois plus que de vendre un agneau à un intermédiaire.\n\nHélène s'est aussi engagée dans une association de petits éleveurs. Elle accuse le lobby de l'agriculture industrielle de défendre surtout les grandes exploitations, qui consomment beaucoup d'eau. « Ce lobby a des bureaux à Paris et à Bruxelles, dit-elle. Nous, nous avons nos bottes et nos brebis. » Chaque hiver, elle va expliquer aux élus que l'eau est un bien commun.\n\nCe soir-là, le ciel est enfin couvert, et Bruno regarde les nuages avec espoir.\n\nQuestions :\nQu'est-ce qu'un mas ?\nC'est une ferme traditionnelle de Provence, construite pour résister au vent et au soleil.\nPourquoi Bruno dit-il que la sécheresse est devenue un fléau ?\nParce qu'autrefois, c'était une mauvaise année sur dix, et que maintenant c'est presque chaque été.\nPourquoi la source du mas ne s'arrête-t-elle jamais ?\nParce qu'une structure géologique retient l'eau de pluie sous le mas, comme une immense éponge.\nPourquoi les Roux commercialisent-ils eux-mêmes leurs agneaux ?\nParce que cela rapporte presque deux fois plus que de vendre un agneau à un intermédiaire.\nDe quoi Hélène accuse-t-elle le lobby de l'agriculture industrielle ?\nElle l'accuse de défendre surtout les grandes exploitations, qui consomment beaucoup d'eau."
+    },
+    {
+      "title": "Le steak et ma fille",
+      "summary": "A columnist describes a calm Sunday debate about meat with his vegetarian daughter in a Lyon brasserie, and the compromise they reach.",
+      "newWords": [
+        "brasserie",
+        "steak",
+        "divergence",
+        "constructif",
+        "subjectif",
+        "prêcher",
+        "renier",
+        "humaniste"
+      ],
+      "text": "Chaque premier dimanche du mois, j'emmène ma fille déjeuner dans la même brasserie de Lyon, près de la place Bellecour. J'y commande, depuis 30 ans, le même plat : un steak-frites, saignant. Inès, qui a 22 ans, est végétarienne. Le mois dernier, au-dessus de mon steak, nous avons eu notre première vraie discussion sur la viande.\n\nInès a des arguments solides. L'élevage industriel produit une grande partie des gaz qui réchauffent la planète et consomme des quantités énormes d'eau ; les médecins conseillent de limiter la viande rouge, dont l'excès augmente le risque de certaines maladies. Elle ajoute un argument moral : elle ne veut pas qu'un animal souffre pour son plaisir. Sur les chiffres, je n'avais pas grand-chose à répondre.\n\nMes arguments sont d'un autre ordre. La viande, pour ma génération, c'est un repas de fête, un savoir-faire, des éleveurs que l'on connaît. Mon grand-père était boucher à Villefranche. Renoncer au steak, ce serait un peu renier cette histoire, et je n'ai pas envie de renier ma famille. Inès m'a répondu, doucement, qu'elle ne reniait rien du tout : elle aimait son arrière-grand-père, mais le monde avait changé.\n\nUne divergence de ce genre peut séparer une famille. Chez nous, la divergence était réelle, mais elle n'a jamais tourné à la dispute. Inès ne cherche pas à prêcher. Elle a horreur, dit-elle, des gens qui prêchent à table et qui transforment chaque repas en tribunal. Elle me demande seulement d'y réfléchir.\n\nSur le goût, nous sommes vite tombés d'accord : il est subjectif. Elle trouve mon steak triste ; je trouve ses lentilles tristes. Ce jugement subjectif ne prouve rien. Sur la santé, en revanche, la science est assez claire, et j'ai dû admettre que trois steaks par semaine, c'était beaucoup.\n\nNous avons donc trouvé un accord constructif. Je mangerai de la viande deux fois par semaine, pas plus, mais de la bonne viande, achetée chez un éleveur de la région. Et une fois par mois, Inès choisira un restaurant végétarien, où je l'accompagnerai sans commentaires. Ce n'est pas une révolution, mais la démarche est constructive, et elle nous convient à tous les deux.\n\nEn sortant de la brasserie, Inès m'a dit que j'étais au fond un humaniste : quelqu'un qui croit qu'on peut se parler, même quand on n'est pas d'accord. Si être humaniste, c'est écouter sa fille au lieu de lui faire la leçon, j'essaierai de l'être chaque premier dimanche du mois.\n\nQuestions :\nQue commande l'auteur dans la brasserie depuis 30 ans ?\nIl commande toujours un steak-frites, saignant.\nQuels sont les arguments d'Inès contre la viande ?\nL'élevage industriel réchauffe la planète et consomme beaucoup d'eau, l'excès de viande rouge est mauvais pour la santé, et elle ne veut pas qu'un animal souffre.\nPourquoi l'auteur ne veut-il pas renoncer au steak ?\nParce que ce serait un peu renier l'histoire de sa famille : son grand-père était boucher.\nInès cherche-t-elle à prêcher ?\nNon, elle demande seulement à son père d'y réfléchir.\nPourquoi le goût ne prouve-t-il rien ?\nParce que le goût est subjectif.\nQuel accord constructif ont-ils trouvé ?\nLe père mangera de la bonne viande deux fois par semaine, et il accompagnera Inès une fois par mois dans un restaurant végétarien."
+    },
+    {
+      "title": "Les coulisses de la cuisine",
+      "summary": "An interview with a Belgian novelist, a former cook, about her novel set in the kitchen of a Brussels restaurant and the health of the people who work there.",
+      "newWords": [
+        "romancier",
+        "coulisse",
+        "théâtral",
+        "séduction",
+        "monumental",
+        "tic",
+        "féminisme",
+        "ancré",
+        "dénonciation",
+        "détachement"
+      ],
+      "text": "La romancière belge Anne Delvaux a travaillé 8 ans comme cuisinière avant d'écrire. Son nouveau roman, « Service du soir », raconte une nuit dans les coulisses d'un grand restaurant de Bruxelles.\n\n— Pourquoi avoir choisi les coulisses d'un restaurant ?\n— Parce que le client ne voit que la salle : les nappes blanches, le calme, l'assiette qui arrive comme un petit tableau. Dans les coulisses, c'est-à-dire en cuisine, c'est une autre vie : la chaleur, le bruit, la vitesse, les brûlures. Je voulais montrer ces deux mondes, qui ne sont séparés que par une porte.\n\n— Votre chef, Marc, est un personnage très théâtral. Il crie, il jette les assiettes...\n— Oui, il est théâtral, mais je ne l'ai pas inventé. Dans les grandes cuisines, la colère est parfois une sorte de spectacle, presque une scène théâtrale, qui sert à montrer qui commande. Le problème, c'est que ce spectacle use les gens.\n\n— Justement, votre livre parle beaucoup de santé.\n— C'est même son vrai sujet. Les cuisiniers travaillent 12 ou 14 heures par jour, debout, souvent sans manger correctement, eux qui nourrissent les autres. Beaucoup ont mal au dos, dorment mal, boivent trop de café. Mon héroïne, Lucie, a un tic nerveux : elle se touche l'oreille dès qu'elle a peur. J'avais ce tic moi-même quand je travaillais en cuisine. Il a disparu 6 mois après mon départ.\n\n— Votre roman est-il une dénonciation ?\n— Je n'aime pas ce mot. Une dénonciation, c'est un procès, avec des coupables. En tant que romancière, je voulais plutôt comprendre. J'ai écrit avec un certain détachement, comme si je regardais la cuisine de loin. Ce détachement m'a permis d'être juste avec tout le monde, même avec Marc.\n\n— On parle aussi de féminisme à propos de votre livre.\n— Les femmes restent rares à la tête des grandes cuisines. Lucie se bat pour sa place, et oui, c'est une histoire de féminisme, au sens le plus simple du mot : une femme qui veut être jugée sur son travail. Mon féminisme est dans les faits, pas dans les discours.\n\n— Et la séduction du métier, malgré tout ?\n— Elle est réelle. Il y a une vraie séduction dans ce métier : le geste précis, l'odeur du beurre, la fierté d'un service réussi. C'est cette séduction qui retient les jeunes, même quand ils souffrent. L'idée que la souffrance fait partie du métier est profondément ancrée dans les cuisines. Elle y est ancrée depuis des générations.\n\n— Vous avez mis 4 ans à écrire ce livre.\n— Oui, ce fut un travail monumental pour moi : 600 pages, des dizaines d'entretiens avec des cuisiniers. Mais le vrai travail monumental, c'est celui des gens qui sont en cuisine chaque soir. Un romancier ne peut pas changer un métier ; il peut seulement aider à le regarder.\n\nQuestions :\nQue faisait Anne Delvaux avant de devenir romancière ?\nElle a travaillé 8 ans comme cuisinière.\nQuel tic a Lucie, l'héroïne du roman ?\nElle se touche l'oreille dès qu'elle a peur.\nPourquoi la romancière n'aime-t-elle pas le mot « dénonciation » ?\nParce qu'une dénonciation, c'est un procès avec des coupables, et qu'elle voulait plutôt comprendre.\nQu'est-ce qui est profondément ancré dans les cuisines ?\nL'idée que la souffrance fait partie du métier.\nPourquoi parle-t-elle d'un travail monumental ?\nParce qu'elle a mis 4 ans à écrire 600 pages, après des dizaines d'entretiens avec des cuisiniers."
+    },
+    {
+      "title": "Lettre aux parents",
+      "summary": "A school principal in Neuchâtel writes to parents to explain how the school canteen will change after their petition.",
+      "newWords": [
+        "signataire",
+        "abstention",
+        "recenser",
+        "préoccupé",
+        "bombarder",
+        "impossibilité",
+        "commencement",
+        "assurément"
+      ],
+      "text": "Neuchâtel, le 12 novembre\n\nChers parents,\n\nAu commencement de cette année scolaire, plusieurs d'entre vous se sont dits préoccupés par les repas servis à la cantine de notre école. Vous trouviez les desserts trop sucrés, les légumes trop rares et les portions mal adaptées aux plus petits. Je comprends que vous soyez préoccupés : l'alimentation des enfants est une question de santé, et elle nous concerne tous. Dès le commencement, j'ai voulu que nous cherchions une solution ensemble.\n\nEn septembre, une pétition a circulé. Elle a réuni 143 signataires, soit presque la moitié des familles de l'école. Les signataires demandaient trois choses : moins de sucre, plus de légumes et un menu publié chaque semaine. Dans les jours qui ont suivi, notre secrétariat a été bombardé de courriels ; certains jours, nous en recevions plus de 50. Je vous remercie de votre engagement. Je vous demande toutefois, à l'avenir, de passer par vos représentants, car une petite équipe que l'on bombarde de messages ne peut pas répondre à chacun.\n\nNous avons créé un groupe de travail, avec deux parents, la cuisinière, une diététicienne de la ville et moi-même. Notre première tâche a été de recenser les besoins réels des enfants. Nous avons recensé 21 enfants qui ont une allergie ou une intolérance, 34 qui ne mangent pas de porc et 12 qui ne mangent pas de viande. La diététicienne a ensuite étudié nos menus des deux dernières années.\n\nLe conseil d'établissement a voté le nouveau règlement de la cantine le 4 novembre : 9 voix pour, aucune voix contre et 2 abstentions. Les deux abstentions venaient de membres qui trouvaient que le projet allait dans le bon sens, mais qui auraient voulu aller plus loin et supprimer tous les desserts sucrés.\n\nVoici ce qui change dès le 1er décembre : un dessert sucré deux fois par semaine seulement, des fruits les autres jours ; des légumes à chaque repas ; des portions plus petites pour les élèves de moins de 8 ans ; un menu publié chaque lundi sur le site de l'école.\n\nEn revanche, je dois vous parler d'une impossibilité. Notre cuisine n'a ni la place ni le personnel pour préparer un repas différent pour chaque enfant. Cette impossibilité est matérielle ; ce n'est pas une question de bonne volonté. Les enfants allergiques continueront donc à recevoir un plateau adapté, préparé selon un protocole médical, mais nous ne pourrons pas répondre aux simples préférences.\n\nCe nouveau règlement n'est assurément pas parfait. Il est assurément meilleur que l'ancien, et nous ferons le point avec vous au mois de juin.\n\nAvec mes salutations les meilleures,\nMartine Jacot, directrice\n\nQuestions :\nPourquoi des parents étaient-ils préoccupés au commencement de l'année ?\nIls trouvaient les desserts trop sucrés, les légumes trop rares et les portions mal adaptées aux plus petits.\nCombien de signataires la pétition a-t-elle réunis ?\nElle a réuni 143 signataires, soit presque la moitié des familles.\nQu'est-ce que le groupe de travail a recensé ?\nIl a recensé 21 enfants allergiques ou intolérants, 34 enfants qui ne mangent pas de porc et 12 qui ne mangent pas de viande.\nPourquoi deux membres ont-ils choisi l'abstention ?\nParce qu'ils auraient voulu aller plus loin et supprimer tous les desserts sucrés.\nDe quelle impossibilité la directrice parle-t-elle ?\nLa cuisine n'a ni la place ni le personnel pour préparer un repas différent pour chaque enfant."
+    }
+  ]
+}

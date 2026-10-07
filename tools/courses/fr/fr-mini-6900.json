@@ -1,0 +1,218 @@
+{
+  "id": "fr-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Les nombres et le raisonnement",
+  "description": "Ten short texts about reasoning with numbers in everyday life, from a hurricane forecast in Guadeloupe and a caterer's rule of three in Lyon to radiocarbon dating in Dakar and a misleading city survey in Rennes.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Guadeloupe",
+    "Pitre",
+    "Josiane",
+    "Bélair",
+    "Afrique",
+    "Lausanne",
+    "Suisse",
+    "Sherbrooke",
+    "Québec",
+    "Ève",
+    "Mathieu",
+    "Lyon",
+    "Bernard",
+    "Chalon",
+    "Perrin",
+    "Sophie",
+    "Karim",
+    "Liège",
+    "Lucien",
+    "Carlo",
+    "Monaco",
+    "Méditerranée",
+    "Théo",
+    "Genève",
+    "Hélène",
+    "Vuilleumier",
+    "Igor",
+    "Stravinsky",
+    "Paris",
+    "Russie",
+    "Reims",
+    "Beethoven",
+    "Aurélie",
+    "Dewit",
+    "Bruxelles",
+    "Maëlle",
+    "Aminata",
+    "Sarr",
+    "Dakar",
+    "Sénégal",
+    "Rennes",
+    "France"
+  ],
+  "lessons": [
+    {
+      "title": "Prévoir un ouragan, c'est d'abord compter",
+      "summary": "In a radio interview, a forecaster in Guadeloupe explains how she reasons with probabilities before a hurricane and why water is more dangerous than wind.",
+      "newWords": [
+        "ouragan",
+        "destructeur",
+        "prédit",
+        "élévation",
+        "saturé",
+        "égout",
+        "planétaire",
+        "redouter",
+        "brochure",
+        "interminable"
+      ],
+      "text": "Chaque année, de juin à novembre, la Guadeloupe vit avec la saison des ouragans. Josiane Bélair travaille depuis vingt ans au service météo de Pointe-à-Pitre. À la veille de la saison, une radio de l'île l'a invitée à expliquer comment on prévoit un ouragan.\n\nLa journaliste lui a d'abord demandé si l'on pouvait vraiment savoir où un ouragan allait passer. « Pas avec certitude, a répondu Josiane Bélair. Nous travaillons avec des probabilités. Quand un ouragan se forme au large de l'Afrique, nos ordinateurs calculent cinquante trajectoires possibles. Si quarante de ces trajectoires passent près de la Guadeloupe, nous disons que le risque est de 80 %. »\n\nLa journaliste lui a rappelé que, l'année précédente, les services météo avaient prédit un ouragan très destructeur, et qu'il était finalement passé plus au nord, ce qui avait fâché beaucoup d'habitants. « Je comprends leur colère, a répondu Josiane Bélair. Mais nous n'avions pas prédit que l'ouragan frapperait l'île. Nous avions prédit un risque de 30 %. Cela veut dire que, sur dix situations semblables, l'ouragan touche l'île trois fois et passe à côté sept fois. On ne peut pas juger une probabilité sur un seul cas. »\n\nQu'est-ce qui rend un ouragan destructeur ? Selon elle, ce n'est pas seulement le vent. « L'eau tue plus que le vent, a-t-elle expliqué. Il y a d'abord l'élévation du niveau de la mer : la tempête pousse la mer vers la côte, et une élévation d'un mètre suffit à provoquer des inondations dans les quartiers bas. Il y a ensuite la pluie : quand les sols sont déjà saturés après plusieurs semaines de mauvais temps, ils ne boivent plus rien. Les égouts sont saturés à leur tour, et l'eau des égouts remonte dans les rues. Sur un sol saturé, un ouragan modéré peut être plus destructeur qu'un ouragan violent par temps sec. »\n\nLes ouragans seront-ils plus nombreux avec le réchauffement ? « Le réchauffement est un phénomène planétaire, a répondu Josiane Bélair, et à l'échelle planétaire, les chercheurs ne sont pas tous d'accord sur le nombre d'ouragans. En revanche, la plupart pensent que les plus forts seront plus fréquents, parce que la mer est plus chaude. Ce que nous redoutons, ce n'est pas un ouragan de plus par an, c'est un ouragan plus puissant. »\n\nEnfin, elle a conseillé aux habitants de lire la brochure que la préfecture distribue chaque année. Cette brochure explique comment préparer de l'eau, des piles et des médicaments, et où se trouvent les abris. « Quand une tempête approche, l'attente paraît interminable, a-t-elle reconnu. On attend le prochain bulletin, et les heures sont interminables. Mais ceux qui ont préparé leur maison redoutent moins ces heures-là. »\n\nQuestions :\nComment Josiane Bélair calcule-t-elle le risque qu'un ouragan touche l'île ?\nElle compte les trajectoires qui passent près de l'île : si quarante sur cinquante y passent, le risque est de 80 %.\nQue veut dire un risque de 30 % ?\nCela veut dire que, sur dix situations semblables, l'ouragan touche l'île trois fois et passe à côté sept fois.\nPourquoi un sol saturé rend-il un ouragan plus destructeur ?\nParce que le sol ne boit plus la pluie, les égouts sont saturés et l'eau remonte dans les rues.\nQu'est-ce que Josiane Bélair redoute avec le réchauffement ?\nElle redoute surtout des ouragans plus puissants, parce que la mer est plus chaude."
+    },
+    {
+      "title": "Trois règles avant de croire un chiffre",
+      "summary": "A family doctor in Lausanne writes a newspaper column with three simple rules for reading health statistics.",
+      "newWords": [
+        "praticien",
+        "coïncider",
+        "autisme",
+        "généraliser",
+        "diabète",
+        "cosmétique",
+        "vieillissement",
+        "antibiotique",
+        "révélateur"
+      ],
+      "text": "Je suis médecin généraliste à Lausanne depuis quinze ans, et chaque semaine un patient m'apporte un chiffre qu'il a lu sur internet. Ces chiffres ne sont pas faux, en général. Mais ils sont souvent mal compris. Comme praticienne, je vois tous les jours ce qu'une statistique mal lue peut provoquer : de la peur inutile, ou au contraire une confiance trop grande. Voici les trois règles que j'applique avant de croire un chiffre, et que beaucoup de praticiens appliquent avec moi.\n\nPremière règle : deux choses qui coïncident ne sont pas forcément liées. Depuis vingt ans, le nombre de diagnostics d'autisme a augmenté en Suisse, et le nombre de téléphones portables aussi. Si l'on dessine les deux courbes, elles coïncident presque parfaitement. Faut-il en conclure que les téléphones causent l'autisme ? Évidemment non. Si l'on diagnostique davantage l'autisme, c'est surtout parce que les médecins connaissent mieux ce trouble et le reconnaissent plus tôt chez l'enfant. Que deux courbes coïncident ne prouve rien : il faut une explication, puis des études qui la vérifient.\n\nDeuxième règle : on ne peut pas généraliser à partir d'un seul cas. Un patient m'a dit un jour : « Mon grand-père mettait du sucre partout, et il n'a jamais eu de diabète. » C'est vrai, et je m'en réjouis pour lui. Mais on ne peut pas généraliser à partir d'un grand-père. Le risque de diabète augmente avec le poids, l'âge et le manque d'activité. Cela ne veut pas dire que chaque personne en surpoids aura un diabète ; cela veut dire que, sur mille personnes, il y en aura davantage. Il en va de même pour la publicité. Une crème cosmétique qui « rajeunit la peau chez 9 femmes sur 10 » a peut-être été testée sur vingt femmes, pendant deux semaines. Impossible de généraliser un tel résultat. Et aucun produit cosmétique n'arrête le vieillissement : le vieillissement de la peau est un processus naturel, que l'on peut ralentir un peu en évitant le soleil, mais pas effacer.\n\nTroisième règle : un chiffre seul n'est pas révélateur ; il faut savoir à quoi on le compare. On lit parfois qu'un antibiotique « réduit de moitié » le risque d'une complication. Le chiffre impressionne. Mais si le risque passe de 2 malades sur 1000 à 1 malade sur 1000, l'antibiotique n'aide qu'un patient sur mille, alors qu'il peut causer des effets secondaires chez beaucoup d'autres. De plus, chaque antibiotique pris sans raison rend les bactéries un peu plus résistantes. Le chiffre le plus révélateur n'est donc pas « la moitié », mais « un sur mille ».\n\nCes trois règles ne font pas de vous un statisticien. Elles vous donnent seulement l'habitude de poser une question de plus. Et, dans mon cabinet, c'est souvent cette question qui est la plus révélatrice.\n\nQuestions :\nQue les patients apportent-ils souvent au cabinet de la praticienne ?\nIls apportent un chiffre qu'ils ont lu sur internet.\nPourquoi les courbes de l'autisme et des téléphones coïncident-elles ?\nElles coïncident par hasard : on diagnostique davantage l'autisme parce que les médecins connaissent mieux ce trouble.\nPourquoi ne peut-on pas généraliser à partir du grand-père qui n'a jamais eu de diabète ?\nParce qu'un seul cas ne dit rien sur le risque de mille personnes.\nQue pense la médecin des crèmes cosmétiques ?\nElle pense qu'aucun produit cosmétique n'arrête le vieillissement de la peau.\nQuel est le chiffre le plus révélateur dans l'exemple de l'antibiotique ?\nC'est « un sur mille », et non « la moitié »."
+    },
+    {
+      "title": "Trois plis pour un théorème",
+      "summary": "In his diary, a cégep student in Sherbrooke who finds maths boring learns from a tutor to see and then prove a geometry theorem.",
+      "newWords": [
+        "cégep",
+        "cursus",
+        "ennuyeux",
+        "quelquefois",
+        "théorème",
+        "désespérer",
+        "réconforter",
+        "pli",
+        "structuré",
+        "géométrique"
+      ],
+      "text": "Lundi 12 septembre\n\nJe commence ma deuxième année au cégep de Sherbrooke. Pour mes cousins de France : au Québec, le cégep est l'école où l'on va après le secondaire et avant l'université. Mon cursus est en sciences de la nature, parce que je veux devenir ingénieur. Dans ce cursus, il y a beaucoup de mathématiques, et c'est là mon problème. Je trouve les maths ennuyeuses. Quelquefois, pendant le cours, je regarde par la fenêtre et je compte les voitures du stationnement. Quelquefois, je ne compte même plus.\n\nMercredi 14 septembre\n\nLe professeur nous a demandé de démontrer un théorème de géométrie : la somme des angles d'un triangle fait toujours 180 degrés. Je connais ce théorème depuis le secondaire, mais je ne sais pas du tout le démontrer. J'ai passé deux heures devant une feuille blanche. Je commence à désespérer.\n\nJeudi 15 septembre\n\nAu centre d'aide du cégep, j'ai rencontré Ève, une étudiante en mathématiques à l'université. Je lui ai dit que je désespérais, que je n'étais pas fait pour les maths. Elle a souri et elle m'a dit une phrase qui m'a réconforté : « Tout le monde a cru un jour qu'il n'était pas fait pour les maths. Ce n'est pas une question de talent, c'est une question de méthode. »\n\nPuis elle a dessiné un grand triangle sur une feuille et elle l'a découpé. Elle a fait un premier pli pour amener le sommet du triangle sur le côté le plus long. Ensuite, elle a fait un deuxième pli, puis un troisième, pour amener les deux autres coins au même point. Les trois angles se touchaient et formaient une ligne droite, c'est-à-dire 180 degrés. Avec trois plis, j'avais vu le théorème de mes propres yeux.\n\n« Voir, ce n'est pas encore démontrer, a dit Ève. Mais maintenant, tu sais ce que tu cherches. » Elle m'a montré comment écrire une démonstration bien structurée : d'abord ce que l'on sait, ensuite ce que l'on veut prouver, enfin chaque étape, une par ligne, avec sa raison. Selon elle, une démonstration structurée ressemble à une recette : on ne saute aucune étape.\n\nLundi 19 septembre\n\nJ'ai rendu ma démonstration ce matin. Le professeur a écrit dans la marge : « Clair et bien structuré. » Je ne sais pas si je vais aimer les maths un jour, mais je les trouve déjà moins ennuyeuses. Je trouve même une certaine beauté aux figures géométriques : un triangle, un cercle sont des formes géométriques simples qui obéissent à des règles parfaites.\n\nCe soir, j'ai écrit à Ève pour la remercier. Elle m'a répondu en une ligne : « La prochaine fois que tu désespères, prends une feuille et fais un pli. » Cela m'a réconforté une deuxième fois.\n\nQuestions :\nQu'est-ce que le cégep, au Québec ?\nC'est l'école où l'on va après le secondaire et avant l'université.\nPourquoi Mathieu a-t-il beaucoup de mathématiques dans son cursus ?\nParce qu'il étudie en sciences de la nature et qu'il veut devenir ingénieur.\nQuel théorème devait-il démontrer ?\nIl devait démontrer que la somme des angles d'un triangle fait toujours 180 degrés.\nComment Ève lui a-t-elle montré le théorème ?\nElle a découpé un triangle et elle a fait trois plis pour réunir les trois angles sur une ligne droite.\nQu'est-ce qu'une démonstration bien structurée, selon Ève ?\nElle donne ce que l'on sait, ce que l'on veut prouver, puis chaque étape avec sa raison."
+    },
+    {
+      "title": "Le carnet du traiteur",
+      "summary": "A Lyon caterer plans a wedding buffet for 120 guests, using the rule of three and then correcting it with what experience has taught him.",
+      "newWords": [
+        "gastronomie",
+        "buffet",
+        "sophistiqué",
+        "politesse",
+        "raffiné",
+        "croûte",
+        "haricot",
+        "frit",
+        "mécontent",
+        "remerciement"
+      ],
+      "text": "Bernard Chalon est traiteur à Lyon, une ville que l'on présente souvent comme la capitale de la gastronomie française. Depuis trente ans, il prépare des buffets pour les mariages, les baptêmes et les fêtes d'entreprise. Bernard aime répéter que la gastronomie commence par le calcul.\n\nUn matin de mai, Mme Perrin vint le voir pour le mariage de sa fille. Elle voulait un buffet pour 120 invités et elle avait apporté des pages de magazines : des plats très sophistiqués, avec des mousses colorées et des fleurs que l'on mange. Bernard l'écouta avec politesse, puis il lui proposa une autre idée. « Un buffet trop sophistiqué fatigue les invités, lui dit-il. Ce qui est vraiment raffiné, c'est souvent ce qui est simple et parfait. » Il lui proposa son pâté en croûte, une salade de haricots verts, des petits poissons frits, du poulet froid et des fromages de la région. Mme Perrin accepta.\n\nLe soir, Bernard ouvrit son vieux carnet, où il avait noté, pour chaque plat, la quantité nécessaire pour dix personnes. Pour la salade, par exemple : 1,5 kilo de haricots pour dix invités. La règle de trois donnait le reste. Si 1,5 kilo suffit pour dix personnes, il faut 150 grammes par personne, donc 18 kilos de haricots pour 120 personnes.\n\nMais Bernard savait que la règle de trois ne suffit pas. Sur un buffet, plus il y a de plats, moins chaque invité prend de chaque plat : avec huit plats, personne ne mange huit portions entières. Il réduisit donc ses quantités d'un quart : 13,5 kilos au lieu de 18. Ensuite, il pensa à l'heure. Un mariage dure longtemps, et vers minuit, les invités ont de nouveau faim. Il ajouta un deuxième service, plus léger, avec des oignons frits et du fromage.\n\nEnfin, il pensa à la politesse. Dans un buffet, les premiers invités se servent largement, et les derniers, par politesse, n'osent pas prendre ce qui reste. Bernard prévoit donc toujours 10 % de plus, pour que personne ne reparte mécontent. « Un invité mécontent, disait-il, c'est presque toujours un plat qui s'est vidé trop tôt. »\n\nLe pâté en croûte demanda un calcul à part. Un pâté coupé en tranches d'un centimètre donne 30 parts. Pour 120 invités, il en fallait quatre. Bernard en fit cinq, parce que la croûte se casse parfois à la coupe, et parce qu'à Lyon, personne ne refuse une deuxième tranche.\n\nLe jour du mariage, il ne resta presque rien sur les tables, mais rien ne manqua, et aucun invité ne fut mécontent. Une semaine plus tard, Bernard reçut une lettre de remerciement de Mme Perrin. Dans ses remerciements, elle ne parlait pas de calcul : elle parlait du goût des haricots et de la croûte dorée du pâté. Bernard rangea la lettre dans son carnet, à côté de ses chiffres.\n\nQuestions :\nPourquoi Bernard refusa-t-il les plats sophistiqués des magazines ?\nParce qu'un buffet trop sophistiqué fatigue les invités, et que ce qui est raffiné est souvent simple.\nCombien de haricots fallait-il pour 120 personnes selon la règle de trois ?\nIl fallait 18 kilos de haricots, à raison de 150 grammes par personne.\nPourquoi réduisit-il ensuite cette quantité ?\nParce que, sur un buffet avec beaucoup de plats, chaque invité prend moins de chaque plat.\nPourquoi prévoit-il toujours 10 % de plus ?\nParce que les derniers invités, par politesse, n'osent pas se servir, et qu'il ne veut pas d'invité mécontent.\nPourquoi fit-il cinq pâtés en croûte au lieu de quatre ?\nParce que la croûte se casse parfois à la coupe et que personne ne refuse une deuxième tranche."
+    },
+    {
+      "title": "Une maison dans le faubourg",
+      "summary": "A young couple in Liège buy an empty old house before their baby is born and work out the cost of the repairs, from roof tiles to the baby's basket.",
+      "newWords": [
+        "faubourg",
+        "vacant",
+        "acquéreur",
+        "tuile",
+        "brèche",
+        "mortier",
+        "baignoire",
+        "serrure",
+        "gazon",
+        "moïse"
+      ],
+      "text": "Sophie et Karim attendaient leur premier enfant pour le mois de mars. Leur appartement, au centre de Liège, devenait trop petit. En septembre, ils ont trouvé une vieille maison dans un faubourg de la ville, à vingt minutes du centre à vélo. Dans ce faubourg, chaque maison de briques avait un petit jardin.\n\nLa maison était vacante depuis trois ans : la propriétaire était partie en maison de retraite, et personne n'y habitait plus. Une maison vacante coûte moins cher, mais elle cache souvent des travaux. Avant de signer, Sophie et Karim ont donc fait ce que fait tout acquéreur prudent : ils ont visité chaque pièce et ils ont calculé le prix des réparations. Si le total restait sous 20 000 euros, ils deviendraient les acquéreurs de la maison.\n\nLe plus gros travail, c'était le toit. Il manquait des tuiles, et beaucoup d'autres étaient cassées. Le toit avait deux côtés de 8 mètres sur 5, soit 40 mètres carrés chacun et 80 mètres carrés en tout. Le marchand comptait 13 tuiles par mètre carré : 80 fois 13, cela faisait 1 040 tuiles. Karim a ajouté 10 % pour les tuiles qui se cassent pendant la pose, et il a arrondi à 1 150 tuiles.\n\nAu fond du jardin, le mur avait une brèche d'un mètre de large, par laquelle entraient les chats du quartier. Pour fermer la brèche, il fallait des briques et du mortier. Le maçon leur a expliqué la recette du mortier : une part de ciment pour trois parts de sable, et assez d'eau pour obtenir une pâte souple. Pour cette brèche, il faudrait environ 60 litres de mortier.\n\nDans la salle de bains, la vieille baignoire était cassée. Sophie voulait une douche, Karim voulait une baignoire pour le bébé. Ils ont fait un calcul simple : un bain consomme environ 150 litres d'eau, une douche de cinq minutes environ 50 litres. Ils ont choisi une douche, et une petite baignoire en plastique pour les bains du bébé.\n\nIls ont aussi changé la serrure de la porte d'entrée. Personne ne savait combien de clés de l'ancienne serrure existaient encore : la propriétaire en avait peut-être donné à des voisins ou à des aides à domicile. Une nouvelle serrure coûtait 90 euros : un petit prix pour dormir tranquilles.\n\nRestait le jardin, couvert de hautes herbes. Pour semer du gazon sur 60 mètres carrés, il fallait 35 grammes de graines par mètre carré, soit un peu plus de deux kilos. En octobre, le gazon pousse encore ; au printemps, le bébé aurait un gazon vert sous sa fenêtre.\n\nLe total faisait 17 500 euros. En octobre, Sophie et Karim sont devenus les acquéreurs de la maison. La dernière dépense était la plus petite : un moïse, ce berceau léger où dorment les nouveau-nés pendant leurs premiers mois. Karim a mesuré la chambre pour savoir où mettre le moïse, loin de la fenêtre, près du lit des parents.\n\nQuestions :\nPourquoi la maison coûtait-elle moins cher ?\nParce qu'elle était vacante depuis trois ans et qu'elle avait besoin de travaux.\nCombien de tuiles Karim a-t-il commandées, et pourquoi ?\nIl a commandé environ 1 150 tuiles, parce qu'il a ajouté 10 % pour les tuiles cassées pendant la pose.\nComment fait-on du mortier, selon le maçon ?\nOn mélange une part de ciment avec trois parts de sable, et assez d'eau.\nPourquoi ont-ils changé la serrure ?\nParce que personne ne savait combien de clés de l'ancienne serrure existaient encore.\nQu'est-ce qu'un moïse ?\nC'est un berceau léger où dorment les nouveau-nés pendant leurs premiers mois."
+    },
+    {
+      "title": "La bille n'a pas de mémoire",
+      "summary": "A retired croupier in Monaco shows his curious grandson with a toy roulette wheel why the casino always wins and why a run of reds does not make black more likely.",
+      "newWords": [
+        "principauté",
+        "coquin",
+        "millionnaire",
+        "rebond",
+        "triompher",
+        "luxembourgeois",
+        "ardent",
+        "dogme",
+        "stupéfiant",
+        "égaler"
+      ],
+      "text": "Lucien a été croupier au casino de Monte-Carlo pendant trente ans. Aujourd'hui retraité, il habite toujours la principauté de Monaco, ce petit État de deux kilomètres carrés au bord de la Méditerranée. Chaque été, son petit-fils Théo, dix ans, vient passer deux semaines chez lui. Théo est un petit coquin qui adore poser des questions difficiles.\n\nUn soir, en passant devant le casino, Théo a demandé : « Papi, tu as vu des gens devenir millionnaires, ici ? » Lucien a souri. « J'ai vu beaucoup de millionnaires entrer au casino. J'en ai vu beaucoup moins en sortir millionnaires. » Le petit coquin a voulu savoir pourquoi.\n\nLe lendemain, Lucien a sorti une petite roulette en bois, un cadeau de ses collègues. La roue a 37 cases : 18 rouges, 18 noires et une verte, le zéro. On lance la bille, elle tourne, fait plusieurs rebonds sur les bords et s'arrête dans une case. « Chaque rebond dépend du hasard, a dit Lucien. Mais sur des milliers de tours, les résultats sont très prévisibles. » Celui qui joue sur le rouge a 18 chances sur 37 de gagner, c'est-à-dire un peu moins d'une chance sur deux. Cette petite différence, c'est le zéro : c'est lui qui fait vivre le casino. Sur un tour, le joueur peut triompher. Sur dix mille tours, c'est toujours la banque qui triomphe.\n\nPuis Lucien a raconté l'histoire d'un touriste luxembourgeois, un joueur ardent. Un soir, le rouge était sorti douze fois de suite. Le touriste luxembourgeois était sûr que le noir allait sortir : après douze rouges, pensait-il, le noir était « dû ». C'était pour lui un dogme. Il a misé une somme stupéfiante sur le noir. La bille a fait ses rebonds habituels, puis elle s'est arrêtée sur le rouge.\n\n« La bille n'a pas de mémoire, a expliqué Lucien. Au tour suivant, les chances sont exactement les mêmes qu'au premier. » Le dogme du touriste a même un nom : on l'appelle l'erreur du joueur.\n\nThéo a réfléchi. « Mais douze rouges de suite, c'est stupéfiant, non ? » Ensemble, ils ont fait le calcul : une telle série a environ une chance sur 5 700 d'arriver. « Mais au casino, a dit Lucien, on lance la bille des centaines de fois par jour, sur des dizaines de tables. Une série de douze arrive donc plusieurs fois par an. Ce qui paraît stupéfiant à un joueur est banal pour un croupier. »\n\nPuis il a conclu : « Si tu joues assez longtemps, tes gains n'égaleront jamais tes pertes. Deux et deux égalent quatre, ici comme ailleurs. »\n\nLe soir, Théo a joué à la roulette en bois avec des haricots secs à la place des jetons. Au bout d'une heure, la banque, c'est-à-dire son grand-père, avait triomphé. Théo, ardent défenseur de la justice, a déclaré que le zéro était injuste. « C'est exactement ça », a répondu Lucien.\n\nQuestions :\nOù habite Lucien, et quel était son métier ?\nIl habite la principauté de Monaco et il était croupier au casino de Monte-Carlo.\nPourquoi le casino triomphe-t-il toujours sur des milliers de tours ?\nÀ cause du zéro, le joueur a un peu moins d'une chance sur deux de gagner.\nQuel était le dogme du touriste luxembourgeois ?\nIl croyait qu'après douze rouges, le noir devait forcément sortir.\nPourquoi ce dogme est-il faux ?\nParce que la bille n'a pas de mémoire : à chaque tour, les chances sont les mêmes."
+    },
+    {
+      "title": "La cheffe qui compte",
+      "summary": "A portrait of a Geneva conductor who teaches a youth orchestra to count the changing rhythms of The Rite of Spring.",
+      "newWords": [
+        "sacre",
+        "ballade",
+        "involontaire",
+        "musclé",
+        "pastoral",
+        "dévoué",
+        "revêtir",
+        "projecteur",
+        "divertir"
+      ],
+      "text": "À Genève, tout le monde ne connaît pas Hélène Vuilleumier, mais tous les jeunes musiciens de la ville connaissent sa phrase préférée : « La musique, c'est d'abord compter. » Depuis douze ans, elle dirige un orchestre de soixante jeunes musiciens. Cette saison, elle leur a proposé un défi : Le Sacre du printemps, d'Igor Stravinsky.\n\nLe Sacre du printemps a été joué pour la première fois à Paris en 1913. L'œuvre imagine un rite de la Russie ancienne, une grande fête religieuse pour célébrer le retour du printemps. D'habitude, le mot sacre désigne la cérémonie où un roi recevait sa couronne, comme le sacre des rois de France à Reims. Le soir de la première, une partie du public a crié et sifflé. L'une des raisons de ce scandale, ce sont les rythmes.\n\nDans la plupart des musiques que nous connaissons, une ballade ou une chanson populaire, on compte toujours de la même façon : un, deux, trois, quatre, et on recommence. Une ballade se chante presque sans réfléchir. Dans certaines pages du Sacre, au contraire, la mesure change sans cesse : cinq temps, puis sept, puis trois, puis deux. Les musiciens ne peuvent pas sentir ce rythme ; ils doivent le compter.\n\nHélène a donc commencé par une méthode simple. Pendant les premières répétitions, sans instruments, les jeunes frappaient dans leurs mains et comptaient à voix haute. Sept temps, c'est deux plus deux plus trois ; cinq temps, c'est deux plus trois. « Un grand nombre, on ne le compte pas, on le découpe », répète-t-elle.\n\nLe plus grand danger, selon elle, c'est l'accélération involontaire. Quand la musique devient forte, les musiciens jouent plus vite sans le vouloir. Ce mouvement involontaire est naturel : le cœur bat plus vite, et la main suit le cœur. Les joueurs de percussions, avec leurs bras musclés, sont souvent les premiers à accélérer. Hélène leur demande un son musclé, mais un rythme calme : « La force, oui ; la vitesse, non. »\n\nPour reposer l'orchestre, elle a mis au programme une œuvre plus douce, la Symphonie pastorale de Beethoven, qui peint la campagne. Après le Sacre, la musique pastorale paraît très simple. Pourtant, dit Hélène, c'est la plus difficile à jouer juste, parce qu'on ne peut s'y cacher derrière aucun bruit.\n\nLes jeunes sont très dévoués à leur cheffe. Ils ont répété chaque samedi pendant quatre mois, et les plus dévoués venaient même le dimanche. Pour Hélène, chaque chiffre de la partition revêt une importance particulière : un cinq n'est pas un six.\n\nLe soir du concert, les musiciens ont revêtu la tenue noire de l'orchestre. Dans la salle, les projecteurs se sont éteints un à un ; un seul projecteur éclairait encore la cheffe quand elle a levé les bras. Le public a été diverti, bien sûr, mais Hélène n'a jamais voulu seulement divertir. Elle voulait montrer que l'oreille et la raison travaillent ensemble.\n\nQuestions :\nQuel défi Hélène a-t-elle proposé à son orchestre ?\nElle lui a proposé de jouer Le Sacre du printemps, de Stravinsky.\nQue désigne d'habitude le mot sacre ?\nIl désigne la cérémonie où un roi recevait sa couronne, comme à Reims.\nPourquoi les musiciens doivent-ils compter les rythmes du Sacre ?\nParce que la mesure change sans cesse, contrairement à une ballade.\nQu'est-ce que l'accélération involontaire ?\nC'est quand les musiciens jouent plus vite sans le vouloir, parce que la musique devient forte.\nPourquoi la musique pastorale de Beethoven est-elle difficile, selon Hélène ?\nParce qu'on ne peut s'y cacher derrière aucun bruit."
+    },
+    {
+      "title": "Ma trilogie en chiffres",
+      "summary": "A Brussels novelist explains on her blog how numbers, a spreadsheet and her readers' letters helped her write a fantasy trilogy.",
+      "newWords": [
+        "thriller",
+        "trilogie",
+        "fantasy",
+        "souscription",
+        "narratif",
+        "panorama",
+        "sic",
+        "résurrection",
+        "continuation"
+      ],
+      "text": "Je m'appelle Aurélie Dewit, j'habite Bruxelles et, pendant dix ans, j'ai écrit des thrillers. Un thriller est une machine précise : chaque indice doit arriver au bon moment, et l'on compte les pages comme un horloger compte les secondes. Il y a cinq ans, j'ai eu envie d'autre chose : une trilogie de fantasy, avec des royaumes, des dragons et une magie qui obéit à des règles. On me demande souvent si ce changement a été difficile. La réponse est oui, et c'est une question de chiffres.\n\nD'abord, il fallait financer le projet. Mon éditeur hésitait : la fantasy, disait-il, est un marché à part. J'ai donc lancé une souscription : les lecteurs payaient 25 euros à l'avance et recevaient le premier tome dès sa sortie. Au bout d'un mois, 800 personnes avaient participé à la souscription, soit 20 000 euros. C'était assez pour convaincre l'éditeur.\n\nEnsuite, il fallait écrire. Trois tomes de 400 pages, cela fait environ 300 000 mots. À raison de 1 000 mots par jour, il me fallait 300 jours de travail, sans compter les corrections. J'ai donc fait un tableau, et chaque soir, j'y notais mon nombre de mots. Ce tableau n'était pas poétique, mais il m'a sauvée de mes moments de doute.\n\nLe plus important, pourtant, a été la cohérence. En fantasy comme dans un thriller, le lecteur remarque tout. J'ai fait une grande carte du royaume, avec une échelle. Le premier tome s'ouvre d'ailleurs sur un panorama : depuis une tour, l'héroïne voit les montagnes, le fleuve et la capitale. Ce panorama, je l'ai dessiné avant d'écrire une ligne. Grâce à l'échelle, je savais qu'un cheval parcourt environ 40 kilomètres par jour : mon héroïne ne pouvait donc pas traverser 600 kilomètres en une semaine.\n\nMalgré ces précautions, j'ai fait des erreurs, et mes lecteurs me les ont signalées. Une lectrice m'a écrit : « Vous avez fait une erreur de calcule (sic) au chapitre 12. » Elle avait raison : un personnage avait 30 ans au chapitre 3 et 28 ans dix ans plus tard. Un autre lecteur m'a écrit que mon héroïne « aurait du (sic) mettre deux semaines » pour rejoindre la mer. Il avait raison, lui aussi. J'ai corrigé ces deux erreurs dans la nouvelle édition, et je les remercie.\n\nJ'avais aussi fixé des règles narratives. La plus stricte était celle-ci : dans mon monde, il n'y a pas de résurrection. Un personnage mort reste mort. Quand Maëlle, l'amie de l'héroïne, meurt au deuxième tome, des centaines de lecteurs m'ont demandé sa résurrection. J'ai refusé. Un choix narratif n'a de valeur que s'il coûte quelque chose.\n\nAujourd'hui, le troisième tome est sorti, et beaucoup de lecteurs me demandent une continuation. Je n'écrirai pas de continuation de la trilogie. Une histoire en trois parties est comme un triangle : si on ajoute un côté, ce n'est plus la même figure.\n\nQuestions :\nQu'écrivait Aurélie Dewit avant sa trilogie ?\nElle écrivait des thrillers.\nComment a-t-elle financé son projet ?\nElle a lancé une souscription : 800 lecteurs ont payé 25 euros à l'avance.\nPourquoi a-t-elle dessiné une carte avec une échelle ?\nPour savoir quelles distances ses personnages pouvaient parcourir et rester cohérente.\nPourquoi a-t-elle ajouté « sic » en citant ses lecteurs ?\nPour montrer que les fautes d'orthographe venaient des lecteurs et non d'elle.\nQuelle était sa règle narrative la plus stricte ?\nDans son monde, il n'y a pas de résurrection : un personnage mort reste mort."
+    },
+    {
+      "title": "Des graines vieilles de deux mille ans",
+      "summary": "In a Dakar laboratory, a researcher dates ancient millet seeds with radioactive carbon, finds that the first result was spoiled by contamination, and repeats the analysis.",
+      "newWords": [
+        "semence",
+        "colombe",
+        "radioactif",
+        "contamination",
+        "négligence",
+        "immersion",
+        "restituer"
+      ],
+      "text": "Aminata Sarr est chercheuse dans un laboratoire de Dakar, au Sénégal. Son travail consiste à dater des objets anciens. Un lundi de février, une équipe d'archéologues lui a apporté un petit pot en terre trouvée dans la vallée du fleuve Sénégal. Le couvercle du pot avait la forme d'une colombe, et à l'intérieur, il y avait une poignée de semences de mil, noires et sèches. Les chercheurs voulaient savoir quel âge avaient ces semences, car elles diraient depuis quand on cultive le mil dans la région.\n\nPour les dater, Aminata utilise le carbone 14. Toutes les plantes vivantes absorbent un peu de ce carbone radioactif. Quand la plante meurt, elle n'en absorbe plus, et le carbone radioactif disparaît lentement, à un rythme connu : au bout de 5 730 ans, il en reste la moitié ; au bout de 11 460 ans, il en reste le quart. En mesurant la quantité qui reste dans les semences, on peut donc calculer depuis combien de temps elles sont mortes. C'est une sorte d'horloge cachée dans la matière.\n\nLa première mesure a donné un résultat étrange : les semences n'auraient eu que 300 ans. Or le pot, d'après sa forme et son décor, était beaucoup plus ancien. Aminata n'a pas cru à ce chiffre. Elle a pensé tout de suite à une contamination. Un âge trop jeune signifie souvent que du carbone récent s'est ajouté à l'échantillon : des racines modernes, de la poussière, ou simplement les doigts de quelqu'un. Une très petite contamination suffit à rendre tout le calcul faux.\n\nElle a cherché l'origine de cette contamination. Sur le terrain, un étudiant avait sorti les semences du pot sans gants et les avait posées sur un journal. Ce n'était pas une négligence grave, mais c'était une négligence suffisante. Aminata a simplement rappelé à toute l'équipe que les gants sont obligatoires.\n\nPour la deuxième mesure, elle a choisi les semences les mieux protégées, au fond du pot. Elle les a nettoyées par immersion dans plusieurs bains successifs, qui enlèvent les matières récentes collées à leur surface. Chaque immersion durait plusieurs heures. Il a fallu trois jours de préparation pour une toute petite quantité de matière.\n\nLe nouveau résultat était clair : il restait environ 80 % du carbone radioactif, ce qui donnait aux semences un âge d'environ 1 850 ans. Ce chiffre correspondait au style du pot. Aminata a refait la mesure une troisième fois, et elle a obtenu le même âge, à quelques années près.\n\nQuand l'étude a été terminée, le laboratoire a restitué le pot et sa colombe au musée régional de Saint-Louis, avec quelques semences. Le directeur du musée a remercié Aminata : restituer un objet à la région où on l'a trouvé, a-t-il dit, c'est aussi lui rendre son histoire.\n\nQuestions :\nQu'y avait-il dans le pot à la colombe ?\nIl y avait une poignée de semences de mil, noires et sèches.\nComment le carbone radioactif permet-il de dater les semences ?\nIl disparaît à un rythme connu après la mort de la plante : en mesurant ce qui reste, on calcule l'âge.\nPourquoi Aminata a-t-elle pensé à une contamination ?\nParce que le premier résultat donnait un âge trop jeune par rapport au style du pot.\nQuelle négligence avait causé la contamination ?\nUn étudiant avait sorti les semences sans gants et les avait posées sur un journal.\nQu'a fait le laboratoire à la fin de l'étude ?\nIl a restitué le pot et sa colombe au musée régional de Saint-Louis."
+    },
+    {
+      "title": "La question et sa réponse",
+      "summary": "A local journalist in Rennes explains how two wordings of the same survey question about the city budget gave opposite results.",
+      "newWords": [
+        "redressement",
+        "contraction",
+        "précarité",
+        "formulation",
+        "révolter",
+        "haineux",
+        "parité",
+        "accessibilité",
+        "accession",
+        "octroyer"
+      ],
+      "text": "L'automne dernier, à Rennes, un sondage a fait beaucoup de bruit. La ville avait des difficultés financières, et le conseil municipal préparait un plan de redressement : une contraction des dépenses de 3 % en deux ans. Sur un budget de 400 millions d'euros, une contraction de 3 %, cela représente 12 millions. Avant de choisir où économiser, la mairie a voulu connaître l'avis des habitants. Je suis journaliste au service local de notre journal, et j'ai suivi cette affaire du début à la fin.\n\nDeux instituts ont posé, à deux groupes de mille habitants, une question qui semblait la même. Le premier a demandé : « Faut-il réduire les aides aux familles en situation de précarité pour rétablir les comptes de la ville ? » Seulement 24 % des personnes ont répondu oui. Le second a demandé : « Faut-il réduire certaines dépenses sociales pour assurer le redressement des finances de la ville ? » Cette fois, 57 % ont répondu oui.\n\nLe sujet était le même, l'argent était le même. Seule la formulation avait changé. Dans la première formulation, on voit des familles, et le mot précarité fait penser à des enfants qui ont froid. Dans la seconde, on voit des chiffres, et le mot redressement fait penser à une bonne gestion. Les spécialistes le savent depuis longtemps : la formulation d'une question compte parfois autant que son sujet.\n\nQuand les deux résultats ont été publiés, certains habitants se sont révoltés. Ils accusaient la mairie d'avoir choisi le sondage qui l'arrangeait. Sur les réseaux sociaux, des messages haineux ont visé l'adjointe chargée des finances. Je comprends qu'on se révolte quand on a l'impression d'être trompé. Mais les messages haineux n'ont jamais aidé personne à comprendre un chiffre.\n\nLe conseil municipal a finalement organisé un débat public. Ce conseil respecte la parité : il compte autant de femmes que d'hommes, et la loi impose cette parité dans les grandes villes. Pendant trois heures, les élus ont présenté les deux sondages côte à côte, avec leurs deux formulations, pour que chacun puisse juger.\n\nÀ la fin, le conseil a choisi une solution moyenne. Les aides aux familles en précarité ne baisseront pas. En revanche, certains travaux seront repoussés, sauf ceux qui améliorent l'accessibilité des bus pour les personnes en fauteuil roulant : aujourd'hui, 40 lignes sur 60 sont accessibles, et l'accessibilité de toutes les lignes reste un objectif. La ville continuera aussi à octroyer des prêts sans intérêt aux jeunes ménages qui achètent leur premier logement. Ces prêts favorisent l'accession à la propriété, et la mairie les octroie depuis dix ans.\n\nPour moi, la leçon est simple : avant de lire une réponse, il faut lire la question.\n\nQuestions :\nPourquoi la ville de Rennes préparait-elle un plan de redressement ?\nParce qu'elle avait des difficultés financières et qu'elle devait réduire ses dépenses de 3 %.\nQue représente une contraction de 3 % sur un budget de 400 millions d'euros ?\nElle représente 12 millions d'euros.\nPourquoi les deux sondages ont-ils donné des résultats si différents ?\nParce que la formulation de la question avait changé, même si le sujet était le même.\nComment certains habitants ont-ils réagi ?\nIls se sont révoltés, et certains ont écrit des messages haineux contre l'adjointe aux finances.\nQuels prêts la ville continuera-t-elle à octroyer ?\nElle continuera à octroyer des prêts sans intérêt aux jeunes ménages, pour favoriser l'accession à la propriété."
+    }
+  ]
+}
