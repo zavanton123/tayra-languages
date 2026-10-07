@@ -1,0 +1,100 @@
+1	1901	Gymnasium	gymnasium gymnasiums gymnasien gymi
+2	1902	römisch	römischen römische römisch römischer römisches römischem
+3	1903	streichen	streichen gestrichen streich streicht streiche striche gestrichenen strichen gestrichene streichst
+4	1904	eventuell	eventuell eventuelle eventuellen eventueller eventuelles eventuellem
+5	1905	gemäß	gemäss gemäß
+6	1906	nachts	nachts
+7	1907	aufstehen	aufstehen aufstand aufgestanden aufzustehen aufstände aufsteht aufstandes aufstands aufständen aufstehe
+8	1908	gegenseitig	gegenseitig gegenseitige gegenseitigen gegenseitiges gegenseitiger gegenseitigem
+9	1909	stürzen	stürzen stürzte stürzt gestürzt stürzten stürze gestürzten stürz stürzenden
+10	1910	Turnier	turnier turniers turniere turnieren turnieres
+11	1911	Krise	krise krisen krisis
+12	1912	Feuerwehr	feuerwehr wehr feuerwehren wehre wehrs wehres
+13	1913	belegt	belegt belegte belegten belegtes belegter
+14	1914	beamten	beamten beamte beamt beamteten beamtete
+15	1915	Vorstand	vorstand vorstandes vorstands vorstände vorständen
+16	1916	umfassend	umfassende umfassenden umfassend umfassendes umfassender umfassendste umfassendere umfassendsten umfassenderen umfassendem
+17	1917	japanisch	japanische japanischen japanisch japanischer japanisches japanischem
+18	1918	Uni	uni unis
+19	1919	evangelisch	evangelischen evangelische evangelisch evangelischer evangelisches evangelischem
+20	1920	gelungen	gelungen gelungene gelungenen gelungener gelungenes gelungenem gelungensten
+21	1921	Griff	griff griffen griffe griffes griffs
+22	1922	Philosophie	philosophie philo philosophien
+23	1923	Welle	welle wellen well gewellt gewellten gewellte wellt
+24	1924	erfassen	erfasst erfassen erfasste erfassten erfasse erfaßt
+25	1925	Landschaft	landschaft landschaften landschafts
+26	1926	finanzieren	finanziert finanzieren finanzierte finanzierten finanziere finanzier finanziers finanziertes finanzierter finanzierenden
+27	1927	Frühstück	frühstück frühstücken gefrühstückt frühstücks frühstücke frühstückt frühstückten frühstückte
+28	1928	versehen	versehen versehene versehenen versah versieht versahen versehenes versehener versehe
+29	1929	ideal	ideal ideale idealen idealer ideales ideals idealem
+30	1930	Schwierigkeit	schwierigkeiten schwierigkeit
+31	1931	trennen	trennen trennt trennten trennte trenne trenn trennende trennst
+32	1932	geheim	geheimen geheime geheim geheimer geheimes geheimsten geheimem
+33	1933	Niveau	niveau niveaus
+34	1934	Regelung	regelung regelungen
+35	1935	letztere	letzteres letztere letzterer letzteren letzterem
+36	1936	Planung	planung planungen
+37	1937	Niederlage	niederlage niederlagen
+38	1938	Profil	profil profile profilen profils profiles
+39	1939	global	global globalen globale globaler globales globalem
+40	1940	personal	personal personals personaler personale personalen personalia personalern
+41	1941	verheiratet	verheiratet verheiratete verheirateten verheirateter verheiratetes
+42	1942	militärisch	militärischen militärische militärisch militärischer militärisches militärischem
+43	1943	schwimmen	schwimmen schwamm schwimmt schwimm schwimmende geschwommen schwammen schwimmend schwämme schwimme
+44	1944	übel	übel üble üblen übler übelste übels übelsten übles übelster übeln
+45	1945	verteilt	verteilt verteilte verteilten verteilter verteiltes
+46	1946	null	null nullen nuller
+47	1947	Gas	gas gase gasen gases
+48	1948	hervor	hervor
+49	1949	nahezu	nahezu
+50	1950	CD	cd cds cd's
+51	1951	Gemeinschaft	gemeinschaft gemeinschaften gemeinschafts
+52	1952	Wandel	wandel gewandelt wandelt wandeln wandels wandelte wandelnde wandelnden wandelten wandelndes
+53	1953	bewerten	bewertet bewerten bewertete bewerte bewerteten bewertenden bewertest bewerter
+54	1954	locker	locker lockerer lockere lockeren lockeres lockerem
+55	1955	parallel	parallel parallelen parallele paralleler paralleles
+56	1956	Hauptstadt	hauptstadt hauptstädte hauptstädten
+57	1957	Jean	jean jeans
+58	1958	Event	event events
+59	1959	Ticket	tickets ticket
+60	1960	garantieren	garantiert garantieren garantierte garantiere garantierten garantierter garantiertes
+61	1961	Schuss	schuss schüsse schüssen schusses schuß
+62	1962	mischen	mischen gemischt mischt gemischten gemischte misch mischte mische gemischter gemischtes
+63	1963	Formel	formel formeln
+64	1964	Summe	summe summen summt summ sümmchen summte summend
+65	1965	Blume	blumen blume blümchen blümlein blümelein
+66	1966	Schnitt	schnitt schnitte schnitten schnitts schnittes
+67	1967	auffallen	aufgefallen auffallen auffallend auffällt auffiel aufzufallen auffallende auffallenden auffielen auffallender
+68	1968	Verletzung	verletzung verletzungen
+69	1969	körperlich	körperliche körperlich körperlichen körperlicher körperliches körperlichem
+70	1970	Initiative	initiative initiativen
+71	1971	Auswirkung	auswirkungen auswirkung
+72	1972	behaupten	behaupten behaupte behauptete behaupteten behauptest
+73	1973	berücksichtigen	berücksichtigt berücksichtigen berücksichtigte berücksichtigten berücksichtige berücksichtigenden berücksichtig
+74	1974	widmen	gewidmet widmen widmet widmete widme widmeten gewidmeten gewidmetes
+75	1975	high	high higher
+76	1976	wertvoll	wertvolle wertvoll wertvollen wertvoller wertvolles wertvollsten wertvollste wertvollster wertvollem wertvollstes
+77	1977	Protest	protest proteste protesten protests protestes
+78	1978	Software	software softwares
+79	1979	behauptet	behauptet behauptete behaupteten
+80	1980	Kommunikation	kommunikation kommunikations kommunikationen
+81	1981	Dauer	dauer
+82	1982	demnach	demnach
+83	1983	jemals	jemals
+84	1984	geistig	geistig geistigen geistige geistiger geistiges geistigem
+85	1985	beruflich	beruflich beruflichen berufliche beruflicher berufliches beruflichem
+86	1986	Revolution	revolution revolutionen
+87	1987	Magazin	magazin magazine magazins magazinen magazines
+88	1988	beschäftigen	beschäftigen beschäftigte beschäftigten beschäftige beschäftigst beschäftig
+89	1989	Schicksal	schicksal schicksale schicksals schicksalen
+90	1990	verändern	verändern veränderte veränderten verändere verändernden verändernde veränderst veränder
+91	1991	tauchen	taucht tauchen tauchte taucher tauchten getaucht tauche tauch tauchern tauchst
+92	1992	anmelden	anmelden angemeldet anzumelden angemeldeten angemeldete anmeldet anmelde anmeldete anmeldest anmeldeten
+93	1993	Geschmack	geschmack geschmacks geschmäcker
+94	1994	Shop	shop shops
+95	1995	aufmerksam	aufmerksam aufmerksame aufmerksamer aufmerksamen aufmerksames
+96	1996	Sender	sender senders sendern
+97	1997	abnehmen	abnehmen abgenommen abzunehmen abnimmt abnehmender abnahm abnehmenden abnehmende abnehme abnehmend
+98	1998	Zahn	zähne zahn zähnen zahnes zähnchen gezähnt zahns zahne
+99	1999	Blog	blog blogs
+100	2000	Betrug	betrug betrogen betrügen betrugs betruges betrogene betrügt betrüge betrog betrogenen

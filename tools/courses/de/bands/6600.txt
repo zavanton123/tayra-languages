@@ -1,0 +1,100 @@
+1	6501	synonym	synonym synonyme synonymen
+2	6502	korrupt	korrupt korrupten korrupte korrupter korruptes korruptesten
+3	6503	Beutel	beutel beuteln gebeutelten gebeutelt gebeutelte beutels beutelchen
+4	6504	Schacht	schacht schächten schächte schachtes schachts
+5	6505	Lappen	lappen lapp gelappt gelappten
+6	6506	Appetit	appetit
+7	6507	Cash	cash
+8	6508	dreißig	dreissig dreißig
+9	6509	ebenda	ebenda
+10	6510	Einsamkeit	einsamkeit
+11	6511	Geschäftsführung	geschäftsführung
+12	6512	gleichfalls	gleichfalls
+13	6513	Langeweile	langeweile
+14	6514	Leistungsfähigkeit	leistungsfähigkeit
+15	6515	Menschlichkeit	menschlichkeit
+16	6516	Shopping	shopping
+17	6517	Spam	spam
+18	6518	ungeachtet	ungeachtet
+19	6519	Zufriedenheit	zufriedenheit
+20	6520	bezeugen	bezeugt bezeugen bezeugte bezeugten bezeuge
+21	6521	faschistisch	faschistischen faschistische faschistisch faschistischer faschistisches
+22	6522	auftragen	aufgetragen auftragen aufzutragen aufträgt aufgetragene aufgetragenen auftrug auftrage
+23	6523	Vorwort	vorwort vorworte
+24	6524	Joint	joint joints
+25	6525	Schlaganfall	schlaganfall schlaganfälle schlaganfalls schlaganfällen
+26	6526	erachten	erachtens erachten erachte erachtete erachteten
+27	6527	pushen	push pushen gepusht pusht pusch puschen
+28	6528	Luke	luke luken
+29	6529	Tierarzt	tierarzt tierärztin tierärzte tierärzten tierarztes
+30	6530	Tracht	tracht trachten trachtet trachtete trachte trachteten
+31	6531	Balken	balken balkens
+32	6532	Endspiel	endspiel endspiele endspiels endspielen
+33	6533	vegetarisch	vegetarisch vegetarische vegetarischen vegetarisches vegetarischer
+34	6534	Anbindung	anbindung anbindungen
+35	6535	Rollstuhl	rollstuhl rollstühle rollstühlen
+36	6536	Schütte	schütte schüttet schütten geschüttet schütt schüttete schütteten
+37	6537	Jahrtausend	jahrtausend jahrtausende jahrtausenden jahrtausends
+38	6538	Käfer	käfer käfern käfers
+39	6539	europaweit	europaweit europaweiten europaweite europaweiter europaweites
+40	6540	Dasein	dasein daseins dagewesen dagewesene
+41	6541	zutrauen	zutrauen zugetraut zutraut zuzutrauen zutraue zutraute zutraust
+42	6542	Fortbildung	fortbildung fortbildungen
+43	6543	exotisch	exotische exotischen exotisch exotischer exotisches
+44	6544	Wahlergebnis	wahlergebnis wahlergebnisse wahlergebnissen wahlergebnisses
+45	6545	Airport	airport airports
+46	6546	Trinkwasser	trinkwasser trinkwassers
+47	6547	Variable	variable variablen variabler
+48	6548	abliefern	abgeliefert abliefern abzuliefern abliefert ablieferte abgelieferten ablieferten
+49	6549	Konvention	konvention konventionen
+50	6550	Arbeitstag	arbeitstag arbeitstage arbeitstagen arbeitstages
+51	6551	Neid	neid neiden
+52	6552	unverzüglich	unverzüglich unverzügliche unverzüglichen
+53	6553	hervorheben	hervorzuheben hervorheben hervorhebt hervorhob
+54	6554	stopfen	stopfen gestopft stopft stopf stopfte stopfe stopfst stopften
+55	6555	Gefährt	gefährten gefährt gefährte gefährtin gefährtinnen
+56	6556	Darlehen	darlehen darlehens
+57	6557	Bandbreite	bandbreite bandbreiten
+58	6558	eingetroffen	eingetroffen eingetroffenen eingetroffene
+59	6559	Tagesordnung	tagesordnung tagesordnungen
+60	6560	saniert	saniert sanierte sanierten saniertes
+61	6561	Fluggesellschaft	fluggesellschaft fluggesellschaften
+62	6562	Insolvenz	insolvenz insolvenzen
+63	6563	fokussieren	fokussiert fokussieren fokussierte fokussierten fokussiere fokussierter
+64	6564	anschaffen	angeschafft anschaffen anzuschaffen angeschafften anschafft
+65	6565	handhaben	handhaben gehandhabt handhabe handhabt
+66	6566	aufschreiben	aufgeschrieben aufschreiben aufzuschreiben aufschreibt aufschrieb aufschreibst aufschreibe
+67	6567	moderat	moderat moderate moderaten moderater moderates moderatem moderatere
+68	6568	Body	body bodys
+69	6569	Registrierung	registrierung registrierungen
+70	6570	überwiegen	überwiegen überwiegt überwog überwogen überwiege
+71	6571	Dill	till dill
+72	6572	Innenministerium	innenministerium innenministeriums
+73	6573	arrangieren	arrangiert arrangieren arrangierte arrangierten
+74	6574	Waage	waage waagen wage
+75	6575	bessern	bessern gebessert bessert besser besserte besserten bessere
+76	6576	alpin	alpine alpinen alpin alpiner alpines
+77	6577	Herzinfarkt	herzinfarkt herzinfarkte herzinfarkten herzinfarkts herzinfarktes
+78	6578	kacken	kacken kack kackt gekackt kackst
+79	6579	entschließen	entschloss entschliesst entschliessen entschliesse entschließt entschließen entschließe
+80	6580	Massaker	massaker massakers massakern
+81	6581	unterlassen	unterlassen unterlassene unterlass unterlässt unterlassener unterliess unterlasse unterlassenen unterläßt unterließ
+82	6582	strafrechtlich	strafrechtlich strafrechtliche strafrechtlichen strafrechtlicher strafrechtliches
+83	6583	flüstern	flüstert flüstern flüsterte flüsternd geflüstert flüstere flüster flüsterten flüsternde
+84	6584	Orgasmus	orgasmus orgasmen
+85	6585	anvertrauen	anvertraut anvertrauen anvertrauten anzuvertrauen anvertraute
+86	6586	Übereinstimmung	übereinstimmung übereinstimmungen
+87	6587	spirituell	spirituelle spirituellen spiritueller spirituell spirituelles
+88	6588	Diplomat	diplomaten diplomat diplomatin
+89	6589	Zunahme	zunahme zunahmen
+90	6590	kurzzeitig	kurzzeitig kurzzeitige kurzzeitigen kurzzeitiger
+91	6591	Eiche	eiche eichen eich geeicht geeichten
+92	6592	Gesetzgebung	gesetzgebung gesetzgebungen
+93	6593	andernfalls	andernfalls anderenfalls
+94	6594	Briefkasten	briefkasten briefkästen
+95	6595	Nische	nische nischen
+96	6596	Creme	creme crème cremes cremen
+97	6597	bedenklich	bedenklich bedenkliche bedenklicher bedenklichen bedenkliches
+98	6598	reserviert	reserviert reservierten reservierte reservierter
+99	6599	exzellent	exzellente exzellent exzellenten exzellenter exzellentes
+100	6600	Kondom	kondom kondome kondomen kondoms

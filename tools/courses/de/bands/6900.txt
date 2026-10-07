@@ -1,0 +1,100 @@
+1	6801	glaubwürdig	glaubwürdig glaubwürdige glaubwürdiger glaubwürdigen glaubwürdiges
+2	6802	akustisch	akustische akustischen akustisch akustischer akustisches
+3	6803	Ren	ren rene rens
+4	6804	Edeka	edeka
+5	6805	Frust	frust
+6	6806	Klagenfurt	klagenfurt
+7	6807	TÜV	tüv
+8	6808	zutiefst	zutiefst
+9	6809	Ästhetik	ästhetik
+10	6810	pendeln	pendeln pendel pendelt pendelte pendelten pendle pendels gependelt
+11	6811	dreist	dreist dreiste dreister dreisten dreistes
+12	6812	Absprache	absprache absprachen
+13	6813	dergleichen	dergleichen desgleichen
+14	6814	mithalten	mithalten mitzuhalten
+15	6815	schleudern	geschleudert schleudern schleuderte schleudert schleuder schleuderten
+16	6816	hartnäckig	hartnäckig hartnäckige hartnäckigen hartnäckiger hartnäckigsten hartnäckiges
+17	6817	therapeutisch	therapeutische therapeutischen therapeutisch therapeutischer therapeutisches
+18	6818	Portfolio	portfolio portfolios
+19	6819	einpacken	einpacken eingepackt einzupacken einpackt
+20	6820	befahren	befahren befahrenen befuhr befahrene befuhren befährt
+21	6821	begünstigt	begünstigt begünstigten begünstigte begünstigter
+22	6822	Pionier	pionier pioniere pionieren pionierin pioniers
+23	6823	Streitigkeit	streitigkeiten streitigkeit
+24	6824	hinziehen	hingezogen hinziehen hinzugezogen hinzuziehen hinzieht hinzog hinzogen hinziehenden
+25	6825	kulinarisch	kulinarische kulinarischen kulinarisch kulinarisches kulinarischer kulinarischem
+26	6826	Passant	passanten passant passantin
+27	6827	hinstellen	hingestellt hinstellen hinzustellen hinstellt hinstelle
+28	6828	Novelle	novelle novellen
+29	6829	Sultan	sultan sultans sultane sultana
+30	6830	Bereicherung	bereicherung bereicherungen
+31	6831	Fragment	fragmente fragment fragmenten fragments
+32	6832	komponieren	komponiert komponierte komponieren komponierten komponiertes
+33	6833	Anker	anker ankern ankert ankers
+34	6834	Illustration	illustrationen illustration
+35	6835	Reuter	reuter reuters reutern
+36	6836	Aktionär	aktionäre aktionär aktionären aktionärs
+37	6837	Revue	revue revuen
+38	6838	Donner	donner donnern donnert donnerte donners donnernden gedonnert donnerten
+39	6839	Bistum	bistum bistums bistümer bistümern
+40	6840	Anhaltspunkt	anhaltspunkte anhaltspunkt anhaltspunkten
+41	6841	begrenzen	begrenzen begrenzte begrenzten begrenzenden
+42	6842	verhungern	verhungern verhungert verhungerten verhungerte verhungere
+43	6843	Stadtverwaltung	stadtverwaltung stadtverwaltungen
+44	6844	Relation	relation relationen
+45	6845	rammen	gerammt rammt rammen rammte ramm ramme
+46	6846	handwerklich	handwerklich handwerkliche handwerklichen handwerkliches handwerklicher handwerklichem
+47	6847	Type	type typen
+48	6848	zeitgemäss	zeitgemäss zeitgemässe zeitgemässen zeitgemässer zeitgemässes zeitgemäß zeitgemäße zeitgemäßen zeitgemäßer zeitgemäßes
+49	6849	auspacken	auspacken ausgepackt auszupacken auspackt auspackte
+50	6850	mom	mom moms
+51	6851	Repertoire	repertoire repertoires
+52	6852	Kontroverse	kontroverse kontroversen
+53	6853	jahrzehntelang	jahrzehntelang jahrzehntelange jahrzehntelangen jahrzehntelanger jahrzehntelangem jahrzehntelanges
+54	6854	versäumen	versäumt versäumen versäumte versäumten versäume versäumtes
+55	6855	Urheberrecht	urheberrecht urheberrechts urheberrechte urheberrechten
+56	6856	vertraglich	vertraglich vertragliche vertraglichen vertraglicher
+57	6857	hüpfen	hüpfen hüpft hüpf hüpfte gehüpft hüpfer hüpfe hüpften hüpfend hüpfenden
+58	6858	Schöpfung	schöpfung schöpfungen
+59	6859	klemmen	klemmen klemm klemme klemmt geklemmt klemmte
+60	6860	Kamm	kamm kämmen kämme gekämmt kämmt kämm kammes
+61	6861	Behälter	behälter behältern behälters
+62	6862	zutreffen	zutrifft zutreffen zutraf zutreffe
+63	6863	himmlisch	himmlische himmlischen himmlisch himmlischer himmlisches
+64	6864	derweil	derweil derweilen
+65	6865	Chirurg	chirurg chirurgen chirurgin
+66	6866	broke	broker broken broke brokern
+67	6867	modifizieren	modifiziert modifizierte modifizieren modifizierten modifizierter modifiziertes
+68	6868	Tugend	tugend tugenden
+69	6869	glühen	glühen glühende glühenden glüht glühender glühend glühte geglüht glühendes glühten
+70	6870	Gasthaus	gasthaus gasthäuser gasthauses gasthäusern
+71	6871	zweifelhaft	zweifelhaft zweifelhaften zweifelhafte zweifelhafter zweifelhaftem zweifelhaftes
+72	6872	Annäherung	annäherung annäherungen
+73	6873	aufsetzen	aufsetzen aufzusetzen aufsetzt aufsetzte aufsetzten aufsetze
+74	6874	Notruf	notruf notrufe notrufen notrufs
+75	6875	rechtmäßig	rechtmässig rechtmässigen rechtmässige rechtmässiger rechtmässiges rechtmäßig rechtmäßigen rechtmäßige rechtmäßiger rechtmäßiges
+76	6876	betätigen	betätigen betätigt betätigte betätigten betätige
+77	6877	herausholen	rausholen herausholen herauszuholen herausgeholt herausholt herausholte
+78	6878	Anzeiger	anzeiger anzeigers
+79	6879	Gegebenheit	gegebenheiten gegebenheit
+80	6880	Götze	götze götzen götzes
+81	6881	Dienstleister	dienstleister dienstleistern dienstleisters
+82	6882	konsumieren	konsumiert konsumieren konsumierten konsumierte konsumiere
+83	6883	verzieren	verziert verzierten verzierte verzieren verzierter verziertes
+84	6884	Routine	routine routinen
+85	6885	zurückweisen	zurückgewiesen zurückweisen zurückzuweisen zurückweist zurückwies
+86	6886	predigen	predigen gepredigt predigte predigten predige
+87	6887	obig	obigen obige obiger obiges obigem obig
+88	6888	Fetisch	fetisch fetische fetischen
+89	6889	Antibiotikum	antibiotika antibiotikum antibiotikums
+90	6890	labern	labern labert laber laberst gelabert
+91	6891	Realisierung	realisierung realisierungen
+92	6892	distanziert	distanziert distanzierte distanzierten distanzierter
+93	6893	erwirtschaften	erwirtschaftet erwirtschaften erwirtschaftete erwirtschafteten
+94	6894	strukturiert	strukturiert strukturierte strukturierten strukturierter strukturiertes
+95	6895	Zusammenbruch	zusammenbruch zusammenbruchs zusammenbrüche
+96	6896	Jobcenter	jobcenter jobcenters jobcentern
+97	6897	widerstehen	widerstehen widersteht widerstanden widerstände widerstehe widerständen
+98	6898	Lack	lack lacke lacken lacks
+99	6899	Switch	switch switches switchen switche
+100	6900	Berner	berner berners bernern

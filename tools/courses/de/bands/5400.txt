@@ -1,0 +1,100 @@
+1	5301	rau	rau raue rauen rauer raues rauem
+2	5302	Act	act acts actes acte acten
+3	5303	eingeben	eingeben eingegeben eingaben einzugeben eingibt eingebe eingegebenen eingibst eingegebene eingab
+4	5304	Schall	scholl schall schallt schallen schallte schalls schalle schollen
+5	5305	Minderjährige	minderjährige minderjährigen minderjähriger
+6	5306	flirten	flirten flirt flirtet geflirtet flirte flirts flirtete
+7	5307	stumpf	stumpf stumpfen stumpfe stumpfes stumpfer stümpfe stumpft stumpfem
+8	5308	Aufforderung	aufforderung aufforderungen
+9	5309	linear	linear lineare linearen linearer lineares
+10	5310	Aldi	aldi
+11	5311	Aufhebung	aufhebung
+12	5312	Düsseldorfer	düsseldorfer
+13	5313	Evolution	evolution
+14	5314	Faschismus	faschismus
+15	5315	gab's	gab's
+16	5316	glücklicherweise	glücklicherweise
+17	5317	Großmutter	grossmutter großmutter
+18	5318	jap	jap
+19	5319	jedesmal	jedesmal
+20	5320	Magie	magie
+21	5321	Mobilität	mobilität
+22	5322	Präsenz	präsenz
+23	5323	Sur	sur
+24	5324	Uno	uno
+25	5325	zweit	zweit
+26	5326	Kellner	kellner kellnerin kellnern kellnerinnen kellners
+27	5327	Bakterium	bakterien bakterium bakteriums
+28	5328	Spekulation	spekulationen spekulation spekulatius
+29	5329	verklagen	verklagt verklagen verklagte verklag verklage verklagten
+30	5330	Friseur	friseur frisör friseure friseurin friseuse friseuren frisörin friseurs
+31	5331	Beurteilung	beurteilung beurteilungen
+32	5332	Erwähnung	erwähnung erwähnungen
+33	5333	erwünscht	erwünscht erwünschte erwünschten erwünschter erwünschtes
+34	5334	Sauerstoff	sauerstoff sauerstoffs
+35	5335	Pi	pi pis
+36	5336	Rückgang	rückgang rückgangs rückgänge
+37	5337	Nadel	nadel nadeln
+38	5338	zuschlagen	zugeschlagen zuschlagen zuschlägt zuzuschlagen zuschlug
+39	5339	Schwelle	schwelle schwellen geschwollen schwillt geschwollene geschwollenen schwoll schwollen
+40	5340	entlasten	entlasten entlastet entlastende entlastete entlastend entlasteten
+41	5341	Strafgesetzbuch	stgb strafgesetzbuch strafgesetzbuches strafgesetzbuchs
+42	5342	aussterben	aussterben ausgestorben ausgestorbenen ausgestorbene ausstirbt aussterbende auszusterben aussterbens ausstarb ausstarben
+43	5343	Teich	teich teiche teichen teiches teichs
+44	5344	Befragung	befragung befragungen
+45	5345	Schauspiel	schauspiel schauspiels schauspiele schauspielen
+46	5346	vorziehen	vorziehen vorgezogen vorzuziehen vorgezogenen vorgezogene vorzieht vorziehe vorzog vorgezogener vorzogen
+47	5347	Periode	periode perioden
+48	5348	Abkürzung	abkürzung abkürzungen
+49	5349	Etappe	etappe etappen
+50	5350	Trailer	trailer trailern trailers
+51	5351	generieren	generieren generiert generierten generierte generiere
+52	5352	glänzen	glänzt glänzen glänzte glänzten geglänzt glänze
+53	5353	Kompliment	kompliment komplimente komplimenten
+54	5354	Wurm	wurm würmer würmern würmchen wurms
+55	5355	ausleihen	ausgeliehen ausleihen ausleihe auszuleihen ausgeliehenen ausleiht ausgeliehene
+56	5356	ausverkaufen	ausverkauft ausverkauften ausverkaufte ausverkauftes ausverkauftem
+57	5357	Mütze	mütze mützen mützchen
+58	5358	Homo	homo homos
+59	5359	Nacken	nacken nackens
+60	5360	Naturwissenschaft	naturwissenschaften naturwissenschaft
+61	5361	Gleichgewicht	gleichgewicht gleichgewichts gleichgewichte gleichgewichtes
+62	5362	hervorrufen	hervorrufen hervorgerufen hervorruft hervorzurufen hervorrief hervorgerufene hervorgerufenen hervorriefen
+63	5363	Klimaschutz	klimaschutz klimaschutzes
+64	5364	Audio	audio audios
+65	5365	überdenken	überdenken überdacht überdachte überdachten überdenkt überdenke überdachter
+66	5366	Schach	schach schachs
+67	5367	ästhetisch	ästhetische ästhetischen ästhetisch ästhetischer ästhetisches ästhetischem
+68	5368	unterziehen	unterzogen unterziehen unterzog unterzieht
+69	5369	Rahmenbedingung	rahmenbedingungen rahmenbedingung
+70	5370	Sektion	sektion sektionen
+71	5371	Stange	stange stangen
+72	5372	Verzögerung	verzögerung verzögerungen
+73	5373	Zombie	zombie zombies
+74	5374	Verbund	verbund verbündet verbündeten verbünden verbundes verbünde verbunds
+75	5375	abspielen	abspielen abgespielt abspielt abspielte abzuspielen abspielten abspiele
+76	5376	Schmeiße	schmeissen geschmissen schmissen schmeißen
+77	5377	erschließen	erschliessen erschliesst erschloss erschließen erschließt erschloß
+78	5378	verfehlt	verfehlt verfehlte verfehlten verfehlter
+79	5379	ironisch	ironisch ironische ironischen ironischer ironisches ironischem
+80	5380	ausgedehnt	ausgedehnte ausgedehnten ausgedehnt ausgedehntes ausgedehnter
+81	5381	faktisch	faktisch faktische faktischen faktischer faktisches
+82	5382	Bauwerk	bauwerk bauwerke bauwerken bauwerks bauwerkes
+83	5383	Epoche	epoche epochen
+84	5384	Atom	atom atome atomen atoms
+85	5385	Dynamik	dynamik dynamiken
+86	5386	Ermittler	ermittler ermittlern ermittlerin ermittlers
+87	5387	unzufrieden	unzufrieden unzufriedenen unzufriedene unzufriedener
+88	5388	regelrecht	regelrecht regelrechte regelrechten regelrechter regelrechtes
+89	5389	Impfung	impfung impfungen
+90	5390	Hacker	hacker hackern hackers
+91	5391	abschieben	abgeschoben abschieben abzuschieben abgeschobenen abschiebe abgeschobene abschiebt
+92	5392	auswählen	auswählen auszuwählen auswählt auswählte auswählst auswählten auswähle
+93	5393	verbraucht	verbraucht verbrauchte verbrauchten verbrauchter
+94	5394	Betriebsrat	betriebsrat br betriebsräte betriebsrats betriebsrates betriebsräten
+95	5395	Fahrgast	fahrgäste fahrgast fahrgästen
+96	5396	Konsole	konsole konsolen
+97	5397	Argumentation	argumentation argumentationen
+98	5398	Neuerung	neuerungen neuerung
+99	5399	kratzen	kratzen kratzt kratz gekratzt kratzte kratze kratzten
+100	5400	Dämon	dämonen dämon dämons dämonin

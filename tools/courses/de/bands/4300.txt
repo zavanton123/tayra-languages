@@ -1,0 +1,100 @@
+1	4201	zusehen	zusehen zuzusehen zugesehen zusieht zusah zusahen zusehe
+2	4202	Arbeitsmarkt	arbeitsmarkt arbeitsmarktes arbeitsmärkte arbeitsmarkts
+3	4203	orientieren	orientieren orientierte orientierten orientiere orientierende
+4	4204	anständig	anständig anständige anständigen anständiges anständiger
+5	4205	schräg	schräg schräge schrägen schräger schräges schrägsten schrägem
+6	4206	knacken	knacken geknackt knackt knacker knack knacks knackte knacke knackten knackst
+7	4207	schweben	schwebt schweben schwebte schwebe schwebende schwebend schwebten geschwebt schwebst
+8	4208	schwingen	schwingen schwingt geschwungen schwang schwinge schwing schwangen schwingend schwange schwingst
+9	4209	parlamentarisch	parlamentarischen parlamentarische parlamentarischer parlamentarisch parlamentarisches
+10	4210	preußisch	preussischen preussisch preußischen preußisch
+11	4211	Kommando	kommando kommandos
+12	4212	Benzin	benzin
+13	4213	freilich	freilich
+14	4214	geradezu	geradezu
+15	4215	heran	heran
+16	4216	Konstanz	konstanz
+17	4217	nirgends	nirgends
+18	4218	Solidarität	solidarität
+19	4219	Sozialismus	sozialismus
+20	4220	Trauer	trauer
+21	4221	urban	urban urbanen urbane urbaner urbanes urbanem
+22	4222	Ausrede	ausrede ausreden auszureden ausgeredet
+23	4223	Haltestelle	haltestelle haltestellen
+24	4224	Mindestlohn	mindestlohn mindestlohns mindestlöhne mindestlöhnen mindestlohnes
+25	4225	Kapelle	kapelle kapellen
+26	4226	Schere	schere scheren schert scher geschoren geschert scherte scherst schor schore
+27	4227	verderben	verderben verdorben verdirbt verdorbene verdorbenen verderb verdorbenes verdarb verderbens verderbt
+28	4228	beleuchten	beleuchtet beleuchten beleuchtete beleuchteten beleuchteter beleuchtetes beleuchte
+29	4229	Öffnung	öffnung öffnungen öffnungs
+30	4230	Stau	stau staus staut stauen stauende gestaut staute stauten
+31	4231	unsichtbar	unsichtbar unsichtbare unsichtbaren unsichtbarer unsichtbares
+32	4232	Bitcoin	bitcoin bitcoins
+33	4233	Einstieg	einstieg einstiegs einstiegen einstiege
+34	4234	Gewerbe	gewerbe gewerbes gewerben
+35	4235	Glied	glied gegliedert gliedert glieder gliedern gegliederten gliederte gliedes gegliedertes gliederten
+36	4236	Verspätung	verspätung verspätungen
+37	4237	Mandat	mandat mandate mandaten mandats mandates
+38	4238	Teller	teller tellern tellers tellerchen
+39	4239	Datenschutz	datenschutz datenschutzes
+40	4240	Taube	taube tauben tauber täubchen daube taubes dauben
+41	4241	unverändert	unverändert unveränderter unveränderte unveränderten unverändertem unverändertes
+42	4242	Jury	jury jurys
+43	4243	bisexuell	bi bisexuell bisexuelle bisexuellen bisexueller
+44	4244	Ausbruch	ausbruch ausbrüche ausbruchs ausbrüchen
+45	4245	Einzug	einzug einzugs
+46	4246	ausfüllen	ausfüllen ausgefüllt auszufüllen ausfüllt ausgefüllten ausfüllte ausfülle ausgefülltes
+47	4247	formal	formal formale formalen formaler formales
+48	4248	Steigerung	steigerung steigerungen
+49	4249	Hindernis	hindernis hindernisse hindernissen hindernisses
+50	4250	verwalten	verwaltet verwalten verwaltete verwalteten verwalte verwaltenden verwaltetes
+51	4251	befürworten	befürworter befürwortet befürworten befürwortete befürworte befürworteten
+52	4252	blutig	blutigen blutige blutig blutiger blutiges blutigem blutigsten blutigste
+53	4253	Erlaubnis	erlaubnis erlaubnisse
+54	4254	Kontinent	kontinent kontinents kontinenten kontinente kontinentes
+55	4255	repräsentieren	repräsentiert repräsentieren repräsentierte repräsentierten repräsentiere
+56	4256	Elb	elbe elben elb
+57	4257	unwahrscheinlich	unwahrscheinlich unwahrscheinlicher unwahrscheinlichen unwahrscheinliche unwahrscheinliches unwahrscheinlichsten
+58	4258	Tarif	tarif tarife tarifen tarifs
+59	4259	Dampf	dampf gedämpft dämpfen dämpfe gedämpfte dämpft gedämpften gedämpfter dämpfte dampfe
+60	4260	Landwirt	landwirte landwirt landwirten landwirts landwirtes landwirtin
+61	4261	biegen	biegen biegt gebogen bog gebogenen gebogene biege bögen gebogener bieg
+62	4262	Report	report reports reporten reporte
+63	4263	Wiederholung	wiederholung wiederholungen
+64	4264	ablenken	ablenken abgelenkt abzulenken ablenkt ablenkte ablenkend
+65	4265	begründen	begründen begründete begründeten begründe begründenden
+66	4266	verarbeitet	verarbeitet verarbeitete verarbeiteten verarbeitetes
+67	4267	verschicken	verschickt verschicken verschickte verschicke verschickten verschickst
+68	4268	einsehen	einsehen eingesehen einzusehen einsieht einsehe einsiehst einsah
+69	4269	argumentieren	argumentiert argumentieren argumentierte argumentierten argumentierst argumentiere
+70	4270	Sektor	sektor sektoren sektors
+71	4271	Gramm	gramm gramme
+72	4272	verabschieden	verabschieden verabschiedete verabschiede verabschiedeten
+73	4273	Eisenbahn	eisenbahn eisenbahnen
+74	4274	Zielgruppe	zielgruppe zielgruppen
+75	4275	publizieren	publiziert publizieren publizierte publizierten
+76	4276	Paradies	paradies paradieses paradiese
+77	4277	befreundet	befreundet befreundeten befreundete befreundeter befreundetes
+78	4278	ur	ur urs ure
+79	4279	Flur	flur fluren flure flurs
+80	4280	Klo	klo klos
+81	4281	Garantie	garantie garantien
+82	4282	schlagzeilen	schlagzeilen schlagzeile
+83	4283	umziehen	umziehen umgezogen umzuziehen umzieht umzog umziehe umzogen
+84	4284	Untergang	untergang untergangs
+85	4285	belasten	belasten belastend belastende belastenden belasteten belastete belastendes belaste belastender
+86	4286	Attacke	attacke attacken
+87	4287	Mitleid	mitleid mitleids
+88	4288	Begeisterung	begeisterung
+89	4289	Berücksichtigung	berücksichtigung
+90	4290	Bremer	bremer
+91	4291	Mathe	mathe
+92	4292	nirgendwo	nirgendwo
+93	4293	ähm	ähm
+94	4294	öfters	öfters
+95	4295	bass	bass bässe basse bässen basses bassen bäße bäßen baßes
+96	4296	gratulieren	gratulieren gratuliere gratuliert gratulierte gratulierten
+97	4297	Cloud	cloud clouds
+98	4298	Ideologie	ideologie ideologien
+99	4299	Willi	willi willis
+100	4300	Mantel	mantel mäntel mantels mänteln mäntelchen

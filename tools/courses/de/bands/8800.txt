@@ -1,0 +1,100 @@
+1	8701	rezeptfrei	rezeptfrei rezeptfreie rezeptfreien
+2	8702	Lautstärke	lautstärke lautstärken
+3	8703	unbegründet	unbegründet unbegründete unbegründeten unbegründeter
+4	8704	datiert	datiert datierten datierte
+5	8705	Durchfall	durchfall durchfälle durchfällen
+6	8706	Erzeugnis	erzeugnisse erzeugnissen erzeugnis erzeugnisses
+7	8707	mindern	mindern mindert gemindert mindere minderte minder
+8	8708	Tango	tango tangos
+9	8709	lyrisch	lyrische lyrischen lyrisch lyrischer lyrisches
+10	8710	rappen	rappen rapp rappt rappe gerappt
+11	8711	Gasthof	gasthof gasthöfe gasthofs gasthofes gasthöfen
+12	8712	Rückschlag	rückschlag rückschläge rückschlägen
+13	8713	Peitsche	peitsche peitschen peitscht gepeitscht peitschte peitsch peitschten
+14	8714	schädigen	schädigen schädigt schädigende schädigend schädigenden schädigte
+15	8715	verlesen	verlesen verlies verlas verliest verlesenen verliesen
+16	8716	amen	amen
+17	8717	Bebauung	bebauung
+18	8718	Bridge	bridge
+19	8719	Champagner	champagner
+20	8720	Echtzeit	echtzeit
+21	8721	Einwilligung	einwilligung
+22	8722	ever	ever
+23	8723	Fauna	fauna
+24	8724	Fukushima	fukushima
+25	8725	Gran	gran
+26	8726	heavy	heavy
+27	8727	Hinterkopf	hinterkopf
+28	8728	Krönung	krönung
+29	8729	Nachhilfe	nachhilfe
+30	8730	Neutralität	neutralität
+31	8731	rundum	rundum
+32	8732	Sexismus	sexismus
+33	8733	Spionage	spionage
+34	8734	Trilogie	trilogie
+35	8735	Triple	triple
+36	8736	Wirtschaftspolitik	wirtschaftspolitik
+37	8737	Zell	zell
+38	8738	zig	zig
+39	8739	Zuflucht	zuflucht
+40	8740	Zurückhaltung	zurückhaltung
+41	8741	Horde	horde horden
+42	8742	Onlineshop	onlineshop onlineshops
+43	8743	Steckdose	steckdose steckdosen
+44	8744	Kollegium	kollegium collegium kollegiums kollegien
+45	8745	Uli	uli ulis
+46	8746	einlösen	einlösen eingelöst einzulösen einlöst
+47	8747	Buffet	buffet büfett buffets
+48	8748	einschreiben	eingeschrieben einschreiben eingeschriebenen einzuschreiben eingeschriebene
+49	8749	Kontinuität	kontinuität kontinuitäten
+50	8750	Verwalter	verwalter verwalters verwalterin verwaltern
+51	8751	Mohr	mohr mohren mohrs
+52	8752	Quark	quark quarks
+53	8753	Pavillon	pavillon pavillons
+54	8754	Scheck	scheck schecks
+55	8755	bügeln	bügeln bügel gebügelt bügelt bügle
+56	8756	Fitnessstudio	fitnessstudio fitnessstudios
+57	8757	Gauck	gauck gaucks
+58	8758	rücksichtslos	rücksichtslos rücksichtslose rücksichtslosen rücksichtsloser rücksichtsloses
+59	8759	erträglich	erträglich erträglicher erträglichen erträgliche erträgliches
+60	8760	Tarifvertrag	tarifvertrag tarifverträge tarifverträgen tarifvertrages tarifvertrags
+61	8761	verwunderlich	verwunderlich verwunderlicher
+62	8762	ausklingen	ausklingen ausklang ausklingenden ausklingt
+63	8763	aneignen	aneignen angeeignet anzueignen aneignet aneignete
+64	8764	Korrespondent	korrespondent korrespondenten korrespondentin
+65	8765	Alphabet	alphabet alphabets alphabete
+66	8766	interviewen	interviewt interviewen interviewte interviewten
+67	8767	märkisch	märkischen märkische märkischer märkisch märkisches
+68	8768	bulgarisch	bulgarischen bulgarische bulgarisch bulgarischer
+69	8769	umständlich	umständlich umständlicher umständliche umständlichen umständliches
+70	8770	Mundart	mundart mundarten
+71	8771	Besitzerin	besitzerin besitzer
+72	8772	abgesichert	abgesichert abgesicherten abgesicherte
+73	8773	Berufsleben	berufsleben berufslebens
+74	8774	rekrutieren	rekrutiert rekrutieren rekrutierte rekrutierten
+75	8775	Loyalität	loyalität loyalitäten
+76	8776	Kran	kran kräne krane krans kränen kranen
+77	8777	Skelett	skelett skelette skeletts skeletten
+78	8778	erschrocken	erschrocken erschrockene erschrockenen
+79	8779	unverzichtbar	unverzichtbar unverzichtbare unverzichtbaren unverzichtbarer unverzichtbares
+80	8780	Grundeinkommen	grundeinkommen grundeinkommens
+81	8781	Selbstverständlichkeit	selbstverständlichkeit selbstverständlichkeiten
+82	8782	Campingplatz	campingplatz campingplätze campingplätzen campingplatzes
+83	8783	dekorieren	dekoriert dekorieren dekorierten dekorierte dekoriere dekorierter
+84	8784	hinsetzen	hinsetzen hingesetzt hinzusetzen hinsetzt
+85	8785	Torschütze	torschütze torschützen torschützin
+86	8786	zurückholen	zurückholen zurückzuholen zurückgeholt zurückholt zurückholte
+87	8787	zuschneiden	zugeschnitten zugeschnittene zuschneiden zugeschnittenen zugeschnittenes zuzuschneiden zuschnitte
+88	8788	Windel	windeln windel
+89	8789	mittelgroß	mittelgrossen mittelgrosse mittelgross mittelgrosser mittelgrosses mittelgroßen mittelgroße mittelgroß mittelgroßer mittelgroßes
+90	8790	brauen	brauen gebraut brau braust braue braute
+91	8791	Sprengstoff	sprengstoff sprengstoffe sprengstoffen
+92	8792	triggern	trigger triggern triggert getriggert
+93	8793	Dildo	dildo dildos
+94	8794	Mathematiker	mathematiker mathematikern mathematikers mathematikerin
+95	8795	symbolisieren	symbolisiert symbolisieren symbolisierte symbolisierten
+96	8796	Färbung	färbung färbungen
+97	8797	Kahn	kahn kähne kahns kähnen
+98	8798	thermisch	thermische thermischen thermisch thermischer thermisches
+99	8799	mitreißen	mitreissen mitgerissen mitreissend mitreissende mitreissenden mitreisst mitreissender mitreissendes mitzureissen mitreißen
+100	8800	Abteilungsleiter	abteilungsleiter abteilungsleiterin abteilungsleiters abteilungsleitern

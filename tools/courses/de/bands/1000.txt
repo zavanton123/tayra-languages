@@ -1,0 +1,100 @@
+1	901	top	top tops
+2	902	vergehen	vergangenen vergehen vergangen vergeht vergangene vergangener vergangenes verging vergingen vergehens
+3	903	verantwortlich	verantwortlich verantwortlichen verantwortliche verantwortlicher verantwortliches
+4	904	zwingen	gezwungen zwingen zwang zwingend zwingt zwangen zwängen zwingende zwänge zwinge
+5	905	Besuch	besuch besuche besuchs besuches
+6	906	Schluss	schluss schlüsse schlüssen schlusse schluße
+7	907	Prozess	prozess prozesse prozesses prozessen
+8	908	Funktion	funktion funktionen
+9	909	Wunsch	wunsch wünsche wünsch wunsches wunsche
+10	910	verbunden	verbunden verbundenen verbundene verbundener verbundenes verbundenem
+11	911	Natur	natur naturen
+12	912	verschwinden	verschwinden verschwunden verschwindet verschwand verschwanden verschwundenen verschwindend verschwundene verschwinde verschwindens
+13	913	Modell	modell modelle modellen modells
+14	914	rennen	rennen rennt rannte renner gerannt renn rennens renne rannten rennst
+15	915	frisch	frisch frische frischen frischer frisches frischem frischt frischesten frischeren
+16	916	verlangen	verlangen verlangt verlangte verlange verlangten verlangst verlang verlangens
+17	917	Wald	wald wälder wäldern waldes walde wäldchen walds
+18	918	stolz	stolz stolze stolzen stolzer stolzes stolzeste stolzesten
+19	919	töten	getötet töten tötet tötete töte töteten tötest tötens
+20	920	Montag	montag montage montags montagen
+21	921	Organisation	organisation organisationen
+22	922	geplant	geplant geplanten geplante geplanter geplantes geplantem
+23	923	vermutlich	vermutlich vermutliche vermutlichen vmtl vermutlicher
+24	924	Ordnung	ordnung ordnungen
+25	925	steuern	steuern steuer gesteuert steuert steuerte gesteuerte gesteuerten steuerten steuere gesteuerter
+26	926	Meister	meister meistern meisters meisterin gemeistert meistert meisterte meisterten meistere
+27	927	fangen	fängt fangen fing fang fange fingen fängst fangt fängen fänge
+28	928	ruhig	ruhig ruhiger ruhige ruhigen ruhiges ruhigeren ruhigere ruhigem ruhigeres ruhigste
+29	929	Anzeige	anzeige angezeigt anzeigen anzeigt anzuzeigen anzeigte anzeigten
+30	930	beschäftigt	beschäftigt beschäftigte beschäftigten beschäftigter
+31	931	live	live
+32	932	Dollar	dollar dollars
+33	933	richten	richten richtet gerichtet richtete richte richteten gerichteten richt gerichteter richtest
+34	934	Fahrzeug	fahrzeuge fahrzeug fahrzeugen fahrzeugs fahrzeuges
+35	935	Baum	baum bäume bäumen baumes bäumchen baums baume bäumte bäumt
+36	936	günstig	günstig günstiger günstige günstigen günstigsten günstigere günstigste günstigeren günstiges günstigem
+37	937	betroffen	betroffenen betroffen betroffene betroffener betroffenes betroffenem
+38	938	Fenster	fenster fenstern fensters fensterchen
+39	939	Start	start starte starts
+40	940	ehe	ehe ehen
+41	941	übrig	übrig übrigen übrige übriges
+42	942	Donnerstag	donnerstag do donnerstags donnerstage
+43	943	verkauft	verkauft verkaufte verkauften verkaufter verkauftes
+44	944	darunter	darunter drunter
+45	945	Freiheit	freiheit freiheiten
+46	946	teuer	teuer teurer teure teuren teuerste teuersten teures teureren teurere teurem
+47	947	entweder	entweder
+48	948	leiden	leiden leidet gelitten litt litten leide leidens leidest leidend litte
+49	949	gucken	gucken guck guckt geguckt gucke guckst guckte kucken guckten
+50	950	Wunder	wunder wundern wundert gewundert wundere wunderte wunderst wunders wunderten
+51	951	Freude	freude freud freuden
+52	952	Hintergrund	hintergrund hintergründe hintergründen hintergrunds hintergrundes
+53	953	irgendetwas	irgendwas irgendetwas iwas
+54	954	Schiff	schiff schiffe schiffen schiffes schiffs schiffchen schiffte schifft geschifft
+55	955	fassen	fassen gefasst fasst fass fasste fasse fässer gefassten gefasste fässern
+56	956	wissenschaftlich	wissenschaftliche wissenschaftlichen wissenschaftlich wissenschaftlicher wissenschaftliches wissenschaftlichem
+57	957	Fahrrad	fahrrad rad räder fahrräder rädern fahrrädern rade rades rädchen radl
+58	958	Park	park parken parks parker geparkt parkt parkte parke parkes parkers
+59	959	national	nationalen nationale national nationaler nationales nationalem
+60	960	Zweck	zweck zwecke zwecks zwecken zweckes
+61	961	Bau	bau bauten baue baus baues
+62	962	Bildung	bildung bildungs bildungen
+63	963	ficken	ficken fick gefickt fickt ficke fickst fickte ficks
+64	964	erfüllen	erfüllt erfüllen erfüllte erfülle erfüllten erfülltes erfüllende erfüllst erfüllend erfüllter
+65	965	krank	krank kranken kranke kranker krankes krankt kränker krankem
+66	966	Partner	partner partnern partnerin partners partnerinnen
+67	967	Maßnahme	massnahmen massnahme maßnahmen maßnahme
+68	968	erwähnt	erwähnt erwähnte erwähnten erwähnter erwähntes
+69	969	modern	modernen modern moderner modernes modernsten modernste modernem modernere modernster moderneren
+70	970	cm	cm
+71	971	jedenfalls	jedenfalls
+72	972	nahe	nahe
+73	973	Nordost	no nordost
+74	974	Handy	handy handys
+75	975	speziell	speziell spezielle speziellen spezielles spezieller speziellem speziellere spezielleren
+76	976	zerstören	zerstört zerstören zerstörte zerstörten zerstörer zerstöre zerstörtes zerstörst zerstörter zerstör
+77	977	Schloss	schloss schlösser schlosses schlössern schlösschen schlosse schloß schlößchen schloße
+78	978	leer	leer leere leeren leerer leeres geleert leerem leert leerte leerten
+79	979	Haar	haare haar haaren härchen haares haars haart
+80	980	extrem	extrem extreme extremen extremer extremes extremsten extremem extremste extremere extremeren
+81	981	Gold	gold goldes golde golds
+82	982	gesund	gesund gesunde gesunden gesundes gesunder gesünder gesundem gesündere gesündeste gesünderen
+83	983	Diskussion	diskussion diskussionen
+84	984	Sekunde	sekunden sekunde
+85	985	geschlossen	geschlossen geschlossenen geschlossene geschlossener geschlossenes geschlossenem
+86	986	Ruhe	ruhe ruh
+87	987	kalt	kalt kalten kalte kaltes kalter kälter kaltem kälteren kältesten kälteste
+88	988	Tisch	tisch tische tischen tisches tischchen tischt tischlein tischs
+89	989	verdienen	verdienen verdienst verdienste verdiene verdiente verdienten verdiensten verdien verdienenden verdienstes
+90	990	praktisch	praktisch praktische praktischen praktischer praktisches praktischem praktischsten
+91	991	ursprünglich	ursprünglich ursprünglichen ursprüngliche ursprünglicher ursprüngliches ursprünglichem ursprünglichsten ursprünglichste
+92	992	Sicht	sicht gesichtet sichten sichtet sichtete sichteten gesichteten
+93	993	Gewalt	gewalt gewalten
+94	994	daraus	daraus draus
+95	995	gefährlich	gefährlich gefährliche gefährlichen gefährlicher gefährliches gefährlichsten gefährlichste gefährlichem gefährlichere gefährlicheren
+96	996	sparen	sparen spart gespart spar sparte spare sparten sparer sparst sparern
+97	997	Reise	reise
+98	998	Waffe	waffen waffe
+99	999	retten	retten gerettet rettet rettete rette retteten rettest rett
+100	1000	treiben	treiben treibt getrieben trieb trieben treibende triebe treibe treibenden treibst

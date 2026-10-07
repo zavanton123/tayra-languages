@@ -1,0 +1,100 @@
+1	9201	Ausreise	ausreise ausreisen ausgereist auszureisen ausgereisten
+2	9202	Department	department departments
+3	9203	verfassungswidrig	verfassungswidrig verfassungswidrige verfassungswidrigen verfassungswidriger
+4	9204	auferlegen	auferlegt auferlegen auferlegten auferlegte aufzuerlegen
+5	9205	enttäuschen	enttäuschen enttäusche enttäusch enttäuschst enttäuschte enttäuschten
+6	9206	Baseball	baseball baseballs
+7	9207	undenkbar	undenkbar undenkbare
+8	9208	Druckerei	druckerei druckereien
+9	9209	Pinsel	pinsel pinseln gepinselt pinsels
+10	9210	Helligkeit	helligkeit helligkeiten
+11	9211	Abhilfe	abhilfe
+12	9212	Ambiente	ambiente
+13	9213	Bereitstellung	bereitstellung
+14	9214	Chi	chi
+15	9215	Commerzbank	commerzbank
+16	9216	Cornelius	cornelius
+17	9217	Erwärmung	erwärmung
+18	9218	Fließmittel	fm
+19	9219	Großraum	grossraum großraum
+20	9220	Haller	haller
+21	9221	Handhabung	handhabung
+22	9222	Heidelberger	heidelberger
+23	9223	hinab	hinab
+24	9224	Hingabe	hingabe
+25	9225	Iwf	iwf
+26	9226	Karate	karate
+27	9227	Lux	lux
+28	9228	Marihuana	marihuana
+29	9229	mitsamt	mitsamt
+30	9230	Paprika	paprika
+31	9231	Popularität	popularität
+32	9232	Populismus	populismus
+33	9233	Prager	prager
+34	9234	Speyerin	speyer
+35	9235	Startseite	startseite
+36	9236	Titanic	titanic
+37	9237	umgerechnet	umgerechnet
+38	9238	Vergessenheit	vergessenheit
+39	9239	Wildnis	wildnis
+40	9240	Zuverlässigkeit	zuverlässigkeit
+41	9241	übermorgen	übermorgen
+42	9242	Freak	freak freaks
+43	9243	Klippe	klippen klippe
+44	9244	Letzt	letzt letzer
+45	9245	Turnhalle	turnhalle turnhallen
+46	9246	Rover	rover rovers
+47	9247	entschärfen	entschärfen entschärft entschärfte
+48	9248	Navi	navi navis
+49	9249	zumachen	zumachen zugemacht zuzumachen zumacht
+50	9250	Weingut	weingut weingüter weinguts weingütern weingutes
+51	9251	unkontrolliert	unkontrolliert unkontrollierte unkontrollierten unkontrollierter unkontrolliertes
+52	9252	Wucht	wucht wuchten wuchtet wuchtete
+53	9253	Korpus	corpus korpus
+54	9254	Ethnie	ethnie ethnien
+55	9255	Schub	schub schüben schubs schübe schubse
+56	9256	beilegen	beigelegt beilegen beizulegen beigelegten
+57	9257	betiteln	betitelt betiteln betitelte betitelten
+58	9258	ertönen	ertönt ertönen ertönte ertönten
+59	9259	hysterisch	hysterisch hysterische hysterischen hysterischer hysterisches
+60	9260	Gysi	gysi gysis
+61	9261	Kriegsende	kriegsende kriegsendes
+62	9262	Vormarsch	vormarsch vormarsches
+63	9263	merklich	merklich merkliche merklichen
+64	9264	patriotisch	patriotische patriotischen patriotisch patriotischer patriotisches
+65	9265	allergisch	allergisch allergische allergischen allergischer
+66	9266	Verkleidung	verkleidung verkleidungen
+67	9267	Wegfall	wegfall wegfalls
+68	9268	lackieren	lackiert lackieren lackierten lackierte lackiertem
+69	9269	Schulabschluss	schulabschluss schulabschlüsse
+70	9270	Wirtschaftskrise	wirtschaftskrise wirtschaftskrisen
+71	9271	Lokomotivführer	lokführer lokomotivführer
+72	9272	bedauerlich	bedauerlich bedauerlicher bedauerliche bedauerlichen
+73	9273	Goldmedaille	goldmedaille goldmedaillen
+74	9274	Verwaltungsrat	verwaltungsrat verwaltungsrates verwaltungsrats verwaltungsräte verwaltungsräten
+75	9275	Tau	tau taut taue tauen taus taute
+76	9276	Aquarium	aquarium aquarien aquariums
+77	9277	unpassend	unpassend unpassende unpassenden unpassender unpassendes
+78	9278	Abwasser	abwasser abwässer abwässern abwassers
+79	9279	fabelhaft	fabelhaft fabelhafte fabelhaften fabelhaftes fabelhafter
+80	9280	Beichte	beichte beichten beichtet gebeichtet beichtete beicht
+81	9281	Sticker	sticker stickern stickers
+82	9282	Esch	esch esche eschen
+83	9283	Radiosender	radiosender radiosenders radiosendern
+84	9284	Abmahnung	abmahnung abmahnungen
+85	9285	Erzieherin	erzieherin erzieherinnen
+86	9286	Schlachtfeld	schlachtfeld schlachtfeldern schlachtfelder schlachtfeldes
+87	9287	Werkstoff	werkstoffe werkstoff werkstoffen werkstoffs werkstoffes
+88	9288	Honorar	honorar honorare honorars honoraren
+89	9289	Arndt	arndt arndts
+90	9290	Schlitz	schlitz schlitze schlitzen geschlitzt schlitzt schlitzte geschlitzten
+91	9291	ermorden	ermorden ermordeten ermordete
+92	9292	nativ	native natives nativ nativen
+93	9293	einsperren	einsperren einzusperren einsperrt
+94	9294	Advent	advent advents
+95	9295	Arbeitsweise	arbeitsweise arbeitsweisen
+96	9296	tendieren	tendiert tendieren tendiere tendierte tendierten
+97	9297	verbrauchen	verbrauchen verbrauchte verbrauchten verbrauchst verbrauche
+98	9298	Bomber	bomber bombern bombers
+99	9299	wehtun	wehtun wehtut wehgetan wehtat wehzutun
+100	9300	Keil	keil keile keilen keils

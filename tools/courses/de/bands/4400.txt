@@ -1,0 +1,100 @@
+1	4301	vollziehen	vollzogen vollziehen vollzieht vollzog vollzogenen vollzogene vollziehende vollzogener vollziehe
+2	4302	Semester	semester semestern semesters
+3	4303	Leder	leder leders lederne ledernen
+4	4304	explizit	explizit explizite expliziten expliziter explizites explizitem
+5	4305	Charlotte	charlotte charlottes
+6	4306	überflüssig	überflüssig überflüssige überflüssigen überflüssiges überflüssiger
+7	4307	Fachkraft	fachkräfte fachkraft fachkräften
+8	4308	Bargeld	bargeld bargelds bargeldes
+9	4309	hochladen	hochgeladen hochladen hochzuladen hochlädt hochlade
+10	4310	Look	look looks
+11	4311	Auswertung	auswertung auswertungen
+12	4312	Europäer	europäer europäern europäerin europäers
+13	4313	transparent	transparent transparente transparenten transparenter transparentes transparentem
+14	4314	verkehrt	verkehrt verkehrte verkehrten verkehrtes
+15	4315	Fassade	fassade fassaden
+16	4316	kaiserlich	kaiserlichen kaiserliche kaiserlicher kaiserlich kaiserliches kaiserlichem
+17	4317	Ass	ass assen asse asses aß aßen
+18	4318	Vergewaltigung	vergewaltigung vergewaltigungen
+19	4319	Radweg	radweg radwege radwegen radweges radwegs
+20	4320	hinzufügen	hinzufügen hinzuzufügen hinzufügt hinzufügte hinzufüge
+21	4321	vorzeitig	vorzeitig vorzeitige vorzeitigen vorzeitiger vorzeitiges vorzeitigem
+22	4322	Verfassungsschutz	verfassungsschutz verfassungsschutzes
+23	4323	Rebell	rebellen rebell rebellin
+24	4324	nice	nice nicer nices nicen
+25	4325	bekennen	bekennen bekennt bekannten bekannte bekennender bekenne
+26	4326	erwachen	erwachen erwacht erwachte erwache erwachten erwachens erwachst
+27	4327	gefährden	gefährden gefährder gefährdeten gefährdete gefährde gefährdern gefährdenden gefährdest gefährdende
+28	4328	Kai	kai kais
+29	4329	Anblick	anblick anblicke
+30	4330	seriös	seriös seriöse seriösen seriöser seriöses
+31	4331	Label	label labels labeln
+32	4332	Studiengang	studiengang studiengänge studiengängen studiengangs studienganges
+33	4333	loswerden	loswerden loszuwerden losgeworden loswerde loswird
+34	4334	Stichwort	stichwort stichworte stichworten stichwörter stichwörtern
+35	4335	Steven	steven stevens
+36	4336	Akzent	akzent akzente akzenten akzents
+37	4337	Alarm	alarm alarme alarms
+38	4338	Klimawandel	klimawandel klimawandels
+39	4339	hartzen	hartz hartzen
+40	4340	Ausrichtung	ausrichtung ausrichtungen
+41	4341	Belohnung	belohnung belohnungen
+42	4342	Ethik	ethik ethiken
+43	4343	frühzeitig	frühzeitig frühzeitige frühzeitigen frühzeitiger frühzeitiges
+44	4344	Hugo	hugo hugos
+45	4345	Verbrecher	verbrecher verbrechern verbrechers verbrecherin
+46	4346	hingehen	hingehen hingeht hingegangen hinzugehen hingehe hingehst hinging
+47	4347	göttlich	göttlichen göttliche göttlich göttlicher göttliches göttlichem
+48	4348	widerlich	widerlich widerliche widerlicher widerlichen widerliches widerlichste widerlichsten
+49	4349	Innenminister	innenminister innenministers innenministerin
+50	4350	kollektiv	kollektiv kollektive kollektiven kollektives kollektiver kollektivs kollektivem
+51	4351	Saudi	saudi saudis
+52	4352	Hürde	hürde hürden
+53	4353	Leinwand	leinwand leinwände leinwänden
+54	4354	Biografie	biographie biografie biografien
+55	4355	stinken	stinkt stinken stinkenden stinkst stank stinke gestunken stink stinkend
+56	4356	klatschen	klatschen klatsch klatsche klatscht geklatscht klatschte klatschten klatschend
+57	4357	etablieren	etablieren etablierten etablierte
+58	4358	klinisch	klinische klinischen klinisch klinischer klinisches
+59	4359	ausreichen	ausreichen ausreicht ausgereicht ausreichte ausreichten ausreiche auszureichen
+60	4360	anstelle	anstelle
+61	4361	Bauarbeiten	bauarbeiten
+62	4362	Brd	brd
+63	4363	Errichtung	errichtung
+64	4364	oberhalb	oberhalb
+65	4365	Siemens	siemens
+66	4366	Strauß	strauss strauß
+67	4367	vorwärts	vorwärts
+68	4368	Abfahrt	abfahrt abfahrten
+69	4369	flüssig	flüssig flüssigen flüssige flüssiger flüssiges flüssigem
+70	4370	Bundesstaat	bundesstaat bundesstaaten bundesstaates bundesstaats
+71	4371	Volumen	volumen volumens volumina
+72	4372	definieren	definieren definiere definierten definierte definierst definierende definier
+73	4373	Clan	clan clans klan
+74	4374	LED	led leds
+75	4375	Muschi	muschi muschis
+76	4376	Hall	hall hallen halls hallt hallte halles hallten
+77	4377	bedauern	bedauern bedauert bedauere bedauerte bedaure bedauernd bedauerten bedauerns
+78	4378	Feedback	feedback feedbacks
+79	4379	glänzend	glänzend glänzende glänzenden glänzender glänzendes glänzendem
+80	4380	tschechisch	tschechischen tschechische tschechisch tschechischer tschechisches
+81	4381	Neuigkeit	neuigkeiten neuigkeit
+82	4382	Hexe	hexe hexen hex hexer
+83	4383	nachvollziehen	nachvollziehen nachzuvollziehen nachvollzogen
+84	4384	Statement	statement statements
+85	4385	Garage	garage garagen
+86	4386	anrichten	angerichtet anrichten anrichtet anzurichten anrichte angerichteten anrichtete anrichteten
+87	4387	dreckig	dreckig dreckige dreckigen dreckiger dreckiges dreckigsten dreckigste
+88	4388	Krieger	krieger kriegern kriegers kriegerin
+89	4389	Drohung	drohung drohungen
+90	4390	bang	bang bange bangen banger bangt bangte gebangt
+91	4391	anstellen	anstellen anstellt anzustellen anstellst anstellte anstellten
+92	4392	Joch	jochen joch joche
+93	4393	Rhythmus	rhythmus rhythmen
+94	4394	Trikot	trikot trikots
+95	4395	Währung	währung währungen währungs
+96	4396	bereuen	bereuen bereut bereue bereute bereust
+97	4397	erstatten	erstattet erstatten erstattete erstatteten erstatte
+98	4398	Hektar	hektar hektaren
+99	4399	erfinden	erfinden erfand erfindet erfinde erfanden erfindest
+100	4400	Marktplatz	marktplatz marktplatzes marktplätze marktplätzen

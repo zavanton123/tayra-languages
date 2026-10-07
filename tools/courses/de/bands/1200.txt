@@ -1,0 +1,100 @@
+1	1101	Tipp	tipps tipp
+2	1102	reisen	reisen reist reiste gereist reisten ries reisens
+3	1103	Streit	streit streiten gestritten streitet streite streits stritten stritt streitenden streites
+4	1104	Spiegel	spiegel spiegelt spiegeln spiegels spiegelte gespiegelt spieglein spiegelten spiegele spiegelnden
+5	1105	Feuer	feuer gefeuert feuern feuers feuert feuerte feuerten feuere feuerchen
+6	1106	Urlaub	urlaub urlaubs urlaube urlauben urlaubt urlaubes
+7	1107	Arsch	arsch ärsche ärschen arsche
+8	1108	Ehre	ehre ehren geehrt ehrt ehr ehrte ehret ehrten
+9	1109	derjenige	diejenigen derjenige denjenigen diejenige derjenigen demjenigen dasjenige desjenigen
+10	1110	lügen	lügen lüge gelogen lügt log loge logen lügst logs lüg
+11	1111	Bier	bier biere bierchen bieres bieren biers
+12	1112	Material	material materialien materials
+13	1113	österreichisch	österreichischen österreichische österreichischer österreichisch österreichisches österreichischem
+14	1114	Krankenhaus	krankenhaus krankenhäuser krankenhäusern krankenhauses
+15	1115	Pferd	pferd pferde pferden stute hengst pferdes wallach stuten hengste pferdchen
+16	1116	Lust	lust lüste
+17	1117	präsentieren	präsentiert präsentieren präsentierte präsentierten präsentiere präsentierst
+18	1118	Anzahl	anzahl
+19	1119	bloß	bloss bloß
+20	1120	erstmal	erstmal
+21	1121	Größe	grösse größe
+22	1122	immerhin	immerhin
+23	1123	sobald	sobald
+24	1124	solange	solange
+25	1125	leid	leid leide leids leides
+26	1126	Netz	netz netze netzes netzen netzt netzte
+27	1127	Trainer	trainer trainerin trainern trainers trainerinnen
+28	1128	Geist	geist geister geistes geiste geistern geistert geisterte
+29	1129	Mare	maria maren mare mares
+30	1130	beteiligt	beteiligt beteiligten beteiligte beteiligter
+31	1131	Kontrolle	kontrolle kontrollen kontroll
+32	1132	Bund	bund bundes bunde bünde bunds bünden
+33	1133	Schweizer	schweizer schweitzer schweizern schweizerin schweizerinnen schweizers melker
+34	1134	Kaffee	kaffee kaffees käffchen
+35	1135	Hasse	hasse hassen hasst gehasst hasste hassten gehassten gehasste hassende
+36	1136	grundsätzlich	grundsätzlich grundsätzliche grundsätzlichen grundsätzliches grundsätzlicher
+37	1137	warm	warm warmen warme warmes wärmer warmer warmem wärmeren wärmsten wärmste
+38	1138	ankommen	angekommen ankommt ankommen ankam ankamen anzukommen ankomme ankommenden ankommst angekommenen
+39	1139	unglaublich	unglaublich unglaubliche unglaublichen unglaubliches unglaublicher unglaublichsten unglaublichem
+40	1140	Wand	wand wände wänden
+41	1141	willkommen	willkommen willkommene willkommener willkommens willkommenes willkommenen
+42	1142	bewusst	bewusst bewusste bewusster bewussten bewusstes bewusstem bewußte bewußter bewußten bewußtes
+43	1143	Eindruck	eindruck eindrücke eindrücken eingedrückt eindrucks
+44	1144	Schließe	schliessen schliesse schlossen schliessende schliesser schließen schließe schloßen schließer
+45	1145	sichern	sichern gesichert sichert sicherte sicherten sichere sicherst
+46	1146	staatlich	staatlichen staatliche staatlich staatlicher staatliches staatlichem
+47	1147	Verlag	verlag verlage verlags verlages verlagen
+48	1148	Auftrag	auftrag aufträge aufträgen auftrags auftrage auftrages
+49	1149	betragen	beträgt betragen betrugen betrogen betrügt betrügen betrage betrogene betrüge betrügst
+50	1150	breit	breit breiter breiten breites breiteren breitere breitet breitem breiteres breitete
+51	1151	außerhalb	ausserhalb außerhalb
+52	1152	stören	stört stören gestört störend störte gestörte störe störende gestörten störenden
+53	1153	gewiss	gewisse gewiss gewisser gewisses gewissem gewiße gewißer gewißes gewißem
+54	1154	greifen	greifen greift gegriffen greife griffen greif griffe greifst greifende greifenden
+55	1155	entdeckt	entdeckt entdeckte entdeckten entdecktes entdeckter
+56	1156	negativ	negativ negative negativen negatives negativer negativem
+57	1157	typisch	typisch typische typischen typischer typisches typischem
+58	1158	gebären	geboren gebären gebar gebaren gebiert gebärt
+59	1159	Werbung	werbung werbungen
+60	1160	konkret	konkrete konkreten konkret konkreter konkretes konkretere konkretem konkreteren konkreteres
+61	1161	Johannes	johannes jo johannis johanne johanni
+62	1162	unterscheiden	unterscheiden unterscheidet unterschiede unterschieden unterscheide unterscheid unterscheidende unterscheidenden unterscheidest
+63	1163	verbessern	verbessern verbessert verbesserte verbesserten verbesserter verbessere verbessertes verbesserst verbessertem verbesser
+64	1164	stattfinden	stattfinden stattfindet stattgefunden stattfand stattfindenden stattfindende stattfanden stattgefundenen stattfinde stattzufinden
+65	1165	erwachsen	erwachsene erwachsenen erwachsen erwachsener erwächst erwuchs erwachsenes erwachsenem erwachsenden erwuchsen
+66	1166	Vorstellung	vorstellung vorstellungen
+67	1167	Information	information info informations
+68	1168	fein	fein feine feinen feines feiner feinsten feinste feinem feinster feinere
+69	1169	Nazi	nazis nazi
+70	1170	verzichten	verzichten verzichtet verzicht verzichtete verzichte verzichteten verzichtest verzichts
+71	1171	Garten	garten gärten gartens gärtchen
+72	1172	naja	naja
+73	1173	Union	union
+74	1174	feststellen	festgestellt feststellen festzustellen feststellt feststellte festgestellten feststellten feststelle feststellst festgestellter
+75	1175	Abschluss	abschluss abschlüsse abschlüssen abschlusses
+76	1176	Kaiser	kaiser kaisers kaiserin kayser kaisern keyser
+77	1177	aufgenommen	aufgenommen aufgenommenen aufgenommene aufgenommenes aufgenommener
+78	1178	Vorsitzender	vorsitzender vorsitzende vorsitzenden vorsitzendem
+79	1179	ermöglichen	ermöglicht ermöglichen ermöglichte ermöglichten ermögliche ermöglich
+80	1180	aufnehmen	aufnehmen aufzunehmen aufnahmen aufnimmt aufnahm aufnehme aufnehmenden aufnimmst
+81	1181	spannend	spannend spannende spannenden spannender spannendes spannendsten spannendste spannendem spannenderes spannendere
+82	1182	kümmern	kümmern kümmert gekümmert kümmerte kümmere kümmer kümmerten kümmerst
+83	1183	Lager	lager lagern gelagert lagers lagert lagerten lagerte lagernd lagere lägern
+84	1184	gelangen	gelang gelangen gelangte gelangten gelangt gelange gelangst
+85	1185	menschlich	menschlichen menschliche menschlich menschlicher menschliches menschlichem menschlichere
+86	1186	Album	album alben albums
+87	1187	Generation	generation generationen
+88	1188	Finale	finale final finalen finals finales finaler
+89	1189	eingesetzt	eingesetzt eingesetzten eingesetzte eingesetzter eingesetztes
+90	1190	Untersuchung	untersuchung untersuchungen
+91	1191	prüfen	prüfen geprüft prüft prüfe geprüften prüfte geprüfter prüf prüften prüfenden
+92	1192	Spur	spur spuren spurt gespurt
+93	1193	draußen	draussen draußen
+94	1194	Jugend	jugend
+95	1195	möglichst	möglichst
+96	1196	komisch	komisch komische komischen komisches komischer komischem komischsten
+97	1197	Feld	feld felder feldern feldes felde felds felden
+98	1198	tausend	tausend tausende tausenden
+99	1199	Ex	ex exe ext exen exten
+100	1200	Geburtstag	geburtstag geburtstags geburtstage geburtstages geburtstagen

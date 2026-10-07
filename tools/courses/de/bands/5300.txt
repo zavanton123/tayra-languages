@@ -1,0 +1,100 @@
+1	5201	Schmetterling	schmetterling schmetterlinge schmetterlingen schmetterlings
+2	5202	Chronik	chronik chroniken
+3	5203	Wange	wangen wange
+4	5204	Untergrund	untergrund untergrundes untergrunds untergründen untergründe
+5	5205	höflich	höflich höfliche höflicher höflichen höfliches
+6	5206	Port	port ports porte porten portes
+7	5207	Challenge	challenge challenges
+8	5208	Rechtsstaat	rechtsstaat rechtsstaates rechtsstaats
+9	5209	Promi	promi promis
+10	5210	Darsteller	darsteller darstellern darstellers
+11	5211	beschuldigt	beschuldigt beschuldigten beschuldigte beschuldigter
+12	5212	taktisch	taktische taktischen taktisch taktisches taktischer taktischem
+13	5213	australisch	australischen australische australischer australisches australisch australischem
+14	5214	Flieger	flieger fliegern fliegers
+15	5215	meiden	meiden gemieden meidet meide mied mieden meid
+16	5216	Wörterbuch	wörterbuch wörterbücher wörterbüchern wörterbuchs wörterbuches
+17	5217	Aufzug	aufzug aufzüge aufzügen aufzugs aufzuges
+18	5218	Bemerkung	bemerkungen bemerkung
+19	5219	tschüss	tschüss tschüssi tschö tschüs
+20	5220	Tastatur	tastatur tastaturen
+21	5221	Sub	sub subs
+22	5222	wörtlich	wörtlich wörtliche wörtlichen wörtlicher wörtliches
+23	5223	jedermann	jedermann jedermanns
+24	5224	brüllen	brüllen brüllt gebrüllt brüllte brüll brüllend brüllten brülle brüllende brüllenden
+25	5225	rasieren	rasieren rasiert rasierte rasiere rasier rasierten rasierst
+26	5226	Installation	installation installationen
+27	5227	verwunden	verwundet verwundeten verwundete verwunden verwundeter
+28	5228	abrufen	abgerufen abrufen abzurufen abruft abrufe
+29	5229	bereichern	bereichern bereichert bereicherte bereichernd bereicherten bereichernde bereichernden
+30	5230	erzwingen	erzwingen erzwungen erzwungene erzwungenen erzwingt erzwang erzwungener erzwangen erzwungenes
+31	5231	verarbeiten	verarbeiten verarbeitenden verarbeitete verarbeiteten verarbeite
+32	5232	Mercedes-Benz	benz
+33	5233	Einzel	einzel
+34	5234	Hardcore	hardcore
+35	5235	hinauf	hinauf
+36	5236	indes	indes
+37	5237	Manchester	manchester
+38	5238	Maßstab	massstab maßstab
+39	5239	nebenan	nebenan
+40	5240	Nürnberger	nürnberger
+41	5241	Oberliga	oberliga
+42	5242	Salzburger	salzburger
+43	5243	seinerzeit	seinerzeit
+44	5244	tagsüber	tagsüber
+45	5245	USB	usb
+46	5246	worüber	worüber
+47	5247	Ratschlag	ratschläge ratschlag ratschlägen
+48	5248	differenziert	differenziert differenzierte differenzierter differenzierten differenziertes differenziertere differenzierteres differenzierteren
+49	5249	Schreiber	schreiber schreibers schreibern schreiberin
+50	5250	Huhn	huhn hühnchen hühnern huhns
+51	5251	verwirren	verwirrend verwirren verworren verwirrende verworrene verwirrenden verwirrender verwirrte verwirrten verworrenen
+52	5252	Generalsekretär	generalsekretär generalsekretärin generalsekretärs generalsekretäre
+53	5253	neunte	neunten neunte neunter neuntes
+54	5254	Container	container containern containers
+55	5255	Khan	chan khan khans chans
+56	5256	ethnisch	ethnische ethnischen ethnisch ethnischer
+57	5257	Zusatz	zusatz zusätze zusätzen zusatzes
+58	5258	sonnig	sonnigen sonnig sonnige sonniger sonniges sonnigem
+59	5259	aussetzen	aussetzen auszusetzen aussetzt aussetzte aussetzten aussetze
+60	5260	Regierungschef	regierungschef regierungschefs regierungschefin
+61	5261	Betriebssystem	betriebssystem betriebssysteme betriebssystems betriebssystemen
+62	5262	Punk	punk punks
+63	5263	Reinigung	reinigung reinigungs reinigungen
+64	5264	zünden	zünden zündet gezündet zündete zündeten zünde zünd zündende
+65	5265	beugen	beugen beugt gebeugt beugte beuge gebeugten beugten gebeugte
+66	5266	Garde	garde garden
+67	5267	fossil	fossilen fossile fossilien fossil fossiler fossiles fossils
+68	5268	begehrt	begehrt begehrten begehrte begehrtesten begehrter begehrtes begehrteste
+69	5269	namentlich	namentlich namentliche namentlichen namentlicher
+70	5270	durchlaufen	durchlaufen durchläuft durchlief durchlauf durchliefen durchgelaufen durchlaufenden durchläufe
+71	5271	pauschal	pauschal pauschale pauschalen pauschales pauschaler
+72	5272	Statue	statue statuen
+73	5273	renommiert	renommierten renommierte renommierter renommiertesten renommiertes renommierteste renommiert
+74	5274	präsent	präsent präsente präsenter präsenten
+75	5275	Formation	formation formationen
+76	5276	Mechanismus	mechanismus mechanismen
+77	5277	Tuch	tuch tücher tüchern tuches tuche tuchen
+78	5278	Schwarm	schwarm schwärmen schwärmt schwärmte geschwärmt schwärme schwärmer schwärmten schwarms schwarme
+79	5279	moderieren	moderiert moderieren moderierte moderierten moderiere
+80	5280	Materie	materie materien
+81	5281	vorlegen	vorlegen vorzulegen vorlegte vorlegt vorlegten vorlege
+82	5282	Diskurs	diskurs diskurses diskurse diskursen
+83	5283	konzipieren	konzipiert konzipierte konzipierten konzipieren konzipiertes konzipierter
+84	5284	Verarbeitung	verarbeitung verarbeitungen
+85	5285	ausbreiten	ausbreiten ausgebreitet ausbreitet auszubreiten ausbreitete ausgebreiteten ausbreitenden ausbreiteten
+86	5286	frieren	frieren friert gefroren gefrorenen gefrorene friere frier fror gefrorenes frierend
+87	5287	Packung	packung packungen
+88	5288	vergrößern	vergrössern vergrösserte vergrösserten vergrössere vergrößern vergrößerte vergrößerten vergrößere
+89	5289	Frosch	frosch frösche fröschen frosches
+90	5290	Satellit	satelliten satellit
+91	5291	Strick	strick stricken gestrickt stricke strickt strickte
+92	5292	Ratte	ratten ratte
+93	5293	Ruhm	ruhm ruhms ruhmes ruhme
+94	5294	zulegen	zulegen zugelegt zuzulegen zulegt zulegte
+95	5295	ekelhaft	ekelhaft ekelhafte ekelhaften ekelhafter ekelhaftes ekelhafteste
+96	5296	umdrehen	umdrehen umgedreht umzudrehen umdreht umdrehte umgedrehten umdrehe umdrehst
+97	5297	Fundament	fundament fundamente fundamenten fundaments
+98	5298	Gabe	gabe gaben
+99	5299	zacken	zack zacken zacke gezackt
+100	5300	sozialdemokratisch	sozialdemokratische sozialdemokratischen sozialdemokratischer sozialdemokratisch sozialdemokratisches

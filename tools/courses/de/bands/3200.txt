@@ -1,0 +1,100 @@
+1	3101	Zeile	zeilen zeile
+2	3102	Zauber	zauber zaubern zauberer zaubert gezaubert zauberte zaubers zaubere zauberst zauberten
+3	3103	Zahlung	zahlung zahlungen zahlungs
+4	3104	Kuh	kuh kühe kühen
+5	3105	Jagd	jagd jagden
+6	3106	aufwachsen	aufgewachsen aufwachsen aufwuchs aufwächst aufgewachsene aufzuwachsen aufgewachsenen aufwuchsen aufwachst
+7	3107	rühren	rühren rührt gerührt rührend rührte rührende rühre rühr rührenden rührten
+8	3108	dominieren	dominiert dominieren dominierten dominierte dominierende dominierenden dominierend dominierender dominierendes
+9	3109	Jacke	jacke jacken jäckchen
+10	3110	bedanken	bedanken bedankt bedanke bedankte bedank bedankten
+11	3111	Gesang	gesang gesänge gesangs gesängen gesanges gesange
+12	3112	Kid	kids kid
+13	3113	Fotograf	fotograf fotografen fotografin photograph fotografinnen
+14	3114	umbringen	umbringen umgebracht umzubringen umbringt umbrachte umbringe umbringst umbrachten
+15	3115	Fuchs	fuchs füchse füchsen fux fuchses füchsin füchslein
+16	3116	homosexuell	homosexuell homosexuelle homosexuellen homosexueller homosexuelles
+17	3117	Tourist	touristen tourist touristin
+18	3118	betrunken	betrunken betrunkene betrunkener betrunkenen betrunkenem betrunkenes
+19	3119	Schock	schock geschockt schocken schockt schocks schockte geschockten
+20	3120	systematisch	systematisch systematische systematischen systematischer systematisches
+21	3121	Sound	sound sounds
+22	3122	Entstehung	entstehung entstehungs
+23	3123	ärgern	ärgern ärgert geärgert ärgerte ärgere ärgerst ärgerten
+24	3124	Datei	datei dateien
+25	3125	Beobachtung	beobachtung beobachtungen beobachtungs
+26	3126	angreifen	angreifen anzugreifen angreift angriffe angriffen angreifenden angreifende angreife angreifst angreifend
+27	3127	Vorgang	vorgang vorgänge vorgängen vorgangs vorganges
+28	3128	beeindrucken	beeindruckt beeindrucken beeindruckte beeindruckten beeindrucke
+29	3129	Frühling	frühling frühlings
+30	3130	Speicher	speicher speichern speichert speichere speichers speicherte speicherst
+31	3131	Fantasie	fantasie phantasie fantasien
+32	3132	Grafik	grafik grafiken
+33	3133	Tunnel	tunnel tunnels tunneln
+34	3134	Plakat	plakate plakat plakaten plakats plakates
+35	3135	angepasst	angepasst angepasste angepassten angepasster angepasstes angepaßte angepaßten angepaßter angepaßtes
+36	3136	veröffentlichen	veröffentlichen veröffentlichte veröffentlichten veröffentliche veröffentlich veröffentlichst
+37	3137	Zigarette	zigaretten zigarette
+38	3138	ran	ran
+39	3139	seitens	seitens
+40	3140	Vordergrund	vordergrund
+41	3141	sechste	sechsten sechste sechster sechstes
+42	3142	einhalten	eingehalten einhalten einzuhalten einhält innehalten eingehaltene eingehaltenen einhielt einhalte innezuhalten
+43	3143	Flagge	flagge flaggen
+44	3144	entziehen	entziehen entzogen entzieht entzog entziehe entzogenen
+45	3145	einleiten	eingeleitet einleiten einzuleiten eingeleiteten eingeleitete einleitenden einleitet einleitete einleitend einleitende
+46	3146	versichert	versichert versicherte versicherten versicherter
+47	3147	Brille	brille brillen
+48	3148	Behauptung	behauptung behauptungen
+49	3149	optisch	optisch optische optischen optischer optisches optischem
+50	3150	Gras	gras gräser gräsern grases
+51	3151	Arena	arena arenen
+52	3152	angewiesen	angewiesen angewiesenen angewiesene
+53	3153	Sog	sog sogen
+54	3154	Zunge	zunge zungen zünglein
+55	3155	Tempel	tempel tempels tempeln
+56	3156	schrecken	schrecken schreck schreckt schreckens schreckte schrecke schreckten schrick geschreckt
+57	3157	hacken	hacken hack gehackt hacke hackt hacks hackte hackst gehackter hackten
+58	3158	Dreck	dreck drecks
+59	3159	Gitarre	gitarre gitarren guitarre
+60	3160	weitergehen	weitergehen weitergeht weiterging weitergegangen weiterzugehen weitergehe weitergehend
+61	3161	brutal	brutal brutale brutalen brutaler brutales brutalste brutalsten brutalem
+62	3162	Interpretation	interpretation interpretationen
+63	3163	Supermarkt	supermarkt supermärkte supermärkten supermarktes supermarkts
+64	3164	Unsinn	unsinn unsinns
+65	3165	Gutschein	gutschein gutscheine gutscheinen
+66	3166	Autofahrer	autofahrer autofahrern autofahrerin autofahrers
+67	3167	Resultat	resultat resultate resultaten resultats
+68	3168	einsam	einsam einsame einsamen einsamer einsames einsamsten
+69	3169	eingeschränkt	eingeschränkt eingeschränkte eingeschränkten eingeschränkter eingeschränktes eingeschränktem
+70	3170	wütend	wütend wütende wütenden wütender wütendes
+71	3171	vorwerfen	vorgeworfen vorwerfen vorwürfe vorzuwerfen vorwirft vorwürfen vorwarf vorwarfen vorgeworfenen vorwerfe
+72	3172	beten	beten betet bet gebetet betete beteten betenden betend beter betende
+73	3173	Fabrik	fabrik fabriken
+74	3174	Vision	vision visionen
+75	3175	verwirrt	verwirrt verwirrte verwirrten verwirrter verwirrtes
+76	3176	auffällig	auffällig auffällige auffälligen auffälliges auffälliger auffälligsten auffälligste auffälligem
+77	3177	Laune	laune launen
+78	3178	Fotografie	fotografie fotografien photographie
+79	3179	abschneiden	abgeschnitten abschneiden abzuschneiden abschnitte abschneidet abschnitten abgeschnittenen abgeschnittene abschneidens abschneide
+80	3180	Regime	regime regimes regimen
+81	3181	Betreiber	betreiber betreibern betreibers betreiberin
+82	3182	Richtlinie	richtlinien richtlinie
+83	3183	reduzieren	reduzieren reduzierte reduzierten reduziere reduzierenden
+84	3184	irgend	irgend
+85	3185	jenseits	jenseits
+86	3186	mega	mega
+87	3187	äußern	äussern äußern
+88	3188	indisch	indischen indische indischer indisch indisches indischem
+89	3189	Kapital	kapital kapitals kapitale kapitalen
+90	3190	Pirat	piraten pirat piratin
+91	3191	Modus	modus modi
+92	3192	Ressource	ressourcen ressource
+93	3193	Stream	stream streams
+94	3194	erziehen	erzogen erzieher erziehen erzieht erziehende erzog erzogene erziehe erzogenen
+95	3195	Toilette	toilette toiletten
+96	3196	Vorfall	vorfall vorfälle vorfällen vorfalls vorfalles
+97	3197	unklar	unklar unklaren unklare unklarer unklarem
+98	3198	aufgegeben	aufgegeben aufgegebenen aufgegebene aufgegebenes
+99	3199	literarisch	literarische literarischen literarisch literarischer literarisches literarischem
+100	3200	nicken	nick nicken nickt nickte nicke genickt nickend nickten

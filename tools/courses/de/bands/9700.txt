@@ -1,0 +1,100 @@
+1	9601	abschätzen	abschätzen abzuschätzen abgeschätzt
+2	9602	Pendler	pendler pendlern
+3	9603	anlocken	anlocken angelockt anzulocken anlockt anlockte
+4	9604	Heilmittel	heilmittel heilmitteln heilmittels
+5	9605	Flosse	flossen flosse floßen floße
+6	9606	Staubsauger	staubsauger staubsaugern
+7	9607	Pelz	pelz pelze pelzen
+8	9608	anklicken	anklicken angeklickt anklickt anzuklicken
+9	9609	überbringen	überbringen überbrachte überbracht überbringer überbringt überbrachten
+10	9610	einfordern	einfordern einzufordern einfordert einforderte einforderten
+11	9611	Projektion	projektion projektionen
+12	9612	respektlos	respektlos respektlose respektlosen respektloses respektloser
+13	9613	Apokalypse	apokalypse apokalypsen
+14	9614	wiedergegeben	wiedergegeben wiedergegebenen wiedergegebene
+15	9615	rückläufig	rückläufig rückläufige rückläufigen rückläufiger
+16	9616	Gamer	gamer gamern gamers
+17	9617	Finne	finnen finne finnin
+18	9618	isolieren	isolieren isolierte isolierten isolierende isolierenden isolier
+19	9619	hinschauen	hinschauen hinschaut hingeschaut hinzuschauen
+20	9620	bewusstlos	bewusstlos bewusstlosen bewusstlose
+21	9621	schrammen	schramm schrammen schramme schrammte schrammt
+22	9622	Billion	billionen billion
+23	9623	Ressort	ressort ressorts
+24	9624	Notaufnahme	notaufnahme notaufnahmen
+25	9625	Intervall	intervall intervallen intervalle intervalls
+26	9626	Hauptdarsteller	hauptdarsteller hauptdarstellern hauptdarstellers
+27	9627	Tresor	tresor tresore tresors tresoren
+28	9628	Rinne	rinne rinnen rinnt rann rinn rönne geronnen
+29	9629	erbeuten	erbeutet erbeuten erbeuteten erbeutete
+30	9630	Lenkrad	lenkrad lenkräder
+31	9631	elterlich	elterlichen elterliche elterlicher
+32	9632	Bekleidung	bekleidung
+33	9633	bergab	bergab
+34	9634	Buchhaltung	buchhaltung
+35	9635	Bundesebene	bundesebene
+36	9636	Eignung	eignung
+37	9637	Entsorgung	entsorgung
+38	9638	Fußboden	fussboden fußboden
+39	9639	Gelächter	gelächter
+40	9640	Georges	georges
+41	9641	Grazer	grazer
+42	9642	hach	hach
+43	9643	herbei	herbei
+44	9644	kurzerhand	kurzerhand
+45	9645	Liberalismus	liberalismus
+46	9646	maxi	maxi
+47	9647	Mobilfunk	mobilfunk
+48	9648	Oecd	oecd
+49	9649	Raumfahrt	raumfahrt
+50	9650	Reha	reha
+51	9651	Schranken	schranken
+52	9652	Unfug	unfug
+53	9653	Verwertung	verwertung
+54	9654	Viagra	viagra
+55	9655	Wahrung	wahrung
+56	9656	Wodka	wodka
+57	9657	Zivilgesellschaft	zivilgesellschaft
+58	9658	Programmierung	programmierung programmierungen
+59	9659	toxisch	toxische toxisch toxischen toxischer toxisches
+60	9660	Nordwesten	nordwesten nordwestens
+61	9661	Martini	martini martinis
+62	9662	segnen	segne segnen segnet segnete
+63	9663	überfluten	überflutet überfluten überflutete überfluteten
+64	9664	weitläufig	weitläufigen weitläufige weitläufig weitläufiger weitläufiges
+65	9665	Kurzfilm	kurzfilm kurzfilme kurzfilmen kurzfilms
+66	9666	hypothetisch	hypothetisch hypothetischen hypothetische hypothetischer hypothetisches
+67	9667	Europawahl	europawahl europawahlen
+68	9668	Stereotyp	stereotypen stereotype stereotyp
+69	9669	fortlaufend	fortlaufend fortlaufende fortlaufenden fortlaufender
+70	9670	Adlige	adligen adlige adliger adeliger
+71	9671	Jacht	yacht jacht jachten
+72	9672	gell	gell geller gelle gelt gellenden
+73	9673	lesbar	lesbar lesbare lesbaren lesbarer
+74	9674	umdenken	umdenken umzudenken
+75	9675	beheimaten	beheimatet beheimateten beheimatete beheimaten
+76	9676	musizieren	musizieren musiziert musizierte musizierenden musizierten musizierens
+77	9677	Markgraf	markgraf markgrafen markgräfin
+78	9678	fetzen	fetzen fetzt fetz gefetzt
+79	9679	zusammenführen	zusammengeführt zusammenführen zusammenzuführen zusammenführt zusammenführte
+80	9680	Prozentsatz	prozentsatz prozentsätze
+81	9681	Rückrunde	rückrunde rückrunden
+82	9682	Sicherheitsrat	sicherheitsrat sicherheitsrates sicherheitsrats
+83	9683	Schwachstelle	schwachstellen schwachstelle
+84	9684	Disposition	disposition dispositionen
+85	9685	Fernbedienung	fernbedienung fernbedienungen
+86	9686	saven	save sav
+87	9687	vertretbar	vertretbar vertretbaren vertretbare vertretbarem vertretbarer vertretbares
+88	9688	Hauptsitz	hauptsitz hauptsitzes hauptsitze
+89	9689	Küken	küken kücken
+90	9690	zurückliegen	zurückliegenden zurückliegt zurückliegende zurückliegen zurücklag zurückliegender
+91	9691	Informatiker	informatiker informatikerin informatikern
+92	9692	vorzüglich	vorzüglich vorzügliche vorzüglichen vorzüglicher vorzügliches vorzüglichsten
+93	9693	brummen	brummt brummen brumm brummte brumme
+94	9694	niedergeschlagen	niedergeschlagen niedergeschlagenen
+95	9695	Pandemie	pandemie pandemien
+96	9696	Lebensversicherung	lebensversicherung lebensversicherungen
+97	9697	Ikone	ikone ikonen
+98	9698	sponsern	gesponsert sponsern gesponserten sponsert gesponsort sponserte
+99	9699	Hilfsorganisation	hilfsorganisationen hilfsorganisation
+100	9700	Räumung	räumung räumungen

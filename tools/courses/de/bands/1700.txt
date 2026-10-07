@@ -1,0 +1,100 @@
+1	1601	sorry	sorry
+2	1602	sperren	gesperrt sperren sperre sperrt sperrte sperr sperrten
+3	1603	Bühne	bühne bühnen
+4	1604	Hesse	hessen hesse hesses
+5	1605	Norden	norden nordens nordend nordende
+6	1606	betreiben	betreiben betreibt betriebe betreibe betreibst betreibenden
+7	1607	üben	üben geübt übt übte übe übten üb geübte geübten übst
+8	1608	anziehen	anziehen anzug angezogen anzuziehen anzieht anzüge anziehend anzügen anziehe anzog
+9	1609	Stoff	stoff stoffe stoffen stoffes stoffs
+10	1610	timen	tim time timen
+11	1611	spüren	spüren spürt spüre spürte gespürt spürst spür spürten
+12	1612	at	at ats
+13	1613	geraten	geraten geriet gerieten geratenen geratene gerate gerätst geratener gerat geratenes
+14	1614	Schild	schild schildert schilder schildern geschildert schilderte schilde schildes schildchen schilden
+15	1615	Einführung	einführung einführungen
+16	1616	ansprechen	angesprochen ansprechen anzusprechen anspricht ansprechend ansprechende ansprach ansprachen ansprechenden ansprechender
+17	1617	wunderschön	wunderschön wunderschöne wunderschönen wunderschönes wunderschöner wunderschönem wunderschönste
+18	1618	senden	senden gesendet sendet sende gesandt sandte send sendete gesendeten sandten
+19	1619	Fleisch	fleisch fleisches fleische
+20	1620	Voraussetzung	voraussetzungen voraussetzung
+21	1621	Flugzeug	flugzeug flugzeuge flugzeugen flugzeugs flugzeuges
+22	1622	Fisch	fisch fische fischen gefischt fischt fisches fischte fischten fischchen fischlein
+23	1623	anbieten	anbieten anzubieten anbietet anbiete anboten anbot anbietest anbietenden
+24	1624	vorliegen	vorliegen vorliegt vorliegenden vorliegende vorlagen vorlag vorliege vorgelegen vorliegend vorliegender
+25	1625	Miete	miete mieten gemietet miet mietet gemieteten mietete mieteten
+26	1626	Nase	nase nasen näschen
+27	1627	seitdem	seitdem
+28	1628	sowieso	sowieso
+29	1629	Variante	variante varianten
+30	1630	Training	training trainings
+31	1631	Strafe	strafe strafen straf gestraft straft strafte strafenden
+32	1632	Verband	verband verbandes verbände verbänden verbands
+33	1633	männlich	männliche männlichen männlich männlicher männliches männlichem
+34	1634	gesetzlich	gesetzlichen gesetzlich gesetzliche gesetzlicher gesetzliches gesetzlichem
+35	1635	Smartphone	smartphone smartphones
+36	1636	Nachmittag	nachmittag nachmittags nachmittage nachmittagen nachmittages
+37	1637	überrascht	überrascht überraschte überraschten überraschter
+38	1638	Netzwerk	netzwerk netzwerke netzwerken netzwerks netzwerkes
+39	1639	Station	station stationen
+40	1640	verstärken	verstärkt verstärken verstärkte verstärkten verstärkter verstärktes verstärktem verstärke verstärkenden verstärkend
+41	1641	Nutzer	nutzer nutzern nutzers nutzerin nutzerinnen
+42	1642	Weltkrieg	weltkrieg weltkriegs weltkrieges weltkriege weltkriegen
+43	1643	Dienstag	dienstag dienstags dienstage
+44	1644	divers	diverse diversen diverser divers diverses
+45	1645	angehen	angeht angehen angegangen anzugehen angehende angehenden anging angehender angehe angingen
+46	1646	anwenden	anwenden angewendet angewandte anzuwenden angewandt anwender angewandten anwendet anwendern angewandter
+47	1647	Tasche	tasche taschen täschchen
+48	1648	Restaurant	restaurant restaurants
+49	1649	unterhalten	unterhalten unterhalt unterhält unterhielt unterhielten unterhalte unterhaltend unterhalts unterhaltet unterhaltende
+50	1650	weihnachten	weihnachten weihnachts weihnacht weihnachtet
+51	1651	Flug	flug flüge flügen fluges flugs fluge
+52	1652	Back	back backen bäcker gebacken backe backt backend buk bäckern bäckerin
+53	1653	chinesisch	chinesischen chinesische chinesisch chinesischer chinesisches chinesischem
+54	1654	Inneres	inneren innere innern inneres innerer innerem
+55	1655	Stimmung	stimmung stimmungen
+56	1656	Minister	minister ministerin ministers ministern ministerinnen
+57	1657	hübsch	hübsch hübsche hübschen hübsches hübscher hübscheste hübschesten hübschere hübschem
+58	1658	verlaufen	verlaufen verläuft verlief verlaufenden verliefen verlaufende verlaufe verlaufenen verlaufend verlaufender
+59	1659	Einstellung	einstellung einstellungen
+60	1660	Kanal	kanal kanäle kanälen kanals
+61	1661	Schmied	schmidt schmied schmieden geschmiedet schmiedet schmiedete schmieds geschmiedeten schmiedes schmiedeten
+62	1662	angestellt	angestellten angestellt angestellte angestellter
+63	1663	Mio	mio mios
+64	1664	Hose	hose hosen höschen
+65	1665	ah	ah
+66	1666	Le	le
+67	1667	Dach	dach dächer dächern dachs daches dachse dache
+68	1668	Alkohol	alkohol alkohols alkohole alkoholen
+69	1669	Abteilung	abteilung abteilungen abtheilung abteilungs
+70	1670	wach	wach wache wachen wachte wacher wachten wachet gewacht wachem waches
+71	1671	maximal	maximal maximale maximalen maximaler maximales maximalem
+72	1672	lächeln	lächeln lächelt lächelnd lächelte lächle gelächelt lächelst lächelns lächelten lächel
+73	1673	Brot	brot brötchen brote brod brotes broten
+74	1674	Staffel	staffel staffeln gestaffelt gestaffelten gestaffelte
+75	1675	religiös	religiösen religiöse religiös religiöser religiöses religiösem
+76	1676	einrichten	eingerichtet einrichten einzurichten eingerichteten einrichtet eingerichtetes einrichtete eingerichteter einrichteten einrichte
+77	1677	Bundesrepublik	bundesrepublik br
+78	1678	klären	klären geklärt klärt klär kläre klärte geklärten klärendes klärten geklärte
+79	1679	ausreichend	ausreichend ausreichende ausreichenden ausreichender ausreichendem ausreichendes
+80	1680	grenzen	grenzen grenzt grenz grenzte grenzender grenzten
+81	1681	Publikum	publikum publikums
+82	1682	Zugang	zugang zugänge zugangs zugängen zugange
+83	1683	verfolgt	verfolgt verfolgte verfolgten verfolgter
+84	1684	grau	grau grauen graue grauer graues grauens grauem graus graut graust
+85	1685	Kommission	kommission kommissionen
+86	1686	Anhänger	anhänger anhängern anhängers anhängerin
+87	1687	Hochschule	hochschule hochschulen hochschul
+88	1688	heiraten	heiraten geheiratet heirat heiratete heiratet heirate heirateten heiratest
+89	1689	genießen	geniessen genoss genossen genießen
+90	1690	pflegen	pflegen gepflegt pflegt pfleger pflegte gepflegten gepflegte pflegenden pflegerin pflegten
+91	1691	Rang	rang range ränge ranges rängen rangs rangen
+92	1692	verteidigen	verteidigen verteidigt verteidigte verteidige verteidigten verteidigst verteidigenden verteidigende
+93	1693	konzentrieren	konzentrieren konzentriert konzentrierte konzentrierten konzentriere konzentrierter konzentrier konzentriertes konzentrierst konzentriertem
+94	1694	Widerstand	widerstand widerstands widerstände widerstandes widerständen
+95	1695	bar	bar bars bares bare baren barer barem
+96	1696	streng	streng strenge strengen strenger strengere strengeren strengsten strenges strengste strengem
+97	1697	sauber	sauber saubere sauberen sauberer sauberes sauberem sauberste saubersten sauberere
+98	1698	Fach	fach fächer fächern fache faches fachs gefächert gefächertes gefächerten
+99	1699	Phase	phase phasen
+100	1700	Held	helden held heldin heldinnen

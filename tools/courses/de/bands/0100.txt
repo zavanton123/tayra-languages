@@ -1,0 +1,100 @@
+1	1	der	die der das den dem des denen deren dessen derer
+2	2	sein	ist sind war sein bin seine waren seiner wäre seinen
+3	3	und	und vnd unnd
+4	4	in	in im ins inn worin hierin
+5	5	ein	ein eine einen einer einem eines nen ner eint geeint
+6	6	ich	ich mir mich ichs
+7	7	zu	zu zum zur hierzu
+8	8	haben	hat haben habe hatte hab hast hätte hatten hätten habt
+9	9	von	von vom hiervon vong
+10	10	werden	wird werden wurde würde wurden werde worden würden geworden wirst
+11	11	nicht	nicht nich net nech
+12	12	auf	auf am aufs uff hierauf auff
+13	13	mit	mit hiermit mim
+14	14	es	es
+15	15	für	für fürs hierfür fürn
+16	16	sie	sie ihnen sies
+17	17	er	er ihm ihn
+18	18	sich	sich sichs
+19	19	an	an am ans hieran
+20	20	auch	auch
+21	21	können	kann können könnte konnte kannst könnten konnten könnt könne könntest
+22	22	bei	bei beim hierbei bey beis beys
+23	23	als	als
+24	24	du	du dir dich dus
+25	25	so	so son so'n sone sonen so'ne
+26	26	ihr	ihr ihre ihrer ihren euch ihrem ihres ihrs
+27	27	dass	dass dat dasz daß
+28	28	dieser	diese dieser diesem dieses diesen dies
+29	29	wir	wir uns wirs
+30	30	wie	wie
+31	31	aber	aber
+32	32	aus	aus hieraus
+33	33	nach	nach wonach hiernach
+34	34	noch	noch
+35	35	nur	nur
+36	36	wenn	wenn wenns
+37	37	gut	gut besser gute guten besten beste guter gutes bessere bester
+38	38	oder	oder
+39	39	was	was wat wes waser
+40	40	um	um ums hierum
+41	41	man	man
+42	42	kein	keine kein keinen keiner keinem keines keins
+43	43	mein	meine mein meiner meinem meinen meines meins meyn
+44	44	müssen	muss müssen musste musst müsste mussten müssten müsse müsst müsstest
+45	45	machen	machen macht gemacht mach machte mache machst machten macher mächte
+46	46	über	über übers hierüber übern überm
+47	47	geben	gibt geben gab gegeben gibt's gebe gibts geb gaben gib
+48	48	viel	viel viele vielen meisten meist vieler meiste mehrerer mehrer mehre
+49	49	da	da
+50	50	dann	dann
+51	51	schon	schon
+52	52	ja	ja
+53	53	mehr	mehr
+54	54	Jahr	jahr jahren jahre jahres jar jahrs jährchen
+55	55	gehen	geht gehen ging gehe geh geht's gegangen gingen gehst ginge
+56	56	vor	vor vorn vorderen vordere vors vorder wovor vorderster vorderer vordersten
+57	57	sollen	soll sollte sollen sollten solltest solle sollst solltet sollt solls
+58	58	kommen	kommt kommen kam gekommen kamen komm komme kommst käme kommenden
+59	59	wollen	will wollen wollte willst wollten wollt wolle gewollt wolltest wolltet
+60	60	mal	mal ma male mals males
+61	61	durch	durch wodurch durchs hierdurch
+62	62	hier	hier hie
+63	63	bis	bis
+64	64	doch	doch
+65	65	sehen	sehen sieht gesehen sehe sah siehe siehst seh sahen seht
+66	66	anderer	anderen andere anderes anderem anderer andern andre andres andren andrer
+67	67	jetzt	jetzt jz jez getz jetze itzt
+68	68	sagen	sagen sagt sagte gesagt sag sage sagst sagten sagtest sags
+69	69	immer	immer
+70	70	neu	neue neuen neu neues neuer neuem neuesten neueste neuere neueren
+71	71	ganz	ganz ganze ganzen ganzes ganzer ganzem janz gantz
+72	72	wieder	wieder
+73	73	groß	grosse grossen gross grosser grösste grössten grosses grössere grösser grösseren
+74	74	alle	alle
+75	75	finden	finden findet finde gefunden fand findest fanden find fände gefundenen
+76	76	sehr	sehr
+77	77	alles	alles allen
+78	78	unter	unter unterm unters untern worunter hierunter
+79	79	jeder	jeder jeden jede jedes jedem
+80	80	stehen	steht stehen stand standen stehe stehenden gestanden stehst steh stehende
+81	81	lassen	lassen lässt liess lass lasst gelassen lasse liesse liesst lasset
+82	82	wissen	weiss wissen wusste weisst wisst gewusst wussten wüsste wissens wüssten
+83	83	unser	unsere unser unserer unseren unserem unseres unsre unsern unserm unsrer
+84	84	deutsch	deutschen deutsche deutsch deutscher deutsches deutschem teutsch deutscheste
+85	85	erste	ersten erste erster erstes erstem
+86	86	Zeit	zeit zeiten
+87	87	gegen	gegen wogegen hiergegen
+88	88	dein	deine dein deinen deiner deinem deines deins
+89	89	einfach	einfach einfache einfacher einfachen einfaches einfachste einfachsten einfachere einfacheren einfachem
+90	90	leben	leben lebens lebt lebe lebte gelebt lebenden lebten lebende lebst
+91	91	also	also
+92	92	Tag	tag tage tagen tages tags tagt tagte tach getagt tagenden
+93	93	ab	ab
+94	94	Mensch	menschen mensch mensche menschlein
+95	95	denn	denn
+96	96	damit	damit
+97	97	lange	lange lang länger langen langer längere langem längeren langes gelangt
+98	98	zwei	zwei zweier zweien zwey
+99	99	ohne	ohne
+100	100	weil	weil

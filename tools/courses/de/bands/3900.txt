@@ -1,0 +1,100 @@
+1	3801	vermehrt	vermehrt vermehrte vermehrten vermehrter vermehrtes vermehrtem
+2	3802	Notwendigkeit	notwendigkeit notwendigkeiten
+3	3803	Check	check checks
+4	3804	Eingriff	eingriff eingriffe eingriffen eingriffs eingriffes
+5	3805	Bürgerkrieg	bürgerkrieg bürgerkriegs bürgerkrieges bürgerkriege bürgerkriegen
+6	3806	Wüste	wüste wüsten
+7	3807	Stadtrat	stadtrat stadtrates stadtrats stadträtin stadträte stadträten
+8	3808	beleidigt	beleidigt beleidigte beleidigten
+9	3809	Ensemble	ensemble ensembles
+10	3810	mechanisch	mechanische mechanischen mechanisch mechanischer mechanisches mechanischem
+11	3811	israelisch	israelischen israelische israelischer israelisch israelisches israelischem
+12	3812	Komponist	komponisten komponist komponistin komponistinnen
+13	3813	Staatsanwalt	staatsanwalt staatsanwälte staatsanwältin staatsanwalts staatsanwälten staatsanwaltes
+14	3814	Aufführung	aufführung aufführungen
+15	3815	Kostüm	kostüm kostüme kostümen kostüms
+16	3816	befestigen	befestigt befestigen befestigte befestigten befestigtes befestige
+17	3817	Assistent	assistent assistenten assi assis
+18	3818	Medium	medium mediums
+19	3819	etliche	etliche
+20	3820	Fonds	fonds
+21	3821	Güte	güte
+22	3822	Hinblick	hinblick
+23	3823	Jazz	jazz
+24	3824	Luxus	luxus
+25	3825	mitunter	mitunter
+26	3826	si	si
+27	3827	woanders	woanders
+28	3828	zweitens	zweitens
+29	3829	Recherche	recherche recherchen
+30	3830	spezialisieren	spezialisiert spezialisierte spezialisierten spezialisieren spezialisierter spezialisiertes
+31	3831	scheu	scheu scheuer scheuen scheut scheue scheute gescheut scheuern scheuten scheuert
+32	3832	Topf	topf töpfe töpfen töpfchen topfes
+33	3833	kleben	kleben klebt geklebt klebte klebe kleb klebten klebst
+34	3834	Knall	knall knallt knallen geknallt knallte knalle knallten
+35	3835	kontinuierlich	kontinuierlich kontinuierliche kontinuierlichen kontinuierlicher kontinuierliches kontinuierlichem
+36	3836	Sünde	sünde sünden
+37	3837	erstrecken	erstreckt erstrecken erstreckte erstreckten erstreckenden erstrecke
+38	3838	Partnerschaft	partnerschaft partnerschaften
+39	3839	Porträt	porträt portrait porträts
+40	3840	Wall	wall walle walls wälle wällen wallen wallenden walles waller
+41	3841	Infektion	infektion infektionen
+42	3842	Handwerker	handwerker handwerkern handwerkers
+43	3843	unzählig	unzählige unzähligen unzähliger unzählig
+44	3844	zusammenstellen	zusammengestellt zusammenstellen zusammenzustellen zusammengestellten zusammenstellt zusammenstellte zusammengestelltes
+45	3845	angehören	angehören angehört angehörte angehörten anzugehören angehöre angehörenden
+46	3846	irgendjemand	irgendjemand irgendjemanden irgendjemandem irgendjemandes
+47	3847	Jubiläum	jubiläum jubiläums jubiläen
+48	3848	sorgfältig	sorgfältig sorgfältige sorgfältiger sorgfältigen sorgfältiges
+49	3849	Butter	butter butters
+50	3850	Labor	labor labors labore laboren
+51	3851	Rabatt	rabatt rabatte rabatten
+52	3852	Doppel	doppel doppeln doppelte gedoppelt doppels doppelten
+53	3853	speisen	speisen gespeist speise speist speis speiste speisung gespeisten speisten
+54	3854	bedeckt	bedeckt bedeckte bedeckten bedeckter bedecktem
+55	3855	hochwertig	hochwertige hochwertigen hochwertig hochwertiger hochwertiges hochwertigem hochwertigere hochwertigeren hochwertigste hochwertigsten
+56	3856	ukrainisch	ukrainischen ukrainische ukrainischer ukrainisch ukrainisches
+57	3857	wiedersehen	wiedersehen wiederzusehen wiedergesehen wiedersehe wiedersieht wiedersah wiedersehens
+58	3858	Lizenz	lizenz lizenzen
+59	3859	Reserve	reserve reserven
+60	3860	Entdeckung	entdeckung entdeckungen
+61	3861	Gemeinderat	gemeinderat gemeinderates gemeinderats gemeinderäte gemeinderäten
+62	3862	Michel	michel michels
+63	3863	Sofa	sofa sofas
+64	3864	Ofen	ofen öfen ofens
+65	3865	Springer	springer springers springern springerin
+66	3866	harmlos	harmlos harmlose harmlosen harmloser harmloses harmloseste harmlosesten harmloseren harmlosere
+67	3867	bezweifeln	bezweifle bezweifeln bezweifelt bezweifele bezweifelte bezweifel bezweifelten
+68	3868	Einnahme	einnahmen einnahme
+69	3869	blühen	blüht blühen blühende blühenden blühte blühender blühendes blühten blühend geblüht
+70	3870	Genuss	genuss genüsse genüssen genusses
+71	3871	übertrieben	übertrieben übertriebene übertriebenen übertriebener übertriebenes übertriebenem
+72	3872	platzen	platzen platzt geplatzt platzte geplatzten geplatzte platzten geplatzter platze
+73	3873	aufgelöst	aufgelöst aufgelösten aufgelöste aufgelöster
+74	3874	ärztlich	ärztliche ärztlichen ärztlicher ärztlich ärztliches ärztlichem
+75	3875	down	down downer
+76	3876	haken	haken hakt häkchen hak hakte hake hakens gehakt
+77	3877	Allianz	allianz allianzen
+78	3878	Einkauf	einkauf einkäufe einkaufs einkäufen einkaufe
+79	3879	kassieren	kassiert kassieren kassierte kassier kassierten kassiere kassierst kassierin
+80	3880	verschoben	verschoben verschobene verschobenen
+81	3881	Spielzeug	spielzeug spielzeuge spielzeugen spielzeugs
+82	3882	vergewaltigen	vergewaltigt vergewaltigen vergewaltigte vergewaltigten vergewaltige
+83	3883	Aufzeichnung	aufzeichnungen aufzeichnung
+84	3884	Kiste	kiste kisten
+85	3885	Sportverein	sv sportverein sportvereine sportvereinen sportvereins
+86	3886	Redakteur	redakteur redakteure redakteurin redakteuren redakteurs redakteurinnen
+87	3887	Akteur	akteure akteuren akteur akteurs akteurin
+88	3888	unheimlich	unheimlich unheimliche unheimlichen unheimlicher unheimliches
+89	3889	populär	populär populären populäre populärer populärsten populärste populäres
+90	3890	pleite	pleite pleiten
+91	3891	absurd	absurd absurde absurden absurder absurdes absurdesten absurdeste
+92	3892	besagt	besagt besagten besagte besagter besagtem besagtes
+93	3893	leihen	leihen geliehen leiht lieh leihe leih geliehenen liehen geliehene geliehenes
+94	3894	Möbel	möbel möbeln mobiliar
+95	3895	beschleunigen	beschleunigen beschleunigt beschleunigte beschleunigten beschleunigtes beschleunigter beschleunige
+96	3896	gestehen	gestehen gesteht gestand gestehe gesteh
+97	3897	einbrechen	einbrecher eingebrochen einbrechen einzubrechen einbricht einbrach einbrachen einbrechenden
+98	3898	Schleife	schleife schleifen schliff geschliffen geschleift schleift schleif schlaufe schleifchen schlaufen
+99	3899	trocknen	trocknen getrocknet trocknet getrocknete getrockneten trockne getrocknetes getrockneter trocknete getrocknetem
+100	3900	Außenminister	aussenminister außenminister

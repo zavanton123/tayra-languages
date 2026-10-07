@@ -1,0 +1,100 @@
+1	2101	Pfarrer	pfarrer pfarrers pfarrerin pfarrern pfarrerinnen
+2	2102	Oma	oma omas
+3	2103	Herausforderung	herausforderung herausforderungen
+4	2104	hinterlassen	hinterlassen hinterlässt hinterliess hinterliessen hinterlasse hinterlasst hinterlassenen hinterlassene hinterließ hinterließen
+5	2105	Format	format formate formaten formats formates
+6	2106	Paket	paket pakete paketen pakets paketes
+7	2107	Option	option optionen
+8	2108	Gefängnis	gefängnis gefängnisse gefängnissen gefängnisses
+9	2109	arabisch	arabischen arabische arabisch arabischer arabisches arabischem
+10	2110	inner	inneren innere inner innerer innersten innerste innerstes innerem
+11	2111	beschlossen	beschlossen beschlossene beschlossenen beschlossenes
+12	2112	Augenblick	augenblick augenblicke augenblicken augenblicks
+13	2113	ausbilden	ausgebildet ausbilden ausgebildeten ausbilder auszubilden ausgebildeter ausbildet ausgebildetes ausbildern ausbildete
+14	2114	aufgebaut	aufgebaut aufgebauten aufgebaute aufgebautes aufgebauter
+15	2115	Schwangerschaft	ss schwangerschaft schwangerschaften ß
+16	2116	Plattform	plattform plattformen
+17	2117	sportlich	sportliche sportlich sportlichen sportlicher sportliches sportlichem
+18	2118	übergeben	übergeben übergab übergibt übergaben übergebe übergebenen übergebene
+19	2119	ungewöhnlich	ungewöhnlich ungewöhnliche ungewöhnlichen ungewöhnliches ungewöhnlicher ungewöhnlichsten ungewöhnlichem ungewöhnlichste
+20	2120	soviel	soviel soviele
+21	2121	angelegt	angelegt angelegten angelegte angelegtes angelegter angelegtem
+22	2122	Bischof	bischof bischöfe bischofs bischöfen bischöfin
+23	2123	Grundstück	grundstück grundstücke grundstücks grundstücken grundstückes
+24	2124	Wissenschaftler	wissenschaftler wissenschaftlern wissenschaftlerin wissenschaftlerinnen wissenschaftlers
+25	2125	Nachweis	nachweis nachweisen nachzuweisen nachweise nachweist nachweises nachwies
+26	2126	German	german germanen germans germane
+27	2127	füllen	füllen fülle füllt füllte füllten füll füllst
+28	2128	löschen	löschen löscht lösch lösche löschte löschst löschten losch lisch
+29	2129	angesichts	angesichts
+30	2130	gratis	gratis
+31	2131	letztlich	letztlich
+32	2132	liessen	liessen ließen
+33	2133	ohnehin	ohnehin
+34	2134	worauf	worauf
+35	2135	zumal	zumal
+36	2136	Haltung	haltung haltungen
+37	2137	professionell	professionell professionelle professionellen professioneller professionelles professionellem professionellere
+38	2138	profitieren	profitieren profitiert profitierte profitierten profitiere profitierst
+39	2139	Messer	messer messern messers
+40	2140	Verbesserung	verbesserung verbesserungen
+41	2141	Schwerpunkt	schwerpunkt schwerpunkte schwerpunkten schwerpunkts schwerpunktes
+42	2142	zitieren	zitiert zitieren zitierte zitierten zitiere zitierst zitier zitierter zitierend
+43	2143	enorm	enorm enorme enormen enormer enormes enormem
+44	2144	ignorieren	ignorieren ignoriert ignoriere ignorierte ignorierst ignorier ignorierten ignorierend
+45	2145	umfasst	umfasst umfasste umfassten umfaßt
+46	2146	entschuldigen	entschuldigen entschuldigt entschuldige entschuldigte entschuldigend entschuldigst entschuldigten
+47	2147	Austausch	austausch austauschen auszutauschen austausches austauschs austauscht austausche austauschten austauschte
+48	2148	Stress	stress stressen stresst stresstest stresstests stresses stresse streß
+49	2149	hervorragend	hervorragend hervorragende hervorragenden hervorragender hervorragendes hervorragendem hervorragendsten
+50	2150	Gedicht	gedichte gedicht gedichten gedichts gedichtes
+51	2151	Probe	probe proben probst geprobt prob probt probten probte
+52	2152	Zitat	zitat zitate zitaten zitats zitates
+53	2153	Autobahn	autobahn autobahnen
+54	2154	steigern	steigern gesteigert steigert steigerte gesteigerte gesteigerten steigerten steigere steiger gesteigertes
+55	2155	Arbeitsplatz	arbeitsplätze arbeitsplatz arbeitsplätzen arbeitsplatzes
+56	2156	gespannt	gespannt gespannte gespannten gespannter gespanntes
+57	2157	Bibliothek	bibliothek bibliotheken bib bibliotheks
+58	2158	ungar	ungarn ungar ungarin
+59	2159	zukünftig	zukünftig zukünftige zukünftigen zukünftiger zukünftiges zukünftigem
+60	2160	Sitzung	sitzung sitzungen
+61	2161	überlassen	überlassen überlässt überliess überlasse überliessen überlass überlassenen überlasst überlassene überläßt
+62	2162	Status	status stati
+63	2163	Silber	silber silbers
+64	2164	Account	account accounts
+65	2165	Geheimnis	geheimnis geheimnisse geheimnissen geheimnisses
+66	2166	verkehren	verkehr verkehren verkehrte verkehre verkehrten verkehrenden
+67	2167	Achtung	achtung
+68	2168	anstatt	anstatt
+69	2169	daraufhin	daraufhin
+70	2170	kräftig	kräftig kräftigen kräftige kräftiger kräftiges kräftigem kräftigeren kräftigere kräftigt kräftigsten
+71	2171	Anbieter	anbieter anbietern anbieters
+72	2172	scheinbar	scheinbar scheinbare scheinbaren scheinbarer scheinbares
+73	2173	verlängern	verlängert verlängern verlängerte verlängerten verlängertes verlängere
+74	2174	wahrnehmen	wahrgenommen wahrnehmen wahrzunehmen wahrnimmt wahrgenommene wahrgenommenen wahrnahm wahrnehme wahrnahmen wahrnimmst
+75	2175	Veröffentlichung	veröffentlichung veröffentlichungen
+76	2176	buchen	buchen bucht gebucht buchten buchner buche buchst buchte gebuchten
+77	2177	Münchner	münchner münchener münchnerin münchnern
+78	2178	Weile	weile weilt weilte weilchen weilen weilten weilenden weilst
+79	2179	Gelände	gelände geländes
+80	2180	überwiegend	überwiegend überwiegende überwiegenden überwiegender überwiegendes
+81	2181	betont	betont betonte betonten betonter
+82	2182	dünn	dünn dünne dünnen dünner dünnes dünnem dünnere dünneren dünnsten dünnste
+83	2183	verlegen	verlegt verlegen verlegte verlegten verlege
+84	2184	Öl	öl öle ölen öls geölt geölte geölten geölter
+85	2185	stabil	stabil stabile stabilen stabiler stabiles stabilere stabilem stabilsten stabileren stabilste
+86	2186	Entwurf	entwurf entwürfe entwürfen entwurfs entwurfes
+87	2187	Rezept	rezept rezepte rezepten rezepts
+88	2188	Mist	mist miste mists
+89	2189	attraktiv	attraktiv attraktiver attraktive attraktiven attraktives attraktivsten attraktivste attraktivere attraktiveren attraktivem
+90	2190	vorsichtig	vorsichtig vorsichtiger vorsichtige vorsichtigen vorsichtiges vorsichtigem
+91	2191	südlich	südlich südlichen südliche südlicher südlichsten südlichste südliches südlicheren südlichem
+92	2192	Freundschaft	freundschaft freundschaften
+93	2193	Tabelle	tabelle tabellen
+94	2194	Führer	führer führers führern führerin
+95	2195	Hass	hass hasses
+96	2196	behandeln	behandeln behandelnden behandle behandelte behandelten behandelst behandele behandel
+97	2197	Zustimmung	zustimmung zustimmungen
+98	2198	erheben	erheben erhebt erhob erhebe erhebenden erhebend erheb
+99	2199	Server	server servern servers
+100	2200	vermissen	vermissen vermisse vermisste vermissten vermiss vermiß

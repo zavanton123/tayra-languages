@@ -1,0 +1,100 @@
+1	2401	Schlacht	schlacht schlachten geschlachtet schlachtet schlachte geschlachteten schlachtete schlachteten
+2	2402	reiten	reiten ritt reitet geritten reit reite ritten reitest reitenden reute
+3	2403	Liter	liter litern
+4	2404	Technologie	technologie technologien
+5	2405	Umsetzung	umsetzung umsetzungen
+6	2406	Lohn	lohn löhne löhnen lohne lohns lohnes
+7	2407	türken	türken türke türk türkin getürkt türkinnen
+8	2408	Klima	klima klimas
+9	2409	Kanzler	kanzler kanzlerin kanzlers
+10	2410	Stift	stift stifte stifter gestiftet stiften stiftes stiftete stiftet stifts gestifteten
+11	2411	Talent	talent talente talenten talents talentes
+12	2412	deuten	deutet deuten deutete gedeutet deut deute deuteten deutest
+13	2413	berechtigt	berechtigt berechtigte berechtigten berechtigter berechtigtes berechtigtem
+14	2414	Krone	krone kronen krönchen
+15	2415	Störung	störung störungen
+16	2416	Front	front fronten
+17	2417	Kleidung	kleidung kleidungen
+18	2418	Hafen	hafen häfen hafens
+19	2419	wehren	wehren wehrt gewehrt wehrte wehr wehre wehrten wehret wehrst wehrs
+20	2420	Ministerpräsident	ministerpräsident ministerpräsidenten mp ministerpräsidentin
+21	2421	Beschluss	beschluss beschlüsse beschlüssen beschlusses
+22	2422	Konzern	konzern konzerne konzerns konzernen
+23	2423	Burg	burg burgen bürgen bürge bürg bürgin gebürgt bürgt
+24	2424	Heft	heft hefte heften heftchen geheftet heftes heftet heftete hefts
+25	2425	erlauben	erlauben erlaube erlaubte erlaubten erlaubst erlaub
+26	2426	bezüglich	bezüglich
+27	2427	keinerlei	keinerlei
+28	2428	Lehre	lehre
+29	2429	Menschheit	menschheit
+30	2430	gewähren	gewährt gewähren gewährte gewähr gewährten gewähre
+31	2431	Anschlag	anschlag anschläge anschlägen anschlags anschlages
+32	2432	vereinigt	vereinigten vereinigt vereinigte vereinigtes
+33	2433	Übung	übung übungen
+34	2434	Angelegenheit	angelegenheit angelegenheiten
+35	2435	Teufel	teufel teufels teufeln teufelchen teufelin
+36	2436	Schicht	schicht schichten geschichtet geschichteten schichtet schichte schichtende
+37	2437	Chat	chat chats
+38	2438	Hölle	hölle höllen
+39	2439	porno	porno pornos
+40	2440	Abenteuer	abenteuer abenteuern abenteuers
+41	2441	mitbringen	mitbringen mitgebracht mitbringt mitzubringen mitgebrachten mitbrachte mitbrachten mitbringe mitbringst mitgebrachtes
+42	2442	Parkplatz	parkplatz parkplätze parkplätzen parkplatzes
+43	2443	Schnee	schnee schnees
+44	2444	Mond	mond monde mondes monden
+45	2445	Kellergeschoss	kg kellergeschoss
+46	2446	leuchten	leuchten leuchtet leuchtende leuchtenden leuchtend leuchte leuchtete leuchtendes leuchteten leuchtender
+47	2447	angemessen	angemessen angemessene angemessenen angemessener angemessenes angemessenem angemessenere
+48	2448	emotional	emotional emotionale emotionalen emotionaler emotionales emotionalem emotionalsten emotionalste
+49	2449	Block	block blöcke blocks blöcken blocke blockes
+50	2450	Wachstum	wachstum wachstums
+51	2451	Neubau	neubau neubauten nb neubaus neubaues
+52	2452	formulieren	formuliert formulieren formulierte formulierten formuliere formulierter formuliertes formulier formulierst
+53	2453	Definition	definition definitionen
+54	2454	drängen	drängen gedrängt drängt drängte drängten drängenden drängende dränge drängender gedrängten
+55	2455	schriftlich	schriftlich schriftliche schriftlichen schriftlicher schriftliches schriftlichem
+56	2456	islamisch	islamischen islamische islamischer islamisch islamisches islamischem
+57	2457	schlicht	schlicht schlichten schlichte schlichter schlichtes schlichtem geschlichtet schlichtere
+58	2458	glatt	glatt glatte glatten glatter glattes glattem
+59	2459	stützen	stützen gestützt stützt stütze stützte stutzen gestützte gestützten stütz gestutzt
+60	2460	Niedersachse	niedersachsen niedersachse
+61	2461	einkaufen	einkaufen eingekauft einzukaufen einkäufer einkauft einkaufe eingekauften einkaufst einkäuferin einkäufern
+62	2462	örtlich	örtlichen örtliche örtlich örtlicher örtliches örtlichem
+63	2463	Weib	weiber weib weibchen weibern weiblein weibchens weibe weibes weibs
+64	2464	motivieren	motiviert motivieren motivierte motivierten motivierter motivierend motivierende motiviertes motivierenden motiviere
+65	2465	Landwirtschaft	landwirtschaft landwirthschaft
+66	2466	gelöscht	gelöscht gelöschte gelöschten gelöschter
+67	2467	absolvieren	absolviert absolvieren absolvierte absolvierten absolviere absolvierter
+68	2468	bedroht	bedroht bedrohte bedrohten bedrohter bedrohtes
+69	2469	beinahe	beinahe beinah
+70	2470	Schönheit	schönheit schönheiten
+71	2471	jeglicher	jegliche jeglicher jeglichen jegliches jeglichem
+72	2472	Business	business
+73	2473	dahinter	dahinter
+74	2474	Ff	ff
+75	2475	umso	umso
+76	2476	definiert	definiert definierten definierte definierter definiertes
+77	2477	Gestaltung	gestaltung gestaltungen gestaltungs
+78	2478	Militär	militär militärs
+79	2479	Kredit	kredit kredite krediten kredits kredites
+80	2480	entspannt	entspannt entspannter entspannte entspannten entspanntes entspanntere entspannteren
+81	2481	abholen	abholen abgeholt abzuholen abholt abholte abhole abholst abholten abholer
+82	2482	Gründung	gründung gründungen gründungs
+83	2483	bewahren	bewahren bewahrt bewahre bewahrte bewahrten bewahrer bewahr
+84	2484	Überblick	überblick überblicken überblickt überblicke überblicks
+85	2485	Unterhaltung	unterhaltung unterhaltungen
+86	2486	Kette	kette ketten gekettet kettchen kettet kett
+87	2487	Russe	russen russe russin russinnen rußen ruße
+88	2488	entfernen	entfernen entferne entfernten entfernte entfernst entfern
+89	2489	Motto	motto mottos motti
+90	2490	entlassen	entlassen entlässt entliess entlassenen entlassene entliessen entlassener entlasse entließ entließen
+91	2491	Provinz	provinz provinzen
+92	2492	Horst	horst horsten horste
+93	2493	zugeben	zugeben zugegeben zuzugeben zugibt zugaben zugab zugibst zugebe
+94	2494	angebracht	angebracht angebrachten angebrachte angebrachter angebrachtes
+95	2495	rechtfertigen	rechtfertigen gerechtfertigt rechtfertigt rechtfertigte rechtfertige gerechtfertigte gerechtfertigten rechtfertigten gerechtfertigter rechtfertigst
+96	2496	vermuten	vermuten vermute vermutete vermuteten vermutest vermut
+97	2497	Schlüssel	schlüssel schlüsseln schlüssels
+98	2498	benennen	benannt benennen benannten benennt benannte benannter benenne benanntes
+99	2499	scheiden	scheiden geschieden scheidet schied scheide schieden geschiedene geschiedenen scheidenden scheidt
+100	2500	Wesen	wesen wesens

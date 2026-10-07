@@ -1,0 +1,100 @@
+1	9001	würgen	würgen würgt würg gewürgt würgte würger würge
+2	9002	Beschleunigung	beschleunigung beschleunigungen
+3	9003	Platin	platin platins
+4	9004	GIF	gif gifs
+5	9005	Verlobter	verlobten verlobte verlobter
+6	9006	Südosten	südosten südostens
+7	9007	aufwärmen	aufwärmen aufgewärmt aufzuwärmen
+8	9008	offensiv	offensiv offensiver offensiven offensives
+9	9009	Einjährige	einjährigen einjährige einjähriger einjährigem
+10	9010	Neugeborenes	neugeborenen neugeborene neugeborenes neugeborener
+11	9011	energisch	energisch energischen energische energischer energisches
+12	9012	mitteldeutsch	mitteldeutsche mitteldeutschen mitteldeutscher
+13	9013	belebt	belebt belebten belebte belebter
+14	9014	Editor	editor editoren editors
+15	9015	Anlaufstelle	anlaufstelle anlaufstellen
+16	9016	Eintragung	eintragung eintragungen
+17	9017	Spin	spin spins
+18	9018	Belegschaft	belegschaft belegschaften
+19	9019	Konzil	konzil konzils konzilien
+20	9020	zahllos	zahllose zahllosen zahlloser
+21	9021	Landhaus	landhaus landhäuser landhauses landhäusern
+22	9022	Vase	vase vasen
+23	9023	praktizieren	praktizieren praktizierende praktizierte praktizierten praktiziere
+24	9024	Facette	facetten facette
+25	9025	initial	initialen initial initiale
+26	9026	Sportwagen	sportwagen sportwagens
+27	9027	abenteuerlich	abenteuerliche abenteuerlich abenteuerlichen abenteuerlicher abenteuerliches abenteuerlichsten
+28	9028	glaubhaft	glaubhaft glaubhafte glaubhafter glaubhaften
+29	9029	Serbe	serben serbe serbin
+30	9030	Umarmung	umarmung umarmungen
+31	9031	äquivalent	äquivalent äquivalente äquivalenten
+32	9032	ausschöpfen	ausgeschöpft ausschöpfen auszuschöpfen ausschöpft
+33	9033	Sensation	sensation sensationen
+34	9034	dezentral	dezentrale dezentral dezentralen dezentraler dezentrales
+35	9035	Stecker	stecker steckern
+36	9036	Belagerung	belagerung belagerungen
+37	9037	Vertreibung	vertreibung vertreibungen
+38	9038	Auswärtsspiel	auswärtsspiel auswärtsspielen auswärtsspiele
+39	9039	Toast	toast toasts toasten getoastet
+40	9040	ducken	duck ducken duckt geduckt ducke duckte
+41	9041	Inspektion	inspektion inspektionen
+42	9042	osteuropäisch	osteuropäischen osteuropäische osteuropäischer osteuropäisches osteuropäisch
+43	9043	Vorratsdatenspeicherung	vorratsdatenspeicherung datenspeicherung
+44	9044	Denkmalschutz	denkmalschutz denkmalschutzes
+45	9045	Alm	alm almen
+46	9046	symmetrisch	symmetrisch symmetrische symmetrischen symmetrischer symmetrisches
+47	9047	hupen	hupen hupe hupt gehupt hup hupte hupend
+48	9048	verspielt	verspielt verspielter verspieltes
+49	9049	Märtyrer	märtyrer märtyrern märtyrerin märtyrers
+50	9050	Urne	urne urnen
+51	9051	Veteran	veteranen veteran
+52	9052	methodisch	methodisch methodische methodischen methodischer methodisches
+53	9053	abfallen	abfällt abfallen abgefallen abfallend abgefallenen abfiel abzufallen abgefallene
+54	9054	Zeche	zeche zechen zech zecher
+55	9055	vorstellbar	vorstellbar vorstellbaren vorstellbare
+56	9056	gegenüberliegend	gegenüberliegenden gegenüberliegende
+57	9057	durchsichtig	durchsichtig durchsichtige durchsichtigen durchsichtiges durchsichtiger durchsichtigem
+58	9058	böhmisch	böhmischen böhmisch böhmischer böhmisches
+59	9059	Siedler	siedler siedlern
+60	9060	plural	plural plurale pluralen
+61	9061	reizvoll	reizvoll reizvolle reizvollen reizvoller reizvolles reizvollsten
+62	9062	UFO	ufo ufos
+63	9063	gehorsam	gehorsam gehorsame gehorsams gehorsamer gehorsamen
+64	9064	notieren	notieren notierte notiere notierten
+65	9065	respektvoll	respektvoll respektvollen respektvolle respektvoller respektvolles respektvollem
+66	9066	Regenwald	regenwald regenwälder regenwaldes regenwäldern regenwalds
+67	9067	raffiniert	raffiniert raffinierte raffinierten raffinierter raffiniertes raffiniertem
+68	9068	Nickel	nickel nickels
+69	9069	Grundwasser	grundwasser grundwassers
+70	9070	Landkarte	landkarte landkarten
+71	9071	Raupe	raupen raupe
+72	9072	Bruchteil	bruchteil bruchteile bruchteilen
+73	9073	Polster	polster polstern gepolstert gepolsterten gepolsterte
+74	9074	prekär	prekären prekäre prekär prekärer
+75	9075	Asphalt	asphalt
+76	9076	Auferstehung	auferstehung
+77	9077	Erlösung	erlösung
+78	9078	Essener	essener
+79	9079	Franck	franck
+80	9080	Geschrei	geschrei
+81	9081	Gunst	gunst
+82	9082	hui	hui
+83	9083	Mister	mister
+84	9084	Normalität	normalität
+85	9085	Optimismus	optimismus
+86	9086	Pressefreiheit	pressefreiheit
+87	9087	schlechthin	schlechthin
+88	9088	tendenziell	tendenziell
+89	9089	umher	umher
+90	9090	Verschwendung	verschwendung
+91	9091	Würzburger	würzburger
+92	9092	Ersparnis	ersparnisse ersparnis ersparnissen
+93	9093	ungewollt	ungewollt ungewollte ungewollten ungewollter ungewolltes
+94	9094	Ausgestaltung	ausgestaltung ausgestaltungen
+95	9095	naheliegend	naheliegend naheliegende naheliegenden naheliegender naheliegendste naheliegendes
+96	9096	Nennung	nennung nennungen
+97	9097	grundlos	grundlos grundlose grundlosen
+98	9098	Kameramann	kameramann kameraleute kameramänner kamerafrau kameramanns
+99	9099	unverbindlich	unverbindlich unverbindliche unverbindlichen unverbindliches unverbindlicher
+100	9100	absichern	absichern abzusichern absichert

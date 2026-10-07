@@ -1,0 +1,100 @@
+1	7901	sogleich	sogleich
+2	7902	VHS	vhs
+3	7903	Faser	fasern faser
+4	7904	Tänzerin	tänzerin tänzerinnen
+5	7905	Handgelenk	handgelenk handgelenke handgelenken handgelenks
+6	7906	Ernennung	ernennung ernennungen
+7	7907	vorschreiben	vorschreiben vorschreibt vorzuschreiben vorschrieb
+8	7908	anführen	anführen anzuführen anführt anführte anführten
+9	7909	Merkur	merkur merkurs
+10	7910	völkisch	völkischen völkisch völkische völkischer völkisches
+11	7911	Nachbarland	nachbarland nachbarländern nachbarländer nachbarlandes
+12	7912	Welpe	welpen welpe
+13	7913	Gedenkstätte	gedenkstätte gedenkstätten
+14	7914	einfließen	einfliessen eingeflossen einfliesst einflössen einzuflössen einflösst einflössend einfließen einfließt einflößen
+15	7915	Butler	butler butlers
+16	7916	ungeklärt	ungeklärt ungeklärten ungeklärte ungeklärter
+17	7917	Feministin	feministinnen feministin feminist feministen
+18	7918	Chili	chili chilis
+19	7919	überwältigend	überwältigend überwältigende überwältigenden überwältigender überwältigendes
+20	7920	päpstlich	päpstlichen päpstliche päpstlicher päpstliches
+21	7921	Beirat	beirat beirats beirates beiräte beiräten
+22	7922	verbuchen	verbuchen verbucht verbuchte verbuchten
+23	7923	Lot	lot loth lots loten lotet lote
+24	7924	Beauftragter	beauftragte beauftragter beauftragten
+25	7925	Kiosk	kiosk kioske kiosken kiosks
+26	7926	grafisch	grafische grafisch grafischen graphisch grafischer grafisches
+27	7927	Gegenleistung	gegenleistung gegenleistungen
+28	7928	verkleinern	verkleinert verkleinern verkleinerte verkleinerten verkleinerter verkleinertes
+29	7929	Latino	latina latino latinos
+30	7930	Erdgas	erdgas erdgases
+31	7931	talentiert	talentierte talentiert talentierten talentierter talentiertesten
+32	7932	geografisch	geographisch geografischen geografische geografisch geografischer
+33	7933	Mehrwert	mehrwert mehrwerte mehrwerts
+34	7934	widerrufen	widerrufen widerruf widerruft widerrufe widerrufs widerrief
+35	7935	oval	oval ovale ovalen ovaler
+36	7936	Sonnenbrille	sonnenbrille sonnenbrillen
+37	7937	Kandidatur	kandidatur kandidaturen
+38	7938	Trümmer	trümmern trümmer
+39	7939	Tournee	tournee tourneen
+40	7940	Elster	elster alster elstern
+41	7941	unverschämt	unverschämt unverschämte unverschämten unverschämter unverschämtes
+42	7942	Hauptschule	hauptschule hauptschulen
+43	7943	subtil	subtil subtile subtilen subtiler subtilere subtiles
+44	7944	Geschehnis	geschehnisse geschehnissen geschehnis
+45	7945	Skill	skills skill
+46	7946	Wendung	wendung wendungen
+47	7947	Strauch	strauch sträucher sträuchern
+48	7948	Zusammenspiel	zusammenspiel zusammenspiels
+49	7949	Zusammenhalt	zusammenhalt zusammenhalts
+50	7950	Snack	snacks snack
+51	7951	Blutung	blutungen blutung
+52	7952	geometrisch	geometrische geometrischen geometrisch geometrischer geometrisches
+53	7953	Schreibweise	schreibweise schreibweisen
+54	7954	quatschen	quatschen quatscht gequatscht quatschten quatsche
+55	7955	Optimierung	optimierung optimierungen
+56	7956	verschwiegen	verschwiegen verschwiegene verschwiegenen
+57	7957	Eskalation	eskalation eskalationen
+58	7958	erpressen	erpresst erpressen erpresste erpressten
+59	7959	durchschauen	durchschaut durchschauen durchgeschaut durchschaute durchschaue
+60	7960	shoppen	shoppen geshoppt
+61	7961	Legion	legion legionen
+62	7962	zusammenkommen	zusammenkommen zusammengekommen zusammenkommt zusammenkamen zusammenzukommen zusammenkam
+63	7963	zerlegt	zerlegt zerlegte zerlegten
+64	7964	Asiate	asiaten asiate asiatin asiatinnen asiat
+65	7965	Kodex	codex kodex kodizes
+66	7966	abrunden	abgerundet abgerundeten abrunden abzurunden abgerundeter abgerundetes abrundet
+67	7967	beschwören	beschwören beschwört beschworen beschwor beschwöre beschworene beschworenen beschwörend
+68	7968	Heroin	heroin heroine
+69	7969	Verschluss	verschluss verschlüsse verschlusses verschlüssen verschluß
+70	7970	öde	öde öden öd ödem ödeme öder ödes ödemen ödet
+71	7971	vorbeischauen	vorbeischauen vorbeizuschauen vorbeigeschaut vorbeischaut vorbeischaust
+72	7972	Sonde	sonde sonden
+73	7973	Anstellung	anstellung anstellungen
+74	7974	Übergewicht	übergewicht übergewichts
+75	7975	doll	doll doller dolles dollen dolle
+76	7976	Alba	alba albas
+77	7977	Rechtsradikale	rechtsradikale rechtsradikalen rechtsradikaler rechtsradikalem
+78	7978	Versicherer	versicherer versicherers versicherern
+79	7979	unberührt	unberührt unberührte unberührten unberührter unberührtes
+80	7980	wackeln	wackeln wackelt wackelte wackel gewackelt wackelten
+81	7981	niederlegen	niedergelegt niederlegen niederzulegen niederlegte niedergelegten niederlegt niederlegten
+82	7982	einbetten	eingebettet eingebetteten einbetten einzubetten einbettet
+83	7983	variabel	variabel variablen variables variabler variablem
+84	7984	Sprachgebrauch	sprachgebrauch sprachgebrauchs
+85	7985	verunglücken	verunglückt verunglückte verunglückten verunglücken verunglückter
+86	7986	plastisch	plastische plastischen plastisch plastischer plastisches
+87	7987	zweifach	zweifache zweifach zweifacher zweifachen zweifaches
+88	7988	polieren	poliert polieren polier polierte polierten poliertem polierter poliere
+89	7989	Lounge	lounge lounges
+90	7990	Attraktion	attraktion attraktionen
+91	7991	Stätte	stätte stätten
+92	7992	Pixel	pixel pixeln pixels
+93	7993	Spielfeld	spielfeld spielfeldes spielfelder spielfelds spielfeldern
+94	7994	Joker	joker jokers
+95	7995	gesegnet	gesegnet gesegneten gesegnete gesegnetes gesegneter
+96	7996	zuwenden	zugewandt zuwenden zuwandte zuzuwenden zuwendet zugewendet zuwandten
+97	7997	Rechenzentrum	rz rechenzentrum rechenzentren rechenzentrums
+98	7998	sekundär	sekundär sekundäre sekundären sekundärer sekundäres
+99	7999	schier	schier schiere schieren schierer
+100	8000	Vorwand	vorwand vorwänden vorwände

@@ -1,0 +1,100 @@
+1	9301	erraten	erraten errät errate erratet
+2	9302	bestärken	bestärkt bestärken bestärkte bestärkten
+3	9303	Einwohnerzahl	einwohnerzahl einwohnerzahlen
+4	9304	Podium	podium podien podiums
+5	9305	Wellenlänge	wellenlänge wellenlängen
+6	9306	nähren	nährt nähren genährt nährte nähr nährten nährende nähre
+7	9307	intuitiv	intuitiv intuitive intuitiven intuitiver intuitives
+8	9308	Terrain	terrain terrains
+9	9309	Adjektiv	adjektiv adjektive adjektiven adjektivs
+10	9310	Delikt	delikte delikt delikten delikts
+11	9311	Ausnahmefall	ausnahmefällen ausnahmefall ausnahmefälle
+12	9312	Gedenkschrift	gs gedenkschrift
+13	9313	vertauschen	vertauscht vertauschen vertauschte vertauschten
+14	9314	Sockel	sockel sockeln sockels
+15	9315	zusammenbringen	zusammenbringen zusammenzubringen zusammengebracht zusammenbringt zusammenbrachte
+16	9316	Aroma	aroma aromen aromas
+17	9317	reichhaltig	reichhaltige reichhaltigen reichhaltiges reichhaltig reichhaltiger
+18	9318	taub	taub tauben taubes
+19	9319	Narrativ	narrative narrativ narrativen narratives narrativer
+20	9320	Tscheche	tschechen tscheche tschechin
+21	9321	Kinofilm	kinofilm kinofilme kinofilmen kinofilms
+22	9322	antifaschistisch	antifaschistischen antifaschistische antifaschistisch antifaschistischer antifaschistisches
+23	9323	schmuggeln	schmuggeln geschmuggelt schmuggel schmuggelt schmuggelte schmuggelten schmuggels
+24	9324	Erpressung	erpressung erpressungen
+25	9325	Tribüne	tribüne tribünen
+26	9326	Klassenzimmer	klassenzimmer klassenzimmern klassenzimmers
+27	9327	abwägen	abwägen abgewogen abzuwägen abwägt
+28	9328	Oberkörper	oberkörper oberkörpers
+29	9329	Postfach	postfach postfächer
+30	9330	Zeitgeist	zeitgeist zeitgeistes
+31	9331	banal	banal banale banalen banales banaler
+32	9332	hinsehen	hinsehen hinsieht hinzusehen hingesehen hinsah
+33	9333	Haube	haube hauben häubchen
+34	9334	Jahresbericht	jahresbericht jahresberichte jahresberichten jahresberichts
+35	9335	Forschungsprojekt	forschungsprojekt forschungsprojekte forschungsprojekten forschungsprojekts forschungsprojektes
+36	9336	verrecken	verrecken verreckt verrecke verreck
+37	9337	Verkehrsteilnehmer	verkehrsteilnehmer verkehrsteilnehmern
+38	9338	Pipeline	pipeline pipelines
+39	9339	Autogramm	autogramm autogramme autogrammen
+40	9340	hinkriegen	hinkriegen hingekriegt hinzukriegen hinkriegt hinkriege hinkriegst
+41	9341	zertifizieren	zertifiziert zertifizierte zertifizierten zertifizieren
+42	9342	Hoden	hoden hodens
+43	9343	Foul	foul fouls
+44	9344	Handarbeit	handarbeit handarbeiten
+45	9345	implementieren	implementiert implementieren implementierte implementierten
+46	9346	Abwicklung	abwicklung
+47	9347	Altona	altona
+48	9348	AMD	amd
+49	9349	Augenmerk	augenmerk
+50	9350	Auslastung	auslastung
+51	9351	Aviv	aviv
+52	9352	Berlinale	berlinale
+53	9353	demzufolge	demzufolge
+54	9354	Empathie	empathie
+55	9355	Gerede	gerede
+56	9356	Kpd	kpd
+57	9357	Kärntner	kärntner
+58	9358	Präzision	präzision
+59	9359	Rechenschaft	rechenschaft
+60	9360	Untersuchungshaft	untersuchungshaft
+61	9361	Unzufriedenheit	unzufriedenheit
+62	9362	Versöhnung	versöhnung
+63	9363	Vie	vie
+64	9364	Vollendung	vollendung
+65	9365	wahlweise	wahlweise
+66	9366	Witterung	witterung
+67	9367	zirka	zirka
+68	9368	zweieinhalb	zweieinhalb
+69	9369	übertroffen	übertroffen
+70	9370	ochsen	ochsen ochs ochse
+71	9371	verkacken	verkackt verkacken verkackten verkackte
+72	9372	Granate	granaten granate
+73	9373	Musikschule	musikschule musikschulen
+74	9374	Bürgerrecht	bürgerrechte bürgerrecht bürgerrechten bürgerrechts
+75	9375	turnen	turnen turnt turnte geturnt turnens
+76	9376	Betriebswirtschaftslehre	bwl betriebswirtschaftslehre
+77	9377	Afghane	afghanen afghane
+78	9378	Ferienhaus	ferienhaus ferienhäuser ferienhäusern ferienhauses
+79	9379	Polemik	polemik polemiken
+80	9380	ganzheitlich	ganzheitliche ganzheitlichen ganzheitlich ganzheitliches ganzheitlicher
+81	9381	Fraktionsvorsitzender	fraktionsvorsitzender fraktionsvorsitzende fraktionsvorsitzenden
+82	9382	Mythologie	mythologie mythologien
+83	9383	Regierungsbezirk	regierungsbezirk regierungsbezirks regierungsbezirke regierungsbezirken regierungsbezirkes
+84	9384	Tube	tube tuben
+85	9385	halbieren	halbiert halbieren halbierte halbierten
+86	9386	differenzieren	differenzieren differenzierte differenzierten differenzierende
+87	9387	Prozentpunkt	prozentpunkte prozentpunkten prozentpunkt
+88	9388	misslingen	misslang misslingt misslungen misslungenen misslungene misslingen misslungener mißlang mißlingt mißlungen
+89	9389	Unterhose	unterhose unterhosen
+90	9390	ansteckend	ansteckend ansteckende ansteckenden ansteckender ansteckendes
+91	9391	Cartoon	cartoon cartoons
+92	9392	remis	remis remisen
+93	9393	Instinkt	instinkt instinkte instinkten
+94	9394	Naturpark	naturpark naturparks naturparke
+95	9395	Bleistift	bleistift bleistifte bleistiften
+96	9396	Braunkohle	braunkohle braunkohlen
+97	9397	misstrauisch	misstrauisch misstrauischer misstrauischen misstrauische
+98	9398	freischalten	freigeschaltet freischalten freizuschalten
+99	9399	Soziologe	soziologe soziologen soziologin
+100	9400	Israeli	israelis israeli

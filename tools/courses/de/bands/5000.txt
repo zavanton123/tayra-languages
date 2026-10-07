@@ -1,0 +1,100 @@
+1	4901	Nikolaus	nikolaus nikoläuse
+2	4902	Petrus	petrus petri
+3	4903	zögern	zögern zögert zögerte gezögert zögernd zögere zögerten zögerns
+4	4904	bohren	bohren bohrer gebohrt bohrt bohr bohrte bohre bohrten bohrenden bohrers
+5	4905	brasilianisch	brasilianischen brasilianische brasilianischer brasilianisches brasilianisch brasilianischem
+6	4906	lahm	lahm lahme lahmen lahmer lahmt lahmes
+7	4907	Gouverneur	gouverneur gouverneurs gouverneure gouverneurin gouverneuren
+8	4908	ausrichten	ausrichten auszurichten ausrichtet ausrichtete ausrichtenden ausrichteten
+9	4909	aufklären	aufklären aufzuklären aufklärt aufklärte aufklärend aufklärende aufklärenden
+10	4910	Muslim	muslim moslem muslimen muslima muslimin muslims musliminnen muslimas
+11	4911	Anime	anime animes
+12	4912	nachlesen	nachlesen nachzulesen nachgelesen nachlese
+13	4913	ausgeglichen	ausgeglichen ausgeglichenen ausgeglichene ausgeglichener ausgeglichenes ausgeglichenem
+14	4914	clever	clever clevere cleverer cleveren cleveres cleverste
+15	4915	Kante	kante kanten
+16	4916	erwecken	erweckt erwecken erweckte erweckten erwecke
+17	4917	nachgehen	nachgehen nachzugehen nachgegangen nachgeht nachging nachgingen nachgehe
+18	4918	quälen	quälen gequält quält quälte quäle quälend quälten quäl
+19	4919	Dummheit	dummheit dummheiten
+20	4920	Drohne	drohnen drohne
+21	4921	Schätzung	schätzung schätzungen
+22	4922	Leine	leine leinen
+23	4923	Siegel	siegel siegeln siegels siegle
+24	4924	fällig	fällig fälligen fällige fälliger
+25	4925	Umkreis	umkreis umkreist umkreisen umkreiste umkreises
+26	4926	prügeln	prügeln prügel geprügelt prügelt prügelten prügelte prügelnde prügler
+27	4927	Anstrengung	anstrengungen anstrengung
+28	4928	Betriebsanleitung	ba betriebsanleitung
+29	4929	Quartal	quartal quartals quartale quartalen
+30	4930	Weiterentwicklung	weiterentwicklung weiterentwicklungen
+31	4931	ergehen	ergehen erging ergeht ergangen ergangenen ergingen ergangene
+32	4932	staunen	staunen staunt staune staunte staunend staunten gestaunt staunenden staunende staunens
+33	4933	Privileg	privilegien privileg privilege privilegs
+34	4934	symbolisch	symbolisch symbolischen symbolische symbolischer symbolisches
+35	4935	rheinisch	rheinischen rheinische rheinisch rheinischer rheinisches
+36	4936	vergeblich	vergeblich vergeblichen vergebliche vergeblicher
+37	4937	Fusion	fusion fusionen
+38	4938	Katholik	katholiken katholik katholikin
+39	4939	durcheinander	durcheinander
+40	4940	Fantasy	fantasy
+41	4941	Jänner	jänner
+42	4942	zugrunde	zugrunde
+43	4943	Outfit	outfit outfits
+44	4944	feindlich	feindlichen feindliche feindlich feindlicher feindliches feindlichem
+45	4945	skeptisch	skeptisch skeptische skeptischen skeptischer
+46	4946	Schale	schale schalen schälchen
+47	4947	verdoppeln	verdoppelt verdoppeln verdoppelte verdoppelten
+48	4948	Komposition	komposition kompositionen
+49	4949	drastisch	drastisch drastische drastischen drastischer drastisches drastischere
+50	4950	diesbezüglich	diesbezüglich diesbezüglichen diesbezügliche diesbezüglicher diesbezügliches
+51	4951	kontaktieren	kontaktieren kontaktiert kontaktiere kontaktierte kontaktierten kontaktier
+52	4952	eintreffen	eintreffen eintraf eintrifft eintrafen eintreffenden
+53	4953	Psychologe	psychologen psychologe psychologin psychologinnen
+54	4954	Inszenierung	inszenierung inszenierungen
+55	4955	Vorhang	vorhang vorhänge vorhängen vorhangs
+56	4956	Handschrift	handschrift handschriften
+57	4957	Nest	nest nester nestern nestes neste
+58	4958	angrenzend	angrenzenden angrenzende angrenzend angrenzender angrenzendes angrenzendem
+59	4959	verzögern	verzögert verzögern verzögerte verzögerten verzögerter verzögere
+60	4960	auswirken	auswirken auswirkt ausgewirkt auswirkte auswirkten auszuwirken auswirke
+61	4961	Monitor	monitor monitore monitoren monitors
+62	4962	anal	anal anale analen anales
+63	4963	Flut	flut fluten geflutet flutet flute flutete
+64	4964	räumlich	räumliche räumlich räumlichen räumlicher räumliches
+65	4965	Tagung	tagung tagungen
+66	4966	Emaille	email emaille
+67	4967	Fleck	fleck fleckchen flecke flecks
+68	4968	erbaut	erbaut erbaute erbauten erbautes
+69	4969	Jura	jura juras
+70	4970	Stall	stall ställe ställen stalls stalles
+71	4971	Dresdner	dresdner dresdnern
+72	4972	Orgel	orgel orgeln
+73	4973	Kraut	kräuter kraut kräutern krauts
+74	4974	Wertung	wertung wertungen
+75	4975	Stiefel	stiefel stiefeln gestiefelte stiefels
+76	4976	narren	narren narr närrin närrinnen
+77	4977	Offensive	offensive offensiven
+78	4978	Feststellung	feststellung feststellungen
+79	4979	Diät	diät diäten
+80	4980	obdachlos	obdachlose obdachlosen obdachlos obdachloser
+81	4981	aufsuchen	aufsuchen aufgesucht aufzusuchen aufsucht aufsuchte aufsuchten aufsuchende
+82	4982	Festung	festung festungen
+83	4983	Bekämpfung	bekämpfung
+84	4984	gleichermassen	gleichermassen gleichermaßen
+85	4985	hierzulande	hierzulande
+86	4986	Journalismus	journalismus
+87	4987	Kacke	kacke
+88	4988	Kopfschmerzen	kopfschmerzen
+89	4989	Korruption	korruption
+90	4990	Kreativität	kreativität
+91	4991	vorab	vorab
+92	4992	Vorpommer	vorpommern
+93	4993	worum	worum
+94	4994	Abendkasse	ak abendkasse
+95	4995	Division	division divisionen
+96	4996	nudeln	nudeln nudel
+97	4997	Taste	taste tasten tastet tastete tast tasteten tastend
+98	4998	saugen	saugen saugt gesaugt saug saugte sauge gesogen saugende saugst saugten
+99	4999	begeistern	begeistern begeisterte begeisterten begeisternden begeisternd begeistere
+100	5000	Lunge	lunge lungen

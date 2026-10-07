@@ -1,0 +1,100 @@
+1	501	bevor	bevor
+2	502	manchmal	manchmal
+3	503	raus	raus
+4	504	schlafen	schlafen schlaf geschlafen schläft schlafe schlief schläfst schliefen schlaft schlafend
+5	505	Interesse	interesse interessen interesses
+6	506	Chance	chance chancen
+7	507	Mitarbeiter	mitarbeiter mitarbeitern mitarbeiterin mitarbeiterinnen mitarbeiters
+8	508	wahr	wahr wahre wahren wahrer wahres wahrsten gewahrt wahrend wahrt wahrte
+9	509	bereit	bereit bereitet bereiten bereitete bereite bereiteten berittene berittenen bereitest bereiter
+10	510	obwohl	obwohl
+11	511	tatsächlich	tatsächlich tatsächlichen tatsächliche tatsächlicher tatsächliches tatsächlichem
+12	512	Bruder	bruder brüder bruders brüdern brüderchen brüderlein
+13	513	vertreten	vertreten vertreter vertritt vertretern vertrat vertretenen vertrete vertreterin vertretene vertraten
+14	514	übernehmen	übernehmen übernommen übernimmt übernahm übernahmen übernehme übernommenen übernommene übernimmst übernimm
+15	515	Job	job jobs
+16	516	englisch	englisch englischen englische englischer englisches englischem
+17	517	Entscheidung	entscheidung entscheidungen entscheid entscheidungs entscheids
+18	518	Zug	zug zuge züge zügen zuges zugs
+19	519	September	september septembers
+20	520	dadurch	dadurch
+21	521	wann	wann
+22	522	wieso	wieso
+23	523	Beitrag	beitrag beiträge beiträgen beitrags beitrages beitrage
+24	524	Gemeinde	gemeinde gemeinden
+25	525	normal	normal normalen normale normaler normales normalem normalste
+26	526	Post	post posten gepostet postet posts poste postest postete postens pöstchen
+27	527	verlassen	verlassen verlässt verliess verliessen verlass verlasse verlassenen verlassene verlasst verlassenes
+28	528	Einsatz	einsatz einsätze einsätzen einsatzes
+29	529	Firma	firma firmen firm firme
+30	530	Kreis	kreis kreisen kreise kreises kreischen kreist kreischt kreiste kreischend kreisenden
+31	531	aufgrund	aufgrund
+32	532	innerhalb	innerhalb
+33	533	insgesamt	insgesamt
+34	534	zudem	zudem
+35	535	erfolgreich	erfolgreich erfolgreiche erfolgreichen erfolgreicher erfolgreichsten erfolgreiches erfolgreichste erfolgreichster erfolgreichem erfolgreichstes
+36	536	gesamt	gesamte gesamten gesamt gesamtes gesamter gesamtem
+37	537	feiern	feiern feier feiert gefeiert feierte feierten feiere gefeierten gefeierte feierst
+38	538	Meter	meter metern meters
+39	539	Typ	typ typen typs
+40	540	halb	halb halbe halben halbes halber halbem
+41	541	irgendwie	irgendwie iwie iwi
+42	542	März	märz mär märzen
+43	543	ach	ach achs
+44	544	zahlreich	zahlreiche zahlreichen zahlreicher zahlreich zahlreiches zahlreicheren
+45	545	trotz	trotz trotze
+46	546	außer	ausser außer
+47	547	gestern	gestern
+48	548	na	na
+49	549	vorbei	vorbei
+50	550	fordern	fordert fordern gefordert forderte fordere forderten geforderten geforderte fordernd forderst
+51	551	wahrscheinlich	wahrscheinlich wahrscheinlicher wahrscheinlichsten wahrscheinlichste wahrscheinliche wahrscheinlichen wsl wahrscheinlichere
+52	552	erfahren	erfahren erfährt erfuhr erfahrene erfahrenen erfahre erfuhren erfahrener erfährst erfahrt
+53	553	Gesetz	gesetz gesetze gesetzes gesetzen
+54	554	Jahrhundert	jahrhundert jahrhunderts jahrhunderte jahrhunderten
+55	555	Präsident	präsident präsidenten präsidentin präsi präsidentinnen
+56	556	positiv	positiv positive positiven positives positiver positivem positivere positiveren positivsten positivste
+57	557	benutzen	benutzt benutzen benutze benutzte benutzten benutz benützen
+58	558	Tier	tiere tier tieren tieres tierchen tiers
+59	559	spät	spät späteren späten spätere späte späterer späteres spätes späteste späterem
+60	560	zählen	zählt zählen gezählt zählte zähle zählten zähler zählenden zähl zählst
+61	561	König	könig königs könige königen
+62	562	dagegen	dagegen
+63	563	ebenso	ebenso
+64	564	wobei	wobei
+65	565	Sprache	sprache sprachen
+66	566	Druck	druck gedruckt drucken drucker drücke gedruckten drucke drucks druckt druckte
+67	567	langsam	langsam langsamer langsame langsamen langsames langsameren langsamere langsamste langsamsten langsameres
+68	568	komplett	komplett komplette kompletten komplettes kompletter komplettem
+69	569	aktiv	aktiv aktive aktiven aktiver aktives aktivsten aktivem aktivere aktivste aktiveren
+70	570	Tochter	tochter töchter töchtern töchterchen töchterlein
+71	571	interessant	interessant interessante interessanter interessantes interessanten interessantesten interessanteste interessantere interessanteres interessantem
+72	572	sechs	sechs sechser sechsen sechsern
+73	573	laden	laden lädt geladen läden lade lud geladenen lad luden geladene
+74	574	funktionieren	funktioniert funktionieren funktionierte funktionierende funktioniere funktionierten funktionierender funktionier funktionierend
+75	575	Lösung	lösung lösungen
+76	576	Schüler	schüler schülern schülerinnen schülerin schülers
+77	577	verkaufen	verkaufen verkauf verkaufe verkaufte verkäufe verkauften verkaufs verkaufst verkäufen verkaufenden
+78	578	besitzen	besitzt besitzen besitzer besass besessen besassen besitze besessenen besessene besässen
+79	579	Menge	menge mengen meng
+80	580	Kraft	kraft kräfte kräften krafft
+81	581	August	august auguste augusts
+82	582	Aufgabe	aufgabe aufgaben
+83	583	reich	reich reiches reiche reicher reichs reichsten reichste reichem reicheren reichere
+84	584	Gedanke	gedanken gedanke gedankens
+85	585	rufen	ruft rufen rief gerufen riefen rufe rufst gerufene gerufenen rufend
+86	586	tot	tot toten tote toter totes totem todt totems
+87	587	singen	singen sänger singt sängerin gesungen sang sing singe sangen sängerinnen
+88	588	vorstellen	vorstellen vorgestellt vorzustellen vorstellt vorgestellten vorstelle vorstellte vorgestellte vorstellst vorstellten
+89	589	November	november novembers
+90	590	scheiße	scheisse scheiße
+91	591	sowohl	sowohl
+92	592	Gesicht	gesicht gesichter gesichtern gesichts gesichtes gesichte
+93	593	per	per pers pere
+94	594	selten	selten seltener seltene seltenen seltenes seltensten seltenere selteneren seltenste seltenem
+95	595	Arzt	arzt ärzte ärzten ärztin arztes ärztinnen arzte artzt
+96	596	privat	private privaten privat privater privates privatem
+97	597	Datum	daten datum datums datest gedatet datet dat
+98	598	enthalten	enthält enthalten enthielt enthaltenen enthielten enthaltene enthalte innehalten enthaltend enthaltenden
+99	599	Region	region regionen
+100	600	Höhe	höhe höhen höh

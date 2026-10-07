@@ -1,0 +1,100 @@
+1	9901	Kessler	kessler kesslers
+2	9902	Kreistag	kreistag kreistages kreistags kreistage kreistagen
+3	9903	Pfennig	pfennig pfennige pfennigen
+4	9904	Monarch	monarchen monarch monarchin
+5	9905	Faktum	fakten faktum
+6	9906	hörbar	hörbar hörbaren hörbare hörbares hörbarer
+7	9907	Zweikampf	zweikampf zweikämpfe zweikämpfen
+8	9908	auferstehen	auferstanden auferstehen auferstandenen auferstandene aufersteht
+9	9909	fehlerfrei	fehlerfrei fehlerfreien fehlerfreie fehlerfreies fehlerfreier
+10	9910	abwärts	abwärts
+11	9911	Alzheimer	alzheimer
+12	9912	Archäologie	archäologie
+13	9913	Arroganz	arroganz
+14	9914	bitteschön	bitteschön
+15	9915	Diplomatie	diplomatie
+16	9916	dreizehn	dreizehn
+17	9917	Essig	essig
+18	9918	Fragezeichen	fragezeichen
+19	9919	fündig	fündig
+20	9920	Gefühlte	gefühlte
+21	9921	hei	hei
+22	9922	Ignoranz	ignoranz
+23	9923	Kosmetik	kosmetik
+24	9924	Kreisstadt	kreisstadt
+25	9925	Lebenserwartung	lebenserwartung
+26	9926	Lebensfreude	lebensfreude
+27	9927	Mosel	mosel
+28	9928	Nachkriegszeit	nachkriegszeit
+29	9929	Ohnmacht	ohnmacht
+30	9930	Palma	palma
+31	9931	Pharma	pharma
+32	9932	Pracht	pracht
+33	9933	Prosa	prosa
+34	9934	Rückgabe	rückgabe
+35	9935	Sami	sami
+36	9936	Spargel	spargel
+37	9937	Verhinderung	verhinderung
+38	9938	Wiesn	wiesn
+39	9939	Turbine	turbine turbinen
+40	9940	modisch	modisch modische modischen modischer modisches
+41	9941	Dessert	dessert desserts
+42	9942	adden	add adden adde
+43	9943	Einfall	einfall einfälle einfällen einfalls einfalle
+44	9944	wegziehen	weggezogen wegziehen wegzuziehen wegzieht wegzog
+45	9945	lokalisieren	lokalisiert lokalisieren lokalisierte lokalisierten
+46	9946	reinziehen	reinziehen reingezogen reinzuziehen reinzieht reinziehe
+47	9947	Weisung	weisung weisungen
+48	9948	unschlagbar	unschlagbar unschlagbare unschlagbaren unschlagbares unschlagbarer
+49	9949	elektromagnetisch	elektromagnetische elektromagnetischen elektromagnetischer elektromagnetisches elektromagnetisch
+50	9950	skizzieren	skizziert skizzierte skizzieren skizzierten
+51	9951	Erdöl	erdöl erdöls
+52	9952	Prise	prise preise prisen
+53	9953	Belgier	belgier belgiern belgierin
+54	9954	pollen	pollen poll polle
+55	9955	wiederbeleben	wiederbelebt wiederbeleben wiederzubeleben wiederbelebte wiederbelebten
+56	9956	Naturschutzgebiet	naturschutzgebiet naturschutzgebiete naturschutzgebieten naturschutzgebietes
+57	9957	Sepp	sepp seppel
+58	9958	unvermeidlich	unvermeidlich unvermeidliche unvermeidlichen
+59	9959	Stellplatz	stellplätze stellplatz stellplätzen
+60	9960	Bundesligist	bundesligisten bundesligist
+61	9961	vital	vital vitale vitalen vitaler vitales
+62	9962	Teamkollege	teamkollegen teamkollege teamkollegin
+63	9963	Luftballon	luftballons luftballon
+64	9964	Perücke	perücke perücken
+65	9965	Juncker	juncker junckers
+66	9966	augenscheinlich	augenscheinlich augenscheinliche augenscheinlicher augenscheinlichen
+67	9967	Zugeständnis	zugeständnisse zugeständnis zugeständnissen
+68	9968	Mahnung	mahnung mahnungen
+69	9969	Therme	therme thermen
+70	9970	Magnum	magnum magna
+71	9971	Tanne	tanne tannen
+72	9972	Assistentin	assistentin assistentinnen
+73	9973	imaginär	imaginären imaginäre imaginär imaginärer imaginäres
+74	9974	Erbse	erbsen erbse
+75	9975	ertappen	ertappt ertappte ertappen ertappe ertappten
+76	9976	Cabrio	cabrio cabrios
+77	9977	Regent	regent regenten regentin
+78	9978	Pflegekraft	pflegekräfte pflegekraft pflegekräften
+79	9979	beidseitig	beidseitig beidseitige beidseitigen beidseitiger beidseitigem
+80	9980	Überschwemmung	überschwemmungen überschwemmung
+81	9981	Armenier	armenier armeniern
+82	9982	wiedererkennen	wiedererkennen wiedererkannt wiederzuerkennen wiedererkennt wiedererkannte
+83	9983	Missionar	missionare missionar missionaren missionars missionarin
+84	9984	Administrator	administrator administratoren administrators
+85	9985	Bruttosozialprodukt	bsp bruttosozialprodukt bruttosozialprodukts
+86	9986	vortäuschen	vortäuschen vorgetäuscht vorzutäuschen vortäuscht vorgetäuschten vortäuschte
+87	9987	Superheld	superhelden superheld
+88	9988	Inhaltsverzeichnis	inhaltsverzeichnis inhaltsverzeichnisse
+89	9989	hindeuten	hindeuten hindeutet hingedeutet hindeuteten hindeutete
+90	9990	Ansiedlung	ansiedlung ansiedlungen
+91	9991	mähen	mähen gemäht mäh mäht mähe gemähten mähte
+92	9992	Coup	coup coups
+93	9993	Jauche	jauch jauche
+94	9994	bescheinigen	bescheinigt bescheinigen bescheinigte bescheinigten
+95	9995	Klon	klon klonen klone geklont geklonten
+96	9996	Vorkommnis	vorkommnisse vorkommnissen vorkommnis
+97	9997	Wedel	wedel wedeln wedelt wedelte
+98	9998	plump	plump plumpe plumpen plumper plumpes
+99	9999	Anrede	anrede anreden angeredet anzureden anredet
+100	10000	Machthaber	machthaber machthabern machthabers

@@ -1,0 +1,100 @@
+1	4601	alltäglich	alltäglichen alltägliche alltäglich alltägliches alltäglicher alltäglichem
+2	4602	Kommunist	kommunisten kommunist kommunistin
+3	4603	grillen	grillen gegrillt grille gegrilltes grillt gegrillten gegrilltem gegrillter
+4	4604	umwandeln	umgewandelt umwandeln umzuwandeln umwandelt umgewandelten umwandelte
+5	4605	Rundfunk	rundfunk rundfunks
+6	4606	Stellvertreter	stellvertreter stellvertreterin stellvertreters stellvertretern
+7	4607	knüpfen	knüpfen geknüpft knüpft knüpfte knüpften knüpfe geknüpften
+8	4608	Suppe	suppe suppen süppchen supp
+9	4609	Zulassung	zulassung zulassungen zulassungs
+10	4610	Ruhestand	ruhestand ruhestands ruhestandes
+11	4611	Notiz	notizen notiz
+12	4612	auflegen	aufgelegt auflegen aufgelegten aufzulegen auflegt auflegte aufgelegter
+13	4613	Tablett	tabletten tablett tablette tabletts
+14	4614	Mühle	mühle mühlen
+15	4615	gerissen	gerissen gerissenen gerissene gerissener
+16	4616	Atem	atem atems
+17	4617	Rücksicht	rücksicht rücksichten
+18	4618	Kulisse	kulissen kulisse
+19	4619	verpflichten	verpflichten verpflichtend verpflichtende verpflichtenden verpflichte verpflichtete verpflichtendes verpflichteten verpflichtender
+20	4620	Feature	feature features
+21	4621	Horizont	horizont horizonte horizonts horizonten
+22	4622	Haustür	haustür haustüre haustüren
+23	4623	bevorzugen	bevorzugen bevorzuge bevorzugte bevorzugten bevorzugst
+24	4624	Ross	ross rosse rossen rössel rösser roß roße roßen
+25	4625	Echo	echo echos
+26	4626	bescheuert	bescheuert bescheuerte bescheuerten bescheuerter bescheuertes
+27	4627	unterhaltsam	unterhaltsam unterhaltsame unterhaltsamen unterhaltsamer unterhaltsames unterhaltsamsten unterhaltsamste
+28	4628	Kommissar	kommissar kommissare kommissars kommissaren
+29	4629	Kreditkarte	kreditkarte kreditkarten
+30	4630	Kläger	kläger klägerin klägers klägern
+31	4631	Marsch	marsch märsche marsches märschen marschen
+32	4632	Gefecht	gefecht gefechte gefechten gefechts gefechtes
+33	4633	Befreiung	befreiung befreiungen
+34	4634	beheben	behoben beheben behebt
+35	4635	gänzlich	gänzlich gänzliche gänzlichen
+36	4636	diesjährig	diesjährigen diesjährige diesjähriges diesjähriger
+37	4637	zerbrechen	zerbrechen zerbrochen zerbricht zerbrach zerbrochene zerbrochenen zerbreche zerbrachen zerbrochener zerbrochenes
+38	4638	annähernd	annähernd annähernde
+39	4639	schonen	schonen schone geschont schont schonend schonende schonender schonenden schonte schonendere
+40	4640	voraussichtlich	voraussichtlich voraussichtliche voraussichtlichen voraussichtlicher
+41	4641	Kolonie	kolonien kolonie
+42	4642	Wirt	wirt wirtin wirte wirten wirts wirtes
+43	4643	eisern	eisernen eiserne eiserner eisern eisernes eisernem
+44	4644	Klamotte	klamotten klamotte
+45	4645	Abgabe	abgabe abgaben
+46	4646	Ozean	ozean ozeans ozeane ozeanen
+47	4647	Rind	rinder rind rinde rindern rinden rindes
+48	4648	Einleitung	einleitung einleitungen
+49	4649	aufteilen	aufgeteilt aufteilen aufzuteilen aufteilt aufgeteilten aufteilten
+50	4650	Bindung	bindung bindungen bindungs
+51	4651	sortieren	sortiert sortieren sortierten sortiere sortierte sortier sortierst sortierter
+52	4652	bekanntlich	bekanntlich
+53	4653	Football	football
+54	4654	Großvater	grossvater großvater
+55	4655	hä	hä
+56	4656	Ostern	ostern
+57	4657	überschritten	überschritten
+58	4658	erschaffen	erschaffen erschafft erschuf erschaffe erschaffenen erschaffene erschufen
+59	4659	Internetseite	internetseite internetseiten
+60	4660	erschüttern	erschüttert erschüttern erschütternd erschütterte erschütternde erschütternden erschütterten erschütternder erschütterndes
+61	4661	Unruhe	unruhen unruhe
+62	4662	voraussetzen	vorausgesetzt voraussetzen voraussetzt vorauszusetzen vorausgesetzten voraussetze voraussetzte
+63	4663	mitspielen	mitspielen mitgespielt mitspielt mitzuspielen mitspielte mitspielten mitspielst mitspielenden mitspiele
+64	4664	Vizepräsident	vizepräsident vizepräsidenten vizepräsidentin
+65	4665	Sehenswürdigkeit	sehenswürdigkeiten sehenswürdigkeit
+66	4666	düster	düster düstere düsteren düsterer düsteres duster düsterem düstersten
+67	4667	Elefant	elefanten elefant elephant
+68	4668	Stirn	stirn stirne
+69	4669	Abonnement	abo abonnement abonnements
+70	4670	Kirchengemeinde	kirchengemeinde kirchengemeinden
+71	4671	abdecken	abgedeckt abdecken abdeckt abzudecken abgedeckten
+72	4672	Beobachter	beobachter beobachtern beobachters beobachterin
+73	4673	Session	session sessions sessionen
+74	4674	einräumen	eingeräumt einräumen einräumt einzuräumen einräumte eingeräumten einräume einräumten
+75	4675	hinzugefügt	hinzugefügt hinzugefügten hinzugefügte
+76	4676	überschreiten	überschreiten überschreitet überschritt überschreite überschreitest
+77	4677	zittern	zittern zittert gezittert zitterte zitternd zittere zitterten zitter zitterst
+78	4678	Troll	troll trolle trollen trolls trollt getrollt trollst
+79	4679	Begleiter	begleiter begleiterin begleitern begleiters
+80	4680	Handball	handball handballs
+81	4681	Rückstand	rückstand rückstände rückständen rückstandes rückstands
+82	4682	pink	pink pinke pinken pinker pinkes
+83	4683	entkommen	entkommen entkam entkommt entkamen entkomme
+84	4684	innovativ	innovative innovativ innovativen innovativer innovatives innovativsten innovativem innovativste
+85	4685	Siedlung	siedlung siedlungen
+86	4686	Fotze	fotze fotzen votze fötzchen
+87	4687	aufhängen	aufhängen aufgehängt aufzuhängen aufgehangen aufhängt aufgehängten
+88	4688	aufräumen	aufräumen aufgeräumt aufzuräumen aufräumt aufgeräumter aufgeräumte aufgeräumten
+89	4689	riskieren	riskieren riskiert riskierte riskiere riskierst riskierten riskier
+90	4690	Po	po pos
+91	4691	Ruder	ruder rudern ruderer rudert ruderte gerudert ruderten
+92	4692	Keks	kekse keks keksen
+93	4693	festlegen	festlegen festzulegen festlegt festlegte festlegten
+94	4694	einfügen	einfügen eingefügt einzufügen einfügt eingefügten einfügte
+95	4695	repräsentativ	repräsentative repräsentativen repräsentativ repräsentativer repräsentatives
+96	4696	Beamter	beamter beamte beamtin beamtinnen
+97	4697	kommerziell	kommerziellen kommerzielle kommerziell kommerzieller kommerzielles kommerziellem
+98	4698	Sturz	sturz stürze sturzes
+99	4699	organisch	organische organischen organisch organischer organisches organischem
+100	4700	bewältigen	bewältigen bewältigt bewältigte bewältigten bewältigenden

@@ -1,0 +1,100 @@
+1	1001	Anspruch	anspruch ansprüche ansprüchen anspruchs anspruches
+2	1002	polen	polen pol pole polens polin polt polinnen gepolt poles pols
+3	1003	Dorf	dorf dörfer dörfern dorfes dörfchen dorfs dorfe dörflein
+4	1004	App	app apps
+5	1005	weltweit	weltweit weltweiten weltweite weltweiter weltweites weltweitem
+6	1006	Gerät	gerät geräte geräten gerätes geräts
+7	1007	Ausdruck	ausdruck ausdrücken ausgedrückt ausdrucken auszudrücken ausdrücke ausdrückt ausgedruckt ausdrucks ausdrückte
+8	1008	Einfluss	einfluss einflüsse einflüssen einflusses einfluß
+9	1009	Stein	stein steine steinen steins steinchen steines steindl
+10	1010	sammeln	sammeln gesammelt sammelt sammelte sammelten sammle sammel sammelst sammele sammelns
+11	1011	tanzen	tanzen tanz tanzt tänzer getanzt tänze tanzte tanze tanzten tanzenden
+12	1012	Rat	rat rate rates räte rats räten
+13	1013	Anteil	anteil anteile anteilen anteils antheil
+14	1014	Szene	szene szenen
+15	1015	irgendwann	irgendwann iwann
+16	1016	Energie	energie energien
+17	1017	eh	eh
+18	1018	Strecke	strecke strecken gestreckt streckt streckte gestreckten streck gestreckter gestrecktem streckten
+19	1019	wirtschaftlich	wirtschaftliche wirtschaftlichen wirtschaftlich wirtschaftlicher wirtschaftliches wirtschaftlichem wirtschaftlichste wirtschaftlichsten
+20	1020	Zeichen	zeichen zeichens
+21	1021	Sonne	sonne sonnen sonn sonnst sonnt sonnet sonnte
+22	1022	überlegen	überlegen überlegt überlege überleg überlegenen überlegte überlegene überlegst überlegten überlegener
+23	1023	Brief	brief briefe briefen briefes briefs briefchen gebrieft
+24	1024	niedrig	niedrigen niedriger niedrig niedrige niedrigeren niedrigere niedrigsten niedrigste niedrigem niedriges
+25	1025	Sachs	sachsen sachs sachsens sachse sächsin
+26	1026	Insel	insel inseln inselchen
+27	1027	informieren	informiert informieren informierte informiere informierten informier informierter informierst
+28	1028	Schwester	schwester schwestern schwesterchen schwesterlein
+29	1029	dunkel	dunkel dunklen dunkle dunkler dunkles dunklem dunkelsten dunklere dunkleren dunkelste
+30	1030	Angriff	angriff angriffe angriffen angriffs angriffes
+31	1031	Soldat	soldaten soldat soldatinnen soldatin
+32	1032	beobachten	beobachtet beobachten beobachtete beobachte beobachteten beobachtende beobachtest beobachtend
+33	1033	Version	version versionen
+34	1034	unabhängig	unabhängig unabhängige unabhängigen unabhängiger unabhängiges
+35	1035	entsprechen	entspricht entsprechen entsprach entsprachen entsprochen entspreche entspräche entsprächen
+36	1036	Schutz	schutz schütze schutze schutzes schützin schützinnen
+37	1037	See	see seen sees
+38	1038	Star	star stars stare staar
+39	1039	eröffnen	eröffnet eröffnen eröffnete eröffneten eröffne eröffnenden eröffnest eröffnetes
+40	1040	ausgehen	ausgehen ausgegangen ausgeht ausgehend auszugehen ausgehenden ausging ausgehe ausgehende ausgingen
+41	1041	drin	drin
+42	1042	zuletzt	zuletzt
+43	1043	vollständig	vollständig vollständige vollständigen vollständiger vollständiges vollständigem vollständigste vollständigsten
+44	1044	klassisch	klassischen klassische klassischer klassisch klassisches klassischem
+45	1045	bestellen	bestellt bestellen bestellte bestelle bestell bestellten bestellst besteller bestelltes bestellers
+46	1046	versprechen	versprechen versprochen verspricht versprach verspreche versprachen versprochene versprochenen versprichst versprich
+47	1047	Technik	technik techniken
+48	1048	regen	regen regt reg rege regte reger regens reges regst regten
+49	1049	froh	froh frohe frohes frohen froher
+50	1050	Ausgabe	ausgabe ausgaben
+51	1051	Erinnerung	erinnerung erinnerungen erinnerungs
+52	1052	Spitze	spitze spitzen spitz spitzer spitzt spitzem spitzte spitzes gespitzt gespitzten
+53	1053	wild	wild wilde wilden wilder wildes wilderer wildesten wildem wildeste wilderern
+54	1054	Kilometer	kilometer kilometern
+55	1055	Urteil	urteil urteilen urteile urteils urteilt urteilte geurteilt urteilten urteilst
+56	1056	Hoffnung	hoffnung hoffnungen
+57	1057	Song	song songs
+58	1058	baden	baden gebadet bade badet badens badende badete badeten
+59	1059	Website	website websites
+60	1060	Zusammenarbeit	zusammenarbeit zusammenarbeiten zusammengearbeitet zusammenzuarbeiten zusammenarbeitet zusammenarbeitete zusammenarbeite zusammenarbeiteten
+61	1061	Polizist	polizisten polizist polizistin polizistinnen
+62	1062	Bein	beine bein beinen beinchen beines beins
+63	1063	Verhältnis	verhältnis verhältnisse verhältnissen verhältnisses
+64	1064	Operation	op operation operationen
+65	1065	leiten	leitet geleitet leiten leitete leitende leitenden leitender leite leiteten leit
+66	1066	Auswahl	auswahl auswahlen
+67	1067	derzeit	derzeit
+68	1068	regelmäßig	regelmässig regelmäßig
+69	1069	Grundlage	grundlage grundlagen
+70	1070	Bus	bus busse bussen buss busses buße bußen
+71	1071	Zeitpunkt	zeitpunkt zeitpunkten zeitpunkte zeitpunkts zeitpunktes
+72	1072	Konzept	konzept konzepte konzepten konzepts konzeptes
+73	1073	dicht	dicht dichter dichte dichten dichters dichtes dichterin dichtem dichtern dichtesten
+74	1074	fördern	fördern gefördert fördert förderer geförderten geförderte förderte förder förderten fördere
+75	1075	Institut	institut instituts institute instituten institutes
+76	1076	Winter	winter winters wintern
+77	1077	wenden	wenden wende wendet wandte gewandt gewendet wendete wandten winde wendeten
+78	1078	Anlage	anlage anlagen
+79	1079	drücken	drücken drückt gedrückt drückte drück drücke drückst drückten drückend drückende
+80	1080	Vorteil	vorteil vorteile vorteilen vorteils
+81	1081	Stern	stern sterne sternen sternchen sterns sternes sternlein
+82	1082	Arbeitgeber	ag arbeitgeber arbeitgebern arbeitgebers arbeitgeberin
+83	1083	relativ	relativ relative relativen relativer relatives
+84	1084	Decke	decke decken deckt gedeckt deck deckte decks gedeckten deckten gedeckte
+85	1085	Richter	richter richterin richtern richters richterinnen
+86	1086	Show	show shows
+87	1087	Himmel	himmel himmels himmeln
+88	1088	Qualität	qualität qualitäten quali qualitäts
+89	1089	Museum	museum museen museums
+90	1090	Katze	katze katzen kater kätzchen katz katers katern
+91	1091	Einrichtung	einrichtung einrichtungen
+92	1092	Interview	interview interviews
+93	1093	ei	eier ei eiern eichen eich eie geeicht eiert eies geeichten
+94	1094	betreffen	betrifft betreffen betreffenden betreffend betreffende betraf betrafen betreffe beträfe betreffender
+95	1095	beenden	beendet beenden beendete beendeten beende beendest beendeter
+96	1096	erstmals	erstmals
+97	1097	mm	mm
+98	1098	schwach	schwach schwache schwachen schwächer schwacher schwächeren schwächere schwaches schwächsten schwächste
+99	1099	Kamera	kamera kameras
+100	1100	Party	party partys parties

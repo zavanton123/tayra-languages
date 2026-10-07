@@ -1,0 +1,100 @@
+1	5801	Feuerwerk	feuerwerk feuerwerke feuerwerks feuerwerken
+2	5802	hybrid	hybrid hybriden hybride hybrider
+3	5803	Abgang	abgang abgänge abgängen abgangs
+4	5804	verwundern	verwundert verwundern verwunderte
+5	5805	vernehmen	vernehmen vernommen vernahm vernimmt vernahmen vernehme
+6	5806	Killer	killer killers killern
+7	5807	Abgrenzung	abgrenzung abgrenzungen
+8	5808	Unterscheidung	unterscheidung unterscheidungen
+9	5809	Jahrestag	jahrestag jahrestages jahrestags jahrestage jahrestagen
+10	5810	Regionalliga	regionalliga regionalligen
+11	5811	schüchtern	schüchtern schüchterne schüchternen schüchterner schüchternes
+12	5812	Menü	menü menüs
+13	5813	Arbeitsgruppe	arbeitsgruppe arbeitsgruppen
+14	5814	Kommunalwahl	kommunalwahl kommunalwahlen
+15	5815	Zürcher	zürcher züricher
+16	5816	erkunden	erkunden erkundet erkundeten erkundete erkunde
+17	5817	Darm	darm darms därme darmes
+18	5818	Ausschreibung	ausschreibung ausschreibungen
+19	5819	Bug	bug bugs
+20	5820	Ruine	ruinen ruine
+21	5821	Strassburg	strassburg strassburgs straßburg straßburgs
+22	5822	beitreten	beitreten beigetreten beizutreten beitrat beitraten
+23	5823	Einreise	einreise einreisen eingereist einreist eingereisten einzureisen einreisenden
+24	5824	Schnauze	schnauze schnauzen schnauz
+25	5825	Einwanderer	einwanderer einwanderern
+26	5826	Verschwörung	verschwörung verschwörungen
+27	5827	Vaterland	vaterland vaterlandes vaterlands vaterländer vaterlande
+28	5828	Depot	depot depots
+29	5829	Attentat	attentat attentate attentats attentaten
+30	5830	antisemitisch	antisemitische antisemitischen antisemitisch antisemitischer antisemitisches antisemitischem
+31	5831	fragwürdig	fragwürdig fragwürdige fragwürdigen fragwürdiger fragwürdiges fragwürdigem
+32	5832	Gitter	gitter gittern gitters
+33	5833	anmerken	anmerken anzumerken angemerkt anmerkt anmerkte
+34	5834	Majestät	majestät majestäten
+35	5835	Kolumne	kolumne kolonne kolumnen kolonnen
+36	5836	Verleihung	verleihung verleihungen
+37	5837	empört	empört empörte empörten empörter
+38	5838	antun	antun antut anzutun antue antust antat
+39	5839	umarmen	umarmen umarmt umarmte umarme umarmten umarm umarmst
+40	5840	Roller	roller rollern rollers
+41	5841	Einwand	einwände einwand einwänden
+42	5842	pervers	pervers perverse perversen perverser perverses
+43	5843	herausstellen	herausstellen herausstellt herausstellte herauszustellen herausstellten
+44	5844	Future	future futures
+45	5845	ausnahmsweise	ausnahmsweise
+46	5846	Diabetes	diabetes
+47	5847	letztens	letztens
+48	5848	netto	netto
+49	5849	Renaissance	renaissance
+50	5850	Romantik	romantik
+51	5851	Schließung	schliessung schließung
+52	5852	Straßenbahn	strassenbahn straßenbahn
+53	5853	ungern	ungern
+54	5854	Weimarer	weimarer
+55	5855	lesbisch	lesbische lesbisch lesbischen lesbisches lesbischer
+56	5856	importieren	importiert importieren importierte importierten importierter importiertes importiere
+57	5857	ärgerlich	ärgerlich ärgerliche ärgerlicher ärgerlichen ärgerliches
+58	5858	Bekenntnis	bekenntnis bekenntnisse bekenntnisses bekenntnissen
+59	5859	Hochparterre	hp hochparterre
+60	5860	koordinieren	koordiniert koordinieren koordinierte koordinierten koordinierende koordinierter koordiniertes
+61	5861	eskalieren	eskaliert eskalieren eskalierte eskalierten eskalierenden
+62	5862	münden	münden mündet mündete mündeten mündenden
+63	5863	RAM	ram rams
+64	5864	Spinner	spinner spinnern spinnerin spinners
+65	5865	Vorliebe	vorliebe vorlieben
+66	5866	Profit	profit profite profits profiten
+67	5867	Handtuch	handtuch handtücher handtüchern
+68	5868	eingebunden	eingebunden eingebundenen eingebundene
+69	5869	Tiroler	tiroler tirolerin tirolern
+70	5870	anbauen	angebaut anbauen anzubauen angebauten anbaut angebautes angebauter angebautem anbauten
+71	5871	einfangen	eingefangen einfangen einzufangen einfängt einfing eingefangenen
+72	5872	experimentell	experimentelle experimentellen experimentell experimenteller experimentelles
+73	5873	Berührung	berührung berührungen
+74	5874	Bude	bude buden büdchen
+75	5875	einwandfrei	einwandfrei einwandfreie einwandfreien einwandfreier einwandfreies einwandfreiem
+76	5876	legitim	legitim legitime legitimen legitimer legitimes
+77	5877	rocken	rocket rocken rockt gerockt rockten rockte rockst rocke
+78	5878	färben	färben färbt färber färbe färbte färb färbten
+79	5879	Wahlrecht	wahlrecht wahlrechts wahlrechte
+80	5880	zuordnen	zuordnen zuzuordnen zuordnet
+81	5881	versetzen	versetzen versetzte versetze versetzten versetz
+82	5882	Thematik	thematik thematiken
+83	5883	Realschule	realschule realschulen
+84	5884	Kontrast	kontrast kontraste kontrasten
+85	5885	trommeln	trommeln trommel trommelt getrommelt trommelte
+86	5886	Reim	reim reimt reime reimen reims gereimt gereimten reimte
+87	5887	enthüllen	enthüllt enthüllen enthüllte enthüllten enthülle
+88	5888	unzureichend	unzureichend unzureichende unzureichenden unzureichender unzureichendes unzureichendem
+89	5889	telefonisch	telefonisch telefonische telefonischen telefonischer
+90	5890	übersteigen	übersteigt übersteigen überstieg überstiegen übersteuern übersteigenden übersteuert übersteige übersteigende
+91	5891	Nahrungsmittel	nahrungsmittel nahrungsmitteln
+92	5892	Neuwahl	neuwahlen neuwahl
+93	5893	aufziehen	aufgezogen aufziehen aufzuziehen aufzieht aufzog aufziehenden aufgezogene aufgezogenen
+94	5894	Page	page pagen
+95	5895	AI	ai ais
+96	5896	Syrer	syrer syrern syrier syrers syrerin
+97	5897	Beförderung	beförderung beförderungen
+98	5898	Kupfer	kupfer kupfers
+99	5899	Kopftuch	kopftuch kopftücher kopftüchern kopftuches kopftuchs
+100	5900	belaufen	beläuft belief belaufen beliefen belaufe

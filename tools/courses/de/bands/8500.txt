@@ -1,0 +1,100 @@
+1	8401	Marmor	marmor marmors
+2	8402	energetisch	energetische energetisch energetischen energetischer energetisches
+3	8403	Elternteil	elternteil elternteile elternteils elternteilen
+4	8404	freundschaftlich	freundschaftliche freundschaftlich freundschaftlichen freundschaftliches freundschaftlicher
+5	8405	propagieren	propagiert propagieren propagierte propagierten
+6	8406	vorherrschend	vorherrschenden vorherrschende vorherrschend vorherrschender
+7	8407	Genauigkeit	genauigkeit genauigkeiten
+8	8408	Motorsport	motorsport motorsports
+9	8409	Oldtimer	oldtimer oldtimern
+10	8410	malerisch	malerischen malerische malerisch malerischer malerisches
+11	8411	durchfahren	durchfahren durchfahrt durchfährt durchgefahren durchfuhr durchführt durchfuhren durchfahrten durchfahrenden durchführe
+12	8412	eigenartig	eigenartig eigenartige eigenartigen eigenartiges eigenartiger
+13	8413	elastisch	elastische elastischen elastisch elastischer elastisches elastischem
+14	8414	gebräuchlich	gebräuchlich gebräuchlichen gebräuchliche gebräuchlicher gebräuchlichsten gebräuchlichste gebräuchliches
+15	8415	Cockpit	cockpit cockpits
+16	8416	Schlagwort	schlagwort schlagworte schlagwörter schlagworten schlagwörtern
+17	8417	Kenner	kenner kennern kennerin
+18	8418	Selbstbedienung	sb selbstbedienung
+19	8419	WC	wc wcs
+20	8420	Grafschaft	grafschaft grafschaften
+21	8421	kuscheln	kuscheln kuschel gekuschelt kuschelt kuschelte
+22	8422	Zink	zink zinken zinke
+23	8423	Abfrage	abgefragt abfrage abfragen abzufragen abgefragten abfragt
+24	8424	Kürzung	kürzung kürzungen
+25	8425	gnädig	gnädig gnädige gnädiger gnädigen gnädiges gnädigste
+26	8426	Buddha	buddha buddhas
+27	8427	Parodie	parodie parodien
+28	8428	krumm	krumm krumme krummen krummer krümmer krummes
+29	8429	Ader	adern ader äderchen
+30	8430	Ruck	ruck ruckzuck rucken
+31	8431	rhythmisch	rhythmische rhythmisch rhythmischen rhythmischer rhythmisches
+32	8432	contra	contra contras
+33	8433	stattlich	stattliche stattlichen stattlicher stattlich stattliches
+34	8434	Krawatte	krawatte krawatten
+35	8435	rekonstruieren	rekonstruieren rekonstruiert rekonstruierten rekonstruierte
+36	8436	verschließen	verschliessen verschloss verschliesse verschließen verschließe
+37	8437	knackig	knackig knackige knackigen knackiger knackiges
+38	8438	kürzen	kürzen kürzt kürzte
+39	8439	lautstark	lautstark lautstarken lautstarke lautstarker
+40	8440	gegenüberstehen	gegenüberstehen gegenübersteht gegenüberstanden gegenüberstand gegenüberstehe gegenübergestanden gegenüberzustehen gegenüberstehenden
+41	8441	zweitgrösster	zweitgrösste zweitgrössten zweitgrösster zweitgrößte zweitgrößten zweitgrößter
+42	8442	Staatsangehörigkeit	staatsangehörigkeit staatsangehörigkeiten
+43	8443	Feed	feed feeds
+44	8444	Briefmarke	briefmarken briefmarke
+45	8445	stad	stade stad stader staden
+46	8446	Erreger	erreger erregern erregers
+47	8447	chirurgisch	chirurgische chirurgischen chirurgisch chirurgischer chirurgisches
+48	8448	Casting	casting castings
+49	8449	Regionalbahn	regio regionalbahn regionalbahnen
+50	8450	beispielhaft	beispielhaft beispielhafte beispielhaften beispielhafter beispielhaftes
+51	8451	Scheinwerfer	scheinwerfer scheinwerfern scheinwerfers
+52	8452	wegfallen	wegfallen weggefallen wegfällt wegfallenden wegfiel wegfielen
+53	8453	Liebender	liebenden liebende liebender
+54	8454	Utopie	utopie utopien
+55	8455	Internat	internat internats internate internaten
+56	8456	Skript	skript skripte skripten skripts
+57	8457	Untersuchungsausschuss	untersuchungsausschuss untersuchungsausschusses untersuchungsausschüsse untersuchungsausschüssen
+58	8458	widersprüchlich	widersprüchlich widersprüchliche widersprüchlichen widersprüchliches widersprüchlicher
+59	8459	verzerrt	verzerrt verzerrte verzerrten verzerrtes verzerrter
+60	8460	Teilchen	teilchen teilchens
+61	8461	Kranz	kranz kränze kränzen kränzchen kranze
+62	8462	Zeichner	zeichner zeichnerin zeichners zeichnern
+63	8463	Magistrat	magistrat magistrats magistrate magistraten
+64	8464	unkompliziert	unkompliziert unkomplizierte unkomplizierter unkomplizierten unkompliziertes
+65	8465	Völkerrecht	völkerrecht völkerrechts
+66	8466	Waffenstillstand	waffenstillstand waffenstillstands waffenstillstandes
+67	8467	Detektiv	detektiv detektive detektivin detektivs detektiven
+68	8468	Kinderwagen	kinderwagen kinderwägen
+69	8469	wiederkommen	wiederkommen wiederkommt wiedergekommen wiederzukommen wiederkam wiederkomme wiederkommst
+70	8470	neuerlich	neuerlichen neuerlich neuerliche neuerlicher neuerliches
+71	8471	untertan	untertanen untertan
+72	8472	Cowboy	cowboy cowboys
+73	8473	Porzellan	porzellan porzellans porzellane
+74	8474	Quadrat	quadrat quadrate quadraten quadrats quadrates
+75	8475	Arbeitswelt	arbeitswelt arbeitswelten
+76	8476	joggen	joggen jogge joggt gejoggt
+77	8477	verordnet	verordnet verordnete verordneten verordneter
+78	8478	Abschaum	abschaum
+79	8479	Beschaffenheit	beschaffenheit
+80	8480	Besteuerung	besteuerung
+81	8481	dritt	dritt
+82	8482	ergo	ergo
+83	8483	Erzeugung	erzeugung
+84	8484	Föderation	föderation
+85	8485	Gefangenschaft	gefangenschaft
+86	8486	Gewinnung	gewinnung
+87	8487	Gleichheit	gleichheit
+88	8488	Greenpeace	greenpeace
+89	8489	Gulden	gulden
+90	8490	ineinander	ineinander
+91	8491	Infanterie	infanterie
+92	8492	Jetz	jetz
+93	8493	Kofferraum	kofferraum
+94	8494	mittendrin	mittendrin
+95	8495	Rückweg	rückweg
+96	8496	Saisonende	saisonende
+97	8497	Skepsis	skepsis
+98	8498	Sozialdemokratie	sozialdemokratie
+99	8499	Than	than
+100	8500	Unfähigkeit	unfähigkeit

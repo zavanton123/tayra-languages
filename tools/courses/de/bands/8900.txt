@@ -1,0 +1,100 @@
+1	8801	Sense	sense sens sensen
+2	8802	Abneigung	abneigung abneigungen
+3	8803	Kratzer	kratzer kratzern
+4	8804	scannen	scannen gescannt scannt scanne
+5	8805	Komiker	komiker komikerin komikers komikern
+6	8806	verschleppen	verschleppt verschleppen verschleppten verschleppte
+7	8807	Steuerberater	steuerberater stb steuerberatern steuerberaterin steuerberaters
+8	8808	gescheit	gescheit gescheites gescheite gescheiter gescheiten gescheut
+9	8809	außenpolitisch	aussenpolitischen aussenpolitische aussenpolitisch aussenpolitischer aussenpolitisches außenpolitischen außenpolitische außenpolitisch außenpolitischer außenpolitisches
+10	8810	Violine	violine violinen
+11	8811	Freitagabend	freitagabend freitagabends
+12	8812	Dynastie	dynastie dynastien
+13	8813	Privatisierung	privatisierung privatisierungen
+14	8814	Stiel	stiel stiele stielen stiels
+15	8815	Livestream	livestream livestreams
+16	8816	Todesopfer	todesopfer todesopfern
+17	8817	Staatspräsident	staatspräsident staatspräsidenten
+18	8818	Relief	relief reliefs
+19	8819	gegossen	gegossen gegossene gegossenen gegossenes
+20	8820	unvorstellbar	unvorstellbar unvorstellbare unvorstellbaren unvorstellbarer unvorstellbares
+21	8821	misshandeln	misshandelt misshandeln misshandelte misshandelten mißhandelt mißhandeln mißhandelte mißhandelten
+22	8822	widersetzen	widersetzen widersetzt widersetzte widersetzten widersetze
+23	8823	GAU	gau gaus gaue gaues gauen
+24	8824	Karst	karsten karst
+25	8825	vorenthalten	vorenthalten vorzuenthalten vorenthält
+26	8826	Schulleiter	schulleiter schulleiterin schulleiters
+27	8827	hektisch	hektisch hektischen hektische hektischer hektisches
+28	8828	Entwicklungsland	entwicklungsländern entwicklungsländer entwicklungsland
+29	8829	Met	met mets mete
+30	8830	Neustart	neustart neustarts
+31	8831	Trinkgeld	trinkgeld trinkgelder
+32	8832	bestmöglich	bestmögliche bestmöglich bestmöglichen bestmöglicher
+33	8833	favorisieren	favorisiert favorisierten favorisierte favorisieren favorisiere
+34	8834	kooperativ	kooperativ kooperative kooperativen kooperatives kooperativer
+35	8835	Finanzkrise	finanzkrise finanzkrisen
+36	8836	Hoheit	hoheit hoheiten
+37	8837	Treibstoff	treibstoff treibstoffe treibstoffen treibstoffs
+38	8838	begleichen	begleichen beglichen begleicht beglich
+39	8839	ausblenden	ausgeblendet ausblenden auszublenden ausblendet
+40	8840	Expertise	expertise expertisen
+41	8841	pochen	pochen pocht pochte gepocht poch pochende poche pochten
+42	8842	hungern	hungern hungernden hungert gehungert hungerte hungerten
+43	8843	unermüdlich	unermüdlich unermüdlichen unermüdliche unermüdlicher unermüdliches unermüdlichem
+44	8844	Wechselwirkung	wechselwirkung wechselwirkungen
+45	8845	abgetrennt	abgetrennt abgetrennten abgetrennte abgetrennter
+46	8846	Wortschatz	wortschatz wortschatzes
+47	8847	Symposium	symposium symposiums symposien
+48	8848	Berufsausbildung	berufsausbildung berufsausbildungen
+49	8849	anrechnen	angerechnet anrechnen anzurechnen
+50	8850	Gespenst	gespenst gespenster gespenstern
+51	8851	abhören	abgehört abhören abzuhören abhört abgehörten
+52	8852	zurückbringen	zurückgebracht zurückbringen zurückzubringen zurückbringt zurückbrachte
+53	8853	Brasilianer	brasilianer brasilianern brasilianerin brasilianerinnen
+54	8854	hosten	host hosten gehostet hostet hoste
+55	8855	Caritas	caritas
+56	8856	Eiweiß	eiweiss eiweiß
+57	8857	Firefox	firefox
+58	8858	Gesamtheit	gesamtheit
+59	8859	Gmünd	gmünd
+60	8860	Göttinger	göttinger
+61	8861	hmmm	hmmm
+62	8862	Identifikation	identifikation
+63	8863	Immunität	immunität
+64	8864	Integrität	integrität
+65	8865	Lebensdauer	lebensdauer
+66	8866	Moskauer	moskauer
+67	8867	Realismus	realismus
+68	8868	Rechtslage	rechtslage
+69	8869	Spandau	spandau
+70	8870	ui	ui
+71	8871	vorgestern	vorgestern
+72	8872	Wasserversorgung	wasserversorgung
+73	8873	Bestrebung	bestrebungen bestrebung
+74	8874	minimieren	minimieren minimiert
+75	8875	Krampf	krampf krämpfe krämpfen
+76	8876	Enzym	enzyme enzym enzymen enzyms
+77	8877	Falter	falter faltern
+78	8878	mittelständisch	mittelständische mittelständischen mittelständischer mittelständisches mittelständisch
+79	8879	tolerant	tolerant toleranten tolerante toleranter tolerantes
+80	8880	Shooting	shooting shootings
+81	8881	Bauweise	bauweise bauweisen
+82	8882	Bundesminister	bundesminister bundesministerin bundesministers
+83	8883	improvisieren	improvisieren improvisiert improvisierten improvisierte improvisiertes improvisierter
+84	8884	vernachlässigen	vernachlässigen vernachlässigte vernachlässige vernachlässigten vernachlässigende vernachlässigst
+85	8885	Passion	passion passionen
+86	8886	Zen	zen zens
+87	8887	Feeling	feeling feelings
+88	8888	Finsternis	finsternis finsternisse
+89	8889	gierig	gierig gierigen gierige gieriger gieriges
+90	8890	Wrack	wrack wracks
+91	8891	Samstagabend	samstagabend samstagabends
+92	8892	verlockend	verlockend verlockende verlockendes verlockenden verlockender
+93	8893	Mediathek	mediathek mediatheken
+94	8894	Arbeitsverhältnis	arbeitsverhältnis arbeitsverhältnisse arbeitsverhältnisses arbeitsverhältnissen
+95	8895	Vorführung	vorführung vorführungen
+96	8896	Trophäe	trophäe trophäen
+97	8897	Ellbogen	ellenbogen ellbogen
+98	8898	umgestalten	umgestaltet umgestalten umzugestalten umgestalteten umgestaltete
+99	8899	kindlich	kindliche kindlichen kindlich kindlicher kindliches kindlichem
+100	8900	Mündung	mündung mündungen

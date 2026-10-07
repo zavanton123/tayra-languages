@@ -1,0 +1,100 @@
+1	5001	aufgerufen	aufgerufen aufgerufenen aufgerufene
+2	5002	Schublade	schublade schubladen
+3	5003	saufen	saufen gesoffen säuft sauf sauft saufe soff
+4	5004	hinnehmen	hinnehmen hingenommen hinzunehmen hinnimmt hinzugenommen
+5	5005	Silvester	silvester sylvester
+6	5006	Wohlstand	wohlstand wohlstands wohlstandes
+7	5007	Ente	ente enten entchen entlein
+8	5008	dreifach	dreifach dreifache dreifachen dreifacher dreifaches dreifachem
+9	5009	Ferrari	ferrari ferraris
+10	5010	Mikrofon	mikrofon mikro mikrofone mikrophon mikrofonen mikrofons
+11	5011	Verzeichnis	verzeichnis verzeichnisse verzeichnissen verzeichnisses
+12	5012	nähen	nähen genäht nähte näh näht nähten genähten genähte
+13	5013	konventionell	konventionellen konventionelle konventionell konventioneller konventionelles konventionellem
+14	5014	lebenslang	lebenslange lebenslang lebenslangen lebenslanger lebenslanges lebenslangem
+15	5015	Seil	seil seile seilen seils seiles
+16	5016	unentschieden	unentschieden unentschiedenen unentschiedene
+17	5017	jammern	jammern jammer jammert gejammert jammerte jammerst jammere jammers jammernd jammernde
+18	5018	schädlich	schädlich schädliche schädlichen schädlicher schädliches
+19	5019	reiben	reiben reibt gerieben reibe rieb rieben geriebenen reib geriebene geriebenem
+20	5020	Taktik	taktik taktiken
+21	5021	charakteristisch	charakteristisch charakteristischen charakteristische charakteristisches charakteristischer charakteristischem
+22	5022	Süddeutscher	süddeutschen süddeutsche süddeutscher
+23	5023	Benutzer	benutzer benutzern benutzers
+24	5024	gemeinnützig	gemeinnützige gemeinnützigen gemeinnütziger gemeinnützig gemeinnütziges
+25	5025	signifikant	signifikant signifikante signifikanten signifikanter signifikantes
+26	5026	Kult	kult kultus kulte kultes kulten kults
+27	5027	Alpha	alpha alphas
+28	5028	Angreifer	angreifer angreifern angreifers
+29	5029	Protein	protein proteine proteinen proteins
+30	5030	zehnte	zehnten zehnte zehnter zehntes
+31	5031	kapieren	kapiert kapieren kapier kapiere kapierst kapierte
+32	5032	endlos	endlos endlose endlosen endloser endloses endlosem
+33	5033	Call	call calls
+34	5034	Tommy	tommy tommys
+35	5035	separat	separat separate separaten separates separater separatem
+36	5036	Einsicht	einsicht einsichten
+37	5037	Genie	genie genies
+38	5038	bevorstehen	bevorstehenden bevorstehende bevorsteht bevorstehen bevorstand bevorstehender bevorstehe bevorstehendes
+39	5039	Airline	airlines airline
+40	5040	schwitzen	schwitzen schwitzt schwitze geschwitzt schwitz schwitzend schwitzenden schwitzte schwitzende schwitzten
+41	5041	Gerichtshof	gerichtshof gerichtshofs gh gerichtshofes gerichtshöfe gerichtshöfen
+42	5042	Etage	etage etagen
+43	5043	Glanz	glanz glanze glanzes
+44	5044	fesseln	fesseln fesselt fessel fesselnd fesselte fesselnde fesselten fesselnden fesselnder fesselndes
+45	5045	Regiment	regiment regiments regimenter regimentern regimentes
+46	5046	ausweichen	ausweichen auszuweichen ausgewichen ausweichend ausweicht auswich ausweichende
+47	5047	Portion	portion portionen
+48	5048	mental	mental mentale mentalen mentaler mentales
+49	5049	Stürmer	stürmer stürmers stürmern stürmerin
+50	5050	Heck	heck hecken hecke hecks heckt
+51	5051	beschränken	beschränken beschränkte beschränkten beschränke
+52	5052	verankern	verankert verankern verankerte verankerten verankertes
+53	5053	gefärbt	gefärbt gefärbte gefärbten gefärbtes gefärbter gefärbtem
+54	5054	überarbeitet	überarbeitet überarbeitete überarbeiteten überarbeiteter überarbeitetes
+55	5055	Talk	talk talks
+56	5056	ägyptisch	ägyptischen ägyptische ägyptischer ägyptisch ägyptisches ägyptischem
+57	5057	gleichmäßig	gleichmässig gleichmässige gleichmässigen gleichmässiger gleichmässiges gleichmässigere gleichmässigem gleichmäßig gleichmäßige gleichmäßigen
+58	5058	Ausgangspunkt	ausgangspunkt ausgangspunkte
+59	5059	Patent	patent patente patenten patents patentes
+60	5060	Zorn	zorn zorns zornes
+61	5061	prächtig	prächtig prächtigen prächtige prächtiger prächtiges prächtigsten prächtigem prächtigste
+62	5062	Lebensraum	lebensraum lebensräume lebensräumen lebensraumes lebensraums
+63	5063	kompakt	kompakt kompakte kompakten kompakter kompaktes kompaktere kompaktem kompakteren
+64	5064	gewerblich	gewerblichen gewerbliche gewerblich gewerblicher gewerbliches
+65	5065	gängig	gängigen gängige gängiger gängig gängiges gängigsten gängigste
+66	5066	Areal	areal areals areale arealen
+67	5067	Tragödie	tragödie tragödien
+68	5068	sehnen	sehnen sehne sehnt sehnte senne gesehnt sehnst sehnten senner sennerin
+69	5069	Harz	harz harzes harze harzen
+70	5070	erotisch	erotische erotischen erotisch erotischer erotisches erotischste
+71	5071	mitwirken	mitwirken mitgewirkt mitzuwirken mitwirkenden mitwirkt mitwirkte mitwirkten
+72	5072	vorlesen	vorlesen vorgelesen vorliest vorzulesen vorlas vorlese
+73	5073	belästigen	belästigt belästigen belästigte belästige belästigten belästigend
+74	5074	fungieren	fungiert fungieren fungierte fungierten fungierenden fungiere
+75	5075	abgehen	abgeht abgehen abgegangen abging abzugehen abgegangenen abgehe
+76	5076	ablaufen	ablaufen abläuft ablief ablaufenden abzulaufen abliefen ablaufe
+77	5077	Unsicherheit	unsicherheit unsicherheiten
+78	5078	Prophet	propheten prophet prophetin
+79	5079	Häftling	häftlinge häftling häftlingen häftlings
+80	5080	Abwechslung	abwechslung
+81	5081	Campus	campus
+82	5082	Dating	dating
+83	5083	Fun	fun
+84	5084	ups	ups
+85	5085	Indianer	indianer indianern indianerin indianers
+86	5086	ähneln	ähnelt ähneln ähnelte ähnelten ähnele ähnelnden
+87	5087	schmücken	geschmückt schmücken schmückt schmückte schmückten schmücke schmückendes
+88	5088	Pastor	pastor pastoren pastors pastorin pastore
+89	5089	Mutti	mutti muttis
+90	5090	Gärtner	gärtner gartner gärtnern gärtners gärtnerin
+91	5091	organisatorisch	organisatorischen organisatorische organisatorisch organisatorischer organisatorisches
+92	5092	Uhrzeit	uhrzeit uhrzeiten
+93	5093	Aluminium	aluminium alu
+94	5094	vorig	vorigen vorige voriges voriger vorigem
+95	5095	Strömung	strömungen strömung
+96	5096	Zivilist	zivilisten zivilist
+97	5097	untersagen	untersagt untersagen untersagte untersagten
+98	5098	Gesetzgeber	gesetzgeber gesetzgebers
+99	5099	Skulptur	skulptur skulpturen
+100	5100	Hanse	hansen hansa hanse

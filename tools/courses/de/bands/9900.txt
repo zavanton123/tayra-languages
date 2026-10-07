@@ -1,0 +1,100 @@
+1	9801	Rangliste	rangliste ranglisten
+2	9802	Garderobe	garderobe garderoben
+3	9803	Playlist	playlist playlists playlisten
+4	9804	Australier	australier australierin australiern
+5	9805	Ehrenamt	ehrenamt ehrenämter ehrenamtes ehrenämtern ehrenamts
+6	9806	Prospekt	prospekt prospekte prospekten prospekts
+7	9807	Anklang	anklang anklänge anklängen
+8	9808	Geschöpf	geschöpf geschöpfe geschöpfen
+9	9809	imposant	imposante imposanten imposant imposanter imposantes
+10	9810	Vorstadt	vorstadt vorstädte vorstädten
+11	9811	Aufenthaltsort	aufenthaltsort aufenthaltsorte aufenthaltsortes
+12	9812	Parlamentarier	parlamentarier parlamentariern
+13	9813	Verschärfung	verschärfung verschärfungen
+14	9814	beerdigen	beerdigt beerdigen beerdigten beerdigte
+15	9815	Follower	follower followern followers
+16	9816	vertieft	vertieft vertieftes vertiefter
+17	9817	Treiber	treiber treibern
+18	9818	getreu	getreu getreuen getreue getreuer
+19	9819	spärlich	spärlich spärlichen spärliche spärlicher
+20	9820	Augenzeuge	augenzeugen augenzeuge augenzeugin
+21	9821	Eintrittskarte	eintrittskarten eintrittskarte
+22	9822	Uraufführung	uraufführung uraufführungen
+23	9823	totalitär	totalitären totalitäre totalitär totalitärer totalitäres
+24	9824	Vorläufer	vorläufer vorläufern vorläuferin vorläufers
+25	9825	Sozialleistung	sozialleistungen sozialleistung
+26	9826	Forscherin	forscher forscherin forscherinnen
+27	9827	Zuspruch	zuspruch zuspruchs
+28	9828	standhalten	standhalten standhält standzuhalten standgehalten standhielt
+29	9829	pfälzisch	pfälzischen pfälzische pfälzischer pfälzisch
+30	9830	Reck	reck recke recken reckt reckte gereckt reckten
+31	9831	Nachrichtenagentur	nachrichtenagentur nachrichtenagenturen
+32	9832	Bernstein	bernstein bernsteins
+33	9833	Hauser	hauser hausers
+34	9834	vorausgehen	vorausgegangen vorausgegangenen vorausgehen vorausgehenden vorausging vorausgeht vorausgegangene vorausgehende vorausgingen
+35	9835	Bürgerinitiative	bürgerinitiative bürgerinitiativen
+36	9836	Fachrichtung	fachrichtung fachrichtungen
+37	9837	Biologe	biologen biologe biologin
+38	9838	Kohlenhydrat	kohlenhydrate kohlenhydraten kohlenhydrat
+39	9839	flechten	flechten geflochten geflochtenen geflochtene flechte flicht
+40	9840	entwendet	entwendet entwendeten entwendete
+41	9841	Misserfolg	misserfolg misserfolge misserfolgen misserfolgs misserfolges mißerfolg
+42	9842	Timing	timing timings
+43	9843	Vakuum	vakuum vakuums
+44	9844	krähen	krähen krähe kräht
+45	9845	zugestehen	zugestehen zugestanden zugesteht zuzugestehen zugestand zugestandenen
+46	9846	zufriedenstellend	zufriedenstellend zufriedenstellende zufriedenstellenden zufriedenstellendes zufriedenstellender
+47	9847	machtlos	machtlos machtlosen machtlose
+48	9848	kunstvoll	kunstvoll kunstvolle kunstvollen kunstvoller kunstvolles
+49	9849	Fahrverbot	fahrverbot fahrverbote fahrverboten
+50	9850	mitkommen	mitkommen mitgekommen mitzukommen mitkommt mitkomme
+51	9851	sterblich	sterblichen sterbliche sterblich sterblicher
+52	9852	Kreuzzug	kreuzzug kreuzzüge kreuzzügen kreuzzuges kreuzzugs
+53	9853	überschlagen	überschlagen überschlug überschlägt überschlag überschlugen
+54	9854	bäuerlich	bäuerlichen bäuerliche bäuerlicher bäuerlich bäuerliches
+55	9855	Preisgeld	preisgeld preisgelder preisgeldern
+56	9856	Ventilator	ventilator ventilatoren ventilators
+57	9857	Milan	milan milans
+58	9858	Penner	penner pennern
+59	9859	Mountainbike	mountainbike mountainbikes
+60	9860	Ninja	ninja ninjas
+61	9861	Neupreis	np neupreis
+62	9862	Schweiger	schweiger schweigers
+63	9863	Gemisch	gemisch gemische gemisches gemischen
+64	9864	Exponat	exponate exponaten exponat
+65	9865	altmodisch	altmodisch altmodischen altmodische altmodisches altmodischer
+66	9866	eliminieren	eliminieren eliminiert eliminierte
+67	9867	beängstigend	beängstigend beängstigende beängstigenden beängstigender beängstigendes
+68	9868	Reinhardt	reinhardt reinhardts
+69	9869	Volksrepublik	volksrepublik volksrepubliken
+70	9870	Silbe	silbe silben
+71	9871	Profilbild	pb profilbild profilbilder
+72	9872	Rückschluss	rückschlüsse rückschluss
+73	9873	raven	raven rave rav raves
+74	9874	suspendieren	suspendiert suspendieren suspendierte suspendierten
+75	9875	besiegeln	besiegelt besiegeln besiegelte besiegelten
+76	9876	Spektakel	spektakel spektakels
+77	9877	Vokal	vokal vokale vokalen vokals
+78	9878	Sachbeschädigung	sachbeschädigung sachbeschädigungen
+79	9879	Einschnitt	einschnitt einschnitte einschnitten
+80	9880	Para	para paras
+81	9881	Lebensform	lebensformen lebensform
+82	9882	Karotte	karotten karotte
+83	9883	Nylon	nylon nylons
+84	9884	Augustus	augustus augusti
+85	9885	mithelfen	mithelfen mitgeholfen mitzuhelfen mithilft mithalf
+86	9886	verschlagen	verschlagen verschlägt verschlug verschlag verschlagenen verschlagene
+87	9887	Reichsbürger	reichsbürger reichsbürgern
+88	9888	Konstrukt	konstrukt konstrukte konstrukten konstrukts
+89	9889	panisch	panisch panische panischen panischer panisches
+90	9890	abstoßen	abstossend abstossen abstossende abstösst abzustossen abstossenden abstossender abstossendes abstoßend abstoßen
+91	9891	melancholisch	melancholisch melancholische melancholischen melancholischer melancholisches
+92	9892	animiert	animiert animierte animierten animierter animiertes
+93	9893	Sketch	sketch sketche sketchen sketches
+94	9894	bewirtschaften	bewirtschaftet bewirtschaften bewirtschafteten bewirtschaftete
+95	9895	Schwalbe	schwalbe schwalben schwalb
+96	9896	Konfession	konfession konfessionen
+97	9897	Mutation	mutation mutationen
+98	9898	Beweggrund	beweggründe beweggründen beweggrund
+99	9899	überbieten	überbieten überboten überbot überbietet
+100	9900	Farmer	farmer farmers farmern

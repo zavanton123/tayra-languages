@@ -1,0 +1,100 @@
+1	7701	begehren	begehren begehrten begehrte begehre begehrens begehr
+2	7702	Riegel	riegel riegeln riegelt riegels
+3	7703	Geschütz	geschütze geschütz geschützen geschützes
+4	7704	chaotisch	chaotisch chaotischen chaotische chaotischer chaotisches
+5	7705	Beilage	beilage beilagen
+6	7706	Palästinenser	palästinenser palästinensern pali palästinenserin
+7	7707	episch	epische episch epischen epischer episches
+8	7708	diagnostizieren	diagnostiziert diagnostizieren diagnostizierte diagnostizierten
+9	7709	zurückzahlen	zurückzahlen zurückgezahlt zurückzuzahlen zurückzahlt
+10	7710	untergeordnet	untergeordnete untergeordnet untergeordneten untergeordneter
+11	7711	nachgeben	nachgeben nachgegeben nachzugeben nachgibt nachgab nachgaben
+12	7712	mittelfristig	mittelfristig mittelfristige mittelfristigen mittelfristiges mittelfristiger
+13	7713	Krug	krug krüge krügen kruge
+14	7714	Landesamt	landesamt landesamtes landesamts landesämter
+15	7715	Tribut	tribut tribute
+16	7716	wahlberechtigt	wahlberechtigten wahlberechtigt wahlberechtigte
+17	7717	Knick	knick knicken knicks geknickt knickt knickte knicke geknickte geknickten
+18	7718	hemmen	hemmt hemmen gehemmt hemmer hemmende hemme hemmend hemmern hemmenden hemmte
+19	7719	verweilen	verweilen verweilt verweilte verweile verweilten
+20	7720	festlich	festlich festlichen festliche festliches festlicher festlichem
+21	7721	bezahlbar	bezahlbar bezahlbaren bezahlbare bezahlbarer bezahlbares bezahlbarem
+22	7722	Beschaffung	beschaffung beschaffungen
+23	7723	Repräsentant	repräsentanten repräsentant repräsentantin
+24	7724	Mentalität	mentalität mentalitäten
+25	7725	langweilen	langweilen langweilt langweile langweilte langweilst
+26	7726	Hochwasser	hochwasser hochwassers hochwassern
+27	7727	Urlauber	urlauber urlaubern urlauberin
+28	7728	Frechheit	frechheit frechheiten
+29	7729	Förderverein	förderverein fördervereins fördervereine
+30	7730	abwickeln	abgewickelt abwickeln abzuwickeln abwickelt abgewickelten
+31	7731	Gesichtspunkt	gesichtspunkten gesichtspunkt gesichtspunkte
+32	7732	Strophe	strophe strophen
+33	7733	modernisieren	modernisiert modernisieren modernisierte modernisierten modernisiertes
+34	7734	Newtonmeter	nm newtonmeter
+35	7735	Ried	ried rieder rieden riede riedern
+36	7736	Ausfahrt	ausfahrt ausfahrten
+37	7737	Police	police policen
+38	7738	gebürtig	gebürtige gebürtiger gebürtig gebürtigen
+39	7739	Oberschenkel	oberschenkel oberschenkeln oberschenkels
+40	7740	vorweisen	vorweisen vorzuweisen vorweist
+41	7741	Masche	masche maschen
+42	7742	Ebert	ebert eberts
+43	7743	Vorort	vorort vororte vororten vororts
+44	7744	unerheblich	unerheblich unerheblichen unerhebliche unerheblicher unerhebliches unerheblichem
+45	7745	asozial	asozial asoziale asozialen asoziales asozialer asso
+46	7746	verdrängen	verdrängen verdrängte verdrängten verdränge
+47	7747	lockern	lockern gelockert lockert lockerte lockere gelockerten lockerten
+48	7748	Dekan	dekan dekanin dekans dekane
+49	7749	Ferienwohnung	ferienwohnungen ferienwohnung
+50	7750	persisch	persischen persische persisch persischer persisches
+51	7751	Fink	fink finken finks
+52	7752	kontrovers	kontrovers kontroversen kontroverser kontroverses
+53	7753	Stier	stier stiere stieren stiers stieres
+54	7754	Sprichwort	sprichwort sprichwörter sprichwörtern sprichworte
+55	7755	Gewürz	gewürze gewürzen gewürz
+56	7756	Rückmeldung	rückmeldung rückmeldungen
+57	7757	Meilenstein	meilenstein meilensteine meilensteinen
+58	7758	verbannt	verbannt verbannte verbannten
+59	7759	Piano	piano pianos
+60	7760	Ungleichheit	ungleichheit ungleichheiten
+61	7761	Gitarrist	gitarrist gitarristen gitarristin
+62	7762	beißen	beissen gebissen bisse beißen biße
+63	7763	aufwärts	aufwärts
+64	7764	Boeing	boeing
+65	7765	Demenz	demenz
+66	7766	Grippe	grippe
+67	7767	Groko	groko
+68	7768	herab	herab
+69	7769	Karlsruher	karlsruher
+70	7770	Koma	koma
+71	7771	meinetwegen	meinetwegen
+72	7772	Pedro	pedro
+73	7773	Psyche	psyche
+74	7774	Päckchen	päckchen
+75	7775	rückgängig	rückgängig
+76	7776	Schinken	schinken
+77	7777	sic	sic
+78	7778	Sklaverei	sklaverei
+79	7779	Speck	speck
+80	7780	Vermeidung	vermeidung
+81	7781	vierzehn	vierzehn
+82	7782	weiters	weiters
+83	7783	zugute	zugute
+84	7784	fackeln	fackeln fackel fackelt gefackelt
+85	7785	Grande	grande granden
+86	7786	tolerieren	toleriert tolerieren toleriere tolerierte tolerierten
+87	7787	Vernetzung	vernetzung vernetzungen
+88	7788	freiheitlich	freiheitlichen freiheitliche freiheitlich freiheitlicher freiheitliches
+89	7789	Zentralbank	zentralbank zentralbanken
+90	7790	Phrase	phrasen phrase
+91	7791	Gutachter	gutachter gutachtern gutachters gutachterin
+92	7792	einfrieren	einfrieren eingefroren einzufrieren einfriert eingefrorenen eingefrorene
+93	7793	hinzukommen	hinzukommen hinzugekommen hinzukommt hinzugekommenen hinzukam hinzukamen
+94	7794	Schwimmer	schwimmer schwimmerin schwimmern schwimmers
+95	7795	Fels	fels felsens
+96	7796	Schwan	schwan schwäne schwant schwänen schwanen schwans schwante
+97	7797	Panther	panther panthers panthern
+98	7798	Vollidiot	vollidiot vollidioten
+99	7799	antik	antiker antik antikes antiken antikem
+100	7800	erfrischend	erfrischend erfrischende erfrischenden erfrischendes erfrischender

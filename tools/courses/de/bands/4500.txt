@@ -1,0 +1,100 @@
+1	4401	Kraftwerk	kraftwerk kraftwerke kraftwerken kraftwerks kraftwerkes
+2	4402	Zettel	zettel zetteln zettelchen zettels zettelt
+3	4403	begraben	begraben begrub begräbt begruben begrabenen begrabt begrabene
+4	4404	Arbeitszeit	arbeitszeit arbeitszeiten
+5	4405	farbig	farbigen farbige farbig farbiger farbiges farbigem
+6	4406	legendär	legendären legendäre legendär legendärer legendäres legendärsten legendärem
+7	4407	Kamerad	kameraden kamerad kameradin
+8	4408	grinsen	grinsen grinst grinsend grinste grins grinse gegrinst grinsenden grinsende
+9	4409	gefertigt	gefertigt gefertigte gefertigten gefertigtes gefertigter
+10	4410	überraschen	überraschen überraschte überrasche überraschten überrasch überraschst
+11	4411	einschließen	eingeschlossen einschliessen einschliesst eingeschlossene einschloss einzuschliessen einschließen einschließt einzuschließen
+12	4412	minimal	minimal minimale minimalen minimaler minimalem minimales
+13	4413	Zeitalter	zeitalter zeitalters zeitaltern
+14	4414	Bezahlung	bezahlung bezahlungen
+15	4415	Landesregierung	landesregierung landesregierungen
+16	4416	Abhängigkeit	abhängigkeit abhängigkeiten
+17	4417	krachen	krachen krach kracht krachte gekracht krachend krachten krachenden krachende
+18	4418	vorbehalten	vorbehalten vorbehalte vorbehaltenen vorbehaltene vorbehält
+19	4419	verkündet	verkündet verkündete verkündeten
+20	4420	Mediziner	mediziner medizinern medizinerin mediziners
+21	4421	verschlossen	verschlossen verschlossenen verschlossene verschlossener verschlossenes
+22	4422	Differenz	differenz differenzen
+23	4423	herkommen	herkommen herkommt hergekommen herkomme herkommst herkam herkamen herzukommen herkommend
+24	4424	frech	frech frechen freche frecher freches
+25	4425	Kerze	kerzen kerze
+26	4426	Rückzug	rückzug rückzugs rückzuges
+27	4427	Jungfrau	jungfrau jungfrauen
+28	4428	Marathon	marathon marathons
+29	4429	Schuljahr	schuljahr schuljahres schuljahre schuljahren schuljahrs
+30	4430	Verbündete	verbündeten verbündete verbündeter
+31	4431	Achse	achse achsen
+32	4432	Fakultät	fakultät fakultäten
+33	4433	auflösen	auflösen aufzulösen auflöst auflöste auflösenden auflösten auflöse
+34	4434	Abzug	abzug abzüge abzügen abzugs
+35	4435	ausbrechen	ausgebrochen ausbrechen ausbricht ausbrach auszubrechen ausgebrochenen ausgebrochene ausbrachen ausbrechenden ausbrecher
+36	4436	dämlich	dämlich dämliche dämlichen dämlicher dämliches dämlichste dämlichsten
+37	4437	Philosoph	philosophen philosoph philosophin
+38	4438	losgehen	losgehen losgeht losgegangen losging loszugehen losgingen
+39	4439	Vorname	vornamen vorname vornamens
+40	4440	Genre	genre genres
+41	4441	Digitalisierung	digitalisierung
+42	4442	DNA	dna
+43	4443	Dunkelheit	dunkelheit
+44	4444	ey	ey
+45	4445	herunter	herunter
+46	4446	Ig	ig
+47	4447	Kapitalismus	kapitalismus
+48	4448	Kürze	kürze
+49	4449	Vernunft	vernunft
+50	4450	Antrieb	antrieb antriebe antriebs antrieben antriebes
+51	4451	Demokrat	demokraten demokrat demokratin
+52	4452	vorgeschrieben	vorgeschrieben vorgeschriebenen vorgeschriebene vorgeschriebener vorgeschriebenes
+53	4453	Flüssigkeit	flüssigkeit flüssigkeiten
+54	4454	besetzen	besetzen besetzten besetzte besetzenden besetze
+55	4455	Zweig	zweig zweige zweigen zweigt zweiges zweigs zweigte
+56	4456	beleidigen	beleidigen beleidigend beleidigst beleidige beleidigte beleidigten
+57	4457	manipulieren	manipuliert manipulieren manipulierte manipulierten manipulierter manipuliere
+58	4458	versichern	versichern versicherte versicherten versichere
+59	4459	physikalisch	physikalische physikalischen physikalisch physikalischer physikalisches
+60	4460	Store	store stores
+61	4461	Abt	abt äbtissin abtes äbte abts äbten
+62	4462	erstaunen	erstaunt erstaunen erstaunte erstaunten erstaunter erstauntes
+63	4463	Viertelfinale	viertelfinale viertelfinal viertelfinales
+64	4464	Hülle	hülle hüllen gehüllt hüllt hüllte hüllten hüll gehüllten
+65	4465	zeitgenössisch	zeitgenössischen zeitgenössische zeitgenössischer zeitgenössisch zeitgenössisches zeitgenössischem
+66	4466	sofortig	sofortige sofortigen sofortiger sofortiges sofortigem
+67	4467	Gift	gift gifte giften gifts giftes
+68	4468	faszinierend	faszinierend faszinierende faszinierenden faszinierendes faszinierender faszinierendsten faszinierendste
+69	4469	genetisch	genetische genetisch genetischen genetischer genetisches
+70	4470	Neonazi	neonazis neonazi
+71	4471	subjektiv	subjektive subjektiv subjektiven subjektiver subjektives
+72	4472	Hauptmann	hauptmann hauptmanns hauptleute
+73	4473	überfordern	überfordert überfordern überforderte überforderten überforderter
+74	4474	Kommandant	kommandant kommandanten
+75	4475	Flecken	flecken gefleckt gefleckte gefleckten fleckens
+76	4476	anspruchsvoll	anspruchsvolle anspruchsvoll anspruchsvollen anspruchsvoller anspruchsvolles anspruchsvollere anspruchsvolleren anspruchsvollsten anspruchsvollste anspruchsvollem
+77	4477	Sanierung	sanierung sanierungen
+78	4478	anstehen	anstehenden anstehen anstehende ansteht angestanden anstanden anstehender anstehendes
+79	4479	konstruktiv	konstruktive konstruktiv konstruktiven konstruktiver konstruktives konstruktivem
+80	4480	Grieche	griechen grieche
+81	4481	Betrachtung	betrachtung betrachtungen
+82	4482	Cola	cola colas
+83	4483	checken	checken gecheckt checkt checke checkst checkte
+84	4484	Islamist	islamisten islamist
+85	4485	Migration	migration migrationen
+86	4486	Uniform	uniform uniformen
+87	4487	Obergeschoss	og obergeschoss obergeschosses obergeschossen obergeschosse obergeschoß obergeschoßes obergeschoßen obergeschoße
+88	4488	Sponsor	sponsoren sponsor sponsors sponsort
+89	4489	Szenario	szenario szenarien szenarios szenarium
+90	4490	Liebhaber	liebhaber liebhabern liebhaberin liebhabers
+91	4491	einschätzen	einschätzen eingeschätzt einzuschätzen einschätzt eingeschätzten einschätze einschätzte
+92	4492	schrauben	schrauben schraube geschraubt schraubt schraub schraubte schraubten schräubchen
+93	4493	umstellen	umgestellt umstellen umzustellen umstellt umstellte umstellten
+94	4494	weitermachen	weitermachen weiterzumachen weitergemacht weitermacht weitermache weitermachst
+95	4495	Vorsprung	vorsprung vorsprünge vorsprungs vorsprüngen
+96	4496	operativ	operative operativen operativ operativer operatives operativem
+97	4497	belohnen	belohnt belohnen belohnte belohne belohnten
+98	4498	verwirklichen	verwirklichen verwirklicht verwirklichte verwirklichten verwirkliche
+99	4499	Herausgeber	herausgeber herausgeberin herausgebers herausgebern
+100	4500	Musical	musical musicals

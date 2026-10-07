@@ -1,0 +1,100 @@
+1	5501	falten	falten gefaltet falte faltet falt faltete
+2	5502	jubeln	jubeln jubelt jubelte gejubelt jubelnd jubelten jubelnde jubelnden
+3	5503	Iris	iris irin
+4	5504	angestrebt	angestrebt angestrebten angestrebte angestrebtes angestrebter
+5	5505	zurückgreifen	zurückgreifen zurückgegriffen zurückzugreifen zurückgreift zurückgriff
+6	5506	Laie	laien laie
+7	5507	Kaufpreis	kaufpreis kp kaufpreises kaufpreise
+8	5508	entsorgen	entsorgen entsorgt entsorge entsorgte entsorgten
+9	5509	Intellektuelle	intellektuelle intellektuellen intellektueller intellektuellem
+10	5510	Spielplatz	spielplatz spielplätze spielplätzen spielplatzes
+11	5511	Inschrift	inschrift inschriften
+12	5512	Leber	leber lebern
+13	5513	beschaffen	beschaffen beschafft beschaffte beschafften beschaffe
+14	5514	beeinträchtigt	beeinträchtigt beeinträchtigte beeinträchtigten
+15	5515	erringen	erringen errungen errang errangen errungenen erringt errungene
+16	5516	Verfasser	verfasser verfassers verfasserin verfassern
+17	5517	Stockwerk	stockwerk stockwerke stockwerken stockwerks
+18	5518	Gasse	gasse gassen gässchen
+19	5519	platziert	platziert platzierte platzierten platzierter
+20	5520	verdrängt	verdrängt verdrängte verdrängten verdrängter
+21	5521	Kaninchen	kaninchen kaninchens kanin
+22	5522	Abwesenheit	abwesenheit abwesenheiten
+23	5523	Hai	hai haie haien hais
+24	5524	Spot	spot spots
+25	5525	Kram	kram krams kramm krame
+26	5526	Araber	araber arabern araberin
+27	5527	verpacken	verpackt verpacken verpackte verpackten verpacktes verpacke verpackter
+28	5528	Tonus	toni tonis tonus
+29	5529	Gesellschafter	gesellschafter gesellschaftern gesellschafterin gesellschafters
+30	5530	Aufsicht	aufsicht aufsichts
+31	5531	unverständlich	unverständlich unverständliche unverständlicher unverständliches unverständlichen
+32	5532	zuweisen	zugewiesen zuweisen zugewiesenen zuzuweisen zugewiesene zuweist zuwies
+33	5533	Kur	kur chur kuren
+34	5534	Hofer	hofer hofers
+35	5535	Nationalpark	nationalpark nationalparks
+36	5536	Rendite	rendite renditen
+37	5537	andeuten	angedeutet andeuten andeutet angedeuteten anzudeuten andeutete angedeuteter
+38	5538	Deckung	deckung deckungen
+39	5539	Härte	härte härten härtetest gehärtet härtet gehärteten gehärtete gehärtetem
+40	5540	Formular	formular formulare formularen formulars
+41	5541	Anleihe	anleihen anleihe
+42	5542	Westdeutscher	westdeutschen westdeutsche westdeutscher
+43	5543	Modul	modul module modulen moduls moduln
+44	5544	anschreiben	anschreiben angeschrieben anzuschreiben anschreibt angeschriebenen anschreibst
+45	5545	abgeleitet	abgeleitet abgeleitete abgeleiteten abgeleiteter abgeleitetes
+46	5546	verzeichnen	verzeichnen verzeichnete verzeichneten verzeichne
+47	5547	Stadium	stadium stadien stadiums
+48	5548	progressiv	progressive progressiven progressiv progressiver progressives
+49	5549	verdeckt	verdeckt verdeckte verdeckten verdeckter verdecktes
+50	5550	Button	button buttons
+51	5551	oberflächlich	oberflächlich oberflächliche oberflächlichen oberflächlicher oberflächliches
+52	5552	Esel	esel eseln esels eselin
+53	5553	attackieren	attackiert attackieren attackierte attackierten
+54	5554	Krankenversicherung	krankenversicherung krankenversicherungen
+55	5555	Bohne	bohnen bohne böhnchen
+56	5556	köstlich	köstlich köstliche köstlichen köstliches köstlicher köstlichem köstlichsten
+57	5557	schillern	schiller schillert schillern
+58	5558	eklig	eklig ekelig eklige ekligen ekliger ekliges ekligste
+59	5559	unterwerfen	unterworfen unterwerfen unterwirft unterwarf unterworfenen unterwarfen unterwerfe
+60	5560	Gürtel	gürtel gürtels gürteln
+61	5561	Mitgliedstaat	mitgliedstaaten mitgliedstaat mitgliedstaates mitgliedstaats
+62	5562	irisch	irischen irische irischer irisch irisches irischem
+63	5563	schimpfen	schimpfen schimpft schimpfte schimpf geschimpft schimpfe schimpften schimpfend schimpfst
+64	5564	Anreise	anreise angereist anreisen angereisten anreist anzureisen anreisenden anreisten anreiste
+65	5565	harmonisch	harmonisch harmonische harmonischen harmonisches harmonischer harmonischem
+66	5566	gruselig	gruselig gruselige gruseligen gruseliger gruseliges gruslig gruseligste gruseligsten
+67	5567	widerlegen	widerlegt widerlegen widerlegte widerlegten widerlege
+68	5568	umsteigen	umsteigen umstieg umgestiegen umzusteigen umsteiger umsteigt umstiegen
+69	5569	Segment	segment segmente segmenten segments
+70	5570	Gremium	gremien gremium gremiums
+71	5571	einordnen	einordnen einzuordnen eingeordnet einordnet
+72	5572	Abgrund	abgrund abgründe abgründen abgrunds
+73	5573	Autorität	autorität autoritäten authorität
+74	5574	Akzeptanz	akzeptanz
+75	5575	allesamt	allesamt
+76	5576	bravo	bravo
+77	5577	Cannabis	cannabis
+78	5578	Family	family
+79	5579	folglich	folglich
+80	5580	Kissen	kissen
+81	5581	Londoner	londoner
+82	5582	Pfosten	pfosten
+83	5583	Rechtsprechung	rechtsprechung
+84	5584	Ruhr	ruhr
+85	5585	rückwärts	rückwärts
+86	5586	Speed	speed
+87	5587	Naturschutz	naturschutz naturschutzes
+88	5588	aufdecken	aufgedeckt aufdecken aufzudecken aufdeckt aufgedeckten aufdeckte
+89	5589	heiter	heiter heitere heiterem heiteren heiteres heiterer
+90	5590	Todesfall	todesfälle todesfall todesfällen todesfalle todesfalls
+91	5591	flashen	flash geflasht flashen flasht
+92	5592	Grill	grill grills
+93	5593	Algorithmus	algorithmus algorithmen
+94	5594	Laser	laser lasern lasers gelasert
+95	5595	auswerten	ausgewertet auswerten auszuwerten auswertet ausgewerteten
+96	5596	irgendwelcher	irgendwelchen irgendwelcher irgendwelches irgendwelchem
+97	5597	Kurier	kurier kurieren kuriere kuriert kuriers
+98	5598	veraltet	veraltet veraltete veralteten veralteter veraltetes
+99	5599	verhängen	verhängt verhängen verhängte verhängten
+100	5600	Halbinsel	halbinsel halbinseln

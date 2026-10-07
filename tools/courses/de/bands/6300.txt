@@ -1,0 +1,100 @@
+1	6201	Lan	lan
+2	6202	Migrationshintergrund	migrationshintergrund
+3	6203	Pommes	pommes
+4	6204	Terrorismus	terrorismus
+5	6205	Wahlbeteiligung	wahlbeteiligung
+6	6206	Walker	walker
+7	6207	Wirksamkeit	wirksamkeit
+8	6208	Verhaftung	verhaftung verhaftungen
+9	6209	Thing	things thing
+10	6210	zurücklegen	zurückgelegt zurücklegen zurückzulegen zurücklegt zurücklegte zurücklegten
+11	6211	Schwager	schwager schwägerin schwagers schwäger
+12	6212	Betrüger	betrüger betrügern betrügerin betrügers
+13	6213	Cocktail	cocktail cocktails
+14	6214	Vogt	vogt vogts vögte vogtes vögten
+15	6215	Spaltung	spaltung spaltungen
+16	6216	bekleiden	bekleidet bekleidete bekleiden bekleideten
+17	6217	humanitär	humanitäre humanitären humanitärer humanitär humanitäres
+18	6218	eintragen	eintragen einzutragen einträgt eintrug eintrugen eintrage
+19	6219	regulieren	reguliert regulieren regulierten regulierte regulierend regulierende regulierter regulierenden
+20	6220	weiterleiten	weitergeleitet weiterleiten weiterzuleiten weiterleitet weiterleitete
+21	6221	Wertpapier	wp wertpapiere wertpapieren wertpapier wertpapiers
+22	6222	Newsletter	newsletter newsletters
+23	6223	fiktiv	fiktiven fiktive fiktiv fiktives fiktiver
+24	6224	Freundeskreis	freundeskreis freundeskreises freundeskreise freundeskreisen
+25	6225	Fahrbahn	fahrbahn fahrbahnen
+26	6226	Weiße	weisser weißer
+27	6227	bescheren	beschert bescheren bescherte bescherten
+28	6228	Biber	bieber biber bibern bibers
+29	6229	Kap	kap kaps
+30	6230	thematisch	thematisch thematische thematischen thematischer thematisches
+31	6231	Plage	plage plagen geplagt plagt geplagten plagte plagten
+32	6232	frustrieren	frustriert frustrierend frustrierte frustrierten frustrierter frustrieren
+33	6233	Öffnungszeit	öffnungszeiten öffnungszeit
+34	6234	Thriller	thriller thrillers thrillern
+35	6235	beträchtlich	beträchtlich beträchtliche beträchtlichen beträchtlicher beträchtliches beträchtlichem
+36	6236	Landesverband	landesverband landesverbandes landesverbände landesverbänden landesverbands
+37	6237	Beschränkung	beschränkung beschränkungen
+38	6238	unerwünscht	unerwünscht unerwünschte unerwünschten unerwünschter unerwünschtes
+39	6239	Indiz	indiz indizien indizes
+40	6240	Pfanne	pfanne pfannen pfännchen
+41	6241	Delegation	delegation delegationen
+42	6242	Bastard	bastard bastarde bastards bastarden
+43	6243	Vulkan	vulkan vulkane vulkans vulkanen
+44	6244	aufbringen	aufbringen aufzubringen aufbringt aufbrachte
+45	6245	unterdrückt	unterdrückt unterdrückten unterdrückte unterdrückter unterdrücktes
+46	6246	Vorsitz	vorsitz vorsitzes vorstandsvorsitz
+47	6247	zustehen	zusteht zustehen zustehenden zugestanden zustände zustehe zustanden zuständen zugestandenen
+48	6248	Dorn	dorn dornen dörner dorne dorns
+49	6249	Betreuer	betreuer betreuerin betreuern betreuers
+50	6250	Schüssel	schüssel schüsseln schüsselchen
+51	6251	Sozialist	sozialisten sozialist sozialistin
+52	6252	machbar	machbar machbare machbaren
+53	6253	Bauteil	bauteile bauteil bauteilen bauteils
+54	6254	Kappe	kappe kappen kapp gekappt kappt kappl käppchen
+55	6255	Gefährdung	gefährdung gefährdungen
+56	6256	Lebensweise	lebensweise lebensweisen
+57	6257	aufbewahrt	aufbewahrt aufbewahrte aufbewahrten
+58	6258	Räumlichkeit	räumlichkeiten räumlichkeit
+59	6259	empfehlenswert	empfehlenswert empfehlenswerte empfehlenswerter empfehlenswertes empfehlenswerten
+60	6260	Lake	lake laken
+61	6261	Manga	manga mangas
+62	6262	originell	originell originelle originellen origineller originelles originellsten originellste
+63	6263	trösten	trösten tröstet getröstet tröste tröstete tröstend tröstende tröstenden
+64	6264	einflussreich	einflussreiche einflussreichen einflussreichsten einflussreich einflussreicher einflussreichste einflussreiches einflussreichster
+65	6265	Mandant	mandanten mandant mandantin
+66	6266	Holm	holmes holm holme holms holmen
+67	6267	Doctor	doctor doctors
+68	6268	Konzeption	konzeption konzeptionen
+69	6269	Vorstandsmitglied	vorstandsmitglied vorstandsmitglieder vorstandsmitgliedern vorstandsmitglieds
+70	6270	abstellen	abstellen abzustellen abstellt abstellte
+71	6271	Corps	corps korps
+72	6272	Familienmitglied	familienmitglieder familienmitglied familienmitgliedern familienmitglieds
+73	6273	Redner	redner rednern rednerin redners
+74	6274	Allgemeinzustand	az allgemeinzustand
+75	6275	Schnitzel	schnitzel schnitzeln schnitzels
+76	6276	erstere	erstere ersteres ersteren ersterer ersterem
+77	6277	erforscht	erforscht erforschte erforschten
+78	6278	Drang	drang dränge
+79	6279	Bekanntschaft	bekanntschaft bekanntschaften
+80	6280	BH	bh bhs
+81	6281	Handtasche	handtasche handtaschen
+82	6282	Klimaanlage	klimaanlage klimaanlagen
+83	6283	Ziffer	ziffer ziffern
+84	6284	niesen	genossen niesen niest niese nies geniest nieste
+85	6285	fortführen	fortgeführt fortführen fortzuführen fortführt fortgeführten fortführte
+86	6286	Verwirrung	verwirrung verwirrungen
+87	6287	Gender	gender gendern gegendert gendert
+88	6288	Zugehörigkeit	zugehörigkeit zugehörigkeiten
+89	6289	Abriss	abriss abrisses abrisse abrissen abriß
+90	6290	Bäckerei	bäckerei bäckereien
+91	6291	erschwert	erschwert erschwerten erschwerte
+92	6292	Defizit	defizite defizit defiziten defizits
+93	6293	markant	markanten markante markant markanter markantes markantesten markantem markanteste
+94	6294	Router	router routern routers
+95	6295	Beitritt	beitritt beitritts
+96	6296	Mitmensch	mitmenschen mitmensch
+97	6297	aalen	aalen aal aale
+98	6298	fertigstellen	fertiggestellt fertiggestellten fertigstellen fertigzustellen
+99	6299	überregional	überregional überregionale überregionalen überregionaler überregionales
+100	6300	zurückhalten	zurückhalten zurückgehalten zurückzuhalten zurückhält zurückhielt zurückhielten

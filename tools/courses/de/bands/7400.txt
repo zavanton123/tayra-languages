@@ -1,0 +1,100 @@
+1	7301	Wasserfall	wasserfall wasserfälle wasserfällen wasserfalls
+2	7302	zieren	ziert zieren zier zierte geziert zierten
+3	7303	Auktion	auktion auktionen
+4	7304	fürchterlich	fürchterlich fürchterliche fürchterlichen fürchterliches fürchterlicher fürchterlichsten
+5	7305	neger	neger negern negerin negerlein negers
+6	7306	Gestein	gestein gesteine gesteinen gesteins
+7	7307	Geschäftsmodell	geschäftsmodell geschäftsmodelle geschäftsmodellen geschäftsmodells
+8	7308	exportieren	exportiert exportieren exportierte exportierten
+9	7309	eilig	eilig eilige eiligen eiliger
+10	7310	Kirsch	kirsch kirschen kirsche
+11	7311	Anekdote	anekdoten anekdote
+12	7312	Eid	eid eide eides eiden
+13	7313	Grant	grant grants
+14	7314	vermarkten	vermarktet vermarkten vermarktete vermarkteten
+15	7315	Stützpunkt	stützpunkt stützpunkte stützpunkten stützpunktes stützpunkts
+16	7316	Parfüm	parfüm parfum parfüms parfums
+17	7317	überholen	überholen überholte überholten überhole überholenden
+18	7318	provisorisch	provisorische provisorischen provisorisch provisorischer provisorisches
+19	7319	Blockade	blockade blockaden
+20	7320	Polizeibeamter	polizeibeamte polizeibeamten polizeibeamter polizeibeamtin
+21	7321	tatverdächtig	tatverdächtigen tatverdächtige tatverdächtiger tatverdächtig
+22	7322	Zeitplan	zeitplan zeitpläne zeitplans
+23	7323	bingen	bing bingen binge
+24	7324	praktiziert	praktiziert praktizierte praktizierten
+25	7325	anstecken	angesteckt anstecken anzustecken ansteckt
+26	7326	zurücknehmen	zurückgenommen zurücknehmen zurückzunehmen zurücknimmt zurückgenommenen
+27	7327	Moll	moll molle mulle mullen
+28	7328	weiterhelfen	weiterhelfen weiterhilft weitergeholfen weiterzuhelfen
+29	7329	Apartment	apartment apartments
+30	7330	monatelang	monatelang monatelangen monatelange monatelanger monatelangem
+31	7331	ankündigen	ankündigen ankündigt ankündigte anzukündigen ankündigten
+32	7332	ungewohnt	ungewohnt ungewohnten ungewohnte ungewohnter ungewohntes
+33	7333	Legislaturperiode	legislaturperiode legislaturperioden
+34	7334	Schmiede	schmiede schmieden geschmiedet schmiedet schmiedete geschmiedeten schmiedeten schmiedt
+35	7335	Raumschiff	raumschiff raumschiffe raumschiffs raumschiffen raumschiffes
+36	7336	englischsprachig	englischsprachigen englischsprachige englischsprachiger englischsprachiges englischsprachig
+37	7337	botanisch	botanischen botanische botanischer botanisch botanisches
+38	7338	Resonanz	resonanz resonanzen
+39	7339	Wächter	wächter wächtern wächters wächterin
+40	7340	Pfarrkirche	pfarrkirche pfarrkirchen
+41	7341	Tiefgarage	tg tiefgarage tiefgaragen
+42	7342	Winterspiele	winterspiele winterspielen
+43	7343	Bestrafung	bestrafung bestrafungen
+44	7344	durchkommen	durchkommen durchgekommen durchkommt durchzukommen durchkam
+45	7345	ultimativ	ultimative ultimativen ultimativ ultimativer ultimatives
+46	7346	pennen	penn pennen gepennt penne pennt pennst
+47	7347	Airbus	airbus
+48	7348	anderthalb	anderthalb
+49	7349	anno	anno
+50	7350	Beliebtheit	beliebtheit
+51	7351	Döner	döner
+52	7352	Einwanderung	einwanderung
+53	7353	fiat	fiat
+54	7354	Inklusion	inklusion
+55	7355	inter	inter
+56	7356	Leichtathletik	leichtathletik
+57	7357	vorüber	vorüber
+58	7358	wayne	wayne
+59	7359	Aggression	aggression aggressionen
+60	7360	Ortszeit	oz ortszeit
+61	7361	Parole	parolen parole
+62	7362	Grenzwert	grenzwerte grenzwert grenzwerten grenzwertes
+63	7363	bedrohlich	bedrohlich bedrohliche bedrohlichen bedrohlicher bedrohliches
+64	7364	Einfamilienhaus	einfamilienhaus einfamilienhäuser einfamilienhäusern einfamilienhauses
+65	7365	benachteiligt	benachteiligt benachteiligten benachteiligte benachteiligter
+66	7366	Zusammenstellung	zusammenstellung zusammenstellungen
+67	7367	Simulation	simulation simulationen
+68	7368	Besichtigung	besichtigung besichtigungen
+69	7369	Lupe	lupe lupen
+70	7370	Kalb	kalb kälber kalbe kälbern kälbchen kalben kalbs kalbes
+71	7371	Appell	appell appelle appellen appells
+72	7372	Verräter	verräter verrätern verräterin verräters
+73	7373	ausspielen	ausgespielt ausspielen auszuspielen ausspielt ausgespielten ausspielte
+74	7374	Break	break breaks
+75	7375	Bahnsteig	bahnsteig bahnsteige bahnsteigen bahnsteigs
+76	7376	verschweigen	verschweigen verschweigt verschwieg verschweige verschweigst
+77	7377	angespannt	angespannt angespannten angespannte angespannter angespanntes
+78	7378	Einbau	einbau einbauten einbaus
+79	7379	Eile	eile eil
+80	7380	Geleit	geleiteten geleitete geleit geleitet geleiten geleite geleitetes
+81	7381	Fragebogen	fragebogen fragebögen fragebogens
+82	7382	Desaster	desaster disaster desasters
+83	7383	Pädagoge	pädagogen pädagoge pädagogin pädagoginnen
+84	7384	Aufbruch	aufbruch aufbruchs aufbrüche
+85	7385	Apostel	apostel aposteln apostels
+86	7386	Ablenkung	ablenkung ablenkungen
+87	7387	limitieren	limitiert limitierte limitierten limitieren limitierter limitiertes limitierende
+88	7388	Provokation	provokation provokationen
+89	7389	Beeinträchtigung	beeinträchtigung beeinträchtigungen
+90	7390	Anfall	anfall anfälle anfällen anfalls
+91	7391	läuten	läuten läutet läutete geläutet läuteten läute
+92	7392	entsenden	entsandt entsenden entsendet entsandte entsandten entsendete
+93	7393	Manier	manier manieren
+94	7394	Facharzt	facharzt fachärzte fachärztin fachärzten
+95	7395	Überschuss	überschuss überschüsse überschüssen überschusses überschüßen
+96	7396	durchgängig	durchgängig durchgängige durchgängigen durchgängiger durchgängiges
+97	7397	Weizen	weizen weizens
+98	7398	finster	finster finsteren finstere finsterer finsteres finstersten
+99	7399	ungültig	ungültig ungültige ungültigen ungültiger
+100	7400	Jugendamt	jugendamt jugendämter jugendamtes jugendamts jugendämtern

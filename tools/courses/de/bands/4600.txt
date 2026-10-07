@@ -1,0 +1,100 @@
+1	4501	klopfen	klopfen klopft klopfte klopf geklopft klopfer klopfe klopften
+2	4502	Wohnhaus	wohnhaus wohnhäuser wohnhäusern wohnhauses
+3	4503	Dialekt	dialekt dialekte dialekten dialekts dialektes
+4	4504	Grundrecht	grundrechte grundrecht grundrechten grundrechts
+5	4505	circa	circa
+6	4506	einigermaßen	einigermassen einigermaßen
+7	4507	Energiewende	energiewende
+8	4508	garnicht	garnicht
+9	4509	Knast	knast
+10	4510	Kälte	kälte
+11	4511	Mitternacht	mitternacht
+12	4512	Rache	rache
+13	4513	Transparenz	transparenz
+14	4514	weitaus	weitaus
+15	4515	Pension	pension pensionen
+16	4516	protestieren	protestieren protestiert protestierte protestierten protestierenden protestiere
+17	4517	Dose	dose dosen döschen
+18	4518	Bundesamt	bundesamt bundesamtes bundesamts
+19	4519	Ankündigung	ankündigung ankündigungen
+20	4520	Style	style styles
+21	4521	revolutionär	revolutionäre revolutionären revolutionär revolutionärer revolutionäres revolutionärs revolutionärin
+22	4522	theologisch	theologischen theologische theologisch theologischer theologisches
+23	4523	schmelzen	schmelzen schmilzt geschmolzen schmelze schmelz schmolz geschmolzene geschmolzenen geschmolzener schmolzen
+24	4524	Landtagswahl	landtagswahl landtagswahlen
+25	4525	Rucksack	rucksack rucksäcke rucksäcken rucksacks
+26	4526	Saft	saft säfte säften saftes
+27	4527	freigeben	freigegeben freigeben freizugeben freigibt freigegebenen freigegebene freigab freigaben
+28	4528	durchsuchen	durchsucht durchsuchen durchsuchten durchsuchte durchsuche
+29	4529	Amtszeit	amtszeit amtszeiten
+30	4530	Regal	regal regale regalen regalien regals
+31	4531	winken	winkt winken wink winke winkte winkten gewunken winkend gewinkt
+32	4532	Takt	takt takte takten getaktet taktes getakteten takts
+33	4533	durchgehend	durchgehend durchgehende durchgehenden durchgehender durchgehendes durchgehendem
+34	4534	Schiedsrichter	schiedsrichter schiri schiedsrichtern schiedsrichters schiedsrichterin
+35	4535	Korn	korn körner körnchen körnern korns körners
+36	4536	Wanderung	wanderung wanderungen
+37	4537	Fachhochschule	fh fachhochschule fachhochschulen
+38	4538	servieren	serviert servieren servierte serviere servierten servier
+39	4539	Krimi	krimi krimis
+40	4540	Mahlzeit	mahlzeit mahlzeiten
+41	4541	zurückkommen	zurückkommen zurückgekommen zurückzukommen zurückkam zurückkommt zurückkamen zurückkomme zurückkommst
+42	4542	Spanier	spanier spaniern spanierin spaniers
+43	4543	Mönch	mönch mönche mönchen mönchs mönches
+44	4544	aufgehen	aufgegangen aufgehen aufgeht aufging aufzugehen aufgingen aufgegangenen
+45	4545	angeführt	angeführt angeführten angeführte
+46	4546	hervorgehen	hervorgegangen hervorgeht hervorgehen hervorging hervorgegangenen hervorgegangene hervorgingen hervorzugehen hervorgehenden hervorgehe
+47	4547	provozieren	provozieren provoziert provozierte provozierend provozierende provozierten provozierenden provozierst provoziere
+48	4548	Segen	segen segens
+49	4549	Instanz	instanz instanzen
+50	4550	Rohstoff	rohstoffe rohstoff rohstoffen rohstoffs rohstoffes
+51	4551	wegnehmen	wegnehmen weggenommen wegzunehmen wegnimmt wegnahm wegnimmst wegnehme
+52	4552	Screenshot	screenshot screen screenshots
+53	4553	vortragen	vorgetragen vortragen vorgetragenen vorzutragen vorgetragene vortrug vorträgt vortragenden vortrugen vorgetragener
+54	4554	winzig	winzigen winzige winzig winziges winziger winzigste
+55	4555	Pariser	pariser pariserin
+56	4556	Kalenderwoche	kw kalenderwoche kalenderwochen
+57	4557	Stab	stab stäbchen stäbe stabes stäben stabs stabe
+58	4558	Dosis	dosis dosen
+59	4559	Spaziergang	spaziergang spaziergänge spaziergängen spaziergangs
+60	4560	Eishockey	eishockey eishockeys
+61	4561	Ampel	ampel ampeln
+62	4562	Dietrich	dietrich dietrichs
+63	4563	Besserung	besserung besserungen
+64	4564	prinzipiell	prinzipiell prinzipielle prinzipiellen prinzipielles prinzipieller
+65	4565	nervig	nervig nervige nervigen nerviger nerviges nervigste nervigsten
+66	4566	vereinfachen	vereinfacht vereinfachen vereinfachte vereinfachten vereinfachtes vereinfachend vereinfachter vereinfachende
+67	4567	vertreiben	vertreiben vertreibt vertreibe vertreib vertriebe
+68	4568	Ladung	ladung ladungen
+69	4569	andauernd	andauernd andauernden andauernde andauernder andauerndes andauerndem
+70	4570	Kreuzung	kreuzung kreuzungen
+71	4571	Puppe	puppe puppen püppchen pupp
+72	4572	spazieren	spazieren spaziert spazierte spazierten spazier spaziere
+73	4573	allmählich	allmählich allmähliche allmählichen allmählicher
+74	4574	verzeichnet	verzeichnet verzeichnete verzeichneten
+75	4575	vereinzelt	vereinzelt vereinzelte vereinzelten vereinzelter
+76	4576	Übersetzer	übersetzer übersetzerin übersetzern übersetzers
+77	4577	übergehen	übergehen übergegangen übergeht übergangen überging überzugehen übergingen übergehe übergehenden übergehend
+78	4578	Mars	mars
+79	4579	minus	minus
+80	4580	vereinigen	vereinigten vereinigen vereinigte
+81	4581	Vermittlung	vermittlung vermittlungen
+82	4582	konfrontieren	konfrontiert konfrontieren konfrontierte konfrontierten
+83	4583	Reparatur	reparatur reparaturen
+84	4584	empfindlich	empfindlich empfindliche empfindlichen empfindlicher empfindliches empfindlichsten empfindlichste
+85	4585	Plastik	plastik plastiken
+86	4586	Os	os ora oser ossa
+87	4587	Verteidiger	verteidiger verteidigers verteidigern verteidigerin
+88	4588	Anleger	anleger anlegern anlegers
+89	4589	Player	player players playern
+90	4590	feierlich	feierlich feierlichen feierliche feierlicher feierliches feierlichem
+91	4591	zurückgeben	zurückgeben zurückgegeben zurückzugeben zurückgibt zurückgab
+92	4592	Abfall	abfall abfälle abfällen abfalls
+93	4593	Schäfer	schäfer schaefer schäfers schäferin schäfern
+94	4594	Anbau	anbau anbaus anbauten
+95	4595	Heimspiel	heimspiel heimspiele heimspielen
+96	4596	Vorurteil	vorurteile vorurteil vorurteilen vorurteils
+97	4597	befriedigen	befriedigen befriedigt befriedigend befriedigende befriedigenden befriedigte befriedigender befriedige befriedigendes
+98	4598	absichtlich	absichtlich absichtliche absichtlichen absichtliches absichtlicher
+99	4599	Gepäck	gepäck gepäcks
+100	4600	Referent	referent referenten referentin referentinnen

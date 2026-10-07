@@ -1,0 +1,100 @@
+1	201	stark	stark starke stärker starken starker starkes stärksten stärkste stärkere starkem
+2	202	Bild	bild bilder bildern bildes bilde bildchen bilds
+3	203	Woche	woche wochen
+4	204	etwa	etwa
+5	205	Problem	problem probleme problemen problems problemchen problemes
+6	206	jemand	jemand jemanden jemandem jemandes
+7	207	Name	namen name namens nahme
+8	208	Geld	geld gelder geldes geldern gelde
+9	209	sicher	sicher sichere sicherer sicheren sicheres sicherste sichersten sicherem sicherere sichereren
+10	210	kennen	kennen kennt kenne kannte kennst kenn kannten gekannt kanntest gekannten
+11	211	solch	solche solchen solcher solch solches solchem
+12	212	Spiel	spiel spiele spiels spielchen spieles
+13	213	zweite	zweiten zweite zweiter zweites zweitem
+14	214	paar	paar paare par pärchen paaren gepaart paares paart paars pärchens
+15	215	setzen	setzen setzt gesetzt setzte setzten setze setz gesetzten gesetzte gesetzter
+16	216	treffen	treffen trifft getroffen traf trafen treffe treffend triffst triff getroffenen
+17	217	Art	art arten arte geartete artet gearteten artes artete geartet geartetes
+18	218	früh	früher früh früheren frühen frühere frühe früherer frühesten frühes früheste
+19	219	davon	davon
+20	220	fast	fast
+21	221	bestehen	besteht bestehen bestand bestehenden bestehende bestanden bestehend bestehe bestände bestehens
+22	222	Arbeit	arbeit arbeits
+23	223	nein	nein nee nö nä neins
+24	224	zurück	zurück
+25	225	Person	person personen
+26	226	erhalten	erhalten erhält erhielt erhielten erhalt erhaltenen erhalte erhaltene erhältst erhaltet
+27	227	meinen	meinen meint meinte meinst gemeint meinten meintest gemeinte gemeinten gemeinter
+28	228	jedoch	jedoch
+29	229	zusammen	zusammen zsm
+30	230	gewinnen	gewinnen gewonnen gewinn gewinnt gewann gewinner gewinne gewannen gewonnenen gewonnene
+31	231	schaffen	schaffen geschafft schafft geschaffen schaffst schaffte schaffe schuf schaff geschaffenen
+32	232	ziehen	ziehen zieht zog gezogen zogen ziehe zieh ziehst gezogenen gezogene
+33	233	Stunde	stunden stunde stündchen stund stündlein gestundet
+34	234	schwer	schwer schwere schweren schwerer schwert schweres schwersten schwerste schwerter schwerem
+35	235	reden	reden rede red redet geredet redest redete redeten redens redenden
+36	236	versuchen	versucht versuchen versuche versuchte versuchten versuchst versuchter versuchtem
+37	237	frei	frei freien freie freier freies freiem freiern freiere freieren freiesten
+38	238	echt	echt echte echten echter echtes echtem
+39	239	möglich	möglich möglichen mögliche möglicher mögliches möglichem möglichstes möglichste
+40	240	Platz	platz plätze plätzen platzes plätzchen platze
+41	241	fragen	fragen gefragt fragt frag fragte fragst fragten fragend gefragter gefragte
+42	242	oft	oft öfter öftesten
+43	243	Junge	junge jungen jungs jungens
+44	244	sogar	sogar
+45	245	zwar	zwar
+46	246	Wort	wort worte worten wörter wortes wörtern wörtchen worts
+47	247	Geschichte	geschichte geschichten geschichtchen
+48	248	helfen	helfen hilft geholfen helfer half helft helfe hilf halfen hilfst
+49	249	gelten	gilt gelten galt geltend geltenden galten geltende gelte geltendes gegolten
+50	250	allerdings	allerdings
+51	251	Herr	herr herren herrn herrin herrchen herrinnen herrchens
+52	252	tragen	tragen trägt trug getragen träger trage trugen trägst trag tragende
+53	253	Thema	thema themen themas
+54	254	daran	daran dran
+55	255	kaufen	kaufen gekauft kauf kauft käufer kaufe kaufte kaufst kauften käufe
+56	256	Monat	monate monat monaten monats monates
+57	257	später	später
+58	258	Familie	familie familien
+59	259	gehören	gehört gehören gehörte gehörten gehöre gehör gehörst gehörenden gehörende gehörend
+60	260	bekannt	bekannt bekannten bekannte bekannter bekanntesten bekannteste bekanntes bekannteren bekanntem bekanntester
+61	261	allein	allein alleine
+62	262	eben	eben ebene ebenen ebner ebnen geebnet ebnet ebener ebnete ebenem
+63	263	morgen	morgen morgens
+64	264	Minute	minuten minute
+65	265	Grund	grund gründe grunde grundes grunds
+66	266	Schule	schule schulen schul schulung schulte geschult schulungen schult geschulten geschultes
+67	267	verschieden	verschiedenen verschiedene verschiedener verschieden verschiedensten verschiedenste verschiedenes verschiedenster verschiedenem
+68	268	rund	rund runde runden runder gerundet rundes rundet rundem rundete rundeten
+69	269	darüber	darüber drüber
+70	270	Liebe	liebe
+71	271	Hand	hand hände händen händchen
+72	272	Sache	sache sachen
+73	273	neben	neben
+74	274	statt	statt
+75	275	essen	essen gegessen isst esse iss ess essens esst essenden essend
+76	276	fallen	fällt fallen fiel fielen falle fallt fiele fallend fällst
+77	277	bestimmt	bestimmt bestimmte bestimmten bestimmter bestimmtes bestimmtem
+78	278	schlecht	schlecht schlechte schlechter schlechten schlechtes schlechteste schlechtesten schlechtem schlechtere schlechteren
+79	279	Unternehmen	unternehmen unternehmens unternommen unternimmt unternahm unternahmen unternehme unternimmst unternommenen unternommene
+80	280	voll	voll voller volle vollen vollem volles vollstes vollsten vollste vollster
+81	281	verlieren	verloren verlieren verliert verlor verlierer verlorenen verlorene verliere verlierst verlier
+82	282	direkt	direkt direkte direkten direkter direktem direktes direktere direkteren direkteste
+83	283	besonders	besonders
+84	284	ne	ne
+85	285	schauen	schauen schau schaut schaue geschaut schaute schaust schauer schauten schauern
+86	286	leicht	leicht leichter leichte leichten leichtes leichtem leichtere leichteren leichtesten leichteste
+87	287	vier	vier vierer vieren
+88	288	scheinen	scheint scheinen schien schein schienen scheine schiene scheinst scheins scheinenden
+89	289	Buch	buch bücher büchern buches buche buchs büchlein buchse buchsen
+90	290	hin	hin
+91	291	Ding	dinge ding dingen dinger dings dingern dingens dinges dang
+92	292	Ort	ort orte orten ortes orts örtchen geortet ortet
+93	293	einzig	einzige einzigen einzig einziger einziges einzigem
+94	294	sonst	sonst
+95	295	Film	film filme filmen films gefilmt filmt filmes filmchen filmte filmten
+96	296	Beispiel	beispiel beispiele beispielen beispiels
+97	297	erreichen	erreicht erreichen erreichte erreichten erreiche erreichst erreichenden erreich erreichtes erreichter
+98	298	politisch	politische politischen politisch politischer politisches politischem
+99	299	Euro	euro euros euronen
+100	300	Auto	auto autos

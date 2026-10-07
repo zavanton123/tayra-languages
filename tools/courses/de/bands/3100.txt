@@ -1,0 +1,100 @@
+1	3001	stellvertretend	stellvertretender stellvertretende stellvertretenden stellvertretend stellvertretendes
+2	3002	Treppe	treppe treppen treppchen
+3	3003	Gemüse	gemüse gemüsen gemüses
+4	3004	blockieren	blockiert blockieren blockierte blockierten blockiere blockierer blockier blockierst
+5	3005	Auszeichnung	auszeichnung auszeichnungen
+6	3006	Sorte	sorte sorten
+7	3007	Kongress	kongress kongresses kongresse kongressen kongreß
+8	3008	Pizza	pizza pizzen pizzas
+9	3009	Potenzial	potenzial potential potenziale potenzials potenzialen
+10	3010	Apfel	apfel äpfel appel äpfeln apfels
+11	3011	hilfreich	hilfreich hilfreiche hilfreicher hilfreichen hilfreiches
+12	3012	doof	doof doofe doofen doofer doofes
+13	3013	sanft	sanft sanfte sanften sanfter sanftes sanftem sanftere sanfteren
+14	3014	befreit	befreit befreite befreiten befreiter befreites
+15	3015	Bibel	bibel bibeln
+16	3016	verbreiten	verbreiten verbreitete verbreiteten verbreite verbreitest verbreiter verbreitenden
+17	3017	Käse	käse käses
+18	3018	bremsen	bremsen bremse bremst gebremst brems bremste bremser bremsten
+19	3019	Bachelor	bachelor bachelors
+20	3020	Klassiker	klassiker klassikern klassikers
+21	3021	zugelassen	zugelassen zugelassenen zugelassene zugelassener zugelassenes
+22	3022	Wahrscheinlichkeit	wahrscheinlichkeit wahrscheinlichkeiten
+23	3023	Ursprung	ursprung ursprungs ursprünge ursprüngen
+24	3024	Motivation	motivation motivationen
+25	3025	erobern	erobert erobern eroberte eroberten erobere
+26	3026	entwerfen	entworfen entwerfen entwarf entwirft entworfene entworfenen entwürfe entwarfen entwürfen entwerfe
+27	3027	überwinden	überwinden überwunden überwindet überwand überwinde überwanden überwundenen überwindende
+28	3028	Like	like likes
+29	3029	Vereinbarung	vereinbarung vereinbarungen vb
+30	3030	Einblick	einblick einblicke einblicken
+31	3031	erhältlich	erhältlich erhältlichen erhältliche erhältlicher
+32	3032	Gründer	gründer gründerin gründern gründers gründerinnen
+33	3033	außergewöhnlich	aussergewöhnlich aussergewöhnliche aussergewöhnlichen aussergewöhnliches aussergewöhnlicher aussergewöhnlichem aussergewöhnlichsten aussergewöhnlichste außergewöhnlich außergewöhnliche
+34	3034	Geschoss	geschossen geschoss geschosse geschosses geschossenen geschossene geschoßen geschoß geschoße geschoßes
+35	3035	Agentur	agentur agenturen
+36	3036	Bonus	bonus boni
+37	3037	aussuchen	aussuchen ausgesucht auszusuchen ausgesuchten aussucht ausgesuchter aussuchte aussuchst
+38	3038	anlegen	anlegen anzulegen anlegt anlegte anlegst anlegten anlege
+39	3039	Abstimmung	abstimmung abstimmungen
+40	3040	spezial	special spezial
+41	3041	Bewusstsein	bewusstsein bewusstseins bewußtseins
+42	3042	Comic	comic comics
+43	3043	festnehmen	festgenommen festnehmen festgenommenen festzunehmen festnahmen festgenommene festnahm festgenommener festnimmt
+44	3044	ausgerechnet	ausgerechnet
+45	3045	hinsichtlich	hinsichtlich
+46	3046	Hitze	hitze
+47	3047	Physik	physik
+48	3048	Spö	spö
+49	3049	umsonst	umsonst
+50	3050	wovon	wovon
+51	3051	Kabel	kabel kabeln kabels
+52	3052	Wolke	wolken wolke wölkchen
+53	3053	Skandal	skandal skandale skandals skandalen
+54	3054	optimal	optimal optimale optimalen optimaler optimales optimalem
+55	3055	Onkel	onkel onkels onkeln
+56	3056	Hütte	hütte hütten hüttchen
+57	3057	edel	edle edlen edel edler edles edlem edelsten edelste edele edleren
+58	3058	gebunden	gebunden gebundene gebundenen gebundenes gebundener gebundenem
+59	3059	Notfall	notfall notfalls notfälle notfällen
+60	3060	erfunden	erfunden erfundene erfundenen erfundenes erfundener
+61	3061	erzeugen	erzeugen erzeugten erzeugte erzeuge erzeugenden erzeugende
+62	3062	Erzählung	erzählung erzählungen
+63	3063	Kommune	kommunen kommune
+64	3064	absetzen	abgesetzt absetzen abzusetzen abgesetzten absetzt absetzte absetzten abgesetzter abgesetztem
+65	3065	Motorrad	motorrad motorräder motorrädern motorrads motorrades
+66	3066	faul	faul faulen faule fauler faules fault faulste
+67	3067	demonstrieren	demonstrieren demonstriert demonstrierten demonstrierte demonstrierenden demonstriere
+68	3068	Ernte	ernte ernten geerntet erntet erntete ernteten geernteten geerntete
+69	3069	biologisch	biologische biologischen biologisch biologischer biologisches biologischem
+70	3070	begreifen	begreifen begreift begriffe begriffen begreife begreifst begreif begriffenen begriffene
+71	3071	münzen	münzen münze münz münzer gemünzt
+72	3072	Affäre	affäre affären
+73	3073	putzen	putzen putz geputzt putzt putze putzte putzer geputzten butzen putzes
+74	3074	Maler	maler malers malerin malern malerinnen
+75	3075	Pfalz	pfalz pfalzen
+76	3076	kürzlich	kürzlich kürzlichen kürzliche
+77	3077	erleiden	erlitten erlitt erleiden erleidet erleide
+78	3078	mobil	mobil mobilen mobiler mobiles mobilem
+79	3079	Oper	oper opern
+80	3080	Phänomen	phänomen phänomene phänomenen phänomens
+81	3081	gefährdet	gefährdet gefährdeten gefährdete gefährdeter
+82	3082	Quatsch	quatsch quatsche
+83	3083	fantastisch	fantastisch fantastische fantastischen phantastisch fantastisches fantastischer
+84	3084	Bewerbung	bewerbung bewerbungen
+85	3085	bitter	bitter bittere bitteren bitterer bitteres bitterem bitterste bittersten bittre
+86	3086	übersehen	übersehen übersieht übersah übersehe übersahen übersiehst übersäht übersehene
+87	3087	korrigieren	korrigiert korrigieren korrigierte korrigiere korrigierten korrigierende korrigier korrigierend
+88	3088	gönnen	gönnen gegönnt gönnt gönne gönn gönner gönnte gönnst gönnten
+89	3089	anlässlich	anlässlich anläßlich
+90	3090	einander	einander
+91	3091	Mercedes	mercedes
+92	3092	beinhalten	beinhaltet beinhalten beinhaltete beinhalteten beinhalte
+93	3093	jugendlich	jugendliche jugendlichen jugendlich jugendliches jugendlichem
+94	3094	anonym	anonym anonymen anonyme anonymer anonymes
+95	3095	strategisch	strategische strategischen strategisch strategischer strategisches strategischem
+96	3096	beeindruckend	beeindruckend beeindruckende beeindruckenden beeindruckender beeindruckendes beeindruckendsten beeindruckendste
+97	3097	Ausstattung	ausstattung ausstattungen
+98	3098	Königreich	königreich königreichs königreiche königreiches königreichen
+99	3099	Friedhof	friedhof friedhöfe friedhofs friedhöfen friedhofes
+100	3100	Abschied	abschied abschieds abschiede

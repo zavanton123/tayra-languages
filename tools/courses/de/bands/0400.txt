@@ -1,0 +1,100 @@
+1	301	erklären	erklärt erklären erklärte erkläre erklärten erklär erklärst erklärtes erklärter erklärenden
+2	302	lernen	lernen gelernt lernt lernte lerne lern lernst lernten gelernte lernens
+3	303	Abend	abend abends abende abenden
+4	304	stimmen	stimmt stimmen stimmte gestimmt stimmten stimm stimmst gestimmten stimmenden
+5	305	beginnen	beginnt begann beginnen begonnen begannen beginnend beginne beginnst
+6	306	Gruppe	gruppe gruppen grüppchen grupp
+7	307	passen	passt passen pass passend passende passenden passte pässe gepasst passe
+8	308	jung	jung junge junger jungen jüngeren jünger jungs jüngere jüngsten jüngste
+9	309	entscheiden	entscheiden entschieden entscheidet entscheidend entschied entscheidende entscheidenden entscheide entscheidender entscheidest
+10	310	Gott	gott gottes götter göttin göttern göttinnen gotts gotte gotten
+11	311	Auge	augen auge aug auges äuglein
+12	312	je	je
+13	313	toll	toll tolle tollen tolles toller dolle tollste tollsten tollem tollere
+14	314	mehrere	mehrere mehreren mehrerer
+15	315	Polizei	polizei polizeien
+16	316	deshalb	deshalb
+17	317	Nacht	nacht nächte nächten
+18	318	nutzen	nutzen genutzt nutzt nutze nutzte nutzten nützen genutzten genutzte nutz
+19	319	deutlich	deutlich deutliche deutlicher deutlichen deutliches deutlichsten deutlichem deutlichere deutlichste deutlicheren
+20	320	legen	legen legt legte gelegt lege leg legten legst legend gelegten
+21	321	Punkt	punkt punkte punkten punktet pünktchen punktes gepunktet punktete gepunkteten gepunktete
+22	322	schwarz	schwarz schwarze schwarzen schwarzer schwarzes schwarzem schwärzer schwärzesten schwärzeste
+23	323	Straße	strasse strassen straße straßen
+24	324	bieten	bietet bieten bot geboten biete boten bots gebotenen gebotene bietenden
+25	325	außerdem	ausserdem außerdem
+26	326	leider	leider
+27	327	online	online
+28	328	wählen	wählen gewählt wählt gewählten wähle wählte gewählte wählten gewählter wählst
+29	329	fühlen	fühlen fühlt fühle gefühlt fühlte fühl fühlst fühlten gefühlten gefühlter
+30	330	Wert	wert werte werten gewertet wertet wertes wertete werter werts werteten
+31	331	Kopf	kopf köpfe köpfen kopp kopfes köpfchen geköpft köpft köppen kopfe
+32	332	aktuell	aktuell aktuelle aktuellen aktueller aktuelles aktuellem aktuellsten aktuellste aktuellere aktuelleren
+33	333	daher	daher
+34	334	kaum	kaum
+35	335	kosten	kosten kostet gekostet kostete kost koste kosteten kostest
+36	336	sorgen	sorgen sorge sorgt gesorgt sorgte sorgten sorg sorgst sorgende
+37	337	Anfang	anfang anfangs anfänge anfängen anfange
+38	338	grün	grünen grüne grün grüner grünes grünem grünt grüns
+39	339	halt	halt halts
+40	340	sitzen	sitzen sitzt sitz sitze gesessen sitzend sitzenden sitzende sässe sässen
+41	341	passieren	passiert passieren passierte passierten passiere passier passierenden
+42	342	sterben	sterben gestorben starb stirbt starben sterbe sterbenden stirbst stirb sterbende
+43	343	niemand	niemand niemanden niemandem niemandes
+44	344	Preis	preis preise preisen preises gepriesen preist pries priest preiset gepriesene
+45	345	hinter	hinter hintern hinterm hinters
+46	346	fest	fest feste festen fester festes festem vest veste fests festere
+47	347	gemeinsam	gemeinsam gemeinsamen gemeinsame gemeinsames gemeinsamer gemeinsamem
+48	348	fehlen	fehlt fehlen fehlende fehlte fehlenden gefehlt fehlender fehlten fehl fehle
+49	349	handeln	handelt handeln gehandelt handelte handle handele handelns handelnden handelten handelnde
+50	350	genug	genug genung
+51	351	Staat	staat staaten staates staats staate
+52	352	link	linken linke link linker linkes linkem gelinkt linkt
+53	353	rot	rot roten rote roth roter rotes rotem röter
+54	354	überhaupt	überhaupt
+55	355	Ziel	ziel ziele zielen zielt zielte ziels zielten zieles zielende
+56	356	Idee	idee ideen
+57	357	rein	rein reine reiner reinen reines reinste reinem rin reinsten reinster
+58	358	Wasser	wasser wassers wassern wässern wässer gewässert wässerchen
+59	359	Bereich	bereich bereichen bereiche bereichs bereiches
+60	360	freuen	freuen freut freue gefreut freu freute freust freuten freuet
+61	361	nennen	nennen nennt nannte nenne nenn nannten nennst nennenden
+62	362	bedeuten	bedeutet bedeuten bedeutende bedeutete bedeutenden bedeutendsten bedeutend bedeutender bedeutendste bedeute
+63	363	Antwort	antwort antworten antwortet antwortete geantwortet antworte antwortest antworteten antwortenden
+64	364	anders	anders
+65	365	laut	laut lauter laute lautes lautesten lautem lauteste lauterer lauteren lautere
+66	366	entstehen	entstehen entstanden entsteht entstand entstandenen entstandene entstehenden entstehende entstehe entstünde
+67	367	euer	eure euer euren eurer eurem eures euere euerm eueren euerer
+68	368	warten	warten warte wartet gewartet wartete warteten wartest wartenden wartend wartende
+69	369	öffentlich	öffentlichen öffentlich öffentliche öffentlicher öffentliches öffentlichem
+70	370	Team	team teams
+71	371	dank	dank dankes
+72	372	bald	bald ehesten
+73	373	Musik	musik musiken
+74	374	ebenfalls	ebenfalls
+75	375	eher	eher
+76	376	pro	pro
+77	377	Vater	vater vaters väter vätern väterchen
+78	378	falsch	falsch falsche falschen falscher falsches falschem
+79	379	Mutter	mutter mütter müttern muttern mudda mutters mütterchen mütterlein
+80	380	Million	millionen million milliönchen
+81	381	Video	video videos
+82	382	nachdem	nachdem
+83	383	sofort	sofort
+84	384	Gesellschaft	gesellschaft gesellschaften
+85	385	Form	form formen geformt formt formte formten forme
+86	386	Sohn	sohn söhne sohnes söhnen sohns söhnchen sohne söhnlein
+87	387	Partei	partei parteien
+88	388	schlagen	schlagen schlägt geschlagen schlug schlag schlage schläge schlugen schlägen schlagt
+89	389	danach	danach darnach
+90	390	Krieg	krieg kriege krieges kriegs
+91	391	zahlen	zahlen zahlt gezahlt zahle zahlte zahlst zahlende zahlenden zahlten gezahlten
+92	392	gefallen	gefallen gefällt gefiel gefallenen gefallene gefalle gefielen gefallener gefällst gefallt
+93	393	hoffen	hoffe hoffen hofft gehofft hoffte hoff hofften hoffst hoffend hoffest
+94	394	Regel	regel regeln geregelt regelt geregelten geregelte regelte geregeltes geregelter regelten
+95	395	los	los lose loser losen loses gelost looser losem losers losern
+96	396	Raum	raum räume räumen räumt geräumt raumes raums räumte räum räumten
+97	397	Verein	verein vereins vereine vereinen vereint vereinten vereinte vereines vereintes vereinter
+98	398	Mitglied	mitglieder mitglied mitgliedern mitglieds mitgliedes
+99	399	endlich	endlich endliche endlichen endlicher endliches
+100	400	dritte	dritten dritte dritter drittes drittem

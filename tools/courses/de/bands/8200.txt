@@ -1,0 +1,100 @@
+1	8101	Bundeskanzleramt	bka bundeskanzleramt bundeskanzleramtes bundeskanzleramts
+2	8102	Rettungsdienst	rettungsdienst rettungsdienste rettungsdienstes rettungsdiensten
+3	8103	Wohnungsbau	wohnungsbau wohnungsbaus
+4	8104	assoziieren	assoziiert assoziieren assoziierten assoziierte assoziiere assoziierter assoziiertes
+5	8105	Nokia	nokia nokias
+6	8106	Nerd	nerd nerds
+7	8107	durchdringen	durchdringen durchdrungen durchdringt durchgedrungen durchdringenden durchzudringen durchdrang durchdringend durchdringende durchdringender
+8	8108	Verzehr	verzehr verzehren verzehre verzehrten verzehrte
+9	8109	Rumpf	rumpf rumpfes rümpfen rümpfe rümpft
+10	8110	Lehrstuhl	lehrstuhl lehrstuhls lehrstühle lehrstühlen
+11	8111	charakterisieren	charakterisiert charakterisieren charakterisierte charakterisierten
+12	8112	nachschauen	nachschauen nachgeschaut nachzuschauen nachschaut
+13	8113	behaart	behaart behaarte behaarten behaarter
+14	8114	verrichten	verrichten verrichtet verrichtete verrichteten verrichte
+15	8115	Wolfram	wolfram wolframs
+16	8116	besinnen	besinnen besonnen besinnt besann besonnene besonnenen besonnener besinne besannen
+17	8117	Mechanik	mechanik mechaniken
+18	8118	Rentenversicherung	rentenversicherung rentenversicherungen
+19	8119	abkühlen	abkühlen abgekühlt abkühlt abzukühlen abgekühlte abgekühlten
+20	8120	expert	experten expert
+21	8121	stationiert	stationiert stationierten stationierte
+22	8122	bösartig	bösartige bösartig bösartigen bösartiger bösartiges
+23	8123	elfte	elften elfte elfter elftes
+24	8124	Vorspiel	vorspiel vorspielen vorgespielt vorspiele vorzuspielen vorspielt vorspiels vorspielte
+25	8125	Wels	wels waller welse
+26	8126	Talkshow	talkshow talkshows
+27	8127	Arrangement	arrangements arrangement
+28	8128	plausibel	plausibel plausible plausiblen plausibler plausibles
+29	8129	Titelverteidiger	titelverteidiger titelverteidigerin
+30	8130	Ventil	ventil ventile ventilen ventils
+31	8131	leiblich	leibliche leiblichen leiblicher leibliches leiblich
+32	8132	missachten	missachtet missachten missachtete missachteten missachte mißachtet mißachten mißachtete mißachteten mißachte
+33	8133	Psalm	psalm psalmen salm psalms salmen
+34	8134	Hausarzt	hausarzt hausärzte hausärztin hausarztes hausärzten
+35	8135	Anatomie	anatomie
+36	8136	Augenhöhe	augenhöhe
+37	8137	brutto	brutto
+38	8138	Diagnostik	diagnostik
+39	8139	Durchsetzung	durchsetzung
+40	8140	Ehrlichkeit	ehrlichkeit
+41	8141	Eifersucht	eifersucht
+42	8142	fünfzig	fünfzig
+43	8143	Größenordnung	grössenordnung größenordnung
+44	8144	Hockey	hockey
+45	8145	infrage	infrage
+46	8146	Jahresende	jahresende
+47	8147	Klartext	klartext
+48	8148	Koordination	koordination
+49	8149	Scham	scham
+50	8150	Tageslicht	tageslicht
+51	8151	Tischtennis	tischtennis
+52	8152	Verpflegung	verpflegung
+53	8153	äusserst	äussersten äußersten
+54	8154	Allergie	allergie allergien
+55	8155	Assoziation	assoziation assoziationen
+56	8156	Jasmin	jasmin jasmine
+57	8157	Kreuzfahrt	kreuzfahrt kreuzfahrten
+58	8158	ungestört	ungestört ungestörten ungestörte ungestörter ungestörtes
+59	8159	institutionell	institutionelle institutionellen institutionell institutioneller institutionelles
+60	8160	Arbeitslosengeld	arbeitslosengeld alg arbeitslosengeldes
+61	8161	überspringen	überspringen übersprungen überspringt übersprang überspringe übergesprungen übersprungenen
+62	8162	Aufgebot	aufgebot aufgeboten aufgebots aufgebote
+63	8163	solidarisch	solidarisch solidarische solidarischen solidarisches solidarischer
+64	8164	prompt	prompt prompte
+65	8165	adäquat	adäquat adäquate adäquaten adäquater adäquates
+66	8166	neuartig	neuartige neuartigen neuartiger neuartiges neuartig
+67	8167	Berechtigung	berechtigung berechtigungen
+68	8168	Ärmel	ärmel ärmeln
+69	8169	Wohngebiet	wohngebiet wohngebiete wohngebieten wohngebietes wohngebiets
+70	8170	Geschäftsjahr	geschäftsjahr geschäftsjahres geschäftsjahre geschäftsjahren geschäftsjahrs
+71	8171	Schaum	schaum schäumt schäumen schäume schäumte schäumende
+72	8172	Artist	artist artists artisten artistin
+73	8173	Selbstvertrauen	selbstvertrauen selbstvertrauens
+74	8174	Elternhaus	elternhaus elternhauses elternhäusern
+75	8175	beunruhigen	beunruhigt beunruhigen beunruhigte beunruhigten
+76	8176	gelaunt	gelaunt gelaunten gelaunte gelaunter
+77	8177	Baumarkt	baumarkt baumärkte baumärkten
+78	8178	Eisbär	eisbären eisbär
+79	8179	Ehrgeiz	ehrgeiz ehrgeizes
+80	8180	Nordosten	nordosten nordostens
+81	8181	Lab	lab labs laben labe labt
+82	8182	einberufen	einberufen einzuberufen einberufenen einberufene
+83	8183	Leitfaden	leitfaden leitfäden leitfadens
+84	8184	Dienststelle	dienststelle dienststellen
+85	8185	Gesandter	gesandten gesandter gesandte
+86	8186	zusammenhalten	zusammenhalten zusammenhält zusammengehalten zusammenzuhalten zusammenhielt
+87	8187	Hotline	hotline hotlines
+88	8188	Zar	zar zaren zarin
+89	8189	Rivale	rivalen rivale rivalin rival
+90	8190	Hebamme	hebamme hebammen
+91	8191	mystisch	mystische mystischen mystisch mystischer mystisches
+92	8192	Vegetarier	vegetarier vegetarierin vegetariern
+93	8193	magnetisch	magnetische magnetischen magnetisch magnetischer magnetisches
+94	8194	simulieren	simulieren simuliert simulierten simulierte simulierter
+95	8195	ausleben	ausleben auszuleben ausgelebt auslebt
+96	8196	zustellen	zugestellt zustellen zuzustellen zugestellten
+97	8197	Schar	schar scharen geschart schart
+98	8198	Abtreibung	abtreibung abtreibungen
+99	8199	Unternehmung	unternehmungen unternehmung
+100	8200	Übernachtung	übernachtungen übernachtung

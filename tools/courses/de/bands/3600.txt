@@ -1,0 +1,100 @@
+1	3501	anstrengend	anstrengend anstrengenden anstrengende anstrengender anstrengendes anstrengendste
+2	3502	flammen	flammen flamme flammt flamm flammte flammten flammend flämmchen
+3	3503	mäßigen	mässig gemässigten mässigen gemässigt mässige mässiger mässigem mässiges mäßig gemäßigten
+4	3504	industriell	industriellen industrielle industriell industrieller industrielles industriellem
+5	3505	Reiter	reiter reitern reiterin reiters
+6	3506	Budget	budget budgets
+7	3507	Konstruktion	konstruktion konstruktionen
+8	3508	primär	primär primäre primären primäres primärer
+9	3509	Betreuung	betreuung betreuungen
+10	3510	Action	action actions
+11	3511	Nagel	nagel nägel nägeln nagels
+12	3512	Chip	chips chip
+13	3513	verzeihen	verzeihen verziehen verzeiht verzogen verzeih verzieht verzeihe verzog verzieh verzogene
+14	3514	basieren	basierend basieren basierende basierenden basierte basierten basiere basierendes basierender
+15	3515	begrüßen	begrüssen begrüßen
+16	3516	happy	happy
+17	3517	Lee	lee
+18	3518	Vielzahl	vielzahl
+19	3519	vorerst	vorerst
+20	3520	womöglich	womöglich
+21	3521	aktivieren	aktiviert aktivieren aktivierte aktiviere aktivierten aktivierende aktiviertem aktivierter
+22	3522	Warnung	warnung warnungen
+23	3523	Quote	quote quoten
+24	3524	erreichbar	erreichbar erreichbare erreichbaren erreichbarer erreichbares
+25	3525	Reporter	reporter reporterin reportern reporters reporterinnen
+26	3526	Amateur	amateur amateure amateuren amateurs amateurin
+27	3527	Rakete	raketen rakete
+28	3528	Agent	agent agenten agentin
+29	3529	Wunde	wunde wunden
+30	3530	Intelligenz	intelligenz intelligenzen
+31	3531	verwechseln	verwechselt verwechseln verwechselst verwechselte verwechsle verwechselten verwechsel
+32	3532	entfallen	entfallen entfällt entfielen entfiel entfallenden entfall entfalle
+33	3533	Unterkunft	unterkunft unterkünfte unterkünften
+34	3534	Balkon	balkon balkone balkonen balkons
+35	3535	Faden	faden fäden fadens
+36	3536	versammeln	versammelt versammelten versammeln versammelte versammelter
+37	3537	pädagogisch	pädagogischen pädagogische pädagogisch pädagogischer pädagogisches pädagogischem
+38	3538	Rekord	rekord rekorde rekorden
+39	3539	sachlich	sachlich sachliche sachlichen sachlicher sachliches
+40	3540	derzeitig	derzeitigen derzeitige derzeitiger derzeitigem derzeitig derzeitiges
+41	3541	Überlegung	überlegungen überlegung
+42	3542	Ankunft	ankunft ankünfte
+43	3543	psychologisch	psychologische psychologischen psychologisch psychologischer psychologisches psychologischem
+44	3544	beibringen	beigebracht beibringen beizubringen beibringt beibrachte beibrachten
+45	3545	regulär	regulären reguläre regulär regulärer reguläres regulärem
+46	3546	Affe	affen affe äffchen
+47	3547	Samen	samen same samet samens
+48	3548	abschließen	abschliessen abzuschliessen abschliesst abschloss abschlossen abschliesse abschließen abzuschließen abschließt abschließe
+49	3549	sinnlos	sinnlos sinnlose sinnlosen sinnloses sinnloser sinnlosem
+50	3550	Part	part parts parte partes
+51	3551	Koffer	koffer koffern koffers köfferchen
+52	3552	Messung	messung messungen
+53	3553	Hetze	hetze hetzen hetzt gehetzt hetzte hetz hetzten gehetzten
+54	3554	Abwehr	abwehr abwehren abzuwehren abgewehrt abwehrt abwehrend abwehrte abwehrenden abgewehrten abwehrende
+55	3555	Kopie	kopie kopien
+56	3556	Blüte	blüten blüte
+57	3557	Menschenrechte	menschenrechte menschenrechten
+58	3558	rassistisch	rassistisch rassistische rassistischen rassistischer rassistisches rassistischem
+59	3559	Anstieg	anstieg anstiege anstiegs anstiegen
+60	3560	erkranken	erkrankt erkrankten erkrankte erkranken erkrankter
+61	3561	Kilo	kilo kilos
+62	3562	ausgerichtet	ausgerichtet ausgerichteten ausgerichtete ausgerichtetes ausgerichteter
+63	3563	ausscheiden	ausgeschieden ausscheiden ausgeschiedenen ausgeschiedene ausscheidet ausschied ausscheidenden ausscheidens auszuscheiden ausschieden
+64	3564	Blitz	blitz blitze blitzen geblitzt blitzt blitzte blitzes blitzten blitzenden
+65	3565	Enkel	enkel enkelin enkeln enkels enkelinnen
+66	3566	vorübergehend	vorübergehend vorübergehende vorübergehenden vorübergehender vorübergehendes
+67	3567	Ausflug	ausflug ausflüge ausflügen ausflugs ausfluges
+68	3568	Benjamin	benjamin benjamins
+69	3569	landwirtschaftlich	landwirtschaftlichen landwirtschaftliche landwirtschaftlicher landwirtschaftlich landwirtschaftliches landwirtschaftlichem
+70	3570	Fazit	fazit
+71	3571	Obst	obst
+72	3572	Pech	pech
+73	3573	Regie	regie
+74	3574	SMS	sms
+75	3575	sozusagen	sozusagen
+76	3576	vorhin	vorhin
+77	3577	zugunsten	zugunsten
+78	3578	zurecht	zurecht
+79	3579	Major	major majors
+80	3580	Emotion	emotionen emotion
+81	3581	lateinisch	lateinischen lateinische lateinisch lateinischer lateinisches
+82	3582	herausgegeben	herausgegeben herausgegebenen herausgegebene
+83	3583	Klavier	klavier klaviere klaviers klavieren
+84	3584	registriert	registriert registrierte registrierten registrierter registriertes
+85	3585	befördern	befördert befördern beförderte beförderten befördere beförderer
+86	3586	Handbuch	handbuch handbücher handbuchs handbüchern handbuches
+87	3587	Winkel	winkel winkeln winkels
+88	3588	Leib	leib leibe leibes leiber leibchen leiberl leibern
+89	3589	Besetzung	besetzung besetzungen
+90	3590	Konzentration	konzentration konzentrationen
+91	3591	Diesel	diesel diesels dieseln
+92	3592	Bedrohung	bedrohung bedrohungen
+93	3593	genehmigen	genehmigt genehmigen genehmigte genehmigten genehmige genehmigter genehmigtes
+94	3594	etabliert	etabliert etablierten etablierte etablierter etabliertes
+95	3595	Bart	bart bärte bärten bärtchen barte barten barts bartes
+96	3596	Muskel	muskeln muskel muskels
+97	3597	Berufung	berufung berufungen
+98	3598	Anmerkung	anmerkung anmerkungen
+99	3599	Support	support supports
+100	3600	magisch	magische magischen magisch magisches magischer magischem

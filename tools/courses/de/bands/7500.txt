@@ -1,0 +1,100 @@
+1	7401	Verknüpfung	verknüpfung verknüpfungen
+2	7402	Jubel	jubel jubels
+3	7403	Bataillon	bataillon bataillons bataillone bataillonen
+4	7404	nachdenklich	nachdenklich nachdenkliche nachdenklichen nachdenklicher nachdenkliches
+5	7405	Sommersemester	ss sommersemester sommersemesters ß
+6	7406	unvollständig	unvollständig unvollständige unvollständigen unvollständiger unvollständiges
+7	7407	vielversprechend	vielversprechend vielversprechende vielversprechenden vielversprechender vielversprechendes vielversprechendsten vielversprechendste
+8	7408	auswandern	auswandern ausgewandert auszuwandern ausgewanderten auswanderte auswanderten auswandert
+9	7409	ablösen	ablösen ablöse abzulösen ablöst ablöste ablösten
+10	7410	saftig	saftige saftig saftigen saftiges saftiger saftigem
+11	7411	bizarr	bizarre bizarr bizarren bizarrer bizarres
+12	7412	Kick	kick kicks
+13	7413	überwältigen	überwältigt überwältigen überwältigte überwältigten
+14	7414	bereitgestellt	bereitgestellt bereitgestellten bereitgestellte
+15	7415	hebräisch	hebräischen hebräisch hebräische hebräischer hebräisches
+16	7416	belehren	belehren belehrt belehrend belehrte belehre belehrenden
+17	7417	Rubrik	rubrik rubriken
+18	7418	unzulässig	unzulässig unzulässige unzulässigen unzulässiger
+19	7419	anstrengen	anstrengen angestrengt anstrengt anzustrengen anstrenge anstrengst
+20	7420	willig	willig willigen willige willigte willigt williger williges willigten
+21	7421	plündern	plündern geplündert plünderten plünderer plündert plünderte plündernd geplünderten
+22	7422	Rausch	rausch rausches rausche
+23	7423	Dealer	dealer dealern dealers
+24	7424	Hausarbeit	hausarbeit hausarbeiten
+25	7425	Privatperson	privatpersonen privatperson
+26	7426	Spitzname	spitznamen spitzname
+27	7427	erschweren	erschweren erschwerend erschwerten erschwerte erschwere
+28	7428	lutschen	lutschen lutscher lutscht gelutscht lutsch lutsche lutschte lutschst
+29	7429	Lektion	lektion lektionen
+30	7430	Falke	falken falke
+31	7431	Satan	satan satans satanas
+32	7432	Pilger	pilger pilgern pilgerten gepilgert pilgerte pilgert pilgers
+33	7433	brocken	brocken brock brocke bröckchen
+34	7434	violett	violett violette violetten violetter violettes violettem
+35	7435	Nationalsozialist	nationalsozialisten nationalsozialist
+36	7436	etlich	etlichen etlicher etliches
+37	7437	Frey	frey freys
+38	7438	Panne	panne pannen
+39	7439	Abhandlung	abhandlungen abhandlung
+40	7440	Atlas	atlas atlanten
+41	7441	Baustein	baustein bausteine bausteinen
+42	7442	gleichwertig	gleichwertig gleichwertige gleichwertigen gleichwertiger gleichwertiges
+43	7443	alarmieren	alarmiert alarmieren alarmierend alarmierte alarmierende alarmierten alarmierenden alarmierendes
+44	7444	Verbrennung	verbrennung verbrennungen verbrennungs
+45	7445	Whisky	whisky whiskys
+46	7446	zusammensetzen	zusammensetzen zusammensetzt zusammenzusetzen zusammensetzte zusammensetzten
+47	7447	Traube	trauben traube
+48	7448	Postkarte	postkarte postkarten
+49	7449	Halter	halter haltern halters
+50	7450	pinkeln	pinkeln pinkelt pinkel gepinkelt pinkle
+51	7451	Mum	mum mums
+52	7452	universell	universelle universell universellen universelles universeller
+53	7453	Umlauf	umlauf umläufe umläufen umlaufs
+54	7454	Wecker	wecker weckers
+55	7455	archäologisch	archäologischen archäologische archäologischer archäologisch archäologisches
+56	7456	Sperrung	sperrung sperrungen
+57	7457	Administration	administration
+58	7458	Anlehnung	anlehnung
+59	7459	anzutreffen	anzutreffen
+60	7460	aua	aua
+61	7461	Ausbeutung	ausbeutung
+62	7462	D	ds
+63	7463	François	françois
+64	7464	Götz	götz
+65	7465	jaja	jaja
+66	7466	Knoblauch	knoblauch
+67	7467	Mitwirkung	mitwirkung
+68	7468	parat	parat
+69	7469	Unesco	unesco
+70	7470	Unschuld	unschuld
+71	7471	Äußerung	äusserung äußerung
+72	7472	Adenauer	adenauer adenauers
+73	7473	Brenner	brenner brenners brennern
+74	7474	Schöpfer	schöpfer schöpfers schöpfern
+75	7475	einsparen	einsparen eingespart einzusparen eingesparten einspart
+76	7476	flott	flott flotter flotten flottes
+77	7477	Zeremonie	zeremonie zeremonien
+78	7478	serbisch	serbischen serbische serbisch serbischer
+79	7479	fundamental	fundamental fundamentale fundamentalen fundamentaler fundamentales
+80	7480	Cut	cut cuts
+81	7481	rar	rar rare rares raren rarer
+82	7482	Trompete	trompete trompeten
+83	7483	Signatur	signatur signaturen
+84	7484	intakt	intakt intakte intakten intaktes intakter intaktem
+85	7485	Freiheitsstrafe	freiheitsstrafe freiheitsstrafen
+86	7486	Koordinate	koordinaten koordinate
+87	7487	Feuerwehrmann	feuerwehrmann feuerwehrleute feuerwehrmänner feuerwehrleuten feuerwehrfrau feuerwehrmännern
+88	7488	dezent	dezent dezente dezenten dezenter dezentes
+89	7489	Putsch	putsch putsches geputscht putschen putsche putschte
+90	7490	widerspiegeln	widerspiegelt widerspiegeln widerspiegelte wiederspiegeln widergespiegelt widerzuspiegeln widerspiegelten
+91	7491	streamen	streamen gestreamt streamt streame streamst
+92	7492	Gabel	gabel gabeln gable gabelt gegabelt
+93	7493	Visa	visa visas
+94	7494	auskennen	auskennt auskennen auskenne auszukennen auskennst auskannte
+95	7495	erkämpfen	erkämpft erkämpfen erkämpfte erkämpften erkämpfter
+96	7496	übergreifen	übergriffe übergreifende übergriffen übergreifen übergreifend übergreifenden übergreifendes übergegriffen übergreift übergreifender
+97	7497	Völkermord	völkermord völkermords völkermordes völkermorde völkermorden
+98	7498	Boulevard	boulevard boulevards
+99	7499	signalisieren	signalisiert signalisieren signalisierte signalisierten signalisiere
+100	7500	Hunter	hunter hunters

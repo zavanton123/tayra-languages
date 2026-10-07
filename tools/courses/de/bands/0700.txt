@@ -1,0 +1,100 @@
+1	601	Opfer	opfer opfern opfers geopfert opfert opferte opfere opferten geopferten
+2	602	Reihe	reihe reihen reiht reih gereiht reihte reihten riehen gereihten
+3	603	hängen	hängt hängen hang hing hänge gehängt hingen häng hängst gehangen
+4	604	Titel	titel titeln titels titelte titelt
+5	605	gleichzeitig	gleichzeitig gleichzeitiger gleichzeitige gleichzeitigen gleichzeitigem gleichzeitiges
+6	606	werfen	werfen wirft geworfen warf werft werfe warfen wirf wirfst werf
+7	607	Plan	plan pläne plänen plane planer plans planes planern
+8	608	absolut	absolut absolute absoluten absoluter absolutes absolutem
+9	609	jährig	jährige jährigen jähriger jähriges jährig jährigem
+10	610	berichten	berichtet berichten berichtete berichte berichteten berichtest
+11	611	April	april aprils aprile
+12	612	treten	treten trat traten getreten trete getretenen tretet trittst getretene tret
+13	613	Betrieb	betrieb betrieben betriebe betriebs betriebenen betriebene betriebes betriebener betriebenes
+14	614	insbesondere	insbesondere
+15	615	gering	gering geringer geringen geringe geringere geringeren geringsten geringste geringem geringerer
+16	616	melden	melden gemeldet meldet melde meldete milde meldeten milden gemeldeten meld
+17	617	weise	weise weis weiser weises weiseste weisesten
+18	618	bezahlen	bezahlen bezahlt bezahlte bezahlten bezahle bezahlst bezahl bezahlenden
+19	619	Karte	karte karten carte kärtchen
+20	620	Leistung	leistung leistungen leistungs
+21	621	Schritt	schritt schritte schritten schrittes schritts schrittchen
+22	622	Juni	juni juno junos
+23	623	technisch	technischen technische technisch technischer technisches technischem
+24	624	zusätzlich	zusätzlich zusätzliche zusätzlichen zusätzlicher zusätzliches zusätzlichem
+25	625	dauern	dauert dauern dauernd dauerte gedauert dauernden dauernde dauerten dauernder dauere
+26	626	Alter	alter alters altern alla altem altere alder gealtert altert alterns
+27	627	Kunst	kunst künste künsten
+28	628	Hund	hund hunde hunden hündin hundes rüde hündchen rüden hundi hündinnen
+29	629	Bahn	bahn bahnen bahnt bahnte gebahnt bahnten bahne
+30	630	Juli	juli julis
+31	631	Programm	programm programme programms programmen programmes
+32	632	nämlich	nämlich nämlichen nämliche
+33	633	Oktober	oktober oktobers
+34	634	links	links
+35	635	lehren	lehrer lehren gelehrt lehrt gelehrten lehrte lehr gelehrte gelehrter lehrten
+36	636	Nichtraucher	nr nichtraucher nichtrauchern nichtraucherin
+37	637	Rahmen	rahmen rahmens rahm gerahmt rohm rahmt
+38	638	Wechsel	wechsel wechseln wechselt gewechselt wechselte wechselnden wechselten wechselnde wechsle wechselnder
+39	639	unterschiedlich	unterschiedliche unterschiedlichen unterschiedlich unterschiedlicher unterschiedlichsten unterschiedlichem unterschiedlichster unterschiedliches unterschiedlichste
+40	640	Beweis	beweis beweisen beweise bewiesen beweist bewies beweises bewiesene bewiesenen
+41	641	Wochenende	wochenende we wochenenden wochenendes
+42	642	kämpfen	kämpfen kämpfer kämpft gekämpft kämpfte kämpfe kämpften kämpfenden kämpf kämpfst
+43	643	Sommer	sommer sommers sommern
+44	644	Test	test testen tests getestet testet teste getesteten testete getestete testeten
+45	645	Fehler	fehler fehlern fehlers
+46	646	Situation	situation situationen
+47	647	Bad	bad bäder bade bädern bades zkb bads
+48	648	Markt	markt märkte marktes märkten markts markte
+49	649	falls	falls
+50	650	rechts	rechts
+51	651	Messe	mass messe messen gemessen miss misst missen gemessenen gemessene misses
+52	652	erfolgen	erfolgt erfolgen erfolgte erfolgten erfolge erfolgter erfolgtem erfolgenden
+53	653	wachsen	wächst wachsen gewachsen wuchs wachsenden wachsende wachs wachsender wuchsen gewachsenen
+54	654	Schuld	schuld schulden geschuldet schuldet schulde schuldest geschuldeten schuldete schuldt schuldeten
+55	655	Kultur	kultur kulturen
+56	656	fertig	fertig fertigen fertige fertigt fertigte fertiges fertiger fertigten
+57	657	Verbindung	verbindung verbindungen
+58	658	anfangen	anfangen angefangen anfänger anfängt anzufangen anfing anfängst anfingen anfange angefangene
+59	659	Sex	sex sexes
+60	660	Zahl	zahl
+61	661	zehn	zehn
+62	662	Sicherheit	sicherheit sicherheits sicherheiten
+63	663	Autor	autor autoren autorin autors autorinnen
+64	664	Vergleich	vergleich vergleiche vergleichs vergleiches
+65	665	Kunde	kunden kunde kundin
+66	666	dienen	dienen dient diente diener dienten gedient diene dienenden dienende dien
+67	667	Liste	liste listen list gelistet listet gelisteten listete lists gelistete
+68	668	starten	starten startet gestartet startete starteten starte gestarteten gestartete startest startenden
+69	669	Satz	satz sätze sätzen satzes
+70	670	Hinweis	hinweis hinweise hinweisen hingewiesen hinzuweisen hinweist hinwies hinweises hinwiesen
+71	671	Freitag	freitag fr freitags freitagen freitage
+72	672	Zeitung	zeitung zeitungen zeitungs
+73	673	derselbe	dasselbe dieselbe derselben dieselben denselben desselben demselben derselbe
+74	674	Wirtschaft	wirtschaft wirtschafts wirtschaften gewirtschaftet wirtschaftens wirtschaftet wirtschaftenden
+75	675	zumindest	zumindest
+76	676	übrigens	übrigens
+77	677	aussehen	aussehen aussieht aussah ausgesehen auszusehen aussehe aussiehst aussahen aussehens aussehend
+78	678	Licht	licht lichter lichts lichte lichten lichtes lichtern lichtet lichtlein gelichtet
+79	679	drehen	drehen dreht gedreht drehte dreh drehe drehten drehst gedrehten drehenden
+80	680	klingen	klingt klingen klinge klänge kling klingende klingst klangen klängen geklungen
+81	681	öffnen	öffnen geöffnet öffnet öffnete öffne geöffneten öffneten geöffnete öffnest geöffnetem
+82	682	Politiker	politiker politikern politikerin politikers
+83	683	Bank	bank banken bänke bänken
+84	684	Bürger	bürger bürgern bürgerinnen bürgers bürgerin bürgerte
+85	685	Gebiet	gebiet gebiete gebieten gebietes gebiets gebietet gebietend
+86	686	Quelle	quelle quellen quell quillt quoll quill quollen
+87	687	verwendet	verwendet verwendeten verwendete verwendeter verwendetes verwendetem
+88	688	hallo	hallo
+89	689	hinaus	hinaus
+90	690	mindestens	mindestens
+91	691	französisch	französischen französische französisch französischer französisches französischem franze
+92	692	Fan	fans fan
+93	693	Sonntag	sonntag sonntags sonntage sonntagen
+94	694	perfekt	perfekt perfekte perfekten perfektes perfekter perfektem perfekteste
+95	695	Traum	traum träume träumen geträumt träumt träumte träum träumst traums träumten
+96	696	Tor	tor tore toren thor tores tors
+97	697	weiß	weissen weisse weisser weißen weiße weißer
+98	698	schützen	schützen geschützt schützt geschützten schütz geschützte schütze schützende geschützter schützte
+99	699	trinken	trinken getrunken trinkt trinke trink trank trinkst tranken tränke getränkt
+100	700	Saison	saison saisons saisonen

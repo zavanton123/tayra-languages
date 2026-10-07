@@ -1,0 +1,100 @@
+1	1701	Gewicht	gewicht gewichte gewichts gewichten gewichtet gewichtes gewichteten gewichtete
+2	1702	Kandidat	kandidaten kandidat kandidatin kandidatinnen
+3	1703	Beschreibung	beschreibung beschreibungen
+4	1704	kehren	kehrt kehrte kehren kehrten gekehrt kehre kehr kehrer kehrst gekehrten
+5	1705	kaputt	kaputt kaputte kaputten kaputtes kaputter kaputtem
+6	1706	Fähigkeit	fähigkeiten fähigkeit
+7	1707	Ehefrau	ehefrau ehemann ehefrauen ehemannes ehemänner ehemanns ehemännern
+8	1708	kulturell	kulturelle kulturellen kulturell kultureller kulturelles kulturellem
+9	1709	Fresse	fresse fressen frisst gefressen frass friss fress fresst fressende fresser
+10	1710	Verbrechen	verbrechen verbracht verbrechens verbrochen
+11	1711	betrachten	betrachten betracht betrachte betrachtete betrachteten betrachtest betrachtenden betrachtend
+12	1712	Nation	nationen nation
+13	1713	verweisen	verweist verwiesen verweisen verweis verweise verwies
+14	1714	kennenlernen	kennenlernen kennengelernt kennenzulernen kennenlernte kennenlernt kennenlernten kennenlerne kennenlernst kennenlernens
+15	1715	Auflage	auflage auflagen
+16	1716	Objekt	objekt objekte objekten objekts objektes
+17	1717	angenehm	angenehm angenehme angenehmen angenehmer angenehmes angenehmste angenehmere angenehmsten angenehmeren angenehmeres
+18	1718	ergänzen	ergänzt ergänzen ergänzte ergänzend ergänzende ergänzenden ergänzten ergänze ergänzender ergänzendes
+19	1719	Aktie	aktien aktie
+20	1720	komplex	komplex komplexe komplexen komplexer komplexes komplexere komplexeren komplexesten komplexeste komplexerer
+21	1721	Aufmerksamkeit	aufmerksamkeit aufmerksamkeiten
+22	1722	Amerikaner	amerikaner amerikanern amerikanerin amerikaners amerikanerinnen
+23	1723	Bundesregierung	bundesregierung bundesregierungen
+24	1724	eingestellt	eingestellt eingestellten eingestellte eingestellter eingestelltes
+25	1725	Eigentum	eigentum eigentümer eigentums eigentümern eigentümers eigentümerin
+26	1726	Fischer	fischer fischers fischern
+27	1727	durchschnittlich	durchschnittlich durchschnittliche durchschnittlichen durchschnittlicher durchschnittliches durchschnittlichem
+28	1728	Adresse	adresse adressen
+29	1729	entlang	entlang
+30	1730	meistens	meistens
+31	1731	Ps	ps
+32	1732	runter	runter
+33	1733	sodass	sodass
+34	1734	teils	teils
+35	1735	woher	woher
+36	1736	vorkommen	vorkommen vorkommt vorgekommen vorkommenden vorkam vorkommende vorkamen vorkomme vorzukommen vorkommens
+37	1737	witzig	witzig witzige witzigen witziger witziges witzigste witzigsten
+38	1738	anrufen	anrufen angerufen anzurufen anrufe anruft anrief anrufst angerufenen angerufene anriefen
+39	1739	sämtlich	sämtliche sämtlichen sämtlicher sämtlich sämtliches
+40	1740	erwerben	erworben erwerben erwarb erworbenen erwirbt erworbene erwarben erworbenes erworbener erwerbe
+41	1741	Motor	motor motoren motors
+42	1742	Mieteinnahmen	me mieteinnahmen
+43	1743	Bezirk	bezirk bezirke bezirks bezirken bezirkes
+44	1744	Forum	forum foren forums fora
+45	1745	künftig	künftig künftigen künftige künftiger künftiges künftigem
+46	1746	durchsetzen	durchsetzen durchgesetzt durchzusetzen durchsetzt durchsetzte durchsetzten durchgesetzten
+47	1747	Förderung	förderung förderungen
+48	1748	Geschlecht	geschlecht geschlechter geschlechts geschlechtern geschlechtes geschlechte
+49	1749	ernsthaft	ernsthaft ernsthafte ernsthaften ernsthaftes ernsthafter ernsthaftem ernsthaftere
+50	1750	stoppen	stoppen gestoppt stopp stoppt stoppte stopps stoppten stoppe
+51	1751	verraten	verraten verrät verrat verriet verrate verrats verrieten verrätst verratet verrates
+52	1752	Haushalt	haushalt haushalte haushalten haushalts haushaltes
+53	1753	dicke	dicke dicken dicker digga digger dickens dickem diggah
+54	1754	bewohnen	bewohner bewohnt bewohnten bewohnte bewohnen
+55	1755	heil	heil heilen geheilt heile heilt heiler heilende heilenden heilte heils
+56	1756	sonstig	sonstige sonstigen sonstiges sonstiger sonstigem sonstig
+57	1757	momentan	momentan momentanen momentane momentaner momentanes
+58	1758	probieren	probieren probiert probier probiere probierte probierten probierst
+59	1759	Amazon	amazon
+60	1760	Umwelt	umwelt
+61	1761	verpflichtet	verpflichtet verpflichtete verpflichteten verpflichteter
+62	1762	Anlass	anlass anlässen anlässe anlasses
+63	1763	Eigenschaft	eigenschaften eigenschaft
+64	1764	vergeben	vergeben vergibt vergab vergebenen vergebene vergebe vergaben vergib vergebenden vergebt
+65	1765	Rock	rock röcke rocks röcken röckchen rocke
+66	1766	belegen	belegen belege beleg belegte belegten
+67	1767	dargestellt	dargestellt dargestellten dargestellte dargestellter
+68	1768	Anfrage	anfrage anfragen angefragt anzufragen angefragten
+69	1769	Einwohner	einwohner einwohnern einwohnerin
+70	1770	Kuss	kuss küssen küsse küsst geküsst küsschen küss küsste küssten kusse
+71	1771	Bescheid	bescheid bescheiden bescheidenen bescheidene beschieden bescheide bescheidener bescheidenes bescheidenem beschied
+72	1772	Umgang	umgang umgangs umgänge
+73	1773	Übersetzung	übersetzung übersetzungen übersetzungs
+74	1774	einnehmen	einnahmen eingenommen einnehmen einnimmt einzunehmen einnahm eingenommenen eingenommene einnehme einnimmst
+75	1775	bestimmen	bestimmen bestimmte bestimmten bestimme bestimmende bestimmenden bestimmend bestimmst bestimm
+76	1776	betrachtet	betrachtet betrachtete betrachteten
+77	1777	Musiker	musiker musikern musikerin musikers musikerinnen
+78	1778	Respekt	respekt respekts
+79	1779	Kombination	kombination kombi kombinationen kombis
+80	1780	Ruf	ruf rufe rufs rufes
+81	1781	überleben	überleben überlebt überlebte überlebten überlebe überlebens überlebst überlebenden überlebende
+82	1782	getrennt	getrennt getrennte getrennten getrennter getrenntes getrenntem
+83	1783	Bundestag	bundestag bundestages bundestags bundestage
+84	1784	Schwanz	schwanz schwänze schwänzen geschwänzt schwanzes schwanze schwänzchen schwänzt
+85	1785	City	city citys
+86	1786	fair	fair faire fairen fairer faires fairem fairste fairsten fairere
+87	1787	Flasche	flasche flaschen fläschchen
+88	1788	gefangen	gefangen gefangenen gefangene gefangener
+89	1789	überprüfen	überprüfen überprüft überprüfte überprüfe überprüften überprüf
+90	1790	Loch	loch löcher löchern lochs loches gelöchert
+91	1791	verrückt	verrückt verrückte verrückten verrückter verrücktes verrücktesten verrückteste
+92	1792	Münster	münster münsters
+93	1793	Stufe	stufe stufen stuft stufte gestuft gestuften stuften
+94	1794	Demonstration	demo demonstration demonstrationen
+95	1795	investieren	investieren investiert investierte investiere investierten investierst investiertes
+96	1796	Kommende	kommenden kommende
+97	1797	Realität	realität realitäten
+98	1798	bedienen	bedient bedienen bediente bedienten bediene bedien bedienst bediener bedienenden bedienende
+99	1799	abgesehen	abgesehen
+100	1800	ansonsten	ansonsten

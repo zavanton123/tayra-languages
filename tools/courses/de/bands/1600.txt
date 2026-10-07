@@ -1,0 +1,100 @@
+1	1501	Tradition	tradition traditionen
+2	1502	Karriere	karriere karrieren
+3	1503	Stiftung	stiftung stiftungen
+4	1504	beantworten	beantworten beantwortet beantworte beantwortete beantwortest beantworteten
+5	1505	Seminar	se seminar seminare seminars seminaren
+6	1506	studieren	studieren studiert studierte studiere studierten studierst studierter studier
+7	1507	Stil	stil stile stils stiles stilen
+8	1508	Wolf	wolf wölfe wölfen wolfs wolfe wolfes wölfin wolfi wölfchen fähe
+9	1509	unmöglich	unmöglich unmögliche unmöglichen unmögliches unmöglicher unmöglichsten
+10	1510	automatisch	automatisch automatische automatischen automatischer automatisches automatischem
+11	1511	beraten	berater beraten berät beratend beriet beratende beratenden berate beratender berieten
+12	1512	Rechnung	rechnung rechnungen rechnungs
+13	1513	Computer	computer computern computers
+14	1514	Täter	täter tätern täters täterin
+15	1515	not	not nöten nöte
+16	1516	Theorie	theorie theorien
+17	1517	warnen	warnt gewarnt warnen warnte warner warn warne warnten warnend warnende
+18	1518	berühmt	berühmten berühmte berühmt berühmter berühmtesten berühmteste berühmtes berühmtester berühmtestes berühmtem
+19	1519	übertragen	übertragen überträgt übertragenen übertrug übertragene übertrage übertrugen übertrag übertragenden übertragende
+20	1520	Kino	kino kinos
+21	1521	blöd	blöd blöde blöden blöder blödes blödeste blödesten
+22	1522	golden	goldene goldenen golden goldener goldenes goldenem gülden
+23	1523	Mama	mama mamas
+24	1524	unterer	unteren untere unterste untersten unterer unteres unterem unterster unterstes
+25	1525	Analyse	analyse analysen
+26	1526	Feind	feind feinde feinden feindes feindin
+27	1527	PC	pc pcs
+28	1528	hauptsächlich	hauptsächlich hauptsächliche hauptsächlichen hauptsächlicher
+29	1529	erforderlich	erforderlich erforderlichen erforderliche erforderlicher erforderliches
+30	1530	Graf	graf grafen gräfin grafe grafs
+31	1531	christlich	christlichen christliche christlich christlicher christliches christlichem
+32	1532	Küche	küche küchen küchlein zkb
+33	1533	zunehmend	zunehmend zunehmende zunehmenden zunehmender zunehmendem zunehmendes
+34	1534	vermitteln	vermitteln vermittelt vermittler vermittelte vermittelten vermittle vermittlerin vermittelnde vermittlern vermittlers
+35	1535	Kreuz	kreuz kreuze kreuzes kreuzen kreuzt gekreuzt kreuzchen kreuzte kreuzten kreutz
+36	1536	Abstand	abstand abständen abstände abstands abstandes
+37	1537	extra	extra extras
+38	1538	spanisch	spanischen spanisch spanische spanischer spanisches spanischem
+39	1539	ausgezeichnet	ausgezeichnet ausgezeichnete ausgezeichneten ausgezeichneter ausgezeichnetes ausgezeichnetem
+40	1540	reifen	reifen reife reif reifer gereift reift reifte reifere reiferen reifens
+41	1541	verursachen	verursacht verursachen verursachte verursachten verursache verursachenden verursachst
+42	1542	selbstverständlich	selbstverständlich selbstverständliche selbstverständlicher selbstverständlichen selbstverständliches
+43	1543	Sturm	sturm stürmen stürme stürmt gestürmt stürmte sturms stürmten sturmes sturme
+44	1544	beschrieben	beschrieben beschriebenen beschriebene beschriebenes beschriebener
+45	1545	mehrfach	mehrfach mehrfacher mehrfache mehrfachen mehrfaches mehrfachem
+46	1546	Schwede	schweden schwede schwedin
+47	1547	Pause	pause pausen paus päuschen
+48	1548	dick	dick dicken dickes dicker digga dicksten dickem dickere digger dickeren
+49	1549	gesellschaftlich	gesellschaftlichen gesellschaftliche gesellschaftlich gesellschaftlicher gesellschaftliches gesellschaftlichem
+50	1550	schreien	schreien schreit schrei schrie schreie geschrien schreiend schrien schreist geschrieen
+51	1551	demokratisch	demokratischen demokratische demokratisch demokratischer demokratisches demokratischem
+52	1552	vermeiden	vermeiden vermieden vermeidet vermeide vermied vermeidest
+53	1553	Ursache	ursache ursachen
+54	1554	Anwalt	anwalt anwälte anwältin anwälten anwalts anwaltes
+55	1555	Radio	radio radios
+56	1556	Bedarf	bedarf bedarfs bedarfe bedarfes
+57	1557	westlich	westlichen westliche westlich westlicher westliches westlichem westlichsten westlichste
+58	1558	Game	game games
+59	1559	bedenken	bedenken bedacht bedenkt bedenke bedachte bedachten bedenk bedachter
+60	1560	Öffentlichkeit	öffentlichkeit öffentlichkeiten
+61	1561	spenden	spenden spende gespendet spendet spendete spendeten gespendeten spend spendenden spendest
+62	1562	Boot	boot boote booten boots bootes bootet gebootet
+63	1563	dringend	dringend dringende dringenden dringender dringendes dringendsten dringendste dringendere dringendem
+64	1564	entgegen	entgegen
+65	1565	hinzu	hinzu
+66	1566	Moderne	moderne
+67	1567	möglicherweise	möglicherweise
+68	1568	medizinisch	medizinische medizinischen medizinisch medizinischer medizinisches medizinischem
+69	1569	weiblich	weibliche weiblichen weiblich weiblicher weibliches weiblichem
+70	1570	akzeptieren	akzeptieren akzeptiert akzeptiere akzeptierte akzeptierten akzeptierst akzeptier akzeptierter akzeptiertes
+71	1571	angeben	angaben angeben anzugeben angibt angab angebe angibst
+72	1572	einsetzen	einsetzen einzusetzen einsetzt einsetzte einsetzten einsetzenden einsetzende einsetze einsetzender
+73	1573	sinnvoll	sinnvoll sinnvolle sinnvoller sinnvollen sinnvolles sinnvollsten sinnvollste sinnvollere sinnvolleres sinnvollem
+74	1574	jüdisch	jüdischen jüdische jüdischer jüdisch jüdisches jüdischem
+75	1575	schneiden	schneiden geschnitten schneidet schneide schneid schnitte schnitten schneidest schneidende schneidend
+76	1576	Klaus	klaus klause klausen
+77	1577	bemerken	bemerkt bemerkte bemerken bemerkten bemerke bemerkst
+78	1578	Sammlung	sammlung sammlungen
+79	1579	Service	service services
+80	1580	verboten	verboten verbotene verbotenen verbotenes verbotener verbotenem
+81	1581	Konflikt	konflikt konflikte konflikten konflikts konfliktes
+82	1582	Schrift	schriften schrift schrifft
+83	1583	intensiv	intensiv intensive intensiver intensiven intensives intensivere intensivem intensiveren intensivsten intensivste
+84	1584	individuell	individuelle individuellen individuell individueller individuelles individuellem
+85	1585	heftig	heftig heftigen heftige heftiger heftiges heftigsten heftigem heftigste heftigere heftigeren
+86	1586	Pflicht	pflicht pflichten pflichtete pflichtet pflichte
+87	1587	Abgeordneter	abgeordneten abgeordnete abgeordneter
+88	1588	Fremde	fremde fremden fremder fremdem
+89	1589	Wettbewerb	wettbewerb wettbewerbs wettbewerbe wettbewerben wettbewerbes
+90	1590	vieles	vieles vielem
+91	1591	verurteilen	verurteilt verurteilen verurteilte verurteilten verurteile verurteilter verurteilst
+92	1592	mailen	mail mailen gemailt maile mailt mailte
+93	1593	planen	planen plant plante plane planten planst planenden
+94	1594	unterliegen	unterlagen unterliegen unterliegt unterlag unterlegen unterlegt unterlegenen unterlegene unterliege unterlegte
+95	1595	verbreitet	verbreitet verbreitete verbreiteten verbreiteter verbreitetes verbreitetsten verbreitetste
+96	1596	Länge	länge längen längt
+97	1597	Vortrag	vortrag vorträge vorträgen vortrags vortrages
+98	1598	davor	davor
+99	1599	ha	ha
+100	1600	sicherlich	sicherlich

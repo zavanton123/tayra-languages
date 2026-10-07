@@ -1,0 +1,100 @@
+1	6901	Ruß	russ russen ruß rußen
+2	6902	allemal	allemal
+3	6903	Allgemeinheit	allgemeinheit
+4	6904	Erfassung	erfassung
+5	6905	Feminismus	feminismus
+6	6906	Fortuna	fortuna
+7	6907	Hühner	hühner
+8	6908	Mehrzahl	mehrzahl
+9	6909	Neugier	neugier
+10	6910	Neuzeit	neuzeit
+11	6911	Outdoor	outdoor
+12	6912	Poker	poker
+13	6913	rauf	rauf
+14	6914	RWE	rwe
+15	6915	Teilzeit	teilzeit
+16	6916	wenngleich	wenngleich
+17	6917	Wiedervereinigung	wiedervereinigung
+18	6918	Lamm	lamm lämmer lämmchen lämmern lammes lamme
+19	6919	sparsam	sparsam sparsamer sparsamen sparsame sparsames sparsamere sparsamsten
+20	6920	Pianist	pianist pianisten pianistin
+21	6921	landesweit	landesweit landesweiten landesweite landesweiter landesweites
+22	6922	Tabak	tabak tobak tabaks
+23	6923	verkörpert	verkörpert verkörperte verkörperten
+24	6924	Anschaffung	anschaffung anschaffungen
+25	6925	Zuwachs	zuwachs zuwächse zuwachses zuwächsen
+26	6926	befallen	befallen befall befällt befallenen befallene befiel befalls
+27	6927	platzieren	platzieren platzierte platzierten platziere
+28	6928	Teilung	teilung teilungen
+29	6929	Volkspartei	volkspartei volksparteien
+30	6930	Inbetriebnahme	inbetriebnahme ibn
+31	6931	Sumpf	sumpf sümpfe sümpfen sumpfes
+32	6932	Polo	polo polos
+33	6933	Metropole	metropole metropolen
+34	6934	Geschick	geschick geschicke geschicks
+35	6935	Theologe	theologen theologe theologin theologinnen
+36	6936	Visier	visier visiere visieren
+37	6937	verschlechtern	verschlechtert verschlechtern verschlechterte verschlechterten verschlechternden
+38	6938	geschäftlich	geschäftlichen geschäftliche geschäftlich geschäftlicher geschäftliches
+39	6939	Mitbürger	mitbürger mitbürgern mitbürgerinnen
+40	6940	vorbeikommen	vorbeikommen vorbeikommt vorbeigekommen vorbeizukommen vorbeikam vorbeikamen vorbeikomme vorbeikommenden
+41	6941	Neuauflage	neuauflage neuauflagen
+42	6942	erbrechen	erbrechen erbrecht erbrochen erbrochenes erbricht erbrochenen erbrochenem erbrach erbrechts
+43	6943	Schärfe	schärfe schärfen geschärft schärft schärf schärfte geschärften
+44	6944	Bedienung	bedienung bedienungen
+45	6945	Orient	orient orients oriente
+46	6946	Gleichung	gleichung gleichungen
+47	6947	Fremdsprache	fremdsprache fremdsprachen
+48	6948	Überlieferung	überlieferung überlieferungen
+49	6949	Aufsteiger	aufsteiger aufsteigern aufsteigers
+50	6950	anschaulich	anschaulich anschauliche anschaulichen anschaulicher anschauliches
+51	6951	Wiki	wiki wikis
+52	6952	Schilling	schilling schillinge schillings schillingen
+53	6953	flächendeckend	flächendeckend flächendeckende flächendeckenden flächendeckendes flächendeckender
+54	6954	Suizid	suizid suizide suiziden suizids
+55	6955	Privatleben	privatleben privatlebens
+56	6956	Admiral	admiral admirals admirale
+57	6957	anstreben	anstreben anstrebt anzustreben anstrebte anstrebten anstrebe
+58	6958	Leutnant	leutnant leutnants
+59	6959	aufladen	aufladen aufgeladen aufzuladen auflädt
+60	6960	Scheune	scheune scheunen
+61	6961	durchmachen	durchgemacht durchmachen durchmacht durchzumachen durchmachte
+62	6962	Beerdigung	beerdigung beerdigungen
+63	6963	einbeziehen	einbeziehen einzubeziehen einbezieht einbezog
+64	6964	Urheber	urheber urhebers urhebern urheberin
+65	6965	Norddeutscher	norddeutschen norddeutsche norddeutscher
+66	6966	Maximum	maximum maxima maximums
+67	6967	erhitzen	erhitzen erhitzt erhitzte erhitzten
+68	6968	Schlussfolgerung	schlussfolgerung schlussfolgerungen
+69	6969	zäh	zäh zähen zäher zähe zähes zähem
+70	6970	Reduktion	reduktion reduktionen
+71	6971	preiswert	preiswert preiswerter preiswerte preiswerten preiswertes preiswertere preiswerteste preiswerteren
+72	6972	schmieren	geschmiert schmieren schmiert schmiere schmier schmierte schmierst
+73	6973	Pin	pin pins
+74	6974	Mitschüler	mitschüler mitschülern mitschülerin mitschülers
+75	6975	Vorsorge	vorsorge vorsorgen vorgesorgt vorzusorgen
+76	6976	abgelöst	abgelöst abgelösten abgelöste
+77	6977	Umschlag	umschlag umschläge umschlägen umschlags
+78	6978	senkrecht	senkrecht senkrechten senkrechte senkrechter
+79	6979	ausweiten	ausgeweitet ausweiten auszuweiten ausweitet ausweitete ausgeweiteten
+80	6980	schwerwiegend	schwerwiegende schwerwiegenden schwerwiegend schwerwiegender schwerwiegendes schwerwiegendere schwerwiegendsten schwerwiegendste
+81	6981	tappen	tape tap tappen tappt getappt tappe tappte tapp tapen
+82	6982	Nordwest	nw nordwest
+83	6983	temporär	temporär temporäre temporären temporärer temporäres
+84	6984	Parade	parade paraden
+85	6985	üppig	üppig üppigen üppige üppiger üppiges üppigem
+86	6986	Intensität	intensität intensitäten
+87	6987	festigen	festigen gefestigt festigt festigte gefestigten festigten gefestigter
+88	6988	sinnlich	sinnlich sinnliche sinnlichen sinnlicher sinnliches
+89	6989	obligatorisch	obligatorische obligatorischen obligatorisch obligatorischer obligatorisches
+90	6990	dazugehörig	dazugehörigen dazugehörige dazugehöriger dazugehörig dazugehörigem
+91	6991	Verlegung	verlegung verlegungen
+92	6992	Steak	steak steaks
+93	6993	Spezialität	spezialitäten spezialität
+94	6994	Anlauf	anlauf anläufe anläufen
+95	6995	zurücklassen	zurückgelassen zurücklassen zurücklässt zurückzulassen zurückliess zurückgelassenen zurückgelassene zurückliessen zurückließ zurückließen
+96	6996	Kalorie	kalorien kalorie
+97	6997	Volksbank	volksbank volksbanken
+98	6998	abgestellt	abgestellt abgestellten abgestellte
+99	6999	spekulieren	spekuliert spekulieren spekulierte spekuliere spekulierten
+100	7000	Wiederaufbau	wiederaufbau wiederaufbaus

@@ -1,0 +1,100 @@
+1	6301	Wanderer	wanderer wanderers wanderern
+2	6302	ableiten	ableiten abzuleiten ableitet ableitete ableitenden
+3	6303	hold	hold holden holder holde holdes holdem
+4	6304	verüben	verübt verüben verübten verübte
+5	6305	Übergriff	übergriffe übergriffen übergriff übergriffs
+6	6306	Autocar	car
+7	6307	Conrad	conrad
+8	6308	Einklang	einklang
+9	6309	Erstellung	erstellung
+10	6310	Fertigstellung	fertigstellung
+11	6311	fucking	fucking
+12	6312	gleichwohl	gleichwohl
+13	6313	GPS	gps
+14	6314	Halloween	halloween
+15	6315	Landstraße	landstrasse landstraße
+16	6316	Madame	madame
+17	6317	neuerdings	neuerdings
+18	6318	Reformation	reformation
+19	6319	Relevanz	relevanz
+20	6320	Sahne	sahne
+21	6321	Unterdrückung	unterdrückung
+22	6322	vornehmlich	vornehmlich
+23	6323	währenddessen	währenddessen
+24	6324	Kaserne	kaserne kasernen
+25	6325	Zuständigkeit	zuständigkeit zuständigkeiten
+26	6326	Broschüre	broschüre broschüren
+27	6327	Nationalität	nationalität nationalitäten
+28	6328	Drink	drink drinks
+29	6329	ermutigen	ermutigt ermutigen ermutigend ermutigte ermutigende ermutige ermutigenden ermutigten ermutigendes
+30	6330	kurdisch	kurdischen kurdische kurdisch kurdischer kurdisches
+31	6331	veranlassen	veranlassen veranlasste veranlassten veranlasse
+32	6332	Nominierung	nominierung nominierungen
+33	6333	überragend	überragend überragenden überragende überragender überragendes
+34	6334	bedeutsam	bedeutsam bedeutsame bedeutsamen bedeutsamer bedeutsames bedeutsamsten bedeutsamste
+35	6335	Badewanne	badewanne badewannen
+36	6336	verbauen	verbaut verbauen verbauten verbaute verbau
+37	6337	mild	mild milder milden mildes mildere milderen mildem milderes mildeste
+38	6338	Resolution	resolution resolutionen
+39	6339	Vorzug	vorzüge vorzug vorzügen
+40	6340	verhältnismäßig	verhältnismässig verhältnismässige verhältnismäßig verhältnismäßige
+41	6341	ersichtlich	ersichtlich ersichtlichen ersichtliche
+42	6342	vorbildlich	vorbildlich vorbildliche vorbildlichen vorbildlicher vorbildliches
+43	6343	Birne	birne birnen
+44	6344	Löffel	löffel löffeln löffelchen löffelt
+45	6345	Laufbahn	laufbahn laufbahnen
+46	6346	Auszubildender	auszubildende auszubildenden azubi auszubildender
+47	6347	Staatsbürger	staatsbürger staatsbürgern staatsbürgerin staatsbürgers
+48	6348	darlegen	dargelegt darlegen darzulegen darlegt darlegte dargelegten
+49	6349	Besprechung	besprechung besprechungen
+50	6350	notiert	notiert notierte notierten
+51	6351	Heimatland	heimatland heimatländer heimatlandes heimatländern
+52	6352	Kristall	kristall kristalle kristallen kristalls
+53	6353	Boom	boom booms
+54	6354	dominant	dominant dominante dominanten dominanter dominantes
+55	6355	Ansage	ansage ansagen ansagt anzusagen
+56	6356	Hauptrolle	hauptrolle hauptrollen
+57	6357	geringfügig	geringfügig geringfügige geringfügigen geringfügiger geringfügiges
+58	6358	arrogant	arrogant arrogante arroganten arroganter arrogantes
+59	6359	heizen	heizen heizt geheizt heiz heizte heize geheizten heizten
+60	6360	vorletzte	vorletzten vorletzte vorletzter vorletztes
+61	6361	Limousine	limousine limo limousinen
+62	6362	vertikal	vertikal vertikale vertikalen vertikaler vertikales
+63	6363	Henning	henning hennings
+64	6364	nutzbar	nutzbar nutzbare nutzbaren nutzbarer nutzbares
+65	6365	einstimmig	einstimmig einstimmigen einstimmige einstimmiger einstimmiges
+66	6366	übereinstimmen	übereinstimmen übereinstimmt übereinstimmend übereinstimme übereinstimmten übereinstimmte übereingestimmt übereinzustimmen
+67	6367	Schema	schema schemata schemen schemas
+68	6368	Zuschuss	zuschuss zuschüsse zuschüssen zuschusses zuschuß
+69	6369	Erika	erika erikas
+70	6370	Hype	hype hypes
+71	6371	impfen	impfen geimpft impf geimpften geimpfte impft
+72	6372	Staatsbürgerschaft	staatsbürgerschaft staatsbürgerschaften
+73	6373	horizontal	horizontal horizontale horizontalen horizontaler horizontales
+74	6374	ragen	ragt ragen rag ragte ragten ragenden
+75	6375	kloppen	klopp kloppen gekloppt kloppt
+76	6376	Ordner	ordner ordnern
+77	6377	verschonen	verschont verschonen verschonte verschone verschonten verschon
+78	6378	entspringen	entspringt entspringen entsprungen entsprang entspringenden entsprangen
+79	6379	tabu	tabu tabus
+80	6380	Niederlassung	niederlassung niederlassungen
+81	6381	Aa	aa aas aasen
+82	6382	Hilfsmittel	hilfsmittel hilfsmitteln
+83	6383	Erläuterung	erläuterungen erläuterung
+84	6384	Elektroauto	elektroautos elektroauto
+85	6385	mysteriös	mysteriöse mysteriösen mysteriös mysteriöser mysteriöses
+86	6386	Historie	historie historien
+87	6387	interaktiv	interaktive interaktiven interaktiv interaktives interaktiver
+88	6388	Mainstream	mainstream mainstreams
+89	6389	Schulzeit	schulzeit schulzeiten
+90	6390	Novum	nova novum novae
+91	6391	Fußballerin	fussballer fussballerin fußballer fußballerin
+92	6392	Klausur	klausur klausuren
+93	6393	Bruttoinlandsprodukt	bip bruttoinlandsprodukt bruttoinlandsprodukts bruttoinlandsproduktes
+94	6394	Flanke	flanke flanken flankt flankte
+95	6395	initiieren	initiiert initiierte initiieren initiierten
+96	6396	lästig	lästig lästige lästigen lästiges lästiger
+97	6397	Matrix	matrix matrizen
+98	6398	Minimum	minimum minima
+99	6399	Wappen	wappen wappens
+100	6400	Trauma	trauma traumata traumas traumen

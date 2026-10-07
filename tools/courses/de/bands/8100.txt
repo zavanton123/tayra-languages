@@ -1,0 +1,100 @@
+1	8001	Fahrplan	fahrplan fahrpläne fahrplänen fahrplans
+2	8002	County	county countys
+3	8003	Gesetzentwurf	gesetzentwurf gesetzentwürfe gesetzentwurfs gesetzentwurfes
+4	8004	Koks	koks koksen gekokst kokst
+5	8005	Angesicht	angesicht
+6	8006	Erschließung	erschliessung erschließung
+7	8007	facto	facto
+8	8008	Freilassung	freilassung
+9	8009	Gier	gier
+10	8010	Gloria	gloria
+11	8011	joa	joa
+12	8012	Kokain	kokain
+13	8013	Oswald	oswald
+14	8014	Schmutz	schmutz
+15	8015	Selbstbestimmung	selbstbestimmung
+16	8016	Stadtwerke	stadtwerke
+17	8017	Touch	touch
+18	8018	Vorrang	vorrang
+19	8019	Überlegenheit	überlegenheit
+20	8020	Empire	empire empires
+21	8021	Metapher	metapher metaphern
+22	8022	reibungslos	reibungslos reibungslosen reibungslose reibungsloser
+23	8023	Hausmeister	hausmeister hausmeisters hausmeisterin
+24	8024	ungewiss	ungewiss ungewisse ungewissen ungewisser ungewissem ungewiße ungewißen ungewißer ungewißem
+25	8025	Vorstandsvorsitzender	vorstandsvorsitzender vorstandsvorsitzende vorstandsvorsitzenden
+26	8026	Linkspartei	linkspartei linksparteien
+27	8027	Wanderweg	wanderwege wanderweg wanderwegen wanderweges wanderwegs
+28	8028	Singer	singer singers
+29	8029	Fachgebiet	fachgebiet fachgebiete fachgebieten fachgebietes fachgebiets
+30	8030	heikel	heikel heikle heiklen heikles heikler
+31	8031	Fingerabdruck	fingerabdrücke fingerabdruck fingerabdrücken
+32	8032	Expansion	expansion expansionen
+33	8033	verschmelzen	verschmelzen verschmolzen verschmilzt verschmolz verschmolzenen
+34	8034	Sequenz	sequenz sequenzen
+35	8035	Suchmaschine	suchmaschine suchmaschinen
+36	8036	Giovanni	giovanni giovannis
+37	8037	fußen	fusse fussen fuße fußen
+38	8038	unbedeutend	unbedeutend unbedeutende unbedeutenden unbedeutender unbedeutendes
+39	8039	Lebenszeit	lebenszeit lebenszeiten
+40	8040	angeschlagen	angeschlagen angeschlagenen angeschlagene angeschlagener
+41	8041	Sonnenaufgang	sonnenaufgang sonnenaufgänge sonnenaufgangs
+42	8042	Galaxie	galaxie galaxien
+43	8043	verflucht	verflucht verfluchte verfluchten verfluchter verfluchtes
+44	8044	Fichte	fichte fichten fichtner fichtes
+45	8045	Verhaltensweise	verhaltensweisen verhaltensweise
+46	8046	komfortabel	komfortabel komfortable komfortablen komfortabler komfortables komfortablere
+47	8047	Votum	votum voten gevotet votet votums
+48	8048	klarstellen	klarstellen klargestellt klarzustellen klarstellt
+49	8049	Oberstufe	oberstufe oberstufen
+50	8050	ungemein	ungemein ungemeine
+51	8051	Schlägerei	schlägerei schlägereien
+52	8052	Kurzgeschichte	kurzgeschichten kurzgeschichte
+53	8053	pragmatisch	pragmatisch pragmatische pragmatischen pragmatischer pragmatisches
+54	8054	Chemikalie	chemikalien chemikalie
+55	8055	Mitspieler	mitspieler mitspielern mitspielerin mitspielers
+56	8056	sichtlich	sichtlich sichtlicher sichtlichem
+57	8057	rausgehen	rausgehen rausgegangen rausgeht rauszugehen rausgehe rausgehst
+58	8058	zutreffend	zutreffend zutreffende zutreffenden zutreffender zutreffendes
+59	8059	bestechen	bestechen besticht bestochen bestechend bestach bestechende bestechender bestechenden besteche bestachen
+60	8060	Sozialgesetzbuch	sgb sozialgesetzbuch sozialgesetzbuches
+61	8061	Ausbeute	ausbeute ausbeuten auszubeuten ausbeutet
+62	8062	Intention	intention intentionen
+63	8063	Brigade	brigade brigaden
+64	8064	Gangster	gangster gangstern gangsters
+65	8065	Pate	pate paten patin
+66	8066	experimentieren	experimentieren experimentiert experimentierte experimentierten experimentiere experimentier
+67	8067	unvergesslich	unvergesslich unvergessliche unvergesslichen unvergessliches unvergesslicher
+68	8068	Busfahrer	busfahrer busfahrerin busfahrern busfahrers
+69	8069	Flugplatz	flugplatz flugplätze flugplatzes flugplätzen
+70	8070	Kabarett	kabarett cabaret kabaretts
+71	8071	entgegenwirken	entgegenzuwirken entgegenwirken entgegengewirkt entgegenwirkt
+72	8072	Präparat	präparate präparat präparaten präparates präparats
+73	8073	Schlucht	schlucht schluchten
+74	8074	beansprucht	beansprucht beanspruchte beanspruchten
+75	8075	verwöhnt	verwöhnt verwöhnte verwöhnten verwöhntes verwöhnter
+76	8076	diamanten	diamanten diamantene diamantenen
+77	8077	Holländer	holländer holländern holländerin holländers
+78	8078	eifersüchtig	eifersüchtig eifersüchtige eifersüchtigen eifersüchtiger
+79	8079	Festlegung	festlegung festlegungen
+80	8080	Vorstoss	vorstoss vorstösse vorstössen vorstosses vorstoß vorstöße vorstößen vorstoßes
+81	8081	Kuppel	kuppel kuppeln gekuppelt gekuppelten
+82	8082	einstecken	einstecken eingesteckt einzustecken einsteckt
+83	8083	blocken	geblockt blocken blockt blockte blocke
+84	8084	Graffiti	graffiti graffitis
+85	8085	Parasit	parasiten parasit
+86	8086	Zielsetzung	zielsetzung zielsetzungen
+87	8087	Provision	provision provisionen
+88	8088	Ausprägung	ausprägung ausprägungen
+89	8089	Pinguin	pinguine pinguin pinguinen pinguins
+90	8090	greifbar	greifbar greifbare greifbarer greifbaren greifbares
+91	8091	abgefahren	abgefahren abgefahrene abgefahrenen abgefahrener abgefahrenes
+92	8092	stocken	stocken stockt stockte stockend stockenden stockender stockten stockende stocke
+93	8093	Hort	hort horten horte gehortet hortet hortes
+94	8094	vermerkt	vermerkt vermerkte vermerkten
+95	8095	Eigentumswohnung	eigentumswohnungen eigentumswohnung etw
+96	8096	Subvention	subventionen subvention
+97	8097	Weltanschauung	weltanschauung weltanschauungen
+98	8098	Teig	teig teige teiges
+99	8099	Superstar	superstar superstars
+100	8100	Bücherei	bücherei büchereien

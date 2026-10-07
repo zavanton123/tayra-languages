@@ -1,0 +1,100 @@
+1	3901	Ber	ber
+2	3902	Eintracht	eintracht
+3	3903	Ferien	ferien
+4	3904	vorwiegend	vorwiegend
+5	3905	Zuviel	zuviel
+6	3906	physisch	physische physischen physisch physischer physisches physischem
+7	3907	Duft	duft duftet düfte dufte duften duftenden duftende düften duftend duftender
+8	3908	Gebot	gebot gebote gebots gebotes
+9	3909	Berichterstattung	berichterstattung berichterstattungen
+10	3910	Beleidigung	beleidigung beleidigungen
+11	3911	Tweet	tweet tweets
+12	3912	gekennzeichnet	gekennzeichnet gekennzeichneten gekennzeichnete gekennzeichneter
+13	3913	Asylbewerber	asylbewerber asylbewerbern asylbewerbers
+14	3914	erneuerbar	erneuerbare erneuerbaren erneuerbarer erneuerbar
+15	3915	Bruch	bruch brüche brüchen bruchs bruche brücher bruches
+16	3916	verarschen	verarschen verarscht verarsche verarsch verarschst
+17	3917	Beute	beute beuten beutet
+18	3918	abhängen	abhängen abhängt abgehängt abzuhängen abhänge abgehangen abgehängten abhing abhingen abhinge
+19	3919	Ablehnung	ablehnung ablehnungen
+20	3920	Bestätigung	bestätigung bestätigungen
+21	3921	Korrektur	korrektur korrekturen
+22	3922	Performance	performance performances
+23	3923	Sau	sau sauen säue saut
+24	3924	Pool	pool pools
+25	3925	aufwendig	aufwendig aufwändig aufwendige aufwendigen aufwendiger aufwendiges aufwendigere aufwendigste aufwendigsten aufwendigeren
+26	3926	Innovation	innovation innovationen
+27	3927	schütteln	schütteln schüttelt geschüttelt schüttelte schüttel schüttle schüttelten schüttele
+28	3928	Chinese	chinesen chinese
+29	3929	Diebstahl	diebstahl diebstahls diebstähle diebstählen
+30	3930	Hügel	hügel hügeln hügels
+31	3931	überstehen	überstanden überstehen übersteht überstand überstandener überstandenen überstehst überstehenden überstehe
+32	3932	Aufsatz	aufsatz aufsätze aufsätzen aufsatzes
+33	3933	Impuls	impulse impuls impulsen impulses
+34	3934	Mitgliedschaft	mitgliedschaft mitgliedschaften
+35	3935	Anleitung	anleitung anleitungen
+36	3936	rechtsextrem	rechtsextreme rechtsextremen rechtsextremer rechtsextrem rechtsextremes
+37	3937	Thron	thron thrones thront throne thronen throns thronenden thronte
+38	3938	Lebensjahr	lebensjahr lebensjahre lebensjahres lebensjahren lebensjahrs
+39	3939	Veranstalter	veranstalter veranstaltern veranstalters veranstalterin
+40	3940	Reis	reis reiser
+41	3941	Vermutung	vermutung vermutungen
+42	3942	kommunistisch	kommunistischen kommunistische kommunistischer kommunistisch kommunistisches
+43	3943	mitbekommen	mitbekommen mitbekommt mitbekomme mitbekam mitzubekommen mitbekommst
+44	3944	Individuum	individuen individuum individuums
+45	3945	Leipziger	leipziger leipzigern
+46	3946	Zusage	zugesagt zusage zusagen zusagt zugesagten zusagte zuzusagen zusagten
+47	3947	Säule	säulen säule
+48	3948	Passwort	passwort passwörter passwörtern passworts paßwort paßwörter paßwörtern paßworts
+49	3949	aushalten	aushalten auszuhalten ausgehalten aushält aushalte aushielt aushältst
+50	3950	Ausrüstung	ausrüstung ausrüstungen
+51	3951	Match	match matches matchen
+52	3952	Historiker	historiker historikern historikers historikerin historikerinnen
+53	3953	befindlich	befindlichen befindliche befindlicher befindliches befindlich
+54	3954	Werder	werder werders
+55	3955	Bewerber	bewerber bewerbern bewerberinnen bewerbers bewerberin
+56	3956	Testament	testament testaments testamente testamentes testamenten
+57	3957	flexibel	flexibel flexible flexibler flexiblen flexibles flexiblere flexibleren
+58	3958	Ausfall	ausfall ausfälle ausfällen ausfällt ausfalls ausfalle
+59	3959	Einbruch	einbruch einbrüche einbrüchen einbruchs
+60	3960	Fpö	fpö
+61	3961	nunmehr	nunmehr
+62	3962	Tennis	tennis
+63	3963	wider	wider
+64	3964	zwanzig	zwanzig
+65	3965	Rezension	rezension rezensionen
+66	3966	klettern	klettern klettert kletterte geklettert kletterten kletter klettere
+67	3967	Id	id ids
+68	3968	Hemd	hemd hemden hemdchen hemdes
+69	3969	missbrauchen	missbraucht missbrauchen missbrauchte missbrauchten missbrauche mißbraucht mißbrauchen mißbrauchte mißbrauchten mißbrauche
+70	3970	Engländer	engländer engländern engländerin engländers
+71	3971	Ortsteil	ortsteil ortsteilen ortsteile ortsteils ortsteiles
+72	3972	Office	office offices
+73	3973	ausgeprägt	ausgeprägt ausgeprägten ausgeprägte ausgeprägter ausgeprägtes ausgeprägtem
+74	3974	Orden	orden ordens
+75	3975	Formulierung	formulierung formulierungen
+76	3976	Pressekonferenz	pressekonferenz pk pressekonferenzen
+77	3977	drinnen	drinnen drinne
+78	3978	Quadratmeter	quadratmeter qm quadratmetern
+79	3979	Vormittag	vormittag vormittags vormittage vormittagen
+80	3980	Hure	hure huren hurt hur hurst
+81	3981	Aktivist	aktivisten aktivist aktivistin aktivistinnen
+82	3982	verkürzen	verkürzt verkürzen verkürzte verkürzten verkürzter verkürztes verkürze
+83	3983	zart	zart zarte zarten zartes zarter zartem
+84	3984	Landgericht	landgericht landgerichts landgerichte landgerichtes landgerichten
+85	3985	respektieren	respektieren respektiert respektiere respektierte respektierten respektierter respektier respektierst
+86	3986	ausdenken	ausgedacht ausdenken auszudenken ausdenkt ausgedachten ausdachte
+87	3987	Ergänzung	ergänzung ergänzungen
+88	3988	detailliert	detaillierte detailliert detaillierten detaillierter detailliertere detailliertes detaillierteren
+89	3989	Vermieter	vermieter vermieterin vermieters vermietern
+90	3990	aufzeigen	aufzeigen aufgezeigt aufzuzeigen aufzeigt aufgezeigten aufzeigte aufzeigten
+91	3991	Aufregung	aufregung aufregungen
+92	3992	Download	download downloads
+93	3993	verliehen	verliehen verliehenen verliehene
+94	3994	Auszug	auszug auszüge auszügen auszugs
+95	3995	vollendet	vollendet vollendete vollendeten vollendeter vollendetes vollendetem
+96	3996	Auftraggeber	ag auftraggeber auftraggebers auftraggebern
+97	3997	Brunnen	brunnen brunnens brun bronnen
+98	3998	engagieren	engagieren engagierte engagierten engagiere engagierst
+99	3999	Ski	ski skier skiern schi skis
+100	4000	zunehmen	zugenommen zunehmen zunimmt zunahm zuzunehmen zunehme zunahmen

@@ -1,0 +1,100 @@
+1	8601	verneinen	verneint verneinen verneinte verneinten verneine
+2	8602	Angelika	angelika
+3	8603	Ausdauer	ausdauer
+4	8604	crazy	crazy
+5	8605	Dez	dez
+6	8606	Drk	drk
+7	8607	Einbeziehung	einbeziehung
+8	8608	Einweihung	einweihung
+9	8609	Elfmeter	elfmeter
+10	8610	Faszination	faszination
+11	8611	Heimweg	heimweg
+12	8612	Herausgabe	herausgabe
+13	8613	Herman	herman
+14	8614	hu	hu
+15	8615	Janeiro	janeiro
+16	8616	Kakao	kakao
+17	8617	Rechtsextremismus	rechtsextremismus
+18	8618	Schlamm	schlamm
+19	8619	schlichtweg	schlichtweg
+20	8620	Verfügbarkeit	verfügbarkeit
+21	8621	Vermarktung	vermarktung
+22	8622	vierzig	vierzig
+23	8623	Vollständigkeit	vollständigkeit
+24	8624	Zucht	zucht
+25	8625	Zuversicht	zuversicht
+26	8626	zuweilen	zuweilen
+27	8627	Piste	piste pisten
+28	8628	Neuheit	neuheiten neuheit
+29	8629	Selfie	selfie selfies
+30	8630	einheimisch	einheimischen einheimische einheimisch einheimisches
+31	8631	großflächig	grossflächig grossflächige grossflächigen grossflächiger grossflächiges großflächig großflächige großflächigen großflächiger großflächiges
+32	8632	Kalk	kalk kalke kalken
+33	8633	abrechnen	abgerechnet abrechnen abzurechnen abrechnet abgerechneten
+34	8634	Granit	granit granite graniten
+35	8635	studentisch	studentische studentischen studentischer studentisches studentisch
+36	8636	relativieren	relativiert relativieren relativierte relativierer relativierend
+37	8637	Blickwinkel	blickwinkel blickwinkeln blickwinkels
+38	8638	Seuche	seuche seuchen
+39	8639	Reaktor	reaktor reaktoren reaktors
+40	8640	langwierig	langwierigen langwierige langwierig langwieriger langwieriges
+41	8641	lukrativ	lukrative lukrativ lukrativen lukrativer lukratives lukrativsten
+42	8642	Kinderbuch	kinderbuch kinderbücher kinderbüchern
+43	8643	Cheftrainer	cheftrainer cheftrainers
+44	8644	Landesliga	landesliga landesligen
+45	8645	Benennung	benennung benennungen
+46	8646	Ankauf	ankauf ankäufe ankaufs ankäufen
+47	8647	Kreuzer	kreuzer kreuzern kreuzers
+48	8648	Dreijährige	dreijährigen dreijährige dreijähriger dreijährigem
+49	8649	Reflex	reflex reflexe reflexen
+50	8650	umsehen	umsehen umgesehen umzusehen umsieht umsah umsehe
+51	8651	zusammenschließen	zusammengeschlossen zusammenschliessen zusammengeschlossenen zusammenzuschliessen zusammenschlossen zusammenschließen zusammenzuschließen
+52	8652	knallhart	knallhart knallharte knallharten knallharter knallhartes
+53	8653	hergeben	hergeben hergibt hergegeben herzugeben hergab
+54	8654	Lastwagen	lastwagen lastwagens
+55	8655	vorbringen	vorbringen vorgebracht vorgebrachten vorzubringen vorbringt vorbrachte
+56	8656	Magier	magier magiers magierin magiern
+57	8657	Schriftzug	schriftzug schriftzüge schriftzügen
+58	8658	Schilderung	schilderung schilderungen
+59	8659	resultiert	resultiert resultierte resultierten
+60	8660	Protestant	protestanten protestant protestantin
+61	8661	Idol	idol idole idols idolen
+62	8662	runterladen	runterladen runtergeladen runterzuladen runterlädt
+63	8663	Einsturz	einsturz eingestürzt einstürzen einstürzende einzustürzen eingestürzten einstürzte einstürzt einsturzes
+64	8664	Belästigung	belästigung belästigungen
+65	8665	delegieren	delegierten delegierte delegiert delegieren
+66	8666	afghanisch	afghanische afghanischen afghanischer afghanisch
+67	8667	Schachtel	schachtel schachteln
+68	8668	Enthüllung	enthüllungen enthüllung
+69	8669	zeitweilig	zeitweilig zeitweiligen zeitweilige zeitweiliger zeitweiliges
+70	8670	Auszahlung	auszahlung auszahlungen
+71	8671	Kundschaft	kundschaft kundschafter
+72	8672	Turn	turn turns
+73	8673	Meditation	meditation meditationen
+74	8674	Verdi	verdi verdis
+75	8675	humorvoll	humorvoll humorvolle humorvollen humorvoller humorvolles
+76	8676	einschüchtern	einschüchtern eingeschüchtert einzuschüchtern einschüchternd einschüchtert
+77	8677	kroatisch	kroatischen kroatische kroatisch kroatischer
+78	8678	vordringen	vordringen vorgedrungen vorzudringen vordringt vordrang vordrangen vordringenden
+79	8679	kindisch	kindisch kindische kindischen kindischer kindisches
+80	8680	Kaiserreich	kaiserreich kaiserreichs kaiserreiches
+81	8681	bedrängen	bedrängt bedrängen bedrängten bedrängte
+82	8682	Baumeister	baumeister baumeisters baumeistern
+83	8683	verwerten	verwerten verwertet verwertete verwerteten
+84	8684	kompatibel	kompatibel kompatible kompatiblen kompatibler kompatibles
+85	8685	stressig	stressig stressigen stressige stressiger
+86	8686	Phantom	phantom phantoms phantome
+87	8687	offenkundig	offenkundig offenkundige offenkundigen offenkundiger
+88	8688	palästinensisch	palästinensischen palästinensische palästinensischer palästinensisches
+89	8689	ökumenisch	ökumenischen ökumenische ökumenischer ökumenisches ökumenisch
+90	8690	Monopol	monopol monopole monopolen monopols
+91	8691	manifest	manifest manifeste manifests manifesten manifestes
+92	8692	baldig	baldige baldigen baldiges baldiger
+93	8693	Born	born borne borns
+94	8694	Getto	ghetto getto gettos
+95	8695	Altersklasse	altersklasse altersklassen
+96	8696	verdreht	verdreht verdrehte verdrehten verdrehter verdrehtes
+97	8697	Brennstoff	brennstoff brennstoffe brennstoffen brennstoffs brennstoffes
+98	8698	Glücksspiel	glücksspiel glücksspiele glücksspiels glücksspielen
+99	8699	Leuchtturm	leuchtturm leuchttürme leuchtturms leuchttürmen
+100	8700	psycho	psycho psychos

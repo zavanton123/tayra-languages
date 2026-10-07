@@ -1,0 +1,100 @@
+1	3601	Medaille	medaille medaillen
+2	3602	verschieben	verschieben verschiebt verschob verschiebe verschieb verschiebst
+3	3603	Braut	braut bräutigam bräute bräutigams bräuten
+4	3604	Burger	burger burgern burgers
+5	3605	Npd	npd nps
+6	3606	Bestellung	bestellung bestellungen
+7	3607	Ausweis	ausweis ausweisen ausweise auszuweisen ausweist ausweises auswies auswiesen
+8	3608	Orchester	orchester orchesters orchestern
+9	3609	abweichen	abweichen abweichende abweichend abweicht abweichenden abgewichen abzuweichen abweichender abweichendes abwich
+10	3610	Adler	adler adlers adlern
+11	3611	nachkommen	nachkommen nachzukommen nachgekommen nachkomme nachkommt nachkam nachkommenden nachkamen
+12	3612	Maschinengewehr	mg maschinengewehr maschinengewehre maschinengewehren
+13	3613	Bob	bob bobs
+14	3614	Stellungnahme	stellungnahme stellungnahmen
+15	3615	Halbzeit	halbzeit halbzeiten
+16	3616	Gutachten	gutachten gutachtens
+17	3617	zulässig	zulässig zulässige zulässigen zulässiger zulässiges
+18	3618	prägen	prägen prägt prägte prägten prägend prägende prägenden präge prägendes prägender
+19	3619	Coach	coach coaches coachen gecoacht coachte coachs coacht
+20	3620	Hag	hagen hag hage
+21	3621	Angel	angel angeln angler angle geangelt angelt anglern angele angelte
+22	3622	aufmachen	aufmachen aufgemacht aufmacht aufzumachen aufmacher aufmachte aufmachst aufmache aufmachten
+23	3623	Kunstwerk	kunstwerk kunstwerke kunstwerken kunstwerks kunstwerkes
+24	3624	einsteigen	einsteigen eingestiegen einzusteigen einsteigt einsteige einsteigst einstiegen einstiege
+25	3625	Bundeskanzler	bundeskanzler bundeskanzlerin bundeskanzlers
+26	3626	wundervoll	wundervoll wundervolle wundervollen wundervolles wundervoller wundervollste wundervollsten
+27	3627	benachbart	benachbarten benachbarte benachbarter benachbart benachbartes
+28	3628	angeordnet	angeordnet angeordneten angeordnete angeordneter
+29	3629	erschrecken	erschreckend erschrecken erschreckt erschrickt erschrak erschreckte erschrecke erschreck erschreckten erschreckst
+30	3630	zuverlässig	zuverlässig zuverlässige zuverlässiger zuverlässigen zuverlässiges zuverlässigsten zuverlässigste zuverlässigere
+31	3631	Titte	titten titte tittchen
+32	3632	Tante	tante tanten tantchen
+33	3633	ungarisch	ungarischen ungarische ungarisch ungarischer ungarisches ungarischem
+34	3634	Mythos	mythos mythen mythus
+35	3635	sympathisch	sympathisch sympathischer sympathische sympathischen sympathisches sympathischsten
+36	3636	infolge	infolge
+37	3637	just	just
+38	3638	seither	seither
+39	3639	unterhalb	unterhalb
+40	3640	fix	fix fixen fixe fixer gefixt fixes fixt
+41	3641	Zugriff	zugriff zugriffe zugriffs zugriffen
+42	3642	Behinderung	behinderung behinderungen
+43	3643	Apotheke	apotheke apotheken
+44	3644	erneuern	erneuert erneuern erneuerte erneuerten erneuere erneuernde erneuertes
+45	3645	Katalog	katalog kataloge katalogen katalogs kataloges
+46	3646	Kapazität	kapazität kapazitäten kappa
+47	3647	telefonieren	telefonieren telefoniert telefoniere telefonierte telefonierten telefonierst telefonier
+48	3648	abschliessend	abschliessend abschliessenden abschliessende abschliessendes abschliessender abschliessendem abschließend abschließenden abschließende abschließendes
+49	3649	vorherig	vorherigen vorherige vorheriger vorheriges vorherigem
+50	3650	hinterer	hinteren hintere hintersten hinterer hinterste hinteres hinterem
+51	3651	Daumen	daumen däumchen daumens
+52	3652	prima	prima primas primaten
+53	3653	Besonderheit	besonderheiten besonderheit
+54	3654	Bearbeitung	bearbeitung bearbeitungen bearbeitungs
+55	3655	heulen	heulen heult heul geheult heulend heule heulst heulte heulenden heulende
+56	3656	aufkommen	aufkommen aufkommt aufkommenden aufgekommen aufkam aufzukommen aufkamen aufgekommenen aufkommens aufgekommene
+57	3657	Unglück	unglück unglücks unglücke unglücken
+58	3658	gestatten	gestattet gestatten gestattete gestatte gestatteten gestattest
+59	3659	orientiert	orientiert orientierte orientierten orientierter orientiertes
+60	3660	Elite	elite eliten
+61	3661	Fließ	fliessen floss geflossen fliess flösse flössen flösst flossen fließen floß
+62	3662	Lampe	lampe lampen lämpchen lamp
+63	3663	Haupt	haupt hauptes häupter haupte häuptern haupts
+64	3664	Rücktritt	rücktritt rücktritts rücktritte rücktritten
+65	3665	Geheimdienst	geheimdienst geheimdienste geheimdiensten geheimdienstes
+66	3666	erledigen	erledigen erledige erledigte erledigten erledigst erledigenden
+67	3667	Führerschein	führerschein führerscheine führerscheins führerscheinen
+68	3668	nachträglich	nachträglich nachträgliche nachträglichen nachträglicher nachträgliches
+69	3669	dementsprechend	dementsprechend dementsprechende dementsprechenden
+70	3670	Tagebuch	tagebuch tagebücher tagebüchern tagebuchs
+71	3671	Einheimischer	einheimischen einheimische einheimischer
+72	3672	verletzen	verletzen verletzte verletzten verletze verletzend verletzende verletzenden verletz
+73	3673	zukommen	zukommen zukommt zugekommen zukam zukomme zukommenden zukamen
+74	3674	Studierender	studierenden studierende studierender
+75	3675	stetig	stetig stetige stetigen stetiger stetiges stetigem
+76	3676	Geruch	geruch gerüche geruchs gerüchen
+77	3677	entschlossen	entschlossen entschlossene entschlossenen entschlossener entschlossenes entschlossenem
+78	3678	Neffe	neffe nichte neffen nichten
+79	3679	Rohr	rohr rohre rohren röhrchen rohres rohrs
+80	3680	Angeklagter	angeklagten angeklagte angeklagter
+81	3681	Dimension	dimension dimensionen
+82	3682	Reisender	reisende reisenden reisender
+83	3683	Express	express expressen
+84	3684	Publikation	publikationen publikation
+85	3685	Knopf	knopf knöpfe knöpfen knopp knöpfchen knöpft knöpfte knopfes knopfe
+86	3686	Kader	kader kaders kadern
+87	3687	Datenbank	datenbank datenbanken
+88	3688	stoßen	stossen stoss stoßen stoß
+89	3689	anerkennen	anerkennen anzuerkennen anerkennt anerkannte anerkannten anerkennend anerkenne anerkennende anerkennenden anerkennendes
+90	3690	Strich	strich striche strichen
+91	3691	Tasse	tasse tassen tässchen
+92	3692	Missbrauch	missbrauch missbrauchs missbrauche missbräuche missbräuchen mißbrauch mißbrauche
+93	3693	einseitig	einseitig einseitige einseitigen einseitiger einseitiges einseitigem
+94	3694	Wohnzimmer	wohnzimmer wohnzimmern wohnzimmers
+95	3695	unerwartet	unerwartet unerwartete unerwarteten unerwartetes unerwarteter unerwartetem
+96	3696	Queen	queen queens
+97	3697	Spektrum	spektrum spektrums spektren
+98	3698	brav	brav brave braven braver braves braf
+99	3699	Empfänger	empfänger empfängern empfängers empfängerin
+100	3700	Feder	feder federn federt federnd federnden federnde

@@ -1,0 +1,100 @@
+1	3301	daheim	daheim
+2	3302	Propaganda	propaganda
+3	3303	Wut	wut
+4	3304	syrisch	syrische syrischen syrischer syrisch syrisches syrischem
+5	3305	Erhöhung	erhöhung erhöhungen
+6	3306	Kanton	kanton kantons kantone kantonen
+7	3307	ablegen	abgelegt ablegen abzulegen ablegt ablegte abgelegten ablegten ablege abgelegter
+8	3308	ländlich	ländlichen ländliche ländlicher ländlich ländliches ländlichem
+9	3309	Protokoll	protokoll protokolle protokolls protokollen
+10	3310	entnehmen	entnehmen entnommen entnehme entnahm entnimmt entnahmen entnommenen entnommene
+11	3311	House	house houses
+12	3312	agieren	agieren agiert agierte agierenden agierten agierender agiere
+13	3313	Überwachung	überwachung überwachungs überwachungen
+14	3314	Mörder	mörder mörders mördern mörderin mörderinnen
+15	3315	Kurve	kurve kurven kurvt
+16	3316	Faust	faust fäuste fäusten fäustchen
+17	3317	Panzer	panzer panzern pz gepanzerten gepanzerte panzers gepanzert gepanzerter gepanzertes
+18	3318	vermutet	vermutet vermutete vermuteten vermuteter
+19	3319	Vorgänger	vorgänger vorgängers vorgängern vorgängerin
+20	3320	Einschätzung	einschätzung einschätzungen
+21	3321	Denkmal	denkmal denkmäler denkmals denkmälern denkmale denkmalen
+22	3322	Vergnügen	vergnügen vergnügt vergnügens vergnügte vergnügten vergnüge
+23	3323	ökonomisch	ökonomischen ökonomische ökonomisch ökonomischer ökonomisches ökonomischem
+24	3324	fleißig	fleissig fleissigen fleissige fleissiger fleissiges fleissigsten fleissigste fleißig fleißigen fleißige
+25	3325	Terror	terror terrors
+26	3326	Bär	bär bären bärchen bärin
+27	3327	kotzen	kotzen kotzt kotze kotz gekotzt kotzte
+28	3328	extern	externe externen externer extern externes externem
+29	3329	deutschsprachig	deutschsprachigen deutschsprachige deutschsprachiger deutschsprachig deutschsprachiges deutschsprachigem
+30	3330	Episode	episode episoden
+31	3331	einmalig	einmalige einmalig einmaligen einmaliges einmaliger einmaligem
+32	3332	umstritten	umstritten umstrittene umstrittenen umstrittener umstrittenes umstrittensten umstrittenste
+33	3333	aufwachen	aufwachen aufgewacht aufwacht aufzuwachen aufwache aufwachte aufwachst
+34	3334	Verkäufer	verkäufer verkäuferin verkäufers verkäufern verkäuferinnen
+35	3335	Armut	armut armuts
+36	3336	niederländisch	niederländischen niederländische niederländisch niederländischer niederländisches niederländischem
+37	3337	sozialistisch	sozialistischen sozialistische sozialistischer sozialistisch sozialistisches sozialistischem
+38	3338	vorläufig	vorläufig vorläufigen vorläufige vorläufiges vorläufiger
+39	3339	ernennen	ernannt ernannte ernennen ernannten ernennt ernannter ernenne
+40	3340	Taxi	taxi taxis taxen taxe
+41	3341	Ausgang	ausgang ausgänge ausgangs ausgängen
+42	3342	Maske	maske masken
+43	3343	aussprechen	aussprechen auszusprechen ausspricht aussprach ausspreche aussprachen aussprichst
+44	3344	Bündnis	bündnis bündnisses bündnisse bündnissen
+45	3345	tropfen	tropfen tropft tropf tröpfchen tropfte getropft tropfenden tropfe
+46	3346	Content	content contents
+47	3347	fotografieren	fotografieren fotografiert fotografierte fotografiere fotografierten fotografierst fotografier
+48	3348	Feiertag	feiertag feiertage feiertagen feiertags feiertages
+49	3349	Überzeugung	überzeugung überzeugungen
+50	3350	orange	orange orangen orangenen orangene oranges oranger orangener
+51	3351	Erziehung	erziehung erziehungs
+52	3352	Depression	depression depressionen
+53	3353	vornehmen	vornehmen vorzunehmen vornimmt vornehme vornahm vornahmen
+54	3354	Kartoffel	kartoffeln kartoffel
+55	3355	afrikanisch	afrikanischen afrikanische afrikanischer afrikanisches afrikanisch afrikanischem
+56	3356	Boss	boss bosse bossen bosses boß boße boßen
+57	3357	verzweifelt	verzweifelt verzweifelte verzweifelten verzweifelter verzweifeltes
+58	3358	pfeifen	pfeifen pfeife pfeift pfiff gepfiffen pfiffe pfeif pfiffen pfeifend pfeifenden
+59	3359	neigen	neigt neigen geneigt neige geneigten geneigte neigte neigten geneigter neigst
+60	3360	College	college colleges
+61	3361	derart	derart
+62	3362	dorthin	dorthin
+63	3363	einverstanden	einverstanden
+64	3364	First	first
+65	3365	nebenbei	nebenbei
+66	3366	power	power
+67	3367	woran	woran
+68	3368	DJ	dj djs
+69	3369	rutschen	rutschen rutscht rutsch rutschte gerutscht rutsche rutschten
+70	3370	Schaf	schafe schaf schafen schäfchen schäflein schafs schafes
+71	3371	Antike	antike antiken
+72	3372	schwäbisch	schwäbisch schwäbischen schwäbische schwäbischer schwäbisches
+73	3373	Staatsanwaltschaft	staatsanwaltschaft staatsanwaltschaften
+74	3374	Schlange	schlange schlangen
+75	3375	arbeitslos	arbeitslos arbeitslose arbeitslosen arbeitsloser
+76	3376	analog	analog analoge analogen analoges analoger analogem
+77	3377	ermitteln	ermitteln ermittelten ermittelte ermittelnden ermittle ermittelnde
+78	3378	ausführen	ausführen auszuführen ausführt ausführte ausführenden ausführten ausführe ausführst
+79	3379	Monster	monster monstern monsters
+80	3380	Durchmesser	durchmesser durchmessern durchmessers
+81	3381	Tank	tank tanken tanks getankt tanke tankt tankte
+82	3382	Abbau	abbau abbauen abzubauen abbaus abbaut abbauten
+83	3383	Sportler	sportler sportlern sportlerin sportlers
+84	3384	Straftat	straftaten straftat
+85	3385	Horn	horn hörner hörnern hörnchen horns horne hörnle hörnli
+86	3386	pünktlich	pünktlich pünktliche pünktlicher pünktlichen
+87	3387	interpretieren	interpretiert interpretieren interpretierte interpretiere interpretierten interpretierst
+88	3388	blond	blonde blond blonden blondes blonder blondem
+89	3389	Gläubiger	gläubigen gläubiger gläubige gläubigern gläubigers
+90	3390	Komponente	komponenten komponente
+91	3391	Tempo	tempo tempi tempos
+92	3392	verfasst	verfasst verfasste verfassten verfasstes verfasster verfaßt
+93	3393	Minderheit	minderheit minderheiten
+94	3394	heimisch	heimischen heimische heimisch heimischer heimischem heimisches
+95	3395	Erhebung	erhebung erhebungen
+96	3396	letztendlich	letztendlich letztendliche letztendlichen
+97	3397	Wärme	wärme
+98	3398	äh	äh
+99	3399	verdanken	verdanken verdankt verdanke verdankte verdankten verdankst
+100	3400	Scherz	scherz scherze scherzen scherzt scherzte gescherzt scherzend scherzten scherzes

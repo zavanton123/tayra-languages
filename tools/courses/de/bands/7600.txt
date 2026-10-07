@@ -1,0 +1,100 @@
+1	7501	verschrieben	verschrieben verschriebenen verschriebene
+2	7502	Zehntausende	zehntausende zehntausenden
+3	7503	Truck	truck trucks
+4	7504	robben	robben robbe robb
+5	7505	Metzger	metzger metzgers metzgern
+6	7506	lauern	lauern lauert lauerte laure lauerten lauernden gelauert lauernd
+7	7507	riskant	riskant riskante riskanten riskanter riskantes
+8	7508	Marktanteil	marktanteil marktanteile marktanteilen marktanteils
+9	7509	vermischt	vermischt vermischtes vermischte vermischten
+10	7510	Makler	makler maklern maklerin maklers
+11	7511	zerren	zerren gezerrt zerrt zerrte zerrung zerrten zerr zerrungen zerre
+12	7512	sensationell	sensationell sensationelle sensationellen sensationeller sensationelles
+13	7513	berauben	beraubt berauben beraubte beraubten beraube
+14	7514	dehnen	dehnen dehnt gedehnt dehnte dehn dehne dehnten gedehnten gedehnte
+15	7515	Schott	schott schotten schotts
+16	7516	Gewissheit	gewissheit gewissheiten gewißheit
+17	7517	ausgestrahlt	ausgestrahlt ausgestrahlten ausgestrahlte
+18	7518	Parkhaus	parkhaus parkhäuser parkhäusern parkhauses
+19	7519	Erwägung	erwägung erwägungen
+20	7520	Zitrone	zitrone zitronen
+21	7521	orientalisch	orientalische orientalischen orientalischer orientalisch orientalisches orientalischem
+22	7522	inhaftiert	inhaftiert inhaftierten inhaftierte inhaftierter
+23	7523	Nike	nike nikes
+24	7524	Turbo	turbo turbos
+25	7525	zuführen	zugeführt zuführen zuzuführen zuführt zugeführten
+26	7526	Theaterstück	theaterstück theaterstücke theaterstücken theaterstücks theaterstückes
+27	7527	Traktor	traktor traktoren traktors
+28	7528	Entzündung	entzündung entzündungen
+29	7529	Dynamo	dynamo dynamos
+30	7530	Anschein	anschein anscheinen anscheins
+31	7531	schminken	schminken schminke geschminkt schminkt schmink geschminkten
+32	7532	Hypothese	hypothese hypothesen
+33	7533	Lebensstil	lebensstil lebensstils lebensstile lebensstilen
+34	7534	herb	herb herbe herber herben herbes herbstes
+35	7535	Geflüchteter	geflüchteten geflüchtete geflüchteter
+36	7536	Fälschung	fälschung fälschungen
+37	7537	Bauherr	bauherren bauherr bauherrn
+38	7538	verfickt	verfickte verfickten verfickt verficktes verfickter
+39	7539	Prozessor	prozessor prozessoren prozessors
+40	7540	verspüren	verspürt verspüren verspüre verspürte verspürst verspürten
+41	7541	seufzen	seufz seufzt seufzen seufzte seufzend seufze
+42	7542	Treppenhaus	treppenhaus treppenhäuser treppenhauses treppenhäusern
+43	7543	anknüpfen	anknüpfen anzuknüpfen angeknüpft anknüpft anknüpfend anknüpfte
+44	7544	gleiten	gleiten gleitet glitt gleitenden glitten gleite gleitend gleit geglitten
+45	7545	Einlage	einlagen einlage
+46	7546	errechnen	errechnet errechnen errechnete errechneten
+47	7547	mobilisieren	mobilisieren mobilisiert mobilisierte mobilisierten
+48	7548	Postleitzahl	plz postleitzahl postleitzahlen
+49	7549	vage	vage vagen vager vages
+50	7550	Boxer	boxer boxers boxerin boxern
+51	7551	planmäßig	planmässig planmässige planmässigen planmässiger planmäßig planmäßige planmäßigen planmäßiger
+52	7552	Zuschlag	zuschlag zuschläge zuschlägen zuschlags
+53	7553	unbequem	unbequem unbequeme unbequemen unbequemer unbequemes
+54	7554	Anbetracht	anbetracht
+55	7555	Ausgebildete	ausgebildete
+56	7556	auswärts	auswärts
+57	7557	Beseitigung	beseitigung
+58	7558	Droge	droge
+59	7559	Durst	durst
+60	7560	Flexibilität	flexibilität
+61	7561	Gültigkeit	gültigkeit
+62	7562	Kieler	kieler
+63	7563	Lat	lat
+64	7564	Lotto	lotto
+65	7565	Paulo	paulo
+66	7566	Prix	prix
+67	7567	Souveränität	souveränität
+68	7568	unterdessen	unterdessen
+69	7569	Unterwäsche	unterwäsche
+70	7570	Wiederherstellung	wiederherstellung
+71	7571	Ballon	ballon ballons ballone
+72	7572	Tierheim	tierheim tierheime tierheimen tierheims
+73	7573	Mobbing	mobbing mobbings
+74	7574	Weltraum	weltraum weltraums
+75	7575	erschlossen	erschlossen erschlossenen erschlossene
+76	7576	verschlüsselt	verschlüsselt verschlüsselte verschlüsselten verschlüsselter verschlüsseltes
+77	7577	Überrest	überreste überresten überrest
+78	7578	Torwart	torwart torwarts
+79	7579	bewilligen	bewilligt bewilligte bewilligen bewilligten
+80	7580	süchtig	süchtig süchtigen süchtige süchtiger
+81	7581	eingesperrt	eingesperrt eingesperrten eingesperrte
+82	7582	Treff	treff treffs
+83	7583	Inder	inder indern
+84	7584	Lügner	lügner lügnerin lügnern
+85	7585	Toyota	toyota toyotas
+86	7586	Moos	moos moose moosen möser
+87	7587	Gag	gag gags
+88	7588	Karikatur	karikatur karikaturen
+89	7589	walken	walk walken walke
+90	7590	Bildhauer	bildhauer bildhauers bildhauerin bildhauern
+91	7591	Brandenburger	brandenburger brandenburgern
+92	7592	Mitgliederversammlung	mitgliederversammlung mitgliederversammlungen
+93	7593	Pyramide	pyramide pyramiden
+94	7594	Palette	palette paletten
+95	7595	Lehrling	lehrling lehrlinge lehrlingen lehrlings
+96	7596	Desktop	desktop desktops
+97	7597	Torhüter	torhüter torhüterin torhüters torhütern
+98	7598	Wanne	wanne wannen
+99	7599	Defensive	defensive defensiven
+100	7600	Gesinnung	gesinnung gesinnungen

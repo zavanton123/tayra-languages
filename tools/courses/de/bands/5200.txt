@@ -1,0 +1,100 @@
+1	5101	fränkisch	fränkischen fränkische fränkisch fränkischer fränkisches fränkischem
+2	5102	Terrasse	terrasse terrassen
+3	5103	Kneipe	kneipe kneipen kneip
+4	5104	Erzbischof	erzbischof erzbischofs erzbischöfe erzbischöfen
+5	5105	Verbrauch	verbrauch verbrauchs verbrauche verbräuche
+6	5106	aufbrechen	aufbrechen aufgebrochen aufzubrechen aufbrach aufbricht aufbrachen aufgebrochenen aufgebrochene
+7	5107	weiterentwickeln	weiterentwickelt weiterentwickeln weiterzuentwickeln weiterentwickelte weiterentwickelten
+8	5108	Ära	ära aera
+9	5109	Athlet	athleten athlet athletin
+10	5110	Entschädigung	entschädigung entschädigungen
+11	5111	Südwest	sw südwest
+12	5112	Zwilling	zwillinge zwilling zwillingen zwillings
+13	5113	Perle	perlen perle perlt
+14	5114	Deckel	deckel deckeln gedeckelt deckelung deckels
+15	5115	Gastronomie	gastronomie gastro
+16	5116	klammern	klammern klammer klammert klammerte geklammert klammere klammerten
+17	5117	Depp	depp deppen deppe
+18	5118	Wal	wales wal wale wals walen
+19	5119	Sonnenschein	sonnenschein sonnenscheins
+20	5120	Gruppierung	gruppierungen gruppierung
+21	5121	überreichen	überreicht überreichen überreichte überreichten überreiche überreich
+22	5122	grandios	grandios grandiose grandiosen grandioser grandioses grandiosem
+23	5123	eindrucksvoll	eindrucksvoll eindrucksvolle eindrucksvollen eindrucksvoller eindrucksvolles eindrucksvollsten eindrucksvollste
+24	5124	Premier	premier premiers
+25	5125	Aufsichtsrat	aufsichtsrat aufsichtsrats aufsichtsrates aufsichtsräte aufsichtsräten
+26	5126	belgisch	belgischen belgische belgischer belgisch belgisches belgischem
+27	5127	gefälscht	gefälscht gefälschte gefälschten gefälschter gefälschtes gefälschtem
+28	5128	gewaltsam	gewaltsam gewaltsamen gewaltsame gewaltsamer gewaltsames
+29	5129	Karneval	karneval karnevals
+30	5130	Illusion	illusion illusionen
+31	5131	Petition	petition petitionen
+32	5132	Bit	bit bits
+33	5133	Grammatik	grammatik grammatiken
+34	5134	westfälisch	westfälischen westfälische westfälischer westfälisches westfälisch
+35	5135	Pistole	pistole pistolen
+36	5136	abgelaufen	abgelaufen abgelaufenen abgelaufene abgelaufener abgelaufenem
+37	5137	strukturell	strukturelle strukturellen strukturell struktureller strukturelles strukturellem
+38	5138	Entlassung	entlassung entlassungen
+39	5139	Überschrift	überschrift überschriften
+40	5140	Dozent	dozenten dozent dozentin dozentinnen
+41	5141	Therapeut	therapeuten therapeut therapeutin thera therapeutinnen
+42	5142	stundenlang	stundenlang stundenlange stundenlangen stundenlanges stundenlangem stundenlanger
+43	5143	Nachfolge	nachfolge nachfolgen nachfolgt nachfolgte nachgefolgt nachzufolgen
+44	5144	materiell	materiellen materielle materiell materieller materielles materiellem
+45	5145	Puls	puls pulse pulses pulsen
+46	5146	lau	lau lauer laue lauen läuse laus laues läusen
+47	5147	Sekretär	sekretär sekretärin sekretärinnen sekretärs sekretäre
+48	5148	Antisemitismus	antisemitismus
+49	5149	Auftakt	auftakt
+50	5150	Erhaltung	erhaltung
+51	5151	Hardware	hardware
+52	5152	inmitten	inmitten
+53	5153	inne	inne
+54	5154	Kriminalität	kriminalität
+55	5155	Meinungsfreiheit	meinungsfreiheit
+56	5156	Versand	versand
+57	5157	üblicherweise	üblicherweise
+58	5158	zwiebeln	zwiebeln zwiebel
+59	5159	verringert	verringert verringerte verringerten verringerter verringertes verringertem
+60	5160	Umstellung	umstellung umstellungen
+61	5161	roden	rod rode rott roden rotten gerodet rotte rottet rodt gerodeten
+62	5162	zugehörig	zugehörigen zugehörige zugehörig zugehöriger zugehöriges zugehörigem
+63	5163	Oberlandesgericht	olg oberlandesgericht oberlandesgerichts oberlandesgerichtes oberlandesgerichte
+64	5164	entsetzen	entsetzt entsetzen entsetzte entsetzten entsetzens
+65	5165	Kabinett	kabinett kabinetts kabinette kabinetten
+66	5166	Panorama	panorama panoramen panoramas
+67	5167	Arbeitskraft	arbeitskräfte arbeitskraft arbeitskräften
+68	5168	fortgeschritten	fortgeschrittene fortgeschritten fortgeschrittenen fortgeschrittener fortgeschrittenem fortgeschrittenes fortgeschritteneren
+69	5169	Banane	bananen banane
+70	5170	Fell	fell felle fellen fells
+71	5171	dual	dual dualen duale duales dualer
+72	5172	überqueren	überqueren überquert überquerte überquerten überquere
+73	5173	überholt	überholt überholte überholten überholtes
+74	5174	Steuerzahler	steuerzahler steuerzahlern steuerzahlers
+75	5175	erliegen	erliegen erlag erlegen erlegt erliegt erlegte erlegten erlagen
+76	5176	Gate	gates gate
+77	5177	Missverständnis	missverständnis missverständnisse missverständnissen missverständnisses mißverständnisse mißverständniße mißverständnisses mißverständnißes
+78	5178	Erwerb	erwerb erwerbs erwerbe
+79	5179	stationär	stationären stationäre stationär stationärer stationäres
+80	5180	zuschreiben	zugeschrieben zuzuschreiben zuschreiben zuschreibt zugeschriebenen zugeschriebene zuschrieb
+81	5181	Sozialversicherung	sv sozialversicherung sozialversicherungen
+82	5182	aufgeklärt	aufgeklärt aufgeklärten aufgeklärte aufgeklärter aufgeklärtes
+83	5183	Pfad	pfad pfade pfaden pfades pfads
+84	5184	Forst	forst forsten forstes forste forsts
+85	5185	Applaus	applaus applause
+86	5186	strikt	strikt strikte strikten strikter striktes striktere
+87	5187	übersetzen	übersetzen übersetze übersetzte übersetzten übersetz übergesetzt überzusetzen übersetzens
+88	5188	Diplom	diplom diplome diploms diplomen
+89	5189	Irrtum	irrtum irrtümer irrtümern irrtums
+90	5190	Quartier	quartier quartiere quartieren quartiers
+91	5191	abbrechen	abbrechen abzubrechen abbricht abbrach abbrecher abbrachen abbreche
+92	5192	zeitgleich	zeitgleich zeitgleichen zeitgleiche
+93	5193	fixieren	fixiert fixieren fixierte fixierten fixierter fixiere
+94	5194	Elle	ellen elle
+95	5195	variieren	variiert variieren variierte variierten variierenden variierende variiere
+96	5196	Ehepaar	ehepaar ehepaare ehepaars ehepaares ehepaaren
+97	5197	rational	rational rationale rationalen rationaler rationales rationalem
+98	5198	Problematik	problematik problematiken
+99	5199	Rückseite	rückseite rückseiten
+100	5200	Moor	moore moor mooren moores moors

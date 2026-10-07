@@ -1,0 +1,100 @@
+1	8501	Wichtigkeit	wichtigkeit
+2	8502	Wortlaut	wortlaut
+3	8503	äußerlich	äusserlich äußerlich
+4	8504	Guthaben	guthaben guthabens
+5	8505	Saum	saum gesäumt säumen säume säumten gesäumten säumt
+6	8506	Mobiltelefon	mobiltelefon mobiltelefone mobiltelefonen mobiltelefons
+7	8507	zuteilen	zugeteilt zugeteilten zuteilen zuzuteilen zuteilt
+8	8508	unbestimmt	unbestimmte unbestimmten unbestimmt unbestimmter unbestimmtes
+9	8509	weggehen	weggehen weggegangen weggeht wegzugehen wegging
+10	8510	Leichnam	leichnam leichnams leichname
+11	8511	Mami	mami mamis
+12	8512	Autounfall	autounfall autounfälle autounfalls autounfällen
+13	8513	Epidemie	epidemie epidemien
+14	8514	Dekoration	dekoration dekorationen
+15	8515	Einverständnis	einverständnis einverständnisses
+16	8516	Rotation	rotation rotationen
+17	8517	Population	population populationen
+18	8518	bekloppt	bekloppt bekloppte bekloppten bekloppter beklopptes
+19	8519	legitimieren	legitimiert legitimieren legitimierte legitimierten legitimierter
+20	8520	Radius	radius radien
+21	8521	Europameister	europameister europameisterin
+22	8522	belügen	belogen belügen belügt belog
+23	8523	Abnahme	abnahme abnahmen
+24	8524	Gin	gin gins
+25	8525	Ameise	ameisen ameise
+26	8526	humanistisch	humanistischen humanistische humanistisch humanistischer humanistisches
+27	8527	auffüllen	aufgefüllt auffüllen aufzufüllen auffüllt
+28	8528	fasten	fasten faste gefastet fastet fastens fastest
+29	8529	Gutmensch	gutmenschen gutmensch
+30	8530	Softwareentwickler	se softwareentwickler
+31	8531	hervorgehoben	hervorgehoben hervorgehobene hervorgehobenen
+32	8532	unsinnig	unsinnig unsinnige unsinnigen unsinniger unsinniges
+33	8533	Pflegeheim	pflegeheim pflegeheimen pflegeheime pflegeheims
+34	8534	ordnungsgemäß	ordnungsgemäss ordnungsgemässe ordnungsgemässen ordnungsgemässer ordnungsgemäß ordnungsgemäße ordnungsgemäßen ordnungsgemäßer
+35	8535	Freiraum	freiraum freiräume freiräumen freigeräumt
+36	8536	paradox	paradox paradoxe paradoxen paradoxes paradoxer
+37	8537	Muschel	muscheln muschel
+38	8538	Schlepper	schlepper schleppern schleppers
+39	8539	Bildunterschrift	bu bildunterschrift bildunterschriften
+40	8540	Seemann	seemann seeleute seeleuten seemanns seemänner
+41	8541	rätselhaft	rätselhaft rätselhafte rätselhaften rätselhafter rätselhaftes
+42	8542	umfallen	umfallen umgefallen umfällt umzufallen umfiel umfaller umgefallene umfalle umgefallenen
+43	8543	Denker	denker denkern denkers
+44	8544	beladen	beladen beladenen beladene beladener beladenes
+45	8545	Stadtzentrum	stadtzentrum stadtzentrums stadtzentren
+46	8546	Abgeordnetenhaus	abgeordnetenhaus abgeordnetenhauses
+47	8547	Ballade	ballade balladen
+48	8548	stemmen	stemmen stemmt gestemmt stemmte stemme stemmten
+49	8549	Gesprächspartner	gesprächspartner gesprächspartnern gesprächspartnerin gesprächspartners
+50	8550	Innenhof	innenhof innenhöfe innenhöfen
+51	8551	quantitativ	quantitative quantitativ quantitativen quantitativer quantitatives
+52	8552	Armband	armband armbänder armbändern
+53	8553	Akademiker	akademiker akademikern akademikerin
+54	8554	beleben	beleben belebten belebte belebend belebende belebenden belebe belebendes
+55	8555	Rotwein	rotwein rotweine
+56	8556	obliegen	obliegt oblag obliegen obliege oblagen
+57	8557	Kleidungsstück	kleidungsstücke kleidungsstück kleidungsstücken
+58	8558	schaufeln	schaufeln schaufel schaufelt geschaufelt schäufele schaufelte
+59	8559	Feldzug	feldzug feldzüge feldzuges feldzügen feldzugs
+60	8560	abwerfen	abgeworfen abwerfen abwirft abzuwerfen abwarf abgeworfenen abwarfen
+61	8561	Kaufhaus	kaufhaus kaufhäuser kaufhäusern kaufhauses
+62	8562	melken	melken milk melk gemolken melkt melker
+63	8563	eingestehen	eingestehen einzugestehen eingestanden eingesteht eingestand
+64	8564	Augenbraue	augenbrauen augenbraue
+65	8565	adoptieren	adoptiert adoptieren adoptierte adoptierten
+66	8566	gehorchen	gehorchen gehorcht gehorchte gehorche gehorchten gehorchend
+67	8567	lutherisch	lutherischen lutherische lutherisch lutherischer
+68	8568	erörtern	erörtert erörtern erörterte erörterten
+69	8569	Offenbarung	offenbarung offenbarungen
+70	8570	Rekonstruktion	rekonstruktion rekonstruktionen
+71	8571	bemängeln	bemängelt bemängeln bemängelte bemängelten
+72	8572	poppen	popp poppen poppe poppt gepoppt
+73	8573	Gottheit	gottheit gottheiten
+74	8574	Benachrichtigung	benachrichtigung benachrichtigungen
+75	8575	Dachgeschoss	dachgeschoss dg dachgeschosses
+76	8576	Schusswaffe	schusswaffen schusswaffe schußwaffe
+77	8577	Tierschutz	tierschutz tierschutzes
+78	8578	zuversichtlich	zuversichtlich zuversichtlicher
+79	8579	Sozialwissenschaft	sozialwissenschaften sozialwissenschaft
+80	8580	vehement	vehement vehementer vehementen vehemente
+81	8581	Hautfarbe	hautfarbe hautfarben
+82	8582	Täuschung	täuschung täuschungen
+83	8583	verschollen	verschollen verschollenen verschollene verschollener verschollenes
+84	8584	interdisziplinär	interdisziplinäre interdisziplinären interdisziplinär interdisziplinäres interdisziplinärer
+85	8585	übergeordnet	übergeordnete übergeordneten übergeordnet übergeordnetes übergeordneter
+86	8586	wohlfühlen	wohlfühlen wohlfühlt wohlgefühlt wohlzufühlen wohlfühlst wohlfühle
+87	8587	Gehweg	gehweg gehwege gehwegen
+88	8588	Wichser	wichser wichsern
+89	8589	ehrgeizig	ehrgeizig ehrgeizige ehrgeizigen ehrgeiziger ehrgeiziges
+90	8590	Beschädigung	beschädigung beschädigungen
+91	8591	Betonung	betonung betonungen
+92	8592	Niedergang	niedergang niedergangs
+93	8593	bedürftig	bedürftigen bedürftige bedürftig bedürftiger
+94	8594	terroristisch	terroristischen terroristische terroristischer terroristisch
+95	8595	fegen	fegen fegt gefegt feger fegte feg fegten
+96	8596	Reh	reh rehe rehen rehs
+97	8597	unterteilt	unterteilt unterteilte unterteilten
+98	8598	Komplize	komplizen komplize komplizin
+99	8599	mitarbeiten	mitarbeiten mitgearbeitet mitzuarbeiten mitarbeitenden mitarbeitet mitarbeitete
+100	8600	fortschrittlich	fortschrittliche fortschrittlichen fortschrittlich fortschrittlicher fortschrittlichsten fortschrittlichste fortschrittliches

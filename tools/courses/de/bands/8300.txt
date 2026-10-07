@@ -1,0 +1,100 @@
+1	8201	Eingabe	eingabe eingaben
+2	8202	kurios	kurios kuriose kurioses kuriosen kurioser kuriosesten
+3	8203	Attribut	attribute attribut attributen attributes
+4	8204	erblicken	erblickt erblickte erblicken erblickten erblicke
+5	8205	verdichten	verdichtet verdichten verdichteten verdichtete verdichteter
+6	8206	Magnet	magnet magneten magnete
+7	8207	hinterlegen	hinterlegt hinterlegen hinterlegten hinterlegte
+8	8208	fortschreiten	fortschreitenden fortschreitende fortschreiten fortschritte fortschreitender fortschreitet fortschreitendem fortschreitend fortschritten
+9	8209	Backup	backup backups
+10	8210	unterstehen	untersteht unterstehen unterstand unterstanden unterstehenden unterstände unterstehe unterständen
+11	8211	Handelskammer	handelskammer handelskammern
+12	8212	Hotelzimmer	hotelzimmer hotelzimmern hotelzimmers
+13	8213	Steg	steg stegen stege stegs steges
+14	8214	überschaubar	überschaubar überschaubaren überschaubare überschaubarer überschaubarem überschaubares
+15	8215	vorteilhaft	vorteilhaft vorteilhafte vorteilhaften vorteilhafter vorteilhaftes
+16	8216	ungeeignet	ungeeignet ungeeignete ungeeigneten ungeeigneter ungeeignetes
+17	8217	unschön	unschön unschöne unschönen unschönes unschöner
+18	8218	Provider	provider providern providers
+19	8219	Würze	würze würzen gewürzt würzt würz gewürzten
+20	8220	Befestigung	befestigung befestigungen
+21	8221	fernhalten	fernhalten fernzuhalten ferngehalten fernhält
+22	8222	vergiftet	vergiftet vergifteten vergiftete vergiftetes vergifteter
+23	8223	Mietvertrag	mietvertrag mietverträge mietverträgen mietvertrages mietvertrags
+24	8224	Erscheinungsbild	erscheinungsbild erscheinungsbildes
+25	8225	abfangen	abgefangen abfangen abzufangen abfängt abfing abgefangenen
+26	8226	inoffiziell	inoffiziell inoffizielle inoffiziellen inoffizieller inoffizielles
+27	8227	preisgeben	preisgeben preisgegeben preiszugeben preisgibt preisgab
+28	8228	Schnabel	schnabel schnäbel schnabels schnäbeln
+29	8229	mitfahren	mitfahren mitführen mitgefahren mitzufahren mitzuführen mitfährt mitfahrt mitfahrenden
+30	8230	vermehren	vermehren vermehrte vermehrten
+31	8231	zerrissen	zerrissen zerrissene zerrissenen zerrissener zerrissenes
+32	8232	romanisch	romanischen romanische romanischer romanisch romanisches
+33	8233	entstammen	entstammt entstammen entstammte entstammten entstamme entstammende
+34	8234	Etikett	etikett etiketten etikette
+35	8235	Regenbogen	regenbogen regenbogens regenbögen
+36	8236	chillen	chillen chill gechillt chillt chille
+37	8237	Zweijährige	zweijährigen zweijährige zweijähriger zweijährigem
+38	8238	entlarven	entlarvt entlarven entlarvend entlarvte entlarvende
+39	8239	Aussteller	aussteller ausstellern
+40	8240	Devise	devise devisen
+41	8241	Kat	kat kats
+42	8242	distanzieren	distanzieren distanziere distanzierte distanzierten
+43	8243	Mob	mob mobs
+44	8244	Testspiel	testspiel testspiele testspielen testspiels
+45	8245	allererste	allerersten allererste allererster allererstes
+46	8246	Ziegler	ziegler zieglers
+47	8247	Seitensprung	seitensprung seitensprünge
+48	8248	Deutung	deutung deutungen
+49	8249	Verschwörungstheorie	verschwörungstheorien verschwörungstheorie
+50	8250	Markierung	markierung markierungen
+51	8251	Artillerie	artillerie
+52	8252	ausfindig	ausfindig
+53	8253	ausnahmslos	ausnahmslos
+54	8254	Bürgerschaft	bürgerschaft
+55	8255	Bürokratie	bürokratie
+56	8256	Dreharbeit	dreharbeiten
+57	8257	Flüchtlingspolitik	flüchtlingspolitik
+58	8258	hurra	hurra
+59	8259	jawohl	jawohl
+60	8260	Marktwirtschaft	marktwirtschaft
+61	8261	Prostitution	prostitution
+62	8262	pseudo	pseudo
+63	8263	Rechtschreibung	rechtschreibung
+64	8264	schlussendlich	schlussendlich
+65	8265	seinerseits	seinerseits
+66	8266	Ticker	ticker
+67	8267	Volt	volt
+68	8268	Filmemacher	filmemacher filmemacherin filmemachern filmemachers
+69	8269	plaudern	plaudern plaudert geplaudert plauderte plauderten plaudernd
+70	8270	Astronaut	astronauten astronaut astronautin
+71	8271	verkraften	verkraften verkraftet verkrafte
+72	8272	kauen	kauen kau kaut gekaut kaue kaute kaust kauend
+73	8273	Sohle	sohle sohlen sohl
+74	8274	Computerspiel	computerspiele computerspiel computerspielen computerspiels
+75	8275	demütigen	gedemütigt demütigen demütig demütigt demütigend demütige demütigende demütigenden demütiger demütigte
+76	8276	Larve	larven larve
+77	8277	Däne	dänen däne dänin
+78	8278	anwachsen	angewachsen anwachsen anwuchs anwachsenden angewachsenen angewachsene anwächst
+79	8279	Geschirr	geschirr geschirre geschirrs
+80	8280	barrierefrei	barrierefrei barrierefreie barrierefreien barrierefreier barrierefreies
+81	8281	rhetorisch	rhetorische rhetorisch rhetorischen rhetorischer rhetorisches
+82	8282	Initiator	initiator initiatoren initiatorin initiators
+83	8283	Textil	textilien textil
+84	8284	Impfstoff	impfstoff impfstoffe impfstoffen impfstoffes impfstoffs
+85	8285	ununterbrochen	ununterbrochen ununterbrochene ununterbrochenen ununterbrochener
+86	8286	unbemerkt	unbemerkt unbemerkten
+87	8287	Intendant	intendant intendanten intendantin
+88	8288	schüren	schüren schürt geschürt schürte schürten
+89	8289	einsammeln	einsammeln eingesammelt einzusammeln einsammelt eingesammelten
+90	8290	Chemiker	chemiker chemikerin chemikern chemikers
+91	8291	missverstehen	missverstanden missverstehen missversteht missverstandene missverstandenen missverstehst mißverstehen
+92	8292	angetrieben	angetrieben angetriebene angetriebenen
+93	8293	Gala	gala galas
+94	8294	Verschlüsselung	verschlüsselung verschlüsselungen
+95	8295	Hierarchie	hierarchie hierarchien
+96	8296	aufzählen	aufgezählt aufzählen aufgezählten aufzuzählen aufzählt
+97	8297	unsterblich	unsterblich unsterblichen unsterbliche unsterblicher unsterbliches
+98	8298	Zuwanderer	zuwanderer zuwanderern
+99	8299	quadratisch	quadratischen quadratische quadratisch quadratischer quadratisches quadratischem
+100	8300	Manöver	manöver manövern manövers

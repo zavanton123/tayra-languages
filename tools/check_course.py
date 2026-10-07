@@ -42,6 +42,11 @@ def rules(rank_up_to):
     return 0.95, 350, 600
 
 
+def fold(code, word):
+    # The German list folds ß to ss in most of its forms, so both spellings are compared folded.
+    return word.replace("ß", "ss") if code == "de" else word
+
+
 def load_list(code):
     ranks, words = {}, {}
     with open(os.path.join(LISTS, f"{code}.tsv"), encoding="utf-8") as f:
@@ -51,9 +56,10 @@ def load_list(code):
                 continue
             rank += 1
             word, _, forms = line.rstrip("\n").partition("\t")
-            key = word.lower()
-            words[key] = (rank, word, forms.split())
-            for form in [key] + forms.split():
+            key = fold(code, word.lower())
+            forms = [fold(code, form) for form in forms.split()]
+            words[key] = (rank, word, forms)
+            for form in [key] + forms:
                 ranks[form] = min(ranks.get(form, rank), rank)
     return ranks, words
 
@@ -72,13 +78,13 @@ def check(path, brief=False):
     up_to = course["rankUpTo"]
     band_start = up_to - BAND + 1
     need, shortest, longest = rules(up_to)
-    names = {n.lower() for n in course.get("names", [])}
+    names = {fold(code, n.lower()) for n in course.get("names", [])}
     seen_new = set()
     ok = True
     report = []
     for i, lesson in enumerate(course["lessons"], start=1):
         toks = tokens(lesson["text"])
-        lowered = [t.lower() for t in toks]
+        lowered = [fold(code, t.lower()) for t in toks]
         outside = {}
         known = 0
         for t in lowered:
@@ -100,19 +106,20 @@ def check(path, brief=False):
         if not shortest <= len(lowered) <= longest:
             problems.append(f"{len(lowered)} words, needs {shortest}-{longest}")
         for new in lesson.get("newWords", []):
-            entry = words.get(new.lower())
+            key = fold(code, new.lower())
+            entry = words.get(key)
             if entry is None:
                 problems.append(f"new word '{new}' is not in the list")
                 continue
             rank, _, forms = entry
             if not band_start <= rank <= up_to:
                 problems.append(f"new word '{new}' is rank {rank}, outside {band_start}-{up_to}")
-            if new.lower() in seen_new:
+            if key in seen_new:
                 problems.append(f"new word '{new}' was introduced in an earlier lesson")
-            uses = sum(1 for t in lowered if t == new.lower() or t in forms)
+            uses = sum(1 for t in lowered if t == key or t in forms)
             if uses < 2:
                 problems.append(f"new word '{new}' used {uses}x, needs 2+")
-            seen_new.add(new.lower())
+            seen_new.add(key)
         status = "PASS" if not problems else "FAIL"
         ok = ok and not problems
         line = f"lesson {i:2} {status}  {len(lowered)} words, coverage {coverage:.1%}, {len(lesson.get('newWords', []))} new"

@@ -1,0 +1,100 @@
+1	7001	selig	selig seligen seliger selige seelig
+2	7002	Dortmunder	dortmunder dortmundern
+3	7003	Geständnis	geständnis geständnisse geständnissen geständnisses
+4	7004	Einspruch	einspruch einsprüche einspruchs einsprüchen
+5	7005	nachsehen	nachsehen nachgesehen nachzusehen nachsah
+6	7006	Selbstständigkeit	selbstständigkeit selbständigkeit
+7	7007	alias	alias
+8	7008	Anstoß	anstoss anstoß
+9	7009	auswendig	auswendig
+10	7010	Chirurgie	chirurgie
+11	7011	Eugh	eugh
+12	7012	Feuchtigkeit	feuchtigkeit
+13	7013	gefälligst	gefälligst
+14	7014	Gleichberechtigung	gleichberechtigung
+15	7015	hindurch	hindurch
+16	7016	Homöopathie	homöopathie
+17	7017	lost	lost
+18	7018	Lyrik	lyrik
+19	7019	Poesie	poesie
+20	7020	Rhetorik	rhetorik
+21	7021	Tagesschau	tagesschau
+22	7022	Tagesspiegel	tagesspiegel
+23	7023	versehentlich	versehentlich
+24	7024	viermal	viermal
+25	7025	vornherein	vornherein
+26	7026	Wehrmacht	wehrmacht
+27	7027	überein	überein
+28	7028	Hymne	hymne hymnen
+29	7029	Schnittstelle	schnittstelle schnittstellen
+30	7030	absehen	abzusehen absehen absieht
+31	7031	Patron	patronen patron patrone patrons patronin
+32	7032	Spielerin	spielerinnen spielerin spieler
+33	7033	Dur	dur durs
+34	7034	zuziehen	zugezogen zuziehen zugezogenen zugezogene zuzog zuzuziehen zugezogener zuzieht
+35	7035	Sessel	sessel sesseln sessels
+36	7036	Zylinder	zylinder zylindern zylinders
+37	7037	protestantisch	protestantischen protestantische protestantisch protestantischer protestantisches
+38	7038	Pascal	pascal pascals
+39	7039	Storch	storch störche störchen storchs
+40	7040	kreieren	kreiert kreieren kreierte kreierten kreiere
+41	7041	Konstellation	konstellation konstellationen
+42	7042	fruchtbar	fruchtbaren fruchtbar fruchtbare fruchtbarer fruchtbares fruchtbarsten fruchtbarem
+43	7043	Stammtisch	stammtisch stammtische stammtischen
+44	7044	hervorbringen	hervorgebracht hervorbringen hervorbringt hervorbrachte hervorzubringen hervorbrachten
+45	7045	Luftwaffe	luftwaffe luftwaffen
+46	7046	ausstellen	ausstellen auszustellen ausstellt ausstellte ausstellenden ausstellende ausstellten
+47	7047	überdurchschnittlich	überdurchschnittlich überdurchschnittliche überdurchschnittlichen überdurchschnittliches überdurchschnittlicher überdurchschnittlichem
+48	7048	rechtswidrig	rechtswidrig rechtswidrige rechtswidrigen rechtswidriger rechtswidriges
+49	7049	ausgelassen	ausgelassen ausgelassene ausgelassenen ausgelassener ausgelassenes
+50	7050	Karma	karma karmas
+51	7051	Kommentator	kommentator kommentatoren kommentators
+52	7052	Lehrgang	lehrgang lehrgänge lehrgängen lehrgangs lehrganges
+53	7053	Freibad	freibad freibäder freibädern freibades
+54	7054	Attentäter	attentäter attentäters attentätern attentäterin
+55	7055	Reflexion	reflexion reflexionen reflektion
+56	7056	Gaststätte	gaststätte gaststätten
+57	7057	Transaktion	transaktionen transaktion
+58	7058	schmunzeln	schmunzeln schmunzelte schmunzelnd schmunzelt geschmunzelt schmunzel
+59	7059	aufrechterhalten	aufrechterhalten aufrechtzuerhalten aufrechterhält
+60	7060	Palme	palme palmen
+61	7061	lauschen	lauschen lauscht lauschte gelauscht lausche lauschten lausch lauschenden
+62	7062	Mikrowelle	mikrowelle mikro mikrowellen
+63	7063	erstmalig	erstmalig erstmaligen erstmalige erstmaliger
+64	7064	zusammenbrechen	zusammengebrochen zusammenbrechen zusammenbricht zusammenbrach zusammenzubrechen zusammenbrachen zusammengebrochenen
+65	7065	Matratze	matratze matratzen
+66	7066	Streaming	streaming streamings
+67	7067	aufgesetzt	aufgesetzt aufgesetzten aufgesetzte aufgesetzter aufgesetztem aufgesetztes
+68	7068	kognitiv	kognitive kognitiven kognitiv kognitiver kognitives
+69	7069	aufrichtig	aufrichtig aufrichtige aufrichtigen aufrichtiges aufrichtiger
+70	7070	Telefonat	telefonat telefonate telefonaten telefonats
+71	7071	Gewand	gewand gewänder gewändern gewande gewandes
+72	7072	Krause	krause krauses krausen
+73	7073	Kamin	kamin kamine kaminen kamins
+74	7074	Mücke	mücken mücke mucke mucken muckt
+75	7075	Blech	blech blechen bleche
+76	7076	Kontaktanzeige	kontaktanzeigen kontaktanzeige
+77	7077	Holding	holding holdings
+78	7078	karren	karren karre gekarrt karr
+79	7079	kraus	kraus krauser krauses krausen
+80	7080	Hirte	hirten hirte hirt hirtin
+81	7081	Residenz	residenz residenzen
+82	7082	Schauplatz	schauplatz schauplätze schauplätzen
+83	7083	neidisch	neidisch neidische neidischen
+84	7084	formell	formell formelle formellen formeller formelles
+85	7085	Terroranschlag	terroranschlag terroranschläge terroranschlägen terroranschlags
+86	7086	Einkunft	einkünfte einkünften
+87	7087	statisch	statische statischen statisch statischer statisches
+88	7088	Laub	laub laube lauben
+89	7089	Olympiasieger	olympiasieger olympiasiegerin olympiasiegers
+90	7090	Blutdruck	blutdruck blutdrucks
+91	7091	Preisträger	preisträger preisträgern preisträgers
+92	7092	Kummer	kummer kummers
+93	7093	Crash	crash crashs crashes
+94	7094	lenz	lenz lenzen lenze
+95	7095	Nahverkehr	nahverkehr nahverkehrs
+96	7096	ausruhen	ausruhen ausgeruht auszuruhen ausruht
+97	7097	vorsehen	vorsieht vorsehen vorsah vorzusehen vorsahen vorsehe
+98	7098	abschießen	abgeschossen abschiessen abzuschiessen abschiesst abgeschossenen abschoss abgeschossene abschießen abzuschießen abschießt
+99	7099	Schnur	schnur schnüren schnüre geschnürt schnürchen schnürt schnürte
+100	7100	dastehen	dastehen dasteht dazustehen dagestanden dastehe dastand dastehst dastanden

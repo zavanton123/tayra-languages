@@ -1,0 +1,100 @@
+1	6001	hilflos	hilflos hilflose hilflosen hilfloser hilfloses
+2	6002	selbstbewusst	selbstbewusst selbstbewusste selbstbewusster selbstbewussten selbstbewusstes
+3	6003	Inspiration	inspiration inspirationen
+4	6004	Terminal	terminal terminals terminalen terminale
+5	6005	Galle	gallen galle
+6	6006	Übergabe	übergabe übergaben
+7	6007	polizeilich	polizeilichen polizeiliche polizeilich polizeilicher polizeiliches
+8	6008	Einstein	einstein einsteins
+9	6009	konstruiert	konstruiert konstruierte konstruierten konstruiertes konstruierter
+10	6010	Triumph	triumph triumphe triumphes triumphen
+11	6011	Erleichterung	erleichterung erleichterungen
+12	6012	Atelier	atelier ateliers
+13	6013	Fragestellung	fragestellungen fragestellung
+14	6014	taugen	taugt taugen tauge taugte getaugt taugten
+15	6015	albern	albern alberne albernen alberner albernes
+16	6016	übertreffen	übertreffen übertrifft übertraf übertrafen übertreffe
+17	6017	kriechen	kriechen kriecht gekrochen kroch kriech krieche krochen kriechend kriechende kriechenden
+18	6018	meckern	meckern meckert gemeckert mecker meckere meckerst meckerte
+19	6019	Wohnsitz	wohnsitz wohnsitzes wohnsitze wohnsitzen
+20	6020	Dreieck	dreieck dreiecks dreiecke dreiecken
+21	6021	ungünstig	ungünstig ungünstigen ungünstige ungünstiger ungünstigsten ungünstiges ungünstigeren ungünstigem
+22	6022	eingeweiht	eingeweiht eingeweihten eingeweihte eingeweihter
+23	6023	Alliierte	alliierten alliierte alliierter
+24	6024	verbal	verbal verbale verbalen verbaler verbales
+25	6025	ausgerüstet	ausgerüstet ausgerüstete ausgerüsteten ausgerüsteter
+26	6026	Klischee	klischees klischee cliché
+27	6027	irritieren	irritiert irritieren irritierend irritierte irritierende irritierenden irritierten
+28	6028	schockieren	schockiert schockieren schockierte schockierten
+29	6029	Beifall	beifall
+30	6030	Bewährung	bewährung
+31	6031	Blues	blues
+32	6032	Hauptstraße	hauptstrasse hauptstraße
+33	6033	Herrmann	herrmann
+34	6034	Kilogramm	kilogramm
+35	6035	Klarheit	klarheit
+36	6036	Mainzer	mainzer
+37	6037	moin	moin
+38	6038	Sexualität	sexualität
+39	6039	Soziologie	soziologie
+40	6040	Xi	xi
+41	6041	Watt	watt watts wattens watten
+42	6042	einbezogen	einbezogen einbezogenen
+43	6043	Theo	theo theos
+44	6044	Hüfte	hüfte hüften
+45	6045	mexikanisch	mexikanischen mexikanische mexikanischer mexikanisch mexikanisches mexikanischem
+46	6046	schal	schal schals schalen schaler
+47	6047	Geldstrafe	geldstrafe geldstrafen
+48	6048	Mod	mod mods
+49	6049	vorrangig	vorrangig vorrangige vorrangiges vorrangigen vorrangiger
+50	6050	Buchhandlung	buchhandlung buchhandlungen
+51	6051	Jet	jet jets
+52	6052	nennenswert	nennenswerte nennenswerten nennenswert nennenswerter nennenswertes nennenswertem
+53	6053	Landung	landung landungen
+54	6054	Ausstrahlung	ausstrahlung ausstrahlungen
+55	6055	Schlauch	schlauch schläuche schläuchen schlauches schlauchs
+56	6056	geschädigt	geschädigt geschädigten geschädigte geschädigter
+57	6057	Skala	skala skalen
+58	6058	andenken	andenken angedacht andachten angedachten angedachte andenkens
+59	6059	Ziege	ziegen ziege
+60	6060	Platzierung	platzierung platzierungen
+61	6061	Getriebe	getriebe getrieben getriebes getriebene getriebenen getriebener
+62	6062	Rassist	rassisten rassist rassistin
+63	6063	Wohnort	wohnort wohnortes wohnorte wohnorts wohnorten
+64	6064	verwickelt	verwickelt verwickelte verwickelten
+65	6065	Aussprache	aussprache aussprachen
+66	6066	Faschist	faschisten faschist
+67	6067	Intervention	intervention interventionen
+68	6068	Manipulation	manipulation manipulationen
+69	6069	Neigung	neigung neigungen
+70	6070	brauchbar	brauchbare brauchbar brauchbares brauchbaren brauchbarer brauchbarem
+71	6071	Auszeit	auszeit auszeiten
+72	6072	vorbeugen	vorzubeugen vorbeugen vorgebeugt vorbeugende vorbeugend vorbeugenden vorbeugt vorbeugender
+73	6073	charmant	charmant charmante charmanten charmanter charmantes charmanteste charmantesten
+74	6074	Satzung	satzung satzungen
+75	6075	Referendum	referendum referendums referenden
+76	6076	prostituieren	prostituierte prostituierten prostituieren prostituiert
+77	6077	Frost	frost fröste
+78	6078	aufgebracht	aufgebracht aufgebrachten aufgebrachte aufgebrachter
+79	6079	Knecht	knecht magd knechte knechten mägde geknechtet mägden geknechteten
+80	6080	Summer	summer summers
+81	6081	versenken	versenkt versenken versenkte versenkten
+82	6082	erbringen	erbringen erbringt erbrachte erbrachten erbringenden erbringe
+83	6083	Tesla	tesla teslas
+84	6084	förmlich	förmlich förmliche förmlichen förmliches förmlicher
+85	6085	Abreise	abreise abreisen abgereist abzureisen abreiste abreist
+86	6086	verkünden	verkünden verkündete verkündeten verkünde verkünder
+87	6087	verehrt	verehrt verehrte verehrten verehrter verehrtes verehrteste verehrtester
+88	6088	weitergeben	weitergeben weiterzugeben weitergibt weitergab weitergebe weitergaben
+89	6089	Expedition	expedition expeditionen
+90	6090	Sichtweise	sichtweise sichtweisen
+91	6091	Narbe	narben narbe
+92	6092	Niere	nieren niere
+93	6093	finnisch	finnischen finnische finnisch finnischer finnisches
+94	6094	kostbar	kostbare kostbaren kostbar kostbares kostbarer kostbarste kostbarsten kostbarem
+95	6095	Heilung	heilung heilungen
+96	6096	Röhre	röhre röhren röhr röhrchen röhrs röhrt
+97	6097	Anreiz	anreiz anreize anreizen
+98	6098	hinlegen	hingelegt hinlegen hinzulegen hinlegt hinlegte
+99	6099	Stick	stick sticks
+100	6100	Rost	rost rösten geröstet rosten rostet geröstete gerösteten roste geröstetem röstet

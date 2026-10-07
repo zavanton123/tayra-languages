@@ -1,0 +1,100 @@
+1	8301	Volksschule	volksschule volksschulen
+2	8302	siegreich	siegreich siegreichen siegreiche siegreicher
+3	8303	stöhnen	stöhnen stöhnt stöhnte gestöhnt stöhnend stöhne stöhn
+4	8304	Doping	doping dopings
+5	8305	intellektuell	intellektuell intellektuellen intellektueller intellektuelles intellektuellem
+6	8306	Gatte	gatten gatte
+7	8307	Absicherung	absicherung absicherungen
+8	8308	irakisch	irakischen irakische irakischer irakisch irakisches
+9	8309	einreden	einreden eingeredet einzureden einrede einredet
+10	8310	schaukeln	schaukeln schaukel schaukelt geschaukelt schaukelte schaukelten
+11	8311	beneiden	beneide beneiden beneidet beneidete
+12	8312	erklingen	erklingt erklingen erklang erklangen erklungen
+13	8313	Aufschrei	aufschrei aufschreien aufschreie
+14	8314	kraftvoll	kraftvoll kraftvolle kraftvollen kraftvoller kraftvolles kraftvollem
+15	8315	vorbeigehen	vorbeigehen vorbeigegangen vorbeigeht vorbeiging vorbeigehenden vorbeigehe vorbeizugehen vorbeigingen
+16	8316	Blondine	blondine blondinen
+17	8317	grenzenlos	grenzenlos grenzenlose grenzenlosen grenzenloser grenzenloses
+18	8318	Schwankung	schwankungen schwankung
+19	8319	Umbruch	umbruch umbrüche umbruchs umbrüchen
+20	8320	feststehen	feststeht feststehenden feststand feststehen festzustehen feststanden feststehe festgestanden feststehend
+21	8321	zapfen	zapfen zapp zapf zäpfchen zapft zappen gezapft gezapftes zapfe zappe
+22	8322	Unterlage	unterlagen unterlage
+23	8323	Diagramm	diagramm diagramme diagrammen diagramms
+24	8324	Bushaltestelle	bushaltestelle bushaltestellen
+25	8325	Hansestadt	hansestadt hansestädte hansestädten
+26	8326	bekunden	bekundet bekunden bekundete bekundeten
+27	8327	umschreiben	umschreiben umgeschrieben umschrieben umschreibt umzuschreiben umschrieb
+28	8328	Urin	urin urins
+29	8329	Komma	komma kommas kommata
+30	8330	Förster	förster försters förstern
+31	8331	tragbar	tragbar tragbare tragbaren tragbares tragbarer
+32	8332	Beihilfe	beihilfe beihilfen
+33	8333	Notebook	notebook notebooks
+34	8334	bestreben	bestreben bestrebt
+35	8335	Rabe	rabe raben
+36	8336	ungesund	ungesund ungesunde ungesunden ungesundes ungesunder ungesünder
+37	8337	Gebiss	gebissen gebiss gebisses gebisse
+38	8338	Windrad	windräder windrad windrädern
+39	8339	Unterseite	unterseite unterseiten
+40	8340	Kaliber	kaliber kalibers kalibern
+41	8341	zärtlich	zärtlich zärtliche zärtlichen zärtlicher zärtliches
+42	8342	tagelang	tagelang tagelangen tagelange tagelangem tagelanger
+43	8343	Kreatur	kreaturen kreatur
+44	8344	Pforte	pforten pforte
+45	8345	leistungsfähig	leistungsfähige leistungsfähig leistungsfähigen leistungsfähiger leistungsfähigere leistungsfähiges leistungsfähigsten leistungsfähigeren leistungsfähigste
+46	8346	beanspruchen	beanspruchen beanspruchte beanspruchten beanspruche
+47	8347	gleichberechtigt	gleichberechtigt gleichberechtigte gleichberechtigten gleichberechtigter gleichberechtigtes
+48	8348	Lex	lex leges
+49	8349	Fries	fries friesen friese frieses
+50	8350	Spielende	spielende spielenden spielendes
+51	8351	verstreuen	verstreut verstreuten verstreute verstreuen
+52	8352	Deutschlandfunk	deutschlandfunk dlf
+53	8353	auffassen	aufgefasst auffassen aufzufassen auffasst
+54	8354	durchdacht	durchdacht durchdachte durchdachten durchdachter durchdachtes
+55	8355	Fledermaus	fledermaus fledermäuse fledermäusen
+56	8356	zwölfte	zwölften zwölfte zwölfter zwölftes
+57	8357	Säugling	säugling säuglinge säuglingen säuglings
+58	8358	Altersvorsorge	altersvorsorge
+59	8359	ausm	ausm
+60	8360	Ausschreitung	ausschreitungen
+61	8361	Autonomie	autonomie
+62	8362	einher	einher
+63	8363	jüngst	jüngst
+64	8364	Kenia-Koalition	kenia
+65	8365	Klassenerhalt	klassenerhalt
+66	8366	Kosmos	kosmos
+67	8367	Neuland	neuland
+68	8368	Peugeot	peugeot
+69	8369	Potsdamer	potsdamer
+70	8370	Schlagzeug	schlagzeug
+71	8371	Sorgfalt	sorgfalt
+72	8372	stellenweise	stellenweise
+73	8373	Teilhabe	teilhabe
+74	8374	Webcam	webcam
+75	8375	Weste	weste
+76	8376	Überstunde	überstunden
+77	8377	Klausel	klausel klauseln
+78	8378	Häufigkeit	häufigkeit häufigkeiten
+79	8379	lindern	lindern lindert linder gelindert linderte
+80	8380	zynisch	zynisch zynische zynischen zynischer zynisches
+81	8381	Wohnwagen	wohnwagen wohnwagens
+82	8382	abbilden	abbilden abzubilden abbildet abbildete
+83	8383	Flohmarkt	flohmarkt flohmärkte flohmärkten
+84	8384	straff	straff straffen straffe straffer gestrafft straffes strafft straffere straffte
+85	8385	Neuzugang	neuzugang neuzugänge neuzugängen
+86	8386	aushandeln	ausgehandelt aushandeln auszuhandeln ausgehandelten ausgehandelte
+87	8387	Geige	geige geigen
+88	8388	Einfahrt	einfahrt einfahrten
+89	8389	Speer	speer speere speeren speers
+90	8390	Desoxyribonukleinsäure	dns desoxyribonukleinsäure
+91	8391	nuklear	nuklearen nukleare nuklear nuklearer nukleares nuklearem
+92	8392	interkulturell	interkulturelle interkulturellen interkultureller interkulturelles interkulturell
+93	8393	Lehrplan	lehrplan lehrpläne lehrplänen lehrplans
+94	8394	Anrufer	anrufer anrufern anruferin anrufers
+95	8395	versterben	verstarb verstirbt versterben verstarben
+96	8396	Kathedrale	kathedrale kathedralen
+97	8397	optional	optional optionale optionalen optionalem optionaler optionales
+98	8398	Rückspiel	rückspiel rückspiele
+99	8399	Gletscher	gletscher gletschern gletschers
+100	8400	Schildkröte	schildkröte schildkröten

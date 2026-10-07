@@ -1,0 +1,100 @@
+1	4101	Glocke	glocke glocken glöckchen glöcklein
+2	4102	Sanktion	sanktionen sanktion
+3	4103	belastet	belastet belasteten belastete belasteter belastetes
+4	4104	Kennzeichen	kennzeichen kennzeichens
+5	4105	zutun	zutaten zutun zutat zugetan
+6	4106	auseinandersetzen	auseinandersetzen auseinanderzusetzen auseinandergesetzt auseinandersetzt auseinandersetzte auseinandersetzten auseinandersetze
+7	4107	Abendessen	abendessen abendessens
+8	4108	arg	arg arge argen ärgere ärgsten arger ärgste arges ärgster
+9	4109	problemlos	problemlos problemlose problemlosen problemloser
+10	4110	Gedächtnis	gedächtnis gedächtnisses gedächtnisse
+11	4111	Nachbarschaft	nachbarschaft nachbarschaften
+12	4112	Salat	salat salate salaten
+13	4113	amtlich	amtliche amtlichen amtlich amtlicher amtliches amtlichem
+14	4114	bewährt	bewährt bewährte bewährten bewährter bewährtes bewährtem
+15	4115	Mittagessen	mittagessen mittagessens
+16	4116	auswärtig	auswärtigen auswärtige auswärtiges auswärtiger
+17	4117	Sehnsucht	sehnsucht sehnsüchte sehnsüchten
+18	4118	basteln	basteln gebastelt bastelt bastel bastelte gebastelten bastle bastelten bastelst bastele
+19	4119	zocken	zocken gezockt zockt zocke zock zockst
+20	4120	besiegt	besiegt besiegte besiegten
+21	4121	ober	ober oberin obern obers
+22	4122	Zeugnis	zeugnis zeugnisse zeugnissen zeugnisses
+23	4123	Flotte	flotte flotten
+24	4124	liebevoll	liebevoll liebevolle liebevollen liebevoller liebevolles liebevollem liebevollste
+25	4125	Nebel	nebel nebels nebeln
+26	4126	Jahreszeit	jahreszeit jahreszeiten
+27	4127	Begleitung	begleitung begleitungen
+28	4128	Anordnung	anordnung anordnungen
+29	4129	dynamisch	dynamische dynamischen dynamisch dynamischer dynamisches dynamischem dynamischsten
+30	4130	Toleranz	toleranz toleranzen
+31	4131	Folter	folter gefoltert foltern foltert gefolterten folterte folterten
+32	4132	Reihenfolge	reihenfolge reihenfolgen
+33	4133	chronisch	chronisch chronischen chronische chronischer chronischem chronisches
+34	4134	Malerei	malerei malereien
+35	4135	elegant	elegant elegante eleganten eleganter elegantes elegantem elegantere eleganteste elegantesten
+36	4136	Herd	herd herde herden herdes
+37	4137	virtuell	virtuelle virtuellen virtuell virtueller virtuelles virtuellem
+38	4138	simpel	simple simpel simplen simples simpler simpelste
+39	4139	ansiedeln	angesiedelt anzusiedeln ansiedeln angesiedelten siedeln siedelte siedelten angesiedelte siedelt ansiedelten
+40	4140	austragen	ausgetragen austragen auszutragen ausgetragenen ausgetragene austrägt austrug
+41	4141	nervös	nervös nervöser nervöse nervösen nervöses
+42	4142	Meile	meilen meile
+43	4143	Biene	bienen biene bienchen
+44	4144	Busch	busch büsche büschen busche buschs
+45	4145	Anregung	anregungen anregung
+46	4146	Brett	brett bretter brettern brettchen gebrettert brettert brettes brettl bretts
+47	4147	Wettkampf	wettkampf wettkämpfe wettkämpfen wettkampfes wettkampfs
+48	4148	Kündigung	kündigung kündigungen
+49	4149	Review	review reviews
+50	4150	Fitness	fitness
+51	4151	Opel	opel
+52	4152	premium	premium
+53	4153	untereinander	untereinander
+54	4154	vergleichsweise	vergleichsweise
+55	4155	Kompromiss	kompromiss kompromisse kompromissen kompromisses
+56	4156	herausragend	herausragende herausragenden herausragend herausragender herausragendes herausragendsten
+57	4157	kopieren	kopieren kopiert kopiere kopierte kopierten kopier kopierst
+58	4158	explodieren	explodiert explodieren explodierte explodierten explodierenden explodiere
+59	4159	Telefonnummer	telefonnummer telefonnummern
+60	4160	Standpunkt	standpunkt standpunkte standpunkten standpunkts standpunktes
+61	4161	Explosion	explosion explosionen
+62	4162	naiv	naiv naive naiven naiver naives
+63	4163	ausgestellt	ausgestellt ausgestellten ausgestellte ausgestelltes ausgestellter
+64	4164	Orientierung	orientierung orientierungen
+65	4165	kommunizieren	kommunizieren kommuniziert kommunizierte kommunizierten kommuniziere kommunizierenden
+66	4166	Wohngemeinschaft	wg wohngemeinschaft wohngemeinschaften
+67	4167	potenziell	potenzielle potenziellen potentiell potenziell potenzieller potenzielles
+68	4168	Bundesgerichtshof	bgh bundesgerichtshof bundesgerichtshofs bundesgerichtshofes
+69	4169	Spezialist	spezialisten spezialist spezialistin
+70	4170	zeitweise	zeitweise zeitweisen
+71	4171	einschlafen	einschlafen eingeschlafen einzuschlafen einschläft einschlafe einschlief einschläfst
+72	4172	Bundesrat	bundesrat bundesrates bundesrats bundesräte
+73	4173	Metal	metal metals
+74	4174	dänisch	dänischen dänische dänisch dänischer dänisches dänischem
+75	4175	Arbeitsgemeinschaft	ag arbeitsgemeinschaft arbeitsgemeinschaften
+76	4176	schnappen	schnappt schnappen schnapp geschnappt schnappte schnappten schnappe
+77	4177	Agenda	agenda agenden
+78	4178	sprengen	sprengen gesprengt sprengt sprengte spreng sprengten sprenge gesprengten
+79	4179	Schwabe	schwaben schwabe schwob schwäbin
+80	4180	einschlagen	eingeschlagen einschlagen einzuschlagen einschlägt eingeschlagenen einschlug eingeschlagene einschlugen einschlage
+81	4181	ausnutzen	ausgenutzt ausnutzen auszunutzen ausnutzt ausnützen ausnutzte ausgenützt ausnutzten auszunützen
+82	4182	mathematisch	mathematische mathematischen mathematisch mathematischer mathematisches
+83	4183	qualitativ	qualitativ qualitative qualitativen qualitativer qualitatives
+84	4184	Staub	staub staubt staube stäube staubs stäuben
+85	4185	aufsteigen	aufsteigen aufgestiegen aufzusteigen aufsteigenden aufsteigt aufsteigende aufsteigend aufsteigender aufgestiegenen aufgestiegene
+86	4186	schmutzig	schmutzig schmutzige schmutzigen schmutziger schmutziges schmutzigem schmutzigsten schmutzigste
+87	4187	eindringen	eindringen eingedrungen einzudringen eindringt eindrang eindrangen eindringende eingedrungenen eindringens eingedrungene
+88	4188	Heide	heide heiden heyde
+89	4189	Stich	stich stiche stichen
+90	4190	autonom	autonomen autonome autonom autonomes autonomer
+91	4191	durchziehen	durchziehen durchgezogen durchzogen durchzieht durchzuziehen durchzog durchgezogene durchzogenen durchziehst durchziehenden
+92	4192	dringen	dringt dringen drangen drängt gedrungen dringe gedrungenen gedrungene dring gedrungener
+93	4193	Fachmann	fachleute fachmann fachleuten fachfrau fachmänner fachmanns
+94	4194	seitlich	seitlich seitlichen seitliche seitlicher seitliches seitlichem
+95	4195	Verstärkung	verstärkung verstärkungen
+96	4196	Palast	palast palastes paläste palästen palasts
+97	4197	elend	elend elende elenden elender elendes elends
+98	4198	Lärm	lärm lärms
+99	4199	zivil	zivilen zivile zivil ziviler ziviles zivilem
+100	4200	Bemühung	bemühungen bemühung

@@ -1,0 +1,100 @@
+1	9401	Bohrung	bohrungen bohrung
+2	9402	Aufruhr	aufruhr aufruhrs
+3	9403	Globus	globus globen
+4	9404	Heimsieg	heimsieg heimsiege
+5	9405	Einsatzkraft	einsatzkräfte einsatzkräften
+6	9406	Scanner	scanner scannern scanners
+7	9407	überziehen	überziehen überzieht überzug überzog übergezogen überzüge überzieher überziehe
+8	9408	Ersatzteil	ersatzteile ersatzteilen ersatzteil
+9	9409	instabil	instabil instabilen instabile instabiler instabiles
+10	9410	Absender	absender absenders absendern
+11	9411	Kegel	kegel kegeln kegels
+12	9412	Quest	quest quests
+13	9413	Dolmetscher	dolmetscher dolmetscherin dolmetschern dolmetschers dolmetsch
+14	9414	Wahn	wahn wahns
+15	9415	klarkommen	klarkommen klarzukommen klarkommt klargekommen klarkommst klarkomme
+16	9416	berufstätig	berufstätige berufstätig berufstätigen berufstätiger
+17	9417	Akkord	akkord accord akkorde akkorden
+18	9418	Spaghetti	spaghetti spagetti
+19	9419	Kürbis	kürbis kürbisse kürbissen
+20	9420	vervollständigen	vervollständigt vervollständigen vervollständigte vervollständigten vervollständige
+21	9421	raffen	raff raffen rafft gerafft raffe raffte raffst
+22	9422	Arbeitsrecht	arbeitsrecht arbeitsrechts arbeitsrechte
+23	9423	herbeiführen	herbeizuführen herbeiführen herbeiführt herbeiführte
+24	9424	belagern	belagert belagerten belagern belagerte
+25	9425	Antragsteller	antragsteller antragstellers antragstellerin antragstellern
+26	9426	Wahlprogramm	wahlprogramm wahlprogramme wahlprogramms wahlprogrammen
+27	9427	Taler	taler thaler talern
+28	9428	adeln	adele geadelt adelt adeln
+29	9429	Keyboard	keyboard keyboards
+30	9430	Rampe	rampe rampen
+31	9431	Gegentor	gegentor gegentore gegentoren
+32	9432	steirisch	steirischen steirische steirischer steirisch steirisches
+33	9433	Tatbestand	tatbestand tatbestände tatbestandes tatbestands tatbeständen
+34	9434	Wiederaufnahme	wiederaufnahme wiederaufnahmen
+35	9435	Curry	curry currys
+36	9436	Leitlinie	leitlinien leitlinie
+37	9437	kalkulieren	kalkuliert kalkulieren kalkulierte kalkulierten kalkulierter kalkuliertes kalkuliere
+38	9438	sprühen	sprühen gesprüht sprüht sprühten sprühte sprüh sprühe sprühenden
+39	9439	verstellen	verstellen verstellt verstell verstellte verstellter verstelle
+40	9440	Stage	stage stages
+41	9441	anhaben	anhaben anhat anhatte angehabt anhabe anhattest anhast anhatten anzuhaben
+42	9442	Steuererklärung	steuererklärung steuererklärungen
+43	9443	selektiv	selektive selektiv selektiven selektiver selektives
+44	9444	entfliehen	entfliehen entflohen entflieht entflohenen entfloh entflohene entflohener
+45	9445	Verbraucherschutz	verbraucherschutz verbraucherschutzes
+46	9446	Nährstoff	nährstoffe nährstoffen nährstoff
+47	9447	wählbar	wählbar wählbaren wählbare wählbarer
+48	9448	Schanze	schanze schanzen schanz
+49	9449	Vorarbeit	vorarbeiten vorarbeit
+50	9450	gesellig	geselligen gesellig gesellige geselliger geselliges
+51	9451	Exekutive	exekutive exekutiven
+52	9452	Geier	geier geiern
+53	9453	Gleichgesinnte	gleichgesinnten gleichgesinnte gleichgesinnter
+54	9454	Weltall	weltall weltalls
+55	9455	erhaben	erhaben erhabene erhabenen erhabener erhabenes
+56	9456	Mentor	mentor mentoren mentors
+57	9457	Lift	lift lifte liften lifts
+58	9458	Ferse	fersen ferse
+59	9459	Parlamentswahl	parlamentswahl parlamentswahlen
+60	9460	Personalausweis	personalausweis perso personalausweises personalausweise
+61	9461	Datierung	datierung datierungen
+62	9462	darauffolgend	darauffolgenden darauffolgende
+63	9463	Obergrenze	obergrenze obergrenzen
+64	9464	massieren	massieren massiert massiere massierte
+65	9465	Brennpunkt	brennpunkt brennpunkte brennpunkten
+66	9466	abarbeiten	abgearbeitet abarbeiten abzuarbeiten abarbeitet
+67	9467	unfreiwillig	unfreiwillig unfreiwillige unfreiwilligen unfreiwilliger
+68	9468	gekoppelt	gekoppelt gekoppelten gekoppelte
+69	9469	ansatzweise	ansatzweise
+70	9470	Attraktivität	attraktivität
+71	9471	Außenseiter	aussenseiter außenseiter
+72	9472	Beantwortung	beantwortung
+73	9473	Buenos	buenos
+74	9474	Deko	deko
+75	9475	drittens	drittens
+76	9476	Freundlichkeit	freundlichkeit
+77	9477	frühestens	frühestens
+78	9478	Gegenseite	gegenseite
+79	9479	Genesung	genesung
+80	9480	heise	heise
+81	9481	höchstwahrscheinlich	höchstwahrscheinlich
+82	9482	Identifizierung	identifizierung
+83	9483	Latex	latex
+84	9484	Luftfeuchtigkeit	luftfeuchtigkeit
+85	9485	Magdeburger	magdeburger
+86	9486	obgleich	obgleich
+87	9487	Pfannkuchen	pfannkuchen
+88	9488	Pubertät	pubertät
+89	9489	Reue	reue
+90	9490	spießen	spiess spieß
+91	9491	Sushi	sushi
+92	9492	Techno	techno
+93	9493	Une	une
+94	9494	Vegetation	vegetation
+95	9495	Verbundenheit	verbundenheit
+96	9496	vielerlei	vielerlei
+97	9497	vorzugsweise	vorzugsweise
+98	9498	weithin	weithin
+99	9499	Willkür	willkür
+100	9500	woraus	woraus

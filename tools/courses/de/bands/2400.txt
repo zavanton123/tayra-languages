@@ -1,0 +1,100 @@
+1	2301	Branche	branche branchen
+2	2302	Knie	knie knien kniet knies kniete kniend knienden knieten gekniet kniende
+3	2303	Kuchen	kuchen kuchens küchlein
+4	2304	Management	management managements
+5	2305	ertragen	ertragen erträge ertrag ertrage erträgt erträgen ertrug ertrags ertrugen erträgst
+6	2306	spontan	spontan spontane spontanen spontaner spontanes spontanem
+7	2307	peinlich	peinlich peinliche peinlichen peinlicher peinliches peinlichste peinlichsten
+8	2308	waschen	waschen gewaschen wäscht wasch wasche wusch wascht wäschst wuschen
+9	2309	Kapitel	kapitel kapiteln kapitels
+10	2310	Königin	königin königinnen
+11	2311	Kloster	kloster klosters klöster klöstern
+12	2312	Franzose	franzosen franzose französin französinnen
+13	2313	Hals	hals halse halses hälse hälsen
+14	2314	Frühjahr	frühjahr frühjahrs
+15	2315	mitmachen	mitmachen mitgemacht mitzumachen mitmacht mitmache mitmachte mitmachst mitmachten
+16	2316	dauerhaft	dauerhaft dauerhafte dauerhaften dauerhafter dauerhaftes dauerhaftem
+17	2317	streifen	streifen streife gestreift streift streifte gestreiften gestreifte streif streifens streiften
+18	2318	Absatz	absatz absätze absätzen absatzes
+19	2319	Idiot	idioten idiot idiotin
+20	2320	Herkunft	herkunft herkünfte
+21	2321	forschen	forscher forschen forscht geforscht forsch forschte forsche forschten forschend forschens
+22	2322	Löwe	löwen löwe leu löwin löwinnen
+23	2323	anhand	anhand
+24	2324	einerseits	einerseits
+25	2325	quasi	quasi
+26	2326	Rente	rente renten
+27	2327	künstlerisch	künstlerischen künstlerische künstlerisch künstlerischer künstlerisches künstlerischem
+28	2328	zentral	zentral zentraler zentrales zentralen zentralem
+29	2329	enttäuscht	enttäuscht enttäuschte enttäuschten enttäuschter
+30	2330	Community	community communitys
+31	2331	verwandeln	verwandelt verwandeln verwandelte verwandelten verwandle verwandelst verwandelter verwandele
+32	2332	Schriftsteller	schriftsteller schriftstellerin schriftstellers schriftstellern schriftstellerinnen
+33	2333	Großteil	grossteil grossteils großteil großteils
+34	2334	Bord	bord borden borde
+35	2335	rasen	rasen rast raste rasten rasend ras rastet gerast rasenden rasende
+36	2336	genügend	genügend genügende genügenden genügender
+37	2337	Glückwunsch	glückwunsch glückwünsche gw glückwünschen
+38	2338	Sprecher	sprecher sprecherin sprechers sprechern
+39	2339	schalten	schalten schaltet schalte geschaltet schaltete schalt schalteten geschalteten schaltest geschalten
+40	2340	beruhigen	beruhigt beruhigen beruhigend beruhigende beruhigte beruhig beruhigenden beruhige beruhigendes beruhigten
+41	2341	selbstständig	selbstständig selbständig selbstständige selbstständigen selbstständiger selbständiger selbstständiges
+42	2342	Medikament	medikamente medikament medikamenten medikaments medikamentes
+43	2343	Europameisterschaft	em europameisterschaft europameisterschaften
+44	2344	verstorben	verstorbenen verstorben verstorbene verstorbener
+45	2345	identifizieren	identifizieren identifiziert identifizierte identifizierten identifiziere identifizierst identifizierende identifizierter
+46	2346	nachhaltig	nachhaltig nachhaltige nachhaltigen nachhaltiger nachhaltiges nachhaltigem nachhaltigsten nachhaltigere nachhaltigste nachhaltigeren
+47	2347	verbrennen	verbrannt verbrennen verbrennt verbrannte verbrannten verbrenne verbrenner verbrennst verbrenn
+48	2348	regieren	regiert regieren regierenden regierte regierende regierten regierender regiere regierens
+49	2349	Anforderung	anforderungen anforderung
+50	2350	Westfale	westfalen westfale
+51	2351	Lebensmittel	lebensmittel lebensmitteln lebensmittels
+52	2352	hauen	hau hauen gehauen haute haue hieb haust hiebe gehauenen hieben
+53	2353	Meldung	meldung meldungen
+54	2354	erstaunlich	erstaunlich erstaunliche erstaunlichen erstaunlicher erstaunliches erstaunlichsten erstaunlichste erstaunlichem
+55	2355	Spruch	spruch sprüche sprüchen spruche spruchs sprüchlein spruches
+56	2356	ermittelt	ermittelt ermittelten ermittelte
+57	2357	Betrag	betrag beträge beträgen betrages betrage betrags
+58	2358	Grab	grab gräber gräbern grabe grabes graber grabs
+59	2359	grob	grob grobe groben grober grobes gröbsten gröber grobem gröbere gröbste
+60	2360	Eintritt	eintritt eintritts eintritte
+61	2361	Aussicht	aussicht aussichten aussichts
+62	2362	aufhalten	aufhalten aufgehalten aufzuhalten aufhält aufhielt aufhielten aufhalte aufhältst
+63	2363	Deal	deal deals
+64	2364	Zelle	zellen zelle
+65	2365	wecken	wecken geweckt weckt weckte weck wecke weckten weckst
+66	2366	strahlen	strahlen strahlt strahl strahlend strahlte strahlenden strahlende strahlendem strahlender strahlendes
+67	2367	Bock	bock böcke bocks böcken
+68	2368	Beck	beck becken beckens becks becke
+69	2369	ausfallen	ausfallen ausgefallen ausfällt ausgefallene ausfiel ausgefallenen ausfielen ausgefallenes ausfallend ausgefallener
+70	2370	Pilot	pilot piloten pilotin pilotinnen
+71	2371	eur	eur
+72	2372	hinein	hinein
+73	2373	Platte	platte platten
+74	2374	Bewertung	bewertung bewertungen
+75	2375	Verfassung	verfassung verfassungen
+76	2376	Stuhl	stuhl stühle stühlen stuhls stuhle stuhles
+77	2377	Lastkraftwagen	lkw lastkraftwagen
+78	2378	bewerben	bewerben beworben bewirbt bewerbe bewarb bewirb bewarben beworbenen beworbene bewirbst
+79	2379	gezielt	gezielt gezielte gezielten gezielter gezieltes gezieltem gezieltere
+80	2380	Geschäftsführer	geschäftsführer geschäftsführerin gf geschäftsführers geschäftsführern
+81	2381	künstlich	künstliche künstlich künstlichen künstlicher künstliches künstlichem
+82	2382	Ausführung	ausführung ausführungen
+83	2383	Arschloch	arschloch arschlöcher arschlöchern
+84	2384	Flügel	flügel flügeln flügels geflügelten geflügelte geflügeltes geflügelter geflügelt
+85	2385	entdecken	entdecken entdecke entdeckte entdeckten entdeckst
+86	2386	Kooperation	kooperation kooperationen kooperations
+87	2387	Drittel	drittel dritteln drittels
+88	2388	rasch	rasch rasche raschen rascher rasches raschere raschem rascheren
+89	2389	Identität	identität identitäten
+90	2390	Fritz	fritz fritzi fritze fritzen fritzl fritzchen fritzens
+91	2391	dankbar	dankbar dankbare dankbarer dankbaren dankbares
+92	2392	Bedürfnis	bedürfnisse bedürfnis bedürfnissen bedürfnisses
+93	2393	Tee	tee tees
+94	2394	Aufklärung	aufklärung aufklärungs
+95	2395	kreativ	kreativ kreative kreativen kreativer kreatives kreativsten kreativem kreativste
+96	2396	Hunger	hunger hungers
+97	2397	Niederland	niederlande niederlanden niederland
+98	2398	tauschen	tauschen tausch getauscht tauscht tausche tauschten tauschte
+99	2399	Reform	reform reformen
+100	2400	Empfehlung	empfehlung empfehlungen

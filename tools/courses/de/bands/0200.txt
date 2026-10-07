@@ -1,0 +1,100 @@
+1	101	weit	weitere weit weiteren weiteres weiterer weite weiten weitem weitesten weitet
+2	102	etwas	etwas
+3	103	nichts	nichts nix nixe nischt nixen
+4	104	wer	wer wen wem wessen wers wes
+5	105	klein	kleine kleinen kleiner klein kleines kleinere kleineren kleinste kleinsten kleinem
+6	106	Mann	mann männer männern mannes männchen manns mannen manne männlein mandl
+7	107	seit	seit
+8	108	stellen	stellen stellt stelle gestellt stellte stell stellten gestellten stellst gestellte
+9	109	Frau	frau frauen fräulein frauchen fräuleins
+10	110	tun	tun tut tat getan tu taten tue tust täte täten
+11	111	selbst	selbst
+12	112	wo	wo
+13	113	all	allem aller all allen alls
+14	114	nehmen	nehmen nimmt genommen nahm nehme nahmen nimm nimmst nehmt nähme
+15	115	heute	heute heut
+16	116	nun	nun nu
+17	117	alt	alten alte alt alter ältere älteren älter altes ältesten älteste
+18	118	wenig	wenig weniger wenige wenigen wenigsten minder mindesten wenigste weniges
+19	119	gerade	gerade grad grade geraden grades gerader graden geradem gerades
+20	120	mögen	möchte mag möchten mögen möchtest magst möge mochte mochten möchtet
+21	121	liegen	liegt liegen lag gelegen liege lagen liegenden gelegenen liegende gelegene
+22	122	denken	denke denken dachte gedacht denkt denk denkst dachten denkens gedenkt
+23	123	spielen	spielen spielt spieler gespielt spiele spielte spielten spielst gespielten spielend
+24	124	hoch	hoch hohen hohe höher höhere hoher höchsten höchste höheren hohem
+25	125	Kind	kinder kind kindern kindes kinde kindchen kindlein kinds kinders
+26	126	bleiben	bleibt bleiben blieb geblieben blieben bleibe bleib bleibst bliebe bleibenden
+27	127	welcher	welche welches welcher welchen welchem
+28	128	ob	ob ob's
+29	129	dürfen	darf dürfen dürfte durfte darfst dürften durften dürfe dürft dürftest
+30	130	zwischen	zwischen
+31	131	beide	beiden beide beides beider beidem
+32	132	schön	schön schöne schönen schöner schönes schönsten schönste schöneres schönem schönere
+33	133	gern	gerne lieber gern liebsten
+34	134	dabei	dabei
+35	135	gleich	gleich gleichen gleiche gleicher gleiches gleicht gleichem glich glichen gliche
+36	136	letzte	letzten letzte letzter letztes letztem
+37	137	dort	dort
+38	138	sondern	sondern sonder gesondert gesonderte gesonderten gesonderter gesondertes sondert
+39	139	recht	recht rechte rechten rechter rechtes rechtem
+40	140	bringen	bringen bringt gebracht brachte brachten bring bringe bringst bracht brächte
+41	141	zeigen	zeigt zeigen gezeigt zeigte zeigten zeige zeig zeigst gezeigten gezeigte
+42	142	einige	einige einigen einiges einiger einig geeinigt einigem einigten einigte einigt
+43	143	wirklich	wirklich wirkliche wirklichen wirklicher wirkliches wirklichem
+44	144	richtig	richtig richtige richtigen richtiger richtiges richtigem
+45	145	halten	halten hält halte hielt gehalten hielten haltet hältst gehaltenen gehaltene
+46	146	erst	erst ers
+47	147	glauben	glaube glauben glaub glaubt glaubst geglaubt glaubte glaubens glaubten
+48	148	warum	warum
+49	149	weiter	weiter
+50	150	Stadt	stadt städte städten städtchen
+51	151	wohl	wohl wohle woll wohler wol wohlen wohlsten wohls
+52	152	Land	land ländern landes länder lande lands ländchen
+53	153	drei	drei dreier dreien drey dreiern
+54	154	vielleicht	vielleicht vllt
+55	155	brauchen	braucht brauchen brauche gebraucht brauchst brauch brauchte bräuchte brauchten bräuchten
+56	156	nah	nächsten nächste näher nächstes nah nahen nächster nähere nähern nähert
+57	157	Frage	frage fragen
+58	158	weg	weg wege weges wegs
+59	159	genau	genau genauer genaue genauen genauere genaues genaueres genaueren genauerer genauerem
+60	160	bekommen	bekommen bekommt bekam bekomme bekommst bekamen bekomm bekäme bekämen bekamst
+61	161	eigen	eigenen eigene eigenes eigener eigenem eigen eigner eigne eignes eignern
+62	162	dazu	dazu
+63	163	folgen	folgen folgenden folgt folgende folgte gefolgt folgendes folgten folgender folgend
+64	164	suchen	suchen suche sucht gesucht such suchte suchst suchten gesuchten suchenden
+65	165	Leute	leute leuten leut leude leutchen leuts
+66	166	Fall	fall fällen fälle falle falles fällte fällst fällten fäll
+67	167	bitte	bitte bete beete
+68	168	führen	führt führen geführt führte führten führenden führende geführten geführte führe
+69	169	laufen	läuft laufen lauf lief laufe gelaufen laufenden liefen läufer laufende
+70	170	Haus	haus hause häuser hauses häusern häuschen häusle häusl häuschens
+71	171	sowie	sowie
+72	172	hören	gehört hören hört höre hör hörte hörst hörten hörtest hörende
+73	173	wichtig	wichtig wichtige wichtiger wichtigsten wichtigen wichtigste wichtiges wichtigere wichtigster wichtigstes
+74	174	während	während währenden währende währender
+75	175	dafür	dafür
+76	176	fahren	fahren fährt fahrt fahrer fuhr gefahren fahre fahr fuhren fahrten
+77	177	Uhr	uhr uhren
+78	178	kurz	kurz kurze kurzen kurzer kurzem kürzer kurzes kürzester kürzeren kürzere
+79	179	Ende	ende endes
+80	180	arbeiten	arbeiten arbeitet gearbeitet arbeiter arbeite arbeitete arbeiteten arbeitest arbeitenden arbeitende
+81	181	Welt	welt welten
+82	182	schnell	schnell schneller schnelle schnellen schnelles schnellste schnellsten schnellere schnelleren schnellem
+83	183	natürlich	natürlich natürliche natürlichen natürlicher natürliches natürlichem natürlichste natürlichsten ntl
+84	184	bereits	bereits
+85	185	nie	nie
+86	186	wegen	wegen
+87	187	schreiben	schreiben geschrieben schreibt schrieb schreibe schreib schreibst schrieben schreibens schreibenden
+88	188	Teil	teil teile teiles
+89	189	einmal	einmal
+90	190	sprechen	sprechen spricht sprach gesprochen sprachen sprich spreche sprichst sprecht sprech
+91	191	lesen	lesen gelesen liest leser last lese las les lies lasten
+92	192	heißen	heisst heissen heiss hiess heißt heißen heiß hieß
+93	193	Seite	seite seiten
+94	194	darauf	darauf drauf
+95	195	Freund	freunde freund freundin freunden freundes freundchen freundet freunds freundete freundeten
+96	196	gar	gar garen gare gegart gart
+97	197	danke	danke
+98	198	klar	klar klare klaren klarer klares klarem klarere klarsten klarste klareren
+99	199	eigentlich	eigentlich eigentliche eigentlichen eig eigentlicher eigentliches eigentlichem
+100	200	verstehen	verstehen verstehe verstanden versteht verstand versteh verstehst verstandes verstandenen verstandene

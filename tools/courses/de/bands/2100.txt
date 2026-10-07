@@ -1,0 +1,100 @@
+1	2001	Unternehmer	unternehmer unternehmern unternehmers unternehmerin
+2	2002	ausführlich	ausführlich ausführliche ausführlichen ausführlicher ausführliches ausführlichere ausführlicheren ausführlichem ausführlichste ausführlicherer
+3	2003	Zeitraum	zeitraum zeiträume zeitraums zeiträumen zeitraumes
+4	2004	Botschaft	botschaft botschaften
+5	2005	Prinz	prinz prinzen
+6	2006	Erbe	erbe erben geerbt erbin erbes erb erbt erbte geerbten erbten
+7	2007	Mut	mut mute mutes muts
+8	2008	Archiv	archiv archive archiven archivs archives
+9	2009	Kleid	kleid kleider kleidern kleidchen kleides kleide
+10	2010	lehnen	lehnt lehnte lehnen lehne lehnten lehn gelehnt lehnst
+11	2011	Perspektive	perspektive perspektiven
+12	2012	Volkswagen	vw volkswagen volkswagens
+13	2013	Kern	kern kerne kernen kerns kernes
+14	2014	erstellt	erstellt erstellte erstellten erstelltes erstellter
+15	2015	Teilnahme	teilnahme teilnahmen
+16	2016	malen	malen gemalt malte malt mahlen malten mühlen malst gemahlen mahlt
+17	2017	treu	treu treue treuen treuer treues treuesten treueste treusten treuester
+18	2018	hi	hi
+19	2019	Medizin	medizin
+20	2020	Konsequenz	konsequenzen konsequenz
+21	2021	Strategie	strategie strategien
+22	2022	umfangreich	umfangreiche umfangreichen umfangreich umfangreiches umfangreicher umfangreichste umfangreichere umfangreichsten umfangreichem umfangreicheren
+23	2023	Gegenstand	gegenstand gegenstände gegenständen gegenstandes gegenstands gegenstande
+24	2024	Kerl	kerl kerle kerlchen kerlen kerls
+25	2025	fürchten	fürchten fürchtet fürchte fürchtete gefürchtet fürchteten gefürchteten fürchtest fürcht gefürchteter
+26	2026	Profi	profi profis
+27	2027	Konto	konto konten kontos
+28	2028	schwul	schwul schwule schwulen schwuler schwules
+29	2029	Stadion	stadion stadien stadions
+30	2030	definitiv	definitiv definitive definitiven definitives definitiver
+31	2031	abhängig	abhängig abhängigen abhängige abhängiger abhängiges
+32	2032	Alltag	alltag alltags
+33	2033	berühren	berührt berühren berührte berührend berührten berührende berühre berührenden berührender berührendes
+34	2034	aufbauen	aufbauen aufzubauen aufbaut aufbauend aufbaute aufbauende aufbauenden aufbauten aufbaust aufbauendes
+35	2035	Direktor	direktor direktorin direktoren direktors
+36	2036	fern	fern ferne fernen fernes ferneren fernere fernsten fernem
+37	2037	zurückkehren	zurückkehren zurückgekehrt zurückzukehren zurückkehrt zurückkehrte zurückkehrten zurückgekehrten zurückkehre zurückkehrenden
+38	2038	Nachfolger	nachfolger nachfolgerin nachfolgern nachfolgers
+39	2039	Höhenmeter	hm höhenmeter höhenmetern
+40	2040	Kenntnis	kenntnis kenntnisse kenntnissen
+41	2041	begehen	begangen begehen begeht beging begangenen begingen begangene begehe begehst begangener
+42	2042	Stellung	stellung stellungen
+43	2043	krass	krass krasse krasser krassen krasses krassesten krasseste krassem krassere
+44	2044	verfügbar	verfügbar verfügbaren verfügbare verfügbarer verfügbares verfügbarem
+45	2045	Brand	brand brände brandes brands bränden brande
+46	2046	Bundesland	bundesländern bundesland bundesländer bundeslandes bundeslands
+47	2047	anscheinend	anscheinend
+48	2048	Drogen	drogen
+49	2049	großartig	grossartig großartig
+50	2050	Media	media
+51	2051	Nord	nord
+52	2052	spätestens	spätestens
+53	2053	tja	tja
+54	2054	voraus	voraus
+55	2055	Auflösung	auflösung auflösungen
+56	2056	produziert	produziert produzierte produzierten produziertes produzierter produziertem
+57	2057	Verbot	verbot verbote verbots verbotes
+58	2058	bemühen	bemüht bemühen bemühte bemühe bemühten bemühst bemüh bemühens
+59	2059	gerecht	gerecht gerechte gerechten gerechter gerechtes gerechtere gerechteren
+60	2060	beachten	beachten beachtet beachte beachtete beachteten beachtetes beachteter beachtest beachtenden
+61	2061	Geschwindigkeit	geschwindigkeit geschwindigkeiten geschwindigkeits
+62	2062	irre	irre irren irrt geirrt irrer irrte irrst irres irr irrten
+63	2063	begegnen	begegnet begegnen begegnete begegneten begegne begegnest
+64	2064	ausländisch	ausländische ausländischen ausländischer ausländisches ausländischem ausländisch
+65	2065	erzielt	erzielt erzielte erzielten erzielter
+66	2066	langweilig	langweilig langweilige langweiligen langweiliger langweiliges lw langweiligste langweiligsten
+67	2067	Geburt	geburt geburten geburts
+68	2068	festhalten	festhalten festgehalten festzuhalten festhält festhielt festgehaltenen festhalte festhielten festgehaltene
+69	2069	blasen	blasen blase bläst geblasen blas blies blast bläschen bliesen
+70	2070	mitteilen	mitgeteilt mitteilen mitzuteilen mitteilte mitteilt mitgeteilten mitteilten mitteile mitteilst
+71	2071	Rose	rose rosen röschen röslein
+72	2072	vorgesehen	vorgesehen vorgesehenen vorgesehene vorgesehener vorgesehenes
+73	2073	Absicht	absicht absichten
+74	2074	Note	note noten
+75	2075	auslösen	ausgelöst auslösen auslöst auszulösen auslöste ausgelöste ausgelösten auslösten auslösende auslöse
+76	2076	elf	elf elfen elfe
+77	2077	Box	box boxen boxt geboxt boxte boxe
+78	2078	geprägt	geprägt geprägten geprägte geprägtes geprägter geprägtem
+79	2079	Flucht	flucht fluchten
+80	2080	Story	story storys
+81	2081	Umfrage	umfrage umfragen
+82	2082	Integration	integration integrationen
+83	2083	beitragen	beitragen beigetragen beiträgt beizutragen beitrug beitrugen beitrage
+84	2084	Vorwurf	vorwurf vorwürfe vorwürfen vorwurfs
+85	2085	Versicherung	versicherung versicherungen versicherungs
+86	2086	einst	einst
+87	2087	womit	womit
+88	2088	Bezeichnung	bezeichnung bezeichnungen
+89	2089	Hut	hut hüten hüte hütet hütete hütchen gehütet hütt hüt gehütetes
+90	2090	Studio	studio studios
+91	2091	Vorbild	vorbild vorbilder vorbildern vorbilds vorbildes
+92	2092	müde	müde müden müder müdes müd
+93	2093	korrekt	korrekt korrekte korrekten korrekter korrektes korrektem
+94	2094	Klinik	klinik kliniken
+95	2095	Überraschung	überraschung überraschungen
+96	2096	Papst	papst papstes päpste päpsten päpstin
+97	2097	Hochzeit	hochzeit hochzeiten
+98	2098	trainieren	trainieren trainiert trainierte trainiere trainierten trainierst trainierter trainier trainierenden
+99	2099	eingeführt	eingeführt eingeführten eingeführte eingeführtes eingeführter
+100	2100	fünfte	fünften fünfte fünfter fünftes fünftem

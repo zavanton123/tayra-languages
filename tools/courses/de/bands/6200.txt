@@ -1,0 +1,100 @@
+1	6101	naturwissenschaftlich	naturwissenschaftlichen naturwissenschaftliche naturwissenschaftlich naturwissenschaftlicher naturwissenschaftliches naturwissenschaftlichem
+2	6102	Double	double doubles
+3	6103	sonderlich	sonderlich sonderliche sonderlichen
+4	6104	baulich	bauliche baulichen baulich baulicher
+5	6105	Eimer	eimer eimern
+6	6106	norwegisch	norwegischen norwegische norwegisch norwegischer norwegisches
+7	6107	strafbar	strafbar strafbare strafbaren strafbares strafbarer
+8	6108	Führungskraft	führungskräfte führungskraft führungskräften
+9	6109	Turner	turner turnerin turnerinnen turners turnern
+10	6110	Acker	acker äcker äckern ackers
+11	6111	anderswo	anderswo
+12	6112	beiseite	beiseite
+13	6113	Bonner	bonner
+14	6114	Bundesstraße	bundesstrasse bundesstraße
+15	6115	Empörung	empörung
+16	6116	Homosexualität	homosexualität
+17	6117	Logistik	logistik
+18	6118	Maut	maut
+19	6119	Pest	pest
+20	6120	Iso	iso isos
+21	6121	Haftbefehl	haftbefehl haftbefehle haftbefehls haftbefehlen
+22	6122	munter	munter muntere munteren munteres munterer
+23	6123	biblisch	biblischen biblische biblischer biblisch biblisches
+24	6124	Tumor	tumor tumoren tumore tumors
+25	6125	spielerisch	spielerisch spielerische spielerischen spielerischer spielerisches
+26	6126	Dichtung	dichtung dichtungen
+27	6127	niedersächsisch	niedersächsischen niedersächsische niedersächsisches niedersächsischer
+28	6128	Schrott	schrott geschrottet schrottet schrotten
+29	6129	Schwung	schwung schwünge
+30	6130	solar	solar solare solaren solarer
+31	6131	unfähig	unfähig unfähige unfähigen unfähiger
+32	6132	anfahren	angefahren anfahren anführt anzufahren anfuhr anfährt
+33	6133	Cop	cops cop
+34	6134	vorantreiben	vorangetrieben voranzutreiben vorantreiben vorantreibt vorantrieb vorangetriebenen
+35	6135	jucken	juckt jucken gejuckt juckte
+36	6136	besoffen	besoffen besoffene besoffenen besoffener
+37	6137	Alb	alb alp alben albe
+38	6138	Finanzminister	finanzminister finanzministers finanzministerin
+39	6139	Bündel	bündel bündeln gebündelt bündelt gebündelten bündelte
+40	6140	Keim	keime keim keimen keimt keimte
+41	6141	Schulze	schulze schulzes schulzen
+42	6142	Kundgebung	kundgebung kundgebungen
+43	6143	hocken	hocken hockt hock hocke hockte hockst gehockt hockten hockend
+44	6144	spucken	spucken spuckt spucke gespuckt spuckte spuck spuckst spuckten
+45	6145	Aufschwung	aufschwung aufschwungs
+46	6146	kostenfrei	kostenfrei kostenfreie kostenfreien kostenfreies kostenfreier
+47	6147	Bauernhof	bauernhof bauernhöfe bauernhöfen bauernhofes bauernhofs
+48	6148	Referat	referat referate referats referaten referates
+49	6149	Prämie	prämie prämien
+50	6150	Ami	amis ami
+51	6151	Latte	latte latten
+52	6152	einhergehen	einhergehen einhergeht einhergehenden einhergehende einhergehend einherging einhergingen einhergehender einhergegangen
+53	6153	erbracht	erbracht erbrachte erbrachten erbrachter
+54	6154	Import	import importe importen imports
+55	6155	Chefredakteur	chefredakteur chefredakteurin chefredakteure chefredakteurs
+56	6156	rächen	rächen rächt rächer gerächt gerochen rächte räche rächten
+57	6157	festsetzen	festgesetzt festsetzen festgesetzten festzusetzen festsetzt festsetzte
+58	6158	verkleidet	verkleidet verkleidete verkleideten verkleideter
+59	6159	Modernisierung	modernisierung modernisierungen
+60	6160	befolgen	befolgen befolgt befolgte befolge befolgten
+61	6161	Lebewesen	lebewesen lebewesens
+62	6162	toben	toben tobt tobte tobten getobt tob tobe
+63	6163	Parameter	parameter parametern parameters
+64	6164	vergrössert	vergrössert vergrösserter vergrössertes vergrössertem vergrößert vergrößerter vergrößertes vergrößertem
+65	6165	Apotheker	apotheker apothekerin apothekers apothekern
+66	6166	zubereiten	zubereitet zubereiten zuzubereiten zubereitete zubereiteten zubereitetes zubereite
+67	6167	Verleger	verleger verlegers verlegern
+68	6168	Kleinstadt	kleinstadt kleinstädte kleinstädten
+69	6169	Einkaufszentrum	einkaufszentrum einkaufszentren einkaufszentrums
+70	6170	Organismus	organismus organismen
+71	6171	Gliederung	gliederung gliederungen
+72	6172	Freistaat	freistaat freistaates freistaats freistaaten
+73	6173	Allee	allee alleen
+74	6174	Transformation	transformation transformationen
+75	6175	Meme	meme memes
+76	6176	Genossenschaft	genossenschaft genossenschaften
+77	6177	Manuskript	manuskript manuskripte manuskripten manuskripts manuskriptes
+78	6178	ungeheuer	ungeheuer ungeheure ungeheuren ungeheurer ungeheures ungeheuern ungeheuers ungeheurem
+79	6179	Erfinder	erfinder erfinders erfindern erfinderin
+80	6180	Kollektion	kollektion kollektionen
+81	6181	Massage	massage massagen
+82	6182	hegen	hegen hegt hege hegte gehegt gehegten hegten gehegter gehegte hegst
+83	6183	portugiesisch	portugiesischen portugiesisch portugiesische portugiesischer portugiesisches
+84	6184	fehlerhaft	fehlerhaft fehlerhafte fehlerhaften fehlerhafter fehlerhaftes
+85	6185	montieren	montiert montieren montierten montierte
+86	6186	zucken	zucken zuckt zuckte zuck gezuckt zucke zuckten
+87	6187	nachholen	nachholen nachgeholt nachzuholen
+88	6188	Beta	beta betas
+89	6189	Hauptquartier	hauptquartier hq hauptquartiers hauptquartiere
+90	6190	unbegrenzt	unbegrenzt unbegrenzte unbegrenzten unbegrenzter unbegrenztes unbegrenztem
+91	6191	Schalter	schalter schaltern schalters
+92	6192	Kreislauf	kreislauf kreisläufe kreislaufs
+93	6193	Hummel	hummels hummel hummeln
+94	6194	Hebel	hebel hebeln hebels hebelt
+95	6195	wegwerfen	wegwerfen weggeworfen wegzuwerfen wegwirft weggeworfenen weggeworfene wegwerfe
+96	6196	Revier	revier reviere reviers revieren
+97	6197	kennzeichnen	kennzeichnen kennzeichnet kennzeichnend kennzeichnete kennzeichneten kennzeichne kennzeichnende kennzeichnenden
+98	6198	Erforschung	erforschung
+99	6199	Gunsten	gunsten
+100	6200	Ko	ko

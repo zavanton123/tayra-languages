@@ -1,0 +1,100 @@
+1	1801	bislang	bislang
+2	1802	zwölf	zwölf
+3	1803	Verlauf	verlauf verlaufe verläufe verlaufs verläufen verlaufes
+4	1804	Abschnitt	abschnitt abschnitte abschnitten abschnitts abschnittes
+5	1805	mächtig	mächtig mächtigen mächtige mächtiger mächtigsten mächtigste mächtiges mächtigere mächtigeren mächtigster
+6	1806	griechisch	griechischen griechische griechisch griechischer griechisches griechischem
+7	1807	damalig	damaligen damalige damaliger damaliges damaligem
+8	1808	Debatte	debatte debatten
+9	1809	vermögen	vermögen vermag vermögens vermochte vermögenden vermögende vermochten vermögend vermocht vermögender
+10	1810	Engel	engel engels engeln engelchen englein engerl
+11	1811	trauen	trauen traut traue getraut trau traute traust trauten trautes trauter
+12	1812	Statistik	statistik statistiken
+13	1813	Verständnis	verständnis verständnisses
+14	1814	bunt	bunt bunte bunten bunter buntes buntem buntesten bunteste
+15	1815	Design	design designs
+16	1816	vorgehen	vorgehen vorzugehen vorgeht vorgegangen vorgehens vorging vorgingen vorgehe vorgehenden
+17	1817	Effekt	effekt effekte effekten effekts effektes
+18	1818	mitnehmen	mitnehmen mitgenommen mitzunehmen mitnimmt mitnehme mitnahm mitnahmen mitnimmst mitgenommenen
+19	1819	Trend	trend trends
+20	1820	Truppe	truppen truppe
+21	1821	Dokument	dokumente dokument dokumenten dokuments dokumentes
+22	1822	Erkenntnis	erkenntnis erkenntnisse erkenntnissen
+23	1823	Mauer	mauer mauern mauren gemauerten gemauert mauert maure maurin mäuerchen
+24	1824	bezeichnen	bezeichnen bezeichnete bezeichnend bezeichneten bezeichne bezeichnest bezeichnenden bezeichnende bezeichner bezeichnender
+25	1825	Lob	lob gelobt loben lobt lobte lobe lobend lobende lobes lobten
+26	1826	andererseits	andererseits andrerseits
+27	1827	Argument	argumente argument argumenten arguments argumentes
+28	1828	Motiv	motiv motive motiven motivs
+29	1829	West	west wests
+30	1830	Fluss	fluss flüsse flusses flüssen flüsschen flusse flußes flüßen flüßchen
+31	1831	süßen	süss süssen süß süßen
+32	1832	sichtbar	sichtbar sichtbare sichtbaren sichtbarer sichtbares sichtbarem
+33	1833	nackt	nackt nackte nackten nackter nacktes nacktem
+34	1834	News	news
+35	1835	weshalb	weshalb
+36	1836	Zeitschrift	zeitschrift zeitschriften
+37	1837	Handlung	handlung handlungen
+38	1838	Verhandlung	verhandlungen verhandlung verhandlungs
+39	1839	empfinden	empfinden empfunden empfinde empfindet empfand empfindest empfanden empfundene empfundenen empfundenes
+40	1840	Befehl	befehl befehle befahl befohlen befehlen befiehlt befehls befiehl befahlen befohlenen
+41	1841	sexuell	sexuelle sexuellen sexuell sexueller sexuelles sexuellem
+42	1842	Aspekt	aspekte aspekt aspekten aspekts
+43	1843	Christ	christen christ christin christinnen
+44	1844	schieben	schieben schiebt geschoben schob schiebe schieber schieb schoben schiebst schiebend
+45	1845	Webseite	webseite webseiten
+46	1846	As	as assen asse asses aßen
+47	1847	Instrument	instrument instrumente instrumenten instruments instrumentes
+48	1848	Hamburger	hamburger hamburgern hamburgerin hamburgers
+49	1849	Republik	republik republiken
+50	1850	verfolgen	verfolgen verfolge verfolgte verfolgten verfolgst verfolg verfolgenden
+51	1851	Nutzung	nutzung nutzungen
+52	1852	Besitz	besitz besitze besitzes
+53	1853	leise	leise leiser leisen leises leiseste leis leisesten leisem leisere leiseren
+54	1854	besetzt	besetzt besetzten besetzte besetztes besetzter besetztem
+55	1855	trocken	trocken trockenen trockene trockener trockenes trockenem trockenste trockensten trockeneren trockenere
+56	1856	begeistert	begeistert begeisterte begeisterten begeisterter begeistertes
+57	1857	weitgehend	weitgehend weitestgehend weitergehende weitgehende weitgehenden weitergehenden weitgehender weitergehend weitergehender weitestgehende
+58	1858	Aufbau	aufbau aufbaus aufbauten aufbaue
+59	1859	errichten	errichtet errichten errichtete errichteten errichte errichtenden errichtetes errichteter
+60	1860	Nachfrage	nachfrage nachfragen nachgefragt nachzufragen nachfragt nachgefragten nachgefragte nachfragte
+61	1861	ausgeben	ausgegeben ausgeben ausgaben auszugeben ausgibt ausgab ausgegebenen ausgebe ausgegebene ausgibst
+62	1862	Keller	keller kellern kellers
+63	1863	Code	code codes kode
+64	1864	Ansatz	ansatz ansätze ansätzen ansatzes
+65	1865	My	my mys
+66	1866	zufällig	zufällig zufällige zufälligen zufälliger zufälliges
+67	1867	Manager	manager managerin managern managers
+68	1868	Mühe	mühe mühen müh mühte müht mühten
+69	1869	Akt	akten akt akte aktes akts
+70	1870	Aue	au aue auen
+71	1871	erhöhen	erhöhen erhöhte erhöhten erhöhe erhöhst
+72	1872	daneben	daneben
+73	1873	desto	desto
+74	1874	stattdessen	stattdessen
+75	1875	zweimal	zweimal
+76	1876	musikalisch	musikalische musikalischen musikalisch musikalischer musikalisches musikalischem
+77	1877	Mission	mission missionen
+78	1878	seltsam	seltsam seltsame seltsamen seltsames seltsamer seltsamsten seltsamste
+79	1879	Wähler	wähler wählern wählers wählerin
+80	1880	schweigen	schweigen schweigt geschwiegen schweigend schwieg schweigens schweige schweig schwiegen schweigst
+81	1881	Homepage	homepage homepages
+82	1882	Jürgen	jürgen jürgens
+83	1883	Faktor	faktoren faktor faktors
+84	1884	Festival	festival festivals
+85	1885	hergestellt	hergestellt hergestellten hergestellte hergestelltes hergestellter hergestelltem
+86	1886	aufgeben	aufgeben aufgaben aufzugeben aufgibt aufgab aufgebe aufgibst
+87	1887	angegeben	angegeben angegebenen angegebene angegebener
+88	1888	wetten	wetten wette wett gewettet wettet wettete
+89	1889	illegal	illegal illegale illegalen illegaler illegales illegalem
+90	1890	Vorbereitung	vorbereitung vorbereitungen
+91	1891	generell	generell generelle generellen generelles genereller
+92	1892	endgültig	endgültig endgültige endgültigen endgültiges endgültiger
+93	1893	interessieren	interessieren interessierte interessiere interessierten interessierst interessierenden interessier
+94	1894	Gegenteil	gegenteil gegenteils
+95	1895	bellen	bill bell bellen belle boll ballen bellt ballet geballten geballt
+96	1896	Süden	süden südens
+97	1897	Fakt	fakten fakt
+98	1898	Aktivität	aktivitäten aktivität aktivitäts
+99	1899	Brust	brust brüste brüsten brüstet brüstete
+100	1900	kündigen	kündigt kündigen gekündigt kündigte kündige kündigten kündigst gekündigten kündig

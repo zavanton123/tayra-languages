@@ -1,0 +1,100 @@
+1	4001	Funk	funk funks
+2	4002	Tiger	tiger tigers tigern tigre tigerin
+3	4003	Zaun	zaun zäune zäunen zauns zaunes
+4	4004	Theologie	theologie theologien
+5	4005	Sicherung	sicherung sicherungen
+6	4006	Duell	duell duelle duellen duells
+7	4007	gründlich	gründlich gründliche gründlicher gründlichen gründliches
+8	4008	Mix	mix mixen gemixt mixe mixt mixte
+9	4009	Melodie	melodie melodien
+10	4010	ausschalten	ausschalten ausgeschaltet auszuschalten ausschaltet ausschalte ausschaltete ausgeschalteten ausgeschaltetem
+11	4011	hindern	hindern hindert gehindert hinderte hinderten hindere hinder
+12	4012	ernähren	ernähren ernährt ernähre ernährte ernährten ernährst
+13	4013	Geistlicher	geistlichen geistliche geistlicher geistlichem
+14	4014	Zusammenfassung	zusammenfassung zusammenfassungen
+15	4015	aufrecht	aufrecht aufrechten aufrechte aufrechter aufrechtes aufrechtem
+16	4016	akut	akute akut akuten akuter akutes akutem
+17	4017	Anpassung	anpassung anpassungen anpassungs
+18	4018	Cover	cover covers covern gecovert covert
+19	4019	Green	green greens
+20	4020	binnen	binnen
+21	4021	Blödsinn	blödsinn
+22	4022	KFZ	kfz
+23	4023	mithilfe	mithilfe
+24	4024	Moral	moral
+25	4025	Non	non
+26	4026	rüber	rüber
+27	4027	Schande	schande
+28	4028	Sed	sed
+29	4029	Vorfeld	vorfeld
+30	4030	rauskommen	rauskommt rauskommen rausgekommen rauszukommen rauskam rauskommst rauskomme rauskamen
+31	4031	defekt	defekt defekte defekten defektes defekter defekts defektem
+32	4032	Furcht	furcht fürchte befürchtungen
+33	4033	vorgelegt	vorgelegt vorgelegten vorgelegte vorgelegter
+34	4034	Spielzeit	spielzeit spielzeiten
+35	4035	Penis	penis penisse penissen
+36	4036	souverän	souverän souveränen souveräne souveräner souveränes souveräns
+37	4037	intern	intern internen internes interner internem
+38	4038	Baumwolle	bw baumwolle
+39	4039	unterschätzen	unterschätzt unterschätzen unterschätzte unterschätze unterschätzende unterschätzten unterschätztes unterschätzter unterschätz
+40	4040	sowjetisch	sowjetischen sowjetische sowjetischer sowjetisch sowjetisches sowjetischem
+41	4041	problematisch	problematisch problematische problematischen problematischer problematisches
+42	4042	Vers	vers verse versus versen verses
+43	4043	Priorität	priorität prioritäten prio
+44	4044	regnen	regnet regnen geregnet regnete
+45	4045	erholen	erholen erholt erholte erholten erhole erhol
+46	4046	royal	royal royale royalen
+47	4047	einlegen	einlegen eingelegt einzulegen eingelegte eingelegten einlegt einlegte eingelegter einlegten eingelegtes
+48	4048	gesundheitlich	gesundheitlichen gesundheitliche gesundheitlich gesundheitlicher gesundheitliches
+49	4049	Bronze	bronze bronzene bronzenen bronzen
+50	4050	Marine	marine marinen
+51	4051	Praktikum	praktikum praktika praktikums
+52	4052	ausnehmen	ausgenommen ausnehmen auszunehmen ausnahmen ausnehmend ausnimmt
+53	4053	integrieren	integrieren integrierte integrierten integrierenden integriere
+54	4054	Pierre	pierre pierres
+55	4055	Landrat	landrat lr landräte landrats landrates landräten
+56	4056	Dieb	dieb diebe dieben diebin diebes
+57	4057	Fieber	fieber fiebern fiebert fiebers fieberte fiebere fieberten
+58	4058	Absage	absage absagen abzusagen absagt absagte
+59	4059	irgendwer	irgendwer irgendwem irgendwen iwer
+60	4060	Senator	senator senatoren senatorin senators
+61	4061	Samsung	samsung samsungs
+62	4062	grausam	grausam grausame grausamen grausamer grausames grausamste grausamsten
+63	4063	Gastgeber	gastgeber gastgeberin gastgebern gastgebers
+64	4064	abschalten	abschalten abgeschaltet abzuschalten abschaltet abgeschalteten
+65	4065	Ewigkeit	ewigkeit ewigkeiten
+66	4066	Italiener	italiener italienern italieners
+67	4067	Podcast	podcast podcasts
+68	4068	einlassen	einlassen eingelassen einzulassen einlässt eingelassenen einliess eingelassene einlasse einliessen einließ
+69	4069	Duo	duo duos
+70	4070	ausmessen	ausmass ausmassen ausgemessen ausmessen ausmaß ausmaßen
+71	4071	Gleis	gleis gleise gleisen gleises geleise
+72	4072	schweizerisch	schweizerischen schweizerische schweizerischer schweizerisches schweizerisch schweizerischem
+73	4073	dunkeln	dunkeln dunkle dunkelt
+74	4074	Asyl	asyl asyls
+75	4075	Erscheinung	erscheinung erscheinungen
+76	4076	Hase	hase hasen häschen hasi häsin
+77	4077	Liebling	liebling lieblings lieblinge lieblingen
+78	4078	segeln	segeln segel segelte segelt gesegelt segelten segels
+79	4079	passiv	passiv passive passiven passives passiver passivem
+80	4080	Basketball	basketball basketballs
+81	4081	tragisch	tragisch tragischen tragische tragischer tragisches tragischem
+82	4082	Fund	fund funde funds fundes funden
+83	4083	Ali	ali alis
+84	4084	unfassbar	unfassbar unfassbare unfassbaren unfassbares unfassbarer
+85	4085	Nachwuchs	nachwuchs nachwuchses
+86	4086	Socke	socken socke söckchen
+87	4087	mittelalterlich	mittelalterlichen mittelalterliche mittelalterlicher mittelalterlich mittelalterliches mittelalterlichem
+88	4088	Teenager	teenager teenagern teenagers teenagerin
+89	4089	abgebrochen	abgebrochen abgebrochenen abgebrochene abgebrochener abgebrochenes abgebrochenem
+90	4090	hierher	hierher
+91	4091	WhatsApp	whatsapp
+92	4092	zurückführen	zurückzuführen zurückführen zurückführt zurückführte
+93	4093	Moschee	moschee moscheen
+94	4094	füttern	füttern gefüttert füttert füttere futtern fütterte fütterst gefütterte fütter gefütterten
+95	4095	Römer	römer römern römers römerin
+96	4096	Diktatur	diktatur diktaturen
+97	4097	smart	smart smarte smarten smarter smartes
+98	4098	Erfindung	erfindung erfindungen
+99	4099	bewundern	bewundern bewundert bewundere bewunderte bewunderten bewundernd
+100	4100	Journal	journal journals journale journalen

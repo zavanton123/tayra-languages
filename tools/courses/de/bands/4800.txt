@@ -1,0 +1,100 @@
+1	4701	verschärfen	verschärft verschärfen verschärfte verschärften verschärfter verschärfenden verschärfende
+2	4702	erhoffen	erhofft erhoffte erhoffen erhofften erhoffe erhoffst
+3	4703	Ausschnitt	ausschnitt ausschnitte ausschnitten ausschnitts
+4	4704	Japaner	japaner japanern japanerin japaners
+5	4705	elektrisch	elektrisch elektrischen elektrisches elektrischer elektrischem
+6	4706	ideologisch	ideologischen ideologische ideologisch ideologischer ideologisches ideologischem
+7	4707	Witwe	witwe witwen witwer
+8	4708	Reichtum	reichtum reichtums reichtümer reichtümern
+9	4709	fraglich	fraglich fraglichen fragliche fraglicher
+10	4710	Pfeil	pfeil pfeile pfeilen pfeils
+11	4711	Order	order ordre ordern geordert orderte ordert
+12	4712	leugnen	leugnen leugnet geleugnet leugne leugnete leugnest leugneten
+13	4713	reißen	reissen risse rissen reißen
+14	4714	Anwesenheit	anwesenheit
+15	4715	Anzeichen	anzeichen
+16	4716	Arbeitslosigkeit	arbeitslosigkeit
+17	4717	Ikea	ikea
+18	4718	Ironie	ironie
+19	4719	Stuttgarter	stuttgarter
+20	4720	überaus	überaus
+21	4721	Techniker	techniker technikern technikers technikerin
+22	4722	weiterführen	weiterführende weitergeführt weiterführen weiterzuführen weiterführt weiterführend weiterführte
+23	4723	Geste	geste gesten
+24	4724	programmieren	programmieren programmiert programmierte programmierten programmier programmiere programmierter programmierens
+25	4725	knoten	knoten knotens knötchen geknotet knot
+26	4726	Oberbürgermeister	oberbürgermeister oberbürgermeisters oberbürgermeisterin
+27	4727	Tool	tool tools
+28	4728	verschwenden	verschwenden verschwendet verschwende verschwendete verschwendest verschwendeten
+29	4729	Biss	biss bissen bisserl bisse bisses biß bißen biße bißes
+30	4730	Maas	maas maassen
+31	4731	Komödie	komödie komödien
+32	4732	Erdbeben	erdbeben erdbebens
+33	4733	Sozialdemokrat	sozialdemokraten sozialdemokrat sozialdemokratin sozialdemokratinnen
+34	4734	Rapper	rapper rappern rappers rapperin
+35	4735	Lebenslauf	lebenslauf lebensläufe lebensläufen lebenslaufs lebenslaufes
+36	4736	Insekt	insekten insekt insekts
+37	4737	kompetent	kompetent kompetente kompetenten kompetenter kompetentes kompetentesten
+38	4738	ordnen	ordnet ordnen ordnete ordne ordneten ordnende
+39	4739	operieren	operiert operieren operierten operierte operierenden operiere
+40	4740	Zusammensetzung	zusammensetzung zusammensetzungen
+41	4741	Felsen	felsen felsens
+42	4742	schwanken	schwankt schwanken schwankte schwanke schwankenden schwank schwankende schwankend schwankten schwankender
+43	4743	Tageszeitung	tageszeitung tageszeitungen
+44	4744	Verkehrsunfall	verkehrsunfall verkehrsunfälle verkehrsunfällen verkehrsunfalls verkehrsunfalles
+45	4745	kühn	kühn kühne kühnen kühner kühnsten kühnes kühns kühnste
+46	4746	gespeichert	gespeichert gespeicherten gespeicherte gespeicherter
+47	4747	Export	export exporte exporten exports
+48	4748	medial	mediale medialen medial medialer mediales
+49	4749	blenden	blenden geblendet blende blendend blendet blender blend blendete blendende blendenden
+50	4750	unterstellt	unterstellt unterstellte unterstellten
+51	4751	Niederschlag	niederschlag niederschläge niederschlägen niederschlags
+52	4752	Weisheit	weisheit weisheiten
+53	4753	nachvollziehbar	nachvollziehbar nachvollziehbare nachvollziehbaren nachvollziehbarer nachvollziehbares
+54	4754	Bundespräsident	bundespräsident bundespräsidenten
+55	4755	Honig	honig honigs
+56	4756	schmerzhaft	schmerzhaft schmerzhafte schmerzhaften schmerzhafter schmerzhaftes schmerzhaftesten
+57	4757	erlernen	erlernen erlernt erlernte erlernten erlerntes
+58	4758	nüchtern	nüchtern nüchternen nüchterne nüchterner nüchternes nüchternem
+59	4759	Browser	browser browsern browsers
+60	4760	diplomatisch	diplomatischen diplomatische diplomatisch diplomatischer diplomatisches diplomatischem
+61	4761	verschenken	verschenken verschenkt verschenkte verschenke verschenkst verschenkten
+62	4762	Konkurrent	konkurrenten konkurrent konkurrentin
+63	4763	Ausblick	ausblick ausblicke ausblicken
+64	4764	Spital	hospital spital spitäler spitals spitälern
+65	4765	abstrakt	abstrakte abstrakt abstrakten abstrakter abstraktes abstraktem
+66	4766	vertragen	vertragen verträgt verträgst vertrug vertragt vertrage vertrugen
+67	4767	schleppen	schleppen geschleppt schleppt schleppend schleppe schleppte schlepp schleppten schleppst
+68	4768	untergehen	untergehen untergeht untergegangen unterging unterzugehen untergegangenen untergegangene untergingen
+69	4769	Doku	doku dokus
+70	4770	Gewässer	gewässer gewässern gewässers
+71	4771	Scheidung	scheidung scheidungen scheidungs
+72	4772	weiden	weiden weide weidet weidt weid
+73	4773	Thüringer	thüringer thüringern
+74	4774	infiziert	infiziert infizierten infizierte infizierter infiziertes
+75	4775	funken	funken funke funkt fünkchen gefunkt funkte
+76	4776	aufgreifen	aufgegriffen aufgreifen aufgreift aufzugreifen aufgriff aufgegriffenen aufgriffen aufgegriffene
+77	4777	abheben	abheben abgehoben abhebt abzuheben abhob abgehobene abgehobenen abhoben abhebe
+78	4778	safe	safe safer safes
+79	4779	Vertretung	vertretung vertretungen
+80	4780	sprachlich	sprachlich sprachliche sprachlichen sprachlicher sprachliches
+81	4781	einholen	einholen eingeholt einzuholen einholt einholte eingeholten
+82	4782	human	human humane humanen humaner humanes humanere
+83	4783	mündlich	mündliche mündlichen mündlich mündlicher mündliches
+84	4784	Kicker	kicker kickers kickern
+85	4785	tierisch	tierischen tierisch tierische tierischer tierisches tierischem
+86	4786	Beleuchtung	beleuchtung beleuchtungen
+87	4787	leidenschaftlich	leidenschaftlich leidenschaftliche leidenschaftlicher leidenschaftlichen leidenschaftliches leidenschaftlichem
+88	4788	Schädel	schädel schädels schädeln
+89	4789	Selbstmord	selbstmord selbstmorde selbstmorden selbstmordes selbstmords
+90	4790	Tomate	tomaten tomate
+91	4791	Transfer	transfer transfers
+92	4792	Nationalsozialismus	nationalsozialismus
+93	4793	zwischendurch	zwischendurch
+94	4794	belangen	belange belangen belangt belang
+95	4795	silbern	silbernen silberne silberner silbern silbernes silbernem
+96	4796	Futter	futter futtern futters gefuttert futtert
+97	4797	zugeordnet	zugeordnet zugeordneten zugeordnete
+98	4798	ertrinken	ertrinken ertrunken ertrinkt ertränken ertränkt ertrank ertranken ertrunkenen ertrinke ertrinkenden
+99	4799	Abstieg	abstieg abstiegs abstiege abstiegen
+100	4800	Satire	satire satiren

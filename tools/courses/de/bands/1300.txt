@@ -1,0 +1,100 @@
+1	1201	Unfall	unfall unfälle unfällen unfalls unfalles
+2	1202	lokal	lokalen lokale lokal lokaler lokales lokalem lokals
+3	1203	Müller	müller müllers müllerin
+4	1204	traurig	traurig traurige traurigen trauriger trauriges traurigste traurigsten traurigem
+5	1205	Maschine	maschine maschinen
+6	1206	Gegner	gegner gegnern gegners gegnerin gegnerinnen
+7	1207	Alternative	alternative alternativen
+8	1208	schenken	geschenkt schenken schenkt schenk schenkte schenke schenker schenkten schenkst geschenkten
+9	1209	Landkreis	landkreis landkreises landkreise landkreisen
+10	1210	Flughafen	flughafen flughäfen flughafens
+11	1211	Mine	min mine minen mint
+12	1212	Unterricht	unterricht unterrichtet unterrichten unterrichts unterrichtete unterrichte unterrichteten unterrichtes unterrichtenden unterrichtest
+13	1213	Reaktion	reaktion reaktionen
+14	1214	Basis	basis basen
+15	1215	Büro	büro büros bureau
+16	1216	existieren	existiert existieren existierenden existierte existierende existierten existiere existierender existierendes existierst
+17	1217	Kurs	kurs kurse kursen kurses
+18	1218	benötigen	benötigt benötigen benötigte benötigten benötige benötigst
+19	1219	türkisch	türkischen türkische türkischer türkisch türkisches türkischem
+20	1220	Stärke	stärke stärken gestärkt stärkt stärkte stärkten stärk stärkenden gestärkten stärkend
+21	1221	real	real realen reale realer reales realem reals
+22	1222	klappen	klappt geklappt klappen klappe klappte klapp klappten
+23	1223	stets	stets
+24	1224	achten	achten achte geachtet achtet achter achtete achtern achtest achtes achteten
+25	1225	Student	studenten student studentin
+26	1226	Vorschlag	vorschlag vorschläge vorschlägen vorschlags vorschlage vorschlages
+27	1227	Ring	ring ringe ringen rings ringt gerungen ringes ränge rängen rangen
+28	1228	herstellen	hersteller herstellen herzustellen herstellt herstellte herstellten herstelle herstellst
+29	1229	Blut	blut bluten blutes blutet blute blutende blutete blutend geblutet bluts
+30	1230	Presse	presse press pressen gepresst presst gepressten presste gepresste gepresster pressten
+31	1231	zufrieden	zufrieden zufriedener zufriedene zufriedenen zufriedenes
+32	1232	irgendwo	irgendwo iwo
+33	1233	reagieren	reagiert reagieren reagierte reagierten reagiere reagierst reagierenden reagier
+34	1234	Konzert	konzert konzerte konzerten konzerts konzertes
+35	1235	Halle	halle hallen hallt hallte halles hallten
+36	1236	Baby	baby babys babies
+37	1237	ausschließlich	ausschliesslich ausschliessliche ausschliesslichen ausschliesslicher ausschliessliches ausschließlich ausschließliche ausschließlichen ausschließlicher ausschließliches
+38	1238	schmerzen	schmerzen schmerz schmerzt schmerzes schmerzte schmerzenden geschmerzt schmerzten schmerze
+39	1239	still	still stille stillen stiller gestillt stilles stillt stillem stillende stillte
+40	1240	behalten	behalten behält behielt behalte behielten behalt behaltet behältst
+41	1241	Wissenschaft	wissenschaft wissenschaften wissenschafts wißenschaft wißenschaften
+42	1242	darstellen	darstellen darstellt darzustellen darstellte darstellten darstelle darstellende darstellst darstellend
+43	1243	organisieren	organisiert organisieren organisierte organisierten organisierter organisiertes organisiere organisierenden organisiertem organisier
+44	1244	kritisch	kritisch kritische kritischen kritischer kritisches kritischem kritischsten kritischere kritischste
+45	1245	diskutieren	diskutiert diskutieren diskutierten diskutierte diskutiere diskutiertes diskutier diskutierst diskutierter
+46	1246	Mangel	mangel mangels mängel mangelnde mangelt mangelnder mangelnden mängeln mangelndes mangelte
+47	1247	finanziell	finanzielle finanziellen finanziell finanzieller finanzielles finanziellem
+48	1248	Haut	haut häuten häute gehäutet häutet häutchen
+49	1249	Methode	methode methoden
+50	1250	begleiten	begleitet begleiten begleitete begleiteten begleitenden begleite begleitend begleit begleitetes begleitest
+51	1251	dahin	dahin
+52	1252	Ddr	ddr
+53	1253	Nachricht	nachricht
+54	1254	ersetzen	ersetzt ersetzen ersetzte ersetze ersetzten ersetz ersetzenden
+55	1255	Figur	figur figuren figürchen
+56	1256	beschreiben	beschreibt beschreiben beschrieb beschreibe beschreibst beschreib beschreibende beschreibenden beschreibend
+57	1257	Rom	rom roma roms romas
+58	1258	landen	landen gelandet landet landete landeten landest lande gelandeten landenden
+59	1259	Forschung	forschung forschungen forschungs
+60	1260	Risiko	risiko risiken risikos risken
+61	1261	verdammt	verdammt verdammte verdammten verdammter verdammtes
+62	1262	gelb	gelb gelbe gelben gelber gelbes gelbem gehl
+63	1263	Tour	tour touren tourt tourte tourten
+64	1264	Breite	breite breiten breites breitet breitete breiteten
+65	1265	verändert	verändert veränderte veränderten veränderter verändertes verändertem
+66	1266	Strom	strom strömen strömt ströme stroms strömten strömenden strömte stromes strömendem
+67	1267	Zweifel	zweifel zweifeln zweifelt zweifle gezweifelt zweifelte zweifler zweifelst zweifels zweifelten
+68	1268	Roman	roman romane romans romanen romanes
+69	1269	Jude	juden jude jüdin jüdinnen
+70	1270	Leiter	leiter leiterin leitern leiters leiterinnen
+71	1271	abgeben	abgeben abgegeben abzugeben abgaben abgibt abgegebenen abgab abgegebene abgebe abgibst
+72	1272	Religion	religion religionen reli
+73	1273	Bürgermeister	bürgermeister bürgermeisters bürgermeisterin bürgermeistern bürgermeisterinnen
+74	1274	Umgebung	umgebung umgebungen
+75	1275	Masse	masse massen masst maße maßen maßt
+76	1276	sinken	sinkt sinken sankt sank gesunken sinkende sinkenden sanken sinkender gesunkenen
+77	1277	Jugendlicher	jugendliche jugendlichen jugendlicher jugendlichem
+78	1278	Nachbar	nachbarn nachbar nachbarin nachbars nachbarinnen
+79	1279	Vergangenheit	vergangenheit vergangenheiten
+80	1280	heben	hebt hob heben gehoben hub gehobenen hebe heb gehobene hoben
+81	1281	üblich	üblich üblichen übliche üblicher übliches üblichem
+82	1282	Gegensatz	gegensatz gegensätze gegensätzen gegensatzes
+83	1283	hinten	hinten
+84	1284	vergleichen	vergleichen verglichen vergleicht vergleichende verglich vergleiche vergleichenden vergleichst vergleichender vergleichend
+85	1285	Behörde	behörden behörde
+86	1286	fort	fort forts
+87	1287	unbekannt	unbekannt unbekannte unbekannten unbekannter unbekanntes unbekanntem unbekanntere unbekannteren
+88	1288	erhöht	erhöht erhöhte erhöhten erhöhter erhöhtes erhöhtem
+89	1289	riesig	riesige riesigen riesig riesiges riesiger riesigem
+90	1290	Telefon	telefon telefone telefons telefonen
+91	1291	Wetter	wetter wetters wettert wettern wetterte gewettert
+92	1292	Termin	termin termine terminen termins
+93	1293	Kategorie	kategorie kategorien
+94	1294	herrschen	herrscht herrscher herrschte herrschen herrschenden herrschende herrschten herrsche geherrscht herrschender
+95	1295	digital	digitale digital digitalen digitaler digitales digitalem
+96	1296	nerven	nerven nervt genervt nerv nervst nerve nervte genervten nervend genervter
+97	1297	Literatur	literatur literaturen
+98	1298	Mund	mund munde münder mundes mündern
+99	1299	Leitung	leitung leitungen
+100	1300	miteinander	miteinander miteinanders

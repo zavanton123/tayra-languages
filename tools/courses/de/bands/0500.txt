@@ -1,0 +1,100 @@
+1	401	Rolle	rolle rollen roll rollt rollte gerollt rollten röllchen rollst rollend
+2	402	fünf	fünf fünfen
+3	403	damals	damals
+4	404	Foto	foto fotos photo
+5	405	international	internationalen internationale international internationaler internationales internationalem
+6	406	offen	offen offenen offene offener offenes offenem offenere offeneren
+7	407	egal	egal egaler
+8	408	Artikel	artikel artikeln artikels
+9	409	Wahl	wahl wahlen
+10	410	Ergebnis	ergebnis ergebnisse ergebnissen ergebnisses
+11	411	Sinn	sinn sinne sinnen sinnt gesonnen sinnes sann sinns
+12	412	System	system systeme systems systemen
+13	413	gegenüber	gegenüber gegenübers
+14	414	Richtung	richtung richtungen richtungs
+15	415	Möglichkeit	möglichkeit möglichkeiten
+16	416	oben	oben
+17	417	Regierung	regierung regierungen regierungs
+18	418	vergessen	vergessen vergisst vergiss vergesse vergesst vergass vergessene vergessenen vergess vergassen
+19	419	reichen	reicht reichen reichte gereicht reiche reichten reichende reichst reichend
+20	420	erzählen	erzählt erzählen erzählte erzähl erzähle erzählten erzählst erzählens erzählenden erzählter
+21	421	Tod	tod tode todes todt toden tods
+22	422	Angebot	angebot angeboten angebote angebotenen angebots angebotene anbot angebotes angebotener angebotenes
+23	423	Herz	herz herzen herzens hertz herzchen herze geherzt
+24	424	Eltern	eltern elter
+25	425	bisher	bisher
+26	426	ernst	ernst ernste ernstes ernsten ernster ernstere ernstem ernsteren ernsts ernsteres
+27	427	Blick	blick blicken blicke blickt blickte blickten geblickt blickes blickst blicks
+28	428	ändern	ändern geändert ändert änderte ändere geänderten geänderte änderten änderst änder
+29	429	selber	selber selben selbe selbes selbem
+30	430	Hilfe	hilfe hilfen hülfe
+31	431	manch	manche manchen mancher manches manch manchem
+32	432	Mitte	mitte mitten
+33	433	her	her
+34	434	trotzdem	trotzdem
+35	435	Glück	glück glücks glückes glücke
+36	436	steigen	steigt steigen stieg gestiegen steigenden stiegen steigende steigender steige steig
+37	437	Mittel	mittel mittels mittleren mitteln mittlere mittlerer mittler mittleres mittlerem gemittelt
+38	438	Erfolg	erfolg erfolge erfolgs erfolges
+39	439	allgemein	allgemein allgemeinen allgemeine allgemeines allgemeiner allgemeinem allgemeinere allgemeineren
+40	440	erscheinen	erscheint erscheinen erschienen erschien erschienenen erschienene erscheinenden erscheine erscheinens erschienenes
+41	441	entsprechend	entsprechend entsprechenden entsprechende entsprechender entsprechendes entsprechendem
+42	442	Internet	internet internets
+43	443	sozial	sozialen soziale sozial soziales sozialer sozialem
+44	444	Politik	politik politiken
+45	445	Folge	folge
+46	446	zunächst	zunächst
+47	447	einzeln	einzelnen einzelne einzeln einzelner einzelnes einzelnem
+48	448	besondere	besondere besonderen besonderes besonderer besonderem
+49	449	bisschen	bisschen bischen bisch
+50	450	wünschen	wünschen wünsche wünscht wünschte gewünscht gewünschten gewünschte wünsch wünschten wünschst
+51	451	darum	darum drum
+52	452	arm	arm arme armen armer armes ärmsten ärmer arms ärmeren ärmere
+53	453	bauen	bauen gebaut baut baute bauten gebauten gebaute baue baust bauens
+54	454	holen	holen holt geholt holte hol hole holten holst geholten
+55	455	persönlich	persönlich persönliche persönlichen persönlicher persönliches persönlichem persönlichste persönlichsten persönlichere
+56	456	Kirche	kirche kirchen kirchlein
+57	457	Entwicklung	entwicklung entwicklungen entwicklungs
+58	458	ähnlich	ähnlich ähnliche ähnlichen ähnliches ähnlicher ähnlichem ähnlichsten
+59	459	befinden	befindet befinden befand befanden befunden befinde befindest befänden befände befindenden
+60	460	oh	oh
+61	461	schließlich	schliesslich schließlich
+62	462	Klasse	klasse klassen
+63	463	schlimm	schlimm schlimmer schlimmste schlimmsten schlimme schlimmes schlimmeres schlimmen schlimmere schlimmeren
+64	464	schicken	schicken geschickt schickt schick schickte schicke schickten schickst chic schickes
+65	465	Band	band bande bands bände bänder banden bänden bandes bändern bändchen
+66	466	Prozent	prozent prozente prozenten
+67	467	Stück	stück stücke stücken stückchen stücks stückes
+68	468	Mädchen	mädchen mädchens
+69	469	bilden	bilden bildet gebildet bildete bildeten gebildeten bildenden gebildete bildende gebildeter
+70	470	erkennen	erkennen erkannt erkennt erkannte erkenne erkennst erkannten erkenn erkennenden erkennens
+71	471	Spaß	spass spässen spasses spaß späßen spaßes
+72	472	europäisch	europäischen europäische europäischer europäisches europäisch europäischem
+73	473	schaden	schaden schade schäden schadet geschadet schadens schad schadete schadt schadest
+74	474	Sieg	sieg sieger siegen siege siegte siegt sieges siegten gesiegt siegs
+75	475	Lage	lage lagen lages
+76	476	Moment	moment momente momenten moments momentchen
+77	477	lieben	lieben liebt geliebt geliebten geliebte liebst liebte liebend geliebter liebten
+78	478	Zukunft	zukunft zukunfts
+79	479	Werk	werk werke werken werkes werks
+80	480	erinnern	erinnert erinnern erinnere erinnerte erinnerst erinnerten erinner erinnernden erinnerns erinnernd
+81	481	teilen	teilen teilt geteilt teile teilte teilten geteilten geteilte teilst geteilter
+82	482	gründen	gründen gegründet gründe gründete gegründete gegründeten gründet gründeten gegründetes gründenden
+83	483	Erfahrung	erfahrung erfahrungen erfahrungs
+84	484	Angst	angst ängste ängsten
+85	485	unterstützen	unterstützt unterstützen unterstützer unterstützte unterstütze unterstützten unterstützern unterstützend unterstützende unterstützenden
+86	486	wirken	wirkt wirken wirkte wirkten gewirkt wirkende wirkenden wirke wirkens wirkst
+87	487	tief	tief tiefe tiefer tiefen tiefsten tieferen tiefes tiefere tiefste tiefem
+88	488	ziemlich	ziemlich ziemlicher ziemliche ziemlichen ziemliches
+89	489	häufig	häufig häufiger häufigsten häufige häufigste häufigen häufiges häufigere häufigeren häufigem
+90	490	Meinung	meinung meinungen meinungs
+91	491	wohnen	wohnen wohnt gewohnt wohne wohn wohnst wohnte gewohnten wohnten gewohnte
+92	492	Projekt	projekt projekte projekten projekts projektes
+93	493	Text	text texte texten textes texts getextet textet
+94	494	genannt	genannt genannten genannte genannter genanntes genanntem
+95	495	super	super supi
+96	496	Gefühl	gefühl gefühle gefühlen gefühls
+97	497	Wohnung	wohnung wohnungen wohnungs
+98	498	hart	hart harte harten harter härter hartes härtesten härtere härteste hartem
+99	499	Mai	mai mais maite maien
+100	500	völlig	völlig völliger völlige völligen völliges völligem

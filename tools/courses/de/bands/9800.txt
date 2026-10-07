@@ -1,0 +1,100 @@
+1	9701	umlegen	umgelegt umlegen umzulegen umlegt
+2	9702	herausgeben	herausgeben herauszugeben herausgab herausgibt
+3	9703	Lebenswerk	lebenswerk lebenswerks lebenswerkes
+4	9704	Söldner	söldner söldnern
+5	9705	konstruieren	konstruieren konstruierte konstruierten konstruiere
+6	9706	Schimmel	schimmel schimmeln schimmelt
+7	9707	beharren	beharren beharrt beharrte beharrten beharre
+8	9708	Bauzeit	bauzeit bauzeiten
+9	9709	Theke	theke theken
+10	9710	Grabstein	grabstein grabsteine grabsteinen
+11	9711	Hain	hain haines haine hains
+12	9712	Sonnenlicht	sonnenlicht sonnenlichts
+13	9713	unrealistisch	unrealistisch unrealistische unrealistischen unrealistischer
+14	9714	Geschäftspartner	geschäftspartner geschäftspartnern geschäftspartners geschäftspartnerin
+15	9715	eingespielt	eingespielt eingespielten eingespieltes
+16	9716	Verteidigungsministerium	verteidigungsministerium verteidigungsministeriums
+17	9717	Saite	saiten saite
+18	9718	Untergeschoss	untergeschoss ug untergeschoß
+19	9719	signieren	signiert signierte signieren signierten
+20	9720	Prädikat	prädikat prädikate prädikats
+21	9721	Stoffwechsel	stoffwechsel stoffwechsels
+22	9722	ersuchen	ersuchen ersucht ersuchte ersuche ersuchten
+23	9723	Buchhändler	buchhändler buchhändlerin buchhändlers buchhändlern
+24	9724	baumeln	baumeln bummeln bummel baumelt baumelte baumelnden
+25	9725	Partikel	partikel partikeln
+26	9726	Kollision	kollision kollisionen
+27	9727	Auflistung	auflistung auflistungen
+28	9728	traumatisieren	traumatisiert traumatisierten traumatisierte traumatisieren traumatisierend
+29	9729	Kindergeld	kindergeld kindergeldes
+30	9730	Visum	visum visums
+31	9731	Todesursache	todesursache todesursachen
+32	9732	Dia	dia dias
+33	9733	Atombombe	atombombe atombomben
+34	9734	Werbespot	werbespot werbespots
+35	9735	stur	stur sture sturen sturer stures
+36	9736	Endrunde	endrunde endrunden
+37	9737	Fundort	fundort fundorte fundorten fundortes fundorts
+38	9738	Vergewaltiger	vergewaltiger vergewaltigern
+39	9739	Gesamtschule	gesamtschule gesamtschulen
+40	9740	hetero	hetero heteros
+41	9741	Selbstverständnis	selbstverständnis selbstverständnisses
+42	9742	Begabung	begabung begabungen
+43	9743	Dürre	dürre dürren
+44	9744	verschlucken	verschluckt verschlucken verschluckte
+45	9745	versperren	versperrt versperren versperrte versperrten
+46	9746	Rebellion	rebellion rebellionen
+47	9747	schubsen	schubsen geschubst schubst schubste schubs schubse
+48	9748	Abendland	abendlandes abendland abendlands
+49	9749	Puzzle	puzzle puzzles
+50	9750	Term	term terms terme termen
+51	9751	Inkrafttreten	inkrafttreten inkrafttretens
+52	9752	Mitgliedsstaat	mitgliedsstaaten mitgliedsstaat
+53	9753	Atemzug	atemzug atemzüge atemzügen
+54	9754	messbar	messbar messbare messbaren messbarer messbares
+55	9755	chronologisch	chronologisch chronologische chronologischer chronologischen
+56	9756	Auswärtssieg	auswärtssieg auswärtssiege
+57	9757	gleichgültig	gleichgültig gleichgültigen gleichgültiger gleichgültige
+58	9758	Strumpf	strümpfe strumpf strümpfen
+59	9759	verdecken	verdecken verdeck verdeckte verdeckten verdecke
+60	9760	Ambition	ambitionen ambition
+61	9761	Kantine	kantine kantinen
+62	9762	Antoine	antoine
+63	9763	Aura	aura
+64	9764	Brei	brei
+65	9765	Dans	dans
+66	9766	Eichhörnchen	eichhörnchen
+67	9767	Einbindung	einbindung
+68	9768	fünfmal	fünfmal
+69	9769	geradeaus	geradeaus
+70	9770	ghosten	ghost
+71	9771	Gunnar	gunnar
+72	9772	Haider	haider
+73	9773	hinüber	hinüber
+74	9774	Lebensgefahr	lebensgefahr
+75	9775	Palais	palais
+76	9776	woraufhin	woraufhin
+77	9777	Yang	yang
+78	9778	Ökologie	ökologie
+79	9779	ätzend	ätzend ätzende ätzenden ätzender
+80	9780	Tutorial	tutorial tutorials
+81	9781	hinkommen	hinkommen hinkommt hingekommen hinkomme hinkommst hinkam
+82	9782	Kronprinz	kronprinz kronprinzen kronprinzessin
+83	9783	Kugelschreiber	kugelschreiber kuli kulis kugelschreibern
+84	9784	ausfahren	ausfahren ausfuhr ausgefahren ausfuhren ausführt ausgefahrenen auszufahren ausfährt ausführe ausführst
+85	9785	kölsch	kölsch kölsche kölschen kölscher
+86	9786	bekräftigt	bekräftigt bekräftigte bekräftigten
+87	9787	ahnden	geahndet ahnden ahndet ahndete
+88	9788	irreführend	irreführend irreführende irreführenden irreführender
+89	9789	morgig	morgigen morgige
+90	9790	Lenker	lenker lenkers lenkern lenkerin
+91	9791	fürstlich	fürstlichen fürstlich fürstliche fürstlicher fürstliches
+92	9792	versauen	versauen versaute versaue versauten versau versaust
+93	9793	Fiktion	fiktion fiktionen
+94	9794	Gesichtsausdruck	gesichtsausdruck gesichtsausdrücke
+95	9795	Mülleimer	mülleimer mülleimern
+96	9796	Versager	versager versagern
+97	9797	Drehung	drehung drehungen
+98	9798	Strafanzeige	strafanzeige strafanzeigen
+99	9799	Rumäne	rumänen rumäne rumänin
+100	9800	Wahrzeichen	wahrzeichen wahrzeichens

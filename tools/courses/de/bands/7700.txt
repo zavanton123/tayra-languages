@@ -1,0 +1,100 @@
+1	7601	Umgestaltung	umgestaltung umgestaltungen
+2	7602	Rollenspiel	rollenspiel rollenspiele rollenspielen rollenspiels
+3	7603	Hunderttausende	hunderttausende hunderttausenden
+4	7604	gleichsetzen	gleichgesetzt gleichzusetzen gleichsetzen gleichsetzt
+5	7605	Gans	gans gänse gänsen
+6	7606	wiedergeben	wiedergeben wiedergibt wiederzugeben wiedergab wiedergebe wiedergaben
+7	7607	Wirkstoff	wirkstoff wirkstoffe wirkstoffen wirkstoffs wirkstoffes
+8	7608	bombardieren	bombardiert bombardieren bombardier bombardierten bombardierte bombadiert
+9	7609	feministisch	feministische feministischen feministischer feministisch feministisches
+10	7610	autoritär	autoritären autoritäre autoritär autoritärer autoritäres
+11	7611	synthetisch	synthetische synthetischen synthetisch synthetischer synthetisches synthetischem
+12	7612	atemberaubend	atemberaubend atemberaubende atemberaubenden atemberaubender atemberaubendes
+13	7613	Erkältung	erkältung erkältungen
+14	7614	kostengünstig	kostengünstig kostengünstiger kostengünstige kostengünstigen kostengünstigere kostengünstigste kostengünstigeren kostengünstiges
+15	7615	poetisch	poetische poetisch poetischen poetischer poetisches
+16	7616	Taxifahrer	taxifahrer taxifahrern taxifahrers taxifahrerin
+17	7617	eifrig	eifrig eifrige eifriger eifrigen eifrigsten eifriges
+18	7618	nationalistisch	nationalistischen nationalistische nationalistisch nationalistischer nationalistisches
+19	7619	vollbringen	vollbracht vollbringen vollbringt vollbrachte vollbrachten
+20	7620	ausgeschrieben	ausgeschrieben ausgeschriebenen ausgeschriebene
+21	7621	Komplikation	komplikationen komplikation
+22	7622	Bundestagsabgeordnete	bundestagsabgeordnete bundestagsabgeordneten bundestagsabgeordneter
+23	7623	involvieren	involviert involvierten involvieren involvierte
+24	7624	Präsidium	präsidium präsidiums
+25	7625	Maya	maya mayas
+26	7626	zerfallen	zerfällt zerfallen zerfiel zerfallenden zerfallenen zerfielen zerfallende zerfallene
+27	7627	Radar	radar radars
+28	7628	besteigen	besteigen bestiegen bestieg besteigt besteige
+29	7629	Versuchung	versuchung versuchungen
+30	7630	gedeihen	gedeihen gedeiht gediehen gedeih gedieh
+31	7631	egoistisch	egoistisch egoistischen egoistische egoistischer egoistisches
+32	7632	koreanisch	koreanischen koreanische koreanisch koreanischer koreanisches
+33	7633	Hochhaus	hochhaus hochhäuser hochhäusern hochhauses
+34	7634	schwenken	schwenken schwenkt schwenk geschwenkt schwenkte schwenke schwenker schwenkten schwenks
+35	7635	bemalen	bemalt bemalte bemalten bemalen bemalter bemaltes
+36	7636	Dividende	dividende dividenden
+37	7637	Mast	mast masten mastes maste
+38	7638	Konfrontation	konfrontation konfrontationen
+39	7639	thun	thun thu gethan thut thaten thue
+40	7640	Hormon	hormone hormon hormonen hormons
+41	7641	Überweisung	überweisung überweisungen
+42	7642	Haftstrafe	haftstrafe haftstrafen
+43	7643	walten	walt walten waltet
+44	7644	apropos	apropos
+45	7645	Ausdehnung	ausdehnung
+46	7646	Basler	basler
+47	7647	Beileid	beileid
+48	7648	Dominanz	dominanz
+49	7649	Geltung	geltung
+50	7650	Genfer	genfer
+51	7651	geschweige	geschweige
+52	7652	gewissermassen	gewissermassen gewissermaßen
+53	7653	Gleichstellung	gleichstellung
+54	7654	Leichtigkeit	leichtigkeit
+55	7655	Lügenpresse	lügenpresse
+56	7656	Most	most
+57	7657	Produktivität	produktivität
+58	7658	Psychotherapie	psychotherapie
+59	7659	Schnäppchen	schnäppchen
+60	7660	Soße	sosse soße
+61	7661	Stroh	stroh
+62	7662	unweit	unweit
+63	7663	Vorfreude	vorfreude
+64	7664	weitergegeben	weitergegeben
+65	7665	Zutritt	zutritt
+66	7666	mager	mager magere mageren mageres magerer magerem
+67	7667	Gemüt	gemüt gemüter gemüte gemüts
+68	7668	Menschenleben	menschenleben menschenlebens
+69	7669	zusprechen	zugesprochen zusprechen zuspricht zuzusprechen zusprach zugesprochenen
+70	7670	Einordnung	einordnung einordnungen
+71	7671	wochenlang	wochenlang wochenlangen wochenlange wochenlanger wochenlangem
+72	7672	Lebensunterhalt	lebensunterhalt lebensunterhalts lebensunterhaltes
+73	7673	Nachtrag	nachtrag nachträge nachträgen
+74	7674	evakuieren	evakuiert evakuieren evakuierten evakuierte
+75	7675	kriminell	kriminell kriminellen kriminelles kriminellem
+76	7676	Pfarrei	pfarrei pfarreien
+77	7677	Molekül	moleküle molekül molekülen moleküls
+78	7678	Grundstein	grundstein grundsteine
+79	7679	Pep	pep peps
+80	7680	bewachen	bewacht bewachen bewachten bewachte
+81	7681	Nationalismus	nationalismus nationalismen
+82	7682	Henri	henri henris
+83	7683	Seide	seide seidenen seiden seidene
+84	7684	Neuling	neuling neulinge neulingen neulings
+85	7685	anstoßen	anstossen angestossen anzustossen anstösst angestossene angestossenen anstiess anstoßen angestoßen anzustoßen
+86	7686	Verteidigungsminister	verteidigungsminister verteidigungsministerin verteidigungsministers
+87	7687	weglassen	weglassen weggelassen wegzulassen weglässt
+88	7688	Notar	notar notare notars notaren notarin
+89	7689	Klärung	klärung klärungen
+90	7690	Miliz	miliz milizen
+91	7691	Ger	ger gere gers geren
+92	7692	haltbar	haltbar haltbare haltbaren haltbarer haltbares
+93	7693	diskriminieren	diskriminiert diskriminierend diskriminieren diskriminierten diskriminiere diskriminierte
+94	7694	Crystal	crystal crystals
+95	7695	Cookie	cookies cookie
+96	7696	zauberhaft	zauberhafte zauberhaften zauberhaft zauberhaftes zauberhafter
+97	7697	ausgearbeitet	ausgearbeitet ausgearbeiteten ausgearbeitete ausgearbeitetes
+98	7698	Blei	blei bleis
+99	7699	abschreiben	abgeschrieben abschreiben abzuschreiben abschreibt abgeschriebenen
+100	7700	elementar	elementare elementar elementaren elementarer elementares elementarsten elementarem

@@ -1,0 +1,100 @@
+1	701	Körper	körper körpers körpern körperchen
+2	702	Luft	luft lüften lüfte gelüftet lüftchen lüftet lüftete
+3	703	ansehen	ansehen angesehen anzusehen ansieht ansehe angesehenen ansah angesehene ansiehst angesehener
+4	704	Kaltmiete	km kaltmiete
+5	705	historisch	historischen historische historisch historischer historisches historischem
+6	706	stecken	steckt stecken gesteckt steckte stecke steck steckten steckst gesteckten steckenden
+7	707	ehemalig	ehemaligen ehemalige ehemaliger ehemaliges ehemaligem ehemalig
+8	708	Berliner	berliner berlinern berlinerin berlinerinnen berliners
+9	709	Medien	medien
+10	710	weiterhin	weiterhin
+11	711	überall	überall
+12	712	Boden	boden böden bodens
+13	713	sieben	sieben siebten siebte sieb siebter siebente siebe siebt siebtes gesiebt
+14	714	lachen	lachen lacht gelacht lachend lachte lach lache lachten lachst lachenden
+15	715	Flüchtling	flüchtlinge flüchtlingen flüchtling flüchtlings
+16	716	Mannschaft	mannschaft mannschaften
+17	717	Vertrag	vertrag verträge vertrages verträgen vertrags vertrage
+18	718	fliegen	fliegen fliegt geflogen flog fliege flogen fliegende fliegenden flieg fliegst
+19	719	stammen	stammt stammen stamm stämme stammende stammte stammenden stammten stämmen stammes
+20	720	Linie	linie linien
+21	721	Tür	tür türen türe türchen
+22	722	Dezember	dezember dezembers
+23	723	plötzlich	plötzlich plötzlichen plötzliche plötzlicher plötzliches plötzlichem
+24	724	erleben	erleben erlebt erlebte erlebe erlebten erlebst erlebens erlebtes erleb erlebter
+25	725	dennoch	dennoch
+26	726	somit	somit
+27	727	Kampf	kampf kämpfe kampfes kampfe kampfs
+28	728	entwickelt	entwickelt entwickelte entwickelten entwickeltes entwickelter entwickeltem
+29	729	geschehen	geschehen geschieht geschah geschehens geschehe geschehene geschahen geschehenen geschähe
+30	730	Volk	volk volkes völker volks völkern volke völkchen volck
+31	731	offiziell	offiziell offiziellen offizielle offizieller offizielles offiziellem
+32	732	nett	nett nette netter netten nettes netteste nettesten nettem nettere netteren
+33	733	teilnehmen	teilnehmer teilnehmen teilgenommen teilzunehmen teilnimmt teilnahm teilnahmen teilnehme teilnimmst
+34	734	lösen	lösen gelöst löst löste lösten löse gelösten gelöste lös gelöster
+35	735	Versuch	versuch versuche versuchs versuches
+36	736	dumm	dumm dumme dummen dummes dummer dümmer dümmste dümmsten dümmere dümmeres
+37	737	glücklich	glücklich glückliche glücklicher glücklichen glückliches glücklichsten glücklichste glücklichere glücklicheren glücklichem
+38	738	erneut	erneut erneute erneuten erneuter erneutes erneutem
+39	739	russisch	russischen russische russisch russischer russisches russischem
+40	740	Gast	gäste gast gästen gastes gaste
+41	741	Gefahr	gefahr gefahren
+42	742	Januar	januar januars
+43	743	heutig	heutigen heutige heutiger heutiges heutigem heutig
+44	744	jeweils	jeweils
+45	745	Nähe	nähe
+46	746	vorher	vorher
+47	747	Begriff	begriff begriffe begriffen begriffs begriffes begriffenen begriffene
+48	748	besuchen	besuchen besucht besuchte besuchten besuche besuchst
+49	749	eng	eng enge engen enger engeren engsten engere enges engem engste
+50	750	wesentlich	wesentlich wesentlichen wesentliche wesentlicher wesentliches wesentlichste wesentlichsten
+51	751	entfernt	entfernt entfernten entfernte entferntesten entfernter entferntes entfernteren entferntere
+52	752	veröffentlicht	veröffentlicht veröffentlichte veröffentlichten veröffentlichter veröffentlichtes veröffentlichtem
+53	753	anschließen	anschliessend anschliessen anschliessenden anschliessende anzuschliessen anschliessender anschliesst anschliessendem anschloss anschlossen
+54	754	erwarten	erwarten erwarte erwartete erwartest erwartenden erwarteten erwartende erwartender erwart
+55	755	Kritik	kritik kritiken
+56	756	Stimme	stimme stimmchen
+57	757	kriegen	kriegen kriegt kriegst kriege gekriegt kriegte kriegten
+58	758	Grenze	grenze grenzen
+59	759	leisten	leisten geleistet leistet leistete leiste leisteten leistest leist
+60	760	ergeben	ergibt ergeben ergab ergaben ergebe ergebenden ergäbe ergebenen ergäben ergebener
+61	761	Schatz	schatz schätzen schätze geschätzt schätzt geschätzten geschätzte schätzte schätzchen schatzi
+62	762	vertrauen	vertrauen vertraut vertraute vertrauten vertrauens vertraue vertrauter vertrau vertraust vertrautes
+63	763	Serie	serie serien
+64	764	Gebäude	gebäude gebäudes gebäuden
+65	765	Hotel	hotel hotels
+66	766	Studium	studium studien studiums
+67	767	Produkt	produkte produkt produkten produktes produkts
+68	768	knapp	knapp knappen knappe knapper knappes knappem knappsten
+69	769	Professor	professor prof professoren professorin professors professorinnen professore
+70	770	Zeug	zeug zeugen zeuge zeugt zeugin zeugs gezeugt zeugte zeugten zeuginnen
+71	771	Sport	sport sports sportes
+72	772	Februar	februar februars
+73	773	Fußball	fussball fußball
+74	774	heraus	heraus
+75	775	Informationen	informationen
+76	776	nochmal	nochmal
+77	777	unten	unten
+78	778	Beginn	beginn beginne beginns
+79	779	Bett	bett betten bette bettchen bettes gebettet bettet betts bettete
+80	780	Ausbildung	ausbildung ausbildungen ausbildungs
+81	781	Zimmer	zimmer zimmern zimmers gezimmert zimmert zimmerchen zkb gezimmerten
+82	782	bezeichnet	bezeichnet bezeichnete bezeichneten bezeichneter bezeichnetes
+83	783	empfehlen	empfehlen empfiehlt empfohlen empfehle empfahl empfohlenen empfohlene empfahlen empfehlt empfiehlst
+84	784	Mark	mark marke marken marks märker
+85	785	Bevölkerung	bevölkerung bevölkerungen bevölkerungs
+86	786	Berg	berg berge bergen birgt geborgen berges barg bergs bürgen bargen
+87	787	merken	merkt merken gemerkt merke merkte merkst merk merkten merks merkens
+88	788	Inhalt	inhalt inhalte inhalten inhalts inhaltes
+89	789	verhalten	verhalten verhält verhaltens verhalte verhielt verhielten verhältst verhaltenen verhaltene verhaltener
+90	790	Beziehung	beziehung beziehungen
+91	791	herum	herum rum rums
+92	792	http	http https
+93	793	bestätigen	bestätigt bestätigen bestätigte bestätigten bestätige bestätigst bestätigter bestätigenden bestätigend
+94	794	lustig	lustig lustige lustigen lustiger lustiges lustigsten lustigste lustigem
+95	795	Zusammenhang	zusammenhang zusammenhänge zusammenhängen zusammenhängt zusammenhängende zusammenhängenden zusammenhängend zusammenhängendes zusammenhangs zusammenhängender
+96	796	wagen	wagen gewagt wagt wage wagens wagte wagten gewagte wag wägen
+97	797	Chef	chef chefin chefs chefinnen
+98	798	darin	darin
+99	799	Nachrichten	nachrichten
+100	800	total	total totale totalen totaler totales totalem

@@ -1,0 +1,100 @@
+1	5601	Drachen	drachen drachens
+2	5602	Salon	salon salons
+3	5603	Brauerei	brauerei brauereien
+4	5604	Dirigent	dirigent dirigenten dirigentin
+5	5605	spürbar	spürbar spürbare spürbaren spürbarer
+6	5606	prallen	prallen prall prallte pralle prallt geprallt praller prallten
+7	5607	nutzlos	nutzlos nutzlose nutzlosen nutzloser nutzloses
+8	5608	verdeutlichen	verdeutlicht verdeutlichen verdeutlichte verdeutlichten
+9	5609	Guido	guido guidos
+10	5610	Kleinkind	kleinkind kleinkinder kleinkindern kleinkindes
+11	5611	dulden	dulden geduldet duldet dulde duldete duldeten
+12	5612	beschützen	beschützen beschützt beschütze beschützte beschützten beschütz beschützend
+13	5613	Zwischenzeit	zwischenzeit zwischenzeiten
+14	5614	Finanzamt	finanzamt finanzämter finanzamtes finanzamts finanzämtern
+15	5615	Syndrom	syndrom syndrome syndroms syndromen
+16	5616	übernachten	übernachten übernachtet übernachtete übernachteten übernachte übernacht
+17	5617	rügen	rügen rüge gerügt rügt rügte rügens
+18	5618	feige	feige feigen feiger feiges feig
+19	5619	Kopfhörer	kopfhörer kopfhörern
+20	5620	Trip	trip trips
+21	5621	durchbrechen	durchbrechen durchbrochen durchbricht durchbrach durchgebrochen durchbrachen durchzubrechen durchbrochenen durchbrochene
+22	5622	Handschuh	handschuhe handschuh handschuhen
+23	5623	Wartezeit	wartezeit wartezeiten
+24	5624	Strahlung	strahlung strahlungen
+25	5625	Eck	eck ecken eckes ecks
+26	5626	Emission	emissionen emission
+27	5627	Meeting	meeting meetings
+28	5628	auskommen	auskommen auskommt auszukommen ausgekommen auskam auskomme auskamen
+29	5629	Laufzeit	laufzeit laufzeiten
+30	5630	Würfel	würfel würfeln gewürfelt würfelt würfels gewürfelten
+31	5631	hiesig	hiesigen hiesige hiesiger
+32	5632	ersticken	ersticken erstickt erstickte ersticke erstickten erstick
+33	5633	Suite	suite suiten
+34	5634	Predigt	predigt predigten
+35	5635	blank	blank blanke blanken blanker blankes blankem
+36	5636	Kiefer	kiefer kiefern kiefers
+37	5637	zugehen	zugehen zugeht zugegangen zuging zuzugehen zugehe
+38	5638	Interessent	interessenten interessent
+39	5639	Taschengeld	tg taschengeld
+40	5640	gleichnamig	gleichnamigen gleichnamige gleichnamiger gleichnamiges gleichnamigem
+41	5641	Verpackung	verpackung verpackungen
+42	5642	Erneuerung	erneuerung erneuerungen
+43	5643	platt	platt platter plattes
+44	5644	Sensor	sensoren sensor sensors
+45	5645	Sammler	sammler sammlern sammlers sammlerin
+46	5646	Nebenwirkung	nebenwirkungen nebenwirkung
+47	5647	Run	run runs
+48	5648	Wahlkreis	wahlkreis wahlkreise wahlkreisen wahlkreises
+49	5649	giftig	giftig giftige giftigen giftiger giftiges giftigem giftigsten
+50	5650	Charme	charme charmes
+51	5651	aufzeichnen	aufgezeichnet aufzeichnen aufzuzeichnen aufgezeichneten aufzeichnet aufzeichnete
+52	5652	beibehalten	beibehalten beizubehalten beibehält beibehielt
+53	5653	iranisch	iranischen iranische iranischer iranisches iranisch iranischem
+54	5654	Vampir	vampire vampir vampiren vampires vampirs vampirin
+55	5655	Soul	soul souls
+56	5656	Munition	munition muni
+57	5657	besichtigen	besichtigen besichtigt besichtigte besichtigten
+58	5658	gehörig	gehörig gehörigen gehörige gehöriges gehöriger gehörigem
+59	5659	vielseitig	vielseitig vielseitige vielseitigen vielseitiger vielseitiges vielseitigsten vielseitigste
+60	5660	Landsmann	landsleute landsmann landsleuten landsfrau landsmannes landsmänner landsmanns landsmännin
+61	5661	übertreiben	übertreiben übertreibt übertreib übertreibe übertreibst übertrieb
+62	5662	ansteigen	angestiegen ansteigen ansteigt ansteigend angestiegenen anzusteigen anstiege anstiegen
+63	5663	herein	herein hierin
+64	5664	aufm	aufm
+65	5665	ausgeliefert	ausgeliefert
+66	5666	Außenpolitik	aussenpolitik außenpolitik
+67	5667	Ausübung	ausübung
+68	5668	drüben	drüben
+69	5669	eigens	eigens
+70	5670	Erotik	erotik
+71	5671	Ndr	ndr
+72	5672	SAP	sap
+73	5673	Stärkung	stärkung
+74	5674	Vize	vize
+75	5675	wahrlich	wahrlich
+76	5676	Domain	domain domains
+77	5677	Derby	derby derbys
+78	5678	Linde	linde linden
+79	5679	Zwerg	zwerg zwerge zwergen zwergin zwerges
+80	5680	Pullover	pullover pulli pullovern pullovers
+81	5681	Räuber	räuber räubern räubers
+82	5682	Verb	verb verben verbs verbum
+83	5683	flüchtig	flüchtigen flüchtig flüchtige flüchtiger flüchtiges flüchtigem
+84	5684	Abdruck	abdruck abgedruckt abdrücken abdrücke abgedrückt abdrucken abgedruckten abdrückt abzudrücken abzudrucken
+85	5685	anregen	anregen anzuregen anregend anregt anregende anregenden anregte anregendes anregender anregten
+86	5686	Flyer	flyer flyers flyern
+87	5687	Pater	pater patres paters
+88	5688	zwangsläufig	zwangsläufig zwangsläufige
+89	5689	Vita	vita vitae viten
+90	5690	ausgetauscht	ausgetauscht ausgetauschten
+91	5691	sehenswert	sehenswert sehenswerte sehenswerten sehenswertes sehenswerter
+92	5692	tapfer	tapfer tapferen tapfere tapferer tapferes tapfersten tapferste
+93	5693	unfair	unfair unfairen unfaire unfairer unfaires
+94	5694	niedlich	niedlich niedliche niedlichen niedliches niedlicher
+95	5695	eilen	eilt eilen eilte eilten geeilt eil eilenden
+96	5696	Abschiebung	abschiebung abschiebungen
+97	5697	geheimnisvoll	geheimnisvolle geheimnisvollen geheimnisvoll geheimnisvolles geheimnisvoller
+98	5698	Krankenschwester	krankenschwester krankenschwestern
+99	5699	schweissen	schweiss schweissen geschweisst schweisst schweisse geschweissten schweiß schweißen geschweißt schweißt
+100	5700	Psychiatrie	psychiatrie psychiatrien

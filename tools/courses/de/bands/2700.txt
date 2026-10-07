@@ -1,0 +1,100 @@
+1	2601	abgelehnt	abgelehnt abgelehnte abgelehnten abgelehnter
+2	2602	Nachteil	nachteile nachteil nachteilen
+3	2603	erzeugt	erzeugt erzeugten erzeugte erzeugter erzeugtes erzeugtem
+4	2604	Cup	cup cups
+5	2605	einkommen	einkommen einkommens
+6	2606	beschränkt	beschränkt beschränkte beschränkten beschränkter beschränktes beschränktem
+7	2607	jetzig	jetzigen jetzige jetziger jetziges jetzigem
+8	2608	Arbeitnehmer	arbeitnehmer arbeitnehmern arbeitnehmers arbeitnehmerin
+9	2609	Bernd	bernd bernadette bernds
+10	2610	juristisch	juristische juristischen juristisch juristischer juristisches juristischem
+11	2611	befassen	befasst befassen befasste befassten befasse befaßt
+12	2612	danken	danken dankt dankte gedankt dankend dankten danket
+13	2613	Ausgleich	ausgleich ausgleichen auszugleichen ausgleichs ausgleicht ausgleichend ausglich
+14	2614	bequem	bequem bequemer bequeme bequemen bequemes bequemste bequemsten bequemere bequemeren bequemeres
+15	2615	wiederholt	wiederholt wiederholter wiederholtes wiederholtem
+16	2616	elektronisch	elektronische elektronischen elektronisch elektronischer elektronisches elektronischem
+17	2617	Koalition	koalition koalitionen koalitions
+18	2618	Virus	virus viren
+19	2619	Kommanditgesellschaft	kg kommanditgesellschaft
+20	2620	Müll	müll mülls
+21	2621	Regisseur	regisseur regisseurin regisseure regisseurs regisseuren
+22	2622	Rechtsanwalt	rechtsanwalt ra rechtsanwälte rechtsanwältin rechtsanwalts rechtsanwälten rechtsanwaltes
+23	2623	Go	go gos
+24	2624	Händler	händler händlern händlers händlerin
+25	2625	Frucht	früchte frucht früchten früchtchen
+26	2626	Entfernung	entfernung entfernungen
+27	2627	gültig	gültig gültigen gültige gültiges gültiger gültigem
+28	2628	zustimmen	zustimmen zugestimmt zuzustimmen zustimmt zustimmend zustimme zustimmte zustimmst zustimmten
+29	2629	widersprechen	widersprechen widerspricht widersprach widersprochen widerspreche widersprachen widersprechende widersprichst widerspräche widersprächen
+30	2630	Anerkennung	anerkennung anerkennungen
+31	2631	Ausländer	ausländer ausländern ausländerin ausländers
+32	2632	Investition	investitionen investition
+33	2633	Rathaus	rathaus rathauses rathäuser rathäusern
+34	2634	feucht	feucht feuchte feuchten feuchter feuchtes feuchtem feuchteren
+35	2635	Mittelpunkt	mittelpunkt mittelpunkte
+36	2636	zusammenfassen	zusammengefasst zusammenfassen zusammenfassend zusammenzufassen zusammenfasst zusammenfassende zusammengefassten zusammenfasste zusammenfassenden zusammengefaßt
+37	2637	Innenstadt	innenstadt innenstädte innenstädten
+38	2638	derartig	derartige derartigen derartiger derartig derartiges derartigem
+39	2639	Kriterium	kriterien kriterium kriteriums
+40	2640	Aufstieg	aufstieg aufstiegs aufstiegen aufstiege aufstieges
+41	2641	Akademie	akademie akademien
+42	2642	Experiment	experiment experimente experimenten experiments experimentes
+43	2643	jagen	jagen gejagt jagt jagte jagst jagten jag jage gejagten gejagte
+44	2644	unnötig	unnötig unnötige unnötigen unnötiger unnötiges unnötigem
+45	2645	Vertrieb	vertrieb vertrieben vertriebenen vertriebs vertriebene vertriebener vertriebe
+46	2646	zugänglich	zugänglich zugänglichen zugängliche zugänglicher zugängliches
+47	2647	Chemie	chemie
+48	2648	einschließlich	einschliesslich einschließlich
+49	2649	ferner	ferner
+50	2650	hinterher	hinterher
+51	2651	Rassismus	rassismus
+52	2652	Beschwerde	beschwerden beschwerde
+53	2653	Atmosphäre	atmosphäre atmosphären atmo
+54	2654	Kindergarten	kindergarten kindergärten kindergartens
+55	2655	Kasse	kasse kassen
+56	2656	bedingt	bedingt bedingte bedingten bedingter bedingtem bedingtes
+57	2657	engagiert	engagiert engagierte engagierten engagierter engagiertes engagiertesten
+58	2658	Beteiligung	beteiligung beteiligungen
+59	2659	Vorschrift	vorschriften vorschrift
+60	2660	vermisst	vermisst vermisster vermisstes vermisste vermissten vermisstem vermißt
+61	2661	Zoll	zoll zölle zöllen zolls zolle
+62	2662	Meisterschaft	meisterschaft meisterschaften
+63	2663	Erwartung	erwartungen erwartung
+64	2664	kommentieren	kommentiert kommentieren kommentierte kommentiere kommentierten kommentierst kommentierenden kommentier
+65	2665	Immobilie	immobilien immobilie
+66	2666	Merkmal	merkmale merkmal merkmalen merkmals
+67	2667	jahrelang	jahrelang jahrelange jahrelangen jahrelanger jahrelangem jahrelanges
+68	2668	Mode	mode moden modes
+69	2669	Gipfel	gipfel gipfels gipfeln gipfelte gipfelt gipfelten
+70	2670	Haufen	haufen haufe häufchen hauf häuflein haufens
+71	2671	logo	logo logos
+72	2672	nass	nass nassen nasse nasser nasses nassem naß
+73	2673	Widerspruch	widerspruch widersprüche widerspruchs widersprüchen
+74	2674	Salz	salz salze salzen gesalzen gesalzene salzes gesalzenen
+75	2675	Wirklichkeit	wirklichkeit wirklichkeiten
+76	2676	locken	locken lockt locke gelockt lock lockte lockten lockende löckchen gelockten
+77	2677	Ausschuss	ausschuss ausschusses ausschüsse ausschüssen
+78	2678	Terrorist	terroristen terrorist terroristin
+79	2679	umgesetzt	umgesetzt umgesetzten umgesetzte
+80	2680	Verdacht	verdacht verdachts verdachtes
+81	2681	verständlich	verständlich verständliche verständlicher verständlichen verständliches
+82	2682	Junior	junior junioren juniors juniorin
+83	2683	Priester	priester priestern priesters priesterin priesterinnen
+84	2684	Aufruf	aufruf aufrufen aufrufe aufruft aufzurufen aufrief aufrufs aufriefen
+85	2685	Moderator	moderator moderatoren moderatorin moderators moderatorinnen
+86	2686	königlich	königlichen königliche königlich königlicher königliches königlichem
+87	2687	Klang	klang klänge klängen klangs klanges
+88	2688	Riese	riesen riese riesin
+89	2689	genial	genial geniale genialen genialer geniales genialsten genialste
+90	2690	bekämpfen	bekämpfen bekämpft bekämpfte bekämpften bekämpfe bekämpfst
+91	2691	gedenken	gedenken gedacht gedachte gedachten gedenke gedenk gedenkens gedenkst gedenkt
+92	2692	fügen	fügt fügte fügen füge fügten gefügt füg fügst
+93	2693	Saal	saal saale säle sälen saales saals
+94	2694	Bio	bio bios
+95	2695	veranstalten	veranstaltet veranstalten veranstaltete veranstalteten veranstalte veranstaltenden
+96	2696	wurzeln	wurzeln wurzel wurzelt
+97	2697	Galerie	galerie galerien
+98	2698	offline	off offline
+99	2699	Café	café cafe cafés
+100	2700	befragen	befragten befragt befragen befragte befrage

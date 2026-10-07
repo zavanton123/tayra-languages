@@ -1,0 +1,100 @@
+1	2801	Konferenz	konferenz konferenzen
+2	2802	verbieten	verbieten verbietet verbiete verbietest
+3	2803	Existenz	existenz existenzen
+4	2804	Ard	ard
+5	2805	auseinander	auseinander
+6	2806	mehrmals	mehrmals
+7	2807	Telekom	telekom
+8	2808	Versorgung	versorgung
+9	2809	övp	övp
+10	2810	Personenkraftwagen	pkw personenkraftwagen
+11	2811	Leidenschaft	leidenschaft leidenschaften
+12	2812	Legende	legende legenden
+13	2813	Schrank	schrank schranke schränke schränkt schränken schränkte schränkchen schränkten schrankes schranks
+14	2814	unangenehm	unangenehm unangenehme unangenehmen unangenehmer unangenehmes unangenehmsten unangenehmste
+15	2815	Küste	küste küsten
+16	2816	dutzend	dutzend dutzende dutzenden dutzender
+17	2817	kontrollieren	kontrollieren kontrollierte kontrollierten kontrolliere kontrollierenden kontrollierst kontrollier
+18	2818	Norm	norm normen genormt genormte genormten
+19	2819	Kompetenz	kompetenz kompetenzen
+20	2820	rosa	rosa rosas rosane
+21	2821	beruhen	beruht beruhen beruhte beruhenden beruhende beruhe beruhten beruhend
+22	2822	bestrafen	bestraft bestrafen bestrafte bestraften bestrafe
+23	2823	Stadtteil	stadtteil stadtteile stadtteilen stadtteils
+24	2824	wiegen	wiegt wiegen wiege wog wogen gewogen wiegst woge wogte wiegende
+25	2825	abkommen	abkommen abkommens abgekommen abkam abkommt abzukommen
+26	2826	tippen	tippen tippe tickt ticken tick getippt tippt tippte ticks tippst
+27	2827	Trennung	trennung trennungen trennungs
+28	2828	Henry	henry henrys
+29	2829	Kiel	kiel kiels kiele
+30	2830	Eröffnung	eröffnung eröffnungen
+31	2831	chemisch	chemische chemischen chemisch chemischer chemisches chemischem
+32	2832	Turm	turm türme türmen turms turmes türmchen türmt thurm getürmt türmten
+33	2833	einbauen	eingebaut einbauen einzubauen eingebauten eingebaute eingebautem eingebauter einbaut einbauten eingebautes
+34	2834	Vereinigung	vereinigung vereinigungen
+35	2835	schlau	schlau schlauer schlaue schlauen schlaues schlauste schlausten
+36	2836	Krebs	krebs krebse krebsen krebses
+37	2837	Anklage	anklage angeklagt anklagen anzuklagen anklagt anklagend anklagte
+38	2838	beantragen	beantragen beantragt beantragte beantragten beantrage
+39	2839	Hinsicht	hinsicht hinsichten
+40	2840	exakt	exakt exakte exakten exakter exaktes
+41	2841	Hobby	hobby hobbys hobbies
+42	2842	Ärger	ärger ärgers
+43	2843	ökologisch	öko ökologische ökologischen ökologisch ökologischer ökologisches ökos ökologischem
+44	2844	Verteidigung	verteidigung verteidigungen
+45	2845	nützlich	nützlich nützliche nützlichen nützliches nützlicher nützlichsten nützlichem
+46	2846	Elektrische	elektrische elektrischen elektrischer
+47	2847	Transport	transport transporte transports transportes transporten
+48	2848	Getränk	getränke getränk getränken getränks getränkes
+49	2849	fortsetzen	fortgesetzt fortsetzen fortzusetzen fortsetzt fortsetzte fortgesetzten fortsetzten fortgesetzter fortsetze
+50	2850	kurzfristig	kurzfristig kurzfristige kurzfristigen kurzfristiger kurzfristiges
+51	2851	beschädigen	beschädigt beschädigte beschädigen beschädigten beschädigter beschädigtes
+52	2852	beziehungsweise	beziehungsweise
+53	2853	Hauptsache	hauptsache
+54	2854	heutzutage	heutzutage
+55	2855	hinweg	hinweg
+56	2856	höchstens	höchstens
+57	2857	insofern	insofern
+58	2858	Opposition	opposition
+59	2859	vernichten	vernichtet vernichten vernichtete vernichtend vernichtende vernichtenden vernichteten vernichte vernichtendes vernichtender
+60	2860	ausgeführt	ausgeführt ausgeführten ausgeführte ausgeführter ausgeführtes
+61	2861	fit	fit fitter fitte fitten
+62	2862	olympisch	olympischen olympische olympisches olympischer olympisch olympischem
+63	2863	Model	model models modeln modelt
+64	2864	Scheibe	scheibe scheiben scheib scheibchen
+65	2865	Mathematik	mathematik mint
+66	2866	binden	binden bindet binde bindend bände bindende bind bindenden banden bänden
+67	2867	spinnen	spinnen spinne spannen spinnt spannt spanne spann spinnst spannte gesponnen
+68	2868	DVD	dvd dvds
+69	2869	zeitlich	zeitlich zeitliche zeitlichen zeitlicher zeitlichem zeitliches
+70	2870	betreuen	betreut betreuen betreute betreuten betreutes betreue betreuenden betreust
+71	2871	besorgt	besorgt besorgte besorgten besorgter
+72	2872	Einschränkung	einschränkungen einschränkung
+73	2873	markieren	markiert markieren markierte markierten markiere markierter markier markierst
+74	2874	Bundestagswahl	btw bundestagswahl bundestagswahlen
+75	2875	schief	schief schiefer schiefe schiefen schiefes schepp schiefern
+76	2876	konsequent	konsequent konsequente konsequenter konsequenten konsequentes konsequentere konsequentem
+77	2877	Qualifikation	qualifikation qualifikationen quali
+78	2878	Übernahme	übernahme übernahmen
+79	2879	schwanger	schwanger schwangere schwangeren schwangerer schwangeres
+80	2880	östlich	östlichen östlich östliche östlicher östliches östlichsten östlichste östlichem
+81	2881	restlich	restlichen restliche restliches
+82	2882	gemütlich	gemütlich gemütlichen gemütliche gemütlicher gemütliches gemütlichem
+83	2883	vorgenommen	vorgenommen vorgenommenen vorgenommene
+84	2884	beklagen	beklagte beklagen beklagt beklagten beklage beklagst
+85	2885	dramatisch	dramatisch dramatische dramatischen dramatischer dramatisches dramatischem dramatischsten
+86	2886	Jahrgang	jahrgang jahrgänge jahrgangs jahrgängen jahrganges
+87	2887	Prinzessin	prinzessin prinzessinnen prinzess
+88	2888	Senior	senioren senior seniorin seniors seniore
+89	2889	Spieltag	spieltag spieltagen spieltage spieltags spieltages
+90	2890	Annahme	annahme annahmen
+91	2891	gefüllt	gefüllt gefüllte gefüllten gefüllter gefülltes gefülltem
+92	2892	bürgerlich	bürgerlichen bürgerliche bürgerlich bürgerlicher bürgerliches bürgerlichem
+93	2893	beschweren	beschweren beschwert beschwerte beschwer beschwere beschwerten beschwerst
+94	2894	zulassen	zulassen zulässt zuzulassen zuliess zulasse zuliessen zuliesse zuließ zuließen zuließe
+95	2895	abhalten	abgehalten abhalten abzuhalten abhält abhielt abgehaltenen abgehaltene abhielten abhalte
+96	2896	Golf	golf golfen golfs golfes golfe
+97	2897	spezifisch	spezifische spezifischen spezifisch spezifischer spezifisches spezifischem spezifischere
+98	2898	verhaften	verhaftet verhaften verhafteten verhaftete
+99	2899	Fokus	fokus
+100	2900	he	he

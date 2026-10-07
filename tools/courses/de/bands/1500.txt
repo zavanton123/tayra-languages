@@ -1,0 +1,100 @@
+1	1401	Änderung	änderung änderungen
+2	1402	Herbst	herbst herbstes
+3	1403	Bauer	bauer bauern bäuerin bauers bäuerchen bäuerlein
+4	1404	untersuchen	untersucht untersuchen untersuchte untersuchten untersuche untersuchenden untersuch untersuchende
+5	1405	Antrag	antrag anträge anträgen antrags antrages
+6	1406	Tätigkeit	tätigkeit tätigkeiten tätigkeits
+7	1407	Verantwortung	verantwortung verantwortungen verantwortungs
+8	1408	Industrie	industrie industrien
+9	1409	springen	springen springt sprang spring gesprungen springe sprangen springst springend
+10	1410	Ausbau	ausbau ausgebaut ausbauen auszubauen ausgebauten ausbaus ausgebautes ausbaut ausbauten ausbaute
+11	1411	italienisch	italienischen italienische italienisch italienischer italienisches italienischem
+12	1412	Milliarde	milliarden milliarde
+13	1413	diesmal	diesmal
+14	1414	hoffentlich	hoffentlich
+15	1415	plus	plus
+16	1416	Mord	mord morde mordes morden gemordet mordet mords mordenden mordend mordens
+17	1417	lecken	lecker lecken leckere leck leckeren leckeres leckt geleckt leckerer leckte
+18	1418	Parlament	parlament parlaments parlamente parlamenten parlamentes
+19	1419	fernsehen	fernsehen fernsehens fernzusehen fernsehe fernsieht ferngesehen
+20	1420	Rand	rand rande rändern ränder randes randen rands
+21	1421	Van	van vans
+22	1422	umgehen	umgehen umgehend umzugehen umgeht umgegangen umgangen umgehe umging umgehst umgehende
+23	1423	bisherig	bisherigen bisherige bisheriger bisheriges bisherigem
+24	1424	Veränderung	veränderungen veränderung
+25	1425	Prinzip	prinzip prinzipien prinzips
+26	1426	gelingen	gelingt gelang gelingen gelangt gelänge gelinge gelingende gelangst
+27	1427	Papier	papier papiere papieren papiers
+28	1428	doppelt	doppelt doppelte doppelten doppelter doppeltes doppeltem
+29	1429	verbringen	verbringen verbrachte verbracht verbringt verbringe verbrachten verbringst verbring
+30	1430	traditionell	traditionellen traditionelle traditionell traditioneller traditionelles traditionellem
+31	1431	Gelegenheit	gelegenheit gelegenheiten
+32	1432	empfangen	empfangen empfang empfängt empfing empfingen empfange empfangenen empfangs empfangene empfänge
+33	1433	verbinden	verbindet verbinden verbände verbinde verbänden verbanden verbindende verbindest verbindend
+34	1434	erheblich	erheblich erhebliche erheblichen erheblicher erheblichem erhebliches
+35	1435	Tatsache	tatsache tatsachen
+36	1436	Brücke	brücke brücken
+37	1437	auftreten	auftreten aufgetreten auftretenden aufzutreten auftrat auftretende auftraten auftretens auftretender auftrete
+38	1438	lohnen	lohnt gelohnt lohnen lohnte lohnend lohnende lohnendes lohne lohnender lohnenden
+39	1439	klicken	klicken klick klicks klickt klicke geklickt klickst klickte klickten
+40	1440	ordentlich	ordentlich ordentlichen ordentliche ordentliches ordentlicher ordentlichem
+41	1441	Prüfung	prüfung prüfungen
+42	1442	Standort	standort standorte standorten standortes standorts
+43	1443	Gewissen	gewissen gewissens gewißen
+44	1444	ewig	ewig ewige ewigen ewiger ewiges ewigem
+45	1445	Forderung	forderung forderungen
+46	1446	Holz	holz hölzernen hölzerne hölzer holzes hölzern holtz hölzernes hölzerner hölzchen
+47	1447	rechtlich	rechtlichen rechtliche rechtlich rechtlicher rechtliches rechtlichem
+48	1448	fett	fett fette fetten fettes fetter fettem fettesten fetteste gefettet
+49	1449	außen	aussen außen
+50	1450	Heimat	heimat
+51	1451	innen	innen
+52	1452	vorne	vorne
+53	1453	Produktion	produktion produktionen
+54	1454	Verwendung	verwendung verwendungen
+55	1455	Ereignis	ereignisse ereignis ereignissen ereignisses
+56	1456	Zentrale	zentrale zentralen
+57	1457	überzeugen	überzeugen überzeugend überzeugende überzeugte überzeugenden überzeugender überzeugendes überzeugten überzeuge überzeug
+58	1458	zuständig	zuständig zuständigen zuständige zuständiger zuständiges
+59	1459	Eis	eis eisen eises eisens eise
+60	1460	britisch	britischen britische britischer britisch britisches britischem
+61	1461	Ball	ball bälle balls bällen bällchen balles balle
+62	1462	Besucher	besucher besuchern besucherin besuchers
+63	1463	eingehen	eingehen eingegangen einzugehen eingeht eingehend eingehende einging eingehenden eingehender eingegangenen
+64	1464	Aufnahme	aufnahme aufnahmen
+65	1465	durchgeführt	durchgeführt durchgeführten durchgeführte durchgeführter durchgeführtes
+66	1466	katholisch	katholischen katholische katholisch katholischer katholisches katholischem
+67	1467	Ausnahme	ausnahme ausnahmen
+68	1468	Ohr	ohren ohr ohre ohres öhrchen ohrs
+69	1469	ungefähr	ungefähr ungefähre ungefähren ungefähres ungefährer
+70	1470	Verlust	verlust verluste verlusten verlustes verlusts
+71	1471	überzeugt	überzeugt überzeugte überzeugter überzeugten
+72	1472	Gesundheit	gesundheit gesundheits
+73	1473	neun	neun neunen
+74	1474	erweitern	erweitert erweitern erweiterte erweiterten erweitere erweiternden
+75	1475	Struktur	struktur strukturen
+76	1476	Anwendung	anwendung anwendungen anwendungs
+77	1477	herzlich	herzlich herzlichen herzliche herzliches herzlicher herzlichsten herzlichste herzlichem herzlichstes
+78	1478	Be	be
+79	1479	ausschließen	ausgeschlossen ausschliessen auszuschliessen ausschliesst ausschloss ausschliesse ausschliessende ausschliessend ausschliessenden ausschließen
+80	1480	eindeutig	eindeutig eindeutige eindeutigen eindeutiger eindeutiges eindeutigem
+81	1481	weichen	weichen weich weiche weicht wich weicher weiches gewichen weichem wicht
+82	1482	weh	weh wehe weht wehen wehte geweht wehten
+83	1483	nachdenken	nachdenken nachgedacht nachzudenken nachdenkt nachdenke nachdenkst nachdachte nachdenkens
+84	1484	aufstellen	aufgestellt aufstellen aufzustellen aufgestellten aufstellt aufstellte aufstellten aufgestelltes aufgestellter aufstelle
+85	1485	vollkommen	vollkommen vollkommene vollkommener vollkommenen vollkommenes vollkommenste
+86	1486	freundlich	freundlich freundlichen freundliche freundlicher freundliches freundlichem freundlichste freundlichsten freundlichere freundlicheren
+87	1487	twittern	twitter twittern twittert getwittert twitterte twittere
+88	1488	Mittwoch	mittwoch mittwochs
+89	1489	massiv	massiv massive massiven massiver massives massivem massivs massivste
+90	1490	Darstellung	darstellung darstellungen
+91	1491	Gegend	gegend gegenden
+92	1492	Element	elemente element elementen elements elementes
+93	1493	kritisieren	kritisiert kritisieren kritisierte kritisierten kritisiere kritisierst kritisier
+94	1494	Blatt	blatt blätter blättern blattes blättchen blättert geblättert blätterte blatts blättere
+95	1495	anschauen	anschauen angeschaut anzuschauen anschaut anschaue anschaust anschaute anschauten
+96	1496	Klage	klage klagen klagt klagte geklagt klagten klagenden klagende klag klagend
+97	1497	regional	regionale regional regionalen regionaler regionales regionalem
+98	1498	Detail	details detail
+99	1499	einladen	eingeladen einladen einzuladen einlädt einladend einlud einlade einluden einlädst
+100	1500	schmecken	schmeckt schmecken geschmeckt schmeckte schmecke schmeckst schmeckten schmeckende schmeckenden schmeck

@@ -1,0 +1,100 @@
+1	3401	Magen	magen magens mägen mage
+2	3402	unglücklich	unglücklich unglücklichen unglückliche unglücklicher unglückliches unglücklichste
+3	3403	Image	image images
+4	3404	überfahren	überfahren überführt überführen überfahrt überführung überfährt überfuhr überführte überführten überfahrten
+5	3405	gegenwärtig	gegenwärtig gegenwärtigen gegenwärtige gegenwärtiger gegenwärtiges gegenwärtigem
+6	3406	Geräusch	geräusch geräusche geräuschen
+7	3407	Kaufmann	kaufmann kaufleute kaufmanns kaufleuten kauffrau kaufmannes
+8	3408	abschaffen	abgeschafft abschaffen abzuschaffen abschafft abschaffte abgeschafften
+9	3409	verfallen	verfallen verfall verfällt verfiel verfallenen verfalls verfallene verfielen verfalle verfallenden
+10	3410	bewaffnet	bewaffnet bewaffneten bewaffnete bewaffneter bewaffnetes bewaffnetem
+11	3411	Radfahrer	radfahrer radfahrern radfahrerin radfahrers
+12	3412	maßgeblich	massgeblich massgeblichen massgebliche massgeblicher massgebliches maßgeblich maßgeblichen maßgebliche maßgeblicher maßgebliches
+13	3413	Nationalmannschaft	nationalmannschaft nationalmannschaften nati
+14	3414	sächsisch	sächsischen sächsische sächsisch sächsischer sächsisches sächsischem
+15	3415	atmen	atmen atmet atme atmete geatmet atmest atmend atmeten atmende atmenden
+16	3416	Märchen	märchen märchens
+17	3417	Umbau	umbau umbauten umbaus
+18	3418	Distanz	distanz distanzen
+19	3419	ehrenamtlich	ehrenamtlich ehrenamtlichen ehrenamtliche ehrenamtlicher ehrenamtliches ehrenamtlichem
+20	3420	Fortsetzung	fortsetzung fortsetzungen
+21	3421	Bogen	bogen bögen bogens
+22	3422	Interne	interne internen interner
+23	3423	Konzentrationslager	kz kl konzentrationslager konzentrationslagern konzentrationslagers
+24	3424	auslegen	ausgelegt auslegen auszulegen ausgelegten auslegt ausgelegtes
+25	3425	Doktor	doktor doktoren doktors doktorin
+26	3426	besorgen	besorgen besorgte besorge besorg besorgten besorgst
+27	3427	Entwickler	entwickler entwicklern entwicklers entwicklerin
+28	3428	Altstadt	altstadt altstädte
+29	3429	legal	legal legale legalen legales legaler legalem
+30	3430	Brite	briten brite britin britinnen
+31	3431	Zelt	zelt zelte zelten zeltes gezeltet
+32	3432	Jurist	juristen jurist juristin juristinnen
+33	3433	bemerkenswert	bemerkenswert bemerkenswerte bemerkenswerten bemerkenswerter bemerkenswertes bemerkenswertesten bemerkenswerteste
+34	3434	indirekt	indirekt indirekte indirekten indirekter indirektes indirektem
+35	3435	ruhen	ruhen ruht ruhte ruhenden ruhten geruht ruhend ruh ruhet ruhst
+36	3436	Route	route routen
+37	3437	eingetragen	eingetragen eingetragenen eingetragene eingetragener eingetragenes
+38	3438	angeschlossen	angeschlossen angeschlossenen angeschlossene angeschlossener angeschlossenem angeschlossenes
+39	3439	Akku	akku akkus
+40	3440	Lieferung	lieferung lieferungen
+41	3441	Schoss	schoss schossen schosse schoß schoße
+42	3442	neugierig	neugierig neugierige neugierigen neugieriger neugieriges
+43	3443	Opa	opa opas
+44	3444	Grundsatz	grundsatz grundsätze grundsätzen grundsatzes
+45	3445	Verbraucher	verbraucher verbrauchern verbrauchers
+46	3446	Schmuck	schmuck schmucke schmucken schmuckes schmucker schmucks
+47	3447	einschalten	eingeschaltet einschalten einzuschalten einschaltet eingeschalteten einschalte einschaltete eingeschaltetem eingeschalteter einschaltest
+48	3448	vielfach	vielfach vielfaches vielfachen vielfache vielfacher
+49	3449	klingeln	klingelt klingeln klingel geklingelt klingelte klingelten klingele
+50	3450	Laptop	laptop laptops
+51	3451	Beat	beat beate beats
+52	3452	Roboter	roboter robotern roboters
+53	3453	kombinieren	kombiniert kombinieren kombinierte kombinierten kombiniere kombinierter kombiniertes kombinierst
+54	3454	Rasse	rasse rassen raße raßen
+55	3455	Heer	heer heeres heere heeren heers
+56	3456	Dachterrasse	dt dachterrasse dachterrassen
+57	3457	Schalk	schalke schalk schalkes
+58	3458	Db	db
+59	3459	Geduld	geduld
+60	3460	hmm	hmm
+61	3461	More	more
+62	3462	Psychologie	psychologie
+63	3463	soeben	soeben
+64	3464	zurzeit	zurzeit
+65	3465	Sparkasse	sparkasse sparkassen
+66	3466	kippen	kippen kippe kippt gekippt kipp kippte kippst kippten
+67	3467	Gemälde	gemälde gemälden gemäldes
+68	3468	Highlight	highlight highlights
+69	3469	schwören	schwöre schwören geschworen schwör schwört schwur schwor schworen schwüre
+70	3470	entspannen	entspannen entspannend entspann entspannte entspannten entspannende entspanne entspannenden entspannendes entspannender
+71	3471	Zerstörung	zerstörung zerstörungen
+72	3472	aufgeregt	aufgeregt aufgeregte aufgeregter aufgeregten aufgeregtes
+73	3473	inspirieren	inspiriert inspirieren inspirierte inspirierend inspirierten inspirierende inspirierenden inspirierendes inspirierender inspiriertes
+74	3474	Gattung	gattung gattungen
+75	3475	Maul	maul mäuler maule mauls mäulchen mäulern
+76	3476	entgehen	entgehen entgangen entgeht entging entgangenen entgingen entgangene entgangener entgehe
+77	3477	Universum	universum universums universen
+78	3478	permanent	permanent permanente permanenten permanenter permanentes permanentem
+79	3479	Substanz	substanz substanzen
+80	3480	asiatisch	asiatischen asiatische asiatisch asiatischer asiatisches asiatischem
+81	3481	gießen	giessen giesst goss giesse gossen gießen gießt gieße
+82	3482	Filter	filter filtern gefiltert filtert filters gefilterte gefilterten
+83	3483	Kühlschrank	kühlschrank kühlschränke kühlschränken kühlschranks
+84	3484	Handwerk	handwerk handwerks handwerke handwerken
+85	3485	abziehen	abgezogen abziehen abzuziehen abzieht abzog abzogen abziehst abziehe abziehenden abgezogenen
+86	3486	gebrauchen	gebrauchen gebrauchte gebrauchten gebrauche
+87	3487	unschuldig	unschuldig unschuldige unschuldigen unschuldiger unschuldiges
+88	3488	Verlängerung	verlängerung verlängerungen
+89	3489	starren	starren starr starre starrt starrte starrten starrer gestarrt starres starrst
+90	3490	Auffassung	auffassung auffassungen
+91	3491	Nahrung	nahrung nahrungs
+92	3492	steil	steil steilen steile steiler steilem steiles steilsten steileren steilere steilste
+93	3493	transportieren	transportiert transportieren transportierte transportierten transportiere transportierenden
+94	3494	Riss	riss risse rissen risses riß
+95	3495	einreichen	eingereicht einreichen einzureichen eingereichten eingereichte einreicht einreichte einreichten
+96	3496	nachgewiesen	nachgewiesen nachgewiesenen nachgewiesene nachgewiesener
+97	3497	fake	fake fakten fakes fak faken gefaked faker
+98	3498	Mieter	mieter mietern mieters mieterin mieterinnen
+99	3499	kommunal	kommunalen kommunale kommunaler kommunal kommunales kommunalem
+100	3500	Rätsel	rätsel rätseln rätsels gerätselt rätselt

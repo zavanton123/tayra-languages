@@ -1,0 +1,100 @@
+1	2901	Verbreitung	verbreitung
+2	2902	Tendenz	tendenz tendenzen
+3	2903	ergreifen	ergreifen ergriffen ergreift ergriff ergreifend ergreife ergreifende ergreifenden ergriffenen ergreifender
+4	2904	anwesend	anwesend anwesenden anwesende anwesender
+5	2905	erkennbar	erkennbar erkennbaren erkennbare erkennbarer erkennbares erkennbarem
+6	2906	unterbringen	untergebracht unterbringen unterzubringen untergebrachten unterbringt unterbrachte
+7	2907	Zins	zinsen zins zinses
+8	2908	Senat	senat senats senate senates
+9	2909	erwähnen	erwähnen erwähnte erwähne erwähnten erwähnst erwähn erwähntest
+10	2910	Hit	hit hits
+11	2911	Fernseher	fernseher fernsehern fernsehers
+12	2912	merkwürdig	merkwürdig merkwürdige merkwürdigen merkwürdiges merkwürdiger merkwürdigsten merkwürdigste
+13	2913	Weltmeister	weltmeister weltmeisterin weltmeisters weltmeistern
+14	2914	verbleiben	verbleiben verbleibenden verbliebenen verbleibt verbleibende verblieben verbliebene verblieb verbleibe verbliebener
+15	2915	hässlich	hässlich hässliche hässlichen hässlicher hässliches hässlichste hässlichsten häßliche häßlichen häßlicher
+16	2916	erfreuen	erfreut erfreuen erfreute erfreuten erfreue
+17	2917	verstoßen	verstossen verstoss verstösst verstosse verstiess verstiessen verstossene verstossenen verstoßen verstoß
+18	2918	Zeichnung	zeichnungen zeichnung
+19	2919	verleihen	verleihen verleiht verlieh verleih verleihe verleiher
+20	2920	Pressemitteilung	pressemitteilung pm pressemitteilungen
+21	2921	Kindheit	kindheit kindheits
+22	2922	Symptom	symptome symptom symptomen symptoms
+23	2923	Eintrag	eintrag einträge einträgen eintrags eintrage
+24	2924	Reiz	reiz gereizt reizen reizt reize reizende reizend reizenden reizte reizender
+25	2925	schwedisch	schwedischen schwedische schwedisch schwedischer schwedisches schwedischem
+26	2926	eintreten	eintreten eingetreten einzutreten eintrat eintraten eingetretenen eintretenden eingetretene eintrete eintretens
+27	2927	Gewerkschaft	gewerkschaften gewerkschaft
+28	2928	unendlich	unendlich unendliche unendlichen unendlicher unendliches unendlichem
+29	2929	unrecht	unrecht unrechts unrechtes
+30	2930	objektiv	objektiv objektive objektiven objektiver objektives objektivs
+31	2931	Katastrophe	katastrophe katastrophen
+32	2932	aggressiv	aggressiv aggressiven aggressive aggressiver aggressives aggressivem aggressivere aggressivsten aggressiveren
+33	2933	Offizier	offizier offiziere offizieren offiziers offizierin
+34	2934	vorfahren	vorfahren vorgeführt vorfahrt vorführen vorzuführen vorführt vorfahre vorgefahren vorfahr vorführte
+35	2935	Durchschnitt	durchschnitt durchschnitts durchschnitten durchschnitte
+36	2936	Ersatz	ersatz ersatzes
+37	2937	Set	set sets
+38	2938	Halbfinale	halbfinale halbfinal halbfinals halbfinales
+39	2939	Kritiker	kritiker kritikern kritikerin kritikers kritikerinnen
+40	2940	aufweisen	aufweisen aufweist aufwies aufwiesen aufzuweisen aufgewiesen aufweise
+41	2941	vorhaben	vorhaben vorhabens vorhat vorhatte vorhabe vorgehabt vorhast vorhatten
+42	2942	intelligent	intelligent intelligente intelligenter intelligenten intelligentes intelligenteste intelligentesten intelligentem intelligentere intelligenteren
+43	2943	einheitlich	einheitliche einheitlichen einheitlich einheitliches einheitlicher einheitlichem
+44	2944	betonen	betonen beton betonte betone betonten betons
+45	2945	Chaos	chaos
+46	2946	vorgeben	vorgaben vorgegeben vorgegebenen vorgeben vorgibt vorgegebene vorgab vorzugeben vorgegebener vorgegebenes
+47	2947	würdig	würdig gewürdigt würdigen würdigt würdigte würdiger würdige würdiges würdigten
+48	2948	verweigern	verweigert verweigern verweigerte verweigerten verweigere verweigerst verweigerter
+49	2949	aufregen	aufregen aufregend aufregende aufregt aufzuregen aufregenden aufregendes aufregender aufrege aufregst
+50	2950	Ingenieur	ingenieur ingenieure ingenieuren ingenieurs ingenieurin ingenieurinnen
+51	2951	versetzt	versetzt versetzte versetzten versetztes versetzter
+52	2952	ausgesetzt	ausgesetzt ausgesetzten ausgesetzte
+53	2953	einziehen	eingezogen einziehen einzuziehen einzieht einzog eingezogenen einzogen eingezogene eingezogenem einziehe
+54	2954	einbringen	einbringen eingebracht einzubringen einbringt einbrachte eingebrachten einbrachten einbringe
+55	2955	Muslime	muslime muslimen
+56	2956	lenken	lenken lenkt gelenkt lenkte lenk lenke gelenkten lenkten lenkst
+57	2957	verteilen	verteilen verteiler verteilte verteilten verteile verteil verteilst
+58	2958	beliebig	beliebig beliebigen beliebige beliebiger beliebiges beliebigem
+59	2959	Cousin	cousin cousine vetter cousins cousinen vettern vetters kusine
+60	2960	Börse	börse börsen
+61	2961	Sklave	sklaven sklave sklavin sklavinnen
+62	2962	Streik	streik streiks strike streiken streikt streikenden strikes gestreikt streikten streikte
+63	2963	Don	don dons
+64	2964	schuldig	schuldig schuldigen schuldige schuldiger
+65	2965	Metall	metall metalle metallen metallenen metallene metalls metallenes
+66	2966	Gerücht	gerüchte gerücht gerüchten
+67	2967	Pokal	pokal pokals pokale pokalen
+68	2968	Bombe	bombe bomben bomb gebombt bombt
+69	2969	Versammlung	versammlung versammlungen
+70	2970	konstant	konstant konstante konstanten konstanter konstantes konstantem
+71	2971	Redaktion	redaktion redaktionen
+72	2972	ablehnen	ablehnen abzulehnen ablehnt ablehnte ablehnend ablehnende ablehne ablehnten ablehnenden ablehnst
+73	2973	Architektur	architektur architekturen
+74	2974	erstellen	erstellen erstellte erstelle erstellten erstellst erstell erstellenden
+75	2975	beurteilen	beurteilen beurteilt beurteilte beurteile beurteilten beurteilst beurteilenden
+76	2976	Höhepunkt	höhepunkt höhepunkte höhepunkten
+77	2977	vielfältig	vielfältigen vielfältig vielfältige vielfältiger vielfältiges vielfältigsten vielfältigste vielfältigem
+78	2978	Grundschule	grundschule grundschulen
+79	2979	demnächst	demnächst
+80	2980	Justiz	justiz
+81	2981	oftmals	oftmals
+82	2982	voran	voran
+83	2983	Gruß	grüssen gruss grüßen gruß
+84	2984	beauftragen	beauftragt beauftragte beauftragen beauftragten beauftrage
+85	2985	ermordet	ermordet ermordeten ermordete ermordeter
+86	2986	romantisch	romantische romantisch romantischen romantischer romantisches romantischem romantischste romantischsten
+87	2987	Anruf	anruf anrufe anrufs
+88	2988	aufgeführt	aufgeführt aufgeführten aufgeführte
+89	2989	Mitteilung	mitteilung mitteilungen
+90	2990	Entschuldigung	entschuldigung tschuldigung entschuldigungen
+91	2991	produzieren	produzieren produzierte produzierten produzierenden produzierende produziere produzierendes produzierst
+92	2992	Fassung	fassung fassungen
+93	2993	beeinflusst	beeinflusst beeinflusste beeinflussten beeinflußt
+94	2994	vermeintlich	vermeintlich vermeintlichen vermeintliche vermeintlicher vermeintliches vermeintlichem
+95	2995	unterbrechen	unterbrochen unterbrechen unterbrach unterbricht unterbrochene unterbrochenen unterbrachen unterbreche
+96	2996	furchtbar	furchtbar furchtbare furchtbaren furchtbarer furchtbares furchtbarsten furchtbarste
+97	2997	Werkzeug	werkzeug werkzeuge werkzeugen werkzeugs werkzeuges
+98	2998	basiert	basiert basierte basierten basiertes basierter
+99	2999	Tafel	tafel tafeln taferl täfelchen
+100	3000	Index	index indizes indices indexes
