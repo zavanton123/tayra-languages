@@ -1,0 +1,210 @@
+{
+  "id": "de-mini-5200",
+  "rankUpTo": 5200,
+  "level": "C1",
+  "title": "Die Wissenschaft des Kochens",
+  "description": "Ten standalone texts that explain the science behind everyday cooking, from rising sourdough and browning crusts to emulsions, boiled eggs, salt, sauerkraut and lye pretzels.",
+  "topic": "The science of cooking",
+  "names": [
+    "Miriam",
+    "Petersen",
+    "Paul",
+    "Ruth",
+    "Albrecht",
+    "Louis",
+    "Camille",
+    "Maillard",
+    "Jonas",
+    "Brandt",
+    "Clara",
+    "Claras",
+    "Felix",
+    "Martin",
+    "Sabine",
+    "Steiner",
+    "Lea",
+    "Leas",
+    "Leo",
+    "Leos",
+    "Tirol",
+    "Salzburg",
+    "Deutschland",
+    "Tobias",
+    "Irland",
+    "Katharina",
+    "Wörner",
+    "Ulm",
+    "Bremen",
+    "Jana",
+    "Lindner",
+    "Europa"
+  ],
+  "lessons": [
+    {
+      "title": "Warum Sauerteig aufgeht",
+      "summary": "Miriam starts her own sourdough with her neighbour's advice and learns what yeasts and bacteria do in the jar.",
+      "newWords": [
+        "Perle",
+        "Deckel",
+        "lau",
+        "stundenlang",
+        "variieren",
+        "fortgeschritten",
+        "Banane",
+        "Irrtum",
+        "zeitgleich"
+      ],
+      "text": "Miriam backt seit einem Jahr ihr Brot selbst, bisher allerdings immer mit fertiger Hefe aus dem Supermarkt. In diesem Herbst wollte sie endlich einen eigenen Sauerteig ansetzen. Lange hatte sie einem verbreiteten Irrtum geglaubt: dass man dafür etwas Besonderes kaufen müsse. Ihre Nachbarin, Frau Petersen, die seit 40 Jahren Brot backt, räumte diesen Irrtum schnell aus. „Du brauchst nur Mehl, Wasser und Geduld“, sagte sie. „Alles andere steckt schon im Korn.“\n\nTatsächlich leben auf jedem Korn winzige Organismen: wilde Hefen, also kleine Pilze, und Bakterien, die aus Zucker eine Säure bilden. Miriam mischte 50 Gramm Mehl mit 50 Gramm Wasser in einem Glas. Das Wasser sollte lau sein, denn kaltes Wasser bremst das Leben im Glas, und Hitze schadet ihm. Den Deckel legte sie nur locker auf. Ein fest geschlossener Deckel wäre ein Fehler, weil sich im Glas sonst Druck aufbauen würde.\n\nAm ersten Tag geschah wenig. Am zweiten Tag sah Miriam die ersten Perlen an der Oberfläche: kleine, runde Blasen aus Gas, die langsam nach oben stiegen. Dann roch das Glas plötzlich seltsam süß, fast wie eine reife Banane. Miriam war unsicher und fragte ihre Nachbarin. „Das ist ganz normal“, sagte Frau Petersen. „Am Anfang riecht ein junger Sauerteig oft nach Banane. Nach ein paar Tagen ist das vorbei.“\n\nIm Glas arbeiten 2 Gruppen von Organismen zeitgleich. Die Bakterien verwandeln den Zucker im Mehl in Säure, die die Masse sauer macht und sie zugleich vor Schimmel und anderen fremden Gästen schützt. Die Hefen ernähren sich ebenfalls vom Zucker und bilden dabei ein Gas, dasselbe, das im Mineralwasser perlt. Weil beide Vorgänge zeitgleich ablaufen, wird die Masse zur selben Zeit sauer und locker.\n\nDamit das Gas das Brot hebt, muss es festgehalten werden. Im Mehl bilden bestimmte Proteine ein Netz, das mit dem Gas wachsen kann. Das Gas sammelt sich in unzähligen kleinen Perlen, das Netz wird größer, und das Brot geht auf.\n\nMiriam fütterte ihren Sauerteig nun jeden Tag: Sie nahm die Hälfte heraus und gab frisches Mehl und laues Wasser dazu. Nach 6 Tagen verdoppelte sich die Masse in wenigen Stunden; sie war bereit.\n\nWie sauer ein Brot schmeckt, kann stark variieren. Es hängt von der Wärme, der Menge an Wasser und der Zeit ab. Ist die Masse warm und weich, schmeckt das Brot eher sanft; ist sie kühl und fest, eher kräftig. Fortgeschrittene Bäcker nutzen das bewusst: Sie variieren Temperatur und Zeit, bis das Brot genau so schmeckt, wie sie es wünschen. Frau Petersen ist eine solche fortgeschrittene Bäckerin; Miriam steht noch am Anfang.\n\nAm Samstag bereitete Miriam ihr erstes Brot vor und ließ es danach stundenlang ruhen. Das stundenlange Warten lohnt sich, denn in dieser Zeit entsteht der Geschmack. Am Abend holte sie ein dunkles, duftendes Brot aus dem Ofen. Den Rest stellte sie in den Kühlschrank, wieder mit lockerem Deckel.\n\nFragen:\nWelchem Irrtum hatte Miriam lange geglaubt?\nSie hatte geglaubt, dass man für einen Sauerteig etwas Besonderes kaufen müsse.\nWarum legte Miriam den Deckel nur locker auf das Glas?\nBei einem fest geschlossenen Deckel würde sich im Glas Druck aufbauen.\nWas sah Miriam am zweiten Tag an der Oberfläche?\nSie sah die ersten Perlen, kleine Blasen aus Gas.\nWas tun die Bakterien und die Hefen zeitgleich?\nDie Bakterien bilden aus Zucker eine Säure, und die Hefen bilden ein Gas.\nWovon hängt es ab, wie sauer ein Brot schmeckt?\nEs hängt von der Wärme, der Menge an Wasser und der Zeit ab.\nWarum lohnt sich das stundenlange Warten?\nIn dieser Zeit entsteht der Geschmack des Brotes."
+    },
+    {
+      "title": "Die Grammatik der braunen Kruste",
+      "summary": "At an evening class, a lecturer explains the Maillard reaction, caramel and an old cooking myth.",
+      "newWords": [
+        "Dozent",
+        "Grammatik",
+        "zuschreiben",
+        "Missverständnis",
+        "überholt",
+        "Illusion",
+        "westfälisch",
+        "Rückseite",
+        "eindrucksvoll",
+        "grandios",
+        "Applaus"
+      ],
+      "text": "Paul kocht gern, aber er wollte endlich verstehen, warum seine Gerichte manchmal gelingen und manchmal nicht. Deshalb besuchte er im Winter einen Kurs am Abend mit dem Titel „Chemie am Herd“. Die Dozentin, Ruth Albrecht, begann mit einem Vergleich: „Ein Rezept ist wie ein Satz. Dahinter steht eine Grammatik, also Regeln, die für alle Gerichte gelten. Wer die Grammatik kennt, kann auch ohne Rezept kochen.“\n\nDie wichtigste Regel des Abends betraf die braune Farbe. Ob Brot, Kaffee oder ein Stück Fleisch: Ihr Duft wird einer bestimmten Reaktion zugeschrieben, die der französische Chemiker Louis-Camille Maillard um 1912 beschrieben hat. Bei der Maillard-Reaktion verbinden sich Zucker und die Bausteine der Proteine miteinander. Dabei entstehen Hunderte neuer Stoffe, die braun sind und intensiv riechen. Die Reaktion beginnt erst bei etwa 140 Grad richtig. „Deshalb wird gekochtes Fleisch grau und gebratenes braun“, erklärte die Dozentin. „Im Wasser wird es nie wärmer als 100 Grad.“\n\nAus demselben Grund, sagte Frau Albrecht, solle man Fleisch vor dem Braten gut trocknen. Solange die Oberfläche nass ist, nutzt die Hitze ihre ganze Kraft dafür, das Wasser in Dampf zu verwandeln, und die Oberfläche bleibt bei 100 Grad. Erst wenn sie trocken ist, kann sie braun werden.\n\nDanach räumte sie mit einem verbreiteten Missverständnis auf. Viele Menschen sagen, Fleisch werde in der Pfanne „karamellisiert“. Doch Fleisch enthält kaum Zucker. Beim Karamell reagiert der Zucker allein, ohne Proteine, und dafür braucht er noch mehr Hitze. Frau Albrecht zeigte es eindrucksvoll: Sie erhitzte weißen Zucker in einem Topf, bis er schmolz, golden und schließlich dunkel wurde. Das Ergebnis duftete grandios. Wer den Zucker jedoch zu lange auf dem Herd lässt, bekommt einen bitteren, schwarzen Stoff. „Zwischen grandios und verbrannt liegt oft nur eine Minute“, sagte sie.\n\nEin zweites Missverständnis betraf das scharfe Braten. Lange glaubte man, die heiße Pfanne verschließe das Fleisch, sodass der Saft darin bleibe. Diese Vorstellung ist überholt. Messungen zeigen, dass scharf gebratenes Fleisch genauso viel Saft verliert wie anderes. Der Eindruck, es habe mehr Saft, ist eine Illusion, die vom kräftigen Geschmack der braunen Oberfläche kommt. „Eine schöne Illusion“, sagte die Dozentin, „aber eben eine überholte Theorie. Braten Sie trotzdem scharf an, nur aus dem richtigen Grund.“\n\nZum Schluss zeigte sie ein westfälisches Brot, den Pumpernickel. Er wird bis zu 24 Stunden bei niedriger Hitze im Dampf gebacken. Seine fast schwarze Farbe und seine Süße werden oft einem Zusatz zugeschrieben. Beim traditionellen Rezept stammen sie jedoch ebenfalls von der Maillard-Reaktion, die bei wenig Hitze sehr langsam abläuft. Das westfälische Brot war für Paul das eindrucksvollste Beispiel des Abends: dieselbe Regel, nur mit viel mehr Zeit.\n\nAuf der Rückseite des Blattes, das alle Teilnehmer erhielten, standen 3 Sätze: Trocken braten. Genug Hitze. Geduld. Am Ende des Abends gab es langen Applaus, und Frau Albrecht bedankte sich für den Applaus mit einem Stück Karamell für jeden. Auf dem Weg nach Hause las Paul die Rückseite noch einmal.\n\nFragen:\nWomit verglich die Dozentin ein Rezept?\nSie verglich ein Rezept mit einem Satz, hinter dem eine Grammatik steht.\nWelcher Reaktion wird der Duft von Brot und Kaffee zugeschrieben?\nEr wird der Maillard-Reaktion zugeschrieben.\nWarum wird gekochtes Fleisch grau?\nIm Wasser wird es nie wärmer als 100 Grad, und die Reaktion beginnt erst bei etwa 140 Grad.\nWelches Missverständnis klärte Frau Albrecht auf?\nFleisch wird nicht karamellisiert, denn es enthält kaum Zucker.\nWelche Vorstellung ist überholt?\nDie Vorstellung, die heiße Pfanne verschließe das Fleisch, ist überholt.\nWas stand auf der Rückseite des Blattes?\nDort standen 3 Sätze: Trocken braten. Genug Hitze. Geduld."
+    },
+    {
+      "title": "Warum Zwiebeln uns zum Weinen bringen",
+      "summary": "A young trainee in a pub kitchen cries over a pile of onions, and the cook explains the chemistry and the best tricks.",
+      "newWords": [
+        "zwiebeln",
+        "Kneipe",
+        "Quartier",
+        "Gastronomie",
+        "Arbeitskraft",
+        "dual",
+        "inne",
+        "aufbrechen",
+        "gewaltsam",
+        "erliegen"
+      ],
+      "text": "Jonas ist 19 Jahre alt und macht eine Ausbildung zum Koch. Die Ausbildung ist dual: An 3 Tagen in der Woche arbeitet er in einem Betrieb, an 2 Tagen geht er zur Berufsschule. Sein Betrieb ist eine kleine Kneipe in einem alten Quartier am Hafen, in dem schmale Häuser und viele Lokale stehen. Die Kneipe ist im ganzen Quartier für ihre Suppe aus Zwiebeln bekannt.\n\nDie Köchin, Frau Brandt, sucht seit Monaten weitere Leute. „In der Gastronomie fehlen überall Arbeitskräfte“, sagt sie oft. „Die Arbeit ist hart, die Abende sind lang.“ Umso mehr freut sie sich über Jonas. Sie hält viel von der dualen Ausbildung, weil man dort Theorie und Praxis zugleich lernt. Für sie ist ein guter Azubi die wertvollste Arbeitskraft in der Gastronomie.\n\nAn einem Montag stand Jonas vor einem Berg von 5 Kilo Zwiebeln. Nach wenigen Minuten brannten seine Augen, und die Tränen liefen ihm über das Gesicht. Er hielt inne, wischte sich über die Augen und schnitt weiter. Bald hielt er wieder inne. Frau Brandt sah ihm eine Weile zu und erklärte ihm dann, was in der Zwiebel geschieht.\n\nIn den Zellen der Zwiebel liegen 2 Stoffe getrennt voneinander: eine Verbindung, die Schwefel enthält, und ein Enzym. Solange die Zellen ganz sind, passiert nichts. Erst wenn das Messer die Zellen aufbricht, treffen beide Stoffe aufeinander. Dabei entsteht ein flüchtiges Gas, das in die Luft steigt und die Augen erreicht. Dort reizt es die Nerven, und die Augen bilden Tränen, um den Stoff aus dem Auge zu waschen. Die Tränen sind also ein Schutz.\n\n„Dein Messer ist stumpf“, sagte Frau Brandt. „Ein stumpfes Messer schneidet nicht, es drückt. Dabei werden die Zellen gewaltsam aufgebrochen, viel mehr als nötig. Ein scharfes Messer trennt die Zellen sauber, und nur wenige werden zerstört.“ Ein scharfes Messer arbeitet also genau, während ein stumpfes gewaltsam vorgeht und deshalb mehr Gas bildet.\n\nAußerdem riet sie ihm, die Zwiebeln vorher kühl zu lagern. In der Kälte arbeitet das Enzym langsamer, und das Gas steigt weniger schnell auf. Ein offenes Fenster hilft ebenfalls, weil die frische Luft das Gas mitnimmt. Die Wurzel solle er erst am Ende abschneiden, denn dort sind die Stoffe besonders konzentriert.\n\nViele Menschen erliegen dem Glauben an einfache Hausmittel: ein Stück Brot im Mund, eine brennende Kerze neben dem Brett, ein Löffel zwischen den Lippen. „Auch ich bin diesem Glauben lange erlegen“, gab Frau Brandt zu. „Aber geholfen hat mir am Ende nur ein scharfes Messer.“\n\nJonas schärfte sein Messer, holte kühle Zwiebeln aus dem Lager und öffnete das Fenster. Die restlichen Zwiebeln schnitt er schneller und mit viel weniger Tränen. Am Abend aßen die Gäste in der Kneipe seine erste Suppe aus Zwiebeln.\n\nFragen:\nWarum ist die Ausbildung von Jonas dual?\nEr arbeitet an 3 Tagen in der Woche im Betrieb und geht an 2 Tagen zur Berufsschule.\nWas fehlt laut Frau Brandt in der Gastronomie?\nIn der Gastronomie fehlen überall Arbeitskräfte.\nWarum bilden die Augen Tränen?\nDie Tränen sollen den Stoff aus dem Auge waschen; sie sind ein Schutz.\nWarum hielt Jonas immer wieder inne?\nSeine Augen brannten, und die Tränen liefen ihm über das Gesicht.\nWarum ist ein stumpfes Messer schlecht?\nEs drückt, und die Zellen werden gewaltsam aufgebrochen.\nWelchem Glauben erliegen viele Menschen?\nSie erliegen dem Glauben an einfache Hausmittel wie ein Stück Brot im Mund."
+    },
+    {
+      "title": "Die gerettete Mayonnaise",
+      "summary": "Clara's homemade mayonnaise separates before a family party; her brother explains emulsions and how to save it.",
+      "newWords": [
+        "Terrasse",
+        "klammern",
+        "inmitten",
+        "strikt",
+        "abbrechen",
+        "entsetzen",
+        "Puls",
+        "rational",
+        "fixieren",
+        "überreichen"
+      ],
+      "text": "Am Samstag feierten Claras Eltern mit einem Fest auf der Terrasse 30 Jahre Ehe. Clara hatte versprochen, die Mayonnaise für den Salat selbst zu machen. Sie gab 2 Eigelb, etwas Senf und den Saft einer Zitrone in eine Schale und goss Öl dazu. Doch sie goss zu schnell. Statt dick und glänzend zu werden, wurde die Masse plötzlich flüssig, und oben schwamm eine gelbe Schicht aus Öl.\n\nClara war entsetzt. In 2 Stunden sollten die ersten Gäste auf der Terrasse sitzen. Ihr Puls ging schneller, und sie wollte den Versuch schon abbrechen und etwas Fertiges aus dem Glas kaufen. Ihr Bruder Felix, der Chemie studiert, kam gerade in die Küche und sah, wie entsetzt sie war. „Du musst nichts abbrechen“, sagte er. „Lass uns rational bleiben. Erst verstehen, dann retten.“ Rational betrachtet war nämlich nichts verloren: Öl und Eier waren noch genug da.\n\nFelix erklärte ihr zuerst, was in der Schale eigentlich geschehen sollte. Öl und Wasser mischen sich nicht; das weiß jeder, der einmal eine Flasche mit beiden geschüttelt hat. In einer guten Mayonnaise schweben jedoch Millionen winziger Tropfen Öl inmitten einer dünnen Schicht aus Wasser, das aus dem Ei und dem Saft stammt. Inmitten dieses Wassers bleiben die Tropfen getrennt, obwohl sie sich eigentlich vereinen wollen.\n\nDafür sorgt ein Stoff im Eigelb, das Lecithin. Seine Moleküle haben 2 Enden: Das eine liebt Wasser, das andere liebt Fett. Mit dem Ende, das Fett liebt, klammern sie sich an jeden Tropfen, mit dem anderen zeigen sie nach außen ins Wasser. So ist jeder Tropfen von einer feinen Hülle umgeben. Weil sich die Moleküle fest an die Tropfen klammern, können diese nicht zusammenfließen.\n\n„Das Problem ist die Menge“, sagte Felix. „Am Anfang gibt es nur wenig Hülle. Wenn zu viel Öl auf einmal kommt, reicht sie nicht, und die Tropfen fließen zusammen.“ Deshalb gilt am Anfang eine strikte Regel: Das Öl kommt Tropfen für Tropfen hinein. Erst wenn die Masse dick geworden ist, darf man schneller gießen.\n\nDann zeigte er ihr, wie man sie rettet. Clara gab ein frisches Eigelb in eine saubere Schale. Damit die Schale beim Rühren nicht über den Tisch wanderte, legte Felix ein feuchtes Tuch darunter. So war die Schale fixiert, und Clara hatte eine Hand frei für das Öl. „Ein feuchtes Tuch fixiert jede Schale“, sagte er. Clara rührte, während Felix die flüssige Masse langsam zum neuen Eigelb gab, zuerst strikt in kleinen Mengen. Nach wenigen Minuten wurde alles wieder dick und glänzend. Clara spürte, wie ihr Puls ruhiger wurde.\n\nFelix erinnerte sie noch an eine zweite strikte Regel: Alles aus rohen Eiern gehört in den Kühlschrank und sollte am selben Tag gegessen werden.\n\nAm Abend überreichte Clara ihrer Mutter die Schale mit dem fertigen Salat. Felix überreichte dem Vater eine Flasche Wein. Auf der Terrasse lobten alle den Salat, und nur Clara und Felix wussten, dass die Mayonnaise beinahe misslungen wäre.\n\nFragen:\nWarum war Clara entsetzt?\nDie Masse in ihrer Schale wurde flüssig, und in 2 Stunden sollten die Gäste kommen.\nWas riet Felix, statt den Versuch abzubrechen?\nEr sagte, sie sollten rational bleiben: erst verstehen, dann retten.\nWo schweben die Tropfen Öl in einer guten Mayonnaise?\nSie schweben inmitten einer dünnen Schicht aus Wasser.\nWas tun die Moleküle des Stoffes im Eigelb?\nSie klammern sich an jeden Tropfen Öl.\nWelche strikte Regel gilt am Anfang?\nDas Öl kommt Tropfen für Tropfen hinein.\nWozu legte Felix ein feuchtes Tuch unter die Schale?\nSo war die Schale fixiert, und Clara hatte eine Hand frei."
+    },
+    {
+      "title": "Das perfekte Frühstücksei auf 2000 Metern",
+      "summary": "A couple and their twins find that eggs cook differently in a mountain hut, and learn why before they set off on a hike.",
+      "newWords": [
+        "Ehepaar",
+        "Zwilling",
+        "Panorama",
+        "Sonnenschein",
+        "Auftakt",
+        "Problematik",
+        "Pfad",
+        "Forst",
+        "roden",
+        "überqueren"
+      ],
+      "text": "Das Ehepaar Martin und Sabine Steiner verbrachte eine Woche in einer Hütte in Tirol, auf 2000 Metern Höhe. Ihre Zwillinge Lea und Leo, beide 12 Jahre alt, waren auch dabei. Von der Hütte aus hatte man ein weites Panorama über das Tal und die Gipfel. Am ersten Morgen frühstückte die Familie draußen im Sonnenschein, mit dem ganzen Panorama vor Augen. Das Frühstück sollte der Auftakt zu einer langen Wanderung sein.\n\nDie Zwillinge sind sich in vielem ähnlich, aber nicht beim Ei. Lea mag es weich, mit flüssigem Eigelb. Leo mag es hart. Zu Hause kocht Martin Leas Ei genau 5 Minuten und Leos Ei 9 Minuten, und das Ergebnis ist immer richtig. Auf der Hütte kochte er die Eier genauso lange. Doch Leas Ei war fast roh, und Leos Ei war innen noch weich. Beide Zwillinge sahen ihren Vater fragend an.\n\nSabine, die als Lehrerin Physik unterrichtet, kannte die Problematik. „Auf dieser Höhe ist der Luftdruck niedriger“, erklärte sie. „Deshalb kocht das Wasser hier schon bei etwa 93 Grad, nicht bei 100. Das Wasser ist also weniger heiß, und die Eier brauchen länger.“\n\nDann erklärte sie, was im Ei überhaupt geschieht. Das Ei enthält viele verschiedene Proteine, und jedes wird bei einer anderen Temperatur fest. Das Eiweiß beginnt bei etwa 62 Grad fest zu werden, das Eigelb ab etwa 65 Grad. Ein perfektes weiches Ei ist also eines, dessen Rand die nötige Temperatur erreicht hat und dessen Mitte noch nicht. Die Hitze wandert langsam von außen nach innen. Wie schnell sie das tut, hängt vom Wasser, von der Größe des Eis und davon ab, ob es aus dem Kühlschrank kommt.\n\nLeo wollte wissen, warum sein hartes Ei zu Hause manchmal einen grauen Ring um das Eigelb hat. „Das ist die zweite Problematik“, sagte Sabine. „Wenn man ein Ei zu lange kocht, reagiert Eisen aus dem Eigelb mit Schwefel aus dem Eiweiß. Das ist harmlos, aber nicht schön. Kaltes Wasser nach dem Kochen hilft dagegen.“\n\nMartin kochte 2 neue Eier, diesmal je 2 Minuten länger, und beide Zwillinge waren zufrieden. Nach diesem gelungenen Auftakt brach die Familie auf.\n\nEin schmaler Pfad führte zuerst durch einen dunklen Forst aus Fichten. Ein Schild erklärte, dass dieser Forst seit 200 Jahren gepflegt wird. Weiter oben öffnete sich der Wald. „Vor langer Zeit haben Bauern hier den Wald gerodet“, las Lea auf einer Tafel, „um Weiden für ihre Kühe zu schaffen.“ Auf den gerodeten Flächen standen heute Kühe im Gras. Der Pfad führte über einen kleinen Bach. Die Zwillinge wollten den Bach unbedingt auf den Steinen überqueren, nicht auf der Brücke. Ihre Eltern überquerten ihn lieber auf der Brücke und blieben trocken.\n\nAm Abend saß das Ehepaar noch lange vor der Hütte im letzten Sonnenschein. Martin schrieb sich auf einen Zettel: Auf der Hütte 2 Minuten länger.\n\nFragen:\nWo verbrachte das Ehepaar Steiner seine Woche?\nEs verbrachte die Woche in einer Hütte in Tirol, auf 2000 Metern Höhe.\nWie mögen die Zwillinge ihr Ei?\nLea mag es weich, Leo mag es hart.\nWarum brauchen die Eier auf der Hütte länger?\nDas Wasser kocht dort schon bei etwa 93 Grad, weil der Luftdruck niedriger ist.\nWoher kommt der graue Ring um das Eigelb?\nEisen aus dem Eigelb reagiert mit Schwefel aus dem Eiweiß, wenn man das Ei zu lange kocht.\nWarum haben Bauern den Wald gerodet?\nSie wollten Weiden für ihre Kühe schaffen.\nWie überquerten die Zwillinge den Bach?\nSie überquerten ihn auf den Steinen."
+    },
+    {
+      "title": "Salz: ein kleines Korn mit großer Wirkung",
+      "summary": "An essay on how salt shapes flavour, what the body needs it for, how it once made archbishops rich and why we eat too much of it today.",
+      "newWords": [
+        "Erzbischof",
+        "Ära",
+        "Erwerb",
+        "materiell",
+        "Athlet",
+        "Wal",
+        "Verbrauch",
+        "verringert",
+        "Umstellung"
+      ],
+      "text": "Kaum eine Zutat ist so unscheinbar und zugleich so mächtig wie das Salz. Ein paar weiße Körner genügen, und eine fade Suppe schmeckt plötzlich nach etwas. Doch Salz macht ein Gericht nicht nur salzig. Es verstärkt andere Geschmäcker und dämpft bittere. Deshalb gehört auch in einen süßen Kuchen eine kleine Menge Salz, und eine Tomate wirkt mit ein wenig Salz süßer.\n\nFür den Körper ist Salz kein Luxus, sondern notwendig. Nerven und Muskeln brauchen es, um zu arbeiten, und es hilft, das Wasser im Körper im Gleichgewicht zu halten. Ein Athlet, der einen Marathon läuft, verliert mit dem Schweiß nicht nur Wasser, sondern auch viel Salz. Trinkt er stundenlang nur reines Wasser, kann das gefährlich werden. Deshalb trinken viele Athleten bei langen Rennen Getränke, die etwas Salz enthalten.\n\nZu viel Salz ist allerdings ebenso schädlich. Wer Wasser aus dem Meer trinkt, wird noch durstiger, weil die Nieren das viele Salz nur mit noch mehr Wasser loswerden können. Ein Wal hat dieses Problem kaum. Er nimmt das meiste Wasser mit seiner Nahrung auf, und seine Nieren arbeiten weit besser als unsere. Der Wal ist also an ein Leben im salzigen Meer angepasst; der Mensch ist es nicht.\n\nFrüher war Salz so wertvoll, dass man es das weiße Gold nannte. Der Erwerb von Salz war für einfache Familien teuer. Mit ihm konnte man Fleisch und Fisch für den Winter haltbar machen, lange bevor es Kühlschränke gab. Ein gutes Beispiel ist die Stadt Salzburg, die ihren Namen dem Salz verdankt. Über Jahrhunderte regierte dort ein Erzbischof, der zugleich Herr über die Salzberge der Umgebung war. Aus dem Erwerb und dem Handel mit Salz floss viel Geld in die Stadt. Mancher Erzbischof ließ davon prächtige Kirchen und Paläste bauen. Diese Ära endete erst 1803, doch ihre Spuren sieht man in Salzburg bis heute. Der materielle Reichtum jener Ära beruhte auf einem Stoff, den heute jeder für wenig Geld im Supermarkt kauft. Der materielle Wert des Salzes ist gesunken, sein Wert für die Küche nicht.\n\nHeute haben wir das umgekehrte Problem: Es gibt zu viel Salz. Der Verbrauch in Deutschland liegt bei vielen Erwachsenen bei 8 bis 10 Gramm am Tag. Empfohlen werden höchstens 6 Gramm. Der größte Teil dieses Verbrauchs stammt nicht aus dem Salzstreuer, sondern aus Brot, Käse, Wurst und fertigen Gerichten.\n\nWer seinen Verbrauch senken möchte, fürchtet oft, dass das Essen dann fade schmeckt. Hier hilft eine erstaunliche Eigenschaft unserer Zunge: Sie gewöhnt sich an weniger. Wird die Menge langsam verringert, bemerkt man es kaum. Nach einer Umstellung von wenigen Wochen schmecken die früheren Gerichte vielen sogar zu salzig. Einige Bäckereien haben das Salz in ihrem Brot über Jahre in kleinen Schritten verringert, und kaum ein Kunde hat es gemerkt. Die Umstellung gelingt also am besten langsam und mit Geduld.\n\nFragen:\nWas bewirkt Salz außer dem salzigen Geschmack?\nEs verstärkt andere Geschmäcker und dämpft bittere.\nWarum trinken viele Athleten bei langen Rennen Getränke mit Salz?\nSie verlieren mit dem Schweiß nicht nur Wasser, sondern auch viel Salz.\nWarum hat ein Wal kaum Probleme mit dem salzigen Meer?\nEr nimmt das meiste Wasser mit seiner Nahrung auf, und seine Nieren arbeiten besser als unsere.\nWorauf beruhte der Reichtum der Erzbischöfe von Salzburg?\nEr beruhte auf dem Erwerb und dem Handel mit Salz.\nWoher stammt der größte Teil unseres Verbrauchs an Salz?\nEr stammt aus Brot, Käse, Wurst und fertigen Gerichten.\nWie gelingt die Umstellung auf weniger Salz am besten?\nSie gelingt am besten langsam, wenn die Menge in kleinen Schritten verringert wird."
+    },
+    {
+      "title": "Sauerkraut wie bei Oma",
+      "summary": "A student spends a weekend with his grandmother in Franconia and learns how to ferment sauerkraut safely.",
+      "newWords": [
+        "fränkisch",
+        "zugehörig",
+        "üblicherweise",
+        "weiterentwickeln",
+        "Moor",
+        "Erhaltung",
+        "Fell",
+        "abgelaufen"
+      ],
+      "text": "Meine Oma lebt in einem kleinen fränkischen Dorf, und jeden Herbst macht sie ihr eigenes Sauerkraut. In diesem Jahr bin ich, Tobias, für ein Wochenende zu ihr gefahren, um es endlich selbst zu lernen.\n\nIm Keller stand schon der alte Topf aus Stein, mit dem zugehörigen Deckel und 2 schweren, zugehörigen Steinen. Daneben fanden wir ein Glas Kraut vom letzten Jahr. Das Datum darauf war längst abgelaufen, doch es roch frisch und angenehm sauer. „Kraut, das gut gemacht ist, hält lange“, sagte Oma. Dann schnitt sie 5 Kilo Kohl in feine Streifen und wog das Salz ab. „Üblicherweise nimmt man 15 bis 20 Gramm Salz auf ein Kilo Kohl“, sagte sie. „Weniger ist unsicher, denn das Salz ist hier nicht nur für den Geschmack da. Es schützt das Kraut.“\n\nWir mischten Kohl und Salz und drückten alles mit den Händen fest in den Topf. Schon nach kurzer Zeit trat Saft aus. Das Salz zieht das Wasser aus den Zellen des Kohls, und am Ende stand das Kraut ganz unter seiner eigenen Flüssigkeit. Darauf legte Oma die Steine. „Das Wichtigste ist, dass kein Kraut aus dem Saft ragt“, sagte sie. „Unter dem Saft gibt es keinen Sauerstoff.“\n\nDanach erklärte sie mir, was im Topf geschieht. Auf jedem Kohl leben Bakterien, die aus Zucker Säure machen. Im Saft ohne Luft fühlen sie sich wohl, während viele schädliche Keime dort nicht leben können. In den ersten Tagen arbeiten Bakterien, die viel Gas bilden; dann übernehmen andere Arten, die mehr Säure vertragen. So kann sich die Gemeinschaft im Topf Woche für Woche weiterentwickeln, bis das Kraut sauer genug ist, um lange haltbar zu sein. Oma sagt, ihr Rezept habe sie in 50 Jahren kaum weiterentwickelt, nur das Salz wiege sie heute genauer ab.\n\nDas Prinzip ist sehr alt. In Irland hat man Butter gefunden, die vor Hunderten von Jahren im Moor vergraben worden war. Im Moor gibt es wenig Sauerstoff, viel Säure und Kälte, und genau das hat die Butter bewahrt. Im Topf geschieht etwas Ähnliches, nur schneller und mit Absicht. Auch die Erhaltung vieler Vitamine verdankt man diesem Vorgang. Früher nahmen Schiffe Sauerkraut auf lange Reisen mit; dank der Erhaltung der Vitamine blieben die Menschen an Bord gesünder.\n\nOma zeigte mir auch, worauf man achten muss. Ein dünner, weißer Film auf dem Saft ist meist harmlos; man nimmt ihn mit einem Löffel ab. Wächst dagegen ein bunter, weicher Schimmel, dicht wie ein kleines Fell, gehört das ganze Kraut in den Müll. Auch wenn es faul riecht, darf man es nicht essen. „Ein Fell auf dem Kraut ist kein Spaß“, sagte sie.\n\nDer Topf sollte die erste Woche bei etwa 20 Grad stehen, danach kühler; üblicherweise ist das Kraut nach 4 bis 6 Wochen fertig. Nach 4 Wochen war die Zeit abgelaufen, und Oma rief mich an: Das Kraut war fertig. An Weihnachten haben wir es zusammen gegessen, natürlich mit fränkischer Bratwurst.\n\nFragen:\nWo lebt die Oma von Tobias?\nSie lebt in einem kleinen fränkischen Dorf.\nWie viel Salz nimmt man üblicherweise?\nMan nimmt üblicherweise 15 bis 20 Gramm Salz auf ein Kilo Kohl.\nWarum muss das Kraut ganz unter dem Saft stehen?\nUnter dem Saft gibt es keinen Sauerstoff.\nWas hat die Butter im Moor bewahrt?\nWenig Sauerstoff, viel Säure und Kälte haben sie bewahrt.\nWann gehört das ganze Kraut in den Müll?\nWenn ein bunter Schimmel wächst, dicht wie ein kleines Fell, oder wenn es faul riecht.\nWann war die Zeit abgelaufen?\nDie Zeit war nach 4 Wochen abgelaufen."
+    },
+    {
+      "title": "Die Bäckerin und die Lauge",
+      "summary": "A newspaper profile of a Swabian baker who took over her father's bakery and explains why pretzels are dipped in lye.",
+      "newWords": [
+        "Nachfolge",
+        "Diplom",
+        "Sekretär",
+        "Elle",
+        "übersetzen",
+        "Karneval",
+        "Gate",
+        "Versand"
+      ],
+      "text": "Wer morgens um 4 Uhr durch einen kleinen Ort bei Ulm geht, sieht in der Bäckerei Wörner schon Licht. Drinnen steht Katharina Wörner, 34 Jahre alt, und formt Brezeln. Seit 3 Jahren führt sie den Betrieb, den ihr Großvater gegründet hat. Die Nachfolge war lange nicht sicher. „Mein Vater hat nie gesagt, dass ich übernehmen muss“, erzählt sie. „Er wollte, dass ich frei wähle.“\n\nZunächst wählte sie die Hochschule. Sie studierte die Technik der Lebensmittel und schloss mit einem Diplom ab. Danach arbeitete sie 5 Jahre in der Industrie. Doch irgendwann fehlte ihr das Handwerk. Als ihr Vater in den Ruhestand gehen wollte, trat sie die Nachfolge an. Ihr Diplom hängt heute im Büro neben einem alten Foto der Familie. Im Büro arbeitet auch ihre Mutter. Früher war sie Sekretärin in einer Bank, heute ist sie die Sekretärin der Bäckerei und kümmert sich um Rechnungen und Bestellungen.\n\nDie Brezel ist das Herz des Betriebs. Jeden Morgen rollt Katharina Wörner den Teig zu einem Strang, der ungefähr eine Elle lang ist. Die Elle ist ein altes Maß von etwa einem halben Meter; ursprünglich meinte sie die Länge vom Ellenbogen bis zur Hand. Dann legt sie die Enden in einer schnellen Bewegung über Kreuz. Die Form erinnert an Arme, die vor der Brust gekreuzt sind. Auch der Name passt dazu: Er geht auf ein lateinisches Wort zurück, das man mit Arm übersetzen kann.\n\nVor dem Backen werden die Brezeln für einige Sekunden in eine Lauge getaucht, eine Flüssigkeit, die chemisch das Gegenteil einer Säure ist. Dabei trägt die Bäckerin Handschuhe und eine Brille, denn die Lauge greift die Haut an. Im heißen Ofen reagiert sie dann mit Stoffen aus der Luft und wird harmlos. Das fertige Produkt kann man also ohne Sorge essen.\n\nDie Lauge sorgt für die typische Farbe und den Geschmack. Auf einer Oberfläche mit Lauge läuft die Maillard-Reaktion viel schneller ab als auf einer neutralen. Deshalb wird eine Brezel in kurzer Zeit tief braun und glänzend, während ein gewöhnliches Brötchen hell bleibt. Nach einer Legende entdeckte ein Bäcker diese Wirkung zufällig, als ein Stück in eine Lösung zum Reinigen fiel. Ob das stimmt, weiß niemand.\n\nIn den Wochen nach dem Karneval backt der Betrieb zusätzlich besonders große Exemplare, die man in der Region traditionell bis Ostern isst. Den schwäbischen Begriff Fasnet könnte man mit Karneval übersetzen. Seit einem Jahr liefert der Betrieb außerdem an den Flughafen: Ein kleiner Stand direkt am Gate verkauft frische Ware an Reisende, die am Gate auf ihren Flug warten. Einen Versand übers Internet lehnt Katharina Wörner dagegen ab. „Eine Brezel muss frisch sein“, sagt sie. „Nach 2 Tagen im Versand ist sie nur noch ein trauriger Rest.“\n\nFragen:\nWie wurde Katharina Wörner Nachfolgerin ihres Vaters?\nSie studierte, arbeitete in der Industrie und trat dann die Nachfolge an, als ihr Vater in den Ruhestand ging.\nWas macht ihre Mutter im Betrieb?\nSie ist die Sekretärin und kümmert sich um Rechnungen und Bestellungen.\nWie lang ist der Strang?\nEr ist ungefähr eine Elle lang, also etwa einen halben Meter.\nWoher kommt der Name Brezel?\nEr geht auf ein lateinisches Wort zurück, das man mit Arm übersetzen kann.\nWarum wird eine Brezel so schnell braun?\nAuf einer Oberfläche mit Lauge läuft die Maillard-Reaktion viel schneller ab.\nWarum lehnt die Bäckerin einen Versand ab?\nEine Brezel muss frisch sein; nach 2 Tagen im Versand ist sie nur noch ein trauriger Rest."
+    },
+    {
+      "title": "Der Honig, der keiner war",
+      "summary": "A report on how a food laboratory uncovers fake honey, and how one case ended in court.",
+      "newWords": [
+        "gefälscht",
+        "Kriminalität",
+        "Gruppierung",
+        "Hardware",
+        "Bit",
+        "belgisch",
+        "aufgeklärt",
+        "Oberlandesgericht",
+        "Entschädigung",
+        "Überschrift"
+      ],
+      "text": "„Wenn Honig zu billig ist, ist er oft kein Honig“: Unter dieser Überschrift berichtete eine Zeitung im vergangenen Jahr über ein Labor in Bremen. Die Überschrift klingt hart, doch die Chemikerin Jana Lindner, die das Labor leitet, hält sie für richtig. Ihr Team untersucht jedes Jahr Tausende Proben von Lebensmitteln. Honig gehört zu den Produkten, die am häufigsten gefälscht werden.\n\nGefälschter Honig sieht aus wie echter und schmeckt fast genauso. Meist wird echter Honig mit billigem Sirup aus Reis oder Mais gestreckt. Für den Kunden ist der Unterschied kaum zu erkennen. Für die Betrüger lohnt sich das Geschäft: Sirup kostet nur einen Bruchteil des Preises von Honig. Fachleute sprechen deshalb von einer Form der Kriminalität, die lange unterschätzt wurde. Hinter großen Fällen stehen oft kriminelle Gruppierungen, die in mehreren Ländern arbeiten. Eine solche Gruppierung ist oft organisiert wie ein gewöhnliches Unternehmen. Diese Kriminalität richtet keinen großen Schaden an der Gesundheit an, aber sie betrügt Kunden und ehrliche Imker um viel Geld.\n\nWie lässt sich ein solcher Betrug beweisen? Jedes Lebensmittel trägt eine Art chemischen Fingerabdruck. Pflanzen bauen Zucker auf verschiedene Weise auf, und diese Unterschiede bleiben im Honig erhalten. Mais zum Beispiel hinterlässt im Zucker ein anderes Muster als die Blüten, aus denen die Bienen ihren Honig machen. Das Labor misst diese Muster mit Geräten, die so groß wie ein Schrank sind. Die Hardware allein kostet mehr als 500.000 Euro. „Aber die Hardware ist nur die halbe Arbeit“, sagt Jana Lindner. Ein Programm vergleicht jedes Bit der Messdaten mit einer Datenbank, in der Tausende echter Proben aus aller Welt gespeichert sind. Ein einziges Bit verrät zwar nichts, doch Millionen davon ergeben ein klares Bild. Weicht das Muster einer Probe deutlich ab, schlägt das System Alarm.\n\nEin solcher Alarm stand am Anfang eines Falls, der inzwischen aufgeklärt ist. Ein Händler hatte Honig an eine Kette von Bäckereien geliefert, den er als reinen Honig aus Europa verkaufte. Das Labor fand in mehreren Proben fremden Zucker. Belgische und deutsche Ermittler arbeiteten danach eng zusammen, denn ein Teil der Ware war über eine belgische Firma gehandelt worden. Nach einem Jahr war der Fall aufgeklärt: Der Händler hatte den Honig bewusst mit Sirup gemischt.\n\nVor Gericht ging es vor allem um Geld. Die Bäckereien verlangten eine Entschädigung, weil sie viele Produkte aus dem Handel nehmen mussten. Der Händler wehrte sich. Im Frühjahr gab das Oberlandesgericht den Bäckereien recht. Nach dem Urteil des Oberlandesgerichts muss der Händler eine Entschädigung von 300.000 Euro zahlen.\n\nJana Lindner rät Kunden nicht zur Panik. Der meiste Honig im Handel ist echt. Wer sicher sein will, kauft am besten bei einem Imker in der Nähe. Und wer im Supermarkt ein Glas findet, das verdächtig wenig kostet, sollte an die Überschrift der Zeitung denken.\n\nFragen:\nUnter welcher Überschrift berichtete die Zeitung über das Labor?\nDie Überschrift lautete: „Wenn Honig zu billig ist, ist er oft kein Honig.“\nWie wird Honig meistens gefälscht?\nEchter Honig wird mit billigem Sirup aus Reis oder Mais gestreckt.\nWer steht hinter großen Fällen?\nOft stehen kriminelle Gruppierungen dahinter, die in mehreren Ländern arbeiten.\nWas tut das Programm mit den Messdaten?\nEs vergleicht jedes Bit der Messdaten mit einer Datenbank echter Proben.\nWarum arbeiteten belgische und deutsche Ermittler zusammen?\nEin Teil der Ware war über eine belgische Firma gehandelt worden.\nWie entschied das Oberlandesgericht?\nEs gab den Bäckereien recht; der Händler muss eine Entschädigung zahlen."
+    },
+    {
+      "title": "Wie viel Staat gehört in den Kochtopf?",
+      "summary": "A column that weighs two views on whether the state should push food makers to use less salt and sugar.",
+      "newWords": [
+        "strukturell",
+        "Premier",
+        "Kabinett",
+        "Aufsichtsrat",
+        "Meinungsfreiheit",
+        "Petition",
+        "Steuerzahler",
+        "Sozialversicherung",
+        "stationär",
+        "Entlassung",
+        "Therapeut"
+      ],
+      "text": "Was auf meinen Teller kommt, entscheide ich selbst. So denken viele Menschen, und ich verstehe sie gut. Trotzdem wird die Frage immer lauter, ob der Staat beim Essen mitreden soll, etwa beim Salz im Brot oder beim Zucker in Getränken. Es lohnt sich, beide Seiten anzuhören.\n\nDie eine Seite sagt: Ernährung ist Privatsache. Jeder Erwachsene kennt die Regeln, und niemand braucht einen Staat, der ihm den Salzstreuer aus der Hand nimmt. Auch die Hersteller sehen das so. Der Aufsichtsrat eines großen Konzerns muss auf den Gewinn achten, und ein Produkt, das weniger gut schmeckt, verkauft sich schlechter. Kaum ein Aufsichtsrat wird deshalb freiwillig weniger Salz verlangen. Manche Kritiker gehen noch weiter: Wer Werbung für süße Produkte verbieten will, greife in die Meinungsfreiheit der Firmen ein. Ob die Meinungsfreiheit wirklich auch Werbung schützt, die sich an Kinder richtet, darüber streiten die Juristen.\n\nDie andere Seite argumentiert strukturell. Sie sagt: Der größte Teil des Salzes, das wir essen, steckt in Brot, Käse und fertigen Gerichten. Wer gesund leben will, kann also noch so vernünftig sein, die Menge bestimmen andere. Das Problem ist deshalb strukturell und nicht nur eine Frage des Willens. Als Beispiel nennt man oft das Vereinigte Königreich. Dort vereinbarte der Staat ab 2003 mit der Industrie Schritt für Schritt Ziele für weniger Salz. Später beschloss das Kabinett unter dem damaligen Premier eine Abgabe auf stark gesüßte Getränke. Viele Hersteller senkten daraufhin den Zucker, um die Abgabe zu vermeiden. Der Premier und sein Kabinett wurden dafür kritisiert, aber auch gelobt.\n\nHinzu kommt das Geld. Wer zu viel Salz isst, hat ein höheres Risiko für einen Schlaganfall. Die Behandlung ist teuer. Nach einem Schlaganfall bleibt ein Patient oft wochenlang in stationärer Behandlung. Nach der Entlassung aus dem Krankenhaus beginnt meist eine lange Zeit mit einem Therapeuten, der hilft, Sprache und Bewegung neu zu lernen. Auch nach der Entlassung kostet jede Stunde beim Therapeuten Geld. Diese Kosten tragen nicht nur die Kranken. Sie tragen die Beitragszahler der Sozialversicherung und am Ende auch die Steuerzahler. Die Sozialversicherung beruht auf dem Gedanken, dass alle gemeinsam für die Risiken einstehen. Deshalb, so die zweite Seite, haben auch alle ein Interesse daran, dass die stationäre Behandlung möglichst selten nötig wird.\n\nIn Deutschland setzt man bisher vor allem auf freiwillige Vereinbarungen mit der Industrie. Vor einiger Zeit forderte eine Petition, die Tausende Bürger unterschrieben, eine klare Kennzeichnung von Salz und Zucker auf jeder Verpackung. Eine solche Petition zeigt, dass viele Bürger nicht bevormundet, aber informiert werden wollen.\n\nMein eigenes Urteil liegt in der Mitte. Verbote halte ich selten für klug. Doch klare Informationen und kleine, gemeinsame Schritte der Industrie nehmen niemandem die Freiheit. Sie helfen den Kranken, den Steuerzahlern und letztlich uns allen.\n\nFragen:\nWarum sind viele Hersteller gegen weniger Salz und Zucker?\nDer Aufsichtsrat muss auf den Gewinn achten, und ein Produkt, das weniger gut schmeckt, verkauft sich schlechter.\nWarum ist das Problem laut der zweiten Seite strukturell?\nDer größte Teil des Salzes steckt in Brot, Käse und fertigen Gerichten, und die Menge bestimmen andere.\nWas beschloss das britische Kabinett?\nEs beschloss eine Abgabe auf stark gesüßte Getränke.\nWas geschieht oft nach der Entlassung aus dem Krankenhaus?\nEs beginnt eine lange Zeit mit einem Therapeuten.\nWer trägt die Kosten der Behandlung?\nDie Beitragszahler der Sozialversicherung und am Ende auch die Steuerzahler tragen sie.\nWas forderte die Petition?\nSie forderte eine klare Kennzeichnung von Salz und Zucker auf jeder Verpackung."
+    }
+  ]
+}
