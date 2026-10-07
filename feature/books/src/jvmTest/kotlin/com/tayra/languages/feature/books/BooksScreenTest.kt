@@ -28,6 +28,11 @@ import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
 import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onAllNodesWithContentDescription
+import kotlin.test.assertTrue
+import androidx.compose.ui.test.hasScrollToIndexAction
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.performScrollToNode
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
@@ -104,58 +109,63 @@ class BooksScreenTest {
         waitForIdle()
         System.getenv("BOOKS_SCREENSHOT")?.let { save(it) }
 
-        assertEquals(0, onAllNodesWithText("Page ", substring = true).fetchSemanticsNodes().size, "the list shows no page numbers")
-        onNodeWithText("60%").assertExists()
+        // Only the card of the book being read gives its page; the list does not.
+        onNodeWithText("Page 3 of 5 · 60% read").assertExists()
+        assertEquals(1, onAllNodesWithText("Page ", substring = true).fetchSemanticsNodes().size)
+        onNodeWithText("Continue reading").assertExists()
+        assertTrue(onAllNodesWithText("60%").fetchSemanticsNodes().size >= 2)
         onNodeWithText("1,223 words").assertExists()
-        onNodeWithText("In progress").assertExists()
-        assertEquals(4, onAllNodesWithText("Finished").fetchSemanticsNodes().size)
-        onNodeWithText("Currently reading").assertExists()
-        onNodeWithText("349").assertExists()
-        onNodeWithText("6 books").assertExists()
+        // The tab, and the badge of the one book in progress.
+        assertEquals(2, onAllNodesWithText("In progress").fetchSemanticsNodes().size)
+        assertEquals(5, onAllNodesWithText("Finished").fetchSemanticsNodes().size)
+        onNode(hasScrollToIndexAction()).performScrollToNode(hasText("6 books  ·  349 words learned"))
+        onNodeWithText("6 books  ·  349 words learned").assertExists()
         onNodeWithText("Not opened yet").assertExists()
     }
 
     @Test
-    fun theProgressFilterKeepsOnlyMatchingBooks() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun theProgressTabsKeepOnlyMatchingBooks() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        onNodeWithText("All progress").performClick()
-        onNodeWithText("Not started").performClick()
+        onNodeWithTag("progress-NOT_STARTED").performClick()
         waitForIdle()
         onNodeWithText("1 book").assertExists()
         onNodeWithText("Not opened").assertExists()
-        assertEquals(0, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
+        // Only in the card of the book being read, not in the list.
+        assertEquals(1, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
     }
 
     @Test
-    fun tickedBooksGoToTheBulkActionsInTheTableHeader() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun selectingBooksOffersTheBulkActions() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
+        assertEquals(0, onAllNodesWithContentDescription("Select Long text").fetchSemanticsNodes().size, "no checkboxes until Select")
+        onNodeWithTag("select-books").performClick()
         onNodeWithContentDescription("Select Long text").performClick()
         onNodeWithContentDescription("Select Demo").performClick()
         onNodeWithText("2 of 6 selected").assertExists()
         System.getenv("BOOKS_SELECTED_SCREENSHOT")?.let { save(it) }
-        onNodeWithContentDescription("Selected books actions").performClick()
-        onNodeWithText("Archive 2 selected").performClick()
+        onNodeWithText("Archive").performClick()
         waitForIdle()
         assertEquals(listOf("Long text", "Demo"), bulk["archive"])
 
         onNodeWithContentDescription("Select all books").performClick()
         onNodeWithText("6 of 6 selected").assertExists()
-        onNodeWithContentDescription("Select all books").performClick()
-        onNodeWithText("6 books").assertExists()
+        onNodeWithTag("done-selecting").performClick()
+        assertEquals(0, onAllNodesWithContentDescription("Select Long text").fetchSemanticsNodes().size)
     }
 
     @Test
-    fun cardsShowTheBulkActionsOnceABookIsTicked() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun cardsCanBeSelectedToo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
         onNodeWithContentDescription("grid view").performClick()
-        assertEquals(0, onAllNodesWithText("1 selected").fetchSemanticsNodes().size)
+        System.getenv("BOOKS_GRID_SCREENSHOT")?.let { save(it) }
+        onNodeWithTag("select-books").performClick()
         onNodeWithContentDescription("Select Short Demo").performClick()
-        onNodeWithText("1 selected").assertExists()
+        onNodeWithText("1 of 6 selected").assertExists()
         onNodeWithText("Delete").performClick()
         waitForIdle()
         assertEquals(listOf("Short Demo"), bulk["delete"])
-        onNodeWithContentDescription("Clear selection").performClick()
-        assertEquals(0, onAllNodesWithText("1 selected").fetchSemanticsNodes().size)
+        onNodeWithTag("done-selecting").performClick()
+        assertEquals(0, onAllNodesWithText("1 of 6 selected").fetchSemanticsNodes().size)
     }
 
     @Test
@@ -180,14 +190,15 @@ class BooksScreenTest {
         onNodeWithTag("tag-travel").performClick()
         onNodeWithTag("apply-tags").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("3 books").fetchSemanticsNodes().isNotEmpty() }
-        for (title in listOf("Long text", "Um sábado tranquilo", "A Maldição")) onNodeWithText(title).assertExists()
+        for (title in listOf("Long text", "Um sábado tranquilo", "A Maldição")) assertTrue(onAllNodesWithText(title).fetchSemanticsNodes().isNotEmpty(), title)
         assertEquals(0, onAllNodesWithText("Demo").fetchSemanticsNodes().size)
 
         onNodeWithTag("tag-filter").performClick()
         onNodeWithTag("match-all").performClick()
         onNodeWithTag("apply-tags").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 book").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Long text").assertExists()
+        // In the card of the book being read, and in the list.
+        assertEquals(2, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
     }
 
 }

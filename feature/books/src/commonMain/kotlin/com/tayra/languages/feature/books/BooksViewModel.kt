@@ -30,7 +30,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlin.time.Instant
 
-enum class BookSort(val label: String) { RECENT("Recently read"), TITLE("Title"), MASTERY("Vocabulary known") }
+enum class BookSort(val label: String) { RECENT("Recently opened"), TITLE("Title"), MASTERY("Vocabulary known") }
 
 enum class ReadingStatus { NOT_STARTED, READING, FINISHED }
 
@@ -85,21 +85,34 @@ data class BooksUiState(
     /** Ticked books; only those still listed count, so a filter never hides a selected book from a bulk action. */
     val selected: Set<Long> = emptySet(),
 ) {
-    val filteredBooks: List<BookListItem>
+    /** The books matching the search and the tags, whatever their progress. */
+    private val searched: List<BookListItem>
         get() {
             val wanted = tags.map { it.lowercase() }
-            val matching = books.filter { book ->
+            return books.filter { book ->
                 val own = book.tags.map { it.lowercase() }
                 (search.isBlank() || book.title.contains(search, ignoreCase = true) || book.tags.any { it.contains(search, ignoreCase = true) }) &&
-                    (progress.status == null || book.readingStatus == progress.status) &&
                     (wanted.isEmpty() || if (matchAllTags) own.containsAll(wanted) else wanted.any { it in own })
             }
+        }
+
+    /** How many of the searched books each progress tab holds. */
+    val counts: Map<ProgressFilter, Int>
+        get() = searched.let { list -> ProgressFilter.entries.associateWith { filter -> list.count { filter.status == null || it.readingStatus == filter.status } } }
+
+    val filteredBooks: List<BookListItem>
+        get() {
+            val matching = searched.filter { progress.status == null || it.readingStatus == progress.status }
             return when (sort) {
                 BookSort.RECENT -> matching.sortedWith(compareByDescending<BookListItem> { it.lastOpened ?: Instant.DISTANT_PAST }.thenBy { it.title.lowercase() })
                 BookSort.TITLE -> matching.sortedBy { it.title.lowercase() }
                 BookSort.MASTERY -> matching.sortedWith(compareByDescending<BookListItem> { it.masteryPercent ?: -1 }.thenBy { it.title.lowercase() })
             }
         }
+
+    /** The book being read most recently, to go on with. */
+    val continueWith: BookListItem?
+        get() = books.filter { it.readingStatus == ReadingStatus.READING }.maxByOrNull { it.lastOpened ?: Instant.DISTANT_PAST }
 
     val currentlyReading: Int get() = books.count { it.readingStatus == ReadingStatus.READING }
 

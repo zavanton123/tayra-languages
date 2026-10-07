@@ -68,8 +68,8 @@ private val menuGroups = listOf(
     MenuGroup(
         NavSection.SETTINGS,
         listOfNotNull(
-            MenuEntry("Languages", Route.Languages),
             MenuEntry("Settings", Route.Settings),
+            MenuEntry("Languages", Route.Languages),
             MenuEntry("Translation", Route.OfflineTranslation),
             MenuEntry("Dictionaries", Route.OfflineDictionaries),
             MenuEntry("Courses", Route.CoursePacks),
