@@ -380,20 +380,25 @@ private fun StatusTabs(counts: Map<LessonStatus?, Int>, selected: LessonStatus?,
 @Composable
 private fun ViewToggle(selected: CoursesView, onSelect: (CoursesView) -> Unit, iconsOnly: Boolean) {
     val colors = MaterialTheme.colorScheme
-    Row(Modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp))) {
+    // The chosen segment is a tinted pill inside the outline, so the two never overlap.
+    Row(
+        Modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).background(colors.surface)
+            .border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(4.dp),
+        horizontalArrangement = Arrangement.spacedBy(4.dp),
+    ) {
         listOf(Triple(CoursesView.GRID, AppIcons.GridView, tr("Grid")), Triple(CoursesView.LIST, AppIcons.ViewList, tr("List"))).forEach { (view, icon, label) ->
             val active = view == selected
             Row(
-                Modifier.fillMaxHeight().clip(RoundedCornerShape(10.dp))
-                    .then(if (active) Modifier.background(colors.primary.copy(alpha = 0.08f)).border(1.dp, colors.primary.copy(alpha = 0.6f), RoundedCornerShape(10.dp)) else Modifier)
+                Modifier.fillMaxHeight().clip(RoundedCornerShape(7.dp))
+                    .background(if (active) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
                     .clickable { onSelect(view) }
-                    .padding(horizontal = if (iconsOnly) 12.dp else 18.dp)
+                    .padding(horizontal = if (iconsOnly) 10.dp else 14.dp)
                     .testTag("view-${view.name}"),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(10.dp),
             ) {
                 Icon(icon, contentDescription = if (iconsOnly) label else null, tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
-                if (!iconsOnly) Text(label, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, color = if (active) colors.primary else colors.onSurface)
+                if (!iconsOnly) Text(label, style = MaterialTheme.typography.bodyLarge, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium, color = if (active) colors.primary else colors.onSurfaceVariant)
             }
         }
     }
