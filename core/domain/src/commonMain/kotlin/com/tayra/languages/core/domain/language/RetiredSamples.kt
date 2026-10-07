@@ -43,6 +43,8 @@ internal object RetiredSamples {
         Sample("Swedish", "De tre bockarna Bruse", -5768287107619487306L),
         Sample("Turkish", "Büyük ağaç", -3343722210367337287L),
         Sample("Ukrainian", "Скринька Пандори", -4942310667660850701L),
+        // Before the samples' texts were edited, books held the original wording.
+        Sample("English", "Tutorial", 8364616674078216723L),
     )
 
     /** The fingerprint [Sample.opening] of a text: a 64-bit FNV-1a hash of its first 60 letters and digits. */
