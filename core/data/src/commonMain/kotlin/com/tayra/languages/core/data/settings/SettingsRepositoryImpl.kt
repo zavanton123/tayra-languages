@@ -94,6 +94,7 @@ class SettingsRepositoryImpl(
             nativeLanguage = LanguageCatalog.nativeOption(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
             ).code,
+            uiLanguage = LanguageCatalog.interfaceOption(store.getString(Keys.UI_LANGUAGE, defaults.uiLanguage)).code,
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
             translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
             googleTranslateApiKey = googleTranslateApiKey,
@@ -185,6 +186,7 @@ class SettingsRepositoryImpl(
         store.putFloat(Keys.SPEECH_SPEED, s.speechSpeed)
         store.putBoolean(Keys.DEMO_DATA, s.demoDataLoaded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
+        store.putString(Keys.UI_LANGUAGE, s.uiLanguage)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
         store.putString(Keys.ARGOS_PYTHON, s.argosPython)
@@ -239,6 +241,7 @@ class SettingsRepositoryImpl(
         const val DEMO_DATA = "is_demo_data"
         const val NATIVE_LANGUAGE = "native_language"
         const val LEGACY_TRANSLATION_TARGET = "translation_target_language"
+        const val UI_LANGUAGE = "ui_language"
         const val TRANSLATION_EMAIL = "translation_contact_email"
         const val FLASHCARD_NEW_PER_DAY = "flashcard_new_per_day"
         const val FLASHCARD_REVIEWS_PER_DAY = "flashcard_reviews_per_day"

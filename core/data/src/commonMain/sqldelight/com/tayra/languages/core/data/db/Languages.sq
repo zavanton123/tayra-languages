@@ -65,10 +65,3 @@ SELECT last_insert_rowid();
 
 countLanguages:
 SELECT count(*) FROM languages;
-
-summaries:
-SELECT l.id, l.name,
-    (SELECT count(*) FROM books b WHERE b.language_id = l.id) AS book_count,
-    (SELECT count(*) FROM terms t WHERE t.language_id = l.id AND t.status != 0) AS term_count
-FROM languages l
-ORDER BY l.name;

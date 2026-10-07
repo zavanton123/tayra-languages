@@ -17,9 +17,16 @@ object LanguageCatalog {
         LanguageOption("pt", "Portuguese"), LanguageOption("ru", "Russian"), LanguageOption("es", "Spanish"),
     )
 
+    /** Languages the interface can be shown in. */
+    val interfaceLanguages: List<LanguageOption> = nativeLanguages
+
     fun isTarget(name: String): Boolean = targetLanguages.any { it.equals(name.trim(), ignoreCase = true) }
 
     /** The native language for a stored code, falling back to the first entry for unknown codes. */
     fun nativeOption(code: String): LanguageOption =
         nativeLanguages.firstOrNull { it.code == code.trim().lowercase() } ?: nativeLanguages.first()
+
+    /** The interface language for a stored code, falling back to the first entry for unknown codes. */
+    fun interfaceOption(code: String): LanguageOption =
+        interfaceLanguages.firstOrNull { it.code == code.trim().lowercase() } ?: interfaceLanguages.first()
 }

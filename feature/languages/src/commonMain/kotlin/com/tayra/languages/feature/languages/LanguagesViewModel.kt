@@ -2,21 +2,16 @@ package com.tayra.languages.feature.languages
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.tayra.languages.core.domain.model.LanguageSummary
-import com.tayra.languages.core.domain.repository.LanguageRepository
-import kotlinx.coroutines.flow.SharingStarted
+import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.domain.settings.UserSettings
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 
-data class LanguagesUiState(
-    val loading: Boolean = true,
-    val languages: List<LanguageSummary> = emptyList(),
-)
+/** The native and interface languages; the language being learned is chosen as in the top bar, through `LocalLearningLanguage`. */
+class LanguagesViewModel(private val settings: SettingsRepository) : ViewModel() {
+    val state: StateFlow<UserSettings> = settings.settings
 
-class LanguagesViewModel(languages: LanguageRepository) : ViewModel() {
+    fun setNativeLanguage(code: String) = viewModelScope.launch { settings.update { it.copy(nativeLanguage = code) } }
 
-    val state: StateFlow<LanguagesUiState> = languages.observeSummaries()
-        .map { LanguagesUiState(loading = false, languages = it) }
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), LanguagesUiState())
+    fun setInterfaceLanguage(code: String) = viewModelScope.launch { settings.update { it.copy(uiLanguage = code) } }
 }

@@ -66,10 +66,3 @@ data class Language(
         const val DEFAULT_PARSER_TYPE = "spacedel"
     }
 }
-
-data class LanguageSummary(
-    val id: Long,
-    val name: String,
-    val bookCount: Int,
-    val termCount: Int,
-)

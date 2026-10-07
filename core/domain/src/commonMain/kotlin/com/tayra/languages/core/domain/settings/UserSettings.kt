@@ -39,6 +39,8 @@ data class UserSettings(
     val demoDataLoaded: Boolean = false,
     /** ISO 639-1 code of the user's native language; translations and example sentences are shown in it. */
     val nativeLanguage: String = "en",
+    /** ISO 639-1 code of the language the interface is shown in; so far the interface exists only in English. */
+    val uiLanguage: String = "en",
     /** Optional contact email sent to MyMemory, which raises its daily quota. */
     val translationContactEmail: String = "",
     /** Service used for sentence translations. */

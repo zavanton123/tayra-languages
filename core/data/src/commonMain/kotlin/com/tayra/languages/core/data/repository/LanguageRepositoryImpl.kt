@@ -10,7 +10,6 @@ import com.tayra.languages.core.data.db.Languages
 import com.tayra.languages.core.data.db.TayraDatabase
 import com.tayra.languages.core.data.db.databaseDispatcher
 import com.tayra.languages.core.domain.model.Language
-import com.tayra.languages.core.domain.model.LanguageSummary
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -24,13 +23,6 @@ class LanguageRepositoryImpl(private val provider: DatabaseProvider) : LanguageR
         val database = db()
         database.languagesQueries.selectAll().asFlow().mapToList(databaseDispatcher).collect { rows ->
             emit(withDictionaries(database, rows))
-        }
-    }
-
-    override fun observeSummaries(): Flow<List<LanguageSummary>> = flow {
-        val database = db()
-        database.languagesQueries.summaries().asFlow().mapToList(databaseDispatcher).collect { rows ->
-            emit(rows.map { LanguageSummary(it.id, it.name, it.book_count.toInt(), it.term_count.toInt()) })
         }
     }
 
