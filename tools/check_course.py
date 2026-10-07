@@ -95,6 +95,7 @@ def tokens(text, code=None, ranks=None):
     return out
 
 
+ORDINAL_ENDINGS = {"e", "er", "re", "ère", "es", "ers", "res", "ème", "èmes", "nd", "nde", "nds", "ndes"}
 FRENCH_WORD = re.compile(r"[^\W\d_]+(?:['’-][^\W\d_]+)*", re.UNICODE)
 
 
@@ -107,14 +108,20 @@ def french_tokens(text, ranks):
     out = []
     for match in FRENCH_WORD.finditer(text):
         word = match.group(0).replace("’", "'")
+        # The ending of an ordinal (20e, 1er, 2nde) belongs to its number, which is not counted.
+        if match.start() > 0 and text[match.start() - 1].isdigit() and word.lower() in ORDINAL_ENDINGS:
+            continue
         if word.lower() in ranks:
             out.append(word)
             continue
         for part in word.split("-"):
-            if part.lower() in ranks:
-                out.append(part)
-            else:
-                out.extend(piece for piece in part.split("'") if piece)
+            # Elided words come off the front one at a time, so d'aujourd'hui is d + aujourd'hui.
+            while part and part.lower() not in ranks and "'" in part:
+                elided, _, part = part.partition("'")
+                if elided:
+                    out.append(elided)
+            if part:
+                out.extend([part] if part.lower() in ranks else [piece for piece in part.split("'") if piece])
     return out
 
 
