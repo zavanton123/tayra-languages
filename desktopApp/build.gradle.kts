@@ -19,23 +19,47 @@ val desktopVersion = providers.gradleProperty("releaseVersion")
     .map { if (Regex("[1-9]\\d*\\.\\d+\\.\\d+").matches(it)) it else "1.0.0" }
     .orElse("1.0.0")
 
+// Windows installers take MAJOR.MINOR.BUILD from 0.0.0 up, so they keep the real version and each release upgrades the last.
+val windowsVersion = providers.gradleProperty("releaseVersion")
+    .map { if (Regex("\\d+\\.\\d+\\.\\d+").matches(it)) it else "1.0.0" }
+    .orElse("1.0.0")
+
+// -Xdock is a macOS launcher option; the JVM on other systems refuses to start with it.
+val isMacHost = System.getProperty("os.name").lowercase().contains("mac")
+val dockNameArgs = if (isMacHost) listOf("-Xdock:name=Tayra Languages", "-Dtayra.dockNamed=true") else emptyList()
+
 // Android Studio injects Compose Hot Reload's `hotRun` task; give that JVM the Dock name too.
 tasks.matching { it.name == "hotRun" }.configureEach {
-    (this as? JavaExec)?.jvmArgs("-Xdock:name=Tayra Languages", "-Dtayra.dockNamed=true")
+    (this as? JavaExec)?.jvmArgs(dockNameArgs)
 }
 
 compose.desktop {
     application {
         mainClass = "com.tayra.languages.desktop.MainKt"
         // Names the process in the macOS Dock during development runs; packaged apps use the bundle name.
-        jvmArgs += listOf("-Xdock:name=Tayra Languages", "-Dtayra.dockNamed=true")
+        jvmArgs += dockNameArgs
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "TayraLanguages"
             packageVersion = desktopVersion.get()
+            // The bundled runtime only has the JDK modules listed here; without java.sql the database cannot open.
+            // `./gradlew :desktopApp:suggestRuntimeModules` lists what the dependencies need.
+            modules("java.instrument", "java.management", "java.net.http", "java.prefs", "java.sql", "jdk.security.auth", "jdk.unsupported")
+            vendor = "Tayra Languages"
+            description = "Read foreign-language texts and learn their words"
             macOS { iconFile.set(project.file("icons/TayraLanguages.icns")) }
-            windows { iconFile.set(project.file("icons/TayraLanguages.ico")) }
+            windows {
+                iconFile.set(project.file("icons/TayraLanguages.ico"))
+                msiPackageVersion = windowsVersion.get()
+                // Kept for good: Windows replaces an installed version only when the new MSI has the same upgrade code.
+                upgradeUuid = "f8e8f40e-d1ad-4d01-ae94-eb98d11cfe66"
+                perUserInstall = true
+                menu = true
+                menuGroup = "Tayra Languages"
+                shortcut = true
+                dirChooser = true
+            }
             linux { iconFile.set(project.file("icons/TayraLanguages.png")) }
         }
     }

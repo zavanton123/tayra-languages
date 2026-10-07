@@ -15,9 +15,11 @@ permissions:
 env:
   RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
 
+# Course-pack releases (courses-v1, ...) only carry data files, so the apps are built for app tags alone.
 jobs:
   android:
     name: Android APK
+    if: ${{ !startsWith(github.event.release.tag_name || inputs.tag, 'courses-') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -52,6 +54,7 @@ jobs:
 
   macos:
     name: macOS DMG
+    if: ${{ !startsWith(github.event.release.tag_name || inputs.tag, 'courses-') }}
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
@@ -71,3 +74,29 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release upload "$RELEASE_TAG" TayraLanguages-*.dmg --clobber
+
+  windows:
+    name: Windows MSI
+    if: ${{ !startsWith(github.event.release.tag_name || inputs.tag, 'courses-') }}
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name || inputs.tag }}
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Build MSI
+        run: |
+          VERSION="${RELEASE_TAG#v}"
+          ./gradlew --no-daemon :desktopApp:packageMsi -PreleaseVersion="$VERSION"
+          cp desktopApp/build/compose/binaries/main/msi/*.msi "TayraLanguages-$VERSION-windows-x64.msi"
+      - name: Attach MSI to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "$RELEASE_TAG" TayraLanguages-*.msi --clobber
