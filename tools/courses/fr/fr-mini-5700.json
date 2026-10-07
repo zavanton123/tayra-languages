@@ -1,0 +1,210 @@
+{
+  "id": "fr-mini-5700",
+  "rankUpTo": 5700,
+  "level": "C1",
+  "title": "Transports et mobilité",
+  "description": "Ten texts on getting around in the French-speaking world, from Montpellier's tramway and Pau's hydrogen buses to a night train, carpooling, Abidjan's minibuses and the old Paris metro.",
+  "topic": "Transport and mobility",
+  "names": [
+    "Montpellier",
+    "Paillade",
+    "Peyrou",
+    "Nathalie",
+    "Favre",
+    "Lausanne",
+    "Rochat",
+    "Paris",
+    "Nice",
+    "Azur",
+    "Austerlitz",
+    "Raphaël",
+    "Cannes",
+    "Martine",
+    "Gagnon",
+    "Sherbrooke",
+    "Estrie",
+    "Québec",
+    "Pau",
+    "Pyrénées",
+    "Belgique",
+    "Binche",
+    "Hainaut",
+    "Karim",
+    "Benali",
+    "Liège",
+    "Thomas",
+    "Abidjan",
+    "Ivoire",
+    "Neuchâtel",
+    "Genève",
+    "Hector",
+    "Guimard",
+    "Seine",
+    "France",
+    "Lérins"
+  ],
+  "lessons": [
+    {
+      "title": "Le tramway de Montpellier",
+      "summary": "A columnist in Montpellier praises the city's elegant tramway, with some reservations.",
+      "newWords": [
+        "tramway",
+        "historiquement",
+        "abolir",
+        "nostalgie",
+        "affichage",
+        "élégance",
+        "éloge",
+        "méridional",
+        "fonctionnalité",
+        "couronné"
+      ],
+      "text": "À Montpellier, on ne prend pas seulement le tramway : on le regarde passer. Les rames de la première ligne sont bleues et décorées d'hirondelles blanches ; celles de la deuxième sont couvertes de grandes fleurs de couleur. Pour un moyen de transport, c'est d'une élégance rare. Cette élégance n'est pas un hasard. La ville a voulu un tramway beau, parce qu'on utilise plus volontiers un objet que l'on aime.\n\nHistoriquement, pourtant, Montpellier avait tourné le dos au tramway. Comme beaucoup de villes françaises, elle avait retiré ses anciennes lignes à la fin des années 1940, à l'époque où la voiture semblait promettre la liberté. Historiquement, le retour date de l'été 2000, avec l'ouverture de la première ligne moderne. Le pari a été couronné de succès : d'autres lignes ont suivi, et les rames sont pleines du matin au soir.\n\nLe tramway n'abolit pas les distances, bien sûr. Il abolit pourtant quelque chose de plus discret : la frontière entre les quartiers. Un lycéen de la Paillade, à l'ouest de la ville, rejoint le centre en une vingtaine de minutes, sans dépendre de personne. Depuis la fin de 2023, la métropole est allée plus loin encore : elle a aboli le paiement du ticket pour ses habitants, qui voyagent gratuitement avec une simple carte.\n\nSur les quais, les écrans d'affichage annoncent la prochaine rame à la minute près. Cet affichage paraît banal ; il change pourtant la façon d'attendre, car on sait combien de temps il reste. L'application des transports donne les mêmes informations et offre d'autres fonctionnalités : acheter un billet pour un visiteur, suivre les travaux, préparer un trajet. Ma fonctionnalité préférée reste la plus simple : savoir si je dois courir ou si j'ai le temps de marcher.\n\nLes plus âgés parlent parfois avec nostalgie de l'ancien tram, qui faisait un bruit terrible dans les rues étroites du centre. Je comprends cette nostalgie, mais elle a ses limites : l'ancien tram était lent et ne passait que dans quelques quartiers. Le nouveau a été pensé pour une ville méridionale, où le soleil tape fort de juin à septembre. Les rames sont climatisées, beaucoup de stations sont protégées par des arbres, et la lumière méridionale fait briller les couleurs des voitures quand elles montent vers la vieille ville, couronnée par la promenade du Peyrou.\n\nFaut-il pour autant faire l'éloge du tramway sans aucune réserve ? Cet éloge doit être nuancé. Aux heures de pointe, on voyage serré comme dans une boîte, et les travaux de chaque nouvelle ligne ont duré des années et fâché bien des commerçants. Mais quand je vois une rame bleue glisser au soleil, je me dis que l'éloge est mérité. Un transport en commun peut être utile et beau à la fois.\n\nQuestions :\nComment sont décorées les rames de la première ligne ?\nElles sont bleues et décorées d'hirondelles blanches.\nQuand le tramway moderne est-il revenu à Montpellier ?\nIl est revenu à l'été 2000, avec l'ouverture de la première ligne moderne.\nSelon l'auteur, qu'est-ce que le tramway abolit ?\nIl n'abolit pas les distances, mais il abolit la frontière entre les quartiers.\nÀ quoi servent les écrans d'affichage sur les quais ?\nIls annoncent la prochaine rame à la minute près.\nPourquoi l'éloge du tramway doit-il être nuancé ?\nParce qu'on voyage serré aux heures de pointe et que les travaux ont duré des années."
+    },
+    {
+      "title": "La généraliste qui va travailler à vélo",
+      "summary": "A general practitioner in Lausanne cycles to work, recommends it to her patients and explains how to ride safely.",
+      "newWords": [
+        "généraliste",
+        "préconiser",
+        "bénéfique",
+        "bienfait",
+        "freiner",
+        "caillou",
+        "traumatisme",
+        "serein",
+        "pâle",
+        "sourcil"
+      ],
+      "text": "Nathalie Favre est médecin généraliste dans un quartier du haut de Lausanne. Chaque matin, elle descend à son cabinet à vélo, son sac de médecin attaché derrière la selle. Dans une ville construite sur une pente aussi raide, ce choix peut surprendre. Pour elle, il est pourtant logique : « Je ne peux pas préconiser quelque chose à mes patients et ne pas le faire moi-même. »\n\nCe qu'elle préconise, c'est l'activité physique de tous les jours, celle qu'on n'a pas besoin de programmer. Les bienfaits en sont connus : le cœur travaille mieux, la tension baisse, le sommeil devient plus profond. Le vélo a un bienfait de plus, selon la généraliste : il remplace un trajet qu'on ferait de toute façon. « Une heure de sport par semaine, on finit par l'oublier, explique-t-elle. Mais 20 minutes de vélo pour aller au travail, on les fait chaque jour. »\n\nParmi ses patients, il y a monsieur Rochat, un comptable de 52 ans. Quand il est venu la voir, l'hiver dernier, il était pâle, fatigué, et il dormait mal. Il passait plus d'une heure par jour dans sa voiture, coincé dans les bouchons. La généraliste lui a préconisé un vélo électrique, adapté aux montées de Lausanne. Au début, il a ri. Puis il a essayé. 6 mois plus tard, il n'est plus pâle du tout. Il arrive au bureau plus serein, dit-il, parce qu'il ne dépend plus des bouchons. Ce nouveau trajet lui est bénéfique pour le corps, mais aussi pour l'humeur.\n\nLa généraliste ne cache pas les risques. Le vélo en ville demande de l'attention, surtout dans les descentes. Il y a 2 ans, elle a elle-même fait une chute : sa roue avant a glissé sur un caillou, au milieu d'un virage. Un simple caillou, pas plus gros qu'une noix, et elle s'est retrouvée par terre. Elle en garde une petite marque au-dessus du sourcil gauche. « Sans mon casque, dit-elle en touchant son sourcil, j'aurais pu avoir un traumatisme crânien. » Depuis, elle répète à ses patients que le casque n'est pas une option. Un traumatisme à la tête peut laisser des traces pour toute une vie.\n\nElle leur donne aussi un conseil technique : apprendre à freiner. Dans une descente, il faut freiner avant le virage, et non au milieu, et utiliser les deux freins à la fois. Freiner trop fort avec la roue avant, c'est risquer de tomber en avant.\n\nPour la plupart des adultes, le bilan est clair, selon elle : les risques existent, et les bienfaits sont bien plus grands. Chaque matin, en descendant vers son cabinet, Nathalie Favre a l'esprit serein. Elle sait que son trajet lui est bénéfique, et elle aime l'idée de donner l'exemple.\n\nQuestions :\nQuel est le métier de Nathalie Favre ?\nElle est médecin généraliste à Lausanne.\nPourquoi va-t-elle au travail à vélo ?\nParce qu'elle ne peut pas préconiser à ses patients quelque chose qu'elle ne fait pas elle-même.\nDans quel état était monsieur Rochat l'hiver dernier ?\nIl était pâle, fatigué, et il dormait mal.\nComment la généraliste est-elle tombée ?\nSa roue avant a glissé sur un caillou au milieu d'un virage.\nQuel conseil donne-t-elle pour freiner dans une descente ?\nIl faut freiner avant le virage, et non au milieu, et utiliser les deux freins à la fois."
+    },
+    {
+      "title": "En train de nuit jusqu'à Nice",
+      "summary": "A traveller reviews the Paris–Nice night train, from booking and the sleeping compartment to breakfast by the sea.",
+      "newWords": [
+        "réservation",
+        "archipel",
+        "savon",
+        "emballage",
+        "aimable",
+        "propice",
+        "attarder",
+        "lasser",
+        "grillé",
+        "fraise",
+        "séjourner"
+      ],
+      "text": "Le train de nuit entre Paris et Nice est revenu en 2021, après quelques années d'absence. J'ai voulu l'essayer pour un court séjour sur la Côte d'Azur.\n\nLa réservation se fait en ligne, comme pour un train ordinaire. On choisit une place assise, une couchette dans un compartiment de quatre ou de six, ou un compartiment pour soi seul. J'ai fait ma réservation 3 semaines à l'avance : le prix d'une couchette était raisonnable, moins cher qu'une nuit d'hôtel.\n\nLe train quitte la gare d'Austerlitz vers 21 heures. Le contrôleur, très aimable, m'a conduit jusqu'à mon compartiment de quatre couchettes. Sur chaque couchette, on trouve un petit kit : des bouchons d'oreilles, une bouteille d'eau, un masque pour les yeux et un petit savon. Le savon est emballé dans du papier, mais le reste du kit est enfermé dans un emballage en plastique, ce qui m'a un peu déçu. Un emballage en carton serait plus cohérent.\n\nLe compartiment n'est pas grand, mais il est propice au sommeil : la lumière est douce, les rideaux sont épais, et le bruit régulier des roues finit par endormir. J'ai partagé le compartiment avec un couple de retraités, aimables eux aussi, qui font ce trajet chaque année. Avant de dormir, on peut s'attarder un moment dans le couloir, pour regarder les lumières des villages qui défilent. Je m'y suis attardé trop longtemps, et ma nuit a été courte. Le couloir, calme et sombre, est propice à la réflexion.\n\nLe réveil est le meilleur moment du voyage. Vers 7 heures, le train longe la mer entre Saint-Raphaël et Cannes. Le paysage est si beau qu'on ne s'en lasse pas : les rochers rouges, l'eau bleue, les premiers bateaux. Au large de Cannes, on aperçoit les îles de Lérins, un petit archipel où l'on peut aller en bateau. J'ai promis à mes voisins de compartiment de visiter cet archipel lors de mon prochain séjour. Le petit-déjeuner, en revanche, est modeste : un café, un jus d'orange, 2 tranches de pain grillé et un petit pot de confiture de fraise. Le pain grillé était un peu sec, mais la confiture de fraise était bonne.\n\nJe suis arrivé à Nice vers 9 heures, reposé, avec toute une journée devant moi. J'ai séjourné 3 jours dans la ville. Si vous comptez séjourner sur la Côte d'Azur, ce train vous évite une nuit d'hôtel et une longue journée de route. Mon bilan : un voyage lent mais agréable, un personnel aimable, un petit-déjeuner simple et une vue dont on ne se lasse pas.\n\nQuestions :\nComment fait-on la réservation ?\nOn la fait en ligne, comme pour un train ordinaire.\nQue trouve-t-on sur chaque couchette ?\nOn trouve des bouchons d'oreilles, une bouteille d'eau, un masque pour les yeux et un petit savon.\nPourquoi l'auteur a-t-il été un peu déçu par le kit ?\nParce qu'il était enfermé dans un emballage en plastique.\nPourquoi le compartiment est-il propice au sommeil ?\nParce que la lumière est douce, que les rideaux sont épais et que le bruit des roues finit par endormir.\nDe quoi se compose le petit-déjeuner ?\nD'un café, d'un jus d'orange, de 2 tranches de pain grillé et d'un pot de confiture de fraise.\nCombien de temps l'auteur a-t-il séjourné à Nice ?\nIl y a séjourné 3 jours.\nQu'aperçoit-on au large de Cannes ?\nOn aperçoit les îles de Lérins, un petit archipel."
+    },
+    {
+      "title": "Une monitrice de conduite à Sherbrooke",
+      "summary": "An interview with a driving instructor in Sherbrooke, Quebec, about anticipation, the theory exam, child seats and drunk driving.",
+      "newWords": [
+        "devancer",
+        "énoncé",
+        "explicite",
+        "fixation",
+        "ivre",
+        "égoïste",
+        "indigne",
+        "scandaleux",
+        "délinquant",
+        "adverse"
+      ],
+      "text": "Martine Gagnon enseigne la conduite automobile depuis 25 ans à Sherbrooke, dans l'Estrie, au Québec. Nous l'avons rencontrée entre 2 leçons.\n\n— Qu'est-ce qui a le plus changé en 25 ans ?\n\n— Les élèves sont plus distraits qu'avant. Le téléphone est devenu mon pire ennemi. Je le dis à chaque cours, de façon très explicite : pendant que vous conduisez, le téléphone reste dans le sac. Je préfère être explicite, parce qu'un message à moitié compris ne sert à rien.\n\n— Que leur apprenez-vous en premier ?\n\n— À devancer. Un bon conducteur ne se contente pas de réagir : il devance les gestes des autres. Le ballon qui roule dans la rue annonce un enfant ; la voiture qui ralentit devant vous va peut-être tourner. Devancer les erreurs des autres, c'est déjà la moitié de la sécurité.\n\n— Et l'examen théorique ?\n\n— Beaucoup d'élèves échouent parce qu'ils lisent trop vite. Je leur dis : lisez l'énoncé de chaque question 2 fois. Souvent, la réponse est dans l'énoncé lui-même, dans un petit mot comme « jamais » ou « toujours ». Un énoncé mal lu, c'est une erreur presque assurée.\n\n— Vous parlez aussi beaucoup des enfants en voiture.\n\n— Oui, parce que j'ai vu trop de sièges mal installés. Un siège pour enfant n'est sûr que si sa fixation est correcte. Je montre à mes élèves comment vérifier la fixation : on pousse le siège avec la main, et il ne doit pas bouger de plus de quelques centimètres.\n\n— Quelle faute vous met le plus en colère ?\n\n— Conduire ivre. C'est la plus grave, et c'est aussi la plus égoïste. Celui qui conduit ivre croit qu'il contrôle tout, alors qu'il met en danger des gens qui n'ont rien demandé. Pour moi, c'est un comportement indigne d'un adulte. Et je trouve scandaleux qu'on en rie encore dans certaines soirées, comme d'une petite faiblesse. Ce n'est pas une faiblesse : c'est un choix scandaleux, qui coûte des vies chaque année.\n\n— Les délinquants de la route sont-ils nombreux ?\n\n— Moins qu'on le croit. La plupart des accidents viennent de gens ordinaires, fatigués ou pressés, et non de délinquants. Mais un seul délinquant au volant suffit à briser une famille.\n\n— Et si l'accident arrive, malgré tout ?\n\n— Je leur apprends à garder leur calme. On protège les lieux, on appelle les secours si quelqu'un est blessé, puis on remplit le constat avec le conducteur de la partie adverse. Il ne faut ni se disputer avec la partie adverse ni signer un papier qu'on ne comprend pas : ce sont les assurances qui décideront ensuite.\n\n— Un dernier conseil ?\n\n— Soyez patients. Être égoïste au volant, c'est croire que la route est à soi, et c'est indigne d'un bon conducteur.\n\nQuestions :\nDepuis combien de temps Martine Gagnon enseigne-t-elle la conduite ?\nElle enseigne la conduite depuis 25 ans à Sherbrooke.\nQue veut dire « devancer », selon elle ?\nCela veut dire prévoir les gestes et les erreurs des autres avant qu'ils arrivent.\nQuel conseil donne-t-elle pour l'examen théorique ?\nElle conseille de lire l'énoncé de chaque question 2 fois.\nComment vérifie-t-on la fixation d'un siège pour enfant ?\nOn pousse le siège avec la main, et il ne doit pas bouger de plus de quelques centimètres.\nPourquoi conduire ivre est-il, pour elle, la faute la plus grave ?\nParce que c'est égoïste : celui qui conduit ivre met en danger des gens qui n'ont rien demandé."
+    },
+    {
+      "title": "Les bus à hydrogène de Pau",
+      "summary": "How the hydrogen buses of Pau work, from producing the gas to the costs and limits of the technology.",
+      "newWords": [
+        "hydrogène",
+        "requérir",
+        "dépourvu",
+        "teneur",
+        "assembler",
+        "débloquer",
+        "comptabilité",
+        "optimiser",
+        "multiplication",
+        "prometteur"
+      ],
+      "text": "Depuis la fin de 2019, des bus d'un genre nouveau circulent à Pau, au pied des Pyrénées. Ils ressemblent à des tramways sur pneus, mais ils ne roulent ni au diesel ni sur des rails : ils roulent à l'hydrogène. Comment fonctionne un bus à l'hydrogène, et pourquoi tant de villes regardent-elles l'expérience de Pau ?\n\nTout commence à la station, installée au dépôt des bus. On y produit l'hydrogène à partir d'eau et d'électricité : le courant sépare l'eau en oxygène et en hydrogène. L'hydrogène est ensuite stocké sous pression, puis envoyé dans les réservoirs des bus, placés sur le toit. Le plein requiert une vingtaine de minutes par véhicule, et l'opération requiert des techniciens formés, car le gaz est stocké sous une très forte pression.\n\nDans le bus, une pile à combustible fait l'opération inverse : elle combine l'hydrogène avec l'oxygène de l'air et produit de l'électricité, qui fait tourner le moteur. Le seul rejet est de la vapeur d'eau. Le bus est donc dépourvu de pot d'échappement au sens habituel, et dépourvu aussi du bruit d'un moteur diesel. Des appareils placés le long de la ligne mesurent la teneur de l'air en particules fines ; au passage du bus, cette teneur n'augmente pas.\n\nLes véhicules ont été conçus et assemblés en Belgique, par un constructeur spécialisé. Assembler un bus de ce type est un travail délicat : il faut placer les réservoirs, la pile et les batteries sans trop alourdir le véhicule.\n\nUne telle technologie a un coût. Pour lancer le projet, l'agglomération a dû débloquer des sommes importantes, avec l'aide de l'État et de l'Union européenne. Sans cette aide, il aurait été difficile de débloquer un tel budget. Un bus à hydrogène coûte encore bien plus cher qu'un bus diesel, et l'hydrogène produit sur place aussi. Dans la comptabilité du réseau, la ligne pèse donc plus lourd que les autres. Mais la comptabilité ne dit pas tout : elle ne compte ni l'air plus propre ni l'expérience acquise.\n\nLes techniciens cherchent maintenant à optimiser chaque étape : produire l'hydrogène aux heures où l'électricité est la moins chère, optimiser la conduite pour consommer moins, mieux prévoir l'entretien. Ailleurs en France, on observe une multiplication des projets semblables, pour des bus, des camions, et même des trains régionaux. Cette multiplication ne doit pas faire oublier une limite : l'hydrogène n'est vraiment propre que si l'électricité qui le produit l'est aussi. La technologie reste prometteuse, mais une solution prometteuse n'est pas encore une solution prouvée.\n\nQuestions :\nComment produit-on l'hydrogène à Pau ?\nOn le produit à partir d'eau et d'électricité, dans une station installée au dépôt des bus.\nQue fait la pile à combustible dans le bus ?\nElle combine l'hydrogène avec l'oxygène de l'air pour produire de l'électricité.\nPourquoi le bus est-il dépourvu de pot d'échappement habituel ?\nParce que son seul rejet est de la vapeur d'eau.\nPourquoi la ligne pèse-t-elle lourd dans la comptabilité du réseau ?\nParce que les bus et l'hydrogène produit sur place coûtent cher.\nQue cherchent à optimiser les techniciens ?\nIls cherchent à optimiser la production de l'hydrogène, la conduite et l'entretien."
+    },
+    {
+      "title": "Le carnaval de Binche vu du bus",
+      "summary": "A bus driver in Binche, Belgium, describes driving during the town's famous carnival and the days that follow.",
+      "newWords": [
+        "carnaval",
+        "halle",
+        "fantaisie",
+        "exciter",
+        "spontané",
+        "bizarrement",
+        "débris",
+        "coïncidence"
+      ],
+      "text": "À Binche, petite ville du Hainaut, en Belgique, le carnaval n'est pas une simple fête : c'est l'événement de l'année. Le jour du Mardi gras, des centaines d'hommes en costume, chaussés de sabots de bois, dansent dans les rues au son des tambours et lancent des oranges à la foule. Pour Karim Benali, chauffeur de bus depuis 15 ans, les 3 grands jours du carnaval sont aussi les plus compliqués de l'année.\n\nDès le dimanche, le centre-ville est fermé à la circulation. Les bus ne passent plus devant la gare ni sur la grand-place ; ils s'arrêtent à l'entrée de la ville, près d'une grande halle, où l'on installe un arrêt provisoire. Sous la halle, des volontaires distribuent des plans et indiquent le chemin aux visiteurs. Karim fait des allers-retours entre cette halle et les villages voisins, toutes les 20 minutes.\n\nLes passagers de ces jours-là ne ressemblent à aucun autre. Il y a des familles entières en costumes de fantaisie, des enfants déguisés en clowns, des étudiants avec des chapeaux de toutes les couleurs. La fantaisie est partout, même chez les plus sérieux. Les tambours qu'on entend de loin excitent les plus jeunes, qui chantent et tapent dans les mains dès qu'ils montent dans le bus. « Je ne les calme pas trop, dit Karim en souriant. Ce n'est pas tous les jours que la musique les excite à ce point. »\n\nCe qui frappe Karim, c'est la gentillesse spontanée des gens. Un monsieur qu'il ne connaît pas lui a offert une orange en descendant. Une dame a aidé, de façon tout à fait spontanée, une touriste perdue à trouver le bon arrêt. Selon lui, la fête rend les gens plus spontanés.\n\nBizarrement, ce ne sont pas les jours de fête qui le fatiguent le plus, mais le mercredi qui suit. Les rues sont alors couvertes de débris : des morceaux d'oranges, des confettis, des plumes et parfois du verre. Tant que les services de la ville n'ont pas ramassé ces débris, les bus doivent rouler très lentement, pour ne pas abîmer leurs pneus. Bizarrement, les habitants ne s'en plaignent presque jamais : ils savent que la ville sera propre le jeudi.\n\nCette année, une jolie coïncidence a fait sourire Karim. Le Mardi gras tombait le jour de son anniversaire, et son fils de 8 ans dansait pour la première fois avec les jeunes de son quartier. Par une deuxième coïncidence, le groupe de son fils est passé près de la halle pendant sa pause. Karim a eu le temps de le voir danser quelques minutes, puis il est remonté dans son bus, une orange à la main.\n\nQuestions :\nQue font les hommes en costume le jour du Mardi gras ?\nIls dansent dans les rues au son des tambours et lancent des oranges à la foule.\nOù s'arrêtent les bus pendant le carnaval ?\nIls s'arrêtent à l'entrée de la ville, près d'une grande halle, où l'on installe un arrêt provisoire.\nPourquoi les enfants chantent-ils dans le bus ?\nParce que les tambours qu'on entend de loin les excitent.\nPourquoi les bus roulent-ils lentement le mercredi ?\nParce que les rues sont couvertes de débris, et qu'ils ne doivent pas abîmer leurs pneus.\nQuelle coïncidence a fait sourire Karim cette année ?\nLe Mardi gras tombait le jour de son anniversaire, et son fils dansait pour la première fois."
+    },
+    {
+      "title": "Les chauffeurs de l'urgence",
+      "summary": "In Liège, a small team of drivers carries organs for transplants and blood for hospitals, racing against the clock.",
+      "newWords": [
+        "greffe",
+        "cinquantaine",
+        "confidentiel",
+        "chirurgical",
+        "appréciation",
+        "accouchement",
+        "bénédiction",
+        "décerner"
+      ],
+      "text": "Quand un organe devient disponible pour une greffe, une course contre la montre commence. Un rein, un foie ou un cœur ne se conserve que quelques heures hors du corps : un cœur, par exemple, doit être greffé en 4 heures environ. Le transport est donc une étape aussi importante que l'opération elle-même. À Liège, une petite équipe s'en charge : des chauffeurs et des motards formés au transport médical.\n\nTout commence par un appel. L'organe a été retiré dans un autre hôpital, parfois à l'étranger. Il voyage dans une boîte spéciale, qui le garde à la bonne température. Si la distance est courte, une voiture suffit, souvent accompagnée par la police sur l'autoroute. Pour une cinquantaine de kilomètres, il faut compter une demi-heure. Au-delà de quelques centaines de kilomètres, on prend l'avion. Thomas, chauffeur depuis 8 ans, fait en moyenne une cinquantaine de transports par an.\n\nLes chauffeurs ne savent presque rien de ce qu'ils transportent. Le nom du donneur est confidentiel, comme celui du malade qui recevra l'organe : la loi protège les 2 familles. Sur la boîte, il n'y a qu'un numéro. « Tout est confidentiel, explique Thomas. Je sais seulement que quelqu'un attend au bout de la route. »\n\nÀ l'arrivée, l'équipe chirurgicale est déjà prête. Le patient est souvent endormi avant même que l'organe soit arrivé, pour ne pas perdre une minute, et tout le matériel chirurgical est en place. Le chauffeur remet la boîte à une infirmière, qui la porte jusqu'à la salle d'opération. C'est alors au chirurgien de décider : l'état de l'organe est laissé à son appréciation. S'il le juge abîmé, la greffe n'a pas lieu. Cette appréciation, rapide et difficile, fait partie de son métier.\n\nL'équipe ne transporte pas que des organes. Elle livre aussi des poches de sang, par exemple quand un accouchement se passe mal dans une petite maternité qui manque de réserves. Un accouchement difficile peut demander beaucoup de sang en très peu de temps. Les motards, plus rapides dans les embouteillages, sont alors précieux.\n\nPour les malades qui attendent une greffe, parfois depuis des années, l'appel de l'hôpital est une bénédiction. Une patiente a écrit un jour à l'équipe : « Votre voiture m'a apporté une nouvelle vie. » Thomas garde la lettre dans sa voiture. L'an dernier, la province a décerné à l'équipe un prix pour le service rendu à la population. Le prix a été décerné lors d'une petite cérémonie, mais Thomas préfère la lettre. « Un prix, c'est gentil, dit-il. Une vie sauvée, c'est une bénédiction. »\n\nQuestions :\nPourquoi le transport d'un organe est-il si important ?\nParce qu'un organe ne se conserve que quelques heures hors du corps.\nCombien de temps faut-il pour une cinquantaine de kilomètres ?\nIl faut compter une demi-heure.\nPourquoi les chauffeurs ne connaissent-ils pas le nom du donneur ?\nParce que ce nom est confidentiel : la loi protège les 2 familles.\nQui décide si la greffe a lieu ?\nC'est le chirurgien, car l'état de l'organe est laissé à son appréciation.\nQuand l'équipe transporte-t-elle des poches de sang ?\nQuand un accouchement se passe mal dans une petite maternité qui manque de réserves.\nQu'est-ce que la province a décerné à l'équipe ?\nElle lui a décerné un prix pour le service rendu à la population."
+    },
+    {
+      "title": "Le minibus et le métro à Abidjan",
+      "summary": "An essay weighs Abidjan's crowded private minibuses against the metro line being built across the city.",
+      "newWords": [
+        "ivoirien",
+        "démonter",
+        "orthodoxe",
+        "capitaliste",
+        "pourrir",
+        "cuisson",
+        "militer",
+        "attachement"
+      ],
+      "text": "À Abidjan, la capitale économique ivoirienne, on se déplace d'abord en gbaka. Ce mot désigne les minibus privés, souvent vieux et toujours pleins, qui relient les quartiers à toute heure. Depuis plusieurs années, un autre projet fait parler : une ligne de métro, qui doit traverser la ville du nord au sud. Faut-il voir dans le métro la fin des minibus ? La question divise les Ivoiriens.\n\nLe minibus a de vrais avantages. Il va partout, même dans les quartiers où les routes ne sont pas encore construites. Il ne coûte pas cher. Et il fait vivre des milliers de personnes : chauffeurs, jeunes apprentis qui encaissent l'argent, mécaniciens. Ces mécaniciens sont des artistes à leur façon. Ils savent démonter un moteur au bord de la route, le réparer avec des pièces récupérées et le remonter en une journée. Leurs méthodes sont peu orthodoxes, mais elles marchent. Un ingénieur européen les jugerait sans doute peu orthodoxes ; un chauffeur d'Abidjan les trouve simplement efficaces.\n\nLe système a pourtant ses défauts. Il obéit à une logique très capitaliste : la plupart des chauffeurs ne possèdent pas leur véhicule et doivent rapporter chaque soir une somme fixe au propriétaire. Pour gagner leur vie, ils roulent vite, s'arrêtent n'importe où et se disputent les clients. Cette logique capitaliste, sans règles claires, rend la route dangereuse et les embouteillages pires encore. Aux heures de pointe, traverser la lagune peut prendre 2 heures.\n\nLes embouteillages ont un coût que l'on oublie souvent. Les femmes qui vendent des légumes au marché arrivent de la campagne en minibus ; quand le trajet dure trop, une partie de leurs tomates commence à pourrir dans la chaleur. Des fruits qui pourrissent avant d'être vendus, c'est une journée de travail perdue. Les vendeuses d'attiéké, un plat à base de manioc que l'on mange partout en Côte d'Ivoire, se lèvent à 3 heures du matin pour finir la cuisson avant de partir. La cuisson ne peut pas attendre : avec une heure de retard, le client est déjà parti ailleurs.\n\nLe métro promet de régler une partie de ces problèmes : rapide et régulier, il ne craindra pas les embouteillages. Plusieurs associations d'usagers militent depuis longtemps pour qu'il soit construit et pour que les billets restent abordables. Elles militent aussi pour qu'on n'oublie pas les quartiers où il ne passera pas. Car les habitants ont un vrai attachement à leurs minibus. Cet attachement n'est pas seulement pratique : le minibus fait partie de la culture ivoirienne, avec ses musiques, ses peintures et ses conversations.\n\nLa meilleure réponse est sans doute de ne pas choisir. Le métro servira les grands axes ; les minibus, mieux organisés, conduiront les passagers jusqu'aux stations. Les mécaniciens continueront de démonter des moteurs au bord de la route, et l'on pourra peut-être, un jour, traverser Abidjan à l'heure.\n\nQuestions :\nQu'est-ce qu'un gbaka ?\nC'est un minibus privé, souvent vieux et toujours plein, qui relie les quartiers d'Abidjan.\nQue savent faire les mécaniciens ?\nIls savent démonter un moteur au bord de la route, le réparer et le remonter en une journée.\nPourquoi dit-on que le système obéit à une logique capitaliste ?\nParce que les chauffeurs doivent rapporter chaque soir une somme fixe au propriétaire du véhicule.\nQue se passe-t-il quand le trajet des vendeuses de légumes dure trop ?\nUne partie de leurs tomates commence à pourrir dans la chaleur.\nPourquoi les associations d'usagers militent-elles ?\nElles militent pour que le métro soit construit et pour que les billets restent abordables."
+    },
+    {
+      "title": "Mes passagers du vendredi",
+      "summary": "A driver who carpools every Friday from Neuchâtel to Geneva describes the passengers he has met along the way.",
+      "newWords": [
+        "humoriste",
+        "massacrer",
+        "poker",
+        "cross",
+        "électro",
+        "burger",
+        "étang",
+        "grenouille"
+      ],
+      "text": "Depuis 3 ans, je fais du covoiturage chaque vendredi entre Neuchâtel et Genève. Je vais voir ma mère, j'ai 3 places libres, et une application me met en contact avec des passagers. Le trajet dure un peu plus d'une heure et demie. J'aurais pu le faire seul en écoutant la radio ; j'ai découvert que les passagers sont bien plus intéressants que la radio.\n\nIl y a quelques mois, j'ai conduit une jeune humoriste qui jouait le soir même dans un petit théâtre de Genève. Pendant tout le trajet, elle a répété son spectacle à voix basse, en me demandant de temps en temps si une histoire était drôle. J'étais un public facile : je riais à tout. Elle m'a expliqué que le métier d'humoriste est surtout un travail de précision : un mot de trop, et le public ne rit plus. Avant de descendre, elle m'a chanté la chanson qui termine son spectacle, et elle l'a franchement massacrée. « Je la massacre exprès, m'a-t-elle dit. Le public adore ça. »\n\nUn autre vendredi, un étudiant en mathématiques m'a parlé de poker pendant une heure. Pour lui, le poker n'est pas un jeu de hasard, mais un jeu de calcul et de patience. Il m'a expliqué ses calculs avec tant d'enthousiasme que j'ai failli manquer la sortie de Lausanne.\n\nMes passagères les plus régulières sont 2 sœurs qui font du cross. Chaque hiver, elles participent à plusieurs courses de cross en forêt, dans la boue, et elles me racontent leurs chutes en riant. Elles ont aussi imposé leur musique : de l'électro, très rythmée, qui donne envie de rouler plus vite. Je ne suis pas un grand amateur d'électro, mais je dois reconnaître qu'avec elles, le trajet passe vite. Notre habitude est de nous arrêter à mi-chemin, sur une aire d'autoroute, pour manger un burger. Le burger n'est pas très bon, mais c'est devenu notre tradition.\n\nAu printemps, je quitte parfois l'autoroute pour prendre une petite route au bord d'un étang, près d'une forêt. Un soir de mars, un panneau nous a demandé de ralentir : c'était la période où les grenouilles quittent la forêt pour aller pondre dans l'étang. Des volontaires, avec des lampes, les ramassaient dans des seaux pour leur faire traverser la route. Sans eux, les voitures massacreraient des centaines de grenouilles chaque nuit. Nous nous sommes arrêtés pour les regarder, et l'une des sœurs a porté elle-même une grenouille jusqu'à l'étang.\n\nLe covoiturage a des avantages évidents : il coûte moins cher, il pollue moins, et il remplit des voitures qui rouleraient à moitié vides. Mais ce que je retiens surtout, ce sont les rencontres. Une humoriste, un joueur de poker, 2 sœurs passionnées de cross : aucune radio ne m'aurait offert tout cela.\n\nQuestions :\nPourquoi l'auteur va-t-il chaque vendredi à Genève ?\nIl va voir sa mère.\nQue faisait l'humoriste pendant le trajet ?\nElle répétait son spectacle à voix basse.\nComment l'étudiant voit-il le poker ?\nPour lui, le poker n'est pas un jeu de hasard, mais un jeu de calcul et de patience.\nQuelle musique les 2 sœurs écoutent-elles ?\nElles écoutent de l'électro, très rythmée.\nPourquoi des volontaires ramassaient-ils des grenouilles au bord de l'étang ?\nPour leur faire traverser la route, car sans eux les voitures massacreraient des centaines de grenouilles."
+    },
+    {
+      "title": "Lever les yeux dans le métro de Paris",
+      "summary": "A short guide explains what the old Paris metro stations show: cast-iron entrances, white tiled vaults, station names and printed maps.",
+      "newWords": [
+        "fonte",
+        "maint",
+        "voûte",
+        "céramique",
+        "daller",
+        "cartouche",
+        "dénomination",
+        "imprimerie",
+        "cinématographique"
+      ],
+      "text": "Le métro de Paris a ouvert sa première ligne en 1900, l'année de l'Exposition universelle. Plus d'un siècle après, des millions de voyageurs le prennent chaque jour sans lever les yeux. Pourtant, ses stations racontent une histoire de l'architecture et des techniques. Il suffit de savoir où regarder.\n\nCommençons par l'entrée. Les plus célèbres ont été dessinées par l'architecte Hector Guimard vers 1900. Leurs arcs verts imitent des tiges de plantes, et leurs lampes ressemblent à des fleurs. Tout cela est en fonte, un métal que l'on verse chaud dans des moules, ce qui permet de produire en série des formes très compliquées. Grâce à la fonte, on pouvait fabriquer les mêmes entrées pour maintes stations, à un prix raisonnable.\n\nDescendons maintenant sur le quai. La plupart des stations anciennes sont construites sous une voûte : un plafond courbe, en forme d'arc, qui résiste au poids de la rue au-dessus. Cette voûte est couverte de petits carreaux de céramique blanche. Le choix de la céramique n'était pas une affaire de goût. À l'époque, l'éclairage électrique était faible, et la céramique blanche renvoyait la lumière.\n\nLe sol des quais était souvent dallé, c'est-à-dire couvert de grandes plaques solides et faciles à remplacer. Un quai dallé supporte mieux le passage de milliers de chaussures et le nettoyage de chaque nuit.\n\nRegardez ensuite le nom de la station. Sur certaines lignes, il est écrit en lettres de céramique, à l'intérieur d'un cartouche : un cadre décoratif qui sépare le nom du reste du mur. Ces cartouches viennent d'une ancienne compagnie, le Nord-Sud, qui a construit 2 lignes avant d'être rachetée par sa concurrente. La dénomination des stations a d'ailleurs souvent changé : on a donné à maintes stations le nom d'une personnalité, d'une bataille ou d'un événement récent. Une même station a parfois connu 2 ou 3 dénominations en un siècle.\n\nLe plan du métro a, lui aussi, son histoire. Les premiers plans sortaient d'une imprimerie parisienne et ressemblaient à des cartes de la ville, avec les rues et la Seine. Peu à peu, ils sont devenus plus simples, avec des lignes droites et des couleurs vives, plus faciles à lire d'un seul coup d'œil. Aujourd'hui encore, une imprimerie en produit des millions chaque année.\n\nCe décor a beaucoup inspiré le cinéma. Les carreaux blancs, les escaliers et les entrées vertes ont une qualité presque cinématographique, et on les retrouve dans maints films, des histoires d'amour aux films policiers. Le métro est devenu un décor cinématographique à part entière. La prochaine fois que vous attendrez une rame, levez les yeux : vous êtes dans un musée qui ne dit pas son nom.\n\nQuestions :\nEn quel matériau sont faites les entrées dessinées par Hector Guimard ?\nElles sont en fonte, un métal que l'on verse chaud dans des moules.\nPourquoi les stations anciennes ont-elles une voûte ?\nParce qu'un plafond courbe résiste au poids de la rue au-dessus.\nPourquoi a-t-on choisi la céramique blanche ?\nParce qu'elle renvoyait la faible lumière électrique de l'époque.\nQu'est-ce qu'un cartouche ?\nC'est un cadre décoratif qui sépare le nom de la station du reste du mur.\nPourquoi la dénomination des stations a-t-elle souvent changé ?\nParce qu'on a donné à maintes stations le nom d'une personnalité, d'une bataille ou d'un événement récent."
+    }
+  ]
+}

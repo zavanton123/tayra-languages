@@ -1,0 +1,207 @@
+{
+  "id": "fr-mini-6000",
+  "rankUpTo": 6000,
+  "level": "C1",
+  "title": "Mémoires",
+  "description": "Ten short first-person memoir pages, each recalling one episode of a working or family life, from a Picardy bakery and a Réunion volcano to a Dakar maternity ward and a Montreal dental surgery.",
+  "topic": "Memoirs",
+  "names": [
+    "Amiens",
+    "Piton",
+    "Europe",
+    "Michel",
+    "Picardie",
+    "Fournaise",
+    "Mireille",
+    "Chibougamau",
+    "Québec",
+    "Réjean",
+    "Dakar",
+    "Ndiaye",
+    "Fatou",
+    "Bruxelles",
+    "Schaerbeek",
+    "Wauters",
+    "Imier",
+    "Jura",
+    "Émile",
+    "Namur",
+    "Lambotte",
+    "Brabant",
+    "Luxembourg",
+    "Ignace",
+    "Villeurbanne",
+    "Lyon",
+    "Nadia",
+    "Auge",
+    "Normandie",
+    "Lisieux",
+    "Lecoq",
+    "Montréal",
+    "Haïti",
+    "Gagnon"
+  ],
+  "lessons": [
+    {
+      "title": "La boulangerie de mon père",
+      "summary": "A woman recalls the Saturday in Amiens when, aged nine, she first served customers in her father's bakery and learned to count change honestly.",
+      "newWords": [
+        "boulangerie",
+        "picard",
+        "gourmand",
+        "pince",
+        "tiroir",
+        "addition",
+        "dicter",
+        "mathématique",
+        "traditionnellement",
+        "honnêteté"
+      ],
+      "text": "Mon père tenait une boulangerie dans un quartier tranquille d'Amiens, en Picardie. J'y ai passé toute mon enfance, dans les années 1970, entre l'odeur du pain chaud et le bruit de la caisse.\n\nTraditionnellement, dans notre région, c'était la femme du boulanger qui tenait le comptoir. Chez nous, ma mère travaillait à l'hôpital, et c'est donc mon père qui faisait tout : il préparait la pâte la nuit et servait les clients le jour. Cet été-là, j'avais 9 ans, et il a décidé que j'étais assez grande pour l'aider le samedi matin.\n\nIl m'a d'abord montré la pince. « On ne touche jamais le pain avec les doigts, m'a-t-il dit. On prend toujours la pince. » Avec la pince, je saisissais les croissants, les baguettes et les tartes aux fruits, que les clients gourmands achetaient par deux. Puis il m'a montré le tiroir de la caisse, avec ses petites cases pour les pièces et une case plus large pour les billets. « Dans ce tiroir, il y a notre travail de la semaine, a-t-il ajouté. Il faut le respecter. »\n\nLe plus difficile, c'était l'addition. Il n'y avait pas encore de caisse électronique dans notre boulangerie. Je devais faire l'addition dans ma tête, ou sur un petit carnet, puis rendre la monnaie. Mon père me dictait les prix : « Une baguette, un franc ; deux croissants, deux francs quarante. » Je répétais chaque prix, puis je faisais l'addition. Il n'avait aucune formation mathématique, mais il calculait plus vite que mon institutrice. Sa méthode était simple et presque mathématique : il comptait toujours la monnaie à voix haute, en partant du prix pour arriver au billet.\n\nVers 11 heures, une vieille dame, une cliente fidèle, m'a donné un billet de 10 francs pour un pain de campagne. Je me suis trompée et je lui ai rendu trop de monnaie. Elle a regardé les pièces dans sa main, puis elle m'en a rendu une en souriant. « Tu m'as donné un franc de trop, ma petite. » Elle me l'a dit en picard, la langue de sa jeunesse, et mon père, qui parlait aussi le picard avec ses clients les plus âgés, a traduit en riant. Ce jour-là, j'ai compris que l'honnêteté des clients comptait autant que la nôtre.\n\nLe soir, mon père a vidé le tiroir et il a compté l'argent de la journée. Il m'a laissée dicter les chiffres pendant qu'il les écrivait dans son grand cahier. Le compte était juste, au centime près. Il m'a donné un croissant pour me récompenser, en disant que j'étais aussi gourmande que lui. C'est ce soir-là qu'il m'a appris la valeur de l'honnêteté : on peut se tromper dans une addition, mais on ne trompe jamais personne.\n\nQuestions :\nOù le père tenait-il sa boulangerie ?\nIl tenait sa boulangerie dans un quartier tranquille d'Amiens, en Picardie.\nQui tenait traditionnellement le comptoir dans les boulangeries de la région ?\nTraditionnellement, c'était la femme du boulanger qui tenait le comptoir.\nComment la petite fille faisait-elle l'addition ?\nElle faisait l'addition dans sa tête ou sur un petit carnet, pendant que son père lui dictait les prix.\nQu'a fait la vieille dame quand elle a reçu trop de monnaie ?\nElle a rendu le franc de trop en souriant.\nQuelle leçon le père a-t-il donnée à sa fille ?\nOn peut se tromper dans une addition, mais l'honnêteté compte avant tout."
+    },
+    {
+      "title": "Une éruption à La Réunion",
+      "summary": "A young technician at the volcano observatory on Réunion recalls the 1998 eruption of the Piton de la Fournaise and what an experienced analyst taught him.",
+      "newWords": [
+        "éruption",
+        "végétation",
+        "moniteur",
+        "analyste",
+        "vigilance",
+        "instable",
+        "temporairement",
+        "réfugier",
+        "regagner",
+        "filtrer"
+      ],
+      "text": "En 1998, j'avais 24 ans et je venais d'être embauché à l'observatoire du volcan, sur l'île de La Réunion. Mon travail consistait à surveiller des écrans. Sur chaque moniteur, une ligne verte montrait les petits mouvements de la terre sous le Piton de la Fournaise. Le volcan dormait depuis 5 ans, et la plupart des habitants ne pensaient plus à lui.\n\nJe partageais le bureau avec Mireille, une analyste plus âgée, qui lisait les données comme d'autres lisent le journal. Un soir de mars, elle s'est penchée vers mon moniteur. Les lignes, jusque-là presque plates, tremblaient sans cesse. « Le sol devient instable, m'a-t-elle dit. Une éruption se prépare. » Elle a prévenu la préfecture, et l'île est passée en état de vigilance. La vigilance, m'a expliqué Mireille, ce n'est pas encore l'alerte : c'est le moment où l'on prépare tout, au cas où.\n\nL'éruption a commencé deux jours plus tard, au milieu de la nuit. Depuis l'observatoire, on voyait une lumière orange au-dessus de la montagne. La route qui passe au pied du volcan a été fermée temporairement, et quelques familles du village le plus proche ont dû quitter leur maison. Elles se sont réfugiées dans l'école de la commune voisine, où la mairie avait installé des lits. Les gendarmes répétaient que c'était seulement temporairement, pour quelques jours.\n\nLe lendemain, je suis monté avec Mireille pour installer de nouveaux instruments. Le terrain était instable, et nous marchions lentement, en regardant où nous mettions les pieds. Nous portions des masques qui devaient filtrer les gaz et les poussières. Même avec ces masques qui filtraient l'air, la gorge me brûlait. La lave descendait la pente en brûlant tout sur son passage. Là où la végétation était épaisse, on entendait les arbres craquer avant de les voir tomber. Mireille m'a montré une coulée plus ancienne, où la végétation commençait à peine à repousser : quelques petites plantes, un peu d'herbe. « La forêt revient toujours, a-t-elle dit, mais il lui faut du temps. »\n\nL'éruption a duré plusieurs mois. Les habitants qui s'étaient réfugiés à l'école ont pu regagner leur maison au bout d'une semaine, car la lave avait pris une autre direction. Je me souviens d'un vieux monsieur qui, en regagnant son jardin, a serré la main de chaque gendarme. Quant à moi, j'ai passé cette année-là devant mon moniteur, à apprendre de Mireille qu'un bon analyste ne se fie jamais à une seule ligne et que la vigilance est un métier de patience.\n\nQuestions :\nQuel était le travail du jeune homme à l'observatoire ?\nIl surveillait des écrans : sur chaque moniteur, une ligne montrait les mouvements de la terre sous le volcan.\nQu'est-ce que Mireille a remarqué un soir de mars ?\nElle a remarqué que les lignes tremblaient sans cesse et que le sol devenait instable.\nQuelle différence y a-t-il entre la vigilance et l'alerte ?\nLa vigilance n'est pas encore l'alerte : c'est le moment où l'on prépare tout, au cas où.\nOù les familles se sont-elles réfugiées ?\nElles se sont réfugiées dans l'école de la commune voisine.\nÀ quoi servaient les masques ?\nIls devaient filtrer les gaz et les poussières.\nQuand les habitants ont-ils pu regagner leur maison ?\nIls ont pu regagner leur maison au bout d'une semaine, parce que la lave avait pris une autre direction."
+    },
+    {
+      "title": "Le premier atterrissage sur un lac",
+      "summary": "A bush pilot in northern Quebec recalls his first solo landing on a lake, when he trusted his intuition and tried a second time.",
+      "newWords": [
+        "atterrissage",
+        "redresser",
+        "percuter",
+        "intuition",
+        "rapidité",
+        "complication",
+        "sensiblement",
+        "aquatique",
+        "moustique",
+        "buisson"
+      ],
+      "text": "Au printemps 1983, j'avais 22 ans et je venais d'obtenir mon brevet de pilote à Chibougamau, dans le nord du Québec. Là-bas, les routes sont rares, et les petits avions qui se posent sur l'eau transportent les pêcheurs, les médecins et le courrier. Mon patron, Réjean, avait piloté ces avions pendant 30 ans. Il m'avait souvent dit : « Partir, c'est facile. C'est l'atterrissage qui fait le pilote. »\n\nLe matin de mon premier vol seul, il m'a donné ses derniers conseils sur le quai. Il fallait d'abord passer au-dessus du lac pour regarder la surface de l'eau, le sens du vent et surtout les obstacles. « Un tronc d'arbre sur l'eau, tu ne le vois qu'au dernier moment, m'a-t-il expliqué. Si tu le percutes à 100 kilomètres à l'heure, l'avion se retourne. » Il m'a aussi conseillé de me fier à mon intuition : quand quelque chose me semblait étrange, je devais remonter et recommencer, sans honte.\n\nJe suis parti sans complication. Le ciel était clair, et au-dessous de moi la forêt s'étendait jusqu'à l'horizon, coupée de centaines de lacs. Après 40 minutes de vol, j'ai atteint le lac où un camp de pêcheurs attendait des provisions. J'ai fait un premier passage à basse altitude. Des canards et d'autres oiseaux aquatiques se reposaient près de la rive, à côté d'un gros buisson. Réjean disait que les oiseaux aquatiques se placent toujours face au vent. Les branches du buisson bougeaient à peine : le vent était faible.\n\nAu moment de descendre, pourtant, le vent a tourné. L'avion a penché sur la gauche, et j'ai dû le redresser d'un geste rapide. Mon intuition me disait de ne pas insister. Je suis remonté, j'ai fait un grand tour, et j'ai recommencé plus lentement. Cette fois, j'ai redressé l'avion bien avant de toucher l'eau, comme Réjean me l'avait appris. La vitesse a diminué sensiblement, l'avion a touché la surface, et il a glissé jusqu'au bord. Mon premier atterrissage était réussi.\n\nLes pêcheurs m'attendaient sur la rive. Ils ont vidé l'avion avec une rapidité étonnante, parce que les moustiques les dévoraient. Au printemps, dans le Nord, les moustiques sont plus nombreux que les arbres. Un des pêcheurs m'a demandé si j'avais eu une complication. Je lui ai répondu que non : le vent avait seulement rendu la descente sensiblement plus longue.\n\nEn rentrant à Chibougamau, j'ai raconté mon vol à Réjean. Il m'a écouté, puis il a souri. « Tu es remonté au lieu de forcer ? C'est bien. La rapidité, ça viendra plus tard. » J'ai piloté pendant 25 ans après ce jour-là, et je n'ai jamais oublié sa leçon : un bon atterrissage commence souvent par le courage de renoncer.\n\nQuestions :\nSelon Réjean, qu'est-ce qui fait le pilote ?\nSelon lui, c'est l'atterrissage qui fait le pilote.\nPourquoi faut-il passer au-dessus du lac avant de se poser ?\nPour regarder la surface de l'eau, le sens du vent et les obstacles, comme un tronc qu'on pourrait percuter.\nComment la vitesse de l'avion a-t-elle changé avant l'atterrissage ?\nElle a diminué sensiblement.\nQu'a fait le jeune pilote quand le vent a tourné ?\nIl a redressé l'avion, il est remonté et il a recommencé plus lentement.\nPourquoi les pêcheurs ont-ils vidé l'avion avec rapidité ?\nParce que les moustiques les dévoraient."
+    },
+    {
+      "title": "Ma première nuit à la maternité",
+      "summary": "A young midwife in Dakar recalls her first night shift, when a baby girl was born under a single bulb during a power cut.",
+      "newWords": [
+        "accoucher",
+        "maternité",
+        "donneur",
+        "ampoule",
+        "robinet",
+        "caresser",
+        "financièrement",
+        "gonflé"
+      ],
+      "text": "En octobre 1992, après 3 ans d'études, j'ai commencé à travailler comme sage-femme à la maternité d'un hôpital de Dakar. J'avais 23 ans. La maternité occupait un vieux bâtiment, avec de longs couloirs peints en vert et une cour plantée d'arbres. Ma responsable, madame Ndiaye, avait aidé plus de 3 000 femmes à accoucher. Elle connaissait chaque bruit du bâtiment.\n\nL'hôpital avait peu de moyens. Financièrement, il dépendait de l'État et de quelques associations, et il manquait souvent de tout : de draps, de gants, parfois d'eau. La nuit, le robinet de la salle de soins ne donnait plus qu'un mince filet d'eau. Nous gardions donc de l'eau dans de grandes bouteilles, pour être prêtes en cas de besoin.\n\nMa première nuit, vers 2 heures, une jeune femme est arrivée avec son mari. Elle s'appelait Fatou et elle attendait son premier enfant. Elle avait beaucoup marché, et ses pieds étaient gonflés par la chaleur et la fatigue. Madame Ndiaye l'a examinée et m'a dit doucement : « Elle va accoucher cette nuit. C'est toi qui vas l'accompagner. » J'avais déjà assisté à beaucoup de naissances pendant mes études, mais jamais comme responsable.\n\nUne heure plus tard, l'électricité a été coupée dans tout le quartier. Dans la salle, il ne restait plus qu'une ampoule, reliée à une petite batterie que madame Ndiaye gardait pour ces occasions. Sous cette ampoule faible, j'ai aidé Fatou à respirer, à se reposer entre les douleurs, à reprendre des forces. Madame Ndiaye se tenait derrière moi, sans intervenir, prête à le faire si j'en avais besoin.\n\nÀ 5 heures, Fatou a accouché d'une petite fille en bonne santé. Je l'ai posée sur la poitrine de sa mère, qui lui a caressé la tête en pleurant de joie. Moi aussi, j'avais les yeux gonflés de fatigue et d'émotion. Le mari, qui attendait dans le couloir, est entré doucement. Il a caressé la joue de sa fille, puis il a demandé si l'hôpital avait besoin de quelque chose.\n\nMadame Ndiaye lui a parlé du sang. Comme beaucoup d'hôpitaux, le nôtre en manquait, et on demandait aux familles de trouver des donneurs. Le mari a accepté tout de suite et il est revenu le lendemain avec deux de ses frères. Les trois hommes sont devenus des donneurs réguliers. Financièrement, ils ne pouvaient pas aider la maternité, mais ils lui ont donné ce qu'ils avaient.\n\nQuand le jour s'est levé, l'électricité est revenue, et l'eau s'est remise à couler normalement du robinet. J'ai éteint la petite ampoule. Je suis rentrée chez moi, épuisée et heureuse. J'ai travaillé 30 ans dans cette maternité, mais aucune nuit ne m'a marquée autant que la première.\n\nQuestions :\nOù la jeune femme a-t-elle commencé à travailler en 1992 ?\nElle a commencé à travailler comme sage-femme à la maternité d'un hôpital de Dakar.\nPourquoi les sages-femmes gardaient-elles de l'eau dans des bouteilles ?\nParce que la nuit, le robinet ne donnait plus qu'un mince filet d'eau.\nPourquoi les pieds de Fatou étaient-ils gonflés ?\nIls étaient gonflés par la chaleur et la fatigue, parce qu'elle avait beaucoup marché.\nComment la salle était-elle éclairée pendant la coupure d'électricité ?\nElle était éclairée par une seule ampoule, reliée à une petite batterie.\nComment le mari de Fatou a-t-il aidé l'hôpital ?\nIl est devenu donneur de sang, avec deux de ses frères."
+    },
+    {
+      "title": "Mon premier dessin dans le journal",
+      "summary": "A Brussels press cartoonist recalls how an editor taught him, in 1975, to replace detail with one clear metaphor.",
+      "newWords": [
+        "dessinateur",
+        "métaphore",
+        "symboliser",
+        "pointu",
+        "réalisme",
+        "superficiel",
+        "prétention",
+        "tram",
+        "desservir",
+        "indirectement"
+      ],
+      "text": "En 1975, j'avais 20 ans et je voulais devenir dessinateur de presse. Je vivais chez mes parents, à Schaerbeek, une commune de Bruxelles, et je prenais chaque matin le tram qui desservait le centre-ville. Dans le tram, je dessinais les passagers sur un petit carnet : les gens assis, les gens debout, les visages fatigués. J'avais une seule ambition : voir un de mes dessins imprimé dans un quotidien.\n\nUn jour, j'ai osé montrer mes dessins à monsieur Wauters, le responsable des pages politiques d'un grand journal de la ville. Il avait fait débuter plusieurs dessinateurs célèbres. Il a regardé mes feuilles une par une, en silence. Mes dessins étaient remplis de détails : chaque bouton, chaque cheveu, chaque pavé de la rue. J'étais fier de leur réalisme.\n\n« Votre réalisme est remarquable, m'a-t-il dit enfin, mais un dessin de presse n'est pas une photo. Le lecteur le regarde 3 secondes. Il doit comprendre tout de suite. » Il m'a expliqué qu'un bon dessinateur de presse cherche d'abord une métaphore, une image simple qui dit une idée compliquée. Une balance peut symboliser la justice, un parapluie peut symboliser la prudence. « Le reste, c'est de la décoration. »\n\nIl m'a ensuite donné un sujet pour le lendemain : la commune avait décidé de supprimer une ligne de tram qui desservait les quartiers les plus pauvres. J'ai passé la nuit à chercher une métaphore. Mon premier dessin montrait le conseil communal entier, avec ses 40 membres, dessinés un par un. Je l'ai déchiré. Il était trop chargé, et au fond il avait une certaine prétention : je voulais montrer que je savais dessiner, plus que dire quelque chose.\n\nVers 4 heures du matin, j'ai trouvé. J'ai dessiné une grande paire de ciseaux très pointus qui coupait la ligne de tram, et le quartier avec elle, en deux. Sur le trottoir, une vieille dame attendait, son sac à la main. C'était tout. Le dessin ne disait pas directement que la décision était injuste ; il le disait indirectement, par l'image.\n\nMonsieur Wauters l'a publié deux jours plus tard, en deuxième page. Certains lecteurs ont trouvé mon dessin superficiel, parce qu'il ne parlait ni des chiffres ni du budget. Monsieur Wauters m'a rassuré : un dessin n'est jamais superficiel quand il fait réfléchir. Quelques semaines plus tard, la commune a annoncé que la ligne resterait ouverte. Mon dessin n'y était sans doute pour rien, ou alors très indirectement.\n\nJ'ai dessiné pour ce journal pendant 35 ans, sans autre prétention que de faire réfléchir mes lecteurs. Aujourd'hui encore, avant de commencer, je me pose la question de monsieur Wauters : quelle est ma métaphore ? Et je garde toujours un crayon bien pointu sur ma table.\n\nQuestions :\nQue faisait le jeune homme dans le tram ?\nIl dessinait les passagers sur un petit carnet.\nPourquoi monsieur Wauters a-t-il critiqué le réalisme des dessins ?\nParce qu'un dessin de presse n'est pas une photo : le lecteur le regarde 3 secondes et doit comprendre tout de suite.\nQue peut symboliser une balance ?\nUne balance peut symboliser la justice.\nPourquoi a-t-il déchiré son premier dessin ?\nParce qu'il était trop chargé et qu'il avait une certaine prétention.\nQuelle métaphore a-t-il finalement choisie ?\nIl a dessiné une paire de ciseaux très pointus qui coupait la ligne de tram et le quartier en deux."
+    },
+    {
+      "title": "L'atelier de mon grand-père",
+      "summary": "A woman recalls her childhood summers in Saint-Imier with her grandfather, a watchmaker who kept the anarchist ideals of his valley.",
+      "newWords": [
+        "anarchiste",
+        "bourgeoisie",
+        "éduquer",
+        "sentence",
+        "conformité",
+        "tambour",
+        "vernis",
+        "brin",
+        "mu"
+      ],
+      "text": "Chaque été, de 1968 à 1975, mes parents m'envoyaient chez mon grand-père Émile, à Saint-Imier, dans le Jura suisse. Il fabriquait des montres depuis l'âge de 15 ans. Son atelier occupait une pièce claire au premier étage, avec une grande fenêtre tournée vers la forêt. Au milieu se trouvait sa table de travail, une longue table de bois couverte d'un vernis brun que les années avaient usé.\n\nMon grand-père se disait anarchiste. Pour la petite fille que j'étais, le mot faisait peur. Il m'a expliqué qu'au 19e siècle, beaucoup d'ouvriers qui fabriquaient des montres dans la vallée étaient devenus anarchistes. Mus par un idéal de justice, ils rêvaient d'une société sans patrons ni rois, où chacun travaillerait librement. « Être anarchiste, m'a-t-il dit, ce n'est pas lancer des bombes. C'est refuser qu'un homme commande à un autre. » Ma grand-mère, morte avant ma naissance, avait été mue par la même conviction : elle apprenait à lire aux enfants des ouvriers, le soir, sans être payée.\n\nIl n'aimait pas la bourgeoisie, mais il ne la détestait pas non plus. Il disait que la bourgeoisie achetait ses montres et que c'était bien ainsi : « Ils paient le travail, et moi, je fais bien mon travail. » Sur le mur, au-dessus de sa table, il avait écrit une sentence au crayon : « Le travail bien fait n'a pas de maître. » Je lisais cette sentence chaque matin en entrant dans l'atelier.\n\nIl m'apprenait à observer. Il me donnait une montre ouverte, et je devais nommer chaque pièce. Il disait qu'éduquer un enfant, c'était lui apprendre à regarder avant de parler. Ma mère, elle, trouvait qu'il m'éduquait trop librement : chez lui, je me couchais tard et je mangeais du pain au chocolat au petit-déjeuner.\n\nAvant de livrer une montre, il vérifiait sa conformité avec les règles de la maison qui l'employait. Il la plaçait dans plusieurs positions différentes et notait chaque jour son retard ou son avance. Une montre n'était déclarée en conformité que si elle restait exacte à quelques secondes près. Il n'a jamais menti sur ce contrôle, même quand le patron était pressé.\n\nLe dimanche, il jouait du tambour dans la fanfare du village. Je marchais à côté de lui dans les rues, fière du bruit de son tambour qui résonnait entre les maisons. Le soir, il passait une nouvelle couche de vernis sur le bois de l'instrument, avec le même soin que sur sa table.\n\nLe dernier été, il m'a offert une petite montre qu'il avait fabriquée pour moi. Il avait glissé à l'intérieur un brin d'herbe de la montagne. « Un brin de notre vallée, pour que tu penses à moi », m'a-t-il dit. Je porte encore cette montre aujourd'hui.\n\nQuestions :\nOù vivait le grand-père Émile ?\nIl vivait à Saint-Imier, dans le Jura suisse.\nPourquoi beaucoup d'ouvriers de la vallée étaient-ils devenus anarchistes ?\nMus par un idéal de justice, ils rêvaient d'une société sans patrons ni rois.\nQuelle sentence le grand-père avait-il écrite sur le mur ?\nIl avait écrit : « Le travail bien fait n'a pas de maître. »\nSelon lui, qu'est-ce qu'éduquer un enfant ?\nC'est lui apprendre à regarder avant de parler.\nComment vérifiait-il la conformité d'une montre ?\nIl la plaçait dans plusieurs positions et notait chaque jour son retard ou son avance.\nQue faisait-il le dimanche ?\nIl jouait du tambour dans la fanfare du village."
+    },
+    {
+      "title": "Le collège des jésuites",
+      "summary": "A Belgian man recalls his last school year at a Jesuit college in Namur, where a history teacher taught him to read old buildings.",
+      "newWords": [
+        "jésuite",
+        "évangile",
+        "divinité",
+        "duché",
+        "érigé",
+        "architectural",
+        "postérieur",
+        "reparler",
+        "jusqu'alors",
+        "escorte"
+      ],
+      "text": "En septembre 1963, je suis entré en dernière année au collège des jésuites de Namur. J'avais 17 ans, et jusqu'alors l'école m'avait surtout ennuyé. J'étais un élève moyen, qui préférait le football au latin. Les jésuites avaient la réputation d'être exigeants, et ils la méritaient : nous avions cours 6 jours sur 7, et le samedi après-midi était réservé aux devoirs.\n\nCette année-là, notre professeur d'histoire était le père Lambotte, un jésuite maigre aux lunettes rondes. Dès le premier cours, il nous a emmenés dans la cour pour regarder les bâtiments. Il nous a montré la vieille chapelle, puis l'aile construite à une époque postérieure, plus simple et plus haute. « Chaque détail architectural raconte une histoire, nous a-t-il dit. Il suffit d'apprendre à la lire. » Jusqu'alors, je n'avais jamais levé les yeux vers ces murs.\n\nLe père Lambotte racontait l'histoire comme un roman. Il nous parlait du duché de Brabant et du duché de Luxembourg, de leurs ducs, de leurs guerres et de leurs mariages. Il dessinait au tableau les frontières de chaque duché, qui changeaient de siècle en siècle. En cours de latin, un autre père nous faisait traduire des textes sur les divinités romaines. Chaque divinité avait son domaine : la mer, la guerre, les récoltes. Le dimanche, à la messe, c'était un élève qui lisait l'évangile, et mon tour est venu en novembre. J'ai lu l'évangile du jour d'une voix tremblante, devant 400 garçons.\n\nAu printemps, le collège a inauguré une nouvelle aile, avec des laboratoires et une salle de sport. Le ministre de l'Éducation est venu en personne, avec une escorte de gendarmes à moto. Alignés dans la cour, nous avons regardé l'escorte entrer par le grand portail. Une statue de saint Ignace, le fondateur des jésuites, avait été érigée devant la nouvelle aile. Le père Lambotte nous a fait remarquer qu'elle avait été érigée exactement en face de l'ancienne chapelle. « C'est un choix architectural, a-t-il dit. Le nouveau regarde l'ancien. »\n\nÀ la fin de l'année, j'ai réussi mes examens, à la surprise de mes parents. Le dernier jour, je suis allé remercier le père Lambotte. Je lui ai dit que je voulais peut-être étudier l'histoire à l'université. Il m'a serré la main et m'a répondu : « Nous en reparlerons quand vous aurez lu quelques livres. » Nous en avons reparlé 10 ans plus tard, le jour où je suis devenu professeur d'histoire, moi aussi.\n\nQuestions :\nComment le jeune garçon voyait-il l'école jusqu'alors ?\nJusqu'alors, l'école l'avait surtout ennuyé : il préférait le football au latin.\nQui était le père Lambotte ?\nC'était un jésuite maigre aux lunettes rondes, qui enseignait l'histoire.\nComment était l'aile construite à une époque postérieure ?\nElle était plus simple et plus haute que la vieille chapelle.\nDe quels duchés le père Lambotte parlait-il ?\nIl parlait du duché de Brabant et du duché de Luxembourg.\nComment le ministre est-il venu au collège ?\nIl est venu avec une escorte de gendarmes à moto.\nOù la statue de saint Ignace a-t-elle été érigée ?\nElle a été érigée devant la nouvelle aile, en face de l'ancienne chapelle."
+    },
+    {
+      "title": "Le geek de la famille",
+      "summary": "A man from Villeurbanne recalls the year he was fifteen: he saved the family computer, protected his sister's hacked account and built his school's website.",
+      "newWords": [
+        "geek",
+        "pirater",
+        "matrice",
+        "substituer",
+        "relayer",
+        "valorisation",
+        "incidence",
+        "sursis"
+      ],
+      "text": "En 1997, j'avais 15 ans et je vivais avec mes parents et ma sœur Nadia dans un appartement de Villeurbanne, près de Lyon. J'étais ce qu'on appelait déjà un geek : je passais mes soirées devant l'ordinateur familial, un vieil appareil beige que mon père avait acheté d'occasion. Mes camarades se moquaient un peu de moi, mais le mot « geek » ne me dérangeait pas. Pour moi, il voulait dire que j'aimais comprendre comment les choses fonctionnent.\n\nCet hiver-là, l'ordinateur est devenu si lent que mon père voulait le jeter. J'ai obtenu un sursis de 2 mois : si je ne réussissais pas à le réparer, il partirait à la poubelle. Avec mes économies, j'ai acheté un disque dur plus grand, et je l'ai substitué à l'ancien, un samedi après-midi, sur la table de la cuisine. Il a fallu ensuite tout installer de nouveau. Le dimanche soir, l'ordinateur démarrait en moins d'une minute. Le sursis était devenu une seconde vie.\n\nQuelques semaines plus tard, quelqu'un a piraté le compte de courrier électronique de ma sœur. Des messages bizarres partaient en son nom vers tous ses amis. Nadia était en larmes. J'ai découvert que son mot de passe était le nom de notre chat : n'importe qui pouvait le deviner. Je lui ai appris à choisir un mot de passe long, en substituant des chiffres à certaines lettres, et à ne jamais l'écrire sur un papier collé à l'écran. Son compte n'a plus jamais été piraté.\n\nAu lycée, notre professeur de mathématiques venait de nous présenter les matrices, ces tableaux de nombres qui ont leurs propres règles de calcul. La plupart de mes camarades trouvaient les matrices abstraites. Moi, j'avais lu qu'elles servaient à faire bouger les images en trois dimensions sur un écran, et j'étais passionné. J'ai demandé au professeur si je pouvais l'expliquer à la classe. Il a accepté. Il croyait beaucoup à la valorisation des talents de chaque élève, et cette valorisation m'a donné confiance.\n\nEnsuite, il m'a proposé de créer le site internet du lycée. J'y ai passé tout le printemps. Le journal local a relayé la nouvelle, avec une photo de moi devant l'écran, et la radio de la ville l'a relayée à son tour. Mes camarades ne se moquaient plus. Le directeur du lycée m'a félicité, mais il a ajouté que ce travail serait sans incidence sur mes notes : il fallait quand même réussir mes examens. Je les ai réussis. Pourtant, je dois avouer que ce site a eu une incidence bien plus grande sur ma vie que n'importe quel diplôme : c'est lui qui m'a donné mon métier.\n\nQuestions :\nPourquoi le jeune garçon se disait-il geek ?\nParce qu'il passait ses soirées devant l'ordinateur et qu'il aimait comprendre comment les choses fonctionnent.\nQuel sursis a-t-il obtenu de son père ?\nIl a obtenu un sursis de 2 mois pour réparer l'ordinateur avant qu'il parte à la poubelle.\nComment le compte de Nadia a-t-il pu être piraté ?\nSon mot de passe était le nom de leur chat, et n'importe qui pouvait le deviner.\nÀ quoi servent les matrices, selon lui ?\nElles servent à faire bouger les images en trois dimensions sur un écran.\nQui a relayé la nouvelle du site internet ?\nLe journal local l'a relayée, puis la radio de la ville."
+    },
+    {
+      "title": "Les vaches de mon père",
+      "summary": "A farmer's daughter in Normandy recalls 1984, when milk quotas arrived and her parents changed the way the farm worked.",
+      "newWords": [
+        "bétail",
+        "quota",
+        "taxer",
+        "redevance",
+        "médiation",
+        "modernisation",
+        "prospérité",
+        "branle"
+      ],
+      "text": "Je suis née en 1970 dans une ferme du pays d'Auge, en Normandie. Mon père élevait une quarantaine de vaches, et toute notre vie tournait autour du bétail : la traite à 6 heures du matin, le foin en juin, les veaux au printemps. Ma mère tenait les comptes, et moi, dès l'âge de 10 ans, je donnais à manger aux veaux avant de partir à l'école.\n\nAu début des années 1980, la ferme connaissait une petite prospérité. Le lait se vendait bien, et mon père venait d'acheter un tracteur neuf. Puis, au printemps 1984, l'Europe a décidé de limiter la production de lait. Chaque ferme a reçu un quota : un nombre de litres à ne pas dépasser. Je me souviens du soir où mon père a lu la lettre, dans la cuisine. Le lait produit au-delà du quota serait taxé si lourdement qu'il ne rapporterait plus rien. « Ils vont taxer notre travail », a-t-il dit à ma mère.\n\nNotre quota était plus bas que ce que nos vaches produisaient. Mon père a dû vendre une partie du bétail. Je l'ai vu partir dans un camion, un matin de juin, et j'ai pleuré toute la journée. Mon père, lui, n'a rien dit. Il a passé l'été à réfléchir à une autre façon de travailler.\n\nC'est ma mère qui a mis le projet en branle. Elle a proposé de transformer une partie du lait en fromage et de le vendre directement, au marché de Lisieux et à la ferme. Pour cela, il fallait une modernisation complète des bâtiments et une salle propre pour préparer le fromage. Une fois le projet en branle, rien ne l'a arrêté.\n\nIl y a eu une seule difficulté, avec notre voisin, monsieur Lecoq. Pour aller au marché, nos voitures devaient passer sur un chemin qui lui appartenait. Il demandait une redevance que mes parents trouvaient trop élevée. La dispute a duré des semaines. Finalement, le maire a proposé une médiation. Autour de la table de la mairie, chacun a pu expliquer son point de vue. Grâce à cette médiation, ils se sont mis d'accord sur une redevance modeste, payée une fois par an, en argent et en fromages.\n\nLa modernisation de la ferme a pris deux ans. Le premier fromage s'est vendu en 1986. Ce n'était pas la prospérité d'avant, mais la ferme vivait, et mon père a pu racheter quelques vaches. Quand j'ai repris la ferme, en 1998, le quota existait toujours. J'ai gardé l'idée de ma mère : vendre moins de lait, mais le vendre mieux.\n\nQuestions :\nAutour de quoi tournait la vie de la famille ?\nToute la vie de la famille tournait autour du bétail.\nQu'est-ce qu'un quota de lait ?\nC'est un nombre de litres de lait à ne pas dépasser.\nQu'arrivait-il au lait produit au-delà du quota ?\nIl était taxé si lourdement qu'il ne rapportait plus rien.\nQui a mis le projet de fromage en branle ?\nC'est sa mère qui a mis le projet en branle.\nComment le problème avec monsieur Lecoq a-t-il été réglé ?\nGrâce à une médiation du maire, ils se sont mis d'accord sur une redevance modeste."
+    },
+    {
+      "title": "Mon cabinet de dentiste à Montréal",
+      "summary": "A Haitian dentist recalls arriving in Montreal in 1971, opening his surgery and winning over the neighbourhood, one loyal patient at a time.",
+      "newWords": [
+        "dentiste",
+        "exotique",
+        "racial",
+        "insécurité",
+        "loyal",
+        "citoyenneté",
+        "convaincant",
+        "admiration"
+      ],
+      "text": "Je suis arrivé à Montréal en janvier 1971, à l'âge de 26 ans. J'avais quitté Port-au-Prince, en Haïti, avec mon diplôme de dentiste dans ma valise et un manteau beaucoup trop léger pour l'hiver québécois. Au Québec, mon diplôme n'était pas reconnu. J'ai donc dû reprendre une partie de mes études à l'université, tout en travaillant le soir dans une usine.\n\nCes trois années ont été difficiles. Je vivais dans une petite chambre du quartier Saint-Michel, et je comptais chaque dollar. L'insécurité ne me quittait pas : si je ratais un examen, je perdais ma bourse. À cette insécurité s'ajoutait la solitude. Je ne connaissais presque personne, et mes lettres mettaient trois semaines à arriver en Haïti.\n\nEn 1974, j'ai enfin obtenu le droit d'exercer, et j'ai ouvert un petit cabinet de dentiste au-dessus d'une pharmacie. Les premières semaines, la salle d'attente restait vide. Certains passants regardaient ma plaque avec curiosité. Pour eux, un dentiste haïtien était quelque chose d'exotique. J'ai vite compris que je n'étais pas exotique, j'étais seulement nouveau. Il y avait aussi, je ne vais pas le cacher, des préjugés raciaux. Une dame est entrée un jour, m'a regardé, puis elle est repartie sans un mot. Je n'ai pas cherché à la retenir. La discrimination raciale existait, mais je savais que la colère ne la ferait pas disparaître. Elle reculerait patient après patient.\n\nMa première patiente fidèle s'appelait madame Gagnon. Elle avait une dent qui la faisait souffrir depuis des mois, et aucun dentiste du quartier ne pouvait la recevoir avant deux semaines. Je l'ai soignée le jour même. Elle est revenue le mois suivant avec son mari, puis avec ses trois enfants. C'était une patiente loyale, et surtout une excellente publicité : elle racontait à tout le quartier que j'avais la main légère. Ses paroles étaient plus convaincantes que n'importe quelle annonce dans le journal. Un an plus tard, ma salle d'attente était pleine.\n\nEn 1977, j'ai obtenu la citoyenneté canadienne. La cérémonie a eu lieu dans une grande salle, avec une cinquantaine de nouveaux citoyens venus du monde entier. Madame Gagnon était là, avec son mari. Quand j'ai reçu mon certificat de citoyenneté, elle a applaudi plus fort que tout le monde. Après la cérémonie, elle m'a dit qu'elle avait beaucoup d'admiration pour mon courage. Je lui ai répondu que mon admiration allait plutôt à elle, qui avait fait confiance à un inconnu.\n\nJ'ai soigné les dents du quartier pendant 38 ans. Les patients loyaux de la première heure m'ont amené leurs enfants, puis leurs petits-enfants. Je n'ai jamais eu besoin d'un argument plus convaincant que celui-là.\n\nQuestions :\nPourquoi le jeune dentiste a-t-il dû reprendre ses études à Montréal ?\nParce que son diplôme de dentiste n'était pas reconnu au Québec.\nD'où venait son insécurité pendant ses études ?\nS'il ratait un examen, il perdait sa bourse, et il comptait chaque dollar.\nPourquoi certains passants trouvaient-ils son cabinet exotique ?\nParce que, pour eux, un dentiste haïtien était quelque chose d'exotique.\nQui était madame Gagnon ?\nC'était sa première patiente fidèle, une patiente loyale qui parlait de lui à tout le quartier.\nQuand a-t-il obtenu la citoyenneté canadienne ?\nIl a obtenu la citoyenneté canadienne en 1977."
+    }
+  ]
+}

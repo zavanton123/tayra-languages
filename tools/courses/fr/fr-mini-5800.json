@@ -1,0 +1,215 @@
+{
+  "id": "fr-mini-5800",
+  "rankUpTo": 5800,
+  "level": "C1",
+  "title": "La langue française",
+  "description": "Ten texts about the French language as people live it: Quebec terms, bilingual brains, a dying Walloon, the chocolatine quarrel, idioms, subtitles, plain administrative French, political words, medical interpreting and technical translation.",
+  "topic": "The French language",
+  "names": [
+    "Geneviève",
+    "Tremblay",
+    "Montréal",
+    "Québec",
+    "Lyon",
+    "Paris",
+    "Fribourg",
+    "Martine",
+    "Berset",
+    "Léo",
+    "Namur",
+    "Joseph",
+    "Henri",
+    "Wallonie",
+    "Bordeaux",
+    "Émilion",
+    "Toulouse",
+    "France",
+    "Dakar",
+    "Awa",
+    "Diop",
+    "Moussa",
+    "Claire",
+    "Lemoine",
+    "Londres",
+    "Liège",
+    "Sophie",
+    "Lambert",
+    "Genève",
+    "Hélène",
+    "Rochat",
+    "Lausanne",
+    "Fatou",
+    "Ndiaye",
+    "Mathieu",
+    "Côté",
+    "Rome",
+    "Mussolini"
+  ],
+  "lessons": [
+    {
+      "title": "Courriel ou email ?",
+      "summary": "A Montreal terminologist explains why Quebec writes courriel, which English words both sides kept, and what sécuritaire means there.",
+      "newWords": [
+        "email",
+        "square",
+        "boom",
+        "vogue",
+        "généralité",
+        "barbecue",
+        "trader",
+        "sécuritaire",
+        "surplus",
+        "désactiver"
+      ],
+      "text": "Au Québec, on n'envoie pas d'email : on envoie un courriel. Pour comprendre ce choix, nous avons rencontré Geneviève Tremblay, terminologue à Montréal. Son métier consiste à proposer des mots français pour les choses nouvelles, avant que les mots anglais ne s'installent. Son bureau donne sur un petit square planté d'arbres, où des enfants jouent pendant qu'elle nous parle.\n\n« Le mot courriel est né ici, au début du boom d'Internet, nous explique-t-elle. Pendant ce boom, tout allait très vite. Chaque mois, une nouvelle technique arrivait avec son nom anglais. Nous avons proposé courriel, formé à partir de courrier et d'électronique. Le mot a pris, et aujourd'hui presque tous les Québécois l'emploient. » En France, l'histoire a été différente. Le mot email était déjà en vogue dans les entreprises quand courriel est arrivé, et la vogue l'a emporté. Un Parisien écrit donc un email, là où un habitant de Montréal écrit un courriel.\n\nGeneviève Tremblay se méfie pourtant des généralités. « On entend souvent que les Québécois défendent leur langue et que les Français l'abandonnent. C'est une généralité facile, et fausse. Nous aussi, nous gardons des mots anglais. On fait un barbecue à Montréal comme à Lyon, et personne n'a jamais réussi à remplacer le mot barbecue. » Elle cite aussi le trader, ce spécialiste qui achète et vend des actions en quelques secondes. « Nous avons proposé d'autres mots, mais dans les banques, on dit toujours trader. Un trader travaille en anglais toute la journée ; il n'a pas envie de changer de mot le soir. »\n\nIl arrive aussi qu'un mot français prenne au Québec un sens qu'il n'a pas en France. C'est le cas de sécuritaire. Au Québec, une route sécuritaire est une route sûre, sans danger, et un jouet sécuritaire ne peut pas blesser un enfant. En France, le mot sécuritaire désigne plutôt une politique qui place la sécurité au-dessus de tout. « Un Français qui lit qu'un parc est sécuritaire peut être surpris, sourit-elle. Pour nous, c'est un compliment. »\n\nFaut-il alors combattre chaque mot anglais ? Elle ne le pense pas. « Une langue peut accueillir quelques mots étrangers. Le problème commence avec le surplus, quand une phrase contient plus de mots anglais que de mots français alors que le français a tous les mots nécessaires. Ce surplus-là ne sert à rien. »\n\nPour finir, elle nous montre son téléphone. Elle a désactivé la correction automatique en anglais et réglé tous les menus en français. « Désactiver l'anglais sur son téléphone, c'est un petit geste. Mais les langues vivent de petits gestes. » Dans le square, sous sa fenêtre, les enfants crient en français, avec quelques mots d'anglais.\n\nQuestions :\nQuel est le métier de Geneviève Tremblay ?\nElle est terminologue : elle propose des mots français pour les choses nouvelles, avant que les mots anglais ne s'installent.\nQuand le mot courriel est-il né ?\nIl est né au Québec, au début du boom d'Internet.\nPourquoi les Français disent-ils plutôt email ?\nParce que le mot email était déjà en vogue dans les entreprises quand courriel est arrivé.\nQuels mots anglais les Québécois ont-ils gardés ?\nIls ont gardé, par exemple, barbecue et trader.\nQue veut dire sécuritaire au Québec ?\nAu Québec, une chose sécuritaire est une chose sûre, sans danger.\nQu'a-t-elle désactivé sur son téléphone ?\nElle a désactivé la correction automatique en anglais."
+    },
+    {
+      "title": "Le cerveau bilingue",
+      "summary": "In bilingual Fribourg, a researcher explains to parents what two languages do to a child's brain, and what they do not do.",
+      "newWords": [
+        "bilingue",
+        "cognitif",
+        "raisonner",
+        "logiquement",
+        "efficacement",
+        "structurel",
+        "accumulation",
+        "violon",
+        "créativité",
+        "pertinence"
+      ],
+      "text": "Fribourg est une ville bilingue. Dans ses rues, on entend le français et l'allemand, et beaucoup d'habitants passent de l'une à l'autre langue sans y penser. C'est donc ici que la chercheuse Martine Berset a choisi de présenter, un mardi soir, ses travaux sur le cerveau des enfants bilingues. La salle était pleine de parents.\n\nElle commença par une vieille idée. Pendant longtemps, on a cru qu'un enfant bilingue mélangeait tout et apprenait moins bien que les autres. « Les études récentes disent le contraire, expliqua-t-elle. Avoir deux langues ne nuit ni à la mémoire ni à l'attention. Un enfant bilingue doit choisir sans cesse la bonne langue selon la personne qui lui parle. Cet effort constant est un véritable exercice cognitif. »\n\nElle montra ensuite le résultat d'une expérience simple. On demande à des enfants de classer des cartes selon leur couleur, puis, d'un coup, selon leur forme. Il faut alors raisonner autrement, abandonner une règle pour une autre. Les enfants bilingues y arrivent en moyenne un peu plus vite. « Ils ne raisonnent pas mieux que les autres sur tout, précisa-t-elle. Mais ils ont l'habitude de changer de règle. Leur cerveau a appris à ignorer efficacement ce qui ne sert pas, et à se concentrer efficacement sur ce qui compte. »\n\nLogiquement, on pourrait penser que deux langues demandent deux fois plus d'efforts, et donc deux fois plus de fatigue. Ce n'est pas si simple. Le français et l'allemand ont des différences structurelles : l'allemand place souvent le verbe à la fin de la phrase, le français le met plus tôt. Ces différences structurelles obligent l'enfant à construire deux systèmes. Logiquement, ces deux systèmes devraient se gêner ; en réalité, ils s'aident l'un l'autre.\n\nUne mère leva la main. Son fils Léo, 4 ans, mélangeait encore les deux langues dans une même phrase. Fallait-il s'inquiéter ? La chercheuse reconnut la pertinence de la question, car beaucoup de parents se la posent. « C'est normal, répondit-elle. Léo prend le mot qu'il trouve le plus vite. Cela passera. » Elle compara la langue au violon : on ne l'apprend pas par l'accumulation de règles, mais par la pratique de chaque jour. Pour une langue, l'accumulation des petits moments compte plus que les grands efforts.\n\nRestait la question de la créativité. Certaines études affirment que les bilingues ont plus de créativité. Martine Berset resta prudente : elle ne niait pas la pertinence de ces études, mais, selon elle, les preuves restent faibles. « Ce que je peux vous dire, c'est que vos enfants ne perdent rien. » Les parents sortirent rassurés.\n\nQuestions :\nPourquoi la chercheuse a-t-elle choisi Fribourg ?\nParce que Fribourg est une ville bilingue, où l'on parle français et allemand.\nPourquoi avoir deux langues est-il un exercice cognitif ?\nParce que l'enfant doit choisir sans cesse la bonne langue selon la personne qui lui parle.\nQuelle différence structurelle y a-t-il entre l'allemand et le français ?\nL'allemand place souvent le verbe à la fin de la phrase, le français le met plus tôt.\nPourquoi la chercheuse parle-t-elle du violon ?\nParce qu'une langue, comme le violon, ne s'apprend pas par l'accumulation de règles, mais par la pratique de chaque jour.\nLes bilingues ont-ils plus de créativité ?\nC'est possible, mais selon Martine Berset, les preuves sont encore faibles."
+    },
+    {
+      "title": "Le dernier voisin qui parle wallon",
+      "summary": "Near Namur, an old man who still speaks Walloon every day talks about the language he learned as a child and that young people now study in class.",
+      "newWords": [
+        "voisinage",
+        "millénaire",
+        "marginal",
+        "extinction",
+        "longuement",
+        "puiser",
+        "funérailles",
+        "identitaire",
+        "compassion",
+        "émaner"
+      ],
+      "text": "Joseph a 87 ans et habite un village au sud de Namur. Quand il ouvre sa porte, il salue ses visiteurs en wallon, la langue qu'il a apprise de sa mère, bien avant le français. « Quand j'étais petit, tout le voisinage parlait wallon, raconte-t-il. Le facteur, le curé, les fermiers. Le français, c'était pour l'école et pour les papiers. »\n\nLe wallon n'est pas du français mal parlé, comme on l'a longtemps dit. C'est une langue à part, née du latin, comme le français, et qui s'est formée dans ces régions il y a plus d'un millénaire. Pendant presque un millénaire, elle a été la langue de tous les jours en Wallonie. Aujourd'hui, elle est devenue marginale : les jeunes la comprennent parfois un peu, mais très peu la parlent. Même dans les villages, son usage reste marginal. Les spécialistes la placent parmi les langues menacées d'extinction.\n\nJoseph n'aime pas ce mot. « L'extinction, c'est pour les animaux, dit-il. Une langue ne meurt pas comme ça. Elle dort. » Il parle longuement de sa jeunesse, de son voisinage d'autrefois, des chansons de la fête du village, des mots qui n'existent qu'en wallon. Il y en a un pour la petite pluie fine du matin, un autre pour la fatigue douce après le travail. Pour trouver ces mots, il puise dans sa mémoire, et il puise aussi dans les chansons de sa mère. Il les dit, les répète longuement, puis les traduit en riant, parce qu'en français ils perdent une partie de leur sens.\n\nL'an dernier, son ami Henri est mort. Aux funérailles, la famille a demandé à Joseph de lire un poème en wallon. « Henri aimait ce texte. Aux funérailles, il y avait 100 personnes, et peut-être 10 comprenaient. Mais tout le monde a pleuré. La musique de la langue suffisait. »\n\nDepuis quelques années, le wallon revient d'une autre manière. Des associations organisent des cours du soir, et des pièces de théâtre en wallon remplissent les salles. Pour certains jeunes, apprendre le wallon est devenu un geste identitaire, une façon de dire d'où ils viennent. Joseph se méfie un peu de cette question identitaire. « Je ne parle pas wallon pour montrer quelque chose. Je le parle parce que c'est ma langue, c'est tout. »\n\nIl ne juge pourtant pas ces jeunes. Il parle d'eux avec beaucoup de compassion. « Ils apprennent dans des livres ce que j'ai appris dans la cuisine. C'est plus difficile. » Cette compassion n'est pas de la pitié : il est heureux qu'ils essaient. Deux fois par mois, une étudiante de Namur vient l'enregistrer. Elle dit qu'une grande chaleur émane de sa voix. Lui pense que la chaleur émane de la langue elle-même.\n\nQuestions :\nQuelle langue Joseph a-t-il apprise de sa mère ?\nIl a appris le wallon, bien avant le français.\nD'où vient le wallon ?\nLe wallon est né du latin, comme le français, il y a plus d'un millénaire.\nPourquoi Joseph n'aime-t-il pas le mot extinction ?\nParce que, pour lui, une langue ne meurt pas : elle dort.\nQue s'est-il passé aux funérailles d'Henri ?\nJoseph a lu un poème en wallon, et tout le monde a pleuré, même ceux qui ne comprenaient pas.\nPourquoi certains jeunes apprennent-ils le wallon ?\nPour eux, c'est un geste identitaire, une façon de dire d'où ils viennent.\nComment Joseph parle-t-il de ces jeunes ?\nIl en parle avec beaucoup de compassion."
+    },
+    {
+      "title": "Pain au chocolat ou chocolatine ?",
+      "summary": "A newcomer to a village in the Bordeaux vineyards describes the friendly quarrel over the name of a pastry, and what the local baker thinks really matters.",
+      "newWords": [
+        "rivalité",
+        "vignoble",
+        "boulanger",
+        "répartie",
+        "molière",
+        "laitier",
+        "décevant",
+        "jambon",
+        "audacieux"
+      ],
+      "text": "Il existe en France une rivalité presque aussi ancienne que celle des grands clubs de football : la rivalité du pain au chocolat et de la chocolatine. Il s'agit pourtant de la même chose, une pâte au beurre roulée autour de deux barres de chocolat. À Paris et dans la plus grande partie du pays, on demande un pain au chocolat. À Bordeaux, à Toulouse et dans une bonne partie du Sud-Ouest, on demande une chocolatine.\n\nJ'habite depuis 3 ans un village au milieu du vignoble, à 30 kilomètres de Bordeaux. Les touristes y viennent surtout pour le vin et pour les promenades dans le vignoble. Mon boulanger est né ici, comme son père, qui était déjà boulanger. Il vend des chocolatines, et seulement des chocolatines. Sur son comptoir, une petite affiche dit : « Ici, on parle comme chez nous. »\n\nSa femme tient la caisse, et elle a beaucoup de répartie. Un matin, un client de Paris lui a demandé deux pains au chocolat. « Bien sûr, monsieur, a-t-elle répondu en souriant. Deux chocolatines, ça vous fait 2 euros 60. » Le client a ri et a payé. Dans le village, tout le monde connaît sa répartie ; certains viennent presque pour l'entendre.\n\nMais qui a raison ? Les spécialistes répondent tranquillement : personne, ou tout le monde. Une langue vivante a des mots régionaux, et la langue de Molière n'a jamais été la même partout. Molière lui-même a passé des années sur les routes de province avec sa troupe, et il entendait des mots différents d'une ville à l'autre. Il savait qu'un même objet peut porter plusieurs noms.\n\nMon boulanger, lui, trouve que la question du nom compte moins que la question du goût. Ce qui l'intéresse, ce sont les produits laitiers : un bon beurre, un lait entier, venus d'une ferme voisine. « Sans de bons produits laitiers, une chocolatine est décevante, m'a-t-il dit. Molle, grasse, sans goût. Ce qui est décevant, ce n'est jamais le mot, c'est le beurre. » Le midi, il vend aussi des sandwichs au jambon, avec le même beurre. Pour le jambon, il n'y a pas de rivalité : on dit sandwich au jambon partout en France.\n\nCertains commerçants plus audacieux ont trouvé une solution pour plaire à tous. Chez un boulanger de Toulouse, l'étiquette porte les deux mots, l'un au-dessus de l'autre, avec un seul prix. L'idée paraît audacieuse, mais elle est surtout prudente.\n\nPour ma part, je dis chocolatine au village et pain au chocolat quand je vais voir ma mère à Paris. C'est une manière de parler comme les gens qui m'accueillent.\n\nQuestions :\nQuelle est la différence entre un pain au chocolat et une chocolatine ?\nIl n'y a pas de différence : c'est la même chose sous deux noms.\nOù dit-on chocolatine ?\nOn dit chocolatine à Bordeaux, à Toulouse et dans une bonne partie du Sud-Ouest.\nComment la femme du boulanger a-t-elle répondu au client de Paris ?\nElle a répondu avec répartie : « Bien sûr, monsieur. Deux chocolatines, ça vous fait 2 euros 60. »\nPourquoi l'auteur parle-t-il de Molière ?\nParce que Molière a voyagé en province avec sa troupe et entendait des mots différents d'une ville à l'autre.\nSelon le boulanger, qu'est-ce qui rend une chocolatine décevante ?\nCe sont de mauvais produits laitiers, surtout un mauvais beurre.\nQuelle solution a trouvée un boulanger de Toulouse ?\nSon étiquette porte les deux mots, l'un au-dessus de l'autre, avec un seul prix."
+    },
+    {
+      "title": "La cerise sur le gâteau",
+      "summary": "In Dakar, a teacher of future journalists spends an hour on French idioms about food and the body.",
+      "newWords": [
+        "cerise",
+        "cuillère",
+        "biscuit",
+        "clin",
+        "hanche",
+        "menton",
+        "balayer",
+        "sentimental",
+        "troubler"
+      ],
+      "text": "À Dakar, le français est la langue de l'école, de l'administration et de nombreux journaux. Awa Diop l'enseigne à de futurs journalistes. Chaque jeudi, elle consacre une heure aux expressions, ces groupes de mots qui ne veulent pas dire ce qu'ils disent. « Un journaliste doit les connaître, explique-t-elle. Sinon, il comprend une phrase de travers, ou il l'écrit de travers. »\n\nCe jeudi-là, elle commença par la nourriture. Elle écrivit au tableau : « C'est la cerise sur le gâteau. » Moussa, un grand garçon du premier rang, proposa une explication : la cerise est ce qu'on ajoute à la fin, quand le gâteau est déjà bon. « Exactement, dit Awa Diop. La cerise, c'est le petit plus. Vous avez réussi votre examen, et en plus on vous offre un stage : c'est la cerise sur le gâteau. »\n\nElle passa ensuite à la cuillère. « Il n'y est pas allé avec le dos de la cuillère. » Personne ne trouva. Elle expliqua qu'avec le dos de la cuillère, on ne prend presque rien. Celui qui n'y va pas avec le dos de la cuillère prend beaucoup, il agit fort, parfois trop. « Le ministre n'y est pas allé avec le dos de la cuillère : il a augmenté les taxes de 20 %. »\n\nVint le biscuit. Autrefois, les marins emportaient des biscuits secs pour les longs voyages. Partir sans biscuit, c'était partir sans nourriture. Aujourd'hui, celui qui s'embarque sans biscuit commence un projet sans rien préparer.\n\nPuis elle passa au corps. Pour dire « très vite », on dit « en un clin d'œil ». Mais un clin d'œil, c'est aussi un petit signe complice. Ensuite, sans dire un mot, Awa Diop posa les poings sur les hanches. Toute la classe comprit : elle attendait une réponse, et elle n'était pas contente. Les poings sur les hanches, c'est l'image même de l'impatience. Moussa, le menton dans la main, réfléchissait. « Voilà une autre image, dit-elle en le montrant. Le menton dans la main, c'est la pose de celui qui réfléchit. »\n\nPour finir, elle écrivit : « Il faut balayer devant sa porte. » Balayer devant sa porte, c'est corriger ses propres défauts avant de critiquer ceux des autres.\n\nUne étudiante raconta alors qu'elle gardait le carnet d'expressions de sa grand-mère. Ce carnet n'avait aucune valeur en argent, mais pour elle, sa valeur était sentimentale. Moussa, lui, avoua qu'une chose le troublait : pourquoi tant d'expressions parlent-elles de manger ? La question troubla un instant Awa Diop. « Peut-être parce qu'on parle mieux de ce qu'on aime, répondit-elle. Et sans doute aussi parce que je suis sentimentale. »\n\nQuestions :\nPourquoi Awa Diop enseigne-t-elle les expressions ?\nParce qu'un journaliste qui ne les connaît pas comprend ou écrit une phrase de travers.\nQue veut dire « c'est la cerise sur le gâteau » ?\nCela veut dire que c'est le petit plus, ajouté à une chose déjà bonne.\nD'où vient l'expression « s'embarquer sans biscuit » ?\nElle vient des marins, qui emportaient des biscuits secs pour les longs voyages.\nQue fait Awa Diop pour montrer l'impatience ?\nElle pose les poings sur les hanches.\nQue veut dire « balayer devant sa porte » ?\nC'est corriger ses propres défauts avant de critiquer ceux des autres.\nQuelle valeur a le carnet de la grand-mère ?\nIl n'a aucune valeur en argent, mais pour l'étudiante, sa valeur est sentimentale."
+    },
+    {
+      "title": "Une ligne, deux secondes",
+      "summary": "A Paris subtitler explains, step by step, how she fits an English spy and detective series into short French lines.",
+      "newWords": [
+        "téléspectateur",
+        "protagoniste",
+        "détective",
+        "magicien",
+        "sirène",
+        "scénariste",
+        "opus",
+        "espionnage",
+        "évader",
+        "flagrant"
+      ],
+      "text": "Claire Lemoine écrit des sous-titres à Paris. Depuis 10 ans, elle traduit en français des séries anglaises, pour des téléspectateurs qui préfèrent entendre la voix des vrais acteurs. Son travail commence toujours de la même façon : elle regarde l'épisode en entier, sans rien écrire, pour comprendre l'histoire.\n\nCe mois-ci, elle travaille sur une série policière tournée à Londres. Le protagoniste est un vieux détective, lent et poli, qui parle peu mais avec une grande précision. Ce détective a une habitude étrange : il cite des poèmes au milieu de ses enquêtes. « Pour moi, c'est un cauchemar, dit Claire en riant. Il faut traduire le poème, et il faut qu'il tienne en deux lignes. »\n\nCar un sous-titre obéit à des règles strictes. Une ligne ne dépasse pas 40 caractères environ, et le téléspectateur doit pouvoir la lire en deux secondes, tout en regardant l'image. Claire ne traduit donc jamais tout. Elle résume, elle choisit, elle coupe. Quand le protagoniste parle pendant une minute, elle garde l'idée principale et laisse tomber les détails. « Les gens pensent que nous sommes des magiciens, qui font entrer une longue phrase dans une petite boîte. Nous ne sommes pas des magiciens. Nous faisons des choix, et chaque choix fait perdre quelque chose. »\n\nCertains passages sont plus simples. Quand une sirène de police hurle dans la rue, elle n'écrit rien : le son suffit. Mais la sirène couvre parfois une réplique importante. Claire lit alors le script, ou elle écrit au scénariste. Le scénariste, un Anglais très aimable, lui répond en général le jour même.\n\nCe nouvel opus de la série raconte une affaire d'espionnage. Un ancien agent secret s'est évadé de prison, et le détective doit le retrouver avant qu'il ne quitte le pays. Pourquoi s'est-il évadé ? Le téléspectateur ne le découvre qu'à la fin. Les histoires d'espionnage posent un problème particulier : les personnages parlent par sous-entendus, et une phrase banale cache souvent un message. Si la traduction est trop claire, le secret disparaît. Si elle est trop obscure, plus personne ne comprend rien. Pour cet opus, Claire a passé deux jours sur un seul dialogue.\n\nElle relit tout deux fois, avec l'image. Il y a 5 ans, elle a laissé passer une erreur flagrante : elle avait écrit « mardi » au lieu de « jeudi », et toute l'enquête devenait absurde. Des téléspectateurs ont écrit à la chaîne. Depuis, elle se méfie des erreurs flagrantes plus que des erreurs subtiles. Dans le dernier épisode, d'ailleurs, le détective prend l'agent en flagrant délit, au moment même où il passe la frontière. Claire a traduit cette scène en un quart d'heure : il n'y avait presque rien à dire.\n\nQuestions :\nQue fait Claire avant de commencer à écrire ?\nElle regarde l'épisode en entier, sans rien écrire, pour comprendre l'histoire.\nQui est le protagoniste de la série ?\nC'est un vieux détective, lent et poli, qui cite des poèmes au milieu de ses enquêtes.\nPourquoi Claire ne traduit-elle jamais tout ?\nParce qu'une ligne ne dépasse pas 40 caractères et que le téléspectateur doit la lire en deux secondes.\nQue fait-elle quand une sirène couvre une réplique ?\nElle lit le script, ou elle écrit au scénariste.\nDe quoi parle le nouvel opus ?\nIl raconte une affaire d'espionnage : un ancien agent secret s'est évadé de prison.\nQuelle erreur flagrante Claire a-t-elle faite il y a 5 ans ?\nElle avait écrit « mardi » au lieu de « jeudi »."
+    },
+    {
+      "title": "Une lettre que tout le monde comprend",
+      "summary": "In Liège, a language specialist rewrites the city's letters so that residents understand them, with the lawyers' approval.",
+      "newWords": [
+        "licencié",
+        "administré",
+        "jurisprudence",
+        "ultérieur",
+        "créancier",
+        "souscrire",
+        "brièvement",
+        "impliquant",
+        "aval",
+        "prévaloir"
+      ],
+      "text": "Sophie Lambert a fait ses études de lettres à l'université de Liège, il y a 25 ans. En Belgique, on disait autrefois qu'une personne qui avait fini ce genre d'études était licenciée ; Sophie est donc licenciée en langues et lettres. Depuis 4 ans, elle travaille pour la Ville de Liège. Son travail : rendre les lettres de l'administration claires pour ceux qui les reçoivent.\n\nDans les bureaux, on appelle ces personnes les administrés. Un administré, c'est un habitant dans sa relation avec l'administration : celui qui paie une taxe, demande un permis ou reçoit un avis. « Les administrés ne lisent pas nos lettres comme des juristes, explique Sophie. Ils les lisent dans leur cuisine, souvent inquiets. Si la première phrase est obscure, ils s'arrêtent là. »\n\nElle nous montre une lettre qu'elle vient de corriger. La version ancienne disait : « Conformément à la jurisprudence en vigueur, toute démarche ultérieure sera à la charge du débiteur. » Sophie a d'abord dû comprendre chaque mot. La jurisprudence, c'est l'ensemble des décisions déjà prises par les tribunaux sur une question. Ultérieur veut dire « qui vient plus tard ». Mais un habitant n'a pas besoin de connaître la jurisprudence pour payer une facture. La nouvelle version dit simplement : « Si vous ne payez pas avant le 30 juin, les frais des démarches ultérieures seront à votre charge. »\n\nDans ce genre de lettre, la Ville est un créancier : quelqu'un à qui l'on doit de l'argent. « Un créancier a tout intérêt à être compris, sourit Sophie. Une lettre que personne ne comprend n'est jamais payée. » Une autre lettre invitait les commerçants du centre à souscrire un abonnement de stationnement. Le mot souscrire inquiétait plus d'un commerçant. Sophie a écrit : « Pour souscrire un abonnement, remplissez ce formulaire. Cela prend 5 minutes. »\n\nSa méthode est simple. Elle commence par dire brièvement ce que la Ville attend : payer, répondre, venir. Elle explique ensuite pourquoi, puis comment. Elle garde une idée par phrase. Les dossiers impliquant plusieurs services sont les plus difficiles, car chaque service veut ajouter son paragraphe. Pour une lettre impliquant les finances, l'urbanisme et la police, Sophie a dû organiser trois réunions.\n\nAucune lettre ne part sans l'aval du service juridique. Les juristes craignent parfois que la simplicité ne prévale sur la précision. Sophie comprend cette crainte. Pour obtenir leur aval, elle leur montre chaque phrase et accepte de garder un mot technique quand il est nécessaire. Mais elle défend une idée : quand une lettre s'adresse à tous, la clarté doit prévaloir. « Le droit n'a jamais été fait pour être caché, conclut-elle brièvement. Il est fait pour être connu. »\n\nQuestions :\nPourquoi dit-on que Sophie est licenciée ?\nParce qu'en Belgique, on disait ainsi d'une personne qui avait fini des études universitaires.\nQu'est-ce qu'un administré ?\nC'est un habitant dans sa relation avec l'administration.\nQu'est-ce que la jurisprudence ?\nC'est l'ensemble des décisions déjà prises par les tribunaux sur une question.\nPourquoi un créancier doit-il être compris ?\nParce qu'une lettre que personne ne comprend n'est jamais payée.\nPar quoi Sophie commence-t-elle ses lettres ?\nElle commence par dire brièvement ce que la Ville attend.\nQui doit donner son aval avant l'envoi d'une lettre ?\nLe service juridique doit donner son aval."
+    },
+    {
+      "title": "D'où viennent les mots de la politique ?",
+      "summary": "In Geneva, a professor of the history of French traces political words such as arena, truce and insurrection back to their first meanings.",
+      "newWords": [
+        "chaire",
+        "arène",
+        "présidentiel",
+        "écologiste",
+        "fasciste",
+        "insurrection",
+        "trêve",
+        "spéculation",
+        "cumuler"
+      ],
+      "text": "Hélène Rochat occupe depuis 12 ans la chaire d'histoire de la langue française à l'université de Genève. Le mot chaire lui-même a une histoire. C'était d'abord le siège élevé d'où le prêtre parlait aux fidèles dans l'église. Plus tard, il a désigné le poste d'un professeur d'université. Cette année, Hélène Rochat consacre son cours public aux mots de la politique.\n\nElle a commencé par l'arène. À Rome, l'arène était le lieu où combattaient les gladiateurs. Aujourd'hui, on parle de l'arène politique, et l'image n'est pas innocente : on y entre pour se battre, sous le regard d'un public qui veut un vainqueur. « Chaque fois qu'un journal écrit qu'un candidat descend dans l'arène, il fait de la politique un combat », explique-t-elle.\n\nLes campagnes électorales sont aussi de grandes fabriques de mots. Pendant chaque campagne présidentielle, en France, des expressions nouvelles apparaissent, et la plupart disparaissent après l'élection présidentielle. Quelques-unes restent. Le mot écologiste, par exemple, existait depuis longtemps chez les savants, qui étudiaient les relations entre les êtres vivants et leur milieu. Dans les années 1970, il est entré en politique, et un écologiste est devenu aussi une personne qui défend la nature dans les élections.\n\nCertains mots demandent plus de précautions. Fasciste vient de l'italien : le mot désignait le mouvement de Mussolini, dans les années 1920. Aujourd'hui, on l'entend souvent comme une simple insulte, lancée contre tout adversaire. Hélène Rochat demande de la précision. « Si tout le monde est fasciste, plus personne ne l'est. Le mot perd son sens. »\n\nInsurrection vient du latin et signifie à peu près « se lever contre ». Les Parisiens ont connu plusieurs insurrections, en 1830 et en 1848 par exemple. La trêve, elle, vient du Moyen Âge. L'Église imposait alors la trêve de Dieu : certains jours, il était interdit de se battre. Le mot a survécu de façon plus légère. On parle encore, en France, de la trêve des confiseurs : entre Noël et le Nouvel An, la vie politique s'arrête, et les adversaires se reposent.\n\nSpéculation vient d'un verbe latin qui voulait dire « observer depuis un lieu élevé ». Les philosophes l'ont d'abord employé pour parler de la pensée pure. Aujourd'hui, la spéculation est surtout financière : on achète pour revendre plus cher. Enfin, cumuler signifie réunir plusieurs choses. En France, on a longtemps reproché aux hommes politiques de cumuler les mandats, d'être à la fois maire et député. Depuis 2017, la loi l'interdit.\n\nÀ la fin de chaque cours, Hélène Rochat descend de sa chaire et répond aux questions. « Connaître l'histoire d'un mot, dit-elle, c'est déjà un peu mieux comprendre ceux qui l'emploient. »\n\nQuestions :\nQue désignait d'abord le mot chaire ?\nIl désignait le siège élevé d'où le prêtre parlait aux fidèles dans l'église.\nQue veut dire « descendre dans l'arène » ?\nCela veut dire entrer en politique pour se battre, comme dans un combat.\nQuand le mot écologiste est-il entré en politique ?\nIl est entré en politique dans les années 1970.\nPourquoi Hélène Rochat demande-t-elle de la précision avec le mot fasciste ?\nParce que si tout le monde est fasciste, le mot perd son sens.\nQu'est-ce que la trêve des confiseurs ?\nC'est la période entre Noël et le Nouvel An, quand la vie politique s'arrête.\nQue reprochait-on aux hommes politiques qui cumulaient les mandats ?\nOn leur reprochait d'être à la fois maire et député."
+    },
+    {
+      "title": "Les mots qui font peur",
+      "summary": "At a Lausanne hospital, an interpreter explains that medical French frightens even French speakers, and how she translates it for patients.",
+      "newWords": [
+        "lésion",
+        "bénin",
+        "guérison",
+        "natation",
+        "coma",
+        "psychiatrique",
+        "psychique",
+        "pénurie",
+        "générosité"
+      ],
+      "text": "Fatou Ndiaye est interprète à l'hôpital de Lausanne. Elle traduit entre le français, le wolof et l'anglais pour des patients qui ne parlent pas la langue des médecins. Mais elle le dit elle-même : la langue des médecins, même les patients francophones ne la parlent pas toujours.\n\nElle raconte l'histoire d'un monsieur venu de Dakar, qui parlait surtout wolof, pour une douleur au dos. Après la radio, le médecin lui a annoncé une petite lésion, tout à fait bénigne. Le patient n'a entendu qu'un mot : lésion. Il est devenu tout pâle. Fatou a alors expliqué, en wolof, qu'une lésion est seulement une partie du corps abîmée, et que bénin veut dire « sans danger ». Une lésion bénigne, ce n'est pas une maladie grave. « Le mot bénin, peu de gens le connaissent, dit-elle. Le mot lésion, tout le monde en a peur. »\n\nLe médecin a ensuite parlé de la guérison. Pour guérir, le monsieur devait faire de la natation deux fois par semaine. Il ne comprenait pas pourquoi on lui demandait de nager alors qu'il avait mal. Fatou a traduit l'explication : dans l'eau, le dos ne porte plus le poids du corps, et les muscles travaillent sans souffrir. La natation n'était pas un sport, c'était un traitement. La guérison a pris trois mois.\n\nD'autres mots sont encore plus lourds. Un jour, des parents ont appris que leur fils, après un accident de moto, était dans le coma. Les médecins parlaient d'un coma artificiel. La mère a cru que son fils allait mourir. Fatou a pris le temps d'expliquer : un coma artificiel, ce sont les médecins qui le provoquent, avec des médicaments, pour laisser le cerveau se reposer. On peut réveiller le patient quand il va mieux. Le jeune homme s'est réveillé dix jours plus tard.\n\nFatou travaille aussi au service psychiatrique. Là, les mots sont délicats d'une autre façon. Dans beaucoup de familles, le mot psychiatrique fait honte. Elle parle donc plutôt de souffrance psychique, et elle explique que la souffrance psychique est une maladie comme une autre, qui se soigne. « Je ne change pas le sens, précise-t-elle. Je choisis le mot qui permet au patient d'écouter la suite. »\n\nLe problème, c'est la pénurie d'interprètes. L'hôpital en manque, surtout pour les langues rares, et cette pénurie oblige parfois les médecins à parler par gestes. Pour y répondre, des bénévoles viennent aider, souvent après leur journée de travail. Fatou admire leur générosité. Elle-même a commencé comme bénévole, il y a 15 ans. « La générosité ne remplace pas la formation, dit-elle. Mais sans elle, beaucoup de patients seraient seuls avec leurs mots qui font peur. »\n\nQuestions :\nQue fait Fatou Ndiaye à l'hôpital ?\nElle traduit entre le français, le wolof et l'anglais pour des patients qui ne parlent pas la langue des médecins.\nQue veut dire une lésion bénigne ?\nC'est une partie du corps abîmée, mais sans danger.\nPourquoi le médecin a-t-il proposé la natation ?\nParce que dans l'eau, le dos ne porte plus le poids du corps et les muscles travaillent sans souffrir.\nQu'est-ce qu'un coma artificiel ?\nC'est un coma que les médecins provoquent avec des médicaments pour laisser le cerveau se reposer.\nPourquoi Fatou parle-t-elle de souffrance psychique ?\nParce que, dans beaucoup de familles, le mot psychiatrique fait honte.\nQue manque-t-il à l'hôpital ?\nIl y a une pénurie d'interprètes, surtout pour les langues rares."
+    },
+    {
+      "title": "Une chaudière au Québec",
+      "summary": "During a polar cold spell in Quebec City, a technical translator works through a boiler manual, a generator guide and a railway notice.",
+      "newWords": [
+        "polaire",
+        "rafale",
+        "chaudière",
+        "combustible",
+        "assemblage",
+        "déboucher",
+        "générateur",
+        "obscurité",
+        "ferré"
+      ],
+      "text": "En janvier, à Québec, Mathieu Côté travaille chez lui, devant une fenêtre couverte de glace. Dehors, il fait moins 30 degrés : un froid polaire, comme la ville en connaît chaque hiver. Le vent souffle par rafales, et chaque rafale fait trembler la vitre. Mathieu est traducteur technique. Il traduit de l'anglais vers le français des guides, des notices et des manuels, pour des entreprises qui vendent leurs produits au Québec.\n\nCe matin, il traduit le manuel d'une chaudière. Le mot lui-même demande déjà une décision. En France, une chaudière est l'appareil qui chauffe l'eau d'une maison. Au Québec, dans la langue de tous les jours, une chaudière est aussi un seau, et beaucoup de gens disent qu'ils remplissent une chaudière d'eau. Dans un manuel, Mathieu garde le sens technique, mais il ajoute le mot appareil dans le titre, pour qu'aucun lecteur ne se trompe.\n\nLe manuel explique ensuite quel combustible utiliser : du gaz, du bois ou de l'huile. Le choix du combustible change tout le reste du texte, et Mathieu vérifie chaque terme dans les grandes bases de mots publiques. Puis viennent les instructions d'assemblage. L'assemblage est la partie la plus délicate : chaque pièce a un nom précis, et une erreur de traduction peut mettre une famille en danger. Il relit trois fois les phrases sur les tuyaux. L'une d'elles explique comment déboucher le tuyau d'évacuation quand la neige le bloque. Déboucher un tuyau, en français, c'est le libérer de ce qui l'empêche de laisser passer l'air.\n\nL'après-midi, il passe à un autre texte : le guide d'un générateur. Pendant les tempêtes, il arrive que l'électricité soit coupée pendant plusieurs jours, et des quartiers entiers restent dans l'obscurité. Beaucoup de familles ont donc un générateur, qu'elles installent dehors, près de la maison. Le guide insiste sur un danger : un générateur ne doit jamais fonctionner dans une pièce fermée. Mathieu écrit cette phrase en gras. Il pense aux soirées d'hiver passées dans l'obscurité, chez ses parents, à la lumière des bougies.\n\nLe dernier document de la journée vient d'une compagnie de chemin de fer. C'est un avis pour les travailleurs qui entretiennent la voie ferrée pendant l'hiver. Le texte explique comment travailler sur une voie ferrée par grand froid, quand les rafales soulèvent la neige et cachent les trains qui arrivent. Mathieu traduit lentement. Une phrase mal comprise, ici, peut coûter une vie.\n\nÀ 18 heures, il éteint son ordinateur. Dehors, l'obscurité est déjà tombée, et le froid polaire n'a pas changé. Au sous-sol, sa propre chaudière tourne doucement. Il sourit : il sait maintenant comment elle fonctionne.\n\nQuestions :\nQuel temps fait-il à Québec ?\nIl fait moins 30 degrés : c'est un froid polaire, et le vent souffle par rafales.\nQue veut dire chaudière au Québec, dans la langue de tous les jours ?\nC'est aussi un seau.\nPourquoi les instructions d'assemblage sont-elles délicates ?\nParce que chaque pièce a un nom précis et qu'une erreur peut mettre une famille en danger.\nPourquoi faut-il déboucher le tuyau d'évacuation ?\nParce que la neige peut le bloquer.\nPourquoi beaucoup de familles ont-elles un générateur ?\nParce que, pendant les tempêtes, l'électricité est parfois coupée et des quartiers restent dans l'obscurité.\nDe quoi parle l'avis de la compagnie de chemin de fer ?\nIl explique comment travailler sur une voie ferrée par grand froid."
+    }
+  ]
+}
