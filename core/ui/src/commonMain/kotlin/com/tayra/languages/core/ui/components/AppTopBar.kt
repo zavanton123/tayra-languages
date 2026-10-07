@@ -49,7 +49,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 
 /** The main navigation areas, used to highlight the active tab; [label] is English, shown through `tr`. */
-enum class NavSection(val label: String) { HOME("Home"), BOOKS("Books"), COURSES("Courses"), TERMS("Vocabulary"), FLASHCARDS("Flashcards"), SETTINGS("Settings"), ABOUT("About") }
+enum class NavSection(val label: String) { HOME("Home"), BOOKS("Books"), COURSES("Courses"), TERMS("Vocabulary"), FLASHCARDS("Flashcards"), SETTINGS("Settings") }
 
 /** How many flashcards wait today, shown beside the Flashcards tab; provided at the root of the app. */
 val LocalFlashcardsDue = compositionLocalOf { 0 }
@@ -63,7 +63,7 @@ private data class MenuGroup(val section: NavSection, val entries: List<MenuEntr
 private val menuGroups = listOf(
     MenuGroup(NavSection.BOOKS, listOf(MenuEntry("All books", Route.Home), MenuEntry("Create new book", Route.NewBook), MenuEntry("Book archive", Route.ArchivedBooks))),
     MenuGroup(NavSection.COURSES, listOf(MenuEntry("Courses", Route.Courses)), direct = true),
-    MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()), MenuEntry("Word frequency", Route.WordFrequency))),
+    MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()), MenuEntry("Word frequency", Route.WordFrequency), MenuEntry("Statistics", Route.Stats))),
     MenuGroup(NavSection.FLASHCARDS, listOf(MenuEntry("Review flashcards", Route.Flashcards), MenuEntry("Flashcard settings", Route.FlashcardSettings))),
     MenuGroup(
         NavSection.SETTINGS,
@@ -78,16 +78,16 @@ private val menuGroups = listOf(
             MenuEntry("Vocabulary", Route.VocabularySettings),
             MenuEntry("Keyboard shortcuts", Route.Shortcuts),
             MenuEntry("Backups", Route.Backups),
+            MenuEntry("About", Route.About),
         ),
     ),
-    MenuGroup(NavSection.ABOUT, listOf(MenuEntry("Statistics", Route.Stats), MenuEntry("About", Route.About))),
 )
 
 const val APP_NAME = "Tayra Languages"
 
 /**
  * The application bar with the choice of the language being learned and the main menu (Books,
- * Vocabulary, Settings, About), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
+ * Vocabulary, Settings), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
  *
  * Wide windows always show the logo with the app's name, which leads home. [title] names the
  * screen only in the compact bar on phones, so screens show their own heading on wide windows

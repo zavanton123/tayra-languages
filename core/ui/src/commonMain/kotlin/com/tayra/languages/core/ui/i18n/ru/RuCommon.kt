@@ -160,4 +160,13 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Year" to "Год",
     "Total" to "Всего",
     "Cumulative words read" to "Прочитано слов нарастающим итогом",
+    // TagFilter.kt
+    "Filter by tags" to "Фильтр по тегам",
+    "Find tags" to "Найти тег",
+    "No tags match." to "Таких тегов нет.",
+    "Match" to "Совпадение",
+    "Any tag" to "Любой тег",
+    "All tags" to "Все теги",
+    "No tags selected" to "Теги не выбраны",
+    "{0} tags selected" to "Выбран {0} тег|Выбрано {0} тега|Выбрано {0} тегов",
 )

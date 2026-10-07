@@ -76,6 +76,7 @@ import com.tayra.languages.core.ui.components.ConfirmDialog
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.components.TagFilterButton
 import com.tayra.languages.core.ui.components.relativeTo
 import com.tayra.languages.core.ui.i18n.formatCount
 import com.tayra.languages.core.ui.i18n.tr
@@ -125,6 +126,7 @@ fun BooksScreen(
                 onDismissDemo = viewModel::dismissDemoNotice,
                 onSearch = viewModel::setSearch,
                 onSort = viewModel::setSort,
+                onTags = viewModel::setTags,
                 onProgress = viewModel::setProgress,
                 onView = viewModel::setView,
                 onToggle = { viewModel.toggleSelected(it.id) },
@@ -181,6 +183,7 @@ internal class BooksCallbacks(
     val onDismissDemo: () -> Unit = {},
     val onSearch: (String) -> Unit = {},
     val onSort: (BookSort) -> Unit = {},
+    val onTags: (tags: Set<String>, matchAll: Boolean) -> Unit = { _, _ -> },
     val onProgress: (ProgressFilter) -> Unit = {},
     val onView: (BooksView) -> Unit = {},
     val onToggle: (BookListItem) -> Unit = {},
@@ -302,6 +305,8 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count:
     val colors = MaterialTheme.colorScheme
     val sortMenu: @Composable (Modifier) -> Unit = { FilterMenu(AppIcons.SwapVert, tr(state.sort.label), BookSort.entries, { tr(it.label) }, callbacks.onSort, it) }
     val progressMenu: @Composable (Modifier) -> Unit = { FilterMenu(AppIcons.BarChart, tr(state.progress.label), ProgressFilter.entries, { tr(it.label) }, callbacks.onProgress, it) }
+    val hasTags = state.availableTags.isNotEmpty()
+    val tagFilter: @Composable (Modifier) -> Unit = { TagFilterButton(state.availableTags, state.tags, state.matchAllTags, callbacks.onTags, it) }
     if (compact) {
         Column(Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             SearchBox(state.search, callbacks.onSearch, Modifier.fillMaxWidth())
@@ -309,6 +314,7 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count:
                 sortMenu(Modifier.weight(1f))
                 progressMenu(Modifier.weight(1f))
             }
+            if (hasTags) tagFilter(Modifier)
         }
         return
     }
@@ -317,6 +323,7 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count:
             SearchBox(state.search, callbacks.onSearch)
             sortMenu(Modifier)
             progressMenu(Modifier)
+            if (hasTags) tagFilter(Modifier) else Spacer(Modifier)
             // Only wide windows have the table to switch to.
             if (wide) ViewToggle(state.view, callbacks.onView) else Spacer(Modifier)
             val ticked = state.selectedBooks.size
@@ -329,9 +336,10 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count:
         val gap = 14.dp.roundToPx()
         val width = constraints.maxWidth
         val loose = Constraints(maxWidth = width)
-        val (search, sort, progress, toggle, label) = measurables
-        val controls = listOf(sort, progress, toggle, label).map { it.measure(loose) }
-        val controlsWidth = controls.sumOf { it.width } + gap * 3 + 16.dp.roundToPx()
+        val search = measurables[0]
+        // Sort, progress and tags after the search; the view toggle and the count at the far end.
+        val controls = measurables.drop(1).map { it.measure(loose) }
+        val controlsWidth = controls.sumOf { it.width } + gap * 4 + 16.dp.roundToPx()
         val searchWidth = (width - controlsWidth - gap).coerceAtMost(520.dp.roundToPx())
         val ownRow = searchWidth < 200.dp.roundToPx()
         val field = search.measure(Constraints.fixedWidth(if (ownRow) width else searchWidth))
@@ -343,8 +351,9 @@ private fun Toolbar(state: BooksUiState, compact: Boolean, wide: Boolean, count:
             if (ownRow) field.place(0, 0) else { field.place(0, (rowHeight - field.height) / 2); x = field.width + gap }
             centred(controls[0], x)
             centred(controls[1], x + controls[0].width + gap)
-            centred(controls[3], width - controls[3].width)
-            centred(controls[2], width - controls[3].width - 20.dp.roundToPx() - controls[2].width)
+            centred(controls[2], x + controls[0].width + controls[1].width + gap * 2)
+            centred(controls[4], width - controls[4].width)
+            centred(controls[3], width - controls[4].width - 20.dp.roundToPx() - controls[3].width)
         }
     }
 }

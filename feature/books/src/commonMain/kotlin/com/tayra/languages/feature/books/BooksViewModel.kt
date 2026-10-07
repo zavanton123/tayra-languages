@@ -73,6 +73,10 @@ data class BooksUiState(
     val sort: BookSort = BookSort.RECENT,
     val progress: ProgressFilter = ProgressFilter.ALL,
     val view: BooksView = BooksView.LIST,
+    /** The tags a book must have; empty shows books whatever their tags. */
+    val tags: Set<String> = emptySet(),
+    /** Whether a book needs every one of [tags], or any of them. */
+    val matchAllTags: Boolean = false,
     val isDemo: Boolean = false,
     val tutorialBookId: Long? = null,
     val streak: Int = 0,
@@ -83,9 +87,12 @@ data class BooksUiState(
 ) {
     val filteredBooks: List<BookListItem>
         get() {
+            val wanted = tags.map { it.lowercase() }
             val matching = books.filter { book ->
+                val own = book.tags.map { it.lowercase() }
                 (search.isBlank() || book.title.contains(search, ignoreCase = true) || book.tags.any { it.contains(search, ignoreCase = true) }) &&
-                    (progress.status == null || book.readingStatus == progress.status)
+                    (progress.status == null || book.readingStatus == progress.status) &&
+                    (wanted.isEmpty() || if (matchAllTags) own.containsAll(wanted) else wanted.any { it in own })
             }
             return when (sort) {
                 BookSort.RECENT -> matching.sortedWith(compareByDescending<BookListItem> { it.lastOpened ?: Instant.DISTANT_PAST }.thenBy { it.title.lowercase() })
@@ -95,6 +102,11 @@ data class BooksUiState(
         }
 
     val currentlyReading: Int get() = books.count { it.readingStatus == ReadingStatus.READING }
+
+    /** Every tag the listed books have, the most used first. */
+    val availableTags: List<String>
+        get() = books.flatMap { it.tags }.groupingBy { it }.eachCount().entries
+            .sortedWith(compareByDescending<Map.Entry<String, Int>> { it.value }.thenBy { it.key.lowercase() }).map { it.key }
 
     val selectedBooks: List<BookListItem> get() = filteredBooks.filter { it.id in selected }
 
@@ -116,11 +128,14 @@ class BooksViewModel(
     private val sort = MutableStateFlow(BookSort.RECENT)
     private val progress = MutableStateFlow(ProgressFilter.ALL)
     private val view = MutableStateFlow(BooksView.LIST)
+    private val tagFilter = MutableStateFlow(TagChoice())
     private val selected = MutableStateFlow<Set<Long>>(emptySet())
     private val extras = MutableStateFlow(Extras())
     private val statsInFlight = HashSet<Long>()
 
     private data class Extras(val tutorialBookId: Long? = null, val streak: Int = 0)
+
+    private data class TagChoice(val tags: Set<String> = emptySet(), val matchAll: Boolean = false)
 
     private data class Options(val sort: BookSort, val progress: ProgressFilter, val view: BooksView, val extras: Extras, val wordsLearned: Int)
 
@@ -139,15 +154,19 @@ class BooksViewModel(
         books.observeBooks(archived).onEach(::computeMissingStats),
         languages.observeAll(),
         settings.settings,
-        combine(search, selected, ::Pair),
+        combine(search, selected, tagFilter, ::Triple),
         options,
-    ) { bookList, languageList, prefs, (query, ticked), opts ->
+    ) { bookList, languageList, prefs, (query, ticked, tagChoice), opts ->
         val currentLanguageId = if (languageList.any { it.id == prefs.currentLanguageId }) prefs.currentLanguageId else 0
+        // The page lists the books of the language being learned.
+        val listed = if (currentLanguageId == 0L) bookList else bookList.filter { it.languageId == currentLanguageId }
         BooksUiState(
             loading = false,
             archived = archived,
-            // The page lists the books of the language being learned.
-            books = if (currentLanguageId == 0L) bookList else bookList.filter { it.languageId == currentLanguageId },
+            books = listed,
+            // Tags only another language's books have do not hide this one's.
+            tags = tagChoice.tags.filterTo(linkedSetOf()) { tag -> listed.any { tag in it.tags } },
+            matchAllTags = tagChoice.matchAll,
             languages = languageList,
             currentLanguageId = currentLanguageId,
             search = query,
@@ -196,6 +215,10 @@ class BooksViewModel(
 
     fun setSort(value: BookSort) {
         sort.value = value
+    }
+
+    fun setTags(tags: Set<String>, matchAll: Boolean) {
+        tagFilter.value = TagChoice(tags, matchAll)
     }
 
     fun setProgress(value: ProgressFilter) {

@@ -61,7 +61,7 @@ private val seriesColors = listOf(Color(0xFF1F77B4), Color(0xFFFF7F0E), Color(0x
 @Composable
 fun StatsScreen(onNavigate: (Route) -> Unit, viewModel: StatsViewModel = koinViewModel()) {
     val summary by viewModel.summary.collectAsStateWithLifecycle()
-    Scaffold(topBar = { AppTopBar(title = tr("Statistics"), onNavigate = onNavigate, section = NavSection.ABOUT) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = tr("Statistics"), onNavigate = onNavigate, section = NavSection.TERMS) }) { padding ->
         val data = summary
         if (data == null) {
             LoadingIndicator(Modifier.padding(padding))

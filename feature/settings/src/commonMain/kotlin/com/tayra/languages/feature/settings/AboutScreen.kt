@@ -19,7 +19,7 @@ import com.tayra.languages.core.ui.navigation.Route
 
 @Composable
 fun AboutScreen(onNavigate: (Route) -> Unit) {
-    Scaffold(topBar = { AppTopBar(title = tr("About"), onNavigate = onNavigate, section = NavSection.ABOUT) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = tr("About"), onNavigate = onNavigate, section = NavSection.SETTINGS) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize().padding(16.dp).widthIn(max = 720.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             ScreenTitle(tr("About"))
             Text("Tayra Languages", style = MaterialTheme.typography.headlineSmall)

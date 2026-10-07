@@ -27,6 +27,7 @@ import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.TayraTheme
+import androidx.compose.ui.test.onNodeWithTag
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
@@ -41,12 +42,12 @@ class BooksScreenTest {
 
     private val now = Clock.System.now()
 
-    private fun book(id: Long, title: String, page: Int, pages: Int, words: Int, opened: kotlin.time.Duration?, finished: Boolean, unknownPercent: Int) = BookListItem(
+    private fun book(id: Long, title: String, page: Int, pages: Int, words: Int, opened: kotlin.time.Duration?, finished: Boolean, unknownPercent: Int, tags: List<String> = emptyList()) = BookListItem(
         id = id,
         title = title,
         languageId = 1,
         languageName = "Portuguese",
-        tags = emptyList(),
+        tags = tags,
         currentPage = page,
         pageCount = pages,
         wordCount = words,
@@ -58,11 +59,11 @@ class BooksScreenTest {
     )
 
     private val books = listOf(
-        book(1, "Long text", 3, 5, 1223, 2.minutes, finished = false, unknownPercent = 31),
-        book(2, "Um sábado tranquilo", 1, 1, 103, 54.minutes, finished = true, unknownPercent = 26),
+        book(1, "Long text", 3, 5, 1223, 2.minutes, finished = false, unknownPercent = 31, tags = listOf("news", "travel")),
+        book(2, "Um sábado tranquilo", 1, 1, 103, 54.minutes, finished = true, unknownPercent = 26, tags = listOf("travel")),
         book(3, "Demo", 2, 2, 386, 1.hours, finished = true, unknownPercent = 39),
         book(4, "Short Demo", 1, 1, 96, 70.minutes, finished = true, unknownPercent = 24),
-        book(5, "A Maldição", 1, 1, 163, 4.days, finished = true, unknownPercent = 61),
+        book(5, "A Maldição", 1, 1, 163, 4.days, finished = true, unknownPercent = 61, tags = listOf("news")),
         book(6, "Not opened", 1, 3, 420, null, finished = false, unknownPercent = 80),
     )
 
@@ -82,6 +83,7 @@ class BooksScreenTest {
                                 BooksCallbacks(
                                     onSort = { state = state.copy(sort = it) },
                                     onProgress = { state = state.copy(progress = it) },
+                                    onTags = { tags, all -> state = state.copy(tags = tags, matchAllTags = all) },
                                     onView = { state = state.copy(view = it) },
                                     onToggle = { book -> state = state.copy(selected = if (book.id in state.selected) state.selected - book.id else state.selected + book.id) },
                                     onSelectAll = { all -> state = state.copy(selected = if (all) state.filteredBooks.map { it.id }.toSet() else emptySet()) },
@@ -168,4 +170,24 @@ class BooksScreenTest {
         waitForIdle()
         ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
     }
+
+    @Test
+    fun theBooksCanBeFilteredByAnyOrAllOfSeveralTags() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        waitForIdle()
+        onNodeWithTag("tag-filter").performClick()
+        onNodeWithTag("tag-news").performClick()
+        onNodeWithTag("tag-travel").performClick()
+        onNodeWithTag("apply-tags").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("3 books").fetchSemanticsNodes().isNotEmpty() }
+        for (title in listOf("Long text", "Um sábado tranquilo", "A Maldição")) onNodeWithText(title).assertExists()
+        assertEquals(0, onAllNodesWithText("Demo").fetchSemanticsNodes().size)
+
+        onNodeWithTag("tag-filter").performClick()
+        onNodeWithTag("match-all").performClick()
+        onNodeWithTag("apply-tags").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 book").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Long text").assertExists()
+    }
+
 }
