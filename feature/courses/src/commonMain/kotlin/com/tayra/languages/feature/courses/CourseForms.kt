@@ -44,6 +44,8 @@ import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.NavSection
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.components.PageColumn
 import com.tayra.languages.core.ui.components.ScreenHeader
 import com.tayra.languages.core.ui.navigation.Route
@@ -92,7 +94,7 @@ class CourseFormViewModel(
                 languageId = languageId,
                 languageName = languages.getById(languageId)?.name.orEmpty(),
                 draft = course?.let { CourseDraft(it.title, it.description, it.level, it.topic) } ?: CourseDraft(""),
-                error = if (courseId != null && course == null) "This course no longer exists." else null,
+                error = if (courseId != null && course == null) tr("This course no longer exists.") else null,
             )
         }
     }
@@ -108,7 +110,7 @@ class CourseFormViewModel(
                 val id = if (courseId == null) service.createCourse(current.languageId, current.draft) else courseId.also { service.updateCourse(it, current.draft) }
                 events.send(id)
             } catch (e: CourseValidationException) {
-                _state.update { it.copy(error = e.message) }
+                _state.update { it.copy(error = e.message?.let { message -> tr(message) }) }
             } finally {
                 _state.update { it.copy(saving = false) }
             }
@@ -128,8 +130,8 @@ fun CourseFormScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     CollectEvents(viewModel.events) { onSaved(it) }
     Scaffold(
-        topBar = { AppTopBar(title = if (courseId == null) "New course" else "Edit course", onNavigate = onNavigate, section = NavSection.COURSES) },
-        bottomBar = { if (!state.loading) FormActions(if (state.isNew) "Create course" else "Save changes", state.saving, onCancel, viewModel::save) },
+        topBar = { AppTopBar(title = if (courseId == null) tr("New course") else tr("Edit course"), onNavigate = onNavigate, section = NavSection.COURSES) },
+        bottomBar = { if (!state.loading) FormActions(if (state.isNew) tr("Create course") else tr("Save changes"), state.saving, onCancel, viewModel::save) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -143,26 +145,26 @@ fun CourseFormScreen(
 @Composable
 internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft) -> CourseDraft) -> Unit) {
     ScreenHeader(
-        if (state.isNew) "New course" else "Edit course",
-        if (state.isNew) "A course of your own ${state.languageName} texts, read lesson by lesson." else "Change what the course is called and what it is about.",
+        if (state.isNew) tr("New course") else tr("Edit course"),
+        if (state.isNew) tr("A course of your own {0} texts, read lesson by lesson.", tr(state.languageName)) else tr("Change what the course is called and what it is about."),
     )
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
-    ContentCard("About the course", "Shown on the course's card and page.", icon = AppIcons.MenuBook) {
-        FormField("Title") {
+    ContentCard(tr("About the course"), tr("Shown on the course's card and page."), icon = AppIcons.MenuBook) {
+        FormField(tr("Title")) {
             OutlinedTextField(
                 value = state.draft.title,
                 onValueChange = { title -> onChange { it.copy(title = title) } },
-                placeholder = { Text("For example: News I want to read") },
+                placeholder = { Text(tr("For example: News I want to read")) },
                 singleLine = true,
                 shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth().testTag("course-title"),
             )
         }
-        FormField("Description") {
+        FormField(tr("Description")) {
             OutlinedTextField(
                 value = state.draft.description,
                 onValueChange = { text -> onChange { it.copy(description = text) } },
-                placeholder = { Text("What the lessons are about, and who they are for") },
+                placeholder = { Text(tr("What the lessons are about, and who they are for")) },
                 minLines = 3,
                 shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth().testTag("course-description"),
@@ -171,13 +173,13 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
         val compact = LocalWindowWidth.current.isCompact
         val pair: @Composable (Modifier) -> Unit = { modifier ->
             Box(modifier) {
-                FormField("Level") {
+                FormField(tr("Level")) {
                     Dropdown(
                         options = CourseLevel.entries,
                         selected = state.draft.level,
                         onSelect = { level -> onChange { it.copy(level = level) } },
                         label = null,
-                        optionLabel = { "${it.code} · ${it.label}" },
+                        optionLabel = { it.display },
                         modifier = Modifier.fillMaxWidth(),
                     )
                 }
@@ -185,11 +187,11 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
         }
         val topic: @Composable (Modifier) -> Unit = { modifier ->
             Box(modifier) {
-                FormField("Topic") {
+                FormField(tr("Topic")) {
                     OutlinedTextField(
                         value = state.draft.topic,
                         onValueChange = { text -> onChange { it.copy(topic = text) } },
-                        placeholder = { Text("For example: Travel") },
+                        placeholder = { Text(tr("For example: Travel")) },
                         singleLine = true,
                         shape = RoundedCornerShape(10.dp),
                         modifier = Modifier.fillMaxWidth().testTag("course-topic"),
@@ -242,7 +244,7 @@ class LessonFormViewModel(
                 courseTitle = course?.title.orEmpty(),
                 languageName = course?.languageId?.let { languages.getById(it)?.name }.orEmpty(),
                 draft = lesson?.let { LessonDraft(it.title, it.summary, it.text) } ?: LessonDraft("", text = ""),
-                error = if (course == null) "This course no longer exists." else null,
+                error = if (course == null) tr("This course no longer exists.") else null,
             )
         }
     }
@@ -258,7 +260,7 @@ class LessonFormViewModel(
                 if (lessonId == null) service.addLesson(courseId, current.draft) else service.updateLesson(courseId, lessonId, current.draft)
                 events.send(Unit)
             } catch (e: CourseValidationException) {
-                _state.update { it.copy(error = e.message) }
+                _state.update { it.copy(error = e.message?.let { message -> tr(message) }) }
             } finally {
                 _state.update { it.copy(saving = false) }
             }
@@ -278,8 +280,8 @@ fun LessonFormScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     CollectEvents(viewModel.events) { onDone() }
     Scaffold(
-        topBar = { AppTopBar(title = if (lessonId == null) "New lesson" else "Edit lesson", onNavigate = onNavigate, section = NavSection.COURSES) },
-        bottomBar = { if (!state.loading) FormActions(if (state.isNew) "Add lesson" else "Save changes", state.saving, onDone, viewModel::save) },
+        topBar = { AppTopBar(title = if (lessonId == null) tr("New lesson") else tr("Edit lesson"), onNavigate = onNavigate, section = NavSection.COURSES) },
+        bottomBar = { if (!state.loading) FormActions(if (state.isNew) tr("Add lesson") else tr("Save changes"), state.saving, onDone, viewModel::save) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -293,12 +295,16 @@ fun LessonFormScreen(
 @Composable
 internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft) -> LessonDraft) -> Unit) {
     ScreenHeader(
-        if (state.isNew) "New lesson" else "Edit lesson",
-        if (state.isNew) "Added at the end of ${state.courseTitle.ifEmpty { "the course" }}; you can move it later." else "Changes to the text keep your place in the lesson as far as they can.",
+        if (state.isNew) tr("New lesson") else tr("Edit lesson"),
+        when {
+            !state.isNew -> tr("Changes to the text keep your place in the lesson as far as they can.")
+            state.courseTitle.isEmpty() -> tr("Added at the end of the course; you can move it later.")
+            else -> tr("Added at the end of {0}; you can move it later.", state.courseTitle)
+        },
     )
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
-    ContentCard("Lesson", "The title and summary are shown in the course's list of lessons.", icon = AppIcons.Page) {
-        FormField("Title") {
+    ContentCard(tr("Lesson"), tr("The title and summary are shown in the course's list of lessons."), icon = AppIcons.Page) {
+        FormField(tr("Title")) {
             OutlinedTextField(
                 value = state.draft.title,
                 onValueChange = { title -> onChange { it.copy(title = title) } },
@@ -307,27 +313,27 @@ internal fun LessonFormContent(state: LessonFormUiState, onChange: ((LessonDraft
                 modifier = Modifier.fillMaxWidth().testTag("lesson-title"),
             )
         }
-        FormField("Summary") {
+        FormField(tr("Summary")) {
             OutlinedTextField(
                 value = state.draft.summary,
                 onValueChange = { text -> onChange { it.copy(summary = text) } },
-                placeholder = { Text("One line on what happens in the text") },
+                placeholder = { Text(tr("One line on what happens in the text")) },
                 singleLine = true,
                 shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth().testTag("lesson-summary"),
             )
         }
-        FormField("Text") {
+        FormField(tr("Text")) {
             OutlinedTextField(
                 value = state.draft.text,
                 onValueChange = { text -> onChange { it.copy(text = text) } },
-                placeholder = { Text(state.languageName.ifEmpty { null }?.let { "Paste or write the $it text to read…" } ?: "Paste or write the text to read…") },
+                placeholder = { Text(state.languageName.ifEmpty { null }?.let { tr("Paste or write the {0} text to read…", tr(it)) } ?: tr("Paste or write the text to read…")) },
                 shape = RoundedCornerShape(10.dp),
                 modifier = Modifier.fillMaxWidth().height(380.dp).testTag("lesson-text"),
             )
             val words = state.draft.text.split(Regex("\\s+")).count { word -> word.any { it.isLetterOrDigit() } }
             Text(
-                "$words word${if (words == 1) "" else "s"}",
+                trPlural(words, "{0} word", "{0} words"),
                 Modifier.padding(top = 6.dp),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -357,7 +363,7 @@ private fun FormActions(saveLabel: String, saving: Boolean, onCancel: () -> Unit
                     Modifier.widthIn(max = 1480.dp).fillMaxWidth().padding(horizontal = if (LocalWindowWidth.current.isCompact) 16.dp else 48.dp, vertical = 12.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    OutlinedButton(onClick = onCancel, shape = RoundedCornerShape(10.dp)) { Text("Cancel", Modifier.padding(horizontal = 12.dp)) }
+                    OutlinedButton(onClick = onCancel, shape = RoundedCornerShape(10.dp)) { Text(tr("Cancel"), Modifier.padding(horizontal = 12.dp)) }
                     Spacer(Modifier.weight(1f))
                     Button(onClick = onSave, enabled = !saving, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("form-save")) {
                         Text(saveLabel, Modifier.padding(horizontal = 12.dp))

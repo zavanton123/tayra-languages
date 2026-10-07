@@ -10,6 +10,7 @@ import com.tayra.languages.core.domain.courses.LessonStatus
 import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.state.UiEvents
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -106,10 +107,10 @@ class CourseViewModel(private val courseId: String, private val service: CourseS
             val bookId = try {
                 service.openLesson(courseId, lessonId)
             } catch (e: Exception) {
-                _state.update { it.copy(error = e.message ?: "Could not open the lesson") }
+                _state.update { it.copy(error = e.message?.let { message -> tr(message) } ?: tr("Could not open the lesson")) }
                 return@launch
             }
-            if (bookId == null) _state.update { it.copy(error = "This course's language is not set up in the app.") }
+            if (bookId == null) _state.update { it.copy(error = tr("This course's language is not set up in the app.")) }
             else events.send(CourseEvent.Read(bookId))
         }
     }
@@ -130,7 +131,7 @@ class CourseViewModel(private val courseId: String, private val service: CourseS
             try {
                 block()
             } catch (e: Exception) {
-                _state.update { it.copy(error = e.message ?: "Could not change the course") }
+                _state.update { it.copy(error = e.message?.let { message -> tr(message) } ?: tr("Could not change the course")) }
             }
         }
     }
