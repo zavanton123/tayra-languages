@@ -145,12 +145,13 @@ fun AppTopBar(
                     Spacer(Modifier.width(12.dp))
                     Text(APP_NAME, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold)
                 }
-                if (LocalLearningLanguage.current?.currentName != null) {
-                    Spacer(Modifier.width(24.dp))
-                    LearningLanguageSelector(compact = false)
-                }
                 Spacer(Modifier.weight(1f))
                 actions()
+                // The language being learned sits just before the tabs it applies to.
+                if (LocalLearningLanguage.current?.currentName != null) {
+                    LearningLanguageSelector(compact = false)
+                    Spacer(Modifier.width(16.dp))
+                }
                 if (showMenu) WideMenu(section, onNavigate)
             }
             HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
