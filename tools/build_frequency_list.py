@@ -253,14 +253,18 @@ def load_dictionary(language):
     # A noun the dictionary also lists as a rare lowercase word ("zeit") keeps its capital.
     common.update(DISPLAY.get(language, {}))
     lemmas = defaultdict(list)
+    # Spellings the 1996 German reform replaced ("daß" for "dass"), whose other links are noise ("daß" to "das").
+    outdated = set()
     for form_lc, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
+        if "deprecated in the spelling reform" in lemma:
+            outdated.add(form_lc)
         lemma = lower(language, lemma)
         if all(c.isalpha() or c in "-'" for c in lemma):
             lemmas[form_lc].append(lemma)
     for form_lc, of in lemmas.items():
         if len(set(of)) > MAX_LEMMAS_PER_FORM:
             lemmas[form_lc] = []
-    return pos, lemmas, common
+    return pos, lemmas, common, outdated
 
 
 def build(language, source, size):
@@ -281,7 +285,7 @@ def build(language, source, size):
         for w, c in counts.items():
             freq[normalise(language, w)] += c / total / len(found)
     label = " + ".join(f"{label} ({SOURCE_LICENCES[name]})" for name, _, label in found)
-    pos, lemmas, common = load_dictionary(language)
+    pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
     excluded = EXCLUDE.get(language, set())
 
@@ -312,6 +316,17 @@ def build(language, source, size):
         # Single letters are kept only as the little words they can be ("a", "e", "o").
         return len(w) > 1 or bool(kinds & {"prep", "conj", "article", "pron", "det"})
 
+    def count(word):
+        """How common a word's own spelling is; wordfreq has German ß words under ss ("heissen")."""
+        return freq.get(word, 0) or (freq.get(word.replace("ß", "ss"), 0) if language == "de" else 0)
+
+    def spellings(form):
+        """The form and, in German, its current spellings with ß: wordfreq writes "aß" and "Ass" alike as "ass"."""
+        if language != "de":
+            return [form]
+        # A ß spelling the dictionary files as another spelling of the form ("Obergeschoß") adds nothing.
+        return [form] + [v for v in eszett_spellings(form) if v not in outdated and form not in lemmas.get(v, [])]
+
     def direct(form):
         """The words a form's count goes to, with their shares, before following words that are forms themselves."""
         if form in overrides:
@@ -321,24 +336,26 @@ def build(language, source, size):
         else:
             if len(form) == 1 and not is_word(form):
                 return {}
-            if form not in lemmas and form not in pos:
+            known = [s for s in spellings(form) if s in lemmas or s in pos]
+            if not known:
                 word = guess(form)
                 return {word: 1.0} if word else {}
-            others = list(dict.fromkeys(l for l in lemmas.get(form, []) if l != form and is_word(l)))
+            candidates = [l for s in known for l in ([s] if s != form else []) + lemmas.get(s, [])]
+            others = list(dict.fromkeys(l for l in candidates if l != form and is_word(l)))
         # A form whose only entry is an interjection ("foi", "nossa") is counted for the word it is a form of.
         if is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"}):
             # A form that is a word itself keeps its count ("casa", not "casar") unless [TAKEOVER] says otherwise.
             inflected = bool(pos[form] & INFLECTED_KINDS)
-            mine = freq.get(form, 0)
+            mine = count(form)
             others = [
                 l for l in others
-                if freq.get(l, 0) >= TAKEOVER * mine or (inflected and pos[l] & INFLECTED_KINDS and freq.get(l, 0) >= INFLECTED_TAKEOVER * mine)
+                if count(l) >= TAKEOVER * mine or (inflected and pos[l] & INFLECTED_KINDS and count(l) >= INFLECTED_TAKEOVER * mine)
             ]
             if not others:
                 return {form: 1.0}
         if not others:
             return {}
-        weights = {l: freq.get(l, 0) or 1e-12 for l in others}
+        weights = {l: count(l) or 1e-12 for l in others}
         whole = sum(weights.values())
         return {l: w / whole for l, w in weights.items()}
 

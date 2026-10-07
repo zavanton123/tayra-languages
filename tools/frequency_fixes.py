@@ -1404,6 +1404,12 @@ DISPLAY = {
 
 # Found after the Greek final-sigma fix brought in wordfreq's counts.
 OVERRIDES["el"]["κάνεις"] = ["κάνω"]
+# German ss forms whose ß spelling is another word, which the shared wordfreq count let take them over,
+# and past tenses spelled like a noun ("riss", "Riss"), which go to both.
+OVERRIDES["de"].update({
+    "russe": ["russe"], "russen": ["russe"], "stutzen": ["stutzen"], "weisste": ["wissen"],
+    "riss": ["reißen", "riss"], "biss": ["beißen", "biss"], "schloss": ["schließen", "schloss"],
+})
 # Romanian nouns in -ă the dictionary also lists as verbs in -a ("a pagina"), whose articled form
 # ("pagina") is far more common than the bare noun and so headed the line.
 for _articled in ("mașina", "pagina", "oferta", "suma", "grupa", "litera", "structura", "cifra", "masca", "taxa", "factura", "norma", "gara", "sămânța", "cota", "axa", "flota", "ancheta"):
