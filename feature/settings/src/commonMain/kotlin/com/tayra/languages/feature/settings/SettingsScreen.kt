@@ -74,9 +74,47 @@ import com.tayra.languages.core.ui.theme.TayraTheme
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Icon
+import androidx.compose.ui.platform.testTag
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import com.tayra.languages.core.domain.service.CommandLineStatus
+import com.tayra.languages.core.domain.service.CommandLineTool
 
-class SettingsViewModel(private val settings: SettingsRepository) : ViewModel() {
+class SettingsViewModel(
+    private val settings: SettingsRepository,
+    /** The desktop app's `tayra` command; other platforms have none. */
+    val commandLine: CommandLineTool? = null,
+) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
+
+    private val _commandLineStatus = MutableStateFlow<CommandLineStatus?>(null)
+    val commandLineStatus: StateFlow<CommandLineStatus?> = _commandLineStatus.asStateFlow()
+
+    private val _commandLineBusy = MutableStateFlow(false)
+    val commandLineBusy: StateFlow<Boolean> = _commandLineBusy.asStateFlow()
+
+    init {
+        commandLine?.let { tool -> viewModelScope.launch { _commandLineStatus.value = tool.status() } }
+    }
+
+    fun installCommandLine() = changeCommandLine { it.install() }
+
+    fun uninstallCommandLine() = changeCommandLine { it.uninstall() }
+
+    private fun changeCommandLine(action: suspend (CommandLineTool) -> CommandLineStatus) {
+        val tool = commandLine ?: return
+        if (_commandLineBusy.value) return
+        _commandLineBusy.value = true
+        viewModelScope.launch {
+            try {
+                _commandLineStatus.value = action(tool)
+            } finally {
+                _commandLineBusy.value = false
+            }
+        }
+    }
 
     fun update(transform: (UserSettings) -> UserSettings) = viewModelScope.launch { settings.update(transform) }
 
@@ -116,6 +154,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                         AppearanceCard(settings, viewModel)
                         ReadingCard(settings, viewModel)
                         BehaviourCard(settings, viewModel)
+                        if (viewModel.commandLine != null) CommandLineCard(viewModel)
                     }
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
                         PreviewCard(settings)
@@ -127,6 +166,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 ReadingCard(settings, viewModel)
                 PreviewCard(settings)
                 BehaviourCard(settings, viewModel)
+                if (viewModel.commandLine != null) CommandLineCard(viewModel)
                 InfoBanner(tr("Changes are saved automatically."))
             }
         }
@@ -238,6 +278,53 @@ private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) 
                 name = tr("book stats page sample size"),
             ) { n -> viewModel.update { it.copy(statsSampleSize = n) } }
         }
+    }
+}
+
+/** The `tayra` command of the desktop app, and the button that puts it on the PATH. */
+@Composable
+private fun CommandLineCard(viewModel: SettingsViewModel) {
+    val status by viewModel.commandLineStatus.collectAsStateWithLifecycle()
+    val busy by viewModel.commandLineBusy.collectAsStateWithLifecycle()
+    val colors = MaterialTheme.colorScheme
+    val bundled = viewModel.commandLine?.bundled == true
+    ContentCard(
+        tr("Command-line tool"),
+        tr("Use your library from a terminal with the tayra command, and let AI agents work with it."),
+        icon = AppIcons.Terminal,
+    ) {
+        if (!bundled) {
+            Text(tr("The tayra command comes with the installed app. From the sources, run it with ./gradlew :cli:run."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            return@ContentCard
+        }
+        val installed = status?.installed == true
+        SettingRow(
+            if (installed) tr("Installed") else tr("Not installed"),
+            if (installed) tr("Type tayra in a new terminal window, for example tayra --help.") else tr("Puts tayra on the PATH, so any terminal finds it."),
+            stackOnCompact = true,
+        ) {
+            if (installed) {
+                OutlinedButton(onClick = viewModel::uninstallCommandLine, enabled = !busy) { Text(tr("Remove")) }
+            } else {
+                Button(onClick = viewModel::installCommandLine, enabled = !busy && status != null, modifier = Modifier.testTag("install-cli")) {
+                    Icon(AppIcons.Terminal, contentDescription = null, modifier = Modifier.size(18.dp))
+                    Spacer(Modifier.width(8.dp))
+                    Text(tr("Install command-line tool"))
+                }
+            }
+        }
+        status?.location?.takeIf { installed }?.let {
+            Text(tr("Location: {0}", it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+        }
+        status?.pathChangedIn?.let { changed ->
+            Text(
+                if (changed == "PATH") tr("Added to your PATH. Open a new terminal window to use it.")
+                else tr("Added ~/.local/bin to your PATH in {0}. Open a new terminal window to use it.", changed),
+                style = MaterialTheme.typography.bodySmall,
+                color = colors.primary,
+            )
+        }
+        status?.error?.let { Text(tr("Could not change the PATH: {0}", it), style = MaterialTheme.typography.bodySmall, color = colors.error) }
     }
 }
 

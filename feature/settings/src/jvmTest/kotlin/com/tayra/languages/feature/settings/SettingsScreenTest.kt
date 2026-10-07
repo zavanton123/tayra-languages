@@ -23,6 +23,8 @@ import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.AppThemes
 import com.tayra.languages.core.ui.theme.TayraTheme
 import androidx.compose.ui.test.performScrollTo
+import com.tayra.languages.core.domain.service.CommandLineStatus
+import com.tayra.languages.core.domain.service.CommandLineTool
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
@@ -80,6 +82,35 @@ class SettingsScreenTest {
         onNodeWithText("Gruvbox Dark").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.themeId == "gruvbox_dark" }
         System.getenv("THEMES_SCREENSHOT")?.let { save(it.replace(".png", "-gruvbox.png")) }
+    }
+
+    /** On the desktop the command-line tool is put on the PATH from its card, which then says where. */
+    @Test
+    fun theCommandLineToolIsInstalledFromItsCard() = runDesktopComposeUiTest(width = 1580, height = 1300) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val tool = object : CommandLineTool {
+            var installed = false
+            override val bundled = true
+            override suspend fun status() = CommandLineStatus(installed, "/Users/me/.local/bin/tayra")
+            override suspend fun install(): CommandLineStatus {
+                installed = true
+                return status().copy(pathChangedIn = "/Users/me/.zshrc")
+            }
+            override suspend fun uninstall(): CommandLineStatus {
+                installed = false
+                return status()
+            }
+        }
+        setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings, tool)) } }
+
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not installed").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("CLI_SCREENSHOT")?.let { save(it) }
+        onNodeWithText("Install command-line tool").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Installed").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Added ~/.local/bin to your PATH in /Users/me/.zshrc. Open a new terminal window to use it.").assertExists()
+        System.getenv("CLI_SCREENSHOT")?.let { save(it.replace(".png", "-installed.png")) }
+        onNodeWithText("Remove").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not installed").fetchSemanticsNodes().isNotEmpty() }
     }
 
     private fun ComposeUiTest.save(path: String) {

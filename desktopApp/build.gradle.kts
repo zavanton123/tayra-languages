@@ -1,4 +1,5 @@
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
+import org.jetbrains.compose.desktop.application.tasks.AbstractJPackageTask
 
 plugins {
     alias(libs.plugins.kotlin.jvm)
@@ -8,6 +9,8 @@ plugins {
 
 dependencies {
     implementation(projects.shared)
+    // The `tayra` command, packaged as a second launcher of the app's own jars.
+    implementation(projects.cli)
     implementation(compose.desktop.currentOs)
     implementation(libs.kotlinx.coroutines.swing)
     implementation(libs.filekit.dialogs.compose)
@@ -89,4 +92,35 @@ tasks.withType<JavaExec>().matching { it.name == "run" }.configureEach {
             else copies.resolve("$i-${file.name}").also { file.copyTo(it) }
         })
     }
+}
+
+// The installed app carries a second launcher, `tayra`, that runs the command line of :cli on the app's own
+// runtime and jars: a console program on Windows, and headless so macOS shows no Dock icon for it.
+// Settings > Command-line tool puts it on the PATH.
+val cliLauncherProperties = layout.buildDirectory.file("cli-launcher/tayra.properties")
+val writeCliLauncherProperties by tasks.registering {
+    val target = cliLauncherProperties
+    val windowsIcon = project.file("icons/TayraLanguages.ico").absolutePath.replace("\\", "/")
+    outputs.file(target)
+    doLast {
+        target.get().asFile.apply {
+            parentFile.mkdirs()
+            writeText(
+                listOf(
+                    "main-class=com.tayra.languages.cli.MainKt",
+                    "java-options=-Djava.awt.headless=true",
+                    "win-console=true",
+                    "win-menu=false",
+                    "win-shortcut=false",
+                    "linux-shortcut=false",
+                ).plus(if (System.getProperty("os.name").lowercase().contains("win")) listOf("icon=$windowsIcon") else emptyList())
+                    .joinToString("\n", postfix = "\n"),
+            )
+        }
+    }
+}
+// Only the app image is made with jpackage's own inputs; the installers are packed from that image.
+tasks.withType<AbstractJPackageTask>().matching { it.name.startsWith("create") && it.name.endsWith("Distributable") }.configureEach {
+    dependsOn(writeCliLauncherProperties)
+    freeArgs.addAll("--add-launcher", "tayra=${cliLauncherProperties.get().asFile.absolutePath}")
 }

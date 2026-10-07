@@ -7,6 +7,7 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.WindowState
 import androidx.compose.ui.window.application
 import com.tayra.languages.App
+import com.tayra.languages.core.data.runtime.AppInstanceLock
 import com.tayra.languages.di.initKoin
 import io.github.vinceglb.filekit.FileKit
 import java.awt.Taskbar
@@ -24,6 +25,8 @@ private val macTitleBarHeight = 28.dp
 
 fun main() {
     if (relaunchWithDockName()) return
+    // Tells the `tayra` command that the app is open, for as long as it is.
+    AppInstanceLock.acquire()
     System.setProperty("apple.awt.application.name", "Tayra Languages")
     FileKit.init(appId = "TayraLanguages")
     initKoin()

@@ -1,8 +1,11 @@
 package com.tayra.languages.core.data.di
 
 import com.russhwolf.settings.PreferencesSettings
+import com.tayra.languages.core.data.settings.fileSettings
 import com.russhwolf.settings.Settings
+import com.tayra.languages.core.data.runtime.DesktopCommandLineTool
 import com.tayra.languages.core.data.runtime.ManagedPython
+import com.tayra.languages.core.domain.service.CommandLineTool
 import com.tayra.languages.core.data.settings.SecureStore
 import com.tayra.languages.core.data.speech.KokoroSpeechEngine
 import com.tayra.languages.core.data.speech.PiperSpeechEngine
@@ -32,6 +35,8 @@ actual val platformDataModule: Module = module {
     single<SpeechAudioCache> { FileSpeechAudioCache(File(DatabaseDriverFactory.dataDirectory(), "speech-cache")) }
     single { DictionaryPackStorage(get()) }
     single { CoursePackFiles(get()) }
-    single<Settings> { PreferencesSettings(Preferences.userRoot().node("com/tayra/languages")) }
+    // A data folder of its own keeps its settings beside the database, so it shares nothing with the usual library.
+    single<Settings> { DatabaseDriverFactory.customDataDirectory()?.let { fileSettings(File(it, "settings.properties")) } ?: PreferencesSettings(Preferences.userRoot().node("com/tayra/languages")) }
     single<SecureStore> { desktopSecureStore() }
+    single<CommandLineTool> { DesktopCommandLineTool() }
 }

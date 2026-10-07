@@ -103,9 +103,17 @@ language meanings are shown in, and the language of the interface (English or Ru
 - The library shows every book with its language, progress and how much of its vocabulary
   is already known, with search, sorting, filters and an archive for finished books.
 
+## Command line
+
+The desktop app comes with `tayra`, a command-line tool for the same library: add books and
+courses, read a page's words with their statuses, change statuses, export to Anki, make and
+restore backups. Every command can answer in JSON, so AI agents can use it too. Settings >
+Command-line tool puts it on the PATH; [docs/CLI.md](docs/CLI.md) describes it.
+
 ## Get it
 
-Releases on GitHub include an Android APK and a macOS disk image. The web version runs in a
+Releases on GitHub include an Android APK, a macOS disk image, a Windows installer, and
+Linux packages (DEB, RPM and a tarball). The web version runs in a
 browser without installing anything, though its library lasts only for the session.
 
 Build it yourself with a recent JDK:

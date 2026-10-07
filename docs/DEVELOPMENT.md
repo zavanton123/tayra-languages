@@ -28,6 +28,7 @@ feature/reading  reading screen, term popups, keyboard shortcuts
 feature/terms    term form, term listing, bulk edit, CSV and Anki export
 feature/languages, feature/settings, feature/stats
 shared           app composition: DI, bootstrap, navigation graph, iOS framework
+cli              the `tayra` command line, on the same services; packaged inside desktopApp
 androidApp, desktopApp, webApp, iosApp   thin platform launchers
 build-logic      Gradle convention plugins
 ```
@@ -35,6 +36,12 @@ build-logic      Gradle convention plugins
 Domain services depend on repository interfaces declared in `core/domain`; `core/data`
 provides the SQLDelight implementations. Each feature exposes a Koin module and a navigation
 graph that `shared` composes into the app.
+
+The desktop installers carry a second jpackage launcher, `tayra`, that runs `:cli`'s main
+class on the app's own runtime and jars (see the end of `desktopApp/build.gradle.kts`);
+`DesktopCommandLineTool` puts it on the PATH from Settings. The app holds a lock on
+`app.lock` in the data folder while it is open, which tells the command so. Both open the
+database in WAL mode with a busy timeout, so they can use it at the same time.
 
 ## Building and testing
 

@@ -229,4 +229,15 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Learn languages by reading. Import texts, click words to look them up and track what you know." to "Изучайте языки, читая. Импортируйте тексты, нажимайте на слова, чтобы узнать их значение, и следите за тем, что вы уже знаете.",
     "A reader for learning languages through texts, running on Android, iOS, desktop and the web with a shared Compose UI." to "Программа для изучения языков по текстам: работает на Android, iOS, компьютере и в браузере с общим интерфейсом на Compose.",
     "The offline English-Russian dictionary is built from the Russian and English Wiktionaries via kaikki.org, licensed CC BY-SA 4.0. Example sentences come from Tatoeba, licensed CC BY 2.0 FR. Word frequency lists come from wordfreq by Robyn Speer and from FrequencyWords by Hermit Dave (OpenSubtitles counts), both licensed CC BY-SA 4.0, and from the Leipzig Corpora Collection (Universität Leipzig)." to "Офлайн-словарь английский–русский составлен по русскому и английскому Wiktionary через kaikki.org, лицензия CC BY-SA 4.0. Примеры предложений взяты из Tatoeba, лицензия CC BY 2.0 FR. Списки частотности слов взяты из wordfreq (Robyn Speer) и FrequencyWords (Hermit Dave, по данным OpenSubtitles), обе под лицензией CC BY-SA 4.0, а также из Leipzig Corpora Collection (Лейпцигский университет).",
+    // Command-line tool (SettingsScreen.kt)
+    "Command-line tool" to "Инструмент командной строки",
+    "Use your library from a terminal with the tayra command, and let AI agents work with it." to "Работайте с библиотекой из терминала командой tayra и дайте ИИ-агентам работать с ней.",
+    "The tayra command comes with the installed app. From the sources, run it with ./gradlew :cli:run." to "Команда tayra входит в установленное приложение. Из исходного кода её запускают через ./gradlew :cli:run.",
+    "Type tayra in a new terminal window, for example tayra --help." to "Введите tayra в новом окне терминала, например tayra --help.",
+    "Puts tayra on the PATH, so any terminal finds it." to "Добавляет tayra в PATH, чтобы её находил любой терминал.",
+    "Install command-line tool" to "Установить инструмент командной строки",
+    "Location: {0}" to "Расположение: {0}",
+    "Added to your PATH. Open a new terminal window to use it." to "Добавлено в PATH. Откройте новое окно терминала, чтобы пользоваться командой.",
+    "Added ~/.local/bin to your PATH in {0}. Open a new terminal window to use it." to "Папка ~/.local/bin добавлена в PATH в файле {0}. Откройте новое окно терминала, чтобы пользоваться командой.",
+    "Could not change the PATH: {0}" to "Не удалось изменить PATH: {0}",
 )

@@ -23,6 +23,8 @@ sqldelight = "2.4.0"
 turbine = "1.2.1"
 
 [libraries]
+clikt = { module = "com.github.ajalt.clikt:clikt", version = "5.1.0" }
+slf4j-nop = { module = "org.slf4j:slf4j-nop", version = "2.0.17" }
 sherpa-onnx = { module = "k2-fsa:sherpa-onnx", version = "1.13.8" }
 commons-compress = { module = "org.apache.commons:commons-compress", version = "1.27.1" }
 mlkit-translate = { module = "com.google.mlkit:translate", version = "17.0.3" }

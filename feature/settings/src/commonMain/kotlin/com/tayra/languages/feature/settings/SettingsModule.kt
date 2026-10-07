@@ -8,7 +8,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val settingsModule = module {
-    viewModel { SettingsViewModel(get()) }
+    viewModel { SettingsViewModel(get(), getOrNull()) }
     viewModel { DictionariesViewModel(get(), get(), get()) }
     viewModel { CoursePacksViewModel(get()) }
     viewModel { SpeechViewModel(get(), get(), get()) }
