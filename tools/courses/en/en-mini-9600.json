@@ -1,0 +1,184 @@
+{
+  "id": "en-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "Everyday Physics",
+  "description": "Ten calm stories and essays on the physics of ordinary life: the blue sky, the refrigerator, floating ice, the bicycle, the microwave oven, the singing kettle, the rainbow, the recorded voice, the fever, and a physics teacher's life.",
+  "topic": "Physics",
+  "names": [
+    "Nora",
+    "Ellen",
+    "Celsius",
+    "Leo",
+    "Sunday",
+    "Priya",
+    "Martin",
+    "Sam",
+    "René",
+    "Descartes",
+    "Helen",
+    "Daniel",
+    "Grace",
+    "Tom",
+    "Margaret",
+    "Ellison",
+    "Lincoln"
+  ],
+  "lessons": [
+    {
+      "title": "Why the Sky Is Blue",
+      "summary": "A father looks for the true answer to his young daughter's question about the blue sky.",
+      "newWords": [
+        "parenthood",
+        "cheeky",
+        "aloud",
+        "radiate",
+        "comparatively",
+        "infinitely",
+        "intellect",
+        "glamorous"
+      ],
+      "text": "Parenthood, I have learned, is largely a matter of answering questions that one cannot quite answer. My daughter, Nora, asked her first great question at the age of five, lying on her back in the grass of a summer park. \"Why is the sky blue?\" she wondered aloud. Then she turned to me with the cheeky look of a child who suspects that her father does not know.\n\nShe was right. I gave her a vague reply about the sky reflecting the sea, which is wrong, and that evening I went looking for the real answer. It was comparatively simple, and far more beautiful than my invention.\n\nSunlight looks white, but it is a mixture of all the colors of the rainbow. Red light has the longest waves that we can see; blue and violet have the shortest. This light passes through air, made mostly of tiny molecules of nitrogen and oxygen, each far smaller than a wave of light. When a wave passes over a molecule, the molecule is set shaking, and a shaking molecule radiates light of its own, in all directions.\n\nThe key fact is that short waves are scattered far more strongly than long ones. So as sunlight crosses the atmosphere, much of its blue is sent off to the sides until it seems to come at us from every part of the sky. The sky is lit from within by countless molecules, each one radiating a little of the sun's light back toward us.\n\nWhy, then, is the sky not violet, since violet waves are shorter still? The sun gives off less violet than blue, some violet is absorbed high in the air, and our eyes are comparatively poor at seeing it, so the sky looks blue to us.\n\nThe same physics explains the glamorous colors of sunset. When the sun is low, its light must travel through far more air to reach us. Most of the blue is scattered away along the route, and what remains is the warm orange and red of evening. A glamorous sunset is not a different light; it is the same light after a longer journey.\n\nThe next day I showed Nora a flashlight shining through a glass of water with a little milk in it. Seen from the side, the glass looked pale blue; seen from the end, the beam looked orange. Then she asked why the sea was blue, and I realized that the questions of parenthood are infinitely renewable.\n\nI no longer mind. A young intellect works rather like the sky: it takes in whatever light reaches it and sends it back out in all directions, slightly changed. My task is not to satisfy her intellect with a perfect answer, but to keep the light coming. The questions she asks aloud will be infinitely many, and so, I hope, will the cheeky smiles.\n\nQuestions:\nWhat did Nora ask aloud in the park?\nShe asked why the sky is blue.\nWhat happens when a wave of light passes over a tiny molecule of air?\nThe molecule is set shaking, and it radiates light of its own in all directions.\nWhy is the sky not violet?\nThe sun gives off less violet, some is absorbed high in the air, and our eyes are comparatively poor at seeing it.\nWhy are sunsets orange and red?\nThe light travels through far more air, so most of the blue is scattered away along the route."
+    },
+    {
+      "title": "The Heat Mover in the Kitchen",
+      "summary": "A short essay explains how a refrigerator carries heat out of the box and into the room.",
+      "newWords": [
+        "mover",
+        "relentless",
+        "intrusion",
+        "massively",
+        "drawback",
+        "benign",
+        "modular",
+        "payer",
+        "payable"
+      ],
+      "text": "Open a refrigerator and you feel cold air on your face, so it is natural to think that the machine makes cold. In fact, it does nothing of the kind. A refrigerator is a mover, not a maker. Its job is to carry heat out of the box and set it down in the kitchen, much as a mover carries a sofa out of one house and leaves it in another.\n\nLeft alone, heat always flows from a warmer place to a cooler one. Your milk is under relentless attack from the warm room around it, and that relentless flow would bring it to room temperature in a few hours. To push heat the other way, from cold to warm, a machine must do work.\n\nThe secret lies in a special fluid that travels around a closed loop of pipes. Inside the box, the fluid passes through thin tubes at low pressure, where it boils even though the box is cold. Boiling takes heat, so the fluid draws heat out of the food. The vapor then flows to a pump, which squeezes it hard. Squeezed vapor grows hotter than the kitchen, so in the coils at the back of the machine it can give its heat away to the room. As it cools, it turns back into a liquid, passes through a narrow opening where its pressure drops, and returns to the box to begin again.\n\nThis is why an open refrigerator door will never cool a kitchen: the machine simply returns the room's heat to the room, with the heat of its own motor added.\n\nEvery opening of the door is an intrusion of warm, damp air, which the machine must then remove, and the rubber seal around the door exists to keep each intrusion small. Thanks to better seals and motors, a modern refrigerator uses massively less power than one built fifty years ago, and across millions of homes the savings are massively important.\n\nEarly machines used a gas that works well but has one serious drawback: it is poisonous. Later came gases that seemed perfectly benign, since they neither burned nor poisoned anyone. Their drawback appeared decades later, when scientists found that they were damaging a protective layer of the upper atmosphere. Nations agreed to phase them out, and the fluids used today are far more benign to both people and the sky.\n\nSome new refrigerators also have a modular design: the cooling unit is a modular part that can be replaced without replacing the whole machine. For the payer of the electricity bill, such progress is welcome. The amount payable each year for a good refrigerator is now small, and a careful payer can reduce the amount payable still further by keeping the door closed and the coils free of dust.\n\nQuestions:\nWhy does the writer call a refrigerator a mover and not a maker?\nIt does not make cold; it carries heat out of the box and leaves it in the kitchen.\nWhat happens to the fluid inside the box?\nIt boils at low pressure and draws heat out of the food around it.\nWhy can the coils at the back give heat to the room?\nA pump squeezes the vapor, and squeezed vapor grows hotter than the kitchen.\nHow can the payer of the electricity bill keep the amount payable small?\nThe payer can keep the door closed and the coils free of dust."
+    },
+    {
+      "title": "The Ice That Floats",
+      "summary": "A kayaker on a cold northern inlet thinks about why ice floats and what that means for life below it.",
+      "newWords": [
+        "kayak",
+        "inlet",
+        "submerged",
+        "hallmark",
+        "thwart",
+        "octopus",
+        "trustworthy",
+        "rejoin"
+      ],
+      "text": "Every autumn, Ellen takes her kayak out on a narrow inlet near her home in the far north. In the early mornings the water is perfectly still, and thin plates of new ice drift past the bow of her kayak like broken windows. Each plate floats on the dark water, and she thinks, as she does every year, how strange it is that it floats at all.\n\nFor almost every other substance, the solid is denser than the liquid. Solid wax sinks in melted wax; a block of frozen olive oil sinks in liquid oil. Water is the exception, and the exception is a hallmark of the water molecule itself. When water freezes, its molecules lock together in an open pattern of six-sided rings, held apart by weak bonds. This open structure takes up about nine percent more space than the liquid, so ice is less dense than the water it came from, and it floats.\n\nIt does not float high, however. Roughly nine tenths of a piece of ice remain submerged, which is why the ice that sailors see is only a small part of the ice that is really there. Ellen can see it in the plates around her kayak: a thin edge above the surface and a pale, submerged body below.\n\nWater has a second strange property, another hallmark of its unusual character. Liquid water is densest at about 4 degrees Celsius. In autumn, as the surface of the inlet cools, the cold water sinks and warmer water rises in its place, until the whole body of water reaches that temperature. After that, colder water stays on top, and the ice forms at the surface, not at the bottom.\n\nThe consequences are enormous. A sheet of ice acts like a lid. It cannot stop winter, but it can thwart the cold: by keeping the wind off the water, it slows the loss of heat from below. Nothing could thwart the cold if ice sank, because each new layer would fall to the bottom and the water would freeze from the floor upward. Under the lid, the water stays liquid all winter, and fish, crabs and creatures such as the octopus survive in the dark. Somewhere beneath Ellen's kayak, an octopus is settling into the rocks for the cold months, protected by the same physics.\n\nLater in the winter, people will walk out onto the frozen inlet. Ellen has learned not to judge the ice by its look. Clear, hard ice about 4 inches thick is generally trustworthy for a person on foot, but ice near moving water is never trustworthy, however solid it seems.\n\nEllen turns her kayak toward the shore, where her friends are waiting with coffee, and paddles in to rejoin them. In spring, the ice will break and the inlet will rejoin the open sea.\n\nQuestions:\nWhy does ice float on water?\nWhen water freezes, its molecules lock together in an open pattern, so ice is less dense than the water it came from.\nHow much of a piece of ice remains submerged?\nRoughly nine tenths of it remain submerged.\nAt what temperature is liquid water densest?\nIt is densest at about 4 degrees Celsius.\nHow does a sheet of ice thwart the cold?\nIt keeps the wind off the water and slows the loss of heat from below.\nWhat kind of ice is generally trustworthy for a person on foot?\nClear, hard ice about 4 inches thick is generally trustworthy."
+    },
+    {
+      "title": "The Bicycle That Steers Itself",
+      "summary": "A father teaches his son to ride and learns why a moving bicycle stays upright.",
+      "newWords": [
+        "twelfth",
+        "kicker",
+        "antagonist",
+        "pragmatic",
+        "delusional",
+        "inflated",
+        "intersect",
+        "fabricated",
+        "configure",
+        "tai"
+      ],
+      "text": "My son Leo learned to ride a bicycle on a Sunday afternoon, on his twelfth attempt. I know it was the twelfth because he counted each fall aloud, with the stubborn pride of a boy who is the kicker on his school soccer team and believes that anything can be learned by practice. The kicker, he informed me, never gives up.\n\nOn the first eleven attempts, gravity was his antagonist. He sat stiff and still, held the front wheel straight and waited for the bicycle to balance. It never did. A bicycle that is standing still falls over at once, and a slow one falls almost as quickly.\n\nMy mother, who practices tai chi in the park every morning, gave him the most pragmatic advice of the day. \"Balance is not keeping still,\" she said. \"It is a thousand small corrections.\" In tai chi, as on a bicycle, the body never quite stops moving.\n\nShe was closer to the physics than I was. I had always believed that a bicycle stays up because its spinning wheels act like a top. That idea is not delusional, but it explains only a small part of the story. The main secret is steering. When a moving bicycle begins to lean, its front wheel turns toward the lean, and the bicycle runs back underneath its rider, the way you move your hand to keep a stick standing on your palm. A rider does this without thinking, and a good bicycle partly does it by itself.\n\nWhy does the wheel turn? One reason lies in the shape of the frame. Imagine a line drawn through the steering tube and continued down to the road. This line does not intersect the road at the point where the tire touches it. It intersects the road a little ahead of the tire, so the wheel is pulled along behind that point, like the front wheel of a shopping cart. Properly inflated tires keep this geometry steady; badly inflated tires blur it.\n\nIn 2011, a team of researchers fabricated a strange bicycle to test these ideas. They chose to configure it so that the spinning effect of the wheels was canceled and the steering line met the road behind the tire. Many expected such a machine to fall. Yet the fabricated bicycle, when pushed, steered itself upright and rolled on. How designers configure the weight of the frame and front wheel, it turned out, matters as much as anything.\n\nOn his twelfth try, Leo followed his grandmother's pragmatic advice and stopped holding the wheel straight. He looked ahead, pedaled hard and let the front wheel wander. The antagonist was still there, but now the bicycle was helping him. \"It would be delusional to stop now,\" he said happily, and rode to the end of the street.\n\nQuestions:\nOn which attempt did Leo learn to ride?\nHe learned to ride on his twelfth attempt.\nWhat pragmatic advice did his grandmother give him?\nShe said that balance is not keeping still but a thousand small corrections.\nWhat happens when a moving bicycle begins to lean?\nIts front wheel turns toward the lean, and the bicycle runs back underneath its rider.\nWhere does the line through the steering tube intersect the road?\nIt intersects the road a little ahead of the point where the tire touches it.\nWhat did the fabricated bicycle of 2011 show?\nIt showed that the weight of the frame and front wheel matters as much as anything."
+    },
+    {
+      "title": "The Patient Oven",
+      "summary": "A woman warms a bowl of dal and learns how a microwave oven heats the water in food.",
+      "newWords": [
+        "dal",
+        "ridiculously",
+        "makeover",
+        "modernization",
+        "modernize",
+        "localized",
+        "variance",
+        "glaze",
+        "pip"
+      ],
+      "text": "On busy evenings, Priya warms a bowl of dal in the microwave. She cooks a large pot of the lentil soup every Sunday. The microwave turns cold dal into hot dinner in two minutes, which still seems to her ridiculously fast.\n\nHer grandmother bought the family's first microwave oven during a kitchen makeover many years ago. For her grandmother, it was a symbol of modernization, like the new counters. The makeover was meant to modernize the whole house, and the microwave was its proudest part. Earlier models had been ridiculously large: one of the first stood almost 6 feet tall and weighed about 750 pounds. Modernization made the machines small and cheap, and soon any family that wished to modernize its kitchen could buy one.\n\nThe oven works by filling its metal box with radio waves about 5 inches long. These waves carry a rapidly changing electric field. A water molecule has a slightly positive end and a slightly negative end, so the field twists it one way and then the other, billions of times a second. As the molecules turn, they rub and collide with those around them, and that constant motion is heat.\n\nA popular story says that the waves are perfectly tuned to water. They are not; the oven would work at many other frequencies. Nor do the waves cook food from the inside out. They reach only an inch or less into the food, and the center warms more slowly, as the heat spreads toward it.\n\nInside the box, the waves bounce off the metal walls and add up in some places while canceling in others. The result is a pattern of localized hot spots and cold spots, often only an inch or two apart. This is why most ovens have a turning plate: it carries the food through the pattern and reduces the variance between hot and cold parts. Priya also stirs her dal halfway through, which reduces the variance further. Frozen food heats even less evenly, because ice takes in the waves poorly while melted patches take them in well, so localized pockets can boil while the rest stays frozen.\n\nShe uses a plain ceramic bowl. Most glaze on ordinary dishes is safe, but a glaze that contains metal, or a thin gold line at the rim, can produce sparks, because electric charge gathers at thin metal edges.\n\nThe oddest sparks of all come from grapes. A grape cut almost in half can produce a small flash of glowing gas in the oven. Scientists have found that the effect has nothing to do with the skin or the pip: grapes without a single pip do it too, and so do small balls of water gel. The waves gather at the point where two wet spheres touch. Priya has never tried it. She prefers her dinner.\n\nQuestions:\nWhy did Priya's grandmother see the microwave as a symbol of modernization?\nShe bought it during a kitchen makeover that was meant to modernize the whole house.\nHow do the waves heat a water molecule?\nThe changing electric field twists the molecule one way and then the other, and the motion becomes heat.\nWhy does a microwave oven have localized hot spots?\nThe waves bounce off the metal walls and add up in some places while canceling in others.\nHow does Priya reduce the variance between hot and cold parts of her dal?\nShe lets the turning plate carry it and stirs it halfway through."
+    },
+    {
+      "title": "The Song of the Kettle",
+      "summary": "On a quiet night, a man listens to his kettle and learns why it is loudest before the water boils.",
+      "newWords": [
+        "malt",
+        "catchy",
+        "hornet",
+        "eddy",
+        "mingle",
+        "degenerate",
+        "diligence",
+        "relapse"
+      ],
+      "text": "Every night before bed, Martin makes himself a mug of hot malt drink. It is an old habit from his childhood, when his mother stirred malt powder into warm milk for him. Now he uses water and an electric kettle, and while he waits, he listens.\n\nThe kettle's song is not catchy. Nobody would hum it, as one hums a catchy tune from the radio. Yet it follows the same pattern every night. For the first minute there is silence. Then comes a thin hiss, which grows into a loud, angry buzz, like a hornet trapped in a jar. Just when the hornet seems ready to break out, the noise begins to fall away, and it degenerates into a soft, low bubbling. Only then does the water reach a full boil, and the switch clicks off.\n\nOne evening Martin decided to understand the song, and he studied it with the diligence of a student before an exam. The answer, he found, lies in bubbles.\n\nThe heating element sits at the bottom of the kettle. The water touching it soon becomes much hotter than the rest, and tiny bubbles of steam form on the metal. At first these bubbles rise into water that is still fairly cool. There the steam turns back into liquid in an instant, and each bubble collapses with a tiny crack. Thousands of such collapses every second make the hiss and then the buzz.\n\nMeanwhile, warm water rises from the bottom and cooler water sinks to replace it. In a glass kettle you can see it: the hot and cold layers mingle in slow, curling movements, and each eddy carries heat upward. Little by little, the water becomes warm throughout.\n\nAs it does, the rising bubbles survive longer before they collapse, and they collapse more gently. The hornet grows tired. Close to the boiling point, the bubbles finally reach the surface without collapsing at all, and the sharp buzz degenerates into the deep, round sound of true boiling. That is why a kettle often seems loudest just before it boils, and quieter when the boil arrives.\n\nMartin also learned that a whistling kettle is a different instrument. There the steam rushes through a small opening in the whistle and sets the air vibrating, like breath through a flute. His own kettle has no whistle. Its song comes only from the bubbles, from the slow eddy of warm water and from the meeting of hot and cold, as they mingle until the whole kettle is ready.\n\nThe switch clicks, and the kettle begins to relapse into silence. Martin pours the water over the malt, stirs it with diligence, and carries the mug to the window. Behind him, the kettle cools and ticks softly, and the kitchen will soon relapse into its nightly calm.\n\nQuestions:\nWhat does Martin drink every night before bed?\nHe drinks a mug of hot malt drink.\nWhat does the loud buzz of the kettle sound like?\nIt sounds like a hornet trapped in a jar.\nWhy do the first bubbles collapse?\nThey rise into water that is still fairly cool, and the steam turns back into liquid in an instant.\nHow does heat travel upward through the water?\nHot and cold layers mingle, and each eddy carries heat upward.\nWhy does the buzz degenerate into a soft bubbling?\nThe water becomes warm throughout, so the bubbles reach the surface without collapsing."
+    },
+    {
+      "title": "The Geometry of a Rainbow",
+      "summary": "A mother and her son make a rainbow in a botanical garden, and she explains its angles.",
+      "newWords": [
+        "botanical",
+        "slayer",
+        "gutter",
+        "angular",
+        "visualize",
+        "speculative",
+        "reprinted",
+        "profoundly"
+      ],
+      "text": "The botanical garden in our town has a long lawn with water sprinklers, and on summer afternoons the sprinklers throw a fine mist across the grass. My son Sam, who is six and calls himself a dragon slayer, likes to run through the mist with a stick for a sword. Late one summer afternoon, he stopped in the middle of the lawn and shouted that the dragon slayer had found a rainbow.\n\nHe had. With the sun low behind us, a small bright arc stood in the mist. When we walked, it walked with us. It reminded me of the rainbow I had once seen as a child, in water running over the edge of a broken gutter on my grandmother's house. The gutter was a mess, but the rainbow was perfect.\n\nA rainbow is not an object in one place. It is a pattern of directions, and its rule is simple. Each drop of water acts like a tiny glass ball. Sunlight enters the drop and bends, reflects once off the back, and bends again as it leaves. Because each color bends by a slightly different amount, the colors leave the drop at slightly different angles. Red light returns most strongly at about 42 degrees from the line that runs from the sun through your head; violet returns at about 40 degrees.\n\nSam wanted to know how it worked, so I tried to help him visualize it. To visualize the rule, imagine the shadow of your head on the ground. A rainbow is a circle around that shadow, with an angular radius of 42 degrees. Every drop that lies at that angular distance from the shadow sends red light to your eye; drops a little closer send violet. From the ground, the earth cuts off the lower part of the circle, so we see an arc. From an airplane, people sometimes see the whole ring.\n\nSometimes a second, fainter bow appears outside the first, at about 51 degrees. Its light has reflected twice inside each drop, and its colors are reversed, with red on the inside.\n\nFor centuries, explanations of the rainbow were speculative. Ancient writers offered speculative ideas about clouds as mirrors. Around 1300, careful scholars began to study light passing through glass balls filled with water, and in 1637 the French thinker René Descartes traced rays through a single drop and calculated the famous angle. His diagram has been reprinted in countless books, and it is still reprinted today, because it is still right.\n\nWhat moves me most is a quiet consequence of the geometry. Since a rainbow depends on where you stand, no two people see quite the same one. Sam's rainbow came from drops slightly different from those that made mine. It is a profoundly personal thing, and it is also profoundly shared: we stood side by side, each with our own bow, looking at the same mist in the botanical garden.\n\nQuestions:\nWhat did Sam find in the botanical garden?\nHe found a rainbow in the mist of the sprinklers.\nHow can you visualize the position of a rainbow?\nImagine the shadow of your head; the rainbow is a circle around it with an angular radius of 42 degrees.\nWhy are the colors of the second bow reversed?\nIts light has reflected twice inside each drop.\nWhy do no two people see quite the same rainbow?\nA rainbow depends on where you stand, so each person sees light from different drops."
+    },
+    {
+      "title": "The Stranger in the Recording",
+      "summary": "A teacher hates the sound of her recorded voice until she learns why it sounds so different.",
+      "newWords": [
+        "instructional",
+        "introductory",
+        "narrate",
+        "megapixel",
+        "byte",
+        "inhuman",
+        "acquainted",
+        "affirmation"
+      ],
+      "text": "When Helen's school asked her to make a series of short instructional videos, she agreed at once. She had taught an introductory chemistry course for twenty years and knew every lesson by heart. All she had to do was narrate each experiment while a camera recorded her hands.\n\nThe first evening, she set up her phone on a pile of books. The phone had a 48-megapixel camera, and the picture was sharp enough to show every grain of salt on the table. She began to narrate the first experiment, and when she had finished, she played it back.\n\nShe hated it. The voice coming out of the phone was thin and high, almost inhuman, like a machine pretending to be a teacher. Surely, she thought, the tiny microphone had ruined it. A megapixel camera could not save a bad sound.\n\nThe next day she asked a colleague, Daniel, to listen. He watched the video and looked puzzled. \"But that's exactly how you sound,\" he said. His affirmation did not comfort her at all.\n\nHelen went home and read about the problem, and she found that it is almost universal. When you speak, your voice reaches your own ears by two routes. One route is through the air, from your mouth around to your ears, the same route by which it reaches everyone else. The other route is inside your own head. The vibrations of your throat travel through the bones and tissues of your skull directly to your inner ear. This inner route carries low sounds better than high ones, so it adds a deep, warm quality to the voice you hear while speaking.\n\nA microphone receives only the sound that travels through the air. It hears you the way your friends do. The recording loses the deep part that your skull adds, and the voice that remains seems strangely thin. It is not inhuman at all; it is simply unfamiliar. You have spent your whole life acquainted with a voice that nobody else has ever heard.\n\nThere is a second reason for the discomfort. A voice that is nearly your own, but not quite, feels wrong precisely because it is so close.\n\nHelen decided to become acquainted with her real voice. She recorded the introductory lesson again, then the next one, and the next. Each file was a few hundred million bytes, and together the files held a whole term of teaching. With every byte she listened to, the stranger in the recording sounded more like a person she knew.\n\nBy the end of the month, she had finished twelve instructional videos. Her students said that her voice was calm and clear. Helen did not need any further affirmation. She had heard the voice that others hear, and she had grown to like it.\n\nQuestions:\nWhat did Helen's school ask her to do?\nIt asked her to make a series of short instructional videos.\nHow did her recorded voice sound to her at first?\nIt sounded thin and high, almost inhuman.\nBy which two routes does your voice reach your own ears?\nIt travels through the air and through the bones and tissues of your skull.\nWhy does a recorded voice sound thin to the speaker?\nThe microphone receives only the sound that travels through the air, so it loses the deep part that the skull adds.\nHow did Helen become acquainted with her real voice?\nShe recorded one lesson after another and listened to every file."
+    },
+    {
+      "title": "Why a Fever Makes You Shiver",
+      "summary": "While she is ill with influenza, a young woman learns how the body raises and lowers its own temperature.",
+      "newWords": [
+        "influenza",
+        "anterior",
+        "vascular",
+        "accelerator",
+        "lotion",
+        "wholesome",
+        "opioid",
+        "expectancy"
+      ],
+      "text": "When Grace caught influenza last winter, the strangest part was the cold. Her temperature was climbing toward 102 degrees, yet she lay under two blankets with her teeth shaking, sure that the room had turned to ice. Her brother Tom brought her tea and asked, quite reasonably, how a person with a fever could feel so cold.\n\nThe answer is that a fever is not a failure of the body's heating system. It is a decision. Deep in the brain, in the anterior part of a small region near its base, a group of cells acts as the body's thermostat. Normally it holds the body near 98.6 degrees. When the immune system detects a virus such as influenza, it releases chemical messengers that reach these anterior cells and tell them to raise the setting.\n\nSuddenly, a body at a normal temperature finds itself below its new target. It responds exactly as it would on a freezing day. First comes a vascular response: the small blood vessels in the skin narrow, so that less warm blood flows near the surface and less heat escapes. This vascular change is why Grace's hands were cold and her face was pale. Next, the muscles begin to shiver. Shivering is a rapid, useless motion whose only purpose is to make heat, and it makes a great deal of it.\n\nThe body also presses the accelerator on its chemistry. Chemical processes run a little faster at a higher temperature, and for each degree of fever the body uses noticeably more energy. With the foot on the accelerator, the heart beats faster and breathing quickens. This is one reason a sick person feels so tired.\n\nDays later, when the infection fades, the thermostat drops back. Now the body is too hot for its setting, and it reverses everything. The vessels in the skin open wide, the face turns pink, and sweat appears. As the sweat evaporates, it carries heat away, and the fever breaks. A cooling lotion works in the same way: as the liquid in the lotion evaporates from the skin, it takes heat with it.\n\nGrace's doctor told her to rest, drink plenty of water and eat wholesome food. Tom made her a pot of wholesome chicken soup, which did not cure anything but made her feel loved. The doctor also explained that ordinary fever medicines, which lower the thermostat's setting, are quite different from an opioid painkiller, which is used for severe pain and does not treat a fever. Grace did not need an opioid; she needed time.\n\nOn the fifth day, she sat by the window with an air of expectancy, waiting for the thermometer to beep. It showed a normal temperature at last. Tom watched her with the same expectancy, then smiled and put away the extra blanket.\n\nQuestions:\nWhy did Grace feel cold while she had a fever?\nHer body's thermostat had raised its setting, so her normal temperature was below the new target.\nWhere is the body's thermostat?\nIt is in the anterior part of a small region near the base of the brain.\nWhat vascular response happens at the start of a fever?\nThe small blood vessels in the skin narrow, so less heat escapes.\nHow does a cooling lotion work?\nAs the liquid in the lotion evaporates from the skin, it takes heat with it.\nWhat did Tom make for Grace?\nHe made her a pot of wholesome chicken soup."
+    },
+    {
+      "title": "An Obituary for a Physics Teacher",
+      "summary": "A newspaper obituary remembers a patient, honest physics teacher who taught for forty years.",
+      "newWords": [
+        "obituary",
+        "ancestry",
+        "shire",
+        "craftsman",
+        "beggar",
+        "tyrant",
+        "abolition",
+        "sigma",
+        "postage"
+      ],
+      "text": "Margaret Ellison, who taught physics at Lincoln High School for forty years and wrote one of the most widely used introductory textbooks in the subject, died at home last week. She was 91. Her family asked that this obituary mention her students before her honors, as she would have wished.\n\nMargaret was proud of her ancestry, and she liked to begin her first class each year with it. Her great-great-grandfather had been born in a quiet English shire, the son of a poor farm worker. At the age of ten he was sent to a clockmaker, and he became a skilled craftsman who repaired the clocks of every church in the shire. \"A craftsman,\" she told her students, \"knows that a clock is only as good as its smallest part.\" She kept one of his clocks on her desk. That clock, she said, was the best part of her ancestry: it never ran more than a minute slow.\n\nShe was not a tyrant in the classroom. She disliked the old style of teaching in which a tyrant at the front of the room fills young heads with facts. Instead, she gave her students springs, pendulums and stopwatches, and asked them to find the rules for themselves. Her favorite saying was that nature is never a beggar: it does not plead with us to believe it. \"We must go to nature like a beggar,\" she said, \"and ask it politely, again and again, until it answers.\"\n\nAbove all, she insisted on honest measurement. Next to every result, her students had to write a small Greek sigma, the letter that scientists use for the uncertainty of a measurement. A result without its sigma, she said, was only half a result.\n\nMargaret was also a quiet reformer. When she began teaching, girls were steered away from advanced physics. She led a long campaign for the abolition of that unwritten rule, and after its abolition, her classes were soon evenly divided between girls and boys.\n\nHer introductory textbook, first printed when she was forty, was later reprinted many times. She refused to let the price rise, saying that a student should be able to buy it with a week's pocket money.\n\nIn retirement, she kept writing to former students. She sent hundreds of handwritten letters each year and paid the postage herself. When someone pointed out that the postage added up to a large sum each year, she said that a letter could be kept for years, which made it the cheapest gift she knew.\n\nShe is survived by her two sons, five grandchildren and the clock on her desk, which is still running. Her family will read this obituary aloud at a small gathering at the school.\n\nQuestions:\nWhere was Margaret's great-great-grandfather born?\nHe was born in a quiet English shire.\nWhat did the craftsman in her ancestry do?\nHe repaired the clocks of every church in the shire.\nWhy did Margaret say that we must go to nature like a beggar?\nShe believed that we must ask nature politely, again and again, until it answers.\nWhat did her students have to write next to every result?\nThey had to write a small Greek sigma for the uncertainty of the measurement.\nWhat campaign did Margaret lead?\nShe led a campaign for the abolition of the rule that steered girls away from advanced physics."
+    }
+  ]
+}

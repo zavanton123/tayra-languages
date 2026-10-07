@@ -84,11 +84,11 @@ class CoursePackTest {
         val pt = env.languages.save(Language(name = "Portuguese"))
         env.courses.seedSamples()
         env.packs.refresh()
-        assertEquals(PackState.NotInstalled, env.packs.packs.value.single().state)
+        assertEquals(PackState.NotInstalled, env.packs.packs.value.first { it.pack == pack }.state)
         assertEquals(emptyList(), env.courses.observeCourses(pt).first())
 
         env.packs.download(pack)
-        assertIs<PackState.Installed>(env.packs.packs.value.single().state)
+        assertIs<PackState.Installed>(env.packs.packs.value.first { it.pack == pack }.state)
         val courses = env.courses.observeCourses(pt).first().map { it.course }
         assertEquals(listOf("pt-mini-0100", "pt-mini-0200"), courses.map { it.id })
         val first = courses.first()
@@ -104,7 +104,7 @@ class CoursePackTest {
         val opened = assertNotNull(env.courses.openLesson("pt-mini-0100", "pt-mini-0100-01"))
         assertEquals(listOf("tayra"), env.books.getBook(opened)!!.tags, "the lesson's text carries its tags")
         env.packs.remove(pack)
-        assertEquals(PackState.NotInstalled, env.packs.packs.value.single().state)
+        assertEquals(PackState.NotInstalled, env.packs.packs.value.first { it.pack == pack }.state)
         assertEquals(listOf(own), env.courses.observeCourses(pt).first().map { it.course.id }, "the reader's own course stays")
         assertNull(env.books.getBook(opened), "the text read from a lesson goes with it")
         assertTrue(env.directory.listFiles().orEmpty().isEmpty(), "the file is deleted")
@@ -127,11 +127,11 @@ class CoursePackTest {
         val newer = Env(buildPack(format = CoursePack.FORMAT + 1))
         val pt = newer.languages.save(Language(name = "Portuguese"))
         newer.packs.download(pack)
-        assertIs<PackState.Failed>(newer.packs.packs.value.single().state)
+        assertIs<PackState.Failed>(newer.packs.packs.value.first { it.pack == pack }.state)
         assertEquals(emptyList(), newer.courses.observeCourses(pt).first())
 
         val missing = Env(null)
         missing.packs.download(pack)
-        assertIs<PackState.Failed>(missing.packs.packs.value.single().state)
+        assertIs<PackState.Failed>(missing.packs.packs.value.first { it.pack == pack }.state)
     }
 }

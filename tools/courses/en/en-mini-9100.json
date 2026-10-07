@@ -1,0 +1,221 @@
+{
+  "id": "en-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Chemistry and Materials",
+  "description": "Ten clear essays and stories on the chemistry of everyday materials: glass, stainless steel, soap, rust, plastics, Roman concrete, the periodic table, a sodium battery, a forbidden crystal and a dye that became a medicine.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Venice",
+    "Murano",
+    "Europe",
+    "Sheffield",
+    "Harry",
+    "Brearley",
+    "Germany",
+    "Rosa",
+    "Delgado",
+    "Leo",
+    "Juno",
+    "California",
+    "Kai",
+    "Bakelite",
+    "Pacific",
+    "Alaska",
+    "Pantheon",
+    "Rome",
+    "Naples",
+    "Vitruvius",
+    "Mendeleev",
+    "Dmitri",
+    "Primo",
+    "Levi",
+    "Meera",
+    "Iyer",
+    "Bengaluru",
+    "India",
+    "Dr",
+    "Dan",
+    "Shechtman",
+    "Linus",
+    "Pauling",
+    "Nobel",
+    "Roger",
+    "Penrose",
+    "April",
+    "William",
+    "Perkin",
+    "London",
+    "Paul",
+    "Ehrlich",
+    "Henri",
+    "Laborit",
+    "Jean",
+    "Pierre",
+    "Deniker",
+    "Paris"
+  ],
+  "lessons": [
+    {
+      "title": "Why Glass Is Clear",
+      "summary": "An essay on why light passes through glass, why old glass turns cloudy, and how glass became jewelry, lace and cable.",
+      "newWords": [
+        "sparkling",
+        "cloudy",
+        "haze",
+        "superficial",
+        "faux",
+        "luxurious",
+        "mystical",
+        "lacy",
+        "woven"
+      ],
+      "text": "Glass is a strange substance. It is hard enough to cut a finger, and yet light passes through it as if it were hardly there. For most of history this seemed almost mystical, and early makers of glass guarded their recipes like sacred secrets. The explanation, however, is not mystical at all. It lies in the behavior of electrons and in the disorder of the atoms that hold them.\n\nOrdinary window glass is made mostly from sand, melted with soda and lime. When the hot liquid cools quickly, its atoms do not have time to arrange themselves into neat rows. They freeze where they are in a random network, like a crowd that stopped moving the moment the music ended.\n\nThis disorder matters because of what light needs in order to be absorbed. Light travels in tiny packets of energy called photons, and a photon is absorbed only when it carries enough energy to lift an electron to a higher level. In glass, the electrons are held so tightly that visible light simply cannot move them, so the photons pass straight through.\n\nA material can also send light off in random directions, which is what makes snow white and milk cloudy. Most solids are made of countless tiny crystals, and every boundary between two crystals turns a little light aside. Glass has no such boundaries. Its disorder is perfectly even, so light meets nothing to bounce from.\n\nWhen an old drinking glass turns cloudy, the damage is usually superficial: years of hot washing eat into the surface and leave a white haze. Superficial as it is, a haze of this kind cannot be polished away, and because it turns light aside, the whole glass looks tired.\n\nThe same physics explains why cut glass is sparkling. Lead added to the recipe slows light down inside the glass, so each cut face bends the light more sharply and splits it into flashes of color. Such glass was a luxurious possession. Faux diamonds were made from the same kind of glass, and by the light of a candle a faux stone could look as sparkling as a real one.\n\nIn Venice, the glassmakers of Murano learned to pull white glass into fine threads and bury them inside clear glass. The result was a lacy pattern, delicate as the edge of a wedding veil, that seemed woven rather than blown. These lacy pieces were among the most luxurious objects in Europe. Today glass threads as thin as a hair are woven into cloth for boats, or bundled into cables that carry light under the oceans.\n\nSo the clarity of a window is not magic. It is the quiet result of disorder: atoms that froze before they could form crystals, and electrons held too firmly to notice the light passing by.\n\nQuestions:\nWhy do the atoms in glass form a random network?\nThe hot liquid cools so quickly that its atoms do not have time to arrange themselves into neat rows.\nWhy does visible light pass through glass?\nThe electrons are held so tightly that visible light cannot move them.\nWhy does an old drinking glass turn cloudy?\nYears of hot washing eat into the surface and leave a superficial white haze.\nWhy is cut glass sparkling?\nLead makes each cut face bend the light and split it into flashes of color.\nWhat did the glassmakers of Murano create?\nThey buried fine white threads inside clear glass and created lacy patterns that seemed woven rather than blown."
+    },
+    {
+      "title": "The Story of Stainless Steel",
+      "summary": "How a search for better rifle barrels in Sheffield led to stainless steel, and why its thin skin of oxide protects it.",
+      "newWords": [
+        "lucrative",
+        "managerial",
+        "pursuant",
+        "rationale",
+        "intruder",
+        "obstruct",
+        "procure",
+        "consolation",
+        "mend"
+      ],
+      "text": "In 1913, in the steel city of Sheffield, a scientist named Harry Brearley was trying to solve a military problem. The barrels of rifles wore away quickly as hot gases rushed through them, and Brearley was testing steels that might last longer. He melted iron with different amounts of chromium and examined each sample under the microscope.\n\nTo prepare a sample, a scientist polishes it and washes it in a mild acid, which attacks the surface and reveals its grain. One sample, containing about 13 percent chromium, refused to be marked. The acid that ate into ordinary steel barely touched it. Brearley understood what he had found.\n\nHis rationale for the next step was commercial rather than military. The knife trade of Sheffield was old and lucrative, and every table knife of the day had the same weakness: it stained when it met vinegar or fruit juice. A blade that never stained would be lucrative indeed. Brearley managed to procure a few pieces of the new steel and asked a local knife maker to try them. The knives did not stain, and someone at the knife maker's firm gave the steel the name that stuck: stainless.\n\nBrearley's employers were less excited. Their managerial staff doubted that there was a market, and a dispute over the rights to the discovery followed. Managerial caution of this kind is common in the history of invention, and Brearley soon left. Inventors in Germany and the United States were developing similar steels, so the honor of being first was argued about for years. The consolation for all of them was that the metal itself succeeded beyond anyone's hopes.\n\nWhy does stainless steel resist rust? The chromium reacts with oxygen in the air to form a layer of chromium oxide only a few atoms thick. The layer is transparent and clings tightly, so it can obstruct the path of oxygen and water to the iron beneath. Ordinary rust, by contrast, is loose and falls away, and it does nothing to obstruct further attack.\n\nBest of all, the protective layer can mend itself. When a knife is scratched, fresh chromium is exposed, and within moments it reacts with the air to mend the gap. Salt is the chief intruder: in sea water, salt can break through the film at weak points and dig small holes. This is the rationale for the extra elements added to steel for ships: they help keep the intruder out.\n\nPursuant to international standards, a steel may be called stainless only if it contains at least 10.5 percent chromium, and pursuant to the same standards each type receives a grade number, such as the familiar 304 of kitchen sinks. Hospitals and kitchens procure it by the ton. For anyone who has scrubbed a stained knife, there is a small consolation in knowing that the problem was solved over a century ago.\n\nQuestions:\nWhat problem was Harry Brearley trying to solve in 1913?\nHe was looking for a steel for rifle barrels that would last longer.\nWhat was his rationale for making knives from the new steel?\nThe knife trade was lucrative, and a blade that never stained would sell well.\nHow did the managerial staff of his employers react?\nThey doubted that there was a market, and a dispute over the rights followed.\nHow does the layer of chromium oxide protect the steel?\nIt clings tightly and obstructs the path of oxygen and water to the iron beneath.\nWhat happens when stainless steel is scratched?\nFresh chromium reacts with the air, and the layer mends itself."
+    },
+    {
+      "title": "How Soap Lifts Grease",
+      "summary": "A nurse at a children's clinic shows a boy how soap packages grease and breaks germs apart.",
+      "newWords": [
+        "pediatric",
+        "repetitive",
+        "harassed",
+        "mandarin",
+        "pathogen",
+        "ouch",
+        "diabetic",
+        "detrimental",
+        "mop",
+        "disposed"
+      ],
+      "text": "At the pediatric clinic where Rosa Delgado works as a nurse, the sink in the waiting room is lower than any other sink in the building. It was built for children, and Rosa teaches them to use it. She has made peace with how repetitive the lesson is. Good habits, she believes, are built from repetitive moments.\n\nOne afternoon a harassed father came in with three small children. The oldest boy, Leo, had sticky hands from peeling a mandarin in the car. While his harassed father filled in the forms, Rosa offered to show Leo how soap works.\n\nFirst Leo tried water alone, but the oil from the mandarin stayed where it was. \"Water and oil don't mix,\" Rosa explained. Then she gave him soap.\n\nA soap molecule, she told him, has two very different ends. One end is a long tail of carbon and hydrogen that dislikes water and is happy among oils. The other end is a small head that carries an electric charge and loves water. When you rub soap into oily hands, the tails dig into the grease while the heads stay out in the water. Soon each drop of oil is wrapped in a tiny ball of soap, which water can carry away. The grease has not been destroyed; it has been packaged for removal.\n\nThe same packaging works on germs. Many viruses are wrapped in a thin skin of fat, and the tails of soap molecules work their way into that skin and pull it apart. That is why Rosa asks children to scrub for 20 seconds: it takes time for soap to reach every pathogen in the folds of the skin, and a pathogen left in place can still cause harm.\n\nAt that moment Leo rubbed his eyes with a soapy hand and shouted, \"Ouch!\" Rosa rinsed his face gently. \"Ouch is right,\" she said. \"Soap goes on hands, not in eyes.\"\n\nMany children at this pediatric clinic are diabetic and test their blood sugar several times a day. For a diabetic child, a trace of fruit juice on the skin can make the reading falsely high, so clean hands are part of the treatment.\n\nWashing has a cost, too. Soap removes the skin's own oils along with the dirt, and for nurses who wash dozens of times a day, the effect can be detrimental.\n\nThe night cleaner adds soap to her bucket so that the mop lifts the greasy film from the floor; without soap, a mop simply moves dirt around. Grease itself must be disposed of with care. Fat poured down a kitchen drain hardens in the pipes and can be detrimental to a whole city's drains. It should be disposed of in the trash.\n\nLeo left with clean hands, and his father looked a little less tired.\n\nQuestions:\nWhy did water alone not clean Leo's hands?\nWater and oil don't mix, so the oil from the mandarin stayed on his fingers.\nHow does a soap molecule hold on to grease?\nIts long tail digs into the grease while its head stays in the water.\nWhy does Rosa ask children to scrub for 20 seconds?\nIt takes time for soap to reach every pathogen in the folds of the skin.\nWhy are clean hands important for a diabetic child?\nA trace of fruit juice on the skin can make the blood sugar reading falsely high.\nHow should kitchen grease be disposed of?\nIt should be disposed of in the trash, because fat hardens in the pipes."
+    },
+    {
+      "title": "The Rust on the Bridge",
+      "summary": "A surveyor and a husky inspect an old iron bridge below a weir and read the chemistry of rust.",
+      "newWords": [
+        "surveyor",
+        "fir",
+        "weir",
+        "husky",
+        "lush",
+        "chestnut",
+        "upstream",
+        "turbulence",
+        "elk",
+        "latch"
+      ],
+      "text": "The bridge I was sent to inspect crosses a small river in a valley of fir trees, a mile below an old stone weir. I am a surveyor, and my work is to look closely at metal that everyone else has stopped noticing. My husky, Juno, comes with me on these trips. She has no interest in iron, but she loves the river.\n\nThe bridge was built of iron more than a century ago. From a distance it still looked handsome against the dark firs and the lush green of the riverbank. Up close, its beams wore the chestnut color that every surveyor learns to read. Fresh rust is orange; older layers deepen into chestnut and brown; and underwater, where little oxygen reaches the metal, rust can be almost black.\n\nRust looks like a simple stain, but it is a small electrical circuit. When a film of water lies on iron, the metal at one spot gives up electrons and passes into the water as charged atoms. The electrons travel through the metal to another spot, usually where water meets the air, and there they are taken up by oxygen. The dissolved iron and the oxygen then combine, and the product is rust. Salt makes water a better conductor, which is why iron rusts faster near the sea.\n\nThe worst damage on this bridge was on the legs nearest the water. Upstream, the river pours over the weir, and below it the water foams. That turbulence beats air into the river and throws a constant spray onto the iron. Metal that is wet, then dry, then wet again, with plenty of oxygen each time, rusts faster than metal that stays underwater, and the turbulence below the weir keeps the legs in exactly that condition.\n\nRust also feeds itself. Unlike the thin, tight skin that forms on aluminum, rust is loose, and it takes up several times more space than the iron it replaces. As it swells, it cracks and falls away, exposing fresh metal to the next attack.\n\nWhile I was measuring, an elk came down to drink a little way upstream. It stood in the shallows for some time, watching Juno, who for once kept still. Then the elk climbed the bank and disappeared among the firs.\n\nAt the end of the bridge there is a small iron gate. Its latch had rusted shut, the swollen rust filling every gap until the parts were locked together. I loosened the latch with oil and patience, and it opened with a groan. A rusted latch is the whole lesson of rust in miniature: water, air and time, slowly joining what was meant to move.\n\nMy report recommended cleaning and painting the legs. I walked back with my husky through the lush grass, and the sound of the weir followed us up the valley.\n\nQuestions:\nWhere is the bridge that the surveyor inspected?\nIt crosses a small river in a valley of fir trees, a mile below an old stone weir.\nWhat color are older layers of rust?\nOlder layers of rust deepen into chestnut and brown.\nWhy did the legs nearest the water have the worst damage?\nThe turbulence below the weir keeps them wet and dry by turns, with plenty of oxygen.\nWhy does rust keep attacking the iron?\nIt swells, cracks and falls away, and it exposes fresh metal to the next attack.\nWhat animal came to drink upstream?\nAn elk came down to drink a little way upstream."
+    },
+    {
+      "title": "Plastics and Their Long Lives",
+      "summary": "A surfer collects plastic from the beach, and an essay explains why the strong bonds of plastic make it last so long.",
+      "newWords": [
+        "dumpster",
+        "surfer",
+        "cobra",
+        "fandom",
+        "throwback",
+        "blockbuster",
+        "longevity",
+        "downfall",
+        "roach",
+        "odyssey",
+        "recycled"
+      ],
+      "text": "Behind a beach café in California stands a green dumpster with a hand-painted sign: Ocean Plastic Only. It belongs to Kai, a surfer who has spent hundreds of mornings filling it. After surfing, he walks the beach with a sack, picking up whatever the sea has returned: bottle caps, fishing line, and once a child's toy cobra, its paint faded but its body perfectly whole. The toy cobra now sits on a shelf in the café. When the dumpster is full, a truck takes it away.\n\nPlastics are polymers, from the Greek for \"many parts.\" A polymer is a long chain made by linking thousands of small molecules end to end, like beads on a string. In most plastics, the chain is held together by some of the strongest bonds in chemistry. That strength makes a bottle light, cheap and hard to break.\n\nThe first fully synthetic plastic, Bakelite, was invented in 1907. Radios and telephones were made of it. Today these objects have a devoted fandom. To the fandom a Bakelite radio is both a design classic and a throwback to a time when plastic itself seemed modern. New kitchen gadgets are sometimes styled as a throwback to the same years.\n\nThe true blockbuster came later. In 1940, stockings made of a new plastic fiber went on sale in the United States, and crowds lined up to buy them. Within a few decades, plastic had become a blockbuster material, found in cars, clothes, packaging and medicine.\n\nBut the strong bonds that give plastic its longevity are also its downfall. Wood and paper are eaten by bacteria and fungi, which have had millions of years to learn the job. Plastic is too new, and few living things can digest it. Even the roach, which will eat glue, soap and the paste in old books, cannot live on a plastic bag. A roach may chew it, but it gains nothing. So plastic does not rot. Sunlight and waves slowly break it into smaller and smaller pieces, but the pieces remain.\n\nThe longevity of plastic at sea was shown by an accident in 1992. A container of bath toys fell from a ship in the North Pacific, and nearly 29,000 plastic ducks, turtles and frogs began an odyssey across the ocean. Some washed up in Alaska; others drifted for thousands of miles. Scientists followed their odyssey to learn about ocean currents.\n\nOnly certain plastics are widely recycled, and each time a plastic is melted and recycled, its chains break and its quality declines. Chemists are now designing polymers that can be taken apart and built again.\n\nUntil then, the surfer keeps walking the beach. The downfall of plastic, Kai says, is that it lasts almost forever, and the cure, for now, is people willing to pick it up.\n\nQuestions:\nWhat does Kai do after he surfs?\nHe walks along the beach with a sack and picks up plastic that the sea has returned.\nWhat is a polymer?\nA polymer is a long chain made by linking thousands of small molecules end to end.\nWhy does a Bakelite radio have a fandom today?\nTo collectors it is a design classic and a throwback to a time when plastic seemed modern.\nWhy is the longevity of plastic also its downfall?\nFew living things can digest plastic, so it does not rot and only breaks into smaller pieces.\nWhat happened to the bath toys that fell into the ocean in 1992?\nThey began an odyssey across the ocean, and some washed up in Alaska."
+    },
+    {
+      "title": "The Roman Recipe",
+      "summary": "Why the Pantheon's concrete has lasted almost 1,900 years, and what modern engineers are learning from it.",
+      "newWords": [
+        "pilgrimage",
+        "spirituality",
+        "circulated",
+        "cumulative",
+        "deviation",
+        "bolster",
+        "motorway",
+        "invoice",
+        "oppressed"
+      ],
+      "text": "Every year, millions of visitors make a kind of pilgrimage to the Pantheon in Rome. Some come for its spirituality: built as a temple to all the gods, it has been a church for some 1,400 years. Others come as engineers, and for them the pilgrimage is to a material. The dome, finished around AD 125, is still the largest dome of concrete without steel in the world.\n\nRoman builders mixed lime with volcanic ash and broken stone, and the best ash came from the hills around the Bay of Naples. The engineer Vitruvius described such mixtures in a book on architecture, and copies of his work circulated by hand for centuries. Later, printed editions circulated across Europe, yet the secret of the material's long life remained unclear.\n\nIn the harbors the Romans built, sea water soaked slowly into the concrete and reacted with the volcanic ash. Over the centuries, rare crystals grew inside its pores and cracks, locking together like the fibers of felt. The effect was cumulative: the longer the sea worked on the concrete, the stronger it became.\n\nAnother clue lies in the small white lumps of lime scattered through Roman concrete. For years they were seen as signs of careless mixing, a deviation from good practice. Researchers now believe they were no deviation at all. They probably formed because the lime was mixed in hot. When a crack forms and rain gets in, the lime dissolves and then hardens again, sealing the crack. The concrete heals itself.\n\nModern concrete takes a different approach. To bolster its strength, engineers bury steel bars inside it. But steel can rust. Water and salt reach the bars, the rust swells, and the concrete cracks from within. The damage is cumulative and largely hidden until pieces begin to fall. Many English motorway bridges, only 50 or 60 years old, need constant repair. A single invoice for strengthening one large motorway bridge can run into millions, and the national invoice into billions.\n\nNone of this means that the Romans were simply better engineers. Their concrete was weak when pulled. And much of the heavy labor was done by enslaved and oppressed people whose names no record keeps. Any honest admiration for the Pantheon should remember the oppressed workers who carried its stones.\n\nScientists are testing mixtures that use volcanic ash to bolster the life of concrete and reduce the carbon dioxide released in making cement, and others are copying those white lumps of lime.\n\nSo the pilgrimage to the Pantheon continues, for spirituality and for science alike. Its dome is a reminder that a material should be judged not only by its strength on the day it is poured, but by how well it grows old.\n\nQuestions:\nWhy do engineers make a pilgrimage to the Pantheon?\nIts dome is still the largest dome of concrete without steel in the world.\nWhat happened when sea water soaked into Roman harbor concrete?\nRare crystals grew inside it, and the concrete became stronger over time.\nWhy were the white lumps of lime not a deviation from good practice?\nThey help the concrete heal itself, because the lime dissolves and hardens again in a crack.\nWhy do many motorway bridges need constant repair?\nThe steel bars inside the concrete rust and swell, and the concrete cracks from within.\nWho did much of the heavy labor in ancient Rome?\nMuch of it was done by enslaved and oppressed people whose names no record keeps."
+    },
+    {
+      "title": "The Quiet Logic of the Periodic Table",
+      "summary": "How Mendeleev found a repeating pattern in the elements, trusted its gaps, and why the pattern repeats.",
+      "newWords": [
+        "repetition",
+        "allege",
+        "interruption",
+        "oddly",
+        "planetary",
+        "moderately",
+        "anthology",
+        "multimedia"
+      ],
+      "text": "Classrooms everywhere have the same poster on the wall: rows and columns of small squares, each holding a letter or two. The periodic table can look like a list to memorize. It is better understood as a pattern, and the pattern is repetition.\n\nIn 1869, the chemist Dmitri Mendeleev was searching for a sensible order for the 63 elements then known. He arranged them by the weight of their atoms and noticed that their properties came back at regular intervals, the way the notes of a scale return higher up the keyboard. Lithium, sodium and potassium, for example, are all soft metals that react with water, lithium moderately, sodium strongly and potassium violently, and in rows of the right length they fall into the same column. The word periodic means recurring, and the table is a map of that repetition.\n\nMendeleev wrote the elements on cards and moved them around like a game of patience. Some accounts allege that the solution came to him in a dream; others allege that the dream was added to the story later.\n\nWhere the repetition seemed to fail, Mendeleev assumed that our knowledge was at fault, not nature. Each interruption in the pattern, he argued, marked an element not yet discovered. He left gaps and described the missing elements in detail. At first, many chemists were only moderately impressed. Then, within 17 years, three of the missing elements were found, and they matched his predictions closely. An interruption had become a prophecy.\n\nOddly, he also placed tellurium before iodine, although tellurium has the heavier atom, because the properties of the two demanded it. The reason became clear only decades later, when physicists showed that the true order is not weight but the number of protons in each nucleus. Oddly enough, Mendeleev had trusted the pattern over the measurements, and the pattern was right.\n\nWhy do properties repeat? In 1913 scientists described the atom with a planetary model: a tiny, heavy center with electrons moving around it like planets around the sun. The planetary picture is too simple, but it captures something true. Electrons fill a series of shells, and the outer shell decides how an atom behaves. When a shell is full, a new row begins, and the outer electrons repeat their arrangement. Sodium reacts strongly with water, its neighbor magnesium only slowly, and aluminum, protected by a thin skin of oxide, hardly at all.\n\nThe chemist Primo Levi wrote a book called The Periodic Table, a kind of anthology of his own life, with each story named after an element. Like any good anthology, it can be opened anywhere.\n\nToday students explore the table in multimedia apps, tapping a square to watch a reaction or read the history of a discovery. Multimedia brings the elements to life, yet the deepest lesson is the oldest one: beneath the variety of matter lies a quiet, repeating order.\n\nQuestions:\nWhat did Mendeleev notice when he arranged the elements by weight?\nHe noticed that their properties came back at regular intervals.\nWhat did Mendeleev believe each interruption in the pattern meant?\nHe believed it marked an element not yet discovered.\nWhat decides the true order of the elements?\nThe true order is decided by the number of protons in each nucleus.\nWhat is the planetary model of the atom?\nIt pictures electrons moving around a tiny, heavy center like planets around the sun.\nWhat is Primo Levi's book like?\nIt is a kind of anthology of his life, with each story named after an element."
+    },
+    {
+      "title": "A Battery from the Sea",
+      "summary": "A profile of a materials scientist in India who builds batteries from sodium instead of lithium.",
+      "newWords": [
+        "moderator",
+        "doctoral",
+        "redirect",
+        "crore",
+        "accreditation",
+        "ministerial",
+        "rebate",
+        "converter",
+        "karate",
+        "wand"
+      ],
+      "text": "When Meera Iyer spoke at a science festival in Bengaluru, the moderator introduced her as \"the woman who wants to put the sea in your scooter.\" Dr. Iyer laughed and did not object. She is a materials scientist who builds batteries from sodium, the element in ordinary salt, instead of lithium.\n\nHer doctoral research, completed in Germany, was on lithium batteries. During her doctoral years, however, she began to worry about supply. Lithium is mined in only a few countries. \"If every scooter in India needs lithium,\" she said, \"we will depend on a few mines on the other side of the world.\" So she decided to redirect her work. To redirect a career is not easy in science, where money tends to follow past success.\n\nA battery, she explained, has two electrodes separated by a liquid or gel. In use, charged atoms called ions travel through the liquid from one electrode to the other, while their electrons take the long way through the wires and power the device. Charging pushes them all back. Sodium sits directly below lithium in the periodic table, so it behaves in a similar way. Its ions, however, are larger, and they do not fit easily into the carbon that holds lithium in a normal battery. Much of her work has been to design carbon with wider spaces, so that the bigger ions can slip in and out thousands of times.\n\nSodium batteries store less energy for their weight than lithium ones, so they will not soon power long-distance cars. But they are cheaper, safer in heat, and made from materials found almost everywhere. For scooters, buses and solar power, she argues, they are good enough, and good enough at a low price can change a country.\n\nHer company has raised about 60 crore rupees, a crore being ten million. Last year its testing laboratory earned accreditation, which means that manufacturers accept its results without repeating the tests. The accreditation took two years of paperwork. A ministerial visit followed. Dr. Iyer was grateful, she said, but a ministerial speech does not build a factory.\n\nThe moderator asked what governments should do. She mentioned the rebate that many states offer to buyers of electric scooters and suggested that such a rebate could also reward local materials. She also praised the humble converter, which changes the battery's power into the form a motor needs. \"A battery is only as good as the converter beside it,\" she said.\n\nIn her free time, Dr. Iyer trains in karate three evenings a week. Karate, she said, taught her that progress comes from small corrections repeated many times, and batteries are the same. \"There is no magic wand,\" she told the audience. \"Anyone who promises a magic wand is selling something. We improve them one percent at a time.\"\n\nQuestions:\nHow did the moderator introduce Meera Iyer?\nThe moderator introduced her as the woman who wants to put the sea in your scooter.\nWhy did she decide to redirect her work from lithium to sodium?\nLithium is mined in only a few countries, and she worried that India would depend on distant mines.\nWhy is it difficult to use sodium in a normal battery?\nSodium ions are larger and do not fit easily into the carbon that holds lithium.\nWhat does the accreditation of her laboratory mean?\nIt means that manufacturers accept its results without repeating the tests.\nWhat did karate teach her?\nIt taught her that progress comes from small corrections repeated many times."
+    },
+    {
+      "title": "The Forbidden Crystal",
+      "summary": "How Dan Shechtman saw a pattern that crystals were not supposed to have, and how the world came to accept it.",
+      "newWords": [
+        "outsiders",
+        "adversary",
+        "arrogance",
+        "seriousness",
+        "phi",
+        "intricate",
+        "acknowledgment",
+        "fearless"
+      ],
+      "text": "On April 8, 1982, a materials scientist named Dan Shechtman looked into an electron microscope and saw something that was not supposed to exist. He was studying a quickly cooled mixture of metals, and his screen showed ten bright spots arranged in a perfect circle.\n\nThe first rule of crystals explains his surprise. A crystal is a solid whose atoms form a pattern that repeats in every direction, like tiles on a floor. Such a pattern can have the shape of a square, a triangle or a six-sided figure, but not of a pentagon, for the same reason that you cannot cover a floor with five-sided tiles without leaving gaps. A pattern of ten, built on fives, was therefore impossible.\n\nShechtman checked his work again and again, and the pattern stayed. The head of his research group brought him a textbook and suggested he read it, and when Shechtman insisted, he was asked to leave the group. For a scientist, few things are harder than becoming one of the outsiders in one's own field.\n\nHis most famous adversary was Linus Pauling, one of the greatest chemists of the century and the winner of two Nobel Prizes. Pauling argued that the strange pattern came from ordinary crystals grown together at odd angles, and he defended this view for the rest of his life. It was not simple arrogance. Pauling had seen many false discoveries, and his doubt was a form of seriousness about evidence. Yet an adversary of such fame made it hard for younger scientists to take Shechtman's side.\n\nHelp came from outsiders. Years earlier, the mathematician Roger Penrose had designed two tile shapes that could cover a floor completely in an intricate pattern that never repeats. The pattern is built on fives, and the ratio between the numbers of the two tiles approaches phi, the golden ratio, about 1.618. Physicists realized that atoms could be arranged in the same way: perfectly ordered, yet never repeating. Drawings of such solids are as intricate as lace, with distances related to one another by phi.\n\nRecognition came slowly but completely. Other laboratories soon made the new solids, and in 2009 natural ones were found in a rock from space. In 2011 Shechtman received the Nobel Prize in Chemistry, a late acknowledgment that he had been right all along. He spoke of the acknowledgment with humor, and with the same seriousness about evidence that had kept him going.\n\nHis story is often told as a lesson in courage, and he was fearless in holding to his results. But the deeper lesson concerns arrogance of a quieter kind: the belief that because a rule has never failed, it cannot. A fearless scientist trusts the evidence, even when the evidence contradicts the textbook.\n\nQuestions:\nWhat did Dan Shechtman see in 1982?\nHe saw ten bright spots arranged in a perfect circle, a pattern that was not supposed to exist.\nWhy was a pattern of ten thought to be impossible in a crystal?\nA repeating pattern cannot be built on fives, just as five-sided tiles cannot cover a floor without gaps.\nWhy was Linus Pauling an important adversary?\nHe was one of the greatest chemists of the century, and his fame made it hard for others to support Shechtman.\nHow did phi help to explain the new solid?\nPenrose tiles that never repeat are related by phi, and physicists realized that atoms could be arranged in the same way.\nWhat acknowledgment did Shechtman receive in 2011?\nHe received the Nobel Prize in Chemistry."
+    },
+    {
+      "title": "From Purple Dye to Medicine",
+      "summary": "How a failed experiment that produced the first synthetic dye led, step by step, to a medicine that changed psychiatry.",
+      "newWords": [
+        "lineage",
+        "psychiatry",
+        "schizophrenia",
+        "lunatic",
+        "desperation",
+        "dysfunction",
+        "compassionate"
+      ],
+      "text": "In 1856, an 18-year-old chemistry student in London named William Perkin was trying to make a malaria medicine from coal tar. He failed. Instead he got a dark, sticky mass that, dissolved in alcohol, gave a brilliant purple. Perkin had made the first synthetic dye, and the color was soon fashionable across Europe. A great dye industry followed, especially in Germany.\n\nOne of those molecules, methylene blue, made in 1876, has a remarkable lineage. Its central structure, three rings of atoms with sulfur and nitrogen at the center, would pass through several generations of chemistry, much as a family's features pass through generations of children. Following that lineage leads from the cloth trade to psychiatry.\n\nSoon scientists found that certain dyes stained some cells and not others. The German doctor Paul Ehrlich reasoned that a dye that could find a cell might also be used to attack it, and in 1891 he treated malaria with methylene blue.\n\nDecades later, a French company studied relatives of methylene blue as allergy treatments. In 1950 its chemists made a new compound, chlorpromazine. A surgeon named Henri Laborit gave it to patients before operations and noticed that they became calm and strangely free of worry, though fully awake. He suggested that it might interest psychiatry.\n\nAt the time, psychiatry had few effective tools. Hospitals were crowded with people suffering from schizophrenia, an illness in which a person may hear voices or hold beliefs that others cannot share. A century earlier, such hospitals had often been called lunatic asylums, from the old belief that the moon could disturb the mind. The word lunatic has long since been abandoned, and rightly so, but conditions in many hospitals remained harsh. Some treatments of the period, tried in desperation, did lasting harm. Doctors and families shared that desperation, seeing suffering they could not ease.\n\nIn 1952, two doctors in Paris, Jean Delay and Pierre Deniker, gave chlorpromazine to patients with schizophrenia. Many improved within weeks. The voices grew quieter, and the confusion lifted enough that some patients could talk with their doctors and, in time, return home.\n\nChlorpromazine, later research showed, blocks a chemical messenger in the brain called dopamine, and this finding suggested that some symptoms of the illness involve a dysfunction in the way dopamine carries signals. The idea of such a dysfunction has been refined many times, and it does not explain everything, but it gave psychiatry a chemical starting point. The drug also had real side effects, including problems with movement.\n\nStill, its arrival helped make care more compassionate. Patients who could think clearly could be spoken with rather than merely confined, and a compassionate approach, built on conversation, became possible.\n\nSo a purple dye, born from a failed experiment, stands at the head of a lineage that reached into one of the most difficult areas of medicine. Chemistry rarely travels in straight lines, but it does travel.\n\nQuestions:\nWhat was William Perkin trying to make in 1856?\nHe was trying to make a malaria medicine from coal tar.\nWhat did Paul Ehrlich do with methylene blue in 1891?\nHe used it to treat malaria.\nWhat did Henri Laborit notice about chlorpromazine?\nHis patients became calm and strangely free of worry, though fully awake.\nWhat happened when chlorpromazine was given to patients with schizophrenia in 1952?\nMany improved within weeks, and some could talk with their doctors and return home.\nHow did the drug help make care more compassionate?\nPatients who could think clearly could be spoken with rather than merely confined."
+    }
+  ]
+}

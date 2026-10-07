@@ -151,8 +151,8 @@ inflates it in its own sql.js worker, which needs the pack host to allow cross-o
 
 The ready-made courses of a language are one download, offered in Settings > Courses: a
 gzip-compressed SQLite file (tables `meta`, `courses`, `lessons`) listed in `CoursePacks` and
-published as an asset of the `courses-v1` GitHub release. `tools/build_courses.py --language pt`
-checks each course in `tools/courses/<code>/` (written as its `BRIEF.md` says) and writes
+published as an asset of the `courses-v1` GitHub release; there are packs for `pt` and `en`.
+`tools/build_courses.py --language <code>` checks each course in `tools/courses/<code>/` (written as its `BRIEF.md` says) and writes
 `course-packs/courses-<code>.sqlite.gzip` (ignored by git); upload that file to the release and
 update `downloadSize` in `CoursePacks`. If the layout changes, bump `FORMAT` in the script and in
 `CoursePack`.

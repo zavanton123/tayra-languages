@@ -1,0 +1,241 @@
+{
+  "id": "en-mini-9200",
+  "rankUpTo": 9200,
+  "level": "C2",
+  "title": "Navigation and Maps",
+  "description": "Ten calm, informative texts on finding our way: the longitude problem, Harrison's sea clocks, the Mercator map, the ocean floor, GPS, a trail mapmaker, Pacific wayfinders, the oldest maps, the sailor's rule of constant bearing and hospital signs.",
+  "topic": "Navigation and maps",
+  "names": [
+    "Scilly",
+    "Cloudesley",
+    "Shovell",
+    "Mediterranean",
+    "England",
+    "October",
+    "Anson",
+    "Juan",
+    "Fernandez",
+    "Harrison",
+    "Lincolnshire",
+    "London",
+    "Jamaica",
+    "George",
+    "William",
+    "James",
+    "Mercator",
+    "Gerardus",
+    "Greenland",
+    "Africa",
+    "Europe",
+    "Peters",
+    "Arno",
+    "Marie",
+    "Tharp",
+    "Bruce",
+    "Heezen",
+    "Atlantic",
+    "Alvin",
+    "Newfoundland",
+    "Heinrich",
+    "Berann",
+    "GPS",
+    "Ruth",
+    "Calloway",
+    "Montana",
+    "Iowa",
+    "Pacific",
+    "Hawaii",
+    "Tahiti",
+    "Mau",
+    "Piailug",
+    "Satawal",
+    "Micronesia",
+    "Nainoa",
+    "Thompson",
+    "Honolulu",
+    "Hokule'a",
+    "Babylon",
+    "Babylonian",
+    "Euphrates",
+    "Turin",
+    "Egypt",
+    "Spain",
+    "Italy",
+    "Bedolina",
+    "Netherlands",
+    "Costa",
+    "Rica",
+    "Tim",
+    "Krul",
+    "Elena",
+    "Morales",
+    "America",
+    "Flanders",
+    "Babylonia",
+    "Zealand",
+    "Rapa",
+    "Nui"
+  ],
+  "lessons": [
+    {
+      "title": "A Fleet on the Rocks",
+      "summary": "Why sailors could not find longitude, what it cost them, and the prize Parliament offered in 1714.",
+      "newWords": [
+        "culprit",
+        "lax",
+        "disposition",
+        "rampant",
+        "carbohydrate",
+        "nausea",
+        "urgency",
+        "miscellaneous",
+        "allude"
+      ],
+      "text": "On a night of thick fog in October 1707, a fleet of the Royal Navy, returning from the Mediterranean, ran onto the rocks of the Isles of Scilly, off the southwestern tip of England. Four ships sank, and well over a thousand sailors drowned, among them their admiral, Sir Cloudesley Shovell.\n\nHistorians still argue about the culprit. Old charts, poor compasses and strong currents all played a part, and no single culprit explains the whole disaster. But behind every such wreck lay a deeper problem, and every sailor of the age knew its name: longitude.\n\nFinding latitude, your position north or south, was fairly simple: you measured the height of the sun at noon, and a printed table did the rest. Longitude, your position east or west, was another matter. The earth turns fifteen degrees every hour, so a difference in longitude is really a difference in time. If you knew the time at your home port when the sun stood highest over your ship, you could work out how far you had come. But no clock of the period could keep good time on a rolling ship.\n\nSo captains relied on dead reckoning, estimating their speed, direction and hours sailed, and marking a guess on the chart. Small errors grew day by day, and on some ships the keeping of records was lax; where records were lax, the guesses were worse. A captain of a cautious disposition might sail far out of his way to be safe, while a bolder disposition could end on the rocks.\n\nThe cost was not only wrecks. In 1741, a squadron under George Anson searched for the island of Juan Fernandez, where fresh water and fruit were waiting. Unsure whether the island lay to the east or the west, the ships sailed back and forth for days while disease was rampant on board. The sailors lived on hard biscuit and salted meat, a diet rich in carbohydrate and salt but empty of fresh food, and on long voyages such a diet made disease rampant. Hundreds of men died. Even the healthy suffered from nausea in rough weather, and nausea made careful work with instruments nearly impossible.\n\nStories like these gave the problem real urgency. In 1714, Parliament offered 20,000 pounds, a fortune at the time, to anyone who could find longitude at sea within half a degree. The urgency brought out inventors of every kind, and the commissioners received miscellaneous schemes: lines of signal ships anchored across the ocean, magnetic charts and stranger ideas. One earlier pamphlet had even proposed a wounded dog and a magic powder. Later writers liked to allude to that pamphlet whenever they wished to mock the search, and the commissioners themselves alluded with weary humor to their pile of miscellaneous letters.\n\nAstronomers hoped to read the time in the movement of the moon against the stars. The most lasting answer, however, came from a carpenter.\n\nQuestions:\nWhat happened to Sir Cloudesley Shovell's fleet in 1707?\nIt ran onto the rocks of the Isles of Scilly.\nWhy was longitude harder to find than latitude?\nNo clock of the period could keep good time on a rolling ship.\nWhy was disease rampant on Anson's ships?\nThe sailors lived on a diet rich in carbohydrate and salt but empty of fresh food.\nWhat did Parliament offer in 1714?\nIt offered 20,000 pounds to anyone who could find longitude at sea within half a degree.\nWhat did the commissioners receive?\nThey received miscellaneous schemes."
+    },
+    {
+      "title": "The Carpenter Who Kept Time",
+      "summary": "John Harrison, a self-taught carpenter, spends his life building clocks that keep time at sea.",
+      "newWords": [
+        "outsider",
+        "flair",
+        "chime",
+        "inconsistency",
+        "wonderfully",
+        "thermocouple",
+        "embody",
+        "sire"
+      ],
+      "text": "John Harrison, born in 1693, grew up in a village in Lincolnshire and worked, like his father, as a carpenter. He had little formal schooling and no place in the learned societies of London. In the story of longitude he was the classic outsider, a man from the provinces who believed he could solve with his hands a problem that had defeated the astronomers. Being an outsider had a cost, but it also left him free to think differently.\n\nHis first clocks were made almost entirely of wood. He chose his woods with care, using a tropical wood so rich in natural oil that the moving parts needed no extra oil. One of his wooden tower clocks, built around 1720, still runs. Even then he had a rare flair for mechanics, and his flair was matched by enormous patience.\n\nIn English villages the church clock chimed the hours, and nobody minded if it chimed a few minutes late. At sea, a few minutes meant many miles. A marine clock had to survive rolling decks, damp air and changes of temperature, which alter a clock's rate. The great enemy was inconsistency: a clock that ran fast one week and slow the next was useless, while a clock that gained the same few seconds every day could simply be corrected.\n\nHarrison attacked inconsistency at its roots. His first sea clock, finished in 1735, was a large and wonderfully strange machine of brass, with two linked balances that swung in opposite directions, so that the ship's motion could not disturb them. For his third clock he invented the bimetallic strip: two metals joined together, which bend as the temperature changes because each metal expands at its own rate. A thermocouple, the sensor in many modern ovens and engines, is a cousin of the idea. It also joins two different metals, though a thermocouple produces a tiny voltage instead of bending.\n\nThen Harrison changed direction. His fourth sea clock, completed in 1759, was a watch only about five inches across. On a voyage to Jamaica in 1761, it lost about five seconds in 81 days. The little watch embodies the whole story: a lifetime of experiment, made small enough for a coat pocket.\n\nEven so, the commissioners demanded further trials. By 1772 Harrison was old and bitter, and his son William took the case to the king, George the Third. At court the king was addressed as \"Sire,\" and it was a long way from a carpenter's bench to a king addressed as \"Sire.\" But the king, who loved scientific instruments, listened, and he tested a later Harrison watch in his own observatory. The watch performed wonderfully. In 1773 Parliament granted Harrison a large sum of money, though never formally the prize. He died three years later.\n\nCaptain James Cook carried a copy of the fourth watch on his second voyage and praised it highly. The copy embodies a simple idea: time, kept well, tells you where you are.\n\nQuestions:\nWhy can John Harrison be called an outsider?\nHe was a carpenter with no place in the learned societies of London.\nWhy was inconsistency the great enemy of a marine clock?\nA clock that ran fast one week and slow the next was useless.\nWhat did Harrison invent for his third clock?\nHe invented the bimetallic strip.\nHow well did the fourth sea clock perform on the voyage to Jamaica?\nIt lost about five seconds in 81 days.\nWho took Harrison's case to the king?\nHis son William took the case to the king."
+    },
+    {
+      "title": "The Map That Stretched the North",
+      "summary": "Why the Mercator map was perfect for sailors and why it makes Greenland look as large as Africa.",
+      "newWords": [
+        "jab",
+        "projector",
+        "uneven",
+        "prominence",
+        "relegate",
+        "condemnation",
+        "deflect",
+        "glamour"
+      ],
+      "text": "In many classrooms there comes a moment when a student jabs a finger at the world map on the wall and asks why Greenland looks as large as Africa. Africa is about fourteen times larger than Greenland, yet on the familiar map the two seem almost equal. A teacher who wants to answer the question might begin by turning on the projector.\n\nYou cannot press the skin of an orange flat without tearing or stretching it, and you cannot press the surface of the earth flat either. Every flat map of the world distorts something: areas, shapes, distances or directions. The only choice is which distortion to accept.\n\nIn 1569, Gerardus Mercator, a map maker from Flanders, made his choice for sailors. On his map, a straight line is a line of constant compass direction, so a sailor could draw a line between two ports, read its angle and steer that single course. To make this possible, Mercator stretched the map from east to west toward the poles, and then from north to south by the same amount, so that the angles stayed true. On the projector, the teacher can lay the true outline of Greenland over Africa, and the class sees at once how much the north has grown.\n\nThe stretching is uneven. Near the equator it is almost nothing; toward the poles it becomes enormous, which is why the map stops long before reaching them. This uneven growth gives the northern lands a prominence they do not deserve. Europe, Greenland and North America swell, while lands near the equator, much of Africa among them, are relegated to a modest size.\n\nFor a sailor this did not matter. For the rest of us it may have mattered, because the map moved into schools and offices, where people learned the shape of the world from it, and the prominence of the north came to seem natural. In 1973, the German historian Arno Peters presented a map that showed areas correctly, together with a sharp condemnation of Mercator's map as a picture that relegated poorer countries to the margins. Many map experts answered with a condemnation of their own: the new map badly distorted shapes, they said, and the old one had never been meant for teaching. Defenders of Mercator tried to deflect the criticism by pointing out that he had drawn his map for sailors, but that could not deflect the main complaint, which was about how the map was used.\n\nThe debate had a certain glamour, and newspapers loved it. Many atlases now prefer compromise maps that keep both shapes and areas roughly reasonable, and many online maps, which still use a form of Mercator for local streets, show the world as a globe when you zoom out. The glamour of the debate has faded, and the student who jabs a finger at Greenland is still asking the right question.\n\nQuestions:\nHow much larger is Africa than Greenland?\nAfrica is about fourteen times larger than Greenland.\nWhat was special about a straight line on Mercator's map?\nIt was a line of constant compass direction, so a sailor could steer a single course.\nWhy do northern lands look so large on the map?\nThe stretching is uneven, and toward the poles it becomes enormous.\nWhat did Arno Peters present in 1973?\nHe presented a map that showed areas correctly.\nWhat do many online maps show when you zoom out?\nThey show the world as a globe."
+    },
+    {
+      "title": "The Woman Who Drew the Ocean Floor",
+      "summary": "Marie Tharp turns rows of depth measurements into the first maps of the floor of the Atlantic.",
+      "newWords": [
+        "serpent",
+        "skim",
+        "collaborator",
+        "backbone",
+        "avalanche",
+        "illustrator",
+        "titanium",
+        "spooky",
+        "inhabit"
+      ],
+      "text": "Old maps often filled the empty oceans with sea serpents. A serpent curling between the waves was decoration, but it was also a confession: nobody knew what lay below. For most of history, ships could only skim the surface of the sea. To measure depth, sailors lowered a weighted rope until it touched bottom, a slow method.\n\nIn the twentieth century, ships began to measure depth with sound. A pulse sent down from the hull bounces off the bottom, and the time the echo takes to return gives the depth. A ship could now record a line of depths as it crossed the ocean, but someone had to turn the numbers into a picture.\n\nThat person was Marie Tharp, a scientist at a research center in New York. In the early years of her work, women were not allowed on the research ships, so her collaborator, Bruce Heezen, went to sea and collected the measurements while Tharp stayed on land and drew. In 1952, plotting profiles across the North Atlantic, she noticed a deep valley running along the top of a long underwater mountain range. Her collaborator was not convinced at first. Then the team plotted the positions of earthquakes beneath the ocean, and they fell along the same valley.\n\nThe range, they came to understand, is part of a single chain that winds around the planet like a backbone, about 40,000 miles long. Along this backbone the ocean floor is slowly pulling apart, and Tharp's maps became strong evidence that continents move.\n\nThe ocean floor also explained an old mystery. In 1929, an earthquake off Newfoundland was followed by the breaking of telegraph cables on the sea floor, one after another, over many hours. Heezen and a colleague showed that the earthquake had set off an underwater avalanche of mud and sand, and that the avalanche had cut each cable in turn.\n\nIn 1977, Tharp and Heezen published a painted map of the entire ocean floor. The illustrator Heinrich Berann turned their data into a landscape of ridges, valleys and plains. An illustrator was needed because the measurements were scattered, and someone had to paint what lay between the lines.\n\nBy then, people could visit the depths. The small research submarine Alvin, rebuilt with a strong titanium hull, dived to the Atlantic ridge in 1974, its titanium shell protecting the pilots from enormous pressure. Outside the windows, the deep sea was a spooky place. Yet the spooky darkness was full of life. In 1977, Alvin found hot springs on the Pacific floor, where whole communities of animals inhabit a world without sunlight.\n\nToday only about a quarter of the ocean floor has been mapped in fine detail. The serpents are gone, but ships still skim across depths that no one has seen, and we are still learning what creatures inhabit them.\n\nQuestions:\nWhy did old maps show sea serpents?\nNobody knew what lay below.\nWhy did Marie Tharp stay on land while her collaborator went to sea?\nWomen were not allowed on the research ships in the early years of her work.\nWhat did Tharp notice in 1952?\nShe noticed a deep valley running along the top of a long underwater mountain range.\nWhat broke the telegraph cables in 1929?\nAn underwater avalanche of mud and sand, set off by an earthquake, cut each cable in turn.\nWhat protected the pilots of Alvin from the pressure?\nIts strong titanium hull protected them."
+    },
+    {
+      "title": "Four Clocks in the Sky",
+      "summary": "A physics professor explains how GPS satellites and a phone agree on where the phone is.",
+      "newWords": [
+        "recap",
+        "midterm",
+        "teaser",
+        "discrepancy",
+        "recharge",
+        "integer",
+        "cohort",
+        "breakout",
+        "changer"
+      ],
+      "text": "Good morning, everyone. Your midterm is next week, so today begins with a recap.\n\nLast week I ended with a teaser: your phone knows where it is, yet it never sends a single message to a satellite. How is that possible? Let us answer the teaser properly.\n\nFirst, the recap. About thirty GPS satellites circle the earth at a height of roughly 12,500 miles, each one going around twice a day. Every satellite carries atomic clocks, and every satellite broadcasts, again and again, two things: the exact time on its clock and the exact position of its orbit. Your phone only listens. It receives a signal, notes when it arrived and calculates how long it traveled. Since radio waves move at the speed of light, the travel time gives the distance to that satellite.\n\nOne distance places you somewhere on a huge sphere. Three distances narrow it to a point. So why do we need four satellites? This is the part many students forget before the midterm. The clock in your phone is cheap, and light travels about a foot in a billionth of a second, so a tiny clock error becomes a large error in position. The receiver therefore treats its own clock error as one more unknown. Three unknowns for position, one for time: four satellites, four equations.\n\nNow for a discrepancy that surprises everyone. Satellite clocks do not run at the same rate as clocks on the ground. Because the satellites move fast, their clocks run slightly slow; because gravity is weaker up there, they run slightly fast. The second effect is larger, and the total discrepancy is about 38 millionths of a second per day. Ignored, it would push positions off by miles within a single day, so engineers adjust the satellite clocks to cancel the discrepancy.\n\nA practical point: the satellites run on solar power, and when they pass through the earth's shadow they use batteries, which recharge once they return to sunlight. A battery that failed to recharge would end a satellite's service.\n\nSurveyors do even better by counting the waves themselves. The signal has a wavelength of a little over seven inches, and a careful receiver can measure a fraction of a wave very precisely. The hard part is the whole number of waves between satellite and receiver. That number must be an integer, and finding the right integer is the key step that gives surveyors positions good to about an inch.\n\nIn a moment you will move into breakout groups, and each breakout group will solve one practice problem on the four equations. Every cohort of students I have taught finds this harder than it looks, and every cohort, I promise, manages it by the end of the hour.\n\nOne last remark. Since the full accuracy of GPS was opened to ordinary users in 2000, the system has been a quiet changer of daily life, and \"changer\" is not too strong a word.\n\nQuestions:\nWhat does each GPS satellite broadcast?\nIt broadcasts the exact time on its clock and the exact position of its orbit.\nWhy does a phone need four satellites instead of three?\nIts cheap clock has an error, which is a fourth unknown.\nWhat discrepancy do the satellite clocks have?\nThey run fast by about 38 millionths of a second per day.\nWhen do the satellite batteries recharge?\nThey recharge once the satellites return to sunlight.\nWhat must the whole number of waves be?\nIt must be an integer."
+    },
+    {
+      "title": "The Woman Who Draws the Trails",
+      "summary": "A profile of Ruth Calloway, who draws trail maps by hand for a mountain park in Montana.",
+      "newWords": [
+        "nana",
+        "hopper",
+        "quilt",
+        "pouch",
+        "icy",
+        "runoff",
+        "otter",
+        "wolverine",
+        "yummy",
+        "brochure",
+        "getaway",
+        "subpoena",
+        "injunction"
+      ],
+      "text": "Ruth Calloway draws maps by hand. For more than twenty years her trail maps have guided walkers through a mountain park in Montana, and rangers say hers are the maps people actually understand.\n\nShe grew up in Iowa and spent her summers on a farm with her nana. The tallest thing on the farm was the grain hopper beside the barn, and when nobody was looking she climbed the hopper's ladder. \"From the top of the hopper, the whole farm became a map,\" she says. Her nana made quilts, and Calloway still describes a landscape as a quilt: patches of forest, meadow and rock, stitched together by trails.\n\nHer method is slow. She walks every trail herself, recording it with a GPS unit, and she carries a pencil and a small notebook in a leather pouch on her belt. The pouch also holds a compass.\n\nWhat she adds is judgment. The computer records where a trail goes; Calloway records what it is like. She marks the stretch that stays icy until late June, and she warns that icy rock above the lake is more dangerous than it looks. She marks the creek crossings that disappear under spring runoff. \"In June, the runoff from melting snow can turn an easy crossing into a river,\" she explains. On the river trail she draws a small otter where otters are often seen. Sometimes the important decision is what to leave out. When biologists found that a wolverine had made a den in deep snow near one trail, they asked her not to mark the area. A wolverine is rare and shy, and she gladly agreed.\n\nHer maps have a lighter side. On the family version, small drawings show where wild berries grow. A boy once mailed her his copy with the word \"yummy\" written beside every patch, and she kept the idea: the family map now says \"yummy\" in small letters beside the best one.\n\nThe park prints her maps in its visitor brochure, and the brochure is often the first thing people pick up when they arrive for a weekend getaway. For most of them a getaway means a few hours of walking, and she designs for exactly those people.\n\nHer work once took her into a courtroom. A landowner had closed an old trail across his property, and the people who used it went to court. Calloway received a subpoena asking her to bring her field notes. The subpoena made her nervous, but her notes were clear: they showed the trail in use, year after year. While the case was being decided, the judge issued an injunction that kept the trail open, and the injunction is still in force.\n\n\"A map is a promise,\" she says. \"It tells a stranger that someone has walked here first.\"\n\nQuestions:\nWhere did Ruth Calloway spend her summers as a child?\nShe spent her summers on a farm with her nana.\nWhat does she carry in the pouch on her belt?\nShe carries a pencil, a small notebook and a compass.\nWhy does she mark the creek crossings?\nSpring runoff from melting snow can turn an easy crossing into a river.\nWhy did she leave one area off the map?\nA wolverine had made a den near the trail, and biologists asked her not to mark it.\nWhat did the judge do while the case was being decided?\nThe judge issued an injunction that kept the trail open."
+    },
+    {
+      "title": "Reading the Sky and the Sea",
+      "summary": "How Pacific navigators cross the ocean by stars, waves and birds, and how one canoe revived the art.",
+      "newWords": [
+        "celestial",
+        "symmetry",
+        "peep",
+        "weaving",
+        "aura",
+        "banter",
+        "nip",
+        "homecoming"
+      ],
+      "text": "The islands of the Pacific were settled by some of the greatest navigators in history. Over many centuries, people in large double canoes found islands scattered across an ocean larger than all the land on earth, from Hawaii in the north to New Zealand in the south and Rapa Nui in the east. They carried no compass and no chart. What they carried was knowledge.\n\nThe heart of that knowledge was celestial. A navigator learned where dozens of stars rise and set on the horizon, and he divided the horizon into points, each named for a star that rises or sets there. This celestial compass has a beautiful symmetry: a star that rises at a certain point in the east sets at the mirror point in the west. As the night turns, a new star peeps above the horizon at the same point as the last one, and the navigator steers toward one rising star after another. When clouds cover the sky, he waits for a single star to peep through a gap.\n\nThe sea itself is a second map. Steady swells, raised by distant winds, roll across the ocean in known directions, and a navigator can feel them through the hull. Near an island the swells bend and cross, and in the Marshall Islands navigators made charts of sticks to show these patterns. Birds help too, since some birds fly out to fish in the morning and return to land in the evening.\n\nThe navigator's art is a kind of weaving. Stars, swells, wind, birds and the color of the clouds are threads, and he weaves them into a single picture of where the canoe is. Weaving was also a real craft on the old voyages, because the sails were woven from leaves.\n\nIn 1976, a group in Hawaii built a double canoe called Hokule'a to show that the ancient voyages could have been made on purpose. Their navigator was Mau Piailug, a master from the small island of Satawal in Micronesia. He seemed to carry an aura of calm. He slept little, sitting at the back of the canoe for hours, and his calm aura spread to the crew.\n\nIn the day there was talk and friendly banter on deck; at night the banter grew quiet, and the cold wind nipped at the sailors on watch while Mau read the sky. Even when the wind nipped hardest, he stayed in his place. After about a month at sea, Hokule'a reached Tahiti, where thousands of people greeted it.\n\nOne of the young sailors, Nainoa Thompson, spent years learning from Mau and became a navigator himself. Decades later, Hokule'a sailed around the world. Its homecoming to Honolulu in 2017 was a public celebration, and that homecoming marked the revival of an art many had thought lost.\n\nQuestions:\nWhat did the Pacific navigators carry instead of a compass and a chart?\nThey carried knowledge of the stars, the swells and the birds.\nWhat symmetry does the celestial compass have?\nA star that rises at a certain point in the east sets at the mirror point in the west.\nWhat does a navigator do when clouds cover the sky?\nHe waits for a single star to peep through a gap.\nWhy can the navigator's art be called a kind of weaving?\nHe weaves stars, swells, wind and birds into a single picture.\nWho navigated Hokule'a to Tahiti in 1976?\nMau Piailug navigated the canoe."
+    },
+    {
+      "title": "The Oldest Maps",
+      "summary": "From mental maps in the forest to clay tablets and papyrus: the oldest maps that survive.",
+      "newWords": [
+        "chimpanzee",
+        "hazel",
+        "wither",
+        "pastoral",
+        "spade",
+        "stronghold",
+        "infuse",
+        "cupboard"
+      ],
+      "text": "Long before anyone drew a map, animals carried maps in their heads. In the rain forest of Ivory Coast, researchers who followed wild chimpanzees found that the animals remember where many fruit trees stand and travel to them by efficient routes, even when the trees are far out of sight. A chimpanzee, in other words, has a mental map.\n\nThe first drawn maps were probably made in sand or mud. We can imagine a hunter by a river drawing the way to a good valley with a hazel stick, then throwing the hazel stick away. Such maps vanished with the next rain, and maps on bark or leaves withered within a season, as leaves wither on a tree. What survives is what was cut into stone, pressed into clay or kept dry in a desert.\n\nEven the candidates for the oldest map are uncertain. A carved stone from a cave in northern Spain, about 14,000 years old, may show nearby mountains and rivers, but scholars disagree.\n\nIn the valleys of northern Italy, ancient farmers carved thousands of images into the rock. One large carving at Bedolina, probably made in the last thousand years before our era, seems to show a pastoral landscape seen from above: square fields, paths between them and small houses. It is a pastoral world, drawn by people who knew every field by name.\n\nFrom Egypt comes the Turin Papyrus Map, drawn around 1150 BC for an expedition to stone quarries in the eastern desert. It shows a road through a valley, hills colored to show different kinds of rock, the site of a gold mine and notes about distances. The dry desert air preserved it, but it reached the museum in Turin in pieces, and scholars spent many years fitting them together. In museums around the world, such fragments can wait in drawers and cupboards for decades before anyone understands them, and some cupboards may still hold maps that nobody has recognized.\n\nThe most famous ancient map is a small clay tablet from Babylonia, about 2,600 years old, uncovered by an archaeologist's spade in the nineteenth century. The spade gave us clay; the desert gave us paper made from reeds. The tablet shows the great walled city of Babylon near the center, on the river Euphrates. Around the land runs a ring of water, and beyond it lie distant regions that the text describes as strange and far away. Babylon was a mighty stronghold, and to the people inside that stronghold the whole world seemed to turn around their city.\n\nThat map is infused with belief. It is less a guide for the road than a picture of the world as its makers imagined it. In a quieter way, every map is infused with the point of view of the person who drew it.\n\nQuestions:\nWhat did researchers find about wild chimpanzees in Ivory Coast?\nThe animals remember where many fruit trees stand.\nWhy have most of the earliest maps disappeared?\nMaps in sand or mud vanished with the rain, and maps on bark or leaves withered within a season.\nWhat does the carving at Bedolina seem to show?\nIt seems to show a pastoral landscape seen from above.\nWhat does the Turin Papyrus Map show?\nIt shows a road through a valley, a gold mine and notes about distances.\nWhat lies near the center of the Babylonian map?\nThe great walled city of Babylon lies near the center, on the river Euphrates."
+    },
+    {
+      "title": "Constant Bearing",
+      "summary": "A sailor's rule about collisions explains how fielders, dogs and dragonflies catch moving things.",
+      "newWords": [
+        "swat",
+        "skateboard",
+        "batsman",
+        "spinner",
+        "shootout",
+        "goalie",
+        "substitution"
+      ],
+      "text": "Every sailor learns a simple rule. If another ship is coming closer and its bearing, its direction as seen from your deck, stays the same, you are on a collision course. If its bearing slowly changes, so that it seems to slide forward or backward along your railing, you will pass each other. The rule works whatever the speeds, because two paths that keep the same angle while the distance between them shrinks must meet.\n\nWhat warns a sailor of danger is also a recipe for catching things: keep your target at a constant angle while you close in, and you will meet it. We forget this when we try to swat a fly: we usually swat at the place where it is, not where it is going, which is one reason the fly so often escapes.\n\nBall players use the same trick without knowing it. Researchers who studied baseball fielders found that they do not seem to calculate where a ball will land. Instead, they run so that the ball appears to rise steadily in their view, and this habit delivers them to the right spot. Dogs chasing a flying disc behave in a similar way: in one study, small cameras on the dogs' heads showed them keeping the disc at a steady angle until they jumped and caught it. A child on a skateboard, rolling to catch a friend's throw, probably does the same. The rider of the skateboard never thinks about angles; eyes and legs do the geometry.\n\nCricket shows the limits of the method. A batsman facing a spinner has less than a second to judge a ball that drifts in the air and turns sharply when it bounces. The spinner's skill is to break the batsman's predictions, so that the ball arrives somewhere other than where it seemed to be heading. Good batsmen watch the bowler's hand for early clues.\n\nAt the shortest distances, there is no time for any rule. In a penalty shootout in soccer, the ball reaches the goal before a goalie can react and dive across, so the goalie must guess. Studies of penalties have found that a goalie dives to one side almost every time, although staying in the center would sometimes save more shots.\n\nA shootout is also about preparation. At the 2014 World Cup, in the last minute of extra time in a match against Costa Rica, the coach of the Netherlands made a famous substitution: he sent on a second goalie, Tim Krul, just for the shootout. Krul guessed the right direction on every kick and saved two of them. The substitution was a bet on preparation rather than speed, and it worked.\n\nFrom the deck of a ship to a soccer goal, the lesson is the same: watch the angle.\n\nQuestions:\nHow does a sailor know that another ship is on a collision course?\nThe other ship is coming closer and its bearing stays the same.\nWhy does a fly often escape when we try to swat it?\nWe usually swat at the place where the fly is, not where it is going.\nHow do baseball fielders reach the right spot?\nThey run so that the ball appears to rise steadily in their view.\nWhy is a spinner difficult for a batsman?\nThe ball drifts in the air and turns sharply when it bounces.\nWhat famous substitution did the coach of the Netherlands make in 2014?\nHe sent on a second goalie, Tim Krul, just for the shootout."
+    },
+    {
+      "title": "Finding the Way in a Hospital",
+      "summary": "A designer walks a hospital as a first-time visitor and rebuilds its signs and maps.",
+      "newWords": [
+        "ultrasound",
+        "leukemia",
+        "clot",
+        "paralyzed",
+        "slur",
+        "bandage",
+        "slipper",
+        "restroom",
+        "breastfeeding",
+        "chaplain",
+        "leaflet"
+      ],
+      "text": "Elena Morales designs signs and maps for hospitals. Before she changes anything, she spends a day walking the building as a first-time visitor, without asking the staff for help. In one large city hospital, she began at the main entrance with a single question: where is the ultrasound department?\n\nIt took her twenty minutes to find it. The signs used three different names for the same department, and one arrow pointed toward a door that had been locked for years.\n\n\"A hospital is the worst place to be lost,\" Elena says. \"People arrive frightened.\" A mother whose son is being treated for leukemia has enough to think about without searching for the right elevator. Treatment for leukemia can last for months, and the building should become easier for her with every visit.\n\nElena's method is to imagine every kind of visitor. A man recovering from a stroke caused by a blood clot in the brain may be partly paralyzed and may use a wheelchair. His speech may be slurred, and asking for directions with slurred speech is tiring for him. Signs must therefore be easy to read from a wheelchair, and they should never require a conversation. A patient who is paralyzed on one side cannot easily hold a map and push a heavy door, and neither can a patient with a bandaged hand. Others come for treatment of a clot in the leg and must walk slowly, often in slippers, so the distance to a seat matters as much as the distance to the department.\n\nSome needs are simple. The question visitors ask most often is where the restroom is, so every map now shows every restroom, with the same symbol on every floor. New mothers need the breastfeeding room, a quiet place where they can feed their babies in private. It used to be marked only on its own door; now the breastfeeding room appears on the maps beside the elevators. Families facing bad news often ask for the chaplain, and the office of the chaplain, once hidden behind the kitchens, now has clear signs from the main entrance.\n\nElena also uses what people remember. Visitors forget room numbers, but they remember a large painting or a fountain, so she places these landmarks on every map. She turns each \"you are here\" map to face the same way as the reader, so that straight ahead on the map is straight ahead in the corridor. For patients who prefer paper, she designed a leaflet with a simple floor plan, and the leaflet is printed in four languages.\n\nWhen the work was finished, Elena walked to the ultrasound department again. An old man in slippers, with a bandage on his wrist, walked the same corridor, and neither of them needed to ask the way.\n\nQuestions:\nWhat does Elena do before she changes anything in a hospital?\nShe walks the building as a first-time visitor.\nWhy did it take her twenty minutes to find the ultrasound department?\nThe signs used three different names for it, and one arrow pointed toward a locked door.\nWhy should signs never require a conversation?\nA patient recovering from a stroke may have slurred speech, and asking for directions is tiring for him.\nWhat question do visitors ask most often?\nThey ask where the restroom is.\nWhy does Elena place landmarks on every map?\nVisitors forget room numbers, but they remember a large painting or a fountain."
+    }
+  ]
+}
