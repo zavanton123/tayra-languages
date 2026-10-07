@@ -1,0 +1,216 @@
+{
+  "id": "de-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "Physik im Alltag",
+  "description": "Ten standalone texts that explain the physics of everyday things: a bicycle, a refrigerator, a boiled egg, rainbows, ice skates, a microwave, echoes, levers, the blue sky and static electricity.",
+  "topic": "Everyday physics",
+  "names": [
+    "Merle",
+    "Sander",
+    "Konstanz",
+    "Bodensee",
+    "Deutschland",
+    "Österreich",
+    "Schweiz",
+    "Brandl",
+    "Delft",
+    "USA",
+    "Karl",
+    "Drais",
+    "Jonas",
+    "Hanna",
+    "Diego",
+    "Freiburg",
+    "Mexiko",
+    "Gerhard",
+    "Lindner",
+    "Allgäu",
+    "Tamara",
+    "Lukas",
+    "Kärnten",
+    "Ole",
+    "Petersen",
+    "Pia",
+    "Bielefeld",
+    "Leipzig",
+    "Albrecht",
+    "Haberl",
+    "Passau",
+    "Sophie",
+    "Archimedes",
+    "Hieron",
+    "Syrakus",
+    "Felix",
+    "Reinhold",
+    "John",
+    "Tyndall",
+    "Rayleigh",
+    "Anton",
+    "Mila",
+    "Milas"
+  ],
+  "lessons": [
+    {
+      "title": "Warum das Fahrrad nicht umfällt",
+      "summary": "A social worker who cycles to her clients in remote hamlets learns why a moving bicycle stays upright.",
+      "newWords": [
+        "Sozialarbeiter",
+        "Weiler",
+        "Waggon",
+        "Enteignung",
+        "grenzüberschreitend",
+        "Alkoholiker",
+        "ablassen",
+        "Komfort",
+        "Schaltung",
+        "Kutsche",
+        "skurril"
+      ],
+      "text": "Merle Sander arbeitet als Sozialarbeiterin im Hinterland von Konstanz, und ihr wichtigstes Werkzeug ist ein altes grünes Fahrrad. Viele ihrer Klienten wohnen in Weilern, die kein Bus erreicht. Ein Weiler, so erklärt sie Besuchern gern, ist kleiner als ein Dorf: oft nur eine Kapelle, ein Brunnen und 4 oder 5 Höfe zwischen Wiesen und Obstgärten.\n\nMorgens nimmt sie den Zug bis in die Kreisstadt. Das Rad steht dann in einem Waggon mit breiten Türen, der für Fahrräder und Kinderwagen bestimmt ist. Im Waggon trifft sie meist dieselben Pendler. Vom Bahnhof aus fährt sie auf einem Radweg, der auf der Trasse einer stillgelegten Bahnlinie liegt. Als die Strecke im 19. Jahrhundert gebaut wurde, mussten viele Bauern ihr Land abgeben; eine Tafel am Weg erinnert an diese Enteignung und an das Geld, mit dem man die Familien entschädigte. Heute rollen Radfahrer, wo einst Dampfloks fuhren, und an freien Tagen fährt Merle sogar auf dem grenzüberschreitenden Radweg um den Bodensee, durch Deutschland, Österreich und die Schweiz. Grenzüberschreitend ist an diesem Weg auch der See selbst, denn er grenzt an alle drei Länder.\n\nEiner ihrer Klienten, Herr Brandl, war viele Jahre Alkoholiker. Seit er nicht mehr trinkt, repariert er in seiner Scheune Fahrräder für die Nachbarn. Für einen früheren Alkoholiker, sagt Merle, sei eine feste Aufgabe mehr wert als jeder gute Rat einer Sozialarbeiterin. An einem Herbsttag hat Herr Brandl etwas Luft aus ihren Reifen abgelassen. Zu harte Reifen, erklärte er, springen auf dem Schotter; mit weniger Druck gewinne man Komfort, verliere aber ein wenig Tempo. Den Komfort hat Merle sofort gespürt. Danach hat er noch die Schaltung eingestellt, denn die Schaltung hatte die Gänge seit Wochen nur widerwillig gewechselt.\n\nDann hat Merle gefragt, was sie schon lange wissen wollte: Warum fällt ein fahrendes Rad nicht um, ein stehendes aber sofort? Lange glaubte man, die drehenden Räder hielten das Rad aufrecht, wie ein Kreisel. Forscher aus Delft und den USA haben dann ein skurriles Fahrzeug gebaut, dessen Räder diesen Effekt gar nicht erzeugten. Das skurrile Gerät fuhr trotzdem stabil geradeaus, wenn man es anschob.\n\nEntscheidend ist das Lenken. Neigt sich ein fahrendes Rad nach links, dreht sich das Vorderrad von selbst ein wenig nach links. Das Rad fährt eine kleine Kurve, und die Räder rollen wieder unter den Schwerpunkt. Der Mensch auf dem Sattel tut dasselbe, ohne nachzudenken: Er lenkt ständig ein wenig dorthin, wohin er zu fallen droht. Ein stehendes Rad kann das nicht, denn wer nicht rollt, kann seinen Fall nicht durch Lenken auffangen.\n\nAls Karl Drais 1817 seine Laufmaschine vorstellte, reiste man noch mit der Kutsche oder zu Fuß. Neben der schweren Kutsche wirkte das leichte Gefährt wie ein Spielzeug, doch es folgte schon demselben Prinzip.\n\nFragen:\nWo wohnen viele Klienten von Merle?\nSie wohnen in Weilern, die kein Bus erreicht.\nWoran erinnert die Tafel am Radweg?\nSie erinnert an die Enteignung der Bauern beim Bau der Bahnlinie.\nWarum hat Herr Brandl Luft aus den Reifen abgelassen?\nZu harte Reifen springen auf dem Schotter; mit weniger Druck gewinnt man Komfort.\nWas zeigte das skurrile Fahrzeug der Forscher?\nEs fuhr stabil, obwohl seine Räder nicht wie ein Kreisel wirkten.\nWarum fällt ein fahrendes Rad nicht um?\nEs lenkt in die Richtung, in die es fällt, und rollt so wieder unter den Schwerpunkt."
+    },
+    {
+      "title": "Wie der Kühlschrank die Wärme hinausträgt",
+      "summary": "A shopper buys a new refrigerator, learns that it pumps heat out instead of making cold, and remembers how her grandparents paid for their first one.",
+      "newWords": [
+        "Gewerbegebiet",
+        "Discounter",
+        "Portemonnaie",
+        "Olive",
+        "Mandel",
+        "aufbewahren",
+        "selbstgemacht",
+        "umweltfreundlich",
+        "Wirtschaftswachstum",
+        "Schuldner",
+        "Verbindlichkeit"
+      ],
+      "text": "Als mein alter Kühlschrank im Juli aufgab, bin ich in das Gewerbegebiet am Rand der Stadt gefahren. Zwischen Autohäusern und Lagerhallen steht dort ein großer Discounter, der neben Brot und Käse manchmal auch Haushaltsgeräte verkauft. Ich hatte Glück: Ein schlichtes Gerät war im Angebot. An der Kasse habe ich mein Portemonnaie geöffnet und gemerkt, dass ich zu wenig Bargeld dabeihatte, also habe ich mit Karte bezahlt und das Portemonnaie wieder eingesteckt. Auf dem Heimweg durch das Gewerbegebiet habe ich mich gefragt, was in dem weißen Kasten eigentlich geschieht.\n\nDie Antwort überrascht viele: Ein Kühlschrank erzeugt keine Kälte. Er pumpt Wärme aus seinem Inneren nach draußen. In seinen Rohren kreist ein Stoff, der schon bei sehr niedrigen Temperaturen siedet. Im Inneren wird er zu Gas, und dafür braucht er Wärme, die er der Butter, der Milch und der Luft entzieht. Wir kennen diesen Effekt vom Schwitzen: Wenn Wasser auf der Haut zu Dampf wird, kühlt es uns. Eine Pumpe, der Kompressor, presst das Gas dann zusammen. Zusammengepresstes Gas wird heiß, so wie eine Luftpumpe beim Aufpumpen warm wird. An der Rückseite, im schwarzen Gitter aus Rohren, gibt das heiße Gas seine Wärme an die Küche ab und wird wieder flüssig. Durch ein enges Rohr sinkt der Druck, und der Kreislauf beginnt von vorn. Wer die Hand hinter das Gerät hält, spürt die Wärme, die eben noch im Käse steckte.\n\nZu Hause habe ich den neuen Kühlschrank eingeräumt. Oliven aus dem Glas soll man nach dem Öffnen kühl aufbewahren, und auch Mandeln kann man im Kühlschrank aufbewahren, weil ihr Fett in der Kälte langsamer verdirbt. Das Öl von Oliven dagegen wird im Kühlschrank trüb und dick; das schadet ihm nicht, aber man stellt es besser in den Schrank. Ganz oben steht meine selbstgemachte Marmelade, daneben eine selbstgemachte Soße aus Mandeln und Kräutern.\n\nModerne Geräte sind umweltfreundlich gebaut. Früher enthielten Kühlschränke Stoffe, die die schützende Schicht der Atmosphäre angriffen; sie sind längst verboten. Heute kreisen umweltfreundliche Gase in den Rohren, und gute Geräte verbrauchen nur noch einen Bruchteil des Stroms, den ältere Modelle brauchten.\n\nMeine Großmutter hat mir oft erzählt, wie in den Jahren des Wirtschaftswachstums nach dem Krieg der erste Kühlschrank in die Küche ihrer Eltern kam. Das Wirtschaftswachstum brachte vielen Familien Arbeit, aber ein solches Gerät kostete trotzdem mehrere Monatslöhne. Also kauften ihre Eltern es auf Raten und waren zwei Jahre lang Schuldner des Händlers. Jeden Monat brachte der Vater das Geld in den Laden, und der Händler trug es in ein kleines Heft ein. Als Schuldner fühlten sie sich nicht schlecht, denn fast alle Nachbarn kauften so. Am Tag, an dem die letzte Verbindlichkeit bezahlt war, gab es Kuchen. Ohne Verbindlichkeiten, sagte meine Großmutter, schmecke sogar die Sahne besser.\n\nFragen:\nWo wurde der neue Kühlschrank gekauft?\nEr wurde bei einem Discounter im Gewerbegebiet am Rand der Stadt gekauft.\nErzeugt ein Kühlschrank Kälte?\nNein, er pumpt Wärme aus seinem Inneren nach draußen.\nWas geschieht an der Rückseite des Geräts?\nDort gibt das heiße Gas seine Wärme an die Küche ab und wird wieder flüssig.\nWarum kann man Mandeln im Kühlschrank aufbewahren?\nWeil ihr Fett in der Kälte langsamer verdirbt.\nWie bezahlten die Eltern der Großmutter ihren ersten Kühlschrank?\nSie kauften ihn auf Raten und waren zwei Jahre lang Schuldner des Händlers."
+    },
+    {
+      "title": "Das Frühstücksei und die Höhe von Mexiko-Stadt",
+      "summary": "A young man is put in charge of the breakfast eggs and his Mexican friend explains why eggs need longer at high altitude.",
+      "newWords": [
+        "betrauen",
+        "Vortag",
+        "hausgemacht",
+        "Zubereitung",
+        "Mexikaner",
+        "vertuschen",
+        "unangemessen",
+        "gedanklich",
+        "klarmachen"
+      ],
+      "text": "Jonas hatte seine Freunde zum Sonntagsfrühstück eingeladen, und seine Mitbewohnerin Hanna hatte ihn mit der wichtigsten Aufgabe betraut: den Eiern. Mit dem Kaffee hätte sie ihn nie betraut, sagte sie, aber Eier könne jeder. Am Vortag hatte Hanna Brötchen gebacken, und auf dem Tisch standen hausgemachte Marmelade und hausgemachte Butter vom Hof ihrer Tante. Jonas wollte nicht der Einzige sein, der etwas Gewöhnliches beitrug. Schon am Vortag hatte er deshalb gelesen, was bei der Zubereitung eines Eis eigentlich geschieht.\n\nEiweiß und Dotter bestehen zum großen Teil aus Proteinen, langen Ketten, die wie Knäuel zusammengerollt sind. Werden sie erhitzt, öffnen sich die Knäuel und verbinden sich miteinander zu einem festen Netz. Das geschieht nicht bei allen Proteinen gleichzeitig. Ein Teil des Eiweißes wird schon ab etwa 62 Grad fest, der Rest erst um 80 Grad; der Dotter beginnt bei 65 Grad zu stocken, also dick und fest zu werden. Bei einem weichen Ei hat der Dotter diese Temperatur noch nicht ganz erreicht. Weil die Wärme langsam von außen nach innen wandert, braucht ein großes Ei deutlich länger als ein kleines.\n\nZu den Gästen gehörte Diego, ein Mexikaner, der seit zwei Jahren in Freiburg studiert. Als Jonas seine Eier ins kochende Wasser legte, platzte eines sofort. Er versuchte, den Riss zu vertuschen, und setzte das Ei mit der heilen Seite nach oben in den Becher. Diego hatte es trotzdem gesehen und lachte freundlich. Das Vertuschen sei unnötig, sagte er; Eier aus dem Kühlschrank platzen leicht, weil sich die Luft in ihrem stumpfen Ende beim Erhitzen ausdehnt.\n\nDann erzählte der Mexikaner von seiner Heimat. In Mexiko-Stadt, mehr als 2000 Meter über dem Meer, ist der Luftdruck geringer, und das Wasser kocht schon bei etwa 93 Grad. Ein Ei braucht dort länger, weil das Wasser nicht so heiß wird. Seine Mutter, erzählte Diego, lasse die Eier immer ein paar Minuten länger im Topf als ihre Schwester an der Küste.\n\nHanna fand die ganze Wissenschaft ein wenig unangemessen für ein Frühstück. Doch Diego wollte ihr klarmachen, dass gerade das Frühstück voller Physik ist. Wer die Eier nach dem Kochen in kaltes Wasser legt, beendet das Garen; sonst gart das Ei durch die eigene Wärme weiter. Kocht ein Ei zu lange, bildet sich um den Dotter ein grünlicher Ring. Er ist harmlos, aber nicht schön. Es sei also nicht unangemessen, sondern nützlich, das zu wissen.\n\nGedanklich war Jonas schon beim nächsten Sonntag. Er wollte die Zeit genauer messen und die Eier vorher aus dem Kühlschrank nehmen. Gedanklich plante er sogar die Zubereitung des Kaffees, denn er wollte Hanna klarmachen, dass man ihn auch damit betrauen konnte.\n\nFragen:\nWomit hatte Hanna Jonas betraut?\nSie hatte ihn mit den Eiern betraut.\nWas stand auf dem Tisch?\nEs gab Brötchen vom Vortag und hausgemachte Marmelade und Butter.\nWas geschieht mit den Proteinen, wenn man ein Ei erhitzt?\nDie Knäuel öffnen sich und verbinden sich zu einem festen Netz.\nWarum platzen Eier aus dem Kühlschrank leicht?\nWeil sich die Luft im stumpfen Ende beim Erhitzen ausdehnt.\nWarum braucht ein Ei in Mexiko-Stadt länger?\nWeil der Luftdruck dort geringer ist und das Wasser schon bei etwa 93 Grad kocht."
+    },
+    {
+      "title": "Der Mann, der Regenbögen sammelt",
+      "summary": "A portrait of a retired teacher who has photographed rainbows for decades and explains how sunlight is split in raindrops.",
+      "newWords": [
+        "Hippie",
+        "Religionsunterricht",
+        "Tinte",
+        "zusammentragen",
+        "Vorschau",
+        "armselig",
+        "Upload",
+        "verlosen"
+      ],
+      "text": "Wenn im Allgäu nach einem Gewitter die Sonne durch die Wolken bricht, steht Gerhard Lindner meist schon mit seiner Kamera am Fenster. Der pensionierte Lehrer fotografiert seit über 40 Jahren Regenbögen. In den 1970er Jahren, erzählt er lachend, sei er ein Hippie gewesen, mit langen Haaren und einem bunten Bus. Bei den Hippies galt der Regenbogen als Zeichen für Frieden. Vom Hippie sind ihm ein bunter Schal und die Liebe zum Regenbogen geblieben.\n\nSeine erste Begegnung mit dem Regenbogen hatte er im Religionsunterricht. Dort lernte er, der Regenbogen sei nach der großen Flut ein Zeichen des Bundes zwischen Gott und den Menschen gewesen. Erst später, im Physikunterricht, erfuhr er, wie der Bogen entsteht. Beides hat für ihn Platz: Dem Religionsunterricht verdankt er das Staunen, der Physik das Verstehen.\n\nJeden Regenbogen notiert er mit Tinte in einem dicken Heft: Datum, Uhrzeit, Stand der Sonne. Die Tinte ist an manchen Stellen verlaufen, weil er im Regen schrieb. So hat er über die Jahre mehr als 300 Beobachtungen zusammengetragen. Was er zusammengetragen hat, bestätigt die Lehrbücher.\n\nDas weiße Licht der Sonne ist eine Mischung aller Farben. Trifft es auf einen Regentropfen, wird es beim Eintritt gebrochen, also aus seiner Richtung gelenkt, und zwar jede Farbe ein wenig anders: Blau stärker als Rot. An der Rückseite des Tropfens wird das Licht reflektiert und beim Austritt noch einmal gebrochen. Das rote Licht erreicht uns aus Tropfen, die etwa 42 Grad von dem Punkt entfernt sind, auf den der Schatten des eigenen Kopfes fällt, das violette aus Tropfen bei etwa 40 Grad. Deshalb sieht man einen Regenbogen nur, wenn die Sonne im Rücken steht und nicht zu hoch ist. Jeder Tropfen schickt nur eine Farbe ins Auge, und jeder Mensch sieht seinen eigenen Bogen aus anderen Tropfen. Manchmal erscheint darüber ein zweiter, schwächerer Bogen mit umgekehrten Farben; dort wird das Licht zweimal im Tropfen reflektiert.\n\nAuf dem Display seiner Kamera prüft Lindner jedes Bild in der Vorschau. Die Vorschau zeigt ihm sofort, ob der zweite Bogen sichtbar ist. Man braucht übrigens kein Gewitter, sagt er: Ein armseliger Gartenschlauch reicht. Wer an einem sonnigen Nachmittag mit dem Rücken zur Sonne feine Tropfen in die Luft sprüht, erzeugt seinen eigenen kleinen Regenbogen. Der armselige Schlauch zeigt dieselbe Physik wie der Himmel.\n\nDie Lokalzeitung hat ihn nun eingeladen, einen Wettbewerb zu leiten. Leser können ihre Fotos per Upload auf der Seite der Zeitung einreichen. Jeder Upload wird von Lindner angeschaut, und unter allen Teilnehmern verlost die Redaktion 12 Kalender mit seinen schönsten Bildern. Außerdem verlost sie einen Abend mit ihm auf dem Hügel hinter dem Dorf, wo er auf den nächsten Regenbogen wartet.\n\nFragen:\nWas war Gerhard Lindner in den 1970er Jahren?\nEr war ein Hippie mit langen Haaren und einem bunten Bus.\nWas lernte er im Religionsunterricht über den Regenbogen?\nEr lernte, der Regenbogen sei ein Zeichen des Bundes zwischen Gott und den Menschen.\nWas notiert er mit Tinte in seinem Heft?\nEr notiert Datum, Uhrzeit und Stand der Sonne.\nWann sieht man einen Regenbogen?\nMan sieht ihn, wenn die Sonne im Rücken steht und nicht zu hoch ist.\nWas verlost die Redaktion?\nSie verlost 12 Kalender und einen Abend mit Lindner."
+    },
+    {
+      "title": "Warum Schlittschuhe gleiten",
+      "summary": "A woman overcomes her fear of the ice on a frozen Austrian lake and learns why ice is slippery.",
+      "newWords": [
+        "Überwindung",
+        "lähmen",
+        "auslachen",
+        "Spott",
+        "entrichten",
+        "skandinavisch",
+        "Archäologe",
+        "formieren"
+      ],
+      "text": "Jedes Jahr im Januar friert in Kärnten ein langer, schmaler See zu, und dann kommen Tausende Menschen mit Schlittschuhen. Tamara war 34 Jahre alt, als sie zum ersten Mal dorthin fuhr. Als Kind war sie einmal auf dem Eis gestürzt, und seitdem hatte die Angst sie gelähmt, sobald sie eine glatte Fläche sah. Es kostete sie große Überwindung, die Schuhe zu schnüren. Die Überwindung war fast schwerer als das Laufen selbst.\n\nAn der Kasse am Ufer musste sie eine kleine Gebühr entrichten, mit der die Gemeinde die Pflege der Eisfläche bezahlt. Ihr Freund Lukas entrichtete die Gebühr für beide und lieh ihr ein Paar Schlittschuhe. Dann stand sie auf dem Eis, und die alte Angst lähmte ihre Beine. Ein paar Jugendliche fuhren vorbei. Tamara fürchtete, sie würden sie auslachen. Doch sie wurde nicht ausgelacht, und von Spott war nichts zu hören. Ein älterer Herr rief ihr sogar zu, sie solle die Knie beugen. Spott, dachte Tamara, gibt es auf dem Eis offenbar weniger als in ihrer Erinnerung.\n\nIn der Pause erzählte Lukas, dass Menschen schon sehr lange auf dem Eis laufen. Archäologen haben in skandinavischen Ländern und anderswo Schlittschuhe aus Tierknochen gefunden, die mehrere tausend Jahre alt sind. Manche Archäologen vermuten, dass man im Winter so schneller über die vielen Seen kam. In den skandinavischen Wintern war das Eis oft der kürzeste Weg.\n\nAber warum ist Eis überhaupt so glatt? In alten Schulbüchern stand, der Druck der schmalen Kante schmelze das Eis. Tatsächlich senkt Druck den Punkt, an dem Eis schmilzt, aber nur sehr wenig, um weniger als ein Grad. Bei minus 20 Grad könnte man so gar nicht laufen, und doch geht es. Eine zweite Ursache ist die Reibung: Wer schnell fährt, erzeugt Wärme, die das Eis an der Oberfläche ein wenig schmilzt. Die wichtigste Erklärung liegt aber im Eis selbst. An seiner Oberfläche sind die Moleküle weniger fest gebunden als im Inneren. Sie bilden eine sehr dünne, beinahe flüssige Schicht, auf der die Kante gleitet. Forscher haben gemessen, dass man um minus 7 Grad am besten gleitet. Ist es viel kälter, wird die Schicht immer dünner und fester, und das Eis wird stumpf.\n\nAm Nachmittag sahen die beiden eine Gruppe von Holländern, die für ein langes Rennen übten. Die Läufer formierten sich in einer Reihe, einer dicht hinter dem anderen, weil man im Windschatten des Vordermanns Kraft spart. Immer wieder formierten sie sich neu, damit jeder einmal vorne fahren musste.\n\nAm Ende des Tages fuhr Tamara allein eine ganze Runde. Die Angst war nicht ganz verschwunden, aber sie lähmte sie nicht mehr.\n\nFragen:\nWarum kostete es Tamara Überwindung, die Schlittschuhe zu schnüren?\nAls Kind war sie auf dem Eis gestürzt, und seitdem hatte die Angst sie gelähmt.\nWofür entrichtet man am Ufer eine Gebühr?\nMit der Gebühr bezahlt die Gemeinde die Pflege der Eisfläche.\nWas haben Archäologen gefunden?\nSie haben Schlittschuhe aus Tierknochen gefunden, die mehrere tausend Jahre alt sind.\nWarum ist Eis so glatt?\nAn seiner Oberfläche bilden die Moleküle eine sehr dünne, beinahe flüssige Schicht.\nWarum formierten sich die Holländer in einer Reihe?\nWeil man im Windschatten des Vordermanns Kraft spart."
+    },
+    {
+      "title": "Was in der Mikrowelle geschieht",
+      "summary": "A programmer who writes software for microwave ovens explains to his niece how they heat food and why they are safe.",
+      "newWords": [
+        "Programmierer",
+        "String",
+        "Geschäftsbereich",
+        "Prüfer",
+        "überfällig",
+        "ungefährlich",
+        "Zerfall",
+        "Kommandeur"
+      ],
+      "text": "Ole Petersen ist Programmierer bei einem Hersteller von Haushaltsgeräten in Bielefeld. Sein Geschäftsbereich entwickelt Mikrowellen, und Ole schreibt die Software, die hinter den Tasten und dem kleinen Display arbeitet. Als seine Nichte Pia ihn für ein Schulprojekt besuchte, zeigte er ihr zuerst seinen Bildschirm. Ein String, erklärte er, ist für einen Programmierer eine Kette von Zeichen, etwa das Wort „Fertig“, das am Ende auf dem Display erscheint. Jeder String wird in 20 Sprachen übersetzt und muss trotzdem auf das kleine Display passen. Im ganzen Geschäftsbereich, sagte er, warte man gerade auf ein Update für die neuen Modelle, das seit zwei Wochen überfällig sei. Überfällig sei es, weil ein einziger zu langer String nicht auf das Display passt.\n\nDann gingen die beiden in die Prüfhalle. Dort testen Prüfer jedes neue Modell, bevor es in den Handel kommt. Ein Prüfer hielt ein Messgerät an die Tür, um zu kontrollieren, dass keine Strahlung entweicht.\n\nPia wollte wissen, wie die Mikrowelle überhaupt heizt. Im Inneren, erklärte Ole, erzeugt ein Bauteil elektromagnetische Wellen mit einer Frequenz von 2,45 Milliarden Schwingungen pro Sekunde. Ihre Wellenlänge beträgt etwa 12 Zentimeter. Wassermoleküle sind an einem Ende leicht positiv und am anderen leicht negativ. Das wechselnde Feld zieht sie ständig hin und her, sie drehen sich und stoßen an ihre Nachbarn, und diese Bewegung ist Wärme. Deshalb erwärmt die Mikrowelle vor allem Speisen, die Wasser enthalten. In gefrorenem Wasser sind die Moleküle fest gebunden und können sich kaum drehen; deshalb taut das Gerät Eis nur langsam auf.\n\nViele glauben, die Mikrowelle koche das Essen von innen nach außen. Das stimmt nicht: Die Wellen dringen nur wenige Zentimeter tief ein, und in die Mitte eines dicken Bratens gelangt die Wärme langsam von außen. Außerdem bilden die Wellen im Garraum Stellen mit viel und wenig Energie. Deshalb dreht sich der Teller, damit keine Stelle kalt bleibt.\n\nPia fragte, ob die Strahlung gefährlich sei. Das Wort Strahlung erschreckt viele, sagte Ole, aber Mikrowellen haben nichts mit dem Zerfall von Atomen zu tun, den man von radioaktiven Stoffen kennt. Ohne einen solchen Zerfall kann das Essen auch nicht radioaktiv werden. Bei intakter Tür ist das Gerät ungefährlich, denn im Fenster steckt ein feines Gitter aus Metall. Seine Löcher sind viel kleiner als die Wellenlänge, deshalb hält das Gitter die Wellen zurück, während das Licht hindurchgeht. Ungefährlich ist Metall im Garraum dagegen nicht immer: An Kanten von Löffeln oder Folie können Funken entstehen.\n\nZum Schluss erzählte Ole die Geschichte der Erfindung. Im Zweiten Weltkrieg baute man solche Bauteile für Radargeräte, mit denen die Kommandeure der Flotten Schiffe auch bei Nebel erkennen wollten. Ein amerikanischer Ingenieur bemerkte dabei, so erzählt man, dass die Schokolade in seiner Tasche geschmolzen war. Aus einem Gerät für Kommandeure wurde so ein Gerät für die Küche.\n\nFragen:\nWas ist ein String für einen Programmierer?\nEin String ist eine Kette von Zeichen, etwa ein Wort auf dem Display.\nWas machen die Prüfer in der Prüfhalle?\nSie testen jedes neue Modell und kontrollieren, dass keine Strahlung entweicht.\nWie erwärmt die Mikrowelle das Essen?\nDas Feld zieht die Wassermoleküle hin und her, und ihre Bewegung wird zu Wärme.\nWarum ist das Gerät bei intakter Tür ungefährlich?\nEin feines Gitter aus Metall im Fenster hält die Wellen zurück.\nWofür baute man die Bauteile im Zweiten Weltkrieg?\nMan baute sie für Radargeräte, mit denen die Kommandeure Schiffe auch bei Nebel erkennen wollten."
+    },
+    {
+      "title": "Die Stimme im Treppenhaus",
+      "summary": "A tenant in an old apartment building notices how sound travels in the stairwell and learns what makes an echo.",
+      "newWords": [
+        "Mülltonne",
+        "schnarchen",
+        "appellieren",
+        "unfreundlich",
+        "pseudonym",
+        "Pointe",
+        "Pub",
+        "Sporthalle",
+        "Pfeiler",
+        "Triebwerk"
+      ],
+      "text": "Ich wohne im vierten Stock eines alten Hauses in Leipzig, und unser Treppenhaus hat ein eigenes Leben. Wenn unten jemand den Deckel einer Mülltonne fallen lässt, höre ich es oben so deutlich, als stünde die Mülltonne vor meiner Tür. Nachts höre ich durch die Wand meinen Nachbarn schnarchen. Er schnarcht nicht laut, aber tief, und tiefe Töne gehen durch Mauern besser hindurch als hohe.\n\nVor einigen Wochen hing im Erdgeschoss ein Zettel. Darin wollte jemand an alle Bewohner appellieren, abends leiser zu sein: „Ich möchte an Ihre Rücksicht appellieren, besonders nach 22 Uhr.“ Der Ton war nicht unfreundlich, eher bittend, und unfreundlich fand den Zettel auch niemand. Unterschrieben war der Zettel mit einem Pseudonym, „Die Fledermaus“. Ein Pseudonym schien mir passend, denn Fledermäuse orientieren sich bekanntlich mit Echos.\n\nWarum trägt ein Treppenhaus den Schall so gut? Schall breitet sich in der Luft mit etwa 340 Metern pro Sekunde aus. Trifft er auf eine glatte, harte Fläche aus Stein oder Putz, wird er fast vollständig zurückgeworfen. In unserem Treppenhaus gibt es nur harte Flächen: steinerne Stufen, Fliesen, kahle Wände. Der Schall prallt hin und her, viele Male in einer Sekunde, und die vielen Reflexionen verschmelzen zu einem langen Hall. Ein echtes Echo, bei dem man das eigene Wort deutlich ein zweites Mal hört, entsteht erst, wenn die Wand mindestens 17 Meter entfernt ist. Dann braucht der Schall für Hin- und Rückweg etwa eine Zehntelsekunde, und das Ohr kann beide Töne trennen.\n\nEin Freund erzählte mir neulich im Treppenhaus einen Witz. Als er bei der Pointe ankam, wiederholte das Haus die Pointe noch einmal vom Dach bis in den Keller. Wir mussten beide lachen, und der Hall lachte mit.\n\nÄhnliches kennt jeder, der einmal in einem vollen Pub war. Im Pub gibt es viel Holz und Glas, aber kaum weiche Stoffe; die Stimmen werden zurückgeworfen, alle sprechen lauter, und es wird immer noch lauter. In einer Sporthalle ist es ähnlich, nur größer. Wer in einer leeren Sporthalle in die Hände klatscht, hört ein langes Nachklingen. Deshalb hängen an den Decken vieler Hallen Platten, die den Schall schlucken.\n\nEin schönes Echo habe ich unter der Eisenbahnbrücke am Fluss gehört. Ich habe zwischen den Pfeilern laut meinen Namen gerufen, und von der Mauer am anderen Ufer kam er klar zurück. Die Pfeiler selbst warfen leisere, kürzere Echos dazwischen.\n\nWie laut Schall werden kann, zeigt ein Flughafen. Ein Triebwerk beim Start eines Flugzeugs ist so laut, dass Arbeiter am Flughafen Schutz für die Ohren tragen. Gegen ein Triebwerk ist mein schnarchender Nachbar ein Flüstern. Seit dem Zettel der Fledermaus ist es in unserem Haus abends tatsächlich stiller geworden.\n\nFragen:\nWarum hört man den Nachbarn durch die Wand?\nEr schnarcht tief, und tiefe Töne gehen durch Mauern besser hindurch als hohe.\nWoran wollte der Zettel im Erdgeschoss appellieren?\nEr wollte an die Rücksicht der Bewohner appellieren, besonders nach 22 Uhr.\nWarum entsteht im Treppenhaus ein langer Hall?\nDer Schall prallt zwischen den harten Flächen hin und her, und die Reflexionen verschmelzen.\nWann entsteht ein echtes Echo?\nWenn die Wand mindestens 17 Meter entfernt ist, sodass das Ohr beide Töne trennen kann.\nWo ist ein schönes Echo zu hören?\nEs ist unter der Eisenbahnbrücke zwischen den Pfeilern zu hören."
+    },
+    {
+      "title": "Hebel und Rollen in der Werkstatt",
+      "summary": "An apprentice carpenter learns the laws of the lever and the pulley from her master in a workshop with a long history.",
+      "newWords": [
+        "verkommen",
+        "Schenkung",
+        "versteigern",
+        "aufbereiten",
+        "Bruderschaft",
+        "Berufserfahrung",
+        "anpacken",
+        "hingeben",
+        "Ableger",
+        "Staatsoberhaupt"
+      ],
+      "text": "Die Werkstatt von Meister Albrecht Haberl liegt in einer alten Scheune am Rand von Passau. Als er sie vor 20 Jahren übernahm, war das Gebäude verkommen: Das Dach war undicht, und im verkommenen Hof wuchsen Brennnesseln. Einen Teil der Werkzeuge erhielt er durch eine Schenkung. Ein alter Tischler ohne Erben hatte ihm Hobel, Sägen und eine schwere Hobelbank vermacht, und an diese Schenkung erinnert ein Schild über der Tür. Den Rest kaufte Haberl auf Auktionen, wo die Werkzeuge aufgelöster Betriebe versteigert wurden. Manchmal, sagt er, werde für wenig Geld ein ganzes Handwerk versteigert. Außerdem kauft er altes Holz aus abgerissenen Scheunen, das in der Werkstatt aufbereitet wird. Holz aufzubereiten ist mühsam, aber es spart Bäume.\n\nAuf dem Schild steht auch, dass sich Handwerker früher in einer Bruderschaft zusammenschlossen. Eine solche Bruderschaft half kranken Mitgliedern und ihren Familien.\n\nSeit dem Herbst lernt Sophie bei ihm. Haberl hat mehr als 30 Jahre Berufserfahrung, aber er behauptet, Berufserfahrung beginne mit dem Mut, mit anzupacken. Sophie hat noch nie gezögert, wenn angepackt werden musste. An einem Montag sollten die beiden einen schweren Balken aus Eiche auf die Bank heben, und Haberl nahm statt der Muskeln eine lange Stange.\n\nDas Prinzip ist der Hebel, erklärte er. Man legt die Stange nahe an der Last auf einen festen Punkt. Ist die Seite, an der man drückt, 10-mal so lang wie die Seite unter der Last, braucht man nur ein Zehntel der Kraft. Kraft mal Länge des einen Arms ist gleich Last mal Länge des anderen. Allerdings muss man das lange Ende auch 10-mal so weit bewegen, wie die Last sich hebt. Die Arbeit wird nicht kleiner, sie verteilt sich nur anders.\n\nFür noch schwerere Lasten hängt unter dem Dach ein Seil mit Rollen. Eine feste Rolle ändert nur die Richtung: Man zieht nach unten, und die Last geht nach oben. Eine lose Rolle, die mit der Last hängt, halbiert die Kraft, denn die Last hängt nun an zwei Stücken des Seils. Dafür muss man doppelt so viel Seil ziehen. Was man an Kraft spart, zahlt man an Weg.\n\nSchon Archimedes soll diese Regel eindrucksvoll gezeigt haben. König Hieron, das Staatsoberhaupt von Syrakus, habe ihm nicht glauben wollen, dass man mit wenig Kraft große Lasten bewegen könne. Da habe Archimedes mit einem System aus Rollen ein beladenes Schiff an Land gezogen, allein. Ob das Staatsoberhaupt wirklich staunend am Ufer stand, wissen wir nicht, aber das Prinzip stimmt.\n\nIm Frühjahr kommt der Prüfer der Handwerkskammer zur Zwischenprüfung. Haberl rät ihr, sich der Arbeit ganz hinzugeben, aber nicht zu hetzen. Wer sich einem Handwerk hingibt, sagt er, lernt es mit den Händen und mit dem Kopf.\n\nDie Werkstatt hat inzwischen einen kleinen Ableger in der Altstadt, einen Laden, in dem Haberl Möbel verkauft. Vielleicht, sagt er, führt Sophie diesen Ableger eines Tages selbst.\n\nFragen:\nWie war das Gebäude, als Haberl es übernahm?\nEs war verkommen: Das Dach war undicht, und im Hof wuchsen Brennnesseln.\nWoher stammen die Werkzeuge der Werkstatt?\nEinen Teil erhielt Haberl durch eine Schenkung, den Rest kaufte er auf Auktionen.\nWie hilft ein Hebel?\nIst die Seite, an der man drückt, 10-mal so lang, braucht man nur ein Zehntel der Kraft.\nWas bewirkt eine lose Rolle?\nSie halbiert die Kraft, aber man muss doppelt so viel Seil ziehen.\nWas soll Archimedes vor König Hieron gezeigt haben?\nEr soll mit einem System aus Rollen allein ein beladenes Schiff an Land gezogen haben."
+    },
+    {
+      "title": "Warum der Himmel blau ist",
+      "summary": "A newspaper report on a lecture in the city library, where a physicist explains the blue sky and the red sunset.",
+      "newWords": [
+        "Stadtbibliothek",
+        "Privatdozent",
+        "Lehramt",
+        "Methodik",
+        "mitreden",
+        "Angesprochener",
+        "besiedelt",
+        "Zeitreise",
+        "Verfilmung"
+      ],
+      "text": "Der Saal im obersten Stock der Stadtbibliothek war am Donnerstagabend bis auf den letzten Platz besetzt. Die Stadtbibliothek hatte zu einem Vortrag mit einer einfachen Frage eingeladen: Warum ist der Himmel blau? Es sprach Felix Reinhold, Privatdozent für Physik an der Universität. Als Privatdozent lehrt er an der Hochschule, ohne eine feste Professur zu haben, und er gilt als einer, der schwierige Dinge einfach erklären kann. Unter den Gästen waren Rentner, Familien und viele Studierende, die Lehramt studieren und später selbst Physik unterrichten wollen. Für das Lehramt, sagte eine junge Frau, sei so ein Abend ein Geschenk.\n\nReinhold begann mit der Geschichte. Im 19. Jahrhundert ließ der Physiker John Tyndall Licht durch Röhren mit feinem Nebel fallen und sah, dass das gestreute Licht bläulich war. Der britische Physiker Rayleigh lieferte wenige Jahre später die Berechnung. Ihre Methodik unterschied sich, ergänzte sich aber: Die Methodik des einen war das Experiment, die des anderen die Mathematik.\n\nDas Ergebnis ist bis heute gültig. Das weiße Sonnenlicht enthält alle Farben. Wenn es auf die winzigen Moleküle der Luft trifft, wird ein Teil davon in alle Richtungen gelenkt. Kurzwelliges blaues Licht wird dabei viel stärker abgelenkt als langwelliges rotes, etwa 5-mal so stark. Dieses blaue Streulicht kommt aus allen Richtungen des Himmels zu uns; deshalb erscheint uns der ganze Himmel blau. Violettes Licht wird sogar noch stärker gestreut. Doch das Sonnenlicht enthält weniger davon, ein Teil wird hoch oben geschluckt, und unsere Augen sind dafür weniger empfindlich.\n\nAm Abend, wenn die Sonne tief steht, legt ihr Licht einen viel längeren Weg durch die Luft zurück. Unterwegs wird das Blau fast vollständig zur Seite gestreut, und übrig bleiben Gelb, Orange und Rot. Wolken dagegen sind weiß, weil ihre Tropfen viel größer sind als die Moleküle und alle Farben gleich stark streuen. Auf dem Mond, wo es keine Luft gibt, ist der Himmel auch am Tag schwarz.\n\nNach dem Vortrag durften alle mitreden. Ein Junge fragte, wo man die Sterne am besten sieht. In dünn besiedelten Gegenden, antwortete Reinhold, fern vom Licht der Städte. In dicht besiedelten Regionen überstrahlt das künstliche Licht die schwachen Sterne. Wer mitreden wollte, kam zu Wort, und Reinhold ging auf jede angesprochene Frage ein. Eine angesprochene Frage betraf die Sonne selbst: Ihr Licht braucht etwa 8 Minuten bis zu uns. Wer in den Himmel blickt, unternimmt also eine kleine Zeitreise: Er sieht die Sonne, wie sie vor 8 Minuten war, und ferne Sterne, wie sie vor vielen Jahren waren.\n\nZum Schluss wies die Leiterin der Bibliothek auf den nächsten Abend hin: Gezeigt wird die Verfilmung eines berühmten Romans über eine Zeitreise. Die Verfilmung ist alt, sagte sie, aber der Himmel darin ist so blau wie heute.\n\nFragen:\nWer hielt den Vortrag in der Stadtbibliothek?\nFelix Reinhold, Privatdozent für Physik, hielt den Vortrag.\nWarum erscheint uns der Himmel blau?\nBlaues Licht wird von den Molekülen der Luft viel stärker gestreut als rotes und kommt aus allen Richtungen zu uns.\nWarum ist die Sonne am Abend rot?\nIhr Licht legt einen längeren Weg zurück, und das Blau wird fast vollständig zur Seite gestreut.\nWo sieht man die Sterne am besten?\nMan sieht sie am besten in dünn besiedelten Gegenden, fern vom Licht der Städte.\nWarum ist der Blick in den Himmel eine kleine Zeitreise?\nWeil man die Sonne sieht, wie sie vor 8 Minuten war, und ferne Sterne, wie sie vor vielen Jahren waren."
+    },
+    {
+      "title": "Großvater, der Ballon und der Igel",
+      "summary": "A grandfather shows his granddaughter static electricity with a balloon and explains why her hair stands up.",
+      "newWords": [
+        "Igel",
+        "Wohlbefinden",
+        "Dino",
+        "Lama",
+        "Fahndung",
+        "allmächtig",
+        "Verabschiedung"
+      ],
+      "text": "Im Garten von Großvater Anton lebt ein Igel. Jeden Abend stellt Anton ihm eine flache Schale mit Wasser hin, denn das Wohlbefinden des Igels liegt ihm am Herzen. Für sein eigenes Wohlbefinden sorgt er mit langen Spaziergängen und einem Mittagsschlaf. An diesem Sonntag aber hatte er keine Zeit für Schlaf, denn seine Enkelin Mila war zu Besuch. Sie war 6 Jahre alt und brachte ihre zwei liebsten Stofftiere mit: einen grünen Dino und ein weißes Lama mit weichem, langem Fell.\n\nNach dem Mittagessen war das Lama verschwunden. Anton rief sofort eine große Fahndung aus. Die beiden suchten in der Küche, im Flur und im Wohnzimmer. Die Fahndung endete nach 10 Minuten unter dem Sofa, wo das Lama friedlich neben dem Dino lag. Mila hatte die beiden dort selbst schlafen gelegt und es vergessen.\n\nVom letzten Geburtstag lagen noch Luftballons im Schrank. Anton blies einen roten Ballon auf und rieb ihn ein paarmal an Milas Haaren. Als er ihn langsam hob, standen ihre Haare in alle Richtungen ab. „Du siehst aus wie unser Igel“, sagte Anton, und Mila lachte, bis sie Schluckauf bekam.\n\nDann erklärte er ihr, was geschehen war. Alles besteht aus winzigen Atomen, und in jedem Atom gibt es Teilchen mit einer Ladung: einen positiven Kern in der Mitte und negative Elektronen darum herum. Beim Reiben wandern Elektronen von den Haaren auf den Ballon. Der Ballon hat nun zu viele Elektronen und ist negativ, die Haare haben zu wenige und sind positiv. Gleiche Ladungen stoßen sich ab. Jedes Haar drückt also die anderen von sich weg, und so stehen sie ab wie die Stacheln eines Igels.\n\nDanach hielt Anton den Ballon an die Wand, und er blieb dort hängen. Die Wand selbst war nicht geladen. Aber der negative Ballon schob die Elektronen in der Wand ein winziges Stück zurück, sodass die Oberfläche auf seiner Seite leicht positiv wurde und ihn anzog. Auch am Fell des Lamas blieb der Ballon kleben, nur beim glatten Dino rutschte er ab.\n\nMila sah ihren Großvater mit großen Augen an. Er könne zaubern, meinte sie, er sei allmächtig. „Ich bin nicht allmächtig“, sagte Anton, „ich kenne nur die Elektronen.“ Ein Blitz, fügte er hinzu, entstehe nach demselben Prinzip, nur viel größer: In der Wolke trennen sich Ladungen, bis sie sich in einem gewaltigen Funken ausgleichen. An trockenen Wintertagen halten Ladungen besonders lange, an feuchten Tagen fließen sie schneller ab.\n\nAm Abend kam Milas Mutter. Bei der Verabschiedung an der Haustür berührte Mila die Klinke aus Metall, und es knisterte leise. „Ein kleiner Blitz!“, rief sie. Die Verabschiedung dauerte danach noch eine Weile, denn sie wollte es noch einmal versuchen.\n\nFragen:\nWas tut Großvater Anton für das Wohlbefinden des Igels?\nEr stellt ihm jeden Abend eine flache Schale mit Wasser hin.\nWo endete die Fahndung nach dem Lama?\nSie endete unter dem Sofa, wo das Lama neben dem Dino lag.\nWarum standen Milas Haare ab?\nDie Haare waren positiv geladen, und gleiche Ladungen stoßen sich ab.\nWarum blieb der Ballon an der Wand hängen?\nEr schob die Elektronen der Wand ein Stück zurück, und die leicht positive Oberfläche zog ihn an.\nWas sagte Anton, als Mila meinte, er sei allmächtig?\nEr sagte, er sei nicht allmächtig, er kenne nur die Elektronen."
+    }
+  ]
+}
