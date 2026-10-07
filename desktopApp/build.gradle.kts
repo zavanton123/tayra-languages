@@ -19,8 +19,8 @@ val desktopVersion = providers.gradleProperty("releaseVersion")
     .map { if (Regex("[1-9]\\d*\\.\\d+\\.\\d+").matches(it)) it else "1.0.0" }
     .orElse("1.0.0")
 
-// Windows installers take MAJOR.MINOR.BUILD from 0.0.0 up, so they keep the real version and each release upgrades the last.
-val windowsVersion = providers.gradleProperty("releaseVersion")
+// Windows, Debian and RPM installers accept versions from 0.0.0 up, so they keep the real version and each release upgrades the last.
+val installerVersion = providers.gradleProperty("releaseVersion")
     .map { if (Regex("\\d+\\.\\d+\\.\\d+").matches(it)) it else "1.0.0" }
     .orElse("1.0.0")
 
@@ -40,7 +40,7 @@ compose.desktop {
         jvmArgs += dockNameArgs
 
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
+            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb, TargetFormat.Rpm)
             packageName = "TayraLanguages"
             packageVersion = desktopVersion.get()
             // The bundled runtime only has the JDK modules listed here; without java.sql the database cannot open.
@@ -51,7 +51,7 @@ compose.desktop {
             macOS { iconFile.set(project.file("icons/TayraLanguages.icns")) }
             windows {
                 iconFile.set(project.file("icons/TayraLanguages.ico"))
-                msiPackageVersion = windowsVersion.get()
+                msiPackageVersion = installerVersion.get()
                 // Kept for good: Windows replaces an installed version only when the new MSI has the same upgrade code.
                 upgradeUuid = "f8e8f40e-d1ad-4d01-ae94-eb98d11cfe66"
                 perUserInstall = true
@@ -60,7 +60,16 @@ compose.desktop {
                 shortcut = true
                 dirChooser = true
             }
-            linux { iconFile.set(project.file("icons/TayraLanguages.png")) }
+            linux {
+                iconFile.set(project.file("icons/TayraLanguages.png"))
+                // Debian and RPM package names are lower case; the installed app keeps its display name.
+                packageName = "tayra-languages"
+                debPackageVersion = installerVersion.get()
+                rpmPackageVersion = installerVersion.get()
+                appCategory = "Education"
+                menuGroup = "Education"
+                shortcut = true
+            }
         }
     }
 }
