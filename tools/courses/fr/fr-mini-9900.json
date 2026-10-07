@@ -1,0 +1,222 @@
+{
+  "id": "fr-mini-9900",
+  "rankUpTo": 9900,
+  "level": "C2",
+  "title": "L'éthique et la vie commune",
+  "description": "Ten calm reflections on everyday ethical questions, from bulky rubbish in Brussels and a tool library in Montreal to a wildlife reserve in Senegal and a restaurant terrace in Toulon.",
+  "topic": "Ethics and living together",
+  "names": [
+    "Schaerbeek",
+    "Bruxelles",
+    "Arnaud",
+    "Namur",
+    "Rosemont",
+    "Montréal",
+    "Mathieu",
+    "Sophie",
+    "Hugo",
+    "Cornavin",
+    "Genève",
+    "Périgord",
+    "Quercy",
+    "Lucien",
+    "Margaux",
+    "Bordeaux",
+    "Pistache",
+    "Paris",
+    "Belleville",
+    "Ferreira",
+    "Nour",
+    "Hélène",
+    "Marchand",
+    "Lyon",
+    "Saône",
+    "Italie",
+    "Quimper",
+    "Goff",
+    "Douarnenez",
+    "Bigouden",
+    "Rennes",
+    "Ousmane",
+    "Diop",
+    "Sénégal",
+    "Dakar",
+    "Afrique",
+    "France",
+    "Toulouse",
+    "Cyprien",
+    "Rémi",
+    "Toulon",
+    "Josiane",
+    "Hyères",
+    "Kyoto"
+  ],
+  "lessons": [
+    {
+      "title": "Les encombrants du jeudi",
+      "summary": "In Brussels, a neighbour who is moving leaves useful things under the porch, and the street works out what giving responsibly means.",
+      "newWords": [
+        "fourgon",
+        "gabarit",
+        "meubler",
+        "porche",
+        "cuvette",
+        "ustensile",
+        "bocal",
+        "louable",
+        "faisable",
+        "encombrant"
+      ],
+      "text": "Dans ma rue de Schaerbeek, à Bruxelles, le premier jeudi du mois est le jour des encombrants. La commune passe ce jour-là avec un camion pour emporter les objets encombrants : vieux matelas, chaises cassées, armoires trop lourdes pour une poubelle ordinaire. La veille au soir, les trottoirs se couvrent donc de meubles et de cartons, et une petite question morale se pose devant chaque porte : ce que je laisse dehors, est-ce un déchet ou un cadeau ?\n\nLe mois dernier, mon voisin Arnaud a déménagé. Il avait loué un fourgon de gros gabarit, si large qu'il bloquait la moitié de la rue. Un fourgon de ce gabarit passe mal dans nos rues étroites, et pendant deux heures les voitures ont dû attendre derrière lui. Personne ne s'est plaint.\n\nArnaud ne pouvait pas tout emporter. Son nouvel appartement, à Namur, était déjà meublé ; il n'avait besoin ni de sa table ni de ses étagères. Il a donc posé sous le porche de l'immeuble une table, deux chaises, une cuvette en plastique, une boîte d'ustensiles de cuisine et une dizaine de bocaux en verre. Sur un carton, il a écrit : « Servez-vous. »\n\nLe geste était louable. Arnaud voulait éviter que des objets encore utiles finissent dans le camion des encombrants. Une étudiante qui venait de s'installer au troisième étage a pris la table et les chaises : elle devait meubler un studio vide avec presque rien. Une voisine âgée a choisi deux bocaux pour ses confitures. Les ustensiles ont disparu en une heure.\n\nMais le soir, il restait sous le porche la cuvette fendue et quelques bocaux sans couvercle. Le propriétaire de l'immeuble n'était pas content : le porche est un passage commun, et il n'est pas fait pour stocker les affaires des autres. Il avait raison, lui aussi. Un geste louable peut devenir une charge pour les voisins si personne ne s'en occupe jusqu'au bout.\n\nAlors, que faire ? Une règle simple me semble faisable : on peut donner ce qui est propre et utile, mais celui qui donne reste responsable de ce qui n'a pas été pris. Arnaud l'a compris tout seul. Avant de partir, il est revenu avec le fourgon, il a chargé la cuvette et les derniers bocaux, et il les a déposés au centre de tri de la commune.\n\nCe n'était pas compliqué, et c'était faisable pour tout le monde. Depuis, dans notre rue, on dépose toujours des objets sous le porche, mais on les reprend le lendemain. La générosité et l'ordre ne sont pas ennemis ; ils demandent seulement un peu de suite dans les idées.\n\nQuestions :\nQue se passe-t-il le premier jeudi du mois dans la rue du narrateur ?\nC'est le jour des encombrants : la commune passe avec un camion pour emporter les objets encombrants.\nPourquoi le fourgon d'Arnaud bloquait-il la rue ?\nParce que c'était un fourgon de gros gabarit, si large qu'il bloquait la moitié de la rue.\nQu'est-ce qu'Arnaud a posé sous le porche ?\nIl a posé une table, deux chaises, une cuvette, une boîte d'ustensiles et des bocaux en verre.\nPourquoi le propriétaire n'était-il pas content ?\nParce que le porche est un passage commun et qu'il n'est pas fait pour stocker les affaires des autres.\nQuelle règle le narrateur trouve-t-il faisable ?\nOn peut donner ce qui est propre et utile, mais celui qui donne reste responsable de ce qui n'a pas été pris."
+    },
+    {
+      "title": "La bibliothèque d'outils",
+      "summary": "In Montreal, the volunteer who runs a tool library decides what a borrower owes for a lost drill bit and a scratched pot.",
+      "newWords": [
+        "prêteur",
+        "stipuler",
+        "égarer",
+        "indemniser",
+        "foret",
+        "futile",
+        "cocotte",
+        "rayure",
+        "imperfection"
+      ],
+      "text": "Dans le quartier Rosemont, à Montréal, une ancienne quincaillerie est devenue une bibliothèque d'outils. Pour une petite somme par année, les membres empruntent une perceuse, une échelle ou une scie comme on emprunte un livre. Mathieu, un menuisier à la retraite, s'en occupe trois après-midi par semaine. Il aime dire qu'il est le plus grand prêteur du quartier, et qu'il n'a jamais prêté un seul dollar.\n\nLe règlement tient sur une page. Il stipule qu'un outil emprunté doit revenir propre, dans la semaine, avec tous ses accessoires. Il stipule aussi qu'un membre qui abîme ou égare un outil doit indemniser la bibliothèque. Mathieu trouve ce règlement juste, mais il sait qu'entre un prêteur et un emprunteur, les règles ne suffisent jamais tout à fait.\n\nUn samedi de mars, Sophie rapporte une perceuse. Dans la boîte, il manque un foret, le plus fin. Elle est gênée : elle a dû l'égarer dans son sous-sol, entre les cartons. Le foret coûte quatre dollars. Faut-il lui demander d'indemniser la bibliothèque ? Pour une somme si petite, la question peut sembler futile. Mathieu ne la trouve pas futile. Ce n'est pas le prix du foret qui compte, explique-t-il, c'est la confiance : si chacun égare un foret par mois, la boîte sera vide avant l'été. Sophie paie les quatre dollars sans discuter, et promet de chercher encore.\n\nLa bibliothèque prête aussi quelques grosses casseroles, dont une vieille cocotte en fonte, très demandée en hiver. Un dimanche, Hugo rapporte la cocotte avec une longue rayure à l'intérieur. Il s'inquiète : doit-il indemniser la bibliothèque pour cette rayure ? Mathieu examine la cocotte à la lumière de la fenêtre. La rayure est réelle, mais la cocotte cuit aussi bien qu'avant. « Un objet qui sert a droit à ses imperfections, dit-il. Une rayure, c'est la trace d'un bon repas. »\n\nHugo hésite. Il trouve cette réponse généreuse, peut-être trop. Où est la limite entre une imperfection normale et un vrai dommage ? Mathieu propose une règle de bon sens : on indemnise ce qui empêche l'outil de servir, pas ce qui le rend seulement moins beau. Un foret égaré empêche de percer ; une rayure dans une cocotte n'empêche pas de cuisiner.\n\nLe soir, en rangeant la cocotte sur son étagère, Mathieu pense à son père, qui prêtait ses outils à tout le voisinage. Son père disait qu'un bon prêteur ne compte pas les rayures, mais qu'il compte les retours. Prêter, au fond, c'est accepter l'imperfection des autres sans renoncer à la règle commune.\n\nQuestions :\nQu'est-ce qu'une bibliothèque d'outils ?\nC'est un lieu où les membres empruntent des outils comme on emprunte un livre.\nQue stipule le règlement ?\nIl stipule qu'un outil doit revenir propre, dans la semaine, et qu'un membre qui abîme ou égare un outil doit indemniser la bibliothèque.\nPourquoi Mathieu ne trouve-t-il pas la question du foret futile ?\nParce que ce n'est pas le prix du foret qui compte, mais la confiance.\nQuelle règle Mathieu propose-t-il pour les dommages ?\nOn indemnise ce qui empêche l'outil de servir, pas ce qui le rend seulement moins beau.\nQue disait le père de Mathieu ?\nIl disait qu'un bon prêteur ne compte pas les rayures, mais qu'il compte les retours."
+    },
+    {
+      "title": "Le tram sans billet",
+      "summary": "A columnist in Geneva watches a ticket check on a tram and weighs what fare dodgers owe the others.",
+      "newWords": [
+        "transiter",
+        "fraudeur",
+        "véridique",
+        "scruter",
+        "faussement",
+        "irrité",
+        "redistribution",
+        "comportemental",
+        "graduellement",
+        "persistance"
+      ],
+      "text": "Chaque matin, des milliers de voyageurs transitent par la gare Cornavin, à Genève. Dans cette foule, quelques-uns voyagent sans billet. Ce sont les fraudeurs, et ils posent une question plus vaste qu'il n'y paraît.\n\nVoici une scène véridique, que j'ai vue la semaine dernière. Deux contrôleurs montent dans le tram. Ils scrutent les visages, puis demandent les titres de transport. Un jeune homme fouille ses poches d'un air faussement surpris. Il n'a pas de billet. Une dame âgée, à côté de moi, est visiblement irritée. « Moi, je paie tous les mois », murmure-t-elle. Le jeune homme reçoit une amende de cent francs et descend à l'arrêt suivant. L'histoire est véridique, et elle est banale.\n\nLa dame irritée a-t-elle raison ? En partie. Le fraudeur profite d'un service que les autres paient. Un tram coûte cher : les conducteurs, l'entretien, l'électricité. Le prix du billet ne couvre d'ailleurs qu'une partie de ces frais ; le reste vient de l'impôt. Les transports publics sont donc déjà une forme de redistribution : chacun contribue selon ses moyens à un service que tous peuvent utiliser. Le fraudeur, en ne payant pas, refuse sa part de cette redistribution, tout en gardant le bénéfice.\n\nMais l'histoire n'est pas toujours aussi simple. Certains fraudeurs sont pressés ou négligents ; d'autres n'ont réellement pas l'argent du billet ; d'autres encore, faussement détachés, regardent par la fenêtre dès qu'un contrôleur monte. Les chercheurs en sciences comportementales, qui étudient nos décisions ordinaires, observent que la fraude dépend beaucoup du contexte. Quand une machine est en panne, quand les tarifs sont difficiles à comprendre, la fraude augmente. Quand l'achat devient simple, elle diminue graduellement. Plusieurs études comportementales menées dans des villes suisses vont dans ce sens.\n\nIl faut aussi parler de la persistance. Une fraude occasionnelle n'est pas la même chose qu'une habitude. La persistance de la fraude chez quelques voyageurs finit par user la patience de tous les autres, et elle rend les contrôles plus durs pour tout le monde. C'est peut-être cela qui irrite le plus : non pas le billet manqué, mais l'impression qu'une règle commune ne vaut que pour certains.\n\nQue conclure ? Il me semble juste de sanctionner le fraudeur, et juste aussi de rendre le voyage honnête plus facile. Genève l'a compris graduellement : billets sur le téléphone, tarifs réduits pour les jeunes et pour les personnes à petit revenu. Ce matin, en transitant à mon tour par Cornavin, j'ai revu la même dame âgée valider son billet. Les contrôleurs scrutaient la foule. Le tram, lui, partait à l'heure, pour tout le monde.\n\nQuestions :\nPourquoi y a-t-il tant de monde à la gare Cornavin le matin ?\nParce que des milliers de voyageurs transitent chaque matin par cette gare.\nComment le jeune homme réagit-il devant les contrôleurs ?\nIl fouille ses poches d'un air faussement surpris, puis il reçoit une amende de cent francs.\nEn quoi les transports publics sont-ils une forme de redistribution ?\nL'impôt paie une partie des frais, et chacun contribue selon ses moyens à un service que tous peuvent utiliser.\nQu'observent les chercheurs en sciences comportementales ?\nIls observent que la fraude dépend du contexte : elle augmente quand l'achat est difficile et diminue graduellement quand il devient simple.\nQue conclut l'auteur ?\nIl trouve juste de sanctionner le fraudeur, et juste aussi de rendre le voyage honnête plus facile."
+    },
+    {
+      "title": "Les truffes du voisin",
+      "summary": "On his farm in the Périgord, an old farmer explains to his granddaughter where the custom of sharing the woods ends.",
+      "newWords": [
+        "confins",
+        "fougère",
+        "truffe",
+        "aboyer",
+        "fauché",
+        "coutumier",
+        "alentour",
+        "soc",
+        "carpe",
+        "rossignol"
+      ],
+      "text": "Aux confins du Périgord et du Quercy, les collines sont couvertes de chênes, de fougères et de petits champs bordés de haies. Lucien y tient une ferme depuis cinquante ans. Sa petite-fille Margaux, qui habite Bordeaux, vient le voir chaque hiver, à la saison des truffes.\n\nDans la région, les truffes poussent sous la terre, au pied de certains chênes. Pour les trouver, il faut un chien bien dressé. Celui de Lucien s'appelle Pistache. Quand il sent une truffe, il gratte le sol et se met à aboyer doucement, comme pour dire : « C'est ici. »\n\nUn matin, en traversant un pré fauché l'été précédent, Margaux et son grand-père voient un homme qu'ils ne connaissent pas, au bord du bois. Il creuse au pied d'un chêne, avec un chien qui aboie. Le bois appartient à Lucien. L'homme ramasse des truffes sur une terre qui n'est pas la sienne.\n\nMargaux est indignée. Lucien, lui, réfléchit avant de répondre. Dans ces campagnes, explique-t-il, il existe un vieil usage coutumier : on laisse les voisins ramasser des champignons dans les bois alentour, et l'on peut traverser les prés fauchés pour descendre à la rivière. Les gens d'alentour cueillent des champignons sous ses chênes depuis toujours, et cela ne l'a jamais gêné.\n\n« Alors les truffes aussi ? » demande Margaux. Non, répond Lucien. La truffe n'est pas un champignon comme les autres. Elle se vend très cher, et il faut des années de soin pour qu'un bois en produise. Le droit coutumier vaut pour ce qu'on cueille pour sa table, pas pour ce qu'on va vendre au marché.\n\nLucien s'approche de l'homme et lui parle calmement. L'homme reconnaît qu'il le savait. Il rend les trois truffes qu'il a trouvées. Lucien ne porte pas plainte ; il lui dit simplement qu'il pourra revenir au printemps, pour les champignons.\n\nL'après-midi, Lucien montre à Margaux le vieux soc de son père, accroché au mur de la grange : une lame de fer qui ouvrait la terre derrière le cheval. Avec ce soc, son père a travaillé les champs pendant trente ans. « Cette terre est à moi sur le papier, dit Lucien, mais ce n'est pas moi qui l'ai faite. Je la garde, et je la partage quand c'est juste. »\n\nLe soir, ils descendent à l'étang, au fond du pré fauché. Un voisin y pêche la carpe, avec l'accord de Lucien, depuis vingt ans. Il remet toujours la carpe à l'eau après l'avoir pesée. Au printemps, dit Lucien, on entend le rossignol chanter dans les fougères, au bord de l'étang. Margaux promet de revenir en mai pour écouter le rossignol. Aux confins de ces deux régions, elle a compris que la propriété, à la campagne, se mesure aussi en confiance.\n\nQuestions :\nOù se trouve la ferme de Lucien ?\nElle se trouve aux confins du Périgord et du Quercy.\nComment Pistache annonce-t-il une truffe ?\nIl gratte le sol et se met à aboyer doucement.\nQuel usage coutumier existe dans la région ?\nOn laisse les voisins ramasser des champignons dans les bois alentour et traverser les prés fauchés.\nPourquoi les truffes ne font-elles pas partie de cet usage ?\nParce que la truffe se vend très cher, et que l'usage vaut pour ce qu'on cueille pour sa table, pas pour ce qu'on vend.\nQue fait le voisin avec les carpes qu'il pêche ?\nIl remet toujours la carpe à l'eau après l'avoir pesée."
+    },
+    {
+      "title": "Le bruit de l'immeuble",
+      "summary": "In an old Paris building, a resident pins up a note to settle the noise of records, guitar practice and skateboards.",
+      "newWords": [
+        "vingtième",
+        "gémir",
+        "swing",
+        "valse",
+        "pincer",
+        "squatter",
+        "skate",
+        "bitume",
+        "slalom",
+        "épingler"
+      ],
+      "text": "J'habite depuis douze ans un vieil immeuble du vingtième arrondissement de Paris, près de Belleville. Les murs y sont minces et les planchers anciens. Quand mon voisin du dessus marche le soir, le parquet gémit à chaque pas. Je connais ses habitudes mieux que les miennes.\n\nUn immeuble est une petite société. On n'a pas choisi ses voisins, mais on partage avec eux l'escalier, la cour et les bruits. Cet automne, la question du bruit a occupé toutes nos conversations.\n\nIl y a d'abord monsieur Ferreira, au deuxième. Il est veuf, il aime le jazz, et surtout le swing des années 1940. Le dimanche après-midi, il met ses vieux disques un peu fort. Je l'avoue : ce swing m'agace parfois, quand je veux lire. Mais je sais aussi que la musique lui tient compagnie depuis la mort de sa femme.\n\nIl y a ensuite la famille du quatrième. Leur fille Nour apprend la guitare. Elle répète des valses, lentement, en pinçant les cordes avec application. Les premières semaines, chaque valse s'arrêtait au même endroit, sur la même fausse note. Puis, un soir, la valse est allée jusqu'au bout, et j'ai eu envie d'applaudir.\n\nIl y a enfin la cour. Depuis le printemps, des adolescents du quartier viennent la squatter le soir avec leurs planches de skate. Ils posent des bouteilles en plastique sur le bitume et font du slalom entre elles. Le bruit des roues sur le bitume monte jusqu'au sixième étage. Certains voisins voudraient fermer la porte de la cour à clé ; d'autres trouvent qu'il vaut mieux des jeunes qui font du skate que des jeunes qui s'ennuient dans la rue.\n\nLes avis étaient partagés, et personne n'osait parler directement. Alors j'ai fait une chose simple : j'ai écrit un mot et je suis allée l'épingler sur le tableau du hall. Je proposais des horaires : la musique et le skate jusqu'à 20 heures en semaine, un peu plus tard le samedi ; le silence après 22 heures, pour tout le monde, parquet compris.\n\nLe lendemain, quelqu'un avait épinglé une réponse sous mon mot. Monsieur Ferreira promettait de baisser le son. Nour écrivait qu'elle jouerait ses valses avant le dîner. Les jeunes de la cour, eux, ne lisent pas les mots épinglés dans les halls ; je suis donc descendue leur parler. Ils ont accepté de faire leur slalom plus tôt, à condition de pouvoir continuer à squatter la cour le samedi.\n\nRien n'est parfait. Le parquet gémit toujours, le swing monte encore un peu fort le dimanche, et je me pince parfois les lèvres en entendant les roues des skates. Mais nous nous parlons. Dans un vieil immeuble du vingtième, c'est déjà une forme de paix.\n\nQuestions :\nOù habite la narratrice ?\nElle habite un vieil immeuble du vingtième arrondissement de Paris, près de Belleville.\nPourquoi monsieur Ferreira écoute-t-il ses disques de swing ?\nParce qu'il aime le swing et que la musique lui tient compagnie depuis la mort de sa femme.\nQue font les adolescents dans la cour ?\nIls posent des bouteilles sur le bitume et font du slalom avec leurs planches de skate.\nQu'a fait la narratrice pour régler le problème ?\nElle a écrit un mot avec des horaires et elle est allée l'épingler sur le tableau du hall.\nÀ quelle condition les jeunes ont-ils accepté ?\nIls ont accepté de faire leur slalom plus tôt, à condition de pouvoir continuer à squatter la cour le samedi."
+    },
+    {
+      "title": "Les petits mensonges",
+      "summary": "A Lyon psychoanalyst talks in an interview about white lies, impostor feelings and the stories we tell ourselves.",
+      "newWords": [
+        "psychanalyste",
+        "prologue",
+        "enveloppé",
+        "occulter",
+        "imposteur",
+        "romanesque",
+        "éclipser",
+        "superstition",
+        "extravagant",
+        "ressaisir"
+      ],
+      "text": "Hélène Marchand est psychanalyste à Lyon depuis vingt-cinq ans. Elle vient de publier un livre sur les petits mensonges de la vie quotidienne. Nous l'avons rencontrée dans son cabinet, une pièce calme qui donne sur la Saône.\n\nPourquoi une psychanalyste écrit-elle sur les petits mensonges ?\n\nParce que tout le monde en dit, et que personne n'en parle. Mes patients me racontent souvent un petit mensonge au début d'une séance, presque en passant. Ce mensonge est rarement l'histoire elle-même ; il en est le prologue. Mon travail consiste à écouter ce qui vient après le prologue.\n\nFaut-il toujours dire la vérité ?\n\nJe ne le crois pas. Si une amie vous montre un tableau qu'elle a peint, vous pouvez lui dire ce qui vous plaît, sans détailler tout le reste. Une vérité enveloppée de douceur reste une vérité. La politesse est une vérité enveloppée, pas une vérité cachée. Le problème commence quand on occulte ce que l'autre a besoin de savoir. Occulter une maladie à un proche, occulter une dette à son conjoint : là, le silence devient un mensonge.\n\nBeaucoup de vos patients parlent du sentiment d'imposteur. De quoi s'agit-il ?\n\nC'est la conviction de tromper les autres, d'avoir obtenu sa place par erreur. Une ingénieure brillante se dit qu'elle est un imposteur et qu'on va bientôt la découvrir. Le paradoxe, c'est que ce sont souvent les gens les plus honnêtes qui se sentent imposteurs. Le véritable imposteur, lui, dort très bien.\n\nEt les mensonges qu'on se raconte à soi-même ?\n\nCe sont les plus intéressants. Nous aimons tous nous voir dans une version romanesque de notre vie : le héros incompris, la victime courageuse. Cette vision romanesque n'est pas grave en soi ; elle nous console. Mais elle peut éclipser les faits. Quand le récit qu'on se fait éclipse ce qui s'est vraiment passé, on ne peut plus réparer ses erreurs.\n\nVotre livre parle aussi de superstition.\n\nOui, parce que la superstition est une forme douce de mensonge à soi-même. Toucher du bois, éviter le chiffre 13 : la plupart des superstitions sont sans danger. Je ne demande pas à mes patients de renoncer à leurs superstitions, seulement de savoir que ce sont des superstitions.\n\nCertains de vos exemples semblent extravagants.\n\nIls le sont parfois. J'ai connu un homme qui avait inventé une vie entière pour ses collègues : une maison en Italie, deux enfants qui n'existaient pas. Ce cas extravagant reste rare. Mais il montre où mène un petit mensonge qu'on n'ose plus corriger.\n\nComment en sortir ?\n\nEn se ressaisissant tôt. Il suffit de dire : « Je me suis trompé », ou : « Ce n'était pas tout à fait vrai. » Se ressaisir, ce n'est pas s'humilier. C'est reprendre la main sur son histoire avant qu'elle ne nous échappe.\n\nQuestions :\nQui est Hélène Marchand ?\nC'est une psychanalyste de Lyon qui vient de publier un livre sur les petits mensonges.\nSelon elle, quand le silence devient-il un mensonge ?\nQuand on occulte ce que l'autre a besoin de savoir, par exemple une maladie ou une dette.\nQui se sent souvent imposteur ?\nCe sont souvent les gens les plus honnêtes qui se sentent imposteurs.\nPourquoi la vision romanesque de sa vie peut-elle être un problème ?\nParce qu'elle peut éclipser les faits, et qu'alors on ne peut plus réparer ses erreurs.\nComment sortir d'un petit mensonge ?\nEn se ressaisissant tôt, et en disant simplement qu'on s'est trompé."
+    },
+    {
+      "title": "Les mardis de madame Le Goff",
+      "summary": "A volunteer in Quimper walks an old lady to the market and learns to help without taking her freedom away.",
+      "newWords": [
+        "bénévolat",
+        "onzième",
+        "imperméable",
+        "escorter",
+        "bretelle",
+        "apparenté",
+        "coiffe",
+        "urinaire",
+        "rai",
+        "rajeunir"
+      ],
+      "text": "Depuis deux ans, je fais du bénévolat dans une association de Quimper qui aide les personnes âgées à rester chez elles. Le principe est simple : un bénévole passe une matinée par semaine avec une personne seule, pour les courses, une promenade ou une conversation. On croit souvent que le bénévolat consiste à donner. J'ai appris qu'il consiste surtout à ne pas tout prendre en main.\n\nMadame Le Goff a quatre-vingt-neuf ans. Elle vit seule dans une petite maison près de la cathédrale. Ma première visite date de l'hiver dernier ; ce mardi, c'était la onzième, comme elle l'a noté dans son carnet : « Onzième mardi. Il pleut. »\n\nIl pleuvait, en effet. Elle a mis son vieil imperméable beige, j'ai mis le mien, et je l'ai escortée jusqu'au marché couvert. Escorter n'est pas porter : elle tient à marcher seule, et je reste simplement à côté d'elle, prête à lui donner le bras si le trottoir glisse. Son sac a une bretelle trop longue, qui lui tombe sans cesse de l'épaule. J'ai proposé d'ajuster la bretelle ; elle a refusé. Elle préfère remonter la bretelle elle-même, dix fois s'il le faut.\n\nLe dilemme du bénévolat est là. Il serait plus rapide de tout faire à sa place. Mais chaque geste qu'on lui enlève est un peu de sa liberté qui s'en va.\n\nAu marché, une marchande lui a demandé si elle était apparentée à la famille Le Goff de Douarnenez. « Apparentée de loin, a-t-elle répondu, par un cousin de mon mari. » Puis elle m'a raconté que sa mère portait la coiffe, cette haute coiffe de dentelle blanche des femmes du pays Bigouden.\n\nUne question plus délicate s'est posée à la fin de la matinée. Madame Le Goff m'a confié qu'elle avait une infection urinaire depuis quelques jours, et qu'elle ne voulait pas inquiéter sa fille, qui habite Rennes. Une infection urinaire, chez une femme de son âge, peut provoquer de la fièvre ou des chutes. Devais-je prévenir sa fille ? Je n'ai pas voulu décider seule à sa place. Je lui ai proposé d'appeler son médecin ensemble, tout de suite, et elle a accepté. Elle appellera sa fille elle-même, quand elle le voudra. Le secret lui appartient ; sa santé, elle a accepté de la confier à quelqu'un de compétent.\n\nAu retour, nos imperméables étaient trempés. Devant sa porte, un rai de soleil a traversé les nuages au-dessus de la cathédrale. Madame Le Goff s'est arrêtée pour le regarder. « Ces mardis me rajeunissent », m'a-t-elle dit en riant. Et j'ai pensé que ce rai de soleil, ce matin-là, n'était pas pour moi seule.\n\nQuestions :\nEn quoi consiste le bénévolat de la narratrice ?\nElle passe une matinée par semaine avec une personne âgée et seule, pour les courses, une promenade ou une conversation.\nPourquoi la narratrice n'ajuste-t-elle pas la bretelle du sac ?\nParce que madame Le Goff a refusé : elle préfère remonter la bretelle elle-même.\nQui portait la coiffe dans la famille de madame Le Goff ?\nSa mère portait la haute coiffe de dentelle blanche du pays Bigouden.\nQu'a fait la narratrice à propos de l'infection urinaire ?\nElle a proposé d'appeler le médecin ensemble, et madame Le Goff a accepté.\nQue dit madame Le Goff en voyant le rai de soleil ?\nElle dit que ces mardis la rajeunissent."
+    },
+    {
+      "title": "Le safari et le viseur",
+      "summary": "A guide in a Senegalese wildlife reserve reflects on fences, breeding, crowds of visitors and the right way to take photos.",
+      "newWords": [
+        "safari",
+        "brousse",
+        "tribut",
+        "caisson",
+        "artificiellement",
+        "génome",
+        "puma",
+        "submerger",
+        "analogique",
+        "viseur"
+      ],
+      "text": "Je m'appelle Ousmane Diop. Depuis quinze ans, je suis guide dans une réserve d'animaux sauvages du Sénégal, à une heure de route de Dakar. Chaque matin, je conduis des visiteurs en safari dans la brousse. On y voit des singes, des oiseaux de toutes les couleurs, des éléphants et, avec un peu de chance, un lion.\n\nAu siècle dernier, la faune de cette région a payé un lourd tribut à la chasse. Les éléphants avaient complètement disparu de cette partie de la brousse. Ceux que nous montrons aujourd'hui ont été ramenés d'autres pays d'Afrique, il y a une vingtaine d'années. Ils ont voyagé chacun dans un grand caisson de bois, avec des trous pour l'air. Les plus anciens employés de la réserve se souviennent encore du jour où l'on a ouvert le premier caisson, et du jeune éléphant qui a longtemps hésité avant de faire un pas dehors.\n\nCertains visiteurs me demandent si notre réserve est vraiment « naturelle ». Nos animaux vivent en liberté, mais derrière une clôture, et leur population est en partie maintenue artificiellement : on apporte de l'eau à la saison sèche, on soigne les blessés. Je pense qu'une nature aidée artificiellement vaut mieux qu'une nature disparue. C'est notre manière de rendre, un peu, le tribut payé autrefois.\n\nLes vétérinaires suivent aussi le génome des animaux. Si tous les éléphants descendent des mêmes parents, le génome du groupe perd sa diversité, et l'espèce devient fragile.\n\nIl y a quelques années, en vacances en France, j'ai visité un zoo. J'y ai vu un puma qui marchait le long de sa vitre, des heures durant, toujours dans le même sens. Ce puma m'a fait de la peine. Nos éléphants, eux, ont un espace immense. Mais le souvenir de ce puma m'oblige à rester honnête sur ce que nous faisons.\n\nL'autre question concerne les visiteurs eux-mêmes. Certains jours, des dizaines de voitures se suivent sur les pistes. Un petit parc peut vite être submergé ; les animaux fuient, et le safari devient une course aux photos. Nous limitons donc le nombre de voitures. Mieux vaut un parc calme qu'un parc submergé.\n\nJe demande à mes visiteurs de ne pas photographier les gens des villages sans leur accord, et de laisser parfois l'appareil de côté. L'an dernier, un visiteur suisse voyageait avec un vieil appareil analogique. Il ne pouvait prendre que trente-six photos par film. Il regardait longtemps dans le viseur avant d'appuyer. « Avec l'analogique, m'a-t-il dit, chaque photo coûte quelque chose, alors on regarde mieux. » Le meilleur safari est peut-être celui où l'on regarde plus avec ses yeux qu'avec un viseur.\n\nQuestions :\nOù travaille Ousmane Diop ?\nIl est guide dans une réserve d'animaux sauvages du Sénégal, à une heure de route de Dakar.\nComment les éléphants sont-ils arrivés dans la réserve ?\nIls ont été ramenés d'autres pays d'Afrique, chacun dans un grand caisson de bois.\nPourquoi les vétérinaires suivent-ils le génome des animaux ?\nParce que si tous les animaux descendent des mêmes parents, le génome perd sa diversité et l'espèce devient fragile.\nPourquoi la réserve limite-t-elle le nombre de voitures ?\nPour que le parc ne soit pas submergé et que les animaux ne fuient pas.\nQue disait le visiteur suisse de son appareil analogique ?\nIl disait qu'avec l'analogique chaque photo coûte quelque chose, et qu'on regarde donc mieux."
+    },
+    {
+      "title": "La chorale divisée",
+      "summary": "A Toulouse choir splits over its rules, then comes back together after a talk on the history of politeness.",
+      "newWords": [
+        "reconvertir",
+        "proscrire",
+        "sécession",
+        "conférencier",
+        "angulaire",
+        "grammatical",
+        "libéralisation",
+        "unification"
+      ],
+      "text": "À Toulouse, la chorale du quartier Saint-Cyprien répète depuis trente ans dans une ancienne école. Elle compte une soixantaine de membres, de dix-huit à quatre-vingts ans. Son chef de chœur, Rémi, est un ancien ingénieur qui s'est reconverti dans la musique à quarante-cinq ans. Il dit souvent qu'en se reconvertissant, il a gagné moins d'argent, mais beaucoup plus d'amis.\n\nIl y a deux ans, la chorale a connu sa première crise. Le nouveau règlement, voté en assemblée, proscrivait les téléphones pendant les répétitions et rendait la présence obligatoire à quatre répétitions sur cinq. Pour une partie des choristes, ces règles étaient nécessaires : on ne peut pas chanter ensemble si chacun arrive quand il veut. Pour d'autres, surtout les jeunes parents et ceux qui travaillent le soir, elles étaient trop dures. Un téléphone allumé, disaient-ils, c'est parfois un enfant malade à la maison.\n\nLe débat a mal tourné. Une quinzaine de choristes ont fait sécession et fondé leur propre petit chœur, dans une salle voisine. Pendant un an, les deux groupes se sont croisés au marché sans presque se parler. La sécession avait réglé la question des horaires, mais elle avait créé un autre problème : aucun des deux chœurs n'avait assez de voix d'hommes pour chanter les grandes œuvres.\n\nC'est un conférencier qui a aidé à sortir de l'impasse. Invité par la mairie, il parlait ce soir-là de l'histoire de la politesse. C'était un homme grand, au visage angulaire, aux gestes un peu angulaires eux aussi, comme dessinés à la règle, mais à la voix très douce. Il expliquait que les règles de la vie commune ressemblent aux règles grammaticales : on les apprend sans y penser, elles changent lentement, et une faute grammaticale n'empêche pas toujours de se comprendre. Le conférencier a parlé aussi de la libéralisation des mœurs dans les années 1960, quand beaucoup de règles anciennes ont été assouplies. Selon lui, cette libéralisation n'a pas supprimé les règles ; elle a obligé chacun à les discuter au lieu de les subir.\n\nRémi était dans la salle, et plusieurs anciens choristes aussi. En sortant, ils ont parlé longtemps sur le trottoir. Ils ont conclu qu'une règle ne doit proscrire que ce qui empêche vraiment de chanter ensemble. Le téléphone resterait permis en mode silencieux, pour les urgences ; la présence ne serait obligatoire qu'aux répétitions qui précèdent un concert.\n\nAu printemps suivant, les deux chœurs ont voté leur unification. Personne n'a parlé de victoire. Pour fêter l'unification, ils ont chanté ensemble, dans une église du quartier, une grande messe qu'aucun des deux groupes n'aurait pu chanter seul. Le conférencier était invité. À la sortie, il a dit à Rémi que la grammaire d'un groupe, comme celle d'une langue, vit aussi de ses exceptions.\n\nQuestions :\nQui est Rémi ?\nC'est le chef de chœur, un ancien ingénieur qui s'est reconverti dans la musique à quarante-cinq ans.\nQue proscrivait le nouveau règlement ?\nIl proscrivait les téléphones pendant les répétitions et rendait la présence obligatoire à quatre répétitions sur cinq.\nQue s'est-il passé après le débat ?\nUne quinzaine de choristes ont fait sécession et fondé leur propre petit chœur.\nÀ quoi le conférencier compare-t-il les règles de la vie commune ?\nIl les compare aux règles grammaticales, qu'on apprend sans y penser et qui changent lentement.\nComment les deux chœurs ont-ils fêté leur unification ?\nIls ont chanté ensemble une grande messe qu'aucun des deux groupes n'aurait pu chanter seul."
+    },
+    {
+      "title": "La terrasse de Josiane",
+      "summary": "A columnist describes how a restaurant owner on the port of Toulon keeps her business honest towards customers, staff and neighbours.",
+      "newWords": [
+        "escadre",
+        "trempe",
+        "dynamiter",
+        "import",
+        "stylé",
+        "briquet",
+        "saler",
+        "iceberg",
+        "nippon"
+      ],
+      "text": "Sur le port de Toulon, face à la rade, le restaurant de Josiane existe depuis 1987. De sa terrasse, on voit les bateaux gris de l'escadre, alignés le long des quais de la marine. Josiane dit que l'escadre est son horloge : quand les navires partent en mission, la terrasse se vide ; quand ils reviennent, les familles des marins remplissent les tables.\n\nJosiane est une femme d'une rare trempe. À soixante-dix ans, elle arrive encore la première, à 6 heures, pour recevoir le poisson. Des gens de cette trempe, dit son fils, on n'en fait plus beaucoup. Mais c'est son idée de l'honnêteté qui m'intéresse ici.\n\nPremier principe : dire d'où viennent les produits. Il y a dix ans, un grand restaurant du port a commencé à dynamiter les prix. On a découvert plus tard que le poisson était d'import, alors que la carte parlait de « pêche locale ». Josiane, elle, n'a pas voulu dynamiter ses prix. Elle écrit sur son tableau l'origine de chaque poisson. Quand elle sert un produit d'import, elle le dit, sans honte : on ne pêche pas de tout dans la rade.\n\nDeuxième principe : respecter ceux qui travaillent. Son personnel est stylé : des serveurs polis, discrets, qui connaissent la carte par cœur. Mais un serveur stylé, rappelle Josiane, reste d'abord un salarié qui a le droit de rentrer chez lui à l'heure. Elle ferme à 23 heures, même quand la terrasse est pleine.\n\nTroisième principe, plus délicat : la terrasse est à tout le monde. La loi y permet de fumer. Mais quand un client sort son briquet à côté d'une table d'enfants, Josiane lui propose une autre table, au bout de la terrasse. Personne n'est chassé, et personne n'est obligé de respirer la fumée des autres.\n\nElle a aussi ses manies. Elle refuse de trop saler les plats ; chacun peut saler son assiette comme il veut, dit-elle, mais on ne peut pas retirer le sel d'une sauce. Elle ne sert jamais de salade iceberg, qu'elle trouve sans goût, et préfère les salades d'un producteur d'Hyères. Ses couteaux sont nippons, cadeau d'un cuisinier de Kyoto venu apprendre chez elle ; elle dit que la cuisine nippone lui a appris la précision.\n\nTout cela n'est que la partie visible de l'iceberg : derrière ces petits choix, il y a une idée simple du commerce. Un restaurant n'est pas seulement un lieu où l'on vend des repas ; c'est un lieu où des inconnus vivent ensemble pendant deux heures. Josiane l'a compris depuis longtemps. Ce soir encore, quand l'escadre rentrera au port, elle allumera elle-même les bougies des tables avec le vieux briquet de son père.\n\nQuestions :\nQue voit-on de la terrasse de Josiane ?\nOn voit les bateaux gris de l'escadre, alignés le long des quais de la marine.\nQu'a fait un grand restaurant du port il y a dix ans ?\nIl a dynamité les prix, avec du poisson d'import présenté comme de la pêche locale.\nQue pense Josiane d'un serveur stylé ?\nElle pense qu'un serveur stylé reste d'abord un salarié qui a le droit de rentrer chez lui à l'heure.\nQue fait-elle quand un client sort son briquet près d'une table d'enfants ?\nElle lui propose une autre table, au bout de la terrasse.\nPourquoi refuse-t-elle de trop saler les plats ?\nParce que chacun peut saler son assiette, mais qu'on ne peut pas retirer le sel d'une sauce."
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "fr-mini-9100",
+  "rankUpTo": 9100,
+  "level": "C2",
+  "title": "Chimie et matériaux",
+  "description": "Ten short texts about chemistry and materials in everyday life, from perfume in Grasse and pear cider in Normandy to road salt in Quebec, stained glass in Romont and the notebooks of Marie Curie.",
+  "topic": "Chemistry and materials",
+  "names": [
+    "Grasse",
+    "Hélène",
+    "Avicenne",
+    "Maroc",
+    "Dadès",
+    "Louis",
+    "Europe",
+    "Gaston",
+    "Julien",
+    "Domfrontais",
+    "Normandie",
+    "Clémence",
+    "Odette",
+    "Bienne",
+    "Jura",
+    "Suisse",
+    "Atlantique",
+    "Japon",
+    "Margaux",
+    "Beaune",
+    "Bourgogne",
+    "Mathieu",
+    "Québec",
+    "Chicoutimi",
+    "Saguenay",
+    "Madeleine",
+    "Laurent",
+    "Amérique",
+    "Romont",
+    "Fribourg",
+    "Chartres",
+    "Christ",
+    "Oliviers",
+    "Liège",
+    "Belgique",
+    "Outremeuse",
+    "Charlemagne",
+    "Nadine",
+    "Roland",
+    "Tchantchès",
+    "Marie",
+    "Curie",
+    "Maria",
+    "Skłodowska",
+    "Varsovie",
+    "Pologne",
+    "Russie",
+    "Paris",
+    "Pierre",
+    "Bohême",
+    "Sorbonne",
+    "Nobel",
+    "Lille",
+    "Karim",
+    "Sophie",
+    "Marc",
+    "Nice",
+    "France",
+    "Elira",
+    "Tirana",
+    "Turing",
+    "Alan",
+    "Afrique",
+    "Saleya"
+  ],
+  "lessons": [
+    {
+      "title": "Le cuir et la rose",
+      "summary": "A journalist visits a perfumer in Grasse, a town of leather tanners that became the capital of perfume.",
+      "newWords": [
+        "parfumé",
+        "floraison",
+        "persan",
+        "berbère",
+        "aromatique",
+        "intuitif",
+        "glamour",
+        "annonceur",
+        "libertin",
+        "épater",
+        "tanner"
+      ],
+      "text": "À Grasse, on raconte volontiers que le parfum est né d'une mauvaise odeur. Il y a cinq siècles, la ville vivait du cuir. Les artisans y tannaient les peaux de chèvre au bord des ruisseaux. Tanner une peau, c'est la rendre solide et souple grâce à des substances que l'on tire de l'écorce des arbres. C'était un travail lent, et l'air de la vieille ville sentait fort. Les gants faits de ces peaux tannées gardaient leur odeur ; un artisan eut l'idée de les parfumer, et les gants parfumés de Grasse devinrent à la mode jusqu'à la cour du roi.\n\nHélène, parfumeuse depuis trente ans, me reçoit dans son laboratoire, sous les toits.\n\n« Tout commence par la floraison, dit-elle. La rose de mai ne fleurit que trois semaines par an. Pendant la floraison, on cueille les fleurs le matin, avant que la chaleur n'emporte leur parfum. Une floraison manquée, c'est une année perdue. »\n\nOn attribue souvent l'art de préparer l'eau de rose à un savant persan, Avicenne, qui vivait il y a mille ans. Les jardins persans, avec leurs bassins et leurs roses, ont longtemps fait rêver l'Europe. Aujourd'hui, une partie des roses d'Hélène vient du Maroc, de la vallée du Dadès, où des familles berbères cultivent la rose depuis des générations.\n\nHélène m'explique ensuite la chimie. Une odeur est faite de molécules légères, qui s'envolent facilement. Beaucoup appartiennent à la famille des composés aromatiques, un mot que les chimistes emploient pour une certaine structure en forme d'anneau, et non pour une bonne odeur. « Une molécule aromatique ne sent pas forcément bon, précise-t-elle en riant. Certaines sont affreuses. »\n\nLe métier, pourtant, n'est pas seulement une science. Hélène se dit intuitive. Elle connaît les formules, mais elle compose d'abord de mémoire, comme un musicien. « Un parfumeur qui n'est pas intuitif fait des parfums sans âme. »\n\nElle se méfie du glamour des publicités. À la télévision, les annonceurs vendent un parfum avec une actrice et un palais. Ce glamour coûte cher : un annonceur dépense parfois davantage pour l'image que pour le parfum lui-même.\n\nAu dix-huitième siècle, les romans libertins parlent souvent de lettres parfumées et de mouchoirs à la violette ; dans ces livres, un personnage libertin se reconnaît presque à son odeur.\n\nÀ la fin de la visite, elle me fait sentir un petit flacon sans étiquette. Je reconnais la rose, puis quelque chose de plus sombre, comme du cuir. « Je ne cherche pas à épater, dit-elle. Épater, c'est facile : il suffit de mettre trop de tout. Je cherche à raconter Grasse. » La rose et le cuir, les deux métiers de la ville, sont enfin réunis dans un même flacon.\n\nQuestions :\nPourquoi les gants de Grasse ont-ils été parfumés ?\nParce que les peaux tannées gardaient une forte odeur et qu'un artisan a eu l'idée de les parfumer.\nPourquoi la floraison de la rose de mai est-elle si importante ?\nParce que cette rose ne fleurit que trois semaines par an.\nD'où vient une partie des roses d'Hélène ?\nElle vient de la vallée du Dadès, au Maroc, où des familles berbères cultivent la rose depuis des générations.\nQue veut dire le mot « aromatique » pour un chimiste ?\nIl désigne une certaine structure en forme d'anneau, et non une bonne odeur.\nQue pense Hélène du glamour des publicités ?\nElle s'en méfie, parce que ce glamour coûte cher."
+    },
+    {
+      "title": "Le poiré des fiançailles",
+      "summary": "In the Domfrontais, an old cider maker prepares pear cider for his grandson's engagement party and explains fermentation.",
+      "newWords": [
+        "poirier",
+        "fiançailles",
+        "répit",
+        "induire",
+        "retrancher",
+        "abdominal",
+        "cidre",
+        "fructueux"
+      ],
+      "text": "Mon oncle Gaston a soixante-dix ans, et il fait du cidre depuis qu'il en a quinze. Sa ferme se trouve dans le Domfrontais, au sud de la Normandie, un pays de vergers où les poiriers sont aussi nombreux que les pommiers. Cette année, il a une raison particulière de soigner sa récolte : son petit-fils Julien et Clémence célèbrent leurs fiançailles au printemps, et Gaston veut y servir son propre poiré.\n\nLe poiré est le cousin du cidre, fait avec des poires au lieu de pommes. Les poiriers du Domfrontais sont des géants. Certains mesurent vingt mètres et vivent plus de deux cents ans. « On ne plante pas un poirier pour soi, dit mon oncle. On le plante pour ses petits-enfants. »\n\nEn octobre, nous ramassons les fruits tombés dans l'herbe. On ne les presse pas tout de suite : ils ont droit à un répit de quelques semaines au grenier, où ils deviennent plus sucrés. Ce répit compte beaucoup pour le goût. Ensuite, le travail ne connaît plus de répit : pendant trois jours, on lave, on écrase et on presse.\n\nLe jus coule dans de grandes cuves. Sur la peau des fruits vivent des levures, de minuscules champignons qui se nourrissent de sucre. Elles le transforment en alcool et en gaz, et ce gaz donne les bulles. Dans les grandes caves industrielles, on induit souvent la fermentation en ajoutant des levures choisies en laboratoire. Gaston, lui, n'induit rien : il laisse travailler les levures du verger, lentement, dans le froid de l'hiver.\n\nPour savoir où en est la fermentation, il mesure la densité du jus. Le jus sucré est plus lourd que l'eau ; à mesure que le sucre devient alcool, la densité baisse. Mon oncle note la densité du début sur un carnet, puis celle de la fin. Il retranche la seconde de la première et multiplie le résultat par un nombre qu'il connaît par cœur : il obtient ainsi le degré d'alcool.\n\nLe goût sucré du jus peut aussi induire en erreur. Le jus encore en fermentation se boit très facilement, mais la fermentation continue dans le ventre et donne de fortes douleurs abdominales. Mon oncle en prévient chaque automne les voisins qui viennent aider.\n\nEn mars, le poiré est mis en bouteilles. La fermentation s'y termine doucement et forme une mousse fine. Gaston goûte la première bouteille sous le grand poirier de la cour. Il sourit : la saison a été fructueuse.\n\nAux fiançailles, en avril, le poiré a été servi dans de vieilles bouteilles sans étiquette. Le cidre de mon oncle était là aussi, pour ceux qui préfèrent les pommes. Julien a levé son verre vers son grand-père et l'a remercié pour une collaboration fructueuse, celle d'un vieil homme et de son verger.\n\nQuestions :\nPourquoi Gaston soigne-t-il particulièrement sa récolte cette année ?\nParce que son petit-fils Julien célèbre ses fiançailles au printemps.\nPourquoi les fruits ont-ils droit à un répit au grenier ?\nParce qu'ils y deviennent plus sucrés, ce qui compte beaucoup pour le goût.\nComment Gaston obtient-il le degré d'alcool ?\nIl retranche la densité de la fin de celle du début, puis il multiplie le résultat par un nombre.\nPourquoi le jus encore en fermentation est-il dangereux ?\nParce qu'il se boit facilement, mais que la fermentation continue dans le ventre et donne des douleurs abdominales.\nQu'est-ce que Gaston n'induit pas ?\nIl n'induit pas la fermentation : il laisse travailler les levures du verger."
+    },
+    {
+      "title": "Le cristal qui bat la mesure",
+      "summary": "In Bienne, a grandmother who worked forty years in watchmaking explains how a quartz crystal keeps time.",
+      "newWords": [
+        "quartz",
+        "dériver",
+        "usuel",
+        "paquebot",
+        "synchroniser",
+        "automatisation",
+        "douzième"
+      ],
+      "text": "Ma grand-mère Odette a travaillé quarante ans dans les montres, à Bienne, au pied du Jura. Elle a commencé en 1958, à seize ans, dans un atelier où l'on montait les montres mécaniques à la main. Elle a fini en 1998 dans une usine où des machines faisaient presque tout. Entre ces deux dates, elle a vu passer ce qu'on appelle en Suisse la crise du quartz.\n\nUne montre mécanique avance grâce à un ressort et à une petite roue qui va et vient plusieurs fois par seconde. C'est une merveille, mais une merveille fragile : la chaleur, le froid ou une position inhabituelle la font dériver. Une bonne montre mécanique dérive de quelques secondes par jour. Pour un usage usuel, c'est largement suffisant ; dans la vie usuelle, personne ne compte les secondes. Pour un navire, c'est une autre histoire.\n\nAutrefois, en effet, les grands paquebots qui traversaient l'Atlantique emportaient des horloges de marine très précises, car l'officier devait connaître l'heure exacte pour savoir où se trouvait son navire. Chaque jour, à bord du paquebot, on synchronisait ces horloges grâce à un signal envoyé par la radio. Une erreur de quatre secondes suffisait à déplacer le paquebot de près de deux kilomètres sur la carte.\n\nLe quartz a changé tout cela. Le quartz est un cristal très commun, fait d'oxygène et d'un autre élément, le silicium : on en trouve dans le sable et dans le granit. Il possède une propriété étonnante. Quand on le serre, il produit une petite tension électrique ; inversement, quand on lui envoie un courant, il se met à vibrer, toujours à la même fréquence. Dans une montre à quartz, un minuscule morceau de cristal vibre 32 768 fois par seconde. Un circuit compte ces vibrations et fait avancer l'aiguille une fois par seconde. Une montre à quartz ne dérive que de quelques secondes par mois.\n\nLes premières montres à quartz bon marché sont venues du Japon, dans les années 1970. Elles étaient plus précises et bientôt beaucoup moins chères. En Suisse, des milliers d'emplois ont disparu. L'automatisation des usines a fait le reste. « On nous a dit que l'automatisation sauverait nos montres, raconte ma grand-mère. Elle les a sauvées, c'est vrai, mais avec beaucoup moins d'ouvrières. »\n\nOdette porte pourtant une montre mécanique, celle de son premier salaire. Le soir, elle la remonte et la synchronise avec l'heure de la radio. Elle m'a appris à lire le cadran comme une leçon de géométrie. Chaque heure occupe un douzième du cadran ; chaque douzième contient cinq minutes, et chaque minute, soixante secondes. « Un douzième, dit-elle, c'est la part de gâteau du temps. »\n\nJe lui ai demandé un jour si elle en voulait au quartz. Elle a secoué la tête. « Le quartz est précis. Une montre mécanique est vivante. Les deux ont leur place. »\n\nQuestions :\nPourquoi une montre mécanique dérive-t-elle ?\nParce que la chaleur, le froid ou une position inhabituelle changent sa marche.\nPourquoi les paquebots avaient-ils besoin de l'heure exacte ?\nParce que l'officier devait connaître l'heure exacte pour savoir où se trouvait son navire.\nQue se passe-t-il quand on envoie un courant dans un cristal de quartz ?\nIl se met à vibrer, toujours à la même fréquence.\nQu'est-ce que l'automatisation a changé dans les usines suisses ?\nElle a sauvé les montres, mais avec beaucoup moins d'ouvrières.\nQuelle part du cadran une heure occupe-t-elle ?\nUne heure occupe un douzième du cadran."
+    },
+    {
+      "title": "Les registres de l'hospice",
+      "summary": "In Beaune, a restorer protects the old registers of the town's hospital from acid ink and mould, and finds a print inside one of them.",
+      "newWords": [
+        "hospice",
+        "feuilleter",
+        "feuillet",
+        "morsure",
+        "incursion",
+        "opportuniste",
+        "guérilla",
+        "envahisseur",
+        "estampe"
+      ],
+      "text": "Depuis six mois, Margaux restaure les archives des Hospices de Beaune, en Bourgogne. Autrefois, un hospice était une maison où l'on accueillait les pauvres, les malades et les voyageurs. Celui de Beaune, fondé en 1443, a soigné des malades pendant plus de cinq siècles, et ses registres racontent cette longue histoire : les entrées, les repas, les médicaments, les dons des familles riches. Sans ces registres, l'hospice ne serait qu'un beau bâtiment.\n\nLe premier geste de Margaux, chaque matin, est de feuilleter un registre avec des gants de coton. Feuilleter, pour elle, c'est déjà examiner. Un feuillet qui craque, un feuillet qui jaunit, un feuillet qui se détache : chacun lui dit quelque chose de la santé du livre.\n\nLe premier ennemi est l'encre. Les anciens copistes utilisaient une encre faite de fer et d'une substance tirée de la noix de galle, une petite boule qui pousse sur les feuilles du chêne. Avec le temps, cette encre devient acide. Elle mord le papier comme l'acide mord le métal. Margaux appelle cela la morsure de l'encre : sur certains feuillets, les lettres ont percé la page, et l'on voit le jour à travers les mots. Pour arrêter la morsure, elle baigne les pages dans une solution qui neutralise l'acide, puis elle les fait sécher lentement.\n\nLe second ennemi est l'humidité. Une seule incursion de l'eau, une fuite du toit ou une cave inondée, suffit à réveiller les moisissures. Les champignons qui attaquent le papier sont des espèces opportunistes : ils attendent, invisibles, pendant des années, et profitent du moindre moment de faiblesse. Une espèce opportuniste ne s'installe jamais dans un papier sec. Après chaque incursion d'humidité, Margaux surveille donc les registres pendant des semaines.\n\nElle parle de son métier comme d'une guérilla. Il n'y a jamais de grande victoire, seulement une guérilla patiente contre des envahisseurs minuscules. Ces envahisseurs n'ont pas d'armée ; ils ont le temps. Contre eux, Margaux contrôle la température et l'air de la salle, jour après jour, et elle note tout dans un cahier.\n\nUn matin, en feuilletant un registre de 1780, elle a trouvé une estampe glissée entre deux pages. C'était une petite image de la grande salle des malades, avec ses lits rouges alignés sous le plafond de bois. L'estampe avait été faite selon une technique ancienne : l'artiste avait dessiné son image dans une couche de cire posée sur une plaque de cuivre, puis il avait laissé l'acide mordre le métal là où son trait l'avait mis à nu. On parle, là aussi, de morsure. Margaux a souri : la même chimie qui détruit ses registres avait servi à faire cette estampe.\n\nQuestions :\nQu'était autrefois un hospice ?\nC'était une maison où l'on accueillait les pauvres, les malades et les voyageurs.\nPourquoi Margaux feuillette-t-elle un registre chaque matin ?\nParce que chaque feuillet lui dit quelque chose de la santé du livre.\nQu'est-ce que la morsure de l'encre ?\nC'est l'encre devenue acide qui mord le papier, au point que les lettres percent parfois la page.\nPourquoi dit-on que les champignons du papier sont opportunistes ?\nParce qu'ils attendent pendant des années et profitent du moindre moment de faiblesse, comme une incursion d'humidité.\nQu'a trouvé Margaux dans un registre de 1780 ?\nElle a trouvé une estampe représentant la grande salle des malades."
+    },
+    {
+      "title": "Une nuit de bordée",
+      "summary": "In Chicoutimi, a road worker spreads salt and gravel through a night of heavy snow and explains why salt melts ice.",
+      "newWords": [
+        "bordée",
+        "citerne",
+        "playlist",
+        "gravier",
+        "déraper",
+        "acheminer",
+        "boréal",
+        "lièvre",
+        "cougar",
+        "corvée"
+      ],
+      "text": "Au Québec, on appelle bordée de neige une grosse chute de neige, celle qui couvre les autos en une seule nuit. Mathieu, qui conduit un camion de la ville à Chicoutimi, dans la région du Saguenay, en connaît une dizaine chaque hiver. Mardi soir, la météo en annonçait une : trente centimètres avant le matin.\n\nÀ dix heures du soir, Mathieu monte dans son camion. Derrière la cabine, une citerne contient de l'eau salée, et une grande caisse est remplie de sel. Il met sa playlist, toujours la même : de vieilles chansons québécoises qu'il connaît par cœur. Sa playlist dure six heures, exactement le temps de sa tournée.\n\nLe sel, c'est de la chimie appliquée. Quand on le répand sur la glace, il se dissout dans la mince couche d'eau qui la recouvre, et l'eau salée gèle à une température plus basse que l'eau pure. La glace fond donc, même quand il fait moins cinq. Mais au-dessous de moins quinze, le sel ne sert presque plus à rien. C'est là que la citerne devient utile : l'eau salée, déjà liquide, agit plus vite que le sel en grains. Et par grand froid, Mathieu répand du gravier. Le gravier ne fait rien fondre, mais il donne aux pneus quelque chose à mordre et empêche les autos de déraper.\n\nCe sel vient du Québec lui-même : une grande partie est tirée d'une mine des Îles-de-la-Madeleine, au milieu du golfe du Saint-Laurent, puis acheminée par bateau jusqu'aux ports du fleuve. De là, on l'achemine par camion jusqu'aux dépôts des villes.\n\nVers deux heures du matin, la neige tombe si fort que Mathieu ralentit. Dans une côte, une petite auto dérape devant lui et s'arrête dans la neige du bord. Personne n'est blessé. Mathieu répand du gravier, et l'auto repart doucement.\n\nPlus loin, la route traverse un morceau de forêt boréale, cette immense forêt de sapins qui couvre le nord du Québec. Un lièvre traverse dans la lumière des phares. En hiver, le lièvre d'Amérique devient tout blanc ; on ne le voit que lorsqu'il bouge. Le père de Mathieu prétend avoir vu un cougar dans cette forêt boréale, il y a trente ans. Personne ne l'a cru : le cougar a presque disparu de l'est du continent. Mathieu, lui, n'a jamais vu que des lièvres.\n\nÀ six heures, la tournée est finie, et Mathieu rentre chez lui. Devant sa maison, la bordée a laissé un mur de neige. Il prend sa pelle en soupirant : après une nuit sur les routes, dégager sa propre entrée, c'est la vraie corvée de l'hiver. Sa voisine, qui a quatre-vingts ans, lui fait signe par la fenêtre. Il dégage aussi son entrée à elle. Cette corvée-là, il ne s'en plaint jamais.\n\nQuestions :\nQu'est-ce qu'une bordée de neige, au Québec ?\nC'est une grosse chute de neige, celle qui couvre les autos en une seule nuit.\nPourquoi le sel fait-il fondre la glace ?\nParce que l'eau salée gèle à une température plus basse que l'eau pure.\nÀ quoi sert le gravier ?\nIl ne fait rien fondre, mais il donne aux pneus quelque chose à mordre et empêche les autos de déraper.\nD'où vient une grande partie du sel ?\nElle vient d'une mine des Îles-de-la-Madeleine.\nQuelle est la vraie corvée de l'hiver pour Mathieu ?\nC'est de dégager sa propre entrée après une nuit sur les routes."
+    },
+    {
+      "title": "Le bleu du temple",
+      "summary": "In Romont, a stained-glass restorer cleans and repairs the windows of a small church in Vaud and explains what glass is made of.",
+      "newWords": [
+        "synode",
+        "agonie",
+        "banderole",
+        "sainteté",
+        "constitutif",
+        "inouï",
+        "apparenter",
+        "lai",
+        "radieux"
+      ],
+      "text": "Je restaure des vitraux à Romont, dans le canton de Fribourg, une petite ville qui abrite un musée consacré au vitrail. Cet hiver, mon atelier a reçu douze panneaux d'un petit temple vaudois. Au printemps précédent, le Synode de l'Église réformée du canton avait voté leur restauration. Ce synode est une sorte de parlement de l'Église : il réunit des pasteurs et des fidèles, et il décide aussi du budget. Le synode avait été clair : réparer, ne rien inventer.\n\nLe vitrail principal représente l'agonie du Christ au jardin des Oliviers, la nuit qui précède sa mort. Le Christ est à genoux, seul, pendant que ses disciples dorment. Les peintres ont souvent montré cette agonie comme une scène de nuit, et celui-ci a choisi un fond d'un bleu très sombre. Au-dessus du Christ flotte une longue banderole, un ruban peint sur lequel on lit une phrase en latin. Au Moyen Âge déjà, les verriers plaçaient ces banderoles près des personnages pour faire parler les images. Autour de sa tête, un cercle d'or rappelle sa sainteté : c'est le signe traditionnel de la sainteté dans l'art chrétien.\n\nUn vitrail, avant d'être une image, est un matériau. Le verre a trois éléments constitutifs : du sable ; un fondant, autrefois de la cendre de bois, qui permet de faire fondre le sable à une température raisonnable ; et de la chaux, qui rend le verre solide. À ces éléments constitutifs, le verrier ajoute des oxydes de métal pour la couleur : le cuivre donne le rouge ou le vert, le fer donne le jaune ou le brun, et un autre métal, le cobalt, donne le bleu.\n\nLe bleu de ce temple est d'une profondeur inouïe. Il s'apparente aux bleus de la cathédrale de Chartres, bien qu'il date seulement de 1890. Je n'avais jamais vu un verre de cette époque s'apparenter autant à ceux du Moyen Âge. Le peintre avait sans doute étudié les vieux vitraux de près, avec une patience inouïe.\n\nMon travail est surtout chimique. Le temps attaque le verre : l'humidité dissout peu à peu certains de ses composants, et une fine couche blanche apparaît à la surface. Je la retire au coton, très doucement, puis je remplace les plombs fatigués qui tiennent les morceaux ensemble.\n\nDans certains monastères du Moyen Âge, ce travail revenait à des frères lais. Les frères lais étaient des religieux qui n'étaient pas prêtres ; ils s'occupaient des travaux manuels, des champs, de la cuisine et parfois des ateliers. Je pense souvent à eux, penchée sur ma table.\n\nLes panneaux sont retournés au temple en juin, par une matinée radieuse. Quand le soleil s'est levé, la lumière a traversé le bleu et s'est posée sur les bancs, radieuse et calme. La pasteure m'a dit simplement : « On dirait qu'il vient d'être fait. »\n\nQuestions :\nQu'est-ce que le Synode de l'Église réformée ?\nC'est une sorte de parlement de l'Église, qui réunit des pasteurs et des fidèles et qui décide aussi du budget.\nQue représente le vitrail principal ?\nIl représente l'agonie du Christ au jardin des Oliviers, la nuit qui précède sa mort.\nÀ quoi servaient les banderoles dans les vitraux ?\nElles portaient des phrases et faisaient parler les images.\nQuels sont les éléments constitutifs du verre ?\nCe sont le sable, un fondant comme la cendre de bois, et la chaux.\nQui étaient les frères lais ?\nC'étaient des religieux qui n'étaient pas prêtres et qui s'occupaient des travaux manuels."
+    },
+    {
+      "title": "Le vieil écuyer",
+      "summary": "In Liège, a puppeteer restores an old wooden squire and brings him back on stage in a Sunday show.",
+      "newWords": [
+        "pantin",
+        "écuyer",
+        "carcasse",
+        "étoffe",
+        "banquette",
+        "juvénile",
+        "bouffon",
+        "diversion",
+        "errer",
+        "vagabond"
+      ],
+      "text": "À Liège, en Belgique, les marionnettes font partie de la ville. Dans le quartier d'Outremeuse, un petit théâtre joue depuis un siècle les aventures des chevaliers de Charlemagne. Nadine y fait vivre les marionnettes sur scène, et elle répare aussi les plus anciennes.\n\nUne marionnette de Liège n'est pas un pantin. Un pantin est un jouet de bois dont les bras et les jambes bougent quand on tire sur un fil. La marionnette de Liège, elle, est tenue par une tige de fer fixée dans la tête, et c'est le geste de l'artiste, au-dessus de la scène, qui la fait marcher et combattre.\n\nCe mois-ci, Nadine répare un écuyer, le jeune compagnon du chevalier Roland. Dans les légendes, l'écuyer porte le bouclier et l'épée de son maître, et il soigne son cheval. Cet écuyer-là a plus de quatre-vingts ans. Sa carcasse de bois est encore saine, mais la peinture du visage se détache par endroits.\n\nLa restauration commence par la chimie. Les anciens peintres utilisaient un blanc fait avec du plomb, une couleur très couvrante mais toxique. Nadine travaille donc avec des gants et un masque, et elle ne gratte jamais ces vieilles couches. Elle les fixe avec une colle douce, puis elle complète les manques avec des couleurs modernes, sans plomb. Le vernis, lui, est devenu jaune : l'huile qu'il contient a réagi avec l'oxygène de l'air, lentement, pendant des dizaines d'années. Elle l'enlève avec un produit doux, millimètre par millimètre.\n\nVient ensuite le costume. L'étoffe d'origine, un velours rouge, est usée jusqu'à la trame. Nadine trouve au marché une étoffe ancienne de la même couleur et coud un nouveau manteau. Sur la carcasse de bois, elle ajuste aussi une petite armure de métal léger.\n\nLe dimanche, le théâtre est plein. Les enfants s'assoient sur les banquettes de bois du premier rang ; les parents restent sur les banquettes du fond. Ce public juvénile est le plus exigeant qui soit : il crie, il prévient les héros, il réclame Tchantchès. Tchantchès est le héros populaire de Liège, un petit homme au grand cœur, toujours prêt à faire une bêtise. Dans les pièces, il fait le bouffon à la cour de Charlemagne. Mais ce bouffon est loin d'être bête : quand les chevaliers sont en danger, c'est lui qui trouve la solution.\n\nCe dimanche, l'écuyer restauré joue son premier rôle depuis vingt ans. Roland est prisonnier, et Tchantchès doit faire diversion. Il erre devant le château comme un vagabond, chante faux et renverse un tonneau. Les gardes se moquent de ce vagabond et oublient la porte. Pendant qu'il continue d'errer sous les murs, l'écuyer se glisse à l'intérieur et libère son maître. Le public juvénile applaudit si fort que les banquettes tremblent.\n\nQuestions :\nQuelle est la différence entre un pantin et une marionnette de Liège ?\nUn pantin bouge quand on tire sur un fil ; la marionnette de Liège est tenue par une tige de fer.\nPourquoi Nadine travaille-t-elle avec des gants et un masque ?\nParce que les anciens peintres utilisaient un blanc fait avec du plomb, qui est toxique.\nPourquoi le vernis est-il devenu jaune ?\nParce que l'huile qu'il contient a réagi avec l'oxygène de l'air.\nOù s'assoient les enfants ?\nIls s'assoient sur les banquettes de bois du premier rang.\nComment Tchantchès fait-il diversion ?\nIl erre devant le château comme un vagabond, chante faux et renverse un tonneau."
+    },
+    {
+      "title": "Les nuits de Marie Curie",
+      "summary": "A retired chemistry teacher in Paris who cannot sleep spends her nights reading about the life and work of Marie Curie.",
+      "newWords": [
+        "insomnie",
+        "inconditionnel",
+        "naitre",
+        "éloignement",
+        "vrac",
+        "convenablement",
+        "divulguer",
+        "tremplin",
+        "atrocité",
+        "curie"
+      ],
+      "text": "Depuis que je suis à la retraite, je souffre d'insomnie. Je me réveille vers trois heures du matin et je ne retrouve plus le sommeil. Plutôt que de lutter contre cette insomnie, j'ai décidé de lui donner un emploi : je lis. Cet hiver, j'ai lu tout ce que j'ai trouvé sur Marie Curie, dont je suis, je l'avoue, une admiratrice inconditionnelle. Mes anciens élèves s'en souviennent : chaque année, je leur racontais sa vie avec une admiration inconditionnelle.\n\nMaria Skłodowska naquit à Varsovie en 1867, dans une Pologne alors dominée par la Russie. Les femmes n'y avaient pas accès à l'université. Elle partit pour Paris en 1891, à vingt-quatre ans. L'éloignement fut dur : elle vivait dans une chambre glacée et mangeait peu. Mais l'éloignement ne lui fit jamais oublier son pays. Quand elle découvrit, en 1898, avec son mari Pierre, un nouvel élément, elle l'appela polonium, en l'honneur de la Pologne.\n\nPour isoler un autre élément, le radium, il fallait traiter des tonnes de minerai. Les Curie firent venir de Bohême les restes d'un minerai d'uranium, livrés en vrac dans de grands sacs. Dans un hangar mal chauffé, Marie remuait cette matière en vrac avec une barre de fer presque aussi grande qu'elle, jour après jour.\n\nIls travaillaient sans se protéger convenablement. Personne, à l'époque, ne savait comment se protéger convenablement des rayons. Ses carnets de laboratoire sont encore radioactifs aujourd'hui ; on les conserve dans des boîtes de plomb, et ceux qui les consultent doivent porter des vêtements de protection.\n\nLes Curie refusèrent de déposer un brevet sur leur méthode pour obtenir le radium. Ils choisirent de la divulguer : ils la publièrent et l'expliquèrent à tous ceux qui la demandaient. Divulguer leur méthode, c'était renoncer à une fortune ; ils pensaient que la science appartient à tout le monde.\n\nLe prix Nobel de physique, reçu en 1903, fut un tremplin. Après la mort de Pierre, en 1906, Marie devint la première femme à enseigner à la Sorbonne, puis elle reçut un second prix Nobel, de chimie cette fois, en 1911. Chaque honneur lui servait de tremplin vers de nouveaux travaux.\n\nPendant la Première Guerre mondiale, devant les atrocités du front, elle équipa des voitures de radiologie qui allaient d'hôpital en hôpital. Les soldats les appelaient les « petites Curies ». Grâce aux rayons, les chirurgiens voyaient où se trouvaient les éclats dans le corps des blessés. Au milieu des atrocités de la guerre, la physique sauvait des vies.\n\nSon nom est resté dans le vocabulaire des sciences. Le curie est une ancienne unité de radioactivité : un curie correspond à peu près à l'activité d'un gramme de radium. On utilise aujourd'hui une autre unité, mais certains médecins parlent encore en curies.\n\nCette nuit, à trois heures, j'ai refermé le livre. Mon insomnie ne m'a pas quittée, mais elle est devenue plus douce. Après tout, Marie aussi travaillait souvent tard dans la nuit.\n\nQuestions :\nPourquoi la narratrice lit-elle la nuit ?\nParce qu'elle souffre d'insomnie.\nOù et quand Marie Curie naquit-elle ?\nElle naquit à Varsovie en 1867.\nComment les restes de minerai arrivaient-ils au laboratoire ?\nIls arrivaient de Bohême, livrés en vrac dans de grands sacs.\nPourquoi les Curie choisirent-ils de divulguer leur méthode ?\nParce qu'ils pensaient que la science appartient à tout le monde.\nQu'est-ce qu'un curie ?\nC'est une ancienne unité de radioactivité, qui correspond à peu près à l'activité d'un gramme de radium."
+    },
+    {
+      "title": "Compte rendu du lundi",
+      "summary": "In an e-mail, the coordinator of a battery laboratory in Lille sums up a meeting after a test cell swelled during charging.",
+      "newWords": [
+        "coordinateur",
+        "surcharge",
+        "incriminer",
+        "invalider",
+        "dispense",
+        "répressif",
+        "liquidité",
+        "aliéner",
+        "lillois",
+        "acter"
+      ],
+      "text": "Objet : compte rendu de la réunion du lundi 14 mars\n\nBonjour à toutes et à tous,\n\nComme chaque lundi, je vous envoie le compte rendu de notre réunion. Pour les nouveaux venus : je suis la coordinatrice du projet, et mon rôle est de résumer ce que nous avons décidé ensemble. Depuis le départ de notre ancien coordinateur, Marc, en janvier, je reprends aussi ses dossiers.\n\n1. L'incident de la cellule 12. Comme vous le savez, une de nos cellules de test a gonflé jeudi dernier pendant la charge. Personne n'a été blessé. L'analyse montre une surcharge : la cellule a reçu du courant pendant trois heures de trop. Dans une batterie au lithium, une surcharge pousse le lithium à se déposer sous forme de métal ; la cellule chauffe, le liquide qu'elle contient se décompose et produit des gaz. C'est le logiciel de contrôle qui est incriminé : une mise à jour avait changé une limite de tension. Le lot de produits d'abord incriminé est hors de cause.\n\n2. Les résultats de la série B. Toutes les cellules de cette série ont été chargées avec le même logiciel. Nous avons donc décidé d'invalider leurs résultats. Je sais que la décision est douloureuse : trois mois de mesures. Mais invalider une série douteuse coûte moins cher que publier une erreur. Nous recommencerons la série B en avril.\n\n3. La sécurité. Après cet incident, la formation à la sécurité devient obligatoire pour tout le monde, y compris pour les chercheurs les plus expérimentés. Il n'y aura aucune dispense. Plusieurs d'entre vous m'ont demandé une dispense parce qu'ils avaient suivi la formation l'an dernier ; je comprends, mais la règle doit être la même pour tous. Je tiens toutefois à le dire : notre but n'est pas d'être répressifs. Une politique répressive pousse les gens à cacher leurs erreurs, et c'est exactement ce que nous voulons éviter. Merci encore à Karim d'avoir signalé l'incident tout de suite.\n\n4. Le budget. Sophie nous a rappelé que nos liquidités sont limitées jusqu'au versement de la région, prévu en juin. Nous avons assez de liquidités pour payer les salaires et les produits, mais pas pour acheter le nouveau four. L'achat est reporté.\n\n5. Les partenaires. Une entreprise étrangère nous propose d'acheter notre brevet. Plusieurs d'entre vous craignent de nous aliéner nos partenaires lillois, qui travaillent avec nous depuis le début. Les laboratoires lillois de l'université nous ont beaucoup aidés, et personne ne souhaite se les aliéner. Aucune décision n'est prise pour l'instant.\n\nVoici donc les décisions actées ce lundi : la série B est invalidée, la formation est obligatoire pour tous et l'achat du four est reporté. Il a aussi été acté que nous reparlerons du brevet dans un mois.\n\nBonne semaine à tous,\nLa coordinatrice du projet\n\nQuestions :\nQu'est-il arrivé à la cellule 12 ?\nElle a gonflé pendant la charge, à cause d'une surcharge.\nQu'est-ce qui est incriminé dans cet incident ?\nC'est le logiciel de contrôle, parce qu'une mise à jour avait changé une limite de tension.\nPourquoi l'équipe invalide-t-elle les résultats de la série B ?\nParce que toutes les cellules de la série ont été chargées avec le même logiciel.\nPourquoi la coordinatrice ne veut-elle pas d'une politique répressive ?\nParce qu'une politique répressive pousse les gens à cacher leurs erreurs.\nPourquoi l'achat du four est-il reporté ?\nParce que les liquidités du laboratoire sont limitées jusqu'au versement de la région, en juin."
+    },
+    {
+      "title": "Les taches du léopard",
+      "summary": "In Nice, a chemistry teacher and an Albanian researcher run a workshop for children about how nature and chemistry draw patterns.",
+      "newWords": [
+        "albanais",
+        "inclusif",
+        "léopard",
+        "jaguar",
+        "modélisation",
+        "singer",
+        "bingo",
+        "pentagone",
+        "niçois"
+      ],
+      "text": "Chaque printemps, au lycée où j'enseigne la chimie, à Nice, j'organise un atelier ouvert aux enfants du quartier. Cette année, le thème était une question simple : comment la nature dessine-t-elle ses motifs ? Mon amie Elira, une chimiste albanaise qui fait de la recherche à l'université, a accepté de m'aider. Elle a grandi à Tirana et vit en France depuis dix ans ; elle a gardé un léger accent albanais, que les enfants trouvent très joli.\n\nNous voulions un atelier inclusif. Deux enfants se déplacent en fauteuil roulant, et une petite fille entend mal. Pour qu'un atelier soit vraiment inclusif, il ne suffit pas de l'annoncer : nous avons choisi une salle sans marches, écrit toutes les consignes au tableau et préparé des tables plus basses.\n\nNous avons commencé par des photos. Le léopard porte des taches en forme de petites fleurs ; le jaguar aussi, mais les taches du jaguar sont plus grandes et ont souvent un point noir au centre. Les enfants ont vite appris à reconnaître le léopard d'Afrique et le jaguar d'Amérique. Puis Elira a posé la vraie question : pourquoi des taches, et pas des bandes ?\n\nUne réponse vient d'un mathématicien anglais, Alan Turing. En 1952, il a imaginé que deux substances chimiques, en se répandant dans un tissu à des vitesses différentes, pouvaient former d'elles-mêmes des taches ou des bandes. L'une favorise la couleur, l'autre l'empêche. Sa modélisation, faite à la main, était très simple ; elle explique pourtant bien des motifs du vivant. Aujourd'hui, la modélisation se fait sur ordinateur, et Elira nous a montré sur l'écran des taches de léopard qui apparaissaient toutes seules.\n\nLa chimie peut aussi singer la nature dans un simple récipient. Elira a mélangé quelques produits dans une boîte de verre plate. Au bout de quelques minutes, des cercles bleus sont apparus et se sont étendus comme des vagues. Un garçon a crié : « Bingo ! » C'est devenu le mot de l'après-midi : à chaque nouveau cercle, un enfant criait « Bingo ! » Ces expériences ne font pas que singer le vivant ; elles aident aussi les chercheurs à comprendre comment un être vivant dessine ses formes.\n\nPour finir, nous avons parlé de la forme des molécules. Elira a sorti un ballon de football. Sa surface est faite de vingt hexagones et de douze pentagones. Une molécule de carbone, découverte en 1985, a exactement la même forme : soixante atomes, assemblés en hexagones et en pentagones. Chaque enfant a ensuite construit son propre pentagone avec des pailles.\n\nÀ seize heures, nous avons partagé un goûter niçois : de la socca, cette galette de farine de pois que l'on vend sur le marché du cours Saleya, et des tartes aux fruits. Les enfants niçois connaissaient tous la socca ; Elira, elle, la goûtait pour la première fois.\n\nQuestions :\nQui aide la narratrice pendant l'atelier ?\nSon amie Elira, une chimiste albanaise qui fait de la recherche à l'université, l'aide.\nComment les deux femmes ont-elles rendu l'atelier inclusif ?\nElles ont choisi une salle sans marches, écrit les consignes au tableau et préparé des tables plus basses.\nComment reconnaît-on les taches du jaguar ?\nElles sont plus grandes que celles du léopard et ont souvent un point noir au centre.\nQu'a imaginé Alan Turing en 1952 ?\nIl a imaginé que deux substances chimiques, en se répandant à des vitesses différentes, pouvaient former d'elles-mêmes des taches ou des bandes.\nDe quoi est faite la surface d'un ballon de football ?\nElle est faite de vingt hexagones et de douze pentagones."
+    }
+  ]
+}

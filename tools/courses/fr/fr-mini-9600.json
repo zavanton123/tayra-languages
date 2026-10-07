@@ -1,0 +1,234 @@
+{
+  "id": "fr-mini-9600",
+  "rankUpTo": 9600,
+  "level": "C2",
+  "title": "La physique au quotidien",
+  "description": "Ten stories, letters and chronicles about the physics hidden in everyday life, from whipped cream in Lyon and a baby's ears on a flight from Montreal to a Breton boatyard, an ultrasound in Dakar and fresh snow in Valais.",
+  "topic": "Everyday physics",
+  "names": [
+    "Odile",
+    "Hugo",
+    "Croix",
+    "Rousse",
+    "Lyon",
+    "Éthiopie",
+    "Mathieu",
+    "Julie",
+    "Florence",
+    "Catherine",
+    "Montréal",
+    "Paris",
+    "Mireille",
+    "Luc",
+    "Sainte",
+    "Croix",
+    "Jura",
+    "Clément",
+    "Yasmine",
+    "Forcalquier",
+    "Haute",
+    "Provence",
+    "Mars",
+    "Jupiter",
+    "Soleil",
+    "Terre",
+    "Louis",
+    "Cassini",
+    "Pascal",
+    "Greenwich",
+    "Nora",
+    "Outremeuse",
+    "Liège",
+    "Yves",
+    "Gall",
+    "Maëlle",
+    "Douarnenez",
+    "Rosmeur",
+    "Archimède",
+    "Ousmane",
+    "Diop",
+    "Cheikh",
+    "Fall",
+    "Rufisque",
+    "Dakar",
+    "Claire",
+    "Benoît",
+    "Marseille",
+    "Major",
+    "Silvain",
+    "Tenzin",
+    "Élise",
+    "Evolène",
+    "Hérens",
+    "Valais",
+    "Suisse",
+    "Lausanne",
+    "Europe",
+    "Nakaya"
+  ],
+  "lessons": [
+    {
+      "title": "La chantilly d'Odile",
+      "summary": "In Lyon, a grandmother prepares a Sunday feast with her grandson, who discovers the physics behind ground coffee, whipped cream and a biscuit dipped too long.",
+      "newWords": [
+        "festin",
+        "prélude",
+        "éthiopien",
+        "broyer",
+        "peiner",
+        "chantilly",
+        "fantaisiste",
+        "épicé",
+        "tremper",
+        "incorrect"
+      ],
+      "text": "Chaque premier dimanche de décembre, Odile prépare un festin pour toute sa famille, dans son appartement de la Croix-Rousse, à Lyon. Cette année, son petit-fils Hugo, qui a douze ans, a voulu l'aider. Il venait de commencer la physique au collège.\n\nLe festin commençait toujours par un prélude : un café servi à onze heures, pendant que le rôti cuisait au four. Odile achète un café éthiopien en grains chez un petit commerçant du quartier. « Le café éthiopien est le plus ancien de tous, dit-elle. C'est en Éthiopie qu'on a d'abord bu du café. »\n\nHugo devait broyer les grains dans le vieux moulin de son arrière-grand-père. Il peinait un peu, car le moulin résistait. « Pourquoi faut-il broyer le café ? » demanda-t-il. Odile lui expliqua que l'eau chaude ne touche que la surface des grains. Plus on broie fin, plus la surface est grande, et plus l'eau emporte d'arômes. Un grain entier ressemble à une forteresse ; une poudre fine, à une ville ouverte.\n\nVint ensuite la chantilly. Une heure à l'avance, Odile avait mis le bol et le fouet au réfrigérateur. « La crème doit être très froide, sinon tu fouetteras pendant une heure et tu n'auras jamais de chantilly. » Hugo trouva cette règle un peu fantaisiste. Pour voir, il fouetta un autre bol de crème, resté sur la table. Il peina pendant dix minutes : la crème restait liquide. Avec le bol froid, la chantilly fut ferme en trois minutes.\n\nLe soir, Hugo chercha l'explication dans un livre. La crème contient de minuscules gouttes de graisse. Au froid, elles sont en partie solides ; le fouet les abîme, et elles se collent les unes aux autres autour des bulles d'air, comme un filet. La chantilly est donc de l'air retenu par de la graisse. Si la crème est tiède, la graisse est liquide et le filet ne tient pas. La règle d'Odile n'avait rien de fantaisiste : c'était de la physique.\n\nAu dessert, Odile servit la chantilly avec des biscuits épicés, à la cannelle et au gingembre. Hugo trempa un biscuit épicé dans son café. Il le trempa trop longtemps, et la moitié tomba au fond de la tasse. Son oncle déclara que le biscuit avait fondu. « C'est incorrect, répondit Hugo. Le café monte dans les petits trous du biscuit, le sucre qui le tient se dissout, et il s'effondre. » Son oncle reconnut que sa phrase était incorrecte.\n\nQuestions :\nPar quoi le festin d'Odile commençait-il ?\nIl commençait par un prélude : un café servi à onze heures, pendant que le rôti cuisait.\nPourquoi faut-il broyer les grains de café ?\nParce que l'eau chaude ne touche que la surface des grains : plus on broie fin, plus l'eau emporte d'arômes.\nPourquoi la crème doit-elle être très froide pour faire de la chantilly ?\nParce que la graisse froide, en partie solide, forme un filet autour des bulles d'air ; tiède, elle est liquide et le filet ne tient pas.\nQu'est-il arrivé au biscuit épicé de Hugo ?\nHugo l'a trempé trop longtemps dans son café, et la moitié est tombée au fond de la tasse.\nPourquoi Hugo trouve-t-il incorrect de dire que le biscuit a fondu ?\nParce que le café monte dans les petits trous du biscuit, que le sucre se dissout et que le biscuit s'effondre."
+    },
+    {
+      "title": "Florence à dix mille mètres",
+      "summary": "A father from Quebec writes to his sister about flying to Paris with his baby daughter, and about pressure, ears and rocking.",
+      "newWords": [
+        "égaliser",
+        "intimement",
+        "téter",
+        "inné",
+        "anticorps",
+        "narine",
+        "alarmant",
+        "métabolisme",
+        "bercer",
+        "pingouin"
+      ],
+      "text": "Chère Julie,\n\nNous sommes bien arrivés à Paris, Catherine, Florence et moi. Voici le récit de notre premier vol avec un bébé de quatre mois, avec un peu de physique, bien sûr.\n\nLe problème principal, avec un bébé en avion, ce sont les oreilles. Dans un avion, la pression de l'air est réglée, mais pas complètement : à dix mille mètres d'altitude, l'air de la cabine est aussi rare qu'au sommet d'une montagne de deux mille mètres. Au fond de l'oreille, derrière une fine peau, il y a une petite poche d'air. Quand la pression change, au décollage et surtout à l'atterrissage, cette peau est poussée d'un côté, et cela fait mal. Pour égaliser la pression, un adulte avale : un petit canal s'ouvre entre l'oreille et la gorge, et l'air passe. L'oreille et la gorge sont intimement liées, bien plus intimement qu'on ne le pense.\n\nUn bébé ne sait pas avaler quand on le lui demande. En revanche, il sait téter. Le réflexe de téter est inné : personne ne l'apprend à un nouveau-né. Or, chaque fois qu'un bébé tète, il avale, et il ouvre ce petit canal. Le conseil des médecins est donc simple : faire téter le bébé pendant la descente. Catherine a donné le sein à Florence pendant les vingt dernières minutes, et Florence a égalisé la pression sans même le savoir. Le lait de sa mère lui apporte aussi des anticorps, ce qui n'est pas inutile dans un avion plein de monde. Ces anticorps sont un cadeau de la nature.\n\nIl fallait aussi que ses narines soient bien dégagées, car un nez bouché empêche l'air de circuler. J'avais donc un petit flacon d'eau salée, et j'ai nettoyé ses narines avant la descente.\n\nAu milieu du vol, Florence a pleuré pendant une demi-heure. Une dame m'a demandé si c'était alarmant. Je lui ai répondu que non, ce n'était pas alarmant : Florence avait simplement chaud. Le métabolisme d'un bébé est très rapide ; il produit beaucoup de chaleur pour un si petit corps. Nous lui avons retiré un vêtement, et j'ai commencé à la bercer.\n\nUn bras qui berce se comporte comme un pendule, et un pendule a son propre rythme, qui dépend de sa longueur et non de son poids. Le rythme qui calme les bébés est d'environ un mouvement par seconde. J'ai bercé Florence à ce rythme, avec son pingouin en peluche contre la joue, et elle s'est endormie. Le pingouin, lui, a dormi jusqu'à Paris.\n\nJe t'embrasse,\nMathieu\n\nQuestions :\nPourquoi les oreilles font-elles mal en avion ?\nParce que la pression change au décollage et à l'atterrissage, et que la fine peau du fond de l'oreille est poussée d'un côté.\nComment un adulte peut-il égaliser la pression ?\nIl avale : un petit canal s'ouvre entre l'oreille et la gorge, et l'air passe.\nPourquoi conseille-t-on de faire téter un bébé pendant la descente ?\nParce que le réflexe de téter est inné : un bébé qui tète avale, et il ouvre ainsi ce petit canal sans le savoir.\nPourquoi les pleurs de Florence n'étaient-ils pas alarmants ?\nParce qu'elle avait simplement chaud : le métabolisme d'un bébé est très rapide et produit beaucoup de chaleur.\nComment Mathieu a-t-il endormi sa fille ?\nIl l'a bercée au rythme d'un mouvement par seconde, avec son pingouin en peluche contre la joue."
+    },
+    {
+      "title": "Adieu au fioul",
+      "summary": "A couple in the Swiss Jura replace their failing oil boiler with a heat pump and learn how heat moves through an old house.",
+      "newWords": [
+        "fioul",
+        "défaillant",
+        "pérennité",
+        "prépondérant",
+        "conditionner",
+        "gaine",
+        "réalisable",
+        "liquider",
+        "attiser",
+        "dégagement"
+      ],
+      "text": "Notre maison de Sainte-Croix, dans le Jura, a été construite en 1912. Elle a connu trois générations et des hivers à moins quinze degrés. Mon mari, Luc, et moi l'avons achetée il y a vingt ans, avec sa vieille chaudière au fioul. L'automne dernier, cette chaudière est devenue défaillante, et nous avons dû réfléchir sérieusement à la pérennité de la maison.\n\nPendant des décennies, le fioul a été la solution évidente dans nos montagnes. Mais le prix du fioul n'a cessé de monter, et sa combustion pollue l'air. Notre appareil défaillant tombait en panne une semaine sur deux ; le technicien nous a conseillé de ne plus le réparer. La pérennité d'une maison, nous a-t-il dit, exige parfois de changer ce qui ne marche plus.\n\nUn ingénieur est venu faire un bilan. Sa première leçon de physique fut simple : la chaleur va toujours du chaud vers le froid. On ne garde pas la chaleur, on ralentit seulement sa fuite. Or, dans une vieille maison, le toit joue un rôle prépondérant : l'air chaud monte, et près d'un tiers de la chaleur s'en va par là. « Avant de changer de chauffage, isolez le toit, nous dit-il. L'isolation va conditionner tout le reste. » C'est elle, en effet, qui allait conditionner la taille et le prix de la nouvelle machine.\n\nIl fallait aussi entourer les tuyaux d'eau chaude de la cave d'une gaine isolante. Une simple gaine de mousse, nous expliqua-t-il, réduit presque de moitié la chaleur perdue en chemin.\n\nNous avons choisi une pompe à chaleur. La machine prend de la chaleur dans l'air extérieur, même à moins dix, et la transporte à l'intérieur, comme un réfrigérateur qui fonctionnerait à l'envers. Pour une unité d'électricité, elle rend environ trois unités de chaleur. L'ingénieur nous a assuré que c'était réalisable dans une maison de 1912, à condition que l'isolation soit faite d'abord. Ce qui semblait impossible il y a trente ans est aujourd'hui réalisable.\n\nIl restait deux mille litres de fioul dans la citerne. Nous avons dû les liquider : un voisin, qui a gardé sa chaudière, nous les a rachetés. Liquider ce dernier stock nous a fait un drôle d'effet.\n\nNous avons gardé le poêle à bois du salon. Le soir, Luc aime attiser le feu. Attiser, c'est donner de l'air au bois qui brûle : l'oxygène arrive plus vite, la combustion s'accélère, et le dégagement de chaleur devient plus fort. Ce dégagement de chaleur n'a pas changé depuis nos arrière-grands-parents ; seules nos machines ont changé.\n\nQuestions :\nPourquoi le couple a-t-il dû réfléchir à la pérennité de la maison ?\nParce que la vieille chaudière au fioul est devenue défaillante et tombait en panne une semaine sur deux.\nQuel rôle joue le toit dans une vieille maison ?\nIl joue un rôle prépondérant, car l'air chaud monte et près d'un tiers de la chaleur s'en va par le toit.\nÀ quoi sert une gaine autour des tuyaux d'eau chaude ?\nUne gaine isolante réduit presque de moitié la chaleur perdue en chemin.\nComment fonctionne une pompe à chaleur ?\nElle prend de la chaleur dans l'air extérieur et la transporte à l'intérieur, comme un réfrigérateur à l'envers.\nQue se passe-t-il quand Luc attise le feu ?\nL'oxygène arrive plus vite, la combustion s'accélère et le dégagement de chaleur devient plus fort."
+    },
+    {
+      "title": "La nuit des étoiles filantes",
+      "summary": "In Haute-Provence, an amateur astronomer shows his sceptical neighbour the August meteors and tells her about asteroids, Mars and the Paris meridian.",
+      "newWords": [
+        "scepticisme",
+        "fiasco",
+        "traînée",
+        "astéroïde",
+        "martien",
+        "lambda",
+        "mander",
+        "méridien",
+        "cosmos",
+        "dixit"
+      ],
+      "text": "Chaque année, vers le 12 août, Clément monte sur une colline près de Forcalquier, en Haute-Provence, pour regarder les étoiles filantes. Cette année, il emmena sa voisine Yasmine, qui ne cachait pas son scepticisme. « Je veux bien voir des étoiles qui tombent, dit-elle, mais je ne crois pas aux vœux. »\n\nLa première nuit fut un fiasco. Des nuages arrivèrent vers dix heures, et ils ne virent rien du tout. Yasmine rit de ce fiasco.\n\nLa deuxième nuit, le ciel était parfaitement noir. Ils s'allongèrent sur une couverture. Au bout de quelques minutes, une première traînée de lumière traversa le ciel, puis une autre. Clément expliqua que ces étoiles filantes n'étaient pas des étoiles. Ce sont des grains de poussière, souvent plus petits qu'un grain de sable, laissés par une comète. La Terre traverse ce nuage de poussière chaque mois d'août. Les grains entrent dans l'atmosphère à près de soixante kilomètres par seconde. L'air, devant eux, est comprimé si brutalement qu'il chauffe et devient lumineux : la traînée que l'on voit, c'est de l'air brûlant, et non le grain lui-même.\n\n« Et un astéroïde, c'est la même chose ? » demanda Yasmine. Pas tout à fait, répondit Clément. Un astéroïde est un rocher qui tourne autour du Soleil, parfois grand comme une ville. La plupart des astéroïdes se trouvent entre Mars et Jupiter. Il montra une petite lumière rouge au-dessus de l'horizon : c'était Mars. Yasmine demanda si l'on avait enfin trouvé des Martiens. « Pas de petits hommes verts, dit Clément en souriant, mais le sol martien garde peut-être les traces d'une eau très ancienne. »\n\nYasmine voulut savoir pourquoi un observateur lambda, sans télescope, voyait si bien ici. Clément lui parla de l'obscurité de la région : peu de villes, un air sec. L'histoire de l'astronomie française, pourtant, commence à Paris. En 1669, le roi Louis XIV manda à Paris un astronome italien, Cassini, pour diriger le nouvel observatoire de la ville. Cassini ne repartit jamais. Lui et ses descendants mesurèrent le méridien de Paris, la ligne nord-sud qui passe par l'observatoire. Pendant deux siècles, les cartes françaises prirent ce méridien pour origine, avant que celui de Greenwich ne l'emporte.\n\nVers deux heures du matin, Yasmine avait compté quarante traînées. Un citoyen lambda, ajouta Clément, peut en voir une par minute quand le ciel est pur. Elle resta longtemps silencieuse devant le cosmos. « Le silence éternel de ces espaces infinis m'effraie », murmura Clément : Pascal dixit. Yasmine répondit que le cosmos ne l'effrayait pas ; il la calmait. En rentrant, Clément nota dans son carnet : « Moins de scepticisme l'an prochain », Yasmine dixit.\n\nQuestions :\nPourquoi la première nuit fut-elle un fiasco ?\nParce que des nuages arrivèrent vers dix heures et qu'ils ne virent rien du tout.\nQu'est-ce qu'une étoile filante, selon Clément ?\nC'est un grain de poussière laissé par une comète, qui entre dans l'atmosphère et chauffe l'air devant lui ; la traînée est de l'air brûlant.\nQu'est-ce qu'un astéroïde ?\nC'est un rocher qui tourne autour du Soleil, parfois grand comme une ville, souvent entre Mars et Jupiter.\nPourquoi Louis XIV manda-t-il Cassini à Paris ?\nIl le manda pour diriger le nouvel observatoire de Paris.\nQu'est-ce que le méridien de Paris ?\nC'est la ligne nord-sud qui passe par l'observatoire de Paris, que les cartes françaises prenaient autrefois pour origine."
+    },
+    {
+      "title": "Le centre de gravité",
+      "summary": "A boxing coach in Liège teaches a small, determined girl how balance, speed and pressure matter more than weight.",
+      "newWords": [
+        "samouraï",
+        "dérision",
+        "boxer",
+        "déséquilibré",
+        "infériorité",
+        "suprématie",
+        "barrette",
+        "poignard",
+        "indemne",
+        "obéissance"
+      ],
+      "text": "Depuis vingt ans, j'entraîne des jeunes dans une petite salle de boxe du quartier d'Outremeuse, à Liège. Au-dessus du ring, j'ai accroché une vieille affiche qui représente un samouraï, immobile, les pieds bien plantés dans le sol. Ce samouraï savait déjà ce que j'apprends aux jeunes : on ne frappe pas avec le bras, on frappe avec le sol.\n\nEn septembre, Nora est arrivée. Elle avait quinze ans, elle était petite et mince, et certains garçons l'ont accueillie avec dérision. Nora voulait boxer, et elle voulait surtout leur prouver qu'elle pouvait boxer aussi bien qu'eux.\n\nLa première leçon portait sur l'équilibre. Un corps tient debout tant que son centre de gravité, ce point où l'on peut imaginer tout son poids, reste au-dessus de ses pieds. Si les pieds sont serrés, la moindre poussée suffit : le boxeur est déséquilibré. Si les pieds sont écartés, à la largeur des épaules, il résiste. Quand un garçon plus lourd l'a poussée, elle n'a pas bougé ; c'est lui qui s'est retrouvé déséquilibré.\n\nJe lui ai expliqué ensuite que son infériorité de poids n'était pas une fatalité. La force d'un coup dépend de la masse, mais aussi de la vitesse. Nora n'a pas la masse ; elle peut avoir la vitesse. Et la force d'un bon coup naît dans les jambes, passe par les hanches qui tournent, puis par l'épaule ; le bras ne fait que la transmettre. Une infériorité de poids se compense par la technique. Dans ma salle, la technique a toujours eu la suprématie sur la force brute, et c'est une suprématie que la physique justifie.\n\nAvant chaque séance, Nora retirait ses barrettes. Une barrette de métal, sous un casque, peut blesser la tête lors d'un choc ; je ne laisse passer aucune barrette sur le ring.\n\nLes gants aussi sont une leçon de physique. Une même force fait plus de mal sur une petite surface que sur une grande : c'est ce qu'on appelle la pression. Un poignard concentre toute la force sur une pointe minuscule ; c'est pourquoi un poignard perce la peau si facilement. Le gant fait l'inverse : il répartit la force sur une large surface. C'est grâce à lui que mes boxeurs sortent indemnes de la plupart des combats d'entraînement.\n\nJe ne demande pas à mes élèves une obéissance aveugle. Je leur demande seulement l'obéissance aux lois de la physique, qui ne se discutent pas. En juin, Nora a disputé son premier combat. Elle a perdu aux points, mais elle est sortie du ring indemne et fière, et plus personne, dans la salle, n'a parlé d'elle avec dérision.\n\nQuestions :\nPourquoi l'entraîneur a-t-il accroché l'affiche d'un samouraï ?\nParce que le samouraï savait déjà qu'on ne frappe pas avec le bras, mais avec le sol.\nComment certains garçons ont-ils accueilli Nora ?\nIls l'ont accueillie avec dérision, parce qu'elle était petite et mince.\nQuand un boxeur est-il déséquilibré ?\nQuand ses pieds sont serrés et que son centre de gravité ne reste plus au-dessus d'eux.\nComment Nora peut-elle compenser son infériorité de poids ?\nPar la technique et la vitesse, avec une force qui naît dans les jambes et passe par les hanches.\nPourquoi les boxeurs sortent-ils indemnes de la plupart des combats d'entraînement ?\nParce que le gant répartit la force sur une large surface, alors qu'un poignard la concentre sur une pointe."
+    },
+    {
+      "title": "Le chantier du Rosmeur",
+      "summary": "In Douarnenez, a young engineer reopens her grandfather's boatyard, and the old man explains buoyancy, hull paint and sail power.",
+      "newWords": [
+        "réouverture",
+        "autobiographie",
+        "tin",
+        "étayer",
+        "revêtu",
+        "propulsion",
+        "offshore",
+        "pal",
+        "taverne"
+      ],
+      "text": "Au port du Rosmeur, à Douarnenez, le chantier naval d'Yves Le Gall était resté fermé pendant deux ans. Au printemps, sa petite-fille Maëlle en annonça la réouverture. Elle avait trente ans, elle était ingénieure, et elle voulait réparer les vieux bateaux de bois de la baie. Yves, qui en avait quatre-vingts, venait l'aider presque chaque matin. Le reste du temps, il écrivait son autobiographie, un gros cahier où il racontait soixante ans de métier.\n\nLe premier bateau de la réouverture fut un vieux bateau de pêche de quinze mètres. On le sortit de l'eau à marée haute, puis on le posa sur des tins, ces gros blocs de bois sur lesquels repose la quille. « Un bateau sur ses tins, c'est un poisson hors de l'eau, dit Yves. Il faut l'étayer tout de suite. »\n\nMaëlle expliqua pourquoi à un jeune apprenti. Dans l'eau, un bateau ne tombe jamais sur le côté : l'eau le pousse vers le haut, de toutes parts à la fois, avec une force égale au poids de l'eau qu'il déplace. C'est le principe d'Archimède. Hors de l'eau, cette poussée disparaît, et la coque, posée sur sa seule quille et sur les tins, basculerait. Il fallait donc l'étayer des deux côtés avec de longues pièces de bois, avant de toucher à quoi que ce soit.\n\nLa coque était revêtue d'une peinture rouge, usée par le sel. Maëlle décida que la coque serait revêtue d'une peinture neuve, plus lisse : moins une coque frotte contre l'eau, plus elle avance facilement.\n\nAutrefois, la propulsion de ce bateau se faisait à la voile. Yves expliqua que la voile n'est pas seulement poussée par le vent. Quand le vent vient de côté, elle fonctionne comme une aile d'avion : l'air va plus vite d'un côté que de l'autre, et cette différence crée une force qui tire le bateau en avant. Maëlle rêvait de rendre au vieux bateau sa propulsion à la voile.\n\nAu large, on voyait les premières éoliennes d'un parc offshore. Yves s'en méfiait au début ; puis il remarqua que ces éoliennes offshore faisaient exactement ce que faisaient ses voiles : elles prenaient la force du vent en mer.\n\nDans la vase du port dépassaient encore de vieux pals, plantés là par les pêcheurs il y a un siècle pour attacher leurs barques. Maëlle voulait les arracher. Yves refusa : ces pals faisaient partie du port, comme les rides font partie d'un visage.\n\nLe soir, ils allaient à la taverne du port, une vieille taverne aux murs de bois où les marins se retrouvent depuis 1900. Yves y lisait à Maëlle quelques pages de son autobiographie. Le dernier chapitre, disait-il, parlerait de la réouverture du chantier.\n\nQuestions :\nQui a annoncé la réouverture du chantier ?\nMaëlle, la petite-fille d'Yves, qui est ingénieure, en a annoncé la réouverture.\nQu'est-ce qu'un tin ?\nC'est un gros bloc de bois sur lequel repose la quille d'un bateau sorti de l'eau.\nPourquoi faut-il étayer un bateau hors de l'eau ?\nParce que la poussée de l'eau disparaît et que la coque, posée sur sa seule quille, basculerait.\nPourquoi Maëlle veut-elle une peinture plus lisse ?\nParce que moins une coque frotte contre l'eau, plus elle avance facilement.\nQuel point commun Yves voit-il entre les voiles et les éoliennes offshore ?\nLes unes comme les autres prennent la force du vent en mer."
+    },
+    {
+      "title": "L'écho du galop",
+      "summary": "In Senegal, a retired teacher worried about a prostate ultrasound is reassured by his grandson, a physics student, and by a patient doctor.",
+      "newWords": [
+        "prostate",
+        "galop",
+        "alcoolisme",
+        "offense",
+        "pathologique",
+        "démasquer",
+        "potassium",
+        "légitimement"
+      ],
+      "text": "Ousmane Diop a soixante-douze ans. Il a été instituteur à Rufisque, près de Dakar, pendant quarante ans, et il n'aime pas les hôpitaux. Quand son médecin lui demanda de faire une échographie de la prostate, il s'inquiéta beaucoup. Son petit-fils Cheikh, étudiant en physique à l'université de Dakar, proposa de l'accompagner.\n\nDans la salle d'attente, Ousmane avoua sa peur. « Ils vont regarder à l'intérieur de moi avec quoi ? Avec des rayons ? » Cheikh lui expliqua que l'échographie n'utilise aucun rayon : seulement du son.\n\n« Tu te souviens, grand-père, des charrettes qui passaient au galop devant ton école ? Quand un cheval passait au galop dans la rue étroite, on entendait chaque coup de sabot deux fois : d'abord tout de suite, puis renvoyé par le mur d'en face. C'est un écho. L'échographie, c'est la même chose, avec un son beaucoup trop aigu pour nos oreilles. » L'appareil envoie ce son dans le corps ; chaque organe en renvoie une partie, et l'ordinateur mesure le temps de chaque écho pour dessiner une image.\n\nLe docteur Fall les reçut. Avant l'examen, il posa quelques questions habituelles : le tabac, l'alcool, les maladies dans la famille. Il demanda s'il y avait eu des cas d'alcoolisme. Ousmane, qui n'a jamais bu une goutte d'alcool de sa vie, prit la question comme une offense. « Ce n'est pas une offense, monsieur Diop, dit le médecin. Je pose la même question à tout le monde. L'alcoolisme est une maladie, et elle peut toucher toutes les familles. »\n\nLe docteur Fall mit ensuite un gel froid sur la peau. « Il faut chasser l'air, expliqua-t-il, car le son passe très mal de l'air à la peau. » Le médecin mesura la prostate. Elle était un peu grosse, ce qui est très fréquent à son âge, mais rien n'avait l'air pathologique. « Une prostate qui grossit avec l'âge, ce n'est pas pathologique en soi, dit-il. On la surveillera, c'est tout. » Il ajouta que l'échographie sert justement à démasquer ce qu'on ne voit pas de l'extérieur. Démasquer une maladie tôt, c'est souvent la soigner facilement.\n\nIl remit aussi à Ousmane les résultats de sa prise de sang. Le potassium était normal. Dans le bus du retour, Cheikh expliqua que le potassium aide à transmettre de petits courants électriques dans les nerfs et dans le cœur.\n\nOusmane s'était légitimement inquiété : à son âge, on a le droit de s'inquiéter. Mais ce soir-là, il pouvait tout aussi légitimement se sentir rassuré.\n\nQuestions :\nPourquoi Ousmane avait-il peur de l'échographie ?\nParce qu'il n'aime pas les hôpitaux et qu'il croyait qu'on allait regarder à l'intérieur de lui avec des rayons.\nComment Cheikh explique-t-il l'échographie à son grand-père ?\nIl parle de l'écho des sabots d'un cheval au galop dans une rue étroite : l'échographie utilise un écho, avec un son trop aigu pour nos oreilles.\nPourquoi Ousmane prend-il une question du médecin comme une offense ?\nParce que le médecin demande s'il y a eu des cas d'alcoolisme, alors qu'Ousmane n'a jamais bu d'alcool.\nPourquoi le médecin met-il un gel sur la peau ?\nPour chasser l'air, car le son passe très mal de l'air à la peau.\nQue montre l'examen de la prostate ?\nLa prostate est un peu grosse, mais rien n'a l'air pathologique ; on la surveillera."
+    },
+    {
+      "title": "Deux mois derrière la porte",
+      "summary": "A Paris physics teacher looks back on the first lockdown: droplets and aerosols, soap, the peephole of her elderly neighbour and the need for company.",
+      "newWords": [
+        "confinement",
+        "coronavirus",
+        "réquisition",
+        "afflux",
+        "extermination",
+        "microbe",
+        "discréditer",
+        "égoïsme",
+        "judas",
+        "thérapeute",
+        "relationnel"
+      ],
+      "text": "Au printemps 2020, pendant le premier confinement, j'enseignais la physique à des lycéens que je ne voyais plus que sur un écran. Je vivais seule dans un petit appartement parisien. Ce confinement m'a appris quelques leçons de physique.\n\nLe coronavirus se transmet surtout par l'air. Quand nous parlons, nous projetons de petites gouttes de toutes les tailles. Les plus grosses tombent vite, en une ou deux secondes, à moins de deux mètres. Les plus fines, qu'on appelle aérosols, sont si légères que la résistance de l'air les retient : elles flottent pendant des minutes, comme de la fumée. Voilà pourquoi il fallait ouvrir les fenêtres.\n\nDès la première semaine, l'État ordonna la réquisition des masques : les stocks furent réservés aux hôpitaux, qui faisaient face à un afflux de malades. Devant un tel afflux, cette réquisition protégeait d'abord les soignants.\n\nÀ mes élèves, j'ai expliqué pourquoi le savon est si efficace contre le coronavirus. Ce virus est entouré d'une fine enveloppe de graisse. Une molécule de savon a une tête qui aime l'eau et une queue qui aime la graisse ; des milliers de ces molécules entrent dans l'enveloppe et la déchirent. Les publicités parlent volontiers d'extermination des microbes. Le savon ne fait pas une extermination : il démonte le virus, puis l'eau l'emporte. D'ailleurs, la plupart des microbes de notre peau nous sont utiles.\n\nDes rumeurs ont essayé de discréditer les masques, puis les scientifiques eux-mêmes. Mais on ne peut pas discréditer la chute d'une goutte. Je n'ai jamais pensé que refuser le masque était toujours de l'égoïsme ; c'était souvent de la fatigue. Pourtant, le masque protège d'abord les autres, et c'est pourquoi le porter est le contraire de l'égoïsme.\n\nMa voisine, Mme Benoît, qui a quatre-vingt-cinq ans, ne sortait plus. Je faisais ses courses. Je sonnais, je posais le sac devant sa porte et je reculais de deux mètres. Elle me regardait par le judas avant d'ouvrir. Un judas contient une petite lentille très courbée : elle rassemble toute la largeur du couloir dans un petit cercle. Celui qui regarde de l'intérieur voit tout le palier, tandis que celui qui est dehors ne voit rien. « Dans le judas, me dit-elle un jour, vous avez l'air d'un poisson dans un bocal. »\n\nMa sœur, qui est thérapeute, recevait ses patients par vidéo. Elle m'a dit que le confinement avait mis à l'épreuve la vie relationnelle de tout le monde. Selon elle, le besoin relationnel est aussi réel que la faim. Pour Mme Benoît, le judas a été pendant deux mois une fenêtre sur le monde.\n\nQuestions :\nQuelle est la différence entre les grosses gouttes et les aérosols ?\nLes grosses gouttes tombent en une ou deux secondes ; les aérosols, très légers, flottent dans l'air pendant des minutes.\nPourquoi l'État a-t-il ordonné la réquisition des masques ?\nPour les réserver aux hôpitaux, qui faisaient face à un afflux de malades.\nComment le savon agit-il sur le virus ?\nSes molécules entrent dans l'enveloppe de graisse du virus et la déchirent, puis l'eau l'emporte.\nPourquoi celui qui regarde par le judas voit-il tout le palier ?\nParce que la petite lentille très courbée rassemble toute la largeur du couloir dans un petit cercle.\nQu'a remarqué la sœur de la narratrice, qui est thérapeute ?\nElle a remarqué que le confinement avait mis à l'épreuve la vie relationnelle de tout le monde."
+    },
+    {
+      "title": "La ville qui ne refroidit pas",
+      "summary": "A Marseille chronicle explains why the city stays hot at night, from dark asphalt and warm stone steps to air conditioning and trees.",
+      "newWords": [
+        "matraque",
+        "urbanisation",
+        "parvis",
+        "esplanade",
+        "gradin",
+        "allégorie",
+        "climatisation",
+        "impérialisme"
+      ],
+      "text": "À Marseille, on dit qu'en juillet le soleil tombe sur la ville comme un coup de matraque. L'image est juste, mais elle est incomplète. Ce n'est pas seulement le soleil qui frappe : c'est la ville elle-même qui chauffe, et elle continue de frapper bien après le coucher du soleil : la matraque ne s'arrête pas avec le jour. Les physiciens parlent d'« îlot de chaleur urbain ». Par une nuit d'été, le centre de Marseille peut être plus chaud de cinq degrés que les collines voisines.\n\nL'urbanisation en est la cause principale. En un siècle, l'urbanisation a remplacé les champs, les jardins et les ruisseaux par du béton et de l'asphalte. Or ces matériaux se comportent comme des radiateurs. Une surface sombre absorbe presque toute la lumière qu'elle reçoit ; une surface claire en renvoie une partie. La nuit, ces matériaux rendent la chaleur stockée pendant la journée, et la ville ne se refroidit jamais vraiment.\n\nLe parvis de la cathédrale de la Major en donne un bon exemple. À midi, ce vaste parvis de dalles claires éblouit les touristes ; à minuit, il est encore tiède sous la main. Un peu plus loin, l'esplanade qui longe la mer se comporte autrement : le vent marin y passe librement, et l'esplanade devient fraîche dès que le soleil descend.\n\nAu théâtre Silvain, un théâtre en plein air construit sur la colline, les spectateurs s'assoient sur des gradins de béton. À neuf heures du soir, ils sentent la chaleur monter sous eux : les gradins ont gardé tout le soleil de l'après-midi.\n\nSur une place du centre, une grande statue de bronze représente une allégorie de la Liberté. Le bronze sombre absorbe la lumière, et l'été, personne n'ose toucher l'allégorie avant le soir.\n\nLa réponse la plus courante à la chaleur est la climatisation. Mais la climatisation ne détruit pas la chaleur : elle la déplace. Elle la prend dans la pièce et la rejette dans la rue, en y ajoutant la chaleur de son propre moteur. Plus une rue compte d'appareils de climatisation, plus elle chauffe.\n\nUn urbaniste que j'ai rencontré parle de « l'impérialisme de la voiture » : pendant cinquante ans, la voiture a imposé sa loi à la ville, avec ses routes et ses parkings d'asphalte. Sortir de cet impérialisme, selon lui, c'est d'abord rendre de la place aux arbres. Un arbre est un excellent climatiseur naturel : il fait de l'ombre, et il évapore de l'eau par ses feuilles. Or l'évaporation consomme de la chaleur ; c'est le même phénomène qui nous rafraîchit quand nous transpirons.\n\nQuestions :\nPourquoi le centre de Marseille est-il plus chaud la nuit que les collines voisines ?\nParce que le béton et l'asphalte stockent la chaleur pendant la journée et la rendent la nuit.\nQuelle est la cause principale de l'îlot de chaleur urbain ?\nC'est l'urbanisation, qui a remplacé les champs, les jardins et les ruisseaux par du béton et de l'asphalte.\nPourquoi l'esplanade qui longe la mer devient-elle fraîche le soir ?\nParce que le vent marin y passe librement.\nPourquoi les spectateurs du théâtre Silvain sentent-ils la chaleur monter sous eux ?\nParce que les gradins de béton ont gardé tout le soleil de l'après-midi.\nPourquoi la climatisation peut-elle réchauffer une rue ?\nParce qu'elle rejette la chaleur de la pièce dans la rue et y ajoute la chaleur de son propre moteur."
+    },
+    {
+      "title": "La neige du val d'Hérens",
+      "summary": "In Valais, a mountain guide from a Tibetan family takes a client snowshoeing and explains glare, the eye's lens and the shape of snow crystals.",
+      "newWords": [
+        "tibétain",
+        "virginité",
+        "cristallin",
+        "étymologie",
+        "monographie",
+        "collet",
+        "existentiel"
+      ],
+      "text": "Tenzin est guide de montagne à Evolène, dans le val d'Hérens, en Valais. Ses parents sont arrivés en Suisse au début des années 1960, parmi les premiers réfugiés tibétains accueillis par le pays. Aujourd'hui, la communauté tibétaine de Suisse est l'une des plus grandes d'Europe. Tenzin parle le français, l'allemand et le tibétain de sa mère, et il connaît les montagnes du Valais mieux que personne.\n\nUn matin de février, après deux jours de chute de neige, il emmena Élise, une cliente de Lausanne, faire une longue marche en raquettes. Le ciel était parfaitement bleu, l'air cristallin, et la neige fraîche gardait toute sa virginité : aucune trace, ni de ski ni d'animal. Élise hésitait à marcher dessus, comme si l'on pouvait abîmer la virginité d'un paysage.\n\nAvant de partir, Tenzin vérifia ses lunettes de soleil. « En montagne, la lumière attaque deux fois, dit-il : une fois d'en haut, une fois d'en bas. » La neige fraîche renvoie presque toute la lumière qu'elle reçoit, alors que l'herbe n'en renvoie qu'une petite partie. Et plus on monte, moins il y a d'air pour arrêter les rayons ultraviolets. Sans protection, les yeux peuvent être brûlés en quelques heures. Le cristallin, cette petite lentille transparente derrière la pupille, arrête une partie de ces rayons ; mais à force, il peut devenir opaque, et la vue se trouble. Protéger son cristallin, c'est protéger ses yeux pour la vieillesse.\n\nÀ midi, ils s'arrêtèrent pour regarder les flocons sur la manche noire d'Élise. Chaque flocon avait six branches. Tenzin expliqua que les molécules d'eau, en gelant, s'assemblent en petits hexagones, et que cette forme se retrouve dans tout le flocon. Il aimait aussi l'étymologie du mot cristal : il vient d'un mot grec qui désignait la glace. Les Grecs croyaient que le cristal de roche était de la glace devenue dure pour toujours.\n\nAu sommet, Élise resta longtemps silencieuse devant le paysage immense. « C'est un peu existentiel, tout ce blanc », dit-elle. Tenzin sourit : sa mère disait que la montagne pose toujours des questions existentielles, mais qu'elle n'y répond jamais.\n\nSur le chemin du retour, près d'un bois de mélèzes, Tenzin s'arrêta. Un fil de métal formait une boucle au ras de la neige : un collet, le piège d'un braconnier pour les lièvres. Ce genre de piège est interdit. Tenzin défit le collet et le mit dans son sac pour le remettre au garde-chasse.\n\nLe soir, au chalet, il montra à Élise une vieille monographie consacrée aux cristaux de neige, écrite par un savant japonais, Nakaya, dans les années 1950. Dans cette monographie, on apprend que la forme d'un flocon dépend de la température et de l'humidité de l'air où il se forme.\n\nQuestions :\nD'où vient la famille de Tenzin ?\nSes parents sont des réfugiés tibétains arrivés en Suisse au début des années 1960.\nPourquoi la lumière attaque-t-elle deux fois en montagne ?\nParce qu'elle vient du ciel et qu'elle est aussi renvoyée par la neige fraîche.\nQu'est-ce que le cristallin ?\nC'est la petite lentille transparente derrière la pupille, qui arrête une partie des rayons ultraviolets.\nQuelle est l'étymologie du mot cristal ?\nIl vient d'un mot grec qui désignait la glace.\nQu'est-ce que Tenzin a trouvé près du bois de mélèzes ?\nIl a trouvé un collet, le piège d'un braconnier pour les lièvres, et il l'a défait."
+    }
+  ]
+}

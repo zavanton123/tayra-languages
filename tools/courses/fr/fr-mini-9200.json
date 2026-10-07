@@ -1,0 +1,233 @@
+{
+  "id": "fr-mini-9200",
+  "rankUpTo": 9200,
+  "level": "C2",
+  "title": "Cartes et orientation",
+  "description": "Ten stories and short texts about maps and finding the way, from a wine-map reprint in Dijon and a foggy volcano in Guadeloupe to satirical maps in Brussels, a silk escape map in Caen and a hand-drawn bakery map in Lausanne.",
+  "topic": "Maps and finding the way",
+  "names": [
+    "Dijon",
+    "Étienne",
+    "Morel",
+    "France",
+    "Bourgogne",
+    "Agnès",
+    "Beaune",
+    "Soufrière",
+    "Guadeloupe",
+    "Nadège",
+    "Malik",
+    "Paris",
+    "Spa",
+    "Liège",
+    "Europe",
+    "Pouhon",
+    "Russie",
+    "Josée",
+    "Tremblay",
+    "Sherbrooke",
+    "Québec",
+    "Haïti",
+    "Félix",
+    "Rosalie",
+    "Hugo",
+    "Grâce",
+    "Ndoumba",
+    "Strasbourg",
+    "Bangui",
+    "Canada",
+    "Cameroun",
+    "Lobaye",
+    "Sylvain",
+    "Mathilde",
+    "Albert",
+    "Bruxelles",
+    "Belgique",
+    "Atlantique",
+    "Congo",
+    "Léopold",
+    "Lausanne",
+    "Gérard",
+    "Mercator",
+    "Afrique",
+    "Caen",
+    "André",
+    "Odette",
+    "Juliette",
+    "Espagne",
+    "Angleterre",
+    "Eure",
+    "Évreux",
+    "Gaëlle",
+    "Yannick",
+    "Malo",
+    "Bretagne",
+    "Mariam",
+    "Dakar",
+    "Gilles"
+  ],
+  "lessons": [
+    {
+      "title": "Six lés pour une carte",
+      "summary": "In Dijon, an old engraver prepares a faithful new edition of an 1861 wine map of the Côte-d'Or, printed in six strips.",
+      "newWords": [
+        "réédition",
+        "graver",
+        "lé",
+        "blason",
+        "délimiter",
+        "minutieux",
+        "remplissage",
+        "amiante",
+        "viticole",
+        "couronnement"
+      ],
+      "text": "Dans un ancien atelier de reliure, au fond d'une cour de Dijon, Étienne Morel prépare depuis deux ans la réédition d'une carte que tous les vignerons de la région connaissent. Elle a été publiée en 1861 et représente, village par village, les vignes de la Côte-d'Or. C'est une carte viticole, peut-être la plus belle carte viticole de France, et l'éditeur qui a commandé cette réédition veut qu'elle soit fidèle à l'original jusque dans ses défauts.\n\nAvant de commencer, il a fallu remettre l'atelier en état. Les plafonds, posés dans les années 1960, contenaient de l'amiante. Pendant trois semaines, des ouvriers en combinaison blanche ont retiré l'amiante plaque par plaque.\n\nL'original de 1861 n'a pas été imprimé d'un seul tenant. Il se compose de six lés, de longues bandes de papier d'environ un mètre de haut, que l'on collait côte à côte sur une toile. Chaque lé montre quelques villages ; mis ensemble, les six lés forment une carte de près de trois mètres. Étienne a décidé de garder ce découpage : la réédition sera, elle aussi, livrée en six lés.\n\nAu 19e siècle, on gravait les cartes sur des plaques de cuivre, à l'envers, avec un outil d'acier très fin. Étienne sait encore graver de cette manière, et il est l'un des derniers en France. Pour cette réédition, les fonds sont reproduits par photographie, mais il a voulu graver lui-même les noms des villages et les petits traits qui délimitent les parcelles. En Bourgogne, ces parcelles s'appellent des « climats », et chacune porte un nom, parfois depuis le Moyen Âge. Délimiter un climat, c'est tracer une frontière que les vignerons respectent depuis des siècles : une erreur d'un millimètre déplacerait un mur.\n\nLe travail est minutieux. Étienne passe une loupe sur chaque ligne de l'original, compare, mesure, recommence. Sa collègue Agnès, plus minutieuse encore, s'occupe du remplissage des couleurs. Chaque catégorie de vin avait sa teinte, et le remplissage se faisait autrefois au pinceau. Agnès reproduit ces teintes une à une, sans les rendre plus vives qu'elles ne sont.\n\nAux quatre coins de la carte se trouvent des blasons : le blason de Dijon, celui de Beaune et ceux de deux grandes familles qui possédaient des vignes. Étienne a vérifié chaque couleur de ces blasons dans de vieux livres.\n\nÉtienne a soixante-huit ans. Il dit en souriant que cette réédition sera le couronnement de sa carrière. Pour lui, le vrai couronnement ne sera pas le jour de la publication, mais le jour où un vigneron dépliera les six lés sur une table et y retrouvera, sans hésiter, le nom de sa parcelle.\n\nQuestions :\nQu'est-ce qu'Étienne Morel prépare à Dijon ?\nIl prépare la réédition d'une carte viticole de la Côte-d'Or publiée en 1861.\nPourquoi a-t-il fallu attendre avant de commencer ?\nParce que les plafonds de l'atelier contenaient de l'amiante et qu'il a fallu le retirer.\nQu'est-ce qu'un lé ?\nC'est une longue bande de papier ; la carte originale se compose de six lés collés côte à côte.\nQue grave Étienne lui-même ?\nIl grave les noms des villages et les traits qui délimitent les parcelles.\nDe quoi s'occupe Agnès ?\nAgnès, très minutieuse, s'occupe du remplissage des couleurs.\nQuel sera, pour Étienne, le vrai couronnement de sa carrière ?\nCe sera le jour où un vigneron retrouvera sans hésiter le nom de sa parcelle sur la carte."
+    },
+    {
+      "title": "Dans le brouillard de la Soufrière",
+      "summary": "A geography teacher in Guadeloupe takes her brother up the Soufrière volcano with a paper map and a compass, and brings him safely down through the fog.",
+      "newWords": [
+        "cratère",
+        "soufre",
+        "bouffée",
+        "intempérie",
+        "tenace",
+        "déviation",
+        "épineux",
+        "punch",
+        "rabattre"
+      ],
+      "text": "Le volcan de la Soufrière, en Guadeloupe, s'élève à près de 1 500 mètres. Les habitants de l'île l'appellent « la Vieille Dame ». Un samedi de mars, Nadège, professeure de géographie à Basse-Terre, décide d'y monter avec son frère Malik, qui vit à Paris et ne connaît le volcan que par les photos.\n\nLa veille, Nadège étale sur la table de la cuisine la carte de randonnée. Le sentier principal part d'un parking, traverse la forêt, puis grimpe en lacets jusqu'au sommet. Mais une ligne rouge, tracée au crayon par un garde du parc, signale une déviation : après les intempéries de l'hiver, une partie de l'ancien chemin s'est effondrée. Il faut suivre la déviation, plus longue d'une demi-heure, par le flanc est. Ici, les intempéries changent la montagne chaque année.\n\nLe lendemain, ils partent à 6 heures. Dans la forêt, l'air est humide et tiède. La déviation est bien marquée, mais étroite, et des buissons épineux bordent le sentier. Malik, en short, se griffe les jambes ; sa sœur lui avait pourtant conseillé un pantalon. Plus haut, les arbres disparaissent. Il ne reste que des mousses, des herbes basses et quelques plantes épineuses qui résistent au vent.\n\nPrès du sommet, une odeur étrange arrive par bouffées. C'est le soufre. Le volcan dort, mais il respire : de la vapeur sort du sol, et chaque bouffée sent l'œuf pourri. Sur les roches, le soufre dessine des taches jaunes. « Le nom du volcan vient du soufre », explique Nadège.\n\nLe cratère principal ressemble à une grande fente dans la roche. Il est interdit de s'en approcher, car les gaz qui sortent du cratère sont dangereux. Sur la carte, Nadège montre à son frère les autres cratères, plus petits, alignés le long d'une fracture.\n\nSoudain, le brouillard monte. Ici, il est tenace : il peut couvrir le sommet pendant des heures. Le vent rabat les nuages contre la montagne, et en quelques minutes on ne voit plus à dix mètres. Nadège ne s'inquiète pas. Elle sort la carte et la boussole, repère le sentier de descente et avance de poteau en poteau. Malik, qui comptait sur son téléphone, découvre qu'un écran ne sert pas à grand-chose quand le brouillard est aussi tenace. Il rabat sa capuche sur sa tête et suit sa sœur sans rien dire.\n\nÀ midi, ils sont de retour au parking, sous le soleil. Le soir, chez leur tante, on sert le punch. En Guadeloupe, le punch se prépare avec du rhum blanc, du sucre de canne et du citron vert, et chaque famille a sa recette. Sa tante lève son verre de punch : « À la Vieille Dame, qui vous a laissés redescendre ! »\n\nQuestions :\nPourquoi faut-il suivre une déviation ?\nParce qu'après les intempéries de l'hiver, une partie de l'ancien chemin s'est effondrée.\nQu'est-ce qui borde le sentier dans la forêt ?\nDes buissons épineux bordent le sentier.\nD'où vient l'odeur que Malik sent près du sommet ?\nElle vient du soufre ; elle arrive par bouffées et sent l'œuf pourri.\nPourquoi est-il interdit de s'approcher du cratère principal ?\nParce que les gaz qui en sortent sont dangereux.\nComment Nadège retrouve-t-elle le chemin dans un brouillard aussi tenace ?\nElle sort la carte et la boussole, repère le sentier de descente et avance de poteau en poteau.\nAvec quoi prépare-t-on le punch en Guadeloupe ?\nOn le prépare avec du rhum blanc, du sucre de canne et du citron vert."
+    },
+    {
+      "title": "Spa, avec un guide de 1850",
+      "summary": "A retired man from Liège, taking a spa cure for his asthma, explores Spa with a guidebook and town plan from 1850.",
+      "newWords": [
+        "thermal",
+        "asthme",
+        "agréablement",
+        "mondain",
+        "aristocratie",
+        "surnommer",
+        "préambule",
+        "fade"
+      ],
+      "text": "Depuis l'enfance, j'ai de l'asthme. Ce n'est pas un asthme grave, mais il revient chaque hiver, avec la toux et les nuits courtes. Cette année, mon médecin m'a proposé une cure thermale à Spa, à quarante minutes de Liège. Trois semaines de soins, de marche et d'eau : je n'ai pas discuté.\n\nLa veille du départ, chez un bouquiniste de Liège, j'ai trouvé un petit guide de Spa publié en 1850, avec un plan de la ville plié à la fin. Je l'ai acheté en me disant qu'il serait agréable de visiter la ville avec les yeux d'un curiste d'autrefois.\n\nLe guide commence par un long préambule. L'auteur y explique, avec beaucoup de politesse, que Spa n'a besoin d'aucune présentation, puis il la présente pendant douze pages. Ce préambule m'a appris une chose que j'ignorais : au 18e siècle, Spa était surnommée « le café de l'Europe ». On l'avait surnommée ainsi parce que toute l'aristocratie du continent s'y retrouvait chaque été : des princes, des ducs, des ambassadeurs, et même, dit le guide, un tsar de Russie.\n\nChaque matin, après les soins de l'établissement thermal, je pars avec mon vieux plan. Les rues ont changé de nom, quelques bâtiments ont disparu, mais le dessin de la ville est presque le même. Je retrouve sans peine le Pouhon, la source la plus célèbre, où l'on boit l'eau dans un grand verre. Elle a un goût de fer très marqué. Après une semaine, l'eau du robinet me semble fade ; même le café de mon hôtel me paraît fade à côté.\n\nLe guide décrit surtout la vie mondaine de l'époque. Le soir, l'aristocratie se rendait au casino, aux bals et aux concerts. Il y avait un ordre précis : on se promenait à telle heure dans telle allée, on saluait telle personne et pas telle autre. Cette vie mondaine avait ses règles comme un jeu de cartes. Aujourd'hui, la grande promenade est calme ; on y croise des familles, des cyclistes et des curistes en survêtement, qui ne sont ni princes ni ducs.\n\nMon plan de 1850 indique aussi des chemins dans les bois, autour de la ville. Ils existent encore, et je les suis lentement, à mon rythme. Mes poumons s'habituent agréablement à l'air frais des collines. Je respire mieux, je dors mieux, et l'asthme, pour l'instant, me laisse tranquille.\n\nLe dernier jour, j'ai pris un café sur la terrasse d'un vieil hôtel, en face des thermes. J'ai relu le préambule de mon guide et j'ai souri. L'auteur promettait au voyageur « une santé nouvelle et des journées agréablement remplies ». Plus de cent soixante-dix ans plus tard, sa promesse tient toujours.\n\nQuestions :\nPourquoi le narrateur part-il à Spa ?\nIl part faire une cure thermale à cause de son asthme, sur le conseil de son médecin.\nQu'est-ce qu'il a trouvé chez un bouquiniste de Liège ?\nIl a trouvé un guide de Spa publié en 1850, avec un plan de la ville.\nComment surnommait-on Spa au 18e siècle, et pourquoi ?\nOn la surnommait « le café de l'Europe », parce que l'aristocratie de tout le continent s'y retrouvait chaque été.\nQuel goût a l'eau du Pouhon ?\nElle a un goût de fer très marqué ; après elle, l'eau du robinet semble fade.\nComment se passait la vie mondaine de l'époque ?\nL'aristocratie allait au casino, aux bals et aux concerts, et suivait des règles précises."
+    },
+    {
+      "title": "La course d'orientation de Sherbrooke",
+      "summary": "A primary teacher in Sherbrooke, Quebec, prepares her pupils for an orientation race in the park, and a squirrel nearly sends one team the wrong way.",
+      "newWords": [
+        "écureuil",
+        "didactique",
+        "lexique",
+        "conjugaison",
+        "négation",
+        "irruption",
+        "discernement",
+        "auditif",
+        "intérieurement",
+        "adoptif"
+      ],
+      "text": "Josée Tremblay enseigne en quatrième année dans une école de Sherbrooke, au Québec. Chaque printemps, elle organise une course d'orientation dans le grand parc près de l'école. Pour elle, ce n'est pas seulement un jeu : c'est un outil didactique. Une carte oblige les enfants à lire, à compter, à décider ; aucun manuel didactique ne fait tout cela à la fois.\n\nLa préparation dure une semaine. Le lundi, les élèves apprennent le lexique de la carte : nord, sud, légende, échelle, sentier, clairière. Josée écrit ce lexique au tableau, et chaque enfant le recopie dans son cahier. Le mardi, on passe à la conjugaison. Les consignes d'une course s'écrivent à l'impératif : « Avance de cinquante pas. Tourne à gauche au grand érable. » Les élèves révisent la conjugaison de tourner, avancer, traverser. Le mercredi, Josée ajoute la négation : « Ne traverse pas le ruisseau. Ne quitte pas le sentier. » Elle explique que la négation est la partie la plus importante d'une consigne, celle qu'on oublie le plus souvent.\n\nLe jeudi, elle parle des repères. Il y a les repères visuels, comme un rocher ou un banc, et il y a les repères auditifs : le bruit de la rivière, la cloche de l'église, la route au loin. Un repère auditif peut aider quand on ne voit plus rien entre les arbres. Les enfants ferment les yeux et écoutent la cour de l'école.\n\nLe vendredi, c'est la course. Les élèves partent par équipes de trois. Dans l'équipe de Félix, il y a aussi Rosalie et Hugo. Félix est arrivé d'Haïti à quatre ans ; il vit avec ses parents adoptifs dans la rue de l'école, et son père adoptif est venu aider Josée à poser les balises.\n\nAu troisième poste, un écureuil fait irruption sur le sentier. Il s'arrête, regarde les enfants, puis file vers la droite, entre deux bouleaux. Hugo veut le suivre. « On va par là ! » Rosalie hésite. Félix regarde la carte, puis la boussole. « Non. Le poste quatre est à gauche, près de la rivière. Écoutez : on l'entend. » Les trois enfants tendent l'oreille. L'écureuil a fait irruption dans leur course, mais pas dans leur carte.\n\nJosée, qui observe de loin, sourit intérieurement. Elle ne dit rien ; une enseignante ne doit pas aider pendant la course. Mais intérieurement, elle est fière : Félix a montré du discernement. Le discernement, c'est justement cela : choisir entre ce qui attire l'œil et ce que disent la carte et les oreilles.\n\nL'équipe de Félix arrive deuxième. À la fin de la journée, chaque élève écrit trois phrases sur sa course. Hugo écrit : « Je ne suivrai plus jamais un écureuil. » Josée corrige la conjugaison, garde la phrase et l'affiche au mur.\n\nQuestions :\nPourquoi Josée organise-t-elle une course d'orientation ?\nParce que, pour elle, c'est un outil didactique : la carte oblige les enfants à lire, à compter et à décider.\nQu'apprennent les élèves le lundi et le mardi ?\nLe lundi, ils apprennent le lexique de la carte ; le mardi, la conjugaison de verbes comme tourner et avancer.\nQu'est-ce qu'un repère auditif ?\nC'est un bruit qui aide à s'orienter, comme le bruit de la rivière ou la cloche de l'église.\nQue se passe-t-il au troisième poste ?\nUn écureuil fait irruption sur le sentier, et Hugo veut le suivre.\nComment Félix montre-t-il du discernement ?\nIl regarde la carte et la boussole, et il écoute la rivière au lieu de suivre l'écureuil."
+    },
+    {
+      "title": "Les pistes de la Lobaye",
+      "summary": "A Central African geographer back from her studies travels the dirt roads of the Lobaye with a coffee buyer to update a road map.",
+      "newWords": [
+        "centrafricain",
+        "exportateur",
+        "industrialisation",
+        "diversification",
+        "sillonner",
+        "immobiliser",
+        "collecteur",
+        "émigration",
+        "émigrer",
+        "migrer"
+      ],
+      "text": "Grâce Ndoumba a trente et un ans. Après ses études de géographie à Strasbourg, elle est rentrée à Bangui, la capitale centrafricaine, pour travailler dans un petit bureau de cartographie. Beaucoup de ses camarades ont choisi d'émigrer, vers la France, le Canada ou le Cameroun. Elle comprend leur choix. L'émigration des jeunes diplômés est une vieille histoire dans son pays, et chacun a ses raisons d'émigrer. Mais pour Grâce, l'émigration n'était pas la seule voie : elle voulait faire des cartes de son propre pays.\n\nSa première mission la conduit dans la Lobaye, une région de forêts et de plantations au sud-ouest de Bangui. Les cartes officielles des routes datent de plus de trente ans. De nouvelles pistes ont été ouvertes, d'autres ont disparu sous la végétation. Il faut tout vérifier sur le terrain.\n\nPour se déplacer, Grâce accompagne Sylvain, un collecteur de café. Un collecteur achète le café centrafricain aux petits planteurs, village par village, puis le revend en ville. Depuis vingt ans, Sylvain sillonne les pistes de la Lobaye dans un vieux camion. Il connaît chaque pont, chaque raccourci, chaque famille. Des camions de bois sillonnent aussi la région. Grâce, elle, note tout avec un récepteur GPS et un carnet.\n\nLa République centrafricaine a toujours été exportatrice de bois, de café et de coton. Mais un pays exportateur de matières brutes reste fragile : les prix changent à l'étranger, et les planteurs n'y peuvent rien. Sylvain le sait mieux que personne. Selon lui, la région a besoin d'une diversification : du cacao, des fruits, du miel. Il parle aussi d'industrialisation, mais d'une industrialisation modeste : une petite usine pour griller le café sur place, au lieu de l'envoyer en sacs. « Une carte des routes, dit-il, c'est le premier pas. Sans routes, pas de diversification. »\n\nLe troisième jour, il pleut toute la nuit. Le matin, la piste est devenue une rivière de boue rouge. Dans une descente, le camion glisse et s'immobilise, les roues enfoncées jusqu'aux essieux. Impossible d'avancer. Le camion reste immobilisé pendant cinq heures, jusqu'à ce que des hommes du village voisin viennent le dégager avec des pelles et des branches.\n\nPendant l'attente, Grâce parle avec les villageois. Elle apprend que beaucoup de jeunes ont quitté la région. Ils migrent vers Bangui, où ils espèrent trouver du travail. Les vieux restent dans les plantations. Chaque piste qui disparaît sur la carte, explique un ancien, c'est aussi des gens qui migrent ailleurs.\n\nAprès deux semaines, Grâce rentre à Bangui avec trois carnets pleins. Sur la nouvelle carte, elle marquera chaque piste, chaque pont, et chaque endroit où un camion peut s'immobiliser après la pluie. Sylvain lui a demandé un exemplaire. Il veut le donner aux jeunes collecteurs.\n\nQuestions :\nPourquoi Grâce est-elle rentrée à Bangui au lieu d'émigrer ?\nParce qu'elle voulait faire des cartes de son propre pays.\nQu'est-ce qu'un collecteur de café ?\nC'est quelqu'un qui achète le café aux petits planteurs, village par village, et le revend en ville.\nDe quoi la région a-t-elle besoin, selon Sylvain ?\nElle a besoin d'une diversification, avec du cacao, des fruits et du miel, et d'une industrialisation modeste.\nQue se passe-t-il le troisième jour ?\nAprès une nuit de pluie, le camion glisse dans la boue et reste immobilisé pendant cinq heures.\nPourquoi beaucoup de jeunes quittent-ils la région ?\nIls migrent vers Bangui, où ils espèrent trouver du travail."
+    },
+    {
+      "title": "L'Europe en pieuvre",
+      "summary": "A student and her grandfather visit a Brussels exhibition of satirical maps from 1870 to 1914 and talk about what the cartoons show and hide.",
+      "newWords": [
+        "satire",
+        "provocateur",
+        "dépeint",
+        "exhiber",
+        "tyrannie",
+        "pacha",
+        "irrationnel",
+        "trust",
+        "exactions",
+        "maltraitance"
+      ],
+      "text": "Un dimanche de novembre, Mathilde emmène son grand-père Albert voir une exposition à la Bibliothèque royale, à Bruxelles. Elle porte un titre curieux : « Cartes pour rire ». On y montre une centaine de cartes satiriques publiées en Europe entre 1870 et 1914. Albert, ancien professeur d'histoire, a accepté de venir par politesse. Au bout de dix minutes, il ne veut plus partir.\n\nLa première salle explique le principe. Une carte satirique garde le dessin exact des frontières, mais chaque pays y prend la forme d'un personnage ou d'un animal. La satire naît de ce mélange : on reconnaît la géographie, et l'on rit de la politique. Les dessinateurs étaient souvent des provocateurs, et certains ont eu des ennuis avec la censure. Un provocateur, explique un panneau, est quelqu'un qui dit tout haut ce que d'autres pensent tout bas.\n\nSur la plus célèbre de ces cartes, la Russie est dépeinte en énorme pieuvre qui étend ses bras sur ses voisins. L'Empire ottoman, lui, est dépeint en vieux pacha assis sur un coussin, qui fume tranquillement pendant qu'on se dispute autour de lui. « Ce pacha fatigué, dit Albert, c'est ce que l'Europe pensait de l'Empire ottoman. Ce n'est pas la vérité, c'est une opinion. » Selon un panneau, cette peur de la Russie était en partie irrationnelle. Mathilde remarque que la Belgique est un petit personnage inquiet, coincé entre deux géants.\n\nDans la deuxième salle, la pieuvre traverse l'Atlantique. Une carte américaine dépeint un trust du pétrole comme une pieuvre posée sur les États-Unis. Un trust, à l'époque, était un groupe de sociétés qui contrôlait tout un secteur. La satire visait ici l'argent plutôt que les rois.\n\nLa dernière salle est plus grave. Elle montre des dessins qui dénonçaient les exactions commises au Congo à l'époque du roi Léopold II. Les dessinateurs étrangers y montraient la tyrannie d'un pouvoir lointain et la maltraitance des travailleurs dans les plantations de caoutchouc. L'exposition ne cache pas ces exactions ; elle cite les rapports de l'époque, qui décrivent cette maltraitance en détail. Albert lit chaque panneau en silence.\n\nEn sortant, Mathilde demande à son grand-père ce qu'il pense de tout cela. Albert réfléchit. « Ces cartes exhibent les peurs de leur temps, dit-il. Parfois, ce sont des peurs irrationnelles : on dessine l'étranger comme un monstre. Parfois, elles montrent une vraie tyrannie, que les journaux sérieux n'osaient pas nommer. » Il ajoute qu'une bonne carte satirique n'exhibe pas seulement les défauts des autres ; elle montre aussi ceux de celui qui la regarde.\n\nDans le tram du retour, Mathilde regarde le plan du réseau affiché au-dessus des portes. Elle se dit qu'aucune carte n'est tout à fait innocente, pas même celle-ci.\n\nQuestions :\nQu'est-ce qu'une carte satirique ?\nC'est une carte qui garde le dessin exact des frontières, mais où chaque pays prend la forme d'un personnage ou d'un animal.\nComment la Russie est-elle dépeinte sur la carte la plus célèbre ?\nElle est dépeinte en énorme pieuvre qui étend ses bras sur ses voisins.\nQu'était un trust à l'époque ?\nC'était un groupe de sociétés qui contrôlait tout un secteur.\nQue montre la dernière salle ?\nElle montre des dessins qui dénonçaient les exactions et la maltraitance des travailleurs au Congo, à l'époque de Léopold II.\nQue pense Albert de ces cartes ?\nIl pense qu'elles exhibent les peurs de leur temps, parfois irrationnelles, parfois justes."
+    },
+    {
+      "title": "Ce que les cartes ne disent pas",
+      "summary": "A cartographer in Lausanne writes a short column on the choices hidden behind every map, from coordinate systems to borders.",
+      "newWords": [
+        "référentiel",
+        "normalisation",
+        "spécification",
+        "infrarouge",
+        "truqué",
+        "irréversible",
+        "négociateur",
+        "apartheid",
+        "hérétique",
+        "activation"
+      ],
+      "text": "Je fabrique des cartes depuis vingt-cinq ans, dans un bureau de Lausanne qui donne sur le lac. Quand je dis mon métier, on me répond souvent : « Mais tout est déjà cartographié, non ? » Oui, presque tout. Mais une carte n'est jamais un simple miroir du terrain. Derrière chacune, il y a des choix, que le lecteur ne voit pas.\n\nLe premier choix est invisible : le référentiel. Pour placer un point sur une carte, il faut un système de coordonnées, une manière de décrire la forme de la Terre. Chaque pays a longtemps eu son propre référentiel. Entre deux référentiels, un même clocher peut se déplacer de plusieurs dizaines de mètres. Lorsque l'activation de la géolocalisation sur votre téléphone vous place au milieu du lac, c'est parfois qu'un logiciel s'est trompé de référentiel. Une simple activation cache tout ce travail de calcul.\n\nLe deuxième choix est celui des noms. Faut-il écrire le nom d'un village comme le disent ses habitants, ou comme l'écrit l'administration ? La normalisation des noms de lieux occupe des commissions entières. Cette normalisation est utile, car les secours doivent trouver le bon hameau ; mais chaque nom corrigé efface un peu d'histoire.\n\nViennent ensuite les spécifications techniques. Une carte au 25 000e obéit à des centaines de spécifications : la largeur d'une route, la couleur d'une forêt, la taille d'une église. Ces spécifications sont minutieuses, et elles changent la manière dont nous voyons le paysage. Les images prises en infrarouge par les satellites, par exemple, montrent l'état des forêts mieux que l'œil ; sur une image en infrarouge, une forêt malade change de couleur.\n\nIl y a enfin les choix politiques. Pendant la guerre froide, certaines cartes soviétiques destinées au public étaient volontairement truquées : on y déplaçait des villes, on y supprimait des usines. Une carte truquée ne ment pas par erreur, elle ment par décision. Les frontières aussi sont des choix. Des négociateurs, autour d'une table, ont tracé des lignes sur des cartes ; souvent, les négociateurs ne connaissaient pas le terrain. En Afrique du Sud, sous l'apartheid, des cartes officielles délimitaient les zones réservées à chaque groupe ; l'apartheid passait aussi par la cartographie.\n\nLe cartographe lui-même n'a pas toujours été libre. Gérard Mercator, dont la projection orne encore les murs des écoles, a passé plusieurs mois en prison en 1544, accusé d'être hérétique. On ne lui reprochait pas ses cartes, mais ses idées religieuses ; être hérétique, à l'époque, pouvait coûter la vie.\n\nJe ne dis pas que les cartes mentent. Je dis qu'elles choisissent. Et certains choix sont presque irréversibles : une erreur publiée est recopiée pendant des générations. Les dégâts d'une mauvaise frontière sont, eux, souvent irréversibles. C'est pourquoi j'aime qu'on lise une carte comme on lit un journal : avec confiance, et avec attention.\n\nQuestions :\nQu'est-ce qu'un référentiel, selon l'auteur ?\nC'est un système de coordonnées, une manière de décrire la forme de la Terre pour placer un point.\nPourquoi la normalisation des noms de lieux est-elle utile ?\nParce que les secours doivent pouvoir trouver le bon hameau.\nQue montrent les images en infrarouge ?\nElles montrent l'état des forêts ; une forêt malade y change de couleur.\nQu'est-ce qu'une carte truquée ?\nC'est une carte qui ment par décision, par exemple en déplaçant des villes ou en supprimant des usines.\nPourquoi Mercator a-t-il été emprisonné ?\nIl a été accusé d'être hérétique, à cause de ses idées religieuses."
+    },
+    {
+      "title": "La carte de soie",
+      "summary": "In Caen, a grandmother and her granddaughter open an old trunk and find the silk escape map her father carried as a young pilot.",
+      "newWords": [
+        "tissage",
+        "habillement",
+        "enrôler",
+        "bravoure",
+        "péripétie",
+        "désarmé",
+        "revolver",
+        "flambeau",
+        "malle"
+      ],
+      "text": "Au grenier de la maison de Caen, sous une fenêtre ronde, il y a une malle en bois que personne n'a ouverte depuis la mort d'André, en 1998. Un samedi de pluie, Odette, sa fille, demande à sa petite-fille Juliette de l'aider à l'ouvrir. La serrure résiste longtemps.\n\nDans la malle, il y a des lettres, des photos, une veste d'aviateur et une petite boîte de métal. Dans la boîte, pliée en huit, se trouve une carte imprimée sur de la soie. Elle montre toute la France, la Belgique et le nord de l'Espagne, en couleurs très fines.\n\nOdette connaît l'histoire. Son père, André, s'était enrôlé dans l'aviation en 1942, à dix-neuf ans, après avoir quitté la France par l'Espagne. Il s'était enrôlé en Angleterre, dans une unité française. Les pilotes recevaient une carte de soie, au cas où leur avion serait abattu au-dessus d'un territoire occupé. La soie ne fait aucun bruit quand on la plie, elle ne se déchire pas sous la pluie, et elle peut se cacher dans l'habillement : dans une doublure, dans un col, dans une chaussure. Le tissage est si serré que les noms des plus petits villages restent lisibles. Juliette passe un doigt sur le tissage et s'étonne de sa douceur.\n\nParmi les lettres, l'une raconte la nuit de juillet 1944 où l'avion d'André a été touché. Il a sauté en parachute au-dessus des champs de l'Eure. Dans la chute, il a perdu son revolver. Il s'est donc retrouvé seul et désarmé, avec sa carte de soie pour unique outil. Il écrit : « Ce revolver ne m'aurait servi à rien. Désarmé, j'étais plus prudent. »\n\nLa lettre raconte ensuite les péripéties de son retour : dix jours de marche la nuit, une ferme où une famille l'a caché, un passage de rivière en barque. Chaque péripétie est notée sur la carte par un petit point au crayon. Juliette suit les points du doigt, d'Évreux jusqu'aux lignes alliées.\n\nOdette n'a jamais aimé qu'on parle de la bravoure de son père. André lui-même refusait ce mot. Il disait que la bravoure appartenait à la famille de la ferme, qui risquait tout pour un inconnu. Odette a travaillé quarante ans dans l'habillement, dans un atelier de couture du centre-ville ; elle regarde la soie avec un œil de professionnelle et approuve en silence.\n\nAvant de refermer la malle, Odette tend la boîte à Juliette. « Garde-la. Mon père m'a passé le flambeau, et moi, je te le passe. » Juliette ne sait pas encore ce qu'elle fera de ce flambeau. Elle pense qu'un jour, elle refera à pied le chemin des petits points.\n\nQuestions :\nQu'est-ce qu'Odette et Juliette trouvent dans la malle ?\nElles trouvent des lettres, des photos, une veste d'aviateur et une carte imprimée sur de la soie.\nPourquoi les cartes des pilotes étaient-elles en soie ?\nParce que la soie ne fait pas de bruit, ne se déchire pas sous la pluie et peut se cacher dans l'habillement.\nQu'est-il arrivé au revolver d'André ?\nIl l'a perdu pendant sa chute en parachute, et il s'est retrouvé désarmé.\nComment les péripéties de son retour sont-elles notées ?\nChaque péripétie est notée sur la carte par un petit point au crayon.\nÀ qui André attribuait-il la vraie bravoure ?\nÀ la famille de la ferme, qui risquait tout pour un inconnu."
+    },
+    {
+      "title": "Lire la mer à Saint-Malo",
+      "summary": "A young woman learns to read a nautical chart with her uncle before a short sail from Saint-Malo, through fog and a strong tide.",
+      "newWords": [
+        "sillage",
+        "retentir",
+        "engloutir",
+        "dévastateur",
+        "coquillage",
+        "messie",
+        "implacable",
+        "fascination"
+      ],
+      "text": "Gaëlle a vingt-quatre ans et elle vient d'acheter, avec deux amis, un petit voilier d'occasion. Avant de naviguer seule, elle passe une semaine chez son oncle Yannick, à Saint-Malo. Yannick a été pêcheur pendant trente ans. Il a une règle simple : « Avant de toucher la barre, on lit la carte. »\n\nLe premier soir, il étale sur la table une carte marine de la baie. Gaëlle la regarde avec fascination. Sur terre, une carte montre ce que l'on voit ; en mer, elle montre surtout ce que l'on ne voit pas. Des centaines de petits chiffres indiquent la profondeur. Des signes marquent les épaves, les bouées, les phares. Même la nature du fond est notée : sable, vase, roche, ou « coquillages brisés ». Yannick explique qu'un fond de coquillages tient mal l'ancre. Gaëlle comprend que sa fascination ne suffira pas : il faudra apprendre chaque signe.\n\nLe plus difficile, c'est la marée. À Saint-Malo, la mer monte et descend de plus de dix mètres. À marée haute, l'eau engloutit des dizaines de rochers qui, six heures plus tôt, étaient à sec. « La mer les engloutit deux fois par jour, dit Yannick, mais ils sont toujours là, juste sous la surface. » La marée est implacable : elle ne s'arrête pour personne, et un bateau mal placé peut se retrouver posé sur la roche. Il faut donc calculer, avec un petit livre de tables, la hauteur d'eau à chaque heure.\n\nYannick raconte aussi la tempête d'octobre 1987, dont tout le monde se souvient encore en Bretagne. Le vent a été dévastateur : des arbres arrachés, des toits envolés, des bateaux jetés sur les quais. Après cette nuit dévastatrice, il a fallu des mois pour tout réparer. Depuis, Yannick écoute la météo marine comme d'autres écoutent les nouvelles.\n\nLe jeudi, ils sortent enfin. Le vent tarde à venir ; sur le quai, Yannick dit en riant qu'on l'attend comme le messie. Vers 10 heures, la brise se lève, et le voilier quitte le port. Gaëlle tient la barre. Derrière le bateau, le sillage dessine une ligne blanche sur l'eau verte. Yannick lui apprend à regarder ce sillage : s'il n'est pas droit, c'est que le courant pousse le bateau sur le côté.\n\nEn fin de matinée, un brouillard léger tombe sur la baie. Au loin, une corne de brume retentit, puis retentit encore, toutes les trente secondes. Gaëlle n'a pas peur. Elle a la carte sur les genoux, elle sait où sont les rochers et elle suit la route qu'elle a tracée la veille.\n\nAu retour, le soleil revient. Yannick ne dit rien, mais il laisse sa nièce entrer seule dans le port. Pour lui, c'est le plus beau compliment. Gaëlle, elle, attendait ce moment comme le messie.\n\nQuestions :\nQuelle est la règle de Yannick ?\nAvant de toucher la barre, on lit la carte.\nQue montre une carte marine que l'on ne voit pas ?\nElle montre la profondeur, les épaves, les rochers et même la nature du fond, comme le sable ou les coquillages brisés.\nPourquoi dit-on que la marée est implacable ?\nParce qu'elle ne s'arrête pour personne, et qu'un bateau mal placé peut se retrouver sur la roche.\nQu'a fait la tempête de 1987 ?\nLe vent a été dévastateur : il a arraché des arbres et des toits et jeté des bateaux sur les quais.\nQu'est-ce que le sillage apprend à Gaëlle ?\nS'il n'est pas droit, cela veut dire que le courant pousse le bateau sur le côté."
+    },
+    {
+      "title": "Le plan dessiné à la main",
+      "summary": "A student from Dakar, newly arrived in Lausanne and homesick after a stomach bug, follows a neighbour's hand-drawn map to a good bakery.",
+      "newWords": [
+        "cafard",
+        "mie",
+        "croustillant",
+        "hippie",
+        "gastro-entérite",
+        "mendiant",
+        "cloison",
+        "sonnette"
+      ],
+      "text": "Mariam est arrivée de Dakar à Lausanne au début de septembre, pour un master de biologie. Elle loue un studio au dernier étage d'un vieil immeuble, près de la cathédrale. Le studio est petit, et les cloisons sont si minces qu'elle entend la radio du voisin.\n\nLa première semaine, tout va mal. Le troisième jour, elle attrape une gastro-entérite. Le médecin de l'université lui dit que c'est fréquent chez les nouveaux arrivants : un changement d'eau, de nourriture, de rythme. Pendant quatre jours, Mariam reste au lit, entre la fièvre et le thé. La gastro-entérite passe, mais quelque chose d'autre reste : le cafard. Sa famille lui manque, le soleil de Dakar lui manque, et la ville, avec ses rues en pente et ses escaliers, lui semble impossible à comprendre.\n\nUn dimanche matin, la sonnette retentit pour la première fois depuis son arrivée. C'est le voisin, celui de la radio, de l'autre côté de la cloison. Il s'appelle Gilles. Il a soixante-dix ans, des cheveux blancs attachés en queue de cheval et une chemise à fleurs. Dans les années 1970, raconte-t-il, il était hippie ; il a traversé l'Afrique en camionnette avec des amis hippies, et il est passé par Dakar. « J'ai entendu que vous étiez malade, dit-il. Vous avez besoin de pain. Du vrai. »\n\nIl lui donne une feuille. Dessus, il a dessiné à la main un plan du quartier : l'immeuble, la cathédrale, un escalier couvert, une place, une fontaine, et une croix au bout d'une rue. « La boulangerie est là. La meilleure de la ville. Suivez le plan. »\n\nMariam s'habille et part, le plan à la main. Elle descend l'escalier couvert, traverse la place, cherche la fontaine. Elle ne la trouve pas. Le plan de Gilles est joli, mais il n'est pas à l'échelle. Au pied d'une église, un mendiant est assis sur une couverture, avec un chien. Mariam hésite, puis lui montre la feuille. Le mendiant sourit : « Ah, c'est le plan de Gilles. Il en dessine pour tous les nouveaux. La fontaine, c'est à droite, derrière le kiosque. » Mariam le remercie et lui laisse quelques pièces.\n\nLa boulangerie est exactement à l'endroit de la croix. Une odeur chaude sort par la porte. Mariam achète un grand pain rond. La croûte est croustillante, la mie est blanche et légère. En remontant, elle croise le mendiant et lui offre la moitié d'un croissant encore croustillant.\n\nDe retour au studio, elle frappe à la porte de Gilles pour le remercier. Ils partagent le pain, la mie encore tiède, avec du beurre et du thé à la menthe. Ce jour-là, le cafard s'en va, et Mariam colle le plan dessiné à la main sur la cloison, au-dessus de son bureau.\n\nQuestions :\nPourquoi Mariam reste-t-elle au lit pendant quatre jours ?\nParce qu'elle a attrapé une gastro-entérite, fréquente chez les nouveaux arrivants.\nPourquoi Mariam a-t-elle le cafard ?\nSa famille et le soleil de Dakar lui manquent, et la ville lui semble impossible à comprendre.\nQui fait retentir la sonnette le dimanche matin ?\nC'est Gilles, son voisin, un ancien hippie qui a traversé l'Afrique dans les années 1970.\nQui aide Mariam à trouver la fontaine ?\nUn mendiant assis au pied d'une église, qui connaît bien le plan de Gilles.\nComment est le pain de la boulangerie ?\nLa croûte est croustillante, et la mie est blanche et légère."
+    }
+  ]
+}
