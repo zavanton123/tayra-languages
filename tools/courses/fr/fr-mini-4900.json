@@ -1,0 +1,219 @@
+{
+  "id": "fr-mini-4900",
+  "rankUpTo": 4900,
+  "level": "C1",
+  "title": "Sport et société",
+  "description": "Ten texts about the place of sport in everyday society: a club refreshment stand in Wallonia, a pitch rebuilt after a flood in the Marais poitevin, a marathon that divides Lausanne, an interview with a Montreal sports columnist, an essay from Kigali, a school cross-country race in Brittany, a cup parade in Lyon, a column on money and sport in Brussels, a club's centenary exhibition in Fribourg and a student athlete's diary in Quebec City.",
+  "topic": "Sport and society",
+  "names": [
+    "Wépion",
+    "Namur",
+    "Martine",
+    "Lambert",
+    "Julie",
+    "Coulon",
+    "Poitevin",
+    "France",
+    "Venise",
+    "Gérard",
+    "Moreau",
+    "Inès",
+    "Barreau",
+    "Lausanne",
+    "Sophie",
+    "Tremblay",
+    "Montréal",
+    "Québec",
+    "Kigali",
+    "Rwanda",
+    "Paimpont",
+    "Brocéliande",
+    "Merlin",
+    "Viviane",
+    "Gall",
+    "Lyon",
+    "Terreaux",
+    "Aïcha",
+    "Benali",
+    "Bruxelles",
+    "Anderlecht",
+    "Auge",
+    "Fribourg",
+    "Paul",
+    "Bersier",
+    "Lucie",
+    "Gremaud",
+    "Bucarest",
+    "Bulle",
+    "Maude",
+    "Rimouski",
+    "Sherbrooke",
+    "Inde"
+  ],
+  "lessons": [
+    {
+      "title": "La buvette du dimanche",
+      "summary": "In a village near Namur, a volunteer has run the football club's refreshment stand for twenty years, and its small profits pay for the young players.",
+      "newWords": [
+        "farine",
+        "tarte",
+        "sucré",
+        "oignon",
+        "sandwich",
+        "portion",
+        "vaisselle",
+        "centime",
+        "rentable",
+        "maigre"
+      ],
+      "text": "Chaque dimanche, à Wépion, près de Namur, le petit club de football du village joue à domicile. Pour beaucoup d'habitants, pourtant, le vrai cœur du club ne se trouve pas sur le terrain. Il se trouve dans une petite salle en bois, à côté du parking : la buvette. Et la buvette, depuis 20 ans, c'est Martine Lambert.\n\nMartine a 67 ans. Le samedi soir, dans sa cuisine, elle prépare les tartes. Elle achète sa farine dans une ferme de la région, parce qu'elle trouve que la farine du supermarché « n'a pas de goût ». Elle fait toujours deux sortes de tartes : une tarte sucrée, aux pommes ou aux cerises selon la saison, et une tarte salée, aux oignons. « La tarte aux oignons, c'est pour les pères, dit-elle en riant. La tarte sucrée, c'est pour les enfants. Mais tout le monde finit par goûter les deux. »\n\nLe dimanche matin, elle prépare aussi des sandwichs au fromage, et un sandwich aux oignons que les joueurs des autres équipes lui achètent souvent pour le voyage du retour. Elle coupe chaque tarte en huit portions égales. « Une portion, c'est une portion, explique-t-elle. Je ne fais pas de différence entre le président du club et un enfant de 6 ans. »\n\nLes prix sont modestes : une portion de tarte coûte 1,50 euro, un sandwich 2,50 euros, un café 1 euro. Martine compte chaque centime. Le soir, elle note tout dans un vieux cahier : ce qu'elle a acheté, ce qu'elle a vendu, ce qui reste. La buvette est-elle rentable ? « À peine, dit-elle. Les bénéfices sont maigres. Si je comptais mes heures, ce ne serait pas rentable du tout. » Ces maigres bénéfices comptent pourtant beaucoup : chaque année, ils paient les maillots des équipes de jeunes et le car du tournoi de fin de saison. « Sans les centimes de la buvette, dit le président du club, nos jeunes n'auraient pas de maillots. »\n\nAprès le match, il reste la vaisselle. Martine refuse le plastique : on boit dans de vraies tasses et on mange dans de vraies assiettes. Il faut donc faire la vaisselle, parfois pendant une heure. Heureusement, elle n'est jamais seule : des parents et souvent les joueurs eux-mêmes viennent l'aider. C'est là, pendant la vaisselle, qu'on commente le match, qu'on parle des enfants, du travail et du village.\n\nCar la buvette est bien plus qu'un endroit où l'on mange un sandwich. Dans un village où le dernier café a fermé il y a 10 ans, c'est l'un des rares lieux où des gens de tous les âges se retrouvent. Des retraités qui ne s'intéressent guère au football viennent pour une portion de tarte et une conversation. Quand on demande à Martine si elle pense arrêter, elle sourit. « Et qui ferait les tartes ? » répond-elle. Puis elle ajoute qu'elle apprend sa recette à sa petite-fille, Julie, 15 ans, qui vient de réussir sa première tarte aux oignons.\n\nQuestions :\nOù se trouve la buvette du club ?\nElle se trouve dans une petite salle en bois, à côté du parking.\nQuelles tartes Martine prépare-t-elle ?\nElle prépare une tarte sucrée, aux pommes ou aux cerises, et une tarte salée, aux oignons.\nLa buvette est-elle rentable ?\nÀ peine : les bénéfices sont maigres, mais ils paient les maillots des jeunes et le car du tournoi.\nPourquoi la buvette est-elle importante pour le village ?\nParce que c'est l'un des rares lieux où des gens de tous les âges se retrouvent."
+    },
+    {
+      "title": "Le terrain après l'inondation",
+      "summary": "After a winter flood in the Marais poitevin, a village rebuilds its football pitch with volunteers, soil probes and patience.",
+      "newWords": [
+        "inondation",
+        "reconstruire",
+        "marais",
+        "pelouse",
+        "sonde",
+        "bactérie",
+        "gigantesque",
+        "compensation",
+        "inévitable",
+        "incertitude"
+      ],
+      "text": "Coulon est un village du Marais poitevin, cette grande zone humide de l'ouest de la France où les canaux remplacent souvent les routes. Ce marais est beau, calme, plein d'oiseaux. Mais l'hiver dernier, il a rappelé à ses habitants qu'il pouvait aussi être dangereux.\n\nEn janvier, après trois semaines de pluie, les canaux ont débordé. L'inondation a touché une centaine de maisons et, au bord du village, le stade de football. Quand l'eau s'est retirée, le spectacle était triste : la pelouse avait disparu sous une couche de terre noire, les buts étaient couchés et l'eau était entrée dans le petit bâtiment du club. « On aurait dit un champ après une tempête », se souvient Gérard Moreau, qui entretient le terrain depuis 30 ans.\n\nLe club avait deux choix : abandonner ou reconstruire. Personne n'a hésité. Mais reconstruire un terrain ne se fait pas en un jour. Il fallait d'abord savoir ce que l'eau avait laissé dans le sol. Une spécialiste des sols, Inès Barreau, est venue planter des sondes dans la terre, tous les 10 mètres. Ces sondes mesurent l'eau contenue dans le sol et sa température. On a aussi fait analyser la terre : l'eau du marais transporte des bactéries, et il fallait vérifier qu'aucune bactérie dangereuse ne restait sur un terrain où jouent des enfants. Les résultats ont été rassurants.\n\nUn travail gigantesque a alors commencé. Pour un petit club, la tâche paraissait gigantesque. Des dizaines de bénévoles ont nettoyé le terrain. Un agriculteur a prêté sa machine. On a semé une nouvelle pelouse en avril. Chaque matin, dans l'incertitude, Gérard regardait les chiffres des sondes sur son téléphone : l'herbe pousserait-elle à temps pour la nouvelle saison ? « L'incertitude, c'était le plus dur, dit-il. On travaillait sans savoir si cela servirait. »\n\nRestait la question de l'argent. L'assurance a versé une compensation, mais cette compensation ne couvrait qu'une partie des dégâts. La commune et les habitants ont donné le reste. Un repas sur la place du village a rapporté à lui seul 4 000 euros.\n\nEn septembre, la nouvelle pelouse était prête. Le bâtiment du club avait été reconstruit un peu plus haut, loin de l'eau. Car tout le monde sait ici qu'une autre inondation est inévitable. « Dans le marais, l'eau finit toujours par revenir, explique Inès Barreau. C'est inévitable, mais ce n'est pas un drame si l'on s'y prépare. » Les sondes, elles, sont restées dans le sol.\n\nLe premier match a eu lieu un dimanche de soleil. Il y avait plus de spectateurs que jamais. Ils n'étaient pas venus pour le football. Ils étaient venus voir ce qu'ils avaient reconstruit ensemble.\n\nQuestions :\nQu'est-ce que l'inondation a touché au bord du village ?\nElle a touché le stade de football : la pelouse, les buts et le bâtiment du club.\nPourquoi Inès Barreau a-t-elle planté des sondes dans la terre ?\nPour mesurer l'eau contenue dans le sol et sa température.\nPourquoi a-t-on fait analyser la terre ?\nParce que l'eau du marais transporte des bactéries, et qu'il fallait vérifier qu'aucune bactérie dangereuse ne restait sur le terrain.\nLa compensation de l'assurance suffisait-elle ?\nNon, elle ne couvrait qu'une partie des dégâts ; la commune et les habitants ont donné le reste.\nPourquoi le bâtiment du club a-t-il été reconstruit plus haut ?\nParce qu'une autre inondation est inévitable dans le marais."
+    },
+    {
+      "title": "Le marathon qui divise la ville",
+      "summary": "A Lausanne columnist weighs the complaints and the joys of the day the marathon closes the city to cars.",
+      "newWords": [
+        "piéton",
+        "polluer",
+        "limitation",
+        "enlèvement",
+        "détour",
+        "impatience",
+        "protestation",
+        "désaccord",
+        "alternatif",
+        "contestation"
+      ],
+      "text": "Chaque année, un dimanche d'octobre, Lausanne change de visage : le marathon traverse la ville, puis suit le bord du lac. Pendant toute une matinée, les grandes avenues sont fermées aux voitures : elles appartiennent aux coureurs et aux piétons. Et chaque année, la même discussion recommence dans les cafés. Cette fête est-elle un cadeau pour la ville, ou une gêne pour ceux qui y vivent ?\n\nCommençons par ceux qui se plaignent. Ils ne sont pas contre le sport. Ce qui les dérange, ce sont les conséquences pratiques. La veille de la course, la police procède à l'enlèvement des voitures laissées sur le parcours. Celui qui a oublié de déplacer la sienne doit payer une amende. L'an dernier, une lectrice nous a écrit pour protester contre cet enlèvement : elle était partie en week-end et n'avait pas vu les panneaux.\n\nIl y a aussi les détours. Pour aller voir sa mère à l'hôpital, un habitant doit faire un détour de 20 minutes. Les bus suivent des itinéraires alternatifs, mal connus, et l'impatience monte aux arrêts. Au volant, l'impatience se lit sur les visages. Les commerçants sont partagés : les cafés font de bonnes affaires, mais certaines boutiques restent vides. Chaque année, une petite protestation est organisée devant l'hôtel de ville, et une pétition circule. Cette protestation réunit rarement plus de 50 personnes. La contestation reste modeste, mais cette contestation mérite d'être écoutée.\n\nÉcoutons maintenant les défenseurs de la course. Leur premier argument est simple : pendant une matinée, la ville respire. Les voitures qui polluent l'air le reste de la semaine ne roulent pas. Des familles se promènent avec leurs enfants sur les grandes avenues. Les piétons découvrent une ville plus calme, plus lente, plus humaine. Certains se demandent même pourquoi cette limitation de la circulation ne serait pas plus fréquente : une ville qui pollue moins un dimanche ne pourrait-elle pas polluer moins les autres jours ? Une limitation un dimanche par mois ne gênerait pas grand monde.\n\nLe second argument concerne les coureurs. Ils sont plus de 10 000, et la plupart ne sont pas des champions, mais des gens ordinaires qui se sont entraînés pendant des mois. Pour eux, courir dans une ville sans voitures, encouragés par les habitants, est un moment rare.\n\nFaut-il choisir un camp ? Je ne le crois pas, car le désaccord est moins profond qu'il n'y paraît. Ceux qui protestent ne demandent pas la fin du marathon ; ils demandent qu'on les prévienne mieux, que les détours soient mieux indiqués et que les itinéraires alternatifs des bus soient annoncés plus tôt. Ce sont des demandes raisonnables. La ville les a entendues : cette année, chaque habitant du parcours recevra une lettre un mois avant la course. Le désaccord ne disparaîtra pas. Mais un désaccord qu'on écoute peut améliorer une fête au lieu de la gâcher.\n\nQuestions :\nQue se passe-t-il à Lausanne un dimanche d'octobre ?\nLe marathon traverse la ville, et les grandes avenues sont fermées aux voitures.\nPourquoi une lectrice a-t-elle écrit au journal ?\nPour protester contre l'enlèvement de sa voiture : elle n'avait pas vu les panneaux.\nQuelles difficultés la course crée-t-elle pour les habitants ?\nIls doivent faire des détours, et les bus suivent des itinéraires alternatifs mal connus.\nQuel est le premier argument des défenseurs de la course ?\nPendant une matinée, la ville respire : les voitures qui polluent l'air ne roulent pas.\nQue demandent ceux qui protestent ?\nIls demandent qu'on les prévienne mieux et que les détours soient mieux annoncés."
+    },
+    {
+      "title": "Entretien avec une chroniqueuse",
+      "summary": "A Montreal radio sports columnist talks about her work, suspicion, consistency and the book she is about to publish.",
+      "newWords": [
+        "chroniqueur",
+        "journalisme",
+        "formuler",
+        "soupçon",
+        "cohérence",
+        "honteux",
+        "réflexe",
+        "fragment",
+        "prochainement",
+        "volontiers"
+      ],
+      "text": "Depuis 15 ans, Sophie Tremblay est chroniqueuse sportive à la radio, à Montréal. Chaque matin, elle commente les résultats du hockey, du soccer (au Québec, on appelle ainsi le football) et de bien d'autres sports. Elle publiera prochainement un livre sur son métier. Elle a volontiers accepté de répondre à nos questions.\n\n— Comment êtes-vous devenue chroniqueuse ?\n— Par hasard. Je voulais faire du journalisme politique. Pendant mes études de journalisme, j'ai remplacé un collègue malade pour commenter un match de hockey. J'ai découvert que le sport raconte toute la société : l'argent, les rêves, les injustices. Je ne l'ai plus jamais quitté.\n\n— Qu'est-ce qu'une bonne chronique sportive ?\n— C'est une chronique qui formule une idée claire. Les résultats, tout le monde les connaît déjà. Le chroniqueur doit apporter autre chose : un point de vue. Mais il faut le formuler avec soin. À la radio, une phrase mal formulée ne se corrige pas.\n\n— On vous reproche parfois d'être sévère.\n— Je suis sévère avec les institutions, pas avec les personnes. Prenez le dopage. Quand un athlète gagne de façon surprenante, le soupçon apparaît aussitôt sur les réseaux sociaux. Mon réflexe, c'est de ne rien dire avant d'avoir des faits. Un soupçon n'est pas une preuve. J'ai vu des carrières détruites par un simple soupçon. C'est honteux, et le journalisme n'a pas le droit de participer à cela.\n\n— Quelles qualités votre métier demande-t-il ?\n— La cohérence, d'abord. On ne peut pas défendre un entraîneur quand son équipe gagne, puis l'attaquer pour les mêmes choix quand elle perd. Les auditeurs remarquent tout ; ils me rappellent volontiers mes propres phrases ! Sans cohérence, un chroniqueur perd la confiance du public. Ensuite, de bons réflexes. En direct, il faut réagir vite. Ces réflexes viennent avec l'expérience.\n\n— Le sport est-il toujours un bon sujet de société ?\n— Plus que jamais. Une équipe, c'est la société en petit : des gens de milieux différents qui doivent s'entendre. Quand une joueuse de soccer réclame l'égalité des salaires, elle parle au nom de beaucoup de femmes. Ce qui serait honteux, ce serait de lui répondre : « Contente-toi de jouer. »\n\n— De quoi votre livre parle-t-il ?\n— Il sortira prochainement, au printemps. Ce sont des fragments : des souvenirs de matchs, de rencontres, de conversations dans les couloirs des stades. Je n'ai pas voulu écrire une histoire complète. La vie d'une chroniqueuse est faite de fragments, de petits moments qu'on raconte le lendemain matin à la radio.\n\n— Un conseil aux jeunes qui veulent faire ce métier ?\n— Volontiers. Lisez beaucoup, et pas seulement les pages de sport. Et allez voir les matchs des petits clubs. Les plus belles histoires se trouvent souvent là.\n\nQuestions :\nComment Sophie Tremblay est-elle devenue chroniqueuse ?\nPar hasard : pendant ses études de journalisme, elle a remplacé un collègue malade pour commenter un match de hockey.\nSelon elle, que doit apporter un chroniqueur ?\nIl doit apporter un point de vue, une idée claire formulée avec soin.\nQuel est son réflexe quand un athlète gagne de façon surprenante ?\nSon réflexe est de ne rien dire avant d'avoir des faits, car un soupçon n'est pas une preuve.\nPourquoi la cohérence est-elle importante ?\nParce que les auditeurs remarquent tout, et qu'un chroniqueur sans cohérence perd la confiance du public.\nDe quoi son livre est-il fait ?\nIl est fait de fragments : des souvenirs de matchs, de rencontres et de conversations."
+    },
+    {
+      "title": "Le sport rassemble-t-il ?",
+      "summary": "A physical education teacher in Kigali asks whether sport really brings people together, and answers that it does only when adults make it do so.",
+      "newWords": [
+        "génocide",
+        "confession",
+        "colon",
+        "sexualité",
+        "valoriser",
+        "secte",
+        "adepte",
+        "disciple",
+        "fantasme",
+        "appellation"
+      ],
+      "text": "On entend souvent dire que « le sport rassemble ». La formule revient dans les discours des ministres comme dans la bouche des entraîneurs. Je suis professeur d'éducation physique dans un lycée de Kigali, au Rwanda, et je voudrais réfléchir un moment à cette idée. Je la crois à la fois vraie et trop simple.\n\nElle est vraie, d'abord. Le football est arrivé dans mon pays avec les colons belges et les missionnaires. Les colons y voyaient surtout un moyen de rendre la jeunesse obéissante ; les habitants du pays en ont fait leur propre fête. En 1994, le Rwanda a connu un génocide qui a fait des centaines de milliers de victimes. Dans les années qui ont suivi le génocide, des associations ont organisé des matchs entre jeunes de familles qui ne se parlaient plus. Sur un terrain, on ne demande à personne sa confession, son origine ou son quartier ; on lui demande seulement s'il sait passer le ballon. Dans mon lycée, des élèves de confession catholique, protestante ou musulmane jouent dans la même équipe, et personne n'y pense.\n\nPourtant, l'idée est trop simple, car le sport peut aussi diviser. Chacun a vu des supporters se comporter comme les adeptes d'une secte, prêts à insulter quiconque porte d'autres couleurs. Un club n'est pas une secte, mais il peut en prendre les habitudes. Certains entraîneurs, de leur côté, se comportent comme des maîtres entourés de disciples : on ne discute pas, on obéit. Or des disciples obéissants ne deviennent pas forcément des adultes libres.\n\nLe sport a aussi longtemps exclu. Les femmes ont été tenues à l'écart des stades pendant des décennies. Beaucoup d'athlètes, encore aujourd'hui, n'osent pas parler de leur sexualité, de peur d'être rejetés par leur équipe. Que la sexualité d'un joueur puisse encore faire scandale montre que le terrain n'est pas un monde à part. Il faut donc se méfier du fantasme d'un sport pur, placé au-dessus de la société. Ce fantasme est agréable, mais il nous empêche de voir ce qui ne va pas.\n\nQue faire, alors ? Je crois qu'il faut valoriser ce que le sport fait de mieux, sans lui demander des miracles. Dans mes cours, je valorise l'effort plus que la victoire, le respect de l'adversaire plus que le score. Notre tournoi de fin d'année porte l'appellation de « Coupe de l'amitié ». Cette appellation est une promesse, pas une garantie : c'est à nous, les adultes, de la tenir. Chaque année, nous mélangeons les classes et les quartiers dans les équipes, et nous demandons aux adeptes du football de jouer aussi avec les plus faibles.\n\nLe sport ne rassemble donc pas tout seul. Il rassemble quand des adultes décident qu'il rassemblera, et qu'ils y travaillent.\n\nQuestions :\nAvec qui le football est-il arrivé au Rwanda ?\nIl est arrivé avec les colons belges et les missionnaires.\nQu'ont organisé des associations après le génocide ?\nElles ont organisé des matchs entre jeunes de familles qui ne se parlaient plus.\nPourquoi l'auteur trouve-t-il l'idée trop simple ?\nParce que le sport peut aussi diviser : certains supporters se comportent comme les adeptes d'une secte.\nPourquoi faut-il se méfier du fantasme d'un sport pur ?\nParce que ce fantasme nous empêche de voir ce qui ne va pas.\nQue valorise l'auteur dans ses cours ?\nIl valorise l'effort plus que la victoire, et le respect de l'adversaire plus que le score."
+    },
+    {
+      "title": "La course sous l'orage",
+      "summary": "A school cross-country race in the forest of Brocéliande is stopped by a storm, and the pupils dry off in the village gym.",
+      "newWords": [
+        "éclair",
+        "foudre",
+        "chêne",
+        "if",
+        "aligner",
+        "mythique",
+        "gaulois",
+        "primitif",
+        "sécher",
+        "aigu"
+      ],
+      "text": "Ce samedi de novembre, le collège de Paimpont organisait sa course annuelle dans la forêt de Brocéliande. Pour les Bretons, cette forêt est un lieu mythique : on raconte que le magicien Merlin y vécut, et des touristes viennent du monde entier chercher la fontaine où il aurait rencontré la fée Viviane. Pour les 300 élèves du collège, ce jour-là, la forêt mythique était surtout un parcours de 3 kilomètres, plein de terre mouillée et de racines.\n\nMonsieur Le Gall, le professeur de sport, avait tout préparé. Le départ se trouvait près de l'église du village, à côté d'un if immense. Avant la course, il présenta l'arbre aux élèves. « L'if reste vert tout l'hiver, expliqua-t-il. C'est pourquoi on le plantait autrefois près des églises : il représentait la vie qui continue. » Il leur parla aussi des chênes de la forêt. Les Gaulois, dit-il, considéraient le chêne comme un arbre sacré, et les prêtres gaulois se réunissaient sous les plus anciens.\n\nLes élèves n'écoutaient qu'à moitié. Ils pensaient à la course. À 10 heures, les plus jeunes s'alignèrent sur la ligne de départ. Monsieur Le Gall les aligna lui-même, en trois rangs bien droits. Le son aigu de son sifflet traversa la forêt, et 80 enfants partirent en criant.\n\nMonsieur Le Gall aimait répéter que la course à pied est le sport le plus primitif qui soit : ni ballon, ni filet, seulement des jambes et un chemin. Beaucoup d'élèves trouvaient ce sport primitif moins amusant que le football. Pourtant, en arrivant, la plupart avaient les joues rouges et le sourire.\n\nVers midi, alors que les grands s'alignaient à leur tour, le ciel devint noir. Un premier éclair traversa le ciel au-dessus des chênes, suivi d'un long bruit de tonnerre. Le professeur n'hésita pas. Il donna trois coups de sifflet aigus, le signal prévu pour arrêter la course. « Quand il y a de l'orage, on ne reste jamais sous un arbre, cria-t-il. La foudre tombe souvent sur les arbres les plus hauts, comme ces vieux chênes. Tout le monde à la salle de sport ! » Un second éclair suivit, et les élèves coururent plus vite qu'ils ne l'avaient fait pendant la course.\n\nDans la salle, tout le monde était mouillé. On mit les vêtements à sécher près du chauffage, et des parents apportèrent des serviettes et du chocolat chaud. Il fallut plus d'une heure pour sécher les chaussures. On apprit le soir que la foudre était tombée sur un vieux chêne, loin du parcours, sans blesser personne.\n\nLe samedi suivant, sous un ciel bleu, les grands purent enfin courir. Monsieur Le Gall les aligna devant l'if, comme la première fois, et donna le départ.\n\nQuestions :\nPourquoi la forêt de Brocéliande est-elle un lieu mythique ?\nParce qu'on raconte que le magicien Merlin y vécut.\nQue dit le professeur sur les Gaulois et le chêne ?\nIl dit que les Gaulois considéraient le chêne comme un arbre sacré.\nPourquoi la course à pied est-elle, selon lui, un sport primitif ?\nParce qu'il n'y a ni ballon, ni filet, seulement des jambes et un chemin.\nPourquoi le professeur arrête-t-il la course ?\nParce qu'un orage arrive et que la foudre tombe souvent sur les arbres les plus hauts.\nQue fait-on dans la salle de sport ?\nOn met les vêtements à sécher près du chauffage, et des parents apportent des serviettes et du chocolat chaud."
+    },
+    {
+      "title": "Le bus à impériale",
+      "summary": "After winning the women's cup, a Lyon football team rides through the city on the top deck of a bus and shares the trophy with its fans.",
+      "newWords": [
+        "impériale",
+        "convoi",
+        "bannière",
+        "bouquet",
+        "coiffure",
+        "sceau",
+        "clown",
+        "comble",
+        "contraste",
+        "vôtre"
+      ],
+      "text": "Le dimanche soir, l'équipe féminine de football de Lyon avait gagné la Coupe de France, à Paris. Le lundi, toute la ville l'attendait.\n\nLes supporters qui avaient fait le voyage rentrèrent les premiers : un convoi de 12 cars, décorés d'écharpes rouges et bleues, arriva à Lyon vers midi. Sur l'autoroute, les automobilistes klaxonnaient en voyant passer le convoi. Les joueuses, elles, arrivèrent en train dans l'après-midi.\n\nÀ 18 heures, elles montèrent sur l'impériale d'un vieux bus anglais, prêté par une entreprise de la région. L'impériale, c'est l'étage supérieur, sans toit, de ces bus à deux niveaux. Debout sur l'impériale, la coupe à la main, les joueuses traversèrent lentement la ville, du stade jusqu'à la place des Terreaux. Le long des quais, des enfants agitaient des drapeaux. Au balcon d'un immeuble, une grande bannière disait simplement : « Merci les filles ». Plus loin, une autre bannière, peinte à la main par une école, portait le nom de chaque joueuse.\n\nCertaines joueuses avaient changé de coiffure pour la fête. La capitaine, Aïcha Benali, s'était fait tresser les cheveux aux couleurs du club, et sa coiffure fit beaucoup rire ses coéquipières. Sur la place des Terreaux, un clown en costume rouge et bleu distrayait les enfants qui attendaient depuis des heures. Quand le bus arriva enfin, le clown monta sur une caisse pour mieux voir, comme tout le monde.\n\nLa joie atteignit son comble quand le maire apparut au balcon de l'hôtel de ville. Il remit à chaque joueuse une médaille portant le sceau de la ville, le vieux lion qu'on voit sur les documents officiels depuis des siècles. On offrit aussi un bouquet de fleurs à la capitaine. Aïcha Benali leva le bouquet vers la foule, puis prit le micro. « Cette coupe n'est pas seulement la nôtre, dit-elle. C'est aussi la vôtre. Vous êtes venus nous voir quand personne ne venait. Alors, oui, elle est la vôtre. »\n\nCes mots rappelaient un contraste que beaucoup avaient en tête. Il y a 15 ans, l'équipe féminine jouait devant quelques dizaines de parents, dans un stade presque vide, et les journaux ne parlaient pas de ses matchs. Ce soir-là, plus de 20 000 personnes remplissaient la place. Le contraste entre ces deux images disait mieux qu'un discours combien le sport féminin avait changé. Le comble, plaisantait un vieux supporter, c'est qu'il faut maintenant réserver sa place pour voir jouer les filles !\n\nTard dans la soirée, le bus repartit vers le stade. Sur l'impériale, les joueuses chantaient encore.\n\nQuestions :\nComment les supporters sont-ils rentrés de Paris ?\nIls sont rentrés dans un convoi de 12 cars décorés d'écharpes.\nQu'est-ce que l'impériale d'un bus ?\nC'est l'étage supérieur, sans toit, d'un bus à deux niveaux.\nQue disait la bannière au balcon d'un immeuble ?\nElle disait : « Merci les filles ».\nQu'est-ce que le maire a remis aux joueuses ?\nIl a remis à chaque joueuse une médaille portant le sceau de la ville.\nQuel contraste beaucoup de gens avaient-ils en tête ?\nIl y a 15 ans, l'équipe jouait dans un stade presque vide ; ce soir-là, plus de 20 000 personnes remplissaient la place."
+    },
+    {
+      "title": "L'argent du football",
+      "summary": "A Brussels columnist weighs a proposal to tax television rights of professional football to help amateur clubs.",
+      "newWords": [
+        "monopole",
+        "imposition",
+        "proportionnel",
+        "minimal",
+        "déclin",
+        "fictif",
+        "caractérisé",
+        "intégrale"
+      ],
+      "text": "Le football professionnel n'a jamais gagné autant d'argent, et les petits clubs n'ont jamais eu autant de mal à survivre. Ce double constat est au cœur d'une proposition qui fait débat à Bruxelles : prélever une petite part des droits de télévision du championnat pour la donner aux clubs amateurs.\n\nRappelons d'abord le contexte. Notre époque est caractérisée par une explosion des prix. Une chaîne payante a obtenu le monopole de la diffusion des matchs de première division. Grâce à ce monopole, elle fixe librement ses tarifs. Pour suivre l'intégrale du championnat, un supporter doit aujourd'hui payer un abonnement de près de 30 euros par mois. Pendant ce temps, dans les quartiers, les clubs de jeunes connaissent un lent déclin. Les bénévoles se font rares, les terrains vieillissent, et les cotisations augmentent. Dans les communes les plus pauvres, on parle même d'un déclin caractérisé.\n\nPrenons un exemple fictif, mais proche de la réalité. Un club amateur d'Anderlecht compte 200 enfants. Il paie l'électricité, l'entretien du terrain, les déplacements. S'il recevait une somme proportionnelle au nombre de ses jeunes licenciés, ne serait-ce que 20 euros par enfant, il pourrait baisser les cotisations des familles. L'idée d'une aide proportionnelle a un avantage : elle récompense les clubs qui accueillent le plus de monde, et non les plus connus.\n\nLes défenseurs de la proposition rappellent que le football professionnel profite de ces clubs, alors que le supporter qui paie pour l'intégrale du championnat ne leur verse pas un centime. Les grands joueurs ont presque tous commencé dans un petit club de quartier. Une contribution minimale serait donc une manière de rendre ce qu'on a reçu. Ils ajoutent que l'imposition des salaires des joueurs ne suffit pas à financer le sport amateur.\n\nLes adversaires, eux, ne manquent pas d'arguments. Une nouvelle imposition, disent-ils, rendrait les clubs belges moins riches que leurs voisins, qui achèteraient alors nos meilleurs joueurs. Ils craignent aussi que l'argent se perde dans l'administration, et que les clubs fictifs, qui n'existent que sur le papier, en profitent. Ce risque n'est pas imaginaire : on a déjà vu des associations fictives toucher des aides publiques.\n\nOù se situer ? Il me semble que les deux camps ont raison sur un point. Une aide est juste, mais elle doit rester simple et contrôlée. Une contribution minimale, de 1 % par exemple, ne mettrait en danger aucun grand club. Proportionnelle au nombre réel d'enfants inscrits, et vérifiée chaque année, elle éviterait les clubs fictifs. Le monopole de la télévision n'est pas près de disparaître, et une telle imposition ne serait pas une punition. Ce serait simplement une façon de rappeler que le football commence sur les terrains de quartier, et que c'est là qu'il faut arrêter le déclin.\n\nQuestions :\nQuelle proposition fait débat à Bruxelles ?\nPrélever une part des droits de télévision du championnat pour la donner aux clubs amateurs.\nQue permet à la chaîne payante son monopole ?\nIl lui permet de fixer librement ses tarifs.\nQue pourrait faire le club fictif d'Anderlecht avec une aide proportionnelle ?\nIl pourrait baisser les cotisations des familles.\nQue craignent les adversaires de la proposition ?\nIls craignent que les clubs belges deviennent moins riches et que des clubs fictifs profitent de l'argent.\nQuelle solution l'auteur propose-t-il ?\nUne contribution minimale, proportionnelle au nombre réel d'enfants inscrits et vérifiée chaque année."
+    },
+    {
+      "title": "Cent ans dans un grenier",
+      "summary": "In Fribourg, a grandfather and his granddaughter go through the attic of their football club to prepare an exhibition for its hundredth birthday.",
+      "newWords": [
+        "grenier",
+        "expo",
+        "découper",
+        "roumain",
+        "sergent",
+        "crash",
+        "triangle",
+        "confrontation"
+      ],
+      "text": "Le club de football du quartier de l'Auge, à Fribourg, fête ses 100 ans cette année. Pour l'occasion, le comité a décidé d'organiser une exposition dans la salle paroissiale. Les jeunes du club l'appellent simplement « l'expo ». Il restait à trouver de quoi la remplir. C'est ainsi que Paul Bersier, 81 ans, ancien gardien de but, et sa petite-fille Lucie sont montés un samedi matin au grenier du club.\n\nLe grenier se trouve sous le toit de la vieille maison qui sert de local au club. On y accède par un escalier étroit. Il y faisait froid, et une épaisse poussière couvrait tout : des caisses, des ballons crevés, des chaussures aux crampons de cuir. « Personne n'est monté au grenier depuis 20 ans », dit Paul en ouvrant la première caisse.\n\nElle contenait des fanions, ces petits drapeaux en forme de triangle que les capitaines échangent avant les matchs. Lucie en compta plus de 50. Sur chaque triangle de tissu, on lisait le nom d'un club et une date. Le plus ancien datait de 1931.\n\nDans une autre caisse, ils trouvèrent un dossier avec une photo du fondateur du club, un sergent de l'armée suisse, en uniforme. Le sergent Louis Gremaud avait créé le club en 1925 pour occuper les jeunes du quartier le dimanche. « Il paraît qu'il les faisait courir comme des soldats », raconta Paul.\n\nLe trésor, pourtant, était ailleurs : un gros classeur rempli d'articles de journaux. Paul les reconnut aussitôt. Pendant 60 ans, il avait découpé dans les journaux tout ce qui parlait du club. « Ma femme disait que je découpais plus que je ne lisais », sourit-il. Beaucoup d'articles racontaient une confrontation avec l'éternel rival, le club de Bulle. Ces confrontations attiraient parfois tout le canton. Un autre article parlait de l'entraîneur roumain qui avait dirigé l'équipe dans les années 1970. Venu de Bucarest, il parlait mal le français, mais tout le monde le comprenait sur le terrain. L'entraîneur roumain avait mené le club à sa plus belle saison.\n\nLucie s'arrêta sur un article de 1962, avec une photo surprenante : un petit avion couché au milieu du terrain. Paul se souvenait très bien de ce jour. Le moteur de l'avion était tombé en panne, et le pilote avait choisi le stade pour se poser. « Le crash a fait plus de peur que de mal, dit Paul. Le pilote est sorti seul de l'avion. Mais il a fallu reporter le match ! » Le crash avait fait la une du journal local.\n\nLe soir, ils redescendirent avec quatre caisses. L'expo ouvrira ses portes le mois prochain. Les fanions en triangle seront accrochés au mur, la photo du sergent à l'entrée, et le classeur de Paul sera posé sur une table, pour que chacun puisse le feuilleter.\n\nQuestions :\nPourquoi Paul et Lucie montent-ils au grenier du club ?\nPour trouver de quoi remplir l'expo des 100 ans du club.\nQu'est-ce qu'un fanion ?\nC'est un petit drapeau en forme de triangle que les capitaines échangent avant les matchs.\nQui a fondé le club ?\nUn sergent de l'armée suisse, Louis Gremaud, en 1925.\nQu'est-ce que Paul avait découpé pendant 60 ans ?\nIl avait découpé dans les journaux tous les articles qui parlaient du club.\nQue s'était-il passé en 1962 ?\nUn petit avion en panne s'était posé sur le terrain ; le crash avait fait plus de peur que de mal."
+    },
+    {
+      "title": "Journal d'un premier semestre",
+      "summary": "In her diary, a student athlete at a university in Quebec City describes her first semester in modern pentathlon, from jealousy to friendship.",
+      "newWords": [
+        "laser",
+        "routine",
+        "semestre",
+        "maïs",
+        "espion",
+        "croisière",
+        "supplément",
+        "jalousie"
+      ],
+      "text": "Québec, le 2 septembre\n\nPremier jour à l'université. Je commence un programme qui permet de suivre des études de sciences tout en m'entraînant au pentathlon moderne. Ce sport réunit cinq épreuves, dont la natation et une course mêlée de tir. On y tire avec un pistolet laser, sans balles, sur une petite cible. Le laser ne fait de mal à personne. Le semestre sera long. Ma mère a payé un supplément pour que j'aie une chambre près de la piscine. Je lui ai promis de mériter ce supplément.\n\nQuébec, le 20 septembre\n\nMa routine est fixée : réveil à 5 h 30, piscine, cours de 9 heures à midi, course ou tir l'après-midi, devoirs le soir. Cette routine me fatigue, mais elle me rassure. Dans l'équipe, il y a Maude, qui vient de Rimouski. Elle tire mieux que moi au laser et va plus vite dans l'eau. J'ai honte de l'écrire, mais je ressens de la jalousie chaque fois qu'elle gagne.\n\nQuébec, le 12 octobre\n\nPremière compétition, à Sherbrooke. Avant la course, un homme nous observait et prenait des notes. J'ai dit à Maude, en riant à moitié : « C'est un espion d'une autre équipe ! » Notre entraîneur nous a expliqué que ce n'était pas un espion, seulement un juge qui vérifiait le matériel. J'ai terminé loin derrière. Maude a terminé deuxième. Cette fois, je n'ai ressenti aucune jalousie, seulement de la fatigue.\n\nQuébec, le 25 octobre\n\nAprès l'entraînement, l'équipe a fêté l'automne avec une épluchette de blé d'Inde, chez l'entraîneur. Au Québec, on appelle le maïs « blé d'Inde », et une épluchette est une fête où l'on enlève les feuilles du maïs avant de le faire cuire. J'ai mangé beaucoup trop de maïs. Maude s'est assise à côté de moi et m'a avoué qu'elle avait peur de rater son semestre : elle a du mal en chimie. Je suis bonne en chimie. Elle est bonne au laser. Nous avons fait un échange.\n\nQuébec, le 30 novembre\n\nDepuis un mois, nous travaillons ensemble à la bibliothèque, et elle m'aide au tir. Mon entraîneur dit que j'ai enfin trouvé mon « rythme de croisière » : je ne pars plus trop vite, je tiens mon allure jusqu'au bout. Ce rythme de croisière, je le dois en partie à Maude, qui court à côté de moi le matin.\n\nQuébec, le 18 décembre\n\nFin du semestre. J'ai réussi tous mes examens, et Maude aussi, même la chimie ! Ma routine du matin ne me fait plus peur. Je pense encore à la jalousie du mois de septembre et je la comprends mieux : je ne connaissais pas encore Maude. Demain, je rentre chez mes parents pour les fêtes.\n\nQuestions :\nComment tire-t-on dans ce sport ?\nOn tire avec un pistolet laser, sans balles, sur une petite cible.\nPourquoi la mère de l'étudiante a-t-elle payé un supplément ?\nPour que sa fille ait une chambre près de la piscine.\nQui était l'homme qui prenait des notes à Sherbrooke ?\nCe n'était pas un espion, mais un juge qui vérifiait le matériel.\nComment appelle-t-on le maïs au Québec ?\nOn l'appelle « blé d'Inde ».\nComment l'étudiante et Maude s'aident-elles ?\nL'étudiante aide Maude en chimie, et Maude l'aide au tir."
+    }
+  ]
+}

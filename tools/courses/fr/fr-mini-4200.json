@@ -1,0 +1,216 @@
+{
+  "id": "fr-mini-4200",
+  "rankUpTo": 4200,
+  "level": "C1",
+  "title": "Architecture et patrimoine",
+  "description": "Ten portraits, interviews, columns, reviews and reports on old buildings given a new life: a village organ in Vaud, a border station in Hainaut, the citadel of Montpellier, a former prison in Lyon, a Roman dig in Nîmes, a Wendat longhouse near Quebec City, the Neuchâtel observatory, a football stand near Liège, an old Montreal bank and the great mosque of Djenné.",
+  "topic": "Architecture and heritage",
+  "names": [
+    "Margaux",
+    "Favre",
+    "Corcelles",
+    "Vaud",
+    "Cuendet",
+    "Louis",
+    "Hainaut",
+    "Sophie",
+    "Lambert",
+    "Europe",
+    "Paris",
+    "Montpellier",
+    "Joffre",
+    "XIII",
+    "Lyon",
+    "Perrache",
+    "Nîmes",
+    "Hélène",
+    "Égypte",
+    "Wendake",
+    "Québec",
+    "Wendats",
+    "Bernard",
+    "Jeanneret",
+    "Neuchâtel",
+    "Marcel",
+    "Dewez",
+    "Liège",
+    "Allemagne",
+    "Jean",
+    "Halleux",
+    "Seraing",
+    "Montréal",
+    "Canada",
+    "Jacques",
+    "Djenné",
+    "Mali"
+  ],
+  "lessons": [
+    {
+      "title": "La voix retrouvée de l'orgue",
+      "summary": "A shy organ builder restores the village organ in Vaud, paid for long ago by a doctor's will, and finds what silenced its D.",
+      "newWords": [
+        "timide",
+        "notable",
+        "testament",
+        "deuil",
+        "sourd",
+        "étouffer",
+        "ré",
+        "référer",
+        "manipuler"
+      ],
+      "text": "Margaux Favre n'aime pas beaucoup parler d'elle. Elle est timide, et elle le reconnaît en souriant : « Je suis plus à l'aise avec les instruments qu'avec les gens. » Pourtant, depuis le printemps, tout le village de Corcelles, dans le canton de Vaud, connaît son nom. C'est elle qui a rendu sa voix à l'orgue de l'église.\n\nCet orgue a une histoire. En 1842, un notable du village, le médecin Louis Cuendet, mourut sans enfants. Dans son testament, il laissa une somme importante « pour que l'église ait enfin un orgue digne d'elle ». Le testament précisait même que l'instrument devait jouer « aux jours de fête comme aux jours de deuil ». Pendant plus d'un siècle, l'orgue accompagna donc les mariages comme les adieux aux morts. Bien des familles en deuil se souviennent encore de sa voix grave et douce.\n\nAvec les années, pourtant, cette voix avait vieilli. Le son devenait sourd, comme étouffé derrière un mur. Certaines notes ne sortaient plus du tout. Le ré, en particulier, restait silencieux : quand le musicien appuyait sur la touche, on n'entendait qu'un souffle sourd.\n\nLa commune fit appel à Margaux. Avant de toucher à quoi que ce soit, la jeune femme passa deux semaines à lire. Elle se référa aux plans du premier constructeur, conservés aux archives du canton, et elle lut aussi le testament du docteur Cuendet. « Il faut toujours se référer à l'intention de départ, explique-t-elle. On ne remet pas un instrument en état pour le rendre moderne, mais pour qu'il retrouve son caractère. »\n\nPuis vint le travail des mains. Les tuyaux les plus anciens sont si fragiles qu'il faut les manipuler avec des gants, un par un. Margaux les manipula tous, près de 600, en notant l'état de chacun. Elle comprit vite pourquoi le son était étouffé : la poussière de cinquante années bouchait une partie des tuyaux. Quant au ré silencieux, la cause était plus simple encore. Une souris avait construit son nid dans le tuyau, et ce nid de papier et d'herbe étouffait complètement la note.\n\n« J'ai ri toute seule dans l'église, raconte Margaux. Plus d'un siècle de musique, et un nid de souris ! »\n\nLe jour du premier concert, l'église était pleine. La jeune femme, trop timide pour se montrer, resta assise au dernier rang. Quand le musicien joua le premier ré, clair et plein, quelques personnes se retournèrent pour la regarder. Elle devint toute rouge, mais cette fois, elle ne baissa pas les yeux.\n\nQuestions :\nPourquoi l'église a-t-elle un orgue ?\nParce qu'un notable du village, le médecin Louis Cuendet, a laissé dans son testament une somme pour l'acheter.\nQu'était devenu le son de l'orgue avec les années ?\nIl était devenu sourd, comme étouffé derrière un mur, et le ré restait silencieux.\nPourquoi Margaux s'est-elle référée aux plans et au testament ?\nParce qu'elle voulait respecter l'intention de départ et rendre à l'orgue son caractère.\nPourquoi faut-il manipuler les tuyaux avec des gants ?\nParce que les tuyaux les plus anciens sont très fragiles.\nQu'est-ce qui étouffait le ré ?\nLe nid qu'une souris avait construit dans le tuyau."
+    },
+    {
+      "title": "Une gare pour lire",
+      "summary": "An interview with the woman who turned a closed border station in Hainaut into a library, with the help of retired railwaymen.",
+      "newWords": [
+        "ferroviaire",
+        "passeport",
+        "vérification",
+        "budgétaire",
+        "retraité",
+        "insuffisant",
+        "solliciter",
+        "agglomération",
+        "réservoir",
+        "engin",
+        "renouvellement"
+      ],
+      "text": "Dans une petite ville du Hainaut, tout près de la frontière française, l'ancienne gare vient de rouvrir ses portes. Elle n'accueille plus de trains, mais des lecteurs : c'est désormais une bibliothèque moderne, une médiathèque. Nous avons rencontré Sophie Lambert, qui a dirigé le projet pour la commune.\n\n— Madame Lambert, que représentait cette gare pour les habitants ?\n\n— Beaucoup plus qu'un bâtiment ferroviaire. Elle a été construite en 1882, à l'ouverture de la ligne vers Paris. Comme nous sommes à la frontière, chaque train s'arrêtait ici pour la vérification des passeports et des bagages. Il y avait une grande salle où les voyageurs attendaient, leur passeport à la main, pendant que les douaniers ouvraient les valises. Pour une petite ville, c'était une fenêtre sur l'Europe.\n\n— Et ensuite ?\n\n— Ensuite, les frontières se sont ouvertes. Plus de passeport à montrer, plus de vérification. Les trains ont cessé de s'arrêter, et la gare a fermé en 1995. Pendant vingt ans, elle est restée vide.\n\n— Pourquoi ne pas l'avoir démolie ?\n\n— On y a pensé, je ne vous le cache pas. Les moyens budgétaires de la commune sont limités, et la restauration coûtait cher. Mais les habitants tenaient à leur gare. Un groupe de cheminots retraités, d'anciens employés du chemin de fer, a créé une association pour sauver le bâtiment. Ces retraités en connaissaient chaque mur et chaque porte.\n\n— Comment avez-vous trouvé l'argent ?\n\n— Notre budget seul était insuffisant, c'est évident. Nous avons donc sollicité la Région wallonne, puis l'Union européenne. Nous avons aussi sollicité les communes voisines, car la médiathèque sert toute l'agglomération, et pas seulement notre ville. Les autres communes de l'agglomération ont accepté de participer, même si, pour certaines, l'effort budgétaire était réel.\n\n— Qu'avez-vous gardé du passé ferroviaire ?\n\n— Le plus possible. La grande salle des passeports est devenue la salle de lecture. Le vieux guichet sert de bureau d'accueil. Et nous avons gardé le château d'eau, avec son réservoir. Autrefois, les locomotives à vapeur avaient besoin de beaucoup d'eau, et ce réservoir leur en fournissait. Aujourd'hui, le réservoir est vide et sec, et nous y avons installé le coin des enfants.\n\n— Et les trains ?\n\n— Il en reste un ! Les retraités ont restauré un vieil engin de manœuvre, une petite locomotive qui déplaçait les wagons dans la gare. L'engin est posé sur un bout de voie, devant l'entrée, et les enfants adorent grimper dessus.\n\n— Le projet est donc terminé ?\n\n— Un bâtiment n'est jamais terminé. L'entretien du toit, le renouvellement des collections, tout cela demande de l'argent chaque année. Le renouvellement des livres, surtout, est essentiel : une médiathèque qui ne change pas meurt lentement. Mais quand je vois des jeunes travailler là où mes grands-parents montraient leur passeport, je me dis que nous avons eu raison.\n\nQuestions :\nPourquoi les trains s'arrêtaient-ils autrefois dans cette gare ?\nParce que la gare était à la frontière et qu'on y faisait la vérification des passeports et des bagages.\nQui a aidé la commune à sauver le bâtiment ?\nUn groupe de cheminots retraités, qui a créé une association.\nComment la commune a-t-elle trouvé l'argent ?\nComme son budget était insuffisant, elle a sollicité la Région wallonne, l'Union européenne et les communes de l'agglomération.\nÀ quoi servait autrefois le réservoir du château d'eau ?\nIl fournissait de l'eau aux locomotives à vapeur.\nQu'est-ce qui demande encore de l'argent chaque année ?\nL'entretien du toit et le renouvellement des collections."
+    },
+    {
+      "title": "Une forteresse pleine d'élèves",
+      "summary": "A history teacher in Montpellier tells his new pupils why their school is a citadel built to keep the city under control.",
+      "newWords": [
+        "hostile",
+        "alentours",
+        "tragique",
+        "angoisse",
+        "raser",
+        "mater",
+        "protecteur",
+        "cruel",
+        "mutation",
+        "chaos"
+      ],
+      "text": "Chaque année, en septembre, je vois arriver des élèves un peu perdus. Il y a de quoi : leur lycée est une forteresse. À Montpellier, une partie du lycée Joffre occupe la citadelle construite sous le roi Louis XIII, et les nouveaux élèves franchissent de lourdes portes avant de rejoindre leur salle de classe. Je leur raconte toujours la même histoire, parce qu'elle explique les murs qui les entourent.\n\nAu début du 17e siècle, Montpellier était une ville protestante, et elle se montrait hostile au roi, qui était catholique. En 1622, l'armée royale vint faire le siège de la ville. Pendant des semaines, les alentours furent dévastés : les champs, les vignes et les maisons situées hors des murs furent brûlés. Ce fut une période tragique. Les habitants vivaient dans l'angoisse, sans savoir si la ville tiendrait. Finalement, une paix fut signée. Mais le roi ne faisait pas confiance à cette ville hostile. Il ordonna de raser une grande partie des murs qui la protégeaient, et il fit construire, juste à côté, une citadelle.\n\nOfficiellement, la citadelle devait défendre la ville. En réalité, elle servait aussi à la mater. Il suffit de regarder le plan pour le comprendre : une partie des canons n'était pas tournée vers les alentours, mais vers les rues de Montpellier. Mater une ville, c'est cela : la garder sous les yeux et lui faire comprendre qu'elle ne peut plus se révolter. Des murs qu'on avait crus protecteurs étaient devenus une menace.\n\nMes élèves trouvent souvent le procédé cruel, et ils ont raison. L'histoire est parfois cruelle. Je leur explique pourtant qu'elle ne s'arrête pas là, car les murs restent, mais leur sens change. La citadelle a connu plusieurs mutations : forteresse, puis caserne pendant près de trois siècles, enfin lycée. Chaque mutation a laissé ses traces, et les élèves apprennent vite à les reconnaître.\n\nIl y a quelque chose de beau dans cette dernière mutation. Un lieu construit pour mater une ville accueille aujourd'hui ses enfants. Les canons ont disparu ; à leur place, il y a des terrains de sport. Le matin, c'est un joyeux chaos de sacs, de vélos et de cris, un chaos que les soldats de Louis XIII n'auraient jamais toléré.\n\nBien sûr, l'angoisse n'a pas tout à fait quitté les lieux. En juin, avant les examens, je la vois sur les visages. Mais c'est une angoisse ordinaire, qui passe, et non l'angoisse tragique des habitants de 1622. Les murs, eux, sont devenus protecteurs pour de bon. Ils abritent des adolescents qui apprennent, entre autres choses, qu'on ne rase pas toujours ce qui nous a fait peur. Parfois, on le garde et on lui donne un autre rôle.\n\nQuestions :\nPourquoi le roi se méfiait-il de Montpellier ?\nParce que c'était une ville protestante, hostile au roi catholique.\nQu'a ordonné le roi après la paix ?\nIl a ordonné de raser une grande partie des murs de la ville et de construire une citadelle juste à côté.\nComment voit-on que la citadelle servait aussi à mater la ville ?\nUne partie des canons était tournée vers les rues de Montpellier, et non vers les alentours.\nQuelles mutations la citadelle a-t-elle connues ?\nElle a été une forteresse, puis une caserne, et elle est enfin devenue un lycée.\nQuelle différence l'auteur fait-il entre l'angoisse des élèves et celle des habitants de 1622 ?\nL'angoisse des élèves est ordinaire et passe, tandis que celle des habitants était tragique."
+    },
+    {
+      "title": "Étudier entre les murs d'une prison",
+      "summary": "A short essay weighs whether a former prison turned into a university should hide or show the traces of its past.",
+      "newWords": [
+        "détention",
+        "masquer",
+        "confortable",
+        "foncé",
+        "violation",
+        "choquer",
+        "confronter",
+        "librement",
+        "interaction",
+        "philosophique"
+      ],
+      "text": "À Lyon, près de la gare de Perrache, d'anciennes prisons du 19e siècle sont devenues un campus universitaire. Là où des hommes vivaient en détention, des étudiants suivent aujourd'hui des cours de droit, de langues ou d'économie. Cette transformation a été saluée par beaucoup. Elle pose pourtant une question qui dépasse Lyon : que faire des traces d'un lieu de détention quand on lui donne une nouvelle vie ?\n\nUne première réponse consiste à tout masquer. On peint les murs de couleurs claires, on retire les barreaux, on transforme les cellules en bureaux confortables. Les partisans de cette solution ont des arguments sérieux. On ne peut pas, disent-ils, demander à des jeunes de vingt ans de travailler chaque jour dans un décor de souffrance. Une salle de cours doit être lumineuse et confortable ; un couloir étroit, aux murs foncés, qui rappelle sans cesse la détention, gênerait le travail.\n\nLa seconde réponse est inverse : ne rien masquer, et même montrer. Pour ses défenseurs, effacer les traces de la détention serait une forme d'oubli, et l'oubli a toujours un prix. Une prison raconte des histoires difficiles : la pauvreté, la violence, parfois la violation des droits les plus simples. Faut-il cacher qu'il y a eu, entre ces murs, des violations de la dignité humaine ? Ces histoires peuvent choquer. Mais faut-il protéger les étudiants de tout ce qui risque de les choquer ? Une université est justement un lieu où l'on apprend à se confronter à la réalité, et non à l'éviter.\n\nÀ Lyon, les architectes ont cherché un chemin entre les deux. Ils ont gardé la forme générale des bâtiments, avec leurs longues ailes et leurs cours, et quelques éléments anciens, comme de vieilles portes au bois foncé. Ailleurs, ils ont ouvert de larges fenêtres et créé des espaces où l'on circule librement. Le contraste est frappant : là où les détenus ne pouvaient pas quitter leur cellule, les étudiants entrent et sortent librement, se rencontrent, discutent. Les architectes parlent volontiers d'interaction. Un campus vit des interactions entre les gens, alors qu'une prison est conçue pour les empêcher.\n\nCe compromis ne règle pas la question philosophique de fond : peut-on vraiment habiter un lieu sans hériter de son passé ? Je n'ai pas de réponse définitive. Il me semble seulement qu'un étudiant qui passe devant une ancienne porte de cellule, avant d'entrer dans une salle confortable, reçoit une leçon qu'aucun cours ne donne. Il est confronté, l'espace d'un instant, à la liberté qu'il a et que d'autres n'avaient pas. C'est peut-être la meilleure réponse à une question philosophique : non pas un discours, mais une expérience.\n\nQuestions :\nQue sont devenues les anciennes prisons de Perrache ?\nElles sont devenues un campus universitaire.\nPourquoi certains veulent-ils masquer les traces de la détention ?\nParce qu'à leur avis, on ne peut pas demander à des jeunes de travailler chaque jour dans un décor de souffrance.\nPourquoi d'autres refusent-ils de tout masquer ?\nParce qu'effacer ces traces serait une forme d'oubli, et qu'une université doit apprendre à se confronter à la réalité.\nQu'ont fait les architectes de Lyon ?\nIls ont gardé la forme des bâtiments et quelques éléments anciens, mais ils ont ouvert de larges fenêtres et créé des espaces où l'on circule librement.\nÀ quoi un étudiant est-il confronté quand il passe devant une ancienne porte de cellule ?\nIl est confronté à la liberté qu'il a et que d'autres n'avaient pas."
+    },
+    {
+      "title": "Carnet de fouilles",
+      "summary": "A student keeps a diary of his three weeks on a rescue dig in Nîmes, from shepherds' animal bones to a Roman house.",
+      "newWords": [
+        "fouiller",
+        "carnet",
+        "recouvert",
+        "identification",
+        "bœuf",
+        "berger",
+        "manipulation",
+        "céréale",
+        "légion",
+        "exploration"
+      ],
+      "text": "Lundi. Ce matin, j'ai commencé mon stage de trois semaines sur un chantier de fouilles, à Nîmes. Avant la construction d'un parking, la loi oblige à fouiller le terrain, pour vérifier qu'il ne cache rien d'important. Notre responsable, Hélène, m'a donné un carnet. « Tu noteras tout dans ce carnet, m'a-t-elle dit : ce que tu trouves, à quel endroit, à quelle profondeur. Un objet sans notes ne vaut presque rien. »\n\nMardi. Le terrain était recouvert d'une épaisse couche de terre moderne. Une machine a retiré cette couche ; ensuite, on travaille à la main. Fouiller, c'est surtout gratter, très lentement, avec une petite pelle et une brosse.\n\nJeudi. Première découverte : des os, beaucoup d'os. Hélène les a examinés et a fait l'identification en quelques minutes : ce sont des os de bœuf et de mouton. Les bœufs servaient sans doute aux travaux des champs. Pour Hélène, il n'y a pas de doute : bien avant la ville romaine, des bergers vivaient ici avec leurs troupeaux.\n\nVendredi. Hélène m'a appris les règles de manipulation des objets. On ne prend jamais un objet fragile à pleines mains ; on le soulève avec la terre qui l'entoure. Une mauvaise manipulation peut détruire en une seconde ce que la terre a gardé pendant deux mille ans. J'ai écrit cette phrase en grand dans mon carnet.\n\nLundi suivant. Grande journée ! Sous les traces des bergers, nous avons atteint la couche romaine. Il y a les restes d'une maison, avec un sol recouvert de petits carreaux de couleur. Dans un coin, un pot contenait encore des grains brûlés. Après identification au laboratoire, nous saurons de quelles céréales il s'agit : du blé, peut-être de l'orge. Ces céréales nous diront ce que mangeaient les habitants.\n\nMercredi. Hélène nous a parlé de la légion. Selon la tradition, Nîmes fut peuplée en partie par d'anciens soldats d'une légion romaine qui avaient combattu en Égypte. C'est pour cela que le crocodile figure encore sur les armes de la ville. « Peut-être que cette maison appartenait à un ancien soldat de la légion », a dit Hélène. Puis elle a ajouté : « Peut-être. Nous n'en savons rien. Ne l'écris pas comme un fait dans ton carnet. »\n\nVendredi. C'est le dernier jour de mon stage. L'exploration du terrain n'est pas finie ; elle durera encore deux mois. Ensuite, le parking sera construit, et tout sera de nouveau recouvert. Hélène, elle, reste sereine : « Le site disparaîtra, mais pas ce que nous avons appris. Une exploration bien faite, c'est un livre qu'on écrit avant de refermer la porte. » Mon carnet est plein, et je crois que je reviendrai l'an prochain.\n\nQuestions :\nPourquoi faut-il fouiller le terrain avant de construire le parking ?\nParce que la loi oblige à vérifier que le terrain ne cache rien d'important.\nPourquoi Hélène donne-t-elle un carnet au narrateur ?\nPour qu'il y note tout ce qu'il trouve, à quel endroit et à quelle profondeur.\nQue montrent les os de bœuf et de mouton ?\nIls montrent qu'avant la ville romaine, des bergers vivaient ici avec leurs troupeaux.\nPourquoi faut-il faire attention à la manipulation des objets ?\nParce qu'une mauvaise manipulation peut détruire en une seconde ce que la terre a gardé pendant deux mille ans.\nPourquoi le crocodile figure-t-il sur les armes de Nîmes ?\nSelon la tradition, la ville fut peuplée en partie par d'anciens soldats d'une légion romaine qui avaient combattu en Égypte."
+    },
+    {
+      "title": "La maison longue racontée aux enfants",
+      "summary": "A mother reviews the illustrated booklet a museum in Wendake has published for children visiting a rebuilt Wendat longhouse.",
+      "newWords": [
+        "éditer",
+        "éducatif",
+        "livret",
+        "autochtone",
+        "loger",
+        "pacte",
+        "respectif",
+        "tailler",
+        "illustré",
+        "colonisation"
+      ],
+      "text": "Le musée de Wendake, près de Québec, vient d'éditer un livret éducatif destiné aux enfants de 8 à 12 ans. Ce livret accompagne la visite de la maison longue reconstruite à côté du musée. Je l'ai lu avec ma fille de dix ans, puis nous avons fait la visite ensemble. Voici notre avis.\n\nD'abord, le contenu. Le livret explique comment les Wendats, un peuple autochtone de la région, vivaient avant l'arrivée des Européens. Une maison longue pouvait loger plusieurs familles, parfois une trentaine de personnes. Chaque famille avait sa place le long d'un couloir central, et deux familles voisines partageaient le même feu. Le texte montre bien que cette vie commune reposait sur un pacte : chaque famille gardait sa place respective, mais le feu, la nourriture et le travail se partageaient. Ma fille a été frappée par ce pacte. « Il fallait vraiment bien s'entendre pour loger tous ensemble ! » a-t-elle remarqué.\n\nLe livret décrit aussi la construction. On taillait de longues perches dans le bois de jeunes arbres, on les plantait en terre et on les courbait pour former le toit. Puis on recouvrait le tout de grandes plaques d'écorce. Une double page illustrée montre chaque étape, et les dessins sont si clairs qu'un enfant peut suivre sans aide. Sur place, nous avons vu des outils qui servaient à tailler le bois, et ma fille les a reconnus tout de suite grâce au livret.\n\nCe qui m'a le plus plu, c'est le ton. Le livret ne cache pas les questions difficiles. Il parle de la colonisation, des maladies arrivées avec les Européens, des terres perdues. Mais il en parle simplement, sans chercher à effrayer, et il donne la parole à des Wendats d'aujourd'hui. Une page illustrée présente une grand-mère de Wendake et son petit-fils, qui expliquent ce que la maison longue représente pour eux. On comprend ainsi que la colonisation n'est pas une simple page du passé, puisqu'elle a encore des conséquences aujourd'hui.\n\nJ'ai toutefois quelques réserves. Le livret est un peu court : 24 pages, c'est peu pour un sujet aussi riche. Et les rôles respectifs des hommes et des femmes sont présentés trop rapidement ; j'aurais aimé que ma fille apprenne, par exemple, que les femmes avaient une grande autorité dans la maison longue.\n\nMalgré ces réserves, ce livret éducatif est une réussite. Il est vendu à petit prix à l'entrée du musée, et je conseille aux parents de l'acheter avant la visite. Il est rare qu'un outil éducatif soit à la fois si simple et si respectueux du peuple autochtone dont il parle. Il reste à souhaiter que le musée édite bientôt une suite.\n\nQuestions :\nQui a édité le livret, et pour qui ?\nLe musée de Wendake l'a édité pour les enfants de 8 à 12 ans.\nCombien de personnes une maison longue pouvait-elle loger ?\nElle pouvait loger plusieurs familles, parfois une trentaine de personnes.\nSur quel pacte reposait la vie dans la maison longue ?\nChaque famille gardait sa place respective, mais le feu, la nourriture et le travail se partageaient.\nComment le livret parle-t-il de la colonisation ?\nIl en parle simplement, sans chercher à effrayer, et il donne la parole à des Wendats d'aujourd'hui.\nQuelles réserves l'auteure fait-elle ?\nLe livret est un peu court, et les rôles respectifs des hommes et des femmes sont présentés trop rapidement."
+    },
+    {
+      "title": "Le chirurgien des horloges",
+      "summary": "A portrait of a retired heart surgeon who spent two years bringing an old clock of the Neuchâtel observatory back to life.",
+      "newWords": [
+        "chirurgien",
+        "observatoire",
+        "radar",
+        "exploit",
+        "gène",
+        "aiguille",
+        "détermination",
+        "compatible",
+        "cérébral",
+        "flou"
+      ],
+      "text": "Pendant quarante ans, Bernard Jeanneret a opéré des cœurs à l'hôpital de Neuchâtel. Ce chirurgien connu a pris sa retraite à 68 ans. « J'avais peur de m'ennuyer, avoue-t-il. Un chirurgien a l'habitude d'avoir les mains occupées toute la journée. » Depuis six ans, ses mains ont trouvé un nouveau travail : il répare les vieilles horloges de l'observatoire de la ville.\n\nL'observatoire de Neuchâtel, construit sur une colline au-dessus du lac, est longtemps passé sous le radar des touristes. Il a pourtant joué un rôle essentiel dans l'histoire de la région. Fondé en 1858, il devait donner l'heure exacte aux fabricants de montres du canton. Chaque année, il organisait aussi des concours : les meilleures montres y étaient testées pendant des semaines, dans différentes positions et à différentes températures. Gagner un concours de l'observatoire était un exploit dont une entreprise parlait pendant des années.\n\n« La précision est dans les gènes de cette région, dit Bernard. Ici, tout le monde a un grand-père ou une tante qui travaillait dans l'horlogerie. » Lui-même a hérité de ces gènes : son père était horloger, et le petit Bernard passait ses mercredis dans l'atelier familial, à regarder tourner les aiguilles.\n\nÀ l'âge où d'autres se reposent, il montre une détermination étonnante. Il travaille trois matins par semaine à l'observatoire. La plus belle, une grande horloge de 1860, avait cessé de fonctionner depuis un demi-siècle. Ses aiguilles étaient bloquées sur 4 h 12. Il a fallu à Bernard deux ans de détermination pour la remettre en marche, un véritable exploit. Le plus difficile fut de trouver des pièces compatibles : les fabricants ont disparu depuis longtemps, et une pièce moderne n'est presque jamais compatible avec un mécanisme si ancien. Il a donc fabriqué lui-même plusieurs petites pièces, à la main. Les pièces les plus fines lui paraissent parfois floues : il travaille alors avec une loupe.\n\nOn pourrait croire que la chirurgie et l'horlogerie n'ont rien en commun. Bernard n'est pas d'accord. « Dans les deux cas, le travail est à la fois manuel et très cérébral, explique-t-il. Avant de toucher à quoi que ce soit, il faut comprendre tout le système. Un geste flou, une seconde d'hésitation, et c'est fini. »\n\nLe jour où la grande horloge s'est remise à battre et où ses aiguilles ont recommencé à avancer, Bernard a dû s'asseoir. « C'était aussi fort qu'une opération réussie », dit-il. Bien sûr, à l'époque des radars et des satellites, personne n'a plus besoin de cette horloge pour connaître l'heure. Mais ce n'était pas le but. Pour ce chirurgien à la retraite, il s'agissait de rendre la vie à un témoin du passé.\n\nQuestions :\nQuel métier Bernard Jeanneret a-t-il exercé pendant quarante ans ?\nIl était chirurgien à l'hôpital de Neuchâtel.\nPourquoi l'observatoire a-t-il été fondé ?\nPour donner l'heure exacte aux fabricants de montres du canton.\nPourquoi a-t-il été si difficile de réparer la grande horloge ?\nParce qu'il fallait des pièces compatibles avec un mécanisme très ancien, et Bernard a dû en fabriquer plusieurs lui-même.\nQu'ont en commun la chirurgie et l'horlogerie, selon Bernard ?\nDans les deux cas, le travail est à la fois manuel et très cérébral, et il faut comprendre tout le système avant d'agir.\nPourquoi répare-t-il cette horloge, alors que personne n'en a plus besoin ?\nPour rendre la vie à un témoin du passé."
+    },
+    {
+      "title": "Ne rasez pas notre tribune",
+      "summary": "In a letter to a newspaper, a man from Seraing asks his football club to keep the old stand his grandfather built in 1934.",
+      "newWords": [
+        "chômeur",
+        "défilé",
+        "buteur",
+        "explosif",
+        "attraction",
+        "bêtise",
+        "pari",
+        "gaffe",
+        "hélicoptère"
+      ],
+      "text": "Madame, Monsieur,\n\nJ'ai lu dans votre journal du 12 mars que le club de notre ville veut démolir le vieux stade pour construire un stade moderne. Je comprends ce projet. Je voudrais pourtant expliquer pourquoi la vieille tribune mérite d'être sauvée.\n\nCe stade a une histoire peu commune. Il a été construit en 1934, en pleine crise économique. Des centaines d'hommes de la région étaient alors sans travail, et la commune décida de les employer sur le chantier. Ces chômeurs ont creusé le terrain, monté les murs et construit la tribune de leurs mains. Mon grand-père était l'un de ces chômeurs. Il disait souvent que ce chantier lui avait rendu sa dignité.\n\nLe jour de l'inauguration, un grand défilé traversa la ville : les ouvriers du chantier, la fanfare, les enfants des écoles, puis les joueurs. Il existe encore une photo de ce défilé, sur laquelle on reconnaît mon grand-père au premier rang, très fier.\n\nPendant trente ans, la tribune vit passer de grands joueurs. Le plus célèbre fut sans doute Marcel Dewez, un buteur capable de marquer à tout moment. Ce buteur était connu pour son caractère explosif autant que pour ses buts : il se fâchait contre l'arbitre presque à chaque match, ce qui ne l'empêchait pas d'être adoré. Ses colères explosives faisaient partie du spectacle. On venait de Liège, et même d'Allemagne, pour le voir jouer : le stade était devenu une véritable attraction.\n\nAujourd'hui, la tribune est en mauvais état, je le reconnais. Le club affirme que la rénover coûterait trop cher, et il n'a peut-être pas tort. Mais raser la tribune serait, à mon avis, une bêtise, une bêtise que nos petits-enfants nous reprocheraient. On peut construire un stade moderne tout en gardant cette façade, comme d'autres villes l'ont fait. Le nouveau stade est un pari sur l'avenir, et c'est un pari que je respecte. Je demande simplement qu'il ne se fasse pas contre le passé.\n\nJe dois aussi signaler une gaffe dans votre article. Vous avez écrit que la tribune datait des années 1950. La gaffe est compréhensible, puisque la tribune a été modernisée à cette époque, mais elle est bien plus ancienne. Je ne vous en veux pas : faire une gaffe n'est pas grave, à condition de la corriger.\n\nUne dernière chose. Vous annoncez que, pour l'ouverture du nouveau stade, un hélicoptère apportera le ballon du premier match. Ce sera sans doute une belle attraction. Je préférerais pourtant que les curieux viennent voir une tribune restaurée plutôt qu'un hélicoptère qui tourne au-dessus d'un terrain neuf. Ce n'est pas de la nostalgie : c'est du respect pour ceux qui l'ont construite.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n\nJean Halleux, Seraing\n\nQuestions :\nQui a construit le stade, et pourquoi ?\nDes chômeurs de la région l'ont construit en 1934, parce que la commune avait décidé de les employer sur le chantier.\nQue s'est-il passé le jour de l'inauguration ?\nUn grand défilé a traversé la ville, avec les ouvriers, la fanfare, les enfants des écoles et les joueurs.\nPourquoi le stade était-il devenu une attraction ?\nParce qu'on venait de loin pour voir jouer Marcel Dewez, un buteur au caractère explosif.\nQue propose l'auteur de la lettre ?\nIl propose de construire un stade moderne tout en gardant la façade de la vieille tribune.\nQuelle gaffe le journal a-t-il faite ?\nIl a écrit que la tribune datait des années 1950, alors qu'elle est bien plus ancienne."
+    },
+    {
+      "title": "Souper dans une banque",
+      "summary": "A review of a Montreal restaurant set in an old bank on Saint-Jacques Street, with its motto, its copper bar and its vault.",
+      "newWords": [
+        "banquier",
+        "représentatif",
+        "devise",
+        "épargner",
+        "puce",
+        "juridiction",
+        "cuivre",
+        "défoncer",
+        "osé",
+        "set"
+      ],
+      "text": "La rue Saint-Jacques, dans le Vieux-Montréal, fut longtemps le cœur financier du Canada. Au début du 20e siècle, les grandes banques y construisirent des bâtiments qui ressemblent à des temples, avec des colonnes et des portes immenses. Les banquiers ont depuis longtemps quitté la rue pour les tours du centre-ville, et plusieurs de ces temples sont restés vides. L'un d'eux vient de devenir un restaurant, Le Comptoir, et j'y suis allé souper. Au Québec, rappelons-le, le souper est le repas du soir.\n\nLe cadre, d'abord. Le bâtiment est très représentatif de l'architecture des banques de l'époque, et la salle, avec son plafond immense, est représentative du goût de ces banquiers pour la grandeur. Au-dessus de l'entrée, on lit encore la devise de la banque : « Travail, prudence, épargne ». C'était une devise faite pour les clients modestes. Dans les années 1920, des familles ouvrières venaient ici épargner quelques dollars chaque semaine, et un petit livret gardait la trace de chaque somme épargnée. À l'époque des cartes à puce, cette image paraît bien lointaine.\n\nLes nouveaux propriétaires ont gardé l'essentiel. Le Vieux-Montréal est un site patrimonial protégé, et toute transformation y relève de la juridiction du Québec : il a fallu de nombreuses autorisations. Au Canada, les banques relèvent de la juridiction fédérale, mais leurs vieux murs, eux, dépendent de la province. Le grand bar, au centre de la salle, est entièrement recouvert de cuivre, et ce cuivre brille sous les lampes d'origine.\n\nLe plus étonnant se trouve au sous-sol. L'ancienne salle des coffres est devenue une petite salle à manger de huit places. Sa porte d'acier, qui pèse plusieurs tonnes, n'a jamais pu être déplacée. Pour créer un accès depuis la cuisine, les ouvriers ont dû défoncer un mur de béton épais d'un mètre. « Défoncer le mur d'une banque, c'est le rêve de tous les voleurs, plaisante le chef. Nous, nous avions une autorisation ! »\n\nLa cuisine, ensuite. Le choix du chef est osé : dans ce décor solennel, il sert une cuisine simple et populaire, celle des familles qui venaient autrefois épargner ici. Soupe aux pois, ragoût, et en dessert un pouding chômeur, un gâteau très simple né pendant la crise des années 1930. Pas de nappes blanches : de simples sets de table en papier, sur lesquels est imprimé le plan du bâtiment en 1910. Beaucoup de clients emportent leur set de table en souvenir. Le pari est osé, mais il est réussi : le contraste entre la richesse du lieu et la simplicité des plats crée une atmosphère chaleureuse.\n\nQuelques défauts, tout de même : le service est un peu lent, et le bruit monte vite sous le haut plafond. L'addition reste raisonnable. Quand je l'ai payée avec ma carte à puce, sous la vieille devise de la banque, je me suis dit que les banquiers de 1910 auraient été bien surpris.\n\nQuestions :\nPourquoi la rue Saint-Jacques compte-t-elle tant de grands bâtiments ?\nParce qu'elle fut longtemps le cœur financier du Canada, et que les grandes banques y construisirent leurs bâtiments.\nQuelle est la devise inscrite au-dessus de l'entrée ?\nC'est « Travail, prudence, épargne ».\nPourquoi les ouvriers ont-ils dû défoncer un mur ?\nPour créer un accès entre la cuisine et l'ancienne salle des coffres.\nPourquoi le choix du chef est-il osé ?\nParce qu'il sert une cuisine simple et populaire dans un décor solennel.\nQu'est-ce qui est imprimé sur les sets de table ?\nLe plan du bâtiment en 1910."
+    },
+    {
+      "title": "La fête du crépissage à Djenné",
+      "summary": "A report on the yearly festival in which the people of Djenné, in Mali, cover their great earthen mosque with fresh mud.",
+      "newWords": [
+        "rituel",
+        "fluide",
+        "ménager",
+        "thermique",
+        "absorber",
+        "passif",
+        "déborder",
+        "applicable"
+      ],
+      "text": "Chaque année, au printemps, toute la ville de Djenné, au Mali, se réunit autour de sa grande mosquée. Construite en 1907, elle est le plus grand bâtiment du monde en terre crue. Mais une construction en terre a un ennemi : la pluie. Chaque saison des pluies abîme les murs. C'est pourquoi, une fois par an, les habitants les recouvrent d'une nouvelle couche de terre. Ce travail collectif, qu'on appelle le crépissage, est devenu un véritable rituel, et il se déroule comme une fête.\n\nLa préparation commence plusieurs semaines à l'avance. On mélange la terre du fleuve avec de l'eau et de la balle de riz, c'est-à-dire l'enveloppe des grains de cette céréale. Le mélange repose pendant des jours. On le remue souvent, jusqu'à ce qu'il devienne assez fluide pour être étalé à la main, mais pas trop fluide, sinon il coulerait le long des murs.\n\nLe jour venu, le rituel suit un ordre précis. Les maçons de la ville dirigent le travail : ce sont eux qui connaissent les règles, transmises de père en fils. Les jeunes hommes montent sur les murs grâce aux morceaux de bois qui sortent de la façade. Les femmes apportent l'eau du fleuve, souvent après avoir fini leurs tâches ménagères du matin ; ce jour-là, le reste du travail ménager attendra. En une seule matinée, toute la mosquée est recouverte.\n\nPourquoi garder cette technique, alors que le béton existe ? D'abord parce que la terre convient au climat. Les murs, très épais, ont une grande inertie thermique : ils absorbent la chaleur pendant la journée et la rendent lentement pendant la nuit. À l'intérieur, il fait donc frais. Les architectes parlent de confort thermique passif : on obtient la fraîcheur par la seule forme du bâtiment et par ses matériaux, de façon passive, sans consommer d'énergie. Le béton, au contraire, absorbe la chaleur et la garde.\n\nEnsuite, la terre est facile à réparer, à condition qu'on recommence chaque année. Si l'on oubliait le rituel une seule fois, la pluie creuserait les murs. Le fleuve, lui aussi, peut déborder pendant la saison des pluies, et c'est pourquoi la ville est bâtie sur une petite hauteur : quand l'eau déborde, elle entoure la ville sans l'atteindre.\n\nLa leçon de Djenné est-elle applicable ailleurs ? En partie. On ne peut pas reconstruire nos villes en terre crue, et cette technique n'est vraiment applicable que dans les climats secs. Mais l'idée de fond, celle d'un bâtiment qui reste frais grâce à ses matériaux et à sa forme, intéresse aujourd'hui les architectes du monde entier. Et le rituel lui-même enseigne autre chose : un patrimoine ne survit que si ceux qui l'habitent continuent de l'entretenir ensemble.\n\nQuestions :\nPourquoi faut-il recouvrir les murs de la mosquée chaque année ?\nParce que la pluie abîme les murs en terre pendant la saison des pluies.\nAvec quoi prépare-t-on le mélange ?\nAvec la terre du fleuve, de l'eau et de la balle de riz.\nQuel rôle les femmes jouent-elles pendant le rituel ?\nElles apportent l'eau du fleuve, souvent après avoir fini leurs tâches ménagères du matin.\nPourquoi fait-il frais à l'intérieur de la mosquée ?\nParce que les murs épais absorbent la chaleur pendant la journée et la rendent lentement la nuit : c'est un confort thermique passif.\nLa technique de Djenné est-elle applicable ailleurs ?\nElle n'est vraiment applicable que dans les climats secs, mais son idée de fond intéresse les architectes du monde entier."
+    }
+  ]
+}
