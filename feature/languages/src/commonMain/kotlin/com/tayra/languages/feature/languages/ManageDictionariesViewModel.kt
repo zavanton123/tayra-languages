@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.languages
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.language.LanguageCatalog
@@ -89,7 +90,7 @@ class ManageDictionariesViewModel(
     fun disable(entry: DictionaryEntry) {
         val stored = entry.stored ?: return
         if (state.value.preferred.size <= 1) {
-            message.value = "Keep at least one dictionary enabled."
+            message.value = tr("Keep at least one dictionary enabled.")
             return
         }
         update { language ->

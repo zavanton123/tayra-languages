@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -79,7 +80,7 @@ fun ScreenHeader(
             ) {
                 Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null, modifier = Modifier.size(18.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
                 Spacer(Modifier.width(8.dp))
-                Text("Settings", style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(tr("Settings"), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             Spacer(Modifier.height(6.dp))
         }
@@ -195,9 +196,9 @@ fun SliderStepper(
     fun snap(v: Float) = (kotlin.math.round(v * perUnit) / perUnit).coerceIn(range.start, range.endInclusive)
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
         ValueChip(label)
-        StepButton("−", "Decrease $name", enabled = value > range.start + step / 2) { onChange(snap(value - step)) }
+        StepButton("−", tr("Decrease {0}", name), enabled = value > range.start + step / 2) { onChange(snap(value - step)) }
         RoundSlider(value = value, onValueChange = { onChange(snap(it)) }, valueRange = range, modifier = Modifier.weight(1f))
-        StepButton("+", "Increase $name", enabled = value < range.endInclusive - step / 2) { onChange(snap(value + step)) }
+        StepButton("+", tr("Increase {0}", name), enabled = value < range.endInclusive - step / 2) { onChange(snap(value + step)) }
     }
 }
 
@@ -238,11 +239,11 @@ fun NumberStepper(value: Int, range: IntRange, name: String, step: Int = 1, onCh
         Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(10.dp)),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        StepButton("−", "Decrease $name", enabled = value > range.first, bordered = false) { onChange((value - step).coerceAtLeast(range.first)) }
+        StepButton("−", tr("Decrease {0}", name), enabled = value > range.first, bordered = false) { onChange((value - step).coerceAtLeast(range.first)) }
         Box(Modifier.height(44.dp).width(1.dp).background(MaterialTheme.colorScheme.outlineVariant))
         Text(value.toString(), Modifier.widthIn(min = 64.dp).padding(horizontal = 12.dp), textAlign = TextAlign.Center, style = MaterialTheme.typography.bodyLarge)
         Box(Modifier.height(44.dp).width(1.dp).background(MaterialTheme.colorScheme.outlineVariant))
-        StepButton("+", "Increase $name", enabled = value < range.last, bordered = false) { onChange((value + step).coerceAtMost(range.last)) }
+        StepButton("+", tr("Increase {0}", name), enabled = value < range.last, bordered = false) { onChange((value + step).coerceAtMost(range.last)) }
     }
 }
 
@@ -330,10 +331,10 @@ fun HeaderButton(text: String, icon: ImageVector, onClick: () -> Unit, enabled: 
 }
 
 fun formatSize(bytes: Long): String = when {
-    bytes >= 1_000_000_000 -> "${(bytes / 10_000_000) / 100.0} GB"
-    bytes >= 1_000_000 -> "${(bytes / 100_000) / 10.0} MB"
-    bytes >= 1_000 -> "${bytes / 1_000} kB"
-    else -> "$bytes B"
+    bytes >= 1_000_000_000 -> tr("{0} GB", (bytes / 10_000_000) / 100.0)
+    bytes >= 1_000_000 -> tr("{0} MB", (bytes / 100_000) / 10.0)
+    bytes >= 1_000 -> tr("{0} kB", bytes / 1_000)
+    else -> tr("{0} B", bytes)
 }
 
 /** The scrolling page body, centred and kept to a readable width on large windows. */
@@ -350,6 +351,7 @@ fun PageColumn(padding: PaddingValues, content: @Composable ColumnScope.() -> Un
     }
 }
 
+/** [label] is English, shown through `tr`. */
 enum class PackageTab(val label: String) { INSTALLED("Installed"), AVAILABLE("Available") }
 
 /** The Installed / Available switch above a list of downloads. */
@@ -365,7 +367,7 @@ fun TabToggle(selected: PackageTab, onSelect: (PackageTab) -> Unit) {
                     .padding(horizontal = 18.dp, vertical = 10.dp),
             ) {
                 Text(
-                    tab.label,
+                    tr(tab.label),
                     style = MaterialTheme.typography.bodyMedium,
                     color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
                     fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,

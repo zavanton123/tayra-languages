@@ -35,6 +35,8 @@ import com.tayra.languages.core.domain.service.ReadingStatsSummary
 import com.tayra.languages.core.domain.service.StatsService
 import com.tayra.languages.core.domain.stats.ChartPoint
 import com.tayra.languages.core.ui.components.AppTopBar
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.components.EmptyMessage
 import com.tayra.languages.core.ui.components.LoadingIndicator
@@ -59,41 +61,41 @@ private val seriesColors = listOf(Color(0xFF1F77B4), Color(0xFFFF7F0E), Color(0x
 @Composable
 fun StatsScreen(onNavigate: (Route) -> Unit, viewModel: StatsViewModel = koinViewModel()) {
     val summary by viewModel.summary.collectAsStateWithLifecycle()
-    Scaffold(topBar = { AppTopBar(title = "Statistics", onNavigate = onNavigate, section = NavSection.ABOUT) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = tr("Statistics"), onNavigate = onNavigate, section = NavSection.ABOUT) }) { padding ->
         val data = summary
         if (data == null) {
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
         Column(Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).widthIn(max = 900.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            ScreenTitle("Statistics")
+            ScreenTitle(tr("Statistics"))
             if (data.table.isEmpty()) {
-                EmptyMessage("No reading recorded yet. Mark pages as read to build statistics.")
+                EmptyMessage(tr("No reading recorded yet. Mark pages as read to build statistics."))
                 return@Column
             }
-            Text("Reading streak: ${data.streak} day${if (data.streak == 1) "" else "s"}", style = MaterialTheme.typography.titleMedium)
-            Text("Words read", style = MaterialTheme.typography.titleMedium)
+            Text(trPlural(data.streak, "Reading streak: {0} day", "Reading streak: {0} days"), style = MaterialTheme.typography.titleMedium)
+            Text(tr("Words read"), style = MaterialTheme.typography.titleMedium)
             Row(Modifier.fillMaxWidth()) {
-                listOf("Language", "Today", "Week", "Month", "Year", "Total").forEachIndexed { i, h ->
+                listOf(tr("Language"), tr("Today"), tr("Week"), tr("Month"), tr("Year"), tr("Total")).forEachIndexed { i, h ->
                     Text(h, Modifier.weight(if (i == 0) 2f else 1f), fontWeight = FontWeight.Bold, style = MaterialTheme.typography.bodyMedium)
                 }
             }
             HorizontalDivider()
             data.table.forEach { row ->
                 Row(Modifier.fillMaxWidth().padding(vertical = 2.dp)) {
-                    Text(row.languageName, Modifier.weight(2f), style = MaterialTheme.typography.bodyMedium)
+                    Text(tr(row.languageName), Modifier.weight(2f), style = MaterialTheme.typography.bodyMedium)
                     listOf(row.counts.day, row.counts.week, row.counts.month, row.counts.year, row.counts.total).forEach {
                         Text(it.toString(), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
                     }
                 }
             }
-            Text("Cumulative words read", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 12.dp))
+            Text(tr("Cumulative words read"), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 12.dp))
             Chart(data.chart)
             Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 data.chart.keys.forEachIndexed { i, language ->
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Column(Modifier.size(12.dp).background(seriesColors[i % seriesColors.size])) {}
-                        Text("  $language", style = MaterialTheme.typography.bodySmall)
+                        Text("  ${tr(language)}", style = MaterialTheme.typography.bodySmall)
                     }
                 }
             }

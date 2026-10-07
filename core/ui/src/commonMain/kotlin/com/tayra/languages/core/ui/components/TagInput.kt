@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -77,7 +78,7 @@ fun TagInput(
                         trailingIcon = {
                             Icon(
                                 Icons.Default.Close,
-                                contentDescription = "Remove $value",
+                                contentDescription = tr("Remove {0}", value),
                                 modifier = Modifier.clickable { onValuesChange(values - value) },
                             )
                         },

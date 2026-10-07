@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
@@ -15,7 +16,7 @@ import androidx.compose.runtime.setValue
 fun ConfirmDialog(
     title: String,
     text: String,
-    confirmLabel: String = "OK",
+    confirmLabel: String = tr("OK"),
     destructive: Boolean = false,
     onConfirm: () -> Unit,
     onDismiss: () -> Unit,
@@ -29,7 +30,7 @@ fun ConfirmDialog(
                 Text(confirmLabel, color = if (destructive) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.primary)
             }
         },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(tr("Cancel")) } },
     )
 }
 
@@ -38,7 +39,7 @@ fun TextInputDialog(
     title: String,
     label: String,
     initial: String = "",
-    confirmLabel: String = "Save",
+    confirmLabel: String = tr("Save"),
     onConfirm: (String) -> Unit,
     onDismiss: () -> Unit,
 ) {
@@ -48,6 +49,6 @@ fun TextInputDialog(
         title = { Text(title) },
         text = { OutlinedTextField(value = value, onValueChange = { value = it }, label = { Text(label) }, singleLine = true) },
         confirmButton = { TextButton(onClick = { onConfirm(value) }, enabled = value.isNotBlank()) { Text(confirmLabel) } },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(tr("Cancel")) } },
     )
 }

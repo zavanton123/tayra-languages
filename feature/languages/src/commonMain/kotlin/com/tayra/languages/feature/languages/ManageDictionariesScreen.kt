@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.languages
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -62,7 +63,7 @@ fun ManageDictionariesScreen(
     Scaffold(
         topBar = { AppTopBar(title = "Tayra Languages", onNavigate = onNavigate, section = NavSection.SETTINGS, onBack = if (compact) onBack else null) },
         snackbarHost = {
-            state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text("OK") } }) { Text(it) } }
+            state.message?.let { Snackbar(action = { TextButton(onClick = viewModel::dismissMessage) { Text(tr("OK")) } }) { Text(it) } }
         },
     ) { padding ->
         if (state.loading) {
@@ -81,28 +82,28 @@ fun ManageDictionariesScreen(
                             Box(
                                 Modifier.size(40.dp).clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).clickable(onClick = onBack),
                                 contentAlignment = Alignment.Center,
-                            ) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", modifier = Modifier.size(20.dp)) }
+                            ) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), modifier = Modifier.size(20.dp)) }
                             Spacer(Modifier.width(20.dp))
                         }
                         Icon(AppIcons.Book, contentDescription = null, tint = colors.primary, modifier = Modifier.size(32.dp))
                         Spacer(Modifier.width(14.dp))
                         Column(Modifier.weight(1f)) {
-                            Text("Dictionaries", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-                            val pair = listOfNotNull(state.source?.name, state.target?.name).joinToString(" \u2192 ")
-                            Text("$pair \u00b7 changes apply immediately", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                            Text(tr("Dictionaries"), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                            val pair = listOfNotNull(state.source?.name, state.target?.name).joinToString(" \u2192 ") { tr(it) }
+                            Text(tr("{0} \u00b7 changes apply immediately", pair), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                         }
                     }
                 }
-                item { SectionLabel("Preferred") }
+                item { SectionLabel(tr("Preferred")) }
                 if (state.preferred.isEmpty()) {
-                    item { Text("No dictionaries enabled yet.", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
+                    item { Text(tr("No dictionaries enabled yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
                 }
                 itemsIndexed(state.preferred, key = { index, entry -> entry.key("on", index) }) { _, entry ->
-                    DictionaryRow(entry.name, entry.url, tint = Color(0xFF1FA463), icon = Icons.Default.Close, iconDescription = "Disable") { viewModel.disable(entry) }
+                    DictionaryRow(entry.name, entry.url, tint = Color(0xFF1FA463), icon = Icons.Default.Close, iconDescription = tr("Disable")) { viewModel.disable(entry) }
                 }
-                item { SectionLabel("All resources", topPadding = 20.dp) }
+                item { SectionLabel(tr("All resources"), topPadding = 20.dp) }
                 itemsIndexed(state.available, key = { index, entry -> entry.key("off", index) }) { _, entry ->
-                    DictionaryRow(entry.name, entry.url, tint = null, icon = Icons.Default.Add, iconDescription = "Enable") { viewModel.enable(entry) }
+                    DictionaryRow(entry.name, entry.url, tint = null, icon = Icons.Default.Add, iconDescription = tr("Enable")) { viewModel.enable(entry) }
                 }
             }
         }

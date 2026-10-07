@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.components
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -34,7 +35,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.tayra.languages.core.domain.language.LanguageCodes
 
-/** The language being learned and the ones to choose from; [languages] are ids with their names. */
+/** The language being learned and the ones to choose from; [languages] are ids with their English names, shown through `tr`. */
 class LearningLanguageState(val languages: List<Pair<Long, String>>, val currentId: Long, val onSelect: (Long) -> Unit) {
     val currentName: String? get() = languages.firstOrNull { it.first == currentId }?.second
 }
@@ -72,14 +73,14 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
                 .background(colors.primary.copy(alpha = 0.06f))
                 .border(1.dp, colors.primary.copy(alpha = 0.12f), RoundedCornerShape(12.dp))
                 .clickable { open = true }
-                .semantics { contentDescription = "Learning language: $name" }
+                .semantics { contentDescription = tr("Learning language: {0}", tr(name)) }
                 .padding(horizontal = if (compact) 8.dp else 12.dp, vertical = 8.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(if (compact) 4.dp else 10.dp),
         ) {
             LanguageFlag(name, if (compact) 18.dp else 22.dp)
             if (!compact) {
-                Text(name, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(tr(name), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
             Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
         }
@@ -89,8 +90,8 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier) {
                     text = {
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                             LanguageFlag(language, 18.dp)
-                            Text(language, Modifier.weight(1f), fontWeight = if (id == state.currentId) FontWeight.SemiBold else FontWeight.Normal)
-                            if (id == state.currentId) Icon(Icons.Default.Check, contentDescription = "Selected", tint = colors.primary, modifier = Modifier.size(18.dp))
+                            Text(tr(language), Modifier.weight(1f), fontWeight = if (id == state.currentId) FontWeight.SemiBold else FontWeight.Normal)
+                            if (id == state.currentId) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(18.dp))
                         }
                     },
                     onClick = { open = false; if (id != state.currentId) state.onSelect(id) },

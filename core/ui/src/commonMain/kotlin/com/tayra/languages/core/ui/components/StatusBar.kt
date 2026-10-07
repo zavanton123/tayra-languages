@@ -1,5 +1,7 @@
 package com.tayra.languages.core.ui.components
 
+import com.tayra.languages.core.ui.i18n.trPlural
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -44,7 +46,8 @@ private val KNOWN = listOf(TermStatus.WELL_KNOWN, TermStatus.IGNORED)
  * Stacked bar of the word statuses in a book or on a page, from unknown through the learning
  * levels to known. Hovering it (or a long press on touch screens) shows the counts behind it.
  *
- * @param scope how the tooltip names what is counted, e.g. "on this page" or "in this book".
+ * @param scope how the tooltip names what is counted, in English: "on this page" or "in this book"
+ *   (shown through `tr`, so a new scope needs its own translation).
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -59,7 +62,7 @@ fun StatusDistributionBar(stats: BookStats?, modifier: Modifier = Modifier, scop
     Box(modifier) {
         TooltipBox(
             positionProvider = TooltipDefaults.rememberTooltipPositionProvider(TooltipAnchorPosition.Above),
-            tooltip = { RichTooltip(title = { Text("Vocabulary $scope") }) { StatusBreakdown(stats) } },
+            tooltip = { RichTooltip(title = { Text(tr("Vocabulary {0}", tr(scope))) }) { StatusBreakdown(stats) } },
             // Persistent: stays while the pointer is on the bar (or, on touch, until a tap elsewhere) instead of hiding after 1.5 s.
             state = rememberTooltipState(isPersistent = true),
             modifier = Modifier.fillMaxWidth(),
@@ -87,9 +90,9 @@ private fun StatusBreakdown(stats: BookStats) {
     val unknownPercent = stats.unknownPercent
     val learningPercent = (100.0 * learning / total).roundToInt().coerceAtMost(100 - unknownPercent)
     val rows = listOf(
-        Triple("Unknown", unknown to unknownPercent, colors.background(TermStatus.UNKNOWN)),
-        Triple("Learning", learning to learningPercent, colors.background(TermStatus.NEW_1)),
-        Triple("Known", known to (100 - unknownPercent - learningPercent), colors.background(TermStatus.WELL_KNOWN)),
+        Triple(tr("Unknown"), unknown to unknownPercent, colors.background(TermStatus.UNKNOWN)),
+        Triple(tr("Learning"), learning to learningPercent, colors.background(TermStatus.NEW_1)),
+        Triple(tr("Known"), known to (100 - unknownPercent - learningPercent), colors.background(TermStatus.WELL_KNOWN)),
     )
     Column(Modifier.padding(top = 4.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
         for ((label, numbers, color) in rows) {
@@ -101,7 +104,7 @@ private fun StatusBreakdown(stats: BookStats) {
             }
         }
         Text(
-            "${words(total)} in total",
+            trPlural(total, "{0} word in total", "{0} words in total"),
             Modifier.padding(top = 2.dp),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -109,4 +112,4 @@ private fun StatusBreakdown(stats: BookStats) {
     }
 }
 
-private fun words(n: Int) = if (n == 1) "1 word" else "$n words"
+private fun words(n: Int) = trPlural(n, "{0} word", "{0} words")

@@ -6,6 +6,7 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.lerp
 import com.tayra.languages.core.domain.model.TermStatus
+import com.tayra.languages.core.ui.i18n.tr
 
 /** Colours used to highlight terms by status on the reading screen. */
 data class StatusColors(
@@ -20,7 +21,8 @@ data class StatusColors(
 
 data class AppTheme(
     val id: String,
-    val label: String,
+    /** The name in English; [label] is the one to show. */
+    val englishLabel: String,
     val isDark: Boolean,
     val colorScheme: ColorScheme,
     val statusColors: StatusColors,
@@ -28,7 +30,10 @@ data class AppTheme(
     val readingText: Color,
     /** The letters of the selected word or phrase; its status background stays as it is. */
     val selectedText: Color,
-)
+) {
+    /** The name in the interface language. */
+    val label: String get() = tr(englishLabel)
+}
 
 object AppThemes {
     /**
@@ -53,7 +58,7 @@ object AppThemes {
 
     val default = AppTheme(
         id = "default",
-        label = "Default",
+        englishLabel = "Default",
         isDark = false,
         colorScheme = lightColorScheme(
             primary = Color(0xFF1F5F8B),
@@ -80,7 +85,7 @@ object AppThemes {
 
     val sepia = default.copy(
         id = "sepia",
-        label = "Sepia",
+        englishLabel = "Sepia",
         colorScheme = lightColorScheme(
             primary = Color(0xFF7A4B2A),
             secondary = Color(0xFF9C7A54),
@@ -103,7 +108,7 @@ object AppThemes {
 
     val darkSlate = AppTheme(
         id = "dark_slate",
-        label = "Dark slate",
+        englishLabel = "Dark slate",
         isDark = true,
         colorScheme = darkColorScheme(
             primary = Color(0xFFACACF9),
@@ -130,7 +135,7 @@ object AppThemes {
 
     val night = darkSlate.copy(
         id = "night",
-        label = "Night",
+        englishLabel = "Night",
         colorScheme = darkColorScheme(
             primary = Color(0xFF8AB4F8),
             secondary = Color(0xFF9AA0A6),

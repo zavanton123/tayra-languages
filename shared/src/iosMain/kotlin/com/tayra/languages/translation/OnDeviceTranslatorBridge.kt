@@ -2,6 +2,7 @@ package com.tayra.languages.translation
 
 import com.tayra.languages.core.data.translation.LanguageModelTranslator
 import com.tayra.languages.core.domain.settings.SettingsRepository
+import com.tayra.languages.core.ui.i18n.tr
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
@@ -32,7 +33,7 @@ interface OnDeviceTranslatorBridge {
 class BridgedSentenceTranslator(private val bridge: OnDeviceTranslatorBridge, settings: SettingsRepository) : LanguageModelTranslator(settings) {
 
     override val displayName: String = "Google ML Kit"
-    override val description: String = "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device."
+    override val description: String get() = tr("Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device.")
 
     override suspend fun supportedModels(): List<String> = bridge.supportedLanguages()
 

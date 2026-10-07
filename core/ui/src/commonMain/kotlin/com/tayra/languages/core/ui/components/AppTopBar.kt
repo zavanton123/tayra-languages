@@ -44,14 +44,17 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.ui.semantics.Role
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 
-/** The main navigation areas, used to highlight the active tab. */
+/** The main navigation areas, used to highlight the active tab; [label] is English, shown through `tr`. */
 enum class NavSection(val label: String) { HOME("Home"), BOOKS("Books"), COURSES("Courses"), TERMS("Vocabulary"), FLASHCARDS("Flashcards"), SETTINGS("Settings"), ABOUT("About") }
 
 /** How many flashcards wait today, shown beside the Flashcards tab; provided at the root of the app. */
 val LocalFlashcardsDue = compositionLocalOf { 0 }
 
+/** [label] is English, shown through `tr`. */
 private data class MenuEntry(val label: String, val route: Route)
 
 /** [direct] groups have one destination, opened by the tab itself with no menu. */
@@ -108,7 +111,7 @@ fun AppTopBar(
             title = { Text(title) },
             navigationIcon = {
                 if (onBack != null) {
-                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") }
+                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back")) }
                 }
             },
             actions = {
@@ -128,13 +131,13 @@ fun AppTopBar(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 if (onBack != null) {
-                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") }
+                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back")) }
                     Spacer(Modifier.width(4.dp))
                 }
                 // The logo and name lead home, as on most sites.
                 Row(
                     Modifier.clip(RoundedCornerShape(10.dp))
-                        .clickable(onClickLabel = "Go to Home", role = Role.Button) { onNavigate(Route.Home) }
+                        .clickable(onClickLabel = tr("Go to Home"), role = Role.Button) { onNavigate(Route.Home) }
                         .padding(horizontal = 6.dp, vertical = 4.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
@@ -166,7 +169,7 @@ private fun WideMenu(section: NavSection?, onNavigate: (Route) -> Unit) {
                 NavTab(group.section, active = section == group.section, onClick = { if (group.direct) onNavigate(group.entries.single().route) else open = true })
                 AppMenu(expanded = open, onDismissRequest = { open = false }) {
                     group.entries.forEach { entry ->
-                        AppMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })
+                        AppMenuItem(text = { Text(tr(entry.label)) }, onClick = { open = false; onNavigate(entry.route) })
                     }
                 }
             }
@@ -182,13 +185,13 @@ private fun NavTab(section: NavSection, active: Boolean, onClick: () -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-            Text(section.label, style = MaterialTheme.typography.bodyLarge, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium, color = color)
+            Text(tr(section.label), style = MaterialTheme.typography.bodyLarge, fontWeight = if (active) FontWeight.SemiBold else FontWeight.Medium, color = color)
             val due = LocalFlashcardsDue.current
             if (section == NavSection.FLASHCARDS && due > 0) {
                 Text(
                     if (due > 999) "999+" else "$due",
                     Modifier.clip(RoundedCornerShape(50)).background(MaterialTheme.colorScheme.primary).padding(horizontal = 7.dp, vertical = 1.dp)
-                        .semantics { contentDescription = "$due flashcards due" },
+                        .semantics { contentDescription = trPlural(due, "{0} flashcard due", "{0} flashcards due") },
                     style = MaterialTheme.typography.labelMedium,
                     color = MaterialTheme.colorScheme.onPrimary,
                     fontWeight = FontWeight.SemiBold,
@@ -207,13 +210,13 @@ private fun NavTab(section: NavSection, active: Boolean, onClick: () -> Unit) {
 private fun CompactMenu(onNavigate: (Route) -> Unit) {
     var open by remember { mutableStateOf(false) }
     Box {
-        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = "Menu") }
+        IconButton(onClick = { open = true }) { Icon(Icons.Default.MoreVert, contentDescription = tr("Menu")) }
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            AppMenuItem(text = { Text("Home") }, onClick = { open = false; onNavigate(Route.Home) })
+            AppMenuItem(text = { Text(tr("Home")) }, onClick = { open = false; onNavigate(Route.Home) })
             menuGroups.forEach { group ->
                 HorizontalDivider()
                 group.entries.filter { it.route != Route.Home }.forEach { entry ->
-                    AppMenuItem(text = { Text(entry.label) }, onClick = { open = false; onNavigate(entry.route) })
+                    AppMenuItem(text = { Text(tr(entry.label)) }, onClick = { open = false; onNavigate(entry.route) })
                 }
             }
         }

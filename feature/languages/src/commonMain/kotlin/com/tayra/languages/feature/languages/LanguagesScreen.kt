@@ -1,5 +1,7 @@
 package com.tayra.languages.feature.languages
 
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.UiLanguage
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -74,7 +76,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader("Languages", "Choose what you learn, how translations appear, and the language of the app.", onBackToSettings = onBack) {
+            ScreenHeader(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), onBackToSettings = onBack) {
                 if (!compact) SavedNote()
             }
             Column(
@@ -82,21 +84,22 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                     .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
                     .padding(if (compact) 16.dp else 24.dp),
             ) {
-                Text("Language setup", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                Text(tr("Language setup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
                 Spacer(Modifier.height(20.dp))
                 val learningTile: @Composable (Modifier) -> Unit = { m ->
-                    LanguageTile("Learning", "I'm learning", highlighted = true, modifier = m) {
+                    LanguageTile(tr("Learning"), tr("I'm learning"), highlighted = true, modifier = m) {
                         FlagPicker(
                             options = learning?.languages.orEmpty(),
                             selected = learning?.languages?.firstOrNull { it.first == learning.currentId },
-                            name = { it.second },
+                            name = { tr(it.second) },
                             // Chosen as in the header, which also asks for the vocabulary level of a language new to the reader.
                             onSelect = { (id, _) -> learning?.onSelect?.invoke(id) },
                             modifier = Modifier.testTag("learning-language"),
+                            flagName = { it.second },
                         )
-                        TileDescription("Used for books, courses, vocabulary and flashcards.")
+                        TileDescription(tr("Used for books, courses, vocabulary and flashcards."))
                         Text(
-                            "Also shown in the header",
+                            tr("Also shown in the header"),
                             style = MaterialTheme.typography.labelLarge,
                             color = MaterialTheme.colorScheme.primary,
                             modifier = Modifier.padding(top = 14.dp).clip(RoundedCornerShape(50))
@@ -105,19 +108,20 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                     }
                 }
                 val nativeTile: @Composable (Modifier) -> Unit = { m ->
-                    LanguageTile("Translations", "Show meanings in", modifier = m) {
+                    LanguageTile(tr("Translations"), tr("Show meanings in"), modifier = m) {
                         FlagPicker(
                             options = LanguageCatalog.nativeLanguages,
                             selected = native,
-                            name = { it.name },
+                            name = { tr(it.name) },
                             onSelect = { viewModel.setNativeLanguage(it.code) },
                             modifier = Modifier.testTag("native-language"),
+                            flagName = { it.name },
                         )
-                        TileDescription("Used for translations, definitions and example sentences.")
+                        TileDescription(tr("Used for translations, definitions and example sentences."))
                     }
                 }
                 val uiTile: @Composable (Modifier) -> Unit = { m ->
-                    LanguageTile("App", "Interface language", modifier = m) {
+                    LanguageTile(tr("App"), tr("Interface language"), modifier = m) {
                         FlagPicker(
                             options = LanguageCatalog.interfaceLanguages,
                             selected = ui,
@@ -126,7 +130,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                             modifier = Modifier.testTag("interface-language"),
                             flagName = { LanguageCatalog.nativeOption(it.code).name },
                         )
-                        TileDescription("Used for menus, buttons and messages.")
+                        TileDescription(tr("Used for menus, buttons and messages."))
                         Row(
                             Modifier.padding(top = 14.dp).fillMaxWidth().clip(RoundedCornerShape(10.dp))
                                 .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.07f))
@@ -137,7 +141,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                             Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(20.dp))
                             Spacer(Modifier.width(10.dp))
                             Text(
-                                "More interface languages will appear as Tayra is translated.",
+                                tr("More interface languages will appear as Tayra is translated."),
                                 style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.primary,
                             )
@@ -171,7 +175,7 @@ private fun SavedNote() {
     Row(verticalAlignment = Alignment.CenterVertically) {
         Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(24.dp))
         Spacer(Modifier.width(10.dp))
-        Text("Changes saved", style = MaterialTheme.typography.bodyLarge, color = StatusTints.ok, fontWeight = FontWeight.Medium)
+        Text(tr("Changes saved"), style = MaterialTheme.typography.bodyLarge, color = StatusTints.ok, fontWeight = FontWeight.Medium)
     }
 }
 
@@ -215,7 +219,7 @@ private fun TileDescription(text: String) {
     Text(text, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 16.dp))
 }
 
-/** A field showing the chosen language with its flag; it opens a menu of the [options], each with its flag. */
+/** A field showing the chosen language with its flag; it opens a menu of the [options], each with its flag. [name] is the name to show. */
 @Composable
 private fun <T> FlagPicker(
     options: List<T>,
@@ -257,7 +261,7 @@ private fun <T> FlagPicker(
                         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                             LanguageFlag(flagName(option), 18.dp)
                             Text(name(option), Modifier.weight(1f), fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal)
-                            if (chosen) Icon(Icons.Default.Check, contentDescription = "Selected", tint = colors.primary, modifier = Modifier.size(18.dp))
+                            if (chosen) Icon(Icons.Default.Check, contentDescription = tr("Selected"), tint = colors.primary, modifier = Modifier.size(18.dp))
                         }
                     },
                     onClick = { open = false; if (!chosen) onSelect(option) },
@@ -267,17 +271,24 @@ private fun <T> FlagPicker(
     }
 }
 
-/** The three choices in one line: learning → native, in words, and the interface language. */
+/**
+ * The three choices in one line: learning → native, in words, and the interface language.
+ * [learning] and [native] are English names; [ui] is the interface language in its own name.
+ */
 @Composable
 private fun SetupSummary(learning: String?, native: String, ui: String, wide: Boolean) {
-    val sentence = if (learning != null) "Learn $learning with $native translations" else "Meanings in $native"
+    val sentence = if (learning != null) {
+        tr("Learn {0} with {1} translations", inSentence(tr(learning)), inSentence(tr(native)))
+    } else {
+        tr("Meanings in {0}", inSentence(tr(native)))
+    }
     val pair: @Composable () -> Unit = {
         Row(verticalAlignment = Alignment.CenterVertically) {
             if (learning != null) {
                 LanguageChip(learning, wide)
                 Icon(
                     Icons.AutoMirrored.Filled.ArrowForward,
-                    contentDescription = "with translations in",
+                    contentDescription = tr("with translations in"),
                     tint = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.padding(horizontal = if (wide) 14.dp else 8.dp).size(22.dp),
                 )
@@ -288,24 +299,28 @@ private fun SetupSummary(learning: String?, native: String, ui: String, wide: Bo
     val note: @Composable (String) -> Unit = { Text(it, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant) }
     if (wide) {
         Row(Modifier.height(IntrinsicSize.Min), verticalAlignment = Alignment.CenterVertically) {
-            Text("Your setup", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text(tr("Your setup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Spacer(Modifier.width(40.dp))
             pair()
             VerticalDivider(Modifier.padding(horizontal = 32.dp).height(48.dp), color = MaterialTheme.colorScheme.outlineVariant)
             note(sentence)
             VerticalDivider(Modifier.padding(horizontal = 32.dp).height(48.dp), color = MaterialTheme.colorScheme.outlineVariant)
-            note("App interface: $ui")
+            note(tr("App interface: {0}", ui))
         }
     } else {
         Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Text("Your setup", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text(tr("Your setup"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             pair()
             note(sentence)
-            note("App interface: $ui")
+            note(tr("App interface: {0}", ui))
         }
     }
 }
 
+/** Russian writes language names in lower case inside a sentence. */
+private fun inSentence(name: String): String = if (UiLanguage.code == "ru") name.replaceFirstChar { it.lowercaseChar() } else name
+
+/** A language by its English [name], shown in the interface language. */
 @Composable
 private fun LanguageChip(name: String, roomy: Boolean) {
     Row(
@@ -316,6 +331,6 @@ private fun LanguageChip(name: String, roomy: Boolean) {
     ) {
         LanguageFlag(name, 22.dp)
         Spacer(Modifier.width(if (roomy) 12.dp else 8.dp))
-        Text(name, style = MaterialTheme.typography.titleMedium, maxLines = 1, softWrap = false)
+        Text(tr(name), style = MaterialTheme.typography.titleMedium, maxLines = 1, softWrap = false)
     }
 }

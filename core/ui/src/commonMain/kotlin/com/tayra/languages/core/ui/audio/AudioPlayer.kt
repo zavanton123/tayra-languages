@@ -1,5 +1,6 @@
 package com.tayra.languages.core.ui.audio
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
@@ -131,10 +132,10 @@ fun PlayButton(url: String, playback: AudioPlayback, modifier: Modifier = Modifi
             Box(
                 Modifier.size(14.dp)
                     .background(MaterialTheme.colorScheme.primary, RoundedCornerShape(2.dp))
-                    .semantics { contentDescription = "Stop recording" },
+                    .semantics { contentDescription = tr("Stop recording") },
             )
         } else {
-            Icon(Icons.Default.PlayArrow, contentDescription = "Play recording", tint = MaterialTheme.colorScheme.primary)
+            Icon(Icons.Default.PlayArrow, contentDescription = tr("Play recording"), tint = MaterialTheme.colorScheme.primary)
         }
     }
 }
