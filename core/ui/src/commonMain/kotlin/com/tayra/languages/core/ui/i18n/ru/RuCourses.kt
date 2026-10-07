@@ -1,6 +1,20 @@
 package com.tayra.languages.core.ui.i18n.ru
 
 internal val ruCourses: Map<String, String> = mapOf(
+    // CoursesScreens.kt: the course list
+    "Recommended" to "Рекомендуемые",
+    "Progress" to "Прогресс",
+    "Sorted by recommended" to "Сначала рекомендуемые",
+    "Sorted by recently read" to "Сначала недавно прочитанные",
+    "Sorted by title" to "По названию",
+    "Sorted by progress" to "По прогрессу",
+    "Level: {0}" to "Уровень: {0}",
+    "All" to "Все",
+    "All courses" to "Все курсы",
+    "Grid" to "Плитка",
+    "List" to "Список",
+    "Continue learning" to "Продолжить обучение",
+    "{1} of {0} lessons" to "{1} из {0} урока|{1} из {0} уроков|{1} из {0} уроков",
     // Course levels (CourseLevel.label), shown through tr(label).
     "Beginner" to "Начальный",
     "Elementary" to "Элементарный",

@@ -47,6 +47,7 @@ import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 import kotlin.test.assertNotNull
 
 /** The courses can be searched and filtered, and a course lists its lessons with the reader's progress. */
@@ -91,38 +92,46 @@ class CoursesScreenTest {
         val opened = mutableListOf<String>()
         host {
             val state by viewModel.state.collectAsState()
-            if (!state.loading) CoursesContent(state, viewModel::setSearch, viewModel::setLevel, viewModel::setStatus, onOpen = { opened += it })
+            if (!state.loading) CoursesContent(state, viewModel::setSearch, viewModel::setLevel, viewModel::setStatus, onOpen = { opened += it }, onSort = viewModel::setSort, onView = viewModel::setView)
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("100 courses").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(ids.take(2), shown().take(2), "in the order of their ranks")
         onNodeWithText("Guided Portuguese lessons to read, level by level.").assertExists()
-        save("COURSES_SCREENSHOT")
+        save("COURSES_GRID_SCREENSHOT")
 
         // The search looks in lesson titles too.
         onNodeWithTag("course-search").performTextInput("O prêmio da Clara")
         waitUntil(timeoutMillis = 5_000) { shown() == listOf("pt-mini-0800") }
-        onNodeWithText("1 course").assertExists()
+        assertTrue(onAllNodesWithText("1 course").fetchSemanticsNodes().isNotEmpty())
         onNodeWithTag("course-search").performTextClearance()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("100 courses").fetchSemanticsNodes().isNotEmpty() }
 
-        onNodeWithText("All levels").performClick()
+        onNodeWithText("Level: All").performClick()
         onNodeWithText("A1 · Beginner").performClick()
         waitUntil(timeoutMillis = 5_000) { shown() == ids.take(3) }
-        onNodeWithText("3 courses").assertExists()
-        onNodeWithText("A1 · Beginner").performClick()
+        assertTrue(onAllNodesWithText("3 courses").fetchSemanticsNodes().isNotEmpty())
+        onNodeWithText("Level: A1 · Beginner").performClick()
         onNodeWithText("All levels").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("100 courses").fetchSemanticsNodes().isNotEmpty() }
 
-        // Nothing is started yet, so "In progress" leaves no course.
-        onNodeWithText("Any progress").performClick()
-        onNodeWithText("In progress").performClick()
+        // Nothing is started yet, so the "In progress" tab holds no course and the others all of them.
+        onNodeWithTag("status-IN_PROGRESS").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No courses match").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("In progress").performClick()
-        onNodeWithText("Not started").performClick()
+        assertEquals(0, onAllNodesWithText("Continue learning").fetchSemanticsNodes().size)
+        onNodeWithTag("status-NOT_STARTED").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("100 courses").fetchSemanticsNodes().isNotEmpty() }
 
         onNodeWithTag("course-pt-mini-0200").performClick()
         assertEquals(listOf("pt-mini-0200"), opened)
+
+        // Sorted by title, the courses are no longer grouped by level; the list shows them as rows.
+        onNodeWithTag("course-sort").performClick()
+        onNodeWithText("Title").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Sorted by title").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithText("Beginner").fetchSemanticsNodes().size)
+        onNodeWithTag("view-LIST").performClick()
+        save("COURSES_LIST_SCREENSHOT")
+
     }
 
     @Test
@@ -157,6 +166,31 @@ class CoursesScreenTest {
         assertEquals(0, onAllNodesWithText("Start here").fetchSemanticsNodes().size)
         assertNotNull(onAllNodesWithText("Completed").fetchSemanticsNodes().singleOrNull())
         save("COURSE_SCREENSHOT")
+        collecting.cancel()
+    }
+
+    @Test
+    fun theCourseBeingReadIsOfferedToContinue() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        // The first lesson of the second course is read to its end.
+        runBlocking {
+            val bookId = service.openLesson("pt-mini-0200", "pt-mini-0200-01")!!
+            reading.openPage(bookId, 1, trackOpen = true)
+            reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
+        }
+        val viewModel = CoursesViewModel(service, languages, settings)
+        val read = java.util.Collections.synchronizedList(mutableListOf<Long>())
+        val collecting = CoroutineScope(Dispatchers.Default).launch { viewModel.events.flow.collect { if (it is CoursesEvent.Read) read += it.bookId } }
+        host {
+            val state by viewModel.state.collectAsState()
+            if (!state.loading) CoursesContent(state, viewModel::setSearch, viewModel::setLevel, viewModel::setStatus, onOpen = {}, onContinue = viewModel::continueCourse)
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue learning").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("1 of 10 lessons").assertExists()
+        save("COURSES_SCREENSHOT")
+        onNodeWithTag("continue-course").performClick()
+        waitUntil(timeoutMillis = 5_000) { read.size == 1 }
+        // It opens the course's next lesson.
+        assertEquals("O Pedro perde o ônibus", runBlocking { books.getBook(read.single()) }?.title)
         collecting.cancel()
     }
 

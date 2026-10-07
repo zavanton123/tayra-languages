@@ -24,6 +24,11 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.time.Instant
+
+enum class CoursesSort { RECOMMENDED, RECENTLY_READ, TITLE, PROGRESS }
+
+enum class CoursesView { GRID, LIST }
 
 data class CoursesUiState(
     val loading: Boolean = true,
@@ -36,48 +41,119 @@ data class CoursesUiState(
     val level: CourseLevel? = null,
     /** Null shows courses whatever their progress. */
     val status: LessonStatus? = null,
+    val sort: CoursesSort = CoursesSort.RECOMMENDED,
+    val view: CoursesView = CoursesView.GRID,
+    /** Why the last lesson could not be opened, if it could not. */
+    val error: String? = null,
 ) {
-    /** The courses matching the search, in titles, descriptions, topics and lesson titles, and the filters. */
-    val shown: List<CourseProgress>
+    /** The courses matching the search, in titles, descriptions, topics and lesson titles, and the level, whatever their progress. */
+    private val searched: List<CourseProgress>
         get() {
             val query = search.trim()
             return courses.filter { progress ->
                 val course = progress.course
                 (level == null || course.level == level) &&
-                    (status == null || progress.status == status) &&
                     (query.isEmpty() || listOf(course.title, course.description, course.topic).any { it.contains(query, ignoreCase = true) } ||
                         course.lessons.any { it.title.contains(query, ignoreCase = true) })
             }
         }
 
+    /** How many of the searched courses each progress tab holds, null being all of them. */
+    val counts: Map<LessonStatus?, Int>
+        get() = searched.let { list -> mapOf<LessonStatus?, Int>(null to list.size) + LessonStatus.entries.associateWith { st -> list.count { it.status == st } } }
+
+    /** The courses to show, in the chosen order. */
+    val shown: List<CourseProgress>
+        get() {
+            val list = searched.filter { status == null || it.status == status }
+            return when (sort) {
+                CoursesSort.RECOMMENDED -> list
+                CoursesSort.RECENTLY_READ -> list.sortedByDescending { it.lastRead }
+                CoursesSort.TITLE -> list.sortedBy { it.course.title.lowercase() }
+                CoursesSort.PROGRESS -> list.sortedByDescending { it.fraction }
+            }
+        }
+
     /** The levels that have a course, for the filter. */
     val levels: List<CourseLevel> get() = courses.map { it.course.level }.distinct().sorted()
+
+    /** The course being read most recently, to go on with. */
+    val continueWith: CourseProgress?
+        get() = courses.filter { it.status == LessonStatus.IN_PROGRESS }.maxByOrNull { it.lastRead ?: Instant.DISTANT_PAST }
+}
+
+/** When a lesson of the course was last opened; null for a course never read. */
+internal val CourseProgress.lastRead: Instant? get() = lessons.mapNotNull { it.book?.lastOpened }.maxOrNull()
+
+/** The share of the course's lessons completed, from 0 to 1. */
+internal val CourseProgress.fraction: Float get() = if (lessons.isEmpty()) 0f else completed.toFloat() / lessons.size
+
+sealed interface CoursesEvent {
+    /** The lesson's text is ready to read. */
+    data class Read(val bookId: Long) : CoursesEvent
 }
 
 /** The courses of the language being learned. */
-class CoursesViewModel(service: CourseService, languages: LanguageRepository, settings: SettingsRepository) : ViewModel() {
+class CoursesViewModel(private val service: CourseService, languages: LanguageRepository, settings: SettingsRepository) : ViewModel() {
     init {
         // A language added since the app started gets its sample courses here.
         viewModelScope.launch { service.seedSamples() }
     }
 
-    private val search = MutableStateFlow("")
-    private val level = MutableStateFlow<CourseLevel?>(null)
-    private val status = MutableStateFlow<LessonStatus?>(null)
+    val events = UiEvents<CoursesEvent>()
+
+    private data class Choices(
+        val search: String = "",
+        val level: CourseLevel? = null,
+        val status: LessonStatus? = null,
+        val sort: CoursesSort = CoursesSort.RECOMMENDED,
+        val view: CoursesView = CoursesView.GRID,
+        val error: String? = null,
+    )
+
+    private val choices = MutableStateFlow(Choices())
 
     @OptIn(ExperimentalCoroutinesApi::class)
     private val courses = settings.settings.map { it.currentLanguageId }.distinctUntilChanged()
         .flatMapLatest { id -> service.observeCourses(id).map { list -> (languages.getById(id)?.name.orEmpty()) to list } }
 
-    val state: StateFlow<CoursesUiState> = combine(courses, search, level, status) { (language, list), query, lvl, st ->
+    val state: StateFlow<CoursesUiState> = combine(courses, choices) { (language, list), c ->
         val packAvailable = LanguageCodes.codeFor(language)?.let { CoursePacks.forLanguage(it).isNotEmpty() } == true
-        // A level chosen for another language's courses does not hide this one's.
-        CoursesUiState(loading = false, languageName = language, packAvailable = packAvailable, courses = list, search = query, level = lvl?.takeIf { l -> list.any { it.course.level == l } }, status = st)
+        CoursesUiState(
+            loading = false,
+            languageName = language,
+            packAvailable = packAvailable,
+            courses = list,
+            search = c.search,
+            // A level chosen for another language's courses does not hide this one's.
+            level = c.level?.takeIf { l -> list.any { it.course.level == l } },
+            status = c.status,
+            sort = c.sort,
+            view = c.view,
+            error = c.error,
+        )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), CoursesUiState())
 
-    fun setSearch(query: String) { search.value = query }
-    fun setLevel(value: CourseLevel?) { level.value = value }
-    fun setStatus(value: LessonStatus?) { status.value = value }
+    fun setSearch(query: String) = choices.update { it.copy(search = query) }
+    fun setLevel(value: CourseLevel?) = choices.update { it.copy(level = value) }
+    fun setStatus(value: LessonStatus?) = choices.update { it.copy(status = value) }
+    fun setSort(value: CoursesSort) = choices.update { it.copy(sort = value) }
+    fun setView(value: CoursesView) = choices.update { it.copy(view = value) }
+
+    /** Opens the next lesson of the course to read it. */
+    fun continueCourse(progress: CourseProgress) {
+        val lesson = progress.nextLesson ?: return
+        viewModelScope.launch {
+            val bookId = try {
+                service.openLesson(progress.course.id, lesson.lesson.id)
+            } catch (e: Exception) {
+                choices.update { it.copy(error = e.message?.let { message -> tr(message) } ?: tr("Could not open the lesson")) }
+                return@launch
+            }
+            if (bookId == null) choices.update { it.copy(error = tr("This course's language is not set up in the app.")) }
+            else events.send(CoursesEvent.Read(bookId))
+        }
+    }
 }
 
 data class CourseUiState(val loading: Boolean = true, val progress: CourseProgress? = null, val error: String? = null)
