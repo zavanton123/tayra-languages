@@ -1,0 +1,212 @@
+{
+  "id": "fr-mini-8200",
+  "rankUpTo": 8200,
+  "level": "C2",
+  "title": "Prévention et résilience",
+  "description": "Ten stories and texts about preventing harm and recovering from it, from a restaurant inspection in Dijon and a mountain power plant in the Valais to a canoe camp in Quebec and a replanted hillside in Kabylie.",
+  "topic": "Prevention and resilience",
+  "names": [
+    "Dijon",
+    "Gérard",
+    "Morel",
+    "Chiara",
+    "Morvan",
+    "Sion",
+    "Rhône",
+    "Fellay",
+    "Montréal",
+    "Samuel",
+    "Jeanne",
+    "Clara",
+    "Ciney",
+    "Josiane",
+    "Lyon",
+    "Malik",
+    "Hélène",
+    "Strasbourg",
+    "France",
+    "Ill",
+    "Europe",
+    "Marion",
+    "Dufour",
+    "Genève",
+    "Toulouse",
+    "Didier",
+    "Laffont",
+    "Laurentides",
+    "Geneviève",
+    "Félix",
+    "Lina",
+    "Marseille",
+    "Kabylie",
+    "Tizi",
+    "Ouzou"
+  ],
+  "lessons": [
+    {
+      "title": "L'inspection du restaurant de Gérard",
+      "summary": "In Dijon, a restaurateur and his Tuscan wife prepare carefully for a hygiene inspection and pass it with praise.",
+      "newWords": [
+        "restaurateur",
+        "bourguignon",
+        "gibier",
+        "moutarde",
+        "réglementer",
+        "abîmer",
+        "inefficace",
+        "melon",
+        "moudre",
+        "toscan",
+        "prud'homme"
+      ],
+      "text": "À Dijon, Gérard Morel tient depuis 20 ans un petit restaurant près des halles. C'est un restaurateur à l'ancienne : il fait tout lui-même, du bœuf bourguignon du dimanche à la sauce à la moutarde qui accompagne son lapin. Sa femme, Chiara, est toscane. Elle a apporté de son pays quelques recettes toscanes et un goût de l'ordre qui fait sourire son mari.\n\nUn lundi de novembre, une lettre arriva : les services d'hygiène annonçaient une inspection pour le mois suivant. Gérard ne s'inquiéta pas. Chiara, elle, prit la lettre au sérieux. « Une inspection ne se prépare pas la veille, dit-elle. Une cuisine propre est une cuisine qui n'a rien à cacher. »\n\nIls commencèrent par le gibier. En automne, Gérard sert du sanglier, qu'il achète à un chasseur du Morvan. Or le gibier est un produit très réglementé : la viande doit passer par un contrôle vétérinaire, et le restaurateur doit pouvoir montrer d'où elle vient. Gérard avait tous les papiers du gibier, mais ils dormaient au fond d'un tiroir. Chiara les classa, mois par mois, dans un grand cahier.\n\nVint ensuite la chambre froide. Gérard la nettoyait chaque semaine avec un vieux produit qu'il aimait bien. Chiara lut l'étiquette : ce produit était inefficace contre la plupart des bactéries. « Il sent bon, mais il est inefficace », conclut-elle, et elle en acheta un autre, conforme aux normes.\n\nPuis ils firent le tri. Une caisse de melons attendait dans un coin depuis plusieurs jours. Deux melons étaient abîmés, mous et marqués de noir. Chiara secoua la tête : un fruit abîmé peut contaminer les autres. Les melons abîmés partirent à la poubelle, et les autres furent rangés au frais.\n\nRestait la moutarde. Gérard fabrique lui-même sa moutarde, comme son grand-père : il laisse les graines dans l'eau une nuit, puis il les moud dans un vieux moulin à main. Les graines moulues sont mélangées avec du vinaigre et du sel. Chiara proposa d'écrire sur une fiche la recette, les dates de fabrication et la température de conservation.\n\nLe soir, en fermant, Gérard avoua un autre souci. Un ancien serveur, renvoyé l'année précédente, l'avait menacé des prud'hommes, parce qu'il n'y avait jamais eu de contrat écrit entre eux. Chiara soupira : « On réglemente la cuisine, mais le travail aussi est réglementé. » Dès le lendemain, chaque employé reçut un vrai contrat. L'ancien serveur, lui, n'alla jamais aux prud'hommes : ils trouvèrent un accord sans juge.\n\nL'inspectrice vint un jeudi matin. Elle ouvrit les frigos, regarda les températures, lut le cahier du gibier et la fiche de la moutarde. En partant, elle dit au restaurateur que sa cuisine était l'une des mieux tenues du quartier. Gérard ne répondit rien, mais ce soir-là, il servit à Chiara un bœuf bourguignon, et en dessert une tarte toscane, la recette de la grand-mère de sa femme.\n\nQuestions :\nQui est Chiara ?\nChiara est la femme de Gérard, et elle est toscane.\nPourquoi le gibier demande-t-il des papiers ?\nParce que c'est un produit très réglementé : le restaurateur doit pouvoir montrer d'où vient la viande.\nPourquoi Chiara a-t-elle changé de produit de nettoyage ?\nParce que l'ancien produit était inefficace contre la plupart des bactéries.\nQu'ont-ils fait des melons abîmés ?\nIls les ont jetés, parce qu'un fruit abîmé peut contaminer les autres.\nComment Gérard fabrique-t-il sa moutarde ?\nIl laisse les graines dans l'eau, il les moud, puis il les mélange avec du vinaigre et du sel."
+    },
+    {
+      "title": "Le vallon qui ne veut plus être surpris",
+      "summary": "A report from the Valais: after a mudslide, a small mountain power plant is modernised to withstand stronger storms.",
+      "newWords": [
+        "vallon",
+        "turbine",
+        "valve",
+        "diagramme",
+        "éventualité",
+        "intensifier",
+        "moderniser",
+        "nominal",
+        "oxyde",
+        "régression"
+      ],
+      "text": "Au-dessus de Sion, dans le Valais, un petit vallon descend vers le Rhône entre deux forêts de sapins. Un torrent le traverse. Depuis 1920, une petite centrale électrique utilise sa force : l'eau est captée en haut du vallon, elle descend dans une conduite et elle fait tourner une turbine. Pendant des décennies, ce fut une installation tranquille. Puis les orages ont changé.\n\n« Avant, un très gros orage, c'était une fois tous les dix ans, explique Laurent Fellay, le technicien qui s'occupe de la centrale. Aujourd'hui, c'est presque chaque été. » Les pluies se sont intensifiées, et plus haut, les glaciers sont en pleine régression. Cette régression donne d'abord plus d'eau, puis, un jour, beaucoup moins. En 2018, une coulée de boue a bouché la prise d'eau et endommagé la turbine. La centrale s'est arrêtée pendant trois mois.\n\nLa commune a alors décidé de moderniser l'installation, non pas pour produire plus, mais pour mieux résister. Laurent nous montre un diagramme affiché au mur de la salle des machines. Sur ce diagramme, une courbe bleue représente le débit du torrent, et une ligne rouge le débit nominal de la turbine, c'est-à-dire la quantité d'eau pour laquelle elle a été construite. « Quand la courbe bleue dépasse de beaucoup la ligne rouge, la turbine est en danger. Au-dessus du débit nominal, l'eau apporte du sable et des cailloux qui usent tout. »\n\nModerniser, ici, a d'abord voulu dire remplacer une vieille valve. Cette valve, placée en haut de la conduite, était manuelle : en cas d'orage, quelqu'un devait monter la fermer, souvent de nuit et sous la pluie. La nouvelle valve se ferme seule quand le débit devient trop fort. Laurent garde l'ancienne dans un coin, couverte d'une couche brune d'oxyde. « Cet oxyde, c'est 60 ans de travail, dit-il en souriant. Elle a bien mérité sa retraite. »\n\nLa modernisation comprend aussi des capteurs le long du torrent et un plan pour chaque éventualité. Le plan tient en quelques pages. Dans l'éventualité d'un orage annoncé, la turbine est ralentie. Dans l'éventualité d'une coulée de boue, la valve se ferme et une alarme prévient la commune. Dans l'éventualité, plus rare, d'une panne électrique générale, un petit groupe de secours garde les capteurs en marche.\n\nCet été, les orages se sont encore intensifiés. Le 14 juillet, le débit a dépassé trois fois le débit nominal en moins d'une heure. La valve s'est fermée, la turbine s'est arrêtée sans dommage, et elle est repartie le lendemain matin. Laurent a imprimé le diagramme de cette nuit-là et il l'a accroché au mur, à côté des autres. « Ce n'est pas une victoire contre la montagne, dit-il. C'est une façon de vivre avec elle. »\n\nQuestions :\nPourquoi la centrale s'est-elle arrêtée en 2018 ?\nParce qu'une coulée de boue a bouché la prise d'eau et endommagé la turbine.\nQue représente la ligne rouge sur le diagramme ?\nElle représente le débit nominal de la turbine, la quantité d'eau pour laquelle elle a été construite.\nPourquoi a-t-on remplacé l'ancienne valve ?\nParce qu'elle était manuelle et qu'il fallait monter la fermer pendant les orages, souvent de nuit.\nQue se passe-t-il dans l'éventualité d'un orage annoncé ?\nLa turbine est ralentie.\nComment la centrale a-t-elle résisté le 14 juillet ?\nLa valve s'est fermée seule, la turbine s'est arrêtée sans dommage et elle est repartie le lendemain."
+    },
+    {
+      "title": "Journal d'une attente",
+      "summary": "In the diary of a pregnant woman in Montreal, she and her partner learn what to avoid, how to relax and finally choose a name.",
+      "newWords": [
+        "utérus",
+        "pouls",
+        "paternité",
+        "sushi",
+        "pâté",
+        "nocif",
+        "relaxer",
+        "lotus",
+        "indécis",
+        "angélique"
+      ],
+      "text": "Montréal, le 3 mars.\nPremière visite chez la sage-femme. Elle m'a montré sur un dessin où en était l'utérus à 12 semaines : à peine plus gros qu'une orange. Elle m'a expliqué que l'utérus allait grandir tous les mois, et mon ventre avec lui. Puis elle m'a donné une liste. Une longue liste.\n\nPendant la grossesse, il faut éviter certains aliments, à cause de deux infections rares, mais dangereuses pour le bébé. Adieu les sushis du jeudi soir avec Samuel. Adieu le pâté de campagne de ma tante, les fromages au lait cru et la viande saignante. J'ai protesté pour les sushis. La sage-femme a souri : « Vous retrouverez vos sushis dans six mois. Le bébé, lui, n'a pas de deuxième chance. »\n\nLe 10 mars.\nSamuel a lu la liste trois fois. Il a vidé le frigo de tout ce qui lui semblait suspect, y compris un pâté parfaitement innocent. Il a aussi décidé que la maison serait désormais sans produits nocifs : plus de nettoyants trop forts, plus de peinture fraîche dans la future chambre. « Si c'est nocif pour moi, c'est nocif pour vous deux », dit-il.\n\nIl prend sa future paternité très au sérieux. Son employeur lui accorde cinq semaines de congé de paternité, et il a déjà marqué les dates sur le calendrier de la cuisine.\n\nLe 2 avril.\nDeuxième rendez-vous. J'étais nerveuse, et la sage-femme a pris mon pouls et ma tension. Mon pouls était un peu rapide. « Respirez, m'a-t-elle dit. Vous avez le droit de vous relaxer. » Puis elle a posé l'appareil sur mon ventre, et nous avons entendu le cœur du bébé : un petit bruit rapide et régulier, deux fois plus rapide que mon propre pouls. Samuel avait les larmes aux yeux.\n\nElle m'a conseillé le yoga pour me relaxer. Le cours a lieu le mardi soir, près de chez nous. On s'assoit en position du lotus, du moins celles qui y arrivent encore. Moi, je fais un demi-lotus, avec des coussins. On respire, on étire le dos, on apprend à relaxer les épaules.\n\nLe 20 mai.\nNous ne savons toujours pas quel prénom choisir. Samuel aime Jeanne, moi Clara. Nous sommes indécis, mais la famille, elle, ne l'est pas du tout : chacun a son idée. Ma mère dit que nous resterons indécis jusqu'à la naissance, et que c'est très bien ainsi.\n\nLe 15 septembre.\nElle est née hier soir à 23 h 10. Elle dort sur la poitrine de Samuel, les poings fermés, avec un visage angélique. Les infirmières disent qu'un sourire angélique, à cet âge, c'est surtout un réflexe. Nous préférons croire le contraire. Nous ne sommes plus indécis : elle s'appelle Clara Jeanne. Et ce soir, Samuel est allé me chercher des sushis.\n\nQuestions :\nPourquoi la narratrice ne mange-t-elle plus de sushis ?\nParce que certains aliments, comme les sushis et le pâté, sont à éviter pendant la grossesse.\nQu'a fait Samuel après avoir lu la liste ?\nIl a vidé le frigo, et il a décidé que la maison serait sans produits nocifs.\nPourquoi son pouls était-il rapide au deuxième rendez-vous ?\nParce qu'elle était nerveuse.\nComment apprend-elle à se relaxer ?\nElle fait du yoga : on s'assoit en position du lotus, on respire et on relaxe les épaules.\nQuel prénom ont-ils choisi ?\nIls ont choisi Clara Jeanne."
+    },
+    {
+      "title": "Les chats de la place",
+      "summary": "A local column from Belgium: a village stops fighting its stray cats and has them neutered and cared for instead.",
+      "newWords": [
+        "castrer",
+        "indésirable",
+        "baraque",
+        "égide",
+        "comparativement",
+        "shampooing",
+        "immonde",
+        "canette",
+        "inactif",
+        "positivement"
+      ],
+      "text": "À Ciney, comme dans beaucoup de communes de Belgique, les chats sans maître sont un vieux sujet. On les nourrit, on les chasse, on s'en plaint, et ils reviennent. Cette année, pourtant, quelque chose a changé, et la chroniqueuse que je suis a voulu comprendre comment.\n\nTout a commencé derrière la baraque à frites de la place. Une baraque, chez nous, c'est cette petite cabane où l'on vend des frites, et celle de Josiane est une institution. Derrière la baraque, entre les poubelles et les caisses de canettes vides, vivait une colonie d'une trentaine de chats. L'été dernier, l'odeur était devenue immonde, et plusieurs voisins demandaient qu'on fasse disparaître ces animaux indésirables.\n\nJosiane a refusé qu'on les empoisonne. Elle a contacté une association qui travaille désormais sous l'égide de la commune. Sous cette égide, le plan est simple : on attrape les chats, on les fait soigner, on fait castrer les mâles et opérer les femelles pour qu'elles n'aient plus de petits, puis on les relâche à l'endroit où ils vivaient. Un mâle castré ne marque plus son territoire avec cette urine à l'odeur immonde. Il se bat moins, et il s'éloigne moins.\n\nComparativement à la méthode d'avant, qui consistait à emmener les chats ailleurs, c'est moins spectaculaire. Mais l'association a des chiffres. Comparativement aux colonies qu'on déplace, une colonie de chats castrés et soignés ne grandit plus, et les nouveaux venus indésirables restent dehors, parce que la place est prise.\n\nLes bénévoles ont aussi pris soin des chats eux-mêmes. Certains avaient tant de puces qu'on les a lavés avec un shampooing spécial du vétérinaire. « Un chat qui supporte un shampooing, m'a dit une bénévole en riant, peut supporter n'importe quoi. » Josiane, de son côté, a réglé la question des canettes. Elle les range maintenant dans un conteneur fermé, et les chats ne se coupent plus les pattes sur les canettes ouvertes.\n\nSix mois plus tard, la colonie compte 22 chats. Ils sont devenus calmes, presque inactifs : on les voit dormir au soleil sur le petit mur de l'église, inactifs comme de vieux retraités. L'odeur a disparu. Les voisins qui voulaient les voir partir parlent d'eux plus positivement. L'un d'eux a même construit une cabane en bois pour l'hiver.\n\nJe ne prétends pas que tout le village voit ces chats positivement. Mais on peut juger une commune à la façon dont elle traite ses habitants les plus discrets, et cette fois, Ciney s'en est plutôt bien sortie.\n\nQuestions :\nQu'est-ce qu'une baraque à frites ?\nC'est une petite cabane où l'on vend des frites.\nPourquoi certains voisins voulaient-ils voir partir les chats ?\nParce que l'odeur était devenue immonde et qu'ils trouvaient ces animaux indésirables.\nQue fait l'association sous l'égide de la commune ?\nElle attrape les chats, elle les fait soigner, elle fait castrer les mâles et opérer les femelles, puis elle les relâche.\nComment Josiane a-t-elle réglé la question des canettes ?\nElle les range maintenant dans un conteneur fermé.\nComment les voisins parlent-ils des chats aujourd'hui ?\nIls parlent d'eux plus positivement."
+    },
+    {
+      "title": "La suppléante et le guignol",
+      "summary": "A substitute teacher in Lyon fights bullying in her class by having the children make a puppet show about it.",
+      "newWords": [
+        "suppléant",
+        "intimidation",
+        "répliquer",
+        "arrogance",
+        "plaisanter",
+        "inadmissible",
+        "guignol",
+        "découpage",
+        "enfantin",
+        "multimédia"
+      ],
+      "text": "En janvier, j'ai été nommée suppléante dans une école primaire de Lyon, sur les pentes de la Croix-Rousse. La maîtresse de la classe était en congé pour trois mois. Une suppléante, les enfants le savent, c'est quelqu'un qui passe. Ils m'ont donc observée avec méfiance.\n\nAu bout d'une semaine, j'ai remarqué Malik. Il ne jouait plus dans la cour. Trois garçons plus grands l'attendaient à la sortie de la cantine, lui prenaient son goûter et se moquaient de son accent. Quand je les ai interrogés, l'un d'eux m'a répliqué avec arrogance : « On plaisante, madame. Il ne sait pas plaisanter, c'est tout. »\n\nCe n'était pas une plaisanterie, c'était de l'intimidation. J'ai expliqué aux trois garçons que leur conduite était inadmissible, et j'ai prévenu la directrice. Elle a convoqué les parents, qui ont reconnu que c'était inadmissible. Mais je savais qu'une punition ne suffirait pas. L'intimidation se nourrit du silence de ceux qui regardent.\n\nJ'ai alors eu une idée un peu enfantine. À Lyon, tout le monde connaît le guignol, ce théâtre de marionnettes né au 19e siècle, où l'on se moque des puissants. J'ai proposé à la classe de monter un petit guignol sur l'intimidation. Les enfants ont écrit l'histoire, puis nous sommes passés au découpage : découpage des personnages dans du carton, découpage du décor, peinture. Pendant le découpage, les enfants parlent plus librement. Une fille m'a raconté qu'on se moquait aussi d'elle.\n\nDans notre guignol, une grande marionnette pleine d'arrogance prenait le goûter d'une petite. Les autres marionnettes regardaient sans rien dire. Puis l'une d'elles répliquait : « Arrête. Ce n'est pas drôle. » Et toutes les autres répétaient la même phrase. C'était une idée enfantine, peut-être, mais les enfants l'ont trouvée juste.\n\nNous avons filmé le spectacle dans la salle multimédia de l'école. Le responsable de la salle multimédia nous a aidés au montage, et la vidéo a été montrée aux parents en mars. Les trois garçons y avaient un rôle : ils prêtaient leur voix aux marionnettes qui disent « arrête ».\n\nMon remplacement s'est terminé au printemps. Le dernier jour, Malik jouait au ballon dans la cour avec les autres. Il m'a demandé si je reviendrais l'année prochaine. Je lui ai répondu que les suppléants ne savent jamais où ils iront. Il a réfléchi, puis il a répliqué, très sérieux : « Alors on vous écrira. »\n\nQuestions :\nPourquoi les enfants observaient-ils la narratrice avec méfiance ?\nParce qu'elle était suppléante, et qu'une suppléante, c'est quelqu'un qui passe.\nQue faisaient les trois garçons à Malik ?\nIls lui prenaient son goûter et ils se moquaient de son accent.\nQu'a répliqué l'un des garçons ?\nIl a répliqué avec arrogance qu'ils plaisantaient et que Malik ne savait pas plaisanter.\nQu'est-ce que le guignol ?\nC'est un théâtre de marionnettes né à Lyon au 19e siècle.\nOù la classe a-t-elle filmé son spectacle ?\nElle l'a filmé dans la salle multimédia de l'école."
+    },
+    {
+      "title": "La ville qui se relève",
+      "summary": "A guide in Strasbourg shows students the places that were destroyed and rebuilt, and tells of a ceremony of all the city's faiths.",
+      "newWords": [
+        "décapiter",
+        "royaliste",
+        "synagogue",
+        "nazisme",
+        "éradiquer",
+        "prélat",
+        "chiite",
+        "réaffirmer",
+        "clivage"
+      ],
+      "text": "Hélène est guide à Strasbourg depuis 20 ans. Sa visite préférée n'est pas celle des vieilles maisons ni des canaux de la Petite France. C'est une promenade qu'elle appelle « la ville qui se relève ». Ce matin d'octobre, elle la fait avec une classe de lycéens.\n\nLe premier arrêt est la cathédrale. Hélène montre le grand portail, couvert de statues. « Regardez bien : beaucoup de ces statues ne sont pas d'origine. » En 1793, pendant la Révolution, les autorités ont fait enlever ou décapiter des centaines de statues. On voyait en elles des symboles de l'Église et des rois, et on se méfiait des royalistes, ceux qui voulaient le retour du roi. Une statue de roi semblait alors un drapeau royaliste. Des statues de saints et de rois ont été décapitées au nom de la liberté. Plus tard, des sculpteurs les ont refaites, une à une.\n\nLe deuxième arrêt est un quai, au bord de l'Ill. Il n'y a qu'une plaque. Ici s'élevait jusqu'en 1940 la grande synagogue de la ville. Hélène raconte, d'une voix calme : après l'arrivée des troupes allemandes, les nazis l'ont brûlée, puis ils ont fait disparaître les ruines. Le nazisme voulait éradiquer la vie juive d'Alsace, jusqu'au souvenir de ses lieux. Elle demande aux élèves ce que veut dire éradiquer. Une élève répond : « Arracher jusqu'à la racine. »\n\n« Pourtant, ajoute Hélène, le nazisme n'a pas réussi. » Après la guerre, la communauté juive a fait construire une nouvelle synagogue, inaugurée en 1958, à quelques rues de là. C'est le troisième arrêt. Le bâtiment est moderne, clair, ouvert sur un jardin.\n\nHélène raconte une cérémonie à laquelle elle a assisté ici, après des actes de haine dans la région. Ce jour-là, le rabbin avait invité toutes les communautés de la ville. Il y avait un prélat catholique, l'archevêque, venu en habit violet. Il y avait des pasteurs protestants, l'imam de la grande mosquée et un représentant de la communauté chiite. Le prélat a parlé le premier. Il a dit qu'il était venu réaffirmer une chose simple : on ne s'attaque pas à une communauté sans s'attaquer à toute la ville. Le représentant chiite a réaffirmé la même idée avec d'autres mots, et l'imam aussi.\n\n« Il y a des clivages entre ces communautés, explique Hélène. Des clivages anciens, sur la foi, sur l'histoire, parfois sur la politique. On ne les fait pas disparaître en une matinée. Mais ce jour-là, le clivage le plus important passait ailleurs : entre ceux qui détruisent et ceux qui reconstruisent. »\n\nLa visite se termine au bord de l'eau. Un élève demande si l'on peut éradiquer la haine. Hélène réfléchit. « Je ne sais pas. On peut la rendre plus petite. C'est déjà beaucoup. »\n\nQuestions :\nPourquoi beaucoup de statues de la cathédrale ne sont-elles pas d'origine ?\nParce qu'en 1793, on a fait enlever ou décapiter des centaines de statues, et que des sculpteurs les ont refaites plus tard.\nQu'est-il arrivé à la grande synagogue en 1940 ?\nLes nazis l'ont brûlée, puis ils ont fait disparaître les ruines.\nQue voulait le nazisme, selon Hélène ?\nIl voulait éradiquer la vie juive d'Alsace, jusqu'au souvenir de ses lieux.\nQui a parlé le premier pendant la cérémonie ?\nUn prélat catholique, l'archevêque, qui est venu réaffirmer qu'on ne s'attaque pas à une communauté sans s'attaquer à toute la ville.\nSelon Hélène, où passait le clivage le plus important ce jour-là ?\nIl passait entre ceux qui détruisent et ceux qui reconstruisent."
+    },
+    {
+      "title": "Une voix qui revient",
+      "summary": "An interview with a Geneva soprano who nearly lost her voice and now protects it with simple rules.",
+      "newWords": [
+        "soprano",
+        "prodige",
+        "médium",
+        "baume",
+        "vielle",
+        "harmonieux",
+        "adultère",
+        "charismatique",
+        "ivresse",
+        "délirant"
+      ],
+      "text": "Elle a chanté sur les plus grandes scènes d'Europe, puis elle a failli perdre sa voix. À 41 ans, la soprano Marion Dufour revient au Grand Théâtre de Genève dans un opéra qui raconte un adultère. Nous l'avons rencontrée entre deux répétitions.\n\n— On vous a longtemps présentée comme une enfant prodige. Cela vous gêne ?\n— Un peu. J'ai chanté en public à 12 ans, c'est vrai, mais une enfant prodige n'est pas encore une chanteuse. Le prodige, c'est ce qui étonne ; le métier, c'est ce qui dure. Il m'a fallu 20 ans pour le comprendre.\n\n— Que s'est-il passé il y a trois ans ?\n— J'ai trop chanté. Trois rôles lourds dans la même saison, des voyages, peu de sommeil. Un soir, à Vienne, mon médium a cédé. Le médium, c'est la partie centrale de la voix, celle où l'on parle et où l'on chante le plus. Une soprano pense toujours à ses notes aiguës, mais c'est le médium qui porte tout. Le médecin a trouvé une petite lésion sur une corde vocale. Trois mois de silence complet.\n\n— Comment avez-vous vécu ce silence ?\n— Mal, au début. Puis j'ai appris. Aujourd'hui, j'ai des règles. Je ne chante jamais plus de trois soirs de suite. Je dors huit heures. Avant chaque représentation, je bois de l'eau chaude au miel, je mets un baume sur mes lèvres et un autre baume sur ma poitrine. Le baume ne soigne sans doute rien, mais c'est un rituel, et les rituels calment.\n\n— Pendant cette pause, vous avez découvert une autre musique.\n— Oui. Un ami musicien jouait de la vielle à roue, un instrument médiéval qui sonne comme un petit orgue un peu sauvage. La vielle m'a appris qu'une musique peut être harmonieuse sans être parfaite. Je joue maintenant un peu de vielle, très mal.\n\n— Parlons de l'opéra que vous répétez.\n— C'est l'histoire d'une femme qui vit un adultère et qui le paie très cher. Le sujet n'est pas léger, mais la musique est d'une beauté harmonieuse incroyable. Le metteur en scène est très charismatique : quand il entre dans la salle, tout le monde se tait. Mais un homme charismatique doit aussi savoir écouter, et lui, il écoute. Il me laisse chanter certaines scènes plus doucement pour protéger ma voix.\n\n— Et le public ?\n— Le public, c'est l'ivresse. Quand une salle est délirante, qu'elle applaudit debout pendant dix minutes, on a envie de tout donner. L'ivresse des applaudissements m'a déjà coûté ma voix une fois. Maintenant, après un soir délirant, je rentre, je me tais et je dors.\n\n— Un conseil aux jeunes chanteurs ?\n— Votre voix est un instrument que vous ne pourrez pas racheter. Protégez-la avant d'en avoir besoin.\n\nQuestions :\nPourquoi Marion Dufour n'aime-t-elle pas trop qu'on l'appelle une enfant prodige ?\nParce qu'une enfant prodige n'est pas encore une chanteuse : le prodige étonne, mais le métier dure.\nQu'est-ce que le médium ?\nC'est la partie centrale de la voix, celle où l'on parle et où l'on chante le plus.\nQuelles règles suit-elle aujourd'hui ?\nElle ne chante jamais plus de trois soirs de suite, elle dort huit heures et elle met un baume avant chaque représentation.\nQu'est-ce que la vielle lui a appris ?\nElle lui a appris qu'une musique peut être harmonieuse sans être parfaite.\nQue fait-elle après un soir délirant ?\nElle rentre, elle se tait et elle dort."
+    },
+    {
+      "title": "Lettre aux parents de l'école de rugby",
+      "summary": "A youth rugby coach in Toulouse explains to parents the club's new rules against concussions.",
+      "newWords": [
+        "passionner",
+        "chelem",
+        "boycotter",
+        "berline",
+        "freinage",
+        "sifflet",
+        "vignette",
+        "optimisme"
+      ],
+      "text": "Toulouse, le 2 septembre\n\nChers parents,\n\nUne nouvelle saison commence, et je sais que le rugby passionne vos enfants autant qu'il me passionne depuis 40 ans. Au printemps, beaucoup d'entre eux ont regardé avec nous, au club, le Tournoi des Six Nations, et ils ont vu l'équipe de France réussir le grand chelem, c'est-à-dire gagner ses cinq matchs. Depuis, ils rêvent tous de chelem. Moi aussi, je rêve, mais mon premier travail est de les protéger.\n\nVous vous souvenez que l'an dernier, après deux commotions chez les moins de 14 ans, certains d'entre vous ont menacé de boycotter le tournoi de printemps. Je ne vous le reproche pas. Boycotter, c'était votre façon de dire que la santé de vos enfants passe avant les coupes. Vous aviez raison, et le club a changé ses règles.\n\nVoici ce qui change cette saison.\n\nD'abord, chaque entraîneur a suivi une formation sur les chocs à la tête. Une commotion cérébrale, ce n'est pas seulement un coup sur le crâne. Imaginez les passagers d'une berline lors d'un freinage brutal : la voiture s'arrête, mais les corps continuent vers l'avant. Le cerveau fait la même chose dans le crâne. Ce freinage brutal peut se produire même sans coup direct sur la tête, par exemple quand un joueur est arrêté net dans sa course. C'est pourquoi nous allons apprendre aux enfants à plaquer autrement, plus bas et plus lentement. Pensez à la berline : ce n'est pas le choc qui compte, c'est l'arrêt.\n\nEnsuite, la règle du sifflet. Pendant les matchs et les entraînements, au moindre doute, l'arbitre ou l'entraîneur donne un coup de sifflet, et l'enfant sort. Il ne revient pas sur le terrain le même jour, quoi qu'il dise. Un coup de sifflet de trop vaut mieux qu'un enfant blessé.\n\nEnfin, nous joignons à cette lettre une petite brochure illustrée. Chaque vignette montre un signe à surveiller à la maison : mal de tête, envie de vomir, fatigue inhabituelle, humeur changeante. Gardez ces vignettes sur le frigo. Si votre enfant présente un de ces signes après un match, appelez un médecin, puis appelez-nous.\n\nJe termine avec un peu d'optimisme. Le rugby a beaucoup appris ces dernières années, et nos enfants jouent aujourd'hui un jeu plus sûr que celui de ma génération. Mon optimisme n'est pas naïf : il repose sur ce que nous faisons ensemble, vous à la maison, nous sur le terrain.\n\nLe premier entraînement aura lieu samedi à 10 heures. Le grand chelem attendra un peu : d'abord, on apprend à tomber.\n\nAvec mes salutations sportives,\nDidier Laffont, responsable de l'école de rugby\n\nQuestions :\nQu'est-ce que le grand chelem ?\nC'est quand une équipe gagne ses cinq matchs du Tournoi des Six Nations.\nPourquoi certains parents ont-ils menacé de boycotter le tournoi ?\nParce qu'il y avait eu deux commotions chez les moins de 14 ans, et qu'ils voulaient protéger la santé de leurs enfants.\nComment Didier explique-t-il une commotion ?\nIl la compare aux passagers d'une berline lors d'un freinage brutal : le cerveau continue vers l'avant dans le crâne.\nQue se passe-t-il au moindre doute pendant un match ?\nL'arbitre ou l'entraîneur donne un coup de sifflet, et l'enfant sort pour le reste de la journée.\nQue montrent les vignettes de la brochure ?\nChaque vignette montre un signe à surveiller à la maison, comme le mal de tête ou la fatigue."
+    },
+    {
+      "title": "Trois coups de sifflet",
+      "summary": "At a canoe camp in Quebec, a counsellor teaches a dreamy boy and his group the safety rules of the lake.",
+      "newWords": [
+        "canot",
+        "matinale",
+        "argenté",
+        "faucon",
+        "bayer",
+        "antarctique",
+        "asperger",
+        "hanté",
+        "reconduire"
+      ],
+      "text": "Le camp se trouvait au bord d'un lac des Laurentides, au nord de Montréal. Chaque été, Geneviève y emmenait des groupes d'adolescents pour une semaine de canot. Elle commençait toujours de la même façon : avant de toucher un canot, on écoutait les règles.\n\nLe premier matin, la brume matinale couvrait encore le lac. Sous la brume, l'eau avait une couleur argentée, presque immobile, et les troncs des bouleaux étaient argentés eux aussi. Geneviève réunit les huit jeunes sur la plage. Elle montra les gilets de sauvetage, les rames, et le sifflet attaché à chaque gilet. « Un coup de sifflet, je vous appelle. Trois coups, quelqu'un a besoin d'aide. »\n\nPendant qu'elle parlait, Félix, un garçon de 13 ans, regardait le ciel. Un faucon tournait au-dessus des pins. Félix bayait aux corneilles, comme disait sa grand-mère : il avait la bouche ouverte et la tête ailleurs. Geneviève s'en aperçut. Elle ne se fâcha pas ; elle lui demanda de répéter la règle des trois coups. Félix rougit et ne sut pas répondre. « Le faucon sera encore là demain, dit-elle doucement. Les règles, c'est maintenant. » Félix ne baya plus aux corneilles de toute la matinée.\n\nPuis elle parla du froid. Même en juillet, l'eau des lacs du Nord reste fraîche en profondeur, et en mai ou en septembre, elle est d'un froid presque antarctique. « Si vous tombez dans une eau aussi froide, votre corps perd sa chaleur très vite. Le gilet vous garde à la surface. Le canot, même retourné, flotte : restez accrochés à lui. »\n\nOn passa ensuite à la pratique, pendant cette première séance matinale. Chacun dut renverser son canot près de la plage, nager jusqu'à lui et remonter dedans avec l'aide d'un camarade. Les jeunes s'aspergèrent en riant ; Félix aspergea Geneviève par accident, et tout le monde rit encore plus. L'eau, ce matin-là, n'avait rien d'antarctique, mais elle était assez froide pour leur couper le souffle.\n\nLe soir, autour du feu, un moniteur raconta la légende de la petite île au milieu du lac : on disait qu'elle était hantée par l'esprit d'un vieux chasseur. Geneviève expliqua ensuite pourquoi cette histoire existait. Autrefois, des jeunes partaient vers l'île la nuit, sans gilet, et c'était dangereux. Une île hantée fait plus peur qu'un règlement. « L'île n'est pas hantée, dit-elle. Mais la nuit, le lac est noir, et personne ne vous voit. »\n\nÀ la fin de la semaine, Geneviève reconduisit le groupe jusqu'au village, où les parents attendaient. Avant de les laisser partir, elle demanda une dernière fois la règle des trois coups. Félix leva la main le premier. La semaine suivante, elle reconduirait un autre groupe sur le lac, mais elle penserait longtemps à lui : le garçon qui regardait les faucons avait appris à écouter.\n\nQuestions :\nQu'est-ce qui était attaché à chaque gilet ?\nUn sifflet était attaché à chaque gilet.\nQue faisait Félix pendant que Geneviève parlait ?\nIl bayait aux corneilles : il regardait un faucon qui tournait au-dessus des pins.\nPourquoi faut-il rester accroché au canot si on tombe à l'eau ?\nParce que le canot flotte, même retourné, et que dans une eau très froide le corps perd sa chaleur très vite.\nPourquoi racontait-on que l'île était hantée ?\nPour faire peur aux jeunes qui partaient vers l'île la nuit sans gilet, ce qui était dangereux.\nJusqu'où Geneviève a-t-elle reconduit le groupe ?\nElle l'a reconduit jusqu'au village, où les parents attendaient."
+    },
+    {
+      "title": "Les glands de Kabylie",
+      "summary": "A young woman from Marseille returns to her family's village in Kabylie after the great fires and joins the replanting.",
+      "newWords": [
+        "kabyle",
+        "retrouvaille",
+        "périr",
+        "hashtag",
+        "collaboratif",
+        "bêta",
+        "gland",
+        "ores"
+      ],
+      "text": "Je m'appelle Lina. Je vis à Marseille, mais ma famille est kabyle. Mon grand-père est né dans un village de Kabylie, au-dessus de Tizi Ouzou, entre les oliviers et les chênes. Chaque été de mon enfance, nous y retournions. Les retrouvailles avec mes cousins, ma grand-mère et ses voisines étaient le moment le plus heureux de l'année.\n\nEn août 2021, d'immenses incendies ont brûlé une grande partie de la région. Des dizaines de personnes ont péri, parmi lesquelles des jeunes venus aider à combattre le feu. Des milliers d'oliviers ont péri aussi, certains plantés il y a plus d'un siècle. Depuis Marseille, je suivais les nouvelles sur mon téléphone, impuissante. Sur les réseaux, un hashtag circulait pour rassembler l'aide. Grâce à ce hashtag, des gens de partout organisaient des collectes de médicaments, de couvertures et d'argent.\n\nL'été suivant, je suis retournée au village. Les retrouvailles ont été douces et tristes à la fois. La colline derrière la maison était noire. Ma grand-mère m'a pris la main et m'a dit en kabyle une phrase que je n'oublierai pas : « Les arbres meurent debout, mais leurs racines attendent. »\n\nLes gens du village n'ont pas attendu les aides officielles. Ils ont organisé un chantier collaboratif : chaque vendredi, des familles, des étudiants et des associations venaient planter de jeunes arbres. Un ingénieur du village avait créé une application, encore en version bêta, pour noter chaque arbre planté sur une carte. La version bêta avait des défauts, mais elle permettait de savoir qui arrosait quoi. C'était un outil collaboratif, simple et utile.\n\nCe qui m'a le plus touchée, ce sont les glands. Sur les hauteurs, avant les incendies, il y avait de grandes forêts de chênes. Les enfants du village ramassaient des glands dans les bois épargnés, les mettaient dans des pots de terre, puis plantaient les jeunes pousses sur les pentes brûlées. Un gland met des années à devenir un arbre, et personne ne verra ces chênes adultes avant longtemps. Pourtant, les enfants ramassaient les glands comme un trésor.\n\nLe chantier a aussi servi à la prévention. Le village a dégagé des bandes sans végétation autour des maisons, nettoyé les bois et installé des réserves d'eau. D'ores et déjà, la commune a prévu un exercice chaque printemps, et d'ores et déjà, les jeunes savent qui appeler, où aller et quoi faire si le feu revient.\n\nAvant de repartir, j'ai planté un olivier avec ma grand-mère. Elle a pressé la terre avec ses mains et elle a dit qu'elle reviendrait le voir l'année prochaine. L'année prochaine, j'y serai aussi, pour d'autres retrouvailles.\n\nQuestions :\nPourquoi les étés au village étaient-ils importants pour Lina ?\nParce que les retrouvailles avec ses cousins, sa grand-mère et ses voisines étaient le moment le plus heureux de l'année.\nÀ quoi servait le hashtag qui circulait sur les réseaux ?\nIl servait à rassembler l'aide et à organiser des collectes.\nQue permettait l'application en version bêta ?\nElle permettait de noter chaque arbre planté sur une carte et de savoir qui arrosait quoi.\nQue faisaient les enfants avec les glands ?\nIls les ramassaient dans les bois épargnés, les mettaient dans des pots, puis plantaient les jeunes pousses sur les pentes brûlées.\nQu'est-ce que la commune a prévu d'ores et déjà ?\nElle a prévu un exercice chaque printemps, pour que les jeunes sachent quoi faire si le feu revient."
+    }
+  ]
+}
