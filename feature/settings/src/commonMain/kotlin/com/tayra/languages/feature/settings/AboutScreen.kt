@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.i18n.tr
 import com.tayra.languages.core.ui.components.ScreenTitle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,14 +19,14 @@ import com.tayra.languages.core.ui.navigation.Route
 
 @Composable
 fun AboutScreen(onNavigate: (Route) -> Unit) {
-    Scaffold(topBar = { AppTopBar(title = "About", onNavigate = onNavigate, section = NavSection.ABOUT) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = tr("About"), onNavigate = onNavigate, section = NavSection.ABOUT) }) { padding ->
         Column(Modifier.padding(padding).fillMaxSize().padding(16.dp).widthIn(max = 720.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            ScreenTitle("About")
+            ScreenTitle(tr("About"))
             Text("Tayra Languages", style = MaterialTheme.typography.headlineSmall)
-            Text("Learn languages by reading. Import texts, click words to look them up and track what you know.", style = MaterialTheme.typography.bodyLarge)
-            Text("A Kotlin Multiplatform port of Lute (Learning Using Texts), running on Android, iOS, desktop and the web with a shared Compose UI.", style = MaterialTheme.typography.bodyMedium)
-            Text("Language definitions and sample texts come from the Lute language definitions project.", style = MaterialTheme.typography.bodySmall)
-            Text("The offline English-Russian dictionary is built from the Russian and English Wiktionaries via kaikki.org, licensed CC BY-SA 4.0. Example sentences come from Tatoeba, licensed CC BY 2.0 FR. Word frequency lists come from wordfreq by Robyn Speer and from FrequencyWords by Hermit Dave (OpenSubtitles counts), both licensed CC BY-SA 4.0, and from the Leipzig Corpora Collection (Universität Leipzig).", style = MaterialTheme.typography.bodySmall)
+            Text(tr("Learn languages by reading. Import texts, click words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)
+            Text(tr("A Kotlin Multiplatform port of Lute (Learning Using Texts), running on Android, iOS, desktop and the web with a shared Compose UI."), style = MaterialTheme.typography.bodyMedium)
+            Text(tr("Language definitions and sample texts come from the Lute language definitions project."), style = MaterialTheme.typography.bodySmall)
+            Text(tr("The offline English-Russian dictionary is built from the Russian and English Wiktionaries via kaikki.org, licensed CC BY-SA 4.0. Example sentences come from Tatoeba, licensed CC BY 2.0 FR. Word frequency lists come from wordfreq by Robyn Speer and from FrequencyWords by Hermit Dave (OpenSubtitles counts), both licensed CC BY-SA 4.0, and from the Leipzig Corpora Collection (Universität Leipzig)."), style = MaterialTheme.typography.bodySmall)
         }
     }
 }

@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.components.HeaderButton
 import com.tayra.languages.core.ui.components.IconTile
@@ -99,14 +100,14 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader("Keyboard shortcuts", "Customize how you navigate and listen while reading.", onBackToSettings = onBack) {
-                HeaderButton(if (compact) "Reset" else "Reset to defaults", Icons.Default.Refresh, onClick = { confirmReset = true })
+            ScreenHeader(tr("Keyboard shortcuts"), tr("Customize how you navigate and listen while reading."), onBackToSettings = onBack) {
+                HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
             }
             SearchBanner(query, onQuery = { query = it }, assigned = hotkeys.values.count { it != null }, conflicts = conflicts.size)
 
             val groups = HotkeyAction.byCategory.mapValues { (_, actions) -> actions.filter { it.matches(query, hotkeys[it]) } }.filterValues { it.isNotEmpty() }
             if (groups.isEmpty()) {
-                Text("No shortcuts match “${query.trim()}”.", style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(tr("No shortcuts match “{0}”.", query.trim()), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             val card: @Composable (HotkeyCategory, List<HotkeyAction>) -> Unit = { category, actions ->
                 CategoryCard(category, actions, hotkeys, conflicts, editing, onEdit = { editing = it }, onDone = { editing = null }, onAssign = assign)
@@ -136,10 +137,10 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     if (confirmReset) {
         AlertDialog(
             onDismissRequest = { confirmReset = false },
-            title = { Text("Reset to defaults?") },
-            text = { Text("Every keyboard shortcut goes back to its default key.") },
-            confirmButton = { Button(onClick = { confirmReset = false; editing = null; viewModel.update { it.copy(hotkeys = HotkeyAction.defaults) } }) { Text("Reset") } },
-            dismissButton = { TextButton(onClick = { confirmReset = false }) { Text("Cancel") } },
+            title = { Text(tr("Reset to defaults?")) },
+            text = { Text(tr("Every keyboard shortcut goes back to its default key.")) },
+            confirmButton = { Button(onClick = { confirmReset = false; editing = null; viewModel.update { it.copy(hotkeys = HotkeyAction.defaults) } }) { Text(tr("Reset")) } },
+            dismissButton = { TextButton(onClick = { confirmReset = false }) { Text(tr("Cancel")) } },
         )
     }
 }
@@ -159,17 +160,31 @@ internal fun shortcutConflicts(hotkeys: Map<HotkeyAction, Hotkey?>): Map<HotkeyA
 private fun HotkeyAction.matches(query: String, hotkey: Hotkey?): Boolean {
     val q = query.trim()
     if (q.isEmpty()) return true
-    return description.contains(q, ignoreCase = true) || category.label.contains(q, ignoreCase = true) ||
+    val (title, note) = titleAndNote()
+    return description.contains(q, ignoreCase = true) || title.contains(q, ignoreCase = true) || note?.contains(q, ignoreCase = true) == true ||
+        category.label.contains(q, ignoreCase = true) || category.title().contains(q, ignoreCase = true) ||
         (hotkey != null && keyNames(hotkey).any { it.equals(q, ignoreCase = true) })
 }
 
-/** The action's name, and what the parenthesised part of its description adds, such as "Alternative shortcut". */
+/** The action's name, and what the parenthesised part of its description adds, such as "Alternative shortcut", in the interface language. */
 private fun HotkeyAction.titleAndNote(): Pair<String, String?> {
     val open = description.indexOf(" (")
-    if (open < 0 || !description.endsWith(")")) return description to null
+    if (open < 0 || !description.endsWith(")")) return tr(description) to null
     val note = description.substring(open + 2, description.length - 1)
     val shown = if (note == "second key") "Alternative shortcut" else note.replaceFirstChar { it.uppercase() }
-    return description.substring(0, open) to shown
+    return tr(description.substring(0, open)) to tr(shown)
+}
+
+/** The group's heading: nouns such as "Translation" rather than the labels' verbs, which translate as commands. */
+private fun HotkeyCategory.title(): String = when (this) {
+    HotkeyCategory.NAVIGATION -> tr("Navigation")
+    HotkeyCategory.LISTENING -> tr("Listening")
+    HotkeyCategory.STATUS -> tr("Update status")
+    HotkeyCategory.PAGING -> tr("Paging")
+    HotkeyCategory.TRANSLATE -> tr("Translation")
+    HotkeyCategory.DISPLAY -> tr("Display")
+    HotkeyCategory.COPY -> tr("Copying")
+    HotkeyCategory.MISC -> tr("Misc")
 }
 
 /** The keys of [hotkey] as keycap labels, modifiers first. */
@@ -217,12 +232,12 @@ private fun SearchBanner(query: String, onQuery: (String) -> Unit, assigned: Int
         Row(Modifier.weight(1f).widthIn(min = 280.dp), verticalAlignment = Alignment.CenterVertically) {
             IconTile(AppIcons.Keyboard, size = 44)
             Spacer(Modifier.width(16.dp))
-            Text("Select a shortcut, then press a key combination. Press Backspace to clear it.", style = MaterialTheme.typography.bodyLarge)
+            Text(tr("Select a shortcut, then press a key combination. Press Backspace to clear it."), style = MaterialTheme.typography.bodyLarge)
         }
         OutlinedTextField(
             value = query,
             onValueChange = onQuery,
-            placeholder = { Text("Search shortcuts") },
+            placeholder = { Text(tr("Search shortcuts")) },
             leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
             singleLine = true,
             shape = RoundedCornerShape(10.dp),
@@ -235,7 +250,7 @@ private fun SearchBanner(query: String, onQuery: (String) -> Unit, assigned: Int
             Icon(if (ok) Icons.Default.CheckCircle else Icons.Default.Warning, contentDescription = null, tint = color, modifier = Modifier.size(24.dp))
             Spacer(Modifier.width(8.dp))
             Text(
-                "$assigned assigned · " + if (ok) "No conflicts" else "$conflicts in conflict",
+                tr("{0} assigned", assigned) + " · " + if (ok) tr("No conflicts") else tr("{0} in conflict", conflicts),
                 style = MaterialTheme.typography.bodyLarge,
                 color = color,
             )
@@ -261,9 +276,9 @@ private fun CategoryCard(
         Row(Modifier.padding(horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically) {
             IconTile(category.icon())
             Spacer(Modifier.width(16.dp))
-            Text(category.label, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text(category.title(), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
             Spacer(Modifier.width(14.dp))
-            Tag("${actions.count { hotkeys[it] != null }} assigned", StatusTints.ok)
+            Tag(tr("{0} assigned", actions.count { hotkeys[it] != null }), StatusTints.ok)
         }
         Spacer(Modifier.height(10.dp))
         actions.forEachIndexed { i, action ->
@@ -302,7 +317,7 @@ private fun ShortcutRow(
             if (note != null) Text(note, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             if (conflictsWith.isNotEmpty()) {
                 Text(
-                    "Also used for: ${conflictsWith.joinToString { it.titleAndNote().first.lowercase() }}",
+                    tr("Also used for: {0}", conflictsWith.joinToString { it.titleAndNote().first.lowercase() }),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.error,
                 )
@@ -316,14 +331,14 @@ private fun ShortcutRow(
                 NotSet(onEdit)
                 Spacer(Modifier.width(18.dp))
                 Text(
-                    "Add",
+                    tr("Add"),
                     color = primary,
                     style = MaterialTheme.typography.bodyLarge,
                     fontWeight = FontWeight.Medium,
-                    modifier = Modifier.clickable(onClick = onEdit).semantics { contentDescription = "Add shortcut for $title" }.padding(4.dp),
+                    modifier = Modifier.clickable(onClick = onEdit).semantics { contentDescription = tr("Add shortcut for {0}", title) }.padding(4.dp),
                 )
             }
-            else -> Keycaps(hotkey, conflict = conflictsWith.isNotEmpty(), onClick = onEdit, description = "Change shortcut for $title${note?.let { ", $it" }.orEmpty()}")
+            else -> Keycaps(hotkey, conflict = conflictsWith.isNotEmpty(), onClick = onEdit, description = if (note == null) tr("Change shortcut for {0}", title) else tr("Change shortcut for {0}, {1}", title, note))
         }
     }
     Row(Modifier.fillMaxWidth().heightIn(min = 56.dp).then(if (editing) Modifier.background(primary.copy(alpha = 0.06f)) else Modifier)) {
@@ -403,7 +418,7 @@ private fun NotSet(onClick: () -> Unit) {
             },
         contentAlignment = Alignment.Center,
     ) {
-        Text("Not set", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text(tr("Not set"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
 
@@ -438,17 +453,17 @@ private fun KeyListener(onDone: () -> Unit, onAssign: (Hotkey?) -> Unit) {
                         true
                     }
                     .focusable()
-                    .semantics { contentDescription = "Press a key combination" }
+                    .semantics { contentDescription = tr("Press a key combination") }
                     .padding(horizontal = 14.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Icon(AppIcons.Keyboard, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(20.dp))
                 Spacer(Modifier.width(10.dp))
-                Text("Press a key combination…", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(tr("Press a key combination…"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             Spacer(Modifier.width(18.dp))
             Text(
-                "Cancel",
+                tr("Cancel"),
                 color = primary,
                 textDecoration = TextDecoration.Underline,
                 style = MaterialTheme.typography.bodyMedium,
@@ -457,10 +472,10 @@ private fun KeyListener(onDone: () -> Unit, onAssign: (Hotkey?) -> Unit) {
         }
         Spacer(Modifier.height(6.dp))
         Row(Modifier.width(260.dp), verticalAlignment = Alignment.CenterVertically) {
-            Text("Backspace to clear", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
+            Text(tr("Backspace to clear"), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.weight(1f))
             Box(Modifier.size(8.dp).clip(CircleShape).background(primary))
             Spacer(Modifier.width(6.dp))
-            Text("Listening", style = MaterialTheme.typography.bodySmall, color = primary)
+            Text(tr("Listening for keys"), style = MaterialTheme.typography.bodySmall, color = primary)
         }
     }
 }

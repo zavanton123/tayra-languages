@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import com.tayra.languages.core.ui.i18n.tr
 import androidx.compose.foundation.background
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.HeaderButton
@@ -106,8 +107,8 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader("Settings", "Personalize your reading experience.") {
-                HeaderButton(if (compact) "Reset" else "Reset to defaults", Icons.Default.Refresh, onClick = { confirmReset = true })
+            ScreenHeader(tr("Settings"), tr("Personalize your reading experience.")) {
+                HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
             }
             if (wide) {
                 Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
@@ -118,7 +119,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     }
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(20.dp)) {
                         PreviewCard(settings)
-                        InfoBanner("Changes are saved automatically.")
+                        InfoBanner(tr("Changes are saved automatically."))
                     }
                 }
             } else {
@@ -126,7 +127,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 ReadingCard(settings, viewModel)
                 PreviewCard(settings)
                 BehaviourCard(settings, viewModel)
-                InfoBanner("Changes are saved automatically.")
+                InfoBanner(tr("Changes are saved automatically."))
             }
         }
     }
@@ -134,18 +135,18 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
     if (confirmReset) {
         AlertDialog(
             onDismissRequest = { confirmReset = false },
-            title = { Text("Reset to defaults?") },
-            text = { Text("The theme, highlighting, reading size and spacing, reading streak and statistics sample size go back to their defaults.") },
-            confirmButton = { Button(onClick = { confirmReset = false; viewModel.resetToDefaults() }) { Text("Reset") } },
-            dismissButton = { TextButton(onClick = { confirmReset = false }) { Text("Cancel") } },
+            title = { Text(tr("Reset to defaults?")) },
+            text = { Text(tr("The theme, highlighting, reading size and spacing, reading streak and statistics sample size go back to their defaults.")) },
+            confirmButton = { Button(onClick = { confirmReset = false; viewModel.resetToDefaults() }) { Text(tr("Reset")) } },
+            dismissButton = { TextButton(onClick = { confirmReset = false }) { Text(tr("Cancel")) } },
         )
     }
 }
 
 @Composable
 private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    ContentCard("Appearance", "Customize the look and feel of Tayra.", icon = AppIcons.Palette) {
-        SettingRow("Theme", "Choose how Tayra looks.", stackOnCompact = true) {
+    ContentCard(tr("Appearance"), tr("Customize the look and feel of Tayra."), icon = AppIcons.Palette) {
+        SettingRow(tr("Theme"), tr("Choose how Tayra looks."), stackOnCompact = true) {
             Dropdown(
                 options = AppThemes.all,
                 selected = AppThemes.byId(settings.themeId),
@@ -155,7 +156,7 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
                 modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(250.dp),
             )
         }
-        SwitchSetting("Highlight terms by status", "Use mastery colors while reading.", settings.showHighlights, divider = true) { v ->
+        SwitchSetting(tr("Highlight terms by status"), tr("Use mastery colors while reading."), settings.showHighlights, divider = true) { v ->
             viewModel.update { it.copy(showHighlights = v) }
         }
     }
@@ -164,8 +165,8 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
 @Composable
 private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
     val sliderWidth = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(450.dp)
-    ContentCard("Reading", "Adjust the font, text size and spacing for a comfortable reading experience.", iconText = "Aa") {
-        SettingRow("Reading font", "The typeface of the text you read.", stackOnCompact = true) {
+    ContentCard(tr("Reading"), tr("Adjust the font, text size and spacing for a comfortable reading experience."), iconText = "Aa") {
+        SettingRow(tr("Reading font"), tr("The typeface of the text you read."), stackOnCompact = true) {
             Dropdown(
                 options = ReadingFont.choices,
                 selected = ReadingFont.byId(settings.readingFont),
@@ -176,24 +177,24 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
                 modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(250.dp),
             )
         }
-        SettingRow("Reading font size", divider = true, stackOnCompact = true) {
+        SettingRow(tr("Reading font size"), divider = true, stackOnCompact = true) {
             SliderStepper(
                 value = settings.readingFontScale,
                 range = 0.6f..2.5f,
                 step = 0.1f,
                 label = "${kotlin.math.round(settings.readingFontScale * 100).toInt()}%",
-                name = "reading font size",
+                name = tr("reading font size"),
                 onChange = { v -> viewModel.update { it.copy(readingFontScale = v) } },
                 modifier = sliderWidth,
             )
         }
-        SettingRow("Reading line height", divider = true, stackOnCompact = true) {
+        SettingRow(tr("Reading line height"), divider = true, stackOnCompact = true) {
             SliderStepper(
                 value = settings.readingLineHeight,
                 range = 1.0f..3.0f,
                 step = 0.1f,
                 label = (kotlin.math.round(settings.readingLineHeight * 10) / 10f).toString(),
-                name = "reading line height",
+                name = tr("reading line height"),
                 onChange = { v -> viewModel.update { it.copy(readingLineHeight = v) } },
                 modifier = sliderWidth,
             )
@@ -203,15 +204,15 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
 
 @Composable
 private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    ContentCard("Behaviour", "Control how Tayra behaves on different pages.", icon = Icons.Default.Settings) {
-        SwitchSetting("Show reading streak on home page", "Display your current streak on the Home dashboard.", settings.showStreakOnHome) { v ->
+    ContentCard(tr("Behaviour"), tr("Control how Tayra behaves on different pages."), icon = Icons.Default.Settings) {
+        SwitchSetting(tr("Show reading streak on home page"), tr("Display your current streak on the Home dashboard."), settings.showStreakOnHome) { v ->
             viewModel.update { it.copy(showStreakOnHome = v) }
         }
-        SettingRow("Book stats page sample size", "Number of pages used for book statistics.", divider = true) {
+        SettingRow(tr("Book stats page sample size"), tr("Number of pages used for book statistics."), divider = true) {
             NumberStepper(
                 value = settings.statsSampleSize,
                 range = UserSettings.MIN_STATS_SAMPLE_SIZE..UserSettings.MAX_STATS_SAMPLE_SIZE,
-                name = "book stats page sample size",
+                name = tr("book stats page sample size"),
             ) { n -> viewModel.update { it.copy(statsSampleSize = n) } }
         }
     }
@@ -223,7 +224,7 @@ private fun PreviewCard(settings: UserSettings) {
     val theme = TayraTheme.current
     val learning = LocalLearningLanguage.current?.let { state -> state.languages.firstOrNull { it.first == state.currentId }?.second }
     val sample = PreviewSamples.forLanguage(learning?.let { LanguageCodes.codeFor(it) })
-    ContentCard("Reading preview", "Preview updates as you adjust the controls.", icon = AppIcons.MenuBook) {
+    ContentCard(tr("Reading preview"), tr("Preview updates as you adjust the controls."), icon = AppIcons.MenuBook) {
         Column(
             Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).background(theme.readingBackground)
                 .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(12.dp)).padding(horizontal = 28.dp, vertical = 24.dp),
@@ -253,9 +254,9 @@ private fun PreviewCard(settings: UserSettings) {
             )
             HorizontalDivider(Modifier.padding(vertical = 16.dp), color = MaterialTheme.colorScheme.outlineVariant)
             Row(horizontalArrangement = Arrangement.spacedBy(24.dp), verticalAlignment = Alignment.CenterVertically) {
-                LegendDot("New", colors.background(TermStatus.UNKNOWN), theme)
-                LegendDot("Learning", colors.background(TermStatus.NEW_1), theme)
-                LegendDot("Known", null, theme)
+                LegendDot(tr("New"), colors.background(TermStatus.UNKNOWN), theme)
+                LegendDot(tr("Learning"), colors.background(TermStatus.NEW_1), theme)
+                LegendDot(tr("Known"), null, theme)
             }
         }
     }
