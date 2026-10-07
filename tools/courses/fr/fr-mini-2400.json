@@ -1,0 +1,216 @@
+{
+  "id": "fr-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Sciences et techniques",
+  "description": "Ten short stories about science and technology in everyday life: a school experiment, a thesis, smart devices, a building site, a contest, a server, archaeology, animation, a school garden and a police lab.",
+  "topic": "Science and technology",
+  "names": [
+    "Camille",
+    "Perrin",
+    "Lyon",
+    "Aminata",
+    "Sow",
+    "Ndiaye",
+    "Louis",
+    "Dakar",
+    "Abidjan",
+    "Marc",
+    "Lucie",
+    "Bruxelles",
+    "Sophie",
+    "Tremblay",
+    "Québec",
+    "Ottawa",
+    "Chloé",
+    "Malik",
+    "Lausanne",
+    "Suisse",
+    "Julien",
+    "Nadia",
+    "Nantes",
+    "Élise",
+    "Arthur",
+    "Namur",
+    "Belgique",
+    "Laurence",
+    "Félix",
+    "Montréal",
+    "Santoni",
+    "Bastia",
+    "Lisa",
+    "Paul",
+    "Karima",
+    "Marseille",
+    "Nîmes",
+    "France",
+    "Italie",
+    "Montpellier"
+  ],
+  "lessons": [
+    {
+      "title": "L'expérience ratée",
+      "summary": "Camille, a high-school student in Lyon, fails her first try at a chemistry experiment, nearly gives up, tries again carefully and presents it to her class.",
+      "newWords": [
+        "chimique",
+        "liquide",
+        "métal",
+        "gras",
+        "inverse",
+        "précisément",
+        "écart",
+        "raté",
+        "déçu",
+        "renoncer"
+      ],
+      "text": "Camille est en dernière année dans un lycée de Lyon. Elle adore les sciences. Cette semaine, son professeur, monsieur Perrin, a demandé à chaque élève de préparer une petite expérience chimique et de la présenter à la classe.\n\nCamille a choisi une expérience simple. D'abord, elle voulait montrer qu'un liquide gras, comme l'huile, ne se mélange pas avec l'eau : il reste toujours au-dessus. Ensuite, elle voulait mettre un petit morceau de métal dans un liquide bleu, pour montrer une réaction chimique : après quelques minutes, le métal change de couleur.\n\nLe samedi, elle a fait un premier essai dans la cuisine. Mais elle n'avait pas mesuré précisément les quantités, et elle avait fait les étapes dans l'ordre inverse. Rien ne s'est passé comme prévu : le métal n'a pas changé de couleur. L'essai était complètement raté.\n\nCamille était très déçue. « Si j'avais lu le livre avec plus d'attention, je n'aurais pas raté mon expérience », a-t-elle pensé. Le soir, elle a dit à sa mère qu'elle allait renoncer et qu'elle choisirait une expérience plus facile.\n\nSa mère lui a répondu : « Ne renonce pas si vite ! Un essai raté, ça arrive à tous les chercheurs. Je serais contente que tu essaies encore une fois. »\n\nLe dimanche, Camille a tout refait. Cette fois, elle a mesuré précisément chaque quantité, et elle a fait les étapes dans le bon ordre, pas dans l'ordre inverse. Le métal a changé de couleur, exactement comme dans le livre. Entre ses chiffres et ceux du livre, il y avait seulement un petit écart.\n\nLe lundi, en classe, Camille a présenté son expérience chimique. Monsieur Perrin a demandé : « Pourquoi y a-t-il un écart entre vos chiffres et ceux du livre ? » Camille a expliqué que son verre n'était pas parfaitement propre. Le professeur a dit qu'il était content qu'elle ait remarqué cet écart, parce qu'un bon chercheur note tout précisément.\n\nÀ la fin du cours, Camille a raconté son premier essai raté. Monsieur Perrin a souri : « Si vous aviez renoncé samedi, vous n'auriez rien appris. Une expérience ratée nous apprend souvent plus qu'une expérience réussie. » Camille n'était plus déçue du tout.\n\nQuestions :\nQuelle expérience Camille voulait-elle montrer ?\nElle voulait montrer qu'un liquide gras ne se mélange pas avec l'eau, puis montrer une réaction chimique avec un métal.\nPourquoi son premier essai était-il raté ?\nParce qu'elle n'avait pas mesuré précisément les quantités et qu'elle avait fait les étapes dans l'ordre inverse.\nQu'est-ce que Camille a dit à sa mère, le samedi soir ?\nElle a dit qu'elle allait renoncer et qu'elle choisirait une expérience plus facile.\nComment a-t-elle fait son expérience le dimanche ?\nElle a mesuré précisément chaque quantité et elle a fait les étapes dans le bon ordre.\nPourquoi y avait-il un petit écart entre ses chiffres et ceux du livre ?\nParce que son verre n'était pas parfaitement propre."
+    },
+    {
+      "title": "Une thèse sur l'océan",
+      "summary": "In an e-mail to her old teacher, Aminata, a young researcher in Dakar, describes her thesis on the ocean and the sand of the beaches and invites him to her defence.",
+      "newWords": [
+        "thèse",
+        "diplôme",
+        "océan",
+        "sable",
+        "profondeur",
+        "recueillir",
+        "comparaison",
+        "intermédiaire",
+        "digne",
+        "étonner"
+      ],
+      "text": "Objet : ma thèse sur l'océan\n\nCher monsieur Ndiaye,\n\nVous vous souvenez peut-être de moi : j'étais votre élève au lycée, à Saint-Louis, il y a dix ans. Je vous écris de Dakar, où je termine ma thèse de géographie. Ma thèse porte sur l'océan et sur le sable de nos plages.\n\nDepuis trois ans, je recueille des données le long de la côte. Chaque mois, avec deux collègues, je prends un petit bateau et je mesure la profondeur de l'eau à vingt endroits différents. Ensuite, sur la plage, je recueille du sable dans de petits sacs. Au laboratoire, j'étudie chaque sac : la taille des grains de sable, leur couleur, leur poids.\n\nLe plus intéressant, c'est la comparaison entre les années. Grâce à cette comparaison, on voit que l'océan avance. À certains endroits, la plage a perdu plusieurs mètres de sable en trois ans. Près de la côte, la profondeur de l'eau augmente, elle aussi. Ces chiffres ont étonné mes collègues, et ils m'ont étonnée aussi : je ne pensais pas que l'océan avançait si vite.\n\nL'année dernière, j'ai présenté mes résultats intermédiaires à un congrès, à Abidjan. Un résultat intermédiaire n'est pas encore une conclusion, mais il montre qu'on est sur le bon chemin. Après ma présentation, un vieux professeur m'a dit que mon travail était digne d'une grande université. Bien que je sois encore une jeune chercheuse, ses mots m'ont donné beaucoup de courage. J'espère que ma thèse sera digne de ses mots.\n\nCette année, je fais une dernière comparaison avec des cartes anciennes. Elle m'a encore étonnée : en cinquante ans, certaines plages ont presque disparu. Ma thèse propose des solutions simples, par exemple planter des arbres derrière les plages pour retenir le sable.\n\nJe présenterai ma thèse devant un jury au mois de juin. Quand je l'aurai présentée, je recevrai enfin mon diplôme de docteur. Ce diplôme, c'est un peu grâce à vous : c'est dans votre classe que j'ai découvert les sciences. Vous disiez toujours qu'il fallait observer la nature avec patience. Vous aviez raison.\n\nJe serais très heureuse que vous veniez ce jour-là. Ce serait un honneur pour moi.\n\nAvec mon respect et ma reconnaissance,\n\nAminata Sow\n\nQuestions :\nDe quoi parle la thèse d'Aminata ?\nSa thèse parle de l'océan et du sable des plages.\nComment Aminata recueille-t-elle ses données ?\nElle mesure la profondeur de l'eau depuis un petit bateau, et elle recueille du sable dans de petits sacs.\nQu'est-ce que la comparaison entre les années montre ?\nElle montre que l'océan avance et que les plages perdent du sable.\nQu'est-ce qu'un vieux professeur a dit de son travail ?\nIl a dit que son travail était digne d'une grande université.\nQue recevra Aminata quand elle aura présenté sa thèse ?\nElle recevra son diplôme de docteur."
+    },
+    {
+      "title": "La fuite sous la douche",
+      "summary": "In Brussels, a small sensor offered by his daughter detects a leak in Marc's bathroom while he is at work, and the water is shut off from his phone.",
+      "newWords": [
+        "fuite",
+        "repérer",
+        "douche",
+        "sonner",
+        "immédiat",
+        "bloquer",
+        "inquiet",
+        "automne",
+        "glisser",
+        "prestation"
+      ],
+      "text": "Marc habite dans un vieil appartement à Bruxelles. L'automne dernier, pour son anniversaire, sa fille Lucie, qui étudie l'informatique, lui a offert un petit appareil. On pose cet appareil sur le sol, et il sert à repérer les fuites d'eau. Quand il repère une fuite, il sonne très fort, et il envoie un message immédiat sur le téléphone.\n\nMarc n'y croyait pas beaucoup. « Une fuite, chez moi ? Ça n'arrive jamais », a-t-il dit. Mais pour faire plaisir à Lucie, il a mis l'appareil dans la salle de bains, près de la douche. Lucie a aussi installé une petite machine sur l'arrivée d'eau de l'appartement. Avec cette machine, on peut bloquer l'eau à distance, depuis son téléphone.\n\nUn matin d'automne, Marc était au bureau quand son téléphone a sonné. Le message disait : « Fuite d'eau repérée dans la salle de bains. » Marc était très inquiet. Il a appelé Lucie. « Ne sois pas inquiet, papa, a-t-elle dit. Tu peux bloquer l'eau tout de suite avec ton téléphone. » Marc a appuyé sur un bouton, et l'eau a été bloquée. L'effet était immédiat : l'appareil a arrêté de sonner.\n\nLe soir, Marc est rentré chez lui. Le sol de la salle de bains était encore mouillé. Il a glissé et il a failli tomber, mais il ne s'est pas fait mal. Ensuite, il a marché lentement, pour ne pas glisser une deuxième fois. Il a regardé sous la douche : un tuyau était cassé.\n\nLe lendemain, Marc a appelé une entreprise de réparation. Un homme est venu et il a réparé le tuyau en une heure. Sa prestation coûtait 120 euros. Il a expliqué à Marc : « Si votre appareil n'avait pas repéré la fuite, l'eau aurait coulé toute la journée. L'appartement du dessous aurait été abîmé, et la prestation aurait coûté beaucoup plus cher. »\n\nLe soir, Marc a téléphoné à sa fille. Il lui a dit qu'il était content qu'elle lui ait offert cet appareil, et qu'il écouterait ses conseils plus souvent. Depuis, quand il part au travail, Marc n'est plus inquiet. Il sait que, s'il y a une fuite, son téléphone sonnera.\n\nQuestions :\nÀ quoi sert l'appareil que Lucie a offert à son père ?\nIl sert à repérer les fuites d'eau.\nOù Marc a-t-il mis l'appareil ?\nIl l'a mis dans la salle de bains, près de la douche.\nComment Marc a-t-il bloqué l'eau ?\nIl a appuyé sur un bouton de son téléphone, et l'eau a été bloquée.\nPourquoi Marc a-t-il glissé, le soir ?\nParce que le sol de la salle de bains était encore mouillé.\nCombien coûtait la prestation de la réparation ?\nElle coûtait 120 euros."
+    },
+    {
+      "title": "Le nouveau pont de Québec",
+      "summary": "Sophie, an engineer in Quebec City, runs the building site of a new bridge for bikes and walkers; the opening is cancelled by a storm and held a week later.",
+      "newWords": [
+        "chantier",
+        "parallèle",
+        "trafic",
+        "annuler",
+        "autoriser",
+        "risquer",
+        "vigueur",
+        "abri",
+        "officiellement",
+        "sénateur"
+      ],
+      "text": "Sophie Tremblay est ingénieure à Québec. Depuis deux ans, elle dirige un grand chantier : la construction d'un nouveau pont pour les vélos et les personnes à pied. Le nouveau pont est parallèle au vieux pont, à quelques mètres seulement. Les deux ponts parallèles traversent la rivière côte à côte.\n\nLe vieux pont a beaucoup de trafic. Chaque matin, des milliers de voitures et de camions y passent. Avant, les vélos devaient rouler au milieu de ce trafic, et c'était dangereux. Avec le nouveau pont, les cyclistes ne risqueront plus leur vie pour aller au travail.\n\nSur un chantier, la sécurité est très importante. Les règles en vigueur au Québec sont strictes : chaque ouvrier doit porter un casque, et personne n'a le droit de travailler seul au-dessus de l'eau. Chaque matin, Sophie vérifie que les règles en vigueur sont respectées. « Je ne veux pas qu'un ouvrier risque sa vie pour finir plus vite », dit-elle souvent.\n\nL'hiver, au Québec, il fait très froid. Sophie a fait construire un abri chauffé au bord de la rivière. Dans cet abri, les ouvriers peuvent se réchauffer et boire un café chaud. Quand il neige trop fort, tout le monde se met à l'abri et attend.\n\nAu printemps, le pont était presque terminé. Mais avant de l'ouvrir, il fallait que la ville l'autorise. Des experts sont venus faire des tests : ils ont mis des camions pleins de sable sur le pont, pour mesurer sa résistance. Après les tests, la ville a autorisé l'ouverture.\n\nL'ouverture était prévue un samedi, en présence d'une sénatrice venue d'Ottawa. Mais le vendredi, une grosse tempête est arrivée, et la ville a dû annuler la fête. Sophie était déçue : elle aurait aimé que tout se passe comme prévu. Mais elle savait qu'il valait mieux annuler que risquer un accident.\n\nLa fête a été organisée une semaine plus tard. Ce jour-là, il faisait beau. La sénatrice a coupé le ruban, et le pont a été ouvert officiellement. Dans son discours, la sénatrice a dit que ce pont serait utile pendant cent ans. Elle a ajouté qu'elle reviendrait bientôt, à vélo cette fois. Le soir même, des centaines de cyclistes avaient déjà traversé le pont, ouvert officiellement depuis quelques heures seulement.\n\nQuestions :\nOù se trouve le nouveau pont ?\nIl est parallèle au vieux pont, à quelques mètres seulement.\nPourquoi c'était dangereux pour les vélos, avant ?\nParce qu'ils devaient rouler au milieu du trafic du vieux pont.\nÀ quoi sert l'abri au bord de la rivière ?\nLes ouvriers peuvent s'y réchauffer et boire un café chaud.\nPourquoi la ville a-t-elle dû annuler la fête ?\nParce qu'une grosse tempête est arrivée le vendredi.\nQui a ouvert le pont officiellement ?\nC'est une sénatrice venue d'Ottawa."
+    },
+    {
+      "title": "Le concours d'innovation",
+      "summary": "Two students in Lausanne start from nothing, borrow money and build a bin that sorts waste with artificial intelligence; they win their school's innovation contest.",
+      "newWords": [
+        "innovation",
+        "intelligence",
+        "défi",
+        "vainqueur",
+        "attribuer",
+        "brillant",
+        "sensation",
+        "emprunter",
+        "zéro",
+        "honnête"
+      ],
+      "text": "Chloé et son ami Malik étudient l'informatique à Lausanne, en Suisse. Au début de l'année, leur école a lancé un concours d'innovation. Le défi était simple à expliquer, mais difficile à réussir : inventer un outil qui aide à réduire les déchets.\n\nChloé et Malik ont accepté le défi. Ils sont partis de zéro : pas d'argent, pas de bureau, seulement deux ordinateurs et beaucoup d'idées. Leur idée, c'était une poubelle qui utilise l'intelligence artificielle. Une petite caméra regarde chaque objet, et l'intelligence artificielle reconnaît si c'est du verre, du papier ou du plastique. Ensuite, la poubelle le met au bon endroit.\n\nPour acheter les pièces, ils ont dû emprunter de l'argent. Malik a emprunté 500 francs suisses à ses parents, et Chloé a emprunté le reste à sa grand-mère. « Nous rendrons vite l'argent, à condition que nous gagnions le concours ! » a dit Malik en riant.\n\nLe travail a été long. Au début, la caméra se trompait souvent, et presque aucune réponse n'était bonne. Chaque soir, Chloé montrait de nouvelles photos d'objets à l'intelligence artificielle, pour qu'elle apprenne. Après deux mois, la poubelle reconnaissait presque tous les objets.\n\nLe jour du concours, 15 équipes ont présenté leur innovation devant un jury. Chloé a été honnête : elle a expliqué que leur machine se trompait encore une fois sur vingt. Une des juges a dit qu'elle appréciait les candidats honnêtes, qui ne cachent pas les limites de leur innovation.\n\nEnsuite, devant le public, la poubelle a reconnu vingt objets en une minute, sans une seule erreur. Elle a fait sensation : tout le monde voulait la voir de près. Une journaliste a écrit le soir même que c'était la plus grande sensation du concours.\n\nÀ la fin de la journée, les juges ont attribué le premier prix à Chloé et Malik. Ils étaient les vainqueurs ! Le prix attribué aux vainqueurs était de 5 000 francs et d'une année dans un bureau pour jeunes entreprises. Le directeur de l'école a dit que leur idée était brillante, et que ces deux brillants étudiants iraient loin. Chloé, elle, pensait à sa grand-mère : elle allait pouvoir lui rendre l'argent emprunté plus tôt que prévu.\n\nQuestions :\nQuel était le défi du concours ?\nIl fallait inventer un outil qui aide à réduire les déchets.\nComment fonctionne la poubelle de Chloé et Malik ?\nUne caméra regarde chaque objet, et l'intelligence artificielle reconnaît si c'est du verre, du papier ou du plastique.\nPourquoi ont-ils dû emprunter de l'argent ?\nParce qu'ils sont partis de zéro et qu'ils devaient acheter les pièces.\nComment Chloé a-t-elle été honnête devant le jury ?\nElle a expliqué que leur machine se trompait encore une fois sur vingt.\nQuel prix les juges ont-ils attribué aux vainqueurs ?\nIls leur ont attribué 5 000 francs et une année dans un bureau pour jeunes entreprises."
+    },
+    {
+      "title": "La panne du serveur",
+      "summary": "Julien, the computer technician of a small architects' office in Nantes, tells how the server broke down one Monday and how a nightly copy saved the plans.",
+      "newWords": [
+        "serveur",
+        "accéder",
+        "copie",
+        "introduire",
+        "résolution",
+        "employer",
+        "rarement",
+        "émettre",
+        "ultra",
+        "charte"
+      ],
+      "text": "Je m'appelle Julien, et je suis technicien en informatique dans un petit bureau d'architectes, à Nantes. L'entreprise emploie douze personnes. Tous les plans des architectes sont gardés sur un serveur, un gros ordinateur qui se trouve dans une petite pièce, au fond du couloir. Tout le monde y accède depuis son bureau.\n\nLundi dernier, à 8 h 30, une architecte, Nadia, est venue me voir. « Je n'arrive pas à accéder à mes plans ! » Quelques minutes plus tard, tous mes collègues avaient le même problème : personne ne pouvait accéder au serveur.\n\nJe suis allé dans la petite pièce. Le serveur émettait un bruit étrange, et il émettait aussi une petite lumière rouge. J'ai compris tout de suite : un des disques était cassé.\n\nHeureusement, notre entreprise a une charte informatique. J'ai écrit cette charte il y a deux ans, et chaque personne que nous employons l'a signée. La charte dit qu'il faut faire une copie de tous les fichiers chaque nuit. Grâce à cette règle, j'avais une copie complète du vendredi soir.\n\nJ'ai enlevé le disque cassé, et j'ai introduit un disque neuf dans le serveur. Ensuite, j'ai remis la copie du vendredi sur le nouveau disque. À midi, tout fonctionnait de nouveau. La résolution du problème avait pris un peu moins de quatre heures, et aucun plan n'avait été perdu.\n\nLe lendemain, le directeur m'a demandé comment éviter ce genre de panne. Je lui ai répondu que nos disques étaient vieux, et qu'il faudrait acheter un nouveau serveur, ultra-rapide et ultra-silencieux. Il a accepté, à condition que le prix ne soit pas trop élevé.\n\nJ'ai aussi introduit une nouvelle règle dans la charte : chaque semaine, je vérifierai que la copie de la nuit fonctionne bien. Les pannes arrivent rarement, mais quand elles arrivent, il faut être prêt.\n\nLe nouveau serveur est arrivé vendredi. Il n'émet presque aucun bruit. Avec lui, les architectes peuvent regarder leurs plans en haute résolution sur leurs grands écrans. Nadia m'a dit qu'elle n'avait jamais vu ses plans avec une si bonne résolution. Moi, j'ai rarement eu une semaine aussi chargée !\n\nQuestions :\nOù sont gardés les plans des architectes ?\nIls sont gardés sur un serveur, au fond du couloir.\nComment Julien a-t-il compris que le serveur avait un problème ?\nLe serveur émettait un bruit étrange et une petite lumière rouge.\nQue dit la charte informatique de l'entreprise ?\nElle dit qu'il faut faire une copie de tous les fichiers chaque nuit.\nComment Julien a-t-il réparé le serveur ?\nIl a introduit un disque neuf dans le serveur, puis il a remis la copie du vendredi.\nQuel serveur Julien a-t-il conseillé au directeur ?\nIl a conseillé un nouveau serveur, ultra-rapide et ultra-silencieux."
+    },
+    {
+      "title": "Le chevalier de la chapelle",
+      "summary": "Near Namur, workers find the tomb of a medieval knight under a chapel; the archaeologist Élise studies it and his face ends up in a museum gallery.",
+      "newWords": [
+        "chevalier",
+        "os",
+        "monument",
+        "trait",
+        "emmener",
+        "horreur",
+        "louer",
+        "exposer",
+        "galerie",
+        "rayon"
+      ],
+      "text": "Élise est archéologue à Namur, en Belgique. Cet été, la ville a voulu réparer une vieille chapelle, un monument du Moyen Âge, l'un des plus anciens monuments de la région. En travaillant sous le sol de la chapelle, les ouvriers ont trouvé une grande pierre. Sous la pierre, il y avait une tombe. Ils ont arrêté le travail et ils ont appelé Élise.\n\nPour voir sous la terre sans tout casser, Élise a loué un appareil spécial. Elle l'a loué pour une semaine, parce qu'il coûtait trop cher pour être acheté. Grâce à cet appareil, elle a vu que la tombe était entière.\n\nDans la tombe, il y avait des os : c'était le corps d'un homme, avec une épée à côté de lui. Sur la pierre, on voyait une croix et un cheval. Élise a compris qu'il s'agissait d'un chevalier.\n\nUn samedi, Élise a emmené son fils Arthur, qui a dix ans, à la chapelle. Quand il a vu les os, Arthur a crié : « Quelle horreur ! » Élise lui a expliqué que ces os avaient sept cents ans, et qu'ils allaient raconter l'histoire du chevalier. Peu à peu, l'horreur d'Arthur s'est transformée en curiosité. Il a posé mille questions.\n\nAu laboratoire, les os du chevalier ont été passés aux rayons X. Grâce aux rayons X, on a vu que le chevalier avait eu une jambe cassée, et qu'elle s'était bien réparée. On a aussi appris qu'il avait environ quarante ans quand il est mort.\n\nEnsuite, une artiste a utilisé un ordinateur pour retrouver les traits de son visage, à partir de la forme des os. Sur l'écran, les traits sont apparus peu à peu : un nez long, une bouche fine, des yeux sérieux.\n\nSix mois plus tard, le musée de Namur a décidé d'exposer l'épée du chevalier et l'image de son visage. On les a exposées dans une nouvelle galerie, consacrée au Moyen Âge. Le jour de l'ouverture de la galerie, Élise a emmené Arthur au musée. Devant le visage du chevalier, Arthur a regardé longtemps ses traits. Puis il a dit : « Il a l'air gentil, finalement. »\n\nQuestions :\nOù les ouvriers ont-ils trouvé la tombe ?\nIls l'ont trouvée sous le sol d'une vieille chapelle, un monument du Moyen Âge.\nPourquoi Élise a-t-elle loué un appareil au lieu de l'acheter ?\nParce que l'appareil coûtait trop cher pour être acheté.\nQu'a dit Arthur quand il a vu les os ?\nIl a crié : « Quelle horreur ! »\nQu'est-ce que les rayons X ont montré ?\nIls ont montré que le chevalier avait eu une jambe cassée, qui s'était bien réparée.\nOù le musée a-t-il exposé l'épée et le visage du chevalier ?\nIl les a exposés dans une nouvelle galerie consacrée au Moyen Âge."
+    },
+    {
+      "title": "Le poète et son chat",
+      "summary": "In Montreal, the director Laurence and the animator Félix make a short animated film about a poet and his cat, sign a festival contract and present the film.",
+      "newWords": [
+        "animé",
+        "réalisateur",
+        "culte",
+        "poète",
+        "lèvre",
+        "signature",
+        "mignon",
+        "lover",
+        "show",
+        "enregistrement"
+      ],
+      "text": "Laurence est réalisatrice de films animés à Montréal. Quand elle était petite, elle regardait tous les dessins animés à la télévision. Son préféré était un vieux film culte des années 1980, qu'elle a vu au moins vingt fois. Aujourd'hui, c'est elle qui fait des films, et beaucoup de jeunes réalisateurs viennent lui demander des conseils.\n\nSon nouveau projet est un court film animé sur la vie d'un poète. Dans le film, le poète vit seul avec son chat, un petit chat roux très mignon. Le chat passe ses journées lové sur une chaise, près de la fenêtre. Le soir, quand le poète écrit, le chat vient se lover contre ses jambes.\n\nLaurence travaille avec Félix, un jeune animateur. Pour Félix, le plus difficile, ce sont les lèvres. Quand le poète lit ses poèmes à voix haute, ses lèvres doivent bouger exactement avec les mots. D'abord, Félix fait l'enregistrement de la voix d'un acteur. Ensuite, un logiciel écoute l'enregistrement et calcule la forme des lèvres pour chaque son. Enfin, Félix corrige les lèvres à la main, image par image. Pour une minute de film, il lui faut une semaine de travail !\n\nAu mois de mai, un grand festival a voulu montrer le film. Laurence est allée au bureau du festival pour la signature du contrat. Avant la signature, elle a lu chaque page avec attention. Puis elle a mis sa signature en bas de la dernière page.\n\nLe film a été présenté en septembre. Avant le film, il y avait un petit show : un musicien jouait du piano sur la scène. Au Québec, on dit souvent « un show » pour parler d'un spectacle. Après le show, la salle est devenue noire, et le film a commencé.\n\nÀ la fin, le public a applaudi longtemps. Un journaliste a dit à Laurence que le chat était si mignon que tous les enfants l'adoreraient. Il a ajouté que son film deviendrait peut-être un film culte, lui aussi. Laurence a ri : « Si on m'avait dit ça quand j'avais dix ans, je ne l'aurais jamais cru ! » Ce soir-là, en rentrant chez elle, elle a trouvé son propre chat lové sur le canapé, comme le chat du poète.\n\nQuestions :\nQuel était le film préféré de Laurence quand elle était petite ?\nC'était un vieux film culte des années 1980.\nDe quoi parle son nouveau film animé ?\nIl parle de la vie d'un poète qui vit seul avec son chat.\nPourquoi les lèvres sont-elles difficiles pour Félix ?\nParce qu'elles doivent bouger exactement avec les mots du poète.\nÀ quoi sert l'enregistrement de la voix de l'acteur ?\nUn logiciel écoute l'enregistrement et calcule la forme des lèvres pour chaque son.\nQu'y avait-il avant le film, au festival ?\nIl y avait un petit show : un musicien jouait du piano."
+    },
+    {
+      "title": "Les tomates du collège",
+      "summary": "In Bastia, a science teacher and her pupils grow tomato seedlings in eggshells, compare sunlight and a lamp, and eat their own Corsican tomatoes in June.",
+      "newWords": [
+        "pousse",
+        "œuf",
+        "voiler",
+        "sien",
+        "corse",
+        "arracher"
+      ],
+      "text": "Madame Santoni est professeur de sciences dans un collège de Bastia, une ville corse au bord de la mer. Cette année, elle a proposé une expérience à sa classe : faire pousser des tomates, les unes à la lumière du soleil, les autres sous une lampe.\n\nPour les pots, les élèves ont utilisé des coquilles d'œufs. Chaque élève a apporté six œufs de la maison. À la cuisine du collège, on a cassé les œufs pour le repas de midi, et les élèves ont gardé les coquilles. Dans chaque coquille d'œuf, ils ont mis un peu de terre et deux petites graines.\n\nChaque élève avait ses coquilles, et chacun devait s'occuper des siennes. Lisa, une élève très sérieuse, donnait de l'eau aux siennes tous les matins. Son voisin, Paul, oubliait souvent les siennes.\n\nAprès une semaine, les premières pousses sont sorties de la terre. Elles étaient toutes petites et très vertes. Madame Santoni a demandé aux élèves de mesurer leurs pousses chaque jour et de noter les résultats dans un tableau.\n\nD'habitude, il fait beau presque toute l'année sur la côte corse. Mais ce mois-là, le ciel était souvent voilé : il y avait des nuages fins, et la lumière était faible. Sous ce ciel voilé, les pousses près de la fenêtre grandissaient moins vite. Les pousses sous la lampe, elles, grandissaient très vite. Les élèves ont compris que les plantes ont besoin de beaucoup de lumière.\n\nQuand les pousses ont eu quatre feuilles, il a fallu en arracher une dans chaque coquille, parce que deux plantes ne peuvent pas vivre dans un si petit espace. Paul ne voulait pas arracher la sienne : « Elle est trop belle ! » Madame Santoni lui a expliqué que, s'il ne l'arrachait pas, les deux plantes resteraient faibles. Alors Paul a arraché la plus petite.\n\nAu printemps, les élèves ont mis les coquilles directement dans le jardin du collège : la coquille d'œuf se mélange à la terre et nourrit la plante. En juin, ils ont mangé leurs premières tomates corses, avec un peu d'huile. Paul a dit que ses tomates étaient les meilleures. Lisa a répondu en riant qu'elle aurait préféré qu'il s'occupe des siennes plus souvent !\n\nQuestions :\nQu'est-ce que les élèves ont utilisé pour faire pousser leurs tomates ?\nIls ont utilisé des coquilles d'œufs, avec un peu de terre.\nQui s'occupait de ses coquilles tous les matins ?\nC'était Lisa. Paul, lui, oubliait souvent les siennes.\nPourquoi les pousses près de la fenêtre grandissaient-elles moins vite ?\nParce que le ciel était souvent voilé et que la lumière était faible.\nPourquoi a-t-il fallu arracher une pousse dans chaque coquille ?\nParce que deux plantes ne peuvent pas vivre dans un si petit espace.\nPourquoi les élèves ont-ils mis les coquilles dans le jardin ?\nParce que la coquille d'œuf se mélange à la terre et nourrit la plante."
+    },
+    {
+      "title": "Le fil bleu",
+      "summary": "Karima, who works in a police science lab in Marseille, studies a blue thread left behind when an old painting was stolen from a church in Nîmes, and the painting goes home.",
+      "newWords": [
+        "procureur",
+        "poursuite",
+        "suspect",
+        "tissu",
+        "fabrication",
+        "toile",
+        "temple",
+        "destination"
+      ],
+      "text": "Karima travaille dans un laboratoire de la police scientifique, à Marseille. Son métier, c'est d'étudier les petites traces : un cheveu, une goutte, un fil de tissu.\n\nAu mois de mars, une vieille toile a été volée dans un temple de Nîmes. Dans le sud de la France, on appelle « temple » une église protestante. La toile, un grand tableau de deux cents ans, était accrochée au mur du temple depuis très longtemps.\n\nLes policiers avaient un suspect : un homme qu'une caméra avait filmé près du temple, la nuit du vol. Mais une image de nuit ne suffit pas. Le procureur voulait des preuves avant de lancer des poursuites contre ce suspect.\n\nSur le cadre du tableau, les policiers avaient trouvé un petit fil bleu. Ils l'ont envoyé au laboratoire de Karima. Karima a regardé le fil au microscope. C'était un tissu particulier, d'une fabrication assez rare : un mélange de coton et de laine. Dans son rapport, elle a écrit que ce tissu venait sans doute d'une petite usine d'Italie, qui garde une fabrication à l'ancienne.\n\nChez le suspect, les policiers ont trouvé une veste bleue. Ils l'ont apportée au laboratoire. Karima a fait la comparaison entre le tissu de la veste et le fil trouvé au temple : même couleur, même mélange, même fabrication. Elle a refait la comparaison trois fois, pour être sûre.\n\nAvec le rapport de Karima, le procureur a décidé de lancer des poursuites. Le suspect a alors dit où il avait caché la toile : dans un garage, près de Montpellier. La toile devait partir à l'étranger. Sa destination était la maison d'un riche acheteur, qui l'avait déjà payée. Grâce au travail de la police, elle n'est jamais arrivée à destination.\n\nQuelques semaines plus tard, la toile a retrouvé sa place au mur du temple. Le procureur a dit à Karima que, sans son étude du tissu, les poursuites n'auraient pas été possibles. Karima était fière, mais elle travaillait déjà sur une autre affaire.\n\nQuestions :\nQue fait Karima dans son laboratoire ?\nElle étudie les petites traces, comme un cheveu ou un fil de tissu.\nQu'est-ce qu'un temple, dans le sud de la France ?\nC'est une église protestante.\nPourquoi le procureur ne lançait-il pas tout de suite des poursuites ?\nParce qu'il voulait des preuves contre le suspect.\nQu'est-ce que Karima a vu au microscope ?\nElle a vu un tissu d'une fabrication assez rare, un mélange de coton et de laine.\nQuelle était la destination de la toile ?\nSa destination était la maison d'un riche acheteur, à l'étranger."
+    }
+  ]
+}
