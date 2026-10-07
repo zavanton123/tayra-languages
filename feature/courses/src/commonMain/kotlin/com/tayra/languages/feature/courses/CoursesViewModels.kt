@@ -43,20 +43,32 @@ data class CoursesUiState(
     val status: LessonStatus? = null,
     val sort: CoursesSort = CoursesSort.RECOMMENDED,
     val view: CoursesView = CoursesView.GRID,
+    /** The tags a course must have; empty shows courses whatever their tags. */
+    val tags: Set<String> = emptySet(),
+    /** Whether a course needs every one of [tags], or any of them. */
+    val matchAllTags: Boolean = false,
     /** Why the last lesson could not be opened, if it could not. */
     val error: String? = null,
 ) {
-    /** The courses matching the search, in titles, descriptions, topics and lesson titles, and the level, whatever their progress. */
+    /** The courses matching the search (in titles, descriptions, topics, tags and lesson titles), the level and the tags, whatever their progress. */
     private val searched: List<CourseProgress>
         get() {
             val query = search.trim()
+            val wanted = tags.map { it.lowercase() }
             return courses.filter { progress ->
                 val course = progress.course
+                val own = course.tags.map { it.lowercase() }
                 (level == null || course.level == level) &&
-                    (query.isEmpty() || listOf(course.title, course.description, course.topic).any { it.contains(query, ignoreCase = true) } ||
+                    (wanted.isEmpty() || if (matchAllTags) own.containsAll(wanted) else wanted.any { it in own }) &&
+                    (query.isEmpty() || (listOf(course.title, course.description, course.topic) + course.tags).any { it.contains(query, ignoreCase = true) } ||
                         course.lessons.any { it.title.contains(query, ignoreCase = true) })
             }
         }
+
+    /** Every tag the courses have, the most used first. */
+    val availableTags: List<String>
+        get() = courses.flatMap { it.course.tags }.groupingBy { it }.eachCount().entries
+            .sortedWith(compareByDescending<Map.Entry<String, Int>> { it.value }.thenBy { it.key.lowercase() }).map { it.key }
 
     /** How many of the searched courses each progress tab holds, null being all of them. */
     val counts: Map<LessonStatus?, Int>
@@ -108,6 +120,8 @@ class CoursesViewModel(private val service: CourseService, languages: LanguageRe
         val status: LessonStatus? = null,
         val sort: CoursesSort = CoursesSort.RECOMMENDED,
         val view: CoursesView = CoursesView.GRID,
+        val tags: Set<String> = emptySet(),
+        val matchAllTags: Boolean = false,
         val error: String? = null,
     )
 
@@ -130,6 +144,9 @@ class CoursesViewModel(private val service: CourseService, languages: LanguageRe
             status = c.status,
             sort = c.sort,
             view = c.view,
+            // Tags only another language's courses have do not hide this one's.
+            tags = c.tags.filterTo(linkedSetOf()) { tag -> list.any { tag in it.course.tags } },
+            matchAllTags = c.matchAllTags,
             error = c.error,
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), CoursesUiState())
@@ -139,6 +156,7 @@ class CoursesViewModel(private val service: CourseService, languages: LanguageRe
     fun setStatus(value: LessonStatus?) = choices.update { it.copy(status = value) }
     fun setSort(value: CoursesSort) = choices.update { it.copy(sort = value) }
     fun setView(value: CoursesView) = choices.update { it.copy(view = value) }
+    fun setTags(tags: Set<String>, matchAll: Boolean) = choices.update { it.copy(tags = tags, matchAllTags = matchAll) }
 
     /** Opens the next lesson of the course to read it. */
     fun continueCourse(progress: CourseProgress) {

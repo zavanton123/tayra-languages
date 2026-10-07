@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.courses
 
+import com.tayra.languages.core.domain.courses.CourseDraft
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -192,6 +193,42 @@ class CoursesScreenTest {
         // It opens the course's next lesson.
         assertEquals("O Pedro perde o ônibus", runBlocking { books.getBook(read.single()) }?.title)
         collecting.cancel()
+    }
+
+    @Test
+    fun coursesCanBeFilteredByAnyOrAllOfSeveralTags() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val trip = runBlocking { service.createCourse(languageId, CourseDraft("Uma viagem", tags = listOf("travel", "food"))) }
+        val market = runBlocking { service.createCourse(languageId, CourseDraft("No mercado", tags = listOf("food"))) }
+        val viewModel = CoursesViewModel(service, languages, settings)
+        host {
+            val state by viewModel.state.collectAsState()
+            if (!state.loading) CoursesContent(state, viewModel::setSearch, viewModel::setLevel, viewModel::setStatus, onOpen = {}, onTags = viewModel::setTags)
+        }
+        fun visible(id: String) = onAllNodesWithTag("course-$id").fetchSemanticsNodes().isNotEmpty()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("102 courses").fetchSemanticsNodes().isNotEmpty() }
+
+        // Any of the two tags: both courses with "food" or "travel", none of the samples.
+        onNodeWithTag("tag-filter").performClick()
+        onNodeWithTag("tag-food").performClick()
+        onNodeWithTag("tag-travel").performClick()
+        onNodeWithText("2 tags selected").assertExists()
+        save("COURSES_TAGS_SCREENSHOT")
+        onNodeWithTag("apply-tags").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("2 courses").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(visible(trip) && visible(market))
+        assertEquals(emptyList(), shown())
+
+        // All of them: only the course with both.
+        onNodeWithTag("tag-filter").performClick()
+        onNodeWithTag("match-all").performClick()
+        onNodeWithTag("apply-tags").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 course").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(visible(trip) && !visible(market))
+
+        onNodeWithTag("tag-filter").performClick()
+        onNodeWithText("Clear all").performClick()
+        onNodeWithTag("apply-tags").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("102 courses").fetchSemanticsNodes().isNotEmpty() }
     }
 
     @Test

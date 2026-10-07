@@ -10,10 +10,23 @@ CREATE TABLE courses (
     created_at INTEGER NOT NULL,
     built_in INTEGER AS kotlin.Boolean NOT NULL DEFAULT 0,
     -- The rarest word, by its rank in the language's frequency list, the course teaches; null for courses not built on the list.
-    rank_up_to INTEGER,
-    -- Labels separated by spaces, such as "tayra" on the courses made for the app.
-    tags TEXT NOT NULL DEFAULT ''
+    rank_up_to INTEGER
 );
+
+-- Labels for courses, such as "tayra" on the courses made for the app; each is stored once and
+-- linked to every course that has it.
+CREATE TABLE course_tags (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    text TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE course_tag_map (
+    course_id TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,
+    tag_id INTEGER NOT NULL REFERENCES course_tags(id) ON DELETE CASCADE,
+    PRIMARY KEY (course_id, tag_id)
+);
+
+CREATE INDEX course_tag_map_tag ON course_tag_map(tag_id);
 
 -- Their lessons, in order by position.
 CREATE TABLE lessons (
@@ -52,8 +65,30 @@ selectLesson:
 SELECT * FROM lessons WHERE id = :id;
 
 insertCourse:
-INSERT INTO courses(id, language_id, title, description, level, topic, created_at, built_in, rank_up_to, tags)
-VALUES (:id, :languageId, :title, :description, :level, :topic, :createdAt, :builtIn, :rankUpTo, :tags);
+INSERT INTO courses(id, language_id, title, description, level, topic, created_at, built_in, rank_up_to)
+VALUES (:id, :languageId, :title, :description, :level, :topic, :createdAt, :builtIn, :rankUpTo);
+
+-- Tags
+
+courseTags:
+SELECT m.course_id, t.text FROM course_tag_map m INNER JOIN course_tags t ON t.id = m.tag_id
+WHERE m.course_id IN :courseIds ORDER BY t.text;
+
+insertTag:
+INSERT OR IGNORE INTO course_tags(text) VALUES (:text);
+
+tagId:
+SELECT id FROM course_tags WHERE text = :text;
+
+linkTag:
+INSERT OR IGNORE INTO course_tag_map(course_id, tag_id) VALUES (:courseId, :tagId);
+
+unlinkTags:
+DELETE FROM course_tag_map WHERE course_id = :courseId;
+
+-- A tag no course has any more goes.
+deleteUnusedTags:
+DELETE FROM course_tags WHERE id NOT IN (SELECT tag_id FROM course_tag_map);
 
 updateCourse:
 UPDATE courses SET title = :title, description = :description, level = :level, topic = :topic WHERE id = :id;

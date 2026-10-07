@@ -40,6 +40,7 @@ import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.AppTopBar
 import com.tayra.languages.core.ui.components.ContentCard
 import com.tayra.languages.core.ui.components.Dropdown
+import com.tayra.languages.core.ui.components.TagInput
 import com.tayra.languages.core.ui.components.InfoBanner
 import com.tayra.languages.core.ui.components.LoadingIndicator
 import com.tayra.languages.core.ui.components.LocalWindowWidth
@@ -70,6 +71,8 @@ data class CourseFormUiState(
     val languageId: Long = 0,
     val languageName: String = "",
     val draft: CourseDraft = CourseDraft(""),
+    /** The tags the language's courses have, offered while typing one. */
+    val tagSuggestions: List<String> = emptyList(),
     val saving: Boolean = false,
     val error: String? = null,
 )
@@ -95,7 +98,8 @@ class CourseFormViewModel(
                 isNew = course == null,
                 languageId = languageId,
                 languageName = languages.getById(languageId)?.name.orEmpty(),
-                draft = course?.let { CourseDraft(it.title, it.description, it.level, it.topic) } ?: CourseDraft(""),
+                draft = course?.let { CourseDraft(it.title, it.description, it.level, it.topic, it.tags) } ?: CourseDraft(""),
+                tagSuggestions = service.observeCourses(languageId).first().flatMap { it.course.tags }.distinct().sorted(),
                 error = if (courseId != null && course == null) tr("This course no longer exists.") else null,
             )
         }
@@ -120,7 +124,7 @@ class CourseFormViewModel(
     }
 }
 
-/** The form for a course: its title, what it is about, its level and topic. */
+/** The form for a course: its title, what it is about, its level, topic and tags. */
 @Composable
 fun CourseFormScreen(
     courseId: String?,
@@ -209,6 +213,21 @@ internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft
                 pair(Modifier.weight(1f))
                 topic(Modifier.weight(1f))
             }
+        }
+        FormField(tr("Tags")) {
+            TagInput(
+                values = state.draft.tags,
+                onValuesChange = { tags -> onChange { it.copy(tags = tags) } },
+                label = tr("Add tags"),
+                suggestions = state.tagSuggestions,
+                modifier = Modifier.fillMaxWidth().testTag("course-tags"),
+            )
+            Text(
+                tr("Press Enter or a comma after each tag. Courses can be filtered by their tags."),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.padding(top = 4.dp),
+            )
         }
     }
 }

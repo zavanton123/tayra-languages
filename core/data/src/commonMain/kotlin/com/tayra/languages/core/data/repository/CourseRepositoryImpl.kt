@@ -31,18 +31,17 @@ class CourseRepositoryImpl(
 
     private suspend fun db(): TayraDatabase = provider.database()
 
-    // Lessons change more often than courses; both queries are watched, and the lessons read with them.
+    // Lessons and tags change apart from courses; all three are watched, and lessons and tags read with the courses.
     override fun observeCourses(languageId: Long): Flow<List<Course>> = flow {
         val database = db()
         val courses = database.coursesQueries.selectCourses(languageId).asFlow().mapToList(databaseDispatcher)
-        val lessons = database.userLessonsChanges()
-        emitAll(combine(courses, lessons) { rows, _ -> withContext(databaseDispatcher) { hydrate(database, rows) } })
+        emitAll(combine(courses, database.lessonsChanges(), database.tagsChanges()) { rows, _, _ -> withContext(databaseDispatcher) { hydrate(database, rows) } })
     }
 
     override fun observeCourse(courseId: String): Flow<Course?> = flow {
         val database = db()
         val courses = database.coursesQueries.selectCourse(courseId).asFlow().mapToList(databaseDispatcher)
-        emitAll(combine(courses, database.userLessonsChanges()) { rows, _ -> withContext(databaseDispatcher) { hydrate(database, rows).firstOrNull() } })
+        emitAll(combine(courses, database.lessonsChanges(), database.tagsChanges()) { rows, _, _ -> withContext(databaseDispatcher) { hydrate(database, rows).firstOrNull() } })
     }
 
     override suspend fun course(courseId: String): Course? = withContext(databaseDispatcher) {
@@ -51,12 +50,17 @@ class CourseRepositoryImpl(
     }
 
     /** Emits whenever a lesson is added, changed or removed, for any course: a query on the table is told of every change to it. */
-    private fun TayraDatabase.userLessonsChanges(): Flow<Unit> =
+    private fun TayraDatabase.lessonsChanges(): Flow<Unit> =
         coursesQueries.selectLessons(listOf("")).asFlow().map { }
+
+    /** Emits whenever a course's tags change, as [lessonsChanges] does for lessons. */
+    private fun TayraDatabase.tagsChanges(): Flow<Unit> =
+        coursesQueries.courseTags(listOf("")).asFlow().map { }
 
     private suspend fun hydrate(database: TayraDatabase, rows: List<Courses>): List<Course> {
         if (rows.isEmpty()) return emptyList()
         val lessons = database.coursesQueries.selectLessons(rows.map { it.id }).awaitAsList().groupBy { it.course_id }
+        val tags = database.coursesQueries.courseTags(rows.map { it.id }).awaitAsList().groupBy({ it.course_id }, { it.text })
         return rows.map { row ->
             val language = database.languagesQueries.selectById(row.language_id).awaitAsOneOrNull()
             Course(
@@ -70,7 +74,7 @@ class CourseRepositoryImpl(
                 languageId = row.language_id,
                 builtIn = row.built_in,
                 rankUpTo = row.rank_up_to?.toInt(),
-                tags = words(row.tags),
+                tags = tags[row.id].orEmpty(),
             )
         }
     }
@@ -78,18 +82,41 @@ class CourseRepositoryImpl(
     private fun words(spaced: String): List<String> = spaced.split(' ').filter { it.isNotBlank() }
 
     override suspend fun createCourse(id: String, languageId: Long, draft: CourseDraft) = withContext(databaseDispatcher) {
-        db().coursesQueries.insertCourse(id, languageId, draft.title, draft.description, draft.level.name, draft.topic, clock.now().toEpochMilliseconds(), false, null, "")
-        Unit
+        val database = db()
+        database.transaction {
+            database.coursesQueries.insertCourse(id, languageId, draft.title, draft.description, draft.level.name, draft.topic, clock.now().toEpochMilliseconds(), false, null)
+            setTags(database, id, draft.tags)
+        }
     }
 
     override suspend fun updateCourse(courseId: String, draft: CourseDraft) = withContext(databaseDispatcher) {
-        db().coursesQueries.updateCourse(title = draft.title, description = draft.description, level = draft.level.name, topic = draft.topic, id = courseId)
-        Unit
+        val database = db()
+        database.transaction {
+            database.coursesQueries.updateCourse(title = draft.title, description = draft.description, level = draft.level.name, topic = draft.topic, id = courseId)
+            setTags(database, courseId, draft.tags)
+        }
     }
 
     override suspend fun deleteCourse(courseId: String) = withContext(databaseDispatcher) {
-        db().coursesQueries.deleteCourse(courseId)
-        Unit
+        val database = db()
+        database.transaction {
+            database.coursesQueries.deleteCourse(courseId)
+            database.coursesQueries.deleteUnusedTags()
+        }
+    }
+
+    /** Links the course to exactly [tags], adding the tags not stored yet and dropping the ones no course has any more. */
+    private suspend fun setTags(database: TayraDatabase, courseId: String, tags: List<String>) {
+        database.coursesQueries.unlinkTags(courseId)
+        linkTags(database, courseId, tags)
+        database.coursesQueries.deleteUnusedTags()
+    }
+
+    private suspend fun linkTags(database: TayraDatabase, courseId: String, tags: List<String>) {
+        for (tag in tags.map { it.trim() }.filter { it.isNotEmpty() }.distinct()) {
+            database.coursesQueries.insertTag(tag)
+            database.coursesQueries.linkTag(courseId, database.coursesQueries.tagId(tag).awaitAsOne())
+        }
     }
 
     override suspend fun addLesson(id: String, courseId: String, draft: LessonDraft) = withContext(databaseDispatcher) {
@@ -124,8 +151,8 @@ class CourseRepositoryImpl(
                 if (database.coursesQueries.selectCourse(course.id).awaitAsOneOrNull() == null) {
                     database.coursesQueries.insertCourse(
                         course.id, languageId, course.title, course.description, course.level.name, course.topic, now - courses.size + i, true, course.rankUpTo?.toLong(),
-                        course.tags.joinToString(" "),
                     )
+                    linkTags(database, course.id, course.tags)
                     course.lessons.forEachIndexed { position, lesson ->
                         database.coursesQueries.insertLesson(lesson.id, course.id, lesson.title, lesson.summary, lesson.text, position.toLong(), lesson.newWords.joinToString(" "), lesson.tags.joinToString(" "))
                     }

@@ -45,14 +45,20 @@ data class Course(
     val builtIn: Boolean = false,
     /** The rank in the language's frequency list of the rarest word the course teaches; null for courses not built on it. */
     val rankUpTo: Int? = null,
-    /** Labels such as "tayra", which marks the courses made for the app. */
+    /** Labels such as "tayra", which marks the courses made for the app; a tag is shared by every course that has it. */
     val tags: List<String> = emptyList(),
 ) {
     val wordCount: Int get() = lessons.sumOf { it.wordCount }
 }
 
 /** What the reader writes about a course of their own. */
-data class CourseDraft(val title: String, val description: String = "", val level: CourseLevel = CourseLevel.A1, val topic: String = "")
+data class CourseDraft(
+    val title: String,
+    val description: String = "",
+    val level: CourseLevel = CourseLevel.A1,
+    val topic: String = "",
+    val tags: List<String> = emptyList(),
+)
 
 /** What the reader writes for a lesson of their own. */
 data class LessonDraft(val title: String, val summary: String = "", val text: String)

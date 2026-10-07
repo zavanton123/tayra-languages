@@ -176,7 +176,9 @@ update `downloadSize` in `CoursePacks`. If the layout changes, bump `FORMAT` in 
 so rebuilding the app's frequency list does not shift the courses' bands (German does this).
 
 Installing a pack stores it like a dictionary pack and writes its courses into the database as
-samples for every language it teaches, also ones added later. Removing it deletes those courses,
+samples for every language it teaches, also ones added later. A pack lists a course's tags as
+space-separated text; in the database each tag is a row of `course_tags`, linked to its courses
+through `course_tag_map`, so the Courses screen can filter by several tags (any or all of them). Removing it deletes those courses,
 with their lessons and the texts read from them, and the file. A course reaches a database once,
 so a reworked course needs a new id.
 

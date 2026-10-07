@@ -1,5 +1,6 @@
 package com.tayra.languages.core.data.backup
 
+import app.cash.sqldelight.async.coroutines.awaitAsOne
 import app.cash.sqldelight.async.coroutines.await
 import app.cash.sqldelight.db.QueryResult
 import app.cash.sqldelight.db.SqlDriver
@@ -72,6 +73,14 @@ class BackupRepositoryImpl(
                 columnsOf(driver, table).filter { it in contents.columns.getValue(table) }
             }.filterValues { it.isNotEmpty() }
             val rows = readFile(file, copied.map { (table, columns) -> SqliteQuery(literalRows(table, columns), 1) })
+            // Backups from before schema 18 keep a course's tags as space-separated text in the course row.
+            val legacyTags = if ("tags" in contents.columns["courses"].orEmpty() && "course_tag_map" !in contents.columns) {
+                readFile(file, listOf(SqliteQuery("SELECT id || char(9) || tags FROM courses WHERE trim(tags) <> ''", 1))).single()
+                    .mapNotNull { row -> row.single()?.split('\t', limit = 2)?.takeIf { it.size == 2 } }
+                    .map { (id, tags) -> id to tags.split(' ').filter { it.isNotBlank() } }
+            } else {
+                emptyList()
+            }
             database.transaction {
                 // Rows go in table by table, so references are checked once all of them are in.
                 driver.execute(null, "PRAGMA defer_foreign_keys = ON", 0).await()
@@ -79,6 +88,12 @@ class BackupRepositoryImpl(
                 if (hasSequences(driver)) driver.execute(null, "DELETE FROM sqlite_sequence", 0).await()
                 copied.entries.forEachIndexed { i, (table, columns) ->
                     for (insert in inserts(table, columns, rows[i].map { it.single()!! })) driver.execute(null, insert, 0).await()
+                }
+                for ((courseId, tags) in legacyTags) {
+                    for (tag in tags.distinct()) {
+                        database.coursesQueries.insertTag(tag)
+                        database.coursesQueries.linkTag(courseId, database.coursesQueries.tagId(tag).awaitAsOne())
+                    }
                 }
             }
             driver.notifyListeners(*tables.toTypedArray())

@@ -152,7 +152,12 @@ class CourseService(
 
     private fun validated(draft: CourseDraft): CourseDraft {
         if (draft.title.isBlank()) throw CourseValidationException("A course needs a title")
-        return draft.copy(title = draft.title.trim(), description = draft.description.trim(), topic = draft.topic.trim())
+        return draft.copy(
+            title = draft.title.trim(),
+            description = draft.description.trim(),
+            topic = draft.topic.trim(),
+            tags = draft.tags.map { it.trim() }.filter { it.isNotEmpty() }.distinctBy { it.lowercase() },
+        )
     }
 
     private fun validated(draft: LessonDraft): LessonDraft {

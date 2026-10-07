@@ -1,0 +1,84 @@
+-- Course tags move from a column of space-separated labels to their own tables, each tag stored once
+-- and linked to its courses. The tags are set aside first, then the course table is rebuilt without
+-- the column (lessons wait in a table without links meanwhile, as in 17), then the links are made.
+-- Like 17, it runs whether the new tables are there already or not.
+CREATE TABLE course_tags_v18 (course_id TEXT NOT NULL, text TEXT NOT NULL);
+
+INSERT INTO course_tags_v18(course_id, text)
+WITH RECURSIVE split(course_id, tag, rest) AS (
+    SELECT id, '', trim(tags) || ' ' FROM courses
+    UNION ALL
+    SELECT course_id, substr(rest, 1, instr(rest, ' ') - 1), ltrim(substr(rest, instr(rest, ' ') + 1)) FROM split WHERE rest <> ''
+)
+SELECT DISTINCT course_id, tag FROM split WHERE tag <> '';
+
+CREATE TABLE courses_v18 (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL DEFAULT '',
+    level TEXT NOT NULL,
+    topic TEXT NOT NULL DEFAULT '',
+    created_at INTEGER NOT NULL,
+    built_in INTEGER NOT NULL DEFAULT 0,
+    rank_up_to INTEGER
+);
+
+INSERT INTO courses_v18(id, language_id, title, description, level, topic, created_at, built_in, rank_up_to)
+SELECT id, language_id, title, description, level, topic, created_at, built_in, rank_up_to FROM courses;
+
+CREATE TABLE lessons_v18 (
+    id TEXT NOT NULL PRIMARY KEY,
+    course_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    summary TEXT NOT NULL DEFAULT '',
+    text TEXT NOT NULL,
+    position INTEGER NOT NULL,
+    new_words TEXT NOT NULL DEFAULT '',
+    tags TEXT NOT NULL DEFAULT ''
+);
+
+INSERT INTO lessons_v18(id, course_id, title, summary, text, position, new_words, tags)
+SELECT id, course_id, title, summary, text, position, new_words, tags FROM lessons;
+
+DROP TABLE lessons;
+DROP TABLE courses;
+ALTER TABLE courses_v18 RENAME TO courses;
+
+CREATE TABLE lessons (
+    id TEXT NOT NULL PRIMARY KEY,
+    course_id TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    summary TEXT NOT NULL DEFAULT '',
+    text TEXT NOT NULL,
+    position INTEGER NOT NULL,
+    new_words TEXT NOT NULL DEFAULT '',
+    tags TEXT NOT NULL DEFAULT ''
+);
+
+INSERT INTO lessons(id, course_id, title, summary, text, position, new_words, tags)
+SELECT id, course_id, title, summary, text, position, new_words, tags FROM lessons_v18;
+
+DROP TABLE lessons_v18;
+
+CREATE INDEX IF NOT EXISTS lessons_course ON lessons(course_id, position);
+
+CREATE TABLE IF NOT EXISTS course_tags (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    text TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE IF NOT EXISTS course_tag_map (
+    course_id TEXT NOT NULL REFERENCES courses(id) ON DELETE CASCADE,
+    tag_id INTEGER NOT NULL REFERENCES course_tags(id) ON DELETE CASCADE,
+    PRIMARY KEY (course_id, tag_id)
+);
+
+CREATE INDEX IF NOT EXISTS course_tag_map_tag ON course_tag_map(tag_id);
+
+INSERT OR IGNORE INTO course_tags(text) SELECT DISTINCT text FROM course_tags_v18 ORDER BY text;
+
+INSERT OR IGNORE INTO course_tag_map(course_id, tag_id)
+SELECT v.course_id, t.id FROM course_tags_v18 v INNER JOIN course_tags t ON t.text = v.text;
+
+DROP TABLE course_tags_v18;

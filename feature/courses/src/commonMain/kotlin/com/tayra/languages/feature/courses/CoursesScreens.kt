@@ -34,6 +34,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material.icons.filled.Add
@@ -125,11 +126,16 @@ internal val CourseLevel.display: String get() = "$code · ${tr(label)}"
 private val com.tayra.languages.core.domain.courses.Course.subtitle: String
     get() = if (topic.isBlank()) tr(level.label) else "${tr(level.label)} · $topic"
 
-/** The course's tags: the words of the frequency list it covers, and whether it is one of the samples. */
+/** How many pills [CourseTags] shows. */
+private val com.tayra.languages.core.domain.courses.Course.pillCount: Int
+    get() = (if (rankUpTo != null) 1 else 0) + if (tags.isNotEmpty()) tags.size else if (builtIn) 1 else 0
+
+/** The course's tags: the words of the frequency list it covers, its own tags, or else whether it is one of the samples. */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun CourseTags(course: com.tayra.languages.core.domain.courses.Course) {
-    if (!course.builtIn && course.rankUpTo == null && course.tags.isEmpty()) return
-    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+    if (course.pillCount == 0) return
+    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
         course.rankUpTo?.let { RankTag(it) }
         // A tag such as "tayra" says where a course comes from, so it stands in for the sample tag.
         if (course.tags.isNotEmpty()) course.tags.forEach { LabelTag(it) } else if (course.builtIn) SampleTag()
@@ -201,6 +207,7 @@ fun CoursesScreen(onNavigate: (Route) -> Unit, viewModel: CoursesViewModel = koi
             onSort = viewModel::setSort,
             onView = viewModel::setView,
             onContinue = viewModel::continueCourse,
+            onTags = viewModel::setTags,
             modifier = Modifier.padding(padding),
         )
     }
@@ -235,6 +242,7 @@ internal fun CoursesContent(
     onSort: (CoursesSort) -> Unit = {},
     onView: (CoursesView) -> Unit = {},
     onContinue: (CourseProgress) -> Unit = {},
+    onTags: (tags: Set<String>, matchAll: Boolean) -> Unit = { _, _ -> },
     modifier: Modifier = Modifier,
 ) {
     val colors = MaterialTheme.colorScheme
@@ -288,6 +296,7 @@ internal fun CoursesContent(
             SearchBox(state.search, onSearch, Modifier.fillMaxWidth())
             FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp), itemVerticalAlignment = Alignment.CenterVertically) {
                 FilterMenu(levelLabel, listOf<CourseLevel?>(null) + state.levels, { it?.display ?: tr("All levels") }, onLevel, Modifier.testTag("level-filter"))
+                if (state.availableTags.isNotEmpty()) TagFilter(state, onTags)
                 FilterMenu(state.sort.label, CoursesSort.entries, { it.label }, onSort, Modifier.testTag("course-sort"))
                 ViewToggle(state.view, onView, iconsOnly = true)
             }
@@ -295,6 +304,7 @@ internal fun CoursesContent(
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 SearchBox(state.search, onSearch, Modifier.weight(1f))
                 FilterMenu(levelLabel, listOf<CourseLevel?>(null) + state.levels, { it?.display ?: tr("All levels") }, onLevel, Modifier.testTag("level-filter"))
+                if (state.availableTags.isNotEmpty()) TagFilter(state, onTags)
                 FilterMenu(state.sort.label, CoursesSort.entries, { it.label }, onSort, Modifier.testTag("course-sort"))
                 ViewToggle(state.view, onView, iconsOnly = !width.isExpanded)
                 Text(count, Modifier.padding(start = 8.dp), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
@@ -325,7 +335,7 @@ internal fun CoursesContent(
                 Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
                     list.chunked(columns).forEach { row ->
                         Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-                            row.forEach { CourseCard(it, Modifier.weight(1f).fillMaxHeight(), tagsBelow = compact) { onOpen(it.course.id) } }
+                            row.forEach { CourseCard(it, Modifier.weight(1f).fillMaxHeight(), tagsBelow = compact || it.course.pillCount > 2) { onOpen(it.course.id) } }
                             repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
                         }
                     }
@@ -373,6 +383,113 @@ private fun StatusTabs(counts: Map<LessonStatus?, Int>, selected: LessonStatus?,
                 )
             }
         }
+    }
+}
+
+/**
+ * The Tags button, with how many are chosen, and its panel: the tags to pick, found by typing, and
+ * whether a course needs any or all of them. The choice applies with Apply.
+ */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun TagFilter(state: CoursesUiState, onApply: (tags: Set<String>, matchAll: Boolean) -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    var open by remember { mutableStateOf(false) }
+    val active = state.tags.isNotEmpty()
+    Box {
+        Row(
+            Modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp))
+                .border(if (active || open) 1.5.dp else 1.dp, if (active || open) colors.primary else colors.outlineVariant, RoundedCornerShape(10.dp))
+                .background(colors.surface).clickable { open = true }.padding(start = 14.dp, end = 10.dp).testTag("tag-filter"),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(10.dp),
+        ) {
+            Icon(AppIcons.Tag, contentDescription = null, tint = if (active) colors.primary else colors.onSurfaceVariant, modifier = Modifier.size(20.dp))
+            Text(tr("Tags"), style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Medium, color = if (active) colors.primary else colors.onSurface)
+            if (active) {
+                Text(
+                    "${state.tags.size}",
+                    Modifier.clip(CircleShape).background(colors.primary).padding(horizontal = 8.dp, vertical = 1.dp),
+                    style = MaterialTheme.typography.labelLarge,
+                    color = colors.onPrimary,
+                    fontWeight = FontWeight.SemiBold,
+                )
+            }
+            Icon(Icons.Default.ArrowDropDown, contentDescription = null, tint = colors.onSurfaceVariant)
+        }
+        AppMenu(expanded = open, onDismissRequest = { open = false }, modifier = Modifier.width(440.dp)) {
+            // What is picked here applies only with Apply.
+            var picked by remember { mutableStateOf(state.tags) }
+            var matchAll by remember { mutableStateOf(state.matchAllTags) }
+            var query by remember { mutableStateOf("") }
+            Column(Modifier.padding(horizontal = 18.dp, vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(tr("Filter by tags"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                    Text(
+                        tr("Clear all"),
+                        Modifier.clip(RoundedCornerShape(6.dp)).clickable(enabled = picked.isNotEmpty()) { picked = emptySet() }.padding(horizontal = 6.dp, vertical = 2.dp),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = if (picked.isNotEmpty()) colors.primary else colors.outline,
+                    )
+                }
+                SearchField(query, { query = it }, tr("Find tags"), Modifier.fillMaxWidth().testTag("tag-search"))
+                val found = state.availableTags.filter { it.contains(query.trim(), ignoreCase = true) }
+                if (found.isEmpty()) {
+                    Text(tr("No tags match."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                } else {
+                    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                        found.forEach { tag -> TagChip(tag, tag in picked) { picked = if (tag in picked) picked - tag else picked + tag } }
+                    }
+                }
+                HorizontalDivider(color = colors.outlineVariant)
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                    Text(tr("Match"), style = MaterialTheme.typography.bodyLarge)
+                    Row(Modifier.clip(RoundedCornerShape(10.dp)).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(3.dp)) {
+                        listOf(false to tr("Any tag"), true to tr("All tags")).forEach { (all, label) ->
+                            val chosen = matchAll == all
+                            Text(
+                                label,
+                                Modifier.clip(RoundedCornerShape(7.dp)).background(if (chosen) colors.primary.copy(alpha = 0.12f) else Color.Transparent)
+                                    .clickable { matchAll = all }.padding(horizontal = 16.dp, vertical = 8.dp).testTag(if (all) "match-all" else "match-any"),
+                                style = MaterialTheme.typography.bodyMedium,
+                                fontWeight = if (chosen) FontWeight.SemiBold else FontWeight.Normal,
+                                color = if (chosen) colors.primary else colors.onSurfaceVariant,
+                            )
+                        }
+                    }
+                }
+                HorizontalDivider(color = colors.outlineVariant)
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(
+                        if (picked.isEmpty()) tr("No tags selected") else trPlural(picked.size, "{0} tag selected", "{0} tags selected"),
+                        Modifier.weight(1f),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = colors.onSurfaceVariant,
+                    )
+                    Button(onClick = { open = false; onApply(picked, matchAll) }, shape = RoundedCornerShape(10.dp), modifier = Modifier.testTag("apply-tags")) {
+                        Text(tr("Apply"))
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** A tag to pick in the filter: outlined, or tinted with a cross when picked. */
+@Composable
+private fun TagChip(tag: String, picked: Boolean, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.clip(RoundedCornerShape(50))
+            .background(if (picked) colors.primary.copy(alpha = 0.1f) else colors.surface)
+            .border(1.dp, if (picked) colors.primary.copy(alpha = 0.6f) else colors.outlineVariant, RoundedCornerShape(50))
+            .clickable(onClick = onClick).padding(start = 14.dp, end = if (picked) 10.dp else 14.dp, top = 6.dp, bottom = 6.dp)
+            .testTag("tag-$tag"),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(6.dp),
+    ) {
+        Text(tag, style = MaterialTheme.typography.bodyMedium, color = if (picked) colors.primary else colors.onSurface)
+        if (picked) Icon(Icons.Default.Close, contentDescription = tr("Remove {0}", tag), tint = colors.primary, modifier = Modifier.size(16.dp))
     }
 }
 
@@ -518,7 +635,7 @@ private fun ProgressBar(progress: CourseProgress, modifier: Modifier) {
     }
 }
 
-/** A course as a card of the grid; on narrow screens its tags go [tagsBelow] the title, which then keeps its width. */
+/** A course as a card of the grid; on narrow screens, or with several, its tags go [tagsBelow] the title, which then keeps its width. */
 @Composable
 private fun CourseCard(progress: CourseProgress, modifier: Modifier, tagsBelow: Boolean, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
@@ -645,7 +762,11 @@ private fun Notice(title: String, text: String, action: @Composable () -> Unit =
 private val CONTROL_HEIGHT = 48.dp
 
 @Composable
-private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) {
+private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) =
+    SearchField(value, onChange, tr("Search courses, lessons and tags"), modifier, Modifier.testTag("course-search"))
+
+@Composable
+private fun SearchField(value: String, onChange: (String) -> Unit, placeholder: String, modifier: Modifier, fieldModifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.height(CONTROL_HEIGHT).clip(RoundedCornerShape(10.dp)).background(colors.surface).border(1.dp, colors.outlineVariant, RoundedCornerShape(10.dp)).padding(horizontal = 16.dp),
@@ -659,10 +780,10 @@ private fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modif
             singleLine = true,
             textStyle = MaterialTheme.typography.bodyLarge.copy(color = colors.onSurface),
             cursorBrush = SolidColor(colors.primary),
-            modifier = Modifier.weight(1f).testTag("course-search"),
+            modifier = fieldModifier.weight(1f),
             decorationBox = { inner ->
                 Box(contentAlignment = Alignment.CenterStart) {
-                    if (value.isEmpty()) Text(tr("Search courses and lessons"), color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    if (value.isEmpty()) Text(placeholder, color = colors.onSurfaceVariant, style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                     inner()
                 }
             },
