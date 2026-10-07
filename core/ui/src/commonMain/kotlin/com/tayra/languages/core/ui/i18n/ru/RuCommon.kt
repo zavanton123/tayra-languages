@@ -117,7 +117,6 @@ internal val ruCommon: Map<String, String> = mapOf(
     // AppTheme.kt, ReadingFonts.kt (shown through label, which is tr(englishLabel))
     "Default" to "Стандартная",
     "Sepia" to "Сепия",
-    "Dark slate" to "Графитовая",
     "Night" to "Ночная",
     "System serif" to "Системный с засечками",
     "System sans-serif" to "Системный без засечек",

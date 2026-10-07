@@ -22,6 +22,7 @@ import com.tayra.languages.core.ui.components.LocalLearningLanguage
 import com.tayra.languages.core.ui.components.ProvideWindowWidth
 import com.tayra.languages.core.ui.theme.AppThemes
 import com.tayra.languages.core.ui.theme.TayraTheme
+import androidx.compose.ui.test.performScrollTo
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
@@ -60,6 +61,25 @@ class SettingsScreenTest {
         assertEquals(5, settings.current.statsSampleSize)
         assertEquals(false, settings.current.showStreakOnHome)
         assertEquals("serif", settings.current.readingFont)
+    }
+
+    /** The theme list shows each theme with its colours; a theme that was removed opens as the one standing in for it. */
+    @Test
+    fun aThemeIsPickedFromTheList() = runDesktopComposeUiTest(width = 1580, height = 1000) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        runBlocking { settings.update { it.copy(themeId = "dark_slate") } }
+        setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings)) } }
+
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Darcula").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Darcula").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Gruvbox Dark").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("THEMES_SCREENSHOT")?.let { path ->
+            waitForIdle()
+            ImageIO.write(onAllNodes(androidx.compose.ui.test.isRoot()).onLast().captureToImage().toAwtImage(), "png", File(path))
+        }
+        onNodeWithText("Gruvbox Dark").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.themeId == "gruvbox_dark" }
+        System.getenv("THEMES_SCREENSHOT")?.let { save(it.replace(".png", "-gruvbox.png")) }
     }
 
     private fun ComposeUiTest.save(path: String) {

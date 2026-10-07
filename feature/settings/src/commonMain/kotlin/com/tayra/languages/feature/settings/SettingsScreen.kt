@@ -153,12 +153,35 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
                 onSelect = { theme -> viewModel.update { it.copy(themeId = theme.id) } },
                 label = null,
                 optionLabel = { it.label },
-                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(250.dp),
+                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(300.dp),
+                optionContent = { theme ->
+                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                        ThemeSwatch(theme)
+                        Text(theme.label)
+                    }
+                },
             )
         }
         SwitchSetting(tr("Highlight terms by status"), tr("Use mastery colors while reading."), settings.showHighlights, divider = true) { v ->
             viewModel.update { it.copy(showHighlights = v) }
         }
+    }
+}
+
+/** A theme's page with its text, accent and new and learning word colours, to tell the themes apart in the list. */
+@Composable
+private fun ThemeSwatch(theme: AppTheme) {
+    Row(
+        Modifier.clip(RoundedCornerShape(6.dp)).background(theme.readingBackground)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(6.dp)).padding(horizontal = 6.dp, vertical = 5.dp),
+        horizontalArrangement = Arrangement.spacedBy(3.dp),
+    ) {
+        listOf(
+            theme.readingText,
+            theme.colorScheme.primary,
+            theme.statusColors.background(TermStatus.UNKNOWN),
+            theme.statusColors.background(TermStatus.NEW_1),
+        ).forEach { Box(Modifier.size(10.dp).clip(CircleShape).background(it)) }
     }
 }
 
@@ -174,7 +197,7 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
                 label = null,
                 optionLabel = { it.label },
                 optionContent = { Text(it.label, fontFamily = it.fontFamily(), style = MaterialTheme.typography.bodyLarge) },
-                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(250.dp),
+                modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(300.dp),
             )
         }
         SettingRow(tr("Reading font size"), divider = true, stackOnCompact = true) {
