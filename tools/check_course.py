@@ -61,6 +61,19 @@ def load_list(code):
             words[key] = (rank, word, forms)
             for form in [key] + forms:
                 ranks[form] = min(ranks.get(form, rank), rank)
+    # Forms the list misses, kept per language next to its courses (tools/courses/<code>/extra_forms.tsv).
+    extra = os.path.join(ROOT, "tools", "courses", code, "extra_forms.tsv")
+    if os.path.exists(extra):
+        for line in open(extra, encoding="utf-8"):
+            if line.startswith("#") or not line.strip():
+                continue
+            word, _, forms = line.rstrip("\n").partition("\t")
+            key = fold(code, word.lower())
+            rank, headword, known = words[key]
+            added = [fold(code, form) for form in forms.split()]
+            words[key] = (rank, headword, known + [f for f in added if f not in known])
+            for form in added:
+                ranks[form] = min(ranks.get(form, rank), rank)
     return ranks, words
 
 

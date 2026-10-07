@@ -1,0 +1,11 @@
+# Common forms the German frequency list misses (its ss/ß folding lost them); check_course.py
+# counts them as forms of the word. headword<TAB>forms
+heißen	heiße heißest
+essen	aß aßen äße
+sitzen	saß saßen
+Gruß	grüße grüßt grüßte grüßten gegrüßt
+genießen	genießt genieße genießen genoss genossen
+reißen	riss reißt gerissen
+beißen	biss beißt
+stoßen	stößt stieß stießen gestoßen
+schießen	schießt schoss

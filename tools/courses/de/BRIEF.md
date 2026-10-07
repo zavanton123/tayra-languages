@@ -134,7 +134,9 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
 Things to know about the German list and the checker:
 
 - The checker compares whole words, lowercased, with ß and ss treated alike (the list mostly
-  spells *weiss*, *gross*; always write the correct *weiß*, *groß*).
+  spells *weiss*, *gross*; always write the correct *weiß*, *groß*). Common forms the list
+  misses (*saß*, *aß*, *heiße*, *grüße*) are added in `extra_forms.tsv`; add a line there for
+  another true form you need rather than writing around it.
 - A **separable verb** split in the sentence (*sie steht um 7 Uhr auf*) counts as *stehen* +
   *auf*, not as *aufstehen*; to teach *aufstehen*, use forms where it stays whole: the infinitive
   (*sie muss früh aufstehen*), the participle (*aufgestanden*), *aufzustehen*, or a subordinate
@@ -147,7 +149,9 @@ Things to know about the German list and the checker:
   names in `names`, never common words.
 - The list's form lists are noisy (dialect and old spellings, unrelated words); a new word must
   appear as itself or a true inflection, never through such a form. Some entries are names or
-  list errors (*Sachs*, *polen*): skip them.
+  list errors (*Sachs*, *polen*): skip them. Loanwords that German uses as its own nouns (*App*,
+  *Ticket*, *Software*, *Shop*, *Blog*) are taught like any word; skip only English words that
+  are not German (*top*, *live*, *high*, *sorry*, *my*).
 - Write numbers as digits (*7 Uhr*, *3 Kinder*), except a number word that is in your band:
   spell that one out to teach it (*sieben Tage*). The checker splits hyphenated words: *E-Mail*
   becomes *e* + *mail*, and *e* is not in the list, so say *Nachricht* or *Mail* instead.
