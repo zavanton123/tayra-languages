@@ -1,0 +1,100 @@
+1	901	tandis	tandis
+2	902	détail	détails détail
+3	903	large	large larges
+4	904	champ	champ champs
+5	905	mi	mi mis
+6	906	chinois	chinois chinoise chinoises
+7	907	juger	juger jugé jugée juges jugés jugent jugées jugeant jugez jugeait jugera jugeons jugeaient jugeront jugea jugerez jugerait jugerai jugeais jugerons jugeraient jugerais jugèrent jugiez jugeras jugions
+8	908	poursuivre	poursuivre poursuit poursuivi poursuivent poursuivant poursuivis poursuivait poursuivra poursuivit poursuivons poursuis poursuivaient poursuivants poursuive poursuivez poursuivront poursuivirent poursuivrons poursuivrait poursuivrai poursuivraient poursuivante poursuivais poursuivions poursuivantes poursuivrez poursuives
+9	909	mémoire	mémoire mémoires
+10	910	traiter	traiter traite traitant traitent traitants traites traitait traitez traitera traitons traitaient traiteront traiterait traita traitais traiterons traiterai traitantes traitante traiterais traiteraient traitions traitèrent traitiez traiterez
+11	911	visite	visite visites
+12	912	mur	mur murs
+13	913	agent	agent agents agente
+14	914	apparaître	apparaît apparaître apparaissent apparu apparus apparaissait apparut apparaissant apparaîtra apparaisse apparaissaient apparurent apparaîtront apparaîtrait apparais apparaissez apparaîtraient apparût apparaissais
+15	915	actuellement	actuellement
+16	916	tôt	tôt
+17	917	vendredi	vendredi vendredis
+18	918	suisse	suisse suisses suissesse
+19	919	complètement	complètement complétement complètements
+20	920	engager	engagé engager engage engagent engageant engagea engagez engageait engageons engagera engages engagerait engageaient engagèrent engageront engageante engageraient engagerai engageantes engageais engagerais engagerons engageants engagiez engagions engagerez
+21	921	industrie	industrie industries
+22	922	radio	radio radios
+23	923	mètre	mètres mètre
+24	924	avance	avance avances
+25	925	unique	unique uniques
+26	926	effort	efforts effort
+27	927	citoyen	citoyens citoyen citoyenne citoyennes
+28	928	clé	clé clés clef clefs
+29	929	classique	classique classiques
+30	930	habitude	habitude habitudes hab
+31	931	complet	complet complète complets complètes
+32	932	employé	employés employé employée employées
+33	933	malade	malade malades
+34	934	capable	capable capables
+35	935	chargé	chargé chargée chargés chargées
+36	936	avocat	avocat avocats avocate
+37	937	traitement	traitement traitements
+38	938	commercial	commercial commerciale commerciaux commerciales
+39	939	financer	finances finance financer financé financent finançant financera finançait financez financerait finançons finançaient financeront finança financerons
+40	940	content	content contente contents contentes
+41	941	marquer	marqué marquer marquant marques marquent marquants marquez marquera marquait marquantes marqua marquante marqueront marquerait marquaient marquèrent marquons marquais marquerai marqueraient marquerons marquerez
+42	942	bref	bref brève brefs brèves
+43	943	référence	référence références réf
+44	944	respecter	respecter respecte respecté respectent respectant respectez respectes respectait respectons respectera respectaient respecteront respecterai respecterait respectais respecteraient respecterais respecterons respecta respecterez respections respecteras respectiez
+45	945	éducation	éducation éducations
+46	946	album	album albums
+47	947	naître	né naître naît naissent naquit naissant naissante naîtra naissait naisse nais naquirent naîtront naissantes naissants naissons naissaient naîtrait naquis naquît
+48	948	avenir	avenir avenirs
+49	949	chat	chat chats chatte chattes tchat
+50	950	dehors	dehors
+51	951	directement	directement
+52	952	discours	discours
+53	953	soutien	soutien soutiens
+54	954	arrière	arrière arrières
+55	955	voler	voler volant volé vole volent volants volante volantes volait voles volaient volez vola volera volons voleront volais volèrent volerait voleraient volerai voleras volerais
+56	956	carrière	carrière carrières
+57	957	ressembler	ressemble ressemblent ressembler ressemblait ressemblant ressembles ressemblaient ressemblera ressemblez ressemblerait ressemblais ressemblé ressembleront ressemblante ressemblants ressemblons ressembleraient ressemblantes ressemblerai ressemblerais ressembla ressembleras ressemblerez
+58	958	situer	situé situe situent situer situait situant situerait situaient situera situez situes situa situons situeraient situeront
+59	959	maire	maire maires mairesse
+60	960	côte	côte côtes coste
+61	961	voisin	voisins voisin voisine voisines
+62	962	hôpital	hôpital hôpitaux hospital
+63	963	pareil	pareil pareille pareils pareilles
+64	964	sentiment	sentiment sentiments
+65	965	méthode	méthode méthodes methode
+66	966	épisode	épisode épisodes
+67	967	ministère	ministère ministères
+68	968	crise	crise crises
+69	969	camp	camp camps
+70	970	parc	parc parcs
+71	971	province	province provinces
+72	972	voter	voter voté votent votes votants votez votant voterai votera voteront votons vota votaient voteraient voterait votait voterais voterons votèrent voterez votais votiez voteriez votions voteras
+73	973	cul	cul culs
+74	974	remplir	remplir rempli remplie remplis remplit remplies remplissent remplissant remplissez remplissait remplisse remplira remplissaient remplirait rempliront remplissons remplirai remplissais remplirent remplirez rempliraient remplirons
+75	975	populaire	populaire populaires popu
+76	976	ceci	ceci cecy
+77	977	dos	dos
+78	978	exactement	exactement
+79	979	huit	huit
+80	980	toutefois	toutefois
+81	981	vote	vote votes
+82	982	violence	violence violences
+83	983	chaîne	chaîne chaînes
+84	984	canadien	canadien canadienne canadiens canadiennes
+85	985	nation	nations nation
+86	986	champion	champion champions championne
+87	987	régler	régler règles réglé réglée réglés règlent réglées réglera réglez réglant réglait règlera réglerait réglons régleront règlerait régla réglaient règleront réglerai réglerons régleraient réglerez
+88	988	pro	pro pros
+89	989	propriétaire	propriétaire propriétaires
+90	990	rare	rare rares
+91	991	annoncer	annoncé annoncer annoncent annonçant annonçait annonces annonça annoncera annonçaient annonçons annoncez annoncerai annoncerait annoncions annonceront annonçais annoncèrent annoncerons annonciez annoncerez
+92	992	tableau	tableau tableaux
+93	993	signer	signé signer signes signez signant signent signa signait signera signerait signèrent signerai signaient signeront signons signais signerais signerons signeraient signerez
+94	994	enquête	enquête enquêtes
+95	995	pousser	pousser poussé poussée poussent poussant poussés poussées poussait pousses poussa poussez poussera poussaient pousserait pousseront poussons poussèrent poussais pousserai pousseraient poussai pousserais pousserons
+96	996	chiner	chine china chiner chiné chines
+97	997	commentaire	commentaires commentaire
+98	998	cacher	cacher caché cachée cachés cachent cachées cachait cachant cachez caches cachaient cacha cacherait cachera cachons cachais cacherai cachèrent cacherais cacheraient cacheront cachiez cachai cacherons
+99	999	visage	visage visages
+100	1000	religion	religion religions

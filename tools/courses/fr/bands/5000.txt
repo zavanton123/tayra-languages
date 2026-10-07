@@ -1,0 +1,100 @@
+1	4901	fermier	fermier fermiers fermière fermières
+2	4902	écosser	écosse écosser
+3	4903	pull	pull pulls
+4	4904	basque	basque basques
+5	4905	olive	olive olives
+6	4906	wagon	wagon wagons
+7	4907	superficie	superficie superficies
+8	4908	expérimenté	expérimenté expérimentés expérimentée expérimentées
+9	4909	araignée	araignée araignées
+10	4910	fossé	fossé fossés fossey
+11	4911	relance	relance relances
+12	4912	parasite	parasites parasite
+13	4913	thérapie	thérapie thérapies
+14	4914	rempart	remparts rempart
+15	4915	tige	tige tiges
+16	4916	activement	activement
+17	4917	alpha	alpha
+18	4918	amont	amont
+19	4919	biologie	biologie
+20	4920	concrètement	concrètement
+21	4921	grandement	grandement
+22	4922	instar	instar
+23	4923	ken	ken
+24	4924	gramme	grammes gramme
+25	4925	idéologique	idéologique idéologiques
+26	4926	textile	textile textiles
+27	4927	controverse	controverse controverses
+28	4928	amer	amer amère amers amères
+29	4929	ingrédient	ingrédients ingrédient
+30	4930	boue	boue boues
+31	4931	compliment	compliment compliments
+32	4932	appartenance	appartenance appartenances
+33	4933	littoral	littoral littorale littoraux littorales
+34	4934	avéré	avéré avérée avérés avérées
+35	4935	occurrence	occurrence occurrences
+36	4936	chauve	chauve chauves
+37	4937	contraindre	contraindre contraignant contraignante contraignantes contraignants contraignent contraignit contraignait contraindra contraigne contraignirent contraindrait contrains
+38	4938	incertain	incertain incertaine incertains incertaines
+39	4939	bagarre	bagarre bagarres
+40	4940	renforcement	renforcement renforcements
+41	4941	river	river rives rivera riva rivé rivas rivais
+42	4942	ascension	ascension ascensions
+43	4943	rom	roms rom
+44	4944	extraction	extraction extractions
+45	4945	présumé	présumé présumés présumée présumées
+46	4946	potable	potable potables
+47	4947	bull	bull bulls
+48	4948	horloge	horloge horloges
+49	4949	interface	interface interfaces
+50	4950	aléatoire	aléatoire aléatoires
+51	4951	incontournable	incontournable incontournables
+52	4952	milice	milice milices
+53	4953	serviette	serviette serviettes
+54	4954	configuration	configuration configurations
+55	4955	rébellion	rébellion rebellion rébellions
+56	4956	limoger	limoges limogé limoger limoge
+57	4957	multitude	multitude multitudes
+58	4958	corrompu	corrompu corrompus corrompue corrompues
+59	4959	thérapeutique	thérapeutique thérapeutiques
+60	4960	drap	draps drap
+61	4961	égo	ego égo égos
+62	4962	perturber	perturber perturbe perturbant perturbent perturbait perturbante perturbera perturberait perturbantes perturbants perturbez perturba perturbaient perturbes
+63	4963	barreau	barreau barreaux
+64	4964	récupération	récupération récupérations
+65	4965	lambert	lambert lamberts
+66	4966	orphelin	orphelins orphelin orpheline orphelines
+67	4967	renard	renard renards renarde renardeau renardeaux
+68	4968	bidon	bidon bidons
+69	4969	pistolet	pistolet pistolets
+70	4970	approbation	approbation approbations
+71	4971	cheminée	cheminée cheminées
+72	4972	aigle	aigle aigles
+73	4973	indigène	indigènes indigène
+74	4974	poupée	poupée poupées
+75	4975	anglophone	anglophone anglophones
+76	4976	performant	performant performants performante performantes
+77	4977	généralisé	généralisée généralisé généralisées généralisés
+78	4978	embêter	embêter embête embêtant embêté embêtent embêtés embêtée embêtes embêtait embêterait embêtante embêtez embêtants embêtera
+79	4979	cookie	cookies cookie
+80	4980	tumeur	tumeur tumeurs
+81	4981	conférer	confère conférer confèrent conférant conféré conférait conféra conférera conféraient conférerait
+82	4982	5e	5e
+83	4983	ba	ba
+84	4984	buzz	buzz
+85	4985	innocence	innocence
+86	4986	manifestement	manifestement
+87	4987	palmarès	palmarès
+88	4988	bienvenu	bienvenu bienvenus bienvenues
+89	4989	humble	humble humbles
+90	4990	trajectoire	trajectoire trajectoires
+91	4991	avortement	avortement avortements
+92	4992	driver	drive driver drivers drives drivé
+93	4993	nettoyage	nettoyage nettoyages
+94	4994	prairie	prairies prairie
+95	4995	corporel	corporelle corporel corporels corporelles
+96	4996	encadrement	encadrement encadrements
+97	4997	repenser	repenser repense repensé repensant repensez repenses repensais repensa repensent repensait repensera repensons repenseras
+98	4998	armement	armement armements
+99	4999	versement	versement versements
+100	5000	sanctuaire	sanctuaire sanctuaires

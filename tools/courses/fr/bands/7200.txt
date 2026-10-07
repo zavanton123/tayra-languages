@@ -1,0 +1,100 @@
+1	7101	équateur	équateur equateur équateurs
+2	7102	ghetto	ghetto ghettos
+3	7103	grandiose	grandiose grandioses
+4	7104	pragmatique	pragmatique pragmatiques
+5	7105	patriotique	patriotique patriotiques
+6	7106	bordelais	bordelais bordelaise bordelaises
+7	7107	manoeuvre	manoeuvre manoeuvres
+8	7108	podcast	podcast podcasts
+9	7109	mosaïque	mosaïque mosaïques
+10	7110	clarifier	clarifier clarifié clarifie clarifiant clarifient clarifions clarifiera clarifiez
+11	7111	dynamisme	dynamisme dynamismes
+12	7112	drague	drague dragues
+13	7113	répercussion	répercussions répercussion
+14	7114	fable	fable fables
+15	7115	frange	frange franges
+16	7116	carence	carence carences
+17	7117	malter	malte malta malté
+18	7118	larve	larves larve
+19	7119	allergie	allergie allergies
+20	7120	excitation	excitation excitations
+21	7121	finlandais	finlandais finlandaise finlandaises
+22	7122	perche	perche perches
+23	7123	étirer	étire étirer étiré étirant étirent étirée étirés étira étirait étirées étirez étiraient
+24	7124	plâtre	plâtre plâtres
+25	7125	locatif	locatif locative locatifs locatives
+26	7126	encourir	encours encourus encourt encourir encourent encouru encourait encoure encouraient encourra encourrait encourez encourant
+27	7127	8e	8e
+28	7128	amas	amas
+29	7129	corpus	corpus
+30	7130	engrais	engrais
+31	7131	fiabilité	fiabilité
+32	7132	karma	karma
+33	7133	logis	logis
+34	7134	mentalement	mentalement
+35	7135	panama	panama
+36	7136	pureté	pureté
+37	7137	spencer	spencer
+38	7138	unitaire	unitaire unitaires
+39	7139	commémoration	commémoration commémorations
+40	7140	contentieux	contentieux contentieuse contentieuses
+41	7141	environnant	environnantes environnants environnant environnante
+42	7142	tonneau	tonneau tonneaux
+43	7143	dépressif	dépressif dépressive dépressifs dépressives
+44	7144	vacciner	vacciner vaccinés vacciné vaccine vaccinée vaccinées vaccines vaccinent
+45	7145	sémantique	sémantique sémantiques
+46	7146	merdique	merdique merdiques
+47	7147	superviser	superviser supervisé supervise supervisait supervisent supervisant supervisera supervisez
+48	7148	clore	clore clôt close closes
+49	7149	neurone	neurones neurone
+50	7150	facial	faciale facial faciales faciaux
+51	7151	recouvrer	recouvre recouvrer recouvré recouvrent recouvrant recouvrait recouvra recouvraient recouvrez recouvrera
+52	7152	commando	commando commandos
+53	7153	dissiper	dissiper dissipe dissipé dissipée dissipés dissipent dissipées dissipera dissipant dissipa dissiperont dissipait
+54	7154	affilé	affilée affilé affilés affilées
+55	7155	recréer	recréer recrée recréé recréant recréent recréait
+56	7156	tweeter	tweeté tweeter tweete tweetait tweetent tweetant tweeters tweetez
+57	7157	croate	croate croates
+58	7158	rétro	rétro rétros
+59	7159	redoubler	redoubler redoublé redouble redoublent redoublant redoublants redoublez redoubla redoublait redoublaient redoublons redoubles redoublera
+60	7160	soft	soft softs
+61	7161	crevette	crevettes crevette
+62	7162	huissier	huissier huissiers
+63	7163	poussin	poussin poussins
+64	7164	manette	manette manettes
+65	7165	prône	prône prônes
+66	7166	renouer	renouer renoue renoué renouant renouent renouait renouera renoua
+67	7167	chrono	chrono chronos
+68	7168	trésorier	trésorier trésorière trésoriers
+69	7169	souplesse	souplesse souplesses
+70	7170	millimètre	millimètres millimètre
+71	7171	cartier	cartier cartiers
+72	7172	scorpion	scorpion scorpions
+73	7173	écolo	écolo écolos
+74	7174	centriste	centriste centristes
+75	7175	condé	condé condés
+76	7176	booster	booster boosté boosters booste boostez boostent boostant boostera
+77	7177	yaourt	yaourt yaourts
+78	7178	manier	manier mania maniant manient manié manies maniait maniez maniera
+79	7179	obsédé	obsédé obsédés obsédée obsédées
+80	7180	mercato	mercato mercatos
+81	7181	braquage	braquage braquages
+82	7182	réactif	réactif réactifs réactive réactives
+83	7183	émancipation	émancipation émancipations
+84	7184	esquiver	esquiver esquive esquivé esquives esquivant esquiva esquivent esquivait esquivez
+85	7185	narration	narration narrations
+86	7186	berge	berges berge
+87	7187	poney	poney poneys
+88	7188	poire	poire poires
+89	7189	anse	anse anses
+90	7190	accidentel	accidentelle accidentel accidentelles accidentels
+91	7191	trésorerie	trésorerie trésoreries
+92	7192	bruxellois	bruxellois bruxelloise bruxelloises
+93	7193	brandir	brandir brandi brandissant brandit brandis brandissent brandissait brandissaient brandissez
+94	7194	prose	prose proses
+95	7195	soulèvement	soulèvement soulèvements
+96	7196	triplé	triplé triplés triplée triplées
+97	7197	patriarche	patriarche patriarches
+98	7198	batteur	batteur batteurs batteuse batteuses
+99	7199	formateur	formateur formateurs formatrice formatrices
+100	7200	allergique	allergique allergiques

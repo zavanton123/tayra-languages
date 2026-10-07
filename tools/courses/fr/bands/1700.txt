@@ -1,0 +1,100 @@
+1	1601	cancer	cancer cancers
+2	1602	féminin	féminin féminine féminines féminins
+3	1603	sec	sec sèche secs sèches
+4	1604	glace	glace glaces
+5	1605	socialiste	socialiste socialistes
+6	1606	appartement	appartement appartements apartement
+7	1607	courir	courir couru courent courait courez couraient courut courrez courrait courus courra courais coure courons courrais courraient courront courrai courrons coururent courions coures couriez
+8	1608	salarié	salariés salarié salariée salariées
+9	1609	mille	mille milles
+10	1610	bibliothèque	bibliothèque bibliothèques biblio
+11	1611	annuel	annuel annuelle annuels annuelles
+12	1612	race	race races
+13	1613	joie	joie joies
+14	1614	nucléaire	nucléaire nucléaires nbc
+15	1615	chute	chute chutes
+16	1616	profit	profit profits
+17	1617	séparer	séparer sépare séparé séparent séparant séparait séparaient séparera séparez sépara séparons séparèrent sépareront sépares séparerait séparerons séparions sépareraient séparerai
+18	1618	adulte	adultes adulte
+19	1619	pointe	pointe pointes
+20	1620	trou	trou trous
+21	1621	catholique	catholique catholiques
+22	1622	certes	certes
+23	1623	palais	palais
+24	1624	principalement	principalement
+25	1625	récemment	récemment
+26	1626	statistiques	statistiques
+27	1627	sûrement	sûrement
+28	1628	engagement	engagement engagements
+29	1629	abandonner	abandonner abandonne abandonnent abandonnant abandonna abandonnera abandonnes abandonnez abandonnait abandonnons abandonnerait abandonnerai abandonnèrent abandonneront abandonnerons abandonnaient abandonnerais abandonnais abandonneras abandonneraient abandonnerez abandonnions abandonniez
+30	1630	quantité	quantité quantités
+31	1631	agricole	agricole agricoles
+32	1632	estimer	estimé estimer estiment estimant estimait estimez estimons estimaient estima estimais estimera estimèrent estimes estimerait estimeront estimerais estimerai estimions estimeraient estimiez
+33	1633	conduit	conduit conduits
+34	1634	cesser	cessé cesser cessez cessent cessera cessa cessait cessons cessions cesseront cessant cesserai cesserait cessèrent cessaient cesses cesserons cesseraient cessais cesserez cesseras cesserais cessantes cessiez
+35	1635	inutile	inutile inutiles
+36	1636	primaire	primaire primaires
+37	1637	spécialiste	spécialiste spécialistes
+38	1638	résoudre	résoudre résolu résout résolus résolue résoudra résolues résolvent résous résolut résoudrait résolvant résolve résolvez résoudront résolvait résolurent résolvons résoudrons résoudrai résolvaient
+39	1639	domicile	domicile domiciles
+40	1640	familial	familiale familial familiales familiaux
+41	1641	prévoir	prévoit prévoir prévoyait prévoyant prévoient prévois prévoyez prévoyaient prévoyons prévoie prévoyais prévoyants prévoyante prévoira prévoirait prévoyions prévoyantes prévit
+42	1642	mine	mine mines
+43	1643	option	option options
+44	1644	longueur	longueur longueurs
+45	1645	âgé	âgé âgées âgée âgés
+46	1646	alcool	alcool alcools alcohol
+47	1647	étendre	étend étendre étendu étendant étendent étendait étendus étendues étendra étendit étende étendaient étends étendrait étendez étendront étendirent étendrai étendons étendrons étendrais
+48	1648	nu	nu nue nus nues
+49	1649	rapporter	rapporte rapporter rapportent rapportant rapportait rapportera rapporta rapporterait rapportaient rapportez rapporteront rapporterai rapportes rapportèrent rapportons rapporteraient rapportais raporte rapporterais rapportions
+50	1650	assis	assis assise assises
+51	1651	confier	confié confier confie confiant confiante confia confiait confient confiants confiez confiera confions confiantes confies confiaient confierait confierai confièrent confierais confieront confiais
+52	1652	télévision	télévision télévisions
+53	1653	inférieur	inférieur inférieure inférieurs inférieures
+54	1654	travailleur	travailleurs travailleur travailleuses travailleuse
+55	1655	marié	marié mariée mariés mariées
+56	1656	compliqué	compliqué compliquée compliquées compliqués
+57	1657	extrait	extrait extraits extraite extraites
+58	1658	réflexion	réflexion réflexions
+59	1659	claude	claude
+60	1660	concevoir	conçu concevoir conçus conçoit conçois conçoivent conçut concevant concevons concevez concevait concevra conçurent concevaient conçoive concevais
+61	1661	pain	pain pains
+62	1662	van	van vans
+63	1663	aéroport	aéroport aéroports
+64	1664	description	description descriptions
+65	1665	facteur	facteurs facteur factrice
+66	1666	minimum	minimum minima minimums
+67	1667	hasard	hasard hazard hasards
+68	1668	lier	lié lier liant lions lia lient liasse lies liasses liait liez liants liera lias liaient lierait liais liante lièrent lieront liantes
+69	1669	barre	barre barres
+70	1670	manifester	manifestants manifester manifestent manifesté manifestant manifestée manifestaient manifestait manifestés manifestante manifestes manifesta manifestées manifestera manifestez manifesteront manifestons manifestantes manifestèrent manifesterait manifestions manifesteraient manifestais
+71	1671	dizaine	dizaines dizaine
+72	1672	gare	gare gares
+73	1673	exception	exception exceptions
+74	1674	modifier	modifier modifié modifie modifiant modifient modifia modifiera modifiait modifiez modifierait modifieront modifions modifièrent modifies modifiaient modifieraient modifierai
+75	1675	taxe	taxe taxes
+76	1676	disparaître	disparaître disparaît disparaissent disparus disparaisse disparut disparaîtra disparaissait disparaîtront disparurent disparais disparaissant disparaissaient disparaîtrait disparaîtraient disparaissez disparaissais disparût
+77	1677	supplémentaire	supplémentaires supplémentaire supp
+78	1678	initiative	initiative initiatives
+79	1679	excuse	excuse excuses
+80	1680	indépendance	indépendance indépendances
+81	1681	quatrième	quatrième quatrièmes
+82	1682	central	central centrales centraux
+83	1683	patrimoine	patrimoine patrimoines
+84	1684	conversation	conversation conversations
+85	1685	regretter	regrette regretter regretté regrettent regrettait regrettera regrettes regrettant regretteras regrettons regrettez regretterez regretterai regrettée regretteront regretterais regrettais regretterait regretta regrettaient regrettés regretterons
+86	1686	soumis	soumis soumise soumises
+87	1687	consulter	consulter consulté consultant consultants consulte consultez consultante consultent consultes consultait consulta consultera consultons consultais consultaient consulterai consultantes consulterait consulteront
+88	1688	exiger	exige exiger exigeant exigent exigé exigeante exigeait exigeants exigeons exigeantes exigera exigeaient exigez exigerait exigea exigeront exiges exigèrent exigeraient exigerai exigerons exigerez exigerais
+89	1689	oser	ose oser osent osez oses oserait oserais osais osait osera osons osa oserai osant osaient oseront oseraient oserez oseriez oseras osèrent osiez osai oserons osions oserions
+90	1690	démontrer	démontrer démontré démontre démontrent démontrant démontrait démontra démontrera démontraient démontrerait démontrez démontrons démontreront démontrèrent démontreraient démontrerai démontrerons démontres
+91	1691	attente	attente attentes
+92	1692	auto	auto autos
+93	1693	utilisateur	utilisateurs utilisateur utilisatrice utilisatrices
+94	1694	convenir	convient convenu convenir conviennent convenait conviendra conviendrait conviens convienne convenant conviendrez convenaient convenez convenons conviendront conviendraient convint convinrent conviendras conviendrai conviendrons conviendrais
+95	1695	rêver	rêver rêvé rêves rêvent rêvait rêvez rêvais rêvée rêvant rêvons rêvaient rêverait rêviez rêverais rêvées rêvés rêveraient rêvions rêverai rêva rêvasse rêvera
+96	1696	consacré	consacré consacrée consacrés consacrées
+97	1697	bordeaux	bordeaux
+98	1698	fortement	fortement
+99	1699	japon	japon
+100	1700	justement	justement

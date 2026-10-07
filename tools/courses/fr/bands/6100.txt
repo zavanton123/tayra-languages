@@ -1,0 +1,100 @@
+1	6001	constance	constance constances
+2	6002	ferry	ferry ferries ferrys
+3	6003	frite	frites frite
+4	6004	homogène	homogène homogènes
+5	6005	fabien	fabien fabienne
+6	6006	faction	faction factions
+7	6007	tonnerre	tonnerre tonnerres
+8	6008	bousculer	bousculer bouscule bousculé bousculent bousculant bousculaient bousculait bousculez bouscula bousculera bousculeront
+9	6009	incarné	incarné incarnée incarnés incarnées
+10	6010	objection	objection objections
+11	6011	concéder	concède concédé concéder concédant concèdent concédait concéda concédons concédera
+12	6012	land	land länder lands
+13	6013	rapporteur	rapporteur rapporteurs rapporteure rapporteuse
+14	6014	4ème	4ème
+15	6015	antisémitisme	antisémitisme
+16	6016	archéologie	archéologie
+17	6017	commercialisation	commercialisation
+18	6018	justesse	justesse
+19	6019	massivement	massivement
+20	6020	mondialisation	mondialisation
+21	6021	sincérité	sincérité
+22	6022	soigneusement	soigneusement
+23	6023	énigme	énigme énigmes
+24	6024	surfer	surfer surfe surfant surfait surfent surfé surfaite surfez surfaits
+25	6025	apôtre	apôtres apôtre
+26	6026	nage	nage nages
+27	6027	dynastie	dynastie dynasties
+28	6028	intégral	intégral intégrales intégraux
+29	6029	flottant	flottant flottante flottants flottantes
+30	6030	associatif	associatif associative associatifs associatives
+31	6031	émouvant	émouvant émouvante émouvantes émouvants
+32	6032	passerelle	passerelle passerelles
+33	6033	querelle	querelle querelles
+34	6034	convocation	convocation convocations
+35	6035	renfermer	renferme renferment renfermé renfermant renfermer renfermait renfermaient renfermerait
+36	6036	préventif	préventive préventif préventives préventifs
+37	6037	conformer	conformer conformes conforment conformant conformé conformera conformez conformait conformerait conformons
+38	6038	indignation	indignation indignations
+39	6039	limousin	limousin limousine limousines limousins
+40	6040	braquer	braquer braque braqué braquent braquant braques braquait braquez braqua braquera
+41	6041	splendide	splendide splendides
+42	6042	chaleureux	chaleureux chaleureuse chaleureuses
+43	6043	siffler	siffler siffle sifflé sifflent sifflant sifflait sifflante sifflera sifflaient sifflez siffla siffles sifflantes
+44	6044	décalé	décalé décalée décalés décalées
+45	6045	prolongement	prolongement prolongements
+46	6046	irakien	irakien irakiens irakienne irakiennes iraquien
+47	6047	cortège	cortège cortèges
+48	6048	songe	songe songes
+49	6049	sultan	sultan sultans sultane sultanes
+50	6050	caricature	caricature caricatures
+51	6051	rénover	rénové rénover rénove rénovant rénovent rénovons
+52	6052	prélever	prélever prélevé prélève prélèvent prélevant prélevez prélevait prélèvera prélevaient prélevons
+53	6053	appréhender	appréhender appréhende appréhendé appréhendent appréhendais appréhendait appréhendez appréhendant appréhendons appréhendaient
+54	6054	hébreu	hébreu hébreux
+55	6055	synthétique	synthétique synthétiques
+56	6056	chariot	chariot chariots
+57	6057	intérim	intérim intérims
+58	6058	géométrie	géométrie géométries
+59	6059	propagation	propagation propagations
+60	6060	renvoi	renvoi renvois
+61	6061	sociologue	sociologue sociologues
+62	6062	minime	minime minimes
+63	6063	tranchée	tranchée tranchées
+64	6064	verticale	verticale verticales
+65	6065	halte	halte haltes
+66	6066	clique	clique cliques
+67	6067	bruyant	bruyant bruyante bruyants bruyantes
+68	6068	insuffisance	insuffisance insuffisances
+69	6069	pesticide	pesticides pesticide
+70	6070	sire	sire sires
+71	6071	caoutchouc	caoutchouc caoutchoucs
+72	6072	fouet	fouet fouets
+73	6073	corner	corner cornes corners corné cornas cornés cornez cornées
+74	6074	photographier	photographier photographié photographies photographiant photographient photographiez photographiait photographia
+75	6075	gisement	gisements gisement
+76	6076	garant	garant garants garante garantes
+77	6077	pleur	pleurs pleur
+78	6078	cire	cire cires
+79	6079	delta	delta deltas
+80	6080	cohésion	cohésion
+81	6081	country	country
+82	6082	discrètement	discrètement
+83	6083	dépens	dépens
+84	6084	indifférence	indifférence
+85	6085	voltaire	voltaire
+86	6086	yes	yes
+87	6087	donation	donation donations
+88	6088	endommager	endommagé endommager endommage endommageant endommagent endommagerait
+89	6089	transit	transit transits
+90	6090	papi	papy papi papis
+91	6091	férié	fériés férié fériée
+92	6092	ôter	ôter ôte ôté ôtez ôtant ôta ôtera ôtent ôtait ôterait ôtes ôtons
+93	6093	monstrueux	monstrueux monstrueuse monstrueuses
+94	6094	dinosaure	dinosaures dinosaure
+95	6095	questionnaire	questionnaire questionnaires
+96	6096	orner	orné ornent orner ornant ornaient ornait orna ornera ornais orneront ornes
+97	6097	ail	ail ails aulx
+98	6098	notation	notation notations
+99	6099	éliminatoire	éliminatoires éliminatoire
+100	6100	dealer	dealer dealers dealent deale dealeuse dealait dealé

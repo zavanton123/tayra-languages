@@ -1,0 +1,100 @@
+1	7901	garni	garni garnie garnis garnies
+2	7902	mémorial	mémorial mémoriaux
+3	7903	folk	folk folks
+4	7904	ancre	ancre ancres
+5	7905	aspirateur	aspirateur aspirateurs
+6	7906	fervent	fervent fervents fervente ferventes
+7	7907	fret	fret frets
+8	7908	ruse	ruse ruses
+9	7909	cantonal	cantonales cantonal cantonale cantonaux
+10	7910	maigrir	maigrir maigri maigrit maigris maigrissent
+11	7911	strip	strip strips
+12	7912	hiérarchique	hiérarchique hiérarchiques
+13	7913	taupe	taupe taupes
+14	7914	ricain	ricains ricain ricaine ricaines
+15	7915	cognac	cognac cognacs
+16	7916	intestinal	intestinale intestinal intestinaux intestinales
+17	7917	façonner	façonné façonner façonne façonnent façonnant façonna façonnera façonneront façonnez
+18	7918	cartographie	cartographie cartographies
+19	7919	assortir	assorti assortis assortir assortit assortissant
+20	7920	croquer	croquer croquant croqué croquants croquante croquantes croquent croquez croques croquait croqua
+21	7921	évangélique	évangélique évangéliques
+22	7922	analogue	analogue analogues
+23	7923	chandelle	chandelle chandelles
+24	7924	plombier	plombier plombiers
+25	7925	ancestral	ancestrale ancestral ancestrales ancestraux
+26	7926	admirable	admirable admirables
+27	7927	répertorié	répertoriés répertorié répertoriées répertoriée
+28	7928	portique	portique portiques
+29	7929	succursale	succursale succursales
+30	7930	pensionnaire	pensionnaires pensionnaire
+31	7931	étrangler	étrangler étranglé étrangle étranglent étranglant étranglait étrangla
+32	7932	voirie	voirie voiries
+33	7933	héréditaire	héréditaire héréditaires
+34	7934	procession	procession processions
+35	7935	utilitaire	utilitaire utilitaires
+36	7936	roquette	roquettes roquette
+37	7937	digue	digue digues
+38	7938	pseudonyme	pseudonyme pseudonymes
+39	7939	spiritualité	spiritualité spiritualités
+40	7940	paumé	paumé paumée paumés paumées
+41	7941	terrien	terriens terrien terrienne terriennes
+42	7942	4x4	4x4
+43	7943	astronomie	astronomie
+44	7944	calcium	calcium
+45	7945	carole	carole
+46	7946	devis	devis
+47	7947	durablement	durablement
+48	7948	embarras	embarras
+49	7949	fièrement	fièrement
+50	7950	patriotisme	patriotisme
+51	7951	patronat	patronat
+52	7952	ravages	ravages
+53	7953	solidité	solidité
+54	7954	rétention	rétention rétentions
+55	7955	glycoprotéine	gp glycoprotéines glycoprotéine
+56	7956	bouchée	bouchée bouchées
+57	7957	clone	clone clones
+58	7958	exode	exode exodes
+59	7959	triangulaire	triangulaire triangulaires
+60	7960	ravitaillement	ravitaillement ravitaillements
+61	7961	brosser	brosser brossé brosses brossez brossant brossent brossait brossa brossais
+62	7962	incompétence	incompétence incompétences
+63	7963	couturier	couturier couturière couturiers couturières
+64	7964	collatéral	collatéraux collatéral collatérales collatérale
+65	7965	dépêcher	dépêcher dépêchez dépêché dépêches dépêcha dépêchent dépêchons dépêchant dépêchait
+66	7966	périple	périple périples
+67	7967	onéreux	onéreux onéreuse onéreuses
+68	7968	inversion	inversion inversions
+69	7969	purifier	purifier purifie purifié purifiée purifiés purifiant purifient purifiez purifiées purifiera
+70	7970	agroalimentaire	agroalimentaire agroalimentaires
+71	7971	décompte	décompte décomptes
+72	7972	corail	corail coraux
+73	7973	cambriolage	cambriolage cambriolages
+74	7974	bouddhiste	bouddhiste bouddhistes
+75	7975	trek	trek treks
+76	7976	gaspillage	gaspillage gaspillages
+77	7977	hémorragie	hémorragie hémorragies
+78	7978	feeling	feeling feelings
+79	7979	farmer	farmer farm farme farmé
+80	7980	paradoxal	paradoxal paradoxale paradoxales paradoxaux
+81	7981	érudit	érudit érudits érudite érudites
+82	7982	réapparaître	réapparaît réapparaître réapparu réapparaissent réapparaîtra réapparut réapparait réapparus réapparaisse réapparaîtront réapparaissait réapparais réapparaissant réapparurent
+83	7983	envier	envier envient envié enviez envies enviait enviais enviaient envieraient envieront envions
+84	7984	rançon	rançon rançons ranson
+85	7985	théologique	théologique théologiques
+86	7986	abrégé	abrégé abrégée abrégés abrégées
+87	7987	bled	bled bleds
+88	7988	métis	métis métisse métisses
+89	7989	loterie	loterie loteries
+90	7990	dosage	dosage dosages
+91	7991	holding	holding holdings
+92	7992	collégien	collégiens collégien collégienne
+93	7993	déverser	déverser déverse déversent déversé déversant déversait déversaient déversa
+94	7994	outrage	outrage outrages
+95	7995	bandeau	bandeau bandeaux
+96	7996	cynique	cynique cyniques
+97	7997	résigner	résigner résigné résigne résignés résignée résignent résigna résignées résignant résignait résignera
+98	7998	jeûne	jeûne jeûnes
+99	7999	raie	raie raies
+100	8000	empirer	empirer empiré empirent empirant empires empirait empirera empira

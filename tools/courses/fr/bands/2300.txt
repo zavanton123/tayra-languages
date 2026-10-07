@@ -1,0 +1,100 @@
+1	2201	destinée	destinée destinées
+2	2202	décret	décret décrets
+3	2203	volontaire	volontaire volontaires
+4	2204	surveiller	surveiller surveille surveillé surveillant surveillants surveillent surveillez surveillait surveillante surveillaient surveillera surveilles surveillons surveilleront surveillais surveillerait surveillerai surveilla surveillerons
+5	2205	déjeuner	déjeuner déjeuners déjeuné déjeune déjeunent déjeûner déjeunait déjeunes déjeunant déjeunons déjeunez déjeunais déjeunera déjeunaient déjeunions
+6	2206	tome	tome tomes tomme
+7	2207	contribution	contribution contributions
+8	2208	suggérer	suggère suggéré suggérer suggèrent suggérant suggérait suggéra suggères suggérez suggérons suggéraient suggérerait suggérais suggérera suggérerais suggérèrent
+9	2209	paysage	paysage paysages
+10	2210	instruction	instruction instructions
+11	2211	effectivement	effectivement
+12	2212	essentiellement	essentiellement
+13	2213	progrès	progrès
+14	2214	suffisamment	suffisamment
+15	2215	canon	canon canons
+16	2216	ridicule	ridicule ridicules
+17	2217	loup	loup loups louve louves
+18	2218	collaboration	collaboration collaborations
+19	2219	incendie	incendie incendies
+20	2220	essence	essence essences
+21	2221	désirer	désire désirez désiré désirer désirent désirant désirait désires désirons désirais désiraient désiriez désirerait désirerais désireraient désira désirions désirera désirerez désireront désirante
+22	2222	pêche	pêche pêches
+23	2223	commissaire	commissaire commissaires
+24	2224	publicité	publicité publicités
+25	2225	couler	couler coule coulé coulent coulant coulait coula coulera coulaient coulez coulante coulèrent coulants coulais coulerait couleront coules coulons
+26	2226	modification	modification modifications
+27	2227	interprétation	interprétation interprétations
+28	2228	jusque	jusque jusques
+29	2229	notion	notion notions
+30	2230	entraînement	entraînement entraînements
+31	2231	insister	insiste insisté insister insistant insistent insistait insistante insista insistez insistes insistons insistants insistaient insistera insistantes insisterai insistais insisterait insistèrent insisteront insisterons
+32	2232	exact	exact exacte exactes exacts
+33	2233	boutique	boutique boutiques
+34	2234	critiquer	critiquer critiqué critiques critiquent critiquant critiquait critiquez critiquaient critiquais critiqua critiquons critiquera critiqueront critiquerai
+35	2235	tonne	tonnes tonne
+36	2236	adresser	adresser adressé adressant adressent adressait adressez adresses adressa adressera adressons adressaient adressais adresserai adresserait adressèrent adresseront adresserons adresserez adressiez adresserais
+37	2237	cycle	cycle cycles
+38	2238	circonstance	circonstances circonstance
+39	2239	enjeu	enjeux enjeu
+40	2240	négociation	négociations négociation négo
+41	2241	bienvenue	bienvenue bienvenues
+42	2242	curieux	curieux curieuse curieuses
+43	2243	autorisation	autorisation autorisations
+44	2244	universitaire	universitaire universitaires
+45	2245	frappé	frappé frappée frappés frappées
+46	2246	communiste	communiste communistes
+47	2247	accomplir	accomplir accompli accomplie accomplit accomplis accomplies accomplissent accomplissant accomplira accomplisse accomplissez accomplissait accomplissons accompliront accomplissaient accomplirez accomplirent accomplirait accomplirai accomplirons
+48	2248	cri	cris cri crie cries
+49	2249	cesse	cesse
+50	2250	douze	douze
+51	2251	ha	ha
+52	2252	normalement	normalement
+53	2253	san	san
+54	2254	arrondissement	arrondissement arrondissements arr
+55	2255	nécessité	nécessité nécessités nécessitée nécessitées
+56	2256	axe	axe axes
+57	2257	égard	égard égards
+58	2258	sucre	sucre sucres
+59	2259	francophone	francophone francophones
+60	2260	lot	lot lots
+61	2261	ballon	ballon ballons
+62	2262	rentrée	rentrée rentrées
+63	2263	gris	gris grise grises
+64	2264	hypothèse	hypothèse hypothèses
+65	2265	turc	turc turcs turque turques
+66	2266	affronter	affronter affrontent affronte affronté affrontera affronteront affrontant affrontez affrontaient affrontait affrontons affronta affrontèrent affrontes affronterons affronterait affrontais affronterai affronterez affronteraient
+67	2267	éliminer	éliminer éliminé élimine éliminant éliminent éliminez éliminera éliminerait éliminait éliminons élimina élimines élimineront élimineraient
+68	2268	bombe	bombe bombes
+69	2269	pomme	pomme pommes
+70	2270	armé	armé armés armées
+71	2271	mécanique	mécanique mécaniques
+72	2272	observation	observation observations
+73	2273	gouverneur	gouverneur gouverneurs gouverneure
+74	2274	créateur	créateur créateurs créatrice créatrices
+75	2275	rassembler	rassembler rassemble rassemblé rassemblent rassemblant rassemblez rassemblait rassembla rassemblera rassemblaient rassemblons rassemblèrent rassembleront rassemblerait rassembles rassemblerons rassemblerai
+76	2276	roue	roues roue
+77	2277	exemplaire	exemplaires exemplaire
+78	2278	multiple	multiples multiple
+79	2279	consommateur	consommateurs consommateur consommatrice consommatrices
+80	2280	attaché	attaché attachée attachés attachées
+81	2281	voyager	voyager voyagé voyages voyagent voyageant voyagez voyageait voyageaient voyagea voyagera voyageons voyageais voyageront voyagerait voyagerai voyagerez voyagiez voyagèrent voyagerons voyagerais voyagions
+82	2282	colonel	colonel colonels colonelle
+83	2283	algérien	algérien algériens algérienne algériennes
+84	2284	enfer	enfer enfers
+85	2285	exploiter	exploiter exploitant exploite exploité exploitants exploitent exploitait exploitaient exploitera exploitez exploitante exploita exploitons exploites exploiteront exploiterait exploitantes exploitèrent
+86	2286	appui	appui appuis
+87	2287	garantie	garantie garanties
+88	2288	pause	pause pauses
+89	2289	amélioration	amélioration améliorations
+90	2290	habiller	habiller habillé habille habillée habillés habillent habillées habilles habillez habillait habillant habillaient habillais habillera habilla habillerai habillons habillerais habilleront habillerait
+91	2291	précieux	précieux précieuse précieuses
+92	2292	dialogue	dialogue dialogues
+93	2293	consommer	consommer consommé consomme consomment consommée consommés consommées consommant consommait consommez consommons consommaient consommera consommes consommerait consommeront consommais consommeraient consomma
+94	2294	rejeter	rejeté rejeter rejette rejettent rejetant rejetons rejetait rejeta rejetez rejettes rejettera rejetaient rejetterait rejetèrent rejetteront rejetteraient rejetais
+95	2295	diffusion	diffusion diffusions
+96	2296	éditeur	éditeur éditeurs éditrice
+97	2297	mensonge	mensonge mensonges
+98	2298	aborder	aborder aborde abordé abordent abordant abordons abordera abordait abordez aborderons aborda aborderont abordaient abordes aborderai abordais aborderait abordèrent abordions
+99	2299	prononcer	prononcer prononce prononcent prononçant prononça prononcera prononçait prononcez prononces prononcerai prononcerait prononçaient prononceront prononçais prononçons prononcèrent prononceraient
+100	2300	affecter	affecté affecte affecter affectent affectant affections affectera affectait affecterait affecta affecteront affectaient affecteraient affectez affectèrent

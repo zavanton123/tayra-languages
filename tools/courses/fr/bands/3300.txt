@@ -1,0 +1,100 @@
+1	3201	féliciter	féliciter félicite félicité félicitent félicitons félicitant félicités félicitait félicitée félicita félicitez félicitaient félicitera féliciteront félicites félicitions
+2	3202	planche	planche planches
+3	3203	pompe	pompe pompes
+4	3204	revendiquer	revendique revendiquer revendiqué revendiquent revendiquant revendiquée revendiquait revendiqués revendiquées revendiquaient revendiquons revendiqua revendiquez revendiquera revendiques revendiquerait revendiquèrent
+5	3205	der	der ders
+6	3206	conviction	conviction convictions
+7	3207	fibre	fibre fibres
+8	3208	milan	milan milans
+9	3209	quête	quête quêtes
+10	3210	case	case cases
+11	3211	scrutin	scrutin scrutins
+12	3212	racheter	racheter racheté rachète rachetant rachètent rachètera racheta rachetait rachètes rachetez rachèterai rachèterait rachetèrent rachetons
+13	3213	régulière	régulière régulières
+14	3214	circonscription	circonscription circonscriptions circo
+15	3215	inciter	inciter incite incité incitent incitant incitait incitera incita inciterait incitaient incitez inciteront incitons incitèrent incites inciteraient incitants
+16	3216	bouffe	bouffe bouffes bouf
+17	3217	guère	guère
+18	3218	jusqu'ici	jusqu'ici
+19	3219	tennis	tennis
+20	3220	fabricant	fabricant fabricants fabricante
+21	3221	dédier	dédié dédie dédier dédia dédiant dédient dédions dédiera dédiait dédiez
+22	3222	déménager	déménager déménagé déménage déménagent déménages déménagez déménageant déménagera déménageait déménagea déménageaient déménageront déménagèrent déménageais déménagerait déménageons
+23	3223	optique	optique optiques
+24	3224	pénétrer	pénétrer pénètre pénétré pénètrent pénétrant pénétrante pénétra pénétrait pénétrez pénétrèrent pénétrons pénétrantes pénétraient pénétrants pénétrera pénètres
+25	3225	prévention	prévention préventions
+26	3226	avérer	avère avérer avèrent avérait avéra avérera avérant avéraient avèrera avérerait avéreront avérèrent avèreront avéreraient avèrerait
+27	3227	jaloux	jaloux jalouse jalouses
+28	3228	surprendre	surprendre surprend surprends surprennent surprendra surprit surprendrait surprenez surprenne surprenait surprendront surprendrais surprirent surprenais surprenons
+29	3229	mâle	mâle mâles
+30	3230	subvention	subventions subvention
+31	3231	rétablir	rétablir rétabli rétablit rétablis rétablissant rétablissent rétablisse rétablira rétablissez rétablissons rétablissait rétablirait rétablirai rétablirons rétablirent rétabliront
+32	3232	ralentir	ralentir ralenti ralentit ralentis ralentie ralentissent ralentissant ralentissez ralentisse ralentissait ralentira ralenties ralentirait ralentissaient ralentiront ralentirent
+33	3233	douceur	douceur douceurs
+34	3234	moulin	moulin moulins
+35	3235	fontaine	fontaine fontaines
+36	3236	tien	tien tiens tienne tiennes
+37	3237	prétexte	prétexte prétextes
+38	3238	intime	intime intimes
+39	3239	abuser	abuser abusé abuse abusent abusez abuses abusant abusait abusons abusaient abusera abuserai abuseront abusais abuserait
+40	3240	croyance	croyances croyance
+41	3241	dégât	dégâts dégât
+42	3242	plafond	plafond plafonds
+43	3243	végétal	végétaux végétale végétal végétales
+44	3244	charbon	charbon charbons
+45	3245	minorité	minorité minorités
+46	3246	fournisseur	fournisseurs fournisseur fournisseuse
+47	3247	temporaire	temporaire temporaires
+48	3248	surprenant	surprenant surprenante surprenantes surprenants
+49	3249	piano	piano pianos
+50	3250	conquête	conquête conquêtes
+51	3251	artificiel	artificielle artificiel artificiels artificielles
+52	3252	arrestation	arrestation arrestations
+53	3253	mystérieux	mystérieux mystérieuse mystérieuses
+54	3254	inclus	inclus incluse incluses inclu
+55	3255	technologique	technologique technologiques
+56	3256	bail	bail baux bails
+57	3257	nouveauté	nouveauté nouveautés
+58	3258	rattraper	rattraper rattrape rattrapé rattrapent rattrapera rattrapa rattrapait rattraperai rattrapant rattrapes rattraperont rattrapez rattraperais rattrapons rattraperas rattraperait
+59	3259	précédemment	précédemment
+60	3260	tapis	tapis
+61	3261	gêne	gêne gênes
+62	3262	décisif	décisive décisif décisives décisifs
+63	3263	privilégié	privilégié privilégiés privilégiée privilégiées
+64	3264	serré	serré serrée serrés serrées
+65	3265	lapin	lapin lapins lapine
+66	3266	collaborateur	collaborateurs collaborateur collaboratrice
+67	3267	clos	clos close closes
+68	3268	fonder	fonder fonde fonda fondent fondant fondèrent fondait fondera fondante fondants fondaient fondez fonderont fondantes fondes fondons fonderait fondais
+69	3269	syrien	syrien syriens syrienne syriennes
+70	3270	veste	veste vestes
+71	3271	attacher	attacher attachant attachent attaches attachez attachante attachants attachons attachait attacha attachera attachantes attachaient attacherai attacheront attachais attachèrent attacherait attacherons attacherais
+72	3272	condamnation	condamnation condamnations
+73	3273	manuscrit	manuscrit manuscrits manuscrite manuscrites
+74	3274	bulle	bulle bulles
+75	3275	programmation	programmation prog programmations
+76	3276	avertir	averti avertir avertis avertit avertissant avertissent avertissait avertira avertisse avertissez avertissons avertirai avertissaient
+77	3277	délégation	délégation délégations
+78	3278	parking	parking parkings
+79	3279	antenne	antenne antennes
+80	3280	lancée	lancée lancées
+81	3281	tabac	tabac tabacs
+82	3282	enrichir	enrichir enrichi enrichit enrichissant enrichissent enrichis enrichissante enrichissantes enrichira enrichissants enrichissez enrichiront enrichisse enrichissait enrichissaient enrichirent enrichirait enrichissons
+83	3283	terrestre	terrestre terrestres
+84	3284	doublé	doublé doublée doublés doublées
+85	3285	décrocher	décroche décrocher décroché décrochent décrochant décrocha décrochez décrochera décroches décrochait décrocherais décrocheront décrocherai décrocherait
+86	3286	nerveux	nerveux nerveuse nerveuses
+87	3287	ivoire	ivoire ivoires
+88	3288	romantique	romantique romantiques
+89	3289	lorrain	lorraine lorrain lorrains lorraines
+90	3290	pollution	pollution pollutions
+91	3291	dictionnaire	dictionnaire dictionnaires
+92	3292	contester	contester conteste contesté contestent contestant contestait contestera contestaient contestez contestons contesta contesterait contestes contesteront contestèrent
+93	3293	solde	solde soldes
+94	3294	trône	trône trônes
+95	3295	minuit	minuit minuits
+96	3296	embarquer	embarquer embarque embarqué embarquent embarquez embarquant embarqua embarques embarquait embarquera embarquons embarquaient embarquèrent embarqueront embarquais embarquerait embarquerai
+97	3297	félicitation	félicitations félicitation
+98	3298	diplomatique	diplomatique diplomatiques
+99	3299	conquérir	conquérir conquis conquérant conquérants conquiert conquérante conquit conquièrent conquérantes conquirent
+100	3300	alsace	alsace

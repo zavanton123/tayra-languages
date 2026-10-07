@@ -1,0 +1,100 @@
+1	201	société	société sociétés
+2	202	tenir	tenir tient tiens tenu tiennent tenant tenait tienne tiendra tenez tenais tenons tenaient tenants tiendrait tiendront tint tiennes tiendrai tenante tiendrais tiendrons tenions tiendraient tiendras tiendrez tinrent teniez tins tenantes tînt
+3	203	problème	problème problèmes pb problême
+4	204	perdre	perdu perdre perd perdue perds perdent perdus perdant perdues perdez perde perdants perdait perdra perdit perdrait perdons perdante perdront perdaient perdais perdirent perdraient perdrais perdrez perdras perdrai perdes perdions perdrons perdiez perdis perdrions perdriez
+5	205	gros	gros grosse grosses
+6	206	haut	haut haute hauts hautes
+7	207	fille	fille filles
+8	208	besoin	besoin besoins
+9	209	côté	côté côtés
+10	210	eux	eux
+11	211	lors	lors
+12	212	tête	tête têtes teste
+13	213	effet	effet effets
+14	214	demander	demander demandé demandent demandant demandez demandes demandait demandais demandons demandée demanda demandera demandés demandaient demandées demanderait demanderai demanderais demanderont demandèrent demanderons demanderez demandiez demandions demandai demanderaient demanderas demanderiez demanderions
+15	215	équipe	équipe équipes
+16	216	ami	amis ami amie amies amille
+17	217	selon	selon
+18	218	revenir	revenir revient revenu revenus reviens reviennent reviendra revenue revenant revienne revenait revenons reviendrait reviendrai revint revenez reviendrons reviendront revenaient revenues reviendrais revenais revenants reviendras reviennes revinrent reviendrez reviendraient revenions revenante reveniez revins reviendrions
+19	219	fort	fort forte fortes forts
+20	220	lequel	laquelle lequel lesquels lesquelles lesquelz
+21	221	site	site sites
+22	222	long	long longue longues longs
+23	223	demande	demande demandes
+24	224	article	article articles
+25	225	appeler	appelle appelé appeler appellent appelait appelez appelles appelant appelons appelaient appellera appeller appela appellerait appelais appellerai appellerais appelleront appellerons appelèrent appelants appeliez appelions appelleraient appelleras appelante appellerez appelai appellerions appelleriez
+26	226	social	social sociale sociaux sociales
+27	227	tant	tant
+28	228	ancien	ancien ancienne anciens anciennes
+29	229	suite	suite suites
+30	230	idée	idée idées
+31	231	genre	genre genres
+32	232	porte	porte portes
+33	233	loi	loi lois
+34	234	maintenant	maintenant mtn
+35	235	important	important importante importants importantes
+36	236	tel	tel telle tels telles
+37	237	ouvrir	ouvert ouvrir ouvre ouverte ouverts ouvertes ouvrent ouvrant ouvrez ouvrira ouvrit ouvres ouvrait ouvrons ouvriront ouvrirait ouvraient ouvrirent ouvrais ouvrirai ouvris ouvrirons ouvriraient ouvrirais ouvrants ouvriras ouvrirez ouvrante ouvriez ouvrions ouvrantes
+38	238	porter	porter porté portant portée portent portait portes portés portées portera portaient portez portions porta porterait porteront portons portais porterai portante portèrent porteraient porterais portants porterez porterons portiez porteras portas portantes portai portât porteriez
+39	239	changer	changer change changé changent changera changes changeant changez changerait changeait changeront changea changerai changeons changerais changeante changeras changeantes changeaient changeants changeraient changeais changèrent changerons changerez changeriez changiez changions changeai
+40	240	eau	eau eaux
+41	241	projet	projet projets
+42	242	soir	soir soirs sis sise sied séant sises seyant seyante siéent siérait
+43	243	national	nationale national nationales nationaux
+44	244	chercher	chercher cherche cherché cherchent cherchez cherchant cherches cherchait cherchais cherchons cherchaient cherchera chercha chercherait chercheront cherchiez chercherai cherchions chercherais chercheraient cherchèrent chercherons cherchai chercherez chercheriez chercheras
+45	245	assez	assez
+46	246	main	main mains
+47	247	ligne	ligne lignes
+48	248	affaire	affaires affaire
+49	249	sens	sens
+50	250	film	film films
+51	251	rapport	rapport rapports
+52	252	rester	rester restent resté restera restant restait restez resta resteront restons restes resterait restants restaient resterai restantes restèrent resteras restante restais resteraient resterons resterais resterez restions restiez restai restât resterions restâmes resteriez
+53	253	mot	mot mots
+54	254	devant	devant devants
+55	255	produit	produit produits produite produites
+56	256	ailleurs	ailleurs
+57	257	souvent	souvent
+58	258	nombre	nombre nombres
+59	259	entreprise	entreprise entreprises
+60	260	agir	agit agir agissait agissant agi agisse agissent agirait agira agis agissez agissons agissaient agît agiront agissante agirons agiraient agirai agissais agirez agissions agissantes agirais agirent agissiez agiras
+61	261	jusqu'à	jusqu'à
+62	262	ni	ni
+63	263	surtout	surtout
+64	264	mère	mère mères
+65	265	différent	différents différentes différent différente différens
+66	266	ensemble	ensemble ensembles enssemble
+67	267	système	système systèmes
+68	268	enfin	enfin
+69	269	seulement	seulement
+70	270	conseil	conseil conseils
+71	271	niveau	niveau niveaux niv
+72	272	président	président présidente présidents
+73	273	bas	bas basse basses
+74	274	retrouver	retrouver retrouve retrouvé retrouvent retrouvez retrouvera retrouvons retrouves retrouvait retrouva retrouvant retrouveront retrouverait retrouverez retrouvaient retrouvais retrouverons retrouverai retrouveras retrouvèrent retrouveraient retrouverais retrouvions retrouvai retrouviez retrouverions retrouvâmes
+75	275	père	père pères
+76	276	gagner	gagner gagné gagne gagnant gagnent gagnants gagnante gagnes gagnez gagnera gagnait gagnerait gagna gagnantes gagneront gagnons gagnerez gagnaient gagnais gagneras gagneraient gagnerais gagnerai gagnerons gagnèrent gagneriez gagniez gagnerions gagnions
+77	277	américain	américain américaine américains américaines
+78	278	sembler	semble semblent semblait semblerait semblé sembler semblaient sembles semblez sembla semblera semblais sembleraient semblons sembleront semblèrent semblerai sembliez semblerais
+79	279	travailler	travailler travaille travaillé travaillent travaillant travaillait travaillons travaillaient travailles travaillez travaillais travaillera travaillées travaillés travaillée travailla travailleront travaillerait travaillerons travaillerais travaillerai travaillerez travaillèrent travaillions travailleraient travailleras travailliez
+80	280	gouvernement	gouvernement gouvernements gouvernment
+81	281	guerre	guerre guerres
+82	282	exemple	exemple exemples
+83	283	quelqu'un	quelqu'un qqn quelqu'une
+84	284	près	près
+85	285	essayer	essayer essaie essayé essaye essayez essayant essaient essayait essayons essayent essayes essaies essayais essaierai essayaient essaya essayerai essaiera essayera essaierais essayerais essaierons essaieront essayèrent essaierait essayerons essayeront essayai essayerait essayions essaieraient essayiez essaieras essayeras essayeraient essaierez
+86	286	œil	yeux œil oeil oeils œils
+87	287	centre	centre centres ctre
+88	288	accord	accord accords
+89	289	plein	plein pleine pleins pleines
+90	290	cause	cause causes
+91	291	possible	possible possibles
+92	292	tour	tour tours
+93	293	dieu	dieu dieux
+94	294	titre	titre titres
+95	295	début	début débuts
+96	296	dès	dès
+97	297	face	face faces
+98	298	forme	forme formes
+99	299	truc	truc trucs
+100	300	nombreux	nombreux nombreuses nombreuse

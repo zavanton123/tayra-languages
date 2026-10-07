@@ -1,0 +1,100 @@
+1	8001	trail	trail trails
+2	8002	cacao	cacao cacaos
+3	8003	opaque	opaque opaques
+4	8004	replacer	replacer replace replacé replaçant replacent replaça replacez replacera replaçait
+5	8005	aquarium	aquarium aquariums
+6	8006	écoulement	écoulement écoulements
+7	8007	masser	masser massa massant massent massez massait massai massais massera massaient
+8	8008	défiance	défiance défiances
+9	8009	manie	manie manies
+10	8010	impuissance	impuissance impuissances
+11	8011	insoumis	insoumise insoumis insoumises
+12	8012	comparaître	comparaître comparu comparaît comparaissent comparaitre comparaissait comparaîtra comparaissant comparaissaient comparaîtront comparut comparaisse comparais
+13	8013	internat	internat internats
+14	8014	remake	remake remakes
+15	8015	étalon	étalon étalons
+16	8016	somali	somalie somali somalis
+17	8017	énoncer	énonce énoncer énonçant énoncent énonçait énoncera énonça énoncez
+18	8018	bouleversement	bouleversements bouleversement
+19	8019	rêveur	rêveur rêveurs rêveuse rêveuses
+20	8020	immunitaire	immunitaire immunitaires
+21	8021	improvisation	improvisation improvisations
+22	8022	contrefaçon	contrefaçon contrefaçons
+23	8023	allouer	alloué allouer alloue allouant allouent allouez allouait alloua
+24	8024	flirter	flirter flirte flirté flirtent flirtant flirtait flirtez flirtes flirtaient
+25	8025	hystérique	hystérique hystériques
+26	8026	monture	monture montures
+27	8027	novice	novice novices
+28	8028	rameau	rameau rameaux
+29	8029	dysfonctionnement	dysfonctionnements dysfonctionnement
+30	8030	décent	décent décente décents décentes
+31	8031	girondin	girondins girondin girondine girondines
+32	8032	stresser	stresse stresser stresses stressent stressait stressez stressais
+33	8033	transversale	transversale transversales
+34	8034	roder	rodez rode rodé roder roda rodent rodes rodas rodait rodant
+35	8035	bêtement	bêtement
+36	8036	collectivement	collectivement
+37	8037	confidentialité	confidentialité
+38	8038	croquis	croquis
+39	8039	empathie	empathie
+40	8040	inévitablement	inévitablement
+41	8041	naïveté	naïveté
+42	8042	propreté	propreté
+43	8043	remords	remords
+44	8044	wi	wi
+45	8045	équitation	équitation
+46	8046	résonance	résonance résonances
+47	8047	ardeur	ardeur ardeurs
+48	8048	captive	captifs captive captif captives
+49	8049	dénué	dénué dénuée dénués dénuées
+50	8050	refonte	refonte refontes
+51	8051	couvercle	couvercle couvercles
+52	8052	titrer	titré titrer titrant titrait titrent titres titra
+53	8053	substitut	substitut substituts
+54	8054	volcanique	volcanique volcaniques
+55	8055	trimestriel	trimestriel trimestrielle trimestriels trimestrielles
+56	8056	anodin	anodin anodine anodins anodines
+57	8057	féodal	féodal féodale féodaux féodales
+58	8058	newton	newton newtons
+59	8059	ontarien	ontariens ontarien ontarienne ontariennes
+60	8060	tordre	tordre tords tordant tord tordent tordait torde tordaient tordit tordante tordez
+61	8061	grotesque	grotesque grotesques
+62	8062	chenille	chenille chenilles
+63	8063	génital	génitales génitaux génital génitale
+64	8064	caste	caste castes
+65	8065	couette	couette couettes
+66	8066	énergique	énergique énergiques
+67	8067	vanille	vanille vanilles
+68	8068	adonner	adonner adonne adonnent adonnant adonné adonnait adonnaient adonna
+69	8069	illuminé	illuminé illuminés illuminée illuminées
+70	8070	emménager	emménager emménage emménagé emménagent emménagez emménagea emménageant
+71	8071	fortification	fortifications fortification
+72	8072	imprimeur	imprimeur imprimeurs
+73	8073	signalement	signalement signalements
+74	8074	item	item items
+75	8075	obèse	obèse obèses
+76	8076	expiration	expiration expirations
+77	8077	entrepreneuriat	entrepreneuriat entreprenariat entrepreunariat
+78	8078	confisquer	confisqué confisquer confisque confisquent confisquant confisqua confisquez confisquait
+79	8079	télécommande	télécommande télécommandes
+80	8080	métamorphose	métamorphose métamorphoses
+81	8081	occasionnel	occasionnel occasionnels occasionnelle occasionnelles
+82	8082	sonnerie	sonnerie sonneries
+83	8083	amphithéâtre	amphithéâtre amphithéâtres
+84	8084	carrosserie	carrosserie carrosseries
+85	8085	rejouer	rejouer rejoue rejoué rejouera rejouent rejouant rejouait rejouez
+86	8086	recouvrement	recouvrement recouvrements
+87	8087	subordonné	subordonnés subordonné subordonnée subordonnées
+88	8088	courtoisie	courtoisie courtoisies
+89	8089	tesla	tesla teslas
+90	8090	timing	timing timings
+91	8091	tricolore	tricolore tricolores tricolor
+92	8092	stagner	stagne stagner stagnante stagnent stagné stagnantes stagnant stagnait stagnants stagnaient
+93	8093	symphonie	symphonie symphonies
+94	8094	imposable	imposable imposables
+95	8095	abîme	abîme abyme abîmes
+96	8096	évanouir	évanouir évanouit évanoui évanouis évanouissent évanouisse évanouissait évanouira évanouissant évanouissaient évanouiront évanouirent
+97	8097	déchu	déchu déchue déchus déchues
+98	8098	institué	institué instituée institués instituées
+99	8099	insinuer	insinue insinuer insinué insinues insinuant insinuent insinuait insinuez insinuais insinua
+100	8100	sensuel	sensuelle sensuel sensuelles sensuels

@@ -1,0 +1,100 @@
+1	6701	comète	comète comètes
+2	6702	affinité	affinités affinité
+3	6703	forge	forge forges
+4	6704	escroquerie	escroquerie escroqueries
+5	6705	réorganisation	réorganisation réorganisations
+6	6706	fourrer	fourrer fourré fourrés fourrée fourrées fourrent fourrant fourrez fourra fourres fourrait
+7	6707	affectif	affectif affective affectifs affectives
+8	6708	toiture	toiture toitures
+9	6709	scandinave	scandinaves scandinave
+10	6710	sponsor	sponsor sponsors
+11	6711	conspiration	conspiration conspirations
+12	6712	initiation	initiation initiations
+13	6713	stressé	stressé stressée stressés stressées
+14	6714	contrarier	contrarier contrarié contrarie contrariée contrariés contrariant contrariées contrarient contrariait contrariante contrarierait
+15	6715	offenser	offensé offenser offensant offenses offensante offensants offensantes offensent offensez offenserait
+16	6716	attentivement	attentivement
+17	6717	authenticité	authenticité
+18	6718	catholicisme	catholicisme
+19	6719	communément	communément
+20	6720	conjointement	conjointement
+21	6721	criminalité	criminalité
+22	6722	cyclisme	cyclisme
+23	6723	humilité	humilité
+24	6724	incroyablement	incroyablement
+25	6725	laure	laure
+26	6726	néant	néant
+27	6727	obligatoirement	obligatoirement
+28	6728	obus	obus
+29	6729	radicalement	radicalement
+30	6730	ramadan	ramadan
+31	6731	séparément	séparément
+32	6732	ver	ver
+33	6733	algue	algues algue
+34	6734	perquisition	perquisition perquisitions
+35	6735	réhabilitation	réhabilitation réhabilitations
+36	6736	rivaliser	rivaliser rivalisent rivalise rivalisant rivalisé rivalisaient rivalisait rivaliseront rivalisera
+37	6737	fatiguer	fatiguer fatiguant fatiguent fatiguez fatigues fatiguait fatiguera
+38	6738	arrondi	arrondi arrondie arrondis arrondies
+39	6739	féroce	féroce féroces
+40	6740	concrétiser	concrétiser concrétise concrétisé concrétisent concrétisera concrétisant concrétisait concrétisa concrétiseront
+41	6741	fresque	fresque fresques
+42	6742	funéraire	funéraire funéraires
+43	6743	confrérie	confrérie confréries
+44	6744	épice	épices épice
+45	6745	compression	compression compressions
+46	6746	flûte	flûte flûtes
+47	6747	persistant	persistant persistante persistantes persistants
+48	6748	dotation	dotation dotations
+49	6749	griller	griller grilles grillons grillent grillant grillait grillez
+50	6750	arborer	arbore arborant arborer arborent arboré arborait arboraient arborera arbora arboreront
+51	6751	combustion	combustion combustions
+52	6752	pion	pion pions pionne
+53	6753	dominicain	dominicaine dominicains dominicain dominicaines
+54	6754	raide	raide raides roide
+55	6755	neutraliser	neutraliser neutralisé neutralise neutralisent neutralisant neutralisants neutralisait neutralisera
+56	6756	parenthèse	parenthèse parenthèses
+57	6757	preneur	preneur preneurs preneuse
+58	6758	bille	billes bille
+59	6759	indéterminé	indéterminée indéterminé indéterminées indéterminés
+60	6760	thune	thune thunes tune
+61	6761	tracteur	tracteur tracteurs
+62	6762	balai	balai balais
+63	6763	blanchir	blanchir blanchi blanchis blanchit blanchissent blanchissant blanchissait blanchissante blanchisse
+64	6764	agrément	agrément agréments
+65	6765	hameau	hameau hameaux
+66	6766	texture	texture textures
+67	6767	digérer	digérer digéré digère digèrent digérant digérait
+68	6768	contempler	contempler contemple contemplant contemplez contemplé contemplent contemplait contempla contemplais contemplons contemples contemplaient
+69	6769	improviser	improvisé improviser improvise improvisent improvisant improvisait improvisez improvises improvisa
+70	6770	lanterne	lanterne lanternes
+71	6771	liquidation	liquidation liquidations
+72	6772	trompeur	trompeuses trompeur trompeuse trompeurs
+73	6773	inversement	inversement inversément
+74	6774	astronaute	astronaute astronautes
+75	6775	résidu	résidus résidu
+76	6776	oreiller	oreiller oreillers
+77	6777	mémorable	mémorable mémorables
+78	6778	relique	reliques relique
+79	6779	once	once onces
+80	6780	déni	déni dénis
+81	6781	empoisonner	empoisonné empoisonner empoisonne empoisonnent empoisonnant empoisonnait empoisonna empoisonnaient
+82	6782	ambiguïté	ambiguïté ambiguïtés
+83	6783	dégoûter	dégoûté dégoûte dégoûter dégoûtent dégoûtes dégoûtez dégoûtait
+84	6784	prématuré	prématurée prématuré prématurés prématurées
+85	6785	ponctuel	ponctuel ponctuelle ponctuelles ponctuels
+86	6786	calvaire	calvaire calvaires
+87	6787	anonymat	anonymat
+88	6788	aout	aout
+89	6789	athlétisme	athlétisme
+90	6790	camus	camus
+91	6791	libéralisme	libéralisme
+92	6792	nutrition	nutrition
+93	6793	oxford	oxford
+94	6794	rein	rein
+95	6795	soccer	soccer
+96	6796	équité	équité
+97	6797	effrayé	effrayé effrayés effrayée effrayées
+98	6798	narrateur	narrateur narratrice narrateurs
+99	6799	branler	branler branlent branlé branlant branles branlait branlante branlez branlais branlantes branlants branlaient
+100	6800	pianiste	pianiste pianistes

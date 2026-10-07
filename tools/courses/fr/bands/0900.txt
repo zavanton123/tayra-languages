@@ -1,0 +1,100 @@
+1	801	secteur	secteur secteurs
+2	802	organiser	organisé organiser organise organisent organisant organisait organisera organisa organisons organisez organisaient organises organisèrent organiseront organiserons organiserait organiserai organisais organisions organiserais organiseraient
+3	803	règle	règle règles
+4	804	banque	banque banques
+5	805	signe	signe signes
+6	806	rejoindre	rejoindre rejoint rejoins rejoignent rejoignez rejoindra rejoignant rejoigne rejoignit rejoignait rejoindront rejoignons rejoignaient rejoignirent rejoindrait rejoindrez rejoindrai rejoindrons rejoignais rejoindraient rejoindrais rejoignis rejoignes rejoindras
+7	807	nul	nul nulle nuls nulles
+8	808	habitant	habitants habitant hab habitante habitans
+9	809	instant	instant instants instante
+10	810	arrivée	arrivée arrivées
+11	811	élu	élu élus élue élues
+12	812	retourner	retourner retourne retourné retournent retourna retournez retournant retournera retournes retournerai retournait retournons retourneront retournerais retournèrent retournerait retournais retournerons retournaient retournai retourneras retourneraient retournerez retournions retourniez
+13	813	former	former formé forment formant formes formaient formait forma formez formons formera formeront formèrent formerait formeraient formions formerons formas formerez formais formants
+14	814	mission	mission missions
+15	815	russe	russe russes
+16	816	permis	permis permise permises
+17	817	sourire	sourire souris sourit souriant sourires souri souriante souriait souriez sourient souriants sourie souriais souriantes sourira souriaient sourions souries sourisse sourirait sourirai
+18	818	différence	différence différences
+19	819	journaliste	journaliste journalistes
+20	820	précédent	précédent précédente précédentes précédents
+21	821	fournir	fournir fourni fournit fournis fournissent fournie fournies fournissant fournira fournissait fournisse fournissaient fourniront fournirait fournissons fournissez fournirent fournirai fournirons fourniraient fournirez fournissiez fournissais
+22	822	village	village villages
+23	823	appliquer	appliquer applique appliqué appliquée appliquent appliquées appliqués appliquant appliquera appliquait appliques appliquez appliquerait appliquons appliqueront appliquaient appliqua appliqueraient appliquerons appliquais appliquerai appliquèrent appliquerez
+24	824	historique	historique historiques
+25	825	ben	ben bens
+26	826	écouter	écouter écouté écoutez écoutant écoutent écoutes écoutais écoutait écoutons écoutera écoutaient écouterai écouta écouterais écoutiez écouteront écouterait écouterez écoutions écouterons écouteras écouteraient écoutai écoutèrent
+27	827	quant	quant
+28	828	finale	finale finales
+29	829	élève	élèves élève
+30	830	al	al lu als
+31	831	réel	réel réelle réels réelles
+32	832	religieux	religieux religieuse religieuses
+33	833	dormir	dormir dors dort dormi dorment dormait dormant dormez dormais dorme dormaient dormirai dormira dormis dormit dormants dormirais dormons dormante dormantes dormiras dormirait dormes dormiront dormiez dormirez dormions dormirons dormiraient
+34	834	événement	événements événement événemens
+35	835	contraire	contraire contraires
+36	836	intéressant	intéressant intéressante intéressantes intéressants
+37	837	auprès	auprès auprés
+38	838	limite	limite limites
+39	839	juge	juge juges
+40	840	ouest	ouest
+41	841	rapidement	rapidement
+42	842	sept	sept
+43	843	union	union unions
+44	844	couple	couple couples
+45	845	autorité	autorité autorités
+46	846	média	médias média
+47	847	docteur	docteur dr docteurs docteure doctoresse
+48	848	impossible	impossible impossibles
+49	849	régime	régime régimes
+50	850	financier	financière financier financiers financières
+51	851	adorer	adore adoré adorent adorer adorais adorait adorerais adores adorez adorons adoraient adorant adorerai adorerez adorerait adoreront adora adorera adoreraient adorai adoreras adorions adoriez adorèrent
+52	852	entier	entier entière entiers entières
+53	853	samedi	samedi samedis
+54	854	midi	midi midis
+55	855	moitié	moitié moitiés
+56	856	chiffre	chiffres chiffre
+57	857	scientifique	scientifique scientifiques
+58	858	commerce	commerce commerces
+59	859	défense	défense défenses
+60	860	prison	prison prisons
+61	861	armes	armes
+62	862	jusqu'au	jusqu'au
+63	863	particulièrement	particulièrement
+64	864	dossier	dossier dossiers
+65	865	assemblée	assemblée assemblées
+66	866	combat	combat combats
+67	867	plaire	plaît plaire plu plaisant plaise plaira plaisait plaisent plais plaisante plairait plaisantes plut plaisez plaisaient plairont plaisants plaisais plairas plût plusse plairaient plairez plairais plairai plaisons plaises plurent
+68	868	analyse	analyse analyses
+69	869	table	table tables
+70	870	établissement	établissement établissements
+71	871	soin	soin soins
+72	872	constituer	constitue constitué constituer constituant constituante constituait constituaient constituerait constituants constituera constitua constitueront constituantes constitueraient constituèrent constituez constituons constitues
+73	873	sang	sang sangs
+74	874	département	département départements dépt
+75	875	unité	unité unités
+76	876	application	application applications
+77	877	connaissance	connaissance connaissances connoissance
+78	878	débat	débat débats
+79	879	combien	combien
+80	880	rêve	rêve rêves
+81	881	jeter	jeter jette jeté jettent jetée jetés jetons jetez jetant jetait jeta jetées jettes jetaient jetais jettera jetai jetterai jetèrent jetterait jetteront jetterais jetteraient jetterons jetterez jetions jetiez jetteras
+82	882	riche	riche riches
+83	883	émission	émission émissions
+84	884	cité	cité cités citée citées
+85	885	joli	jolie joli jolies jolis
+86	886	appartenir	appartient appartenant appartiennent appartenait appartenir appartenu appartenaient appartiens appartiendra appartienne appartiendrait appartenons appartint appartenez appartenais appartiendraient appartiendront
+87	887	posséder	possède possèdent posséder possédait possédant possédé possédaient possédez possédons possèdes possédais possédants possédera posséderait posséda possèderait possédiez possédions possèdera posséderont posséderaient possédèrent possédantes posséderez possédante possèderont
+88	888	froid	froid froide froides froids frette frettes
+89	889	extérieur	extérieur extérieure extérieurs extérieures
+90	890	adresse	adresse adresses
+91	891	majorité	majorité majorités
+92	892	lever	lever lève levé levant lèvent leva levez lèves levait lèvera levante levais levons levers lèveront levèrent lèverait levaient levai lèverai lèverais lèveraient levions lèveras lèverons
+93	893	chaud	chaud chaude chauds chaudes
+94	894	policier	policiers policier policière policières
+95	895	construire	construire construit construisent construisant construisit construisons construis construira construisait construisez construise construisaient construisirent construiront construirait construirons construisions construirai construisais construirez
+96	896	limiter	limiter limité limitée limites limitées limités limitant limitent limitait limitera limiterait limitaient limitez limitons limita limiteront limiterai limitante limiteraient limiterons limitants limitantes limitèrent
+97	897	outre	outre outres oultre
+98	898	gérer	gérer gère géré gérant gèrent gérants gérez gères gérait gérante gérons géraient gérais gérera géra gèrera gérerait géreront gérantes gérerais gérerez
+99	899	désormais	désormais
+100	900	paix	paix

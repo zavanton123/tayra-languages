@@ -1,0 +1,100 @@
+1	6301	excepté	excepté exceptés exceptée exceptées
+2	6302	parution	parution parutions
+3	6303	incomplet	incomplète incomplet incomplètes incomplets
+4	6304	bénir	bénisse bénite bénir bénit bénis bénissez bénissant bénissent bénira bénissons bénissait bénirai bénits bénites béniront
+5	6305	speed	speed speeds
+6	6306	anéantir	anéantir anéanti anéantis anéantit anéantissant anéantissent anéantira anéantirait anéantisse anéantissez
+7	6307	ressusciter	ressuscité ressusciter ressuscite ressuscitent ressuscitera ressuscitant ressuscita ressusciteront ressusciterai ressuscitait ressusciterait ressuscites
+8	6308	imminent	imminente imminent imminents imminentes
+9	6309	peloton	peloton pelotons
+10	6310	cravate	cravate cravates
+11	6311	bombardier	bombardier bombardiers
+12	6312	crétin	crétin crétins crétine
+13	6313	redescendre	redescendre redescend redescendu redescends redescendent redescendez redescendant redescende redescendit redescendons redescendra redescendait
+14	6314	manoir	manoir manoirs
+15	6315	emprisonner	emprisonné emprisonner emprisonne emprisonnent emprisonnant emprisonna emprisonnait
+16	6316	copiner	copines copine copiner
+17	6317	parodie	parodie parodies
+18	6318	western	western westerns
+19	6319	corne	corne cornes
+20	6320	fusionner	fusionner fusionné fusionne fusionnent fusionnant fusionnera fusionneront fusionna fusionnait fusionnèrent fusionnez
+21	6321	atlas	atlas
+22	6322	cocaïne	cocaïne
+23	6323	girond	gironde
+24	6324	kilooctet	ko
+25	6325	pois	pois
+26	6326	uranium	uranium
+27	6327	vichy	vichy
+28	6328	caravane	caravane caravanes
+29	6329	sceptique	sceptique sceptiques
+30	6330	pomper	pomper pompée pompes pompé pompent pompons pompant pompés pompait pompées pompez pompaient pompa
+31	6331	médiateur	médiateur médiateurs médiatrice médiatrices
+32	6332	trempé	trempé trempée trempés trempées
+33	6333	anal	anal anale anales anaux
+34	6334	orgue	orgue orgues
+35	6335	cicatrice	cicatrices cicatrice
+36	6336	pou	pou poux
+37	6337	finesse	finesse finesses
+38	6338	blâmer	blâmer blâmé blâment blâmant blâmes blâmez blâmait blâmons blâmera blâma blâmerai blâmaient
+39	6339	piller	piller pillé pillent pille pillant pillèrent pilla pillaient pilles pillait pillez
+40	6340	autoritaire	autoritaire autoritaires
+41	6341	portier	portier portière portières portiers
+42	6342	cubain	cubain cubaine cubains cubaines
+43	6343	saisonnier	saisonnières saisonniers saisonnière saisonnier
+44	6344	erroné	erronée erronées erroné erronés
+45	6345	détection	détection détections
+46	6346	attrait	attrait attraits
+47	6347	interrogatoire	interrogatoire interrogatoires
+48	6348	nationalisme	nationalisme nationalismes
+49	6349	sprint	sprint sprints
+50	6350	sieste	sieste siestes
+51	6351	frontal	frontale frontal frontales frontaux
+52	6352	haie	haies haie
+53	6353	radiation	radiation radiations
+54	6354	aviser	avisé aviser avise avisera avisa avisez avisant aviserai aviserons avisait avisent avises avisons
+55	6355	inventeur	inventeur inventeurs inventrice
+56	6356	voyou	voyous voyou
+57	6357	ironique	ironique ironiques
+58	6358	camerounais	camerounais camerounaise camerounaises
+59	6359	sperme	sperme spermes
+60	6360	échoir	échéant échoit échu échoir échut échoient échurent
+61	6361	assigné	assigné assignés assignée assignées
+62	6362	atmosphérique	atmosphérique atmosphériques
+63	6363	délinquance	délinquance délinquances
+64	6364	altérer	altérer altéré altère altérée altérés altèrent altérées altérant altères altérait altérera
+65	6365	dédicace	dédicace dédicaces
+66	6366	motard	motards motard motarde motardes
+67	6367	incompréhensible	incompréhensible incompréhensibles
+68	6368	socle	socle socles
+69	6369	pelle	pelle pelles
+70	6370	nappe	nappe nappes
+71	6371	arcade	arcade arcades
+72	6372	casserole	casserole casseroles
+73	6373	côtier	côtière côtières côtier côtiers
+74	6374	journalier	journalier journalière journaliers journalières
+75	6375	affranchir	affranchir affranchis affranchi affranchit affranchie affranchissant affranchissent affranchies affranchisse affranchira
+76	6376	directoire	directoire directoires
+77	6377	bitcoin	bitcoin bitcoins
+78	6378	hésitation	hésitation hésitations
+79	6379	réconciliation	réconciliation réconciliations
+80	6380	texto	texto textos
+81	6381	incompatible	incompatible incompatibles
+82	6382	savourer	savourer savoure savourez savourant savouré savourent savourait savourons savoura savoures savouraient savourais
+83	6383	draguer	draguer dragué draguent dragues draguait draguez draguais draguant
+84	6384	foulée	foulée foulées
+85	6385	sensibiliser	sensibiliser sensibilisé sensibilise sensibilisant sensibilisent
+86	6386	communisme	communisme communismes
+87	6387	électorat	électorat électorats
+88	6388	pat	pat pats
+89	6389	fâché	fâché fâchée fâchés fâchées
+90	6390	minerai	minerai minerais
+91	6391	percée	percée percées
+92	6392	créneau	créneau créneaux
+93	6393	différend	différend différends
+94	6394	désireux	désireux désireuse désireuses
+95	6395	hache	hache haches
+96	6396	patienter	patienter patiente patienté patientez patientes patientent patientait patientera patientant patientaient
+97	6397	ambiant	ambiante ambiant ambiantes ambiants
+98	6398	présentateur	présentateur présentatrice présentateurs
+99	6399	nuisible	nuisibles nuisible
+100	6400	recteur	recteur recteurs rectrice rectrices

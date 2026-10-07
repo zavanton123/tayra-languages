@@ -1,0 +1,100 @@
+1	8201	panel	panel panels
+2	8202	offrande	offrande offrandes
+3	8203	gîte	gîte gîtes
+4	8204	errant	errant errants errante errantes
+5	8205	illégitime	illégitime illégitimes
+6	8206	inoffensif	inoffensif inoffensifs inoffensive inoffensives
+7	8207	came	came venait cames
+8	8208	gallois	gallois galloise galloises
+9	8209	sentinelle	sentinelle sentinelles
+10	8210	retournement	retournement retournements
+11	8211	archaïque	archaïque archaïques
+12	8212	castor	castor castors
+13	8213	portuaire	portuaire portuaires
+14	8214	cor	cor cors
+15	8215	hexagone	hexagone hexagones
+16	8216	épouvantable	épouvantable épouvantables
+17	8217	occasionner	occasionné occasionne occasionner occasionnant occasionnent occasionnera occasionna occasionnait occasionnerait occasionnaient
+18	8218	composite	composite composites
+19	8219	électron	électrons électron
+20	8220	physiologique	physiologique physiologiques
+21	8221	opportun	opportun opportune opportuns opportunes
+22	8222	fugitif	fugitif fugitifs fugitive
+23	8223	vulnérabilité	vulnérabilité vulnérabilités
+24	8224	incorporé	incorporé incorporés incorporée incorporées
+25	8225	empresser	empresse empressé empressent empressa empresser empressèrent empressait empressant empressera empressez empresseront empressaient empressons
+26	8226	décomposition	décomposition décompositions
+27	8227	contributeur	contributeurs contributeur contributrice contributrices
+28	8228	gentleman	gentleman gentlemen gentlemans
+29	8229	accidentellement	accidentellement
+30	8230	calmement	calmement
+31	8231	couille	couille
+32	8232	désespérément	désespérément
+33	8233	gâchis	gâchis
+34	8234	homophobie	homophobie
+35	8235	judaïsme	judaïsme
+36	8236	oups	oups
+37	8237	significativement	significativement
+38	8238	weber	weber
+39	8239	hilarant	hilarant hilarante hilarants hilarantes
+40	8240	bourgmestre	bourgmestre bourgmestres
+41	8241	renommé	renommé renommés renommées
+42	8242	barème	barème barèmes
+43	8243	chorale	chorale chorales
+44	8244	consécration	consécration consécrations
+45	8245	lingerie	lingerie lingeries
+46	8246	déposition	déposition dépositions
+47	8247	ru	ru rus
+48	8248	chimiste	chimiste chimistes
+49	8249	huître	huîtres huître
+50	8250	avide	avide avides
+51	8251	gitan	gitans gitan gitane gitanes
+52	8252	réinventer	réinventer réinvente réinventé réinventent réinventant réinventons
+53	8253	visionner	visionner visionné visionnez visionnant visionne visionnent visionnait
+54	8254	ramer	rama ramer rames ramé rament ramez ramassent ramait ramant ramasses
+55	8255	ridiculiser	ridiculiser ridiculisé ridiculise ridiculisent ridiculisant ridiculises ridiculisez ridiculisait
+56	8256	quint	quint quinte quintes
+57	8257	ravager	ravagé ravager ravagent ravagea ravageant ravageait ravagèrent ravageaient
+58	8258	sorcellerie	sorcellerie sorcelleries
+59	8259	dodo	dodo dodos
+60	8260	coulée	coulée coulées
+61	8261	escargot	escargot escargots
+62	8262	magistrature	magistrature magistratures
+63	8263	étoilé	étoilé étoilée étoilés étoilées
+64	8264	bibliothécaire	bibliothécaire bibliothécaires
+65	8265	glacial	glacial glaciale glaciales glaciaux glacials
+66	8266	absurdité	absurdité absurdités
+67	8267	paralympique	paralympiques paralympique
+68	8268	redécouvrir	redécouvrir redécouvre redécouvert redécouvrez redécouvrent redécouverts redécouvrant redécouvertes redécouvrons redécouvrit
+69	8269	réécrire	réécrire réécrit réécrite réécris récrire réécrivent réécrivant réécrites
+70	8270	naturaliste	naturaliste naturalistes
+71	8271	réticence	réticences réticence
+72	8272	percussion	percussion percussions
+73	8273	shérif	shérif shérifs
+74	8274	instructeur	instructeur instructeurs instructrice
+75	8275	désoler	désole désoler désolent désolait désolez
+76	8276	inertie	inertie inerties
+77	8277	tuberculose	tuberculose tuberculoses
+78	8278	déprimant	déprimant déprimante déprimantes déprimants
+79	8279	obsolète	obsolète obsolètes
+80	8280	sermon	sermon sermons
+81	8281	boulette	boulettes boulette
+82	8282	interagir	interagir interagissent interagit interagissant interagi interagis
+83	8283	vassal	vassaux vassal vassale vassales
+84	8284	affluence	affluence affluences
+85	8285	pessimiste	pessimiste pessimistes
+86	8286	prompt	prompt prompts prompte promptes
+87	8287	limer	lima limer limé limons limes limas
+88	8288	plongeur	plongeurs plongeur plongeuse plongeuses
+89	8289	mimi	mimi mimis mimine
+90	8290	invincible	invincible invincibles
+91	8291	charpentier	charpentier charpentiers charpentières
+92	8292	corneille	corneille corneilles
+93	8293	bazar	bazar bazars
+94	8294	lice	lice lices
+95	8295	déclinaison	déclinaison déclinaisons
+96	8296	similitude	similitudes similitude
+97	8297	réintégrer	réintégrer réintégré réintègre réintégrant réintègrent réintégra réintégrera
+98	8298	adjointe	adjointe adjointes
+99	8299	bip	bip bips
+100	8300	mathématicien	mathématicien mathématiciens mathématicienne

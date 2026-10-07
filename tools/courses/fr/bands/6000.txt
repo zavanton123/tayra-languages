@@ -1,0 +1,100 @@
+1	5901	prétention	prétention prétentions
+2	5902	éduquer	éduquer éduqué éduque éduquent éduquant éduquez éduques éduquons
+3	5903	caresser	caresser caresses caressant caressé caressait caressent caressa caressais caressez caressante caressaient
+4	5904	filtrer	filtrer filtré filtres filtrant filtrée filtrent filtrés filtrées filtrants filtrez filtrante filtrantes filtrait filtraient filtrera
+5	5905	végétation	végétation végétations
+6	5906	relayer	relayer relayé relaient relaie relayant relaye relayent relayaient relayait relayons relayez relaieront relaiera
+7	5907	pince	pince pinces
+8	5908	citoyenneté	citoyenneté citoyennetés
+9	5909	pirater	pirater piraté pirates piratent piratant pirata piratez
+10	5910	atterrissage	atterrissage atterrissages
+11	5911	redresser	redresser redresse redressé redressa redressant redressent redressera redressait redressez redresses redressons
+12	5912	dentiste	dentiste dentistes
+13	5913	addition	addition additions
+14	5914	reparler	reparle reparler reparlera reparlé reparlerons reparlerai reparles reparlez reparlent reparlons reparlerais reparlait
+15	5915	percuter	percuté percute percuter percutant percutante percutée percutants percutés percutantes percutent percuta percutées
+16	5916	insécurité	insécurité insécurités
+17	5917	valorisation	valorisation valorisations
+18	5918	métaphore	métaphore métaphores
+19	5919	réfugier	réfugier réfugie réfugient réfugia réfugiant réfugièrent réfugies réfugiaient réfugiait réfugiez réfugiera réfugions réfugiais
+20	5920	moniteur	moniteur moniteurs monitrice
+21	5921	maternité	maternité maternités
+22	5922	buisson	buisson buissons
+23	5923	jésuite	jésuites jésuite
+24	5924	analyste	analyste analystes
+25	5925	postérieur	postérieure postérieur postérieures postérieurs
+26	5926	escorte	escorte escortes
+27	5927	gourmand	gourmand gourmands gourmande gourmandes
+28	5928	branle	branle branles
+29	5929	financièrement	financièrement
+30	5930	honnêteté	honnêteté
+31	5931	indirectement	indirectement
+32	5932	jusqu'alors	jusqu'alors
+33	5933	light	light
+34	5934	mathématique	mathématique
+35	5935	metal	metal
+36	5936	oscar	oscars
+37	5937	rapidité	rapidité
+38	5938	réalisme	réalisme
+39	5939	sensiblement	sensiblement
+40	5940	sursis	sursis
+41	5941	temporairement	temporairement
+42	5942	traditionnellement	traditionnellement
+43	5943	vernis	vernis
+44	5944	complication	complications complication
+45	5945	dicter	dicter dicte dicté dictent dictons dictait dictant dictera dicta dictes dictaient dictez dicteront dicterait
+46	5946	regagner	regagner regagne regagné regagnent regagna regagnant regagnait regagnera regagnons regagnaient regagnèrent regagnez regagneront
+47	5947	dessinateur	dessinateur dessinateurs dessinatrice dessinatrices
+48	5948	mu	mu mue mus mues
+49	5949	geek	geek geeks
+50	5950	gonflé	gonflé gonflés gonflée gonflées
+51	5951	cam	cam cams
+52	5952	médiation	médiation médiations
+53	5953	accoucher	accoucher accouché accouche accouchent accouchant accouchera accoucha accouchait accouchaient accouches
+54	5954	conformité	conformité conformités
+55	5955	sierra	sierra sierras
+56	5956	anarchiste	anarchiste anarchistes
+57	5957	aquatique	aquatique aquatiques
+58	5958	modernisation	modernisation modernisations
+59	5959	tambour	tambour tambours
+60	5960	exotique	exotiques exotique
+61	5961	donneur	donneur donneurs donneuse donneuses
+62	5962	convaincant	convaincant convaincante convaincants convaincantes
+63	5963	pointu	pointu pointues pointus pointue
+64	5964	tiroir	tiroir tiroirs
+65	5965	ampoule	ampoule ampoules
+66	5966	quota	quotas quota
+67	5967	substituer	substituer substitue substitué substituant substituent substituée substitués substitua substituées substituera substituerait substituants substituez substituait substitueront
+68	5968	bourgeoisie	bourgeoisie bourgeoisies
+69	5969	duché	duché duchés
+70	5970	tram	tram trams
+71	5971	sentence	sentence sentences
+72	5972	bétail	bétail bétails
+73	5973	symboliser	symbolise symboliser symbolisant symbolisent symbolisé symbolisée symbolisait symbolisaient symbolisées symbolisés symboliserait symbolisera
+74	5974	intuition	intuition intuitions
+75	5975	niquer	niquer niqué niques niquent niquez niquait niquant niquera niquons
+76	5976	pisse	pisse pisses
+77	5977	diner	diner dina dinant dine diné dines dinas
+78	5978	boulangerie	boulangerie boulangeries
+79	5979	instable	instable instables
+80	5980	racial	raciale raciales racial raciaux
+81	5981	redevance	redevance redevances
+82	5982	architectural	architectural architecturale architecturaux architecturales
+83	5983	loyal	loyal loyaux loyale loyales
+84	5984	incidence	incidence incidences
+85	5985	robinet	robinet robinets
+86	5986	matrice	matrice matrices
+87	5987	superficiel	superficielle superficiel superficielles superficiels
+88	5988	desservir	desservir desservi desservant desservent desservis desservira desservait desservaient desservants desservirait desserve desservit desserviront
+89	5989	divinité	divinité divinités
+90	5990	érigé	érigé érigée érigés érigées
+91	5991	brin	brin brins
+92	5992	éruption	éruption éruptions
+93	5993	admiration	admiration admirations
+94	5994	prospérité	prospérité prospérités
+95	5995	vigilance	vigilance vigilances
+96	5996	picard	picard picards picarde picardes
+97	5997	taxer	taxer taxes taxé taxant taxons taxent taxait taxa taxera taxez taxerait
+98	5998	évangile	évangile évangiles
+99	5999	clope	clope clopes
+100	6000	moustique	moustiques moustique

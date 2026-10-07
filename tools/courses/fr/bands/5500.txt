@@ -1,0 +1,100 @@
+1	5401	recouvrir	recouvre recouvrir recouvrent recouvrant recouvrait recouvraient recouvrez recouvrira recouvrit recouvrirent recouvrirait
+2	5402	massage	massage massages
+3	5403	selle	selle selles
+4	5404	capsule	capsule capsules
+5	5405	précipitation	précipitations précipitation
+6	5406	hongrois	hongrois hongroise hongroises
+7	5407	sénégalais	sénégalais sénégalaise sénégalaises
+8	5408	tabou	tabou tabous taboue taboues
+9	5409	insertion	insertion insertions
+10	5410	commentateur	commentateurs commentateur commentatrice
+11	5411	miser	miser misé misent misant mises misez misa misait misons miserais misera misaient miserai misais miserait
+12	5412	libanais	libanais libanaise libanaises
+13	5413	naviguer	naviguer navigue naviguant navigué naviguent naviguait naviguez naviguaient naviguons naviguera navigua naviguais navigues navigueront
+14	5414	ratio	ratio ratios
+15	5415	ciné	ciné cinés
+16	5416	exporter	exporter exporte exporté exportent exportait exportant exportons exportaient exportera exporta exportez
+17	5417	partition	partition partitions
+18	5418	auxiliaire	auxiliaire auxiliaires
+19	5419	flot	flot flots
+20	5420	éphémère	éphémère éphémères
+21	5421	prioritaire	prioritaire prioritaires
+22	5422	abolition	abolition abolitions
+23	5423	branché	branché branchés branchée branchées
+24	5424	impressionné	impressionné impressionnée impressionnés impressionnées
+25	5425	conservatoire	conservatoire conservatoires
+26	5426	fréquentation	fréquentation fréquentations
+27	5427	kid	kid kids
+28	5428	péninsule	péninsule péninsules
+29	5429	tutelle	tutelle tutelles
+30	5430	équilibrer	équilibré équilibrer équilibrent équilibrant équilibres équilibrera équilibrait
+31	5431	sanctionner	sanctionner sanctionné sanctionne sanctionnant sanctionnent sanctionnera sanctionnait
+32	5432	variante	variante variantes
+33	5433	inacceptable	inacceptable inacceptables
+34	5434	dégrader	dégrader dégrade dégradant dégradent dégradants dégradante dégradantes dégradait dégradera dégrada dégradaient dégraderait dégraderont
+35	5435	prescrit	prescrit prescrits prescrite prescrites
+36	5436	aptitude	aptitude aptitudes
+37	5437	rattacher	rattaché rattache rattacher rattachent rattachant rattachait rattacha rattachaient
+38	5438	controversé	controversé controversée controversés controversées
+39	5439	aménager	aménagé aménager aménage aménageant aménagent aménagea aménagera
+40	5440	honorable	honorable honorables
+41	5441	forteresse	forteresse forteresses
+42	5442	gymnase	gymnase gym gymnases
+43	5443	désignation	désignation désignations
+44	5444	sylvain	sylvain sylvaine sylvains
+45	5445	fief	fief fiefs
+46	5446	lin	lin lins
+47	5447	doyen	doyen doyenne doyens doyennes
+48	5448	pétrolier	pétrolier pétroliers pétrolières
+49	5449	misérable	misérable misérables
+50	5450	automobiliste	automobilistes automobiliste
+51	5451	norvégien	norvégien norvégienne norvégiens norvégiennes
+52	5452	transformée	transformée transformées
+53	5453	discrétion	discrétion
+54	5454	homosexualité	homosexualité
+55	5455	politiquement	politiquement
+56	5456	ballet	ballet ballets
+57	5457	négligeable	négligeable négligeables
+58	5458	effrayant	effrayant effrayante effrayants effrayantes
+59	5459	laid	laid laide laids laides
+60	5460	souple	souple souples
+61	5461	yen	yen yens
+62	5462	duchesse	duchesse duchesses
+63	5463	lucratif	lucratif lucrative lucratives lucratifs
+64	5464	brosse	brosse brosses
+65	5465	surnommé	surnommé surnommée surnommés surnommées
+66	5466	dépêche	dépêche dépêches
+67	5467	pharmacien	pharmacien pharmaciens pharmacienne
+68	5468	store	store stores
+69	5469	respiratoire	respiratoire respiratoires
+70	5470	arbitraire	arbitraire arbitraires
+71	5471	artifice	artifice artifices
+72	5472	navette	navette navettes
+73	5473	immigrant	immigrants immigrant immigrantes immigrante
+74	5474	désespoir	désespoir désespoirs
+75	5475	milliardaire	milliardaire milliardaires
+76	5476	écurie	écurie écuries
+77	5477	chagrin	chagrin chagrins chagrine
+78	5478	lignée	lignée lignées
+79	5479	redoutable	redoutable redoutables
+80	5480	sinistre	sinistre sinistres
+81	5481	supplier	supplie supplier supplié suppliant suppliait supplient supplies supplia supplions suppliez suppliaient suppliais suppliante suppliantes suppliants suppliera
+82	5482	questionner	questionner questionne questionné questionnent questionnant questionnait questionnez questionna questionnais questionnes questionnera questionnaient
+83	5483	détente	détente détentes
+84	5484	consul	consul consuls consule
+85	5485	méditerranéen	méditerranéen méditerranéenne méditerranéennes méditerranéens
+86	5486	réchauffer	réchauffer réchauffe réchauffé réchauffent réchauffant réchauffera réchauffait réchauffez réchauffaient
+87	5487	minoritaire	minoritaire minoritaires
+88	5488	échelon	échelon échelons
+89	5489	diplomatie	diplomatie diplomaties
+90	5490	barré	barré barrée barrés barrées
+91	5491	stabiliser	stabiliser stabilisé stabilise stabilisée stabilisés stabilisées stabilisent stabilisant stabilisera stabilisants stabilisez stabilisa stabilisait
+92	5492	planification	planification planifications
+93	5493	dégradé	dégradé dégradée dégradés dégradées
+94	5494	abondant	abondante abondantes abondant abondants
+95	5495	coiffeur	coiffeur coiffeuse coiffeurs coiffeuses
+96	5496	soul	soul souls soule soules
+97	5497	volcan	volcan volcans
+98	5498	crucial	crucial cruciale cruciales cruciaux
+99	5499	cordon	cordon cordons
+100	5500	immunité	immunité immunités

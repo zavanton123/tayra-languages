@@ -1,0 +1,100 @@
+1	4001	vigne	vignes vigne
+2	4002	innover	innover innovantes innovant innovants innovante innove innové innovent innova innovez innovait innovons
+3	4003	silencieux	silencieux silencieuse silencieuses
+4	4004	agenda	agenda agendas
+5	4005	charlotte	charlotte charlottes
+6	4006	usager	usagers usager usagère usagères
+7	4007	cochon	cochon cochons cochonne cochonnes
+8	4008	colis	colis
+9	4009	life	life
+10	4010	puits	puits
+11	4011	quoique	quoique
+12	4012	strictement	strictement
+13	4013	tranquillement	tranquillement
+14	4014	relief	relief reliefs
+15	4015	chouette	chouette chouettes
+16	4016	harcèlement	harcèlement harcèlements
+17	4017	lointain	lointain lointaine lointains lointaines
+18	4018	poteau	poteau poteaux poto
+19	4019	précaution	précaution précautions
+20	4020	provenance	provenance provenances
+21	4021	entente	entente ententes
+22	4022	pleuvoir	pleut pleuvoir plu pleuvait pleuvent pleuve pleuvra plut pleuvaient pleuvrait plût plurent
+23	4023	poing	poing poings
+24	4024	thread	thread threads
+25	4025	détecter	détecter détecté détecte détectent détectant détections détectera détectons détectait détectez
+26	4026	inventaire	inventaire inventaires
+27	4027	directive	directive directives
+28	4028	tristesse	tristesse tristesses
+29	4029	ethnique	ethnique ethniques
+30	4030	grimper	grimper grimpe grimpé grimpent grimpant grimpait grimpantes grimpante grimpa grimpez grimpera grimpaient grimpants grimpons grimperait grimpes grimperont grimpais
+31	4031	brise	brise brises
+32	4032	collecte	collecte collectes
+33	4033	attache	attache attaches
+34	4034	liège	liège lièges liége
+35	4035	mouche	mouche mouches
+36	4036	injuste	injuste injustes
+37	4037	nuire	nuire nui nuisent nuirait nuise nuira nuis nuisant nuisait nuiraient nuisaient nuiront nuisez
+38	4038	comique	comique comiques
+39	4039	perle	perles perle
+40	4040	vaccin	vaccin vaccins
+41	4041	capter	capter capte capté captent captes captant captez captait captera capta captais captaient captions capteront
+42	4042	cloche	cloche cloches
+43	4043	promo	promo promos
+44	4044	esclavage	esclavage esclavages
+45	4045	alarme	alarme alarmes
+46	4046	casino	casino casinos
+47	4047	idéologie	idéologie idéologies
+48	4048	combiné	combiné combinée combinés combinées
+49	4049	affirmation	affirmation affirmations
+50	4050	sphère	sphère sphères
+51	4051	semer	semer semé sème sèment semant semés semée sema semées semez sèmes semait semons semaient sèmera semai sèmerait semèrent
+52	4052	parquet	parquet parquets
+53	4053	khan	chan khan cham chams khans kan
+54	4054	étonné	étonné étonnée étonnés étonnées
+55	4055	enfuir	enfuir enfuit enfui enfuient enfuis enfuie enfuirent enfuyant enfuyait enfuies enfuyaient enfuira enfuiront
+56	4056	rail	rail rails
+57	4057	hospitalier	hospitalier hospitaliers hospitalière hospitalières
+58	4058	adhérer	adhérer adhère adhéré adhèrent adhérant adhérez adhéra adhérait adhéraient adhérons adhères adhérera adhéreront adhérèrent adhérais
+59	4059	densité	densité densités
+60	4060	dauphin	dauphin dauphins dauphine
+61	4061	difficilement	difficilement
+62	4062	fréquemment	fréquemment
+63	4063	loisirs	loisirs
+64	4064	popularité	popularité
+65	4065	sincèrement	sincèrement
+66	4066	pédagogique	pédagogique pédagogiques
+67	4067	allier	allier allie alliant allient allia allies alliait alliera allièrent allieront alliaient allions allias allierait alliez
+68	4068	systématique	systématique systématiques
+69	4069	redonner	redonner redonne redonné redonnent redonnant redonnera redonnez redonnerait redonna redonnait redonnes redonnons redonneront redonnerai
+70	4070	majoritaire	majoritaire majoritaires
+71	4071	distributeur	distributeur distributeurs distributrice distributrices
+72	4072	encadrer	encadré encadrer encadrant encadre encadrent encadrants encadraient encadrait encadrera encadrez encadreront encadrante
+73	4073	tuyau	tuyau tuyaux
+74	4074	consentement	consentement consentements
+75	4075	bisou	bisous bisou bizou
+76	4076	adhésion	adhésion adhésions
+77	4077	attribution	attribution attributions
+78	4078	avertissement	avertissement avertissements
+79	4079	orage	orage orages
+80	4080	toxique	toxiques toxique
+81	4081	stand	stand stands
+82	4082	tunisien	tunisien tunisienne tunisiens tunisiennes
+83	4083	choir	chu chut choir chus chois chûtes
+84	4084	singe	singe singes
+85	4085	transparence	transparence transparences
+86	4086	géographie	géographie géographies
+87	4087	enthousiasme	enthousiasme enthousiasmes
+88	4088	gendarmerie	gendarmerie gendarmeries
+89	4089	ras	ras rase rases
+90	4090	carter	carter cartes cartons carta carters cartas
+91	4091	pendre	pendre pendu pend pendus pendue pendent pendait pendez pendues pends pende pendaient pendra pendit
+92	4092	répertoire	répertoire répertoires
+93	4093	mobilier	mobilier mobilières mobiliers mobilière
+94	4094	artillerie	artillerie artilleries
+95	4095	réplique	réplique répliques replique
+96	4096	adorable	adorable adorables
+97	4097	clause	clause clauses
+98	4098	torture	torture tortures
+99	4099	agresser	agressé agresser agressions agresse agressent agressant agresses agressait agressez agressaient
+100	4100	soupçonner	soupçonne soupçonné soupçonner soupçonnait soupçonnent soupçonnant soupçonnais soupçonnaient soupçonnez soupçonnons soupçonnes soupçonnerait soupçonnera soupçonna soupçonnions soupçonniez

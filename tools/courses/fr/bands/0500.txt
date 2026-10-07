@@ -1,0 +1,100 @@
+1	401	image	image images
+2	402	grâce	grâce grâces
+3	403	principal	principal principaux principale principales
+4	404	musique	musique musiques
+5	405	million	millions million
+6	406	compris	compris comprise comprises
+7	407	joueur	joueur joueurs joueuse joueuses
+8	408	aider	aider aidé aides aidez aidera aident aidant aiderait aideront aidait aida aidons aidants aiderai aidaient aiderons aiderais aideraient aidais aidèrent aiderez aideras aidiez aidante aidions aidantes
+9	409	pied	pied pieds
+10	410	manger	manger mange mangé mangent manges mangez mangeant mangeait mangeais mangeaient mangeons mangera mangerais mangerai mangerez mangerait mangeront mangea mangeras mangions mangerons mangeraient mangèrent mangiez mangeai mangers
+11	411	intérêt	intérêt intérêts
+12	412	cinq	cinq
+13	413	mars	mars
+14	414	œuvre	œuvre œuvres oeuvre uvre
+15	415	particulier	particulier particuliers particulière particulières
+16	416	auteur	auteur auteurs auteure autrice
+17	417	montrer	montrer montré montrent montrant montrait montrez montres montrera montraient montra montrons montrerai montrerait montreront montrais montrerais montrerons montrèrent montreraient montrerez montreras montriez montrions montrai
+18	418	source	source sources
+19	419	super	super supers supa supe supé
+20	420	programme	programme programmes
+21	421	humain	humain humaine humains humaines
+22	422	monter	monter montant monte monté montent montants montés montait montante montes montez montées monta montera montaient montantes montons montais monterait monteront montèrent monterai monterez monteraient monterais montions monterons monteras montai montiez
+23	423	obtenir	obtenir obtenu obtient obtiennent obtint obtenez obtiendra obtenant obtiens obtienne obtenait obtiendrait obtenons obtiendrez obtiendront obtinrent obtenaient obtiendrons obtiendras obtiendraient obtenais obtiendrai obteniez obtiendrais obtenions obtins obtiennes obtiendriez
+24	424	choisir	choisi choisir choisis choisit choisissent choisissez choisissant choisira choisisse choisissons choisirais choisissait choisiront choisirait choisirai choisirent choisirez choisissaient choisiraient choisiriez choisirons choisissais choisiras choisissiez choisisses choisissions
+25	425	réseau	réseau réseaux
+26	426	parfois	parfois
+27	427	sud	sud
+28	428	emploi	emploi emplois
+29	429	siècle	siècle siècles siecle
+30	430	train	train trains
+31	431	risque	risque risques
+32	432	gauche	gauche gauches
+33	433	importer	importe importer importé importent importait importes importaient importera importons importa importerait importez
+34	434	peine	peine peines
+35	435	occuper	occupe occuper occupé occupée occupent occupés occupant occupait occupants occupera occupées occupaient occupa occupez occupons occupes occuperont occuperait occupais occupèrent occuperais occuperai occuperons occupante occuperaient occupantes occupions occupiez occuperez
+36	436	prêt	prêt prêts prête prêtes
+37	437	décider	décidé décide décider décident décida décidera décides décidez décidait décidant décidèrent décidons décideront décidaient déciderait décidai décidais déciderons décidiez déciderez déciderai décideraient décidions décidâmes décideras déciderais
+38	438	population	population populations
+39	439	numéro	numéro no numéros nº
+40	440	route	route routes rte
+41	441	doute	doute doutes
+42	442	parent	parents parent parente parentes parens
+43	443	étranger	étranger étrangers étrangères étrangère
+44	444	condition	conditions condition
+45	445	objet	objet objets
+46	446	vendre	vendre vendu vend vendus vendue vends vendent vendues vendant vendait vendez vendra vendaient vende vendit vendons vendrait vendront vendais vendraient vendirent vendrais vendrai vendrons vendes vendiez vendions vendras vendrez
+47	447	voilà	voilà v'la
+48	448	lien	lien liens
+49	449	peur	peur peurs
+50	450	longtemps	longtemps
+51	451	police	police polices
+52	452	cher	cher chère chers chères
+53	453	classe	classe classes
+54	454	club	club clubs
+55	455	environ	environ environs
+56	456	chance	chance chances
+57	457	merde	merde merdes marde
+58	458	deuxième	deuxième deuxièmes
+59	459	époque	époque époques
+60	460	sentir	sent sentir senti sentent sentait sentez sentais sente sentant sentis sentit sentira sentaient sentons sentirais sentirez sentes sentirait sentiront sentiras sentirai sentiez sentions sentiraient sentirent sentirons sentiriez sentirions
+61	461	mouvement	mouvement mouvements
+62	462	sécurité	sécurité sécurités
+63	463	juin	juin
+64	464	lorsque	lorsque
+65	465	mai	mai
+66	466	septembre	septembre
+67	467	langue	langue langues
+68	468	difficile	difficile difficiles dificile
+69	469	tuer	tuer tué tue tuent tuant tuez tua tuera tuait tuerait tuerais tuaient tuerai tueras tuèrent tuons tueront tueraient tuais tuas tuerons tuerez tuai tues
+70	470	tirer	tirer tire tiré tirés tirent tirée tirant tirées tirait tirez tira tires tirera tiraient tirons tirerait tireront tirais tirerai tirerons tirants tirèrent tireraient tirerez tirerais tirai tireras tirions tiriez tiras
+71	471	culture	culture cultures
+72	472	texte	texte textes
+73	473	parmi	parmi parmy
+74	474	rencontre	rencontre rencontres
+75	475	presque	presque
+76	476	tellement	tellement
+77	477	milieu	milieu milieux
+78	478	participer	participer participé participe participants participent participant participera participez participantes participait participeront participaient participa participes participante participons participerai participèrent participerait participais participeraient participerez participerons participerais participiez participions participeras
+79	479	roi	roi rois
+80	480	fonction	fonction fonctions
+81	481	économique	économique économiques
+82	482	local	locaux local locale locales
+83	483	développement	développement développements
+84	484	rouge	rouge rouges rvb
+85	485	intérieur	intérieur intérieure intérieurs intérieures
+86	486	santé	santé santés
+87	487	voix	voix
+88	488	feu	feu feux feue feus
+89	489	quitter	quitter quitte quitté quittent quittant quitta quittera quittait quittes quittez quittons quittèrent quittaient quitterait quitteront quitterai quittais quitterais quitterons quitterez quitteraient quitteras quittions quittai quittiez quittâmes
+90	490	privé	privé privée privés privées
+91	491	armée	armée armées
+92	492	période	période périodes
+93	493	relation	relations relation
+94	494	ajouter	ajouter ajoute ajouté ajoutant ajoutent ajoutez ajoutait ajouterai ajoutons ajouta ajoutera ajoutes ajouterais ajoutaient ajouteront ajouterait ajoutèrent ajouterons ajoutais ajouterez ajouteraient ajoutai ajoutiez ajoutions
+95	495	personnel	personnel personnelle personnels personnelles
+96	496	autour	autour autours
+97	497	hier	hier hie hia
+98	498	rentrer	rentrer rentre rentré rentrant rentrent rentres rentrait rentrez rentrera rentrais rentra rentrons rentraient rentreront rentrerai rentrerait rentrerais rentrèrent rentreras rentrai rentrerons rentreraient rentrions rentrerez rentrante rentrants rentriez
+99	499	zone	zone zones
+100	500	date	date dates

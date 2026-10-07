@@ -1,0 +1,100 @@
+1	3001	deviner	deviner devine devinez deviné devinerez devines devinait devinent devinant devina devinera devinais devineras devinerait devinons devineriez
+2	3002	forfait	forfait forfaits
+3	3003	mortel	mortel mortels mortelle mortelles
+4	3004	symptôme	symptômes symptôme
+5	3005	expédition	expédition expéditions
+6	3006	baie	baie baies
+7	3007	islamique	islamique islamiques
+8	3008	écologique	écologique écologiques
+9	3009	ennuyer	ennuie ennuyer ennuyé ennuient ennuyant ennuies ennuyait ennuyais ennuyée ennuyez ennuyante ennuyés ennuierai ennuyaient ennuierait ennuyantes ennuiera ennuyants ennuierais ennuierez ennuyées ennuieront ennuyons
+10	3010	reproduire	reproduire reproduit reproduisent reproduise reproduisant reproduira reproduis reproduisons reproduisait reproduirait reproduiront reproduisaient reproduisez reproduisit
+11	3011	échantillon	échantillon échantillons
+12	3012	bill	bill bills
+13	3013	séparation	séparation séparations
+14	3014	paysan	paysans paysan paysanne paysannes
+15	3015	magie	magie magies
+16	3016	catastrophe	catastrophe catastrophes
+17	3017	anonyme	anonyme anonymes
+18	3018	lent	lent lente lents lentes
+19	3019	open	open opens
+20	3020	pacifique	pacifique pacifiques
+21	3021	fragile	fragile fragiles
+22	3022	boisson	boisson boissons
+23	3023	roux	roux rousse rousses
+24	3024	neveu	neveu nièce neveux nièces
+25	3025	héritage	héritage héritages
+26	3026	clan	clan clans
+27	3027	duo	duo duos
+28	3028	significatif	significative significatif significatifs significatives
+29	3029	déclencher	déclencher déclenché déclenche déclenchent déclenchant déclenchera déclencha déclencherait déclenchait déclenchez déclenchèrent déclencheront déclenchaient déclenches déclencheraient
+30	3030	abonnement	abonnement abonnements
+31	3031	consultation	consultation consultations
+32	3032	canton	canton cantons
+33	3033	touristique	touristique touristiques
+34	3034	autonome	autonome autonomes
+35	3035	barrage	barrage barrages
+36	3036	nettement	nettement
+37	3037	intense	intense intenses
+38	3038	correct	correct correcte corrects correctes
+39	3039	imprimer	imprimé imprimer imprime impriment imprimez imprimant imprimes imprimait imprimera imprima imprimons imprimaient
+40	3040	câble	câble câbles
+41	3041	accélérer	accélérer accélère accéléré accélérée accélèrent accélérant accélérés accélérées accéléra accélérait accélérez accélérera accélérons accélérerait accélères accéléraient accélèrera accélérèrent
+42	3042	transmission	transmission transmissions
+43	3043	éthique	éthique éthiques
+44	3044	filmer	filmer filmé filme filment filmait filmant filmes filmez filmaient filmais filmera filma filmons
+45	3045	coach	coach coachs
+46	3046	exclure	exclure exclut exclus excluant exclue excluent exclues excluait excluons excluaient exclurait excluez exclura
+47	3047	légume	légumes légume
+48	3048	pencher	penche pencher penchant penché penchent penchants penchait pencha penchez penchera pencherais penchons penchaient penches pencherait pencherai penchais pencheront pencherons penchèrent
+49	3049	contrainte	contrainte contraintes
+50	3050	ceinture	ceinture ceintures
+51	3051	menu	menu menus menue menues
+52	3052	honorer	honoré honorer honore honorent honorant honorez honorons honorera honorait honora honores honorerait honoraient honoreront honoreras honorerons
+53	3053	divin	divine divin divines divins
+54	3054	métropole	métropole métropoles métropolis
+55	3055	célibataire	célibataire célibataires
+56	3056	saluer	saluer salue salué saluent saluant saluons salua saluait saluez saluaient saluera salues saluèrent salueront saluais
+57	3057	héritier	héritier héritiers héritière héritières
+58	3058	interpréter	interpréter interprété interprètes interprètent interprétant interprétait interprétera interpréta interprétez interprètera interprétaient interpréteront interprétons interpréterait interprétèrent interprèteront
+59	3059	fraude	fraude fraudes
+60	3060	age	age ages
+61	3061	coréen	coréen coréenne coréens coréennes
+62	3062	sorcière	sorcière sorcier sorcières sorciers
+63	3063	distinction	distinction distinctions
+64	3064	édifice	édifice édifices
+65	3065	cigarette	cigarette cigarettes
+66	3066	rompre	rompre rompu rompt rompue rompus rompant rompent rompues rompit rompe romps rompra rompait rompez romprait rompons rompirent rompaient
+67	3067	trajet	trajet trajets
+68	3068	quelconque	quelconque quelconques
+69	3069	spirituel	spirituel spirituelle spirituels spirituelles
+70	3070	gloire	gloire gloires
+71	3071	bob	bob bobs
+72	3072	bite	bite bites bitte bittes
+73	3073	fatigué	fatigué fatigués fatiguée fatiguées
+74	3074	rajouter	rajouter rajoute rajouté rajoutant rajoutent rajoutez rajoutes rajouterai rajouterais rajoutait rajoutera rajoutons rajouta rajouterait rajoutais rajouteront rajoutaient
+75	3075	semblable	semblable semblables
+76	3076	exécutif	exécutif exécutive exécutifs exécutives
+77	3077	emplacement	emplacement emplacements
+78	3078	clément	clément clémence clémentine clémente cléments clémentines clémentes
+79	3079	charmant	charmant charmante charmants charmantes
+80	3080	parfum	parfum parfums
+81	3081	environnemental	environnementale environnemental environnementales environnementaux
+82	3082	marketing	marketing marketings
+83	3083	aire	aire aires
+84	3084	parer	parait pare parer parant pares parez paras parions pariez parai parais parera
+85	3085	autrefois	autrefois
+86	3086	doucement	doucement
+87	3087	fi	fi
+88	3088	hockey	hockey
+89	3089	asseoir	asseoir assoit assied assois assit assieds asseyez assoient assoie asseyait asseyant asseyons assoies asseyais asseyaient asseyent assirent assir assiéra assoira assoyez asseye assisse
+90	3090	convertir	convertir converti convertis convertie convertit converties convertissent convertissant convertisse convertissez convertira convertirent convertissait convertiront convertirait
+91	3091	patte	pattes patte
+92	3092	flotte	flotte flottes
+93	3093	recommandation	recommandations recommandation
+94	3094	délit	délit délits
+95	3095	cahier	cahier cahiers
+96	3096	cote	cote cotes
+97	3097	ère	ère ères
+98	3098	détaillé	détaillé détaillée détaillées détaillés
+99	3099	gaule	gaulle gaule gaules
+100	3100	recueil	recueil recueils

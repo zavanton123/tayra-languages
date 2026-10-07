@@ -1,0 +1,100 @@
+1	2401	rock	rock
+2	2402	apparition	apparition apparitions
+3	2403	relative	relative relatives
+4	2404	toit	toit toits
+5	2405	larme	larmes larme
+6	2406	opérer	opérer opère opéré opérant opèrent opérait opéras opéraient opérera opérons opérez opérerait opéreront opérante opérants opèrera opérèrent opérantes
+7	2407	épaule	épaule épaules
+8	2408	croiser	croise croiser croisent croisant croises croisez croisons croisera croisait croisa croisaient croiseront croisais croiserez croisèrent croiserai croiseras croiserait croisions croiserons croiserais croiseraient croisai croisiez
+9	2409	pute	pute putes
+10	2410	réputation	réputation réputations
+11	2411	titulaire	titulaire titulaires
+12	2412	joyeux	joyeux joyeuse joyeuses
+13	2413	masculin	masculin masculine masculins masculines
+14	2414	règne	règne règnes
+15	2415	go	go gos
+16	2416	distribuer	distribuer distribué distribués distribue distribuée distribuées distribuent distribuant distribuait distribuaient distribuera distribuez distribua distribuons distribues distribueront distribuerait distribuèrent distribuais
+17	2417	couronne	couronne couronnes
+18	2418	discipline	discipline disciplines
+19	2419	salope	salope salaud salopes salauds salop salops
+20	2420	alerte	alerte alertes
+21	2421	gamme	gamme gammes
+22	2422	forum	forum forums
+23	2423	réfugié	réfugiés réfugié réfugiée réfugiées
+24	2424	extraordinaire	extraordinaire extraordinaires
+25	2425	magique	magique magiques
+26	2426	poil	poil poils
+27	2427	demeurer	demeurent demeurer demeurant demeuré demeurait demeurera demeurés demeura demeurée demeureront demeuraient demeurées demeures demeurez demeurons demeurèrent demeurerait demeureraient demeurerai demeurerez demeurerons demeurais demeurât
+28	2428	virer	virer viré vire virez vires virant virait vira virons virera viraient virerait virent
+29	2429	accessible	accessible accessibles
+30	2430	efficacité	efficacité efficacités
+31	2431	transporter	transporter transporté transporte transportant transportent transportait transportaient transportera transportez transporta transportons transportes transporteront transporterait transportèrent transportais transporterons
+32	2432	licence	licence licences
+33	2433	correspondant	correspondant correspondants correspondante correspondantes
+34	2434	voyageur	voyageurs voyageur voyageuse voyageuses
+35	2435	continu	continue continu continus continues
+36	2436	sénat	sénat
+37	2437	atteinte	atteinte atteintes
+38	2438	brun	brun brune brunes bruns
+39	2439	radical	radical radicale radicaux radicales
+40	2440	communiquer	communiquer communique communiquent communiquant communiquez communiquait communiquera communiquons communiquaient communiques communiquerons communiqueront communiquerai communiqua communiquerait communiquerez communiquais communiquiez communiquions
+41	2441	marchand	marchand marchands marchande marchandes
+42	2442	brut	brut brute brutes bruts
+43	2443	exécution	exécution exécutions
+44	2444	prière	prière prières
+45	2445	signal	signal signaux
+46	2446	bâtir	bâtir bâti bâtie bâtisse bâties bâtis bâtit bâtisses bâtissent bâtissons bâtissant bâtirent bâtira bâtissez bâtirai bâtissait bâtissaient bâtiront bâtirait bâtirons
+47	2447	queue	queue queues
+48	2448	vaisseau	vaisseau vaisseaux
+49	2449	transformation	transformation transformations
+50	2450	connard	connard connards connasse connasses conasse conard
+51	2451	onde	ondes onde
+52	2452	nier	nier nie nié niais nient niant nia nies niaise niez niait niera niaises niasse nions nierait niaient nierai nias nierez nieront nierais
+53	2453	manqué	manqué manquée manqués manquées
+54	2454	réussite	réussite réussites
+55	2455	odeur	odeur odeurs
+56	2456	julien	julien julienne juliennes
+57	2457	partisan	partisans partisan partisane partisanes
+58	2458	pardon	pardon pardons
+59	2459	dater	data datant datent dater datait dates dataient datas daterait dateraient datez
+60	2460	paquet	paquet paquets pacquet
+61	2461	profession	profession professions
+62	2462	fortune	fortune fortunes
+63	2463	relève	relève relèves
+64	2464	municipalité	municipalité municipalités
+65	2465	cinquième	cinquième cinquièmes
+66	2466	danser	danser dansant dansent dansé danses dansait dansez dansaient dansante dansais dansantes dansants dansons dansera dansa danseront danserai danserait dansions
+67	2467	diviser	divisé diviser divise divisent divisions divisant divisa divisez divisait divisera divisons divisaient divises diviserait divisèrent diviseront
+68	2468	sommeil	sommeil sommeils
+69	2469	panneau	panneaux panneau
+70	2470	rupture	rupture ruptures
+71	2471	piscine	piscine piscines
+72	2472	visiteur	visiteurs visiteur visiteuse
+73	2473	alpe	alpes alpe
+74	2474	debout	debout
+75	2475	jusqu'en	jusqu'en
+76	2476	étonnant	étonnant étonnante étonnantes étonnants
+77	2477	relatif	relatif relatifs relatives
+78	2478	passager	passagers passager passagère passages passagères
+79	2479	arc	arc arcs
+80	2480	camion	camion camions
+81	2481	mystère	mystère mystères
+82	2482	accusation	accusation accusations
+83	2483	variété	variété variétés
+84	2484	bassin	bassin bassins bassinet
+85	2485	matériau	matériaux matériau
+86	2486	clinique	clinique cliniques
+87	2487	ski	ski skis
+88	2488	indispensable	indispensable indispensables
+89	2489	ordinaire	ordinaire ordinaires
+90	2490	pétrole	pétrole pétroles
+91	2491	chant	chant chants
+92	2492	coopération	coopération coopérations cooperation
+93	2493	colonne	colonne colonnes
+94	2494	comédie	comédie comédies
+95	2495	évidence	évidence évidences
+96	2496	adapter	adapter adapte adaptent adaptant adaptera adaptes adaptez adapteront adaptait adaptons adapta adaptaient adapterait adapterons adapterai
+97	2497	insulter	insulter insultes insultant insulté insultent insultée insultés insultants insultez insultante insultait insultaient insultantes insultées insultais insultera insulterai insulta insultons
+98	2498	dynamique	dynamique dynamiques
+99	2499	montage	montage montages
+100	2500	marge	marge marges

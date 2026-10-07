@@ -1,0 +1,100 @@
+1	7201	digestif	digestif digestifs digestive digestives
+2	7202	donjon	donjon donjons
+3	7203	moléculaire	moléculaire moléculaires
+4	7204	analytique	analytique analytiques
+5	7205	corbeau	corbeau corbeaux
+6	7206	tricher	tricher triché trichent trichant trichez triches trichait
+7	7207	interviewer	interviewé interviewer interviewe interviewait interviewant interviewent intervieweuse interviewes interviewers
+8	7208	statuer	statuer statué statues statuant statuera statuent statua statuait
+9	7209	scie	scie scies
+10	7210	barbarie	barbarie barbaries
+11	7211	réglage	réglage réglages
+12	7212	caprice	caprice caprices
+13	7213	kiffer	kiffe kiffer kiffé kiffent kiffes kiffant kiffais kiffez kiffait kifferais kiffa
+14	7214	réciter	réciter récite récité récitant récitent récitait récita récitez récitaient récitera récitais récitants récites récitons
+15	7215	perdurer	perdure perdurer perdurent perduré perdurera perdureront perdurait perdura
+16	7216	alterner	alterne alterner alternent alterné alternes alternait alterna alternaient alternera alterneront alternez
+17	7217	plain	plain plaines plains
+18	7218	présumer	présume présumer présumant présument présumons présumait présumes présumez
+19	7219	anciennement	anciennement
+20	7220	bastille	bastille
+21	7221	cul-bénit	cb
+22	7222	exceptionnellement	exceptionnellement
+23	7223	handball	handball
+24	7224	hui	hui
+25	7225	légalité	légalité
+26	7226	spontanément	spontanément
+27	7227	staline	staline
+28	7228	étrangement	étrangement
+29	7229	excédent	excédent excédents
+30	7230	caverne	caverne cavernes
+31	7231	hanter	hante hanter hantent hantait hantera hantes hantaient hantant hanta hanterait hanteront
+32	7232	écolier	écoliers écolier écolière écolières
+33	7233	guilde	guilde guildes gilde
+34	7234	premium	premium premiums
+35	7235	substantiel	substantielle substantiel substantielles substantiels
+36	7236	huer	hue hué hua huer huez huent hues huant huai
+37	7237	mercier	mercier mercière merciers
+38	7238	déprimé	déprimé déprimée déprimés déprimées
+39	7239	disciplinaire	disciplinaire disciplinaires
+40	7240	précurseur	précurseur précurseurs
+41	7241	ample	ample amples
+42	7242	valet	valet valets
+43	7243	sociologique	sociologique sociologiques
+44	7244	pillage	pillage pillages
+45	7245	mécanicien	mécanicien mécaniciens mécanicienne
+46	7246	décharger	décharger déchargé décharges déchargée déchargent déchargés déchargées déchargeant déchargeait déchargez déchargeaient déchargera déchargeons déchargea
+47	7247	dégustation	dégustation dégustations
+48	7248	nef	nef nefs
+49	7249	éminent	éminent éminents éminente éminentes
+50	7250	cale	cale cales
+51	7251	terrifiant	terrifiant terrifiante terrifiants terrifiantes
+52	7252	documenter	documenté documenter documente documentant documenta documentent
+53	7253	inaugurer	inaugure inaugurer inaugurant inaugurait inaugurent inaugura inaugurera inaugurons inauguraient
+54	7254	éventail	éventail éventails
+55	7255	sympathisant	sympathisants sympathisant sympathisante sympathisantes
+56	7256	muse	muse muses
+57	7257	gueuler	gueuler gueulent gueulé gueulant gueulait gueulaient gueulez gueulais
+58	7258	tronçon	tronçon tronçons
+59	7259	vertige	vertige vertiges
+60	7260	pancarte	pancarte pancartes
+61	7261	rush	rush rushs
+62	7262	cargo	cargo cargos
+63	7263	gaspiller	gaspiller gaspillé gaspille gaspillent gaspillez gaspillant gaspilles gaspillait gaspillons
+64	7264	ovale	ovale ovales
+65	7265	orteil	orteils orteil
+66	7266	para	para paras
+67	7267	syndic	syndic syndics syndique
+68	7268	hisser	hisser hisse hissé hissant hissent hissa hissez hissait hissera
+69	7269	hydrocarbure	hydrocarbures hydrocarbure
+70	7270	indicatif	indicatif indicative indicatifs indicatives
+71	7271	coquine	coquine coquines
+72	7272	ensoleillé	ensoleillé ensoleillée ensoleillées ensoleillés
+73	7273	pivot	pivot pivots
+74	7274	trousse	trousse trousses
+75	7275	fureur	fureur fureurs
+76	7276	vinaigre	vinaigre vinaigres
+77	7277	ronger	ronge ronger rongé rongent rongeait rongeant ronges rongeaient rongera
+78	7278	philippin	philippines philippin philippins
+79	7279	malgache	malgache malgaches
+80	7280	sanglier	sanglier sangliers
+81	7281	boisé	boisé boisée boisées boisés
+82	7282	shop	shop shops
+83	7283	inoubliable	inoubliable inoubliables
+84	7284	enrichissement	enrichissement enrichissements
+85	7285	gratuité	gratuité gratuités
+86	7286	advenir	advienne advenir advient advenu adviendra advenant adviendrait advint advenait advenue adviennent advenus advenues
+87	7287	apologie	apologie apologies
+88	7288	hidalgo	hidalgo hidalgos
+89	7289	vieillard	vieillard vieillards
+90	7290	selfie	selfie selfies
+91	7291	sioniste	sioniste sionistes
+92	7292	transcription	transcription transcriptions
+93	7293	hospitalisation	hospitalisation hospitalisations
+94	7294	gaillard	gaillard gaillarde gaillards gaillardes
+95	7295	insignifiant	insignifiant insignifiante insignifiants insignifiantes
+96	7296	expérimenter	expérimenter expérimente expérimentent expérimentant expérimentez expérimentait expérimentons expérimenta expérimentaient expérimentera expérimentes
+97	7297	déformation	déformation déformations
+98	7298	planer	planer planant plané planait planent plana planante planaient planas planantes planera planez planants planes
+99	7299	expirer	expire expiré expirer expirant expirent expirait expirera expirez expira expires
+100	7300	libyen	libyen libyenne libyens libyennes lybien

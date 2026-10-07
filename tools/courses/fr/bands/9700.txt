@@ -1,0 +1,100 @@
+1	9601	ancrage	ancrage ancrages
+2	9602	havane	havane havanes
+3	9603	charcuterie	charcuterie charcuteries
+4	9604	liqueur	liqueur liqueurs
+5	9605	fantasmer	fantasmer fantasmes fantasmé fantasmée fantasment fantasmées fantasmés fantasmez fantasmant fantasmait fantasma
+6	9606	mélancolie	mélancolie melancolie
+7	9607	mire	mire mires
+8	9608	outrance	outrance outrances
+9	9609	homard	homard homards
+10	9610	affiliation	affiliation affiliations
+11	9611	encercler	encerclé encercler encerclent encercle encerclant encerclaient encerclait
+12	9612	cell	cell cells
+13	9613	déléguer	déléguer délègue délèguent déléguant délégua déléguait déléguera
+14	9614	farouche	farouche farouches
+15	9615	graveur	graveur graveurs
+16	9616	météorite	météorite météorites
+17	9617	greffier	greffier greffiers greffière
+18	9618	forer	forez forer fora fore foré forés forant foras forent fores
+19	9619	enragé	enragé enragés enragée enragées
+20	9620	guinéen	guinéen guinéenne guinéens guinéennes
+21	9621	vexé	vexé vexée vexés
+22	9622	beige	beige beiges
+23	9623	commandeur	commandeur commandeurs
+24	9624	généalogique	généalogique généalogiques
+25	9625	mème	mème mèmes
+26	9626	réticent	réticent réticents réticente réticentes
+27	9627	parure	parure parures
+28	9628	colocation	coloc colocation colocations
+29	9629	pierrot	pierrot pierrette pierrots
+30	9630	fatalité	fatalité fatalités
+31	9631	brouillon	brouillon brouillons brouillonne brouillonnes
+32	9632	pigment	pigments pigment
+33	9633	styliste	styliste stylistes
+34	9634	autocar	autocar autocars
+35	9635	photovoltaïque	photovoltaïque photovoltaïques
+36	9636	fédéraliste	fédéraliste fédéralistes
+37	9637	ambulant	ambulant ambulants ambulante ambulantes
+38	9638	ressentiment	ressentiment ressentiments
+39	9639	profane	profane profanes
+40	9640	rêne	rênes rêne
+41	9641	motorisation	motorisation motorisations
+42	9642	rythmique	rythmique rythmiques
+43	9643	abroger	abroger abrogé abroge abrogeant abrogera
+44	9644	fronde	fronde frondes
+45	9645	remarier	remarier remarié remariée remarie remaria remariés remarient remariées remariera
+46	9646	ermite	ermite hermite ermites
+47	9647	immaculé	immaculée immaculé immaculés immaculées
+48	9648	fiché	fiché fichés fichée fichées
+49	9649	centième	centième centièmes
+50	9650	islamophobe	islamophobe islamophobes
+51	9651	prouesse	prouesses prouesse
+52	9652	attractivité	attractivité
+53	9653	cactus	cactus
+54	9654	carême	carême
+55	9655	choléra	choléra
+56	9656	cortex	cortex
+57	9657	crucifix	crucifix
+58	9658	excessivement	excessivement
+59	9659	gluten	gluten
+60	9660	génétiquement	génétiquement
+61	9661	injustement	injustement
+62	9662	marxisme	marxisme
+63	9663	pelletier	pelletier
+64	9664	raisonnablement	raisonnablement
+65	9665	sobriété	sobriété
+66	9666	chum	chum chums
+67	9667	liturgie	liturgie liturgies
+68	9668	chancellerie	chancellerie chancelleries
+69	9669	casseur	casseurs casseur
+70	9670	royauté	royauté royautés
+71	9671	abominable	abominable abominables
+72	9672	appréhension	appréhension appréhensions
+73	9673	millésime	millésime millésimes
+74	9674	rouage	rouages rouage
+75	9675	perturbateur	perturbateurs perturbateur perturbatrice perturbatrices
+76	9676	lisser	lisser lisses lissé lissa lissant lissent lissez
+77	9677	éponyme	éponyme éponymes
+78	9678	marcheur	marcheurs marcheur marcheuse
+79	9679	romand	romande romand romands romandes
+80	9680	costard	costard costards
+81	9681	tromperie	tromperie tromperies
+82	9682	bey	bey beys
+83	9683	loulou	loulou loulous louloute
+84	9684	droguer	drogué droguer droguent droguait
+85	9685	affût	affût affûts
+86	9686	discutable	discutable discutables
+87	9687	distorsion	distorsion distorsions
+88	9688	emprunteur	emprunteur emprunteurs
+89	9689	convivial	convivial conviviale conviviaux conviviales
+90	9690	enclave	enclave enclaves
+91	9691	tondre	tondre tondu tond tondus tondue tonds tondues tondait tondent tonde tondant
+92	9692	vendange	vendanges vendange
+93	9693	amortissement	amortissement amortissements
+94	9694	procuration	procuration procurations
+95	9695	baignade	baignade baignades
+96	9696	mil	mil mils
+97	9697	tandem	tandem tandems
+98	9698	jouable	jouable jouables
+99	9699	acolyte	acolyte acolytes
+100	9700	secousse	secousse secousses

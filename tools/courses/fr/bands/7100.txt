@@ -1,0 +1,100 @@
+1	7001	odieux	odieux odieuse odieuses
+2	7002	héroïque	héroïque héroïques
+3	7003	législateur	législateur législateurs
+4	7004	figurine	figurines figurine
+5	7005	polyvalent	polyvalent polyvalente poly polyvalents polyvalentes
+6	7006	éducateur	éducateur éducateurs éducatrice
+7	7007	immatriculation	immatriculation immatriculations
+8	7008	mercenaire	mercenaires mercenaire
+9	7009	bailleur	bailleur bailleurs
+10	7010	écharpe	écharpe écharpes
+11	7011	raccrocher	raccrocher raccroche raccroché raccrochent raccrochant raccroches raccrocha raccrochez raccrochait raccrochera
+12	7012	conditionnel	conditionnelle conditionnel conditionnelles conditionnels
+13	7013	tutoriel	tuto tutoriel tutoriels tutorial
+14	7014	concorde	concorde concordes
+15	7015	gerber	gerbe gerber gerbes gerbant gerbé gerbera gerba gerbante
+16	7016	chronologie	chronologie chronologies
+17	7017	contaminer	contaminé contaminer contamine contaminant contaminent contamines
+18	7018	orgueil	orgueil orgueils
+19	7019	affectation	affectation affectations
+20	7020	perfectionner	perfectionner perfectionné perfectionne perfectionnés perfectionnée perfectionnées perfectionnent perfectionnant perfectionna perfectionnez perfectionnera
+21	7021	généralisation	généralisation généralisations
+22	7022	prôner	prônant prônent prôner prôné prônait prônaient prônons prônez prônes
+23	7023	emballer	emballer emballe emballent emballez emballes emballant emballait emballons emballa
+24	7024	reconstitution	reconstitution reconstitutions
+25	7025	binaire	binaire binaires
+26	7026	muraille	muraille murailles
+27	7027	infernal	infernal infernale infernales infernaux
+28	7028	insurgé	insurgés insurgé insurgée insurgées
+29	7029	tailleur	tailleur tailleurs tailleuse
+30	7030	gelée	gelée gelées
+31	7031	malédiction	malédiction malédictions
+32	7032	acharné	acharné acharnée acharnés acharnées
+33	7033	irresponsable	irresponsable irresponsables
+34	7034	pinceau	pinceau pinceaux
+35	7035	vasculaire	vasculaire vasculaires
+36	7036	aucunement	aucunement
+37	7037	chips	chips
+38	7038	chrome	chrome
+39	7039	comics	comics
+40	7040	fisc	fisc
+41	7041	impunité	impunité
+42	7042	individuellement	individuellement
+43	7043	merlin	merlin
+44	7044	mutuellement	mutuellement
+45	7045	providence	providence
+46	7046	psychanalyse	psychanalyse
+47	7047	surcroît	surcroît
+48	7048	switch	switch
+49	7049	ultérieurement	ultérieurement
+50	7050	zen	zen
+51	7051	agitation	agitation agitations
+52	7052	œuvrer	œuvrer œuvré œuvrant œuvrent oeuvrer œuvres œuvrait œuvraient œuvrons œuvra œuvrera
+53	7053	pudeur	pudeur pudeurs
+54	7054	citadelle	citadelle citadelles
+55	7055	présomption	présomption présomptions
+56	7056	délivrance	délivrance délivrances
+57	7057	concepteur	concepteur concepteurs conceptrice
+58	7058	condoléance	condoléances condoléance
+59	7059	finition	finition finitions
+60	7060	surréaliste	surréaliste surréalistes
+61	7061	maille	maille mailles
+62	7062	arrogant	arrogant arrogante arrogants arrogantes
+63	7063	haleine	haleine haleines
+64	7064	perpétuer	perpétuer perpétue perpétuent perpétué perpétuant perpétuera perpétua perpétuait
+65	7065	instabilité	instabilité instabilités
+66	7066	sévir	sévit sévir sévi sévissent sévissait sévissant sévissaient sévira
+67	7067	convenable	convenable convenables
+68	7068	armer	armer arma armez arment armant armas armait armons armèrent
+69	7069	marrer	marrer marrons marré marrent marra marrait marrez marrions marriez marras marraient marres
+70	7070	passeur	passeur passeurs passeuse
+71	7071	prononciation	prononciation prononciations
+72	7072	éclaircir	éclaircir éclaircit éclairci éclaircis éclaircissent éclaircira éclaircisse éclaircissant
+73	7073	nuque	nuque nuques
+74	7074	bastion	bastion bastions
+75	7075	marxiste	marxiste marxistes
+76	7076	slave	slave slaves
+77	7077	alphabet	alphabet alphabets
+78	7078	crack	crack cracks
+79	7079	buste	buste bustes
+80	7080	corrélation	corrélation corrélations
+81	7081	imprimante	imprimante imprimantes
+82	7082	abattoir	abattoir abattoirs
+83	7083	concessionnaire	concessionnaire concessionnaires
+84	7084	locomotive	locomotive locomotives
+85	7085	indemnisation	indemnisation indemnisations
+86	7086	trappe	trappe trappes
+87	7087	romance	romance romances
+88	7088	cabaret	cabaret cabarets
+89	7089	amande	amande amandes
+90	7090	primer	primé prima primer priment primes primera primait primant primas
+91	7091	philippine	philippines philippine
+92	7092	rémunérer	rémunéré rémunérer rémunère rémunèrent rémunérant rémunérait
+93	7093	frustrant	frustrant frustrante frustrantes frustrants
+94	7094	viking	vikings viking
+95	7095	ailier	ailier ailiers ailière
+96	7096	mécontentement	mécontentement mécontentements
+97	7097	privatisation	privatisation privatisations
+98	7098	athée	athée athées
+99	7099	ethnie	ethnie ethnies
+100	7100	nomade	nomades nomade

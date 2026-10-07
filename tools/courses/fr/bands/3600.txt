@@ -1,0 +1,100 @@
+1	3501	console	console consoles
+2	3502	handicapé	handicapés handicapé handicapées handicapée
+3	3503	accroître	accroître accru accroît accrus accroissent accroissant accrut accroîtra accroîtrait accroissait accrurent accroisse
+4	3504	promener	promener promène promènent promenant promenait promené promenez promenais promenaient promenons promènes promènera promenions promena promènerait
+5	3505	modéré	modéré modérée modérés modérées
+6	3506	législation	législation législations
+7	3507	enfoncer	enfoncer enfonce enfoncé enfoncée enfoncent enfonçant enfoncés enfonces enfonçait enfonça enfoncez enfoncées enfoncera enfonçaient enfonçons enfonçais enfoncèrent enfoncerait enfonceront
+8	3508	jumeau	jumeaux jumelles jumeau jumelle
+9	3509	panne	panne pannes
+10	3510	souveraineté	souveraineté souverainetés
+11	3511	neutre	neutre neutres
+12	3512	inquiétude	inquiétude inquiétudes
+13	3513	linguistique	linguistique linguistiques
+14	3514	junior	junior juniors
+15	3515	grain	grain grains
+16	3516	correspondance	correspondance correspondances
+17	3517	compréhension	compréhension compréhensions
+18	3518	suédois	suédois suédoise suédoises
+19	3519	serge	serge serges sergine
+20	3520	craquer	craquer craqué craque craquant craquent craques craquante craquez craquait craquantes craquera craquants craqua craquerais craquerai craquaient craquais craqueront
+21	3521	résider	réside résider résidait résidé résidaient résidera résida résiderait résidez résideront résidèrent
+22	3522	cliquer	cliquez cliquer cliquant cliqué cliques cliquent cliqua
+23	3523	éprouver	éprouve éprouver éprouvé éprouvent éprouvant éprouvante éprouvait éprouvez éprouvais éprouvons éprouvantes éprouvaient éprouva éprouvants éprouves éprouvera éprouverait éprouveront éprouvèrent éprouverez éprouviez éprouvai éprouverais éprouveraient
+24	3524	percer	percer percé perce percent perçant perçants percez percera perçante perçait perça perces perçaient perceront percerait
+25	3525	bâton	bâton bâtons
+26	3526	diagnostic	diagnostic diagnostics
+27	3527	colle	colle colles
+28	3528	poutine	poutine poutines
+29	3529	guérir	guérir guéri guérit guéris guérissent guérira guérisse guérissant guérissait guérirait guériront guérissez guérirai guérissaient
+30	3530	ramasser	ramasser ramasse ramassé ramassent ramasses ramassant ramassait ramassez ramassa ramassaient ramassais ramassera ramassons ramasserait ramasserai
+31	3531	pressé	pressé pressée pressés pressées
+32	3532	considérable	considérable considérables
+33	3533	couloir	couloir couloirs
+34	3534	filet	filet filets
+35	3535	sacrifice	sacrifice sacrifices
+36	3536	lyonnais	lyonnais lyonnaise lyonnaises
+37	3537	compromis	compromis
+38	3538	statistique	statistique
+39	3539	vs	vs
+40	3540	télécharger	télécharger téléchargé téléchargez télécharge téléchargent téléchargeant télécharges téléchargera
+41	3541	moche	moche moches
+42	3542	domination	domination dominations
+43	3543	démission	démission démissions
+44	3544	transférer	transféré transférer transfère transférant transfèrent transférez transféra transférait transférera transférons transfères
+45	3545	volet	volet volets
+46	3546	rocher	rocher rochers rochas roché
+47	3547	progression	progression progressions
+48	3548	latéral	latéral latérale latérales latéraux
+49	3549	perception	perception perceptions
+50	3550	barbe	barbe barbes
+51	3551	oral	oral orale oraux orales
+52	3552	ordonné	ordonné ordonnée ordonnées ordonnés
+53	3553	magistrat	magistrat magistrats magistrate
+54	3554	maths	maths math
+55	3555	tunnel	tunnel tunnels
+56	3556	faillir	faut faillit faudra faudrait faudrais faillir faudrai failles faillirent faillait faudraient faillis
+57	3557	fauteuil	fauteuil fauteuils
+58	3558	resto	resto restos restau
+59	3559	strict	strict stricte strictes stricts
+60	3560	assaut	assaut assauts
+61	3561	enveloppe	enveloppe enveloppes
+62	3562	grille	grille grilles
+63	3563	apport	apport apports
+64	3564	permanence	permanence permanences
+65	3565	requête	requête requêtes requeste
+66	3566	jouir	jouir jouit jouissent joui jouissant jouis jouissait jouissaient jouissez jouisse jouira jouiront jouissons jouirait jouissais jouiraient jouirez
+67	3567	moine	moines moine
+68	3568	australien	australien australienne australiens australiennes
+69	3569	pourvoir	pourvoir pourvu pourvus pourvoit pourvois pourvoira pourvoient pourvoyant pourvut pourvoyait
+70	3570	compétent	compétent compétents compétente compétentes
+71	3571	exportation	exportations exportation
+72	3572	vingtaine	vingtaine vingtaines
+73	3573	entité	entité entités
+74	3574	urgent	urgent urgente urgentes urgents
+75	3575	mosquée	mosquée mosquées
+76	3576	déficit	déficit déficits
+77	3577	phare	phare phares
+78	3578	ticket	ticket tickets
+79	3579	homosexuel	homosexuels homosexuel homosexuelle homosexuelles
+80	3580	interprète	interprète interprètes
+81	3581	bol	bol bols
+82	3582	coalition	coalition coalitions
+83	3583	librairie	librairie librairies
+84	3584	épargne	épargne épargnes
+85	3585	fabrique	fabrique fabriques
+86	3586	fierté	fierté fiertés
+87	3587	réjouir	réjouir réjouit réjouis réjouissent réjouissant réjoui réjouissons réjouissait réjouissez réjouissante réjouira réjouissaient réjouisse réjouissantes réjouiront réjouissais réjouissants réjouirait réjouirent réjouirais
+88	3588	cathédrale	cathédrale cathédrales
+89	3589	constamment	constamment
+90	3590	li	li
+91	3591	mali	mali
+92	3592	nerf	nerfs nerf
+93	3593	distinct	distinctes distincts distincte distinct
+94	3594	concession	concession concessions
+95	3595	ordonner	ordonne ordonner ordonna ordonnant ordonnent ordonnait ordonnez ordonnera ordonnons ordonnèrent ordonnaient ordonnerait ordonnes ordonnerai
+96	3596	teint	teint teinte teintes teints
+97	3597	conforme	conforme conformes
+98	3598	favori	favori favorite favorites
+99	3599	flash	flash flashs
+100	3600	récolter	récolté récolter récoltes récoltent récoltant récoltait récoltera récoltons récoltez récoltaient récolta récolterait récolteront récolteras récolterez

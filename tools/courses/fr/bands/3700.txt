@@ -1,0 +1,100 @@
+1	3601	empreinte	empreinte empreintes
+2	3602	suspension	suspension suspensions
+3	3603	tweet	tweet tweets
+4	3604	gang	gang gangs
+5	3605	illusion	illusion illusions
+6	3606	pirate	pirate pirates
+7	3607	hall	hall halls
+8	3608	propagande	propagande propagandes
+9	3609	remboursement	remboursement remboursements
+10	3610	infini	infini infinie infinies infinis
+11	3611	tarder	tarder tarde tardé tardent tardera tarda tardait tardez tarderont tardèrent tardes tarderait tardant tardaient tardons tarderai tarderons tardais tarderaient tarderez
+12	3612	façade	façade façades
+13	3613	pizza	pizza pizzas
+14	3614	inégalité	inégalités inégalité
+15	3615	graine	graines graine
+16	3616	hurler	hurler hurle hurlant hurlé hurlent hurlait hurlaient hurla hurlante hurlez hurles hurlantes hurlants hurlais hurlerait hurleront
+17	3617	fantôme	fantôme fantômes
+18	3618	tache	taches tache
+19	3619	manifeste	manifeste manifestes
+20	3620	terrasse	terrasse terrasses
+21	3621	colonial	coloniale colonial coloniales coloniaux
+22	3622	fesse	fesses fesse
+23	3623	syndical	syndicale syndicales syndical syndicaux
+24	3624	marquis	marquis marquise marquises
+25	3625	reproduction	reproduction reproductions
+26	3626	char	char chars
+27	3627	orchestre	orchestre orchestres
+28	3628	carrefour	carrefour carrefours
+29	3629	plomb	plomb plombs
+30	3630	clientèle	clientèle clientèles
+31	3631	réserver	réserver réserves réservez réservent réservant réservait réservons réservera réservaient réserva réserverait réserveront réservais réserverai réserverons réserviez
+32	3632	chaussée	chaussée chaussées
+33	3633	baby	baby babys
+34	3634	méditerrané	méditerranée méditerranées
+35	3635	reconnaitre	reconnait reconnu reconnaitre reconnais reconnus reconnaissent reconnaitra reconnaissez reconnaissait reconnaisse reconnaissons reconnaitront reconnut reconnaissaient reconnaitrait reconnaitrez reconnaissais reconnaitras reconnurent reconnaissiez reconnaisses reconnaissions
+36	3636	coffre	coffre coffres
+37	3637	failli	failli faillis faillie
+38	3638	antérieur	antérieure antérieures antérieur antérieurs
+39	3639	chèvre	chèvre bouc chèvres boucs
+40	3640	management	management
+41	3641	élevage	élevage élevages
+42	3642	jet	jet jets
+43	3643	douloureux	douloureux douloureuse douloureuses
+44	3644	répandu	répandu répandue répandus répandues
+45	3645	muscle	muscles muscle
+46	3646	brigade	brigade brigades
+47	3647	fiable	fiable fiables
+48	3648	lampe	lampe lampes
+49	3649	initiale	initiale initiales
+50	3650	locataire	locataire locataires
+51	3651	satisfaction	satisfaction satisfactions
+52	3652	politicien	politiciens politicien politicienne politiciennes
+53	3653	activer	activer activé active activez activent actives activant activait activa activera activaient activerait activeront activons
+54	3654	néerlandais	néerlandais néerlandaise néerlandaises
+55	3655	étendue	étendue étendues
+56	3656	pique	pique piques
+57	3657	expertise	expertise expertises
+58	3658	amant	amant amants amante
+59	3659	indication	indication indications
+60	3660	chou	chou choux choute
+61	3661	synthèse	synthèse synthèses
+62	3662	manteau	manteau manteaux
+63	3663	assassiner	assassiné assassiner assassine assassinent assassinant assassina assassines assassinait assassinèrent assassinera assassinaient
+64	3664	assassinat	assassinat assassinats
+65	3665	filiale	filiale filiales
+66	3666	fréquenter	fréquenter fréquente fréquentent fréquentes fréquentait fréquentant fréquentaient fréquentez fréquentais fréquenta fréquentons fréquentera fréquenteront fréquentions fréquentèrent fréquenterait
+67	3667	paroisse	paroisse paroisses
+68	3668	soupe	soupe soupes
+69	3669	humide	humide humides
+70	3670	initial	initial initiales initiaux
+71	3671	haïr	hais haïr hait haïssent haï haïs haïssait haïe haïssez haïssaient haïssant haït haïssais haïsse haïssons haïront haïra
+72	3672	jouet	jouets jouet
+73	3673	juré	juré jurés jurée jurées
+74	3674	emparer	emparer empare emparé emparent empara emparant emparèrent emparait emparera emparez emparaient empareront emparerait
+75	3675	regret	regret regrets
+76	3676	altitude	altitude altitudes
+77	3677	dépendance	dépendance dépendances
+78	3678	ancêtre	ancêtres ancêtre
+79	3679	enterrer	enterré enterrer enterre enterrent enterrez enterrant enterrait enterra enterraient enterrera enterrons enterrèrent
+80	3680	amendement	amendement amendements
+81	3681	rat	rat rats
+82	3682	cuir	cuir cuirs
+83	3683	challenge	challenge challenges
+84	3684	rival	rival rivaux rivale rivales
+85	3685	illustre	illustre illustres illustrissime
+86	3686	ampleur	ampleur ampleurs
+87	3687	confusion	confusion confusions
+88	3688	lame	lame lames
+89	3689	missile	missiles missile
+90	3690	ressenti	ressenti ressentie ressenties ressentis
+91	3691	survenir	survient survenu survenir surviennent survenant survint survienne survenait surviendra surviendrait survenaient surviendront survinrent surviendraient
+92	3692	dépit	dépit
+93	3693	excès	excès
+94	3694	fumée	fumée
+95	3695	mathématiques	mathématiques
+96	3696	pyrénée	pyrénées
+97	3697	stabilité	stabilité
+98	3698	féministe	féministe féministes
+99	3699	infraction	infraction infractions
+100	3700	prévision	prévisions prévision

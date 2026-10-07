@@ -1,0 +1,100 @@
+1	3701	hebdomadaire	hebdomadaire hebdomadaires
+2	3702	certificat	certificat certificats
+3	3703	indicateur	indicateurs indicateur indicatrice indicatrices
+4	3704	annexe	annexe annexes
+5	3705	tante	tante tantes
+6	3706	benjamin	benjamin benjamine benjamins
+7	3707	législatif	législatif législative législatifs
+8	3708	ambassade	ambassade ambassades
+9	3709	vider	vider vidé vides vida vident vidant videz vidait vidons vidaient videra vidas viderait vidais
+10	3710	imagination	imagination imaginations
+11	3711	cirque	cirque cirques
+12	3712	cadavre	cadavre cadavres
+13	3713	abriter	abrite abriter abritant abritent abrité abritait abritera abritaient abrita abriterait abritez abriteront abritèrent
+14	3714	trimestre	trimestre trimestres
+15	3715	poussière	poussière poussières
+16	3716	prudent	prudent prudente prudents prudentes
+17	3717	invisible	invisible invisibles
+18	3718	maréchal	maréchal maréchaux
+19	3719	rémunération	rémunération rémunérations
+20	3720	serpent	serpent serpents serpente
+21	3721	projection	projection projections
+22	3722	assiette	assiette assiettes
+23	3723	répétition	répétition répétitions
+24	3724	répartir	répartis répartir réparti répartissent répartit répartissant répartissaient répartissez répartissait répartira répartiront répartisse
+25	3725	préalable	préalable préalables
+26	3726	clavier	clavier claviers
+27	3727	combler	combler comblé comblée comblés combles comblera comblent comblées comblant comblez comblait comblerait combleront combla comblerai comblaient
+28	3728	refléter	reflète reflètent refléter reflétant reflétait reflété reflétaient reflétera reflètera refléterait reflèterait
+29	3729	opérationnel	opérationnel opérationnelle opérationnels opérationnelles
+30	3730	pourcentage	pourcentage pourcentages
+31	3731	révolte	révolte révoltes
+32	3732	correction	correction corrections
+33	3733	nana	nana nanas
+34	3734	méfier	méfier méfie méfiant méfiez méfiants méfiante méfient méfiait méfions méfié méfies méfierais méfiantes méfiaient méfiais méfiera
+35	3735	divorce	divorce divorces
+36	3736	monétaire	monétaire monétaires
+37	3737	publicitaire	publicitaire publicitaires
+38	3738	exprès	exprès expresse expresses
+39	3739	équiper	équipé équiper équipes équipent équipant équipera équipait équipez équipa équiperont équipaient
+40	3740	préoccupation	préoccupations préoccupation
+41	3741	sûreté	sûreté sureté sûretés
+42	3742	vital	vital vitale vitaux vitales
+43	3743	priver	priver prive privant privent privas privez priverait prives privait privera priva privons priveraient priverais priveront privaient priverai
+44	3744	figaro	figaro
+45	3745	jusqu'aux	jusqu'aux
+46	3746	louise	louise
+47	3747	purement	purement
+48	3748	asile	asile asiles
+49	3749	refuge	refuge refuges
+50	3750	mélanger	mélanger mélangé mélangeant mélangent mélangez mélanges mélangeait mélangeons mélangeaient mélangera mélangea
+51	3751	poignée	poignée poignées
+52	3752	maximal	maximale maximal maximales maximaux
+53	3753	constant	constant constants constantes
+54	3754	foncier	foncière foncier fonciers foncières
+55	3755	cage	cage cages
+56	3756	typique	typique typiques
+57	3757	déchirer	déchiré déchire déchirer déchirent déchirant déchirante déchirait déchirants déchira déchirez déchirantes déchiraient déchires déchirera déchirerait déchirèrent déchirons
+58	3758	délicieux	délicieux délicieuse délicieuses
+59	3759	projeter	projeté projeter projette projettent projetant projetait projettes projetaient projetez projetons projeta projettera projetais projetterait
+60	3760	meurtrier	meurtrier meurtriers meurtrière meurtrières
+61	3761	élysée	elysée élysée élysées
+62	3762	manga	manga mangas
+63	3763	cycliste	cycliste cyclistes
+64	3764	doué	doué doués douée douées
+65	3765	briller	briller brille brillent brillé brillait brillaient brillera brilles brilla brillez brilleront
+66	3766	mobiliser	mobiliser mobilisé mobilise mobilisent mobilisant mobilisons mobilisez mobilisait mobilisera mobilisa mobilisaient mobiliseront mobilisèrent mobiliserait
+67	3767	abattu	abattu abattus abattue abattues
+68	3768	détendre	détendre détendu détend détendue détendez détends détendus détendent détende détendait détendues détendra détendit détendant
+69	3769	progressif	progressive progressif progressifs progressives
+70	3770	pasteur	pasteur pasteurs pasteure
+71	3771	creux	creux creuse creuses
+72	3772	discrimination	discrimination discriminations
+73	3773	considération	considération considérations
+74	3774	portefeuille	portefeuille portefeuilles
+75	3775	messe	messe messes
+76	3776	élaborer	élaboré élaborer élabore élaborent élaborant élabora élaborera élaborait élaborons élaborez élaborèrent élaboraient
+77	3777	béton	béton bétons
+78	3778	parier	parier parie parié paria parias parions parierais pariant pariez parient paries parierai pariait pariais
+79	3779	métrage	métrage métrages
+80	3780	verbe	verbe verbes
+81	3781	confort	confort conforts
+82	3782	portail	portail portails
+83	3783	garage	garage garages
+84	3784	moquer	moquer moquent moqué moquait moquez moquant moquaient moquais moques moquera moqua moquerait moqueront moquons moquiez
+85	3785	mérité	mérité méritée mérités méritées
+86	3786	accumuler	accumuler accumule accumulé accumulent accumulés accumulées accumulée accumulant accumulaient accumulait accumulez accumules accumulera accumula accumulèrent accumuleront accumulons
+87	3787	rigueur	rigueur rigueurs
+88	3788	dépendant	dépendant dépendante dépendants dépendantes
+89	3789	comptable	comptable comptables
+90	3790	diminution	diminution diminutions
+91	3791	signification	signification significations
+92	3792	pente	pente pentes
+93	3793	infection	infection infections
+94	3794	hectare	hectares hectare
+95	3795	débattre	débattre débats débattu débattent débattait débattant débattons débattaient débattez débatte débattront débattra débattais débattit
+96	3796	réaliste	réaliste réalistes
+97	3797	robin	robin robins
+98	3798	cheval-vapeur	cv ch
+99	3799	mobilisation	mobilisation mobilisations
+100	3800	automatiquement	automatiquement

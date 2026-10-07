@@ -1,0 +1,100 @@
+1	1901	militant	militants militant militante militantes
+2	1902	climat	climat climats
+3	1903	congrès	congrès
+4	1904	empereur	empereur impératrice empereurs impératrices
+5	1905	ordinateur	ordinateur ordinateurs
+6	1906	diffuser	diffusé diffuser diffuse diffusent diffusant diffusait diffusera diffuses diffusez diffusions diffusaient diffusons diffuseront diffusa diffuserons diffuserait
+7	1907	lait	lait laits
+8	1908	caméra	caméra caméras
+9	1909	calcul	calcul calculs
+10	1910	enceinte	enceinte enceintes
+11	1911	indien	indien indiens indienne indiennes
+12	1912	républicain	républicains républicain républicaine républicaines
+13	1913	fuir	fuir fui fuit fuis fuient fuyant fuyez fuyait fuyaient fuyons fuie fuyants fuyante fuira fuyais fuirent fuiront fuyantes fuies fuirai fuirait fuiraient
+14	1914	opposé	opposé opposés opposée opposées
+15	1915	dépense	dépenses dépense
+16	1916	rythme	rythme rythmes
+17	1917	gardien	gardien gardiens gardienne
+18	1918	tournoi	tournoi tournois
+19	1919	remise	remise remises
+20	1920	financement	financement financements
+21	1921	entraîneur	entraîneur entraîneurs entraîneuse entraîneure entraîneuses
+22	1922	jugement	jugement jugements
+23	1923	philosophie	philosophie philo philosophies
+24	1924	ressentir	ressentir ressent ressens ressentent ressentez ressentait ressentais ressente ressentis ressentons ressentit ressentaient ressentira ressentant ressentiez ressentirez ressentirait ressentiront ressentirai ressentions ressentirais ressentes ressentiras ressentiraient
+25	1925	bloc	bloc blocs
+26	1926	faim	faim faims
+27	1927	abandonné	abandonné abandonnée abandonnés abandonnées
+28	1928	trouble	troubles trouble
+29	1929	seine	seine seines
+30	1930	black	black blacks
+31	1931	réagir	réagir réagit réagi réagissent réagis réagissez réagisse réagissant réagissait réagira réagirait réagirais réagiront réagissons réagiraient réagissaient réagissais réagirent réagiriez réagirai réagisses réagirons
+32	1932	décès	décès
+33	1933	printemps	printemps
+34	1934	connerie	conneries connerie
+35	1935	chaleur	chaleur chaleurs
+36	1936	musical	musicale musical musicales musicaux
+37	1937	commander	commander commandé commandes commandez commandait commandent commanda commandera commandons commandaient commandais commanderait commanderai commanderont commandèrent commanderais commanderez commandiez
+38	1938	ambiance	ambiance ambiances
+39	1939	dimension	dimension dimensions
+40	1940	électoral	électorale électoral électorales électoraux
+41	1941	chaussure	chaussures chaussure
+42	1942	motif	motif motifs
+43	1943	amateur	amateurs amateur amatrice amatrices amateure amateures
+44	1944	entretenir	entretenir entretient entretenu entretiennent entretenue entretiens entretenus entretenait entretenues entretenant entretenaient entretiendra entretenez entretint entretenons entretienne entretenais entretiendrait entretiendront entretinrent entretiendraient
+45	1945	tir	tir tirs
+46	1946	cible	cible cibles
+47	1947	chercheur	chercheurs chercheur chercheuse
+48	1948	bac	bac bacs
+49	1949	conception	conception conceptions
+50	1950	préparation	préparation préparations
+51	1951	littérature	littérature littératures
+52	1952	cercle	cercle cercles
+53	1953	garantir	garantir garanti garantit garantis garanties garantissant garantissent garantissait garantira garantisse garantirait garantissez garantissons garantiront garantissaient garantiraient
+54	1954	méchant	méchant méchants méchante méchantes
+55	1955	spécifique	spécifique spécifiques
+56	1956	couverture	couverture couvertures
+57	1957	juridique	juridique juridiques
+58	1958	attentat	attentat attentats
+59	1959	gamin	gamin gamins gamine gamines
+60	1960	ombre	ombre ombres
+61	1961	étrange	étrange étranges
+62	1962	adapté	adapté adaptée adaptés adaptées
+63	1963	jurer	jure jura jurer jurez jurent jurons jurant jurait jures jurerait juraient jurerais jurais jurèrent jurera jureront jurai
+64	1964	cousin	cousin cousine cousins
+65	1965	métro	métro métros
+66	1966	tournée	tournée tournées
+67	1967	vaste	vaste vastes
+68	1968	for	for fors
+69	1969	carré	carré carrés carrée carrées quarré
+70	1970	drogue	drogue drogues
+71	1971	alain	alain alains alaine
+72	1972	honte	honte hontes
+73	1973	magazine	magazine magazines
+74	1974	académie	académie académies
+75	1975	islam	islam islâm islams
+76	1976	sensible	sensible sensibles
+77	1977	inscription	inscription inscriptions
+78	1978	bouteille	bouteille bouteilles
+79	1979	extrêmement	extrêmement
+80	1980	réellement	réellement
+81	1981	récit	récit récits
+82	1982	leçon	leçon leçons
+83	1983	mesurer	mesurer mesures mesuré mesurée mesurant mesurent mesurés mesurait mesurées mesurez mesurera mesurons mesuraient mesurais mesura mesurerait mesureront
+84	1984	circuit	circuit circuits
+85	1985	amitié	amitié amitiés
+86	1986	portable	portable portables
+87	1987	permanent	permanente permanent permanents permanentes
+88	1988	renforcer	renforcer renforce renforcé renforcent renforçant renforcera renforçait renforcerait renforça renforcez renforçons renforceront renforçaient renforcèrent renforcerons renforceraient
+89	1989	transfert	transfert transferts
+90	1990	haine	haine haines
+91	1991	démarche	démarche démarches
+92	1992	démocratique	démocratique démocratiques
+93	1993	prisonnier	prisonniers prisonnier prisonnière prisonnières
+94	1994	bénéfice	bénéfice bénéfices
+95	1995	instrument	instruments instrument
+96	1996	global	global globale globales globaux
+97	1997	écrivain	écrivain écrivains écrivaine écrivaines
+98	1998	commis	commis commises commise
+99	1999	terrible	terrible terribles
+100	2000	studio	studio studios

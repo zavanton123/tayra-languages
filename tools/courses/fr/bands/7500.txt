@@ -1,0 +1,100 @@
+1	7401	bohème	bohème bohême bohèmes
+2	7402	bienveillance	bienveillance
+3	7403	coloris	coloris
+4	7404	flexibilité	flexibilité
+5	7405	fourmis	fourmis
+6	7406	honoraires	honoraires
+7	7407	yang	yang
+8	7408	éternellement	éternellement
+9	7409	cowboy	cowboy cowboys cowgirl
+10	7410	labyrinthe	labyrinthe labyrinthes
+11	7411	luxueux	luxueux luxueuse luxueuses
+12	7412	méprise	méprise méprises
+13	7413	stéréotype	stéréotypes stéréotype
+14	7414	viral	virale viral virales viraux
+15	7415	pulmonaire	pulmonaire pulmonaires
+16	7416	vodka	vodka vodkas
+17	7417	dilemme	dilemme dilemmes
+18	7418	agrandissement	agrandissement agrandissements
+19	7419	érosion	érosion érosions
+20	7420	divergent	divergent divergentes divergents divergente
+21	7421	lama	lama lamas llama
+22	7422	rougir	rougir rougis rougit rougi rougissant rougissent rougissez rougissait rougissante
+23	7423	bondir	bondir bondit bondi bondissant bondissent bondissait bondis bondissante bondissants bondissaient
+24	7424	pitoyable	pitoyable pitoyables
+25	7425	paré	paré parée parés parées
+26	7426	tango	tango tangos
+27	7427	judicieux	judicieux judicieuse judicieuses
+28	7428	resserrer	resserrer resserre resserré resserrent resserrant resserra resserrait resserrez
+29	7429	emballé	emballé emballés emballée emballées
+30	7430	déclenchement	déclenchement déclenchements
+31	7431	monarque	monarque monarques
+32	7432	kiosque	kiosque kiosques
+33	7433	ruche	ruche ruches
+34	7434	remix	remix remixes
+35	7435	dévasté	dévasté dévastée dévastées dévastés
+36	7436	alléger	alléger allégé allège allégeant allègent allèges allégera allégez allégerait
+37	7437	loto	loto lotos
+38	7438	indéniable	indéniable indéniables
+39	7439	prestataire	prestataire prestataires
+40	7440	volaille	volaille volailles
+41	7441	provençal	provençal provençale provençaux provençales
+42	7442	influer	influer influe influé influant influera influerait influait influeront
+43	7443	explorateur	explorateur explorateurs exploratrice
+44	7444	porcelaine	porcelaine porcelaines
+45	7445	admirateur	admirateurs admirateur admiratrice admiratrices
+46	7446	capote	capote capotes
+47	7447	spider	spider spiders
+48	7448	flotter	flotter flottent flottait flotté flottaient flottes flottera flotta flottais flotterait
+49	7449	foulard	foulard foulards
+50	7450	jade	jade jades
+51	7451	réfuter	réfute réfuter réfuté réfutent réfutant réfutait réfuta réfutons réfutez
+52	7452	orgasme	orgasme orgasmes
+53	7453	nantais	nantais nantaise nantaises
+54	7454	blâme	blâme blâmes
+55	7455	zoom	zoom zooms
+56	7456	gelé	gelé gelés gelées
+57	7457	érable	érable érables
+58	7458	argumenter	argumenter argumente argumenté argumentant argumentent argumentait argumentez argumentes argumenta
+59	7459	approximatif	approximative approximatif approximatives approximatifs
+60	7460	spécifier	spécifié spécifier spécifie spécifiant spécifient spécifiait spécifiez
+61	7461	emblème	emblème emblèmes
+62	7462	miette	miettes miette
+63	7463	piment	piment piments
+64	7464	octroi	octroi octrois
+65	7465	entrevoir	entrevoir entrevoit entrevu entrevois entrevoient entrevues entrevoyait entrevus entrevoyons
+66	7466	simplification	simplification simplifications
+67	7467	cadence	cadence cadences
+68	7468	qualificatif	qualificatif qualificatifs qualificative qualificatives
+69	7469	apostolique	apostolique apostoliques
+70	7470	chronologique	chronologique chronologiques
+71	7471	rectifier	rectifier rectifié rectifie rectifiez rectifiant rectifient
+72	7472	fauve	fauve fauves
+73	7473	horde	horde hordes
+74	7474	cyclable	cyclable cyclables
+75	7475	piqûre	piqûre piqûres
+76	7476	aa	aa aas
+77	7477	légèreté	légèreté légèretés
+78	7478	éclipse	éclipse éclipses
+79	7479	arctique	arctique arctiques
+80	7480	hôtelier	hôtelier hôtelière hôteliers hôtelières
+81	7481	physicien	physicien physiciens physicienne
+82	7482	toc	toc tocs
+83	7483	soulier	souliers soulier
+84	7484	injure	injure injures
+85	7485	péri	péri péris périe
+86	7486	amérindien	amérindiens amérindien amérindiennes amérindienne
+87	7487	endurer	endurer enduré endure endurant endurent endurants endura endurante endurait enduraient endurez endures
+88	7488	rocheux	rocheuses rocheux rocheuse
+89	7489	splendeur	splendeur splendeurs
+90	7490	acharnement	acharnement
+91	7491	agressivité	agressivité
+92	7492	anthropologie	anthropologie
+93	7493	anus	anus
+94	7494	azote	azote
+95	7495	durement	durement
+96	7496	délibérément	délibérément
+97	7497	idéalement	idéalement
+98	7498	moyennant	moyennant
+99	7499	obésité	obésité
+100	7500	superman	superman

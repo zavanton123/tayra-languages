@@ -1,0 +1,100 @@
+1	3401	guerrier	guerrier guerriers guerrière guerrières
+2	3402	vif	vif vifs vives
+3	3403	écho	écho échos
+4	3404	athlète	athlète athlètes
+5	3405	chèque	chèque chèques
+6	3406	chimie	chimie chymie
+7	3407	courbe	courbe courbes
+8	3408	congo	congo congos
+9	3409	médiatique	médiatique médiatiques
+10	3410	valable	valable valables
+11	3411	résident	résidents résident résidente résidentes
+12	3412	reporter	reporter reporté reporters reporte reportant reportent reportez reportera reporta reportons reportait reporteront reporterait reportes
+13	3413	cinquante	cinquante
+14	3414	correctement	correctement
+15	3415	habituellement	habituellement
+16	3416	jules	jules
+17	3417	lentement	lentement
+18	3418	littéralement	littéralement
+19	3419	occident	occident
+20	3420	respectivement	respectivement
+21	3421	solidaire	solidaire solidaires
+22	3422	sixième	sixième sixièmes
+23	3423	voleur	voleur voleurs voleuse voleuses
+24	3424	bronze	bronze bronzes
+25	3425	estimation	estimation estimations
+26	3426	week-end	we ww
+27	3427	serrer	serrer serra serrant serres serrent serrait serrez serrais serrai serraient serrons serrera serras serrèrent
+28	3428	chair	chair chairs
+29	3429	boss	boss bosses
+30	3430	imaginaire	imaginaire imaginaires
+31	3431	gouvernemental	gouvernementale gouvernementales gouvernemental gouvernementaux
+32	3432	islamiste	islamistes islamiste
+33	3433	recul	recul reculs
+34	3434	district	district districts
+35	3435	égyptien	égyptien égyptienne égyptiens égyptiennes egyptien
+36	3436	provisoire	provisoire provisoires
+37	3437	approprié	approprié appropriée appropriés appropriées
+38	3438	délivrer	délivrer délivré délivre délivrant délivrent délivrera délivrez délivrait délivra délivrerait délivrons délivrerai délivreront délivraient délivres
+39	3439	adieu	adieu adieux
+40	3440	cotisation	cotisations cotisation
+41	3441	reproche	reproche reproches
+42	3442	mouton	moutons mouton
+43	3443	entourage	entourage entourages
+44	3444	privilège	privilège privilèges privilége
+45	3445	trahir	trahi trahir trahis trahit trahissent trahira trahissant trahisse trahissait trahissez trahirait trahissaient trahirai trahiront trahirais trahiraient
+46	3446	curiosité	curiosité curiosités
+47	3447	vapeur	vapeur vapeurs
+48	3448	esthétique	esthétique esthétiques
+49	3449	illustration	illustration illustrations
+50	3450	nôtre	nôtre nôtres nostre
+51	3451	antique	antique antiques
+52	3452	soviétique	soviétique soviétiques
+53	3453	saut	saut sauts sault
+54	3454	diamètre	diamètre diamètres
+55	3455	location	location locations
+56	3456	mythe	mythe mythes
+57	3457	germain	germain germaine germains germaines
+58	3458	veiller	veiller veillez veillent veillé veillant veillera veillait veilleront veillons veillerai veillaient veillerons veilles veillerait veilla veillerez veillais
+59	3459	aube	aube aubes
+60	3460	otage	otage otages
+61	3461	tablette	tablette tablettes
+62	3462	démonstration	démonstration démonstrations
+63	3463	éteint	éteint éteinte éteints éteintes
+64	3464	motivé	motivé motivée motivés motivées
+65	3465	kilo	kilos kilo
+66	3466	réglementation	réglementation réglementations règlementation
+67	3467	survie	survie survies
+68	3468	crâne	crâne crânes
+69	3469	virtuel	virtuelle virtuel virtuelles virtuels
+70	3470	exclu	exclu exclus exclue exclues
+71	3471	goutte	goutte gouttes
+72	3472	plier	plier plié plie pliée pliant plient pliés pliées pliez pliante plies pliera pliantes pliait pliants plieront plia pliaient plierait plions
+73	3473	conjoint	conjoint conjointe conjoints conjointes
+74	3474	schéma	schéma schémas schème
+75	3475	aussitôt	aussitôt
+76	3476	bonsoir	bonsoir
+77	3477	conformément	conformément
+78	3478	éventuellement	éventuellement
+79	3479	levée	levée levées
+80	3480	technicien	technicien techniciens technicienne techniciennes
+81	3481	détourner	détourner détourné détourne détournent détournant détourna détournait détournez détournera détournes détournaient détournerait détourneront détournons détournèrent détournais détourneraient
+82	3482	enchaîner	enchaîne enchaîné enchaîner enchaînent enchaînant enchaînait enchaîna enchaînez enchaînaient enchaînera enchaînes enchaînons enchaîneront enchaînèrent enchaînais
+83	3483	utilité	utilité utilités
+84	3484	épais	épais épaisse épaisses
+85	3485	poubelle	poubelle poubelles
+86	3486	valider	valider validé valides valident validant validez validera validait valida validerait valideront validons
+87	3487	descente	descente descentes
+88	3488	sacrifier	sacrifier sacrifié sacrifie sacrifiés sacrifiée sacrifiant sacrifient sacrifiées sacrifiez sacrifiera sacrifions sacrifia sacrifiait sacrifierait sacrifies sacrifiaient sacrifierais sacrifierai sacrifieront
+89	3489	gouverner	gouverner gouverne gouvernants gouvernent gouverné gouvernant gouvernait gouverna gouvernera gouvernes gouvernaient gouvernez gouvernerait gouverneront gouvernèrent gouvernantes
+90	3490	plaine	plaine plaines
+91	3491	débile	débile débiles
+92	3492	génétique	génétique génétiques
+93	3493	pic	pic pics
+94	3494	précéder	précédé précède précédant précèdent précéder précédait précéda précédèrent précédera précédaient précéderont
+95	3495	rage	rage rages
+96	3496	renseigner	renseigner renseigne renseigné renseignez renseignent renseignant renseignes renseignera renseignait renseignerai renseigneront renseigna renseignerais renseignais renseignons
+97	3497	sélectionner	sélectionné sélectionner sélectionne sélectionnez sélectionnant sélectionnent sélectionnera sélectionnes sélectionnons sélectionnait
+98	3498	aliment	aliments aliment
+99	3499	marne	marne marnes
+100	3500	artisan	artisans artisan artisane artisanes

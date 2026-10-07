@@ -1,0 +1,100 @@
+1	101	chose	chose choses choze
+2	102	sous	sous soubz
+3	103	jamais	jamais
+4	104	penser	pense penser pensez pensé pensais penses pensent pensait pensant pensons pensions pensaient pensiez pensera penserais pensa penserai penserait pensante pensants penseront pensai penseras penseraient penserez pensantes penseriez pensèrent penserons pensse
+5	105	seul	seul seule seuls seules
+6	106	moins	moins
+7	107	dont	dont
+8	108	toi	toi
+9	109	dernier	dernier dernière derniers dernières
+10	110	partir	partir parti partis partant partent partit parte partez partait partira partons partaient partais partiront pars partants partirai partante partes partirent partirait partirais partirons partirez partiraient partiras partions partiez partîmes partantes partirions
+11	111	quoi	quoi koi quoy
+12	112	déjà	déjà
+13	113	état	état états etat
+14	114	droit	droit droite droits droites droict
+15	115	trop	trop
+16	116	femme	femme femmes
+17	117	certain	certains certaines certain certaine
+18	118	croire	crois croire cru croit croyez croient croyais croyait croyant crue croirait croyants crus croyons croyaient crues croie croira crut croirais croyante croirai croiront croirez croyions croiraient croiriez croyiez crurent croyantes croies croiras croivent crût croirons
+19	119	juste	juste justes
+20	120	vraiment	vraiment vraiement vrm vrmt
+21	121	oui	oui voui
+22	122	gens	gens gentz
+23	123	chez	chez
+24	124	aimer	aime aimerais aimer aimes aiment aimez aimait aimais aimerai aimerait aimant aimons aimeraient aimeriez aimaient aimera aimerions aimants aimerez aimante aimeras aimeront aimiez aimions aima aimerons aimai aimantes aimèrent aimât
+25	125	ainsi	ainsi ainsy
+26	126	pays	pays
+27	127	sortir	sortir sort sorte sorti sors sortant sortent sortes sortis sortira sortez sortait sortit sortaient sorts sortais sortiront sortirait sortants sortons sortante sortirai sortirais sortirent sortiras sortirez sortiraient sortirons sortions sortiez sortantes sortîmes sortirions
+28	128	mort	mort morts morte mortes
+29	129	rendre	rendre rend rendez rendu rendent rends rendus rendue rendant rendra rdv rendait rende rendrait rendit rendues rendons rendront rendaient reddition rendais rendrai rendirent rendras rendrez rendraient rendrais rendrons rendes rendis rendiez rendions rendriez redditions rendît
+30	130	partie	partie parties
+31	131	beaucoup	beaucoup bcp
+32	132	travail	travail travaux travails
+33	133	quel	quel quelle quelles quels
+34	134	ville	ville villes
+35	135	comment	comment
+36	136	beau	belle beau beaux belles bel bô bels
+37	137	point	point points
+38	138	connaître	connu connais connaître connaît connue connaissent connus connaissez connues connaissais connaissait connaissons connaissant connaisse connaissaient connaîtra connut connaissiez connaîtront connaissions connaîtrait connaisses connurent connaîtrez connaîtrons connaîtras connaîtraient connaîtrais connaîtrai connaîtriez connût connoître
+39	139	politique	politique politiques
+40	140	parce	parce
+41	141	arriver	arrive arriver arrivé arrivent arrivera arrivait arrivant arrives arriva arrivez arrivais arriverait arriveront arrivons arrivaient arrivants arriverai arrivèrent arriverais arriveras arriverons arriverez arriveraient arrivions arrivai arriviez arrivâmes arriverions arrivante arrivantes arriveriez arrivât
+42	142	cela	cela celà
+43	143	aucun	aucun aucune aucuns aucunes
+44	144	trois	trois troys
+45	145	mal	mal pis maux pi male males
+46	146	fin	fin fins fine fines
+47	147	suivre	suivre suivant suivi suit suivante suivantes suivants suivent suivez suivie suivis suivies suivait suivra suivit suivront suive suivons suivirent suivaient suivais suivrait suivrai suivrons suivraient suivrez suivrais suiviez suivions suives suivras
+48	148	enfant	enfants enfant enfans
+49	149	place	place places
+50	150	moment	moment moments
+51	151	cas	cas
+52	152	vrai	vrai vraie vrais vraies
+53	153	saint	saint st sainte saints ste saintes
+54	154	meilleur	meilleur meilleure meilleurs meilleures
+55	155	heure	heure heures
+56	156	car	car cars
+57	157	histoire	histoire histoires
+58	158	laisser	laisse laisser laissé laissez laissant laissent laissait laissons laissera laisses laissa laisserait laisserai laissaient laisseront laisserais laissais laisserons laisseraient laisserez laissèrent laissiez laisseras laissions laissai laisseriez laisserions laissât
+59	159	compte	compte comptes
+60	160	pendant	pendant pendants pendantes pendante
+61	161	mieux	mieux
+62	162	puis	puis
+63	163	question	question questions
+64	164	pourquoi	pourquoi pk pkoi pourquoy
+65	165	jeu	jeu jeux
+66	166	jouer	jouer joue joué jouent joues jouant jouait jouez jouera jouée jouais jouaient joués jouons joua joueront jouées jouerait jouerai jouerais jouèrent jouerons jouerez joueraient joueras jouions jouiez jouai jouasse
+67	167	plusieurs	plusieurs
+68	168	lieu	lieu lieux lieus
+69	169	public	public publique publics publiques
+70	170	général	général générale généraux générales gal gals
+71	171	nom	nom noms
+72	172	mois	mois moys
+73	173	vers	vers
+74	174	vivre	vivre vivant vécu vive vivent vivants vis vivante vivait vit vivons vives vivez vivaient vécue vivantes vivra vivais vécut vécues vécus vivront vécurent vivrait vivions vivrai vivrez vivrais vivras vivraient vivrons viviez vivrions
+75	175	part	part parts
+76	176	attendre	attendre attend attends attendant attendu attendent attendais attendait attendez attendons attendaient attendue attendus attendra attende attendues attendions attendiez attendrait attendrai attendrais attendit attendront attendrons attendraient attendis attendras attendrez attendes attendirent
+77	177	devenir	devient devenir devenu deviennent devint deviendra deviens devienne devenant devenait deviendrait devenez deviendront devinrent devenaient devenons deviendraient deviendrais devenais devins deviendrai deviendrez deviendras deviennes deviendrons deveniez devenions devînt devenirs deviendriez deviendrions
+78	178	service	service services
+79	179	groupe	groupe groupes
+80	180	permettre	permet permettre permettant permettent permettra permettrait permettait permettront permets permit permette permettez permettaient permettraient permirent permettrai permissions permettons permettrais permettrons permettrez permettais permettras permettiez permît permettes
+81	181	jeune	jeune jeunes
+82	182	moyen	moyen moyenne moyens moyennes
+83	183	coup	coup coups
+84	184	reste	reste restes
+85	185	chaque	chaque ch
+86	186	aujourd'hui	aujourd'hui ajd ojd ajourd'hui
+87	187	merci	merci mercis merçi
+88	188	comprendre	comprendre comprends comprend comprennent comprenant comprenez comprenait comprendra comprenne comprenais comprendrez comprit comprendrais comprenons comprendront comprendras comprenaient comprendrait comprendrai comprennes comprendraient compreniez comprendrons comprirent comprenions comprendriez comprendrions
+89	189	cours	cours
+90	190	utiliser	utiliser utilisé utilise utilisés utilisée utilisant utilisent utilisées utilisez utilisait utilises utilisaient utilisera utilisons utilisais utiliserai utiliseront utiliserait utilisa utiliserons utiliserais utiliserez utiliseraient utilisiez utilisions utilisèrent utiliseras utiliseriez
+91	191	regarder	regarde regarder regardez regardé regardant regardes regardent regardait regardais regardons regarda regardaient regarderai regardera regarderais regarderont regardai regarderait regarderez regardions regardiez regarderas regardèrent regarderons regardants regarderaient regardante regardantes regarderiez
+92	192	lire	lire lit lu lis lisez lits lisant lise lisent lus lys lisais lisait lira lires lirai lisons lut liront lirez lisaient lirais liras lises lirait lisiez lirons liraient lisions lût luts liriez
+93	193	famille	famille familles
+94	194	maison	maison maisons
+95	195	arrêter	arrêter arrête arrêté arrêtez arrêtés arrêtée arrêtent arrêtes arrêtera arrêtons arreter arrêtait arrêtées arrêtant arrêta arrêteront arrêtaient arrêterai arrêtais arrêterait arrêterons arrêterais arrêtèrent arrêtiez arrêteraient arrêterez arrêteras arrêtions arrêtai arrêteriez
+96	196	commencer	commence commencé commencer commencent commença commencez commençait commençant commences commençons commencera commençais commencèrent commençaient commenceront commencerai commencerait commencerais commencerons commencerez commencions commenceraient commençai commenciez commenceras commençants
+97	197	semaine	semaine semaines
+98	198	raison	raison raisons
+99	199	prix	prix
+100	200	également	également

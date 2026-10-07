@@ -1,0 +1,100 @@
+1	8501	fausser	fausser faussé faussée fausse faussés faussées faussent fausses faussant fausserait
+2	8502	caron	caron
+3	8503	deuxièmement	deuxièmement
+4	8504	dopage	dopage
+5	8505	finement	finement
+6	8506	gallo	gallo
+7	8507	grièvement	grièvement
+8	8508	hart	hart
+9	8509	matos	matos
+10	8510	mixité	mixité
+11	8511	plaisance	plaisance
+12	8512	sexisme	sexisme
+13	8513	sitôt	sitôt
+14	8514	couplet	couplet couplets
+15	8515	chevelure	chevelure chevelures
+16	8516	périlleux	périlleux périlleuse périlleuses
+17	8517	ferrer	ferrer ferrant ferra ferre ferrera ferrais ferrait ferrai ferras ferrez ferres ferrons
+18	8518	embouchure	embouchure embouchures
+19	8519	louange	louanges louange
+20	8520	reléguer	relégué reléguer relègue reléguant relèguent reléguait relégua
+21	8521	prospérer	prospérer prospéré prospèrent prospères prospéra prospérait prospéraient prospérera prospérant
+22	8522	embuscade	embuscade embuscades
+23	8523	délaisser	délaisser délaisse délaissant délaissent délaissera délaissa délaissait délaissez délaissèrent
+24	8524	dispos	dispose dispos disposes
+25	8525	équivalence	équivalence équivalences
+26	8526	fourneau	fourneaux fourneau
+27	8527	oculaire	oculaire oculaires
+28	8528	bomber	bomber bombé bombers bombes bombée bomba bombées bombasse bombés bombasses bombant bombent
+29	8529	guetter	guetta guetter guettent guettant guettait guetté guettez guettaient guettais guettes
+30	8530	caissier	caissière caissier caissiers
+31	8531	curry	curry currys
+32	8532	caritatif	caritative caritatives caritatif caritatifs
+33	8533	mistral	mistral mistrals
+34	8534	mollet	mollet mollets mollette
+35	8535	cheminement	cheminement cheminements
+36	8536	fumier	fumier fumiers
+37	8537	taxation	taxation taxations
+38	8538	rattachement	rattachement rattachements
+39	8539	prolifération	prolifération proliférations
+40	8540	fortuné	fortunés fortuné fortunée fortunées
+41	8541	libertaire	libertaire libertaires
+42	8542	ébranler	ébranlé ébranler ébranle ébranlent ébranla ébranlera ébranlèrent ébranlant ébranlait
+43	8543	salin	saline salins salines salin
+44	8544	leu	leu lei
+45	8545	diffuseur	diffuseur diffuseurs
+46	8546	questionnement	questionnement questionnements
+47	8547	incohérence	incohérence incohérences
+48	8548	syllabe	syllabes syllabe
+49	8549	string	string strings
+50	8550	gaga	gaga gagas
+51	8551	théologien	théologien théologiens théologienne
+52	8552	jouissance	jouissance jouissances
+53	8553	luminosité	luminosité luminosités
+54	8554	piston	piston pistons
+55	8555	satirique	satirique satiriques
+56	8556	physiologie	physiologie physio
+57	8557	sapeur	sapeurs sapeur
+58	8558	inclusion	inclusion inclusions
+59	8559	fluvial	fluviale fluvial fluviales fluviaux
+60	8560	incomparable	incomparable incomparables
+61	8561	crosse	crosse crosses
+62	8562	anxieux	anxieux anxieuse anxieuses
+63	8563	pipeline	pipeline pipelines
+64	8564	chorégraphie	chorégraphie chorégraphies choré
+65	8565	déformer	déformer déforme déforment déformant déformes déformez déformants déformait déformante déformaient
+66	8566	virulent	virulent virulente virulents virulentes
+67	8567	facultatif	facultatif facultative facultatives facultatifs
+68	8568	rustique	rustique rustiques
+69	8569	épiscopal	épiscopale épiscopal épiscopales épiscopaux
+70	8570	stipule	stipule stipules
+71	8571	restrictif	restrictive restrictives restrictif restrictifs
+72	8572	arôme	arômes arôme
+73	8573	constellation	constellation constellations
+74	8574	cigare	cigare cigares
+75	8575	implant	implants implant
+76	8576	vitrail	vitraux vitrail
+77	8577	polar	polar polars
+78	8578	dorsal	dorsale dorsales dorsal dorsaux
+79	8579	nouille	nouilles nouille
+80	8580	transitoire	transitoire transitoires
+81	8581	masturber	masturber masturbe masturbé masturbent masturbant masturbait masturbes
+82	8582	rééducation	rééducation rééducations
+83	8583	blanchiment	blanchiment blanchiments
+84	8584	réconfort	réconfort réconforts
+85	8585	canicule	canicule canicules
+86	8586	déshabiller	déshabiller déshabille déshabillé déshabillée déshabillez déshabillent déshabillait déshabillés déshabillant déshabillées déshabilla
+87	8587	colocataire	coloc colocataire colocataires
+88	8588	lisible	lisible lisibles
+89	8589	kayak	kayak kayaks
+90	8590	dupe	dupe dupes
+91	8591	murmure	murmure murmures
+92	8592	systémique	systémique systémiques
+93	8593	généalogie	généalogie généalogies
+94	8594	paralysie	paralysie paralysies
+95	8595	télégramme	télégramme télégrammes
+96	8596	bicyclette	bicyclette bicyclettes
+97	8597	introuvable	introuvable introuvables
+98	8598	virgule	virgule virgules
+99	8599	verrou	verrou verrous
+100	8600	intouchable	intouchable intouchables

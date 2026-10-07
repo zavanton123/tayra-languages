@@ -1,0 +1,100 @@
+1	2001	dérouler	déroule déroulé déroulent dérouler déroulera déroulant déroulait dérouleront déroulaient déroula déroulerait déroulèrent déroulante déroulez dérouleraient
+2	2002	richard	richard richards richarde
+3	2003	fonctionnaire	fonctionnaires fonctionnaire
+4	2004	égal	égal égale égaux égales
+5	2005	latin	latin latine latins latines
+6	2006	entourer	entouré entoure entourent entourant entourer entourait entouraient entourez entoura entoures entourera entourèrent entoureront entourons
+7	2007	pub	pub pubs
+8	2008	déranger	dérange déranger dérangé dérangeant dérangent dérangerait dérangeait dérangeante dérangée dérangés dérangez dérangeantes déranges dérangeants dérangera dérangerais dérangées dérangeaient dérangerai dérangeais
+9	2009	stage	stage stages
+10	2010	massif	massif massive massifs massives
+11	2011	papa	papa papas papounet
+12	2012	unir	unis unir unit unissent unissant unissons unissait unissez unira unissaient unirent uniront unisse unirait
+13	2013	relativement	relativement
+14	2014	trente	trente
+15	2015	intellectuel	intellectuelle intellectuel intellectuels intellectuelles
+16	2016	conservateur	conservateur conservateurs conservatrice conservatrices
+17	2017	allié	alliés allié alliée alliées
+18	2018	adversaire	adversaire adversaires
+19	2019	promesse	promesse promesses
+20	2020	forcer	forcer forces forçant forcent forcez forçait forcera força forcerait forçaient forçais forcèrent forceront forcerai forçons forcerais forceraient forcerez
+21	2021	encourager	encourager encourage encouragé encourageant encouragent encourageants encourageait encourageons encouragez encourageante encouragea encouragera encourageantes encouragerait encourageaient encourages encourageront encouragèrent encouragerai encouragerais encourageais encourageraient
+22	2022	grève	grève grèves
+23	2023	soigner	soigner soigné soigne soignée soignants soignant soignés soignante soignent soignées soignez soignait soignantes soignes soignera soignaient soigna soignons soignerait soignais
+24	2024	branche	branche branches
+25	2025	briser	briser brisé brisée brisés brisées brisent brisant brisa brises brisera brisez brisait briserai briserait brisons brisants brisèrent brisaient briseront
+26	2026	favorable	favorable favorables
+27	2027	manche	manche manches
+28	2028	tension	tension tensions
+29	2029	aérien	aérienne aérien aériennes aériens
+30	2030	veille	veille veilles
+31	2031	obliger	oblige obliger obligeant obligent obligeait obligez obligera obligerait obligea obliges obligeaient obligèrent obligeront obligeraient obligeons obligerai obligeante obligeais obligerez
+32	2032	dépenser	dépenses dépenser dépensé dépensent dépensant dépensez dépensait dépensons dépensera dépensaient dépenserait dépensa dépensais dépenseront dépenseraient dépenserai dépensiez
+33	2033	renseignement	renseignements renseignement
+34	2034	accusé	accusé accusés accusée accusées
+35	2035	promotion	promotion promotions
+36	2036	désir	désir désirs
+37	2037	gay	gay gays
+38	2038	médicament	médicaments médicament
+39	2039	perspective	perspective perspectives
+40	2040	concurrence	concurrence concurrences
+41	2041	inventer	inventé inventer invente inventent inventions inventant inventa inventes inventez inventait inventons inventera inventèrent inventais inventeront inventaient inventerai inventerait
+42	2042	sauvage	sauvage sauvages
+43	2043	exposé	exposé exposés exposées exposée
+44	2044	passion	passion passions
+45	2045	assumer	assumer assume assumé assument assumant assumes assumera assumez assumait assumons assumerai assuma assumaient assumeront assumerait assumais assumerais assumerez
+46	2046	blessure	blessure blessures
+47	2047	fondation	fondation fondations
+48	2048	humour	humour humours
+49	2049	archives	archives archive
+50	2050	auparavant	auparavant
+51	2051	brésil	brésil
+52	2052	recours	recours
+53	2053	distinguer	distingue distinguer distingué distinguent distinguant distinguait distingua distinguera distinguaient distinguez distinguons distingues distinguèrent distinguerait distinguais distingueront
+54	2054	issu	issus issu issues
+55	2055	coupable	coupable coupables
+56	2056	perso	perso persos
+57	2057	composition	composition compositions
+58	2058	électronique	électronique électroniques
+59	2059	argument	argument arguments
+60	2060	superbe	superbe superbes
+61	2061	poster	poster posté postes postent posters postez postant posterai postait posterais posta postera postais postaient postons posterez posterons posteras posteront postions posterait
+62	2062	fonctionnement	fonctionnement fonctionnements
+63	2063	fixe	fixe fixes fix
+64	2064	résumé	résumé résumés résumée résumées
+65	2065	vierge	vierge vierges
+66	2066	prêtre	prêtre prêtres prêtresse prêtresses
+67	2067	compléter	compléter complète complété complètent complètes complétant complétera complétait complétez complétaient compléta compléteront complètera complèteront complétons compléterait compléterai compléterons complétèrent
+68	2068	électricité	électricité électricités
+69	2069	absolu	absolue absolu absolus absolues
+70	2070	enseignant	enseignants enseignant enseignante enseignantes
+71	2071	effectif	effectif effectifs effective effectives
+72	2072	rassurer	rassurer rassure rassurant rassuré rassurez rassurante rassurent rassurantes rassurants rassures rassurera rassurait rassura rassurons rassurerait rassuraient rassurais
+73	2073	reconnaissance	reconnaissance reconnaissances
+74	2074	lutter	lutter luttent luttes lutté luttant luttait luttons luttaient lutta luttez luttera luttèrent lutterons lutteront luttais lutterait lutterai luttions
+75	2075	apparemment	apparemment
+76	2076	sérieusement	sérieusement
+77	2077	circulation	circulation circulations
+78	2078	tester	tester testé testez testent testa testes testant teste testons testerai testait testera testerais testais testaient testeront testerons
+79	2079	leader	leader leaders
+80	2080	guide	guide guides
+81	2081	médaille	médaille médailles
+82	2082	viande	viande viandes
+83	2083	princesse	princesse princesses
+84	2084	score	score scores
+85	2085	causer	causé causer causant causent causa causes causait causerait causera causaient causèrent causeront causons causez causeraient causais
+86	2086	mélange	mélange mélanges
+87	2087	parlementaire	parlementaire parlementaires
+88	2088	transmettre	transmettre transmis transmet transmettent transmissions transmettant transmets transmettra transmit transmettez transmette transmettait transmettons transmettaient transmettront transmettrait transmettrai transmettrons transmettrez transmirent
+89	2089	agréable	agréable agréables
+90	2090	angle	angle angles
+91	2091	frappe	frappe frappes
+92	2092	confondre	confondre confondu confond confondues confondus confondent confonds confondue confondez confondant confonde confondait confondons confondante confondaient confondra confondais confondrait confondit confondants
+93	2093	commandant	commandant commandants commandante
+94	2094	indice	indice indices
+95	2095	symbole	symbole symboles
+96	2096	géant	géant géants géante géantes
+97	2097	adopter	adopter adopte adoptant adoptent adopta adoptez adoptera adoptait adoptèrent adoptions adoptons adopteront adoptaient adoptants adopterait adoptes adopterons adopterai adoptiez adopteraient adopterais
+98	2098	envisager	envisager envisage envisagé envisagent envisageait envisagez envisageons envisageant envisagerait envisages envisageaient envisageais envisagea envisagera envisageraient envisagerais envisagerons envisagions envisagerai envisagiez envisagèrent
+99	2099	logiciel	logiciel logiciels logicielle logicielles
+100	2100	surpris	surpris surprises

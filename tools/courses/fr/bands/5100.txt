@@ -1,0 +1,100 @@
+1	5001	corporation	corporation corporations
+2	5002	gêné	gêné gênée gênés gênées
+3	5003	ajout	ajout ajouts
+4	5004	équipée	équipée équipées
+5	5005	moque	moque moques
+6	5006	claque	claque claques
+7	5007	prestige	prestige prestiges
+8	5008	furieux	furieux furieuse furieuses
+9	5009	décoller	décoller décolle décollé décollent décollera décollant décollait décolla décollez décolles décolleront décollaient
+10	5010	défiler	défiler défilent défile défilaient défilant défilait défileront défilera défilèrent défiles défilez défila
+11	5011	gravure	gravure gravures
+12	5012	songer	songer songé songez songent songeait songes songeant songea songeais songerait songeons songeaient songera songeraient songerai songiez songerais
+13	5013	décorer	décoré décorer décore décorent décorant décoraient décorait décorez décora décorera
+14	5014	app	app apps
+15	5015	suspendre	suspendre suspend suspendant suspendent suspendait suspendez suspende suspends suspendit suspendra suspendaient suspendons suspendrait
+16	5016	crayon	crayon crayons
+17	5017	stone	stone stones
+18	5018	tag	tag tags
+19	5019	décalage	décalage décalages
+20	5020	pers	perse pers perses
+21	5021	fraternité	fraternité fraternités
+22	5022	parker	parker parka parkes parkas parke
+23	5023	fusée	fusée fusées
+24	5024	ironie	ironie ironies
+25	5025	arroser	arroser arrose arrosé arrosée arrosées arrosés arrosent arrosant arrosez arrosait arroses arrosaient
+26	5026	cuisinier	cuisinier cuisinière cuisiniers cuisinières
+27	5027	orbite	orbite orbites
+28	5028	auberge	auberge auberges
+29	5029	fourniture	fournitures fourniture
+30	5030	socialisme	socialisme socialismes
+31	5031	patrouille	patrouille patrouilles
+32	5032	culpabilité	culpabilité culpabilités
+33	5033	recourir	recourir recourt recourant recourent recouru recourait recouraient recourez recourons recoure recourut
+34	5034	compliquer	complique compliquer compliquent compliquant compliquait compliquerait compliquez compliques compliquera compliquaient compliqua
+35	5035	plongée	plongée plongées
+36	5036	incapacité	incapacité incapacités
+37	5037	paroi	paroi parois
+38	5038	navigateur	navigateur navigateurs navigatrice
+39	5039	comptoir	comptoir comptoirs
+40	5040	déplorer	déplore déplorer déploré déplorent déplorant déplorait déplorons déploraient déplora déplorée déplorera déplorez déplorés
+41	5041	autobus	autobus
+42	5042	beach	beach
+43	5043	boxe	boxe
+44	5044	cloud	cloud
+45	5045	hautement	hautement
+46	5046	unanimité	unanimité
+47	5047	grossier	grossier grossière grossiers grossières
+48	5048	bouillir	bouillir bouillante bouillant bouille bouilli bouillis bous bouillants bouillons bouilles bouillait bouillantes
+49	5049	impérial	impérial impériaux impériales
+50	5050	rude	rude rudes
+51	5051	galaxie	galaxie galaxies
+52	5052	tropical	tropicale tropical tropicales tropicaux
+53	5053	expulser	expulser expulsé expulse expulsions expulsant expulsent expulsa expulsait expulsera expulsez
+54	5054	glorieux	glorieux glorieuse glorieuses
+55	5055	consigne	consignes consigne
+56	5056	cadet	cadet cadets cadette cadettes
+57	5057	pipe	pipe pipes
+58	5058	archéologique	archéologique archéologiques
+59	5059	périphérique	périphérique périphériques
+60	5060	lisse	lisse lisses
+61	5061	classification	classification classifications
+62	5062	frotter	frotter frotte frotté frottent frottant frottez frottait frotta frottes frottaient frottera frottais
+63	5063	fabuleux	fabuleux fabuleuse fabuleuses
+64	5064	moule	moule moules
+65	5065	détresse	détresse détresses
+66	5066	intervalle	intervalle intervalles
+67	5067	raisin	raisin raisins
+68	5068	vulnérable	vulnérable vulnérables
+69	5069	bug	bug bugs
+70	5070	munir	muni munis munir munit munissez munissant
+71	5071	peste	peste pestes
+72	5072	ému	ému émue émus émues
+73	5073	rigoureux	rigoureux rigoureuse rigoureuses
+74	5074	lie	lie lies
+75	5075	baguette	baguette baguettes
+76	5076	vétérinaire	vétérinaire vétérinaires
+77	5077	claquer	claquer claqué claquant claquent claques claquée claquait claqua claqués claquaient claquez claquées claquera
+78	5078	casting	casting castings
+79	5079	préjudice	préjudice préjudices
+80	5080	sapin	sapin sapins
+81	5081	barbare	barbares barbare
+82	5082	contourner	contourner contourne contourné contournant contournent contournée contournées contournés contournait contourna contournons contournera contournez
+83	5083	zombi	zombie zombies zombi zombis
+84	5084	pathétique	pathétique pathétiques
+85	5085	déplaire	déplaise déplaire déplaît déplu déplaisant déplaisent déplaisante déplait déplaisait déplairait déplaisantes déplaisants déplaira déplut déplais
+86	5086	soumission	soumission soumissions
+87	5087	calcaire	calcaire calcaires
+88	5088	coopérative	coopérative coopératives
+89	5089	désastre	désastre désastres
+90	5090	biographie	biographie biographies
+91	5091	chaussette	chaussettes chaussette
+92	5092	céleste	céleste célestes
+93	5093	dissolution	dissolution dissolutions
+94	5094	récurrent	récurrent récurrents récurrente récurrentes
+95	5095	maitre	maitre maitres
+96	5096	bombardement	bombardements bombardement
+97	5097	cylindre	cylindres cylindre
+98	5098	grammaire	grammaire grammaires
+99	5099	contracter	contracté contracter contracte contractant contractions contractantes contractent contractants contractante contracta contractera contractez
+100	5100	saigner	saigne saigner saigné saignent saignant saignes saignait saignante saignais saignaient saignants saignez saignantes saignera

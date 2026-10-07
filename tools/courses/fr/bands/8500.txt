@@ -1,0 +1,100 @@
+1	8401	mandarin	mandarin mandarine mandarins mandarines
+2	8402	cargaison	cargaison cargaisons
+3	8403	dévolu	dévolu dévolue dévolues dévolus
+4	8404	affiner	affiner affine affiné affinent affines affinant affinera
+5	8405	abdomen	abdomen
+6	8406	ciseaux	ciseaux
+7	8407	curieusement	curieusement
+8	8408	paca	paca
+9	8409	quick	quick
+10	8410	sacrément	sacrément
+11	8411	attrayant	attrayant attrayante attrayants attrayantes
+12	8412	impitoyable	impitoyable impitoyables
+13	8413	rénal	rénale rénales rénaux rénal
+14	8414	suspecté	suspecté suspectés suspectée suspectées
+15	8415	aléa	aléas aléa
+16	8416	infirmerie	infirmerie infirmeries
+17	8417	chameau	chameau chameaux chamelle chamelles
+18	8418	coder	codé coder coda codant codes codent codons codantes codants codez
+19	8419	pellicule	pellicule pellicules
+20	8420	renversement	renversement renversements
+21	8421	granit	granit granits
+22	8422	nuisance	nuisances nuisance
+23	8423	pendule	pendule pendules
+24	8424	tousser	tousse tousser toussant toussé tousses toussent toussait toussais toussez
+25	8425	allégeance	allégeance allégeances
+26	8426	heurté	heurté heurtée heurtés heurtées
+27	8427	grêle	grêle grêles
+28	8428	revente	revente reventes
+29	8429	affoler	affole affoler affolé affolant affolent affolante affolez affolantes affolait affolants
+30	8430	superflu	superflu superflus superflue superflues
+31	8431	ratifier	ratifié ratifier ratifie ratifient ratifiant ratifia ratifiera
+32	8432	véhiculer	véhiculer véhicules véhiculent véhiculé véhiculant véhiculait
+33	8433	tapisserie	tapisserie tapisseries
+34	8434	semelle	semelle semelles
+35	8435	attestation	attestation attestations
+36	8436	gap	gap gaps
+37	8437	octave	octave octaves
+38	8438	mafieux	mafieux mafieuse mafieuses
+39	8439	redémarrer	redémarrer redémarre redémarré redémarrez redémarrent redémarrera redémarra
+40	8440	déconnecter	déconnecté déconnecter déconnecte déconnectez déconnectant déconnectent
+41	8441	lacet	lacets lacet
+42	8442	joyau	joyau joyaux
+43	8443	ligament	ligament ligaments
+44	8444	embouteillage	embouteillages embouteillage
+45	8445	régent	régent régents
+46	8446	amiable	amiable amiables
+47	8447	baba	baba babas
+48	8448	éveil	éveil éveils
+49	8449	gravir	gravir gravi gravit gravis gravissant gravissent gravissait gravissaient gravira
+50	8450	intolérable	intolérable intolérables
+51	8451	rescapé	rescapés rescapé rescapée rescapées
+52	8452	vénitien	vénitien vénitiens vénitienne vénitiennes
+53	8453	démantèlement	démantèlement démantèlements
+54	8454	adoucir	adoucir adoucit adouci adoucissant adoucis adoucissent adoucira adoucissantes adoucissante adoucissez adoucissait adoucissants
+55	8455	confection	confection confections
+56	8456	glande	glande glandes
+57	8457	annexion	annexion annexions
+58	8458	paradigme	paradigme paradigmes
+59	8459	bouder	bouder boude boudé boudent boudes boudait bouda boudez boudant boudons boudera
+60	8460	ralliement	ralliement ralliements
+61	8461	rétrospective	rétrospective rétrospectives
+62	8462	facturer	facturé facturer factures facturent facturera facturant facturait facturez facturons
+63	8463	gag	gag gags
+64	8464	repêchage	repêchage repêchages
+65	8465	étagère	étagère étagères
+66	8466	pontifical	pontificale pontifical pontificaux pontificales
+67	8467	tablier	tablier tabliers
+68	8468	ji	ji jis
+69	8469	stressant	stressant stressante stressantes stressants
+70	8470	translation	translation translations
+71	8471	flatteur	flatteur flatteuse flatteurs flatteuses
+72	8472	osciller	oscille osciller oscillent oscillait oscillé oscillera oscillaient
+73	8473	paume	paume paumes
+74	8474	manipulateur	manipulateur manipulateurs manipulatrice manipulatrices
+75	8475	infime	infime infimes
+76	8476	déchaîner	déchaîne déchaîné déchaîner déchaînent déchaîna déchaînait déchaînant déchaînez
+77	8477	chilien	chilien chilienne chiliens chiliennes
+78	8478	sabine	sabine sabines
+79	8479	équestre	équestre équestres
+80	8480	battement	battements battement
+81	8481	prisme	prisme prismes
+82	8482	incontestable	incontestable incontestables
+83	8483	diabolique	diabolique diaboliques
+84	8484	dinde	dinde dindes
+85	8485	durcir	durcir durcit durci durcissent durcis durcissant durcisse durcissait
+86	8486	patin	patins patin
+87	8487	populiste	populiste populistes
+88	8488	médoc	médoc médocs
+89	8489	trouvaille	trouvaille trouvailles
+90	8490	gaucher	gaucher gauchers gauchère gauchères
+91	8491	écorce	écorce écorces
+92	8492	culpabiliser	culpabiliser culpabilise culpabilisant culpabilisé culpabilisent culpabilises culpabilisais culpabilisait culpabilisez
+93	8493	hachette	hachette hachettes
+94	8494	diagnostiqué	diagnostiqué diagnostiquée diagnostiqués diagnostiquées
+95	8495	californien	californien californienne californiens californiennes
+96	8496	inspecter	inspecter inspecté inspecte inspections inspectant inspectent inspectez inspectait inspecta inspectera
+97	8497	rasoir	rasoir rasoirs
+98	8498	caporal	caporal caporaux caporale
+99	8499	gréviste	grévistes gréviste
+100	8500	dépouiller	dépouillé dépouiller dépouilles dépouillent dépouillant dépouillez dépouillait dépouilla dépouillaient

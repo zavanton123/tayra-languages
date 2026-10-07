@@ -1,0 +1,100 @@
+1	2301	destination	destination destinations
+2	2302	galerie	galerie galeries
+3	2303	fuite	fuite fuites
+4	2304	procureur	procureur procureurs procureure
+5	2305	étonner	étonne étonner étonnerait étonnes étonnent étonnera étonnez étonnait étonnerai étonna étonnerais étonnais étonneront étonnaient étonnons étonneras étonnerez
+6	2306	rayon	rayon rayons
+7	2307	emmener	emmener emmène emmené emmènent emmenez emmenant emmenait emmènera emmena emmènes emmènerai emmenaient emmèneront emmenèrent emmenons emmènerait emmenais emmènerais emmèneraient emmenai emmènerons emmèneras
+8	2308	signature	signature signatures
+9	2309	défi	défi défis
+10	2310	zéro	zéro zéros
+11	2311	animé	animé animée animés animées
+12	2312	temple	temple temples
+13	2313	sonner	sonne sonner sonné sonnent sonnait sonnant sonnera sonnée sonna sonnes sonnaient sonnez sonnantes sonnerait sonnés sonneront sonnante sonnants sonnais sonnèrent sonnées
+14	2314	louer	louer loué loue louent louant louez louait louons loua louaient loues louera louerai louais louerait loueront louèrent louai
+15	2315	sien	sienne siens sien siennes
+16	2316	honnête	honnête honnêtes
+17	2317	chimique	chimiques chimique nbc
+18	2318	gosse	gosse gosses
+19	2319	emprunter	emprunter emprunté emprunte empruntant empruntent empruntée empruntés empruntées empruntait empruntez empruntes empruntons empruntaient empruntera emprunta emprunteront emprunterait emprunterai empruntèrent empruntais emprunterons emprunteraient emprunterez
+20	2320	officiellement	officiellement
+21	2321	suicide	suicide suicides
+22	2322	sable	sable sables
+23	2323	trafic	trafic trafics
+24	2324	réalisateur	réalisateur réalisateurs réalisatrice
+25	2325	inverse	inverse inverses
+26	2326	glisser	glisser glisse glissé glissant glissent glissante glissait glissa glissez glissantes glisses glissants glissera glissaient glissais glissons glisserait glisseront glissèrent glisserai glissai
+27	2327	liquide	liquide liquides
+28	2328	monument	monuments monument monumens
+29	2329	océan	océan océans
+30	2330	exposer	expose exposer exposant exposent exposants exposait exposera exposez exposa exposerait exposes exposaient exposons exposeront exposais exposerai exposeraient exposerons exposèrent exposerez
+31	2331	chevalier	chevalier chevaliers chevalière chevalières
+32	2332	diplôme	diplôme diplômes
+33	2333	précisément	précisément précisement
+34	2334	intermédiaire	intermédiaire intermédiaires
+35	2335	annuler	annuler annulé annule annulent annulant annulait annulez annulera annules annula annulerait annulons annuleront annulaient
+36	2336	flic	flics flic
+37	2337	gras	gras grasse grasses
+38	2338	voiler	voila voilée voilées voiler voilé voilés voilent voiles voilons voilant voilait voilas voilez voilaient
+39	2339	serveur	serveur serveurs serveuse serveuses
+40	2340	copie	copie copies
+41	2341	employer	emploie employer emploient employant employait employez employons employaient employa emploiera emploies emploierait emploierai employèrent emploieront employais emploierons emploierais emploieraient
+42	2342	automne	automne automnes
+43	2343	raté	raté ratée ratés ratées
+44	2344	attribuer	attribué attribuer attribue attribuent attribuant attribuait attribua attribuez attribuera attribuaient attribuons attribuèrent attribues attribuerait attribueront
+45	2345	guillaume	guillaume guillaumes
+46	2346	écart	écart écarts
+47	2347	thèse	thèse thèses
+48	2348	toile	toile toiles
+49	2349	émettre	émis émettre émet émissions émettent émettant émit émettait émets émettra émette émettaient émettons émettrait émirent émettez émettront
+50	2350	lol	lol
+51	2351	os	os
+52	2352	rarement	rarement
+53	2353	vigueur	vigueur
+54	2354	trait	trait traits
+55	2355	renoncer	renoncer renonce renoncé renoncent renonçant renonça renonçait renoncez renoncera renoncerait renonçons renonces renoncerai renonceront renoncèrent renonçaient renoncerais renonceraient renoncerons renoncerez
+56	2356	show	show shows
+57	2357	comparaison	comparaison comparaisons
+58	2358	abri	abri abris
+59	2359	fabrication	fabrication fabrications
+60	2360	poète	poète poètes poétesse poëte
+61	2361	charte	charte chartes
+62	2362	métal	métal métaux
+63	2363	lèvre	lèvres lèvre
+64	2364	risquer	risquent risquer risques risquait risquez risquerait risquant risquaient risquons risqueraient risquerais risquera risquais risqueriez risquerai risqueront risqua risquerez risquerions risquions
+65	2365	enregistrement	enregistrement enregistrements
+66	2366	vainqueur	vainqueur vainqueurs
+67	2367	bloquer	bloquer bloque bloquent bloquant bloques bloquez bloquait bloquaient bloquera bloquants bloquerait bloqua bloquais bloqueront bloquons bloquante bloquèrent bloqueraient
+68	2368	repérer	repérer repéré repère repères repérés repérée repérées repèrent repérez repérant repéra repérait repérons repérera
+69	2369	mignon	mignon mignonne mignons mignonnes mignot
+70	2370	innovation	innovation innovations
+71	2371	arracher	arracher arrache arraché arrachée arrachés arrachent arrachées arrachant arracha arrachait arrachez arraches arrachaient arrachera arracherait arracheront arracherai arrachèrent arrachais arrachons arracherais arracheraient
+72	2372	culte	culte cultes
+73	2373	job	job jobs
+74	2374	poursuite	poursuite poursuites
+75	2375	chantier	chantier chantiers
+76	2376	tissu	tissu tissus
+77	2377	recueillir	recueillir recueilli recueillis recueillies recueille recueillie recueillent recueillant recueillit recueillait recueillons recueillera recueillerait recueillez recueilleront recueillaient recueillirent recueilles
+78	2378	horreur	horreur horreurs
+79	2379	digne	digne dignes
+80	2380	profondeur	profondeur profondeurs
+81	2381	œuf	œufs œuf oeuf
+82	2382	déçu	déçu déçue déçus déçues
+83	2383	sénateur	sénateur sénateurs sénatrice
+84	2384	autoriser	autorise autoriser autorisant autorisent autorisait autorisa autorisez autorisera autoriserait autorises autorisaient autorisons autoriserai autoriseront autorisèrent autoriseraient autorisais
+85	2385	inquiet	inquiète inquiet inquiets inquiètes
+86	2386	parallèle	parallèle parallèles
+87	2387	ultra	ultra ultras
+88	2388	douche	douche douches
+89	2389	brillant	brillant brillante brillants brillantes
+90	2390	pousse	pousse pousses
+91	2391	lover	love lover loves lové lova lovée lovés
+92	2392	intelligence	intelligence intelligences
+93	2393	prestation	prestation prestations
+94	2394	introduire	introduit introduire introduisant introduisent introduisit introduisait introduira introduis introduisez introduise introduisirent introduirait introduisons introduiront introduisaient introduirai
+95	2395	suspect	suspect suspects suspecte suspectes
+96	2396	résolution	résolution résolutions
+97	2397	accéder	accéder accède accédé accèdent accédant accédez accédait accédants accéda accédera accèdes accédaient accèdera accéderont accédons accédèrent accèderont accéderait
+98	2398	corse	corse corses
+99	2399	immédiat	immédiate immédiat immédiats immédiates
+100	2400	sensation	sensation sensations

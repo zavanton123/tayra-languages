@@ -1,0 +1,100 @@
+1	3101	malheureux	malheureux malheureuse malheureuses
+2	3102	nettoyer	nettoyer nettoie nettoyé nettoyant nettoient nettoyez nettoyait nettoies nettoyants nettoyante nettoyaient nettoyons nettoiera nettoyais nettoya nettoyantes
+3	3103	commandement	commandement commandements
+4	3104	évènement	évènements évènement
+5	3105	sauce	sauce sauces
+6	3106	plume	plume plumes
+7	3107	rassemblement	rassemblement rassemblements
+8	3108	pile	pile piles
+9	3109	réparation	réparation réparations
+10	3110	poulet	poulet poulets
+11	3111	biologique	biologique biologiques
+12	3112	opéra	opéra opéras
+13	3113	soudain	soudain soudaine soudaines soudains
+14	3114	détacher	détacher détaché détache détachées détachée détachés détachent détachant détacha détachait détachez détachera détaches détachaient détacheront détachèrent
+15	3115	modeste	modeste modestes
+16	3116	filer	filer filé files filons filent filantes filait filante filant fila filez filée filés filaient filera filerai filasse filées filais filerait fileront filerais filasses
+17	3117	susciter	suscite susciter suscité suscitent suscitant suscita suscitait suscitera suscitaient susciterait suscitèrent susciteront suscitez
+18	3118	semblant	semblant semblants
+19	3119	combinaison	combinaison combinaisons
+20	3120	inspiration	inspiration inspirations
+21	3121	révélation	révélation révélations
+22	3122	ressort	ressort ressorts
+23	3123	renverser	renverser renversé renverse renversant renversent renversa renversante renversez renversait renversera renverses renversantes renversons renversèrent renversants renverserait
+24	3124	obstacle	obstacles obstacle
+25	3125	pourri	pourri pourrie pourris pourries
+26	3126	polémique	polémique polémiques
+27	3127	habitué	habitué habitués habituée habituées
+28	3128	variation	variations variation
+29	3129	mince	mince minces
+30	3130	3e	3e
+31	3131	jus	jus
+32	3132	lorsqu'on	lorsqu'on
+33	3133	onze	onze
+34	3134	toilettes	toilettes
+35	3135	procurer	procurer procure procuré procurent procurant procurait procurera procurez procura procuraient procurerait procureront procures procurons procurerai procurèrent
+36	3136	las	las lasse lasses
+37	3137	formidable	formidable formidables
+38	3138	soumettre	soumettre soumet soumettent soumettant soumissions soumets soumettez soumettra soumette soumit soumettait soumettons soumettrai soumettront soumettrait soumirent soumettrons soumettaient
+39	3139	satellite	satellite satellites
+40	3140	chauffer	chauffer chauffe chauffé chauffant chauffent chauffante chauffes chauffait chauffants chauffez chauffantes chauffera chauffaient
+41	3141	concurrent	concurrents concurrent concurrentes concurrente
+42	3142	cave	cave caves
+43	3143	mademoiselle	mademoiselle mlle demoiselles mesdemoiselles
+44	3144	rebelle	rebelles rebelle
+45	3145	caler	calais caler cala cales calas calant calent calez calait calera
+46	3146	bourgeois	bourgeois bourgeoise bourgeoises
+47	3147	ordonnance	ordonnance ordonnances
+48	3148	administrateur	administrateur administrateurs administratrice
+49	3149	pompier	pompiers pompier pompière
+50	3150	sévère	sévère sévères
+51	3151	tombée	tombée tombées
+52	3152	rédiger	rédigé rédiger rédige rédigea rédigeant rédigent rédigeait rédigez rédigera rédigèrent rédigeons rédigeais rédiges rédigerai
+53	3153	reprocher	reprocher reproché reprochent reproches reprochait reprochant reprochez reprochaient reprochera reprocha reprocherait reprochais reprocheront reprocherais reprocherai reprochons reprochèrent reprocheraient
+54	3154	succession	succession successions
+55	3155	apercevoir	aperçoit apercevoir aperçois aperçoivent aperçut aperçoive aperçus apercevant apercevez apercevra apercevons apercevait aperçurent apercevrez apercevront apercevrait apercevras apercevais apercevaient aperceviez
+56	3156	comté	comté comtés
+57	3157	éternel	éternel éternelle éternels éternelles
+58	3158	manager	manager managers manage managé managez
+59	3159	dé	dés dé
+60	3160	admirer	admirer admire admiré admirez admirait admirant admirais admirons admirent admira admiraient admires admirera admirions admirerez admireront
+61	3161	interurbain	inter interurbain interurbains interurbaines interurbaine
+62	3162	blesser	blesser blesse blessant blessent blesses blessante blessantes blessa blessez blessants blessait blessera blesserait blesseront blessaient blessèrent
+63	3163	visuel	visuel visuelle visuels visuelles
+64	3164	envahir	envahi envahir envahit envahissent envahis envahissant envahissante envahissantes envahirent envahissants envahissait envahissaient envahisse envahiront envahira envahissez envahirait envahiraient
+65	3165	généreux	généreux généreuse généreuses
+66	3166	acier	acier aciers
+67	3167	carbone	carbone
+68	3168	constituent	constituent
+69	3169	exclusivement	exclusivement
+70	3170	hop	hop
+71	3171	crainte	crainte craintes
+72	3172	marchandise	marchandises marchandise
+73	3173	boucher	boucher bouchons bouché bouches bouchers bouchées bouchés bouchez bouchent bouchant bouchère bouchait bouchera
+74	3174	commettre	commettre commet commettent commissions commettant commit commets commette commettait commettez commettaient commettra commettants commettons commettrait commettraient commirent commettras commettais commettront
+75	3175	animateur	animateur animateurs animatrice
+76	3176	élire	élire élus élise élit élisent élisant éliront élira élisez élis élisait élut élurent élisaient élisons éliraient élirait
+77	3177	poudre	poudre poudres
+78	3178	rapporté	rapporté rapportés rapportée rapportées
+79	3179	malheur	malheur malheurs
+80	3180	générer	générer génère généré génèrent générant générait générera généra générerait généraient génèrera générez généreront générons génères génèrerait
+81	3181	spatial	spatiale spatial spatiales spatiaux
+82	3182	rendement	rendement rendements
+83	3183	débit	débit débits
+84	3184	communautaire	communautaire communautaires
+85	3185	transaction	transactions transaction
+86	3186	insulte	insulte insultes
+87	3187	brevet	brevet brevets
+88	3188	canard	canard canards cane canes
+89	3189	beurre	beurre beurres
+90	3190	biais	biais biaise
+91	3191	alimenter	alimenter alimenté alimente alimentent alimentant alimentait alimentaient alimentera alimenteront alimentez alimenta alimenterait alimentons
+92	3192	philosophe	philosophe philosophes
+93	3193	racisme	racisme racismes
+94	3194	connecter	connecté connecter connecte connectant connections connectez connectent connectes connectera connectait connectons connecteront connectaient
+95	3195	adoption	adoption adoptions
+96	3196	géographique	géographique géographiques
+97	3197	renouveler	renouveler renouvelé renouvelle renouvellent renouvelant renouvellera renouvela renouvelez renouvelait renouvelons renouvelleront renouvellerait renouvelles renouvelèrent renouvèle renouvelaient renouvellerai
+98	3198	avancée	avancée avancées
+99	3199	baron	baron barons baronne baronnes
+100	3200	problématique	problématique problématiques

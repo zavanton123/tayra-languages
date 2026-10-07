@@ -1,0 +1,100 @@
+1	5601	emballage	emballage emballages
+2	5602	staff	staff staffs
+3	5603	deal	deal deals
+4	5604	spontané	spontanée spontané spontanées spontanés momentanée
+5	5605	comptabilité	comptabilité comptabilités
+6	5606	bénéfique	bénéfique bénéfiques
+7	5607	séjourner	séjourné séjourner séjourne séjournent séjourna séjournait séjournant séjournera séjournaient séjournèrent séjournez séjourneront
+8	5608	multiplication	multiplication multiplications
+9	5609	serein	serein sereine sereins sereines
+10	5610	couronné	couronné couronnée couronnées couronnés
+11	5611	débloquer	débloquer débloqué débloque débloquent débloques débloquez débloquant débloquera débloquait
+12	5612	carnaval	carnaval carnavals
+13	5613	grillé	grillé grillée grillés grillées
+14	5614	pourrir	pourrir pourrit pourris pourrissent pourrisse pourrissant pourrissait pourrissez pourrira pourrissaient
+15	5615	adverse	adverse adverses
+16	5616	exciter	excite exciter excitent excitait excites excitez excitaient exciterait excita excitera
+17	5617	prometteur	prometteur prometteuse prometteurs prometteuses
+18	5618	abolir	abolir aboli abolit abolis abolissant abolissent abolissait abolissons abolira abolisse abolirait
+19	5619	cuisson	cuisson cuissons
+20	5620	ivre	ivre ivres
+21	5621	fixation	fixation fixations
+22	5622	teneur	teneur teneurs
+23	5623	dénomination	dénomination dénominations
+24	5624	aimable	aimable aimables
+25	5625	fantaisie	fantaisie fantaisies
+26	5626	égoïste	égoïste égoïstes
+27	5627	fonctionnalité	fonctionnalités fonctionnalité
+28	5628	réservation	réservation réservations
+29	5629	préconiser	préconise préconisé préconisent préconisait préconiser préconisant préconisons préconisez préconisaient préconisa
+30	5630	requérir	requiert requièrent requérir requière requérait requiers requerra requit requerrait requéraient
+31	5631	chirurgical	chirurgicale chirurgical chirurgicales chirurgicaux
+32	5632	fraise	fraises fraise
+33	5633	lasser	lasser lassé lassant lassée lassés lasse lassent lassa lasserai lassera lassez lassante lassait lassées lasseront lasserait lasserais lassais lassantes lassons lasses
+34	5634	confidentiel	confidentiel confidentielles confidentielle confidentiels
+35	5635	freiner	freiner freine freiné freinent freinant freinait freinera freines freinez freinerait freina
+36	5636	démonter	démonter démonté démonte démontent démontant démontez démontes démontait
+37	5637	attachement	attachement attachements
+38	5638	attarder	attarder attarde attardé attardés attardée attardent attardant attardons attardez attarda attardées attardait attardera attarderai attardes attarderons attardaient
+39	5639	caillou	cailloux caillou
+40	5640	orthodoxe	orthodoxe orthodoxes
+41	5641	halle	halle halles
+42	5642	faker	fake fakes faker
+43	5643	tramway	tramway tramways
+44	5644	voûte	voûte voûtes
+45	5645	décerner	décerné décerner décerne décernant décerna décernera décernent décernait décernons
+46	5646	bang	bang bangs
+47	5647	enfoiré	enfoirés enfoiré enfoirée
+48	5648	affichage	affichage affichages
+49	5649	fonte	fonte fontes
+50	5650	capitaliste	capitaliste capitalistes
+51	5651	militer	milite militer militent milité militait milita milites militaient militons militez militais
+52	5652	bénédiction	bénédiction bénédictions
+53	5653	explicite	explicite explicites
+54	5654	bizarrement	bizarrement
+55	5655	cinquantaine	cinquantaine
+56	5656	cross	cross
+57	5657	débris	débris
+58	5658	historiquement	historiquement
+59	5659	poker	poker
+60	5660	rez	rez
+61	5661	sylvie	sylvie
+62	5662	burger	burger burgers
+63	5663	accouchement	accouchement accouchements
+64	5664	cartouche	cartouches cartouche
+65	5665	délinquant	délinquants délinquant délinquante délinquantes
+66	5666	pâle	pâle pâles
+67	5667	céramique	céramique céramiques
+68	5668	optimiser	optimiser optimisé optimisée optimise optimisés optimisant optimisées optimisent optimisez
+69	5669	bienfait	bienfaits bienfait
+70	5670	devancer	devance devancé devancer devançant devancent devançait devança devancera devançaient devancerait
+71	5671	dépourvu	dépourvu dépourvue dépourvus dépourvues
+72	5672	électro	électro electro électros
+73	5673	imprimerie	imprimerie imprimeries
+74	5674	taré	taré tarés tarée tarées
+75	5675	maint	maintes maints mainte maint
+76	5676	scandaleux	scandaleux scandaleuse scandaleuses
+77	5677	ivoirien	ivoirien ivoirienne ivoiriens ivoiriennes
+78	5678	greffe	greffe greffes
+79	5679	indigne	indigne indignes
+80	5680	savon	savon savons
+81	5681	nostalgie	nostalgie nostalgies
+82	5682	étang	étang étangs
+83	5683	grenouille	grenouille grenouilles
+84	5684	sourcil	sourcils sourcil
+85	5685	humoriste	humoriste humoristes
+86	5686	propice	propice propices
+87	5687	traumatisme	traumatisme traumatismes
+88	5688	cinématographique	cinématographique cinématographiques
+89	5689	massacrer	massacrer massacré massacres massacrent massacrant massacrante massacra massacrèrent massacraient massacrait massacrez massacrons
+90	5690	hydrogène	hydrogène hydrogènes
+91	5691	élégance	élégance élégances
+92	5692	appréciation	appréciation appréciations
+93	5693	coïncidence	coïncidence coïncidences
+94	5694	éloge	éloge éloges
+95	5695	archipel	archipel archipels
+96	5696	daller	dallas dalla daller dallé dalles
+97	5697	énoncé	énoncé énoncés énoncées énoncée
+98	5698	méridional	méridionale méridional méridionales méridionaux
+99	5699	assembler	assembler assemblé assemble assemblent assemblant assemblez assembla assemblait assemblera assemblaient assembles assemblèrent assemblons
+100	5700	généraliste	généraliste généralistes

@@ -1,0 +1,100 @@
+1	8701	quid	quid
+2	8702	renom	renom
+3	8703	soixantaine	soixantaine
+4	8704	sécu	sécu
+5	8705	toussa	toussa
+6	8706	toux	toux
+7	8707	volley	volley
+8	8708	biologiste	biologiste biologistes
+9	8709	dérapage	dérapage dérapages
+10	8710	pronom	pronom pronoms
+11	8711	sunnite	sunnites sunnite
+12	8712	stigmatiser	stigmatiser stigmatise stigmatisé stigmatisant stigmatisés stigmatisée stigmatisées stigmatisent stigmatisait
+13	8713	surplomber	surplombant surplombe surplombent surplombait surplombé surplomber surplombante
+14	8714	tan	tan tans
+15	8715	acharner	acharne acharner acharnent acharnait acharnes acharnez acharnant acharnaient acharna acharnera
+16	8716	annexer	annexé annexer annexes annexant annexa annexions annexent
+17	8717	condo	condo condos
+18	8718	crotte	crotte crottes
+19	8719	enfouir	enfoui enfouis enfouir enfouit enfouissant enfouissent
+20	8720	correcteur	correcteur correcteurs correctrice correctrices
+21	8721	ingérence	ingérence ingérences
+22	8722	cadrer	cadrer cadré cadrés cadrée cadrent cadres cadrant cadrées cadrait cadraient
+23	8723	coincer	coincer coince coincent coinçant coinces coinçait
+24	8724	amortir	amortir amorti amortie amortis amortit amorties amortissent amortissant
+25	8725	impacter	impacte impacter impacté impactant impactent impactera impacterait impactante impacteront
+26	8726	épuration	épuration épurations
+27	8727	manufacturier	manufacturier manufacturière manufacturiers manufacturières
+28	8728	syntaxe	syntaxe syntaxes
+29	8729	fautif	fautif fautifs fautive fautives
+30	8730	incendier	incendié incendier incendies incendient incendiant incendia incendièrent incendiaient
+31	8731	vintage	vintage vintages
+32	8732	amorce	amorce amorces
+33	8733	profitable	profitable profitables
+34	8734	suspicion	suspicion suspicions
+35	8735	spéculatif	spéculative spéculatif spéculatives spéculatifs
+36	8736	brusque	brusque brusques
+37	8737	running	running runnings
+38	8738	froisser	froisser froissé froisse froissée froissés froissées froissant froissent
+39	8739	eagle	eagles eagle
+40	8740	gamer	gamer gamers
+41	8741	poterie	poterie poteries
+42	8742	sollicitation	sollicitations sollicitation
+43	8743	altération	altération altérations
+44	8744	concurrentiel	concurrentiel concurrentielle concurrentiels concurrentielles
+45	8745	exhorter	exhorte exhorté exhorter exhortant exhortent exhortait exhortons exhorta
+46	8746	fouler	fouler foulé foulent foulés foulant foules foulées foulera foulait foula foulons foulez fouleront foulaient
+47	8747	lister	lister listé listant listes lista listent listez listait listera
+48	8748	mirage	mirage mirages
+49	8749	fluctuation	fluctuations fluctuation
+50	8750	relativiser	relativiser relativise relativisé relativisent relativisant relativisons
+51	8751	persévérer	persévérer persévérant persévère persévéré persévérante persévérez persévérants persévèrent persévérons persévérantes
+52	8752	infâme	infâme infâmes
+53	8753	finaliser	finaliser finalisé finalise finalisent finalisant finalisons
+54	8754	mutant	mutants mutant mutante mutantes
+55	8755	mixer	mixer mixe mixé mixant mixez mixa mixent mixers mixait mixes
+56	8756	maltraiter	maltraité maltraiter maltraite maltraitent maltraitant maltraitait maltraitaient maltraitez maltraites
+57	8757	légitimer	légitimer légitimé légitimes légitiment légitimant légitimerait légitimait
+58	8758	morphologie	morphologie morphologies
+59	8759	zapper	zappé zapper zappe zappa zappant zappez zappes zappent zappais
+60	8760	concierge	concierge concierges
+61	8761	échappement	échappement échappements
+62	8762	démanteler	démanteler démantelé démantèle démantelant démantèlent
+63	8763	dénigrer	dénigrer dénigre dénigré dénigrent dénigrant dénigres dénigrez dénigrait dénigrants dénigrante
+64	8764	tourbillon	tourbillon tourbillons
+65	8765	reconnaissable	reconnaissable reconnaissables
+66	8766	dortoir	dortoir dortoirs
+67	8767	arbuste	arbustes arbuste
+68	8768	cacahuète	cacahuètes cacahuète
+69	8769	jaillir	jaillit jaillir jaillissent jailli jaillissant jaillissait jaillira jaillisse jaillissante jaillirent jaillissaient jaillis
+70	8770	médiathèque	médiathèque médiathèques
+71	8771	bride	bride brides
+72	8772	pognon	pognon pognons
+73	8773	pécheur	pécheurs pécheur pécheresse pécheresses
+74	8774	ponte	ponte pontes
+75	8775	stationner	stationner stationné stationne stationnent stationnait stationnaient stationnant stationnez
+76	8776	pharaon	pharaon pharaons
+77	8777	redevable	redevable redevables
+78	8778	évolutif	évolutive évolutif évolutives évolutifs
+79	8779	sonorité	sonorités sonorité
+80	8780	auditoire	auditoire auditoires
+81	8781	python	python pythons
+82	8782	costaud	costaud costauds costaude costaudes
+83	8783	pétale	pétales pétale
+84	8784	fracasser	fracasser fracassé fracasse fracassante fracassant fracassantes fracassent fracassants fracassa
+85	8785	incorporer	incorporer incorpore incorporant incorporent incorporez incorpora incorporait incorporera
+86	8786	magistral	magistrale magistral magistraux magistrales
+87	8787	feuillage	feuillage feuillages
+88	8788	embellir	embellir embellit embelli embellissent embellis embellissez embellissant embellira
+89	8789	amasser	amasser amassé amasse amassent amassant amassait amassez amassa amassaient
+90	8790	malhonnête	malhonnête malhonnêtes
+91	8791	inclinaison	inclinaison inclinaisons
+92	8792	frégate	frégate frégates
+93	8793	inflammatoire	inflammatoire inflammatoires
+94	8794	pneumatique	pneumatiques pneumatique
+95	8795	prétentieux	prétentieux prétentieuse prétentieuses
+96	8796	déportation	déportation déportations
+97	8797	capot	capot capots
+98	8798	stimulation	stimulation stimulations
+99	8799	tiède	tiède tièdes
+100	8800	pourpre	pourpre pourpres

@@ -1,0 +1,100 @@
+1	7301	fiancé	fiancé fiancés fiancées
+2	7302	correctionnel	correctionnel correctionnelle correctionnels correctionnelles
+3	7303	fleurir	fleurir fleurissent fleurit fleuris fleurissant fleurira fleurissaient fleuriront fleurisse fleurissait
+4	7304	impeccable	impeccable impeccables
+5	7305	finalité	finalité finalités
+6	7306	frôler	frôle frôlé frôler frôlant frôlent frôlait frôla frôlaient frôles frôlera
+7	7307	dialecte	dialecte dialectes
+8	7308	projectile	projectiles projectile
+9	7309	djihad	djihad jihad
+10	7310	restreindre	restreindre restreignant restreignent restreignait restreigne restreins restreignaient restreindra restreindrait
+11	7311	fleuri	fleuri fleurie fleuris fleuries
+12	7312	abstraction	abstraction abstractions
+13	7313	cumul	cumul cumuls
+14	7314	ancienneté	ancienneté
+15	7315	illégalement	illégalement
+16	7316	nullement	nullement
+17	7317	paradoxalement	paradoxalement
+18	7318	postérité	postérité
+19	7319	provisoirement	provisoirement
+20	7320	procès-verbal	pv
+21	7321	rabais	rabais
+22	7322	soja	soja
+23	7323	théoriquement	théoriquement
+24	7324	trinité	trinité
+25	7325	téléphonie	téléphonie
+26	7326	boycott	boycott boycotts
+27	7327	imprévisible	imprévisible imprévisibles
+28	7328	dentelle	dentelle dentelles
+29	7329	gouffre	gouffre gouffres
+30	7330	combine	combine combines
+31	7331	investiture	investiture investitures
+32	7332	épuiser	épuise épuiser épuisent épuisera épuisez épuisait épuises épuiserait épuisaient épuisons
+33	7333	redoute	redoute redoutes
+34	7334	miséricorde	miséricorde miséricordes
+35	7335	mouvoir	mouvoir mouvant mouvants mû mouvante meut mouvantes mus mut meuvent meus musse mouvait
+36	7336	refrain	refrain refrains
+37	7337	palmier	palmiers palmier
+38	7338	prospère	prospère prospères
+39	7339	destinataire	destinataire destinataires
+40	7340	plaisanterie	plaisanterie plaisanteries
+41	7341	prophétie	prophétie prophéties
+42	7342	psychopathe	psychopathe psychopathes
+43	7343	épopée	épopée épopées
+44	7344	connaisseur	connaisseur connaisseurs connoisseur connaisseuse
+45	7345	conditionné	conditionné conditionnée conditionnés conditionnées
+46	7346	gâté	gâté gâtés gâtée gâtées
+47	7347	flexible	flexible flexibles
+48	7348	éligible	éligible éligibles
+49	7349	mural	murale murales mural muraux
+50	7350	absorption	absorption absorptions
+51	7351	prescrire	prescrire prescrivent prescris prescrivant prescrira prescrive prescrivait prescrivit prescrivaient prescrivez
+52	7352	brandon	brandon brandons
+53	7353	cheikh	cheikh cheikhs
+54	7354	nageur	nageur nageurs nageuse
+55	7355	récidive	récidive récidives
+56	7356	cruauté	cruauté cruautés
+57	7357	préservatif	préservatif préservatifs
+58	7358	réprimer	réprimer réprimé réprime réprimant répriment réprima réprimait réprimez
+59	7359	bovin	bovins bovine bovin bovines
+60	7360	assimilation	assimilation assimilations
+61	7361	livreur	livreur livreurs livreuse
+62	7362	viable	viable viables
+63	7363	cartel	cartel cartels
+64	7364	pépin	pépin pépins
+65	7365	pixel	pixels pixel
+66	7366	manufacture	manufacture manufactures
+67	7367	élargissement	élargissement élargissements
+68	7368	chartre	chartres chartre
+69	7369	préparatif	préparatifs préparatif
+70	7370	troublant	troublant troublante troublantes troublants
+71	7371	horizontal	horizontal horizontaux horizontales
+72	7372	clerc	clerc clercs
+73	7373	vestimentaire	vestimentaire vestimentaires
+74	7374	délibéré	délibéré délibérée délibérés délibérées
+75	7375	poignarder	poignardé poignarder poignarde poignardant poignardent poignarda
+76	7376	prussien	prussien prussienne prussiens prussiennes
+77	7377	rayé	rayé rayée rayés rayées
+78	7378	loupe	loupe loupes
+79	7379	patronal	patronales patronale patronal patronaux
+80	7380	anticipation	anticipation anticipations
+81	7381	baroque	baroque baroques
+82	7382	démo	démo démos
+83	7383	séparatiste	séparatistes séparatiste
+84	7384	cutané	cutanée cutanées cutané cutanés
+85	7385	archer	archer archers archère archères
+86	7386	renaître	renaître renaît renaîtra renaissent renaissant renaissante renaisse renais renaissait renaissants renaîtront
+87	7387	propulser	propulsé propulser propulse propulsant propulsent propulsera propulsa propulsait propulsions
+88	7388	irréprochable	irréprochable irréprochables
+89	7389	dément	dément démente déments démentes
+90	7390	glissement	glissement glissements
+91	7391	orge	orge orges
+92	7392	badge	badge badges
+93	7393	apéro	apéro apéros
+94	7394	boucherie	boucherie boucheries
+95	7395	moelle	moelle moëlle moelles mœlle
+96	7396	incarnation	incarnation incarnations
+97	7397	osseux	osseuse osseux osseuses
+98	7398	hercule	hercule hercules
+99	7399	utopie	utopie utopies
+100	7400	fringue	fringues fringue

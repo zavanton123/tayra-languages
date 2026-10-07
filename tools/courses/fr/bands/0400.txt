@@ -1,0 +1,100 @@
+1	301	répondre	répondre répond répondu réponds répondent répondant répondez répondit répondait répondra réponde répondrai répondais repondre répondants répondrais répondront répondaient répondrait répondons répondrons répondirent répondes répondis répondrez répondraient répondras répondiez répondriez répondions
+2	302	livre	livre livres
+3	303	chef	chef chefs cheffe cheffes
+4	304	photo	photo photos
+5	305	quatre	quatre quatres
+6	306	blanc	blanc blanche blancs blanches
+7	307	autant	autant
+8	308	façon	façon façons
+9	309	nuit	nuit nuits nuite
+10	310	servir	sert servir servi servent servant servira servait sers servis servit serve servante serviront servirait servaient servez servais servirent servants servons serviraient servirai serves servirons servirais serviras servirez serviez servions
+11	311	école	école écoles
+12	312	type	type types
+13	313	plan	plan plans plane planes
+14	314	présent	présent présente présents présentes presente
+15	315	terre	terre terres
+16	316	cœur	cœur coeur cœurs
+17	317	air	air airs
+18	318	sujet	sujet sujets sujette sujettes
+19	319	membre	membres membre
+20	320	fils	fils
+21	321	exister	existe existent exister existait existant existé existantes existants existaient existante existerait existera existes existais existeraient existeront existez existons exista existât existerais existerai existèrent existions
+22	322	minute	minutes minute
+23	323	noir	noir noire noirs noires noiret
+24	324	oublier	oublier oublié oublie oubliez oublions oublies oubliée oubliés oublient oubliant oublierai oubliées oubliais oubliera oublieront oubliait oublierais oublieras oublierait oublierons oublierez oublia oubliaient oublieraient oubliai oublièrent
+25	325	envoyer	envoyer envoyé envoie envoyés envoyez envoyée envoient envoyant envoyées envoya envoyait envoies enverra enverrai envoyons enverrait envoyaient enverrais envoyais enverront enverrons envoyèrent enverrez enverras enverraient envoyiez envoyai envoyions
+26	326	force	force forces
+27	327	but	but buts
+28	328	étude	étude études
+29	329	match	match matchs matches
+30	330	loin	loin
+31	331	payer	payer payé paye paie payant paient payent payez payante payait paiera payes paies payants payantes paieront payons payaient payera paierait payais paierai paierais paya paieras payeront paieraient paierez payerait payerai payerais payerez payeras paierons payeraient payèrent payerons payiez payions poyer
+32	332	vidéo	vidéo vidéos
+33	333	mise	mise mises
+34	334	continuer	continue continuer continuent continuez continué continuera continuant continues continuons continuait continua continueront continuaient continuerai continuerons continuerait continuèrent continuais continuerais continueraient continuerez continueras continuions continuiez continuai
+35	335	résultat	résultats résultat
+36	336	région	région régions
+37	337	notamment	notamment
+38	338	apprendre	apprendre appris apprend apprends apprennent apprenant apprenez apprendra apprit apprenne apprenait apprenons apprise apprendront apprendrez apprises apprendras apprenants apprenais apprenaient apprendrai apprendrait apprendrons apprennes apprendrais apprirent apprenions appreniez apprendraient apprenante apprîmes
+39	339	fond	fond fonds
+40	340	ordre	ordre ordres
+41	341	saison	saison saisons
+42	342	argent	argent argents
+43	343	propre	propre propres
+44	344	art	art arts
+45	345	situation	situation situations
+46	346	mesure	mesure mesures
+47	347	base	base bases
+48	348	dessus	dessus
+49	349	journée	journée journées
+50	350	corps	corps corp cors
+51	351	créer	créer créé crée créant créent créa créez créera crées créait créerait créons créèrent créaient créeront créerons créerai créais créeraient créerais créas créerez
+52	352	action	action actions
+53	353	rue	rue rues
+54	354	tomber	tomber tombe tombé tombent tombes tombant tomba tombait tombera tombez tombaient tomberait tomberont tombèrent tombons tombais tomberez tombante tomberas tomberaient tombantes tomberai tomberais tombiez tombai tombants tomberons tombions tombât
+55	355	sûr	sûr sûre sûrs sûres sure sour surs sures
+56	356	expliquer	explique expliquer expliqué expliquent expliquant expliquez expliquait expliquerait expliques expliquera expliqua expliquerai expliquais expliquaient expliquons expliqueront expliquerais expliqueraient expliqueras expliquerons expliquiez expliquerez expliquions expliquèrent expliquai
+57	357	or	or ors
+58	358	ensuite	ensuite
+59	359	plutôt	plutôt
+60	360	uni	unis uni unies unie
+61	361	entendre	entendre entend entends entendent entendait entendez entendais entendant entende entendons entendra entendit entendaient entendrez entendrait entendis entendront entendras entendrai entendrais entendrons entendions entendirent entendiez entendants entendraient entendes entendriez entendante entendîmes
+62	362	recherche	recherche recherches
+63	363	série	série séries
+64	364	frère	frère frères frere
+65	365	ministre	ministre ministres
+66	366	aide	aide aides
+67	367	tard	tard
+68	368	présenter	présenter présenté présente présentent présentant présentait présentes présentera présentaient présenta présentez présentons présenteront présenterait présenterai présenterons présentais présentèrent présenteraient présenterais présenterez présentions présentiez présentai présenteras
+69	369	information	information informations info
+70	370	écrit	écrit écrits écrite écrites
+71	371	européen	européenne européen européens européennes
+72	372	matin	matin matins
+73	373	mauvais	mauvais mauvaise mauvaises
+74	374	retour	retour retours
+75	375	terme	terme termes
+76	376	prochain	prochaine prochain prochaines prochains
+77	377	proposer	propose proposé proposer proposent proposant proposait proposons proposera proposez proposa proposes proposaient proposeront proposais proposerait proposerai proposerons proposerais proposèrent proposions proposiez proposeraient proposerez proposai
+78	378	international	international internationale internationales internationaux
+79	379	simple	simple simples
+80	380	mec	mec mecs
+81	381	amour	amour amours
+82	382	voiture	voiture voitures
+83	383	manière	manière manières maniére
+84	384	espérer	espère espérer espérons espérant espérait espéré espèrent espérais espéraient espérez espères espérions espériez espérai espéra espérerait
+85	385	vite	vite vites
+86	386	afin	afin
+87	387	ah	ah
+88	388	choix	choix
+89	389	découvrir	découvrir découvert découvre découvrez découvertes découvrent découverts découvrant découvrit découvrira découvrait découvres découvrons découvriront découvrirez découvrirent découvrais découvraient découvrirons découvris découvriras découvrirait découvrions découvriez découvrirai découvriraient découvrirais découvrîmes
+90	390	vieux	vieux vieille vieilles vieil
+91	391	pièce	pièces pièce
+92	392	rappeler	rappelle rappeler rappelé rappelons rappelant rappellent rappelez rappelles rappelait rappellera rappellerai rappelais rappela rappelleront rappelaient rappellerait rappellerais rappellerons rappellerez rappelèrent rappelleras rappeliez rappelleraient rappelai rappelions
+93	393	chambre	chambre chambres chambrette chambrettes
+94	394	acheter	acheter acheté achète achetez achètent achetant achètes achetait acheta achèterai achetais achètera achetons achetaient achèterais achèteront achèterait achetèrent achèterez achèteraient achetiez achetai achèterons achèteras achetions achèteriez
+95	395	activité	activité activités
+96	396	nord	nord
+97	397	anglais	anglais anglaise anglaises anglois
+98	398	assurer	assurer assure assuré assurée assurant assurent assurés assurez assurait assurera assurées assura assuraient assurons assureront assurerait assures assurèrent assurerons assureraient assurerez assurerai assurais
+99	399	valeur	valeur valeurs
+100	400	marché	marché marchés marchée

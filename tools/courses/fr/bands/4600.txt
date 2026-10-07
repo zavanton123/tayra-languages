@@ -1,0 +1,100 @@
+1	4501	saxon	saxons saxon saxonne saxonnes
+2	4502	localisation	localisation localisations
+3	4503	saga	saga sagas
+4	4504	naïf	naïf naïve naïfs naïves
+5	4505	jupe	jupe jupes
+6	4506	compatriote	compatriotes compatriote
+7	4507	thématique	thématique thématiques
+8	4508	gestionnaire	gestionnaire gestionnaires
+9	4509	harper	harper harpe harpons harpes
+10	4510	conventionnel	conventionnelle conventionnel conventionnelles conventionnels
+11	4511	boucler	boucler bouclé bouclée bouclés boucles bouclées bouclent bouclant bouclera bouclez bouclait
+12	4512	permission	permission permissions
+13	4513	augustin	augustin augustins augustine augustines
+14	4514	découler	découle découlent découlant découler découlé découlait découlera découlerait découleront découlaient découleraient découla découlèrent
+15	4515	chœur	chœur choeur chœurs
+16	4516	effondrer	effondre effondrer effondré effondrent effondra effondrait effondrera effondrerait effondrant effondraient effondrèrent effondreraient
+17	4517	instaurer	instaurer instauré instaure instaurant instaurent instaura instaurait instaurera instaurons instaurerait
+18	4518	fiscalité	fiscalité fiscalités
+19	4519	trottoir	trottoir trottoirs
+20	4520	écouler	écoulé écouler écoule écoulent écoulant écoulait écoulera écoulaient écoula écouleront écoulèrent écoulerait
+21	4521	métropolitain	métropolitaine métropolitain métropolitains métropolitaines
+22	4522	détriment	détriment détriments
+23	4523	prudence	prudence prudences
+24	4524	consentir	consenti consentir consent consentis consentante consentant consentants consentent consens consentantes consentez consentit consente consentait consentira consentirait consentons consentirent consentiez
+25	4525	soucier	soucier soucie soucient souciait souciez soucié soucies souciant souciaient souciera souciais soucions soucierait soucia
+26	4526	plaider	plaider plaide plaidé plaident plaidant plaidait plaidera plaida plaidons plaidaient plaidez plaiderait plaides plaideront
+27	4527	instinct	instinct instincts
+28	4528	triomphe	triomphe triomphes
+29	4529	mutuelle	mutuelle mutuelles
+30	4530	appli	appli applis
+31	4531	lesbienne	lesbienne lesbiennes
+32	4532	retomber	retomber retombe retombé retombent retombant retombera retomba retombait retomberait retombes retombaient retombez retombantes retomberai retomberont
+33	4533	cohérent	cohérent cohérente cohérents cohérentes
+34	4534	itinéraire	itinéraire itinéraires
+35	4535	cash	cash
+36	4536	consensus	consensus
+37	4537	hello	hello
+38	4538	parallèlement	parallèlement
+39	4539	proprement	proprement
+40	4540	pénible	pénible pénibles
+41	4541	report	report reports
+42	4542	senior	senior seniors
+43	4543	arrangement	arrangement arrangements
+44	4544	imbécile	imbécile imbéciles
+45	4545	rachat	rachat rachats
+46	4546	microphone	micro microphone microphones
+47	4547	contribuable	contribuables contribuable
+48	4548	coupure	coupure coupures
+49	4549	slogan	slogan slogans
+50	4550	madeleine	madeleine madeleines
+51	4551	élimination	élimination éliminations
+52	4552	choper	choper chopper chopé chope choppe choppé chopes chopent choppes chopez choppez choppent
+53	4553	requin	requin requins
+54	4554	proclamer	proclamé proclame proclamer proclamant proclament proclama proclamait proclamaient proclamèrent proclamera proclamons proclamez
+55	4555	reflet	reflet reflets
+56	4556	persister	persiste persistent persister persisté persistait persistez persistera persistes persistaient persista persisteront persisterait persistons persistèrent
+57	4557	injustice	injustice injustices
+58	4558	éléphant	éléphant éléphants éléphante
+59	4559	subtil	subtil subtile subtiles subtils
+60	4560	secouer	secouer secoue secoué secouant secouent secoua secouait secouez secoues secouaient secouera secouèrent
+61	4561	tchèque	tchèque tchèques
+62	4562	spectaculaire	spectaculaire spectaculaires
+63	4563	luire	luis luit luire luise luisait luisent luisaient
+64	4564	formel	formelle formel formelles formels
+65	4565	chic	chic chics
+66	4566	indirect	indirect indirects indirecte indirectes
+67	4567	répandre	répandre répand répandent répandit répandant répande répandait répandra répandez répands répandirent répandaient répandront répandrait répandrai répandons
+68	4568	régie	régie régies
+69	4569	patriote	patriotes patriote
+70	4570	bénéficiaire	bénéficiaires bénéficiaire
+71	4571	risqué	risqué risquée risqués risquées
+72	4572	monarchie	monarchie monarchies
+73	4573	charité	charité charités
+74	4574	entrainer	entrainer entraine entrainé entrainent entrainés entrainant entrainée entrainera entrainerait entrainait entraines entraina entrainez entrainées entrainaient entraineront entrainais
+75	4575	fatal	fatale fatal fatales fatals
+76	4576	coûteux	coûteux coûteuse coûteuses
+77	4577	initier	initié initier initie initient initiant initia initiez initiera initiait initièrent
+78	4578	inverser	inverser inversé inversée inversés inversées inversant inversent inversions inversez inversait inversons inverses inversera inversa
+79	4579	clic	clic clics click
+80	4580	complexité	complexité complexités
+81	4581	injection	injection injections
+82	4582	bonbon	bonbons bonbon
+83	4583	tatouage	tatouage tatouages
+84	4584	cerf	cerf biche cerfs biches
+85	4585	martial	martial martiaux martiale martiales
+86	4586	élaboration	élaboration élaborations
+87	4587	munition	munitions munition
+88	4588	quinzaine	quinzaine quinzaines
+89	4589	envoler	envoler envole envolé envolent envolez envola envolera envolait envolaient envolant envoleront envolèrent envoles envolerait envolerai
+90	4590	déduire	déduire déduit déduis déduite déduits déduites déduisent déduisant déduira déduisit déduisez déduisons déduisait
+91	4591	réacteur	réacteur réacteurs
+92	4592	légendaire	légendaire légendaires
+93	4593	préjugé	préjugés préjugé
+94	4594	bouclier	bouclier boucliers
+95	4595	cheville	cheville chevilles
+96	4596	bec	bec becs
+97	4597	régulation	régulation régulations
+98	4598	incliner	incline incliné incliner inclinant inclinent inclina inclinez inclinait inclinera inclinons inclinaient inclineront inclinèrent inclines inclinerait
+99	4599	apaiser	apaiser apaise apaisé apaisant apaisante apaisent apaisera apaisantes apaisants apaisait appaiser apaisez apaisa apaiserait apaiseront
+100	4600	blocage	blocage blocages

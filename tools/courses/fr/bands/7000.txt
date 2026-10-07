@@ -1,0 +1,100 @@
+1	6901	calorie	calories calorie
+2	6902	barque	barque barques barquette barquettes
+3	6903	secourir	secourir secouru secourus secourt secoure secourez secourant secourent
+4	6904	encyclopédie	encyclopédie encyclopédies
+5	6905	mythologie	mythologie mythologies
+6	6906	compréhensible	compréhensible compréhensibles
+7	6907	épave	épave épaves
+8	6908	amplifier	amplifier amplifie amplifié amplifient amplifiant amplifiait amplifiera amplifia
+9	6909	nautique	nautique nautiques
+10	6910	offensif	offensif offensifs offensives
+11	6911	épanouir	épanouir épanoui épanouit épanouissent épanouis épanouissant épanouissante épanouira épanouisse épanouissait épanouiront
+12	6912	méfiance	méfiance méfiances
+13	6913	maquette	maquette maquettes
+14	6914	décollage	décollage décollages
+15	6915	sauvegarder	sauvegarder sauvegardé sauvegardes sauvegardant sauvegardez sauvegardent
+16	6916	anatomie	anatomie anatomies
+17	6917	montréalais	montréalais montréalaise montréalaises
+18	6918	enculer	enculer encule enculent encules enculez
+19	6919	déséquilibre	déséquilibre déséquilibres
+20	6920	habileté	habileté habilité habiletés
+21	6921	proverbe	proverbe proverbes
+22	6922	axer	axé axa axer axes axant axent
+23	6923	espionner	espionner espionne espionné espionnent espionnes espionnait espionnais espionnant espionnaient espionnez
+24	6924	coke	coke cokes
+25	6925	réconcilier	réconcilier réconcilie réconcilié réconcilient réconciliez réconciliant réconciliera réconcilia réconciliait
+26	6926	injonction	injonction injonctions
+27	6927	unanime	unanime unanimes
+28	6928	chantage	chantage chantages
+29	6929	self	self selfs
+30	6930	oppression	oppression oppressions
+31	6931	repli	repli replis
+32	6932	donateur	donateurs donateur donatrice donatrices
+33	6933	spoiler	spoiler spoilers spoile spoilé
+34	6934	télécom	télécom télécoms
+35	6935	tronche	tronche tronches
+36	6936	pétrolière	pétrolière pétrolières
+37	6937	riverain	riverains riverain riveraines riveraine
+38	6938	déguster	déguster déguste dégusté dégustant dégustez dégustent dégustait dégustera dégustons
+39	6939	usure	usure usures
+40	6940	caresse	caresse caresses
+41	6941	tournure	tournure tournures
+42	6942	patrimonial	patrimonial patrimoniale patrimoniaux patrimoniales
+43	6943	quinquennat	quinquennat quinquennats
+44	6944	mammifère	mammifères mammifère
+45	6945	bandit	bandits bandit
+46	6946	rivage	rivage rivages
+47	6947	activiste	activistes activiste
+48	6948	élancer	élance élancer élancé élancée élancent élancés élancées élança élançant élancera élançait élanceront élancèrent élançaient
+49	6949	frontalier	frontaliers frontalière frontalier frontalières
+50	6950	ambigu	ambigu ambiguë ambigus ambiguës ambigüe ambigües
+51	6951	contrée	contrées contrée
+52	6952	alphonse	alphonse
+53	6953	bacon	bacon
+54	6954	blocus	blocus
+55	6955	brutalement	brutalement
+56	6956	châssis	châssis
+57	6957	leadership	leadership
+58	6958	lourdement	lourdement
+59	6959	nouvellement	nouvellement
+60	6960	ouah	ouah
+61	6961	surf	surf
+62	6962	vieillesse	vieillesse
+63	6963	cassette	cassette cassettes
+64	6964	baril	baril barils barrel
+65	6965	méditer	méditer médite médité méditant méditez méditent méditait méditons méditais médites médita
+66	6966	démolition	démolition démolitions
+67	6967	méthodologie	méthodologie méthodologies
+68	6968	faîte	faîtes faîte
+69	6969	illicite	illicite illicites
+70	6970	tisser	tisser tissé tisse tissent tissant tissa tissait tissons tissaient
+71	6971	engueuler	engueuler engueule engueulé engueulent engueulait engueules engueulez engueulant engueulaient
+72	6972	penseur	penseurs penseur penseuse
+73	6973	érection	érection érections
+74	6974	civilisé	civilisé civilisés civilisée civilisées
+75	6975	chevet	chevet chevets
+76	6976	mousser	moussa mousser moussant mousses moussons moussé moussants
+77	6977	éveiller	éveiller éveille éveillent éveillera éveillant éveilla éveillait éveillez éveillerait éveilleront
+78	6978	intimider	intimider intimidé intimidant intimide intimidante intimident intimidants intimidait intimides intimidantes
+79	6979	infidèle	infidèle infidèles
+80	6980	interpellation	interpellation interpellations
+81	6981	migratoire	migratoire migratoires
+82	6982	naze	naze nazes nase
+83	6983	administrer	administrer administre administrent administrant administrait administra administrera administrez administraient
+84	6984	guitariste	guitariste guitaristes
+85	6985	créance	créances créance
+86	6986	bulgare	bulgare bulgares
+87	6987	intestin	intestin intestins intestines intestine
+88	6988	bûcher	bûcher bûche bûches bûcherons bûchers bûché
+89	6989	décomposer	décompose décomposer décomposé décomposent décomposée décomposés décomposant décomposées décomposait décomposera décomposaient
+90	6990	rallye	rallye rallyes
+91	6991	lucide	lucide lucides
+92	6992	excursion	excursion excursions
+93	6993	autiste	autiste autistes
+94	6994	prédiction	prédictions prédiction
+95	6995	hivernal	hivernale hivernal hivernales hivernaux
+96	6996	basilique	basilique basiliques
+97	6997	différentiel	différentiel différentielle différentielles différentiels
+98	6998	communion	communion communions
+99	6999	divorcer	divorcé divorcer divorcent divorces divorcera divorça divorcez divorçons
+100	7000	intercepter	intercepter intercepté interceptions intercepte interceptent interceptant interceptait intercepta

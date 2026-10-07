@@ -1,0 +1,100 @@
+1	9401	terminologie	terminologie terminologies
+2	9402	lester	lester leste lesté lestes
+3	9403	dissertation	dissertation dissertations
+4	9404	vénézuélien	vénézuélien vénézuélienne vénézuéliens vénézuéliennes
+5	9405	expressif	expressif expressive expressifs expressives
+6	9406	chalon	chalon chalons
+7	9407	spaghetti	spaghetti spaghettis
+8	9408	terne	terne ternes
+9	9409	répétitif	répétitif répétitive répétitifs répétitives
+10	9410	équivoque	équivoque équivoques
+11	9411	prieuré	prieuré prieurés
+12	9412	pourparlers	pourparlers pourparler
+13	9413	assomption	assomption
+14	9414	cayenne	cayenne
+15	9415	charia	charia
+16	9416	clim	clim
+17	9417	fitness	fitness
+18	9418	legs	legs
+19	9419	merdier	merdier
+20	9420	mouais	mouais
+21	9421	paf	paf
+22	9422	trading	trading
+23	9423	tristement	tristement
+24	9424	valois	valois
+25	9425	vulgarisation	vulgarisation
+26	9426	ébullition	ébullition
+27	9427	comestible	comestibles comestible
+28	9428	ambre	ambre ambres
+29	9429	ingénieux	ingénieux ingénieuse ingénieuses
+30	9430	halluciner	hallucine halluciné halluciner hallucinent
+31	9431	pneumonie	pneumonie pneumonies
+32	9432	râle	râle râles
+33	9433	embrouiller	embrouiller embrouillé embrouilles embrouillent embrouillez embrouillait embrouillant
+34	9434	dissocier	dissocier dissocie dissocié dissociée dissociés dissociées dissociant dissocient
+35	9435	affilier	affilié affilier affilie
+36	9436	disco	disco discos
+37	9437	radiateur	radiateur radiateurs
+38	9438	verge	verge verges
+39	9439	exceller	excelle exceller excellé excellait excellant excella excellez excellaient
+40	9440	thaï	thaï thaïs thaïe thaïes
+41	9441	couronner	couronner couronnes couronnant couronnent couronnera couronnait couronna
+42	9442	nuancer	nuances nuancer nuancent nuançant
+43	9443	révérend	révérend révérende révérends
+44	9444	truite	truite truites
+45	9445	moisson	moisson moissons
+46	9446	impensable	impensable impensables
+47	9447	harmonisation	harmonisation harmonisations
+48	9448	sabotage	sabotage sabotages
+49	9449	vautour	vautours vautour
+50	9450	boudin	boudin boudins
+51	9451	persécuter	persécuté persécuter persécute persécutions persécutent persécutait persécutant persécutes persécutez persécutaient persécutera
+52	9452	simulateur	simulateur simulateurs
+53	9453	flocon	flocons flocon
+54	9454	veto	veto vetos
+55	9455	florentin	florentin florentine florentins florentines
+56	9456	réformateur	réformateur réformateurs réformatrice réformatrices
+57	9457	empoisonnement	empoisonnement empoisonnements
+58	9458	sonder	sonder sondé sondes sondant sondent sondez sonda sondait
+59	9459	updater	update updates updater
+60	9460	tourer	touré toure tourer toura
+61	9461	relecture	relecture relectures
+62	9462	scission	scission scissions
+63	9463	monologue	monologue monologues
+64	9464	bricoler	bricoler bricole bricoles bricolé bricolent bricolant bricolait
+65	9465	sensoriel	sensorielle sensoriel sensorielles sensoriels
+66	9466	visualiser	visualiser visualise visualisez visualisé visualisant visualisent visualisais
+67	9467	maladresse	maladresse maladresses
+68	9468	bou	bou bous
+69	9469	omelette	omelette omelettes
+70	9470	piètre	piètre piètres
+71	9471	betterave	betterave betteraves
+72	9472	détérioration	détérioration détériorations
+73	9473	chorégraphe	chorégraphe chorégraphes
+74	9474	grincer	grincer grince grinçant grinçante grincent grincé grinçait grinçants grinçantes grinça
+75	9475	intriguer	intrigué intriguant intriguer intriguent intriguait intrigues intriguaient intrigua
+76	9476	affectueux	affectueux affectueuse affectueuses
+77	9477	justicier	justicier justiciers justicière
+78	9478	barricade	barricades barricade
+79	9479	diva	diva divas
+80	9480	empirique	empirique empiriques
+81	9481	vivace	vivace vivaces
+82	9482	reconquérir	reconquérir reconquis reconquiert reconquit
+83	9483	sursaut	sursaut sursauts
+84	9484	épauler	épauler épaulé épaules épaulent épaulera épaulant
+85	9485	réducteur	réducteur réductrice réducteurs réductrices
+86	9486	conceptuel	conceptuel conceptuelle conceptuels conceptuelles
+87	9487	vénérer	vénéré vénérer vénèrent vénérait vénéraient vénérant vénérons vénères vénérez
+88	9488	transposer	transposer transposé transpose transposant transposent transposons
+89	9489	beauf	beauf beaufs
+90	9490	gorille	gorille gorilles
+91	9491	pacifiste	pacifiste pacifistes
+92	9492	hospitaliser	hospitalisé hospitaliser hospitalise
+93	9493	adoration	adoration adorations
+94	9494	médaillon	médaillon médaillons
+95	9495	convive	convives convive
+96	9496	baver	baver bavé bavent bava bavant baverez baves bavait bavais bavez
+97	9497	galet	galets galet
+98	9498	lacrymogène	lacrymogène lacrymogènes lacrymo
+99	9499	comptabilisé	comptabilisés comptabilisé comptabilisées comptabilisée
+100	9500	justificatif	justificatif justificatifs justificatives justificative

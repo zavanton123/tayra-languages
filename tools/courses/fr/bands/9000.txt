@@ -1,0 +1,100 @@
+1	8901	ficher	fichent ficher fichait fichez fiches fichais fichant fichaient ficha fichera ficherait
+2	8902	téléviser	télévisé télévisions
+3	8903	hélice	hélice hélices
+4	8904	abondamment	abondamment
+5	8905	aïe	aïe
+6	8906	besson	besson
+7	8907	bouddhisme	bouddhisme
+8	8908	ensuit	ensuit
+9	8909	ferveur	ferveur
+10	8910	inutilement	inutilement
+11	8911	macédoine	macédoine
+12	8912	patinage	patinage
+13	8913	prévoyance	prévoyance
+14	8914	rebours	rebours
+15	8915	sidi	sidi
+16	8916	tardivement	tardivement
+17	8917	dévotion	dévotion dévotions
+18	8918	artériel	artérielle artériel artérielles artériels
+19	8919	instrumental	instrumentale instrumental instrumentales instrumentaux
+20	8920	riposte	riposte ripostes
+21	8921	connexe	connexes connexe
+22	8922	rider	rider rides ridé rida ridée ridées ridés
+23	8923	échiquier	échiquier échiquiers
+24	8924	paroissial	paroissiale paroissial paroissiaux paroissiales
+25	8925	étonnement	étonnement étonnements
+26	8926	reptile	reptiles reptile
+27	8927	rectangle	rectangle rectangles
+28	8928	teinture	teinture teintures
+29	8929	hallucination	hallucinations hallucination
+30	8930	astre	astres astre
+31	8931	supposition	supposition suppositions
+32	8932	séquelle	séquelles séquelle
+33	8933	distinctif	distinctif distinctifs distinctive distinctives
+34	8934	marijuana	marijuana marihuana
+35	8935	irrigation	irrigation irrigations
+36	8936	frise	frise frises
+37	8937	gentilhomme	gentilhomme gentilshommes gentilhommes
+38	8938	sweat	sweat sweats
+39	8939	cépage	cépages cépage
+40	8940	hamburger	hamburger hamburgers
+41	8941	rondelle	rondelles rondelle
+42	8942	fourche	fourche fourches
+43	8943	doser	doser dosé doses dosée dosés dosées dosant dosa dosez
+44	8944	miraculeux	miraculeuse miraculeux miraculeuses
+45	8945	genevois	genevois genevoise genevoises
+46	8946	drop	drop drops
+47	8947	excentrique	excentrique excentriques
+48	8948	télescope	télescope télescopes
+49	8949	abonder	abonde abondent abonder abondé abondait abondaient
+50	8950	pâturage	pâturages pâturage
+51	8951	grappe	grappe grappes
+52	8952	insulaire	insulaires insulaire
+53	8953	littéral	littérale littéral littérales littéraux
+54	8954	impartial	impartial impartiale impartiaux impartiales
+55	8955	concurrencer	concurrencer concurrencé concurrencent concurrençant concurrences
+56	8956	attirance	attirance attirances
+57	8957	inachevé	inachevé inachevée inachevés inachevées
+58	8958	instituer	instituant institue instituer institua instituent instituait
+59	8959	descendance	descendance descendances
+60	8960	fâcheux	fâcheuse fâcheux fâcheuses
+61	8961	dictée	dictée dictées
+62	8962	braver	braver braves brava bravé bravant bravent bravais bravaient bravez
+63	8963	indécent	indécent indécente indécentes indécents
+64	8964	inapproprié	inapproprié inappropriée inappropriés inappropriées
+65	8965	collectionner	collectionne collectionner collectionnent collectionnait collectionné collectionnant collectionnez collectionnais
+66	8966	cohabiter	cohabiter cohabitent cohabite cohabitant cohabité cohabitaient cohabitants
+67	8967	chaotique	chaotique chaotiques
+68	8968	flingue	flingue flingues
+69	8969	déserter	déserté déserter désertent déserte désertions désertèrent désertant déserta désertaient désertes
+70	8970	antonin	antonin antonine antonins
+71	8971	forain	foraine forains forain foraines
+72	8972	rebondissement	rebondissements rebondissement
+73	8973	dépanneur	dépanneur dép dépanneurs dépanneuse dépanneuses
+74	8974	révolutionner	révolutionner révolutionné révolutionne révolutionnent révolutionna révolutionnera révolutionnant révolutionnait
+75	8975	austral	australe austral australes
+76	8976	lâcheté	lâcheté lâchetés
+77	8977	cofondateur	cofondateur cofondatrice cofondateurs
+78	8978	celtique	celtique celtiques
+79	8979	métrique	métrique métriques
+80	8980	récipient	récipient récipients
+81	8981	symétrique	symétrique symétriques
+82	8982	calé	calé calée calés calées
+83	8983	borné	borné bornée bornés bornées
+84	8984	alcoolisé	alcoolisées alcoolisé alcoolisée alcoolisés
+85	8985	fluorescent	fluo fluorescent fluorescents fluorescente fluorescentes fluos
+86	8986	félin	félin félins féline félines
+87	8987	cornet	cornet cornets
+88	8988	inchangé	inchangé inchangée inchangés inchangées
+89	8989	exterminer	exterminer exterminé extermine exterminent exterminez exterminant exterminerai
+90	8990	taliban	talibans taliban talibane talibanes
+91	8991	tourmente	tourmente tourmentes
+92	8992	flamboyant	flamboyant flamboyante flamboyants flamboyantes
+93	8993	pâtissier	pâtissier pâtissière pâtissiers pâtissières
+94	8994	exonération	exonération exonérations
+95	8995	chouchou	chouchou chouchous chouchoute chouchoutes
+96	8996	marquage	marquage marquages
+97	8997	méchanceté	méchanceté méchancetés
+98	8998	tunique	tunique tuniques
+99	8999	phobie	phobie phobies
+100	9000	tangible	tangible tangibles

@@ -1,0 +1,100 @@
+1	9701	cal	cal cals
+2	9702	jargon	jargon jargons
+3	9703	crânien	crânien crânienne crâniens crâniennes
+4	9704	bourdon	bourdon bourdons
+5	9705	ode	ode odes
+6	9706	apposer	apposer apposé appose apposant apposent apposa apposera
+7	9707	réhabiliter	réhabiliter réhabilité réhabilite réhabilitant réhabilitent
+8	9708	nullité	nullité nullités
+9	9709	préfectoral	préfectoral préfectorale préfectoraux préfectorales
+10	9710	ouin	ouin ouins
+11	9711	ravin	ravin ravins
+12	9712	assignation	assignation assignations
+13	9713	flinguer	flinguer flingué flingues flinguent
+14	9714	software	software softwares
+15	9715	pupille	pupilles pupille
+16	9716	mule	mule mules
+17	9717	téléviseur	téléviseur téléviseurs
+18	9718	résiduel	résiduelle résiduelles résiduel résiduels
+19	9719	thermomètre	thermomètre thermomètres
+20	9720	accidenté	accidenté accidentée accidentés accidentées
+21	9721	embrouille	embrouille embrouilles
+22	9722	inaction	inaction inactions
+23	9723	cohorte	cohorte cohortes
+24	9724	cambrioleur	cambrioleur cambrioleurs cambrioleuse
+25	9725	leurre	leurre leurres
+26	9726	piétiner	piétiner piétine piétiné piétinent piétinant piétinait piétinaient
+27	9727	posthume	posthume posthumes
+28	9728	rwandais	rwandais rwandaise rwandaises
+29	9729	fellation	fellation fellations
+30	9730	agile	agile agiles
+31	9731	ogre	ogre ogres ogresse ogresses
+32	9732	folio	folio folios
+33	9733	brassard	brassard brassards brassart
+34	9734	cylindrique	cylindrique cylindriques
+35	9735	indonésien	indonésien indonésienne indonésiens indonésiennes
+36	9736	immoral	immoral immorale immoraux immorales
+37	9737	folklore	folklore folklores
+38	9738	blasphème	blasphème blasphèmes
+39	9739	irriter	irrite irriter irritent irritait irrita irritez irritera
+40	9740	cancéreux	cancéreuses cancéreux cancéreuse
+41	9741	loser	loser losers looser loosers
+42	9742	discriminatoire	discriminatoire discriminatoires
+43	9743	réactionnaire	réactionnaire réactionnaires
+44	9744	acre	acres acre
+45	9745	psychose	psychose psychoses
+46	9746	démence	démence démences
+47	9747	rade	rade rades
+48	9748	sylvestre	sylvestre sylvestres
+49	9749	venin	venin venins
+50	9750	arriéré	arriérés arriéré arriérée arriérées
+51	9751	catégorique	catégorique catégoriques
+52	9752	shoot	shoot shoots
+53	9753	enclencher	enclenché enclencher enclenche enclenchent enclenchant enclenchera enclencha
+54	9754	bourre	bourre bourres
+55	9755	servitude	servitude servitudes
+56	9756	ébauche	ébauche ébauches
+57	9757	merder	merdé merder merdasse merda merdent merdez merdes
+58	9758	engrenage	engrenage engrenages
+59	9759	florissant	florissante florissant florissantes florissants
+60	9760	sordide	sordide sordides
+61	9761	poignant	poignant poignante poignantes poignants
+62	9762	blablabla	blablabla
+63	9763	décadence	décadence
+64	9764	gaspard	gaspard
+65	9765	glucose	glucose
+66	9766	géo	géo
+67	9767	incontestablement	incontestablement
+68	9768	lithium	lithium
+69	9769	opium	opium
+70	9770	rédemption	rédemption
+71	9771	solidement	solidement
+72	9772	rétrécir	rétrécit rétréci rétrécir rétrécissent rétrécis rétrécissant rétrécissait
+73	9773	germe	germe germes
+74	9774	solder	soldé solder soldes soldent solda soldera soldant soldait solderont
+75	9775	mûrir	mûrir mûri mûrissent mûrit mûris mûrisse mûrissant
+76	9776	diligence	diligence diligences
+77	9777	téméraire	téméraire téméraires
+78	9778	simultané	simultané simultanées simultanés
+79	9779	mutilé	mutilé mutilés mutilée mutilées
+80	9780	bordé	bordé bordés bordées
+81	9781	pressentir	pressenti pressentis pressentir pressentait pressentant pressens pressentais pressent pressentent pressentaient pressente
+82	9782	implorer	implore implorer implorant imploré implorent implorons implorait implorez implora imploraient
+83	9783	déclencheur	déclencheur déclencheurs
+84	9784	éclatement	éclatement éclatements
+85	9785	sot	sot sotte sots sottes
+86	9786	réveillon	réveillon réveillons
+87	9787	toxine	toxines toxine
+88	9788	outillage	outillage outillages
+89	9789	embarrassant	embarrassant embarrassante embarrassantes embarrassants
+90	9790	amusement	amusement amusements
+91	9791	cagnotte	cagnotte cagnottes
+92	9792	zélandais	zélandais zélandaise zélandaises
+93	9793	ive	ive ives
+94	9794	conteur	conteur conteurs conteuse
+95	9795	ségrégation	ségrégation ségrégations
+96	9796	attentionné	attentionné attentionnée attentionnés attentionnées
+97	9797	suture	suture sutures
+98	9798	prospectif	prospective prospectives prospectif prospectifs
+99	9799	masturbation	masturbation masturbations
+100	9800	mauve	mauve mauves

@@ -1,0 +1,100 @@
+1	4801	éclair	éclair éclairs
+2	4802	gigantesque	gigantesque gigantesques
+3	4803	clown	clown clowns
+4	4804	fragment	fragments fragment
+5	4805	soupçon	soupçons soupçon
+6	4806	mythique	mythique mythiques
+7	4807	aigu	aiguë aigu aigus aiguës aigüe aigües
+8	4808	contraste	contraste contrastes
+9	4809	incertitude	incertitude incertitudes
+10	4810	aligner	aligner aligné aligne alignent alignant alignait alignaient alignera alignez aligneront alignes aligna alignons
+11	4811	farine	farine farines
+12	4812	proportionnel	proportionnelle proportionnel proportionnels proportionnelles
+13	4813	imposition	imposition impositions
+14	4814	more	more mores
+15	4815	fantasme	fantasme fantasmes phantasme
+16	4816	gaulois	gaulois gauloise gauloises
+17	4817	disciple	disciples disciple
+18	4818	découper	découper découpe découpé découpent découpes découpant découpez découpait découpaient découpa découpera découpons
+19	4819	chêne	chêne chênes
+20	4820	jalousie	jalousie jalousies
+21	4821	sécher	sécher séché sèches sèchent séchant séchez séchait séchais séchaient séchera sécha
+22	4822	fric	fric frics
+23	4823	sucré	sucré sucrée sucrés sucrées
+24	4824	alternatif	alternatif alternatifs alternatives
+25	4825	comble	comble combles
+26	4826	impatience	impatience impatiences
+27	4827	vatican	vatican vaticane vaticanes
+28	4828	centime	centimes centime
+29	4829	laser	laser lasers
+30	4830	monopole	monopole monopoles
+31	4831	protestation	protestation protestations
+32	4832	chroniqueur	chroniqueur chroniqueurs chroniqueuse
+33	4833	sexualité	sexualité sexualités
+34	4834	cohérence	cohérence cohérences
+35	4835	pékin	pékin pékins
+36	4836	if	if ifs
+37	4837	vôtre	vôtre vôtres vostre
+38	4838	contestation	contestation contestations
+39	4839	foudre	foudre foudres
+40	4840	tarte	tarte tartes
+41	4841	reconstruire	reconstruire reconstruit reconstruisent reconstruisant reconstruisit reconstruise reconstruira reconstruis reconstruisait reconstruisons
+42	4842	inondation	inondations inondation
+43	4843	minimal	minimale minimal minimales minimaux
+44	4844	journalisme	journalisme
+45	4845	marais	marais
+46	4846	maïs	maïs
+47	4847	prochainement	prochainement
+48	4848	volontiers	volontiers
+49	4849	xi	xi
+50	4850	confession	confession confessions
+51	4851	intégrale	intégrale intégrales
+52	4852	formuler	formuler formulé formules formula formulent formulant formulait formulera formulons formulez
+53	4853	pelouse	pelouse pelouses
+54	4854	roumain	roumain roumains roumaine roumaines
+55	4855	bannière	bannière bannières
+56	4856	expo	expo expos
+57	4857	vaisselle	vaisselle vaisselles
+58	4858	réflexe	réflexe réflexes
+59	4859	valoriser	valoriser valorise valorisé valorisant valorisent valorisante valorisera valorisants valorisez valorisantes valorisait valorisons valoriserait valorises
+60	4860	sandwich	sandwich sandwichs sandwiches
+61	4861	grenier	grenier greniers
+62	4862	inévitable	inévitable inévitables
+63	4863	maigre	maigre maigres
+64	4864	génocide	génocide génocides
+65	4865	emmerde	emmerde emmerdes
+66	4866	compensation	compensation compensations
+67	4867	sceau	sceaux sceau
+68	4868	caractérisé	caractérisé caractérisée caractérisés caractérisées
+69	4869	routine	routine routines
+70	4870	semestre	semestre semestres
+71	4871	piéton	piétons piéton piétonne piétonnes
+72	4872	sergent	sergent sergents sergente
+73	4873	fictif	fictif fictifs fictive fictives
+74	4874	enlèvement	enlèvement enlèvements
+75	4875	supplément	supplément suppléments
+76	4876	croisière	croisière croisières
+77	4877	oignon	oignons oignon
+78	4878	bouquet	bouquet bouquets
+79	4879	rentable	rentable rentables
+80	4880	honteux	honteux honteuse honteuses
+81	4881	espion	espion espions espionne
+82	4882	sonde	sonde sondes
+83	4883	polluer	polluants polluantes polluer pollué polluant pollue polluent polluante pollues polluez polluait polluons
+84	4884	colon	colons colon
+85	4885	portion	portion portions
+86	4886	détour	détour détours
+87	4887	triangle	triangle triangles
+88	4888	adepte	adeptes adepte
+89	4889	désaccord	désaccord désaccords
+90	4890	secte	secte sectes
+91	4891	primitif	primitif primitive primitifs primitives
+92	4892	déclin	déclin déclins
+93	4893	coiffure	coiffure coiffures
+94	4894	bactérie	bactéries bactérie
+95	4895	limitation	limitation limitations
+96	4896	appellation	appellation appellations
+97	4897	convoi	convoi convois
+98	4898	impériale	impériale impériales
+99	4899	crash	crash crashs
+100	4900	confrontation	confrontation confrontations

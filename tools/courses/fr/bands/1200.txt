@@ -1,0 +1,100 @@
+1	1101	désolé	désolé désolée dsl désolés désolées
+2	1102	accident	accident accidents
+3	1103	possibilité	possibilité possibilités
+4	1104	moderne	moderne modernes
+5	1105	déterminer	déterminer déterminé déterminée déterminant détermine déterminés déterminées déterminante déterminants déterminent déterminera déterminantes détermineront détermina déterminait déterminez déterminons déterminerait déterminerons déterminaient déterminèrent détermines
+6	1106	bâtiment	bâtiment bâtiments
+7	1107	environnement	environnement environnements
+8	1108	musée	musée musées
+9	1109	surface	surface surfaces
+10	1110	lutte	lutte luttes
+11	1111	pose	pose poses
+12	1112	calme	calme calmes
+13	1113	drôle	drôle drôles drôlesse
+14	1114	conserver	conserver conserve conservé conservant conservent conserves conservera conserva conservait conservez conservons conserveront conserverait conservaient conservèrent conserverons conserveraient conserverez conserverai conservais conserviez conservions
+15	1115	fonctionner	fonctionne fonctionner fonctionnent fonctionné fonctionnait fonctionnant fonctionnera fonctionnaient fonctionnerait fonctionneront fonctionna fonctionnons fonctionneraient fonctionnais fonctionnez fonctionnes fonctionnèrent
+16	1116	bah	bah
+17	1117	généralement	généralement
+18	1118	propriété	propriété propriétés
+19	1119	test	test tests
+20	1120	boire	boire bu boit boivent buvez buvant buvait buvais buvaient buvons boive boira boirai boirais boirait boiront boirez boirons boiras buvions busse burent buviez
+21	1121	arrêt	arrêt arrêts
+22	1122	avion	avion avions
+23	1123	ligue	ligue ligues
+24	1124	chrétien	chrétiens chrétien chrétienne chrétiennes
+25	1125	doux	doux douce douces
+26	1126	théâtre	théâtre théâtres
+27	1127	magnifique	magnifique magnifiques
+28	1128	structure	structure structures
+29	1129	connaitre	connait connais connaitre connaissent connaissez connaissais connaissait connus connaissons connaissant connaisse connaissaient connaitra connut connaissiez connaissions connaitrait connaitront connaitrais connaisses connurent connaitrez connaitras connaitrons connaitraient connût
+30	1130	noter	noter noté notes notons notions notez notera nota notant notent notait noterez notais notaient noterai notas noteras noterons noteront noterais notèrent
+31	1131	responsabilité	responsabilité responsabilités
+32	1132	conférence	conférence conférences
+33	1133	retraite	retraite retraites
+34	1134	remonter	remonter remonte remontent remontée remontant remonté remontées remontait remontés remonterait remontez remonta remontera remontons remontes remontaient remonteraient remonteront remontants remontais remontèrent remonterai remontante remonterons remonterez
+35	1135	plat	plat plate plats plates platte
+36	1136	supporter	supporter supporters supporte supportent supporté supportant supportait supportes supportez supportera supportais supportaient supporterais supporterai supporterait supporteront supportons supporteraient supporta supporterez supporteras
+37	1137	espagnol	espagnol espagnole espagnols espagnoles
+38	1138	véhicule	véhicule véhicules
+39	1139	régional	régional régionale régionales régionaux ral
+40	1140	touche	touche touches
+41	1141	opinion	opinion opinions
+42	1142	proposition	proposition propositions
+43	1143	macron	macron macrons
+44	1144	cool	cool cools
+45	1145	dommage	dommage dommages
+46	1146	original	original originale originaux originales
+47	1147	garçon	garçon garçons
+48	1148	composé	composé composée composés composées
+49	1149	cheveu	cheveux cheveu
+50	1150	prince	prince princes
+51	1151	ennemi	ennemi ennemis ennemie ennemies
+52	1152	contenu	contenu contenus contenues contenue
+53	1153	gratuit	gratuit gratuite gratuits gratuites
+54	1154	pont	pont ponts
+55	1155	revoir	revoir revu revois revoit reverra reverrons revit reverrai revis revoie revoyant revoyez revoient reverrais reverrait reverras reverrez reverront revoyait revoyons revoyais reverraient revirent revoies
+56	1156	volonté	volonté volontés
+57	1157	affirmer	affirme affirmer affirmé affirment affirmant affirmait affirma affirmaient affirmez affirmera affirmons affirmes affirmèrent affirmeront affirmerait affirmais affirmiez
+58	1158	hiver	hiver hivers
+59	1159	tribunal	tribunal tribunaux
+60	1160	sauver	sauver sauvé sauve sauvez sauvent sauvera sauvons sauvant sauva sauverait sauvait sauveront sauves sauverai sauvèrent sauvaient sauveraient sauverez sauverons sauverais sauvais sauveras
+61	1161	moteur	moteur moteurs motrices motrice
+62	1162	signifier	signifie signifier signifiant signifiait signifient signifié signifierait signifiera signifiants signifiée signifiaient signifiante signifiés signifia signifiantes signifiées signifieraient signifiez signifies
+63	1163	amener	amener amené amène amènent amenant amènera amenait amena amenez amènerait amènes amèneront amenèrent amenaient amènerai amenons amèneraient amenais amenas amènerais amènerons
+64	1164	étape	étape étapes
+65	1165	dangereux	dangereux dangereuse dangereuses
+66	1166	ressource	ressources ressource
+67	1167	eh	eh
+68	1168	disposition	disposition dispositions
+69	1169	utilisation	utilisation utilisations
+70	1170	génération	génération générations
+71	1171	blessé	blessé blessés blessée blessées
+72	1172	léger	léger légère légers légères légere
+73	1173	impôt	impôt impôts
+74	1174	avancer	avancer avancé avancés avancées avancent avançait avançant avances avança avançons avancera avancez avançaient avançais avancerait avancèrent avancerai avanceront avancerons avancions avancerais avancerez avançai avanceras avanceraient
+75	1175	royaume	royaume royaumes
+76	1176	roman	roman romans romane romanes
+77	1177	centrale	centrale centrales
+78	1178	produire	produire produisent produisant produira produise produisait produisit produiront produirait produisaient produis produisons produisirent produisez produiraient produirons produisais produirez produirai produisions
+79	1179	royal	royal royale royales royaux
+80	1180	parisien	parisien parisienne parisiens parisiennes
+81	1181	apprécier	apprécier apprécie apprécié apprécient appréciez appréciait appréciera apprécies apprécieront apprécions appréciant appréciais apprécierez appréciaient apprécierais apprécierait apprécieraient apprécia apprécieras apprécierai apprécierons apprécièrent
+82	1182	balle	balle balles
+83	1183	star	star stars
+84	1184	réaction	réaction réactions
+85	1185	lourd	lourd lourde lourdes lourds
+86	1186	réunir	réunis réunir réunit réuni réunissant réunissent réunira réunissait réunissaient réuniront réunirent réunissons réunisse réunissez réunirait réunirons réunirai réuniraient réunissions
+87	1187	doigt	doigts doigt
+88	1188	don	don dons
+89	1189	arbre	arbre arbres
+90	1190	importance	importance importances
+91	1191	budget	budget budgets
+92	1192	obligé	obligé obligés obligée obligées
+93	1193	britannique	britannique britanniques
+94	1194	enseignement	enseignement enseignements
+95	1195	majeur	majeur majeure majeurs majeures
+96	1196	crime	crime crimes
+97	1197	avouer	avoue avouer avoué avouez avouent avouons avouait avouant avouera avoues avouée avoua avouerai avoués avouerais avouaient avoueront avouées avouerait avoueras avouerez avouais avouèrent
+98	1198	assurance	assurance assurances
+99	1199	absence	absence absences
+100	1200	crédit	crédit crédits

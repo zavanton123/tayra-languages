@@ -1,0 +1,100 @@
+1	4401	intégralité	intégralité
+2	4402	publiquement	publiquement
+3	4403	trentaine	trentaine
+4	4404	faune	faune faunes
+5	4405	havre	havre havres
+6	4406	sanguin	sanguin sanguine sanguins sanguines
+7	4407	traversée	traversée traversées
+8	4408	célébrité	célébrité célébrités
+9	4409	spectre	spectre spectres
+10	4410	inconscient	inconscient inconsciente inconscients inconscientes
+11	4411	vocabulaire	vocabulaire vocabulaires
+12	4412	attentif	attentif attentive attentifs attentives
+13	4413	archevêque	archevêque archevêques
+14	4414	paramètre	paramètres paramètre
+15	4415	immigré	immigrés immigré immigrée immigrées
+16	4416	marseillais	marseillais marseillaise marseillaises
+17	4417	importation	importations importation
+18	4418	agiter	agité agite agiter agitent agitant agitait agitaient agitez agita agites agitèrent agitera
+19	4419	daté	daté datée datées datés
+20	4420	poétique	poétique poétiques
+21	4421	rigole	rigole rigoles
+22	4422	audition	audition auditions
+23	4423	mentalité	mentalité mentalités
+24	4424	exagérer	exagéré exagère exagérer exagères exagèrent exagérons exagérant exagérez exagérait exagéraient exagérais
+25	4425	maturité	maturité maturités
+26	4426	déconner	déconner déconne déconné déconnes déconnent déconnez déconnais déconnait déconnant
+27	4427	rapprochement	rapprochement rapprochements
+28	4428	raid	raid raids
+29	4429	drone	drone drones
+30	4430	récompenser	récompensé récompenser récompenses récompensant récompensent récompensera récompensait récompensa récompensez récompenseront récompenserai récompensons récompensaient
+31	4431	dominant	dominant dominants dominantes
+32	4432	autrui	autrui
+33	4433	christianisme	christianisme
+34	4434	systématiquement	systématiquement
+35	4435	visibilité	visibilité
+36	4436	gant	gants gant
+37	4437	tolérance	tolérance tolérances
+38	4438	épaisseur	épaisseur épaisseurs
+39	4439	alternance	alternance alternances
+40	4440	redevenir	redevenir redevient redevenu redevienne redeviennent redeviendra redeviens redevint redevenait redevenant redeviendrait redeviendront redevenons redevenez redevinrent redeviendras
+41	4441	institutionnel	institutionnel institutionnelle institutionnels institutionnelles
+42	4442	imiter	imiter imite imitant imité imitent imitez imitait imites imitons imitaient imita imitais imitera imiteront imitèrent
+43	4443	insupportable	insupportable insupportables
+44	4444	hot	hot hots
+45	4445	bonhomme	bonhomme bonhommes bonshommes
+46	4446	nain	nain nains naine naines
+47	4447	weekend	weekend weekends
+48	4448	supermarché	supermarché supermarchés
+49	4449	verbal	verbal verbale verbaux verbales
+50	4450	porto	porto portos
+51	4451	invoquer	invoquer invoque invoqué invoquant invoquent invoquez invoquait invoquons invoqua invoquaient invoques invoquera invoqueront invoquerai
+52	4452	dictature	dictature dictatures
+53	4453	patrie	patrie patries
+54	4454	diésel	diesel diésel
+55	4455	cellulaire	cellulaire cellulaires
+56	4456	monastère	monastère monastères
+57	4457	nœud	nœud nœuds noeud
+58	4458	psychologue	psychologue psychologues psy
+59	4459	capturer	capturer capturé captures capturent capturant capturez captura capturaient capturait capturèrent capturera
+60	4460	défensif	défensive défensif défensives défensifs
+61	4461	crédible	crédible crédibles
+62	4462	saveur	saveur saveurs
+63	4463	soif	soif soifs
+64	4464	relancer	relancer relancé relances relancent relancera relançant relancez relança relancerait relançait relançons
+65	4465	encaisser	encaisser encaisse encaissé encaissés encaissent encaissée encaissant encaissées encaisses encaissera encaissait encaissez encaissa encaissons
+66	4466	terreur	terreur terreurs
+67	4467	embaucher	embaucher embauché embauchent embauches embauchant embauchez embauchera embauchait embauchons embaucherait embaucheront embaucha embauchaient
+68	4468	bataillon	bataillon bataillons
+69	4469	gênant	gênant gênante gênants gênantes
+70	4470	ignorance	ignorance ignorances
+71	4471	entamer	entamer entamé entament entama entamant entamera entamait entamons entamez entamèrent entameront entamaient entamerons entamerait entamerai entames
+72	4472	coordination	coordination coordinations
+73	4473	convoquer	convoqué convoquer convoque convoquant convoqua convoquent convoquera convoquait convoquez convoquerait
+74	4474	cabine	cabine cabines
+75	4475	ban	ban bans
+76	4476	guise	guise guises
+77	4477	douzaine	douzaine douzaines
+78	4478	vocal	vocale vocal vocales vocaux
+79	4479	monseigneur	mgr monseigneur messeigneurs
+80	4480	appétit	appétit appétits
+81	4481	apprêter	apprête apprêtait apprêtent apprêtais apprêter apprêtaient apprêtant apprêtez apprêtes apprêté apprêtons apprêterait apprêta apprêtions
+82	4482	dégradation	dégradation dégradations
+83	4483	compteur	compteur compteurs
+84	4484	tardif	tardive tardif tardives tardifs
+85	4485	évasion	évasion évasions
+86	4486	basculer	basculer bascule basculé basculent basculant bascules bascula basculera basculez basculante basculait basculants
+87	4487	visa	visa visas
+88	4488	bourg	bourg bourgs
+89	4489	4e	4e
+90	4490	index	index
+91	4491	volontairement	volontairement
+92	4492	véritablement	véritablement
+93	4493	banal	banal banale banales banals banaux
+94	4494	demandeur	demandeurs demandeur demanderesse demandeuse demandeuses
+95	4495	pack	pack packs
+96	4496	consécutif	consécutives consécutifs consécutif
+97	4497	poumon	poumons poumon
+98	4498	humanitaire	humanitaire humanitaires
+99	4499	suicider	suicider suicidé suicidée suicident suicidés suicides suicida suicidez suicidées suicidera suicidant suicidait suicidaient
+100	4500	capture	capture captures

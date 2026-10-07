@@ -1,0 +1,100 @@
+1	2101	format	format formats
+2	2102	immense	immense immenses
+3	2103	ranger	ranger range rangers rangé rangées rangés rangez rangent ranges rangeant rangea rangeait rangera rangeons rangeais rangeront rangeaient rangerait rangerai rangèrent rangerais
+4	2104	déplacement	déplacement déplacements
+5	2105	plaque	plaque plaques
+6	2106	rapprocher	rapproche rapprocher rapproché rapprochent rapprochant rapprochait rapprocha rapprochera rapprocherait rapprochez rapproches rapprochons rapprochaient rapprocheront rapprochèrent rapprochais rapprocheraient rapprochions
+7	2107	interview	interview interviews
+8	2108	automobile	automobile automobiles
+9	2109	prénom	prénom prénoms
+10	2110	frapper	frapper frappant frappent frappes frappait frappa frappante frappez frappera frappaient frapperait frappantes frappants frappèrent frapperont frappais frapperai frappons frapperais frapperaient
+11	2111	ménage	ménage ménages mesnage
+12	2112	bière	bière bières
+13	2113	hausse	hausse hausses
+14	2114	équivalent	équivalent équivalente équivalents équivalentes
+15	2115	renvoyer	renvoie renvoyer renvoyé renvoient renvoyant renvoyez renvoyait renverra renvoyons renvoya renverrait renvoies renvoyaient renverrai renverrons renverront renverrais renvoyais renverraient renvoyèrent
+16	2116	mairie	mairie mairies
+17	2117	mont	mont monts
+18	2118	lâcher	lâcher lâché lâchez lâchent lâches lâchait lâchera lâchant lâcherai lâcha lâcheront lâchers lâchais lâchaient lâchons lâcherais lâcherait lâcherons lâcheras lâcherez lâchèrent lâchai lâcheraient
+19	2119	prêter	prêter prêté prête prêtent prêtant prêtait prêtes prêtez prêtera prêta prêtaient prêtons prêteront prêterait prêterai prêtais prêtèrent prêterais prêteraient prêterons prêteras
+20	2120	vallée	vallée vallées
+21	2121	indiqué	indiqué indiquée indiqués indiquées
+22	2122	drapeau	drapeau drapeaux
+23	2123	alimentaire	alimentaire alimentaires
+24	2124	attitude	attitude attitudes
+25	2125	voile	voile voiles
+26	2126	fondateur	fondateur fondateurs fondatrice
+27	2127	témoigner	témoigne témoigner témoignent témoigné témoignant témoignait témoignera témoignez témoignaient témoigna témoigneront témoignerait témoignons témoignèrent témoigneraient
+28	2128	forcé	forcé forcée forcés forcées
+29	2129	richesse	richesse richesses
+30	2130	tarif	tarifs tarif taro
+31	2131	électeur	électeurs électeur électrice
+32	2132	chronique	chronique chroniques
+33	2133	dépôt	dépôt dépôts
+34	2134	cérémonie	cérémonie cérémonies
+35	2135	tourisme	tourisme tourismes
+36	2136	exécuter	exécuter exécuté exécutés exécute exécutée exécutées exécutant exécutent exécutions exécutants exécuta exécutez exécutera exécutait exécuteront exécutaient exécutèrent exécutons exécutes exécuterai exécuterait exécutais
+37	2137	légèrement	légèrement
+38	2138	quasi	quasi
+39	2139	similaire	similaire similaires
+40	2140	choc	choc chocs
+41	2141	pré	pré prés
+42	2142	concerné	concernés concerné concernées concernée
+43	2143	exploser	exploser explosé explose explosent explosions explosa explosera explosant explosait exploserait explosaient explosez exploseront exploses explosèrent
+44	2144	mini	mini minis minie
+45	2145	équilibre	équilibre équilibres
+46	2146	séjour	séjour séjours
+47	2147	mail	mail mails
+48	2148	dispositif	dispositif dispositifs
+49	2149	éclater	éclate éclater éclaté éclatante éclatent éclatant éclatée éclata éclatantes éclatés éclatait éclatants éclatera éclatées éclatèrent éclatez éclates éclataient éclaterait éclateront éclatais
+50	2150	casse	casse casses
+51	2151	céder	céder cède cédé cédant cèdent cédée cédés cédées céda cédait cédera cédez céderai cédons céderait cèdera cédèrent cédaient céderont céderons cèdes cédants cèderai céderais céderaient cèderait cédais cèderont
+52	2152	figurer	figurent figurer figurant figuré figurait figuraient figures figurants figurez figurera figureront figurés figurée figura figurante figurées figurerait figureraient figurantes figurais figurèrent figurons figuras
+53	2153	critère	critères critère critere
+54	2154	embrasser	embrasser embrasse embrassé embrassent embrassant embrassée embrassait embrassez embrassa embrasses embrassés embrassons embrassaient embrassais embrassera embrassées embrasserait embrassèrent embrasserai embrasserais embrasseront
+55	2155	surveillance	surveillance surveillances
+56	2156	mental	mentale mental mentaux mentales
+57	2157	inclure	incluant inclut inclure incluent incluait inclue incluaient inclura inclues inclurait incluez incluront
+58	2158	bravo	bravo bravos
+59	2159	cache	cache caches
+60	2160	universel	universel universelle universelles universels
+61	2161	standard	standard standards
+62	2162	visible	visible visibles
+63	2163	paiement	paiement paiements payement
+64	2164	baisser	baisser baissé baissent baissant baisses baissez baissait baissera baissa baisseront baisserait baissaient baissons baisserai baissais baisseraient baisserons baissèrent baisserais baissai
+65	2165	priorité	priorité priorités
+66	2166	bourse	bourse bourses
+67	2167	artistique	artistique artistiques
+68	2168	repartir	repartir repart reparti repars repartent repartis repartit repartira reparte repartait repartez repartons repartant repartiront repartaient repartirez repartirait repartais repartirent repartirai repartirons repartions repartiras repartirais
+69	2169	menacer	menacé menacer menaçant menacent menaçait menaces menaçante menaçants menaçaient menaçantes menaça menacerait menacez menacera menacèrent menaceraient menaceront
+70	2170	laver	laver lave lavé laves lavez lavent lavant lavait lava lavais lavera lavons lavaient laverai laverait lavai laverez
+71	2171	obligatoire	obligatoire obligatoires
+72	2172	tas	tas
+73	2173	prime	prime primes
+74	2174	moral	moral morales moraux
+75	2175	afficher	afficher affiché affichent affiches affichant affichait affichez affichera affichaient afficha afficheront affichons afficherait affichais afficherai
+76	2176	compagnon	compagnon compagnons compagne
+77	2177	mention	mention mentions
+78	2178	mériter	méritent méritait mériter méritez mériterait méritaient méritant mériteraient mérites méritais méritants méritons méritera mériterais méritante méritiez méritantes méritions mérita mériteront mériterai mériteriez méritas
+79	2179	trésor	trésor trésors
+80	2180	foule	foule foules
+81	2181	live	live lives
+82	2182	morale	morale morales
+83	2183	évêque	évêque évêques
+84	2184	maritime	maritime maritimes
+85	2185	suffisant	suffisant suffisante suffisantes suffisants
+86	2186	chocolat	chocolat chocolats
+87	2187	olivier	olivier oliviers
+88	2188	laboratoire	laboratoire laboratoires
+89	2189	aile	ailes aile
+90	2190	contacter	contacter contacté contactez contacte contactent contactera contactant contactes contacterons contacterai contactons contactait contacta contacteront contactiez contacterais
+91	2191	peser	pèse peser pesant pèsent pesé pesait pesante pesaient pèsera pesez pèses pesants pesa pèserait pesantes pèseront pesais pesons pèseraient
+92	2192	sombre	sombre sombres
+93	2193	lieutenant	lieutenant lieutenants lieutenante
+94	2194	accuser	accuse accuser accusent accusant accusait accuses accusaient accusez accusera accusa accusons accuserait accuseront accusèrent accusais accuseraient accuserez accuserai
+95	2195	fondamental	fondamentaux fondamentale fondamental fondamentales
+96	2196	libération	libération libérations
+97	2197	interroger	interroger interroge interrogé interrogent interrogeant interrogeait interrogez interrogeons interrogea interrogera interrogeaient interrogeais interroges interrogeront interrogerons interrogerait interrogèrent interrogerai interrogions
+98	2198	boulevard	boulevard bd boulevards
+99	2199	foyer	foyer foyers
+100	2200	littéraire	littéraire littéraires

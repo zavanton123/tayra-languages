@@ -1,0 +1,100 @@
+1	4701	oubli	oubli oublis
+2	4702	baptiser	baptisé baptiser baptise baptisa baptisant baptisent baptisera baptisait baptisèrent baptisez baptisons
+3	4703	stagiaire	stagiaire stagiaires
+4	4704	caution	caution cautions
+5	4705	péril	péril périls
+6	4706	respectueux	respectueux respectueuse respectueuses
+7	4707	médiéval	médiévale médiéval médiévales médiévaux
+8	4708	pavé	pavé pavés pavée pavées
+9	4709	désespéré	désespéré désespérée désespérés désespérées
+10	4710	vanne	vannes vanne
+11	4711	timbre	timbre timbres
+12	4712	décharge	décharge décharges
+13	4713	émeute	émeutes émeute
+14	4714	cube	cube cubes
+15	4715	périmètre	périmètre périmètres
+16	4716	légitimité	légitimité légitimités
+17	4717	entrevue	entrevue entrevues
+18	4718	sécurisé	sécurisé sécurisée sécurisés sécurisées
+19	4719	productivité	productivité productivités
+20	4720	kit	kit kits
+21	4721	réviser	réviser révisé révise révisions révisant révisez révisent révises révisons révisait révisera révisais
+22	4722	gage	gage gages
+23	4723	aviation	aviation aviations
+24	4724	linge	linge linges
+25	4725	cuber	cuba cubas cubes
+26	4726	retarder	retarder retardé retarde retardant retardent retardera retardez retarderait retardait retarda retardèrent retardes retardaient
+27	4727	démographique	démographique démographiques
+28	4728	dense	dense denses
+29	4729	marguerite	marguerite marguerites
+30	4730	favoris	favoris
+31	4731	intégrité	intégrité
+32	4732	mn	mn
+33	4733	revers	revers
+34	4734	seize	seize
+35	4735	urbanisme	urbanisme
+36	4736	implantation	implantation implantations
+37	4737	flanc	flanc flancs
+38	4738	short	short shorts
+39	4739	singulier	singulier singulière singuliers singulières
+40	4740	dominante	dominante dominantes
+41	4741	encre	encre encres
+42	4742	fréquenté	fréquenté fréquentée fréquentés fréquentées
+43	4743	enquêter	enquêter enquêté enquêtes enquêtent enquêtait enquêtant enquêtera enquêtaient enquêtons enquêtez enquêterait enquêteront
+44	4744	accompagnement	accompagnement accompagnements
+45	4745	enculé	enculé enculés enculée
+46	4746	contrôleur	contrôleur contrôleurs contrôleuse
+47	4747	menteur	menteur menteurs menteuse menteuses
+48	4748	lauréat	lauréat lauréats lauréate lauréates
+49	4749	baigner	baigner baigne baigné baignent baignant baignait baignaient baignes baignez baignons baigna baignais baignera
+50	4750	loge	loge loges
+51	4751	réformer	réformer réformes réformé réformant réforment réforma réformons réformera
+52	4752	dégueulasse	dégueulasse dégueulasses
+53	4753	peuplé	peuplé peuplée peuplées peuplés
+54	4754	colloque	colloque colloques
+55	4755	tireur	tireur tireurs tireuse tireuses
+56	4756	quarantaine	quarantaine quarantaines
+57	4757	bougie	bougies bougie
+58	4758	scolarité	scolarité scolarités
+59	4759	placard	placard placards
+60	4760	rappeur	rappeur rappeurs rappeuse
+61	4761	sauveur	sauveur sauveurs sauveuse
+62	4762	sociologie	sociologie sociologies
+63	4763	anticiper	anticiper anticipé anticipe anticipant anticipent anticipons anticipait anticipez anticipaient anticipes anticipais anticipa
+64	4764	élan	élan élans
+65	4765	investigation	investigation investigations
+66	4766	socio	socio socios
+67	4767	complicité	complicité complicités
+68	4768	bouleverser	bouleversé bouleverser bouleverse bouleversant bouleversante bouleversent bouleversera bouleversantes bouleversants bouleversa bouleverserait bouleversait bouleverseront
+69	4769	interpeller	interpellé interpelle interpeller interpellent interpellant interpellait interpella interpellons interpellaient interpellez interpellera
+70	4770	douane	douanes douane
+71	4771	buter	bute buter buté butée butent butés butant butes buta butera butées butait butez butons butaient
+72	4772	hébergement	hébergement hébergements
+73	4773	banane	banane bananes
+74	4774	reconstruction	reconstruction reconstructions
+75	4775	affreux	affreux affreuse affreuses
+76	4776	applaudir	applaudir applaudit applaudi applaudis applaudissent applaudissez applaudissant applaudissait applaudissons applaudissaient applaudisse applaudira applaudiront applaudirait
+77	4777	réglementaire	réglementaire réglementaires
+78	4778	sauvetage	sauvetage sauvetages
+79	4779	pilule	pilule pilules
+80	4780	arnaque	arnaque arnaques
+81	4781	blues	blues
+82	4782	chili	chili
+83	4783	noix	noix
+84	4784	ouvertement	ouvertement
+85	4785	quatorze	quatorze
+86	4786	vraisemblablement	vraisemblablement
+87	4787	party	party partys
+88	4788	fracture	fracture fractures
+89	4789	rationnel	rationnelle rationnel rationnels rationnelles
+90	4790	levier	levier leviers
+91	4791	annulation	annulation annulations
+92	4792	psychiatre	psychiatre psy psychiatres
+93	4793	affrontement	affrontement affrontements
+94	4794	illimité	illimité illimitée illimités illimitées
+95	4795	prescription	prescription prescriptions
+96	4796	ouf	ouf oufs
+97	4797	tasse	tasse tasses
+98	4798	restaurer	restaurer restauré restaure restaurent restaura restaurez restaurera restaurons restaurait
+99	4799	danois	danois danoise danoises
+100	4800	zoo	zoo zoos

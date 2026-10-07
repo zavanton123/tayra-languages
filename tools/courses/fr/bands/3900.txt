@@ -1,0 +1,100 @@
+1	3801	hé	hé
+2	3802	jazz	jazz
+3	3803	pleinement	pleinement
+4	3804	rugby	rugby
+5	3805	déployer	déployer déploie déployé déploient déployant déploya déployait déploiera déployez déployons déployaient déployèrent déploieront déploierait
+6	3806	huitième	huitième huitièmes
+7	3807	mou	mou molle mous molles mol
+8	3808	cristal	cristal cristaux
+9	3809	complice	complice complices
+10	3810	émerger	émerger émergent émerge émergents émergé émergentes émergente émergeant émergea émergeait émergera émergeront émergeaient émergèrent émergerait
+11	3811	mat	mat mate mats mates
+12	3812	recommandé	recommandé recommandée recommandés recommandées
+13	3813	extrémité	extrémité extrémités
+14	3814	spécialité	spécialité spécialités
+15	3815	plancher	plancher planches planchers plancha planché planchent planchais
+16	3816	révision	révision révisions
+17	3817	violet	violet violette violets violettes
+18	3818	sympathique	sympathique sympathiques
+19	3819	nationaliste	nationaliste nationalistes
+20	3820	organisateur	organisateurs organisateur organisatrice organisatrices
+21	3821	dignité	dignité dignités
+22	3822	résulter	résulte résultent résulter résulté résulterait résulta résultait résultera résulteraient résultaient résulteront résultèrent
+23	3823	invasion	invasion invasions
+24	3824	maîtriser	maîtriser maîtrisé maîtrisent maîtrisez maîtrisant maîtrisait maîtrises maîtrisons maîtrisaient maîtrisais maîtrisera maîtrisa
+25	3825	récolte	récolte récoltes
+26	3826	ruiner	ruiner ruines ruiné ruinent ruinant ruinerait ruinera ruina ruinez ruinait ruineront
+27	3827	tragédie	tragédie tragédies
+28	3828	régiment	régiment régiments
+29	3829	valise	valise valises
+30	3830	dispute	dispute disputes
+31	3831	incarner	incarne incarner incarnent incarnant incarnait incarnera incarnez incarna incarnaient incarnes incarnerait incarnons incarneront incarnais
+32	3832	pension	pension pensions
+33	3833	flèche	flèche flèches
+34	3834	canapé	canapé canapés
+35	3835	foie	foie foies
+36	3836	cracher	cracher crache craché crachent crachant crachait craches crachez crachaient cracha cracherais crachée crachais crachera crachés cracherai cracherait
+37	3837	intensité	intensité intensités
+38	3838	panique	panique paniques
+39	3839	lumineux	lumineux lumineuse lumineuses
+40	3840	bouffer	bouffer bouffé bouffent bouffons bouffes bouffant bouffait bouffez bouffantes bouffais bouffera bouffaient boufferai bouffants boufferais boufferont
+41	3841	promenade	promenade promenades
+42	3842	chaine	chaine chaines
+43	3843	vengeance	vengeance vengeances
+44	3844	mobilité	mobilité mobilités
+45	3845	habitat	habitat habitats
+46	3846	pétition	pétition pétitions
+47	3847	espérance	espérance espérances
+48	3848	économiste	économiste économistes
+49	3849	réveil	réveil réveils
+50	3850	encontre	encontre
+51	3851	french	french
+52	3852	isabelle	isabelle
+53	3853	mépris	mépris
+54	3854	téléphonique	téléphonique téléphoniques
+55	3855	observateur	observateur observateurs observatrice observatrices
+56	3856	étiquette	étiquette étiquettes
+57	3857	coureur	coureurs coureur coureuse coureuses
+58	3858	constat	constat constats
+59	3859	revendication	revendications revendication
+60	3860	sonore	sonore sonores
+61	3861	tactique	tactique tactiques
+62	3862	expansion	expansion expansions
+63	3863	collier	collier colliers
+64	3864	femelle	femelle femelles
+65	3865	dérivé	dérivés dérivé dérivée dérivées
+66	3866	pneu	pneus pneu pneux
+67	3867	complot	complot complots
+68	3868	globe	globe globes
+69	3869	générique	générique génériques
+70	3870	majesté	majesté majestés
+71	3871	prophète	prophète prophètes prophétesse
+72	3872	traîner	traîner traîné traînent traînait traînant traînaient traînais traînes traînez traînera traîna traînante traînerait traînons traîneront traînèrent
+73	3873	mordre	mordre mordu mord mordant mords mordent mordus mordue mordante morde mordait mordit mordra mordants mordues mordantes mordaient mordez mordais mordras mordront mordrait
+74	3874	comparable	comparable comparables
+75	3875	complément	complément compléments
+76	3876	investisseur	investisseurs investisseur
+77	3877	trembler	trembler tremble tremblant tremblé tremblent trembles tremblait tremblante tremblez tremblaient tremblais tremblantes trembla tremblera tremblants tremblerait tremblons trembleront
+78	3878	allure	allure allures
+79	3879	bal	bal bals
+80	3880	look	look looks
+81	3881	franchise	franchise franchises
+82	3882	foire	foire foires
+83	3883	antiquité	antiquité antiquités
+84	3884	abattre	abattre abat abattent abats abattant abattit abatte abattait abattra abattaient abattis abattirent abattez abattrait abattront abattons
+85	3885	défaire	défaire défait défis défaites défont défit défaisant défais défaisait défasse défirent
+86	3886	abbaye	abbaye abbayes
+87	3887	bourgogne	bourgogne bourgognes
+88	3888	largeur	largeur largeurs
+89	3889	persuader	persuadé persuader persuade persuada persuadent persuadant persuadez persuadait persuadera persuades persuadèrent
+90	3890	placement	placement placements
+91	3891	arsenal	arsenal arsenaux
+92	3892	triple	triple triples
+93	3893	fièvre	fièvre fièvres
+94	3894	répression	répression répressions
+95	3895	diamant	diamant diamants
+96	3896	appart	appart apparts
+97	3897	filtre	filtre filtres
+98	3898	cauchemar	cauchemar cauchemars cauchemard
+99	3899	physiquement	physiquement
+100	3900	soixante	soixante

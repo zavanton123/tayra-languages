@@ -1,0 +1,100 @@
+1	1001	conséquence	conséquences conséquence
+2	1002	via	via
+3	1003	véritable	véritable véritables
+4	1004	taille	taille tailles
+5	1005	vacance	vacances vacance
+6	1006	comité	comité comités
+7	1007	retenir	retenir retenu retenue retient retiens retenus retenues retenez retiennent retiendra retenant retenait retienne retenons retint retiendrai retiendront retenaient retenais retiendrons retiendrais retiendrait retiendrez retiennes retins retinrent retiendraient
+8	1008	document	documents document
+9	1009	ouverture	ouverture ouvertures
+10	1010	communication	communication communications
+11	1011	concerner	concerne concernent concernait concerner concernaient concernera concernerait concerneront concerneraient concernes concerna
+12	1012	tendance	tendance tendances
+13	1013	ciel	ciel cieux ciels
+14	1014	dame	dame dames
+15	1015	seigneur	seigneur seigneurs
+16	1016	musulman	musulmans musulman musulmane musulmanes
+17	1017	nommer	nommé nomme nommer nomment nomma nommant nommait nommera nommez nommes nommaient nommerai nommèrent nommons nommerait nommeront nommerais nommerons
+18	1018	papier	papier papiers
+19	1019	installer	installer installé installe installent installez installa installant installera installait installèrent installes installons installaient installeront installerait installais installerons installai installerai installions installeraient installerez
+20	1020	capacité	capacité capacités
+21	1021	difficulté	difficultés difficulté
+22	1022	machine	machine machines
+23	1023	durée	durée durées
+24	1024	attaquer	attaquer attaqué attaquant attaques attaquent attaquants attaquait attaqua attaquaient attaquera attaquez attaquèrent attaquons attaqueront attaquante attaquerait attaquais attaqueraient attaquerai attaquerons attaquerais
+25	1025	concernant	concernant
+26	1026	traité	traité traités traitée traitées
+27	1027	inscrire	inscrit inscrire inscrivez inscrivant inscrivent inscris inscrivait inscrive inscrira inscrivit inscrivaient inscrivons inscriront inscrirait inscrirai inscrivirent inscrivais inscrirons
+28	1028	cheval	cheval chevaux jument juments
+29	1029	excellent	excellent excellente excellents excellentes
+30	1030	actif	actif actifs active actives
+31	1031	couper	couper coupé coupée coupés coupées coupes coupant coupez coupent coupons coupait coupa coupera couperait coupaient coupante coupais coupants coupantes couperont couperai couperais coupèrent couperaient couperez couperas
+32	1032	disposer	dispose disposer disposent disposant disposé disposait disposés disposées disposons disposaient disposée disposez disposera disposerait disposeront disposes disposions disposa disposais disposeraient disposerez disposerons disposiez disposèrent
+33	1033	lundi	lundi lundis
+34	1034	siège	siège sièges siége
+35	1035	ferme	ferme fermes
+36	1036	port	port ports
+37	1037	respect	respect respects
+38	1038	contact	contact contacts
+39	1039	réunion	réunion réunions
+40	1040	avantage	avantage avantages
+41	1041	quotidien	quotidien quotidienne quotidiens quotidiennes
+42	1042	écoute	écoute écoutes
+43	1043	regard	regard regards
+44	1044	puissance	puissance puissances
+45	1045	disponible	disponible disponibles dispo
+46	1046	accueillir	accueillir accueille accueilli accueillant accueillis accueillent accueillera accueillait accueillons accueillit accueillante accueillants accueilleront accueillaient accueillez accueillantes accueillerons accueillerait accueillirent accueilles accueillerai accueilleraient accueillais accueillerez
+47	1047	tô	to tô
+48	1048	perte	perte pertes
+49	1049	pensée	pensée pensées
+50	1050	km	km
+51	1051	probablement	probablement
+52	1052	dollar	dollars dollar
+53	1053	protection	protection protections
+54	1054	accorder	accorde accorder accordé accordée accordent accordés accordées accordant accordait accordez accordera accorda accordons accordes accordaient accorderait accorderont accordèrent accorderai accordais accorderez accorderais accorderons accordiez accorderaient accorderas
+55	1055	rapide	rapide rapides
+56	1056	culturel	culturel culturelle culturelles culturels
+57	1057	vitesse	vitesse vitesses
+58	1058	juif	juifs juif juive juives
+59	1059	accompagner	accompagné accompagne accompagner accompagnent accompagnant accompagnait accompagnera accompagnaient accompagna accompagneront accompagnez accompagnons accompagnerait accompagnes accompagnerai accompagnais accompagnèrent accompagnerez accompagnerons accompagneraient accompagnerais
+60	1060	ouvrage	ouvrage ouvrages
+61	1061	prouver	prouver prouve prouvé prouvent prouvant prouvera prouvez prouvait prouverait prouves prouva prouverai prouvons prouveront prouvaient prouverons prouveraient prouveras prouverez prouvais prouvèrent prouverais
+62	1062	assister	assister assistant assisté assiste assistante assistants assistée assistés assistent assistons assistait assista assistera assistaient assistez assisteront assistées assistais assistèrent assisterez assisterons assisterait assistes assistions assisterai assisteraient assistiez
+63	1063	caractère	caractère caractères
+64	1064	sac	sac sacs
+65	1065	final	final finales finaux finals
+66	1066	viser	vise visant visé viser visent visait visaient visas visions vises visais visons visez visera viserait viseront viserai viseraient
+67	1067	appareil	appareil appareils
+68	1068	gestion	gestion gestions
+69	1069	italien	italien italienne italiens italiennes
+70	1070	pression	pression pressions
+71	1071	reprise	reprise reprises
+72	1072	usage	usage usages
+73	1073	confirmer	confirme confirmé confirmer confirment confirmant confirmera confirmait confirmez confirma confirmes confirmons confirmerait confirmeront confirmaient confirmèrent confirmeraient confirmerai
+74	1074	exprimer	exprimer exprime exprimé expriment exprimant exprimait exprimez exprimera exprimaient exprima exprimes exprimons exprimeront exprimerait exprimais exprimerai exprimèrent exprimeraient
+75	1075	concours	concours
+76	1076	poids	poids
+77	1077	catégorie	catégorie catégories
+78	1078	intéresser	intéresse intéresser intéressent intéressait intéresserait intéressera intéresses intéressaient intéressez intéressa intéressons intéressais intéresseront intéresseraient intéresserais intéresserai intéressèrent intéresserons intéressiez
+79	1079	dépasser	dépasse dépasser dépassé dépassent dépassant dépassée dépassait dépassés dépassées dépassera dépassaient dépasses dépasserait dépassa dépassez dépasseront dépassons dépasseraient dépassèrent dépassais dépasserons
+80	1080	échange	échange échanges
+81	1081	invité	invité invités invitée invitées
+82	1082	industriel	industriel industrielle industriels industrielles
+83	1083	cinéma	cinéma cinémas
+84	1084	évolution	évolution évolutions
+85	1085	bébé	bébé bébés
+86	1086	placer	placé placer plaçant placent places placez plaçait plaça placera placerait plaçons plaçaient placerai placèrent placerais plaçais placeront placerez placerons placeraient placions
+87	1087	manquer	manquer manquent manquait manquant manquera manquez manquerait manquaient manqueront manquants manquantes manques manquante manquerai manquais manquons manqua manquerais manqueraient manquerez manqueras manquerons manquions manquèrent manquiez manquai
+88	1088	souffrir	souffrir souffre souffert souffrent souffrant souffrait souffrez souffres souffraient souffrante souffrira souffrons souffrirait souffrais souffriront souffrants souffrit souffriraient souffrirai souffrantes souffrirent souffriras souffrirez souffrirais souffriez souffrirons souffrions
+89	1089	représentant	représentant représentants représentante
+90	1090	stade	stade stades
+91	1091	goût	goût goûts goust
+92	1092	absolument	absolument
+93	1093	arabe	arabe arabes
+94	1094	expression	expression expressions
+95	1095	soldat	soldats soldat soldate
+96	1096	québécois	québécois québécoise québécoises québecois québ
+97	1097	retirer	retirer retire retiré retirent retirant retirez retira retirait retires retirera retirerait retirèrent retirons retirerai retiraient retireront retirais retireraient retirerez retirerais retirerons retirai retiriez retirions
+98	1098	soi	soi sois
+99	1099	vent	vent vents
+100	1100	marine	marine marines

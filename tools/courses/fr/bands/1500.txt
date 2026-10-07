@@ -1,0 +1,100 @@
+1	1401	gentil	gentil gentille gentils gentilles
+2	1402	bouger	bouger bouge bougé bougent bougez bouges bougeait bougera bougeant bougeaient bougeront bougea bougeais bougeons bougerait bougerai bougerais bougeras bougeraient
+3	1403	conclure	conclure conclu conclut conclue conclus concluant concluent concluait conclues concluante concluants conclura concluantes concluons concluez conclurent concluaient conclurai concluront conclurait conclurons concluais conclurais
+4	1404	salon	salon salons
+5	1405	décrire	décrit décrire décrivent décrivant décris décrivait décrivez décrivit décrira décrivaient décrive décrirais décrivais décrivons décrirait décririez décrirai décriront décrirons décrivirent
+6	1406	cuisine	cuisine cuisines
+7	1407	réveiller	réveille réveiller réveillé réveillée réveillez réveillent réveilles réveillés réveillant réveillera réveilla réveillait réveillais réveillons réveillées réveillerais réveillaient réveillerai réveillerait réveilleront réveilleras réveillerez réveillai réveillèrent
+8	1408	exploitation	exploitation exploitations
+9	1409	statut	statut statuts
+10	1410	maman	maman mamans m'man mamounette
+11	1411	concept	concept concepts
+12	1412	partage	partage partages
+13	1413	transformer	transformer transforme transformé transforment transformant transforma transformera transformait transformez transformerait transformeront transformèrent transformaient transformes transformons transformeraient transformeras
+14	1414	beauté	beauté beautés
+15	1415	technologie	technologie technologies
+16	1416	hésiter	hésite hésitez hésiter hésité hésitent hésitant hésites hésitait hésitera hésitais hésitante hésita hésiterai hésiterais hésitaient hésiterait hésitants hésiteront hésitons hésiteraient hésiterons hésitantes hésitèrent hésiterez hésitai hésitiez
+17	1417	lance	lance lances
+18	1418	comparer	comparer compare comparé comparée comparant comparez comparés comparent comparées comparait comparons compares comparais comparera compara comparaient comparerais comparerons comparerai comparerait
+19	1419	bateau	bateau bateaux bâteau
+20	1420	billet	billets billet
+21	1421	courage	courage courages
+22	1422	ramener	ramener ramène ramené ramènent ramenez ramenant ramènes ramenait ramènera ramena ramènerait ramènerai ramenaient ramèneront ramenais ramenons ramènerais ramenèrent ramèneraient ramènerez ramènerons ramèneras
+23	1423	composer	compose composer composants composent composant composantes composante composait composa composez composaient composera composeront composes composèrent composais composerait composons
+24	1424	user	usa user use usé usées usant usés usent usée uses usait usez usera usaient useront usante usons userai userait usais usèrent usas
+25	1425	intégrer	intégrer intégré intègre intégrante intégrant intègrent intègres intégrera intégrait intégrez intégra intégreront intègrera intégrantes intégraient intégrerait intégrons intègreront
+26	1426	pote	pote potes
+27	1427	martin	martin martins
+28	1428	mentir	mentir ment menti mens mentent mentions mentez mente mentait mentant mentis mentirais mentais mentit mentons mentira mentirai mentaient mentirait mentes mentiras mentiraient
+29	1429	procédure	procédure procédures
+30	1430	poisson	poisson poissons
+31	1431	thème	thème thèmes
+32	1432	épreuve	épreuve épreuves
+33	1433	incroyable	incroyable incroyables
+34	1434	laurer	laurent laura laurant
+35	1435	provoquer	provoquer provoque provoqué provoquant provoquent provoqua provoquera provoquerait provoquait provoquèrent provoquaient provoques provoqueront provoquez provoqueraient provoquons
+36	1436	forêt	forêt forêts fourest
+37	1437	vision	vision visions
+38	1438	reposer	repose reposer reposent reposant reposait reposé reposez reposera reposaient reposes reposante reposa reposerait reposeront reposons reposantes reposerai reposais reposeraient reposants
+39	1439	coûter	coûte coûté coûter coûtent coûtera coûterait coûtait coûtant coûta coûtaient coûteront coûteraient coûtes coûtèrent
+40	1440	appuyer	appuie appuyer appuyant appuyé appuient appuyez appuyait appuies appuiera appuya appuyaient appuyons appuierait appuieront appuyais appuierai appuierons appuyèrent appuieraient appuierais appuyai
+41	1441	sympa	sympa sympas
+42	1442	amuser	amuser amuse amusant amusé amusent amusante amusez amusait amuses amusantes amusants amusaient amusais amusera amuserait amusons amusa amuseront amuserai amuserais amuserez amusiez amusions
+43	1443	phase	phase phases
+44	1444	urgence	urgence urgences
+45	1445	outil	outils outil
+46	1446	informatique	informatique info informatiques
+47	1447	mercredi	mercredi mercredis
+48	1448	largement	largement
+49	1449	moindre	moindre
+50	1450	parcours	parcours
+51	1451	parfaitement	parfaitement
+52	1452	voire	voire
+53	1453	bataille	bataille batailles
+54	1454	profond	profond profonde profondes profonds
+55	1455	inviter	invite inviter invitent invitant invites invitons invitait invitez invita invitera inviterai invitaient inviterais inviterait invitais inviteront invitèrent inviterons invitante inviterez invitions inviteras invitiez
+56	1456	organisme	organisme organismes
+57	1457	romain	romain romaine romains romaines
+58	1458	bénéficier	bénéficier bénéficie bénéficient bénéficié bénéficiant bénéficiera bénéficieront bénéficiait bénéficiez bénéficiaient bénéficierait bénéficieraient bénéficia bénéficions bénéficierez bénéficièrent bénéficies bénéficierons
+59	1459	taper	taper tape tapé tapes tapent tapez tapant tapait tapas tapais tapaient tapa tapera taperai taperais tapantes tapons taperait taperont
+60	1460	blague	blague blagues
+61	1461	jaune	jaune jaunes
+62	1462	numérique	numérique numériques
+63	1463	rouler	roule rouler roulant roulé roulent roulait roulez roulante roulants roulés roules roulée roulaient roulais roulées roulera roula roulantes roulons rouleront roulerait rouliez roulions roulerai roulèrent roulerais rouleraient rouleras
+64	1464	contribuer	contribuer contribué contribue contribuent contribuant contribua contribuera contribueront contribuerait contribuèrent contribuait contribuez contribuaient contribueraient contribuons contribuerez contribues
+65	1465	sacré	sacré sacrée sacrés sacrées
+66	1466	conscience	conscience consciences
+67	1467	championnat	championnat championnats
+68	1468	défaut	défaut défauts
+69	1469	casser	casser cassé cassée cassés cassent cassez cassées cassant casses cassait cassera cassa cassante cassaient casserait cassants cassais cassons casserai cassantes casserais casseront cassèrent
+70	1470	collège	collège collèges
+71	1471	investissement	investissement investissements
+72	1472	baiser	baiser baise baisé baisers baisent baisée baises baisez baisés baisant baisait baisées baisaient baiserai baisera baiserais baisais baisons baiserait baisa baiseras
+73	1473	administratif	administratif administrative administratives administratifs
+74	1474	supposer	suppose supposé supposer supposant supposons supposent supposez supposait supposerait supposes supposais supposera supposaient supposerons supposa supposions supposerai
+75	1475	justifier	justifier justifie justifié justifiée justifient justifiant justifiées justifiait justifiés justifiez justifierait justifiaient justifiera justifia justifieraient justifies justifieront justifierai
+76	1476	comportement	comportement comportements
+77	1477	googler	google googler googlé googles
+78	1478	citer	cite citer citant citons citent cites citez citait citerai citera cita citerais citais citerons citaient citiez
+79	1479	disparu	disparu disparue disparus disparues
+80	1480	expert	experts expert experte expertes
+81	1481	foi	foi
+82	1482	football	football
+83	1483	épouse	épouse époux épouses
+84	1484	pur	pur pure purs pures
+85	1485	empire	empire empires
+86	1486	admettre	admis admettre admet admets admettons admettant admettent admissions admettait admirent admettez admit admette admettra admettrez admettront admettrait admettaient admettras admettrai admettrons admettrais admettais
+87	1487	sélection	sélection sélections
+88	1488	remporter	remporté remporter remporte remportant remportent remportera remporta remportait remportez remportèrent remporteront remporterait remportaient remportes remportons
+89	1489	menace	menace menaces
+90	1490	twitter	twitter twitté twitte twittant
+91	1491	usine	usine usines
+92	1492	pleurer	pleurer pleure pleuré pleures pleurant pleurent pleurait pleurez pleurais pleuraient pleurons pleurera pleura pleurerai pleurerais pleureront pleurerait pleurai pleurerez pleureras pleurèrent pleurions pleurants pleuriez
+93	1493	efficace	efficace efficaces
+94	1494	vice	vice vices
+95	1495	millier	milliers millier
+96	1496	condamné	condamné condamnés condamnée condamnées
+97	1497	croissance	croissance croissances
+98	1498	aventure	aventure aventures
+99	1499	feuille	feuilles feuille
+100	1500	mardi	mardi mardis

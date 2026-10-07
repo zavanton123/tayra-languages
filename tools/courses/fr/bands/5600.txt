@@ -1,0 +1,100 @@
+1	5501	contrepartie	contrepartie contreparties
+2	5502	spot	spot spots
+3	5503	mystique	mystique mystiques
+4	5504	shopping	shopping shoppings
+5	5505	abruti	abruti abrutis abrutie abruties
+6	5506	entrainement	entrainement entrainements
+7	5507	adéquat	adéquate adéquat adéquates adéquats
+8	5508	résidentiel	résidentiel résidentiels résidentielle résidentielles
+9	5509	ravir	ravir ravissante ravissant ravis ravit ravissantes ravira ravissants ravissent raviront ravissait ravisse ravirait
+10	5510	missionnaire	missionnaire missionnaires
+11	5511	parcelle	parcelle parcelles
+12	5512	coordonner	coordonner coordonné coordonne coordonnés coordonnent coordonnant coordonnera coordonnait coordonnez coordonnons coordonneront
+13	5513	extrémiste	extrémistes extrémiste
+14	5514	jadis	jadis
+15	5515	loisir	loisir
+16	5516	légalement	légalement
+17	5517	quotidiennement	quotidiennement
+18	5518	secrétariat	secrétariat secrétariats
+19	5519	hydraulique	hydraulique hydrauliques
+20	5520	troupeau	troupeau troupeaux
+21	5521	blond	blond blonds blondes
+22	5522	justification	justification justifications
+23	5523	ajuster	ajuster ajusté ajuste ajustant ajustent ajustez ajustait ajustera ajustons ajusta ajustes
+24	5524	gai	gai gais gaie gaies
+25	5525	édit	édit édits
+26	5526	postuler	postuler postule postulé postulant postulants postulez postulent postulait postulantes postules postulée postulante
+27	5527	perturbé	perturbé perturbée perturbés perturbées
+28	5528	palme	palme palmes
+29	5529	aspiration	aspirations aspiration
+30	5530	poison	poison poisons
+31	5531	alcoolique	alcoolique alcooliques
+32	5532	additionnel	additionnel additionnels additionnelle additionnelles
+33	5533	rousseau	rousseau rousseaux
+34	5534	détenteur	détenteur détenteurs détentrice détentrices
+35	5535	falaise	falaise falaises
+36	5536	originel	originel originelle originelles originels
+37	5537	déménagement	déménagement déménagements
+38	5538	catastrophique	catastrophique catastrophiques
+39	5539	prolongation	prolongation prolongations
+40	5540	paradoxe	paradoxe paradoxes
+41	5541	niche	niche niches
+42	5542	chuter	chuter chuté chutent chutes chutant chuta chutait chutera chutaient
+43	5543	austérité	austérité austérités
+44	5544	reconstituer	reconstituer reconstitué reconstituée reconstitue reconstitués reconstituant reconstituées reconstituent reconstitua reconstituez reconstituera reconstituait
+45	5545	marron	marron marrons
+46	5546	redire	redire redis redit redites redirai redisons redisent redira redise redirais redisant
+47	5547	envergure	envergure envergures
+48	5548	induit	induit induite induits induites
+49	5549	attester	atteste attestent attestant attester attestait attestera attestaient attesterait
+50	5550	derby	derby derbys
+51	5551	entrain	entrain entrains
+52	5552	précaire	précaire précaires
+53	5553	refroidir	refroidir refroidi refroidit refroidis refroidissent refroidissant refroidisse refroidira refroidissait refroidirait
+54	5554	forger	forgé forger forges forgerons forgent forgeant forgea forgera forgez forgeait
+55	5555	pie	pie pies
+56	5556	acceptation	acceptation acceptations
+57	5557	improbable	improbable improbables
+58	5558	script	script scripts
+59	5559	book	book books
+60	5560	déploiement	déploiement déploiements
+61	5561	baser	basant baser basent basait bases basa basez basera basons basaient basais baserait
+62	5562	spécificité	spécificité spécificités
+63	5563	réputer	réputé répute
+64	5564	infliger	infliger infligé inflige infligeant infligent infligea infligeait infligez infligera infliges infligeaient infligèrent infligerait infligerai
+65	5565	primordial	primordial primordiale primordiales primordiaux
+66	5566	rente	rente rentes
+67	5567	talentueux	talentueux talentueuse talentueuses
+68	5568	tentation	tentation tentations
+69	5569	jan	jan jans
+70	5570	inauguré	inauguré inaugurée inaugurés inaugurées
+71	5571	estival	estivale estival estivales estivaux
+72	5572	obsession	obsession obsessions
+73	5573	fraction	fraction fractions
+74	5574	atome	atomes atome
+75	5575	irrégulier	irrégulière irrégulier irréguliers irrégulières
+76	5576	extraire	extraire extraient extrais extrayant extrayait extraie extrayons extraira
+77	5577	emprisonnement	emprisonnement emprisonnements
+78	5578	atténuer	atténuer atténue atténuantes atténué atténuée atténuent atténuant atténuante atténuées atténués atténuera atténuerait atténuait atténueront
+79	5579	platine	platine platines
+80	5580	6e	6e
+81	5581	présentement	présentement
+82	5582	yottaoctet	yo
+83	5583	interactif	interactive interactif interactifs interactives
+84	5584	designer	designer designers designe designé
+85	5585	atomique	atomique atomiques
+86	5586	éleveur	éleveurs éleveur éleveuse
+87	5587	litige	litige litiges
+88	5588	abstrait	abstrait abstraite abstraites abstraits
+89	5589	décourager	décourager découragé décourage décourageant découragent découragez décourageante découragera découragerait décourageait décourageants découragea décourages décourageantes décourageons
+90	5590	accélération	accélération accélérations
+91	5591	tombeau	tombeau tombeaux
+92	5592	ruban	ruban rubans
+93	5593	combiner	combiner combinant combinent combines combinait combinera combinez combinons combinaient combinerait combina
+94	5594	ruisseau	ruisseau ruisseaux
+95	5595	cascade	cascade cascades
+96	5596	anormal	anormal anormale anormaux anormales
+97	5597	sueur	sueur sueurs
+98	5598	admission	admission admissions
+99	5599	rhétorique	rhétorique rhétoriques
+100	5600	cinéaste	cinéaste cinéastes

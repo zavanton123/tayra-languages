@@ -1,0 +1,100 @@
+1	7501	velours	velours
+2	7502	autographe	autographe autographes
+3	7503	crocodile	crocodile crocodiles
+4	7504	crabe	crabe crabes
+5	7505	facette	facettes facette
+6	7506	mentor	mentor mentors
+7	7507	schiste	schiste schistes
+8	7508	somptueux	somptueux somptueuse somptueuses
+9	7509	démenti	démenti démentie démentis démenties
+10	7510	fertile	fertile fertiles
+11	7511	bouddha	bouddha bouddhas
+12	7512	relou	relou relous reloue
+13	7513	diffamation	diffamation diffamations
+14	7514	blogueur	blogueurs blogueur blogueuse bloggeur
+15	7515	hallucinant	hallucinant hallucinante hallucinantes hallucinants
+16	7516	quantique	quantique quantiques
+17	7517	parleur	parleur parleurs
+18	7518	imagerie	imagerie imageries
+19	7519	foin	foin foins
+20	7520	infecter	infecté infecter infecte infections infectent infectant infectes
+21	7521	déduction	déduction déductions
+22	7522	fanatique	fanatiques fanatique
+23	7523	gauchiste	gauchistes gauchiste
+24	7524	bruler	bruler brulé brule brulant brulent brulante brulez brulait brules brulons
+25	7525	descriptif	descriptif descriptive descriptifs descriptives
+26	7526	dorer	dora dore dorer dores dorais dorez dorent
+27	7527	coiffer	coiffé coiffer coiffant coiffes coiffent coiffait coiffez coiffante coiffa
+28	7528	îlot	îlot îlots ilôt
+29	7529	brume	brume brumes
+30	7530	ludique	ludique ludiques
+31	7531	galette	galette galettes
+32	7532	soda	soda sodas
+33	7533	substitution	substitution substitutions
+34	7534	vaillant	vaillant vaillants vaillante vaillantes
+35	7535	opératoire	opératoire opératoires
+36	7536	intrusion	intrusion intrusions
+37	7537	épingle	épingle épingles
+38	7538	affamé	affamés affamé affamée affamées
+39	7539	bridge	bridge bridges
+40	7540	surnaturel	surnaturel surnaturels surnaturelle surnaturelles
+41	7541	boitier	boîtier boitier boitiers
+42	7542	défavorisé	défavorisés défavorisées défavorisé défavorisée
+43	7543	horizontale	horizontale horizontales
+44	7544	tempérament	tempérament tempéraments
+45	7545	butin	butin butins
+46	7546	dot	dot dots
+47	7547	atypique	atypique atypiques
+48	7548	water	water waters
+49	7549	brûlure	brûlures brûlure
+50	7550	tract	tracts tract
+51	7551	recycler	recycler recyclé recycle recyclent recyclant recyclez recyclons
+52	7552	contingent	contingent contingents contingente contingentes
+53	7553	restitution	restitution restitutions
+54	7554	piger	pigé piger piges pigeons pigent pigez pigés pigeais
+55	7555	chiotte	chiottes chiotte
+56	7556	inhérent	inhérents inhérente inhérent inhérentes
+57	7557	dérogation	dérogation dérogations
+58	7558	grue	grue grues
+59	7559	afghan	afghan afghans afghane afghanes
+60	7560	vertueux	vertueux vertueuse vertueuses
+61	7561	agréé	agréé agréés agréée agréées
+62	7562	étincelle	étincelle étincelles
+63	7563	suicidaire	suicidaire suicidaires
+64	7564	conteneur	conteneurs conteneur
+65	7565	majuscule	majuscule majuscules
+66	7566	mouchoir	mouchoir mouchoirs
+67	7567	geler	geler gèle gelais gèlent gela gelait gelant gelez gèlera gelas gèles
+68	7568	colossal	colossale colossal colossales colossaux
+69	7569	licorne	licorne licornes
+70	7570	englober	englobe englober englobent englobé englobait englobera engloberait engloba englobaient
+71	7571	relax	relax relaxe relaxes
+72	7572	pénaliser	pénaliser pénalisé pénalise pénalisant pénalisent pénalisante pénaliserait pénalisera pénalisantes pénalisait pénalisants
+73	7573	inculpé	inculpé inculpés inculpée inculpées
+74	7574	profiler	profile profiler profilent profilé profiles profilait profilaient profilant
+75	7575	châtiment	châtiment châtiments
+76	7576	immobile	immobile immobiles
+77	7577	délice	délice délices
+78	7578	dessein	dessein desseins
+79	7579	débordement	débordement débordements
+80	7580	épine	épines épine
+81	7581	feuilleton	feuilleton feuilletons
+82	7582	puzzle	puzzle puzzles
+83	7583	figé	figé figée figés figées
+84	7584	fâcher	fâcher fâche fâchent fâchez fâchons fâchant fâches fâchait fâcha fâchera
+85	7585	superposer	superposés superposées superposer superpose superposé superposent superposant superposée superposait
+86	7586	gazeux	gazeuse gazeux gazeuses
+87	7587	gomme	gomme gommes
+88	7588	adèle	adèle
+89	7589	chaux	chaux
+90	7590	continuellement	continuellement
+91	7591	fermeté	fermeté
+92	7592	fondamentalement	fondamentalement
+93	7593	instantanément	instantanément
+94	7594	instauration	instauration
+95	7595	judo	judo
+96	7596	préavis	préavis
+97	7597	secrètement	secrètement
+98	7598	subitement	subitement
+99	7599	rhume	rhume rhumes
+100	7600	utilisable	utilisable utilisables

@@ -1,0 +1,100 @@
+1	5201	break	break breaks
+2	5202	mortalité	mortalité mortalités
+3	5203	apprenti	apprenti apprentis apprentie
+4	5204	abaisser	abaisser abaisse abaissé abaissée abaissant abaissent abaissés abaissées abaissez abaissera abaissait abaissa abaisserait abaisses abaisserai
+5	5205	temporel	temporelle temporel temporelles temporels
+6	5206	livrée	livrée livrées
+7	5207	rouleau	rouleau rouleaux
+8	5208	certifié	certifié certifiés certifiée certifiées
+9	5209	glacé	glacée glacé glacées glacés
+10	5210	algorithme	algorithme algorithmes algo
+11	5211	graisse	graisse graisses
+12	5212	civique	civique civiques
+13	5213	émergence	émergence émergences
+14	5214	hollandais	hollandais hollandaise hollandaises
+15	5215	piloter	piloter piloté pilotes pilotez pilotait pilotant pilotent pilotera pilota pilotaient
+16	5216	atterrir	atterrir atterri atterrit atterrissent atterrissant atterris atterrira atterrisse atterrissait atterrissez attérir atterriront atterrissons atterrissaient atterrirent atterrirez
+17	5217	effondrement	effondrement effondrements
+18	5218	croître	croître croît crû croissent croissait croisse croîtra croissez croissaient crût
+19	5219	poignet	poignet poignets
+20	5220	expulsion	expulsion expulsions
+21	5221	homicide	homicide homicides
+22	5222	dixième	dixième dixièmes
+23	5223	kurde	kurdes kurde
+24	5224	bibliographie	bibliographie bibliographies biblio
+25	5225	vêtu	vêtu vêtue vêtus vêtues
+26	5226	musculaire	musculaire musculaires
+27	5227	médian	médian médiane médians médianes
+28	5228	compétitif	compétitif compétitifs compétitive compétitives
+29	5229	ledit	ladite ledit lesdits lesdites
+30	5230	côtoyer	côtoie côtoyer côtoient côtoyé côtoyant côtoyaient côtoyait côtoies côtoyez côtoiera côtoyais côtoyons côtoya côtoieront
+31	5231	modération	modération modérations
+32	5232	minuscule	minuscule minuscules
+33	5233	ordure	ordures ordure
+34	5234	centré	centré centrée centrés centrées
+35	5235	mûr	mûr mûre mûres mûrs mure meur mures
+36	5236	interruption	interruption interruptions
+37	5237	valence	valence valences
+38	5238	cabane	cabane cabanes
+39	5239	baptême	baptême baptêmes
+40	5240	capitalisme	capitalisme capitalismes
+41	5241	assimiler	assimiler assimilé assimile assimilent assimilant assimilait assimiles assimilez assimilaient assimilera assimila
+42	5242	rite	rite rites rit
+43	5243	cibler	cibler ciblé ciblant ciblent cibles ciblait ciblez ciblaient ciblons ciblera ciblerait cibleront
+44	5244	icône	icône icônes icone
+45	5245	aéronautique	aéronautique aéronautiques
+46	5246	émotionnel	émotionnel émotionnelle émotionnels émotionnelles
+47	5247	serbe	serbe serbes
+48	5248	mamie	mamie mamies mamy mammy
+49	5249	agrandir	agrandir agrandit agrandi agrandis agrandissent agrandissant agrandira agrandissez agrandisse agrandirent agrandissait
+50	5250	perfection	perfection perfections
+51	5251	aisément	aisément
+52	5252	cassation	cassation
+53	5253	infanterie	infanterie
+54	5254	spécifiquement	spécifiquement
+55	5255	techniquement	techniquement
+56	5256	flore	flore flores
+57	5257	licenciement	licenciement licenciements
+58	5258	médiocre	médiocre médiocres
+59	5259	enquêteur	enquêteurs enquêteur enquêtrice enquêteuse
+60	5260	optimiste	optimiste optimistes
+61	5261	diplomate	diplomate diplomates
+62	5262	programmer	programmé programmer programmes programmant programmez programment programma programmait programmera
+63	5263	traître	traître traîtres traîtresse traîtresses
+64	5264	relâcher	relâcher relâché relâchés relâchée relâchent relâchées relâchant relâchez relâcha relâchait relâchera relâches
+65	5265	balcon	balcon balcons
+66	5266	regroupement	regroupement regroupements
+67	5267	abstenir	abstenir abstient abstenu abstiennent abstenant abstiens abstenez abstiendrai abstiendra abstienne abstiendront abstint abstiendrais abstiendrait abstenait abstiendraient abstenaient
+68	5268	carotte	carottes carotte
+69	5269	bouquin	bouquin bouquins hase
+70	5270	mix	mix mixes
+71	5271	anomalie	anomalie anomalies
+72	5272	continental	continental continentale continentales continentaux
+73	5273	confus	confus confuse confuses
+74	5274	fascinant	fascinant fascinante fascinantes fascinants
+75	5275	trainer	trainer traine trainé trainent trainait traines trainant trainais trainaient trainez traina
+76	5276	pigeon	pigeon pigeons pigeonne
+77	5277	âne	âne ânes ânesse
+78	5278	nique	nique niques
+79	5279	sommaire	sommaire sommaires
+80	5280	bannir	banni bannir bannis bannit bannissant bannissez bannissent bannissons bannira bannisse bannissait
+81	5281	approfondir	approfondir approfondi approfondis approfondit approfondissant approfondissent approfondira approfondisse approfondissons
+82	5282	héberger	héberger hébergé héberge hébergent hébergeant hébergeait hébergera héberges hébergez hébergeaient hébergea hébergeons
+83	5283	déguiser	déguisé déguiser déguise déguisent déguisant déguisait déguisez déguises
+84	5284	simulation	simulation simulations
+85	5285	recrue	recrue recrues
+86	5286	sieur	sr sieur sieurs
+87	5287	efforcer	efforce efforcent efforcer efforcé efforçant efforçons efforcera efforçait efforça efforcez efforçaient efforcerai efforcerons efforceront efforçais efforcèrent efforces efforcions
+88	5288	essuyer	essuie essuyer essuyé essuyant essuient essuya essuyez essuies essuyait essuiera essuyaient essuyais
+89	5289	obtention	obtention obtentions
+90	5290	vestiaire	vestiaire vestiaires
+91	5291	aveu	aveu aveux
+92	5292	impatient	impatient impatiente impatients impatientes
+93	5293	bâtard	bâtard bâtards bâtarde bâtardes
+94	5294	débrouiller	débrouiller débrouille débrouillé débrouillent débrouilles débrouillez débrouillait débrouillera débrouillerai débrouillaient débrouillant débrouillais débrouillerais
+95	5295	éternité	éternité éternités
+96	5296	échéance	échéance échéances
+97	5297	linéaire	linéaire linéaires
+98	5298	ingénierie	ingénierie ingénieries
+99	5299	mouillé	mouillé mouillée mouillés mouillées
+100	5300	déroulement	déroulement déroulements

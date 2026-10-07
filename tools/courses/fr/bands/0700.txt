@@ -1,0 +1,100 @@
+1	601	science	science sciences
+2	602	domaine	domaine domaines
+3	603	heureux	heureux heureuse heureuses
+4	604	chemin	chemin chemins
+5	605	espace	espace espaces
+6	606	internet	internet internets
+7	607	sauf	sauf sauve saufs sauves
+8	608	clair	clair claire claires clairs
+9	609	bureau	bureau bureaux
+10	610	charge	charge charges
+11	611	compter	compter comptait comptent comptant comptes compté comptez comptais comptaient compta comptons comptera compterait compteront comptions comptiez compterais compteraient compterai comptèrent compteras compterons compterez comptai
+12	612	journal	journal journaux
+13	613	coupe	coupe coupes
+14	614	mer	mer mers
+15	615	faux	faux fausse fausses
+16	616	garder	garder gardé gardes gardent gardez gardant gardait gardera gardons garda garderai garderont gardaient garderait gardais garderais garderons garderez garderas gardèrent garderaient gardions gardiez
+17	617	solution	solution solutions
+18	618	bonjour	bonjour bonjours bjr
+19	619	justice	justice justices
+20	620	sinon	sinon snn
+21	621	février	février
+22	622	voici	voici
+23	623	putain	putain purée putains punaise punaises purées putaing
+24	624	développer	développer développé développe développée développés développent développées développant développa développera développait développons développez développeront développèrent développaient développerait développes développerons développerai développeraient développais développerez développions
+25	625	liberté	liberté libertés
+26	626	sport	sport sports
+27	627	communauté	communauté communautés commu
+28	628	sein	sein seins
+29	629	économie	économie économies
+30	630	décision	décision décisions
+31	631	université	université universités
+32	632	imaginer	imagine imaginer imaginez imaginé imagines imaginais imaginons imaginent imaginant imaginait imaginaient imagina imaginerait imaginiez imaginions imaginerais imaginera imaginai imaginèrent imagineriez imagineront imaginerez
+33	633	modèle	modèle modèles
+34	634	remettre	remettre remis remet remets remettent remette remettant remettra remettez remit remettait remettrai remettrait remettons remettront remettaient remettrais remettais remettrons remettras remirent remettrez remettraient remettes remettiez remettions
+35	635	monsieur	monsieur messieurs
+36	636	professionnel	professionnel professionnels professionnelle professionnelles
+37	637	élément	éléments élément
+38	638	sérieux	sérieux sérieuse sérieuses
+39	639	naturel	naturel naturelle naturelles naturels
+40	640	marque	marque marques
+41	641	animal	animaux animal animale animales
+42	642	militaire	militaire militaires
+43	643	église	église églises eglise
+44	644	note	note notes
+45	645	écrire	écrire écris écrivent écrivait écrivant écrivez écrivit écrira écrivais écrive écrirai écrivaient écrivons écrirait écrirais écriront écrivions écrivirent écriviez écrirez écrives écrirons écriras écrivis écriraient escrire
+46	646	contrôle	contrôle contrôles
+47	647	troisième	troisième troisièmes troisiéme
+48	648	matière	matière matières matiere
+49	649	courant	courant courants courante courantes
+50	650	peuple	peuple peuples
+51	651	parole	parole paroles
+52	652	passage	passage passages
+53	653	opération	opération opérations
+54	654	mourir	mourir meurt meurent meurs mourut mourant mourra meure mourait mourrez mourrait mourante mourront mourrai mourants moururent mouraient mourrais mourrons mourraient mourras mourons mourez meures mourais mourantes mouriez mourions mourût mourriez mourrions
+55	655	second	second secondes seconds
+56	656	victime	victime victimes
+57	657	refuser	refuse refusé refuser refusent refusant refusait refusa refuses refusaient refusera refusez refusons refuserait refusèrent refuseront refuseraient refusais refuserais refuserai refuserez refusiez refuserons refusions refuseriez refuseras refusai
+58	658	suffire	suffit suffira suffisait suffisent suffirait suffi suffire suffiront suffise suffisaient suffiraient suffis suffirent suffît
+59	659	espèce	espèce espèces
+60	660	victoire	victoire victoires
+61	661	création	création créations
+62	662	montre	montre montres
+63	663	critique	critique critiques
+64	664	diriger	dirigeants dirige diriger dirigé dirigeant dirigent dirigeait dirigeante dirigea dirigeantes dirigera dirigeaient dirigez dirigeons dirigeais dirigèrent dirigerait dirigeront diriges dirigeai dirigions dirigeraient dirigerai dirigerez dirigerons
+65	665	demi	demi demie demis demy demies
+66	666	normal	normal normale normaux normales
+67	667	fini	fini finis finie finies
+68	668	maître	maître maîtres maîtresse maîtresses mestre mestres
+69	669	objectif	objectif objectifs objective objectives
+70	670	entrée	entrée entrées
+71	671	annonce	annonce annonces
+72	672	acteur	acteurs acteur actrice actrices
+73	673	protéger	protéger protège protégé protégés protégée protégées protègent protégeant protégez protégeait protégera protégeons protégeaient protèges protégerait protègera protégerai protégeront protégea protègerait protégeraient protégerons protègeront protégèrent
+74	674	toucher	toucher touché touchant touchent touchée touchés touchées touches touchait touchera touchez touchante touchaient toucherait toucha toucheront touchants touchais toucheras touchons touchantes toucherai toucherais toucheraient touchèrent toucherez toucherons touchers touchions
+75	675	reçu	reçu reçue reçues reçus
+76	676	réduire	réduire réduit réduite réduits réduisant réduites réduisent réduira réduirait réduisait réduise réduis réduisez réduisit réduisons réduisaient réduiront réduiraient réduisirent réduirai réduirons réduirais réduirez
+77	677	cour	cour
+78	678	durant	durant
+79	679	oh	oh
+80	680	partout	partout
+81	681	plupart	plupart
+82	682	mariage	mariage mariages
+83	683	client	clients client cliente clientes
+84	684	étudiant	étudiants étudiant étudiante étudiantes
+85	685	empêcher	empêcher empêche empêché empêchent empêchant empêchera empêchait empêcherait empêcha empêchaient empêcheront empêches empêchez empêcheraient empêchèrent empêcherai empêchons empêcheras empêcherais empêcherez empêchais empêcherons
+86	686	preuve	preuve preuves
+87	687	impression	impression impressions
+88	688	transport	transport transports
+89	689	imposer	impose imposer imposé imposant imposent imposée imposées imposés imposante imposait imposantes imposera imposants imposa imposerait imposaient imposez imposeront imposons imposes imposèrent imposeraient imposais imposerons imposerai
+90	690	commun	commun communes communs
+91	691	préparer	préparer prépare préparé préparent préparez préparait préparant préparons prépares préparaient préparais prépara préparera préparerait préparèrent prépareront préparions préparerai préparerons prépareraient préparerais prépariez préparai préparerez
+92	692	candidat	candidat candidats candidate candidates
+93	693	erreur	erreur erreurs
+94	694	hein	hein
+95	695	hors	hors
+96	696	commune	commune communes
+97	697	apporter	apporter apporte apporté apportent apportant apportera apportez apportait apporterait apporta apportes apporteront apportons apportaient apporterai apportèrent apporteraient apporterons apportais apporterez apporterais apporteras apportiez apportions
+98	698	république	république républiques
+99	699	endroit	endroit endroits
+100	700	changement	changement changements

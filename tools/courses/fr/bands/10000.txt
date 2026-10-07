@@ -1,0 +1,100 @@
+1	9901	adjudant	adjudant adjudants
+2	9902	théoricien	théoriciens théoricien théoricienne
+3	9903	cotiser	cotiser cotisé cotisants cotise cotisent cotisant cotisez cotiseront
+4	9904	aberration	aberration aberrations
+5	9905	intégriste	intégristes intégriste
+6	9906	gorgée	gorgée gorgées
+7	9907	mante	mantes mante
+8	9908	sardine	sardines sardine
+9	9909	bibliographique	bibliographiques bibliographique
+10	9910	ani	ani anis
+11	9911	concerto	concerto concertos
+12	9912	paritaire	paritaire paritaires
+13	9913	requérant	requérant requérants requérante requérantes
+14	9914	bureaucratie	bureaucratie bureaucraties
+15	9915	causalité	causalité causalités
+16	9916	orphelinat	orphelinat orphelinats
+17	9917	francilien	franciliens francilien francilienne franciliennes
+18	9918	flop	flop flops
+19	9919	canonique	canonique canoniques
+20	9920	meublé	meublé meublée meublés meublées
+21	9921	décaler	décaler décale décalant décalent décalez décales
+22	9922	sandale	sandales sandale
+23	9923	anecdotique	anecdotique anecdotiques
+24	9924	amputé	amputé amputée amputés amputées
+25	9925	probant	probant probants probante probantes
+26	9926	actualiser	actualisé actualiser actualise actualisant actualisent
+27	9927	taquiner	taquiner taquine taquiné taquinait taquinent taquinant taquinais taquines taquinez
+28	9928	infra	infra infras
+29	9929	limitrophe	limitrophes limitrophe
+30	9930	pastel	pastel pastels
+31	9931	inadapté	inadapté inadaptée inadaptés inadaptées
+32	9932	allocution	allocution allocutions
+33	9933	possesseur	possesseurs possesseur
+34	9934	hétérogène	hétérogène hétérogènes
+35	9935	illustrateur	illustrateur illustrateurs illustratrice
+36	9936	bluff	bluff bluffs
+37	9937	croquette	croquettes croquette
+38	9938	viaduc	viaduc viaducs
+39	9939	étui	étui étuis
+40	9940	revisiter	revisite revisiter revisité revisitant revisitent
+41	9941	décolleté	décolleté décolletés décolletée décolletées
+42	9942	bowling	bowling bowlings
+43	9943	hépatite	hépatite hépatites
+44	9944	régence	régence régences
+45	9945	exagération	exagération exagérations
+46	9946	cautionner	cautionner cautionne cautionné cautionnent cautionnes cautionnant cautionnez cautionnait
+47	9947	graphe	graphe graphes
+48	9948	sadique	sadique sadiques
+49	9949	désinformation	désinformation désinformations
+50	9950	effraction	effraction effractions
+51	9951	blogue	blogue blogues
+52	9952	gave	gave gaves
+53	9953	indiscutable	indiscutable indiscutables
+54	9954	drastique	drastique drastiques
+55	9955	aristocrate	aristocrates aristocrate
+56	9956	légaliser	légaliser légalisé légalise légalisant légalisent légalisons
+57	9957	aumônier	aumônier aumôniers aumônière
+58	9958	patineur	patineur patineuse patineurs patineuses
+59	9959	banaliser	banaliser banalisé banalise banalisée banalisées banalisés banalisent banalisant
+60	9960	envelopper	envelopper enveloppant enveloppante enveloppent enveloppes enveloppait enveloppez enveloppa enveloppants enveloppera enveloppantes enveloppaient
+61	9961	perfectionnement	perfectionnement perfectionnements
+62	9962	rectification	rectification rectifications
+63	9963	vomissement	vomissements vomissement
+64	9964	désavantage	désavantage désavantages
+65	9965	animalier	animalier animaliers animalière animalières
+66	9966	limpide	limpide limpides
+67	9967	chimère	chimère chimères
+68	9968	averse	averses averse
+69	9969	neurologique	neurologique neurologiques
+70	9970	savoyard	savoyard savoyards savoyarde savoyardes
+71	9971	mémé	mémé mémés
+72	9972	dureté	dureté duretés
+73	9973	réélection	réélection réélections
+74	9974	appât	appât appâts appas
+75	9975	tong	tong tongs
+76	9976	parterre	parterre parterres
+77	9977	exiler	exiler exile exila exiles exilent exilant
+78	9978	caller	calle callas caller calles callé calla
+79	9979	fruitier	fruitiers fruitier fruitière fruitières
+80	9980	random	random randoms
+81	9981	avoine	avoine avoines
+82	9982	incarcérer	incarcéré incarcérer incarcère
+83	9983	terroriser	terroriser terrorisé terrorise terrorisent terrorisait terrorisant terrorisaient
+84	9984	ingérer	ingérer ingéré ingère ingérée ingérés ingérées ingèrent ingérant
+85	9985	conf	conf confs
+86	9986	abréviation	abréviation abréviations
+87	9987	7ème	7ème
+88	9988	cadenas	cadenas
+89	9989	chlore	chlore
+90	9990	dangereusement	dangereusement
+91	9991	huis	huis
+92	9992	hypnose	hypnose
+93	9993	maxwell	maxwell
+94	9994	protestantisme	protestantisme
+95	9995	rhinocéros	rhinocéros
+96	9996	sodomie	sodomie
+97	9997	syndicalisme	syndicalisme
+98	9998	tumblr	tumblr
+99	9999	verso	verso
+100	10000	rancune	rancune rancunes

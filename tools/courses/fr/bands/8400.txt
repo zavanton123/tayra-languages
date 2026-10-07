@@ -1,0 +1,100 @@
+1	8301	denier	deniers denier
+2	8302	ardoise	ardoise ardoises
+3	8303	mât	mât mâts
+4	8304	canalisation	canalisation canalisations
+5	8305	parachute	parachute parachutes
+6	8306	brutalité	brutalité brutalités
+7	8307	infographie	infographie infographies
+8	8308	lenteur	lenteur lenteurs
+9	8309	spécialisation	spécialisation spécialisations
+10	8310	patinoire	patinoire patinoires
+11	8311	loir	loir loirs
+12	8312	aventurer	aventurer aventures aventurent aventura aventuré aventurant aventurait aventuraient aventurez aventurerait
+13	8313	phone	phone phones
+14	8314	viril	viril virile virils viriles
+15	8315	commémorer	commémorer commémore commémorant commémoré commémorent commémorons commémorait commémorera
+16	8316	bricolage	bricolage bricolages
+17	8317	hôtellerie	hôtellerie hostellerie hôtelleries
+18	8318	embryon	embryon embryons
+19	8319	noisette	noisette noisettes
+20	8320	phoque	phoque phoques
+21	8321	articulé	articulé articulée articulés articulées
+22	8322	abc	abc
+23	8323	balzac	balzac
+24	8324	lunette	lunette
+25	8325	primo	primo
+26	8326	tac	tac
+27	8327	vaguement	vaguement
+28	8328	vitalité	vitalité
+29	8329	astronome	astronomes astronome
+30	8330	crépuscule	crépuscule crépuscules
+31	8331	lessive	lessive lessives
+32	8332	corridor	corridor corridors
+33	8333	accommoder	accommoder accommode accommodant accommodent accommodante accommodé accommodants accommodantes accommodait accommodera accommoderait
+34	8334	intolérance	intolérance intolérances
+35	8335	gastronomique	gastronomique gastronomiques
+36	8336	sérum	sérum sérums
+37	8337	byzantin	byzantin byzantine byzantins byzantines
+38	8338	migraine	migraine migraines
+39	8339	évocation	évocation évocations
+40	8340	dam	dam dams
+41	8341	hémisphère	hémisphère hémisphères
+42	8342	assiégé	assiégée assiégé assiégés assiégées
+43	8343	parenté	parenté parentés
+44	8344	râler	râler râlent râlé râles râlant râlait râlez râlais râlaient
+45	8345	inflammation	inflammation inflammations
+46	8346	triche	triche triches
+47	8347	amertume	amertume amertumes
+48	8348	nominé	nominé nominés nominée nominées
+49	8349	fortifié	fortifiée fortifié fortifiés fortifiées
+50	8350	regrettable	regrettable regrettables
+51	8351	culot	culot culots
+52	8352	zénith	zénith zéniths
+53	8353	cygne	cygne cygnes
+54	8354	botter	bottes botter bottas botta bottent bottant bottait
+55	8355	hypothèque	hypothèque hypothèques
+56	8356	canyon	canyon canyons cañon
+57	8357	diarrhée	diarrhée diarrhées
+58	8358	gent	gent gente gents gentes
+59	8359	indigné	indigné indignés indignée indignées
+60	8360	prérogative	prérogatives prérogative
+61	8361	déroute	déroute déroutes
+62	8362	embarcation	embarcations embarcation
+63	8363	conter	conter conté contes contant conta contait contera conterai contez
+64	8364	orateur	orateur orateurs oratrice
+65	8365	douer	douai doua doue douer
+66	8366	yankee	yankees yankee
+67	8367	modérateur	modérateur modérateurs modératrice
+68	8368	imprégner	imprégné imprégner imprègne imprègnent imprégnant imprégnait imprégnez imprégna
+69	8369	perplexe	perplexe perplexes
+70	8370	régularité	régularité régularités
+71	8371	maquiller	maquiller maquillé maquille maquillent maquilles maquillant maquillez maquillait maquillais
+72	8372	agissement	agissements agissement
+73	8373	acadien	acadiens acadien acadienne acadiennes
+74	8374	poulain	poulain poulains
+75	8375	manquement	manquement manquements
+76	8376	dévouement	dévouement dévouements
+77	8377	régal	régal régale
+78	8378	dev	dev devs
+79	8379	dénicher	dénicher déniché déniche dénichez dénichent dénichant
+80	8380	verrouiller	verrouillé verrouiller verrouille verrouillent verrouillez verrouillant verrouilles verrouillait
+81	8381	consortium	consortium consortiums
+82	8382	scoop	scoop scoops
+83	8383	entraineur	entraineur entraineurs
+84	8384	plausible	plausible plausibles
+85	8385	déformé	déformé déformée déformés déformées
+86	8386	bélier	bélier béliers
+87	8387	paupière	paupières paupière
+88	8388	appropriation	appropriation appropriations
+89	8389	embarquement	embarquement embarquements
+90	8390	alphabétique	alphabétique alphabétiques
+91	8391	détracteur	détracteurs détracteur
+92	8392	parrainage	parrainage parrainages
+93	8393	passible	passible passibles
+94	8394	infectieux	infectieuses infectieux infectieuse
+95	8395	reconversion	reconversion reconversions
+96	8396	admissible	admissible admissibles
+97	8397	psaume	psaume psaumes
+98	8398	bobine	bobine bobines
+99	8399	incomber	incombe incombent incombant incombait incombera incomber incombaient incomberait incombé
+100	8400	billard	billard billards

@@ -1,0 +1,100 @@
+1	9301	assigner	assigner assigne assignent assignant assigna assignait assignez assignera
+2	9302	récession	récession récessions
+3	9303	rongeur	rongeurs rongeur
+4	9304	kidnapper	kidnappé kidnapper kidnappe kidnappent kidnappant
+5	9305	slovaque	slovaque slovaques
+6	9306	clash	clash clashs
+7	9307	archi	archi
+8	9308	catch	catch
+9	9309	chelou	chelou
+10	9310	cynisme	cynisme
+11	9311	exactitude	exactitude
+12	9312	favorablement	favorablement
+13	9313	indéfiniment	indéfiniment
+14	9314	juridiquement	juridiquement
+15	9315	parme	parme
+16	9316	zèle	zèle
+17	9317	étonnamment	étonnamment
+18	9318	mélancolique	mélancolique mélancoliques
+19	9319	panthère	panthère panthères
+20	9320	roller	roller rollers
+21	9321	nomenclature	nomenclature nomenclatures
+22	9322	autocollant	autocollants autocollant autocollantes
+23	9323	joke	joke jokes
+24	9324	track	track tracks
+25	9325	consumer	consumer consume consumé consument consumait consumant consumera consuma
+26	9326	graal	graal graux
+27	9327	cessation	cessation cessations
+28	9328	mouvementé	mouvementée mouvementé mouvementées mouvementés
+29	9329	enzyme	enzymes enzyme
+30	9330	murmurer	murmurer murmuré murmura murmurait murmurant murmures murmurent murmuraient murmurais
+31	9331	phénoménal	phénoménal phénoménale phénoménales phénoménaux
+32	9332	centraliser	centralisé centraliser centralise centralisant centralisent
+33	9333	réorganiser	réorganiser réorganisé réorganise réorganisant réorganisent réorganisa
+34	9334	sarrasin	sarrasin sarrasins sarrazin sarrasine sarrasines
+35	9335	bikini	bikini bikinis
+36	9336	agréger	agrégé agréger agrège agrègent agrégeant
+37	9337	fanfare	fanfare fanfares
+38	9338	infidélité	infidélité infidélités
+39	9339	narcissique	narcissique narcissiques
+40	9340	résiliation	résiliation résiliations
+41	9341	totaliser	totalise totalisent totalisé totaliser totalisait totalisaient totalisera
+42	9342	étanche	étanche étanches
+43	9343	commanditaire	commanditaire commanditaires
+44	9344	interférence	interférence interférences
+45	9345	sectaire	sectaire sectaires
+46	9346	tatouer	tatoué tatouer tatoue tatouent
+47	9347	pourboire	pourboire pourboires
+48	9348	salive	salive salives
+49	9349	disproportionné	disproportionnée disproportionné disproportionnées disproportionnés
+50	9350	rattrapage	rattrapage rattrapages
+51	9351	pourriture	pourriture pourritures
+52	9352	privation	privation privations
+53	9353	saouler	saouler saoulé saoule saoulant saoulent saoulait saoulez saoules
+54	9354	doublage	doublage doublages
+55	9355	hérésie	hérésie hérésies
+56	9356	rebeller	rebelles rebeller rebellent rebellé rebellions rebellant rebellez rebellait rebellèrent
+57	9357	covoiturage	covoiturage covoiturages
+58	9358	odyssée	odyssée odyssées
+59	9359	flyer	flyers flyer flies
+60	9360	outré	outré outrée outrés outrées
+61	9361	ténor	ténor ténors
+62	9362	volt	volts volt
+63	9363	assaillant	assaillants assaillant assaillante
+64	9364	gifle	gifle gifles
+65	9365	encombrer	encombrer encombré encombrée encombrent encombrées encombrés encombres encombraient encombrez encombrait
+66	9366	conciliation	conciliation conciliations
+67	9367	déchiffrer	déchiffrer déchiffré déchiffre déchiffrant déchiffrent
+68	9368	orchestrer	orchestré orchestra orchestrer orchestrent orchestrant orchestres
+69	9369	chevaucher	chevauche chevauchent chevaucher chevauchant chevauché chevauchait chevauchez chevauchaient chevaucha chevauchera
+70	9370	subventionner	subventionné subventionner subventionne subventionnent subventionnant
+71	9371	consolation	consolation consolations
+72	9372	volumineux	volumineux volumineuse volumineuses
+73	9373	grimace	grimace grimaces
+74	9374	parchemin	parchemin parchemins
+75	9375	biographique	biographique biographiques
+76	9376	grief	griefs grief
+77	9377	conditionnement	conditionnement conditionnements
+78	9378	lobe	lobe lobes
+79	9379	explicatif	explicatif explicative explicatifs explicatives
+80	9380	mascotte	mascotte mascottes
+81	9381	toxicité	toxicité toxicités
+82	9382	stratège	stratège stratèges
+83	9383	émirat	émirats émirat
+84	9384	sillon	sillon sillons
+85	9385	pool	pool pools
+86	9386	adjacent	adjacentes adjacent adjacente adjacents
+87	9387	intro	intro intros
+88	9388	fente	fente fentes
+89	9389	bachelier	bacheliers bachelier bachelière bachelières
+90	9390	bunker	bunker bunkers
+91	9391	initiateur	initiateur initiateurs initiatrice initiatrices
+92	9392	replonger	replonger replonge replongé replongent replongeant replonges replongez replongea replongera replongeait
+93	9393	caleçon	caleçon caleçons
+94	9394	refouler	refoulé refouler refoule refoulant refoulent refoules
+95	9395	enfler	enfler enfle enflé enflée enflent enflés enflées enflait
+96	9396	rocket	rocket rockets
+97	9397	têtu	têtu têtue têtus têtues
+98	9398	colorant	colorant colorants colorantes colorante
+99	9399	tarifaire	tarifaire tarifaires
+100	9400	épi	épi épis

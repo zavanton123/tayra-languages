@@ -1,0 +1,100 @@
+1	7801	allégation	allégations allégation
+2	7802	tonton	tonton tontons
+3	7803	astronomique	astronomique astronomiques
+4	7804	roulette	roulette roulettes
+5	7805	pignon	pignon pignons
+6	7806	contagieux	contagieux contagieuse contagieuses
+7	7807	censurer	censuré censurer censurent censurant censurez censura censures
+8	7808	fat	fat fate fats fates
+9	7809	validation	validation validations
+10	7810	vicaire	vicaire vicaires
+11	7811	converger	convergent converger converge convergente convergentes convergents convergeant convergeaient convergé convergeront
+12	7812	panda	panda pandas
+13	7813	perruque	perruque perruques
+14	7814	prothèse	prothèse prothèses
+15	7815	dépistage	dépistage dépistages
+16	7816	résine	résine résines
+17	7817	pépite	pépites pépite
+18	7818	isolation	isolation isolations
+19	7819	body	body bodys
+20	7820	joker	joker jokers
+21	7821	métaphysique	métaphysique métaphysiques
+22	7822	infantile	infantile infantiles
+23	7823	insensible	insensible insensibles
+24	7824	alliage	alliage alliages
+25	7825	barbier	barbier barbiers
+26	7826	roulement	roulement roulements
+27	7827	entraver	entraver entravé entravent entraves entravant entravait entravaient entraverait entravera
+28	7828	plasma	plasma plasmas
+29	7829	dépouille	dépouille dépouilles
+30	7830	incessant	incessantes incessant incessants incessante
+31	7831	paresseux	paresseux paresseuse paresseuses
+32	7832	solennel	solennelle solennel solennelles solennels
+33	7833	ralentissement	ralentissement ralentissements
+34	7834	prisé	prisé prisée prisés prisées
+35	7835	foirer	foiré foirer foires foirent
+36	7836	consolidation	consolidation conso consolidations
+37	7837	conjuguer	conjuguer conjugué conjugue conjuguent conjuguant conjuguez
+38	7838	vinyle	vinyle vinyles
+39	7839	chapiteau	chapiteau chapiteaux
+40	7840	remorque	remorque remorques
+41	7841	purger	purger purgé purges purgeait purgent purgeant purgera purgea
+42	7842	fissure	fissure fissures
+43	7843	décideur	décideurs décideur
+44	7844	suspens	suspens suspenses
+45	7845	camionnette	camionnette camionnettes
+46	7846	incompétent	incompétent incompétents incompétente incompétentes
+47	7847	terrer	terra terrer terré terrent terras terrasses terrait terres terrai terrassent
+48	7848	purge	purge purges
+49	7849	forage	forage forages
+50	7850	inégal	inégale inégal inégales inégaux
+51	7851	septentrional	septentrionale septentrional septentrionales septentrionaux
+52	7852	défectueux	défectueux défectueuse défectueuses
+53	7853	filiation	filiation filiations
+54	7854	dégoût	dégoût dégoûts
+55	7855	ventilation	ventilation ventilations
+56	7856	oracle	oracle oracles
+57	7857	envisageable	envisageable envisageables
+58	7858	6ème	6ème
+59	7859	blair	blair
+60	7860	brabant	brabant
+61	7861	brebis	brebis
+62	7862	décentralisation	décentralisation
+63	7863	endettement	endettement
+64	7864	oasis	oasis
+65	7865	obsèques	obsèques
+66	7866	perpétuité	perpétuité
+67	7867	psychiatrie	psychiatrie
+68	7868	shit	shit
+69	7869	sodium	sodium
+70	7870	supervision	supervision
+71	7871	tintin	tintin
+72	7872	vivres	vivres
+73	7873	épuisement	épuisement
+74	7874	mandataire	mandataire mandataires
+75	7875	contravention	contravention contraventions
+76	7876	tactile	tactile tactiles
+77	7877	virement	virement virements
+78	7878	butte	butte buttes
+79	7879	énième	énième nième énièmes
+80	7880	jacent	jacent jacente jacents jacentes
+81	7881	yacht	yacht yachts
+82	7882	recharge	recharge recharges
+83	7883	hypothétique	hypothétique hypothétiques
+84	7884	avalanche	avalanche avalanches
+85	7885	malentendu	malentendu malentendus
+86	7886	rabbin	rabbin rabbins
+87	7887	tyran	tyran tyrans
+88	7888	automatisé	automatisé automatisée automatisés automatisées
+89	7889	charisme	charisme charismes
+90	7890	sachet	sachet sachets
+91	7891	déguisement	déguisement déguisements
+92	7892	déplorable	déplorable déplorables
+93	7893	maléfique	maléfique maléfiques
+94	7894	charpente	charpente charpentes
+95	7895	distraction	distraction distractions
+96	7896	chiot	chiot chiots
+97	7897	souverainiste	souverainiste souverainistes
+98	7898	mage	mage mages
+99	7899	scrupule	scrupules scrupule
+100	7900	illuminer	illumine illuminer illuminent illuminant illumina illuminait illuminera illuminez illuminaient illumines illumineront illuminèrent

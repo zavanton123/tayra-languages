@@ -1,0 +1,100 @@
+1	8601	vertébral	vertébrale vertébrales vertébral vertébraux
+2	8602	esquisse	esquisse esquisses
+3	8603	anesthésie	anesthésie anesthésies
+4	8604	carnage	carnage carnages
+5	8605	cohabitation	cohabitation cohabitations
+6	8606	affluent	affluent affluents affluente affluentes
+7	8607	enchaînement	enchaînement enchaînements
+8	8608	sculpter	sculpté sculpter sculpte sculptant sculptent sculpta sculptait
+9	8609	hindou	hindous hindou hindoue hindoues
+10	8610	diète	diète diètes
+11	8611	9e	9e
+12	8612	achèvement	achèvement
+13	8613	ananas	ananas
+14	8614	anarchie	anarchie
+15	8615	cruellement	cruellement
+16	8616	enclos	enclos
+17	8617	gratitude	gratitude
+18	8618	géologie	géologie
+19	8619	humanisme	humanisme
+20	8620	islamisme	islamisme
+21	8621	lucidité	lucidité
+22	8622	objectivité	objectivité
+23	8623	pornographie	pornographie
+24	8624	zoé	zoé
+25	8625	écouteurs	écouteurs
+26	8626	irrégularité	irrégularités irrégularité
+27	8627	ponctué	ponctué ponctuée ponctuées ponctués
+28	8628	remaniement	remaniement remaniements
+29	8629	tempéré	tempéré tempérée tempérées tempérés
+30	8630	cop	cop cops
+31	8631	effigie	effigie effigies
+32	8632	émouvoir	émeut émouvoir émeuvent émus émeuve émeus émut émouvait
+33	8633	intendant	intendant intendants intendante
+34	8634	frauduleux	frauduleux frauduleuse frauduleuses
+35	8635	sabot	sabots sabot
+36	8636	pétard	pétard pétards
+37	8637	proprio	proprio proprios
+38	8638	proclamation	proclamation proclamations
+39	8639	camer	camera cameras cama camer camas camions cames
+40	8640	notoire	notoire notoires
+41	8641	délicatesse	délicatesse délicatesses
+42	8642	sniper	sniper snipers
+43	8643	clôturer	clôturer clôturé clôturant clôturera clôturent clôtures clôturait clôtura clôturons
+44	8644	officialiser	officialisé officialiser officialise officialisant officialisent officialisera
+45	8645	visionnaire	visionnaire visionnaires
+46	8646	traque	traque traques
+47	8647	pansement	pansement pansements
+48	8648	levure	levure levures
+49	8649	constatation	constatation constatations
+50	8650	plaquette	plaquettes plaquette
+51	8651	mouvance	mouvance mouvances
+52	8652	virée	virée virées
+53	8653	armistice	armistice armistices
+54	8654	attesté	attesté attestée attestés attestées
+55	8655	compiler	compilé compile compiler compilant compilent compilait compiles compila
+56	8656	muséum	muséum muséums
+57	8657	greffer	greffer greffé greffés greffée greffes greffons greffent greffées greffant
+58	8658	déchéance	déchéance déchéances
+59	8659	consulaire	consulaire consulaires
+60	8660	thaïlandais	thaïlandais thaïlandaise thaïlandaises
+61	8661	galérer	galérer galéré galèrent galères galérait galérais
+62	8662	unifier	unifié unifier unifie unifiant unifient unifia
+63	8663	vigoureux	vigoureux vigoureuse vigoureuses
+64	8664	accélérateur	accélérateur accélérateurs accélératrice
+65	8665	bambou	bambou bambous
+66	8666	altesse	altesse altesses
+67	8667	cyclone	cyclone cyclones
+68	8668	graphiste	graphiste graphistes
+69	8669	unilatéral	unilatérale unilatéral unilatérales unilatéraux
+70	8670	verdure	verdure verdures
+71	8671	amplitude	amplitude amplitudes
+72	8672	déjouer	déjouer déjoué déjoue déjouant déjouent
+73	8673	tâcher	tâcher tâchez tâcherai tâchons tâches tâché tâcherons tâchera tâchant tâchent tâchait tâcheront tâcha tâcherais
+74	8674	apogée	apogée apogées
+75	8675	skieur	skieur skieurs skieuse
+76	8676	dégénérer	dégénère dégénérer dégénèrent dégénéra dégénérait dégénérant
+77	8677	diaspora	diaspora diasporas
+78	8678	implicite	implicite implicites
+79	8679	patch	patch patchs
+80	8680	motorisé	motorisé motorisés motorisée motorisées
+81	8681	égorger	égorger égorgé égorge égorgent égorgeait égorgeant égorgez égorgera
+82	8682	clamer	clame clamer clament clamant clamé clamait clames clamaient clama
+83	8683	nuancé	nuancé nuancée nuancées nuancés
+84	8684	rabaisser	rabaisser rabaisse rabaissé rabaissant rabaissent rabaissez rabaisses rabaissait
+85	8685	cambrer	cambrai cambre cambré cambrer cambra cambrant
+86	8686	montagneux	montagneux montagneuse montagneuses
+87	8687	intoxication	intoxication intoxications
+88	8688	dialoguer	dialoguer dialogues dialoguent dialogué dialoguant
+89	8689	potager	potager potagers potagères potagère
+90	8690	fermentation	fermentation fermentations
+91	8691	copyright	copyright copyrights
+92	8692	calvados	calvados
+93	8693	dauphiné	dauphiné
+94	8694	déontologie	déontologie
+95	8695	expressément	expressément
+96	8696	fertilité	fertilité
+97	8697	hand	hand
+98	8698	honoraire	honoraire
+99	8699	moralement	moralement
+100	8700	possiblement	possiblement

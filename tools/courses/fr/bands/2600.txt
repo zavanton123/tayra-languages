@@ -1,0 +1,100 @@
+1	2501	luxe	luxe luxes
+2	2502	conducteur	conducteur conducteurs conductrice conductrices
+3	2503	rappel	rappel rappels
+4	2504	horrible	horrible horribles
+5	2505	plastique	plastique plastiques
+6	2506	plateforme	plateforme plateformes
+7	2507	pôle	pôle pôles
+8	2508	sain	sain saine sains saines
+9	2509	procéder	procéder procède procèdent procédant procédera procédons procédait procédez procéda procédaient procéderons procéderont procèdera procéderait proceder procédèrent procèderont procèdes procéderaient procéderai
+10	2510	extension	extension extensions
+11	2511	dominer	domine dominé dominer dominent dominait domina dominaient dominera dominions domineront dominez domines dominèrent dominerait dominons domineraient
+12	2512	do	do
+13	2513	définitivement	définitivement
+14	2514	foot	foot
+15	2515	gratuitement	gratuitement
+16	2516	man	man
+17	2517	plait	plait
+18	2518	dessiner	dessiner dessine dessiné dessinent dessinant dessinait dessinez dessina dessines dessinais dessinera dessinaient dessinerai dessinons dessinerait dessineront
+19	2519	amende	amende amendes
+20	2520	chéri	chérie chéri chéris chéries
+21	2521	orientation	orientation orientations
+22	2522	échanger	échanger échangé échanges échangent échangeant échangeait échangeaient échangez échangeons échangerais échangea échangèrent échangera échangeront échangerai échangerait échangerons échangions échangeraient échangeais
+23	2523	repousser	repousser repoussé repousse repoussée repoussant repoussent repoussés repoussées repoussa repoussait repoussera repoussante repousses repoussez repoussèrent repousserait repoussons repoussants repousseront repoussaient repoussantes repoussais
+24	2524	architecture	architecture architectures
+25	2525	aise	aise aises
+26	2526	transition	transition transitions
+27	2527	destiner	destiné destine destinait destiner destinent destinant destinaient destines destinais destinez destina
+28	2528	lâche	lâche lâches
+29	2529	décennie	décennies décennie
+30	2530	autoroute	autoroute autoroutes
+31	2531	précision	précision précisions
+32	2532	réclamer	réclamer réclament réclamé réclamant réclamait réclamaient réclamons réclamez réclama réclamera réclamerait réclames réclameront réclamèrent réclamais réclameraient réclamerai réclamions
+33	2533	excuser	excuser excusez excuses excusé excusent excusant excusons excusera excuseras excusait excuserez excusa excuserai excuserait excusais excuserais excuseront
+34	2534	merveilleux	merveilleux merveilleuse merveilleuses
+35	2535	défenseur	défenseur défenseurs défenseure défenseuse
+36	2536	achever	achevé achève achever achèvent achèvera acheva achevant achevait achevez achèveront achevèrent achèverait achevaient achevons achèverai
+37	2537	incapable	incapable incapables
+38	2538	envoi	envoi envois
+39	2539	animation	animation animations
+40	2540	communiqué	communiqué communiqués communiquée communiquées
+41	2541	résumer	résume résumer résument résumant résumait résumons résumera résuma résumaient résumerait résumez résumes résumerai résumerais
+42	2542	registre	registre registres
+43	2543	susceptible	susceptibles susceptible
+44	2544	durable	durable durables
+45	2545	cuire	cuire cuit cuite cuites cuits cuisant cuisante cuis cuisent cuisants cuise cuisait cuisez cuisantes cuira cuisaient
+46	2546	folie	folie folies
+47	2547	aménagement	aménagement aménagements
+48	2548	coller	coller collé collant collants collent collait collante colles collez colla collaient collantes collera collerait collas collais collerai collerais colleront collons colleraient
+49	2549	boite	boite boites
+50	2550	bio	bio bios
+51	2551	montée	montée montées
+52	2552	accent	accent accents
+53	2553	évaluation	évaluation évaluations
+54	2554	peindre	peint peindre peigne peignant peins peignait peignes peignent peignit peignez peindra peignaient peignais peindrai peignons peindrais
+55	2555	illégal	illégal illégale illégales illégaux
+56	2556	procédé	procédé procédés
+57	2557	support	support supports
+58	2558	abus	abus
+59	2559	lunettes	lunettes
+60	2560	news	news
+61	2561	paradis	paradis
+62	2562	repos	repos
+63	2563	chapeau	chapeau chapeaux
+64	2564	poésie	poésie poésies poësie
+65	2565	solidarité	solidarité solidarités
+66	2566	monstre	monstre monstres
+67	2567	lion	lion lions lionne
+68	2568	enseigner	enseigner enseigné enseignes enseignée enseignent enseignait enseignées enseigna enseignés enseignera enseignez enseignaient enseignons enseignais enseigneront enseignerait enseignèrent enseignerai
+69	2569	lancement	lancement lancements
+70	2570	satisfaire	satisfaire satisfaisant satisfaisante satisfaisantes satisfaisants satisfont satisfaites satisfera satisfaisait satisfasse satisfais satisferait satisferont satisfaisaient satisfassent satisferaient satisfaisons satisferai
+71	2571	adolescent	adolescents adolescent adolescente adolescentes
+72	2572	percevoir	perçu percevoir perçoit perçus perçoivent perçois percevait percevant percevons percevaient percevra percevez perçoive perçut percevront percevais percevrait
+73	2573	rural	rural rurale rurales ruraux
+74	2574	marrant	marrant marrante marrants marrantes
+75	2575	négocier	négocier négocie négocié négociant négociants négocient négociait négocia négociera négocions négociez négocies négociaient négocierait négocieront négociante négocièrent
+76	2576	écraser	écraser écrasé écrase écrasante écrasant écrasent écrasez écrasa écrasait écrasera écrasantes écrases écrasaient écraserait écrasèrent écrasants écrasons écraseront écraserai
+77	2577	parcourir	parcourir parcouru parcourt parcourant parcourent parcourus parcourue parcourues parcourait parcourut parcourez parcouraient parcourons parcoure parcourra parcourais parcoururent parcourront parcourrai parcourrait
+78	2578	adjoint	adjoint adjoints
+79	2579	croisé	croisé croisés croisée croisées
+80	2580	audience	audience audiences
+81	2581	faculté	faculté facultés
+82	2582	joint	joint joints jointe jointes
+83	2583	bloqué	bloqué bloqués bloquée bloquées
+84	2584	vertu	vertu vertus
+85	2585	pardonner	pardonne pardonner pardonnez pardonné pardonnera pardonnent pardonnerai pardonnes pardonnons pardonnerait pardonnerais pardonnerez pardonneront pardonnait pardonnant pardonneras pardonna pardonnerons pardonneraient pardonnais
+86	2586	recommander	recommande recommander recommandent recommandait recommandons recommandant recommanderais recommandez recommanderai recommanda recommandera recommandaient recommandes recommanderait recommanderiez recommanderons recommanderaient recommandais
+87	2587	argentin	argentine argentin argentins argentines
+88	2588	consacrer	consacrer consacre consacrent consacrant consacra consacrait consacrera consacrez consacrons consacraient consacrerait consacrerai consacreront consacres consacrèrent consacrerons consacrais
+89	2589	racine	racines racine
+90	2590	sage	sage sages
+91	2591	boule	boule boules
+92	2592	prononcé	prononcé prononcée prononcés prononcées
+93	2593	probable	probable probables
+94	2594	partiel	partiel partielle partiels partielles
+95	2595	mêler	mêle mêler mêlé mêlant mêlent mêlez mêlait mêlaient mêles mêlera mêleront mêla mêlons mêlerait mêlèrent mêlerai mêlais
+96	2596	continent	continent continents continente
+97	2597	couteau	couteau couteaux
+98	2598	liaison	liaison liaisons
+99	2599	henry	henry henrys
+100	2600	remarquable	remarquable remarquables

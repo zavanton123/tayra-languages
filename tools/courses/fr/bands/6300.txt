@@ -1,0 +1,100 @@
+1	6201	bombarder	bombarder bombardé bombarde bombardent bombardant bombardes bombardait bombardaient bombarda bombardez bombardèrent
+2	6202	refermer	refermer referme refermé referment refermant referma refermait refermez refermera refermeront refermèrent refermaient refermons
+3	6203	ressemblance	ressemblance ressemblances
+4	6204	larguer	larguer largué largue larguée largués larguées larguent larguant larguez larguait
+5	6205	latino	latino latina latinos latinas
+6	6206	détachement	détachement détachements
+7	6207	recenser	recense recensé recenser recensant recensait recensent recensions
+8	6208	imam	imam imams iman imâm imans
+9	6209	cran	cran crans
+10	6210	apocalypse	apocalypse apocalypses
+11	6211	signataire	signataires signataire
+12	6212	fardeau	fardeau fardeaux
+13	6213	impossibilité	impossibilité impossibilités
+14	6214	clocher	clocher cloches clochers clochait cloché clochent
+15	6215	fléau	fléau fléaux
+16	6216	préoccupé	préoccupé préoccupés préoccupée préoccupées
+17	6217	prévisible	prévisible prévisibles
+18	6218	enflammer	enflamme enflammer enflammé enflamment enflammait enflammant enflamma enflammes enflammez enflammera enflammaient enflammerait
+19	6219	lobby	lobby lobbies lobbys
+20	6220	mutuel	mutuel mutuelles mutuels
+21	6221	théâtral	théâtrale théâtral théâtrales théâtraux
+22	6222	séduction	séduction séductions
+23	6223	richelieu	richelieu richelieus
+24	6224	crêpe	crêpes crêpe
+25	6225	prêcher	prêcher prêche prêches prêchent prêché prêchant prêchait prêcha prêchez prêchaient prêchons prêchera
+26	6226	tic	tic tics
+27	6227	courtier	courtier courtiers courtière
+28	6228	renier	renier renie renié renient reniant renies reniera renierait renia reniez reniait renierai renieraient
+29	6229	abstention	abstention abstentions
+30	6230	agneau	agneau agneaux
+31	6231	brasserie	brasserie brasseries
+32	6232	verset	verset versets
+33	6233	ancré	ancré ancrée ancrés ancrées
+34	6234	steak	steak steaks steack
+35	6235	crête	crête crêtes
+36	6236	féminisme	féminisme féminismes
+37	6237	alpin	alpin alpine alpins alpines
+38	6238	caraïbe	caraïbes caraïbe
+39	6239	éponge	éponge éponges
+40	6240	lunaire	lunaire lunaires
+41	6241	indépendantiste	indépendantistes indépendantiste
+42	6242	enchanté	enchanté enchantée enchantés enchantées
+43	6243	consistant	consistant consistante consistants consistantes
+44	6244	débarquement	débarquement débarquements
+45	6245	optimisation	optimisation optimisations
+46	6246	divergence	divergences divergence
+47	6247	allo	allo
+48	6248	assurément	assurément
+49	6249	consécutive	consécutive
+50	6250	fermement	fermement
+51	6251	mas	mas
+52	6252	techno	techno
+53	6253	terriblement	terriblement
+54	6254	tranquillité	tranquillité
+55	6255	tél	tél
+56	6256	vachement	vachement
+57	6257	fourrure	fourrure fourrures
+58	6258	saoudien	saoudien saoudiens saoudienne saoudiennes
+59	6259	romancier	romancier romancière romanciers romancières
+60	6260	gentillesse	gentillesse gentillesses
+61	6261	méga	méga mégas
+62	6262	tendresse	tendresse tendresses
+63	6263	coulisse	coulisses coulisse
+64	6264	gout	gout gouts
+65	6265	constructif	constructive constructif constructives constructifs
+66	6266	ambulance	ambulance ambulances
+67	6267	provision	provisions provision
+68	6268	subjectif	subjective subjectif subjectifs subjectives
+69	6269	garer	garer garé gares gara garent garez garons garait garai
+70	6270	aurore	aurore aurores
+71	6271	ion	ion ions
+72	6272	commercialiser	commercialisé commercialise commercialiser commercialisent commercialisant commercialisait commercialisera commercialisa
+73	6273	frustré	frustré frustrés frustrée frustrées
+74	6274	alinéa	alinéa alinéas
+75	6275	dénonciation	dénonciation dénonciations
+76	6276	hétéro	hétéro hétéros
+77	6277	géologique	géologique géologiques
+78	6278	vétéran	vétérans vétéran
+79	6279	coefficient	coefficient coefficients
+80	6280	humaniste	humaniste humanistes
+81	6281	insolite	insolite insolites
+82	6282	squelette	squelette squelettes
+83	6283	monumental	monumentale monumental monumentales monumentaux
+84	6284	anxiété	anxiété anxiétés
+85	6285	basique	basique basiques
+86	6286	réclamation	réclamation réclamations
+87	6287	louche	louche louches
+88	6288	annuaire	annuaire annuaires
+89	6289	rangée	rangée rangées
+90	6290	escale	escale escales
+91	6291	intersection	intersection intersections
+92	6292	abondance	abondance abondances
+93	6293	armoire	armoire armoires
+94	6294	modernité	modernité modernités
+95	6295	commencement	commencement commencements
+96	6296	robuste	robuste robustes
+97	6297	clarté	clarté clartés
+98	6298	chialer	chialer chiale chialé chialent chiales chialait chialant chialais chialez
+99	6299	mouiller	mouiller mouille mouillent mouillez mouilles mouillant mouillait mouillera mouillaient mouilla mouillons
+100	6300	sécheresse	sécheresse sécheresses

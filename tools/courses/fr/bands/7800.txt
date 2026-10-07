@@ -1,0 +1,100 @@
+1	7701	sacrement	sacrement sacrements
+2	7702	insensé	insensé insensée insensés insensées
+3	7703	novateur	novateur novateurs novatrice novatrices
+4	7704	omniprésent	omniprésent omniprésente omniprésents omniprésentes
+5	7705	spam	spam spams
+6	7706	garou	garou garous
+7	7707	racaille	racaille racailles
+8	7708	recharger	recharger rechargé recharges rechargez rechargent rechargeant rechargera rechargeait
+9	7709	verger	verger vergers vergé
+10	7710	mitigé	mitigé mitigée mitigés mitigées
+11	7711	far	far fars
+12	7712	amalgame	amalgame amalgames
+13	7713	fascisme	fascisme fascismes fachisme
+14	7714	pittoresque	pittoresque pittoresques
+15	7715	archéologue	archéologues archéologue
+16	7716	scout	scouts scout
+17	7717	sexiste	sexiste sexistes
+18	7718	inhumain	inhumain inhumains inhumaine inhumaines
+19	7719	commode	commode commodes
+20	7720	incompréhension	incompréhension incompréhensions
+21	7721	sevrer	sèvres sèvre sevrer sevré sevrés sevres sevrée
+22	7722	piratage	piratage piratages
+23	7723	graffiti	graffiti graffitis graff graf
+24	7724	moralité	moralité moralités
+25	7725	délaissé	délaissé délaissée délaissés délaissées
+26	7726	campement	campement campements
+27	7727	qualitatif	qualitative qualitatif qualitatives qualitatifs
+28	7728	bilatéral	bilatérale bilatérales bilatéraux bilatéral
+29	7729	dispersion	dispersion dispersions
+30	7730	cil	cils cil
+31	7731	nostalgique	nostalgique nostalgiques
+32	7732	informel	informel informelle informels informelles
+33	7733	boum	boum boums
+34	7734	quatuor	quatuor quatuors
+35	7735	voilier	voilier voiliers
+36	7736	yard	yards yard
+37	7737	trafiquant	trafiquants trafiquant trafiquante
+38	7738	hangar	hangar hangars
+39	7739	pénitentiaire	pénitentiaire pénitentiaires
+40	7740	ace	ace aces
+41	7741	ingrat	ingrat ingrats ingrate ingrates
+42	7742	revêtement	revêtement revêtements
+43	7743	gadget	gadget gadgets
+44	7744	engouement	engouement engouements
+45	7745	savoureux	savoureux savoureuse savoureuses
+46	7746	manège	manège manèges manége
+47	7747	fouetter	fouetter fouette fouettée fouetté fouettez fouettés fouettant fouettait fouettent fouettées fouettaient
+48	7748	régaler	régaler régale régalé régalez régalent régales régalait régalant régaleront régalera régalaient
+49	7749	gray	gray grays
+50	7750	grès	grès grais
+51	7751	lueur	lueur lueurs
+52	7752	quantitatif	quantitative quantitatif quantitatives quantitatifs
+53	7753	voyelle	voyelle voyelles
+54	7754	arête	arête arêtes
+55	7755	confidence	confidences confidence
+56	7756	cachette	cachette cachettes
+57	7757	coopératif	coopératif coopératives coopératifs
+58	7758	suspense	suspense suspenses
+59	7759	vicomte	vicomte vicomtes
+60	7760	watt	watts watt
+61	7761	elfe	elfes elfe
+62	7762	funèbre	funèbre funèbres
+63	7763	émigré	émigré émigrés émigrée émigrées
+64	7764	parano	parano paranos
+65	7765	invalide	invalides invalide
+66	7766	léguer	légué lègue léguer légua léguant lèguent léguait léguera
+67	7767	ignoble	ignoble ignobles
+68	7768	barbu	barbu barbus barbue barbues
+69	7769	amen	amen
+70	7770	amplement	amplement
+71	7771	approximativement	approximativement
+72	7772	bavière	bavière
+73	7773	brusquement	brusquement
+74	7774	captivité	captivité
+75	7775	châtelet	châtelet
+76	7776	démographie	démographie
+77	7777	insu	insu
+78	7778	jusqu'où	jusqu'où
+79	7779	let	let
+80	7780	résolument	résolument
+81	7781	socialement	socialement
+82	7782	économiquement	économiquement
+83	7783	garderie	garderie garderies
+84	7784	seau	seau seaux
+85	7785	soustraire	soustraire soustrait soustrayant soustraits soustraite soustraites soustraient soustrais
+86	7786	conjoncture	conjoncture conjonctures
+87	7787	baromètre	baromètre baromètres
+88	7788	imparfait	imparfait imparfaite imparfaits imparfaites
+89	7789	menthe	menthe menthes
+90	7790	poilu	poilu poilus poilue poilues
+91	7791	lustre	lustres lustre
+92	7792	saloperie	saloperie saloperies
+93	7793	étatique	étatique étatiques
+94	7794	caramel	caramel caramels
+95	7795	balise	balise balises
+96	7796	dispenser	dispenser dispensé dispensent dispensant dispensait dispensera dispenses dispensons dispensa dispensaient dispensez dispenserait
+97	7797	entrave	entrave entraves
+98	7798	prieur	prieur prieurs prieure
+99	7799	avorter	avorter avorté avorte avortent avortons avorta
+100	7800	transpirer	transpire transpirer transpirant transpiré transpirent transpires transpirait transpirez transpirais transpirants

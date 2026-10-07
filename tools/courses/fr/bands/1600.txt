@@ -1,0 +1,100 @@
+1	1501	bus	bus
+2	1502	certainement	certainement
+3	1503	clairement	clairement
+4	1504	davantage	davantage
+5	1505	néanmoins	néanmoins
+6	1506	mobile	mobile mobiles
+7	1507	danse	danse danses
+8	1508	grec	grec grecs grecque grecques
+9	1509	augmentation	augmentation augmentations
+10	1510	lac	lac lacs
+11	1511	tiers	tiers tierce tierces
+12	1512	rivière	rivière rivières
+13	1513	réduction	réduction réductions
+14	1514	prétendre	prétend prétendre prétendent prétendant prétendu prétends prétendue prétendants prétendait prétendus prétendez prétendues prétendaient prétende prétendons prétendit prétendante prétendra prétendais prétendrait prétendirent prétendiez prétendront prétendraient
+15	1515	reine	reine reines
+16	1516	restaurant	restaurant restaurants
+17	1517	température	température températures
+18	1518	institut	institut instituts
+19	1519	logique	logique logiques
+20	1520	dénoncer	dénonce dénoncer dénoncé dénoncent dénonçant dénoncée dénonçait dénoncés dénoncées dénonçaient dénoncez dénonçons dénonça dénoncera dénonces dénoncerait dénonçais dénonceront dénoncèrent dénoncerai
+21	1521	existence	existence existences
+22	1522	libérer	libérer libéré libère libérée libérés libérées libérez libèrent libérant libéra libérera libérait libérons libérerait libères libéraient libèrera libéreront libérèrent libérerons libèrerait
+23	1523	phénomène	phénomène phénomènes
+24	1524	traditionnel	traditionnelle traditionnel traditionnels traditionnelles
+25	1525	plage	plage plages
+26	1526	bar	bar bars
+27	1527	classement	classement classements
+28	1528	silence	silence silences
+29	1529	couvrir	couvre couvrir couvrant couvrent couvrait couvrez couvrira couvraient couvrirait couvriront couvrit couvrons couvres couvrante couvrirent couvriraient couvrants couvrais couvrirai couvrirons couvrantes couvrirez
+30	1530	varier	varie variés varier variées varient varié variant variée variantes variait varia variants variera variaient varieront varies variez varierait
+31	1531	témoin	témoin témoins
+32	1532	inspirer	inspiré inspire inspirer inspirant inspirent inspira inspirait inspirera inspirez inspirante inspirantes inspirants inspireront inspiraient inspires inspirèrent inspirerait inspirons inspirais
+33	1533	commande	commande commandes
+34	1534	belge	belge belges
+35	1535	entièrement	entièrement
+36	1536	malheureusement	malheureusement
+37	1537	officier	officier officiers officie officié officiant officiait officient officia officiera officiants officiaient officière
+38	1538	jeunesse	jeunesse jeunesses
+39	1539	douleur	douleur douleurs
+40	1540	comte	comte comtesse comtes comtesses
+41	1541	interne	interne internes
+42	1542	détester	déteste détester détestent détesté détestait détestes détestez détestais détestaient détestant détestons détesterais détesteront détesterait détestera détesterai
+43	1543	évoluer	évoluer évolue évolué évoluent évoluant évoluait évoluera évolués évoluée évoluées évolueront évoluaient évolua évoluons évoluez évoluèrent évoluerait évolues évoluais évolueraient
+44	1544	inconnu	inconnu inconnue inconnus inconnues
+45	1545	performance	performance performances
+46	1546	bain	bain bains
+47	1547	recette	recettes recette
+48	1548	participation	participation participations
+49	1549	vêtement	vêtements vêtement
+50	1550	craindre	craint craindre crains craignent craignant craignait craignez craignaient craignais craignons craigne craindrait craignions craindra craindraient craignit craindront craigniez craindrais craindrai
+51	1551	robert	robert roberts
+52	1552	personnalité	personnalité personnalités
+53	1553	déplacer	déplacer déplace déplacé déplacent déplacés déplacée déplacées déplaçant déplaçait déplacez déplaçaient déplacera déplaces déplaça déplaçons déplaceront déplacerait déplaçais déplacerai déplaceraient déplacèrent déplacerons
+54	1554	sale	sale sales
+55	1555	désigner	désigne désigné désigner désignant désignent désignait désignera désigna désignaient désignerait désignez désigneront désignes désignons désignèrent désignerai
+56	1556	tente	tente tentes
+57	1557	compétition	compétition compétitions compète
+58	1558	provenir	provenant provient proviennent provenir provenait provenaient provins proviendrait provienne proviendraient proviendra proviendront proviens
+59	1559	rang	rang rangs
+60	1560	tradition	tradition traditions
+61	1561	immédiatement	immédiatement
+62	1562	univers	univers
+63	1563	fiche	fiche fiches
+64	1564	fiscal	fiscale fiscal fiscaux fiscales
+65	1565	évoquer	évoque évoqué évoquer évoquant évoquent évoquait évoquera évoquez évoquaient évoques évoquais évoquons évoqua évoquerait évoquerons évoquions évoquerai évoqueront évoquiez évoquèrent évoqueraient
+66	1566	kilomètre	kilomètres kilomètre
+67	1567	fenêtre	fenêtre fenêtres fenestre
+68	1568	stratégie	stratégie stratégies
+69	1569	livrer	livrer livré livres livrent livrant livrait livrera livra livraient livreront livrons livrez livrèrent livrerait livrerai livrais livrerons livreraient
+70	1570	tenue	tenue tenues
+71	1571	répéter	répète répéter répété répètent répétant répétait répétez répètes répétons répétera répéterai répétaient répéta répétais répètera répétions répéteront répèterai répéterais répéterons répéterait répétèrent
+72	1572	sommet	sommet sommets
+73	1573	talent	talent talents
+74	1574	obligation	obligation obligations
+75	1575	violent	violent violente violents violentes
+76	1576	fondé	fondé fondée fondées fondés
+77	1577	degré	degré degrés
+78	1578	cerveau	cerveau cerveaux
+79	1579	issue	issue issues
+80	1580	impact	impact impacts
+81	1581	centaine	centaines centaine
+82	1582	mentionner	mentionné mentionne mentionner mentionnant mentionnent mentionnes mentionnons mentionnait mentionnez mentionnera mentionnaient mentionnerai mentionna mentionnais mentionnerais mentionnerait mentionneront
+83	1583	peinture	peinture peintures
+84	1584	brûler	brûler brûle brûlé brûlée brûlant brûlés brûlent brûlées brûlante brûlait brûlez brûlants brûlantes brûlaient brûla brûles brûlera brûlons brûlèrent brûlerait brûlerai brûlais brûleront brûlerez brûleraient
+85	1585	japonais	japonais japonaise japonaises
+86	1586	basé	basé basée basés basées
+87	1587	plante	plantes plante
+88	1588	canal	canal canaux
+89	1589	oreille	oreilles oreille
+90	1590	morceau	morceau morceaux
+91	1591	informer	informer informé informe informés informée informant informent informez informées informa informes informera informait informons informerons informeront informerai informaient informerait informais informèrent
+92	1592	division	division divisions
+93	1593	baisse	baisse baisses
+94	1594	collègue	collègues collègue
+95	1595	franchement	franchement
+96	1596	régulièrement	régulièrement
+97	1597	verser	verser versé versant verse versa versées versés versée versions versants versent versez versera verses versait versons versaient verseront verserait verserai versais verserez verserais verseraient
+98	1598	mandat	mandat mandats
+99	1599	concentrer	concentrer concentre concentré concentrée concentrés concentrent concentrant concentrées concentrez concentrons concentrait concentra concentrera concentres concentraient concentrais concentreront concentrerait concentrèrent concentrerons concentrerai
+100	1600	supprimer	supprimer supprimé supprime supprimant supprimez suppriment supprimes supprimons supprimera supprimait supprima supprimerait suppr supprimerai supprimerais supprimerons supprimeront supprimaient

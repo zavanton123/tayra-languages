@@ -1,0 +1,100 @@
+1	6601	exhaustif	exhaustive exhaustif exhaustives exhaustifs
+2	6602	assainissement	assainissement assainissements
+3	6603	épique	épique épiques
+4	6604	bagnole	bagnole bagnoles
+5	6605	guichet	guichet guichets
+6	6606	tampon	tampon tampons
+7	6607	applaudissement	applaudissements applaudissement
+8	6608	meneur	meneur meneurs meneuse meneuses
+9	6609	déstabiliser	déstabiliser déstabilisé déstabilise déstabilisant déstabilisée déstabilisés déstabilisent déstabilisante déstabilisantes déstabilisants déstabiliserait déstabilisées déstabilisera déstabilisait
+10	6610	compilation	compilation compilations
+11	6611	vigilant	vigilant vigilants vigilante vigilantes
+12	6612	compartiment	compartiment compartiments
+13	6613	hit	hit hits
+14	6614	ruelle	ruelle ruelles
+15	6615	exilé	exilé exilés exilée exilées
+16	6616	décoratif	décoratifs décoratif décorative décoratives
+17	6617	oie	oie oies oye
+18	6618	boxeur	boxeur boxeurs boxeuse boxeuses
+19	6619	brouiller	brouiller brouille brouillé brouillent brouillons brouillant brouilles brouilla brouillait brouillaient brouillera
+20	6620	fiancée	fiancée fiancées
+21	6621	maçonnerie	maçonnerie maçonneries
+22	6622	contractuel	contractuelle contractuels contractuel contractuelles
+23	6623	néfaste	néfastes néfaste
+24	6624	toulousain	toulousain toulousains toulousaine toulousaines
+25	6625	aventurier	aventuriers aventurier aventurière aventurières
+26	6626	paniquer	paniquer paniqué paniquent paniquez paniquait paniques paniquais paniquant paniquera
+27	6627	dérober	dérober dérobé dérobée dérobe dérobés dérobées dérobent dérobant dérobait déroba dérobaient
+28	6628	attractif	attractif attractive attractifs attractives
+29	6629	annuellement	annuellement
+30	6630	bof	bof
+31	6631	préalablement	préalablement
+32	6632	sas	sas
+33	6633	sexuellement	sexuellement
+34	6634	sérénité	sérénité
+35	6635	sévèrement	sévèrement
+36	6636	typiquement	typiquement
+37	6637	yoga	yoga
+38	6638	étroitement	étroitement
+39	6639	pâtisserie	pâtisserie pâtisseries
+40	6640	attribut	attributs attribut
+41	6641	déprimer	déprime déprimer dépriment déprimes déprimait déprimez
+42	6642	tordu	tordu tordus tordue tordues
+43	6643	paternel	paternel paternelle paternels paternelles
+44	6644	omettre	omis omet omettre omettant omissions omettent omets omettez omettait omit
+45	6645	culinaire	culinaire culinaires
+46	6646	replier	replier replie replié replient repliant replia replièrent repliez repliait replies repliaient replions
+47	6647	poutre	poutre poutres
+48	6648	récepteur	récepteur récepteurs réceptrice réceptrices
+49	6649	sélectif	sélective sélectif sélectifs sélectives
+50	6650	coussin	coussin coussins
+51	6651	ring	ring rings
+52	6652	roser	rosa rosas roser roses
+53	6653	participatif	participatif participative participatifs participatives
+54	6654	surpasser	surpasser surpasse surpassé surpassent surpassant surpassera surpassait surpasses surpasserait surpassa surpassaient surpassez
+55	6655	expédier	expédié expédier expédie expédient expédients expédiant expédiait expédia expédiez expédions expédiera
+56	6656	vagin	vagin vagins
+57	6657	accroissement	accroissement accroissements
+58	6658	galle	galles galle
+59	6659	parental	parental parentale parentaux parentales
+60	6660	inaccessible	inaccessible inaccessibles
+61	6661	abattage	abattage abattement abattements abattages
+62	6662	lavage	lavage lavages
+63	6663	représaille	représailles représaille
+64	6664	rebondir	rebondir rebondit rebondi rebondissent rebondis rebondissant rebondies rebondie rebondissait rebondissante rebondira rebondisse rebondissaient rebondissantes
+65	6665	formalité	formalités formalité
+66	6666	roc	roc rocs
+67	6667	concilier	concilier conciliant conciliante concilie conciliants concilient concilié conciliantes concilia
+68	6668	messagerie	messagerie messageries
+69	6669	humoristique	humoristique humoristiques
+70	6670	fasciner	fasciné fascine fascinent fasciner fascinait fascines fascinaient fascinera fascina
+71	6671	détroit	détroit détroits
+72	6672	cuve	cuve cuves
+73	6673	paralyser	paralysé paralyser paralyse paralysant paralysent paralysante paralysait paralysantes paralysa paralyserait paralysaient paralysants
+74	6674	inaperçu	inaperçu inaperçue inaperçus inaperçues
+75	6675	confesser	confesser confesse confessions confessé confessent confessez confessait confessant confessa confessons confessera confesses confesserai
+76	6676	urine	urine urines
+77	6677	pet	pet pets
+78	6678	frisson	frissons frisson
+79	6679	pédophile	pédophile pédophiles
+80	6680	camper	camper campe campé campent campa campait campaient campant campera campez campons campèrent campes
+81	6681	concourir	concourir concourt concourent concouru concourant concoure concourait concourront concourra concourut concouraient concourrait concourraient concoururent
+82	6682	fragilité	fragilité fragilités
+83	6683	vietnamien	vietnamien vietnamiens vietnamienne vietnamiennes
+84	6684	infiltrer	infiltrer infiltré infiltre infiltrent infiltrant infiltrait infiltra infiltraient
+85	6685	môme	môme mômes
+86	6686	émissaire	émissaire émissaires
+87	6687	imprévu	imprévu imprévus imprévue imprévues
+88	6688	édifier	édifier édifiant édifié édifiante édifie édifiants édifiantes édifia édifient édifièrent édifiera
+89	6689	slip	slip slips
+90	6690	baccalauréat	baccalauréat baccalauréats
+91	6691	géopolitique	géopolitique géopolitiques
+92	6692	planning	planning plannings
+93	6693	consultatif	consultatif consultative consultatifs consultatives
+94	6694	traction	traction tractions
+95	6695	dévier	dévier dévié dévie déviant déviants dévient déviante déviantes déviait dévia déviera dévies
+96	6696	éveillé	éveillé éveillée éveillés éveillées
+97	6697	extraterrestre	extraterrestre extraterrestres
+98	6698	antécédent	antécédents antécédent
+99	6699	croisement	croisement croisements
+100	6700	dépassement	dépassement dépassements

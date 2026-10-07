@@ -1,0 +1,100 @@
+1	1301	matériel	matériel matériels matérielle matérielles
+2	1302	positif	positif positive positifs positives
+3	1303	échapper	échapper échappe échappé échappent échappée échappés échappant échappera échappait échappées échappa échappaient échapperont échapperait échappèrent échapperez échappes échapperas échapperaient échappez échappons échapperons échappais échapperai
+4	1304	africain	africains africain africaine africaines
+5	1305	fan	fans fan
+6	1306	dépendre	dépend dépendent dépendre dépendra dépendait dépends dépendaient dépendrait dépende dépendront dépendons dépendu dépendez dépendit dépendraient
+7	1307	patient	patients patient patiente patientes
+8	1308	contexte	contexte contextes
+9	1309	manifestation	manifestation manifestations manif
+10	1310	vide	vide vides
+11	1311	piste	piste pistes
+12	1312	lendemain	lendemain lendemains
+13	1313	opposer	oppose opposer opposants opposant opposent opposait opposa opposaient opposera opposerait opposèrent opposante opposeront opposez opposons opposes opposeraient opposerai opposerons opposerais opposais
+14	1314	uniquement	uniquement
+15	1315	évidemment	évidemment
+16	1316	discussion	discussion discussions
+17	1317	tendre	tendre tend tendu tendue tendent tendres tendant tendues tendus tends tendons tendait tende tendit tendez tendrait tendaient tendra tendis tendraient tendais tendront tendirent tendrons
+18	1318	achat	achat achats
+19	1319	effectuer	effectuer effectué effectue effectuent effectuant effectuera effectuait effectua effectuaient effectueront effectuez effectuons effectuerait effectues effectuèrent effectuerons effectuais effectuerai effectueraient
+20	1320	constater	constater constate constaté constatant constatent constatons constatait constatez constata constaterez constatera constations constates constataient constatais constatèrent constateront constatai constaterait constateras constaterons
+21	1321	opposition	opposition oppositions
+22	1322	planète	planète planètes
+23	1323	jardin	jardin jardins
+24	1324	écran	écran écrans
+25	1325	exercice	exercice exercices
+26	1326	intervention	intervention interventions
+27	1327	faveur	faveur faveurs
+28	1328	bonheur	bonheur bonheurs
+29	1329	cent	cent cents cens
+30	1330	intention	intention intentions
+31	1331	concert	concert concerts
+32	1332	café	café cafés
+33	1333	essai	essai essais
+34	1334	institution	institutions institution
+35	1335	séance	séance séances
+36	1336	masse	masse masses
+37	1337	médical	médical médicale médicaux médicales
+38	1338	section	section sections
+39	1339	magasin	magasin magasins
+40	1340	boîte	boîte boîtes bte
+41	1341	lycée	lycée lycées
+42	1342	combattre	combattre combattants combattant combats combattu combattent combattante combattit combattait combattons combattez combattantes combattaient combattra combattirent combattront combatte combattrons combattrai combattrait combattraient combattions combattais combattrez
+43	1343	sexe	sexe sexes
+44	1344	salaire	salaire salaires
+45	1345	examen	examen examens exam
+46	1346	front	front fronts
+47	1347	dedans	dedans
+48	1348	lecture	lecture lectures
+49	1349	dessin	dessin dessins
+50	1350	étoile	étoiles étoile
+51	1351	capitaine	capitaine capitaines
+52	1352	capitale	capitale capitales
+53	1353	salut	salut slt saluts
+54	1354	capital	capital capitaux capitales
+55	1355	prévenir	prévenir prévenu préviens prévenus prévient prévenue prévenant prévenez préviennent prévienne prévenues prévenait préviendra prévenante prévenons prévint préviendrai préviendrait prévenants préviendrais prévenaient préviendront préviendrez prévenais préviendrons
+56	1356	déclaration	déclaration déclarations
+57	1357	somme	somme sommes
+58	1358	influence	influence influences
+59	1359	héros	héros héroïne héroïnes
+60	1360	publication	publication publications
+61	1361	intervenir	intervenir intervient intervenants interviennent intervenu intervenant intervienne interviendra interviens intervenait intervint intervenante intervenez interviendront interviendrait intervenons intervenaient intervenantes interviendrai interviendraient intervinrent interviendrez interviendrons intervenais
+62	1362	fruit	fruits fruit
+63	1363	partenaire	partenaire partenaires
+64	1364	vérifier	vérifier vérifie vérifié vérifiez vérifient vérifiant vérifiera vérifions vérifies vérifiait vérifieront vérifia vérifierai vérifiaient vérifiais vérifierons vérifierait
+65	1365	château	château châteaux chateau
+66	1366	complexe	complexe complexes
+67	1367	télé	télé télés
+68	1368	préféré	préféré préférée préférés préférées
+69	1369	dessous	dessous
+70	1370	processus	processus
+71	1371	observer	observer observe observé observant observent observez observait observons observa observera observes observaient observais observerez observeront observerons observerai observerait observèrent observai observions
+72	1372	identité	identité identités
+73	1373	fédéral	fédéral fédérale fédéraux fédérales
+74	1374	découverte	découverte découvertes
+75	1375	conduire	conduire conduisent conduisant conduisait conduira conduis conduisit conduirait conduise conduisez conduiront conduisais conduisaient conduisirent conduiraient conduirai conduisons conduirez conduirons conduisiez conduiras conduirais
+76	1376	sportif	sportif sportive sportifs sportives
+77	1377	station	station stations
+78	1378	bizarre	bizarre bizarres
+79	1379	conflit	conflit conflits
+80	1380	récent	récente récent récentes récents
+81	1381	bruit	bruit bruits
+82	1382	habiter	habite habiter habitent habité habitait habites habitez habitaient habitais habitons habita habitera habitions habitiez habiterai habiteront habiterait habiterais habitèrent
+83	1383	franc	franc francs franche franches franque franques
+84	1384	revue	revue revues
+85	1385	inquiéter	inquiète inquiéter inquiétant inquiétez inquiétante inquiètes inquiètent inquiété inquiétait inquiétantes inquiétants inquiétaient inquiétais inquiéta inquiétons inquiéterait inquiéterais inquiétera inquiétèrent inquièterais inquiéteront inquiéteraient
+86	1386	retard	retard retards
+87	1387	anniversaire	anniversaire anniversaires anniv
+88	1388	entretien	entretien entretiens
+89	1389	noël	noël noëls
+90	1390	jeudi	jeudi jeudis jeudy
+91	1391	triste	triste tristes
+92	1392	troupe	troupes troupe
+93	1393	volume	volume volumes
+94	1394	phrase	phrase phrases
+95	1395	souci	souci soucis
+96	1396	récupérer	récupérer récupéré récupère récupèrent récupérant récupérez récupères récupérera récupérait récupéra récupérons récupèrera récupéraient récupérerait récupéreront récupérerez récupérais récupérerai récupérerons récupérèrent
+97	1397	correspondre	correspond correspondent correspondre correspondait corresponde correspondrait correspondaient correspondra correspondu corresponds correspondraient correspondront correspondez correspondais correspondit
+98	1398	aspect	aspect aspects
+99	1399	libéral	libéral libéraux libérale libérales
+100	1400	net	net nette nets nettes

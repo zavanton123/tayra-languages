@@ -1,0 +1,100 @@
+1	4301	salé	salé salée salés salées
+2	4302	malaise	malaise malaises
+3	4303	audio	audio audios
+4	4304	baptiste	baptiste baptistes
+5	4305	hiérarchie	hiérarchie hiérarchies
+6	4306	marbre	marbre marbres
+7	4307	stockage	stockage stockages
+8	4308	ambitieux	ambitieux ambitieuse ambitieuses
+9	4309	coutume	coutume coutumes
+10	4310	repasser	repasser repasse repassé repassera repassent repassant repassez repasserai repassait repasses repassa repassaient repasserais repassons repasseras repasserait repasseront repassais
+11	4311	coque	coque coques
+12	4312	natal	natale natal natales
+13	4313	obscur	obscur obscure obscures obscurs
+14	4314	confirmation	confirmation confirmations
+15	4315	souterrain	souterrain souterraine souterraines souterrains
+16	4316	puer	pue puent pues puer puait puez pua puaient puais
+17	4317	are	are ares
+18	4318	affection	affection affections
+19	4319	vitre	vitre vitres
+20	4320	fun	fun funs
+21	4321	podium	podium podiums
+22	4322	tomate	tomates tomate
+23	4323	anecdote	anecdotes anecdote
+24	4324	renfort	renfort renforts
+25	4325	aggraver	aggraver aggrave aggravé aggravée aggravant aggravent aggravées aggravante aggravés aggravantes aggravait aggraverait aggravera aggravants aggrava aggraveront aggravaient aggravez
+26	4326	tolérer	tolérer tolère toléré tolérant tolérante tolérants tolèrent tolérantes tolérera tolérait tolérons tolérerait tolérerons tolérerai tolérez toléraient tolèrera tolères toléreront tolèrerait toléra
+27	4327	prestigieux	prestigieux prestigieuse prestigieuses
+28	4328	productif	productif productive productifs productives
+29	4329	balade	balade balades
+30	4330	pin	pin pins
+31	4331	grenade	grenade grenades
+32	4332	lycéen	lycéens lycéen lycéenne lycéennes
+33	4333	3ème	3ème
+34	4334	honnêtement	honnêtement
+35	4335	hum	hum
+36	4336	majoritairement	majoritairement
+37	4337	rap	rap
+38	4338	saoudite	saoudite
+39	4339	douteux	douteux douteuse douteuses
+40	4340	whisky	sky whisky whiskies whiskys
+41	4341	dissoudre	dissoudre dissous dissout dissoute dissolvant dissoutes dissolvent dissoudra dissolve dissoudrait dissolvants dissolvante dissouts
+42	4342	champignon	champignons champignon
+43	4343	marteau	marteau martel marteaux
+44	4344	assassin	assassin assassins assassine assassines
+45	4345	coton	coton cotons
+46	4346	astuce	astuce astuces
+47	4347	conversion	conversion conversions
+48	4348	aisé	aisé aisée aisés aisées
+49	4349	équation	équation équations
+50	4350	tigre	tigre tigres tigresse tigresses
+51	4351	raisonnement	raisonnement raisonnements
+52	4352	probabilité	probabilité probabilités
+53	4353	remède	remède remèdes
+54	4354	stimuler	stimuler stimulant stimule stimulé stimulants stimulante stimulent stimulantes stimulera stimulait stimulerait stimula stimuleront stimulez
+55	4355	pilier	piliers pilier
+56	4356	green	green greens
+57	4357	abeille	abeilles abeille
+58	4358	suggestion	suggestions suggestion
+59	4359	parrain	parrain marraine parrains
+60	4360	continuité	continuité continuités
+61	4361	ascenseur	ascenseur ascenseurs ascenceur
+62	4362	épidémie	épidémie épidémies
+63	4363	people	people peoples
+64	4364	apparent	apparente apparent apparentes apparents
+65	4365	bonnet	bonnet bonnets
+66	4366	réclame	réclame réclames
+67	4367	serment	serment serments
+68	4368	pêcheur	pêcheurs pêcheur pêcheuse
+69	4369	protéine	protéines protéine
+70	4370	synonyme	synonyme synonymes
+71	4371	stopper	stopper stoppé stoppe stoppez stoppa stoppant stoppent stoppera stoppons stoppait
+72	4372	normand	normand normands normande normandes
+73	4373	dalle	dalle dalles
+74	4374	soulager	soulager soulagé soulage soulages soulagent soulagera soulageant soulageait soulagerait soulagez soulagea soulagerai
+75	4375	curé	curé curés curée
+76	4376	nocturne	nocturne nocturnes
+77	4377	golfe	golfe golfes
+78	4378	régir	régis régit régissent régissant régi régir régissait régissaient régira régiront
+79	4379	auguste	auguste augustes
+80	4380	surmonter	surmonter surmonté surmonte surmontant surmontent surmontera surmontait surmontez surmonta
+81	4381	motiver	motiver motive motivant motivent motivera motivait motivante motives motiverait motiva motivez motivantes motivants motivaient motiveront
+82	4382	commissariat	commissariat commissariats
+83	4383	offerte	offerte offertes
+84	4384	fonctionnel	fonctionnel fonctionnelle fonctionnels fonctionnelles
+85	4385	restreint	restreint restreinte restreints restreintes
+86	4386	bond	bond bonds
+87	4387	isoler	isoler isole isolant isola isolants isolent isolante isolantes isolait isolez isoles isolera isolons isolerait isolaient
+88	4388	clandestin	clandestins clandestin clandestine clandestines
+89	4389	différer	diffère diffèrent différé différer différait différant différaient différera
+90	4390	exclusion	exclusion exclusions
+91	4391	segment	segment segments
+92	4392	déception	déception déceptions
+93	4393	gravé	gravé gravée gravés gravées
+94	4394	inflation	inflation inflations
+95	4395	décliner	décline décliner décliné déclinent déclinée déclinant déclinées déclinés déclinante déclina déclinait déclinera déclinantes déclinaient déclinez déclinèrent déclinons
+96	4396	proie	proie proies
+97	4397	préliminaire	préliminaire préliminaires
+98	4398	maquillage	maquillage maquillages
+99	4399	poli	poli polie polis polies
+100	4400	cannabis	cannabis

@@ -1,0 +1,100 @@
+1	2601	ambassadeur	ambassadeur ambassadeurs ambassadrice ambassadrices
+2	2602	pot	pot pots
+3	2603	souffrance	souffrance souffrances
+4	2604	2e	2e
+5	2605	quinze	quinze
+6	2606	sexy	sexy
+7	2607	raciste	raciste racistes
+8	2608	arranger	arrange arranger arrangé arrangent arrangerait arrangés arrangée arrangera arrangeait arrangées arrangeant arranges arrangez arrangerai arrangea arrangerais arrangeaient arrangeront arrangeais arrangeants arrangeante arrangeraient arrangeons
+9	2609	allumer	allumer allume allumé allumée allumés allument allumées allumez allumant allumes allumait alluma allumera allumaient allumais allumons allumèrent allumeront allumerait allumerai
+10	2610	sel	sel sels
+11	2611	isolé	isolé isolés isolée isolées
+12	2612	genou	genoux genou
+13	2613	interdire	interdire interdisant interdisent interdisait interdis interdise interdirait interdira interdisaient interdisons interdisez interdirent interdiront interdirai interdirais interdiraient interdisais
+14	2614	drame	drame drames
+15	2615	paire	paire paires perre
+16	2616	fabriquer	fabriquer fabriqué fabriquent fabriquant fabriquait fabriques fabriquaient fabriquons fabriquez fabriquera fabriqua fabriquerait fabriqueront fabriquèrent
+17	2617	approcher	approcher approché approchent approchant approcha approchait approchez approches approchons approchaient approchera approchais approchèrent approcherait approcheront approchai approchante approcheraient approchions approcheras approchants approcherez
+18	2618	documentaire	documentaire documentaires
+19	2619	examiner	examiner examiné examine examinant examinons examinent examinera examinez examinait examinerons examina examinerai examineront examinaient examinerait examines examinais examinions examinèrent
+20	2620	pascal	pascal pascale pascales pascals
+21	2621	courrier	courrier courriers
+22	2622	robot	robot robots
+23	2623	disparition	disparition disparitions
+24	2624	musicien	musiciens musicien musicienne musiciennes
+25	2625	entrepreneur	entrepreneur entrepreneurs entrepreneuse
+26	2626	bouton	bouton boutons
+27	2627	territorial	territoriale territoriales territorial territoriaux
+28	2628	opportunité	opportunité opportunités
+29	2629	alimentation	alimentation alimentations
+30	2630	ressortir	ressortir ressortissants ressorti ressortent ressortissant ressors ressorte ressortait ressortira ressortant ressortis ressortit ressortez ressortiront ressortissante ressortirai ressortirait ressortaient ressortissent ressortons ressortirez ressortirais ressortais ressortirent
+31	2631	mécanisme	mécanisme mécanismes
+32	2632	scandale	scandale scandales
+33	2633	humeur	humeur humeurs
+34	2634	peintre	peintre peintres
+35	2635	psychologique	psychologique psychologiques psy
+36	2636	apparence	apparence apparences
+37	2637	colonie	colonie colonies
+38	2638	désert	désert déserte déserts désertes
+39	2639	taire	taire tais tait tut taisez taisent taise taira tairai taisant tairais taisait taisons tairont taisaient tût taisais tairons tairait turent tus
+40	2640	cou	cou cous
+41	2641	nécessiter	nécessite nécessitent nécessitant nécessiter nécessitait nécessiterait nécessitera nécessitaient nécessiteront nécessiteraient nécessita nécessitez nécessitèrent
+42	2642	rater	rater rate rates rations ratez ratent ratons rata ratera ratant ratait ratais raterai raterait rateront raterez raterais rataient rateras ratiez
+43	2643	introduction	introduction introductions
+44	2644	jury	jury jurys
+45	2645	énerver	énerve énervé énerver énervant énerves énervent énervait énervez énervante énervants énervantes énervais énerva énervaient énervera énerverait
+46	2646	dévoiler	dévoile dévoiler dévoilé dévoilent dévoilant dévoilera dévoilait dévoileront dévoilerai dévoila dévoilons dévoilez dévoilerait dévoilerons dévoilaient dévoiles
+47	2647	coter	coté coter cota cotes cotent cotait cotons cotez
+48	2648	destruction	destruction destructions
+49	2649	seuil	seuil seuils
+50	2650	ventre	ventre ventres
+51	2651	aboutir	aboutir abouti aboutit aboutissent aboutissant aboutira aboutissants aboutisse aboutirait aboutis aboutiront aboutissait aboutirent aboutissaient aboutiraient
+52	2652	breton	breton bretons bretonne bretonnes
+53	2653	satisfait	satisfait satisfaits satisfaite satisfaites
+54	2654	esclave	esclaves esclave
+55	2655	contenter	contenter contente contentent contenté contentant contentait contentera contentez contenterai contenta contentaient contentons contenterait contenterais contenteront contentais contentes contenterons contentions contenteraient contentèrent
+56	2656	planter	plantes planter planté plantent plantant planta plantez plantait plantons plantera plantaient plantas plantèrent planteront plantais planterai planterait
+57	2657	bulletin	bulletin bulletins
+58	2658	présidence	présidence présidences
+59	2659	vendeur	vendeur vendeurs vendeuse vendeuses
+60	2660	crème	crème crèmes
+61	2661	déchet	déchets déchet
+62	2662	orienter	orienter orienté orientée oriente orientés orientées orientent orientant orienta orientera orientait orientez orientons orientaient orienteront orienterait orientes orientèrent
+63	2663	éventuel	éventuelle éventuel éventuels éventuelles
+64	2664	calmer	calmer calmez calmé calmes calment calma calmant calmera calmants calmait calmons calmerait calmante calmeront calmais calmerai
+65	2665	balance	balance balances
+66	2666	adaptation	adaptation adaptations
+67	2667	costume	costume costumes
+68	2668	évaluer	évaluer évalué évalue évaluent évaluant évaluait évaluez évaluons évaluera évaluerons évalues évaluaient évalueront évalua
+69	2669	infrastructure	infrastructures infrastructure
+70	2670	val	val vaux vals
+71	2671	fondre	fondre fondu fonde fondue fondent fondant fondus fondues fondait fondante fondra fondants fondit fondaient fondez fondirent fondrait fondantes fondront fondes fondons fondis fondais
+72	2672	accrocher	accroche accrocher accroché accrochent accrochez accroches accrochant accrochait accrocha accrochaient accrochais accrochera accrochons accrocheront accrochèrent accrocherai
+73	2673	incident	incident incidents incidente incidentes
+74	2674	livraison	livraison livraisons
+75	2675	veuve	veuve ve veuves veuf veufs
+76	2676	calculer	calculer calculé calcule calculent calculez calculant calcules calculait calculons calculera calcula calculaient calculais
+77	2677	solaire	solaire solaires
+78	2678	col	col cols
+79	2679	horaire	horaires horaire
+80	2680	douter	douter doutais doutait douté doutent doutez doutaient doutant doutons doutiez doutera douterait douterais douteraient douta doutions douterai douterez douteront
+81	2681	éclairer	éclairer éclairé éclaire éclairée éclairés éclairant éclairées éclairent éclairante éclairantes éclairez éclairait éclairera éclairants éclaires éclairaient éclaira éclaireront éclairerait éclairons
+82	2682	opérateur	opérateur opérateurs opératrice opératrices
+83	2683	boy	boy boys
+84	2684	catherine	catherine catherines
+85	2685	virus	virus
+86	2686	effacer	effacer efface effacé effacent effaçant effacera effacez effaçait effaces effacerait effaça effaceront effaçons effaçaient effacerai
+87	2687	gorge	gorge gorges
+88	2688	masque	masque masques
+89	2689	souffle	souffle souffles
+90	2690	possession	possession possessions
+91	2691	partenariat	partenariat partenariats
+92	2692	major	major majors
+93	2693	climatique	climatique climatiques
+94	2694	habituel	habituel habituelle habituels habituelles
+95	2695	solo	solo solos soli
+96	2696	coucou	coucou cc coucous
+97	2697	collectivité	collectivités collectivité
+98	2698	plonger	plonger plonge plongé plongeant plongent plongez plongeante plongea plongeait plongeons plongera plonges plongerait plongeaient plongeais plongeront plongeants plongèrent plongeantes plongerez
+99	2699	boucle	boucle boucles
+100	2700	renne	rennes renne

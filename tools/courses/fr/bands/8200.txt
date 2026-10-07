@@ -1,0 +1,100 @@
+1	8101	hashtag	hashtag hashtags
+2	8102	castrer	castres castré castrer castre castra castrais
+3	8103	canette	canette canettes cannette cannettes
+4	8104	matinale	matinale matinales
+5	8105	turbine	turbines turbine
+6	8106	sushi	sushi sushis
+7	8107	gland	gland glands
+8	8108	canot	canot canots
+9	8109	diagramme	diagramme diagrammes
+10	8110	inefficace	inefficace inefficaces
+11	8111	restaurateur	restaurateur restaurateurs restauratrice
+12	8112	inactif	inactif inactifs inactive inactives
+13	8113	régression	régression régressions
+14	8114	gibier	gibier gibiers
+15	8115	passionner	passionne passionnent passionner passionnait passionna passionnaient passionnera passionnes
+16	8116	collaboratif	collaborative collaboratif collaboratifs collaboratives
+17	8117	moderniser	moderniser modernisé modernise modernisant modernisent
+18	8118	toscan	toscane toscan toscans toscanes
+19	8119	baume	baume baumes
+20	8120	bourguignon	bourguignon bourguignons bourguignonne bourguignonnes
+21	8121	vallon	vallon vallons
+22	8122	chelem	chelem chelems
+23	8123	ivresse	ivresse ivresses
+24	8124	asperger	asperger asperges asperge aspergé aspergeant aspergent aspergeait
+25	8125	intimidation	intimidation intimidations
+26	8126	répliquer	répliquer répliqué répliques répliqua répliquent répliquant répliquait répliquera répliquèrent répliquaient
+27	8127	baraque	baraque baraques
+28	8128	pâté	pâté pâtés
+29	8129	synagogue	synagogue synagogues
+30	8130	oxyde	oxyde oxydes oxide
+31	8131	boycotter	boycotter boycotté boycotte boycottent boycottant boycottez boycottons boycotteront boycottait
+32	8132	abîmer	abîmé abîmer abîment abîmes abîmant abîmait
+33	8133	médium	médium médiums
+34	8134	délirant	délirant délirante délirantes délirants
+35	8135	arrogance	arrogance
+36	8136	comparativement	comparativement
+37	8137	lotus	lotus
+38	8138	nazisme	nazisme
+39	8139	optimisme	optimisme
+40	8140	ores	ores
+41	8141	paternité	paternité
+42	8142	positivement	positivement
+43	8143	pouls	pouls
+44	8144	quimper	quimper
+45	8145	utérus	utérus
+46	8146	égide	égide
+47	8147	vignette	vignette vignettes
+48	8148	décapiter	décapité décapiter décapite décapitent décapitant décapita
+49	8149	découpage	découpage découpages
+50	8150	éventualité	éventualité éventualités
+51	8151	argenté	argenté argentée argentés argentées
+52	8152	indécis	indécis indécise indécises
+53	8153	nocif	nocifs nocif nocives nocive
+54	8154	angélique	angélique angéliques
+55	8155	charismatique	charismatique charismatiques
+56	8156	chiite	chiites chiite
+57	8157	kabyle	kabyle kabyles
+58	8158	intensifier	intensifier intensifie intensifient intensifié intensifiant intensifia intensifiait intensifiera intensifiaient
+59	8159	berline	berline berlines
+60	8160	melon	melon melons
+61	8161	prodige	prodige prodiges
+62	8162	inadmissible	inadmissible inadmissibles
+63	8163	bêta	bêta bêtas
+64	8164	faucon	faucon faucons
+65	8165	freinage	freinage freinages
+66	8166	vielle	vielle vielles
+67	8167	planquer	planquer planqué planqués planquent planquée planques planquées planquez planquait
+68	8168	retrouvaille	retrouvailles retrouvaille
+69	8169	suppléant	suppléant suppléants suppléante
+70	8170	enfantin	enfantine enfantin enfantines enfantins
+71	8171	ka	ka kas
+72	8172	réaffirmer	réaffirme réaffirmer réaffirmé réaffirmant réaffirment réaffirmons réaffirmait
+73	8173	clivage	clivage clivages
+74	8174	prélat	prélat prélats
+75	8175	royaliste	royalistes royaliste
+76	8176	prud'homme	prud'hommes prud'homme prudhomme
+77	8177	reconduire	reconduit reconduire reconduisent reconduisant reconduira reconduise reconduirai
+78	8178	multimédia	multimédia multimédias
+79	8179	immonde	immonde immondes
+80	8180	plaisanter	plaisanter plaisante plaisantant plaisantait plaisanté plaisantais plaisantez plaisantes plaisantent plaisantaient plaisanta
+81	8181	périr	périr périt périssent périrent périra périront périsse périrez périrons périssaient périrait péris
+82	8182	blabla	blabla blablas
+83	8183	moudre	moudre moulant moulu moules moulante moulants moulus moulues moulantes moud moulent mouds
+84	8184	valve	valve valves
+85	8185	moutarde	moutarde moutardes
+86	8186	indésirable	indésirables indésirable
+87	8187	guignol	guignol guignols
+88	8188	shampooing	shampoing shampooing shampooings
+89	8189	harmonieux	harmonieux harmonieuse harmonieuses
+90	8190	adultère	adultère adultères
+91	8191	réglementer	réglementé réglementer réglemente réglementant réglementent
+92	8192	éradiquer	éradiquer éradiqué éradique éradiquant
+93	8193	antarctique	antarctique antarctiques
+94	8194	hanté	hanté hantée hantés hantées
+95	8195	relaxer	relaxer relaxé relaxant relaxante relaxez relaxantes relaxent relaxes
+96	8196	sifflet	sifflet sifflets
+97	8197	soprano	soprano sopranos soprani
+98	8198	nominal	nominale nominal nominaux nominales
+99	8199	bayer	bayer baye baies bayes baya
+100	8200	screen	screen screens

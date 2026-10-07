@@ -1,0 +1,100 @@
+1	2701	fermeture	fermeture fermetures
+2	2702	interdiction	interdiction interdictions
+3	2703	tube	tube tubes
+4	2704	session	session sessions
+5	2705	rédaction	rédaction rédactions rédac
+6	2706	intégration	intégration intégrations
+7	2707	promouvoir	promouvoir promu promeut promus promouvant promeuvent promouvait promut promeuve promouvons
+8	2708	avenue	avenue avenues
+9	2709	noble	noble nobles
+10	2710	rumeur	rumeurs rumeur
+11	2711	charme	charme charmes
+12	2712	horizon	horizon horizons
+13	2713	constitutionnel	constitutionnel constitutionnelle constitutionnelles constitutionnels
+14	2714	chasseur	chasseurs chasseur chasseuse chasseresse chasseuses chasseresses
+15	2715	facture	facture factures
+16	2716	impressionnant	impressionnant impressionnante impressionnantes impressionnants
+17	2717	équipage	équipage équipages
+18	2718	hâte	hâte hâtes
+19	2719	pitié	pitié pitiés
+20	2720	reportage	reportage reportages
+21	2721	totalité	totalité totalités
+22	2722	escalier	escalier escaliers
+23	2723	business	business
+24	2724	los	los
+25	2725	refus	refus
+26	2726	fromage	fromage fromages formage
+27	2727	aveugle	aveugle aveugles
+28	2728	dresser	dresse dresser dressé dressent dressée dressés dressées dressant dressait dressez dressera dressa dressaient dresses dresseront dressons dressèrent dresserait dresserons
+29	2729	diable	diable diables
+30	2730	chasser	chasser chassé chassés chassent chassant chassée chassez chassait chassées chassa chasses chassaient chassera chassons chassèrent chassais chasserait chasseront chasserai
+31	2731	candidature	candidature candidatures
+32	2732	duquel	duquel desquels desquelles
+33	2733	pouce	pouce pouces
+34	2734	infirmière	infirmière infirmières infirmier infirmiers
+35	2735	préfet	préfet préfets préfète
+36	2736	instance	instance instances
+37	2737	destin	destin destins
+38	2738	délégué	délégué délégués déléguée déléguées
+39	2739	oncle	oncle oncles
+40	2740	conséquent	conséquent conséquente conséquents conséquentes
+41	2741	idiot	idiot idiots idiote idiotes
+42	2742	chaise	chaise chaises
+43	2743	élite	élite élites
+44	2744	restauration	restauration restaurations
+45	2745	corruption	corruption corruptions
+46	2746	alternative	alternative alternatives
+47	2747	historien	historien historiens historienne historiennes
+48	2748	crever	crever crève crevé crèvent crevée crevés crevasse crevasses crèves crevant crevez crevait crèvera crevaient crevais crevées crèveront crèverai crèverais creva crèverait
+49	2749	ambition	ambition ambitions
+50	2750	nomination	nomination nominations
+51	2751	calendrier	calendrier calendriers
+52	2752	allée	allée allées
+53	2753	maîtrise	maîtrise maîtrises
+54	2754	croissant	croissant croissante croissants croissantes
+55	2755	conte	conte contes
+56	2756	péter	péter pète pété pétasse pètent pètes pétée pétasses pétés pétait pétant pétantes pétées pétez péta pétais pétante pétera pétaient pètera péterai
+57	2757	miroir	miroir miroirs
+58	2758	gain	gain gains
+59	2759	maintien	maintien maintiens
+60	2760	maternel	maternelle maternel maternelles maternels
+61	2761	benoît	benoît benoit benoîte
+62	2762	roy	roy roys
+63	2763	retrait	retrait retraits
+64	2764	suprême	suprême suprêmes
+65	2765	acquisition	acquisition acquisitions
+66	2766	écarter	écarter écarté écarte écartée écartés écartant écartées écartent écartez écarta écartait écartes écartons écartera écartaient écarterait écartèrent écarteront écarterai écartais
+67	2767	employeur	employeur employeurs employeuse
+68	2768	charger	charger charges chargent chargera chargea chargeant chargeait chargez chargeront chargeons chargeaient chargerait chargèrent chargerai chargerons chargerais chargee chargeraient chargeais chargerez
+69	2769	analyser	analyser analysé analyses analysant analysent analysons analysez analysait analysera analyserons analysa analyseront analysaient analyserai analyserait analysais
+70	2770	camarade	camarades camarade
+71	2771	naturellement	naturellement
+72	2772	profondément	profondément
+73	2773	spécialement	spécialement
+74	2774	célébrer	célébrer célébré célèbres célèbrent célébrant célébrait célébrons célébraient célébrez célébrera célébra célèbrera célébreront célébrerons célébrions célébrèrent célébrants célébrerait célébrerai
+75	2775	acide	acide acides
+76	2776	taxi	taxi taxis
+77	2777	moto	moto motos
+78	2778	automatique	automatique automatiques
+79	2779	contraint	contraint contraintes contraints
+80	2780	réception	réception réceptions
+81	2781	file	file files
+82	2782	agression	agression agressions
+83	2783	porteur	porteur porteurs porteuse porteuses
+84	2784	creuser	creuser creusé creuse creusent creusée creusant creuses creusées creusés creusait creusez creusaient creusa creusera creusons creusèrent creuserait creuserai creuseront
+85	2785	photographie	photographie photographies
+86	2786	fréquence	fréquence fréquences
+87	2787	poule	poule poules
+88	2788	démocrate	démocrate démocrates
+89	2789	organe	organes organe
+90	2790	démarrer	démarre démarrer démarré démarrent démarrez démarrant démarrera démarrait démarra démarrons démarres démarreront démarraient démarrais démarrerait
+91	2791	entreprendre	entreprendre entrepris entreprend entreprit entreprenant entreprennent entreprenants entreprends entreprenante entreprendra entreprirent entreprenait entreprenons entreprenez entreprenantes entreprenne entreprendront entreprendrait entreprenaient
+92	2792	légitime	légitime légitimes
+93	2793	détenu	détenus détenu détenue détenues
+94	2794	immigration	immigration immigrations
+95	2795	oriental	orientale orientales oriental orientaux
+96	2796	séduire	séduire séduit séduisant séduisante séduisent séduisants séduisantes séduira séduis séduise séduisait séduisit séduiront séduisez
+97	2797	associer	associer associe associant associent associes associa associez associait associera associons associaient associeront associèrent associerait associais associerai
+98	2798	soulever	soulever soulève soulevé soulèvent soulevant souleva soulevait soulevez soulèvera soulèves soulevèrent soulevaient soulèverait soulèveront soulevais soulevons
+99	2799	pop	pop pops
+100	2800	protester	protestants protester protestant protestante proteste protesté protestantes protestent protesta protestaient protestait protestons protestèrent protestez protestera

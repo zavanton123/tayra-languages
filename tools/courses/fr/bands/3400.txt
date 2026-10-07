@@ -1,0 +1,100 @@
+1	3301	bonus	bonus
+2	3302	dan	dan
+3	3303	express	express
+4	3304	flux	flux
+5	3305	législatives	législatives
+6	3306	progressivement	progressivement
+7	3307	relais	relais
+8	3308	visiblement	visiblement
+9	3309	misère	misère misères
+10	3310	terminal	terminal terminale terminaux terminales
+11	3311	chemise	chemise chemises
+12	3312	doré	doré dorée dorés dorées
+13	3313	dramatique	dramatique dramatiques
+14	3314	préférence	préférence préférences
+15	3315	logo	logo logos
+16	3316	palestinien	palestiniens palestinien palestinienne palestiniennes
+17	3317	poitrine	poitrine poitrines
+18	3318	domestique	domestique domestiques
+19	3319	tribu	tribu tribus
+20	3320	cimetière	cimetière cimetières cime cimes
+21	3321	détenir	détient détenir détiennent détenait détenant détenaient détiens détenez détenons détienne détiendrait détiendra détiendraient détiendront
+22	3322	enfermer	enfermé enfermer enferme enferment enfermant enfermait enfermez enferma enfermes enfermaient enfermera enfermons enfermèrent enfermais enfermerait
+23	3323	tueur	tueur tueurs tueuse tueuses
+24	3324	barrière	barrière barrières
+25	3325	colline	colline collines
+26	3326	complémentaire	complémentaires complémentaire
+27	3327	mixte	mixte mixtes
+28	3328	trophée	trophée trophées
+29	3329	meuble	meubles meuble
+30	3330	trancher	trancher tranché tranchant tranchées tranches tranchants tranchés tranchante tranchent tranchantes tranchera tranchait trancha tranchez trancheront trancherait tranchaient
+31	3331	anneau	anneau anneaux
+32	3332	mensuel	mensuel mensuelle mensuels mensuelles
+33	3333	vocation	vocation vocations
+34	3334	sincère	sincère sincères
+35	3335	passionné	passionné passionnés passionnée passionnées
+36	3336	guitare	guitare guitares
+37	3337	digital	digital digitale digitales digitaux
+38	3338	cardiaque	cardiaque cardiaques
+39	3339	comédien	comédien comédiens comédienne
+40	3340	commerçant	commerçants commerçant commerçante commerçantes
+41	3341	bible	bible bibles
+42	3342	ours	ours ourse ourses
+43	3343	protocole	protocole protocoles
+44	3344	tranche	tranche tranches
+45	3345	conservation	conservation conservations
+46	3346	diplômé	diplômé diplômés diplômée diplômées
+47	3347	délire	délire délires
+48	3348	ravi	ravi ravie ravis ravies
+49	3349	porc	porc porcs
+50	3350	napoléon	napoléon napoléons
+51	3351	tirage	tirage tirages
+52	3352	patience	patience patiences
+53	3353	fatigue	fatigue fatigues
+54	3354	constante	constante constantes
+55	3355	fusil	fusil fusils
+56	3356	polonais	polonais polonaise polonaises
+57	3357	porno	porno pornos
+58	3358	doter	doté doter dote dota dotant dotent dotera dotait dotes dotèrent
+59	3359	couilles	couilles
+60	3360	haha	haha
+61	3361	quarante	quarante
+62	3362	riz	riz
+63	3363	sud-ouest	so
+64	3364	épée	épée épées
+65	3365	requis	requis requise requises
+66	3366	massacre	massacre massacres
+67	3367	filière	filière filières
+68	3368	césar	césar césars cæsar
+69	3369	cliché	clichés cliché clichée clichées
+70	3370	connexion	connexion connexions
+71	3371	ado	ado ados
+72	3372	amical	amical amicale amicaux amicales
+73	3373	merveille	merveille merveilles
+74	3374	litre	litres litre
+75	3375	influencer	influencer influencé influencée influencent influencés influences influencées influençant influencera influenceront influença influençait influencerait influencèrent influençaient influenceraient
+76	3376	actionnaire	actionnaires actionnaire
+77	3377	insecte	insectes insecte
+78	3378	golf	golf golfs
+79	3379	navigation	navigation navigations
+80	3380	invitation	invitation invitations
+81	3381	borne	bornes borne
+82	3382	démon	démon démons démone
+83	3383	abandon	abandon abandons
+84	3384	séquence	séquence séquences
+85	3385	box	box boxes boxs
+86	3386	pair	pair pairs paires
+87	3387	serre	serre serres
+88	3388	pantalon	pantalon pantalons
+89	3389	excellence	excellence excellences
+90	3390	aperçu	aperçu aperçue aperçus aperçues
+91	3391	sanitaire	sanitaire sanitaires
+92	3392	piège	piège pièges
+93	3393	démissionner	démissionner démissionne démissionné démissionnent démissionnera démissionna démissionnes démissionnant démissionnait démissionnez démissionnerait démissionnerai
+94	3394	blonde	blonde blondes
+95	3395	aîné	aîné aînés aînée aînées
+96	3396	ultime	ultime ultimes
+97	3397	péché	péché péchés
+98	3398	symbolique	symbolique symboliques
+99	3399	dépression	dépression dépressions
+100	3400	pointer	pointer pointé pointent pointant pointée pointait pointés pointes pointées pointa pointaient pointera pointez pointais pointerait pointeront

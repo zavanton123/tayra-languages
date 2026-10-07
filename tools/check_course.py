@@ -44,7 +44,12 @@ def rules(rank_up_to):
 
 def fold(code, word):
     # The German list folds ß to ss in most of its forms, so both spellings are compared folded.
-    return word.replace("ß", "ss") if code == "de" else word
+    if code == "de":
+        return word.replace("ß", "ss")
+    # The French list writes the straight apostrophe; texts may use the curly one.
+    if code == "fr":
+        return word.replace("’", "'")
+    return word
 
 
 def load_list(code):
@@ -81,10 +86,35 @@ def load_list(code):
     return ranks, words
 
 
-def tokens(text):
+def tokens(text, code=None, ranks=None):
+    if code == "fr":
+        return french_tokens(text, ranks)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
+    return out
+
+
+FRENCH_WORD = re.compile(r"[^\W\d_]+(?:['’-][^\W\d_]+)*", re.UNICODE)
+
+
+def french_tokens(text, ranks):
+    """
+    French words as the reader counts them, split at hyphens and apostrophes (l'homme is l +
+    homme, est-ce is est + ce), except the words the list has whole (aujourd'hui, jusqu'à,
+    quelqu'un, week-end), which a learner knows as one word.
+    """
+    out = []
+    for match in FRENCH_WORD.finditer(text):
+        word = match.group(0).replace("’", "'")
+        if word.lower() in ranks:
+            out.append(word)
+            continue
+        for part in word.split("-"):
+            if part.lower() in ranks:
+                out.append(part)
+            else:
+                out.extend(piece for piece in part.split("'") if piece)
     return out
 
 
@@ -100,7 +130,7 @@ def check(path, brief=False):
     ok = True
     report = []
     for i, lesson in enumerate(course["lessons"], start=1):
-        toks = tokens(lesson["text"])
+        toks = tokens(lesson["text"], code, ranks)
         lowered = [fold(code, t.lower()) for t in toks]
         outside = {}
         known = 0

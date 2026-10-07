@@ -1,0 +1,100 @@
+1	9801	fourgon	fourgon fourgons
+2	9802	enveloppé	enveloppé enveloppée enveloppés enveloppées
+3	9803	faisable	faisable faisables
+4	9804	comportemental	comportementale comportementales comportementaux comportemental
+5	9805	coutumier	coutumier coutumière coutumiers coutumières
+6	9806	louable	louable louables
+7	9807	romanesque	romanesque romanesques
+8	9808	briquet	briquet briquets
+9	9809	truffe	truffe truffes
+10	9810	fauché	fauché fauchés fauchée fauchées
+11	9811	squatter	squatter squatte squatté squattent squattait squattes squattaient squattant
+12	9812	stylé	stylé stylée stylés stylées
+13	9813	rayure	rayures rayure
+14	9814	vingtième	vingtième vingtièmes
+15	9815	conférencier	conférencier conférenciers conférencière
+16	9816	apparenté	apparentés apparenté apparentées apparentée
+17	9817	analogique	analogique analogiques
+18	9818	fougère	fougères fougère
+19	9819	rai	rai rais
+20	9820	meubler	meubles meubler meublent meublants
+21	9821	swing	swing swings
+22	9822	gabarit	gabarit gabarits
+23	9823	puma	puma pumas
+24	9824	ustensile	ustensiles ustensile
+25	9825	onzième	onzième onzièmes
+26	9826	épingler	épinglé épingler épingles épinglez épinglant épinglent
+27	9827	proscrire	proscrire proscrit proscrits proscrite proscrites proscrivant proscrivent
+28	9828	castiller	castille castilla
+29	9829	skate	skate skates
+30	9830	brousse	brousse brousses
+31	9831	dynamiter	dynamite dynamiter dynamité dynamites
+32	9832	angulaire	angulaire angulaires
+33	9833	cocotte	cocotte cocottes
+34	9834	imposteur	imposteur imposteurs
+35	9835	saler	sala saler salants salas salez sales salant salons salai salât
+36	9836	gémir	gémit gémir gémissant gémis gémissait gémissent gémi gémissez gémissaient
+37	9837	coiffe	coiffe coiffes
+38	9838	scruter	scruter scrute scruté scrutant scrutent scrutait scruta scrutaient scrutez
+39	9839	cuvette	cuvette cuvettes
+40	9840	escadre	escadre escadres
+41	9841	extravagant	extravagant extravagante extravagantes extravagants
+42	9842	occulter	occulter occulté occultes occultant occultent occulta occultait
+43	9843	futile	futile futiles
+44	9844	gouter	gouter gouté goute goutes goutez goutent
+45	9845	égarer	égare égarer égarent égarez égares égarant égarons égara égarait
+46	9846	grammatical	grammatical grammaticale grammaticales grammaticaux
+47	9847	bitume	bitume bitumes
+48	9848	valse	valse valses
+49	9849	reconvertir	reconverti reconvertir reconvertis reconvertit reconvertissent
+50	9850	safari	safari safaris
+51	9851	irrité	irrité irritée irrités irritées
+52	9852	import	import imports
+53	9853	nippon	nippon nippone nippons nippones nipponne
+54	9854	éclipser	éclipser éclipsé éclipses éclipsent éclipsant éclipsera éclipsa éclipsait
+55	9855	aboyer	aboie aboyer aboient aboyait aboyant aboyé aboies aboyaient
+56	9856	imperfection	imperfections imperfection
+57	9857	urinaire	urinaire urinaires
+58	9858	génome	génome génomes
+59	9859	imperméable	imperméable imperméables
+60	9860	submerger	submergé submerger submerge submergent submergeant submergea submergeait
+61	9861	alentour	alentour
+62	9862	artificiellement	artificiellement
+63	9863	bénévolat	bénévolat
+64	9864	ciao	ciao
+65	9865	confins	confins
+66	9866	dar	dar
+67	9867	faussement	faussement
+68	9868	graduellement	graduellement
+69	9869	libéralisation	libéralisation
+70	9870	persistance	persistance
+71	9871	sécession	sécession
+72	9872	unification	unification
+73	9873	slalom	slalom slaloms
+74	9874	soc	soc socs
+75	9875	viseur	viseur viseurs
+76	9876	bretelle	bretelles bretelle
+77	9877	superstition	superstition superstitions
+78	9878	véridique	véridique véridiques
+79	9879	redistribution	redistribution redistributions
+80	9880	escorter	escorté escorter escortent escortant escortait escortaient escortes escorta
+81	9881	tribut	tribut tributs
+82	9882	bocal	bocal bocaux
+83	9883	transiter	transiter transitent transite transité transitant transitaient transitions transitait
+84	9884	fraudeur	fraudeurs fraudeur fraudeuse
+85	9885	porche	porche porches
+86	9886	trempe	trempe trempes
+87	9887	carpe	carpe carpes
+88	9888	pincer	pincer pinces pincé pinçant pinçait pincent pincez pinça
+89	9889	rajeunir	rajeunir rajeunit rajeuni rajeunis rajeunissant rajeunissent rajeunissait
+90	9890	caisson	caisson caissons
+91	9891	prologue	prologue prologues
+92	9892	foret	foret forets
+93	9893	indemniser	indemniser indemnisé indemnise indemnisera
+94	9894	stipuler	stipulant stipulé stipulait stipulent stipuler stipulaient stipules
+95	9895	prêteur	prêteur prêteurs prêteuse
+96	9896	rossignol	rossignol rossignols
+97	9897	iceberg	iceberg icebergs
+98	9898	encombrant	encombrant encombrants encombrante encombrantes
+99	9899	ressaisir	ressaisir ressaisis ressaisi ressaisit ressaisissez ressaisissent ressaisisse
+100	9900	psychanalyste	psychanalyste psychanalystes

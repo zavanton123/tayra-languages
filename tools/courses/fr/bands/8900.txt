@@ -1,0 +1,100 @@
+1	8801	reformer	reforme reformer reformes reformé reforma reforment reformez reformera reformant
+2	8802	laborieux	laborieux laborieuse laborieuses
+3	8803	complaisance	complaisance complaisances
+4	8804	vil	vil vile vils viles
+5	8805	bienheureux	bienheureux bienheureuse bienheureuses
+6	8806	contrebande	contrebande
+7	8807	escrime	escrime
+8	8808	fax	fax
+9	8809	fraîchement	fraîchement
+10	8810	hilaire	hilaire
+11	8811	hospitalité	hospitalité
+12	8812	persévérance	persévérance
+13	8813	psychologiquement	psychologiquement
+14	8814	romantisme	romantisme
+15	8815	stabilisation	stabilisation
+16	8816	synopsis	synopsis
+17	8817	zut	zut
+18	8818	aquarelle	aquarelle aquarelles
+19	8819	floral	floral floraux florale florales
+20	8820	blouse	blouse blouses
+21	8821	rincer	rincer rince rincé rincez rincés rincée rincées rinces rincent
+22	8822	ventilateur	ventilateur ventilateurs
+23	8823	expatrié	expatriés expatrié expatriée expatriées
+24	8824	démesuré	démesuré démesurée démesurées démesurés
+25	8825	préhistorique	préhistorique préhistoriques
+26	8826	électromagnétique	électromagnétique électromagnétiques
+27	8827	bavarois	bavarois bavaroise bavaroises
+28	8828	agacer	agacé agacer agacent agaçait agacez agaçaient agaces
+29	8829	aisance	aisance aisances
+30	8830	déluge	déluge déluges
+31	8831	équipier	équipier équipiers équipière équipières
+32	8832	appréciable	appréciable appréciables
+33	8833	mono	mono monos
+34	8834	énumérer	énumère énumérer énuméré énumérant énumèrent énumérait
+35	8835	lombard	lombard lombards lombarde lombardes
+36	8836	promotionnel	promotionnelle promotionnel promotionnelles promotionnels
+37	8837	rechange	rechange rechanges
+38	8838	plénier	plénière plénières plénier
+39	8839	diagonale	diagonale diagonales
+40	8840	raquette	raquette raquettes
+41	8841	dégueu	dégueu dégeu dégueus
+42	8842	flow	flow flows
+43	8843	cake	cake cakes
+44	8844	tempo	tempo tempi tempos
+45	8845	galant	galant galante galantes galants
+46	8846	médiatisé	médiatisé médiatisée médiatisés médiatisées
+47	8847	jogging	jogging joggings
+48	8848	nigérian	nigérian nigériane nigérians nigérianes
+49	8849	intérimaire	intérimaire intérimaires
+50	8850	gourou	gourou gourous guru
+51	8851	capillaire	capillaire capillaires
+52	8852	approvisionner	approvisionner approvisionne approvisionné approvisionnent approvisionnant approvisionnait approvisionnaient
+53	8853	tribal	tribal tribales tribale tribaux
+54	8854	émotif	émotif émotive émotifs émotives
+55	8855	méfait	méfaits méfait
+56	8856	saturation	saturation saturations
+57	8857	tonalité	tonalité tonalités
+58	8858	saleté	saleté saletés
+59	8859	doublure	doublure doublures
+60	8860	exquis	exquis exquise exquises
+61	8861	débiteur	débiteur débiteurs débitrice
+62	8862	instructif	instructif instructive instructifs instructives
+63	8863	lézard	lézard lézards
+64	8864	gangster	gangster gangsters
+65	8865	pornographique	pornographique pornographiques
+66	8866	réfractaire	réfractaires réfractaire
+67	8867	charnière	charnière charnières
+68	8868	vigile	vigile vigiles
+69	8869	légalisation	légalisation légalisations
+70	8870	coloniser	colonisé coloniser colonise colonisent colonisant
+71	8871	insistance	insistance insistances
+72	8872	reverser	reverse reversé reverser reversent reversant reversera reversait reverses
+73	8873	majestueux	majestueux majestueuse majestueuses
+74	8874	tsar	tsar tsars tzar czar
+75	8875	orne	orne ornes
+76	8876	législature	législature législatures
+77	8877	enduit	enduit enduits enduite enduites
+78	8878	dénouement	dénouement dénouements
+79	8879	labrador	labrador labradors
+80	8880	exempt	exempt exempte exempts exemptes
+81	8881	occulte	occulte occultes
+82	8882	balnéaire	balnéaire balnéaires
+83	8883	résilier	résilier résilié résilie résilient résiliant
+84	8884	amnistie	amnistie amnisties
+85	8885	motte	motte mottes
+86	8886	rareté	rareté raretés
+87	8887	robotique	robotique robotiques
+88	8888	symphonique	symphonique symphoniques
+89	8889	itinérant	itinérant itinérants itinérante itinérantes
+90	8890	journalistique	journalistique journalistiques
+91	8891	insolent	insolent insolente insolents insolentes
+92	8892	tornade	tornade tornades
+93	8893	informaticien	informaticien informaticiens informaticienne
+94	8894	fichu	fichu fichue fichus fichues
+95	8895	broche	broche broches
+96	8896	cadran	cadran cadrans
+97	8897	turquoise	turquoise turquoises
+98	8898	oratoire	oratoire oratoires
+99	8899	décrypter	décrypter décrypte décrypté décryptée décryptent décryptés décryptées décryptant décryptez décryptait
+100	8900	tsunami	tsunami tsunamis

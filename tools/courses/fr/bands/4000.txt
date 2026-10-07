@@ -1,0 +1,100 @@
+1	3901	écologie	écologie
+2	3902	localiser	localiser localisé localisée localisés localisées localise localisez localisent localisant localisera
+3	3903	pertinent	pertinent pertinente pertinentes pertinents
+4	3904	successeur	successeur successeurs successeure
+5	3905	accessoire	accessoires accessoire
+6	3906	théorique	théorique théoriques
+7	3907	gendarme	gendarmes gendarme
+8	3908	caractériser	caractérise caractérisent caractériser caractérisant caractérisait caractérisaient caractérisera caractérisa caractériserait
+9	3909	métallique	métallique métalliques
+10	3910	particule	particules particule
+11	3911	mexicain	mexicain mexicains mexicaine mexicaines
+12	3912	danseur	danseurs danseuse danseur
+13	3913	séminaire	séminaire séminaires
+14	3914	vilain	vilaine vilain vilains vilaines
+15	3915	miel	miel miels
+16	3916	agressif	agressif agressive agressifs agressives
+17	3917	forestier	forestier forestière forestiers forestières
+18	3918	paraitre	parait paru paraitre paraissent paraissait parus paraitrait paraitra parut paraisse paraissaient paraissant parais paraitront paraissez parurent paraissais parût paraissons paraissiez
+19	3919	ruine	ruine ruines
+20	3920	psychologie	psychologie psychologies
+21	3921	paragraphe	paragraphe paragraphes
+22	3922	grandeur	grandeur grandeurs
+23	3923	nuance	nuances nuance
+24	3924	chirurgie	chirurgie chirurgies
+25	3925	pavillon	pavillon pavillons
+26	3926	choqué	choqué choquée choqués choquées
+27	3927	septième	septième septièmes
+28	3928	emprunt	emprunt emprunts
+29	3929	engendrer	engendre engendré engendrer engendrent engendrant engendra engendrera engendrerait engendrait engendreront engendrèrent engendraient engendreraient
+30	3930	circulaire	circulaire circulaires
+31	3931	pan	pan pans
+32	3932	bourré	bourré bourrée bourrés bourrées
+33	3933	irlandais	irlandais irlandaise irlandaises
+34	3934	vain	vain vaine vaines vains
+35	3935	acheteur	acheteur acheteurs acheteuse acheteuses
+36	3936	dérive	dérive dérives
+37	3937	trio	trio trios
+38	3938	noyer	noyer noyé noie noyers noient noyant noies noyait noya noyez noyaient noyèrent noiera noierai noyons noyais
+39	3939	carburant	carburant carburants
+40	3940	sculpture	sculpture sculptures
+41	3941	suffrage	suffrages suffrage
+42	3942	matinée	matinée matinées
+43	3943	absurde	absurde absurdes
+44	3944	courageux	courageux courageuse courageuses
+45	3945	aspirer	aspire aspirer aspirant aspirent aspiré aspirants aspirait aspirante aspirée aspirez aspirons aspirés aspirantes aspirées aspiraient aspires aspirais aspira aspirera
+46	3946	vœu	vœux vœu voeu
+47	3947	faillite	faillite faillites
+48	3948	offensive	offensive offensives
+49	3949	clôture	clôture clôtures
+50	3950	sensibilité	sensibilité sensibilités
+51	3951	gravité	gravité gravités
+52	3952	censure	censure censures
+53	3953	guider	guider guidé guides guidant guident guidera guida guidait guideront guidez guidons guidaient guiderait guiderai
+54	3954	hélas	hélas
+55	3955	quiconque	quiconque
+56	3956	rigoler	rigoler rigolé rigoles rigolez rigolant rigolent rigolait rigolais rigolera rigolaient rigola rigolerait rigolerais rigoleras rigolons rigolerai
+57	3957	maxime	maxime maximes
+58	3958	gâcher	gâcher gâche gâché gâchée gâchent gacher gâchées gâches gâchez gâchés gâchant gâchait gâchera gâcherait gâchons gâchiez
+59	3959	coincé	coincé coincée coincés coincées
+60	3960	cavalier	cavalier cavaliers cavalière cavalières
+61	3961	extra	extra extras
+62	3962	panier	panier paniers
+63	3963	ennui	ennui ennuis
+64	3964	éteindre	éteindre éteins éteignent éteignez éteindra éteignit éteigne éteignait éteignant éteindront éteignirent éteignaient éteindrait éteignons
+65	3965	interrompre	interrompre interrompu interrompt interrompent interrompant interrompit interrompe interromps interrompez interrompra interrompait interrompons interrompirent interrompaient
+66	3966	lady	lady ladies
+67	3967	rénovation	rénovation rénovations
+68	3968	rejet	rejet rejets
+69	3969	solitaire	solitaire solitaires
+70	3970	éclat	éclat éclats
+71	3971	négliger	négliger négligé néglige négligent négligée négligés négligeant négligées négligez négligents négligente négliges négligeait négligeons négligea négligera négligeaient négligentes négligerait
+72	3972	blé	blé blés
+73	3973	salade	salade salades
+74	3974	allocation	allocation allocations
+75	3975	maudit	maudit maudite maudits maudites
+76	3976	vieillir	vieillir vieilli vieillit vieillissant vieillis vieillissent vieillissante vieillie vieillissants vieillissantes vieillira vieillies vieillissons vieillissait vieillissez vieillisse vieillirons vieilliront vieillirez
+77	3977	allonger	allongé allonger allonge allongent allongeant allongea allonges allongez allongeait allongera allongeaient allongerait allongeais
+78	3978	label	label labels
+79	3979	indemnité	indemnité indemnités
+80	3980	vomir	vomir vomi vomit vomis vomissent vomissant vomissait vomisse vomie vomissez vomissaient vomissais
+81	3981	notice	notice notices
+82	3982	obéir	obéir obéit obéissant obéissent obéi obéis obéissez obéissante obéissait obéisse obéissants obéissaient obéira obéissons obéiront obéirai obéirait obéissais obéissantes obéirent obéirons
+83	3983	sentier	sentier sentiers
+84	3984	balancer	balancer balancé balancent balançant balancez balançait balances balançaient balancera balança balançais balancerai balancerait balancerais balanceront
+85	3985	grossesse	grossesse grossesses
+86	3986	communal	communal communale communales communaux
+87	3987	dessert	dessert desserts
+88	3988	élargir	élargir élargi élargit élargissant élargis élargissent élargira élargissait élargisse élargissez élargissons élargirait
+89	3989	noblesse	noblesse noblesses
+90	3990	copier	copier copié copies copiant copient copiez copiait copia copiaient copions copiais
+91	3991	organique	organique organiques
+92	3992	noyau	noyau noyaux
+93	3993	invention	invention inventions
+94	3994	frein	frein freins
+95	3995	talon	talons talon
+96	3996	présider	présidé préside présider présidait présidera présida présidant présidaient présides présidez présiderait
+97	3997	pharmacie	pharmacie pharmacies pharma
+98	3998	postal	postale postal postales postaux
+99	3999	bénévole	bénévoles bénévole béné
+100	4000	compenser	compenser compense compensé compensent compensant compensera compensait compenserait compenseront compenses compensaient compensez

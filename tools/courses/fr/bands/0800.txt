@@ -1,0 +1,100 @@
+1	701	parfait	parfait parfaite parfaits parfaites
+2	702	quartier	quartier quartiers
+3	703	profiter	profiter profite profité profitez profitent profitant profites profitons profitera profitait profita profiteront profitaient profiterait profiterai profitais profiteraient profitèrent profiterais profiterons profiterez profitiez profiteras profitions profitai
+4	704	entrer	entrer entré entrent entrant entrez entra entres entrera entrait entrons entrants entreront entraient entrèrent entrerait entrais entrerai entrerons entrerez entreraient entrante entrai entrantes entrions entriez entraits entreras entrerais entrâmes
+5	705	sœur	sœur soeur sœurs
+6	706	commission	commission commissions
+7	707	réalité	réalité réalités
+8	708	fermer	fermer fermé fermée fermés fermées ferment fermez fermes fermant ferma fermait fermera fermons fermaient ferments fermeront fermais fermerait fermerai fermerais fermèrent fermions fermeraient fermai fermiez fermerez fermerons fermeras fermante
+9	709	vente	vente ventes
+10	710	contrat	contrat contrats
+11	711	raconter	raconte raconter raconté racontent racontes racontait racontant racontez racontera raconterai raconta racontais racontaient raconterais raconteras raconterez racontons raconteront raconterait racontèrent raconterons racontai racontiez racontions raconteraient
+12	712	terrain	terrain terrains
+13	713	voyage	voyage voyages
+14	714	nature	nature natures
+15	715	succès	succès
+16	716	soirée	soirée soirées
+17	717	entendu	entendu entendue entendus entendues
+18	718	partager	partager partagé partagent partagée partagés partagez partageant partagées partageons partageait partages partageaient partagera partageront partageais partagea partagerai partagerons partagerait partagions partagerais partagèrent partagerez partageraient partagiez partageras
+19	719	responsable	responsable responsables
+20	720	futur	futur future futurs futures
+21	721	acte	acte actes
+22	722	louis	louis
+23	723	simplement	simplement
+24	724	travers	travers
+25	725	code	code codes
+26	726	tenter	tenter tenté tentent tentant tentait tentes tenta tentez tentera tentaient tentons tenterait tenteront tentèrent tenterai tentais tenterons tentante tenterais tenteraient tentions tentai tentiez tenterez tentantes tentants
+27	727	presse	presse presses
+28	728	sol	sol sols
+29	729	médecin	médecin médecins
+30	730	établir	établir établi établie établit établis établies établissant établissent établissait établira établirent établisse établissez établissons établirait établiront établissaient établirons établirai établiraient établirez
+31	731	conseiller	conseiller conseillers conseille conseillé conseillère conseillent conseillez conseillée conseilles conseillés conseillerais conseillons conseillant conseillait conseillerai conseilla conseillées conseillera conseilleriez conseillaient conseillerait conseillais conseilleront conseillerez conseillèrent conseillerons
+32	732	principe	principe principes
+33	733	présence	présence présences
+34	734	départ	départ départs
+35	735	version	version versions
+36	736	faute	faute fautes
+37	737	fête	fête fêtes
+38	738	vérité	vérité vérités verité
+39	739	défendre	défendre défend défendu défendent défendue défendant défends défendait défendus défendues défendez défendons défendra défende defendre défendaient défendit défendrai défendais défendrait défendront défendrons défendrais defendu défendiez défendirent défendraient défendions défendes défendrez
+40	740	fou	fou folle folles fol foux fols
+41	741	dimanche	dimanche dimanches
+42	742	divers	divers diverses diverse
+43	743	téléphone	téléphone téléphones
+44	744	bientôt	bientôt
+45	745	élevé	élevé élevée élevés élevées
+46	746	grave	grave graves
+47	747	terminer	terminé termine terminer terminant terminent terminera termina terminait terminez terminons terminerai termines terminaient termineront terminerait terminèrent terminerons terminais terminerais terminerez terminions
+48	748	lancer	lancer lancé lancent lançant lança lancez lançait lancers lances lancera lançons lançaient lancèrent lançais lancerai lanceront lancerait lancerons lancerais lançai lancerez lanceraient lancions
+49	749	paraître	paraît paru paraître paraissent paraissait parus parut paraisse paraîtra paraîtrait paraissaient paraissant parais paraissez parurent paraîtront paraissais paraîtraient parût paraissons paraissiez
+50	750	territoire	territoire territoires
+51	751	chien	chien chiens chienne chiennes
+52	752	député	député députés députée députées
+53	753	course	course courses
+54	754	énergie	énergie énergies
+55	755	spécial	spécial spéciale spéciales spéciaux
+56	756	frais	frais fraîche fraîches fraiche fraiches
+57	757	secret	secret secrets secrète secrètes
+58	758	artiste	artiste artistes
+59	759	bande	bande bandes
+60	760	con	con cons conne connes
+61	761	construction	construction constructions
+62	762	pauvre	pauvre pauvres pauvresse
+63	763	chanson	chanson chansons
+64	764	bord	bord bords bort
+65	765	attaque	attaque attaques
+66	766	physique	physique physiques
+67	767	civil	civile civil civils civiles
+68	768	soleil	soleil soleils
+69	769	professeur	professeur professeurs pr professeure professeures
+70	770	administration	administration administrations
+71	771	coucher	coucher couche couches couché couchée couchant couchés couchent couchez couchait couchers couchées couchais coucherai couchera coucha couchaient coucherais couchons coucherait coucheras coucheront couchants couchions coucherez
+72	772	vol	vol vols
+73	773	édition	édition éditions
+74	774	personnage	personnage personnages
+75	775	augmenter	augmenter augmente augmenté augmentent augmentant augmentera augmentait augmenterait augmentez augmenta augmenteront augmentaient augmenteraient augmentons augmentèrent augmentes augmenterai augmenterons augmenterez
+76	776	préférer	préfère préfèrent préfères préférez préférer préférant préférait préférerais préférais préfèrerais préférerait préférons préféraient préféra préférera préféreraient préféreront préférerai préfériez préfèrerait préfèrera préfèrerai préfèreraient préféreriez préfèreront préférèrent préférai préférerions préférerez préférions
+77	777	honneur	honneur honneurs
+78	778	officiel	officiel officielle officiels officielles
+79	779	prévu	prévu prévue prévues prévus
+80	780	accès	accès
+81	781	puisque	puisque
+82	782	taux	taux
+83	783	maladie	maladie maladies
+84	784	île	île îles isle
+85	785	bleu	bleu bleus bleue bleues rvb
+86	786	rire	rire rires ri rit ris riant rie rient riez riait ries rira riaient rions riais rirait riante riront rirais rirez riras rirai riantes rirons rirent risse
+87	787	remplacer	remplacer remplacé remplace remplaçant remplacés remplacée remplacent remplacées remplacera remplaçants remplaçante remplacez remplaça remplaçait remplaces remplacerait remplaceront remplaçons remplacerai remplacèrent remplaçaient remplaçantes remplacerais remplaçais remplaceraient remplacerons
+88	788	mener	mener mène mené mènent menant menait mènera mena menez menaient mènerait menons mèneront mènes menèrent menais mèneraient mènerons menions mènerai menai mènerez meniez mènerais
+89	789	double	double doubles
+90	790	lumière	lumière lumières
+91	791	hôtel	hôtel hôtels
+92	792	faible	faible faibles
+93	793	déclarer	déclaré déclare déclarer déclarant déclarent déclarait déclara déclarez déclarera déclaraient déclarons declarer déclarèrent déclares déclareront déclarerait déclarais déclarerai déclariez déclareraient
+94	794	bras	bras
+95	795	ex	ex
+96	796	finalement	finalement
+97	797	neuf	neuf neuve neufs neuves
+98	798	vert	vert verts verte vertes verd rvb
+99	799	style	style styles
+100	800	direct	direct directe directs directes

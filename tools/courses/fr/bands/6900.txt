@@ -1,0 +1,100 @@
+1	6801	ouragan	ouragan ouragans
+2	6802	haricot	haricots haricot
+3	6803	pli	plis pli
+4	6804	diabète	diabète diabètes
+5	6805	destructeur	destructeur destructrice destructeurs destructrices
+6	6806	buffet	buffet buffets
+7	6807	remerciement	remerciements remerciement
+8	6808	revêtir	revêt revêtir revêtent revêtant revêtait revêtira revêtit revête revêtaient revêtez revêts revêtiront
+9	6809	musclé	musclé musclés musclée musclées
+10	6810	praticien	praticiens praticien praticienne
+11	6811	antibiotique	antibiotiques antibiotique
+12	6812	colombe	colombe colombes
+13	6813	fantasy	fantasy fantasie
+14	6814	négligence	négligence négligences
+15	6815	panorama	panorama panoramas
+16	6816	narratif	narrative narratif narratifs narratives
+17	6817	égaler	égaler égale égalé égales égalant égalent égalera égalait égalerait
+18	6818	ballade	ballade ballades
+19	6819	acquéreur	acquéreur acquéreurs
+20	6820	interminable	interminable interminables
+21	6821	jihadiste	djihadiste jihadistes jihadiste
+22	6822	résurrection	résurrection résurrections
+23	6823	serrure	serrure serrures
+24	6824	millionnaire	millionnaire millionnaires
+25	6825	baignoire	baignoire baignoires
+26	6826	coquin	coquin coquins coquines
+27	6827	planétaire	planétaire planétaires
+28	6828	révélateur	révélateur révélatrice révélateurs révélatrices
+29	6829	continuation	continuation continuations
+30	6830	brèche	brèche brèches
+31	6831	formulation	formulation formulations
+32	6832	accession	accession accessions
+33	6833	contamination	contamination contaminations
+34	6834	gazon	gazon gazons
+35	6835	prédit	prédit prédite prédites prédits
+36	6836	luxembourgeois	luxembourgeois luxembourgeoise luxembourgeoises
+37	6837	souscription	souscription souscriptions
+38	6838	redouter	redouté redouter redoutent redoutant redoutait redoutaient redoutais redoutez redoutons redoutions redoutes
+39	6839	structuré	structuré structurée structurés structurées
+40	6840	dévoué	dévoué dévouée dévoués dévouées
+41	6841	actu	actu actus
+42	6842	dogme	dogme dogmes
+43	6843	brochure	brochure brochures
+44	6844	géométrique	géométrique géométriques
+45	6845	thriller	thriller thrillers
+46	6846	faubourg	faubourg faubourgs
+47	6847	restituer	restituer restitue restitué restituent restituant restituera restitua restituez
+48	6848	contraction	contraction contractions
+49	6849	divertir	divertir divertissant divertissante diverti divertit divertissants divertis divertissent divertissantes divertissez divertisse divertira divertissait
+50	6850	sophistiqué	sophistiqué sophistiqués sophistiquée sophistiquées
+51	6851	pastoral	pastorale pastoral pastorales pastoraux
+52	6852	précarité	précarité précarités
+53	6853	stupéfiant	stupéfiants stupéfiant stupéfiante stupéfiantes
+54	6854	égout	égouts égout
+55	6855	ardent	ardent ardente ardents ardentes
+56	6856	octroyer	octroyer octroie octroyé octroyant octroient octroyait octroya octroyez octroiera octroyons
+57	6857	triompher	triompher triomphé triomphant triomphante triomphent triomphera triomphants triompha triomphait triomphes triompheront triomphez triomphantes triomphaient triompherons
+58	6858	bb	bb bbs
+59	6859	haineux	haineux haineuse haineuses
+60	6860	tabasser	tabasser tabassé tabasse tabassent tabasses tabassait tabassant
+61	6861	involontaire	involontaire involontaires
+62	6862	mortier	mortier mortiers
+63	6863	tuile	tuiles tuile
+64	6864	révolter	révolté révolter révoltant révoltent révoltante révoltèrent révoltes révoltantes révolta révoltants révoltez révoltait révolteront révoltaient révoltera révoltons révolteraient
+65	6865	projecteur	projecteurs projecteur
+66	6866	redressement	redressement redressements
+67	6867	parité	parité parités
+68	6868	trilogie	trilogie trilogies
+69	6869	sacre	sacre sacres
+70	6870	mécontent	mécontents mécontent mécontente mécontentes
+71	6871	vacant	vacants vacant vacante vacantes
+72	6872	rebond	rebond rebonds rb
+73	6873	accessibilité	accessibilité
+74	6874	autisme	autisme
+75	6875	cursus	cursus
+76	6876	fournier	fournier
+77	6877	gastronomie	gastronomie
+78	6878	moïse	moïse
+79	6879	quelquefois	quelquefois
+80	6880	sic	sic
+81	6881	vieillissement	vieillissement
+82	6882	semence	semences semence
+83	6883	cosmétique	cosmétiques cosmétique
+84	6884	généraliser	généraliser généralise généralisant généralisent généralisera généralisa généralises généralisons généralisez
+85	6885	politesse	politesse politesses
+86	6886	raffiné	raffiné raffinée raffinés raffinées
+87	6887	check	check checks
+88	6888	radioactif	radioactifs radioactif radioactive radioactives
+89	6889	principauté	principauté principautés
+90	6890	coïncider	coïncide coïncident coïncider coïncidé coïncidant coïncidait coïncidera coïncidaient coïncida coïnciderait coïncideront
+91	6891	élévation	élévation élévations
+92	6892	ennuyeux	ennuyeux ennuyeuse ennuyeuses
+93	6893	théorème	théorème théorèmes
+94	6894	désespérer	désespère désespérer désespérant désespérante désespèrent désespérez désespérait désespérais désespérants désespérantes désespérons désespéraient désespères
+95	6895	immersion	immersion immersions
+96	6896	cégep	cégep cégeps
+97	6897	réconforter	réconforter réconfortant réconforte réconfortante réconforté réconfortants réconfortantes réconfortent réconfortait réconfortez réconfortera
+98	6898	frit	frites frit frits
+99	6899	croûte	croûte croûtes
+100	6900	saturé	saturé saturés saturée saturées

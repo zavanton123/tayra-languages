@@ -1,0 +1,100 @@
+1	4601	doubler	doubler doublons doublant doubles doublent doublait doublera doublez doubla doublerait doublaient doubleront
+2	4602	adhérent	adhérents adhérent adhérentes adhérente
+3	4603	bye	bye
+4	4604	ho	ho
+5	4605	simplicité	simplicité
+6	4606	exil	exil exils
+7	4607	nid	nid nids
+8	4608	module	module modules
+9	4609	presser	presser pressent pressant pressante pressez pressions pressait pressants pressantes pressaient presses pressa pressons pressèrent presseront pressera pressais
+10	4610	marathon	marathon marathons
+11	4611	fosse	fosse fosses
+12	4612	simplifier	simplifier simplifié simplifie simplifiant simplifient simplifierait simplifiera simplifiez simplifions simplifiait simplifia
+13	4613	confédération	confédération confédérations
+14	4614	firme	firme firmes
+15	4615	fossile	fossiles fossile
+16	4616	mile	miles mile
+17	4617	aluminium	aluminium alu
+18	4618	motion	motion motions
+19	4619	écossais	écossais écossaise ecossais écossaises
+20	4620	éolien	éolien éoliennes éolienne éoliens
+21	4621	meeting	meeting meetings
+22	4622	souche	souche souches
+23	4623	fée	fée fées
+24	4624	coéquipier	coéquipier coéquipiers coéquipière coéquipières
+25	4625	interlocuteur	interlocuteur interlocuteurs interlocutrice interlocutrices
+26	4626	estomac	estomac estomacs
+27	4627	laine	laine laines
+28	4628	camping	camping campings
+29	4629	inconvénient	inconvénients inconvénient
+30	4630	créatif	créatif créative créatifs créatives
+31	4631	défier	défier défie défiant défié défient défiez défiait défiera défia défiants défiaient défions défieront défies défiante
+32	4632	cocktail	cocktail cocktails
+33	4633	impulsion	impulsion impulsions
+34	4634	cuisiner	cuisiner cuisiné cuisines cuisinent cuisinez cuisinait cuisinant cuisinons cuisinaient cuisinais cuisinera
+35	4635	contredire	contredit contredire contredisent contredis contredisant contredise contredira contredisait contredirait contredisez contredisaient
+36	4636	valide	valide valides
+37	4637	approvisionnement	approvisionnement approvisionnements
+38	4638	volée	volée volées
+39	4639	flamand	flamand flamands flamande flamandes
+40	4640	foncer	fonce foncer foncez foncent fonçant fonçait fonces fonça fonçaient fonçons
+41	4641	accentuer	accentuer accentue accentué accentuée accentuent accentuant accentuées accentués accentuait accentuera accentua accentuaient accentuez accentuerait accentueront
+42	4642	coude	coude coudes
+43	4643	prédécesseur	prédécesseur prédécesseurs prédécesseure
+44	4644	académique	académique académiques
+45	4645	apparaitre	apparait apparaitre apparaissent apparu apparus apparaissait apparaitra apparut apparaissant apparaisse apparaitront apparaissaient apparurent apparaitrait apparais apparaissez apparût apparaissais
+46	4646	autel	autel autels
+47	4647	célébration	célébration célébrations
+48	4648	hybride	hybride hybrides
+49	4649	coordonnées	coordonnées
+50	4650	idem	idem
+51	4651	trans	trans
+52	4652	treize	treize
+53	4653	natif	natif native natifs natives
+54	4654	hériter	hérité hérite hériter héritent héritera hérita héritant héritait hériteront hériterait héritons héritèrent héritaient hérites héritez
+55	4655	orthographe	orthographe orthographes orthographie
+56	4656	surnom	surnom surnoms
+57	4657	diocèse	diocèse diocèses
+58	4658	migration	migration migrations
+59	4659	élémentaire	élémentaire élémentaires
+60	4660	marée	marée marées
+61	4661	meuf	meuf meufs
+62	4662	fa	fa fas
+63	4663	blindé	blindé blindés blindée blindées
+64	4664	soie	soie soies
+65	4665	propager	propager propage propagent propagé propagée propageant propagées propagés propagea propageait propagera propageaient propagerait propagèrent propageront propagez
+66	4666	étaler	étaler étale étalé étalent étalant étalons étalait étales étalez étalera étala étalaient étaleront
+67	4667	logistique	logistique logistiques
+68	4668	subsister	subsiste subsistent subsister subsistant subsisté subsistait subsistera subsistaient subsista subsistante subsistantes subsistants subsisteront subsisterait subsistèrent
+69	4669	muet	muet muette muets muettes
+70	4670	rotation	rotation rotations
+71	4671	affaiblir	affaiblir affaibli affaiblit affaiblis affaiblissent affaiblissant affaiblirait affaiblira affaiblissait affaiblisse affaiblirent
+72	4672	homo	homo homos
+73	4673	frigo	frigo frigos
+74	4674	défunt	défunt défunte défunts défuntes
+75	4675	allusion	allusion allusions
+76	4676	cendre	cendres cendre
+77	4677	différencier	différencier différencie différencient différenciée différencié différenciés différenciées différenciant différenciait différentier différenciaient différenciez
+78	4678	embauche	embauche embauches
+79	4679	évacuation	évacuation évacuations
+80	4680	plaie	plaie plaies
+81	4681	syndrome	syndrome syndromes
+82	4682	documentation	documentation documentations
+83	4683	gel	gel gels
+84	4684	cure	cure cures
+85	4685	virage	virage virages
+86	4686	ukrainien	ukrainien ukrainienne ukrainiens ukrainiennes
+87	4687	stationnement	stationnement stationnements
+88	4688	groupement	groupement groupements
+89	4689	gazer	gaza gazer gazé gazés gazée gazent gazes gazons
+90	4690	excité	excité excitée excités excitées
+91	4691	humilier	humilier humilié humiliant humiliante humilie humiliantes humiliants humilient humiliait humiliez humilies humilia
+92	4692	pervers	pervers perverse perverses
+93	4693	tri	tri tris
+94	4694	insérer	insérer inséré insère insérez insérant insèrent insérait inséra insères insérera
+95	4695	couvent	couvent couvents
+96	4696	vulgaire	vulgaire vulgaires
+97	4697	magnétique	magnétique magnétiques
+98	4698	développeur	développeurs développeur développeuse développeuses
+99	4699	catalan	catalan catalans catalane catalanes
+100	4700	arbitrage	arbitrage arbitrages

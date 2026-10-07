@@ -1,0 +1,100 @@
+1	4101	devise	devise devises
+2	4102	légion	légion légions
+3	4103	identification	identification identifications
+4	4104	guinée	guinée guinées
+5	4105	ferroviaire	ferroviaire ferroviaires
+6	4106	bêtise	bêtise bêtises
+7	4107	sourd	sourd sourds sourde sourdes
+8	4108	détention	détention détentions
+9	4109	défoncer	défoncer défoncé défonce défoncée défoncés défoncent défoncées défonces défonçant défoncez défonçait
+10	4110	raser	raser rasé rasée rase rasés rasant rasées rasent rasa rasez rasante rasait rases rasera rasais rasaient rasons
+11	4111	agglomération	agglomération agglomérations
+12	4112	passeport	passeport passeports
+13	4113	gène	gène gènes
+14	4114	représentatif	représentatif représentative représentatifs représentatives
+15	4115	hostile	hostile hostiles
+16	4116	mutation	mutation mutations
+17	4117	éditer	édité éditer édite éditions éditant éditent édita éditait éditera éditons
+18	4118	respectif	respectifs respectives respectif respective
+19	4119	loger	loger logé loges logent logeait logeant logeaient logez logera logea logeais logerez logeront logeons logions logèrent logerait
+20	4120	étouffer	étouffer étouffe étouffé étouffant étouffante étouffent étouffait étouffez étouffes étouffantes étouffais étouffera étouffa étouffaient étouffants étoufferait étouffons
+21	4121	alentours	alentours
+22	4122	librement	librement
+23	4123	pari	pari
+24	4124	explosif	explosifs explosif explosive explosives
+25	4125	absorber	absorber absorbé absorbe absorbant absorbent absorbante absorbants absorbera absorba absorbantes absorbait absorbaient absorberait absorberont absorbons absorbez
+26	4126	exploit	exploit exploits
+27	4127	angoisse	angoisse angoisses
+28	4128	applicable	applicable applicables
+29	4129	protecteur	protecteur protectrice protecteurs protectrices
+30	4130	cruel	cruel cruelle cruels cruelles
+31	4131	passif	passif passive passifs passives
+32	4132	aiguille	aiguille aiguilles
+33	4133	radar	radar radars
+34	4134	notable	notable notables
+35	4135	violation	violation violations
+36	4136	choquer	choque choquer choquent choquait choquerait choquera choques choqua choquez
+37	4137	détermination	détermination déterminations
+38	4138	attraction	attraction attractions
+39	4139	flou	flou floue floues flous
+40	4140	épargner	épargner épargné épargnants épargnant épargnent épargnez épargnera épargnes épargnerait épargna épargnerai épargneront épargnait épargnons épargneraient épargnerons épargnerez épargnèrent épargnaient
+41	4141	colonisation	colonisation colonisations
+42	4142	pacte	pacte pactes
+43	4143	berger	berger bergers bergère bergères
+44	4144	compatible	compatible compatibles
+45	4145	manipulation	manipulation manipulations
+46	4146	interaction	interaction interactions
+47	4147	confortable	confortable confortables
+48	4148	éducatif	éducatif éducative éducatifs éducatives
+49	4149	observatoire	observatoire observatoires
+50	4150	fouiller	fouiller fouilles fouillé fouillant fouillent fouillait fouillez fouilla fouillaient fouillais fouillera
+51	4151	renouvellement	renouvellement renouvellements
+52	4152	set	set sets
+53	4153	foncé	foncé foncée foncés foncées
+54	4154	tailler	tailler taillé taillée taillés taillées taillent tailles taillant taillez taillait tailla taillaient taillera taillons
+55	4155	livret	livret livrets
+56	4156	cérébral	cérébrale cérébral cérébrales cérébraux
+57	4157	banquier	banquier banquiers banquière
+58	4158	confronter	confronté confronter confronte confrontant confrontent confrontait confrontera confrontes confrontez confronta confrontons
+59	4159	bœuf	bœuf boeuf bœufs
+60	4160	insuffisant	insuffisant insuffisante insuffisantes insuffisants
+61	4161	rituel	rituel rituels rituelle rituelles
+62	4162	masquer	masquer masqué masqués masques masquée masquent masquant masquées masquait masquez masquaient masquera masquerait
+63	4163	manipuler	manipuler manipulé manipule manipulent manipulant manipules manipulait manipulez manipulaient manipula
+64	4164	illustré	illustré illustrée illustrés illustrées
+65	4165	ménager	ménager ménagères ménagers ménages ménagère ménagé ménageant ménagent ménagez ménagera ménageait
+66	4166	deuil	deuil deuils
+67	4167	carnet	carnet carnets
+68	4168	thermique	thermique thermiques
+69	4169	cuivre	cuivre cuivres
+70	4170	déborder	déborde déborder débordé débordant débordent débordés débordante débordée débordait débordées débordantes débordaient débordants débordera débordez déborda
+71	4171	chômeur	chômeurs chômeur chômeuse chômeuses
+72	4172	gaffe	gaffe gaffes
+73	4173	référer	réfère référer référé référant réfèrent référait référez référons référaient référera réfères
+74	4174	osé	osé osée osées osés
+75	4175	recouvert	recouvert recouverte recouverts recouvertes
+76	4176	autochtone	autochtones autochtone
+77	4177	chirurgien	chirurgien chirurgiens chirurgienne
+78	4178	chaos	chaos
+79	4179	house	house
+80	4180	ré	ré
+81	4181	timide	timide timides
+82	4182	tragique	tragique tragiques
+83	4183	réservoir	réservoir réservoirs
+84	4184	fluide	fluide fluides
+85	4185	retraité	retraités retraité retraitée retraitées
+86	4186	mater	mater matter mata mate maté matez mates matant matent matons matée matera matait matas matais matés
+87	4187	juridiction	juridiction juridictions
+88	4188	céréale	céréales céréale
+89	4189	testament	testament testaments
+90	4190	engin	engin engins
+91	4191	buteur	buteur buteurs buteuse buteuses
+92	4192	exploration	exploration explorations
+93	4193	taf	taf taff
+94	4194	défilé	défilé défilés défilée
+95	4195	hélicoptère	hélicoptère hélicoptères
+96	4196	philosophique	philosophique philosophiques
+97	4197	solliciter	sollicité solliciter sollicite sollicitent sollicitant sollicitait sollicita sollicitons sollicitera sollicitaient sollicitez solliciterait sollicitèrent solliciteront
+98	4198	vérification	vérification vérifications
+99	4199	budgétaire	budgétaire budgétaires
+100	4200	puce	puce puces

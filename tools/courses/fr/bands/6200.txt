@@ -1,0 +1,100 @@
+1	6101	rouvrir	rouvrir rouvert rouvre rouverte roure rouvrent rouvrira rouvrit rouvertes rouvres rouverts rouvrant rouvriront rouvrez rouvrait rouvrirait
+2	6102	berceau	berceau berceaux
+3	6103	périphérie	périphérie périphéries
+4	6104	border	borde border bordent bordant bordes bordas borda bordait bordaient
+5	6105	nickel	nickel nickels
+6	6106	consoler	consoler consoles consolé consolera consolent consolez consolait consolant consolante consola consoleront consolerait consolerai consolais
+7	6107	convergence	convergence convergences
+8	6108	pluriel	pluriel plurielle pluriels plurielles
+9	6109	mâchoire	mâchoire mâchoires
+10	6110	gratter	gratter gratté grattant grattent grattez grattait grattes gratta grattons grattaient grattais
+11	6111	hebdo	hebdo hebdos
+12	6112	scooter	scooter scooters
+13	6113	distant	distant distante distants distantes
+14	6114	consulat	consulat consulats
+15	6115	sécuriser	sécuriser sécurise sécurisant sécurisez sécurisent sécurisante sécurisons
+16	6116	fourchette	fourchette fourchettes
+17	6117	dôme	dôme dômes
+18	6118	apte	apte aptes
+19	6119	notification	notification notifications
+20	6120	griffe	griffes griffe
+21	6121	démolir	démolir démoli démolis démolit démolissent démolissant démolissait
+22	6122	enfiler	enfiler enfile enfilé enfilez enfilant enfilent enfila enfilait enfiles enfilais enfilons
+23	6123	messager	messager messagers messagère
+24	6124	végétarien	végétarien végétariens végétarienne végétariennes
+25	6125	maçon	maçon maçons maçonne
+26	6126	démarrage	démarrage démarrages
+27	6127	béni	béni bénie bénis bénies
+28	6128	afro	afro afros
+29	6129	enthousiaste	enthousiaste enthousiastes
+30	6130	hormone	hormones hormone
+31	6131	ajustement	ajustement ajustements
+32	6132	chalet	chalet chalets
+33	6133	verdict	verdict verdicts
+34	6134	transporteur	transporteur transporteurs transporteuse transporteuses
+35	6135	indifférent	indifférent indifférents indifférente indifférentes
+36	6136	palier	palier paliers palières
+37	6137	garnison	garnison garnisons
+38	6138	marqueur	marqueur marqueurs
+39	6139	vitamine	vitamine vitamines
+40	6140	disperser	disperser dispersé disperse dispersent dispersant dispersa dispersèrent dispersez dispersera dispersait dispersions dispersaient disperseront
+41	6141	instantané	instantané instantanée instantanées instantanés
+42	6142	casier	casier casiers
+43	6143	collision	collision collisions
+44	6144	recyclage	recyclage recyclages
+45	6145	puy	puy puys
+46	6146	bot	bot bots bote botes
+47	6147	désastreux	désastreux désastreuse désastreuses
+48	6148	humiliation	humiliation humiliations
+49	6149	acoustique	acoustique acoustiques
+50	6150	caserne	caserne casernes
+51	6151	crèche	crèche crèches
+52	6152	immortel	immortel immortels immortelle immortelles
+53	6153	modem	modem modems
+54	6154	inhabituel	inhabituel inhabituelle inhabituelles inhabituels
+55	6155	bonté	bonté bontés
+56	6156	consolider	consolider consolidé consolide consolidant consolident consolida consolidera consolidait consolidez
+57	6157	libraire	libraire libraires
+58	6158	trier	trier trie trias trié trient tries tria triez triant triait
+59	6159	exclusivité	exclusivité exclusivités
+60	6160	salir	salir sali salis salit salissant salissent salissez salisse salissante salissait salissantes salira
+61	6161	entame	entame entames
+62	6162	arche	arche arches
+63	6163	argile	argile argiles
+64	6164	congrégation	congrégation congrégations
+65	6165	séisme	séisme séismes
+66	6166	perturbation	perturbations perturbation
+67	6167	longer	longe longeant longer longent longé longeait longerons longes longez longeons longera longeaient longea
+68	6168	famine	famine famines
+69	6169	scanner	scanner scanners scanne scanné scannent scannant scannez scannes
+70	6170	gymnastique	gymnastique gym gymnastiques
+71	6171	dance	dance
+72	6172	formellement	formellement
+73	6173	iris	iris
+74	6174	maxi	maxi
+75	6175	mdr	mdr
+76	6176	premièrement	premièrement
+77	6177	soulagement	soulagement
+78	6178	télécommunications	télécommunications
+79	6179	validité	validité
+80	6180	vibration	vibrations vibration
+81	6181	émetteur	émetteur émetteurs émettrice émettrices
+82	6182	saumon	saumon saumons
+83	6183	rigolo	rigolo rigolos rigolote rigolotes
+84	6184	bander	bander bandés banda bandé bandes bandai bandante bandant banderas bandera bandent bandée bandez bandait bandas bandais bandantes
+85	6185	tronc	tronc troncs
+86	6186	inexistant	inexistant inexistante inexistants inexistantes
+87	6187	multinationale	multinationales multinationale
+88	6188	pronostic	pronostic pronostics
+89	6189	escroc	escroc escrocs
+90	6190	audace	audace audaces
+91	6191	souper	souper soupers soupé soupes soupa soupait
+92	6192	impressionner	impressionner impressionne impressionnent impressionnait impressionnera impressionna impressionnes impressionnez impressionnaient
+93	6193	machin	machin machins
+94	6194	minimiser	minimiser minimise minimisant minimisé minimisent minimisez minimisait
+95	6195	moustache	moustache moustaches
+96	6196	vicieux	vicieux vicieuse vicieuses
+97	6197	rigide	rigide rigides
+98	6198	spécimen	spécimens spécimen
+99	6199	miniature	miniature miniatures
+100	6200	botanique	botanique botaniques

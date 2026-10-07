@@ -1,0 +1,100 @@
+1	1	le	la le l les
+2	2	de	de d des du dudit desdits desdites
+3	3	être	est sont être était été suis soit es sera serait étaient fut étais êtes sommes étant seront soient etre seraient serais furent sois serai soyez étions êtres serez seras soyons étiez serons fût seriez serions étés fus fûts fussent estre
+4	4	à	à au aux
+5	5	un	un une des uns unes eine vne
+6	6	et	et
+7	7	ce	c ce cette ces cet c't cettes
+8	8	que	que qu qué
+9	9	en	en ès
+10	10	je	je j j'suis ie yé chui ej j'pas
+11	11	il	il ils ilz eulx
+12	12	avoir	ai ont avoir avait as eu avais aurait avons avez aura avaient ayant ait aurais auraient auront avions aurai aient eut aurez auras aie ayez aurons aviez auriez aurions eurent aies ayons eût eus avoirs ayants avoit eussent eusse eûmes
+13	13	pas	pas
+14	14	pour	pour
+15	15	ne	ne n
+16	16	dans	dans
+17	17	qui	qui quis quy
+18	18	se	se s
+19	19	son	son sa ses sons
+20	20	faire	fait faire fais font faites faisait faisant faits fera faite fasse ferait fit feront faisaient faisons ferais faisais ferai fassent feraient ferons feras firent ferez fasses fis feriez fassiez faisions faisiez ferions fassions fît faict fîmes faicte faisez fissions fissent
+21	21	sur	sur sure sour surs sures su'l
+22	22	par	par pars
+23	23	tout	tout tous toute toutes touts toutte
+24	24	on	on
+25	25	plus	plus
+26	26	avec	avec ac ak
+27	27	mais	mais
+28	28	pouvoir	peut peux pouvoir peuvent pu pourrait pouvez pourra pouvait puisse pourraient pourrais pouvons pouvoirs pourront pouvant pouvais puissent pouvaient pourrez pourras pourrai pourriez put pourrions pourrons puissions puissiez pus puisses pouvions pouviez purent pût pussent pouvoit pûmes pussiez
+29	29	me	me m
+30	30	ça	ça ca
+31	31	vous	vous
+32	32	elle	elle elles
+33	33	mon	mon ma mes
+34	34	tu	tu tues tus
+35	35	y	y
+36	36	ou	ou
+37	37	si	si
+38	38	te	t te
+39	39	aller	va aller vais vont allez vas allait allons allé allais allant ira aille allaient irai irais irait iront alla aillent iras irons allions allers alliez irez ailles iraient allèrent allai iriez irions allâmes allas allants allât
+40	40	dire	dit dire dis disent dirait disait dites disant dirais disais dite disons dise dira dirai dits disaient diront diras dires direz dises dîtes diraient dirons diriez disiez dirent dîmes disions disante dict dirions disants dissent disez disantes disse dît dient
+41	41	nous	nous
+42	42	voir	voir vu vois vue voit voie vis vit voyez verra voies voient voyons vues voyant voyait vus verras verrez voyais verront verrons verrais verrait verrai voyaient virent voyante voyants verraient verriez visse voyiez voyantes voyions vîmes verrions vît visses vissent
+43	43	comme	comme
+44	44	bien	bien biens bin
+45	45	même	même mêmes mesme mesmes
+46	46	leur	leur leurs
+47	47	autre	autres autre aultres aultre
+48	48	devoir	doit devrait doivent dû dois devoir devait devraient devrais devons devra devez devaient devoirs due devais devront devriez dut dues dus durent devrez devrions devrai doive devions devrons devras deviez dût doives dusse dussent dûmes
+49	49	lui	lui
+50	50	aussi	aussi aussy
+51	51	vouloir	veut veux veulent voulu voulait voulez vouloir voulais voudrais voulons voudrait voulaient veuillez voulant voudra veuille voudraient voudront voulions voudrez vouliez voulut voudrai voudras voudriez voudrions veuilles veuillent voulus voulurent voudrons vouloirs voulût
+52	52	deux	deux
+53	53	bon	bon bonne bons bonnes bones
+54	54	moi	moi moé
+55	55	ton	ton ta tes tons
+56	56	savoir	sais savoir sait savent su savez savais savait sachant sache savons saura saurait sachez saviez savaient saurais savant sauront sus savants sue savoirs saurez sachent saches saurai sauras sauraient savions savantes savante saurons sut sachiez sauriez sachions sachons saurions surent
+57	57	prendre	prendre pris prend prise prends prennent prises prenez prenant prit prendra prenne prenait prenons prendrait prendront prenaient prenais prendrais prendrai prirent prenantes prenante prendrons prendrez prendraient prennes prendras preniez prenions prendriez prendrions prît prenants prîmes prisse
+58	58	quand	quand kan
+59	59	après	après apres aprés
+60	60	notre	notre nos
+61	61	très	très
+62	62	grand	grand grande grands grandes
+63	63	celui	ceux celui celle celles celuy çui ceulx
+64	64	nouveau	nouveau nouvelle nouvelles nouveaux nouvel
+65	65	sans	sans
+66	66	votre	votre vos voz
+67	67	premier	premier première premiers premières
+68	68	an	ans an
+69	69	non	non nan nons
+70	70	où	où
+71	71	passer	passe passer passé passant passent passée passes passés passait passera passées passez passions passa passons passerait passants passaient passeront passais passerai passante passerais passèrent passerez passerons passeras passeraient passiez passantes passai passee passeriez passerions passâmes passees passât
+72	72	falloir	faut fallait faudra faudrait falloir fallu faille failles fallut
+73	73	encore	encore encor
+74	74	alors	alors allors
+75	75	entre	entre
+76	76	donner	donne donner donné données donnent donnée donnant donnez donnera donna donnait donnes donnés donnerait donnons donnerai donneront donnaient donnerais donnais donnèrent donnerons donneraient donnerez donneras donniez donneriez donnions donnai donnât donnas donnerions
+77	77	temps	temps
+78	78	jour	jour jours
+79	79	petit	petit petite petits petites p'tit p'tite p'tits tit p'tites pitit
+80	80	trouver	trouve trouver trouvé trouvent trouvait trouvez trouves trouvera trouvée trouvaient trouvés trouvais trouverez trouvant trouveras trouveront trouvons trouvées trouva trouverait trouverais trouverai trouverons trouvèrent trouveraient trouviez trouvions trouvai trouveriez trouverions trouvâmes trouvât
+81	81	là	là
+82	82	peu	peu
+83	83	mettre	mettre mis met mets mettent mettant mit mettez missions mette mettra mettait mettons mettrait mettrais mettaient mettrai mettais mettront mirent mettrons mettes mettraient mettras mettrez mettiez mît mettions mettriez mîmes misses mettrions misse
+84	84	venir	vient viens venir viennent venu venez vienne venait venant vins viendra venaient venons viendront viendrait vint venais viendrai vinrent viendraient viendrais viennes viendras viendrez veniez venions viendrons vînt viendriez venants viendrions
+85	85	personne	personne personnes
+86	86	rien	rien riens
+87	87	parler	parler parle parlé parles parlent parlant parlait parlez parlais parlons fatiguée parlaient parlera parlerai parlée parlerons parlerait parlerais parla parleront parlions parliez parlées parlés parlante parlers parlants parleras parlerez parlantes parleraient parlai parlèrent parlerions parleriez parlât
+88	88	monde	monde mondes
+89	89	quelque	quelques quelque qq
+90	90	fois	fois
+91	91	année	année années
+92	92	toujours	toujours tjs tjr tousjours
+93	93	français	français française françaises
+94	94	contre	contre contres
+95	95	avant	avant avants
+96	96	depuis	depuis
+97	97	donc	donc
+98	98	ici	ici ci içi
+99	99	vie	vie vies
+100	100	homme	homme hommes
