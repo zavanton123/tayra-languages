@@ -1,0 +1,211 @@
+{
+  "id": "de-mini-3500",
+  "rankUpTo": 3500,
+  "level": "B2",
+  "title": "Technik und Gesellschaft",
+  "description": "Ten stories and columns about technology in everyday life: AI at work, privacy online, a week without a phone, a coding club for children, online scams, a grandfather's first video call, a village getting fast internet and more.",
+  "topic": "Technology and society",
+  "names": [
+    "Bremen",
+    "Hamburg",
+    "Lübeck",
+    "Deutschland",
+    "Hoffmann",
+    "Timo",
+    "Aylin",
+    "Clara",
+    "Freiburg",
+    "Schwarzwald",
+    "Titisee",
+    "Kassel",
+    "Kowalski",
+    "Mila",
+    "Milas",
+    "Nina",
+    "Heinz",
+    "Kiel",
+    "Lea",
+    "Leas",
+    "Wien",
+    "Peter",
+    "Lindenau",
+    "Dresden",
+    "Sachsen",
+    "Jahn",
+    "Petzold",
+    "Köln",
+    "Oliver",
+    "England",
+    "Regensburg",
+    "Renate",
+    "Haller"
+  ],
+  "lessons": [
+    {
+      "title": "Ein Kaufmann und die Maschine",
+      "summary": "An old merchant in Bremen watches his company bring in AI software and finds that people and machine work best together.",
+      "newWords": [
+        "Kaufmann",
+        "Grundsatz",
+        "Entwickler",
+        "abschaffen",
+        "Interne",
+        "gegenwärtig",
+        "Psychologie",
+        "Auffassung",
+        "kombinieren",
+        "maßgeblich"
+      ],
+      "text": "Ich bin Kaufmann, und zwar mit ganzem Herzen. Seit 31 Jahren arbeite ich in einer kleinen Firma in Bremen, die Kaffee und Tee aus aller Welt einkauft und an Geschäfte in ganz Deutschland verkauft. Schon mein Vater war Kaufmann, und von ihm habe ich einen einfachen Grundsatz gelernt: Wer verkaufen will, muss zuerst zuhören. Diesen Grundsatz habe ich nie vergessen.\n\nIm Frühjahr hat unsere Chefin, Frau Hoffmann, eine neue Software gekauft, die mit künstlicher Intelligenz arbeitet. Das Programm liest Bestellungen, schreibt Rechnungen und beantwortet einfache Fragen von Kunden. Ein junger Entwickler aus Hamburg kam für 2 Wochen zu uns, damit er alles einrichten konnte. Der Entwickler hieß Timo, trug jeden Tag dasselbe graue Hemd und erklärte uns jeden Schritt so ruhig, als hätte er alle Zeit der Welt.\n\nUnter den Kollegen war die Stimmung zunächst schlecht. In der Küche sagten einige leise, die Firma werde bald ihre Stellen abschaffen. Frau Hoffmann hörte davon und schickte allen eine interne Nachricht. Darin stand klar: „Wir werden keine einzige Stelle abschaffen. Abgeschafft werden nur die alten Listen aus Papier.“ Nach dieser internen Nachricht war die Stimmung sofort besser.\n\nGegenwärtig schreibt das Programm etwa die Hälfte unserer Rechnungen. Es arbeitet schnell, macht keine Pause und vergisst nie eine Zahl. Dennoch hat es eine Schwäche, die mich nicht überrascht hat: Es versteht die Menschen nicht. Neulich schrieb uns eine ältere Kundin aus Lübeck, sie habe ihren Tee leider zu spät bezahlt, weil ihr Mann im Krankenhaus liege. Das Programm antwortete höflich, aber kalt, und schickte ihr gleich die nächste Rechnung. Ich habe die Dame danach angerufen und mich bei ihr entschuldigt.\n\nMeine Kollegin Aylin hat früher Psychologie studiert. Sie sagt, unsere Kunden kaufen nicht nur Kaffee, sondern auch das Gefühl, dass jemand sie kennt. „Das ist Psychologie“, sagt sie, „und die hat keine Maschine gelernt.“ Ich teile ihre Auffassung. Frau Hoffmann ist allerdings einer etwas anderen Auffassung. Sie glaubt, dass die Software uns Zeit schenkt, die wir dann für genau diese Gespräche haben.\n\nNach einem halben Jahr muss ich zugeben, dass beide recht haben. Die gegenwärtige Lösung ist gut, weil wir 2 Dinge kombinieren: die Geschwindigkeit der Maschine und die Erfahrung der Menschen. Das Programm hat maßgeblich dazu beigetragen, dass wir weniger Fehler machen. Maßgeblich für unsere Kunden bleibt jedoch der Mensch am Telefon. Wer beides klug kombiniert, verliert nichts. So hätte es wohl auch mein Vater gesehen.\n\nFragen:\nWelchen Grundsatz hat der Kaufmann von seinem Vater gelernt?\nEr hat gelernt, dass man zuerst zuhören muss, wenn man verkaufen will.\nWarum kam ein junger Entwickler in die Firma?\nEr kam, damit er die neue Software einrichten konnte.\nWas stand in der internen Nachricht der Chefin?\nDarin stand, dass die Firma keine Stelle abschaffen wird, sondern nur die alten Listen aus Papier.\nWas bleibt für die Kunden maßgeblich?\nMaßgeblich für die Kunden bleibt der Mensch am Telefon.\nWelche Auffassung hat Aylin?\nSie ist der Auffassung, dass die Kunden auch das Gefühl kaufen, dass jemand sie kennt. Das ist für sie Psychologie.\nWarum ist die gegenwärtige Lösung gut?\nSie ist gut, weil die Firma die Geschwindigkeit der Maschine und die Erfahrung der Menschen kombiniert."
+    },
+    {
+      "title": "Was mein Handy über mich weiß",
+      "summary": "A woman asks her friend, a lawyer, whether her phone listens to her, and learns calmly how apps collect data and what she can change.",
+      "newWords": [
+        "Jurist",
+        "Verbraucher",
+        "permanent",
+        "nachgewiesen",
+        "legal",
+        "vielfach",
+        "indirekt",
+        "einschalten",
+        "Filter",
+        "Image"
+      ],
+      "text": "Meine Freundin Clara ist Juristin. Sie arbeitet für eine Stelle, die Verbraucher berät, wenn sie Ärger mit einer Firma haben. Solche Fragen hat sie vielfach gehört. Wenn ich etwas über Verträge oder Daten wissen will, frage ich zuerst sie, denn eine Juristin erklärt die Dinge ruhig und genau.\n\nLetzten Sonntag saßen wir in ihrer Küche, und ich legte mein Handy auf den Tisch. „Clara, gestern habe ich mit meiner Schwester über Schuhe zum Wandern gesprochen, und heute zeigt mir jede App genau solche Schuhe. Hört mein Handy permanent zu?“\n\nClara lachte nicht, sondern dachte kurz nach. „Dass Handys permanent zuhören, ist bisher nicht nachgewiesen“, sagte sie. „Nachgewiesen ist aber, dass viele Apps sehr viel über uns sammeln: wo wir sind, was wir suchen, wie lange wir ein Bild ansehen. Daraus kann man ziemlich genau erkennen, was wir als Nächstes kaufen wollen. Vielleicht hast du auch nach Wegen in den Bergen gesucht.“ Das hatte ich tatsächlich.\n\n„Ist das überhaupt legal?“, fragte ich. „Vieles davon ist legal“, antwortete Clara, „weil wir selbst zugestimmt haben. Erinnerst du dich an die langen Texte, die man beim ersten Start einer App bestätigt? Darin steht es.“ Ich musste zugeben, dass ich diese Texte noch nie gelesen hatte. „Das geht vielen Verbrauchern so“, sagte sie. „Das ist vielfach untersucht worden, und das Ergebnis ist immer gleich: Fast niemand liest sie.“\n\nDann erklärte sie mir, dass Daten oft indirekt bei anderen landen. Eine App für das Wetter verkauft vielleicht nicht meinen Namen, aber sie teilt Informationen über meinen Ort mit anderen Firmen. Diese Firmen machen sich daraus ein Bild von mir. Auf diese indirekte Weise weiß am Ende eine Firma, die ich gar nicht kenne, dass ich gern in den Bergen wandere.\n\n„Und was soll ich jetzt tun? Das Handy in den See werfen?“ Clara lächelte und nahm mein Handy. Gemeinsam gingen wir durch die Einstellungen. Nur noch die App für Karten darf meinen Ort sehen, aber nur dann, wenn ich sie selbst einschalte. Die Kamera dürfen nur noch 2 Apps einschalten. Außerdem richtete Clara einen Filter gegen Werbung ein. „Ein Filter ist kein perfekter Schutz“, sagte sie, „aber er hilft.“\n\nZum Schluss sprach sie über etwas, woran ich nie gedacht hatte: mein Image im Netz. Jedes Foto, das ich öffentlich teile, bleibt lange sichtbar. Manche Firmen sehen sich das Profil einer Person an, bevor sie sie zu einem Gespräch einladen. „Dein Image entsteht nicht nur durch das, was du teilst“, sagte Clara, „sondern auch durch das, was andere über dich zeigen.“\n\nAls ich nach Hause ging, hatte ich keine Angst mehr. Ich weiß jetzt, was ich selbst tun kann.\n\nFragen:\nWas ist Clara von Beruf?\nClara ist Juristin und berät Verbraucher, die Ärger mit einer Firma haben.\nIst nachgewiesen, dass Handys permanent zuhören?\nNein, das ist bisher nicht nachgewiesen.\nWarum ist vieles legal?\nVieles ist legal, weil die Menschen selbst zugestimmt haben.\nWie kommen Daten oft zu anderen Firmen?\nSie kommen oft indirekt zu anderen Firmen, zum Beispiel über eine App für das Wetter.\nWas hat Clara am Handy geändert?\nSie hat festgelegt, dass nur noch wenige Apps den Ort sehen oder die Kamera einschalten dürfen, und sie hat einen Filter gegen Werbung eingerichtet.\nWodurch entsteht das Image einer Person im Netz?\nEs entsteht durch das, was man selbst teilt, und durch das, was andere zeigen."
+    },
+    {
+      "title": "Eine Woche ohne Handy",
+      "summary": "A keen cyclist leaves his phone in a drawer for a week, rides through the Black Forest with a paper map and a tent, and learns to relax.",
+      "newWords": [
+        "Akku",
+        "Radfahrer",
+        "Route",
+        "starren",
+        "Zelt",
+        "überfahren",
+        "steil",
+        "atmen",
+        "Geräusch",
+        "entspannen"
+      ],
+      "text": "Montag\nHeute Morgen habe ich mein Smartphone in eine Schublade gelegt. Der Akku war noch zu 80 Prozent voll, und ein kleiner Teil von mir wollte ihn bis zum letzten Prozent leer machen. Ich habe die Schublade trotzdem geschlossen. Eine Woche lang will ich ohne Handy leben. Am Nachmittag habe ich gemerkt, wie oft meine Hand in die leere Tasche greift. Wahrscheinlich 100 Mal.\n\nDienstag\nIch bin ein begeisterter Radfahrer, und morgen beginnt mein Urlaub. Normalerweise plane ich jede Route mit einer App. Diesmal habe ich mir eine Karte aus Papier gekauft. Am Abend habe ich lange auf die Karte gestarrt, so wie ich sonst auf den Bildschirm starre. Meine Route führt durch den Schwarzwald, von Freiburg bis zum Titisee. Im Rucksack sind ein kleines Zelt, warme Kleidung und eine Lampe mit einem neuen Akku.\n\nMittwoch\nDer erste Tag auf dem Rad. Ohne die Stimme aus dem Handy bin ich zweimal falsch gefahren. In einem Dorf hätte ich beinahe eine rote Ampel überfahren, weil ich auf die Karte statt auf die Straße geschaut habe. Ein anderer Radfahrer hat laut gerufen, und ich habe noch rechtzeitig angehalten. Danach habe ich die Karte nur noch im Stehen gelesen. Eine rote Ampel zu überfahren, ist nämlich gefährlich, mit oder ohne Handy.\n\nDonnerstag\nDer Weg war heute so steil, dass ich das Rad schieben musste. Oben habe ich mich ins Gras gesetzt und tief geatmet. Die Luft roch nach Wald und feuchter Erde. Niemand wusste, wo genau ich war. Dieses Gefühl war zuerst seltsam, dann angenehm. Am Abend habe ich das Zelt am Rand einer Wiese aufgebaut, und ich habe noch lange in den Himmel gestarrt, an dem langsam die Sterne erschienen.\n\nFreitag\nNachts im Zelt höre ich Geräusche, die ich in der Stadt nie höre: den Wind in den Bäumen, einen Vogel, einen kleinen Bach. Früher hätte ich bei jedem Geräusch sofort im Internet gesucht, was es sein könnte. Jetzt liege ich einfach da und atme ruhig. Ich glaube, ich habe gelernt, mich zu entspannen, ohne dass mir ein Programm sagt, wie das geht.\n\nSonntag\nDie letzte Strecke war weniger steil, und ich bin glücklich am Titisee angekommen. Zu Hause habe ich die Schublade geöffnet. Das Handy war aus, der Akku leer. Als es wieder lief, fand ich 63 Nachrichten. Keine einzige war wirklich wichtig. Ich werde das Handy natürlich weiter benutzen, aber ich will nicht mehr so viel auf den Bildschirm starren. Und am Wochenende möchte ich mich öfter so entspannen wie in meinem Zelt.\n\nFragen:\nWas hat der Mann am Montag mit seinem Smartphone gemacht?\nEr hat es in eine Schublade gelegt.\nWie hat er seine Route geplant?\nEr hat sie mit einer Karte aus Papier geplant, nicht mit einer App.\nWarum hätte er beinahe eine rote Ampel überfahren?\nEr hat auf die Karte statt auf die Straße geschaut. Zum Glück hat ein anderer Radfahrer laut gerufen.\nWas hat er gemacht, als der Weg zu steil war?\nEr hat das Rad geschoben und oben tief geatmet.\nWelche Geräusche hört er nachts im Zelt?\nEr hört den Wind in den Bäumen, einen Vogel und einen kleinen Bach.\nWas hat er in dieser Woche gelernt?\nEr hat gelernt, sich zu entspannen, ohne dass ihm ein Programm sagt, wie das geht."
+    },
+    {
+      "title": "Roboter in der Bibliothek",
+      "summary": "A retired programmer volunteers at a library in Kassel and teaches a nervous nine-year-old girl to program a small robot.",
+      "newWords": [
+        "Roboter",
+        "ehrenamtlich",
+        "aufgeregt",
+        "Bogen",
+        "Rätsel",
+        "neugierig",
+        "Beat",
+        "inspirieren",
+        "Märchen",
+        "Fortsetzung"
+      ],
+      "text": "Jeden Samstag um 10 Uhr riecht die Bibliothek in Kassel nach Papier und Kakao. In einem hellen Raum im ersten Stock sitzen dann 12 Kinder an langen Tischen. Vor ihnen liegen keine Bücher, sondern kleine Roboter, die nicht größer sind als eine Hand.\n\nDen Kurs leitet Frau Kowalski. Sie hat 35 Jahre lang Programme für eine große Firma geschrieben und ist seit 2 Jahren in Rente. Jetzt arbeitet sie ehrenamtlich in der Bibliothek. Geld bekommt sie dafür nicht, aber sie sagt, sie bekomme etwas Besseres: die Fragen der Kinder. Neben ihr hilft ein Student, der ebenfalls ehrenamtlich kommt.\n\nAn diesem Samstag war ein neues Mädchen dabei, Mila, 9 Jahre alt. Sie war sehr aufgeregt und hielt ihre Jacke fest, als könnte die Jacke sie schützen. Frau Kowalski gab ihr einen Bogen Papier und einen Stift. „Bevor wir dem Roboter etwas sagen, malen wir seinen Weg auf“, erklärte sie. Mila zeichnete auf den Bogen einen Weg mit vielen Kurven und einem roten Stern als Ziel.\n\nDann zeigte Frau Kowalski ihr auf dem Bildschirm bunte Kästchen, die man in eine Reihe legt: „einen Schritt vor“, „nach links drehen“, „Licht an“. Der Roboter folgte jedem Befehl genau. Wenn er gegen die Wand fuhr, lag der Fehler nicht beim Roboter, sondern im Programm. Für die Kinder war das wie ein Rätsel. Jeder Fehler war ein neues Rätsel, das sie unbedingt lösen wollten.\n\nMila wurde von Minute zu Minute neugieriger. Sie wollte wissen, wie der Roboter die Farben erkennt, warum er manchmal leise summt und ob er auch Musik machen kann. Frau Kowalski freute sich über so viele Fragen. „Neugierig zu sein ist das Wichtigste bei dieser Arbeit“, sagte sie. Sie zeigte Mila, wie man einen einfachen Beat baut: 2 kurze Töne, ein langer Ton, eine Pause. Bald spielte Milas Roboter seinen Beat, und die anderen Kinder klatschten im Takt.\n\nZum Schluss erzählte Frau Kowalski, was sie selbst als Kind inspiriert hatte: ein Märchen, in dem ein kleiner Roboter aus Blech den Weg nach Hause sucht. Sie las den Kindern den Anfang des Märchens vor. „Wer will, kann bis nächsten Samstag eine Fortsetzung schreiben“, sagte sie, „und dann spielen unsere Roboter sie nach.“ Die Idee inspirierte alle Kinder im Raum. Mila war jetzt nicht mehr ängstlich, sondern auf eine fröhliche Weise aufgeregt. Schon auf dem Heimweg überlegte sie, wie ihre Fortsetzung beginnen sollte.\n\nFragen:\nWas liegt am Samstag vor den Kindern auf dem Tisch?\nVor ihnen liegen kleine Roboter.\nWarum bekommt Frau Kowalski kein Geld?\nSie arbeitet ehrenamtlich in der Bibliothek.\nWie fühlte sich Mila am Anfang, und was zeichnete sie?\nSie war sehr aufgeregt. Auf den Bogen Papier zeichnete sie einen Weg mit vielen Kurven und einem roten Stern als Ziel.\nWarum war jeder Fehler für die Kinder wie ein Rätsel?\nWeil der Fehler im Programm lag und die Kinder ihn lösen wollten.\nWas zeigte Frau Kowalski der neugierigen Mila?\nSie zeigte ihr, wie man einen einfachen Beat baut.\nWas können die Kinder bis zum nächsten Samstag schreiben?\nSie können eine Fortsetzung des Märchens schreiben, das Frau Kowalski als Kind inspiriert hat."
+    },
+    {
+      "title": "Echt oder Fake?",
+      "summary": "A calm column about three online scams in one family: a fake parcel message, a fake bank mail and a fake puppy advert.",
+      "newWords": [
+        "fake",
+        "Lieferung",
+        "unschuldig",
+        "abziehen",
+        "Sparkasse",
+        "verfallen",
+        "Rasse",
+        "Maul",
+        "eingetragen",
+        "schwören"
+      ],
+      "text": "In den letzten Monaten haben mir 3 Menschen aus meiner Familie fast dieselbe Frage gestellt: „Ist das echt oder ein Fake?“ Ich bin keine Expertin, aber ich habe gelernt, in Ruhe hinzusehen. Deshalb erzähle ich hier von ihren 3 Fällen.\n\nDer erste Fall betrifft meine Mutter. Sie bekam eine kurze Nachricht auf ihr Handy: Ihre Lieferung könne nicht geliefert werden, sie solle auf einen Link klicken und 2 Euro bezahlen. Meine Mutter hatte tatsächlich etwas bestellt, deshalb wirkte die Nachricht ganz unschuldig. Doch eine echte Firma verlangt so etwas nicht auf diesem Weg. Wer dort klickt und die Daten seiner Karte eingibt, dem wird später oft viel mehr Geld vom Konto abgezogen als 2 Euro. Meine Mutter hat die Nachricht gelöscht, und ihre Lieferung kam 2 Tage später ganz normal an.\n\nDer zweite Fall betrifft meinen Onkel. Er bekam eine Mail, die aussah, als käme sie von seiner Sparkasse. Darin stand, sein Zugang zum Konto werde in 24 Stunden verfallen, wenn er seine Daten nicht sofort bestätige. Dieser Druck ist typisch für einen Fake. Mein Onkel hat nicht geklickt, sondern seine Sparkasse angerufen. Die Frau am Telefon sagte ruhig: „Wir fragen niemals per Mail nach Ihren Daten. Und Ihr Zugang wird nicht einfach so verfallen.“ Von seinem Konto wurde nichts abgezogen.\n\nDer dritte Fall betrifft meine Schwester Nina. Sie wünschte sich seit Jahren einen Hund einer bestimmten Rasse. Im Internet fand sie eine Anzeige mit hübschen Fotos: Ein junger Hund hielt einen roten Ball im Maul und schaute direkt in die Kamera. Der Verkäufer schrieb, er sei als Züchter in einem Verein eingetragen. Er schwor, der Hund sei gesund und habe alle Papiere. Nina sollte nur vorher 600 Euro schicken, dann würde man ihr den Hund bringen. Nina fragte bei dem Verein nach, ob der Mann dort eingetragen sei. Die Antwort war ein klares Nein. Das Foto mit dem Ball im Maul stammte von einer ganz anderen Seite. Ein ehrlicher Verkäufer muss nichts schwören. Er lädt Sie ein, den Hund zu besuchen, und erklärt Ihnen gern alles über die Rasse.\n\nWas lerne ich aus diesen 3 Fällen? Erstens: Wer Druck macht, ist verdächtig. Zweitens: Geben Sie Ihre Daten nie über einen Link ein, den Sie nicht selbst gesucht haben. Drittens: Fragen Sie nach, und zwar über eine Nummer, die Sie kennen. Und noch etwas: Wer doch einmal auf einen Fake hereingefallen ist, sollte sich nicht schämen. Er ist unschuldig, denn die Leute dahinter sind Profis. Dann hilft es, schnell die Bank anzurufen und die Polizei zu informieren.\n\nFragen:\nWas kann passieren, wenn man auf den Link in der Nachricht klickt und seine Daten eingibt?\nDann wird später oft viel mehr Geld vom Konto abgezogen.\nWarum wirkte die Nachricht an die Mutter unschuldig?\nSie hatte tatsächlich etwas bestellt und wartete auf eine Lieferung.\nWas stand in der Mail an den Onkel, und was hat er getan?\nDarin stand, sein Zugang werde in 24 Stunden verfallen. Er hat nicht geklickt, sondern seine Sparkasse angerufen.\nWas zeigte das Foto in der Anzeige?\nEs zeigte einen jungen Hund der Rasse, die Nina sich wünschte, mit einem roten Ball im Maul.\nWas erfuhr Nina vom Verein?\nSie erfuhr, dass der Mann dort nicht eingetragen war.\nWas tut ein ehrlicher Verkäufer?\nEr muss nichts schwören, sondern lädt die Käufer ein, den Hund zu besuchen."
+    },
+    {
+      "title": "Opas erster Videoanruf",
+      "summary": "An 84-year-old grandfather in Kiel learns to make a video call on a laptop and shows his granddaughter in Vienna his garden.",
+      "newWords": [
+        "Opa",
+        "gießen",
+        "ruhen",
+        "Laptop",
+        "Geduld",
+        "Schoss",
+        "hmm",
+        "klingeln",
+        "soeben",
+        "Schalk"
+      ],
+      "text": "Opa Heinz ist 84 Jahre alt und wohnt allein in einem kleinen Haus am Rand von Kiel. Hinter dem Haus hat er einen Garten mit Tomaten und Rosen, die er jeden Abend gießt. Nach dem Mittagessen ruht er immer eine Stunde auf dem Sofa, und um diese Zeit darf niemand anrufen. Seine Familie sagt, ihm sitze der Schalk im Nacken. Das bedeutet, dass er gern kleine Witze macht und dabei ganz ernst schaut.\n\nSeit dem Herbst studiert Lea, die Tochter seines Sohnes Peter, in Wien. Opa telefoniert jeden Sonntag mit ihr, aber er hört nur ihre Stimme. „Ich möchte ihr Gesicht sehen“, sagte er eines Tages zu Peter. Peter brachte ihm daraufhin seinen alten Laptop mit.\n\nAm Samstag saßen die beiden am Tisch in der Küche. Peter erklärte jeden Schritt, und er brauchte viel Geduld. Opa hatte nämlich wenig Geduld mit Maschinen. „Warum hat das Ding so viele Tasten, wenn man doch nur sehen will?“, fragte er. Peter lachte und zeigte ihm, dass er nur auf ein einziges grünes Feld drücken muss. Dann stellte er den Laptop auf Opas Schoß. Opa hielt ihn sehr vorsichtig, als läge eine Katze auf seinem Schoß, die jeden Moment springen könnte.\n\nAm Sonntag um 6 Uhr hatte Opa soeben seinen Tee getrunken, als der Laptop zu klingeln begann. Opa erschrak ein wenig. „Hmm“, sagte er, „und was jetzt?“ Es klingelte noch einmal. Dann fiel ihm das grüne Feld ein, und er drückte darauf. Plötzlich war Leas Gesicht da, groß und hell. „Hallo, Opa! Ich bin soeben nach Hause gekommen, ich habe noch meine Jacke an!“ Opa sagte zuerst nichts. Dann sagte er leise: „Hmm. Du hast ja deine Haare kurz geschnitten.“\n\nSie sprachen fast eine Stunde. Lea zeigte ihm ihr kleines Zimmer, den Blick aus dem Fenster und ihren Schreibtisch voller Bücher. Opa wollte ihr auch etwas zeigen. Mit dem Laptop in beiden Händen ging er langsam in den Garten. „Schau, die Tomaten“, sagte er, „die gieße ich gerade.“ Lea lachte, denn sie wusste genau, dass er immer erst am Abend gießt. Da war er wieder, der Schalk. „Du hast recht“, gab Opa zu, „aber für dich gieße ich sie heute zweimal.“\n\nSeitdem ruft Lea jeden Sonntag per Video an. Opa ruht jetzt nach dem Mittagessen nur noch eine halbe Stunde, damit er rechtzeitig wach ist, wenn es klingelt. Der Laptop hat jetzt einen festen Platz auf dem Tisch in der Küche.\n\nFragen:\nWas macht Opa Heinz jeden Abend?\nEr gießt seine Tomaten und Rosen.\nWas bedeutet es, dass ihm der Schalk im Nacken sitzt?\nEs bedeutet, dass er gern kleine Witze macht und dabei ernst schaut.\nWarum brauchte Peter viel Geduld?\nOpa hatte wenig Geduld mit Maschinen, deshalb musste Peter jeden Schritt erklären.\nWo stand der Laptop, als Peter ihn Opa gab?\nEr stand auf Opas Schoß.\nWas sagte Lea, als sie Opa sah?\nSie sagte, sie sei soeben nach Hause gekommen.\nWarum ruht Opa jetzt nur noch eine halbe Stunde?\nEr will rechtzeitig wach sein, wenn der Laptop klingelt."
+    },
+    {
+      "title": "Schnelles Netz für Lindenau",
+      "summary": "A short report on how a small Saxon village got fast internet, and what changed for a carpenter and the new tenants of the old mill.",
+      "newWords": [
+        "sächsisch",
+        "Distanz",
+        "einreichen",
+        "kommunal",
+        "transportieren",
+        "Zerstörung",
+        "angeschlossen",
+        "Handwerk",
+        "Umbau",
+        "Mieter"
+      ],
+      "text": "Wer vor 3 Jahren in Lindenau eine Seite im Internet öffnen wollte, brauchte vor allem eines: Geduld. Das kleine sächsische Dorf liegt zwischen Wäldern und Feldern, etwa 40 Kilometer von Dresden entfernt. Wie in vielen sächsischen Dörfern leben hier vor allem ältere Menschen. Die Distanz zur Stadt war nie ein großes Problem, die langsame Leitung dagegen schon. Ein Film lud stundenlang, und wer von zu Hause arbeiten wollte, fuhr lieber in ein Café in der nächsten Stadt.\n\nDie Bürgermeisterin, Frau Jahn, wollte das ändern. Gemeinsam mit dem Gemeinderat schrieb sie einen langen Antrag auf Förderung und reichte ihn beim Land Sachsen ein. Zweimal musste sie weitere Papiere einreichen, bevor der Antrag genehmigt wurde. Den Rest des Geldes zahlte die Gemeinde aus ihren kommunalen Mitteln. „Für ein kleines Dorf ist das viel Geld“, sagte Frau Jahn, „aber kommunale Aufgaben sind nicht nur Straßen und Schulen. Heute gehört auch das Internet dazu.“\n\nIm Frühling begannen die Arbeiten. Große Rollen mit Kabeln wurden auf Lastwagen ins Dorf transportiert. Viele Bewohner hatten Sorge um die alten Bäume an der Hauptstraße, die über 100 Jahre alt sind. Niemand wollte eine Zerstörung dieser schönen Straße. Die Firma fand eine Lösung: Unter den Bäumen wurde nicht gegraben, sondern eine Maschine schob die Kabel tief unter den Wurzeln hindurch. So kam es zu keiner Zerstörung, und die Bäume stehen noch heute.\n\nIm Herbst war das ganze Dorf an das neue Netz angeschlossen, auch die Höfe am Rand des Waldes. Herr Petzold, der eine kleine Werkstatt für Möbel hat, ist sehr zufrieden. Sein Handwerk hat sich nicht verändert: Er baut Tische und Schränke aus Holz, wie schon sein Vater. Aber jetzt zeigt er seine Arbeiten online, und Kunden aus ganz Deutschland bestellen bei ihm. Die fertigen Möbel lässt er von einer Firma transportieren. „Das Handwerk bleibt dasselbe“, sagt er, „nur der Weg zum Kunden ist kürzer geworden.“\n\nAuch in der alten Mühle am Bach hat sich viel getan. Das Gebäude hat einen gründlichen Umbau hinter sich. Nach dem Umbau gibt es dort 6 helle Wohnungen, und jede ist an das schnelle Netz angeschlossen. Die Mieter sind zum Teil junge Familien aus Dresden, die nun im Dorf wohnen und an mehreren Tagen der Woche von zu Hause arbeiten. Eine der Mieterinnen sagt, die Distanz zum Büro spiele für sie kaum noch eine Rolle.\n\nFrau Jahn plant bereits das nächste Projekt: einen Raum im Rathaus, in dem ältere Menschen Hilfe mit Computer und Handy bekommen. Auch für dieses Projekt hat sie schon einen Antrag eingereicht.\n\nFragen:\nWo liegt Lindenau?\nLindenau ist ein kleines sächsisches Dorf, etwa 40 Kilometer von Dresden entfernt.\nWas musste die Bürgermeisterin beim Land einreichen?\nSie musste einen Antrag auf Förderung und weitere Papiere einreichen.\nWoher kam der Rest des Geldes?\nDie Gemeinde zahlte ihn aus ihren kommunalen Mitteln.\nWie hat die Firma eine Zerstörung der alten Bäume verhindert?\nSie hat unter den Bäumen nicht gegraben, sondern die Kabel tief unter den Wurzeln hindurchgeschoben.\nWas hat sich für Herrn Petzold geändert?\nSein Handwerk ist gleich geblieben, aber jetzt bestellen Kunden aus ganz Deutschland online bei ihm, und er lässt die Möbel zu ihnen transportieren.\nWer wohnt nach dem Umbau in der alten Mühle?\nDort wohnen Mieter, zum Teil junge Familien aus Dresden. Jede Wohnung ist an das schnelle Netz angeschlossen."
+    },
+    {
+      "title": "Mein Kühlschrank denkt mit",
+      "summary": "A light column about a new smart fridge that knows what is missing, but cannot tell when its owner is simply hungry.",
+      "newWords": [
+        "Kühlschrank",
+        "Riss",
+        "unglücklich",
+        "besorgen",
+        "zurzeit",
+        "Nahrung",
+        "Substanz",
+        "Magen",
+        "kippen",
+        "gebrauchen"
+      ],
+      "text": "Unser alter Kühlschrank war 19 Jahre alt, als er aufgab. In der Tür war schon lange ein feiner Riss, durch den die kalte Luft langsam nach draußen kam. Zuletzt summte er nachts so laut, dass meine Frau schlecht schlief. Als der Riss eines Morgens doppelt so lang war, sah der alte Kühlschrank so unglücklich aus, dass wir beschlossen: Wir brauchen einen neuen. Ich war darüber ein wenig unglücklich, denn ich hatte mich an sein Summen gewöhnt.\n\nDer Verkäufer im Geschäft war jung und sehr begeistert. Er zeigte uns ein Gerät mit einem großen Bildschirm in der Tür und kleinen Kameras im Inneren. „Dieser Kühlschrank denkt mit“, sagte er. „Er weiß, was Ihnen fehlt, und auf Wunsch kann er es sogar selbst besorgen.“ Ich war nicht sicher, ob ich einen Kühlschrank brauche, der denkt. Meine Frau dagegen meinte: „So etwas können wir gut gebrauchen.“ Ich dachte an meine Mutter, die immer sagte, man solle nur kaufen, was man auch gebrauchen kann. Wir haben ihn trotzdem gekauft.\n\nSeit 3 Wochen wohnt er nun bei uns. Jeden Morgen zeigt er mir eine Liste. „Zurzeit befinden sich in mir: 4 Eier, 1 Käse, 2 Becher Milch“, steht dann auf dem Bildschirm. Zurzeit fehlt angeblich auch Butter, und eine Nachricht auf meinem Handy fragt, ob er sie für mich besorgen soll. Ich gehe trotzdem lieber selbst zum Markt, denn dort treffe ich unseren Nachbarn und erfahre, was in der Straße passiert.\n\nMerkwürdig ist die Sprache des Geräts. Es spricht nie von Essen, sondern immer von Nahrung. „Ihre Nahrung für die Woche ist knapp“, heißt es. Außerdem kennt es jede Substanz, die in unseren Lebensmitteln steckt: Zucker, Fett, Salz. Zu jedem Käse zeigt es eine Tabelle, als wäre Nahrung eine Aufgabe in Chemie. Ich habe nichts gegen Wissen, aber beim Frühstück möchte ich nicht über jede Substanz nachdenken.\n\nAm Dienstag hat der Kühlschrank allerdings etwas Nützliches getan. Er meldete, die Milch sei seit 5 Tagen offen. Ich roch daran, und tatsächlich: Die Milch war gekippt, sie war sauer geworden. Ohne den Hinweis hätte ich sie in meinen Kaffee getan. So habe ich sie in die Spüle gekippt und meinen Kaffee schwarz getrunken.\n\nNur eines kann der kluge Kühlschrank nicht: Er kennt meinen Magen nicht. Abends um 11 Uhr stehe ich manchmal vor seiner Tür, und mein Magen sagt mir deutlich, dass ich Hunger habe. Der Bildschirm empfiehlt mir dann „leichte Nahrung vor dem Schlafen“. Mein Magen möchte aber ein Stück Käse. Am Ende entscheide ich, und nicht das Gerät. Und das finde ich, ehrlich gesagt, ganz beruhigend.\n\nFragen:\nWarum brauchte die Familie einen neuen Kühlschrank?\nDer alte Kühlschrank war 19 Jahre alt, hatte einen Riss in der Tür und sah unglücklich aus.\nWas kann der neue Kühlschrank selbst besorgen?\nEr kann auf Wunsch die Lebensmittel besorgen, die fehlen.\nWas zeigt der Bildschirm jeden Morgen?\nEr zeigt eine Liste mit allem, was sich zurzeit im Kühlschrank befindet.\nWovon spricht das Gerät statt von Essen?\nEs spricht immer von Nahrung, und es kennt jede Substanz in den Lebensmitteln.\nWas ist am Dienstag mit der Milch passiert?\nDie Milch war gekippt, und der Mann hat sie in die Spüle gekippt.\nWas kann der Kühlschrank nicht?\nEr kennt den Magen seines Besitzers nicht."
+    },
+    {
+      "title": "Das Spiel auf der Dachterrasse",
+      "summary": "Two neighbours, a German and a Briton, watch their national teams play on a laptop on a roof terrace and are always a few seconds late.",
+      "newWords": [
+        "Dachterrasse",
+        "Nationalmannschaft",
+        "Brite",
+        "Heer",
+        "entgehen",
+        "bemerkenswert",
+        "Verlängerung",
+        "Highlight"
+      ],
+      "text": "Unser Haus in Köln hat eine kleine Dachterrasse, die alle Bewohner benutzen dürfen. Im Sommer stehen dort Blumen, 2 Bänke und ein alter Tisch. Von der Dachterrasse sieht man über die Dächer bis zum Dom. An diesem Abend im Juni war sie besonders voll, denn die deutsche Nationalmannschaft spielte gegen England.\n\nMein Nachbar Oliver ist Brite. Er lebt seit 12 Jahren in Köln und spricht sehr gut Deutsch, aber beim Fußball hält er natürlich zu seiner eigenen Nationalmannschaft. Wir hatten meinen Laptop auf den Tisch gestellt, damit wir das Spiel im Internet sehen konnten. Oliver hatte Tee mitgebracht, ich Kuchen. „Ein Brite und ein Deutscher vor einem einzigen Bildschirm“, sagte er lächelnd, „das wird ein interessanter Abend.“\n\nUnten in der Stadt waren die Straßen voller Menschen. Auf dem Platz vor der Kirche hatte sich ein ganzes Heer von Fans in Weiß und Schwarz gesammelt, das man bis zu uns hörte. Ein kleineres Heer in Rot und Weiß saß in einer Kneipe an der Ecke.\n\nSchon nach 10 Minuten merkten wir etwas Seltsames. Plötzlich jubelten die Fans unten auf dem Platz, aber auf unserem Bildschirm lief der Ball noch im Mittelfeld. Erst 7 Sekunden später fiel bei uns das Tor. Das Bild aus dem Internet kam einfach etwas später an als das Bild im Fernsehen. „Bemerkenswert“, sagte Oliver, „wir wissen immer schon vorher, was passiert.“ Bemerkenswert war auch, dass uns dadurch kein einziges Tor entgehen konnte: Wir hörten es immer zuerst von unten.\n\nNach 90 Minuten stand es 1 zu 1, und das Spiel ging in die Verlängerung. In der Verlängerung wurde es auf der Dachterrasse ganz still. Oliver hielt seine Tasse mit beiden Händen fest, ich hatte aufgehört, Kuchen zu essen. Damit uns nichts entging, rückten wir noch näher an den Bildschirm. Doch dann hörten wir von unten einen gewaltigen Jubel aus der Kneipe an der Ecke. Oliver schaute mich an und sagte vorsichtig: „Ich glaube, wir haben soeben gewonnen. Es tut mir leid.“ 7 Sekunden später sahen wir es selbst: England hatte gewonnen.\n\nDanach saßen wir noch lange zusammen. Oliver suchte im Internet die Highlights des Spiels, und wir sahen uns alle Tore noch einmal an. Das schönste Highlight war für mich allerdings nicht ein Tor, sondern der Moment, in dem Oliver mir die Hand gab und sagte: „Nächstes Mal schauen wir ohne Internet, ganz altmodisch, mit Radio.“\n\nFragen:\nWas sieht man von der Dachterrasse?\nMan sieht über die Dächer bis zum Dom.\nWoher kommt Oliver?\nOliver ist Brite. Er lebt seit 12 Jahren in Köln, aber er hält zu seiner eigenen Nationalmannschaft.\nWas hatte sich auf dem Platz vor der Kirche gesammelt?\nDort hatte sich ein ganzes Heer von Fans gesammelt.\nWas war an diesem Abend bemerkenswert?\nDas Bild aus dem Internet kam 7 Sekunden später an, deshalb hörten sie jedes Tor zuerst von unten, und kein Tor konnte ihnen entgehen.\nWie stand es nach 90 Minuten?\nEs stand 1 zu 1, und das Spiel ging in die Verlängerung.\nWas war für den Nachbarn von Oliver das schönste Highlight?\nDas schönste Highlight war der Moment, in dem Oliver ihm die Hand gab."
+    },
+    {
+      "title": "Ein Museum in der Altstadt",
+      "summary": "A woman visits a small museum in Regensburg's old town with an audio guide app and meets the curator, who shows her how to look at paintings.",
+      "newWords": [
+        "Altstadt",
+        "Gemälde",
+        "Gattung",
+        "Universum",
+        "auslegen",
+        "Doktor",
+        "asiatisch",
+        "Schmuck"
+      ],
+      "text": "An einem grauen Samstag im November ging Renate durch die Altstadt von Regensburg. Die engen Straßen waren nass vom Regen, und aus den kleinen Läden fiel warmes Licht auf das Pflaster. In der Altstadt gibt es ein Museum, an dem sie seit Jahren vorbeigegangen war, ohne es je zu betreten. An diesem Tag ging sie endlich hinein.\n\nAn der Kasse erklärte man ihr, dass es keine Führung mehr gibt, sondern eine App. Renate lud sie auf ihr Handy und setzte die Kopfhörer auf. Vor jedem Gemälde musste sie nur eine Nummer eingeben, und eine ruhige Stimme erzählte ihr etwas über das Bild.\n\nIm ersten Saal erklärte die Stimme, dass man Gemälde nach ihrer Gattung ordnen kann. Zu einer Gattung gehören zum Beispiel die Landschaften, zu einer anderen die Bilder von Menschen. Renate gefiel diese Ordnung. Sie stellte fest, dass sie die Gattung der Landschaften am liebsten mochte: Wälder im Nebel, ein Fluss am Abend, ein Dorf im Schnee.\n\nIm zweiten Saal hing ein großes, dunkles Gemälde. Es zeigte einen Mann, der allein auf einem Berg steht und in den Himmel sieht. Über ihm leuchten tausend Sterne, als wäre das ganze Universum über ihm geöffnet. Die App sagte nur: „Man kann dieses Bild auf viele Arten auslegen.“ Renate stand lange davor. Neben ihr blieb ein älterer Herr mit Brille stehen.\n\n„Wie würden Sie das Bild auslegen?“, fragte er freundlich. Renate überlegte. „Der Mann wirkt klein, aber nicht verloren. Er scheint mit dem Universum zufrieden zu sein.“ Der Herr nickte. „So habe ich es auch immer gesehen.“ Dann stellte er sich vor: Er war Doktor Haller, der Leiter des Museums. Renate wurde ein wenig rot, aber der Doktor lachte nur. „Die App ist praktisch“, sagte er, „aber sie kann Ihnen keine Frage stellen. Deshalb gehe ich am Samstag gern durch die Säle.“\n\nDoktor Haller zeigte ihr noch den letzten Raum, in dem asiatische Kunst ausgestellt war: feine Schalen aus Porzellan und alter Schmuck aus Silber und Gold. Besonders schön fand Renate eine Kette mit kleinen grünen Steinen. Der Schmuck stammte aus einem asiatischen Land und war über 300 Jahre alt.\n\nAls Renate das Museum verließ, regnete es nicht mehr. Sie ging langsam durch die Altstadt nach Hause und dachte an den Mann unter den Sternen.\n\nFragen:\nWo liegt das Museum?\nEs liegt in der Altstadt von Regensburg.\nWas erzählt die App vor jedem Gemälde?\nEine ruhige Stimme erzählt etwas über das Bild.\nWelche Gattung von Bildern mag Renate am liebsten?\nSie mag die Gattung der Landschaften am liebsten.\nWas zeigt das große, dunkle Gemälde?\nEs zeigt einen Mann auf einem Berg, über dem das ganze Universum mit tausend Sternen leuchtet. Man kann es auf viele Arten auslegen.\nWer war der ältere Herr mit Brille?\nEr war Doktor Haller, der Leiter des Museums.\nWas war im letzten Raum ausgestellt?\nDort war asiatische Kunst ausgestellt, zum Beispiel Schalen aus Porzellan und alter Schmuck."
+    }
+  ]
+}

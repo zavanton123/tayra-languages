@@ -1,0 +1,206 @@
+{
+  "id": "de-mini-3800",
+  "rankUpTo": 3800,
+  "level": "B2",
+  "title": "Wirtschaft im Alltag",
+  "description": "Ten calm stories and columns about everyday economics: bread prices, a cooperative bank, a family guesthouse, paying off a loan, a regional currency, an online shop, the weekly market and more.",
+  "topic": "Everyday economics",
+  "names": [
+    "Huber",
+    "Lindenstraße",
+    "Kirchberg",
+    "Ostermann",
+    "Seidl",
+    "Gruber",
+    "Allgäu",
+    "München",
+    "Kaya",
+    "Freiburg",
+    "Chiemsee",
+    "Bayern",
+    "Chiemgauer",
+    "Lindner",
+    "Hoffmann",
+    "Hessen",
+    "Hamburg",
+    "Berlin",
+    "Köln",
+    "Brenner",
+    "Aydın",
+    "Lena",
+    "Lenas",
+    "Albrecht",
+    "Petersen",
+    "Anna",
+    "Markus",
+    "Theresa",
+    "Jonas",
+    "Mira",
+    "Miras"
+  ],
+  "lessons": [
+    {
+      "title": "Warum das Brot teurer wurde",
+      "summary": "A regular customer asks the owner of the local bakery why a pound of bread now costs forty cents more, and learns about harvests, energy and wages.",
+      "newWords": [
+        "Inhaber",
+        "Vorjahr",
+        "Pfund",
+        "Produzent",
+        "zurückgehen",
+        "Prognose",
+        "erstens",
+        "keineswegs",
+        "satt",
+        "Filiale"
+      ],
+      "text": "Seit fast 20 Jahren kaufe ich mein Brot beim Bäcker Huber in der Lindenstraße. Sein Brot ist dunkel und schwer, die Rinde ist fest, und jeder Laib wiegt genau ein Pfund. Im Vorjahr kostete ein Pfund Brot dort 3,20 Euro. Seit dem Frühling kostet es 3,60 Euro. Ich ärgerte mich ein wenig, doch statt mich nur zu ärgern, fragte ich den Inhaber, woran das liege.\n\nHerr Huber ist ein ruhiger, breiter Mann, der seit 30 Jahren um 3 Uhr in der Nacht aufsteht. Er ist der Inhaber des Ladens in der Lindenstraße und zweier Filialen in den Dörfern der Umgebung. In jeder Filiale verkauft man das gleiche Brot, das nachts in der Lindenstraße gebacken wird. „Das hat keineswegs nur einen Grund“, sagte er und legte die Hände auf die Theke. „Erstens ist das Getreide teurer geworden.“\n\nDie Produzenten des Getreides, also die Bauern der Region, hätten im Vorjahr eine schlechte Ernte gehabt, erklärte er. Der Sommer sei zu heiß und zu trocken gewesen, sodass die Ernte um ein Viertel zurückgegangen sei. Wenn die Ernte zurückgeht, steigt der Preis, denn die Bäcker brauchen das Getreide trotzdem. „Ich kaufe seit vielen Jahren bei denselben Produzenten“, sagte Herr Huber. „Ich will nicht zu einer großen Firma wechseln, nur weil sie im Moment billiger ist.“\n\nAußerdem koste die Energie mehr. Seine großen Öfen laufen jede Nacht 6 Stunden, und der Strom für den Laden und die beiden Filialen sei im Vorjahr um 30 Prozent teurer geworden. Schließlich wollten auch seine 12 Mitarbeiter von ihrem Lohn leben. „Wer den ganzen Tag Brot verkauft, soll am Abend auch satt werden“, sagte er und lächelte zum ersten Mal.\n\nIch fragte ihn, ob das Brot bald wieder billiger werde. Er hob die Schultern. Die Prognose für dieses Jahr sei gut: Es habe im Frühling genug geregnet, und die Felder stünden grün und dicht. Eine Prognose sei allerdings keineswegs ein Versprechen. „Falls die Ernte gut ist und der Strom nicht noch teurer wird, kann der Preis vielleicht wieder ein wenig zurückgehen“, sagte er. „Versprechen kann ich es nicht.“\n\nAuf dem Heimweg trug ich das warme Pfund Brot unter dem Arm und dachte an seine drei Gründe: erstens das Getreide, dann die Energie, dann die Löhne. In einem einfachen Brot steckt mehr Arbeit, als man an der Theke sieht. Die 40 Cent zahle ich seitdem, ohne mich zu ärgern. Ein gutes Brot macht satt, und ich weiß jetzt, warum es seinen Preis hat.\n\nFragen:\nWie viel kostete ein Pfund Brot im Vorjahr?\nIm Vorjahr kostete ein Pfund Brot 3,20 Euro.\nWer ist Herr Huber?\nEr ist der Inhaber des Ladens in der Lindenstraße und zweier Filialen.\nWarum ist das Getreide teurer geworden?\nDer Sommer war zu trocken, deshalb ist die Ernte der Produzenten um ein Viertel zurückgegangen.\nWelche anderen Gründe nennt Herr Huber?\nDie Energie für die Öfen kostet mehr, und seine Mitarbeiter wollen von ihrem Lohn leben.\nWie ist die Prognose für dieses Jahr?\nDie Prognose ist gut, aber sie ist keineswegs ein Versprechen."
+    },
+    {
+      "title": "Die Bank, die ihren Mitgliedern gehört",
+      "summary": "A pensioner goes to the small cooperative bank on the market square to update her details and learns to sign on a tablet.",
+      "newWords": [
+        "Rentner",
+        "Unterschrift",
+        "Schreibtisch",
+        "Anweisung",
+        "aktualisieren",
+        "Tablet",
+        "voneinander",
+        "neulich",
+        "solid",
+        "äußerer"
+      ],
+      "text": "Am Marktplatz von Kirchberg steht ein altes Haus mit gelben Wänden und grünen Fenstern. Die äußeren Mauern sind über 100 Jahre alt, und über der Tür steht in goldenen Buchstaben das Wort „Bank“. Es ist keine große Bank, sondern eine Genossenschaftsbank: Sie gehört ihren Mitgliedern, also den Menschen aus dem Ort, die dort ihr Konto haben.\n\nFrau Ostermann ist Rentnerin, 74 Jahre alt, und seit 50 Jahren Mitglied dieser Bank. Wie viele Rentner im Ort hat sie ihr Konto nie gewechselt. Neulich hatte sie in der Zeitung gelesen, dass viele kleine Banken ihre Filialen schließen. Ein paar Tage später bekam sie einen Brief. Darin stand, sie müsse ihre Daten aktualisieren, weil sich die Regeln geändert hätten. Frau Ostermann las den Brief zweimal. Dann zog sie ihren guten Mantel an und ging zum Marktplatz, denn so etwas erledigt sie lieber persönlich als am Telefon.\n\nIn der Bank war es still und warm. Hinter einem breiten Schreibtisch aus dunklem Holz saß Herr Seidl, ein junger Mann mit einer runden Brille. Auf seinem Schreibtisch lagen ein Kalender, ein Stift und ein flaches Tablet. „Guten Morgen, Frau Ostermann“, sagte er. „Wir aktualisieren heute Ihre Adresse und Ihre Telefonnummer. Am Ende brauche ich nur noch Ihre Unterschrift.“\n\nEr drehte das Tablet zu ihr. „Bitte unterschreiben Sie hier mit dem Finger“, sagte er. Frau Ostermann sah ihn zweifelnd an. „Eine Unterschrift gehört auf Papier“, sagte sie. Herr Seidl blieb freundlich. Er gab ihr eine einfache Anweisung: „Ganz langsam, so wie mit einem Stift. Neulich hat das sogar ein Herr mit 90 Jahren geschafft.“ Sie folgte seiner Anweisung, und ihre Unterschrift erschien auf dem Bildschirm, ein wenig unsicher, aber gut zu lesen.\n\nDanach erzählte Herr Seidl, warum die kleine Bank so solide sei. Sie verleihe das Geld vor allem an Menschen und Betriebe aus der Region, an den Bäcker, an die Bauern, an junge Familien, die ein Haus bauen. „Wir kennen die Leute“, sagte er. „Hier wissen die Menschen viel voneinander. Das macht unsere Arbeit solide und ruhig.“ Frau Ostermann nickte. Sie erinnerte sich, dass ihr Vater hier seinen ersten Kredit für die Werkstatt bekommen hatte.\n\nAls sie gehen wollte, fragte Herr Seidl, ob sie ihm helfen könne. Er suche alte Fotos der Bank für eine kleine Ausstellung zum Jubiläum. Frau Ostermann versprach, in ihrem Keller zu suchen. Sie erzählte, ihr Vater habe einmal die äußeren Mauern der Bank fotografiert, als sie neu gestrichen wurden. Auf dem Weg nach Hause dachte sie, dass sie an diesem Morgen beide etwas voneinander gelernt hatten: er von ihren alten Geschichten, sie von seinem neuen Tablet.\n\nFragen:\nWas ist besonders an der Bank am Marktplatz?\nSie gehört ihren Mitgliedern, also den Menschen aus dem Ort.\nWarum ging Frau Ostermann neulich zur Bank?\nSie hatte einen Brief bekommen und musste ihre Daten aktualisieren.\nWas lag auf dem Schreibtisch von Herrn Seidl?\nAuf seinem Schreibtisch lagen ein Kalender, ein Stift und ein Tablet.\nWie gab Frau Ostermann ihre Unterschrift?\nSie unterschrieb nach seiner Anweisung langsam mit dem Finger auf dem Tablet.\nWarum ist die Bank so solide?\nSie verleiht das Geld vor allem an Menschen aus der Region, und die Menschen dort wissen viel voneinander."
+    },
+    {
+      "title": "Ein volles Haus am Wochenende",
+      "summary": "Three siblings who run their parents' guesthouse share the work when a family books every room for a christening.",
+      "newWords": [
+        "Geschwister",
+        "Verteilung",
+        "aufeinander",
+        "Schlafzimmer",
+        "reinigen",
+        "Wiese",
+        "Taufe",
+        "Gottesdienst",
+        "großzügig",
+        "benehmen"
+      ],
+      "text": "Am Rand eines Dorfes im Allgäu, dort, wo die Straße endet und die Wiesen beginnen, steht ein Haus mit sieben Zimmern für Gäste. Früher führten es Herr und Frau Gruber. Seit drei Jahren führen es ihre Kinder, die drei Geschwister Anna, Markus und Theresa. Die Eltern wohnen noch im Haus, doch sie helfen nur noch, wenn sie Lust haben.\n\nAm Anfang haben die Geschwister oft gestritten, weil jeder alles machen wollte. Dann haben sie sich auf eine klare Verteilung der Arbeit geeinigt. Anna kocht das Frühstück und kauft ein. Markus kümmert sich um die Buchungen, die Rechnungen und das Geld. Theresa ist für die Zimmer verantwortlich: Sie reinigt die Bäder, wechselt die Betten und lüftet jedes Schlafzimmer, bevor neue Gäste kommen. Seit dieser Verteilung streiten sie kaum noch. Sie verlassen sich aufeinander, und jeder weiß, was er zu tun hat. Wenn besonders viel zu tun ist, achten sie aufeinander und helfen sich.\n\nIm Mai rief eine Frau aus München an. Ihre Tochter habe ein Kind bekommen, und die Taufe solle in der Kirche des Dorfes stattfinden. Sie wolle für das ganze Wochenende alle sieben Zimmer, damit die ganze Familie nah beieinander sei. Markus rechnete kurz: Ein volles Haus für zwei Nächte bedeutete so viel Geld wie sonst in einer ganzen ruhigen Woche.\n\nAm Samstag kamen die Gäste an, 18 Menschen mit Koffern, Kinderwagen und Blumen. Am Sonntagmorgen gingen alle zum Gottesdienst. Während des Gottesdienstes deckte Anna draußen auf der Wiese einen langen Tisch. Nach der Taufe kam die Familie zurück, und das Fest begann unter dem blauen Himmel. Die Wiese war satt grün, und die Berge standen klar am Horizont.\n\nDie Gäste benahmen sich gut. Die Kinder spielten auf der Wiese, und die Erwachsenen sprachen leise, als es dunkel wurde. Der Großvater des Kindes war besonders großzügig. Am Montag legte er beim Abschied einen Umschlag auf den Tisch, mit einer Karte und einem großzügigen Trinkgeld für die drei Geschwister. „Ihr habt euch um alles gekümmert“, schrieb er. „Wir haben uns hier wie zu Hause gefühlt.“\n\nAm Montagnachmittag war das Haus wieder still. Theresa ging von Zimmer zu Zimmer, um alles zu reinigen. In einem Schlafzimmer fand sie ein kleines Stofftier, das ein Kind vergessen hatte. Markus schickte es am nächsten Tag mit der Post nach München. So machen sie es immer, denn sie möchten, dass ihre Gäste noch lange gern an das Haus denken. Theresa sagte am Abend, Gäste, die sich so gut benehmen, wünsche sie sich jedes Wochenende.\n\nFragen:\nWer führt das Haus heute?\nDie drei Geschwister Anna, Markus und Theresa führen es.\nWie sieht die Verteilung der Arbeit aus?\nAnna kocht das Frühstück, Markus kümmert sich um das Geld, und Theresa reinigt die Zimmer.\nWarum wollte die Frau aus München alle Zimmer?\nDie Taufe des Kindes ihrer Tochter sollte im Dorf stattfinden, und die ganze Familie sollte nah beieinander sein.\nWas machte Anna während des Gottesdienstes?\nSie deckte draußen auf der Wiese einen langen Tisch.\nWie benahmen sich die Gäste?\nSie benahmen sich gut, und der Großvater war besonders großzügig."
+    },
+    {
+      "title": "Die letzte Rate",
+      "summary": "A young man who opened a bicycle repair shop with a bank loan pays the last instalment after five careful years.",
+      "newWords": [
+        "reparieren",
+        "pumpen",
+        "Helm",
+        "Batterie",
+        "Reichweite",
+        "Frist",
+        "ersparen",
+        "Unabhängigkeit",
+        "Diagnose",
+        "effizient"
+      ],
+      "text": "Vor fünf Jahren hat Jonas Kaya eine kleine Werkstatt für Fahrräder eröffnet, in einer ruhigen Seitenstraße in Freiburg. Er hatte zuvor zehn Jahre in einem großen Geschäft gearbeitet und Räder repariert, die andere Leute verkauft hatten. Irgendwann wollte er nicht mehr für einen Chef arbeiten. Er wollte seine eigene Werkstatt, seine eigenen Kunden, seine Unabhängigkeit.\n\nFür die Werkstatt brauchte er 40.000 Euro. Einen Teil hatte er erspart: In zehn Jahren hatte er 15.000 Euro gespart, jeden Monat ein wenig. Sein Erspartes reichte allerdings nicht für die Maschinen, die Miete und die ersten Ersatzteile. Den Rest lieh ihm die Bank. Der Vertrag war einfach: Jeden Monat musste Jonas eine Rate zahlen, und die Frist war immer der erste Tag des Monats.\n\nDie ersten Monate waren schwer. Manchmal kamen nur drei Kunden am Tag. Die Frist für die Rate kam trotzdem, jeden Monat, so pünktlich wie der Kalender. Jonas lernte, effizient zu arbeiten, denn je effizienter er war, desto mehr Räder schaffte er am Tag. Er ordnete sein Werkzeug so, dass er jedes Teil sofort fand. Er reparierte am Vormittag und nahm am Nachmittag neue Räder an. Kleine Dinge, zum Beispiel Luft in die Reifen pumpen, machte er kostenlos, während die Kunden warteten. „Wer bei mir umsonst Luft pumpen darf, bringt sein Rad zur Reparatur auch zu mir“, sagte er.\n\nBald kamen immer mehr Menschen mit Elektrorädern. Bei diesen Rädern ist die Batterie das teuerste Teil. Viele Kunden klagten, die Reichweite sei kleiner geworden: Früher seien sie 80 Kilometer weit gekommen, jetzt nur noch 40. Die Reichweite hängt allerdings nicht nur von der Batterie ab, sondern auch von den Reifen: Wer zu wenig Luft hat, kommt weniger weit. Jonas stellte deshalb immer zuerst eine genaue Diagnose. Oft war die Batterie gar nicht kaputt, sondern nur ein Kabel locker. So konnte er den Kunden eine neue Batterie für 600 Euro ersparen. Eine ehrliche Diagnose, dachte er, ist die beste Werbung.\n\nNeben den Reparaturen verkaufte er auch Helme, Lampen und Schlösser. Einen Helm, sagte er jedem Kunden, solle man nicht nur kaufen, sondern auch tragen. Viele Kinder aus der Nachbarschaft bekamen ihren ersten Helm bei ihm.\n\nIm Oktober dieses Jahres war die Frist zum letzten Mal da. Jonas überwies die letzte Rate an einem grauen Montagmorgen, noch bevor er die Werkstatt aufschloss. Dann setzte er sich einen Moment auf seinen Hocker zwischen den Rädern. Die Werkstatt gehörte jetzt ganz ihm. Am Abend lud er seine Freunde ein, und sie aßen Pizza zwischen den Fahrrädern. Unabhängigkeit, dachte Jonas, ist kein großes Gefühl, sondern ein ruhiges.\n\nFragen:\nWarum wollte Jonas eine eigene Werkstatt?\nEr wollte nicht mehr für einen Chef arbeiten, sondern seine Unabhängigkeit haben.\nWoher kam das Geld für die Werkstatt?\nEinen Teil hatte er erspart, den Rest lieh ihm die Bank.\nWann war die Frist für die Rate?\nDie Frist war immer der erste Tag des Monats.\nWorüber klagten viele Kunden mit Elektrorädern?\nSie klagten, die Reichweite ihrer Batterie sei kleiner geworden.\nWie konnte Jonas den Kunden oft Geld ersparen?\nEr stellte eine genaue Diagnose, und oft war nur ein Kabel locker, nicht die Batterie kaputt."
+    },
+    {
+      "title": "Bezahlt wird in Chiemgauer",
+      "summary": "A visitor to the Chiemsee region sees someone pay with a colourful local note and learns from the café owner how the Chiemgauer works.",
+      "newWords": [
+        "einführen",
+        "Abbildung",
+        "identisch",
+        "zumeist",
+        "abseits",
+        "denkbar",
+        "streben",
+        "größtenteils",
+        "Präsentation",
+        "welch"
+      ],
+      "text": "Im letzten Sommer verbrachte ich eine Woche am Chiemsee in Bayern. Am dritten Tag saß ich in einem kleinen Café, abseits der großen Straße, zwischen einem Blumenladen und einer Buchhandlung. Als ich bezahlen wollte, legte die Frau neben mir keinen Euro auf den Tisch, sondern einen bunten Schein mit der Abbildung einer Landschaft. „Das ist ein Chiemgauer“, sagte die Wirtin, als sie meinen fragenden Blick sah.\n\nDer Chiemgauer ist eine regionale Währung, also ein Geld, das nur in der Region gilt. Ein Chiemgauer ist im Wert identisch mit einem Euro: Wer 10 Euro tauscht, bekommt 10 Chiemgauer. Die Scheine sehen allerdings nicht identisch mit Euroscheinen aus. Jede Abbildung zeigt etwas aus der Gegend: Berge, Wasser, alte Häuser. Welch ein schöner Gedanke, dachte ich, dass Geld auch von seiner Heimat erzählen kann.\n\nDie Wirtin, Frau Lindner, setzte sich kurz zu mir. Sie erzählte, dass ein Lehrer mit seinen Schülern das Geld im Jahr 2003 als Schulprojekt einführte. Am Anfang hätten viele gelacht. Es sei kaum denkbar gewesen, neben dem Euro ein zweites Geld einzuführen. Doch die Schüler hielten in den Läden der Gegend eine Präsentation nach der anderen, und langsam machten immer mehr Geschäfte mit. Frau Lindner hatte selbst eine solche Präsentation gesehen. „Die Kinder waren damals besser vorbereitet als manche Firma“, sagte sie und lachte.\n\nDie Idee ist einfach. Wer in Chiemgauer bezahlt wird, kann das Geld nur in der Region ausgeben, beim Bäcker, im Café, auf dem Markt. So bleibt das Geld größtenteils dort, wo es verdient wurde, auch in kleinen Läden abseits der Städte. Außerdem verlieren die Scheine mit der Zeit ein wenig an Wert, wenn man sie lange liegen lässt. Deshalb gibt man sie zumeist schnell wieder aus, statt sie zu sparen. Wer die Scheine zurück in Euro tauscht, zahlt eine kleine Gebühr, und ein Teil davon geht an Vereine der Region, an Sportvereine, Schulen und Chöre.\n\n„Wir streben nicht danach, den Euro zu ersetzen“, sagte Frau Lindner. „Wir streben nur danach, dass das Geld nicht sofort aus der Gegend verschwindet.“ Ihre Kunden seien zumeist Leute aus dem Ort, und viele von ihnen zahlten gern in Chiemgauer. Ohne den Chiemgauer sei ihr Café heute kaum noch denkbar. Die Touristen dagegen zahlten größtenteils in Euro.\n\nBevor ich ging, tauschte ich 20 Euro in Chiemgauer. Welch eine einfache Idee, dachte ich. Am nächsten Tag kaufte ich damit Käse auf dem Markt und ein Buch in der Buchhandlung neben dem Café. Einen Schein habe ich behalten. Er liegt jetzt in meinem Schreibtisch, und manchmal betrachte ich seine Abbildung.\n\nFragen:\nWas ist der Chiemgauer?\nDer Chiemgauer ist eine regionale Währung, die nur in der Region gilt.\nWie viel ist ein Chiemgauer wert?\nEin Chiemgauer ist im Wert identisch mit einem Euro.\nWer hat den Chiemgauer eingeführt?\nEin Lehrer und seine Schüler haben ihn 2003 als Schulprojekt eingeführt.\nWarum gibt man die Scheine zumeist schnell aus?\nDie Scheine verlieren mit der Zeit ein wenig an Wert, wenn man sie liegen lässt.\nWonach streben die Menschen, die den Chiemgauer nutzen?\nSie streben danach, dass das Geld größtenteils in der Region bleibt."
+    },
+    {
+      "title": "Teppiche aus dem Netz",
+      "summary": "A weaver who sells her rugs online loses her shop page the night before a big sale, stays calm, and learns from a workshop to show honest photos.",
+      "newWords": [
+        "Teppich",
+        "Absturz",
+        "Panik",
+        "Anhang",
+        "Workshop",
+        "hip",
+        "täuschen",
+        "Kalender",
+        "dazwischen"
+      ],
+      "text": "Mira Hoffmann webt Teppiche. Ihre Werkstatt liegt in einem alten Stall am Rand eines Dorfes in Hessen, und durch die großen Fenster fällt das Licht auf den Webstuhl. Jeder Teppich ist aus Wolle von Schafen der Region, in warmen, satten Farben: Rot wie Herbstlaub, Blau wie der Himmel im Januar. Für einen großen Teppich braucht sie drei Wochen.\n\nFrüher verkaufte Mira ihre Teppiche nur auf Märkten. Seit zwei Jahren hat sie einen kleinen Laden im Internet. Ein Freund hatte ihr gesagt, handgemachte Teppiche seien gerade hip, besonders in den Städten. Er hatte recht. In hippen Wohnungen in Hamburg und Berlin liegen heute Teppiche aus ihrem Stall. Ihr Tag hat seitdem einen festen Rhythmus: Morgens packt sie Pakete, nachmittags webt sie, und dazwischen beantwortet sie Nachrichten von Kunden. Manchmal liegt dazwischen auch nur ein kurzer Spaziergang über die Felder.\n\nIm November stand in ihrem Kalender ein wichtiger Termin: der große Verkauf vor Weihnachten. Am Abend davor wollte sie noch neue Fotos auf ihre Seite laden. Plötzlich wurde der Bildschirm schwarz. Ihr alter Computer war abgestürzt, und nach dem Absturz ließ sich auch ihre Seite nicht mehr öffnen. Für einen Moment spürte Mira Panik. Dann atmete sie tief durch. Panik, sagte sie sich, repariert keinen Computer.\n\nSie rief ihren Freund an, und gemeinsam fanden sie den Fehler. Nach dem Absturz war nur eine Datei beschädigt worden, die Seite selbst war in Ordnung. Um Mitternacht war alles wieder online. Am nächsten Tag verkaufte Mira elf Teppiche, mehr als je zuvor an einem Tag.\n\nKurz darauf bekam sie eine Nachricht von einer Kundin aus Köln. Im Anhang war ein Foto des Teppichs auf ihrem Boden. „Auf Ihrer Seite sah das Rot heller aus“, schrieb die Kundin. Mira öffnete den Anhang und verglich die Bilder. Die Kundin hatte recht: Das helle Licht im Stall hatte die Farben auf ihren Fotos verändert. Sie wollte niemanden täuschen, doch ein Foto kann täuschen, auch ohne Absicht.\n\nIm Januar besuchte Mira deshalb einen Workshop für kleine Betriebe, die im Internet verkaufen. Der Workshop dauerte zwei Tage. Sie lernte, wie man Fotos bei natürlichem Licht macht und wie man Farben ehrlich beschreibt. Seitdem zeigt sie jeden Teppich zweimal: einmal im Stall und einmal in einem normalen Wohnzimmer. Heute kommen kaum noch Teppiche zurück. In ihrem Kalender steht für den Sommer schon der nächste Workshop.\n\nFragen:\nWoraus sind Miras Teppiche?\nSie sind aus Wolle von Schafen der Region.\nWas macht Mira zwischen dem Packen und dem Weben?\nDazwischen beantwortet sie Nachrichten von Kunden.\nWas geschah am Abend vor dem großen Verkauf?\nIhr Computer ist abgestürzt, und nach dem Absturz ließ sich ihre Seite nicht mehr öffnen.\nWas war im Anhang der Nachricht aus Köln?\nIm Anhang war ein Foto des Teppichs auf dem Boden der Kundin.\nWas hat Mira im Workshop gelernt?\nSie hat gelernt, Fotos bei natürlichem Licht zu machen und Farben ehrlich zu beschreiben."
+    },
+    {
+      "title": "Die Wirtschaft des Wochenmarkts",
+      "summary": "A columnist walks through the Saturday market and asks two stallholders how a market stall pays for itself.",
+      "newWords": [
+        "wöchentlich",
+        "Pilz",
+        "muslimisch",
+        "Kasten",
+        "Aufstellung",
+        "vorm",
+        "aha",
+        "schlank",
+        "Bann"
+      ],
+      "text": "Jeden Samstag um 7 Uhr verwandelt sich der Platz vorm Rathaus. Wo unter der Woche Autos parken, stehen dann 40 Stände mit weißen Dächern. Der Markt findet wöchentlich statt, seit über 100 Jahren, und ich gehe fast jede Woche hin. Sobald ich den Platz betrete, zieht mich der Markt in seinen Bann: der Geruch von frischem Brot, die Stimmen der Händler, die Farben des Gemüses in den hölzernen Kästen.\n\nDie Aufstellung der Stände ist jede Woche dieselbe. Die Stadt legt sie fest, und jeder Händler hat seinen Platz. Der Käse steht neben dem Brunnen, die Blumen stehen vor der Kirche, und das Gemüse steht in einer langen Reihe dazwischen. Wer neu ist, bekommt einen Platz am Rand. Die Aufstellung ist so alt, dass manche Kunden ihren Weg über den Markt seit Jahrzehnten nicht geändert haben.\n\nAn diesem Samstag wollte ich wissen, wie sich so ein Stand eigentlich lohnt. Ich begann bei Frau Brenner, die Pilze verkauft. Sie zieht sie selbst, in einem dunklen Keller unter ihrem Hof. Vor ihr lag in flachen Kästen Pilz neben Pilz, hell und braun, groß und klein. Ihr Betrieb sei schlank, erklärte sie: kein Laden, keine Miete, nur eine Gebühr an die Stadt, ein Auto und ihre Zeit. „Ein schlanker Betrieb hat kleine Kosten“, sagte sie. „Deshalb kann ich von wenigen guten Tagen leben.“ Ich fragte, was der beste Pilz für eine Suppe sei. „Der von heute“, sagte sie.\n\nAm Stand gegenüber verkauft die Familie Aydın Oliven, warmes Brot und kleine Salate. Die Familie ist muslimisch und kommt seit 15 Jahren jede Woche auf den Markt. Herr Aydın erzählte, dass viele muslimische Kunden aus anderen Städten nur wegen seines Standes kommen. Danach kaufen sie oft auch bei den anderen Händlern ein, Käse, Gemüse, Blumen. „Ein Markt ist wie ein Garten“, sagte er. „Wenn ein Stand blüht, blühen die anderen mit.“\n\n„Aha“, sagte ich, „dann ist der Markt also ein Team.“ Herr Aydın lachte. „Nicht immer“, sagte er. „Wenn es regnet, ist jeder allein mit seinem Kasten Oliven.“\n\nDer Markt hielt mich auch an diesem Samstag lange in seinem Bann. Auf dem Weg nach Hause trug ich eine Tasche voller Pilze und ein Glas Oliven. Ich dachte daran, wie viel Wirtschaft in einem einzigen Vormittag vorm Rathaus steckt. Aha, dachte ich, deshalb gehe ich wöchentlich hin: nicht nur wegen der Ware, sondern wegen der Menschen, die sie verkaufen.\n\nFragen:\nWie oft findet der Markt statt?\nDer Markt findet wöchentlich statt, jeden Samstag vorm Rathaus.\nWer legt die Aufstellung der Stände fest?\nDie Stadt legt die Aufstellung fest.\nWarum ist der Betrieb von Frau Brenner schlank?\nSie hat keinen Laden und keine Miete, nur eine Gebühr, ein Auto und ihre Zeit.\nWas verkauft die Familie Aydın?\nDie Familie verkauft Oliven, warmes Brot und kleine Salate.\nWarum sagt Herr Aydın, ein Markt sei wie ein Garten?\nWenn ein Stand blüht, kaufen die Kunden auch bei den anderen Händlern ein."
+    },
+    {
+      "title": "Lenas erste eigene Wohnung",
+      "summary": "In her diary, a young nursery teacher writes about moving out of her parents' home and learning to keep track of her money.",
+      "newWords": [
+        "ausziehen",
+        "eigenständig",
+        "Kita",
+        "Erfüllung",
+        "fähig",
+        "Beschäftigung",
+        "auffordern",
+        "Hirn"
+      ],
+      "text": "Montag, 2. September\n\nHeute bin ich ausgezogen. Mein Vater hat die Kisten in sein Auto geladen, meine Mutter hat geweint, obwohl die neue Wohnung nur 4 Kilometer entfernt ist. Ich bin 22 Jahre alt, und zum ersten Mal habe ich zwei Zimmer, die nur mir gehören. Sie sind klein und hell, mit einem Fenster zum Hof. Ich wollte schon lange ausziehen, aber erst jetzt habe ich genug Geld dafür.\n\nSeit einem Jahr arbeite ich als Erzieherin in einer Kita am Park. Die Beschäftigung ist fest, das Gehalt ist nicht groß, aber sicher. Eine feste Beschäftigung ist für junge Leute heute nicht selbstverständlich. Die Arbeit in der Kita ist für mich eine echte Erfüllung. Wenn ein Kind am Morgen weint und am Nachmittag lacht, weiß ich, wofür ich arbeite. Ich glaube, viele Menschen suchen lange nach so einer Erfüllung.\n\nMittwoch, 4. September\n\nMeine Mutter hat mich heute angerufen. Sie hat mich aufgefordert, alle meine Ausgaben in ein Heft zu schreiben. „Wer eigenständig leben will, muss wissen, wohin das Geld geht“, hat sie gesagt. Zuerst habe ich gelacht. Ich bin doch fähig, mit meinem eigenen Geld umzugehen! Dann habe ich trotzdem ein Heft gekauft.\n\nFreitag, 13. September\n\nDas Heft ist voll von Zahlen, und mein Hirn ist müde. Die Miete kostet 650 Euro, Strom und Internet 90 Euro, das Ticket für den Bus 49 Euro. Für Essen gebe ich viel mehr aus, als ich gedacht hatte. Am meisten kosten die kleinen Dinge: ein Kaffee hier, ein Brötchen dort. Ich habe lange mein Hirn angestrengt und mich gefragt, wie meine Mutter das früher mit drei Kindern geschafft hat.\n\nSonntag, 29. September\n\nDer erste Monat ist vorbei. Am Ende sind 80 Euro übrig geblieben. Das ist nicht viel, aber es ist mein Geld. Ich habe einen Plan gemacht: Ich koche jetzt am Sonntag für die ganze Woche und nehme mein Essen mit in die Kita. Meine Kollegen haben gefragt, ob ich jetzt Köchin werden wolle.\n\nHeute war ich zum Essen bei meinen Eltern. Meine Mutter hat gefragt, ob ich das Heft benutze. Ich habe es ihr gezeigt. Sie hat genickt und nichts gesagt, aber sie hat gelächelt. Ich glaube, sie wollte mich nicht kontrollieren. Sie wollte nur, dass ich fähig bin, eigenständig zu leben. Und das bin ich. Sie musste mich nicht zweimal auffordern.\n\nFragen:\nWann ist Lena ausgezogen?\nSie ist am 2. September ausgezogen.\nWo arbeitet Lena?\nSie arbeitet als Erzieherin in einer Kita am Park.\nWas bedeutet die Arbeit für sie?\nDie Arbeit ist für sie eine echte Erfüllung.\nWozu hat die Mutter Lena aufgefordert?\nSie hat Lena aufgefordert, alle Ausgaben in ein Heft zu schreiben.\nWas wollte die Mutter eigentlich?\nSie wollte, dass Lena fähig ist, eigenständig zu leben."
+    },
+    {
+      "title": "Schuld und Schulden",
+      "summary": "At an evening course a well-known economist explains why the German words for guilt and debt are so close, from old religious rules to modern credit.",
+      "newWords": [
+        "Weiterbildung",
+        "akademisch",
+        "philosophisch",
+        "Dissertation",
+        "prominent",
+        "Christentum",
+        "Gnade",
+        "nominieren"
+      ],
+      "text": "Seit Herbst besuche ich jeden Dienstag einen Kurs zur Weiterbildung an der Hochschule unserer Stadt. Der Kurs heißt „Geschichte des Geldes“, und er richtet sich an Menschen wie mich, die keine Ökonomen sind, aber verstehen wollen, wie Geld funktioniert. Die Weiterbildung ist kostenlos, und der Raum ist jedes Mal voll.\n\nAn diesem Dienstag sprach ein prominenter Gast: Professorin Albrecht, deren Gesicht viele aus dem Fernsehen kennen. Ihr letztes Buch war im Frühling für einen großen Preis nominiert worden. Sie lächelte, als jemand danach fragte. „Nominiert zu sein ist schön“, sagte sie, „aber gewonnen hat ein anderer.“ Trotz ihres Erfolgs sprach sie nicht wie eine prominente Person, sondern wie eine gute Lehrerin.\n\nSie begann mit einer Frage, die eher philosophisch als ökonomisch klang: Warum hat die deutsche Sprache für zwei so verschiedene Dinge fast dasselbe Wort? Wer sich Geld leiht, hat Schulden. Wer etwas Falsches tut, hat Schuld. Die Frage sei philosophischer Natur, sagte sie, doch die Antwort habe viel mit Geld zu tun. Über diese Frage hatte Professorin Albrecht schon ihre Dissertation geschrieben, vor über 20 Jahren. „Meine Dissertation war sehr akademisch“, sagte sie. „Heute versuche ich, dasselbe einfacher zu erzählen.“\n\nSie erklärte, dass man in früheren Zeiten Schulden oft als moralisches Problem sah. Im Christentum war es lange verboten, für geliehenes Geld Zinsen zu nehmen. Wer Geld brauchte, sollte Hilfe bekommen, keine Rechnung. Im Christentum gibt es außerdem den Gedanken der Gnade: Man bekommt etwas, das man nicht verdient hat, weil jemand großzügig ist. In alten Zeiten zeigten auch manche Könige Gnade, indem sie den armen Bauern ihre Schulden erließen.\n\nHeute, sagte Professorin Albrecht, sei ein Kredit keine moralische Frage mehr, sondern ein Vertrag. Man leiht sich Geld, damit man ein Haus kaufen oder eine Werkstatt eröffnen kann, und man zahlt es mit Zinsen zurück. Das sei nichts Schlechtes, es sei denn, man leihe sich mehr, als man zurückzahlen könne. Trotzdem stecke in unserer Sprache noch die alte Vorstellung, dass Schulden etwas mit Schuld zu tun hätten.\n\nNach dem Vortrag blieben viele Teilnehmer noch sitzen. Eine ältere Frau sagte, sie habe sich immer geschämt, wenn sie Schulden hatte. Die Professorin antwortete ruhig, man müsse sich für einen ehrlichen Kredit nicht schämen. Ich ging an diesem Abend langsam nach Hause. Akademisch war der Vortrag nicht gewesen, doch er hat mir mehr erklärt als manches Buch.\n\nFragen:\nWas für einen Kurs besucht der Autor?\nEr besucht jeden Dienstag einen Kurs zur Weiterbildung über die Geschichte des Geldes.\nWer war Professorin Albrecht?\nSie war ein prominenter Gast, und ihr Buch war für einen großen Preis nominiert worden.\nWelche philosophische Frage stellte sie?\nSie fragte, warum die deutsche Sprache für Schulden und Schuld fast dasselbe Wort hat.\nWas war im Christentum lange verboten?\nEs war verboten, für geliehenes Geld Zinsen zu nehmen.\nWas bedeutet der Gedanke der Gnade?\nMan bekommt etwas, das man nicht verdient hat, weil jemand großzügig ist."
+    },
+    {
+      "title": "Wie der kleine Zoo gerettet wurde",
+      "summary": "When the town zoo runs short of money, its townspeople, a children's summer camp and a little train help it end the year in the black.",
+      "newWords": [
+        "Zoo",
+        "Rettung",
+        "Camp",
+        "Demonstrant",
+        "weigern",
+        "verabschiedet",
+        "Bilanz",
+        "Baustelle",
+        "Passagier"
+      ],
+      "text": "Am Rand unserer Stadt liegt ein kleiner Zoo mit Schafen, Affen, bunten Vögeln und zwei alten Bären. Er ist kein berühmter Zoo, doch fast jedes Kind der Stadt hat dort zum ersten Mal einen Bären gesehen. Vor drei Jahren war die Bilanz des Zoos schlecht. Das Futter war teurer geworden, das Dach über den Bären war kaputt, und es kamen weniger Besucher als früher.\n\nDer Direktor, Herr Petersen, bat die Stadt um Hilfe. Doch die Politiker der Stadt weigerten sich zuerst, mehr Geld zu geben. Die Kasse der Stadt sei leer, hieß es, und man könne nicht alles bezahlen. Herr Petersen weigerte sich allerdings, aufzugeben. Er schrieb Briefe, sprach mit Zeitungen und lud jeden in den Zoo ein, der zuhören wollte.\n\nIm Frühling standen an einem Samstag 300 Menschen vor dem Rathaus. Die Demonstranten waren Eltern, Kinder und Großeltern, und sie trugen Schilder mit bunten Bildern von Tieren. Es war eine ruhige, freundliche Demonstration. Ein kleines Mädchen hielt ein Bild von einem Bären hoch, darunter stand: „Rettet unseren Zoo!“ Die Demonstranten sangen, gaben den Politikern Kuchen und gingen nach zwei Stunden wieder nach Hause.\n\nDanach verhandelten die Politiker neu. Im Sommer wurde ein Plan zur Rettung des Zoos verabschiedet. Die Stadt würde fünf Jahre lang einen Teil der Kosten tragen, unter einer Bedingung: Der Zoo musste selbst neue Einnahmen finden. Der Plan wurde mit großer Mehrheit verabschiedet.\n\nHerr Petersen hatte zwei Ideen. Die erste war ein Camp für Kinder in den Ferien im Sommer. Eine Woche lang füttern die Kinder die Tiere, reinigen ihre Häuser und lernen, was ein Zoo jeden Tag braucht. Alle Plätze im Camp waren sofort vergeben. Die zweite Idee war eine kleine Bahn, die mit bis zu 20 Passagieren durch den Zoo fährt. Jeder Passagier zahlt 2 Euro, und die Kinder winken den Bären zu. Für die Bahn gab es einige Monate lang eine Baustelle am Eingang, doch die Besucher kamen trotzdem, um der Baustelle zuzusehen.\n\nHeute ist die Baustelle verschwunden, die Bären haben ein neues Dach, und der Zoo hat das letzte Jahr zum ersten Mal mit einer guten Bilanz abgeschlossen. Die Rettung des Zoos war nicht das Werk einer einzigen Person. Sie war das Werk einer ganzen Stadt.\n\nFragen:\nWarum war die Bilanz des Zoos vor drei Jahren schlecht?\nDas Futter war teurer geworden, das Dach über den Bären war kaputt, und es kamen weniger Besucher.\nWas taten die Politiker der Stadt zuerst?\nSie weigerten sich, mehr Geld zu geben.\nWie waren die Demonstranten vor dem Rathaus?\nSie waren ruhig und freundlich, und sie trugen Schilder mit bunten Bildern von Tieren.\nWas wurde im Sommer verabschiedet?\nIm Sommer wurde ein Plan zur Rettung des Zoos verabschiedet.\nWelche zwei Ideen hatte Herr Petersen?\nEr hatte die Idee eines Camps für Kinder und einer kleinen Bahn für Passagiere."
+    }
+  ]
+}
