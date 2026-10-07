@@ -1,0 +1,238 @@
+{
+  "id": "fr-mini-3600",
+  "rankUpTo": 3600,
+  "level": "B2",
+  "title": "La mer et le littoral",
+  "description": "Ten stories and columns from French-speaking coasts: salt harvesting, a walled port city, a lighthouse, fishermen in Dakar, a rock in Quebec, a coastal tram, a beach for everyone, twins on holiday, a boat breakdown and a surf language camp.",
+  "topic": "The sea and the coast",
+  "names": [
+    "France",
+    "Nantes",
+    "Guérande",
+    "Zoé",
+    "Yann",
+    "Paris",
+    "Japon",
+    "Allemagne",
+    "Malo",
+    "Hélène",
+    "Galles",
+    "Vincent",
+    "Louis",
+    "Angleterre",
+    "Hollande",
+    "Malouins",
+    "Malouin",
+    "Gatteville",
+    "Cotentin",
+    "Normandie",
+    "Marcel",
+    "Inès",
+    "Cherbourg",
+    "Dakar",
+    "Yoff",
+    "Ouakam",
+    "Lucie",
+    "Thomas",
+    "Moussa",
+    "Fatou",
+    "Liège",
+    "Percé",
+    "Gaspésie",
+    "Québec",
+    "Montréal",
+    "Denis",
+    "Ostende",
+    "Knokke",
+    "Bruxelles",
+    "Belgique",
+    "Jacques",
+    "Paul",
+    "Marie",
+    "Antibes",
+    "Karim",
+    "Nadia",
+    "Sophie",
+    "Sète",
+    "Henri",
+    "Léon",
+    "Lyon",
+    "Bonifacio",
+    "Corse",
+    "Lavezzi",
+    "Ange",
+    "Camille",
+    "Anglet",
+    "Elsa",
+    "Stockholm",
+    "Jack",
+    "Sydney",
+    "Lindqvist"
+  ],
+  "lessons": [
+    {
+      "title": "Le sel de Guérande",
+      "summary": "In the salt marshes of Guérande, a Paris student spends July with her uncle and learns to harvest salt.",
+      "newWords": [
+        "récolter",
+        "grain",
+        "ramasser",
+        "exportation",
+        "modéré",
+        "teint",
+        "constamment",
+        "fierté",
+        "sacrifice",
+        "bâton"
+      ],
+      "text": "Entre la ville de Guérande et l'océan s'étendent des marais où l'on récolte le sel depuis plus de mille ans. C'est là que Zoé, une étudiante parisienne de 20 ans, passa le mois de juillet chez son oncle Yann, qui récolte le sel comme son père et son grand-père avant lui.\n\nLe premier matin, Yann lui montra son outil : un long bâton de bois, terminé par une petite planche. « Avec ce bâton, on pousse doucement le sel vers le bord du bassin, expliqua-t-il. Surtout, il ne faut jamais toucher le fond, qui est en argile, sinon le sel devient gris. » Zoé prit le bâton. Il était bien plus lourd qu'elle ne le pensait.\n\nLe travail dépend constamment du temps. Il faut du soleil et un vent modéré : si le vent est trop fort, il apporte du sable ; s'il est trop faible, le sel ne se forme pas. Yann regardait constamment le ciel, et il écoutait la météo trois fois par jour. Quand il pleut, on ne peut rien récolter.\n\nL'après-midi, quand la chaleur devenait plus modérée, ils allaient ramasser le sel. Zoé apprit d'abord à ramasser la fleur de sel, ces petits grains blancs et légers qui se forment à la surface de l'eau par les jours chauds. Il fallait les ramasser avec soin, sans les mouiller. Le soir, elle regardait les grains briller dans sa main comme du sucre.\n\nAu bout d'une semaine, Zoé avait le teint doré de ceux qui vivent dehors. « Tu as le teint d'une vraie fille des marais ! » lui dit son oncle en riant.\n\nCe métier demande pourtant des sacrifices. Yann ne part jamais en vacances l'été, puisque c'est la seule saison où l'on peut récolter le sel. Il travaille aussi le dimanche. « C'est un sacrifice, reconnut-il, mais je ne changerais de métier pour rien au monde. »\n\nUne partie du sel part à l'étranger : l'exportation vers le Japon ou l'Allemagne compte beaucoup pour les marais. Yann est content de cette exportation, mais sa vraie fierté est ailleurs. « Ma fierté, c'est de faire les mêmes gestes que mon grand-père », dit-il.\n\nLe dernier jour, Zoé repartit à Paris avec un petit sac de grains de sel. Chaque grain, maintenant, avait pour elle le goût du soleil et de la patience.\n\nQuestions :\nQue fait Yann dans les marais de Guérande ?\nIl récolte le sel, comme son père et son grand-père avant lui.\nPourquoi ne faut-il pas toucher le fond du bassin avec le bâton ?\nParce que le fond est en argile, et le sel deviendrait gris.\nDe quel temps Yann a-t-il besoin pour travailler ?\nIl a besoin de soleil et d'un vent modéré.\nQu'est-ce que la fleur de sel ?\nCe sont de petits grains blancs et légers qui se forment à la surface de l'eau par les jours chauds.\nQuel sacrifice Yann fait-il chaque été ?\nIl ne part jamais en vacances, puisque l'été est la seule saison où l'on peut récolter le sel.\nQuelle est la vraie fierté de Yann ?\nSa fierté, c'est de faire les mêmes gestes que son grand-père."
+    },
+    {
+      "title": "Une ville sur la mer",
+      "summary": "A guide shows a group of visitors around Saint-Malo and tells the history of its cathedral, its short-lived republic and the attack of 1693.",
+      "newWords": [
+        "cathédrale",
+        "moine",
+        "souveraineté",
+        "entité",
+        "distinct",
+        "coalition",
+        "assaut",
+        "domination",
+        "librairie"
+      ],
+      "text": "Il y a des villes qu'on visite et des villes qu'on écoute. Saint-Malo appartient à la seconde catégorie, du moins quand on la découvre avec Hélène, une guide qui connaît chaque mur de la vieille ville.\n\nNous étions une quinzaine de visiteurs, ce matin-là, au pied des remparts. Hélène commença par le nom de la ville. « Saint-Malo porte le nom d'un moine venu du pays de Galles au 6e siècle, nous dit-elle. Ce moine traversa la mer sur un petit bateau pour apporter sa foi aux Bretons. » Je regardai l'eau grise et j'imaginai le courage de ce moine, seul au milieu des vagues.\n\nNous entrâmes ensuite dans la cathédrale Saint-Vincent. La cathédrale est haute et un peu sombre, et ses fenêtres de couleur jettent sur les murs des taches bleues et rouges. « En 1944, pendant la guerre, la ville fut presque entièrement détruite, expliqua Hélène. La cathédrale aussi. Il a fallu des années pour la reconstruire. »\n\nPuis elle nous raconta l'histoire dont les Malouins sont le plus fiers. En 1590, la ville refusa d'obéir au roi et au duc, et elle se déclara république. Pendant quatre ans, Saint-Malo fut une entité distincte, avec son propre gouvernement. « Les Malouins défendaient leur souveraineté, dit Hélène en souriant. Leur devise était : “Ni Français, ni Breton, Malouin suis.” » Cette souveraineté ne dura pas, mais la ville garda l'idée qu'elle était une entité à part, avec un caractère bien distinct.\n\nSur les remparts, le vent soufflait fort. Hélène nous montra la mer. « En 1693, l'Angleterre et la Hollande faisaient partie d'une grande coalition contre la France. Ces deux pays voulaient la domination des mers, et Saint-Malo les gênait, puisque ses marins attaquaient leurs navires. » Une nuit de novembre, la flotte de la coalition lança un assaut contre la ville. Les Anglais envoyèrent même vers les remparts un navire plein de poudre, qui explosa avant d'arriver. L'assaut échoua. D'autres assauts eurent lieu dans les années qui suivirent, sans plus de succès. « Les dégâts furent importants, conclut Hélène, mais la domination anglaise ne s'installa jamais ici. »\n\nAvant de partir, j'entrai dans une petite librairie près de la cathédrale. Dans cette librairie, une étagère entière parlait de la mer et des marins. J'en sortis avec deux livres sous le bras. Le soir, assis sur les remparts, je commençai le premier, tandis que la mer montait doucement contre les murs.\n\nQuestions :\nD'où vient le nom de Saint-Malo ?\nLa ville porte le nom d'un moine venu du pays de Galles au 6e siècle.\nQu'est-il arrivé à la cathédrale en 1944 ?\nElle a été presque entièrement détruite, comme la ville, puis on l'a reconstruite.\nQue s'est-il passé à Saint-Malo en 1590 ?\nLa ville s'est déclarée république, et elle est devenue pendant quatre ans une entité distincte.\nPourquoi la coalition a-t-elle lancé un assaut contre la ville en 1693 ?\nParce que l'Angleterre et la Hollande voulaient la domination des mers, et que les marins de Saint-Malo attaquaient leurs navires.\nQu'a fait le narrateur avant de partir ?\nIl est entré dans une petite librairie, et il en est sorti avec deux livres."
+    },
+    {
+      "title": "Le gardien du phare",
+      "summary": "When the old keeper of a Normandy lighthouse resigns, a former art teacher applies for the post and gets it.",
+      "newWords": [
+        "phare",
+        "flash",
+        "volet",
+        "grille",
+        "enveloppe",
+        "pourvoir",
+        "démission",
+        "craquer",
+        "urgent"
+      ],
+      "text": "Au nord-est du Cotentin, en Normandie, le phare de Gatteville se dresse au bout d'une pointe battue par le vent. C'est l'un des plus hauts phares de France : 75 mètres, et 365 marches pour arriver en haut. Depuis longtemps, il fonctionne seul. Chaque nuit, sa lumière envoie un flash blanc, puis un autre, toujours au même rythme. Les marins reconnaissent chaque phare à son rythme de flashs, comme on reconnaît une voix.\n\nPourtant, la commune garde un gardien pour accueillir les visiteurs et entretenir la tour. Au printemps, Marcel, le gardien, donna sa démission : à 66 ans, il voulait enfin se reposer. Sa démission laissait un poste à pourvoir avant l'été. La mairie publia une annonce : « Poste de gardien à pourvoir. Candidature à envoyer avant le 30 avril. Urgent. » Le mot « urgent » était écrit en lettres rouges.\n\nInès, une ancienne professeure de dessin, lut l'annonce un soir, chez elle, à Cherbourg. Elle aimait la mer depuis l'enfance. Le soir même, elle écrivit une lettre, la glissa dans une enveloppe et posta l'enveloppe le lendemain matin. Deux semaines plus tard, une autre enveloppe arriva : la mairie voulait la rencontrer.\n\nC'est Marcel qui lui fit visiter le phare. Ils montèrent lentement les 365 marches. Tout en haut, une grille de fer protégeait le balcon. Inès se tint à la grille et regarda la mer : on voyait les bateaux, les vagues blanches et, très loin, une ligne grise. « Par beau temps, on voit presque l'Angleterre », dit Marcel.\n\nIls redescendirent ensuite vers la petite maison du gardien. Le vieux plancher craquait sous leurs pieds. « Quand le plancher craque, c'est la maison qui parle, dit Marcel. Il ne faut pas avoir peur. » Il montra à Inès les volets bleus des fenêtres. « Le soir, il faut toujours fermer les volets. Ici, le vent arrive sans prévenir. »\n\nLe poste fut pourvu à la fin du mois de mai. Le 1er juin, Inès s'installa dans la maison du gardien. Le premier soir, elle ferma les volets, écouta le plancher craquer, puis elle sortit regarder le phare. Au-dessus d'elle, le flash blanc passait sur la mer, toujours au même rythme. Rien ne lui sembla urgent, ce soir-là. Elle était enfin chez elle.\n\nQuestions :\nComment les marins reconnaissent-ils un phare ?\nIls le reconnaissent à son rythme de flashs, comme on reconnaît une voix.\nPourquoi Marcel a-t-il donné sa démission ?\nParce qu'à 66 ans, il voulait enfin se reposer.\nQu'a fait Inès après avoir lu l'annonce ?\nElle a écrit une lettre, elle l'a glissée dans une enveloppe et elle a posté l'enveloppe le lendemain.\nQu'est-ce qui protégeait le balcon, en haut du phare ?\nUne grille de fer protégeait le balcon.\nPourquoi faut-il fermer les volets le soir ?\nParce qu'ici, le vent arrive sans prévenir."
+    },
+    {
+      "title": "Le retour des bateaux",
+      "summary": "In an e-mail to her brother, a young Belgian woman working in Dakar describes the fishermen's return at Yoff beach and the Mosque of the Divinity.",
+      "newWords": [
+        "mosquée",
+        "filet",
+        "vingtaine",
+        "épargne",
+        "pressé",
+        "apport",
+        "fabrique",
+        "considérable"
+      ],
+      "text": "Cher Thomas,\n\nMe voici à Dakar depuis trois semaines, et je commence enfin à comprendre le rythme de la ville. Ce matin, je me suis levée à 6 heures pour voir revenir les pêcheurs sur la plage de Yoff. Je t'écris tout de suite, pendant que les images sont encore fraîches.\n\nSur la plage, il y avait déjà une foule considérable. Les bateaux de pêche, longs, étroits et peints de toutes les couleurs, arrivaient un par un. Leur nombre était considérable : j'en ai compté plus de cinquante. Sur chaque bateau, il y avait une vingtaine d'hommes. Mon voisin Moussa est pêcheur ; il était sur le troisième bateau. Il m'a expliqué que son équipage était parti la veille au soir et qu'ils avaient lancé leur grand filet au milieu de la nuit. Le filet était si lourd qu'il fallait une vingtaine de bras pour le tirer sur le sable.\n\nTout le monde était pressé. Les femmes attendaient au bord de l'eau avec de grands seaux. Elles étaient pressées d'acheter le poisson pour aller le revendre au marché avant la chaleur. Moussa, lui, n'était pas pressé : il riait avec ses amis et réparait déjà un trou dans son filet.\n\nPrès de la plage, il y a une petite fabrique de glace. Les pêcheurs y achètent de la glace pour garder le poisson frais. Sans cette fabrique, m'a dit Moussa, une partie du poisson serait perdue avant midi. Ici, la mer est un apport essentiel : le poisson est l'apport principal de protéines pour beaucoup de familles, et on le mange presque tous les jours, avec du riz.\n\nLa femme de Moussa, Fatou, m'a invitée à déjeuner. Elle m'a parlé de son épargne. Avec d'autres femmes du quartier, elle met chaque semaine un peu d'argent dans une caisse commune. Chaque mois, l'une d'elles reçoit toute la somme. Grâce à cette épargne, Fatou a pu acheter un grand frigo, de sorte qu'elle peut maintenant garder le poisson plusieurs jours.\n\nL'après-midi, je suis allée à pied jusqu'à Ouakam, pour voir la mosquée de la Divinité. Elle est toute blanche, avec deux hautes tours, et elle se trouve au bord de la mer, au pied d'une falaise. Le vendredi, des centaines de personnes viennent prier dans cette mosquée. Moi, je suis restée dehors, sur les roches, à regarder les vagues. Je crois que c'est le plus bel endroit de Dakar.\n\nEmbrasse les parents pour moi. Je rentre à Liège en septembre.\n\nLucie\n\nQuestions :\nPourquoi Lucie s'est-elle levée à 6 heures ?\nPour voir revenir les pêcheurs sur la plage de Yoff.\nCombien d'hommes y avait-il sur chaque bateau ?\nIl y avait une vingtaine d'hommes sur chaque bateau.\nPourquoi les femmes étaient-elles pressées ?\nParce qu'elles voulaient revendre le poisson au marché avant la chaleur.\nÀ quoi sert la fabrique de glace ?\nLes pêcheurs y achètent de la glace pour garder le poisson frais.\nQu'est-ce que Fatou a pu acheter grâce à son épargne ?\nElle a pu acheter un grand frigo pour garder le poisson plusieurs jours.\nOù se trouve la mosquée de la Divinité ?\nElle se trouve à Ouakam, au bord de la mer, au pied d'une falaise."
+    },
+    {
+      "title": "Le rocher Percé",
+      "summary": "On a trip to Percé, in Quebec's Gaspé Peninsula, the columnist eats poutine with a restaurant owner who tells him how the sea is eating the coast.",
+      "newWords": [
+        "rocher",
+        "percer",
+        "progression",
+        "accroître",
+        "inquiétude",
+        "compromis",
+        "statistique",
+        "déficit",
+        "poutine"
+      ],
+      "text": "Le rocher Percé est sans doute le rocher le plus célèbre du Québec. Il se dresse dans la mer, au bout de la Gaspésie, comme un immense navire de roche arrêté devant le village. Il doit son nom à la mer elle-même : au cours des siècles, les vagues ont percé le rocher et creusé une grande ouverture, à travers laquelle on voit le ciel. Autrefois, il y avait même deux ouvertures, mais la seconde est tombée en 1845.\n\nCet été, j'ai passé trois jours à Percé. Le premier soir, sur la promenade, je suis entré chez Denis, qui tient un petit restaurant face au rocher depuis 30 ans. J'ai commandé une poutine : des frites, du fromage en grains et une sauce brune très chaude. Pour un Québécois, une poutine au bord de la mer, devant le rocher, c'est le bonheur.\n\nDenis s'est assis à ma table. Très vite, il m'a parlé de la mer, et de son inquiétude. « Chaque année, la mer avance un peu, m'a-t-il dit. Avant, l'hiver, la glace protégeait la côte. Maintenant, il y a moins de glace, et les tempêtes frappent la terre directement. » Selon une statistique publiée par la municipalité, certaines parties de la côte reculent de plus d'un mètre par an. Cette statistique, Denis la connaît par cœur.\n\nLa progression de la mer n'est pas nouvelle : c'est la même force qui a percé le rocher, il y a des milliers d'années. Mais le manque de glace et la force des tempêtes ont accru la vitesse de cette progression. En 2016, une grosse tempête a détruit une partie de la promenade. L'inquiétude des habitants s'est encore accrue.\n\nLa ville avait déjà un déficit, et les travaux coûtaient très cher. Certains voulaient construire un grand mur de béton ; d'autres disaient qu'un mur ferait disparaître la plage. Après de longues discussions, on a trouvé un compromis : au lieu d'un mur, on a apporté des tonnes de petites roches sur la plage, pour casser la force des vagues. Malgré son déficit, la ville a payé une partie des travaux, et le gouvernement a payé le reste. « Ce compromis ne règle pas tout, a reconnu Denis, mais la promenade est plus belle qu'avant. »\n\nLe dernier soir, j'ai mangé une dernière poutine chez Denis, en regardant le soleil descendre derrière le rocher. La mer continuera d'avancer, quoi qu'on fasse. Pourvu qu'elle nous laisse encore longtemps ce paysage.\n\nQuestions :\nD'où vient le nom du rocher Percé ?\nLes vagues ont percé le rocher et creusé une grande ouverture, à travers laquelle on voit le ciel.\nQu'est-ce qu'une poutine ?\nC'est un plat de frites, avec du fromage en grains et une sauce brune très chaude.\nQue dit la statistique de la municipalité ?\nElle dit que certaines parties de la côte reculent de plus d'un mètre par an.\nPourquoi la progression de la mer est-elle plus rapide aujourd'hui ?\nParce qu'il y a moins de glace en hiver et que les tempêtes frappent la terre directement.\nQuel compromis a-t-on trouvé après la tempête de 2016 ?\nAu lieu de construire un mur, on a apporté des tonnes de petites roches sur la plage."
+    },
+    {
+      "title": "Le tram de la côte",
+      "summary": "A retired magistrate and his husband, who live in Ostend, take the Belgian coast tram to Knokke for a day by the sea.",
+      "newWords": [
+        "magistrat",
+        "résider",
+        "homosexuel",
+        "législation",
+        "ticket",
+        "correspondance",
+        "télécharger",
+        "cliquer",
+        "promener",
+        "jouir"
+      ],
+      "text": "Jacques a été magistrat à Bruxelles pendant plus de trente ans. Depuis sa retraite, il réside à Ostende avec Paul, son mari. Ils résident au dernier étage d'un immeuble du bord de mer, et de leur balcon, ils jouissent d'une vue magnifique sur la mer du Nord.\n\nJacques et Paul se sont mariés en 2004. Un an plus tôt, en changeant sa législation, la Belgique était devenue l'un des premiers pays du monde à ouvrir le mariage aux couples homosexuels. « Quand j'étais jeune magistrat, un couple homosexuel devait souvent se cacher, raconte Jacques. Cette législation a changé notre vie. »\n\nCe samedi de juin, les deux hommes ont décidé d'aller passer la journée à Knokke. Pour cela, ils prennent le tram de la côte, qui longe la mer sur près de 70 kilomètres, d'un bout à l'autre de la Belgique. C'est l'une des plus longues lignes de tram du monde.\n\nPaul aime la technique. La veille, il a voulu télécharger l'application des transports sur son téléphone. « Il suffit de télécharger l'application, de choisir le trajet et de cliquer sur “acheter” », explique-t-il. Jacques, lui, n'aime pas cliquer sur des écrans. Il préfère un vrai ticket en papier, qu'il achète au guichet. « Un magistrat aime les preuves écrites », dit-il en souriant, et il range son ticket avec soin dans son portefeuille.\n\nLe tram part de la gare d'Ostende, où il offre une correspondance avec les trains de Bruxelles. Ce matin, leur amie Marie arrive justement de Bruxelles par le train de 9 heures. Grâce à la correspondance, elle n'attend que cinq minutes avant de monter dans le tram avec eux.\n\nLe tram avance lentement entre les dunes et les immeubles. Par la fenêtre, on voit la plage, le sable clair et les petites maisons de bain. À Knokke, les trois amis descendent et vont se promener sur la digue. Ils se promènent pendant une heure, puis ils s'assoient à une terrasse pour manger des moules et des frites. Ils jouissent du soleil, rare sur la mer du Nord, et du vent léger.\n\nLe soir, dans le tram du retour, Jacques sort son ticket et le regarde. « Je le garderai, dit-il. C'est le souvenir d'une belle journée. » Paul, dont le ticket a déjà disparu de son téléphone, rit un peu de lui.\n\nQuestions :\nOù Jacques et Paul résident-ils ?\nIls résident à Ostende, au dernier étage d'un immeuble du bord de mer.\nQu'est-ce qui a changé en Belgique un an avant leur mariage ?\nLa Belgique a changé sa législation et elle a ouvert le mariage aux couples homosexuels.\nComment Paul achète-t-il son ticket ?\nIl a téléchargé l'application, choisi le trajet et cliqué sur « acheter ».\nPourquoi Jacques préfère-t-il un ticket en papier ?\nParce qu'il n'aime pas cliquer sur des écrans et qu'un magistrat aime les preuves écrites.\nPourquoi Marie n'attend-elle que cinq minutes à la gare ?\nParce que le tram offre une correspondance avec les trains de Bruxelles.\nQue font les trois amis à Knokke ?\nIls vont se promener sur la digue, puis ils mangent des moules et des frites au soleil."
+    },
+    {
+      "title": "Une plage pour tout le monde",
+      "summary": "On a beach near Antibes, a young man in a wheelchair swims in the sea for the first time since his accident, thanks to a special floating chair.",
+      "newWords": [
+        "handicapé",
+        "fauteuil",
+        "enfoncer",
+        "concession",
+        "conforme",
+        "strict",
+        "requête",
+        "compétent",
+        "permanence"
+      ],
+      "text": "Depuis son accident de moto, il y a trois ans, Karim se déplace en fauteuil roulant. Il travaille, il conduit une voiture adaptée, il voit ses amis. Mais il y a une chose qui lui manque terriblement : la mer. Avant l'accident, il nageait tous les matins à Antibes.\n\nPour une personne handicapée, la plage n'est pas un endroit facile. Les roues du fauteuil s'enfoncent dans le sable, et chaque mètre demande un effort énorme. La dernière fois que Karim avait essayé, avec sa sœur Nadia, les roues s'étaient enfoncées si profondément qu'il avait fallu deux hommes pour le sortir de là. Depuis, il n'osait plus essayer.\n\nUn jour, Nadia lut dans le journal qu'une plage près d'Antibes accueillait maintenant les personnes handicapées. Cette plage est tenue par Sophie, qui y possède un petit restaurant. Comme beaucoup de plages de la région, elle est gérée grâce à une concession : la commune prête la plage à Sophie pour douze ans, et en échange, Sophie doit respecter des règles très strictes. Le contrat de concession est strict sur un point : une partie de la plage doit rester libre et ouverte à tous.\n\nSophie, elle, avait voulu aller plus loin. Elle avait adressé une requête à la mairie pour obtenir l'argent d'un fauteuil spécial, à grosses roues, qui flotte sur l'eau. La requête avait été acceptée. Elle avait aussi fait installer un chemin en bois jusqu'à la mer, conforme aux règles d'accès pour les personnes handicapées. « Je voulais une plage conforme à la loi, mais surtout conforme à mon idée de la plage, expliquait-elle dans le journal : un endroit pour tout le monde. »\n\nLe samedi suivant, Karim et Nadia arrivèrent à 10 heures. Pendant l'été, deux surveillants assurent une permanence de 10 heures à 18 heures pour aider les baigneurs. Ce sont des gens compétents, formés à ce travail. Un surveillant très compétent, un grand garçon calme, aida Karim à passer de son fauteuil au fauteuil de la mer. Puis il le poussa doucement sur le chemin de bois, jusqu'à l'eau.\n\nQuand l'eau froide toucha ses jambes, Karim se mit à rire. Le fauteuil flottait, et il flottait avec lui. Il resta dans l'eau près d'une heure, pendant que Nadia prenait des photos depuis le bord.\n\nLe soir, Karim regarda le programme de la permanence et réserva le fauteuil pour le samedi suivant. « La mer, dit-il à sa sœur, je ne la quitterai plus. »\n\nQuestions :\nPourquoi la plage est-elle difficile pour Karim ?\nParce que les roues de son fauteuil s'enfoncent dans le sable.\nQu'est-ce qu'une concession de plage ?\nLa commune prête la plage à quelqu'un pour plusieurs années, et en échange, il doit respecter des règles strictes.\nQu'a demandé Sophie dans sa requête à la mairie ?\nElle a demandé l'argent d'un fauteuil spécial, à grosses roues, qui flotte sur l'eau.\nQui aide les baigneurs pendant l'été ?\nDeux surveillants compétents assurent une permanence de 10 heures à 18 heures.\nComment Karim se sent-il dans l'eau ?\nIl est très heureux : il se met à rire et reste dans l'eau près d'une heure."
+    },
+    {
+      "title": "Le journal du grand-père",
+      "summary": "In his diary, a tidy grandfather in Sète describes a rainy day with his twin grandsons from Lyon, who build a boat instead of playing video games.",
+      "newWords": [
+        "jumeau",
+        "console",
+        "maths",
+        "barbe",
+        "colle",
+        "favori",
+        "lyonnais",
+        "ordonné",
+        "tunnel",
+        "bol"
+      ],
+      "text": "Sète, mardi 12 août\n\nLes jumeaux sont arrivés samedi pour une semaine. Louis et Léon ont 10 ans, et je les confonds encore parfois : ce sont de vrais jumeaux, avec les mêmes yeux et le même sourire. Leur mère dit que ce sont les deux petits Lyonnais les plus bruyants de la ville. Je commence à la croire.\n\nChez moi, tout est ordonné. Chaque outil a sa place, chaque livre a son étagère. Ma femme disait que j'étais l'homme le plus ordonné du monde. Avec deux garçons de 10 ans, la maison est beaucoup moins ordonnée, mais je ne m'en plains pas.\n\nLes trois premiers jours, il a fait beau. Chaque matin, après un grand bol de chocolat chaud, nous partions à la plage. Léon boit son bol en deux minutes ; Louis met une demi-heure. Pour y aller, on passe par un petit tunnel sous la voie ferrée. Les garçons crient dans le tunnel pour entendre l'écho, et moi, je fais semblant d'être fâché.\n\nMais ce matin, il pleuvait. Les jumeaux ont regardé la pluie par la fenêtre, puis ils ont sorti leur console. « Grand-père, on peut jouer à la console ? » m'a demandé Léon. J'ai dit : « Une heure, pas plus. » Au bout d'une heure, j'ai éteint la console, et j'ai sorti de l'armoire une vieille boîte : du bois, des clous, de la colle et de la toile blanche. « Nous allons construire un bateau », ai-je annoncé.\n\nLouis adore les maths. Il a tout mesuré, tout calculé : la longueur du bateau, la hauteur de la voile, la place de chaque morceau de bois. « Les maths, ça sert à quelque chose ! » a-t-il dit, très fier. Léon, lui, préférait la colle. Il en a mis partout : sur le bois, sur la table, sur ses doigts, et même dans ma barbe, quand il s'est penché pour me montrer son travail. Il a fallu une demi-heure pour nettoyer ma barbe.\n\nVers 17 heures, le bateau était terminé. Il est un peu de travers, mais il est beau. Les garçons l'ont appelé « Le Lyonnais ». Ils ont décidé que c'était leur jouet favori, bien plus que la console. Je crois que c'est aussi mon souvenir favori de cet été.\n\nDemain, s'il fait beau, nous passerons par le tunnel avec notre bateau, et nous verrons s'il flotte.\n\nQuestions :\nQui sont Louis et Léon ?\nCe sont des jumeaux lyonnais de 10 ans, les petits-fils du grand-père.\nComment est la maison du grand-père d'habitude ?\nElle est très ordonnée : chaque outil a sa place, chaque livre a son étagère.\nPar où passe-t-on pour aller à la plage ?\nOn passe par un petit tunnel sous la voie ferrée.\nPourquoi Louis dit-il que les maths servent à quelque chose ?\nParce qu'il a tout mesuré et tout calculé pour construire le bateau.\nQue s'est-il passé avec la colle ?\nLéon en a mis partout, et même dans la barbe de son grand-père."
+    },
+    {
+      "title": "La panne",
+      "summary": "Off Bonifacio, in Corsica, a tourist boat's engine breaks down; the captain keeps everyone calm and the passengers are transferred to another boat.",
+      "newWords": [
+        "panne",
+        "neutre",
+        "nerf",
+        "éprouver",
+        "faillir",
+        "ordonner",
+        "latéral",
+        "diagnostic",
+        "guérir",
+        "transférer"
+      ],
+      "text": "Ce matin-là, la mer était d'un bleu parfait au large de Bonifacio, au sud de la Corse. Le bateau d'Ange, un capitaine de 50 ans, emmenait une trentaine de touristes vers les îles Lavezzi. Parmi eux, Camille, une jeune femme de Nantes, n'était jamais montée sur un bateau. Dès la sortie du port, elle éprouva un léger mal de mer. Elle s'assit sur un banc latéral, près du bord, et regarda l'horizon, comme on le lui avait conseillé.\n\nAu bout de vingt minutes, le moteur fit un bruit étrange, puis il s'arrêta. Le bateau était en panne, à deux kilomètres de la côte. Ange mit tout de suite la manette en position neutre et coupa le contact. Il garda un ton neutre et calme, comme si de rien n'était.\n\nLes touristes commencèrent à s'agiter. Un homme se leva brusquement pour regarder le moteur et faillit tomber à l'eau. Camille éprouva une vraie peur : elle avait les nerfs fragiles, et le mal de mer n'arrangeait rien. Ange éleva la voix. « J'ordonne à tout le monde de s'asseoir et de mettre son gilet, dit-il. Il n'y a aucun danger. » Les passagers obéirent. Le capitaine n'avait jamais eu besoin d'ordonner deux fois la même chose.\n\nPuis il ouvrit la porte latérale du moteur. Le diagnostic fut rapide : un vieux sac en plastique était pris dans l'hélice. « Mon diagnostic est simple, annonça-t-il. Le moteur n'a rien. C'est la mer qui nous a rapporté nos déchets. » Mais il était impossible de retirer le sac sans plonger, et le courant était trop fort.\n\nAnge appela par radio un autre bateau de la compagnie. Une demi-heure plus tard, le second bateau arriva à côté du premier. Avec l'aide de deux marins, Ange fit transférer les passagers un par un, d'un bateau à l'autre. Camille fut la première qu'on transféra. Elle avait les jambes qui tremblaient, mais ses nerfs tenaient bon.\n\nSur le second bateau, Camille s'assit au soleil et but un peu d'eau. « Le mal de mer, on en guérit dès qu'on touche la terre », lui dit un marin. Il avait raison : à peine arrivée sur la plage des îles Lavezzi, elle était guérie. Le soir, en rentrant au port, elle raconta l'histoire de la panne en riant, comme une aventure.\n\nQuestions :\nPourquoi Camille s'est-elle assise sur un banc latéral ?\nParce qu'elle éprouvait un léger mal de mer, et elle voulait regarder l'horizon.\nQu'a fait Ange quand le moteur s'est arrêté ?\nIl a mis la manette en position neutre, coupé le contact et gardé un ton calme.\nQue s'est-il passé quand un homme s'est levé brusquement ?\nIl a failli tomber à l'eau.\nQuel a été le diagnostic du capitaine ?\nUn vieux sac en plastique était pris dans l'hélice, mais le moteur n'avait rien.\nComment les passagers ont-ils continué leur voyage ?\nOn les a transférés un par un sur un autre bateau de la compagnie."
+    },
+    {
+      "title": "Une lettre d'Anglet",
+      "summary": "A Swedish girl on a surf and French-language summer camp in the Basque Country writes to her French teacher in Stockholm about her progress.",
+      "newWords": [
+        "linguistique",
+        "suédois",
+        "australien",
+        "oral",
+        "compréhension",
+        "interprète",
+        "junior",
+        "perception",
+        "réjouir",
+        "couloir"
+      ],
+      "text": "Anglet, le 20 juillet\n\nChère Madame Lindqvist,\n\nComme promis, je vous écris en français depuis mon séjour linguistique au Pays basque. Je suis ici depuis deux semaines, dans un centre qui propose à la fois des cours de français et des cours de surf. Ce séjour linguistique est le cadeau de mes parents pour mes 16 ans, et je vous remercie encore de me l'avoir conseillé.\n\nLe matin, nous avons trois heures de cours. Nous travaillons surtout l'oral, puisque c'est mon point faible, vous le savez. À l'écrit, je me débrouille, mais à l'oral, je cherchais constamment mes mots. Nous faisons aussi beaucoup d'exercices de compréhension : nous écoutons la radio, des chansons, des conversations dans la rue. Au début, ma compréhension était très lente. Les Français parlent si vite ! Maintenant, je comprends presque tout, pourvu qu'on ne parle pas trop vite.\n\nL'après-midi, nous allons à la plage pour le surf. Mon moniteur s'appelle Jack. C'est un jeune Australien de Sydney, champion junior de surf il y a quelques années. Dans la catégorie junior, il a même gagné une compétition en France ! Il parle français avec un drôle d'accent australien, et il me fait beaucoup rire.\n\nDans le centre, nous dormons dans de petites chambres de quatre, au bout d'un long couloir. Le soir, tout le monde se retrouve dans le couloir pour discuter. Il est interdit de parler suédois ou anglais, alors nous parlons tous français, avec nos fautes. C'est ainsi que j'ai fait le plus de progrès.\n\nMa perception de la langue a beaucoup changé. Avant, le français était pour moi une matière d'école, avec des règles et des notes. Aujourd'hui, ma perception est différente : c'est une langue vivante, celle des amis, de la plage et des repas.\n\nVous savez que je veux devenir interprète, comme ma tante. Ce séjour m'a confirmé dans mon choix. Hier, j'ai même servi d'interprète pour une famille suédoise perdue sur la plage : je leur ai traduit les conseils du surveillant. J'étais très fière.\n\nJe me réjouis de vous revoir en août, et je me réjouis surtout de vous parler enfin en français, à l'oral !\n\nAvec mes sentiments respectueux,\n\nElsa\n\nQuestions :\nOù Elsa passe-t-elle son séjour linguistique ?\nElle le passe à Anglet, au Pays basque, dans un centre de français et de surf.\nPourquoi Elsa travaille-t-elle surtout l'oral ?\nParce que l'oral est son point faible : elle cherchait constamment ses mots.\nQui est Jack ?\nC'est son moniteur de surf, un jeune Australien qui a été champion junior.\nQue font les jeunes le soir dans le couloir ?\nIls se retrouvent pour discuter, et ils parlent tous français.\nComment la perception du français d'Elsa a-t-elle changé ?\nAvant, c'était une matière d'école ; aujourd'hui, c'est une langue vivante.\nPourquoi Elsa a-t-elle servi d'interprète hier ?\nParce qu'une famille suédoise perdue sur la plage avait besoin de comprendre les conseils du surveillant."
+    }
+  ]
+}

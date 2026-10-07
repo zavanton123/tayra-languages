@@ -1,0 +1,221 @@
+{
+  "id": "fr-mini-4000",
+  "rankUpTo": 4000,
+  "level": "B2",
+  "title": "Chroniques de la ville",
+  "description": "Ten newspaper-style columns about life in French-speaking cities: rooftop bees in Paris, a Brussels bakery, a Montreal snowstorm, a Swiss town vote, a Dakar sculptor, a night pharmacy in Marseille, a house in Liège, a forest walk near Strasbourg, a month without a car in Toulouse and a wall of wishes in Quebec City.",
+  "topic": "City life columns",
+  "names": [
+    "Paris",
+    "Salomé",
+    "Bruxelles",
+    "Ixelles",
+    "Jacobs",
+    "Nadia",
+    "Namur",
+    "Belgique",
+    "Brabant",
+    "Montréal",
+    "Sherbrooke",
+    "Gaétan",
+    "Québec",
+    "Morges",
+    "Suisse",
+    "Rochat",
+    "Henri",
+    "Vaud",
+    "Dakar",
+    "Moussa",
+    "Sénégal",
+    "Marseille",
+    "Agnès",
+    "Liège",
+    "Élise",
+    "Tom",
+    "Strasbourg",
+    "Kieffer",
+    "Albert",
+    "Robertsau",
+    "Camille",
+    "Toulouse",
+    "Garonne",
+    "Lise",
+    "Gagnon",
+    "Roch",
+    "France",
+    "Canada",
+    "Léman",
+    "Montréalais"
+  ],
+  "lessons": [
+    {
+      "title": "Les abeilles du toit",
+      "summary": "At a work seminar in Paris, a volunteer guides the columnist and her colleagues to the beehives on their office roof.",
+      "newWords": [
+        "écologie",
+        "miel",
+        "bénévole",
+        "particule",
+        "organique",
+        "label",
+        "aspirer",
+        "sensibilité",
+        "guider",
+        "séminaire",
+        "hélas",
+        "matinée"
+      ],
+      "text": "On imagine mal des abeilles au cœur de Paris, entre les voitures, les bus et les particules fines qui flottent dans l'air. Pourtant, sur le toit de l'immeuble où je travaille, vivent près de 40 000 abeilles. Pendant deux ans, je les ai ignorées. Il a fallu une matinée de juin pour que je m'y intéresse enfin.\n\nCe jour-là, notre entreprise organisait un séminaire sur l'écologie en ville. D'habitude, je trouve les séminaires un peu longs : on reste assis, on écoute, on oublie. Celui-ci fut différent, car il commença sur le toit. Une jeune femme, Salomé, membre d'une petite association, nous y attendait.\n\n« Je ne suis pas payée, nous expliqua-t-elle. Je suis bénévole, comme tous les membres de l'association. Nous installons des ruches sur les toits de Paris. »\n\nSalomé accepta de nous guider jusqu'aux ruches. Elle nous guida lentement, en nous demandant de parler à voix basse. « Les abeilles ont une grande sensibilité aux odeurs et aux bruits, dit-elle. Si vous restez calmes, elles resteront calmes, elles aussi. »\n\nUn collègue demanda : « Avec toute cette pollution, le miel de Paris n'est-il pas plein de particules ? » Salomé nous expliqua que les abeilles ne gardent pas les particules dans le miel, et qu'il y a en ville moins de produits chimiques que dans certains champs. Les arbres des parcs et les fleurs des balcons sont si variés que le miel parisien a un goût riche et changeant. Hélas, il n'y en a pas pour tout le monde : une ruche donne à peine quelques kilos par an.\n\n« Peut-il avoir un label bio ? » demanda une autre collègue. « Hélas, non ! » répondit Salomé. On ne sait pas exactement où vont les abeilles, et un label bio exige de le savoir. L'association a donc créé son propre label, « Miel des toits », qui garantit au moins que le miel vient bien de Paris.\n\nSalomé nous fit ensuite une proposition. « Votre cantine jette chaque jour des kilos de déchets organiques, dit-elle. Avec ces déchets organiques, on pourrait nourrir la terre d'un petit jardin, ici, sur le toit. » Le directeur promit d'étudier l'idée.\n\nÀ la fin de la matinée, chacun repartit avec un petit pot de miel. Depuis, je regarde le toit autrement. L'écologie, ce n'est pas seulement un mot qu'on répète dans les séminaires. Beaucoup d'habitants des villes aspirent à une vie plus proche de la nature ; ils n'ont pas besoin de partir à la campagne pour y aspirer. Il suffit parfois de lever les yeux.\n\nQuestions :\nPourquoi l'auteure est-elle montée sur le toit ?\nParce que son entreprise organisait un séminaire sur l'écologie, et qu'il commençait sur le toit.\nQui est Salomé ?\nC'est une bénévole d'une association qui installe des ruches sur les toits de Paris.\nPourquoi faut-il rester calme près des ruches ?\nParce que les abeilles ont une grande sensibilité aux odeurs et aux bruits.\nPourquoi le miel ne peut-il pas avoir de label bio ?\nParce qu'on ne sait pas exactement où vont les abeilles.\nQue propose Salomé de faire avec les déchets organiques de la cantine ?\nElle propose de nourrir la terre d'un petit jardin sur le toit."
+    },
+    {
+      "title": "Un successeur pour la boulangerie",
+      "summary": "An old Brussels baker refuses a buyer who wants to sell phones and hands his shop to a young baker who uses Belgian wheat.",
+      "newWords": [
+        "faillite",
+        "successeur",
+        "acheteur",
+        "blé",
+        "salade",
+        "dessert",
+        "extra",
+        "compenser",
+        "noyau"
+      ],
+      "text": "Dans mon quartier d'Ixelles, à Bruxelles, la boulangerie de monsieur Jacobs fait partie du paysage depuis 35 ans. On y croise tout le monde dès 6 heures du matin. L'an dernier, une petite affiche apparut sur la porte : « Commerce à vendre ».\n\nMonsieur Jacobs avait 68 ans. Il voulait se reposer, mais il refusait de vendre à n'importe qui. « Je ne cherche pas seulement un acheteur, me dit-il un matin en me rendant la monnaie. Je cherche un successeur. Un acheteur, ça paie et ça s'en va. Un successeur, ça continue. »\n\nLes candidats étaient rares. Le métier est dur, et les supermarchés vendent le pain moins cher. En cinq ans, deux boulangeries de la rue avaient fait faillite. Un premier acheteur se présenta au printemps. Il voulait transformer la boutique en magasin de téléphones. Monsieur Jacobs refusa, quoique l'offre fût généreuse.\n\nEn juin arriva Nadia, 29 ans, qui avait appris le métier à Namur. Elle avait un projet précis : faire du pain avec du blé cultivé en Belgique, acheté directement à un agriculteur du Brabant. « Le blé belge coûte plus cher que le blé importé, expliqua-t-elle. Pour compenser, je vendrai aussi des salades et des desserts à midi. Les employés des bureaux viendront pour le dîner. » En Belgique, le dîner, c'est le repas de midi.\n\n« Des salades dans ma boulangerie ? » répéta monsieur Jacobs, un peu surpris. Nadia ne répondit pas ; elle sortit de son sac un dessert qu'elle avait préparé : un clafoutis, c'est-à-dire un gâteau aux cerises. Il en goûta un morceau et trouva un noyau. « Vous avez oublié les noyaux ! » dit-il. « Non, monsieur, je les laisse exprès. C'est le noyau qui donne son goût à la cerise. » Le vieil homme rit et accepta. Il avait trouvé son successeur.\n\nAujourd'hui, la boutique est pleine à midi. On y vend du pain au blé belge, trois salades différentes et deux desserts chaque jour. Le samedi, quand il y a trop de monde, Nadia engage un extra, c'est-à-dire une personne payée pour quelques heures de travail. Et devinez qui est son extra préféré ? Monsieur Jacobs lui-même, qui vient servir les clients avec plaisir. « C'est extra ! » m'a-t-il dit l'autre jour, ce qui veut dire, en langage familier, « c'est formidable ».\n\nOn parle souvent des commerces qui font faillite. On parle moins de ceux qui trouvent un successeur. Le prix plus élevé du pain est-il compensé par sa qualité ? Les clients semblent le penser, puisqu'ils reviennent.\n\nQuestions :\nQuelle différence monsieur Jacobs fait-il entre un acheteur et un successeur ?\nUn acheteur paie et s'en va, tandis qu'un successeur continue.\nPourquoi monsieur Jacobs a-t-il refusé le premier acheteur ?\nParce qu'il voulait transformer la boutique en magasin de téléphones.\nAvec quel blé Nadia fait-elle son pain ?\nAvec du blé cultivé en Belgique, acheté à un agriculteur du Brabant.\nComment Nadia veut-elle compenser le prix du blé belge ?\nElle veut vendre aussi des salades et des desserts à midi.\nPourquoi Nadia laisse-t-elle les noyaux dans le clafoutis ?\nParce que c'est le noyau qui donne son goût à la cerise."
+    },
+    {
+      "title": "Coincés sur la rue Sherbrooke",
+      "summary": "During a Montreal snowstorm, a crowded bus gets stuck and four passengers push it free while everyone laughs.",
+      "newWords": [
+        "coincé",
+        "frein",
+        "talon",
+        "vilain",
+        "maudit",
+        "rigoler",
+        "courageux",
+        "interrompre",
+        "allonger",
+        "gâcher"
+      ],
+      "text": "À Montréal, on dit en souriant qu'il y a deux saisons : l'hiver et les travaux. Cette chronique parle de la première.\n\nMardi dernier, une tempête de neige tomba sur la ville dès 15 heures. Vers 17 heures, une panne interrompit le métro sur la ligne verte, de sorte que tout le monde prit le bus. Le mien, sur la rue Sherbrooke, était si plein que je voyais à peine la fenêtre. Le chauffeur, Gaétan, roulait très lentement.\n\nD'habitude, mon trajet dure vingt minutes. Ce soir-là, il s'allongeait de minute en minute. À côté de moi, une dame élégante portait de jolies chaussures à talons hauts, très peu faites pour la neige. « J'ai un spectacle à 19 heures, me dit-elle. Ce vilain temps ne va pas gâcher ma soirée, j'espère. »\n\nAu coin d'une petite rue, Gaétan appuya doucement sur le frein. Le bus glissa un peu, puis il s'arrêta, les roues tournant dans la neige. Gaétan essaya de repartir une fois, deux fois, trois fois. Rien à faire : nous étions coincés.\n\n« Maudit hiver ! » dit un homme au fond du bus. Au Québec, « maudit » s'emploie souvent pour dire sa colère ou sa fatigue ; ce n'est pas très poli, mais tout le monde le comprend. Gaétan se retourna vers nous : « Bon, on est coincés, mes amis. Aussi bien en rigoler ! » Et tout le monde se mit à rigoler. La dame aux talons hauts rigolait plus fort que les autres.\n\nPuis un jeune homme se leva. « Monsieur, voulez-vous qu'on pousse ? » demanda-t-il au chauffeur. « Si vous êtes assez courageux, ce n'est pas de refus », répondit Gaétan. Quatre passagers courageux descendirent dans la neige. Gaétan relâcha le frein, les quatre hommes poussèrent, et le bus repartit sous les applaudissements.\n\nLe trajet s'était allongé d'une heure. La dame arriva à son spectacle en retard, ses chaussures à talons à la main et des bottes d'hiver aux pieds : un passager lui en avait prêté une paire. Le vilain temps n'avait pas gâché sa soirée ; il lui avait même donné une histoire à raconter.\n\nJe crois que les Montréalais aiment se plaindre de l'hiver, quoiqu'au fond ils l'apprécient un peu. Une tempête interrompt nos habitudes, et c'est peut-être pour cela qu'elle nous rapproche. Dans un bus coincé, on finit toujours par parler à ses voisins.\n\nQuestions :\nPourquoi le bus était-il si plein ?\nParce qu'une panne avait interrompu le métro, de sorte que tout le monde avait pris le bus.\nPourquoi le bus s'est-il arrêté ?\nLe bus a glissé quand Gaétan a appuyé sur le frein, et il est resté coincé dans la neige.\nQue veut dire « maudit » dans la bouche de l'homme au fond du bus ?\nIl exprime sa colère ou sa fatigue ; ce n'est pas très poli.\nComment les passagers ont-ils réagi quand le chauffeur a dit « aussi bien en rigoler » ?\nTout le monde s'est mis à rigoler.\nComment le bus est-il reparti ?\nQuatre passagers courageux sont descendus et ont poussé le bus.\nLe vilain temps a-t-il gâché la soirée de la dame ?\nNon, il lui a même donné une histoire à raconter."
+    },
+    {
+      "title": "La rue de la gare",
+      "summary": "In a small town in Switzerland, a retired teacher reads the town hall's letter closely and the residents vote down a plan to widen a street.",
+      "newWords": [
+        "suffrage",
+        "présider",
+        "communal",
+        "quiconque",
+        "pertinent",
+        "paragraphe",
+        "circulaire",
+        "rejet",
+        "élargir",
+        "nuance",
+        "septième"
+      ],
+      "text": "En Suisse, on vote souvent. Les citoyens donnent leur avis sur des questions nationales, mais aussi sur la vie de leur commune. À Morges, une petite ville au bord du lac Léman, dans le canton de Vaud, j'ai suivi l'automne dernier une de ces votations, comme on les appelle ici.\n\nTout commença par une circulaire. En septembre, chaque foyer de la ville reçut dans sa boîte aux lettres une lettre de la commune. Cette circulaire annonçait un projet : élargir la rue de la gare, afin de faciliter la circulation. Pour élargir la rue, il fallait couper les douze arbres qui la bordent depuis plus d'un siècle.\n\nMon voisin Henri, ancien professeur de français, lit tout ce qu'il reçoit, jusqu'au dernier mot. Il lut la circulaire paragraphe par paragraphe. Au septième paragraphe, il s'arrêta. « Regardez, me dit-il. Le septième paragraphe dit que la rue sera élargie de trois mètres. Mais il ne dit nulle part ce qu'on plantera à la place des arbres. C'est la seule question pertinente, et elle n'a pas de réponse. »\n\nHenri n'était pas le seul à le penser. Dans la commune, quiconque a le droit de vote peut demander que le peuple décide, à condition de réunir assez de signatures. En trois semaines, les habitants en réunirent plus qu'il n'en fallait. Le projet fut donc soumis au suffrage de tous.\n\nAvant le vote, le conseil communal organisa une réunion publique dans la grande salle communale. C'est madame Rochat qui devait la présider. Elle présida la soirée avec beaucoup de calme, quoique la salle fût pleine et parfois bruyante. Quiconque voulait parler levait la main. Un commerçant défendit le projet : selon lui, la rue était trop étroite pour les camions de livraison. Une jeune mère répondit que ses enfants aimaient l'ombre des arbres. Les deux arguments étaient pertinents.\n\nLe dimanche du vote, les suffrages furent comptés : 54 % de non. Le rejet du projet fut annoncé à 18 heures. Pourtant, ce rejet n'était pas la fin de l'histoire, et c'est là toute la nuance. La commune présenta quelques mois plus tard un nouveau projet : on n'élargirait pas la rue, mais on y ferait passer les camions seulement le matin. Les arbres resteraient.\n\nHenri, bien sûr, lut aussi la nouvelle circulaire, paragraphe par paragraphe. « Cette fois, dit-il, tout y est. » La démocratie directe a ses lenteurs, mais elle oblige chacun à lire, à écouter et à chercher la nuance. Pour une rue et douze arbres, ce n'est pas rien.\n\nQuestions :\nQu'annonçait la circulaire de la commune ?\nElle annonçait un projet pour élargir la rue de la gare.\nComment Henri a-t-il lu la circulaire ?\nIl l'a lue paragraphe par paragraphe, jusqu'au dernier mot.\nQuelle question pertinente Henri a-t-il posée ?\nIl a demandé ce qu'on planterait à la place des arbres.\nQui a présidé la réunion publique ?\nC'est madame Rochat qui l'a présidée.\nQuel a été le résultat du vote ?\nLe projet a été rejeté par 54 % des suffrages.\nQuelle nuance la commune a-t-elle apportée après le rejet ?\nElle a décidé de ne pas élargir la rue, mais de faire passer les camions seulement le matin."
+    },
+    {
+      "title": "Le trio de Moussa",
+      "summary": "In Dakar, a sculptor shows the columnist how he turns old metal parts into a life-size trio of dancers.",
+      "newWords": [
+        "sculpture",
+        "métallique",
+        "invention",
+        "accessoire",
+        "copier",
+        "éclat",
+        "danseur",
+        "trio",
+        "grandeur",
+        "caractériser"
+      ],
+      "text": "À Dakar, la lumière est si forte qu'elle change la couleur des choses. Je l'ai compris dans l'atelier de Moussa, un sculpteur que j'ai rencontré pendant un voyage au Sénégal. Son atelier se trouve dans une cour, près de la mer, au milieu des bruits de la ville : les klaxons, les voix, la radio d'un voisin.\n\nMoussa fait des sculptures avec ce que les autres jettent. Dans un coin de la cour, il garde des tas de pièces métalliques : des morceaux de vieilles voitures, des boîtes de conserve, des clés, des accessoires de vélo, des chaînes, des fourchettes. « Les gens voient des déchets, me dit-il. Moi, je vois des bras, des jambes, des visages. »\n\nCe qui caractérise son travail, c'est le mouvement. Ses sculptures ne restent jamais immobiles : elles semblent marcher, courir ou danser. Ce jour-là, il terminait sa plus grande œuvre, un trio de danseurs. Les trois danseurs étaient grandeur nature, c'est-à-dire aussi grands que de vrais danseurs. Le premier levait les bras vers le ciel. Le deuxième tournait sur lui-même. Le troisième, le plus petit, semblait rire.\n\n« Le trio, c'est ma famille, m'expliqua Moussa. Mon père, mon frère et moi. Nous dansions ensemble aux mariages, quand j'étais enfant. » Le visage du plus petit danseur était fait avec une vieille cuillère. Ses cheveux étaient des ressorts. Chaque détail était une petite invention.\n\nÀ midi, le soleil tomba droit sur la cour. Tout à coup, le métal se mit à briller : des éclats de lumière couraient sur les bras des danseurs. On aurait dit qu'ils bougeaient vraiment. Je poussai un cri de surprise, et Moussa partit d'un grand éclat de rire. « Voilà pourquoi je travaille dehors, dit-il. La sculpture métallique a besoin du soleil. »\n\nJe lui demandai si d'autres artistes copiaient ses œuvres. Il haussa les épaules. Sur les marchés pour touristes, des vendeurs copient ses petites sculptures et les vendent moins cher. « Qu'ils copient ! dit-il. On peut copier une forme, mais pas une invention. Demain, j'aurai une autre idée. »\n\nAvant de partir, je regardai encore une fois le trio. Un accessoire de vélo était devenu une main ; un morceau de voiture, un cœur. Il y avait dans cette cour une grandeur simple, celle des gens qui fabriquent de la beauté avec presque rien. En dépit du bruit et de la chaleur, je serais restée là tout l'après-midi.\n\nQuestions :\nAvec quoi Moussa fait-il ses sculptures ?\nIl les fait avec des pièces métalliques que les autres jettent.\nQu'est-ce qui caractérise son travail ?\nC'est le mouvement : ses sculptures semblent marcher, courir ou danser.\nQue représente le trio de danseurs ?\nIl représente la famille de Moussa : son père, son frère et lui.\nQue veut dire « grandeur nature » ?\nCela veut dire aussi grand que dans la réalité.\nQue s'est-il passé quand le soleil est tombé sur la cour ?\nDes éclats de lumière ont couru sur les bras des danseurs, et on aurait dit qu'ils bougeaient.\nPourquoi Moussa n'a-t-il pas peur qu'on le copie ?\nParce qu'on peut copier une forme, mais pas une invention."
+    },
+    {
+      "title": "Une nuit à la pharmacie de garde",
+      "summary": "The columnist spends a night in Marseille with her friend Agnès, a pharmacist on night duty, and watches her help one customer after another.",
+      "newWords": [
+        "pharmacie",
+        "grossesse",
+        "vomir",
+        "notice",
+        "gravité",
+        "chirurgie",
+        "psychologie",
+        "obéir",
+        "éteindre"
+      ],
+      "text": "Quand on cherche un médicament à 2 heures du matin, on ne pense pas à la personne qui va nous l'apporter. Mon amie Agnès est pharmacienne à Marseille, près du Vieux-Port. Une fois par mois, sa pharmacie est « de garde » : elle reste ouverte toute la nuit pour tout le quartier. Le mois dernier, j'ai passé une de ces nuits avec elle.\n\nÀ 20 heures, Agnès ferma la porte de la pharmacie et ouvrit la petite fenêtre par laquelle elle sert les clients la nuit. Le premier client, un jeune homme, arriva à 21 heures avec un mal de tête. Agnès lui donna des comprimés et lui conseilla de bien lire la notice. « La notice, tout le monde la jette, me dit-elle ensuite. Pourtant, tout y est écrit. »\n\nVers 23 heures, une jeune femme se présenta, très pâle. Elle était enceinte de trois mois et elle n'arrêtait pas de vomir depuis le matin. Agnès lui posa des questions précises pour mesurer la gravité de la situation : avait-elle de la fièvre ? Pouvait-elle boire ? « Pendant une grossesse, beaucoup de médicaments sont interdits, m'expliqua Agnès. Il faut faire très attention. » Elle lui donna un produit permis pendant la grossesse, et lui dit d'aller aux urgences si elle continuait à vomir le lendemain.\n\nÀ 1 heure du matin, un monsieur âgé arriva avec une ordonnance. Il sortait de l'hôpital, où il avait subi une chirurgie du genou. « Après une chirurgie, on a souvent peur d'avoir mal, me dit Agnès. Il fallait surtout le rassurer. » Le vieil homme repartit plus tranquille.\n\nPuis vint un père avec sa petite fille, qui avait de la fièvre. L'enfant refusait de prendre son sirop. Agnès se pencha vers elle : « Tu sais, les grands aussi doivent obéir au docteur. Moi, j'obéis toujours. » La petite fille la regarda longtemps, puis elle but son sirop sans rien dire.\n\n« Ce métier demande autant de psychologie que de connaissances, me dit Agnès vers 4 heures. Les gens qui viennent la nuit ont peur. Avant de leur donner un médicament, il faut les écouter. Il faut aussi juger la gravité de chaque cas. »\n\nÀ 8 heures, la pharmacienne du jour arriva. Agnès éteignit la petite lampe de la fenêtre, puis la croix verte qui brillait au-dessus de la porte. Dans la rue, les premiers clients de la journée attendaient déjà. Aucun d'eux ne savait que la pharmacie n'avait pas fermé de la nuit.\n\nQuestions :\nQu'est-ce qu'une pharmacie de garde ?\nC'est une pharmacie qui reste ouverte toute la nuit pour le quartier.\nPourquoi Agnès a-t-elle fait très attention avec la jeune femme ?\nParce qu'elle était enceinte, et que beaucoup de médicaments sont interdits pendant une grossesse.\nComment Agnès a-t-elle convaincu la petite fille de prendre son sirop ?\nElle lui a dit que les grands aussi doivent obéir au docteur.\nPourquoi le métier de pharmacienne demande-t-il de la psychologie ?\nParce que les gens qui viennent la nuit ont peur, et qu'il faut d'abord les écouter.\nQu'a fait Agnès à 8 heures ?\nElle a éteint la lampe de la fenêtre et la croix verte au-dessus de la porte."
+    },
+    {
+      "title": "Le pavillon du noyer",
+      "summary": "A young couple in Liège borrow money to renovate an old house with a walnut tree, and a storm brings an insurance payment.",
+      "newWords": [
+        "pavillon",
+        "ruine",
+        "emprunt",
+        "rénovation",
+        "clôture",
+        "noyer",
+        "indemnité",
+        "allocation",
+        "engendrer",
+        "négliger"
+      ],
+      "text": "Dans les quartiers autour de Liège, on trouve beaucoup de pavillons : des petites maisons avec un jardin, construites pour la plupart il y a soixante ou septante ans. En Belgique, « septante » veut dire soixante-dix. Ma cousine Élise et son mari Tom en ont acheté un l'an dernier, et j'ai suivi leur aventure de près.\n\nQuand ils visitèrent le pavillon pour la première fois, il était presque en ruine. L'ancien propriétaire, un vieil homme seul, avait négligé la maison pendant des années. Le toit laissait passer la pluie, les fenêtres fermaient mal, et la clôture du jardin était tombée par endroits. Seul le grand noyer, au fond du jardin, semblait en bonne santé. « On ne peut pas laisser cette maison tomber en ruine », dit Élise. Tom regarda le noyer et dit simplement : « Je l'aime déjà. »\n\nPour acheter la maison et payer les travaux, ils firent un emprunt à la banque, sur vingt-cinq ans. Un emprunt de vingt-cinq ans, c'est long ; Tom aime dire qu'il le remboursera à sa retraite. Avec leurs deux salaires et les allocations familiales de leurs deux enfants, ils pouvaient tout juste payer chaque mois. Une allocation familiale ne paie pas tout, mais elle aide.\n\nLa rénovation dura huit mois. Comme toute rénovation, elle engendra des dépenses imprévues : on découvrit des problèmes d'électricité, puis un mur humide. Elle engendra aussi quelques disputes. Élise voulait une grande cuisine ; Tom voulait un bureau. Ils finirent par trouver un accord : une cuisine ouverte sur le jardin, avec une vue sur le noyer.\n\nEn novembre, une tempête traversa la région. Une grosse branche du noyer tomba sur la nouvelle clôture et la cassa sur dix mètres. Élise était triste, mais l'assurance fonctionna bien : un expert vint voir les dégâts, et ils reçurent une indemnité pour réparer la clôture. L'indemnité ne couvrait pas tout, mais presque.\n\n« Il ne faut jamais négliger un vieil arbre », leur dit l'expert. Il leur conseilla de faire couper les branches mortes chaque année. Tom l'écouta attentivement. Il ne voulait surtout pas perdre son noyer.\n\nÀ l'automne suivant, les enfants ramassèrent des noix sous le noyer, et Élise en fit un gâteau. Nous l'avons mangé tous ensemble dans la cuisine neuve. La maison n'est plus une ruine ; c'est un pavillon comme les autres, avec une clôture neuve et un arbre centenaire. Il y a quelque chose de beau dans ces maisons qu'on sauve, même si l'emprunt est long.\n\nQuestions :\nDans quel état était le pavillon quand Élise et Tom l'ont visité ?\nIl était presque en ruine, parce que l'ancien propriétaire l'avait négligé.\nComment ont-ils payé la maison et les travaux ?\nIls ont fait un emprunt à la banque sur vingt-cinq ans.\nQu'est-ce que la rénovation a engendré ?\nElle a engendré des dépenses imprévues et quelques disputes.\nQu'est-il arrivé pendant la tempête de novembre ?\nUne grosse branche du noyer est tombée sur la clôture et l'a cassée.\nPourquoi ont-ils reçu une indemnité ?\nParce que l'assurance a payé pour réparer la clôture."
+    },
+    {
+      "title": "Le promeneur du dimanche",
+      "summary": "Near Strasbourg, the columnist meets an old man who walks the same forest path every Sunday and sends a postcard to his granddaughter each week.",
+      "newWords": [
+        "sentier",
+        "forestier",
+        "gendarme",
+        "cavalier",
+        "balancer",
+        "solitaire",
+        "vieillir",
+        "panier",
+        "postal"
+      ],
+      "text": "À Strasbourg, la forêt n'est jamais loin. Au nord de la ville, dans le quartier de la Robertsau, une grande forêt commence là où s'arrêtent les dernières maisons. Le dimanche matin, j'aime y marcher. C'est là que j'ai rencontré monsieur Kieffer.\n\nJe l'avais remarqué plusieurs fois avant de lui parler. C'était un homme de 82 ans, grand et mince, qui marchait toujours seul, un panier à la main. Il suivait le même sentier forestier. On aurait dit un promeneur solitaire sorti d'un vieux livre.\n\nUn dimanche d'octobre, je le rattrapai près d'un petit pont. « Bonjour, monsieur. Vous venez souvent ici ? » lui demandai-je. Il sourit. « Tous les dimanches depuis trente ans, madame. Avant, je venais avec ma femme. Depuis sa mort, je viens seul. » Il s'appelait Albert Kieffer. Il n'avait pas l'air triste ; il avait l'air d'un homme qui connaît chaque arbre.\n\nNous marchâmes ensemble sur le sentier. Au bout d'un moment, deux cavaliers apparurent : deux gendarmes à cheval, qui surveillent la forêt le week-end. « Bonjour, monsieur Kieffer ! dit l'un des gendarmes. Toujours fidèle au poste ? » « Toujours, mon garçon », répondit le vieil homme. Les deux cavaliers repartirent au pas.\n\nPlus loin, des enfants se balançaient sur une vieille corde attachée à une branche. Ils se balançaient en criant de joie, et leurs parents les regardaient de loin. « Mon fils se balançait au même endroit, il y a cinquante ans », me dit monsieur Kieffer. La corde avait changé, mais pas la branche.\n\nDans son panier, il n'y avait pas de champignons, comme je l'avais imaginé, mais un carnet, un crayon et des cartes postales. Chaque dimanche, il s'assoit sur un banc et il écrit une carte postale à sa petite-fille, Camille, qui vit à Montréal. Il me montra l'adresse : un long code postal fait de lettres et de chiffres. « Au Canada, le code postal a des lettres, vous vous rendez compte ? » dit-il, amusé.\n\n« On me demande souvent comment j'ai fait pour bien vieillir, ajouta-t-il en rangeant son panier. Je ne sais pas. Je marche, j'écris, je dis bonjour aux gendarmes. On ne vieillit pas de la même façon quand on a un sentier à suivre. » Depuis, le dimanche, je le cherche des yeux. Il est toujours là, solitaire mais jamais seul.\n\nQuestions :\nOù monsieur Kieffer marche-t-il chaque dimanche ?\nIl marche sur un sentier forestier, dans la forêt de la Robertsau, au nord de Strasbourg.\nDepuis combien de temps vient-il dans la forêt ?\nIl vient tous les dimanches depuis trente ans.\nQui sont les deux cavaliers ?\nCe sont deux gendarmes à cheval qui surveillent la forêt le week-end.\nQue font les enfants plus loin sur le sentier ?\nIls se balancent sur une vieille corde attachée à une branche.\nQu'y a-t-il dans le panier de monsieur Kieffer ?\nIl y a un carnet, un crayon et des cartes postales pour sa petite-fille.\nSelon monsieur Kieffer, pourquoi vieillit-on mieux quand on marche ?\nParce qu'on ne vieillit pas de la même façon quand on a un sentier à suivre."
+    },
+    {
+      "title": "Un mois sans voiture",
+      "summary": "In Toulouse, the columnist leaves his car at home for a month, between bike apps, slow trams and an angry driver.",
+      "newWords": [
+        "carburant",
+        "offensive",
+        "localiser",
+        "théorique",
+        "absurde",
+        "ennui",
+        "vain",
+        "dérive",
+        "agressif",
+        "choqué"
+      ],
+      "text": "Depuis deux ans, la mairie de Toulouse mène une véritable offensive contre la voiture. Les places de stationnement deviennent rares et chères, et les pistes cyclables se multiplient. Dans le même temps, le prix du carburant n'a cessé de monter. Au printemps, j'ai donc pris une décision : pendant un mois, je laisserais ma voiture au garage.\n\nLe premier jour, je téléchargeai une application qui permet de localiser les vélos en libre-service. En théorie, c'était parfait. Le temps de trajet théorique jusqu'à mon bureau, de l'autre côté de la Garonne, était de dix-huit minutes.\n\nLa réalité fut un peu différente. Le deuxième matin, l'application localisa un vélo à deux rues de chez moi. Je courus jusque-là : il n'y avait rien. Je cherchai en vain, sous la pluie. L'application continuait de localiser le vélo au même endroit. La situation était absurde : je regardais un vélo sur mon téléphone, et une place vide devant moi. Je pris finalement le tram, avec quarante minutes de retard. Dès lors, je vérifiai toujours deux applications avant de partir.\n\nIl y eut d'autres moments absurdes, et aussi beaucoup d'ennui. L'ennui de l'attente, surtout : un quart d'heure à l'arrêt de bus, puis un autre à la correspondance. Le temps théorique indiqué par les applications était rarement le vrai. J'appris à lire dans le tram pour combattre l'ennui ; j'ai lu trois romans en un mois.\n\nUn soir, à vélo, j'eus une mauvaise expérience. Un automobiliste agressif me cria dessus pendant une minute, parce que je roulais à ma place, sur la piste cyclable. J'étais choqué. Une passante, qui avait tout vu, me demanda : « Ça va, monsieur ? Vous n'êtes pas blessé ? » Je n'étais pas blessé, seulement choqué.\n\nCertains de mes amis parlent d'une dérive : selon eux, la ville voudrait punir les automobilistes, et ce sont les habitants des banlieues qui en paient le prix, car ils n'ont pas toujours un tram près de chez eux. Je comprends cet argument. On peut aimer le vélo et craindre la dérive d'une politique trop brutale. D'autres répondent que la voiture rend la ville bruyante et agressive, et que l'offensive de la mairie était nécessaire.\n\nÀ la fin du mois, j'avais économisé près de 150 euros de carburant et de stationnement. Mes efforts n'avaient pas été vains. Aujourd'hui, je prends le vélo ou le tram en semaine, et je garde la voiture pour le week-end.\n\nQuestions :\nQu'est-ce que la mairie de Toulouse fait depuis deux ans ?\nElle mène une offensive contre la voiture.\nPourquoi la situation du deuxième matin était-elle absurde ?\nParce que l'application localisait un vélo, mais qu'il n'y avait qu'une place vide.\nComment l'auteur a-t-il combattu l'ennui dans le tram ?\nIl a appris à lire dans le tram ; il a lu trois romans en un mois.\nPourquoi l'auteur était-il choqué un soir ?\nParce qu'un automobiliste agressif lui avait crié dessus pendant une minute.\nQue pensent certains amis de l'auteur de la politique de la mairie ?\nIls parlent d'une dérive : selon eux, la ville voudrait punir les automobilistes."
+    },
+    {
+      "title": "Le mur des vœux",
+      "summary": "In Quebec City, a café owner writes a maxim on her board every day and invites customers to write their New Year wishes on an old brick wall.",
+      "newWords": [
+        "vœu",
+        "maxime",
+        "irlandais",
+        "mexicain",
+        "noblesse",
+        "bourré",
+        "pan",
+        "censure",
+        "paraitre"
+      ],
+      "text": "Dans le quartier Saint-Roch, à Québec, il y a un petit café serré entre un pub irlandais et un restaurant mexicain. Le matin, ça sent le café ; le soir, la musique du pub irlandais traverse le mur. La propriétaire du café s'appelle Lise Gagnon. Elle a 60 ans et une habitude que tout le quartier connaît.\n\nChaque matin, avant d'ouvrir, Lise écrit une maxime à la craie sur le tableau noir, à côté de la porte. Une maxime, c'est une phrase courte qui donne une règle de vie. Certains jours, elle choisit une maxime célèbre ; d'autres jours, elle invente la sienne. Le jour où je suis entré pour la première fois, on pouvait lire : « Noblesse oblige ». Lise m'expliqua la maxime : autrefois, la noblesse avait des avantages, mais aussi des devoirs. « Aujourd'hui, ça veut dire que quand on a de la chance, on doit aider les autres », dit-elle.\n\nEn janvier, Lise a eu une autre idée. Au fond du café, il y a un pan de mur en briques, très ancien. Elle a posé des crayons et des petits papiers sur une table, et elle a écrit au-dessus : « Laissez-nous vos vœux pour l'année ».\n\nEn deux semaines, le pan de mur fut couvert de vœux. Il y avait des vœux simples, « la santé pour ma mère », et des vœux plus drôles, « que mon chat arrête de manger mes plantes ». Le patron du pub irlandais écrivit un vœu. La cuisinière du restaurant mexicain dessina un soleil. Bientôt, il n'y eut plus de place, et Lise acheta un grand carnet, qui fut lui aussi bourré de vœux à la fin du mois.\n\nJe lui demandai si elle lisait tout avant de l'afficher. « Pas de censure, me répondit-elle. Chacun écrit ce qu'il veut, pourvu que ce soit poli. » En un mois, elle n'a dû enlever que deux papiers. Elle refuse de parler de censure : « Je ne coupe pas les idées, seulement les gros mots. »\n\nÀ la fin de janvier, un article sur le mur des vœux est paru dans le journal du quartier. Le journal paraissait le jeudi ; le vendredi, le café était bourré de monde. Des gens venaient de loin pour lire les vœux des autres.\n\nLe dernier jour du mois, elle écrivit une nouvelle maxime sur son tableau : « Un vœu partagé pèse moins lourd ». Je ne sais pas si c'est vrai. Mais devant ce vieux pan de mur couvert de papiers, j'ai eu envie de la croire.\n\nQuestions :\nOù se trouve le café de Lise ?\nIl se trouve dans le quartier Saint-Roch, à Québec, entre un pub irlandais et un restaurant mexicain.\nComment Lise explique-t-elle la maxime « Noblesse oblige » ?\nElle dit que quand on a de la chance, on doit aider les autres.\nQu'a fait Lise en janvier ?\nElle a invité les clients à écrire leurs vœux sur un vieux pan de mur en briques.\nPourquoi Lise refuse-t-elle de parler de censure ?\nParce qu'elle ne coupe pas les idées, seulement les gros mots.\nQue s'est-il passé après la parution de l'article ?\nLe vendredi, le café était bourré de monde."
+    }
+  ]
+}

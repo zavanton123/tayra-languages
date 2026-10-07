@@ -1,0 +1,218 @@
+{
+  "id": "fr-mini-3500",
+  "rankUpTo": 3500,
+  "level": "B2",
+  "title": "Technologie et société",
+  "description": "Ten short stories and columns about how technology changes everyday life: seniors learning tablets, a weekend without screens, a stolen phone, a connected farm, a museum scan, a start-up demo, a jump filmed in slow motion, a first phone, old fears of new machines and online paperwork.",
+  "topic": "Technology and society",
+  "names": [
+    "Namur",
+    "Théo",
+    "Lambert",
+    "Hugo",
+    "Montréal",
+    "Canada",
+    "Geneviève",
+    "Mathieu",
+    "Laurentides",
+    "Paris",
+    "Karim",
+    "Bastille",
+    "Élodie",
+    "Alsace",
+    "Colmar",
+    "Vosges",
+    "Florian",
+    "Inès",
+    "Bruxelles",
+    "Nora",
+    "Awa",
+    "Dakar",
+    "Abidjan",
+    "Ibrahima",
+    "Moussa",
+    "Chiara",
+    "Genève",
+    "Luca",
+    "Lausanne",
+    "Sandrine",
+    "Olivier",
+    "Lyon",
+    "Nathan",
+    "France",
+    "Camille",
+    "Raymond",
+    "Grenoble",
+    "Céline",
+    "Nyon",
+    "Léman",
+    "Suisse"
+  ],
+  "lessons": [
+    {
+      "title": "Les mardis de la résidence",
+      "summary": "In Namur, a student volunteer teaches the residents of a retirement home to use a tablet, and an old lady who paid by cheque all her life learns to call her grandson.",
+      "newWords": [
+        "résident",
+        "tablette",
+        "lentement",
+        "correctement",
+        "exclu",
+        "solidaire",
+        "chèque",
+        "bonsoir",
+        "cinquante",
+        "renseigner"
+      ],
+      "text": "À la résidence du Parc, à Namur, le mardi après-midi ne ressemble à aucun autre jour. Depuis l'automne, Théo, un étudiant de 20 ans, y vient pour apprendre aux résidents à se servir d'une tablette. L'idée vient d'une association solidaire du quartier, qui prête des tablettes aux personnes âgées et forme des jeunes pour les accompagner. Théo ne demande pas d'argent : pour lui, être solidaire, c'est donner un peu de son temps.\n\nMadame Lambert est l'une des plus anciennes résidentes. Pendant cinquante ans, elle a payé toutes ses factures par chèque. Elle remplissait ses chèques d'une belle écriture fine, les signait, puis les glissait dans une enveloppe. Or, l'année dernière, sa banque lui annonça qu'elle n'accepterait bientôt plus les chèques. « Je me suis sentie exclue, raconte-t-elle. Comme si le monde avançait sans moi. »\n\nElle n'est pas la seule. Beaucoup de résidents se sentent exclus de ce monde nouveau : ils n'osent pas toucher un écran, de peur de tout casser. Théo le sait. Dès lors, il s'est fixé une règle simple : aller lentement. Il parle lentement, il montre chaque geste lentement, et il recommence autant de fois qu'il le faut.\n\nLe premier mardi, madame Lambert apprit à allumer la tablette et à la tenir correctement, l'écran bien droit devant elle. Le deuxième mardi, elle apprit à écrire un message. Le troisième, Théo lui montra comment se renseigner sur internet : les horaires du bus, la météo de la semaine, le programme du théâtre. « Avant, pour me renseigner, j'appelais ma fille, dit-elle en souriant. Maintenant, je cherche moi-même. »\n\nAu bout de deux mois, elle savait payer une facture en ligne. Elle vérifiait trois fois chaque chiffre, quoique tout fût toujours écrit correctement. Théo la laissait faire : la confiance vient lentement, elle aussi.\n\nLe plus beau moment arriva un soir de décembre. Son petit-fils Hugo, qui vit à Montréal, l'appela en vidéo. Il était 13 heures au Canada et 19 heures à Namur. Le visage d'Hugo apparut sur la tablette. « Bonsoir, grand-mère ! » Madame Lambert rit : « Bonsoir, mon grand ! Mais chez toi, ce n'est pas encore le soir. » Depuis, chaque dimanche à 19 heures, elle dit bonsoir à Hugo, qui lui répond bonjour.\n\nUne tablette ne remplace pas une visite. Elle peut cependant éviter qu'une personne âgée reste exclue de la vie de sa famille, pourvu que quelqu'un prenne le temps d'expliquer, lentement et avec patience.\n\nQuestions :\nQui est Théo, et que fait-il le mardi ?\nC'est un étudiant de 20 ans. Il apprend aux résidents à se servir d'une tablette.\nComment madame Lambert a-t-elle payé ses factures pendant cinquante ans ?\nElle les a payées par chèque.\nPourquoi s'est-elle sentie exclue ?\nParce que sa banque allait refuser les chèques, et elle avait l'impression que le monde avançait sans elle.\nQuelle est la règle de Théo ?\nIl va lentement : il parle et montre chaque geste lentement.\nComment madame Lambert se renseigne-t-elle maintenant ?\nElle cherche elle-même sur internet, au lieu d'appeler sa fille.\nPourquoi Hugo lui dit-il « bonsoir » ?\nParce qu'il est 19 heures à Namur, même s'il est seulement 13 heures à Montréal."
+    },
+    {
+      "title": "Un week-end sans écran",
+      "summary": "In Montreal, a couple who spend every evening on their phones go to a lakeside cabin for a weekend with their phones switched off.",
+      "newWords": [
+        "week-end",
+        "éteint",
+        "recul",
+        "reproche",
+        "conjoint",
+        "enchaîner",
+        "habituellement",
+        "aube",
+        "entourage",
+        "adieu"
+      ],
+      "text": "Geneviève et son conjoint, Mathieu, vivent à Montréal. Habituellement, leurs soirées se ressemblent toutes. Après le repas du soir, chacun s'installe sur le canapé avec son téléphone. Mathieu enchaîne les vidéos courtes, l'une après l'autre, sans même s'en rendre compte. Geneviève, de son côté, enchaîne les messages et les courriels du bureau. Habituellement, ils vont se coucher à minuit, les yeux fatigués, sans avoir vraiment parlé.\n\nUn soir de février, Geneviève fit un reproche à son conjoint : « Tu ne me regardes plus. Tu regardes ton écran. » Mathieu voulut se défendre, mais il s'arrêta. Le reproche était juste. « Tu as raison, dit-il enfin. Mais toi aussi, tu travailles jusqu'à minuit sur ton téléphone. » Ce n'était pas un reproche méchant, plutôt une simple vérité. Ils se regardèrent, un peu gênés.\n\nIls décidèrent alors de prendre du recul. Un ami leur prêta sa petite maison dans les Laurentides, au bord d'un lac, pour le week-end. La règle était claire : pendant tout le week-end, les téléphones resteraient éteints, au fond d'un sac. Ils prévinrent leur entourage, afin que personne ne s'inquiète. Dans leur entourage, certains trouvèrent l'idée excellente ; d'autres étaient sûrs qu'ils ne tiendraient pas une journée.\n\nLe vendredi soir, le silence leur parut étrange. Mathieu cherchait sans cesse son téléphone dans sa poche, comme un geste que la main n'avait pas oublié. Mais le samedi, quelque chose changea. Ils se levèrent à l'aube, sans réveil, et regardèrent le soleil se lever sur le lac. À l'aube, la neige était rose, puis dorée. Ils marchèrent longtemps dans la forêt, préparèrent une soupe et jouèrent aux cartes près du feu. Geneviève, qui habituellement s'endort après trois pages, lut un roman presque entier.\n\nLe dimanche soir, avant de partir, ils ouvrirent le sac. Les deux téléphones éteints étaient là, noirs et silencieux. « On les remet en marche ? » demanda Mathieu. Ils les remirent en marche, bien sûr : on ne dit pas adieu si facilement à son téléphone. En revanche, ils dirent adieu à une mauvaise habitude. Désormais, après le repas du soir, les téléphones restent éteints jusqu'au matin, de sorte que les soirées appartiennent de nouveau au couple.\n\nPrendre du recul, ce n'est pas fuir la technologie. C'est choisir le moment où l'on s'en sert, au lieu de la laisser choisir pour nous.\n\nQuestions :\nQue font Geneviève et Mathieu habituellement le soir ?\nChacun s'installe sur le canapé avec son téléphone : Mathieu enchaîne les vidéos et Geneviève les messages du bureau.\nQuel reproche Geneviève fait-elle à son conjoint ?\nElle lui reproche de regarder son écran au lieu de la regarder.\nOù passent-ils le week-end ?\nDans la petite maison d'un ami, au bord d'un lac, dans les Laurentides.\nPourquoi préviennent-ils leur entourage ?\nAfin que personne ne s'inquiète pendant que leurs téléphones sont éteints.\nQue font-ils le samedi à l'aube ?\nIls regardent le soleil se lever sur le lac.\nÀ quoi disent-ils adieu à la fin du week-end ?\nIls disent adieu à une mauvaise habitude : les téléphones restent éteints après le repas du soir."
+    },
+    {
+      "title": "Le voleur du métro",
+      "summary": "In Paris, Karim's phone is stolen in a crowded metro; he blocks it from a colleague's computer, files a complaint and gets a temporary phone from a technician.",
+      "newWords": [
+        "voleur",
+        "aussitôt",
+        "serrer",
+        "descente",
+        "provisoire",
+        "sélectionner",
+        "délivrer",
+        "technicien",
+        "valable",
+        "valider"
+      ],
+      "text": "Un lundi matin, à Paris, Karim prit le métro pour aller au travail, comme chaque jour. À l'entrée de la station, il valida son ticket, puis il descendit sur le quai. La rame était pleine : les gens étaient serrés les uns contre les autres. Karim serrait son sac contre lui, mais il avait oublié son téléphone dans la poche de sa veste.\n\nÀ la descente du train, à la station Bastille, il sentit une main contre sa veste. Il se retourna aussitôt, trop tard : le voleur avait déjà disparu dans la foule. Le téléphone n'était plus là. Karim resta un instant immobile, au milieu des voyageurs pressés, le cœur battant.\n\nIl courut aussitôt jusqu'à son bureau, à deux rues de la station. Sa collègue Élodie lui prêta son ordinateur. Sur le site du fabricant de son téléphone, Karim entra son mot de passe, sélectionna son appareil dans une liste, puis il sélectionna « bloquer ». Une carte s'afficha : le téléphone se déplaçait encore vers l'est. « Surtout, ne cours pas après le voleur, lui dit Élodie. C'est le travail de la police. »\n\nÀ midi, Karim se rendit au commissariat du quartier. Un agent écouta son histoire et enregistra sa plainte. Puis il lui délivra une copie de la plainte. « Ce papier est valable pour votre assurance, expliqua l'agent. Nous en délivrons des dizaines chaque semaine, surtout pour des vols dans le métro. »\n\nL'après-midi, Karim entra dans la boutique de son opérateur. Un technicien regarda son dossier. Le nouveau téléphone ne serait livré que le jeudi. En attendant, le technicien lui prêta un téléphone provisoire, un vieux modèle un peu lent, et une nouvelle carte avec un code provisoire. « Votre assurance est-elle encore valable ? » demanda le technicien. Karim montra le document du commissariat. « Parfait. Tout est en ordre. »\n\nLe jeudi, le nouveau téléphone arriva. Pour l'activer, Karim dut valider son identité avec un code reçu par message, puis valider ses nouveaux réglages. En une heure, il retrouva ses photos, ses contacts et ses messages, conservés à distance. Il rendit le téléphone provisoire à la boutique en remerciant le technicien.\n\nLe voleur ne fut jamais retrouvé. Cependant, Karim a changé ses habitudes. Désormais, à la descente du métro, il garde la main sur sa poche, et son téléphone ne quitte plus le fond de son sac.\n\nQuestions :\nOù le téléphone de Karim a-t-il été volé ?\nIl a été volé dans le métro, à la descente du train, à la station Bastille.\nQu'a-t-il fait aussitôt après le vol ?\nIl a couru à son bureau et il a bloqué son téléphone sur l'ordinateur d'Élodie.\nQuel conseil Élodie lui donne-t-elle ?\nElle lui dit de ne pas courir après le voleur, parce que c'est le travail de la police.\nQue lui délivre l'agent du commissariat ?\nIl lui délivre une copie de sa plainte, qui est valable pour l'assurance.\nPourquoi le technicien lui prête-t-il un téléphone provisoire ?\nParce que le nouveau téléphone ne sera livré que le jeudi.\nComment Karim garde-t-il son téléphone maintenant ?\nIl garde la main sur sa poche, et le téléphone reste au fond de son sac."
+    },
+    {
+      "title": "La ferme de Florian",
+      "summary": "In the Alsace plain, a farmer uses small devices to water his vegetables drop by drop and to follow his sheep, while a student draws a diagram of his system.",
+      "newWords": [
+        "mouton",
+        "plaine",
+        "goutte",
+        "marne",
+        "épais",
+        "courbe",
+        "schéma",
+        "utilité",
+        "kilo",
+        "aliment"
+      ],
+      "text": "Dans la plaine d'Alsace, non loin de Colmar, Florian cultive des légumes et élève une centaine de moutons. La plaine est large et plate. Sa ferme ressemble à celle de son grand-père, à une différence près : dans les champs, de petits appareils mesurent l'eau de la terre jour et nuit.\n\nLa terre de Florian n'est pas facile. C'est de la marne, une terre grise, lourde et collante, qui garde l'eau longtemps. Après la pluie, la marne forme une couche épaisse et collante. Pendant l'été, au contraire, cette couche épaisse devient très dure. Avec une terre pareille, il faut donner de l'eau au bon moment, ni trop ni trop peu.\n\nC'est pourquoi Florian arrose ses légumes goutte à goutte. Un mince tuyau passe au pied de chaque plante, et l'eau tombe goutte après goutte, juste là où les racines en ont besoin. Sur sa tablette, il suit une courbe qui montre l'eau dans la terre au cours de la semaine. Quand la courbe descend trop bas, l'eau commence à couler toute seule. Quand elle remonte, l'eau s'arrête.\n\nCet été, une étudiante en agriculture, Inès, passa un mois à la ferme. Elle prit une grande feuille et dessina un schéma : la source d'eau, les tuyaux, les appareils dans les champs, la tablette dans la cuisine. « Avec un schéma, tout devient plus clair », dit-elle. Florian accrocha le schéma au mur de la cuisine.\n\nLes moutons, eux aussi, ont leur technologie. Chaque mouton porte un petit collier, et Florian voit sur sa tablette où se trouvent ses bêtes. Les aliments sont pesés eux aussi : Florian achète ses aliments en sacs de 25 kilos, et la balance lui dit combien de kilos il reste dans la réserve. Il sait ainsi, à un kilo près, quand commander de nouveaux aliments.\n\nAu début, ses voisins doutaient de l'utilité de tous ces appareils. « Ton grand-père n'en avait pas besoin », lui disait-on. Florian ne le nie pas. Mais l'utilité de ces outils se voit dans les chiffres : il utilise un tiers d'eau en moins qu'il y a cinq ans. Dans une région où les étés sont de plus en plus secs, chaque goutte compte.\n\nLe soir, Florian pose sa tablette et fait le tour des champs à pied, comme son grand-père. Certaines choses, dit-il, une courbe ne les montrera jamais : l'odeur de la terre, le bruit des moutons, la lumière sur la plaine.\n\nQuestions :\nOù se trouve la ferme de Florian ?\nElle se trouve dans la plaine d'Alsace, non loin de Colmar.\nQu'est-ce que la marne ?\nC'est une terre grise, lourde et collante, qui garde l'eau longtemps.\nComment Florian arrose-t-il ses légumes ?\nIl les arrose goutte à goutte, avec un mince tuyau au pied de chaque plante.\nQue montre la courbe sur sa tablette ?\nElle montre l'eau dans la terre au cours de la semaine.\nQu'est-ce qu'Inès a dessiné ?\nElle a dessiné un schéma du système.\nComment Florian a-t-il prouvé l'utilité de ses appareils ?\nPar les chiffres : il utilise un tiers d'eau en moins qu'il y a cinq ans."
+    },
+    {
+      "title": "Le chat de bronze",
+      "summary": "In a Brussels museum, a scientist scans an ancient Egyptian bronze cat to see the small skull inside without opening it, and the scan becomes a virtual visit for children.",
+      "newWords": [
+        "égyptien",
+        "crâne",
+        "antique",
+        "bronze",
+        "diamètre",
+        "curiosité",
+        "virtuel",
+        "mythe",
+        "esthétique",
+        "illustration"
+      ],
+      "text": "Dans une salle calme d'un musée de Bruxelles, un petit chat de bronze est assis depuis des années derrière une vitre. Il a les oreilles levées et le regard fixe. C'est un objet égyptien, vieux de plus de 2 500 ans. Les visiteurs passent souvent devant lui sans s'arrêter. Pourtant, ce chat antique cache un secret que les savants connaissent bien.\n\nLes Égyptiens de l'époque antique aimaient les chats. Dans un mythe égyptien, une déesse à tête de chat protégeait les maisons et les familles. À cause de ce mythe, on offrait aux temples de petites statues de chats en bronze. Parfois, à l'intérieur, on plaçait les restes d'un vrai chat.\n\nNora, une scientifique du musée, voulait voir l'intérieur du chat de bronze sans l'ouvrir. Un matin, avec l'aide d'un technicien, elle transporta la statue jusqu'à un hôpital voisin, où l'on passa le bronze dans un appareil à rayons, comme pour un malade. Sur l'écran apparut lentement l'image d'un petit crâne. Le crâne avait à peine 3 centimètres de diamètre : c'était celui d'un très jeune chat. Nora mesura aussi le diamètre du trou sous la statue, par lequel on avait glissé le corps.\n\nAvec ces images, le musée prépara une visite virtuelle. Sur une tablette, chaque visiteur peut maintenant tourner le chat dans tous les sens, entrer à l'intérieur et voir le crâne de près. Une jeune artiste dessina les illustrations de cette visite virtuelle : la vie dans un temple égyptien, les prêtres, les chats. Ses illustrations sont simples, afin que les enfants les comprennent.\n\nLe succès fut immédiat. Les élèves d'une école voisine arrivèrent un jeudi, pleins de curiosité. Un garçon regarda longtemps le crâne sur la tablette, puis il leva les yeux vers la vitre. « Il est vraiment dedans ? » demanda-t-il. La curiosité des enfants, dit Nora, est le meilleur visiteur d'un musée.\n\nCertains regrettent que la technologie entre au musée. Il est vrai que le plaisir esthétique d'un bronze antique, sa couleur et sa lumière, ne passe pas tout à fait à travers un écran. Cependant, la visite virtuelle ne remplace pas la statue : elle donne envie de la regarder. Depuis, les visiteurs s'arrêtent devant le petit chat de bronze, pour son mythe, pour sa valeur esthétique, et pour le crâne qu'il garde depuis 2 500 ans.\n\nQuestions :\nQuel âge a le chat de bronze ?\nC'est un objet égyptien vieux de plus de 2 500 ans.\nPourquoi les Égyptiens offraient-ils des chats de bronze aux temples ?\nÀ cause d'un mythe : une déesse à tête de chat protégeait les maisons et les familles.\nComment Nora a-t-elle vu l'intérieur de la statue ?\nElle a fait passer le bronze dans un appareil à rayons, dans un hôpital voisin.\nQuel diamètre avait le crâne ?\nIl avait à peine 3 centimètres de diamètre.\nQue montrent les illustrations de la visite virtuelle ?\nElles montrent la vie dans un temple égyptien : les prêtres et les chats.\nPourquoi la visite virtuelle ne remplace-t-elle pas la statue ?\nParce que le plaisir esthétique du bronze ne passe pas tout à fait à travers un écran ; la visite donne envie de regarder la vraie statue."
+    },
+    {
+      "title": "La démonstration d'Awa",
+      "summary": "In Dakar, a young woman who created an app for tailors presents it to investors, first by video and then in person, and raises the money she needs.",
+      "newWords": [
+        "levée",
+        "motivé",
+        "démonstration",
+        "sacrifier",
+        "estimation",
+        "artisan",
+        "location",
+        "privilège",
+        "chair"
+      ],
+      "text": "Awa a 28 ans et vit à Dakar. Il y a deux ans, elle a créé une application qui relie les artisans de la ville à leurs clients. À Dakar, les tailleurs, les cordonniers et les menuisiers sont nombreux, mais beaucoup d'entre eux n'ont ni boutique ni site. Grâce à l'application, un client peut trouver un artisan près de chez lui, voir ses travaux en photo et passer commande.\n\nPour développer son projet, Awa avait besoin d'argent. Elle prépara donc une levée de fonds : elle voulait convaincre des investisseurs de lui confier 80 000 euros. Une levée de fonds, c'est un peu un examen. Il faut montrer que l'idée est bonne, que l'équipe est sérieuse et que l'argent sera bien utilisé.\n\nDepuis deux ans, Awa avait beaucoup sacrifié. Elle avait sacrifié ses économies pour payer la location d'un petit bureau, dans le quartier du Plateau. La location coûtait cher, mais elle voulait un vrai lieu de travail pour ses trois employés. Elle avait aussi sacrifié ses samedis, ses vacances et une bonne partie de son sommeil. Son équipe, elle, restait motivée. « Nous sommes motivés parce que nous voyons les artisans gagner de nouveaux clients », disait souvent son ami Ibrahima, qui écrivait le code.\n\nLe premier rendez-vous eut lieu en vidéo. Les investisseurs, installés à Paris et à Abidjan, posèrent beaucoup de questions. Ils voulaient une estimation : combien d'artisans utiliseraient l'application dans un an ? Awa avait préparé son estimation avec soin : 3 000 artisans, contre 900 aujourd'hui. « Votre estimation me semble prudente, et c'est une qualité », remarqua l'un d'eux.\n\nQuelques semaines plus tard, les investisseurs vinrent à Dakar pour rencontrer l'équipe en chair et en os. Après des mois d'écrans, Awa était heureuse de les voir enfin en chair et en os. Elle avait organisé une démonstration dans l'atelier de Moussa, un tailleur du quartier. Pendant la démonstration, une cliente commanda une chemise sur son téléphone. Moussa reçut aussitôt la commande, prit les mesures, et montra le tissu choisi. La démonstration dura dix minutes, mais elle valait mieux que cent pages de chiffres.\n\nÀ la fin de la journée, les investisseurs acceptèrent. La levée de fonds était réussie. Le soir, Awa remercia Moussa. « C'est un privilège de travailler avec vous », lui dit-elle. Le vieux tailleur sourit : « Non, ma fille. Le privilège est pour moi : à mon âge, je découvre un nouveau métier. »\n\nQuestions :\nÀ quoi sert l'application d'Awa ?\nElle relie les artisans de Dakar à leurs clients.\nPourquoi Awa prépare-t-elle une levée de fonds ?\nParce qu'elle a besoin de 80 000 euros pour développer son projet.\nQu'est-ce qu'Awa a sacrifié pendant deux ans ?\nElle a sacrifié ses économies, ses samedis, ses vacances et une partie de son sommeil.\nQuelle estimation Awa donne-t-elle aux investisseurs ?\nElle pense que 3 000 artisans utiliseront l'application dans un an.\nOù a lieu la démonstration ?\nElle a lieu dans l'atelier de Moussa, un tailleur du quartier.\nQue répond Moussa quand Awa parle de privilège ?\nIl dit que le privilège est pour lui, parce qu'il découvre un nouveau métier."
+    },
+    {
+      "title": "Le saut de Chiara",
+      "summary": "In Geneva, a young high jumper improves her technique when her cousin films her jumps in slow motion and studies her speed on a tablet.",
+      "newWords": [
+        "athlète",
+        "saut",
+        "pic",
+        "littéralement",
+        "respectivement",
+        "vif",
+        "précéder",
+        "germain",
+        "plier"
+      ],
+      "text": "Chiara a 17 ans et vit à Genève. Elle est athlète : elle fait du saut en hauteur trois fois par semaine, au stade de son club. Elle aime ce moment très court où le corps quitte le sol et passe au-dessus de la barre. Depuis le printemps, pourtant, elle ne progresse plus. Ses meilleurs sauts restent bloqués à 1,70 mètre.\n\nSon cousin germain, Luca, étudie le sport à l'université de Lausanne. Luca est le fils de la sœur de sa mère : c'est ce qu'on appelle un cousin germain. Un samedi, il vint au stade avec sa tablette et une petite application qui filme les mouvements au ralenti. « Fais dix sauts, dit-il. Je vais tout filmer. »\n\nLe soir, chez la grand-mère qu'ils ont en commun, les deux cousins regardèrent les images. Au ralenti, chaque saut devenait une longue suite de gestes. L'application dessinait aussi une courbe de la vitesse de Chiara. On voyait la vitesse monter pendant la course, atteindre un pic, puis retomber. « Regarde, dit Luca. Ton pic de vitesse arrive trop tôt. Les trois pas qui précèdent le saut sont plus lents que les autres. »\n\nChiara n'en revenait pas. Elle avait l'impression de courir de plus en plus vite. En réalité, les pas qui précèdent le saut ralentissaient. Luca montra une autre image : au moment de monter, elle oubliait de plier la jambe d'appel. « Il faut plier davantage le genou, juste avant de monter. Sinon, tu perds de la force. »\n\nLa semaine suivante, Chiara travailla ces deux points avec son entraîneur. Le départ devait être vif, et la fin de la course plus vive encore. Elle devait plier le genou au dernier pas, puis pousser de toutes ses forces. Les premiers essais furent maladroits. Puis, peu à peu, le geste devint naturel.\n\nUn mois plus tard, lors d'une compétition à Genève, elle réussit deux sauts qui mesuraient respectivement 1,72 mètre et 1,75 mètre. Son entraîneur et Luca, assis respectivement au bord de la piste et dans les tribunes, se levèrent en même temps. « Tu as littéralement volé ! » cria Luca. Il ne parlait pas au sens figuré : sur la vidéo, on voit Chiara rester en l'air un instant, comme un oiseau.\n\nLa technologie n'a pas sauté à sa place. Chiara a fait l'effort, des heures durant. Mais les images au ralenti lui ont montré ce que ses yeux ne pouvaient pas voir, de sorte qu'elle a su enfin quoi corriger.\n\nQuestions :\nQuel sport Chiara pratique-t-elle ?\nElle est athlète : elle fait du saut en hauteur.\nQui est Luca ?\nC'est son cousin germain, le fils de la sœur de sa mère. Il étudie le sport à Lausanne.\nQue montre la courbe de l'application ?\nElle montre la vitesse de Chiara, qui monte, atteint un pic, puis retombe.\nQuels sont les deux problèmes que Luca a trouvés ?\nLes pas qui précèdent le saut sont trop lents, et Chiara ne plie pas assez le genou.\nQuels sauts Chiara réussit-elle à la compétition ?\nDeux sauts de 1,72 mètre et 1,75 mètre, respectivement.\nPourquoi Luca dit-il qu'elle a littéralement volé ?\nParce que, sur la vidéo, on la voit rester en l'air un instant, comme un oiseau."
+    },
+    {
+      "title": "Un téléphone pour la sixième",
+      "summary": "In Lyon, parents decide how to give their son his first phone as he starts secondary school, and agree with him on rules about games and screens.",
+      "newWords": [
+        "sixième",
+        "guerrier",
+        "imaginaire",
+        "approprié",
+        "veiller",
+        "réglementation",
+        "rage",
+        "détourner",
+        "survie"
+      ],
+      "text": "En France, la sixième est la première année du collège. Pour beaucoup d'enfants, l'entrée en sixième est aussi le moment du premier téléphone. Chez Sandrine et Olivier, à Lyon, la question occupa tout l'été. Leur fils Nathan, 11 ans, allait entrer en sixième en septembre, et il répétait chaque jour : « Tous mes copains en ont un ! »\n\nSandrine hésitait. Elle voyait bien que Nathan aimait déjà les écrans. Le soir, sur la tablette familiale, il jouait à un jeu de survie : dans un monde imaginaire, plein de forêts et de montagnes, son personnage devait construire une maison, trouver à manger et se défendre. Ce personnage était un guerrier, avec un grand bouclier et une épée. Quand le guerrier mourait, Nathan entrait parfois dans une petite rage : il criait, il tapait sur le canapé. Puis la rage passait, et il recommençait la partie.\n\nOlivier, lui, voyait aussi les bons côtés. Dans ce jeu de survie, Nathan apprenait à prévoir, à compter ses ressources et à jouer avec ses amis. Le monde du jeu était imaginaire, mais les amitiés étaient réelles. « Le problème, ce n'est pas le jeu, dit Olivier. C'est le temps qu'il y passe. »\n\nLes parents se renseignèrent. Ils apprirent que la réglementation française interdit aux élèves d'utiliser leur téléphone pendant les heures de collège. Cette réglementation les rassura un peu. Ils lurent aussi que chaque jeu porte un signe qui indique l'âge approprié. Le jeu de Nathan était approprié aux enfants de 10 ans ; d'autres jeux de guerriers, plus violents, ne l'étaient pas.\n\nFin août, ils s'assirent tous les trois autour de la table de la cuisine. Nathan aurait son téléphone, à condition de respecter quelques règles. Pas de téléphone dans la chambre la nuit. Pas plus d'une heure de jeu les jours d'école. Seulement des jeux appropriés à son âge. Et ses parents veilleraient à ce que ces règles soient respectées. « Veiller, ça veut dire surveiller tout le temps ? » demanda Nathan, inquiet. « Non, répondit Sandrine. Ça veut dire faire attention, comme on veille sur quelqu'un qu'on aime. »\n\nLes premières semaines, le téléphone détourna parfois Nathan de ses devoirs. Une notification arrivait, et ses yeux se détournaient du cahier. Alors il prit lui-même une décision : pendant les devoirs, le téléphone reste dans l'entrée. Au mois de novembre, son professeur principal écrivit sur son bulletin : « Bon début de sixième. »\n\nQuestions :\nQu'est-ce que la sixième, en France ?\nC'est la première année du collège.\nÀ quel jeu Nathan joue-t-il ?\nIl joue à un jeu de survie, dans un monde imaginaire, avec un personnage de guerrier.\nQue se passe-t-il quand le guerrier de Nathan meurt ?\nNathan entre parfois dans une petite rage, puis il recommence la partie.\nQue dit la réglementation française ?\nElle interdit aux élèves d'utiliser leur téléphone pendant les heures de collège.\nQuelles règles la famille décide-t-elle ?\nPas de téléphone la nuit dans la chambre, une heure de jeu au plus les jours d'école, et seulement des jeux appropriés à son âge.\nComment Sandrine explique-t-elle le mot « veiller » ?\nElle dit que veiller, c'est faire attention, comme on veille sur quelqu'un qu'on aime."
+    },
+    {
+      "title": "Les peurs d'hier",
+      "summary": "A column in Grenoble: a granddaughter worried about artificial intelligence talks with her grandfather, a retired chemistry teacher, who recalls the fears each new invention once caused.",
+      "newWords": [
+        "vapeur",
+        "soviétique",
+        "occident",
+        "médiatique",
+        "écho",
+        "gouverner",
+        "chimie",
+        "génétique",
+        "nôtre",
+        "otage"
+      ],
+      "text": "Ma voisine Camille a 16 ans. Mardi dernier, elle rentra du lycée très inquiète. Son professeur avait parlé de l'intelligence artificielle, et une phrase entendue à la télévision lui revenait sans cesse : « Bientôt, les machines vont nous gouverner. » Le soir même, elle en parla à son grand-père, Raymond, qui a enseigné la chimie pendant quarante ans dans un lycée de Grenoble.\n\nRaymond l'écouta, puis il sourit. « Tu sais, dit-il, chaque époque a eu peur de ses machines. La tienne a peur de l'intelligence artificielle. La nôtre avait d'autres peurs, et celle de mes parents aussi. Mais ta peur ressemble beaucoup à la nôtre. »\n\nIl raconta d'abord l'histoire des premiers trains. Au 19e siècle, quand les machines à vapeur commencèrent à tirer des wagons, certains médecins affirmèrent que le corps humain ne supporterait pas une telle vitesse. La vapeur, le bruit et la fumée faisaient peur aux paysans. Pourtant, en quelques années, le train à vapeur devint un moyen de transport ordinaire.\n\nPuis il parla de sa propre jeunesse. En 1957, l'Union soviétique envoya dans l'espace le premier satellite. En Occident, ce fut un choc : on craignait que les Soviétiques ne prennent une avance définitive. Raymond se souvenait des journaux de l'époque : l'événement eut un écho énorme dans le monde entier. « Le satellite soviétique ne faisait que tourner en émettant un petit bruit, dit-il. Mais tout l'Occident l'écoutait avec inquiétude. »\n\nPlus tard, dans les années 1990, ce fut le tour de la génétique. Quand des chercheurs écossais firent naître un mouton à partir d'une seule cellule, le débat devint très médiatique. Pendant des semaines, la génétique fit la une des journaux et des émissions de télévision. Leurs questions trouvaient un écho chez les parents, chez les médecins, jusqu'au gouvernement.\n\n« Alors, les peurs avaient tort ? » demanda Camille. Non, répondit Raymond : certaines peurs étaient utiles : elles ont obligé les pays à écrire des lois, à fixer des limites. La chimie a ses règles, la génétique aussi. Ce qui compte, c'est de comprendre les machines au lieu de les craindre. « Les machines ne vont pas nous gouverner, conclut-il. Ce sont les humains qui décident comment gouverner les machines. Nous ne sommes leurs otages que si nous renonçons à réfléchir. »\n\nCamille repartit rassurée. Quant à moi, je pense que les grands-parents sont parfois la meilleure réponse à un sujet trop médiatique : ils ont vu passer d'autres peurs, et ils en sont revenus.\n\nQuestions :\nPourquoi Camille est-elle inquiète ?\nParce qu'elle a entendu à la télévision que les machines allaient bientôt nous gouverner.\nQui est Raymond ?\nC'est son grand-père, qui a enseigné la chimie pendant quarante ans à Grenoble.\nDe quoi avait-on peur avec les premiers trains à vapeur ?\nCertains médecins pensaient que le corps humain ne supporterait pas une telle vitesse.\nQuel événement soviétique a fait peur à l'Occident en 1957 ?\nL'Union soviétique a envoyé dans l'espace le premier satellite.\nPourquoi le débat sur la génétique est-il devenu médiatique ?\nParce que des chercheurs avaient fait naître un mouton à partir d'une seule cellule.\nSelon Raymond, quand sommes-nous les otages des machines ?\nSeulement si nous renonçons à réfléchir."
+    },
+    {
+      "title": "Les papiers de Céline",
+      "summary": "In Nyon, a self-employed graphic designer whose appointment is postponed does her pension paperwork on the new government website instead, and finally throws out her old papers.",
+      "newWords": [
+        "cotisation",
+        "gouvernemental",
+        "conformément",
+        "trahir",
+        "poubelle",
+        "reporter",
+        "district",
+        "éventuellement"
+      ],
+      "text": "Céline travaille seule, comme photographe, dans un petit atelier de Nyon, au bord du lac Léman. En Suisse, comme ailleurs, travailler seul veut dire s'occuper soi-même de ses papiers. Chaque année, Céline doit déclarer ce qu'elle a gagné et payer ses cotisations pour la retraite. Ces cotisations sont obligatoires : elles serviront à payer sa retraite, plus tard.\n\nPendant des années, Céline a tout fait sur papier. Une fois par an, elle prenait rendez-vous au bureau des assurances sociales du district de Nyon, apportait un gros dossier et repartait avec une pile de papiers. Le district, en Suisse, est une partie du canton qui regroupe plusieurs communes, et ses bureaux aident les habitants pour beaucoup de démarches.\n\nCette année, une lettre arriva en mars : son rendez-vous était reporté au mois de juin, faute de personnel. Elle n'avait aucune envie d'attendre trois mois. La lettre ajoutait qu'il était possible de faire la même démarche sur un nouveau site gouvernemental. « Pourquoi pas ? » se dit-elle. Plutôt que de reporter encore son travail, elle décida d'essayer le soir même.\n\nElle hésita pourtant devant l'écran. Confier ses revenus, son adresse et ses comptes à internet, n'était-ce pas risqué ? Elle avait lu des histoires d'entreprises qui avaient trahi la confiance de leurs clients en vendant leurs données. Un site pouvait-il la trahir, lui aussi ? Elle lut alors la page consacrée à la protection des données. Le texte expliquait que ses informations étaient conservées en Suisse, conformément à la loi fédérale, et qu'elles ne seraient utilisées que conformément au but annoncé.\n\nRassurée, Céline remplit les pages du site. Le site calcula aussitôt le montant de ses cotisations. Un message précisait qu'on lui demanderait éventuellement d'autres documents, si un chiffre n'était pas clair. Éventuellement, cela voulait dire peut-être, pas forcément. Elle n'eut finalement rien d'autre à envoyer. En quarante minutes, tout était terminé.\n\nLe dimanche suivant, elle ouvrit son vieux dossier. Dedans, il y avait dix ans de lettres et de copies. Elle garda les documents importants, comme la loi le demande, et mit le reste dans la poubelle à papier. La poubelle fut pleine en dix minutes.\n\nBien sûr, le numérique ne règle pas tout. Le bureau du district reste ouvert pour ceux qui préfèrent parler à quelqu'un. Mais pour Céline, cette année, la démarche qu'elle craignait le plus est devenue la plus simple.\n\nQuestions :\nPourquoi Céline doit-elle payer des cotisations ?\nParce qu'elle travaille seule et que ces cotisations obligatoires serviront à payer sa retraite.\nQu'est-ce qu'un district, en Suisse ?\nC'est une partie du canton qui regroupe plusieurs communes.\nPourquoi décide-t-elle d'utiliser le site gouvernemental ?\nParce que son rendez-vous au bureau du district a été reporté au mois de juin.\nDe quoi Céline a-t-elle peur ?\nElle a peur que le site trahisse sa confiance en vendant ses données.\nQue veut dire « éventuellement » dans le message du site ?\nCela veut dire peut-être, pas forcément.\nQue fait-elle de ses vieux papiers ?\nElle garde les documents importants et met le reste dans la poubelle à papier."
+    }
+  ]
+}
