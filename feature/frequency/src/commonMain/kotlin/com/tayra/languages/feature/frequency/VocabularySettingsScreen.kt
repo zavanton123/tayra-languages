@@ -58,6 +58,8 @@ import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.navigation.Route
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import org.koin.compose.viewmodel.koinViewModel
 
 /** The colour of words the level covers, in the picker and the example. */
@@ -70,7 +72,7 @@ fun VocabularySettingsScreen(onNavigate: (Route) -> Unit, viewModel: VocabularyS
     CollectEvents(viewModel.events) { toast.show(it) }
     ToastHost(toast)
     Scaffold(
-        topBar = { AppTopBar(title = "Vocabulary settings", onNavigate = onNavigate, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = tr("Vocabulary settings"), onNavigate = onNavigate, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
@@ -100,22 +102,34 @@ internal fun VocabularySettingsContent(
     val wide = LocalWindowWidth.current.isExpanded
     var confirming by remember { mutableStateOf(false) }
     ScreenHeader(
-        "Vocabulary",
-        if (state.languageName.isEmpty()) "How much of the language you know already." else "How much ${state.languageName} you know already.",
+        tr("Vocabulary"),
+        if (state.languageName.isEmpty()) tr("How much of the language you know already.") else tr("How much {0} you know already.", tr(state.languageName)),
         onBackToSettings = onBackToSettings,
     )
     val list = state.list
     if (list == null) {
-        ContentCard("Vocabulary level", "There is no word frequency list for ${state.languageName.ifEmpty { "this language" }}, so a level cannot be set.", icon = AppIcons.BarChart) {}
+        ContentCard(
+            tr("Vocabulary level"),
+            if (state.languageName.isEmpty()) tr("There is no word frequency list for this language, so a level cannot be set.")
+            else tr("There is no word frequency list for {0}, so a level cannot be set.", tr(state.languageName)),
+            icon = AppIcons.BarChart,
+        ) {}
         return
     }
     ContentCard(
-        "Vocabulary level",
-        "Click the last row where you know all the words. The most common ${formatCount(state.shownLevel.coerceAtLeast(1))} words and their forms are then saved as known; words you have saved already keep their status.",
+        tr("Vocabulary level"),
+        state.shownLevel.coerceAtLeast(1).let { n ->
+            trPlural(
+                n,
+                "Click the last row where you know all the words. The most common {1} word and its forms are then saved as known; words you have saved already keep their status.",
+                "Click the last row where you know all the words. The most common {1} words and their forms are then saved as known; words you have saved already keep their status.",
+                formatCount(n),
+            )
+        },
         icon = AppIcons.BarChart,
         titleExtra = {
             Text(
-                if (state.chosen) "Set to ${formatCount(state.level)}" else "Not set",
+                if (state.chosen) tr("Set to {0}", formatCount(state.level)) else tr("Not set"),
                 Modifier.clip(RoundedCornerShape(50)).background(MaterialTheme.colorScheme.primary.copy(alpha = 0.12f)).padding(horizontal = 10.dp, vertical = 3.dp),
                 style = MaterialTheme.typography.labelMedium,
                 color = MaterialTheme.colorScheme.primary,
@@ -136,15 +150,15 @@ internal fun VocabularySettingsContent(
         Spacer(Modifier.height(20.dp))
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             Button(onClick = { confirming = true }, enabled = state.picked != null && !state.saving, modifier = Modifier.testTag("set-vocabulary-level")) {
-                Text("Set vocabulary level")
+                Text(tr("Set vocabulary level"))
             }
             if (state.saving) {
                 CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
-                Text("Saving…", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(tr("Saving…"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             Spacer(Modifier.weight(1f))
             Text(
-                "Word frequency",
+                tr("Word frequency"),
                 Modifier.clip(RoundedCornerShape(6.dp)).clickable(onClick = onWordFrequency).padding(horizontal = 6.dp, vertical = 4.dp),
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.primary,
@@ -190,7 +204,7 @@ internal fun LevelPicker(list: FrequencyList, shown: Int?, onPick: (Int) -> Unit
             ) {
                 Text(formatCount(level), Modifier.width(64.dp), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 if (level == 0) {
-                    Text("I'm just starting out", Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+                    Text(tr("I'm just starting out"), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
                 } else {
                     val samples = remember(list, previous, level) { samples(list, previous, level) }
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -231,10 +245,10 @@ internal fun ExampleText(state: VocabularySettingsUiState, modifier: Modifier) {
     val rare = colors.onSurfaceVariant.copy(alpha = 0.55f)
     val shape = RoundedCornerShape(12.dp)
     Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text("Example text", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+        Text(tr("Example text"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
         Box(Modifier.fillMaxWidth().clip(shape).border(1.dp, colors.outlineVariant, shape).padding(20.dp)) {
             if (state.example.isEmpty()) {
-                Text("No sample text for ${state.languageName}.", color = colors.onSurfaceVariant)
+                Text(tr("No sample text for {0}.", tr(state.languageName)), color = colors.onSurfaceVariant)
             } else {
                 Text(
                     buildAnnotatedString {
@@ -253,9 +267,9 @@ internal fun ExampleText(state: VocabularySettingsUiState, modifier: Modifier) {
             }
         }
         Row(horizontalArrangement = Arrangement.spacedBy(18.dp)) {
-            Legend(KNOWN_GREEN, "Known at this level")
-            Legend(colors.primary, "New")
-            Legend(rare, "Rarer than the ${formatCount(state.list?.words?.size ?: 0)} most common")
+            Legend(KNOWN_GREEN, tr("Known at this level"))
+            Legend(colors.primary, tr("New"))
+            Legend(rare, tr("Rarer than the {0} most common", formatCount(state.list?.words?.size ?: 0)))
         }
     }
 }

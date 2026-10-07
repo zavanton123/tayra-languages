@@ -62,6 +62,8 @@ import com.tayra.languages.core.ui.components.LocalWindowWidth
 import com.tayra.languages.core.ui.components.ToastHost
 import com.tayra.languages.core.ui.components.rememberToastState
 import com.tayra.languages.core.ui.state.CollectEvents
+import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import org.koin.compose.viewmodel.koinViewModel
 
 /**
@@ -115,14 +117,14 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
         Column(Modifier.weight(1f, fill = false).verticalScroll(rememberScrollState()).padding(start = 40.dp, end = 28.dp, top = 28.dp, bottom = 24.dp)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f).padding(top = 6.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text("How much ${state.languageName} do you know?", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+                    Text(tr("How much {0} do you know?", tr(state.languageName)), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
                     Text(
-                        "Choose an estimate. Words below this level will start as known. You can change it later in Settings → Vocabulary.",
+                        tr("Choose an estimate. Words below this level will start as known. You can change it later in Settings → Vocabulary."),
                         style = MaterialTheme.typography.bodyLarge,
                         color = colors.onSurfaceVariant,
                     )
                 }
-                IconButton(onClick = onLater, enabled = !state.saving) { Icon(Icons.Default.Close, contentDescription = "Close") }
+                IconButton(onClick = onLater, enabled = !state.saving) { Icon(Icons.Default.Close, contentDescription = tr("Close")) }
             }
             Spacer(Modifier.height(24.dp))
             if (wide) {
@@ -138,11 +140,11 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
         }
         HorizontalDivider(color = colors.outlineVariant)
         Row(Modifier.fillMaxWidth().padding(horizontal = 28.dp, vertical = 20.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            TextButton(onClick = onLater, enabled = !state.saving) { Text("Skip for now", style = MaterialTheme.typography.titleMedium) }
+            TextButton(onClick = onLater, enabled = !state.saving) { Text(tr("Skip for now"), style = MaterialTheme.typography.titleMedium) }
             Spacer(Modifier.weight(1f))
             if (state.saving) {
                 CircularProgressIndicator(Modifier.size(18.dp), strokeWidth = 2.dp)
-                Text("Saving…", style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                Text(tr("Saving…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
             Button(
                 onClick = onSave,
@@ -150,7 +152,7 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
                 contentPadding = PaddingValues(horizontal = 28.dp, vertical = 14.dp),
                 modifier = Modifier.testTag("prompt-set-level"),
             ) {
-                Text(if (level == 0) "Start from scratch" else "Start with ${formatCount(level)} words", style = MaterialTheme.typography.titleMedium)
+                Text(if (level == 0) tr("Start from scratch") else trPlural(level, "Start with {1} word", "Start with {1} words", formatCount(level)), style = MaterialTheme.typography.titleMedium)
             }
         }
     }
@@ -158,13 +160,13 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
 
 /** What a level means to a learner, roughly. */
 private fun levelName(level: Int): String = when {
-    level == 0 -> "Starting out"
-    level <= 300 -> "Early beginner"
-    level <= 700 -> "Beginner"
-    level <= 1500 -> "Elementary"
-    level <= 3000 -> "Intermediate"
-    level <= 6000 -> "Upper intermediate"
-    else -> "Advanced"
+    level == 0 -> tr("Starting out")
+    level <= 300 -> tr("Early beginner")
+    level <= 700 -> tr("Beginner")
+    level <= 1500 -> tr("Elementary")
+    level <= 3000 -> tr("Intermediate")
+    level <= 6000 -> tr("Upper intermediate")
+    else -> tr("Advanced")
 }
 
 /** The levels named under the slider; the others are ticks only. */
@@ -184,11 +186,11 @@ private fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit,
     val index = choices.indexOf(level).coerceAtLeast(0)
     val shape = RoundedCornerShape(16.dp)
     Column(modifier.clip(shape).border(1.dp, colors.outlineVariant, shape).padding(24.dp)) {
-        Text("Estimated vocabulary", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        Text(tr("Estimated vocabulary"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         Row(verticalAlignment = Alignment.Bottom) {
             Text(formatCount(level), style = MaterialTheme.typography.displayLarge, fontWeight = FontWeight.Bold, color = colors.primary)
             Spacer(Modifier.width(14.dp))
-            Text("words", Modifier.padding(bottom = 10.dp), style = MaterialTheme.typography.headlineMedium, color = colors.onSurface)
+            Text(trPlural(level, "word", "words"), Modifier.padding(bottom = 10.dp), style = MaterialTheme.typography.headlineMedium, color = colors.onSurface)
         }
         Text(levelName(level), style = MaterialTheme.typography.titleLarge)
         Spacer(Modifier.height(18.dp))
@@ -203,7 +205,7 @@ private fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit,
             Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(colors.primary.copy(alpha = 0.06f)).padding(20.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            Text(if (level == 0) "Your first words" else "Words around this level", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+            Text(if (level == 0) tr("Your first words") else tr("Words around this level"), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
             words.chunked(3).forEach { row ->
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     row.forEach { word ->
@@ -220,7 +222,7 @@ private fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit,
                 }
             }
             Text(
-                if (level == 0) "Not familiar yet? Start from scratch, or move the slider." else "Move the slider until these words feel familiar.",
+                if (level == 0) tr("Not familiar yet? Start from scratch, or move the slider.") else tr("Move the slider until these words feel familiar."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
@@ -285,7 +287,7 @@ private fun LevelSlider(choices: List<Int>, index: Int, onPick: (Int) -> Unit) {
                 shown.forEach { i -> names[i].place(left(i), top) }
             }
         }
-        Text("Starting out", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+        Text(tr("Starting out"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
     }
 }
 
@@ -299,13 +301,13 @@ private fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier: 
     val shape = RoundedCornerShape(16.dp)
     Column(modifier.clip(shape).border(1.dp, colors.outlineVariant, shape).padding(24.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
         Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text("Reading preview", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-            Text("A sample text at this estimate", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+            Text(tr("Reading preview"), style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text(tr("A sample text at this estimate"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         }
         val inner = RoundedCornerShape(14.dp)
         Box(Modifier.fillMaxWidth().weight(1f, fill = false).clip(inner).border(1.dp, colors.outlineVariant, inner).padding(20.dp)) {
             if (state.example.isEmpty()) {
-                Text("No sample text for ${state.languageName}.", color = colors.onSurfaceVariant)
+                Text(tr("No sample text for {0}.", tr(state.languageName)), color = colors.onSurfaceVariant)
             } else {
                 Text(
                     buildAnnotatedString {
@@ -326,9 +328,9 @@ private fun PreviewCard(state: VocabularySettingsUiState, level: Int, modifier: 
             }
         }
         Row(horizontalArrangement = Arrangement.spacedBy(22.dp)) {
-            PreviewLegend(KNOWN_GREEN, "Known")
-            PreviewLegend(colors.primary, "New")
-            PreviewLegend(outside, "Outside frequency list")
+            PreviewLegend(KNOWN_GREEN, tr("Known"))
+            PreviewLegend(colors.primary, tr("New"))
+            PreviewLegend(outside, tr("Outside frequency list"))
         }
     }
 }
