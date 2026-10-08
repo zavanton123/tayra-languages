@@ -31,6 +31,8 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.mutableIntStateOf
+import com.tayra.languages.feature.settings.LanguageSetupDialog
 import androidx.compose.runtime.setValue
 import com.tayra.languages.core.domain.frequency.VocabularyLevelService
 import com.tayra.languages.feature.frequency.VocabularyLevelPrompt
@@ -48,16 +50,20 @@ import org.koin.compose.viewmodel.koinViewModel
 
 /**
  * Gives every screen's top bar the choice of the language being learned, and picks a language
- * again whenever the chosen one is gone (deleted, or the database was reset). Choosing a language
- * never given a vocabulary level asks for one.
+ * again whenever the chosen one is gone (deleted, or the database was reset). Choosing another
+ * language opens its courses ([onChosen]) and offers what it can download; a language never given
+ * a vocabulary level is asked for one after that.
  */
 @Composable
-private fun ProvideLearningLanguage(currentId: Long, content: @Composable () -> Unit) {
+private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, content: @Composable () -> Unit) {
     val languages by koinInject<LanguageRepository>().observeAll().collectAsStateWithLifecycle(emptyList())
     val learning = koinInject<LearningLanguageService>()
     val levels = koinInject<VocabularyLevelService>()
     val scope = rememberCoroutineScope()
-    // The language just chosen to learn, while it waits for its vocabulary level.
+    // The language just chosen, while its downloads are offered.
+    var setupFor by remember { mutableStateOf<Long?>(null) }
+    // The language waiting for its vocabulary level, asked once the downloads are dealt with.
+    var levelPending by remember { mutableStateOf<Long?>(null) }
     var askLevelFor by remember { mutableStateOf<Long?>(null) }
     LaunchedEffect(currentId, languages) {
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure()
@@ -66,12 +72,20 @@ private fun ProvideLearningLanguage(currentId: Long, content: @Composable () -> 
         LearningLanguageState(languages.sortedBy { it.name }.map { it.id to it.name }, currentId) { id ->
             scope.launch {
                 learning.select(id)
-                if (id != currentId && levels.needsLevel(id)) askLevelFor = id
+                if (id == currentId) return@launch
+                onChosen()
+                levelPending = id.takeIf { levels.needsLevel(id) }
+                setupFor = id
             }
         }
     }
     CompositionLocalProvider(LocalLearningLanguage provides state) {
         content()
+        LanguageSetupDialog(setupFor, onClosed = {
+            setupFor = null
+            askLevelFor = levelPending
+            levelPending = null
+        })
         VocabularyLevelPrompt(askLevelFor, onClosed = { askLevelFor = null })
     }
 }
@@ -85,6 +99,8 @@ fun App(titleBarInset: Dp = 0.dp) {
     KoinContext {
         val settingsRepository = koinInject<SettingsRepository>()
         val settings by settingsRepository.settings.collectAsStateWithLifecycle()
+        // Counts the languages chosen, so the navigation goes to Courses after each one.
+        var openCourses by remember { mutableIntStateOf(0) }
         // Set during composition, so the first frame is already in the chosen language.
         UiLanguage.set(settings.uiLanguage)
         TayraTheme(AppThemes.byId(settings.themeId)) {
@@ -101,10 +117,10 @@ fun App(titleBarInset: Dp = 0.dp) {
                         is BootstrapState.Failed -> Box(Modifier.fillMaxSize().padding(24.dp), contentAlignment = Alignment.Center) {
                             Text(tr("Could not start: {0}", s.message), color = MaterialTheme.colorScheme.error)
                         }
-                        BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId) {
+                        BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId, onChosen = { openCourses++ }) {
                             val flashcards = koinInject<FlashcardService>()
                             val due by remember(flashcards) { flashcards.observeDueCount() }.collectAsStateWithLifecycle(0)
-                            CompositionLocalProvider(LocalFlashcardsDue provides due) { AppNavHost() }
+                            CompositionLocalProvider(LocalFlashcardsDue provides due) { AppNavHost(openCourses) }
                         }
                     }
                     }

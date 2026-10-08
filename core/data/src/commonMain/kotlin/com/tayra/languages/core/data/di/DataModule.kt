@@ -77,6 +77,7 @@ import org.koin.dsl.module
 import com.tayra.languages.core.data.network.KtorRecordingFetcher
 import com.tayra.languages.core.domain.service.ExampleRecordings
 import com.tayra.languages.core.domain.service.SentenceAudio
+import com.tayra.languages.core.domain.service.LanguageSetupService
 
 /** Platform-specific bindings: the database driver factories and [Settings]. */
 expect val platformDataModule: Module
@@ -150,6 +151,7 @@ val dataModule: Module = module {
     single<SampleCourseSource> { InstalledCoursePacks(get()) }
     single { CourseService(get(), get(), get(), get(), get()) }
     single { CoursePackService(get(), get()) }
+    single { LanguageSetupService(get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
     single<VocabularyLevelRepository> { VocabularyLevelRepositoryImpl(get()) }
     single { FlashcardService(get(), get(), get()) }
