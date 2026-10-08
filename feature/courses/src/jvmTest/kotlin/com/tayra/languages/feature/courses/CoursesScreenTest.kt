@@ -235,8 +235,22 @@ class CoursesScreenTest {
     fun withoutCoursesTheReadyMadeOnesAreOfferedForDownload() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         var asked = 0
         host { CoursesContent(CoursesUiState(loading = false, languageName = "Portuguese", packAvailable = true), {}, {}, {}, onOpen = {}, onDownloadCourses = { asked++ }) }
-        onNodeWithText("No courses yet").assertExists()
+        onNodeWithText("Create your first course").assertExists()
+        save("COURSES_EMPTY_PACK_SCREENSHOT")
         onNodeWithTag("download-courses").performClick()
         assertEquals(1, asked)
+    }
+
+    @Test
+    fun withoutCoursesOrAPackTheFirstCourseIsCreated() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        var created = 0
+        host { CoursesContent(CoursesUiState(loading = false, languageName = "Estonian"), {}, {}, {}, onOpen = {}, onNewCourse = { created++ }) }
+        onNodeWithText("Build a guided reading course from books and texts you choose.").assertExists()
+        onNodeWithText("How courses work").assertDoesNotExist()
+        onNodeWithTag("download-courses").assertDoesNotExist()
+        assertEquals(1, onAllNodesWithTag("new-course").fetchSemanticsNodes().size, "only the empty state's button, not the header's")
+        save("COURSES_EMPTY_SCREENSHOT")
+        onNodeWithTag("new-course").performClick()
+        assertEquals(1, created)
     }
 }
