@@ -40,6 +40,8 @@ data class LocalPackage(
     val toName: String,
     val installed: Boolean,
     val sizeBytes: Long = 0,
+    /** Whether [sizeBytes] is the translator's estimate rather than the file's size. */
+    val estimated: Boolean = false,
     /** A name to show instead of "from → to", for translators whose models are per language. */
     val label: String? = null,
 ) {
@@ -107,6 +109,12 @@ interface LocalSentenceTranslator : SentenceTranslator {
 
     /** Installs the translator's own runtime into the app folder and points the settings at it. Returns a summary or throws. */
     suspend fun setUp(): String
+
+    /** About how much [setUp] downloads from here, null when unknown or nothing is left to set up. */
+    suspend fun runtimeDownloadSize(): Long? = null
+
+    /** The models the translator offers, known before its runtime is set up; null when only [packages] knows them. */
+    fun knownPackages(): List<LocalPackage>? = null
 
     /** Every model the translator can download, with its installed state. Throws when the translator is unavailable. */
     suspend fun packages(): List<LocalPackage>

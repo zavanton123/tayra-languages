@@ -181,6 +181,11 @@ class ArgosSentenceTranslator(
         "Argos Translate is not available: ${e.message}"
     }
 
+    override suspend fun runtimeDownloadSize(): Long? = if (managed.isInstalled && importOk()) null else PIP_DOWNLOAD_SIZE + managed.downloadSize
+
+    override fun knownPackages(): List<LocalPackage> =
+        ArgosModels.all.map { LocalPackage(it.fromCode, it.toCode, it.fromName, it.toName, installed = false, sizeBytes = it.sizeBytes) }
+
     override suspend fun packages(): List<LocalPackage> =
         request(INDEX_TIMEOUT_MS, "cmd" to "packages")["packages"]?.jsonArray?.map { element ->
             val o = element.jsonObject
@@ -190,7 +195,8 @@ class ArgosSentenceTranslator(
                 fromName = o["fromName"]?.jsonPrimitive?.content ?: o.getValue("from").jsonPrimitive.content,
                 toName = o["toName"]?.jsonPrimitive?.content ?: o.getValue("to").jsonPrimitive.content,
                 installed = o["installed"]?.jsonPrimitive?.booleanOrNull ?: false,
-                sizeBytes = o["size"]?.jsonPrimitive?.longOrNull ?: 0L,
+                sizeBytes = o["size"]?.jsonPrimitive?.longOrNull?.takeIf { it > 0 }
+                    ?: ArgosModels.find(o.getValue("from").jsonPrimitive.content, o.getValue("to").jsonPrimitive.content)?.sizeBytes ?: 0L,
             )
         }.orEmpty().sortedBy { it.title }
 
@@ -256,6 +262,8 @@ class ArgosSentenceTranslator(
     }
 
     private companion object {
+        /** What pip fetches for argostranslate into a fresh Python, PyTorch most of it. */
+        const val PIP_DOWNLOAD_SIZE = 186_000_000L
         const val STATUS_TIMEOUT_MS = 30_000L
         const val INDEX_TIMEOUT_MS = 120_000L
         const val TRANSLATE_TIMEOUT_MS = 120_000L

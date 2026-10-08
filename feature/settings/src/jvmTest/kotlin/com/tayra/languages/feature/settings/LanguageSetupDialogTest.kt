@@ -13,9 +13,12 @@ import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
 import com.tayra.languages.core.data.settings.SettingsRepositoryImpl
+import com.tayra.languages.core.domain.service.SetupFile
+import com.tayra.languages.core.domain.service.SetupFileKind
 import com.tayra.languages.core.domain.service.SetupItem
 import com.tayra.languages.core.domain.service.SetupKind
 import com.tayra.languages.core.domain.service.SetupState
+import com.tayra.languages.core.ui.i18n.UiLanguage
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
@@ -25,14 +28,22 @@ import kotlin.test.assertEquals
 @OptIn(ExperimentalTestApi::class)
 class LanguageSetupDialogTest {
     private val items = listOf(
-        SetupItem("courses:courses-fr", SetupKind.COURSES, "French", "French", 1_196_300, recommended = true),
-        SetupItem("dictionary:fr-en", SetupKind.DICTIONARY, "French", "French → English", null, recommended = true),
-        SetupItem("voice:PIPER:fr_FR-siwis-medium", SetupKind.VOICE, "French", "Piper: Siwis (medium)", 63_000_000, recommended = false, includesRuntime = true, switchesEngine = true),
-        SetupItem("translation:fr-en", SetupKind.TRANSLATION, "French", "Argos Translate", 92_000_000, recommended = true),
+        SetupItem("courses:courses-el", SetupKind.COURSES, "Greek", "Greek", listOf(SetupFile(SetupFileKind.COURSES, "Greek", 1_196_300)), recommended = true),
+        SetupItem("dictionary:el-ru", SetupKind.DICTIONARY, "Greek", "Greek \u2192 Russian", listOf(SetupFile(SetupFileKind.DICTIONARY, "Greek \u2192 Russian", 1_429_346)), recommended = true),
+        SetupItem(
+            "voice:PIPER:el_GR-rapunzelina-medium", SetupKind.VOICE, "Greek", "Piper · Rapunzelina · medium · Greece",
+            listOf(SetupFile(SetupFileKind.ENGINE, "Piper", 86_000_000, estimated = true), SetupFile(SetupFileKind.VOICE, "Rapunzelina · medium · Greece", 63_500_000)),
+            recommended = false, switchesEngine = true,
+        ),
+        SetupItem(
+            "translation:el-ru", SetupKind.TRANSLATION, "Greek", "Argos Translate · Greek \u2192 Russian",
+            listOf(SetupFile(SetupFileKind.MODEL, "Greek \u2192 English", 72_161_252), SetupFile(SetupFileKind.MODEL, "English \u2192 Russian", 195_746_693)),
+            recommended = true,
+        ),
     )
 
     @Test
-    fun theChosenDownloadsStartAndShowTheirProgress() = runDesktopComposeUiTest(width = 900, height = 760) {
+    fun theChosenDownloadsStartAndShowTheirProgress() = runDesktopComposeUiTest(width = 760, height = 1000) {
         var state by mutableStateOf(LanguageSetupUiState(1, items, items.filter { it.recommended }.map { it.id }.toSet()))
         var progress by mutableStateOf<Map<String, SetupState>>(emptyMap())
         var started = 0
@@ -47,11 +58,13 @@ class LanguageSetupDialogTest {
                 )
             }
         }
-        onNodeWithText("Get ready to learn French").assertExists()
-        onNodeWithText("Download (3)").assertExists()
+        onNodeWithText("Get ready to learn Greek").assertExists()
+        onNodeWithText("3 downloads selected · 270.5 MB").assertExists()
+        onNodeWithText("Piper engine · about 86.0 MB").assertExists()
         System.getenv("SETUP_SCREENSHOT")?.let { save(it) }
         onNodeWithTag("setup-VOICE").performClick()
-        onNodeWithText("Download (4)").performClick()
+        onNodeWithText("4 downloads selected · about 420.0 MB").assertExists()
+        onNodeWithText("Download selected").performClick()
         assertEquals(1, started)
         progress = mapOf(
             items[0].id to SetupState.Done,
@@ -67,6 +80,23 @@ class LanguageSetupDialogTest {
         progress = progress + mapOf(items[2].id to SetupState.Done, items[3].id to SetupState.Done)
         onNodeWithText("Try again").performClick()
         assertEquals(SetupState.Waiting, progress[items[1].id])
+    }
+
+    @Test
+    fun theRussianTextsFit() = runDesktopComposeUiTest(width = 760, height = 1000) {
+        UiLanguage.set("ru")
+        try {
+            setContent {
+                Hosted(SettingsRepositoryImpl(MapSettings())) {
+                    LanguageSetupContent(LanguageSetupUiState(1, items, items.filter { it.recommended }.map { it.id }.toSet()), emptyMap(), {}, {}, {}, {})
+                }
+            }
+            onNodeWithText("Начинаем учить греческий").assertExists()
+            onNodeWithText("Выбрано 3 загрузки · 270.5 МБ").assertExists()
+            System.getenv("SETUP_SCREENSHOT")?.let { save(it.replace(".png", "-ru.png")) }
+        } finally {
+            UiLanguage.set("en")
+        }
     }
 
     private fun androidx.compose.ui.test.ComposeUiTest.save(path: String) {

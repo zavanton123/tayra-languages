@@ -1,5 +1,6 @@
 package com.tayra.languages.feature.settings
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -8,6 +9,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -18,12 +20,14 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Button
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.IconButtonDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -42,6 +46,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.service.LanguageSetupService
+import com.tayra.languages.core.domain.service.SetupFile
+import com.tayra.languages.core.domain.service.SetupFileKind
 import com.tayra.languages.core.domain.service.SetupItem
 import com.tayra.languages.core.domain.service.SetupKind
 import com.tayra.languages.core.domain.service.SetupState
@@ -52,6 +58,7 @@ import com.tayra.languages.core.ui.components.formatSize
 import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.tr
+import com.tayra.languages.core.ui.i18n.trPlural
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -157,46 +164,65 @@ fun LanguageSetupContent(
     onRetry: () -> Unit,
     onClosed: () -> Unit,
 ) {
+    val colors = MaterialTheme.colorScheme
     val items = state.items
-    Surface(shape = RoundedCornerShape(16.dp), color = MaterialTheme.colorScheme.surface, modifier = Modifier.widthIn(max = 600.dp).testTag("language-setup")) {
-        Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-            val name = items?.firstOrNull()?.languageName
-            Text(
-                if (name != null) tr("Get ready to learn {0}", languageInSentence(name, LanguageCase.NOMINATIVE)) else tr("Getting ready…"),
-                style = MaterialTheme.typography.headlineSmall,
-                fontWeight = FontWeight.SemiBold,
-            )
-            if (items == null) {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    CircularProgressIndicator(Modifier.size(20.dp), strokeWidth = 2.dp)
-                    Text(tr("Checking what can be downloaded…"), color = MaterialTheme.colorScheme.onSurfaceVariant)
+    Surface(shape = RoundedCornerShape(28.dp), color = colors.surface, modifier = Modifier.widthIn(max = 640.dp).padding(vertical = 24.dp).testTag("language-setup")) {
+        Column(Modifier.padding(start = 28.dp, end = 20.dp, top = 20.dp, bottom = 24.dp)) {
+            Row(verticalAlignment = Alignment.Top) {
+                Column(Modifier.weight(1f).padding(top = 12.dp, end = 12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    val name = items?.firstOrNull()?.languageName
+                    Text(
+                        if (name != null) tr("Get ready to learn {0}", languageInSentence(name, LanguageCase.NOMINATIVE)) else tr("Getting ready…"),
+                        style = MaterialTheme.typography.headlineSmall,
+                        fontWeight = FontWeight.Bold,
+                    )
+                    Text(
+                        if (items == null) tr("Checking what can be downloaded…") else tr("Choose what to download now. You can change this later in Settings."),
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = colors.onSurfaceVariant,
+                    )
                 }
-                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) { TextButton(onClick = onClosed) { Text(tr("Not now")) } }
+                IconButton(
+                    onClick = onClosed,
+                    colors = IconButtonDefaults.iconButtonColors(containerColor = colors.surfaceVariant.copy(alpha = 0.6f)),
+                    modifier = Modifier.testTag("setup-close"),
+                ) { Icon(Icons.Default.Close, contentDescription = tr("Close")) }
+            }
+            Spacer(Modifier.height(20.dp))
+            if (items == null) {
+                Box(Modifier.fillMaxWidth().padding(end = 8.dp).heightIn(min = 120.dp), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
                 return@Column
             }
-            Text(
-                tr("Choose what to download now. Everything stays available later in Settings."),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            Column(Modifier.heightIn(max = 420.dp).verticalScroll(rememberScrollState())) {
-                items.forEachIndexed { i, item ->
-                    if (i > 0) HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
-                    SetupRow(item, checked = item.id in state.selected, started = state.started, progress = progress[item.id], onToggle = { onToggle(item.id) })
+            Column(Modifier.weight(1f, fill = false).padding(end = 8.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                items.forEach { item ->
+                    SetupCard(item, checked = item.id in state.selected, started = state.started, progress = progress[item.id], onToggle = { onToggle(item.id) })
                 }
             }
-            val running = state.started && items.any { it.id in state.selected && progress[it.id].let { p -> p == null || p is SetupState.Waiting || p is SetupState.Running } }
-            if (running) {
-                Text(tr("Downloads go on in the background if you close this."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
+            Spacer(Modifier.height(20.dp))
+            val chosen = items.filter { it.id in state.selected }
+            val running = state.started && chosen.any { progress[it.id].let { p -> p == null || p is SetupState.Waiting || p is SetupState.Running } }
+            val failed = state.started && !running && chosen.any { progress[it.id] is SetupState.Failed }
+            Row(Modifier.fillMaxWidth().padding(end = 8.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text(
+                    when {
+                        !state.started -> listOfNotNull(
+                            trPlural(chosen.size, "{0} download selected", "{0} downloads selected"),
+                            totalSize(chosen),
+                        ).joinToString(" · ")
+                        running -> tr("Downloads go on in the background if you close this.")
+                        failed -> tr("Some downloads failed.")
+                        else -> tr("Everything is downloaded.")
+                    },
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = colors.onSurfaceVariant,
+                    modifier = Modifier.weight(1f),
+                )
                 if (!state.started) {
-                    TextButton(onClick = onClosed) { Text(tr("Not now")) }
-                    Button(onClick = onStart, enabled = state.selected.isNotEmpty(), modifier = Modifier.testTag("setup-download")) {
-                        Text(tr("Download ({0})", state.selected.size))
+                    TextButton(onClick = onClosed) { Text(tr("Set up later")) }
+                    Button(onClick = onStart, enabled = chosen.isNotEmpty(), modifier = Modifier.testTag("setup-download")) {
+                        Text(tr("Download selected"))
                     }
                 } else {
-                    val failed = !running && items.any { progress[it.id] is SetupState.Failed }
                     if (failed) TextButton(onClick = onRetry) { Text(tr("Try again")) }
                     Button(onClick = onClosed) { Text(if (running) tr("Close") else tr("Done")) }
                 }
@@ -205,20 +231,43 @@ fun LanguageSetupContent(
     }
 }
 
+/** The size of [items] together, "about" when part of it is estimated or unknown; null when nothing is known. */
 @Composable
-private fun SetupRow(item: SetupItem, checked: Boolean, started: Boolean, progress: SetupState?, onToggle: () -> Unit) {
+private fun totalSize(items: List<SetupItem>): String? {
+    val bytes = items.mapNotNull { it.sizeBytes }.takeIf { it.isNotEmpty() }?.sum() ?: return null
+    return sizeText(bytes, estimated = items.any { it.sizeEstimated })
+}
+
+private fun sizeText(bytes: Long, estimated: Boolean): String = if (estimated) tr("about {0}", formatSize(bytes)) else formatSize(bytes)
+
+/** "Greek → Russian" with the language names in the interface language, and each part of a "·" list the same way. */
+private fun localizedNames(text: String): String = text.split(" · ").joinToString(" · ") { part ->
+    if (" \u2192 " in part) part.split(" \u2192 ").joinToString(" \u2192 ") { tr(it) } else part
+}
+
+@Composable
+private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progress: SetupState?, onToggle: () -> Unit) {
     val colors = MaterialTheme.colorScheme
+    val shape = RoundedCornerShape(16.dp)
     Row(
-        Modifier.fillMaxWidth().clip(RoundedCornerShape(8.dp)).clickable(enabled = !started, onClick = onToggle).padding(vertical = 12.dp).testTag("setup-${item.kind.name}"),
+        Modifier.fillMaxWidth()
+            .clip(shape)
+            .background(colors.surfaceVariant.copy(alpha = 0.25f))
+            .border(1.dp, colors.outlineVariant, shape)
+            .clickable(enabled = !started, onClick = onToggle)
+            .padding(horizontal = 16.dp, vertical = 16.dp)
+            .testTag("setup-${item.kind.name}"),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(12.dp),
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        when {
-            !started || !checked -> Checkbox(checked = checked, onCheckedChange = { onToggle() }, enabled = !started)
-            progress is SetupState.Done -> Icon(Icons.Default.CheckCircle, contentDescription = tr("Downloaded"), tint = StatusTints.ok, modifier = Modifier.padding(12.dp).size(24.dp))
-            progress is SetupState.Failed -> Icon(Icons.Default.Warning, contentDescription = null, tint = colors.error, modifier = Modifier.padding(12.dp).size(24.dp))
-            progress is SetupState.Running -> CircularProgressIndicator(Modifier.padding(14.dp).size(20.dp), strokeWidth = 2.dp)
-            else -> Box(Modifier.padding(14.dp).size(20.dp).border(2.dp, colors.outlineVariant, CircleShape))
+        Box(Modifier.size(40.dp), contentAlignment = Alignment.Center) {
+            when {
+                !started || !checked -> Checkbox(checked = checked, onCheckedChange = { onToggle() }, enabled = !started)
+                progress is SetupState.Done -> Icon(Icons.Default.CheckCircle, contentDescription = tr("Downloaded"), tint = StatusTints.ok, modifier = Modifier.size(26.dp))
+                progress is SetupState.Failed -> Icon(Icons.Default.Warning, contentDescription = null, tint = colors.error, modifier = Modifier.size(26.dp))
+                progress is SetupState.Running -> CircularProgressIndicator(Modifier.size(22.dp), strokeWidth = 2.5.dp)
+                else -> Box(Modifier.size(22.dp).border(2.dp, colors.outlineVariant, CircleShape))
+            }
         }
         IconTile(
             when (item.kind) {
@@ -227,41 +276,68 @@ private fun SetupRow(item: SetupItem, checked: Boolean, started: Boolean, progre
                 SetupKind.VOICE -> AppIcons.VolumeUp
                 SetupKind.TRANSLATION -> AppIcons.Translate
             },
-            size = 40,
+            size = 56,
         )
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-            Text(
-                when (item.kind) {
-                    SetupKind.COURSES -> tr("Courses")
-                    SetupKind.DICTIONARY -> tr("Offline dictionary")
-                    SetupKind.VOICE -> tr("Voice")
-                    SetupKind.TRANSLATION -> tr("Offline translation")
-                },
-                style = MaterialTheme.typography.titleSmall,
-                fontWeight = FontWeight.SemiBold,
-            )
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                Text(
+                    when (item.kind) {
+                        SetupKind.COURSES -> tr("{0} course pack", tr(item.languageName))
+                        SetupKind.DICTIONARY -> tr("Offline dictionary")
+                        SetupKind.VOICE -> tr("{0} voice", tr(item.languageName))
+                        SetupKind.TRANSLATION -> tr("Offline translation")
+                    },
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                    modifier = Modifier.weight(1f),
+                )
+                item.sizeBytes?.let {
+                    Text(sizeText(it, item.sizeEstimated), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = 2.dp))
+                }
+            }
             Text(
                 when (item.kind) {
                     SetupKind.COURSES -> tr("100 graded courses of mini stories, from A1 to C2")
-                    SetupKind.DICTIONARY -> tr("{0}: look words up without internet", item.name)
-                    SetupKind.VOICE -> tr("{0}: hear texts read aloud offline", item.name)
-                    SetupKind.TRANSLATION -> tr("{0}: translate sentences without internet", item.name)
+                    SetupKind.DICTIONARY -> tr("Look up {0} words without internet", languageInSentence(item.languageName, LanguageCase.PREPOSITIONAL))
+                    SetupKind.VOICE -> tr("Hear books and words read aloud")
+                    SetupKind.TRANSLATION -> tr("Translate sentences without internet")
                 },
-                style = MaterialTheme.typography.bodySmall,
+                style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
-            val notes = listOfNotNull(
-                tr("Includes the engine itself, a large download").takeIf { item.includesRuntime },
-                when {
-                    !item.switchesEngine -> null
-                    item.kind == SetupKind.VOICE -> tr("Becomes your speech engine")
-                    else -> tr("Becomes your translation engine")
-                },
-            )
-            if (notes.isNotEmpty()) Text(notes.joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = colors.primary)
+            // A course pack is named after its language, as the title is; a voice that brings its engine lists both files.
+            if (item.kind != SetupKind.COURSES && (item.kind != SetupKind.VOICE || item.files.size == 1)) {
+                Text(localizedNames(item.name), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant.copy(alpha = 0.8f))
+            }
+            if (item.files.size > 1) {
+                Column(Modifier.padding(top = 4.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                    item.files.forEach { file -> FileLine(file) }
+                }
+            }
+            if (item.switchesEngine) {
+                Text(
+                    if (item.kind == SetupKind.VOICE) tr("Becomes your speech engine") else tr("Becomes your translation engine"),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = colors.primary,
+                )
+            }
             if (progress is SetupState.Failed) Text(tr("Download failed: {0}", progress.message), style = MaterialTheme.typography.bodySmall, color = colors.error)
         }
-        item.sizeBytes?.let { Text(formatSize(it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
-        Spacer(Modifier.size(4.dp))
+    }
+}
+
+/** One file of a download with its size: "Piper engine · about 86 MB". */
+@Composable
+private fun FileLine(file: SetupFile) {
+    val name = when (file.kind) {
+        SetupFileKind.ENGINE -> tr("{0} engine", file.name)
+        SetupFileKind.VOICE -> tr("Voice: {0}", file.name)
+        SetupFileKind.MODEL -> tr("{0} model", localizedNames(file.name))
+        SetupFileKind.COURSES, SetupFileKind.DICTIONARY -> localizedNames(file.name)
+    }
+    val size = file.sizeBytes?.let { sizeText(it, file.estimated) } ?: tr("size unknown")
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Box(Modifier.size(4.dp).clip(CircleShape).background(MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.6f)))
+        Text("$name · $size", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }

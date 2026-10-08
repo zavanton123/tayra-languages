@@ -54,6 +54,9 @@ interface LocalSpeechEngine {
     /** Installs the engine's runtime. Returns a summary or throws. */
     suspend fun setUp(): String
 
+    /** About how much [setUp] downloads from here, null when unknown or nothing is left to set up. */
+    suspend fun runtimeDownloadSize(): Long? = null
+
     /** Everything the engine can download, with its installed state. */
     suspend fun packages(): List<SpeechPackage>
 

@@ -17,6 +17,8 @@ abstract class PythonSpeechEngine(
     private val workerName: String,
     /** The pip packages the engine needs. */
     private val pipPackages: List<String>,
+    /** About how much pip downloads for [pipPackages] into a fresh Python. */
+    private val pipDownloadSize: Long,
 ) : LocalSpeechEngine {
 
     override val hasRuntimeSetup: Boolean = true
@@ -49,6 +51,8 @@ abstract class PythonSpeechEngine(
         }
         status()
     }
+
+    override suspend fun runtimeDownloadSize(): Long? = if (isReady()) null else pipDownloadSize + python.downloadSize
 
     /** Runs one synthesis in the worker and returns the WAV bytes. */
     protected suspend fun synthesizeWith(vararg fields: Pair<String, String>): ByteArray {

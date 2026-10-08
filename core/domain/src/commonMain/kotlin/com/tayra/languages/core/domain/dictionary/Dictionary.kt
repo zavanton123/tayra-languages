@@ -52,7 +52,10 @@ data class DictionaryId(val sourceLanguage: String, val targetLanguage: String) 
 }
 
 /** A downloadable dictionary: a gzip-compressed SQLite file produced by tools/build_dictionary.py. */
-data class DictionaryPack(val id: DictionaryId, val title: String, val url: String)
+data class DictionaryPack(val id: DictionaryId, val title: String, val url: String) {
+    /** The size of the download in bytes, when known. */
+    val downloadSize: Long? get() = dictionaryPackSizes[id.name]
+}
 
 /** The packs the app knows how to download, by title. */
 object DictionaryPacks {

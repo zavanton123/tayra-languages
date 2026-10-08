@@ -28,6 +28,7 @@ import com.tayra.languages.core.domain.service.LocalSpeech
 import com.tayra.languages.core.domain.service.LocalSpeechEngine
 import com.tayra.languages.core.domain.service.LocalTranslation
 import com.tayra.languages.core.domain.service.LocalTranslationProblem
+import com.tayra.languages.core.domain.service.SetupFileKind
 import com.tayra.languages.core.domain.service.SetupKind
 import com.tayra.languages.core.domain.service.SetupState
 import com.tayra.languages.core.domain.service.SpeechEngine
@@ -88,7 +89,7 @@ class LanguageSetupServiceTest {
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? = null
     }
 
-    private class FakeTranslator : LocalSentenceTranslator {
+    private class FakeTranslator(var runtime: Boolean = true) : LocalSentenceTranslator {
         val models = mutableSetOf<String>()
         override val displayName = "Argos Translate"
         override val description = ""
@@ -100,8 +101,13 @@ class LanguageSetupServiceTest {
         override suspend fun prepare(fromCode: String, toCode: String, fromName: String, toName: String) {}
         override suspend fun canTranslate(fromCode: String, toCode: String) = "$fromCode-$toCode" in models
         override suspend fun installModels(fromCode: String, toCode: String) {}
-        override suspend fun setUp() = "ok"
-        override suspend fun packages() = listOf(LocalPackage("pt", "en", "Portuguese", "English", "pt-en" in models, 50_000_000))
+        override suspend fun setUp(): String { runtime = true; return "ok" }
+        override suspend fun runtimeDownloadSize(): Long? = if (runtime) null else 200_000_000
+        override fun knownPackages() = listOf(LocalPackage("pt", "en", "Portuguese", "English", false, 50_000_000))
+        override suspend fun packages(): List<LocalPackage> {
+            check(runtime) { "not set up" }
+            return listOf(LocalPackage("pt", "en", "Portuguese", "English", "pt-en" in models, 50_000_000))
+        }
         override suspend fun installPackage(fromCode: String, toCode: String) { models += "$fromCode-$toCode" }
         override suspend fun removePackage(fromCode: String, toCode: String) { models -= "$fromCode-$toCode" }
         override suspend fun translate(text: String, language: Language): String? = null
@@ -132,6 +138,9 @@ class LanguageSetupServiceTest {
         val voice = items.single { it.kind == SetupKind.VOICE }
         assertTrue("Faber" in voice.name, "a medium voice is picked over a low one: ${voice.name}")
         assertTrue(voice.switchesEngine, "the system voices were in use, so the voice brings Piper in")
+        assertEquals(listOf(SetupFileKind.VOICE), voice.files.map { it.kind })
+        assertEquals(60_000_000, voice.sizeBytes)
+        assertEquals(listOf("Portuguese \u2192 English" to 50_000_000L), items.single { it.kind == SetupKind.TRANSLATION }.files.map { it.name to it.sizeBytes })
 
         setup.install(items)
         withTimeout(5_000) { setup.states.first { s -> items.all { s[it.id] == SetupState.Done } } }
@@ -151,6 +160,7 @@ class LanguageSetupServiceTest {
         val id = languages.save(Language(name = "Portuguese"))
         val voice = setup.missing(id).single { it.kind == SetupKind.VOICE }
         assertTrue(voice.includesRuntime)
+        assertEquals(listOf(SetupFileKind.ENGINE, SetupFileKind.VOICE), voice.files.map { it.kind })
         assertFalse(voice.recommended, "the speech runtime is a large download, left to the learner to tick")
         setup.install(listOf(voice))
         withTimeout(5_000) { setup.states.first { it[voice.id] == SetupState.Done } }
@@ -163,5 +173,20 @@ class LanguageSetupServiceTest {
         val kinds = setup.missing(id).map { it.kind }
         assertTrue(SetupKind.DICTIONARY !in kinds && SetupKind.TRANSLATION !in kinds, "got $kinds")
         assertTrue(SetupKind.COURSES in kinds)
+    }
+
+    @Test
+    fun beforeTheTranslatorIsSetUpItsKnownModelsDecideAndAreSized() = runBlocking {
+        translator.runtime = false
+        val icelandic = languages.save(Language(name = "Icelandic"))
+        assertTrue(setup.missing(icelandic).none { it.kind == SetupKind.TRANSLATION }, "no model translates Icelandic, so nothing is offered")
+
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        val item = setup.missing(portuguese).single { it.kind == SetupKind.TRANSLATION }
+        assertEquals(listOf(SetupFileKind.ENGINE to 200_000_000L, SetupFileKind.MODEL to 50_000_000L), item.files.map { it.kind to it.sizeBytes })
+        assertTrue(item.sizeEstimated, "the engine's size is an estimate")
+        setup.install(listOf(item))
+        withTimeout(5_000) { setup.states.first { it[item.id] == SetupState.Done } }
+        assertEquals(setOf("pt-en"), translator.models)
     }
 }

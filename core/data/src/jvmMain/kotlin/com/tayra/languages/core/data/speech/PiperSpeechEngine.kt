@@ -14,7 +14,7 @@ class PiperSpeechEngine(
     python: ManagedPython,
     worker: TtsWorker,
     private val dir: File = File(DatabaseDriverFactory.dataDirectory(), "tts/piper"),
-) : PythonSpeechEngine(python, worker, "piper", listOf("piper-tts")) {
+) : PythonSpeechEngine(python, worker, "piper", listOf("piper-tts"), pipDownloadSize = 61_000_000) {
 
     override val engine: SpeechEngine = SpeechEngine.PIPER
     override val displayName: String = "Piper"

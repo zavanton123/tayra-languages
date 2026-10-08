@@ -22,6 +22,19 @@ import kotlinx.coroutines.launch
 /** What a language can have downloaded for it. */
 enum class SetupKind { COURSES, DICTIONARY, VOICE, TRANSLATION }
 
+/** What a file of a download is. */
+enum class SetupFileKind { COURSES, DICTIONARY, ENGINE, VOICE, MODEL }
+
+/** One file a download fetches, with its size in bytes when known. */
+data class SetupFile(
+    val kind: SetupFileKind,
+    /** The pack title, the engine, the voice, or the model's language pair. */
+    val name: String,
+    val sizeBytes: Long?,
+    /** Whether [sizeBytes] is an estimate, as for an engine's runtime. */
+    val estimated: Boolean = false,
+)
+
 /**
  * One download a language still lacks. The names are kept apart from any wording, which the
  * screen composes in the interface language.
@@ -31,17 +44,23 @@ data class SetupItem(
     val kind: SetupKind,
     /** The language being learned, by name. */
     val languageName: String,
-    /** What is downloaded: the pack title, the voice, or the translator. */
+    /** What is downloaded, in a line: the pack title, "Piper · Joy · medium · Greece", "Argos Translate · Greek → Russian". */
     val name: String,
-    /** The download size when it is known. */
-    val sizeBytes: Long?,
+    val files: List<SetupFile>,
     /** Whether it starts selected: everything but the large runtimes and engines not in use. */
     val recommended: Boolean,
-    /** Whether the engine's own runtime comes with it (Python and its packages on the desktop), which is large. */
-    val includesRuntime: Boolean = false,
     /** Whether installing it also makes its engine the one in use. */
     val switchesEngine: Boolean = false,
-)
+) {
+    /** The size of the files whose size is known; null when none is. */
+    val sizeBytes: Long? get() = files.mapNotNull { it.sizeBytes }.takeIf { it.isNotEmpty() }?.sum()
+
+    /** Whether [sizeBytes] is only roughly the download: some sizes are estimates or unknown. */
+    val sizeEstimated: Boolean get() = files.any { it.estimated || it.sizeBytes == null }
+
+    /** Whether the engine's own runtime comes with it (Python and its packages on the desktop), which is large. */
+    val includesRuntime: Boolean get() = files.any { it.kind == SetupFileKind.ENGINE }
+}
 
 sealed interface SetupState {
     data object Waiting : SetupState
@@ -117,7 +136,8 @@ class LanguageSetupService(
         val pack: CoursePack = CoursePacks.forLanguage(code).firstOrNull() ?: return null
         val state = coursePacks.packs.value.firstOrNull { it.pack.id == pack.id }?.state
         if (state is PackState.Installed || state is PackState.Downloading) return null
-        return register(SetupItem("courses:${pack.id}", SetupKind.COURSES, name, pack.title, pack.downloadSize, recommended = true)) {
+        val files = listOf(SetupFile(SetupFileKind.COURSES, pack.title, pack.downloadSize))
+        return register(SetupItem("courses:${pack.id}", SetupKind.COURSES, name, pack.title, files, recommended = true)) {
             coursePacks.download(pack)
             failIfFailed(coursePacks.packs.value.firstOrNull { it.pack.id == pack.id }?.state)
         }
@@ -128,7 +148,8 @@ class LanguageSetupService(
         val pack: DictionaryPack = DictionaryPacks.find(code, native) ?: return null
         val state = dictionaries.packs.value.firstOrNull { it.pack.id == pack.id }?.state
         if (state is PackState.Installed || state is PackState.Downloading) return null
-        return register(SetupItem("dictionary:${pack.id.name}", SetupKind.DICTIONARY, name, pack.title, null, recommended = true)) {
+        val files = listOf(SetupFile(SetupFileKind.DICTIONARY, pack.title, pack.downloadSize))
+        return register(SetupItem("dictionary:${pack.id.name}", SetupKind.DICTIONARY, name, pack.title, files, recommended = true)) {
             dictionaries.download(pack)
             failIfFailed(dictionaries.packs.value.firstOrNull { it.pack.id == pack.id }?.state)
         }
@@ -152,9 +173,13 @@ class LanguageSetupService(
         val pkg = pickVoice(packages, code, name) ?: return null
         if (pkg.installed && ready) return null
         val runtime = engine.hasRuntimeSetup && !ready
+        val files = listOfNotNull(
+            SetupFile(SetupFileKind.ENGINE, engine.displayName, runCatching { engine.runtimeDownloadSize() }.getOrNull(), estimated = true).takeIf { runtime },
+            SetupFile(SetupFileKind.VOICE, pkg.title, pkg.sizeBytes.takeIf { it > 0 }).takeIf { !pkg.installed },
+        )
         val item = SetupItem(
-            "voice:${engine.engine.name}:${pkg.id}", SetupKind.VOICE, name, "${engine.displayName}: ${pkg.title}",
-            pkg.sizeBytes.takeIf { it > 0 && !pkg.installed }, recommended = !runtime, includesRuntime = runtime, switchesEngine = switches,
+            "voice:${engine.engine.name}:${pkg.id}", SetupKind.VOICE, name, "${engine.displayName} · ${pkg.title}",
+            files, recommended = !runtime, switchesEngine = switches,
         )
         return register(item) {
             if (engine.hasRuntimeSetup && !engine.isReady()) engine.setUp()
@@ -179,12 +204,17 @@ class LanguageSetupService(
         val catalog = runCatching { translator.packages() }.getOrNull()
         val runtime = translator.hasRuntimeSetup && catalog == null
         if (catalog == null && !runtime) return null
-        val missing = catalog?.let { packagesNeeded(translator, it, code, native) ?: return null }
-        if (missing != null && missing.isEmpty()) return null
+        // Before the runtime is there, the models the translator knows of tell whether the pair is possible.
+        val models = (catalog ?: translator.knownPackages())?.let { packagesNeeded(translator, it, code, native) ?: return null }
+        if (models != null && models.isEmpty() && !runtime) return null
         val inUse = settings.current.translationEngine == TranslationEngine.ARGOS
+        val nativeName = LanguageCodes.option(native)?.name ?: native
+        val files = listOfNotNull(
+            SetupFile(SetupFileKind.ENGINE, translator.displayName, runCatching { translator.runtimeDownloadSize() }.getOrNull(), estimated = true).takeIf { runtime },
+        ) + models.orEmpty().map { SetupFile(SetupFileKind.MODEL, it.title, it.sizeBytes.takeIf { size -> size > 0 }, it.estimated) }
         val item = SetupItem(
-            "translation:$code-$native", SetupKind.TRANSLATION, name, translator.displayName,
-            missing?.sumOf { it.sizeBytes }?.takeIf { it > 0 }, recommended = inUse && !runtime, includesRuntime = runtime, switchesEngine = !inUse,
+            "translation:$code-$native", SetupKind.TRANSLATION, name, "${translator.displayName} · $name \u2192 $nativeName",
+            files, recommended = inUse && !runtime, switchesEngine = !inUse,
         )
         return register(item) {
             if (runtime) translator.setUp()

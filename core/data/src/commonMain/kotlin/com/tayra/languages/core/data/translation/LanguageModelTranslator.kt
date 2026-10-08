@@ -127,7 +127,7 @@ abstract class LanguageModelTranslator(private val settings: SettingsRepository)
     override suspend fun packages(): List<LocalPackage> {
         val have = downloadedModels()
         return supportedModels().filter { it != ENGLISH }.map { model ->
-            LocalPackage(fromCode = codeFor(model), toCode = "en", fromName = nameFor(model), toName = "English", installed = model in have, label = nameFor(model))
+            LocalPackage(fromCode = codeFor(model), toCode = "en", fromName = nameFor(model), toName = "English", installed = model in have, sizeBytes = MODEL_SIZE, estimated = true, label = nameFor(model))
         }.sortedBy { it.title }
     }
 
@@ -144,5 +144,8 @@ abstract class LanguageModelTranslator(private val settings: SettingsRepository)
 
     protected companion object {
         const val ENGLISH = "en"
+
+        /** Google gives about 30 MB for each language model. */
+        const val MODEL_SIZE = 30_000_000L
     }
 }

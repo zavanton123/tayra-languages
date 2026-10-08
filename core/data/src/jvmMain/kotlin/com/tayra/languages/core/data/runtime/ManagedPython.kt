@@ -21,6 +21,18 @@ class ManagedPython(private val dir: File = File(DatabaseDriverFactory.dataDirec
 
     val isInstalled: Boolean get() = python.exists()
 
+    /** About how much [ensure] downloads: the standalone build for this system, nothing once it is here. */
+    val downloadSize: Long
+        get() {
+            val os = System.getProperty("os.name").lowercase()
+            return when {
+                isInstalled -> 0
+                os.contains("mac") -> 25_000_000
+                os.contains("win") -> 46_000_000
+                else -> 66_000_000
+            }
+        }
+
     /** Downloads and unpacks the interpreter when it is missing. */
     fun ensure(onProgress: (String) -> Unit) {
         if (isInstalled) return

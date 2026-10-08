@@ -14,7 +14,7 @@ class KokoroSpeechEngine(
     python: ManagedPython,
     worker: TtsWorker,
     private val dir: File = File(DatabaseDriverFactory.dataDirectory(), "tts/kokoro"),
-) : PythonSpeechEngine(python, worker, "kokoro", listOf("kokoro-onnx", "soundfile")) {
+) : PythonSpeechEngine(python, worker, "kokoro", listOf("kokoro-onnx", "soundfile"), pipDownloadSize = 39_000_000) {
 
     override val engine: SpeechEngine = SpeechEngine.KOKORO
     override val displayName: String = "Kokoro"

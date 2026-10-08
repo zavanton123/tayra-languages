@@ -85,7 +85,7 @@ class LanguageSetupDialogFlowTest {
         onNodeWithTag("setup-DICTIONARY").assertExists()
         assertEquals(1, closed)
 
-        onNodeWithText("Not now").performClick()
+        onNodeWithText("Set up later").performClick()
         waitForIdle()
         assertEquals(2, closed)
         open = portuguese
