@@ -51,8 +51,8 @@ import org.koin.compose.viewmodel.koinViewModel
 /**
  * Gives every screen's top bar the choice of the language being learned, and picks a language
  * again whenever the chosen one is gone (deleted, or the database was reset). Choosing another
- * language opens its courses ([onChosen]) and offers what it can download; a language never given
- * a vocabulary level is asked for one after that.
+ * language opens its courses ([onChosen]), asks for its vocabulary level when it was never given
+ * one, and then offers what it can download.
  */
 @Composable
 private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, content: @Composable () -> Unit) {
@@ -60,11 +60,11 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     val learning = koinInject<LearningLanguageService>()
     val levels = koinInject<VocabularyLevelService>()
     val scope = rememberCoroutineScope()
-    // The language just chosen, while its downloads are offered.
-    var setupFor by remember { mutableStateOf<Long?>(null) }
-    // The language waiting for its vocabulary level, asked once the downloads are dealt with.
-    var levelPending by remember { mutableStateOf<Long?>(null) }
+    // The language just chosen, asked for its vocabulary level first.
     var askLevelFor by remember { mutableStateOf<Long?>(null) }
+    // The language waiting for its downloads to be offered, once the level is dealt with.
+    var setupPending by remember { mutableStateOf<Long?>(null) }
+    var setupFor by remember { mutableStateOf<Long?>(null) }
     LaunchedEffect(currentId, languages) {
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure()
     }
@@ -74,19 +74,23 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
                 learning.select(id)
                 if (id == currentId) return@launch
                 onChosen()
-                levelPending = id.takeIf { levels.needsLevel(id) }
-                setupFor = id
+                if (levels.needsLevel(id)) {
+                    setupPending = id
+                    askLevelFor = id
+                } else {
+                    setupFor = id
+                }
             }
         }
     }
     CompositionLocalProvider(LocalLearningLanguage provides state) {
         content()
-        LanguageSetupDialog(setupFor, onClosed = {
-            setupFor = null
-            askLevelFor = levelPending
-            levelPending = null
+        VocabularyLevelPrompt(askLevelFor, onClosed = {
+            askLevelFor = null
+            setupFor = setupPending
+            setupPending = null
         })
-        VocabularyLevelPrompt(askLevelFor, onClosed = { askLevelFor = null })
+        LanguageSetupDialog(setupFor, onClosed = { setupFor = null })
     }
 }
 
