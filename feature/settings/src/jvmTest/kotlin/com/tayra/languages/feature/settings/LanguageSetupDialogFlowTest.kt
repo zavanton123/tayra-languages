@@ -37,7 +37,7 @@ import java.io.File
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-/** Each opening of the dialog looks up its own language, whatever an earlier opening found. */
+/** Each opening of the dialog looks up its own language, whatever an earlier opening found, and says when nothing is left to download. */
 @OptIn(ExperimentalTestApi::class)
 class LanguageSetupDialogFlowTest {
     private class FakeCoursePacks(private val installed: Set<String>) : CoursePackStore {
@@ -68,10 +68,11 @@ class LanguageSetupDialogFlowTest {
         val coursePacks = CoursePackService(store, CourseService(books, languages, BookService(books, languages), CourseRepositoryImpl(provider), InstalledCoursePacks(store)))
         val setup = LanguageSetupService(languages, settings, coursePacks, DictionaryService(NoDictionaries, NoDictionaries), LocalSpeech(emptyList()), LocalTranslation(null))
         val viewModel = LanguageSetupViewModel(setup)
+        val unknown = runBlocking { languages.save(Language(name = "Klingon")) }
         val english = runBlocking { languages.save(Language(name = "English")) }
         val portuguese = runBlocking { languages.save(Language(name = "Portuguese")) }
 
-        var open by mutableStateOf<Long?>(english)
+        var open by mutableStateOf<Long?>(unknown)
         var closed = 0
         setContent {
             Hosted(settings) { LanguageSetupDialog(open, onClosed = { closed++; open = null }, viewModel = viewModel) }
@@ -79,15 +80,23 @@ class LanguageSetupDialogFlowTest {
         waitUntil(timeoutMillis = 5_000) { closed == 1 }
         onNodeWithTag("language-setup").assertDoesNotExist()
 
+        open = english
+        waitUntil(timeoutMillis = 5_000) { runCatching { onNodeWithText("Everything available for English is already on this device.").assertExists() }.isSuccess }
+        onNodeWithText("On this device").assertExists()
+        onNodeWithText("Download selected").assertDoesNotExist()
+        onNodeWithTag("setup-done").performClick()
+        waitForIdle()
+        assertEquals(2, closed)
+
         open = portuguese
         waitUntil(timeoutMillis = 5_000) { onNodeWithText("Get ready to learn Portuguese").let { runCatching { it.assertExists() }.isSuccess } }
         onNodeWithTag("setup-COURSES").assertExists()
         onNodeWithTag("setup-DICTIONARY").assertExists()
-        assertEquals(1, closed)
+        assertEquals(2, closed)
 
         onNodeWithText("Set up later").performClick()
         waitForIdle()
-        assertEquals(2, closed)
+        assertEquals(3, closed)
         open = portuguese
         waitUntil(timeoutMillis = 5_000) { onNodeWithText("Get ready to learn Portuguese").let { runCatching { it.assertExists() }.isSuccess } }
     }

@@ -18,6 +18,7 @@ import com.tayra.languages.core.domain.service.SetupFileKind
 import com.tayra.languages.core.domain.service.SetupItem
 import com.tayra.languages.core.domain.service.SetupKind
 import com.tayra.languages.core.domain.service.SetupState
+import com.tayra.languages.core.domain.service.SetupStatus
 import com.tayra.languages.core.ui.i18n.UiLanguage
 import java.io.File
 import javax.imageio.ImageIO
@@ -80,6 +81,27 @@ class LanguageSetupDialogTest {
         progress = progress + mapOf(items[2].id to SetupState.Done, items[3].id to SetupState.Done)
         onNodeWithText("Try again").performClick()
         assertEquals(SetupState.Waiting, progress[items[1].id])
+    }
+
+    @Test
+    fun aLanguageWithNothingLeftOnlyOffersDone() = runDesktopComposeUiTest(width = 760, height = 1000) {
+        val croatian = listOf(
+            SetupItem("dictionary:installed", SetupKind.DICTIONARY, "Croatian", "Croatian \u2192 Russian", emptyList(), recommended = false, status = SetupStatus.INSTALLED),
+            SetupItem("courses:unavailable", SetupKind.COURSES, "Croatian", "", emptyList(), recommended = false, status = SetupStatus.UNAVAILABLE),
+            SetupItem("voice:unavailable", SetupKind.VOICE, "Croatian", "Piper", emptyList(), recommended = false, status = SetupStatus.UNAVAILABLE),
+            SetupItem("translation:unavailable", SetupKind.TRANSLATION, "Croatian", "Argos Translate · Croatian \u2192 Russian", emptyList(), recommended = false, status = SetupStatus.UNAVAILABLE),
+        )
+        var closed = 0
+        setContent {
+            Hosted(SettingsRepositoryImpl(MapSettings())) {
+                LanguageSetupContent(LanguageSetupUiState(1, croatian), emptyMap(), {}, {}, {}, onClosed = { closed++ })
+            }
+        }
+        onNodeWithText("Everything available for Croatian is already on this device.").assertExists()
+        onNodeWithText("Download selected").assertDoesNotExist()
+        System.getenv("SETUP_SCREENSHOT")?.let { save(it.replace(".png", "-croatian.png")) }
+        onNodeWithTag("setup-done").performClick()
+        assertEquals(1, closed)
     }
 
     @Test

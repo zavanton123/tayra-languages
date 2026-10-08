@@ -37,6 +37,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
@@ -51,6 +52,7 @@ import com.tayra.languages.core.domain.service.SetupFileKind
 import com.tayra.languages.core.domain.service.SetupItem
 import com.tayra.languages.core.domain.service.SetupKind
 import com.tayra.languages.core.domain.service.SetupState
+import com.tayra.languages.core.domain.service.SetupStatus
 import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.components.IconTile
 import com.tayra.languages.core.ui.components.StatusTints
@@ -93,7 +95,7 @@ class LanguageSetupViewModel(private val setup: LanguageSetupService) : ViewMode
         _state.value = LanguageSetupUiState(languageId)
         loading = viewModelScope.launch {
             val items = try {
-                setup.missing(languageId)
+                setup.overview(languageId).sortedBy { it.status }
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
@@ -110,7 +112,7 @@ class LanguageSetupViewModel(private val setup: LanguageSetupService) : ViewMode
     }
 
     fun toggle(id: String) = _state.update { s ->
-        if (s.started) s else s.copy(selected = if (id in s.selected) s.selected - id else s.selected + id)
+        if (s.started || s.items.orEmpty().none { it.id == id && it.status == SetupStatus.MISSING }) s else s.copy(selected = if (id in s.selected) s.selected - id else s.selected + id)
     }
 
     fun start() {
@@ -176,8 +178,13 @@ fun LanguageSetupContent(
                         style = MaterialTheme.typography.headlineSmall,
                         fontWeight = FontWeight.Bold,
                     )
+                    val nothingMissing = items != null && items.none { it.status == SetupStatus.MISSING }
                     Text(
-                        if (items == null) tr("Checking what can be downloaded…") else tr("Choose what to download now. You can change this later in Settings."),
+                        when {
+                            items == null -> tr("Checking what can be downloaded…")
+                            nothingMissing -> tr("Everything available for {0} is already on this device.", tr(items.first().languageName))
+                            else -> tr("Choose what to download now. You can change this later in Settings.")
+                        },
                         style = MaterialTheme.typography.bodyLarge,
                         color = colors.onSurfaceVariant,
                     )
@@ -202,6 +209,12 @@ fun LanguageSetupContent(
             val chosen = items.filter { it.id in state.selected }
             val running = state.started && chosen.any { progress[it.id].let { p -> p == null || p is SetupState.Waiting || p is SetupState.Running } }
             val failed = state.started && !running && chosen.any { progress[it.id] is SetupState.Failed }
+            if (items.none { it.status == SetupStatus.MISSING }) {
+                Row(Modifier.fillMaxWidth().padding(end = 8.dp), horizontalArrangement = Arrangement.End) {
+                    Button(onClick = onClosed, modifier = Modifier.testTag("setup-done")) { Text(tr("Done")) }
+                }
+                return@Column
+            }
             Row(Modifier.fillMaxWidth().padding(end = 8.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 Text(
                     when {
@@ -249,12 +262,14 @@ private fun localizedNames(text: String): String = text.split(" · ").joinToStri
 private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progress: SetupState?, onToggle: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val shape = RoundedCornerShape(16.dp)
+    val missing = item.status == SetupStatus.MISSING
     Row(
         Modifier.fillMaxWidth()
+            .alpha(if (item.status == SetupStatus.UNAVAILABLE) 0.6f else 1f)
             .clip(shape)
             .background(colors.surfaceVariant.copy(alpha = 0.25f))
             .border(1.dp, colors.outlineVariant, shape)
-            .clickable(enabled = !started, onClick = onToggle)
+            .clickable(enabled = !started && missing, onClick = onToggle)
             .padding(horizontal = 16.dp, vertical = 16.dp)
             .testTag("setup-${item.kind.name}"),
         verticalAlignment = Alignment.CenterVertically,
@@ -262,6 +277,8 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
     ) {
         Box(Modifier.size(40.dp), contentAlignment = Alignment.Center) {
             when {
+                item.status == SetupStatus.INSTALLED -> Icon(Icons.Default.CheckCircle, contentDescription = tr("On this device"), tint = StatusTints.ok, modifier = Modifier.size(26.dp))
+                item.status == SetupStatus.UNAVAILABLE -> Icon(AppIcons.RemoveCircle, contentDescription = tr("Not available"), tint = colors.onSurfaceVariant, modifier = Modifier.size(26.dp))
                 !started || !checked -> Checkbox(checked = checked, onCheckedChange = { onToggle() }, enabled = !started)
                 progress is SetupState.Done -> Icon(Icons.Default.CheckCircle, contentDescription = tr("Downloaded"), tint = StatusTints.ok, modifier = Modifier.size(26.dp))
                 progress is SetupState.Failed -> Icon(Icons.Default.Warning, contentDescription = null, tint = colors.error, modifier = Modifier.size(26.dp))
@@ -291,12 +308,16 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
                     fontWeight = FontWeight.SemiBold,
                     modifier = Modifier.weight(1f),
                 )
-                item.sizeBytes?.let {
-                    Text(sizeText(it, item.sizeEstimated), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = 2.dp))
+                when (item.status) {
+                    SetupStatus.INSTALLED -> Text(tr("On this device"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok, modifier = Modifier.padding(top = 2.dp))
+                    SetupStatus.UNAVAILABLE -> Unit
+                    SetupStatus.MISSING -> item.sizeBytes?.let {
+                        Text(sizeText(it, item.sizeEstimated), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, modifier = Modifier.padding(top = 2.dp))
+                    }
                 }
             }
             Text(
-                when (item.kind) {
+                if (item.status == SetupStatus.UNAVAILABLE) tr("Not available for {0} yet", tr(item.languageName)) else when (item.kind) {
                     SetupKind.COURSES -> tr("100 graded courses of mini stories, from A1 to C2")
                     SetupKind.DICTIONARY -> tr("Look up {0} words without internet", languageInSentence(item.languageName, LanguageCase.PREPOSITIONAL))
                     SetupKind.VOICE -> tr("Hear books and words read aloud")
@@ -306,7 +327,7 @@ private fun SetupCard(item: SetupItem, checked: Boolean, started: Boolean, progr
                 color = colors.onSurfaceVariant,
             )
             // A course pack is named after its language, as the title is; a voice that brings its engine lists both files.
-            if (item.kind != SetupKind.COURSES && (item.kind != SetupKind.VOICE || item.files.size == 1)) {
+            if (item.kind != SetupKind.COURSES && item.name.isNotBlank() && (item.kind != SetupKind.VOICE || item.files.size <= 1)) {
                 Text(localizedNames(item.name), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant.copy(alpha = 0.8f))
             }
             if (item.files.size > 1) {

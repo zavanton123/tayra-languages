@@ -245,6 +245,9 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Could not change the PATH: {0}" to "Не удалось изменить PATH: {0}",
     // LanguageSetupDialog.kt
     "Get ready to learn {0}" to "Начинаем учить {0}",
+    "Everything available for {0} is already on this device." to "Всё, что есть для языка «{0}», уже на этом устройстве.",
+    "Not available" to "Недоступно",
+    "Not available for {0} yet" to "Для языка «{0}» пока нет",
     "Choose what to download now. You can change this later in Settings." to "Выберите, что скачать сейчас. Изменить это можно позже в настройках.",
     "{0} downloads selected" to "Выбрана {0} загрузка|Выбрано {0} загрузки|Выбрано {0} загрузок",
     "Some downloads failed." to "Некоторые загрузки не удались.",

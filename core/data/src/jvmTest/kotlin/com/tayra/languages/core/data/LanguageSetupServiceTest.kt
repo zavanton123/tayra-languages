@@ -31,6 +31,7 @@ import com.tayra.languages.core.domain.service.LocalTranslationProblem
 import com.tayra.languages.core.domain.service.SetupFileKind
 import com.tayra.languages.core.domain.service.SetupKind
 import com.tayra.languages.core.domain.service.SetupState
+import com.tayra.languages.core.domain.service.SetupStatus
 import com.tayra.languages.core.domain.service.SpeechEngine
 import com.tayra.languages.core.domain.service.SpeechPackage
 import com.tayra.languages.core.domain.service.SpeechVoice
@@ -188,5 +189,22 @@ class LanguageSetupServiceTest {
         setup.install(listOf(item))
         withTimeout(5_000) { setup.states.first { it[item.id] == SetupState.Done } }
         assertEquals(setOf("pt-en"), translator.models)
+    }
+
+    @Test
+    fun aLanguageWithNothingLeftShowsWhatItHasAndWhatDoesNotExist() = runBlocking {
+        dictionaryStore.installed += DictionaryId("hr", "en")
+        val croatian = languages.save(Language(name = "Croatian"))
+        val overview = setup.overview(croatian)
+        assertEquals(
+            listOf(
+                SetupKind.COURSES to SetupStatus.UNAVAILABLE,
+                SetupKind.DICTIONARY to SetupStatus.INSTALLED,
+                SetupKind.VOICE to SetupStatus.UNAVAILABLE,
+                SetupKind.TRANSLATION to SetupStatus.UNAVAILABLE,
+            ),
+            overview.map { it.kind to it.status },
+        )
+        assertEquals(emptyList(), setup.missing(croatian))
     }
 }

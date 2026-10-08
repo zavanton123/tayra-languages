@@ -22,6 +22,16 @@ import kotlinx.coroutines.launch
 /** What a language can have downloaded for it. */
 enum class SetupKind { COURSES, DICTIONARY, VOICE, TRANSLATION }
 
+/** Where a language stands on one kind of download. */
+enum class SetupStatus {
+    /** It can be downloaded, and is not on the device yet. */
+    MISSING,
+    /** It is on the device already. */
+    INSTALLED,
+    /** Nothing of this kind exists for the language, as no Piper voice for Croatian. */
+    UNAVAILABLE,
+}
+
 /** What a file of a download is. */
 enum class SetupFileKind { COURSES, DICTIONARY, ENGINE, VOICE, MODEL }
 
@@ -51,6 +61,7 @@ data class SetupItem(
     val recommended: Boolean,
     /** Whether installing it also makes its engine the one in use. */
     val switchesEngine: Boolean = false,
+    val status: SetupStatus = SetupStatus.MISSING,
 ) {
     /** The size of the files whose size is known; null when none is. */
     val sizeBytes: Long? get() = files.mapNotNull { it.sizeBytes }.takeIf { it.isNotEmpty() }?.sum()
@@ -92,7 +103,13 @@ class LanguageSetupService(
     val states: StateFlow<Map<String, SetupState>> = _states.asStateFlow()
 
     /** What [languageId] could still download, in the order it matters to a learner; empty when everything is there. */
-    suspend fun missing(languageId: Long): List<SetupItem> {
+    suspend fun missing(languageId: Long): List<SetupItem> = overview(languageId).filter { it.status == SetupStatus.MISSING }
+
+    /**
+     * Every kind of download the language can have, in the order it matters to a learner, each
+     * missing, installed or unavailable; empty for a language without a known code.
+     */
+    suspend fun overview(languageId: Long): List<SetupItem> {
         val language = languages.getById(languageId) ?: return emptyList()
         val code = LanguageCodes.codeFor(language.name) ?: return emptyList()
         val native = settings.current.nativeLanguage
@@ -126,6 +143,9 @@ class LanguageSetupService(
 
     private fun set(id: String, state: SetupState) = _states.update { it + (id to state) }
 
+    private fun settled(kind: SetupKind, language: String, name: String, status: SetupStatus) =
+        SetupItem("${kind.name.lowercase()}:${status.name.lowercase()}", kind, language, name, emptyList(), recommended = false, status = status)
+
     private fun register(item: SetupItem, action: suspend () -> Unit): SetupItem {
         actions[item.id] = action
         return item
@@ -133,9 +153,9 @@ class LanguageSetupService(
 
     private suspend fun courses(code: String, name: String): SetupItem? {
         coursePacks.refresh()
-        val pack: CoursePack = CoursePacks.forLanguage(code).firstOrNull() ?: return null
+        val pack: CoursePack = CoursePacks.forLanguage(code).firstOrNull() ?: return settled(SetupKind.COURSES, name, "", SetupStatus.UNAVAILABLE)
         val state = coursePacks.packs.value.firstOrNull { it.pack.id == pack.id }?.state
-        if (state is PackState.Installed || state is PackState.Downloading) return null
+        if (state is PackState.Installed || state is PackState.Downloading) return settled(SetupKind.COURSES, name, pack.title, SetupStatus.INSTALLED)
         val files = listOf(SetupFile(SetupFileKind.COURSES, pack.title, pack.downloadSize))
         return register(SetupItem("courses:${pack.id}", SetupKind.COURSES, name, pack.title, files, recommended = true)) {
             coursePacks.download(pack)
@@ -145,9 +165,10 @@ class LanguageSetupService(
 
     private suspend fun dictionary(code: String, native: String, name: String): SetupItem? {
         dictionaries.refresh()
-        val pack: DictionaryPack = DictionaryPacks.find(code, native) ?: return null
+        val pack: DictionaryPack = DictionaryPacks.find(code, native)
+            ?: return settled(SetupKind.DICTIONARY, name, "$name \u2192 ${LanguageCodes.option(native)?.name ?: native}", SetupStatus.UNAVAILABLE)
         val state = dictionaries.packs.value.firstOrNull { it.pack.id == pack.id }?.state
-        if (state is PackState.Installed || state is PackState.Downloading) return null
+        if (state is PackState.Installed || state is PackState.Downloading) return settled(SetupKind.DICTIONARY, name, pack.title, SetupStatus.INSTALLED)
         val files = listOf(SetupFile(SetupFileKind.DICTIONARY, pack.title, pack.downloadSize))
         return register(SetupItem("dictionary:${pack.id.name}", SetupKind.DICTIONARY, name, pack.title, files, recommended = true)) {
             dictionaries.download(pack)
@@ -168,10 +189,12 @@ class LanguageSetupService(
         val engine = speech.find(current) ?: speech.find(SpeechEngine.PIPER) ?: return null
         val switches = engine.engine != current
         val ready = runCatching { engine.isReady() }.getOrDefault(false)
-        if (ready && runCatching { engine.voices(code) }.getOrDefault(emptyList()).isNotEmpty()) return null
+        if (ready && runCatching { engine.voices(code) }.getOrDefault(emptyList()).isNotEmpty()) {
+            return settled(SetupKind.VOICE, name, engine.displayName, SetupStatus.INSTALLED)
+        }
         val packages = runCatching { engine.packages() }.getOrNull() ?: return null
-        val pkg = pickVoice(packages, code, name) ?: return null
-        if (pkg.installed && ready) return null
+        val pkg = pickVoice(packages, code, name) ?: return settled(SetupKind.VOICE, name, engine.displayName, SetupStatus.UNAVAILABLE)
+        if (pkg.installed && ready) return settled(SetupKind.VOICE, name, "${engine.displayName} · ${pkg.title}", SetupStatus.INSTALLED)
         val runtime = engine.hasRuntimeSetup && !ready
         val files = listOfNotNull(
             SetupFile(SetupFileKind.ENGINE, engine.displayName, runCatching { engine.runtimeDownloadSize() }.getOrNull(), estimated = true).takeIf { runtime },
@@ -200,20 +223,23 @@ class LanguageSetupService(
     /** The models for translating the language into the native one, with the translator's runtime when it has none yet. */
     private suspend fun translation(code: String, native: String, name: String): SetupItem? {
         val translator = translation.translator ?: return null
-        if (runCatching { translator.canTranslate(code, native) }.getOrDefault(false)) return null
+        val nativeName = LanguageCodes.option(native)?.name ?: native
+        val pair = "${translator.displayName} · $name \u2192 $nativeName"
+        if (runCatching { translator.canTranslate(code, native) }.getOrDefault(false)) return settled(SetupKind.TRANSLATION, name, pair, SetupStatus.INSTALLED)
         val catalog = runCatching { translator.packages() }.getOrNull()
         val runtime = translator.hasRuntimeSetup && catalog == null
         if (catalog == null && !runtime) return null
         // Before the runtime is there, the models the translator knows of tell whether the pair is possible.
-        val models = (catalog ?: translator.knownPackages())?.let { packagesNeeded(translator, it, code, native) ?: return null }
-        if (models != null && models.isEmpty() && !runtime) return null
+        val models = (catalog ?: translator.knownPackages())?.let {
+            packagesNeeded(translator, it, code, native) ?: return settled(SetupKind.TRANSLATION, name, pair, SetupStatus.UNAVAILABLE)
+        }
+        if (models != null && models.isEmpty() && !runtime) return settled(SetupKind.TRANSLATION, name, pair, SetupStatus.INSTALLED)
         val inUse = settings.current.translationEngine == TranslationEngine.ARGOS
-        val nativeName = LanguageCodes.option(native)?.name ?: native
         val files = listOfNotNull(
             SetupFile(SetupFileKind.ENGINE, translator.displayName, runCatching { translator.runtimeDownloadSize() }.getOrNull(), estimated = true).takeIf { runtime },
         ) + models.orEmpty().map { SetupFile(SetupFileKind.MODEL, it.title, it.sizeBytes.takeIf { size -> size > 0 }, it.estimated) }
         val item = SetupItem(
-            "translation:$code-$native", SetupKind.TRANSLATION, name, "${translator.displayName} · $name \u2192 $nativeName",
+            "translation:$code-$native", SetupKind.TRANSLATION, name, pair,
             files, recommended = inUse && !runtime, switchesEngine = !inUse,
         )
         return register(item) {
