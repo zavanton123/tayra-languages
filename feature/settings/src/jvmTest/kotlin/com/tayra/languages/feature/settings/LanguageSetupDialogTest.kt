@@ -33,7 +33,7 @@ class LanguageSetupDialogTest {
 
     @Test
     fun theChosenDownloadsStartAndShowTheirProgress() = runDesktopComposeUiTest(width = 900, height = 760) {
-        var state by mutableStateOf(LanguageSetupUiState(items, items.filter { it.recommended }.map { it.id }.toSet()))
+        var state by mutableStateOf(LanguageSetupUiState(1, items, items.filter { it.recommended }.map { it.id }.toSet()))
         var progress by mutableStateOf<Map<String, SetupState>>(emptyMap())
         var started = 0
         setContent {

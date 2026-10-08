@@ -62,6 +62,8 @@ import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 
 data class LanguageSetupUiState(
+    /** The language the downloads are for. */
+    val languageId: Long? = null,
     /** Null while the downloads are being looked up. */
     val items: List<SetupItem>? = null,
     val selected: Set<String> = emptySet(),
@@ -79,8 +81,9 @@ class LanguageSetupViewModel(private val setup: LanguageSetupService) : ViewMode
 
     /** Looks up [languageId]'s downloads afresh, each time the dialog opens. */
     fun load(languageId: Long) {
-        _state.value = LanguageSetupUiState()
+        if (_state.value.languageId == languageId) return
         loading?.cancel()
+        _state.value = LanguageSetupUiState(languageId)
         loading = viewModelScope.launch {
             val items = try {
                 setup.missing(languageId)
@@ -89,8 +92,14 @@ class LanguageSetupViewModel(private val setup: LanguageSetupService) : ViewMode
             } catch (e: Exception) {
                 emptyList()
             }
-            _state.value = LanguageSetupUiState(items, items.filter { it.recommended }.map { it.id }.toSet())
+            _state.value = LanguageSetupUiState(languageId, items, items.filter { it.recommended }.map { it.id }.toSet())
         }
+    }
+
+    /** Forgets the closed dialog's language, so the next opening looks again. */
+    fun reset() {
+        loading?.cancel()
+        _state.value = LanguageSetupUiState()
     }
 
     fun toggle(id: String) = _state.update { s ->
@@ -118,18 +127,23 @@ class LanguageSetupViewModel(private val setup: LanguageSetupService) : ViewMode
  * when the language has everything already.
  */
 @Composable
-fun LanguageSetupDialog(languageId: Long?, onClosed: () -> Unit) {
+fun LanguageSetupDialog(languageId: Long?, onClosed: () -> Unit, viewModel: LanguageSetupViewModel = koinViewModel()) {
     if (languageId == null) return
-    val viewModel: LanguageSetupViewModel = koinViewModel()
-    val state by viewModel.state.collectAsStateWithLifecycle()
+    val loaded by viewModel.state.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
     LaunchedEffect(languageId) { viewModel.load(languageId) }
+    // What an earlier opening left for another language is not this one's: it is still loading.
+    val state = loaded.takeIf { it.languageId == languageId } ?: LanguageSetupUiState(languageId)
+    val close = {
+        viewModel.reset()
+        onClosed()
+    }
     val items = state.items
-    LaunchedEffect(items) { if (items != null && items.isEmpty()) onClosed() }
+    LaunchedEffect(items) { if (items != null && items.isEmpty()) close() }
     if (items != null && items.isEmpty()) return
 
-    Dialog(onDismissRequest = onClosed) {
-        LanguageSetupContent(state, progress, onToggle = viewModel::toggle, onStart = viewModel::start, onRetry = viewModel::retry, onClosed = onClosed)
+    Dialog(onDismissRequest = close) {
+        LanguageSetupContent(state, progress, onToggle = viewModel::toggle, onStart = viewModel::start, onRetry = viewModel::retry, onClosed = close)
     }
 }
 
