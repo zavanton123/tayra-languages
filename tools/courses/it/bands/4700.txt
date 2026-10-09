@@ -1,0 +1,100 @@
+1	4601	beneficiare	benefici beneficiare beneficiato beneficia beneficiano beneficeranno beneficiando beneficerà beneficiati beneficerebbe beneficiava beneficiavano beneficiò beneficerebbero beneficiarono beneficiate
+2	4602	promotore	promotore promotori promotrice promotrici
+3	4603	dozzina	dozzina dozzine
+4	4604	gemma	gemma gemme
+5	4605	matematico	matematico matematici matematiche
+6	4606	classificare	classificato classificate classificare classificano classificarsi classificando classificò classificava classifichi classifico classifichiamo
+7	4607	lineare	lineare lineari
+8	4608	accettabile	accettabile accettabili
+9	4609	attivista	attivisti attivista attiviste
+10	4610	ceramica	ceramica ceramiche
+11	4611	iscriversi	iscriversi iscriviti iscrivetevi
+12	4612	quaranta	quaranta quarant
+13	4613	persecuzione	persecuzione persecuzioni
+14	4614	guardarsi	guardati guardarsi guardatevi guardiamoci
+15	4615	fascicolo	fascicolo fascicoli
+16	4616	massacro	massacro massacri
+17	4617	abate	abate abati abbate badessa badesse
+18	4618	essenza	essenza essenze
+19	4619	rosario	rosario rosari
+20	4620	connettere	connessi connette connettere connettersi connesse connettono connetti connetto connettendo connetta connettiti connetteva connetterà connettevano
+21	4621	termico	termica termico termiche termici
+22	4622	innamorare	innamora innamorare innamorano innamorò innamori innamorando innamoro innamorai innamorerà innamorerai innamorarono innamoriamo innamorasse innamoreranno innamorava innamorate innamorino innamorassi innamorerò innamoravo innamorerebbe innamorerei
+23	4623	sottoporre	sottoporre sottoporsi sottopone sottopose sottopongono sottoponendo sottoporrà sottopongo sottoponga sottoponeva sottoposero sottoponiamo sottoponevano sottoporremo sottoporranno sottoponi sottoporrò
+24	4624	sfogo	sfogo sfoghi
+25	4625	sottovalutare	sottovalutare sottovalutato sottovalutando sottovalutate sottovaluti sottovaluta sottovalutano sottovaluterei sottovalutiamo sottovaluto
+26	4626	sospendere	sospendere sospende sospesi sospese sospendono sospendendo sospenda sospendo sospendiamo sospenderà sospesero sospendi sospendete sospendeva sospendano sospenderemo
+27	4627	esportazione	esportazioni esportazione
+28	4628	achille	achille achilli
+29	4629	altresì	altresì
+30	4630	attentamente	attentamente
+31	4631	averci	averci
+32	4632	clinto	clinton
+33	4633	esplicitamente	esplicitamente
+34	4634	gliene	gliene
+35	4635	pi	pi
+36	4636	puramente	puramente
+37	4637	tipicamente	tipicamente
+38	4638	vederti	vederti
+39	4639	estinzione	estinzione estinzioni
+40	4640	sussidio	sussidi sussidio
+41	4641	biondo	biondi biondo bionde
+42	4642	frate	frati frate fraticelli fraticello
+43	4643	minorenne	minorenni minorenne
+44	4644	economista	economisti economista
+45	4645	somigliare	somiglia somigliano somigliare somigliante somigli somigliava somiglianti somiglio somigliamo somigliasse somigliavano somiglino somiglierà
+46	4646	guasto	guasto guasti guasta guaste
+47	4647	resoconto	resoconto resoconti
+48	4648	dottorato	dottorato dottorati
+49	4649	chirurgo	chirurgo chirurghi chirurgi
+50	4650	lampada	lampada lampade
+51	4651	satellite	satellite satelliti
+52	4652	ingenuo	ingenuo ingenua ingenui ingenue
+53	4653	brivido	brividi brivido
+54	4654	clinico	clinico clinici cliniche
+55	4655	elio	elio eli elios
+56	4656	rotazione	rotazione rotazioni
+57	4657	alcolico	alcolici alcolico alcolica alcoliche alcoolico
+58	4658	lindo	linda lindo linde lindi
+59	4659	benedizione	benedizione benedizioni
+60	4660	lite	lite liti
+61	4661	incazzato	incazzato incazzata incazzati incazzate
+62	4662	costruttivo	costruttivo costruttiva costruttive costruttivi
+63	4663	impostare	impostare impostato imposti impostate impostando impostano impostò impostiamo imposterà impostava
+64	4664	pesare	pesare pesano pesava pesato pesi pesate peserà pesando pesavano pesavo pesasse peserebbe peseranno pesino pesò pesarono
+65	4665	sentimentale	sentimentale sentimentali
+66	4666	muscolare	muscolare muscolari
+67	4667	vetta	vetta vette
+68	4668	vergognoso	vergognoso vergognosa vergognose vergognosi
+69	4669	assassinio	assassinio assassini
+70	4670	cotta	cotta cotte
+71	4671	stampo	stampo stampi
+72	4672	trionfo	trionfo trionfi
+73	4673	insediamento	insediamento insediamenti
+74	4674	clemente	clemente clementi
+75	4675	primitivo	primitivo primitiva primitivi primitive
+76	4676	fastidioso	fastidioso fastidiosa fastidiosi fastidiose fastidiosissimo fastidiosissima fastidiosissimi
+77	4677	menzione	menzione menzioni
+78	4678	ettaro	ettari ettaro
+79	4679	configurazione	configurazione configurazioni
+80	4680	frattura	frattura fratture
+81	4681	cerebrale	cerebrale cerebrali celebrale
+82	4682	bottega	bottega botteghe botteguccia
+83	4683	saggezza	saggezza saggezze
+84	4684	arena	arena arene
+85	4685	oceano	oceano oceani
+86	4686	ostile	ostile ostili
+87	4687	bionda	bionda bionde
+88	4688	pareggio	pareggio pareggi
+89	4689	frenare	frenare frena freni frenato frenano frenante frenate frenando frenanti frenò frenava
+90	4690	pepe	pepe pepi
+91	4691	abolizione	abolizione
+92	4692	browser	browser
+93	4693	crederci	crederci
+94	4694	eccetto	eccetto
+95	4695	fatemi	fatemi
+96	4696	finalità	finalità
+97	4697	frigo	frigo
+98	4698	garage	garage
+99	4699	gemelli	gemelli
+100	4700	inevitabilmente	inevitabilmente

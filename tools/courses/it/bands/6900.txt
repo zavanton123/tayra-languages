@@ -1,0 +1,100 @@
+1	6801	uscirne	uscirne
+2	6802	miniatura	miniatura miniature
+3	6803	millimetro	millimetri millimetro
+4	6804	piccante	piccante piccanti piccantissimo
+5	6805	apice	apice apici
+6	6806	fronteggiare	fronteggiare fronteggiano fronteggiato fronteggia fronteggiando fronteggiavano fronteggiava fronteggiate fronteggiarono
+7	6807	incompetente	incompetente incompetenti
+8	6808	precipitazione	precipitazioni precipitazione
+9	6809	digerire	digerire digerente digerito digerisco digerisce digerite digeriscono digerendo digerisci
+10	6810	cittadella	cittadella cittadelle
+11	6811	scissione	scissione scissioni
+12	6812	sanzionare	sanzioni sanzionare sanzionato sanziona sanzionate sanzionano sanzionando sanzionò
+13	6813	ottava	ottava ottave
+14	6814	affliggere	affligge afflitto affliggono affliggere affliggeva affliggevano afflisse afflissero affliggendo affligga
+15	6815	analogia	analogia analogie
+16	6816	abitativo	abitativo abitative abitativa abitativi
+17	6817	dominazione	dominazione dominazioni
+18	6818	divorziato	divorziato divorziati divorziata divorziate
+19	6819	reportage	reportage reportages
+20	6820	atroce	atroce atroci
+21	6821	ultimare	ultimate ultimato ultimi ultimare ultima ultimando ultimò
+22	6822	scaturire	scaturisce scaturire scaturito scaturiscono scaturite scaturì scaturirono scaturiva scaturirà scaturiranno scaturenti scaturisca scaturente scaturivano scaturirebbe
+23	6823	atomo	atomi atomo
+24	6824	poverino	poverino poverina poverini
+25	6825	inclinazione	inclinazione inclinazioni
+26	6826	traumatico	traumatico traumatica traumatiche traumatici
+27	6827	altitudine	altitudine altitudini
+28	6828	gala	gala gale
+29	6829	stoffa	stoffa stoffe
+30	6830	ricezione	ricezione ricezioni
+31	6831	graduale	graduale graduali
+32	6832	deviazione	deviazione deviazioni
+33	6833	articolazione	articolazione articolazioni
+34	6834	autoritario	autoritario autoritaria autoritari autoritarie
+35	6835	paesino	paesino paesini
+36	6836	tosse	tosse tossi
+37	6837	cantautore	cantautore cantautori cantautrice
+38	6838	liquore	liquore liquori
+39	6839	colombiano	colombiano colombiana colombiani colombiane
+40	6840	cautela	cautela cautele
+41	6841	rustico	rustico rustica rustici rustiche
+42	6842	sodio	sodio sodi
+43	6843	prenderne	prenderne prendetene
+44	6844	cospirazione	cospirazione cospirazioni
+45	6845	divergenza	divergenze divergenza
+46	6846	narrativo	narrativo narrativi narrative
+47	6847	contrapposizione	contrapposizione contrapposizioni
+48	6848	perverso	perverso perversa perversi perverse
+49	6849	guscio	guscio gusci
+50	6850	bancarotta	bancarotta bancarotte
+51	6851	rinascere	rinascere rinato rinasce rinascente rinascono rinascerà rinacque rinascendo rinasci rinasco rinasca
+52	6852	allestimento	allestimento allestimenti
+53	6853	lacuna	lacune lacuna
+54	6854	scadente	scadente scadenti
+55	6855	atlantico	atlantico atlantica atlantiche atlantici
+56	6856	intrattenere	intrattenere intrattiene intrattenuto intrattengono intratteneva intrattenendo intrattenersi intrattenne intrattenevano intrattenga intratterrà intrattengo intratteniamo intrattennero
+57	6857	polemico	polemico polemiche polemici
+58	6858	impegnarsi	impegnarsi impegnatevi impegniamoci
+59	6859	insicurezza	insicurezza insicurezze
+60	6860	soma	some soma
+61	6861	truccare	truccato truccate truccare truccati trucca truccarsi trucchi truccano truccando truccavano truccava
+62	6862	affezionato	affezionato affezionata affezionati affezionate affezionatissimo
+63	6863	compressione	compressione compressioni
+64	6864	imprevisto	imprevisti imprevisto imprevista impreviste
+65	6865	regolatore	regolatore regolatori regolatrice regolatrici
+66	6866	dirigenza	dirigenza dirigenze
+67	6867	convocare	convocare convoca convocò convocando convocate convocano convochi convocherà convocarono convocava convoco convochiamo convocherò
+68	6868	drastico	drastica drastico drastiche drastici
+69	6869	blues	blues
+70	6870	disperatamente	disperatamente
+71	6871	irregolarità	irregolarità
+72	6872	macerie	macerie
+73	6873	volley	volley
+74	6874	destinare	destinare destinate destina destinò destini destinando destinerà destinano destinava destinarono
+75	6875	mascherato	mascherato mascherata mascherati mascherate
+76	6876	apparecchiatura	apparecchiature apparecchiatura
+77	6877	stallo	stallo stalli
+78	6878	lucro	lucro lucri
+79	6879	aggiudicare	aggiudicato aggiudica aggiudicano aggiudicherà aggiudicate aggiudicò aggiudicare aggiudicava aggiudichi
+80	6880	perizia	perizia perizie
+81	6881	elogio	elogio elogi
+82	6882	riconoscibile	riconoscibile riconoscibili
+83	6883	corporazione	corporazioni corporazione
+84	6884	spacciare	spaccia spacciare spacciano spacciava spacciando spacciarsi spacciate spacciavano spacci spaccini
+85	6885	scontrare	scontrano scontra scontrato scontrare scontrate scontri scontrò scontrerà scontrarono scontreranno scontravano scontrava scontrando scontriamo
+86	6886	surreale	surreale surreali
+87	6887	peloso	peloso pelosa pelosi pelose
+88	6888	fazzoletto	fazzoletto fazzoletti
+89	6889	filone	filone filoni
+90	6890	tattico	tattico tattici tattiche
+91	6891	giurare	giurare giurò giurando giurerei giurano giurate giurarono giuriamo giurava giurai giuravano giuri giurerà giurasti giureranno
+92	6892	teologico	teologica teologico teologici teologiche
+93	6893	ventre	ventre ventri
+94	6894	avvolgere	avvolge avvolgere avvolgono avvolgente avvolgeva avvolgendo avvolgenti avvolgi avvolga avvolgo avvolgevano avvolgersi avvolgerà avvolgete
+95	6895	mutamento	mutamento mutamenti
+96	6896	francescano	francescani francescano francescana francescane
+97	6897	fallimentare	fallimentare fallimentari
+98	6898	divulgare	divulgare divulgato divulgate divulga divulgando divulgano divulgò divulghi divulghiamo divulgava divulgo
+99	6899	decretare	decretato decretare decretò decretando decretarono decretano decreti decretava decreterà decretate decretino decreta
+100	6900	sottomettere	sottomesso sottomettere sottomettersi sottomette sottomise sottomisero sottomettono sottomettendo sottometto sottometta sottometteva sottomettiamo

@@ -1,0 +1,100 @@
+1	2001	tenda	tende tenda
+2	2002	condanna	condanna condanne
+3	2003	senatore	senatore senatori senatrice
+4	2004	riempire	riempire riempito riempie riempiono riempiendo riempite riempi riempirsi riempio riempiva riempì riempiamo riempia riempivano riempirà riempe riempiranno riempendo riempiremo riempirono riempono riempirò riempiano riempisse riempirebbe riempiere riempivo riempirei riempirai riempirete riempissero riempo riempii
+5	2005	stipendio	stipendio stipendi
+6	2006	risparmiare	risparmiare risparmia risparmiato risparmi risparmiando risparmiati risparmiate risparmiano risparmiamo risparmiarsi risparmiò risparmierà risparmierebbe risparmierai risparmiava risparmierei risparmieranno risparmierò risparmierete risparmiarono risparmierebbero risparmieremo risparmieremmo risparmiatevi risparmieresti risparmiar risparmino risparmiavano
+7	2007	spedizione	spedizione spedizioni
+8	2008	potenziale	potenziale potenziali
+9	2009	mentale	mentale mentali
+10	2010	ossia	ossia ovverosia ovverossia
+11	2011	consistere	consiste consisteva consistono consistere consistevano consista consisterà consisterebbe consistito consistette consistesse consistendo consistano consisteranno consistettero
+12	2012	riunione	riunione riunioni
+13	2013	iscrizione	iscrizione iscrizioni inscrizione
+14	2014	arresto	arresto arresti
+15	2015	logica	logica logiche
+16	2016	richiamare	richiama richiamato richiamare richiamano richiamando richiami richiamati richiamate richiamava richiamò richiamiamo richiamavano richiamerà richiamino richiamasse richiameranno richiamarono richiamarsi richiamerò richiameremo richiamante richiamerebbe richiamassero
+17	2017	finanza	finanza finanze
+18	2018	liceo	liceo licei
+19	2019	idiota	idiota idioti idiote
+20	2020	collaborare	collaborare collaborato collabora collaborando collaborano collaboriamo collabori collaborò collaboro collaborerà collaborava collaborarono collaboravano collaborino collaboreranno collaborate collaborassero collaboranti collaborante collaborasse
+21	2021	causato	causato causata causati causate
+22	2022	fortunato	fortunato fortunati fortunata fortunate fortunatissimo fortunio
+23	2023	bicicletta	bici bicicletta biciclette
+24	2024	nobile	nobile nobili nobilissimo
+25	2025	indagare	indagare indagato indagati indaga indagando indagano indagata indagate indagava indaghi indagherà indagò indago indaghiamo indagherò indagavano indaghino indagheremo indagheranno indagasse indagarono
+26	2026	televisione	televisione televisioni
+27	2027	fatica	fatica fatiche
+28	2028	addio	addio addii
+29	2029	ordinato	ordinato ordinata ordinati ordinate
+30	2030	esigenza	esigenze esigenza
+31	2031	operativo	operativo operativa operativi operative
+32	2032	personalità	personalità
+33	2033	speriamo	speriamo
+34	2034	invito	invito inviti
+35	2035	circondare	circondato circonda circondano circondati circondate circondava circondare circondavano circondarsi circondando circondò circondi circondarono circondiamo circondante circondo circonderà circondanti
+36	2036	mosca	mosca mosche moschino moschini
+37	2037	scherzare	scherzando scherza scherzare scherzi scherziamo scherzavo scherzano scherzato scherzava scherzate scherzavano scherzasse scherzavi scherzassi scherzavamo scherzò
+38	2038	pretendere	pretendere pretende pretese pretendono pretendo preteso pretendendo pretendenti pretendi pretendiamo pretendeva pretendente pretenda pretendete pretendevano pretesi pretendano pretesero pretender pretenderà pretenderebbe pretendevo pretendesse pretenderei pretenderanno
+39	2039	affetto	affetto affetti affetta affette
+40	2040	rilasciare	rilasciato rilasciare rilascia rilasciate rilasciano rilasciando rilascerà rilasceranno rilasci rilasciò rilascino rilasceremo rilasciava rilasciarono rilasciamo rilasciasse rilasciavano rilascerò
+41	2041	protesta	protesta proteste
+42	2042	provinciale	provinciale provinciali
+43	2043	disciplina	disciplina discipline
+44	2044	provenire	proviene provengono provenire proveniva provenivano provenga provengano provenendo provengo provenisse provenissero provieni proveniamo provennero provenne proverrebbe proverrà
+45	2045	duca	duca duchessa duchi duchesse
+46	2046	individuo	individuo individui
+47	2047	mattino	mattino mattin mattini
+48	2048	ruota	ruota ruote rota
+49	2049	scrittura	scrittura scritture
+50	2050	impressione	impressione impressioni
+51	2051	sedere	sedere siede sedersi siedono siedo siedi siediti sedeva sedette sediamo sedevano sieda siederà sedetevi sedemmo sedendo sedete sedevo sedetti sederi siederanno sedesse sedettero sediamoci segga siedano sediate sedevamo siederò sedente sederà
+52	2052	patto	patto patti
+53	2053	scheda	scheda schede
+54	2054	brasile	brasile
+55	2055	mediante	mediante
+56	2056	partner	partner
+57	2057	sanità	sanità
+58	2058	talmente	talmente
+59	2059	turismo	turismo
+60	2060	anello	anello anelli anellino anellini
+61	2061	rumore	rumore rumori
+62	2062	interpretazione	interpretazione interpretazioni
+63	2063	lancio	lancio lanci
+64	2064	essenziale	essenziale essenziali
+65	2065	sottoposto	sottoposto sottoposti sottoposta sottoposte
+66	2066	augurare	auguro auguri auguriamo augura augurare augurato augurano augurerei augurarsi augurando augurava auguriamoci auguravano augurate augurati auguravo augurò
+67	2067	innamorato	innamorato innamorata innamorati innamorate innamoratissimo
+68	2068	imprenditore	imprenditori imprenditore imprenditrice
+69	2069	motivazione	motivazione motivazioni
+70	2070	somma	somma somme
+71	2071	azzurro	azzurro azzurra azzurri azzurre
+72	2072	evoluzione	evoluzione evoluzioni
+73	2073	cancro	cancro cancri
+74	2074	prigioniero	prigionieri prigioniero prigioniera prigioniere
+75	2075	elenco	elenco elenchi
+76	2076	possesso	possesso possessi
+77	2077	specchio	specchio specchi specchietto specchietti
+78	2078	compiuto	compiuto compiuti compiuta compiute
+79	2079	talento	talento talenti
+80	2080	separato	separati separato separata separate
+81	2081	testimone	testimoni testimone
+82	2082	radice	radici radice
+83	2083	svolto	svolto svolti svolte
+84	2084	illegale	illegale illegali
+85	2085	intellettuale	intellettuale intellettuali
+86	2086	docente	docenti docente
+87	2087	tessuto	tessuto tessuti tessuta tessute
+88	2088	buio	buio bui buia buie
+89	2089	monaco	monaco monaci monache monaca
+90	2090	fretta	fretta frette
+91	2091	mossa	mossa mosse
+92	2092	legislativo	legislativo legislativa legislative legislativi
+93	2093	dignità	dignità
+94	2094	nuovamente	nuovamente
+95	2095	chimica	chimica chimiche
+96	2096	esercitare	esercitare esercitato esercitata esercitano esercitando eserciti esercitarsi esercitò esercita esercitate esercitava esercitati esercitavano esercitarono eserciterà esercitino esercitiamo esercitasse eserciteranno esercitanti esercitavo eserciterebbe
+97	2097	maschile	maschile maschili
+98	2098	adottato	adottato adottata adottati adottate
+99	2099	operatore	operatori operatore operatrice
+100	2100	informare	informa informare informarsi informano informati informi informo informando informiamo informò informate informava informerò informatevi informarono informerà informeremo informasse informavano informeranno informino informai informerei informiamoci

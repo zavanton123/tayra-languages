@@ -1,0 +1,100 @@
+1	2401	tendere	tendono tende tendere tendo tendiamo tendeva tenderà tendi tendano tender tendevano tese tendendo tenderanno tesero tenderebbe tenderei tendete tenderebbero tendesse tendevo
+2	2402	appoggiare	appoggiato appoggia appoggiare appoggiano appoggiati appoggiate appoggiando appoggiò appoggiarsi appoggiava appoggi appoggiarono appoggerà appoggiamo appoggiavano appoggeranno appoggino appoggiasse appoggiavo appoggeremo appoggerebbe appoggerei appoggerò appoggiai appoggiassero
+3	2403	grillo	grillo grilletto grilli grilletti
+4	2404	deriva	deriva derive
+5	2405	salto	salto salti saltello
+6	2406	polvere	polvere polveri
+7	2407	rilevante	rilevante rilevanti rilevantissimo
+8	2408	razzismo	razzismo razzismi
+9	2409	frequenza	frequenza frequenze
+10	2410	integrazione	integrazione integrazioni
+11	2411	assai	assai
+12	2412	felicità	felicità
+13	2413	leggermente	leggermente
+14	2414	letteralmente	letteralmente
+15	2415	foglio	foglio fogli
+16	2416	schema	schema schemi
+17	2417	escluso	escluso esclusa esclusi escluse
+18	2418	plastica	plastica plastiche
+19	2419	grigio	grigio grigia grigi grigie grige
+20	2420	causare	causare causando causano causate causò causi causerà causerebbe causava causarono causino causeranno causavano causo causasse causerebbero
+21	2421	insulto	insulti insulto
+22	2422	corriere	corriere corrieri
+23	2423	radicale	radicale radicali
+24	2424	doccia	doccia docce doccetta
+25	2425	accusato	accusato accusati accusata accusate
+26	2426	collegio	collegio collegi
+27	2427	socialista	socialista socialisti socialiste
+28	2428	celebre	celebre celebri celeberrimo
+29	2429	neve	neve nevi
+30	2430	prete	prete preti
+31	2431	caricare	caricare caricato caricati caricata caricate caricando caricano caricarsi caricava carichiamo caricò carcare caricarono caricavano caricherà caricheremo caricavo caricherò carichino caricasse caricheranno
+32	2432	fiamma	fiamme fiamma fiammella fiammelle
+33	2433	risoluzione	risoluzione risoluzioni
+34	2434	acido	acido acidi acida acide
+35	2435	sonno	sonno sonni
+36	2436	presentata	presentata presentate
+37	2437	confuso	confuso confusa confusi confuse
+38	2438	evidenziare	evidenziato evidenzia evidenziare evidenziano evidenziando evidenziate evidenzi evidenziava evidenzio evidenziavano evidenziò evidenziamo evidenziarono evidenzino evidenzierà
+39	2439	sottile	sottile sottili sottilissima sottilissimo sottilissime sottilissimi
+40	2440	affitto	affitto affitti
+41	2441	recare	reca recato recò recano recava recare recavano recando recarono recherà reco rechi recate rechino recheranno rechiamo recai recasse recavo recar recherò recheremo recassero recammo
+42	2442	affidare	affidato affidare affido affidate affidano affidò affidiamo affidi affidando affidava affiderei affidarono affiderà affidavano affiderò affidino affidasse affideranno affideremo affiderebbe
+43	2443	estendere	estende estendere estendono estendersi estese estendeva estendendo estesi estenderà estendevano estesero estenda estendiamo estendo estenderebbe estendesse estendi estenderanno estendano
+44	2444	indio	india indios indio
+45	2445	rappresentazione	rappresentazione rappresentazioni
+46	2446	finanziaria	finanziaria finanziarie
+47	2447	rimandare	rimanda rimandare rimandato rimando rimandano rimandata rimandi rimandiamo rimandati rimandando rimandate rimandava rimandò rimanderò rimanderà rimandino rimanderanno rimandavano rimanderebbe rimandarono rimanderei rimanderemo
+48	2448	mafia	mafia mafie
+49	2449	accendere	accendere accende accese accendo accendi accendono accesi accendete accendendo accendersi accenda accendiamo accendeva accenderà accendevano accesero accenderanno accendevo accenderò accendano accendesse
+50	2450	sesto	sesto sesta sesti seste
+51	2451	mito	mito miti
+52	2452	oriente	oriente orienti
+53	2453	esteso	esteso estesa estese estesi
+54	2454	adolescente	adolescenti adolescente
+55	2455	risparmio	risparmio risparmi
+56	2456	diminuire	diminuire diminuisce diminuito diminuendo diminuiscono diminuite diminuirà diminuì diminuisca diminuiva diminuiranno diminuirono diminuirebbe diminuisci diminuiscano diminuivano diminuirebbero diminuisse
+57	2457	lazio	lazio lazi
+58	2458	liberale	liberale liberali
+59	2459	altrove	altrove
+60	2460	email	email
+61	2461	interamente	interamente
+62	2462	obbligato	obbligato obbligati obbligata obbligate
+63	2463	meta	meta mete
+64	2464	alleato	alleati alleato alleata alleate
+65	2465	tornata	tornata tornate
+66	2466	pessimo	pessima pessimo pessime pessimi
+67	2467	esposizione	esposizione esposizioni
+68	2468	sapore	sapore sapori
+69	2469	sofferenza	sofferenza sofferenze
+70	2470	autorizzato	autorizzato autorizzata autorizzati autorizzate
+71	2471	sfondo	sfondo sfondi
+72	2472	consapevole	consapevole consapevoli
+73	2473	leggenda	leggenda leggende
+74	2474	criticare	criticare criticato criticano criticando criticate critichi criticava criticavano criticò critichiamo criticherà criticarono criticasse
+75	2475	ansia	ansia ansie
+76	2476	tentato	tentato tentata tentati tentate
+77	2477	corto	corto corta corti cortissimo
+78	2478	manuale	manuale manuali manualetto
+79	2479	corruzione	corruzione corruzioni
+80	2480	leggero	leggero leggeri leggerissimo leggieri leggiero
+81	2481	prato	prato prati pratesi pratese
+82	2482	autonomia	autonomia autonomie
+83	2483	banco	banco banchi
+84	2484	suicidio	suicidio suicidi
+85	2485	stringere	stringere stringe stringa stringhe stringendo stringono strinse stringi stringente stringenti stringo stringeva stringersi strinsero stringerà stringiamo stringevano stringiamoci stringevo stringerò stringerei stringete strinsi stringeranno stringesse stringessi stringano
+86	2486	staccare	staccare staccato stacca stacco staccata staccarsi staccati stacchi staccano staccate staccando staccò staccava staccherà stacchiamo staccarono staccheranno staccasse staccherò stacchino staccavano staccherei staccatevi staccavo staccai
+87	2487	incendio	incendio incendi
+88	2488	basare	basa basano basare basava baso basate basando basavano baserà basiamo basi basasse basò basino basan baseranno baserebbe basarono
+89	2489	reagire	reagire reagito reagisce reagiscono reagendo reagenti reagisci reagirà reagisca reagì reagente reagiranno reagiva reagisco reagiamo reagirono reagirebbe reagiresti reagite reagiscano reagirebbero reagisse reagivano reagiremo reagirei
+90	2490	coinvolgere	coinvolgere coinvolge coinvolgono coinvolgendo coinvolgente coinvolga coinvolgeva coinvolgenti coinvolgerà coinvolse coinvolgano coinvolgesse coinvolgevano coinvolgiamo coinvolgi coinvolsero coinvolgeranno coinvolgete coinvolgerebbe
+91	2491	culto	culto culti culte
+92	2492	sensibile	sensibile sensibili sensibilissimo
+93	2493	pochissimo	pochissimo pochissimi pochissime pochissima
+94	2494	rimettere	rimettere rimesso rimette rimettersi rimetto rimetti rimettendo rimettono rimetta rimettiamo rimettiti rimise rimettete rimetterà rimetteranno rimetteva rimettano rimetterò rimisero rimettente rimetterebbe rimettesse rimetteremo rimisi rimetterei rimettetevi rimettevano rimettevo rimetterete rimettiamoci
+95	2495	attirare	attirare attira attirato attirano attirando attirò attiri attirava attirerà attirate attiravano attiro attirarono attirerebbe attirarsi attirasse attireranno attiriamo attirino attirerò attirar attirerebbero
+96	2496	occhiata	occhiata occhiate
+97	2497	postare	postato postare posti postate postando postano posterò postava postiamo postò postavo posteremo postavano postasse posterei
+98	2498	supportare	supportare supporta supportato supportano supportate supportando supporti supportiamo supportino supporterà supportava supporteranno supportavano supportasse supporteremo supporterò
+99	2499	medaglia	medaglia medaglie medaglietta medagliette
+100	2500	collegare	collegare colleghi collegano collegate collegarsi collegati collegando collegava collego collegherà colleghiamo collegavano collegò colleghino collegasse collegatevi collegarono collegheranno collegherebbe collegheremo colleghiamoci collegante collegassero

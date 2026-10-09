@@ -1,0 +1,100 @@
+1	1401	proveniente	provenienti proveniente
+2	1402	sostanza	sostanza sostanze
+3	1403	valere	valere valgono valga valeva valse vali valente varrà varrebbe valesse valenti valso valgo valevano valgano valsero varranno valete valer valsi valiamo varrebbero valersi valessero valessi valendo varrò
+4	1404	pesce	pesce pesci
+5	1405	accompagnare	accompagnato accompagna accompagnare accompagnano accompagnate accompagni accompagnò accompagnando accompagnava accompagnerà accompagno accompagnavano accompagnarono accompagneranno accompagnasse accompagnarsi accompagniamo accompagnino accompagnerò accompagnavo accompagneremo accompagnai accompagnerebbe accompagnassero
+6	1406	amministrativo	amministrativa amministrativo amministrative amministrativi
+7	1407	ripresa	ripresa riprese
+8	1408	resistenza	resistenza resistenze
+9	1409	tassa	tasse tassa
+10	1410	ritrovare	ritrova ritrovare ritrovano ritrovarsi ritroviamo ritrovi ritroveremo ritrovò ritrovate ritroverà ritroveranno ritroverai ritrovai ritrovando ritrovarono ritrovava ritrovino ritroverete ritroverò ritrovavano ritrovavo ritroverebbe ritroverei ritrovasse ritroveremmo ritrovammo ritroverebbero ritrovassi ritrovar ritroveresti ritrovavi ritroviamoci ritrovassero ritrovavamo
+11	1411	comportare	comporta comportano comportato comporti comportare comportava comportando comporterebbe comporterà comporto comportino comportate comportò comportiamo comportavano comportasse comporteranno comportarono comporterebbero comportanti comportassero comporterei comportante comportavo comporterai comporterò comportassi comporteresti
+12	1412	valutare	valutare valuta valutato valutando valutata valute valutati valutate valutano valuterà valuti valuto valutiamo valuteremo valuterò valutò valuteranno valutava valutino valutasse valuterei valutarono valutavano
+13	1413	blu	blu blù
+14	1414	eletto	eletto eletti eletta elette
+15	1415	mobile	mobile mobili
+16	1416	pranzo	pranzo pranzi pranzetto
+17	1417	all'estero	all'estero
+18	1418	pubblicità	pubblicità
+19	1419	venerdì	venerdì
+20	1420	differente	differenti differente
+21	1421	musicale	musicale musicali
+22	1422	concedere	concesso concedere concede concesse concessi concedo concedendo concedono conceda concedersi concedi concederà concedeva concediamo concedente concessero concedano concediti concedesse concedete concedevano concederanno concedette concederò concedetevi concederebbe concederei concederete concediamoci concedenti concederemo
+23	1423	fianco	fianco fianchi
+24	1424	formare	formare formano formando formarsi formò formate formavano formarono formeranno formi formava formati formerà formino formiamo formasse formanti formante formo formassero formerebbero formerebbe formeremo formai formar
+25	1425	scusare	scusate scusi scuso scusato scusare scusiamo scusanti scusante scusano scusò scuserà scusando scusino scusava scuserai scuserete scusasse
+26	1426	rispettare	rispettare rispetta rispettato rispettano rispettate rispettando rispettiamo rispettino rispettava rispetti rispetterà rispettavano rispetteranno rispettasse rispettò rispetterò rispettassero rispettarsi rispetteremo rispettarono rispetterebbe rispettar rispettavo
+27	1427	giudizio	giudizio giudizi giudicio
+28	1428	richiesto	richiesto richieste richiesti richiestissimo
+29	1429	firmare	firmato firmare firmate firmando firmano firmi firmo firmò firmava firmerà firmino firmerò firmiamo firmarono firmeranno firmavano firmerei firmasse firmavo firmai firmassero firmeresti
+30	1430	rappresentante	rappresentanti rappresentante
+31	1431	finestra	finestra finestre finestrella finestrelle finestrone
+32	1432	agenzia	agenzia agenzie
+33	1433	rifiutare	rifiuta rifiutato rifiutare rifiutano rifiutò rifiutando rifiutava rifiutate rifiutarono rifiutavano rifiutiamo rifiuterà rifiutasse rifiutino rifiutai rifiuterebbe rifiuterei rifiutassero rifiutavo rifiuteranno rifiutassi rifiuterebbero
+34	1434	simbolo	simbolo simboli
+35	1435	bilancio	bilancio bilanci
+36	1436	fattore	fattori fattore
+37	1437	caccia	caccia cacce
+38	1438	appuntamento	appuntamento appuntamenti
+39	1439	buttare	buttare buttato butta butto butti buttano buttarsi buttate buttando buttiamo buttar buttò butterei buttava butterò buttavano butteranno buttai buttavo butterà buttino buttiamoci buttatevi butterebbe buttarono buttasse buttassero buttassi butterebbero
+40	1440	tavolo	tavolo tavolino tavoli tavolini
+41	1441	commentare	commenti commentare commenta commentato commentando commentano commentate commentò commentava commentavano commenterà commentiamo commentino commentavo commenteranno commenterò commentar commentarono
+42	1442	viaggiare	viaggiare viaggia viaggi viaggiato viaggiano viaggiando viaggiava viaggiavano viaggiò viaggiamo viaggiate viaggiante viaggerà viaggianti viaggino viaggiavo viaggeranno viaggerò viaggeremo viaggiasse viaggiarono viaggiavamo viaggerai viaggerete viaggiassero
+43	1443	nascita	nascita nascite
+44	1444	nonché	nonché nonchè
+45	1445	negare	negare nega negato negata negano negando nego neghi negati negate negò negava neghiamo negherà negar negarono negherebbe negavano negherò negarsi negheranno negasse negai negheremo neghino negherei
+46	1446	insegnante	insegnante insegnanti
+47	1447	segretario	segretario segretaria segretari
+48	1448	impegnato	impegnato impegnati impegnata impegnate impegnatissimo
+49	1449	letteratura	letteratura letterature
+50	1450	elevato	elevato elevata elevati elevate elevatissimo
+51	1451	coinvolto	coinvolto coinvolti coinvolta coinvolte
+52	1452	album	album
+53	1453	certamente	certamente
+54	1454	frattempo	frattempo
+55	1455	leader	leader
+56	1456	perciò	perciò
+57	1457	matto	matteo matto matti matta matte
+58	1458	modificare	modificare modificato modificata modificati modificate modificando modificano modifichi modificò modificarsi modificherà modifico modificarono modificava modifichiamo modificasse modifichino modificavano modificheranno modificherebbe modificherei
+59	1459	borsa	borsa borse borsone borsoni
+60	1460	sopravvivere	sopravvivere sopravvissuti sopravvissuto sopravvissuta sopravvive sopravvivono sopravvissute sopravvisse sopravviverà sopravviva sopravvivi sopravvivo sopravvissero sopravvivendo sopravviveranno sopravviverò sopravvivevano sopravvivano sopravviveva sopravviveremo sopravviverebbe sopravviverai sopravvivesse sopravviverei sopravviviamo sopravvivranno sopravvivrà sopravviverebbero sopravvivremo sopravvivessero sopravviventi sopravvivrò
+61	1461	critico	critico critici critiche
+62	1462	godere	godere gode godono goduto godendo godo godi godeva godiamo goda godevano godano godranno godette godrà godete godrò godrai godettero godesse godrei godevo godremo godrebbe godrete godessero goder godrebbero godevi godevamo
+63	1463	spiaggia	spiaggia spiagge spiaggie piagge spiaggetta piaggia
+64	1464	occupato	occupato occupati occupata occupate occupatissimo
+65	1465	organo	organi organo
+66	1466	punta	punta punte puntarelle
+67	1467	puntata	puntata puntate
+68	1468	regime	regime regimi
+69	1469	socio	socio soci socia
+70	1470	fisso	fissa fisso fissi fisse fisi fisa fise fiso
+71	1471	urlare	urla urlare urlando urlo urlato urlano urli urlava urlavano urlanti urliamo urlò urlate urlante urlavo urlerò urlai urlerà urlavi urlasse urleranno urlarono urlerei urlavamo urlerebbe
+72	1472	raggio	raggi raggio razzi razzo
+73	1473	dimenticato	dimenticato dimenticata dimenticati dimenticate
+74	1474	liberare	liberare liberato libera liberarsi liberi liberate liberando liberano liberò liberiamo libererà libereremo liberarono liberasse liberava libereranno liberiamoci liberino libererebbe libererò libererai liberar liberatevi liberassero libererete liberavano liberante liberiate
+75	1475	lettore	lettori lettore lettrice lettor
+76	1476	disco	disco dischi
+77	1477	scappare	scappare scappa scappato scappano scappando scappi scappo scappiamo scappate scappò scappava scappavano scapperà scapparono scappavo scapperei scappar scappasse scappino scapperebbe scappai scapperò scapperesti scapperanno
+78	1478	corretto	corretto corretta corretti corrette
+79	1479	frutto	frutto frutti fruttino
+80	1480	artistico	artistico artistica artistiche artistici
+81	1481	coperto	coperto coperta coperte coperti
+82	1482	superficie	superficie superfici superfice
+83	1483	turno	turno turni
+84	1484	maschio	maschi maschio maschietti maschietto maschia maschie
+85	1485	limitato	limitato limitata limitati limitate limitatissimo
+86	1486	app	app
+87	1487	gratis	gratis
+88	1488	praticamente	praticamente
+89	1489	spalle	spalle
+90	1490	standard	standard
+91	1491	moda	moda mode
+92	1492	sanitario	sanitario sanitaria sanitari sanitarie
+93	1493	inviato	inviato inviati inviata inviate
+94	1494	trattamento	trattamento trattamenti
+95	1495	regalo	regalo regali regalino
+96	1496	bacio	bacio bacino baci bacini bacia
+97	1497	linguaggio	linguaggio linguaggi
+98	1498	omicidio	omicidio omicidi
+99	1499	conferma	conferma conferme
+100	1500	conferenza	conferenza conferenze

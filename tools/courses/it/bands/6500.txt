@@ -1,0 +1,100 @@
+1	6401	aggregato	aggregato aggregati aggregata aggregate
+2	6402	sfilare	sfilare sfilano sfilato sfila sfilate sfilando sfilavano sfileranno sfilò sfilerà sfilo sfilarsi sfilava sfili sfilarono
+3	6403	veglia	veglia veglie
+4	6404	rivendicazione	rivendicazione rivendicazioni
+5	6405	trazione	trazione trazioni
+6	6406	bellino	bellini bellino bellina belline
+7	6407	notiziario	notiziario notiziari
+8	6408	bocciato	bocciato bocciata bocciati bocciate
+9	6409	omofobo	omofobo omofobi omofoba omofobe
+10	6410	incidenza	incidenza incidenze
+11	6411	trionfare	trionfa trionfare trionfato trionfante trionfano trionfò trionferà trionfi trionfando trionfanti trionfarono trionfava trionferanno
+12	6412	distrettuale	distrettuale distrettuali
+13	6413	attenuare	attenuare attenuanti attenuante attenua attenuata attenuato attenuano attenuati attenuate attenuando attenuò attenuerà attenui
+14	6414	smontare	smontare smontato smonta smontate smontando smonto smontano smonti smontiamo smontò smontava
+15	6415	ciccio	ciccio ciccia cicci
+16	6416	castiglione	castiglione castiglioni castiglion
+17	6417	sepoltura	sepoltura sepolture
+18	6418	calice	calice calici
+19	6419	assicurativo	assicurativa assicurativo assicurative assicurativi
+20	6420	mostruoso	mostruoso mostruosa mostruose mostruosi
+21	6421	nigeriano	nigeriano nigeriana nigeriani nigeriane
+22	6422	esprimersi	esprimersi esprimiti
+23	6423	inchiostro	inchiostro inchiostri
+24	6424	scordare	scordare scorda scordi scordo scorderò scordarsi scordatevi scordano scordiamo scordar scordiamoci scordando scordavo scorderai scordati scordate scorderà scorderanno scorderemo
+25	6425	tutore	tutore tutori tutrice
+26	6426	centenario	centenario centenaria centenari centenarie
+27	6427	sandra	sandra sandre
+28	6428	antibiotico	antibiotici antibiotico antibiotica antibiotiche
+29	6429	ereditario	ereditario ereditaria ereditari ereditarie
+30	6430	spirale	spirale spirali
+31	6431	barzelletta	barzelletta barzellette
+32	6432	comizio	comizio comizi
+33	6433	riconducibile	riconducibili riconducibile
+34	6434	volgere	volge volgere volga volgo volgendo volse volgiamo volgono volgersi volgeva volgi volsero volsi volgerà volgevano volgeranno volger
+35	6435	sciocchezza	sciocchezze sciocchezza
+36	6436	cupo	cupo cupa cupi cupe
+37	6437	egoista	egoista egoisti egoiste
+38	6438	leghista	leghista leghisti leghiste
+39	6439	gomito	gomito gomiti gombito
+40	6440	correlazione	correlazione correlazioni
+41	6441	festeggiamento	festeggiamenti festeggiamento
+42	6442	adolescenza	adolescenza
+43	6443	champagne	champagne
+44	6444	diabete	diabete
+45	6445	dirle	dirle
+46	6446	dovunque	dovunque
+47	6447	erroneamente	erroneamente
+48	6448	indennità	indennità
+49	6449	lasciarlo	lasciarlo
+50	6450	minimamente	minimamente
+51	6451	omofobia	omofobia
+52	6452	riferirsi	riferirsi
+53	6453	stivali	stivali
+54	6454	ventina	ventina
+55	6455	smentita	smentita smentite
+56	6456	capitolare	capitolare capitolato capitolina capitolino capitolini capitoli capitolati capitolari capitolò capitoline capitola capitolarono
+57	6457	dimettere	dimette dimettere dimetta dimetto dimetterà dimise dimettono dimetti dimettesse dimetterò dimetteva dimisero dimettano
+58	6458	faticare	faticato faticare faticano fatico faticando fatichi faticava fatichiamo faticò faticavo fatiche faticavano faticherà faticate faticarono
+59	6459	suggestivo	suggestiva suggestivo suggestivi suggestive
+60	6460	dinastia	dinastia dinastie
+61	6461	bada	bada badi bade
+62	6462	promozionale	promozionale promozionali
+63	6463	membrana	membrana membrane
+64	6464	ospedaliero	ospedaliera ospedaliero ospedaliere ospedalieri
+65	6465	sociologia	sociologia sociologie
+66	6466	scoppiata	scoppiata scoppiato scoppiati scoppiate
+67	6467	politecnico	politecnico politecnica politecnici
+68	6468	adorabile	adorabile adorabili
+69	6469	scheletro	scheletro scheletri
+70	6470	caverna	caverna caverne
+71	6471	sismico	sismica sismico sismiche sismici
+72	6472	twittare	twittato twitta twittare twittano twittate twittando twitto twitti
+73	6473	ricevimento	ricevimento ricevimenti
+74	6474	esotico	esotici esotico esotica esotiche
+75	6475	scozzese	scozzese scozzesi
+76	6476	tiranno	tiranno tiranni tiranna
+77	6477	stellare	stellare stellari stelli stellino
+78	6478	colere	cole colere
+79	6479	noleggio	noleggio noleggi
+80	6480	concentramento	concentramento concentramenti
+81	6481	salsiccia	salsiccia salsicce salciccia
+82	6482	discografico	discografica discografico discografiche discografici
+83	6483	fabbisogno	fabbisogno fabbisogni
+84	6484	imposizione	imposizione imposizioni
+85	6485	spiacevole	spiacevole spiacevoli
+86	6486	paglia	paglia paglie
+87	6487	rapire	rapire rapisce rapiscono rapì rapirono rapendo rapiva rapisse rapisca rapivano rapisco rapirà rapissero
+88	6488	bosso	bossi bosso
+89	6489	indebolire	indebolito indebolire indebolisce indebolendo indebolite indeboliscono indebolirsi indebolisca indebolirebbe indebolì indeboliva indebolirono indebolirà
+90	6490	maddalena	maddalena maddalene
+91	6491	leale	leale leali
+92	6492	perfezionare	perfezionare perfezionato perfeziona perfezionata perfezionando perfezionò perfezionati perfezionate perfezionano perfezionarono perfezionerà
+93	6493	doppiaggio	doppiaggio doppiaggi
+94	6494	sommato	sommato sommati sommate sommata
+95	6495	ristabilire	ristabilire ristabilito ristabilisce ristabilendo ristabilì ristabilirsi ristabilite ristabiliscono ristabilirono ristabilirà ristabilisca
+96	6496	finestrino	finestrino finestrini
+97	6497	sisma	sisma sismi
+98	6498	ampliamento	ampliamento ampliamenti
+99	6499	disaccordo	disaccordo disaccordi
+100	6500	ripagare	ripagare ripagato ripaga ripagano ripaghi ripagherà ripagherò ripagate ripagando ripago ripagheranno

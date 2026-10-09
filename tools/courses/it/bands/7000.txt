@@ -1,0 +1,100 @@
+1	6901	candida	candida candide
+2	6902	nominale	nominale nominali
+3	6903	prolungare	prolungare prolunga prolungate prolungando prolungano prolungarsi prolungò prolunghe prolungherà prolungava prolunghi prolungarono
+4	6904	pompiere	pompieri pompiere
+5	6905	dazio	dazi dazio
+6	6906	festivo	festivi festivo festiva festive
+7	6907	prescelto	prescelto prescelta prescelti prescelte
+8	6908	innocuo	innocuo innocua innocui innocue
+9	6909	principato	principato principati
+10	6910	semplificazione	semplificazione semplificazioni
+11	6911	annoverare	annovera annoverare annoverato annoverano annoverava annoverate annoverando annoveriamo annoverò annovero annoveravano annoverarono
+12	6912	incomprensibile	incomprensibile incomprensibili
+13	6913	ripartizione	ripartizione ripartizioni
+14	6914	travestito	travestito travestiti travestita travestite
+15	6915	prendersela	prendersela prendertela prendetevela prendermela prenditela prendervela prendercela prendiamocela prendendosela
+16	6916	fogna	fogna fogne
+17	6917	raffica	raffica raffiche
+18	6918	anale	anale anali
+19	6919	ausilio	ausilio ausili
+20	6920	parigino	parigini parigino parigina parigine
+21	6921	casalingo	casalingo casalinghe casalinghi
+22	6922	restaurare	restaurare restaurato restaurate restauri restaura restaurò restaurando restaurano restaurante restaurarono
+23	6923	cortina	cortina cortine
+24	6924	miliardario	miliardario miliardari miliardaria
+25	6925	femminicidio	femminicidio femminicidi
+26	6926	materasso	materasso materassi
+27	6927	cautelare	cautelare cautelari cautelarsi
+28	6928	oppositore	oppositori oppositore oppositrice
+29	6929	equivoco	equivoco equivoci equivoca equivoche
+30	6930	rinforzo	rinforzo rinforzi
+31	6931	affida	affida
+32	6932	aiutarlo	aiutarlo
+33	6933	arroganza	arroganza
+34	6934	basandosi	basandosi
+35	6935	fax	fax
+36	6936	giuda	giuda
+37	6937	hamburger	hamburger
+38	6938	nazismo	nazismo
+39	6939	perplessità	perplessità
+40	6940	sincerità	sincerità
+41	6941	sistematicamente	sistematicamente
+42	6942	bernardino	bernardino bernardini
+43	6943	ecosistema	ecosistema ecosistemi
+44	6944	scordato	scordato scordata scordati scordate
+45	6945	incorporare	incorporato incorporare incorpora incorporate incorporante incorporano incorporando incorporò incorporava incorpori
+46	6946	labirinto	labirinto labirinti
+47	6947	pioniere	pionieri pioniere pioniera
+48	6948	pagliaccio	pagliaccio pagliacci pagliaccetti pagliaccetto pagliaccia
+49	6949	spugna	spugna spugne spugnetta
+50	6950	rimorso	rimorso rimorsi
+51	6951	ammiraglio	ammiraglio ammiragli
+52	6952	ballottaggio	ballottaggio ballottaggi
+53	6953	cadenza	cadenza cadenze
+54	6954	mediano	mediano mediana mediani mediane
+55	6955	ripassare	ripassare ripasso ripassa ripassato ripassando ripassiamo ripassi ripassate ripassino ripassano ripassò
+56	6956	contrazione	contrazione contrazioni
+57	6957	barattolo	barattolo barattoli
+58	6958	ambulante	ambulanti ambulante
+59	6959	sanguinoso	sanguinosa sanguinose sanguinoso sanguinosi
+60	6960	fiducioso	fiducioso fiduciosi fiduciosa fiduciose
+61	6961	campare	campare campa campate campi campato campati campan campava campino campando campiamo
+62	6962	nocciola	nocciole nocciola noccioline nocciolina
+63	6963	sottoscrivere	sottoscrivere sottoscrivo sottoscrive sottoscrisse sottoscrivendo sottoscrivono sottoscrissero sottoscrivi sottoscriviamo sottoscriva sottoscriverà
+64	6964	fusto	fusto fusti
+65	6965	prospetto	prospetto prospetti
+66	6966	meditare	meditare medita meditando meditate meditato meditata medito mediti meditano meditava meditavo meditò meditiamo meditasse meditati
+67	6967	patriottico	patriottico patriottica patriottici patriottiche
+68	6968	decade	decade decadi
+69	6969	ricognizione	ricognizione ricognizioni
+70	6970	norvegese	norvegese norvegesi
+71	6971	colosso	colosso colossi
+72	6972	imprevedibile	imprevedibile imprevedibili
+73	6973	appendice	appendice appendici
+74	6974	auspicare	auspica auspicato auspicando auspico auspicano auspicare auspicava auspichiamo auspicavano auspicate auspicò auspichi
+75	6975	abisso	abisso abissi
+76	6976	midollo	midollo medolla
+77	6977	rizzare	rizzo rizzi rizza rizzare rizzato rizzati rizzano
+78	6978	incasso	incasso incassi
+79	6979	manicomio	manicomio manicomi
+80	6980	stilare	stilato stilare stilo stila stilate stili stilando stilò stilano
+81	6981	patriota	patrioti patriota patriote
+82	6982	campanello	campanello campanelli
+83	6983	persistente	persistente persistenti
+84	6984	giocata	giocata giocate
+85	6985	sensato	sensato sensata sensate sensati
+86	6986	contraddistinguere	contraddistingue contraddistinto contraddistinguono contraddistinguere contraddistingueva contraddistinse
+87	6987	piccolino	piccolino piccolina piccolini piccoline
+88	6988	rotondo	rotondo rotondi rotonde
+89	6989	rotolo	rotolo rotoli ruotolo
+90	6990	tricolore	tricolore tricolori
+91	6991	indignato	indignati indignato indignata indignate
+92	6992	pizzico	pizzico pizzichi pizzichino
+93	6993	frustrato	frustrato frustrati frustrata frustrate
+94	6994	dosso	dosso dossi
+95	6995	copione	copione copioni copiona
+96	6996	lobo	lobo lobi
+97	6997	semaforo	semaforo semafori
+98	6998	sgombero	sgombero sgomberi sgombro sgombra sgombri sgombre
+99	6999	divario	divario divari
+100	7000	ariano	ariana ariano ariani ariane

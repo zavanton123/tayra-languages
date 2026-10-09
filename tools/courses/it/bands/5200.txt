@@ -1,0 +1,100 @@
+1	5101	tronco	tronco tronchi tronca tronche
+2	5102	azionista	azionisti azionista azioniste
+3	5103	repressione	repressione repressioni
+4	5104	amoroso	amoroso amorosa amorose amorosi
+5	5105	portatore	portatori portatore portatrice
+6	5106	torrente	torrente torrenti
+7	5107	vacca	vacca vacche vacchetta
+8	5108	natalizio	natalizio natalizie natalizia natalizi
+9	5109	melodia	melodia melodie melodico melodica melodiche melodici melodicamente
+10	5110	acustico	acustico acustica acustiche acustici
+11	5111	antenato	antenati antenato antenata antenate
+12	5112	battesimo	battesimo battesimi
+13	5113	congregazione	congregazione congregazioni
+14	5114	sottostante	sottostante sottostanti
+15	5115	tuta	tuta tute
+16	5116	applicabile	applicabile applicabili
+17	5117	lordo	lordo lordi lorde lorda
+18	5118	etero	etero eteri
+19	5119	rissa	rissa risse
+20	5120	mucca	mucca mucche
+21	5121	offeso	offeso offese offesi
+22	5122	estrarre	estrarre estrae estraggono estraendo estrasse estraggo estrai estraeva estraiamo estraevano estraete estragga estrarrà estrassero estrarremo estrarrò
+23	5123	colare	colin cola colato colare coli colò colino colate colava colando colano colini colar
+24	5124	gabinetto	gabinetto gabinetti
+25	5125	castrare	castro castra castri castrare castrante
+26	5126	risvegliare	risveglia risvegliare risvegliato risvegliarsi risvegliando risvegliano risvegliati risvegliò risvegli risveglierà risvegliate risvegliava risvegliasse risvegliai risvegliarono risveglieranno risveglino
+27	5127	dimesso	dimesso dimessa dimessi dimesse
+28	5128	casalinga	casalinga casalinghe
+29	5129	sequestrato	sequestrato sequestrati sequestrata sequestrate
+30	5130	ballerino	ballerini ballerino ballerine
+31	5131	palio	palio pali
+32	5132	zombi	zombie zombi
+33	5133	autorizzare	autorizza autorizzare autorizzate autorizzando autorizzi autorizzo autorizzò autorizzava autorizzano autorizzerà autorizzasse autorizzavano autorizzarono autorizziamo
+34	5134	ventura	ventura venture
+35	5135	teologia	teologia teologie
+36	5136	tino	tina tino tini
+37	5137	filiale	filiale filiali
+38	5138	scarto	scarto scarti scarta
+39	5139	repertorio	repertorio repertori
+40	5140	pentirsi	pento pentirai pente pentirsi penta pentirete penti pentirò pentirmi pentiti pentirà pentirti pentì pentitevi pentono pentiranno pentiremo pentirei pentirvi pentendosi pentii pentiamo pentite
+41	5141	costui	costoro costui costei
+42	5142	vomitare	vomitare vomitato vomita vomitando vomitano vomiti vomitava vomitate vomitò vomiterò
+43	5143	rinforzare	rinforzare rinforzi rinforzato rinforza rinforzati rinforzate rinforzando rinforzano rinforzarsi rinforzò
+44	5144	scadere	scade scadere scadono scada scadrà scadeva scadendo scadranno scadesse scadde scadiamo
+45	5145	infelice	infelice infelici
+46	5146	bolognese	bolognese bolognesi
+47	5147	conferito	conferito conferita conferiti conferite
+48	5148	cassetto	cassetto cassetti cassettino
+49	5149	fifa	fifa fife
+50	5150	sistemazione	sistemazione sistemazioni
+51	5151	scudetto	scudetto scudetti
+52	5152	pastorale	pastorale pastorali
+53	5153	qualificazione	qualificazione qualificazioni
+54	5154	istituire	istituire istituisce istituì istituendo istituiva istituirono istituiscono istituisca istituirà
+55	5155	sella	sella selle
+56	5156	zoo	zoo zo
+57	5157	uguaglianza	uguaglianza eguaglianza uguaglianze
+58	5158	celebrità	celebrità
+59	5159	clan	clan
+60	5160	coach	coach
+61	5161	designer	designer
+62	5162	detective	detective
+63	5163	energetica	energetica
+64	5164	gradualmente	gradualmente
+65	5165	largamente	largamente
+66	5166	laser	laser
+67	5167	mais	mais
+68	5168	parentesi	parentesi
+69	5169	pesantemente	pesantemente
+70	5170	poterlo	poterlo
+71	5171	presumibilmente	presumibilmente
+72	5172	tredici	tredici
+73	5173	reggimento	reggimento reggimenti
+74	5174	preservare	preservare preservato preservata preserva preservate preservando preservati preservano preservi preservò preservarsi preserverà preserviamo preservino
+75	5175	apostolico	apostolica apostolico apostolici apostoliche
+76	5176	veterinario	veterinario veterinaria veterinari veterinarie
+77	5177	tracciare	tracciare tracciando tracciano tracciate tracciava tracciò tracciante tracci traccianti traccio tracciamo tracciarono
+78	5178	proclamare	proclamato proclamare proclami proclamano proclamò proclamando proclamate proclamava proclamarono proclamarsi proclamo proclamavano proclamerà proclamiamo
+79	5179	ipocrita	ipocrita ipocriti ipocrite
+80	5180	dittatore	dittatore dittatori dittatrice
+81	5181	pneumatico	pneumatici pneumatico pneumatica pneumatiche
+82	5182	rilanciare	rilanciare rilancia rilanciato rilanciano rilanciando rilanciate rilanci rilanciamo rilanciò rilanciava rilancerà
+83	5183	guanto	guanti guanto guantoni guantone
+84	5184	appreso	appreso appresa apprese appresi
+85	5185	rinascita	rinascita rinascite
+86	5186	quesito	quesito quesiti
+87	5187	delfino	delfino delfini delfina
+88	5188	rivolgersi	rivolgersi rivolgiti rivolgetevi
+89	5189	guarigione	guarigione guarigioni
+90	5190	sterlina	sterline sterlina
+91	5191	fossile	fossili fossile
+92	5192	clamoroso	clamoroso clamorosa clamorosamente clamorosi clamorose
+93	5193	inganno	inganno inganni
+94	5194	spicco	spicco spicca spicchi
+95	5195	scatenato	scatenato scatenata scatenati scatenate
+96	5196	cranio	cranio crani
+97	5197	fregato	fregato fregata fregati fregate
+98	5198	tacco	tacchi tacco
+99	5199	bambola	bambola bambole bambolina bamboline
+100	5200	diga	diga dighe

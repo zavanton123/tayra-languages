@@ -1,0 +1,100 @@
+1	4401	ligure	ligure liguri
+2	4402	allevamento	allevamento allevamenti
+3	4403	sega	sega seghe
+4	4404	lino	lino lina lini
+5	4405	ostaggio	ostaggio ostaggi
+6	4406	lutto	lutto lutti
+7	4407	geografia	geografia geografie
+8	4408	congratulazione	congratulazioni congratulazione
+9	4409	interrogare	interroga interrogare interrogarsi interrogando interrogano interroghi interrogava interrogo interroghiamo interrogò interrogate interrogarono interrogherà interrogavano interrogante interrogavo interrogheranno interroghino interroganti
+10	4410	farmacia	farmacia farmacie
+11	4411	veleno	veleno veleni veneno
+12	4412	orlare	orlando orla orlate orlato orlan orli
+13	4413	becco	becco becchi
+14	4414	accessorio	accessori accessorio accessorie accessoria
+15	4415	canadese	canadese canadesi
+16	4416	ricavato	ricavato ricavati ricavata ricavate
+17	4417	dimora	dimora dimore
+18	4418	vigilia	vigilia vigilie
+19	4419	sfigato	sfigato sfigati sfigata sfigate
+20	4420	stereotipo	stereotipi stereotipo
+21	4421	annettere	annesso annessi annesse annette annettere annetta annettersi annetti annettendo annetto
+22	4422	soffocare	soffocare soffocato soffocata soffocando soffocante soffoca soffocati soffocate soffocano soffocava soffocanti soffoco soffochi soffocò soffochiamo soffocavano
+23	4423	silvia	silvia silvie
+24	4424	cardiaco	cardiaco cardiaca cardiaci cardiache
+25	4425	competitivo	competitivo competitiva competitivi competitive
+26	4426	incertezza	incertezza incertezze
+27	4427	transazione	transazioni transazione
+28	4428	fluido	fluido fluidi fluida fluide
+29	4429	maturare	maturato maturare matura maturi maturate maturando maturano maturandi maturò maturerà maturino maturarono matureranno maturava
+30	4430	limone	limone limoni
+31	4431	coerenza	coerenza coerenze
+32	4432	gaetano	gaetano gaetani gaetana
+33	4433	indirizzato	indirizzata indirizzato indirizzati indirizzate
+34	4434	ducato	ducati ducato
+35	4435	umore	umore umori umor
+36	4436	menzogna	menzogna menzogne
+37	4437	matrice	matrice matrici
+38	4438	ostacolo	ostacolo
+39	4439	segui	segui
+40	4440	stand	stand
+41	4441	approfondimento	approfondimento approfondimenti
+42	4442	chirurgico	chirurgico chirurgica chirurgiche chirurgici
+43	4443	circostante	circostante circostanti
+44	4444	apportare	apportare apportate apportato apporta apportando apportano apporti apportò apportarono apporterà apportava apporterebbe
+45	4445	rinnovo	rinnovo rinnovi
+46	4446	convertito	convertito convertiti convertita convertite
+47	4447	tappeto	tappeto tappeti
+48	4448	pochino	pochino pochini
+49	4449	indiretto	indiretto indiretta indiretti indirette
+50	4450	illecito	illecito illeciti illecite illecita
+51	4451	stimolo	stimoli stimolo
+52	4452	microfono	microfono microfoni
+53	4453	orizzonte	orizzonte orizzonti
+54	4454	tremare	tremare trema tremando tremano tremo tremante tremava tremavano tremato tremi tremate tremanti tremavo tremò tremar tremerà
+55	4455	ottica	ottica ottiche
+56	4456	errato	errata errato errate errati
+57	4457	prefettura	prefettura prefetture
+58	4458	fortezza	fortezza fortezze
+59	4459	delinquente	delinquenti delinquente
+60	4460	larghezza	larghezza larghezze
+61	4461	carolino	carolina caroline carolino carolini
+62	4462	gabbia	gabbia gabbie gabbietta
+63	4463	navale	navale navali
+64	4464	insolito	insolito insolita insoliti insolite
+65	4465	decente	decente decenti
+66	4466	sparso	sparso sparta sparsa sparsi sparse sparti sparto
+67	4467	manoscritto	manoscritto manoscritti manoscritta manoscritte
+68	4468	ferroviaria	ferroviaria ferroviarie
+69	4469	sostanziale	sostanziale sostanziali
+70	4470	irlandese	irlandese irlandesi
+71	4471	giustificazione	giustificazione giustificazioni
+72	4472	organizzativo	organizzativa organizzativo organizzative organizzativi
+73	4473	cipolla	cipolla cipolle cipollina cipolline cipollone cipolloni
+74	4474	cabina	cabina cabine
+75	4475	ecologico	ecologica ecologico ecologici ecologiche
+76	4476	fattoria	fattoria fattorie
+77	4477	piemontese	piemontese piemontesi
+78	4478	interiore	interiore interiori
+79	4479	saga	saga saghe
+80	4480	sete	sete seti
+81	4481	maratona	maratona maratone
+82	4482	magazine	magazine magazines
+83	4483	ripetizione	ripetizione ripetizioni
+84	4484	scivolare	scivolare scivola scivolo scivolando scivolato scivoli scivolano scivolò scivolate scivolava scivolarono scivolino scivolasse scivolavano scivoliamo scivolerà
+85	4485	uva	uva uve uvetta uvette
+86	4486	sordo	sordi sordo sorda sorde
+87	4487	impressionante	impressionante impressionanti
+88	4488	canonico	canonico canonici canonica canoniche
+89	4489	meritato	meritato meritata meritate meritati meritatissimo
+90	4490	piazzare	piazzato piazzare piazzati piazzano piazzate piazzi piazzo piazzando piazzarsi piazzò piazziamo piazzava piazzerà piazzarono
+91	4491	esigere	esige esigere esigente esigo esigono esigenti esigeva esigendo esigiamo esigevano esigi esigerà esiga
+92	4492	gigantesco	gigantesco gigantesca gigantesche giganteschi
+93	4493	spessore	spessore spessori
+94	4494	ungherese	ungherese ungheresi
+95	4495	attualità	attualità
+96	4496	complessità	complessità
+97	4497	legalmente	legalmente
+98	4498	sci	sci
+99	4499	tutt'altro	tutt'altro
+100	4500	wifi	wifi

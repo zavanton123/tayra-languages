@@ -1,0 +1,100 @@
+1	7501	ripercorrere	ripercorre ripercorrere ripercorso ripercorrendo ripercorriamo ripercorrono ripercorse ripercorreva ripercorsi
+2	7502	velare	velata velato velate velino velati velare velari veli
+3	7503	falcone	falcone falconi
+4	7504	inquinante	inquinanti inquinante
+5	7505	decisionale	decisionale decisionali
+6	7506	seriale	seriale seriali
+7	7507	astronauta	astronauta astronauti
+8	7508	corvo	corvo corvi corbo
+9	7509	sublime	sublime sublimi
+10	7510	gareggiare	gareggiare gareggiato gareggia gareggiano gareggiando gareggiava gareggiavano gareggiarono gareggiò gareggerà gareggi gareggio gareggeranno
+11	7511	annoiato	annoiato annoiata annoiati annoiate
+12	7512	serratura	serratura serrature
+13	7513	controllore	controllore controllori
+14	7514	sabina	sabina sabine
+15	7515	finzione	finzione finzioni
+16	7516	vulcanico	vulcanica vulcaniche vulcanico vulcanici
+17	7517	intrinseco	intrinseca intrinseco intrinseche intrinseci
+18	7518	accelerazione	accelerazione accelerazioni accellerazione
+19	7519	commemorazione	commemorazione commemorazioni
+20	7520	raso	raso rasa rasi rase
+21	7521	rassicurare	rassicurare rassicura rassicurato rassicurati rassicurano rassicuri rassicurava rassicurò rassicurando rassicuro
+22	7522	accordato	accordato accordati accordata accordate
+23	7523	preesistente	preesistente preesistenti
+24	7524	incollato	incollati incollato incollata incollate
+25	7525	brillare	brillare brillano brillato brillava brillavano brillerà brillando brillò brillarono brillino
+26	7526	recinto	recinto recinti
+27	7527	qualitativo	qualitativo qualitativa qualitativi qualitative
+28	7528	cappuccio	cappuccio cappucci
+29	7529	carpo	carpi carpo
+30	7530	esente	esente esenti essente
+31	7531	spogliatoio	spogliatoio spogliatoi
+32	7532	ovale	ovale ovali
+33	7533	spaziare	spaziano spazia spaziando spaziare spazi spaziato spaziava spaziavano spaziate spaziò
+34	7534	questura	questura questure
+35	7535	raffreddore	raffreddore raffreddori
+36	7536	bruto	bruto bruti bruta brute
+37	7537	battezzare	battezzato battezzare battezza battezzò battezzate battezzo battezzando battezzarono battezzano battezzarsi battezzava battezzi battezziamo
+38	7538	menare	menare menato menano menate meni menando menava menino menavano menar meniamo menai
+39	7539	lucano	lucano lucani lucana lucane
+40	7540	risotto	risotto risotti risottino
+41	7541	infetto	infetto infetti infette infetta
+42	7542	matricola	matricola matricole
+43	7543	tuffo	tuffo tuffi
+44	7544	minatore	minatori minatore
+45	7545	merenda	merenda merende
+46	7546	scioccato	scioccata scioccato scioccati scioccate
+47	7547	ambientazione	ambientazione ambientazioni
+48	7548	equipaggiamento	equipaggiamento equipaggiamenti
+49	7549	alma	alma alme
+50	7550	macello	macello macelli
+51	7551	trascurabile	trascurabile trascurabili
+52	7552	buttata	buttata buttate
+53	7553	bibliotecario	bibliotecario bibliotecari bibliotecaria
+54	7554	restringere	restringere restringe restringono restringendo restringersi restrinse restringeva restringiamo restringa restringerà restringi
+55	7555	manzo	manzo manzi
+56	7556	presiedere	presieduto presiedere presiedeva presiederà presiedette presiedendo presiedevano
+57	7557	sterminio	sterminio stermini
+58	7558	cacciata	cacciata cacciate
+59	7559	sottoscrizione	sottoscrizione sottoscrizioni
+60	7560	affidabilità	affidabilità
+61	7561	all'istante	all'istante
+62	7562	assist	assist
+63	7563	assurdità	assurdità
+64	7564	avergli	avergli
+65	7565	balcano	balcani
+66	7566	baviera	baviera
+67	7567	culmine	culmine
+68	7568	driver	driver
+69	7569	illegalmente	illegalmente
+70	7570	metterli	metterli
+71	7571	moderazione	moderazione
+72	7572	oggigiorno	oggigiorno
+73	7573	quiz	quiz
+74	7574	romanticismo	romanticismo
+75	7575	scooter	scooter
+76	7576	screenshot	screenshot
+77	7577	sensibilizzazione	sensibilizzazione
+78	7578	stock	stock
+79	7579	sussistenza	sussistenza
+80	7580	tabù	tabù
+81	7581	thread	thread
+82	7582	trash	trash
+83	7583	trovarti	trovarti
+84	7584	trust	trust
+85	7585	voga	voga
+86	7586	yacht	yacht
+87	7587	adempimento	adempimento adempimenti
+88	7588	acquatico	acquatico acquatici acquatiche acquatica
+89	7589	elemosina	elemosina elemosine
+90	7590	pendolare	pendolari pendolare pendolino pendola pendoli
+91	7591	pregiato	pregiati pregiato pregiata pregiate pregiatissimo
+92	7592	tatto	tatto tatti
+93	7593	soprannominato	soprannominato soprannominata soprannominati soprannominate
+94	7594	piceno	piceno picena piceni picene
+95	7595	finirla	finirla finiamola finitela finiscila
+96	7596	cecchino	cecchini cecchino
+97	7597	curia	curia curie
+98	7598	formidabile	formidabile formidabili
+99	7599	gradevole	gradevole gradevoli
+100	7600	ambientalista	ambientalista ambientalisti ambientaliste

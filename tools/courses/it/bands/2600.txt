@@ -1,0 +1,100 @@
+1	2501	oscuro	oscuro oscura oscuri oscure
+2	2502	business	business
+3	2503	dirti	dirti
+4	2504	maggiormente	maggiormente
+5	2505	okay	okay
+6	2506	ovest	ovest
+7	2507	perfino	perfino
+8	2508	privacy	privacy
+9	2509	staff	staff
+10	2510	vederlo	vederlo
+11	2511	erba	erba erbe
+12	2512	dono	dono doni
+13	2513	scambiare	scambiare scambiato scambiano scambiati scambia scambiarsi scambi scambiate scambiando scambiamo scambiarono scambiavano scambiò scambiava scambino scambierei scambieranno scambiamoci scambiavamo scambiammo scambierà scambierebbe scambieremo scambieresti scambiasse
+14	2514	esperimento	esperimento esperimenti
+15	2515	calma	calma calme
+16	2516	studioso	studiosi studioso studiosa studiose
+17	2517	deposito	deposito depositi
+18	2518	mettersi	mettersi mettetevi mettiamoci
+19	2519	curva	curva curve
+20	2520	restituire	restituire restituito restituisce restituite restituendo restituiscono restituisca restituisci restituì restituirà restituisco restituiamo restituiva restituirono restituiranno restituisse restituiremo restituiscano restituirò restituirai restituirebbe restituivano
+21	2521	lucio	lucia lucio luci
+22	2522	innovazione	innovazione innovazioni
+23	2523	suolo	suolo suoli suol
+24	2524	gridare	gridare grida gridando gridano gridato gridava gridavano gridò gridai gridi gridate gridiamo gridarono grideranno gridavo griderà griderò gridasse gridavi
+25	2525	patata	patate patatine patata patatina
+26	2526	fotografico	fotografica fotografico fotografiche fotografici
+27	2527	disperato	disperato disperata disperati disperate disperatissimo
+28	2528	cognome	cognome cognomi
+29	2529	innocente	innocenti innocente
+30	2530	sciopero	sciopero scioperi
+31	2531	autorizzazione	autorizzazione autorizzazioni
+32	2532	islamico	islamico islamici islamica islamiche
+33	2533	scavare	scavi scavare scavo scavato scavando scava scavate scavano scavò scavava scavarono scaviamo scavavano scavino scaverà
+34	2534	seduto	seduto seduti sedute
+35	2535	tasca	tasca tasche
+36	2536	lancia	lancia lance
+37	2537	gloria	gloria glorie
+38	2538	sconfitta	sconfitta sconfitte
+39	2539	sereno	serena sereno sereni serene serenissimo
+40	2540	ramo	ramo rami ramoscello
+41	2541	lavorativo	lavorativa lavorativo lavorative lavorativi
+42	2542	diavolo	diavolo diavoli diavoletto diavoletti
+43	2543	specializzato	specializzato specializzata specializzati specializzate
+44	2544	sollevare	sollevato sollevare solleva sollevate sollevando sollevano sollevarsi sollevò sollevi sollevo sollevarono sollevava solleverà solleviamo solleverò sollevavano solleverebbe sollevai sollevasse solleveranno
+45	2545	solido	solido solida solidi solide solidissima solidissimo solidissime
+46	2546	civico	civico civica civici civiche
+47	2547	esteri	esteri
+48	2548	solitamente	solitamente
+49	2549	talvolta	talvolta
+50	2550	addetto	addetti addetto addetta addette
+51	2551	preoccupato	preoccupato preoccupata preoccupati preoccupate preoccupatissimo preoccupatissimi preoccupatissima
+52	2552	deserto	deserto deserta deserti deserte diserta
+53	2553	assistente	assistente assistenti
+54	2554	divertire	diverte divertendo divertire divertono diverto diverti divertiamo divertiva divertivo diverta divertite divertiremo divertivano divertano divertirai divertirà divertirò divertiranno divertivamo divertirei divertirete divertisse divertì divertivi divertiate divertii divertirono divertissero
+55	2555	inchiesta	inchiesta inchieste
+56	2556	calcolo	calcolo calcoli
+57	2557	minacciare	minacciato minacciare minacciando minacciano minacciava minacciate minacci minacciavano minacciò minacciarono minaccio minacciasse minaccino minaccerà minaccerebbe
+58	2558	riga	righe riga
+59	2559	caratteristico	caratteristiche caratteristico caratteristici
+60	2560	comparire	compaiono comparire comparso comparve comparsi compariva comparse comparirà comparendo comparvero compaia compariranno compari comparivano compaiano comparisse compaio comparissero comparì compariamo comparirebbe comparirono
+61	2561	cellula	cellule cellula
+62	2562	documentario	documentario documentari documentaria documentarie
+63	2563	furto	furto furti
+64	2564	milanese	milanese milanesi
+65	2565	magnifico	magnifico magnifica magnifici magnifiche
+66	2566	corrispondente	corrispondente corrispondenti
+67	2567	previsione	previsioni previsione
+68	2568	margine	margine margini
+69	2569	ingegnere	ingegnere ingegneri ingegner ingegnera
+70	2570	borgo	borgo borghi borghetto borghetti borghigiani borghigiano
+71	2571	presunto	presunta presunto presunti presunte
+72	2572	torta	torta torte
+73	2573	vestire	vestire vestiti vestirsi vestono vesti vesto vesta vestiva vestendo vestì vestite vestivano vestirà vestitevi vestiamo vestivo vestiranno vestano vestisse vestirono vestirai vestirò vestii vestivi vestirei vestir vestiamoci vestiremo
+74	2574	averla	averla averle velia verla
+75	2575	versare	versare versante versa versano versava versando versanti versate versi versò versavano versiamo verserà verseranno versino versarsi verserò versarono versatevi versasse versai verserete verserebbe
+76	2576	cacciare	cacciato cacciare cacciati cacciano cacciando cacci cacciate caccio cacciò cacciar cacciamo cacciarono cacciarsi cacciava caccerà cacciavano caccino cacciasse cacciassero cacceremo caccerebbe caccerei cacceranno caccerò
+77	2577	mentire	mentire mento menta mentito mentendo mentono mentite menti mentiva mentirei mentì mentivo mentii mentano mentiamo mentirò mentirà mentivano mentirebbe mentisse
+78	2578	requisito	requisiti requisito requisite requisita
+79	2579	seno	seno seni sen
+80	2580	rilievo	rilievo rilievi
+81	2581	liquido	liquido liquidi liquida liquide
+82	2582	laureato	laureato laureati laureata laureate
+83	2583	scuro	scuro scura scuri scure
+84	2584	equilibrio	equilibrio equilibri
+85	2585	sacrificio	sacrificio sacrifici sacrifizio
+86	2586	allarme	allarme allarmi
+87	2587	sporco	sporco sporca sporchi sporche sporchissimo
+88	2588	abitazione	abitazioni abitazione
+89	2589	insegna	insegna insegne
+90	2590	revisione	revisione revisioni
+91	2591	acceso	acceso accesa accese accesi
+92	2592	indipendenza	indipendenza indipendenze
+93	2593	insegnamento	insegnamento insegnamenti
+94	2594	pulizia	pulizia pulizie
+95	2595	imposta	imposta imposte
+96	2596	creatura	creature creatura creaturina creaturine
+97	2597	fissato	fissato fissata fissati fissate
+98	2598	audio	audio
+99	2599	autobus	autobus
+100	2600	bonus	bonus

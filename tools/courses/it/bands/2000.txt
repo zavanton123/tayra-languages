@@ -1,0 +1,100 @@
+1	1901	nominato	nominato nominati nominata nominate
+2	1902	fabbrica	fabbrica fabbriche fabbrichetta
+3	1903	africo	africa africo
+4	1904	conversazione	conversazione conversazioni
+5	1905	assistenza	assistenza assistenze
+6	1906	birra	birra birre birretta birrette
+7	1907	chissà	chissà
+8	1908	facoltà	facoltà
+9	1909	generalmente	generalmente
+10	1910	referendum	referendum
+11	1911	sapete	sapete
+12	1912	successivamente	successivamente
+13	1913	tesi	tesi
+14	1914	tocca	tocca
+15	1915	emozione	emozioni emozione
+16	1916	spiegazione	spiegazione spiegazioni
+17	1917	modifica	modifiche modifica
+18	1918	denuncia	denuncia denunce denuncie denunzia
+19	1919	stima	stima stime
+20	1920	manco	manco manchi manche
+21	1921	altezza	altezza altezze
+22	1922	destino	destino destini
+23	1923	sorgere	sorge sorgere sorto sorgono sorti sorgeva sorse sorsero sorgerà sorgo sorgevano sorgendo sorga sorgi sorsi sorgeranno sorgesse sorgano sorgessero sorgon sorgete sorgerebbe
+24	1924	laurea	laurea lauree
+25	1925	bandiera	bandiera bandiere bandierina bandierine
+26	1926	svolta	svolta svolte
+27	1927	splendido	splendida splendido splendide splendidi
+28	1928	statunitense	statunitense statunitensi
+29	1929	valutazione	valutazione valutazioni
+30	1930	sposato	sposato sposata sposati sposate
+31	1931	scontro	scontro scontri
+32	1932	cavo	cavo cavi cava cave
+33	1933	subire	subire subisce subiscono subendo subìto subì subirà subirono subisca subiranno subiva subiamo subiscano subivano subisco subite subisci subirebbe subisse subìte subirai subiremo subirebbero subissero subirete
+34	1934	banda	banda bande
+35	1935	individuale	individuale individuali
+36	1936	matematica	matematica matematiche
+37	1937	fascista	fascista fascisti fasciste
+38	1938	ebreo	ebrei ebreo ebrea ebree
+39	1939	ufficialmente	ufficialmente
+40	1940	costume	costume costumi
+41	1941	pioggia	pioggia piogge pioggie
+42	1942	ritenuto	ritenuto ritenuta ritenuti ritenute
+43	1943	immediato	immediato immediata immediate immediati
+44	1944	segnare	segna segnare segni segnano segnando segnò segnava segnerà segnate segnarono segneranno segnavano segnerebbe segnatevi segnarsi segniamo segnasse segnino segnai segnante segneremo
+45	1945	turco	turco turchi turca turche
+46	1946	giustificare	giustificare giustifica giustificato giustificata giustificano giustificati giustificate giustifichi giustificarsi giustificando giustificò giustifico giustificherebbe giustificava giustifichino giustificherà giustificavano giustificasse giustifichiamo giustificarono giustificherebbero giustificassero
+47	1947	garanzia	garanzia garanzie
+48	1948	tempio	tempio templi tempi templo
+49	1949	fuggire	fuggire fugge fuggito fuggono fuggi fuggendo fuggì fuggirono fuggite fuggivano fuggiva fuggente fuggo fuggiamo fuggirà fuggano fuggiranno fuggisse fuggir fuggii fuggivo fugga fuggirei fuggenti fuggirò
+50	1950	regista	regista registi registe
+51	1951	sbaglio	sbaglio sbagli
+52	1952	maglia	maglia maglie
+53	1953	boh	boh bo
+54	1954	altrettanto	altrettanto altrettanti altrettante altrettanta
+55	1955	apprezzare	apprezzare apprezzo apprezza apprezzano apprezzi apprezziamo apprezzate apprezzando apprezzava apprezzerà apprezzeranno apprezzerei apprezzerai apprezzò apprezzavo apprezzavano apprezzino apprezzerebbe apprezzarono apprezzerebbero apprezzerete apprezzasse apprezzai apprezzar
+56	1956	dialogo	dialogo dialoghi
+57	1957	ordinare	ordinare ordina ordinò ordini ordino ordinando ordinate ordinano ordiniamo ordinava ordinarono ordinerà ordinerò ordinai ordinasse ordinavano ordinante ordinavo ordinassi ordineranno
+58	1958	opzione	opzione opzioni
+59	1959	finora	finora sinora
+60	1960	svizzera	svizzera svizzere
+61	1961	seme	semi seme
+62	1962	letterario	letterario letteraria letterarie letterari
+63	1963	meritare	meritano meritava meritare meritiamo meriterebbe meritavano meriterebbero merita meritarsi meriti meritino meritate meritasse meritavo meriteresti meritavi meritò meritando meritavamo meritassi meriterà meriterei meritassero meritereste meritavate meritarono
+64	1964	terribile	terribile terribili
+65	1965	segnale	segnale segnali
+66	1966	cronaca	cronaca cronache
+67	1967	cantante	cantante cantanti
+68	1968	mappa	mappa mappe
+69	1969	interpretare	interpretato interpretare interpreta interpretando interpretano interpretate interpretava interpreto interpreterà interpretò interpretiamo interpretavano interpretarono interpretasse interpreteranno interpretino
+70	1970	pregare	pregare prega preghiamo pregato pregando pregate pregano pregava pregherò pregò pregavano pregherei pregavo pregai preghi pregarono pregherà pregheremo pregasse pregheranno preghino pregassi
+71	1971	diffusione	diffusione diffusioni
+72	1972	invitato	invitato invitati invitata invitate
+73	1973	avventura	avventura avventure
+74	1974	tiro	tiro tiri
+75	1975	consigliere	consigliere consiglieri consigliera
+76	1976	meridionale	meridionale meridionali
+77	1977	opposizione	opposizione opposizioni
+78	1978	probabile	probabile probabili
+79	1979	scherzo	scherzo scherzi
+80	1980	riguardante	riguardanti riguardante
+81	1981	dibattito	dibattito dibattiti
+82	1982	rimuovere	rimuovere rimosso rimossi rimosse rimuove rimuovendo rimuovi rimuovono rimuovo rimuoviamo rimuovete rimuova rimuoverà rimossero rimuoveva rimuovano rimuoveranno rimuoversi
+83	1983	diffondere	diffondere diffonde diffuse diffondersi diffusi diffondendo diffondono diffondete diffonda diffondi diffondeva diffusero diffondevano diffonderà diffondesse diffondiamo diffondano diffonderanno diffondessero diffondo
+84	1984	attaccato	attaccato attaccata attaccati attaccate
+85	1985	onesto	onesto onesti onesta oneste onestissimo
+86	1986	tensione	tensione tensioni
+87	1987	pasta	pasta paste
+88	1988	riflessione	riflessione riflessioni
+89	1989	gettare	getta gettare gettato getto getti gettando gettano gettate gettò gettarsi gettarono gettiamo gettava gettavano gettar getterà gettai gettino getterò getteranno gettasse getterebbe gettassero getterebbero
+90	1990	collettivo	collettivo collettiva collettivi collettive
+91	1991	riservato	riservato riservata riservati riservate
+92	1992	accedere	accedere accede accedono accedi accedendo accedeva accedo acceda acceduto accederanno accederà accedete accedano accedevano accediamo
+93	1993	riduzione	riduzione riduzioni
+94	1994	compleanno	compleanno compleanni
+95	1995	cittadinanza	cittadinanza cittadinanze
+96	1996	finta	finta finte
+97	1997	continente	continente contenente continentale continenti continentali
+98	1998	aggiornato	aggiornato aggiornata aggiornati aggiornate aggiornatissimo aggiornatissima
+99	1999	decisamente	decisamente
+100	2000	colazione	colazione colazioni

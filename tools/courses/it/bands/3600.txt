@@ -1,0 +1,100 @@
+1	3501	dargli	dargli
+2	3502	eredità	eredità
+3	3503	esserlo	esserlo
+4	3504	innanzitutto	innanzitutto
+5	3505	lord	lord
+6	3506	parità	parità
+7	3507	play	play
+8	3508	prevalentemente	prevalentemente
+9	3509	spot	spot
+10	3510	recitare	recitare recitato recitava recitando recitano recitate recitò reciti recito reciterà recitavano recitante recitiamo recitarono recitasse recitanti reciteranno reciterò recitar recitavo
+11	3511	spento	spento spenta spente spenti
+12	3512	scoppiare	scoppiare scoppia scoppiò scoppiato scoppiano scoppi scoppiando scoppierà scoppiasse scoppiati scoppiarono scoppiate scoppiava scoppiavano scoppierebbe scoppieranno scoppiassero scoppino scoppiamo
+13	3513	vaffanculo	vaffanculo affanculo vaffa
+14	3514	denominato	denominato denominata denominati denominate
+15	3515	drago	drago draghi draco
+16	3516	portafoglio	portafoglio portafogli
+17	3517	bugia	bugie bugia
+18	3518	panino	panino panini
+19	3519	fidare	fidare fidati fidato fidano fidata fidate fidi fidiamo fidava fiderei fidavo fidando fidavano fidasse fiderà fiderò fideresti fidassi fidan fidavi fidino fidatissimo fiderai fiderebbe
+20	3520	riassunto	riassunto riassunti riassunta riassunte
+21	3521	osare	osato osare oserei osa osi osano osate osiamo oserebbe oserà osava osarono osò osavo osando osasse osassero osavano oseranno osar osai oserebbero oseremmo osino
+22	3522	viaggiatore	viaggiatori viaggiatore viaggiatrice
+23	3523	alunno	alunni alunno alunna alunne
+24	3524	goccia	goccia gocce gocciole goccioline gocciola gocciolina
+25	3525	pensarci	pensarci pensaci
+26	3526	grido	grido grida gridi
+27	3527	ribadire	ribadito ribadire ribadisce ribadisco ribadendo ribadiscono ribadì ribadiamo ribadiva ribadite ribadirà ribadirono
+28	3528	allegro	allegro allegra allegri allegre allegretti allegretto
+29	3529	integrale	integrale integrali
+30	3530	orso	orso orsi orsa orsacchiotto orsacchiotti
+31	3531	biscotto	biscotti biscotto biscottini biscottino
+32	3532	offendere	offendere offende offendono offese offesi offendo offendi offenda offendendo offendersi offendete offendeva offenderebbe offenderà offendano offendiamo offendesse offenderei offendevano offenderanno offendetevi offendessero offenderò
+33	3533	istituito	istituito istituita istituiti istituite
+34	3534	litro	litri litro nitro
+35	3535	autunno	autunno autunni
+36	3536	tradimento	tradimento tradimenti
+37	3537	decorazione	decorazione decorazioni
+38	3538	remoto	remoto remota remote remoti
+39	3539	rubrica	rubrica rubriche
+40	3540	seggio	seggi seggio
+41	3541	aquila	aquila aquile
+42	3542	votazione	votazione votazioni
+43	3543	parametro	parametri parametro
+44	3544	maiale	maiale maiali maiala
+45	3545	frazione	frazione frazioni
+46	3546	lama	lama lame
+47	3547	ragionamento	ragionamento ragionamenti
+48	3548	domandare	domando domandato domandare domandano domandando domandarsi domandò domandi domandiamo domandavo domandava domandate domandai domandarono domanderanno domandavano domanderà domandasse domanderò domandatevi domanderete dimandare domandavamo domandiamoci domanderei
+49	3549	elementari	elementari
+50	3550	farvi	farvi
+51	3551	gioventù	gioventù
+52	3552	ingegneria	ingegneria
+53	3553	match	match
+54	3554	neo	neo
+55	3555	pantaloni	pantaloni
+56	3556	trend	trend
+57	3557	virginia	virginia
+58	3558	truffa	truffa truffe
+59	3559	margherita	margherita margarita margherite
+60	3560	divorzio	divorzio divorzi
+61	3561	emotivo	emotivo emotiva emotivi emotive
+62	3562	filtro	filtro filtri
+63	3563	palese	palese palesemente palesi
+64	3564	disoccupato	disoccupati disoccupato disoccupata disoccupate
+65	3565	rilascio	rilascio rilasci
+66	3566	affidabile	affidabile affidabili
+67	3567	nono	nono nona none noni
+68	3568	derivante	derivanti derivante
+69	3569	carbone	carbone carboni
+70	3570	tramonto	tramonto tramonti
+71	3571	telefonata	telefonata telefonate
+72	3572	fallire	fallire fallisce fallendo falliscono fallisca fallì fallirà fallisci fallirono fallite fallisse falliranno fallisco falliamo fallirebbe falliva falliscano fallivano fallirai fallirò fallissero
+73	3573	replica	replica repliche
+74	3574	ideologia	ideologia ideologie
+75	3575	verticale	verticale verticali
+76	3576	retorica	retorica retoriche
+77	3577	confessare	confessare confessato confessa confessando confessò confessano confessarsi confessi confesserà confessate confessasse confessava confessiamo confesserò confessarono confessai
+78	3578	nominare	nominare nominò nomini nomino nominando nominano nominava nominate nominerà nominarono nominiamo nomineranno nominerò nominasse nominavano nomineremo nominerai
+79	3579	divertirsi	divertirsi divertiti divertitevi divertiamoci
+80	3580	copiare	copiare copiato copiata copio copiando copiati copiate copiano copi copiò copiava copiamo copiavano copierò copiavo copierà copino
+81	3581	improvviso	improvviso improvvisa improvvisi improvvise
+82	3582	navigazione	navigazione navigazioni
+83	3583	assorbire	assorbire assorbito assorbe assorbenti assorbente assorbono assorbendo assorbite assorto assorta assorba assorti assorbì assorbirà assorbiva assorbi assorbirono assorbano assorbivano assorbo assorbiranno
+84	3584	amaro	amaro amara amari amarissimo
+85	3585	assente	assente assenti
+86	3586	periodico	periodico periodici periodica periodiche
+87	3587	accento	accento accenti
+88	3588	precisare	precisare precisato precisa precisi precisando precisiamo precisano precisò precisate precisava precisino
+89	3589	baciare	baciare baciato baciano baci baciarsi baciati bacia baciando baciò baciava baciate baciamo baciai baciavano bacerei bacerò baciavo baciatevi bacerà baciasse baciar bacerai baceranno baciammo baciassi baciavamo baceresti baciarono
+90	3590	incremento	incremento incrementi
+91	3591	preventivo	preventivo preventiva preventivi preventive
+92	3592	sorgente	sorgente sorgenti
+93	3593	sprecare	sprecare sprecato sprechi spreca sprecate sprecano sprecando sprechiamo sprecherei sprecherò sprecavano
+94	3594	efficiente	efficiente efficienti efficente efficientissimo
+95	3595	cesso	cesso cessa cessi cesse
+96	3596	muoversi	muoversi muovetevi muoviamoci
+97	3597	inevitabile	inevitabile inevitabili
+98	3598	impiegare	impiegare impiega impiegano impiegando impiegate impiegò impieghi impiegherà impiegava impiegarono impiegavano impiegheranno impiegherebbe impiegarsi impieghiamo impieghino impiegavo impiegasse impiegherai impiegherò impiegheremo
+99	3599	velo	velo veli
+100	3600	saldo	saldo saldi saldamente salda salde

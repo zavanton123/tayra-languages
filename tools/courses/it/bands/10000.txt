@@ -1,0 +1,100 @@
+1	9901	accuratezza	accuratezza
+2	9902	ambedue	ambedue
+3	9903	appeal	appeal
+4	9904	berti	berti
+5	9905	bingo	bingo
+6	9906	cinquantina	cinquantina
+7	9907	cinquemila	cinquemila
+8	9908	colera	colera
+9	9909	comprarlo	comprarlo
+10	9910	conoscerla	conoscerla
+11	9911	disparte	disparte
+12	9912	ferragosto	ferragosto
+13	9913	idealmente	idealmente
+14	9914	implicitamente	implicitamente
+15	9915	insonnia	insonnia
+16	9916	malware	malware
+17	9917	miseramente	miseramente
+18	9918	padronanza	padronanza
+19	9919	severamente	severamente
+20	9920	testimonial	testimonial
+21	9921	trovandosi	trovandosi
+22	9922	tsunami	tsunami
+23	9923	underground	underground
+24	9924	finocchio	finocchio finocchi
+25	9925	capitalistico	capitalistico capitalistica capitalistici capitalistiche
+26	9926	psicoanalisi	psicoanalisi psicanalisi
+27	9927	leucemia	leucemia leucemie
+28	9928	bagagliaio	bagagliaio bagagliai
+29	9929	inginocchiarsi	inginocchiati inginocchiato inginocchiarsi inginocchia inginocchiano inginocchiò inginocchiate inginocchio inginocchi inginocchiatevi inginocchiandosi inginocchiarmi
+30	9930	imperativo	imperativo imperativi imperativa imperative
+31	9931	moltiplicato	moltiplicato moltiplicati moltiplicata moltiplicate
+32	9932	azionare	azionare azionato azioni aziona azionate azionando azionano azionava aziono
+33	9933	squalifica	squalifica squalifiche
+34	9934	adibire	adibito adibite adibire
+35	9935	versetto	versetto versetti
+36	9936	locomotiva	locomotiva locomotive
+37	9937	malsano	malsana malsano malsane malsani
+38	9938	calcestruzzo	calcestruzzo calcestruzzi
+39	9939	indebito	indebita indebite indebito indebiti
+40	9940	franchigia	franchigia franchigie
+41	9941	ventaglio	ventaglio ventagli
+42	9942	allucinante	allucinante allucinanti
+43	9943	maltrattare	maltrattato maltrattate maltratta maltrattare maltrattano maltrattava maltratti maltrattavano maltrattando maltratto
+44	9944	bastione	bastione bastioni
+45	9945	lamiera	lamiere lamiera
+46	9946	libbra	libbre libbra
+47	9947	resuscitare	resuscitare resuscitato resuscita risuscitare resuscitò resuscitate resuscitano resuscitando
+48	9948	nerazzurro	nerazzurri nerazzurro nerazzurra nerazzurre neroazzurro
+49	9949	vertere	verte verteva vertono verta vertere vertente verterà vertevano verti vertenti verter
+50	9950	disabilitare	disabilitare disabilitato disabilita disabilitati disabilitata disabilitando disabilitate disabiliti
+51	9951	caloroso	caloroso calorosa calorosi calorose
+52	9952	erica	erica eriche
+53	9953	omero	omero omeri
+54	9954	manna	manna manne
+55	9955	altoparlante	altoparlanti altoparlante
+56	9956	santino	santini santino
+57	9957	pipistrello	pipistrello pipistrelli
+58	9958	mongolo	mongoli mongolo mongola mongole
+59	9959	direttorio	direttorio direttori
+60	9960	gastronomia	gastronomia gastronomie
+61	9961	ambo	ambo ambi ambe
+62	9962	ripubblicare	ripubblicato ripubblicare ripubblicate ripubblica ripubblico ripubblicò ripubblichiamo
+63	9963	schianto	schianto schianti
+64	9964	espiatorio	espiatorio espiatori espiatoria
+65	9965	micidiale	micidiale micidiali
+66	9966	batterico	batterica batteriche batterico batterici
+67	9967	imboccare	imboccare imbocca imboccato imbocco imboccando imbocchi imboccano imboccò imboccava imboccate imbocchiamo
+68	9968	attestazione	attestazione attestazioni
+69	9969	orchidea	orchidee orchidea
+70	9970	simultaneo	simultanea simultaneo simultanee simultanei
+71	9971	svelto	svelta svelto svelti svelte
+72	9972	aviazione	aviazione aviazioni
+73	9973	belvedere	belvedere belvederi
+74	9974	deduzione	deduzione deduzioni
+75	9975	sipario	sipario sipari
+76	9976	polmonite	polmonite polmoniti
+77	9977	felino	felino felini felina feline
+78	9978	intenzionale	intenzionale intenzionali
+79	9979	inibire	inibisce inibire inibito inibiscono inibendo inibita inibiti inibite inibente
+80	9980	imprescindibile	imprescindibile imprescindibili
+81	9981	programmatico	programmatico programmatica programmatiche programmatici
+82	9982	udinese	udinese udinesi
+83	9983	surrogato	surrogato surrogata surrogati surrogate
+84	9984	eccedere	eccedere eccedente eccede eccedenti eccedono ecceda ecceduto eccedendo eccedano eccedeva
+85	9985	vincita	vincita vincite
+86	9986	snello	snello snella snelle snelli
+87	9987	penalizzato	penalizzato penalizzati penalizzata penalizzate
+88	9988	sodalizio	sodalizio sodalizi
+89	9989	trasposizione	trasposizione trasposizioni
+90	9990	somalo	somali somalo somala somale
+91	9991	bibliografico	bibliografiche bibliografica bibliografico bibliografici
+92	9992	incontrollato	incontrollata incontrollato incontrollate incontrollati
+93	9993	diagnostica	diagnostica diagnostiche
+94	9994	emarginato	emarginati emarginato emarginata emarginate
+95	9995	plauso	plauso plausi
+96	9996	monito	monito moniti
+97	9997	presuntuoso	presuntuoso presuntuosa presuntuosi presuntuose
+98	9998	calata	calata calate
+99	9999	eludere	eludere eluso elude eludendo eludono eluse elusi
+100	10000	conformazione	conformazione conformazioni

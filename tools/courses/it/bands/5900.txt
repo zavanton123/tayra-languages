@@ -1,0 +1,100 @@
+1	5801	sentirti	sentirti
+2	5802	tralasciare	tralasciando tralasciare tralasciato tralasciamo tralascia tralascio tralasciano tralasciate tralasci tralasciò
+3	5803	abusare	abusato abusare abusa abusano abusando abusate abusava abusò abusavano abusino abusante abusasse abusiamo
+4	5804	revocare	revocare revocato revocata revocate revocati revocando revocò revochi revocano revocava
+5	5805	integrante	integrante integranti
+6	5806	cervo	cervo cervi cerva cerve
+7	5807	meditazione	meditazione meditazioni
+8	5808	verme	verme vermi vermicelli
+9	5809	persiano	persiani persiano persiane persiana
+10	5810	allevare	allevare allevato allevati alleva allevate allevano allevata allevi allevando allevava allevo allevavano allevò alleviamo
+11	5811	sacramento	sacramento sacramenti
+12	5812	arretrato	arretrati arretrato arretrata arretrate
+13	5813	macchinario	macchinari macchinario
+14	5814	aspirante	aspiranti aspirante
+15	5815	portico	portico portici
+16	5816	usanza	usanza usanze
+17	5817	aurora	aurora aurore
+18	5818	escursione	escursione escursioni
+19	5819	ripieno	ripieno ripieni ripiena ripiene
+20	5820	seminare	seminare seminato semini seminano seminando seminati semino seminata seminate seminiamo seminò seminava seminarono
+21	5821	intercettazione	intercettazioni intercettazione
+22	5822	preservativo	preservativo preservativi
+23	5823	antifascista	antifascista antifascisti antifasciste
+24	5824	lima	lima lime limi
+25	5825	crocifisso	crocifisso crocifissi crocifissa crocifisse
+26	5826	rifornimento	rifornimento rifornimenti
+27	5827	schieramento	schieramento schieramenti
+28	5828	ottavo	ottavo ottavi ottave
+29	5829	vetrina	vetrina vetrine
+30	5830	filare	filato filati filare filari filata filino filante filate filava filano filanti fili filini filò filando filerà filavano filerebbe
+31	5831	asino	asino asini asinello asina asine
+32	5832	burocrazia	burocrazia burocrazie
+33	5833	fagiolo	fagioli fagiolo
+34	5834	conduzione	conduzione conduzioni
+35	5835	sceneggiatura	sceneggiatura sceneggiature
+36	5836	perenne	perenne perenni
+37	5837	bussare	bussare bussa bussi bussato busso bussano bussò bussando bussava bussiamo busserà bussate bussarono bussavano bussai
+38	5838	moretto	moretti moretta moretto morette
+39	5839	mole	mole moli
+40	5840	mansione	mansioni mansione
+41	5841	reputare	reputo reputa reputi reputano reputato reputando reputare reputava reputiamo reputate reputavo reputò reputavano reputino reputarsi
+42	5842	adriatico	adriatico adriatica adriatiche adriatici
+43	5843	vegetariano	vegetariani vegetariana vegetariano vegetariane
+44	5844	esportare	esportare esportato esporta esportate esportano esporti esportiamo esportando esportava esportavano esportò esporto
+45	5845	pelliccia	pelliccia pellicce pellice
+46	5846	tartaruga	tartaruga tartarughe tartarughine tartarughina
+47	5847	sbarra	sbarre sbarra
+48	5848	evocare	evoca evocare evocato evocano evocando evocate evochi evocava evoco evocò evocavano evocherà
+49	5849	elencare	elenca elencare elencate elencando elencano elenchi elencava elenchiamo elencò
+50	5850	neutro	neutro neutra neutri neutre
+51	5851	vicario	vicario vicari vicaria vicarie
+52	5852	configurare	configura configurare configurato configurano configurarsi configuri configurando configurate configurava configurerebbe configurò configurino
+53	5853	giovinezza	giovinezza
+54	5854	ivi	ivi
+55	5855	mortalità	mortalità
+56	5856	nova	nova
+57	5857	pierre	pierre
+58	5858	podcast	podcast
+59	5859	preoccuparti	preoccuparti
+60	5860	progressivamente	progressivamente
+61	5861	tram	tram
+62	5862	annoiare	annoia annoio annoiando annoi annoiano annoiare annoiava annoiavo annoierò annoiamo annoiate annoierà annoierai annoierebbe annoiavano annoierei
+63	5863	miscela	miscela miscele
+64	5864	ispezione	ispezione ispezioni
+65	5865	differenziare	differenzia differenziano differenziare differenziarsi differenziando differenzi differenziava differenziavano
+66	5866	cera	cera cere
+67	5867	geometria	geometria geometrie
+68	5868	barbiere	barbiere barbieri
+69	5869	ambiguo	ambiguo ambigua ambigue ambigui
+70	5870	minare	minare minato mino minano minando minino minate minava minò miniate minavano minarono minerà
+71	5871	ficata	figata ficata
+72	5872	accidente	accidenti accidente
+73	5873	virtuoso	virtuoso virtuosi virtuosa virtuose
+74	5874	evasione	evasione evasioni
+75	5875	demo	demo demi
+76	5876	trafficante	trafficanti trafficante
+77	5877	furgone	furgone furgoni
+78	5878	assolto	assolto assolti assolta assolte
+79	5879	avvelenato	avvelenato avvelenata avvelenati avvelenate
+80	5880	arrogante	arrogante arroganti
+81	5881	insorgere	insorgere insorti insorge insorgono insorte insorta insorse insorsero insorto insorgenti insorgano insorgente insorga insorgeranno
+82	5882	intensivo	intensiva intensivo intensive intensivi
+83	5883	cerchia	cerchia cerchie
+84	5884	veronese	veronese veronesi
+85	5885	sudore	sudore sudori
+86	5886	cavalcare	cavalcare cavalca cavalcando cavalcato cavalcanti cavalcano cavalcava cavalcate cavalcò cavalco cavalchi cavalcarono cavalcavano cavalcante cavalchiamo
+87	5887	legislatore	legislatore legislatori legislatrice
+88	5888	sporgere	sporgere sporgenti sporto sporge sporgente sporgono sporta sporgeva sporgendo sporgo sporgevano sporse sporti sporga sporgi sporte
+89	5889	genetico	genetico genetici genetiche
+90	5890	voltare	voltare voltato volti voltarsi voltò voltando voltano voltati voltate voltiamo voltar voltai voltava voltarono voltatevi volterai volterà voltasse voltino voltan
+91	5891	lampo	lampo lampi
+92	5892	striscione	striscione striscioni
+93	5893	ledere	lesa ledere leda lede leso lese lesi ledono ledo ledendo ledi
+94	5894	paterno	paterna paterno paterni paterne
+95	5895	terno	terni terno
+96	5896	prelievo	prelievo prelievi
+97	5897	maresciallo	maresciallo marescialli marescialla
+98	5898	rivivere	rivivere rivive rivivendo rivivono rivissuto rivivo rivivi riviviamo rivissuta rivivrà riviva
+99	5899	alare	ali alo alato alati alare alata alano alate alari alani alana alò alai alino alava
+100	5900	rinomato	rinomato rinomata rinomati rinomate

@@ -1,0 +1,100 @@
+1	3101	guerriero	guerriero guerrieri guerriera guerriere
+2	3102	brasiliano	brasiliano brasiliana brasiliani brasiliane
+3	3103	tifoso	tifosi tifoso tifosa tifose tifosissimo
+4	3104	educare	educare educato educati educata educate educa educando educano educande educarsi educhi educhiamo educò educanda educante educava
+5	3105	home	home
+6	3106	indipendentemente	indipendentemente
+7	3107	line	line
+8	3108	ove	ove
+9	3109	volentieri	volentieri
+10	3110	follia	follia follie
+11	3111	conduttore	conduttore conduttori conduttrice conduttrici
+12	3112	prescindere	prescindere prescinde prescindendo prescindono prescinda
+13	3113	estensione	estensione estensioni
+14	3114	incaricato	incaricato incaricati incaricata incaricate
+15	3115	mollare	mollare mollato mollo molli molle mollano mollate molliamo mollando mollava mollerà mollino mollerò molleranno molleremo mollò mollerei mollai mollerai
+16	3116	integrare	integrare integra integrarsi integro integrando integrano integri integrate integerrimo integre integrino integrava integreranno integrerà integrò integravano integriamo integrasse
+17	3117	soggiorno	soggiorno soggiorni
+18	3118	metropolitana	metropolitana metropolitane
+19	3119	concorrente	concorrenti concorrente
+20	3120	divertimento	divertimento divertimenti
+21	3121	capra	capra capre capri capro capretto capretti capretta caprette
+22	3122	piovere	piove piovere piovono piovendo pioveva piovuto piovana piova piovesse pioverà piovani piovane piovve piovano piovan pioveranno piovevano piovvero piovessero
+23	3123	caos	caos cao
+24	3124	urgente	urgente urgenti urgentissimo
+25	3125	cantiere	cantiere cantieri
+26	3126	accademia	accademia accademie
+27	3127	immobiliare	immobiliare immobiliari
+28	3128	severo	severo severa severe severi severissimo
+29	3129	consulente	consulente consulenti
+30	3130	mortale	mortale mortali mortal
+31	3131	mestiere	mestiere mestieri mestier
+32	3132	litigare	litigare litigato litigano litiga litigando litighiamo litigate litigavano litigava litiganti litigo litighi litigavamo litigarono litigò litigheremo litigheranno litigherà litigavo
+33	3133	cartello	cartello cartelli
+34	3134	mela	mela mele
+35	3135	eco	eco echi
+36	3136	moderato	moderato moderati moderata moderate
+37	3137	comprensione	comprensione comprensioni
+38	3138	architetto	architetto architetti architetta
+39	3139	fontana	fontana fontane
+40	3140	baby	baby
+41	3141	dirmi	dirmi
+42	3142	ehi	ehi
+43	3143	martin	martin
+44	3144	nozze	nozze
+45	3145	profondità	profondità
+46	3146	quindici	quindici
+47	3147	status	status
+48	3148	pregiudizio	pregiudizi pregiudizio
+49	3149	consigliato	consigliato consigliati consigliata consigliate consigliatissimo
+50	3150	ferrovia	ferrovie ferrovia
+51	3151	adozione	adozione adozioni
+52	3152	formale	formale formali
+53	3153	tela	tela tele
+54	3154	svariati	svariati svariate
+55	3155	completato	completato completata completati completate
+56	3156	implicare	implica implicato implicano implicare implichi implicava implicando implicherebbe implicate implicherà implicasse implichino implicavano implicante implicanti implicò
+57	3157	gelato	gelato gelati gelata gelate
+58	3158	organico	organico organica organici organiche
+59	3159	maglietta	maglietta magliette
+60	3160	svegliato	svegliato svegliata svegliati svegliate
+61	3161	allievo	allievi allievo allieva
+62	3162	botte	botte bottino botti bottini botticella botticelle
+63	3163	mensile	mensile mensili
+64	3164	espansione	espansione espansioni
+65	3165	fascismo	fascismo fascismi
+66	3166	venditore	venditore venditori venditrice
+67	3167	chitarra	chitarra chitarre chitarrone
+68	3168	corea	corea coree
+69	3169	esecutivo	esecutivo esecutiva esecutivi esecutive
+70	3170	offensivo	offensivo offensiva offensive offensivi
+71	3171	manutenzione	manutenzione manutenzioni
+72	3172	avanzata	avanzata avanzate
+73	3173	fotografo	fotografo fotografi fotografa
+74	3174	dominare	dominato dominare domina dominano domini dominava dominando dominate domino dominavano dominò dominarono dominerà domineranno domineremo dominar dominasse dominiamo
+75	3175	meccanico	meccanico meccanici meccaniche
+76	3176	rigore	rigore rigori rigor
+77	3177	indispensabile	indispensabile indispensabili
+78	3178	pastore	pastore pastori pastora
+79	3179	vena	vene vena
+80	3180	medievale	medievale medievali medioevale
+81	3181	strategico	strategica strategico strategici strategiche
+82	3182	verbale	verbale verbali
+83	3183	ricostruire	ricostruire ricostruito ricostruisce ricostruendo ricostruite ricostruiscono ricostruiamo ricostruiremo ricostruì ricostruirà ricostruisci ricostruirono ricostruiva ricostruisca ricostruiranno
+84	3184	scommettere	scommetto scommettere scommesso scommettiamo scommette scommetti scommetterei scommettendo scommettono scommettete scommetteva scommise
+85	3185	camicia	camicia camicie
+86	3186	muscolo	muscoli muscolo
+87	3187	clandestino	clandestini clandestino clandestina clandestine
+88	3188	offesa	offesa offese
+89	3189	continuamente	continuamente
+90	3190	definitivamente	definitivamente
+91	3191	fama	fama
+92	3192	labbra	labbra
+93	3193	portogallo	portogallo
+94	3194	stabilità	stabilità
+95	3195	strettamente	strettamente
+96	3196	macchia	macchia macchie macchione
+97	3197	cinematografico	cinematografica cinematografico cinematografiche cinematografici
+98	3198	trentino	trentino trentina trentini trentine
+99	3199	ragionevole	ragionevole ragionevoli ragionevolmente
+100	3200	panorama	panorama panorami

@@ -1,0 +1,100 @@
+1	9101	precetto	precetti precetto
+2	9102	episcopale	episcopale episcopali
+3	9103	empirico	empirica empiriche empirico empirici
+4	9104	balcanico	balcanica balcanici balcanico balcaniche
+5	9105	soccorrere	soccorrere soccorre soccorsi soccorrono soccorrendo soccorri soccorse
+6	9106	spicciolo	spiccioli spicciolo spicciola spicciole
+7	9107	goto	goti goto gote gota
+8	9108	livido	lividi livido livida livide
+9	9109	emblematico	emblematico emblematica emblematici emblematiche
+10	9110	riproduttivo	riproduttiva riproduttivo riproduttivi riproduttive
+11	9111	gommone	gommone gommoni
+12	9112	relazionale	relazionale relazionali
+13	9113	pigna	pina pigna pigne
+14	9114	congiuntivo	congiuntivo congiuntivi congiuntiva
+15	9115	cromatico	cromatica cromatico cromatiche cromatici
+16	9116	ino	ina ino ini ine
+17	9117	facoltativo	facoltativo facoltativa facoltativi facoltative
+18	9118	mondano	mondana mondani mondano mondane
+19	9119	trasloco	trasloco traslochi
+20	9120	supplicare	supplico supplicare supplicando supplicato supplicò supplicava supplichiamo supplicano supplicai supplicante supplicanti supplichi
+21	9121	zeppo	zeppo zeppa zeppe zeppi zeppole zeppola
+22	9122	agevole	agevole agevoli
+23	9123	esagerazione	esagerazione esagerazioni
+24	9124	infiltrato	infiltrato infiltrati infiltrata infiltrate
+25	9125	vescica	vescica vesciche
+26	9126	rincorrere	rincorrere rincorrono rincorre rincorso rincorrendo rincorrevano rincorro rincorreva rincorriamo rincorri rincorrevo
+27	9127	intaccare	intaccare intaccato intacca intaccano intaccando intaccate intacchi
+28	9128	alloro	alloro allori
+29	9129	muffa	muffa muffe
+30	9130	gonfiato	gonfiato gonfiati gonfiata gonfiate
+31	9131	caporale	caporale caporali caporal
+32	9132	inatteso	inatteso inattesa inattese inattesi
+33	9133	condizionamento	condizionamento condizionamenti
+34	9134	persuadere	persuadere persuaso persuase persuade persuasi persuasero persuadendo persuadono persuadi
+35	9135	risarcire	risarcire risarcito risarcisce risarcirà risarcite
+36	9136	insito	insita insito insiti insite
+37	9137	affidarsi	affidarsi affidatevi
+38	9138	anatomico	anatomica anatomiche anatomico anatomici
+39	9139	giacché	giacché giacchè
+40	9140	agghiacciante	agghiacciante agghiaccianti
+41	9141	idroelettrico	idroelettrica idroelettrico idroelettriche idroelettrici
+42	9142	turba	turba turbe
+43	9143	zoccola	zoccola zoccole
+44	9144	capannone	capannone capannoni
+45	9145	pinza	pinze pinza
+46	9146	auspicio	auspicio auspici
+47	9147	aureo	aurea aureo auree aurei
+48	9148	iniettare	iniettato iniettare inietta iniettano iniettando iniettate inietto iniettava iniettò inietti
+49	9149	tenace	tenace tenaci
+50	9150	momentaneo	momentanea momentaneo momentanee momentanei
+51	9151	sottomissione	sottomissione sottomissioni
+52	9152	rivalutare	rivalutare rivalutato rivalutando rivaluta rivalutate rivalutano rivaluto
+53	9153	oscurato	oscurato oscurata oscurati oscurate
+54	9154	maggiordomo	maggiordomo maggiordomi
+55	9155	condizionatore	condizionatore condizionatori
+56	9156	impermeabile	impermeabile impermeabili
+57	9157	ingaggio	ingaggio ingaggi
+58	9158	sovrapposto	sovrapposti sovrapposte sovrapposto sovrapposta
+59	9159	intreccio	intreccio intrecci
+60	9160	pendere	pende pendere pendono pendeva penda pendevano pendendo pendo pendi
+61	9161	unilaterale	unilaterale unilaterali
+62	9162	telenovela	telenovela telenovelas telenovele
+63	9163	luogotenente	luogotenente luogotenenti
+64	9164	nostrano	nostrani nostrano nostrana nostrane
+65	9165	cece	ceci cece cecio
+66	9166	profumato	profumato profumata profumati profumate
+67	9167	alessia	alessia
+68	9168	autenticità	autenticità
+69	9169	barbarie	barbarie
+70	9170	conoscerlo	conoscerlo
+71	9171	darlo	darlo
+72	9172	feeling	feeling
+73	9173	gnocchi	gnocchi
+74	9174	guardaroba	guardaroba
+75	9175	hub	hub
+76	9176	madrelingua	madrelingua
+77	9177	metterle	metterle
+78	9178	modem	modem
+79	9179	pornografia	pornografia
+80	9180	poterci	poterci
+81	9181	procinto	procinto
+82	9182	psichiatria	psichiatria
+83	9183	sassuolo	sassuolo
+84	9184	surf	surf
+85	9185	tenerli	tenerli
+86	9186	vederle	vederle
+87	9187	ammissibile	ammissibile ammissibili
+88	9188	fortificazione	fortificazioni fortificazione
+89	9189	dialettale	dialettale dialettali
+90	9190	tifoseria	tifoseria tifoserie
+91	9191	sfavorevole	sfavorevole sfavorevoli
+92	9192	parolaccia	parolacce parolaccia
+93	9193	pettegolezzo	pettegolezzi pettegolezzo
+94	9194	extracomunitario	extracomunitari extracomunitario extracomunitaria extracomunitarie
+95	9195	cicerone	cicerone ciceroni
+96	9196	corallo	corallo coralli
+97	9197	melo	melo meli
+98	9198	astro	astro astri
+99	9199	bancarella	bancarelle bancarella
+100	9200	devastazione	devastazione devastazioni

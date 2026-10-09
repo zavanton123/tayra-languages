@@ -1,0 +1,100 @@
+1	3001	ispirazione	ispirazione ispirazioni
+2	3002	accoglienza	accoglienza accoglienze
+3	3003	qualificato	qualificato qualificati qualificata qualificate
+4	3004	agricoltura	agricoltura agricolture
+5	3005	lusso	lusso lussi
+6	3006	frequente	frequente frequenti frequentissimo
+7	3007	attuare	attuare attuata attuato attua attuate attuando attuati attuano attuò attui attuerà attuava attuarono attuino
+8	3008	fantasma	fantasma fantasmi
+9	3009	seminario	seminario seminari
+10	3010	corda	corda corde
+11	3011	martino	martino martini
+12	3012	roccia	roccia rocce
+13	3013	fargli	fargli
+14	3014	lentamente	lentamente
+15	3015	single	single
+16	3016	trenta	trenta
+17	3017	peggiorare	peggiorare peggiori peggiora peggiorato peggiorando peggiorano peggiorate peggiorerà peggioreranno peggiorerebbe peggiorò peggiorava peggiorarono peggioro peggiorino peggioravano peggioriamo peggiorasse
+18	3018	guaio	guai guaio
+19	3019	pavimento	pavimento pavimenti
+20	3020	carro	carro carri
+21	3021	busta	busta buste bustina bustine
+22	3022	pubblicitario	pubblicitari pubblicitaria pubblicitario pubblicitarie
+23	3023	orologio	orologio orologi
+24	3024	riposare	riposare riposa riposano riposati riposato riposarsi riposino riposata riposando riposi riposante riposate riposerà riposavano riposiamo riposava riposatevi riposò riposerò riposiamoci riposeranno riposanti riposar riposerai
+25	3025	elegante	elegante eleganti elegantissimo
+26	3026	alba	alba albe
+27	3027	orribile	orribile orribili
+28	3028	manovra	manovra manovre
+29	3029	fingere	fingere finge fingendo finger fingono fingi fingersi fingo fingeva fingiamo finse finga fingete fingevano fingevo fingevi fingiti fingesse finsi fingerà fingerò finsero fingano fingeranno
+30	3030	fottuto	fottuto fottuta fottuti fottute fottutissimo
+31	3031	spinta	spinta spinte
+32	3032	fallo	fallo falli
+33	3033	grafica	grafica grafiche
+34	3034	scomparso	scomparso scomparsi scomparse
+35	3035	incapace	incapace incapaci
+36	3036	detenuto	detenuti detenuto detenute detenuta
+37	3037	esclusiva	esclusiva esclusive
+38	3038	vertice	vertice vertici
+39	3039	panico	panico panichi panici panica
+40	3040	virtù	virtù virtute
+41	3041	misterioso	misterioso misteriosa misteriosi misteriose
+42	3042	beato	beato beata beati beate
+43	3043	funzionale	funzionale funzionali
+44	3044	funzionario	funzionari funzionario funzionaria
+45	3045	trono	trono troni
+46	3046	decisivo	decisivo decisiva decisivi decisive
+47	3047	console	console consoli consolo
+48	3048	ambasciatore	ambasciatore ambasciatori ambasciatrice ambasciator
+49	3049	ennesimo	ennesima ennesimo ennesimi
+50	3050	orgoglio	orgoglio orgogli
+51	3051	respiro	respiro respiri
+52	3052	terrorismo	terrorismo terrorismi
+53	3053	convinzione	convinzione convinzioni
+54	3054	pollo	pollo polli polla polle
+55	3055	divano	divano divani
+56	3056	acquisito	acquisito acquisita acquisiti acquisite
+57	3057	rottura	rottura rotture
+58	3058	punire	punito punire punisce punite puniscono punirà punisca punendo punì puniranno puniamo puniva punisci punirò puniremo puniscano punisse punisco punivano punirono
+59	3059	altrui	altrui
+60	3060	averne	averne
+61	3061	carità	carità
+62	3062	leggera	leggera
+63	3063	marketing	marketing
+64	3064	raramente	raramente
+65	3065	tuttora	tuttora
+66	3066	organismo	organismo organismi
+67	3067	conseguire	conseguito consegue conseguire conseguono conseguendo conseguì conseguite conseguirà conseguirono conseguiranno conseguiva consegua consegui conseguirebbe conseguano conseguivano conseguir
+68	3068	rito	rito riti
+69	3069	battista	battista battisti battiste
+70	3070	percezione	percezione percezioni
+71	3071	porca	porca porche
+72	3072	cadavere	cadavere cadaveri
+73	3073	istituzionale	istituzionale istituzionali
+74	3074	inedito	inedito inediti inedita inedite
+75	3075	orientamento	orientamento orientamenti
+76	3076	calciatore	calciatore calciatori calciatrice
+77	3077	sardo	sardo sardi sarda sarde
+78	3078	vitale	vitale vitali
+79	3079	immenso	immenso immensa immensi immense
+80	3080	documentazione	documentazione documentazioni
+81	3081	forno	forno forni
+82	3082	dimissione	dimissioni dimissione
+83	3083	combinazione	combinazione combinazioni
+84	3084	duomo	duomo dome domo doma domi duomi
+85	3085	glielo	glielo gliel
+86	3086	tempesta	tempesta tempeste
+87	3087	colonnello	colonnello colonnelli
+88	3088	regia	regia regie
+89	3089	quadrato	quadrati quadrato quadrata quadrate quadratino quadratini
+90	3090	mutuo	mutuo mutui mutua mutue
+91	3091	approfittare	approfittare approfitta approfittando approfittato approfitto approfittano approfittò approfitti approfittate approfittiamo approfitterà approfittarono approfitterò approfittava approfitteranno approfittavano approfitterei approfitteremo approfittino approfittasse approfittai
+92	3092	rispettivo	rispettivi rispettive rispettiva rispettivo
+93	3093	filmato	filmato filmati filmata filmate
+94	3094	generico	generico generica generici generiche
+95	3095	modulo	modulo moduli
+96	3096	fibra	fibra fibre
+97	3097	leva	leva leve levetta
+98	3098	variante	varianti variante
+99	3099	calo	calo cali
+100	3100	atmosfera	atmosfera atmosfere

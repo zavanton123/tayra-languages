@@ -1,0 +1,100 @@
+1	201	sito	sito siti sita site
+2	202	davvero	davvero davero
+3	203	tornare	tornare torna tornato torno tornando torni tornano tornerà torniamo tornò torneranno tornate tornerò tornava torneremo tornino tornasse tornarono tornerai tornavo tornerei tornai tornassi tornerebbe tornassero tornavano tornanti tornerete tornerebbero tornante tornar tornammo tornavi tornassimo torneresti tornavamo torneremmo torniate tornan
+4	204	bambino	bambini bambino bambina bambine
+5	205	tale	tale tali tal tai
+6	206	importante	importante importanti importantissimo
+7	207	partito	partito partita partiti partite partitone
+8	208	video	video videi videa
+9	209	lei	lei
+10	210	ragazzo	ragazzi ragazzo rago regazzo
+11	211	forza	forza forze
+12	212	idea	idea idee ideona
+13	213	corso	corso corsa corsi corse
+14	214	sistema	sistema sistemi
+15	215	lavorare	lavorare lavora lavorato lavorando lavorano lavori lavorava lavoravo lavoravano lavorate lavorò lavorati lavorerà lavorino lavorata lavoreremo lavoreranno lavorerò lavorerai lavorasse lavorarono lavoravamo lavorassero lavorassi lavoranti lavorar lavoravi lavorerei lavorante lavorerebbe lavorai lavorerete lavorerebbero lavorarsi lavoreresti lavoriamoci
+16	216	scritto	scritto scritta scritti scritte
+17	217	morte	morte morti
+18	218	esempio	esempio esempi essempio
+19	219	scuola	scuola scuole scola squola
+20	220	nazionale	nazionale nazionali
+21	221	possibile	possibile possibili possibilissimo
+22	222	quasi	quasi
+23	223	mezzo	mezzo mezzi mezza mezze mei
+24	224	rimanere	rimane rimanere rimasto rimangono rimase rimarrà rimanendo rimani rimanga rimango rimasero rimarranno rimaneva rimanenti rimaniamo rimanente rimasi rimangano rimarrebbe rimanevano rimanesse rimarrai rimarrò rimanete rimarremo rimarrete rimarrebbero rimanessero rimanevo rimarrei rimaner rimanessi rimanemmo rimarresti rimanevi rimanessimo rimarreste rimarremmo
+25	225	alto	alto alta alti alte altissimo
+26	226	libro	libro libri libricino librone libroni livro
+27	227	governo	governo governi
+28	228	circa	circa ca
+29	229	politica	politica politiche
+30	230	settimana	settimana settimane
+31	231	servizio	servizio servizi
+32	232	società	società
+33	233	ragazza	ragazza ragazze
+34	234	passare	passare passa passi passando passano passò passerà passiamo passate passava passanti passante passarono passavano passeranno passasse passerò passavo passino passerai passeremo passerebbe passai passerei passar passerete passassero passavamo passeresti passammo passerebbero passavi passassi passarsi passe passiate passini passassimo passaste passavate
+35	235	nulla	nulla
+36	236	generale	generale generali
+37	237	centro	centro centri
+38	238	bastare	basta bastano basti basterebbe bastava bastare basterà bastato bastasse basteranno basterebbero bastavano bastate bastino bastò basto bastassero bastante bastar bastarono bastiamo bastando
+39	239	uscire	uscire uscito esce esci escono uscite esco uscendo esca uscì uscirà usciva usciamo uscente usciranno uscisse uscivano uscirono escano uscivo uscirò usciremo uscirebbe esche uscissero uscirai uscii uscenti uscirei uscir uscivamo uscimmo uscissi uscivi usciresti uscirebbero uscirete usciremmo usciste uscissimo
+40	240	servire	serve servono servire servito serva serviva servi servirà servo servirebbe servivano serviranno servite servano servisse servì servirebbero servirsi servendo serviamo servissero servirono serventi servir servente servirò serviremo servon servitevi servirete servissi servivo servirai servirei
+41	241	bisogno	bisogno bisogni bisognini bisognin
+42	242	giusto	giusto giusta giuste giusti giustissimo
+43	243	scrivere	scrivere scrive scrivo scrivendo scrivi scrisse scrivono scriveva scriva scrivete scriviamo scriverò scrissi scrivevo scrivevano scriverà scrivesse scrissero scrivano scrivente scriveranno scriverei scrivessi scrivevi scriverai scriverebbe scriveremo scriversi scrivessero scriver scrivevamo scriverete scriventi scrivemmo scriveresti scriviate scriverebbero scrivani scriveste scrivesti
+44	244	guerra	guerra guerre
+45	245	ecco	ecco
+46	246	rispetto	rispetto rispetti
+47	247	base	base basi
+48	248	vostro	vostro vostra vostri vostre vostr
+49	249	studio	studio studi
+50	250	piano	piano piani pian piana piane pianissimo
+51	251	strada	strada strade stradone
+52	252	trattare	tratta trattare trattava tratti trattano trattasse tratte trattarsi trattando tratterebbe trattò tratterà trattate trattiamo trattavano tratteremo tratteranno tratterò trattarono trattassero trattante trattanti tratterei trattar trattavo tratterebbero trattiate
+53	253	adesso	adesso addesso
+54	254	serie	serie
+55	255	domanda	domanda domande
+56	256	progetto	progetto progetti
+57	257	creare	creare creato crea creata creando creano creati create creò crei crearsi creiamo creo creerà creava creerebbe crearono creino creeranno creavano creasse creeremo crear creerebbero creassero creerò creavo creerete creai creammo creerai creerei creassi creante
+58	258	giovane	giovani giovane giovanissimo giovanotto giovine
+59	259	senso	senso sensi
+60	260	seguito	seguito seguita seguiti seguite seguitissimo
+61	261	causa	causa cause
+62	262	almeno	almeno almen
+63	263	ragione	ragione ragioni ragion
+64	264	esistere	esiste esistono esistenti esistere esistente esista esisteva esistano esistevano esistesse esistito esistessero esistiamo esisterebbe esistendo esisti esisterà esisto esisteranno esisterebbero esistessi esistete esistette esistevo esistettero esistessimo
+65	265	terra	terra terre
+66	266	spesso	spesso spessa spesse spessi spessissimo
+67	267	pubblicare	pubblicato pubblicare pubblicate pubblicò pubblicano pubblicando pubblichiamo pubblichi pubblicherà pubblicava pubblicheremo pubblicarono pubblicheranno pubblicherò pubblicavano pubblicasse pubblicani pubblichino pubblicherai pubblicassero pubblicai pubblicassi pubblicar pubblicavo pubblicherete
+68	268	subito	subito subiti subite subita sùbito
+69	269	infatti	infatti
+70	270	luogo	luogo luoghi loco lugo lochi
+71	271	livello	livello livelli
+72	272	film	film filme
+73	273	chiamare	chiamato chiamare chiamano chiamo chiami chiamava chiamate chiamiamo chiamavano chiamando chiamò chiamarsi chiamerà chiamerò chiamerei chiamasse chiameremo chiamarono chiamavo chiamino chiameranno chiamerebbe chiamai chiamassero chiamavamo chiamerai chiamante chiamassi chiamavi chiameresti chiamerebbero chiameremmo chiamar chiamammo chiamerete chiamereste chiaman chiamavate chiamaste chiamanti
+74	274	passato	passato passati passata passate
+75	275	aspettare	aspettare aspetta aspettando aspetti aspettavo aspettano aspettiamo aspettato aspettava aspettate aspettarsi aspettavano aspettavamo aspettavi aspetterò aspetterei aspetterebbe aspettasse aspettatevi aspetterà aspetteranno aspettassi aspettavate aspetteremo aspettino aspetteresti aspettò aspettiamoci aspettassero aspettai aspettar aspetterai aspettereste aspetteremmo aspettassimo aspettarono aspetterebbero aspettammo aspetterete aspettan
+76	276	particolare	particolare particolari particolar particolarissimo
+77	277	dio	dio dee iddio dèi deo dii
+78	278	forma	forma forme
+79	279	presente	presente presenti presentino
+80	280	successo	successo successi successa successone
+81	281	vicino	vicino vicini vicina vicine vicinissimo vicinissima vicinissimi vicinissime vicin
+82	282	opera	opera opere
+83	283	ricordare	ricorda ricordare ricordato ricordi ricordano ricordate ricordiamo ricordando ricordavo ricordarsi ricordava ricorderò ricorderà ricorderanno ricorderemo ricorderai ricordino ricordò ricordasse ricordavano ricorderete ricordassi ricordavi ricorderei ricordai ricordar raccorda ricordassero raccordare ricordarono ricordiate ricorderebbe ricordavamo raccordato raccordati raccordano raccordate raccordarsi ricordini raccordi
+84	284	pagare	pagare paga pagato pagano pagati pago pagata paghi pagate pagando paghiamo pagani pagherà pagheranno pagava paghe pagarsi paghino pagavano pagheremo pagana pagherei pagherai pagherebbe pagherò pagò pagherete paganti pagane pagasse pagassero pagante pagherebbero pagan pagar pagheresti pagavo pagarono pagai pagassi
+85	285	consiglio	consiglio consigli
+86	286	leggere	leggere leggi leggo leggendo leggono leggete legga letti leggiamo leggevo leggeva leggerà leggerò leggersi lessi lesse leggesse leggano leggerai leggeranno leggiti leggessi leggevano leggerete leggeremo legger leggetevi leggerei leggessero leggerebbe leggevamo leggevi leggeresti lessero leggiate leggeste leggemmo leggente
+87	287	voce	voce voci vocione
+88	288	porta	porta porte
+89	289	forte	forte forti fortissimo fortissima fortissimi fortissime
+90	290	fra	fra frai
+91	291	campo	campo campi
+92	292	inoltre	inoltre
+93	293	gioco	gioco giochi giochino giuoco giochini
+94	294	presidente	presidente presidenti presidentessa
+95	295	soprattutto	soprattutto sopratutto
+96	296	appena	appena
+97	297	situazione	situazione situazioni situa situazionale situazionali
+98	298	padre	padre padri patre
+99	299	presentare	presenta presentato presentare presentano presenti presentarsi presentava presento presentate presentando presentò presentiamo presenterà presentavano presentarono presenteremo presenteranno presentasse presentassero presenterò presentai presenterebbe presentino presentavo presentatevi presentassi presentanti presenterei presenterebbero presenterai presentante presentammo presentiate presentavi presenterete
+100	300	risultato	risultati risultato risultata risultate

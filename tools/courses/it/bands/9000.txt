@@ -1,0 +1,100 @@
+1	8901	vizioso	vizioso viziosi viziosa viziose
+2	8902	catastrofico	catastrofico catastrofica catastrofici catastrofiche
+3	8903	locanda	locanda locande
+4	8904	inondazione	inondazioni inondazione
+5	8905	simpatizzante	simpatizzanti simpatizzante
+6	8906	splendere	splende splendere splendono splenda splendeva splendi splenderà
+7	8907	sommare	sommano sommare sommando sommi sommiamo sommate sommarono sommavano sommava
+8	8908	regolata	regolata regolate
+9	8909	nocciolo	nocciolo noccioli
+10	8910	scalata	scalata scalate
+11	8911	ascendente	ascendente ascendenti
+12	8912	mena	mena mene
+13	8913	suddivisione	suddivisione suddivisioni
+14	8914	locandina	locandina locandine
+15	8915	sagoma	sagoma sagome
+16	8916	raggruppamento	raggruppamento raggruppamenti
+17	8917	sigillato	sigillata sigillato sigillati sigillate
+18	8918	redditizio	redditizio redditizia redditizi redditizie
+19	8919	smantellare	smantellare smantellato smantellate smantellando smantella smantelliamo
+20	8920	certificare	certifica certificare certificano certifichi certifico certificate certificherà certificando
+21	8921	avido	avido avidi avida avide
+22	8922	convergenza	convergenza convergenze
+23	8923	risuonare	risuona risuonare risuonano risuonava risuonato risuonò risuonavano risuoni risuonerà
+24	8924	salernitano	salernitana salernitano salernitani salernitane
+25	8925	collisione	collisione collisioni
+26	8926	prole	prole proli
+27	8927	lucchese	lucchese lucchesi
+28	8928	occulto	occulto occulta occulti occulte
+29	8929	rigenerare	rigenerare rigenera rigenerato rigenerante rigenerarsi rigenerati rigenerata rigenerano rigenerate rigenerando rigeneranti
+30	8930	tinto	tinto tinte tinti
+31	8931	stressato	stressata stressato stressati stressate
+32	8932	passerella	passerella passerelle
+33	8933	cooperare	cooperare coopera cooperano cooperando cooperante cooperato cooperanti cooperi cooperò cooperarono
+34	8934	nominativo	nominativo nominativi nominativa nominative
+35	8935	retaggio	retaggio retaggi
+36	8936	burattino	burattini burattino
+37	8937	avena	avena avene
+38	8938	orsino	orsini orsino orsina
+39	8939	cassiere	cassiere cassiera cassieri
+40	8940	lumaca	lumaca lumache lumaconi lumacone
+41	8941	accensione	accensione accensioni
+42	8942	frustrante	frustrante frustranti
+43	8943	pedale	pedale pedali
+44	8944	padrino	padrino padrini
+45	8945	strozzare	strozzi strozzato strozzini strozzare strozzino strozzo strozzando strozzate strozzarsi strozzano strozzina
+46	8946	bikini	bikini
+47	8947	buffet	buffet
+48	8948	centomila	centomila
+49	8949	chiamarmi	chiamarmi
+50	8950	chiederlo	chiederlo
+51	8951	comprati	comprati
+52	8952	darla	darla
+53	8953	equità	equità
+54	8954	geneticamente	geneticamente
+55	8955	guardarmi	guardarmi
+56	8956	ictus	ictus
+57	8957	invalidità	invalidità
+58	8958	lasciarti	lasciarti
+59	8959	pancetta	pancetta
+60	8960	pascal	pascal
+61	8961	pigrizia	pigrizia
+62	8962	preferibilmente	preferibilmente
+63	8963	promemoria	promemoria
+64	8964	scarsamente	scarsamente
+65	8965	sovrappeso	sovrappeso
+66	8966	suvvia	suvvia
+67	8967	tic	tic
+68	8968	tristemente	tristemente
+69	8969	unificazione	unificazione
+70	8970	universalmente	universalmente
+71	8971	resina	resina resine
+72	8972	testicolo	testicoli testicolo
+73	8973	navata	navata navate
+74	8974	addizionale	addizionale addizionali
+75	8975	gioire	gioire gioisce gioiscono gioite gioito gioisco gioisci gioiamo gioir gioiva gioirà
+76	8976	arrosto	arrosto arrosti
+77	8977	culinaria	culinaria culinarie
+78	8978	parentela	parentela parentele
+79	8979	pupillo	pupille pupillo pupilla pupilli
+80	8980	telescopio	telescopio telescopi
+81	8981	ossessivo	ossessivo ossessiva ossessivi ossessive
+82	8982	esponenziale	esponenziale esponenziali
+83	8983	ammiratore	ammiratore ammiratori ammiratrice
+84	8984	collare	collare collari collino
+85	8985	cozza	cozze cozza
+86	8986	enzima	enzimi enzima
+87	8987	brando	brando brandi
+88	8988	distogliere	distogliere distolto distoglie distolgono distogliendo distolga distolse distogli distolgo
+89	8989	carisma	carisma carismi
+90	8990	proficuo	proficuo proficua proficui proficue
+91	8991	prepotente	prepotente prepotenti
+92	8992	mendicante	mendicanti mendicante
+93	8993	velluto	velluto velluti
+94	8994	zanna	zanne sanna zanna
+95	8995	zampa	zampa zampone zamponi
+96	8996	prestabilito	prestabilito prestabiliti prestabilita prestabilite
+97	8997	sandalo	sandali sandalo
+98	8998	immondizia	immondizia immondizie
+99	8999	recesso	recesso recessi
+100	9000	secessione	secessione secessioni

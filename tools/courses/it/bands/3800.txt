@@ -1,0 +1,100 @@
+1	3701	scusami	scusami
+2	3702	liscio	liscia liscio lisci lisce
+3	3703	scalare	scalare scalo scali scalato scalini scalino scalando scalate scalano scalari scalò scalava scalerà
+4	3704	idoneo	idonei idoneo idonea idonee
+5	3705	incoraggiare	incoraggiare incoraggiato incoraggia incoraggiante incoraggianti incoraggiati incoraggiando incoraggiò incoraggiano incoraggiava incoraggi incoraggiate incoraggiamo incoraggio incoraggerà incoraggiavano incoraggiarono incoraggino incoraggiasse incoraggerebbe
+6	3706	colorato	colorati colorato colorata colorate coloratissimo
+7	3707	spostamento	spostamento spostamenti
+8	3708	asse	asse assi
+9	3709	scatenare	scatenare scatena scatenando scatenante scatenò scatenano scatenarsi scatenanti scatenate scatenerà scateni scatenerebbe scatenarono scateno scateneranno scateniamo scatenava scatenasse scateneremo scatenatevi scatenino scatenavano
+10	3710	ricavare	ricavare ricavi ricava ricavo ricavano ricavate ricavando ricaviamo ricavò ricaverà ricavava ricavavano ricavarono ricaverebbe ricaveremo
+11	3711	strega	strega streghe streghetta
+12	3712	vincolo	vincoli vincolo
+13	3713	cortile	cortile cortili
+14	3714	successione	successione successioni
+15	3715	valigia	valigia valigie valigetta valige valigette
+16	3716	abitato	abitato abitati abitata abitate
+17	3717	svelare	svelato svela svelare svelano svelo svelando svelate svelerà sveli svelerò svelò sveliamo sveleremo sveleranno svelava svelarono
+18	3718	esplorare	esplorare esplora esplorato esplorando esplorano esplorate esploriamo esplorò esploreremo esplorava esplori esploro esplorarono esploravano
+19	3719	cimitero	cimitero cimiteri
+20	3720	uniforme	uniforme uniformi
+21	3721	agricolo	agricolo agricole agricoli
+22	3722	elaborato	elaborato elaborata elaborati elaborate
+23	3723	spettacolare	spettacolare spettacolari
+24	3724	gravidanza	gravidanza gravidanze
+25	3725	rovinato	rovinato rovinata rovinati rovinate
+26	3726	magistratura	magistratura magistrature
+27	3727	collana	collana collane
+28	3728	stimato	stimato stimata stimati stimate
+29	3729	patente	patente patenti
+30	3730	notifica	notifica notifiche
+31	3731	cacciatore	cacciatori cacciatore cacciatrice
+32	3732	fungo	funghi fungo
+33	3733	generoso	generoso generosa generosi generose generosissimo
+34	3734	svolgimento	svolgimento svolgimenti
+35	3735	assomigliare	assomiglia assomigliano assomigliare assomigli assomigliava assomiglio assomigliavano assomigliasse assomigliamo assomiglino assomigliando assomiglierà assomigliavo assomigliate
+36	3736	vano	vano vani vane vana
+37	3737	tasto	tasto tasti
+38	3738	progressivo	progressivo progressiva progressive progressivi
+39	3739	pancia	pancia pance
+40	3740	leccare	lecco lecca leccare leccano lecchi leccarsi leccato leccate leccando lecchino lecchini leccava leccati leccò
+41	3741	combinato	combinato combinata combinati combinate
+42	3742	trascinare	trascinato trascinare trascina trascinando trascinano trascinate trascinò trascinava trascinarsi trascini trascino trascinante trascinerà trascinarono trascinavano trasciniamo trascineranno trascinasse trascinino trascinanti trascinerebbe trascinai
+43	3743	bis	bis
+44	3744	chiarezza	chiarezza
+45	3745	diego	diego
+46	3746	parzialmente	parzialmente
+47	3747	sovranità	sovranità
+48	3748	undici	undici
+49	3749	crudele	crudele crudeli crudel
+50	3750	grandezza	grandezza grandezze
+51	3751	dedica	dedica dediche
+52	3752	confessione	confessione confessioni
+53	3753	ideologico	ideologica ideologico ideologiche ideologici
+54	3754	precipitare	precipita precipitare precipitato precipitando precipitata precipitati precipitò precipitano precipiti precipitarono precipitate precipitarsi precipito precipiterà precipitava precipitasse precipitiamo precipiteranno precipitavano precipitai
+55	3755	concepire	concepito concepire concepite concepisce concepì concepisco concepiscono concepiva concependo concepiamo concepirono concepivano concepirà concepisci
+56	3756	shock	shock choc schock
+57	3757	terrestre	terrestre terrestri
+58	3758	abbraccio	abbraccio abbracci
+59	3759	risarcimento	risarcimento risarcimenti
+60	3760	comunitario	comunitario comunitaria comunitari comunitarie
+61	3761	istanza	istanza istanze
+62	3762	postale	postale postali
+63	3763	fetta	fetta fette fettine fettina
+64	3764	crollo	crollo crolli
+65	3765	visivo	visivo visiva visivi visive
+66	3766	piacenza	piacenza piacentini piacentino piacentina piacentine
+67	3767	eccesso	eccesso eccessi
+68	3768	frammento	frammenti frammento
+69	3769	gamma	gamma gamme
+70	3770	assegno	assegno assegni
+71	3771	respinto	respinto respinta respinti respinte
+72	3772	scultura	scultura sculture
+73	3773	coltivazione	coltivazione coltivazioni
+74	3774	risiedere	risiede risiedono risiedere risiedeva risiedevano risieda risiedo risiedano risiedi risiedette risieduto risiedesse risiedendo risiederà risiedenti risiedente risiedessero
+75	3775	grato	grato grata grati grate
+76	3776	laico	laico laici laica laiche
+77	3777	desiderato	desiderato desiderata desiderate desiderati
+78	3778	allungare	allungare allunga allungato allungata allungano allungate allungati allungando allungo allungarsi allunghi allungò allungava allungavano allunghiamo allungheranno allungarono allungherebbe allungherà
+79	3779	riccio	ricci riccio riccia ricce
+80	3780	dipingere	dipingere dipinge dipinse dipingono dipingendo dipingo dipingeva dipingi dipingevano dipinga dipinsero dipingersi dipingiamo dipingerà dipingerò dipingete dipingesse dipingevo
+81	3781	prescrizione	prescrizione prescrizioni
+82	3782	problematica	problematiche problematica
+83	3783	consecutivo	consecutivi consecutivo consecutive consecutiva
+84	3784	furbo	furbo furbi furba furbetti furbetto furbe furbetta furbacchione furbone furbacchioni furboni furbissimo furbastro furbastri furbacchiona furbamente
+85	3785	dottrina	dottrina dottrine
+86	3786	borghese	borghese borghesi
+87	3787	alloggio	alloggio alloggi
+88	3788	all'improvviso	all'improvviso
+89	3789	budget	budget
+90	3790	cassazione	cassazione
+91	3791	diagnosi	diagnosi
+92	3792	diversità	diversità
+93	3793	gravità	gravità
+94	3794	immobili	immobili
+95	3795	west	west
+96	3796	debolezza	debolezza debolezze
+97	3797	fiorentina	fiorentina fiorentine
+98	3798	affare	affare affar affa affato affò affin
+99	3799	verbo	verbo verbi
+100	3800	corridoio	corridoio corridoi

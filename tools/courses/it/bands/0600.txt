@@ -1,0 +1,100 @@
+1	501	francese	francese francesi
+2	502	polizia	polizia polizie
+3	503	ieri	ieri jeri
+4	504	studiare	studiare studi studiato studia studiando studiata studiate studiati studiano studiò studiava studiamo studiavo studiavano studieremo studiarono studiarsi studierò studiai studierà studino studieranno studierai studiassi studiar studiasse studiavi studiavamo studierei studiassero
+5	505	febbraio	febbraio febbrai febbraro
+6	506	neanche	neanche neanch
+7	507	veramente	veramente
+8	508	movimento	movimento movimenti
+9	509	aspetto	aspetto aspetti
+10	510	sostenere	sostenere sostiene sostenuto sostengono sostenuta sostenendo sosteneva sostenute sostenuti sostengo sostieni sostenne sostenevano sosteniamo sostenga sosterrà sostennero sostenersi sostenete sosterranno sosterremo sostengano sostenesse sosterrò sosterrebbe sostenevo sostenevi sostenessero sosterrai sostenente sosterrete sosterrei sosterrebbero sostenenti
+11	511	gennaio	gennaio gen gennai
+12	512	atto	atto atti atta atte
+13	513	ministro	ministro ministri ministra
+14	514	mente	mente menti
+15	515	fronte	fronte fronti
+16	516	territorio	territorio territori
+17	517	interno	interno interna interni interne
+18	518	attenzione	attenzione attenzioni
+19	519	secolo	secolo secoli
+20	520	messaggio	messaggio messaggi
+21	521	scoperto	scoperto scoperta scoperte scoperti
+22	522	davanti	davanti
+23	523	dicembre	dicembre
+24	524	magari	magari
+25	525	nonostante	nonostante
+26	526	novembre	novembre
+27	527	piuttosto	piuttosto
+28	528	dimostrare	dimostrare dimostrato dimostra dimostrano dimostrando dimostri dimostrò dimostrate dimostrerà dimostrino dimostro dimostranti dimostrarono dimostrava dimostrarsi dimostrerebbe dimostreremo dimostriamo dimostreranno dimostrerò dimostravano dimostrasse dimostrerebbero dimostrante dimostrassero dimostrar dimostrerai dimostravo
+29	529	reale	reale reali
+30	530	facile	facile facili facilissimo facil
+31	531	agosto	agosto agosti
+32	532	breve	breve brevi brevissimo
+33	533	dentro	dentro dentr
+34	534	probabilmente	probabilmente
+35	535	nota	nota note
+36	536	popolo	popolo popoli popol
+37	537	incontro	incontro incontri incontra incontr
+38	538	provincia	provincia province provincie
+39	539	mondiale	mondiale mondiali
+40	540	considerare	considerare considera considerando considerano considerarsi considero consideri considerate consideriamo considerava consideravano considerino considerò consideravo considererà considerasse considererei considerarono considerassero considereremo considereranno considererò consideriate considererebbe consideravamo considereresti consideratevi considererebbero considerassimo considerassi consideravi
+41	541	riconoscere	riconoscere riconosciuto riconosce riconosciuta riconosciuti riconosco riconoscono riconosciute riconosci riconoscendo riconosca riconobbe riconoscente riconosciamo riconosceva riconoscersi riconoscerà riconoscenti riconobbero riconoscete riconoscano riconoscevano riconoscesse riconosceranno riconoscevo riconoscerei riconoscerebbe riconoscerai riconobbi riconoscerete riconoscerò riconoscessero riconosceresti riconoscerebbero riconosceremo riconoscer
+42	542	piazza	piazza piazze
+43	543	genitore	genitori genitore genitrice genitor
+44	544	modello	modello modelli modella modelle modellino modellini
+45	545	ah	ah
+46	546	online	online
+47	547	tema	tema temi teme
+48	548	raccontare	racconta raccontare raccontato racconti raccontano raccontando raccontava raccontate raccontò racconterò racconterà raccontiamo raccontavano racconteranno racconteremo raccontino raccontasse raccontavo raccontai raccontarono raccontassi raccontar racconterai racconterei raccontavamo racconterebbe raccontassero raccontini
+49	549	indicare	indica indicare indicato indicati indicano indicata indicate indicando indicava indichi indicavano indicante indicò indichiamo indico indicherà indichino indicherebbe indicanti indicasse indicarono indicheranno indicherò indicherebbero indici indicheremo indicassero
+50	550	perfetto	perfetto perfetta perfetti perfette perfettissimo
+51	551	ottimo	ottimo ottima ottimi ottime
+52	552	produzione	produzione produzioni
+53	553	sede	sede sedi
+54	554	membro	membri membro membra
+55	555	comprare	comprare comprato compra compro compri comprano comprate comprando compriamo comprerò comperare comprarsi comprò comprerei comprava comprerà compravano comprai compravo comprerebbe comprar comprerai compreranno comprino compre comprasse comprassi compravi comprarono compreremo compratevi comprerebbero comprassero compreresti comprerete compravamo comprammo comprereste
+56	556	votare	votare votato voti votano votanti vota votata votati votate votando voterà voterò voteranno votiamo votava votavano votò voteremo votarono votante voterei votino voterebbe voterete votasse voterebbero voterai voteresti votai votavo votassero votar votassi votiate votereste
+57	557	avvenire	avviene avvenuto avvenuta avvenire avvenne avvengono avvenuti avverrà avvenga avvenute avveniva avvenendo avvenisse avvenivano avvengano avvennero avverrebbe avverranno avvenissero avvenir avverrebbero
+58	558	sala	sala sale sali
+59	559	intendere	intende intendo intendi intendere intendevo intendono intendeva intenda intendiamo intendersi intendesse intendevi intendevano intendendo intendete intendano intendiamoci intendente intendessi intenderà intendessero intenderanno intendenti intendevamo intendiate intenderebbe intesero intenderai intender
+60	560	superiore	superiore superiori
+61	561	relativo	relative relativi relativa relativo
+62	562	caro	caro cara cari care carissimo
+63	563	occasione	occasione occasioni occasionissima
+64	564	merda	merda merde merdoso merdaccia merdosi merdosa merdina merdose merdacce merdine
+65	565	presto	presto presta presti prestissimo
+66	566	centrale	centrale centrali centralissimo
+67	567	voglia	voglia voglie
+68	568	colpa	colpa colpe
+69	569	vendere	vendere venduto vende venduti vendono venduta vendendo vendute vendo vendi vendeva vendiamo vendette vendevano venda vendersi venderanno venderà vendete venderei vendano venderebbe vendesse vendettero venderebbero venderò vender vendessero vendevo venderemo vendessi vendevi venderai venderesti vendetti
+70	570	accettare	accettare accettato accetta accetto accetti accettano accettate accettando accettiamo accettò accetterà accetterebbe accettava accetterei accettarono accettasse accettino accetteranno accetterò accetteremo accette accettavano accettarsi accettai accettassero accetterebbero accetterai accettar accetteresti accettavo accettassi accetterete accettante accettammo accettassimo
+71	571	fonte	fonte fonti
+72	572	lettera	lettera lettere
+73	573	pezzo	pezzo pezzi pezzetto pezzettino pezzettini
+74	574	solito	solito solita soliti solite
+75	575	codice	codice codici
+76	576	considerato	considerato considerata considerati considerate
+77	577	mamma	mamma mamme mammà
+78	578	moglie	moglie mogli mogliettina moglia
+79	579	soluzione	soluzione soluzioni
+80	580	pensiero	pensiero pensieri pensier
+81	581	merito	merito merita meriti merti merto
+82	582	repubblica	repubblica repubbliche republica
+83	583	canzone	canzone canzoni canzon
+84	584	scorso	scorso scorsa scorsi scorse
+85	585	scegliere	scegliere scegli sceglie scelgono scegliendo scelgo scegliete scegliamo scelse scelga sceglierà sceglierei scegliersi scelsi scelgano sceglieranno scelsero sceglierai sceglieva sceglierò sceglierebbe sceglieresti scegliesse sceglievano sceglieremo scegliessi sceglier sceglierete scegliessero scegliti sceglievo scegliereste scegliemmo sceglierebbero scegliesti scegliate sceglietevi
+86	586	cane	cane cani can cagnolino cagna cagnolini cagnolina cagne cagnetta cagnone cagnolone cagnetto cagnoli cagnette cagnetti
+87	587	deciso	deciso decise decisa decisi
+88	588	funzionare	funziona funzionare funzionano funzionato funzionante funzionava funzionerà funzionanti funzionando funzionerebbe funzionasse funzionavano funzionino funzioneranno funzionò funzionassero funziono funzionerebbero funzionarono funzioniamo
+89	589	specie	specie speci ispecie
+90	590	intero	intero intera intere interi intiero
+91	591	scusa	scusa scuse scs
+92	592	all'interno	all'interno
+93	593	auto	auto
+94	594	oppure	oppure
+95	595	qualità	qualità
+96	596	commento	commenti commento
+97	597	documento	documenti documento
+98	598	presenza	presenza presenze
+99	599	sinistra	sinistra sinistre
+100	600	area	area aree

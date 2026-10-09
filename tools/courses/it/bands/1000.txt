@@ -1,0 +1,100 @@
+1	901	gara	gara gare
+2	902	ritenere	ritiene ritengo ritengono ritenere riteniamo riteneva ritenendo ritenersi ritieni ritenga ritenne ritenevano ritenevo ritenete ritengano ritennero riterrà ritenesse riterrei ritieniti riterranno riterrebbe riterrai ritenessero ritenevi ritenevamo ritenni ritenessi riterrò riterremo riterrete riterrebbero riteniate
+3	903	giornalista	giornalista giornalisti giornaliste
+4	904	discussione	discussione discussioni
+5	905	disposizione	disposizione disposizioni
+6	906	proteggere	proteggere protetto protetta protegge protetti protette proteggono proteggersi protegga proteggendo proteggi proteggeva proteggo proteggerò proteggiamo proteggerà proteggevano proteggete proteggano protesse proteggesse proteggeranno protessero proteggiti proteggessero proteggeremo proteggerebbe
+7	907	commerciale	commerciale commerciali
+8	908	ucciso	ucciso uccisa uccisi
+9	909	guidare	guidare guido guidato guidi guidate guidando guidano guidava guiderà guidò guidavo guidiamo guiderò guidavano guideranno guidino guidarono guidasse guideremo guidai
+10	910	battaglia	battaglia battaglie
+11	911	riforma	riforma riforme
+12	912	nonna	nonna nonno nonni nonne
+13	913	tecnologia	tecnologia tecnologie
+14	914	limite	limite limiti
+15	915	radio	radio radi
+16	916	correre	correre corre corrono corsi corri correndo corro correva correte corriamo corse corra correvano correrà correvo correrò corsero corresse correranno correrei corrano correrebbe correremo correvamo correrai correrete correvi correrebbero corressi corressero corremmo corrersi corriate
+17	917	diretto	diretto diretti dirette direttissimo
+18	918	regno	regno regni
+19	919	giustizia	giustizia giustizie
+20	920	chiunque	chiunque
+21	921	ovvero	ovvero
+22	922	isola	isola isole
+23	923	cinese	cinese cinesi cinesino cinesini cinesina
+24	924	contenere	contiene contenere contengono contenente conteneva contenga contenevano conterrà contengano contenendo contenesse contenersi contenessero conterrebbe conterranno contieni contenne contengo conterrebbero contener
+25	925	lezione	lezione lezioni lezioncina
+26	926	organizzazione	organizzazione organizzazioni
+27	927	medio	medio medi medie
+28	928	composto	composto composta composti composte
+29	929	compagno	compagni compagno compagna compagne
+30	930	vento	vento venti
+31	931	riferire	riferisce riferito riferiscono riferire riferisco riferiva riferisci riferivo riferisca riferendo riferite riferisse riferì riferivano riferiamo riferirò riferissi riferirono riferivi riferiscano riferirà riferissero riferirebbe riferiremo riferiranno
+32	932	muro	muro mura muri
+33	933	monte	monte monti
+34	934	appunto	appunto appunti
+35	935	capacità	capacità
+36	936	sé	sé
+37	937	marino	marina marino marine marini
+38	938	garantire	garantire garantisce garantito garantita garantiti garantiscono garantendo garantisco garantite garantisca garantiva garantirsi garantirà garantiscano garantiamo garantirebbe garantivano garantisse garantisci garantisti garantiranno garantì garantiremo garantissero garantirono garantirebbero garantirò garantiste
+39	939	rosa	rosa rose rosetta rosette
+40	940	profilo	profilo profili
+41	941	raccolta	raccolta raccolte
+42	942	gestire	gestire gestito gestisce gestite gestiscono gestiva gestendo gestisci gestisco gestiamo gestisca gestirà gestivano gestirsi gestisse gestiremo gestì gestiscano gestiranno gestivo gestirò
+43	943	toccare	toccare toccato tocco tocchi toccano toccherà toccata toccando toccante toccati toccate toccava toccò toccarsi toccasse tocchiamo toccanti toccherebbe toccavano toccheranno tocchino toccherò toccarono toccavo tocchetti toccherei toccheremo toccar toccassero toccherai toccassi toccai toccatevi toccherete toccavi toccherebbero
+44	944	amo	amo ami
+45	945	esame	esame esami esamino
+46	946	guadagnare	guadagnare guadagnato guadagno guadagna guadagni guadagnano guadagnarsi guadagnando guadagnava guadagnerà guadagnino guadagnate guadagnò guadagnerebbe guadagnerai guadagneranno guadagniamo guadagnavano guadagnerebbero guadagnavo guadagnerò guadagnarono guadagnasse guadagneresti guadagnerete guadagnerei guadagnassero guadagneremo guadagnassi guadagnar guadagneremmo
+47	947	teatro	teatro teatri
+48	948	bocca	bocca bocche
+49	949	mandato	mandato mandati mandata mandate
+50	950	paio	paio paia paro
+51	951	accesso	accesso accessi
+52	952	concetto	concetto concetti
+53	953	legale	legale legali
+54	954	sorella	sorella sorelle
+55	955	aereo	aereo aerei aerea aeree
+56	956	nemico	nemico nemici nemica nemiche
+57	957	energia	energia energie
+58	958	quarto	quarto quarta quarti quarte
+59	959	tardi	tardi tardissimo
+60	960	interessare	interessa interessano interessare interessi interessava interessarsi interessate interesserà interessando interessavano interesso interessasse interessò interesserebbe interessino interessarono interessiamo interesseranno interessassero interesserebbero
+61	961	massa	massa masse
+62	962	tratto	tratto tratti tratte
+63	963	marito	marito mariti maritino
+64	964	nave	nave navi navicella navicelle
+65	965	dimenticare	dimenticare dimentica dimentichiamo dimentichi dimenticavo dimentico dimenticando dimenticate dimenticherò dimenticano dimentichiamoci dimenticarsi dimenticheremo dimenticherà dimenticherai dimenticheranno dimenticatevi dimenticati dimenticava dimenticò dimentichino dimenticai dimenticasse dimenticherete dimenticar dimenticarono dimenticherei dimenticavano dimenticassi dimenticavi dimentiche dimenticassero dimenticheresti
+66	966	gay	gay
+67	967	sette	sette
+68	968	ambiente	ambiente ambienti
+69	969	falso	falso falsa false falsi falsissimo
+70	970	regionale	regionale regionali
+71	971	dolore	dolore dolori dolorino
+72	972	stazione	stazione stazioni
+73	973	carattere	carattere caratteri caratterino
+74	974	difendere	difendere difende difeso difendersi difendono difendendo difese difendi difendiamo difendo difesi difendeva difenda difendevano difenderò difenderà difendete difesero difenderemo difenderanno difendano difendesse difenderebbe difendevo difender difendetevi difendente difenditi difenderesti
+75	975	domenica	domenica domeniche
+76	976	esterno	esterno esterni esterna esterne
+77	977	economia	economia economie
+78	978	conte	conte conti
+79	979	passaggio	passaggio passaggi
+80	980	dollaro	dollari dollaro
+81	981	applicare	applicare applicata applica applicato applicate applicano applicando applicati applichi applicarsi applichiamo applicherà applico applicò applicheranno applicava applichino applicarono applicherebbe applicavano applicasse applicassero applicheremo
+82	982	teoria	teoria teorie
+83	983	peggio	peggio
+84	984	purtroppo	purtroppo
+85	985	tecnica	tecnica tecniche
+86	986	odio	odio odi odii
+87	987	cattivo	cattivo cattiva cattivi cattive cattivone cattivissimo cattivoni
+88	988	spagnolo	spagnolo spagnola spagnoli spagnole spagnuolo
+89	989	finché	finché finchè
+90	990	lega	lega leghe
+91	991	accadere	accade accadere accadrà accadendo accadde accada accadono accadeva accadesse accadrebbe accadano accadranno accadevano accadessero accaddero accadrebbero
+92	992	capello	capelli capello capellino
+93	993	consentire	consente consentito consentire consentono consentendo consenta consentiva consentirà consentano consentirebbe consentite consentì consentisse consentivano consentirono consenti consentiranno consentirebbero consento consentissero consentiamo consentiremo consentir
+94	994	chiamata	chiamata chiamate
+95	995	ampio	ampio ampia ampie ampi amplissimo ampissimo
+96	996	riprendere	riprendere ripreso riprende riprendendo riprendersi ripresi riprendono riprendo riprenderà riprendiamo riprendeva riprenda riprendi riprenditi ripresero riprendiamoci riprenderanno riprenderò riprenderemo riprendete riprendesse riprendevano riprendano riprenderai riprendetevi riprender riprenderebbe riprendessero riprenderei riprenderete riprendemmo riprendevo
+97	997	sparare	sparare spara sparato spari sparo sparano sparate sparando sparati sparata sparò sparava sparavano spararsi spariamo spararono sparino sparerei sparerà sparassi spareranno sparassero sparerò sparasse sparar sparavo sparerebbe sparai spareremo sparerebbero
+98	998	vendita	vendita vendite
+99	999	scrittore	scrittore scrittori scrittrice
+100	1000	trasformare	trasformare trasformato trasforma trasformata trasformarsi trasformando trasformati trasformano trasformate trasformi trasformò trasformerà trasformo trasformeranno trasformava trasformiamo trasformarono trasformasse trasformino trasformavano trasformerebbe trasformeremo trasformassero trasformerò trasformante trasformerete trasformassi

@@ -1,0 +1,100 @@
+1	1601	imporre	impone imporre imponente impongono imponenti imporsi imponendo impose imponeva imponga imposero imponi imporrebbe imponevano impongo imporrà imponesse imponiamo impongano imporranno imporrebbero imponete imponessero imporrei
+2	1602	emergere	emerge emergere emergenti emergono emerso emerse emergente emersi emersa emergendo emersero emerga emergeva emergerà emergano emergeranno emergevano emergerebbe emergesse emergessero
+3	1603	eroe	eroe eroi eroina eroine
+4	1604	madonna	madonna madonne
+5	1605	moto	moto moti
+6	1606	aggiornamento	aggiornamento aggiornamenti
+7	1607	colpire	colpisce colpire colpiscono colpì colpendo colpite colpirà colpisca colpiva colpirono colpisci colpivano colpisse colpiranno colpiscano colpirebbe colpirsi colpisco colpir colpiremo colpii colpirebbero colpissero colpiamo colpirò
+8	1608	durata	durata durate
+9	1609	pazzo	pazzo pazzi pazza pazze
+10	1610	moneta	moneta monete monetine monetina
+11	1611	decennio	decenni decennio
+12	1612	orario	orario orari oraria orarie
+13	1613	lago	lago laghi laghetto laco
+14	1614	fiori	fiori
+15	1615	gas	gas
+16	1616	live	live
+17	1617	modalità	modalità
+18	1618	top	top
+19	1619	coscienza	coscienza coscienze coscenza
+20	1620	eventuale	eventuali eventuale
+21	1621	ideale	ideale ideali
+22	1622	partenza	partenza partenze
+23	1623	capitare	capita capitare capito capiti capitava capiterà capitò capitasse capitate capitando capitavano capitino capiteranno càpita capitarono capiterebbe
+24	1624	trasmettere	trasmesso trasmettere trasmette trasmettono trasmettendo trasmetteva trasmetterà trasmetta trasmettevano trasmise trasmetteranno trasmetti trasmettiamo trasmetto trasmettano trasmetteremo trasmisero trasmettersi trasmettete trasmettesse trasmetterò trasmettessero
+25	1625	fondazione	fondazione fondazioni
+26	1626	individuare	individuare individui individuato individua individuati individuata individuate individuano individuando individuò individuava individuiamo individuarsi individuarono individuavano individuino individuerà
+27	1627	sorpresa	sorpresa sorprese sopresa sorpresona soprese
+28	1628	anziano	anziani anziano anziana anziane
+29	1629	entrata	entrata entrate
+30	1630	identificare	identificare identificato identifica identificati identificate identificano identificarsi identificando identifichi identificava identifico identificavano identificò identifichiamo identifichino identificarono identificasse identificherà identificheranno identificherebbe
+31	1631	adorare	adoro adora adorato adorano adorare adoravo adori adoriamo adorava adorate adoravano adorante adorando adoranti adorerei adorerai adoreranno adorino adorerò adorarono adorerà adorasse adorassero adorerete adorò
+32	1632	bloccato	bloccato bloccata bloccati bloccate
+33	1633	cifra	cifra cifre
+34	1634	costante	costante costanti
+35	1635	casino	casino casini casinò
+36	1636	suggerire	suggerisce suggerito suggerire suggerisco suggeriscono suggerendo suggerite suggeriva suggerì suggerisci suggerirei suggeriamo suggerisca suggerivano suggerirebbe suggerirono suggerirà suggeriscano suggerisse suggerivo suggerirebbero suggerirò suggerii
+37	1637	primavera	primavera primavere
+38	1638	distribuzione	distribuzione distribuzioni
+39	1639	influenza	influenza influenze
+40	1640	nascosto	nascosto nascosta nascosti nascoste
+41	1641	televisivo	televisivo televisiva televisivi televisive
+42	1642	quinto	quinto quinta quinte quinti
+43	1643	professionista	professionisti professionista professioniste
+44	1644	introdurre	introdotto introdurre introduce introducendo introdusse introducono introdussero introdurrà introduceva introduca introduciamo introduco introdurranno introduci introducevano introdurremo introdurrebbe introducano introducesse introducete
+45	1645	suono	suono suoni suon
+46	1646	bordo	bordo bordi
+47	1647	utilizzo	utilizzo utilizzi
+48	1648	blocco	blocco blocchi
+49	1649	notevole	notevole notevoli notevolissimo notevolissima notevolissime notevolissimi
+50	1650	iscritto	iscritti iscritto iscritta iscritte
+51	1651	account	account
+52	1652	com'è	com'è
+53	1653	persino	persino
+54	1654	coglione	coglioni coglione cogliona
+55	1655	rio	rio ri ria rie rii
+56	1656	bosco	bosco boschi
+57	1657	esporre	esponenti esporre espone esponente esponendo espongono esporsi espose espongo esponeva esponi esponga esporrà esponiamo esponevano esponete esposero esporrebbe esporranno esporremo espongano esposi esporrò esponesse esponevo esporrai
+58	1658	ritirare	ritirare ritirato ritirata ritirarsi ritira ritirati ritirate ritirò ritirano ritirando ritiri ritirarono ritirerà ritiriamo ritirava ritiratevi ritirasse ritiravano ritireranno ritirino ritirassero ritirerò ritirai
+59	1659	intervenire	intervenire interviene intervenuto intervengono intervenne intervenga intervenendo interverrà intervenisse intervennero interveniva intervengo interveniamo intervieni intervengano interverranno intervenissero intervenite intervenivano interverremo interverrebbe interverrò
+60	1660	condannato	condannato condannati condannata condannate
+61	1661	trasferire	trasferito trasferire trasferirsi trasferisce trasferite trasferì trasferiscono trasferisco trasferendo trasferisci trasferirono trasferirà trasferiamo trasferisse trasferisca trasferirò trasferiva trasferiranno trasferisciti trasferii trasferirei trasferivano trasferiscano trasferissero trasferitevi trasferissi trasferiremo trasferimmo trasferiamoci
+62	1662	camminare	camminare cammina camminando camminano camminato camminava cammini camminate camminiamo camminavo camminavano camminavamo camminò camminerò camminerai camminerà cammineremo camminavi camminasse camminai camminarono cammineranno camminino camminammo camminerei camminar
+63	1663	amato	amato amata amati amate amatissimo
+64	1664	congresso	congresso congressi
+65	1665	filo	filo fili fil
+66	1666	ferro	ferro ferri
+67	1667	piattaforma	piattaforma piattaforme
+68	1668	universitario	universitario universitari universitaria universitarie
+69	1669	debole	debole deboli debolissimo
+70	1670	opposto	opposto opposta opposti opposte
+71	1671	emergenza	emergenza emergenze
+72	1672	assistere	assistere assistito assiste assistita assistendo assistono assistiti assistiamo assisteva assista assisteremo assistite assistette assisterà assisto assistettero assistevano assisteranno assisti assistano assistetti assistevo assistesse assisterete assistete assisté assisterebbe
+73	1673	procedere	procedere procede procedendo proceduto procedono procederà proceda procedeva procediamo procedette procedi procedo procedete procedevano procedettero procederemo procedente procederanno procedesse procedano procederò procedenti procederebbe
+74	1674	centinaio	centinaia centinaio
+75	1675	ricetta	ricetta ricette
+76	1676	acquisto	acquisto acquisti
+77	1677	vincitore	vincitore vincitori vincitrice vincitrici
+78	1678	gioia	gioia gioie
+79	1679	distretto	distretto distretti
+80	1680	comunista	comunista comunisti comuniste
+81	1681	contemporaneo	contemporanea contemporaneo contemporanei contemporanee
+82	1682	scarso	scarsa scarso scarsi scarse scarsissima scarsissimo scarsissime scarsissimi
+83	1683	coprire	coprire copre coprono coprendo copri copriva coprirsi copra coprivano coprite copro coprirà copriti coprì copriamo coprano coprente coprirono copriranno coprirebbe coprenti coprisse copritevi coprirò coprirebbero
+84	1684	sano	sano sana sani sane
+85	1685	urbano	urbano urbana urbani urbane
+86	1686	campionato	campionato campionati campionata campionate
+87	1687	latte	latte latti
+88	1688	sottolineare	sottolineare sottolinea sottolineato sottolineando sottolineano sottolineo sottolineata sottolineava sottolineati sottolineò sottolineate sottolinei sottolineiamo sottolineavano sottolineavo sottolinearono
+89	1689	filosofia	filosofia filosofie
+90	1690	apertura	apertura aperture
+91	1691	assieme	assieme
+92	1692	identità	identità
+93	1693	malato	malato malati malata malate
+94	1694	eccezione	eccezione eccezioni eccezion eccezzione
+95	1695	appartamento	appartamento appartamenti appartamentino
+96	1696	caduta	caduta cadute
+97	1697	regolamento	regolamento regolamenti
+98	1698	capitolo	capitolo capitoli
+99	1699	canto	canto canti cant cantuccio cantucci
+100	1700	sacro	sacro sacra sacri sacre sagro sagre

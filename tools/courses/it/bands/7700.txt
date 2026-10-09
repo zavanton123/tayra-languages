@@ -1,0 +1,100 @@
+1	7601	feudale	feudale feudali
+2	7602	mistico	mistico mistici mistiche
+3	7603	grappa	grappa grappe
+4	7604	parabola	parabola parabole
+5	7605	duetto	duetto duetti
+6	7606	lirico	lirico lirici liriche
+7	7607	prematuro	prematura prematuro prematuri premature
+8	7608	fitto	fitto fitti fitte fittissimo
+9	7609	assorbimento	assorbimento assorbimenti
+10	7610	diplomazia	diplomazia diplomazie
+11	7611	tangibile	tangibile tangibili
+12	7612	antipatico	antipatico antipatica antipatici antipatiche
+13	7613	paolino	paolino paolini paolina paoline
+14	7614	riconquistare	riconquistare riconquista riconquistato riconquistano riconquistando riconquistò riconquistate
+15	7615	nuocere	nuocere nuoce nuocciono nocenti nuociuto nuocer nuocendo nocciano nuocerebbe
+16	7616	rotolare	rotolare rotoli rotola rotolando rotolano rotolini rotolarsi rotolato rotolava rotolò rotolavano rotolate rotolati rotolino rotolante rotolanti rotoliamo
+17	7617	ampiezza	ampiezza ampiezze
+18	7618	liquidare	liquidare liquidato liquidi liquida liquidate liquidando liquidano liquidò
+19	7619	cartellino	cartellino cartellini
+20	7620	doppietta	doppietta doppiette doppietto
+21	7621	alfiere	alfieri alfiere
+22	7622	capillare	capillare capillari
+23	7623	folto	folto folta folti folte foltissimo
+24	7624	bestemmiare	bestemmiare bestemmio bestemmiando bestemmiato bestemmi bestemmiano bestemmiava bestemmiate bestemmiavano
+25	7625	siero	siero sieri
+26	7626	pranzare	pranzare pranzato pranza pranzando pranziamo pranzano pranzi pranzavo pranzava pranzate
+27	7627	ventesimo	ventesimo ventesima
+28	7628	lazzaro	lazzaro lazzari
+29	7629	scansione	scansione scansioni
+30	7630	uragano	uragano uragani
+31	7631	dilagare	dilagante dilaga dilagare dilagano dilagando dilagò dilagava dilagato dilaganti dilagarono dilagavano
+32	7632	manto	manto mante manta manti
+33	7633	rinnegare	rinnegare rinnegato rinnega rinnegati rinnegando rinnegata rinnego rinnegano rinneghi rinnegate rinnegò rinnegherà
+34	7634	ristrutturato	ristrutturato ristrutturata ristrutturati ristrutturate
+35	7635	intestino	intestino intestine intestini intestina
+36	7636	ducale	ducale ducali
+37	7637	immacolato	immacolata immacolato immacolati immacolate
+38	7638	supplementare	supplementari supplementare
+39	7639	immersione	immersione immersioni
+40	7640	committente	committente committenti
+41	7641	ricreare	ricreare ricreato ricrea ricreando ricreata ricreati ricreano ricreate ricrearsi
+42	7642	propensione	propensione propensioni
+43	7643	optare	optare opta opterei optando optano opto opti optò opterò opterà optarono optate
+44	7644	stilista	stilista stilisti
+45	7645	benestante	benestante benestanti
+46	7646	motivare	motivare motiva motivando motivate motivante motivano motivò motivanti motivava
+47	7647	teologo	teologo teologi teologa
+48	7648	privatizzazione	privatizzazione privatizzazioni
+49	7649	sbocco	sbocco sbocchi
+50	7650	contendere	contendenti contendono contendere contende contendente contendevano contenderanno contese contesero contendendo contesi contendeva
+51	7651	bassano	bassano bassani
+52	7652	graffito	graffiti graffito graffite graffita
+53	7653	cattiveria	cattiveria cattiverie
+54	7654	adempiere	adempiere adempiuto adempie adempiendo adempiono adempia adempire adempisse adempì adempi
+55	7655	affidati	affidati
+56	7656	autonomamente	autonomamente
+57	7657	cent	cent
+58	7658	diamine	diamine
+59	7659	digli	digli
+60	7660	doversi	doversi
+61	7661	drasticamente	drasticamente
+62	7662	esserti	esserti
+63	7663	genitali	genitali
+64	7664	internamente	internamente
+65	7665	job	job
+66	7666	ke	ke
+67	7667	lassù	lassù
+68	7668	mala	mala
+69	7669	oscurità	oscurità
+70	7670	periodicamente	periodicamente
+71	7671	riciclaggio	riciclaggio
+72	7672	rotelle	rotelle
+73	7673	uff	uff
+74	7674	mancia	mancia mance
+75	7675	rilevazione	rilevazione rilevazioni
+76	7676	idiozia	idiozia idiozie
+77	7677	tavoletta	tavoletta tavolette
+78	7678	collezionista	collezionista collezionisti
+79	7679	rumoroso	rumoroso rumorosa rumorosi rumorose
+80	7680	fumatore	fumatori fumatore fumatrice
+81	7681	codardo	codardo codardi codarda codarde
+82	7682	mantovano	mantovano mantovani mantovana mantovane
+83	7683	giostra	giostra giostre
+84	7684	grottesco	grottesco grottesca grottesche grotteschi
+85	7685	psicopatico	psicopatico psicopatici psicopatica psicopatiche
+86	7686	coccolare	coccole coccolare coccola coccolato coccoli coccolo coccolano coccolino coccoliamo coccolando coccolate
+87	7687	riprovare	riprovare riprovo riprovato riproviamo riproverò riprovi riprovando riprovano riprovate riprovò riproveremo riproverà
+88	7688	negligenza	negligenza negligenze
+89	7689	plasma	plasma plasmi
+90	7690	starsene	starsene starmene startene stattene statevene starcene standosene starvene
+91	7691	allergia	allergia allergie
+92	7692	palloncino	palloncini palloncino
+93	7693	sdraiato	sdraiato sdraiata sdraiati sdraiate
+94	7694	assolvere	assolvere assolve assolvono assolse assolvendo assolvo assolva assolveva assolverà
+95	7695	zucchina	zucchine zucchina zucchini zucchino
+96	7696	fraintendere	frainteso fraintendere fraintesi fraintese fraintendendo fraintende fraintendete fraintenda fraintendono fraintendi fraintendiamo
+97	7697	inoltrato	inoltrato inoltrata inoltrate inoltrati
+98	7698	plastico	plastico plastici plastiche
+99	7699	palato	palato palate palati palata
+100	7700	automobilista	automobilisti automobilista

@@ -1,0 +1,100 @@
+1	7201	dedito	dedito dedita dediti dedite
+2	7202	letterale	letterale letterali
+3	7203	tana	tana tane
+4	7204	branca	branca branche
+5	7205	edile	edile edili
+6	7206	spasso	spasso spassi
+7	7207	pieve	pieve pievi
+8	7208	tirreno	tirreno tirreni tirrena
+9	7209	improvvisato	improvvisato improvvisati improvvisata improvvisate
+10	7210	intitolare	intitola intitolare intitolava intitolò intitolerà intitolarsi intitolano intitolando intitolarono intitolate
+11	7211	manico	manico manici
+12	7212	prerogativa	prerogativa prerogative
+13	7213	sceneggiatore	sceneggiatore sceneggiatori sceneggiatrice
+14	7214	agevolazione	agevolazioni agevolazione
+15	7215	eclissi	eclissi eclisse
+16	7216	pittorico	pittorica pittorico pittoriche pittorici
+17	7217	platea	platea platee
+18	7218	mattutino	mattutina mattutino mattutine mattutini
+19	7219	scongiurare	scongiurare scongiuro scongiurato scongiuri scongiurando scongiura scongiurò scongiuriamo
+20	7220	egizio	egizio egizi egizia egizie
+21	7221	naviglio	naviglio navigli
+22	7222	peccatore	peccatori peccatore peccatrice
+23	7223	consacrare	consacrato consacrò consacra consacrate consacrare consacrando consacro consacrano consacrarono consacrerà consacriamo consacrava
+24	7224	gregge	gregge greggi
+25	7225	duplice	duplice duplici
+26	7226	ritardare	ritardare ritarda ritardi ritardando ritardano ritardate ritardante ritardò ritardarono ritardanti ritarderà
+27	7227	minaccioso	minaccioso minacciosa minacciosi minacciose
+28	7228	pinguino	pinguini pinguino
+29	7229	reperibile	reperibile reperibili
+30	7230	obsoleto	obsoleto obsoleta obsolete obsoleti
+31	7231	bianconero	bianconeri bianconero bianconera bianconere
+32	7232	benigno	benigni benigno benigna benigne
+33	7233	cestino	cestino cestini
+34	7234	deludere	deludere delude deludi deludendo deludono deluderà deludete deluda deluderanno deluderemo deludo deluderai deluderò
+35	7235	rialzo	rialzo rialzi
+36	7236	eccitare	eccita eccitare eccitano eccitate ecciti eccitando eccitarsi eccitava eccitati eccito
+37	7237	atterraggio	atterraggio atterraggi
+38	7238	accennare	accenna accennare accennano accennando accennava accennavo accenni accennò accennavamo accenniamo accennate
+39	7239	calcolatore	calcolatore calcolatrice calcolatori calcolatrici
+40	7240	cristallino	cristallino cristallina cristalline cristallini
+41	7241	accreditare	accreditato accreditate accredito accreditare accrediti accredita accreditarsi accreditano accreditando accreditò
+42	7242	rovescio	rovescio rovesci riversa riverso riversi
+43	7243	dorare	dora doro dori dorare dorino dorando dorate
+44	7244	processato	processato processati processata processate
+45	7245	esortare	esorta esortato esorto esortava esortare esortando esortò esortano esortiamo esortavano esortarono
+46	7246	dispersione	dispersione dispersioni
+47	7247	finalizzare	finalizzato finalizzate finalizzare finalizza
+48	7248	consuetudine	consuetudine consuetudini
+49	7249	insostenibile	insostenibile insostenibili
+50	7250	abilitato	abilitati abilitato abilitata abilitate
+51	7251	lungi	lungi lunge
+52	7252	perseguitare	perseguita perseguitare perseguitano perseguitava perseguitando perseguiterà perseguitò perseguitate perseguiteranno perseguitavano perseguitarono
+53	7253	portone	portone portoni
+54	7254	imbattuto	imbattuto imbattuta imbattuti imbattute
+55	7255	timbro	timbro timbri
+56	7256	doveroso	doveroso doverosa doverosamente doverose doverosi
+57	7257	investigativo	investigativa investigativo investigative investigativi
+58	7258	pervenire	pervenire pervenuto perviene pervenne pervengono pervennero perverranno pervenendo pervenga perverrà pervenivano pervengano
+59	7259	armamento	armamenti armamento
+60	7260	gestionale	gestionale gestionali
+61	7261	anglosassone	anglosassone anglosassoni
+62	7262	mandorla	mandorle mandorla
+63	7263	pezza	pezza pezze
+64	7264	meteorologico	meteorologiche meteorologico meteorologica meteorologici metereologico
+65	7265	eo	mea meo eo mee mei
+66	7266	fabbricazione	fabbricazione fabbricazioni
+67	7267	recinzione	recinzione recinzioni
+68	7268	presentatore	presentatore presentatrice presentatori
+69	7269	legittimare	legittimato legittimare legittimi legittimate legittimando legittimano legittimante legittimava legittimò
+70	7270	pantaloncino	pantaloncini pantaloncino
+71	7271	mite	mite miti
+72	7272	ingrandire	ingrandire ingrandita ingrandito ingrandisce ingrandite ingranditi ingrandendo ingrandirsi ingrandì ingrandisci ingrandiscono ingrandirono ingrandivano ingrandiva ingrandisca
+73	7273	camerino	camerino camerini
+74	7274	manetta	manette manetta
+75	7275	terrificante	terrificante terrificanti
+76	7276	raffigurante	raffigurante raffiguranti
+77	7277	umiliazione	umiliazione umiliazioni
+78	7278	satirico	satirico satirica satirici satiriche
+79	7279	ricambiare	ricambiare ricambiato ricambia ricambi ricambiando ricambiò ricambiava ricambiano ricambierà ricambiate ricambierò ricambiamo
+80	7280	infuriare	infuriato infuriare infuria infuriava infuriano infuriò infuriate infuriavano infuriando
+81	7281	intestato	intestata intestato intestate intestati
+82	7282	eritreo	eritrea eritrei eritreo eritree
+83	7283	distruttivo	distruttivo distruttiva distruttivi distruttive
+84	7284	fausto	fausto fausta fausti
+85	7285	posare	posare posano poso posò posando posarsi posiamo posava posarono posavano poserà posai posi posasse posati
+86	7286	vittorioso	vittoriosa vittorioso vittoriosi vittoriose
+87	7287	autoctono	autoctoni autoctona autoctone autoctono
+88	7288	generalizzato	generalizzato generalizzata generalizzati generalizzate
+89	7289	sceriffo	sceriffo sceriffi
+90	7290	sintetizzare	sintetizzare sintetizza sintetizzato sintetizzano sintetizzando sintetizzate sintetizzo sintetizzò sintetizzava sintetizzi
+91	7291	saraceno	saraceno saraceni saracino saracena saracene
+92	7292	invariato	invariato invariata invariati invariate
+93	7293	backup	backup
+94	7294	baffi	baffi
+95	7295	camper	camper
+96	7296	disparità	disparità
+97	7297	efficacemente	efficacemente
+98	7298	fattispecie	fattispecie
+99	7299	fermamente	fermamente
+100	7300	maxi	maxi

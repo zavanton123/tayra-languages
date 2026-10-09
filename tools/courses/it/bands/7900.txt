@@ -1,0 +1,100 @@
+1	7801	innegabile	innegabile innegabili
+2	7802	telegramma	telegramma telegrammi
+3	7803	ghiandola	ghiandole ghiandola
+4	7804	vile	vile vili
+5	7805	lodare	lodare lodi lodando lodano lodò loda lodiamo lodava lodarono lodate lodavano
+6	7806	persistere	persiste persistono persistere persisteva persista persistette persistendo persisterà persistevano persistano persistettero persistito
+7	7807	pupazzo	pupazzo pupazzi
+8	7808	affogare	affogare affogato affogando affoga affogati affogata affogo affogano affoghi affogate affogò affoghiamo affogava
+9	7809	investigare	investigare investigando investigato investiga investigate investigano investigava
+10	7810	deridere	deriso deridere deride derisi deridono deridendo derideva derise deridevano deridi
+11	7811	affluenza	affluenza affluenze
+12	7812	annientare	annientare annientato annienta annientata annientati annientano annientando annientate annienterà annientò annienti annientarono
+13	7813	manciata	manciata manciate
+14	7814	suocero	suocero suoceri
+15	7815	sensuale	sensuale sensuali
+16	7816	giubbotto	giubbotto giubbotti
+17	7817	terrazzo	terrazzo terrazzi
+18	7818	incompetenza	incompetenza incompetenze
+19	7819	tango	tango tanghi
+20	7820	adottivo	adottivo adottiva adottivi adottive
+21	7821	oncia	once oncia
+22	7822	polpetta	polpette polpetta
+23	7823	irresponsabile	irresponsabile irresponsabili
+24	7824	aceto	aceto aceti
+25	7825	truffatore	truffatore truffatori truffatrice
+26	7826	roccioso	roccioso rocciosa rocciose rocciosi
+27	7827	arcaico	arcaica arcaico arcaiche arcaici
+28	7828	reperire	reperire reperito reperite reperisce
+29	7829	abilitazione	abilitazione abilitazioni
+30	7830	cisterna	cisterna cisterne
+31	7831	lampadina	lampadina lampadine
+32	7832	avvicinamento	avvicinamento avvicinamenti
+33	7833	avanzamento	avanzamento avanzamenti
+34	7834	predatore	predatori predatore predatrice predatrici
+35	7835	balia	balia balìa balie
+36	7836	squisito	squisito squisita squisiti squisite
+37	7837	astronomico	astronomico astronomica astronomiche astronomici
+38	7838	gallese	gallese gallesi
+39	7839	bilaterale	bilaterali bilaterale
+40	7840	infiltrazione	infiltrazioni infiltrazione
+41	7841	animatore	animatori animatore animatrice animatrici
+42	7842	desideroso	desideroso desiderosi desiderosa desiderose
+43	7843	filmare	filmare filmando filmini filma filmino filmano filmi filmava filmate filmo
+44	7844	veicolare	veicolare veicoli veicolato veicolate veicola veicolano veicolari veicolando
+45	7845	varco	varco varchi
+46	7846	elogiare	elogiato elogia elogiare elogiano elogiando elogiava elogiò
+47	7847	infliggere	infliggere inflitto infliggendo infligge infliggono inflisse infliggersi infliggeva inflissero infliggerà
+48	7848	rispettabile	rispettabile rispettabili rispettabilissimo
+49	7849	insensato	insensata insensato insensate insensati insensatamente
+50	7850	malessere	malessere malesseri
+51	7851	innato	innata innato innate innati
+52	7852	covo	covo covi
+53	7853	soprannaturale	soprannaturale soprannaturali sovrannaturale
+54	7854	abitualmente	abitualmente
+55	7855	ahimè	ahimè
+56	7856	arrivarci	arrivarci
+57	7857	avanzi	avanzi
+58	7858	basic	basic
+59	7859	camorra	camorra
+60	7860	cattolicesimo	cattolicesimo
+61	7861	ergo	ergo
+62	7862	esattezza	esattezza
+63	7863	esposito	esposito
+64	7864	generosità	generosità
+65	7865	infinitamente	infinitamente
+66	7866	eschia	ischia
+67	7867	laggiù	laggiù
+68	7868	nervo	nervo
+69	7869	newsletter	newsletter
+70	7870	nutrizione	nutrizione
+71	7871	platone	platone
+72	7872	protesi	protesi
+73	7873	prudenza	prudenza
+74	7874	seguirlo	seguirlo
+75	7875	spiritualità	spiritualità
+76	7876	tant'è	tant'è
+77	7877	tantomeno	tantomeno
+78	7878	totò	totò
+79	7879	trinità	trinità
+80	7880	ufo	ufo
+81	7881	viabilità	viabilità
+82	7882	volutamente	volutamente
+83	7883	wireless	wireless
+84	7884	salmo	salmo salmi
+85	7885	impaziente	impaziente impazienti
+86	7886	trincea	trincea trincee trincera
+87	7887	litorale	litorale litorali littorale
+88	7888	cognizione	cognizione cognizioni
+89	7889	maestoso	maestoso maestosa maestosi maestose
+90	7890	traiettoria	traiettoria traiettorie
+91	7891	ravvicinato	ravvicinata ravvicinato ravvicinati ravvicinate
+92	7892	eliminarsi	eliminati eliminarsi
+93	7893	condizionale	condizionale condizionali
+94	7894	fesso	fesso fessi fessa fesse fessacchiotto
+95	7895	accarezzare	accarezza accarezzare accarezzato accarezzando accarezzano accarezzava accarezzo accarezzi accarezzò accarezzai accarezzate accarezzarsi accarezzasse
+96	7896	nordico	nordico nordici nordica nordiche
+97	7897	analogico	analogico analogica analogici analogiche
+98	7898	arginare	arginare argini arginato argina
+99	7899	rimborsare	rimborsare rimborsato rimborsa rimborsate rimborsano rimborserà rimborsiamo rimborsando rimborseranno rimborseremo
+100	7900	complemento	complemento complementi

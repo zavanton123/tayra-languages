@@ -1,0 +1,100 @@
+1	8101	monarca	monarca monarchi
+2	8102	esclamare	esclama esclamò esclamato esclamare esclamando esclamava esclamo esclamano esclami esclamai esclamarono
+3	8103	autunnale	autunnale autunnali
+4	8104	concettuale	concettuale concettuali
+5	8105	pensatore	pensatori pensatore pensatrice
+6	8106	attico	attico attica attici attiche
+7	8107	progressione	progressione progressioni
+8	8108	pianista	pianista pianisti
+9	8109	amatore	amatori amatrice amatore
+10	8110	accampamento	accampamento accampamenti
+11	8111	conferimento	conferimento conferimenti
+12	8112	tipografia	tipografia tipografie
+13	8113	gelido	gelido gelida gelide gelidi
+14	8114	macro	macro macri macra
+15	8115	ammalare	ammala ammalare ammalano ammalò ammalo ammali ammalando ammalarono ammalino ammalai ammalava ammalate ammaliamo ammalasse ammalerà ammalavano
+16	8116	agguato	agguato agguati
+17	8117	grattare	gratta grattare grattato grattarsi grattando gratto grattano gratti grattava grattate grattino grattar
+18	8118	incursione	incursioni incursione
+19	8119	graziare	graziano graziato grazi grazio graziare
+20	8120	tuono	tuono tuoni
+21	8121	bussola	bussola bussole
+22	8122	scavalcare	scavalcare scavalcato scavalca scavalcando scavalcano scavalco scavalcata scavalcati scavalcava scavalcò scavalchiamo
+23	8123	antagonista	antagonista antagonisti antagoniste
+24	8124	zara	zara azara zare zaro
+25	8125	penoso	penoso penosa penosi penose
+26	8126	sorpasso	sorpasso sorpassi
+27	8127	bunker	bunker
+28	8128	cacao	cacao
+29	8129	discapito	discapito
+30	8130	dolcemente	dolcemente
+31	8131	emotivamente	emotivamente
+32	8132	felicemente	felicemente
+33	8133	gru	gru
+34	8134	intensamente	intensamente
+35	8135	lasciami	lasciami
+36	8136	metabolismo	metabolismo
+37	8137	mettiti	mettiti
+38	8138	piacimento	piacimento
+39	8139	portarmi	portarmi
+40	8140	prenderli	prenderli
+41	8141	rally	rally
+42	8142	risorgimento	risorgimento
+43	8143	riuscirci	riuscirci
+44	8144	scapito	scapito
+45	8145	scarsità	scarsità
+46	8146	sensibilmente	sensibilmente
+47	8147	sintonia	sintonia
+48	8148	vulnerabilità	vulnerabilità
+49	8149	riscattare	riscattare riscattato riscatta riscattarsi riscattata riscattati riscattano riscattò riscattando riscattate riscatti riscatterà
+50	8150	assalire	assalito assalire assalgono assalì assalirono assalite assalendo assaliva assalivano assali
+51	8151	riporre	riporre ripone ripongono ripongo riponi riponiamo riponeva riponete riponendo ripose riposi riposero riponga riponevano
+52	8152	simboleggiare	simboleggia simboleggiare simboleggiano simboleggiato simboleggiava simboleggiante simboleggianti simboleggiavano simboleggiando simboleggiate
+53	8153	diarrea	diarrea diarree
+54	8154	creta	creta crete creti
+55	8155	coccodrillo	coccodrillo coccodrilli
+56	8156	vincolante	vincolante vincolanti
+57	8157	volatile	volatili volatile
+58	8158	latitudine	latitudine latitudini
+59	8159	incisivo	incisivo incisivi incisiva incisive
+60	8160	poggiare	poggiano poggiare poggiato poggiava poggiando poggiate poggi poggiante poggianti poggiò poggiavano
+61	8161	flauto	flauto flauti
+62	8162	sconvolgere	sconvolge sconvolgere sconvolse sconvolgendo sconvolgono sconvolsero sconvolgerà sconvolga sconvolgerebbe sconvolgeranno sconvolgeva
+63	8163	abortire	abortire abortito abortiva abortisti abortivo abortisce abortive abortiscono abortivi abortisci abortite abortendo abortisca
+64	8164	modellare	modellato modellare modelli modellate modellano modellando modellò modellarsi modellino modellini
+65	8165	esultare	esulta esultare esultato esultano esultando esultante esultava esultate esulto esulti esultanti esultò esultiamo esulteranno
+66	8166	utensile	utensili utensile
+67	8167	meschino	meschino meschina meschini meschine
+68	8168	pedalare	pedalare pedali pedala pedalando pedalò pedalate pedalato pedalo pedalino pedalano pedalini pedaliamo
+69	8169	sbarramento	sbarramento sbarramenti
+70	8170	ribellare	ribella ribellano ribellato ribelli ribellò ribellarono ribellare ribellate ribello ribellando ribellerà ribelliamo ribellino ribellava ribellavano ribellasse
+71	8171	mistica	mistica mistiche
+72	8172	conteggio	conteggio conteggi
+73	8173	capacitare	capacita capacito capaciti
+74	8174	beffa	beffa beffe
+75	8175	liberalizzazione	liberalizzazione liberalizzazioni
+76	8176	pulce	pulci pulce
+77	8177	lasagna	lasagne lasagna
+78	8178	preferibile	preferibile preferibili
+79	8179	posticipare	posticipare posticipato posticipata posticipo posticipate posticipi posticipati posticipa posticipando posticipano
+80	8180	circondario	circondario circondari
+81	8181	proclama	proclama proclami
+82	8182	sanare	sanare sana sani sanato sanate sanati
+83	8183	intensificare	intensificare intensifica intensificato intensificarsi intensificando intensificano intensificò intensificate intensificarono intensifichi
+84	8184	abbonato	abbonati abbonato abbonata abbonate
+85	8185	derivazione	derivazione derivazioni
+86	8186	labbro	labbro labro labbri
+87	8187	cigno	cigno cigni
+88	8188	incline	incline inclini
+89	8189	confiscato	confiscati confiscato confiscata confiscate
+90	8190	istantanea	istantanea istantanee
+91	8191	illudere	illudere illude illudersi illudo illusi illudono illudendo illuda illudi illudiamo illudiamoci illudetevi illudevo illuse illudete illudeva
+92	8192	suddito	sudditi suddito suddita
+93	8193	esaurimento	esaurimento esaurimenti
+94	8194	compensazione	compensazione compensazioni
+95	8195	chiostro	chiostro chiostri
+96	8196	ritmico	ritmica ritmico ritmiche ritmici
+97	8197	gergo	gergo gerghi
+98	8198	argilla	argilla argille
+99	8199	laziale	laziale laziali
+100	8200	archeologo	archeologi archeologo archeologa

@@ -1,0 +1,100 @@
+1	1501	conflitto	conflitto conflitti
+2	1502	esatto	esatto esatta esatte esatti esattissimo
+3	1503	proposto	proposto proposte proposti
+4	1504	sufficiente	sufficiente sufficienti sufficente
+5	1505	indipendente	indipendente indipendenti
+6	1506	sensazione	sensazione sensazioni
+7	1507	componente	componenti componente
+8	1508	crimine	crimine crimini
+9	1509	pesante	pesante pesanti pesantissimo
+10	1510	biblioteca	biblioteca biblioteche
+11	1511	commercio	commercio commerci
+12	1512	definizione	definizione definizioni
+13	1513	adulto	adulti adulto adulta adulte
+14	1514	giardino	giardino giardini
+15	1515	taglio	taglio tagli taglietti taglietto
+16	1516	romanzo	romanzo romanzi romanza romanze
+17	1517	dito	dita dito diti
+18	1518	prigione	prigione prigioni
+19	1519	parlamentare	parlamentari parlamentare parlamenti
+20	1520	soddisfare	soddisfare soddisfatto soddisfatta soddisfatti soddisfa soddisfano soddisfatte soddisfi soddisfacendo soddisfino soddisferà soddisfaceva soddisfo soddisfattissimo soddisferebbe soddisfacevano soddisfacesse soddisfece soddisfarsi soddisfiamo soddisferanno soddisfar
+21	1521	valido	valido valida validi valide validissimo
+22	1522	impiegato	impiegato impiegati impiegata impiegate
+23	1523	pianeta	pianeta pianeti pianete
+24	1524	veneto	veneto veneta veneti venete
+25	1525	scarpa	scarpe scarpa scarpino
+26	1526	accanto	accanto
+27	1527	opportunità	opportunità
+28	1528	concludere	conclude concludere concludendo concluse concludono concludersi concluderà concludo concludiamo concludeva concluda conclusero concludi concludevano concluderanno concluderemo concludano concludesse concludete concluderebbe concludente concludenti concluderò
+29	1529	proseguire	prosegue proseguire proseguendo proseguono proseguito proseguì proseguite prosegui proseguiamo proseguirà proseguiva proseguo proseguiranno prosegua proseguirono proseguiremo proseguivano proseguisse proseguano proseguirò proseguimmo
+30	1530	creazione	creazione creazioni
+31	1531	deputato	deputati deputato deputata deputate
+32	1532	alternativa	alternativa alternative
+33	1533	accusa	accusa accuse
+34	1534	luna	luna lune
+35	1535	distrutto	distrutto distrutta distrutti distrutte
+36	1536	impianto	impianti impianto
+37	1537	tizio	tizio tizi tizia tizie
+38	1538	tesoro	tesoro tesori
+39	1539	cassa	cassa casse cassetta cassette cassone cassoni
+40	1540	minaccia	minaccia minacce minaccie
+41	1541	arrestato	arrestato arrestati arrestata arrestate
+42	1542	legno	legno legna legni
+43	1543	attento	attento attenta attenti attente attentissimo attentissima attentissimi
+44	1544	visitare	visitare visitato visitate visitando visitano visitò visiti visitava visiterà visito visitarono visitavano visitiamo visiteremo visiteranno visiterò visitar visitai visitavo visitasse visiterai
+45	1545	favorire	favorire favorito favorisce favorita favoriti favorendo favoriscono favorite favorisca favorì favoriscano favoriva favorirà favorirono favorirebbe favorivano favorisse favoriranno favorisci favorirebbero favorenti favoritissimo favoriamo favorissero
+46	1546	fotografia	fotografia fotografie
+47	1547	pensione	pensione pensioni
+48	1548	annuncio	annuncio annunci annunzio
+49	1549	stadio	stadio stadi
+50	1550	regina	regina regine reginella
+51	1551	tasso	tasso tassi
+52	1552	accogliere	accolto accogliere accoglie accogliente accolgono accolse accogliendo accogliamo accoglienti accoglierà accolga accogli accoglieva accolgo accoglieranno accolsero accorre accolgano accogliete accoglievano accoglieremo accoglierebbe accogliesse accoglierò accogliessero
+53	1553	ala	ali ala ale
+54	1554	assunto	assunto assunta assunti assunte
+55	1555	provocare	provocare provoca provocato provocando provocano provocò provocate provocante provochi provocherà provocava provocherebbe provocarono provocanti provocavano provoco provocheranno provochino provocasse provocherebbero provochiamo provocarsi
+56	1556	attorno	attorno
+57	1557	luigi	luigi
+58	1558	bruciare	bruciare brucia bruciato bruciata bruciano bruciati bruciando bruciate bruci bruciava bruciò brucio bruciante bruciamo bruciavano bruciarsi brucerà bruciarono bruciasse brucino bruceranno brucianti brucerò brucerei bruceremo brucerebbe brucerai bruciassero brucerete
+59	1559	titolare	titolare titoli titolari titolato titola titolati titolata titolate titolava titolano titolò
+60	1560	citare	cita citare citando cito citano citate citiamo citi citava citati citò citerò citavo citavano citerei citasse citerà citarono citavi citeranno citeremo citino citar
+61	1561	fondato	fondata fondato fondati fondate
+62	1562	sostegno	sostegno sostegni
+63	1563	immigrato	immigrati immigrato immigrata immigrate
+64	1564	copia	copia copie
+65	1565	temperatura	temperatura temperature
+66	1566	competenza	competenze competenza
+67	1567	rompere	rompere rompe rompono rompi rompendo ruppe rompo rompa rompete rompeva romperà rompevano rompesse rompiamo rompano ruppero romperanno romperò romperebbe rompessero ruppi rompevo romperai romperei romperemo romperete
+68	1568	abbandonato	abbandonato abbandonata abbandonati abbandonate
+69	1569	meraviglioso	meraviglioso meravigliosa meravigliosi meravigliose maraviglioso
+70	1570	comando	comando comandi
+71	1571	gratuito	gratuito gratuita gratuiti gratuite
+72	1572	fidanzata	fidanzata fidanzato fidanzati fidanzate fidanzatina fidanzatino fidanzatini
+73	1573	produttore	produttori produttore produttrice produttrici
+74	1574	reddito	reddito redditi
+75	1575	ingresso	ingresso ingressi
+76	1576	dominio	dominio domini domino domina dominii
+77	1577	ante	anti ante
+78	1578	procedura	procedura procedure
+79	1579	mancato	mancato mancata mancati mancate
+80	1580	franco	franco franca franchi franche
+81	1581	olio	olio oli olii oglio
+82	1582	affatto	affatto
+83	1583	chiaramente	chiaramente
+84	1584	principalmente	principalmente
+85	1585	esercizio	esercizio esercizi
+86	1586	investimento	investimenti investimento
+87	1587	ritardo	ritardo ritardi
+88	1588	approvato	approvato approvata approvati approvate
+89	1589	amicizia	amicizia amicizie
+90	1590	raro	raro rara rare rari rarissimo
+91	1591	costituito	costituito costituita costituiti costituite
+92	1592	durare	dura durare durato durerà durano durò duri durava dureranno durasse durarono durando duravano durino durerebbe durate durassero durar dureremo durerebbero durerei
+93	1593	vescovo	vescovo vescovi
+94	1594	quota	quota quote
+95	1595	giallo	giallo gialla gialli gialle giallini giallino giallina
+96	1596	criminale	criminale criminali
+97	1597	scambio	scambio scambi
+98	1598	fan	fan fans
+99	1599	firma	firma firme
+100	1600	ente	enti ente

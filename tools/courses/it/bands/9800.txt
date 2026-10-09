@@ -1,0 +1,100 @@
+1	9701	sfratto	sfratto sfratti
+2	9702	regnante	regnante regnanti
+3	9703	inserto	inserto inserti
+4	9704	sospirare	sospira sospirando sospirare sospirato sospirò sospiri sospirate sospirano
+5	9705	scalzo	scalzi scalzo scalza scalze
+6	9706	sorteggio	sorteggio sorteggi
+7	9707	gancio	gancio ganci
+8	9708	crocetta	crocetta crocette
+9	9709	sporadico	sporadici sporadico sporadiche sporadica
+10	9710	locuzione	locuzione locuzioni
+11	9711	primordiale	primordiale primordiali
+12	9712	arruolato	arruolato arruolati arruolata arruolate
+13	9713	tacchino	tacchino tacchini
+14	9714	vertigine	vertigini vertigine
+15	9715	atalanta	atalanta atalante
+16	9716	ancorato	ancorato ancorata ancorati ancorate
+17	9717	identificabile	identificabile identificabili
+18	9718	ostello	ostello ostelli
+19	9719	fossato	fossato fossati
+20	9720	accoltellare	accoltellato accoltella accoltellare accoltello accoltellate accoltellano accoltellò accoltelli
+21	9721	cavarsela	cavarsela cavartela cavarmela cavarcela cavarvela
+22	9722	generazionale	generazionale generazionali
+23	9723	fasullo	fasulle fasullo fasulla fasulli
+24	9724	screditare	screditare screditato scredita screditando screditano screditate
+25	9725	inculare	incula inculare inculato inculano inculo inculi inculino inculando
+26	9726	granduca	granduca granduchi
+27	9727	nascondiglio	nascondiglio nascondigli
+28	9728	incessante	incessante incessanti
+29	9729	magnate	magnate magnati
+30	9730	carismatico	carismatico carismatica carismatici carismatiche
+31	9731	rievocare	rievoca rievocare rievocato rievocano rievocando rievocava rievocate rievocò
+32	9732	scacchiera	scacchiera scacchiere
+33	9733	tarantino	tarantino tarantini tarantina tarantine
+34	9734	astronave	astronave astronavi
+35	9735	referto	referto referti
+36	9736	stratagemma	stratagemma stratagemmi
+37	9737	compagine	compagine compagini
+38	9738	ingrandimento	ingrandimento ingrandimenti
+39	9739	baluardo	baluardo baluardi
+40	9740	carlino	carlino carlini
+41	9741	grigliata	grigliata grigliate
+42	9742	inarrestabile	inarrestabile inarrestabili
+43	9743	fortificare	fortificato fortificare fortifica fortificate fortificò fortificano fortificarono fortificando fortificarsi
+44	9744	applicativo	applicativi applicativo applicativa applicative
+45	9745	apologia	apologia apologie
+46	9746	paranoico	paranoico paranoica paranoici paranoiche
+47	9747	alighiero	alighieri alighiero
+48	9748	ficcare	ficcare ficco ficca ficcato ficcano ficchi ficcate ficcando ficcante ficcava ficchiamo ficcò ficcanti
+49	9749	troncare	troncare troncato tronchi troncata troncate tronca troncati troncano troncando troncò
+50	9750	cosmetico	cosmetici cosmetico cosmetiche
+51	9751	fallace	fallaci fallace
+52	9752	raddoppio	raddoppio raddoppi
+53	9753	stilistica	stilistica stilistiche
+54	9754	qualificare	qualificare qualificano qualificante qualificate qualificanti qualifichi qualificò qualificava qualificando qualificherà qualificavano qualificheranno qualifichiamo qualificarono
+55	9755	foglietto	foglietto foglietti
+56	9756	fuggitivo	fuggitivi fuggitivo fuggitiva fuggitive
+57	9757	prateria	prateria praterie
+58	9758	energico	energica energico energici energiche
+59	9759	salomone	salomone salomoni
+60	9760	savio	savio savi savia
+61	9761	lustro	lustro lustri lustra lustre
+62	9762	veritiero	veritiera veritiero veritiere veritieri
+63	9763	indennizzo	indennizzo indennizzi
+64	9764	crepare	crepare crepi crepato crepano crepo crepando crepate crepino crepiamo
+65	9765	agevolmente	agevolmente
+66	9766	anarchia	anarchia
+67	9767	apprendistato	apprendistato
+68	9768	aspirapolvere	aspirapolvere
+69	9769	autismo	autismo
+70	9770	basilico	basilico
+71	9771	briciolo	briciolo
+72	9772	cordoglio	cordoglio
+73	9773	crusca	crusca
+74	9774	dandogli	dandogli
+75	9775	dimostrarlo	dimostrarlo
+76	9776	disinteresse	disinteresse
+77	9777	editoria	editoria
+78	9778	eventualità	eventualità
+79	9779	fermezza	fermezza
+80	9780	firewall	firewall
+81	9781	formalità	formalità
+82	9782	giardinaggio	giardinaggio
+83	9783	gorilla	gorilla
+84	9784	handicap	handicap
+85	9785	idoneità	idoneità
+86	9786	intenzionalmente	intenzionalmente
+87	9787	mono	mono
+88	9788	montalbano	montalbano
+89	9789	obbligatoriamente	obbligatoriamente
+90	9790	oltranza	oltranza
+91	9791	pallacanestro	pallacanestro
+92	9792	parlarmi	parlarmi
+93	9793	pedagogia	pedagogia
+94	9794	perderti	perderti
+95	9795	poterne	poterne
+96	9796	ranch	ranch
+97	9797	scanner	scanner
+98	9798	snob	snob
+99	9799	strike	strike
+100	9800	togliermi	togliermi

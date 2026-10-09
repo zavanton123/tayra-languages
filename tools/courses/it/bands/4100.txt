@@ -1,0 +1,100 @@
+1	4001	spaccare	spacca spaccare spacco spaccano spacchi spaccando spaccarsi spacchiamo spaccava spaccate spaccherà spaccò spaccheremo spaccherei spaccherai spaccherò spaccavano spaccherebbe spaccheranno
+2	4002	fascio	fascio fasci
+3	4003	pillola	pillola pillole
+4	4004	irregolare	irregolari irregolare
+5	4005	geniale	geniale geniali
+6	4006	proporzione	proporzione proporzioni
+7	4007	correggere	correggere corregge correggo correggendo corregga correggi correggono correggersi correggiamo correggete correggeva correggerà corresse correggeranno correggano corressi corressero
+8	4008	disciplinare	disciplinare disciplinari disciplinato disciplinata disciplinati disciplinano disciplinate disciplini disciplinanti disciplinando disciplinante disciplinava
+9	4009	portatile	portatile portatili
+10	4010	crudo	crudo cruda crude crudi
+11	4011	campana	campana campane
+12	4012	indigeno	indigeni indigene indigena indigeno
+13	4013	infantile	infantile infantili
+14	4014	candela	candele candela candeline candelina
+15	4015	aborto	aborto aborti
+16	4016	pecora	pecore pecora pecorella pecori
+17	4017	inaugurare	inaugurato inaugura inaugurare inaugurando inaugurò inaugurate inaugurano inauguriamo inaugurerà inaugurava inaugurarono inaugureremo
+18	4018	tollerare	tollerare tollerato tollerante tollera tolleranti tollero tollerate tollerano tolleri tolleriamo tollerava tolleravano tollerando tollererà tollereremo tollerò
+19	4019	udienza	udienza udienze
+20	4020	arrabbiato	arrabbiato arrabbiata arrabbiati arrabbiate arrabbiatissimo
+21	4021	succo	succo succhi
+22	4022	comandare	comandare comandato comandate comandò comandano comandi comandava comandiamo comandando comanderà comandavano comandasse comandassero comanderanno comandarono
+23	4023	fotografare	fotografare fotografato fotografi fotografata fotografa fotografati fotografano fotografate fotografando fotografava fotografiamo fotografò fotografavano fotografavo
+24	4024	spezzare	spezzare spezza spezzo spezzano spezzando spezzate spezzarsi spezzi spezzò spezzino spezzerà spezzava spezzina spezzeranno spezzini spezzarono spezzeremo spezziamo spezzasse spezzerò spezzerei spezzerebbe spezzavano
+25	4025	vigente	vigente vigenti
+26	4026	pasqua	pasqua pascua pasque
+27	4027	ancona	ancona ancone
+28	4028	attuazione	attuazione attuazioni
+29	4029	rituale	rituale rituali
+30	4030	fazione	fazione fazioni
+31	4031	lucido	lucido lucida lucidi lucide
+32	4032	rivestire	riveste rivestito rivestiti rivestono rivestite rivestire rivesta rivestiva rivestendo rivestì rivestirsi rivesti rivestivano rivesto rivestirà rivestano rivestirono
+33	4033	dea	dea dee
+34	4034	andarci	andarci
+35	4035	basket	basket
+36	4036	darmi	darmi
+37	4037	prestazione	prestazione
+38	4038	utilità	utilità
+39	4039	viceversa	viceversa
+40	4040	riscaldamento	riscaldamento riscaldamenti
+41	4041	diamante	diamanti diamante diamantina diamantini
+42	4042	riscontrare	riscontrato riscontra riscontrate riscontrano riscontrare riscontri riscontrando riscontrò riscontriamo riscontrarono riscontrava riscontrino riscontravano riscontrassero riscontrerà riscontrasse
+43	4043	architettonico	architettonico architettonica architettoniche architettonici
+44	4044	convento	convento conventi
+45	4045	coniglio	coniglio conigli coniglia
+46	4046	spuntare	spuntano spuntare spuntino spunti spuntato spuntata spuntati spuntini spuntando spuntate spunterà spuntava spuntò spuntavano spunteranno spuntasse spuntar spuntarono
+47	4047	miele	miele mieli
+48	4048	combinare	combinare combina combinando combinano combini combinate combino combinava combiniamo combinarsi combinerà combinavano combinò combineranno combinarono combinino combinerò combinasse
+49	4049	beneficenza	beneficenza beneficienza
+50	4050	passaporto	passaporto passaporti
+51	4051	istinto	istinto istinti
+52	4052	corno	corna corno corni
+53	4053	sconvolto	sconvolta sconvolto sconvolti sconvolte
+54	4054	riprodurre	riprodurre riproduce riproducono riprodotto riprodursi riproducendo riproduceva riproduca riproducenti riproducente riproducevano riproduciamo riproduci riprodusse riproducano riproduco riprodurrà riprodurranno
+55	4055	svizzero	svizzero svizzeri svizzere
+56	4056	vago	vago vaga vaghi vaghe vaghissimo
+57	4057	specialista	specialista specialisti
+58	4058	defunto	defunto defunti defunta defunte
+59	4059	improbabile	improbabile improbabili
+60	4060	fottere	fotte fottere fotto fottono fotta fotti fottetevi fottano fottendo fottersi fottiamo fotteva fotterà fotter fottesse fotteranno
+61	4061	romeo	romeo romei romea
+62	4062	energetico	energetico energetiche energetici
+63	4063	adesione	adesione adesioni
+64	4064	conveniente	conveniente convenienti
+65	4065	scommessa	scommesse scommessa
+66	4066	accontentare	accontentare accontentarsi accontenta accontento accontentano accontentato accontenti accontentiamo accontenterei accontenterò accontentava accontentò accontentate accontentiamoci accontentando accontentatevi accontenteremo accontenterebbe accontenterà accontenteranno accontentavano accontentarono accontentavo accontentino
+67	4067	citta	citta citti citto
+68	4068	riassumere	riassumere riassume riassumendo riassumono riassumo riassumiamo riassuma riassunse riassumeva riassumi riassumerò
+69	4069	poltrona	poltrona poltrone poltroncina poltroncine poltroni
+70	4070	coordinamento	coordinamento coordinamenti
+71	4071	allargare	allargare allarga allargato allargando allargate allargarsi allargano allargò allargati allarghi allarghiamo allargo allargava allargherà allargarono allargavano allargheremo
+72	4072	impulso	impulso impulsi
+73	4073	esaltare	esalta esaltare esaltato esaltante esaltati esaltano esaltata esaltando esaltate esaltava esaltanti esalti esaltarsi esaltò esalto esaltavano esaltiamo esaltino esaltarono esalterà
+74	4074	esagerare	esagerare esagerando esageriamo esagera esagero esagerate esageri esagerano esagerava esagerasse
+75	4075	banale	banale banali banalissimo banalissima banalissime
+76	4076	disturbare	disturbare disturba disturbato disturbi disturbano disturbate disturbando disturbante disturbava disturbanti disturberà disturbino disturbavano disturbasse disturberò disturbarsi disturberebbe
+77	4077	balcone	balcone balconi balconcino
+78	4078	fascino	fascino fascini
+79	4079	condannare	condannare condannano condannò condannando condanno condannava condanni condanniamo condannarono condannate condannerà condannino condanneranno condannavano condannerebbe condannerei condannasse condannassero
+80	4080	centimetro	centimetri centimetro
+81	4081	apprendere	apprendere apprende apprese apprendiamo apprendono apprendo apprendendo apprendi appresi appresero apprenderà apprenderai apprenda apprenderanno apprendeva apprendevano
+82	4082	boss	boss
+83	4083	box	box
+84	4084	contempo	contempo
+85	4085	cristianesimo	cristianesimo
+86	4086	gratuitamente	gratuitamente
+87	4087	mentalità	mentalità
+88	4088	nazionalità	nazionalità
+89	4089	sapienza	sapienza
+90	4090	tennis	tennis
+91	4091	unicamente	unicamente
+92	4092	rivelazione	rivelazione rivelazioni
+93	4093	tributo	tributo tributi
+94	4094	affondare	affonda affondare affondato affondando affondano affondo affondò affondi affondate affondava affondiamo affonderà affondarono affondavano affonderanno affondasse affondino affonderebbe
+95	4095	apparato	apparato apparati
+96	4096	influenzare	influenzare influenzano influenzando influenzate influenzerà influenzi influenzeranno influenzino influenzò influenzarono influenzerebbe influenzava influenzavano influenzasse
+97	4097	rapina	rapina rapine
+98	4098	perseguire	perseguire perseguito persegue perseguendo perseguono perseguite perseguiva persegua persegui perseguì perseguano perseguiamo perseguivano perseguirà
+99	4099	barone	barone baroni
+100	4100	coerente	coerente coerenti

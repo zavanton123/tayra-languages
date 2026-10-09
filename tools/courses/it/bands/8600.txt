@@ -1,0 +1,100 @@
+1	8501	foca	foca foche
+2	8502	altura	alture altura
+3	8503	congettura	congetture congettura
+4	8504	masso	massi masso
+5	8505	gambero	gamberi gambero gambaro
+6	8506	inquinato	inquinato inquinata inquinati inquinate
+7	8507	incuriosire	incuriosito incuriosisce incuriosire incuriosiva incuriosiscono incuriosite incuriosì
+8	8508	rimonta	rimonta rimonte
+9	8509	peggioramento	peggioramento peggioramenti
+10	8510	sussurrare	sussurra sussurrato sussurrare sussurrava sussurrando sussurrò sussurri sussurrano sussurrate sussurravano
+11	8511	diffidenza	diffidenza diffidenze
+12	8512	decorare	decorare decorate decorano decorando decori decora decoravano decorò decorava decoriamo decorarono
+13	8513	comportamentale	comportamentali comportamentale
+14	8514	statuetta	statuetta statuette
+15	8515	decollare	decollare decolla decollato decollando decollano decolli decollò decollava decollerà decollavano
+16	8516	errare	erro errare erra erri errate errando errano
+17	8517	macellaio	macellaio macellai macellaia
+18	8518	diletto	diletta diletto diletti
+19	8519	agrario	agrario agrari agrarie
+20	8520	caricatore	caricatore caricatori
+21	8521	vascello	vascello vascelli
+22	8522	investigazione	investigazione investigazioni
+23	8523	maiuscola	maiuscola maiuscole
+24	8524	diabolico	diabolico diabolica diabolici diaboliche
+25	8525	montanaro	montanari montanaro montanara montanare
+26	8526	decennale	decennale decennali
+27	8527	placare	placare placa placano placato plachi placò placate placherà placando placar
+28	8528	quantistico	quantistica quantistico quantistici quantistiche
+29	8529	ricevitore	ricevitore ricevitori ricevitrice
+30	8530	durezza	durezza durezze
+31	8531	abbondare	abbondano abbonda abbondare abbondavano abbondava abbondi abbondato abbondando abbondiamo
+32	8532	stucco	stucco stucchi
+33	8533	corale	corale corali
+34	8534	tumulto	tumulti tumulto
+35	8535	aiutami	aiutami
+36	8536	aiutarvi	aiutarvi
+37	8537	aspettarti	aspettarti
+38	8538	astinenza	astinenza
+39	8539	capiva	capiva
+40	8540	comicità	comicità
+41	8541	contestualmente	contestualmente
+42	8542	curtis	curtis
+43	8543	dissoluzione	dissoluzione
+44	8544	emancipazione	emancipazione
+45	8545	gadget	gadget
+46	8546	guardarla	guardarla
+47	8547	lievemente	lievemente
+48	8548	opportunamente	opportunamente
+49	8549	paralisi	paralisi
+50	8550	percento	percento
+51	8551	permettermi	permettermi
+52	8552	pinocchio	pinocchio
+53	8553	playlist	playlist
+54	8554	prenderci	prenderci
+55	8555	psicologicamente	psicologicamente
+56	8556	smaltimento	smaltimento
+57	8557	speaker	speaker
+58	8558	stregua	stregua
+59	8559	tenerla	tenerla
+60	8560	vendicarsi	vendicarsi
+61	8561	violentemente	violentemente
+62	8562	webcam	webcam
+63	8563	allucinazione	allucinazioni allucinazione
+64	8564	scuderia	scuderia scuderie
+65	8565	accidentale	accidentale accidentali
+66	8566	elettromagnetico	elettromagnetico elettromagnetiche elettromagnetica elettromagnetici
+67	8567	legalizzare	legalizzare legalizzato legalizzate legalizza legalizziamo legalizzano legalizzando legalizzassero
+68	8568	prospero	prospero prospera prosperi prospere
+69	8569	opaco	opaco opaca opachi opache
+70	8570	siglare	siglato siglare siglo siglando siglate siglano
+71	8571	coltivatore	coltivatori coltivatore coltivatrice
+72	8572	interruttore	interruttore interruttori
+73	8573	inusuale	inusuale inusuali
+74	8574	sciarpa	sciarpa sciarpe
+75	8575	coreografia	coreografia coreografie
+76	8576	identificativo	identificativo identificativi identificative identificativa
+77	8577	vicentino	vicentino vicentina vicentini vicentine
+78	8578	modulare	modulare moduli modulari modulata modula modulato modulante modulando modulati modulate modulano
+79	8579	lavanderia	lavanderia lavanderie
+80	8580	salame	salame salami
+81	8581	libra	libre libra
+82	8582	nottata	nottata nottate
+83	8583	vortice	vortice vortici
+84	8584	caotico	caotico caotica caotici caotiche
+85	8585	galleggiante	galleggiante galleggianti
+86	8586	erigere	erigere eresse eressero erigendo erige erigono erigersi erigeron erigenda
+87	8587	chiavetta	chiavetta chiavette
+88	8588	morello	morelli morello morella
+89	8589	arca	arca arche
+90	8590	paralizzato	paralizzato paralizzata paralizzati paralizzate
+91	8591	varcare	varcare varcato varchi varca varcando varcò varcano varcarono varcate varcava varcherà
+92	8592	minchiata	minchiate minchiata
+93	8593	canino	canina canino canini canine
+94	8594	ricotta	ricotta ricotte
+95	8595	domenicale	domenicale domenicali
+96	8596	fante	fanti fante
+97	8597	bibita	bibite bibita
+98	8598	inquadratura	inquadratura inquadrature
+99	8599	assemblare	assemblare assemblato assemblati assemblate assemblata assembla assemblando assemblano
+100	8600	pilotare	pilotare pilotato piloti pilotate pilotando piloto pilotava pilotano

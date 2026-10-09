@@ -1,0 +1,100 @@
+1	6501	impresso	impresso impressa impressi impresse
+2	6502	selettivo	selettiva selettivo selettivi selettive
+3	6503	bara	bara bare
+4	6504	dado	dadi dado
+5	6505	stamani	stamani stamane
+6	6506	massimiliano	massimiliano massimiliana
+7	6507	capanna	capanna capanne capannuccia
+8	6508	sugo	sugo sughi
+9	6509	loggia	loggia logge
+10	6510	concittadino	concittadini concittadino concittadina
+11	6511	greggio	grezzo greggio greggi greggia
+12	6512	insufficienza	insufficienza insufficienze
+13	6513	candidarsi	candidarsi candidati
+14	6514	ritrovamento	ritrovamento ritrovamenti
+15	6515	attendibile	attendibile attendibili
+16	6516	monumentale	monumentale monumentali
+17	6517	detestare	detesto detesta detestano detesti detestare detestava detestiamo detestavo detestavano detestando detestate
+18	6518	artificio	artificio artifici artifizio
+19	6519	cucire	cucire cucito cucita cucite cuciti cuce cuci cucendo cucio cuciva cuciono
+20	6520	bullo	bulli bullo bulo
+21	6521	confraternita	confraternita confraternite
+22	6522	manufatto	manufatti manufatto
+23	6523	memorabile	memorabile memorabili
+24	6524	reattore	reattore reattori
+25	6525	lunare	lunare lunari luno
+26	6526	orbita	orbita orbite
+27	6527	bullismo	bullismo
+28	6528	complicità	complicità
+29	6529	concordia	concordia
+30	6530	dom	dom
+31	6531	dossier	dossier
+32	6532	lavoriamo	lavoriamo
+33	6533	metropoli	metropoli
+34	6534	omosessualità	omosessualità
+35	6535	perlomeno	perlomeno
+36	6536	portarlo	portarlo
+37	6537	regolarità	regolarità
+38	6538	semmai	semmai
+39	6539	telecomunicazioni	telecomunicazioni
+40	6540	vecchiaia	vecchiaia
+41	6541	bizantino	bizantina bizantino bizantini bizantine
+42	6542	petrolifero	petrolifera petrolifere petroliferi petrolifero
+43	6543	grana	grana grane
+44	6544	padano	padana padano padani padane
+45	6545	parare	parare parati parato parate pararsi parano paraste parando parò parava pariamo paro
+46	6546	discendere	discende discendono discendere discendeva disceso discendiamo discesero discenda discendendo discendevano discesi discendi discendano discendo discenderebbe discendesse discenderà discendessero
+47	6547	scolpito	scolpito scolpita scolpiti scolpite
+48	6548	battito	battito battiti
+49	6549	cinico	cinico cinica cinici ciniche
+50	6550	traghetto	traghetto traghetti
+51	6551	avorio	avorio avori
+52	6552	eccitato	eccitato eccitata eccitati eccitate eccitatissimo
+53	6553	commissariato	commissariato commissariati commissariata
+54	6554	cresta	cresta creste
+55	6555	novella	novella novelle
+56	6556	pippare	pippo pippi pippare
+57	6557	leopardo	leopardi leopardo
+58	6558	plausibile	plausibile plausibili
+59	6559	zuppa	zuppa zuppe
+60	6560	picchiata	picchiata picchiate
+61	6561	formulazione	formulazione formulazioni
+62	6562	privare	privare priva privi private privarsi privando privati privò privano priverebbe priverà privarono privava priviamo
+63	6563	misurazione	misurazione misurazioni
+64	6564	oculare	oculare oculari
+65	6565	litigio	litigio litigi
+66	6566	slavo	slavi slave slavo slava
+67	6567	riviera	riviera riviere
+68	6568	vaccinazione	vaccinazione vaccinazioni
+69	6569	avanguardia	avanguardia avanguardie
+70	6570	interrogativo	interrogativi interrogativo interrogativa interrogative
+71	6571	gradire	gradisce gradire gradirei gradisca gradiscono gradisco gradite gradiva gradirebbe gradì gradirà gradisci gradirebbero gradiremmo gradivano gradiranno gradisse gradiresti
+72	6572	resurrezione	resurrezione risurrezione resurrezioni
+73	6573	evacuare	evacuare evacuato evacuati evacuate evacuata evacuando evacua evacuo evacuano
+74	6574	solenne	solenne solenni
+75	6575	mediatore	mediatore mediatori mediatrice
+76	6576	creditore	creditori creditore creditrice
+77	6577	culla	culla culle
+78	6578	verdetto	verdetto verdetti
+79	6579	contingente	contingente contingenti
+80	6580	annata	annata annate
+81	6581	irruzione	irruzione irruzioni
+82	6582	colono	coloni colono colona
+83	6583	distare	dista distano distava disti disto distare distan
+84	6584	stuprare	stuprato stuprare stupra stuprano stuprate stupri stuprando stuprò stuprino stuprarono
+85	6585	drink	drink drinks
+86	6586	sudamericano	sudamericano sudamericani sudamericana sudamericane
+87	6587	visuale	visuale visuali
+88	6588	fanatico	fanatici fanatico fanatica fanatiche
+89	6589	nazionalismo	nazionalismo nazionalismi
+90	6590	deficiente	deficiente deficienti deficente
+91	6591	macchiato	macchiato macchiata macchiate macchiati
+92	6592	liberto	liberta liberti liberto
+93	6593	ateneo	ateneo atenei
+94	6594	proverbio	proverbio proverbi
+95	6595	paragonabile	paragonabile paragonabili
+96	6596	scorretto	scorretto scorretta scorretti scorrette
+97	6597	gesso	gesso gessi gessetti gessetto
+98	6598	specialistico	specialistica specialistiche specialistico specialistici
+99	6599	turbato	turbato turbata turbati turbate
+100	6600	naufragio	naufragio naufraghi naufragi

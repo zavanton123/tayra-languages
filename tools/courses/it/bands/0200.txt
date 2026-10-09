@@ -1,0 +1,100 @@
+1	101	caso	caso casi
+2	102	noi	noi
+3	103	dato	dato dati data date
+4	104	bello	bella bello bel belle bellissimo belli bei begli
+5	105	qui	qui quì
+6	106	te	te
+7	107	buono	buona buon buono buone buoni bono bona buonissimo boni bone bueno
+8	108	tu	tu
+9	109	mondo	mondo mondi monde monda
+10	110	arrivare	arriva arrivare arrivato arrivo arrivati arrivano arrivata arrivi arrivando arriverà arrivate arrivò arriveranno arriviamo arrivasse arrivava arrivarono arrivino arrivavano arriveremo arrivassero arriverò arrivai arriverai arriverebbe arrivammo arrivavo arriverebbero arriverete arriverei arrivassi arrivavi arrivavamo arrivassimo arrivar arriveresti arriveremmo arrivereste
+11	111	via	via vie viuzza
+12	112	nessuno	nessuno nessun nessuna nessunissimo
+13	113	credere	credo credere crede credi credono creduto crediamo credevo credete credeva creda credenti credevano credendo credente crederà credano credevamo crederai credevi credette crediate crederanno crederete credettero credersi credesse crederebbe crederò credessi crederei credessero credevate credereste credetti credessimo crederesti crederebbero creder crederemo
+14	114	capire	capire capito capisco capisce capisci capite capiscono capisca capirai capiamo capirà capendo capiranno capì capiscano capirò capii capirebbe capirete capisse capiremo capirsi capirei capirebbero capiresti capirono capiate capiamoci capissi capissero capir capireste capimmo capiremmo capiste capissimo
+15	115	sembrare	sembra sembrano sembrava sembrare sembri sembrerebbe sembrato sembravano sembro sembrerà sembrò sembrate sembrerebbero sembrasse sembriamo sembrino sembreranno sembravi sembravo sembrando sembrarono sembrerò sembrar sembrassero sembravamo sembrerei sembravate sembreresti sembreremmo sembrerai
+16	116	vero	vero vera veri vere verissimo
+17	117	fine	fine fin fini
+18	118	lui	lui
+19	119	vivere	vivere vivo vive viva vissuto vivi vivono viviamo vivendo viveva vivente viventi vissuta vivevano visse vissuti vivete vissute vivevo vivrà vissero viveri vivano vivrai vivranno vivrò vivevamo vivesse vivrei vivremo vivessi viver vivessero vivessimo vivrebbe vivissimi visso vivrete vissi vivremmo
+20	120	sentire	sentire sento sentito sente senti sentirsi sentono sentita sentite sentiamo sentivo sentiva sentiti senta sentendo sentir sentì sentirai sentirà sentivano sentano sentirei sentii sentisse sentiranno sentirete sentiremo sentirò sentivamo sentissi sentivi sentitevi sentirebbe sentiresti sentissero sentirono sentirebbero sentimmo sentireste sentiremmo
+21	121	uomo	uomo uomini omo uom omuncolo huomo
+22	122	contro	contro contra contre contri
+23	123	donna	donne donna donnina donnine donnone
+24	124	usare	usa usare usato usando usata usano usati usate usi usiamo usava usavano userò usò userà useranno usino usavo usasse userei useremo usarono usassero userai userebbe usavamo usai usassi usavi userebbero useresti usar userete usassimo usiate usammo useremmo usavate
+25	125	posto	posto posti posta poste
+26	126	mentre	mentre mentr
+27	127	li	li
+28	128	storia	storia storie historia
+29	129	diverso	diversi diverse diverso diversa diversissimo
+30	130	fino	fino fin sino fina finissimo
+31	131	chiedere	chiesto chiedere chiedo chiede chiedono chiedendo chiedi chiediamo chiese chiedeva chiedevo chiedersi chiedete chieda chiedevano chiederà chiesi chiederei chiederò chiederanno chiesero chiedesse chiederemo chiediti chiedano chiedessi chiedessero chiedevi chiedetevi chiederai chiederete chiediamoci chiederebbe chieder chiedevamo chiederesti chiedemmo chiederebbero chiedessimo chiediate
+32	132	oggi	oggi
+33	133	problema	problema problemi problemino
+34	134	città	città
+35	135	certo	certo certa certe certi certissimo
+36	136	punto	punto punti
+37	137	piacere	piace piacere piacciono piacerebbe piaciuto piaccia piaceva piaci piacerà piaceri piacevano piaccio piacesse piacciano piacendo piacque piacete piaceranno piacer piacente piacerebbero piacessero piacevo piacersi piacevi piacciamo piacenti piacquero piacerò piacessi piacerai piaceresti piaccion
+38	138	qualche	qualche
+39	139	legge	legge leggi
+40	140	figlio	figlio figli figlia figlie
+41	141	momento	momento momenti
+42	142	ultimo	ultimi ultimo ultima ultime ultimissimo
+43	143	pubblico	pubblico pubblica pubblici pubbliche publico
+44	144	paese	paese paesi paesello paesetto
+45	145	amico	amici amico amica amiche amichetto amichetta amichette
+46	146	tre	tre
+47	147	foto	foto
+48	148	troppo	troppo troppi troppe troppa
+49	149	meglio	meglio mei
+50	150	conoscere	conoscere conosco conosciuto conosce conosci conosciuta conoscono conosciuti conosciamo conoscevo conosceva conoscete conosciute conosca conoscendo conoscevano conoscenti conobbe conoscesse conoscente conoscersi conoscano conoscerà conobbi conoscevamo conoscessi conoscerai conoscevi conoscessero conosceranno conobbero conosceremo conoscerete conoscerò conoscessimo conoscevate conosceste conosciate conoscer conosciutissimo
+51	151	lasciare	lascia lasciare lasciato lasciando lascio lasciano lasciate lasci lasciamo lasciar lasciò lasciarsi lascerà lasciava lascerò lasciarono lasceranno lasceremo lasciavano lascerei lascino lasciasse lascerebbe lasciassero lasciatevi lasciai lascerai lascerebbero lasciavo lasciassi lascerete lasceresti lasciammo lasciavi lasciasti lasciassimo lasciaste lasciavamo lascian lascereste
+52	152	nome	nome nomi
+53	153	meno	meno men
+54	154	però	però epperò
+55	155	ciò	ciò
+56	156	sotto	sotto
+57	157	perdere	perdere perso perde perdono perdendo persa perduto persi perdi perse perduta perdo perdiamo perduti perdersi perdute perda perderà perdenti perdente perdeva perdete perderanno perder perderebbe perdoni persero perderai perderò perdano perdesse perdevano perderei perderemo perderete perdetevi perdevo perderebbero perderesti perdessi
+58	158	cercare	cercare cercando cercato cerco cercano cerchi cerchiamo cercate cercava cercavo cercherò cercò cercavano cercherà cercheremo cercheranno cercarono cercasse cerchino cercarsi cercavamo cercavi cercai cercar cercherei cercherai cercassero cercherebbe cercassi cercherebbero cerchiate cercammo cercavate cercheresti cercherete cercan cercatevi cercassimo cercheremmo cercaste
+59	159	tipo	tipo tipi tipa tipe tipaccio tipino
+60	160	pure	pure pur puro pura puri purissimo
+61	161	mese	mesi mese
+62	162	tenere	tenere tenuto tiene tenuta tengo tieni tenendo tengono tenuti tenente terrà tenga tenute tenersi teneva tener tenne tenete teniamo terranno tenevano terrò tenevo tengano tennero terremo tenetevi terrei tieniti tenesse tenessero teniamoci terrebbe tenevi tenenti tenevamo tenessi terrai tenni terrete
+63	163	continuare	continua continuare continuo continuano continui continuato continuate continuando continue continuiamo continuerà continuava continuò continueranno continueremo continuerò continuavano continuata continuarono continuino continuavo continuerai continuasse continuai continuerebbe continuerei continuerete continuassero continuati continuerebbero continuammo continuar continuiate continuavamo continuavi continuassi continuassimo continueresti
+64	164	gruppo	gruppo gruppi gruppetto gruppetti
+65	165	piccolo	piccolo piccola piccoli piccole piccolissimo
+66	166	unico	unico unica unici uniche
+67	167	forse	forse
+68	168	invece	invece
+69	169	entrare	entrare entro entra entrato entrate entrano entri entrando entrò entrava entrerà entriamo entrarono entrasse entreranno entravano entrino entrai entrerò entrassero entravo entreremo entrerebbe entrante entrerai entrar entrerei entranti entrammo entravi entrerete entrassi entrerebbero entravamo entreresti entran entriate
+70	170	parola	parole parola
+71	171	qualcosa	qualcosa qualcosina qualcos
+72	172	portare	portare porto porti portano portando porterà porte portò portava portate portiamo porteranno portarono portavano portarsi porterebbe portante portino porterò portasse portar portanti portavo porteremo portassero porterei porterai porterebbero portai portavi portatevi portassi porteresti porterete portavamo portiate portammo portiamoci portasti portavate
+73	173	migliore	migliore migliori miglior megliore
+74	174	guardare	guarda guardare guardando guardate guardi guardato guardo guardano guardiamo guardava guardavo guardavano guardò guarderò guardai guardino guardavi guarderà guardasse guarderei guarderanno guardavamo guarderai guardar guarderemo guardassi guarderebbe guardarono guardassero guarderete guardammo guardiate guardassimo guarderebbero guarderesti guardan
+75	175	maggiore	maggior maggiore maggiori maiore
+76	176	riuscire	riesco riesce riuscire riescono riesci riesca riusciamo riuscì riuscirà riusciva riuscendo riuscivo riusciranno riuscirai riusciremo riuscirò riescano riuscisse riuscite riuscirono riuscirebbe riuscirei riuscivano riuscii riuscissi riusciresti riuscirete riuscissero riuscissimo riuscirebbero riuscivamo riusciate riuscivi riusciremmo riuscimmo riuscir riuscireste riusciste
+77	177	male	male mal mali malissimo
+78	178	diventare	diventare diventa diventato diventando diventano diventi diventerà diventate diventeranno diventò divento diventasse diventiamo diventino diventava diventerebbe diventerò diventarono diventavano diventeremo diventerai diventassero diventerebbero diventar diventerei diventerete diventassi diventavo diventai diventammo diventeremmo diventan diventeresti diventavi diventassimo diventiate
+79	179	oltre	oltre oltra
+80	180	numero	numero numeri numerino numeretto numerini numeretti
+81	181	qualcuno	qualcuno qualcun qualcuna qualcheduno
+82	182	diritto	diritto diritti dritto dritta dritti dritte diritta diritte
+83	183	famiglia	famiglia famiglie famigliola famigliole
+84	184	seguire	seguire seguente segue seguenti seguendo seguono seguo seguì segua seguiranno seguirà seguiva seguiamo seguite seguirono seguivano seguivo seguano seguirò seguiremo seguisse seguirai seguissero seguir seguirebbe seguirei seguii seguirete seguissi seguirebbero seguivamo seguivi seguìto seguiate seguiresti seguissimo seguimmo seguivate
+85	185	gente	gente genti
+86	186	cambiare	cambiare cambio cambiato cambia cambiano cambi cambiando cambierà cambiate cambieranno cambiamo cambiò cambierebbe cambino cambiava cambierei cambiasse cambierò cambiale cambiar cambiarono cambieremo cambiali cambierai cambiarsi cambiavano cambieresti cambiassero cambiavo cambierebbero cambiassi cambiai cambierete cambiavamo cambiavi
+87	187	allora	allora allor
+88	188	durante	durante duranti
+89	189	niente	niente nient
+90	190	cazzo	cazzo cavolo cazzi cavoli caspita cazzone azz cazzoni caspio
+91	191	mano	mano mani manina mana manine manona
+92	192	santo	san santa santo santi sante santissimo
+93	193	fuori	fuori fuor fora fore fuora
+94	194	lungo	lungo lunga lunghi lunghe longo lunghissimo
+95	195	verso	verso versi
+96	196	voi	voi
+97	197	rendere	rende rendere reso resa rendono rese rendendo resi rendi rendersi rendo renda renderà rendeva rendiamo renderebbe rendano rendete renderanno rendevano resero rendesse render renderai renderebbero renditi renderò renderete rendetevi rendiamoci renderemo rendessero rendevo renderei renderesti rendiate rendessi rendemmo renderemmo rendereste
+98	198	insieme	insieme insiemi insiem
+99	199	comunque	comunque cmq
+100	200	comune	comune comuni commune comunissimo

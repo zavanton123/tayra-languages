@@ -1,0 +1,100 @@
+1	8301	ingiustificato	ingiustificato ingiustificata ingiustificati ingiustificate
+2	8302	eretico	eretici eretico eretica eretiche
+3	8303	spacciato	spacciato spacciata spacciati spacciate
+4	8304	lentezza	lentezza lentezze
+5	8305	videogame	videogame videogames
+6	8306	bacca	bacche bacca
+7	8307	cespuglio	cespugli cespuglio
+8	8308	insicuro	insicuro insicura insicuri insicure
+9	8309	commozione	commozione commozioni
+10	8310	invidioso	invidioso invidiosi invidiosa invidiose
+11	8311	smascherare	smascherare smascherato smaschera smascherati smascherando smascherate smascherano smascheriamo smascheri
+12	8312	riqualificazione	riqualificazione riqualificazioni
+13	8313	emozionare	emozioni emozionare emoziona emozionarsi emoziono emozionano emozionando emozionava
+14	8314	esiliato	esiliato esiliati esiliata esiliate
+15	8315	urbanistico	urbanistico urbanistici urbanistiche
+16	8316	sensibilizzare	sensibilizzare sensibilizzato sensibilizza sensibilizzando sensibilizzate
+17	8317	azzeccato	azzeccato azzeccata azzeccate azzeccati
+18	8318	pandemia	pandemia pandemie
+19	8319	macedone	macedone macedoni
+20	8320	oppresso	oppressi oppresso oppressa oppresse
+21	8321	fermento	fermento fermenti
+22	8322	dolomite	dolomiti dolomite
+23	8323	vico	vico vichi
+24	8324	vibrare	vibrare vibra vibrato vibrano vibrata vibrando vibrava vibro vibrate vibri
+25	8325	utero	utero uteri
+26	8326	ingoiare	ingoiare ingoiato ingoia ingoio ingoi ingoiando ingoiano ingoiate ingoiò ingoiava
+27	8327	torcia	torcia torce
+28	8328	giura	giura iure giuri
+29	8329	sobborgo	sobborgo sobborghi
+30	8330	pappagallo	pappagallo pappagalli
+31	8331	scampo	scampo scampi
+32	8332	cordone	cordone cordoni
+33	8333	dotto	dotto dotti dotta dotte dottissimo
+34	8334	confluire	confluire confluiscono confluisce confluendo confluite confluito confluirono confluivano confluenti confluiranno confluirà confluente confluì confluiva
+35	8335	corredo	corredo corredi corredino
+36	8336	raggruppare	raggruppa raggruppare raggruppate raggruppano raggruppato raggruppando raggruppava raggruppavano
+37	8337	infettivo	infettive infettiva infettivo infettivi
+38	8338	fratellino	fratellino fratellini
+39	8339	sostitutivo	sostitutiva sostitutivo sostitutivi sostitutive
+40	8340	incollare	incolla incollare incollate incollo incollano incollando incolli
+41	8341	fidanzamento	fidanzamento fidanzamenti
+42	8342	maniaco	maniaco maniaci maniaca maniache
+43	8343	anatra	anatra anatre anatroccolo anatroccoli anitra anatrella
+44	8344	antichità	antichità
+45	8345	bridge	bridge
+46	8346	colpevolezza	colpevolezza
+47	8347	confindustria	confindustria
+48	8348	diciannove	diciannove
+49	8349	giornalmente	giornalmente
+50	8350	glutine	glutine
+51	8351	gradimento	gradimento
+52	8352	hockey	hockey
+53	8353	impotenza	impotenza
+54	8354	integralmente	integralmente
+55	8355	notoriamente	notoriamente
+56	8356	pedofilia	pedofilia
+57	8357	pericolosità	pericolosità
+58	8358	proventi	proventi
+59	8359	rapidità	rapidità
+60	8360	sentirlo	sentirlo
+61	8361	spin	spin
+62	8362	velivolo	velivolo velivoli
+63	8363	disarmato	disarmato disarmati disarmata disarmate
+64	8364	lievito	lievito lieviti
+65	8365	nostalgico	nostalgici nostalgico nostalgica nostalgiche
+66	8366	intuitivo	intuitivo intuitiva intuitive intuitivi
+67	8367	infettare	infettare infetti infetta infettano infettate infettarsi infettando infettati infettante infettò infettanti
+68	8368	coniare	coniato coniare coniate conia coniò coniando coniarono coniano
+69	8369	rappresaglia	rappresaglia rappresaglie
+70	8370	costola	costole costola
+71	8371	soffice	soffice soffici
+72	8372	memoriale	memoriale memoriali
+73	8373	esecutore	esecutore esecutori esecutrice
+74	8374	auricolare	auricolari auricolare
+75	8375	casello	casello caselli
+76	8376	immunitario	immunitario immunitaria immunitarie immunitari
+77	8377	carezza	carezze carezza
+78	8378	impugnare	impugnare impugnato impugna impugnando impugnate impugnava impugni impugnano impugnò impugnante impugnerà impugno
+79	8379	agro	agro agri agra
+80	8380	candido	candido candidi candide
+81	8381	soprintendenza	soprintendenza sovrintendenza soprintendenze sopraintendenza sovraintendenza
+82	8382	accomunare	accomuna accomunate accomunano accomunare accomunato accomunava accomuni accomunando
+83	8383	gelare	gela gelare gelano gelando gelava
+84	8384	merlo	merlo merli merle merla merulo
+85	8385	analfabeta	analfabeti analfabeta analfabete
+86	8386	empire	empire empio empi empia empie
+87	8387	dissidente	dissidenti dissidente
+88	8388	scetticismo	scetticismo scetticismi
+89	8389	arredamento	arredamento arredamenti
+90	8390	paradossale	paradossale paradossali
+91	8391	adeguamento	adeguamento adeguamenti
+92	8392	telespettatore	telespettatori telespettatore
+93	8393	carboidrato	carboidrati carboidrato
+94	8394	annotare	annota annotare annotato annotate annotò annotava annotando annoto annotano annoti
+95	8395	stravagante	stravagante stravaganti
+96	8396	indesiderato	indesiderati indesiderate indesiderato indesiderata
+97	8397	nipotina	nipotina nipotini nipotino nipotine
+98	8398	elfo	elfi elfo
+99	8399	scorcio	scorcio scorci
+100	8400	archiviare	archiviare archivi archivia archiviate archiviando archiviano archiviamo

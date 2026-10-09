@@ -1,0 +1,100 @@
+1	6101	autostima	autostima
+2	6102	chiamarlo	chiamarlo
+3	6103	credimi	credimi
+4	6104	darle	darle
+5	6105	dirci	dirci
+6	6106	discrezione	discrezione
+7	6107	eccessivamente	eccessivamente
+8	6108	gi	gi
+9	6109	hobby	hobby
+10	6110	macedonia	macedonia
+11	6111	prendermi	prendermi
+12	6112	prontamente	prontamente
+13	6113	reality	reality
+14	6114	scacchi	scacchi
+15	6115	settecento	settecento
+16	6116	soft	soft
+17	6117	sound	sound
+18	6118	topi	topi
+19	6119	ambasciata	ambasciata ambasciate
+20	6120	potenziare	potenziare potenziato potenziata potenzia potenziati potenziate potenziando potenziano potenzi
+21	6121	sistematica	sistematica sistematiche
+22	6122	rho	ro rho
+23	6123	grazioso	graziosa grazioso graziosi graziose graziosamente graziosissimo graziosissima
+24	6124	devoto	devoto devoti devota devote devotissimo
+25	6125	fungere	funge fungere fungono fungeva funga fungendo fungevano fungerà fungi funto fungesse funse
+26	6126	pisello	pisello piselli pisellino pisellini pisellone
+27	6127	balena	balena balene
+28	6128	gesuita	gesuiti gesuita
+29	6129	griglia	griglia griglie
+30	6130	inadeguato	inadeguato inadeguata inadeguati inadeguate
+31	6131	capitalista	capitalista capitalisti capitaliste
+32	6132	scandaloso	scandaloso scandalosa scandalose scandalosi
+33	6133	ceca	ceca ceche
+34	6134	cubo	cubo cubi cube
+35	6135	esto	este esta esto esti
+36	6136	versamento	versamento versamenti
+37	6137	dotazione	dotazione dotazioni
+38	6138	figliolo	figliolo figlioli figliola figliol figliuolo figliole
+39	6139	dilettante	dilettanti dilettante
+40	6140	ceto	ceto ceti
+41	6141	antologia	antologia antologie
+42	6142	completamento	completamento completamenti
+43	6143	fatale	fatale fatali
+44	6144	cacca	cacca cacche
+45	6145	botto	botto botti
+46	6146	connazionale	connazionali connazionale
+47	6147	obbligazione	obbligazioni obbligazione
+48	6148	sterile	sterile sterili
+49	6149	prudente	prudente prudenti
+50	6150	scoglio	scoglio scogli
+51	6151	scaffale	scaffali scaffale
+52	6152	accertato	accertato accertata accertati accertate
+53	6153	preposto	preposto preposti preposte preposta
+54	6154	vegetazione	vegetazione vegetazioni
+55	6155	interrogazione	interrogazione interrogazioni
+56	6156	audace	audace audaci
+57	6157	simulare	simulare simula simulato simulando simulata simulano simulati simulate simulava simulò simuli simulanti simulavano
+58	6158	sufficienza	sufficienza sufficenza
+59	6159	stupore	stupore stupori
+60	6160	controparte	controparte controparti
+61	6161	raggiungibile	raggiungibile raggiungibili
+62	6162	atletica	atletica atletiche
+63	6163	affollato	affollato affollata affollati affollate affollatissimo
+64	6164	sedurre	sedurre seducente seduce sedotto seducenti seducono sedusse seduca seducendo seduci seduceva
+65	6165	biennale	biennale biennali
+66	6166	bombardare	bombardare bombardato bombarda bombardano bombardando bombardate bombarde bombardarono bombardiamo bombardino bombardavano bombardi bombardò bombardava bombardini
+67	6167	negazione	negazione negazioni
+68	6168	vespa	vespa vespe
+69	6169	perseguitato	perseguitati perseguitato perseguitata perseguitate
+70	6170	pera	pere pera peretta
+71	6171	attitudine	attitudine attitudini
+72	6172	diplomato	diplomato diplomati diplomata diplomate
+73	6173	lirica	lirica liriche
+74	6174	udito	udito udite udita uditi
+75	6175	intrecciare	intrecciano intrecciate intrecciati intreccia intrecciato intrecciare intrecciando intrecciarsi intrecci intrecciò intrecciavano intrecciarono intrecciava
+76	6176	lavatrice	lavatrice lavatrici
+77	6177	aneddoto	aneddoti aneddoto
+78	6178	cartellone	cartellone cartelloni
+79	6179	implicazione	implicazioni implicazione
+80	6180	tappo	tappo tappi
+81	6181	convenienza	convenienza convenienze
+82	6182	spaccato	spaccato spaccata spaccati spaccate
+83	6183	bacheca	bacheca bacheche
+84	6184	ottone	ottone ottoni
+85	6185	monsignore	monsignor monsignore monsignori
+86	6186	ridare	ridare ridato ridà ridanno ridai ridarà ridando ridate ridò ridia ridaranno ridiede ridar ridiamo ridiano ridesse ridemmo ridiate
+87	6187	donatore	donatore donatori donatrice
+88	6188	aiutarmi	aiutarmi
+89	6189	alt	alt
+90	6190	ba	ba
+91	6191	chic	chic
+92	6192	cocktail	cocktail
+93	6193	datemi	datemi
+94	6194	eccoci	eccoci
+95	6195	facci	facci
+96	6196	globalizzazione	globalizzazione
+97	6197	impossibilità	impossibilità
+98	6198	inutilmente	inutilmente
+99	6199	lego	lego
+100	6200	mouse	mouse

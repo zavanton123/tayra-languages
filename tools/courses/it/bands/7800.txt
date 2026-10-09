@@ -1,0 +1,100 @@
+1	7701	perquisizione	perquisizione perquisizioni
+2	7702	asciugamano	asciugamani asciugamano
+3	7703	normanno	normanni normanna normanno normanne
+4	7704	restrittivo	restrittive restrittiva restrittivo restrittivi
+5	7705	discendenza	discendenza discendenze
+6	7706	cileno	cileno cilena cileni cilene
+7	7707	ricondurre	ricondurre ricondotto riconduce ricondursi riconducono riconducendo riconduca ricondusse riconduceva ricondurrà
+8	7708	evincere	evince evincere evincono
+9	7709	feccia	feccia fecce
+10	7710	approssimativo	approssimativa approssimativo approssimativi approssimative
+11	7711	saccheggiare	saccheggiare saccheggiato saccheggi saccheggiando saccheggiate saccheggiano saccheggiarono saccheggia saccheggiò saccheggiavano saccheggiamo
+12	7712	deroga	deroga deroghe
+13	7713	irrazionale	irrazionale irrazionali
+14	7714	rettangolare	rettangolare rettangolari
+15	7715	sfuggita	sfuggita sfuggite
+16	7716	granito	granito granita granite graniti
+17	7717	cospicuo	cospicuo cospicua cospicui cospicue
+18	7718	fratellanza	fratellanza fratellanze
+19	7719	sessista	sessista sessisti sessiste
+20	7720	arancio	arancio aranci
+21	7721	bracciale	bracciale bracciali
+22	7722	corredato	corredato corredata corredate corredati
+23	7723	malinconia	malinconia malinconie melanconia
+24	7724	masticare	masticare mastica masticando mastico masticano mastichi masticato masticava masticate
+25	7725	improprio	improprio impropria impropri improprie
+26	7726	pareggiare	pareggiare pareggiato pareggia pareggiano pareggiando pareggi pareggiate pareggiò pareggiamo
+27	7727	stirpe	stirpe stirpi
+28	7728	fittizio	fittizio fittizia fittizi fittizie
+29	7729	periferica	periferica periferiche
+30	7730	inosservato	inosservato inosservata inosservati inosservate
+31	7731	damasco	damasco damaschi
+32	7732	cascina	cascina cascine
+33	7733	accordare	accorda accordano accordare accordò accordarono accordiamo accordando accordi accordava accordino accordate accorderanno accordavano accorderà
+34	7734	reclutamento	reclutamento reclutamenti
+35	7735	suocera	suocera suocere
+36	7736	rassegnato	rassegnato rassegnati rassegnata rassegnate
+37	7737	pesto	pesto pesta pesti
+38	7738	angelica	angelica angeliche
+39	7739	ricaricare	ricaricare ricaricato ricarico ricarichi ricaricano ricaricando ricaricarsi ricaricate ricarichiamo
+40	7740	slovacco	slovacco slovacca slovacchi slovacche
+41	7741	orecchino	orecchini orecchino
+42	7742	placca	placca placche
+43	7743	inquadrato	inquadrato inquadrati inquadrata inquadrate
+44	7744	affettivo	affettiva affettivo affettivi affettive
+45	7745	biografico	biografico biografici biografiche biografica
+46	7746	urtare	urta urtare urtato urtano urti urtò urtando urtante urtava urtate
+47	7747	gravare	grava gravano gravare gravi gravato gravanti gravava gravante graverà gravate gravavano gravando gravino graverebbe gravò
+48	7748	rilassante	rilassante rilassanti
+49	7749	corrispettivo	corrispettivo corrispettivi corrispettiva corrispettive
+50	7750	stufato	stufato stufati stufata stufate
+51	7751	piccino	piccini piccino piccina piccine
+52	7752	prescrivere	prescrive prescrivere prescrivono prescriveva prescrivo prescrisse prescriva prescrivendo prescriverà prescrivevano
+53	7753	raga	raga ragà raghi
+54	7754	inconveniente	inconveniente inconvenienti
+55	7755	lavoretto	lavoretto lavoretti
+56	7756	disprezzare	disprezza disprezzare disprezzato disprezzano disprezzate disprezzava disprezzando disprezzavano disprezziamo disprezzi
+57	7757	ripiegare	ripiegare ripiego ripiegato ripiegate ripiega ripiegando ripiegano ripiegò ripieghi ripiegarono ripiegava
+58	7758	infondato	infondate infondata infondato infondati
+59	7759	disegnatore	disegnatore disegnatori disegnatrice
+60	7760	bocconi	bocconi
+61	7761	break	break
+62	7762	cavità	cavità
+63	7763	ciononostante	ciononostante
+64	7764	corpus	corpus
+65	7765	donati	donati
+66	7766	enormemente	enormemente
+67	7767	guru	guru
+68	7768	ingiustamente	ingiustamente
+69	7769	lasciarmi	lasciarmi
+70	7770	mas	mas
+71	7771	microonda	microonde
+72	7772	mq	mq
+73	7773	notorietà	notorietà
+74	7774	ops	ops
+75	7775	puzzle	puzzle
+76	7776	quotidianità	quotidianità
+77	7777	rafforzamento	rafforzamento
+78	7778	scoprirlo	scoprirlo
+79	7779	trovarla	trovarla
+80	7780	vagamente	vagamente
+81	7781	vedervi	vedervi
+82	7782	ventiquattro	ventiquattro
+83	7783	western	western
+84	7784	telecomando	telecomando telecomandi
+85	7785	maneggiare	maneggiare maneggio maneggia maneggi maneggiato maneggiando maneggiano maneggiate maneggiava
+86	7786	schiuma	schiuma schiume
+87	7787	intuito	intuito intuita intuite
+88	7788	senese	senese senesi sanese
+89	7789	delizia	delizia delizie
+90	7790	incitare	incita incitare incitato incitano incitava incitando incitò incitavano inciti incitanti
+91	7791	ascoltatore	ascoltatori ascoltatore ascoltatrice
+92	7792	quiete	quiete quieti
+93	7793	consolazione	consolazione consolazioni
+94	7794	risvolto	risvolti risvolto
+95	7795	incastrare	incastrare incastra incastro incastri incastrano incastrarsi incastrate incastrando incastrò incastrati incastrino incastravano
+96	7796	azionario	azionario azionari azionaria azionarie
+97	7797	rovesciare	rovesciare rovesci rovesciò rovesciando rovesciate rovesciano rovesciarono rovesciarsi rovesciava rovescerà rovesciati
+98	7798	gioioso	gioiosa gioioso gioiosi gioiosamente gioiose
+99	7799	personalizzare	personalizzato personalizzare personalizzate personalizza personalizziamo
+100	7800	alfabeto	alfabeto alfabeti

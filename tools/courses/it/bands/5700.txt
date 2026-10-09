@@ -1,0 +1,100 @@
+1	5601	formativo	formativo formativi formativa formative
+2	5602	tassista	tassisti tassista taxista
+3	5603	delineare	delinea delineare delineato delineando delineata delineati delineano delineate delinearsi delineò delineava delineavano delinearono
+4	5604	aggravare	aggravato aggravare aggrava aggravarsi aggravano aggravati aggravate aggravando aggravò aggravi aggravarono aggraverà aggravava aggraverebbe
+5	5605	mozione	mozione mozioni
+6	5606	fisco	fisco fischi
+7	5607	schiacciato	schiacciato schiacciata schiacciati schiacciate
+8	5608	reggia	reggia regge reggie
+9	5609	indirizzare	indirizzare indirizza indirizzate indirizzi indirizzando indirizzò indirizzano indirizzarsi indirizzarono indirizzava indirizzerà indirizziamo indirizzavano
+10	5610	regolamentare	regolamentare regolamentari regolamentato regolamenti regolamentate regolamenta regolamentano regolamentando
+11	5611	dentista	dentista dentisti
+12	5612	tropicale	tropicale tropicali
+13	5613	acquirente	acquirente acquirenti
+14	5614	afferrare	afferrare afferra afferrato afferrò afferrano afferro afferrando afferri afferrate afferrai afferrati afferrava afferrarono afferriamo
+15	5615	interfaccia	interfaccia interfacce
+16	5616	cenare	cenare cenato ceno cenando ceni ceniamo cenate cenano cenerò cenava cenarono
+17	5617	vulnerabile	vulnerabile vulnerabili
+18	5618	nicchia	nicchia nicchie
+19	5619	lastra	lastre lastra lastroni lastrone
+20	5620	oltrepassare	oltrepassare oltrepassato oltrepassa oltrepassando oltrepassano oltrepassata oltrepassi oltrepassò oltrepassate oltrepassati oltrepassava oltrepassarono oltrepassiamo oltrepasso
+21	5621	cruciale	cruciale cruciali
+22	5622	granata	granata granate
+23	5623	denso	denso densa dense densi densissimo
+24	5624	svanire	svanisce svanire svanito svanita svaniscono svaniti svanite svanì svanirà svanendo svanisca svaniranno svanirono svaniva svanirebbe svanisse svaniscano
+25	5625	comportarsi	comportarsi comportatevi
+26	5626	evviva	evviva evvai
+27	5627	comanda	comanda comande
+28	5628	bollente	bollente bollenti
+29	5629	cocaina	cocaina cocaine
+30	5630	salvaguardia	salvaguardia salvaguardie
+31	5631	igiene	igiene igene
+32	5632	soddisfacente	soddisfacente soddisfacenti
+33	5633	figurato	figurati figurato figurata figurate
+34	5634	bugiardo	bugiardo bugiardi bugiarda bugiarde
+35	5635	precoce	precoce precoci precocissimo
+36	5636	fertile	fertile fertili
+37	5637	estremista	estremisti estremista estremiste
+38	5638	incentrare	incentrato incentrati incentrate incentra incentrare incentrano incentrando incentrarsi
+39	5639	atmosferico	atmosferica atmosferico atmosferiche atmosferici
+40	5640	cocco	cocco cocchi cocca cocche
+41	5641	dorsale	dorsale dorsali
+42	5642	circoscrizione	circoscrizione circoscrizioni
+43	5643	tirocinio	tirocinio tirocini
+44	5644	averti	averti
+45	5645	capirlo	capirlo
+46	5646	cuffie	cuffie
+47	5647	economicamente	economicamente
+48	5648	espressamente	espressamente
+49	5649	indifferenza	indifferenza
+50	5650	integrità	integrità
+51	5651	rinascimento	rinascimento
+52	5652	ripetutamente	ripetutamente
+53	5653	sessualità	sessualità
+54	5654	telefilm	telefilm
+55	5655	vederli	vederli
+56	5656	veronica	veronica
+57	5657	bario	bari bario
+58	5658	innalzare	innalzato innalzare innalza innalzano innalzando innalzò innalzate innalzati innalzarsi innalzava innalzarono innalziamo innalzavano innalzi innalzerà innalzo
+59	5659	rigoroso	rigoroso rigorosa rigorosi rigorose
+60	5660	rinviare	rinviato rinvia rinviare rinviate rinviando rinvii rinviano rinviamo rinviò rinviava
+61	5661	distributore	distributore distributori distributrice
+62	5662	ambulanza	ambulanza ambulanze
+63	5663	cartolina	cartolina cartoline
+64	5664	succhiare	succhiare succhia succhi succhiano succhio succhiato succhiando succhiava succhiate succhierei
+65	5665	fondere	fondere fondono fondersi fondi fusi fondendo fondano fuse fusero fonderanno fondeva fondevano fonderà fondesse fonderebbe fonde fonderò
+66	5666	capsula	capsula capsule
+67	5667	panna	panna panne
+68	5668	prevedibile	prevedibile prevedibili
+69	5669	ricompensa	ricompensa ricompense
+70	5670	piastra	piastra piastre piastrine piastrina
+71	5671	genocidio	genocidio genocidi
+72	5672	catastrofe	catastrofe catastrofi
+73	5673	cosciente	cosciente coscienti
+74	5674	discepolo	discepoli discepolo discepola
+75	5675	prosciutto	prosciutto prosciutti
+76	5676	molestia	molestie molestia
+77	5677	flora	flora flore
+78	5678	accostare	accosta accostare accostato accostati accostarsi accostate accosti accosto accostando accostano accostò accostiamo accostava accostarono accostavano
+79	5679	concentrarsi	concentrarsi concentriamoci concentratevi
+80	5680	reclutare	reclute reclutare reclutato recluta reclutando reclutano reclutate reclutava reclutiamo reclutò reclutavano
+81	5681	affittare	affittare affittato affitta affitti affittano affittate affittando affittiamo affittava affittò affittavano
+82	5682	accennato	accennato accennata accennati accennate
+83	5683	ambientato	ambientato ambientata ambientati ambientate
+84	5684	batterio	batteri batterio
+85	5685	aggettivo	aggettivo aggettivi
+86	5686	prode	prodi prode
+87	5687	avvertimento	avvertimento avvertimenti
+88	5688	dinanzi	dinanzi dinnanzi
+89	5689	calmare	calmare calmi calmante calmarsi calmato calmatevi calmanti calmate calmiamoci calmano calmino calmando calmerà calmò calmiamo calmasse calmava calmarono calmerò
+90	5690	adoperare	adoperato adoperando adopera adoperò adoperare adoperano adoperate adoperarsi adoperi adoperino adoperarono adoperava adopero adoperiamo adoperavano adopererà
+91	5691	decesso	decesso decessi
+92	5692	calcare	calcare calca calco calchi calcari calcato calcando calcar calcante calcò calcano
+93	5693	spietato	spietato spietata spietati spietate spietatamente
+94	5694	rumeno	rumeno rumena rumeni rumene
+95	5695	domiciliare	domiciliari domiciliare domiciliato domiciliati domiciliata domiciliate domicili
+96	5696	spaccio	spaccio spacci
+97	5697	semifinale	semifinale semifinali
+98	5698	antenna	antenne antenna
+99	5699	coscia	coscia cosce
+100	5700	sofisticato	sofisticato sofisticata sofisticati sofisticate

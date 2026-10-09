@@ -1,0 +1,100 @@
+1	2701	progettare	progettato progettare progettando progetta progetti progettate progettano progettò progettava progettiamo progettino progettavano progettarono progetterà
+2	2702	separare	separare separa separate separano separarsi separando separi separarono separava separavano separò separerà separiamo separeranno separino separo separeremo separassero separammo separasse
+3	2703	pugno	pugno pugni pugna
+4	2704	salvatore	salvatore salvatori salvatrice salvadore
+5	2705	scandalo	scandalo scandali scandolo
+6	2706	picchiare	picchiato picchiare picchia picchiano picchi picchio picchiati picchiava picchiando picchiavano picchiate picchiò picchiarsi picchiarono picchiamo picchiasse picchierà picchierei picchieranno picchiar picchiavo picchierebbe picchierò
+7	2707	omaggio	omaggio omaggi
+8	2708	calore	calore calori
+9	2709	collaboratore	collaboratori collaboratore collaboratrice
+10	2710	coro	coro cori
+11	2711	metallo	metallo metalli
+12	2712	procedimento	procedimento procedimenti
+13	2713	palestra	palestra palestre
+14	2714	vantare	vanta vantare vanto vantano vantarsi vantava vantato vanti vantando vantavano vantate vantiamo vantò vantino vanterà
+15	2715	aeroporto	aeroporto aeroporti aereoporto aereoporti areoporto
+16	2716	alcol	alcol alcool alcoli
+17	2717	infanzia	infanzia infanzie
+18	2718	stradale	stradale stradali
+19	2719	normativa	normativa normative
+20	2720	polo	polo poli
+21	2721	barbaro	barbara barbari barbaro barbare
+22	2722	dose	dose dosi
+23	2723	profitto	profitto profitti
+24	2724	contemporaneamente	contemporaneamente
+25	2725	peraltro	peraltro
+26	2726	server	server
+27	2727	sinceramente	sinceramente
+28	2728	inventato	inventato inventata inventati inventate
+29	2729	consultare	consultare consulta consultato consulto consultate consultando consulti consultarsi consulte consultano consultò consultava consultiamo consultante consultarono
+30	2730	provvedere	provvedere provveduto provvede provvisto provvederà provvedono provvedendo provvide provveda provvederò provvedo provvedeva provvedi provvedano provvederanno provvederemo provvedevano provvidero provvediamo provvedete provvedesse
+31	2731	sanzione	sanzioni sanzione
+32	2732	riposo	riposo riposi
+33	2733	praticare	praticare praticato praticano praticante praticanti praticate praticando praticava pratichi praticavano praticò pratichiamo praticasse pratichino praticarono praticavo praticassero praticherà
+34	2734	eccessivo	eccessivo eccessiva eccessive eccessivi
+35	2735	anticipo	anticipo anticipi
+36	2736	romantico	romantico romantica romantici romantiche romanticissimo
+37	2737	passeggero	passeggeri passeggero passeggera passeggere
+38	2738	consumatore	consumatori consumatore consumatrice
+39	2739	rifare	rifare rifatto rifà rifarsi rifarei rifanno rifaccio rifai rifacciamo rifacendo rifarò rifaremo rifaccia rifece rifarà rifaceva rifa rifacevano rifaranno rifarai rifaresti rifate rifecero rifarebbe rifacciano rifatevi rifacesse rifar rifacessero rifacessi
+40	2740	sintomo	sintomi sintomo
+41	2741	rinnovare	rinnovato rinnovare rinnova rinnovate rinnovano rinnovando rinnovarsi rinnovò rinnovi rinnoviamo rinnoverà rinnoveranno rinnovarono rinnovava rinnovino rinnoverò
+42	2742	paesaggio	paesaggio paesaggi
+43	2743	bicchiere	bicchiere bicchieri bicchierino bicchier bicchierini
+44	2744	imposto	imposto imposte imposti
+45	2745	sistemare	sistemare sistemato sistemata sistemati sistemate sistemi sistemo sistemando sistemarsi sistemano sistemiamo sistemò sistemerà sistemino sistemava sistemeranno sistemarono sistemerò sistemavano sistemerei sistemeremo
+46	2746	colonia	colonia colonie
+47	2747	geografico	geografica geografiche geografico geografici
+48	2748	torto	torto torti torte
+49	2749	trucco	trucco trucchi
+50	2750	approvazione	approvazione approvazioni
+51	2751	elettronica	elettronica elettroniche
+52	2752	parallelo	parallelo parallele parallela paralleli
+53	2753	scenario	scenario scenari
+54	2754	difensore	difensore difensori
+55	2755	consapevolezza	consapevolezza consapevolezze
+56	2756	costoso	costoso costosa costosi costose costosissimo
+57	2757	danneggiare	danneggiato danneggiare danneggia danneggiate danneggiano danneggiando danneggi danneggerà danneggino danneggerebbe danneggiò danneggiava danneggiarono danneggiante danneggiavano danneggiasse danneggerebbero
+58	2758	nervoso	nervoso nervosa nervosi nervose nervosissimo
+59	2759	delegato	delegato delegati delegata delegate
+60	2760	sconfiggere	sconfiggere sconfitto sconfitti sconfitte sconfigge sconfisse sconfiggeremo sconfiggendo sconfiggono sconfiggi sconfissero sconfiggerà sconfiggeranno sconfiggiamo sconfigga sconfiggerò
+61	2761	atleta	atleti atleta atlete
+62	2762	parcheggio	parcheggio parcheggi
+63	2763	riva	riva rive
+64	2764	protestare	protestare protestanti protestante protestano protestato protesto protestando protestava protesti protestò protestavano protestiamo protestarono protestate protesteranno protesterà
+65	2765	cogliere	cogliere coglie cogli colgo cogliendo colse colgono cogliamo colga coglierà cogliete colsero colsi coglieva coglieremo cogliesse cogliate coglierò colgano coglier coglieranno coglievano
+66	2766	circolazione	circolazione circolazioni
+67	2767	contrastare	contrastare contrastanti contrasta contrasti contrastato contrastata contrastano contrastante contrastando contrastati contrastate contrastava contrastino contrastavano contrastò contrastarono contrasterebbe contrastiamo
+68	2768	striscia	striscia strisce striscioline strisciolina
+69	2769	concorrenza	concorrenza
+70	2770	mercoledì	mercoledì
+71	2771	mo	mo
+72	2772	profondamente	profondamente
+73	2773	red	red
+74	2774	rifiuto	rifiuto
+75	2775	troia	troia troie
+76	2776	divieto	divieto divieti
+77	2777	scadenza	scadenza scadenze
+78	2778	vietato	vietato vietata vietati vietate vietatissimo
+79	2779	appoggio	appoggio appoggi
+80	2780	abbattere	abbattere abbattuto abbattuti abbatte abbattuta abbattendo abbattute abbattono abbattersi abbatti abbatté abbatterà abbattiamo abbatterono abbattete abbatta abbatteranno abbatto abbatteremo abbatteva abbattevano abbattano abbattesse abbattè
+81	2781	variabile	variabile variabili
+82	2782	universo	universo universi universa
+83	2783	tecnologico	tecnologico tecnologica tecnologici tecnologiche
+84	2784	nucleo	nucleo nuclei
+85	2785	abbracciare	abbraccia abbracciare abbracciato abbracciano abbracci abbracciando abbracciati abbracciò abbracciava abbracciate abbracciamo abbracceremo abbracciarsi abbracciamoci abbracciavano abbracciasse abbracciarono abbraccerà abbraccerei abbraccino abbraccerò abbracciante abbracciatevi abbracciavo abbracceranno abbracciai abbraccerai abbracciavi abbracciassi
+86	2786	tumore	tumore tumori
+87	2787	tubo	tubo tubi tubicino
+88	2788	sedia	sedia sedie
+89	2789	apprezzato	apprezzato apprezzata apprezzati apprezzate apprezzatissimo
+90	2790	penna	penna penne
+91	2791	esplodere	esplodere esplode esploso esplose esplodono esplosi esploderà esplodendo esploda esplodeva esplodesse esplosero esploderanno esplodenti esplodo esplodevano esplodi esplodente esplodano esploderebbe
+92	2792	esaminare	esaminare esaminato esamina esaminando esaminate esaminano esaminiamo esaminerà esamineremo esaminò esaminerò esaminava esamineranno esaminarono esaminavano esaminasse esamino esamini
+93	2793	pesca	pesca pesche
+94	2794	diario	diario diari
+95	2795	catalogo	catalogo cataloghi
+96	2796	pittore	pittore pittori pittrice pintore
+97	2797	ragionare	ragionare ragiona ragioni ragionando ragionato ragionano ragionata ragioniamo ragionate ragiono ragionava ragionati ragionavo ragionasse ragionino ragionassero ragionavano
+98	2798	settentrionale	settentrionale settentrionali
+99	2799	cucinare	cucinare cucinato cucino cucinano cucini cucinando cucinava cucinate cuciniamo cucinavo cucinerà cucinerò cucinavano cucinino cucineranno cucinò
+100	2800	immigrazione	immigrazione immigrazioni

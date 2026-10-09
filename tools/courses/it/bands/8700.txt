@@ -1,0 +1,100 @@
+1	8601	malcontento	malcontento malcontenti malcontenta
+2	8602	lussuoso	lussuoso lussuosa lussuose lussuosi
+3	8603	sospiro	sospiro sospiri
+4	8604	eccitazione	eccitazione eccitazioni
+5	8605	famigerato	famigerato famigerata famigerati famigerate
+6	8606	innamorarsi	innamorarsi innamorati innamoratevi
+7	8607	flessione	flessione flessioni
+8	8608	comandamento	comandamenti comandamento
+9	8609	riformista	riformista riformisti riformiste
+10	8610	asfalto	asfalto asfalti
+11	8611	londinese	londinese londinesi
+12	8612	tomo	tomo tomi
+13	8613	mastro	mastro mastri mastra
+14	8614	nasale	nasale nasali
+15	8615	corrompere	corrompere corrompe corrompono corrompendo corruppe corrompa
+16	8616	attrito	attrito attriti
+17	8617	apprestare	appresta apprestano apprestava appresto apprestò apprestavano apprestiamo apprestando appresti apprestare apprestate apprestarono apprestato
+18	8618	suffragio	suffragio suffragi
+19	8619	modico	modica modico modici modiche
+20	8620	sperduto	sperduto sperduta sperduti sperdute
+21	8621	eresia	eresia eresie resia
+22	8622	pulcino	pulcini pulcino
+23	8623	pacato	pacato pacata pacati pacate
+24	8624	emirato	emirati emirato
+25	8625	tifare	tifare tifa tifano tifato tifavo tifando tifiamo tifava tifi tiferò tifavano
+26	8626	redigere	redigere redige redigendo redasse redigono redigerà rediga redigeva
+27	8627	introduttivo	introduttivo introduttiva introduttivi introduttive
+28	8628	fomentare	fomentare fomenta fomentato fomentano fomento fomentando fomentate fomentò
+29	8629	storiella	storiella storielle
+30	8630	sillaba	sillaba sillabe
+31	8631	cazzeggiare	cazzeggiare cazzeggio cazzeggiando cazzeggia cazzeggi cazzeggiato cazzeggiano cazzeggiate
+32	8632	rettifica	rettifica rettifiche
+33	8633	annotazione	annotazioni annotazione
+34	8634	disumano	disumano disumana disumane disumani
+35	8635	ghiacciato	ghiacciata ghiacciato ghiacciate ghiacciati
+36	8636	verificatosi	verificatosi verificatisi verificatasi verificatesi
+37	8637	sfrenato	sfrenato sfrenata sfrenati sfrenate
+38	8638	agonia	agonia agonie
+39	8639	ubicazione	ubicazione ubicazioni
+40	8640	aiutarla	aiutarla
+41	8641	bike	bike
+42	8642	concomitanza	concomitanza
+43	8643	decenza	decenza
+44	8644	generalità	generalità
+45	8645	ironicamente	ironicamente
+46	8646	mandarlo	mandarlo
+47	8647	maremma	maremma
+48	8648	occasionalmente	occasionalmente
+49	8649	onlus	onlus
+50	8650	provarlo	provarlo
+51	8651	psiche	psiche
+52	8652	riservatezza	riservatezza
+53	8653	superman	superman
+54	8654	vitalità	vitalità
+55	8655	vodka	vodka
+56	8656	voucher	voucher
+57	8657	zoom	zoom
+58	8658	guerriglia	guerriglia guerriglie
+59	8659	arcangelo	arcangelo arcangeli
+60	8660	dormitorio	dormitorio dormitori
+61	8661	pergamena	pergamena pergamene
+62	8662	pippa	pippa pippe
+63	8663	credenziale	credenziali credenziale
+64	8664	oppressione	oppressione oppressioni
+65	8665	coniugale	coniugale coniugali
+66	8666	contatore	contatore contatori
+67	8667	privilegiare	privilegi privilegiare privilegia privilegiando privilegiate privilegiano privilegiava privilegiò
+68	8668	sconcertante	sconcertante sconcertanti
+69	8669	attinente	attinenti attinente
+70	8670	lessico	lessico lessici
+71	8671	rifacimento	rifacimento rifacimenti
+72	8672	aura	aura aure
+73	8673	allegare	allegare allego allega allegando allegano alleghi
+74	8674	mittente	mittente mittenti
+75	8675	logistico	logistico logistici logistiche
+76	8676	ardente	ardente ardenti
+77	8677	inattivo	inattivo inattivi inattiva inattive
+78	8678	aroma	aroma aromi
+79	8679	domenicano	domenicano domenicani domenicana domenicane
+80	8680	rione	rione rioni
+81	8681	vietnamita	vietnamita vietnamiti vietnamite
+82	8682	sporcare	sporcare sporcarsi sporcano sporcato sporcata sporcate sporcando sporcati sporchiamo sporchino sporcava
+83	8683	turbine	turbine turbini
+84	8684	irritare	irrita irritare irritano irritando irriti irritò irritava irritarsi irrito irritate
+85	8685	mammifero	mammiferi mammifero
+86	8686	diagnosticare	diagnosticato diagnosticare diagnosticate diagnosticò diagnosticano diagnosticarono
+87	8687	deportato	deportati deportato deportata deportate
+88	8688	approdo	approdo approdi
+89	8689	gufo	gufo gufi gufetto gufetti
+90	8690	epatico	epatica epatico epatiche epatici
+91	8691	sminuire	sminuire sminuisce sminuito sminuendo sminuiscono sminuite sminuisca
+92	8692	rossino	rossini rossino
+93	8693	mazzetta	mazzette mazzetta
+94	8694	frangia	frange frangia
+95	8695	ovviare	ovviare ovvia ovvi ovviato ovviando ovvii
+96	8696	demenza	demenza demenze
+97	8697	scusarsi	scusarsi scusatevi
+98	8698	saccheggio	saccheggio saccheggi
+99	8699	pittoresco	pittoresco pittoresca pittoreschi pittoresche
+100	8700	rivincita	rivincita rivincite

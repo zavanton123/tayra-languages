@@ -1,0 +1,100 @@
+1	5201	didattica	didattica didattiche
+2	5202	amatoriale	amatoriale amatoriali
+3	5203	ciclista	ciclisti ciclista cicliste
+4	5204	contestato	contestato contestata contestati contestate
+5	5205	cancellazione	cancellazione cancellazioni
+6	5206	lamento	lamento lamenti
+7	5207	deporre	deposto deporre depone depongono depose deponendo deposero deponga deponi deponete deporrà deponevano deponeva deporranno
+8	5208	ambizioso	ambizioso ambiziosa ambiziosi ambiziose
+9	5209	iscrivere	iscrivere iscrive iscrivono iscrivo iscrivi iscrisse iscrivendo iscrissi iscriverà iscriva iscriverò iscrissero iscrivete iscriviamo iscriverei iscriveva iscrivano iscriverai
+10	5210	busto	busto busti
+11	5211	tigre	tigre tigri
+12	5212	trapano	trapani trapano
+13	5213	suddiviso	suddiviso suddivisi suddivisa suddivise
+14	5214	rintracciare	rintracciare rintracciato rintraccia rintracciati rintracciata rintracciate rintracciano rintracciando rintraccio rintracciò rintracciamo
+15	5215	belga	belga belgi belghe
+16	5216	calmo	calmo calmi calmissimo calme
+17	5217	sirena	sirena sirene sirenetta
+18	5218	ditemi	ditemi
+19	5219	dopotutto	dopotutto
+20	5220	ego	ego
+21	5221	essermi	essermi
+22	5222	prenderlo	prenderlo
+23	5223	prestigio	prestigio
+24	5224	pub	pub
+25	5225	renderlo	renderlo
+26	5226	welfare	welfare
+27	5227	maledizione	maledizione maledizioni
+28	5228	rinnovabile	rinnovabili rinnovabile
+29	5229	residenziale	residenziale residenziali
+30	5230	cantone	cantone cantoni
+31	5231	convivenza	convivenza convivenze
+32	5232	schifoso	schifoso schifosa schifosi schifose
+33	5233	giovare	giovan giova gioverebbe giovato giovi giovare giovano gioverà giovo giovino giovarsi giovò gioveranno giovando giovarono gioverebbero giovava
+34	5234	pulsante	pulsante pulsanti
+35	5235	brevetto	brevetto brevetti
+36	5236	casta	casta caste
+37	5237	ragno	ragno ragni aragno
+38	5238	dubitare	dubitare dubita dubitato dubitano dubitando dubitavo dubitate dubitava dubitiamo dubiti dubitavano dubitò dubitavi dubiterei
+39	5239	funebre	funebre funebri
+40	5240	attrarre	attrarre attrae attraggono attrasse attraendo attragga attraeva attrai attrassero attraggo attraggano attraevano
+41	5241	parroco	parroco parroci
+42	5242	devastante	devastante devastanti
+43	5243	serale	serale serali
+44	5244	marciare	marciare marciano marciando marciato marciana marci marciò marciavano marciava marciarono marciamo marciani marciante marceranno marceremo marcerà marcino
+45	5245	stesura	stesura stesure
+46	5246	itinerario	itinerario itinerari
+47	5247	valvola	valvola valvole
+48	5248	infarto	infarto infarti
+49	5249	carbonio	carbonio carboni
+50	5250	fiorire	fiorire fiorito fiorisce fiorita fiorite fioriti fioriscono fiorì fiorirono fiorirà fioriranno fioristi fiorendo fioriva fiorivano fiorisca fioriscano
+51	5251	demonio	demonio demoni demonietto
+52	5252	cascata	cascata cascate cascatella
+53	5253	caserma	caserma caserme casermone
+54	5254	ossessione	ossessione ossessioni
+55	5255	scomodo	scomodo scomoda scomode scomodi scomodissimo
+56	5256	combustibile	combustibile combustibili
+57	5257	generatore	generatore generatori
+58	5258	mediocre	mediocre mediocri
+59	5259	restrizione	restrizioni restrizione
+60	5260	apprendimento	apprendimento apprendimenti
+61	5261	bulgaro	bulgaro bulgari bulgara bulgare
+62	5262	eretto	eretto eretta eretti erette
+63	5263	bilancia	bilancia bilance
+64	5264	distacco	distacco distacchi
+65	5265	orfano	orfani orfano orfana orfane
+66	5266	selvatico	selvatico selvatici selvatica selvatiche salvatico
+67	5267	algoritmo	algoritmo algoritmi
+68	5268	falla	falla falle
+69	5269	equipaggio	equipaggio equipaggi
+70	5270	sottofondo	sottofondo sottofondi
+71	5271	prelevare	prelevare prelevato prelevate preleva prelevando prelevano prelevo prelevi prelevò prelevava prelevavano preleverà prelevarono
+72	5272	discarica	discarica discariche
+73	5273	deviare	deviare deviato deviata deviati devia deviate deviando deviante devianti deviano devi deviò devio deviava deviarono
+74	5274	rispecchiare	rispecchia rispecchiano rispecchiare rispecchi rispecchiava rispecchiavano rispecchiato rispecchiando rispecchio rispecchino rispecchiasse rispecchiate
+75	5275	prenotazione	prenotazione prenotazioni
+76	5276	formulare	formulare formulato formulate formulando formulò formulano formuli formulo formuliamo formularono formulava formulerà
+77	5277	indire	indetto indica indire indicano indici indisse indicono indir indicendo indico
+78	5278	onorevole	onorevole onorevoli
+79	5279	fulmine	fulmine fulmini
+80	5280	vulcano	vulcano vulcani
+81	5281	strumentale	strumentale strumentali
+82	5282	mercante	mercanti mercante
+83	5283	multimediale	multimediale multimediali multimedia
+84	5284	risentire	risente risentito risentire risentono risentiamo risentì risentendo risentirà risento risenta risenti risentiva risentirsi risentirebbe risentirono risentiranno risentano risentivano risentiremo risentite
+85	5285	rapimento	rapimento rapimenti
+86	5286	paradosso	paradosso paradossi paradossa
+87	5287	minuscolo	minuscolo minuscola minuscole minuscoli
+88	5288	vomito	vomito vomita vomiti
+89	5289	moderatore	mod moderatore moderatori moderatrice
+90	5290	dogana	dogana dogane
+91	5291	ottimista	ottimista ottimisti ottimiste
+92	5292	fauna	fauna faune
+93	5293	oso	oso osa osi ose
+94	5294	bollo	bollo bollino bollini bolli
+95	5295	carrello	carrello carrelli
+96	5296	mercurio	mercurio mercuri
+97	5297	spoglio	spoglie spoglio spoglia spogli
+98	5298	terapeutico	terapeutico terapeutica terapeutiche terapeutici
+99	5299	atomico	atomica atomico atomiche atomici
+100	5300	brand	brand

@@ -1,0 +1,100 @@
+1	1301	costringere	costretto costringe costringere costringendo costringono costrinse costringerà costringeva costrinsero costringi costringa costringerebbe costringo costringeranno costringevano costringiamo costringete costringesse costringano costringersi costringerebbero costrinsi
+2	1302	traffico	traffico traffici
+3	1303	ciascuno	ciascuno ciascuna ciascun ciascheduno
+4	1304	cena	cena cene
+5	1305	montagna	montagna montagne
+6	1306	basato	basato basata basate basati
+7	1307	destinato	destinato destinati destinata destinate
+8	1308	contento	contento contenta contenti contente contentissimo
+9	1309	ringraziare	ringrazio ringraziare ringrazia ringraziamo ringraziato ringraziano ringraziando ringrazi ringraziate ringrazierò ringraziò ringrazierà ringraziava ringrazierai ringrazieranno ringrazierei ringrazierete ringraziavano ringrazieremo ringraziar ringraziavo ringraziai
+10	1310	attesa	attesa attese
+11	1311	intervista	intervista interviste
+12	1312	democratico	democratico democratica democratici democratiche
+13	1313	possedere	possiede possedere possiedono possedeva posseduto possiedo possiedi posseggono possedevano possediamo possieda possedendo possedesse possegga possedete posseggano possedette possiedano possedessero possedevo possedettero possiederà possedevi possedessi possederà
+14	1314	attualmente	attualmente
+15	1315	coraggio	coraggio
+16	1316	velocità	velocità
+17	1317	passione	passione passioni
+18	1318	raccolto	raccolto raccolti raccolte
+19	1319	piatto	piatto piatti piatta piatte piattino
+20	1320	morale	morale morali
+21	1321	agire	agire agisce agito agiscono agendo agisca agisci agiva agivano agiscano agiamo agirà agiate agì agiranno agisco agite agirono agiremo agisse agirebbe agissero agir agirò agirei
+22	1322	gatto	gatto gatti gatta gattini gattino gattina gatte gattine gattuccio
+23	1323	espresso	espresso espressa espresse espressi
+24	1324	giudicare	giudicare giudicato giudica giudicati giudicata giudicate giudicano giudico giudicando giudichi giudicò giudicante giudichiamo giudicherà giudicava giudicanti giudichino giudicheranno giudicavano giudicarono giudicherò giudicar giudicheremo giudicherete giudicherei giudicasse giudicavo giudicherebbe giudicherai
+25	1325	villa	villa ville
+26	1326	frequentare	frequentare frequentato frequenti frequenta frequentano frequentando frequentata frequentati frequento frequentate frequentava frequentavano frequentavo frequentò frequentarsi frequentiamo frequentanti frequentasse frequentarono frequentino frequentavamo frequenterà frequentante frequentatissimo frequentavi frequenterai frequentassero frequenterò frequenteranno frequentai
+27	1327	dispiacere	dispiace dispiacere dispiaciuto dispiacerebbe dispiaceva dispiaccia dispiaceri dispiacciono dispiacerà dispiaccio dispiacesse dispiacque dispiacersi dispiacerebbero
+28	1328	tendenza	tendenza tendenze
+29	1329	pomeriggio	pomeriggio pomeriggi pomeridiana pomeridiano pomeridiane pomeridiani pome
+30	1330	villaggio	villaggio villaggi
+31	1331	credito	credito crediti
+32	1332	limitare	limitare limiti limita limitano limitarsi limitate limitando limito limitò limitava limitati limitiamo limiterò limitante limiterà limitavano limitiamoci limitarono limitasse limiterebbe limitino limiteranno limitanti limiteremo limitatevi limitassero limitavo limiterei limiterebbero
+33	1333	zero	zero zeri
+34	1334	istruzione	istruzione istruzioni
+35	1335	straordinario	straordinario straordinaria straordinari straordinarie
+36	1336	divenire	divenne divenuto diviene divenire divennero diverrà divenendo divengono divenisse diverranno divenga diveniva divenni diverrebbe divenivano divenir divengano divenissero diverrebbero diverrò diveniamo diverrai diverrete diverremo
+37	1337	racconto	racconto racconti
+38	1338	schifo	schifo schifi
+39	1339	considerazione	considerazione considerazioni
+40	1340	gamba	gambe gamba
+41	1341	industriale	industriale industriali
+42	1342	addirittura	addirittura
+43	1343	cento	cento
+44	1344	sebbene	sebbene
+45	1345	super	super
+46	1346	annunciare	annunciato annuncia annunciare annunciano annunciò annunciando annunciate annunciava annunciamo annuncerà annunciavano annunciarono annunziare annunceranno annunciasse annunceremo annuncerò annunciante annuncino
+47	1347	lettura	lettura letture
+48	1348	medicina	medicina medicine
+49	1349	gusto	gusto gusti
+50	1350	tentare	tentare tenta tentando tentano tentò tenti tentava tento tentarono tentavano tenterà tentiamo tentar tenteranno tenterò tentasse tentavo tentate tenteremo tentai tentino tenterei tentassero tenterebbe tentavi tentassi tentammo
+51	1351	incluso	incluso inclusi inclusa incluse
+52	1352	inviare	inviare invio invia inviando inviate inviano inviò invii inviava invieranno invierà inviamo inviarono invierò inviavano invieremo inviasse inviarsi inviai inviar inviino inviassero invierai
+53	1353	dipartimento	dipartimento dipartimenti
+54	1354	zio	zio zia zii zie zietta ziano zietto
+55	1355	sportivo	sportivo sportiva sportivi sportive
+56	1356	comitato	comitato comitati
+57	1357	ospitare	ospita ospitare ospiti ospitato ospitano ospiterà ospitante ospitava ospitate ospitando ospitò ospitanti ospiteranno ospitavano ospito ospitiamo ospiteremo ospitarono ospitasse
+58	1358	indossare	indossare indossa indossato indosso indossando indossano indossava indossi indossavano indossate indossavo indosserà indossiamo indossò indosserò indossino indossasse indosseranno indosserebbe indosserai indossai indosserei indossassero indosseremo indossarono indosserete
+59	1359	rischiare	rischia rischiare rischiano rischiato rischi rischiando rischiamo rischiava rischierebbe rischiate rischierei rischiavano rischiò rischieresti rischierebbero rischiavo rischierà rischieranno rischino rischieremmo rischiavi rischiasse rischierò rischiarono rischiavamo rischierai rischiereste
+60	1360	saltare	saltare salta saltato salti saltano saltando saltata saltate saltati saltò salterà saltava saltiamo saltar saltasse saltavano saltino salteranno saltavo saltarono salterei saltai salterò salterebbe salterebbero saltassero salterai saltan saltavamo
+61	1361	unione	unione unioni
+62	1362	evidente	evidente evidenti evidentissimo
+63	1363	ristorante	ristorante ristoranti
+64	1364	carriera	carriera carriere
+65	1365	fisico	fisico fisici fisiche
+66	1366	dettagli	dettagli
+67	1367	farti	farti
+68	1368	immediatamente	immediatamente
+69	1369	ovunque	ovunque
+70	1370	prof	prof
+71	1371	specialmente	specialmente
+72	1372	team	team
+73	1373	democrazia	democrazia democrazie
+74	1374	sfida	sfida sfide
+75	1375	registrato	registrato registrati registrata registrate
+76	1376	conservare	conservare conserva conservato conservati conservate conservano conservando conservo conservi conservò conserve conservava conserviamo conservanti conserverà conservavano conservante conservarono conservarsi conserverò conservino conservasse conserveranno conserveremo conserverai conservassero conservavo conservatevi conserverebbe
+77	1377	dichiarato	dichiarato dichiarata dichiarati dichiarate
+78	1378	rivoluzione	rivoluzione rivoluzioni
+79	1379	eppure	eppure eppur
+80	1380	eliminare	eliminare eliminato elimina eliminando eliminate eliminano eliminiamo elimini elimino eliminerà eliminò eliminerebbe eliminava eliminerei elimineranno eliminerò eliminasse eliminarono eliminino elimineremo eliminavano eliminerai eliminerebbero
+81	1381	disposto	disposto disposti disposta disposte dispostissimo
+82	1382	traccia	traccia tracce traccie
+83	1383	attendere	attendere atteso attende attendono attendo attendiamo attesi attese attendeva attendendo attendevano attendi attendete attenda attendersi attendevo attendente attenderò attesissimo attenderà attendevamo attesero attendenti attenderemo attenderanno attendesse attender attendano attenderebbe
+84	1384	pietra	pietra pietre pietrino pietrini
+85	1385	citato	citato citati citata citate
+86	1386	giù	giù giuso
+87	1387	chat	chat
+88	1388	solamente	solamente
+89	1389	volontà	volontà
+90	1390	migliaio	migliaia migliaio migliaro
+91	1391	droga	droga droghe
+92	1392	condurre	condurre conduce condusse conducente conducono conducendo condurrà conduceva conducenti condussero conduca conducevano condurranno conduco conduci condurrò conducano conduciamo conducesse condurrebbe conducete condurremo conducessero condurrai conducevo condurrebbero
+93	1393	toscano	toscana toscano toscani toscane
+94	1394	distinguere	distinguere distingue distinti distinte distinto distinguono distinta distinguersi distinguo distinse distingueva distinsero distinguevano distinguendo distinguiamo distingui distingua distinguerà distinguerebbe distinguano distingueranno distinguete distinguesse distinguiti
+95	1395	estremo	estrema estremo estremi estreme
+96	1396	nascondere	nascondere nasconde nascondono nascondersi nascondo nascondi nascondendo nascondeva nasconda nascose nascondevano nascondiamo nascondesse nascondete nascondano nascosero nascondiamoci nasconditi nasconderà nascosi nascondevo nascondevi nasconderò nascondetevi nasconderebbe nascondessero nasconderanno nasconder
+97	1397	divertente	divertente divertenti divertentissimo
+98	1398	don	don madame madama
+99	1399	gentile	gentile gentili gentilissimo gentil gentilissima gentilissimi gentilissime
+100	1400	verificare	verificare verificato verificarsi verificano verificati verificate verifichi verificando verificò verificherà verificarono verifichino verificasse verifichiamo verifico verificava verificheranno verificassero verificavano verificheremo verificherebbe verificherò

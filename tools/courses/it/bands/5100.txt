@@ -1,0 +1,100 @@
+1	5001	obiezione	obiezione obiezioni obbiezione
+2	5002	grammatica	grammatica grammatiche
+3	5003	venere	venere veneri
+4	5004	esitare	esitare esita esitato esiti esitante esitò esitate esitano esitando esiterei esiterà esitava esitiamo esiterebbe esitarono esitanti esiterò esiteranno esitavano esiterebbero esiteremo
+5	5005	pescare	pescare pescato pesco pescano pescando peschi pescata pescati pescate pescava peschiamo pescavano pescar pescante
+6	5006	armadio	armadio armadi armadietto
+7	5007	stagionale	stagionale stagionali
+8	5008	inaccettabile	inaccettabile inaccettabili
+9	5009	speculazione	speculazione speculazioni
+10	5010	florido	florida florido floridi floride
+11	5011	rima	rima rime
+12	5012	priore	priori priore priora
+13	5013	anticipare	anticipare anticipa anticipando anticipate anticipano anticipava anticipiamo anticipò anticipavano anticiperà anticiparono
+14	5014	sbarcare	sbarcare sbarca sbarcato sbarchi sbarcano sbarcate sbarcò sbarcarono sbarcando sbarcavano sbarcava sbarcherà sbarcheranno sbarchiamo sbarcasse
+15	5015	triennale	triennale triennali
+16	5016	aspirazione	aspirazione aspirazioni
+17	5017	mazzo	mazzo mazzi mazzetti mazzetto mazzolini mazzolino
+18	5018	farfalla	farfalla farfalle farfallina farfalline farfallone
+19	5019	scaldare	scalda scaldare scaldarsi scaldato scaldando scaldano scaldi scaldo scaldate scaldati scaldiamo scaldino scalderà scaldava
+20	5020	capoluogo	capoluogo capoluoghi
+21	5021	specializzazione	specializzazione specializzazioni
+22	5022	grammo	grammi grammo gramma
+23	5023	evoluto	evoluto evoluta evoluti evolute
+24	5024	libico	libica libici libico libiche
+25	5025	isolare	isolare isolante isolani isolano isolate isolarsi isolanti isolando isolana isoli isolane isolo isolò isoliamo isolava isolarono isolino
+26	5026	biologia	biologia biologie
+27	5027	eleganza	eleganza eleganze
+28	5028	cattedra	cattedra cattedre
+29	5029	sviluppatore	sviluppatori sviluppatore sviluppatrice
+30	5030	cucchiaio	cucchiaio cucchiaino cucchiai cucchiaini
+31	5031	intervallo	intervallo intervalli
+32	5032	entusiasta	entusiasta entusiasti entusiaste
+33	5033	lecito	lecito lecita leciti lecite
+34	5034	prolungato	prolungata prolungato prolungati prolungate
+35	5035	imminente	imminente imminenti
+36	5036	colorare	coloranti colorare colorate colora colorante colori colorano colorando coloriamo colorava colorerà
+37	5037	idrico	idrico idrica idriche idrici
+38	5038	buffo	buffo buffa buffi buffe
+39	5039	pisciare	pisciare piscio piscia pisciato pisciano pisci pisciando pisciate pisciava pisciamo pisciavo piscerei
+40	5040	constatare	constatare constatato constata constatando constato constatata constatò constatiamo costatare constatano constatate constatarono constatava constatati
+41	5041	conforme	conforme conformi
+42	5042	all'aperto	all'aperto
+43	5043	capitalismo	capitalismo
+44	5044	contanti	contanti
+45	5045	copyright	copyright
+46	5046	derby	derby
+47	5047	manga	manga
+48	5048	monitor	monitor
+49	5049	permettersi	permettersi
+50	5050	produttività	produttività
+51	5051	gentilezza	gentilezza gentilezze
+52	5052	reo	rei rea reo ree
+53	5053	sostituto	sostituto sostituti sostituta
+54	5054	nazionalista	nazionalista nazionalisti nazionaliste
+55	5055	usufruire	usufruire usufruito usufruendo usufruisce usufruiscono usufruisci usufruisco usufruirà usufruite usufruiva usufruiranno usufruivano
+56	5056	addestramento	addestramento addestramenti
+57	5057	dedurre	dedurre deduce deduco dedotto deducendo dedusse deduci deducono deduciamo dedurrebbe deduceva deduca
+58	5058	spargere	spargere sparsi sparge sparse spargendo spargete spargi spargono sparga spargerà spargo spargersi spargiamo spargeva spargesse spargerò sparsero
+59	5059	tentazione	tentazione tentazioni
+60	5060	schiera	schiera schiere
+61	5061	sperimentazione	sperimentazione sperimentazioni
+62	5062	comunione	comunione comunioni
+63	5063	avvisare	avvisare avvisa avvisano avvisi avvisando avvisiamo avvisate avvisò avvisava avviserà avvisarono avviseremo avviserò avvisavano
+64	5064	distintivo	distintivo distintivi distintiva distintive
+65	5065	raccomandazione	raccomandazioni raccomandazione
+66	5066	realistico	realistico realistica realistici realistiche
+67	5067	posizionare	posizionato posiziona posizionare posizionate posizioni posizionano posizionando posiziono posizionò posizioniamo posizionava posizionerà
+68	5068	padiglione	padiglione padiglioni
+69	5069	attestato	attestato attestati attestata attestate
+70	5070	raduno	raduno raduni
+71	5071	convertire	convertire converte convertirsi convertendo convertono convertì converti convertite convertirono converta converto convertirà convertano convertiva convertiamo convertisse
+72	5072	meme	meme memi memes
+73	5073	fabbricato	fabbricato fabbricati fabbricata fabbricate
+74	5074	incassare	incassato incassare incassa incassi incassano incassate incassando incassò incasserà incassava incassiamo incasserebbe
+75	5075	cereale	cereali cereale
+76	5076	pilastro	pilastri pilastro
+77	5077	mescolare	mescolare mescolato mescolano mescolate mescolando mescolati mescolata mescoli mescolava mescolo mescolavano mescolarono mescoliamo mescolò mescolino
+78	5078	casco	casco caschi
+79	5079	averli	averli
+80	5080	botta	botta
+81	5081	chance	chance
+82	5082	cinquecento	cinquecento
+83	5083	densità	densità
+84	5084	eccomi	eccomi
+85	5085	esserne	esserne
+86	5086	formalmente	formalmente
+87	5087	gentilmente	gentilmente
+88	5088	laddove	laddove
+89	5089	night	night
+90	5090	seta	seta
+91	5091	tranquillità	tranquillità
+92	5092	troll	troll
+93	5093	volontariato	volontariato
+94	5094	destinatario	destinatario destinatari destinataria
+95	5095	osservatore	osservatore osservatori osservatrice
+96	5096	sapone	sapone saponi
+97	5097	ferroviario	ferroviario ferroviari ferroviarie
+98	5098	affacciare	affaccia affacciano affacciato affaccio affacciava affacciate affacci affacciavano affacciò affacciare affacciando affacciarono affacciamo affacciasse
+99	5099	bottone	bottone bottoni bottoncino
+100	5100	terroristico	terroristico terroristici terroristica terroristiche

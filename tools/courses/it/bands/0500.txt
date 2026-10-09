@@ -1,0 +1,100 @@
+1	401	ciao	ciao
+2	402	maggio	maggio maggi
+3	403	ufficiale	ufficiale ufficiali officiale
+4	404	chiaro	chiaro chiara chiare chiari chiarissimo chiarissima chiarissime chiarissimi
+5	405	rosso	rosso rossi rossa rosse roscio roscia rosci
+6	406	spiegare	spiega spiegare spiegato spiego spieghi spiegano spiegando spiegate spiegava spiegati spiegherebbe spiegò spiegherò spiegherà spieghiamo spiegarsi spiegasse spiegavano spieghino spiegheremo spiegheranno spiegavo spiegheresti spiegarono spiegassero spiegherai spiegherebbero spiegassi spiegai spiegar spiegatevi spiegherei spiegherete
+7	407	partecipare	partecipare partecipanti partecipato partecipa partecipano partecipando partecipi partecipante parteciperà partecipate partecipò parteciperanno partecipo parteciparono partecipava partecipavano partecipiamo parteciperò partecipino partecipasse parteciperai parteciperemo partecipai partecipavo parteciperete partecipassero parteciperei partecipassi parteciperebbe partecipar partecipammo parteciperebbero
+8	408	simile	simile simili simil
+9	409	giornata	giornata giornate
+10	410	esperienza	esperienza esperienze
+11	411	media	media medie
+12	412	cominciare	comincia cominciato cominciare cominciò cominciano comincio cominciando cominciamo cominci cominciarono cominciate comincerà cominciava cominceranno cominciai cominciavano cominciasse cominceremo comincerò comincino cominciavo cominciassero comincerei cominciammo comincerai comincerebbe comincerete cominciassimo comincerebbero cominciassi cominciavamo cominciar
+13	413	internazionale	internazionale internazionali
+14	414	favore	favore favori
+15	415	nemmeno	nemmeno
+16	416	interesse	interesse interessi
+17	417	provare	provare provo provi provando provano proviamo provate proverò provino provava provò proverà provai provini provavo proveranno proveremo provavano proverei provasse provarono provassi proverebbe proverai provassero proverebbero proverete provavamo provammo provarsi provassimo provavi provar provaste proviate proveresti provante
+18	418	mercato	mercato mercati
+19	419	euro	euro euri eura
+20	420	controllo	controllo controlli
+21	421	sicurezza	sicurezza sicurezze
+22	422	medico	medico medici medica mediche
+23	423	tuttavia	tuttavia purtuttavia
+24	424	avanti	avanti avante
+25	425	prezzo	prezzo prezzi
+26	426	scelta	scelta scelte
+27	427	sera	sera sere
+28	428	cura	cura cure
+29	429	salvare	salvare salvo salva salvato salve salvi salvarsi salvate salvano salviamo salvando salverà salvò salvino salveranno salvarono salvava salverò salveremo salverebbe salvar salverei salvasse salvai salveresti salverebbero salvassero salvatevi salvavano salverete salverai salvavo
+30	430	permettere	permette permettere permettono permettendo permetta permetterà permetti permetto permetteva permetterebbe permessi permise permettano permetteranno permettete permettevano permettiamo permisero permettesse permetterò permetteremo permetterei permetterebbero permettessero permetter permetterete permetterai permisi
+31	431	né	né nè
+32	432	paura	paura paure
+33	433	raggiungere	raggiungere raggiunto raggiunge raggiungono raggiungendo raggiunse raggiungerà raggiunga raggiungo raggiungi raggiungeva raggiunsero raggiungeranno raggiungiamo raggiungevano raggiungano raggiungesse raggiungeremo raggiungerai raggiungerò raggiungete raggiungessero raggiungerete raggiungerebbe raggiungersi raggiunsi raggiungemmo raggiunger raggiungerebbero raggiungevo
+34	434	cultura	cultura culture
+35	435	cioè	cioè cioé cè ceh zoè
+36	436	precedente	precedente precedenti
+37	437	giugno	giugno giugni
+38	438	aprile	aprile
+39	439	nato	nato nata nati nate
+40	440	privato	privato privata privati private
+41	441	ricordo	ricordo ricordi
+42	442	pronto	pronto pronti pronta pronte prontissimo
+43	443	fratello	fratello fratelli fratellone fratel
+44	444	azione	azione azioni
+45	445	processo	processo processi
+46	446	musica	musica musiche
+47	447	luce	luce luci lucetta
+48	448	azienda	azienda aziende
+49	449	lì	lì
+50	450	ottobre	ottobre
+51	451	sud	sud
+52	452	voto	voto voti vota vote esamini
+53	453	civile	civile civili civilissima civilissimi civilissimo
+54	454	rappresentare	rappresenta rappresentano rappresentato rappresentare rappresentate rappresenti rappresentava rappresentando rappresentavano rappresentino rappresentò rappresenterà rappresentasse rappresenterebbe rappresentiamo rappresentarono rappresento rappresenteranno rappresentarsi rappresenterebbero rappresentassero rappresenteremo rappresentavo
+55	455	arte	arte arti
+56	456	speciale	speciale speciali speziale speziali specialissimo specialissima specialissimi
+57	457	resto	resto resti
+58	458	squadra	squadra squadre
+59	459	crescere	crescere cresciuto cresce crescente cresciuta crescendo crescono cresciuti crescenti cresciute crebbe cresci cresceva cresca crescerà cresceranno crescano cresciamo crescevano crebbero crescete cresco crescesse crescerebbe cresceremo crescerai crescessero crescer crescerò crescerete crebbi crescevo crescerebbero
+60	460	militare	militare militari militanti militante militato milita militi militano milito militar militava militò militavano militando militarono
+61	461	sopra	sopra sovra
+62	462	luglio	luglio lugli
+63	463	cinque	cinque
+64	464	relazione	relazione relazioni
+65	465	americano	americani americano americana americane
+66	466	evento	eventi evento
+67	467	classe	classe classi
+68	468	amare	ama amare amante amano amanti amava amiamo ami amavo amate amando amavano amò amerò amar amino amasse amarsi amerai amerà amerei amavi ameranno amassi amerete amerebbe amai amatevi ameremo amiate amassero amavamo amavate ameresti amiamoci amerebbero amarono amaste
+69	469	significare	significa significare significhi significherebbe significava significano significasse significante significherà significò significanti significavano significhino significando significassero significo significherebbero significate
+70	470	dietro	dietro
+71	471	nord	nord
+72	472	post	post
+73	473	re	re
+74	474	immaginare	immagino immaginare immagini immagina immaginato immaginate immaginavo immaginando immaginiamo immaginatevi immaginava immaginarsi immaginano immaginavano immaginavi immaginò immaginavamo immaginassi immaginiamoci immaginai immaginerai immaginasse immaginerete immaginerà immaginar immagineresti immaginerebbe immaginarono
+75	475	sviluppo	sviluppo sviluppi
+76	476	piede	piedi piede piè
+77	477	ruolo	ruolo ruoli
+78	478	ordine	ordine ordini
+79	479	macchina	macchina macchine macchinetta macchinette machina
+80	480	offrire	offre offrire offerto offrono offrendo offro offriamo offriva offra offri offrì offrirà offrivano offrirono offrano offrirsi offriranno offrisse offrite offrirò offrirebbe offrissero offriremo offrir offrirei offrii offriti offrissi offrivo offrirebbero offrirete offerse offrirai
+81	481	carta	carta carte cartina cartine
+82	482	spazio	spazio spazi
+83	483	autore	autore autori autrice
+84	484	riguardare	riguarda riguardano riguardava riguardare riguardato riguardavano riguardando riguardasse riguardino riguardò riguardati riguarderà riguardi riguarderebbe riguardarono riguardiamo riguardate riguardarsi riguarderanno riguardassero riguarderò riguardavo riguarderebbero riguarderei riguardatevi
+85	485	abbastanza	abbastanza
+86	486	possibilità	possibilità
+87	487	colore	colore colori color
+88	488	morto	morto morta morti
+89	489	testo	testo testi teste
+90	490	vincere	vincere vince vinci vincente vincono vincendo vincerà vinse vincenti vitto vinca vinceremo vinciamo vinco vincesse vinceva vinceranno vincerebbe vinsero vincerò vincerai vincano vincete vitti vincevano vincerete vinsi vincessi vincessero vincemmo vincer vincevo vincerebbero vincerei vincessimo vinceremmo vincevi vincevamo
+91	491	viaggio	viaggio viaggi viaggetto viaggetti
+92	492	entrambi	entrambi entrambe
+93	493	aprire	aprire apre apri aprono apro aprendo aprì aprite aprirsi aprirà apra apriamo apriva apriranno aprirono apriti aprisse apriremo aprivano aprirebbe aprano aprirò aprivo aprii aprir aprissero aprirei aprirai aprissi aprivi aprirebbero apritevi aperse aprirete aprimmo aprissimo
+94	494	ascoltare	ascoltare ascolta ascolto ascolti ascoltato ascoltando ascoltate ascoltano ascoltiamo ascoltavo ascoltava ascolterà ascoltavano ascolterò ascolteranno ascoltò ascolteremo ascoltino ascoltasse ascoltai ascoltarsi ascolterai ascoltavi ascolterete ascolterei ascoltar ascoltassi ascoltarono ascoltassero ascoltavamo ascolterebbe ascoltiate ascoltatevi ascolteresti
+95	495	aiuto	aiuto aiuti aiutino
+96	496	succedere	succede succedendo succedere succederà successe succedono succeda succedeva succederebbe succedesse succeduto successi succedette succedevano succedano succedersi succedettero succederanno successero succedessero succederebbero
+97	497	finito	finito finita finiti finite
+98	498	rete	rete reti reticella
+99	499	felice	felice felici felicissimo
+100	500	immagine	immagine immagini

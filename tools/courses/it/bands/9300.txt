@@ -1,0 +1,100 @@
+1	9201	mandarino	mandarino mandarini mandarina
+2	9202	georgiano	georgiana georgiano georgiani georgiane
+3	9203	finanziatore	finanziatori finanziatore finanziatrice
+4	9204	collaborativo	collaborativo collaborativa collaborativi collaborative
+5	9205	indubbio	indubbio indubbia indubbi indubbie
+6	9206	carcerato	carcerati carcerato carcerata carcerate
+7	9207	ernia	ernia ernie
+8	9208	tassare	tassare tassati tassato tassi tassate tassata tassano tassando tassiamo
+9	9209	sorvolare	sorvolare sorvolando sorvolo sorvola sorvolato sorvoliamo sorvolano sorvolava sorvoli sorvolò sorvolavano
+10	9210	dibattere	dibattuto dibattere dibatte dibattono dibattendo dibatteva dibattevano
+11	9211	mangiata	mangiata mangiate
+12	9212	sciare	sciare scio sciò sciato sciando scii sciano sciate
+13	9213	diagnostico	diagnostico diagnostici diagnostiche
+14	9214	socializzare	socializzare socializza socializzato socializzando socializzo socializzano socializzi socializzate socializzante
+15	9215	tantino	tantino tantini
+16	9216	etichettare	etichettato etichettare etichettate etichettano etichettando
+17	9217	medusa	medusa meduse
+18	9218	anidride	anidride anidridi
+19	9219	appennino	appennino appennini
+20	9220	camionista	camionista camionisti
+21	9221	sapiente	sapiente sapienti
+22	9222	orgia	orgia orge orgie
+23	9223	stanziamento	stanziamenti stanziamento
+24	9224	castano	castani castano castana castane
+25	9225	ritornello	ritornello ritornelli
+26	9226	tiepido	tiepida tiepido tiepide tiepidi
+27	9227	bisnonno	bisnonno bisnonna bisnonni bisnonne
+28	9228	marchigiano	marchigiano marchigiana marchigiani marchigiane
+29	9229	incredulo	incredulo increduli incredula incredule
+30	9230	sudcoreano	sudcoreano sudcoreana sudcoreani sudcoreane
+31	9231	democristiano	democristiano democristiani democristiana democristiane
+32	9232	dolo	dolo doli
+33	9233	navarro	navarra navarro navarre
+34	9234	asserire	asserendo asserisce asserire asseriva asserì asseriscono asserivano asserirono asserisco asserite
+35	9235	rinchiudere	rinchiudere rinchiusi rinchiude rinchiudersi rinchiudono rinchiuse rinchiusero rinchiuda rinchiudo rinchiudeva rinchiudendo
+36	9236	inoltrare	inoltrare inoltra inoltro inoltri inoltrano inoltrò inoltriamo inoltrando inoltrava inoltrarono
+37	9237	monotono	monotono monotona monotone monotoni
+38	9238	suddividere	suddividere suddivide suddivisi suddividono suddivise suddividendo suddivideva
+39	9239	invasivo	invasiva invasive invasivo invasivi
+40	9240	metrica	metrica metriche
+41	9241	rilassarsi	rilassarsi rilassatevi rilassiamoci
+42	9242	metropolitano	metropolitano metropolitani metropolitane
+43	9243	superbo	superba superbo superbi superbe
+44	9244	sociologo	sociologo sociologi sociologa
+45	9245	sacrosanto	sacrosanto sacrosanta sacrosante sacrosanti
+46	9246	ardito	arditi ardito ardita ardite
+47	9247	fune	fune funi
+48	9248	geometra	geometra geometri
+49	9249	omissione	omissione omissioni
+50	9250	rosicare	rosicare rosica rosico rosicando rosicano rosicato rosichi rosicate
+51	9251	triestino	triestino triestina triestini triestine
+52	9252	statista	statista statisti
+53	9253	riparlare	riparliamo riparleremo riparla riparlare riparlerà riparlato riparlo
+54	9254	sgombrare	sgomberare sgombrare sgombra sgombro sgombri sgombrato sgombrate sgombrando sgombriamo sgombre
+55	9255	tailandese	thailandese tailandese tailandesi
+56	9256	impedimento	impedimento impedimenti
+57	9257	superstizione	superstizione superstizioni
+58	9258	vocabolo	vocaboli vocabolo
+59	9259	adeguarsi	adeguarsi adeguati
+60	9260	diversificare	diversificare diversificate diversificato diversifica diversificano diversificando
+61	9261	sorellina	sorellina sorelline
+62	9262	curvatura	curvatura curvature
+63	9263	vescovile	vescovile vescovili
+64	9264	guidatore	guidatore guidatori guidatrice
+65	9265	cassino	cassino cassini
+66	9266	rabbino	rabbino rabbini
+67	9267	invincibile	invincibile invincibili
+68	9268	tagliente	tagliente taglienti
+69	9269	ingerenza	ingerenza ingerenze
+70	9270	pedina	pedina pedine
+71	9271	chiappa	chiappe chiappa chiappetta
+72	9272	pornografico	pornografico pornografici pornografiche pornografica
+73	9273	ciliegia	ciliegie ciliegia ciliege
+74	9274	oscurare	oscurare oscura oscuri oscurando oscurano oscurate oscurò oscuranti oscurerà oscurasse oscurava oscuravano
+75	9275	sfogliare	sfogliare sfogliando sfogliato sfoglio sfogli sfogliano sfogliate sfogliava sfogliavo
+76	9276	affrettare	affrettare affrettatevi affrettano affrettò affrettate affretta affrettarsi affrettati affrettando affrettarono affretti affrettiamo affrettiamoci affretto
+77	9277	familiarità	familiarità famigliarità
+78	9278	opprimere	oppressi opprime opprimere opprimono oppresse opprimendo opprimeva opprima
+79	9279	ferrato	ferrata ferrate ferrato ferrati
+80	9280	pasticcio	pasticcio pasticci
+81	9281	all'unanimità	all'unanimità
+82	9282	alzarmi	alzarmi
+83	9283	anzianità	anzianità
+84	9284	anzitutto	anzitutto
+85	9285	bacon	bacon
+86	9286	blitz	blitz
+87	9287	centrocampo	centrocampo
+88	9288	chiamami	chiamami
+89	9289	compatibilità	compatibilità
+90	9290	contenimento	contenimento
+91	9291	corner	corner
+92	9292	curry	curry
+93	9293	deliberatamente	deliberatamente
+94	9294	dirtelo	dirtelo
+95	9295	discuterne	discuterne
+96	9296	gesta	gesta
+97	9297	into	into
+98	9298	jolly	jolly
+99	9299	lasciarli	lasciarli
+100	9300	liquidità	liquidità

@@ -1,0 +1,100 @@
+1	2101	connessione	connessione connessioni
+2	2102	dipinto	dipinto dipinti dipinta dipinte
+3	2103	archivio	archivio archivi
+4	2104	fallimento	fallimento fallimenti
+5	2105	contattare	contattare contattato contatti contatta contattate contattando contattano contatterà contatteremo contatterò contattò contatteranno contattiamo contattava contattasse contattai contattino
+6	2106	bimbo	bimbo bimbi bimba mimmo bimbe
+7	2107	associato	associato associati associata associate
+8	2108	palla	palla pallottola pallottole
+9	2109	occorrere	occorre occorrono occorso occorreva occorrerà occorrerebbe occorsi occorra occorse occorreranno occorrevano occorrerebbero occorsero occorresse occorrere occorrendo occorrano
+10	2110	comandante	comandante comandanti
+11	2111	schiavo	schiavi schiavo schiava schiave
+12	2112	avversario	avversari avversario avversaria avversarie
+13	2113	argento	argento argenti
+14	2114	pista	pista piste
+15	2115	tappa	tappa tappe tappone
+16	2116	monumento	monumento monumenti
+17	2117	rivedere	rivedere rivisto rivediamo rivede rivedo rivedremo rivedrò rivedendo rivedi riveda rivedersi rivedrà rivide rivedono riveder rivedrai riveduto rivedranno rivedrei rividi rivedrete rivedevo rivedete rividero rivedeva rivediamoci rivedesse
+18	2118	incarico	incarico incarichi
+19	2119	benedetto	benedetto benedetta benedetti benedette
+20	2120	nipote	nipote nipoti nepote
+21	2121	cardinale	cardinale cardinali cardinal
+22	2122	simpatico	simpatico simpatica simpatici simpatiche simpaticissimo simpaticone simpaticoni simpaticona
+23	2123	disporre	dispone disporre dispongono disponeva disponiamo disponendo dispose disponevano disponga disporrà disponi dispongo disporsi disponete dispongano disporranno disponesse disposero disponente disponetevi disponessero disporremo disposi
+24	2124	approccio	approccio approcci
+25	2125	sopportare	sopportare sopporto sopporta sopportato sopportano sopporti sopportava sopportavo sopportando sopportate sopporterei sopportiamo sopportavano sopporterò sopporterà sopportò sopportasse sopportarsi sopporterebbe sopportino sopporterai sopportavamo sopportavi
+26	2126	autonomo	autonomo autonoma autonome autonomi
+27	2127	licenza	licenza licenze
+28	2128	naso	naso nasi nasone nasino nasini nasoni
+29	2129	giudiziario	giudiziaria giudiziario giudiziari giudiziarie
+30	2130	giuro	giuro giuri
+31	2131	fortemente	fortemente
+32	2132	frega	frega
+33	2133	seriamente	seriamente
+34	2134	totalmente	totalmente
+35	2135	varietà	varietà
+36	2136	governatore	governatore governatori governatrice
+37	2137	escludere	escludere esclude esclusi escludendo escludono escluse escludo escludiamo escludeva escluderei escluda escludi escludersi escluderebbe escludano escludevano escludente esclusero escludete escluderà escludesse escludenti
+38	2138	temere	temere temono temendo temuto temi temeva temevo temevano temete temiamo temuta teme temuti temer temute temette temevamo temerei temano temesse temessi temettero temutissimo temevi temessero temeranno temerò
+39	2139	cazzata	cazzate cazzata
+40	2140	lanciare	lanciare lanciano lanciando lanciò lanciarsi lanciate lanciarono lanciava lancerà lanciamo lanciavano lancerò lanceremo lanciasse lanceranno lanciai lancerei lancino lanciassi lanciassero lanciavo lanciavamo lancerebbe
+41	2141	complimento	complimenti complimento
+42	2142	complicato	complicato complicata complicate complicati complicatissimo
+43	2143	residente	residenti residente
+44	2144	marca	marche marca
+45	2145	patria	patria patrie
+46	2146	magico	magico magica magici magiche
+47	2147	beneficio	benefici beneficio benefizio
+48	2148	galleria	galleria gallerie
+49	2149	cedere	cedere ceduto cede cedendo cedono cedette cedo cederà cedi ceda cedettero cedente cedeva cediamo cedete cederò cederanno cedevano cedano cedesse ceder cederei cederebbe cederemo
+50	2150	seduta	seduta sedute
+51	2151	veicolo	veicolo veicoli
+52	2152	trasportare	trasportare trasportato trasporti trasportati trasporta trasportata trasportano trasportate trasportava trasportando trasportavano trasportò trasportino trasportarono trasporterà trasportiamo trasporteranno trasportasse
+53	2153	criterio	criteri criterio
+54	2154	intitolato	intitolato intitolata intitolati intitolate
+55	2155	portale	portale portali
+56	2156	meccanismo	meccanismo meccanismi
+57	2157	corrispondere	corrisponde corrispondono corrispondere corrispondeva corrisposto corrisponda corrisposta corrisposti corrispondevano corrispondano corrisposte corrisponderebbe corrisponderà corrispondesse corrispose corrispondendo corrisponderebbero corrispondessero corrispondo corrisponderanno
+58	2158	maschera	maschera maschere mascherina mascara mascherine mascheroni mascherone
+59	2159	caratterizzare	caratterizzato caratterizza caratterizzano caratterizzate caratterizzare caratterizzante caratterizzava caratterizzanti caratterizzavano caratterizzò caratterizzando caratterizzerà caratterizzarono caratterizzeranno caratterizzarsi caratterizzi
+60	2160	sindacato	sindacati sindacato
+61	2161	polemica	polemica polemiche
+62	2162	ricorso	ricorso ricorsi ricorse ricorsa
+63	2163	sessione	sessione sessioni
+64	2164	denunciare	denunciato denunciare denunciano denunciate denunciando denunciò denunci denuncio denunciava denunciamo denunciavano denuncerei denuncerà denunciante denuncino denunciarono denunceremo denuncerò denunziare denunciasse denuncerebbe denunceranno denunciar denunciai
+65	2165	ammazzare	ammazzare ammazza ammazzato ammazzo ammazzano ammazzati ammazzando ammazzi ammazzata ammazzate ammazzarsi ammazziamo ammazzerei ammazzava ammazzino ammazzavano ammazzerebbe ammazzerà ammazzerò ammazzeranno ammazzò ammazzasse ammazzavo ammazzarono ammazzerebbero ammazzassero ammazzar ammazzatevi
+66	2166	manifestare	manifestare manifestanti manifestano manifestato manifesta manifesti manifestando manifestò manifestate manifestarono manifestavano manifestante manifestava manifestino manifestiamo manifesterà manifesteranno manifestasse manifestini manifestassero manifesterebbe
+67	2167	intenso	intenso intensa intense intensi intensissima intensissimo intensissimi
+68	2168	giunto	giunto giunti giunte
+69	2169	adottare	adottare adotta adottando adottate adottano adottò adotti adotterà adottarono adottiamo adotto adottino adottava adotteranno adottasse adottavano adotteremo adottante adottanti adottassero adotterò adotterei
+70	2170	rifiuti	rifiuti
+71	2171	vice	vice
+72	2172	weekend	weekend
+73	2173	biologico	biologico bio biologica biologici biologiche
+74	2174	dispositivo	dispositivo dispositivi dispositiva dispositive
+75	2175	progresso	progresso progressi
+76	2176	fondatore	fondatore fondatori fondatrice
+77	2177	secco	secco secca secchi secche
+78	2178	foresta	foresta foreste
+79	2179	accorgersi	accorge accorgi accorgo accorgersi accorgono accorsi accorga accorgiamo accorgerai accorgerà accorgerete accorgeranno accorgesse accorgano accorgermi accorgerti accorgendosi accorgerebbe accorgendo accorgete accorgessi accorgevo accorgerci accorgeva accorgeresti accorgeremo accorgessero accorgerebbero accorgervi accorgessimo accorgevano accorgemmo accorgerò accorgevi accorgiate accorgerei
+80	2180	prestare	prestare prestato prestano prestando prestate prestò prestava presta prestino prestante prestarono prestavano prestarsi prestiamo presti presterà prestanti prestassero presterebbe prestar prestasse presteranno presterei presterò prestai
+81	2181	allontanare	allontana allontanare allontanarsi allontanato allontanano allontanando allontani allontanate allontanò allontano allontanava allontaniamo allontanarono allontanerà allontanatevi allontanavano allontanino allontaneranno allontanasse allontanavo allontaniamoci allontanerebbe allontanai allontanerai allontanassero
+82	2182	collegamento	collegamento collegamenti
+83	2183	fumetto	fumetti fumetto
+84	2184	anonimo	anonimo anonima anonimi anonime
+85	2185	occupazione	occupazione occupazioni
+86	2186	assemblea	assemblea assemblee
+87	2187	formula	formula formule
+88	2188	estero	estero estera estere
+89	2189	domestica	domestica domestici domestico domestiche
+90	2190	solare	solare solari solano solin
+91	2191	concluso	concluso conclusa concluse conclusi
+92	2192	ritratto	ritratto ritratti ritratta ritratte
+93	2193	tetto	tetto tetti
+94	2194	attivare	attivato attivare attiva attivi attivati attivate attivano attivando attivarsi attiverà attiviamo attivò attivino attiveranno attivava attivante attiveremo attivarono attiverò attivasse attivavano attiverebbe
+95	2195	sorridere	sorridere sorride sorridendo sorridente sorridi sorridenti sorrisi sorrido sorrideva sorridono sorridete sorrida sorrise sorridevano sorridevo sorridiamo sorriderà sorridesse sorridevi sorriderai sorrideranno sorriderò sorridano sorrisero sorrideremo
+96	2196	manifesto	manifesto manifesta manifesti manifeste
+97	2197	neppure	neppure neppur
+98	2198	nucleare	nucleare nucleari
+99	2199	affermazione	affermazione affermazioni
+100	2200	cugino	cugino cugina cugini

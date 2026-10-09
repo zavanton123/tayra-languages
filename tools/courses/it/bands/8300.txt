@@ -1,0 +1,100 @@
+1	8201	lume	lume lumi lumino
+2	8202	incastrato	incastrato incastrata incastrati incastrate
+3	8203	chiacchierata	chiacchierata chiacchierate chiaccherata
+4	8204	abituarsi	abituarsi abituati abituiamoci abituatevi
+5	8205	irresistibile	irresistibile irresistibili
+6	8206	impeccabile	impeccabile impeccabili
+7	8207	puntura	puntura punture
+8	8208	periferico	periferici periferico periferiche
+9	8209	respirazione	respirazione respirazioni
+10	8210	difettoso	difettoso difettosi difettosa difettose
+11	8211	fischiare	fischia fischiare fischiato fischiano fischiando fischi fischiavano fischiate fischiava fischieranno fischiò fischiarono
+12	8212	disperdere	disperdere disperde disperse disperdersi disperdono disperdendo disperda disperdente disperdetevi disperdano disperdevano disperdeva disperderà
+13	8213	speculare	speculare specula speculari speculato speculando speculano speculi speculava
+14	8214	denotare	denota denotano denotare denotando denotato denotava denoti denotiamo
+15	8215	astuto	astuto astuta astuti astute
+16	8216	francobollo	francobolli francobollo
+17	8217	inventario	inventario inventari
+18	8218	coperchio	coperchio coperchi
+19	8219	ciotola	ciotola ciotole
+20	8220	adeguare	adeguare adegua adeguano adeguando adegui adeguo adeguino adegueranno adeguò adeguiamo
+21	8221	navetta	navetta navette
+22	8222	immaturo	immaturo immaturi immatura immature
+23	8223	boccia	boccia bocce boccino boccie boccini
+24	8224	inserzione	inserzioni inserzione
+25	8225	solco	solco solchi
+26	8226	poveraccio	poveracci poveraccio poveraccia
+27	8227	agile	agile agili
+28	8228	legname	legname legnami
+29	8229	risaputo	risaputo risaputa risapute
+30	8230	ruga	rughe rua ruga
+31	8231	castagna	castagne castagna
+32	8232	diocesano	diocesano diocesana diocesani diocesane
+33	8233	sganciare	sganciare sganciato sgancia sgancio sganciata sganciate sganciano sganciarsi sganci sganciati sganciando sganciò sganciarono sganciamo
+34	8234	gelo	gelo geli
+35	8235	compressa	compressa compresse
+36	8236	all'avanguardia	all'avanguardia
+37	8237	approssimativamente	approssimativamente
+38	8238	artigianato	artigianato
+39	8239	boia	boia
+40	8240	comodamente	comodamente
+41	8241	ecologia	ecologia
+42	8242	legittimazione	legittimazione
+43	8243	malaria	malaria
+44	8244	neutralità	neutralità
+45	8245	pirateria	pirateria
+46	8246	potassio	potassio
+47	8247	scientificamente	scientificamente
+48	8248	scriverlo	scriverlo
+49	8249	scusatemi	scusatemi
+50	8250	shampoo	shampoo
+51	8251	specificatamente	specificatamente
+52	8252	spread	spread
+53	8253	supremazia	supremazia
+54	8254	teoricamente	teoricamente
+55	8255	torace	torace
+56	8256	incoraggiamento	incoraggiamento incoraggiamenti
+57	8257	veto	veto veti
+58	8258	incostituzionale	incostituzionale incostituzionali
+59	8259	bivio	bivio bivi
+60	8260	amarezza	amarezza amarezze
+61	8261	lodo	lodo lodi
+62	8262	declinare	declinare declinato declina declinando declinano declinò declinate declinante declinarono declinava declinar declini
+63	8263	sloveno	sloveno sloveni slovena slovene
+64	8264	irrisolto	irrisolti irrisolto irrisolta irrisolte
+65	8265	selva	selva selve
+66	8266	comparato	comparata comparato comparati comparate
+67	8267	unificato	unificato unificata unificati unificate
+68	8268	camminata	camminata camminate
+69	8269	alga	alghe alga
+70	8270	fornello	fornelli fornello
+71	8271	squilibrio	squilibrio squilibri
+72	8272	ubbidire	obbedire ubbidire ubbidisce ubbidito ubbidiscono ubbidisci ubbidendo ubbidite ubbidì
+73	8273	delinquere	delinquere delinque delinquono
+74	8274	condito	condito condita conditi condite
+75	8275	palatino	palatino palatina palatini palatine
+76	8276	crepa	crepa crepe
+77	8277	inclinato	inclinato inclinata inclinati inclinate
+78	8278	difensivo	difensivo difensivi difensive
+79	8279	brillo	brilla brillo brilli brille
+80	8280	fioritura	fioritura fioriture
+81	8281	esausto	esausta esausto esausti esauste
+82	8282	strepitoso	strepitoso strepitosa strepitosi strepitose
+83	8283	disgraziato	disgraziato disgraziati disgraziata disgraziate
+84	8284	erogazione	erogazione erogazioni
+85	8285	impensabile	impensabile impensabili
+86	8286	terminologia	terminologia terminologie
+87	8287	cardine	cardine cardini
+88	8288	conscio	conscio consci conscia consce
+89	8289	stellato	stellato stellata stellati stellate
+90	8290	assoluzione	assoluzione assoluzioni
+91	8291	dialettica	dialettica dialettiche
+92	8292	irritante	irritante irritanti
+93	8293	stupidaggine	stupidaggini stupidaggine
+94	8294	anglo	anglo angle angli
+95	8295	apprendista	apprendista apprendisti apprendiste
+96	8296	soffermare	sofferma soffermato soffermo soffermano soffermi soffermare soffermeremo soffermiamo soffermò soffermerò soffermerà soffermate soffermando soffermava soffermerei
+97	8297	allearsi	alleati allearsi
+98	8298	apocalisse	apocalisse apocalissi
+99	8299	peperone	peperoni peperone
+100	8300	implorare	implora implorare implorando imploro implorato implorano implorava implorò imploriamo imploravano implorante implori imploravo imploranti implorai

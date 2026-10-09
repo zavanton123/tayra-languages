@@ -1,0 +1,100 @@
+1	4901	shopping	shopping
+2	4902	corteo	corteo cortei
+3	4903	genetica	genetica genetiche
+4	4904	bontà	bontà bontate bontade
+5	4905	relatore	relatore relatori relatrice
+6	4906	fanciulla	fanciulla fanciullo fanciulle fanciulli fanciullino
+7	4907	pretesto	pretesto pretesti
+8	4908	officina	officina officine
+9	4909	stimare	stimo stimare stimano stimi stimiamo stimando stimava stimò stimate stimavo stimavano stimarono stimar stimerei
+10	4910	rivendicare	rivendicare rivendica rivendicato rivendicano rivendicando rivendicava rivendico rivendichiamo rivendicate rivendicò rivendicavano rivendichi rivendicarono
+11	4911	storto	storto storta storte storti
+12	4912	agricoltore	agricoltori agricoltore
+13	4913	brigata	brigata brigate
+14	4914	costruttore	costruttori costruttore costruttrice costruttrici
+15	4915	attestare	attesta attestano attestare attesti attestava attestino attestarsi attestò attestavano attestando attestarono attesterà attesto attesterebbe attestate attesterebbero attestasse
+16	4916	schiacciare	schiacciare schiacciante schiaccia schiaccianti schiacciando schiacci schiacciate schiaccio schiacciano schiacciava schiacciò schiaccerà schiaccino
+17	4917	ricadere	ricade ricadere ricadono ricada ricadrà ricadenti ricadde ricadente ricadeva ricaduto ricadi ricadano ricadendo ricadrebbe ricadevano ricadranno ricadesse ricadiamo ricaddero ricadrebbero ricado
+18	4918	tabacco	tabacco tabacchi
+19	4919	contabile	contabile contabili
+20	4920	ripensare	ripensare ripensando ripenso ripensato ripensa ripensi ripensavo ripensate ripensò ripenserai ripensano ripensiamo ripenserei ripenserò
+21	4921	ambizione	ambizioni ambizione
+22	4922	ordinamento	ordinamento ordinamenti
+23	4923	giurisdizione	giurisdizione giurisdizioni
+24	4924	contestare	contestare contesta contestano contestando contesti contestate contestava contestavano contestò contestiamo contestarono contesterà
+25	4925	crociera	crociera crociere
+26	4926	patetico	patetico patetica patetici patetiche
+27	4927	penetrare	penetrare penetra penetrante penetrato penetrano penetrando penetranti penetrò penetrarono penetri penetrava penetrate penetravano penetrerà penetro penetrasse penetrino
+28	4928	primato	primato primati
+29	4929	peste	peste pesti
+30	4930	risveglio	risveglio risvegli
+31	4931	calabrese	calabrese calabresi
+32	4932	casale	casale casali
+33	4933	frontale	frontale frontali
+34	4934	elencato	elencati elencato elencate elencata
+35	4935	bufala	bufala bufale
+36	4936	sodo	sodo soda sode sodi
+37	4937	indicatore	indicatori indicatore indicatrice indicatrici
+38	4938	gene	gene geni
+39	4939	soggettivo	soggettivo soggettiva soggettive soggettivi
+40	4940	censimento	censimento censimenti
+41	4941	quaderno	quaderni quaderno
+42	4942	orrendo	orrendo orrenda orrendi orrende
+43	4943	invaso	invaso invasa invase invasi
+44	4944	ondata	ondata ondate
+45	4945	catalano	catalano catalani catalana catalane
+46	4946	beatrice	beatrice
+47	4947	chiederti	chiederti
+48	4948	decina	decina
+49	4949	frequentemente	frequentemente
+50	4950	funzionalità	funzionalità
+51	4951	management	management
+52	4952	metterlo	metterlo
+53	4953	mutande	mutande
+54	4954	ni	ni
+55	4955	novecento	novecento
+56	4956	portavoce	portavoce
+57	4957	pullman	pullman
+58	4958	socialismo	socialismo
+59	4959	tablet	tablet
+60	4960	validità	validità
+61	4961	confezione	confezione confezioni
+62	4962	apostolo	apostoli apostolo
+63	4963	stipulare	stipulato stipulare stipula stipulate stipulò stipulando stipulano stipularono stipuli stipulanti stipulava
+64	4964	trasferta	trasferta trasferte
+65	4965	dettato	dettata dettato dettati dettate
+66	4966	cuscino	cuscino cuscini
+67	4967	contrattuale	contrattuale contrattuali
+68	4968	umanitario	umanitaria umanitari umanitario umanitarie
+69	4969	tolleranza	tolleranza tolleranze
+70	4970	benedire	benedica benedire benedice benedico benedici benedicente benedisse benedite benedicendo benedicono benedirà benediciamo benediceva benedirò benedì benediranno
+71	4971	visualizzare	visualizzare visualizzato visualizza visualizzate visualizzano visualizzi visualizzo visualizzando visualizziamo
+72	4972	disprezzo	disprezzo disprezzi
+73	4973	prefetto	prefetto prefetti
+74	4974	cenno	cenni cenno
+75	4975	epico	epico epica epici epiche
+76	4976	centrare	centrato centra centrare centrano centrate centrino centri centrando centrava centrini centrò
+77	4977	collocazione	collocazione collocazioni
+78	4978	compatto	compatto compatta compatti compatte
+79	4979	cartaceo	cartacea cartaceo cartacei cartacee
+80	4980	osservatorio	osservatorio osservatori
+81	4981	avvolto	avvolto avvolta avvolti avvolte
+82	4982	fotocamera	fotocamera fotocamere
+83	4983	agnello	agnello agnelli
+84	4984	buca	buca buche
+85	4985	previo	previa previo previ previe
+86	4986	consultazione	consultazione consultazioni
+87	4987	ideare	ideato ideare ideate ideò ideo ideando idee idearono
+88	4988	riscuotere	riscosso riscuotere riscuote riscuotendo riscosse riscuotono riscossi riscuoteva riscuoterà riscossero riscuotevano riscuoti riscuota
+89	4989	vampiro	vampiro vampiri
+90	4990	immerso	immerso immersa immersi immerse
+91	4991	nostalgia	nostalgia nostalgie
+92	4992	espulsione	espulsione espulsioni
+93	4993	presidio	presidio presidi presidii
+94	4994	mancino	mancini mancino mancina mancine
+95	4995	estetico	estetico estetici estetiche
+96	4996	schierare	schierato schierare schierate schierano schieri schierando schierò schierarono schierava schiererà schiero schieravano schiereranno schieriamo
+97	4997	edito	edito edita editi edite
+98	4998	assegnazione	assegnazione assegnazioni
+99	4999	graduatoria	graduatoria graduatorie
+100	5000	ibrido	ibrido ibridi ibrida ibride

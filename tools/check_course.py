@@ -47,7 +47,7 @@ def fold(code, word):
     if code == "de":
         return word.replace("ß", "ss")
     # The French list writes the straight apostrophe; texts may use the curly one.
-    if code == "fr":
+    if code in ("fr", "it"):
         return word.replace("’", "'")
     # Russian texts for learners write ё where it belongs, while the list holds both spellings of most words.
     if code == "ru":
@@ -101,6 +101,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None):
         return spanish_tokens(text, ranks, names, verbs)
     if code == "ru":
         return russian_tokens(text)
+    if code == "it":
+        return italian_tokens(text, ranks, names, verbs)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -262,18 +264,88 @@ def spanish_tokens(text, ranks, names=frozenset(), verbs=None):
     return out
 
 
+# Pronouns an Italian verb can carry at its end: the combined ones (glielo, melo, ce ne) first, then the single ones.
+ITALIAN_PRONOUN_PAIRS = {
+    first + second: (first_word, second)
+    for first, first_word in (("glie", "gli"), ("me", "me"), ("te", "te"), ("se", "se"), ("ce", "ce"), ("ve", "ve"))
+    for second in ("lo", "la", "li", "le", "ne")
+}
+ITALIAN_PRONOUNS = ("mi", "ti", "ci", "vi", "si", "lo", "la", "li", "le", "gli", "ne")
+# The short imperatives (da', di', fa', sta', va') double the first letter of the pronoun: dammi, dimmi, fallo, vattene.
+ITALIAN_SHORT_IMPERATIVES = ("da", "di", "fa", "sta", "va")
+
+
+def italian_verb_forms(words):
+    """Every form of the list's verbs, the words whose headword is an infinitive (alzarsi too)."""
+    return {form for key, (_, _, forms) in words.items() if key.endswith(("are", "ere", "ire", "rre", "arsi", "ersi", "irsi", "rsi")) for form in [key] + forms}
+
+
+# Pronoun compounds the list files as words of their own beside the real words they resemble (dimmi, fammi, eccolo).
+ITALIAN_LISTED_COMPOUNDS = {"dimmi", "fammi", "fallo", "falla", "eccomi", "eccolo", "ditemi", "fatemi", "vattene", "dammi"}
+
+
+def italian_clitics(word, ranks, verbs=None, listed=False):
+    """
+    A verb carrying pronouns split into the verb and them, as a learner reads it: mangiarlo is
+    mangiare + lo, dimmelo is di + me + lo, guardandolo is guardando + lo, eccomi is ecco + mi. The
+    infinitive loses its final e (mangiar-lo, por-lo for porre). None when the word does not split
+    that way.
+    """
+    lower = word.lower()
+    if listed and lower in ITALIAN_LISTED_COMPOUNDS:
+        listed = False
+    elif listed:
+        # A word the list holds is only taken for verb and pronouns when it is an apocopated infinitive with them
+        # (farmi, dirlo, esserci, alzarsi): parola, bene and portale are words.
+        pass
+    options = [(suffix, pair) for suffix, pair in sorted(ITALIAN_PRONOUN_PAIRS.items(), key=lambda kv: -len(kv[0]))]
+    options += [(pronoun, (pronoun,)) for pronoun in sorted(ITALIAN_PRONOUNS, key=lambda p: -len(p))]
+    for suffix, pair in options:
+        if not lower.endswith(suffix) or len(lower) <= len(suffix) + 1:
+            continue
+        stem = lower[: -len(suffix)]
+        if listed and not (stem.endswith("r") and (stem + "e" in verbs or stem + "re" in verbs)):
+            continue
+        candidates = [stem, stem + "e", stem + "re"]
+        # The short imperatives double the pronoun's first consonant: da + mmi.
+        if stem[-1] == suffix[0] and stem[:-1] in ITALIAN_SHORT_IMPERATIVES:
+            candidates.append(stem[:-1])
+        for candidate in candidates:
+            if candidate in ITALIAN_SHORT_IMPERATIVES and candidate != stem:
+                return [candidate] + list(pair)
+            if candidate in ranks and (candidate in verbs if verbs is not None else candidate.endswith(("are", "ere", "ire", "rre", "ndo", "a", "i", "e", "o"))):
+                return [candidate] + list(pair)
+            if candidate == "ecco":
+                return [candidate] + list(pair)
+    return None
+
+
+def italian_tokens(text, ranks, names=frozenset(), verbs=None):
+    """
+    Italian words as the reader counts them: elisions come off the front (l'amico is l + amico,
+    dell'acqua is dell + acqua, c'è is c + è) except the words the list has whole, and a verb's
+    attached pronouns are counted as words of their own. The ª and º of an ordinal (1º) are no words.
+    """
+    out = []
+    for token in french_tokens(re.sub(r"(?<=\d)[ºª°]", "", text), ranks):
+        lower = token.lower()
+        split = None if lower in names else italian_clitics(token, ranks, verbs, listed=lower in ranks)
+        out.extend(split or [token])
+    return out
+
+
 def check(path, brief=False):
     course = json.load(open(path, encoding="utf-8"))
     code = course["id"].split("-")[0]
     ranks, words = load_list(code)
-    verbs = spanish_verb_forms(words) if code == "es" else None
+    verbs = spanish_verb_forms(words) if code == "es" else italian_verb_forms(words) if code == "it" else None
     up_to = course["rankUpTo"]
     band_start = up_to - BAND + 1
     need, shortest, longest = rules(up_to)
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True) if code == "es" else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it") else []
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
     seen_new = set()
@@ -287,7 +359,7 @@ def check(path, brief=False):
             text = text.replace(name, " ")
         toks = tokens(text, code, ranks, names, verbs)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
-        if code in ("es", "ru"):
+        if code in ("es", "ru", "it"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals

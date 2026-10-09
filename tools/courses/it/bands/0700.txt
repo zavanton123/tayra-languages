@@ -1,0 +1,100 @@
+1	601	papa	papa papi
+2	602	popolazione	popolazione popolazioni
+3	603	calcio	calcio calci
+4	604	fornire	fornire fornisce fornito fornita forniscono forniti fornite fornendo fornirà forniva fornisca forniamo fornivano fornì forniranno forniremo fornisci fornisco fornirono forniscano fornirebbe fornirò fornisse fornissero fornirsi fornirai fornirebbero fornir
+5	605	mille	mille mila
+6	606	festa	festa feste festicciola
+7	607	camera	camera camere cameretta camerette cameroni camerone
+8	608	mostrare	mostrare mostrato mostrano mostro mostri mostrando mostrava mostrò mostrate mostrarsi mostravano mostriamo mostrerà mostrarono mostrerò mostrino mostreranno mostrasse mostrerebbe mostreremo mostrar mostrassero mostratevi mostrerai mostrai mostravo mostrerebbero mostrassi mostrante mostrerei mostravi mostrerete mostranti
+9	609	stagione	stagione stagioni
+10	610	bisogna	bisogna
+11	611	domani	domani
+12	612	mantenere	mantenere mantiene mantenuto mantenendo mantengono mantenuta mantenersi mantenute mantenuti mantenga mantenne mantieni manterrà manteniamo manteneva mantengo mantenete mantennero mantengano mantenevano manterranno mantener manterremo mantenesse manterrò manterrebbe mantenessero manterrete manterrebbero manterrai manteniamoci
+13	613	imparare	imparare imparato impara imparando impari imparano imparate impariamo imparerai imparo imparò imparerà impareranno imparino imparai impareremo imparerete imparerò imparasse imparassero impararono imparava imparavano imparassi imparavo imparar imparammo imparerei imparassimo imparerebbe imparavi imparerebbero
+14	614	differenza	differenza differenze
+15	615	iniziato	iniziato iniziata iniziate iniziati
+16	616	inizio	inizio inizi
+17	617	rischio	rischio rischi
+18	618	restare	restare restano resterà restando resti restante restanti restiamo resteranno restò restava restate restino resteremo restarono resterai resterò restavano resterebbe restasse restato restassero resterebbero resterete restar restavo resterei restai restammo restassi restavi restassimo resteresti restavamo restiate
+19	619	singolo	singolo singoli singola singole
+20	620	controllare	controllare controllato controlla controllata controllate controlli controllati controllano controllando controllava controlliamo controllarsi controllerà controllavano controllino controllante controllerò controllò controllavo controlleranno controllasse controllanti controllerei controllassero controllai controlleremo controllarono controllerebbe
+21	621	noto	noto note noti notissimo
+22	622	pena	pena pene peni
+23	623	confronto	confronti confronto
+24	624	riuscito	riuscito riuscita riusciti riuscite
+25	625	contratto	contratto contratti contratta contratte
+26	626	dubbio	dubbio dubbi dubbia dubbie
+27	627	scoprire	scoprire scopri scopre scoprono scopro scopriamo scoprendo scoprì scoprirà scopriremo scoprirai scoprite scoprirete scoprii scopriranno scoprirono scopra scoprisse scoprirò scoprirsi scoprano scopriva scoprimmo scoprirebbe scoprissi scoprissero scoprivano scoprivo scoprir scoprirebbero scoprissimo scopriresti scopriremmo scoperse
+28	628	struttura	struttura strutture
+29	629	decidere	decidere decide decidono decidi decido decida deciderà decise decidiamo decisero decidendo decidesse decisi decidete decideranno decidano decidessi decidessero decideva deciderai decidersi deciderò decidemmo deciditi decideremo decidevano decidetevi decidessimo deciderete decidiate decidente decidevo deciderebbe decidiamoci decideste
+30	630	versione	versione versioni
+31	631	carico	carico carica cariche carichi
+32	632	libertà	libertà
+33	633	metà	metà
+34	634	verità	verità
+35	635	arma	armi arma arme
+36	636	ridurre	ridurre ridotto ridotta riduce ridotti ridotte riducendo riducono ridursi ridusse riduca riduci ridurrebbe ridurrà ridussero riduceva riduciamo riduco ridurranno riducano riducente riducevano ridottissimo riducenti ridurrebbero riducesse ridurremo ridurrò riducete riducessero ridurrei
+37	637	lato	lato lati late lata
+38	638	strumento	strumenti strumento istrumento
+39	639	chiudere	chiudere chiude chiusi chiudi chiudono chiudendo chiuse chiudo chiudiamo chiudete chiuderà chiudersi chiuda chiudeva chiuderanno chiudano chiusero chiudevano chiuderò chiudesse chiuderemo chiuditi chiudessero chiudevo chiuderei chiuderebbe chiudetevi chiuderebbero chiuder chiuderai chiudessimo chiudessi
+40	640	bravo	bravo brava bravi brave bravissimo bravissima bravissimi bravissime
+41	641	misura	misura misure
+42	642	povero	poveri povero povera povere pori poro poverissimo
+43	643	pace	pace paci
+44	644	formazione	formazione formazioni
+45	645	cerca	cerca
+46	646	evitare	evitare evitando evita evitato evitate evito evitano evitiamo eviti evitati eviterei eviterà eviterebbe evitò evitava eviterò evitar evitavano evitino eviteremo evitarsi evitasse eviteranno eviterai eviterebbero evitavo evitassero evitarono evitassi eviterete evitante eviteresti
+47	647	preparare	preparare preparato preparati prepara preparando preparata preparo preparate prepararsi preparano preparatevi prepariamo prepari preparava preparò preparavano prepariamoci preparerà preparavo prepararono prepareremo preparino preparerò preparar preparatissimo preparai preparasse prepareranno preparerei preparerete preparavamo preparammo preparassero
+48	648	oro	oro ori
+49	649	notare	notare notato noti notai notano notando notate notò notiamo noterà noterai notava notarono noterete notavo notino noteranno notasse noterebbe notar noteremo notavano notassero notassi notammo noterei
+50	650	stile	stile stili
+51	651	ufficio	ufficio uffici officio uffizio
+52	652	corte	corte corti
+53	653	utente	utenti utente
+54	654	ridere	ridere riso ride ridendo ridono ridi rise rido rider rideva risi ridete ridevano ridiamo ridente risa rida ridevo riderà ridevamo riderai ridevi riderei ridenti riderò risero riderebbe rideremo rideranno ridesse riderete riderebbero ridessero ridemmo ridano rideresti ridiate
+55	655	obiettivo	obiettivo obiettivi obbiettivo obiettiva obiettive
+56	656	animale	animali animale
+57	657	funzione	funzione funzioni
+58	658	costo	costo costi
+59	659	antico	antica antico antichi antiche antichissimo antici antiquo
+60	660	riguardo	riguardo riguardi
+61	661	discorso	discorso discorsi
+62	662	tramite	tramite tramiti
+63	663	oggetto	oggetto oggetti
+64	664	numeroso	numerosi numerose numerosa numeroso numerosissimo
+65	665	scena	scena scene
+66	666	studente	studenti studente studentessa
+67	667	naturale	naturale naturali
+68	668	francesco	francesco francesca francisca franceschi
+69	669	compagnia	compagnia compagnie compagna compagne
+70	670	pratica	pratica pratiche practica prattica
+71	671	regola	regole regola
+72	672	contare	conta contare contano conti contava contando contato contiamo contante contate contavano contino conterà contavo contasse contò contin conteranno contarono conterebbe conterei contar contassero contarsi conterò conteremo conterai contavamo
+73	673	materiale	materiale materiali
+74	674	lontano	lontano lontana lontani lontane lontanissimo
+75	675	romano	romano romana romani romane
+76	676	settore	settore settori
+77	677	apparire	appare apparire appaiono apparso apparente apparsa apparve apparsi appariva apparse apparirà appaia apparvero apparivano apparenti apparendo appaiano appariranno apparisse appari apparirebbe appaio apparì apparissero apparirono apparirebbero apparisce appariamo apparito
+78	678	web	web
+79	679	fuoco	fuoco fuochi foco fuocherello
+80	680	totale	totale totali
+81	681	errore	errore errori
+82	682	scopo	scopo scopi
+83	683	eccetera	ecc eccetera
+84	684	cadere	cadere cade caduto caduti cadono cadde cadendo cada cadrà cadute cadeva cadi caddero cadente cadenti cadevano cado cadranno cadesse cadano cadiamo cadrebbe cadete caddi cadrai cadessero cadrò cadremo cader cadevo cadrebbero cadrei cadrete cadessi
+85	685	incontrare	incontrare incontrato incontrano incontri incontra incontrarsi incontriamo incontrate incontrò incontrando incontrerà incontreremo incontrerai incontreranno incontrarono incontrai incontrava incontravano incontriamoci incontrerò incontravo incontrino incontrassi incontrammo incontrasse incontrerete incontrassero incontravamo incontrassimo incontraste incontrerebbe incontriate incontrerei incontrerebbero
+86	686	finale	finale finali final
+87	687	sesso	sesso sessi
+88	688	lista	lista liste listino listini
+89	689	campagna	campagna campagne
+90	690	internet	internet
+91	691	personaggio	personaggi personaggio
+92	692	aumentare	aumentare aumenta aumentato aumentano aumentando aumenti aumentate aumenterà aumenteranno aumentò aumentava aumenterebbe aumentino aumenterebbero aumentiamo aumentarono aumentavano aumentasse aumenteremo aumentassero aumenterai
+93	693	conseguenza	conseguenza conseguenze
+94	694	costa	costa coste cosca cosche
+95	695	qua	qua quà
+96	696	richiesta	richiesta richieste
+97	697	famoso	famoso famosa famosi famose famosissimo
+98	698	maniera	maniera maniere
+99	699	età	età
+100	700	università	università

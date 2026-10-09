@@ -1,0 +1,100 @@
+1	8801	tredicesimo	tredicesima tredicesimo tredicesime
+2	8802	confinato	confinato confinati confinata confinate
+3	8803	datazione	datazione datazioni
+4	8804	giubileo	giubileo giubilei
+5	8805	proletario	proletaria proletari proletario proletarie
+6	8806	vigneto	vigneti vigneto
+7	8807	zolfo	zolfo zolfi
+8	8808	mascella	mascella mascelle
+9	8809	passatempo	passatempo passatempi
+10	8810	questore	questore questori
+11	8811	esiguo	esiguo esigua esigue esigui
+12	8812	notarile	notarile notarili
+13	8813	diagramma	diagramma diagrammi
+14	8814	cassare	cassano cassato cassin cassare cassava cassate cassi
+15	8815	bombola	bombole bombola bomboletta bombolette
+16	8816	insistenza	insistenza insistenze
+17	8817	svago	svago svaghi
+18	8818	obeso	obeso obesi obesa obese
+19	8819	posizionamento	posizionamento posizionamenti
+20	8820	mate	mate mati matè
+21	8821	attenere	attiene attengono attenere atteniamo attenga attengo attenuto attenendo atterremo attenne atterrà atterrò atteneva atterranno attengano
+22	8822	maltrattamento	maltrattamenti maltrattamento
+23	8823	espediente	espediente espedienti
+24	8824	rifiutarsi	rifiutati rifiutarsi
+25	8825	incendiare	incendiato incendiare incendia incendiate incendiano incendi incendiò incendiando incendiarono incendiarsi
+26	8826	farmaceutico	farmaceutico farmaceutici farmaceutiche
+27	8827	ornato	ornato ornata ornati ornate
+28	8828	opuscolo	opuscolo opuscoli
+29	8829	eremita	eremita eremiti romiti romito romita romite
+30	8830	emerito	emerito emerita emeriti emerite
+31	8831	inspiegabile	inspiegabile inspiegabili
+32	8832	assediato	assediata assediati assediato assediate
+33	8833	palazzina	palazzina palazzine
+34	8834	inefficace	inefficace inefficaci
+35	8835	forchetta	forchetta forchette
+36	8836	gabbiano	gabbiano gabbiani
+37	8837	previdenziale	previdenziale previdenziali
+38	8838	rapinatore	rapinatore rapinatori
+39	8839	zoccolo	zoccolo zoccoli
+40	8840	analitico	analitico analitici analitiche
+41	8841	fosso	fosso fossi
+42	8842	contrattazione	contrattazione contrattazioni
+43	8843	soprano	soprano soprani
+44	8844	finca	finche finca
+45	8845	pragmatico	pragmatico pragmatica pragmatici pragmatiche
+46	8846	commuovere	commuove commuovere commuoversi commuovo commuovono commossi commuovente commuovendo commuoveva commuovi commosse commuoverà
+47	8847	montuoso	montuosa montuoso montuose montuosi
+48	8848	prolungamento	prolungamento prolungamenti
+49	8849	vagabondo	vagabondo vagabondi vagabonda vagabonde
+50	8850	ratio	ratio rationes
+51	8851	riciclo	riciclo ricicli
+52	8852	adulterio	adulterio adulteri adultera adultero adultere
+53	8853	palinsesto	palinsesto palinsesti
+54	8854	scogliera	scogliera scogliere
+55	8855	antimafia	antimafia
+56	8856	ao	ao
+57	8857	azoto	azoto
+58	8858	chiederle	chiederle
+59	8859	governance	governance
+60	8860	liberalismo	liberalismo
+61	8861	podestà	podestà
+62	8862	portami	portami
+63	8863	portarli	portarli
+64	8864	redenzione	redenzione
+65	8865	rendermi	rendermi
+66	8866	ricordarmi	ricordarmi
+67	8867	siccità	siccità
+68	8868	soul	soul
+69	8869	summit	summit
+70	8870	tam	tam
+71	8871	tendenzialmente	tendenzialmente
+72	8872	terraferma	terraferma
+73	8873	trarne	trarne
+74	8874	tremila	tremila
+75	8875	trattenuta	trattenuta trattenute
+76	8876	puzzare	puzzano puzzare puzzava puzzi puzzavano puzzate puzziamo puzzavo puzzerà
+77	8877	foce	foce foci
+78	8878	localizzare	localizzare localizzate localizza localizzano localizzarsi localizzando localizzi
+79	8879	quadrante	quadrante quadranti
+80	8880	isterico	isterica isterico isteriche isterici
+81	8881	influsso	influsso influssi
+82	8882	fulcro	fulcro fulcri
+83	8883	scrutinio	scrutinio scrutini
+84	8884	rovere	rovere roveri
+85	8885	sprofondare	sprofondare sprofonda sprofondato sprofondando sprofondati sprofondano sprofondò sprofondo sprofondi sprofondate sprofondava sprofonderà
+86	8886	intollerante	intollerante intolleranti
+87	8887	apprezzabile	apprezzabile apprezzabili
+88	8888	involontario	involontario involontaria involontari involontarie
+89	8889	irrigazione	irrigazione irrigazioni
+90	8890	briciola	briciole briciola
+91	8891	inopportuno	inopportuno inopportuna inopportune inopportuni
+92	8892	artiglio	artigli artiglio
+93	8893	inconscio	inconscio inconscia inconsci inconsce
+94	8894	calunnia	calunnia calunnie
+95	8895	ordigno	ordigno ordigni
+96	8896	cavolata	cavolate cavolata
+97	8897	pendente	pendente pendenti
+98	8898	canapa	canapa canape
+99	8899	stressante	stressante stressanti
+100	8900	purificare	purificare purificato purifica purificata purificati purificarsi purificate purificante purificando purificano purifichi purificherà

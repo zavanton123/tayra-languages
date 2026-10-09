@@ -1,0 +1,100 @@
+1	6701	legione	legione legioni
+2	6702	peculiare	peculiare peculiari
+3	6703	lena	lena leni lene
+4	6704	colletto	colletto colletta colletti collette
+5	6705	audizione	audizione audizioni
+6	6706	pennello	pennello pennelli
+7	6707	ercole	ercole ercoli
+8	6708	emozionato	emozionato emozionata emozionati emozionate
+9	6709	scrupolo	scrupoli scrupolo
+10	6710	eruzione	eruzione eruzioni
+11	6711	ottico	ottico ottici ottiche
+12	6712	rovesciato	rovesciato rovesciata rovesciati rovesciate
+13	6713	suicidarsi	suicidarsi suicidi suicidati suicido suicidano suicidò suicidate suicidando suiciderei suicidarono suiciderà
+14	6714	paradigma	paradigma paradigmi
+15	6715	feudo	feudo feudi
+16	6716	longobardo	longobardi longobarda longobardo longobarde
+17	6717	macerare	macerata macerare macerato macerati macera maceri
+18	6718	decorrere	decorrere decorso decorre decorsi decorrenti decorrono decorrente decorrerà
+19	6719	centrocampista	centrocampista centrocampisti
+20	6720	terrorizzare	terrorizzato terrorizza terrorizzare terrorizzate terrorizzano terrorizzando terrorizzava terrorizzante terrorizzò terrorizzanti terrorizzavano
+21	6721	pellegrinaggio	pellegrinaggio pellegrinaggi
+22	6722	teorema	teorema teoremi
+23	6723	smalto	smalto smalti
+24	6724	scartare	scartato scartare scarti scartate scartando scartano scartiamo scarta scartò scarterei
+25	6725	apporto	apporto apporti
+26	6726	scoraggiare	scoraggiare scoraggiato scoraggia scoraggiati scoraggiante scoraggiata scoraggiando scoraggiano scoraggiarsi scoraggi scoraggianti scoraggiate scoraggiò scoraggiatevi scoraggiava
+27	6727	oscillare	oscilla oscillano oscillare oscillante oscillanti oscillava oscillando oscillato oscilli oscillo oscillavano oscillò oscillerà
+28	6728	riscrivere	riscrivere riscritto riscritta riscrive riscrivo riscrivendo riscrivi riscritti riscritte riscrivono riscrisse riscriviamo riscriverò
+29	6729	utopia	utopia utopie
+30	6730	reliquia	reliquie reliquia
+31	6731	capriccio	capricci capriccio
+32	6732	stalla	stalla stalle
+33	6733	autografo	autografo autografi autografa autografe
+34	6734	gotico	gotico gotica gotiche gotici
+35	6735	romeno	romeno romena romeni romene
+36	6736	danzare	danzare danzante danzanti danzano danzando danzato danzi danzava danzo danzavano danzate danzò danzeranno
+37	6737	emanare	emanare emana emanano emanò emanava emanate emani emanando emanavano emanarono emanerà emano
+38	6738	stento	stento stenti
+39	6739	fanteria	fanteria fanterie
+40	6740	superamento	superamento superamenti
+41	6741	valanga	valanga valanghe
+42	6742	torturato	torturato torturati torturata torturate
+43	6743	rinvenire	rinvenuto rinvenire rinviene rinvengono rinvenne rinvenendo rinvennero rinvenivano
+44	6744	trilogia	trilogia trilogie
+45	6745	dilemma	dilemma dilemmi
+46	6746	carota	carote carota
+47	6747	formica	formiche formica formicola formichina
+48	6748	vendicare	vendicare vendica vendicato vendicata vendicando vendicherà vendicò vendicano vendicati vendichi vendicherò vendico vendicarono vendicate vendicheremo
+49	6749	seppellire	seppellire seppellito seppellisce seppellite seppellì seppellirono seppelliscono seppellirà seppellendo seppellivano seppellisco seppellisci seppelliranno seppelliva seppellir
+50	6750	allestire	allestito allestire allestite allestendo allestisce allestì allestiscono allestirono allestiva allestiamo
+51	6751	ottimale	ottimale ottimali
+52	6752	bue	bue buoi
+53	6753	debitore	debitore debitori debitrice
+54	6754	salvaguardare	salvaguardare salvaguardato salvaguardando salvaguarda salvaguardano salvaguardate salvaguardarsi salvaguardi salvaguardiamo
+55	6755	clone	clone cloni
+56	6756	applaudire	applaudire applaude applaudito applaudite applaudono applaudo applaudiva applaudita applaudendo applaudivano applauditi applaudi applaudirono applaudì applauda applaudiranno applaudiamo applauditissimo
+57	6757	calcistico	calcistica calcistico calcistiche calcistici
+58	6758	rogo	rogo roghi
+59	6759	erezione	erezione erezioni
+60	6760	orma	orme orma
+61	6761	arcobaleno	arcobaleno arcobaleni
+62	6762	supervisione	supervisione supervisioni
+63	6763	intuizione	intuizione intuizioni
+64	6764	abbinamento	abbinamento abbinamenti
+65	6765	ceppo	ceppo ceppi
+66	6766	secchio	secchio secchi secchione secchioni secchiona
+67	6767	cordiale	cordiale cordiali cordialissimo
+68	6768	parmigiano	parmigiano parmigiana parmigiani parmigiane
+69	6769	elsa	elsa else
+70	6770	conclusivo	conclusiva conclusivo conclusive conclusivi
+71	6771	predicare	predicare predicato predicano predicava predicando predicò predichi predicati predico predicate predicata predicavano predichiamo
+72	6772	elevare	elevare eleva elevate elevano elevò elevando elevava elevi elevarono eleviamo elevo elevavano eleverà
+73	6773	plurale	plurale plurali
+74	6774	operatorio	operatoria operatori operatorio operatorie
+75	6775	oca	oca oche
+76	6776	rimessa	rimessa rimesse
+77	6777	ricorrenza	ricorrenza ricorrenze
+78	6778	élite	élite élites
+79	6779	osseo	osseo ossea ossee ossei
+80	6780	caffo	caffe caffi caffo caffa
+81	6781	ribasso	ribasso ribassi
+82	6782	remo	remo remi
+83	6783	all'infinito	all'infinito
+84	6784	avvento	avvento
+85	6785	crudeltà	crudeltà
+86	6786	finisci	finisci
+87	6787	gossip	gossip
+88	6788	immunità	immunità
+89	6789	iris	iris
+90	6790	jet	jet
+91	6791	prenderla	prenderla
+92	6792	previdenza	previdenza
+93	6793	provider	provider
+94	6794	realismo	realismo
+95	6795	renderla	renderla
+96	6796	sessualmente	sessualmente
+97	6797	sfiducia	sfiducia
+98	6798	spontaneamente	spontaneamente
+99	6799	tiziano	tiziano
+100	6800	trecento	trecento

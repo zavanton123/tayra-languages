@@ -1,0 +1,100 @@
+1	1001	sport	sport sporte
+2	1002	perca	perche perca
+3	1003	freddo	freddo fredda freddi fredde freddissimo freddino freddina
+4	1004	analisi	analisi
+5	1005	pro	pro
+6	1006	responsabilità	responsabilità
+7	1007	permesso	permesso permessi permessa permesse
+8	1008	completo	completo completa complete completi
+9	1009	parco	parco parchi parche parca
+10	1010	proposito	proposito propositi
+11	1011	latino	latino latina latini latine
+12	1012	discutere	discutere discusso discute discutendo discussa discutono discusse discussi discutiamo discuto discuteva discuterà discuta discutevano discuteremo discuteranno discuti discutete discussero discutevamo discuterò discutevo discutano discutemmo discutesse discuter
+13	1013	religione	religione religioni
+14	1014	impossibile	impossibile impossibili
+15	1015	spendere	spese spendere speso spesi spende spendono spendendo spendo spendi spendiamo spenderei spenda spendeva spendete spenderà spenderò spenderanno spenderemo spenderebbe spendersi spendevano spendano spenderesti spenderai spendesse spendevo spenderebbero spesero spendessero spenderete
+16	1016	suonare	suona suonare suonato suoni suonano suonava suonando suonata suonati suonate suonavano suonò suonerà suoniamo suonasse suoneranno suonavo suonerebbe suonarono suonino suoneremo suonerò suonavamo suonassero suonai sonare suonerai suonar suonavi suonerebbero
+17	1017	ognuno	ognuno ognuna ogniuno ognun
+18	1018	altrimenti	altrimenti
+19	1019	giudice	giudice giudici iudice
+20	1020	profondo	profondo profonda profonde profondi profondissimo profondissima profondissime profondissimi
+21	1021	marco	marco marchi
+22	1022	organizzato	organizzato organizzata organizzati organizzate
+23	1023	assicurare	assicurare assicurato assicuro assicurarsi assicura assicurati assicurata assicurano assicurando assicuri assicurate assicurò assicuratevi assicuriamo assicurava assicurerà assicurino assicureremo assicurarono assicuravano assicureranno assicurerebbe assicurerò assicurasse assicuriamoci assicurerei
+24	1024	fenomeno	fenomeno fenomeni
+25	1025	assumere	assumere assume assumono assumendo assunse assumersi assuma assumo assumerà assumiamo assumeva assumi assunsero assumano assumesse assumeranno assumevano assumerebbe assumete assumeremo assumerei assumessero assumerebbero assunsi assumerò assumiti assumevo assumerete
+26	1026	volto	volto volte volti
+27	1027	sindaco	sindaco sindaci sindaca
+28	1028	greco	greco greci greca greche
+29	1029	ammettere	ammettere ammesso ammette ammetto ammettendo ammettono ammettiamo ammetti ammise ammetta ammetterà ammetteva ammetterai ammettete ammetteranno ammetterebbe ammettesse ammisero ammettevano ammettano ammetterebbero ammetterò ammettessero ammetteremo
+30	1030	piangere	piangere pianto piange piangendo piango piangeva piangono pianti piangi pianga piangete piangiamo piangevo pianse piangente piangevano piansi piangeranno piangerà piangerò piangersi piangenti piangerai piangevi pianger piangesse piangerei piangeremo piansero piangano piangerete piangessero
+31	1031	regolare	regolare regolarmente regolari regolano regolato regolati regolate regolo regoli regolando regolarsi regolava regolerà regolavano regolino regolatevi regolasse regolò regoliamo regolanti regolante regoleranno
+32	1032	lotta	lotta lotte
+33	1033	bagno	bagno bagni bagnetto bagnetti
+34	1034	femminile	femminile femminili
+35	1035	manca	manca manche
+36	1036	spettacolo	spettacolo spettacoli
+37	1037	professore	professore professori professoressa professorino professorini
+38	1038	roba	roba robe robba
+39	1039	tranquillo	tranquillo tranquilla tranquilli tranquille tranquillissimo
+40	1040	assoluto	assoluto assoluta assoluti assolute
+41	1041	alzare	alzare alza alzato alzarsi alzi alzata alzo alzano alzati alzando alzate alzò alziamo alzava alzerà alzai alzatevi alzavo alzeranno alzavano alzarono alzerò alzino alzasse alzerei alzerai alzerebbe alzassi alzassero alzeremo alziamoci alzavi alzerebbero alzar
+42	1042	appartenere	appartiene appartengono appartenente apparteneva appartenere appartenevano appartenga appartengo appartengano appartenuto appartenne appartieni appartenesse apparteniamo appartenessero appartenendo apparterrà appartenete appartennero apparterrebbero apparterrebbe apparterranno appartenevo
+43	1043	dichiarazione	dichiarazione dichiarazioni
+44	1044	frase	frase frasi
+45	1045	negozio	negozio negozi
+46	1046	necessità	necessità
+47	1047	costituire	costituisce costituiscono costituire costituente costituiva costituenti costituendo costituivano costituisca costituì costituite costituirsi costituirà costituirebbe costituirono costituiscano costituiranno costituirebbero costituisse costituenda costituissero costituisco costituiamo costituisciti
+48	1048	angelo	angelo angeli angela angioletto angioletti agnolo angiolo
+49	1049	museo	museo musei
+50	1050	alimentare	alimentare alimentari alimenti alimentato alimenta alimento alimentano alimentati alimentate alimentando alimentarsi alimentava alimentavano alimentò alimenterà alimentiamo alimentarono alimentino alimenteranno
+51	1051	parlamento	parlamento parlamenti
+52	1052	maestro	maestro maestri maestra maestre
+53	1053	condotto	condotta condotto condotti condotte
+54	1054	dimensione	dimensioni dimensione
+55	1055	inutile	inutile inutili inutil
+56	1056	natale	natale natali
+57	1057	operare	operare operato operai operano operanti operante operata operando operandi operate operati operò operava operiamo operavano operi operarono opero operarsi opererà operino opereranno operasse operassero opererebbe
+58	1058	giocatore	giocatori giocatore giocatrice
+59	1059	preferito	preferito preferita preferiti preferite
+60	1060	tribunale	tribunale tribunali
+61	1061	aumento	aumento aumenti
+62	1062	iniziativa	iniziativa iniziative
+63	1063	variare	vari varia variare variano variando variata variato variava variati variavano variate varierà variò variarono varieranno varino variar
+64	1064	compito	compito compiti compita compite
+65	1065	agente	agenti agente
+66	1066	ulteriore	ulteriori ulteriore
+67	1067	concorso	concorso concorsi concorse
+68	1068	peccato	peccato peccati peccata
+69	1069	quotidiano	quotidiano quotidiana quotidiani quotidiane
+70	1070	el	el er
+71	1071	rubare	rubare rubato ruba rubano rubati rubata rubate rubino rubando rubi rubo rubini rubava rubin rubò rubavano rubiamo rubarono rubassero ruberà ruberò ruberanno rubai ruberei rubasse rubavo ruberemo ruberesti ruberebbe rubar rubarsi ruberebbero ruberai
+72	1072	autorità	autorità
+73	1073	est	est
+74	1074	importanza	importanza
+75	1075	insomma	insomma
+76	1076	vino	vino vini vin vinello
+77	1077	chiave	chiave chiavi
+78	1078	amministrazione	amministrazione amministrazioni
+79	1079	costituzione	costituzione costituzioni
+80	1080	collega	collega colleghi colleghe
+81	1081	ferito	ferito feriti ferite ferita
+82	1082	vestito	vestiti vestito vestita vestite
+83	1083	formato	formato formata formati formate
+84	1084	percorso	percorso percorsi percorsa percorse
+85	1085	violenza	violenza violenze
+86	1086	attore	attore attori attrice attrici
+87	1087	pubblicazione	pubblicazione pubblicazioni
+88	1088	silenzio	silenzio silenzi
+89	1089	fiume	fiume fiumi fiumicello
+90	1090	contenuto	contenuto contenute contenuta
+91	1091	fede	fede fedi
+92	1092	braccio	braccio braccia bracci braccino
+93	1093	vacanza	vacanza vacanze
+94	1094	confine	confine confini
+95	1095	fisica	fisica fisiche
+96	1096	festival	festival
+97	1097	test	test
+98	1098	tentativo	tentativo tentativi
+99	1099	ripetere	ripeto ripetere ripete ripetuto ripetendo ripetono ripetersi ripeti ripeta ripetiamo ripeteva ripeterò ripeterà ripetete ripeté ripetevano ripetano ripetevo ripeteremo ripetesse ripeteranno ripetenti ripetente ripeterono ripeterebbe ripeterei ripetè ripetessero ripetevi
+100	1100	cancellare	cancellare cancellato cancello cancella cancelli cancellata cancellati cancellate cancellando cancellano cancelletto cancellerà cancelliamo cancellò cancellarsi cancellino cancellerò cancellava cancellasse cancelleranno cancellerei cancellarono cancelleremo cancellai cancellerebbe cancelletti cancellerai cancellassero

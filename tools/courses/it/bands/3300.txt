@@ -1,0 +1,100 @@
+1	3201	omosessuale	omosessuali omosessuale
+2	3202	salario	salario salari salaria
+3	3203	selvaggio	selvaggio selvaggia selvaggi selvagge
+4	3204	sabbia	sabbia sabbie
+5	3205	crema	crema creme
+6	3206	opportuno	opportuno opportune opportuna opportuni
+7	3207	meccanica	meccanica meccaniche
+8	3208	boy	boy boys
+9	3209	combattimento	combattimento combattimenti
+10	3210	concentrare	concentra concentrare concentrano concentrando concentro concentri concentrate concentriamo concentrò concentrerà concentreremo concentravano concentrava concentrarono concentrino concentrerò concentrasse concentreranno concentrerei concentrassero
+11	3211	chiacchierare	chiacchiere chiacchierare chiacchiera chiacchierando chiacchierato chiacchierate chiacchierano chiacchieriamo chiacchiero chiacchera chiacchierava chiacchieri chiacchieravano
+12	3212	procura	procura procure
+13	3213	imbarazzante	imbarazzante imbarazzanti
+14	3214	entusiasmo	entusiasmo entusiasmi
+15	3215	stimolare	stimolare stimolante stimola stimolanti stimolato stimolando stimolano stimolata stimolati stimolate stimolò stimolava stimolarono stimoliamo stimolino stimolerà stimolerebbe stimolasse
+16	3216	lieto	lieto lieta lieti liete lietissimo
+17	3217	strappare	strappare strappato strappo strappa strappi strappano strappate strappando strappò strapparsi strappava strapparono strappar strapperà strappiamo sterpi strapperò strapperei strappavano strappasse strapperai strappai
+18	3218	fiero	fiero fieri fiere fere fero fier fierissimo
+19	3219	spaventare	spaventa spaventato spaventare spaventano spaventate spaventava spaventarsi spaventi spaventando spaventò spaventavano spaventatevi spaventiamo spaventerebbe spaventerà spaventarono spaventai spaventino spaventasse
+20	3220	premere	premere preme premuto premi premendo premo premeva premiate prema premono premete premette premiamo premevano premevo premerà premetti
+21	3221	impazzire	impazzire impazzito impazzendo impazzisce impazzite impazziscono impazzisco impazzì impazzirei impazzisci impazzisca impazzirò impazziva impazzirà impazzivano impazziresti impazziranno impazzir impazzirai
+22	3222	governativo	governativa governativo governative governativi
+23	3223	alieno	alieni alieno aliena aliene
+24	3224	stampato	stampato stampata stampati stampate
+25	3225	tariffa	tariffe tariffa
+26	3226	innovativo	innovativo innovative innovativa innovativi
+27	3227	tutelare	tutelare tutelato tutelati tuteli tutelano tutelate tutelarsi tutelando tutelino tutelari tuteliamo tutelava tutelerà tutelasse
+28	3228	datore	datore datori datrice
+29	3229	ripartire	ripartire riparte ripartito riparto ripartite ripartono ripartiamo riparti ripartendo ripartirà riparta ripartì ripartiva ripartiremo ripartiranno ripartisce ripartirono ripartiscono ripartisse ripartivano
+30	3230	visitatore	visitatori visitatore visitatrice
+31	3231	percorrere	percorrere percorrendo percorre percorrono percorsi percorreva percorrevano percorro percorri percorriamo percorreranno percorsero percorse percorrerà percorreremo percorrete percorra percorrevo percorrano
+32	3232	suggerimento	suggerimenti suggerimento
+33	3233	erede	erede eredi
+34	3234	artificiale	artificiale artificiali
+35	3235	benzina	benzina benzine
+36	3236	magistrato	magistrati magistrato
+37	3237	privilegio	privilegi privilegio
+38	3238	interrotto	interrotto interrotta interrotte interrotti
+39	3239	coltello	coltello coltelli
+40	3240	interrompere	interrompere interrompe interruppe interrompendo interrompono interrompa interrompo interrompersi interrompi interrompeva interruppero interromperà interrompete interrompesse interrompiamo interrompano interrompevano interromperanno
+41	3241	protocollo	protocollo protocolli
+42	3242	spunto	spunto spunti spunta spunte
+43	3243	rilevare	rilevare rileva rilevano rilevando rilevate rilevò rilevo rilevi rileviamo rilevava rileverà rilevarono rilevarsi rilevino rileveranno rilevavano rilevasse
+44	3244	consegnare	consegnare consegnano consegnando consegnate consegnò consegnerà consegni consegno consegnarsi consegnava consegnarono consegniamo consegneranno consegnasse consegneremo consegnavano consegnerò consegnino consegnai consegnerebbe consegnassero consegnerei
+45	3245	attentato	attentato attentati
+46	3246	apparentemente	apparentemente
+47	3247	darti	darti
+48	3248	farle	farle
+49	3249	improvvisamente	improvvisamente
+50	3250	occhiali	occhiali
+51	3251	party	party
+52	3252	performance	performance
+53	3253	aggiornare	aggiornare aggiorna aggiornate aggiorno aggiornando aggiornarsi aggiornano aggiorni aggiorniamo aggiornati aggiornerò aggiorneremo aggiornerà aggiornò aggiorneranno aggiornava aggiornavano
+54	3254	assunzione	assunzione assunzioni
+55	3255	emissione	emissioni emissione
+56	3256	esito	esito esiti
+57	3257	risata	risate risata
+58	3258	assassino	assassino assassini assassina assassine
+59	3259	perla	perle perla
+60	3260	statuto	statuto statuti
+61	3261	emigrare	emigrati emigrare emigranti emigrato emigra emigrano emigrata emigrante emigrate emigrando emigrò emigrarono emigro emigravano emigri
+62	3262	teorico	teorico teorica teorici teoriche
+63	3263	magazzino	magazzino magazzini magazzeno
+64	3264	piscina	piscina piscine
+65	3265	logo	logo loghi
+66	3266	riproduzione	riproduzione riproduzioni
+67	3267	punizione	punizione punizioni
+68	3268	canone	canone canoni
+69	3269	tristezza	tristezza tristezze
+70	3270	miniera	miniera miniere
+71	3271	emesso	emesso emessa emesse emessi
+72	3272	fondamento	fondamento fondamenta fondamenti fondamente
+73	3273	vietare	vieta vietare vietano vietata vietando vietava vieti vietati vietò vietate vietiamo vietavano vieterei vieterebbe vieto vietino vietarono vieterà vietasse
+74	3274	capolavoro	capolavoro capolavori
+75	3275	teatrale	teatrale teatrali
+76	3276	opporre	oppone oppongono opporre oppose opponeva opponevano opposero opponga oppongo opponendo opponiamo opponenti opporrà oppongano opponente opporranno opponesse opponi opporremo opposi opporrebbe opponete opporrò opponessero opporrei
+77	3277	archeologico	archeologico archeologici archeologica archeologiche
+78	3278	acciaio	acciaio acciai acciaro
+79	3279	depressione	depressione depressioni
+80	3280	capitato	capitato capitata capitate capitati
+81	3281	tragico	tragico tragica tragici tragiche
+82	3282	sperimentare	sperimentare sperimentato sperimentando sperimenta sperimentata sperimentati sperimentano sperimentate sperimentò sperimentiamo sperimenti sperimento sperimentava sperimentarono sperimentavano sperimenterà
+83	3283	suddetto	suddetto suddetta suddetti suddette
+84	3284	austriaco	austriaco austriaci austriaca austriache
+85	3285	polacco	polacco polacchi polacca polacche
+86	3286	commettere	commettere commette commettono commettendo commise commetta commetti commetto commettano commettiamo commisero commetteva commetterà commettevano commetterebbe commettete commettesse commisi commetteranno commetter
+87	3287	controversia	controversie controversia
+88	3288	anniversario	anniversario anniversari
+89	3289	etichetta	etichetta etichette
+90	3290	tessera	tessera tessere tesserino tessa tesse tesser tessendo tessono tessi tesseva tesso tessevano
+91	3291	cappella	cappella cappelle cappelletta
+92	3292	tè	tè thè té
+93	3293	retta	retta rette
+94	3294	insultare	insultare insultato insulta insultando insultano insultate insultava insultavano insultante insultò insultarsi insultiamo insultanti insultino insulterei insulterò insultasse insulteranno
+95	3295	avviato	avviato avviata avviati avviate
+96	3296	repubblicano	repubblicani repubblicano repubblicana repubblicane
+97	3297	tipologia	tipologia tipologie
+98	3298	portoghese	portoghese portoghesi
+99	3299	vaccino	vaccino vaccini vaccina vaccine
+100	3300	bensì	bensì

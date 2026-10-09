@@ -1,0 +1,100 @@
+1	9001	pipa	pipa pipe
+2	9002	doge	doge dogi
+3	9003	frizione	frizione frizioni
+4	9004	aeronautica	aeronautica aeronautiche
+5	9005	armonico	armonico armonici armoniche
+6	9006	pinna	pinna pinne
+7	9007	statico	statico statici statiche
+8	9008	indifeso	indifesi indifesa indifeso indifese
+9	9009	accomodare	accomodare accomodarsi accomodante accomodi accomodatevi accomoda accomodanti accomodato accomodate accomodata accomodo accomodiamo accomodano accomodino
+10	9010	pappa	pappa pappe pappine
+11	9011	motorizzazione	motorizzazione motorizzazioni
+12	9012	scorpione	scorpione scorpioni
+13	9013	teschio	teschio teschi
+14	9014	vallata	vallata vallate
+15	9015	autopsia	autopsia autopsie
+16	9016	quartetto	quartetto quartetti
+17	9017	irrompere	irrompe irrompere irrompono irruppe irruppero irrompendo irrompeva
+18	9018	mitologico	mitologico mitologica mitologiche mitologici
+19	9019	inappropriato	inappropriato inappropriata inappropriati inappropriate
+20	9020	ordinazione	ordinazione ordinazioni
+21	9021	triangolare	triangolare triangolari triangoli triangolino
+22	9022	appellare	appella appellato appellano appelliamo appellò appellare appellante appellanti appellate appellarono appellava appellando appelli
+23	9023	profano	profano profana profani profane
+24	9024	rassicurante	rassicurante rassicuranti
+25	9025	antipasto	antipasto antipasti
+26	9026	didascalia	didascalia didascalie
+27	9027	rivenditore	rivenditori rivenditore
+28	9028	venezuelano	venezuelano venezuelana venezuelani venezuelane
+29	9029	ostinato	ostinato ostinata ostinate ostinati
+30	9030	aia	aia aie
+31	9031	suicidare	suicidato suicidare suicidò suiciderà
+32	9032	schietto	schietto schietta schietti schiette
+33	9033	sinodo	sinodo sinodi
+34	9034	ingrato	ingrato ingrati ingrata ingrate
+35	9035	abbazia	abbazia abbazie abazia abadia
+36	9036	orientarsi	orientati orientarsi
+37	9037	affrettato	affrettato affrettati affrettata affrettate
+38	9038	pugnale	pugnale pugnali
+39	9039	sinfonia	sinfonia sinfonie sinfonietta
+40	9040	esodo	esodo esodi
+41	9041	riscossione	riscossione riscossioni
+42	9042	abilitare	abilita abilitare abilitante abilitanti abilitando abilitano abiliti
+43	9043	schiantare	schianta schiantato schiantare schiantano schiantò schianti schianterà schiantando
+44	9044	ideatore	ideatore ideatori ideatrice
+45	9045	abbreviato	abbreviato abbreviata abbreviati abbreviate
+46	9046	sentinella	sentinella sentinelle
+47	9047	diluvio	diluvio diluvi
+48	9048	mitra	mitra mitre mitria
+49	9049	desolato	desolata desolato desolate desolati
+50	9050	ossido	ossido ossidi
+51	9051	quarantena	quarantena quarantene
+52	9052	mutilato	mutilati mutilato mutilata mutilate
+53	9053	cassaforte	cassaforte casseforti cassaforti
+54	9054	amianto	amianto
+55	9055	brutalmente	brutalmente
+56	9056	esservi	esservi
+57	9057	fuorilegge	fuorilegge
+58	9058	glieli	glieli
+59	9059	grembo	grembo
+60	9060	involontariamente	involontariamente
+61	9061	momentaneamente	momentaneamente
+62	9062	poggia	poggia
+63	9063	pony	pony
+64	9064	sharia	sharia
+65	9065	specificità	specificità
+66	9066	veridicità	veridicità
+67	9067	imperfezione	imperfezioni imperfezione
+68	9068	cognata	cognata cognate
+69	9069	scagliare	scagliato scagliare scagli scagliò scagliano scagliate scagliando scagliava scagliarono scaglierà scaglio
+70	9070	melanzana	melanzane melanzana
+71	9071	islandese	islandese islandesi
+72	9072	allacciare	allacciare allacciate allaccia allacciato allacci allaccio allacciata allacciati allacciano allacciando allacciò
+73	9073	eccellere	eccelsa eccellere eccelso eccelle eccelse eccelsi eccellono eccelleva
+74	9074	renziano	renziani renziano renziana renziane
+75	9075	trafficare	trafficata trafficate trafficare trafficato trafficati trafficando traffica trafficano trafficava traffichi
+76	9076	annessione	annessione annessioni
+77	9077	precursore	precursore precursori
+78	9078	barricata	barricate barricata
+79	9079	incorrere	incorrere incorre incorso incorrono incorse incorsi incorrendo incorrerà incorra
+80	9080	xenofobo	xenofobo xenofobi xenofoba xenofobe
+81	9081	pelato	pelato pelati pelata pelate
+82	9082	supervisore	supervisore supervisori
+83	9083	pedagogico	pedagogico pedagogica pedagogiche pedagogici
+84	9084	shot	shot shottino
+85	9085	ribattere	ribattere ribatte ribattuto ribatté ribatti ribattono ribattendo ribatto ribatteva
+86	9086	acquedotto	acquedotto acquedotti
+87	9087	laccio	lacci laccio
+88	9088	ascia	ascia asce
+89	9089	giallorosso	giallorossi giallorosso giallorossa giallorosse
+90	9090	anestesia	anestesia anestesie
+91	9091	rullo	rullo rulli
+92	9092	terzino	terzino terzini
+93	9093	poligono	poligono poligoni
+94	9094	avvistare	avvistato avvistare avvistate avvista avvisto avvistò avvistano avvisti
+95	9095	ginecologo	ginecologo ginecologi ginecologa
+96	9096	intrigo	intrighi intrigo
+97	9097	duna	dune duna
+98	9098	analitica	analitica analitiche
+99	9099	costellazione	costellazione costellazioni
+100	9100	porcata	porcate porcata

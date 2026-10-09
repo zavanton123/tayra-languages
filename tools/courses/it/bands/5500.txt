@@ -1,0 +1,100 @@
+1	5401	sanguigno	sanguigno sanguigna sanguigni sanguina sanguigne
+2	5402	pala	pala pale
+3	5403	sistematico	sistematico sistemica sistematici sistemico sistemiche sistemici sistematiche
+4	5404	tinta	tinta tinte
+5	5405	illuminazione	illuminazione illuminazioni
+6	5406	accrescere	accrescere accresce accrescendo accresciuto accrebbe accrescono accresca accrebbero accrescerà accresceva accresci
+7	5407	mercenario	mercenari mercenario mercenarie mercenaria
+8	5408	simulazione	simulazione simulazioni
+9	5409	sbarco	sbarco sbarchi
+10	5410	psichiatrico	psichiatrico psichiatrica psichiatrici psichiatriche
+11	5411	somiglianza	somiglianza somiglianze
+12	5412	contestazione	contestazione contestazioni
+13	5413	atterrare	atterrato atterrare atterra atterrando atterrano atterrò atterri atterrate atterrerà atterrava atterrarono atterro atterriamo atterreranno
+14	5414	zanzara	zanzare zanzara zanza
+15	5415	disgrazia	disgrazia disgrazie
+16	5416	missionario	missionari missionario missionaria missionarie
+17	5417	martirio	martirio martiri
+18	5418	solidale	solidale solidali
+19	5419	cono	cono coni
+20	5420	instaurare	instaurare instaurato instaura instaurata instaurando instaurarsi instaurano instaurati instaurò instauri instaurate instaurerà instaurarono instaurava
+21	5421	incisione	incisione incisioni
+22	5422	differire	differisce differiscono differita differire differito differiva differivano differite differisca differiscano differiti differendo
+23	5423	decorato	decorato decorata decorati decorate
+24	5424	sensore	sensori sensore
+25	5425	tosto	tosta tosto tosti toste tostissima
+26	5426	bollire	bollire bollito bolle bollita bolliti bollite bolli bollendo bollano bolliva bollono
+27	5427	epidemia	epidemia epidemie
+28	5428	casella	casella caselle
+29	5429	zecca	zecca zecche
+30	5430	problematico	problematiche problematico problematici
+31	5431	replicare	replicare replicato replicò replicata replicando replicanti replicano replicante replicati replicate replico replicarsi replicherà replicava replichi replichiamo replicarono
+32	5432	carrozza	carrozza carrozze
+33	5433	numerico	numerica numerico numerici numeriche
+34	5434	istruttore	istruttore istruttori istruttrice
+35	5435	coordinatore	coordinatore coordinatrice coordinatori
+36	5436	bestiame	bestiame
+37	5437	diciotto	diciotto
+38	5438	difatti	difatti
+39	5439	dirvi	dirvi
+40	5440	dopoguerra	dopoguerra
+41	5441	duramente	duramente
+42	5442	eccolo	eccolo
+43	5443	ostilità	ostilità
+44	5444	poster	poster
+45	5445	potenzialità	potenzialità
+46	5446	trovarlo	trovarlo
+47	5447	mattinata	mattinata mattinate
+48	5448	marcato	marcato marcata marcati marcate
+49	5449	esplorazione	esplorazione esplorazioni
+50	5450	interrogato	interrogato interrogata interrogati interrogate
+51	5451	assetto	assetto assetti
+52	5452	riscaldare	riscaldare riscalda riscaldato riscaldata riscaldati riscaldate riscaldando riscaldarsi riscaldano riscaldi riscaldo riscaldante riscaldanti riscaldava riscalderà
+53	5453	compositore	compositore compositori compositrice compositrici
+54	5454	direttivo	direttivo direttive direttivi
+55	5455	marocchino	marocchino marocchini marocchina marocchine
+56	5456	aspirare	aspirare aspira aspirano aspirato aspiri aspirava aspirate aspiro aspirando aspiriamo aspiravano aspiravo aspirò
+57	5457	varare	vari varato varare varate vara varò varando
+58	5458	furioso	furioso furiosa furiosi furiose
+59	5459	premettere	premesso premetto premettendo premettere premise premettiamo premette premetti
+60	5460	anarchico	anarchici anarchico anarchica anarchiche
+61	5461	delibera	delibera delibere
+62	5462	matita	matita matite
+63	5463	disgustoso	disgustoso disgustosa disgustosi disgustose
+64	5464	ratto	ratti ratto ratta ratte
+65	5465	ripristinare	ripristinare ripristinato ripristina ripristinando ripristinate ripristini ripristinò ripristiniamo ripristinano ripristinava
+66	5466	differenziato	differenziata differenziato differenziati differenziate
+67	5467	demolizione	demolizione demolizioni
+68	5468	designato	designato designati designata designate
+69	5469	panoramica	panoramica panoramiche
+70	5470	normativo	normativo normativi normative
+71	5471	regnare	regna regnare regnò regnava regnano regnato regnerà regnarono regnavano regni regnando regneranno
+72	5472	insalata	insalata insalate insalatina
+73	5473	figurare	figurano figuri figurare figurava figuravano figuranti figuro figurante figurò figurando figurarono figurate figurerà figurino figurini
+74	5474	polizza	polizza polizze
+75	5475	tradotta	tradotta tradotte
+76	5476	coltura	colture coltura
+77	5477	nuotare	nuotare nuota nuotano nuotando nuotato nuotate nuotava nuotavano nuotò nuotiamo nuoti
+78	5478	dopodiché	dopodiché dopodichè
+79	5479	retribuzione	retribuzione retribuzioni
+80	5480	deposizione	deposizione deposizioni
+81	5481	magistrale	magistrale magistrali
+82	5482	molecola	molecole molecola
+83	5483	veduta	vedute veduta
+84	5484	progressista	progressista progressisti progressiste
+85	5485	emittente	emittente emittenti
+86	5486	branco	branco branchi
+87	5487	decadenza	decadenza decadenze
+88	5488	insufficiente	insufficiente insufficienti insufficente
+89	5489	astio	asti astio
+90	5490	splendore	splendore splendori
+91	5491	flessibile	flessibile flessibili
+92	5492	metodologia	metodologia metodologie
+93	5493	artigianale	artigianale artigianali
+94	5494	serbatoio	serbatoio serbatoi
+95	5495	delirio	delirio deliri
+96	5496	evadere	evadere evaso evade evasi evadono evase evasa evadendo evadi
+97	5497	rinvio	rinvio rinvii
+98	5498	ricovero	ricovero ricoveri
+99	5499	anomalia	anomalia anomalie
+100	5500	squalo	squali squalo

@@ -1,0 +1,100 @@
+1	701	utilizzato	utilizzato utilizzata utilizzati utilizzate
+2	702	culturale	culturale culturali
+3	703	ricco	ricco ricchi ricca ricche ricchissimo
+4	704	telefono	telefono telefoni telefonino telefonini
+5	705	popolare	popolare popolari popoli popolato popolata popolano popolate popolati popolino popola popolani popolarissimo popolana popolavano popolarissima popolarono popolò popolando popolane popolava popolarissimi popolarissime popolar
+6	706	natura	natura nature
+7	707	interessante	interessante interessanti interessantissimo
+8	708	mandare	mandare manda mando mandano mandi mandando mandiamo mandò mandava manderò mandate mandante manderà mandanti mandavano mandar manderanno manderei mandarono mandino manderebbe mandasse manderemo mandai mandavo mandassero mandassi manderebbero manderesti mandavi mandarsi manderai mandammo mandassimo manderete mandavamo mandiate mandasti
+9	709	stampa	stampa stampe
+10	710	vale	vale val
+11	711	successivo	successivo successivi successiva successive
+12	712	destra	destra destre
+13	713	grave	grave gravi gravissimo gravissima gravissime gravissimi
+14	714	mostra	mostra mostre
+15	715	guida	guida guide
+16	716	cibo	cibo cibi
+17	717	chiuso	chiuso chiusa chiuse chiusi
+18	718	legato	legato legati legata legate legatissimo
+19	719	soltanto	soltanto
+20	720	abitare	abitanti abita abitano abitare abitante abiti abitava abitavano abitate abitiamo abitavo abitando abitino abitò abitarono abitasse abiterà abitavamo abitassi abiteranno abitini abitavi abitassero abiterò abiterai
+21	721	normale	normale normali normalissimo
+22	722	superare	superare superato supera superano superata superando superi superati superate supero superò superava supererà superiamo superino superavano superarono superasse supereranno supereremo superarsi supererebbe supererò supererai superassero supererebbero superai superavo
+23	723	vittima	vittime vittima
+24	724	girare	girare gira girato girano girando girati girata girate girava giri giravano girò girarsi giriamo giravo girerà girino girante gireranno girasse girarono gireremo girar girini girai girerò giriamoci girerebbero giratevi girassero giravamo girerei giranti girerebbe girammo girassi giravi
+25	725	direttore	direttore direttori direttrice
+26	726	produrre	produrre produce prodotti producono producendo produsse produrrà produceva produca produciamo producevano producano produrrebbe produssero produrranno produco produci prodursi producesse producente producessero produrrebbero producete produrremo
+27	727	serio	serio seria seri serissimo
+28	728	condividere	condividere condiviso condivido condivisa condivide condividono condividi condivise condivisi condividiamo condividendo condividete condivida condivideva condividevano condividano condivideremo condividerà condividerò condividevo condividesse condivideranno condividerei condividessero condivisero condividerai condividiate condividevamo
+29	729	riportare	riportato riporta riportare riportate riportano riporto riportando riportiamo riporti riportava riportò riporterà riportavano riportarono riporteremo riportante riportino riporterò riporteranno riportasse riportanti riportarsi riporterebbe riportassero riportavo riportai riportar
+30	730	commissione	commissione commissioni
+31	731	dieci	dieci diece
+32	732	tedesco	tedesco tedeschi tedesca tedesche
+33	733	finalmente	finalmente
+34	734	ovviamente	ovviamente
+35	735	semplicemente	semplicemente
+36	736	costruire	costruire costruito costruite costruendo costruisce costruiscono costruiamo costruisci costruì costruiremo costruirono costruirà costruiva costruisco costruivano costruisca costruiranno costruiscano costruisse costruirò costruissero costruirebbe costruir costruirei costruivamo
+37	737	origine	origine origini
+38	738	fermare	fermare fermato fermarsi fermati fermi fermano fermate fermiamo fermò fermerà fermatevi fermeranno fermava fermeremo fermiamoci fermando fermasse fermarono fermavano fermerò fermino fermana fermerebbe fermai fermassero fermerei fermavo fermerai fermammo fermerete fermani fermar fermerebbero fermassi fermane fermassimo fermavamo
+39	739	utile	utile utili utilissimo
+40	740	opinione	opinione opinioni
+41	741	pari	pari par paro
+42	742	matrimonio	matrimonio matrimoni
+43	743	nascere	nasce nascere nascono nacque nascente nasceva nacquero nasca nascendo nascerà nasci nascesse nascenti nasceranno nascano nascevano nasciamo nasco nascessi nacqui nascessero nascerebbe nascon nascesti nascerò nascerebbero nasceste
+44	744	proposta	proposta proposte
+45	745	elemento	elementi elemento
+46	746	attuale	attuale attuali attualissimo
+47	747	colui	coloro colui color colei
+48	748	comunicazione	comunicazione comunicazioni
+49	749	operazione	operazione operazioni
+50	750	premio	premio premi
+51	751	comunità	comunità communità
+52	752	riferimento	riferimento riferimenti
+53	753	completamente	completamente
+54	754	dormire	dormire dorme dormito dormi dormo dormendo dormono dormiva dormivo dormiente dormiamo dorma dormivano dormite dormirò dormirà dormir dormì dormirei dormiremo dormirai dormisse dormivi dormivamo dormano dormiranno dormissi dormii dormirete dormirebbe dormimmo dormissero dormiresti dormirono
+55	755	segno	segno segni
+56	756	conoscenza	conoscenza conoscenze conoscienza
+57	757	figura	figura figure figurino figurini
+58	758	risultare	risulta risultano risultare risultava risulti risultante risulterà risultò risulterebbe risultando risultino risultanti risultavano risulteranno risultasse risultarono risulterebbero risulto risultassero risultate
+59	759	capitale	capitale capitali
+60	760	beh	beh bè
+61	761	contrario	contrario contraria contrari contrarie
+62	762	uccidere	uccidere uccide uccise uccidendo uccidono uccisi uccido uccidi ucciderà uccisero uccida uccidersi uccideva uccidete uccideranno ucciderò uccidano ucciderei uccidevano uccidiamo uccidesse ucciderebbe ucciderebbero uccidessero ucciderai uccideremo ucciditi uccidessi uccideresti uccider uccidetevi ucciderete uccidereste
+63	763	sacco	sacco sacchi sacchetto sacchetti sacca sacche sacconi saccone
+64	764	sbagliato	sbagliato sbagliata sbagliate sbagliati sbagliatissimo
+65	765	brutto	brutto brutta brutte brutti bruttissimo
+66	766	diretta	diretta dirette
+67	767	strano	strano strana strani strane stranissimo
+68	768	giornale	giornale giornali
+69	769	togliere	togliere tolto toglie togli tolgono togliersi togliendo tolgo togliamo togliete tolga tolse togliti toglierei toglierà toglieranno toglieva toglierebbe tolgano toi toglierò tolsero togliesse togliessero toglieremo togliamoci toglietevi toglievano toglier tolsi toglierai toglierete togliessi toglievo toglieresti toglierebbero togliessimo toglievi togliate
+70	770	canale	canale canali canaletto
+71	771	banca	banca banche
+72	772	grosso	grosso grossa grossi grosse grossissimo
+73	773	specifico	specifico specifica specifiche specifici specificamente
+74	774	affrontare	affrontare affrontato affronta affrontano affrontando affrontati affronto affrontate affrontata affronti affronterà affrontiamo affronteranno affrontò affrontava affronteremo affronterò affrontavano affrontarono affrontino affronterai affrontasse affronterete affrontassero affrontai affronterebbe affrontavo affronterei
+75	775	utilizzare	utilizzare utilizzando utilizza utilizzano utilizzi utilizziamo utilizzava utilizzavano utilizzerà utilizzò utilizzeranno utilizzino utilizzerò utilizzavo utilizzarono utilizzassero utilizzasse utilizzeremo utilizzerebbe utilizzerai utilizzanti utilizzerei
+76	776	salute	salute saluti
+77	777	fortuna	fortuna fortune
+78	778	tecnico	tecnico tecnici tecniche
+79	779	minore	minore minori minor
+80	780	mancare	mancano mancare mancava mancavano mancante mancherà mancherebbe mancanti manchi mancheranno mancando mancate manchino mancherai mancasse mancò mancarono mancherò mancherebbero mancavi manchiamo mancassero mancherete mancheremo mancavo mancar mancheresti mancherei mancassi mancavamo mancavate
+81	781	scelto	scelto scelte scelti
+82	782	sangue	sangue sangui
+83	783	direttamente	direttamente
+84	784	culo	culo culi
+85	785	fase	fase fasi
+86	786	edizione	edizione edizioni
+87	787	metro	metri metro
+88	788	positivo	positivo positiva positivi positive
+89	789	difesa	difesa difese
+90	790	moderno	moderna moderno moderni moderne modernissimo
+91	791	segreto	segreto segreti segreta segrete secreto secreta segretissimo secreti secrete
+92	792	argomento	argomento argomenti
+93	793	straniero	stranieri straniero straniere straniera
+94	794	elezione	elezioni elezione
+95	795	porre	pone porre por ponendo porsi pongono pose poniamo pongo ponente pon ponga poneva poni porrà posero ponete posi pongano ponevano porrebbe ponesse porrò ponevo porremo porranno porrei poniti ponetevi porrai poniamoci ponessi ponessero porrebbero porrete
+96	796	decisione	decisione decisioni
+97	797	intorno	intorno intorni
+98	798	soggetto	soggetto soggetti soggetta soggette
+99	799	vittoria	vittoria vittorie
+100	800	anzi	anzi

@@ -1,0 +1,100 @@
+1	4801	faro	faro faretti faretto fari
+2	4802	preside	preside presidi
+3	4803	visualizzazione	visualizzazioni visualizzazione
+4	4804	giuramento	giuramento giuramenti
+5	4805	badare	badare badante badate badanti badando badi badano badato bado badava badiamo badino baderà badasse badò badavano
+6	4806	affidamento	affidamento affidamenti
+7	4807	invidia	invidia invidie
+8	4808	armare	armando armi armare armarsi armati armate armo armano armiamoci armatevi armò armarono armiamo armava
+9	4809	alfa	alfa
+10	4810	attivamente	attivamente
+11	4811	maestà	maestà
+12	4812	mister	mister
+13	4813	schiavitù	schiavitù
+14	4814	sedici	sedici
+15	4815	senz'altro	senz'altro
+16	4816	stage	stage
+17	4817	bizzarro	bizzarro bizzarra bizzarri bizzarre
+18	4818	armeno	armeni armeno armena armene
+19	4819	indotto	indotto indotta indotti indotte
+20	4820	monarchia	monarchia monarchie
+21	4821	grandioso	grandioso grandiosa grandiose grandiosi
+22	4822	montaggio	montaggio montaggi
+23	4823	recarsi	recarsi recatevi
+24	4824	regio	regio regi regie
+25	4825	demografico	demografica demografico demografici demografiche
+26	4826	onorato	onorato onorata onorati onorate onoratissimo
+27	4827	rotonda	rotonda rotonde
+28	4828	marea	marea maree
+29	4829	pugliese	pugliese pugliesi
+30	4830	raffinato	raffinato raffinata raffinati raffinate raffinatissimo
+31	4831	etnia	etnia etnie
+32	4832	italico	italico italica italici italiche
+33	4833	azzardo	azzardo azzardi
+34	4834	bolletta	bollette bolletta
+35	4835	esaurito	esaurito esaurita esauriti esaurite
+36	4836	pianoforte	pianoforte pianoforti
+37	4837	demone	demone demoni
+38	4838	razziale	razziale razziali
+39	4839	emiliano	emiliano emiliani emiliana emiliane
+40	4840	sbloccare	sbloccare sbloccato sblocco sblocca sbloccati sblocchi sbloccano sbloccate sbloccarsi sbloccherà sbloccando sbloccheranno
+41	4841	riaprire	riaprire riaperto riapre riaprono riaprirà riaprendo riaprì riapro riapri riapriranno riapriamo riapra riaprirsi riapriremo riaprirono riaprite riaprano riaperse
+42	4842	gonna	gonna gonne gonnellino
+43	4843	vignetta	vignetta vignette
+44	4844	condizionare	condizioni condizionare condiziona condizionano condizionate condizionando condizionante condizionerà condizionanti condizionò condizionava condizionarono condizionino
+45	4845	custode	custode custodi
+46	4846	particella	particelle particella
+47	4847	rinchiuso	rinchiuso rinchiusa rinchiusi rinchiuse
+48	4848	imitare	imitare imita imitando imitato imitano imitava imitate imiti imitò imitiamo imito imitavano imitarono imiterà
+49	4849	mediazione	mediazione mediazioni
+50	4850	noce	noce noci nocino
+51	4851	certificazione	certificazione certificazioni
+52	4852	domicilio	domicilio domicili
+53	4853	metafora	metafora metafore
+54	4854	sagra	sagra sacra sagre
+55	4855	avvicinarsi	avvicinarsi avvicinatevi avviciniamoci
+56	4856	circo	circo circhi
+57	4857	selezionare	selezionare seleziona selezionate selezionando selezioni selezionano selezioniamo selezionerà seleziono selezionò selezionava
+58	4858	muto	muto muti mute
+59	4859	ricoverato	ricoverato ricoverati ricoverata ricoverate
+60	4860	nuoto	nuoto nuoti
+61	4861	elaborazione	elaborazione elaborazioni
+62	4862	scrivania	scrivania scrivanie
+63	4863	tondo	tondo tonda tondi tonde
+64	4864	procurare	procurato procurare procurò procurando procurano procuri procurava procuro procurate procurerò procurerà procurarono procuriamo procuravano procureremo procurasse procureranno procurerebbe procurino
+65	4865	racchiudere	racchiude racchiuso racchiudono racchiusi racchiuse racchiudere racchiudeva racchiuda racchiudendo racchiudevano racchiudesse
+66	4866	degrado	degrado degradi
+67	4867	cotto	cotto cotti cotte
+68	4868	coniuge	coniugi coniuge
+69	4869	accettazione	accettazione accettazioni
+70	4870	croato	croato croati croata croate
+71	4871	benefico	benefici benefica benefico benefiche
+72	4872	sopprimere	sopprimere soppresso soppressi soppresse sopprime sopprimendo sopprimono soppressero sopprimeva sopprimete
+73	4873	ascensore	ascensore ascensori
+74	4874	milizia	milizie milizia
+75	4875	rata	rate rata
+76	4876	imbecille	imbecille imbecilli
+77	4877	esordio	esordio esordi
+78	4878	confidare	confido confida confidiamo confidato confidare confidando confidi confidano confidò confidava confidate confidavo confiderà confidavano
+79	4879	inaugurazione	inaugurazione inaugurazioni
+80	4880	svegliare	svegliare svegli svegliano svegliavo svegliò svegliava svegliamo sveglierà svegliando sveglieranno svegliai sveglierò sveglierai sveglino svegliasse sveglieremo svegliarono sveglierete svegliate svegliavano svegliassero svegliassi sveglierebbe sveglierei svegliavamo
+81	4881	esilio	esilio esili
+82	4882	considerevole	considerevole considerevoli
+83	4883	patrizio	patrizia patrizio patrizi patrizie
+84	4884	liso	lisa lise liso
+85	4885	scaduto	scaduto scaduti scaduta scadute
+86	4886	ribellione	ribellione ribellioni
+87	4887	aiutarti	aiutarti
+88	4888	amen	amen
+89	4889	appositamente	appositamente
+90	4890	darci	darci
+91	4891	deficit	deficit
+92	4892	dirgli	dirgli
+93	4893	ehm	ehm
+94	4894	fantascienza	fantascienza
+95	4895	metal	metal
+96	4896	nervi	nervi
+97	4897	onestà	onestà
+98	4898	prostituzione	prostituzione
+99	4899	routine	routine
+100	4900	sfortunatamente	sfortunatamente

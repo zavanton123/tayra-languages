@@ -1,0 +1,100 @@
+1	1	il	il la l i le lo gli je glie
+2	2	di	di del della dei delle d degli de dello dell
+3	3	a	a al alla ad ai alle agli allo all ar
+4	4	e	e ed
+5	5	uno	un una uno na uni une
+6	6	in	in nel nella nei nelle negli nello nell
+7	7	che	che
+8	8	essere	sono essere era stato sia sei stata siamo sarà stati erano sarebbe fosse fu sì siano saranno state siete ero furono fossero essendo sarebbero sarei fossi sarò eravamo esseri saremo esser sarai eri siate saremmo sii sarete saresti fossimo eravate
+9	9	avere	ha ho hanno hai abbiamo aveva avere aver abbia avuto avrebbe avevo avete avevano avrei avesse avrà abbiano avrebbero avendo ebbe avessi avranno avessero avevamo avrai avremmo avrò avevi avremo avresti ebbero avrete abbiate avessimo avente abbi avreste avevate ebbi
+10	10	non	non nn nun nol
+11	11	per	per pel
+12	12	da	da dal dalla dai dalle dagli dallo dall
+13	13	con	con col coi collo colle colla colli
+14	14	si	si
+15	15	fare	fatto fare fa far fanno fai faccio faccia facendo fatti fatta farlo facciamo farsi faceva fate farà fece fatte farò faranno farebbe farei facevano faremo facciano facevo facesse farai fecero facce feci farebbero faresti fatevi facessero fo facciate face farete
+16	16	questo	questo questa questi queste sti ste quest
+17	17	su	su sul sulla sui sulle sugli sullo sull sù suso soso
+18	18	ma	ma
+19	19	come	come cm com
+20	20	ci	ci c ce cen
+21	21	tutto	tutti tutto tutte tutta
+22	22	potere	può possono puoi posso potrebbe possa potere possiamo poter potuto poteva potrebbero potete potrà potrei possano potresti potente potesse poteri potevano potranno potremmo potrai potevo potenti potessero potevi potessi potrò potremo potrete potreste potendo potevamo poté possiate poterono potessimo potentissimo
+23	23	più	più
+24	24	se	se sen
+25	25	suo	suo sua suoi sue sio
+26	26	mi	mi
+27	27	quello	quello quella quel quelli quelle quei quegli
+28	28	anche	anche anch'esso anco
+29	29	o	o
+30	30	altro	altri altro altre altra altr
+31	31	dire	dire detto dice dico dicono dicendo dici direi diciamo disse diceva detta dite dica dirò dir dicevo dicevano dirà direbbe dì dette detti dissi diranno dicesse dissero diremo dicano dicessi dirai dicevi dicevamo direte direbbero diresti dicessero direste diremmo dicesti
+32	32	solo	solo sola sole soli sol
+33	33	stare	sta sto stanno stai stare stiamo stava stia stavo star stavano stessi state stando stesse stiano stavamo starebbe starà stavi stante stessero starei starò staremo stà staranno starai starebbero stiate staremmo stessimo stavate staresti stò starete stanti stette stareste starsi
+34	34	mio	mio mia miei mie
+35	35	dovere	deve devo dovrebbe devi devono dobbiamo dovrebbero doveva dovrei debba dovrà dover dovremmo dovresti dovere dovesse dovete dovranno dovevo dovevano debbano dovessi dovrai dovrò dovette dovessero dovevi dovreste dovremo doveri dovevamo dovrete dovendo dovettero dovessimo dovetti dovevate dì doveste dobbiate
+36	36	cosa	cosa cose coso cosino cosetto
+37	37	vedere	visto vedere vista vedo vedi vede vediamo vedono viso visti vedremo vedrai viste vide vedendo vedete veda vedrà vedeva vedevo vedrete vidi vedrò veder vedersi vedranno vedano vedevano videro vedesse vedrei vedrebbe vedessi veggente vedenti visi vedevi vedessero vediamoci vedevamo
+38	38	io	io jo
+39	39	ti	ti
+40	40	volere	voglio vuole vuoi vorrei vogliono vogliamo volevo volete voleva voler vorrebbe volere volevano vorresti volesse vorrà volendo vorrebbero vorremmo vogliano volessi vorranno volevi volle volevamo vorrai volessero volersi vorreste vogliate vollero vorrete volessimo vole volevate vorrò vorremo volenti voleste volente
+41	41	anno	anni anno annetto
+42	42	perché	perché perchè ché chè xché xké
+43	43	andare	va andare vanno vado vai andato andiamo andando vada andrà andava andate andrebbe andò andranno andrò andavano vadano andar andasse andremo andavo andrei andrebbero vo andarono andrai andai andassero và andavamo andassi andavi andrete andresti andammo andante andassimo andremmo andiate
+44	44	cui	cui
+45	45	molto	molto molti molte molta moltissimo
+46	46	quando	quando
+47	47	sapere	so sa sapere sai sanno sappiamo sapevo saputo sapeva sappia saprei saper sapendo sapevano sapevi sappi saprà sapesse sappiano sappiate sapranno sapessi sapevamo saprai sapersi sapremo sapevate saprebbe seppe saprete saprò sapessero sapresti sà saperi seppi saprebbero sapreste saputa sò
+48	48	parte	parte parti
+49	49	venire	viene vengono venire venne verrà venga veniva venuto vieni verranno venivano venuta vengano vennero vengo venisse venendo venuti venite verrebbe venir veniamo venissero venute verrebbero verrai verrò venivo verrei venni verrete verremo venissi venivi verresti venivamo venimmo veniste veniate venisti
+50	50	prima	prima prime
+51	51	tra	tra trai
+52	52	loro	loro lor
+53	53	così	così cosi
+54	54	due	due duo
+55	55	ora	ora ore or hora
+56	56	nuovo	nuovo nuova nuove nuovi novo nuovissimo
+57	57	dopo	dopo doppo
+58	58	poco	po poco pochi poche pò poca pochettino
+59	59	bene	bene ben benissimo beni benone
+60	60	proprio	proprio propria propri proprie propio
+61	61	nostro	nostro nostra nostri nostre ns
+62	62	ne	ne
+63	63	poi	poi
+64	64	sempre	sempre
+65	65	stesso	stesso stessa stessi stesse istesso
+66	66	me	me men
+67	67	quanto	quanto quanti quante quanta
+68	68	tuo	tuo tua tuoi tue
+69	69	ancora	ancora ancor ancore
+70	70	chi	chi
+71	71	secondo	secondo seconda secondi seconde
+72	72	giorno	giorno giorni
+73	73	trovare	trovare trova trovato trovano trovo trovi troviamo trovata trovate trovava trovati troverai trovarsi trovò trovavano troverà troverete trovando troveranno trovino trovarono trovavo troveremo troverò trovasse trovai trovassi troverebbe trovassero troverebbero trovar trovavi troverei troveremmo trovavamo troveresti trovammo troviate trovassimo trovatevi
+74	74	persona	persone persona
+75	75	volta	volta volte voltone
+76	76	tempo	tempo tempi
+77	77	senza	senza senz
+78	78	quale	quale quali qual
+79	79	ogni	ogni ogne onni
+80	80	mai	mai
+81	81	pensare	penso pensare pensa pensato pensi pensavo pensando pensano pensate pensiamo pensava pensavano pensata pensò pensai pensavamo pensavi pensino pensasse penserà penseranno pensati penserò pensassi penserei pensar pensavate pensarono penserebbe penserai pensiate pensassero pensante penserete penseremo penseresti pensanti penserebbero pensiamoci pensassimo
+82	82	prendere	prendere preso prende presa prese prendi prendo prendendo presi prendono prendersi prendiamo prenda prendete prenderà prendeva presero prenderanno prenderò prenditi prendano prenderei prendesse prendevano prender prendevo prendiamoci prenderebbe prenderemo prendessero prenderai prendetevi prendessi prenderebbero prendevi prenderesti prenderete prendevamo prendemmo prendessimo
+83	83	tanto	tanto tanti tante tanta tantissimo
+84	84	parlare	parlare parla parlando parlato parlano parliamo parlo parli parlava parlate parlavo parlerà parlata parlavano parleremo parlò parlerò parlasse parlante parlavamo parlanti parlino parlar parleranno parlavi parlarsi parlassi parlati parlerei parlassero parlerebbe parliamoci parlai parlarono parlammo parlerai parlassimo parlerete parlan parleresti
+85	85	vita	vita vite viti
+86	86	dove	dove dov'è
+87	87	dare	dare danno dà danni do dando dar dia diede diamo darsi dante darà date dan dava daranno davano darò darei darebbe diedero diano daremo dette detti desse dò datti davo dessero darebbero daresti darai diedi diamoci datevi dessi dae davi
+88	88	lavoro	lavoro lavori
+89	89	grande	grande grandi grandissimo grandina grandini
+90	90	no	no noe
+91	91	mettere	messo mettere mette messa metti messi metto mettono mettendo messe mettiamo mise metta mettete misero metterà metteva metterò metterei metter mettevano metteranno mettano mettesse metterebbe misera misi metteremo mettevo miseri mettessero misere mettessi metterai metterebbero metteresti mettevi metterete mettessimo mettemmo
+92	92	già	già
+93	93	alcuno	alcuni alcune alcun alcuna alcuno
+94	94	primo	primo primi prime primissimo
+95	95	modo	modo modi
+96	96	quindi	quindi
+97	97	casa	casa case casetta casina casuccia
+98	98	italiano	italiano italiana italiani italiane italianissimo itagliano
+99	99	vi	vi ve
+100	100	grazie	grazie grz

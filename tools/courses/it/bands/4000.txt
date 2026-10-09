@@ -1,0 +1,100 @@
+1	3901	nido	nido nidi
+2	3902	clic	click clic
+3	3903	residuo	residui residuo residua residue
+4	3904	impronta	impronta impronte
+5	3905	cooperativa	cooperativa cooperative
+6	3906	reputazione	reputazione reputazioni
+7	3907	suora	suore suor suora
+8	3908	salsa	salsa salse
+9	3909	lavorazione	lavorazione lavorazioni
+10	3910	cattedrale	cattedrale cattedrali
+11	3911	brettagna	bretagna
+12	3912	chef	chef
+13	3913	comunemente	comunemente
+14	3914	continuità	continuità
+15	3915	dedicati	dedicati
+16	3916	difficilmente	difficilmente
+17	3917	flash	flash
+18	3918	mobilità	mobilità
+19	3919	onestamente	onestamente
+20	3920	ostacoli	ostacoli
+21	3921	versato	versato versati versata versate
+22	3922	burro	burro burri
+23	3923	asta	asta aste
+24	3924	pellegrino	pellegrini pellegrino pellegrina pellegrine
+25	3925	solitudine	solitudine solitudini
+26	3926	accurato	accurata accurato accurate accurati accuratissimo
+27	3927	targa	targa targhe
+28	3928	celeste	celeste celesti
+29	3929	attrezzatura	attrezzature attrezzatura
+30	3930	appalto	appalto appalti
+31	3931	pronunciato	pronunciato pronunciata pronunciate pronunciati
+32	3932	ironico	ironico ironica ironici ironiche
+33	3933	diminuzione	diminuzione diminuzioni diminuizione
+34	3934	ricoperto	ricoperto ricoperta ricoperte ricoperti
+35	3935	bastardo	bastardi bastardo bastarda bastarde bastardino
+36	3936	menu	menu menù
+37	3937	illuminato	illuminato illuminati illuminata illuminate
+38	3938	dote	dote doti
+39	3939	nuvola	nuvole nuvola nuvolo nuvolone nuvoli nugola
+40	3940	bastone	bastone bastoni bastoncini bastoncino
+41	3941	illuminare	illumina illuminare illuminante illuminano illuminanti illuminate illumini illuminando illuminava illumino illuminerà illuminò illuminavano illuminiamo illuminarono illuminino illumineranno
+42	3942	risorgere	risorse risorto risorgere risorge risorgerà risorgono risorga risorgi risorgeremo risorgeranno risorgendo risorgente risorgerò
+43	3943	imbarazzo	imbarazzo imbarazzi
+44	3944	reciproco	reciproco reciproca reciproche reciproci
+45	3945	delusione	delusione delusioni
+46	3946	distinzione	distinzione distinzioni
+47	3947	pino	pino pini pinuccio
+48	3948	apparecchio	apparecchio apparecchi
+49	3949	penisola	penisola penisole
+50	3950	martire	martire martiri
+51	3951	coincidenza	coincidenza coincidenze
+52	3952	massiccio	massiccio massiccia massicce massicci
+53	3953	guarire	guarire guarito guarisce guariscono guarisci guarisca guarite guarirà guarì guarendo guarirò guarisco guariva guariranno guarirai guarisse guarivano guariremo guarente guarirono
+54	3954	silenzioso	silenziosa silenzioso silenziosi silenziose silenziosissimo
+55	3955	tatuaggio	tatuaggio tatuaggi
+56	3956	creatore	creatore creatori creatrice creatrici
+57	3957	paragonare	paragonare paragonato paragona paragonando paragoni paragonate paragonano paragono paragoniamo paragonava paragonò paragonerei
+58	3958	fornitore	fornitore fornitori fornitrice fornitrici
+59	3959	giuria	giuria giurie
+60	3960	abbigliamento	abbigliamento abbigliamenti
+61	3961	annuo	annuo annui annua annue
+62	3962	anticipato	anticipato anticipata anticipate anticipati
+63	3963	infortunio	infortunio infortuni
+64	3964	interazione	interazione interazioni
+65	3965	carnevale	carnevale carnevali
+66	3966	presupposto	presupposto presupposti presupposta
+67	3967	sciolto	sciolto sciolta sciolti sciolte
+68	3968	neonato	neonato neonati neonata neonate
+69	3969	gemello	gemella gemelle gemello
+70	3970	puzzo	puzza puzzo puzzi
+71	3971	narrazione	narrazione narrazioni
+72	3972	pallone	pallone palloni
+73	3973	ape	api ape
+74	3974	lesione	lesioni lesione
+75	3975	alquanto	alquanto
+76	3976	ferie	ferie
+77	3977	immobile	immobile
+78	3978	intensità	intensità
+79	3979	medioevo	medioevo
+80	3980	panni	panni
+81	3981	pasquale	pasquale pasquali pascale
+82	3982	sigla	sigla sigle
+83	3983	missile	missili missile
+84	3984	patologia	patologia patologie
+85	3985	sindacale	sindacale sindacali
+86	3986	vigile	vigili vigile vigilessa
+87	3987	cintura	cintura cinture
+88	3988	consistente	consistente consistenti
+89	3989	diametro	diametro diametri
+90	3990	pellicola	pellicola pellicole
+91	3991	cemento	cemento cementi
+92	3992	rimediare	rimediare rimedi rimediato rimedia rimediando rimediate rimediamo rimediano rimedierò rimedierà rimediò rimedieremo
+93	3993	recita	recita recite
+94	3994	filosofico	filosofico filosofica filosofiche filosofici
+95	3995	discendente	discendenti discendente
+96	3996	testamento	testamento testamenti
+97	3997	sindrome	sindrome sindromi
+98	3998	alpe	alpi alpe
+99	3999	municipale	municipale municipali
+100	4000	stendere	steso stendere stende stesi stese stendo stendono stendi stendiamo stendendo stendersi stenda stendeva stendete stenderà stendevano stenditi stenderò stesero stenderei stenderebbe

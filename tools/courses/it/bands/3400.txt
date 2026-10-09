@@ -1,0 +1,100 @@
+1	3301	doc	doc
+2	3302	lasciati	lasciati
+3	3303	stupro	stupro stupri
+4	3304	fondare	fondare fondò fondi fondano fondarono fondanti fondante fondate fondando fondava fondarsi fondiamo fonderà fondino fondasse fondavano fonderò
+5	3305	torneo	torneo tornei
+6	3306	barriera	barriera barriere
+7	3307	indovinare	indovinare indovina indovinate indovinato indovino indovini indovinava indovinando indovinano indovinerà indovinerai indovinerete indoviniamo
+8	3308	forzato	forzata forzato forzati forzate
+9	3309	inventare	inventare inventa inventarsi inventano inventando inventò inventi invento inventate inventiamo inventarono inventeranno inventava inventerà inventerò inventerai inventeremo inventassero inventino inventasse inventavano inventavo inventatevi inventai inventerebbe inventammo inventerei
+10	3310	lana	lana lane
+11	3311	sonoro	sonora sonoro sonore sonori
+12	3312	rilevato	rilevato rilevata rilevati rilevate
+13	3313	avviare	avviare avvia avviò avviando avviate avviano avviamo avviarono avviava avvierà avvii avviavano avviasse avvieremo avvierò avvieranno avviino avviai avviammo
+14	3314	odierno	odierna odierno odierni odierne
+15	3315	spontaneo	spontanea spontaneo spontanee spontanei
+16	3316	legislazione	legislazione legislazioni
+17	3317	soglia	soglia soglie
+18	3318	nastro	nastro nastri nastrino nastrini
+19	3319	vaso	vaso vasi
+20	3320	finto	finto finti finte
+21	3321	incubo	incubo incubi
+22	3322	coraggioso	coraggioso coraggiosa coraggiosi coraggiose
+23	3323	sostenitore	sostenitori sostenitore sostenitrice
+24	3324	attribuire	attribuire attribuisce attribuiscono attribuite attribuendo attribuì attribuirsi attribuiva attribuisco attribuivano attribuirono attribuiamo attribuisca attribuirà attribuisci attribuiscano attribuirebbe
+25	3325	rigido	rigido rigida rigide rigidi rigidissimo rigidissima rigidissime
+26	3326	negro	negri negro negra negre negretti negretto
+27	3327	mezz'ora	mezz'ora mezzora mezz'ore
+28	3328	accessibile	accessibile accessibili
+29	3329	trascorrere	trascorrere trascorsi trascorre trascorse trascorrono trascorrendo trascorreva trascorsero trascorro trascorri trascorrerà trascorrevano trascorreranno trascorra trascorrete trascorrerò trascorriamo trascorrerete trascorrano trascorrevo trascorrerai trascorreremo trascorresse trascorrer
+30	3330	prenotare	prenotare prenotato prenota prenotate prenotati prenoto prenoti prenotata prenotando prenotano prenotiamo
+31	3331	selezionato	selezionati selezionato selezionata selezionate
+32	3332	sentiero	sentiero sentieri
+33	3333	trattenere	trattenere trattenuto trattiene trattenendo trattenersi trattengono trattengo trattieni trattenne trattenga tratteneva tratterrà tratterrò trattenevano tratteniamo trattennero trattieniti trattenete tratterremo trattenesse trattengano trattenevo tratterranno
+34	3334	obbligare	obbliga obbligare obbligano obbligando obblighi obbligava obbligò obbligate obbligarono obbligavano obbligherà obbligherebbe obblighiamo obbligasse obblighino obbligherei obbligheranno obbligherò obbligassero
+35	3335	alice	alice alici
+36	3336	sorveglianza	sorveglianza sorveglianze
+37	3337	scemo	scemo scema scemi sceme
+38	3338	autentico	autentico autentica autentici autentiche
+39	3339	corrotto	corrotto corrotti corrotta corrotte
+40	3340	ampiamente	ampiamente
+41	3341	dimmi	dimmi
+42	3342	farli	farli
+43	3343	indicazioni	indicazioni
+44	3344	liberamente	liberamente
+45	3345	precedentemente	precedentemente
+46	3346	sensibilità	sensibilità
+47	3347	sostanzialmente	sostanzialmente
+48	3348	taxi	taxi
+49	3349	nativo	nativi nativo nativa native
+50	3350	passeggiata	passeggiata passeggiate
+51	3351	distante	distante distanti
+52	3352	fido	fido fida fidi fide
+53	3353	tossico	tossici tossico tossica tossiche tosca tosco toschi
+54	3354	dinamico	dinamiche dinamico dinamici
+55	3355	faccenda	faccenda faccende
+56	3356	augurio	auguri augurio
+57	3357	tastiera	tastiera tastiere
+58	3358	febbre	febbre febbri febbrone
+59	3359	testata	testata testate
+60	3360	miseria	miseria miserie
+61	3361	segnalazione	segnalazione segnalazioni
+62	3362	maturo	maturo matura maturi mature
+63	3363	bronzo	bronzo bronzi
+64	3364	discreto	discreto discreta discreti discrete
+65	3365	perdonare	perdonare perdona perdonato perdonate perdonerò perdonati perdonerà perdonano perdoni perdoniamo perdonerai perdonò perdoneranno perdonarsi perdonando perdonino perdonerete perdonerebbe perdonerei perdonava perdonasse perdoneremo
+66	3366	trasparenza	trasparenza trasparenze
+67	3367	determinazione	determinazione determinazioni
+68	3368	nodo	nodo nodi
+69	3369	ubriaco	ubriaco ubriachi ubriaca ubriacone ubriache briaco
+70	3370	filosofo	filosofo filosofi filosofa
+71	3371	laterale	laterale laterali
+72	3372	rappresentanza	rappresentanza rappresentanze
+73	3373	strage	strage stragi
+74	3374	rovinare	rovinare rovinando rovinano rovini rovinate rovino rovinarsi rovinerà rovinerebbe rovinò rovinava rovinino rovinasse roviniamo rovineranno rovinerei rovinavano rovinerai rovinarono rovinerebbero rovinassero
+75	3375	spia	spia spie spiaccia
+76	3376	incinto	incinta incinte incinto incinti
+77	3377	inteso	inteso intesi intese
+78	3378	complice	complice complici
+79	3379	confondere	confondere confonde confondono confondersi confondendo confuse confondo confondi confonda confondiamo confondete confondeva confonderà confondano confondevano confonderebbe confusero
+80	3380	pietà	pietà pieta pietade
+81	3381	violare	violato violare violando violante violano violata violi violate violerebbe violava violasse violò violo violavano vìola violerebbero violarono violerà
+82	3382	compare	compare compari comari comare
+83	3383	equivalente	equivalente equivalenti equivalentemente
+84	3384	allenare	allenare allenarsi allenato allena allenati allenando alleno alleni allenano allenava allenate alleniamo allenerà allenavo allenavano allenante alleneranno alleneremo allenò
+85	3385	integrato	integrato integrata integrati integrate
+86	3386	suscitare	suscitare suscitato suscita suscitando suscitano suscitò suscitate suscitarono susciti suscitava susciterà suscitavano susciterebbe suscito susciteranno suscitasse
+87	3387	prevenire	prevenire prevenuto previene prevenuti prevenendo prevengono prevenuta prevenute previeni prevenga prevenne preveniamo prevengo
+88	3388	prevenzione	prevenzione prevenzioni
+89	3389	funzionamento	funzionamento funzionamenti
+90	3390	derivare	derivano derivare derivi derivate derivava deriverebbe derivò derivino derivavano derivando derivarono deriveranno derivasse deriverà deriverebbero derivassero
+91	3391	sorprendere	sorprende sorprendere sorprendono sorprenderà sorprendo sorprenderebbe sorprendersi sorprendi sorprenda sorprendendo sorprenderei sorprendiamo sorpresero sorprendete sorprendeva sorprenderemo sorprenderanno sorprenderò
+92	3392	precisione	precisione precisioni
+93	3393	diploma	diploma diplomi
+94	3394	invernale	invernali invernale
+95	3395	disponibilità	disponibilità
+96	3396	malgrado	malgrado
+97	3397	mini	mini
+98	3398	occidente	occidente
+99	3399	que	que
+100	3400	spalla	spalla

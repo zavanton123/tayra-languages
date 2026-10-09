@@ -1,0 +1,100 @@
+1	8001	lanterna	lanterna lanterne
+2	8002	progettista	progettista progettisti
+3	8003	compratore	compratore compratori
+4	8004	bidone	bidone bidoni
+5	8005	contagioso	contagiosa contagioso contagiosi contagiose
+6	8006	novello	novello novelli novelle
+7	8007	atletico	atletico atletici atletiche
+8	8008	delicatezza	delicatezza delicatezze
+9	8009	naturalistico	naturalistico naturalistica naturalistici naturalistiche
+10	8010	riordinare	riordino riordinare riordinato riordina riordinando riordinò riordinate riordini
+11	8011	arsenale	arsenale arsenali
+12	8012	rialzare	rialzato rialza rialzare rialzate rialzano rialzando rialzò rialzi rialzerà rialziamo rialzerò
+13	8013	potenziamento	potenziamento potenziamenti
+14	8014	invasore	invasori invasore
+15	8015	distorsione	distorsione distorsioni
+16	8016	marzio	marzio marzia marzi
+17	8017	pakistano	pakistani pakistano pakistana pakistane pachistano
+18	8018	sconvolgente	sconvolgente sconvolgenti
+19	8019	soffio	soffio soffi
+20	8020	ignaro	ignaro ignari ignara ignare
+21	8021	estinguere	estinguere estinguersi estingue estinse estinguono estinguerà estinguendo estingua estingueranno estinsero estinguano estinguerebbe estingueva estinguiamo estingueremo estinguente
+22	8022	nuziale	nuziale nuziali
+23	8023	realista	realista realisti realiste
+24	8024	impiccato	impiccato impiccati impiccata impiccate
+25	8025	ano	ano ani
+26	8026	acquario	acquario acquari aquario
+27	8027	ardere	ardere arde arso arda arsa arsi arse ardo ardeva ardono ardi ardevano ardendo ards
+28	8028	contrabbando	contrabbando contrabbandi
+29	8029	aristocratico	aristocratico aristocratica aristocratici aristocratiche
+30	8030	alone	alone aloni
+31	8031	fautore	fautori fautore fautrice
+32	8032	spartire	spartani spartire spartano spartana spartirsi spartiscono spartane spartisce spartivano spartirono spartite
+33	8033	arido	arido arida aridi aride
+34	8034	taluno	taluni talune taluno taluna
+35	8035	implementazione	implementazione implementazioni
+36	8036	stabilizzare	stabilizzare stabilizzato stabilizza stabilizzati stabilizzarsi stabilizzate stabilizzante stabilizzando stabilizzano stabilizzanti stabilizzi stabilizzerà stabilizzò
+37	8037	principiante	principianti principiante
+38	8038	ribaltare	ribaltare ribaltato ribaltando ribaltano ribaltate ribaltati ribalto ribaltarsi ribalti ribaltò ribaltiamo
+39	8039	affinare	affini affinare affinato affina affinata affinati affinando affinate affinano affinò
+40	8040	tara	tara tare
+41	8041	introito	introiti introito
+42	8042	pensionistico	pensionistico pensionistici pensionistica pensionistiche
+43	8043	potabile	potabile potabili
+44	8044	ventenne	ventenne ventenni
+45	8045	arrivederci	arrivederci
+46	8046	biodiversità	biodiversità
+47	8047	briga	briga
+48	8048	centrosinistra	centrosinistra
+49	8049	collera	collera
+50	8050	competitività	competitività
+51	8051	conseguentemente	conseguentemente
+52	8052	domattina	domattina
+53	8053	fragilità	fragilità
+54	8054	golpe	golpe
+55	8055	nu	nu
+56	8056	psi	psi
+57	8057	riapertura	riapertura
+58	8058	riferendosi	riferendosi
+59	8059	router	router
+60	8060	rovescia	rovescia
+61	8061	sperma	sperma
+62	8062	spiegarmi	spiegarmi
+63	8063	ticket	ticket
+64	8064	inquilino	inquilini inquilino inquilina
+65	8065	silvano	silvana silvano silvani
+66	8066	insurrezione	insurrezione insurrezioni
+67	8067	riproposto	riproposto riproposta riproposti riproposte
+68	8068	letterato	letterati letterato letterata letterate
+69	8069	acconsentire	acconsente acconsentire acconsentì acconsenti acconsento acconsentono acconsenta acconsentirono acconsentendo acconsentirà acconsentisse acconsentiva acconsentite
+70	8070	timone	timone timoni
+71	8071	sopravvento	sopravvento sopravento
+72	8072	evacuazione	evacuazione evacuazioni
+73	8073	riorganizzazione	riorganizzazione riorganizzazioni
+74	8074	tendente	tendente tendenti
+75	8075	dettare	dettare dettate dettano dettando dettò dettava dettar detterà detti dettavano
+76	8076	predicatore	predicatore predicatori predicatrice
+77	8077	schizzare	schizzi schizzare schizza schizzato schizzata schizzati schizzano schizzate schizzando schizzava schizzò
+78	8078	eterogeneo	eterogeneo eterogenea eterogenei eterogenee
+79	8079	originare	originato origina originate originano originare originando originò origini originarono originava
+80	8080	transitorio	transitorio transitoria transitorie transitori
+81	8081	rallentamento	rallentamento rallentamenti
+82	8082	cooperativo	cooperativo cooperative cooperativi
+83	8083	massoneria	massoneria massonerie
+84	8084	primogenito	primogenito primogenita primogeniti
+85	8085	deliberato	deliberato deliberata deliberati deliberate
+86	8086	liturgico	liturgico liturgica liturgici liturgiche
+87	8087	corteccia	corteccia cortecce
+88	8088	alternanza	alternanza alternanze
+89	8089	cauto	cauto cauti cauta caute
+90	8090	improvvisare	improvvisare improvvisa improvvisando improvvisano improvvisi improvvisate improvvisava improvvisò improvvisarono improvvisavano
+91	8091	giustiziare	giustiziato giustiziare giustiziate giustiziano giustiziando
+92	8092	consolidamento	consolidamento consolidamenti
+93	8093	questionario	questionario questionari
+94	8094	scovare	scovare scovato scova scovi scovano scovando scovate scoveremo scoverò scovo
+95	8095	patrocinio	patrocinio patrocini
+96	8096	nunzio	nunzio nunzia nunzi
+97	8097	suggestione	suggestione suggestioni
+98	8098	commemorativo	commemorativa commemorativo commemorative commemorativi
+99	8099	mulo	mulo muli mule mula
+100	8100	immorale	immorale immorali

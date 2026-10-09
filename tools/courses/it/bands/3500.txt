@@ -1,0 +1,100 @@
+1	3401	stanotte	stanotte
+2	3402	xi	xi
+3	3403	tematica	tematiche tematica
+4	3404	invasione	invasione invasioni
+5	3405	candidatura	candidatura candidature
+6	3406	bibbia	bibbia bibbie
+7	3407	centesimo	centesimi centesimo centesima
+8	3408	convocato	convocato convocati convocata convocate
+9	3409	figurarsi	figuriamoci figurati figurarsi figuratevi
+10	3410	doloroso	doloroso dolorosa dolorose dolorosi dolorosissimo
+11	3411	coalizione	coalizione coalizioni
+12	3412	ebraico	ebraica ebraico ebraiche ebraici
+13	3413	mirare	miranda mirano mirava mirare miri mirando mirate miro mirante mirò mirai miravano miran miriamo mirasse mirar mirerebbe mireranno mirerà
+14	3414	crollare	crollare crollato crolla crollando crollano crollò crollate crolli crollerà crollarono crollerebbe crollava crollasse crolleranno crollino crollerai crollavano crollerebbero
+15	3415	seppure	seppur seppure
+16	3416	alternativo	alternativo alternativi alternative
+17	3417	rafforzare	rafforzare rafforza rafforzato rafforzando rafforzano rafforzate rafforzarsi rafforzerà rafforzi rafforzò rafforzava rafforzino rafforzarono rafforziamo rafforzerebbe rafforzeranno rafforzeremo rafforzavano
+18	3418	bancario	bancario bancari bancaria bancarie
+19	3419	passivo	passivo passiva passivi passive
+20	3420	benché	benché benchè benche
+21	3421	illustrare	illustra illustrare illustri illustrano illustrando illustrate illustrò illustrerà illustrava illustro illustravano illustreremo illustriamo illustrerò illustranti illustrante illustreranno
+22	3422	preliminare	preliminare preliminari
+23	3423	saluto	saluto saluti salutone
+24	3424	tonnellata	tonnellate tonnellata
+25	3425	apposto	apposta apposto apposti apposte
+26	3426	stampare	stampare stampante stampanti stampate stampano stampi stampando stampino stampò stampiamo stampava stampini stampavano stamparsi stamperà stamperò stamperanno stamparono
+27	3427	olimpico	olimpico olimpici olimpica olimpiche
+28	3428	noioso	noioso noiosa noiosi noiose noiosissimo
+29	3429	preferenza	preferenze preferenza
+30	3430	richiamo	richiamo richiami
+31	3431	bolla	bolla bolle
+32	3432	cerchio	cerchio cerchi
+33	3433	gazzetta	gazzetta gazzette
+34	3434	stabilimento	stabilimento stabilimenti
+35	3435	psicologia	psicologia psicologie
+36	3436	estraneo	estranei estraneo estranea estranee
+37	3437	compenso	compenso compensi
+38	3438	stupire	stupisce stupire stupirsi stupisco stupirei stupiscono stupirà stupisci stupiamo stupirebbe stupisca stupitevi stupì stupite stupiva stupiranno stupirai stupirete stupiamoci stupirono stupirò stupiremo stupivano stupivo
+39	3439	orale	orale orali
+40	3440	sostenibile	sostenibile sostenibili
+41	3441	consolare	consolato consolare consola consolati consolari consoli consolata consolante consolarsi consolo consolano consolava consoliamoci consolando consolerà consolate consolino consolò consoliamo consolerò consolasse
+42	3442	giacca	giacca giacche
+43	3443	giornalismo	giornalismo
+44	3444	ignoranza	ignoranza
+45	3445	pienamente	pienamente
+46	3446	etica	etica etiche
+47	3447	pozzo	pozzo pozzi pozzetto pozzetti
+48	3448	palma	palma palme
+49	3449	funerale	funerale funerali
+50	3450	etnico	etnica etnico etnici etniche
+51	3451	profugo	profughi profugo profuga
+52	3452	istante	istante istanti
+53	3453	periferia	periferia periferie
+54	3454	porzione	porzione porzioni
+55	3455	autostrada	autostrada autostrade
+56	3456	salita	salita salite
+57	3457	rifugiato	rifugiati rifugiato rifugiata rifugiate
+58	3458	raccomandare	raccomando raccomanda raccomandare raccomandiamo raccomandano raccomandò raccomandava raccomandando raccomandate raccomandi raccomanderei raccomanderà raccomandarono raccomandavano raccomanderò raccomandarsi
+59	3459	sfidare	sfidare sfido sfidano sfidato sfidando sfidante sfidarsi sfiderà sfidanti sfidati sfidò sfideranno sfidavano sfidate sfidiamo sfidava sfidata sfidi sfidarono sfideremo sfiderò
+60	3460	adattare	adattare adattato adatta adattata adattano adattati adatti adattate adattando adattava adattò adattino adatterà adattiamo adattavano adattarono adatteranno adattasse adatterebbe adattassero
+61	3461	esplosione	esplosione esplosioni
+62	3462	dettagliato	dettagliato dettagliata dettagliate dettagliati dettagliatissimo
+63	3463	tortura	tortura torture
+64	3464	affascinante	affascinante affascinanti
+65	3465	invisibile	invisibile invisibili
+66	3466	elettronico	elettronico elettronici elettroniche
+67	3467	separazione	separazione separazioni
+68	3468	trattativa	trattative trattativa
+69	3469	favola	favola favole
+70	3470	ironia	ironia ironie
+71	3471	terrore	terrore terrori
+72	3472	settimo	settimo settima settimi settime
+73	3473	perfezione	perfezione perfezioni perfezion
+74	3474	augusto	augusto augusta auguste augusti
+75	3475	acuto	acuto acuta acuti acute acutissima acutissimo
+76	3476	rimborso	rimborso rimborsi
+77	3477	petrolio	petrolio petroli
+78	3478	animo	animo animi
+79	3479	marmo	marmo marmi
+80	3480	marchese	marchese marchesa marchesi
+81	3481	articolare	articolata articolato articola articolare articolate articolari articoli articolati articolano articolava articolarsi articolando articolò articolerà
+82	3482	supermercato	supermercato supermercati
+83	3483	pacco	pacco pacchi
+84	3484	tardo	tarda tardo tarde
+85	3485	educativo	educativo educativi educativa educative
+86	3486	sciogliere	sciogliere scioglie sciogliersi sciolgono sciolse sciogliendo sciolga sciogli scioglierà sciolgo scioglieva sciolsero sciogliete scioglieranno sciolgano sciogliamo sciogliesse scioglievano sciogliti scioglierebbe
+87	3487	magno	magna magno magni magne
+88	3488	corrispondenza	corrispondenza corrispondenze
+89	3489	fusione	fusione fusioni
+90	3490	luminoso	luminoso luminosa luminosi luminose luminosissima luminosissimo luminosissime luminosissimi
+91	3491	concentrazione	concentrazione concentrazioni
+92	3492	custodia	custodia custodie
+93	3493	efficacia	efficacia efficacie
+94	3494	negoziare	negoziati negoziare negoziato negoziante negozianti negoziata negoziando negozia negoziate negoziano negoziò negoziamo negoziava
+95	3495	buonanotte	buonanotte bonanotte
+96	3496	cinquanta	cinquanta cinquant
+97	3497	monastero	monastero monasteri
+98	3498	minerale	minerali minerale
+99	3499	altamente	altamente
+100	3500	bob	bob

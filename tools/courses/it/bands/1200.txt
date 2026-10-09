@@ -1,0 +1,100 @@
+1	1101	pressione	pressione pressioni
+2	1102	soldato	soldati soldato soldatessa soldatesse
+3	1103	scala	scala scale scaletta scalette
+4	1104	battere	battere battuto batte battute battono battendo battenti battuti batti battersi batter battente batteva batta battiamo batto batté battiti batterà battevano batteremo batterono battete batteranno batterò battano battesse battei battè batterebbe battevo
+5	1105	treno	treno treni
+6	1106	desiderio	desiderio desideri desidero disiderio
+7	1107	contesto	contesto contesti
+8	1108	rivelare	rivela rivelato rivelare rivelano rivelarsi rivelando rivelò rivelerà rivelate riveli rivelava rivelasse riveleranno rivelarono rivelavano rivelino rivelerebbe rivelo rivelassero rivelerò riveleremo rivelerebbero riveliamo
+9	1109	quartiere	quartiere quartieri quartier quartierino
+10	1110	prevedere	prevede prevedere prevedono prevedeva prevedendo prevedo preveda prevedevano prevedano prevedi prevedesse previde prevediamo prevedevo preveggente prevedete prevedessero prevederà preveduto previdero previdi
+11	1111	cristo	cristo cristi
+12	1112	estate	estate state estati
+13	1113	pericolo	pericolo pericoli
+14	1114	cattolico	cattolica cattolici cattolico cattoliche
+15	1115	interessato	interessato interessati interessata interessate interessatissimo
+16	1116	onore	onore onori onor
+17	1117	svolgere	svolge svolgere svolgono svolgendo svolgersi svolgerà svolgeva svolse svolgevano svolgeranno svolga svolgo svolgano svolsero svolgesse svolgi svolgessero svolgiamo svolgerebbe svolgevo svolgete svolgerò svolgeremo
+18	1118	decreto	decreto decreti decreta
+19	1119	realizzare	realizzare realizza realizzando realizzate realizzarsi realizzano realizzi realizzo realizzerà realizzò realizzava realizziamo realizzeranno realizzino realizzasse realizzarono realizzeremo realizzavano realizzai realizzerai realizzerò realizzerebbe realizzassero realizzavo realizzassi
+20	1120	cucina	cucina cucine
+21	1121	vantaggio	vantaggio vantaggi avvantaggio
+22	1122	affari	affari
+23	1123	cinema	cinema
+24	1124	link	link
+25	1125	particolarmente	particolarmente
+26	1126	stasera	stasera
+27	1127	unità	unità
+28	1128	enorme	enorme enormi
+29	1129	perdita	perdita perdite
+30	1130	mancanza	mancanza mancanze
+31	1131	promesso	promessa promesso promesse promessi
+32	1132	fantastico	fantastico fantastica fantastici fantastiche
+33	1133	stanza	stanza stanze stanzina
+34	1134	spirito	spirito spiriti spirto
+35	1135	muovere	muove muovere mosso muovono mosse muovendo mossi movente muovi muoveva muovo muova muovevano muoviamo mossero muovete muoverà moventi muovano muoveranno muovesse muovessero muovevo muoveremo movete muoverò mova muoverebbe movendo muoverebbero muoverei muovevi muover
+36	1136	volo	volo voli
+37	1137	gestione	gestione gestioni
+38	1138	elettorale	elettorale elettorali
+39	1139	miliardo	miliardi miliardo
+40	1140	salire	salire salito salendo salgono sali saliva salienti salì salgo salirà salirono saliente salga saliranno salivano salisse saliremo salii salirebbe salgano salirò salivo salir salivamo salimmo salirei salirai salissero salirete salirebbero
+41	1141	missione	missione missioni
+42	1142	terreno	terreno terreni terrena terrene
+43	1143	significato	significato significati significata significate
+44	1144	descrivere	descritto descrive descrivere descrivono descrivendo descriveva descrivi descrisse descriva descrivo descrivevano descriveresti descrissero descriverà descrivete descriviamo descriverò descrivano descriversi descrivesse descriveremo descriverei descriverebbe descriveranno descrivereste
+45	1145	cellulare	cellulare cellulari
+46	1146	comportamento	comportamento comportamenti
+47	1147	stretto	stretto stretta stretti strette strettissimo
+48	1148	manifestazione	manifestazione manifestazioni
+49	1149	rotto	rotto rotta rotte rotti
+50	1150	esperto	esperti esperto esperta esperte espertissimo
+51	1151	caratteristica	caratteristiche caratteristica
+52	1152	principio	principio principi principî
+53	1153	volume	volume volumi volumetto
+54	1154	importare	importa importare importato importava importi importate importano importasse importerà importando importerebbe importiamo importavano importò importan importarono importino
+55	1155	corrente	corrente correnti
+56	1156	avvocato	avvocato avvocati avvocatessa avvocata
+57	1157	veloce	veloce veloci velocissimo
+58	1158	crescita	crescita crescite
+59	1159	trasporto	trasporto trasporti
+60	1160	osservare	osservare osserva osservato osservando osservano osservate osservo osservati osserviamo osservava osservi osservò osservanti osservavo osservino osservante osserverà osservavano osservarono osservarsi osserveremo osserveranno osservai osserverò osservasse osserverete osserverai osservavamo
+61	1161	ritornare	ritorna ritornare ritornato ritornano ritornò ritornando ritornata ritornerà ritornati ritorniamo ritorni ritornate ritorneranno ritornarono ritorneremo ritornerò ritornino ritornerai ritornava ritornasse ritornai ritornavano ritornerete ritornerei ritornerebbe ritornar ritornavo ritornerebbero ritornassero ritornammo ritornassi
+62	1162	club	club
+63	1163	generazione	generazione generazioni
+64	1164	istituzione	istituzioni istituzione
+65	1165	inferiore	inferiore inferiori
+66	1166	negativo	negativo negativa negativi negative
+67	1167	protagonista	protagonista protagonisti protagoniste
+68	1168	maggioranza	maggioranza maggioranze
+69	1169	esercito	esercito eserciti esercita esercite
+70	1170	espressione	espressione espressioni
+71	1171	ponte	ponte ponti ponticello ponticelli
+72	1172	esprimere	esprimere esprime esprimono esprimo esprimendo esprimeva esprima esprimi esprimevano esprimiamo esprimano espressero esprimerà esprimete esprimesse esprimeranno esprimerò esprimevo esprimenti esprimessero esprimer esprimerebbe esprimente esprimessi
+73	1173	prego	prego preghi priego
+74	1174	definire	definire definisce definiscono definite definirsi definendo definiva definirei definì definisco definisci definiamo definisca definivano definirebbe definirà definirono definiresti definiscano definirebbero definisse definiremmo definiremo definireste definiranno
+75	1175	dichiarare	dichiara dichiarare dichiarò dichiarando dichiarano dichiaro dichiarava dichiari dichiararsi dichiararono dichiariamo dichiarate dichiaravano dichiarasse dichiarante dichiarerà dichiarino dichiareranno dichiarerò dichiaranti dichiareremo dichiarassi dichiarerebbe dichiarassero dichiarar dichiarai
+76	1176	acquistare	acquistare acquistato acquista acquisti acquistando acquistate acquistano acquistò acquisterà acquistarono acquistava acquistiamo acquisteranno acquistai acquistavano acquisterò acquistino acquistasse acquisterebbe acquisterai acquisterei acquisterete
+77	1177	disegno	disegno disegni disegnino disegnini
+78	1178	debito	debito debiti debita debite
+79	1179	tagliare	tagliare tagliato tagli tagliata tagliati tagliando tagliate tagliano tagliamo tagliò tagliandi tagliava taglierà tagliarono tagliar tagliavano taglierei taglieranno taglino taglierò tagliasse tagliassero tagliai taglieremo taglierebbe tagliavo tagliassi taglierete taglierebbero taglianti taglierai
+80	1180	contribuire	contribuito contribuire contribuisce contribuenti contribuiscono contribuendo contribuente contribuì contribuirà contribuirono contribuisca contribuiranno contribuiscano contribuisci contribuiva contribuirebbe contribuivano contribuiamo contribuisco contribuite contribuisse contribuirebbero contribuirai contribuissero contribuiremo
+81	1181	rivista	rivista riviste
+82	1182	visione	visione visioni
+83	1183	risorsa	risorse risorsa
+84	1184	fiducia	fiducia fiducie
+85	1185	soffrire	soffrire soffre sofferto soffrono soffro soffrendo soffriva soffri soffra sofferta soffriamo soffrivano soffrì sofferti sofferte soffrano soffrirà soffrivo soffrite soffriranno soffrirebbe soffrirono soffrirai soffrirò soffrirebbero soffrirei soffrir soffrissero soffriremo soffriate soffrirete
+86	1186	ospedale	ospedale ospedali spedale
+87	1187	indietro	indietro
+88	1188	otto	otto
+89	1189	capace	capace capaci capacissimo
+90	1190	raccogliere	raccogliere raccoglie raccogliendo raccolgono raccolse raccogli raccoglieva raccogliamo raccolgo raccolga raccoglievano raccoglierà raccolsero raccogliete raccoglieremo raccogliesse raccogliersi raccolgano raccoglierò raccoglieranno raccoglier raccolsi raccoglievo raccoglierete raccoglierebbe raccoglierai
+91	1191	dottore	dottore dottor dottori dottoressa
+92	1192	cantare	cantare canta cantato cantando cantano canti cantava cantate cantavano cantiamo cantò canterà canterò cantar cantavo canteranno canterai cantasse canteremo cantavi cantarono cantino cantavamo canterei cantai canterebbe canterete cantan cantassero
+93	1193	pelle	pelle pelli
+94	1194	guardia	guardia guardie
+95	1195	impegno	impegno impegni
+96	1196	serata	serata serate
+97	1197	istituto	istituto istituti
+98	1198	occidentale	occidentale occidentali
+99	1199	sorta	sorta sorte sorti
+100	1200	proprietario	proprietario proprietari proprietaria proprietarie propietario

@@ -1,0 +1,100 @@
+1	1201	traduzione	traduzione traduzioni
+2	1202	eseguire	eseguire eseguito eseguita eseguiti eseguite esegue eseguendo eseguono eseguì esegui eseguiva eseguivano esegua eseguo eseguirà eseguirono eseguiranno eseguiamo eseguano eseguirò eseguisse eseguiremo eseguivo
+3	1203	circolare	circolare circolo circoli circolari circolano circola circolante circolanti circolavano circolava circolate circolando circolato circolino circolarono circolò circolasse circoleranno circolassero
+4	1204	intenzione	intenzione intenzioni
+5	1205	confermare	confermato confermare confermano confermo confermate confermando confermò confermi confermava confermerà confermarono confermiamo confermino confermerebbe confermarsi confermeranno confermerebbero confermavano confermasse confermassero
+6	1206	giapponese	giapponese giapponesi
+7	1207	promuovere	promuovere promosso promuove promosse promossi promuovendo promuovono promuova promuoviamo promuoveva promuoverà promuovi promuovano promossero promuovo promuovevano promuovesse promuoveranno promuoveremo promovendo promuovete promuover
+8	1208	biglietto	biglietto biglietti
+9	1209	cambiamento	cambiamento cambiamenti
+10	1210	tradizionale	tradizionale tradizionali
+11	1211	supporto	supporto supporti
+12	1212	effettuare	effettuare effettuato effettuata effettuate effettuati effettua effettuando effettuano effettui effettuò effettuerà effettuava effettuavano effettuarono effettueranno effettueremo effettuo effettuiamo effettuino effettuasse effettuerò
+13	1213	paziente	paziente pazienti
+14	1214	organizzare	organizzare organizza organizzando organizzano organizzate organizzarsi organizziamo organizzi organizzo organizzò organizzarono organizzati organizzava organizzerà organizzeremo organizzavano organizzino organizzeranno organizzerò organizzatevi organizzasse organizzavamo organizziamoci organizzavo organizzammo organizzerei organizzassero organizzerete organizzai organizzassimo
+15	1215	cavallo	cavallo cavalli cavalla cavalle
+16	1216	contributo	contributo contributi
+17	1217	peggiore	peggiore peggiori peggior
+18	1218	castello	castello castelli castel castelletto castella castelletti
+19	1219	diffuso	diffusa diffuso diffuse diffusi diffusissimo
+20	1220	sabato	sabato sabati
+21	1221	concerto	concerto concerti
+22	1222	vicenda	vicenda vicende
+23	1223	motore	motore motori motorino motrice motrici motorini
+24	1224	determinato	determinato determinati determinata determinate
+25	1225	applicazione	applicazione applicazioni
+26	1226	recuperare	recuperare recupero recuperato recupera recuperando recuperi recuperate recuperano recuperiamo recuperò recupererò recupererà recupereremo recuperava ricuperare recuperarono recuperar recupererai recuperasse recuperavano recupereranno
+27	1227	campione	campione campioni campionessa
+28	1228	dipendente	dipendenti dipendente
+29	1229	impedire	impedire impedisce impedito impediscono impedendo impediva impedisca impedì impedirà impedivano impedirebbe impedita impedirono impediti impediscano impedisse impediranno impedite impedisci impediamo impedir impedirebbero impedisco impedissero impediremo
+30	1230	indagine	indagine indagini
+31	1231	capitano	capitano capitan capitani capitana capitanio
+32	1232	elettrico	elettrica elettrico elettrici elettriche
+33	1233	sentimento	sentimenti sentimento
+34	1234	colpito	colpito colpita colpiti colpite
+35	1235	reazione	reazione reazioni
+36	1236	pericoloso	pericoloso pericolosa pericolosi pericolose pericolosissimo periglioso
+37	1237	rientrare	rientra rientrare rientro rientrano rientrato rientri rientrando rientrava rientrò rientrante rientranti rientravano rientrerà rientrate rientrino rientriamo rientrarono rientrerebbe rientreranno rientrasse rientrerebbero rientravo rientrerò rientrassero rientrerai rientrai rientreremo
+38	1238	candidato	candidato candidati candidata candidate
+39	1239	computer	computer
+40	1240	contenuti	contenuti
+41	1241	quantità	quantità
+42	1242	partecipazione	partecipazione partecipazioni
+43	1243	attaccare	attaccare attacca attacchi attaccano attaccante attaccando attaccanti attaccate attaccò attaccarsi attaccarono attaccava attacchiamo attaccavano attaccheranno attaccherà attaccati attacchino attaccar attaccasse attaccherò attaccassero attaccatevi attaccheremo attaccavo attaccherebbe attaccai
+44	1244	dipendere	dipende dipendono dipendere dipenda dipenderà dipendeva dipendesse dipeso dipendevano dipendiamo dipendendo dipese dipenderebbe dipendano dipenderanno dipendo dipendi dipendessero dipendete
+45	1245	digitale	digitale digitali
+46	1246	poesia	poesia poesie poetica poetico poetiche poetici
+47	1247	albero	alberi albero albori alberello alberelli albore
+48	1248	carne	carne carni
+49	1249	reato	reato reati
+50	1250	pianta	piante pianta
+51	1251	insegnare	insegnato insegnare insegnano insegni insegnando insegno insegnate insegnava insegnò insegnerà insegnavano insegnerò insegnarono insegniamo insegnasse insegnino insegneranno insegnar insegneremo insegnavo insegnassero insegnerai insegnai insegnasti insegnavi insegnerebbe
+52	1252	scaricare	scaricare scarica scarico scaricato scarichi scaricando scaricate scariche scaricano scaricava scarichiamo scaricavano scaricherà scaricò scaricarono scaricasse scaricherò scaricheranno scaricherei scaricavo scarichino
+53	1253	fame	fame fami
+54	1254	stupido	stupido stupida stupidi stupide
+55	1255	protezione	protezione protezioni
+56	1256	bellezza	bellezza bellezze
+57	1257	collaborazione	collaborazione collaborazioni
+58	1258	tipico	tipico tipica tipici tipiche
+59	1259	farmi	farmi
+60	1260	intanto	intanto
+61	1261	sessuale	sessuale sessuali
+62	1262	vuoto	vuoto vuota vuoti vuote
+63	1263	largo	larga largo larghe larghi larghissimo
+64	1264	valle	valle valli val vallo valletta vallette
+65	1265	comunale	comunale comunali
+66	1266	fico	figa figo fico fica fichi fiche fichissimo
+67	1267	incredibile	incredibile incredibilmente incredibili
+68	1268	abbandonare	abbandonare abbandono abbandona abbandonando abbandonano abbandoni abbandonò abbandonate abbandonerà abbandonarono abbandoniamo abbandonarsi abbandonerò abbandoneranno abbandonava abbandonino abbandoneremo abbandonasse abbandonassero abbandonai abbandonavano abbandonerai abbandonerebbe abbandonerei abbandonerebbero abbandonammo
+69	1269	potenza	potenza potenze
+70	1270	pagamento	pagamento pagamenti
+71	1271	uguale	uguale uguali eguale ugual
+72	1272	onda	onda onde
+73	1273	edificio	edifici edificio edifizio
+74	1274	sostituire	sostituire sostituito sostituisce sostituita sostituiti sostituite sostituendo sostituiscono sostituì sostituirà sostituirsi sostituisca sostituisci sostituiva sostituiamo sostituisco sostituirono sostituiranno sostituisse sostituirei sostituivano sostituiscano sostituirebbe sostituirò sostituenti sostituente sostituissero sostituiremo
+75	1275	caffè	caffè caffé
+76	1276	riflettere	riflettere riflette riflesso riflessi riflettono riflettuto riflettendo rifletta riflessa rifletti riflettiamo riflettente riflettete riflettevo rifletteva rifletto riflettenti riflettevano riflesse riflettano rifletterà rifletté riflettesse riflettessero rifletterebbe rifletteranno rifletterei rifletteremo
+77	1277	sguardo	sguardo guardo sguardi
+78	1278	familiare	familiare familiari famigliare
+79	1279	preciso	preciso precisa precise precisi precisissimo
+80	1280	parecchio	parecchio parecchi parecchie parecchia
+81	1281	segnalare	segnalare segnalato segnala segnali segnalati segnalo segnalano segnalata segnalate segnaliamo segnalando segnalava segnalò segnalarono segnalavano segnalino segnalerà segnalerò segnalerei segnaleremo segnalai segnalante segnalavo
+82	1282	triste	triste tristi tristissimo
+83	1283	convinto	convinto convinta convinti convinte
+84	1284	ignorare	ignorare ignoranti ignorante ignora ignorato ignorando ignorano ignorata ignorati ignorate ignoro ignori ignoriamo ignorava ignoravo ignorò ignoravano ignorino ignorerò ignorarono ignorerà ignorarsi ignorerei ignorasse ignorassero ignoravi ignoravamo
+85	1285	bar	bar
+86	1286	blog	blog
+87	1287	facilmente	facilmente
+88	1288	denaro	denaro denari danaro
+89	1289	volare	volare volante vola volano volanti voli volando volato volò volava volavano volate volar voliamo volerà voleranno volarono volino volerò voleremo volasse volavo volan volani volerai volassero volerei volerebbe
+90	1290	sentenza	sentenza sentenze
+91	1291	preoccupare	preoccupa preoccupare preoccuparsi preoccupante preoccupano preoccupati preoccupi preoccupo preoccupatevi preoccupanti preoccupate preoccuperei preoccupava preoccupando preoccupiamo preoccupiamoci preoccupò preoccupino preoccupavano preoccupavo preoccupasse preoccuperebbe preoccuparono preoccuperà preoccuperanno
+92	1292	spostare	spostare spostato sposta spostarsi spostati spostata spostando spostano spostate sposti sposto spostò spostiamo sposterà spostava sposteranno spostavano sposteremo spostarono spostino spostatevi sposterebbe spostasse sposterei spostiamoci spostavo sposterò spostassero spostai
+93	1293	unire	unisce unire unirsi unite uniscono unisciti unendo unitevi unì uniamo unirono unisco unisca unirà univa unisci uniamoci uniranno univano uniscano unisse unissero uniremo unii unirebbe uniate unirò unirete unirebbero
+94	1294	definito	definito definita definiti definite
+95	1295	quest'ultimo	quest'ultimo quest'ultima quest'ultimi quest'ultime
+96	1296	quadro	quadro quadri quadra quadretto quadretti quadre
+97	1297	cervello	cervello cervelli cervella
+98	1298	carino	carino carina carini carine carinissimo carinissima carinissimi carinissime
+99	1299	curare	curare curato curata curati curate curarsi curano curando curi curo curante curò curava curerà curiamo curar curavano curino curanti cureranno curarono curasse curai cureremo curavo curerei curerò curatissimo curerebbe
+100	1300	incidente	incidente incidenti

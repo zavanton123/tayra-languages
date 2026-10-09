@@ -1,0 +1,100 @@
+1	9601	dragone	dragone dragoni dragoncello
+2	9602	riaccendere	riaccendere riaccende riacceso riaccendono riaccendersi riaccendi riaccendendo riaccendo riaccesero
+3	9603	palpebra	palpebre palpebra
+4	9604	laurearsi	laurearsi laureati
+5	9605	trascritto	trascritto trascritti trascritta trascritte
+6	9606	gnocca	gnocca gnocche
+7	9607	leggibile	leggibile leggibili
+8	9608	imbarco	imbarco imbarchi
+9	9609	statura	statura stature
+10	9610	ergere	erge ergono ergeva erga ergere ergevano erse ergi
+11	9611	inerzia	inerzia inerzie
+12	9612	boccone	boccone bocconcini bocconcino
+13	9613	accanito	accanito accaniti accanita accanite
+14	9614	bandire	bandire bandisce bandite bandì bandendo bandiscono bandirono
+15	9615	noleggiare	noleggiare noleggiato noleggia noleggiate noleggi noleggiamo noleggiano noleggiando
+16	9616	obbedienza	obbedienza ubbidienza obbedienze
+17	9617	corazza	corazza corazze
+18	9618	traversata	traversata traversate
+19	9619	rivoltare	rivoltare rivoltato rivoltante rivoltando rivoltarsi rivoltano rivoltati rivoltanti rivoltò rivoltate rivoltarono rivolterà rivolterebbe
+20	9620	spiritoso	spiritoso spiritosa spiritosi spiritose
+21	9621	ammenda	ammenda ammende
+22	9622	sbrigare	sbrigare sbrigarsi sbrigatevi sbrighi sbriga sbrigate sbrigo sbrigano sbrigato sbrighiamoci sbrighiamo sbrighino sbrigasse
+23	9623	morsa	morsa morse
+24	9624	appellativo	appellativo appellativi
+25	9625	ospitale	ospitale ospitali hospitale
+26	9626	onnipotente	onnipotente onnipotenti
+27	9627	correttivo	correttivo correttivi correttiva correttive
+28	9628	ottocentesco	ottocentesca ottocentesco ottocenteschi ottocentesche
+29	9629	aggravante	aggravante aggravanti
+30	9630	firmatario	firmatari firmatario firmataria
+31	9631	univoco	univoca univoco univoci univoche
+32	9632	buccia	buccia bucce buccio
+33	9633	contributivo	contributivo contributiva contributivi contributive
+34	9634	scolare	scolare scolari scolato scoli scolate scolano scola
+35	9635	giudiziale	giudiziale giudiziali
+36	9636	ottuso	ottuso ottusi ottusa ottuse
+37	9637	perfido	perfida perfido perfidi perfide
+38	9638	supplica	supplica suppliche
+39	9639	inaccessibile	inaccessibile inaccessibili
+40	9640	assistenziale	assistenziale assistenziali
+41	9641	indiscusso	indiscusso indiscussa indiscussi indiscusse
+42	9642	patriarcale	patriarcale patriarcali
+43	9643	merlino	merlino merlini
+44	9644	figurina	figurine figurina
+45	9645	spogliare	spogliato spogliare spogliano spogli spogliando spogliate spogliava spogliò spogliarono
+46	9646	caratterizzazione	caratterizzazione caratterizzazioni
+47	9647	fermentazione	fermentazione fermentazioni
+48	9648	salentino	salentino salentina salentini salentine
+49	9649	quotare	quotato quotate quotare quotano
+50	9650	capivo	capivo
+51	9651	cent'anni	cent'anni
+52	9652	cercarlo	cercarlo
+53	9653	chiamarli	chiamarli
+54	9654	comprarmi	comprarmi
+55	9655	freezer	freezer
+56	9656	ingenuità	ingenuità
+57	9657	jeep	jeep
+58	9658	logicamente	logicamente
+59	9659	macron	macron
+60	9660	magicamente	magicamente
+61	9661	manualmente	manualmente
+62	9662	mecca	mecca
+63	9663	necropoli	necropoli
+64	9664	parliamone	parliamone
+65	9665	potermi	potermi
+66	9666	precarietà	precarietà
+67	9667	raggiungerlo	raggiungerlo
+68	9668	risanamento	risanamento
+69	9669	samurai	samurai
+70	9670	seguirmi	seguirmi
+71	9671	solidità	solidità
+72	9672	sottosuolo	sottosuolo
+73	9673	svegliarmi	svegliarmi
+74	9674	trattasi	trattasi
+75	9675	vu	vu
+76	9676	disperare	disperare dispera disperarsi disperate dispero disperando disperano disperi disperante disperiamo disperava
+77	9677	constatazione	constatazione constatazioni costatazione
+78	9678	reina	reina reine
+79	9679	susseguire	susseguono susseguite susseguirono susseguivano sussegue susseguiranno
+80	9680	postino	postino postini postina
+81	9681	arredare	arredi arredare arredato arredate arreda arredano
+82	9682	inesperto	inesperti inesperto inesperta inesperte
+83	9683	armonica	armonica armoniche
+84	9684	algerino	algerino algerini algerina algerine
+85	9685	cinghia	cinghia cinghie
+86	9686	orda	orda orde
+87	9687	zappa	zappa zappe
+88	9688	ebbrezza	ebbrezza ebrezza
+89	9689	prodigio	prodigio prodigi
+90	9690	statica	statica statiche
+91	9691	conciliazione	conciliazione conciliazioni
+92	9692	avvertenza	avvertenze avvertenza
+93	9693	rigenerazione	rigenerazione rigenerazioni
+94	9694	istruire	istruire istruisce istruendo istruì istruiscono istruiva istruisca istruisci
+95	9695	sfumato	sfumato sfumata sfumati sfumate
+96	9696	patriarcato	patriarcato patriarcati
+97	9697	metafisica	metafisica metafisiche
+98	9698	meravigliare	meraviglio meravigliato meravigli meravigliano meravigliare meraviglierei meravigliate meravigliamo meravigliò meravigliava
+99	9699	incriminare	incriminato incriminare incriminate incriminanti incrimina incriminante
+100	9700	suino	suini suino suina suine

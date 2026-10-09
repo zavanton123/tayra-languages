@@ -1,0 +1,100 @@
+1	7901	neurone	neuroni neurone
+2	7902	massone	massoni massone
+3	7903	grammaticale	grammaticali grammaticale
+4	7904	vagone	vagone vagoni
+5	7905	dimettersi	dimettersi dimettiti
+6	7906	enigma	enigma enigmi
+7	7907	sindacalista	sindacalista sindacalisti
+8	7908	cometa	cometa comete
+9	7909	ingrassare	ingrassare ingrassato ingrassa ingrasso ingrassi ingrassano ingrassando ingrassate
+10	7910	schizzo	schizzi schizzo
+11	7911	vinile	vinile vinili
+12	7912	trattore	trattore trattori
+13	7913	allevatore	allevatori allevatore allevatrice
+14	7914	sprovvisto	sprovvista sprovvisto sprovvisti sprovviste
+15	7915	designare	designa designare designava designate designano designò designando designavano designo designarono
+16	7916	triennio	triennio trienni
+17	7917	ausiliario	ausiliario ausiliari ausiliaria ausiliarie
+18	7918	pendenza	pendenza pendenze
+19	7919	regolazione	regolazione regolazioni
+20	7920	germano	germano germani germana
+21	7921	propenso	propenso propensi propensa propense
+22	7922	alludere	allude alludendo alludere alludono alluso alludeva alludi alludo alluda alluderebbe alludevo alludevano
+23	7923	finalista	finalisti finalista finaliste
+24	7924	diva	diva dive
+25	7925	disparato	disparati disparate disparata
+26	7926	invalido	invalidi invalido invalida invalide
+27	7927	incanto	incanto incanti
+28	7928	vaccinare	vaccinare vaccini vaccinato vaccinati vaccinata vaccinate vaccinano vaccina
+29	7929	pietoso	pietoso pietosa pietose pietosi
+30	7930	chicco	chicco chicchi
+31	7931	allineato	allineati allineato allineata allineate
+32	7932	cosmo	cosmo cosmi
+33	7933	planetario	planetario planetaria planetarie planetari
+34	7934	cratere	cratere crateri
+35	7935	indumento	indumenti indumento
+36	7936	tempistica	tempistiche tempistica
+37	7937	sepolcro	sepolcro sepolcri
+38	7938	emblema	emblema emblemi
+39	7939	reazionario	reazionario reazionari reazionaria reazionarie
+40	7940	imbattersi	imbatte imbattersi imbatto imbatté imbattiamo imbattono imbattermi imbatti imbattei imbatterono imbatterci imbatterà imbattendosi imbatta imbatterti imbattemmo
+41	7941	arredo	arredi arredo
+42	7942	diurno	diurno diurne diurna diurni
+43	7943	alibi	alibi
+44	7944	bravura	bravura
+45	7945	clown	clown
+46	7946	condoglianza	condoglianze
+47	7947	container	container
+48	7948	diecimila	diecimila
+49	7949	eccola	eccola
+50	7950	enfasi	enfasi
+51	7951	eutanasia	eutanasia
+52	7952	facendolo	facendolo
+53	7953	faenza	faenza
+54	7954	liberty	liberty
+55	7955	mannaggia	mannaggia
+56	7956	metano	metano
+57	7957	municipalità	municipalità
+58	7958	negativamente	negativamente
+59	7959	newton	newton
+60	7960	ottocento	ottocento
+61	7961	ridosso	ridosso
+62	7962	riprova	riprova
+63	7963	rivalità	rivalità
+64	7964	thriller	thriller
+65	7965	trattandosi	trattandosi
+66	7966	verosimilmente	verosimilmente
+67	7967	lotteria	lotteria lotterie
+68	7968	scontrino	scontrino scontrini
+69	7969	emorragia	emorragia emorragie
+70	7970	artefice	artefice artefici
+71	7971	populismo	populismo populismi
+72	7972	minestra	minestra minestrone minestre minestrina minestroni
+73	7973	cessazione	cessazione cessazioni
+74	7974	gobbo	gobbo gobbi gobba gobbe
+75	7975	rivolere	rivoglio rivogliamo rivuole rivogliono rivorrei rivolete rivolere rivoleva rivorrebbe
+76	7976	larva	larve larva
+77	7977	ciccione	ciccione cicciona ciccioni
+78	7978	risentimento	risentimento risentimenti
+79	7979	tangenziale	tangenziale tangenziali
+80	7980	gustoso	gustoso gustosa gustose gustosi
+81	7981	buffone	buffone buffoni buffona
+82	7982	eolico	eolico eolica eoliche eolici
+83	7983	cacchio	cacchio cacchi
+84	7984	processuale	processuale processuali
+85	7985	supposizione	supposizioni supposizione
+86	7986	intenzionato	intenzionato intenzionati intenzionata intenzionate
+87	7987	imbarcare	imbarcato imbarcare imbarca imbarcò imbarcano imbarcate imbarcando imbarcarono imbarcava imbarchiamo imbarcavano imbarcherà
+88	7988	arbitrio	arbitrio arbitri
+89	7989	crosta	crosta croste crosticina
+90	7990	narratore	narratore narratori narratrice
+91	7991	sudafricano	sudafricano sudafricana sudafricani sudafricane
+92	7992	muratura	muratura murature
+93	7993	vigliacco	vigliacco vigliacchi vigliacca vigliacche
+94	7994	disgusto	disgusto disgusti
+95	7995	immettere	immesso immettere immette immettersi immettendo immettono immetteva immetti immetta immettevano immise immetto
+96	7996	rigettare	rigettato rigettare rigetta rigettando rigettò rigettate rigettano rigettava rigettarono rigetti
+97	7997	gonfiare	gonfiare gonfia gonfiano gonfi gonfiando gonfiate gonfiava gonfiavano gonfierà gonfiò
+98	7998	sfociare	sfocia sfociare sfociano sfociato sfociate sfociando sfociò sfocerà sfoci sfociava sfociarono sfociante sfociavano
+99	7999	contenzioso	contenzioso contenziosi contenziosa
+100	8000	rampa	rampa rampe

@@ -1,0 +1,100 @@
+1	9501	scioperare	scioperare scioperanti scioperano scioperato sciopera scioperi scioperiamo scioperando scioperante sciopereranno
+2	9502	cofano	cofano cofani
+3	9503	recensire	recensito recensire recensisce recensite recensendo recensisci recensisco recensiscono
+4	9504	breccia	breccia brecce
+5	9505	nanna	nanna nanne
+6	9506	doppiare	doppiato doppiare doppiate doppino doppiando doppiava doppi doppiamo doppiano
+7	9507	squillo	squillo squilli
+8	9508	ripetitivo	ripetitivo ripetitivi ripetitiva ripetitive
+9	9509	rosato	rosato rosati rosate rosata
+10	9510	strisciare	strisciando strisciare strisciante striscianti strisciano strisciato strisciate strisciava strisci strisciavano strisciò
+11	9511	villetta	villetta villette
+12	9512	fessura	fessura fessure
+13	9513	suscettibile	suscettibile suscettibili
+14	9514	ariete	ariete arieti
+15	9515	sembianza	sembianze sembianza
+16	9516	verosimile	verosimile verosimili
+17	9517	ristrutturare	ristrutturare ristrutturando ristruttura ristrutturate ristrutturano ristrutturante
+18	9518	cesto	cesto cesti cestello cestelli
+19	9519	esteriore	esteriore esteriori
+20	9520	losco	loschi losco losche losca
+21	9521	motorio	motorie motoria motorio motori
+22	9522	pettine	pettine pettini
+23	9523	graffio	graffi graffio
+24	9524	corridore	corridori corridore
+25	9525	relitto	relitto relitti
+26	9526	tonico	tonica tonico toniche tonici
+27	9527	insediare	insediato insediare insediarsi insedia insediate insediarono insediò insediano insediando
+28	9528	reverendo	reverendo reverenda reverendissimo reverendi
+29	9529	psicoterapia	psicoterapia psicoterapie
+30	9530	diacono	diacono diaconi diaconessa
+31	9531	amorevole	amorevole amorevoli
+32	9532	tiratore	tiratori tiratore tiratrice
+33	9533	triplice	triplice triplici
+34	9534	confinare	confina confinano confinare confini confinava confinando confinate confinavano confinò
+35	9535	ambiguità	ambiguità
+36	9536	ananas	ananas
+37	9537	audience	audience
+38	9538	bordeaux	bordeaux
+39	9539	boxe	boxe
+40	9540	cela	cela
+41	9541	congiuntamente	congiuntamente
+42	9542	fermarmi	fermarmi
+43	9543	genericamente	genericamente
+44	9544	guardata	guardata
+45	9545	illegalità	illegalità
+46	9546	insaputa	insaputa
+47	9547	karaoke	karaoke
+48	9548	letizia	letizia
+49	9549	lontanamente	lontanamente
+50	9550	mascotte	mascotte
+51	9551	natalità	natalità
+52	9552	odissea	odissea
+53	9553	offrirti	offrirti
+54	9554	omega	omega
+55	9555	orvieto	orvieto
+56	9556	ou	ou
+57	9557	overdose	overdose
+58	9558	panno	panno
+59	9559	preoccuparmi	preoccuparmi
+60	9560	prossimamente	prossimamente
+61	9561	redini	redini
+62	9562	remake	remake
+63	9563	restaurazione	restaurazione
+64	9564	sconforto	sconforto
+65	9565	seguitemi	seguitemi
+66	9566	smog	smog
+67	9567	spider	spider
+68	9568	spiegami	spiegami
+69	9569	stabilmente	stabilmente
+70	9570	oltraggio	oltraggio oltraggi
+71	9571	catechismo	catechismo catechismi
+72	9572	poppa	poppa poppe
+73	9573	dosaggio	dosaggio dosaggi
+74	9574	continuativo	continuativa continuativo continuativi continuative
+75	9575	trapelare	trapelare trapela trapelate trapelato trapelano trapelasse trapelò trapeli
+76	9576	marziano	marziano marziani marziana marziane
+77	9577	tardare	tardato tarda tardare tardano tardò tarderà tardarono tarderanno tardino tardava tardate tardando tardavano
+78	9578	attaccamento	attaccamento attaccamenti
+79	9579	ridire	ridire ridetto ridico ridici ridice ridica
+80	9580	embrione	embrione embrioni
+81	9581	percussione	percussioni percussione
+82	9582	calcareo	calcarea calcaree calcareo calcarei
+83	9583	epilogo	epilogo epiloghi
+84	9584	saturo	saturo saturi satura sature
+85	9585	elettrodomestico	elettrodomestici elettrodomestico
+86	9586	porro	porro porri
+87	9587	vassoio	vassoio vassoi
+88	9588	preannunciare	preannuncia preannunciato preannunciano preannunciava preannunciando preannunciare preannunciavano preannunciate
+89	9589	senegalese	senegalese senegalesi
+90	9590	irreversibile	irreversibile irreversibili
+91	9591	passionale	passionale passionali
+92	9592	germe	germi germe
+93	9593	mascherare	mascherare mascherano mascherarsi mascherate mascherando mascherino mascheri mascherava
+94	9594	carbonico	carbonica carbonico
+95	9595	eclatante	eclatante eclatanti
+96	9596	delirante	delirante deliranti
+97	9597	inconsapevole	inconsapevole inconsapevoli
+98	9598	bentornato	bentornato bentornata bentornati bentornate
+99	9599	circonferenza	circonferenza circonferenze
+100	9600	gelatina	gelatina gelatine

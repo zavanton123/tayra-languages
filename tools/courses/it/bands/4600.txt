@@ -1,0 +1,100 @@
+1	4501	classificazione	classificazione classificazioni
+2	4502	sotterraneo	sotterraneo sotterranei sotterranea sotterranee
+3	4503	triplo	triplo tripla triple tripli
+4	4504	spettro	spettro spettri
+5	4505	animazione	animazione animazioni
+6	4506	cattura	cattura catture
+7	4507	successore	successore successori
+8	4508	semplificare	semplificare semplificato semplificata semplifica semplificando semplificate semplificati semplificano semplifichiamo semplifichi semplifico
+9	4509	precario	precari precario precaria precarie
+10	4510	illustrazione	illustrazioni illustrazione
+11	4511	equivalere	equivale equivalgono equivalga equivarrebbe equivaleva equivalere equivalevano equivarrà equivalgano
+12	4512	ispettore	ispettore ispettori ispettrice
+13	4513	allegato	allegato allegati allegata allegate
+14	4514	mattone	mattoni mattone mattoncini mattoncino
+15	4515	prevalere	prevalere prevale prevalgono prevalso prevalga prevarrà prevarranno prevalendo prevalsero prevaleva prevalgano prevalevano prevalesse
+16	4516	misericordia	misericordia misericordie
+17	4517	avvio	avvio avvii
+18	4518	pontificio	pontificio pontificia pontifici pontificie pontifice
+19	4519	coloniale	coloniale coloniali
+20	4520	mutare	mutare mutato muti mutanti mutante mutò mutate mutano mutando mutarono muterà mutava mutar mutino muteranno mutavano
+21	4521	documentare	documenti documentare documenta documentano documentate documentarsi documentando documentati documentava documentavano documentino documentò
+22	4522	acquisizione	acquisizione acquisizioni
+23	4523	notaio	notaio notai
+24	4524	abusivo	abusivi abusivo abusiva abusive
+25	4525	tracciato	tracciato tracciati tracciata tracciate
+26	4526	dama	dama dame
+27	4527	polso	polso polsi
+28	4528	tazza	tazza tazze
+29	4529	esplosivo	esplosivo esplosivi esplosiva esplosive
+30	4530	robusto	robusto robusta robusti robuste
+31	4531	filtrare	filtrare filtri filtra filtrato filtrata filtrate filtrati filtrando filtrante filtrano filtranti filtrava
+32	4532	terminale	terminale terminali
+33	4533	forestale	forestale forestali
+34	4534	piantare	piantare piantato piantati piantate piantata piantano pianti piantando piantò piantiamo piantava pianteranno piantino pianterò piantarono piantasse pianterà piantarsi piantar
+35	4535	morbido	morbido morbida morbide morbidi morbidissimo
+36	4536	argomentazione	argomentazioni argomentazione
+37	4537	inquinamento	inquinamento inquinamenti
+38	4538	pianificazione	pianificazione pianificazioni
+39	4539	rocca	rocca rocche
+40	4540	correzione	correzione correzioni
+41	4541	ingiustizia	ingiustizia ingiustizie
+42	4542	satira	satira satire
+43	4543	riscatto	riscatto riscatti
+44	4544	napoleone	napoleone napoleoni
+45	4545	monico	monica monico
+46	4546	incominciare	incomincia incominciato incominciare incominciò incominciano incominciarono incominciamo incominciando incomincio incominci incominciate incominciava incomincerà incominciai incominceranno incominciavano
+47	4547	sognato	sognato sognata sognate sognati
+48	4548	orchestra	orchestra orchestre
+49	4549	agenda	agenda agende agendina
+50	4550	pescatore	pescatori pescatore pescatrice pescatrici
+51	4551	eleggere	eleggere elegge elesse eleggono eleggendo elessero eleggerà eleggeva eleggeranno eleggevano eleggiamo eleggete eleggi eleggo eleggano elegga
+52	4552	motivato	motivato motivata motivati motivate
+53	4553	credibile	credibile credibili
+54	4554	coca	coca coche
+55	4555	complotto	complotto complotti
+56	4556	piombo	piombo piombino piombi piombini
+57	4557	proteina	proteine proteina
+58	4558	continuazione	continuazione continuazioni
+59	4559	arcivescovo	arcivescovo arcivescovi
+60	4560	artigiano	artigiani artigiano artigiane artigiana artigianelli
+61	4561	spreco	spreco sprechi
+62	4562	collaterale	collaterali collaterale
+63	4563	minchia	minchia minchie
+64	4564	capodanno	capodanno capodanni
+65	4565	sollecitare	sollecitare sollecito sollecitato sollecita sollecitando solleciti sollecitano sollecitò sollecitate sollecitiamo sollecitava sollecitarono sollecitavano
+66	4566	inerente	inerenti inerente
+67	4567	condominio	condominio condomini
+68	4568	grillino	grillini grillino grillina grilline
+69	4569	diocesi	diocesi
+70	4570	full	full
+71	4571	idem	idem
+72	4572	jeans	jeans
+73	4573	meteo	meteo
+74	4574	popolarità	popolarità
+75	4575	quotidianamente	quotidianamente
+76	4576	sennò	sennò
+77	4577	sponsor	sponsor
+78	4578	storicamente	storicamente
+79	4579	sputare	sputare sputo sputa sputato sputi sputano sputando sputava sputò sputate sputavano sputar sputerà sputerò sputerei sputiamo
+80	4580	salvataggio	salvataggio salvataggi
+81	4581	espandere	espandere espandersi espande espanso espandendo espandono espandi espanda espandeva espanderà espandevano
+82	4582	igienico	igienica igienici igienico igieniche igenico
+83	4583	privilegiato	privilegiato privilegiata privilegiati privilegiate
+84	4584	zaino	zaino zaini
+85	4585	argentino	argentino argentini argentine
+86	4586	legislatura	legislatura legislature
+87	4587	tenore	tenore tenori
+88	4588	proporzionale	proporzionale proporzionali
+89	4589	furia	furia furie
+90	4590	baia	baia baie
+91	4591	signorina	signorina signorine signorini signorino
+92	4592	china	china chine
+93	4593	disperso	dispersi disperso dispersa disperse
+94	4594	giurato	giurato giurati giurata giurate
+95	4595	polmone	polmoni polmone
+96	4596	credenza	credenze credenza
+97	4597	salotto	salotto salotti salottino
+98	4598	efficienza	efficienza efficenza efficienze
+99	4599	soffitto	soffitto soffitti
+100	4600	fossa	fossa fosse

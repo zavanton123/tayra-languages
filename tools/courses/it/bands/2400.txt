@@ -1,0 +1,100 @@
+1	2301	consegna	consegna consegne
+2	2302	cerimonia	cerimonia cerimonie
+3	2303	lavare	lavare lava lavato lavarsi lavo lavi lavano lavate lavando laviamo lavava lave lavino lavatevi lavavano lavavo lavar laverà lavò lavasse laverai laverò laveranno
+4	2304	accademico	accademico accademici accademica accademiche
+5	2305	sfuggire	sfuggire sfugge sfuggito sfuggono sfuggendo sfuggente sfugga sfuggite sfuggì sfuggenti sfuggirà sfuggiva sfuggano sfuggi sfuggisse sfuggirono sfuggivano sfuggiranno sfuggissero
+6	2306	trasferimento	trasferimento trasferimenti
+7	2307	sospeso	sospeso sospesa sospesi sospese
+8	2308	completare	completare completa completano completi completando completate completino completò completiamo completarsi completerà completava completavano completini completarono completeranno completasse completeremo completerebbe
+9	2309	disegnare	disegnare disegnato disegni disegna disegnate disegnando disegnano disegnò disegnava disegnavo disegnavano disegniamo disegnino disegnerà disegnarono disegnini disegnerò disegnai disegnarsi
+10	2310	ombra	ombra ombre
+11	2311	impiego	impiego impieghi
+12	2312	supremo	supremo suprema supreme supremi
+13	2313	ritrovato	ritrovato ritrovata ritrovati ritrovate
+14	2314	siciliano	siciliano siciliana siciliani siciliane
+15	2315	affinché	affinché affinchè
+16	2316	universale	universale universali
+17	2317	paradiso	paradiso paradisi
+18	2318	giovanile	giovanile giovanili
+19	2319	velocemente	velocemente velocissimamente
+20	2320	bottiglia	bottiglia bottiglie
+21	2321	degno	degno degna degni degne degnissimo
+22	2322	amministratore	amministratore amministratori amministratrice
+23	2323	difetto	difetti difetto difettuccio
+24	2324	turista	turisti turista turiste
+25	2325	bruno	bruno bruni bruna brune
+26	2326	zucchero	zucchero zuccheri zuccaro
+27	2327	curiosità	curiosità
+28	2328	solidarietà	solidarietà
+29	2329	operaio	operaio operai operaia operaie
+30	2330	analizzare	analizzare analizzato analizza analizzando analizzano analizzate analizziamo analizzo analizzi analizzeremo analizzava analizzò analizzerà analizzerò analizzeranno analizzino analizzavano analizzarono analizzasse
+31	2331	brano	brano brani
+32	2332	elettore	elettori elettore elettrice
+33	2333	riparare	riparare riparo riparato ripari ripara riparata ripararsi riparati riparate riparando riparano riparò ripararono riparava ripariamo riparerà riparerò riparavano riparino
+34	2334	pratico	pratico pratici pratiche
+35	2335	dirigere	dirige dirigere dirigendo dirigersi diresse dirigono dirigeva dirigo dirigerà dirigevano diressero dirigiamo diriga dirigetevi dirigeranno diressi dirigi dirigemmo dirigano dirigesse dirigiti dirigevo dirigeremo dirigete
+36	2336	certificato	certificato certificati certificata certificate
+37	2337	segnato	segnato segnata segnati segnate
+38	2338	fantasia	fantasia fantasie
+39	2339	spada	spada spade
+40	2340	abitudine	abitudine abitudini
+41	2341	certezza	certezza certezze
+42	2342	concessione	concessione concessioni
+43	2343	contadino	contadini contadino contadina contadine contadinella contadinello contadinotti
+44	2344	estivo	estiva estivo estivi estive
+45	2345	indice	indice indici
+46	2346	barca	barca barche
+47	2347	residenza	residenza residenze
+48	2348	automatico	automatico automatica automatici automatiche
+49	2349	fumo	fumo fumi
+50	2350	foglia	foglie foglia foglioline fogliolina
+51	2351	selezione	selezione selezioni
+52	2352	turistico	turistica turistico turistiche turistici
+53	2353	psicologico	psicologico psicologica psicologici psicologiche
+54	2354	secondario	secondaria secondarie secondario secondari
+55	2355	promettere	promette prometto promise promettere promettono promettendo prometteva prometti promettiamo prometta promisi promettete promettevano promisero promettesse prometterà promettesti prometter
+56	2356	disagio	disagio disagi
+57	2357	scattare	scattare scatta scattato scatti scattate scattano scattando scattò scattante scatterà scattava scattavano scattanti scattino scattarono scatteranno scatterebbe scattai scattiamo scattasse scatterò
+58	2358	britannico	britannico britannica britannici britanniche
+59	2359	fiore	fiore fior fiorellini fiorellino fioroni
+60	2360	annuale	annuale annuali
+61	2361	statua	statua statue statuina statuine
+62	2362	ricostruzione	ricostruzione ricostruzioni
+63	2363	approfondire	approfondire approfondita approfondito approfondite approfonditi approfondisce approfondendo approfondiscono approfondisci approfondiamo approfondirò approfondisco approfondì approfondiremo approfondirà approfondisca approfondirsi approfondiva
+64	2364	fumare	fumare fuma fumato fumi fumano fumante fumando fumava fumate fumanti fumavano fumavo fumiamo fumarsi fumavi fumavamo fumerò fumai fumassi fumino fumasse fumeremo
+65	2365	pio	pio pia pie pii
+66	2366	essersi	essersi
+67	2367	giovedì	giovedì
+68	2368	personalmente	personalmente
+69	2369	rapidamente	rapidamente
+70	2370	realmente	realmente
+71	2371	recentemente	recentemente
+72	2372	rock	rock
+73	2373	vigore	vigore
+74	2374	cima	cima cime
+75	2375	miracolo	miracolo miracoli
+76	2376	sconto	sconto sconti
+77	2377	barare	bari barare baro barato barano barando barassi barava barin
+78	2378	terapia	terapia terapie
+79	2379	intento	intento intenti intenta intente
+80	2380	fallito	fallito fallita falliti fallite
+81	2381	misto	misto mista misti miste
+82	2382	chiarire	chiarire chiarito chiarisce chiariamo chiarite chiarendo chiariti chiarita chiariscono chiarisca chiarissimo chiarirà chiarisco chiarì chiarisci chiariva chiarissima chiariremo chiariscano chiariranno chiarisse chiarirono chiarissime chiarirò chiarissimi
+83	2383	contrasto	contrasto contrasti
+84	2384	pilota	pilota piloti pilote
+85	2385	architettura	architettura architetture
+86	2386	sognare	sognare sogni sogna sognando sognano sognava sognavo sognante sogniamo sognavano sognerei sognanti sognate sognerebbe sognavi sognò sognai sognavamo sognar sognerò sognerai
+87	2387	coppa	coppa coppe
+88	2388	trasformazione	trasformazione trasformazioni
+89	2389	dieta	dieta diete
+90	2390	flusso	flusso flussi
+91	2391	uccello	uccelli uccello uccellino uccel
+92	2392	ispirato	ispirato ispirata ispirati ispirate
+93	2393	aderire	aderenti aderire aderito aderisce aderente aderiscono aderendo aderì aderirono aderisca aderisci aderisco aderiva aderiamo aderivano aderirà aderiscano aderiranno aderite aderisse
+94	2394	vergogna	vergogna vergogne
+95	2395	originario	originario originaria originari originarie
+96	2396	musulmano	musulmani musulmano musulmana musulmane mussulmano
+97	2397	orecchio	orecchie orecchio orecchi orecchia orecchietta orecchione
+98	2398	manager	manager managers
+99	2399	minoranza	minoranza minoranze
+100	2400	registro	registro registri

@@ -1,0 +1,100 @@
+1	6001	cavalleria	cavalleria cavallerie
+2	6002	mosaico	mosaico mosaici mosaica
+3	6003	peperoncino	peperoncino peperoncini
+4	6004	imprenditoriale	imprenditoriale imprenditoriali
+5	6005	complementare	complementare complementari
+6	6006	stanchezza	stanchezza stanchezze
+7	6007	spacciatore	spacciatori spacciatore spacciatrice
+8	6008	analista	analista analisti
+9	6009	prevalenza	prevalenza prevalenze
+10	6010	investigatore	investigatori investigatore investigatrice
+11	6011	estinto	estinto estinta estinti estinte
+12	6012	sparatoria	sparatoria sparatorie
+13	6013	messaggero	messaggero messaggeri messaggera
+14	6014	arbitrario	arbitrario arbitraria arbitrarie arbitrari
+15	6015	baracca	baracca baracche baraccone baracconi
+16	6016	share	share shari
+17	6017	rendita	rendita rendite
+18	6018	stupito	stupito stupita stupiti stupite
+19	6019	sobrio	sobrio sobria sobri sobrie
+20	6020	battaglione	battaglione battaglioni
+21	6021	scintilla	scintilla scintille
+22	6022	nube	nubi nube
+23	6023	cognitivo	cognitivo cognitive cognitiva cognitivi
+24	6024	zucca	zucca zucche zucchetti zucchetto
+25	6025	incrociato	incrociato incrociate incrociati incrociata
+26	6026	ana	ana
+27	6027	bah	bah
+28	6028	ciclismo	ciclismo
+29	6029	collettività	collettività
+30	6030	dall'interno	dall'interno
+31	6031	gliela	gliela
+32	6032	positivamente	positivamente
+33	6033	qualcos'altro	qualcos'altro
+34	6034	reclusione	reclusione
+35	6035	sostenibilità	sostenibilità
+36	6036	spaghetti	spaghetti
+37	6037	trovarmi	trovarmi
+38	6038	water	water
+39	6039	garante	garante garanti
+40	6040	fiaba	fiabe fiaba
+41	6041	ormone	ormoni ormone
+42	6042	pedofilo	pedofili pedofilo pedofila pedofile
+43	6043	cravatta	cravatta cravatte
+44	6044	alternare	alternano alternando alterna alterni alternare alternate alternavano alternava alterneranno alternarono alternerà alternò alternante alterniamo
+45	6045	asciugare	asciugare asciuga asciugarsi asciughi asciugato asciugati asciugano asciugando asciugo asciugate asciughino asciugava asciugherà asciugò asciugatevi asciugasse
+46	6046	localizzazione	localizzazione localizzazioni
+47	6047	sottratto	sottratto sottratti sottratte sottratta
+48	6048	perdonarmi	perdonami perdonarmi
+49	6049	rana	rana rane
+50	6050	rossetto	rossetto rossetti
+51	6051	istruito	istruito istruiti istruita istruite
+52	6052	distrarre	distrarre distrae distrarsi distraggo distraggono distrai distraendo distragga distraeva distrasse distraete distraesse
+53	6053	muso	muso musi musini musino
+54	6054	clero	clero cleri
+55	6055	proroga	proroga proroghe
+56	6056	demolire	demolire demolito demolita demolisce demolite demolendo demoliti demoliscono demolì demolirono
+57	6057	giglio	giglio gigli
+58	6058	pila	pila pile
+59	6059	subordinato	subordinato subordinata subordinati subordinate
+60	6060	raccomandato	raccomandato raccomandati raccomandate
+61	6061	nino	nino nini
+62	6062	devastare	devastato devastare devasta devastando devastate devastò devastano devastarono devasto devastavano devastava devasterà
+63	6063	difensiva	difensiva difensive
+64	6064	marziale	marziale marziali
+65	6065	pascolo	pascoli pascolo
+66	6066	farsa	farsa farse
+67	6067	germanico	germanico germanica germaniche germanici
+68	6068	agitato	agitato agitata agitati agitate agitatissimo agitatissima
+69	6069	albo	albo albi albe
+70	6070	prototipo	prototipo prototipi
+71	6071	patrimoniale	patrimoniale patrimoniali
+72	6072	ballerina	ballerina ballerine
+73	6073	intercettare	intercettare intercettato intercetta intercettate intercettando intercetto intercettano intercetti intercettava intercettò
+74	6074	psichico	psichica psichico psichici psichiche
+75	6075	inverso	inverso inversa inverse inversi inver
+76	6076	inserimento	inserimento inserimenti
+77	6077	ripercussione	ripercussioni ripercussione
+78	6078	esercitazione	esercitazioni esercitazione
+79	6079	imitazione	imitazione imitazioni
+80	6080	scettico	scettico scettici scettica scettiche
+81	6081	implementare	implementare implementato implementa implementate implementando implementano implementeranno implementi
+82	6082	rancore	rancore rancori
+83	6083	ateo	ateo atei atea atee
+84	6084	caldaia	caldaia caldaie caldara
+85	6085	abbondanza	abbondanza abbondanze
+86	6086	profezia	profezia profezie
+87	6087	agitare	agita agitare agitando agitarsi agitano agiti agito agitava agitate agitavano agitò agitatevi
+88	6088	concessionario	concessionario concessionaria concessionari concessionarie
+89	6089	iraniano	iraniano iraniana iraniani iraniane
+90	6090	camino	camino camini
+91	6091	cappuccino	cappuccino cappuccini cappuccine cappuccina
+92	6092	terrazza	terrazza terrazze
+93	6093	incompleto	incompleta incompleto incomplete incompleti
+94	6094	etrusco	etruschi etrusca etrusco etrusche
+95	6095	piccione	piccioni piccione
+96	6096	mucchio	mucchio mucchi
+97	6097	amministrare	amministrare amministrato amministra amministrate amministrano amministrava amministrò amministrando amministravano amministri amministro amministrarono
+98	6098	oratorio	oratorio oratori oratoria oratorie
+99	6099	adeguatamente	adeguatamente
+100	6100	all'incirca	all'incirca

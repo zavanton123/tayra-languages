@@ -1,0 +1,100 @@
+1	2201	estratto	estratto estratti estratta estratte
+2	2202	recensione	recensioni recensione
+3	2203	pausa	pausa pause
+4	2204	sbagliare	sbaglia sbagliare sbagliando sbagliano sbagli sbagliavo sbagliate sbagliamo sbagliava sbagliarsi sbaglierò sbagliò sbagliavano sbagliassi sbagliasse sbaglino sbagliavi sbaglierebbe sbaglierà sbagliai sbagliavamo sbagliarono sbaglierai sbagliavate sbaglierete sbagliati
+5	2205	farla	farla
+6	2206	località	località
+7	2207	merce	merci merce
+8	2208	razzista	razzista razzisti razziste
+9	2209	marcia	marcia marce marcie
+10	2210	cavaliere	cavaliere cavalieri
+11	2211	africano	africani africano africana africane
+12	2212	legittimo	legittimo legittima legittimi legittime leggittimo
+13	2213	lamentare	lamenta lamentano lamentato lamentare lamentava lamentando lamenti lamentiamo lamentate lamentavano lamentò lamentavo lamenterà lamenteranno lamentavamo lamentino lamenterei lamentarono lamenterò lamentasse lamentavi lamenterebbe lamenterai
+14	2214	inverno	inverno inverni
+15	2215	composizione	composizione composizioni
+16	2216	preparazione	preparazione preparazioni
+17	2217	finanziamento	finanziamento finanziamenti
+18	2218	conquistare	conquistare conquistato conquistando conquistate conquistano conquistò conquistarono conquisterà conquisti conquisteranno conquisto conquisteremo conquistava conquistiamo conquistavano conquisterai conquistasse conquistar conquisterò
+19	2219	introduzione	introduzione introduzioni
+20	2220	assegnato	assegnato assegnati assegnata assegnate
+21	2221	verifica	verifica verifiche
+22	2222	colpevole	colpevole colpevoli
+23	2223	consumare	consumare consumato consuma consumata consumano consumati consumi consumando consumate consumarsi consumiamo consumava consumò consumerà consumavano consumino consumeranno consumarono consumasse consumerebbe
+24	2224	professione	professione professioni
+25	2225	napoletano	napoletano napoletana napoletani napoletane
+26	2226	lanciato	lanciato lanciata lanciati lanciate lanciatissimo lanciatissima
+27	2227	carabiniere	carabinieri carabiniere
+28	2228	sorriso	sorriso sorrisi sorrise
+29	2229	ballo	ballo balletto balli balletti
+30	2230	impatto	impatto impatti
+31	2231	netto	netto netta netti nette nettissima nettissimo
+32	2232	citazione	citazione citazioni
+33	2233	sondaggio	sondaggio sondaggi
+34	2234	tragedia	tragedia tragedie
+35	2235	chilogrammo	kg chilogrammi chilogrammo
+36	2236	farmaco	farmaci farmaco
+37	2237	lunghezza	lunghezza lunghezze
+38	2238	mediterraneo	mediterraneo mediterranea mediterranee mediterranei
+39	2239	rabbia	rabbia rabbie
+40	2240	governare	governare governa governato governano governi governava governavano governate governò governando governerà governarono governasse governeranno governiamo governino governassero governeremo
+41	2241	globale	globale globali
+42	2242	schermo	schermo schermi
+43	2243	salutare	salutare saluta salutato salutari salutano saluti salutiamo salutando salutate salutava salutò salutarsi salutavano salutino salutarono saluterà saluteremo saluterò salutavo salutammo salutai saluteranno
+44	2244	averlo	averlo
+45	2245	dirlo	dirlo
+46	2246	effettivamente	effettivamente
+47	2247	record	record
+48	2248	relativamente	relativamente
+49	2249	set	set
+50	2250	osservazione	osservazione osservazioni
+51	2251	cammino	cammino cammini cammin
+52	2252	stabile	stabile stabili
+53	2253	disturbo	disturbo disturbi
+54	2254	posteriore	posteriore posteriori
+55	2255	preghiera	preghiera preghiere
+56	2256	assicurazione	assicurazione assicurazioni
+57	2257	femmina	femmina femmine femminucce femminuccia
+58	2258	federale	federale federali
+59	2259	circostanza	circostanze circostanza
+60	2260	scomparsa	scomparsa scomparse
+61	2261	mistero	mistero misteri
+62	2262	armata	armata armate
+63	2263	ladro	ladri ladro ladra ladre latro
+64	2264	esecuzione	esecuzione esecuzioni
+65	2265	giuridico	giuridico giuridica giuridiche giuridici
+66	2266	favorevole	favorevole favorevoli
+67	2267	informato	informato informati informata informate informatissimo
+68	2268	obbligatorio	obbligatorio obbligatoria obbligatorie obbligatori
+69	2269	vergine	vergine vergini virgine
+70	2270	medesimo	medesimo medesima medesime medesimi
+71	2271	reggere	reggere retto regge reggente reggono reggo regga reggenti reggi reggeva reggerà rette retti resse reggendo reggersi reggerebbe reggevano ressero reggano reggesse reggeranno reggevo reggerebbero reggerei reggiamo reggerò
+72	2272	vetro	vetro vetri
+73	2273	accaduto	accaduto accaduti accaduta accadute
+74	2274	confrontare	confronti confrontare confrontarsi confronta confrontato confrontando confrontati confrontano confrontate confrontiamo confrontava confrontavano confronteremo confrontò confronterà confrontino confrontarono confronteranno
+75	2275	disastro	disastro disastri
+76	2276	visibile	visibile visibili
+77	2277	curioso	curioso curiosa curiosi curiose
+78	2278	nomina	nomina nomine
+79	2279	propaganda	propaganda propagande
+80	2280	calcolare	calcolare calcolato calcola calcolata calcoli calcolati calcolando calcolate calcolano calcoliamo calcolò calcolava calcolerà calcolarsi calcolarono calcolino
+81	2281	big	big
+82	2282	city	city
+83	2283	siccome	siccome
+84	2284	stamattina	stamattina
+85	2285	scopare	scopare scopa scopano scopato scopi scope scopate scoparsi scopiamo scopando scopava scoperei scopino scopavano scopati scoperebbe scopavo scoperà scopavi scopasse scopavamo scoperebbero scoperesti
+86	2286	ricchezza	ricchezza ricchezze
+87	2287	violazione	violazione violazioni
+88	2288	scatola	scatola scatole scatoletta scatolina scatolino
+89	2289	miglioramento	miglioramento miglioramenti
+90	2290	comunicato	comunicato comunicati comunicata comunicate
+91	2291	sincero	sincero sincera sinceri sincere
+92	2292	gallo	gallo galla galli gallina galline galle
+93	2293	fiera	fiera fiere
+94	2294	divino	divina divino divine divini divin
+95	2295	adeguato	adeguata adeguato adeguate adeguati
+96	2296	insistere	insiste insistere insistito insisto insistono insistente insistendo insisti insistenti insisteva insistette insistiamo insistevano insista insistete insisterà insistettero insisterei insistevo insisté insistano insisterò insisteranno insistesse insistetti insisteremo
+97	2297	truppa	truppe truppa
+98	2298	convenire	conviene convenga converrebbe conveniva convenire convengono converrà convengo converrai convenne convenisse convennero converrete convenivano conveniamo convieni convenendo
+99	2299	isolato	isolato isolati isolata isolate
+100	2300	abbassare	abbassare abbassa abbassato abbasso abbassando abbassano abbassate abbassi abbassarsi abbassiamo abbassò abbasserà abbassava abbasseranno abbasserebbe abbassino abbassai abbassarono abbasserei abbasseremo abbassasse abbassavano

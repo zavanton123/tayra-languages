@@ -1,0 +1,100 @@
+1	801	crisi	crisi
+2	802	visita	visita visite
+3	803	duro	dura duro duri dure durissimo
+4	804	occupare	occupa occupano occupare occupando occupava occupi occupo occupanti occupiamo occuperà occupò occupavano occupate occuparono occuperemo occupante occupino occuperanno occupasse occuperò occupavo occupassero occuperebbe occupavamo occuperai occuperete occuperei occuperebbero occupai
+5	805	combattere	combattere combattuto combatte combattenti combattendo combattono combattuta combattente combatti combattute combatteva combatto combatterono combattevano combattiamo combattete combattuti combatté combatteranno combatterà combatteremo combatta combattano combatterò combattersi combattè combattessero combattesse combattutissima combatterai combatterei
+6	806	cielo	cielo cieli ciel
+7	807	impresa	imprese impresa
+8	808	voluto	voluto voluta voluti volute
+9	809	stella	stelle stella stelline stellina
+10	810	minimo	minimo minima minimi minime
+11	811	russo	russo russa russi russe
+12	812	previsto	previsto prevista previste previsti
+13	813	proprietà	proprietà propietà
+14	814	realizzato	realizzato realizzata realizzati realizzate
+15	815	sicuramente	sicuramente
+16	816	colpo	colpo colpi
+17	817	sezione	sezione sezioni
+18	818	intervento	intervento interventi
+19	819	materia	materia materie matera
+20	820	contatto	contatto contatti
+21	821	offerta	offerta offerte
+22	822	egli	egli ella ei elle elli elleni ellena elleno
+23	823	smettere	smettere smesso smette smetti smetto smettono smetta smetterà smettete smetteranno smettiamo smise smetterò smettesse smettano smetteremo smettendo smettessero smetterai smetteva smetterei smisi smetterebbe smisero smettessi smetterete smettessimo smettevano smessi smetteste smettevo smetterebbero smetter smessa smetteresti
+24	824	associazione	associazione associazioni
+25	825	malattia	malattia malattie
+26	826	coppia	coppia coppie
+27	827	attivo	attivo attiva attivi attive attivissimo
+28	828	artista	artisti artista artiste
+29	829	vinto	vinto vinta vinti vinte
+30	830	complesso	complesso complessa complessi complesse
+31	831	sviluppare	sviluppare sviluppato sviluppa sviluppata sviluppati sviluppando sviluppano sviluppate svilupparsi sviluppi sviluppò svilupperà svilupparono sviluppava sviluppino svilupperanno sviluppiamo sviluppavano sviluppasse sviluppassero svilupperebbe svilupperemo
+32	832	mattina	mattina mattine matina
+33	833	sogno	sogno sogni
+34	834	classico	classico classica classici classiche classicissimo
+35	835	religioso	religiosa religioso religiosi religiose
+36	836	peso	peso pesi pesa pesos pese
+37	837	migliorare	migliorare migliori migliora migliorato migliorando migliorano migliorate migliorerà miglioreranno migliorino migliorò migliorerebbe migliorava migliorarono miglioro miglioriamo miglioreremo migliorerai migliorasse miglioravano migliorar migliorassero migliorerò migliorerebbero
+38	838	nazione	nazione nazioni
+39	839	aria	aria arie
+40	840	principe	principe principi principessa principesse principino prencipe principini
+41	841	infine	infine
+42	842	là	là
+43	843	qualunque	qualunque
+44	844	originale	originale originali originalissimo
+45	845	costruzione	costruzione costruzioni
+46	846	cliente	clienti cliente
+47	847	proporre	propone proporre propongo propongono proponendo propose proponiamo proponeva proponi proporrei proporsi proponevano proponente proponga proporrà proposero proponenti proponete proporrò propongano proponesse proporranno proposi proporremo proponevo proponessero proponessi proporrebbe
+48	848	doppio	doppio doppia doppi doppie
+49	849	disponibile	disponibile disponibili
+50	850	metodo	metodo metodi
+51	851	episodio	episodio episodi
+52	852	lavoratore	lavoratori lavoratore lavoratrici lavoratrice
+53	853	ritorno	ritorno ritorni
+54	854	richiedere	richiede richiedere richiedono richiedenti richiedeva richiedente richieda richiedendo richiederebbe richiederà richiedevano richiedi richiedano richiese richiedo richiediamo richiederebbero richiedesse richiesero richiederanno richiedete richiedessero richiederò
+55	855	comprendere	comprendere comprende comprendono comprendo comprendeva comprendente comprendendo comprenda comprendiamo comprendi comprenderà comprendenti comprendevano comprendano compresero comprendete comprendesse comprendersi comprenderanno comprenderebbe comprenderai comprenderete comprendessero comprendevo comprenderemo comprendiate comprenderò
+56	856	assolutamente	assolutamente
+57	857	oh	oh
+58	858	speranza	speranza speranze
+59	859	risolvere	risolvere risolto risolve risolvono risolva risolverà risolvendo risolvi risolviamo risolverebbe risolversi risolvo risolse risolvete risolveranno risolvano risolveva risolveremo risolvesse risolsero risolverebbero risolverò risolvevano risolverai risolverei risolvessero risolvente risolver risolveremmo
+60	860	tradizione	tradizione tradizioni
+61	861	dedicare	dedicato dedicate dedicare dedicarsi dedicano dedico dedicò dedicando dedichi dedichiamo dedicherà dedicava dedicarono dedicavano dedicherò dedicheranno dedicheremo dedicasse dedichino dedicherei dedicavo dedicassero dedicai dedicatevi dedichiamoci dedicherai
+62	862	provato	provato provata provate provati
+63	863	attacco	attacco attacchi
+64	864	recente	recente recenti recentissimo
+65	865	preferire	preferisco preferisce preferisci preferiscono preferirei preferire preferendo preferiamo preferiva preferivo preferiti preferirebbe preferiresti preferì preferisca preferite preferivano preferirebbero preferiscano preferirono preferirà preferivi preferireste preferisse preferiremmo preferiranno preferissero preferiate preferissi preferirò preferivamo preferii
+66	866	affermare	afferma affermato affermare affermando affermano affermava affermò affermarsi affermi affermate affermarono affermo affermavano affermiamo affermerà affermasse affermino affermerebbe affermeranno
+67	867	fermo	fermo ferma fermi ferme fermissima
+68	868	memoria	memoria memorie
+69	869	trattato	trattato trattati trattata trattate
+70	870	andata	andata andate
+71	871	anima	anima anime
+72	872	direzione	direzione direzioni
+73	873	compreso	compreso compresa compresi comprese
+74	874	caldo	caldo calda caldi calde caldissimo callo calli
+75	875	poiché	poiché poichè
+76	876	resta	resta reste
+77	877	palazzo	palazzo palazzi palazzotto palazzoni palazzone palaziale
+78	878	bere	bere beve bevuto bevo bevi bei bevono bevendo bevete bevuta beveva bevute beviamo beva bevevo bevuti bevevano berrò bersi bevve berrei bevano berrà beviamoci bevere berranno beviti berremo bevesse bevvero bevevi bevvi berrai bevemmo berrete bevessi bevessero
+79	879	chiama	chiama
+80	880	difficoltà	difficoltà
+81	881	categoria	categoria categorie
+82	882	distanza	distanza distanze
+83	883	responsabile	responsabile responsabili
+84	884	spesa	spesa spese
+85	885	ministero	ministero ministeri
+86	886	scientifico	scientifica scientifico scientifiche scientifici
+87	887	tirare	tira tirare tirato tirano tirando tiri tirar tirate tirati tirava tirarsi tiriamo tirò tirerà tiravano tiranti tireranno tirino tirasse tiravo tirerei tireremo tirai tirante tirarono tirerò tirerebbe tirassi tirassero tiravi tirerai tiratevi tirerete tirammo tiriamoci tirerebbero tiravamo
+88	888	stabilire	stabilire stabilito stabilisce stabilita stabiliti stabilite stabilendo stabilirsi stabilì stabiliscono stabiliva stabilirono stabilisca stabilirà stabiliscano stabiliamo stabilisci stabilivano stabiliranno stabilisco stabilisse stabiliremo stabilirò
+89	889	dolce	dolce dolci dolcetti dolcissimo dolcetto
+90	890	cristiano	cristiani cristiano cristiana cristiane cristianissimo
+91	891	scendere	scendere scende sceso scendono scendendo scesi scese scendi scendo scendiamo scendeva scenda scenderà scesero scenderanno scendete scendevano scenderò scendano scender scendesse scendevo scenderebbe scenderemo scendessero scendevamo scenderei scendemmo scenderebbero scenderai scenderete scendenti
+92	892	critica	critica critiche
+93	893	dunque	dunque adunque
+94	894	scienza	scienza scienze scenza
+95	895	uscita	uscita uscite
+96	896	fondamentale	fondamentale fondamentali
+97	897	verde	verde verdi
+98	898	norma	norma norme
+99	899	esattamente	esattamente
+100	900	social	social

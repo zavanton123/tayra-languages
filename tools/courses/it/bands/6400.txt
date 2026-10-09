@@ -1,0 +1,100 @@
+1	6301	tamburo	tamburi tamburo tamburini tamburino
+2	6302	brodo	brodo brodi
+3	6303	pseudonimo	pseudonimo pseudonimi
+4	6304	cappotto	cappotto cappotti
+5	6305	prosa	prosa prose
+6	6306	laguna	laguna lagune
+7	6307	osceno	osceni osceno oscena oscene
+8	6308	palude	palude paludi
+9	6309	urbanistica	urbanistica urbanistiche
+10	6310	giungla	giungla giungle
+11	6311	mantello	mantello mantelli
+12	6312	comprensivo	comprensivo comprensiva comprensivi comprensive
+13	6313	dirsi	dirsi diciamoci ditti
+14	6314	adiacente	adiacente adiacenti
+15	6315	rinnovamento	rinnovamento rinnovamenti
+16	6316	duello	duello duelli
+17	6317	collasso	collasso collassi
+18	6318	parata	parata parate
+19	6319	infame	infame infami
+20	6320	banchetto	banchetto banchetti
+21	6321	devozione	devozione devozioni divozione
+22	6322	calzino	calzini calzino
+23	6323	distrazione	distrazione distrazioni
+24	6324	interferenza	interferenze interferenza
+25	6325	cubano	cubano cubana cubani cubane
+26	6326	contemplare	contemplare contempla contemplato contemplando contemplate contemplano contemplava contempli contemplo contempliamo contemplò contemplavano contemplino contemplasse
+27	6327	automobilistico	automobilistico automobilistica automobilistiche automobilistici
+28	6328	parrucchiere	parrucchiere parrucchiera parrucchieri
+29	6329	supereroe	supereroi supereroe
+30	6330	alterazione	alterazioni alterazione
+31	6331	arteria	arterie arteria
+32	6332	ansioso	ansioso ansiosa ansiosi ansiose
+33	6333	marcio	marcio marci marce
+34	6334	liquidazione	liquidazione liquidazioni
+35	6335	gaio	gaia gaio gai gaie
+36	6336	miserabile	miserabile miserabili
+37	6337	scuotere	scuotere scuote scosse scuotendo scuotono scuoti scossi scuoteva scuoto scuota scossero scuoterà scuotete scuotevano
+38	6338	informale	informale informali
+39	6339	neutrale	neutrale neutrali
+40	6340	addormentare	addormenta addormentare addormentarsi addormento addormenti addormentano addormentati addormentò addormentando addormentavo addormentava addormentai addormentiamo addormentate addormenterò addormentasse
+41	6341	incantesimo	incantesimo incantesimi
+42	6342	scontare	scontare sconti scontando sconta scontate scontano sconterà scontava scontò scontiamo
+43	6343	frocio	froci frocio frocia
+44	6344	dissenso	dissenso dissensi
+45	6345	gazare	gaza gazi
+46	6346	edilizio	edilizio edilizi edilizie
+47	6347	patologico	patologica patologico patologiche patologici
+48	6348	pertinente	pertinenti pertinente
+49	6349	smarrito	smarrito smarrita smarriti smarrite
+50	6350	signoria	signoria signorie
+51	6351	campano	campano campani campane
+52	6352	soia	soia soie
+53	6353	romagnolo	romagnoli romagnolo romagnola romagnole
+54	6354	radunare	radunare radunato raduna radunano radunate radunando radunarsi radunò raduni radunarono radunavano radunava radunerà raduneranno
+55	6355	compimento	compimento compimenti
+56	6356	sigillo	sigillo sigilli
+57	6357	illimitato	illimitato illimitata illimitati illimitate
+58	6358	chiarimento	chiarimenti chiarimento
+59	6359	vergognarsi	vergognarsi vergognati vergognatevi vergognato
+60	6360	spazzare	spazzare spazzato spazza spazzino spazzini spazzando spazzate spazzerà spazzar spazzi spazzano spazzò spazzo spazzeremo spazzava spazzarono spazzerò
+61	6361	sommario	sommario sommaria sommarie sommari
+62	6362	magra	magra magre
+63	6363	corporeo	corporea corporeo corporei corporee
+64	6364	querela	querela querele
+65	6365	pompino	pompino pompini
+66	6366	destare	desta destato destare destano destò desto destando destarono destava destate destavano desterebbe destarsi desterà desti deste
+67	6367	asso	asso assi
+68	6368	fragola	fragole fragola fragolina fragoline
+69	6369	ammalato	ammalato ammalata ammalati ammalate
+70	6370	spoiler	spoiler spoilers
+71	6371	udire	udire odo oda udite udenti odono udì udii udiva udendo udirono odi udiamo udente udir odon udivano udivo udimmo udranno
+72	6372	ammirazione	ammirazione
+73	6373	chip	chip
+74	6374	dammi	dammi
+75	6375	intelligence	intelligence
+76	6376	roberta	roberta
+77	6377	aspro	aspre aspra aspri aspro
+78	6378	processore	processore processori
+79	6379	sfogare	sfogare sfogarsi sfoga sfogati sfogato sfogando sfoghi sfogano sfogata sfogava sfogò sfogate sfoghiamo sfogatevi
+80	6380	penetrazione	penetrazione penetrazioni
+81	6381	concernere	concerne concernono concerneva
+82	6382	moltiplicare	moltiplicano moltiplicare moltiplica moltiplicando moltiplicate moltiplicarono moltiplichi moltiplichiamo moltiplicò moltiplicavano moltiplicava moltiplicheranno moltiplichino moltiplico moltiplicherà
+83	6383	datare	datato datate datare datano datò datan datando
+84	6384	parrocchiale	parrocchiale parrocchiali
+85	6385	odioso	odioso odiosa odiosi odiose
+86	6386	vibrazione	vibrazioni vibrazione
+87	6387	molestare	molesta molestare molesto molestato molesti moleste molestate molestano molestava molestando
+88	6388	attingere	attingere attinge attingendo attinto attinte attingono attinse attingeva attinti attinta attinger attingevano attinsero attinga attingiamo attingi attingerà attingo
+89	6389	addestrato	addestrati addestrato addestrata addestrate
+90	6390	rispettoso	rispettoso rispettosa rispettosi rispettose
+91	6391	contraddittorio	contraddittorio contraddittori contraddittorie contraddittoria
+92	6392	populista	populista populisti populiste
+93	6393	valenza	valenza valenze
+94	6394	locazione	locazione locazioni
+95	6395	gonfio	gonfio gonfie gonfia gonfi
+96	6396	censurare	censurato censurare censurate censurando censurano censuri censurò censuro
+97	6397	imprigionato	imprigionato imprigionati imprigionata imprigionate
+98	6398	doganale	doganale doganali
+99	6399	affamato	affamati affamato affamata affamate
+100	6400	eroico	eroico eroica eroici eroiche

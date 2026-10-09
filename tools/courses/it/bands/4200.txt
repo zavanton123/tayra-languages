@@ -1,0 +1,100 @@
+1	4101	cretino	cretino cretini cretina cretine
+2	4102	paragone	paragone paragoni
+3	4103	provenienza	provenienza provenienze
+4	4104	pompa	pompa pompe
+5	4105	metallico	metallica metallico metallici metalliche
+6	4106	pollice	pollici pollice
+7	4107	scatto	scatto scatti
+8	4108	espellere	espulso espulsi espellere espulse espelle espellono espellendo espelli espulsero
+9	4109	infilare	infilato infila infilare infilo infilarsi infili infilati infilano infilando infilate infilò infilava infiliamo infilerei infilavano infilai infilavo infileranno infilarono
+10	4110	dorato	dorata dorato dorati dorate
+11	4111	narrativa	narrativa narrative
+12	4112	spezie	spezia spezie
+13	4113	rocco	rocco rocchi
+14	4114	marrone	marrone marroni
+15	4115	provvisorio	provvisorio provvisoria provvisori provvisorie
+16	4116	compilare	compilare compilato compila compilando compilate compili compilò compilo compilano compilava compiliamo compilerà
+17	4117	fregare	fregare freghi fregano frego fregava fregando fregasse fregate fregherà freghiamo fregar fregherebbe fregarsi freghino fregavano fregò fregati
+18	4118	italo	italo itali itala
+19	4119	vela	vela vele
+20	4120	barra	barra barre barrette barretta
+21	4121	oliva	oliva olive
+22	4122	umile	umile umili umilmente umilissimo
+23	4123	avvertito	avvertito avvertita avvertiti avvertite
+24	4124	sofia	sofia sofie
+25	4125	multinazionale	multinazionali multinazionale
+26	4126	telefonare	telefonare telefonato telefonate telefona telefoni telefonando telefonò telefonano telefonava telefoniamo telefonai telefonarono telefonavano telefonerò
+27	4127	influenzato	influenzato influenzata influenzati influenzate
+28	4128	fuso	fuso fusi fusa fuse
+29	4129	australiano	australiano australiana australiani australiane
+30	4130	incerto	incerto incerta incerti incerte
+31	4131	inciso	inciso incisa incisi incise
+32	4132	attrazione	attrazione attrazioni
+33	4133	paragrafo	paragrafo paragrafi
+34	4134	aggiuntivo	aggiuntive aggiuntivi aggiuntivo aggiuntiva
+35	4135	simbolico	simbolico simbolica simbolici simboliche
+36	4136	chirurgia	chirurgia chirurgie
+37	4137	aggirare	aggira aggirare aggirano aggirarsi aggirava aggirando aggirato aggiri aggiravano aggiro aggirate aggirò aggirerebbe aggiriamo aggiravo aggirino aggirarono aggirerà aggirasse
+38	4138	isolamento	isolamento isolamenti
+39	4139	invenzione	invenzione invenzioni inventione
+40	4140	tattica	tattica tattiche
+41	4141	passeggiare	passeggiare passeggio passeggino passeggiando passeggia passeggini passeggiano passeggiava passeggiato passeggi passeggiamo passeggiavo passeggiavano passeggiavamo
+42	4142	genovese	genovese genovesi
+43	4143	facciata	facciata facciate
+44	4144	mero	mera mero meri mere
+45	4145	godersi	godersi goditi godetevi godiamoci
+46	4146	leccia	lecce leccia
+47	4147	siriano	siriano siriani siriana soriano siriane soriani
+48	4148	armonia	armonia armonie
+49	4149	associare	associa associare associano associo associate associarsi associati associando associ associò associamo associava associarono associavano
+50	4150	programmato	programmato programmata programmati programmate
+51	4151	avermi	avermi
+52	4152	jazz	jazz
+53	4153	killer	killer
+54	4154	trans	trans
+55	4155	fiorentino	fiorentino fiorentini fiorentine
+56	4156	delizioso	delizioso deliziosa deliziosi deliziose
+57	4157	bagnato	bagnato bagnata bagnati bagnate
+58	4158	congiunto	congiunta congiunto congiunti congiunte
+59	4159	girone	girone gironi giron
+60	4160	agio	agio agi
+61	4161	esclusione	esclusione esclusioni
+62	4162	testare	testare testate testato testi testando testano testino testiamo testò testava
+63	4163	cronico	cronica cronico croniche cronici
+64	4164	emettere	emettere emette emettono emise emettendo emetteva emetta emetti emetterà emettevano emisero emetto emettano emetteranno emettiamo emettesse
+65	4165	serra	serra serre
+66	4166	edilizia	edilizia edilizie
+67	4167	bombardamento	bombardamento bombardamenti
+68	4168	rivale	rivali rivale
+69	4169	cenere	cenere ceneri
+70	4170	picco	picco picchi
+71	4171	carburante	carburante carburanti
+72	4172	carenza	carenza carenze
+73	4173	ecclesiastico	ecclesiastica ecclesiastici ecclesiastico ecclesiastiche
+74	4174	cortesia	cortesia cortesie
+75	4175	grotta	grotta grotte grotticella
+76	4176	pannello	pannelli pannello
+77	4177	etico	etico etici etiche
+78	4178	malvagio	malvagio malvagi malvagia malvagie malvage
+79	4179	seguace	seguaci seguace
+80	4180	esibizione	esibizione esibizioni
+81	4181	illusione	illusione illusioni
+82	4182	riscontro	riscontro riscontri
+83	4183	fornitura	fornitura forniture
+84	4184	contraddizione	contraddizione contraddizioni
+85	4185	monitoraggio	monitoraggio monitoraggi
+86	4186	monetario	monetaria monetario monetari monetarie
+87	4187	tradire	tradire tradisce tradiscono tradendo tradiva tradì tradirà tradisci tradisca tradisco tradite tradirono tradisse tradirsi tradirebbe tradiranno tradirò tradivano tradiscano tradissi tradirei
+88	4188	arbitro	arbitro arbitri arbitra
+89	4189	disordine	disordine disordini
+90	4190	freno	freno freni
+91	4191	dubito	dubito dubiti
+92	4192	ago	ago aghi agora
+93	4193	immaginario	immaginario immaginari immaginaria immaginarie
+94	4194	disperazione	disperazione disperazioni
+95	4195	cucciolo	cucciolo cuccioli
+96	4196	egiziano	egiziano egiziani egiziana egiziane
+97	4197	sorprendente	sorprendente sorprendenti
+98	4198	indurre	indurre induce inducono indusse inducendo indussero indurrà induca induceva inducano indurrebbe inducevano indurranno
+99	4199	pirata	pirata pirati
+100	4200	commerciante	commercianti commerciante

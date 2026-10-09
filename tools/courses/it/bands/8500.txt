@@ -1,0 +1,100 @@
+1	8401	tormento	tormento tormenti
+2	8402	cesareo	cesareo cesarea cesarei
+3	8403	scorrimento	scorrimento scorrimenti
+4	8404	liturgia	liturgia liturgie
+5	8405	stregone	stregone stregoni
+6	8406	accentuato	accentuato accentuata accentuati accentuate
+7	8407	frantumare	frantumi frantumato frantuma frantumare frantumate frantumando frantumano frantumò
+8	8408	manifattura	manifattura manifatture
+9	8409	balsamo	balsamo balsami
+10	8410	intrappolare	intrappolato intrappolate intrappolare intrappola intrappolano intrappolando
+11	8411	allineare	allineare allineati allinea allinearsi allineate allineano allineando allinei allineava allineò allineavano
+12	8412	tardivo	tardiva tardivo tardive tardivi
+13	8413	cartuccia	cartucce cartuccia
+14	8414	detrazione	detrazioni detrazione
+15	8415	infiammazione	infiammazione infiammazioni
+16	8416	salmone	salmone salmoni salamone
+17	8417	rinascimentale	rinascimentale rinascimentali
+18	8418	abbaiare	abbaia abbaiare abbaiano abbaiava abbaiando abbaini abbaino abbaiavano abbaio abbai abbaiato
+19	8419	semina	semina semine
+20	8420	lauro	lauro lauri
+21	8421	scoria	scorie scoria
+22	8422	crociato	crociati crociato crociate
+23	8423	rilassare	rilassa rilassare rilasso rilassano rilassi rilassando rilassate rilassiamo rilassava
+24	8424	permanere	permane permangono permanere permanendo permanga permaneva permangano permarrà permanevano
+25	8425	predisposizione	predisposizione predisposizioni
+26	8426	ergastolo	ergastolo ergastoli
+27	8427	bancone	bancone banconi
+28	8428	egoismo	egoismo egoismi
+29	8429	velenoso	velenoso velenosi velenose velenosa
+30	8430	vetrata	vetrate vetrata
+31	8431	petalo	petali petalo
+32	8432	mobilitare	mobilita mobilitare mobilitato mobilitano mobilitate mobilitando mobilitarsi mobilitò
+33	8433	malinconico	malinconico malinconica malinconici malinconiche melanconico
+34	8434	abbondantemente	abbondantemente
+35	8435	ammetterlo	ammetterlo
+36	8436	calciomercato	calciomercato
+37	8437	chiamarla	chiamarla
+38	8438	colosseo	colosseo
+39	8439	cu	cu
+40	8440	eccone	eccone
+41	8441	esibirsi	esibirsi
+42	8442	imam	imam
+43	8443	inferiorità	inferiorità
+44	8444	luminosità	luminosità
+45	8445	maltempo	maltempo
+46	8446	maturazione	maturazione
+47	8447	mu	mu
+48	8448	oggettivamente	oggettivamente
+49	8449	paternità	paternità
+50	8450	poterti	poterti
+51	8451	provviste	provviste
+52	8452	razionalità	razionalità
+53	8453	renderli	renderli
+54	8454	sommità	sommità
+55	8455	sorprendentemente	sorprendentemente
+56	8456	stereo	stereo
+57	8457	stragrande	stragrande
+58	8458	insensibile	insensibile insensibili
+59	8459	spinello	spinelli spinello
+60	8460	cassonetto	cassonetti cassonetto
+61	8461	antecedente	antecedente antecedenti
+62	8462	adrenalina	adrenalina adrenaline
+63	8463	campanella	campanella campanelle
+64	8464	mediare	mediare mediata mediato mediati mediate medi mediando
+65	8465	imbarazzato	imbarazzato imbarazzata imbarazzati imbarazzate imbarazzatissimo
+66	8466	digitare	digitare digita digitando digitato digitate digiti digito digitano
+67	8467	alternato	alternata alternato alternate alternati
+68	8468	conversare	conversare conversano conversando conversa converso converse conversi conversato conversava conversavano
+69	8469	provocatorio	provocatorio provocatoria provocatori provocatorie
+70	8470	allontanamento	allontanamento allontanamenti
+71	8471	dicitura	dicitura diciture
+72	8472	prefisso	prefisso prefissi prefissa
+73	8473	latta	lattina latta
+74	8474	pronostico	pronostici pronostico prognostico prognostici prognostica
+75	8475	intervistare	intervistare intervistando intervistano intervistate intervisti intervistiamo intervistava intervistò intervisterà intervisto intervisteremo
+76	8476	spiccato	spiccata spiccato spiccate spiccati
+77	8477	assecondare	assecondare asseconda assecondando assecondato assecondi assecondano assecondò assecondo assecondate assecondava
+78	8478	archiviazione	archiviazione archiviazioni
+79	8479	ottimizzare	ottimizzare ottimizzato ottimizzati ottimizzata ottimizza ottimizzate ottimizzando ottimizzano
+80	8480	stanziare	stanziato stanziare stanziate stanzia stanziarono stanziò stanziava stanziano stanziando stanzierà
+81	8481	integrativo	integrativa integrativo integrative integrativi
+82	8482	riconciliazione	riconciliazione riconciliazioni
+83	8483	consultivo	consultivo consultiva consultivi consultive
+84	8484	disagiato	disagiate disagiati disagiata disagiato
+85	8485	cornuto	cornuto cornuti cornuta cornute
+86	8486	usura	usura usure
+87	8487	esploratore	esploratori esploratore esploratrice
+88	8488	astronomia	astronomia astronomie
+89	8489	appassionare	appassiona appassionare appassionano appassionarsi appassionando appassioni appassionò appassionava appassiono
+90	8490	dodicesimo	dodicesimo dodicesima dodicesimi
+91	8491	tibetano	tibetano tibetani tibetana tibetane
+92	8492	alterno	alterne alterna alterni alterno
+93	8493	porcellana	porcellana porcellane
+94	8494	esaustivo	esaustiva esaustivo esaustive esaustivi
+95	8495	panca	panca panche
+96	8496	capogruppo	capogruppo capigruppo
+97	8497	utilizzatore	utilizzatori utilizzatore utilizzatrice
+98	8498	impressionato	impressionato impressionati impressionata impressionate
+99	8499	calce	calce calci
+100	8500	distesa	distesa distese

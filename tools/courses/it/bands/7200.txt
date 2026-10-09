@@ -1,0 +1,100 @@
+1	7101	ospitalità	ospitalità
+2	7102	reporter	reporter
+3	7103	sdegno	sdegno
+4	7104	separatamente	separatamente
+5	7105	telefonia	telefonia
+6	7106	vanessa	vanessa
+7	7107	yogurt	yogurt
+8	7108	sottomarino	sottomarino sottomarini sottomarina sottomarine
+9	7109	incompatibile	incompatibile incompatibili
+10	7110	monologo	monologo monologhi
+11	7111	muratore	muratore muratori
+12	7112	dialogare	dialogare dialoghi dialoga dialogando dialogano dialogato dialoganti dialogante dialogate dialogava
+13	7113	dimagrire	dimagrire dimagrito dimagrisci dimagrisce dimagrisco dimagrendo dimagriscono
+14	7114	perimetro	perimetro perimetri
+15	7115	avo	avi ava avo
+16	7116	incantato	incantato incantata incantati incantate
+17	7117	ahi	ahi ahia
+18	7118	disuguaglianza	disuguaglianza disuguaglianze diseguaglianza
+19	7119	perito	perito periti perita
+20	7120	clientela	clientela clientele
+21	7121	limpido	limpido limpida limpide limpidi limpidissimo
+22	7122	sultano	sultano sultani soldano sultana
+23	7123	confinante	confinanti confinante
+24	7124	colomba	colomba colombe colombina colombine
+25	7125	rimpiangere	rimpiangere rimpiango rimpiange rimpiangono rimpiangerai rimpiangendo rimpiangi rimpiangerò rimpiangerete rimpiangerà rimpiangeremo rimpianga rimpiangeva rimpiangiamo
+26	7126	sgradevole	sgradevole sgradevoli
+27	7127	videocamera	videocamera videocamere
+28	7128	contaminazione	contaminazione contaminazioni
+29	7129	vincolato	vincolato vincolati vincolata vincolate
+30	7130	disputare	disputato disputare disputate disputando disputerà disputano disputeranno disputò disputavano disputava disputarono
+31	7131	bordello	bordello bordelli
+32	7132	colossale	colossale colossali
+33	7133	rivestimento	rivestimento rivestimenti
+34	7134	coinquilino	coinquilino coinquilina coinquilini
+35	7135	sopracciglio	sopracciglia sopracciglio sopraccigli
+36	7136	complicare	complica complicare complicano complicarsi complicate complicando complichiamo complichi complicherà complicò complicherebbe complicava
+37	7137	allergico	allergica allergico allergici allergiche
+38	7138	maglione	maglione maglioni
+39	7139	aliquota	aliquota aliquote
+40	7140	maggiorenne	maggiorenne maggiorenni
+41	7141	depositare	depositare deposita depositi depositano depositate depositando depositò depositanti depositante depositarono depositava depositerà depositavano
+42	7142	castellano	castellano castellani castellana castellane
+43	7143	paladino	paladino paladini paladina
+44	7144	servitore	servitore servitori servitrice
+45	7145	bergamasco	bergamasco bergamaschi bergamasca bergamasche
+46	7146	esistenziale	esistenziale esistenziali
+47	7147	finlandese	finlandese finlandesi
+48	7148	infernale	infernale infernali
+49	7149	infrazione	infrazione infrazioni
+50	7150	alloggiare	alloggiare alloggi alloggiato alloggia alloggiava alloggiano alloggiate alloggiavano alloggiando alloggiò alloggiarono alloggerà alloggerete alloggerai alloggeremo
+51	7151	lasso	lasso lasse lassa lassi
+52	7152	scosso	scosso scosse scossi
+53	7153	inversione	inversione inversioni
+54	7154	progredire	progredire progredendo progredisce progredito progredite progrediscono progredì progrediva progredisca progredirono
+55	7155	presupporre	presuppone presupporre presuppongono presupponendo presupponeva presuppongo presupporrebbe presupponga presupponiamo
+56	7156	virgola	virgola virgole
+57	7157	disonesto	disonesto disonesti disonesta disoneste
+58	7158	imparziale	imparziale imparziali
+59	7159	pedonale	pedonale pedonali
+60	7160	ciclabile	ciclabile ciclabili
+61	7161	ghiacciaio	ghiacciaio ghiacciai
+62	7162	minimizzare	minimizzare minimizza minimizzando minimizzato minimizzano minimizzate minimizzi
+63	7163	radioattivo	radioattivo radioattivi radioattiva radioattive
+64	7164	debuttare	debutta debuttato debuttare debutterà debuttano debuttò debuttando debutteranno debuttarono debuttava
+65	7165	schifezza	schifezze schifezza
+66	7166	commovente	commovente commoventi
+67	7167	premiazione	premiazione premiazioni
+68	7168	logistica	logistica logistiche
+69	7169	accenno	accenno accenni
+70	7170	pasticceria	pasticceria pasticcerie
+71	7171	stupratore	stupratore stupratori
+72	7172	informatore	informatore informatori informatrice
+73	7173	annullamento	annullamento annullamenti
+74	7174	agraria	agraria agrarie
+75	7175	somministrare	somministrato somministrare somministrate somministra somministrano somministrando somministri somministrava
+76	7176	affinità	affinità
+77	7177	appieno	appieno
+78	7178	casualmente	casualmente
+79	7179	clip	clip
+80	7180	cosicché	cosicché
+81	7181	diciassette	diciassette
+82	7182	dillo	dillo
+83	7183	eta	eta
+84	7184	iter	iter
+85	7185	lasciarla	lasciarla
+86	7186	lasciatemi	lasciatemi
+87	7187	panama	panama
+88	7188	peculiarità	peculiarità
+89	7189	perlopiù	perlopiù
+90	7190	quantomeno	quantomeno
+91	7191	quattrocento	quattrocento
+92	7192	tenebre	tenebre
+93	7193	tripoli	tripoli
+94	7194	unitamente	unitamente
+95	7195	feto	feto feti
+96	7196	negoziazione	negoziazione negoziazioni
+97	7197	cinghiale	cinghiale cinghiali
+98	7198	urina	urina urine orina
+99	7199	lapide	lapide lapidi
+100	7200	evangelico	evangelica evangelico evangelici evangeliche

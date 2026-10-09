@@ -1,0 +1,100 @@
+1	1701	attraversare	attraversare attraversato attraversa attraversando attraversano attraversava attraversò attraversi attraversavano attraversate attraversiamo attraversarono attraverserà attraverseranno attraverseremo attraversasse attraversino attraversante attraversavo attraversai attraverserò attraversammo attraversavamo attraverserete attraverserebbe attraversassero
+2	1702	rinunciare	rinunciare rinuncia rinunciato rinunciando rinuncio rinunci rinunciano rinunce rinunciò rinuncerà rinuncerei rinunciamo rinunciate rinunciava rinunceranno rinunzia rinuncerò rinuncino rinuncerebbe rinunciasse rinunciarono rinunziare rinunceresti rinunciassero rinunciavano rinunciante rinuncerebbero rinunciai
+3	1703	professionale	professionale professionali
+4	1704	ciclo	ciclo cicli
+5	1705	appello	appello appelli
+6	1706	nudo	nudo nuda nudi nude
+7	1707	scolastico	scolastico scolastica scolastici scolastiche
+8	1708	distruggere	distruggere distrugge distruggendo distruggono distrusse distruggerà distruggi distrussero distrugga distruggeranno distruggo distruggiamo distruggersi distruggano distruggerebbe distruggete distruggeva distruggeremo distruggevano distruggesse distruggerò distruggessero distruggerebbero distrugger
+9	1709	ospite	ospite ospiti
+10	1710	conclusione	conclusione conclusioni
+11	1711	migrante	migranti migrante
+12	1712	obbligo	obbligo obblighi
+13	1713	statale	statale statali
+14	1714	tutela	tutela tutele
+15	1715	industria	industria industrie
+16	1716	sforzo	sforzo sforzi
+17	1717	poeta	poeta poeti poetica poetessa poetico poetiche poetici poetesse
+18	1718	promozione	promozione promozioni
+19	1719	battuta	battuta battute
+20	1720	sposare	sposare sposarsi sposi sposano sposo sposò sposate sposerà sposando sposerò sposiamo sposeranno sposiamoci sposasse sposeremo sposerei sposarono sposini sposava sposino sposerai sposina sposerebbe sposavano sposar sposatevi sposassi sposeresti sposassero sposai sposerete
+21	1721	pertanto	pertanto
+22	1722	rai	rai
+23	1723	software	software
+24	1724	strategia	strategia strategie
+25	1725	divisione	divisione divisioni
+26	1726	puntare	puntare puntate puntato puntando punti puntano puntati puntino puntiamo puntava puntavano puntò punterei puntavo punterà punteranno puntarono punterò puntasse punteremo punterebbe puntante puntassero
+27	1727	croce	croce croci
+28	1728	vasto	vasta vasto vaste vasti vastissimo
+29	1729	padrone	padrone padroni padrona padron
+30	1730	patrimonio	patrimonio patrimoni
+31	1731	consenso	consenso consensi
+32	1732	descrizione	descrizione descrizioni
+33	1733	cosiddetto	cosiddetta cosiddetto cosiddetti cosiddette cosidetto
+34	1734	significativo	significativo significativa significativi significative
+35	1735	terminare	terminato termina terminare termini terminate terminò terminano terminerà terminando terminava termino terminante terminarono terminanti terminiamo termineranno terminavano terminasse terminerò terminino termineremo
+36	1736	pane	pane pani
+37	1737	registrare	registrare registra registri registrano registrando registrarsi registrate registrati registrò registrava registriamo registrarono registravano registrerà registreranno registrino registratevi registreremo registrerò registrasse registrai
+38	1738	trasmissione	trasmissione trasmissioni
+39	1739	volontario	volontari volontario volontaria volontarie
+40	1740	editore	editore editrice editori editrici
+41	1741	celebrare	celebrare celebra celebrato celebrata celebri celebrate celebrano celebrati celebriamo celebrando celebrava celebrò celebravano celebrerà celebrante celebro celebrarono celebreremo celebreranno celebranti celebrasse celebrino
+42	1742	leone	leone leoni lione leonessa leonesse
+43	1743	iniziale	iniziale iniziali
+44	1744	riserva	riserva riserve
+45	1745	stronzo	stronzo stronzi stronza stronze
+46	1746	assurdo	assurdo assurda assurde assurdi
+47	1747	investire	investire investito investe investendo investono investite investi investiamo investì investa investirà investo investiva investivano investisse investirono investano investiranno investirei investiremo investirò investirebbe investir
+48	1748	determinare	determinare determina determinante determinano determinando determinanti determinò determinerà determinarono determini determinava determineranno determinerebbe determinarsi determinino determinavano determiniamo determino determinasse determinerebbero
+49	1749	desiderare	desidera desiderare desiderano desideri desiderava desideriamo desideravo desiderate desidero desideravano desiderasse desiderando desiderino desidererei desidererebbe desideravi desiderò desideravamo desiderassero desiderassi desidererai desideriate desidererebbero desidererà desidereranno desiderante desiderai desideravate
+50	1750	lento	lento lenta lenti lente lentissimo
+51	1751	ambito	ambito ambiti ambita ambite ambitissimo
+52	1752	abito	abito abiti
+53	1753	ragazzino	ragazzino ragazzina ragazzini ragazzine
+54	1754	mica	mica miche
+55	1755	laboratorio	laboratorio laboratori
+56	1756	torre	torre torri
+57	1757	commesso	commesso commessi commessa commesse
+58	1758	tradurre	tradotto tradurre traduce traducono traducendo tradusse traduca traduco traduci traduceva traduciamo tradurrà tradurrebbe tradussero tradurranno traducano traducevano traducete traducesse
+59	1759	consumo	consumo consumi
+60	1760	sposa	sposa sposo sposi spose sposini sposino sposina
+61	1761	tavola	tavola tavole
+62	1762	esistenza	esistenza esistenze
+63	1763	file	file
+64	1764	naturalmente	naturalmente
+65	1765	prospettiva	prospettiva prospettive
+66	1766	indirizzo	indirizzo indirizzi
+67	1767	privo	privo priva privi prive
+68	1768	catena	catena catene catenina catenella catenelle catenine
+69	1769	penale	penale penali
+70	1770	convincere	convincere convince convincente convincenti convincono convinse convincendo convincersi convinci convinco convinca convincerà convinceva convincerai convinsero convinciamo convinsi convinceranno convincesse convincerò convinceremo convincerete convincevano convincano convincete convinciti convincevo convincerebbe
+71	1771	ovvio	ovvio ovvia ovvie ovvi
+72	1772	carcere	carcere carceri
+73	1773	dividere	divide dividere dividono divisi dividendo divise dividendi dividersi divideva divido dividiamo dividi divisero dividevano dividerà dividete divida divideranno dividano dividiamoci divideremo dividerò dividesse dividerebbe dividevo dividevamo dividerei dividemmo
+74	1774	giunta	giunta giunte
+75	1775	assenza	assenza assenze
+76	1776	bomba	bomba bombe
+77	1777	inserito	inserito inserita inseriti inserite
+78	1778	avvicinare	avvicina avvicinare avvicinato avvicinano avvicinando avvicini avvicinò avvicino avvicinava avvicinate avvicinavano avviciniamo avvicinarono avvicinasse avvicinerà avvicinino avvicinai avvicinerebbe avvicinavo avvicineranno avvicinassero avvicinavamo avvicineremo avvicinerò avvicinammo
+79	1779	batteria	batteria batterie
+80	1780	fiscale	fiscale fiscali
+81	1781	testimonianza	testimonianza testimonianze
+82	1782	resistere	resistere resistente resiste resistito resistenti resistono resisti resisto resistendo resisterà resistette resisteva resista resistete resistevano resistiamo resistettero resisterò resistano resisteranno resisterai resisterebbe resistevo resistesse resistessero
+83	1783	orientale	orientale orientali
+84	1784	dotato	dotato dotata dotati dotate
+85	1785	generare	generare genera generato generano genero generando generate generi generò generava genererà generino generarono generavano genererebbe generiamo genereranno generasse generante
+86	1786	riunire	riuniti riunisce riunire riunite riunito riunirsi riuniscono riunita riuniva riunendo riunivano riunirà riunì riunirono riuniranno riunisca riuniamo riuniscano riunisse riuniremo riunissero riunisco riunisci riuniamoci
+87	1787	buongiorno	buongiorno bongiorno
+88	1788	esserci	esserci essendoci
+89	1789	costituzionale	costituzionale costituzionali
+90	1790	uovo	uova uovo ovo ovetto
+91	1791	spingere	spinge spingere spingono spingendo spinse spinga spinsero spingeva spingi spingerà spingo spingevano spingerebbe spingeranno spingano spingete spingiamo spingesse spinsi spingerei spingerebbero spingessero spingevo spingeremo
+92	1792	nove	nove
+93	1793	oddio	oddio
+94	1794	senato	senato
+95	1795	montare	montare montato montana monta monti montata montano montati montane montate montani montante montando montanti monto montava montiamo montò montavano montino montarono monterà montarsi montan monteranno montavo montai monterei
+96	1796	tono	tono toni
+97	1797	intelligente	intelligente intelligenti intelligentissimo
+98	1798	avviso	avviso avvisi
+99	1799	gol	gol goal
+100	1800	efficace	efficace efficaci efficacissimo

@@ -1,0 +1,100 @@
+1	5301	compassione	compassione
+2	5302	conformità	conformità
+3	5303	credibilità	credibilità
+4	5304	cross	cross
+5	5305	hacker	hacker
+6	5306	indubbiamente	indubbiamente
+7	5307	inflazione	inflazione
+8	5308	lobby	lobby
+9	5309	raggiungimento	raggiungimento
+10	5310	serenità	serenità
+11	5311	stranamente	stranamente
+12	5312	sportello	sportello sportelli
+13	5313	impegnativo	impegnativo impegnativa impegnative impegnativi
+14	5314	iniezione	iniezione iniezioni
+15	5315	detenzione	detenzione detenzioni
+16	5316	radiofonico	radiofonico radiofonica radiofoniche radiofonici
+17	5317	apparizione	apparizione apparizioni
+18	5318	morso	morso morsi morse
+19	5319	dorso	dorso dorsi
+20	5320	convocazione	convocazione convocazioni
+21	5321	marciapiede	marciapiede marciapiedi
+22	5322	accertamento	accertamento accertamenti
+23	5323	vigere	vige vigevano vigo vigeva vigono viga vigano vigere
+24	5324	incrociare	incrociare incrocia incrociano incrociate incrociando incrociamo incrociarsi incrociarono incrociò incrociati incrociavano incrociava incroceranno incrocino incrociai incrocerà
+25	5325	ministeriale	ministeriale ministeriali
+26	5326	pentola	pentola pentole pentolone pentolino pentolaccia pentoloni
+27	5327	debutto	debutto debutti
+28	5328	modificazione	modificazioni mod modificazione
+29	5329	attraente	attraente attraenti
+30	5330	provocazione	provocazione provocazioni
+31	5331	sfiorare	sfiora sfiorato sfiorare sfiorano sfiorando sfiorò sfioro sfiorava sfiori sfiorate sfioravano sfiorarono sfiorerà
+32	5332	cilindro	cilindro cilindri
+33	5333	guardiano	guardiani guardiano guardiana
+34	5334	feroce	feroce feroci ferocissimo
+35	5335	consueto	consueto consueta consueti consuete
+36	5336	bagnare	bagna bagnare bagnai bagnino bagnanti bagnano bagnarsi bagnando bagnini bagnate bagni bagnante bagnava bagnò bagnina bagnerà bagnavano bagnerai
+37	5337	senno	senno senni
+38	5338	disattivare	disattivare disattivato disattiva disattivata disattivati disattivando disattivate disattivi disattivo disattivano disattiverà
+39	5339	partorire	partorito partorire partorisce partoriscono partorì partorendo partorirà partorite partorirai partorisca partoriva partorisci partorisse
+40	5340	cupola	cupola cupole cupoletta
+41	5341	chiodo	chiodo chiodi chiodini chiodino chiavo
+42	5342	transito	transito transita transiti
+43	5343	tribuna	tribuna tribune
+44	5344	ereditare	ereditato eredita ereditare ereditate ereditò ereditano erediterà erediti erediteranno ereditando ereditarono ereditava eredito ereditiamo
+45	5345	cotone	cotone cotoni
+46	5346	confesso	confesso confessa confessi
+47	5347	mordere	morde mordere morsi mordi mordono mordente mordo morse mordendo mordeva mordersi mordano morda mordenti mordevano morder
+48	5348	idolo	idolo idoli idol idoletti idoletto
+49	5349	reprimere	reprimere repressa represso repressi represse reprime reprimendo reprimono
+50	5350	incrementare	incrementare incrementato incrementando incrementa incrementano incrementi incrementate incrementerà incrementò
+51	5351	soffiare	soffia soffiare soffiato soffiata soffiano soffiando soffiava soffiate soffiati soffi soffiò soffiavano soffiarsi soffierà soffieranno soffiante soffiamo
+52	5352	riformare	riformare riformato riformata riformati riformate riformarsi riformò riformando riformano riformi riformarono
+53	5353	sforzare	sforza sforzare sforzato sforzi sforzano sforziamo sforzando sforzata sforzò sforzati sforzava sforzate sforzino sforzasse sforzassi sforzarono sforzavo sforzerò
+54	5354	onorare	onorare onora onorano onoriamo onori onorando onoro onorate onorò onorerà onorerò onorava onorarono onoravano onoreranno
+55	5355	melone	meloni melone
+56	5356	scoppio	scoppio scoppi
+57	5357	schiaffo	schiaffo schiaffi schiaffone
+58	5358	incrocio	incrocio incroci
+59	5359	triangolo	triangolo triangoli
+60	5360	astratto	astratto astratta astratti astratte
+61	5361	moschea	moschea moschee
+62	5362	inesistente	inesistente inesistenti
+63	5363	quantitativo	quantitativo quantitativi quantitative quantitativa
+64	5364	elefante	elefante elefanti elefantessa
+65	5365	concordato	concordato concordata concordati concordate
+66	5366	orientare	orientato orientate orientare orienta orientano orientando orientò orientarono oriento orienterà orientino orientava orienti
+67	5367	ahah	ahah
+68	5368	dark	dark
+69	5369	duecento	duecento
+70	5370	indirettamente	indirettamente
+71	5371	legittimità	legittimità
+72	5372	marijuana	marijuana
+73	5373	meeting	meeting
+74	5374	normalità	normalità
+75	5375	novanta	novanta
+76	5376	ottanta	ottanta
+77	5377	poker	poker
+78	5378	prossimità	prossimità
+79	5379	satana	satana
+80	5380	selfie	selfie
+81	5381	sufficientemente	sufficientemente
+82	5382	banconota	banconote banconota
+83	5383	interrogatorio	interrogatorio interrogatori
+84	5384	unitario	unitario unitaria unitarie unitari
+85	5385	rettore	rettore rettori rettrice
+86	5386	spaventoso	spaventoso spaventosa spaventosi spaventose
+87	5387	semestre	semestre semestri
+88	5388	emozionante	emozionante emozionanti
+89	5389	ipocrisia	ipocrisia ipocrisie
+90	5390	divertito	divertito divertita divertite
+91	5391	dispetto	dispetto dispetti
+92	5392	zingaro	zingari zingaro zingara zingare zingarello
+93	5393	gradino	gradino gradini
+94	5394	ritardato	ritardato ritardata ritardati ritardate
+95	5395	favoloso	favoloso favolosa favolosi favolose
+96	5396	pianificare	pianificare pianificando pianifica pianificano pianificate pianifichi pianifico pianificava pianificavano pianifichiamo pianificò
+97	5397	strutturato	strutturato strutturata strutturati strutturate
+98	5398	allerta	allerta all'erta allerte
+99	5399	travaglio	travaglio travagli
+100	5400	incolpare	incolpare incolpa incolpato incolpando incolpano incolpi incolpate incolpo incolpati incolpava incolperà incolparono incolpiamo incolpavano incolpò incolparsi

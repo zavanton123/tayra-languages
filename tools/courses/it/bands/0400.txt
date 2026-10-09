@@ -1,0 +1,100 @@
+1	301	letto	letto letta letti lette
+2	302	articolo	articolo articoli
+3	303	iniziare	inizia iniziare iniziano iniziando iniziamo iniziò inizi inizierà iniziarono inizieranno iniziate iniziava iniziai iniziasse inizierò iniziavano inizino inizierai inizieremo iniziavo inizierei iniziassero iniziassi inizierebbe iniziammo inizierete iniziassimo inizierebbero inizieresti iniziar iniziavi iniziante iniziaste
+4	304	vecchio	vecchio vecchia vecchi vecchie vecchietta vecchietto vecchissimo vecchierello
+5	305	termine	termine termini
+6	306	sociale	sociale sociali
+7	307	rispondere	rispondere risposto risponde rispondi rispondo rispondono rispose rispondendo risponda risponderà rispondeva rispondete risponderò rispondiamo risposi risposero risponderanno rispondano rispondevano rispondenti risponderemo rispondesse risponderei rispondevo risponderebbe rispondente risponderai rispondessi rispondevi risponderete risponderebbero risponderesti rispondessero risponder rispondiate rispondereste rispondevamo rispondesti
+8	308	informazione	informazioni informazione info
+9	309	politico	politico politici politiche
+10	310	conto	conto conti
+11	311	prova	prova prove
+12	312	massimo	massimo massima max massimi massime
+13	313	genere	genere generi
+14	314	occhio	occhi occhio occhioni occhione
+15	315	signore	signore signora signor signori
+16	316	capo	capo capi cape capone capolino capa capolini caponi
+17	317	giocare	giocare gioca giocato giochi giocando giocano giochiamo giocate giocava giocherà giocavo giocavano giocarsi giocavamo giocheranno giocheremo giochino giocò giocavi giocherò giocasse giochini giocherei giocar giocherebbe giocassero giocarono giocherai giocai giocammo giocherebbero giocassimo giocavate giochiamoci giocanti giocheresti
+18	318	vario	varie vari varia vario
+19	319	ricerca	ricerca ricerche
+20	320	minuto	minuti minuto minute minuta minutissimi minutissime
+21	321	presso	presso pressi pressa presse
+22	322	prossimo	prossimo prossima prossimi prossime
+23	323	europeo	europea europei europeo europee
+24	324	aggiungere	aggiungere aggiunto aggiunta aggiunge aggiungo aggiungendo aggiungi aggiungono aggiunti aggiunte aggiungiamo aggiunse aggiungerei aggiungete aggiungersi aggiungeva aggiunga aggiunsero aggiungeranno aggiungerà aggiungerò aggiungevano aggiungano aggiungeremo aggiungerebbe aggiungerete aggiungesse aggiungessi aggiunger aggiungetevi aggiungerai aggiungessero aggiunsi aggiungevo aggiungerebbero
+25	325	zona	zona zone
+26	326	regione	regione regioni
+27	327	motivo	motivo motivi
+28	328	esso	essa essi esso esse isso desso
+29	329	notte	notte notti
+30	330	realtà	realtà
+31	331	accordo	accordo accordi
+32	332	libero	libero libera liberi libere liberissimo
+33	333	grado	grado gradi
+34	334	sicuro	sicuro sicura sicuri sicure sicurissimo sicurissima sicurissimi
+35	335	titolo	titolo titoli titoloni titolone titol
+36	336	corpo	corpo corpi
+37	337	ricevere	ricevuto ricevere riceve ricevono ricevendo ricevi ricevo riceverà ricevette riceviamo riceveranno riceverai riceveva riceva ricevente ricevevano ricevettero ricevano riceverete ricevesse ricevete ricevetti riceveremo riceverò ricevevo riceventi riceverebbe ricevessi riceverebbero ricevessero ricevemmo ricevè ricevevamo ricevevi riceviate riceverei ricevé ricever
+38	338	periodo	periodo periodi
+39	339	effetto	effetti effetto
+40	340	acqua	acqua acque aqua
+41	341	testa	testa teste testi testina testine testolina testoline testona
+42	342	rapporto	rapporto rapporti
+43	343	amore	amore amor amori amoruccio
+44	344	notizia	notizie notizia
+45	345	parere	pare parere pareva pareri parso paiono parer parrebbe paia parve parevano parvero parrà parrebbero parevi paré paiano paresse
+46	346	prodotto	prodotto prodotti prodotta prodotte
+47	347	dovuto	dovuto dovuta dovuti dovute
+48	348	economico	economico economica economiche economici
+49	349	unito	uniti unito unita unite
+50	350	settembre	settembre
+51	351	ottenere	ottenere ottenuto ottiene ottenendo ottenne ottengono ottieni otterrà ottennero otteniamo otterrai ottenga otterranno ottengo otterrebbe otterremo otteneva ottenevano ottenesse otterrete ottengano ottenete otterrò ottenni otterresti otterrebbero otterremmo ottenessero ottener ottenemmo ottenevo ottene otterrei
+52	352	morire	morire muore morì morendo more muoiono muori muoio morirà morirono morirò moriva muoia morente moriranno moriremo morisse muoiano morir morivano morirai morirei moriamo morite morenti morirebbe morissero morivo morirete morirebbero morissi morivi moriresti morrà morii moriate morrai morrò morranno
+53	353	terzo	terzo terza terzi terze
+54	354	passo	passo passa passi passe
+55	355	locale	locale locali
+56	356	aiutare	aiutare aiuta aiutato aiutano aiuti aiuterà aiutando aiutati aiutiamo aiuteranno aiutante aiutate aiuterebbe aiutava aiutò aiutanti aiutino aiutasse aiutarsi aiuterò aiuteremo aiutavano aiutarono aiuteresti aiuterai aiuterebbero aiutavo aiutassero aiuterei aiuterete aiutar aiutassi aiutereste aiutiamoci aiutai aiutaste aiutatevi
+57	357	programma	programma programmi
+58	358	umano	umano umani umana umane umanissimo
+59	359	marzo	marzo
+60	360	quattro	quattro
+61	361	milione	milioni milione millione
+62	362	madre	madre madri matre
+63	363	principale	principale principali
+64	364	partire	partire partendo parto parti partono partite partiamo partì partiva partirà parta partirono partivano partiranno partirò partisse partano partenti partiremo partir partirei partirete partissi partii partirebbe partimmo partissero partivo partente partirai partivamo partiresti partirebbero partivi
+65	365	lingua	lingua lingue linguetta lengua linguette
+66	366	sperare	spero sperare sperando spera speravo sperato sperano speri sperava speravano sperate speravamo speravi spererei sperò sperasse sperar sperassi sperarono sperai sperino
+67	367	basso	basso bassa bassi basse bassissimo bassissima bassissimi bassissime
+68	368	giro	giro giri
+69	369	uso	uso usi use
+70	370	mangiare	mangiare mangiato mangia mangio mangiano mangi mangiando mangiamo mangiate mangiati mangiava mangiavano mangiavo mangerei mangiarsi mangerò mangiar mangerà mangeranno mangiò mangerai mangiavamo mangino mangeremo mangiasse mangerebbe mangeresti mangiai mangiavi mangiarono mangiassero mangerete mangiassi mangerebbero mangiammo mangiante mangiatevi
+71	371	personale	personale personali personalissimo
+72	372	attività	attività
+73	373	attraverso	attraverso
+74	374	qualsiasi	qualsiasi
+75	375	soldi	soldi
+76	376	mare	mare mar mari marittima marittimo marittimi marittime
+77	377	questione	questione questioni quistione
+78	378	posizione	posizione posizioni
+79	379	difficile	difficile difficili difficilissimo
+80	380	cuore	cuore cuori core cuor quore
+81	381	futuro	futuro future futura futuri
+82	382	necessario	necessario necessaria necessarie necessari
+83	383	condizione	condizioni condizione condizion
+84	384	pieno	pieno piena pieni piene pien pienissimo
+85	385	chiesa	chiesa chiese chiesuola
+86	386	bianco	bianco bianca bianchi bianche bianchetto bianchissimo
+87	387	linea	linea linee
+88	388	portato	portato portata portati portate
+89	389	valore	valore valori valor
+90	390	cittadino	cittadini cittadino cittadina cittadine cittadin
+91	391	nero	nero nera neri nere nerissimo
+92	392	storico	storico storica storici storiche istorico
+93	393	risposta	risposta risposte
+94	394	ormai	ormai oramai
+95	395	fondo	fondo fondi fonda fonde
+96	396	inglese	inglese inglesi
+97	397	pagina	pagina pagine
+98	398	semplice	semplice semplici semplicissimo
+99	399	aperto	aperto aperta aperti aperte apertissimo
+100	400	finire	finire finisce finiscono finirà finendo finisca finisco finì finiranno finite finiva finisse finiamo finiremo finirò finiscano finirono finirebbe finirai finivano finirebbero finissero finirei finii finirete finivo finir finiresti finimmo finiremmo finivamo finissi finivi finissimo finiate
