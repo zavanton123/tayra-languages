@@ -1,0 +1,223 @@
+{
+  "id": "es-mini-4600",
+  "rankUpTo": 4600,
+  "level": "C1",
+  "title": "Investigación y descubrimientos",
+  "description": "Ten texts about research and discovery in Spain, Latin America and the United States: a radio astronomer, a biologist and fishermen, a bird diary, an old grape, an admiral's letter, a Mapuche language project, a water rocket, a documentary review, a bike-lane study and an archaeological dig.",
+  "topic": "Research and discovery",
+  "names": [
+    "Puebla",
+    "México",
+    "Itzel Ramírez",
+    "Itzel",
+    "Oaxaca",
+    "Ciudad de México",
+    "Noa Castro",
+    "Noa",
+    "Manuel",
+    "Perú",
+    "Quispe",
+    "Cusco",
+    "Mendoza",
+    "Argentina",
+    "Bianchi",
+    "Martín Bianchi",
+    "Martín",
+    "Italia",
+    "España",
+    "Lucía Fernández",
+    "Rosa",
+    "Archivo General de la Nación",
+    "Veracruz",
+    "Daniela Ortiz",
+    "Daniela",
+    "San Francisco",
+    "mapudungun",
+    "Santiago",
+    "Temuco",
+    "Chile",
+    "Ana",
+    "Hugo",
+    "Zaragoza",
+    "Bogotá",
+    "Paula Restrepo",
+    "Inés Guerrero",
+    "Inés",
+    "Colombia",
+    "Bucaramanga",
+    "Montevideo",
+    "Elena",
+    "San Agustín",
+    "Florida",
+    "Miami",
+    "Raúl",
+    "Gloria"
+  ],
+  "lessons": [
+    {
+      "title": "La mujer de la antena",
+      "summary": "A portrait of a Mexican scientist who works beside a huge radio antenna on a volcano in Puebla and talks to children about vocation.",
+      "newWords": [
+        "antena",
+        "graduar",
+        "bastar",
+        "silencioso",
+        "cuán",
+        "padrino",
+        "emocionante",
+        "vocación",
+        "inquietud",
+        "horizontal"
+      ],
+      "text": "A más de 4.000 metros de altura, en la cima de un volcán apagado de Puebla, en México, hay una antena enorme que mira al cielo. No es una antena de televisión ni de teléfono. Es un instrumento científico muy especial: no recibe la luz de las estrellas, sino ondas de radio que llegan desde muy lejos, desde nubes de gas donde nacen estrellas nuevas. La antena mide 50 metros de ancho y, de lejos, parece un plato blanco colocado sobre la montaña.\n\nItzel Ramírez trabaja junto a esa antena desde hace once años. Es una científica de voz tranquila, que habla despacio y sonríe a menudo. Su vocación nació, según cuenta, en un pueblo pequeño de Oaxaca, donde el cielo de la noche estaba lleno de estrellas. «Mi padrino me regaló un libro sobre los planetas cuando cumplí nueve años», recuerda. Su padrino era maestro de primaria y, los fines de semana, la llevaba al campo para mirar el cielo. Desde entonces tuvo una inquietud que no la dejó nunca: quería saber de qué están hechas las estrellas y cuán lejos están de nosotros.\n\nAquella inquietud la llevó a la Ciudad de México. Allí estudió Física y se graduó con las mejores notas de su grupo. Cuando se graduó, sin embargo, no sabía si encontraría trabajo en lo que le gustaba. «A mí me bastaba con estar cerca de un instrumento así», dice. Le bastó una visita a la montaña para decidir su futuro.\n\nEl trabajo en la cima es silencioso y lento. Por la noche, la antena gira sin ruido. A veces se coloca casi horizontal, mirando hacia el horizonte; otras veces apunta hacia arriba. Cuando la ve en posición horizontal, Itzel siente que la antena escucha a toda la Tierra. El edificio de control también es silencioso: solo se oyen las computadoras y, de vez en cuando, el viento.\n\nLos visitantes no imaginan cuán duro es trabajar allí. Hace frío, falta el aire y cuesta dormir. Itzel no se queja. «Lo más emocionante no es ver algo nuevo», explica. «Lo más emocionante es entender, después de meses de datos, qué significa una señal.» El año pasado su equipo descubrió agua en una nube muy lejana. Fue, dice, el día más emocionante de su carrera.\n\nHoy Itzel da charlas en las escuelas de la región. Habla a los niños de su vocación y de su padrino. Les dice que una vocación no siempre llega de golpe; a veces empieza con una pregunta pequeña. Y les recuerda cuán grande es el cielo y cuán poco sabemos todavía de él.\n\nPreguntas:\n¿Dónde está la antena?\nEstá en la cima de un volcán apagado de Puebla, a más de 4.000 metros de altura.\n¿Qué le regaló su padrino a Itzel?\nLe regaló un libro sobre los planetas cuando cumplió nueve años.\n¿Qué estudió Itzel y cómo terminó sus estudios?\nEstudió Física en la Ciudad de México y se graduó con las mejores notas de su grupo.\n¿Cómo es el trabajo en la cima?\nEs silencioso y lento, hace frío y falta el aire.\n¿Qué es lo más emocionante para Itzel?\nLo más emocionante es entender qué significa una señal después de meses de datos.\n¿Qué les dice Itzel a los niños sobre la vocación?\nLes dice que una vocación no siempre llega de golpe y que a veces empieza con una pregunta pequeña."
+    },
+    {
+      "title": "Lo que saben los pescadores",
+      "summary": "An interview with a marine biologist in Galicia who learned to work with the local fishermen and used an old fisherman's tide notebook in her study.",
+      "newWords": [
+        "marea",
+        "pescador",
+        "fiar",
+        "bota",
+        "charlar",
+        "anfitrión",
+        "confederación",
+        "ausente",
+        "enhorabuena"
+      ],
+      "text": "La bióloga Noa Castro estudia desde hace seis años las mareas de una ría gallega y su efecto en el marisco. Para su investigación ha trabajado con decenas de pescadores del puerto. Este mes ha publicado un estudio que ha recibido muchas felicitaciones. Hablamos con ella en el muelle, una mañana de marea baja.\n\n¿Por qué estudiar las mareas?\nPorque la marea lo decide casi todo en la ría. Cuando sube la marea, entra agua fría del mar abierto; cuando baja, el agua de la ría se calienta al sol. El marisco vive al ritmo de las mareas, y los pescadores también.\n\n¿Cómo empezó a trabajar con los pescadores?\nAl principio no fue fácil. Yo llegué de la universidad con mis aparatos, y los pescadores no se fiaban de mí. Pensaban que iba a decirles cómo hacer su trabajo. Entiendo que no se fiaran: llevaban toda la vida en el mar, y yo era una chica joven con unas botas nuevas. Mis botas estaban tan limpias que se reían de mí.\n\n¿Qué cambió?\nEmpecé a charlar con ellos. No a hacer entrevistas, sino a charlar: en el bar, en el muelle, mientras arreglaban las redes. Charlando aprendí más que en muchos libros. Un pescador mayor, Manuel, me invitó a comer a su casa. Fue un anfitrión estupendo: su mujer y él me trataron como a una hija. Aquel día Manuel me enseñó un cuaderno donde apuntaba la marea de cada mañana desde hacía cuarenta años.\n\n¿Ese cuaderno entró en el estudio?\nSí, y fue muy valioso. Mis aparatos tienen datos de seis años; el cuaderno de Manuel tiene datos de cuarenta. Comparamos las dos cosas y vimos que el agua de la ría está hoy más caliente que antes. Desde entonces he aprendido a fiarme de lo que cuentan los pescadores.\n\n¿Participaron otros pescadores?\nMuchos. La confederación de cofradías de la zona, una confederación que reúne a los pescadores de varios puertos, nos ayudó a organizar reuniones. Venían pescadores de toda la costa. Solo uno estuvo ausente: Manuel, que estaba enfermo. Estuvo ausente de la reunión, pero me mandó un mensaje para animarme.\n\n¿Cómo recibieron el estudio en el puerto?\nMuy bien. Cuando se publicó, el presidente de la confederación me llamó para darme la enhorabuena. Los pescadores también me dieron la enhorabuena, a su manera: me regalaron unas botas viejas, como las suyas. «Ya eres de aquí», me dijeron. Y Manuel, ya recuperado, fue el anfitrión de una pequeña fiesta en su casa.\n\n¿Qué ha aprendido usted en estos años?\nQue la ciencia no está solo en la universidad. Un pescador que observa la marea cada día durante cuarenta años también hace ciencia. Los científicos tenemos que aprender a escuchar.\n\nPreguntas:\n¿Qué estudia Noa Castro?\nEstudia las mareas de una ría gallega y su efecto en el marisco.\n¿Por qué no se fiaban de ella los pescadores al principio?\nPorque pensaban que iba a decirles cómo hacer su trabajo.\n¿Qué hizo Noa para ganarse su confianza?\nEmpezó a charlar con ellos en el bar y en el muelle.\n¿Qué le enseñó Manuel?\nLe enseñó un cuaderno donde apuntaba la marea de cada mañana desde hacía cuarenta años.\n¿Quién estuvo ausente de la reunión y por qué?\nManuel estuvo ausente porque estaba enfermo.\n¿Cómo le dieron la enhorabuena los pescadores?\nLe regalaron unas botas viejas, como las suyas."
+    },
+    {
+      "title": "Diario del bosque de nubes",
+      "summary": "A student's week-long diary in a Peruvian cloud forest, watching a small brown bird build and use its nest beside a river.",
+      "newWords": [
+        "pardo",
+        "nido",
+        "sendero",
+        "marrón",
+        "lentes",
+        "respiración",
+        "posar",
+        "instinto",
+        "veneno"
+      ],
+      "text": "Lunes\nLlegué ayer a la estación biológica, en el bosque de nubes del sur del Perú. Vengo a estudiar un pájaro pequeño, de color pardo, que construye su nido cerca de los ríos. Mi profesora, la doctora Quispe, lleva diez años estudiándolo. Hoy caminamos por el sendero que baja hasta el río. El sendero es estrecho y está lleno de barro, y las botas se hundían a cada paso.\n\nMartes\nHoy vi el primer nido. Está escondido entre las raíces de un árbol, a un metro del agua. El nido es de hojas secas y tiene forma de bola. La doctora Quispe me explicó cómo distinguir al macho de la hembra: el macho es de un pardo oscuro, casi marrón, con el pecho blanco; la hembra es de un pardo más claro. Yo, con los lentes mojados por la lluvia, no distinguía casi nada. Tuve que limpiar los lentes tres veces.\n\nMiércoles\nPasé cuatro horas sentada junto al sendero, sin moverme. La doctora dice que hay que controlar hasta la respiración, porque estos pájaros lo oyen todo. Al principio, después de la subida, mi respiración era rápida. Poco a poco se volvió lenta y tranquila. Entonces llegó el macho y se posó en una piedra del río. Se posó tan cerca que podía ver sus ojos. Luego voló hasta el nido y se posó en el borde con un insecto en el pico.\n\nJueves\nHoy hablamos del instinto. Ningún pájaro aprende a hacer un nido en una escuela; lo hace por instinto. Le pregunté a la doctora si el instinto basta para todo. Me dijo que no: los pájaros jóvenes construyen nidos peores que los adultos. El instinto les da la idea, y la experiencia les enseña a hacerlo bien.\n\nViernes\nEn el sendero vimos una rana pequeña, de colores muy vivos. La doctora me pidió que no la tocara, porque en la piel lleva un veneno fuerte. Me explicó que esos colores avisan a los demás animales del veneno. Los pájaros, por instinto, no se la comen. Nuestro pájaro, en cambio, no tiene veneno, pero se protege de otra forma: su color marrón se confunde con las piedras y la tierra del río.\n\nSábado\nÚltimo día. Volví al nido sola. Controlé la respiración, me limpié los lentes y esperé. Los dos pájaros pardos estaban allí, entrando y saliendo del nido. Uno de ellos se posó un momento en una rama, justo encima de mí. Lo anoté todo en mi cuaderno. Mañana bajo a Cusco, pero ya sé que voy a volver.\n\nPreguntas:\n¿Qué pájaro estudia la autora del diario?\nEstudia un pájaro pequeño, de color pardo, que construye su nido cerca de los ríos.\n¿Dónde está el primer nido que vio?\nEstá escondido entre las raíces de un árbol, a un metro del agua.\n¿Cómo se distingue el macho de la hembra?\nEl macho es de un pardo oscuro, casi marrón, con el pecho blanco, y la hembra es de un pardo más claro.\n¿Por qué hay que controlar la respiración?\nPorque estos pájaros lo oyen todo.\n¿Basta el instinto para hacer un buen nido?\nNo, el instinto les da la idea, pero la experiencia les enseña a hacerlo bien.\n¿Cómo se protege el pájaro si no tiene veneno?\nSu color marrón se confunde con las piedras y la tierra del río."
+    },
+    {
+      "title": "La uva que nadie quería",
+      "summary": "A report on researchers in Mendoza who study the old criolla grape with a family winery founded by Italian immigrants.",
+      "newWords": [
+        "uva",
+        "criollo",
+        "bodega",
+        "emigrar",
+        "complementario",
+        "complementar",
+        "perfume",
+        "costoso",
+        "certificación"
+      ],
+      "text": "En Mendoza, en el oeste de Argentina, casi todo el mundo conoce el malbec, el vino más famoso del país. Pocos, en cambio, conocen la uva criolla. Las uvas criollas nacieron aquí hace siglos, de las plantas que trajeron los españoles. Durante mucho tiempo fueron las más comunes de la región, pero en el siglo XX empezaron a desaparecer: daban un vino sencillo y barato que no interesaba a los mercados.\n\nUn grupo de investigadores de la universidad estudia desde hace cinco años estas uvas criollas, junto con una pequeña bodega familiar. La bodega pertenece a la familia Bianchi. Los abuelos de Martín Bianchi, el dueño actual, emigraron desde Italia en 1920. Como tantos italianos que emigraron a la Argentina en aquellos años, trajeron poco dinero y muchas ganas de trabajar. Plantaron uva criolla porque era la que había y porque resistía bien el calor y la falta de agua.\n\nLa investigación tiene dos partes complementarias. La primera se hace en el laboratorio: los científicos estudian el origen de cada planta y la comparan con las uvas de España. La segunda se hace en la bodega, donde se prueban distintas formas de hacer el vino. Las dos partes se complementan: el laboratorio explica qué es cada uva, y la bodega muestra qué puede dar. Son trabajos complementarios, y ninguno serviría sin el otro.\n\nLos resultados han interesado a muchos. Bien trabajada, la uva criolla da un vino ligero y fresco, con un perfume de flores y de frutas rojas. Una de las investigadoras, la ingeniera Lucía Fernández, lo describe así: «Tiene un perfume que no se parece a ningún otro. Es el perfume de nuestra historia.» Según ella, el vino criollo no compite con el malbec, sino que lo complementa: es un vino para el verano, para comer al aire libre con amigos.\n\nNo todo es fácil. Analizar cada planta en el laboratorio es costoso, y también es costoso cuidar plantas viejas que dan poca uva. Además, la bodega quiere obtener una certificación de vino orgánico. La certificación exige tres años sin productos químicos y muchos controles. Martín Bianchi reconoce que la certificación le cuesta dinero, pero cree que vale la pena: los clientes jóvenes buscan vinos naturales y con historia.\n\nEste año la bodega ha sacado su primer vino de uva criolla, con el nombre de la abuela, Rosa. Martín cree que sus abuelos estarían contentos. «Ellos emigraron sin nada y plantaron estas uvas», dice. «Ahora, gracias a la ciencia, las uvas vuelven a tener valor.»\n\nPreguntas:\n¿Qué es la uva criolla?\nEs una uva que nació en la región hace siglos, de las plantas que trajeron los españoles.\n¿De dónde emigraron los abuelos de Martín Bianchi?\nEmigraron desde Italia en 1920.\n¿Cuáles son las dos partes complementarias de la investigación?\nUna se hace en el laboratorio y la otra se hace en la bodega.\n¿Cómo es el perfume del vino criollo?\nEs un perfume de flores y de frutas rojas.\n¿Por qué es costoso el trabajo?\nPorque analizar cada planta en el laboratorio cuesta mucho y las plantas viejas dan poca uva.\n¿Qué exige la certificación de vino orgánico?\nExige tres años sin productos químicos y muchos controles."
+    },
+    {
+      "title": "La tinta del almirante",
+      "summary": "A historian's column about an old gospel book and an admiral's letter found in a messy box at a Mexico City archive, and how a chemist's study of the ink settled what was genuine.",
+      "newWords": [
+        "desorden",
+        "evangelio",
+        "almirante",
+        "confuso",
+        "tinta",
+        "alteración",
+        "ende",
+        "acreditar",
+        "indicación",
+        "directorio"
+      ],
+      "text": "Paso muchas horas en el Archivo General de la Nación, en la Ciudad de México, y he aprendido que los papeles viejos también tienen su carácter. Algunas cajas llegan ordenadas; otras llegan en un desorden total. El mes pasado me tocó una caja en completo desorden: cartas del siglo XVI mezcladas con recibos, mapas y hojas sueltas. En medio de aquel desorden había un libro pequeño con tapas de cuero: un evangelio copiado a mano.\n\nJunto al evangelio había una carta firmada por un almirante español que llegó a Veracruz en 1570. En la carta, el almirante decía que regalaba el libro a un convento de la ciudad. Era un hallazgo bonito, pero el texto de la carta era confuso. Algunas líneas estaban casi borradas y otras parecían escritas con otra mano. Yo quería saber si toda la carta era del almirante o si alguien la había cambiado después.\n\nPara saberlo pedí ayuda a Daniela Ortiz, una química del archivo que estudia la tinta de los documentos antiguos. La tinta, me explicó, cuenta su propia historia. En aquella época se fabricaba con hierro y otros materiales, y con los siglos cambia de color. Daniela observó la carta con una luz especial y encontró una alteración clara: dos líneas tenían una tinta distinta, más moderna. Según ella, la alteración era del siglo XIX. En esas dos líneas alguien había escrito el nombre del convento.\n\nEl resto de la carta era auténtico. La tinta era antigua, la letra era la de la época y el papel también. Por ende, podíamos acreditar que el almirante escribió la carta y regaló el evangelio. Acreditar un documento no es firmar un papel; es reunir pruebas, una por una, hasta que la duda desaparece.\n\nFaltaba saber a qué convento fue el libro. En la caja encontré una indicación útil: una nota antigua que mencionaba el convento de San Francisco. La indicación era breve, pero bastaba para buscar en otros documentos. Seguí esa indicación y consulté el directorio del archivo, donde aparecen todas las colecciones. En el directorio hay miles de carpetas, y tardé una tarde entera en encontrar la buena: el inventario de aquel convento. Allí aparecía el evangelio, descrito con detalle.\n\nAsí, el texto confuso dejó de ser confuso. La carta era del almirante, el libro era el mismo y el convento era el de San Francisco. Las dos líneas del siglo XIX solo repetían, por ende, lo que ya era verdad.\n\nEscribo esta columna porque a menudo se piensa que la historia está solo en los libros. Yo creo que también está en la tinta, en el papel y en el paciente desorden de las cajas.\n\nPreguntas:\n¿Qué encontró la autora en la caja en desorden?\nEncontró un evangelio copiado a mano y una carta firmada por un almirante español.\n¿Por qué era confuso el texto de la carta?\nPorque algunas líneas estaban casi borradas y otras parecían escritas con otra mano.\n¿Qué alteración encontró Daniela Ortiz?\nEncontró dos líneas con una tinta distinta, más moderna, del siglo XIX.\n¿Qué significa acreditar un documento, según la autora?\nSignifica reunir pruebas, una por una, hasta que la duda desaparece.\n¿Cómo encontró la autora el inventario del convento?\nSiguió la indicación de una nota antigua y consultó el directorio del archivo."
+    },
+    {
+      "title": "Aprender a escuchar una lengua",
+      "summary": "A linguistics student reflects on her summers recording elders in a Mapuche community near Temuco, and on what the community taught her about respect.",
+      "newWords": [
+        "lingüística",
+        "mapuche",
+        "ético",
+        "intérprete",
+        "vergonzoso",
+        "exagerar",
+        "inocencia",
+        "agradecimiento",
+        "honrar"
+      ],
+      "text": "Estudio lingüística en una universidad de Santiago y, desde hace dos años, preparo una tesis sobre el mapudungun, la lengua del pueblo mapuche. Cada verano viajo a una comunidad mapuche cerca de Temuco, en el sur de Chile, para grabar conversaciones con las personas mayores. Quiero escribir aquí lo que he aprendido, que no siempre es lo que esperaba aprender.\n\nCuando llegué la primera vez, pensaba que la lingüística era sobre todo técnica: grabar, escribir, comparar sonidos. Me equivocaba. Lo primero que me enseñó la comunidad fue un principio ético. Antes de grabar a nadie, la señora Rosa, una de las mayores, me preguntó para quién era mi trabajo. ¿Para la universidad? ¿Para mí? ¿O para ellos? Era un problema ético, y no tenía una respuesta fácil. En la universidad tenemos un comité ético que revisa los proyectos, pero ningún comité me había hecho esa pregunta tan directamente.\n\nAl principio necesitaba una intérprete. Mi mapudungun era muy pobre, y algunas personas mayores hablan poco castellano. Mi intérprete fue Ana, la nieta de la señora Rosa. Ana no solo traducía palabras; me explicaba también cuándo una pregunta era de mala educación. Un buen intérprete, aprendí, traduce también las costumbres.\n\nRecuerdo un día vergonzoso. Quise saludar en mapudungun delante de toda la familia y dije una palabra equivocada. Todos se rieron, y yo me puse roja. Fue un momento vergonzoso, pero la señora Rosa me dijo que lo vergonzoso no es equivocarse, sino no intentarlo. Desde entonces me equivoco sin miedo.\n\nNo quiero exagerar mi papel. Sería fácil exagerar y decir que una estudiante de Santiago está salvando una lengua. No es verdad, y sería injusto. La lengua mapuche la mantienen viva sus hablantes: en las casas, en la escuela de la comunidad, en la radio local. Yo solo escucho, grabo y ordeno.\n\nTambién he perdido cierta inocencia. Llegué con la inocencia de quien cree que la ciencia es neutral y que un investigador solo observa. Ahora sé que cada grabación es un regalo y que hay que cuidarla. Lo que necesita un investigador no es inocencia, sino respeto.\n\nAl final de cada verano, la comunidad organiza una comida. Este año quise expresar mi agradecimiento con un pequeño discurso en mapudungun, que Ana me ayudó a preparar. Les dije que quería honrar su confianza. Para honrar esa confianza, habrá una copia de mi tesis en la escuela de la comunidad, y todas las grabaciones volverán a las familias. Mi agradecimiento, les dije al final, no cabe en una tesis.\n\nPreguntas:\n¿Qué estudia la autora?\nEstudia lingüística y prepara una tesis sobre el mapudungun, la lengua del pueblo mapuche.\n¿Qué problema ético le planteó la señora Rosa?\nLe preguntó para quién era su trabajo: para la universidad, para ella o para la comunidad.\n¿Qué hacía Ana, además de traducir palabras?\nLe explicaba cuándo una pregunta era de mala educación.\n¿Qué le dijo la señora Rosa después del momento vergonzoso?\nLe dijo que lo vergonzoso no es equivocarse, sino no intentarlo.\n¿Por qué no quiere exagerar su papel la autora?\nPorque la lengua la mantienen viva sus hablantes, y ella solo escucha, graba y ordena.\n¿Cómo va a honrar la autora la confianza de la comunidad?\nHabrá una copia de su tesis en la escuela y todas las grabaciones volverán a las familias."
+    },
+    {
+      "title": "El cohete de Hugo",
+      "summary": "In Zaragoza, a teenager who loves basketball and maths builds a water rocket for his school science fair, records his tests in a matrix and wins second prize.",
+      "newWords": [
+        "baloncesto",
+        "ecuación",
+        "cohete",
+        "expulsión",
+        "maquinar",
+        "invento",
+        "matriz",
+        "expulsado",
+        "bronca",
+        "decepción"
+      ],
+      "text": "Hugo tiene dieciséis años, vive en Zaragoza y tiene dos pasiones: el baloncesto y las matemáticas. Entrena con su equipo de baloncesto tres tardes por semana y, el resto del tiempo, llena cuadernos de ecuaciones. Este curso se ha apuntado a la feria de ciencia de su instituto con un proyecto que le hace mucha ilusión: construir un cohete de agua.\n\nUn cohete de agua es una botella de plástico con un poco de agua y aire a presión. Cuando se suelta, el agua sale con fuerza por abajo y el cohete sube. Hugo lo explica así: la expulsión del agua empuja la botella hacia arriba. Cuanto más rápida es la expulsión, más alto llega el cohete. Lo aprendió en clase de física, y desde entonces no piensa en otra cosa.\n\nDurante semanas, Hugo estuvo maquinando su invento en el garaje. Su madre lo veía entrar con botellas, cinta y una bomba de bicicleta, y se preguntaba qué estaría maquinando. Hugo escribía una ecuación tras otra para calcular la cantidad de agua y la presión del aire. Guardaba los datos de cada prueba en una matriz: una tabla de números con una fila para cada lanzamiento y una columna para cada medida. Su profesora de matemáticas les había enseñado a trabajar con una matriz, y Hugo estaba feliz de usarla en algo real.\n\nUn sábado hizo una prueba en el patio de casa. El cohete salió torcido, y el agua expulsada mojó la ropa tendida de la vecina. La vecina se enfadó y, después, su madre le echó una bronca. «¡En el patio no, Hugo!», le dijo. La bronca duró cinco minutos, pero al día siguiente su madre le ayudó a buscar un campo abierto a las afueras de la ciudad.\n\nEn el campo, el cohete subió treinta metros. Después, cuarenta. Hugo comprobó que su ecuación funcionaba: con un tercio de agua, la expulsión era mejor. Por fin tenía un invento que funcionaba.\n\nEl día de la feria hacía viento. El primer lanzamiento salió mal: el cohete giró en el aire y cayó a pocos metros. Hugo sintió una gran decepción. Pero la decepción le duró poco, porque una profesora le preguntó por la matriz de datos, y Hugo pudo explicar todo su trabajo: el agua expulsada, la presión, las pruebas del campo. En el segundo lanzamiento, el cohete subió recto.\n\nHugo no ganó el primer premio, sino el segundo. No fue una decepción: el jurado valoró sobre todo su cuaderno de ecuaciones. Esa tarde, en el entrenamiento de baloncesto, contó a sus compañeros cómo funciona un cohete. Uno de ellos le dijo que un buen tiro de baloncesto también tiene su ecuación. Hugo ya está maquinando el proyecto del año que viene.\n\nPreguntas:\n¿Cuáles son las dos pasiones de Hugo?\nSus dos pasiones son el baloncesto y las matemáticas.\n¿Por qué sube un cohete de agua?\nPorque la expulsión del agua empuja la botella hacia arriba.\n¿Dónde guardaba Hugo los datos de cada prueba?\nLos guardaba en una matriz, una tabla de números con una fila para cada lanzamiento.\n¿Por qué le echó su madre una bronca?\nPorque el agua expulsada por el cohete mojó la ropa de la vecina.\n¿Qué pasó en el primer lanzamiento de la feria?\nEl cohete giró en el aire y cayó a pocos metros, y Hugo sintió una gran decepción.\n¿Qué premio ganó Hugo?\nGanó el segundo premio."
+    },
+    {
+      "title": "Reseña: una pionera bajo tierra",
+      "summary": "A review of a Colombian documentary about a pioneering woman engineer who worked for an oil company in the 1950s and later defended the energy transition.",
+      "newWords": [
+        "cinematográfico",
+        "pionero",
+        "petrolera",
+        "apuesto",
+        "cláusula",
+        "irónico",
+        "conversión",
+        "energética",
+        "televisivo",
+        "sudamericano"
+      ],
+      "text": "Esta semana se estrena en Bogotá «Bajo la tierra», un documental de la directora colombiana Paula Restrepo sobre la vida de Inés Guerrero, una de las primeras mujeres ingenieras de Colombia. Es un trabajo cinematográfico sencillo y honesto, que merece más público que el de las pocas salas donde se proyecta.\n\nInés Guerrero nació en 1928 en Bucaramanga. Fue una pionera en un mundo de hombres: en los años cincuenta trabajó para una gran petrolera, buscando petróleo en los llanos del este del país. Era la única mujer en el campo y, según cuenta el documental, durante años firmó sus informes solo con la inicial de su nombre. En las fotos de la época se la ve con botas, sombrero y un cuaderno, junto a su marido, un ingeniero alto y apuesto que trabajaba en la misma petrolera. Los dos sonríen; él, tan apuesto, parece un actor de cine.\n\nEl documental combina esas fotos con entrevistas a sus hijos y a ingenieras jóvenes de hoy. Explica bien una cláusula curiosa de su primer contrato: según esa cláusula, Inés debía dejar el puesto si se casaba. Se casó, pero la petrolera, que la necesitaba, nunca aplicó la cláusula. La película lo cuenta con un tono suave, a veces irónico, aunque nunca amargo. Uno de sus hijos lo resume con una frase irónica: «Mi madre era demasiado útil para que la despidieran.»\n\nLa segunda parte mira al presente. En sus últimos años, Inés hablaba a menudo de la conversión energética, es decir, del paso del petróleo a energías limpias. Ella, que había trabajado toda la vida para una petrolera, defendía esa conversión con argumentos de ingeniera: el petróleo se acaba, y el planeta no espera. Es la parte más interesante del documental, porque muestra a una pionera capaz de cambiar de opinión. La cuestión energética, dice una de las entrevistadas, era para Inés una cuestión práctica, no de ideología.\n\n¿Tiene defectos? Alguno. Por momentos el documental parece un reportaje televisivo: mucha música y muchas entrevistas cortas. Ese estilo televisivo le quita algo de fuerza cinematográfica. Además, se habla poco de otras ingenieras sudamericanas de la época, que también abrieron camino en sus países. Una comparación con otras pioneras sudamericanas habría dado a la película un contexto más amplio.\n\nAun así, «Bajo la tierra» es un documental necesario. Recupera la figura de una mujer olvidada y lo hace con respeto, sin exagerar. Lo recomiendo a quien quiera saber cómo se hace ciencia, y también a quien quiera ver cómo cambia una persona.\n\nPreguntas:\n¿Quién era Inés Guerrero?\nEra una de las primeras mujeres ingenieras de Colombia y una pionera en un mundo de hombres.\n¿Para quién trabajó en los años cincuenta?\nTrabajó para una gran petrolera, buscando petróleo en los llanos del este del país.\n¿Qué decía la cláusula de su primer contrato?\nDecía que debía dejar el puesto si se casaba.\n¿Qué defendía Inés en sus últimos años?\nDefendía la conversión energética, el paso del petróleo a energías limpias.\n¿Qué defectos tiene el documental, según la reseña?\nPor momentos parece un reportaje televisivo y habla poco de otras ingenieras sudamericanas."
+    },
+    {
+      "title": "Antes de pintar un carril",
+      "summary": "An opinion column from Montevideo on a university study of new bike lanes and street crime, weighing the taxi drivers' objections against the value of data.",
+      "newWords": [
+        "carril",
+        "delincuencia",
+        "taxista",
+        "justificación",
+        "consiguiente",
+        "incapacidad",
+        "enterado",
+        "designación",
+        "instar",
+        "elector"
+      ],
+      "text": "En Montevideo se discute estos meses un tema que parece pequeño, pero no lo es: los nuevos carriles para bicicletas en las avenidas del centro. Antes de construirlos, la ciudad encargó un estudio a un equipo de la universidad. Me parece una buena noticia, y quiero explicar por qué, aunque entiendo a quienes piensan lo contrario.\n\nEl estudio, publicado en junio, tenía dos objetivos. El primero era saber cuántas personas usarían un carril para bicicletas si fuera seguro. El segundo era menos evidente: medir si un carril con buena luz y mucha gente reduce la delincuencia en la calle por la noche. Los investigadores compararon durante dos años barrios con carril y barrios sin carril. Encontraron que, en las calles con carril, la delincuencia nocturna bajó un poco. No mucho, pero bajó. Su explicación es sencilla: más gente en la calle, más ojos y menos delincuencia.\n\nNo todos están de acuerdo. Los taxistas, por ejemplo, temen perder espacio. Hablé con un taxista que lleva treinta años trabajando en el centro. Me dijo que cada carril nuevo significa más tráfico para los autos y menos clientes para él. Otro taxista me contó que nadie les preguntó su opinión. Es una queja razonable: el estudio contó bicicletas, pero no habló con los taxistas.\n\nHay también una crítica de fondo. Algunos dicen que estos estudios son solo una justificación: el gobierno ya ha decidido y busca números para defenderse. Es cierto que un estudio puede usarse como justificación. Sin embargo, la mejor justificación de una obra pública son los datos, no las opiniones. Por consiguiente, cuanto más claro y más completo sea el estudio, mejor.\n\nLo que más me preocupa no es el estudio, sino la incapacidad de nuestros políticos para explicarlo. La mayoría de los vecinos no está enterada de los resultados, y muchos no están enterados ni siquiera de que el estudio existe. Esa incapacidad para comunicar es, a mi juicio, el verdadero problema.\n\nLa designación de una nueva directora de movilidad, el mes pasado, podría cambiar las cosas. En su primer discurso tras la designación, la directora instó a la universidad a presentar el estudio en los barrios. También instó a los taxistas a participar en una mesa de diálogo. Me parece un buen comienzo.\n\nAl final, como siempre, deciden los electores. Los electores de Montevideo votarán dentro de dos años y podrán juzgar los carriles con los datos en la mano. Por consiguiente, lo importante ahora es que esos datos lleguen a todos: a los ciclistas, a los taxistas y a los vecinos que solo quieren volver a casa tranquilos.\n\nPreguntas:\n¿Qué se discute en Montevideo?\nSe discuten los nuevos carriles para bicicletas en las avenidas del centro.\n¿Qué encontraron los investigadores sobre la delincuencia?\nEncontraron que, en las calles con carril, la delincuencia nocturna bajó un poco.\n¿Por qué se quejan los taxistas?\nPorque temen perder espacio y clientes, y porque nadie les preguntó su opinión.\n¿Qué es lo que más preocupa a la autora?\nLe preocupa la incapacidad de los políticos para explicar el estudio.\n¿A qué instó la nueva directora a la universidad?\nLa instó a presentar el estudio en los barrios.\n¿Quiénes deciden al final, según la autora?\nAl final deciden los electores, que votarán dentro de dos años."
+    },
+    {
+      "title": "Carta desde San Agustín",
+      "summary": "A retired Cuban-American teacher writes to her sister about volunteering on an archaeological project in St. Augustine, Florida.",
+      "newWords": [
+        "jubilación",
+        "arqueológico",
+        "amparo",
+        "remover",
+        "botar",
+        "rastro",
+        "partícula",
+        "funda",
+        "cuñado"
+      ],
+      "text": "Querida Elena:\n\nTe escribo desde San Agustín, en el norte de la Florida. Ya llevo tres semanas aquí y todavía no me creo que, a mis sesenta y seis años, esté trabajando en un proyecto arqueológico. Cuando llegó la jubilación, todos pensaban que me iba a quedar en Miami viendo telenovelas. Pero tú sabes que yo siempre quise hacer algo así. La jubilación, por fin, me ha dado el tiempo.\n\nEl proyecto arqueológico lo dirige una profesora de la universidad. Estudiamos el lugar donde estuvo una casa española del siglo XVII. Somos doce voluntarios, casi todos jubilados como yo, y tres estudiantes. Trabajamos por la mañana, al amparo de unos árboles enormes, porque el sol de la Florida no perdona. Al amparo de su sombra pasamos horas de rodillas en la tierra.\n\nEl trabajo es lento. No se trata de cavar rápido, sino de remover la tierra poco a poco, con herramientas pequeñas. La profesora dice que hay que remover cada capa con cuidado, porque la tierra también es un documento. Todo lo que removemos lo revisamos después con las manos.\n\nAquí no se puede botar nada. Al principio yo quería botar las piedras pequeñas que me parecían sin valor, pero me explicaron que hasta la tierra se guarda para analizarla. Tú, que nunca has botado nada en tu vida, estarías orgullosa de mí.\n\nAyer encontré algo pequeño: el rastro de un fuego antiguo, una mancha negra en la tierra. La profesora se puso muy contenta. Me dijo que ese rastro puede indicar dónde estaba la cocina de la casa. Al lado había partículas de carbón y de hueso. Esas partículas van a un laboratorio, donde podrán saber qué comían los habitantes de la casa. Imagínate: unas partículas que casi no se ven pueden contar qué se cocinaba hace cuatrocientos años.\n\nCada objeto que encontramos se guarda en una funda de plástico con una etiqueta. Yo me encargo de las fundas: escribo la fecha, el lugar y el número de cada pieza. Parece aburrido, pero me encanta. Es como cuando preparaba los exámenes de mis alumnos.\n\nSaluda a Raúl, mi cuñado favorito (el único, ya lo sé). Dile que la cámara que me regaló funciona muy bien; le he hecho una funda para protegerla de la arena. Mi cuñado siempre dice que la historia es aburrida, así que cuando vuelva le voy a enseñar todas las fotos.\n\nUn abrazo muy fuerte,\nGloria\n\nPreguntas:\n¿Qué hace Gloria en San Agustín?\nTrabaja como voluntaria en un proyecto arqueológico.\n¿Qué pensaban todos que iba a hacer Gloria después de la jubilación?\nPensaban que se iba a quedar en Miami viendo telenovelas.\n¿Por qué trabajan al amparo de los árboles?\nPorque el sol de la Florida no perdona.\n¿Por qué hay que remover la tierra con cuidado?\nPorque, según la profesora, la tierra también es un documento.\n¿Qué puede indicar el rastro de fuego que encontró Gloria?\nPuede indicar dónde estaba la cocina de la casa.\n¿De qué se encarga Gloria?\nSe encarga de las fundas: escribe la fecha, el lugar y el número de cada pieza."
+    }
+  ]
+}

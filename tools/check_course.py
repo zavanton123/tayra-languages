@@ -127,6 +127,8 @@ def french_tokens(text, ranks):
     return out
 
 
+ROMAN = re.compile(r"(?=[IVXLC])M{0,3}(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})")
+
 # Object pronouns a Spanish verb can carry at its end, longest first so "les" goes before "le".
 SPANISH_CLITICS = ("los", "las", "les", "nos", "os", "lo", "la", "le", "me", "te", "se")
 UNACCENTED = str.maketrans("áéíóú", "aeiou")
@@ -231,6 +233,11 @@ def check(path, brief=False):
             whole_names += text.count(name)
             text = text.replace(name, " ")
         toks = tokens(text, code, ranks, names, verbs)
+        # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
+        if code == "es":
+            numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
+            toks = [t for t in toks if not ROMAN.fullmatch(t)]
+            whole_names += numerals
         lowered = [fold(code, t.lower()) for t in toks] + ["\u0000name"] * whole_names
         names_here = names | {"\u0000name"}
         outside = {}
