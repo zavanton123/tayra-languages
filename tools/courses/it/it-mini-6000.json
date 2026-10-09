@@ -1,0 +1,228 @@
+{
+  "id": "it-mini-6000",
+  "rankUpTo": 6000,
+  "level": "C1",
+  "title": "Memorie",
+  "description": "Ten calm first-person memoirs of everyday life across Italy and abroad: a childhood summer, a first job, an old house, a sea crossing, a violin teacher, a village volleyball team, years in Switzerland, a family kitchen, a short film and a late swimming lesson.",
+  "topic": "Memoirs",
+  "names": [
+    "Locorotondo",
+    "Puglia",
+    "Assunta",
+    "Nicola",
+    "Milano",
+    "Peppino",
+    "Torino",
+    "Bertolotti",
+    "Lia",
+    "Monferrato",
+    "Piemonte",
+    "Casale",
+    "Ferraris",
+    "Teresa",
+    "Luigi",
+    "Alpi",
+    "Genova",
+    "Sardegna",
+    "Sandro",
+    "Palau",
+    "Olbia",
+    "Cremona",
+    "Stradivari",
+    "Orlandi",
+    "Mazara del Vallo",
+    "Sicilia",
+    "Salvo",
+    "Giuseppe",
+    "Mondiali",
+    "Europa",
+    "Calabria",
+    "Lugano",
+    "Ticino",
+    "Canton Ticino",
+    "Concetta",
+    "Chiasso",
+    "Zurigo",
+    "Ines",
+    "Friuli",
+    "Udine",
+    "Luca",
+    "Marta",
+    "Fabio",
+    "Gianni",
+    "Italia",
+    "Lecce",
+    "Elisa",
+    "Livorno",
+    "Roma",
+    "Sofia",
+    "Franca",
+    "Svizzera"
+  ],
+  "lessons": [
+    {
+      "title": "La quercia del nonno",
+      "summary": "A man remembers his childhood summers at his grandparents' farm in Puglia: the grandmother's cooking, the oak tree, the hawk and a stubborn donkey.",
+      "newWords": [
+        "tonno",
+        "pizzo",
+        "vegetale",
+        "rado",
+        "quercia",
+        "falco",
+        "pigro",
+        "domare",
+        "cicatrice",
+        "nausea"
+      ],
+      "text": "Da bambino passavo ogni estate a Locorotondo, in Puglia, nella casa di mia nonna Assunta e di mio nonno Nicola. Il viaggio da Milano durava quasi un giorno, e io soffrivo di nausea già dopo la prima galleria. Mio padre fermava la macchina, io scendevo e aspettavo seduto sul bordo della strada finché la nausea non passava. Appena arrivavamo, però, il malessere spariva: bastava l'odore della cucina di mia nonna.\n\nLa nonna cucinava con una pazienza che oggi si incontra di rado. Il sabato preparava le orecchiette, e per me faceva un sugo speciale con il tonno, che portava in tavola con un filo d'olio. Aveva uno scialle di pizzo che aveva ricamato da ragazza, e sulle finestre teneva tendine di pizzo bianco, che la sera si muovevano appena. Nel suo orto cresceva ogni specie vegetale che si potesse immaginare: pomodori, zucchine, basilico, perfino un limone. Per lei il mondo vegetale era una famiglia, con i suoi caratteri e i suoi capricci.\n\nIl nonno, invece, parlava di rado. Passava le mattine sotto una grande quercia in fondo al campo, seduto su una panca di legno che aveva costruito lui. Sopra la quercia girava ogni giorno un falco, lento e sicuro. «Guardalo» mi diceva il nonno. «È l'unico che non ha mai fretta.» Io, che quell'estate ero un ragazzo piuttosto pigro, mi sdraiavo accanto a lui e guardavo il falco finché mi addormentavo. Il nonno non mi rimproverava. «Non sei pigro» diceva, «sei in vacanza. È diverso.»\n\nFu proprio quell'estate che volli fare l'eroe. Il nonno aveva un asino testardo, Peppino, che nessuno riusciva a domare. Una mattina, mentre gli adulti erano al mercato, decisi di domarlo io. Salii sulla sua schiena con grande sicurezza e scesi molto più in fretta, perché Peppino mi buttò a terra contro il muro di pietra. Mi sbucciai il ginocchio, e la ferita lasciò una cicatrice che porto ancora. Il nonno, quando tornò, guardò il ginocchio e non disse niente; poi portò Peppino sotto la quercia e gli diede un pezzo di pane. «Non si può domare chi ha paura» disse soltanto. «Si può solo farsi conoscere.»\n\nOggi la cicatrice è un segno chiaro, sottile come una linea di matita, e quando la vedo ricordo la mano ruvida del nonno sulla mia spalla. Locorotondo è cambiata, e la quercia non c'è più; ma ogni volta che mangio un piatto con il tonno, o vedo un falco sopra un campo, mi sembra di tornare su quella panca.\n\nDomande:\nPerché da bambino soffriva durante il viaggio?\nSoffriva di nausea, e il padre doveva fermare la macchina.\nChe cosa c'era sotto la quercia?\nC'era una panca di legno costruita dal nonno.\nChe cosa faceva il falco?\nGirava lento sopra la quercia ogni giorno.\nPerché ha una cicatrice sul ginocchio?\nPerché Peppino lo buttò a terra quando lui cercò di domarlo.\nChe cosa disse il nonno sull'asino?\nDisse che non si può domare chi ha paura, ma che ci si può solo far conoscere."
+    },
+    {
+      "title": "Il primo stipendio",
+      "summary": "A woman remembers her first job as a programmer in a small Turin firm in 1988, her mistakes, her boss and the day she left.",
+      "newWords": [
+        "programmatore",
+        "predecessore",
+        "faticoso",
+        "distratto",
+        "fatturato",
+        "affiliato",
+        "marginale",
+        "complicazione",
+        "anticipazione",
+        "bozza",
+        "preavviso"
+      ],
+      "text": "Nel 1988 avevo 24 anni, una laurea in matematica e nessuna esperienza. Rispondendo a un annuncio sul giornale, trovai il mio primo vero lavoro in una piccola ditta di Torino che produceva registratori di cassa per i negozi. Cercavano un programmatore, e quando mi presentai il signor Bertolotti, il titolare, mi guardò con sorpresa: si aspettava un uomo. Poi rise e disse che in fondo contavano i risultati, non il sesso del programmatore. Così diventai l'unica programmatrice dell'azienda.\n\nIl contratto che firmai era ancora una bozza, scritta a macchina e corretta a penna dallo stesso signor Bertolotti. Prevedeva un mese di preavviso in caso di dimissioni, e uno stipendio che mi sembrò una fortuna. Anche i miei primi programmi furono bozze: il mio predecessore, un ingegnere partito per Roma, aveva lasciato soltanto appunti confusi, e io dovetti ricominciare da zero.\n\nI primi mesi furono faticosi. Mi alzavo alle 6, prendevo due autobus e passavo le giornate davanti a un monitor verde, a scrivere righe di codice che il giorno dopo dovevo correggere. Ero giovane e un po' distratta, e una mattina, forse perché ero stanca, o distratta dal rumore dell'ufficio, cancellai per errore il programma di un cliente. Mi tremavano le mani. Pensai al mio predecessore, che in tre anni non aveva mai perso un file, e mi sentii molto piccola. Il signor Bertolotti, invece di arrabbiarsi, mi accompagnò al terminale e mi insegnò a recuperare il lavoro dalle copie di sicurezza. «Un errore fatto una volta è una lezione» disse. «Fatto due volte è una distrazione.»\n\nL'azienda non andava benissimo. Il fatturato era sceso da due anni, e il signor Bertolotti ne parlava ogni lunedì, durante la riunione, con la voce di chi ha un peso sul cuore. Prima di ogni Natale confrontava il fatturato con quello dell'anno precedente, e poi chiudeva il quaderno in silenzio. La nostra ditta era affiliata a un gruppo più grande di Milano, e anche i negozi che compravano i nostri registratori erano affiliati a una catena. Quando i dirigenti arrivavano in visita, tutti si preparavano come per un esame. A me, che ero la più giovane, toccava un ruolo marginale: preparare le schede e stare in silenzio. Ma il signor Bertolotti ripeteva che in un programma nessun dettaglio è marginale, e un giorno, in riunione, notai una complicazione nel calcolo delle fatture e la spiegai. Nessuno mi interruppe.\n\nQuell'inverno mia madre si ammalò, e io chiesi un'anticipazione sullo stipendio. Il signor Bertolotti me la diede senza fare domande, e senza complicazioni di nessun genere. Ricordo ancora quell'anticipazione come il gesto più gentile che un datore di lavoro mi abbia mai fatto.\n\nRimasi nella ditta per tre anni. Quando arrivò l'offerta di un'azienda più grande, lasciai Torino dopo due mesi di preavviso, anche se ne bastava uno: volevo lasciare i miei programmi in ordine. Il signor Bertolotti mi strinse la mano e disse che nessuno aveva mai dato un preavviso così lungo. «Ma nessuno aveva mai lasciato un lavoro così ordinato» aggiunse.\n\nDomande:\nChe lavoro trovò a Torino la giovane donna?\nTrovò lavoro come programmatrice in una piccola ditta di registratori di cassa.\nPerché i primi mesi furono faticosi?\nPerché si alzava alle 6, prendeva due autobus e passava le giornate a scrivere codice.\nChe cosa fece il signor Bertolotti dopo l'errore?\nLe insegnò a recuperare il lavoro dalle copie di sicurezza.\nPerché lei chiese un'anticipazione?\nPerché sua madre si era ammalata.\nQuanto preavviso diede quando lasciò la ditta?\nDiede due mesi di preavviso, anche se ne bastava uno."
+    },
+    {
+      "title": "La casa del Monferrato",
+      "summary": "A man tells how he and his wife bought and repaired an old country house in Piedmont that once belonged to a banker and a countess.",
+      "newWords": [
+        "edificare",
+        "banchiere",
+        "contessa",
+        "governante",
+        "ingente",
+        "aggiustare",
+        "fabbro",
+        "matrimoniale",
+        "angolare",
+        "secolare"
+      ],
+      "text": "Nel 1995 mia moglie Lia e io comprammo una casa di campagna nel Monferrato, in Piemonte, dopo un anno di ricerche. Non era una casa comoda: il tetto perdeva, le finestre non si chiudevano e il giardino sembrava un piccolo bosco. Ma sull'angolo della facciata c'era una pietra angolare con una data incisa, 1791, e Lia, passandoci sopra la mano, disse: «È questa». Io non ebbi il coraggio di contraddirla.\n\nL'agente immobiliare ci raccontò la storia. La casa era stata edificata alla fine del Settecento da un banchiere di Casale, che voleva una villa lontano dalla città. Mi chiedevo spesso perché l'avesse edificata proprio lì, in cima a una collina, dove il vento arriva da tutte le parti; poi capii che da quella finestra si vedevano le Alpi. Dopo il banchiere la casa era passata di mano in mano, fino all'ultima proprietaria, la contessa Ferraris, una signora anziana morta pochi anni prima. «La sua governante, Teresa, ha vissuto qui fino all'ultimo giorno» aggiunse l'agente. «Ora abita in paese, da una nipote.»\n\nAndammo a trovare la vecchia governante, che ci accolse con una torta di nocciole. Parlò della casa come di una persona di famiglia: ci disse quale porta cigolava, quale stanza prendeva il sole al mattino e dove la contessa teneva il suo servizio da tè. Per un'ora ascoltammo la storia di una donna che non avevamo mai conosciuto, e quando uscimmo ci sembrò di essere già in debito con lei.\n\nI lavori furono lunghi e le spese ingenti. Riparare il tetto costò più di quanto avevamo previsto, una somma ingente per due insegnanti, e per il resto dovemmo fare una scelta dopo l'altra. Il fabbro del paese, Luigi, un uomo con le mani larghe come pale, aggiustò i cancelli e le ringhiere del balcone e rifece i cardini di tutte le persiane. Lavorava lentamente, e quando gli chiedevo quando avrebbe finito rispondeva: «Il ferro non ha fretta.» Un giorno aggiustò anche l'orologio del salone, che si era fermato nel 1962, e ci disse che non voleva essere pagato: era un regalo per la casa.\n\nIl giorno del trasloco ci fu una piccola crisi: il letto matrimoniale non passava per la scala stretta. Provammo di lato, poi dritto, poi girato; alla fine Luigi e due vicini lo sollevarono fino alla finestra con una corda, mentre Lia rideva così tanto che dovette sedersi sui gradini. Quella sera dormimmo nel letto matrimoniale, in una camera senza tende, con le stelle che entravano dalla finestra.\n\nOggi gli alberi secolari del giardino sono ancora più alti, e la pietra angolare è coperta d'edera. Teresa viene a trovarci ogni domenica, e ogni volta ripete che le mura secolari di questa casa hanno visto cose più strane di un letto sulla finestra.\n\nDomande:\nChe cosa c'era sull'angolo della facciata?\nC'era una pietra angolare con la data 1791.\nChi aveva edificato la casa?\nUn banchiere di Casale, alla fine del Settecento.\nChi era Teresa?\nEra la vecchia governante della contessa Ferraris.\nChe cosa fece il fabbro Luigi?\nAggiustò i cancelli, le ringhiere, le persiane e anche l'orologio del salone.\nPerché ci fu una crisi il giorno del trasloco?\nPerché il letto matrimoniale non passava per la scala stretta."
+    },
+    {
+      "title": "Il traghetto per la Sardegna",
+      "summary": "A woman remembers her first sea crossing, aged 10, from Genoa to Sardinia with her diver uncle, a rough night and a dawn on deck.",
+      "newWords": [
+        "imbarcazione",
+        "approdare",
+        "muta",
+        "estremità",
+        "vagare",
+        "avverso",
+        "precauzione",
+        "rilassato",
+        "leggerezza",
+        "oltretutto"
+      ],
+      "text": "Nell'estate del 1976, quando avevo 10 anni, partii da Genova per la Sardegna con mio zio Sandro, che viveva a Palau e faceva il sub. Era la mia prima traversata in nave, e mi sentivo molto grande. Oltretutto, era la prima volta che dormivo lontano da casa. Mia madre ci salutò dal molo, e mio zio, per precauzione, mi tenne la mano finché non fummo sul ponte. «Il mare non è un parco giochi» mi disse. «Qui ci vuole un po' di precauzione, anche quando è calmo.»\n\nLa notte il tempo diventò avverso. Il vento girò, le onde alzarono la nave e la riabbassarono, e io, sdraiata su una panca del salone, sentii arrivare la nausea. Mio zio, invece, era perfettamente rilassato: leggeva il giornale con le gambe incrociate, come se fosse in poltrona. «Il mare ha il suo carattere» disse. «Se lo combatti, perdi. Se lo accompagni, ti porta dove vuoi.» Non capii bene, ma mi piacque il tono.\n\nVerso l'alba salii sul ponte e cominciai a vagare tra le sedie, i cavi e le scale, con una coperta sulle spalle. Il cielo si apriva piano, prima grigio e poi rosa, e il vento si calmò. Fu in quel momento che provai una leggerezza strana, come se tutto il peso della notte fosse rimasto in fondo al mare. Anche la nausea sparì, e con essa la mia paura. Era una leggerezza che da grande ho ritrovato solo poche volte. Davanti a noi, nella luce bassa, comparve una linea scura: la Sardegna.\n\nApprodammo a Olbia alle 7. Il resto del viaggio fu semplice: un amico di mio zio ci aspettava al porto con una piccola imbarcazione a motore, e insieme seguimmo la costa fino a Palau, all'estremità nord dell'isola. Quella piccola imbarcazione, bianca e blu, ballava sulle onde come un tappo, ma io non ebbi più paura. Ricordo l'acqua trasparente e le rocce rosa, e mio zio che indicava i punti dove da ragazzo aveva visto i polpi.\n\nLa sera, nella sua casa bianca, l'ultima del paese, proprio all'estremità della strada, mio zio mi mise davanti un pacco. Dentro c'era una muta da sub, piccola, nera, con una striscia gialla sul braccio. Mi andava troppo larga, e le maniche mi arrivavano alle ginocchia, ma la indossai lo stesso e camminai per tutta la stanza come un astronauta. Oltretutto, era nuova di zecca e profumava di gomma e di mare. Il giorno dopo, sul bordo della barca, la muta mi tenne calda nell'acqua fredda, e per la prima volta guardai il mare dal di dentro.\n\nDa allora ho fatto molte traversate, con ogni genere di tempo. Ma ricordo sempre quella notte avversa e la voce rilassata di mio zio, che mi insegnò una cosa semplice: del mare ci si può fidare, purché lo si rispetti.\n\nDomande:\nCon chi partì da Genova la bambina?\nPartì con suo zio Sandro, che faceva il sub.\nCom'era il tempo durante la notte?\nEra avverso, con vento e onde alte.\nChe cosa fece lei all'alba?\nSalì sul ponte e cominciò a vagare tra le sedie, i cavi e le scale.\nDove approdarono la mattina?\nApprodarono a Olbia alle 7.\nChe regalo ricevette dallo zio?\nRicevette una muta da sub, piccola e nera."
+    },
+    {
+      "title": "Il maestro di violino",
+      "summary": "A woman remembers her violin teacher at the Cremona conservatory in the 1980s and what he taught her about listening.",
+      "newWords": [
+        "conservatorio",
+        "violino",
+        "leggendario",
+        "immortale",
+        "didattico",
+        "umiltà",
+        "confidenza",
+        "pretesa",
+        "focalizzare",
+        "risalto"
+      ],
+      "text": "Nel 1982, a 12 anni, entrai nel conservatorio di Cremona con un violino piccolo, prestato da una zia. Cremona è la città dei liutai, e il nome di Stradivari è, per i suoi abitanti, quasi immortale: i suoi strumenti, si dice, non muoiono mai. Io però ero soltanto una ragazzina timida venuta da un paese di campagna, e il mio insegnante, il maestro Orlandi, era una figura leggendaria. Per noi bambini era quasi immortale anche lui. In città raccontavano che da giovane avesse suonato nelle grandi sale d'Europa, e che a 70 anni riconoscesse un violino dal solo rumore della cassa.\n\nIl suo metodo didattico era diverso da tutti gli altri. Per un mese non ci fece suonare altro che una nota. «Una sola» diceva. «Ascoltatela finché diventa un'amica.» Per le prime settimane pensai che fosse uno scherzo, ma un pomeriggio, mentre ripetevo il la per la centesima volta, sentii il suono cambiare dentro la stanza, come se qualcuno aprisse una finestra. Il maestro sorrise e disse: «Ecco. Adesso puoi cominciare.»\n\nCon noi non c'era troppa confidenza: il maestro ci dava del Lei, anche se avevamo 12 anni, e per questo ci sembrava ancora più importante. Ma con la musica, diceva, la confidenza è necessaria. «Se hai paura del violino, il violino ha paura di te.» Ci faceva toccare lo strumento, girarlo, annusarlo, perfino metterlo sulle ginocchia come un gatto, finché non lo sentivamo una cosa nostra.\n\nAveva pochissime pretese. Non pretendeva velocità, né virtuosismo, né i bei voti. La sua unica pretesa era l'attenzione. «Dovete focalizzare tutto in un solo suono» ripeteva, «e dimenticare il resto. Focalizzare è come accendere una luce: tutto il resto rimane al buio.» Lo faceva lui per primo: quando suonava, il suo viso diventava calmo, e sembrava che nella stanza non esistesse nient'altro. Il maestro Orlandi restava leggendario anche per questo: nessuno lo aveva mai visto perdere la pazienza. Ci insegnò a dare risalto al silenzio, perché una pausa ben fatta, diceva, mette in risalto la nota che viene dopo.\n\nSoprattutto, però, ci insegnò l'umiltà. Alla fine di ogni saggio ripeteva che i grandi violini sono immortali, ma i violinisti no, e che bisogna imparare a suonare per qualcosa di più grande di sé. Poi ci chiedeva che cosa avessimo sbagliato, mai che cosa avessimo fatto bene. «I complimenti li farà la gente» diceva. «Voi dovete sapere dove migliorare.» Ci sembrava severo; oggi so che era soltanto onesto.\n\nNon sono diventata una concertista. Faccio l'insegnante di musica in una scuola media, e il mio metodo didattico è, in fondo, il suo: una sola nota, finché diventa un'amica. Quando un bambino la trova, e nella stanza si apre quella finestra, penso al maestro Orlandi e gli dico grazie, anche se non può più sentirmi.\n\nDomande:\nDove studiava la protagonista?\nStudiava nel conservatorio di Cremona.\nChe cosa si raccontava del maestro Orlandi?\nSi raccontava che da giovane avesse suonato nelle grandi sale d'Europa.\nChe cosa fece suonare il maestro per un mese?\nUna nota sola, il la.\nQual era la sua unica pretesa?\nLa sua unica pretesa era l'attenzione.\nChe cosa insegnò soprattutto il maestro?\nInsegnò soprattutto l'umiltà."
+    },
+    {
+      "title": "La squadra del paese",
+      "summary": "A man remembers the village volleyball team in western Sicily in 1989: the parade, the veteran coach, the radio commentator and the fans.",
+      "newWords": [
+        "pallavolo",
+        "sfilata",
+        "piazzale",
+        "veterano",
+        "tifo",
+        "commentatore",
+        "concorrere",
+        "volontariamente",
+        "avvalersi",
+        "vantaggioso"
+      ],
+      "text": "Nel 1989 avevo 14 anni e giocavo nella squadra di pallavolo di Mazara del Vallo, in Sicilia. Non eravamo un gruppo famoso: nessuno di noi era alto, e la nostra palestra aveva un tetto che perdeva quando pioveva. Ma quell'anno la società decise di concorrere al torneo della provincia, e per la prima volta nella storia del paese si parlò di noi sul giornale.\n\nL'allenatore era Salvo, un veterano della pallavolo che aveva giocato per quasi venti anni nelle squadre dell'isola. Non gridava mai. Metteva le mani in tasca, guardava il campo e diceva soltanto: «Più vicini. Più vicini alla palla, più vicini fra voi.» Per lui la pallavolo era un lavoro di squadra prima che di braccia. Faceva allenare insieme i più alti e i più bassi, i più forti e i più lenti, e alla fine delle sedute ci faceva raccogliere le palle tutti insieme, nessuno escluso.\n\nLa società non aveva soldi. Per questo si avvaleva di genitori che, volontariamente, venivano a fare tutto: lavare le magliette, guidare il pullmino, preparare il panino per i viaggi. Mia madre cuciva i numeri sulle maglie; il padre di Giuseppe, che faceva il muratore, riparò il tetto della palestra senza chiedere niente. Ci si avvaleva anche di commercianti generosi: il salumiere, che era un tifoso, fece con noi un accordo vantaggioso: forniva i panini per tutte le trasferte e, in cambio, il suo nome compariva sulle nostre magliette. Era un accordo vantaggioso per tutti, diceva, perché la gente lo vedeva e comprava da lui.\n\nLa domenica prima del torneo ci fu la sfilata. Tutte le squadre partirono dal piazzale della stazione e attraversarono il centro fino alla piazza grande, con le magliette nuove e la banda del paese davanti. Io portavo la bandiera della squadra. Sul marciapiede c'erano mia madre, le vicine, i compagni di scuola; qualcuno gridava il mio nome, e io, che ero timido, tenni gli occhi fissi sul piazzale per non farmi vincere dall'emozione.\n\nIl tifo, durante le partite, riempiva la palestra, e il tifo più rumoroso era quello delle nonne. Il commentatore della radio locale, un signore con una voce da teatro, raccontava ogni punto come se fosse la finale dei Mondiali, e anche il secondo commentatore, suo cugino, non stava mai zitto. Non vincemmo il torneo: dopo tanti sacrifici arrivammo terzi su otto squadre, e per noi fu come una vittoria. Eravamo felici di avere potuto concorrere con le squadre delle città grandi. Quando tornammo, il piazzale della stazione era pieno di gente con le bandiere. Salvo ci guardò, tolse le mani dalle tasche e, per la prima e unica volta, ci abbracciò uno per uno.\n\nDomande:\nIn quale sport giocava il ragazzo?\nGiocava a pallavolo, nella squadra di Mazara del Vallo.\nChi era Salvo?\nEra l'allenatore, un veterano della pallavolo.\nCome lavoravano i genitori per la società?\nLavoravano volontariamente: lavavano le magliette, guidavano il pullmino e riparavano il tetto.\nDa dove partì la sfilata?\nPartì dal piazzale della stazione.\nCome finì il torneo?\nLa squadra arrivò terza su otto, e per i ragazzi fu una vittoria."
+    },
+    {
+      "title": "Un anno a Lugano",
+      "summary": "A woman remembers working in a lakeside hotel in Ticino at 19: the lost suitcase, the parking fine, the cancelled train and the return of her deposit.",
+      "newWords": [
+        "confederazione",
+        "temporaneamente",
+        "contrariamente",
+        "reclamare",
+        "localizzato",
+        "multare",
+        "soppressione",
+        "lamentarsi",
+        "restituzione"
+      ],
+      "text": "Nel 1974 avevo 19 anni e lasciai il mio paese in Calabria per lavorare a Lugano, nel Canton Ticino, come cameriera ai piani in un grande albergo sul lago. Mia zia Concetta abitava lì da dieci anni e mi aveva trovato il posto. Il viaggio durò due giorni: un treno fino a Milano, poi un altro fino a Chiasso, dove un controllore mi disse con un sorriso che oltre la frontiera si parlava la mia lingua, ma con un accento un po' diverso.\n\nContrariamente a quanto temevo, la Svizzera italiana non mi sembrò un paese straniero. Le insegne erano in italiano, la gente diceva «buongiorno» come a casa mia, e il lago somigliava un po' al mare, anche se era più tranquillo. Eppure la Confederazione svizzera aveva regole che non conoscevo, e le imparai a poco a poco. Ogni cantone, mi spiegò mia zia, ha le sue abitudini, ma tutta la Confederazione ama l'ordine. Il mio permesso di soggiorno valeva soltanto per la stagione, e quindi vivevo temporaneamente da mia zia, in una camera piccola sopra una panetteria. Ogni volta che il permesso scadeva dovevo andare in un ufficio a rinnovarlo, con una fotografia nuova e molta pazienza.\n\nLa prima settimana la mia valigia non arrivò. Era rimasta su un treno, e nessuno sapeva dove. Andai alla stazione a reclamare, con il mio piccolo vocabolario in tasca, e un impiegato gentile cercò per mezz'ora nei registri. Finalmente la valigia fu localizzata in un deposito vicino a Zurigo, e tre giorni dopo me la consegnarono con le scuse delle ferrovie. Imparai così che in Svizzera si può reclamare senza alzare la voce, e che qualcuno ti risponde davvero.\n\nUn'altra volta fui multata. Avevo lasciato la bicicletta contro un muro dove non si poteva, e un vigile, che non aveva nessuna voglia di multare una ragazza appena arrivata, controllò due volte il regolamento e poi dovette multarmi lo stesso, con un sorriso quasi dispiaciuto. Pagai 20 franchi, quasi una giornata di lavoro. Da allora controllo sempre i cartelli.\n\nIn dicembre la neve fermò i treni, e la sera annunciarono la soppressione dell'ultimo treno per Chiasso. Ero alla stazione con una collega, e restammo ad aspettare al freddo. Nessuno però aveva voglia di lamentarsi: in quel paese, mi sembrava, lamentarsi non serviva a niente, e tutti cercavano una soluzione. Il capostazione ci offrì un tè caldo e ci spiegò che la soppressione era dovuta alla neve sui binari. Dormimmo da una famiglia che abitava lì vicino, in un salotto con il camino acceso.\n\nContrariamente a ciò che temevo, la nostalgia di casa fu dolce e non triste. Rimasi a Lugano quattro stagioni. Quando tornai in Calabria, la padrona della camera mi mostrò l'elenco delle spese e poi, davanti a me, contò i soldi della cauzione. La restituzione fu puntuale, fino all'ultimo franco. Ripartii con una valigia più pesante di quella con cui ero arrivata, e dentro, fra i vestiti, c'era anche la lezione di quel paese preciso e gentile.\n\nDomande:\nDove lavorava a Lugano la giovane donna?\nLavorava come cameriera ai piani in un grande albergo sul lago.\nPerché viveva temporaneamente dalla zia?\nPerché il suo permesso valeva soltanto per la stagione.\nDove fu localizzata la valigia?\nFu localizzata in un deposito vicino a Zurigo.\nPerché la sera annunciarono la soppressione dell'ultimo treno?\nPerché la neve aveva fermato i treni sui binari.\nChe cosa ricevette quando lasciò la camera?\nRicevette la restituzione della cauzione, fino all'ultimo franco."
+    },
+    {
+      "title": "La cucina di Ines",
+      "summary": "A man remembers his mother's kitchen in Udine, from bread and tomato seedlings to the day his son became vegan.",
+      "newWords": [
+        "radicato",
+        "manipolazione",
+        "omogeneo",
+        "trapianto",
+        "accumulato",
+        "evolvere",
+        "vegano",
+        "equilibrato"
+      ],
+      "text": "Mia madre Ines cucinava come si cucinava in Friuli negli anni Sessanta: polenta, minestra d'orzo e, la domenica, un brodo che profumava tutta la scala. Nella nostra cucina, a Udine, le abitudini erano così radicate che nessuno pensava di cambiarle. Il pane si faceva il sabato, e la manipolazione dell'impasto spettava a lei, che lo lavorava per mezz'ora, fino a renderlo liscio e omogeneo, senza un grumo. Se non era omogeneo come la seta, ricominciava da capo. «La manipolazione giusta» diceva «si impara con le mani, non con i libri.» A me, bambino, dava un pezzetto di pasta da stringere e allungare, e io lo trasformavo in serpenti.\n\nOgni maggio, nell'orto, c'era il trapianto dei pomodori. Mia madre portava fuori le piantine nate in piccoli vasi sul davanzale e le metteva in terra una a una, la sera, perché non soffrissero il sole. Per lei il trapianto era un rito. «Una pianta spostata male si offende» diceva. Se una piantina era troppo debole, la teneva in cucina un'altra settimana. Tutta l'estate, poi, i barattoli di salsa si accumulavano in cantina in file ordinate, e sugli scaffali c'erano anche i quaderni di ricette accumulati in cinquant'anni, scritti con una calligrafia piccola e fitta. Tutto ciò che si era accumulato in quella cucina, dalle pentole ai ricordi, aveva un posto preciso.\n\nCon gli anni, come ogni cosa viva, la nostra cucina evolveva. Entrarono il riso integrale, il pesce al forno, le spezie che mia moglie portava dai viaggi. Mia madre guardava tutto con sospetto, ma assaggiava. Era una donna radicata nelle sue tradizioni, non chiusa nelle sue abitudini, e la differenza, diceva, è la stessa che passa tra un albero e un palo.\n\nLa prova più grande arrivò nel 2015, quando mio figlio Luca, a 16 anni, annunciò a tavola che sarebbe diventato vegano. Mia madre, che allora aveva 85 anni, lo guardò come se avesse detto di voler vivere sulla luna. «Che cosa mangia, un vegano?» chiese. Luca le spiegò con pazienza che non mangiava niente di origine animale: né carne, né pesce, né uova, né latte. Lei rimase un po' in silenzio. Poi andò in camera, tornò con un quaderno nuovo e scrisse in prima pagina, con la sua calligrafia fitta, la parola «vegano».\n\nPer un mese studiò. Chiese consiglio al medico di famiglia, che le disse che un pasto vegano può essere equilibrato, a patto di sapere che cosa si mette nel piatto. Provò crema di lenticchie, zuppa di verdure, polenta con i funghi, pane con la marmellata fatta in casa. Quando assaggiò per la prima volta il risultato, Luca disse che era il pasto più equilibrato e più buono che avesse mangiato da mesi.\n\nMia madre non c'è più, ma il quaderno è nella mia cucina, accanto agli altri. E ogni maggio, quando faccio il trapianto dei pomodori, ricordo che una tradizione, per restare viva, deve poter evolvere.\n\nDomande:\nChe cosa spettava a Ines il sabato?\nSpettava a lei la manipolazione dell'impasto del pane.\nQuando faceva il trapianto dei pomodori?\nLo faceva ogni maggio, nell'orto, la sera.\nChe cosa annunciò Luca a tavola nel 2015?\nAnnunciò che sarebbe diventato vegano.\nChe cosa fece Ines dopo averlo ascoltato?\nComprò un quaderno nuovo e studiò per un mese.\nChe cosa disse il medico di famiglia?\nDisse che un pasto vegano può essere equilibrato, se si sta attenti."
+    },
+    {
+      "title": "Un cortometraggio a Lecce",
+      "summary": "A man remembers the summer of 1999 when four friends shot a twelve-minute short film in the baroque streets of Lecce.",
+      "newWords": [
+        "cortometraggio",
+        "barocco",
+        "evo",
+        "brutale",
+        "emanato",
+        "avvisato",
+        "innescare",
+        "traverso",
+        "ricarica",
+        "rimpianto",
+        "psichiatra"
+      ],
+      "text": "Nell'estate del 1999 avevo 20 anni e un'idea fissa: girare un cortometraggio. Con tre amici di Lecce, Marta, Fabio e Gianni, avevo scritto una storia di dodici minuti su un giovane artigiano che nel Medio Evo costruisce una campana per la sua città. Non avevamo soldi e non sapevamo niente, ma avevamo lo scenario più adatto d'Italia: il barocco leccese, la pietra dorata che in certe ore sembra miele, i portali ricchi di fiori e di figure. Quel cortometraggio, per noi, doveva essere un passaporto per il resto della vita.\n\nIl padre di Marta, che faceva lo psichiatra, ci prestò la sua vecchia videocamera. Disse con un sorriso che il suo mestiere gli aveva insegnato a non giudicare le idee degli altri, ma a controllare le batterie. Aveva ragione: la ricarica durava tre ore e la batteria non resisteva più di venti minuti, quindi ogni scena doveva essere pensata prima. Per la ricarica ci serviva una presa, e la presa più vicina era in casa di una signora che ci offriva il caffè. Fabio, che faceva l'attore, ripeteva le battute camminando per strada, e i passanti lo guardavano come se fosse impazzito.\n\nIl primo giorno di riprese il caldo era brutale: 38 gradi alle 11 di mattina. Il calore emanato dalla pietra barocca sembrava uscire da un forno, e il costume di lana del Medio Evo, che la madre di Gianni aveva fatto a mano, era una piccola pena. Fabio quasi cadde a terra. Il custode della chiesa ci aveva avvisati che alle 11 avrebbe chiuso le porte; anche il Comune ci aveva avvisato, per lettera, di non occupare la piazza. Il custode chiuse davvero, e noi ci ritrovammo con la scena a metà, in piazza, sotto il sole.\n\nQuel giorno litigammo. Fu una piccola discussione innescata da una battuta di Gianni sul testo, che Marta prese sul serio. Per dieci minuti nessuno parlò. Poi Gianni comprò un dolce per tutti, e io, per la fretta, lo mandai giù e mi andò di traverso. Tutto mi andava di traverso, quel giorno, anche il caffè. Cominciai a tossire così tanto che scoppiammo tutti a ridere, e la pace tornò. Nel bar, fra l'altro, c'era un profumo di burro e di limone emanato dal forno, e ancora oggi, quando lo sento, torno a quel pomeriggio.\n\nFinimmo le riprese in dieci giorni. Il cortometraggio durò dodici minuti, ma sembrò un'ora, e quando lo proiettammo in cortile, davanti alle famiglie, tutti applaudirono la pietra barocca più di noi. Non vinse nessun premio. Nessuno di noi è diventato regista, e io faccio l'impiegato. Eppure non ho nessun rimpianto: quell'estate imparai che un'idea, per diventare reale, ha bisogno di un amico, di una batteria carica e di un po' di pazienza.\n\nDomande:\nDi che cosa parlava il cortometraggio?\nParlava di un artigiano che nel Medio Evo costruisce una campana.\nChi prestò la videocamera?\nLa prestò il padre di Marta, che faceva lo psichiatra.\nPerché il primo giorno fu difficile?\nPerché il caldo era brutale e il custode chiuse i portoni della chiesa.\nChe cosa innescò la piccola discussione?\nUna battuta di Gianni sul testo.\nHa un rimpianto, oggi?\nNo, perché quell'estate imparò molte cose."
+    },
+    {
+      "title": "Imparare a nuotare",
+      "summary": "A woman from Livorno who never learned to swim tries a first lesson at 60, helped by her granddaughter and a young teacher.",
+      "newWords": [
+        "vivamente",
+        "provarci",
+        "metterti",
+        "possibilmente",
+        "pazzia"
+      ],
+      "text": "Sono nata a Livorno, a cento metri dal mare, e fino ai 60 anni non ho mai imparato a nuotare. Può sembrare strano, ma da bambina mia madre mi teneva lontana dall'acqua con una paura che non si discuteva. «Il mare è bello da guardare» diceva. Così ho passato la vita sulla riva, con i piedi nell'acqua fino alle caviglie e gli occhi fissi sugli altri.\n\nNel 1998, d'estate, mia nipote Sofia, che aveva 10 anni e nuotava come un pesce, mi guardò con serietà e disse: «Nonna, perché non vieni a nuotare con noi?» Risposi che alla mia età certe cose non si imparano più. «Non lo sai finché non ci provi» disse lei. «Dai, nonna, devi solo metterti in acqua e provarci.» Quella sera lo raccontai a mia sorella Franca, che alzò le mani: «Una pazzia! A 60 anni!» Il giorno dopo, però, mi telefonò per dirmi che conosceva una piscina comunale con un corso per adulti, e mi consigliò vivamente di iscrivermi.\n\nCi andai di mercoledì pomeriggio, possibilmente nell'ora in cui c'era meno gente. L'istruttrice si chiamava Elisa, aveva 25 anni, e portava un fischietto che non usò mai. Mi disse di non avere fretta. Dovevo soltanto mettermi in acqua fino al petto e respirare. «Per ora» disse, «l'unica cosa che ti chiedo è di metterti comoda, come in poltrona.» Sofia, seduta sul bordo, mi faceva il tifo con la mano.\n\nFu una lezione lenta e buffa. Elisa mi insegnò a soffiare nell'acqua, a stare a galla con la schiena sostenuta da un lungo tubo di gommapiuma, a muovere le gambe senza battere i piedi sul fondo. Io pensavo ancora: «È una pazzia, tutta questa fatica per niente». Poi, a un certo punto, Elisa tolse piano il tubo, e io galleggiai per quattro secondi da sola. Quattro secondi! Sofia gridò dal bordo, e una signora anziana in corsia accanto a me applaudì.\n\nAlla fine del corso, in ottobre, nuotavo da una parte all'altra della piscina, con un movimento lento e un po' goffo, ma con l'aria di una regina. Franca venne a vedermi e non disse niente; poi mi abbracciò e mi confessò che aveva sempre voluto provarci anche lei. Oggi andiamo insieme, ogni mercoledì.\n\nIl mare, adesso, lo guardo da dentro. E quando una persona più giovane mi dice che per lei è troppo tardi per cominciare qualcosa, le consiglio vivamente di provarci, possibilmente prima di passare una vita con i piedi nell'acqua fino alle caviglie.\n\nDomande:\nPerché la protagonista non sapeva nuotare?\nPerché da bambina sua madre la teneva lontana dall'acqua.\nChe cosa disse la sorella Franca?\nDisse che era una pazzia imparare a nuotare a 60 anni.\nChi era Elisa?\nEra l'istruttrice del corso per adulti nella piscina comunale.\nQuanto galleggiò da sola la prima volta?\nGalleggiò quattro secondi da sola.\nChe cosa consiglia oggi a chi vuole cominciare qualcosa?\nGli consiglia vivamente di provarci, possibilmente subito."
+    }
+  ]
+}
