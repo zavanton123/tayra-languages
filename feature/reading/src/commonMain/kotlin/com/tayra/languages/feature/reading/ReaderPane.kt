@@ -115,7 +115,9 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
         }
         ScrollColumn(
             Modifier.weight(1f).fillMaxWidth().background(colors.surfaceVariant.copy(alpha = 0.35f)),
-            contentModifier = Modifier.padding(horizontal = 16.dp, vertical = 14.dp),
+            // The bar runs in a gutter of its own at the pane's edge, clear of the cards.
+            contentModifier = Modifier.padding(start = 16.dp, top = 14.dp, bottom = 14.dp, end = 30.dp),
+            scrollbarModifier = Modifier.padding(top = 8.dp, bottom = 8.dp, end = 7.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
             if (showBookmarks) {
