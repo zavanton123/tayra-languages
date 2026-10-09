@@ -1,0 +1,216 @@
+{
+  "id": "it-mini-9000",
+  "rankUpTo": 9000,
+  "level": "C2",
+  "title": "Saggi sul tempo",
+  "description": "Calm, literary essays on time, memory, waiting, clocks, seasons and ageing, each set in a different corner of Italy.",
+  "topic": "Essays on time",
+  "names": [
+    "Lucca",
+    "Ettore",
+    "Bologna",
+    "Lecce",
+    "Clara",
+    "Cesenatico",
+    "Romagna",
+    "Marisa",
+    "Birillo",
+    "Ogliastra",
+    "Sardegna",
+    "Annetta",
+    "Lugano",
+    "Ticino",
+    "Saverio",
+    "Giulio",
+    "Palermo",
+    "Siracusa",
+    "Ortigia",
+    "Concetta",
+    "Carmela",
+    "Carmelo Bruno",
+    "Rosa",
+    "Sicilia",
+    "Luca",
+    "Italia",
+    "Carmelo",
+    "Salerno",
+    "Titina",
+    "Napoli",
+    "Torino",
+    "Gianni",
+    "Pino Torinese",
+    "Saturno",
+    "Rocciamelone",
+    "Genova",
+    "Museo del Molo",
+    "Tommaso",
+    "San Marino",
+    "Ernesto",
+    "Prepotenzio",
+    "Davide"
+  ],
+  "lessons": [
+    {
+      "title": "L'orologiaio di Lucca",
+      "summary": "A traveller brings his grandfather's stopped pocket watch to an old watchmaker in Lucca and learns to listen to time one tick at a time.",
+      "newWords": [
+        "lucchese",
+        "tic",
+        "risuonare",
+        "smantellare",
+        "sigillato",
+        "regolata",
+        "certificare",
+        "nocciolo",
+        "sagoma",
+        "promemoria"
+      ],
+      "text": "Nel centro di Lucca, all'ombra della sagoma della torre con gli alberi sul tetto, c'è una bottega che i lucchesi chiamano semplicemente «da Ettore». Dietro il banco c'è un orologiaio lucchese di settantasei anni che ripara il tempo degli altri da più di mezzo secolo.\n\nCi sono entrato un martedì di febbraio con il vecchio orologio da taschino di mio nonno. Si era fermato da anni, e io non avevo mai avuto il coraggio di aprirlo. Ettore lo ha guardato a lungo, senza dire niente, poi ha acceso una lampada e ha cominciato a smantellarlo con la pazienza di un chirurgo: prima il coperchio, poi le lancette, poi le piccole ruote, che ha messo in fila su un panno verde, come le parti di un discorso. Mentre smantellava, parlava piano. «Un orologio non si ripara» diceva. «Si ascolta. Prima di toccarlo bisogna capire che cosa vuole dire.»\n\nNella bottega c'erano almeno trenta orologi, e ognuno batteva a modo suo. Il tic di uno si univa al tic dell'altro, e a ogni ora tutti insieme facevano un coro. Quando le campane risuonavano dalla piazza, risuonavano anche nella stanza, come un'eco molto piccola. «Il tempo è fatto di tic» mi ha detto Ettore. «Chi non li sente non se ne accorge. Chi li sente tutti impazzisce. Bisogna imparare a sentirne uno solo.»\n\nSotto la lampada è comparso il nocciolo del meccanismo: un anello d'ottone, grande come un'unghia, che teneva insieme tutto il resto. «Ecco il nocciolo della questione» ha detto Ettore. Sul muro, dietro di lui, la sua sagoma si allungava e si accorciava a ogni movimento della mano, e per un momento mi è sembrato che anche l'ombra stesse riparando qualcosa.\n\nIn fondo alla bottega c'è uno scaffale pieno di scatole sigillate. Dentro, mi ha spiegato, ci sono i pezzi di orologi che nessuno è mai venuto a riprendere. Alcuni aspettano da trent'anni. Ettore li tiene sigillati, come si tiene una promessa. Ogni scatola porta un cartoncino scritto a mano, con una data. «Neanche un notaio saprebbe certificare qualcosa di più vero» ha detto. «Questa data certifica che qualcuno, un giorno, ha avuto fiducia in me.»\n\nQuando ha rimesso insieme le ruote, ben regolate una accanto all'altra, l'orologio di mio nonno ha ripreso a battere. Era un tic debole, ma regolare. Ettore ha chiuso il coperchio e mi ha dato un foglio: un promemoria con le istruzioni. Diceva di caricarlo ogni sera alla stessa ora e di non pretendere troppo. «Una giornata ben regolata» ha aggiunto, ridendo «è soltanto una questione di abitudine.»\n\nSono uscito sotto un cielo grigio, con l'orologio nel palmo della mano. Il suo tic batteva contro la pelle come un secondo cuore. Da quel giorno ho un promemoria in più, e non è scritto su carta: ricordarmi di ascoltare, ogni tanto, un solo tic.\n\nDomande:\nChe cosa porta il narratore all'orologiaio?\nPorta il vecchio orologio da taschino di suo nonno, fermo da anni.\nCome comincia a lavorare Ettore?\nComincia a smantellare l'orologio con molta pazienza, mettendo le ruote in fila su un panno verde.\nChe cosa dice Ettore sul tempo?\nDice che il tempo è fatto di tic e che bisogna imparare a sentirne uno solo.\nChe cosa c'è nelle scatole sigillate?\nCi sono i pezzi di orologi che nessuno è mai venuto a riprendere.\nChe cosa dà Ettore al narratore alla fine?\nGli dà l'orologio riparato e un promemoria con le istruzioni."
+    },
+    {
+      "title": "Le ore in più",
+      "summary": "Stuck at Bologna station with a 90-minute delay, a stressed traveller learns to treat waiting as a loan of time rather than a theft.",
+      "newWords": [
+        "buffet",
+        "cassiere",
+        "lumaca",
+        "frustrante",
+        "stressato",
+        "suvvia",
+        "passerella",
+        "locandina",
+        "tristemente",
+        "pigrizia"
+      ],
+      "text": "Quella sera il treno per Lecce aveva 90 minuti di ritardo. L'altoparlante della stazione di Bologna lo ha annunciato con una voce così gentile che per un attimo ho quasi ringraziato. Poi ho guardato il tabellone, dove il mio treno avanzava come una lumaca: ogni cinque minuti una cifra cambiava, e ogni volta la cifra era peggiore.\n\nDevo ammetterlo: aspettare è la cosa che mi riesce peggio. Sono una persona stressata, di quelle che arrivano sempre con venti minuti di anticipo e poi controllano l'orologio ogni mezzo minuto. Per me ogni attesa è frustrante: mi sembra un furto, perché qualcuno mi toglie un pezzo di tempo e non me lo restituisce. Accanto a me, sulla panchina, un signore guardava tristemente il tabellone e sospirava, e io mi sono accorta che stavo facendo lo stesso.\n\n«Suvvia, Clara» mi sono detta. «Hai 90 minuti: fanne qualcosa.»\n\nSono andata al buffet della stazione, una sala lunga con il bancone di marmo e le sedie di legno scuro. Il cassiere, un uomo con i baffi bianchi e le mani lente, mi ha dato lo scontrino con un sorriso di chi ha visto passare tutta Italia. «Ritardo?» ha chiesto. «Ritardo» ho risposto. «Suvvia, si sieda, signora. Qui il tempo non corre, si ferma a bere un caffè.» Mi ha servito un caffè e una fetta di torta, e per la prima volta da ore ho smesso di guardare l'orologio.\n\nSul muro, vicino alla cassa, c'era una locandina un po' sbiadita: annunciava una mostra di fotografie di stazioni, con il titolo «Le ore in più». Mi è sembrato un bel titolo: il ritardo è un'ora in più, regalata senza che nessuno l'abbia chiesta. La pigrizia, che di solito considero un difetto, in quel momento mi è parsa quasi una virtù. È una pigrizia buona, che non ha fretta e permette di guardare davvero quello che abbiamo intorno.\n\nCosì ho finito il caffè e sono salita sulla passerella che attraversa i binari. Da lassù la stazione era un altro posto. Sotto di me i treni arrivavano e ripartivano con calma, e le persone sembravano formiche eleganti, ognuna con la sua valigia. Ho visto una bambina che salutava dal finestrino e due anziani che dividevano un panino. Il signore della panchina, laggiù, guardava ancora tristemente il tabellone. Nessuno aveva davvero fretta. Soltanto io, pensavo, avevo portato la fretta con me, come un ombrello anche quando non piove.\n\nAlle 20:05 il mio treno è arrivato, lento come una lumaca stanca. Ho salutato con la mano il cassiere, che dalla porta del buffet mi ha risposto con un cenno. Mentre il treno partiva, meno stressata di prima, ho capito che l'attesa non era stata un furto: era stata un prestito. Il tempo mi aveva prestato un'ora e mezza e io, dopo qualche resistenza, l'avevo spesa bene. Da allora, quando un treno è in ritardo, cerco subito un buffet e una finestra.\n\nDomande:\nQuanto ritardo ha il treno per Lecce?\nHa 90 minuti di ritardo.\nPerché Clara trova frustrante l'attesa?\nPerché le sembra che qualcuno le tolga un pezzo di tempo senza restituirlo.\nChe cosa le dice il cassiere del buffet?\nLe dice che lì il tempo non corre, ma si ferma a bere un caffè.\nChe cosa annuncia la locandina?\nAnnuncia una mostra di fotografie di stazioni intitolata «Le ore in più».\nChe cosa fa Clara sulla passerella?\nGuarda dall'alto i treni e le persone, e capisce che aveva portato la fretta con sé."
+    },
+    {
+      "title": "La firma delle stagioni",
+      "summary": "A woman who runs a beach club in Romagna reads the year on the sand: winter's rubbish, spring's flood, summer's resin and autumn's velvet light.",
+      "newWords": [
+        "inondazione",
+        "catastrofico",
+        "splendere",
+        "sandalo",
+        "bikini",
+        "velluto",
+        "resina",
+        "avena",
+        "zampa",
+        "immondizia"
+      ],
+      "text": "A Cesenatico, in Romagna, il tempo non si legge sul calendario ma sulla spiaggia. Lo dice Marisa, che gestisce da 35 anni uno stabilimento balneare e che, quando le chiedo che giorno sia, risponde guardando il mare. Ogni stagione, mi spiega, lascia sulla sabbia una sua firma.\n\nL'inverno lascia l'immondizia. Dopo le mareggiate, la riva si riempie di tutto quello che il mare ha deciso di restituire: bottiglie, pezzi di legno, reti, scarpe senza compagna. Marisa percorre la spiaggia con un sacco e un vecchio cane, Birillo, che si ferma ogni dieci passi a leccarsi la zampa. «Non è tanta immondizia» dice. «È solo la memoria dell'anno scorso, che torna a bussare.» Raccogliere l'immondizia è il suo modo di cominciare l'anno. Nessuno la guarda, e a lei piace così.\n\nLa primavera porta l'acqua. Il fiume ingrossa, il cielo si abbassa e per qualche settimana tutti guardano il livello con il fiato sospeso. Marisa ricorda bene l'inondazione di due anni fa. Fu una giornata catastrofica per i campi e per le cantine, dice, ma la parte più dura non fu la notte dell'acqua: fu il tempo dopo, quando bisognava ricominciare. Un'inondazione dura un giorno; la sua memoria dura una vita. Poi, un mattino, l'acqua si ritira e sulla sabbia si vede la prima fila di avena selvatica, che nasce tra le dune come una promessa senza fretta. La zampa di Birillo, ancora bagnata, vi lascia l'orma.\n\nL'estate arriva di colpo, un sabato di giugno. Compaiono i sandali nelle valigie, i bambini con il secchiello, i primi bikini sulle sdraio, uno rosso, uno a fiori, uno che Marisa chiama «il bikini del coraggio». Il sole comincia a splendere sulla spiaggia come se volesse farsi perdonare i mesi di assenza, e dalla pineta dietro lo stabilimento arriva l'odore dolce e caldo della resina. «L'estate ha un profumo di resina e di crema solare» dice Marisa. «Se chiudo gli occhi, so che mese è.» A lei l'estate piace, ma la guarda con affetto un po' stanco, come si guarda un ospite che non vuole mai andare via.\n\nIl momento che preferisce arriva a fine settembre. La spiaggia si svuota, i sandali spariscono e un'altra luce comincia a splendere sul mare: più bassa, più morbida, quasi di velluto. Anche il mare cambia: non è più un blu da cartolina, ma un grigio-verde, pesante e liscio come un velluto. «Ora il tempo mi parla» dice Marisa. «D'estate urla.»\n\nAlla fine della stagione ci sediamo sul gradino dello stabilimento. Birillo dorme con la zampa sul mio piede. Il vento muove l'avena sulle dune, e la sabbia ha già un'altra firma: poche orme, qualche conchiglia, e di nuovo, in fondo alla riva, un po' di immondizia portata dall'acqua. Marisa sorride. «Vedi?» dice. «Il calendario sbaglia. L'anno finisce quando il mare ricomincia a restituire.»\n\nDomande:\nChe cosa lascia l'inverno sulla spiaggia?\nL'inverno lascia l'immondizia che il mare restituisce dopo le mareggiate.\nPerché Marisa ricorda l'inondazione?\nPerché fu una giornata catastrofica per i campi e per le cantine, e la parte più dura fu ricominciare.\nChe cosa si sente d'estate nella pineta?\nSi sente l'odore dolce e caldo della resina.\nCom'è la luce a fine settembre?\nÈ più bassa e più morbida, quasi di velluto.\nQuando finisce l'anno per Marisa?\nL'anno finisce quando il mare ricomincia a restituire."
+    },
+    {
+      "title": "Il pedale della nonna",
+      "summary": "A narrator visits his 98-year-old grandmother in Sardinia and learns from her sewing machine how to age without hurry.",
+      "newWords": [
+        "ictus",
+        "invalidità",
+        "rigenerare",
+        "geneticamente",
+        "enzima",
+        "sovrappeso",
+        "gioire",
+        "tinto",
+        "pedale",
+        "distogliere"
+      ],
+      "text": "Mia nonna Annetta ha 98 anni e vive in un paese dell'Ogliastra, in Sardegna, dove tanti vecchi superano i cento anni. Ogni estate vado a trovarla e ogni estate cerco di capire come si invecchia bene. Ho parlato con molti medici, ma ho imparato di più guardandola mentre cuce.\n\nSì, nonna cuce ancora. Davanti alla finestra c'è la sua macchina nera, di quelle antiche, con il pedale di ferro che si muove con il piede. Lei lo spinge piano, con un ritmo che somiglia a un respiro, e intanto parla. Dice che il pedale è il suo orologio: finché si muove, c'è tempo.\n\nI medici, quando chiedo, sorridono. Le famiglie di questa zona, dicono, sono geneticamente fortunate. Un giovane dottore mi ha spiegato che un certo enzima, nelle persone molto anziane, aiuta il corpo a rigenerare le sue cellule e a riparare i piccoli danni. L'idea mi piace: dentro di lei qualcosa lavora ogni giorno in silenzio per rigenerarla, come un artigiano che nessuno vede. Poi però ha aggiunto che i geni non spiegano tutto. Contano il cibo semplice, il movimento, le amiche e un carattere che non si arrabbia per le cose che non si possono cambiare.\n\nNonna ha avuto un ictus a 91 anni, una mattina d'inverno, mentre faceva il pane. Ci siamo spaventati tutti, tranne lei. Tornata dall'ospedale, ha ricevuto un foglio che parlava di invalidità: una piccola percentuale, qualche parola difficile. Lo ha letto con calma, lo ha messo in un cassetto e ha detto: «Io sono invalida soltanto per le carte. Per il resto, ho da fare.» Da allora fa ogni giorno gli esercizi per la mano destra, con un pallone di gomma, e cuce un po' più lentamente di prima, ma meglio.\n\nIo, al contrario, non sono geneticamente fortunato: sono in sovrappeso da 20 anni e mi stanco a salire le scale. Il mio sovrappeso, mi ha detto il medico, non è una colpa ma un invito. Quando lo ripeto a nonna, mi guarda senza giudicare e risponde: «Il corpo non è un nemico. Devi solo ascoltarlo.» Poi mi dà una fetta di pane. Non fa prediche e non distoglie lo sguardo da chi parla.\n\nLe sue amiche, con i capelli tinti di un nero impossibile, vengono ogni pomeriggio a sedersi sotto il portico. I capelli di nonna, invece, sono bianchi e lunghi, e li porta in una treccia legata con un filo di lana tinto di blu. Nonna gioisce per le piccole cose: per una lettera, per una pentola di fagioli, per il primo fiore del limone.\n\nUn pomeriggio l'ho guardata cucire e non sono più riuscito a distogliere gli occhi. Non ha un segreto. Ha un'abitudine: guardare avanti senza fretta, come il pedale che sale e scende. A un tratto ha sollevato la testa, ha visto il mio sguardo e non ha chiesto niente. Ha solo fatto un cenno, come per dire: «Siediti.» Mi sono seduto.\n\nDomande:\nQuanti anni ha la nonna Annetta?\nHa 98 anni e vive in un paese dell'Ogliastra, in Sardegna.\nChe cosa spiega il giovane dottore?\nSpiega che un enzima aiuta il corpo degli anziani a rigenerare le cellule.\nChe cosa è successo alla nonna a 91 anni?\nHa avuto un ictus mentre faceva il pane.\nChe cosa dice la nonna dell'invalidità?\nDice di essere invalida soltanto per le carte e che per il resto ha da fare.\nPer che cosa gioisce la nonna?\nGioisce per le piccole cose: una lettera, una pentola di fagioli, il primo fiore del limone."
+    },
+    {
+      "title": "Una lettera il primo del mese",
+      "summary": "A man living in Ticino writes to an old friend in Palermo and proposes to fix a day each month for a letter, because time for friends must be decided, not found.",
+      "newWords": [
+        "chiamarmi",
+        "chiederlo",
+        "comprati",
+        "darla",
+        "guardarmi",
+        "lasciarti",
+        "preferibilmente",
+        "scarsamente",
+        "prestabilito",
+        "addizionale"
+      ],
+      "text": "Lugano, 3 novembre\n\nCaro Saverio,\n\nti scrivo a mano, su carta, e già questo ti dirà che ho una proposta. Ieri sera, davanti al lago, mi sono fermato a guardarmi intorno e ho contato gli anni da quando ci vediamo poco: sono quindici. Da quando mi sono trasferito in Ticino, le nostre telefonate sono diventate rare e le nostre promesse sempre più vaghe. «Ti chiamo presto», diciamo. Quel «presto» è scarsamente affidabile: a volte dura una settimana, a volte un anno.\n\nPer questo vorrei proporti un patto. Il primo giorno di ogni mese ci scriviamo una lettera, preferibilmente a mano, e la spediamo senza aspettare la risposta dell'altro. Non importa se la lettera è lunga o corta. Importa che il giorno sia prestabilito, come quello delle feste, perché le cose che contano devono avere un posto nel calendario, altrimenti il calendario le dimentica.\n\nSo già che cosa mi risponderai: «Ma io non ho tempo.» L'ho pensato anch'io. Poi ho capito che nessuno ha tempo, e che il tempo non si trova, si decide. Una lettera al mese non è un'ora addizionale, tolta al lavoro o al sonno: è un'ora spostata da un posto meno importante a uno più importante. E se ti sembra troppo, comprati un'agenda piccola, di quelle con la copertina rossa, e scrivi sul primo giorno di ogni mese una parola sola: «Giulio». E comprati dei francobolli, già che ci sei.\n\nIl telefono, lo so, è un oggetto scarsamente adatto alle cose importanti: squilla sempre quando si è stanchi. Non voglio che tu debba chiamarmi ogni domenica alle 8, per dovere, come una medicina. Voglio che tu possa chiamarmi quando ti viene in mente, e scrivermi, preferibilmente con calma, quando hai qualcosa da raccontare. Non è un impegno addizionale: è soltanto un posto per te. Ma se il primo del mese arriva e tu non hai niente da dire, scrivimi lo stesso che non hai niente da dire. Anche quello, fra amici, è un racconto.\n\nTi confesso un'altra cosa. Qualche settimana fa, in una stazione, ho incrociato il mio riflesso in una vetrina e non l'ho riconosciuto subito. Non ho più tutto il tempo che credevo. Da allora faccio fatica a guardarmi senza pensare a quanti amici ho lasciato per strada. Non voglio lasciarti per strada, Saverio: non potrei mai lasciarti andare così. Avrei dovuto dirtelo prima. Avrei dovuto chiederlo prima: ti va di essere ancora il mio amico, anche da lontano?\n\nPer telefono sarebbe stato difficile chiederlo. Per lettera, invece, la domanda si può rileggere, e la risposta non c'è bisogno di darla subito. Prenditi il tempo che vuoi. Sono certo che saprai darla con la tua solita voce, anche se sulla carta.\n\nUn abbraccio forte a Palermo, al mare e a tua madre.\n\nGiulio\n\nDomande:\nPerché Giulio scrive la lettera a Saverio?\nPerché vorrebbe proporgli un patto: scriversi una lettera il primo giorno di ogni mese.\nPerché il primo del mese deve essere un giorno prestabilito?\nPerché le cose che contano devono avere un posto nel calendario, altrimenti il calendario le dimentica.\nChe cosa dice Giulio sul tempo?\nDice che il tempo non si trova, si decide.\nChe cosa ha chiesto Giulio a Saverio?\nGli ha chiesto se vuole essere ancora il suo amico, anche da lontano.\nDove vive Giulio e dove vive Saverio?\nGiulio vive a Lugano, in Ticino, e Saverio vive a Palermo."
+    },
+    {
+      "title": "Il quaderno della bisnonna",
+      "summary": "In Siracusa a woman reads her great-grandmother's notebook of family names and discovers that heritage is a habit passed from hand to hand.",
+      "newWords": [
+        "retaggio",
+        "prole",
+        "parentela",
+        "nominativo",
+        "unificazione",
+        "universalmente",
+        "centomila",
+        "convergenza",
+        "recesso",
+        "occulto"
+      ],
+      "text": "Nella casa di mia zia Concetta, a Siracusa, a due passi dal mare di Ortigia, c'è un cassetto che nessuno apre senza un po' di rispetto. Dentro c'è un quaderno con la copertina di tela scura, in cui la mia bisnonna Carmela ha scritto per quarant'anni i nomi della nostra famiglia. L'ho aperto l'estate scorsa, per la prima volta, e ho scoperto che un albero genealogico non è un disegno: è un modo di respirare lentamente.\n\nLa prima pagina comincia con un solo nominativo: «Carmelo Bruno, nato nel 1829». Sotto, con la stessa calligrafia ordinata, c'è la lista della sua prole: dodici figli, nati in 20 anni, e accanto a ciascuno una data e un piccolo segno a penna. Per anni quel segno mi è sembrato qualcosa di occulto, una scrittura segreta di famiglia. Poi zia Concetta mi ha spiegato che indicava il giorno della settimana in cui ciascun figlio era nato. Nessun significato occulto: era soltanto il modo di tenere il conto della prole.\n\nCarmelo viveva già in Sicilia quando l'unificazione d'Italia era una notizia lontana, che a Siracusa arrivò con qualche mese di ritardo. Il quaderno non parla di eventi universalmente noti, perché la bisnonna non scriveva di storia: scriveva di parentela. Così, accanto alla data dell'unificazione, trovo soltanto questa riga: «Nasce Rosa. Ha gli occhi di sua nonna.» Ecco il vero retaggio, più dei mobili e dei gioielli. Un retaggio non è un oggetto da conservare, è un'abitudine che passa di mano.\n\nIl quaderno ha circa centomila parole, e quasi nessuna è una spiegazione. Sono nomi, date, rapporti di parentela: «figlio di», «sposata con», «cugino di secondo grado». Ma leggendo, pagina dopo pagina, i rami si incontrano. A un certo punto due famiglie venute da due paesi diversi si uniscono in una festa di nozze, e la bisnonna usa una parola che non scrive altrove: «convergenza». Quella convergenza, scrive, ha dato vita a mio nonno, e quindi a me. Centomila parole per dire una cosa sola: siamo qui, e non siamo soli.\n\nÈ universalmente noto che ogni famiglia dimentica qualcosa. La zia Concetta dice che la memoria ha dei recessi, angoli dove le cose si nascondono senza sparire. Un nome dimenticato per decenni torna all'improvviso da un recesso della testa, mentre si lava un piatto o si guarda il mare. «Non sono io che ricordo» dice. «È il ricordo che torna a trovare me.» Mi ricorda che gli antenati non stanno dietro di noi: stanno dentro, nelle mani, nelle voci, nel gesto con cui si taglia il pane.\n\nPrima di partire ho copiato nel mio quaderno l'ultima pagina, quella che la bisnonna non ha riempito. Ho scritto il nominativo di mia madre, il mio e quello di mio fratello Luca. Poi ho lasciato lo spazio per chi verrà. Sulla riga vuota ho scritto soltanto: «Ha gli occhi di sua nonna.» Non so ancora di chi.\n\nDomande:\nChe cosa c'è nel cassetto di zia Concetta?\nC'è il quaderno in cui la bisnonna Carmela ha scritto i nomi della famiglia.\nQuanti figli ha Carmelo Bruno?\nHa dodici figli, nati in 20 anni, e accanto a ciascuno c'è una data.\nChe cosa significa per la narratrice il retaggio?\nSignifica un'abitudine che passa di mano, non un oggetto da conservare.\nChe cosa dice zia Concetta sulla memoria?\nDice che ha dei recessi dove le cose si nascondono senza sparire."
+    },
+    {
+      "title": "Il tempo dell'arrosto",
+      "summary": "In Salerno an aunt cooks without a clock, and her nephew learns that time is an ingredient and that waiting at the oven is not lost.",
+      "newWords": [
+        "salernitano",
+        "pancetta",
+        "arrosto",
+        "culinaria",
+        "cozza",
+        "locanda",
+        "cooperare",
+        "avido",
+        "proficuo",
+        "accensione"
+      ],
+      "text": "Chi dice che la cucina è una questione di ricette non ha mai visto cucinare mia zia Titina, a Salerno. Lei non guarda mai l'orologio. Guarda il colore di una cipolla, ascolta il rumore dell'olio, annusa l'aria. Una volta le ho chiesto quanto tempo ci vuole per un arrosto, e mi ha risposto: «Ci vuole il tempo dell'arrosto.» Pensavo fosse una battuta, ma era una definizione.\n\nZia Titina è salernitana da quattro generazioni, e la sua cucina salernitana è un piccolo paese a cui si accede con calma. Il sabato prepara l'arrosto di maiale, con la pancetta tagliata fine e le patate che si dorano insieme alla carne. Una pancetta, sostiene, va trattata con rispetto: tagliata a mano, nel senso giusto, e cotta lenta, perché la fretta la rende dura e triste.\n\nLa domenica arrivano le cozze dal porto. Zia Titina le pulisce una per una con un coltellino, poi le mette in una pentola larga con aglio e olio. Non dice mai quanto tempo cuoce una cozza. Dice: «Quando si aprono, sono pronte.» E si aprono tutte insieme, come se si fossero messe d'accordo.\n\nNella sua cucina passano ogni domenica vicine, nipoti, amiche. Cooperano senza bisogno di ordini: la zia non comanda, dirige come un maestro che conosce la musica a memoria. Chi taglia le verdure, chi lava le cozze, chi prepara la tavola: ognuno sa che cosa fare. Cooperare, mi ha detto, è come cucinare lentamente: richiede fiducia nel tempo. Considero zia Titina un'istituzione dell'arte culinaria, anche se lei lo nega: dice che ogni tradizione culinaria è soltanto un'abitudine che ha avuto fortuna.\n\nUna sera, in una locanda sul mare, ho assaggiato una cena d'autore. Era perfetta, ma molto più veloce di quelle di zia Titina, e nella locanda io ero avido: volevo assaggiare tutto, subito. Quando gliel'ho raccontato, lei mi ha guardato con affetto. «Mangia adagio» ha detto. «Sei avido come un gatto. Il cibo ha bisogno di essere ascoltato, come le persone.»\n\nMi sono chiesto che cosa renda quel modo di cucinare così proficuo. Credo che sia questo: ogni attesa, in cucina, produce qualcosa. Un impasto lievita, un sugo si addensa, un arrosto prende il colore giusto. Il tempo, per zia Titina, è un ingrediente come gli altri, e anzi il più importante. La sua cucina è proficua non perché sia veloce, ma perché non perde nemmeno un minuto, nemmeno quelli che sembrano vuoti.\n\nL'ultima domenica, prima di partire, mi ha lasciato occuparmi dell'accensione del forno, un gesto che lei compie con una cura quasi solenne. Dopo l'accensione ho aspettato un poco, poi ho messo dentro la teglia. «Adesso non toccare più niente» ha detto. Ho obbedito. Ho passato la mezz'ora seguente seduto a tavola, senza telefono, a guardare il forno come si guarda il fuoco di un camino. Era la mezz'ora più proficua della mia settimana.\n\nDomande:\nChe cosa risponde zia Titina a chi chiede quanto ci vuole per un arrosto?\nRisponde che ci vuole il tempo dell'arrosto.\nCome si capisce che le cozze sono pronte?\nSi capisce quando si aprono, tutte insieme.\nChe cosa fanno le donne nella cucina di zia Titina la domenica?\nCooperano senza bisogno di ordini, ognuna sa che cosa fare.\nPerché zia Titina dice al narratore che è avido?\nPerché vuole assaggiare tutto subito, e il cibo ha bisogno di essere ascoltato."
+    },
+    {
+      "title": "Contare il tempo",
+      "summary": "A Turin woman obsessed with tracking every quarter-hour visits an astronomer friend's observatory and learns that dividing time is an invention.",
+      "newWords": [
+        "suddivisione",
+        "raggruppamento",
+        "sommare",
+        "esponenziale",
+        "telescopio",
+        "ascendente",
+        "scalata",
+        "redditizio",
+        "ossessivo",
+        "vizioso"
+      ],
+      "text": "Per un anno intero, a Torino, sono stata una persona ossessiva. Avevo un foglio di calcolo in cui scrivevo ogni quarto d'ora della mia giornata: sonno, lavoro, treno, cena. Alla sera sommavo le colonne, e il totale mi dava un voto; la linea del mese, nel grafico, era sempre ascendente, perché volevo fare sempre di più. Un giorno da 8 su 10, un giorno da 5. Il mio amico Gianni, che fa l'astronomo, mi guardava con una pazienza quasi affettuosa. «Il tempo non si può sommare» diceva. «Il tempo si attraversa.»\n\nUn sabato di marzo mi ha portata all'osservatorio sulla collina di Pino Torinese. In una sala fredda c'era un grande telescopio con un tubo bianco e lungo, e Gianni mi ha fatto guardare dentro. Ho visto Saturno, piccolissimo e perfetto, con il suo anello inclinato. Poi mi ha parlato della suddivisione del tempo. «Dividiamo il giorno in 24 ore e l'ora in 60 minuti» ha detto «perché lo hanno deciso gli antichi, guardando il cielo e contando sulle dita. Ogni suddivisione è un'invenzione. Utile, certo, ma un'invenzione.» Anche il raggruppamento dei giorni in settimane, mi ha spiegato, viene da una vecchia idea: sette giorni, come i sette astri che si vedevano a occhio nudo. Il calendario è un raggruppamento di abitudini.\n\nMi sono sentita sciocca, con il mio foglio di calcolo. Ma Gianni non ha finito. «Sai qual è la cosa strana?» ha chiesto. «Il tempo non cresce in modo regolare, almeno per chi lo vive. Per un bambino un anno è una vita; per te è un viaggio breve; per tua nonna è un lampo. Il tempo, per noi, ha una crescita esponenziale: più passa, più sembra correre.» Gli ho risposto che non lo trovavo giusto. Lui ha sorriso. «Nemmeno io. Ma succede.»\n\nSiamo scesi a piedi per un sentiero. Gianni mi ha raccontato la sua scalata della Rocciamelone, di cui andava molto fiero: sei ore di salita lenta, passo dopo passo, senza guardare la cima. «Se guardi sempre in alto, ti stanchi. Se guardi dove metti i piedi, arrivi.» Ho pensato alla mia vita, una scalata ascendente e continua, verso un traguardo che non esisteva. In ogni salita c'è un momento in cui conviene voltarsi e guardare il paesaggio.\n\nPoi ho capito anche un'altra cosa. Per mesi avevo cercato di rendere ogni ora redditizia: lavoro, studio, sport, lettura, un corso di spagnolo. Ma il risultato era un circolo vizioso. Più cercavo di rendere redditizio il tempo, più mi stancavo, e più mi stancavo, meno lavoravo bene: un cerchio vizioso, e il disegno era mio. Il tempo non era redditizio, perché io non ero lì. Ero sempre nell'ora successiva.\n\nLa sera ho cancellato il foglio di calcolo. Non tutto: ho tenuto una sola colonna, intitolata «Cose belle». La somma non dà più nessun voto. Dà solo, a fine giornata, una piccola lista: il Saturno di Gianni, il sentiero, il caffè con la mia vicina. È una suddivisione diversa, che non misura il tempo ma lo ricorda.\n\nDomande:\nPerché la narratrice era ossessiva?\nPerché scriveva ogni quarto d'ora della giornata in un foglio di calcolo e dava un voto.\nChe cosa le fa vedere Gianni al telescopio?\nLe fa vedere Saturno, con il suo anello.\nCome cresce il tempo per chi lo vive?\nCresce in modo esponenziale: più passa, più sembra correre.\nChe cosa tiene la narratrice nel foglio di calcolo?\nTiene una sola colonna, intitolata «Cose belle»."
+    },
+    {
+      "title": "Il museo nella chiesa",
+      "summary": "A grandmother takes her eight-year-old grandson to a museum in a former church in Genoa, where a sword, a beggar's portrait, a dog collar and a mammoth tusk gather different times.",
+      "newWords": [
+        "navata",
+        "brando",
+        "mendicante",
+        "zanna",
+        "collare",
+        "collisione"
+      ],
+      "text": "Il Museo del Molo, a Genova, è ospitato in una chiesa che non è più una chiesa. Ha le pareti alte, il pavimento di pietra e, dentro, tre lunghe navate che una volta contenevano panche e ora contengono vetrine. Quando ci vado con mio nipote Tommaso, che ha otto anni e molte domande, entriamo sempre dalla navata centrale, quella dove la luce dei finestroni cade a strisce sul pavimento, e camminiamo piano, come in un racconto che non vuole svegliarsi.\n\nNella prima navata, appeso a un gancio sopra una porta, c'è un brando. Non è un'arma da battaglia: è una spada da cerimonia, appartenuta a un nobile genovese del Seicento, che non l'ha mai usata. La lama è opaca e macchiata. Tommaso mi ha chiesto se facesse paura. Gli ho risposto che un brando che non si è mai mosso dalla parete non fa paura a nessuno. Lui ha annuito e ha detto: «Ora è solo un ricordo con il manico.»\n\nNella seconda navata c'è un quadro scuro, del Seicento: un mendicante seduto sui gradini di una porta, con la mano aperta. Il pittore non lo ha reso né povero né nobile: lo ha reso presente. Accanto al mendicante dorme un cane magro, con un collare di cuoio che il museo conserva in una teca lì vicino. Mi sono fermata a lungo a guardare quel collare, consumato dal tempo, con una fibbia piccolissima. Qualcuno, quattrocento anni fa, lo ha chiuso intorno al collo di un cane, e quel gesto oggi è un oggetto da museo. Il passato, penso spesso, è fatto di cose piccole come questa.\n\nL'ultima navata è dedicata alla natura. In fondo, sotto un faro, c'è una zanna di mammut, lunga quasi due metri e color miele scuro. Tommaso ha toccato il vetro con un dito. «Quanti anni ha?» ha chiesto. «Più di diecimila» ho risposto. Sulla parete opposta, una mappa mostrava un'altra cosa che mi ha colpito: la collisione di due placche della terra, lenta e immensa, che ha sollevato le montagne dove oggi vivono i nostri pastori e i nostri sciatori. Una collisione dura milioni di anni, e noi non ce ne accorgiamo mai.\n\nUscendo, ho pensato che il museo è una collisione tra tempi: il brando del Seicento, il mendicante, il collare, la zanna, il bambino con la felpa rossa. Tutti nella stessa navata, tutti ugualmente presenti. Il tempo, in un luogo così, non scorre: si riunisce.\n\nFuori, sul molo, un vento fresco muoveva le barche. Tommaso mi ha stretto la mano. «Nonna, quando saremo vecchi, mettono nel museo anche le nostre cose?» Gli ho detto di sì: il tuo cappello, le mie chiavi. E ho pensato che sarebbe stato bello, fra mille anni, trovare una bambina ferma davanti alla vetrina, con un dito sul vetro.\n\nDomande:\nDove si trova il Museo del Molo?\nSi trova a Genova, in una chiesa che non è più una chiesa.\nChe cos'è il brando nella prima navata?\nÈ una spada da cerimonia che appartenne a un nobile del Seicento e non fu mai usata.\nChe cosa c'è accanto al mendicante del quadro?\nC'è un cane magro con un collare di cuoio.\nQuanti anni ha la zanna di mammut?\nHa più di diecimila anni."
+    },
+    {
+      "title": "Il burattino che voleva tutto subito",
+      "summary": "On the last night of an old puppeteer in San Marino, a boastful puppet learns to wait and share, and an apprentice takes over.",
+      "newWords": [
+        "burattino",
+        "pupillo",
+        "ammiratore",
+        "carisma",
+        "prepotente",
+        "equità"
+      ],
+      "text": "Per quarant'anni, ogni sabato di settembre, il maestro Ernesto ha alzato il sipario del suo piccolo teatro dei burattini, in una cantina di San Marino. Ieri sera ho assistito all'ultimo spettacolo. Aveva 79 anni, la schiena un po' curva e quel carisma tranquillo che hanno certe persone quando sanno esattamente chi sono. Appena è apparso dietro il palchetto, la sala, piena di bambini e di nonni, è diventata silenziosa senza che lui dicesse una parola.\n\nNello spettacolo c'era un burattino alto e rosso, chiamato Prepotenzio, che voleva ogni cosa subito: il pane, il vino, la torta, il posto in prima fila. I bambini ridevano, perché Prepotenzio era davvero prepotente. Spingeva gli altri burattini, urlava e pretendeva di arrivare per primo in ogni luogo. Poi un burattino piccolo e verde, con un cappello troppo grande, gli ha detto: «Se arrivi per primo ovunque, chi ti racconta che cosa hai visto?» Prepotenzio è rimasto con la bocca aperta, e in sala è scoppiata una risata lunga.\n\nAlla fine, il maestro Ernesto ha fatto una cosa che non aveva mai fatto. Ha messo in scena una tavola con una torta sola e ha chiesto ai burattini come dividerla. Tutti hanno parlato insieme. Solo Prepotenzio è rimasto zitto, e poi, a bassa voce, ha detto: «In parti uguali.» Allora il maestro ha detto che quella era la parola giusta: equità. Aspettare il proprio turno, ha spiegato, è la forma più semplice di equità, perché il tempo è l'unica cosa che nessuno ha in abbondanza e che tutti devono dividere. «Il tempo è un grande prepotente» ha aggiunto «ma con un po' di equità si lascia dividere in parti uguali.»\n\nIl suo pupillo, un ragazzo di nome Davide, lo guardava dalle quinte con gli occhi lucidi. Il maestro lo ha scelto dieci anni fa, quando Davide aveva 16 anni e sapeva solo sistemare i fili. Ora li muove con una mano leggera e precisa. Non ha ancora il carisma del maestro, ma ne ha già un piccolo seme. Sarà lui a continuare la tradizione, e quella sera lo ha dimostrato: Prepotenzio, nelle sue mani, non era più un burattino, ma una persona un po' ridicola che imparava a vivere.\n\nDopo lo spettacolo, un vecchio signore si è avvicinato al maestro con un fiore. Era un suo ammiratore da sempre: in quarant'anni, mi ha detto, non aveva perso un solo sabato. «Lo ricordo» ha detto il signore «quando ero piccolo e Prepotenzio aveva ancora un naso di legno scuro.» Il maestro ha riso. Gli ammiratori, ha detto, sono i migliori orologi: ti ricordano da quanto tempo lavori. Poi ha ringraziato con quel carisma gentile che non ha mai avuto bisogno di alzare la voce.\n\nSiamo rimasti in sala quando tutti sono usciti. Il maestro ha tolto uno per uno i burattini dal palchetto e li ha messi in una cassa, con una cura quasi solenne. Prepotenzio è andato per ultimo. «Dorme bene» ha detto. «È un burattino che ha capito come si aspetta.»\n\nDomande:\nChi è il maestro Ernesto e dove lavora?\nÈ un burattinaio di 79 anni e lavora in una cantina di San Marino.\nCom'è il burattino Prepotenzio?\nÈ alto e rosso, e vuole ogni cosa subito.\nChe cosa dice Prepotenzio sulla torta?\nDice che bisogna dividerla in parti uguali.\nChe cosa significa equità per il maestro?\nSignifica aspettare il proprio turno e dividere il tempo con gli altri.\nChi è Davide?\nÈ il pupillo del maestro, che continuerà la tradizione."
+    }
+  ]
+}
