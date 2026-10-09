@@ -166,6 +166,8 @@ def russian_name_forms(names):
             stem, last = part[:-1], part[-1]
             if last == "а":
                 forms.update(stem + e for e in ("ы", "и", "е", "у", "ой", "ою"))
+                if stem[-1:] in "жшщч":
+                    forms.update(stem + e for e in ("ей", "ею"))
             elif last == "я":
                 if part.endswith("ия"):
                     forms.update(stem + e for e in ("и", "ю", "ей"))
