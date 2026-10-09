@@ -1,0 +1,222 @@
+{
+  "id": "it-mini-3700",
+  "rankUpTo": 3700,
+  "level": "B2",
+  "title": "I libri e la lingua",
+  "description": "Ten calm everyday texts about books, reading and language across Italy, Ticino and Italians abroad: a café-bookshop, a dictionary game, an interpreter, a hospital book trolley, a recipe notebook, a summer reading list, old books, a film club, a library petition and a letter from Zurich.",
+  "topic": "Books and language",
+  "names": [
+    "Trieste",
+    "Livia",
+    "Paolo",
+    "Milano",
+    "Aldo",
+    "Sofia",
+    "Mantova",
+    "Chiara",
+    "Joost",
+    "Amsterdam",
+    "Rosario",
+    "Anna",
+    "Lisbona",
+    "Cagliari",
+    "Marta",
+    "Efisio",
+    "Lecce",
+    "Carmela",
+    "Ilaria",
+    "Franco",
+    "Gino",
+    "Torino",
+    "Londra",
+    "Marco",
+    "Parma",
+    "Rinaldi",
+    "Tommaso",
+    "Bea",
+    "Lerici",
+    "Spezia",
+    "Portovenere",
+    "Tito",
+    "Bruno",
+    "Firenze",
+    "Neri",
+    "Bianchi",
+    "Dante",
+    "Venezia",
+    "Luca",
+    "Lugano",
+    "Daniele",
+    "Lea",
+    "Palermo",
+    "Zisa",
+    "Teresa",
+    "Giuseppe",
+    "Zurigo",
+    "Marina",
+    "Elena",
+    "Davide"
+  ],
+  "lessons": [
+    {
+      "title": "Il caffè di Livia",
+      "summary": "In Trieste, a widow turns the family stationery shop into a tiny café-bookshop where books and talk travel from table to table.",
+      "newWords": [
+        "giuliano",
+        "ritrovo",
+        "cameriere",
+        "modesto",
+        "viale",
+        "vedova",
+        "impegnare",
+        "giustamente",
+        "mezzogiorno",
+        "ristretto"
+      ],
+      "text": "Ogni città ha un ritrovo che i suoi abitanti non cambierebbero con nessun altro. A Trieste, per molti dei miei amici, è il caffè-libreria di Livia, in fondo a un viale alberato non lontano dalla stazione. Il locale è modesto e ristretto: ci stanno otto tavolini, tre muri di libri usati e un piccolo banco, e quando arrivano più di 20 persone bisogna stare in piedi. Eppure nessuno se ne lamenta.\n\nLivia è vedova da molti anni. Quando suo marito è morto, ha dovuto decidere che cosa fare del negozio di famiglia, che allora vendeva soltanto carta e penne. «Non volevo chiudere», mi ha raccontato. «Mi impegnavo per tenerlo aperto, ma serviva un modo nuovo.» Così ha messo due tavolini davanti al banco, ha comprato una macchina per il caffè e ha riempito le pareti di libri. Il primo anno ha perso dei soldi. Il secondo è andata meglio, e oggi il locale è pieno dalla mattina alla sera. Livia dice che la vedova più fortunata della città è lei, perché ogni giorno trova ad aspettarla trenta amici.\n\nIl cameriere, Paolo, è un ragazzo di 20 anni che studia lettere all'università. Serve il caffè con una mano e con l'altra consiglia romanzi. Ha una regola: non consiglia mai un libro che non ha letto. «Giustamente», dice Livia, «un cameriere che consiglia un libro sconosciuto è come un medico che dà una medicina senza conoscerla.» Paolo si impegna molto, e giustamente è fiero del suo lavoro. I libri che non gli piacciono li mette in basso, dove nessuno guarda.\n\nIl mezzogiorno è l'ora migliore. Gli impiegati dei vicini uffici escono per la pausa e si siedono con un panino e un libro. Qualcuno parla in italiano, qualcuno nel dialetto giuliano, quella lingua dolce in cui le parole si accorciano e la musica è tutta di Trieste. Io, che sono nato altrove, ho imparato qui a capirla. Si mangiano piatti della cucina giuliana, e sui muri ci sono i poeti giuliani, vecchi e nuovi, che Paolo mette sempre in prima fila.\n\nCredo che un posto così sia utile per due ragioni. La prima è semplice: qui i libri non sono oggetti da guardare, ma compagni di conversazione. La seconda è che le parole, in un locale ristretto, viaggiano più in fretta: un titolo detto a un tavolino arriva presto a tutti gli altri. Ieri Livia mi ha regalato un romanzo di Trieste. L'ho letto stasera su una panchina del viale, e ho pensato che a volte un locale modesto dà più di una grande biblioteca.\n\nDomande:\nChe cos'è il caffè-libreria di Livia?\nÈ un piccolo ritrovo di Trieste dove si beve il caffè e si leggono libri.\nPerché Livia ha cambiato il negozio di famiglia?\nPerché, rimasta vedova, non voleva chiudere e doveva trovare un modo nuovo.\nQual è la regola di Paolo, il cameriere?\nNon consiglia mai un libro che non ha letto.\nChe cosa succede a mezzogiorno?\nGli impiegati escono dagli uffici e si siedono con un panino e un libro.\nPerché un locale ristretto è utile?\nPerché un titolo detto a un tavolino arriva presto a tutti gli altri."
+    },
+    {
+      "title": "Il gioco del dizionario",
+      "summary": "In Milan, a retired linguistics professor and his granddaughter play a game with a big dictionary on rainy Wednesdays.",
+      "newWords": [
+        "dizionario",
+        "linguistica",
+        "vocale",
+        "singolare",
+        "elementare",
+        "casuale",
+        "specificare",
+        "punteggio",
+        "premessa",
+        "cessare"
+      ],
+      "text": "Nonno Aldo ha insegnato linguistica all'università di Milano per 40 anni, e ora, in pensione, passa molte ore con un vecchio dizionario pesante come un mattone. Sua nipote Sofia, che frequenta la terza elementare, viene a trovarlo ogni mercoledì pomeriggio, e da qualche mese i due fanno sempre lo stesso gioco.\n\nLa premessa è molto semplice. Sofia chiude gli occhi e apre il dizionario a una pagina casuale. Poi mette il dito su una parola, e il nonno deve indovinare che cosa significa. Se non la conosce, Sofia legge la definizione ad alta voce. Il punteggio si conta così: un punto per chi indovina il significato, due punti per chi inventa una frase giusta con quella parola.\n\nUn mercoledì di novembre la pioggia non cessava, e il gioco è durato più del solito. Alla prima pagina Sofia ha trovato la parola «aiuola».\n\n«Guarda, nonno, quante vocali!», ha detto ridendo. «A, i, u, o, a: ce ne sono cinque, e una sola consonante!»\n\n«È vero», ha risposto il nonno. «Le vocali sono il cuore di ogni parola italiana. Senza vocali non si può cantare.»\n\nAlla seconda pagina il dito è caduto su «uova». Sofia ha fatto una smorfia. «Nonno, perché si dice un uovo e due uova? Il singolare è maschile e il plurale è femminile! Non è giusto.»\n\n«È una parola singolare, in effetti», ha risposto Aldo. «E singolare significa due cose: il contrario di plurale, cioè uno solo, e anche strano. Ci sono parole così, che hanno un carattere tutto loro.»\n\nPoi è toccato a lui. Ha girato qualche pagina, si è fermato su «partita» e ha detto la sua frase: «Domenica ho visto una bella partita». Sofia ha fatto no con la testa. «Devi specificare quale significato intendi, nonno. Partita può essere anche una partita a carte, o una partita di merce. Altrimenti non ti do il punto.»\n\nIl nonno ha sorriso. Era proprio la regola che le aveva insegnato lui, e adesso la nipote la usava contro di lui. «Hai ragione. Intendevo la partita di calcio, quella allo stadio.» Ha avuto il punto, ma anche un consiglio: «Quando parli, specifica sempre, e quando leggi, chiediti sempre che cosa significa una parola in quel punto».\n\n«Nonno, perché giochiamo con il dizionario?», ha chiesto Sofia. La premessa del nonno è stata questa: anche lui, alla scuola elementare, aveva imparato così, aprendo un libro a caso.\n\nAlla fine Sofia ha vinto, 11 punti a 9. Fuori la pioggia aveva cessato di cadere, e la luce entrava dalla finestra e cadeva sulle pagine aperte. Il nonno ha chiuso il dizionario con due mani, con grande rispetto. «Un dizionario non è un libro da leggere dall'inizio alla fine», ha detto. «È un posto dove ci si perde volentieri.»\n\nDomande:\nChe cosa ha insegnato nonno Aldo?\nHa insegnato linguistica all'università di Milano.\nCome comincia il gioco?\nSofia apre il dizionario a una pagina casuale e mette il dito su una parola.\nCome si conta il punteggio?\nUn punto per chi indovina il significato e due punti per chi inventa una frase giusta.\nPerché la parola «uova» è singolare?\nPerché il singolare, uovo, è maschile e il plurale, uova, è femminile.\nChe cosa deve fare il nonno con «partita»?\nDeve specificare quale significato intende."
+    },
+    {
+      "title": "Un vetro trasparente",
+      "summary": "At the literature festival in Mantua, an interpreter works for a Dutch novelist and a Mexican poet and thinks about her job.",
+      "newWords": [
+        "interprete",
+        "olandese",
+        "messicano",
+        "narrare",
+        "ispirare",
+        "condivisione",
+        "avanzato",
+        "trasparente",
+        "essenzialmente",
+        "precisamente"
+      ],
+      "text": "Chiara fa l'interprete da quindici anni, e ogni settembre torna a Mantova per il festival della letteratura. Sembra un lavoro facile: due persone parlano, lei ripete tutto in un'altra lingua. In realtà, dice sempre, un buon interprete deve essere come un vetro trasparente: chi guarda attraverso il vetro non pensa al vetro, ma a ciò che c'è dietro. Se il pubblico si accorge di lei, significa che ha lavorato male.\n\nQuest'anno la prima giornata è dedicata a uno scrittore olandese, Joost, che ha scritto un romanzo sul mare del Nord. Chiara ha studiato l'olandese all'università e poi ha frequentato un corso avanzato ad Amsterdam. Il suo livello è avanzato, ma sa che certe parole di Joost non hanno un equivalente preciso in italiano. Prima dell'incontro i due si sono seduti in un bar della piazza, e Chiara gli ha chiesto di raccontare il libro con parole semplici. «Il romanzo narra la storia di una famiglia di pescatori», ha spiegato Joost. «Ma in fondo è un libro sul silenzio.» Chiara ha preso appunti. Ora sa precisamente che cosa deve dire. Joost, del resto, è un uomo che parla in modo preciso e dice precisamente quello che pensa.\n\nNel pomeriggio il pubblico è numeroso. Joost parla per dieci minuti in olandese, poi si ferma, e Chiara traduce in italiano con voce calma. Quando lui ride, ride anche lei, perché essenzialmente un interprete non traduce soltanto le parole, ma anche il tono. Alla fine una ragazza alza la mano e chiede: «Che cosa la ispirava, mentre scriveva?» Joost risponde che a ispirarlo erano i racconti di suo nonno, che passava le serate a narrare storie di tempeste. Chiara traduce e sente un nodo in gola: anche suo nonno narrava storie, in dialetto, davanti al camino.\n\nLa sera, dopo cena, c'è un secondo incontro, con una scrittrice messicana, Rosario. Parla spagnolo, e Chiara conosce bene anche questa lingua. Rosario ha scritto una raccolta di poesie sulla vita in un paese di montagna. «Per me la poesia è condivisione», dice. «Una poesia non esiste finché qualcuno non la legge.» Chiara traduce queste parole e pensa che valgano anche per il suo mestiere: essenzialmente, un interprete è una persona che permette agli altri di condividere qualcosa.\n\nA mezzanotte la piazza è quasi vuota. Chiara si siede al tavolino di un caffè con un tè caldo e riguarda i suoi appunti. È stanca, ma contenta. Prima di andare a dormire manda un messaggio alla sua amica Anna: «Oggi ho ripetuto in italiano un olandese e una messicana, e nessuno si è accorto di me. È stato un successo.»\n\nDomande:\nPerché Chiara dice che un buon interprete deve essere come un vetro trasparente?\nPerché il pubblico deve pensare a ciò che dice lo scrittore, non a lei.\nDi che cosa parla il romanzo di Joost?\nNarra la storia di una famiglia di pescatori, ma in fondo è un libro sul silenzio.\nChe cosa ispirava Joost mentre scriveva?\nLo ispiravano i racconti di tempeste di suo nonno.\nChe cos'è la poesia per Rosario?\nPer Rosario la poesia è condivisione: non esiste finché qualcuno non la legge.\nCome finisce la giornata per Chiara?\nBeve un tè caldo, riguarda gli appunti e manda un messaggio a una sua amica."
+    },
+    {
+      "title": "Il carrello dei libri",
+      "summary": "In a Cagliari hospital, a nurse reads an adventure novel aloud to a lonely old patient who says he is not a reader.",
+      "newWords": [
+        "infermiere",
+        "fidarsi",
+        "salvezza",
+        "alimentazione",
+        "giornaliero",
+        "solitario",
+        "rapito",
+        "necessitare",
+        "lode",
+        "eventualmente"
+      ],
+      "text": "Nel reparto di medicina di un ospedale di Cagliari c'è un carrello che non porta medicine. Porta libri. Lo spinge ogni pomeriggio Marta, che fa l'infermiera da dieci anni e da piccola voleva fare la bibliotecaria. «Alla fine ho fatto tutte e due le cose», dice. «Curo le persone e consiglio i romanzi.»\n\nL'idea è semplice: chi sta in ospedale ha molto tempo e poca voglia di guardare la televisione. Marta ha chiesto ai colleghi di portare i libri che non leggevano più, e in un mese ne sono arrivati 200.\n\nL'altro giorno, in una stanza in fondo al corridoio, Marta ha incontrato il signor Efisio, un uomo di 80 anni, solitario e di poche parole. Dopo la morte della moglie viveva da solo, e non aveva più nessuno con cui parlare. Era in ospedale da una settimana e non voleva niente: né libri, né giornali, né compagnia. «Non sono un lettore», ha detto a Marta. «Fidati, non perdi tempo con me.» Lei ha sorriso. «Allora fidati tu di me. Ti leggo qualcosa, e se non ti piace smetto subito.»\n\nHa preso un vecchio romanzo di avventura e ha cominciato dal primo capitolo. La storia parlava di una barca in mezzo a una tempesta, di un marinaio ferito e di un porto lontano che sembrava la sua unica salvezza. Marta leggeva piano, e dopo dieci minuti si è accorta che il signor Efisio aveva chiuso gli occhi, ma non dormiva. Quando si è fermata, lui ha detto: «Non fermarti. Voglio sapere se la salvezza arriva davvero».\n\nDa quel giorno la lettura è diventata un impegno giornaliero: ogni giorno Marta passa da lui e legge un capitolo. Il medico ha detto che il signor Efisio necessita di riposo e di un'alimentazione leggera, e per questo il pranzo è sempre un brodo con un po' di pane. Ma l'infermiera ha notato che da quando ascolta il romanzo mangia meglio e sorride di più. Il medico, quando lo ha saputo, ha detto che eventualmente scriverà nella cartella: «Letture ad alta voce, una dose giornaliera». Gli altri pazienti necessitano soprattutto di compagnia, ha aggiunto, e le medicine eventualmente vengono dopo.\n\nIl signor Efisio, rapito dalla storia, ha smesso di lamentarsi, e anche gli altri pazienti ascoltavano rapiti dal letto. Quando il marinaio è arrivato in porto, ha applaudito da solo, nel letto. Poi ha detto a Marta: «Sei brava. Hai una voce che fa bene». Per lei è una lode preziosa, perché per un uomo come lui non è facile pronunciare una lode. Oggi il signor Efisio è tornato a casa, e ha chiesto un libro in prestito.\n\nDomande:\nChe cosa porta il carrello di Marta?\nPorta libri e non medicine.\nChi è il signor Efisio?\nÈ un uomo di 80 anni, solitario, che vive da solo dopo la morte della moglie.\nChe cosa legge Marta al signor Efisio?\nLegge un romanzo di avventura su una barca in una tempesta.\nChe cosa dice il medico del signor Efisio?\nDice che necessita di riposo e di un'alimentazione leggera.\nChe cosa fa il signor Efisio quando il marinaio arriva in porto?\nApplaude, da solo, nel letto."
+    },
+    {
+      "title": "Il quaderno di nonna Carmela",
+      "summary": "In Lecce, a young woman finds her late grandmother's recipe notebook among the things to throw away and shares it with the family.",
+      "newWords": [
+        "pomodoro",
+        "chilo",
+        "spina",
+        "sasso",
+        "esagerato",
+        "spazzatura",
+        "gioiello",
+        "ugualmente",
+        "decimo",
+        "spedito"
+      ],
+      "text": "Quando nonna Carmela è morta, la casa di Lecce è rimasta chiusa per un anno. Poi la famiglia ha deciso di liberarla, e una domenica di marzo Ilaria, la nipote più grande, è arrivata con due zii, tre scope e una quantità enorme di sacchi neri. Ma ogni scatola aveva una storia, e verso mezzogiorno i sacchi della spazzatura erano ancora quasi vuoti.\n\nIn fondo a un mobile della cucina, sotto una pila di vecchi panni, Ilaria ha trovato un libro nero scritto a mano, con le pagine macchiate di olio. Sulla copertina c'era scritto, con la bella grafia della nonna, «Ricette». Ilaria stava per metterlo nel sacco della spazzatura insieme ai panni rotti, quando una pagina si è aperta da sola e lei ha letto: «Salsa della domenica. Un chilo di pomodori maturi, olio buono, una foglia di basilico. Col sale, mai in modo esagerato».\n\nSi è seduta per terra e ha cominciato a leggere. Le ricette non avevano misure precise, ma frasi come «quanto basta» o «finché si sente il profumo». Per la pasta fatta in casa: «Un chilo di farina e tanta pazienza». Vicino al pesce al forno c'era un avvertimento: «Togli bene le spine. Una spina sola, e il piccolo Gino non mangia più». Sulla pagina dei pomodori secchi: «Metti sopra un sasso pulito, così l'acqua esce tutta. Un sasso grosso, non dei sassi piccoli». Ilaria rideva e piangeva insieme. Era come ascoltare la nonna.\n\nQuella sera ha mostrato il libro agli zii. «È un gioiello», ha detto lo zio Franco. «Non è esagerato dirlo: dentro c'è metà della nostra famiglia.» Hanno deciso di fotografare tutte le pagine, anche quelle rovinate, perché il libro stava cadendo a pezzi. Era un gioiello ugualmente prezioso, anche con le macchie. Alla decima pagina, quella del dolce, mancava un ingrediente: la nonna non lo scriveva mai. Ilaria ha provato a farlo senza misure, e il dolce è venuto buono ugualmente. Così ha capito che il decimo ingrediente era il limone.\n\nLa settimana dopo ha stampato le fotografie e le ha spedite a tutti i parenti: a Torino, a Milano, perfino al cugino Marco, che vive a Londra. Il pacco è stato spedito il lunedì, e il giovedì sono arrivate le prime telefonate. Tutti volevano provare la salsa, e tutti dicevano di averla mangiata da bambini. Ilaria ha fatto una copia del libro per ogni famiglia, con una copertina nera come l'originale.\n\nIl libro vero è tornato nel mobile della cucina, in una casa che adesso non è più chiusa. Ogni domenica una parte della famiglia viene a cucinare lì, e c'è sempre qualcuno che, con il libro in mano, chiede: «La nonna scriveva \"quanto basta\". Ma quanto basta, esattamente?»\n\nDomande:\nChe cosa ha trovato Ilaria in fondo a un mobile della cucina?\nHa trovato un libro nero con le ricette della nonna.\nPerché le ricette della nonna sono speciali?\nPerché non hanno misure precise, ma frasi come «quanto basta».\nChe cosa ha detto lo zio Franco del libro?\nHa detto che è un gioiello e che dentro c'è metà della famiglia.\nChe cosa ha fatto Ilaria con le fotografie?\nLe ha stampate e le ha spedite a tutti i parenti."
+    },
+    {
+      "title": "Dodici libri sul golfo",
+      "summary": "A family drives from Parma to the Gulf of La Spezia, where a boy and a hotel porter work out how to finish a summer reading list.",
+      "newWords": [
+        "golfo",
+        "automobile",
+        "vasca",
+        "mezzanotte",
+        "toro",
+        "aggressivo",
+        "dominante",
+        "traguardo",
+        "portiere"
+      ],
+      "text": "Ogni agosto la famiglia Rinaldi parte da Parma in automobile e va a Lerici, sul golfo della Spezia. Papà guida, mamma controlla la strada sul telefono, e sul sedile di dietro Tommaso, che ha nove anni, e sua sorella Bea, che ne ha quattordici, litigano per un libro. Il libro è di Tommaso: quest'anno la maestra gli ha dato una lista di 12 libri da leggere in estate, e chi la finisce prima di settembre riceve un diploma.\n\nIl golfo è chiamato dai viaggiatori «golfo dei Poeti», perché molti scrittori, nell'Ottocento, vennero qui a scrivere e a guardare il mare. Anche i Rinaldi ci provano: il mattino sulla spiaggia, il pomeriggio sul balcone dell'albergo, la sera in un caffè del lungomare. Il colore dominante del golfo è l'azzurro, e il rumore dominante è quello del mare, che fa venire sonno a tutti, tranne a Bea. A quattordici anni, Bea non dorme mai prima di mezzanotte.\n\nLa prima settimana è difficile. Tommaso ha scelto un libro per bambini su un toro di nome Tito. La storia comincia bene: Tito è grosso, ha le corna lunghe e tutti pensano che sia un animale aggressivo. In realtà Tito è un toro timido, ha paura delle mosche e vuole soltanto un prato tranquillo. Tommaso però si stanca presto: dopo cinque pagine guarda fuori dalla finestra, e il libro rimane sul letto. «È come la vasca da bagno di questo albergo», dice. «Dentro ci si sta bene, ma bisogna entrare.»\n\nIl portiere dell'albergo, il signor Bruno, ha notato che il bambino gira per la hall con il libro in mano. Una sera gli chiede: «Quanti libri hai da leggere?» «12», risponde Tommaso. «E non ne ho finito nemmeno uno.» Il portiere sorride. Gli spiega che lui, da giovane, aveva un trucco: ogni volta che si sedeva in vasca per il bagno caldo, leggeva una pagina. «Una pagina non è un traguardo», dice. «Ma 12 pagine al giorno diventano un libro in una settimana.»\n\nIl consiglio funziona. Dal giorno dopo Tommaso porta il libro con sé e legge una pagina ogni volta che ha un momento libero: sul traghetto per Portovenere, nell'attesa del gelato, nell'automobile quando tornano dalle gite. Dopo tre giorni ha finito il libro del toro Tito. Dopo dieci ne ha finiti quattro. Anche Bea, a mezzanotte, lascia il telefono per un momento e legge qualche capitolo.\n\nA fine agosto Tommaso ha letto 8 libri su 12. Non ha raggiunto il traguardo, ma è soddisfatto. Il giorno della partenza ha regalato al portiere il suo preferito, quello del toro Tito. «Non era aggressivo», ha detto. «Aveva solo bisogno di tempo.»\n\nDomande:\nDove va in vacanza la famiglia Rinaldi?\nVa a Lerici, sul golfo della Spezia.\nPerché Tommaso deve leggere dodici libri?\nPerché la maestra ha dato una lista di lettura e chi la finisce riceve un diploma.\nCom'è Tito, il toro del libro?\nSembra aggressivo, ma in realtà è timido e ha paura delle mosche.\nChe trucco insegna il portiere?\nInsegna a leggere una pagina ogni volta, perché dodici pagine al giorno diventano un libro in una settimana.\nQuanti libri ha letto Tommaso alla fine dell'estate?\nHa letto 8 libri su 12."
+    },
+    {
+      "title": "Una mattina tra i libri antichi",
+      "summary": "A school class visits the old-books section of Florence's national library and meets the curator.",
+      "newWords": [
+        "conservatore",
+        "inferno",
+        "foro",
+        "galera",
+        "censura",
+        "logico",
+        "qualifica",
+        "concezione",
+        "appartenenza"
+      ],
+      "text": "La nostra insegnante di storia, la professoressa Neri, ha portato la classe alla Biblioteca Nazionale di Firenze. Ad aspettarci c'era il conservatore della sezione antica, il dottor Bianchi, un signore magro con le mani piene di macchie. Ci ha spiegato subito che il suo lavoro non consiste nel chiudere i libri a chiave, ma nel farli vivere ancora per qualche secolo. Per questo un conservatore deve sapere di carta, di colla e di pazienza.\n\nNella sala c'erano tanti libri sotto vetro, e il dottor Bianchi ci ha fatti fermare davanti a uno in particolare: una vecchia edizione dell'Inferno di Dante, stampata a Venezia, con un disegno a ogni canto. «Come si fa a non rovinare un libro tanto vecchio?», ha chiesto. «Il metodo è logico: non si tocca con le mani nude, si tiene al buio e non si respira sopra, perché anche l'umidità fa male.» Poi ci ha mostrato un piccolo foro in una pagina dell'Inferno, quasi invisibile. «Un piccolo verme», ha spiegato. «Ha vissuto qui dentro secoli fa, e ci ha lasciato la sua firma. Questo foro non è bello, ma è la storia del libro.» Tutti abbiamo riso.\n\nPoi siamo passati a un libro di viaggi con il disegno di una galera, una nave lunga e stretta con tanti remi. «Questa galera non c'entra con la prigione», ha detto il dottor Bianchi, notando la faccia di Luca. «Una galera era una nave che navigava nel Mediterraneo molti secoli fa.» Luca ha annuito, un po' deluso, perché sperava in una storia più emozionante.\n\nL'ultima vetrina conteneva una raccolta di racconti con alcune righe coperte di inchiostro nero. «È l'opera di un censore», ha detto Bianchi. «Una volta, prima di stampare un libro, qualcuno ne controllava il testo e cancellava ciò che non gli piaceva. Questa censura oggi ci fa sorridere, ma è anche un documento: la censura ci dice che cosa si temeva.» Sulla prima pagina c'era il nome del primo proprietario. «È un segno di appartenenza. Chi compra un libro ci mette il suo nome, come si fa con un ombrello. Ma l'appartenenza di un libro cambia nel tempo: questo ha avuto sette proprietari.»\n\nAlla fine Bianchi ci ha chiesto che cosa avevamo imparato. Quando è toccato a me, ho detto che la mia concezione del libro era cambiata: prima era un oggetto da leggere, adesso è un compagno di viaggio che ha vissuto più di noi. «Una bella concezione», ha detto lui. «Per fare questo mestiere serve una qualifica: studia lettere, impara il latino e abbi pazienza. Ma la qualifica non basta: è logico che serva anche l'amore per i libri.»\n\nDomande:\nChe lavoro fa il dottor Bianchi?\nÈ il conservatore della sezione antica della Biblioteca Nazionale di Firenze.\nChe cosa ha lasciato un verme in una pagina dell'Inferno?\nHa lasciato un piccolo foro.\nChe cos'era una galera nel libro di viaggi?\nEra una nave lunga e stretta con tanti remi, non una prigione.\nPerché alcune righe del libro di racconti sono coperte d'inchiostro?\nPerché un censore ha cancellato ciò che non gli piaceva.\nChe cosa serve per lavorare in una biblioteca antica?\nServe una qualifica e anche l'amore per i libri."
+    },
+    {
+      "title": "Il cineforum del giovedì",
+      "summary": "In Lugano, two friends run a film club that shows films made from books, and a science-fiction film starts a lively discussion.",
+      "newWords": [
+        "proiezione",
+        "spaziale",
+        "sperimentale",
+        "bersaglio",
+        "tribù",
+        "superficiale",
+        "visibilità"
+      ],
+      "text": "Il giovedì sera, nella biblioteca civica di Lugano, si tiene il cineforum. La regola è semplice: prima si legge un libro, poi si guarda il film tratto da quel libro, e infine si discute. Lo organizzano due amici, Daniele e Lea. Daniele lavora in biblioteca, Lea insegna al liceo, e insieme sono convinti che un libro e un film dicano la stessa storia con due lingue diverse.\n\nQuesto mese il libro è un romanzo di fantascienza che racconta la vita su una stazione spaziale, dove vivono 200 persone. Per vivere insieme senza litigare, gli abitanti si dividono in tribù: la tribù dei cuochi, quella dei meccanici e quella dei medici, ognuna con un colore e con un modo di parlare. Il romanzo è lungo, e Lea ha dovuto leggerlo in due settimane, di sera. Daniele, invece, lo ha letto in tre giorni, e ora dice di avere ancora le vertigini.\n\nLa sera della proiezione la sala è quasi piena. Quando si spengono le luci, il film comincia con una lunga immagine della terra vista dallo spazio, senza parole e senza musica. Lea sorride: nel libro, la stessa scena occupava una sola riga. Il film è un esperimento. Il regista, un giovane svizzero, ha scelto uno stile sperimentale, con colori molto forti e poche battute. Alcuni spettatori si agitano sulla sedia, altri guardano lo schermo senza battere ciglio.\n\nDopo la proiezione comincia la discussione. Una signora anziana dice che il film l'ha annoiata. «È una critica superficiale», risponde Lea. «Lei ha guardato soltanto le immagini, ma il film vuole farci sentire che nello spazio il tempo non passa come da noi.» Un ragazzo, invece, afferma che il libro è molto meglio, perché le tribù nel romanzo sono descritte con più dettagli. «Ma forse anch'io sono superficiale», aggiunge, «perché ho letto il libro in fretta.» Daniele annuisce: «Il cinema ha meno tempo del libro. Dentro il film, ogni scena è come un bersaglio: se non lo colpisci subito, il pubblico passa oltre.»\n\nVerso le 11 qualcuno propone di scrivere una recensione per il giornale della città. A Lugano, dice Daniele, il cineforum ha poca visibilità: lo conoscono 200 persone, e quasi tutte vengono ogni settimana. «Se scriviamo un articolo, magari ne verrà qualcun altro.» Lea si mette a ridere: «E il film sperimentale, secondo te, attira il pubblico?» «Probabilmente no», risponde lui. «Ma una recensione onesta lo attira più di mille manifesti.»\n\nLa settimana dopo l'articolo esce, e arrivano 15 persone nuove. Una è la signora anziana, che ha voluto leggere il libro prima di tornare. «Ho letto il libro e ho cambiato idea», dice a Lea. «Adesso il film mi piace di più.»\n\nDomande:\nCome funziona il cineforum di Lugano?\nPrima si legge un libro, poi si guarda il film tratto da quel libro e infine si discute.\nChi sono le tribù del romanzo?\nSono i gruppi dei cuochi, dei meccanici e dei medici che vivono sulla stazione spaziale.\nChe stile ha il film?\nHa uno stile sperimentale, con colori molto forti e poche battute.\nPerché Daniele dice che ogni scena è come un bersaglio?\nPerché se la scena non colpisce subito, il pubblico passa oltre.\nPerché scrivono una recensione per il giornale?\nPerché il cineforum ha poca visibilità e vogliono attirare più persone."
+    },
+    {
+      "title": "Una petizione per la biblioteca",
+      "summary": "In Palermo, a retired teacher writes a petition to keep the neighbourhood library open, and the city listens.",
+      "newWords": [
+        "petizione",
+        "cooperazione",
+        "incentivare",
+        "distribuire",
+        "disabile",
+        "accusare",
+        "discriminazione",
+        "direttiva",
+        "celebrazione"
+      ],
+      "text": "Nel quartiere Zisa, a Palermo, c'è una piccola biblioteca che da 30 anni presta libri a chi abita lì. Quest'anno, però, il Comune ha comunicato che, per ridurre le spese, orari e servizi saranno ridotti. Teresa, un'insegnante in pensione che viene in biblioteca ogni mattina, ha deciso di scrivere una petizione. «Non vogliamo accusare nessuno», ha detto ai vicini. «Vogliamo solo spiegare che la biblioteca serve.»\n\nLa petizione è stata scritta in una settimana. Dice, in poche righe, che la biblioteca è un luogo di cooperazione tra scuole, famiglie e associazioni, e che per i bambini del quartiere è il primo posto dove si impara a leggere. Dice anche che, se la biblioteca chiude un giorno a settimana, i primi a perdere qualcosa saranno i più piccoli e i più anziani. Teresa non ha usato parole forti: è convinta che le persone ascoltino di più quando nessuno alza la voce, e che chi vuole accusare qualcuno non convinca mai nessuno.\n\nCon l'aiuto di una cooperativa di giovani, i fogli della petizione sono stati portati nei negozi, nelle scuole e al mercato. I ragazzi hanno saputo distribuire i volantini: li distribuivano in piazza, davanti alla scuola e all'ingresso del mercato. Questa cooperazione ha funzionato meglio di qualsiasi manifesto. In due settimane hanno firmato più di 1000 persone. Tra queste c'era Giuseppe, un ragazzo disabile che usa la biblioteca per studiare. «Per un disabile come me è l'unico posto con una rampa e con un computer adatto», ha detto. «Se chiude un giorno, io non riesco a prepararmi per gli esami.» Teresa ha letto la sua frase al sindaco, e c'è stato un lungo silenzio.\n\nLa petizione chiedeva anche una cosa precisa: incentivare la lettura nelle scuole con una direttiva del Comune. Ogni classe doveva visitare la biblioteca almeno due volte all'anno. «Non è giusto», diceva il testo, «che solo chi ha libri in casa possa leggere. Non deve esserci discriminazione fra chi può comprare e chi no.» Una discriminazione di questo tipo, spiegava Teresa, non fa rumore, ma si sente. Per incentivare i più giovani, la petizione proponeva anche un premio per chi legge di più.\n\nIl Comune ha risposto un mese dopo. Gli orari non sono cambiati, e la biblioteca resterà aperta sei giorni su sette. In più, una nuova direttiva obbliga le scuole del quartiere a organizzare due visite all'anno. Per festeggiare, il quartiere ha organizzato una celebrazione: una domenica di maggio, con musica, torte e una lettura di poesie in piazza. Teresa non ha parlato. Ha ascoltato, sorridendo, in prima fila, con Giuseppe accanto.\n\nDomande:\nPerché Teresa scrive una petizione?\nPerché il Comune vuole ridurre gli orari e i servizi della biblioteca.\nChi ha aiutato a distribuire i fogli?\nUna cooperativa di giovani, con le scuole e i negozi.\nChe cosa ha detto Giuseppe?\nHa detto che la biblioteca è l'unico posto con una rampa e un computer adatto per lui.\nChe cosa chiedeva la petizione per le scuole?\nChiedeva una direttiva che obbligasse ogni classe a visitare la biblioteca due volte all'anno.\nCome hanno festeggiato alla fine?\nHanno organizzato una celebrazione con musica, torte e una lettura di poesie in piazza."
+    },
+    {
+      "title": "Lettera da Zurigo",
+      "summary": "A letter from an Italian in Zurich about the database of the Italian library abroad and the comments people write there.",
+      "newWords": [
+        "database",
+        "aggressione",
+        "automaticamente",
+        "fammi",
+        "saperlo",
+        "parlarne"
+      ],
+      "text": "Cara Marina,\n\nti scrivo da Zurigo, dove vivo ormai da dieci anni, con una domanda che mi gira in testa da settimane. Ti ricordi la piccola biblioteca italiana che abbiamo aperto qui con gli amici? Adesso ha quasi tremila libri, e abbiamo deciso di mettere tutto in un database, così chiunque può cercare un titolo da casa. Il lavoro è stato lungo ma bello. Ogni libro ha una scheda, e il programma, automaticamente, ordina gli autori per nome e cerca le copie doppie.\n\nIl database ha però portato una sorpresa. Per aiutare chi arriva da lontano, abbiamo aggiunto uno spazio per i commenti dei lettori. Pensavo che sarebbero stati pieni di consigli, e invece qualcuno ha cominciato a correggere gli altri. «Si scrive \"un po'\", non \"un pò\"», ha scritto un signore. Un altro ha risposto che l'italiano dei giovani rovina la lingua. Nel giro di una sera i commenti sono diventati una specie di aggressione, con parole dure e discussioni senza fine.\n\nHo deciso di parlarne con Elena, la bibliotecaria, e le ho detto: «Fammi capire come possiamo fermare tutto questo». Lei, che è calma, ha sorriso. «Non cancelliamo nulla», ha detto. «Scriviamo una nota in alto: i commenti servono per consigliare i libri, non per correggere le persone.» Ho pensato che avrebbe funzionato poco, e invece in due giorni lo spazio è tornato tranquillo. Una ragazza ha scritto: «Ho sbagliato un congiuntivo, ma ho consigliato un romanzo bellissimo». E un anziano ha risposto: «Il congiuntivo si può sbagliare, il romanzo no».\n\nRipensando a questa storia, mi sono ricordato di una frase di mia madre. Quando ero piccolo e parlavo male l'italiano, la sua correzione era sempre dolce: «Dillo così, caro». Non mi ha mai fatto sentire stupido. Come potevo saperlo, allora? Se avessi saputo quanto valeva, l'avrei ringraziata più spesso. Avrei voluto saperlo prima, e per questo adesso ne parlo con tutti.\n\nPerciò, cara Marina, ti scrivo per chiederti un favore. Quando vieni a trovarci a ottobre, fammi sapere che cosa pensi della nota. Ne vale la pena parlarne con calma, davanti a un caffè, perché in fondo una biblioteca italiana all'estero non serve soltanto a conservare i libri: serve a conservare il modo di trattarsi bene in una lingua che, per molti di noi, è la lingua di casa. Se mi dici che cosa ne pensi, la nota la scrivo meglio.\n\nUn abbraccio forte,\nDavide\n\nDomande:\nChe cosa hanno fatto gli amici di Davide a Zurigo?\nHanno messo i tremila libri della biblioteca italiana in un database.\nChe cosa fa il programma automaticamente?\nOrdina gli autori per nome e cerca le copie doppie.\nChe cosa è successo nello spazio dei commenti?\nQualcuno ha cominciato a correggere gli altri, e i commenti sono diventati una specie di aggressione.\nChe cosa ha proposto Elena?\nHa proposto di scrivere una nota: i commenti servono per consigliare i libri, non per correggere le persone.\nChe cosa chiede Davide a Marina?\nLe chiede di fargli sapere che cosa pensa della nota quando viene a trovarli a ottobre."
+    }
+  ]
+}

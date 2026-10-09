@@ -1,0 +1,230 @@
+{
+  "id": "it-mini-3600",
+  "rankUpTo": 3600,
+  "level": "B2",
+  "title": "Il mare e la costa",
+  "description": "Ten calm stories and short texts from Italian coasts and from Italians abroad: an inherited boat in Sicily, a school trip to the Genoa aquarium, a beach kiosk in Puglia, a ferry in a storm, a marine biologist's diary in Sardinia, a regatta at Trieste, a hotel in Romagna, a letter from Sydney, a seaside festival in Abruzzo and a puppet show on the Lido of Venice.",
+  "topic": "The sea and the coast",
+  "names": [
+    "Reggio",
+    "Salvo",
+    "Favignana",
+    "Sicilia",
+    "Milano",
+    "Rosalia",
+    "Turi",
+    "Rita",
+    "Nervi",
+    "Genova",
+    "Giacomo",
+    "Bianca",
+    "Acquario",
+    "Porto Antico",
+    "Pino",
+    "Titina",
+    "Polignano a Mare",
+    "Puglia",
+    "Mattia",
+    "Lucia",
+    "Vincenzo",
+    "Napoli",
+    "Procida",
+    "Beverello",
+    "Marta",
+    "Asinara",
+    "Sardegna",
+    "Stintino",
+    "Antonio",
+    "Sassari",
+    "Bruno",
+    "Livia",
+    "Mario",
+    "Trieste",
+    "Barcolana",
+    "Gianni",
+    "Laura",
+    "Paolo",
+    "Riccione",
+    "Hotel Perla",
+    "Cattolica",
+    "Elena",
+    "Rosa",
+    "Sydney",
+    "Bondi",
+    "Reggio Calabria",
+    "Calabria",
+    "Australia",
+    "Nicola",
+    "Sara",
+    "Fossacesia",
+    "Fossacesia Marina",
+    "Abruzzo",
+    "Tommaso",
+    "Ada",
+    "Lido",
+    "Venezia"
+  ],
+  "lessons": [
+    {
+      "title": "La barca di nonno Salvo",
+      "summary": "A young woman inherits her grandfather's boat on a Sicilian island and decides not to sell it.",
+      "newWords": [
+        "eredità",
+        "spento",
+        "tradimento",
+        "saldo",
+        "velo",
+        "denominato",
+        "osare",
+        "impiegare",
+        "inevitabile",
+        "pensarci"
+      ],
+      "text": "Quando è morto nonno Salvo, nella nostra famiglia nessuno sapeva che cosa fare della sua barca. Era l'unica cosa di valore dell'eredità: una piccola barca di legno, nel porto di Favignana, in Sicilia. Mia madre diceva che quell'eredità era più un peso che un regalo. Il motore era vecchio, il posto in porto costava e nessuno di noi viveva più sull'isola. «Venderla è inevitabile», ripeteva al telefono. Io non osavo risponderle. A vendere la barca del nonno non volevo nemmeno pensarci.\n\nA metà settembre sono partita da Milano per sistemare le carte e la mattina dopo sono andata al porto. La barca era là, sotto un velo di sale e di polvere. Sulla prua si leggeva ancora il nome, quasi cancellato: era denominata «Rosalia», come la nonna. Mi sono seduta e, per la prima volta da mesi, ho pianto.\n\nMi ha trovata Turi, un vecchio amico di nonno Salvo. «Vuoi provarla?», mi ha chiesto. Da sola non avrei mai osato, ma con lui mi sentivo sicura. Il motore è partito al terzo tentativo. Siamo usciti dal porto e, in mezzo al mare, si è spento di colpo. Con il motore spento il silenzio era totale, e sull'acqua c'era un velo di nebbia leggera. «Succede», ha detto Turi con calma. «Questo motore è come tuo nonno: ogni tanto si ferma a riposare.» Ho riso, e per la prima volta il dolore mi è sembrato più leggero.\n\n«Un motore vecchio impiega sempre un'ora a ripartire», ha detto Turi, e intanto mi ha messo il timone in mano. «Tienilo saldo», mi ha detto. «Il mare sente se hai paura.» Ho stretto il timone con le mani salde, e la barca ha preso la direzione giusta. Quella sera ho capito che vendere la «Rosalia» sarebbe stato un tradimento. Non verso la barca, ma verso i giorni felici che il nonno aveva vissuto là sopra. La parola è grande, ma io la sentivo proprio così: un tradimento.\n\nAbbiamo lavorato alla barca ogni mattina. «Per sistemare tutto impiegheremo due settimane», diceva lui, e io ero felice. Ho chiamato mia madre: «Vieni a vedere, poi decidi.» Lei è arrivata a ottobre, ha toccato il legno con la mano e ha guardato a lungo la barca denominata «Rosalia», come sua madre.\n\n«Pensaci bene, mamma», le ho detto. «Pensaci con calma. Non c'è fretta.»\n\nNon ha risposto subito. Poi ha sorriso, e ho capito che la vendita non era più inevitabile: la barca sarebbe rimasta con noi.\n\nDomande:\nChe cosa pensava la madre dell'eredità?\nPensava che fosse più un peso che un regalo e che vendere la barca fosse inevitabile.\nCome si chiamava la barca?\nEra denominata «Rosalia», come la nonna.\nChe cosa è successo in mezzo al mare?\nIl motore si è spento e il silenzio era totale.\nChe cosa ha detto Turi sul timone?\nHa detto di tenerlo saldo, perché il mare sente se hai paura.\nPerché vendere la barca sarebbe stato un tradimento?\nPerché sarebbe stato un tradimento verso i giorni felici che il nonno aveva vissuto là sopra.\nChe cosa ha fatto la madre quando è arrivata a ottobre?\nHa toccato il legno, ha guardato il nome e poi ha sorriso."
+    },
+    {
+      "title": "La gita all'Acquario",
+      "summary": "A class of children visits the Genoa aquarium, and a boy who copied a summary learns to write his own.",
+      "newWords": [
+        "alunno",
+        "elementari",
+        "riassunto",
+        "copiare",
+        "assente",
+        "domandare",
+        "precisare",
+        "accento",
+        "ragionamento",
+        "periodico"
+      ],
+      "text": "La maestra Rita insegna da 20 anni in una delle scuole elementari di Nervi, un quartiere di Genova che guarda il mare. Quando era alunna delle elementari, sognava già di fare questo mestiere. Ogni autunno porta gli alunni della quinta all'Acquario, nel Porto Antico, e anche quest'anno ha annunciato la gita con una settimana di anticipo. «Prima della visita», ha detto, «ognuno di voi scriverà un riassunto delle nostre lezioni sul mare.»\n\nIl giorno della lezione Giacomo era assente: aveva la febbre ed è rimasto a letto tutta la mattina. Quando è tornato a scuola, gli altri alunni stavano già consegnando il riassunto. Allora Giacomo ha avuto un'idea. Si è seduto accanto a Bianca, la sua compagna di banco, e ha cominciato a copiare il suo riassunto, riga dopo riga.\n\nLa maestra se n'è accorta subito, ma non ha alzato la voce. Si è avvicinata e gli ha domandato: «Giacomo, hai capito quello che stai scrivendo?» Lui ha abbassato gli occhi. «Non tanto, maestra.» «Allora copiare non serve», ha risposto lei. «Quando scrivi con le tue parole, impari. Quando copi, impari soltanto la calligrafia di Bianca.» Gli ha dato un foglio nuovo e gli ha promesso che avrebbe potuto consegnare il riassunto dopo la gita.\n\nIl venerdì la classe è andata all'Acquario. La guida, un giovane biologo con un forte accento veneto, li ha accolti davanti alla vasca dei delfini. «L'acqua di questa vasca viene controllata in modo periodico», ha spiegato. «Ogni ora qualcuno misura la temperatura e controlla che sia pulita.» Ha aggiunto che i controlli periodici servono a proteggere gli animali. Giacomo ascoltava con attenzione e prendeva appunti, questa volta con le sue parole.\n\nIn un'altra sala una bambina ha domandato: «Perché i delfini non sono pesci?» La guida ha precisato che i delfini respirano con i polmoni, come noi, e per questo devono tornare spesso in superficie. Allora Bianca ha fatto un ragionamento che ha fatto sorridere tutti: «Quindi un delfino vive nell'acqua come un pesce, ma non lo è, perché respira come noi.» «È un ragionamento perfetto», ha detto la guida. «Hai ragione.»\n\nMentre uscivano, molti alunni imitavano l'accento della guida e ridevano. La maestra Rita ha precisato che non era bello prendere in giro il modo di parlare degli altri, ma anche lei sorrideva. Quella sera Giacomo ha scritto il riassunto della gita: otto righe, tutte sue. Il giorno dopo la maestra gli ha dato un bel voto, e Bianca gli ha detto: «Se sei assente un'altra volta, ti presto il quaderno. Ma non da copiare!»\n\nDomande:\nDove insegna la maestra Rita?\nInsegna in una delle scuole elementari di Nervi, a Genova.\nPerché Giacomo era assente il giorno della lezione?\nPerché aveva la febbre ed è rimasto a letto.\nChe cosa ha fatto Giacomo quando è tornato a scuola?\nHa cominciato a copiare il riassunto di Bianca.\nChe cosa ha spiegato la guida sull'acqua della vasca?\nHa spiegato che l'acqua viene controllata in modo periodico.\nChe cosa ha precisato la guida sui delfini?\nHa precisato che i delfini respirano con i polmoni e non sono pesci.\nQuale ragionamento ha fatto Bianca?\nHa detto che il delfino vive nell'acqua come un pesce, ma non lo è."
+    },
+    {
+      "title": "Il bar di Pino",
+      "summary": "A boy who forgot his wallet tells a small lie at a beach kiosk in Puglia, and the owner answers with kindness.",
+      "newWords": [
+        "panino",
+        "integrale",
+        "biscotto",
+        "litro",
+        "carbone",
+        "maiale",
+        "allegro",
+        "portafoglio",
+        "margherita",
+        "bugia"
+      ],
+      "text": "Sulla costa di Polignano a Mare, in Puglia, Pino ha un bar con quattro tavoli e un sorriso sempre acceso. Ogni mattina alle 7 accende il carbone nella griglia, e in meno di un'ora tutto il paese sa che il bar è aperto, perché l'odore del fumo di carbone arriva fino alla spiaggia. Sua moglie Titina mette su ogni tavolo un bicchiere con una margherita, raccolta lungo la strada. «Una margherita fresca vale più di una tovaglia nuova», dice. Nessuno ha mai pensato di darle torto.\n\nIl piatto più amato è il panino con le bombette di maiale. Pino lo prepara con il pane integrale che Titina cuoce ogni notte e con la carne di un maiale di suo cugino, che vive a pochi chilometri dal mare. Sono panini semplici, ma chi li prova torna anche il giorno dopo. Per finire, c'è sempre un piatto di biscotti, che Titina offre a tutti, anche a chi non ha ordinato niente.\n\nPino è un uomo allegro, e quando porta i piatti ai tavoli canta con una voce forte e allegra. Una mattina di agosto è arrivato al bar Mattia, un bambino di nove anni, con i capelli ancora bagnati. Aveva fame dopo tre ore passate in acqua. Ha ordinato un panino integrale, due biscotti e una limonata da un litro, da dividere con gli amici. Quando Pino ha messo tutto sul tavolo, Mattia ha messo le mani in tasca e ha scoperto di non avere il portafoglio. Lo aveva lasciato nella borsa del padre, sulla spiaggia.\n\nIl bambino è diventato rosso. Poi ha detto una bugia: «Il mio papà ha già pagato, signore.» Pino lo ha guardato negli occhi, senza arrabbiarsi. «Davvero?», ha chiesto. «Allora il tuo papà è molto veloce, perché non l'ho ancora visto.» Mattia ha abbassato la testa. «Non ho il portafoglio», ha ammesso. «E ho detto una bugia.»\n\nPino ha riso. «Una bugia piccola, di quelle che durano poco», ha detto. «Mangia con calma. Il portafoglio lo porti dopo.» Mattia ha mangiato il panino fino all'ultimo pezzetto, poi è corso sulla spiaggia a cercare suo padre. Sono tornati insieme dopo pochi minuti. Il padre ha pagato il panino, i biscotti e anche il litro di limonata, e ha ordinato un secondo panino per sé. Mattia ha stretto la mano di Pino e ha detto: «Non dirò più bugie.» «Va bene», ha risposto Pino. «Ma i biscotti li puoi sempre ordinare.» Titina ha dato al bambino una margherita, e tutto il bar ha sorriso.\n\nDomande:\nChe cosa mette Titina su ogni tavolo?\nMette un bicchiere con una margherita.\nCome sono i panini di Pino?\nSono panini semplici, con il pane integrale e le bombette di maiale.\nChe cosa ha ordinato Mattia?\nHa ordinato un panino, due biscotti e una limonata da un litro.\nPerché Mattia non può pagare?\nPerché ha lasciato il portafoglio nella borsa di suo padre.\nChe cosa dice Mattia a Pino?\nDice una bugia: dice che suo padre ha già pagato.\nCome reagisce Pino?\nRide e dice a Mattia di mangiare con calma."
+    },
+    {
+      "title": "Il traghetto per Procida",
+      "summary": "A girl and her grandfather cross to the island of Procida by ferry, and a sudden storm turns into a beautiful sunset.",
+      "newWords": [
+        "viaggiatore",
+        "navigazione",
+        "improvviso",
+        "scoppiare",
+        "goccia",
+        "grido",
+        "muoversi",
+        "telefonata",
+        "tramonto",
+        "ribadire"
+      ],
+      "text": "Il traghetto per Procida parte da Napoli, dal Beverello, alle 17:30. Lucia ha dodici anni e viaggia con il nonno Vincenzo, che sull'isola ha una casa e una piccola barca. Il nonno è un vecchio viaggiatore: ha attraversato quel tratto di mare mille volte e sa riconoscere le nuvole prima di tutti. Quel pomeriggio, mentre la nave lasciava il porto, ha guardato il cielo e ha detto soltanto: «Oggi la navigazione sarà interessante.»\n\nPer i primi dieci minuti il mare era tranquillo. Lucia stava in piedi sul ponte, e guardava gli uccelli bianchi che seguivano la nave. Ogni tanto uno di loro lanciava un grido acuto e scendeva verso l'acqua, e i loro gridi si sentivano anche sopra il rumore del motore. Gli altri viaggiatori leggevano, mangiavano un gelato o parlavano al telefono con chi li aspettava sull'isola.\n\nPoi c'è stato un improvviso cambio di vento. In pochi minuti il cielo è diventato scuro, e un temporale è scoppiato sul mare. Le prime gocce sono cadute sul ponte, grosse e pesanti, e dopo un attimo pioveva forte. Lucia ha sentito un tuono e per un attimo non è riuscita a muoversi: ha solo stretto la mano del nonno. «Non è niente», ha detto lui. «Muoviamoci, andiamo dentro. Quando scoppia un temporale in mare, il posto migliore è quello al coperto.»\n\nTutti i viaggiatori sono entrati nella sala, ridendo. Si è sentita la voce del comandante. Ha spiegato che la navigazione continuava in sicurezza e ha ribadito che non c'era nessun pericolo: bastava restare ai propri posti e non muoversi inutilmente mentre la nave si muoveva sull'acqua. Anche il nonno ha ribadito il concetto a modo suo. «Seduti e tranquilli», ha detto a Lucia, «e vedrai che passa presto.»\n\nProprio in quel momento il telefono di Lucia ha squillato. Era una telefonata della mamma, che aspettava nel porto di Procida e vedeva il temporale da lontano. «State bene?», ha chiesto. «Benissimo», ha risposto Lucia. «Il nonno dice che è una navigazione interessante.» La telefonata è durata un minuto, ma dopo Lucia si sentiva molto più sicura. Aveva ancora un po' di paura, ma era una paura piccola, come una goccia in mezzo al mare.\n\nIl temporale è finito com'era cominciato, all'improvviso. Il sole ha attraversato le nuvole, e il tramonto ha dipinto tutto il mare di rosso e di giallo. Lucia è uscita di nuovo sul ponte con il nonno e ha guardato le case colorate di Procida avvicinarsi. Non aveva mai visto un tramonto così bello. «Hai visto?», ha detto il nonno. «Dopo la pioggia, il mare ti regala sempre qualcosa.»\n\nDomande:\nDove va Lucia con il nonno?\nVa a Procida, dove il nonno ha una casa e una barca.\nChe cosa ha detto il nonno prima di partire?\nHa detto che la navigazione sarebbe stata interessante.\nChe cosa è successo dopo dieci minuti?\nÈ scoppiato un temporale improvviso.\nChe cosa ha ribadito il comandante?\nHa ribadito che non c'era nessun pericolo.\nChi ha fatto una telefonata a Lucia?\nSua madre, che aspettava nel porto di Procida.\nCom'era il tramonto dopo il temporale?\nEra rosso e giallo, e Lucia non ne aveva mai visto uno così bello."
+    },
+    {
+      "title": "Il diario dell'Asinara",
+      "summary": "A marine biologist keeps a week-long diary on a remote protected island off Sardinia.",
+      "newWords": [
+        "remoto",
+        "aquila",
+        "verticale",
+        "parametro",
+        "filtro",
+        "sorgente",
+        "istituito",
+        "rilascio",
+        "assorbire",
+        "derivante"
+      ],
+      "text": "Lunedì. Da oggi lavoro per tre settimane all'Asinara, un'isola selvaggia a nord della Sardegna. Sono partita da Stintino con la barca dei ricercatori e, in mezzo al mare, ho avuto la sensazione di andare in un luogo remoto, lontano da tutto. L'area marina intorno all'isola è stata istituita più di 20 anni fa per proteggere il mare. Il mio compito è controllare che l'acqua sia ancora in buona salute.\n\nMartedì. Stamattina ho misurato i primi parametri dell'acqua: temperatura, sale, trasparenza. I parametri di questa baia sono quasi perfetti. Lavoriamo con uno strumento che fa passare l'acqua attraverso un filtro, e sul filtro si raccolgono tutte le piccole cose che galleggiano. Antonio, il mio collega di Sassari, mi ha fatto vedere come cambiare il filtro. Va cambiato ogni giorno, altrimenti i dati non valgono niente.\n\nMercoledì. Dopo il lavoro ho camminato lungo una parete verticale di roccia, sopra il mare. Sopra di me volava un'aquila. Antonio dice che la vede ogni mattina nello stesso punto. Rimane ferma nel vento per minuti interi, poi piega un'ala e scende verso il mare. Ho guardato la parete verticale e l'aquila finché il sole non è sceso dietro le rocce.\n\nGiovedì. Oggi abbiamo trovato una sorgente d'acqua dolce tra le rocce. È piccola, ma l'acqua è così limpida che ne ho riempito una bottiglia. Antonio mi ha spiegato che gli animali dell'isola vengono qui a bere, e che la sorgente non ha mai smesso di scendere, nemmeno nelle estati più calde. Ho pensato che in un posto così remoto ogni goccia d'acqua dolce ha un valore.\n\nVenerdì. Giornata di rilascio! Il centro di recupero ci ha affidato una tartaruga marina che era stata curata per un mese. Abbiamo fatto il rilascio sulla spiaggia, di fronte a un piccolo gruppo di visitatori. La tartaruga ha aspettato un attimo, poi è entrata nell'acqua ed è sparita sotto le onde. Il rilascio è finito tra gli applausi di tutti.\n\nSabato. Sul bordo della spiaggia ho trovato pezzi di plastica portati dal mare. Sono problemi derivanti da quello che gettiamo via, e nemmeno un parco istituito per proteggere la natura è al sicuro da un danno derivante dal mondo intorno. Poi, per riposare, mi sono seduta su una roccia scura. Il sole d'ottobre è debole, ma la roccia assorbe il calore del giorno e di sera è ancora calda. Anch'io ho cercato di assorbire un po' di quel calore.\n\nDomenica. Domani torno a Sassari con trenta pagine di appunti. Quello che non scrivo nei parametri, lo scrivo qui: vorrei che ogni persona potesse vedere un'aquila, una sorgente e un rilascio in mare almeno una volta nella vita.\n\nDomande:\nDove lavora Marta per tre settimane?\nLavora all'Asinara, un'isola a nord della Sardegna.\nQuali parametri misura Marta?\nMisura la temperatura, il sale e la trasparenza dell'acqua.\nA che cosa serve il filtro?\nServe a raccogliere le particelle che galleggiano nell'acqua.\nChe cosa vede Marta sopra la parete verticale?\nVede un'aquila.\nChe cosa fanno Marta e Antonio con la tartaruga?\nFanno il rilascio in mare, dopo un mese di cure.\nQuali problemi trova Marta sulla spiaggia?\nTrova pezzi di plastica, un problema derivante dalle nostre abitudini."
+    },
+    {
+      "title": "Il drago rosso",
+      "summary": "A 74-year-old skipper and his engineering-student granddaughter sail the Barcolana regatta at Trieste.",
+      "newWords": [
+        "autunno",
+        "parità",
+        "drago",
+        "ingegneria",
+        "gioventù",
+        "divertirsi",
+        "innanzitutto",
+        "prevalentemente",
+        "esserlo",
+        "dargli"
+      ],
+      "text": "La seconda domenica di ottobre, a Trieste, il mare si riempie di barche a vela. È la Barcolana, la grande gara d'autunno, e ogni anno vi partecipano migliaia di barche. Bruno ha 74 anni e ne ha già fatte più di trenta. In gioventù guidava una barca prestata da un amico; oggi ne ha una tutta sua, vecchia ma ancora bella, con il disegno di un drago rosso sulla vela. A bordo ci sono prevalentemente vecchi amici, tutti oltre i 60 anni.\n\nSua nipote Livia studia ingegneria all'università. L'ingegneria, dice lei, serve anche a fare regali. Per il compleanno del nonno, che cade proprio in autunno, voleva dargli un regalo speciale. Non un orologio, non un libro: una vela nuova, disegnata da lei. «Innanzitutto devo capire come prende il vento la tua barca», ha detto al nonno, e per tre mesi ha misurato, calcolato e disegnato. Voleva dargli anche una cosa che non si compra: la fiducia che la sua barca potesse correre ancora veloce.\n\n«Livia, non so se alla mia età posso fare ancora il capitano», le ha detto un giorno Bruno. «Ho sempre pensato di esserlo per tutta la vita, ma le mie braccia non sono più quelle della gioventù.» Livia gli ha sorriso. «Chi ha detto che devi esserlo da solo? Io sarò accanto a te.»\n\nIl giorno della gara c'era poco vento e il mare sembrava uno specchio. Sulla linea di partenza c'erano barche di tutte le dimensioni, e a bordo c'era prevalentemente silenzio. Al segnale, il drago rosso ha preso il vento con la vela nuova e ha cominciato a correre. Bruno guidava la barca, Livia si occupava della vela e gli amici scherzavano. «L'importante è divertirsi», ripeteva Bruno. «A questa età si corre per divertirsi, non per vincere. Divertiamoci e basta!»\n\nDopo quasi 3 ore, a poche decine di metri dalla fine, la barca di Mario, un vecchio amico e avversario di Bruno, era accanto alla sua. Le due barche sembravano legate da una corda. Per un attimo nessuno ha respirato. Poi sono arrivate insieme nello stesso momento. I giudici hanno guardato i tempi e hanno annunciato che le due barche erano arrivate in parità. Una parità così non si era mai vista, nemmeno in trent'anni di Barcolane.\n\nAppena a terra, Bruno ha abbracciato la nipote. «Innanzitutto, grazie», le ha detto. «Mi hai dato la vela più bella della mia vita.» Livia ha riso. «Il prossimo autunno la faccio ancora più grande.» E Mario, che li guardava da lontano con un grande sorriso, ha alzato il cappello come un saluto.\n\nDomande:\nChe cos'è la Barcolana?\nÈ la grande gara d'autunno di Trieste.\nChe disegno c'è sulla vela di Bruno?\nC'è il disegno di un drago rosso.\nChe cosa studia Livia?\nStudia ingegneria all'università.\nChe regalo voleva dargli Livia?\nVoleva dargli una vela nuova, disegnata da lei.\nPerché Bruno pensa di non poter più fare il capitano?\nPerché le sue braccia non sono più quelle della gioventù.\nCome è finita la gara tra Bruno e Mario?\nLe due barche sono arrivate in parità."
+    },
+    {
+      "title": "Una buona primavera",
+      "summary": "A hotel owner in Romagna writes to his sister about the changes that saved the family hotel.",
+      "newWords": [
+        "preventivo",
+        "incremento",
+        "efficiente",
+        "sprecare",
+        "affidabile",
+        "fallire",
+        "spot",
+        "truffa",
+        "palese",
+        "disoccupato"
+      ],
+      "text": "Oggetto: Un inverno di lavori\n\nCara Laura,\n\nti scrivo da Riccione, dalla reception dell'Hotel Perla, mentre fuori il sole di aprile scalda finalmente la spiaggia. Ti avevo promesso di raccontarti com'è andato l'inverno, e lo faccio volentieri, perché per una volta le notizie sono buone.\n\nCome sai, a settembre l'albergo stava per fallire. Papà diceva che era palese: con le camere mezze vuote e le bollette così alte non saremmo arrivati a Natale. Aveva ragione, ma io non volevo fallire dopo tanti anni di lavoro della famiglia. Così ho usato l'inverno per cambiare le cose.\n\nLa prima decisione è stata rifare il riscaldamento. Il vecchio impianto sprecava un mucchio di energia: scaldava anche le stanze vuote e, in un anno, avevamo buttato via soldi che non avevamo. Era palese che il vecchio impianto non poteva durare ancora. Ho chiesto tre preventivi. Il primo era troppo alto. Il secondo era così basso che mi sembrava quasi una truffa: nessuno lavora a quel prezzo. Anche papà ha detto: «È una truffa, lascia perdere.» Il terzo preventivo l'ha fatto un tecnico di Cattolica, un uomo affidabile che arriva sempre puntuale e spiega quello che fa. Ha montato una caldaia nuova, molto più efficiente, e adesso consumiamo quasi la metà. Un impianto efficiente e affidabile costa di più all'inizio, ma alla fine si risparmia. Non voglio più sprecare né energia né denaro.\n\nLa seconda decisione è stata chiamare Paolo. Paolo era disoccupato da un anno, dopo la chiusura del ristorante dove lavorava, ed è un ragazzo con tanta fantasia. Con il suo telefono ha girato uno spot di trenta secondi: si vedono la colazione sul terrazzo, il sole sul mare, i bambini che corrono sulla sabbia. Per un giovane disoccupato è stata una bella rivincita. Quando lo spot è comparso su internet, il telefono della reception non ha più smesso di suonare.\n\nIl risultato è che le prenotazioni per l'estate hanno avuto un incremento di quasi un terzo. Un incremento così non l'avevamo mai visto, e per Pasqua l'albergo è già pieno. Ieri papà ha guardato i conti, ha tolto gli occhiali e ha detto soltanto: «Bene.» Dalla sua bocca è un grande complimento.\n\nAdesso so che nessun albergo fallisce per colpa del mare: fallisce quando smette di guardarsi intorno. Il nostro, per fortuna, ha ricominciato.\n\nVieni a trovarci a giugno. Per te c'è la camera con vista sul mare, e non c'è nessun preventivo da pagare!\n\nUn abbraccio,\nGianni\n\nDomande:\nPerché a settembre l'albergo stava per fallire?\nPerché le camere erano mezze vuote e le bollette erano troppo alte.\nChe cosa pensa Gianni del secondo preventivo?\nPensa che sia quasi una truffa, perché il prezzo è troppo basso.\nCome è il tecnico di Cattolica?\nÈ un uomo affidabile, che arriva puntuale e spiega quello che fa.\nChe cosa ha fatto Paolo?\nHa girato uno spot di trenta secondi sull'albergo.\nChe cosa è successo dopo lo spot?\nLe prenotazioni hanno avuto un incremento di quasi un terzo.\nChe cosa dice Gianni a Laura alla fine?\nDice di andare a trovarli a giugno, e che non c'è nessun preventivo da pagare."
+    },
+    {
+      "title": "Lettera da Sydney",
+      "summary": "An Italian woman living in Australia writes to a friend about homesickness and her first trip back to Calabria.",
+      "newWords": [
+        "emotivo",
+        "baciare",
+        "amaro",
+        "confessare",
+        "offendere",
+        "retorica",
+        "nono",
+        "fidare",
+        "ideologia"
+      ],
+      "text": "Sydney, 3 novembre\n\nCara Rosa,\n\nquesto è il nono anno che passo a Sydney, e a dicembre sarà il nono Natale lontano da Reggio Calabria. Te lo scrivo senza retorica, perché sai che non è da me: ogni tanto la nostalgia arriva ancora, come una piccola onda, e non c'è niente da fare.\n\nOgni mattina alle 6 vado a Bondi, a piedi nudi sulla sabbia fredda, e compro un caffè in un bicchiere di carta. Non vorrei offendere gli australiani, ma il loro caffè è lungo e amaro e non somiglia per niente al nostro. Mio marito scherza e dice che sul caffè e sulla pasta ho un'ideologia. Io rispondo che non è un'ideologia: è solo il modo in cui sono stata cresciuta. Poi ci mettiamo a ridere. Ma ti devo confessare una cosa: certe mattine, davanti a questo oceano immenso, quel gusto amaro mi sembra il sapore della distanza.\n\nNon voglio offendere nessuno, e meno che mai questa città che mi ha accolta. Non è retorica da emigrata: le cose belle, qui, sono davvero tante. Qui ho trovato un lavoro, degli amici e una casa con il giardino. Ma sono sempre stata una persona emotiva, e ci sono momenti in cui il cuore si ricorda del mare di casa. Il nostro mare, quello di Reggio, ha un colore diverso, e la luce del pomeriggio sullo Stretto non l'ho trovata in nessun altro posto.\n\nEd ecco la notizia: ho comprato il biglietto! A Natale torno a casa per la prima volta dopo tre anni. Ho già immaginato l'aeroporto. Mia madre sarà in prima fila, con il cappotto buono e gli occhi lucidi. Sarò emotiva come una bambina. Non farò in tempo a parlare: la abbraccerò, la bacerò sulle guance e piangeremo tutte e due. Non vedo l'ora di baciare anche mio padre e di sedermi alla tavola di famiglia.\n\nTi chiedo una cosa: non dire niente alla mamma sul giorno preciso. Voglio farle una sorpresa. Lo so, tu sei capace di tenere un segreto solo per mezza giornata, ma per una volta fidati di te stessa! Io mi fidavo di te già a scuola, e mi hai sempre fatto ridere: hai soltanto confessato tutto alla fine, quando era troppo tardi.\n\nCi vediamo a Natale. Porterò il caffè australiano, così avrai una scusa per dire che il nostro è migliore.\n\nCon tutto l'affetto,\nElena\n\nDomande:\nDa quanti anni vive Elena a Sydney?\nQuesto è il nono anno che vive a Sydney.\nCom'è il caffè australiano, secondo Elena?\nÈ lungo e amaro, non somiglia al nostro.\nChe cosa scherza a dire il marito di Elena?\nScherza e dice che sul caffè e sulla pasta lei ha un'ideologia.\nPerché Elena scrive che è una persona emotiva?\nPerché in certi momenti il cuore si ricorda del mare di casa.\nChe cosa farà Elena all'aeroporto?\nAbbraccerà e bacerà sua madre.\nChe cosa chiede Elena a Rosa?\nLe chiede di non dire niente alla mamma sul giorno preciso."
+    },
+    {
+      "title": "La festa della torre",
+      "summary": "In an Abruzzo seaside village, an old man builds a small replica of the lost village tower for the summer festival.",
+      "newWords": [
+        "frazione",
+        "decorazione",
+        "lama",
+        "votazione",
+        "replica",
+        "farvi",
+        "nominare"
+      ],
+      "text": "Fossacesia Marina è una frazione del comune di Fossacesia, in Abruzzo, e ha una spiaggia lunga, una strada sul mare e una sola piazza. Ogni agosto il paese organizza la festa della torre, una grande cena all'aperto vicino al mare. Quest'anno, prima della festa, il comitato ha dovuto decidere due cose. Prima di tutto doveva scegliere un presidente; poi doveva decidere quale decorazione mettere in piazza.\n\nPer nominare il presidente, il comitato ha organizzato una votazione. Ogni abitante ha scritto un nome su un biglietto. Quando il sindaco ha contato i biglietti, quasi tutti portavano lo stesso nome: Nicola, l'uomo più anziano della frazione, che a 80 anni conosce ogni pietra del paese. «Non so se sono pronto», ha detto lui, «ma se mi volete nominare, io non dico di no.» Alla fine della votazione tutti hanno battuto le mani, e così Nicola è diventato presidente della festa.\n\nIl suo primo progetto è stato costruire una replica della vecchia torre del paese, che una volta guardava il mare e oggi non c'è più. Una replica piccola, alta come una sedia, da mettere in piazza come decorazione della festa. Ha chiamato sua nipote Sara, che ha 11 anni, e insieme hanno lavorato per due settimane in casa. Nicola tagliava il legno con la lama di un vecchio coltello e la teneva sempre pulita: «Una lama sporca rovina il legno», diceva. Sara rendeva liscio il legno con la carta. Alla sera, quando il lavoro finiva, lui le raccontava la vita di una volta.\n\nLa replica è venuta così bene che sembrava vera. Sara ha aggiunto una decorazione: ha attaccato alla torre tante piccole luci di carta, gialle e rosa, che di notte sembravano stelle.\n\nIl giorno della festa c'era il sole. Nicola ha portato la replica in piazza con l'aiuto di Sara e l'ha messa davanti al comune. Gli abitanti, i turisti e i bambini sono arrivati da ogni parte per vederla. Qualcuno ha chiesto se fosse una replica o una torre vera, tanto era fedele. Prima di sedersi a tavola, Nicola ha preso la parola. «Non voglio farvi aspettare», ha detto ai vicini, «ma prima di mangiare voglio farvi vedere come lavora una nipote di 11 anni.» E ha indicato le luci di Sara.\n\nA tavola, sotto quelle luci, il sindaco ha voluto ringraziare Nicola e Sara. «Una frazione piccola», ha detto, «con un presidente di 80 anni e una nipote di 11: più bella di così non potrebbe essere.» Nicola ha alzato il bicchiere d'acqua e ha sorriso. Poi ha stretto la mano di Sara sotto il tavolo, senza dire niente.\n\nDomande:\nDove si trova Fossacesia Marina?\nÈ una frazione del comune di Fossacesia, in Abruzzo.\nCome hanno scelto il presidente della festa?\nHanno fatto una votazione, e quasi tutti hanno scritto il nome di Nicola.\nChe cosa ha costruito Nicola?\nHa costruito una replica piccola della vecchia torre del paese.\nCon che cosa tagliava il legno?\nLo tagliava con la lama di un vecchio coltello.\nChe decorazione ha aggiunto Sara?\nHa attaccato alla torre tante piccole luci di carta.\nDove ha messo Nicola la replica il giorno della festa?\nL'ha messa in piazza, davanti al comune."
+    },
+    {
+      "title": "Una sera al Lido",
+      "summary": "In a newspaper column, a mother describes an evening of beach puppet theatre on the Lido of Venice.",
+      "newWords": [
+        "recitare",
+        "orso",
+        "rubrica",
+        "neo",
+        "pantaloni"
+      ],
+      "text": "Di solito in questa rubrica scrivo di cose serie: il traffico, le bollette, i vicini rumorosi. Oggi voglio raccontarvi una serata leggera, passata sulla spiaggia del Lido di Venezia con i miei due figli, Tommaso e Ada. Se questa rubrica ha un difetto, è che ogni tanto dimentica il mare. Stavolta rimedio.\n\nOgni sera d'estate, al tramonto, una piccola compagnia di teatro per bambini recita su un palco di legno costruito sulla sabbia. Non si paga il biglietto: alla fine un attore passa tra il pubblico con un cappello, e ciascuno lascia quello che vuole. Gli attori sono tre, e un quarto personaggio, il più importante, è un orso di pezza grande come un armadio, che non parla ma si muove con una grazia incredibile.\n\nIl primo attore indossa pantaloni rossi larghissimi, tenuti su da due bretelle, e inciampa in continuazione. I pantaloni scendono, l'attore li tira su, e i bambini ridono a ogni caduta. La storia è semplice: l'orso ha perso la strada di casa, e i tre attori recitano la ricerca con canzoni, grida di sorpresa e qualche scherzo. Il secondo attore ha disegnato sulla guancia un neo grande come una moneta, e mia madre, che era venuta con noi, ha sussurrato: «Ecco il neo più grande di Venezia.» Poi mi ha ricordato di controllare quello che Tommaso ha sulla spalla: «Il neo va protetto dal sole», mi dice da sempre, e ha ragione.\n\nPer un'ora i bambini non hanno guardato lo schermo di nessun telefono. Anch'io ho tenuto il mio in borsa, e ho scoperto che la serata sembrava lunga il doppio. Quando l'orso ha ritrovato la strada di casa, Ada si è alzata in piedi e ha applaudito con tutte le forze. Tommaso, che ha dieci anni e ormai si crede grande, ha fatto finta di non commuoversi, ma gli ho visto gli occhi lucidi.\n\nSulla via del ritorno Ada non ha parlato d'altro. Il giorno dopo ha preso un vecchio peluche, lo ha messo sul divano e ha deciso di recitare lei la parte dell'orso: ha camminato per il salotto con le braccia tese, ha cercato la strada di casa e ha dato a tutti la buonanotte, con una voce profonda e comica. Ha recitato per mezz'ora, e noi eravamo il pubblico.\n\nQuesta non è una rubrica di grandi pensieri, lo so. Ma se ogni tanto i genitori si sedessero sulla sabbia a guardare un orso di pezza, e lasciassero le bollette per un'altra rubrica, forse le serate d'estate sarebbero più lunghe e più belle.\n\nDomande:\nDove si trova la spiaggia di cui parla l'autrice?\nSi trova al Lido di Venezia.\nQuanto si paga per vedere lo spettacolo?\nNon si paga: alla fine ciascuno lascia nel cappello quello che vuole.\nChe cos'è l'orso del teatro?\nÈ un orso di pezza grande come un armadio, che non parla.\nPerché ride il pubblico quando guarda il primo attore?\nPerché ha pantaloni larghissimi e inciampa in continuazione.\nChe cosa ricorda la nonna sul neo?\nRicorda che il neo va protetto dal sole.\nChe cosa ha fatto Ada il giorno dopo?\nHa recitato la parte dell'orso nel salotto, con un vecchio peluche."
+    }
+  ]
+}
