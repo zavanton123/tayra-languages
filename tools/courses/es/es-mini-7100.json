@@ -1,0 +1,233 @@
+{
+  "id": "es-mini-7100",
+  "rankUpTo": 7100,
+  "level": "C1",
+  "title": "Salud pública",
+  "topic": "Public health",
+  "description": "Ten texts on public health from Madrid, Lima, Medellín, Mexico City, Montevideo, Havana, Zaragoza, Valdivia, Honduras and Miami: a nurse remembers the pandemic, a food inspector, a fireworks campaign, a bioethics class, a doctor's life, the fight against yellow fever, the polio vaccine, a cancer screening letter, a flood and a fake remedy.",
+  "names": [
+    "Pilar",
+    "Madrid",
+    "Anselmo",
+    "Europa",
+    "Raj",
+    "Rosa Quispe",
+    "Rosa",
+    "Lima",
+    "Miraflores",
+    "Julio",
+    "Medellín",
+    "Robledo",
+    "Gloria",
+    "Tita",
+    "Andrés",
+    "Teresa Villalobos",
+    "Teresa",
+    "Ciudad de México",
+    "Código de Núremberg",
+    "Núremberg",
+    "Emiliano",
+    "Estados Unidos",
+    "Héctor Ferreira",
+    "Ferreira",
+    "Montevideo",
+    "Cerro",
+    "Tacuarembó",
+    "Carlos Finlay",
+    "Finlay",
+    "La Habana",
+    "Caribe",
+    "Hipócrates",
+    "Academia de Ciencias de La Habana",
+    "España",
+    "Santiago de Cuba",
+    "Walter Reed",
+    "Reed",
+    "Remedios",
+    "Zaragoza",
+    "Ioana",
+    "Paco",
+    "Mario Cárcamo",
+    "Cárcamo",
+    "Mario",
+    "Ximena",
+    "Valdivia",
+    "Chile",
+    "Honduras",
+    "Sula",
+    "Lesbia Martínez",
+    "Lesbia",
+    "Tomás",
+    "Daniela Rojas",
+    "Daniela",
+    "Miami",
+    "Marta",
+    "Inmunoforte"
+  ],
+  "lessons": [
+    {
+      "title": "El tenor del cuarto piso",
+      "summary": "A Madrid nurse looks back on the pandemic five years later: the tenor who sang from his window, a Hindu colleague's festival of lights, and what a society should learn.",
+      "newWords": [
+        "pandemia",
+        "tenor",
+        "próximamente",
+        "superación",
+        "tristemente",
+        "asombrar",
+        "admirable",
+        "firmeza",
+        "hindú"
+      ],
+      "text": "Han pasado 5 años desde el comienzo de la pandemia, y todavía hay noches en que me despierto pensando que tengo turno. Me llamo Pilar, soy enfermera en un hospital público de Madrid y, desde aquella primavera, escribo de vez en cuando lo que recuerdo. No lo hago por nostalgia, sino porque una sociedad que olvida su pandemia está condenada a recibir la siguiente con la misma sorpresa.\n\nLo primero que me asombra, cuando miro atrás, es la velocidad. En pocas semanas el hospital cambió por completo. Las salas de espera se convirtieron en habitaciones, los pasillos en salas de cuidados intensivos, y nosotras aprendimos a trabajar con dos pares de guantes y una mascarilla que nos dejaba marcas en la cara. Me asombra también que aguantáramos. Trabajábamos 12 horas, dormíamos mal y volvíamos al día siguiente sin saber qué nos íbamos a encontrar.\n\nTristemente, no todos los pacientes salieron por la puerta. Muchos murieron sin poder despedirse de su familia, y éramos nosotras quienes les dábamos la mano en el último momento. Tristemente, esa imagen no se borra.\n\nPero la pandemia también me enseñó lo admirable que puede ser la gente corriente. En mi calle vivía un tenor jubilado, el señor Anselmo, que había cantado en teatros de media Europa. Cada tarde, a las 8, cuando los vecinos salían a los balcones a aplaudir a los sanitarios, él abría la ventana de su cuarto piso y cantaba. Su voz de tenor llenaba la calle vacía. Yo llegaba agotada y me quedaba quieta en la acera, escuchándolo. Me parecía admirable que un hombre de 80 años, que vivía solo, regalara cada día lo mejor que tenía.\n\nOtro compañero admirable era Raj, un médico de familia hindú que llevaba 10 años en Madrid. En otoño, cuando llegó la fiesta hindú de las luces, llenó la sala de descanso de pequeñas velas eléctricas, porque las de verdad estaban prohibidas en el hospital. «En mi tradición, la luz vence a la oscuridad», nos dijo. Nadie habló durante un rato. Fue la primera vez en meses que sentí algo parecido a la paz.\n\nHoy se habla mucho de superación, como si la pandemia hubiera sido una carrera que ganamos. Yo prefiero otra idea de superación: no la de olvidar, sino la de aprender. Y aprender exige firmeza. La firmeza de mantener las plantillas de los hospitales cuando ya nadie aplaude, de cuidar la atención primaria y de no permitir que la próxima emergencia nos encuentre igual de sorprendidos.\n\nPróximamente, el ayuntamiento va a poner una placa en mi calle en recuerdo de aquellas tardes de aplausos. El señor Anselmo murió el año pasado, pero en la ceremonia sonará una grabación suya. Próximamente, también, empiezo a dar clases a enfermeras jóvenes. Les hablaré de todo esto con firmeza, pero con calma, porque la memoria, para ser útil, tiene que ser tranquila.\n\nPreguntas:\n¿Quién es Pilar?\nEs una enfermera de un hospital público de Madrid.\n¿Qué le asombra a Pilar cuando mira atrás?\nLe asombra la velocidad con que cambió el hospital y que las enfermeras aguantaran.\n¿Qué hacía el señor Anselmo cada tarde?\nAbría la ventana de su cuarto piso y cantaba, porque era un tenor jubilado.\n¿Qué hizo Raj durante la fiesta hindú de las luces?\nLlenó la sala de descanso de pequeñas velas eléctricas.\n¿Qué idea de superación prefiere Pilar?\nPrefiere la superación que no consiste en olvidar, sino en aprender.\n¿Qué va a pasar próximamente en la calle de Pilar?\nEl ayuntamiento va a poner una placa en recuerdo de las tardes de aplausos."
+    },
+    {
+      "title": "Un martes con la inspectora",
+      "summary": "A municipal health inspector in Lima checks a cevichería in Miraflores, finds a fridge running too warm, and comes back two weeks later to raise its score.",
+      "newWords": [
+        "inspeccionar",
+        "anomalía",
+        "atún",
+        "manteca",
+        "pelado",
+        "tenedor",
+        "decorativo",
+        "puntaje",
+        "numérico"
+      ],
+      "text": "Rosa Quispe trabaja desde hace 15 años como inspectora sanitaria de la municipalidad de Lima. Su tarea consiste en inspeccionar restaurantes, mercados y comedores, y comprobar que cumplen las normas de higiene. Muchos cocineros la temen, aunque ella prefiere que la vean como una aliada. «Yo no vengo a cerrar locales», suele decir. «Vengo a evitar que la gente se enferme».\n\nUn martes por la mañana le toca inspeccionar una cevichería, un restaurante de pescado, en Miraflores. Llega sin avisar, como siempre, con un termómetro y una carpeta. El dueño, don Julio, la recibe con una sonrisa nerviosa y le ofrece un café. Rosa lo rechaza con educación: primero el trabajo.\n\nLo primero que inspecciona no es la cocina, sino el lugar donde los cocineros se lavan las manos. Hay jabón, pero no hay toallas de papel. Rosa lo anota. Después abre la cámara de frío y mete el termómetro. El aparato marca 9 grados, cuando la norma exige un máximo de 4. Es una anomalía pequeña en apariencia, pero importante. Dentro hay varias piezas de atún para el almuerzo. Rosa explica que el atún, si no se mantiene bien frío, produce una sustancia que puede causar dolores de estómago aunque huela bien. Don Julio descubre la causa de la anomalía: la puerta no cierra del todo.\n\nEn un armario encuentra una lata de manteca abierta, sin tapa y sin fecha. La manteca, le dice a don Julio, debe guardarse cerrada y con la fecha de apertura bien visible. Junto a la cocina hay una olla con papas peladas metidas en agua. «¿Desde cuándo están ahí?», pregunta Rosa. «Desde anoche», reconoce el cocinero. Las papas peladas pueden esperar unas horas, pero en frío, no junto al fuego.\n\nTambién le llaman la atención los cubiertos. Los cuchillos están limpios, pero los tenedores se secan con el mismo trapo que se usa para limpiar las mesas. Rosa le pide al cocinero que lave los tenedores otra vez y que los deje secar al aire. Por último, señala unas macetas decorativas que alguien ha colocado sobre la mesa donde se corta el pescado. Son bonitas, pero tienen tierra, y la tierra no debe estar cerca de la comida. «Las plantas decorativas, mejor en el comedor», le dice.\n\nAl terminar, Rosa calcula el puntaje del local. La municipalidad usa un sistema numérico de 0 a 100, y el resultado se pega en la puerta para que los clientes lo vean. El sistema es numérico para que cualquiera lo entienda sin leer el informe completo. Esa mañana, el restaurante obtiene un puntaje de 62.\n\nDos semanas después, Rosa vuelve sin avisar. La cámara marca 3 grados, la lata de manteca tiene fecha, los tenedores brillan y las plantas están junto a la ventana del comedor. El nuevo puntaje es de 91. Don Julio vuelve a ofrecerle un café, y Rosa, esta vez, lo acepta.\n\nPreguntas:\n¿En qué consiste el trabajo de Rosa?\nConsiste en inspeccionar restaurantes, mercados y comedores para comprobar que cumplen las normas de higiene.\n¿Qué anomalía encuentra en la cámara de frío?\nEl termómetro marca 9 grados, cuando la norma exige un máximo de 4.\n¿Por qué es peligroso el atún que no está bien frío?\nPorque produce una sustancia que puede causar dolores de estómago aunque huela bien.\n¿Qué problema hay con los tenedores?\nSe secan con el mismo trapo que se usa para limpiar las mesas.\n¿Por qué el sistema de la municipalidad es numérico?\nPara que cualquiera entienda el resultado sin leer el informe completo.\n¿Qué puntaje obtiene el restaurante en la segunda visita?\nObtiene un puntaje de 91."
+    },
+    {
+      "title": "Lo que sube, baja",
+      "summary": "In Medellín, a grandmother whose dog panics at fireworks and her son-in-law, a burns surgeon, give a talk at the local school about the dangers of pólvora and of shooting into the air.",
+      "newWords": [
+        "pólvora",
+        "estallido",
+        "espantar",
+        "ladrar",
+        "peludo",
+        "dieciséis",
+        "yerno",
+        "vibración",
+        "balazo",
+        "tinto"
+      ],
+      "text": "En diciembre, Medellín se llena de luces de colores y también de pólvora. Para muchas familias, la Navidad no está completa sin cohetes. Doña Gloria, que tiene 72 años y vive en el barrio Robledo, conoce bien esa tradición. Pero desde hace unos años la mira con otros ojos, por dos razones: su perra y su yerno.\n\nLa perra se llama Tita. Es una perrita blanca y peluda que Gloria adoptó en un refugio. Durante el año es tranquila, pero en diciembre cambia por completo. Con el primer estallido se esconde debajo de la cama, tiembla y empieza a ladrar sin parar. Cada estallido la espanta más que el anterior. Gloria le ha preguntado al veterinario por qué la pólvora espanta tanto a los perros, y él le explicó que oyen mucho mejor que las personas y que, además, sienten la vibración del ruido en el cuerpo. Para Tita, esa vibración es como si se rompiera el mundo.\n\nEl yerno de Gloria se llama Andrés y es cirujano en la unidad de quemados de un hospital de la ciudad. Todos los sábados pasa a visitarla con su esposa, la hija de Gloria, y se toman juntos un tinto en la cocina. Un sábado de noviembre, mientras se tomaba el tinto, Andrés le contó a su suegra lo que ve cada diciembre. «El año pasado operamos a dieciséis niños quemados con pólvora en un solo mes», le dijo. «Uno de ellos tenía dieciséis años y perdió dos dedos de la mano derecha».\n\nAndrés le explicó también que no solo llegan quemados. En Año Nuevo, algunas personas celebran disparando al aire, y las balas, al caer, hieren a gente que está en su casa o en la calle. «Lo que sube, baja», dijo Andrés. «Cada año atendemos a alguien con un balazo de una bala perdida. Un balazo así no lo espera nadie».\n\nAquella conversación se le quedó a Gloria en la cabeza. Al día siguiente habló con la directora del colegio del barrio, y entre las dos organizaron una charla para los alumnos. Andrés aceptó participar. El día de la charla mostró fotos de manos quemadas, sin nombres ni caras, y explicó que un estallido a pocos centímetros de los dedos basta para causar un daño sin arreglo. Habló también del balazo de la bala perdida y repitió su frase: «Lo que sube, baja».\n\nLuego habló Gloria. Contó cómo Tita tiembla y no deja de ladrar cuando empiezan los cohetes, y pidió a los niños que pensaran en los animales del barrio, peludos o no, que no entienden la fiesta. Los niños escucharon en silencio. Al final, varios dijeron que iban a celebrar con música y comida, pero sin pólvora.\n\nEse diciembre, en la calle de Gloria se oyó algún estallido, pero muchos menos que otros años, y Tita pasó las fiestas dormida en el sofá.\n\nPreguntas:\n¿Por qué espanta tanto la pólvora a Tita?\nPorque los perros oyen mucho mejor que las personas y sienten la vibración del ruido en el cuerpo.\n¿Quién es Andrés?\nEs el yerno de Gloria, cirujano en la unidad de quemados de un hospital.\n¿Qué le contó Andrés a Gloria mientras se tomaba un tinto?\nLe contó que el año pasado operaron a dieciséis niños quemados con pólvora en un solo mes.\n¿Qué quiere decir Andrés con la frase «Lo que sube, baja»?\nQuiere decir que las balas disparadas al aire caen y pueden herir a alguien con un balazo.\n¿Qué organizaron Gloria y la directora del colegio?\nOrganizaron una charla para los alumnos sobre los peligros de la pólvora."
+    },
+    {
+      "title": "Una clase de bioética",
+      "summary": "In a bioethics class in Mexico City, a professor explains informed consent through the history of medical experiments and a present-day vaccine trial.",
+      "newWords": [
+        "holocausto",
+        "moralidad",
+        "vil",
+        "despreciable",
+        "ambiguo",
+        "irrelevante",
+        "persuadir",
+        "denotar",
+        "apreciación",
+        "humanista"
+      ],
+      "text": "Los martes por la tarde, la doctora Teresa Villalobos da clase de bioética a los estudiantes de cuarto año de Medicina en la Ciudad de México. Teresa empieza siempre con la misma pregunta: «¿Puede un médico hacer daño a un paciente para ayudar a muchos otros?».\n\nAlgunos estudiantes dicen que sí, si el beneficio es muy grande; otros dicen que nunca. Teresa no responde enseguida. Primero cuenta una historia. Durante el Holocausto, en los campos de concentración nazis, algunos médicos usaron a los prisioneros para experimentos terribles: los metieron en agua helada o los infectaron con enfermedades. Después de la guerra, varios de esos médicos fueron juzgados. De aquel juicio nació en 1947 el Código de Núremberg, que establece por primera vez una regla sencilla: ningún experimento con personas es aceptable sin su consentimiento voluntario.\n\n«Lo que hicieron aquellos médicos fue vil», dice Teresa, «pero no hay que pensar que solo fue cosa del Holocausto». Y cuenta otra historia: en Estados Unidos, durante 40 años, unos investigadores observaron a cientos de hombres negros y pobres enfermos de sífilis, sin decirles qué tenían y sin darles el tratamiento cuando ya existía. «Fue igual de despreciable, y ocurrió en un país democrático, con médicos que se consideraban personas decentes».\n\nUn estudiante, Emiliano, levanta la mano. «Pero eso es fácil de juzgar, doctora. Lo vil y lo despreciable se reconocen enseguida. ¿Qué pasa con los casos ambiguos?».\n\nTeresa sonríe; es la pregunta que esperaba. Les propone un caso ambiguo de hoy: un laboratorio quiere probar una vacuna en una comunidad rural y ofrece a cada participante una cantidad de dinero. ¿Es eso ayudar o es comprar? Los estudiantes discuten. Una alumna dice que el dinero es irrelevante si la gente entiende bien los riesgos. Otro responde que no es irrelevante cuando la persona es tan pobre que no puede decir que no.\n\nTeresa les explica la diferencia entre persuadir y presionar. Persuadir es dar razones y dejar que el otro decida libremente. Presionar es quitarle esa libertad. Un médico puede persuadir a un paciente de que se ponga una vacuna; no puede engañarlo ni amenazarlo. Después les pide que miren la palabra «consentimiento». «Fíjense en lo que denota», dice. «Denota sentir con el otro, estar de acuerdo. No es una firma en un papel; es una conversación».\n\nAl final, Emiliano pregunta si la moralidad de un médico no es una cuestión personal. Teresa responde que la apreciación personal importa, pero no basta. La moralidad de la medicina se apoya en reglas nacidas del dolor de muchas personas, que protegen al paciente incluso cuando la apreciación del médico se equivoca.\n\nTeresa se define como una médica humanista. Para ella, la medicina humanista no consiste en saber mucha filosofía, sino en no olvidar nunca que detrás de cada dato hay alguien con nombre, miedo y derechos.\n\nPreguntas:\n¿Con qué pregunta empieza Teresa su clase?\nPregunta si un médico puede hacer daño a un paciente para ayudar a muchos otros.\n¿Qué nació del juicio contra los médicos del Holocausto?\nNació el Código de Núremberg, que exige el consentimiento voluntario en los experimentos con personas.\n¿Qué caso ambiguo propone Teresa?\nUn laboratorio que quiere probar una vacuna en una comunidad rural y ofrece dinero a los participantes.\n¿Cuál es la diferencia entre persuadir y presionar?\nPersuadir es dar razones y dejar que el otro decida libremente; presionar es quitarle esa libertad.\n¿Qué denota la palabra «consentimiento», según Teresa?\nDenota sentir con el otro, estar de acuerdo.\n¿Qué significa para Teresa ser una médica humanista?\nSignifica no olvidar nunca que detrás de cada dato hay una persona con nombre, miedo y derechos."
+    },
+    {
+      "title": "Medio siglo en los barrios",
+      "summary": "A Montevideo journalist portrays a retired doctor who spent thirty years opening neighbourhood clinics for the city government, through the dictatorship and after.",
+      "newWords": [
+        "intendencia",
+        "igualitario",
+        "utopía",
+        "oligarquía",
+        "mitin",
+        "populista",
+        "golpista",
+        "tiranía",
+        "investidura",
+        "diplomacia"
+      ],
+      "text": "El doctor Héctor Ferreira tiene 88 años y trabajó más de 30 en las policlínicas de la intendencia de Montevideo, los pequeños centros de salud que la ciudad tiene en sus barrios. Lo visité en su casa del Cerro, frente a la bahía, una mañana de invierno.\n\nLe pregunté por qué había elegido la medicina de barrio y no un gran hospital. «Porque crecí en el campo, en Tacuarembó», me dijo, «y allí vi que la salud dependía de dónde naciera uno. Las familias de los dueños de la tierra, que eran una pequeña oligarquía, tenían médico en casa. Los peones viajaban horas a caballo. Yo quería un sistema igualitario, en el que el hijo del peón y el hijo del patrón recibieran la misma atención».\n\nSus compañeros de facultad le decían que eso era una utopía. «Puede que lo fuera», reconoce. «Pero una utopía sirve para saber hacia dónde caminar, aunque no se llegue nunca. Un sistema igualitario no se construye en un día; se construye barrio a barrio».\n\nEmpezó a trabajar en la intendencia en los años 60, una época muy política. Todavía recuerda su primer mitin, a los 20 años, en una plaza llena de gente. «Desconfiaba de los políticos populistas, de derecha o de izquierda, que en cada mitin prometían un hospital en cada barrio y luego no construían ninguno», me explicó. «Yo prefería abrir un centro pequeño que funcionara».\n\nEn 1973 llegó el golpe de Estado. El gobierno golpista cerró el Parlamento, prohibió los partidos y persiguió a mucha gente. «Para mí fue una tiranía, sin otra palabra», dice. Él siguió trabajando, porque los vecinos lo necesitaban, aunque con miedo. «Bajo una tiranía, hasta curar puede parecer sospechoso».\n\n¿Cómo se mantiene abierto un centro de salud así? «Con mucha diplomacia», responde. Había que hablar con los funcionarios del gobierno golpista para conseguir medicamentos, con los vecinos para que confiaran, con los curas y con los maestros. «La diplomacia no es mentir; es saber con quién hablar y cómo. Esa diplomacia me la enseñaron las madres del barrio, que conseguían cualquier cosa sin levantar la voz».\n\nLe pregunté por el regreso de la democracia, y me contó que el 1 de marzo de 1985, el día de la investidura del nuevo presidente elegido por el pueblo, cerró el centro a mediodía y se fue a la plaza con su mujer. «Había gente llorando en la calle. Aquel día de la investidura sentí que podíamos volver a empezar». En los años siguientes, la intendencia abrió muchos centros nuevos.\n\nAntes de irme, le pregunté si hoy el sistema es igualitario. «Más que cuando yo empecé, pero no del todo. Sigue siendo una utopía, y está bien que lo sea. Los médicos jóvenes tienen que seguir caminando hacia ella».\n\nPreguntas:\n¿Dónde trabajó el doctor Ferreira?\nTrabajó más de 30 años en las policlínicas de la intendencia de Montevideo.\n¿Por qué quería un sistema igualitario?\nPorque en el campo vio que la pequeña oligarquía de los dueños de la tierra tenía médico en casa y los peones no.\n¿Para qué sirve una utopía, según el doctor?\nSirve para saber hacia dónde caminar, aunque no se llegue nunca.\n¿De qué políticos desconfiaba?\nDesconfiaba de los políticos populistas que en cada mitin prometían hospitales y luego no los construían.\n¿Cómo mantuvo abiertos los centros de salud durante la tiranía?\nCon mucha diplomacia: hablando con los funcionarios, con los vecinos, con los curas y con los maestros.\n¿Qué hizo el doctor el día de la investidura de 1985?\nCerró el centro a mediodía y se fue a la plaza con su mujer."
+    },
+    {
+      "title": "El médico de los mosquitos",
+      "summary": "A Havana history teacher writes about Carlos Finlay, who proposed that mosquitoes spread yellow fever, was ignored for years and was proved right in 1900.",
+      "newWords": [
+        "heleno",
+        "desconocimiento",
+        "audaz",
+        "prometedor",
+        "asedio",
+        "imperialista",
+        "surgimiento",
+        "indiscutible"
+      ],
+      "text": "Cada año, cuando mis alumnos de secundaria me preguntan para qué sirve la historia, les cuento la vida de Carlos Finlay. Soy profesora en La Habana, y en esta ciudad su nombre está en calles, escuelas y hospitales. Pero muchos jóvenes no saben qué hizo.\n\nDurante siglos, la fiebre amarilla fue el terror del Caribe. Llegaba con el calor, mataba en pocos días y nadie sabía de dónde venía. Los médicos seguían una idea muy antigua, heredada de los médicos helenos como Hipócrates: las enfermedades nacían del aire malo de los pantanos y de la basura. Aquella teoría helena había sobrevivido más de 2000 años. El desconocimiento de la verdadera causa hacía que las medidas fallaran una y otra vez: se quemaban casas, se limpiaban calles, y la fiebre volvía.\n\nFinlay, un médico cubano formado en Estados Unidos, observó durante años a los enfermos y a los insectos de la ciudad. En 1881 presentó en la Academia de Ciencias de La Habana una idea audaz: la fiebre amarilla no viajaba por el aire, sino que la transmitía un mosquito. Era una hipótesis audaz y, para él, muy prometedora, porque si el culpable era un insecto, bastaba con controlarlo. Pocas ideas parecían tan prometedoras para salvar vidas. Pero la recibieron con silencio y, a veces, con burla. Durante casi 20 años, el desconocimiento y los prejuicios dejaron su teoría en un cajón.\n\nEn 1898, durante la guerra entre España y Estados Unidos, el ejército norteamericano mantuvo el asedio de Santiago de Cuba. El asedio terminó con la victoria norteamericana, pero la fiebre amarilla mató a más soldados que las balas. Muchos historiadores cubanos describen aquella intervención como imperialista: Estados Unidos se estaba convirtiendo en una potencia imperialista y quería controlar el Caribe. Sin embargo, por interés propio, el nuevo gobierno de ocupación necesitaba acabar con la fiebre.\n\nEn 1900 llegó a La Habana una comisión de médicos norteamericanos dirigida por Walter Reed. Finlay les dio sus datos y hasta sus mosquitos. Los experimentos de la comisión confirmaron que tenía razón, y en pocos meses una campaña contra los mosquitos hizo desaparecer la fiebre de La Habana.\n\nMe gusta explicar a mis alumnos que la historia de Finlay coincide con el surgimiento de la medicina moderna. En aquellos años, el surgimiento de los laboratorios cambiaba la manera de entender las enfermedades: ya no se buscaba un aire malo, sino un culpable concreto. Finlay fue uno de los primeros en ver que ese culpable podía volar.\n\nHoy su mérito es indiscutible. Algunos libros le dieron todo el mérito a la comisión de Reed, pero ahora es indiscutible que la idea fue suya. Cuando termino la historia, siempre les digo a mis alumnos lo mismo: la historia sirve para recordar que una idea audaz, aunque nadie la escuche, puede tener razón.\n\nPreguntas:\n¿Qué creían los médicos sobre el origen de la fiebre amarilla?\nSeguían la idea de los médicos helenos de que las enfermedades nacían del aire malo de los pantanos.\n¿Qué idea audaz presentó Finlay en 1881?\nPresentó la idea de que la fiebre amarilla la transmitía un mosquito.\n¿Qué pasó durante el asedio de Santiago de Cuba?\nLa fiebre amarilla mató a más soldados norteamericanos que las balas.\n¿Cómo describen muchos historiadores cubanos la intervención de Estados Unidos?\nLa describen como imperialista.\n¿Qué confirmó la comisión de Walter Reed?\nConfirmó que Finlay tenía razón.\n¿Qué es hoy indiscutible?\nEs indiscutible que la idea de la transmisión por el mosquito fue de Finlay."
+    },
+    {
+      "title": "Un terrón de azúcar",
+      "summary": "In Zaragoza, a grandmother tells her grandson and her Romanian carer how the polio vaccine arrived in 1963, after years of fear under the Franco regime.",
+      "newWords": [
+        "franquismo",
+        "crianza",
+        "rumano",
+        "balancear",
+        "tapia",
+        "esplendor",
+        "arraigado",
+        "dureza",
+        "preciado",
+        "gradual"
+      ],
+      "text": "Mi abuela Remedios tiene 91 años y vive en una casa baja de un barrio antiguo de Zaragoza. La cuida Ioana, una mujer rumana de 50 años. Los domingos voy a comer con ellas, y después del café, mientras mi abuela se balancea en su vieja silla de madera, le pido que me cuente historias. Ioana se sienta con nosotros; dice que así practica el español.\n\nAquel domingo de mayo, el patio estaba en todo su esplendor. Las flores que mi abuela riega cada mañana cubrían la tapia de rojo. Ioana le preguntó por una foto antigua que hay en el comedor: un niño de unos 8 años con unas muletas, apoyado en esa misma tapia. «Es mi hermano Paco», dijo mi abuela. «Tuvo la polio en 1956».\n\nEntonces nos contó lo que fue aquella enfermedad durante el franquismo. En los años 50, cada verano llegaba la polio, y las madres vivían con miedo. Los niños se acostaban con fiebre y, a veces, se despertaban sin poder mover las piernas. Mi abuela recuerda la dureza de aquellos años: la pobreza de la posguerra, las familias numerosas, la crianza de muchos hijos en casas pequeñas. «Y la crianza de un niño enfermo era aún más difícil», dijo.\n\nDurante el franquismo, la vacuna tardó en llegar. En otros países de Europa ya se usaba desde hacía años, pero en España la gran campaña no empezó hasta 1963. Mi abuela tenía entonces 28 años y una hija pequeña, mi tía. Recuerda que la vacuna se daba en un terrón de azúcar, en la escuela del barrio, y que había colas largas de madres con sus hijos en brazos. «Se tomaba por la boca», dijo, balanceándose despacio. «Mi hija se comió el azúcar y pidió otro».\n\nIoana escuchaba con atención. Contó que en su pueblo rumano también recordaban la polio, y que su madre siempre decía que la vacuna era el regalo más preciado que le había hecho el médico del pueblo. Para mi abuela, el recuerdo más preciado de aquella época es la cara de su hija comiéndose el terrón.\n\nLe pregunté si nadie tenía miedo a la vacuna. Me dijo que algunos sí, porque en el barrio había creencias muy arraigadas: había quien pensaba que las enfermedades eran cosa del destino, y costumbres arraigadas que pasaban de abuelas a nietas. «Pero cuando una ha visto a un hermano con muletas», dijo, «no le hace falta que la convenzan».\n\nLa desaparición de la polio en España fue gradual. Los casos fueron bajando año tras año, de forma gradual pero constante, hasta que se convirtió en un recuerdo. Mi tío Paco vivió hasta los 75 años, siempre con su bastón. Antes de irme, mi abuela miró la foto otra vez, después la tapia, con las flores en pleno esplendor, y dijo que a veces los milagros llegan en un terrón de azúcar.\n\nPreguntas:\n¿Quién es Ioana?\nEs una mujer rumana de 50 años que cuida a la abuela Remedios.\n¿Quién es el niño de la foto apoyado en la tapia?\nEs Paco, el hermano de Remedios, que tuvo la polio en 1956.\n¿Cómo recuerda Remedios aquellos años del franquismo?\nRecuerda la dureza de la posguerra, la pobreza y la crianza de muchos hijos en casas pequeñas.\n¿Cómo se daba la vacuna en 1963?\nSe daba en un terrón de azúcar, en la escuela del barrio.\n¿Por qué algunas personas tenían miedo a la vacuna?\nPorque en el barrio había creencias muy arraigadas, como la de que las enfermedades eran cosa del destino.\n¿Cómo fue la desaparición de la polio en España?\nFue gradual: los casos fueron bajando año tras año."
+    },
+    {
+      "title": "Una carta del servicio de salud",
+      "summary": "A man in Valdivia receives a letter inviting him to a free bowel cancer screening test, puts it off, does it at his wife's insistence, and has a small growth removed in time.",
+      "newWords": [
+        "colon",
+        "atentamente",
+        "expensas",
+        "desnudar",
+        "asesoramiento",
+        "patología",
+        "terminación",
+        "reposo"
+      ],
+      "text": "Un lunes de abril, Mario Cárcamo, un carpintero de 58 años de Valdivia, recibió un sobre del servicio de salud. Lo abrió delante de su mujer, Ximena. La carta decía así:\n\n«Estimado señor Cárcamo: Le escribimos para invitarlo a participar en el programa de detección temprana del cáncer de colon, dirigido a todas las personas de entre 50 y 75 años. El cáncer de colon es uno de los más frecuentes en Chile, pero, si se detecta a tiempo, se cura en la mayoría de los casos. La prueba es sencilla: usted recibirá en su casa un pequeño tubo para tomar una muestra en el baño y enviarla por correo. No necesita ir al hospital ni desnudarse delante de nadie. La prueba es gratuita y corre a expensas del servicio público de salud. Si tiene dudas, nuestro equipo le ofrece asesoramiento telefónico de lunes a viernes. Atentamente, la dirección del programa».\n\nMario dejó la carta en un cajón y quiso olvidarse de ella. Le daba vergüenza, y además se sentía bien. 3 semanas después llegó el tubo, con otra carta que terminaba igual: «Atentamente». Ximena lo puso junto al café de Mario. «Si no te cuesta nada y no tienes que desnudarte», le dijo, «¿qué excusa te queda?».\n\nMario llamó al número de asesoramiento. Una enfermera muy amable le explicó paso a paso cómo tomar la muestra. Aquel asesoramiento lo tranquilizó. Hizo la prueba esa misma noche y la mandó por correo.\n\nA las dos semanas lo llamaron: en la muestra había un poco de sangre que no se veía a simple vista. La enfermera le explicó que eso no significaba que tuviera cáncer, pero que había que mirar el colon por dentro con una pequeña cámara, en una prueba llamada colonoscopia. También esa prueba corría a expensas del servicio público.\n\nEl día de la prueba, Mario estaba nervioso. Le pidieron que se desnudara y se tumbara de lado. Lo durmieron un poco y no sintió nada. El médico encontró una pequeña lesión en la pared del colon y la quitó en el mismo momento. Después le explicó que el interior del colon casi no tiene terminaciones nerviosas que sientan dolor, y que por eso se puede cortar allí sin molestias. «Entonces tampoco avisa», dijo Mario. «Exacto», respondió el médico. «Por eso existe el programa».\n\nLa lesión se envió al laboratorio de patología. 10 días después llegó el informe de patología: no era un cáncer, aunque con los años podía haberse convertido en uno. El médico le recomendó un día de reposo y le pidió que repitiera la prueba dentro de 5 años.\n\nMario pasó su día de reposo en el sofá. Esa tarde llamó a su hermano, que tenía 61 años y nunca se había hecho la prueba. Antes de colgar, le dijo, medio en broma: «Atentamente, tu hermano».\n\nPreguntas:\n¿Para qué escribía el servicio de salud a Mario?\nPara invitarlo a participar en el programa de detección temprana del cáncer de colon.\n¿Quién pagaba la prueba?\nEra gratuita y corría a expensas del servicio público de salud.\n¿Qué hizo Mario cuando llegó la primera carta?\nLa dejó en un cajón y quiso olvidarse de ella.\n¿Qué le ofreció la enfermera por teléfono?\nLe ofreció asesoramiento y le explicó paso a paso cómo tomar la muestra.\n¿Por qué no sintió dolor Mario cuando le quitaron la lesión?\nPorque el interior del colon casi no tiene terminaciones nerviosas que sientan dolor.\n¿Qué decía el informe de patología?\nDecía que la lesión no era un cáncer, aunque con los años podía haberse convertido en uno."
+    },
+    {
+      "title": "Después del huracán",
+      "summary": "After a hurricane floods the Sula Valley in Honduras, a community health worker and a cattle farmer clean up mud, protect drinking water and explain why the floods are getting worse.",
+      "newWords": [
+        "azotar",
+        "cresta",
+        "lodo",
+        "arcilla",
+        "residual",
+        "abastecer",
+        "rebaño",
+        "ecología",
+        "degradación",
+        "destructivo"
+      ],
+      "text": "En noviembre, un huracán azotó la costa norte de Honduras. Durante dos días, el viento y la lluvia azotaron el valle de Sula, y los ríos se salieron de su cauce. En la aldea de Lesbia Martínez, una promotora de salud, el agua llegó hasta las ventanas.\n\nLesbia y sus vecinos se refugiaron en la escuela, que está en una loma. La radio anunciaba la hora en que la crecida alcanzaría su cresta, el punto más alto, y todos esperaban ese momento con el corazón en un puño. La cresta llegó de madrugada. Al amanecer, el agua empezó a bajar despacio.\n\nCuando regresaron a sus casas, encontraron todo cubierto de lodo. El lodo llenaba las cocinas, las camas y los pozos. Muchas casas de la aldea tienen paredes de madera y arcilla, y algunas paredes de arcilla se habían deshecho con el agua. Además, el suelo del valle tiene mucha arcilla, que no deja pasar el agua, así que los charcos iban a durar semanas.\n\nLesbia sabía que lo peor podía venir después, y reunió a los vecinos. El agua de la crecida se había mezclado con las aguas residuales de la ciudad cercana. «El agua residual trae enfermedades del estómago», les dijo. «No se puede beber el agua de los pozos hasta que los limpiemos». También les advirtió de los charcos, donde se crían los mosquitos, y les pidió que usaran botas y guantes para sacar el lodo, porque las heridas en contacto con el barro se infectan con facilidad.\n\nLo más urgente era abastecer a la aldea de agua potable. Al tercer día llegó un camión con agua y pastillas para limpiarla. Durante un mes, la municipalidad siguió abasteciendo a las familias con agua y alimentos.\n\nDon Tomás, un ganadero vecino, perdió casi la mitad de su rebaño. Las vacas que sobrevivieron estaban débiles y metidas en el lodo hasta las rodillas. Lesbia le recomendó separar a los animales enfermos del resto del rebaño y no tocar los animales muertos sin protección, porque pueden transmitir enfermedades a las personas.\n\nUna tarde, don Tomás le preguntó por qué las inundaciones eran cada vez peores. Lesbia había estudiado un poco de ecología en un curso del ministerio. Le explicó que en las montañas que rodean el valle se han cortado muchos árboles. Esa degradación de los bosques hace que la lluvia baje más rápido y arrastre más tierra. «La ecología nos enseña que todo está conectado», le dijo. «La degradación de la montaña acaba en nuestra cocina».\n\nEl huracán había sido destructivo, pero la falta de árboles lo había hecho todavía más destructivo. Aquel invierno, la aldea organizó una jornada para plantar árboles en la loma de la escuela, y don Tomás fue el primero en llegar.\n\nPreguntas:\n¿Qué pasó en noviembre en la costa norte de Honduras?\nUn huracán azotó la costa norte y los ríos se salieron de su cauce.\n¿Qué es la cresta de una crecida?\nEs el punto más alto que alcanza el agua.\n¿Por qué iban a durar semanas los charcos?\nPorque el suelo del valle tiene mucha arcilla, que no deja pasar el agua.\n¿Por qué no se podía beber el agua de los pozos?\nPorque el agua de la crecida se había mezclado con las aguas residuales.\n¿Qué era lo más urgente después del huracán?\nLo más urgente era abastecer a la aldea de agua potable.\n¿Por qué son cada vez peores las inundaciones, según Lesbia?\nPor la degradación de los bosques de las montañas, donde se han cortado muchos árboles."
+    },
+    {
+      "title": "El remedio milagroso",
+      "summary": "A reporter for a Spanish-language TV magazine in Miami investigates a fake immune-boosting remedy sold with a footballer's photo, helping its buyers take the sellers to court.",
+      "newWords": [
+        "estafar",
+        "ilegalmente",
+        "magacín",
+        "selfie",
+        "goleador",
+        "fichaje",
+        "bate",
+        "bit",
+        "querella",
+        "cortometraje"
+      ],
+      "text": "Daniela Rojas trabaja como reportera en un magacín de televisión en español que se emite cada mañana en Miami. El magacín mezcla recetas, música, entrevistas y una sección de salud que Daniela presenta los jueves. Una semana recibió la carta de una espectadora, doña Marta, una señora cubana de 74 años. Contaba que había gastado 300 dólares en un remedio llamado Inmunoforte, que prometía «curar el cáncer, la diabetes y cualquier virus en 30 días». Su médico le había dicho que eran solo hierbas y azúcar. «Creo que me han estafado», escribía, «y no quiero que estafen a nadie más».\n\nDaniela encontró la página del producto en internet. Arriba había una selfie de un goleador mexicano muy conocido, sonriendo con un frasco de Inmunoforte en la mano. Debajo, la foto de un antiguo jugador de béisbol dominicano que posaba con su bate y la frase: «Mi secreto para seguir en forma». Un técnico del canal analizó los archivos. Le explicó que una imagen digital es una larga serie de bits, de unos y ceros, y que en la zona del frasco los bits no encajaban con el resto: alguien la había cambiado. La selfie del goleador era auténtica, pero era la que se había hecho el día de su fichaje por un club de la ciudad, y alguien había puesto el frasco en su mano. En la foto original del jugador de béisbol, el bate estaba ahí, pero el frasco no.\n\nDaniela llamó al representante del goleador. Le confirmaron que nunca había firmado nada con esa empresa: «Usaron ilegalmente su imagen. La foto es del día de su fichaje; la puede ver en las redes del club». El jugador de béisbol dijo lo mismo: no conocía el producto.\n\nDespués Daniela pidió a un laboratorio de la universidad que analizara el remedio. El resultado confirmó lo que había dicho el médico de doña Marta: hierbas comunes y azúcar. No curaba nada. Lo grave, explicó la directora del laboratorio, era que algunas personas dejaban sus tratamientos para tomarlo. Además, la empresa vendía el producto ilegalmente, porque no tenía ningún permiso sanitario.\n\nDaniela habló también con un abogado, que le explicó que doña Marta y otros compradores podían presentar una querella, es decir, una denuncia ante un juez para que se investigara el delito. Pronto se sumaron más de 40 compradores, y la querella se presentó en un tribunal de Miami.\n\nEl jueves siguiente, el magacín dedicó toda la sección de salud al caso. Daniela preparó un cortometraje de 10 minutos, con las fotos falsas, el análisis del laboratorio y una entrevista con doña Marta en su cocina. Al final del cortometraje, doña Marta miraba a la cámara y decía: «Si algo promete curarlo todo, no cura nada».\n\nUnas semanas después, la página de Inmunoforte desapareció de internet. El juez todavía estudia la querella, y doña Marta ha vuelto a sus pastillas de siempre.\n\nPreguntas:\n¿Por qué escribió doña Marta al magacín?\nPorque había gastado 300 dólares en un remedio y creía que la habían estafado.\n¿Qué había en la página de internet del producto?\nHabía una selfie de un goleador mexicano con un frasco del remedio y la foto de un jugador de béisbol con su bate.\n¿De qué día era la selfie del goleador?\nEra del día de su fichaje por un club de la ciudad.\n¿Por qué vendía la empresa el producto ilegalmente?\nPorque no tenía ningún permiso sanitario.\n¿Qué es una querella?\nEs una denuncia ante un juez para que se investigue un delito.\n¿Qué preparó Daniela para el magacín?\nPreparó un cortometraje de 10 minutos sobre el caso."
+    }
+  ]
+}
