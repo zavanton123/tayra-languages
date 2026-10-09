@@ -847,6 +847,17 @@ class ReadingHoverTest {
         assertNull(lobo()?.sentence, "cleared once the word is unknown again")
     }
 
+    /** A status set on another screen (the examples, say) shows once the reader comes back to the front. */
+    @Test
+    fun comingBackToTheReaderShowsStatusesChangedElsewhere() = runBlocking {
+        val vm = reader()
+        vm.onResumed()
+        assertEquals(TermStatus.UNKNOWN, vm.state.value.items[vm.index("lobo")].status)
+        termService.save(termService.findOrNew(languageId, "lobo").copy(status = TermStatus.LEARNING_3))
+        vm.onResumed()
+        withTimeout(5_000) { while (vm.state.value.items[vm.index("lobo")].status != TermStatus.LEARNING_3) delay(20) }
+    }
+
     /** A status picked in the term pane stores the sentence the word was opened from. */
     @Test
     fun theTermPaneStoresTheSentenceOfTheOpenedWord() {

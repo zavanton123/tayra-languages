@@ -230,6 +230,18 @@ class ReadingViewModel(
         viewModelScope.launch { load(_state.value.pageNumber, trackOpen = false, keepMarked = true) }
     }
 
+    private var shown = false
+
+    /**
+     * The screen came to the front. Terms may have changed on a screen opened from here (the
+     * examples, a term's page), so the page is rendered again; the translations and audio are
+     * kept. The first time, the page is still loading.
+     */
+    fun onResumed() {
+        if (shown && !_state.value.loading) refresh()
+        shown = true
+    }
+
     fun markPageRead(markRestAsKnown: Boolean, thenGoToRelative: Int) {
         viewModelScope.launch {
             val s = _state.value
