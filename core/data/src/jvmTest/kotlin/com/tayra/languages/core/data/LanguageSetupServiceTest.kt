@@ -43,7 +43,6 @@ import kotlinx.coroutines.withTimeout
 import java.io.File
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
 /** A newly chosen language is offered what it lacks: its courses, dictionary, a voice and translation models. */
@@ -90,6 +89,28 @@ class LanguageSetupServiceTest {
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? = null
     }
 
+    /** Kokoro: one model with voices for English and Portuguese. */
+    private class FakeKokoro : LocalSpeechEngine {
+        var installed = false
+        var downloads = 0
+        override val engine = SpeechEngine.KOKORO
+        override val displayName = "Kokoro"
+        override val description = ""
+        override val packagesDescription = ""
+        override val hasRuntimeSetup = false
+        override val progress = MutableStateFlow<String?>(null)
+        override suspend fun status() = ""
+        override suspend fun isReady() = true
+        override suspend fun setUp() = "ok"
+        override suspend fun packages() = listOf(SpeechPackage("kokoro-v1.0", "Kokoro model with 3 voices", null, "English, Portuguese", 120_000_000, installed))
+        override suspend fun installPackage(id: String) { installed = true; downloads++ }
+        override suspend fun removePackage(id: String) { installed = false }
+        override fun packageVoices(id: String, languageCode: String) =
+            if (languageCode == "pt") listOf(SpeechVoice("pf_dora", "Dora (Brazilian, female)", "pt"), SpeechVoice("pm_alex", "Alex (Brazilian, male)", "pt")) else emptyList()
+        override suspend fun voices(languageCode: String) = if (installed && languageCode == "pt") listOf(SpeechVoice("pf_dora", "Dora", "pt")) else emptyList()
+        override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? = null
+    }
+
     private class FakeTranslator(var runtime: Boolean = true) : LocalSentenceTranslator {
         val models = mutableSetOf<String>()
         override val displayName = "Argos Translate"
@@ -133,12 +154,15 @@ class LanguageSetupServiceTest {
     @Test
     fun everythingMissingIsOfferedAndInstalledInOrder() = runBlocking {
         val id = languages.save(Language(name = "Portuguese"))
-        val items = setup.missing(id)
-        assertEquals(listOf(SetupKind.COURSES, SetupKind.DICTIONARY, SetupKind.VOICE, SetupKind.TRANSLATION), items.map { it.kind })
-        assertTrue(items.all { it.recommended }, "nothing large, and every engine is in use or the system voice")
-        val voice = items.single { it.kind == SetupKind.VOICE }
-        assertTrue("Faber" in voice.name, "a medium voice is picked over a low one: ${voice.name}")
+        val all = setup.missing(id)
+        assertEquals(listOf(SetupKind.COURSES, SetupKind.DICTIONARY, SetupKind.VOICE, SetupKind.VOICE, SetupKind.TRANSLATION), all.map { it.kind })
+        val voices = all.filter { it.kind == SetupKind.VOICE }
+        assertEquals(listOf("Piper · Faber (medium)", "Piper · Cadu (low)"), voices.map { it.name }, "every voice is offered, the medium one first")
+        assertTrue(all.all { it.recommended }, "every voice starts ticked, like everything not large")
+        val items = all.filterNot { "Cadu" in it.name }
+        val voice = voices.first()
         assertTrue(voice.switchesEngine, "the system voices were in use, so the voice brings Piper in")
+        assertEquals("Piper", voice.engine)
         assertEquals(listOf(SetupFileKind.VOICE), voice.files.map { it.kind })
         assertEquals(60_000_000, voice.sizeBytes)
         assertEquals(listOf("Portuguese \u2192 English" to 50_000_000L), items.single { it.kind == SetupKind.TRANSLATION }.files.map { it.name to it.sizeBytes })
@@ -150,19 +174,52 @@ class LanguageSetupServiceTest {
         assertEquals(setOf("pt_BR-faber-medium"), piper.voices)
         assertEquals(setOf("pt-en"), translator.models)
         assertEquals(SpeechEngine.PIPER, settings.current.speechEngine)
+        assertEquals(mapOf("PIPER:pt" to "pt_BR-faber-medium"), settings.current.speechVoices, "the picked voice is the one that speaks")
         assertEquals(TranslationEngine.ARGOS, settings.current.translationEngine)
 
+        assertEquals(listOf("Piper · Cadu (low)"), setup.missing(id).map { it.name }, "only the voice left out is still offered")
+        val cadu = setup.missing(id).single()
+        setup.install(listOf(cadu))
+        withTimeout(5_000) { setup.states.first { it[cadu.id] == SetupState.Done } }
+        assertEquals("pt_BR-faber-medium", settings.current.speechVoices["PIPER:pt"], "a voice chosen before stays chosen")
         assertEquals(emptyList(), setup.missing(id), "nothing is offered once everything is there")
     }
 
     @Test
-    fun aRuntimeStillToInstallIsOfferedUnticked() = runBlocking {
+    fun theVoicesOfEveryEngineAreOfferedAndTheEngineInUseIsTicked() = runBlocking {
+        val kokoro = FakeKokoro()
+        val both = LanguageSetupService(
+            languages, settings, coursePacks, DictionaryService(dictionaryStore, dictionaryStore), LocalSpeech(listOf(piper, kokoro)), LocalTranslation(translator),
+        )
+        settings.update { it.copy(speechEngine = SpeechEngine.KOKORO) }
+        val id = languages.save(Language(name = "Portuguese"))
+        val voices = both.missing(id).filter { it.kind == SetupKind.VOICE }
+        assertEquals(listOf("Kokoro", "Kokoro", "Piper", "Piper"), voices.map { it.engine }, "the engine in use comes first")
+        assertEquals(listOf("Kokoro · Dora (Brazilian, female)", "Kokoro · Alex (Brazilian, male)"), voices.take(2).map { it.name }, "each Kokoro voice can be chosen")
+        assertTrue(voices.all { it.recommended }, "every voice of every engine starts ticked")
+        assertEquals(voices[0].files, voices[1].files, "Kokoro's voices share the one model")
+        assertEquals(listOf(SetupFileKind.VOICE_MODEL), voices[0].files.map { it.kind })
+        assertTrue(!voices[0].switchesEngine && voices.drop(2).all { it.switchesEngine }, "picked alone, a Piper voice takes over from Kokoro, which has no Portuguese yet")
+
+        val chosen = listOf(voices[1], voices[0], voices.last())
+        both.install(chosen)
+        withTimeout(5_000) { both.states.first { s -> chosen.all { s[it.id] == SetupState.Done } } }
+        assertEquals(1, kokoro.downloads, "the model is fetched once for both voices")
+        assertTrue(piper.voices.isNotEmpty())
+        assertEquals("pm_alex", settings.current.speechVoices["KOKORO:pt"], "the first voice chosen speaks")
+        assertEquals(SpeechEngine.KOKORO, settings.current.speechEngine, "Kokoro speaks Portuguese now, so the Piper voice does not take over")
+        assertEquals(2, both.overview(id).count { it.engine == "Kokoro" && it.status == SetupStatus.INSTALLED })
+    }
+
+    @Test
+    fun aVoiceStillNeedingItsRuntimeBringsIt() = runBlocking {
         piper.ready = false
         val id = languages.save(Language(name = "Portuguese"))
-        val voice = setup.missing(id).single { it.kind == SetupKind.VOICE }
-        assertTrue(voice.includesRuntime)
+        val voices = setup.missing(id).filter { it.kind == SetupKind.VOICE }
+        assertEquals(2, voices.size)
+        assertTrue(voices.all { it.includesRuntime && it.recommended }, "every voice starts ticked, its runtime with it")
+        val voice = voices.first()
         assertEquals(listOf(SetupFileKind.ENGINE, SetupFileKind.VOICE), voice.files.map { it.kind })
-        assertFalse(voice.recommended, "the speech runtime is a large download, left to the learner to tick")
         setup.install(listOf(voice))
         withTimeout(5_000) { setup.states.first { it[voice.id] == SetupState.Done } }
         assertTrue(piper.ready && piper.voices.isNotEmpty())

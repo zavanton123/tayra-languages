@@ -310,5 +310,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Offline translation" to "Офлайн-перевод",
     "100 graded courses of mini stories, from A1 to C2" to "100 курсов с мини-историями по уровням, от A1 до C2",
     "Becomes your speech engine" to "Станет вашим синтезатором речи",
+    "All voices" to "Все голоса",
+    "Needed by every voice, downloaded once" to "Нужна всем голосам, скачивается один раз",
     "Becomes your translation engine" to "Станет вашим сервисом перевода",
 )

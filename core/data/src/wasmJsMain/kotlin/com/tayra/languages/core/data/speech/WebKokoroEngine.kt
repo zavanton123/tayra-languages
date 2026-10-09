@@ -148,6 +148,9 @@ class WebKokoroEngine : LocalSpeechEngine {
         kokoroRemove(MODEL).await<JsAny?>()
     }
 
+    override fun packageVoices(id: String, languageCode: String): List<SpeechVoice> =
+        KokoroVoices.ALL.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode, KOKORO_VOICE_BYTES) }
+
     override suspend fun voices(languageCode: String): List<SpeechVoice> =
         if (!installed()) emptyList() else KokoroVoices.ALL.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode) }
 

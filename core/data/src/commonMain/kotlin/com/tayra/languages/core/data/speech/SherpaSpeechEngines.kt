@@ -114,6 +114,9 @@ class SherpaKokoroEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "
 
     override suspend fun removePackage(id: String) = runtime.delete(folder)
 
+    override fun packageVoices(id: String, languageCode: String): List<SpeechVoice> =
+        KokoroVoices.ALL.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode, KOKORO_VOICE_BYTES) }
+
     override suspend fun voices(languageCode: String): List<SpeechVoice> =
         if (!isInstalled()) emptyList() else KokoroVoices.ALL.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode) }
 
@@ -143,6 +146,9 @@ class SherpaKokoroEngine(runtime: SherpaRuntime) : SherpaSpeechEngine(runtime, "
         const val ARCHIVE_BYTES = 132_000_000L
     }
 }
+
+/** The size of one Kokoro voice: a 510 × 256 table of 32-bit floats, in voices.bin as in the voices/<id>.bin files. */
+const val KOKORO_VOICE_BYTES = 522_240L
 
 /** A Kokoro voice: [speaker] is its index in the model, [accent] the phonemizer language for it. */
 class KokoroVoice(val id: String, val speaker: Int, val language: String, val accent: String, val label: String)

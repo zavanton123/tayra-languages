@@ -45,6 +45,9 @@ class KokoroSpeechEngine(
         worker.restart()
     }
 
+    override fun packageVoices(id: String, languageCode: String): List<SpeechVoice> =
+        VOICES.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode, KOKORO_VOICE_BYTES) }
+
     override suspend fun voices(languageCode: String): List<SpeechVoice> =
         if (!isInstalled()) emptyList() else VOICES.filter { it.language == languageCode }.map { SpeechVoice(it.id, it.label, languageCode) }
 

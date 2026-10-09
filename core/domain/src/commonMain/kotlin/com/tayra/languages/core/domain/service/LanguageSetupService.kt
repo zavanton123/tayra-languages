@@ -33,7 +33,11 @@ enum class SetupStatus {
 }
 
 /** What a file of a download is. */
-enum class SetupFileKind { COURSES, DICTIONARY, ENGINE, VOICE, MODEL }
+enum class SetupFileKind {
+    COURSES, DICTIONARY, ENGINE, VOICE, MODEL,
+    /** A speech model holding several voices, downloaded once for whichever of them are chosen (Kokoro). */
+    VOICE_MODEL,
+}
 
 /** One file a download fetches, with its size in bytes when known. */
 data class SetupFile(
@@ -57,11 +61,15 @@ data class SetupItem(
     /** What is downloaded, in a line: the pack title, "Piper · Joy · medium · Greece", "Argos Translate · Greek → Russian". */
     val name: String,
     val files: List<SetupFile>,
-    /** Whether it starts selected: everything but the large runtimes and engines not in use. */
+    /** Whether it starts selected: every voice, and everything else but the large runtimes and engines not in use. */
     val recommended: Boolean,
     /** Whether installing it also makes its engine the one in use. */
     val switchesEngine: Boolean = false,
     val status: SetupStatus = SetupStatus.MISSING,
+    /** The speech engine a voice belongs to, by name; a language's voices are listed per engine. */
+    val engine: String? = null,
+    /** The size of a voice's own data inside a model it shares with others, already part of that model's size. */
+    val voiceSizeBytes: Long? = null,
 ) {
     /** The size of the files whose size is known; null when none is. */
     val sizeBytes: Long? get() = files.mapNotNull { it.sizeBytes }.takeIf { it.isNotEmpty() }?.sum()
@@ -116,7 +124,7 @@ class LanguageSetupService(
         val found = buildList {
             courses(code, language.name)?.let(::add)
             if (code != native) dictionary(code, native, language.name)?.let(::add)
-            voice(code, language.name)?.let(::add)
+            addAll(voices(code, language.name))
             if (code != native) translation(code, native, language.name)?.let(::add)
         }
         return found
@@ -181,44 +189,69 @@ class LanguageSetupService(
     }
 
     /**
-     * A voice from the engine in use, or from Piper while the system voices are in use, since
-     * those differ from device to device. Nothing when the engine already speaks the language.
+     * Every voice the local engines have for the language, each to choose on its own: a Piper voice is
+     * a download of its own, Kokoro's voices share one model, fetched with the first of them. All
+     * start ticked; the engine in use comes first, or Piper while the system voices are in use,
+     * since those differ from device to device.
      */
-    private suspend fun voice(code: String, name: String): SetupItem? {
+    private suspend fun voices(code: String, name: String): List<SetupItem> {
         val current = settings.current.speechEngine
-        val engine = speech.find(current) ?: speech.find(SpeechEngine.PIPER) ?: return null
-        val switches = engine.engine != current
-        val ready = runCatching { engine.isReady() }.getOrDefault(false)
-        if (ready && runCatching { engine.voices(code) }.getOrDefault(emptyList()).isNotEmpty()) {
-            return settled(SetupKind.VOICE, name, engine.displayName, SetupStatus.INSTALLED)
+        val speaking = speaks(current, code)
+        val preferred = (speech.find(current) ?: speech.find(SpeechEngine.PIPER))?.engine
+        val found = speech.engines.sortedBy { it.engine != preferred }.flatMap { engine ->
+            val packages = runCatching { engine.packages() }.getOrNull() ?: return@flatMap emptyList()
+            val own = packages.filter { it.languageCode == code }
+                .ifEmpty { packages.filter { it.languageCode == null && name.substringBefore(" (") in it.group } }
+            if (own.isEmpty()) return@flatMap emptyList()
+            val first = pickVoice(own)
+            val ready = runCatching { engine.isReady() }.getOrDefault(false)
+            val runtime = engine.hasRuntimeSetup && !ready
+            val runtimeFile = if (runtime) SetupFile(SetupFileKind.ENGINE, engine.displayName, runCatching { engine.runtimeDownloadSize() }.getOrNull(), estimated = true) else null
+            own.sortedBy { it != first }.flatMap { pkg -> voices(engine, pkg, code, name, ready, runtimeFile, switches = !speaking && engine.engine != current) }
         }
-        val packages = runCatching { engine.packages() }.getOrNull() ?: return null
-        val pkg = pickVoice(packages, code, name) ?: return settled(SetupKind.VOICE, name, engine.displayName, SetupStatus.UNAVAILABLE)
-        if (pkg.installed && ready) return settled(SetupKind.VOICE, name, "${engine.displayName} · ${pkg.title}", SetupStatus.INSTALLED)
-        val runtime = engine.hasRuntimeSetup && !ready
-        val files = listOfNotNull(
-            SetupFile(SetupFileKind.ENGINE, engine.displayName, runCatching { engine.runtimeDownloadSize() }.getOrNull(), estimated = true).takeIf { runtime },
-            SetupFile(SetupFileKind.VOICE, pkg.title, pkg.sizeBytes.takeIf { it > 0 }).takeIf { !pkg.installed },
-        )
-        val item = SetupItem(
-            "voice:${engine.engine.name}:${pkg.id}", SetupKind.VOICE, name, "${engine.displayName} · ${pkg.title}",
-            files, recommended = !runtime, switchesEngine = switches,
-        )
-        return register(item) {
-            if (engine.hasRuntimeSetup && !engine.isReady()) engine.setUp()
-            if (!pkg.installed) engine.installPackage(pkg.id)
-            if (switches) settings.update { it.copy(speechEngine = engine.engine) }
+        return found.ifEmpty { listOf(settled(SetupKind.VOICE, name, speech.find(preferred ?: current)?.displayName.orEmpty(), SetupStatus.UNAVAILABLE)) }
+    }
+
+    /** The package's voices for the language: itself when it is one voice, else each voice it holds. */
+    private fun voices(
+        engine: LocalSpeechEngine, pkg: SpeechPackage, code: String, name: String, ready: Boolean,
+        runtimeFile: SetupFile?, switches: Boolean,
+    ): List<SetupItem> {
+        val held = engine.packageVoices(pkg.id, code)
+        val choices = held.ifEmpty { listOf(SpeechVoice(pkg.id, pkg.title, code)) }
+        val download = SetupFile(if (held.isEmpty()) SetupFileKind.VOICE else SetupFileKind.VOICE_MODEL, pkg.title, pkg.sizeBytes.takeIf { it > 0 })
+        return choices.map { voice ->
+            val id = if (held.isEmpty()) "voice:${engine.engine.name}:${pkg.id}" else "voice:${engine.engine.name}:${pkg.id}:${voice.id}"
+            val title = "${engine.displayName} \u00b7 ${voice.name}"
+            if (pkg.installed && ready) {
+                return@map SetupItem(id, SetupKind.VOICE, name, title, emptyList(), recommended = false, status = SetupStatus.INSTALLED, engine = engine.displayName, voiceSizeBytes = voice.sizeBytes)
+            }
+            val files = listOfNotNull(runtimeFile, download.takeIf { !pkg.installed })
+            val item = SetupItem(
+                id, SetupKind.VOICE, name, title, files,
+                recommended = true, switchesEngine = switches, engine = engine.displayName, voiceSizeBytes = voice.sizeBytes.takeIf { held.isNotEmpty() },
+            )
+            register(item) {
+                if (engine.hasRuntimeSetup && !engine.isReady()) engine.setUp()
+                // Another voice of the same model may have fetched it already.
+                if (engine.packages().none { it.id == pkg.id && it.installed }) engine.installPackage(pkg.id)
+                val key = "${engine.engine.name}:$code"
+                // The first voice chosen speaks the language, unless one was chosen before.
+                settings.update { if (key in it.speechVoices) it else it.copy(speechVoices = it.speechVoices + (key to voice.id)) }
+                if (!speaks(settings.current.speechEngine, code)) settings.update { it.copy(speechEngine = engine.engine) }
+            }
         }
     }
 
-    /** The language's own voices, a medium-quality one first; a model serving several languages when the engine has only that. */
-    private fun pickVoice(packages: List<SpeechPackage>, code: String, name: String): SpeechPackage? {
-        val own = packages.filter { it.languageCode == code }
-        if (own.isNotEmpty()) {
-            return own.firstOrNull { it.installed } ?: own.firstOrNull { "medium" in it.title.lowercase() } ?: own.first()
-        }
-        return packages.firstOrNull { it.languageCode == null && name.substringBefore(" (") in it.group }
+    /** Whether [engine] can read [code] aloud with what is installed; the system voices are not counted on. */
+    private suspend fun speaks(engine: SpeechEngine, code: String): Boolean {
+        val local = speech.find(engine) ?: return false
+        return runCatching { local.isReady() && local.voices(code).isNotEmpty() }.getOrDefault(false)
     }
+
+    /** An installed voice, else a medium-quality one, else the first. */
+    private fun pickVoice(own: List<SpeechPackage>): SpeechPackage =
+        own.firstOrNull { it.installed } ?: own.firstOrNull { "medium" in it.title.lowercase() } ?: own.first()
 
     /** The models for translating the language into the native one, with the translator's runtime when it has none yet. */
     private suspend fun translation(code: String, native: String, name: String): SetupItem? {

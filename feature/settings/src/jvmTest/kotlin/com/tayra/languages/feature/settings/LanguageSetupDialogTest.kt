@@ -6,6 +6,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.assertTextEquals
+import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
@@ -34,7 +36,12 @@ class LanguageSetupDialogTest {
         SetupItem(
             "voice:PIPER:el_GR-rapunzelina-medium", SetupKind.VOICE, "Greek", "Piper · Rapunzelina · medium · Greece",
             listOf(SetupFile(SetupFileKind.ENGINE, "Piper", 86_000_000, estimated = true), SetupFile(SetupFileKind.VOICE, "Rapunzelina · medium · Greece", 63_500_000)),
-            recommended = false, switchesEngine = true,
+            recommended = false, switchesEngine = true, engine = "Piper",
+        ),
+        SetupItem(
+            "voice:PIPER:el_GR-chreece-low", SetupKind.VOICE, "Greek", "Piper · Chreece · low · Greece",
+            listOf(SetupFile(SetupFileKind.ENGINE, "Piper", 86_000_000, estimated = true), SetupFile(SetupFileKind.VOICE, "Chreece · low · Greece", 20_000_000)),
+            recommended = false, switchesEngine = true, engine = "Piper",
         ),
         SetupItem(
             "translation:el-ru", SetupKind.TRANSLATION, "Greek", "Argos Translate · Greek \u2192 Russian",
@@ -62,25 +69,71 @@ class LanguageSetupDialogTest {
         onNodeWithText("Get ready to learn Greek").assertExists()
         onNodeWithText("3 downloads selected · 270.5 MB").assertExists()
         onNodeWithText("Piper engine · about 86.0 MB").assertExists()
+        onNodeWithText("Greek voice · Piper").assertExists()
+        onNodeWithText("Chreece · low · Greece").assertExists()
         System.getenv("SETUP_SCREENSHOT")?.let { save(it) }
-        onNodeWithTag("setup-VOICE").performClick()
+        onNodeWithTag("setup-voice:PIPER:el_GR-rapunzelina-medium").performClick()
         onNodeWithText("4 downloads selected · about 420.0 MB").assertExists()
+        onNodeWithTag("setup-voice:PIPER:el_GR-chreece-low").performClick()
+        onNodeWithText("5 downloads selected · about 440.0 MB", substring = false).assertExists()
+        onNodeWithTag("setup-voice:PIPER:el_GR-chreece-low").performClick()
         onNodeWithText("Download selected").performClick()
         assertEquals(1, started)
         progress = mapOf(
             items[0].id to SetupState.Done,
             items[1].id to SetupState.Failed("HTTP 503"),
             items[2].id to SetupState.Running(null),
-            items[3].id to SetupState.Waiting,
+            items[4].id to SetupState.Waiting,
         )
         waitForIdle()
         onNodeWithText("Downloads go on in the background if you close this.").assertExists()
         onNodeWithText("Download failed: HTTP 503").assertExists()
         onNodeWithText("Try again").assertDoesNotExist()
         System.getenv("SETUP_SCREENSHOT")?.let { save(it.replace(".png", "-running.png")) }
-        progress = progress + mapOf(items[2].id to SetupState.Done, items[3].id to SetupState.Done)
+        progress = progress + mapOf(items[2].id to SetupState.Done, items[4].id to SetupState.Done)
         onNodeWithText("Try again").performClick()
         assertEquals(SetupState.Waiting, progress[items[1].id])
+    }
+
+    @Test
+    fun kokoroVoicesAreChosenOneByOneAndShareTheirModel() = runDesktopComposeUiTest(width = 760, height = 720) {
+        val model = SetupFile(SetupFileKind.VOICE_MODEL, "Kokoro model with 34 voices", 120_500_000)
+        val voices = listOf("pf_dora" to "Dora (Brazilian, female)", "pm_alex" to "Alex (Brazilian, male)").map { (id, name) ->
+            SetupItem("voice:KOKORO:kokoro-v1.0:$id", SetupKind.VOICE, "Portuguese", "Kokoro · $name", listOf(model), recommended = id == "pf_dora", engine = "Kokoro", voiceSizeBytes = 522_240)
+        } + listOf("cadu" to "Cadu · medium · Brazil", "edresson" to "Edresson · low · Brazil", "faber" to "Faber · medium · Brazil", "jeff" to "Jeff · medium · Brazil").map { (id, name) ->
+            SetupItem(
+                "voice:PIPER:pt_BR-$id", SetupKind.VOICE, "Portuguese", "Piper · $name",
+                listOf(SetupFile(SetupFileKind.VOICE, name, 63_200_000)), recommended = false, switchesEngine = true, engine = "Piper",
+            )
+        }
+        var state by mutableStateOf(LanguageSetupUiState(1, voices, setOf(voices[0].id)))
+        setContent {
+            Hosted(SettingsRepositoryImpl(MapSettings())) {
+                LanguageSetupContent(
+                    state, emptyMap(),
+                    onToggle = { id -> state = state.copy(selected = if (id in state.selected) state.selected - id else state.selected + id) },
+                    onStart = {}, onRetry = {}, onClosed = {},
+                )
+            }
+        }
+        onNodeWithText("Kokoro model").assertExists()
+        assertEquals(2, onAllNodesWithText("120.5 MB").fetchSemanticsNodes().size, "the model row and the card total")
+        onNodeWithText("Alex (Brazilian, male)").assertExists()
+        assertEquals(2, onAllNodesWithText("522 kB").fetchSemanticsNodes().size, "each Kokoro voice shows its own size")
+        onNodeWithTag("setup-total-Kokoro").assertTextEquals("120.5 MB")
+        onNodeWithTag("setup-total-Piper").assertTextEquals("252.8 MB")
+        System.getenv("SETUP_SCREENSHOT")?.let { save(it.replace(".png", "-kokoro.png")) }
+        onNodeWithTag("setup-voice:KOKORO:kokoro-v1.0:pm_alex").performClick()
+        onNodeWithText("2 downloads selected · 120.5 MB").assertExists()
+
+        onNodeWithTag("setup-all-Piper").performClick()
+        assertEquals(6, state.selected.size, "the Piper box ticks all its voices")
+        onNodeWithTag("setup-all-Kokoro").performClick()
+        assertEquals(4, state.selected.size, "every Kokoro voice was ticked, so its box clears them")
+        onNodeWithTag("setup-all-Kokoro").performClick()
+        onNodeWithTag("setup-voice:KOKORO:kokoro-v1.0:pm_alex").performClick()
+        onNodeWithTag("setup-all-Kokoro").performClick()
+        assertEquals(6, state.selected.size, "a partly ticked engine gets all its voices ticked")
     }
 
     @Test

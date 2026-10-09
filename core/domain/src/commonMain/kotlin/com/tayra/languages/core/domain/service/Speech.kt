@@ -21,8 +21,8 @@ data class SpeechPackage(
     val installed: Boolean,
 )
 
-/** A voice that can speak right now. */
-data class SpeechVoice(val id: String, val name: String, val languageCode: String)
+/** A voice that can speak right now, or that a package brings; [sizeBytes] is its own data, when known. */
+data class SpeechVoice(val id: String, val name: String, val languageCode: String, val sizeBytes: Long? = null)
 
 /** A speech engine that runs on this device and produces audio the app plays itself. */
 interface LocalSpeechEngine {
@@ -61,6 +61,9 @@ interface LocalSpeechEngine {
     suspend fun packages(): List<SpeechPackage>
 
     suspend fun installPackage(id: String)
+
+    /** The voices package [id] brings for [languageCode] once installed; empty when the package is a single voice. */
+    fun packageVoices(id: String, languageCode: String): List<SpeechVoice> = emptyList()
 
     suspend fun removePackage(id: String)
 
