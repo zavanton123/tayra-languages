@@ -1,0 +1,228 @@
+{
+  "id": "sr-mini-5600",
+  "rankUpTo": 5600,
+  "level": "C1",
+  "title": "Novinarstvo i mediji",
+  "description": "Ten calm, reflective texts about the craft of journalism and media: a local weekly, a radio show, an interview, a photo story, fact-checking, a school magazine and more.",
+  "topic": "Journalism and media",
+  "names": [
+    "Čačak",
+    "Moravski",
+    "Gradska",
+    "Srbija",
+    "Karlovci",
+    "Karlovaca",
+    "Uvac",
+    "Uvca",
+    "Uvcu",
+    "Lazar",
+    "Jovan",
+    "Marko",
+    "Mile",
+    "Dragana",
+    "Jasna",
+    "Stefan",
+    "Mile",
+    "Niš",
+    "Nišava",
+    "Marija",
+    "Nenad",
+    "Bojan",
+    "Novi Sad",
+    "Ana",
+    "Radoje",
+    "Luka",
+    "Uvac",
+    "Zlatibor",
+    "Subotica",
+    "Vera",
+    "Kragujevac",
+    "Teodora",
+    "Vuk",
+    "Goran",
+    "Valjevo",
+    "Dunja",
+    "Sunil",
+    "Štutgart",
+    "Zoran",
+    "Beograd",
+    "Slobodan",
+    "Milena",
+    "Fruška gora",
+    "Sremski Karlovci",
+    "Tara",
+    "Kolkata",
+    "Indija",
+    "Dunav",
+    "Tisa",
+    "Bačka",
+    "Lena",
+    "Petar",
+    "Nada",
+    "Đurđevak",
+    "Mokra Gora",
+    "Šargan",
+    "Bor",
+    "Kikinda",
+    "Sava",
+    "Morava",
+    "Palić"
+  ],
+  "lessons": [
+    {
+      "title": "Petak u Čačku",
+      "summary": "A week at a small local weekly in Čačak, from the first idea to the printed page.",
+      "newWords": [
+        "štampati",
+        "objava",
+        "zapošljavati",
+        "snabdevati",
+        "knjižara",
+        "ovdašnji",
+        "označavati"
+      ],
+      "text": "Svakog petka ujutru u Čačku se ponovi isti mali običaj. Pre nego što otvori knjižaru u Gradskoj ulici, gospođa Dragana uzme novine iz kombija i prvu stranicu stavi u izlog. To je „Moravski nedeljnik“, ovdašnji list koji već dvadeset godina izlazi svake nedelje. Ove jeseni proveo sam nedelju dana kod njih u kancelariji, jer sam hteo da vidim kako se jedan broj pravi, od prve ideje do poslednjeg slova.\n\nKancelarija je mala: tri stola, dva stara računara i mnogo papira. Urednik Jovan kaže da je zapošljavanje posebna veština kad nemaš mnogo novca. List nema mnogo novca, pa svako ko dođe mora da zna bar tri posla. Zato novinar ponekad slika, fotograf piše, a Jovan sam nosi tekstove u štampariju. Ove godine zapošljava i mladog Stefana, koji je pre toga pisao za školski list, i već prve nedelje ga je poslao na pijacu.\n\nNedelja ima svoj ritam. U ponedeljak se skupe ideje, a u utorak i sredu novinari obilaze škole, pijacu i dom zdravlja i zapisuju šta ljudi pričaju. U četvrtak se tekstovi čitaju naglas. Jovan olovkom označava svaku rečenicu koja ne zvuči jasno, a svaki podatak označava zvezdom, što znači da ga treba još jednom proveriti. Tek kad nestanu sve zvezde, tekst je spreman za objavu. Objava u listu, kaže on, nije kao poruka na telefonu: što je jednom štampano, ostaje na papiru i ne može se povući.\n\nU četvrtak uveče stranice se šalju u štampariju na kraju grada. Tamo se novine štampaju za nekoliko sati, a u petak u zoru kombi kreće na put. Vozač Mile snabdeva prodavnice u gradu, pa zatim sela oko Čačka, i svuda ga neko čeka. Jedna starija žena iz sela kraj reke stoji pred kapijom već u šest sati, jer bez strane sa pozdravima ne može da počne dan.\n\nU knjižari Dragana kaže da novine nikad ne prodaje samo kao papir. Ljudi uz njih kupe i razgovor: pročitaju naslov, pa ostanu pola sata da sa njom nastave priču. Zato ovdašnji list ne služi samo da ljudi saznaju vesti, nego i da ostanu povezani.\n\nPoslednjeg dana držao sam svoj primerak u rukama. Na strani šest bio je moj prvi članak, a ispod njega moje ime, jer Jovan svaki tekst označava imenom autora. Dragana ga je odmah stavila u izlog, pored ostalih novina.\n\nPitanja:\nGde izlazi „Moravski nedeljnik“?\nIzlazi u Čačku, jednom nedeljno.\nZašto je zapošljavanje u maloj kancelariji veština?\nJer list nema mnogo novca, pa svako mora da zna bar tri posla.\nŠta Jovan označava olovkom?\nOznačava rečenice koje ne zvuče jasno i podatke koje treba proveriti.\nKo snabdeva prodavnice i sela novinama?\nProdavnice i sela snabdeva vozač Mile, kombijem.\nŠta Dragana radi sa novinama u knjižari?\nPrvu stranicu stavlja u izlog i razgovara sa ljudima koji kupe list."
+    },
+    {
+      "title": "Jutro na radiju",
+      "summary": "A young technician at Radio Nišava runs the sound for his first live morning show.",
+      "newWords": [
+        "antena",
+        "svirka",
+        "stišati",
+        "spopasti",
+        "trepnuti",
+        "produkcija",
+        "tempo",
+        "živahan",
+        "posrednik"
+      ],
+      "text": "Radio „Nišava“ radi iz kuće na brdu iznad grada, pa se njegova antena vidi iz skoro svake ulice u Nišu. Marija vodi jutarnji program već osam godina i kaže da je radio posao u kome se sve čuje, a ništa ne vidi. Zato svakog jutra pred emisiju sedne za mikrofon kao pred prozor iza kojeg je hiljadu nepoznatih ljudi.\n\nTog utorka u studiju je bio i novi tehničar Nenad. Do tada je pomagao samo u produkciji: nosio je kablove, brinuo o zapisima i pazio da u studiju uvek ima vode. Produkcija jutarnjeg programa ima samo troje ljudi, pa se svaki posao broji. Ali Marijin stari tehničar se razboleo, pa je Nenad prvi put sam sedeo za velikim stolom sa dugmadima. Pet minuta pre početka spopala ga je trema. Ruke su mu drhtale, a svako dugme kao da je bilo na pogrešnom mestu.\n\n— Udahnite — rekla je Marija i nasmešila se. — Gosti vas ne vide. Čuju samo šta uradite.\n\nU osam sati ujutru crveno svetlo iznad vrata trepne dvaput i ostane da gori. Emisija je počela. Prvi gost bio je Bojan, mladi čovek sa gitarom, veoma živahan i vedar. Živahan gost je za svakog voditelja pravi poklon, jer se ne mora mnogo pitati. Pričao je o svojoj poslednjoj svirci u Beogradu, o tome kako mu je pukla žica usred pesme, i o tome kako se publika smejala, a on je nastavio da svira. Marija je znala da u razgovoru treba da bude posrednik: ona pita ono što ljudi kod kuće žele da znaju, a gost odgovara. Zato je pazila da ne govori previše.\n\nNenad je, međutim, imao svoj problem. Bojan je pričao brže nego što je očekivao, a muzika koju je trebalo da pusti bila je preglasna. Marija ga je pogledala kroz staklo i rukom pokazala da treba da stiša pesmu. Nenad nije smeo ni da trepne. Onda je polako spustio dugme, baš na vreme, i prvi put te nedelje odahnuo.\n\n— Sledeći put stišaj pesmu čim gost otvori usta — rekla je Marija posle emisije, ali se smešila.\n\nPosle pola sata tempo emisije se promenio. Bojan je bio sve sporiji i tiši, a Marija je prilagodila i svoj tempo. Uzeo je gitaru i zasvirao jednu pesmu uživo, bez ikakve pomoći. U studiju je bilo tiho. Nenad je primetio da se i sam smiruje: ruke su mu bile čvrste, a zvuk čist. Kad je pesma završena, spopala ga je radost.\n\nKad je emisija završena, Marija je rekla da je Nenad uradio posao kao iskusan tehničar. Popili su kafu, a Bojan je obećao da će se vratiti kad bude imao novu svirku.\n\nPitanja:\nOdakle radi radio „Nišava“?\nRadi iz kuće na brdu iznad Niša, a njegova antena se vidi skoro iz svake ulice.\nZašto je Nenada spopala trema?\nZato što je prvi put sam sedeo za velikim stolom sa dugmadima.\nŠta je Nenad morao da uradi kad je Bojan počeo da priča?\nMorao je da stiša pesmu.\nŠta je Marijin posao u razgovoru sa gostom?\nMarija je posrednik između gosta i ljudi kod kuće: pita ono što oni žele da znaju.\nŠta se desilo na kraju emisije?\nBojan je odsvirao pesmu uživo, a svi su zajedno popili kafu."
+    },
+    {
+      "title": "Majstor sa velikom torbom",
+      "summary": "A young reporter in Novi Sad interviews a veteran plumber for a series of local portraits.",
+      "newWords": [
+        "vodoinstalater",
+        "tlak",
+        "izolacija",
+        "bušiti",
+        "ekser",
+        "raspitati",
+        "radoznalost",
+        "lojalan",
+        "legendaran"
+      ],
+      "text": "U Novom Sadu svako zna nekoga ko zna dobrog majstora, ali ime Radoje čuli su skoro svi. Mlada novinarka Ana pravi seriju portreta ljudi iz kraja i prvo je htela da piše o nastavnici ili o lekaru. Međutim, kad se raspita po komšiluku, svi joj kažu isto: idi kod čika Radoja. Radoje je vodoinstalater već četrdeset godina i u kraju je postao legendaran.\n\nNađu se u subotu ujutru u njegovoj radionici, među cevima i alatom. Ana dolazi sa sveskom i telefonom za snimanje. Pre razgovora se raspita i kod njegovih mušterija, i svi ga hvale. Radoje drži veliku torbu koja ga prati na svakom poslu.\n\n— Kako se postaje vodoinstalater? — pita Ana.\n\n— Slučajno — smeje se Radoje. — Moj otac je radio u fabrici, a ja sam hteo da razumem kako voda stiže u kuću. Radoznalost me je odvela do prve cevi, a posle toga više nisam mogao da stanem.\n\n— Šta je najvažnije u vašem poslu?\n\n— Tlak. Voda mora da dođe kako treba, ni preslaba ni prejaka. Kad tlak nije dobar, kuća to oseti: slavina šišti, a noću se iz zida čuje čudan zvuk. Zato prvo merim, pa tek onda bušim zid.\n\nAna zapisuje i u sebi se čudi koliko jedan posao ima tajni. Radoje joj pokazuje kako se cevi štite izolacijom, da zimi ne bi pukle, i kako se pogodi pravo mesto za ekser, da cev ne ostane kriva. Kad ga pita da li voli da buši zidove, smeje se: bušenje, kaže, traži strpljenje.\n\n— Kod mene su mušterije lojalne — kaže ponosno. — Neki me zovu već trideset godina. Lojalna mušterija ne traži najjeftinijeg majstora, nego pravog.\n\n— A šta mislite o mladima koji sad uče taj posao?\n\n— Volim kad su radoznali. Radoznalost je za majstora važnija od snage. Ko pita zašto, ne greši dvaput.\n\nKad je razgovor gotov, Radoje Ani poklanja mali ekser. Kaže da joj ga daje za sreću, da je podseća na dan kad je saznala kako izgleda posao koji niko ne vidi.\n\nAna je tekst napisala za dva dana. Kad je izašao u novinama, počeli su da joj telefoniraju čitaoci, i svi su hteli da znaju samo jedno: kako da dođu do Radoja, legendarnog majstora iz Novog Sada.\n\nPitanja:\nZašto je Ana odlučila da napiše o Radoju?\nJer su joj sve komšije rekle da je Radoje najzanimljiviji.\nŠta Radoje kaže o tlaku?\nVoda mora da dođe sa pravim tlakom, ni preslabim ni prejakim.\nČemu služi izolacija na cevima?\nŠtiti cevi da zimi ne pukne.\nZašto Radoje ceni radoznalost?\nJer je radoznalost za majstora važnija od snage.\nŠta Radoje poklanja Ani?\nPoklanja joj mali ekser za sreću."
+    },
+    {
+      "title": "Šest fotografija sa Uvca",
+      "summary": "A photographer explains how he picks six pictures out of four hundred for a photo story about the Uvac canyon.",
+      "newWords": [
+        "lešinar",
+        "meteor",
+        "gaj",
+        "narandžast",
+        "žuta",
+        "blistav",
+        "vulkanski",
+        "izdvojiti",
+        "sakrivati"
+      ],
+      "text": "Kad urednik traži priču u slikama, on zapravo traži šest fotografija i nijednu više. Zato sam posle tri dana na Uvcu, kod Zlatibora, imao četiristo snimaka, a morao sam da izdvojim samo šest. Evo kako sam birao.\n\nPrva fotografija je jutarnja. Izlazak sunca nad kanjonom bio je narandžast, a reka ispod njega blistava kao metal. Narandžasta svetlost trajala je samo nekoliko minuta. Dugo sam čekao pravi trenutak, jer se magla kretala brzo, i ono što je u jednom času bilo lepo, u sledećem je nestajalo.\n\nDruga fotografija je lešinar. Beloglavi lešinari gnezde se na liticama kanjona, a moj domaćin Petar poznaje svakog od njih. Skoro dva sata sakrivao sam se iza kamena, jer ptica ne dozvoljava da joj se čovek približi. Kad je konačno raširila krila, napravio sam samo tri snimka. Samo jedan je bio oštar, pa sam ga odmah izdvojio.\n\nTreća fotografija je mirna: mali gaj iz kojeg viri jedna žuta kuća. U tom gaju sam proveo celo popodne. Svetlo je padalo kroz grane, a ja sam sedeo na panju i čekao da neko izađe iz kuće. Niko nije izašao, i baš zato je slika dobra. Žuta boja zida i zelena boja lišća delovale su kao da se ne sakrivaju ni od koga. Kamen pored kuće bio je blistav od rose.\n\nČetvrta je ona koju sam najviše voleo, a najmanje očekivao. Jedne noći sam ostao do kasno da snimim zvezdano nebo, i u jednom trenutku preko neba je preleteo meteor. Imao sam samo sekundu da pritisnem dugme. Kad sam sutradan na računaru video traku svetlosti, nisam mogao da verujem. Taj meteor je, kao i ptica, došao bez najave.\n\nPeta fotografija je iz jednog ranijeg putovanja. Pre dve godine bio sam na jugu Srbije, gde su vulkanske stene oblikovale čudne kamene figure. Dok sam birao slike za ovu priču, shvatio sam da se ta slika uklapa: priroda i ovde, i tamo, pravi umetnička dela bez publike. Vulkanske figure nisu pozirale, a ni ptice.\n\nŠesta je portret domaćina Petra kako sa šoljom u ruci gleda u kanjon. To je jedina slika na kojoj se vidi čovek.\n\nIzdvojiti šest slika od četiristo nije lako. Pravilo koje sam naučio glasi: prvo odbaci sve slične, zatim sve loše, a od ostalih zadrži samo one koje nešto govore. Ako slika ne govori ništa, nije dovoljno da bude lepa.\n\nPitanja:\nKoliko je snimaka fotograf imao, a koliko je izdvojio?\nImao je četiristo snimaka, a izdvojio je šest.\nZašto se sakrivao iza kamena?\nJer lešinar ne dozvoljava da mu se čovek približi.\nŠta je bilo na trećoj fotografiji?\nMali gaj i žuta kuća.\nŠta je fotograf snimio jedne noći?\nSnimio je meteor koji je preleteo preko neba.\nKoje pravilo je naučio za izbor slika?\nPrvo odbaci slične, zatim loše, a zadrži one koje nešto govore."
+    },
+    {
+      "title": "Sirup od šargarepe",
+      "summary": "A fact-checker at a Subotica news site checks a claim that a carrot syrup cures a cough, step by step.",
+      "newWords": [
+        "sirup",
+        "supstanca",
+        "šargarepa",
+        "rendgen",
+        "definicija",
+        "izreći",
+        "upućivati",
+        "sprovoditi",
+        "rasuti"
+      ],
+      "text": "Vera radi u maloj redakciji u Subotici i njen posao ima nezgodan naziv: proverava činjenice. Nikad ne piše o velikim događajima. Prolazi kroz sitne tvrdnje koje ljudi izreknu u svakodnevnom razgovoru i pita se samo jedno: da li je to tačno?\n\nProšle nedelje stigla je poruka jedne žene. Napisala je da njena baka pravi sirup od šargarepe i da posle dva dana nestaje svaki kašalj. Poruka se za samo jedan dan rasula po internetu, a mnogi su pitali: zar je moguće?\n\nSvaku proveru Vera sprovodi u tri koraka. Prvi korak je jasna definicija: šta tvrdnja zapravo znači? Šta znači „nestaje kašalj“? Sutra, za dve nedelje, ili uopšte? I šta znači „leči“? Kad na ta pitanja nema odgovora, tvrdnja je previše široka da bi mogla biti tačna ili netačna.\n\nDrugi korak je izvor. Vera je pozvala ženu i ljubazno je pitala za recept. Žena je rekla da u sirup ide šargarepa, med i malo vode, i da ga baka daje deci već pedeset godina. Nije imala nikakav dokaz, samo uspomene.\n\nTreći korak je stručnjak. Vera je razgovarala sa lekarom u domu zdravlja, koji joj je objasnio da u šargarepi ima korisnih supstanci, ali da nijedna od njih ne leči kašalj. Lekar je dodao da kašalj često nestaje sam od sebe, i da se zato sirupu lako pripisuje zasluga. Za svaki ozbiljan kašalj on upućuje ljude na pregled, a ne u kuhinju. Jedan rendgen pluća, rekao je, kaže više nego sto saveta sa interneta.\n\nNa kraju je Vera napisala tekst sa naslovom „Šta sirup od šargarepe može, a šta ne može“. Nije izrekla da je baka pogrešila. Napisala je da je sirup ukusan i da prija grlu, ali da nema dokaza da leči kašalj, i da ljudi sa dugim kašljem treba da idu kod lekara na rendgen i pregled. Upućivati ljude na lekara nije lako, jer svako voli da veruje u recept svoje bake. Lako je rasuti netačnu vest po internetu, a teško je sakupiti je nazad. Zato Vera nije htela da sprovodi proveru protiv bake, nego zajedno sa njom.\n\nŽena je sutradan odgovorila da joj je tekst bio fer. Vera je zaključila da je dobra provera ona posle koje se niko ne oseća poniženo.\n\nPitanja:\nČime se bavi Vera?\nProverava činjenice u maloj redakciji u Subotici.\nŠta je žena tvrdila za sirup?\nTvrdila je da sirup od šargarepe leči kašalj za dva dana.\nŠta je prvi korak provere?\nPrvi korak je jasna definicija onoga što tvrdnja znači.\nŠta je lekar rekao o šargarepi?\nRekao je da šargarepa ima korisne supstance, ali da nijedna ne leči kašalj.\nKako je Vera završila svoj tekst?\nNapisala je da je sirup ukusan, ali da nema dokaza da leči kašalj."
+    },
+    {
+      "title": "Školski list u Kragujevcu",
+      "summary": "Students at a Kragujevac high school put together the new issue of their school magazine.",
+      "newWords": [
+        "roditeljski",
+        "diskusija",
+        "datoteka",
+        "aplikacija",
+        "avatar",
+        "dizajner",
+        "družina",
+        "stid",
+        "očuh",
+        "egipatski"
+      ],
+      "text": "U gimnaziji u Kragujevcu školski list „Prvi čas“ izlazi četiri puta godišnje, a pravi ga mala družina učenika koja se petkom posle nastave okuplja u učionici za računare. Ove jeseni list uređuje Teodora, učenica trećeg razreda, i ona je odlučila da novi broj mora biti gotov pre roditeljskog sastanka.\n\n— Roditelji će doći u školu, pa će list videti odmah — kaže Teodora. — Hoću da na prvoj strani bude nešto čime se ponosimo.\n\nPrva diskusija počela je čim se družina okupila. Vuk, koji piše o sportu, hteo je da na prvoj strani bude fotografija sa utakmice. Teodora je predložila temu putovanja, jer je razred ove godine posetio muzej u Beogradu i video egipatsku zbirku. Dugo su se prepirali, ali su na kraju dogovorili da na prvoj strani bude fotografija mumije iz egipatskog odeljenja, a utakmica će biti u sportskom delu.\n\nSve tekstove učenici su slali u jednu zajedničku datoteku, a Teodora je svakog jutra otvarala tu datoteku i čitala šta je stiglo. Za raspored stranica koristili su besplatnu aplikaciju koju je pronašao Vuk. U toj aplikaciji se i neiskusan čovek brzo snađe: tekst se prevuče, slika se spusti i stranica izgleda kao prava.\n\nNajzanimljiviji tekst stigao je od jednog učenika koji se ne potpisuje. Tražio je da umesto fotografije uz članak bude avatar, jer ga je bilo stid da otkrije ko je. Teodora je poštovala njegovu želju. U tekstu je pisao o svom očuhu Goranu, koji je u kuću ušao pre dve godine. Pisao je da je prvo bio ljut i tih, a da je Goran strpljivo čekao, pa su jednog dana zajedno popravili bicikl. Teodora je tekst pročitala dvaput i nije promenila nijednu reč. Rekla je da stid nije razlog da se priča ne ispriča, ali da je avatar sasvim dobar način da se počne.\n\nPoslednji korak bio je dizajn. Nastavnik likovnog pozvao je jednog dizajnera, svog bivšeg učenika, da pomogne oko prve strane. Dizajner je stigao u petak sa računarom i za sat vremena promenio ceo izgled.\n\nNa roditeljskom sastanku, u utorak, list je podeljen roditeljima. Teodora je stajala pozadi i gledala ih kako čitaju. Jedna majka je dugo posmatrala fotografiju mumije, a onda se nasmešila.\n\nPitanja:\nKo pravi list „Prvi čas“?\nPravi ga družina učenika, a uređuje ga Teodora.\nO čemu su se učenici prepirali u diskusiji?\nPrepirali su se da li na prvoj strani treba da bude utakmica ili putovanje.\nZašto je jedan učenik tražio avatar?\nJer ga je bilo stid da otkrije ko je.\nO kome je taj učenik pisao?\nPisao je o svom očuhu Goranu.\nKad je list podeljen roditeljima?\nPodeljen je u utorak, na roditeljskom sastanku."
+    },
+    {
+      "title": "Izveštaj sa trke",
+      "summary": "A young sports reporter covers a children's athletics day in Valjevo and learns what makes a good match report.",
+      "newWords": [
+        "trkač",
+        "pehar",
+        "svlačionica",
+        "bacač",
+        "kriket",
+        "instruktor",
+        "režim",
+        "civilizovan",
+        "posmatrač"
+      ],
+      "text": "Sportsku novinarku Dunju najviše brine početak izveštaja. Kad u subotu ujutru stigne na stadion u Valjevu, ona još ne zna šta će napisati, ali zna da će prva rečenica odlučiti da li će iko pročitati ostalo. Zato dolazi ranije i prvo obilazi sve: svlačionicu, stazu, mesto gde deca čekaju svoj red.\n\nDanas se održava dečji atletski dan, pa su u svlačionici oko sto klinaca i svi pričaju istovremeno. Dunja ne žuri sa pitanjima. Sluša, gleda i pravi beleške kao običan posmatrač. Sve što primeti, zapiše: mali dečak vezuje patike po treći put, devojčica ponavlja pokret ruke, a jedan instruktor u džepu nosi rezervne pertle.\n\n— Najveća greška novinara je što gleda rezultat — kaže joj instruktor Marko. — Rezultat vidi svako. Priča je u onome što se desilo pre starta.\n\nDunja se seća tih reči dok počinje trka na 200 metara. Najbrži trkač, dečak Lazar, prvi prelazi cilj, ali ona ne gleda njega: gleda dečaka koji trči poslednji i koji ipak maše prijateljima. Na drugom kraju terena stoji bacač kugle, visoka devojčica iz Valjeva, i čeka svoj red. Juče je prvi put bacila kuglu daleko i sada ne može da prestane da misli o tome. Dunja zapisuje: bacač kugle ne gleda kuglu, nego mesto gde će pasti.\n\nU pauzi, na travi pored staze, gostujući instruktor iz Indije, Sunil, pokazuje deci kriket. Mnogi nikad nisu videli palicu tog oblika, pa se sa zadovoljstvom smeju. Dunja zapisuje: „U pola jedanaest ceo stadion se smejao zajedno.“\n\nNa kraju dana deli se jedan veliki pehar. Ne dobija ga najbrži trkač, nego ekipa koja je najbolje navijala za druge. Dunja ostaje do kraja i primećuje koliko je to civilizovan način da se završi takmičenje. Niko ne plače, niko se ne svađa, a navijači se ponašaju civilizovano. Svi ponesu kući po jednu lepu uspomenu. Posmatrač koji dođe samo zbog rezultata pomislio bi da se ništa nije desilo.\n\nUveče, u kancelariji, režim rada je strog: do deset sati mora da preda tekst. Obično pre pisanja popije čaj i pogleda prve beleške. Ipak, ovog puta prva rečenica dolazi sama: „Najbolji trkač danas nije bio onaj koji je prvi stigao do cilja.“ Dunja klikće na dugme „pošalji“. Režim rada je strog, ali dobra priča se ipak napiše na vreme.\n\nPitanja:\nŠta Dunju najviše brine?\nNajviše je brine početak izveštaja.\nŠta Dunja radi pre trke?\nObilazi svlačionicu i stazu i beleži šta vidi, kao običan posmatrač.\nŠta joj je instruktor Marko rekao o rezultatu?\nRekao je da rezultat vidi svako, a da je priča u onome što se desilo pre starta.\nŠta Sunil pokazuje deci?\nPokazuje im kriket.\nKo dobija pehar?\nDobija ga ekipa koja je najbolje navijala za druge."
+    },
+    {
+      "title": "Pismo iz Štutgarta",
+      "summary": "A Serbian editor in Stuttgart writes a column about the little community paper he makes and the stories he collects for it.",
+      "newWords": [
+        "svugde",
+        "onde",
+        "onuda",
+        "nasleđe",
+        "kaniti",
+        "smilovati",
+        "velim",
+        "pozor",
+        "šina"
+      ],
+      "text": "Čekam voz na stanici u Štutgartu i čitam raspored. Iznad glave, iz zvučnika, čuje se upozorenje: „Pozor, voz stiže na kolosek broj sedam.“ Ljudi se sklanjaju od ivice, a ispod nas blistaju šine. Ovde provodim mnogo vremena, jer svakog meseca putujem u susedne gradove da skupim priče za novi broj našeg malog lista.\n\nList se zove „Naša reč“ i ima osam strana. Štampa se kod mene kući, a deli po prodavnicama i klubovima. Kad sam počeo da ga pravim, kanio sam da pišem samo o sastancima i dogovorima. Brzo sam shvatio da ljudi traže nešto drugo: žele da čitaju o sebi.\n\nZato svakog meseca odem onde gde ima ljudi: u klub, u pekaru, u poštu. Onde gde se ljudi okupe, uvek ima i priče. Čujem je svugde: u autobusu, u prodavnici, na ulici. Svugde neko nešto priča, a ja slušam. Jedna žena iz Bora peče pite po receptu svoje bake i svake subote ih deli komšijama. Jedan majstor iz Kikinde pravi violine i tvrdi da svaka ima poseban glas. Jedna devojčica uči srpski uz knjigu koju je donela iz Novog Sada, i već piše svoje prve rečenice.\n\nKad se vraćam sa takvih puteva, prolazim onuda kuda prolaze svi, preko stanice i preko šina. Onuda hodam sporo, jer razmišljam kako da te priče složim u celinu. Veli stara izreka da ono što se ne zapiše, to se zaboravi. Ja velim da se nasleđe ne čuva samo u muzeju, nego u svakodnevnim stvarima: u receptu, u pesmi, u jednoj reči koju dete nauči od bake.\n\nKad se približi rok, uvek me nazove prijatelj, urednik jedne radio-emisije, i kaže: „Smiluj se, pošalji mi tekst do podne!“ Ja se smejem, jer sam svoj tekst napisao još sinoć, ali ga nikad ne šaljem pre nego što ga pročitam naglas. Onda uvek nađem rečenicu koju treba popraviti. Ako me neko pita zašto, odgovaram: smilovati se čitaocu znači ne poslati mu tekst koji sam ne bih voleo da čitam.\n\nMožda zato list, iako mali, ima čitaoce. Jedan stariji čovek mi je nedavno rekao da ga čuva u fioci, pored fotografija. To mi je najveća nagrada. Ne kanim da ga ikad pretvorim u nešto veće: neka ostane osam strana, neka ostane na papiru, i neka ga i dalje deli po tri porodice u svakoj ulici. Kad čujem poslednje upozorenje i voz krene, zaključujem da je i ovo pismo jedna stanica na tom putu.\n\nPitanja:\nŠta je „Naša reč“?\nTo je mali list koji ima osam strana i izlazi u Štutgartu.\nŠta se čuje na stanici?\nČuje se upozorenje „Pozor, voz stiže na kolosek broj sedam“.\nO čemu urednik odlučuje da piše?\nNe piše samo o sastancima i dogovorima, nego o ljudima.\nGde se, po njemu, čuva nasleđe?\nČuva se u svakodnevnim stvarima: u receptu, u pesmi i u reči koju dete nauči od bake.\nŠta prijatelj kaže uredniku pred rok?\nKaže mu: „Smiluj se, pošalji mi tekst do podne!“"
+    },
+    {
+      "title": "Reklama u tri rečenice",
+      "summary": "A columnist watches a television evening and reflects on what advertisements promise their viewers.",
+      "newWords": [
+        "gledalac",
+        "milioner",
+        "novčani",
+        "dužnik",
+        "beda",
+        "luksuzan",
+        "obuti"
+      ],
+      "text": "Svako veče, u pauzi između dve serije, ja ostajem pred ekranom i gledam reklame. Ne radim to iz navike, nego iz profesionalne radoznalosti: gledalac koji pažljivo posmatra reklamu nauči više o ljudima nego iz mnogih knjiga. Reklama ima trideset sekundi da nam kaže tri stvari, i skoro uvek ih kaže u istom redu.\n\nPrva rečenica obećava. Jedna reklama za automobil, na primer, počinje slikom luksuznog salona i pita: zar ne zaslužujete malo luksuza? Glas iza slike tvrdi da je automobil luksuzan, a opet pristupačan. Druga rečenica pokazuje. Na ekranu se pojavljuje čovek koji se smeši i nikuda ne žuri, kao da u njegovom životu nema ni brige ni bede. U trećoj rečenici stiže cena, ali tihim glasom, kao da je nevažna.\n\nNajviše volim reklame za obuću. U jednoj od njih dečak obuje nove patike i odjednom trči kroz grad kao da leti. Kad obuješ te patike, ne obuješ samo patike, nego i nov dan, kaže glas iza slike. Znam da to nije tačno, ali priznajem da me je reklama nasmejala. U drugoj reklami, za kafu, jedna žena obuje cipele pred ogledalom i sasvim ozbiljno govori o sreći.\n\nIma i reklama koje obećavaju previše. Jedna nagradna igra, na primer, uverava gledaoca da će sutra biti milioner. U drugoj se novčana nagrada najavljuje takvim glasom da bi čovek pomislio da se novac deli po ulici. Treća nudi novčani poklon svakom ko se prijavi. Četvrta pominje „bez dužnika, bez briga“, i tu sam se zamislio: dužnik je, na kraju krajeva, samo čovek kome je novac trebao ranije nego što ga je imao. Nije nikakva beda biti dužnik, ali nije ni nešto što treba slaviti.\n\nZato mislim da dobra reklama ne laže, nego izabere šta će da kaže. Gledalac to oseća, pa zato ostaje pošten: ne veruje, ali voli da gleda. Ko pravi reklame, zna da je poverenje jedini luksuz koji se ne kupuje u radnji.\n\nPitanja:\nŠta autor teksta gleda svake večeri?\nGleda reklame u pauzi između dve serije.\nŠta reklama obećava u prvoj rečenici?\nObećava luksuz i pita gledaoca zar ne zaslužuje malo luksuza.\nŠta se dešava u reklami za obuću?\nDečak obuje nove patike i trči kroz grad kao da leti.\nŠta obećava reklama za nagradnu igru?\nUverava gledaoca da će sutra biti milioner.\nŠta je dobra reklama, po autoru?\nDobra reklama ne laže, nego izabere šta će da kaže."
+    },
+    {
+      "title": "Urednikova olovka",
+      "summary": "On a walk on Fruška gora an editor explains to a young colleague how he improves a text without changing the author's voice.",
+      "newWords": [
+        "intervencija",
+        "neutralan",
+        "neprikladan",
+        "statistika",
+        "žeti",
+        "beznačajan",
+        "nastajati"
+      ],
+      "text": "Urednik Slobodan vodi mladog saradnika Petra u šetnju po Fruškoj gori. Naše novine imaju običaj da važne razgovore vode napolju, jer se, kako kaže Slobodan, u šumi lakše sluša. Petar je tek počeo da radi, i pitanje koje ga muči jeste: šta urednik zapravo radi sa tuđim tekstom?\n\n— Najbolja intervencija je ona koju čitalac ne primeti — kaže Slobodan. — Ako je tekst posle mog rada drugačiji nego što je autor hteo, nisam dobro radio. Cilj je da tekst bude bolji, a da ostane njegov.\n\nPetar sluša i odmah pita kako se to postiže. Slobodan objašnjava da dobar tekst nastaje u tri koraka. Prvo se čita bez olovke, kao običan čovek koji čita novine. Drugo se čita sa olovkom, i tek tada se uočava šta smeta. Treće se čita naglas, jer uho primeti ono što oko preskoči.\n\nZatim mu pokazuje primer. U jednom tekstu o saobraćaju autor je napisao da je ulica „strašna“. Slobodan je tu reč izbrisao i zamenio činjenicom: u ulici se za godinu dana dogodilo petnaest nezgoda. Reč „strašna“ bila je neprikladna, jer je pokazivala mišljenje, a statistika je govorila sama za sebe. Na sličan način naslov mora da bude neutralan i da ne obećava više nego što tekst daje. Neutralan ton, kaže Slobodan, ne znači hladan, nego pošten.\n\n— A šta ako je detalj beznačajan, a autor ga voli? — pita Petar.\n\n— Ostavim ga ako je lep, a izbacim ako zavlači — smeši se Slobodan. — Najgora greška je kad urednik briše sve što mu se ne sviđa. Svaka intervencija mora da ima razlog, jer tekst nije moj, nego njegov.\n\nKad stignu do proplanka, Slobodan staje i pokazuje polje ispod sela, gde ljudi žanju žito. Misli da je to dobra slika za njihov posao.\n\n— Ko poseje tačnost, žanje poverenje — kaže. — Ljudi to ne kažu naglas, ali pamte. Svaka mala greška nastaje kad neko požuri. Ko jednom pogreši, mora dugo da radi da bi vratio ugled.\n\nPetar vadi svesku i zapisuje tu rečenicu. Polako silaze sa gore, a u sumrak se pred njima ukazuju krovovi Sremskih Karlovaca.\n\nPitanja:\nGde Slobodan i Petar razgovaraju?\nRazgovaraju u šetnji po Fruškoj gori.\nKako, po Slobodanu, tekst nastaje?\nTekst nastaje u tri koraka: čita se bez olovke, pa sa olovkom, pa naglas.\nZašto je reč „strašna“ bila neprikladna?\nJer je pokazivala mišljenje, a umesto nje je bolja činjenica ili statistika.\nŠta Slobodan radi sa lepim, ali beznačajnim detaljem?\nOstavlja ga ako je lep, a izbacuje ako zavlači.\nŠta znači rečenica „Ko poseje tačnost, žanje poverenje“?\nZnači da ljudi pamte ko je tačan i da mu veruju."
+    }
+  ]
+}

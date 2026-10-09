@@ -1,0 +1,212 @@
+{
+  "id": "sr-mini-5800",
+  "rankUpTo": 5800,
+  "level": "C1",
+  "title": "Srpski jezik",
+  "description": "Ten calm texts about the Serbian language: the two scripts, dialect words, proverbs, borrowed words, a spelling dictionary, translating and keeping Serbian alive abroad.",
+  "topic": "The Serbian language",
+  "names": [
+    "Dunja",
+    "Mile",
+    "Novi Sad",
+    "Vuk",
+    "Karadžić",
+    "Nađa",
+    "Stana",
+    "Niš",
+    "Aca",
+    "Beograd",
+    "Bojan",
+    "Vojvodina",
+    "Luka",
+    "Čačak",
+    "Radmila",
+    "Mihailo",
+    "Morava",
+    "Mina",
+    "Subotica",
+    "Ervin",
+    "Rimljan",
+    "Vesna",
+    "Kragujevac",
+    "Dejan",
+    "Jelena",
+    "Marko",
+    "Štutgart",
+    "Filip",
+    "Pavle",
+    "Pavla",
+    "Mila",
+    "Sara",
+    "Zoran",
+    "Ilija",
+    "Fruška gora",
+    "Mirko",
+    "Mirkova",
+    "Sanja",
+    "Nikola",
+    "Beč",
+    "Toronto",
+    "Rade",
+    "Milena",
+    "Zaječar",
+    "Ana"
+  ],
+  "lessons": [
+    {
+      "title": "Ćirilica i latinica",
+      "summary": "A student in Novi Sad asks her grandfather why one language has two scripts and learns how the alphabet works.",
+      "newWords": [
+        "f",
+        "alternativan",
+        "zapisivati",
+        "okruživati",
+        "neznanje",
+        "relativno",
+        "triput",
+        "osobito",
+        "olovo",
+        "letak",
+        "jučerašnji"
+      ],
+      "text": "Moj deda Mile iz Novog Sada ima staru naviku: sve što čuje, zapisuje olovkom na papir. Kad sam bila mala, pitala sam ga zašto se olovka tako zove, kad u njoj nema olova. Deda se nasmejao i objasnio da je unutra nešto drugo, ali da je ime ostalo iz vremena kad se pisalo olovom. Reč često preživi stvar, rekao je, i taj odgovor pamtim do danas.\n\nJučerašnji dan me je na to podsetio. Jučerašnji letak i dalje stoji na mom stolu. Na stanici sam dobila letak o koncertu: jedna strana letka bila je napisana ćirilicom, a druga latinicom. Pokazala sam letak dedi i pitala ga zašto jedan jezik ima dva pisma. Deda je rekao da to nije teret, nego bogatstvo. Ćirilica i latinica nisu dva jezika, nego dva načina da se zapiše ista reč. Latinica je alternativno pismo koje deca u školi uče uporedo sa ćirilicom, pa mnogi bez muke prelaze sa jednog na drugo. Za mene je to i alternativni pogled na svet: ista misao, dva izgleda.\n\nDeda misli da je pisanje na srpskom relativno lako, zato što naš jezik ima srećno pravilo: svaki glas ima jedno slovo, a svako slovo jedan glas. „Piši kao što govoriš“, rekao je. Osobito mu se dopada što ne moramo da pogađamo kako se neka reč izgovara. Ako vidimo slovo, znamo glas. Osobito je lepo to kad dete uči da čita, jer mu je prvih nekoliko meseci mnogo lakše.\n\nSlova nas okružuju svuda: na tablama, na vratima, na kutijama sa lekovima i na majicama. Dok sam čekala autobus, počela sam da brojim koliko pisama vidim oko sebe, i ispostavilo se da su na jednoj ulici bila oba. Deda tvrdi da je neznanje jednog od njih velika šteta, jer čoveku tada nedostaje pola knjiga. Okružuje nas toliko tekstova da bi bilo žalosno da pola njih ostane zatvoreno. Kao dečak, deda je triput prepisao istu pesmu: prvo na jednom pismu, pa na drugom, pa opet na prvom, da bi mu ruka zapamtila oba. Neznanje, kaže, nije sramota, ali je učenje najlepša navika.\n\nZatim me je pitao koje mi je slovo najzanimljivije. Rekla sam da je to slovo f. Deda se složio: u starim srpskim rečima f je relativno retko, a u tuđim rečima, kao što su film i fabrika, česta je gošća. Slovo f je, kaže, dokaz da jezik rado prima goste. Taj odgovor mi se toliko dopao da sam ga zapisala.\n\nTe večeri smo se dogovorili da svake nedelje zapisujemo po jednu reč, jednom na jednom pismu, a jednom na drugom. Prva reč bila je olovka.\n\nPitanja:\nZašto se olovka tako zove, iako u njoj nema olova?\nIme je ostalo iz vremena kad se pisalo olovom.\nŠta je bilo napisano na letku?\nJedna strana letka bila je napisana ćirilicom, a druga latinicom.\nZašto deda misli da je pisanje na srpskom relativno lako?\nZato što svaki glas ima jedno slovo, a svako slovo jedan glas.\nŠta je deda triput prepisao kao dečak?\nTriput je prepisao istu pesmu, na jednom pismu i na drugom.\nGde se slovo f najčešće nalazi?\nNajčešće se nalazi u tuđim rečima, kao što su film i fabrika."
+    },
+    {
+      "title": "Komšija ili sused",
+      "summary": "A student from Novi Sad visits her grandmother in Niš and collects the local words that differ from her own.",
+      "newWords": [
+        "sused",
+        "kupus",
+        "sijalica",
+        "mak",
+        "razumevati",
+        "veselo",
+        "jasmin",
+        "bat"
+      ],
+      "text": "Nađa iz Novog Sada provodi nedelju dana kod bake Stane u Nišu. Baka živi u maloj kući sa dvorištem, a u dvorištu rastu kupus, mak i veliki beli jasmin. Nađa studira srpski jezik i svuda traži nove reči, pa je za ovu posetu spremila olovku i papir.\n\nPrvog jutra baka ju je pitala:\n\n— Kvo ćeš za doručak?\n\nNađa se nasmešila. U Novom Sadu niko ne kaže kvo, nego šta. Baka je objasnila da u Nišu tako govore svi, i dodala da ni ona ne razume sve što joj unuka priča. Zato su se dogovorile: Nađa će pitati čim nešto ne razume, a baka će pitati nju. Nađa je zapisala da razumevanje ne traži iste reči, nego dobru volju.\n\nPosle doručka sijalica u kuhinji je prestala da svetli. Baka je pozvala suseda Acu, jer on živi preko puta i uvek rado pomaže. Nađa ga je nazvala „sused“, a baka „komšija“. Obe reči znače isto, rekla je baka, samo što je komšija malo topliji. Aca je došao, promenio sijalicu i sedeo je za stolom, veselo pričajući. Baka mu je dala parče kolača sa makom.\n\n— Imaš li ti dece, Aco? — pitala je Nađa.\n\n— Imam sina, on radi u Beogradu — rekao je Aca. — A ti?\n\n— Ja imam starijeg brata Bojana. Kod nas u Vojvodini ga zovem bata.\n\nAca je bio veseo čovek i odmah je ponovio „bata“. Baka je rekla da u Nišu češće kažu brat ili brate, ali da ni bata nije tuđa reč. Nađa je napisala još jedan red: ono što je u Novom Sadu paradajz, ovde je domat. Baka je dodala da se domat kupuje na pijaci, a paradajz u radnji, ali da je ukus isti.\n\nDo podne su već pravile spisak reči koje se razlikuju od kuće do kuće. Svaki put kad bi neko izgovorio novu reč, svi bi se nasmejali, ali veselo, bez ikakve zle namere. Nađa je primetila da ljudi retko vole da im neko menja govor, ali rado objašnjavaju reči koje voli njihov kraj.\n\nUveče, dok su u dvorištu brale jasmin, baka je rekla da joj je to najlepši deo posete. Nađa se složila. Rekla je da je za jedan dan naučila više nego za pola semestra. Kad se vrati u Novi Sad, ispričaće drugarima da je razumevanje najlakše kad se uz kafu i kolač sa makom ispričaju i nove reči.\n\nPitanja:\nKod koga je Nađa u Nišu?\nNađa je kod bake Stane.\nŠta raste u bakinom dvorištu?\nRaste kupus, mak i beli jasmin.\nKo je promenio sijalicu u kuhinji?\nSused Aca je promenio sijalicu.\nKoju reč Nađa koristi za starijeg brata?\nZa starijeg brata kaže bata.\nŠta je Nađa zapisala?\nZapisala je da razumevanje ne traži iste reči, nego dobru volju."
+    },
+    {
+      "title": "Poslovice moje bake",
+      "summary": "A boy in Čačak has to explain three proverbs for homework and his grandmother helps him.",
+      "newWords": [
+        "mlatiti",
+        "žila",
+        "jarac",
+        "stidjeti",
+        "predvidjeti",
+        "pohvaliti",
+        "budalast",
+        "sažaljevati",
+        "pričuvati"
+      ],
+      "text": "Luka iz Čačka ima domaći zadatak iz srpskog jezika: treba da objasni 3 poslovice. Posle škole ide kod bake Radmile, jer ona zna više poslovica nego bilo koja knjiga. Baka ga čeka u kuhinji sa čajem i kolačima.\n\n— Hajde, čitaj prvu — kaže baka.\n\n— „Mlatiti praznu slamu“ — čita Luka. — Ne razumem. Zašto bi neko mlatio slamu?\n\n— Nekada su ljudi mlatili žito da bi izdvojili zrno — objašnjava baka. — Ako je klas prazan, zrna nema, pa je sav posao uzaludan. Zato se tako kaže za čoveka koji mnogo priča, a ništa ne kaže.\n\nLuka se smeje i zapisuje. Zatim kaže:\n\n— Stidim se, bako, što nisam znao. Mislio sam da je pitanje budalasto.\n\n— Nema budalastih pitanja — odgovara baka. — Budalasto je samo kad se čovek stidi da pita. Ti si baš pokazao da si pametan dečak.\n\nBaka ga je pohvalila i rekla da je dobro što pita. Luka se zacrvenio od zadovoljstva.\n\n— Druga je malo smešna — kaže Luka. — „Jarca postaviti za baštovana“.\n\n— To se kaže kad nekome daš da čuva ono što će on prvi da pojede — kaže baka. — Jarac voli baštu, ali ne i da je čuva. Ako mu daš ključ od bašte, ja već mogu da predvidim kako će proći: jarac će se najesti.\n\nLuka se glasno smeje.\n\n— Mogu i ja da predvidim — kaže on. — U kuhinji miriše na jabuke, pa će posle poslovica biti kolača.\n\n— Pametan si — priznaje baka. — A sada treća, lepa: „Pričuvaj za crni dan.“\n\n— Zašto crni? — pita Luka.\n\n— Zato što dani nisu uvek isti. Kad dođe teško vreme, lepo je imati nešto pričuvano. Zato sam i ja pričuvala 3 tegle džema, parče sira i malo para. Ali nemoj da sažaljevaš ljude koji nemaju. Bolje im pomozi.\n\nLuka se seća da njegovom drugu Mihailu nije lako, pa kaže da neće da ga sažaljeva, nego će mu doneti jabuke. Baka se smeši.\n\n— Znaš li šta je žila kucavica? — pita ona. — To je glavna žila u telu, ali tako kažemo i za reku ili ulicu bez koje grad ne bi živeo. Zapadna Morava je žila kucavica našeg grada.\n\nLuka zatvara knjigu. Sve 3 poslovice zapisao je lepo, a baka mu je dodala i četvrtu, za kraj: „Bolje vrabac u ruci nego golub na grani.“\n\n— To znači da je bolje imati malo sigurno nego mnogo možda — kaže baka. — Idi sada, uradi domaći, a ja ću da ti spremim još kolača.\n\nPitanja:\nŠta treba da uradi Luka za domaći zadatak?\nTreba da objasni 3 poslovice.\nŠta znači „mlatiti praznu slamu“?\nZnači mnogo pričati, a ništa ne reći.\nZašto je baka pohvalila Luku?\nZato što se nije stideo da pita.\nKome ne treba dati da čuva baštu?\nJarcu, jer će on prvi da je pojede.\nŠta Luka namerava da donese drugu Mihailu?\nNamerava da mu donese jabuke."
+    },
+    {
+      "title": "Reči sa stola",
+      "summary": "A girl in Subotica cooks for her great-uncle and he tells her where the words of the meal come from.",
+      "newWords": [
+        "šnicl",
+        "šlag",
+        "rerna",
+        "roza",
+        "poslastica",
+        "aligator",
+        "bizon",
+        "kreirati",
+        "londonski",
+        "fokus"
+      ],
+      "text": "Mina iz Subotice želi da za rođendan svog čika Ervina kreira poseban ručak. Ervin voli stare recepte, pa Mina odlučuje da spremi šnicl, a za kraj poslasticu sa šlagom. Dok ona seče meso, Ervin sedi pored nje u kuhinji i gleda je. Mina kaže da joj je ovo prvi put da samostalno kreira ceo ručak.\n\n— Znaš li, Mina, da je svaka od tih reči stigla iz drugog jezika? — pita on.\n\n— Šnicl i šlag nisu naše reči, to znam — odgovara Mina. — Ali odakle su stigle?\n\n— Iz nemačkog — kaže Ervin. — Šnicl je tanko meso, a šlag je slatka krema od mleka. A tvoja rerna je takođe tuđa reč: nemačka reč za cev postala je kod nas rerna, jer je stara peć izgledala kao cev.\n\nMina se iznenadi. Stavlja šnicle u vruću rernu i uzima šlag iz frižidera. Prema receptu, šlag treba da bude lak i gust, pa ga Mina dugo meša.\n\n— A kakav će ti biti ukras? — pita Ervin.\n\n— Roza voće — kaže Mina. — Kupila sam jagode i malo ih obojila sokom od višnje. Cela poslastica biće roza.\n\n— I roza je tuđa reč — smeje se Ervin. — Stigla je iz latinskog preko nemačkog. Naš jezik je kao pijaca: svako donese nešto i sve se na kraju pomeša.\n\nDok se šnicl peče, Ervin pokazuje Mini listu reči koje je skupio. Prva je aligator, reč koja dolazi iz španskog izraza „el lagarto“, što znači „gušter“. Zatim bizon, reč latinskog porekla, iako bizoni ne žive u našim krajevima, nego u Americi. Ervin kaže da su ljudi te životinje upoznali tek preko slika i knjiga, pa su i reči došle zajedno sa slikama.\n\n— A londonski? — pita Mina. — To je od imena grada.\n\n— Da — kaže Ervin. — Reči putuju kao ljudi. Prvo dođe grad, onda njegovo ime, pa londonski autobus i londonska kiša. A fokus nam je stigao iz latinskog. Kod Rimljana je to bila vatra u kući, mesto oko kog se svi okupe. Danas kažemo da je nešto u fokusu kad svi gledaju u to.\n\nKad je ručak gotov, Mina ga iznosi na sto. Ervin hvali šnicl, a pogotovo poslasticu, roza i meku, sa šlagom. Mina se smeši. Zna da joj je ovaj ručak uspeo zato što je kuvala polako i pažljivo, a jezik, kaže Ervin, uči se na isti način.\n\nPitanja:\nŠta Mina sprema za Ervinov rođendan?\nSprema šnicl i poslasticu sa šlagom.\nOdakle dolaze reči šnicl, šlag i rerna?\nDolaze iz nemačkog.\nKakva je Minina poslastica?\nRoza je i meka, sa šlagom.\nOd koje španske reči dolazi aligator?\nDolazi od izraza „el lagarto“, što znači „gušter“.\nŠta je fokus bio kod Rimljana?\nBila je vatra u kući, mesto oko kog se svi okupe."
+    },
+    {
+      "title": "Urednica i pravopis",
+      "summary": "A proofreader in Kragujevac explains to a young author why the spelling dictionary exists.",
+      "newWords": [
+        "integritet",
+        "obračun",
+        "uvećati",
+        "revolucionaran",
+        "prisiljavati",
+        "kidati",
+        "neposredno",
+        "narediti"
+      ],
+      "text": "Vesna radi kao urednica u maloj kući koja izdaje knjige u Kragujevcu. Pored njenog računara uvek leži debeo pravopis, a pored pravopisa velika šolja čaja. Ona kaže da je njen posao da pazi da tekst bude jasan, ali ne i da ga menja do neprepoznatljivosti.\n\nNeposredno pre podne u kancelariju je ušao mladi pisac Dejan. Bio je nezadovoljan i kidao je papirnu maramicu na sitne komade.\n\n— Gospođo Vesna, imam predlog — rekao je. — Revolucionaran predlog. Hoću da u mojoj knjizi pišem sve onako kako izgovaram, bez velikih slova i bez tačaka.\n\nVesna je spustila olovku.\n\n— Dejane, pravopis nikoga ne prisiljava, on samo preporučuje. Ne može da naredi čitaocima kako da čitaju, a ni vi to ne možete narediti. Pravila zato postoje da bi svi razumeli isto.\n\n— A ako je moj tekst drugačiji? — pitao je Dejan. — Ako hoću da sačuvam svoj stil?\n\n— Stil nije u tačkama, nego u rečima — odgovorila je Vesna. — Pokazaću vam kako da sačuvate integritet teksta, a da ga svi ipak lako pročitaju. Ako se pravila sasvim ukinu, tekst gubi integritet, jer čitalac više ne zna gde jedna misao staje, a gde druga počinje.\n\nPrišla je ekranu i uvećala slova da Dejan bolje vidi. Pokazala mu je rečenicu bez ijedne tačke. Zatim je uvećala još jednu stranu, da bi se i sitni znaci videli.\n\n— Pročitajte ovo naglas — rekla je. — Gde ćete da udahnete?\n\nDejan je pročitao i stao na pogrešnom mestu. Vesna se nasmešila i dodala 2 tačke. Rečenica je odjednom dobila smisao.\n\n— Vidite? — rekla je. — Tačka je isto što i dah. Nisam je izmislila ja, nego jezik.\n\nDejan je prestao da kida maramicu. Sedeo je i pitao koliko košta ceo posao. Vesna je izvadila obračun i pokazala mu brojke: koliko stranica, koliko sati rada, koliko za ispravke. Dejan je klimnuo glavom. Obračun je bio pošten, a on je postao mirniji.\n\n— Ne želim da vas prisiljavam — rekla je Vesna na kraju. — Ali bih volela da pročitate pravopis i vidite da je to knjiga o navikama. Navike se menjaju. Nekada se pisalo drugačije nego danas. Neposredno posle ručka mogu da vam pokažem nekoliko starih strana, pa da vidite koliko se pisanje promenilo.\n\n— Dobro — rekao je Dejan. — Ostaviću tačke. Ali ću vam doneti još jedan predlog.\n\n— Samo neka ne bude revolucionaran — nasmejala se Vesna.\n\nDejan je izašao iz kancelarije mirniji nego što je ušao. Vesna je sačekala da se vrata zatvore, pa je uzela olovku i nastavila da čita, dok se čaj hladio.\n\nPitanja:\nŠta radi Vesna?\nRadi kao urednica u maloj kući koja izdaje knjige u Kragujevcu.\nŠta je Dejan hteo da uradi u svojoj knjizi?\nHteo je da piše bez velikih slova i bez tačaka.\nŠta je Vesna dodala u Dejanovu rečenicu?\nDodala je 2 tačke.\nŠta je Vesna rekla o tački?\nRekla je da je tačka isto što i dah.\nŠta je Vesna pokazala Dejanu na kraju?\nPokazala mu je obračun posla."
+    },
+    {
+      "title": "Prevodilac traži pravu reč",
+      "summary": "A translator in Beograd and her student search for the right words in a novel for young readers.",
+      "newWords": [
+        "demonski",
+        "svemoguć",
+        "grešnik",
+        "vanzemaljac",
+        "ropstvo",
+        "nadaren",
+        "osnivač",
+        "formacija"
+      ],
+      "text": "Jelena iz Beograda prevodi knjige sa engleskog već 20 godina. Kaže da prevodilac nije samo pisar, nego putnik koji nosi misli iz jedne zemlje u drugu i pazi da nijedna ne stigne polomljena. Ona je i osnivač male grupe prevodilaca koja se jednom mesečno okuplja u biblioteci u centru grada. Kao osnivač, najviše voli da svaki novi član dobije prvi zadatak koji može da reši.\n\nOvih dana radi na romanu za mlade. Glavna junakinja je devojčica koja upoznaje vanzemaljca, i Jeleni je potrebna svaka reč. Za pomoć je pozvala svog učenika Marka, nadarenog studenta koji tek počinje da prevodi.\n\n— Evo prve rečenice — kaže Jelena. — U originalu vanzemaljac ima „demonic laugh“. Kako bi ti to rekao?\n\n— Demonski smeh — odgovara Marko. — Reč po reč.\n\n— Dobro, ali razmisli. Kod nas „demonski“ zvuči jako, skoro strašno. U knjizi se, međutim, vanzemaljac smeje zato što mu je smešno. Možda bi trebalo reći „zvonak“ ili „čudan“?\n\nMarko nekoliko trenutaka ćuti. Zatim kaže da je Jelena u pravu: prevesti reč nije isto što i prevesti njen osećaj. Jelena klima glavom. Taj savet daje svakom učeniku.\n\nDalje u knjizi naišli su na kralja koji je svemoguć, ali ipak ne može da otvori jedna jedina vrata. Marko se smeje, jer mu je ta slika smešna: svemoguć čovek, a ne može da otvori vrata. Jelena kaže da prevodilac mora da se smeje onde gde se smeje i pisac.\n\n— A šta ćemo sa ovim? — pita Marko i pokazuje drugu stranu. — Ovde piše „sinner“. Hoćemo li reći grešnik?\n\n— Zavisi ko to kaže — odgovara Jelena. — Ako to kaže gusar u šali, grešnik zvuči pomalo staromodno, ali dobro pristaje. Ako to kaže učitelj detetu, onda je prejako. Reč uvek traži svoj glas.\n\nNa kraju romana narod jedne planete izlazi iz ropstva. Marko predlaže baš tu reč, ropstvo. Jelena kaže da je reč tačna, ali teška, i da se za čitaoce od 10 godina često traži jednostavnija rečenica: više nisu morali da rade za tuđu volju. Ne mora svaka misao da dođe u istom obliku, dodaje, važno je da stigne cela.\n\nPosle podne prevode opis neba. Piše da su ptice letele u formaciji. Marko hoće da napiše „formacija“, jer tako stoji u rečniku, ali Jelena predlaže da prevedu sliku: ptice su letele u obliku slova V. Marko to zapisuje i kaže da je tek sada shvatio zašto se prevođenje zove zanat.\n\nPre nego što su prestali da rade, Jelena je pogledala Marka i rekla da će ga predložiti za novog člana grupe. Marko se zahvalio i obećao da će sutra doneti listu reči koje ne zna da prevede. Jelena se nasmešila: takva lista je najbolji alat prevodioca.\n\nPitanja:\nŠta Jelena radi već 20 godina?\nPrevodi knjige sa engleskog.\nKo je Marko?\nMarko je nadaren student koji tek počinje da prevodi.\nZašto Jelena ne želi „demonski smeh“?\nZato što je to na srpskom previše strašno, a vanzemaljac se smeje jer mu je smešno.\nZašto je reč ropstvo teška za čitaoce od 10 godina?\nZato što je jaka reč, pa traži jednostavniju rečenicu.\nKako su preveli ptice u formaciji?\nNapisali su da su ptice letele u obliku slova V."
+    },
+    {
+      "title": "Subotnja škola u Štutgartu",
+      "summary": "A diary of a teacher at a Saturday Serbian school abroad preparing a play and a dance party.",
+      "newWords": [
+        "dežuran",
+        "igranka",
+        "plesač",
+        "ohrabriti",
+        "nezadovoljan",
+        "nemiran",
+        "izići",
+        "razveseliti",
+        "zaljubljivati",
+        "narudžba",
+        "akt",
+        "krstiti"
+      ],
+      "text": "Subota, 17. oktobra\n\nDanas je u našoj srpskoj školi u Štutgartu bilo 22 deteta, što je za jednu subotu pravi rekord. Škola radi samo vikendom, i svaki put mi je malo žao što su časovi tako kratki. Ipak, deca dolaze rado, a roditelji dovoze i ona koja ne znaju gotovo ni reč.\n\nOvog puta dežurni učenik bio je Filip. Dežurni otvara prozore, briše tablu i deli knjige, a kad završi, ponosno javi da je sve spremno. Pripremamo predstavu za dan škole, u kojoj se prvi akt događa u čarobnoj šumi, a drugi akt na selu kod bake. Posle predstave bi trebalo da bude igranka u školskoj sali: roditelji, nastavnici i deca igraju kolo.\n\nNajteže je sa Pavlom. Deca ga zovu Vetar; kažu da ga je tako krstila Sara, jer stalno trči. Deca vole da krste jedno drugo nadimcima, pa je i Mila nedavno krštena kao Pčelica. Pavle je nemiran i ne može da sedi duže od 5 minuta. Danas je trčao po sali, preskakao stolice i smejao se. Mala Mila je, naprotiv, vrlo stidljiva. Dobila je ulogu male čarobnice, ali kad god treba da izađe na scenu, zastane. Ohrabrila sam je rečima da je njen glas lep i da je niko neće žuriti. Na kraju se ohrabrila, izišla pred sve, rekla prvu rečenicu i pogledala me. Pokazala sam joj palac. Pavle je takođe hteo da iziđe, ali na pogrešnom mestu, pa smo se svi smejali.\n\nIma i dobrih vesti. Sara, koja je od početka najbolji plesač u grupi, naučila je novo kolo i pokazala ga ostalima. Svi su je pratili i smejali se. Taj prizor je razveselio čak i Pavla, koji je prestao da trči i rekao da će i on postati plesač. Nadam se da ćemo na igranci razveseliti i roditelje.\n\nJedan otac, gospodin Zoran, bio je nezadovoljan što njegov sin ima malo teksta. Objasnila sam mu da je uloga mala, ali da je dečak pažljiv i da sve zna napamet. Posle razgovora više nije bio nezadovoljan. Narudžba za kostime stigla je iz jedne prodavnice u Novom Sadu. Dok smo otvarali paket, videla sam da je narudžba bila tačna, osim jedne kape koja nedostaje. Napravićemo je sami.\n\nPosle podne nas dve sa Milom ostale smo u učionici da ponovimo ulogu. Mila je rekla da joj srpski nije bio zanimljiv dok nije počela da glumi. Sad joj se dopada kako reči zvuče kad ih izgovori na sceni. Ja sam se nasmešila i pomislila da se deca polako zaljubljuju u jezik, i to uglavnom kad to ne očekuju. Zaljubljuju se u reči koje su im prvo bile teške, a onda postale njihove.\n\nVečeras sam umorna, ali srećna. Sutra ću proveriti spisak za igranku i javiti Filipu da će opet biti dežuran.\n\nPitanja:\nGde radi škola i kada?\nRadi u Štutgartu, samo vikendom.\nŠta radi dežurni učenik?\nOtvara prozore, briše tablu i deli knjige.\nZašto je Pavle težak?\nZato što je nemiran i ne može dugo da sedi.\nKako je nastavnica ohrabrila Milu?\nRekla joj je da je glas lep i da je niko neće žuriti.\nŠta je Mila rekla o srpskom?\nRekla je da joj srpski nije bio zanimljiv dok nije počela da glumi."
+    },
+    {
+      "title": "Šetnja po Fruškoj gori",
+      "summary": "Two friends get lost on a hike and an old man teaches them the local names for what they see.",
+      "newWords": [
+        "pešačiti",
+        "zalutati",
+        "jarak",
+        "uspravan",
+        "gubica",
+        "krhak",
+        "neugodan",
+        "slupati"
+      ],
+      "text": "Prošlog vikenda sa drugaricom Sarom otišao sam na Frušku goru. Plan je bio jednostavan: da pešačimo od sela do sela, da usput zapisujemo imena stvari koje vidimo i da uveče pitamo mesne ljude kako ih oni zovu. Sara studira srpski, a ja volim da hodam, pa smo se dogovorili da svako radi ono što voli.\n\nUjutru je vreme bilo lepo. Staza je vodila kroz šumu, a pod nogama su pucale suve, krhke grančice. Sara je zastala i rekla da bi tu zvuk mogla da zapiše, kad bi znala kako. Ja sam rekao da je lakše zapisati reči nego šum, ali da pokušamo oboje.\n\nOko podne smo zalutali. Staza je odjednom skrenula udesno, a mi smo nastavili pravo. Ubrzo smo stigli do dubokog jarka pored puta. Sara je pitala kako se kaže ono što pravi voda kad se spusti niz brdo. Nisam znao. Stajali smo i gledali jarak, a iznad nas je nebo bilo sve tamnije. Osetio sam neugodan pritisak u stomaku: nismo imali dovoljno vode ni dovoljno vremena. Neugodan osećaj je bio sve jači.\n\nTada se pojavio pas. Imao je dugu, crnu gubicu i smešan pogled. Za njim je došao stariji čovek, uspravan kao drvo, sa štapom u ruci. Rekao je da se zove Mirko i da je sa salaša blizu. Pitao nas je gde idemo, a mi smo priznali da smo zalutali. Mirko se nasmejao i rekao da je to često. Dodao je da u Fruškoj gori pešače svi koji žele da dišu, ali da stazu uvek treba pratiti očima, a ne nogama.\n\nSara je odmah iskoristila priliku:\n\n— Mirko, kako vi zovete ovaj jarak?\n\n— Ovo je jaruga — odgovorio je. — Kad je velika kiša, u njoj teče potok. A tamo, gde je šuma ređa, to je proplanak.\n\nSara je sve zapisala. Mirko je dodao da stariji ljudi u selu kažu i salaš, i da to nije samo kuća nego ceo mali svet: štala, dvorište, vrt, pas. Prišli smo salašu, gde nas je Mirkova žena ponudila vodom i hlebom. Mirko nam je ponosno pokazao klupu ispred kuće. „Ovo sam slupao od starih dasaka“, rekao je, „a slupao sam i onu šupu iza kuće.“ Sara je zapisala da je slupati razgovorna reč, koja znači napraviti nešto brzo i bez mnogo pažnje. Pas je legao pod sto i spustio gubicu na šape.\n\nKasno popodne Mirko nas je odveo do prave staze. Rastali smo se kao stari prijatelji. Do sela smo stigli pred mrak, umorni, ali veseli. Sara je rekla da je tog dana naučila 3 nove reči, a da je neugodan osećaj koji sam imao kod jarka bio najkorisniji: bez njega ne bismo pitali.\n\nPitanja:\nGde su Ilija i Sara pešačili?\nPešačili su po Fruškoj gori.\nŠta se čulo pod njihovim nogama?\nČuo se zvuk suvih, krhkih grančica.\nŠta su videli kad su zalutali?\nVideli su dubok jarak pored puta.\nKako je izgledao Mirko?\nBio je star, uspravan čovek sa štapom.\nKako se zove ono što pravi voda kad se spusti niz brdo?\nZove se jaruga."
+    },
+    {
+      "title": "Tumač kod doktora",
+      "summary": "A seventeen-year-old in Vienna interprets for her grandfather at a clinic and talks about a word that has changed.",
+      "newWords": [
+        "ošišati",
+        "odrezati",
+        "proteza",
+        "posekotina",
+        "serum",
+        "grip",
+        "invalid"
+      ],
+      "text": "Prošle zime sam sa dedom Nikolom otišla u Beč, kod strica koji tamo živi. Imam 17 godina i govorim i nemački i srpski, pa nisam znala da ću već prvog dana morati da budem tumač. Deda je dobio grip, i morali smo kod doktora.\n\nU hodniku bolnice deda me je stegao za ruku:\n\n— Sanja, ja ništa ne razumem. Ti ćeš da pričaš.\n\nDoktor je bio prijatan čovek. Pitao je šta boli, a ja sam prevodila. Deda je rekao da ga boli grlo, da kašlje i da ima temperaturu. Polako sam sve objasnila doktoru, a on je zapisivao. Zatim je primetio nešto na dedinoj ruci.\n\n— Šta je to? — pitao je.\n\nDeda je pokazao prst. Dan ranije hteo je da odreže parče hleba, ali mu je nož prešao preko prsta. Posekotina je bila mala i plitka. Sestra je očistila posekotinu i stavila flaster, a deda je rekao da su ga hleb i nož ove godine mnogo namučili. Smejala sam se dok sam prevodila, pa je i doktor počeo da se smeje. Lepše bi bilo da je samo odrezao hleb.\n\n— Pošto ima grip, dobiće i malo seruma — rekao je doktor. — Treba mu više tečnosti.\n\nReč serum mi je bila poznata iz srpskog: kod nas tako kažu za infuziju. Deda je, međutim, mislio da je to nešto strašno, pa sam morala duže da objašnjavam da je serum samo voda sa solima koja će mu pomoći. Kad je razumeo, odmah se opustio.\n\nDok je ležao, pričao mi je o svojoj protezi. Dobio ju je pre 2 godine i još se navikava na nju. Rekla sam doktoru da bi deda voleo da mu neko pogleda protezu, a doktor je rekao da će ga uputiti zubaru u istoj zgradi. Deda je dodao da mu je proteza najbolji prijatelj, jer mu nikad ne odgovara.\n\n— Znaš, Sanja — rekao je u hodniku — u obrascu su me pitali da li sam invalid. Rekao sam im da jesam, zbog kolena, ali mi se ta reč ne sviđa.\n\nObjasnila sam mu da se danas kaže „osoba sa invaliditetom“. Reč invalid nije pogrešna, ali zvuči kao da je čovek samo svoja povreda. Deda je ćutao, a onda rekao da je novi izraz lep, ali dugačak, pa će ostati kod stare navike. Dodao je da nije invalid, nego samo čovek sa jednim lošim kolenom.\n\nDva dana kasnije deda je bio zdrav. Da to proslavimo, odveli smo ga kod frizera da ga ošišaju. Frizer je pitao koliko da odreže, a ja sam prevela: malo. Kad su ga ošišali, deda se pogledao u ogledalu i rekao da izgleda kao mlad čovek. Frizer je razumeo i bez prevoda.\n\nPitanja:\nZašto su Sanja i deda otišli kod doktora?\nDeda je dobio grip.\nŠta se desilo dedinom prstu?\nPosekao se nožem kad je hteo da odreže hleb.\nŠta je serum?\nSerum je voda sa solima koja daje telu više tečnosti.\nŠta Sanja misli o reči invalid?\nMisli da nije pogrešna, ali da zvuči kao da je čovek samo svoja povreda.\nŠta je deda uradio posle bolesti?\nOtišao je kod frizera da ga ošišaju."
+    },
+    {
+      "title": "Pismo iz Toronta",
+      "summary": "A father in Toronto writes to his old teacher about keeping Serbian alive for his daughter.",
+      "newWords": [
+        "istopiti",
+        "skulptura",
+        "region",
+        "dopreti"
+      ],
+      "text": "Toronto, 3. februara\n\nPoštovana gospođo Mileno,\n\npišem Vam iz Toronta, gde je danas napolju minus 15, a ja sedim u kuhinji i razmišljam o Vašim časovima srpskog u zaječarskoj školi. Prošlo je 15 godina otkako sam otišao iz Zaječara, a ja i dalje čujem Vaš glas kad zapišem neku reč.\n\nMoja ćerka Ana ima 9 godina i engleski govori bolje nego ja. Srpski joj nije lak, ali pokušavamo. Subotom ide u malu srpsku školu pri jednoj biblioteci, a kod kuće imamo pravilo: za doručkom pričamo samo srpski. Tačno je da je Ana ponekad nezadovoljna, ali kad joj kažem da je to njen mali zadatak, odmah se ohrabri.\n\nProšle nedelje napadalo je mnogo snega i Ana je htela da napravimo snežnog čoveka. Napravili smo ga, ali kad sam ga bolje pogledao, shvatio sam da je to prava skulptura: veliki beli čovek sa šeširom i šargarepom umesto nosa. Ana mu je dala ime „deda Mile“, po svom pradedi. Sutradan je izašlo sunce i skulptura se polako istopila, a Ana je pitala zašto sneg ne ostaje večno. Rekao sam joj da je isto i sa rečima: ako ih ne održavamo, istope se kao snežna skulptura. Zato svaki dan pričamo, čitamo i pišemo.\n\nNajviše mi pomaže baka. Svake nedelje je zovemo preko ekrana, i do nas iz Zaječara dopre njen glas, onakav kakav pamtim iz detinjstva. Ponekad mi se čini da taj glas dopre do mene i kroz sva ta mora i planine. Ona kaže „kvo“ i „bre“, a Ana se smeje i ponavlja. Tako je naučila da se u našem regionu govori drugačije nego u Novom Sadu ili Beogradu, i da to nije mana, nego bogatstvo. Moji su iz istočnog regiona, gde se reči čuvaju kao porodično blago. Zapisali smo 15 takvih reči, jednu pored druge, na jednom velikom listu.\n\nPitate me, verujem, zašto toliko brinem da dete ne zaboravi. Odgovor je jednostavan: jezik je kuća u koju se uvek možemo vratiti. Ana još ne zna koliko će joj biti vredna kad poraste, a ja se trudim da se ta kuća nikad ne istopi.\n\nSa velikim poštovanjem i zahvalnošću,\nRade\n\nPitanja:\nOdakle Rade piše pismo?\nPiše iz Toronta.\nKakvo pravilo imaju kod kuće?\nZa doručkom pričaju samo srpski.\nŠta su Rade i Ana napravili od snega?\nNapravili su veliku skulpturu, snešku sa šeširom.\nŠta se desilo sa skulpturom kad je izašlo sunce?\nPolako se istopila.\nKako Ana uči reči sa bakom?\nZovu je preko ekrana, a Ana ponavlja njene reči."
+    }
+  ]
+}
