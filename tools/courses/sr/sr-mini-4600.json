@@ -1,0 +1,222 @@
+{
+  "id": "sr-mini-4600",
+  "rankUpTo": 4600,
+  "level": "C1",
+  "title": "Istraživanja i otkrića",
+  "description": "Ten calm texts on research and discovery: a snow station, a canyon expedition, an inventor's interview, kitchen experiments, a dig, a film review, sports science, a night in the forest, a letter from Tokyo and a hospital laboratory.",
+  "topic": "Research and discovery",
+  "names": [
+    "Kopaonik",
+    "Jelena",
+    "Dragan",
+    "Uvac",
+    "Milan",
+    "Goran",
+    "Sjenica",
+    "Čačak",
+    "Radovan",
+    "Srbija",
+    "Mira",
+    "Subotica",
+    "Dunav",
+    "Viminacijum",
+    "Kostolac",
+    "Nikola",
+    "Mette",
+    "Kopenhagen",
+    "Danska",
+    "Rim",
+    "Dragoslav",
+    "Svalbard",
+    "Beograd",
+    "Ivan",
+    "Mina",
+    "Novi Sad",
+    "Nenad",
+    "Saša",
+    "Petrović",
+    "Tara",
+    "Ana",
+    "Mirko",
+    "Vesna",
+    "Branka",
+    "Čikago",
+    "Tokio",
+    "Japan",
+    "Kenji",
+    "Tokiju",
+    "Tokija",
+    "Kenjija",
+    "Kenjijem",
+    "Dragana",
+    "Luka",
+    "Niš",
+    "Jovan",
+    "Milica",
+    "Mile",
+    "Ilić"
+  ],
+  "lessons": [
+    {
+      "title": "Dnevnik sa Kopaonika",
+      "summary": "A meteorologist's diary entry about a new camera that photographs snowflakes and what the team notices in the pictures.",
+      "newWords": [
+        "pahuljica",
+        "minus",
+        "uočiti",
+        "proučiti",
+        "redovno",
+        "rutina",
+        "kabel",
+        "ugraditi",
+        "memorija",
+        "tehničar"
+      ],
+      "text": "Kopaonik, 12. januara\n\nVeć treću zimu radim na meteorološkoj stanici ispod vrha Kopaonika i svaki dan počinje isto. U šest sati obučem tešku jaknu, uzmem termometar i izađem napolje. Jutros je bilo minus petnaest, a vetar je duvao tako jako da sam jedva otvorio vrata. Ta jutarnja rutina je dosadna samo onome ko je ne voli. Ja volim svoju rutinu, jer se u njoj ništa ne dešava slučajno: redovno merenje je jedini način da se nešto zaista sazna.\n\nOve zime želimo da proučimo pahuljice, a da bismo ih dobro proučili, moramo da ih gledamo redovno, svakog dana i u svako doba. Doktorka Jelena, koja vodi projekat, kaže da sneg izgleda isto samo onome ko ga ne gleda dovoljno dugo. Svaka pahuljica ima šest krakova, ali nijedna nije potpuno ista kao druga. Jelena hoće da vidi kako temperatura i vlažnost vazduha menjaju njihov oblik. Zato nam je potrebna kamera koja će pahuljice slikati na crnoj podlozi, pre nego što se otope.\n\nProšle nedelje smo kameru ugradili na krov stanice. Tehničar Dragan je dva dana vukao dugačak kabel kroz sneg i govorio da je to najveća glupost koju je ikada radio. Rukavice su mu se smrzle, a kabel je bio tvrd kao štap. Ipak, kad je sve bilo gotovo, prvi je seo ispred ekrana. Naš računar ima veliku memoriju, pa može da sačuva nekoliko hiljada slika, a to je baš ono što nam je trebalo. Bez te memorije kamera bi bila samo skupa igračka.\n\nJutros je kamera snimila oko dvesta pahuljica. Jelena je sela pored Dragana i gledala slike do podne. U jednom trenutku je uočila nešto neobično: pahuljice koje su padale u osam sati bile su drugačije od onih u deset, iako je temperatura bila skoro ista. Dragan je rekao da je to greška kamere. Jelena je odgovorila da kamera ne greši, nego samo pokazuje ono što mi nismo umeli da vidimo. Posle ručka smo uporedili podatke o vetru i uočili da je u osam sati vetar dolazio sa jugozapada, iz toplijih krajeva, i doneo vlažniji vazduh.\n\nZapisaću ovde ono što mislim, iako možda zvuči naivno. Najveće otkriće nije pahuljica, nego strpljenje. Kamera radi posao koji bi ljudsko oko radilo mesecima, ali bez Jelene niko ne bi znao šta da traži. A bez Dragana, koji je na kraju priznao da je kabel bila dobra ideja, ne bi bilo ni slika. Sutra opet u šest izlazim napolje. Prognoza kaže minus dvadeset i, za promenu, verujem joj.\n\nPitanja:\nŠta želi da proučava doktorka Jelena?\nŽeli da proučava kako temperatura i vlažnost vazduha menjaju oblik pahuljica.\nŠta je tehničar Dragan ugradio i zašto je bio nezadovoljan?\nUgradio je kameru i dugačak kabel, ali je dva dana vukao kabel kroz sneg i smatrao to glupošću.\nŠta je Jelena uočila na slikama?\nUočila je da su pahuljice u osam sati drugačije od onih u deset.\nZašto su se pahuljice razlikovale?\nU osam sati vetar je dolazio sa jugozapada i doneo je vlažniji vazduh.\nŠta pisac dnevnika smatra najvećim otkrićem?\nSmatra da je najveće otkriće strpljenje, a ne pahuljica."
+    },
+    {
+      "title": "Zapis iz kanjona",
+      "summary": "A geography student joins a small expedition to map the Uvac canyon and learns what experience and patience mean when a storm arrives.",
+      "newWords": [
+        "kanjon",
+        "vidik",
+        "spasilac",
+        "čopor",
+        "krdo",
+        "skrovište",
+        "pust",
+        "ekstreman",
+        "iskusan",
+        "drhtati"
+      ],
+      "text": "Kad su mi na fakultetu rekli da ću leto provesti u kanjonu reke Uvac, zamišljala sam ekstremnu avanturu: užad, strme litice i fotografije za društvene mreže. Stvarnost je bila mirnija i mnogo korisnija. Naš zadatak bio je da nacrtamo novu kartu krivina, onih velikih zavoja u kojima reka kao da se vraća sama sebi. Takvi uslovi nisu ekstremni, ali traže pažnju, jer u kanjonu greška ne košta ništa samo dok je vreme lepo.\n\nGrupa je bila mala. Vodio nas je Milan, iskusan profesor koji je kanjon obilazio više od dvadeset godina. Sa nama je išao i Goran, spasilac iz Sjenice. Njegov posao je da ostane pored nas, da sluša vreme i da kaže „stop“ kad mu se nešto ne dopadne. Ja sam bila najmlađa i najmanje sam znala, pa sam uglavnom nosila opremu i postavljala pitanja.\n\nPrvog dana smo se popeli na jedan vidik, iznad zavoja koji liči na veliko slovo S. Odozgo je reka izgledala kao zelena traka, a kanjon kao stara knjiga koju niko ne žuri da zatvori. Milan je rekao da se kartom ne meri samo prostor, nego i strpljenje. Dok smo crtali, ispod nas je prošlo krdo ovaca, a za njim čovek sa štapom, koji nas je pozdravio kao da smo komšije. Krdo se kretalo polako i nijedna ovca nije podigla glavu. Obala je bila pusta, bez kuća i puteva, i tek tada sam shvatila koliko je kanjon tih.\n\nDrugog dana nam se vreme promenilo. Goran je pogledao nebo i rekao da bi trebalo da pođemo nazad. Milan se složio, iako nam je do kraja posla falilo još dva sata. Spustili smo se pored reke, ali su prve kapi pale pre nego što smo stigli do čamca. Zatim je počelo pravo nevreme. Kiša nas je šibala sa svih strana, stene su postale klizave, a ja sam drhtala, više od hladnoće nego od straha, iako ne bih rekla da sam bila potpuno mirna.\n\nGoran nas je odveo do skrovišta ispod velike stene, gde su ovčari verovatno decenijama čekali kišu. Seli smo jedno pored drugog. Milan je izvadio čaj iz termosa i podelio ga u tri šolje. Negde u daljini, među liticama, oglasio se čopor, pasa ili možda vukova, to nismo mogli da razlikujemo. Čopor je zavijao kratko, pa je opet bilo tiho. Ja sam drhtala sve manje, a Goran je mirno rekao da životinje u nevremenu uvek ćute, osim onih koje se same plaše.\n\nKad se kiša smirila, nastavili smo do čamca. Te večeri, dok smo sušili odeću, Milan mi je rekao nešto što pamtim: iskusan čovek nije onaj koji se ne boji, nego onaj koji zna kada treba stati. Kartu smo završili sledećeg dana, a najviše me raduje što smo je završili svi zajedno. Kad danas pogledam tu mapu, vidim iza svake linije i onu mokru stenu, i čaj, i tihi pusti kanjon, koji više nije bio ekstreman nego samo veliki.\n\nPitanja:\nŠta je bio zadatak ekspedicije?\nZadatak je bio da se nacrta nova karta krivina reke Uvac.\nKo je bio u grupi?\nU grupi su bili profesor Milan, spasilac Goran i studentkinja koja priča priču.\nŠta je autorka videla sa vidika?\nVidela je reku kao zelenu traku, a kanjon kao staru knjigu.\nZašto su morali da potraže skrovište?\nPočelo je nevreme, a stene su postale klizave.\nŠta je Milan rekao o iskusnom čoveku?\nRekao je da je iskusan čovek onaj koji zna kada treba stati."
+    },
+    {
+      "title": "Razgovor sa pronalazačem",
+      "summary": "A journalist visits a retired mechanic in Čačak who invents a simple fruit dryer, and he explains why he is an amateur and still proud of it.",
+      "newWords": [
+        "izum",
+        "talent",
+        "amater",
+        "izdržavati",
+        "hipoteka",
+        "veteran",
+        "prvak",
+        "poštovan",
+        "nastojati",
+        "idealan"
+      ],
+      "text": "Radovan Ilić iz Čačka ima šezdeset osam godina i tri zanimanja. Bio je mehaničar, u mladosti prvak Srbije u šahu, a danas je pronalazač. Njegov poslednji izum je mala naprava za sušenje voća koja radi na sunce i staje na terasu. U dvorištu iza kuće je radionica, i tamo me je dočekao, uz kafu i miris drveta.\n\n— Poštovani gospodine Iliću, koliko dugo ste pravili tu napravu? — pitala sam.\n\n— Pet godina, ako brojite sve verzije — rekao je. — Prva je bila ružna, druga skupa, a treća je radila samo kad nije bilo oblaka. Veteran sam u pogrešnim pokušajima, a među veteranima te vrste to je prava titula.\n\nU komšiluku je poštovan kao čovek koji sve popravi, pa sam ga pitala da li sebe smatra naučnikom. Nasmejao se i rekao da je amater, i to ponosan. Reč „amater“ po njemu dolazi od ljubavi, a ne od neznanja. Nauku, kaže, ne treba ostaviti samo onima koji su za nju plaćeni, jer se mnoge dobre ideje rode u garaži, a ne u laboratoriji. Dodao je da je kao prvak naučio da gubi, ali da mu medalje ne pomažu kad treba izmisliti nešto novo.\n\n— Jeste li imali podršku? — pitala sam.\n\n— Komšija Mile mi je dao savete i alat — rekao je. — Žena me je trpela. A za radionicu sam morao da uzmem hipoteku na kuću. Ne preporučujem to nikome, ali nisam imao drugi izlaz.\n\nKasnije mi je objasnio da to nije bila laka odluka. Kuća je bila jedino što je imao, a penzija je mala, pa je trebalo izdržavati i sebe i suprugu. Ipak je verovao u svoju ideju. Voća u okolini Čačka ima mnogo, ali veliki deo ga propadne. Rekao je da bi voleo da ga izum izdržava u starosti, a ne da on izdržava izum.\n\n— Šta je talent za izume? — pitala sam.\n\n— Talent je zaista samo upornost — rekao je. — Ja nastojim da svako jutro uradim jednu malu stvar. Sutra će to možda biti samo jedna mala pločica, ali za mesec dana to je cela mašina. Ljudi misle da talent pada s neba, a on se, u stvari, skuplja kao prašina.\n\nPokazao mi je napravu. Nije bila velika: drvena kutija sa providnim poklopcem i tri police. Radovan je stavio na police jabuke i objasnio da je idealno vreme za sušenje jedan sunčan dan sa blagim vetrom. Rekao je da će ove jeseni prodati prvih deset komada, a ako sve bude dobro, napraviće ih i više.\n\nPri odlasku sam ga pitala šta bi poručio mladima koji žele da izmisle nešto svoje.\n\n— Neka ne čekaju idealan trenutak — odgovorio je. — Takav ne postoji. Neka počnu sa onim što imaju i neka nastoje da ne odustanu.\n\nNa putu kući pomislila sam da je njegov izum manje važan od načina na koji o njemu govori. Za Radovana izum nije cilj, nego razlog da svakog jutra ima šta da radi.\n\nPitanja:\nŠta je Radovan Ilić izumeo?\nIzumeo je napravu za sušenje voća koja radi na sunce.\nZašto sebe zove amaterom?\nSmatra da reč „amater“ dolazi od ljubavi, a ne od neznanja.\nZašto je uzeo hipoteku?\nTrebao mu je novac za radionicu, a nije imao drugi izlaz.\nŠta je za Radovana talent?\nZa njega je talent upornost, mala stvar urađena svakog jutra.\nŠta savetuje mladima?\nSavetuje im da ne čekaju idealan trenutak, nego da počnu sa onim što imaju."
+    },
+    {
+      "title": "Kuhinja je laboratorija",
+      "summary": "A columnist argues that every kitchen is a small laboratory, describing her grandmother's careful experiments with jam, cakes and a burnt cake.",
+      "newWords": [
+        "pržiti",
+        "ispeći",
+        "džem",
+        "goreti",
+        "razmaziti",
+        "ljutnja",
+        "srž",
+        "prikladno",
+        "generalan",
+        "itekako",
+        "ishod"
+      ],
+      "text": "Mislim da je svaka kuhinja laboratorija, samo bez belog mantila i bez tabela. Imamo sve što istraživač traži: merenje, temperaturu, vreme, hemiju i, ako nismo pažljivi, ponekad i malu eksploziju. Jedina razlika je u tome što se ishod našeg pokušaja jede, pa nas niko ne pita za metodu.\n\nMoja baka Mira iz Subotice nikada nije pročitala nijedan naučni članak, a sve što je radila bilo je nauka. Zimi je kuvala džem od šljiva i uvek je isto objašnjavala: kad voće mirno ključa, ne treba ga dirati, jer će izgubiti ukus. Kad džem počne da se lepi za kašiku, znači da je gotov. Danas bismo to nazvali kontrolom procesa. Ona je to zvala „oko i nos“.\n\nNajviše sam učila od nje kad nešto nije uspelo. Jednom sam, kao devojčica, htela da ispečem kolač bez recepta. Stavila sam u rernu sve što mi je došlo pod ruku i čekala da se desi čudo. Umesto čuda, kolač je počeo da gori. Dok je kolač goreo, baka je prišla, pogledala me i, umesto ljutnje, mirno upitala:\n\n— Šta misliš, šta se desilo?\n\nNisam znala da odgovorim.\n\n— Vatra je bila previše jaka, a ti si bila previše brza — rekla je. — To nije kraj sveta. Sledeći put ćeš ispeći bolji.\n\nBila je to prava lekcija o greškama, bez kazne i bez ljutnje, iako je pola kuhinje bilo u dimu, a ja sam plakala. Ishod tog dana nije bio kolač, nego rečenica koju pamtim: greška je samo odgovor na pitanje koje nismo postavili.\n\nDanas znam da je srž pečenja strpljenje. Hleb treba da se diže, a rerna da se zagreje. Generalno, ništa dobro se ne dobija u žurbi. Baka je tvrdila da su razmaženi oni ljudi koji očekuju da sve bude gotovo čim pomisle na to. Verovatno je bila u pravu, jer sam ja tada bila baš takvo razmaženo dete. Ali bila je dovoljno pametna da me ne grdi, nego da me uključi u posao. Njena generalna ocena svake kuhinjske nesreće bila je ista: nije strašno, samo pokušaj ponovo.\n\nZato i dan-danas, kad na ulju pržim krompir, osećam da radim eksperiment. Slušam kako ulje peva, gledam boju i znam da moram brzo da odgovorim pre nego što počne da se dimi. Kad pržimo, hemija se vidi golim okom. Zato, prikladno obučena i sa dugom kašikom u ruci, stojim pored rerne kao pravi hemičar. Možda izgleda smešno, ali mi pomaže: ako je kuvanje nauka, onda greške nisu greške, nego podaci.\n\nZbog toga bih svakom mladom čoveku poželela da jednom godišnje skuva džem, ispeče hleb i pusti da mu nešto izgori. Ne da bi postao dobar kuvar, nego da bi razumeo da otkrića počinju tamo gde stvari ne ispadnu onako kako smo mislili. Moja baka je to itekako znala. Kad bi je neko pitao zašto je njena torta ponekad crna sa strane, odgovarala bi da je prikladno ime za takvu tortu „probala sam nešto novo“. Tu istinu sam i sama itekako osetila.\n\nPitanja:\nZašto pisac kolumne kaže da je kuhinja laboratorija?\nZato što u njoj postoje merenje, temperatura, vreme i hemija.\nŠta je baka Mira kuvala zimi?\nZimi je kuvala džem od šljiva.\nŠta se desilo sa kolačem koji je pisac kolumne ispekla kao devojčica?\nKolač je goreo, jer je vatra bila previše jaka.\nKako je baka reagovala na grešku?\nNije se ljutila, nego je pitala unuku šta se desilo.\nŠta je srž pečenja?\nSrž pečenja je strpljenje."
+    },
+    {
+      "title": "Dnevnik sa iskopavanja",
+      "summary": "A student's diary from a Roman site near Kostolac, where a Danish friend and the narrator uncover a small altar, an old sandal and pieces of a vase.",
+      "newWords": [
+        "imperija",
+        "danski",
+        "kraljev",
+        "kožni",
+        "vaza",
+        "oltar",
+        "dočepati",
+        "oživeti",
+        "videlo",
+        "taknuti"
+      ],
+      "text": "Viminacijum, 3. jula\n\nVeć treću nedelju kopamo na mestu gde je pre skoro dve hiljade godina stajao rimski grad. Viminacijum je bio velik grad na Dunavu, a Rimska imperija je ovde imala važnu tačku svoje granice. Ko je živeo na rubu imperije, bio je daleko od Rima, ali je u svojoj kući imao sve što i ljudi u prestonici. Danas je tu samo polje kod Kostolca, ali kad zatvorim oči, čujem točkove kola i glasove ljudi na ulici.\n\nOve godine imamo i prijateljicu iz inostranstva. Mette je došla iz Kopenhagena na mesec dana, kao deo razmene studenata. Prvog jutra mi je rekla da je u Srbiji sve vruće i prašnjavo, a u njenoj zemlji kiša pada skoro svaki dan. Pričala je i da radi u danskom muzeju, gde se čuva kraljev novac iz starih vekova, a kraljev lik na jednom novčiću ju je privukao istoriji. Naučila me je i prvu dansku reč, „tak“, što znači hvala. Mislim da joj je ovde lepo, iako se žali na sunce i muve.\n\nDanas smo radili u jednoj maloj rimskoj kući. Profesor Dragoslav nam je rekao da nikome neće dati lopaticu dok ne pokaže da zna da radi alatom za sitne stvari. Mette se prva dočepala alata, jer je najbrža, a ja sam se dočepala samo kante sa vodom. Polako je čistila zemlju i odjednom viknula. Pod slojem prašine pojavio se mali kameni oltar sa natpisom, prvi koji smo našli ovog leta. Slova su bila plitka, ali jasna, a profesor je rekao da je oltar stajao u kući, verovatno pored vatre.\n\n— Ne diraj ga rukama — rekao je. — Ne takni ništa dok ga ne slikamo. Ni ja ga neću taknuti.\n\nPosle toga smo svi stajali oko iskopa. Nikada ranije nisam videla kako se jedna stvar iznosi na videlo posle toliko vekova. Prvo je izgledala sasvim obično, sivo i teško. Mette je ćutala, jer reči nisu bile potrebne: kad nešto tako staro izađe na videlo, nijedan jezik nije potreban. Zatim je Dragoslav prešao prstom preko slova, i nešto se promenilo: kamen kao da je ponovo disao.\n\nPosle ručka smo nastavili u istom prostoru. Nikola, koji radi pored nas već dve godine, našao je ostatak jedne sandale. Koža se odlično očuvala u vlažnoj zemlji. Bio je to kožni đon, još uvek u obliku stopala, kao da ga je neko maločas izuo. Pored njega ležali su komadi vaze, crvene i tanke. Mette je pokušala da ih sastavi na stolu, a mi smo gledali i držali palčeve. Dugo je ostalo nejasno gde ide poslednji komad, pa je Nikola rekao da je vaza verovatno bila lepa i kad je pukla.\n\nZapisujem ove stvari jer mislim da sam danas shvatila šta je arheologija. Nije to sakupljanje starih predmeta, nego posao u kojem prošlost oživi kad neko dovoljno strpljivo pogleda. Kuća, koja je nekada bila prazna, odjednom ima vatru, sandale i ljude. Uveče, kad su svi otišli, ostala sam još malo pored iskopa i slušala polje. Sutra ću opet uzeti alat, a Mette će me, kao i uvek, preduhitriti.\n\nPitanja:\nGde kopaju studenti?\nKopaju na mestu rimskog grada Viminacijuma, kod Kostolca.\nKo je Mette?\nMette je devojka iz Danske koja je došla iz Kopenhagena na mesec dana.\nŠta je Mette pronašla pod slojem prašine?\nPronašla je mali kameni oltar sa natpisom.\nŠta je Nikola našao?\nNašao je ostatak kožne sandale.\nŠta je arheologija po mišljenju pisca dnevnika?\nTo je posao u kojem prošlost oživi kad je neko strpljivo pogleda."
+    },
+    {
+      "title": "Jedanaest ljudi na ledu",
+      "summary": "A film review of a quiet documentary about a crew of researchers on a sailing yacht near Svalbard, and what the reviewer learns from its patient style.",
+      "newWords": [
+        "jahta",
+        "masovan",
+        "kritičan",
+        "fraza",
+        "akcent",
+        "kompleks",
+        "hajati",
+        "jedanaest",
+        "sadašnji",
+        "uzvraćati"
+      ],
+      "text": "Film „Beli prostor“, prikazan prošle nedelje na festivalu u Beogradu, traje devedeset minuta i u njemu se gotovo ništa ne dešava. Upravo zato ga toplo preporučujem.\n\nJedanaest istraživača plovi malom jahtom oko Svalbarda i meri struje, led i temperaturu mora. Nema sukoba, nema loših i dobrih, nema muzike koja govori publici šta da oseti. Režiser Ivan Petrović bio je jedan od tih jedanaest članova posade, pa kamera ne gleda ljude spolja, nego sa njima, iz kabine, sa palube i iz čamca. Jahta je mala, a posada velika, pa je ceo film zapravo o toj gužvi.\n\nSadašnja televizija voli masovne prizore: ogromne ledene gromade, visoke talase, dramatične naslove. „Beli prostor“ ide suprotnim putem. Najviše vremena provodimo u maloj prostoriji, u kojoj se jedna žena nagnula nad stolom i dugo, bez reči, upisuje brojeve u svesku. Ja sam, priznajem, u prvih petnaest minuta bio kritičan i mislio sam da će me dosada pobediti. Ali kad sam prestao da čekam događaj, počeo sam da primećujem sitnice: kako neko dodaje šećer u čaj, kako kapetan proverava konopac, kako se lice menja kad se vreme menja. Masovna proizvodnja lepih slika nas je navikla da gledamo brzo, a ovaj film traži da gledamo polako.\n\nNajbolje je to što niko u filmu ne govori fraze. Nema govora o spasavanju sveta, nema velikih reči, nema pouka. Kad ih pitaju zašto su tu, istraživači slegnu ramenima i kažu da neko mora da meri. Jedan stariji naučnik, čiji akcent otkriva da dolazi iz južne Srbije, kaže da je smisao posla u tome da se zna šta se događa sada, a ne šta će biti. Njegov akcent je jedini zvuk doma u filmu, pa svaka njegova rečenica deluje toplije. Ona koja ostaje u glavi glasi: „Sadašnji trenutak je jedini koji možemo da izmerimo.“\n\nFilm pokazuje i koliko je takav posao težak, ali bez žaljenja. Posada živi u prostoru manjem od jedne sobe, spava u smenama i provodi dane među ledom koji ne haje za to koliko se neko trudi. Sam režiser kaže da ni more ne haje za kameru. Ipak, niko se ne žali. Ljudi se smeju, svađaju oko hrane i muzike, a onda uzvraćaju jedni drugima osmehom, jer znaju da su zajedno u istom čamcu. Kad kapetan pogleda ženu sa sveskom, ona uzvraća kratkim klimanjem glave, i to je cela pohvala koju je ikada čula.\n\nIma i slabosti. Kraj je malo previše miran, a nekoliko scena se ponavlja. Povremeno bih voleo da neko objasni zašto se baš ti podaci mere, a ne neki drugi, jer film pretpostavlja da publika sve zna. Kritičan posmatrač može da primeti da film ima kompleks: toliko se plaši da ne bude pretenciozan da zato ne objašnjava ništa. Taj kompleks je, ipak, simpatičan, kao kod čoveka koji se izvinjava što govori tiho.\n\nKad sam izašao iz sale, bio sam spokojan, kao posle duge šetnje. „Beli prostor“ nas uči da gledamo sporo i da sačekamo. Dobro je što u ovom filmu jedanaest ljudi ne mora ništa da dokazuje. Oni samo rade, a mi smo pozvani da ih pratimo.\n\nPitanja:\nO čemu govori film „Beli prostor“?\nGovori o jedanaest istraživača koji plove jahtom oko Svalbarda i mere struje, led i temperaturu mora.\nZašto kamera gleda ljude iznutra?\nRežiser je bio član posade, pa kamera gleda zajedno sa njima.\nZašto je pisac u početku bio kritičan?\nMislio je da će ga dosada pobediti, jer se skoro ništa ne dešava.\nŠta je posebno dobro u filmu?\nNiko ne govori fraze i ne drži pouke.\nŠta pisac zamera filmu?\nNeke scene se ponavljaju, a film ne objašnjava dovoljno."
+    },
+    {
+      "title": "Nauka na stadionu",
+      "summary": "A columnist visits a sports laboratory in Novi Sad and finds that measuring a hockey player, a rider and a runner mostly means being patient with the body.",
+      "newWords": [
+        "stadion",
+        "hokej",
+        "joga",
+        "norma",
+        "jahač",
+        "jahanje",
+        "ojačati",
+        "povećavati",
+        "znoj",
+        "truba"
+      ],
+      "text": "Kad čujem reč „stadion“, zamislim glasnu gomilu, zastave i belu liniju na travi. Ono što sam nedavno videla u laboratoriji za sport u Novom Sadu bilo je potpuno suprotno: tišina, sive kutije, kablovi i nekoliko ljudi koji gledaju ekran. Nauka o sportu ne počinje na stadionu, nego u sobi u kojoj se čuje samo disanje.\n\nDoktor Saša, koji vodi laboratoriju, objasnio mi je da svi koji treniraju ozbiljno žele jedno: da povećaju snagu, a da se ne povrede. Njegov tim meri puls, pritisak i znoj, i sve to zapisuje u tabelu. Svaka norma, kaže on, počinje merenjem. Znoj je, dodaje, vrlo poštena tečnost: ne može da laže koliko se čovek umorio. Zato igrači ne rade samo ono što im kaže trener, nego i ono što pokaže njihovo telo.\n\nTog dana su testirali mladog igrača hokeja, Nenada, koji je došao pravo sa treninga. Stavili su mu na prsa tanak kaiš i rekli mu da trči u mestu. Na ekranu su se pojavile dve linije, plava i crvena. Plava je bila puls, a crvena teret. Kad se teret povećava, srce radi brže. Kad je teret počeo da se povećava, plava linija je skočila, pa se mirno spustila. Doktor je rekao da to znači da je njegovo srce spremno za sezonu. Nenad se nasmejao i priznao da hokej voli više od svega, čak i više nego spavanje.\n\nSledeća je došla Mina, koja je jahač od svoje desete godine. Jahanje, kaže ona, izgleda lako samo onome ko nikada nije jahao. Konj oseća svaku napetost u njenim leđima i odgovara na nju. Zato ima poseban trening koji uključuje i jogu. Doktor Saša je potvrdio da joga ne treba da bude moda nego alat: pomaže jahaču da ojača mišiće koje inače ne koristi, a da pri tom ne izgubi mir. Mina je dodala da se posle meseci joge u sedlu prvi put osetila potpuno mirno. Za nju je jahanje razgovor bez reči.\n\nNa kraju me je Saša odveo u malu salu, gde su na zidu visile fotografije sa utakmica. Pokazao mi je i neobičnu stvar: staru plastičnu trubu, kakvu navijači duvaju na tribinama. Merili su jačinu buke na stadionu i videli da u sekundi kad truba zasvira igračima srce počne brže da kuca, iako to ni sami ne primećuju. Doktor je rekao da to nije razlog da se navijači utišaju, nego da se zna koliko je glasan običan zvuk.\n\n— Norma za buku još ne postoji — rekao je — ali će postojati.\n\nVratila sam se kući sa osećanjem da sport nije samo trčanje i skakanje. Svaki pokret koji vidimo na terenu ima iza sebe tihu laboratoriju. A čovek koji ume da sluša sopstveni puls obično ume i da sluša druge.\n\nPitanja:\nŠta meri tim doktora Saše?\nMeri puls, pritisak i znoj.\nZašto je znoj, po doktoru, poštena tečnost?\nZato što ne može da laže koliko se čovek umorio.\nŠta je pokazao test mladog igrača hokeja?\nPokazao je da je njegovo srce spremno za sezonu.\nŠta joga pomaže jahaču?\nPomaže mu da ojača mišiće koje inače ne koristi, a da ne izgubi mir.\nŠta su merili na stadionu?\nMerili su jačinu zvuka trube među navijačima."
+    },
+    {
+      "title": "Ko jede med na Tari",
+      "summary": "A researcher follows a beekeeper's tip about someone raiding his bees at night on Tara, sets up a camera for a night and discovers a small culprit.",
+      "newWords": [
+        "lajati",
+        "razbojnik",
+        "dojava",
+        "kasan",
+        "utroba",
+        "saviti",
+        "vražji",
+        "očigledan"
+      ],
+      "text": "Sve je počelo jednom dojavom. Ana, koja u Beogradu radi sa životinjama, dobila je poruku od čoveka sa Tare. Predstavio se kao Mirko i napisao da mu neko svake noći pravi štetu među pčelama. „Dođite što pre“, pisalo je u poruci. „Ovo je vražji posao, a ja ne znam ko ga radi.“\n\nAna je za dva dana stigla u selo ispod planine. Mirko je imao dvadeset drvenih sanduka sa pčelama, poređanih po polju uz rub šume. Na prvi pogled je šteta bila očigledna: poklopci su bili pomereni, a med je curio po travi. Mirko je bio siguran da je u pitanju medved, jer je prošle godine jedan prošao kroz selo. Ana je klimnula glavom, ali nije htela da žuri sa zaključkom. Medvedi ostavljaju velike tragove, a ovde ih nije bilo. Jedan očigledan podatak joj je bio dovoljan: poklopci su bili otvoreni, a ne polomljeni.\n\nZato je odlučila da postavi kameru. Pričvrstila ju je za drvo, nasuprot sanducima, i okrenula prema polju. Zatim su Mirko i ona ušli u kolibu i počeli da čekaju. Kasna noć na Tari nije tiha, kako ljudi zamišljaju. Šuma ima svoj glas: neka grana puca, neko lišće šušti, a iz utrobe šume dolazi duboko, polako disanje. Ana je ćutala i slušala, a Mirko je pokušavao da ne zaspi.\n\nOko ponoći se negde blizu oglasila lisica. Lajala je kratko i grubo, kao pas koji je nešto video. Mirko je skočio i rekao da je došao trenutak, ali ga je Ana smirila. Lisice laju kad ih nešto uznemiri, a retko dolaze do pčela. Ostali su u kolibi do zore, kao u utrobi šume, gde se vreme meri samo zvucima. Kasne sate su prebrodili uz čaj i staru priču o medvedu koji je, po njegovim rečima, jednom uzeo čitav sanduk i odneo ga u šumu.\n\nUjutru su zajedno pogledali snimak. Prvo su se pojavili lisica i jelen, koji su mirno prešli polje. Zatim je, u tri sata posle ponoći, iz mraka iskočila mala životinja, duga i tanka, sa belom mrljom na grlu. Brzo je podigla poklopac jednog sanduka, savila ga na stranu i zavukla glavu unutra. Poklopac je ostao blago savijen. Bila je to kuna. Ana se nasmejala, a Mirko je rekao da ga je taj vražji mali razbojnik toliko mučio.\n\n— A ja sam mislio da je medved — rekao je. — Razbojnik je, ali sitan.\n\nAna je objasnila da kune vole slatko i da su dovoljno spretne da otvore lak poklopac. Rešenje je bilo jednostavno: na poklopce su stavili teško kamenje i oko sanduka razvukli mrežu. Mirko je bio zadovoljan, a Ana još više, jer joj je ova dojava pokazala koliko je teško u prirodi pogoditi uzrok bez dobrog posmatranja.\n\nKad se vratila u Beograd, poslala je Mirku fotografiju kune sa porukom: „Vaš razbojnik je kuna, mala i zdrava. Ne dirajte ga, samo zatvorite poklopce.“ Mirko je odgovorio da će sledeće godine ostaviti malo meda pored ograde, kao poklon.\n\nPitanja:\nZašto je Mirko pozvao Anu?\nNeko mu je svake noći pravio štetu među pčelama.\nŠta je Ana postavila na drvo?\nPostavila je kameru koja je gledala prema polju.\nŠta je lajalo u noći?\nLisica je lajala negde blizu.\nKo je zapravo jeo med?\nMed je jela kuna.\nKako su rešili problem?\nStavili su teško kamenje na poklopce i oko sanduka razvukli mrežu."
+    },
+    {
+      "title": "Pismo sa naučnog puta",
+      "summary": "A Serbian researcher writes an e-mail to a friend about two weeks of lectures in Chicago and Tokyo, and the small customs she notices on the way.",
+      "newWords": [
+        "kardinal",
+        "napojnica",
+        "koverta",
+        "štrajk",
+        "jen",
+        "susresti",
+        "vatromet"
+      ],
+      "text": "Draga Branka,\n\nobećala sam da ću ti pisati, pa evo prvog pisma sa puta. Prošla je nedelja u Čikagu, a sada sedim u hotelu u Tokiju i pokušavam da sredim utiske. Na ovom putu držim predavanja o svom istraživanju, ali najviše učim o stvarima koje nisu u programu konferencije.\n\nPrva takva stvar je kardinal. Čikago je grad stakla i vetra, ali ispred prozora mog hotela rastao je jedan običan žbun, a na njemu je svako jutro sedela crvena ptica sa crnom maskom oko kljuna. Pitala sam konobaricu kako se zove, a ona je rekla: „To je kardinal. Svi ga volimo.“ Gledala sam ga uz kafu, kao da je glavni gost, i pomislila na to koliko je malo potrebno da se jedan grad učini živim.\n\nDruga stvar je napojnica. U Čikagu je napojnica gotovo obaveza, pa sam već prvog dana pogrešila: ostavila sam premalo i konobar me je pogledao tako tužno da sam se vratila i dodala još. Domaćini su mi objasnili da konobari tamo žive od napojnica i da je račun samo polovina cene. U Tokiju sam to isto pokušala da uradim i dobila sam suprotnu lekciju. Devojka u kafiću potrčala je za mnom na ulicu da mi vrati novac, misleći da sam ga zaboravila. Ovde se napojnica ne daje, jer je dobra usluga razumljiva sama po sebi.\n\nU Čikagu je jednog dana bio štrajk gradskog prevoza, pa sam do univerziteta išla peške, sa koferom i torbom punom papira. Ne znam ko je u pravu u tom štrajku i ne mislim da je moje da sudim, ali znam da je ceo grad toga dana hodao sporije i da sam usput videla delove grada koje inače ne bih videla. Predavanje nisam propustila, a to je glavno.\n\nU Tokiju sam se sa starim kolegom Kenjijem susrela posle petnaest godina. Susresti nekoga posle toliko vremena je čudno: oboje smo isti, a oboje se čudimo koliko je prošlo. Kenji me je odveo na večeru i nije dozvolio da platim ništa. Domaća valuta je jen, a cene imaju mnogo nula, pa sam prvih dana svaki jen preračunavala u dinare i skoro uvek pogrešila. Na kraju večere mi je kolega dao belu kovertu, i to sa ceremonijom koju još ne razumem do kraja. U koverti je bio novac za predavanje, uredno složen, bez ijedne iskrivljene novčanice. Kad sam kasnije brojala jen po jen, shvatila sam da je to mnogo više nego što sam očekivala.\n\nSinoć smo išli na obalu, gde se održavao vatromet. Ljudi su sedeli na prostirkama i ćutali, a svaki put kad bi nebo eksplodiralo bojama čuo se mek uzdah, kao da je veliko dete odjednom zaspalo. Gledala sam vatromet i mislila na tebe i na tvoje pitanje zašto toliko putujem. Putujem, mislim, da bih naučila da pitam.\n\nVraćam se u petak. Javi se kad možeš.\n\nTvoja Vesna\n\nPitanja:\nŠta je Vesna videla ispred hotelskog prozora u Čikagu?\nVidela je crvenu pticu, kardinala, kako sedi na žbunu.\nZašto je Vesna ostavila više napojnice u Čikagu?\nKonobar ju je pogledao tužno, pa je dodala još.\nŠta se desilo u Tokiju kad je ostavila novac na stolu?\nDevojka je potrčala za njom da joj ga vrati.\nŠta je Vesna dobila od Kenjija?\nDobila je belu kovertu sa novcem za predavanje.\nZašto Vesna putuje?\nPutuje da bi naučila da pita."
+    },
+    {
+      "title": "Dva razgovora u bolnici",
+      "summary": "A children's doctor in Niš describes one day with two conversations: a mother who panics about her son's night cough, and a quiet colleague who studies tissue samples under a microscope.",
+      "newWords": [
+        "patolog",
+        "napadaj",
+        "kašalj",
+        "ustanoviti",
+        "paničiti"
+      ],
+      "text": "Posle petnaest godina rada u dečjoj bolnici u Nišu naučio sam da lekar najviše otkriva razgovorom. Zato ću opisati jedan običan dan, u kome sam vodio dva razgovora, a oba su me nečemu naučila.\n\nPrvi je bio ujutru, sa mladom majkom Draganom. Došla je sa sinom Lukom, koji ima šest godina, i čim je sela, počela je da priča tako brzo da sam jedva pratio. Luka svake noći u tri sata ujutru počne da kašlje. Kašalj je suv i dug, kaže ona, i ceo napadaj traje po deset minuta. Dragana se plaši da je bolest ozbiljna i priznaje da je prošle noći skoro paničila, pa je tražila savet na internetu, što joj je samo pogoršalo stanje.\n\nPustio sam je da završi. Zatim sam pitao Luku šta radi pre spavanja. Odgovorio je da mu mama svake večeri otvori prozor, jer voli svež vazduh. Pitao sam i gde spava. Luka je rekao da spava na novom jastuku, punom perja, koji mu je baka kupila. Dragana je prvo slegla ramenima, a zatim se ćutke zamislila. Poslao sam ih na jednostavan test, a nalaz je pokazao ono što sam slutio: mali je bio alergičan na perje. Kad smo to ustanovili, Dragana je prestala da paniči. Rekao sam joj da zameni jastuk i da ga ostavi na miru nekoliko nedelja, i da će napadaji nestati.\n\nDrugi razgovor bio je popodne, sa kolegom iz laboratorije. Milica je patolog, i to jedan od onih ljudi koje pacijent retko vidi. Ona ceo dan sedi ispred mikroskopa i gleda tanke kriške tkiva koje joj šaljemo iz cele bolnice. Toga dana mi je pokazala uzorak sa kože jedne devojčice, na kome se video mali, bezopasan čvorić. Pogledala me je mirno i rekla:\n\n— Ustanovila sam da je sve u redu. Nema razloga za brigu.\n\nTražio sam da mi objasni kako to tako brzo zna. Nasmejala se i odgovorila da patolog ne zna odmah, nego strpljivo gleda dok slika ne postane jasna. Za nju je posao tihi, ali nije lak. Njena odluka vredi koliko i najbolji lek, jer od jedne rečenice zavisi koliko će se neka porodica plašiti.\n\nKad sam se te večeri vraćao kući, razmišljao sam o razlici između mene i Milice. Ja govorim, a ona ćuti. Ja pitam, a ona gleda. Ali obojica tražimo isto: jedan jasan odgovor na pitanje koje nas muči. Dragana je mirnije spavala od te noći. Luka je prvi put posle dugo vremena prespavao celu noć bez kašlja, a ja sam bio srećan što smo oboje, svako na svoj način, uspeli da ustanovimo ono što je trebalo.\n\nPitanja:\nZašto je Dragana dovela sina Luku kod lekara?\nLuka je svake noći u tri sata počinjao da kašlje.\nZašto je Dragana skoro paničila?\nPlašila se da je bolest ozbiljna i tražila je savet na internetu.\nŠta je ustanovljeno kad je Luka obavio test?\nUstanovljeno je da je alergičan na perje u novom jastuku.\nČime se bavi Milica?\nOna je patolog i gleda uzorke tkiva pod mikroskopom.\nŠta je njen nalaz bio za devojčicu?\nRekla je da je sve u redu i da nema razloga za brigu."
+    }
+  ]
+}

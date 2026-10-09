@@ -1,0 +1,211 @@
+{
+  "id": "sr-mini-4300",
+  "rankUpTo": 4300,
+  "level": "C1",
+  "title": "Klima i energija",
+  "description": "Ten calm, everyday texts on weather, home heating, gardens and travel: a weekend forecast, a boiler service, a first frost, a ski holiday, a hot week, a trip to Egypt, a painter of clouds, a power cut, solar panels and a letter from Toronto.",
+  "topic": "Climate and energy",
+  "names": [
+    "Petrović",
+    "Beograd",
+    "Avala",
+    "Sava",
+    "Nenad",
+    "Novi Sad",
+    "Zoran",
+    "Kragujevac",
+    "Mira",
+    "Slavko",
+    "Olga",
+    "Zlatibor",
+    "Branka",
+    "Luka",
+    "Vesna",
+    "Niš",
+    "Ivan",
+    "Maja",
+    "Sokobanja",
+    "Kairo",
+    "Lena",
+    "Hasan",
+    "Egipat",
+    "Subotica",
+    "Pavle",
+    "Vojvodina",
+    "Sombor",
+    "Mara",
+    "Đorđe",
+    "Boban",
+    "Dragan",
+    "Stevo",
+    "Aca",
+    "Jelena",
+    "Katarina",
+    "Tara",
+    "Užice",
+    "Branko",
+    "Srbija",
+    "Toronto",
+    "Nikola",
+    "Tamara",
+    "Ivana",
+    "Čačak",
+    "Šumadija"
+  ],
+  "lessons": [
+    {
+      "title": "Prognoza za vikend",
+      "summary": "A man who reads the weekend forecast like a letter asks his neighbour, who keeps a weather book, whether to trust it, and takes a jacket to Avala.",
+      "newWords": [
+        "paranoičan",
+        "krasno",
+        "južno",
+        "novembar",
+        "arhiv",
+        "zabeležiti",
+        "mesečno",
+        "prosečan",
+        "nestabilan",
+        "upitati",
+        "civilni"
+      ],
+      "text": "Svakog petka uveče radim isto: otvorim prognozu za vikend i čitam je pažljivo, kao pismo od starog prijatelja. Žena kaže da sam paranoičan. Nisam ja paranoičan, odgovaram joj, samo volim da znam da li treba da povedem kišobran. Ona se nasmeje i ostavi me nad telefonom.\n\nProšlog petka, u novembru, prognoza je bila lepa: sunce, bez kiše, slab vetar. Krasno, rekao sam glasno. Planirali smo da u subotu odemo na Avalu, koja leži južno od grada, a posle ručka da prošetamo pored Save.\n\nIpak, nešto me je mučilo. Novembar nikad nije miran mesec. Zato sam se setio komšije Nenada, koji već dvadeset godina vodi knjigu o vremenu. Pre penzije je radio na civilnom aerodromu, gde je vreme važno kao hleb, i gde su ga svi civilni piloti pitali za savet pre poletanja. Nenad ima pravi mali arhiv: za svaki dan zabeleži temperaturu, vetar i oblake. Mesečno sve to sabere, a mesečno gleda i razliku u odnosu na prošlu godinu, jer voli brojeve više nego reči.\n\nPozvao sam ga i upitao šta misli o vikendu.\n\n— Ne veruj prognozi sasvim — rekao je. — Pogledaj arhiv. Prosečna temperatura u novembru je osam stepeni, ali sam zabeležio i dan sa dvadeset dva stepena, i dan sa prvim snegom. Jednom je bilo i jedno i drugo u istoj nedelji.\n\n— Znači, vreme je nestabilno — rekao sam.\n\n— Novembar je nestabilan mesec — odgovorio je. — Jutro može da bude krasno, a popodne sasvim drugačije. Ponesi jaknu.\n\nPoslušao sam ga. U subotu ujutru Avala je bila krasna: južno od nas oblaci su stajali nisko, ali je sunce sijalo, a vazduh je mirisao na lišće. Oko dva sata nebo je postalo belo, i dok smo jeli, pala je sitna kiša. Mi smo je dočekali u jaknama, na suvoj klupi ispod velikog drveta.\n\n— Zar ti nisi paranoičan? — upitala me je žena. — Pa ti si poneo jaknu i za mene.\n\n— Nisam paranoičan — rekao sam. — Samo sam spreman.\n\nTe večeri sam i ja prvi put zabeležio vreme u knjigu: subota, sunce do dva, posle toga kiša, prosečan dan za novembar. Možda ću za deset godina imati sopstveni arhiv.\n\nPitanja:\nŠta radi pisac svakog petka uveče?\nOtvori prognozu za vikend i pažljivo je čita.\nŠta Nenad zapisuje za svaki dan?\nZapisuje temperaturu, vetar i oblake.\nZašto Nenad kaže da je novembar nestabilan mesec?\nZato što je u arhivu zabeležio i dvadeset dva stepena i prvi sneg u istoj nedelji.\nŠta se desilo oko dva sata na Avali?\nNebo je postalo belo i pala je sitna kiša.\nZašto pisac i njegova žena nisu bili mokri?\nPoneli su jakne i sedeli su ispod velikog drveta."
+    },
+    {
+      "title": "Servis pred zimu",
+      "summary": "Before the heating season a man in Novi Sad has his boiler serviced and learns from the repairman that a little care saves a lot of money.",
+      "newWords": [
+        "servis",
+        "nega",
+        "ekonomski",
+        "isprika",
+        "nezgodan",
+        "nesiguran",
+        "bezopasan",
+        "dodavati",
+        "sastav",
+        "molba"
+      ],
+      "text": "Svake godine pred početak grejanja zovem majstora Zorana da obavi servis kotla. Ranije sam mislio da je to bačen novac. Kotao radi, kuća je topla, šta još treba? Ali moj otac je govorio da svaka mašina traži negu, i to nije samo izreka. Kotao bez nege troši više, a greje manje. To je i ekonomski razlog da se posao ne čeka do prvog mraza.\n\nZoran je ovog oktobra stigao u osam sati, tačno kako smo se dogovorili. Na vratima je rekao da je ovo nezgodan period za majstore, jer svi zovu istog dana, čim postane hladno.\n\n— Isprika što dolazim tako rano — rekao je.\n\n— Nije vam potrebna isprika — odgovorio sam. — Već sam popio dve kafe.\n\nSpustili smo se u podrum, gde stoji kotao. Zoran je otvorio vrata i dugo slušao, kao lekar koji sluša srce.\n\n— Čujem neki zvuk — rekao sam nesigurno. — Da li je to opasno?\n\n— Bezopasno je — rekao je Zoran. — To je samo vazduh u cevima, a vazduh je bezopasan gost. Čim dodam vode, zvuk će nestati.\n\nDok je dodavao vodu, objašnjavao mi je da ne smem sam da dodajem bilo kakvu vodu. Sastav vode je važan: tvrda voda ostavlja kamenac, a kamenac je neprijatelj svakog kotla. Slušao sam ga pažljivo, a on je video da sam još uvek nesiguran.\n\n— Ekonomski gledano, ovo je najjeftiniji posao u kući — rekao je. — Jedan servis godišnje košta manje nego dva meseca gasa koji bi se potrošio uzalud.\n\n— Treba li nešto da menjam? — upitao sam.\n\n— Ne ove godine. Ali imam jednu molbu: ne dižite temperaturu preko 21 stepena, pa ćete videti razliku na računu. I ne zatvarajte, molim vas, sve ventile.\n\nObećao sam. Dok je sakupljao alat, Zoran je dodao da se najviše kvarova desi zato što ljudi zaborave da pogledaju mali sat sa pritiskom pored kotla. Pokazao mi je gde se čita i koliki sme da bude. To nije nezgodan posao, rekao je, samo ga niko ne nauči.\n\nKad je otišao, uzeo sam olovku i napisao u kalendar: servis kotla, oktobar, svake godine. Ispod toga sam dodao Zoranovu molbu, da je ne zaboravim.\n\nPitanja:\nZašto pisac svake godine zove majstora Zorana?\nZato što majstor radi servis kotla pred početak grejanja.\nŠta je Zoran uradio sa vodom?\nDodao je vode da u cevima ne bude vazduha.\nZašto je sastav vode važan?\nTvrda voda ostavlja kamenac, a kamenac je neprijatelj kotla.\nŠta je Zoranova molba?\nŽeleo je da pisac ne diže temperaturu preko 21 stepena.\nŠta je pisac napisao u kalendar?\nNapisao je da servis kotla treba da bude svake godine u oktobru."
+    },
+    {
+      "title": "Prvi mraz u bašti",
+      "summary": "A gardener near Kragujevac covers her strawberries for the first frost, watches a lizard and starlings, strokes a stray cat and listens to a neighbour who knows everything.",
+      "newWords": [
+        "jagoda",
+        "gušter",
+        "pljačkati",
+        "alergičan",
+        "ubod",
+        "ničiji",
+        "maziti",
+        "pametnjaković",
+        "predsednica"
+      ],
+      "text": "Utorak, 5. novembra. Večeras se očekuje prvi mraz, pa sam ceo dan provela u bašti. Pokrila sam jagode slamom i starom krpom, jer jagode koje su preživele celo leto ne treba izgubiti baš na kraju sezone. Jedna biljka je još imala jednu crvenu jagodu. Ostavila sam je tamo, kao poslednji pozdrav leta.\n\nNa toplom kamenu pored ograde sedeo je gušter. Poslednji put sam ga videla pre mesec dana, pa sam pomislila da je već otišao na zimski san. Nije. Gušter je sedeo mirno i hvatao svaki tračak sunca, a kad sam prišla, nestao je u pukotini. Pitam se zna li on da noćas dolazi mraz bolje od nas.\n\nU bašti iza kuće ptice pljačkaju poslednje voće. Satima dolaze, jedu i odlaze, a ja ih ne teram. Voća je ionako previše. Nije lepo što pljačkaju, ali su lepi dok pljačkaju.\n\nPreko ograde me je pozdravio komšija Slavko, onaj koji sve zna.\n\n— Mira, mraz je u stvari dobar za zemlju — rekao je. — Ne pokrivaj toliko. Ja sam to davno naučio.\n\nSlavko je pravi pametnjaković: o svemu ima mišljenje, a najviše o tuđim baštama. Ipak, ne ljutim se na njega. Prošlog leta, kad me je ujela pčela, upravo je on doneo lek. Alergična sam na ubod pčele, i od tada nosim tabletu u džepu, čak i u novembru, kad pčela nigde nema. Zato Slavku sve oprašta, a o mrazu neka misli šta hoće. Taj ubod me je naučio da pametnjakovići ponekad dobro dođu.\n\nPred veče se pojavila mačka. Ničija je, to znaju svi u ulici. Nema ni ime ni kuću, ali ima moj prag. Stala je pored mene i dala mi da je mazim. Dugo sam je mazila, a ona je ćutala i grejala mi ruke. Ostavila sam joj tanjir mleka i staro ćebe u šupi.\n\nNa kraju dana naišla je gospođa Olga, predsednica našeg Udruženja za baštu, sa spiskom stvari koje treba uraditi pred zimu. Pročitala sam spisak i nasmejala se: sve sam već uradila. Predsednica je pogledala jagode pod krpom i rekla:\n\n— Mira, ti si prava majstorica za baštu.\n\nNe znam da li je to tačno. Ali večeras će doći mraz, a moje jagode će ga dočekati tople.\n\nPitanja:\nŠta je Mira uradila sa jagodama?\nPokrila ih je slamom i starom krpom.\nŠta rade ptice u bašti?\nPljačkaju poslednje voće.\nZašto Mira nosi tabletu u džepu?\nZato što je alergična na ubod pčele.\nKo je ničija mačka i šta Mira radi s njom?\nTo je mačka bez imena i kuće, a Mira je mazi i daje joj mleko.\nKo je gospođa Olga?\nOna je predsednica Udruženja za baštu."
+    },
+    {
+      "title": "Zimski odmor na Zlatiboru",
+      "summary": "A mother writes an e-mail from Zlatibor: a day ticket for the easy slope, a crowded restaurant, bathrobes and pyjamas at the hotel and a game in the snow.",
+      "newWords": [
+        "pista",
+        "ulaznica",
+        "ranac",
+        "izboriti",
+        "lokal",
+        "kategorija",
+        "posluga",
+        "ogrtač",
+        "igralište",
+        "pidžama"
+      ],
+      "text": "Draga Branka,\n\npišem ti sa Zlatibora, gde smo došli na zimski odmor. Obećala sam da ću ti javiti kako je, pa evo izveštaja.\n\nSneg je pao ranije nego što je iko očekivao, pa je cela planina bila bela već u decembru. Prvog jutra smo Luka i ja otišli na najlakšu stazu. Pista je široka i blaga, a jedan čika pokazuje deci kako se staje. Kupila sam dve ulaznice za ceo dan. U ranac sam stavila čaj, dve jabuke i rezervne rukavice, jer znaš da Luka stalno izgubi jednu. Ulaznice sam stavila u džep, a ranac je Luka nosio kao veliki čovek.\n\nU podne smo bili gladni kao vukovi. Svi lokali pored staze bili su puni. Luka se okrenuo prema meni i rekao:\n\n— Mama, nećemo naći sto.\n\nAli jesmo. Posle dvadeset minuta izborili smo sto pored prozora, sa pogledom na stazu. Posluga je bila brza i ljubazna, iako je konobar nosio osam tanjira odjednom. Jeli smo supu i palačinke, a Luka je rekao da je ovo najbolji lokal na svetu. Ne znam da li je tako, ali sigurno je bio najtopliji.\n\nPosle ručka je Luka hteo na igralište, koje je bilo pod snegom. Napravio je od snega životinju i nazvao je „veliki medved“. Ja sam sedela na klupi i gledala kako su mu obrazi sve crveniji. Na igralištu nije bilo nikoga osim nas, pa je medved imao celo igralište samo za sebe.\n\nHotel je treće kategorije, ali je sve čisto i toplo. U sobi nas čekaju beli ogrtači, pa se osećamo kao gosti iz bajke. I posluga u hotelu je ljubazna, kao ona u restoranu. Luka nosi ogrtač i po hodniku, čim ga ne vidim, a ja mu ponavljam da ga ostavi u sobi. Uveče obuče pidžamu sa medvedima i zaspi pre nego što završim priču. Pidžama mu je malo kratka, ali on to ne primećuje.\n\nAko stigneš, dođi i ti. Imamo jedan slobodan krevet u sobi i dovoljno snega za sve.\n\nPuno pozdrava od nas dvoje,\nVesna\n\nPitanja:\nŠta je Vesna kupila za sebe i za Luku?\nKupila je dve ulaznice za ceo dan na pisti.\nŠta je spakovala u ranac?\nStavila je čaj, dve jabuke i rezervne rukavice.\nKako su dobili sto u lokalu?\nPosle dvadeset minuta izborili su sto pored prozora.\nKakav je hotel?\nHotel je treće kategorije, ali je čist i topao.\nŠta Luka radi uveče, kad obuče pidžamu?\nZaspi pre nego što mama završi priču."
+    },
+    {
+      "title": "Vrućina u Nišu",
+      "summary": "During a hot week in Niš a man has a stomach ache after steak and crisps; the doctor puts him on a light diet, and he ends up resting by a hot spring.",
+      "newWords": [
+        "odrezak",
+        "čips",
+        "želudac",
+        "dijagnoza",
+        "dijeta",
+        "okus",
+        "grubo",
+        "vrelo",
+        "iskusiti"
+      ],
+      "text": "Te nedelje je u Nišu bilo veoma vruće. Sunce je sijalo od jutra, vazduh je bio težak, a ljudi su se kretali od senke do senke. Ivan je, kao i svi, pio mnogo vode i do podne skoro ništa nije jeo.\n\nZa ručak je odlučio da sebi učini nešto dobro. Otišao je u mali restoran blizu pijace i naručio veliki odrezak sa krompirom. Odrezak je bio mekan, a uz njega je dobio i tanjir čipsa, koji nije naručio. Konobar je rekao da je čips kao poklon od kuće. Ivan nije hteo da bude nepristojan, pa je pojeo sve. Okus odreska bio je odličan, a čips mu se na vrućini činio još bolji, jer je bio slan.\n\nUveče ga je počeo da boli želudac. Prvo malo, zatim više, i skoro celu noć nije mogao da spava. Ujutru je otišao kod doktora Petrovića, koji ga je brzo i pažljivo pogledao.\n\n— Dijagnoza je jednostavna — rekao je. — Teška hrana na velikoj vrućini. Želudac vam nije bio spreman za odrezak.\n\n— Ali bio je tako ukusan — rekao je Ivan.\n\n— Znam. Ali okus nije isto što i zdravlje. Nedelju dana ćete biti na laganoj dijeti: pirinač, supa, banane i puno vode. Grubo rečeno, jedite kao dete.\n\nIvan je prihvatio. Grubo rečeno, pomislio je, to je dosadna hrana, ali telo mu je bilo zahvalno. Nije mu bilo lako: tri dana je gledao u tanjir kao da je to kazna. Do četvrtog dana, međutim, želudac se smirio, a on je prvi put posle dugo vremena osetio pravi okus običnog hleba. Pomislio je da nikad nije iskusio koliko ukusan može da bude jedan komad hleba.\n\nPetog dana ga je sestra pozvala da sa njom ode u Sokobanju. U Sokobanji postoji vrelo, izvor tople vode, i ljudi dolaze da se odmore. Sedeli su kraj vrela, sa nogama u vodi, i pričali o svemu i ni o čemu. Ivan je shvatio da je to najbolji način da se na vrućini iskusi mir: bez žurbe i bez teškog ručka.\n\n— Idemo li ovog meseca opet na odrezak? — rekla je sestra u šali.\n\n— Idemo — rekao je Ivan. — Ali bez čipsa. I ne na vrućini.\n\nPitanja:\nZašto je Ivanu bilo loše?\nPojeo je odrezak i čips na velikoj vrućini, pa ga je boleo želudac.\nŠta je doktor rekao o dijagnozi?\nRekao je da je to teška hrana na velikoj vrućini.\nŠta Ivan sme da jede na dijeti?\nSme da jede pirinač, supu i banane.\nGde je Ivan otišao sa sestrom?\nOtišao je u Sokobanju, gde postoji vrelo tople vode.\nŠta je Ivan shvatio?\nShvatio je da se na vrućini treba odmarati i ne jesti previše."
+    },
+    {
+      "title": "Novembar kod piramida",
+      "summary": "Two friends from Beograd escape the grey autumn for a few days in Egypt, see the pyramids with a guide, drink tea in a barber's shop and watch the sun set from a hotel roof.",
+      "newWords": [
+        "piramida",
+        "razgledati",
+        "zalazak",
+        "skitnica",
+        "počast",
+        "iznenađujući",
+        "brijati"
+      ],
+      "text": "Kairo, četvrtak.\n\nOvo je dnevnik jednog malog bekstva od sive jeseni. U Beogradu već nedelju dana pada kiša, pa smo Lena i ja odlučile da posle dugo vremena odemo tamo gde je novembar topao. Izabrale smo Egipat, i to ne samo zbog sunca. Obe smo još kao devojčice želele da vidimo piramide.\n\nDanas smo ih konačno videle. Vodič Hasan nas je poveo rano ujutru, pre nego što dođu veliki autobusi. Mislila sam da će biti veće nego na slikama, ili manje, ali ni jedno ni drugo nije bilo tačno. Bile su jednostavno tu, mirne, žute i ogromne, i nisam mogla ništa da kažem. Lena je rekla samo:\n\n— Znaš, ovo se ne može razgledati na brzinu.\n\nZato sam piramide razgledala polako, a Lena je razgledala drugu stranu. Hasan je pričao kako su ih gradili i kako je moguće da su ostale iste toliko vekova. Slušale smo ga i gledale kako sunce pomera senku sa jedne strane na drugu.\n\nZatim se desilo nešto iznenađujuće. Na ivici pustinje nam je prišao stari pas, očigledno skitnica, mršav i prašnjav. Hasan je rekao da psi skitnice žive uz turiste i čekaju ostatke hrane. Ali ovaj nije tražio hranu. Samo je seo pored Lene i ostao tu dok smo gledale. Lena ga je mazila i rekla da je ovo najbolji vodič koji je ikad imala. Taj iznenađujući gost bio je sa nama do podne.\n\nPosle ručka smo otišle na pijacu u gradu. Tamo me je jedan stari brijač pozvao u svoju malu radnju i ponudio da me obrije. Odbila sam, ali sam gledala kako brije Hasana. Brijao ga je lagano i ozbiljno, kao da je to umetnost. Hasan nam je rekao da mu je to rođak. Rođak nam je skuvao čaj, što je bila prava počast, jer se ovde čaj ne služi baš svakom. Hasan je rekao da je i njemu počast što nas je doveo. Pili smo ga polako, u senci, i niko nije pogledao na sat.\n\nUveče smo otišle na krov hotela da vidimo zalazak sunca. Nebo je bilo narandžasto, pa ružičasto, pa tamnoplavo. Odozgo su se videle tri piramide kao tri mala brda. Obe smo ćutale.\n\n— Ovakav zalazak čovek mora da iskusi bar jednom — rekla je Lena.\n\nSlažem se. Sutra idemo na reku. Ali ovaj dan zapisujem posebno, jer je bio savršen.\n\nPitanja:\nZašto su Lena i ona koja piše dnevnik otišle u Egipat?\nHtele su da pobegnu od sive jeseni i da vide piramide.\nKo je Hasan?\nHasan je vodič koji ih je poveo do piramida.\nŠta je uradio pas skitnica?\nSeo je pored Lene i ostao sa njima do podne.\nŠta se desilo na pijaci?\nBrijač je brijao Hasana, a njegov rođak im je skuvao čaj.\nŠta su radile uveče?\nGledale su zalazak sunca sa krova hotela."
+    },
+    {
+      "title": "Slikar oblaka",
+      "summary": "A columnist visits a painter in Subotica who paints only the sky, and hears his view of the weather as a comedy in the morning and an opera in the evening.",
+      "newWords": [
+        "slikar",
+        "autor",
+        "filozofija",
+        "komedija",
+        "opera",
+        "večernji",
+        "modni",
+        "braon",
+        "zračan"
+      ],
+      "text": "Za ovu kolumnu otišla sam u Suboticu, kod slikara Pavla, koji već trideset godina slika samo nebo. Kad sam ga pozvala, rekao je da nema šta da se vidi: platno, boje i jedan prozor. Ali kad sam stigla, ostala sam bez reči.\n\nRadionica slikara Pavla je velika, zračna soba na poslednjem spratu stare kuće. Tri prozora gledaju na polje, pa se nebo vidi u celoj širini. Zidovi su bledi, a na njima visi desetak slika oblaka: sivih, belih, braon pred oluju, ružičastih pred veče.\n\n— Ja nisam modni slikar — rekao je Pavle kad smo seli za sto. — Ne slikam ono što se traži. Slikam ono što vidim.\n\nPitala sam ga zašto uvek nebo. Samo se nasmešio.\n\n— Jer je nebo prvi autor vremena. Ja samo prepisujem.\n\nPavle ima čitavu filozofiju o vremenu. Po njegovom mišljenju, jutro je uvek komedija: oblaci se šale, sunce proviruje, vetar nosi šešire. Podne je običan razgovor. A veče, naročito večernje nebo nad Vojvodinom, to je opera.\n\n— Opera? — upitala sam.\n\n— Naravno. Veliko svetlo, veliki zvuci, veliki kraj. Samo što je ovde bez pevača.\n\nPitala sam kako zna kad treba da počne da slika. Pavle je pokazao na prozor.\n\n— Polje ti samo kaže. Kad se vazduh zagreje, oblaci se dignu, i tada znam da je dan za belu boju. Kad stigne vlaga, oblaci se spuste, i tada uzimam braon i sivu. Ništa ne izmišljam. Moja filozofija je prosta: ne smetaj nebu.\n\nDok je pričao, kroz prozor je ulazila večernja svetlost, narandžasta i meka. Pavle je ućutao. Ja sam pogledala nebo, pa njega, i shvatila da ovaj čovek nikada nije bio u žurbi. Nijedan modni časopis ne može da nauči čoveka tome.\n\nPri polasku mi je dao malu sliku, jedan beli oblak u braon okviru.\n\n— Ja sam autor, pa mogu da je poklonim — rekao je. — Ali pod uslovom da je staviš tamo gde ćeš je videti svako jutro.\n\nStavila sam je u kuhinju, pored prozora. Sada svako jutro gledam i sliku i pravo nebo, pa se ponekad ne vidi razlika. A u petak je večernje nebo bilo takvo da sam se, i ne želeći, setila opere o kojoj je govorio.\n\nPitanja:\nŠta slika Pavle?\nPavle slika samo nebo i oblake.\nKakva je radionica slikara?\nTo je velika, zračna soba sa tri prozora.\nŠta Pavle misli o jutru, a šta o večeri?\nJutro je komedija, a večernje nebo je opera.\nKoje boje koristi Pavle kad dolazi vlaga?\nTada koristi braon i sivu boju.\nŠta je Pavle poklonio ženi koja piše kolumnu?\nPoklonio joj je malu sliku belog oblaka."
+    },
+    {
+      "title": "Nestanak struje",
+      "summary": "During a summer storm the power goes out in a village near Sombor and four neighbours gather in one kitchen with candles and an old machine from the shed.",
+      "newWords": [
+        "monstrum",
+        "četvorica",
+        "garda",
+        "prestrašiti",
+        "zloban",
+        "žestoko"
+      ],
+      "text": "Oluja je stigla u selo kod Sombora u sedam uveče, brzo i bez najave. Prvo je počeo da duva vetar, zlobno i hladno, zatim su pale prve velike kapi, a onda je grom udario tako žestoko da su se prozori zatresli. Tačno u pola osam nestala je struja.\n\nMara je upalila sveću i sela u kuhinju. Njen sin Đorđe je ostao u dnevnoj sobi i gledao u mrak.\n\n— Mama, hoće li stići struja? — upitao je.\n\n— Hoće, sine. Ali ne znam kada.\n\nNeko je pokucao na vrata. Bili su to Boban, Dragan i Stevo, komšije, sva trojica sa lampama.\n\n— Kod nas je mračno kao u rupi — rekao je Dragan. — Mislili smo da je kod vas bolje.\n\n— Nije — rekla je Mara — ali ima sveća i toplog čaja.\n\nTako su se u Marinoj kuhinji našla četvorica: Boban, Dragan, Stevo i Đorđe, a Mara je kuvala čaj. Sveće su davale žutu svetlost po zidovima i svi su govorili tiše nego inače. Napolju je kiša padala žestoko, a vetar je i dalje zlobno duvao oko kuće.\n\nĐorđe se malo prestrašio kad je grom udario blizu. Stevo ga je smirio:\n\n— Ne boj se. Oluja je velika, ali ona je samo vetar i voda.\n\n— A šta je ono tamo? — pokazao je Đorđe na šupu iza kuće.\n\n— Tamo je moja stara mašina za struju — rekao je Stevo. — Pravo monstrum. Teško je kao traktor i glasno kao traktor, ali još radi.\n\nStevo je odlučio da je pokrene. Sva četvorica su izašla u jaknama, i posle desetak minuta posla monstrum je proradio. Svetlo u kuhinji se upalilo, i Mara je rekla da joj to stvorenje nikad nije izgledalo lepše. Đorđe se više nije plašio nijedne oluje, pa ni one najžešće, jer je znao da u šupi stoji monstrum koji ga čuva.\n\nDragan je doneo karte, pa su igrali do kasno u noć. Stevo je pričao o staroj gardi seoskih majstora, koji su umeli da poprave svaku mašinu. Mara je rekla da je on poslednji iz te garde, i svi su se složili. Oluja je u tom trenutku počela da se smiruje, a kiša je tiho padala po krovu.\n\nStruja se vratila tek u zoru. Do tada su svi već spavali u kuhinji, na stolicama i klupi, svi osim monstruma, koji je još tiho radio u šupi.\n\nPitanja:\nKada je nestala struja?\nNestala je u pola osam uveče, za vreme oluje.\nKo je došao u Marinu kuhinju?\nDošli su Boban, Dragan i Stevo.\nZašto se Đorđe prestrašio?\nPrestrašio se jer je grom udario blizu kuće.\nŠta je monstrum u šupi?\nTo je njegova stara mašina za struju koja još radi.\nKada se vratila struja?\nStruja se vratila tek u zoru."
+    },
+    {
+      "title": "Ploče na krovu",
+      "summary": "A family on Tara votes at the Sunday table on whether to put sun-catching plates on the roof of their guest house; a granddaughter's clever plan and a polite fitter settle the matter.",
+      "newWords": [
+        "biznismen",
+        "bogataš",
+        "novčanica",
+        "taktika",
+        "nagraditi",
+        "džentlmen",
+        "rodbina",
+        "središte",
+        "demokratija"
+      ],
+      "text": "Aca je biznismen, ali ne onakav kakvog ljudi zamišljaju. Nema skup auto, ni veliki sat, ni kancelariju s pogledom. Ima malu kuću za izdavanje na Tari, sa šest soba, i svake godine sa porodicom dočekuje goste iz cele Srbije. Kad ga neko nazove bogatašem, Aca se nasmeje i izvadi iz novčanika jednu staru novčanicu od hiljadu dinara.\n\n— Ovo je sve moje bogatstvo — kaže. — A i to je Jelenino.\n\nPravi biznismen, tvrdi Aca, ne pravi se važan, nego računa. Ove jeseni su ga mučili računi za struju. Kuća je velika, gosti dolaze tokom cele godine, i svi vole toplu vodu. Jedne nedelje je za stolom izneo ideju: da na krov stave ploče koje hvataju sunce i pretvaraju ga u struju.\n\nZa stolom su sedeli Aca, njegova žena Jelena, kći Katarina i Jelenina majka. Pridružila im se i rodbina iz Užica, jer je bio nedeljni ručak, pa je soba bila puna.\n\n— Ovde je demokratija — rekla je Jelena. — Svako ima jedan glas. Ko je za ploče?\n\nPodigle su se četiri ruke. Samo je Jelenina majka ostala mirna i rekla da njoj krov izgleda lepo i bez ičega.\n\n— Mama, ti si protiv zato što ti se ne sviđa kako izgledaju? — upitao je Aca.\n\n— Protiv sam zato što ne volim promene — odgovorila je. — Ali mogu da se predomislim, ako mi neko objasni zašto.\n\nKatarina je odmah smislila taktiku. Donela je baki račune iz prošle zime i pokazala joj koliko kuća troši struje u jednom mesecu, a koliko bi napravila za jedan sunčan dan. Baka je sve pažljivo pogledala i rekla:\n\n— Pa, ako je tako, onda da. Ali neka budu na zadnjoj strani, da se ne vide iz središta sela.\n\nSvi su se nasmejali, i tako je odluka pala. Nijedna demokratija nije bila toliko brza kao ova. Aca je rekao da je Katarina pobedila najpametnijom taktikom koju je video, i obećao da će je nagraditi sladoledom. Katarina je odgovorila da je zaslužila bar dve kugle. Aca ju je nagradio sa tri kugle, jer je tog dana bio dobre volje.\n\nMajstori su došli posle dve nedelje. Vođa ekipe, čovek po imenu Branko, ponašao se kao pravi džentlmen: skidao je cipele na pragu, pitao jesmo li doručkovali i nije dirnuo nijednu ciglu bez dozvole. Takvog džentlmena na krovu Aca nikad nije video. Za tri dana ploče su stajale na zadnjoj strani krova, okrenute jugu. Svi iz rodbine su došli da ih vide, i Branko je svakom strpljivo objasnio kako rade. Iz središta sela uopšte se nije videlo da na krovu išta ima.\n\nAca je svako veče izlazio da ih pogleda.\n\n— Ne budi tako ponosan — rekla mu je Jelena. — To je samo struja.\n\n— Ne, to je sunce — rekao je Aca. — A ono ne šalje račun.\n\nPitanja:\nZašto Aca nije bogataš?\nIma malu kuću za izdavanje i staru novčanicu u novčaniku, a ne skupe stvari.\nKako je porodica odlučila o pločama?\nGlasali su, jer je u kući demokratija.\nKo je bio protiv i zašto?\nJelenina majka, zato što ne voli promene.\nKakvu je taktiku Katarina smislila?\nPokazala je baki koliko kuća troši struje i koliko bi proizvela.\nGde su postavljene ploče?\nPostavljene su na zadnjoj strani krova, okrenute jugu."
+    },
+    {
+      "title": "Pismo iz Toronta",
+      "summary": "A woman in Toronto writes to her sister in Čačak about a very cold winter, her son's school day outdoors and a photo of a piglet in the village snow.",
+      "newWords": [
+        "razveden",
+        "psiholog",
+        "prase",
+        "poglavica"
+      ],
+      "text": "Draga Ivana,\n\nevo me konačno da napišem pismo kako treba, na papiru, a ne u porukama. Ovde je mraz, minus dvadeset, i sneg skoro svaki dan. Nikola kaže da je Toronto grad na jezeru, ali ja kažem da je grad u frižideru.\n\nPitaš kako smo. Dobro smo. Posle razvoda mislila sam da će sve biti teško, ali bilo je lakše nego što sam zamišljala. Ovde je mnogo razvedenih žena, pa me niko ne gleda kao da sam nešto neobično. U školi niko ne pita ko je razveden, a ko nije. Nikola ima trinaest godina i ide u novu školu, a ja radim u biblioteci tri dana u nedelji.\n\nŠkola me je prijatno iznenadila. Psiholog u školi je pozvao roditelje na razgovor i rekao nešto što sam zapamtila: deca moraju da izađu napolje čak i kad je hladno, jer se u zatvorenom prostoru brže umore i razdraže. Zato Nikola svaki dan ima odmor napolju, u debeloj jakni, sa kapom do ušiju. Prvih dana se bunio, a sada ide sa drugovima na led. Na odmoru su napravili tvrđavu od snega i izabrali Nikolu za poglavicu. Poglavica ima samo jednu dužnost: da nikoga ne pusti unutra sa mokrim čizmama. Nikola tu dužnost shvata ozbiljno, kao pravi poglavica.\n\nJa sam, priznajem, još uvek nesigurna gošća zime. Svako jutro se oblačim kao da idem na Severni pol. Ali volim kad sunce izađe, a sneg zasija kao šećer. Ništa ne podseća na naše zime kod kuće, osim jednog: miris hleba iz male pekare na uglu.\n\nSinoć sam dobila tvoju fotografiju. Videla sam kako u dvorištu u Čačku stoje baka, deda i nepoznato malo prase u snegu. Smejala sam se dugo. Nikola je pogledao sliku i rekao da je to najslavnije prase na svetu. Ovde decu vode na farmu da vide životinje, a vi ih imate u dvorištu.\n\nHoćeš li doći na leto? Nikola jedva čeka da ti pokaže jezero, a ja da ti ispričam sve što u porukama ne mogu. Javi se čim možeš.\n\nMnogo te grli\nTamara\n\nPitanja:\nOdakle Tamara piše pismo?\nPiše iz Toronta, gde je mraz i puno snega.\nŠta je Tamara rekla za razvod?\nBilo je lakše nego što je mislila, jer je u Torontu mnogo razvedenih.\nŠta je psiholog u školi rekao roditeljima?\nRekao je da deca moraju da izađu napolje čak i kad je hladno.\nŠta je Tamara videla na fotografiji?\nVidela je baku, dedu i malo prase u snegu u dvorištu u Čačku.\nŠta Tamara pita sestru na kraju?\nPita hoće li Ivana doći na leto."
+    }
+  ]
+}

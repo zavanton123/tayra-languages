@@ -1,0 +1,208 @@
+{
+  "id": "sr-mini-4200",
+  "rankUpTo": 4200,
+  "level": "C1",
+  "title": "Arhitektura i nasleđe",
+  "description": "Ten calm newspaper-style pieces on architecture and heritage: a Latin gate inscription in Zemun, an interview with a renovating architect, a Subotica diary, a Belgrade metro site, a London zoo visit, an open-air village at Zlatibor, a spa building, a theatre premiere, a letter from Vienna and a digital scan of the Niš fortress.",
+  "topic": "Architecture and heritage",
+  "names": [
+    "Zemun",
+    "Dunav",
+    "Zora",
+    "Novi Sad",
+    "Vesna",
+    "Lukić",
+    "Dunavska",
+    "Subotica",
+    "Janoš",
+    "Palić",
+    "Mina",
+    "Čačak",
+    "Beograd",
+    "Tamara",
+    "Marija",
+    "London",
+    "Luka",
+    "Lubetkin",
+    "Zlatibor",
+    "Anja",
+    "Dragica",
+    "Kraljevo",
+    "Milan",
+    "Sanja",
+    "Vrnjačka Banja",
+    "Kragujevac",
+    "Olga",
+    "Stefan",
+    "Beč",
+    "Milica",
+    "Jelena",
+    "Ana",
+    "Sofija",
+    "Lisabon",
+    "Niš",
+    "Nada",
+    "Ivan",
+    "Srbija"
+  ],
+  "lessons": [
+    {
+      "title": "Natpis iznad kapije",
+      "summary": "A man who has walked under a worn Latin inscription in Zemun for years finally has it read to him by a neighbour who works as an archive researcher.",
+      "newWords": [
+        "natpis",
+        "latinski",
+        "carski",
+        "pečat",
+        "doslovno",
+        "uistinu",
+        "sadržaj",
+        "istraživač",
+        "prima"
+      ],
+      "text": "Svakog jutra prolazim kroz Zemun i svakog jutra prođem ispod iste kapije, a da je i ne pogledam. Tek prošle nedelje podigao sam glavu i primetio natpis. Kameni natpis stoji iznad kapije, a slova su toliko tanka i stara da se jedva vide. Dvadeset godina sam prolazio ispod njega i nikad nisam pitao šta tu piše.\n\nStao sam i pokušao da ga pročitam. Natpis je na latinskom, a ja latinski znam tek toliko da prepoznam dve-tri reči. Uspeo sam da pročitam godinu i reč „carski“. Dakle, kuća je stara, a nekada je bila carska. Dalje nisam stigao.\n\n— Ako želite da znate šta piše, pitajte mene — rekao je neko iza mene.\n\nU kapiji je stajala gospođa Zora, koja živi u prizemlju te kuće. Zora je istraživač u gradskom arhivu i, kako sama kaže, ceo život čita tuđa pisma. Pozvala me je u dvorište, pokazala prstom na slova i počela da čita polako, reč po reč.\n\n— Doslovno prevedeno, natpis kaže: „Ova kuća prima svakoga ko dođe u miru“ — rekla je. — To je sadržaj natpisa, ali nije cela priča.\n\nCela priča čekala je u njenoj sobi. Na stolu je ležao list žutog papira sa velikim crvenim pečatom. Pečat je carski, objasnila je, a list je dozvola kojom je jedan trgovac dobio pravo da na tom mestu otvori svratište za putnike koji dolaze sa Dunava.\n\n— Kad sam našla ovaj papir, nisam htela da verujem — rekla je. — Uistinu, ova kuća je dva veka bila svratište. Trgovac je na kapiju stavio natpis da svaki putnik zna da je dobrodošao.\n\nSlušao sam i gledao pečat. Bio je lep, mada napukao na jednoj strani. Zora mi je dozvolila da ga uzmem u ruke, ali samo ako pazim da mi ne ispadne.\n\n— Znate li šta me najviše raduje? — pitala je. — Što je sadržaj natpisa ostao isti, iako su se stanari menjali. Svako ko ovde živi prima goste. I ja primam. Dođite sutra, skuvaću kafu.\n\nSutradan sam došao. Zora je skuvala kafu, a ja sam slušao priče o trgovcima, putnicima i brodovima koje je istraživač poput nje našao u starim knjigama. Kad sam izašao, još jednom sam pogledao natpis iznad kapije. Latinski mi više nije bio tuđ. Sada sam znao koje reči stoje iznad moje glave.\n\nUistinu, jedan istraživač ne mora da traži daleko. Ponekad je dovoljno da podigne glavu.\n\nPitanja:\nŠta je pisac primetio iznad kapije u Zemunu?\nPrimetio je kameni natpis sa starim slovima.\nKo je gospođa Zora i čime se bavi?\nZora je istraživač u gradskom arhivu i živi u prizemlju te kuće.\nŠta, doslovno prevedeno, piše na natpisu?\nPiše da ova kuća prima svakoga ko dođe u miru.\nŠta je Zora pokazala u svojoj sobi?\nPokazala je list papira sa velikim carskim pečatom.\nZašto je trgovac stavio natpis na kapiju?\nStavio ga je da svaki putnik zna da je dobrodošao u svratište."
+    },
+    {
+      "title": "Kuća sa tri života",
+      "summary": "An interview with an architect who renovates an old house in Novi Sad and explains how she decides what to keep, what to replace and what to remove.",
+      "newWords": [
+        "koncept",
+        "nosač",
+        "ilegalan",
+        "ukinuti",
+        "obogatiti",
+        "krajnji",
+        "razdvajati",
+        "poređenje",
+        "smanjivati",
+        "bačiti"
+      ],
+      "text": "Arhitekta Vesna Lukić već petnaest godina obnavlja stare kuće u centru Novog Sada. Sastali smo se u zgradi u Dunavskoj ulici, na kojoj radi od proleća, i razgovarali smo među skelama, prašinom i kutijama punim cigala.\n\n— Svaka obnova počinje pitanjem koncepta — rekla je Vesna. — Možemo da napravimo kopiju onoga što je zgrada nekad bila, a možemo i da dozvolimo da pokaže celu svoju istoriju. Ja se uvek zalažem za ovaj drugi koncept.\n\n— Šta to znači u praksi?\n\n— Ova kuća ima tri života. Sagradio ju je jedan trgovac, kasnije je podeljena na stanove, a poslednjih decenija dobila je ilegalne dogradnje: dve terase, jedan tavan i garažu u dvorištu. Mnogi misle da sve to treba odmah ukloniti. Meni to nije tako jednostavno. Ilegalna dogradnja nije lepa, ali je deo priče ove kuće. Garažu ćemo ukloniti jer je opasna, a jednu terasu ćemo zadržati.\n\n— Šta vam je u ovom poslu najteže?\n\n— Nosači. Ispod poda smo našli drvene nosače koji su tu više od sto pedeset godina. Neki su čvrsti kao prvog dana, a neki su toliko oslabili da ih moramo zameniti čeličnim. Odluka koji nosač ostaje, a koji odlazi, najveća je odgovornost u celom projektu. Ništa ne sme da bude bačeno dok ga ne pogleda inženjer. Čak su i stare daske sa poda pažljivo složene, jer neke od njih ćemo vratiti na isto mesto. Daske koje ne možemo da upotrebimo biće bačene tek na kraju.\n\n— Zar nije jeftinije sve srušiti i sagraditi novu zgradu?\n\n— Poređenje nije pošteno. U poređenju sa obnovom nova gradnja jeste jeftinija, ali nova zgrada nema ono što ova ima: zidove koje su ljudi dodirivali dva veka. Dobra obnova obogati celu ulicu, ne samo jednu kuću. Kad se jedna kuća obnovi, ceo grad je bogatiji. Ja ne želim da razdvajam staro od novog kao da su stranci. Zato troškove smanjujemo na drugim mestima, a ne na starom drvetu i kamenu.\n\n— Je li se nešto promenilo u propisima?\n\n— Jeste. Grad je pre dve godine ukinuo pravilo da svaki prozor mora da bude od drveta. Sada na dvorišnoj strani smemo da stavimo moderan prozor, a ulična fasada ostaje ista. To nam je mnogo pomoglo. Zbog toga se i cena radova smanjuje.\n\nVesna me je povela na sprat i pokazala veliku sobu. Tu će, rekla je, stari i novi deo kuće biti odvojeni staklenim zidom, tako da se oba vide, ali se ne mešaju. Zid će razdvajati dva doba, a neće ih skrivati. Taj deo posla radi zajedno sa stručnjacima sa Fakulteta tehničkih nauka, a ceo projekat pomažu i komšije iz ulice.\n\n— Koji je vaš krajnji cilj?\n\n— Krajnji cilj je da se u ovu kuću vrate ljudi. Zgrada bez stanara je samo lepa kutija. Kad prvi stanari uđu u svoje stanove, znaćemo da je posao završen.\n\nPitanja:\nGde Vesna trenutno radi?\nRadi u staroj zgradi u Dunavskoj ulici u Novom Sadu.\nZašto Vesna ne želi da ukloni sve ilegalne dogradnje?\nZato što su one deo priče kuće, pa će ukloniti samo opasnu garažu.\nŠta se radi sa starim nosačima?\nČvrsti ostaju, a oslabljene menjaju čeličnim.\nŠta je grad ukinuo pre dve godine?\nUkinuo je pravilo da svaki prozor mora da bude od drveta.\nKako dobra obnova može da obogati ulicu?\nObogati celu ulicu, a ne samo jednu kuću.\nŠta je Vesnin krajnji cilj?\nKrajnji cilj je da se u kuću vrate stanari."
+    },
+    {
+      "title": "Dnevnik iz Subotice",
+      "summary": "A student of architecture writes a three-day diary about the Art Nouveau houses of Subotica and the lake at Palić, and finds an idea for her final project.",
+      "newWords": [
+        "krasan",
+        "nežno",
+        "sumrak",
+        "pero",
+        "delfin",
+        "inspiracija",
+        "dirnuti",
+        "osobina",
+        "zemaljski",
+        "neprestano"
+      ],
+      "text": "Subotica, petak\n\nJa sam Mina, studentkinja arhitekture iz Čačka, i ovo je moj dnevnik sa putovanja. Stigla sam u podne i odmah otišla do Gradske kuće. Nisam znala šta da očekujem, a dobila sam jednu od najlepših zgrada koje sam ikad videla. Krov je prekriven šarenom keramikom, a na vrhu stoji toranj sa satom. Na trgu sam neprestano okretala glavu levo i desno, kao da ne mogu da prestanem da gledam. Bio je to krasan dan, sunčan i topao, i svaka mi je zgrada izgledala još lepša nego prethodna.\n\nProfesor Janoš, koji nas je poveo na ovo putovanje, kaže da je glavna osobina subotičke secesije igra sa prirodom. Zgrade ovde nisu stroge. Na njima rastu cvetovi, lišće i ptice. Tražila sam od njega jedan primer, a on se samo osmehnuo i rekao: „Gledaj. Naći ćeš ih sama.“\n\nSubotica, subota\n\nProfesor je bio u pravu. Jutros sam našla kuću sa velikim perom na fasadi. Pero je tako nežno izvijeno da sam jedva poverovala da je od tvrdog kamena. Nacrtala sam ga u svesku, a zatim sam crtala još pola sata, jer mi se ruka neprestano vraćala na isti mali detalj.\n\nU dvorištu iste kuće stoji česma sa delfinom. Delfin gleda ka nebu i izgleda kao da se smeje. Žena koja tu živi dozvolila nam je da uđemo i rekla je da delfin stoji tu od početka, još od vremena kad je kuća sagrađena. Rekla sam profesoru da ova kuća ne liči na zemaljsku, nego na kuću iz bajke. On je odgovorio da su je upravo zato i pravili: da čovek na trenutak zaboravi zemaljske brige.\n\nPo podne smo ušli u jednu staru palatu, pa u drugu, a svaka je krasna na svoj način. Jedna ima prozore u obliku cveta, a druga stepenice koje liče na talas. Moja sveska je puna crteža, a glava je puna pitanja.\n\nSubotica, nedelja\n\nDanas smo išli na Palić. Šetali smo oko jezera i ostali do sumraka. Sumrak je tamo poseban: kad sunce nestane iza drveća, zgrade pored vode dobiju nežno zlatnu boju, a nebo se vidi u jezeru. Sedela sam na klupi i pisala.\n\nDirnulo me je koliko ljudi ovde brine o svojim kućama. Boje ih, čiste i popravljaju, iako ih to košta mnogo novca. Profesor Janoš je primetio da sam ćutala pola sata. Kad sam mu rekla zašto, i on je bio dirnut. Rekao je da zgrade ostaju lepe samo ako ih neko voli.\n\nPutovanje se završava, a ja sam dobila ono zbog čega sam došla: inspiraciju. Prava inspiracija ne dolazi iz knjiga, nego iz ulica po kojima čovek ide sporo. Za završni rad hoću da nacrtam malu biblioteku u Čačku, sa prozorom u obliku pera i sa malim delfinom u dvorištu. Tek sada razumem šta je profesor mislio kad je rekao da ću sve naći sama.\n\nPitanja:\nŠta je Mina videla na krovu Gradske kuće?\nVidela je šaren keramički krov i toranj sa satom.\nŠta je glavna osobina subotičke secesije, prema profesoru?\nTo je igra sa prirodom: cvetovi, lišće i ptice na zgradama.\nŠta je Mina nacrtala u svesku?\nNacrtala je veliko pero sa fasade jedne kuće.\nKakvu boju dobiju zgrade na Paliću u sumrak?\nDobiju nežno zlatnu boju.\nŠta Mina hoće da nacrta za završni rad?\nHoće da nacrta malu biblioteku u Čačku sa prozorom u obliku pera i sa delfinom u dvorištu."
+    },
+    {
+      "title": "Krtica ispod Beograda",
+      "summary": "A columnist visits a metro building site in Belgrade, where an engineer explains the tunnelling machine and an archaeologist shows a Roman spear point found in the earth.",
+      "newWords": [
+        "metro",
+        "krtica",
+        "platforma",
+        "koplje",
+        "blokada",
+        "evro",
+        "zavaravati",
+        "unaokolo",
+        "sutrašnji"
+      ],
+      "text": "Godinama se u Beogradu pričalo da je to jedan od retkih velikih evropskih gradova koji nema metro. Danas se ispod grada ipak nešto kreće, a to nešto radnici zovu krtica. Krtica je ogromna mašina za bušenje tunela, a nadimak joj je dao neko ko je prvi put video kako izlazi iz zemlje.\n\nPozvala me je inženjerka Tamara da vidim gradilište kod buduće stanice. Unaokolo su stajale visoke ograde, a ulica ispred njih bila je zatvorena. Zbog radova je ceo ovaj kraj pod blokadom, pa vozači već mesecima traže drugi put. Tamara ne misli da je to lepo, ali kaže da je to cena posla koji će koristiti svima.\n\n— Svaki metar tunela košta hiljade evra, a cela stanica košta stotine miliona evra — rekla je dok smo se spuštali niz drvene stepenice. — Zato ne smemo da pogrešimo.\n\nDole je bilo hladno i vlažno. Videli smo mesto gde će jednog dana biti platforma, široka i duga, sa žutom linijom pored koje će putnici čekati voz. Za sada je tu samo beton i prašina, ali Tamara je tačno znala gde će stajati klupe i gde će biti stepenice.\n\n— Metro neće biti gotov sutra — rekla je. — Ne treba da se zavaravamo. Ko misli da je ovakav posao lak, zavarava samog sebe. Veliki posao traje dugo, ali sutrašnji putnici će nam biti zahvalni. Beograd će biti drugačiji grad.\n\nPored krtice nas je čekala arheološkinja Marija. Rekla je da su radnici ovde našli stare ostatke zbog kojih je ceo posao morao da stane na nedelju dana. Pokazala nam je malu kutiju, a u njoj, na komadu platna, ležalo je nešto tamno i tanko.\n\n— Vrh koplja — rekla je. — Iz rimskog doba. Ovde je nekad bio put, a ljudi su prolazili unaokolo kao što mi prolazimo danas.\n\nTamara je dugo gledala koplje i ćutala. Zatim je rekla da je dobro što su ga našli sada, a ne posle deset godina, kad bi tunel već bio gotov. Marija se složila: prošlost ne mora da bude blokada za budućnost, ako se ljudi dogovore.\n\nKad smo izašli na svetlost, krtica je opet počela da radi. Zemlja se tiho pomerala, a nad nama su stajali prozori stanova i neko je mahao sa balkona. Tamara je pogledala nagore i rekla da sutrašnji Beograd već danas stoji ovde, ispod ulice, i čeka.\n\nPitanja:\nZašto radnici zovu mašinu krtica?\nZato što je neko video kako izlazi iz zemlje kao krtica.\nŠta je blokada na ulici?\nUlica je zatvorena zbog radova, pa vozači traže drugi put.\nŠta će jednog dana biti na platformi?\nPutnici će tu čekati voz pored žute linije.\nŠta je Marija pokazala u kutiji?\nPokazala je vrh koplja iz rimskog doba.\nŠta je Tamara rekla o sutrašnjem Beogradu?\nRekla je da sutrašnji Beograd već danas stoji ispod ulice i čeka."
+    },
+    {
+      "title": "Pingvini u Londonu",
+      "summary": "A Serbian father in London takes his five-year-old son, who wants to be a pirate, to see the penguins at the zoo, where the penguin pool is a famous modern building.",
+      "newWords": [
+        "pingvin",
+        "zločest",
+        "glupav",
+        "plač",
+        "pirat",
+        "tenis",
+        "disciplina",
+        "zuriti",
+        "prestraviti"
+      ],
+      "text": "Moj sin Luka ima pet godina i u Londonu živi od druge godine, ali još uvek ne zna šta je subota bez avanture. Prošle subote sam mu rekao da idemo u zoološki vrt, da vidimo pingvine. Odgovorio je da ne ide, jer je on pirat, a pirati ne gledaju pingvine.\n\nLuka je tog jutra bio pirat od glave do pete: crna marama, drveni mač i ljutit pogled. Pokušao sam da ga ubedim. Rekao sam da su pirati sigurno voleli životinje, ali on nije hteo da me sluša. Kad smo izašli iz kuće, počeo je da plače. Njegov plač čuo se kroz celu ulicu, a jedan komšija je stao i zurio u nas, kao da su svi pirati sveta prošli pored njegove kapije.\n\n— Ne budi zločest — rekao sam mu. — Samo pola sata. Posle toga idemo na tenis, kako smo se dogovorili.\n\nNa tu reč je prestao da plače. Tenis je jedino što voli više od pirata. Svake subote bacamo loptu u parku, a on ume da zamahne reketom kao pravi igrač.\n\nKad smo stigli, odmah sam ga odveo do bazena za pingvine. To je mala zgrada iz 1934. godine, koju je nacrtao arhitekta Lubetkin, i danas je poznata širom sveta. Dve staze od betona vijugaju jedna oko druge, pa pingvini mogu da hodaju gore i dole, a posetioci ih gledaju sa svih strana. Ovde su jednostavnost i disciplina išle zajedno: nijedna linija nije suvišna, a svaka nešto znači.\n\nLuka je prvo zurio u staze, pa u pingvine. Jedan pingvin je pao na stepenik i Luka se glasno nasmejao:\n\n— Glupav pingvin!\n\n— Ne govori tako — rekao sam. — Nije glupav, samo još uči. A i ti si pao juče sa bicikla. Nemoj da budeš zločest prema pingvinu, jer on to ne zaslužuje.\n\nOnda je pingvin skočio u vodu, voda je prskala po staklu, a Luka se prestravio i uhvatio me za ruku. Brzo se smirio. Pogledao me je ozbiljno i rekao da pingvini ne plaču nego skaču, i da bi pirat mogao da nauči od njih disciplinu. Pomislio sam da je u pravu i da ni ja nisam bio tako pametan u njegovim godinama.\n\nPred izlazak Luka je u prodavnici poklona uzeo malog plišanog pingvina, a mač je stavio u torbu. Pirat je tada već bio dobio novog druga.\n\nPitanja:\nZašto Luka nije hteo da ide u zoološki vrt?\nZato što je on pirat, a pirati ne gledaju pingvine.\nŠta je Luka počeo da radi kad su izašli iz kuće?\nPočeo je da plače, a komšija je stao i zurio u njih.\nŠta Luka voli više od pirata?\nVoli tenis.\nKako izgleda bazen za pingvine?\nDve staze od betona vijugaju jedna oko druge, pa pingvini hodaju gore i dole.\nZašto se Luka prestravio?\nJer je pingvin skočio u vodu i voda je prskala po staklu."
+    },
+    {
+      "title": "Ručak u starom selu",
+      "summary": "A grandmother shows her granddaughter from Belgrade an old wooden house in the open-air village at Sirogojno, and they cook lunch the way it used to be done.",
+      "newWords": [
+        "potok",
+        "kresati",
+        "motati",
+        "osušiti",
+        "vreo",
+        "mast",
+        "šunka",
+        "kašika",
+        "sastojak",
+        "otkinuti"
+      ],
+      "text": "Anja je odrasla u Beogradu, gde se ručak sprema u kuhinji, pa se jako iznenadila kad ju je baka Dragica odvela u Staro selo na Zlatiboru i rekla da će danas ručati na vatri. Staro selo je muzej na otvorenom: nekoliko drvenih kuća sa velikim krovovima, a u svakoj od njih može da se vidi kako su ljudi nekad živeli.\n\nPored prve kuće bio je mali potok. Baka je rekla da su u njemu nekad čuvali mleko i sir. Anja je spustila ruku u vodu i brzo je izvukla, jer je voda bila ledena.\n\nU kući je bilo mračno i toplo. Na sredini je bila mala vatra, a iznad nje visila je velika šunka. Baka je uzela komad kamena i komad metala.\n\n— Ovako se nekad kresala vatra — rekla je. — Nije bilo šibica.\n\nAnja je probala. Kresala je jednom, pa još jednom, ali su se varnice videle samo na trenutak. Baka se nasmejala i rekla da je ona to učila ceo mesec. Zatim je kresala sama, jednim pokretom, i mala vatra je zasijala u mraku. Anja je gledala baku sa poštovanjem.\n\nDok se vatra palila, baka je sela pored prozora i uzela vunu. Počela je da mota klupko, polako, kao da broji. Anja je pitala može li i ona da mota. Baka joj je pokazala kako da drži ruke. Posle nekoliko minuta Anja je znala da mota skoro kao baka.\n\nKad je vatra bila spremna, baka je stavila veliki lonac. U njega je sipala tri kašike masti, pa je dodala luk i komade šunke. Mast je zašištala, a miris se raširio po celoj kući. Zatim je Anja otkinula komad hleba i stavila ga u supu. Baka je rekla da to ne treba da radi, a onda je i sama otkinula komad hleba i stavila ga u supu.\n\n— A koji je tajni sastojak? — pitala je Anja.\n\n— Strpljenje — odgovorila je baka. — Svaki sastojak može da se kupi, ali strpljenje mora da se donese od kuće.\n\nSupa je bila vrela, pa je Anja morala da duva u svoju drvenu kašiku. Napolju je počeo da pada sitan sneg, a baka je otvorila vrata da malo vazduha uđe unutra. Rekla je da se u ovoj kući nekad moralo osušiti sve što se sprema za zimu: voće, meso, pa čak i vuna posle pranja. Kad su pojele, izašle su do potoka da operu sudove. Anja je osušila ruke maramom i rekla da joj je ručak kod kuće uvek bio dobar, ali da je ovaj bolji, naročito dok je još vreo. Baka se samo nasmejala.\n\nPitanja:\nZašto se Anja iznenadila?\nBaka ju je odvela u Staro selo i rekla da će ručati na vatri.\nŠta je Anja probala da radi?\nProbala je da kreše vatru, ali su se varnice videle samo na trenutak.\nŠta je baka motala dok se vatra palila?\nMotala je vunu u klupko.\nŠta je baka stavila u lonac?\nStavila je mast, luk i komade šunke.\nKoji je tajni sastojak, prema baki?\nRekla je da je to strpljenje."
+    },
+    {
+      "title": "Nedelja u banji",
+      "summary": "A retired teacher with a sore back spends a week in the old spa of Vrnjačka Banja, where a therapist helps him and a historic building tells its own story.",
+      "newWords": [
+        "terapeut",
+        "ozdraviti",
+        "boljeti",
+        "dlan",
+        "ugovoriti",
+        "velikodušan"
+      ],
+      "text": "Milan je četrdeset godina bio učitelj u Kraljevu, a poslednjih deset godina leđa su ga često bolela. Kad se penzionisao, doktor mu je rekao da mora da ode u banju. Milan je dugo odbijao. Osećao je krivicu što ide na odmor dok drugi rade, pa je rekao ćerki da će otići samo ako ona ugovori termin kod najboljeg terapeuta.\n\nĆerka je tako i uradila. Ugovorila je prvi pregled za ponedeljak u starom zdanju u Vrnjačkoj Banji, a Milan je sa malim koferom stigao u nedelju uveče. Zgrada je bila žuta, sa belim prozorima i dugačkim hodnikom. U hodniku je visila tabla na kojoj je pisalo da je kuću pre sto godina podigao velikodušan lekar, koji je veliki deo svog novca dao bolesnima.\n\nUjutru ga je dočekala terapeut Sanja, mlada žena sa mirnim glasom. Zamolila ga je da sedne i da joj kaže gde ga boli.\n\n— Boli me ceo život — odgovorio je Milan, pa se zbunio. — Mislim, boli me leđa.\n\nSanja se nasmejala. Stavila mu je dlanove na leđa i polako ih pomerala, kao da traži mesto na kome je napetost najveća. Milan je njene dlanove osećao kao dva topla kamena.\n\n— Imate dobra leđa — rekla je. — Samo ih niste slušali.\n\nMilan nije verovao da će mu to pomoći, ali je sutradan opet došao. Dolazio je svaki dan, a Sanja ga je učila malim vežbama koje može da radi i kod kuće. Posle tri dana mogao je da stoji pravo. Posle pet dana ušao je u salu bez štapa. Leđa su ga bolela sve manje, a on je sve više šetao: do izvora, do parka, do klupe pored staze.\n\nŠestog dana ga je Sanja pitala šta će da radi kad se vrati kući.\n\n— Ništa teško — rekao je. — Slušaću svoja leđa.\n\n— To je pola posla — rekla je. — Druga polovina je da ne osećate krivicu zato što se odmarate. Ljudi misle da se ozdravlja samo od lekova. Ja kažem da čovek ozdravi onda kad sebi dozvoli da ozdravi.\n\nMilan je dugo ćutao. Shvatio je da je krivica koju nosi teža od svih ormana koje je ikad podigao. Poslednje večeri seo je na klupu ispred zdanja i zagledao se u žute zidove. Mislio je na lekara koji je pre sto godina dao novac za ovu kuću. Taj čovek nije osećao krivicu zato što daje. Zašto bi je Milan osećao zato što prima? Pomislio je da je i Sanja velikodušna, jer svoje vreme deli sa svima koji dođu.\n\nVratio se u Kraljevo sa ravnim leđima. Na stanici ga je čekala ćerka i pitala ga da li ga još boli. Milan je odgovorio da ga boli samo to što je tako dugo čekao da ode. Pred rastanak je sa Sanjom ugovorio novi termin za jesen.\n\nPitanja:\nZašto je Milan dugo odbijao da ode u banju?\nOsećao je krivicu što ide na odmor dok drugi rade.\nKo je ugovorio prvi pregled?\nĆerka je ugovorila prvi pregled u staroj banjskoj zgradi.\nKo je podigao žutu zgradu u banji?\nPodigao ju je velikodušan lekar pre sto godina.\nŠta je Sanja uradila svojim dlanovima?\nStavila je dlanove na Milanova leđa i pomerala ih tražeći napetost.\nŠta je Milan ugovorio pred rastanak?\nUgovorio je novi termin za jesen."
+    },
+    {
+      "title": "Premijera u Kragujevcu",
+      "summary": "The costume maker of a theatre in Kragujevac prepares a classic play about a poet and handles a vain actor on the day before the premiere.",
+      "newWords": [
+        "orkestar",
+        "perika",
+        "sako",
+        "šal",
+        "klasik",
+        "kritika",
+        "pesnik",
+        "bradavica",
+        "ego"
+      ],
+      "text": "U Kragujevcu je sutra premijera, a u pozorištu se već od jutra niko ne smeje. Olga, koja dvadeset godina pravi kostime, hoda hodnikom sa šalom u jednoj i sakoom u drugoj ruci i nešto govori sebi u bradu. Predstava je klasik, komad o jednom pesniku koji je živeo pre sto godina, a glavnu ulogu igra Stefan.\n\nStefan je dobar glumac, ali ima veliko ego. To svi znaju, pa i Olga. Kad god treba da proba kostim, on prvo dugo gleda u ogledalo, pa tek onda kaže šta misli.\n\n— Sako je mali — rekao je jutros. — Pesnik nije bio ovako mršav.\n\n— Pesnik jeste bio mršav — odgovorila je Olga. — Imam sliku. Ali ako želite, napraviću sako većim za jedan prst.\n\n— Ni šal mi se ne dopada. Previše je crven.\n\n— Pesnik je nosio crven šal. To piše u tekstu — rekla je Olga mirno. — Na četvrtoj strani.\n\nStefan je ćutao, pa je uzeo periku. Perika je bila siva i duga, kao kosa starog pesnika sa fotografije. Stavio ju je na glavu i dugo se gledao. Olga je dodala još jedan detalj: malu bradavicu pored nosa, koju je nacrtala olovkom za šminkanje.\n\n— Bradavica? — pitao je Stefan. — Zar baš to treba da vide?\n\n— Treba — odgovorila je Olga. — Bradavica je deo pesnika, kao i šal. Publika mora odmah da ga prepozna.\n\nUveče je bila poslednja proba. Ispred scene sedeli su članovi orkestra, jer su želeli da sve bude savršeno. Orkestar je počeo da svira, a Olga je iza zavese slušala muziku i brojala trenutke. Tada je Stefan izašao na scenu u sakou, sa crvenim šalom i sivom perikom, i stao pod svetlo. Nešto se promenilo. Nije se više gledao u ogledalu. Nije više mislio na sebe. Stajao je pred publikom i govorio reči kao da ih je on napisao. Njegovo ego ostalo je iza zavese.\n\nSutradan je sala bila puna. Posle predstave je Olga sedela u garderobi i prala šalove, kad je ušao Stefan sa novinama u ruci.\n\n— Pročitao sam kritiku — rekao je. — Piše da je pesnik bio pravi, a ne glumljen.\n\n— Vidite — rekla je Olga. — Bradavica je pomogla.\n\nStefan se nasmejao prvi put posle mnogo dana. Rekao je da je sako ipak taman i da ne želi da ga menja. Olga se samo nasmejala i nastavila da pravi novi šal.\n\nPitanja:\nŠta Olga radi u pozorištu?\nŠije kostime i priprema ih za premijeru.\nO čemu je predstava?\nTo je klasik o jednom pesniku koji je živeo pre sto godina.\nŠta se Stefanu nije dopalo na probi?\nNisu mu se dopali sako i crveni šal.\nŠta je Olga nacrtala pored Stefanovog nosa?\nNacrtala je malu bradavicu.\nKo je svirao na probi?\nSvirao je orkestar ispred scene.\nŠta je pisalo u kritici?\nPisalo je da je pesnik bio pravi, a ne glumljen."
+    },
+    {
+      "title": "Pismo iz Beča",
+      "summary": "A woman who has lived in Vienna for twenty years writes to her sister in Čačak about a vote in her building, new neighbours and the meaning of home.",
+      "newWords": [
+        "domovina",
+        "doseliti",
+        "stanar",
+        "povezanost",
+        "udaja",
+        "onamo",
+        "glasanje",
+        "zavet",
+        "opstanak"
+      ],
+      "text": "Beč, 12. decembra\n\nDraga Milice,\n\nPišem ti iz kuhinje, dok napolju pada prvi sneg. Znam da misliš kako ti pišem prekasno, ali ovog meseca imala sam toliko toga da ispričam da nisam znala odakle da počnem.\n\nPočeću od naše zgrade. Znaš da je stara, sa visokim plafonima i velikim dvorištem. U dvorištu stoji jedna lipa, starija od svih nas. Prošle nedelje je stiglo pismo da drvo treba iseći, jer su mu koren i grane počeli da smetaju zgradi. Ta lipa je moj komšiluk, moja jutarnja kafa i moj mir. Zato sam, naravno, pozvala sve stanare na razgovor.\n\nDošlo je skoro trideset stanara iz osam zemalja. Stajali smo u hodniku i govorili na tri jezika, a mala Sofija, koja se ove jeseni doselila sa roditeljima iz Lisabona, prevodila je između dvoje starijih komšija. Posle sat vremena dogovorili smo se da bude glasanje. Glasanje je trajalo samo nekoliko minuta, a rezultat je bio osamnaest prema dvanaest. Lipa ostaje! Opstanak jednog drveta nikad nije izgledao tako važan.\n\nSutradan me je zvala moja ćerka Ana. Posle udaje je ostala ovde, kao što znaš. Njena udaja nam je svima promenila život, a ja sada imam unuka koji često dolazi u moju kuhinju. Rekla mi je da je ponosna na mene i da bi dvorište bez drveta ličilo na parking. Smejale smo se, a onda me je pitala nešto o čemu sam dugo razmišljala: da li se osećam više kao Beograđanka, kao Čačanka ili kao Bečlijka.\n\nNisam znala šta da joj odgovorim. Ljudi me ponekad pitaju šta mi je domovina. Ja kažem da je domovina mesto koje te čeka i kad ti nisi tu. Osećam povezanost sa oba grada. Ovde imam drvo i komšije, a onamo, kod vas, imam tebe, mamin sto i reku. Ta povezanost ne smeta nijednoj strani. Opstanak ove lipe znači mi koliko i opstanak naših običaja, i zato ih čuvam i ovde i onamo.\n\nPre dvadeset godina sam sebi dala zavet da ću svakog leta doći u Čačak, bez obzira na sve. I držim ga. Ove godine će nas biti više, jer sa mnom dolaze Ana i unuk. Unuk je čuo da kod vas rastu trešnje, pa se već raduje. Svaki dan me pita kako se kaže „trešnja“ na našem jeziku, a ja mu to sa uživanjem objašnjavam.\n\nPozdravi sve moje. Piši mi.\n\nTvoja Jelena\n\nPitanja:\nZašto su stanari razgovarali o lipi?\nStiglo je pismo da drvo treba iseći, jer smeta zgradi.\nKo se doselio u zgradu ove jeseni?\nMala Sofija se doselila sa roditeljima iz Lisabona.\nKakav je bio rezultat glasanja?\nOsamnaest stanara je glasalo da drvo ostane, a dvanaest protiv.\nŠta Jelena kaže o domovini?\nKaže da je domovina mesto koje te čeka i kad ti nisi tu.\nKakav zavet je Jelena dala sebi?\nDala je zavet da će svakog leta doći u Čačak."
+    },
+    {
+      "title": "Tvrđava iz vazduha",
+      "summary": "At the Niš fortress a professor and her student document the walls with a scanner and a small flying device before the autumn rain.",
+      "newWords": [
+        "skener",
+        "letelica",
+        "veštački",
+        "nezavisan",
+        "senat",
+        "udružiti",
+        "decembar"
+      ],
+      "text": "Nišku tvrđavu zna svaki Nišlija, ali je malo ko ikad video celu odozgo. Ove jeseni se to promenilo. Profesorka Nada i njen student Ivan uzeli su malu letelicu, spustili je u travu ispred zidina i čekali da se vetar stiša.\n\n— Ovako dobar dan ne dolazi često — rekla je Nada. — Ovo je sa vremenom. Do decembra moramo da završimo posao, jer posle toga dolaze kiše.\n\nNjihov projekat počeo je pre godinu dana. Univerzitet je odlučio da napravi tačnu kopiju tvrđave u računaru, sa svakim kamenom, svakom pukotinom i svakim stepenikom. Senat univerziteta je odobrio novac, a studenti i profesori su se udružili sa gradskim muzejom. Ivan je do tada napravio više od hiljadu fotografija, ali Nada je tražila više. Zato su doneli skener.\n\nSkener je stajao na tronošcu pored kapije, mala crna kutija koja se polako okreće. Kad ga pokrenete, šalje hiljade tankih zraka i meri koliko je svaka tačka zida daleko od njega. Letelica je radila isti posao kao skener, samo iz vazduha. Ivan ju je dizao polako, pazeći na vetar, i na ekranu je gledao kako se zidine pretvaraju u šarenu mrežu tačaka.\n\n— Veštačko svetlo nam ne treba — rekla je Nada. — Sunce je danas savršeno. Veštačko svetlo bi samo pokvarilo snimke. Zato žurimo.\n\nPosle podne su na ekranu videli nešto neočekivano: u donjem delu jednog zida, ispod malte, nazirao se stari luk koji niko nije znao da postoji. Nada je dugo gledala sliku i ćutala. Zatim je pozvala nezavisnog stručnjaka iz Beograda, jer je želela da njegovo mišljenje bude neutralno. Stručnjak je došao već sutradan, pregledao snimak i potvrdio da je u pitanju stari prolaz.\n\nTrka s vremenom nastavila se još tri nedelje. Ivan je dizao letelicu čim bi vetar prestao, Nada je pregledala snimke, a komšije su donosile kafu. Početkom decembra, kad su prve kiše stigle, posao je bio gotov. Kopija tvrđave živi u računaru, a svako ko želi može da je razgleda sa kauča.\n\nNada je rekla da je to najlepši poklon koji su mogli da daju gradu. Ivan je odgovorio da je najlepše to što je tvrđava ostala cela, a kopija joj je samo dala još jedan život.\n\nPitanja:\nŠta su Nada i Ivan spustili u travu ispred zidina?\nSpustili su malu letelicu.\nZašto je njihov rad sa vremenom?\nMoraju da završe do decembra, jer posle toga dolaze kiše.\nKo je odobrio novac za projekat?\nSenat univerziteta je odobrio novac.\nŠta su videli na ekranu posle podne?\nVideli su stari luk u donjem delu jednog zida.\nSa kim su se udružili studenti i profesori?\nUdružili su se sa gradskim muzejom.\nZašto je Nada pozvala nezavisnog stručnjaka?\nŽelela je da njegovo mišljenje bude neutralno."
+    }
+  ]
+}
