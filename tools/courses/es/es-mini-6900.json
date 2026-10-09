@@ -1,0 +1,223 @@
+{
+  "id": "es-mini-6900",
+  "rankUpTo": 6900,
+  "level": "C1",
+  "title": "Los números y el razonamiento",
+  "description": "Ten stories and texts about numbers and reasoning from Spain, Cuba, Mexico, Argentina, Peru, Uruguay, Guatemala, Colombia, Chile and the United States: mental arithmetic at a market, the three-doors puzzle on the radio, toll roads, invented invoices, a retreating waterfall, a flu outbreak, ancestors, figures in public debate, counting birds and the laws of chance.",
+  "topic": "Numbers and reasoning",
+  "names": [
+    "Maruja",
+    "Iván",
+    "Oviedo",
+    "Asturias",
+    "Canarias",
+    "Ecuador",
+    "Osvaldo Pérez",
+    "Osvaldo",
+    "La Habana",
+    "Mercedes",
+    "Leticia Ramírez",
+    "Leticia",
+    "Ciudad de México",
+    "Graciela Funes",
+    "Graciela",
+    "Córdoba",
+    "Benford",
+    "Lima",
+    "Cajamarca",
+    "Quispe",
+    "Marañón",
+    "Amazonas",
+    "Montevideo",
+    "Andrea Silva",
+    "Andrea",
+    "Bruno",
+    "Mauricio Castillo",
+    "Mauricio",
+    "Antigua Guatemala",
+    "Arnoldo",
+    "Javier",
+    "Guatemala",
+    "México",
+    "España",
+    "Chile",
+    "Colombia",
+    "Paula Andrade",
+    "Paula",
+    "Chiloé",
+    "Tomás",
+    "Rosa Elena Garza",
+    "Rosa Elena",
+    "San Antonio",
+    "Texas",
+    "Kevin"
+  ],
+  "lessons": [
+    {
+      "title": "La balanza de Maruja",
+      "summary": "A grandson spends a hot summer week with his grandmother, a travelling fruit seller in Asturias, and learns how she does all her sums in her head.",
+      "newWords": [
+        "mentalmente",
+        "asturiano",
+        "destreza",
+        "ambulante",
+        "ticket",
+        "banana",
+        "platillo",
+        "tecla",
+        "impecable",
+        "caluroso"
+      ],
+      "text": "Maruja tiene 71 años y lleva más de 40 años trabajando como vendedora ambulante. Cada martes y cada viernes recorre con su furgoneta los pueblos de la montaña asturiana y vende fruta en las plazas. El verano pasado, su nieto Iván, que estudia ingeniería en Oviedo, decidió acompañarla durante una semana.\n\nFue un verano muy caluroso. El primer día, a las diez de la mañana, ya hacía 30 grados, algo poco habitual en Asturias, y la gente buscaba la sombra de la furgoneta. Maruja abrió las cajas: manzanas, cerezas, plátanos de Canarias y bananas de Ecuador. «No es lo mismo», le explicó a Iván. «El plátano es más pequeño y más dulce; la banana es más grande y más barata. Aquí la gente lo sabe muy bien.»\n\nPara pesar la fruta, Maruja usaba una balanza antigua de dos platillos. En un platillo ponía la fruta y en el otro, las pesas de metal. Iván le preguntó por qué no compraba una balanza moderna. «Porque esta no se rompe nunca», contestó ella, «y porque el cliente ve con sus propios ojos los dos platillos y sabe lo que paga.»\n\nLo que más sorprendió a Iván fue la destreza de su abuela con los números. Una clienta pidió un kilo y medio de cerezas a 6,40 euros el kilo, dos kilos de manzanas a 2,15 y un kilo de bananas a 1,90. Antes de que Iván pudiera abrir la calculadora del móvil y pulsar las primeras teclas, Maruja ya había dicho el total: 15 euros con 80. Iván lo comprobó tecla por tecla. Era exacto.\n\nEsa tarde, mientras volvían a casa por la carretera de la costa, Iván le pidió que le explicara su método. Maruja se rió. «No hay ningún secreto. Calculo mentalmente con números redondos y después corrijo. Un kilo y medio a 6,40 es un kilo a 6,40 más medio kilo a 3,20: eso son 9,60. Dos kilos a 2,15 son 4,30. Y ya está.» Iván entendió que su abuela no calculaba más rápido que él porque fuera un genio, sino por una destreza que había ganado con 40 años de práctica diaria.\n\nPor la noche, Iván revisó el cuaderno donde Maruja apuntaba las ventas. Las cuentas eran impecables: ni un solo error en toda la semana. A cada cliente le escribía un ticket a mano, con la fecha y el precio, y al final del día sumaba mentalmente lo que decía cada ticket y lo comparaba con el dinero de la caja. Siempre coincidía. Hasta la letra era impecable.\n\nEl último día, el más caluroso de la semana, una señora le preguntó a Iván si iba a ser vendedor ambulante como su abuela. Él dijo que no, que iba a ser ingeniero. «Pues aprende de ella», le dijo la señora, con la sinceridad de una buena asturiana, «que con esa cabeza podría dirigir un banco.» Desde entonces, cuando Iván tiene que hacer una cuenta sencilla, intenta hacerla mentalmente antes de buscar las teclas de la calculadora.\n\nPreguntas:\n¿Cómo trabaja Maruja?\nEs vendedora ambulante: recorre con su furgoneta los pueblos de la montaña asturiana y vende fruta en las plazas.\n¿Qué diferencia hay entre el plátano y la banana, según Maruja?\nEl plátano es más pequeño y más dulce, y la banana es más grande y más barata.\n¿Por qué Maruja usa una balanza de dos platillos?\nPorque no se rompe nunca y porque el cliente ve los dos platillos y sabe lo que paga.\n¿Cómo calcula Maruja tan rápido?\nCalcula mentalmente con números redondos y después corrige.\n¿Qué hacía Maruja al final de cada día?\nSumaba mentalmente lo que decía cada ticket y lo comparaba con el dinero de la caja."
+    },
+    {
+      "title": "Las tres puertas",
+      "summary": "A maths teacher who hosts a Saturday radio show in Havana presents the famous three-doors problem, and his listeners test the answer at home.",
+      "newWords": [
+        "oyente",
+        "paradoja",
+        "controvertido",
+        "rehusar",
+        "enloquecer",
+        "validar",
+        "elegancia",
+        "advertido",
+        "rondar"
+      ],
+      "text": "Todos los sábados por la mañana, Osvaldo Pérez, profesor de matemáticas jubilado, presenta un programa de radio en La Habana. Durante una hora habla de números con sus oyentes, que lo llaman por teléfono para proponerle problemas o discutir los suyos. Aquel sábado empezó con una advertencia: «Quedan ustedes advertidos: el problema de hoy ha enloquecido a gente muy inteligente.»\n\nEra la llamada paradoja de las tres puertas. En un concurso de televisión, el concursante tiene delante tres puertas cerradas. Detrás de una hay un premio; detrás de las otras dos, nada. El concursante elige una puerta, pero antes de abrirla, el presentador, que sabe dónde está el premio, abre una de las otras dos y muestra que está vacía. Entonces le pregunta al concursante si quiere cambiar de puerta. ¿Le conviene cambiar?\n\nLas llamadas empezaron enseguida. Casi todos los oyentes decían lo mismo: quedan dos puertas, así que la probabilidad es de un medio para cada una, y da igual cambiar o no. Osvaldo los escuchaba con paciencia y después explicaba que no: quien cambia gana dos veces de cada tres. Por eso el problema es tan controvertido: a algunos matemáticos famosos los enloqueció durante semanas. La respuesta correcta parece absurda, y por eso se habla de paradoja, aunque la lógica no tiene ninguna trampa. La paradoja no está en el problema, sino en nuestra intuición.\n\nUna oyente, Mercedes, ingeniera de 68 años, estaba advertida, pero aun así se rehusó a aceptarlo. «Profesor, con todo respeto, eso no tiene sentido. Dos puertas, dos posibilidades.» Osvaldo no se rehusó a discutir con ella; al contrario, le dio las gracias. Le propuso una versión con cien puertas: el concursante elige una, y el presentador abre 98 puertas vacías. ¿De verdad cree que su primera elección, hecha entre cien, vale lo mismo que la única puerta que el presentador ha dejado cerrada? Mercedes se quedó callada unos segundos y después dijo: «Visto así, cambiaría.» Osvaldo admiró la elegancia de su manera de rendirse: «Eso es lo bonito de las matemáticas. Una idea con elegancia convence sin gritar.»\n\nPero una explicación no basta; hay que validar la respuesta con datos. Osvaldo propuso un experimento a todos los oyentes: durante la semana, en casa, con tres vasos y una moneda, debían jugar cien veces cambiando de vaso y anotar cuántas veces ganaban. Uno escondía la moneda y hacía de presentador; otro hacía de concursante.\n\nEl sábado siguiente, las llamadas rondaban las 200 antes de empezar el programa. Los resultados rondaban siempre la misma cifra: quien cambiaba ganaba unas 66 veces de cada cien. Mercedes llamó la primera: había jugado con su nieta y había ganado 67 veces. «Ya está validado», dijo Osvaldo. «Y lo han validado ustedes, no yo.» Esa mañana, el controvertido problema dejó de enloquecer a nadie en aquella emisora.\n\nPreguntas:\n¿Qué hace Osvaldo los sábados por la mañana?\nPresenta un programa de radio en La Habana, donde habla de números con sus oyentes.\n¿Qué decían casi todos los oyentes sobre el problema?\nDecían que quedaban dos puertas y que daba igual cambiar o no.\n¿Por qué se rehusó Mercedes a aceptar la respuesta?\nPorque le parecía que dos puertas eran dos posibilidades iguales.\n¿Cómo la convenció Osvaldo?\nLe propuso una versión con cien puertas, en la que el presentador abre 98 puertas vacías.\n¿Cómo validaron los oyentes la respuesta?\nJugaron cien veces en casa con tres vasos y una moneda, y quien cambiaba ganaba unas 66 veces de cada cien."
+    },
+    {
+      "title": "¿Cuántas personas caben en un auto?",
+      "summary": "A Mexico City newspaper interviews a traffic engineer about tolls, car occupancy and why a single number can change how a city moves.",
+      "newWords": [
+        "peaje",
+        "vehicular",
+        "ocupante",
+        "garaje",
+        "coeficiente",
+        "posponer",
+        "urgir",
+        "reestructuración",
+        "palanca",
+        "tenencia",
+        "organizativo"
+      ],
+      "text": "La ingeniera Leticia Ramírez dirige desde hace dos años el área de estudios de movilidad de la Ciudad de México. Su equipo acaba de publicar un informe sobre el tráfico vehicular en las entradas de la ciudad. Hablamos con ella en su oficina.\n\nSu informe empieza con un solo número: 1,3. ¿Qué significa?\n\nLeticia: Es el coeficiente de ocupación: el número medio de ocupantes por auto. En las horas de más tráfico, cada auto que entra en la ciudad lleva 1,3 ocupantes. Es decir, la mayoría de los autos llevan solo al conductor. Si ese coeficiente subiera a 2, el tráfico vehicular bajaría más de un tercio sin construir ni un metro de carretera.\n\n¿Cómo midieron ese coeficiente?\n\nLeticia: De la manera más sencilla: contando. Durante un mes, varios equipos se pusieron junto a las casetas de peaje de las autopistas y contaron los ocupantes de cada auto. Fueron más de 200.000 autos. Los números no mienten, pero hay que ir a buscarlos.\n\n¿Qué proponen?\n\nLeticia: Usar el peaje como palanca. Hoy todos pagan el mismo peaje, vayan solos o con tres ocupantes. Proponemos que los autos con tres ocupantes o más no paguen peaje en las horas de más tráfico. El precio es una palanca muy poderosa: cambia la conducta de miles de personas sin obligar a nadie.\n\nAlgunos dicen que la culpa es del garaje. ¿Es así?\n\nLeticia: En parte, sí. Quien tiene garaje en casa y garaje gratis en el trabajo usa el auto todos los días, porque no le cuesta nada dejarlo. Por eso también estudiamos el precio del estacionamiento en el centro. Y hay otro factor: la tenencia. Durante años, la tenencia, el impuesto anual por tener un auto, fue una fuente de ingresos importante. Hoy hay quien propone recuperar la tenencia para los autos más grandes. Ese es un debate político; nosotros solo damos los números.\n\n¿Por qué se pospuso la publicación del informe?\n\nLeticia: Por la reestructuración de la secretaría. Cuando un equipo cambia de jefes y de oficinas, todo se retrasa. Fue una reestructuración necesaria, pero tuvimos que posponer la publicación tres meses. Ahora el problema organizativo está resuelto, y el informe ya está en manos de los diputados.\n\n¿Hay prisa?\n\nLeticia: Urge. Cada año entran en la ciudad miles de autos nuevos. Si seguimos posponiendo las decisiones, el problema crecerá. Me urge que se entienda una cosa: el tráfico no es un problema organizativo ni técnico solamente; también es un problema de hábitos. Y los hábitos se cambian con buenos incentivos.\n\nPreguntas:\n¿Qué es el coeficiente de ocupación?\nEs el número medio de ocupantes por auto.\n¿Cómo midió el equipo de Leticia ese coeficiente?\nVarios equipos contaron los ocupantes de cada auto junto a las casetas de peaje durante un mes.\n¿Qué proponen hacer con el peaje?\nProponen que los autos con tres ocupantes o más no paguen peaje en las horas de más tráfico.\n¿Qué es la tenencia?\nEs el impuesto anual por tener un auto.\n¿Por qué tuvieron que posponer la publicación del informe?\nPor la reestructuración de la secretaría, que retrasó el trabajo tres meses."
+    },
+    {
+      "title": "El perito y el primer dígito",
+      "summary": "An accounting expert in Córdoba, Argentina, uses a simple fact about first digits to show a court that a manager invented hundreds of invoices.",
+      "newWords": [
+        "perito",
+        "cordobés",
+        "negligencia",
+        "jurista",
+        "demandante",
+        "incurrir",
+        "certificar",
+        "sellado",
+        "descarado",
+        "filtración",
+        "impresora"
+      ],
+      "text": "Graciela Funes es contadora y trabaja desde hace veinte años como perito para los tribunales de Córdoba. Cuando un juez necesita entender unas cuentas, la llama a ella. Su trabajo es analizar los números y explicarlos con claridad, sin tomar partido por ninguna de las dos partes.\n\nEn marzo recibió un caso nuevo. La demandante era una cooperativa de productores de leche del norte cordobés. Según la cooperativa, su antiguo administrador había incurrido en negligencia grave: había pagado facturas sin revisarlas y la cooperativa había perdido mucho dinero. El administrador lo negaba. Decía que no había incurrido en ningún error y que todas las facturas eran de proveedores reales.\n\nUn día de lluvia, un empleado del juzgado le llevó a Graciela tres cajas de documentos y un sobre sellado con los datos de la contabilidad. Ella firmó el recibo, abrió el sobre sellado delante de él y empezó a trabajar. El juez le había pedido discreción absoluta: en un pueblo pequeño, cualquier filtración a la prensa podía hacer daño a personas inocentes. Por eso Graciela trabajaba sola, en su oficina, sin hablar del caso con nadie.\n\nPrimero aplicó una herramienta que conocen todos los peritos: la ley de Benford. En las cuentas reales, el primer dígito de los números no aparece con la misma frecuencia. El 1 aparece en casi un tercio de los casos; el 9, en menos de uno de cada veinte. Quien inventa números suele repartirlos de manera más igualada, sin saberlo.\n\nGraciela separó las 1.400 facturas del administrador y contó los primeros dígitos. El resultado fue descarado: había muchas facturas que empezaban por 7 y por 8, y muy pocas por 1. Después revisó una por una las facturas sospechosas. Varios proveedores no existían, y algunas facturas tenían el mismo número.\n\nImprimió los gráficos en su vieja impresora, que tardaba diez minutos en cada página, y los incluyó en el informe. Antes de entregarlo, lo leyó un jurista cordobés de mucho prestigio, su antiguo profesor, que le corrigió dos frases para que fueran más precisas. Graciela certificó cada página con su firma y su sello, como exige la ley. Certificar un informe es una responsabilidad seria: el perito responde de cada número.\n\nEn la audiencia, el juez miró los gráficos con atención. El abogado del administrador intentó decir que la ley de Benford no prueba nada, y Graciela le dio la razón en parte: «La ley no prueba un fraude; solo indica dónde buscar. Lo que prueba el fraude son las facturas falsas.» La explicación fue tan clara que no hubo filtración ni escándalo: el administrador reconoció los hechos y devolvió una parte del dinero.\n\nEsa noche, Graciela apagó la impresora y pensó, como siempre, que los números falsos casi nunca son tan descarados como parecen; simplemente, quien los inventa no sabe cómo se comportan los verdaderos.\n\nPreguntas:\n¿Qué hace Graciela en los tribunales de Córdoba?\nTrabaja como perito: analiza los números y los explica con claridad, sin tomar partido.\n¿De qué acusaba la demandante al administrador?\nLa cooperativa decía que el administrador había incurrido en negligencia grave y había pagado facturas sin revisarlas.\n¿Por qué el juez le pidió discreción?\nPorque cualquier filtración a la prensa podía hacer daño a personas inocentes.\n¿Qué dice la ley de Benford?\nQue en las cuentas reales el primer dígito no aparece con la misma frecuencia: el 1 aparece mucho más que el 9.\n¿Qué hizo Graciela antes de entregar el informe?\nUn jurista cordobés lo leyó y ella certificó cada página con su firma y su sello."
+    },
+    {
+      "title": "El cuaderno de la cascada",
+      "summary": "A geology student in the Peruvian Andes keeps a field diary while she works out how long a waterfall has taken to cut its gorge.",
+      "newWords": [
+        "cascada",
+        "geológico",
+        "cronología",
+        "desembocar",
+        "vertiente",
+        "hondo",
+        "prematuro",
+        "fundir",
+        "cimiento",
+        "anhelar"
+      ],
+      "text": "Lunes, 14 de julio. Por fin estoy aquí. Desde que empecé a estudiar geología en Lima anhelaba hacer un trabajo de campo de verdad, y ahora tengo tres semanas en un valle de la sierra de Cajamarca con el profesor Quispe y dos compañeros. Nuestro objetivo es una cascada de 60 metros que cae por la vertiente oriental de la cordillera. El río que forma la cascada baja hacia el este y, muchos kilómetros después, desemboca en el Marañón, que a su vez desemboca en el Amazonas. En esta vertiente llueve mucho más que en la vertiente occidental, la que mira al océano Pacífico.\n\nMartes, 15 de julio. Hoy bajamos al pie de la cascada. El agua ha excavado un pozo tan hondo que no se ve el fondo. Debajo de la cascada empieza un cañón estrecho y hondo de unos 3 kilómetros. El profesor nos explicó la idea principal: la cascada no está quieta. Cada año el agua rompe un poco la roca y la cascada retrocede hacia arriba. El cañón es el camino que ha dejado detrás.\n\nJueves, 17 de julio. Hoy hicimos las cuentas. Según las fotos antiguas y las marcas de la roca, la cascada retrocede unos 30 centímetros por año. Si el cañón mide 3 kilómetros, es decir, 3.000 metros, la cascada habría tardado unos 10.000 años en excavarlo. Me pareció un resultado precioso, y lo escribí en mayúsculas. El profesor me pidió calma: «Es una conclusión prematura.»\n\nViernes, 18 de julio. Hoy entendí por qué. Hace unos 10.000 años terminó la última gran época de frío, y los glaciares de la cordillera empezaron a fundirse. Mientras se fundían, el río llevaba mucha más agua que hoy, y la cascada debía de retroceder mucho más rápido. Así que la velocidad de hoy no sirve para todo el pasado. El profesor dijo que el error de ayer era el más común en el trabajo geológico: suponer que el mundo siempre ha funcionado al mismo ritmo. Lo prematuro no era la cuenta, sino la confianza.\n\nSábado, 19 de julio. Esta noche, junto al fuego, el profesor nos habló de los cimientos de la geología moderna. Uno de esos cimientos es la idea de que el presente explica el pasado: los mismos procesos que vemos hoy formaron las montañas y los valles. Es un buen cimiento, dijo, pero hay que usarlo con cuidado, porque la intensidad de los procesos cambia.\n\nLunes, 28 de julio. Último día. Con muestras de roca, cálculos sobre el agua que llevaba el río cuando se fundieron los glaciares y otros datos, hemos preparado una cronología más prudente: el cañón tiene entre 6.000 y 10.000 años. No es una cifra exacta, pero es honesta. Me llevo a Lima la cronología del cañón, el ruido de la cascada y una lección sencilla: en el trabajo geológico, una cuenta fácil es solo el principio de una pregunta difícil.\n\nPreguntas:\n¿Qué anhelaba la autora del diario desde que empezó a estudiar geología?\nAnhelaba hacer un trabajo de campo de verdad.\n¿Dónde desemboca el río que forma la cascada?\nDesemboca en el Marañón, que a su vez desemboca en el Amazonas.\n¿Cómo calculó la autora la edad del cañón?\nDividió los 3.000 metros del cañón entre los 30 centímetros que la cascada retrocede cada año.\n¿Por qué era prematura su conclusión?\nPorque, cuando los glaciares se fundían, el río llevaba mucha más agua y la cascada retrocedía más rápido.\n¿Qué cronología prepararon al final?\nUna cronología más prudente: el cañón tiene entre 6.000 y 10.000 años."
+    },
+    {
+      "title": "Cómo crece una gripe",
+      "summary": "When flu spreads through a school in Montevideo, a biology teacher uses the outbreak to show her pupils how infections grow and why they slow down.",
+      "newWords": [
+        "infectar",
+        "inmune",
+        "aterrador",
+        "higiénico",
+        "acostado",
+        "nuca",
+        "instaurar",
+        "acentuar",
+        "plasma",
+        "médula"
+      ],
+      "text": "En junio, cuando empieza el frío en Montevideo, la gripe llegó al colegio donde Andrea Silva enseña biología. El lunes faltaron dos alumnos de quinto; el miércoles, cinco; el viernes, once. Bruno, el hijo de Andrea, que tiene 10 años, pasó ese viernes acostado en el sofá, con fiebre y con un dolor en la nuca que no lo dejaba mover la cabeza. Andrea le puso un paño frío en la nuca y lo dejó acostado toda la tarde, con un vaso de agua al lado.\n\nLa directora del colegio decidió instaurar medidas higiénicas inmediatas: lavarse las manos antes de cada recreo, abrir las ventanas de las aulas y quedarse en casa con fiebre. Instaurar una regla es fácil, dijo en una reunión; lo difícil es que la gente la cumpla. Andrea pensó que las medidas higiénicas se cumplirían mejor si los alumnos entendieran los números que había detrás.\n\nEl lunes siguiente dibujó una tabla en la pizarra. «Supongamos que cada niño enfermo infecta a dos compañeros antes de quedarse en casa. El primer día hay 1 enfermo; después, 2; después, 4, 8, 16...» A la décima vuelta, la cifra pasaba de mil. Los alumnos se quedaron en silencio. Una niña dijo que la tabla era aterradora. Andrea le contestó que sí, que la cifra era aterradora, pero que la realidad no funciona exactamente así.\n\nDespués explicó por qué. Cuando una persona se cura, queda inmune durante un tiempo: su cuerpo ya conoce el virus. Las células que defienden el cuerpo nacen en la médula de los huesos, la llamada médula ósea, y aprenden a reconocer al virus. Por eso, a medida que más niños se curan y quedan inmunes, el virus encuentra menos personas a las que infectar, y la curva deja de subir. También les habló del plasma, la parte líquida de la sangre: en el plasma de quien se ha curado hay anticuerpos, unas moléculas que reconocen al virus.\n\nLos datos del colegio lo confirmaron. Durante la segunda semana, el aumento se acentuó: llegaron a faltar 40 alumnos. Pero en la tercera semana la curva cambió de dirección, porque muchos ya estaban inmunes y porque las medidas higiénicas funcionaban. Andrea les mostró que cada medida acentuaba la bajada: si cada enfermo infecta a menos de un compañero, la gripe termina por desaparecer.\n\nBruno volvió al colegio el miércoles, ya sin dolor en la nuca. Esa noche le contó a su madre que en su clase todos querían ser «el niño que infecta a menos de uno». A Andrea le pareció la mejor conclusión posible.\n\nPreguntas:\n¿Cómo estaba Bruno el viernes?\nEstaba acostado en el sofá, con fiebre y con un dolor en la nuca.\n¿Qué medidas higiénicas decidió instaurar la directora?\nLavarse las manos antes de cada recreo, abrir las ventanas y quedarse en casa con fiebre.\n¿Por qué la tabla de Andrea era aterradora?\nPorque, si cada niño infecta a dos, a la décima vuelta la cifra pasa de mil.\n¿Por qué la curva deja de subir?\nPorque quienes se curan quedan inmunes y el virus encuentra menos personas a las que infectar.\n¿Qué hay en el plasma de quien se ha curado?\nHay anticuerpos, unas moléculas que reconocen al virus."
+    },
+    {
+      "title": "Dos padres, cuatro abuelos",
+      "summary": "A teacher in Antigua Guatemala looks for his noble ancestors in an old Franciscan archive and discovers, through simple arithmetic, that almost everyone shares them.",
+      "newWords": [
+        "linaje",
+        "dinastía",
+        "paterno",
+        "franciscano",
+        "cronista",
+        "envidiar",
+        "luto",
+        "iberoamericano",
+        "prosa"
+      ],
+      "text": "Me llamo Mauricio Castillo y enseño historia en un colegio de Antigua Guatemala. Mi abuelo paterno, don Arnoldo, repetía siempre que nuestra familia descendía de un capitán español del siglo XVI. Lo decía con orgullo, como quien enseña una medalla. De niño yo lo creía sin dudar, y envidiaba un poco a mi primo Javier, que decía descender, por parte de madre, de una dinastía de reyes mayas. Una dinastía de reyes me parecía mucho más interesante que un capitán.\n\nHace dos años decidí comprobar la historia de mi abuelo. Pasé muchas tardes en el archivo del antiguo convento franciscano de la ciudad, donde los frailes franciscanos guardaron durante siglos los libros de bautismos, matrimonios y difuntos. Era un trabajo lento. Algunas páginas tenían notas al margen: «la familia guarda luto», «murió de fiebre». Cada nota de luto me recordaba que detrás de cada nombre había una vida.\n\nEn el mismo archivo leí la obra de un cronista del siglo XVII que describía la ciudad. Su prosa era larga y llena de adjetivos, pero muy precisa: el cronista contaba cuántas casas había, cuántos frailes, cuántos caballos. Gracias a esa prosa supe que la ciudad tenía entonces unos pocos miles de habitantes.\n\nEncontré a mi capitán, o a un hombre con ese nombre, pero no pude probar el linaje completo: faltaban dos generaciones. Para mi abuelo, el linaje era una línea recta; para mí empezaba a parecerse a una red. Sin embargo, lo más importante lo descubrí con un lápiz. Cada persona tiene dos padres, cuatro abuelos, ocho bisabuelos. Cada generación, el número se duplica. Si una generación son unos 25 años, en 400 años hay 16 generaciones, y 2 elevado a 16 son 65.536 antepasados. 30 generaciones atrás, la cuenta pasa de mil millones, más personas de las que vivían entonces en el mundo.\n\nLa conclusión es sencilla: los mismos antepasados aparecen muchas veces en el árbol de cada familia. Y si vamos lo bastante atrás en el tiempo, casi todos los habitantes de una región comparten casi todos sus antepasados. Mi primo Javier y yo, con toda probabilidad, descendemos los dos del capitán y también de la dinastía de reyes. Ya no tenía motivos para envidiar a nadie.\n\nEl año pasado presenté este trabajo en un congreso iberoamericano de historia en Guatemala. Vinieron profesores de México, de España, de Chile. Una profesora del congreso iberoamericano me dijo que las matemáticas son la mejor medicina contra el orgullo de linaje. Cuando se lo conté a mi abuelo paterno, se quedó pensando y después sonrió: «Entonces somos todos familia.» Exactamente, abuelo.\n\nPreguntas:\n¿Qué decía el abuelo paterno de Mauricio?\nDecía que la familia descendía de un capitán español del siglo XVI.\n¿Por qué envidiaba Mauricio a su primo Javier?\nPorque Javier decía descender de una dinastía de reyes mayas.\n¿Qué guardaban los frailes franciscanos en el archivo?\nGuardaban los libros de bautismos, matrimonios y difuntos.\n¿Cómo era la prosa del cronista?\nEra larga y llena de adjetivos, pero muy precisa.\n¿Qué descubrió Mauricio con un lápiz?\nQue el número de antepasados se duplica cada generación, así que casi todos los habitantes de una región comparten sus antepasados."
+    },
+    {
+      "title": "Los números no tienen militancia",
+      "summary": "A newspaper columnist in Bogotá reflects on how each side of a debate picks the figures it likes, and asks readers to look at numbers more calmly.",
+      "newWords": [
+        "nominal",
+        "neoliberal",
+        "militancia",
+        "abolir",
+        "oprimir",
+        "indigno",
+        "humillación",
+        "dominación",
+        "pecador",
+        "trol",
+        "desplazado"
+      ],
+      "text": "Cada vez que hay un debate en el país, los números salen a la calle como soldados. Cada lado elige los suyos, los coloca en primera fila y dispara. Los números, sin embargo, no tienen militancia. Somos nosotros quienes les damos una, y una cifra con militancia deja de informar.\n\nPongo un ejemplo sencillo. Este año el salario nominal de muchos trabajadores subió un 10%. El salario nominal es la cifra que aparece en la nómina, sin tener en cuenta los precios. Pero los precios subieron un 12%. Así que el salario real, lo que de verdad se puede comprar con ese dinero, bajó. El gobierno habla del aumento nominal; la oposición, de la caída real. Los dos dicen la verdad, y los dos callan la mitad.\n\nOtro ejemplo, más delicado. ¿Cuántos desplazados hay en Colombia? Depende de cómo se cuente. Si se cuenta a todas las personas que alguna vez tuvieron que dejar su casa por la violencia, la cifra es enorme; si solo se cuenta a los desplazados de los últimos años, es mucho menor. Las dos cifras pueden ser correctas. Lo indigno es usar el dolor de los desplazados como munición en una discusión, sin explicar qué se está contando.\n\nLo mismo pasa con las grandes palabras. Para unos, una reforma es neoliberal; para otros, es simplemente moderna. Llamar neoliberal a una medida no la hace mejor ni peor; la pregunta útil es qué pasará con los precios, con el empleo y con los impuestos. Hay quien dice que las estadísticas oprimen a las personas, porque las reducen a cifras. Yo creo lo contrario: lo que oprime a una familia no es la estadística que muestra su pobreza, sino la pobreza misma, y sin estadísticas no sabríamos dónde está.\n\nConfieso que yo también he sido pecador. Más de una vez he elegido en esta columna la cifra que me convenía y he olvidado la otra. Como todo pecador arrepentido, prometo intentar hacerlo mejor. No propongo abolir la opinión ni abolir el debate, que es la vida de una democracia. Propongo algo más modesto: que cada cifra venga con su explicación.\n\nLos lectores me escriben a menudo. Algunos me corrigen con razón, y se lo agradezco. Otros son troles que solo quieren insultar; a un trol no se le contesta con cifras, porque no busca la verdad. Pero el insulto que más me duele no es el de un trol, sino la humillación de un jubilado que me escribió el mes pasado: el gobierno decía que su pensión había subido, y él ya no podía pagar las medicinas. Esa humillación no aparece en la cifra nominal.\n\nPor eso desconfío de la dominación de un solo número en el debate. Esa dominación hace más pobre la conversación de todos. Cuando una cifra lo explica todo, es que alguien ha escondido las demás.\n\nPreguntas:\n¿Qué es el salario nominal, según la columna?\nEs la cifra que aparece en la nómina, sin tener en cuenta los precios.\n¿Por qué el gobierno y la oposición dicen los dos la verdad sobre los salarios?\nPorque el salario nominal subió un 10%, pero el salario real bajó, ya que los precios subieron un 12%.\n¿Qué le parece indigno al columnista?\nLe parece indigno usar el dolor de los desplazados como munición en una discusión.\n¿Por qué dice el columnista que ha sido pecador?\nPorque más de una vez eligió la cifra que le convenía y olvidó la otra.\n¿Qué propone el columnista?\nPropone que cada cifra venga con su explicación."
+    },
+    {
+      "title": "Contar pájaros que no se ven",
+      "summary": "On an island of the Chiloé archipelago, a biologist and a volunteer estimate how many birds live in a forest by catching, marking and catching again.",
+      "newWords": [
+        "archipiélago",
+        "piar",
+        "etiquetar",
+        "cautivo",
+        "interceptar",
+        "anatomía",
+        "sobrenatural"
+      ],
+      "text": "Paula Andrade es bióloga y estudia las aves del archipiélago de Chiloé, en el sur de Chile. El archipiélago tiene decenas de islas, muchas cubiertas de bosque húmedo, y en ese bosque viven pájaros pequeños que casi nunca se dejan ver. Se oyen piar entre las hojas, pero cuando uno levanta la cabeza, ya no están. Este verano, un estudiante voluntario, Tomás, la acompañó a una de las islas para contar los pájaros de una especie pequeña y marrón.\n\n«¿Cómo vamos a contar pájaros que no vemos?», preguntó Tomás el primer día. Paula le explicó el método. Primero se capturan algunos pájaros, se etiquetan y se sueltan. Unos días después se capturan otros, y se cuenta cuántos de ellos ya estaban etiquetados. Con esas dos cifras se puede calcular el total.\n\nPor la mañana, muy temprano, colocaron unas redes finas entre los árboles. Las redes interceptan a los pájaros en vuelo sin hacerles daño. Cada media hora, Paula y Tomás revisaban las redes y sacaban con cuidado a los pájaros, que piaban dentro de unas bolsas de tela. Ningún pájaro debía estar cautivo más de unos minutos, porque un pájaro cautivo se asusta y pierde fuerzas. Paula medía cada ala y cada pico, porque la anatomía del pájaro le decía su edad y su estado de salud. Tomás apuntaba los datos. Después ponían en la pata un anillo pequeño con un número: así etiquetaban a cada pájaro. Al final, lo soltaban, y el pájaro volvía al bosque piando.\n\nEl primer día interceptaron y etiquetaron a 60 pájaros. Cuatro días después volvieron a colocar las redes y capturaron a 50. De esos 50, solo 10 llevaban anillo. Paula le pidió a Tomás que pensara: «Si 10 de cada 50 están etiquetados, ¿qué parte del bosque hemos etiquetado?» Tomás contestó que una quinta parte. «Entonces, si los 60 que etiquetamos son una quinta parte, el total es...» «Unos 300», dijo él.\n\nTomás se quedó mirando el cuaderno. Le parecía casi sobrenatural que se pudiera contar un bosque entero sin ver a sus habitantes. Paula se rió. «No tiene nada de sobrenatural. Es pura proporción, como en una sopa: pruebas una cucharada y sabes cómo está toda la olla.» Después le explicó los límites del método: hay que suponer que los pájaros etiquetados se mezclan con los demás, que ninguno se va de la isla y que la anatomía de cada pájaro permite reconocerlo si pierde el anillo.\n\nEn los días siguientes repitieron el trabajo dos veces. Las cifras fueron parecidas: entre 280 y 320 pájaros. La última tarde, sentados en la playa, oyeron piar en los árboles detrás de ellos. «Ahí están», dijo Tomás. «Unos 300, y sin nada de sobrenatural.»\n\nPreguntas:\n¿Qué estudia Paula en el archipiélago de Chiloé?\nEstudia las aves del archipiélago.\n¿Para qué sirven las redes?\nInterceptan a los pájaros en vuelo sin hacerles daño.\n¿Por qué medía Paula cada ala y cada pico?\nPorque la anatomía del pájaro le decía su edad y su estado de salud.\n¿Cómo etiquetaban a cada pájaro?\nLe ponían en la pata un anillo pequeño con un número.\n¿Cómo calcularon el total de pájaros?\nComo 10 de cada 50 estaban etiquetados, los 60 etiquetados eran una quinta parte, así que el total era unos 300."
+    },
+    {
+      "title": "El paseo del ebrio",
+      "summary": "A science teacher in San Antonio, Texas, teaches her pupils about chance with a drop of ink in a tub of water and a chart of their own heights.",
+      "newWords": [
+        "ebrio",
+        "tina",
+        "repugnante",
+        "membrana",
+        "estatura",
+        "inclusivo",
+        "pestaña",
+        "grupal"
+      ],
+      "text": "Soy Rosa Elena Garza y enseño ciencias en una escuela secundaria de San Antonio, Texas. La mayoría de mis alumnos son de familias mexicanas, y en clase hablamos a veces inglés y a veces español. Cada primavera dedico una semana al azar, que es uno de los temas que más les cuesta entender.\n\nEl lunes llevé al laboratorio una tina de plástico llena de agua. Pedí silencio y dejé caer una gota de tinta azul en el centro de la tina. Durante unos minutos miramos cómo la mancha crecía despacio, sin que nadie la moviera. Les pregunté por qué la tinta se extendía. Nadie lo sabía.\n\nEntonces les conté la historia del paseo del ebrio. Imaginen a un hombre ebrio que sale de una fiesta. Cada paso lo da en una dirección al azar: uno a la izquierda, otro hacia adelante, otro hacia atrás. ¿Dónde estará después de mil pasos? No lo sabemos con exactitud, pero sí sabemos que, en promedio, se habrá alejado poco a poco del punto de partida. Las moléculas de la tinta se mueven como ese ebrio: chocan con las moléculas del agua y cambian de dirección millones de veces. Por eso la tinta se extiende sin que nadie la empuje.\n\nAl final de la clase, el agua de la tina tenía un color gris oscuro. Un alumno, Kevin, dijo que el color era repugnante. Le dije que lo repugnante, en ciencia, suele ser lo más interesante.\n\nEl martes hablamos de la membrana de las células. Una membrana deja pasar algunas moléculas y otras no; la membrana funciona como una puerta con guardia. Las moléculas que la atraviesan también hacen el paseo del ebrio: no saben hacia dónde van, pero, como hay más moléculas de un lado que del otro, terminan pasando hacia donde hay menos.\n\nEl miércoles hicimos una actividad grupal. Quiero que mis clases sean inclusivas, así que cada grupo tenía tareas distintas, y todos los alumnos participaban, también los que nunca levantan la mano. Medimos la estatura de cada alumno que quiso participar; a nadie se le obligó, porque la estatura puede ser un tema delicado a esa edad. Un grupo medía, otro apuntaba y otro preparaba los datos en la computadora. En una pestaña de la hoja de cálculo pusimos las cifras; en otra pestaña, el gráfico.\n\nEl gráfico tenía forma de campana: muchos alumnos cerca de la estatura media y pocos en los extremos. Les expliqué que la estatura depende de muchas pequeñas causas, igual que la posición del ebrio depende de muchos pequeños pasos, y que por eso aparece la misma campana.\n\nEl viernes, en la evaluación grupal, Kevin escribió: «El azar no es desorden; es orden visto de cerca.» No sé si lo entendió del todo, pero me pareció una buena frase para una clase inclusiva y para terminar la semana.\n\nPreguntas:\n¿Qué hizo Rosa Elena con la tina de agua?\nDejó caer una gota de tinta azul en el centro de la tina.\n¿Qué es el paseo del ebrio?\nEs la historia de un hombre ebrio que da cada paso en una dirección al azar.\n¿Qué dijo Kevin del color del agua?\nDijo que el color era repugnante.\n¿Cómo fue la actividad grupal del miércoles?\nMidieron la estatura de los alumnos que quisieron participar, y cada grupo tenía una tarea distinta.\n¿Qué forma tenía el gráfico de las estaturas?\nTenía forma de campana: muchos alumnos cerca de la estatura media y pocos en los extremos."
+    }
+  ]
+}
