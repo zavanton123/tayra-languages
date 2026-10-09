@@ -156,10 +156,15 @@ def spanish_clitics(word, ranks, verbs=None):
                 # Only forms of verbs carry pronouns (an infinitive, gerund or imperative), so chiles
                 # is not chi + les; without the list's verbs, the ending decides.
                 is_verb = candidate in verbs if verbs is not None else candidate.endswith(("ar", "er", "ir", "ndo", "a", "e", "i", "n", "z", "d"))
+                # The list may file a verb's imperative as a noun (pregunta), yet with pronouns and
+                # its written accent (pregúntales) it can only be the verb's.
+                if verbs is not None and not is_verb and any(c in "áéíóú" for c in lower):
+                    bare = candidate[:-1] if candidate.endswith("n") else candidate
+                    is_verb = bare + "r" in verbs or (bare.endswith("e") and bare[:-1] + "ar" in verbs) or (bare.endswith("a") and (bare[:-1] + "er" in verbs or bare[:-1] + "ir" in verbs))
                 # Pronouns after any form but an infinitive call for a written accent (tómate,
                 # dímelo), save one pronoun after a one-syllable form (ponte, dime); so an unaccented
                 # tomate is the noun, not toma + te.
-                if is_verb and not candidate.endswith(("ar", "er", "ir", "ír")) and not any(c in "áéíó" for c in lower):
+                if is_verb and not candidate.endswith(("ar", "er", "ir", "ír")) and not any(c in "áéíóú" for c in lower):
                     is_verb = not second and len(re.findall("[aeiouáéíóúü]+", candidate)) == 1
                 if candidate in ranks and is_verb:
                     return [candidate] + ([second] if second else []) + [first]
