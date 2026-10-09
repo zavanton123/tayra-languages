@@ -28,7 +28,6 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
@@ -95,6 +94,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.ui.text.style.TextAlign
 import com.tayra.languages.core.ui.components.CoursesIllustration
+import com.tayra.languages.core.ui.components.ScrollColumn
 
 private val BLUE = Color(0xFF3B6FE0)
 private val GREEN = Color(0xFF2E9D57)
@@ -253,8 +253,9 @@ internal fun CoursesContent(
     val width = LocalWindowWidth.current
     val compact = width.isCompact
     val shown = state.shown
-    Column(
-        modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
+    ScrollColumn(
+        modifier.fillMaxSize(),
+        contentModifier = Modifier.padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
         verticalArrangement = Arrangement.spacedBy(20.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -277,7 +278,7 @@ internal fun CoursesContent(
         }
         if (state.courses.isEmpty()) {
             EmptyCourses(state, onNewCourse, onDownloadCourses)
-            return@Column
+            return@ScrollColumn
         }
         StatusTabs(state.counts, state.status, onStatus)
         val levelLabel = tr("Level: {0}", state.level?.display ?: tr("All"))
@@ -311,7 +312,7 @@ internal fun CoursesContent(
         }
         if (shown.isEmpty()) {
             Notice(tr("No courses match"), tr("Try another search, or clear the filters."))
-            return@Column
+            return@ScrollColumn
         }
         val columns = when {
             compact -> 1
@@ -807,8 +808,9 @@ internal fun CourseContent(
     val width = LocalWindowWidth.current
     val compact = width.isCompact
     val progress = state.progress
-    Column(
-        modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
+    ScrollColumn(
+        modifier.fillMaxSize(),
+        contentModifier = Modifier.padding(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
         verticalArrangement = Arrangement.spacedBy(20.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -827,7 +829,7 @@ internal fun CourseContent(
         }
         if (progress == null) {
             Notice(tr("Course not found"), tr("This course is no longer available."))
-            return@Column
+            return@ScrollColumn
         }
         state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
         val own = editing

@@ -93,6 +93,8 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
+import com.tayra.languages.core.ui.components.EdgeScrollbar
+import com.tayra.languages.core.ui.components.ScrollColumn
 
 /** The downloadable offline dictionary packs and their state on this device. */
 class DictionariesViewModel(
@@ -428,9 +430,13 @@ private fun AvailableCard(packs: List<PackStatus>, learning: LanguageOption?, na
             )
         }
         // The full catalogue is long, so it scrolls inside the card.
-        val list = Modifier.fillMaxWidth().then(if (browsing) Modifier.heightIn(max = 520.dp).verticalScroll(rememberScrollState()) else Modifier)
-        Column(list, verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            shown.forEach { status -> AvailableRow(status, browsing, onDownload = { viewModel.download(status.pack) }) }
+        val scroll = rememberScrollState()
+        Box(Modifier.fillMaxWidth().then(if (browsing) Modifier.heightIn(max = 520.dp) else Modifier)) {
+            val list = Modifier.fillMaxWidth().then(if (browsing) Modifier.verticalScroll(scroll).padding(end = 14.dp) else Modifier)
+            Column(list, verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                shown.forEach { status -> AvailableRow(status, browsing, onDownload = { viewModel.download(status.pack) }) }
+            }
+            if (browsing) EdgeScrollbar(scroll)
         }
         Spacer(Modifier.height(14.dp))
         InfoBanner(tr("One pack covers one source language with meanings in one language."))
@@ -510,7 +516,7 @@ private fun TestLookupDialog(pack: DictionaryPack, viewModel: DictionariesViewMo
                     if (lookup.isEmpty) {
                         Text(tr("No entry for “{0}”.", looked), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     } else {
-                        Column(Modifier.heightIn(max = 320.dp).verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                        ScrollColumn(Modifier.heightIn(max = 320.dp), contentModifier = Modifier.padding(end = 14.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                             if (lookup.lemmas.isNotEmpty()) Text(tr("A form of {0}", lookup.lemmas.joinToString()), style = MaterialTheme.typography.bodySmall, fontStyle = FontStyle.Italic)
                             lookup.entries.take(4).forEach { entry ->
                                 Column {

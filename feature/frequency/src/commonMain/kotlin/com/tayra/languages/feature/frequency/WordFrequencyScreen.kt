@@ -20,7 +20,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
@@ -86,6 +85,7 @@ import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 import kotlin.random.Random
+import com.tayra.languages.core.ui.components.ScrollList
 
 private val WordKnowledge.label: String
     get() = when (this) {
@@ -201,10 +201,11 @@ internal fun WordFrequencyContent(
             bands.indices.associate { i -> (bands[i].index to at).also { at += 1 + rows[i].size } }
         }
         Row(Modifier.fillMaxSize()) {
-            LazyColumn(
-                Modifier.weight(1f).testTag("frequency-list"),
+            ScrollList(
+                Modifier.weight(1f),
                 state = listState,
                 contentPadding = PaddingValues(start = side, end = if (index) 8.dp else side, top = if (compact) 16.dp else 24.dp, bottom = 32.dp),
+                listModifier = Modifier.testTag("frequency-list"),
             ) {
                 item(key = "header") { Header(state, onToggle, onSearch, onSettings) }
                 when {

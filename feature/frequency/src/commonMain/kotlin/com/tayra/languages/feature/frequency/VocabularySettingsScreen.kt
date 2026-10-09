@@ -14,10 +14,8 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
@@ -64,6 +62,7 @@ import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import org.koin.compose.viewmodel.koinViewModel
+import com.tayra.languages.core.ui.components.ScrollColumn
 
 /** The colour of words the level covers, in the picker and the example. */
 internal val KNOWN_GREEN = Color(0xFF2E9D57)
@@ -181,9 +180,7 @@ internal fun LevelPicker(list: FrequencyList, shown: Int?, onPick: (Int) -> Unit
     val colors = MaterialTheme.colorScheme
     val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
     val shape = RoundedCornerShape(12.dp)
-    Column(
-        modifier.heightIn(max = 560.dp).clip(shape).border(1.dp, colors.outlineVariant, shape).verticalScroll(rememberScrollState()),
-    ) {
+    ScrollColumn(modifier.heightIn(max = 560.dp).clip(shape).border(1.dp, colors.outlineVariant, shape)) {
         choices.forEachIndexed { i, level ->
             val previous = if (i == 0) 0 else choices[i - 1]
             val selected = level == shown

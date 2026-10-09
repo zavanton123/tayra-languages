@@ -19,7 +19,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
@@ -111,6 +110,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.foundation.layout.fillMaxHeight
+import com.tayra.languages.core.ui.components.ScrollList
 
 /**
  * Searches Tatoeba example sentences with every filter the API offers. Wide windows show the
@@ -198,7 +198,7 @@ fun ExamplesSearchScreen(
             // Asked for here, once the row exists: the scaffold builds its content after the screen's own effects ran.
             LaunchedEffect(state.paneTerm == null) { focusList() }
             // One scrolling list holds the filters and the results so both fit on small screens.
-            LazyColumn(
+            ScrollList(
                 Modifier.weight(1f).fillMaxHeight()
                     // A press on the results hands them the keyboard; a text field under it takes it right back.
                     .pointerInput(Unit) {

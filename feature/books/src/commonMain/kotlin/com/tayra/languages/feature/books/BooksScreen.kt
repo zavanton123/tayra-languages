@@ -35,7 +35,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
@@ -97,6 +96,7 @@ import com.tayra.languages.core.ui.i18n.trPlural
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import com.tayra.languages.core.ui.components.ScrollList
 
 /** Home screen: the book listing. Also used for the archive. */
 @Composable
@@ -215,7 +215,7 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
     // Ticking books for the bulk actions starts with Select, so the list stays plain otherwise.
     var selecting by rememberSaveable { mutableStateOf(false) }
     val showChecks = selecting || state.selectedBooks.isNotEmpty()
-    LazyColumn(
+    ScrollList(
         modifier.fillMaxSize(),
         contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = if (compact) 16.dp else 24.dp),
     ) {

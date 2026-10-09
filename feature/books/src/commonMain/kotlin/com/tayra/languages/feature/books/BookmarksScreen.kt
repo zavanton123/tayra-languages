@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Delete
@@ -44,6 +43,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import com.tayra.languages.core.ui.components.ScrollList
 
 data class BookmarksUiState(val title: String = "", val bookmarks: List<PageBookmark> = emptyList())
 
@@ -72,7 +72,7 @@ fun BookmarksScreen(
             if (state.bookmarks.isEmpty()) {
                 EmptyMessage(tr("No bookmarks yet. Add one from the reading menu."))
             } else {
-                LazyColumn {
+                ScrollList(Modifier.fillMaxSize()) {
                     items(state.bookmarks, key = { it.id }) { bookmark ->
                         Row(
                             Modifier.fillMaxWidth().clickable { onNavigate(Route.Read(bookId, bookmark.pageNumber)) }.padding(horizontal = 16.dp, vertical = 8.dp),

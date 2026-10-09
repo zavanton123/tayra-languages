@@ -146,6 +146,7 @@ import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 import kotlin.random.Random
 import org.koin.core.parameter.parametersOf
+import com.tayra.languages.core.ui.components.EdgeScrollbar
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -566,6 +567,7 @@ private fun ReadingBody(
         }
         Spacer(Modifier.height(120.dp))
     }
+    EdgeScrollbar(scrollState)
     if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
         ContinuousControls(
             playing = continuous.active,

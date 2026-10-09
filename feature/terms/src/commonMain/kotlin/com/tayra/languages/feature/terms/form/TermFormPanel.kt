@@ -20,9 +20,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Add
@@ -117,6 +115,7 @@ import com.tayra.languages.core.ui.components.AppIcons
 import com.tayra.languages.core.ui.audio.SpeakButton
 import com.tayra.languages.core.ui.theme.TayraTheme
 import io.ktor.http.encodeURLParameter
+import com.tayra.languages.core.ui.components.ScrollColumn
 
 /**
  * The term editing form, used both standalone and embedded in the reading pane.
@@ -148,9 +147,9 @@ fun TermFormPanel(
     val empty = draft.text.isBlank()
     LaunchedEffect(Unit) { if (embedded && empty) runCatching { focusRequester.requestFocus() } }
 
-    Column(
-        modifier
-            .verticalScroll(rememberScrollState())
+    ScrollColumn(
+        modifier,
+        contentModifier = Modifier
             .padding(16.dp)
             .onPreviewKeyEvent { event ->
                 if (event.type == KeyEventType.KeyDown && (event.isCtrlPressed || event.isMetaPressed) && event.key == Key.Enter) {

@@ -17,7 +17,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -49,6 +48,7 @@ import com.tayra.languages.core.ui.components.NavSection
 import com.tayra.languages.core.ui.navigation.Route
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
+import com.tayra.languages.core.ui.components.ScrollList
 
 /** Enables or disables the online dictionaries offered for one language. */
 @Composable
@@ -72,7 +72,7 @@ fun ManageDictionariesScreen(
             return@Scaffold
         }
         Box(Modifier.padding(padding).fillMaxSize(), contentAlignment = Alignment.TopCenter) {
-            LazyColumn(
+            ScrollList(
                 Modifier.fillMaxSize().widthIn(max = 760.dp),
                 contentPadding = PaddingValues(horizontal = if (compact) 16.dp else 32.dp, vertical = 16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp),

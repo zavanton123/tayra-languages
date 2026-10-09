@@ -7,9 +7,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -68,6 +66,7 @@ import com.tayra.languages.core.ui.i18n.LanguageCase
 import com.tayra.languages.core.ui.i18n.languageInSentence
 import com.tayra.languages.core.ui.i18n.trPlural
 import org.koin.compose.viewmodel.koinViewModel
+import com.tayra.languages.core.ui.components.ScrollColumn
 
 /**
  * Asks for the vocabulary level of the language with [languageId], just chosen to learn, when no
@@ -117,7 +116,7 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
     val wide = LocalWindowWidth.current.isExpanded
     val level = state.picked ?: state.level
     Column {
-        Column(Modifier.weight(1f, fill = false).verticalScroll(rememberScrollState()).padding(start = 40.dp, end = 28.dp, top = 28.dp, bottom = 24.dp)) {
+        ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(start = 40.dp, end = 28.dp, top = 28.dp, bottom = 24.dp)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f).padding(top = 6.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)

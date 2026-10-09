@@ -17,10 +17,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
@@ -74,6 +72,7 @@ import com.tayra.languages.core.ui.theme.ReadingFont
 import com.tayra.languages.core.ui.theme.TayraTheme
 import com.tayra.languages.core.ui.theme.fontFamily
 import kotlin.math.roundToInt
+import com.tayra.languages.core.ui.components.ScrollColumn
 
 /** What the pane's links and tools open outside it. */
 internal class ReaderPaneActions(
@@ -111,8 +110,9 @@ internal fun ReaderPane(state: ReadingUiState, viewModel: ReadingViewModel, acti
         if (!showBookmarks) {
             PaneTabs(tab) { tab = it }
         }
-        Column(
-            Modifier.weight(1f).fillMaxWidth().background(colors.surfaceVariant.copy(alpha = 0.35f)).verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 14.dp),
+        ScrollColumn(
+            Modifier.weight(1f).fillMaxWidth().background(colors.surfaceVariant.copy(alpha = 0.35f)),
+            contentModifier = Modifier.padding(horizontal = 16.dp, vertical = 14.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
         ) {
             if (showBookmarks) {

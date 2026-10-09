@@ -341,13 +341,17 @@ fun formatSize(bytes: Long): String = when {
 @Composable
 fun PageColumn(padding: PaddingValues, content: @Composable ColumnScope.() -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
-    Box(Modifier.padding(padding).fillMaxSize().verticalScroll(rememberScrollState()), contentAlignment = Alignment.TopCenter) {
-        Column(
-            Modifier.widthIn(max = 1480.dp).fillMaxWidth()
-                .padding(horizontal = if (compact) 16.dp else 48.dp, vertical = if (compact) 16.dp else 28.dp),
-            verticalArrangement = Arrangement.spacedBy(20.dp),
-            content = content,
-        )
+    val scroll = rememberScrollState()
+    Box(Modifier.padding(padding).fillMaxSize()) {
+        Box(Modifier.fillMaxSize().verticalScroll(scroll), contentAlignment = Alignment.TopCenter) {
+            Column(
+                Modifier.widthIn(max = 1480.dp).fillMaxWidth()
+                    .padding(horizontal = if (compact) 16.dp else 48.dp, vertical = if (compact) 16.dp else 28.dp),
+                verticalArrangement = Arrangement.spacedBy(20.dp),
+                content = content,
+            )
+        }
+        EdgeScrollbar(scroll)
     }
 }
 
