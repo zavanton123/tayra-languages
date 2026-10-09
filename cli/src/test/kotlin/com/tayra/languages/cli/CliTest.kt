@@ -83,6 +83,7 @@ class CliTest {
         val missing = run("books", "show", "999")
         assertEquals(ExitCode.NOT_FOUND, missing.statusCode)
         assertTrue("No book 999" in missing.stderr && missing.stdout.isEmpty())
+        assertEquals(ExitCode.INVALID, run("languages", "use", "en").statusCode, "English is the native language")
         assertEquals(ExitCode.INVALID, run("books", "add", "--title", "No text").statusCode)
         assertEquals(ExitCode.INVALID, run("terms", "set-status", "7", "eu").statusCode)
         assertEquals(ExitCode.ERROR, run("no-such-command").statusCode)

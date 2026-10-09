@@ -18,8 +18,10 @@ import kotlinx.coroutines.runBlocking
 import java.io.File
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertTrue
 
-/** One language is being learned at a time; when none is chosen, or the chosen one is gone, one is picked. */
+/** One language is being learned at a time, never the native one; when none is chosen, or the chosen one is gone, one is picked. */
 class LearningLanguageTest {
 
     @Test
@@ -53,5 +55,21 @@ class LearningLanguageTest {
         assertEquals(czech, service.ensure())
         settings.update { it.copy(currentLanguageId = 987_654) }
         assertEquals(portuguese, service.ensure())
+    }
+
+    @Test
+    fun theNativeLanguageIsNeverTheOneLearned() = runBlocking<Unit> {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("tayra-learning-native", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val service = LearningLanguageService(settings, languages, BookRepositoryImpl(provider))
+        settings.update { it.copy(nativeLanguage = "bg") }
+        val bulgarian = languages.save(Language(name = "Bulgarian"))
+        val czech = languages.save(Language(name = "Czech"))
+        assertEquals(czech, service.ensure(), "the first language by name is passed over, being the native one")
+
+        assertFalse(service.select(bulgarian))
+        assertEquals(czech, settings.current.currentLanguageId)
+        assertTrue(service.select(czech))
     }
 }

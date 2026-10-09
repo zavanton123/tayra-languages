@@ -60,7 +60,10 @@ class LanguagesScreenTest {
         waitUntil(timeoutMillis = 5_000) { learningId == 2L }
         onNodeWithText("Changes saved").assertExists()
 
+        // German is being learned now, so it is not offered as the native language.
+        val germanBefore = onAllNodesWithText("German").fetchSemanticsNodes().size
         onNodeWithTag("native-language").performClick()
+        assertEquals(germanBefore, onAllNodesWithText("German").fetchSemanticsNodes().size)
         onAllNodesWithText("Russian").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.nativeLanguage == "ru" }
 

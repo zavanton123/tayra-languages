@@ -11,7 +11,10 @@ import kotlinx.coroutines.launch
 class LanguagesViewModel(private val settings: SettingsRepository) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
-    fun setNativeLanguage(code: String) = viewModelScope.launch { settings.update { it.copy(nativeLanguage = code) } }
+    /** Sets the native language, unless it is [learningCode], the language being learned. */
+    fun setNativeLanguage(code: String, learningCode: String?) = viewModelScope.launch {
+        if (code != learningCode) settings.update { it.copy(nativeLanguage = code) }
+    }
 
     fun setInterfaceLanguage(code: String) = viewModelScope.launch { settings.update { it.copy(uiLanguage = code) } }
 }

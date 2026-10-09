@@ -1,5 +1,7 @@
 package com.tayra.languages.core.domain.service
 
+import com.tayra.languages.core.domain.language.LanguageCodes
+import com.tayra.languages.core.domain.model.Language
 import com.tayra.languages.core.domain.repository.BookRepository
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.settings.SettingsRepository
@@ -13,13 +15,14 @@ class LearningLanguageService(
 ) {
     /**
      * Makes sure a language that still exists is chosen, picking one when none is: the language
-     * of the book read last, else of any book, else the first by name. Returns its id, or 0 when
-     * there are no languages.
+     * of the book read last, else of any book, else the first by name, passing over the native
+     * language while another one is there. Returns its id, or 0 when there are no languages.
      */
     suspend fun ensure(): Long {
-        val all = languages.getAll()
+        val every = languages.getAll()
         val current = settings.current.currentLanguageId
-        if (all.any { it.id == current }) return current
+        if (every.any { it.id == current }) return current
+        val all = every.filterNot { isNative(it) }.ifEmpty { every }
         val shelf = books.observeBooks(archived = false).first().filter { book -> all.any { it.id == book.languageId } }
         val pick = shelf.filter { it.lastOpened != null }.maxByOrNull { it.lastOpened!! }?.languageId
             ?: shelf.firstOrNull()?.languageId
@@ -29,7 +32,13 @@ class LearningLanguageService(
         return pick
     }
 
-    suspend fun select(languageId: Long) {
+    /** Makes [languageId] the language being learned; false, and nothing changes, when it is the native language. */
+    suspend fun select(languageId: Long): Boolean {
+        if (languages.getById(languageId)?.let(::isNative) == true) return false
         settings.update { it.copy(currentLanguageId = languageId) }
+        return true
     }
+
+    /** Whether [language] is the one meanings are shown in, which cannot be learned at the same time. */
+    fun isNative(language: Language): Boolean = LanguageCodes.codeFor(language.name) == settings.current.nativeLanguage
 }

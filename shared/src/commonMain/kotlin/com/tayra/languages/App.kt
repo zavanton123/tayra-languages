@@ -47,6 +47,8 @@ import com.tayra.languages.navigation.AppNavHost
 import org.koin.compose.KoinContext
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.map
 
 /**
  * Gives every screen's top bar the choice of the language being learned, and picks a language
@@ -59,6 +61,8 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     val languages by koinInject<LanguageRepository>().observeAll().collectAsStateWithLifecycle(emptyList())
     val learning = koinInject<LearningLanguageService>()
     val levels = koinInject<VocabularyLevelService>()
+    val settings = koinInject<SettingsRepository>()
+    val native by remember(settings) { settings.settings.map { it.nativeLanguage }.distinctUntilChanged() }.collectAsStateWithLifecycle(null)
     val scope = rememberCoroutineScope()
     // The language just chosen, asked for its vocabulary level first.
     var askLevelFor by remember { mutableStateOf<Long?>(null) }
@@ -68,11 +72,12 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     LaunchedEffect(currentId, languages) {
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure()
     }
-    val state = remember(languages, currentId) {
-        LearningLanguageState(languages.sortedBy { it.name }.map { it.id to it.name }, currentId) { id ->
+    val state = remember(languages, currentId, native) {
+        // The native language is not offered for learning; a library that has it as the current one still shows it.
+        val choices = languages.filter { it.id == currentId || !learning.isNative(it) }
+        LearningLanguageState(choices.sortedBy { it.name }.map { it.id to it.name }, currentId) { id ->
             scope.launch {
-                learning.select(id)
-                if (id == currentId) return@launch
+                if (!learning.select(id) || id == currentId) return@launch
                 onChosen()
                 if (levels.needsLevel(id)) {
                     setupPending = id

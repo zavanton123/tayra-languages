@@ -69,6 +69,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import com.tayra.languages.core.domain.language.LanguageCatalog
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.domain.repository.LanguageRepository
 import com.tayra.languages.core.domain.service.GoogleTranslation
 import com.tayra.languages.core.domain.service.LocalPackage
@@ -314,10 +315,12 @@ private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslati
         }
         val nativeField: @Composable (Modifier) -> Unit = { m ->
             Column(m) {
+                // The language being learned cannot be the native one too.
+                val learningCode = LocalLearningLanguage.current?.currentName?.let(LanguageCodes::codeFor)
                 Dropdown(
-                    options = LanguageCatalog.nativeLanguages,
+                    options = LanguageCatalog.nativeLanguages.filter { it.code != learningCode || it.code == settings.nativeLanguage },
                     selected = LanguageCatalog.nativeOption(settings.nativeLanguage),
-                    onSelect = { option -> viewModel.update { it.copy(nativeLanguage = option.code) } },
+                    onSelect = { option -> if (option.code != learningCode) viewModel.update { it.copy(nativeLanguage = option.code) } },
                     label = tr("Native language"),
                     optionLabel = { tr(it.name) },
                     modifier = Modifier.fillMaxWidth(),

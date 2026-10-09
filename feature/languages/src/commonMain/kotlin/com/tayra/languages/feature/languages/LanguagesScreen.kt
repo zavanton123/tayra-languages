@@ -48,6 +48,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.tayra.languages.core.domain.language.LanguageCatalog
+import com.tayra.languages.core.domain.language.LanguageCodes
 import com.tayra.languages.core.ui.components.AppMenu
 import com.tayra.languages.core.ui.components.AppMenuItem
 import com.tayra.languages.core.ui.components.AppTopBar
@@ -67,6 +68,8 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     val settings by viewModel.state.collectAsStateWithLifecycle()
     val learning = LocalLearningLanguage.current
     val native = LanguageCatalog.nativeOption(settings.nativeLanguage)
+    // The language learned and the native one are never the same, so neither picker offers the other's.
+    val learningCode = learning?.currentName?.let(LanguageCodes::codeFor)
     val ui = LanguageCatalog.interfaceOption(settings.uiLanguage)
     val compact = LocalWindowWidth.current.isCompact
     // Counts the changes made here, so each one shows "Changes saved" for a moment.
@@ -105,10 +108,10 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 val nativeTile: @Composable (Modifier) -> Unit = { m ->
                     LanguageTile(tr("Translations"), tr("Show meanings in"), modifier = m) {
                         FlagPicker(
-                            options = LanguageCatalog.nativeLanguages,
+                            options = LanguageCatalog.nativeLanguages.filter { it.code != learningCode || it.code == native.code },
                             selected = native,
                             name = { tr(it.name) },
-                            onSelect = { viewModel.setNativeLanguage(it.code); changes++ },
+                            onSelect = { viewModel.setNativeLanguage(it.code, learningCode); changes++ },
                             modifier = Modifier.testTag("native-language"),
                             flagName = { it.name },
                         )

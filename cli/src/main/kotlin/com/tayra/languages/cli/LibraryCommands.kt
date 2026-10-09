@@ -100,7 +100,9 @@ private class LanguagesUse : Command("use", "Make a language the one being learn
         val all = cli.get<LanguageRepository>().getAll()
         val language = all.firstOrNull { it.name.equals(name, true) || "${it.id}" == name || LanguageCodes.codeFor(it.name).equals(name, true) }
             ?: notFound("No language '$name' in the library")
-        cli.get<LearningLanguageService>().select(language.id)
+        if (!cli.get<LearningLanguageService>().select(language.id)) {
+            invalid("${language.name} is your native language, so it cannot be the one you learn")
+        }
         Output(LanguageJson(language.id, language.name, LanguageCodes.codeFor(language.name), true), "Learning ${language.name}")
     }
 }
