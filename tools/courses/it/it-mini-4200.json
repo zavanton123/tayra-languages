@@ -1,0 +1,222 @@
+{
+  "id": "it-mini-4200",
+  "rankUpTo": 4200,
+  "level": "C1",
+  "title": "Architettura e patrimonio",
+  "description": "Ten columns, interviews, portraits and diary entries about buildings and heritage across Italy, Ticino and beyond: painted facades in Genoa, a modernist stadium in Florence, an energy-saving school, a coastal watchtower in Sardinia, the ruins of Pompeii, a farmhouse in Puglia, a restoration permit in Palermo, an old anatomy theatre in Bologna, a rebuilt bell tower and a jazz hall in Lugano.",
+  "topic": "Architecture and heritage",
+  "names": [
+    "Genova",
+    "via Garibaldi",
+    "Garibaldi",
+    "Caterina",
+    "Firenze",
+    "Renzo",
+    "Nervi",
+    "Marta Zanon",
+    "Marta",
+    "Val di Fiemme",
+    "Alghero",
+    "Paola",
+    "Sardegna",
+    "Sandro",
+    "Giulia",
+    "Grotta di Nettuno",
+    "Capo Caccia",
+    "Pompei",
+    "Emma",
+    "Sydney",
+    "Napoli",
+    "Gino",
+    "Australia",
+    "Rosa Calò",
+    "Rosa",
+    "Ostuni",
+    "Puglia",
+    "Luigi",
+    "Masseria Calò",
+    "Calò",
+    "Palermo",
+    "Quattro Canti",
+    "Lombardo",
+    "Franco",
+    "Nino",
+    "Anna",
+    "Milano",
+    "Ca' Granda",
+    "Ferri",
+    "Filarete",
+    "Lombardia",
+    "Venezia",
+    "piazza San Marco",
+    "San Marco",
+    "Lugano",
+    "Chiara Bernasconi",
+    "Chiara"
+  ],
+  "lessons": [
+    {
+      "title": "Le finestre dipinte",
+      "summary": "A columnist walks through Genoa with a restorer and learns why so many facades carry painted windows, balconies and columns.",
+      "newWords": [
+        "passeggiare",
+        "genovese",
+        "facciata",
+        "illusione",
+        "dorato",
+        "marrone",
+        "commerciante",
+        "paragone",
+        "umile",
+        "mero"
+      ],
+      "text": "Passeggiare nel centro storico di Genova è come guardare un libro illustrato. Si cammina tra strade strette e scure e, a un tratto, alzando gli occhi, si vedono facciate che sembrano uscite da un teatro. Molte case genovesi hanno finestre, colonne e balconi che non esistono: sono dipinti sul muro. È un'illusione, ma fatta con tanta cura che ci cade anche chi vive qui da anni.\n\nIeri ho passeggiato per via Garibaldi con Caterina, una donna che da trent'anni lavora sulle facciate della città. Si è fermata davanti a un palazzo e mi ha indicato un balcone dorato, con un bordo ricco di decorazioni. «Provi a toccarlo», mi ha detto. Ho allungato la mano e ho sentito soltanto il muro liscio e fresco. Il balcone era una mera pittura.\n\n«Perché si dipingevano finestre false?», le ho chiesto. Caterina ha sorriso. «Perché i commercianti genovesi, nel Cinquecento, erano ricchi ma non sempre nobili. Volevano un palazzo che sembrasse importante, ma il marmo costava molto. Un pittore costava molto meno. Così facevano dipingere sulla facciata il marmo, le statue e perfino le tende, e la gente per strada credeva a questa illusione.»\n\nMentre parlava, ho notato i colori: un giallo caldo, un rosa spento, e un marrone profondo sulle finestre. Il marrone, mi ha spiegato, non è mai un mero colore di fondo. Per i pittori di allora era il colore che dava ombra e profondità, e senza quel marrone una finestra dipinta sembra piatta. Il paragone con il teatro, per Caterina, è inevitabile. «Una facciata è un teatro», dice. «Chi passa è il pubblico, e il commerciante è l'attore che vuole fare bella figura.»\n\nPiù avanti, in una strada vicina al porto, siamo arrivate davanti a una casa umile, stretta tra due palazzi più alti. Anche qui c'erano finestre dipinte, ma con colori più semplici. «Questa me la sono scelta io», ha detto Caterina. «I palazzi dei ricchi trovano sempre chi li paga. Le case umili no. Eppure raccontano la vita di tutti i giorni, e il paragone con i palazzi mi sembra ingiusto: sono diverse, non meno importanti.» Dalla finestra vera, accanto a quella dipinta, una signora ci guardava con curiosità. Il suo balcone aveva un vaso di fiori, e i fiori erano veri, per fortuna.\n\nCamminando verso il mare, ho capito una cosa. L'illusione delle facciate dipinte non fa male a nessuno, in fondo: è un gioco che la città fa da cinque secoli e a cui tutti partecipano volentieri. A Genova, dove i commercianti hanno sempre saputo il valore dell'aspetto, anche un muro può avere una storia da raccontare, e dietro ogni balcone dorato c'è qualcuno che ha voluto sembrare un po' più grande di quello che era.\n\nDomande:\nChe cosa c'è di particolare nelle facciate genovesi?\nHanno finestre, colonne e balconi che non esistono, perché sono dipinti sul muro.\nPerché i commercianti facevano dipingere le facciate?\nPerché volevano un palazzo che sembrasse importante, ma il marmo costava molto più di un pittore.\nA che cosa serve il marrone, secondo Caterina?\nDà ombra e profondità, e senza di lui una finestra dipinta sembra piatta.\nPerché Caterina ha scelto una casa umile?\nPerché i ricchi trovano sempre chi li paga, mentre le case umili raccontano la vita di tutti i giorni."
+    },
+    {
+      "title": "Lo stadio del nonno",
+      "summary": "A grandson visits the modernist Florence stadium with his grandfather, a lifelong fan who talks about concrete more than football.",
+      "newWords": [
+        "fiorentino",
+        "girone",
+        "arbitro",
+        "rivale",
+        "tattica",
+        "esibizione",
+        "esclusione",
+        "armonia",
+        "freno",
+        "sorprendente"
+      ],
+      "text": "Mio nonno Renzo è fiorentino da quattro generazioni e segue la sua squadra da sempre, ma quando mi porta allo stadio parla poco di calcio. Parla di cemento. «Guarda questa scala», mi dice ogni volta, e mi indica la grande curva che sale lungo la torre. «L'ingegnere Nervi l'ha disegnata nel 1931, e nessun fiorentino l'ha mai dimenticata.»\n\nLo stadio di Firenze, infatti, è considerato una delle opere più belle dell'architettura moderna italiana. Il tetto sembra sospeso nell'aria, senza colonne che disturbino la vista. Quando ero piccolo pensavo che fosse una magia; oggi so che dietro c'è un calcolo preciso. Sorprendente, soprattutto, è la leggerezza: tanto cemento, eppure niente di pesante. C'è un'armonia tra le forme che si nota anche senza essere esperti. Mio nonno, che ha lavorato una vita nei cantieri, la chiama «l'equilibrio giusto» e dice che è raro trovarlo. Anche l'armonia tra la torre e i posti per il pubblico, secondo lui, è sorprendente.\n\nDomenica scorsa abbiamo visto una partita del girone di ritorno. La squadra di casa giocava contro la sua rivale di sempre, una squadra di un'altra città toscana, e l'aria era elettrica. Il nonno, però, guardava il tetto più del campo. «L'arbitro è bravo», ha commentato a un certo punto, «ma la vera tattica la fa la struttura: ti obbliga a guardare tutti nella stessa direzione.» Aveva ragione. Anche l'arbitro, ogni tanto, alzava gli occhi verso il tetto. Quando la rivale ha segnato per prima, il rumore sotto il tetto era enorme, e il nonno ha detto che solo un edificio fatto bene può reggere una voce così.\n\nNel pomeriggio ho scoperto una cosa che non sapevo. Qualche anno fa, durante il girone di andata, la società aveva detto che lo stadio era troppo vecchio e che sarebbe stato meglio costruirne uno nuovo. Molti fiorentini, però, hanno risposto di no: un'opera così importante non si butta via. «Per fortuna c'è stato un freno», mi ha raccontato il nonno con orgoglio. «Un freno alle idee sbagliate.» Per lui, l'esclusione dello stadio dai progetti di demolizione è stata una piccola vittoria personale, e secondo lui questa esclusione è un modo di voler bene alla città.\n\nOggi lo stadio ospita anche eventi diversi dalle partite, come una grande esibizione di musica in estate e, in primavera, l'esibizione di un coro di mille bambini. Per un cantante, l'effetto della voce sotto quel tetto è sorprendente. Quando il pubblico canta, la tattica della squadra non conta più: conta solo l'armonia di tante voci. «Una città si riconosce dai suoi edifici», dice il nonno. «Se li butti via, che cosa resta?»\n\nAll'uscita ci siamo fermati sotto la torre. Il nonno ha messo la mano sul cemento, come si fa con un animale, e ha sorriso. Poi abbiamo preso l'autobus, senza parlare del risultato.\n\nDomande:\nPerché il nonno parla di cemento più che di calcio?\nPerché per lui lo stadio è soprattutto un'opera d'architettura, e la scala di Nervi è la sua parte preferita.\nChe cosa c'è di sorprendente nello stadio?\nIl tetto sembra sospeso nell'aria, senza colonne, e c'è un'armonia tra le forme.\nPerché i fiorentini hanno fermato l'idea di un nuovo stadio?\nPerché un'opera così importante non si butta via."
+    },
+    {
+      "title": "La scuola che risparmia energia",
+      "summary": "An interview with an architect in Trentino who gave an old stone school a new, energy-saving life without changing its look.",
+      "newWords": [
+        "isolamento",
+        "pannello",
+        "serra",
+        "edilizia",
+        "emettere",
+        "carenza",
+        "fornitura",
+        "monitoraggio",
+        "testare",
+        "picco",
+        "programmato"
+      ],
+      "text": "Marta Zanon è un'architetta trentina che lavora da vent'anni nell'edilizia sostenibile. Il suo studio ha appena finito di restaurare la vecchia scuola elementare di un paese della Val di Fiemme: un edificio di pietra del 1912, con le finestre alte e il tetto di legno. Oggi la scuola consuma un terzo dell'energia di prima. La incontriamo nel cortile della scuola.\n\nChe cosa vi hanno chiesto i genitori e il comune?\nUna cosa semplice e difficile insieme: tenere caldi i bambini senza cambiare il volto del paese. La scuola è il centro di tutto, e nessuno voleva vederla trasformata in una scatola di vetro. Per questo l'esterno è rimasto com'era. Tutto il lavoro vero è invisibile.\n\nDa dove siete partiti?\nDall'isolamento, che in edilizia è sempre il primo passo. Le pareti di pietra sono bellissime, ma d'inverno lasciano scappare il calore. Non potevamo coprirle all'esterno, quindi abbiamo messo l'isolamento dentro, con uno strato sottile che non occupa spazio. Anche il tetto ha ricevuto un isolamento nuovo, e il risultato più importante è questo: la scuola perde molto meno calore di prima.\n\nE l'energia, da dove arriva?\nSul lato sud del tetto abbiamo montato dei pannelli solari, nascosti dietro il bordo, che dalla strada non si vedono. Davanti all'ingresso c'è anche una piccola serra: serve a rendere tiepida l'aria che entra in classe e allo stesso tempo piace ai bambini, perché lì crescono le piante della scuola. Una serra, per un architetto, è uno strumento semplice e molto intelligente.\n\nC'erano problemi?\nCome sempre. In questa valle c'è una vera carenza di operai esperti, e per lunghi mesi abbiamo avuto difficoltà con la fornitura dei materiali: il legno arrivava in ritardo e i pannelli ancora di più. Una carenza di personale e una fornitura incerta possono fermare qualunque cantiere. Per fortuna il comune ha avuto pazienza.\n\nCome sapete che funziona?\nCon un monitoraggio continuo. Dentro i muri ci sono piccoli apparecchi che misurano caldo e freddo, e un computer ci manda i dati ogni giorno. Il monitoraggio mostra, per esempio, il picco di consumo, che arriva verso le otto di mattina, quando si accende il riscaldamento e arrivano i bambini. L'impianto è programmato per partire un'ora prima. Abbiamo programmato anche lo spegnimento di sera, e così il picco di consumo è più basso.\n\nAvete testato anche le finestre?\nSì, le abbiamo testate una per una, con una macchina che manda aria contro i vetri. Le finestre vecchie, riparate a mano, lasciano passare ancora un po' d'aria, ma poca. Il riscaldamento, invece, è nel pavimento: il pavimento emette un calore dolce, e anche i muri, quando sono caldi, emettono calore per ore.\n\nPreferisce il lavoro nuovo o il restauro?\nIl restauro. Nell'edilizia di oggi costruire da zero è facile; unire cento anni di storia alla tecnica di oggi è un lavoro che non finisce mai.\n\nDomande:\nChe cosa non ha cambiato lo studio di Marta Zanon?\nNon ha cambiato l'esterno della scuola, che è rimasto com'era.\nDove hanno messo l'isolamento delle pareti?\nL'hanno messo dentro, con uno strato sottile.\nChe cosa fa la serra?\nRende tiepida l'aria che entra in classe e permette ai bambini di far crescere le piante.\nQuando arriva il picco di consumo?\nArriva verso le otto di mattina, quando si accende il riscaldamento."
+    },
+    {
+      "title": "Lettera da Alghero",
+      "summary": "In an e-mail to a friend, a young woman describes a sailing trip along the Sardinian coast with her uncle, past old watchtowers and into a sea cave.",
+      "newWords": [
+        "vela",
+        "barra",
+        "grotta",
+        "bagnato",
+        "carburante",
+        "pompa",
+        "metallico",
+        "leccia",
+        "infilare",
+        "pirata"
+      ],
+      "text": "Cara Paola,\n\nti scrivo da Alghero, seduta al tavolo di un piccolo bar sul porto, con i capelli ancora bagnati di sale. Hai ragione a dire che mi sarei innamorata della Sardegna: questa è stata la settimana più bella dell'estate. Lo zio Sandro mi ha portata in barca a vela lungo la costa, e ora ti racconto tutto.\n\nSiamo partiti lunedì mattina. Zio Sandro mi ha messo in mano la barra e mi ha detto: «Tienila ferma, e guarda la vela.» All'inizio la barra mi sembrava un animale nervoso, che voleva andare per conto suo. Poi ho capito che bastava un movimento piccolissimo. Quando il vento ha riempito la vela, la barca ha cominciato a correre, e io mi sono sentita padrona del mare. Sono rimasta sulla barra per due ore, e alla fine avevo le mani rosse.\n\nLungo la costa, sulle rocce, ci sono le vecchie torri di guardia. Lo zio dice che furono costruite molti secoli fa per vedere da lontano le barche dei pirati: quando un uomo di guardia vedeva una vela sospetta, accendeva un fuoco sulla cima, e la torre vicina rispondeva con un altro fuoco. Così, di torre in torre, la notizia correva lungo tutta l'isola in poche ore. Oggi le torri sono vuote, ma sembra ancora di sentire gli occhi dei pirati addosso. Lo zio mi ha fatto notare che molte torri portano un grande anello metallico nella pietra, dove si legavano le corde. Quando il vento lo muove, l'anello fa un rumore metallico, lento e profondo, e sembra la voce delle torri.\n\nMartedì abbiamo visitato la Grotta di Nettuno, sotto Capo Caccia. Si arriva in barca, e poi si scende per una scala molto lunga. La grotta è grande come una chiesa, e l'aria è fresca. Ho dovuto infilare una giacca, perché faceva freddo, e la guida, infilando la mano tra due rocce, ci ha fatto toccare la pietra, bagnata da migliaia di anni da una goccia d'acqua dopo l'altra. Le colonne bianche che salgono dal pavimento sono state fatte così. Uscendo dalla grotta mi sono sentita molto piccola.\n\nMercoledì il vento è sparito. Il carburante del motore bastava appena, e lo zio ha controllato la pompa dell'acqua, perché una piccola perdita sotto il pavimento della barca ci preoccupava. Quando ha acceso la pompa, l'acqua sotto il pavimento è sparita in pochi minuti: la pompa funzionava benissimo. Abbiamo messo in moto lentamente, risparmiando il carburante, e siamo rientrati in porto a sera.\n\nIeri, per festeggiare, siamo andati a mangiare in un ristorante vicino al porto. Ho preso una leccia al forno, con olio e patate: pesce fresco, semplice e buonissimo. Anche lo zio ha ordinato la leccia, e ha detto che è il miglior premio per chi ha passato giorni in mare. Ha ragione.\n\nDimmi quando puoi raggiungermi. Ti aspetto, e ti porto io alla barra.\n\nUn abbraccio,\nGiulia\n\nDomande:\nChe cosa ha fatto Giulia durante il viaggio?\nHa tenuto la barra della barca a vela, e lo zio le ha mostrato la costa.\nA che cosa servivano le vecchie torri di guardia?\nServivano per vedere da lontano le barche dei pirati e dare la notizia all'isola con i fuochi.\nCom'è la grotta vicino a Capo Caccia?\nÈ grande come una chiesa, fresca, e la pietra è bagnata dall'acqua da migliaia di anni.\nPerché hanno risparmiato il carburante?\nPerché il vento era sparito e il carburante bastava appena per tornare in porto."
+    },
+    {
+      "title": "Un diario a Pompei",
+      "summary": "An Australian student keeps a diary during her first day among the ruins of Pompeii, where a stray puppy follows her.",
+      "newWords": [
+        "scatto",
+        "cenere",
+        "egiziano",
+        "siriano",
+        "pollice",
+        "fuso",
+        "australiano",
+        "aggirare",
+        "cucciolo",
+        "godersi",
+        "telefonare"
+      ],
+      "text": "Pompei, sabato sera\n\nCaro diario, scrivo in italiano per esercizio, come mi ha consigliato la mia professoressa. Mi chiamo Emma, sono australiana e vengo da Sydney. Sono arrivata a Napoli ieri, dopo una giornata intera di viaggio, e il fuso orario mi ha lasciata molto stanca: a Sydney ora è già domenica, e con questo fuso il mio corpo non sa più che ora sia. Eppure stamattina mi sono alzata alle sei, perché volevo vedere Pompei prima dei turisti.\n\nAppena sono entrata, sono rimasta senza parole. Le strade sono ancora lì, con le grandi pietre e i segni delle ruote dei carri. Mi aggiravo tra case senza tetto, negozi e piccoli giardini, e a ogni angolo avevo la sensazione che qualcuno fosse appena uscito. La guida, un signore gentile di nome Gino, mi ha spiegato che la città fu coperta nell'anno 79 da una pioggia di cenere. La cenere, cadendo piano, ha conservato tutto: il pane nei forni, le scritte sui muri, perfino i colori. La città è rimasta lì sotto per quasi duemila anni.\n\nLa cosa che mi ha sorpresa di più è che Pompei era una città molto aperta. Nelle case ci sono oggetti di origine egiziana, come piccole statue e dipinti, e in un negozio Gino mi ha mostrato le tracce di un commerciante di origine siriana, arrivato dal mare con la sua merce. Il commercio portava a Pompei persone, cibi e idee da tutto il Mediterraneo: la gente egiziana e quella siriana viveva qui da generazioni. Mi ha fatto pensare all'Australia. Anche noi australiani veniamo da tutto il mondo, e anche da noi tante persone di origini diverse vivono nelle stesse strade.\n\nNel pomeriggio c'era molto caldo. Mi sono seduta all'ombra di un muro, perché per godersi Pompei, penso, bisogna fermarsi ogni tanto. Allora è arrivato un cane. Era un cucciolo piccolo, marrone e bianco, con le orecchie troppo grandi per la testa. Gino ha detto che a Pompei vivono tanti cani senza casa, e che qualcuno li cura. Il cucciolo si è seduto accanto a me, e per un'ora non abbiamo fatto altro. Ho fatto uno scatto con il telefono, e poi un altro. Nel secondo scatto il cucciolo guarda l'obiettivo, con le zampe sul mio piede, e sembra quasi che sorrida. Ho alzato il pollice, ridendo, e Gino, che passava di lì, ha risposto con il pollice in su.\n\nPrima di uscire ho chiamato mia madre. Lei mi aveva detto: «Goditi il viaggio, ma telefona!» Così ho telefonato, anche se a Sydney era notte. «Com'è Pompei?», mi ha chiesto con la voce stanca. «Una città che sembra viva», le ho detto, «e c'è un cucciolo che vuole adottarmi.» Lei ha riso. Gino dice che serve almeno un giorno intero per godersi la città, e domani voglio aggirarmi ancora tra le sue strade.\n\nAdesso sono nella mia camera d'albergo, e il cucciolo, purtroppo, è rimasto a Pompei. Buonanotte, diario.\n\nDomande:\nPerché Emma scrive in italiano?\nScrive in italiano per esercizio, come le ha consigliato la professoressa.\nChe cosa ha conservato la cenere?\nHa conservato il pane nei forni, le scritte sui muri e perfino i colori.\nChe cosa racconta Gino sugli oggetti egiziani e siriani?\nRacconta che Pompei era una città aperta, dove il commercio portava persone e idee da tutto il Mediterraneo.\nChe cosa fa Emma con il cucciolo?\nLo tiene accanto a sé per un'ora e fa due scatti con il telefono."
+    },
+    {
+      "title": "Rosa e la sua casa di campagna",
+      "summary": "A portrait of a woman in Puglia who turned her family's old fortified farm into a small guest house and turned down a big hotel company.",
+      "newWords": [
+        "oliva",
+        "spezie",
+        "delizioso",
+        "cortesia",
+        "narrativa",
+        "multinazionale",
+        "influenzato",
+        "incerto",
+        "associare",
+        "attrazione"
+      ],
+      "text": "Per arrivare alla Masseria Calò bisogna lasciare la strada principale, attraversare un campo di alberi enormi e seguire una strada bianca di polvere. Alla fine, tra i muri di pietra e le palme, compare una grande casa quadrata con una torre: una vecchia fattoria del Seicento, oggi un piccolo albergo vicino a Ostuni, in Puglia. Rosa Calò ci accoglie con un sorriso e un bicchiere di acqua fresca.\n\nQuindici anni fa la casa era quasi in rovina. Suo padre non riusciva più a pagare le spese, e il futuro, per la famiglia, era incerto. Rosa lavorava in città, ma quando ha visto il tetto cadere ha deciso di tornare. Con suo fratello Luigi ha riparato i muri, ha messo a posto le stanze e ha aperto due camere agli ospiti. Il primo anno non è arrivato quasi nessuno. Il terzo, la casa era piena.\n\nOggi l'attrazione più amata dai visitatori non è una vista né una piscina, ma il vecchio mulino sotto terra, dove un tempo si schiacciavano le olive per fare l'olio. Rosa lo mostra con orgoglio. «Qui l'olio nasceva ancora senza motori», racconta. Le olive di famiglia sono la sua ricchezza: ogni autunno, ospiti e vicini aiutano nella raccolta e poi mangiano insieme una cena lunga. «Io associo l'odore dell'oliva appena fatta a mio nonno», dice. «Se chiudo gli occhi, è di nuovo novembre e lui è accanto a me.»\n\nLa cucina, infatti, è il cuore della casa. Rosa cucina secondo le ricette della nonna, influenzate da secoli di scambi con il mare: pomodori, pane, verdure, ma anche spezie arrivate da lontano. «Il pepe rosso, la cannella», dice. «Le spezie non sono di qui, ma da noi hanno trovato casa.» Anche il suo modo di cucinare è influenzato dai viaggi della madre. I piatti sono semplici e deliziosi. Un cliente tedesco, dopo una cena di verdure con le spezie, le ha scritto una lettera di tre pagine per dire quanto fosse delizioso tutto.\n\nNella casa c'è anche una piccola biblioteca, dove Rosa tiene romanzi e raccolte di racconti: la narrativa è la sua passione. Gli ospiti possono prendere un libro e lasciarne un altro, e così nella stanza si trovano storie in sei lingue. «La narrativa serve quanto il cibo», dice Rosa. «Dopo una buona cena si vuole una buona storia.»\n\nTre anni fa una multinazionale degli alberghi le ha proposto di comprare tutto. L'offerta era alta, e per un momento Rosa è rimasta incerta. Poi ha pensato al mulino, agli alberi, ai nonni. «Una multinazionale avrebbe cambiato nome, menu e musica», dice. «Io volevo restare me stessa.» Ha rifiutato con cortesia, e ancora oggi ricorda la cortesia di chi le ha telefonato per capire la risposta. Poi Rosa ha deciso di associarsi ad altri piccoli produttori della zona, perché insieme, spiega, ci si difende meglio. «Associarsi è stata la mia risposta alle multinazionali», dice.\n\nAlla fine della visita, le chiedo che cosa augura alla sua casa. «Che resti viva», risponde.\n\nDomande:\nCom'era la casa quindici anni fa?\nEra quasi in rovina, e il futuro della famiglia era incerto.\nQual è l'attrazione più amata dai visitatori?\nIl vecchio mulino sotto terra, dove un tempo si schiacciavano le olive.\nPerché Rosa ha rifiutato l'offerta della multinazionale?\nPerché voleva restare se stessa e non cambiare la casa.\nChe cosa fa Rosa per difendere il suo lavoro?\nHa deciso di associarsi ad altri piccoli produttori della zona."
+    },
+    {
+      "title": "La pratica per il cortile",
+      "summary": "A man who has been left a small palace in Palermo learns, one form at a time, what it takes to get permission to restore its old courtyard.",
+      "newWords": [
+        "compilare",
+        "paragrafo",
+        "aggiuntivo",
+        "riscontro",
+        "provvisorio",
+        "monetario",
+        "etico",
+        "avvertito",
+        "avermi",
+        "congiunto"
+      ],
+      "text": "Quando mia zia è morta, mi ha lasciato una casa a Palermo, in una strada stretta vicino ai Quattro Canti. Non è un palazzo grande, ma ha un cortile del Settecento con una scala di pietra, un pozzo e un limone che dà frutti anche d'inverno. Il tetto, però, perde acqua, e la scala ha qualche pezzo rotto. Così, una mattina di marzo, sono andato all'ufficio che si occupa dei vecchi edifici, per chiedere il permesso di sistemare tutto.\n\nL'impiegata, la dottoressa Lombardo, mi ha accolto con molti fogli in mano. «Prima di tutto deve compilare questo modulo», mi ha detto. «Non è difficile, ma bisogna essere precisi.» Dopo avermi dato la penna, mi ha lasciato solo. Ho cominciato a compilare: nome, indirizzo, anno di costruzione. Fin lì tutto bene. Poi sono arrivato al paragrafo quattro, che chiedeva una descrizione dei lavori «in tutti i dettagli», e mi sono fermato. La dottoressa è tornata e ha sorriso. «Stia tranquillo. Scriva quello che vede. Il paragrafo quattro è il più lungo, lo so, perché tutti si fermano lì.»\n\nHo compilato il modulo in un'ora. Il giorno dopo ho portato le fotografie. «Per un edificio così antico serve un permesso diverso da quello per una casa normale», ha detto. «Ci vuole un documento aggiuntivo, firmato da un architetto, e poi un parere sul valore storico del cortile.» Nel secondo paragrafo c'era anche una domanda sul valore monetario della casa. «Non è per farle pagare di più», ha precisato, «ma per sapere quanto costa proteggerla. Il valore monetario conta, ma non è l'unico.»\n\nHo chiesto aiuto a un amico architetto, Franco, e insieme abbiamo scritto la relazione. Franco ha parlato della scala, del pozzo e del limone. «Un albero non è un monumento», ho detto ridendo. «Ma fa parte del cortile», ha risposto lui. «Esiste un dovere etico verso le cose che ci sono state lasciate. Se le rovini, rovini la memoria di chi le ha amate. È anche un impegno etico verso chi verrà dopo di noi.» L'ho scritta nell'ultimo paragrafo, che la dottoressa ha letto due volte.\n\nDopo due settimane non avevo ancora un riscontro, e ho telefonato. «Il riscontro arriva sempre in tre settimane», mi ha risposto la dottoressa, «ma per Lei lo faccio prima.» Il giorno dopo è arrivata una lettera breve: il permesso era dato, ma in forma provvisoria. Per sei mesi potevo fare i lavori più urgenti, cioè coprire il tetto e riparare la scala; il resto richiedeva un controllo. Sono tornato a ringraziarla. «La ringrazio di avermi avvertito del documento aggiuntivo», ho detto. «Senza di Lei, avrei sbagliato tutto.» Lei ha risposto: «Mi fa piacere. Ma ricordi che il permesso provvisorio non dura per sempre.»\n\nAdesso il tetto è nuovo, e il lavoro è diventato un lavoro congiunto: io, Franco e due operai, ogni mattina, nel cortile. Anche la relazione finale sarà una relazione congiunta, con le nostre firme. Il limone ha fatto sei frutti. Quando passa la dottoressa Lombardo, mi guarda e sorride.\n\nDomande:\nPerché Nino va all'ufficio?\nPerché vuole il permesso di sistemare il cortile della casa che ha avuto da sua zia.\nChe cosa c'è di difficile nel modulo?\nIl paragrafo quattro, che chiede la descrizione dei lavori in tutti i dettagli.\nChe cosa significa il permesso provvisorio?\nSignifica che per sei mesi si possono fare solo i lavori più urgenti.\nPerché Nino ringrazia la dottoressa?\nPerché lo ha avvertito del documento aggiuntivo."
+    },
+    {
+      "title": "L'ospedale che oggi è università",
+      "summary": "A student and her professor tour the Renaissance hospital in Milan, now a university, and discover how its architects imagined a house of care.",
+      "newWords": [
+        "chirurgia",
+        "ago",
+        "cronico",
+        "simbolico",
+        "seguace",
+        "inciso",
+        "immaginario",
+        "invenzione",
+        "provenienza"
+      ],
+      "text": "Anna studia lettere a Milano, nell'edificio che chiamano la Ca' Granda, la «Casa Grande». Oggi è una sede dell'università, ma fino a pochi decenni fa era un ospedale, ed è stato un ospedale per più di cinquecento anni. Una mattina di ottobre la professoressa Ferri, che insegna storia dell'arte, l'ha portata a visitare i cortili con alcuni compagni di corso.\n\n«Guardate questi archi», ha detto la professoressa. «L'ospedale fu disegnato nel Quattrocento da Filarete, un architetto toscano che sognava una città ideale. Una città immaginaria, per lui, era una città dove tutto era ordinato: strade dritte, piazze, scuole, e al centro un ospedale. Qui a Milano ha costruito una parte di quell'immaginario.» Anna ha alzato gli occhi: i cortili erano grandi, silenziosi, con file di archi uguali.\n\nLa professoressa ha spiegato che l'ospedale aveva una pianta a croce, e che anche questo era un'invenzione. Nelle quattro braccia della croce c'erano le sale dei malati, e nel punto d'incontro uno spazio comune. Così i malati, dal letto, potevano vedere lo stesso cortile e la stessa luce. Per l'epoca era una novità: l'idea di un ospedale grande, ordinato e luminoso. La pianta aveva anche un valore simbolico: ogni braccio era diverso, ma tutti si incontravano nello stesso punto, come in una grande famiglia. Anche la scelta di mettere l'ospedale al centro della città era simbolica. Molti architetti, nei secoli successivi, si sono dichiarati seguaci di Filarete e hanno costruito altri ospedali con la stessa pianta. Anna ha scritto la parola «seguaci» sul suo foglio.\n\nIn un'ala del cortile hanno visto la sala dove si curavano i malati cronici. «Cronico significa che dura nel tempo», ha spiegato la professoressa. «Una malattia cronica non passa in una settimana, e per questo servivano letti, cibo e personale per mesi.» In un'altra sala c'era un piccolo museo di oggetti antichi: bottiglie, strumenti e una scatola di legno con un ago lungo e sottile e un po' di filo. «Questo era l'ago di chi lavorava qui», ha detto Ferri. «Con ago e filo si facevano i vestiti dei malati. Anche i medici di allora usavano un ago, per la chirurgia: erano strumenti molto semplici.»\n\nAnna ha pensato che la chirurgia, in quel luogo, non fosse soltanto una scienza: era una catena di lavori piccoli, e quasi tutti invisibili. Su una colonna ha trovato una frase incisa nella pietra, quasi cancellata dal tempo. Ha chiesto a Ferri che cosa dicesse. «Non lo sappiamo con certezza», ha risposto la professoressa. «Forse il nome di una persona che ha dato dei soldi. Gli storici studiano da anni la provenienza dei materiali e dei nomi incisi, e anche la provenienza dei malati: venivano da tutta la Lombardia.»\n\nAll'uscita Anna si è fermata nel cortile principale. Ha pensato che un luogo di cura, quando diventa un luogo di studio, non cambia davvero: cambia il tipo di malattia, ma resta la stessa voglia di capire e di aiutare. Poi è andata a lezione, con molti appunti nella borsa.\n\nDomande:\nChe cos'era la Ca' Granda?\nEra un grande ospedale del Quattrocento, e oggi è una sede dell'università.\nQuale invenzione aveva Filarete?\nAveva disegnato un ospedale con una pianta a croce.\nChe cosa significa «cronico»?\nSignifica che una malattia dura nel tempo.\nChe cosa ha fatto Anna sulla colonna?\nHa letto una frase incisa nella pietra, quasi cancellata dal tempo."
+    },
+    {
+      "title": "Com'era, dov'era",
+      "summary": "A column from Venice weighing two answers to the question of whether a fallen monument should be rebuilt exactly as it was or replaced by something honest and new.",
+      "newWords": [
+        "tradire",
+        "indurre",
+        "contraddizione",
+        "disperazione",
+        "disordine",
+        "ecclesiastico",
+        "malvagio",
+        "agio",
+        "dubito"
+      ],
+      "text": "Ogni volta che passo in piazza San Marco e alzo gli occhi verso la grande torre, provo un sentimento strano. Quella torre ha più di cento anni, ma non è quella antica: il 14 luglio del 1902 il campanile cadde in pochi minuti, quasi senza rumore, e rimase solo un mucchio di pietre al centro della piazza. Fu uno dei giorni più tristi di Venezia. Per qualche ora la città visse nella disperazione. Poi, già la sera stessa, il consiglio comunale prese una decisione che avrebbe fatto storia: ricostruirlo «com'era, dov'era».\n\nAncora oggi mi chiedo se fu una scelta giusta, e dubito che esista una risposta sola. Dubito anche che chi la pensa diversamente abbia torto. Ci sono due modi di vedere la cosa, e tutti e due hanno le loro ragioni.\n\nIl primo modo è quello della memoria. Un campanile nasce come costruzione ecclesiastica, ma questo apparteneva a tutti: era un punto di riferimento per le navi, per i cittadini, per chi arrivava da lontano. Senza la torre, la piazza era sbilanciata, come un viso senza un occhio. Ricostruirla uguale significava restituire alla città il suo volto. Dopo la disperazione del crollo, i veneziani avevano bisogno di sentirsi a proprio agio in casa propria, e la forma conosciuta li faceva sentire così. Chi sostiene questa posizione dice che cambiare la forma sarebbe stato un modo di tradire la città.\n\nIl secondo modo è quello della verità. Chi lo difende, e non è un critico malvagio ma spesso uno studioso attento, ricorda che una copia non è l'originale. Una torre nuova che fa finta di essere antica, dicono, può indurre in errore i visitatori: li fa credere di vedere un'opera del Medioevo, mentre è del Novecento. Secondo questa idea, rispettare il passato significa mostrare ciò che è stato perduto e costruire, accanto, qualcosa di nuovo. Anche chi non ama l'architettura ecclesiastica può sentire la stessa domanda: che cosa dobbiamo salvare, la forma o la storia? Non è facile stare a proprio agio con una risposta sola.\n\nIl bello è che le due posizioni, a pensarci, non sono una contraddizione. Entrambe nascono dallo stesso amore per la città e dalla stessa paura del disordine, cioè del vuoto che resta quando una cosa cara scompare. La prima posizione cura il dolore; la seconda cura la verità. Se c'è una contraddizione, è dentro di noi: vorremmo una città che non cambia mai e, insieme, una città che dice la verità. Non c'è un malvagio e non c'è un eroe.\n\nIo, personalmente, quando guardo la torre mi sento più vicina alla prima posizione. Ma quando entro in un cantiere dove si ricostruisce un muro vecchio, penso alla seconda, e il disordine dei pensieri si calma. Forse una buona città ha bisogno di tutte e due: di un po' di rispetto e di un po' di coraggio, e di qualcuno, ogni tanto, che sappia dire quale delle due serve di più.\n\nDomande:\nChe cosa accadde il 14 luglio del 1902?\nIl campanile di San Marco cadde in pochi minuti.\nChe decisione prese il consiglio comunale?\nDecise di ricostruirlo «com'era, dov'era».\nChe cosa dice chi difende la ricostruzione uguale all'originale?\nDice che restituisce il volto alla città e che cambiare la forma sarebbe tradire la città.\nPerché, secondo l'altra posizione, una copia può essere un problema?\nPerché può indurre in errore i visitatori, facendo credere che sia un'opera antica."
+    },
+    {
+      "title": "Un cinema per il jazz",
+      "summary": "An interview in Lugano with the woman who turned an old cinema into a small concert hall and learned to listen to the building.",
+      "newWords": [
+        "jazz",
+        "espellere",
+        "fregare"
+      ],
+      "text": "Nel centro di Lugano, in una strada tranquilla vicino al lago, c'è un vecchio cinema degli anni Trenta che da due anni non proietta più film. Oggi, la sera, si sente dalla porta una tromba, e dentro, sotto il soffitto alto, un gruppo suona jazz davanti a duecento persone. Dietro l'idea c'è Chiara Bernasconi, un'ingegnera del suono di Lugano che ha passato un anno a studiare come cambiare la sala senza cambiarne l'anima. Ci siamo seduti con lei in platea.\n\nPerché un cinema, e non una sala nuova?\nPerché una sala nuova non ha storia. Questo cinema aveva già una forma giusta: lunga, con le pareti curve e il soffitto di legno. Un buon cinema è quasi sempre una buona sala per la musica. E poi il jazz ha bisogno di un posto dove si respira, non di una scatola perfetta.\n\nQual è stato il lavoro più difficile?\nIl suono. Il jazz ha tanti strumenti, e ognuno deve avere il suo spazio. Con la mia squadra ho passato giorni a provare la sala con un registratore. Camminavo da una poltrona all'altra, battendo le mani, per sentire dove il suono si perdeva. Alla fine abbiamo messo pannelli di tessuto sul fondo, e il suono è diventato caldo, pieno, vicino.\n\nE l'aria?\nUn altro problema grande. Duecento persone in una sala chiusa fanno molto caldo, e in un edificio vecchio non si può aprire un buco in ogni parete. Abbiamo costruito un piccolo impianto, nascosto sotto il palco, che aspira l'aria calda, la porta fuori e fa entrare aria fresca. L'impianto deve espellere l'aria senza fare rumore, perché altrimenti si sente nei momenti di silenzio. Espellere l'aria in silenzio è stato quasi più difficile che suonare bene.\n\nChe cosa è successo il primo inverno?\nSono arrivati i primi freddi, e l'impianto non era ancora a punto. Il pubblico, in sala, si fregava le mani mentre ascoltava. Il musicista, con le dita rigide, ha detto che non riusciva a tenere le bacchette. Io, per una sera, ho fatto da cameriera e ho portato tè caldo a tutti. Un signore anziano si fregava le mani sorridendo e diceva: «Non fa niente, la musica scalda più dell'impianto.»\n\nCome sceglie i gruppi?\nMi piacciono i giovani, ma anche i vecchi maestri. Ogni giovedì suona un gruppo del posto, e il sabato un ospite da fuori. Il jazz, per me, è una conversazione: nessuno parla da solo, tutti ascoltano. Per questo la sala deve essere un buon posto per ascoltare.\n\nQuale risultato le ha dato più gioia?\nUna sera, dopo il concerto, una signora che frequentava il cinema da bambina mi ha detto: «Qui è cambiato tutto e non è cambiato niente.» Era il complimento che sognavo.\n\nDomande:\nChe cosa c'era prima nell'edificio?\nC'era un vecchio cinema degli anni Trenta.\nChe cosa ha fatto Chiara per migliorare il suono?\nHa messo pannelli di tessuto sul fondo della sala.\nChe cosa deve fare l'impianto dell'aria?\nDeve espellere l'aria calda in silenzio e far entrare aria fresca.\nPerché il pubblico si fregava le mani il primo inverno?\nPerché faceva freddo e l'impianto non era ancora a punto."
+    }
+  ]
+}

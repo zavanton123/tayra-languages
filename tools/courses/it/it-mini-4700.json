@@ -1,0 +1,230 @@
+{
+  "id": "it-mini-4700",
+  "rankUpTo": 4700,
+  "level": "C1",
+  "title": "Vivere tra due paesi",
+  "description": "Ten calm, personal texts about living between countries: a diary from Lisbon, an e-mail after a move, a visit to grandchildren in Sydney, a column on learning a language, two kitchens, two Christmases, a Sunday video call, a football club in Lugano, a Walser village and an evening at the Arena in Verona.",
+  "topic": "Living between countries",
+  "names": [
+    "Giulia",
+    "Bari",
+    "Lisbona",
+    "Marco",
+    "Silvia",
+    "Torino",
+    "Amburgo",
+    "Teresa",
+    "Cagliari",
+    "Sydney",
+    "Paolo",
+    "Claire",
+    "Mia",
+    "Leo",
+    "Sabine",
+    "Firenze",
+    "Marta",
+    "Arno",
+    "Federica",
+    "Lecce",
+    "Vienna",
+    "Jonas",
+    "Heike",
+    "Luca",
+    "Siracusa",
+    "Teatro Greco",
+    "Chiara",
+    "Vito",
+    "Ostuni",
+    "Zurigo",
+    "Antonio",
+    "Franco",
+    "Milano",
+    "Davide",
+    "Napoli",
+    "Enzo",
+    "Lugano",
+    "Bernasconi",
+    "Bellinzona",
+    "Elena",
+    "Gressoney",
+    "Valle d'Aosta",
+    "Sicilia",
+    "Italia",
+    "Monte Rosa",
+    "Walser",
+    "Edda",
+    "Sofia",
+    "Beatrice",
+    "Bruxelles",
+    "Verona",
+    "Giorgio",
+    "Giulietta",
+    "Romeo",
+    "Arena di Verona",
+    "via Cappello",
+    "titsch"
+  ],
+  "lessons": [
+    {
+      "title": "Quaranta giorni a Lisbona",
+      "summary": "Giulia, a maths PhD student from Bari, writes a diary report on her first forty days in Lisbon.",
+      "newWords": [
+        "dottorato",
+        "matematico",
+        "iscriversi",
+        "sussidio",
+        "beneficiare",
+        "fascicolo",
+        "ostile",
+        "accettabile",
+        "inevitabilmente",
+        "quaranta",
+        "resoconto"
+      ],
+      "text": "Lisbona, 3 ottobre\n\nSono a Lisbona da quaranta giorni e stasera ho deciso di scrivere un resoconto serio di questo primo periodo. Lo scrivo per me, ma anche per i miei genitori, che a Bari mi chiedono ogni sera, al telefono, se mangio abbastanza.\n\nMi chiamo Giulia, ho 26 anni e faccio un dottorato in un istituto sopra il fiume. Il dottorato dura tre anni, e io sono ancora all'inizio. Il mio professore è un matematico famoso, ma parla con tutti come se fossimo vecchi amici. Gli altri matematici dell'istituto sono altrettanto gentili: la prima settimana mi hanno portata a pranzo e mi hanno spiegato dove si compra il pane buono.\n\nPrima di partire ho dovuto preparare un grosso fascicolo con tutti i documenti: il certificato di laurea, due lettere, il programma di ricerca. Il fascicolo era così grosso che l'ho diviso in due cartelle. Ma è servito: grazie ai documenti ho ottenuto un sussidio per i primi dodici mesi. Non tutti possono beneficiare di un aiuto così, e lo so bene. Per questo cerco di non sprecarlo. Ho scritto ai miei genitori che il sussidio basta per l'affitto e per il biglietto del tram, e che altri studenti hanno beneficiato dello stesso aiuto prima di me.\n\nPer prima cosa bisognava iscriversi a un corso di portoghese. Iscriversi era facile, ma i posti finiscono in fretta, e una collega italiana mi ha detto: «Iscriviti subito.» Ho seguito il consiglio e ora, tre sere alla settimana, imparo a dire cose semplici: il mio nome, il prezzo del caffè, dove abito.\n\nLe prime settimane la città mi sembrava ostile. Le strade salgono e scendono, la gente parla veloce e il portoghese, che sulla carta conoscevo, nella realtà lo seguivo a metà. Nessuno è stato maleducato, anzi: l'ostile era tutto nella mia testa. Adesso so che una città ostile è soltanto una città che non conosci ancora.\n\nLa mia stanza è piccola, ma il prezzo è accettabile e dalla finestra vedo i tetti rossi. Non è la casa di Bari, però per ora è accettabile, e ogni sera la sistemo un po' meglio. Inevitabilmente, nei primi giorni ho pianto una sera o due, e inevitabilmente ho chiamato mia madre. Lei mi ha detto soltanto: «Mangia, e domani vedrai che va meglio.» Aveva ragione.\n\nQuesto resoconto finisce qui. Domani ho un incontro con il professore alle 9, e devo dormire. Quaranta giorni sono pochi, ma bastano per capire che ho fatto la scelta giusta.\n\nDomande:\nDa quanti giorni è Giulia a Lisbona?\nGiulia è a Lisbona da quaranta giorni.\nPerché ha preparato un grosso fascicolo?\nPerché con tutti i documenti ha ottenuto un sussidio per i primi dodici mesi.\nChe cosa ha fatto per imparare il portoghese?\nSi è iscritta a un corso di portoghese, tre sere alla settimana.\nPerché la città le sembrava ostile?\nPerché la gente parla veloce e il portoghese lo seguiva solo a metà.\nChe cosa le ha detto sua madre al telefono?\nLe ha detto: «Mangia, e domani vedrai che va meglio.»"
+    },
+    {
+      "title": "Il trasloco",
+      "summary": "Marco writes to his friends from Hamburg, three days after moving from Turin: a broken fridge, a lamp in the hand luggage, a stubborn internet connection.",
+      "newWords": [
+        "lampada",
+        "frigo",
+        "garage",
+        "guasto",
+        "pesare",
+        "eccetto",
+        "fatemi",
+        "impostare",
+        "configurazione",
+        "browser",
+        "connettere",
+        "averci"
+      ],
+      "text": "Oggetto: Siamo arrivati!\n\nCari amici,\n\nvi scrivo dal divano, l'unico mobile che al momento è montato. Siamo ad Amburgo da tre giorni e il trasloco è finito: tutto è al suo posto, eccetto gli scatoloni dei libri, che Silvia vuole aprire «con calma». Ho paura che resteranno chiusi fino a Natale. Non manca niente, eccetto un po' di ordine.\n\nIl camion è partito da Torino lunedì all'alba. Nel garage del nostro vecchio palazzo avevamo tenuto per una settimana tutte le scatole, e lì ho capito quante cose abbiamo. Qui il garage è più piccolo e, per ora, ci sta soltanto la bicicletta. Siamo arrivati in una città senza averci mai abitato e senza averci neppure passato una vacanza, e ogni giorno scopriamo qualcosa di nuovo.\n\nLe cose più importanti le abbiamo portate in aereo. All'aeroporto hanno fatto pesare tutte le valigie, e la mia pesava due chili di troppo. Ho dovuto togliere la lampada di mia nonna, quella verde, e portarla in mano fino all'aereo, come se fosse un bambino. Adesso la lampada è sul tavolino accanto al divano e fa una luce calda: è l'unica cosa vecchia in una casa tutta nuova.\n\nL'appartamento è luminoso, ma il secondo giorno il frigo ha avuto un guasto. Alle 8 di sera mi sono ritrovato con il latte tiepido e il burro che si scioglieva. Il padrone di casa, un signore molto gentile, ha chiamato un tecnico, che ha trovato il guasto in dieci minuti: un cavo staccato. «Un guasto semplice», ha detto, e ha sorriso. Adesso il frigo funziona e il latte è di nuovo freddo.\n\nLa parte più difficile è stata internet. Silvia ha impostato il router seguendo le istruzioni in tedesco, e io ho cercato di connettere il computer, ma la configurazione non andava. Il browser mi mostrava soltanto un messaggio d'errore, e ogni volta che chiudevo il browser e lo riaprivo, il messaggio tornava uguale. Dopo un'ora, dopo aver impostato tutto un'altra volta, passo dopo passo, ci siamo connessi. La configurazione era sbagliata per una sola lettera: un errore stupido, ma dopo tanta fatica ci è sembrato un piccolo trionfo.\n\nOra vi aspettiamo. La camera per gli ospiti c'è, anche se è piena di scatoloni. Fatemi sapere quando potete venire, e fatemi sapere anche che cosa vi manca di Torino: ve lo mando. Silvia dice che, per cominciare, potete portare un po' di vero caffè.\n\nUn abbraccio,\nMarco\n\nDomande:\nDa quanto tempo sono Marco e Silvia ad Amburgo?\nSono ad Amburgo da tre giorni.\nChe cosa ha dovuto togliere Marco dalla valigia?\nHa dovuto togliere la lampada di sua nonna, perché la valigia pesava due chili di troppo.\nChe cosa è successo al frigo?\nIl secondo giorno ha avuto un guasto, ma il tecnico ha trovato il guasto in dieci minuti.\nPerché la configurazione di internet non andava?\nPerché era sbagliata per una sola lettera.\nChe cosa chiede Marco ai suoi amici?\nChiede di fargli sapere quando possono venire e che cosa manca loro di Torino."
+    },
+    {
+      "title": "Dall'altra parte dell'oceano",
+      "summary": "Teresa flies from Cagliari to Sydney to meet her grandchildren, the twins Mia and Leo, and spends their birthday with them.",
+      "newWords": [
+        "oceano",
+        "gemelli",
+        "elio",
+        "biondo",
+        "bionda",
+        "somigliare",
+        "brivido",
+        "dozzina",
+        "vederti",
+        "gliene",
+        "crederci"
+      ],
+      "text": "Teresa ha 72 anni e non aveva mai visto l'oceano da vicino. Adesso ne ha attraversato uno intero, in 22 ore di viaggio, per andare da Cagliari a Sydney, dove vive suo figlio Paolo con la moglie Claire e con i due gemelli, Mia e Leo.\n\nAll'aeroporto, quando ha visto i bambini correre verso di lei, ha sentito un brivido lungo la schiena, un brivido di gioia e di stanchezza insieme. Li conosceva solo dalle videochiamate e dalle foto, e ora erano lì, più alti di quanto pensasse. «Nonna!» hanno gridato insieme. Paolo le ha preso la valigia e ha detto: «Mamma, non vedo l'ora di vederti seduta nella nostra cucina.» «Non riesco a crederci», ha risposto Teresa. «Non riesco a crederci che sono qui.»\n\nI gemelli hanno sei anni e non si somigliano molto. Leo è biondo come la madre, con i capelli che il sole australiano rende quasi bianchi: un bambino biondo e sempre in movimento. Anche Mia è bionda, una bambina bionda ma con gli occhi scuri come la nonna. Teresa li guarda a lungo. Leo somiglia a Claire, dice, e Mia somiglia a lei, a Teresa, da bambina. «Ho visto le vecchie foto», conferma Paolo. «Mia somiglia a te più di quanto pensi.»\n\nNella valigia c'era un regalo per ciascun bambino e una dozzina di dolci sardi, avvolti uno per uno nella carta. Leo ha voluto assaggiarne subito uno, e la nonna gliene ha dato uno dei più piccoli. Poi Mia ha chiesto: «Posso averne uno anch'io?» «Certo», ha detto Teresa, e gliene ha dato un altro. Una dozzina non bastava per una festa, così la sera Paolo ne ha comprata un'altra in una pasticceria vicino a casa.\n\nIl giorno dopo, per il compleanno dei bambini, il giardino era pieno di palloncini. Paolo ne aveva gonfiati venti con l'elio, e quando li ha lasciati andare hanno cominciato a salire verso il cielo. «Perché non cadono?» ha chiesto Leo. «Perché dentro c'è l'elio», ha spiegato il padre, «un gas più leggero dell'aria.» Teresa ha tenuto in mano il filo di un palloncino e, per un momento, le è sembrato di avere di nuovo sei anni.\n\nAlla fine della festa si è seduta in giardino, con Mia addormentata sulle ginocchia. Dall'altra parte dell'oceano, a Cagliari, era già mattina. Ha pensato alla sua casa e al suo gatto, ma non aveva nostalgia. «Ho viaggiato per 22 ore», ha detto a Paolo, «e non riesco ancora a crederci.» «Anch'io, mamma», ha risposto lui. «Sono contento di vederti qui.»\n\nDomande:\nDa dove a dove ha viaggiato Teresa?\nHa viaggiato da Cagliari a Sydney.\nChi sono Mia e Leo?\nSono i gemelli, i due figli di Paolo e Claire.\nChi somiglia alla nonna?\nMia somiglia alla nonna: ha gli occhi scuri come lei.\nChe cosa c'era nella valigia di Teresa?\nC'erano un regalo per ciascun bambino e una dozzina di dolci sardi.\nPerché i palloncini salgono verso il cielo?\nPerché dentro c'è l'elio, un gas più leggero dell'aria."
+    },
+    {
+      "title": "Imparare l'italiano a quarant'anni",
+      "summary": "A column by Sabine, a German woman in Florence, on what eight years of learning Italian as an adult have taught her.",
+      "newWords": [
+        "classificare",
+        "esplicitamente",
+        "attentamente",
+        "costruttivo",
+        "cerebrale",
+        "tipicamente",
+        "sottovalutare",
+        "altresì",
+        "sfogo",
+        "vergognoso",
+        "lineare"
+      ],
+      "text": "Quando mi sono trasferita a Firenze, otto anni fa, avevo quarant'anni e un solo piano: imparare l'italiano in sei mesi. Credevo che, con il francese e il latino della scuola, la lingua sarebbe arrivata da sola. Era un errore, e un errore tipicamente nostro, di chi ha già imparato una lingua: sottovalutare il lavoro che serve per impararne un'altra. Oggi non sottovaluto più niente.\n\nImparare una lingua da adulti non è un percorso lineare. Un giorno capisci tutta una conversazione al bar, il giorno dopo non capisci neanche il giornalaio. Per mesi ho pensato che fosse colpa mia, poi la mia insegnante, Marta, mi ha detto: «Non è un percorso lineare per nessuno. È come un'onda.» Da quel momento ho smesso di contare i giorni brutti.\n\nIl mio metodo è semplice. Ogni sera classifico le parole nuove in tre colonne: quelle di casa, quelle di lavoro e quelle di strada. Classificare aiuta la memoria, e il quaderno, con le sue colonne, mi sembra un piccolo archivio ordinato. In otto anni ho classificato più di duemila parole, e ogni tanto ne ritrovo una che credevo di avere dimenticato.\n\nDopo due ore di lezione ho la testa stanca, ed è una stanchezza cerebrale, che non viene dalle gambe. Lo sforzo cerebrale di capire e rispondere nello stesso momento è enorme. Ma è anche una ginnastica che fa bene, come camminare ogni giorno lungo l'Arno.\n\nMarta è un'insegnante molto brava. Non ci corregge davanti a tutti: aspetta, ascolta attentamente fino alla fine e poi ci dà un consiglio. Le sue correzioni sono sempre costruttive. Non dice mai «è sbagliato», dice «prova a dirlo così». Una critica costruttiva vale più di dieci regole. Il primo giorno ci ha detto esplicitamente: «Sbagliare è permesso.» Ce l'ha ripetuto esplicitamente anche a dicembre, quando eravamo tutti stanchi.\n\nI miei errori sono tipicamente gli errori di chi traduce parola per parola. Per esempio, per anni ho detto «sono caldo» invece di «ho caldo», e nessuno ha mai riso. Ascolto attentamente anche i commenti dei miei vicini, perché è da loro che imparo le frasi che nessun libro insegna.\n\nA casa tengo un quaderno che è il mio sfogo. Ci scrivo in italiano tutto quello che non riesco a dire in strada: i piccoli sfoghi della giornata, un'arrabbiatura, una battuta che mi è venuta in ritardo. Uno sfogo scritto in una lingua che non è la tua è un esercizio e una consolazione insieme.\n\nPer anni mi sono sentita vergognosa quando sbagliavo. Oggi so che sbagliare non è vergognoso. Vergognoso sarebbe smettere di parlare. È importante ascoltare, ma è altresì importante parlare, anche male; ed è altresì necessario avere pazienza con se stessi.\n\nOggi Firenze è la mia città. La lingua, invece, è ancora un ospite che sto imparando a conoscere. Ma sono sicura che, a poco a poco, diventerà un amico.\n\nDomande:\nChe errore ha fatto Sabine all'inizio?\nHa sottovalutato il lavoro che serve per imparare una lingua.\nPerché Sabine classifica le parole nuove in colonne?\nPerché classificare aiuta la memoria.\nCome sono le correzioni di Marta?\nSono costruttive: Marta dice «prova a dirlo così».\nChe cosa scrive Sabine nel suo quaderno?\nScrive in italiano i piccoli sfoghi della giornata.\nChe cosa pensa oggi degli errori?\nPensa che sbagliare non sia vergognoso, mentre smettere di parlare lo sarebbe."
+    },
+    {
+      "title": "Due cucine",
+      "summary": "Federica lives in Vienna but keeps a second kitchen in her mother's house in Lecce; on Sundays she cooks the same dish in both, on the phone.",
+      "newWords": [
+        "pepe",
+        "ceramica",
+        "stampo",
+        "trionfo",
+        "essenza",
+        "bottega",
+        "lindo",
+        "esportazione",
+        "rotazione",
+        "primitivo"
+      ],
+      "text": "Federica ha due cucine, e vuole bene a tutte e due.\n\nLa prima è a Lecce, nella casa di sua madre. È grande, con il pavimento di pietra e un forno a legna che sembra quasi primitivo, ma che fa un pane perfetto. Un forno così primitivo, dice la madre, ha una pazienza che i forni moderni non hanno. Sulle mensole ci sono piatti e ciotole di ceramica dipinta, comprati in una bottega del centro dove lavora lo stesso artigiano da quarant'anni. Ogni volta che torna, Federica entra in quella bottega e compra un piatto di ceramica per Vienna: la ceramica, dice, è il modo più bello di portare Lecce in valigia. Federica ricorda che da bambina la cucina era sempre linda: sua madre la puliva ogni sera, e ancora oggi la tiene linda come allora. Suo padre lavora in un'azienda che si occupa dell'esportazione dell'olio. In autunno una parte dell'olio parte per l'estero, e la casa profuma per settimane di olive.\n\nLa seconda cucina è a Vienna, dove Federica vive da cinque anni con il marito, Jonas. È piccola e moderna, con un piano d'acciaio e una finestra sul cortile. Qui non c'è il forno a legna, ma c'è un'altra abitudine: si cucina a rotazione. Il lunedì cucina lei, il martedì cucina Jonas, il mercoledì si ordina qualcosa da un ristorante vicino. La rotazione è un'idea di Jonas, e funziona così bene che anche i vicini l'hanno copiata.\n\nLa domenica Federica fa sempre la stessa cosa. Alle 11 telefona a sua madre e cucinano insieme: una a Lecce e l'altra a Vienna, ognuna nella sua cucina, con il telefono appoggiato contro un barattolo. Di solito fanno le polpette. «Un pizzico di pepe, non di più», dice la madre. «Qui il pepe è più forte», risponde Federica. «Allora un pizzico piccolo», ride la madre.\n\nPer il dolce la madre le ha insegnato la crostata al limone. Federica ha portato a Vienna lo stampo di sua nonna, un vecchio stampo scuro avvolto in due maglioni, e non lo cambierebbe con nessun altro. Il segreto della crostata sono due gocce di essenza di limone, che il padre porta da Lecce in una bottiglina e che Federica tiene vicino al pepe e al sale. «L'essenza del limone è l'essenza di casa», dice la madre, e Federica è d'accordo. La prima crostata a Vienna è stata un trionfo: Jonas ne ha mangiate tre fette e ha chiesto il permesso di prenderne una quarta.\n\nFederica sa che le due cucine non sono rivali. A Lecce c'è il profumo del pane e delle olive, a Vienna c'è il silenzio di un cortile e un marito che lava i piatti. Una cucina è dove il tempo passa piano, e per questo lei ne ha bisogno di due.\n\nDomande:\nDove sono le due cucine di Federica?\nUna è a Lecce, nella casa di sua madre, e l'altra è a Vienna.\nChe cosa fa il padre di Federica?\nLavora in un'azienda che si occupa dell'esportazione dell'olio.\nCome si cucina a Vienna?\nSi cucina a rotazione: un giorno cucina Federica, un giorno cucina Jonas.\nChe cosa fanno Federica e sua madre la domenica?\nCucinano insieme al telefono, ognuna nella sua cucina.\nCome è stata la prima crostata a Vienna?\nÈ stata un trionfo: Jonas ne ha mangiate tre fette."
+    },
+    {
+      "title": "Due Natali",
+      "summary": "Heike and Luca alternate Christmas between Hamburg and Syracuse; this year in Sicily they find that their two Christmases are not so different.",
+      "newWords": [
+        "benedizione",
+        "lite",
+        "termico",
+        "clemente",
+        "gemma",
+        "fastidioso",
+        "guardarsi"
+      ],
+      "text": "Per Heike il Natale è la sera del 24, con l'albero, le candele e i regali da aprire in famiglia. Per Luca è il giorno del 25, con un pranzo che comincia a mezzogiorno e finisce alle quattro. Quando si sono sposati hanno deciso di non scegliere: un anno ad Amburgo, dai genitori di lei, e un anno a Siracusa, dai genitori di lui. Quest'anno tocca a Siracusa.\n\nHeike è partita con tre maglie termiche nella valigia. «A Siracusa fa freddo anche in dicembre», diceva, «e io non voglio ammalarmi.» Luca rideva. Quando sono arrivati, a mezzogiorno c'erano 17 gradi e il cielo era blu. L'intimo termico è rimasto nella valigia, e Heike non ha potuto fare altro che guardare Luca e sorridere. «Hai ragione tu», ha detto. «Questo inverno è davvero clemente.»\n\nIl giorno dopo hanno fatto una passeggiata fino al Teatro Greco. Sui mandorli, vicino alle rovine, si vedevano già le prime gemme. Heike non riusciva a credere che in dicembre un albero potesse già pensare alla primavera. «Ad Amburgo, adesso, gli alberi sono neri e nudi», ha detto. «Qui hanno le gemme.» Il sole era una benedizione dopo settimane di pioggia, e lei lo ripeteva a ogni passo: «È una benedizione, è proprio una benedizione.» L'unico problema era un vento fastidioso che alzava la polvere dalle strade, ma anche una brezza fastidiosa, con quella luce, sembrava una cosa piacevole.\n\nLa prima piccola lite è arrivata la sera del 24. Heike voleva aprire i regali dopo cena, come a casa sua. La madre di Luca, invece, aveva già pensato di aprirli il giorno dopo, a pranzo. Non era una vera lite: nessuno alzava la voce, ma tutti parlavano insieme. Alla fine Luca e Heike hanno dovuto soltanto guardarsi e ridere: dopo tanti anni, per capirsi basta guardarsi. «Guardiamoci negli occhi», ha detto lui, «e decidiamo un compromesso.» Nelle loro famiglie le liti durano sempre cinque minuti.\n\nIl compromesso, in realtà, esisteva già. In Sicilia anche la sera del 24 si fa una grande cena, con il pesce, e quella sera Heike ha avuto la sua serata di Natale: candele, regali piccoli e una tavola piena di piatti. Il giorno dopo, a pranzo, c'è stato il Natale di Luca, con la pasta al forno e i dolci di mandorle. Per la prima volta nessuno ha dovuto scegliere tra i due.\n\nAlla fine, mentre aiutava a lavare i piatti, Heike ha detto alla suocera: «Ho portato tre maglie termiche e non le ho usate.» La suocera ha riso: «Le userai ad Amburgo.»\n\nDomande:\nChe cosa ha portato Heike nella valigia?\nHa portato tre maglie termiche.\nCom'è il tempo a Siracusa a dicembre?\nÈ clemente: a mezzogiorno ci sono 17 gradi e il cielo è blu.\nChe cosa vede Heike sui mandorli?\nVede già le prime gemme.\nDi che cosa discutono la sera del 24?\nDiscutono di quando aprire i regali, ma è soltanto una piccola lite.\nCome finisce la piccola lite?\nLuca e Heike si guardano e ridono, e trovano un compromesso."
+    },
+    {
+      "title": "La videochiamata della domenica",
+      "summary": "Chiara in Zurich calls her grandfather Vito in Apulia every Sunday; this week she discovers that he broke his wrist picking olives.",
+      "newWords": [
+        "ettaro",
+        "frattura",
+        "chirurgo",
+        "clinico",
+        "muscolare",
+        "satellite",
+        "abolizione",
+        "menzione",
+        "sospendere",
+        "economista"
+      ],
+      "text": "Ogni domenica alle 5 del pomeriggio chiamo mio nonno Vito, a Ostuni. Io abito a Zurigo da tre anni e questo appuntamento è l'unica cosa che non salto mai. Una volta le chiamate dall'estero costavano così tanto che parlavamo cinque minuti; dopo l'abolizione dei costi extra possiamo parlare un'ora, e a volte lo facciamo. L'abolizione di quei costi è stata la migliore notizia degli ultimi anni, per noi.\n\nDomenica scorsa il nonno era seduto in cucina con il braccio sinistro al collo. «Non è niente», ha detto, senza fare menzione del dolore. Ma mia madre, dietro di lui, faceva segno di no con la testa. Così ho scoperto che era caduto dalla scala mentre raccoglieva le ultime olive e si era fatto male al polso. Era una frattura, e la frattura gli faceva male da tre giorni. «Dovevi dirmelo subito!» ho detto. «Non volevo farti preoccupare», ha risposto lui. Di nuovo, nessuna menzione dell'ospedale.\n\nPer fortuna mio cugino Antonio è chirurgo a Lecce. È stato lui a vedere il nonno la sera stessa. Per una volta il chirurgo di famiglia ha dovuto operare un parente, e ha fatto tutto in un'ora. Antonio mi ha mandato anche la cartella clinica con un messaggio: «Quadro clinico buono. Tra un mese sarà come nuovo.» Il nonno, che non si fida molto dei dottori, ha mostrato la cartella clinica alla telecamera con un certo orgoglio. «Quadro clinico buono», ha letto ad alta voce, come se fosse un premio.\n\n«Ora devo sospendere il lavoro, devo proprio sospendere tutto», ha detto, guardando fuori dalla finestra gli olivi. «Per la prima volta in sessant'anni.» Ha quattro ettari di terra, circa duecento alberi, e non ha mai sospeso la raccolta, neppure quando pioveva. Lo zio Franco, che è economista a Milano, ha fatto subito i conti al telefono: un economista, dice, non si ferma mai neanche in vacanza. «Se si ferma una settimana, perdiamo poco», ha detto. «Se si ferma un mese, perdiamo molto.» Alla fine hanno trovato due ragazzi del paese che finiranno la raccolta nei quattro ettari.\n\nIl nonno ha anche un dolore muscolare alla spalla, perché per tre giorni ha tenuto il braccio rigido. Antonio gli ha consigliato degli esercizi semplici, e il nonno li ha fatti davanti a me, ridendo, con il braccio buono. «Questo dolore muscolare passa subito», ha detto.\n\nIntanto, in salotto, la televisione parlava da sola: la guarda con il satellite, perché in campagna certi canali non arrivano in altro modo. Dal telefono sentivo la voce del commentatore. «Vai a vederla», gli ho detto. «Ci sentiamo domenica prossima.» «Alle 5», ha risposto.\n\nDomande:\nQuando chiama Chiara suo nonno?\nLo chiama ogni domenica alle 5 del pomeriggio.\nChe cosa è successo al nonno?\nÈ caduto dalla scala mentre raccoglieva le olive e si è fatto una frattura al polso.\nChi lo ha operato?\nLo ha operato suo nipote Antonio, che è chirurgo a Lecce.\nQuanti ettari di terra ha il nonno?\nHa quattro ettari di terra, con circa duecento alberi.\nPerché il nonno guarda la televisione con il satellite?\nPerché in campagna certi canali non arrivano in altro modo."
+    },
+    {
+      "title": "La squadra del lago",
+      "summary": "Davide, twelve, moves from Naples to Lugano with his father and joins a local football club; his first match ends in a draw.",
+      "newWords": [
+        "pareggio",
+        "minorenne",
+        "frenare",
+        "ingenuo",
+        "promotore",
+        "sottoporre",
+        "finalità"
+      ],
+      "text": "Davide ha dodici anni e fino a settembre ha vissuto a Napoli. Poi suo padre, Enzo, ha ottenuto un lavoro come infermiere all'ospedale di Lugano, e tutta la famiglia si è trasferita sul lago. Davide non conosce nessuno, e l'unica cosa che sa fare bene è giocare a pallone.\n\nPer questo la domenica mattina il padre lo accompagna al campo del quartiere, dove si allena una piccola squadra di ragazzi. La squadra è stata fondata dalla signora Bernasconi, che ne è la promotrice da quindici anni. È una signora piccola e decisa, con una voce che si sente da un capo all'altro del campo. «Il promotore di una squadra», dice sempre, «deve ricordarsi che i ragazzi vengono qui per giocare, non per vincere.»\n\nLa signora spiega a Enzo come funziona l'iscrizione. «Davide è minorenne», dice, «quindi serve la firma di un genitore.» Enzo firma il modulo, poi lo sottopone al medico del club, come richiesto. Davide si deve sottoporre anche a una breve visita: il medico gli controlla il cuore, i piedi e la schiena. «Hai un fisico da atleta», dice. Davide è ingenuo e crede che sia un complimento da campione, mentre il dottore lo dice a tutti i ragazzi.\n\nLa finalità della squadra è scritta su un cartello vicino alla porta del campo: «Giocare insieme.» La signora Bernasconi spiega che quella è la finalità di tutto il club, la sola. Davide la legge due volte, perché a Napoli le squadre dei ragazzi pensano soprattutto a vincere. Qui è diverso, e a lui sembra una bella cosa.\n\nLa domenica seguente c'è la prima partita, contro una squadra di Bellinzona. Davide gioca come attaccante. Corre veloce, e a un certo punto frena di colpo davanti al portiere. La signora Bernasconi gli ha detto più volte di frenare un attimo prima di tirare, aspetta un momento e tira. Il portiere salta, ma la palla va fuori di poco. «Non fa niente!» grida la signora Bernasconi. Davide, ingenuo come sempre, pensa che gli avversari siano nemici e invece, a fine partita, uno di loro gli stringe la mano.\n\nLa partita finisce con un pareggio, 2 a 2. Per Davide è la prima volta che un pareggio non lo fa arrabbiare. Dopo la partita tutti mangiano insieme sul prato, con panini e succo di frutta, e Davide scopre di avere già tre amici. Il padre lo guarda e sorride. Un pareggio, per una famiglia nuova, è un buon risultato.\n\nDomande:\nPerché la famiglia di Davide si è trasferita a Lugano?\nPerché Enzo ha ottenuto un lavoro come infermiere all'ospedale di Lugano.\nChi è la signora Bernasconi?\nÈ la promotrice della squadra da quindici anni.\nPerché serve la firma di un genitore?\nPerché Davide è minorenne.\nQual è la finalità della squadra?\nLa finalità del club è giocare insieme.\nCome finisce la prima partita?\nFinisce con un pareggio, 2 a 2."
+    },
+    {
+      "title": "Il villaggio dei Walser",
+      "summary": "Elena visits a Walser village in the Aosta Valley with her father and meets an old woman and a young volunteer who keep an endangered language alive.",
+      "newWords": [
+        "vetta",
+        "estinzione",
+        "insediamento",
+        "innamorare",
+        "attivista",
+        "saggezza"
+      ],
+      "text": "Quest'estate mio padre ha voluto portarmi a Gressoney, in Valle d'Aosta, nel luogo da cui sono partiti i suoi nonni. Io vivo a Torino da sempre e conoscevo il posto solo dalle foto. Ma quando siamo arrivati, in una mattina di luglio, ho capito subito perché tanta gente si innamora di questi posti. Io mi innamoro facilmente della montagna, e questo villaggio mi è piaciuto in cinque minuti: le case di legno, i balconi pieni di fiori, e sopra tutto la vetta del Monte Rosa, ancora bianca di neve. Una vetta così, da qui, sembra vicina: papà dice che bisogna camminare sei ore per arrivare alla vetta.\n\nPapà mi ha spiegato che questo è un antico insediamento dei Walser, e che ogni insediamento di montagna ha la sua storia: un popolo di montagna che, molti secoli fa, è arrivato dalla Svizzera e ha costruito i suoi villaggi sulle alte valli. Ancora oggi alcune famiglie parlano un dialetto tedesco antico, che si chiama titsch e che qui nessun altro conosce. «Per i miei nonni era la lingua di casa», ha detto papà, «e per me è la lingua di cui ho paura di dimenticarmi.»\n\nNel centro del paese c'è un piccolo museo, e lì abbiamo incontrato Edda, un'anziana signora con le mani grandi e la voce dolce. Edda parla titsch con le amiche, ma poche persone più giovani lo capiscono. «Una lingua in pericolo di estinzione», ci ha spiegato, «è come un albero che nessuno annaffia. Non muore in un giorno: muore in venti, trent'anni.» Mi ha colpita questa idea. Anche mio padre l'ha ascoltata in silenzio, senza dire una parola.\n\nDopo Edda abbiamo conosciuto Sofia, una ragazza di venticinque anni che lavora come attivista in un'associazione culturale. Non in politica, ha subito precisato: «Sono un'attivista della lingua. Il mio lavoro è insegnare il titsch ai bambini, con canzoni e giochi.» Ci ha mostrato il quaderno dei suoi alunni: pieno di disegni di mucche e di montagne, e di parole che nessuno, in classe, aveva mai sentito. L'estinzione di una lingua, secondo lei, si può fermare soltanto con la voce dei bambini. «Se i bambini ridono in titsch, la lingua non muore.»\n\nNel pomeriggio abbiamo camminato fino a un alpeggio, dove Edda ci ha preparato il pane e il formaggio. Non ha detto molto, ma la sua saggezza si sentiva in ogni gesto. «Le cose importanti», ha detto, «si imparano da chi sa aspettare.» Papà mi ha guardata e ha sorriso: era una saggezza che conosceva già, perché era quella di sua nonna.\n\nPrima di partire, papà ha comprato un piccolo dizionario di titsch e italiano. Lo leggiamo la sera, a casa, a Torino, una parola alla volta. Non sappiamo ancora se diventeremo bravi, ma una cosa è certa: i turisti che vengono qui si innamorano in fretta dei villaggi di legno e delle lingue antiche, e noi non siamo diversi. Il piccolo insediamento, con le sue venti case e la sua lingua, è entrato nella nostra famiglia.\n\nDomande:\nDove sono andati Elena e suo padre?\nSono andati a Gressoney, in Valle d'Aosta.\nChe cosa sono i Walser?\nSono un popolo di montagna arrivato dalla Svizzera molti secoli fa.\nChe cosa dice Edda delle lingue in pericolo di estinzione?\nDice che sono come un albero che nessuno annaffia: muoiono lentamente.\nChe lavoro fa Sofia?\nÈ un'attivista di un'associazione culturale e insegna il titsch ai bambini.\nChe cosa compra il padre prima di partire?\nCompra un piccolo dizionario di titsch e italiano."
+    },
+    {
+      "title": "Una sera all'Arena",
+      "summary": "Beatrice, who lives in Brussels, spends an August evening in Verona with an old schoolmate, remembering a teenage crush at the Arena and in Juliet's courtyard.",
+      "newWords": [
+        "arena",
+        "cotta",
+        "sentimentale",
+        "alcolico",
+        "frate",
+        "puramente"
+      ],
+      "text": "Ogni agosto torno a Verona. Vivo a Bruxelles da nove anni, lavoro tutto l'anno in un ufficio senza finestre sulla strada e, quando prendo l'aereo per l'Italia, ho sempre l'impressione di rientrare in un'altra versione di me stessa. Questa sera, per esempio, ho un appuntamento con Giorgio, il mio compagno di banco del liceo, davanti all'Arena.\n\nL'Arena di Verona è un'arena romana di duemila anni, e in estate ci si fa l'opera. Ci sono stata la prima volta a quindici anni, con la scuola. Quella sera ho scoperto due cose: che la musica, in un luogo così grande, ti arriva nel petto come un'onda, e che avevo una cotta per Giorgio. Una cotta segreta, ovviamente, di quelle che non si dicono a nessuno, nemmeno al diario. Lui non l'ha mai saputo, o forse l'ha sempre saputo.\n\nQuesta sera, trent'anni dopo, ci siamo seduti sui gradini di pietra con un panino e una bottiglia d'acqua. Giorgio ha ordinato una bibita non alcolica, perché deve guidare, e io ho preso un tè freddo: niente di alcolico, quella sera, per nessuno dei due. Abbiamo riso, perché a quindici anni ci sembrava tutto più complicato, e oggi ci basta stare seduti.\n\nMentre l'orchestra accordava gli strumenti, Giorgio mi ha confessato qualcosa. «Sai, anch'io avevo una cotta per te.» «Davvero?» ho chiesto. «Davvero. Ma non lo dicevo, perché ero un ragazzo sentimentale e avevo paura di sembrare ridicolo.» Io ho riso. Poi ho pensato che anch'io sono una persona sentimentale: tengo i biglietti dei treni, le cartoline e perfino lo scontrino della prima pizza a Verona dopo il liceo. Forse è questo che si impara a vivere tra due paesi: a conservare le cose.\n\nPrima dello spettacolo abbiamo fatto un giro in via Cappello, dove c'è la casa di Giulietta. Siamo entrati nel cortile puramente per curiosità, come fanno i turisti. Il cortile era pieno di turisti, e sul muro c'erano migliaia di biglietti d'amore. «Ricordi il frate?» mi ha chiesto Giorgio. «Quello che aiuta Romeo e Giulietta?» «Sì. Il vero personaggio buono della storia.» Mi è piaciuto che anche lui ricordasse il frate del libro di scuola.\n\nQuando l'opera è cominciata, le luci si sono spente e centinaia di piccole candele si sono accese sui gradini. Non ricordo di aver mai sentito tanto silenzio in una folla. Ho pensato a Bruxelles, alla mia scrivania, all'ufficio senza finestre. E ho pensato che, in fondo, ho bisogno di tutte e due le vite. Una volta tornavo a Verona puramente per riposare. Oggi ci torno per essere me stessa.\n\nDomande:\nCon chi ha un appuntamento Beatrice?\nHa un appuntamento con Giorgio, il suo compagno di banco del liceo.\nChe cos'è l'Arena di Verona?\nÈ un'arena romana di duemila anni, dove in estate si fa l'opera.\nChe cosa ordinano Giorgio e Beatrice da bere?\nGiorgio ordina una bibita non alcolica e Beatrice un tè freddo.\nChe cosa confessa Giorgio?\nConfessa che anche lui aveva una cotta per lei.\nChe cosa ricordano del cortile di Giulietta?\nRicordano il frate, il vero personaggio buono della storia."
+    }
+  ]
+}

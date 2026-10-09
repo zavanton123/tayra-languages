@@ -1,0 +1,239 @@
+{
+  "id": "it-mini-4600",
+  "rankUpTo": 4600,
+  "level": "C1",
+  "title": "Ricerca e scoperte",
+  "description": "Ten texts about research and discovery in Italy, San Marino and Argentina: an underground physics lab, a Sardinian bay, a fortress dig, an e-mail from Buenos Aires, a documentary review, an instrument maker, a column on research funding, a storm-hit forest, a diary of the stars and a high-altitude study.",
+  "topic": "Research and discovery",
+  "names": [
+    "Gran Sasso",
+    "Abruzzo",
+    "Marta Colasanti",
+    "Colasanti",
+    "Marta",
+    "L'Aquila",
+    "Porto Conte",
+    "Alghero",
+    "Sardegna",
+    "Chiara Pinna",
+    "Pinna",
+    "Giovanni Murru",
+    "Murru",
+    "Chiara",
+    "Giovanni",
+    "Monte Titano",
+    "San Marino",
+    "Francesca Gasperoni",
+    "Gasperoni",
+    "Francesca",
+    "Matteo Casali",
+    "Casali",
+    "Matteo",
+    "Pietro Righi",
+    "Righi",
+    "Pietro",
+    "Archivio di Stato",
+    "Buenos Aires",
+    "San Telmo",
+    "Lorenzo",
+    "Cuneo",
+    "Paz Acosta",
+    "Acosta",
+    "Paz",
+    "Torino",
+    "Giulia",
+    "Valeria",
+    "Trieste",
+    "Elena Bruni",
+    "Bruni",
+    "Elena",
+    "Paolo Danieli",
+    "Danieli",
+    "Paolo",
+    "Sofia",
+    "Carso",
+    "Adriatico",
+    "Firenze",
+    "Oltrarno",
+    "Marco Bellandi",
+    "Bellandi",
+    "Marco",
+    "Milano",
+    "Lecce",
+    "Val di Fiemme",
+    "Trentino",
+    "Elisa Zanon",
+    "Zanon",
+    "Elisa",
+    "Napoli",
+    "Anna",
+    "Orione",
+    "Monte Rosa",
+    "Valle d'Aosta",
+    "Silvia Brun",
+    "Brun",
+    "Silvia"
+  ],
+  "lessons": [
+    {
+      "title": "Il laboratorio sotto la montagna",
+      "summary": "An interview with a physicist who directs an experiment in the underground Gran Sasso laboratory in Abruzzo.",
+      "newWords": [
+        "sotterraneo",
+        "spettro",
+        "triplo",
+        "cattura",
+        "filtrare",
+        "terminale",
+        "semplificare",
+        "equivalere",
+        "continuazione",
+        "robusto",
+        "avvio"
+      ],
+      "text": "Sotto la roccia del Gran Sasso, in Abruzzo, c'è un laboratorio sotterraneo dove i fisici cercano particelle che quasi nessuno riesce a vedere. Per arrivarci si attraversa in auto un lungo tunnel, poi si entra in una grande sala scavata nella montagna. Abbiamo incontrato Marta Colasanti, che dirige uno degli esperimenti.\n\nPerché lavorare sotto una montagna?\nPerché la montagna ci protegge. Sopra di noi ci sono circa 1400 metri di roccia, e per i raggi che arrivano dallo spazio equivalgono a più di 3000 metri d'acqua. Un anno di misure qui sotto equivale, per la pulizia dei dati, a molti anni in superficie. In superficie quei raggi coprirebbero ogni segnale; qui, invece, ascoltiamo un silenzio quasi perfetto. Un laboratorio sotterraneo è un po' come una biblioteca per chi cerca un rumore molto debole.\n\nCome funziona il vostro strumento?\nÈ un grande contenitore d'acciaio pieno di liquido. Quando una particella lo attraversa, produce una luce appena visibile. Siccome il segnale è debolissimo, dobbiamo filtrare ogni disturbo con grande attenzione: anche un piccolo rumore potrebbe sembrare una scoperta. Anche il liquido va filtrato ogni settimana, perché la polvere è il nostro nemico. Per questo intorno al contenitore c'è uno schermo triplo, fatto di metallo, di plastica e di acqua pura. Uno schermo triplo non elimina tutto, ma riduce molto il rumore. Lo schermo è robusto: resiste da anni, e noi lo controlliamo come si controlla una diga.\n\nChe cosa misurate?\nMisuriamo lo spettro dell'energia, cioè quante particelle arrivano con ciascun valore di energia. Lo spettro è la nostra mappa: se un picco compare dove nessuno se lo aspetta, forse abbiamo trovato qualcosa di nuovo. La cattura di un solo evento interessante può richiedere mesi, e a volte la cattura di un segnale vero arriva dopo anni di silenzio. Per questo siamo pazienti.\n\nCome lavorate ogni giorno?\nIn venti persone, a turni, di giorno e di notte. I dati arrivano su un terminale della sala di controllo, che mostra la temperatura, la pressione e il numero dei segnali. Un secondo terminale, nella sede dell'istituto a L'Aquila, ci permette di controllare tutto anche da lontano.\n\nChe cosa è cambiato negli anni?\nAbbiamo semplificato molte cose. Dieci anni fa il sistema aveva centinaia di cavi, e ogni controllo richiedeva ore. Oggi l'avvio di una nuova misura richiede pochi minuti. Semplificare non significa rendere lo strumento meno preciso: significa togliere tutto ciò che non serve. E tutto il sistema deve essere robusto, perché una volta chiusa la sala non si può più riparare niente.\n\nE il futuro?\nLa continuazione dell'esperimento dipende dai risultati dei prossimi due anni. Se tutto va bene, la continuazione è garantita per altri dieci. Intanto aspetto con calma: in questo mestiere un silenzio non è mai tempo perso.\n\nDomande:\nDove si trova il laboratorio?\nSi trova sotto la roccia del Gran Sasso, in Abruzzo.\nPerché i fisici lavorano sotto una montagna?\nPerché la roccia ferma quasi tutti i raggi che arrivano dallo spazio e permette di ascoltare un silenzio quasi perfetto.\nCom'è fatto lo schermo triplo?\nÈ fatto di metallo, di plastica e di acqua pura.\nChe cosa mostra il terminale della sala di controllo?\nMostra la temperatura, la pressione e il numero dei segnali.\nChe cosa è cambiato negli ultimi dieci anni?\nIl sistema è stato semplificato e l'avvio di una nuova misura richiede pochi minuti.\nDa che cosa dipende la continuazione dell'esperimento?\nDipende dai risultati dei prossimi due anni."
+    },
+    {
+      "title": "Una mattina nella baia",
+      "summary": "A marine biologist and an old fisherman spend a morning on Sardinia's coast, measuring pollution and talking about lost nets, a rescued turtle and food waste.",
+      "newWords": [
+        "pescatore",
+        "baia",
+        "inquinamento",
+        "salvataggio",
+        "disperso",
+        "spreco",
+        "zaino",
+        "quotidianamente"
+      ],
+      "text": "Alle sei del mattino la baia di Porto Conte, vicino ad Alghero, in Sardegna, è ancora quasi vuota. Il mare è liscio, l'aria sa di sale e sul molo c'è già una donna con uno zaino pesante sulle spalle. Si chiama Chiara Pinna, è una biologa marina, e nello zaino porta bottiglie, provette e un piccolo apparecchio per misurare la temperatura dell'acqua.\n\nAccanto a lei c'è Giovanni Murru, un pescatore di 70 anni che esce in barca quasi quotidianamente da quando ne aveva 15. I due si conoscono da tre anni e lavorano insieme a una ricerca sull'inquinamento della baia. «Giovanni sa dove guardare», dice Chiara. «Io so che cosa misurare. Messi insieme, valiamo il doppio.» Anche lei controlla la temperatura dell'acqua quotidianamente, sempre alla stessa ora.\n\nIl primo problema che hanno studiato è la plastica, la causa principale dell'inquinamento. Per Chiara l'inquinamento da plastica è il nemico numero uno del mare. Mentre la barca si allontana dal molo, Giovanni racconta che negli ultimi anni le reti tornano a bordo con sempre più rifiuti. Non ci sono solo bottiglie: ci sono pezzi di corda, vecchi sacchetti e, soprattutto, reti disperse da altre barche, che restano sul fondo per anni e continuano a prendere pesci senza che nessuno ne tragga vantaggio. Chiara le chiama «reti fantasma». Una rete dispersa è un pericolo anche per le tartarughe, e un mese fa una di loro è rimasta impigliata proprio qui. Il salvataggio è durato due ore: Giovanni ha tagliato la rete con un coltello, Chiara ha tenuto ferma la tartaruga e alla fine l'animale è tornato in mare. Per Giovanni quel salvataggio è stato il momento più bello dell'anno.\n\nIl secondo problema è lo spreco. Un tempo i pescatori gettavano in mare i pesci troppo piccoli o poco richiesti, e quasi nessuno ci faceva caso. Oggi Giovanni vende anche quei pesci a una piccola cooperativa, che li trasforma in zuppe e polpette. «Il pesce è un'ottima fonte di proteine», spiega Chiara, «e buttarlo è uno spreco che non possiamo più permetterci.» Giovanni è d'accordo: da giovane non vedeva alcuno spreco in una cassetta di pesce rimasta al sole.\n\nAlle nove la barca torna al molo. Chiara versa l'acqua nelle provette, le chiude, scrive su ognuna l'ora e il punto del prelievo e le mette nello zaino. Giovanni intanto pulisce le reti, come ha fatto ogni giorno della sua vita. «Un tempo pensavo che il mare fosse troppo grande per essere rovinato», dice. «Adesso so che anche una baia piccola può ammalarsi, e che può guarire, se qualcuno se ne occupa.» Chiara sorride, chiude lo zaino e si avvia verso il laboratorio, dove i risultati la aspettano.\n\nDomande:\nDove si trova la baia di cui parla il testo?\nSi trova vicino ad Alghero, in Sardegna.\nChe cosa porta Chiara nello zaino?\nPorta bottiglie, provette e un apparecchio per misurare la temperatura dell'acqua.\nChe cosa sono le reti disperse?\nSono reti perse da altre barche, che restano sul fondo per anni e continuano a prendere pesci.\nCome è andato il salvataggio della tartaruga?\nGiovanni ha tagliato la rete, Chiara ha tenuto ferma la tartaruga e alla fine l'animale è tornato in mare.\nChe cosa fa Giovanni dei pesci troppo piccoli?\nLi vende a una cooperativa, che li trasforma in zuppe e polpette, per non fare spreco.\nChe cosa pensava Giovanni del mare quando era giovane?\nPensava che il mare fosse troppo grande per essere rovinato."
+    },
+    {
+      "title": "Sotto il pavimento della rocca",
+      "summary": "A report on three weeks of excavation at an old fortress in San Marino, where a notary's registers helped historians trace the lost walls.",
+      "newWords": [
+        "notaio",
+        "documentare",
+        "rocca",
+        "mattone",
+        "fossa",
+        "tracciato",
+        "storicamente",
+        "successore",
+        "acquisizione"
+      ],
+      "text": "Questa estate, sul Monte Titano, a San Marino, un gruppo di archeologi e di storici ha lavorato per tre settimane intorno alla rocca più antica della Repubblica. Il compito era facile da dire e difficile da fare: capire come era fatta la fortezza prima dei grandi restauri di 500 anni fa.\n\nIl lavoro è cominciato nell'archivio. La storica Francesca Gasperoni, che coordina il gruppo, ha passato tutto l'inverno a leggere gli atti di un notaio, Matteo Casali, che scriveva in un registro le vendite, i testamenti e perfino le piccole spese per riparare le mura. Un notaio di quel tempo era un po' il segretario di tutta la città: registrava ciò che le persone volevano ricordare. Il suo successore, Pietro Righi, ha continuato a scrivere nello stesso registro per altri 20 anni, e ha lasciato quasi 40 pagine su quei lavori. In una di quelle pagine si legge che per rifare un arco servivano mille mattoni, e che la fossa davanti alla torre doveva essere scavata più profonda di tre metri.\n\n«Storicamente le fortezze come questa servivano a controllare una valle», spiega Francesca, «ma storicamente sappiamo pochissimo di come fossero fatte: nessuno sapeva dove passassero le mura più vecchie. Gli atti del notaio ci hanno dato un indizio.» Con le descrizioni scritte dal notaio, il gruppo ha disegnato il tracciato delle mura antiche, che oggi in buona parte sono nascoste sotto l'erba. Poi gli studenti e gli archeologi hanno aperto quattro trincee, proprio lungo quel tracciato.\n\nLa prima sorpresa, se si può chiamare così, è stata la conferma: sotto venti centimetri di terra è comparsa una fila di mattoni rossi, larghi e sottili, uguali a quelli citati dal notaio. Qualche giorno dopo, vicino alla torre, i ragazzi dell'università hanno ritrovato anche il bordo della fossa, riempita di sassi e di terra. Ogni strato è stato documentato con fotografie, disegni e misure; ogni mattone è stato segnato con un numero. «Documentare è la parte più noiosa del lavoro e anche la più importante: bisogna documentare ogni cosa», dice una studentessa, «perché dopo lo scavo la terra non torna al suo posto.»\n\nUn'altra parte importante è stata l'acquisizione dei dati. Tutte le immagini sono state caricate in un archivio digitale, e ogni misura è stata confrontata con le pagine del registro. L'acquisizione dell'intero registro da parte dell'Archivio di Stato risale a molti anni fa, e il testo è ormai disponibile a tutti.\n\nIl sabato la rocca è stata aperta ai visitatori. Una bambina di otto anni ha chiesto se sotto il pavimento ci fosse un tesoro. Francesca le ha risposto di sì: «Sì, c'è. Ma è un tesoro fatto di mattoni, di terra e di date.»\n\nDomande:\nDove hanno lavorato gli archeologi?\nHanno lavorato sul Monte Titano, a San Marino, intorno alla rocca più antica.\nChe cosa scriveva il notaio Casali nel suo registro?\nScriveva le vendite, i testamenti e le piccole spese per riparare le mura.\nChi ha continuato il registro dopo di lui?\nLo ha continuato il suo successore, Pietro Righi, per altri 20 anni.\nCome ha trovato il gruppo il tracciato delle mura?\nLo ha disegnato leggendo le descrizioni del notaio.\nChe cosa è stato documentato con fotografie e disegni?\nOgni strato di terra e ogni mattone trovato nello scavo.\nChe cosa ha chiesto la bambina durante la visita?\nHa chiesto se sotto il pavimento della rocca ci fosse un tesoro."
+    },
+    {
+      "title": "Una lettera da Buenos Aires",
+      "summary": "An e-mail from an Italian researcher in Argentina to a colleague in Turin about a joint project on the papers of Italian emigrants.",
+      "newWords": [
+        "argentino",
+        "ispettore",
+        "allegato",
+        "correzione",
+        "agenda",
+        "inerente",
+        "signorina",
+        "pianificazione",
+        "motivato",
+        "coloniale"
+      ],
+      "text": "Oggetto: Notizie da Buenos Aires\n\nCaro Lorenzo,\n\nti scrivo dalla biblioteca del quartiere di San Telmo, dove da due settimane lavoro sulle carte degli emigranti italiani. L'edificio è una bella casa in stile coloniale, con un cortile pieno di piante, e la mattina è così fresco che quasi dimentico il caldo di fuori. Le mie giornate sono tutte uguali, ma piacevoli: alle 8 arrivo, alle 13 pranzo con un panino e un caffè, e alle 14 ricomincio.\n\nLa settimana scorsa è venuto un ispettore del ministero. Ha controllato i registri, i cavi elettrici e perfino le finestre, e alla fine ha detto che l'archivio è in ottime condizioni. Poi ha chiesto se potesse leggere qualche lettera, e ha passato mezz'ora con una lettera del 1912 di un ragazzo di Cuneo a sua madre. Un ispettore che si emoziona davanti a un documento: non me l'aspettavo.\n\nIl mio gruppo è molto motivato. Ci sono quattro studenti argentini, tutti figli o nipoti di italiani, e una giovane assistente, la signorina Paz Acosta, che conosce l'archivio meglio di chiunque altro. Quando i colleghi argentini la chiamano, dicono sempre «la signorina Paz», con un rispetto un po' antico che a me piace molto. Lavorano senza guardare l'orologio e ieri hanno voluto restare fino alle 7 di sera. Sono studenti motivati dalla storia delle loro famiglie, e questo si vede. Paz tiene un'agenda grande come un libro, dove segna ogni scheda, ogni data e ogni telefonata, e senza la sua agenda saremmo già perduti.\n\nPer quanto riguarda la pianificazione, il lavoro è diviso in tre fasi. In ottobre finiamo di leggere le lettere; in novembre scegliamo i testi inerenti alla vita quotidiana nelle fattorie e nei quartieri, e quelli inerenti al viaggio in nave; a dicembre prepariamo la mostra. La pianificazione della mostra è la parte che mi preoccupa di più, perché dobbiamo decidere quali lettere esporre e quali no.\n\nIn allegato trovi il file con la lista dei documenti scelti finora. Nello stesso file allegato c'è anche la prima parte dell'introduzione: ti prego di leggerla e di mandarmi le correzioni entro venerdì. Le tue correzioni sono sempre utili, specialmente quando si tratta dell'italiano scritto da chi vive all'estero da trent'anni, come me. Mi accorgo che qualche frase suona ormai un po' argentina!\n\nSe vuoi, possiamo sentirci su Internet domenica alle 11, ora di Torino. Segna la data nella tua agenda e salutami Giulia e i bambini.\n\nUn abbraccio,\nValeria\n\nDomande:\nDa dove scrive Valeria?\nScrive dalla biblioteca di San Telmo, a Buenos Aires.\nCome è il palazzo dell'archivio?\nÈ una casa in stile coloniale, con un cortile pieno di piante.\nChe cosa ha fatto l'ispettore del ministero?\nHa controllato i registri e i cavi elettrici, e ha letto una lettera del 1912.\nChi è Paz Acosta?\nÈ la giovane assistente di Valeria, che conosce l'archivio meglio di chiunque altro.\nIn quante fasi è diviso il lavoro?\nÈ diviso in tre fasi: catalogazione, scelta dei testi e mostra.\nChe cosa chiede Valeria a Lorenzo?\nGli chiede di leggere l'introduzione e di mandarle le correzioni entro venerdì."
+    },
+    {
+      "title": "Il bestiario di Elena",
+      "summary": "A review of a documentary shown at a festival in Trieste, about a scientific illustrator who draws animals with the help of a young animator.",
+      "newWords": [
+        "animazione",
+        "illustrazione",
+        "orchestra",
+        "sponsor",
+        "giurato",
+        "popolarità",
+        "credibile",
+        "sognato",
+        "satira"
+      ],
+      "text": "Ieri sera, alla chiusura del festival del documentario scientifico di Trieste, ho visto un film che pensavo di non amare. Il titolo, «Il bestiario di Elena», mi sembrava un po' vecchio, e il pubblico in sala era più numeroso di quanto mi aspettassi: di solito i documentari sulla natura non hanno una grande popolarità. Mi sbagliavo. Il film dura 82 minuti.\n\nElena Bruni ha 73 anni e disegna per la scienza da una vita. Per 40 anni ha disegnato uccelli, insetti e pesci per le riviste e per i libri di scuola. Il film la segue per un anno nel suo studio, in una vecchia casa del Carso, mentre prepara le tavole per un nuovo libro sugli animali del mare. Elena non dice mai che la sua è un'arte: dice che l'illustrazione è un modo di guardare, e che un'illustrazione fatta bene insegna più di una pagina di spiegazioni. «Se disegno una conchiglia», spiega, «la vedo davvero. Se la fotografo, la dimentico.»\n\nLa scelta più bella del regista, Paolo Danieli, è stata la parte di animazione. Ogni tanto, un disegno di Elena si muove: le ali di un uccello si aprono, un pesce attraversa la pagina, una piccola onda arriva dal bordo del foglio. L'animazione è opera di una giovane collaboratrice, Sofia, che lavora al computer. Elena non crede molto nel computer e Sofia non crede molto nella carta, ma a poco a poco ognuna impara dall'altra. L'animazione non sostituisce il disegno: lo accompagna.\n\nIl film è credibile anche perché non esagera. Non c'è nessuna satira del mondo della scienza, come in tanti film che prendono in giro gli scienziati, e non ci sono lacrime facili. C'è soltanto il lavoro quotidiano di una donna che guarda e disegna, e di una ragazza che la aiuta a mostrare ciò che Elena ha sognato per tutta la vita: un libro dove gli animali sembrano veri e leggeri allo stesso tempo. In una scena Elena racconta il mare che aveva sognato da bambina: un mare disegnato per intero, senza una parola.\n\nMerita attenzione anche la musica: la esegue una piccola orchestra, con note semplici che non coprono mai le immagini. Un'orchestra così piccola non fa rumore: accompagna soltanto. Il film ha avuto il sostegno di uno sponsor, una cooperativa di pescatori dell'Adriatico, e non si vede: non c'è nessuna pubblicità, nessun nome sullo schermo, tranne uno in fondo ai titoli finali.\n\nAll'uscita ho incontrato uno dei giurati, un vecchio professore di scienze con la barba bianca. «Questo è il film che avrei voluto fare io», mi ha detto. Il premio del pubblico è andato a Elena, che è salita sul palco con il suo album sotto il braccio. Ha ringraziato tutti con voce semplice e ha detto che il disegno è l'unica cosa che sa fare, e che la popolarità non cambierà il suo modo di lavorare. Poi, con un sorriso, ha aggiunto che da domani riprende a lavorare.\n\nDomande:\nDove si è svolto il festival?\nSi è svolto a Trieste.\nChe lavoro fa Elena Bruni?\nDisegna animali per la scienza, per le riviste e per i libri di scuola.\nChe cosa fa Sofia?\nSofia è una giovane collaboratrice che, con il computer, fa muovere i disegni di Elena.\nPerché il film è credibile?\nPerché non esagera, non fa satira degli scienziati e mostra solo il lavoro quotidiano.\nChi ha sostenuto il film?\nLo ha sostenuto uno sponsor, una cooperativa di pescatori dell'Adriatico.\nChe cosa ha detto il giurato?\nHa detto che quello era il film che avrebbe voluto fare lui."
+    },
+    {
+      "title": "Le mani dell'artigiano",
+      "summary": "A portrait of a craftsman in Florence who builds faithful copies of old scientific instruments for museums and schools.",
+      "newWords": [
+        "artigiano",
+        "morbido",
+        "piombo",
+        "china",
+        "dama",
+        "idem",
+        "jeans",
+        "classificazione"
+      ],
+      "text": "Nel quartiere dell'Oltrarno, a Firenze, in una bottega stretta tra un forno e una piccola libreria, lavora Marco Bellandi. Ha 52 anni, porta sempre i jeans e passa le giornate a costruire copie di antichi strumenti scientifici: orologi solari, piccoli telescopi, strumenti per misurare il cielo, tutti di legno e di metallo. Lavora per i musei e per le scuole.\n\nMarco non si definisce un artista. «Sono un artigiano», dice, «e un artigiano deve far funzionare le cose.» Per lui una copia vale qualcosa solo se si può usare davvero: lo strumento deve misurare, l'orologio solare deve segnare l'ora. Al mattino arriva in bottega alle 7, accende la luce sul banco e controlla gli strumenti da lavoro, uno per uno, come un pilota prima di partire.\n\nIl lavoro di questi giorni è una richiesta del museo della città. Si tratta di rifare uno strumento descritto in una lettera di 400 anni fa: una dama di corte aveva chiesto un piccolo strumento da portare in borsa, più leggero e più bello di quelli dei suoi tempi. L'originale è andato perduto, ma la lettera ne descrive il peso, la forma e perfino il colore. Marco ha scelto un legno di pero, che è morbido e si lavora bene, e per la custodia ha comprato una pelle morbida come un guanto. Il fondo dello strumento richiede un piccolo peso di piombo, perché il filo resti sempre teso e dritto.\n\nLe scale con i numeri sono la parte più delicata. Marco le disegna a mano, con una penna sottile e un po' di china. «La china non perdona», dice. «Se sbagli un segno, rifai tutto.» Per questo prepara le linee prima con una matita e controlla ogni misura con una lente. Il lunedì è così, il martedì è uguale, e il giovedì idem: stesso banco, stessa luce, stesso silenzio, e la stessa scala da finire. E il venerdì? Idem.\n\nQuando la copia è pronta, il museo la inserisce nel suo catalogo. Ogni strumento ha una scheda con la classificazione: il tipo, il secolo, il materiale, il nome di chi lo ha costruito. Marco guarda con orgoglio la scheda che porta il suo nome accanto a quello della dama. «Una classificazione serve a ritrovare le cose», spiega, «ma io la leggo come una piccola famiglia. Dopo di me ci sarà un altro artigiano, e il suo nome verrà scritto sotto il mio.»\n\nOgni martedì pomeriggio la bottega si riempie di ragazzi di una scuola vicina, tutti con i loro jeans e la voglia di imparare. Marco mostra loro come si taglia il metallo e come si regge una penna con la china. I ragazzi sbagliano, ridono, ricominciano. Per lui, quello è il momento in cui il mestiere continua. «Le macchine fanno tutto più in fretta», dice, «ma non insegnano la pazienza.»\n\nDomande:\nDove lavora Marco Bellandi?\nLavora in una piccola bottega nel quartiere dell'Oltrarno, a Firenze.\nChe cosa costruisce?\nCostruisce copie di antichi strumenti scientifici, come orologi solari e piccoli telescopi.\nPer che cosa serve il piombo nel quadrante?\nServe a tenere il filo teso e dritto.\nPerché Marco usa la china per le scale?\nPerché la china non perdona gli errori e le scale devono essere precise.\nChe cosa c'è sulla scheda del museo?\nCi sono il tipo, il secolo, il materiale e il nome di chi ha costruito lo strumento.\nChe cosa fanno i ragazzi il martedì pomeriggio?\nImparano da Marco a tagliare il metallo e a usare la penna con la china."
+    },
+    {
+      "title": "Due modi di fare ricerca",
+      "summary": "A Milan columnist weighs two views on research funding, a few big centres or many small laboratories, after overhearing two scientists talk.",
+      "newWords": [
+        "precario",
+        "privilegiato",
+        "prevalere",
+        "argomentazione",
+        "efficienza",
+        "proporzionale",
+        "eleggere",
+        "ingiustizia",
+        "riscatto",
+        "complotto",
+        "legislatura"
+      ],
+      "text": "Nel cortile dell'università, a Milano, ho sentito discutere due ricercatori davanti a un caffè. Il primo sosteneva che i fondi per la ricerca vadano concentrati in pochi grandi centri; il secondo, che vadano divisi fra tanti laboratori piccoli. Nessuno alzava la voce, ma tutti e due avevano ottime argomentazioni.\n\nLa prima argomentazione è quella dell'efficienza. Un grande centro compra una volta sola gli strumenti più costosi e riunisce nello stesso edificio specialisti di dieci materie diverse. Chi difende questa idea sostiene che la qualità del lavoro sia direttamente proporzionale alle risorse: pochi strumenti ottimi valgono più di cento strumenti scarsi. Una crescita proporzionale, però, vale solo fino a un certo punto. In un grande centro, inoltre, i giovani trovano maestri e colleghi. Si dice spesso che chi lavora lì sia un privilegiato, e in parte è vero: ma un privilegiato deve anche rispondere di tutto ciò che spende.\n\nLa seconda argomentazione è meno comoda da misurare, ma altrettanto seria. I laboratori piccoli, sparsi nelle città di provincia, sono vicini ai problemi della gente: un'acqua sporca, una pianta malata, una lingua che sta scomparendo. Molte idee nascono proprio lì. Il prezzo è spesso la vita precaria dei ricercatori: contratti brevi e stipendi incerti. Per questo sarebbe un'ingiustizia dimenticare i piccoli laboratori solo perché fanno meno rumore. Una simile ingiustizia sarebbe anche uno spreco. E per un piccolo istituto, un buon risultato è anche un riscatto: la prova che il proprio lavoro vale quanto quello dei più famosi. Ho visto un gruppo di Lecce festeggiare come una squadra di calcio dopo una pubblicazione importante: per loro era un riscatto.\n\nChi sta fuori dal mondo della ricerca immagina a volte che dietro le decisioni ci sia un complotto, e che pochi potenti scelgano tutto in segreto. Ma l'idea del complotto è sempre più affascinante della realtà. Il problema vero è più noioso: i soldi sono pochi, il tempo è poco, e le domande da fare sono molte. I fondi nazionali si decidono in genere per una legislatura, cioè per cinque anni, e quando comincia una nuova legislatura tutti ricominciano ad aspettare. Conosco un consorzio dove ogni laboratorio, grande o piccolo, elegge ogni anno un suo rappresentante, e i rappresentanti decidono insieme come usare i fondi. Non è perfetto, ma nessuna delle due idee prevale sull'altra per abitudine.\n\nChe cosa penso, dunque? Che la domanda sia posta male. Non si tratta di scegliere fra una ricerca grande e una piccola, ma di capire che cosa ciascuna sa fare meglio. I grandi centri devono prevalere dove servono macchine gigantesche; i piccoli laboratori dove contano la curiosità e la libertà. Alla fine, la ricerca assomiglia a un bosco: ha bisogno di grandi alberi, ma anche di piante giovani.\n\nDomande:\nDove ha sentito la discussione l'autore?\nNel cortile dell'università, a Milano, davanti a un caffè.\nQual è l'argomentazione a favore dei grandi centri?\nÈ quella dell'efficienza: gli strumenti costosi si comprano una volta sola e si usano per anni.\nQuale prezzo pagano spesso i piccoli laboratori?\nLa vita precaria dei ricercatori, con contratti brevi e stipendi incerti.\nCome decide il consorzio di cui parla l'autore?\nOgni laboratorio elegge un rappresentante e i rappresentanti decidono insieme come usare i fondi.\nQual è, alla fine, l'opinione dell'autore?\nPensa che non si debba scegliere fra grande e piccolo, ma capire che cosa ciascuno sa fare meglio.\nPerché l'autore paragona la ricerca a un bosco?\nPerché un bosco ha bisogno di grandi alberi ma anche di piante giovani."
+    },
+    {
+      "title": "Il bosco dopo la tempesta",
+      "summary": "A forest engineer in the Trentino mountains replants a woodland flattened by a storm and studies how climate change and an insect are changing it.",
+      "newWords": [
+        "forestale",
+        "piantare",
+        "espandere",
+        "meteo",
+        "furia",
+        "mutare",
+        "abusivo",
+        "esplosivo"
+      ],
+      "text": "In Val di Fiemme, in Trentino, il sentiero sale tra grandi alberi caduti e giovani alberi alti quanto un bambino. Elisa Zanon, ingegnere forestale, cammina davanti con uno zaino sulle spalle e un libretto in mano. Cinque anni fa, in una sola notte, la furia del vento ha abbattuto in questa valle milioni di alberi. Ancora oggi molti versanti sembrano un grande campo vuoto.\n\nOggi, però, il lavoro è un altro. Con una squadra di volontari e di studenti, Elisa e i suoi aiutanti piantano ogni primavera migliaia di piccoli alberi. «Una volta si piantavano quasi solo abeti», racconta, «perché crescono dritti e rendono bene. Ma un bosco con una sola specie è fragile.» Per questo oggi i volontari piantano anche faggi e altre specie, e le alternano con cura: dove il terreno è bagnato ne piantano una, dove è secco un'altra. Chi pianta un albero oggi non lo vedrà adulto, e Elisa lo dice sorridendo: i forestali lavorano sempre per chi viene dopo.\n\nA metà salita c'è una piccola stazione meteo: un palo, due strumenti e una scatola grigia. Ogni dieci minuti registra la temperatura, l'acqua nell'aria e la velocità del vento. Elisa guarda i numeri sul telefono. «Gli ultimi 20 anni ci dicono una cosa semplice», spiega. «Il clima sta mutando, e il bosco deve mutare con lui. Gli alberi di montagna salgono di quota, e il limite del bosco si sposta più in alto.»\n\nC'è anche un altro problema, che i forestali conoscono bene: un piccolo insetto che vive dentro gli alberi di abete. Dopo la tempesta, gli alberi caduti sono diventati per lui un ottimo albergo, e in due estati calde la sua crescita è stata esplosiva. L'insetto si espande dal fondovalle verso l'alto, albero dopo albero. Per fermarlo, gli studenti segnano con un colore rosso gli alberi malati, e una squadra li porta via prima che l'insetto possa uscire e cercare altri alberi. Sarebbe bello parlare di una soluzione facile, ma Elisa ammette di non averne: «Il bosco si espande e si ritira come un respiro, e noi cerchiamo soltanto di accompagnarlo.»\n\nIl lavoro, a volte, è soltanto una questione di buon senso. Qualche settimana fa i volontari hanno trovato un campeggio abusivo nel bosco, con una tenda, un fuoco spento male e molti rifiuti. Nessuno si è arrabbiato: hanno pulito tutto, hanno lasciato un cartello gentile e hanno spiegato ai turisti, che sono tornati il giorno dopo, perché il bosco ha bisogno di calma. «Anche questo è lavoro forestale», dice Elisa. «Si pianta un albero, ma si coltiva anche un'abitudine.»\n\nDomande:\nChe cosa ha fatto la furia del vento cinque anni fa?\nHa abbattuto in una sola notte milioni di alberi della valle.\nChe cosa pianta oggi la squadra di Elisa?\nPianta abeti, ma anche faggi e altre specie.\nChe cosa registra la stazione meteo?\nRegistra ogni dieci minuti la temperatura, l'acqua nell'aria e la velocità del vento.\nPerché la crescita dell'insetto è stata esplosiva?\nPerché dopo la tempesta i tronchi caduti sono diventati per lui un ottimo albergo.\nChe cosa hanno trovato i volontari nel bosco?\nHanno trovato un campeggio abusivo con una tenda, un fuoco spento male e molti rifiuti.\nCome hanno reagito i volontari?\nHanno pulito tutto, hanno lasciato un cartello gentile e hanno spiegato ai turisti perché il bosco ha bisogno di calma."
+    },
+    {
+      "title": "Il telescopio del condominio",
+      "summary": "Diary entries of a retired teacher in a Naples apartment building who shows a ten-year-old neighbour the stars around New Year.",
+      "newWords": [
+        "condominio",
+        "credenza",
+        "salotto",
+        "capodanno",
+        "sennò",
+        "tazza",
+        "soffitto",
+        "incominciare"
+      ],
+      "text": "27 dicembre. Oggi, nel condominio, ha suonato alla mia porta la piccola Anna, la figlia dei vicini del terzo piano. Ha dieci anni, i capelli sempre in disordine e una domanda seria: a scuola la maestra ha dato un compito sulle stelle, e lei non sa da dove cominciare. Io ho fatto il professore di fisica per 35 anni, e quando in pensione qualcuno mi chiede di stelle, mi sento di nuovo utile. L'ho fatta entrare in salotto e le ho offerto una tazza di cioccolata calda. Lei ha bevuto in silenzio, con le due mani attorno alla tazza, come fanno i bambini quando pensano.\n\nPoi ho aperto la credenza, dove tengo le cose che non uso più, e ho tirato fuori un vecchio atlante del cielo, con la copertina blu e le pagine un po' gialle. Anna lo ha sfogliato con grande cura. «Ma sono tutte uguali», ha detto. «Sono solo puntini.» «Sì», le ho risposto, «ma i puntini hanno un nome, e hanno una storia. Domani te la racconto.»\n\n30 dicembre. Oggi abbiamo incominciato la prova nel salotto. Ho preso una vecchia torcia e un cartone nero con tanti piccoli fori, uno per ogni stella della costellazione di Orione, e ho spento le luci. Quando ho acceso la torcia, il soffitto della stanza si è riempito di puntini luminosi. «Spegni anche la luce della cucina», ha detto Anna, «sennò non si vede bene.» Ha ragione: ho spento anche quella. «E chiudi la porta», ha aggiunto, «sennò entra la luce del corridoio.» Siamo rimasti con la testa all'indietro per dieci minuti, a guardare il soffitto come se fosse il cielo. Anna ha contato le stelle e le ha disegnate sul suo quaderno. Poi ha incominciato a cercare le altre costellazioni sull'atlante. Ha scoperto da sola che tre stelle in fila formano la cintura del cacciatore, e ha detto «Che bello!» tre volte di seguito.\n\nAlla fine mi ha chiesto: «Ma tu le hai viste davvero, le stelle?» Le ho detto di sì, e che il cielo sopra Napoli è più bello di quanto sembri. Basta andare sul tetto del condominio, dove non arrivano le luci della strada.\n\n1º gennaio. Capodanno. Alle 7 di sera la famiglia di Anna è salita con me sulla terrazza del condominio, con coperte e due tazze di tè. Faceva freddo, ma il cielo era pulito. Sopra il mare, il vecchio cacciatore era alto e chiaro, e Anna lo ha riconosciuto subito. «È lui!», ha gridato, «è quello del soffitto!» I suoi genitori hanno riso. Ho pensato che gli anni passano, ma una bambina che riconosce una stella è un modo bellissimo per cominciare il capodanno.\n\nQuando siamo scesi, Anna mi ha lasciato il suo quaderno. Sull'ultima pagina c'era scritto, a lettere grandi: «Grazie, professore. Il prossimo anno voglio un telescopio.» Credo che andrò a cercarne uno, domani, in un negozio del centro.\n\nDomande:\nChi è Anna?\nÈ una bambina di dieci anni, figlia dei vicini del terzo piano.\nChe cosa ha offerto il professore ad Anna?\nLe ha offerto una tazza di cioccolata calda.\nDove tiene il professore il vecchio atlante del cielo?\nLo tiene nella credenza.\nChe cosa hanno fatto sul soffitto del salotto?\nCon una torcia e un cartone forato hanno proiettato le stelle di Orione.\nDove sono saliti a capodanno?\nSono saliti sulla terrazza del condominio.\nChe cosa ha scritto Anna sull'ultima pagina del quaderno?\nHa scritto «Grazie, professore. Il prossimo anno voglio un telescopio.»"
+    },
+    {
+      "title": "Il respiro in alta quota",
+      "summary": "A report on volunteers spending a week in a high hut on Monte Rosa while a doctor measures how their bodies adapt to altitude.",
+      "newWords": [
+        "polmone",
+        "collaterale",
+        "sputare",
+        "proteina",
+        "polso",
+        "sollecitare",
+        "tenore",
+        "igienico"
+      ],
+      "text": "Sul Monte Rosa, a più di 4500 metri, c'è una capanna dove l'aria è così sottile che anche aprire una porta richiede un piccolo sforzo. Ogni anno, per una settimana, la dottoressa Silvia Brun arriva lassù con una squadra di dodici volontari, tutti sani e abituati alla montagna. Il suo scopo è capire come il corpo si adatta all'altitudine.\n\nLa parte più impegnativa del lavoro è la salita. Dall'ultima stazione dell'impianto, in Valle d'Aosta, i volontari camminano per quasi cinque ore con zaini leggeri e un piccolo apparecchio al dito. Più si sale, più l'aria contiene poco ossigeno, e il corpo risponde subito: il respiro si fa rapido, il cuore batte più forte, i polmoni lavorano il doppio. «L'altitudine sollecita tutto l'organismo», spiega la dottoressa. «Non è una malattia, è una richiesta: il corpo deve imparare a vivere con meno ossigeno.»\n\nOgni mattina, alle 7, comincia la misura. I volontari si siedono in fila nel refettorio, ancora con gli occhi pieni di sonno. Silvia controlla il polso e il tenore di ossigeno nel sangue di ciascuno, e scrive i numeri su un foglio. Poi ogni persona deve sputare in una provetta una piccola quantità di saliva. Il gesto sembra un po' buffo e qualcuno ride, ma la dottoressa ricorda che serve a cercare una proteina, una sostanza che, con l'altitudine, cambia di quantità. «Studiare una proteina è come leggere un messaggio scritto in piccolo», dice. «Non lo vediamo a occhio nudo, ma ci racconta che cosa succede dentro.»\n\nNei primi giorni, quasi tutti hanno qualche piccolo effetto collaterale: un po' di mal di testa, la bocca asciutta, un sonno più leggero del solito. Sono effetti passeggeri, e di solito spariscono dopo tre o quattro giorni. Per questo, nei primi giorni, i volontari fanno poca strada e stanno molto a riposo: ogni sforzo in più sollecita i polmoni e il cuore proprio quando devono ancora abituarsi. Il quarto giorno il polso a riposo è già più basso e il tenore di ossigeno è un po' salito: segno che i polmoni e il cuore si stanno adattando.\n\nNella capanna, a quella quota, le regole igieniche sono severe. L'acqua è poca e va portata su dalla valle, quindi i volontari si lavano le mani con cura e usano ogni tazza con attenzione. Chi sta male non cucina, e tutto ciò che serve per la mensa si tiene pulito, perché un piccolo problema, lassù, non si può risolvere in fretta.\n\nAl sesto giorno la squadra scende. Ognuno porta con sé un foglio con i propri numeri, che racconta il cambiamento del suo corpo durante la settimana. Silvia saluta tutti sulla porta. «Ripetiamo l'esperimento tra un anno», dice, «con altri volontari, e con un po' più di domande.» Poi guarda la valle, sotto di lei, e respira piano.\n\nDomande:\nDove si trova la capanna?\nSi trova sul Monte Rosa, a più di 4500 metri.\nChe cosa vuole capire la dottoressa Brun?\nVuole capire come il corpo si adatta all'altitudine.\nChe cosa succede ai polmoni quando si sale?\nLavorano il doppio, perché l'aria contiene poco ossigeno.\nPerché i volontari devono sputare in una provetta?\nPerché la saliva serve a cercare una proteina che cambia di quantità con l'altitudine.\nQuali effetti collaterali hanno i volontari?\nHanno un po' di mal di testa, la bocca asciutta e un sonno più leggero, ma spariscono dopo pochi giorni.\nPerché le regole igieniche sono severe nella capanna?\nPerché l'acqua è poca e un piccolo problema, lassù, non si può risolvere in fretta."
+    }
+  ]
+}

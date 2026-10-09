@@ -1,0 +1,220 @@
+{
+  "id": "it-mini-4300",
+  "rankUpTo": 4300,
+  "level": "C1",
+  "title": "Clima ed energia",
+  "description": "Ten calm everyday texts about weather, home energy, gardens and travel across Italy and an Italian abroad: a weather column in Trieste, solar panels in Lecce, a garden after rain, a mountain hike, a restored mill, a village solar community, an exhibition review, a heat-wave diary, a boat launch on Lake Garda and a letter from Devon.",
+  "topic": "Climate and energy",
+  "names": [
+    "Trieste",
+    "Carso",
+    "Dario",
+    "Europa",
+    "Italia",
+    "Lecce",
+    "Salento",
+    "Rosaria",
+    "Salvatore",
+    "Mantova",
+    "Courmayeur",
+    "Anna",
+    "Erik",
+    "Ji-woo",
+    "Torino",
+    "Teresa",
+    "Ghigo",
+    "Dronero",
+    "Valle Maira",
+    "Giovanni",
+    "Pinna",
+    "Oristano",
+    "Sardegna",
+    "Bologna",
+    "Lidia",
+    "Marchetti",
+    "Asinelli",
+    "Bari",
+    "Palermo",
+    "Monreale",
+    "Mondello",
+    "Marta",
+    "Giuseppe",
+    "Gargnano",
+    "Garda",
+    "Aldo",
+    "Bresciani",
+    "Lina",
+    "Devon",
+    "Joy",
+    "Francesca",
+    "Dartmoor"
+  ],
+  "lessons": [
+    {
+      "title": "Il bollettino di Dario",
+      "summary": "A columnist in Trieste, who grew up on her grandfather's reading of the sky, visits a friend at the weather observatory and learns how to read a forecast.",
+      "newWords": [
+        "profeta",
+        "tecnicamente",
+        "mah",
+        "originariamente",
+        "andamento",
+        "correttamente",
+        "fortunatamente",
+        "altronde",
+        "saperne",
+        "anteprima"
+      ],
+      "text": "Mio nonno non si fidava delle previsioni del tempo. Guardava il cielo sopra il Carso, annusava l'aria e diceva: «Domani bora.» Quasi sempre aveva ragione. Io, invece, sono cresciuta con il bollettino del mattino, e ancora oggi, prima di uscire di casa, a Trieste, apro il telefono e studio l'andamento della giornata, ora per ora.\n\nSo benissimo, però, che una previsione non è una promessa. Il meteorologo non è un profeta: tecnicamente, dice soltanto quanto è probabile che una cosa accada. «Venti per cento di pioggia» non significa che pioverà poco; significa che, in cinque giornate come questa, in una piove e nelle altre quattro no. Molti lo capiscono male e poi si arrabbiano con chi ha scritto il numero. Mah, forse è naturale: una percentuale è meno chiara di una nuvola.\n\nPer scrivere questa rubrica sono andata a trovare Dario, un vecchio compagno di scuola che lavora all'osservatorio sopra la città. La stazione, originariamente, serviva ai marinai del porto; oggi manda i suoi dati a un computer che li confronta con quelli di mezza Europa. Dario mi ha mostrato i grafici della settimana, dove l'andamento della pressione sembra una collina, e mi ha spiegato che il lavoro più difficile non è misurare, ma raccontare. «Se dico “forse”, la gente pensa che io non sappia niente», ha detto. «Se dico “sicuramente” e poi piove, pensa che abbia sbagliato. Tra le due cose c'è una strada stretta.» Quando gli ho dato del profeta, si è messo a ridere. Dario non ne vuole saperne di fare il profeta: preferisce dire «tecnicamente» e spiegare i numeri.\n\nGli ho chiesto come si legge correttamente un bollettino. Mi ha risposto con tre consigli. Primo: guardare la temperatura e il vento, non solo il simbolo del sole o della nuvola. Secondo: ricordare che le previsioni di domani valgono più di quelle di domenica. Terzo: confrontare due fonti, perché due fonti che dicono la stessa cosa sono più credibili di una. D'altronde, anche mio nonno faceva così: chiedeva al vicino, guardava il gatto, poi decideva. «Mah, dipende», rispondeva, quando gli domandavo se avrebbe piovuto. Oggi capisco che era una risposta corretta.\n\nOgni venerdì Dario mi manda una piccola anteprima del fine settimana, e io la leggo con attenzione ma senza ansia. Fortunatamente la nostra gita al mare di domenica non dipende da un numero: se il cielo è coperto, prendiamo l'impermeabile e andiamo lo stesso. D'altronde, chi vive a Trieste sa che il tempo cambia in un'ora, e che un ombrello in borsa costa meno di una giornata rovinata. Chi vuole saperne di più può visitare l'osservatorio il primo sabato del mese: Dario mostra gli strumenti, spiega l'anteprima della settimana e risponde a tutte le domande, anche a quelle sul nonno e sulla bora. Fortunatamente ha molta pazienza.\n\nDomande:\nChe cosa faceva il nonno prima di dire che tempo avrebbe fatto?\nGuardava il cielo sopra il Carso e annusava l'aria.\nChe cosa significa «venti per cento di pioggia»?\nSignifica che, in cinque giornate come questa, in una piove e nelle altre quattro no.\nA che cosa serviva originariamente la stazione dell'osservatorio?\nServiva ai marinai del porto.\nPerché, secondo Dario, il lavoro più difficile è raccontare?\nPerché se dice «forse» la gente pensa che non sappia niente, e se dice «sicuramente» e poi piove, pensa che abbia sbagliato.\nCome si legge correttamente un bollettino?\nSi guardano la temperatura e il vento, si ricorda che domani vale più di domenica e si confrontano due fonti."
+    },
+    {
+      "title": "Il sole sul tetto",
+      "summary": "A retired teacher in Lecce has solar panels put on his roof and follows the work from the first plan to the first evening of checking the numbers.",
+      "newWords": [
+        "installazione",
+        "posa",
+        "progettazione",
+        "ricambio",
+        "libretto",
+        "interruzione",
+        "fragile",
+        "autista",
+        "accelerare",
+        "ampliare"
+      ],
+      "text": "Per anni ho guardato il sole di Lecce con un certo rispetto: d'estate è così forte che si fa la spesa all'alba e si dorme dopo pranzo. Quest'anno, però, ho deciso di farlo lavorare per me. A marzo ho chiamato una ditta del Salento e ho chiesto un preventivo per un impianto sul tetto della mia casa.\n\nRosaria, la tecnica che è venuta a vedere il tetto, ha impiegato quasi un'ora a misurarlo, a fotografarlo e a guardare da che parte arriva il sole. La progettazione è durata una settimana. Mi ha mandato un disegno chiaro, con le file dei pannelli, i cavi e il punto dove entrano in casa, e mi ha spiegato ogni scelta. «Una buona progettazione», ha detto, «serve a non dover cambiare niente dopo.» Mi ha detto anche che, se in futuro ne avremo bisogno, sarà facile ampliare l'impianto, perché ha lasciato spazio per altre file.\n\nL'installazione è cominciata un lunedì mattina. Rosaria dice che una buona installazione si riconosce dai cavi: ordinati, corti e senza nodi. Alle 7 è arrivato il camion. L'autista, un uomo gentile di nome Salvatore, ha scaricato i pannelli con molta cura, perché sono fragili. Sembrano solidi, ma un colpo sbagliato basta a rovinarli. Gli operai li hanno portati sul tetto uno alla volta, con una corda e con una pazienza che mi ha colpito. La posa è andata avanti per due giorni. Il secondo giorno le previsioni davano pioggia nel pomeriggio, e la squadra ha deciso di accelerare il lavoro: ha saltato la pausa pranzo e ha finito alle 4. Ho offerto un caffè a tutti, e l'autista, che aspettava per riportare il camion in ditta, ne ha voluti due.\n\nMercoledì c'è stata un'interruzione della corrente di due ore, necessaria per collegare l'impianto alla rete. Ho passato quel tempo in giardino, con un libro e un bicchiere d'acqua, e ho scoperto che senza luce elettrica la casa è molto più silenziosa. Quando la corrente è tornata, Rosaria ha acceso il sistema e sul display è comparso un numero: i primi watt prodotti dal mio tetto. Un'altra interruzione, mi ha assicurato, non ci sarà più, se non per una piccola revisione tra qualche anno.\n\nAlla fine mi hanno lasciato un libretto con le istruzioni, la garanzia e l'elenco dei ricambi. Rosaria mi ha consigliato di tenerlo in un posto facile da trovare. «Un impianto buono dura 20 anni», ha detto, «ma ogni tanto un pezzo si consuma, e con il libretto si sa subito quale ricambio ordinare.» Ho messo il libretto nel cassetto della cucina, accanto alle ricette di mia moglie.\n\nAdesso controllo la produzione ogni sera, come altri guardano la partita. Se l'estate va bene, penso di ampliare l'impianto con una batteria, per usare di sera l'energia raccolta di giorno. Per ora mi basta una cosa semplice: guardare il sole di Lecce e sapere che, finalmente, lavora anche per la mia casa.\n\nDomande:\nChi ha fatto la progettazione dell'impianto?\nL'ha fatta Rosaria, la tecnica venuta a vedere il tetto.\nPerché i pannelli sono fragili?\nPerché sembrano solidi, ma un colpo sbagliato basta a rovinarli.\nPerché la squadra ha deciso di accelerare la posa?\nPerché le previsioni davano pioggia nel pomeriggio del secondo giorno.\nQuanto è durata l'interruzione della corrente?\nÈ durata due ore, il tempo di collegare l'impianto alla rete.\nChe cosa c'è nel libretto?\nCi sono le istruzioni, la garanzia e l'elenco dei ricambi."
+    },
+    {
+      "title": "Dopo la pioggia",
+      "summary": "A daughter visits her father's garden near Mantova the morning after the first rain of a dry summer.",
+      "newWords": [
+        "umido",
+        "fango",
+        "topo",
+        "colombo",
+        "serpente",
+        "panchina",
+        "piegare",
+        "pianura",
+        "trascurare",
+        "invocare"
+      ],
+      "text": "Mio padre ha invocato la pioggia per tutta l'estate. Non con grandi parole, ma con quelle di ogni giorno: «Se non piove, qui non cresce niente.» Vive in una casa con l'orto, ai margini della pianura, vicino a Mantova, e da giugno guardava il cielo come si guarda un amico che non arriva. Ieri notte, finalmente, ha piovuto. Questa mattina sono andata a trovarlo per vedere com'è il giardino dopo tanta attesa.\n\nL'aria è umida e pesante, e sa di terra. La strada davanti a casa, che per mesi è stata polvere, oggi è fango, e ho dovuto togliere le scarpe prima di entrare in cucina. Papà ride: «Un mese fa avrei pagato per un po' di fango.» Gli credo. Nell'orto le foglie dei pomodori sono piegate dal peso dell'acqua, i rami del fico si piegano fino a terra e le rose sembrano stanche, ma c'è un odore di vita che da settimane mancava. Anche i vestiti stesi sono ancora umidi, e papà dice che a mezzogiorno non saranno asciutti.\n\nFacciamo il giro insieme. In fondo al giardino, vicino alla panchina di legno dove la mamma legge i suoi libri, una piccola ombra corre via sotto una cassetta: è un topo, uscito dalla rimessa per cercare un posto asciutto. Sul tetto della rimessa tre colombi aspettano che smetta di piovere, immobili, con le piume gonfie. Poi papà mi indica l'erba alta vicino al muro. Un serpente sottile e verde si scalda al primo raggio di sole. «È innocuo», dice. «Non fa male a nessuno. Anzi, mangia i topi.» Così il topo e il serpente, nello stesso orto, hanno tutti e due il loro posto.\n\nPapà confessa che, durante il caldo, ha trascurato il giardino. Non per pigrizia: con quel caldo ogni lavoro costava il doppio e rendeva la metà, e così l'erba è cresciuta dove voleva. Ma dice che c'è una cosa che non si può trascurare, ed è l'acqua. Dal tetto, in pochi minuti, tre botti si sono riempite. «Questa è l'acqua di agosto», mi spiega, battendo la mano su una botte. «Domani la uso per i pomodori, quando il sole sarà tornato.»\n\nCi sediamo un momento sulla panchina, con due tazze di caffè, mentre la pianura intorno a noi si schiarisce. In lontananza si vede il fiume e un campo di grano appena tagliato. I colombi si decidono a volare via; il topo non si vede più; il serpente è scomparso nell'erba. Resta il rumore delle ultime gocce, e mio padre che dice, quasi a se stesso: «Adesso non invoco più niente. Ho avuto quello che chiedevo.» Poi si alza, prende un secchio e va a vedere se il fango, almeno, è buono per i pomodori.\n\nDomande:\nChe cosa ha invocato per tutta l'estate il padre?\nHa invocato la pioggia, perché senza acqua nell'orto non cresce niente.\nCom'è il vialetto dopo la pioggia?\nIl vialetto, che era polvere, adesso è pieno di fango.\nChe animali vede l'autrice nel giardino?\nVede un topo, tre colombi sul tetto della rimessa e un serpente verde.\nChe cosa ha trascurato il padre durante il caldo?\nHa trascurato il giardino e le erbacce sono cresciute dove volevano.\nCome ha raccolto l'acqua il padre?\nL'ha raccolta dalla grondaia in tre botti, per usarla sui pomodori."
+    },
+    {
+      "title": "Una gita sopra Courmayeur",
+      "summary": "A mountain guide leads a mixed group to a hut in the Aosta Valley; when the weather turns, the group slows down and arrives safely.",
+      "newWords": [
+        "gita",
+        "alpino",
+        "sosta",
+        "tunnel",
+        "elicottero",
+        "svedese",
+        "coreano",
+        "santuario",
+        "inquietante",
+        "traditore"
+      ],
+      "text": "Sabato scorso ho accompagnato otto persone in una gita sopra Courmayeur. Faccio la guida alpina da 15 anni, e ogni volta mi sembra che la montagna sia un po' diversa. Il gruppo era un piccolo mondo: una coppia svedese, Anna ed Erik, in vacanza per la prima volta in Italia; Ji-woo, un fotografo coreano che viaggia da solo con tre macchine fotografiche; e quattro amici di Torino, che dicono di conoscere ogni sentiero ma si perdono già nel parcheggio.\n\nSiamo partiti alle 6, per evitare il caldo del pomeriggio: una gita in montagna d'estate si fa sempre presto. Per arrivare alla valle abbiamo attraversato un lungo tunnel, e all'uscita il paesaggio è cambiato di colpo: prati verdi, torrenti e, in alto, la linea bianca dei ghiacciai. Alla prima sosta, in un piccolo bar di montagna, Erik ha chiesto che cosa significasse «alpino», perché lo vedeva scritto ovunque: sul cartello del sentiero, sulla porta del rifugio, sulla giacca di un signore anziano. Gli ho spiegato che vuole dire semplicemente «delle Alpi»: un sentiero alpino, un formaggio alpino, un club alpino. Erik ha scritto la parola sul telefono, e Anna ha detto che anche in Svezia ci sono sentieri con nomi lunghi e difficili.\n\nDopo la sosta il sentiero sale per tre ore tra larici e rocce. A metà strada un elicottero è passato sopra di noi con un grande carico appeso a una corda: portava viveri e bombole del gas al rifugio, dove nessuna strada arriva. Ji-woo ha alzato subito la macchina fotografica. Quando l'elicottero è sparito dietro la cresta, ha detto qualcosa in coreano e poi, in italiano: «Bellissimo.» Verso le 10 siamo arrivati a un piccolo santuario di pietra, vicino a un lago, dove i camminatori si fermano a riposare e a mangiare una mela. Il santuario è aperto a tutti, e dentro c'è un quaderno dove ognuno scrive il proprio nome.\n\nPoi il tempo è cambiato. In montagna il cielo è un compagno traditore: alle 11 era sereno, a mezzogiorno una nebbia bassa ha coperto il sentiero e sul lago è sceso un silenzio inquietante. Non si sentiva più né un uccello né il torrente. Ho fermato il gruppo, ho controllato la mappa e ho detto a tutti di camminare piano, uno dietro l'altro, senza separarsi. Il silenzio era inquietante anche per me, e ho parlato più del solito per tenere tranquilli gli altri. La mia regola è semplice: quando la montagna fa il traditore, si rallenta e non si discute.\n\nDopo un'ora la nebbia si è alzata come una tenda, e il rifugio è comparso a cento metri da noi. Abbiamo mangiato zuppa calda e pane nero. Ji-woo mi ha mostrato le foto della nebbia: bianco su bianco, con una linea scura di larici. «Questa è la foto più bella del viaggio», ha detto. Per il ritorno abbiamo scelto lo stesso sentiero e, in fondo alla valle, di nuovo il tunnel. Era sera, e gli svedesi dormivano già in macchina.\n\nDomande:\nChi c'è nel gruppo della guida?\nCi sono una coppia svedese, un fotografo coreano e quattro amici di Torino.\nChe cosa significa «alpino»?\nVuole dire semplicemente «delle Alpi».\nChe cosa porta l'elicottero al rifugio?\nPorta viveri e bombole del gas, perché al rifugio non arriva nessuna strada.\nPerché la guida dice che il cielo in montagna è traditore?\nPerché alle 11 era sereno e a mezzogiorno una nebbia bassa ha coperto il sentiero.\nChe cosa fa la guida quando la montagna fa il traditore?\nRallenta e non discute, e fa camminare tutti piano, uno dietro l'altro."
+    },
+    {
+      "title": "Il mulino della Valle Maira",
+      "summary": "A portrait of a retired bank clerk who helps fourteen families restore an old mill to make flour and electricity from the stream.",
+      "newWords": [
+        "mulino",
+        "restauro",
+        "malta",
+        "consorzio",
+        "vicepresidente",
+        "investitore",
+        "competere",
+        "sottoscritto",
+        "redatto",
+        "documentato"
+      ],
+      "text": "Teresa Ghigo ha 63 anni, le mani larghe e un vecchio berretto di lana che non toglie quasi mai, nemmeno in casa. Vive a Dronero, in Valle Maira, ed è la vicepresidente di un consorzio di quattordici famiglie che hanno comprato insieme un mulino sul torrente. Per più di un secolo quel mulino ha macinato il grano dei paesi vicini; poi, negli anni Sessanta, ha chiuso, ed è rimasto per mezzo secolo un edificio vuoto con il tetto che gocciolava.\n\nIl restauro è cominciato in primavera. Teresa, che ha lavorato trent'anni in banca, non sapeva niente di muri, ma ha imparato in fretta. «Per le pietre antiche si usa una malta di calce», mi spiega, con un secchio in mano. «Una malta di cemento sarebbe troppo dura e finirebbe per romperle. La malta giusta tiene unite le pietre senza soffocarle.» Ogni sabato un gruppo di volontari mescola la malta, pulisce le travi e porta via i detriti con una carriola.\n\nIl consorzio è nato una sera di marzo, in una cucina troppo piccola per quattordici famiglie. Il contratto sottoscritto quella notte è lungo due pagine, e tutti lo hanno letto con attenzione prima di firmare. Il documento sottoscritto da tutti è conservato in una cartella blu, sul tavolo. Un ingegnere di Torino ha poi redatto il progetto: una piccola turbina nel canale darà abbastanza energia per le case del consorzio, e la vecchia macina funzionerà ancora per fare la farina. Il regolamento, redatto da Teresa in persona, ha una sola regola scritta in grande: «Chi lavora, decide.»\n\nUna parte dei soldi è arrivata da un investitore di Torino, un ingegnere in pensione che ha voluto sapere ogni dettaglio. Non ha chiesto un guadagno rapido, ma di vedere il mulino in funzione una volta all'anno. Teresa ride quando ricorda la sua prima visita: l'investitore ha portato un casco nuovo per ciascuno dei volontari. «Con le grandi centrali non possiamo competere», dice lei, «e non vogliamo competere. Il nostro scopo è un altro. Il nostro mulino non deve vincere niente. Deve solo girare.»\n\nQuello che colpisce, in questa storia, è l'ordine. Ogni fase del lavoro è documentata con fotografie, date e piccoli disegni su un quaderno a quadretti. Teresa lo chiama «il libro del mulino». Un lavoro documentato così bene, dice, si può ripetere un giorno anche da altri, in un altro torrente. Nel quaderno c'è anche la prima foto del mulino in funzione: l'acqua che cade, la ruota che si muove piano, e quattordici persone con il berretto in mano che non sanno che cosa dire.\n\nQuando le chiedo se è stanca, Teresa guarda il torrente. «No», risponde. «Il mulino ha lavorato per un secolo senza lamentarsi. Non posso lamentarmi io per un anno.»\n\nDomande:\nChi è Teresa Ghigo?\nÈ la vicepresidente di un consorzio di quattordici famiglie che hanno comprato un mulino.\nChe cosa serve per il restauro dei muri?\nServe una malta di calce, perché una malta di cemento sarebbe troppo dura.\nChe cosa darà la piccola turbina nel canale?\nDarà abbastanza energia per le case delle famiglie del consorzio.\nChe cosa ha chiesto l'investitore di Torino?\nHa chiesto soltanto di vedere il mulino in funzione una volta all'anno.\nCome è documentato il lavoro?\nÈ documentato con fotografie, date e disegni nel «libro del mulino»."
+    },
+    {
+      "title": "Un paese con il suo sole",
+      "summary": "An interview with an engineer from a Sardinian village that shares the electricity from its school, town-hall and house roofs.",
+      "newWords": [
+        "transizione",
+        "impostazione",
+        "correlato",
+        "coinvolgimento",
+        "rilevanza",
+        "alterare",
+        "apertamente",
+        "pubblicamente",
+        "disputa",
+        "facilità",
+        "occuparsi"
+      ],
+      "text": "Giovanni Pinna, ingegnere di 48 anni, vive in un paese di mille abitanti vicino a Oristano, in Sardegna. Da tre anni coordina una comunità energetica: i tetti della scuola, del municipio e di venti case producono insieme l'elettricità che il paese usa durante il giorno. L'abbiamo incontrato in piazza, tra il bar e la farmacia.\n\nChe cosa significa, per un paese piccolo, parlare di transizione?\n\nPer prima cosa bisogna togliere alla parola il suo lato solenne. Per noi la transizione è un passaggio graduale: oggi il tetto della scuola produce metà dell'energia che consuma, domani potrà produrne di più. Non è una rivoluzione, è una serie di piccoli lavori. Ogni mese ne facciamo uno.\n\nQual è stata l'impostazione del progetto?\n\nAbbiamo scelto un'impostazione semplice: niente slogan, solo numeri. Prima abbiamo misurato i consumi di ogni famiglia, poi i tetti, poi i costi correlati: cavi, manutenzione, assicurazione. Anche i problemi correlati, come l'ombra di un albero, li abbiamo scritti subito. Un'impostazione in cui tutto è scritto nero su bianco evita molte discussioni.\n\nCome avete coinvolto gli abitanti?\n\nIl coinvolgimento è la parte più importante. Abbiamo fatto cinque riunioni in piazza, e ognuno ha potuto fare domande. Il coinvolgimento dei ragazzi della scuola è stato il più bello: hanno costruito un grande cartellone con la produzione del giorno, e ogni mattina lo aggiornano prima della lezione.\n\nChi deve occuparsi di tutto questo ogni giorno?\n\nCi occupiamo a turno: tre volontari controllano i contatori, due ragazzi aggiornano il cartellone e un elettricista del paese si occupa dei guasti. Chi vuole occuparsi di qualcosa deve soltanto dirlo; con questo sistema il lavoro si divide con facilità, e la facilità, in un paese piccolo, è metà del successo.\n\nCi sono state difficoltà?\n\nUna piccola disputa, sì. Due vicini non erano d'accordo su dove mettere l'armadio con i contatori. Sembrava una questione di poca rilevanza, ma ha occupato due serate. Alla fine abbiamo deciso apertamente, in assemblea, e la cosa è finita lì. Non volevamo nemmeno alterare il paesaggio: i pannelli stanno sui tetti, non nei campi, e la veduta del paese è rimasta quella di prima.\n\nChe cosa consiglia a chi vorrebbe cominciare?\n\nParlare apertamente dei costi, mostrare pubblicamente i risultati e non alterare mai i numeri per far piacere a qualcuno. Noi leggiamo il bilancio pubblicamente, una volta al mese, davanti a tutti: chi vuole può portarsi una sedia. La rilevanza di un progetto così non si misura nella prima settimana, ma quando funziona anche con il cielo coperto.\n\nL'ultima domanda è per il caffè. Giovanni ci ha salutati con una frase che il paese ripete spesso: «Il sole non è di nessuno, ma i tetti sono di tutti.»\n\nDomande:\nChe cosa produce la comunità energetica del paese?\nProduce l'elettricità che il paese usa durante il giorno, grazie ai tetti della scuola, del municipio e di venti case.\nChe cosa significa transizione per Giovanni?\nSignifica un passaggio graduale, fatto di piccoli lavori.\nQual è stata l'impostazione del progetto?\nUn'impostazione semplice: niente slogan, solo numeri.\nPer che cosa c'è stata una piccola disputa?\nDue vicini non erano d'accordo su dove mettere l'armadio con i contatori.\nChe cosa fanno ogni mese pubblicamente?\nLeggono il bilancio davanti a tutti, in piazza."
+    },
+    {
+      "title": "Cielo di casa",
+      "summary": "A critic reviews a photo exhibition in Bologna: one photographer's twenty years of mornings, taken from the same window.",
+      "newWords": [
+        "icona",
+        "giornalistico",
+        "estetica",
+        "applauso",
+        "esibire",
+        "noia",
+        "inno",
+        "sinonimo",
+        "dolcezza",
+        "trauma"
+      ],
+      "text": "Si apre oggi a Bologna, in un vecchio magazzino vicino alla stazione, la mostra «Cielo di casa» di Lidia Marchetti. Il progetto è semplice: ogni mattina, per 20 anni, la fotografa ha scattato una sola immagine dalla finestra della sua cucina. Il risultato sono più di 7000 fotografie, ordinate per data come le pagine di un diario.\n\nLa prima cosa che colpisce è il taglio quasi giornalistico del lavoro: un reportage giornalistico lungo 20 anni. Ogni foto ha un'etichetta bianca con il giorno, l'ora e una riga di cronaca del tempo: «Nebbia, 3 gradi.» «Vento forte da nord.» «Cielo di rame, nessuna pioggia.» Non c'è nessuna poesia nei testi, e non serve. Chi ha vissuto a Bologna riconosce subito che novembre è quasi sinonimo di nebbia, e che «sereno» è un sinonimo di festa quando arriva a gennaio.\n\nL'estetica della mostra è sobria, quasi severa: un'estetica di archivio, più che di galleria. Le foto sono tutte dello stesso formato, appese alla stessa altezza, senza cornici. Per questo la ripetizione, che poteva portare alla noia, finisce per avere un ritmo. Dopo dieci minuti in sala non si guardano più le singole immagini, ma la differenza fra una mattina e l'altra: una nuvola più alta, una luce più gialla, una finestra del palazzo di fronte che si accende.\n\nAlcune immagini sono diventate un'icona della città. La più nota mostra la torre degli Asinelli coperta di neve, in una mattina di febbraio in cui la città è rimasta ferma. Per molti bolognesi quella nevicata è stata un piccolo trauma, con i treni fermi e i negozi chiusi. Oggi, in una sala calda, la fotografia dice soprattutto una cosa: che anche i traumi, a guardarli da lontano, hanno una dolcezza.\n\nLa sezione più riuscita è quella finale, dove una videoinstallazione mette in sequenza tutte le foto, un secondo ciascuna, accompagnate da un breve brano di pianoforte. Il titolo, «Inno alla pazienza», è un po' solenne, ma l'inno funziona: la musica sale piano, come il giorno. Alla prima proiezione di ieri sera il pubblico ha fatto un lungo applauso, e la fotografa, in fondo alla sala, ha alzato appena la mano, senza esibire nessuna emozione.\n\nSi può discutere se 20 anni dello stesso cielo siano troppi. Io credo di no. La mostra non vuole esibire un virtuosismo, ma una disciplina, e la disciplina, quando è gentile, è una forma di dolcezza. Consigliato ai bolognesi, ai viaggiatori di passaggio e a chiunque pensi di non avere niente da guardare dalla propria finestra. La mostra è aperta fino a fine mese; l'ingresso costa 6 euro.\n\nDomande:\nChe cosa ha fatto Lidia Marchetti per 20 anni?\nHa fotografato ogni mattina il cielo dalla finestra della sua cucina.\nChe cosa c'è scritto sull'etichetta di ogni foto?\nCi sono il giorno, l'ora e una riga di cronaca del tempo.\nPerché la ripetizione non porta alla noia?\nPerché ha un ritmo e fa guardare la differenza fra una mattina e l'altra.\nChe cosa mostra la foto che è diventata un'icona della città?\nMostra la torre degli Asinelli coperta di neve.\nCome ha reagito il pubblico alla prima proiezione?\nHa fatto un lungo applauso."
+    },
+    {
+      "title": "Il diario di Marta",
+      "summary": "A student in Palermo prepares for her final exam during a heat wave, staying with her grandmother and studying in a cool parish hall.",
+      "newWords": [
+        "maturità",
+        "geloso",
+        "farcela",
+        "fritto",
+        "discoteca",
+        "parrocchia",
+        "giocattolo",
+        "materno",
+        "vergognare",
+        "assedio",
+        "ebbene"
+      ],
+      "text": "Palermo, lunedì 12 giugno\nFa così caldo che le lettere sul quaderno sembrano sciogliersi. Fra tre giorni comincia la maturità e studiare con 36 gradi in camera è un'impresa: il ventilatore sposta l'aria calda da una parte all'altra e basta. Mamma dice che dovrei passare qualche giorno dalla nonna materna, a Monreale, dove i muri sono spessi e le stanze restano fresche. Ho risposto di no. Poi ho guardato i fogli attaccati alle mani e ho preparato la valigia per la maturità e per la nonna.\n\nMartedì 13\nLa nonna mi ha accolta con un vassoio di panelle e un bicchiere di acqua e limone. Il fritto, con questo caldo, è la cosa meno ragionevole del mondo, ma lei dice che un buon fritto fa bene all'umore e che chi mangia bene studia meglio. Studio in salotto, con le persiane chiuse e un filo di luce sul tavolo. In un armadio ho trovato una scatola di vecchi giocattoli di mamma: una bambola senza un braccio e un trenino di latta. Ho fatto dieci minuti di pausa a giocare e non lo dirò a nessuno.\n\nMercoledì 14\nStasera tutti i miei amici vanno in discoteca, sulla spiaggia di Mondello. Ballano vicino al mare e io sto qui a studiare il Novecento. Sono un po' gelosa, lo ammetto. Poi mi vergogno di esserlo: la nonna mi ha preparato la cena e mi ha chiesto soltanto come va. Mi vergogno ancora di più perché le ho risposto male.\n\nGiovedì 15\nOggi pomeriggio le zanzare hanno fatto un vero assedio: entravano dalla finestra, da sotto la porta, forse dal tetto. Sono scappata alla sala della parrocchia, dietro l'angolo, che d'estate è aperta ai ragazzi che studiano. Dentro ci sono ventilatori, tavoli lunghi e un silenzio da biblioteca. Ho incontrato lì Giuseppe, un ragazzo della mia classe, e abbiamo ripassato insieme la storia. Quando mi ha prestato la sua bottiglia d'acqua ghiacciata, ho capito che nessuno riesce a farcela da solo.\n\nVenerdì 16\nPrima prova. Mi sono svegliata alle 6 e la nonna aveva già preparato il caffè. «Non ti preoccupare», mi ha detto, «tu sai più di quello che pensi.» Il tema parlava dell'acqua, e ne ho scritto tre pagine, forse perché in questi giorni ne ho sognata tanta. All'uscita faceva ancora più caldo, ma ero troppo contenta. Ebbene, la prima prova è passata, e non mi sembra che sia andata male.\n\nSabato 17\nQuesta notte è arrivato finalmente un po' di vento da nord, e la camera della nonna si è rinfrescata. Ho dormito dieci ore. Fra tre giorni c'è la seconda prova della maturità, e ho ancora paura di non farcela, ma mi sembra una paura più piccola. Ebbene, per stasera ho deciso: niente libri. Andiamo in piazza a mangiare un gelato, io e la nonna, e se incontro gli amici della discoteca racconterò loro dei giocattoli di mamma.\n\nDomande:\nPerché Marta va a stare dalla nonna materna?\nPerché i muri della sua casa sono spessi e le stanze restano fresche.\nChe cosa ha trovato Marta nell'armadio?\nHa trovato una scatola di vecchi giocattoli di sua madre.\nPerché Marta è un po' gelosa mercoledì sera?\nPerché i suoi amici vanno in discoteca sul mare e lei deve studiare.\nDove va Marta quando le zanzare fanno un assedio?\nVa nella sala della parrocchia, dove ci sono ventilatori e tavoli lunghi.\nCome si sente Marta dopo la prima prova?\nÈ contenta e crede che non sia andata male."
+    },
+    {
+      "title": "Il varo della Lina",
+      "summary": "A boat builder on Lake Garda launches a restored sailing boat, keeping one eye on the afternoon wind.",
+      "newWords": [
+        "varo",
+        "cuneo",
+        "bandito",
+        "ordinanza",
+        "trappola",
+        "denominazione",
+        "licenziamento"
+      ],
+      "text": "Aldo Bresciani ha 58 anni e costruisce barche a Gargnano, sul lago di Garda. Dieci anni fa un licenziamento lo ha lasciato senza lavoro: il grande cantiere dove lavorava aveva ridotto il personale, e lui, che aveva passato trent'anni a incollare e a levigare, si è trovato improvvisamente con troppo tempo. Ha preso in affitto un vecchio capannone vicino al porto e ha cominciato a restaurare barche a vela di legno. Quel licenziamento, dice oggi, è stato l'inizio di una vita più lenta e più sua.\n\nSabato è il giorno del varo della «Lina», una barca del 1962 che ha restaurato per un anno. Aldo si alza alle 5, quando il lago è ancora grigio, e va a controllare i cunei di legno che tengono la barca dritta sul carrello. Un cuneo fuori posto, dice, vale una settimana di lavoro. Ne sistema uno a prua, uno a poppa, e ne toglie uno che gli sembra troppo stretto. Il varo, per lui, comincia sempre da questi gesti piccoli.\n\nC'è poi la questione del vento. L'ordinanza del porto vieta di mettere in acqua le barche quando il vento supera i 25 chilometri all'ora, e Aldo la rispetta anche quando il lago, alle 7, sembra una tavola. «Il mattino è una trappola», dice. «Alle due arriva il vento del pomeriggio, puntuale, e chi non guarda l'orologio se ne accorge troppo tardi.» Per questo ha fissato il varo alle 10: abbastanza presto per avere calma, abbastanza tardi perché possano arrivare gli amici.\n\nIl molo dove si fa il varo è nuovo. Il comune ha bandito una gara in primavera, e la gara bandita, vinta da una ditta locale, si è chiusa in tre mesi. Aldo dice che il molo nuovo è la cosa migliore capitata al porto negli ultimi dieci anni, e che la prima barca a usarlo merita di essere la più bella. Alle 10 sono arrivati una trentina di persone, con bambini e cani; qualcuno ha portato il caffè, qualcuno una torta.\n\nLina, sua moglie, è venuta con una bottiglia d'olio. Produce un olio d'oliva del Garda con la denominazione di origine protetta, e quel giorno l'ha regalato a tutti. Sull'etichetta c'è scritta la denominazione, con il nome del lago e l'anno del raccolto. Aldo ha spiegato che il Garda è il lago più a nord dove crescono gli ulivi, e che la «Lina» porta il nome della moglie per una buona ragione: in quegli anni difficili è stata lei a tenere unita la famiglia.\n\nLa barca è scivolata in acqua alle 10:20, piano, senza un rumore. Aldo è salito a bordo, ha alzato la vela e ha fatto un giro attorno al molo. Alle 13:30, quando il vento è arrivato davvero, la «Lina» era già legata al suo posto. Sul molo, Aldo guardava l'orologio e sorrideva.\n\nDomande:\nChe cosa è successo ad Aldo dieci anni fa?\nUn licenziamento lo ha lasciato senza lavoro, e lui ha cominciato a restaurare barche a vela.\nA che cosa servono i cunei di legno?\nServono a tenere la barca dritta sul carrello.\nChe cosa vieta l'ordinanza del porto?\nVieta di mettere in acqua le barche quando il vento supera i 25 chilometri all'ora.\nPerché Aldo dice che il mattino è una trappola?\nPerché il lago è calmo, ma alle due arriva il vento del pomeriggio.\nChe cosa ha regalato Lina agli ospiti?\nHa regalato una bottiglia d'olio d'oliva del Garda con la denominazione di origine protetta."
+    },
+    {
+      "title": "Lettera dal Devon",
+      "summary": "An Italian translator in an English county writes to her sister in Bari about keeping a stone cottage warm through the winter.",
+      "newWords": [
+        "traduttore",
+        "contea",
+        "innumerevole",
+        "filippino",
+        "mantenimento",
+        "rallentare",
+        "od"
+      ],
+      "text": "Devon, 14 novembre\n\nCara Anna,\n\nti scrivo con le dita ancora fredde e una tazza di tè sul tavolo: è l'unico modo, qui, per tenere la penna in mano. Il Devon è una contea molto bella e verde, ma in novembre piove con una regolarità quasi musicale. La casa che ho affittato è di pietra, ha 200 anni e, come mi ha detto il proprietario, «ha carattere». Ho capito subito che cosa vuole dire: ha corrente d'aria da ogni parte.\n\nFaccio la traduttrice, e quindi passo otto ore al giorno seduta, davanti a uno schermo. Il mantenimento di una casa calda, per una persona che sta ferma, è il problema numero uno. In questi giorni ho imparato più sul riscaldamento che in dieci anni a Bari. Per fortuna c'è Joy, la vicina, un'infermiera filippina che vive qui da 20 anni e conosce ogni trucco. Mi ha insegnato che il mantenimento del calore è più importante della produzione del calore: prima si chiudono le fessure, poi si accende la stufa. Così abbiamo messo strisce di stoffa sotto le porte, tende pesanti alle finestre e un tappeto sul pavimento della cucina.\n\nLa stufa a legna fa il resto. La accendo alle 7 e la tengo viva fino a sera, e il mio tavolo da lavoro, adesso, è nella cucina, a due metri dal fuoco. Joy mi ha portato una borsa d'acqua calda. Ne ho comprate innumerevoli, ti assicuro: una per il letto, una per i piedi, una per la schiena, e in casa mia le borse sono ormai innumerevoli come i calzini, e un consiglio che porto con me ogni giorno: «Non lottare contro il freddo, abituati a lui.» È una frase che fa ridere, ma funziona.\n\nUn'altra cosa che ho imparato è rallentare. In inverno, in questa contea, tutto rallenta: i treni, la posta, il tempo che passa, e anche io. Prima mi sembrava un problema, adesso lo trovo quasi un lusso. Rallentare, per una traduttrice, significa leggere con più calma e scrivere meglio. Il mio ultimo lavoro è finito in una settimana od anche meno, e il cliente mi ha ringraziata per la cura.\n\nTi aspetto qui, se vuoi, a marzo od aprile, quando i giardini si riempiono di narcisi e le strade sono meno bagnate. Porta un maglione pesante, un paio di scarponi e la voglia di camminare sul Dartmoor. Joy cucina un riso filippino che ti piacerà moltissimo, e io ti farò vedere la mia stufa come si mostra un figlio.\n\nUn abbraccio forte a mamma e a papà.\n\nFrancesca\n\nDomande:\nDove vive Francesca?\nVive in una casa di pietra nel Devon, una contea verde e piovosa.\nChe lavoro fa Francesca?\nFa la traduttrice e passa otto ore al giorno davanti a uno schermo.\nChe cosa le ha insegnato Joy sul riscaldamento?\nLe ha insegnato che prima si chiudono le fessure e poi si accende la stufa.\nPerché Francesca ha comprato tante borse d'acqua calda?\nPerché ne vuole una per il letto, una per i piedi e una per la schiena.\nQuando può visitarla Anna?\nPuò andare a trovarla a marzo od aprile."
+    }
+  ]
+}
