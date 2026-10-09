@@ -1,0 +1,100 @@
+1	4001	saga	saga sagas
+2	4002	reparto	reparto repartos
+3	4003	escasez	escasez escaseces
+4	4004	comprador	comprador compradores compradora compradoras
+5	4005	alba	alba albas
+6	4006	terrestre	terrestre terrestres
+7	4007	mami	mami mamis
+8	4008	reportaje	reportaje reportajes
+9	4009	camioneta	camioneta camionetas
+10	4010	noruego	noruega noruego noruegos noruegas
+11	4011	piedad	piedad piedades
+12	4012	ucranio	ucrania ucranio
+13	4013	fatal	fatal fatales
+14	4014	canadiense	canadiense canadienses
+15	4015	vulnerable	vulnerable vulnerables
+16	4016	horizonte	horizonte horizontes
+17	4017	transacción	transacciones transacción
+18	4018	furioso	furioso furiosos furiosa furiosas
+19	4019	vicio	vicio vicios
+20	4020	preservar	preservar preserva preservado preservando preservada preservados preservan preserve preservadas preservarlo preservarla preservó preservarse preservarlos preserven preservará preservamos preservarlas preservaron preservaba preservemos preservara
+21	4021	correctamente	correctamente
+22	4022	impunidad	impunidad
+23	4023	trinidad	trinidad
+24	4024	detallar	detalla detalles detallan detalló detallada detallar detallando detalladas detallados detallaba detallaron detallaban detallo detallamos detallen detallas detallará detallarán detallaré detallaremos
+25	4025	islámico	islámico islámica islámicos islámicas
+26	4026	cooperativa	cooperativa cooperativas coop
+27	4027	presentador	presentador presentadora presentadores presentadoras
+28	4028	tolerar	tolerar tolera toleran tolero tolerado tolerada tolerará toleramos tolerados toleraba tolerando tolere toleradas tolerarlo toleraría toleró toleras tolerarse toleraremos tolerarán toleren toleraban toleraron tolerarían tolerarla toleres toleraré
+29	4029	encerrado	encerrado encerrada encerrados encerradas
+30	4030	pesadilla	pesadilla pesadillas
+31	4031	amoroso	amorosa amoroso amorosos amorosas
+32	4032	bronce	bronce bronces
+33	4033	promotor	promotor promotores promotora promotoras
+34	4034	funeral	funeral funerales
+35	4035	muñeca	muñeca muñecas muñequita
+36	4036	miligramo	mg miligramos miligramo
+37	4037	paco	paco paca pacos pacas
+38	4038	coincidencia	coincidencia coincidencias
+39	4039	romance	romance romances
+40	4040	conejo	conejo conejos conejito conejillos conejillo coneja conejas
+41	4041	aportación	aportación aportaciones
+42	4042	salio	salio salia salias salios
+43	4043	trágico	trágico trágica trágicos trágicas
+44	4044	noma	nomas noma
+45	4045	determinación	determinación determinaciones
+46	4046	patada	patada patadas patadita
+47	4047	farmacia	farmacia farmacias
+48	4048	molinar	molina molinas molinar moline moliné
+49	4049	decisivo	decisivo decisiva decisivos decisivas
+50	4050	serpiente	serpiente serpientes
+51	4051	plus	plus pluses
+52	4052	referéndum	referéndum referéndums
+53	4053	visa	visa visas
+54	4054	patriota	patriotas patriota
+55	4055	ayudante	ayudante ayudantes
+56	4056	prostituto	prostitutas prostituta prostituto prostitutos
+57	4057	carolina	carolina carolinas
+58	4058	psicólogo	psicólogo psicólogos psicóloga sicólogo psicólogas
+59	4059	australiano	australiano australiana australianos australianas
+60	4060	eficacia	eficacia
+61	4061	productividad	productividad
+62	4062	telecomunicación	telecomunicaciones telecomunicación
+63	4063	armonía	armonía armonías
+64	4064	nacionalismo	nacionalismo nacionalismos
+65	4065	localización	localización localizaciones
+66	4066	emprendedor	emprendedores emprendedor emprendedora emprendedoras
+67	4067	conspiración	conspiración conspiraciones
+68	4068	demostración	demostración demostraciones
+69	4069	cómplice	cómplice cómplices
+70	4070	almacén	almacén almacenes
+71	4071	aburrir	aburre aburro aburren aburrir aburrió aburres aburriendo aburría aburrí aburrirse aburrida aburra aburrirme aburrirte aburridos aburras aburriría aburrieron aburrimos aburran aburridas aburrirá aburrís aburriste aburrirnos aburrían aburrirás aburriré aburrirlos aburrirán aburriera
+72	4072	veterano	veteranos veterano veterana veteranas
+73	4073	lema	lema lemas
+74	4074	set	set sets
+75	4075	pe	pe pes
+76	4076	porción	porción porciones
+77	4077	taco	tacos taco taquitos taquito
+78	4078	clavar	clavar clava clavó clavan clavando clavé clavaron clavada clavas clavados claves clavarle clavaba clavarme clavarse claven clavarte clavaste clavadas clavaban clavamos clavándole clavándose clavaría clavara clavarla clavarlo clavaran clavándome
+79	4079	aliento	aliento alientos
+80	4080	checo	checa checo checos checas
+81	4081	colorado	colorado colorada colorados coloradas
+82	4082	ingle	ingles ingle
+83	4083	agradar	agrada agradar agradan agrade agradó agradaba agradarle agradaría agradado agraden agradas agradará agradaron agradaban agradarte agradara agradarme agradando agradarles
+84	4084	alcaldía	alcaldía alcaldías
+85	4085	mentalidad	mentalidad mentalidades
+86	4086	cazar	cazar cazando cazo cazan cazado cazados cazaba cazas cazaban cazó cazada cazarlo cace cazarlos cazadas cazaron cazares cazos chaquetilla cacen cazamos caces cazara cazaría cazarla cazarlas cacé cazarán caze
+87	4087	custodia	custodia custodias
+88	4088	empate	empate empates
+89	4089	navegación	navegación navegaciones
+90	4090	organizador	organizador organizadores organizadora organizadoras
+91	4091	armenio	armenia armenio armenios armenias
+92	4092	confesión	confesión confesiones
+93	4093	mochila	mochila mochilas
+94	4094	altar	altar altares
+95	4095	denominación	denominación denominaciones
+96	4096	israelí	israelí israelíes israelís
+97	4097	comportar	comportarse comportan comportado comportó comportar comportaba comporten comportando comportándose comportarte comportarnos comportaron comporto comportarme comportaban comportamos comportaría comportará comportara compórtate comportate comportarás comportarán comportaran comportas comportes comportase compórtese comportemos comporté
+98	4098	claridad	claridad claridades
+99	4099	hallazgo	hallazgo hallazgos
+100	4100	inspección	inspección inspecciones

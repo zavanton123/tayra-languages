@@ -1,0 +1,100 @@
+1	9301	mayorista	mayorista mayoristas
+2	9302	yema	yemas yema
+3	9303	diferenciación	diferenciación diferenciaciones
+4	9304	cómputo	cómputo cómputos
+5	9305	alegación	alegaciones alegación
+6	9306	giratorio	giratoria giratorias giratorio giratorios
+7	9307	maqueta	maqueta maquetas
+8	9308	patrio	patrio patrios patrias
+9	9309	cofundador	cofundador cofundadora cofundadores
+10	9310	goleada	goleada goleadas
+11	9311	roce	roce roces
+12	9312	agotamiento	agotamiento
+13	9313	alfabetización	alfabetización
+14	9314	criminalidad	criminalidad
+15	9315	culturalmente	culturalmente
+16	9316	democráticamente	democráticamente
+17	9317	geología	geología
+18	9318	gore	gore
+19	9319	homofobia	homofobia
+20	9320	medioambiente	medioambiente
+21	9321	naturalidad	naturalidad
+22	9322	paréntesis	paréntesis
+23	9323	paulatinamente	paulatinamente
+24	9324	reggae	reggae
+25	9325	éxtasis	éxtasis
+26	9326	fábula	fábula fábulas
+27	9327	céntrico	céntrica céntrico céntricas céntricos
+28	9328	curador	curador curadores curadora
+29	9329	emiliano	emiliano emiliana
+30	9330	rambla	rambla ramblas
+31	9331	lila	lila lilas
+32	9332	deportación	deportación deportaciones
+33	9333	nerd	nerd nerds
+34	9334	relevar	relevado relevar relevados relevó releva relevada relevando relevan releve relevaron relevadas relevará relevarlo
+35	9335	escanear	escanear escaneado escanea escaneada escaneando escaneados escaneadas escanean escaneó escanearlo escanearon escanee
+36	9336	pantera	pantera panteras
+37	9337	predecible	predecible predecibles
+38	9338	todopoderoso	todopoderoso todopoderosa todopoderosos
+39	9339	cachondo	cachonda cachondo cachondos cachondas
+40	9340	sectario	sectarios sectario sectaria sectarias
+41	9341	irresistible	irresistible irresistibles
+42	9342	atracar	atracar atraque atracado atracó atracaron atracando atracan atraca atracada atracados atracaban atraquen atracaba atraques
+43	9343	navegante	navegantes navegante
+44	9344	cautela	cautela cautelas
+45	9345	desplomar	desplomó desploma desplomado desplomarse desplomaron desploman desplomo desplomar desplomándose desplomara desplomaba desplomaban desplomada desplomes
+46	9346	escama	escamas escama
+47	9347	ilustrador	ilustrador ilustradores ilustradora ilustradoras
+48	9348	hispanoamericano	hispanoamericana hispanoamericanos hispanoamericano hispanoamericanas
+49	9349	ascensión	ascensión ascensiones
+50	9350	obispado	obispado obispados
+51	9351	digerir	digerir digerido digiere digieren digeridos digerida digiriendo digerirlo digiera digeridas digerirla
+52	9352	vascular	vascular vasculares
+53	9353	intocable	intocable intocables
+54	9354	manar	manaos mane mané manaba manar manan manara manés manado manadas manó manando manas
+55	9355	dictaminar	dictaminó dictaminado dictaminar dictamina dictamine dictaminaron dictaminan dictaminada dictaminando dictaminara dictaminaba dictaminará
+56	9356	cráter	cráter cráteres
+57	9357	mezquino	mezquino mezquinos mezquina mezquinas
+58	9358	vertebral	vertebral vertebrales
+59	9359	insurrección	insurrección insurrecciones
+60	9360	nono	nono nona nonos nonas
+61	9361	beneficencia	beneficencia beneficencias
+62	9362	bolígrafo	bolígrafo boli bolígrafos bolis
+63	9363	pervertido	pervertido pervertidos pervertida pervertidas
+64	9364	nulidad	nulidad nulidades
+65	9365	clamor	clamor clamores
+66	9366	boceto	bocetos boceto
+67	9367	machacar	machacar machaca machacado machacando machacan machacados machacadas machacada machaque machacó machaco machacas machacaron machaquen
+68	9368	incomprensible	incomprensible incomprensibles
+69	9369	mentar	mentada mentado mentar mento mentadas mentando miento mienten mentales mentarle mentó mientas mentados menten mentan mientes mienta mientan miénteme
+70	9370	vanidad	vanidad vanidades
+71	9371	intuitivo	intuitivo intuitiva intuitivos intuitivas
+72	9372	fricción	fricción fricciones
+73	9373	superponer	superpuestas superponen superpuestos superpuesto superpone superpuesta superponer superponerse superponiendo superponiéndose
+74	9374	indicativo	indicativo indicativos indicativa indicativas
+75	9375	precoz	precoz precoces
+76	9376	vasallo	vasallos vasallo vasalla
+77	9377	tallado	tallado tallada tallados talladas
+78	9378	hueva	hueva huevas huea
+79	9379	poro	poros poro
+80	9380	humillado	humillado humillada humillados humilladas
+81	9381	cabalgar	cabalgando cabalgar cabalga cabalgamos cabalgaba cabalgan cabalgó cabalgada cabalgado cabalgaron cabalgaban cabalgadas cabalgas
+82	9382	afro	afro afros afra
+83	9383	códice	códice códices
+84	9384	plática	plática pláticas
+85	9385	puñetazo	puñetazo puñetazos
+86	9386	avería	avería averías
+87	9387	desproporcionado	desproporcionada desproporcionado desproporcionadas desproporcionados
+88	9388	felino	felino felinos felina felinas
+89	9389	frigorífico	frigorífico frigoríficos frigorífica frigoríficas
+90	9390	nutricional	nutricional nutricionales
+91	9391	kiosco	kiosco kiosko kioscos
+92	9392	detonar	detonar detonó detona detonado detonaron detonada detonan detonando detone detonará detonados detonadas detono
+93	9393	temperamento	temperamento temperamentos
+94	9394	peculiaridad	peculiaridades peculiaridad
+95	9395	tibio	tibio tibios tibias
+96	9396	halo	halo halos
+97	9397	enganchado	enganchado enganchada enganchados enganchadas
+98	9398	borroso	borrosa borroso borrosas borrosos
+99	9399	anteproyecto	anteproyecto anteproyectos
+100	9400	vivero	vivero viveros

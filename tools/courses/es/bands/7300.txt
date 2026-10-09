@@ -1,0 +1,100 @@
+1	7201	sodio	sodio
+2	7202	veracidad	veracidad
+3	7203	wa	wa
+4	7204	quilombo	quilombo quilombos
+5	7205	apagón	apagón apagones
+6	7206	cover	cover covers
+7	7207	dibujante	dibujante dibujantes
+8	7208	rivalidad	rivalidad rivalidades
+9	7209	galardón	galardón galardones
+10	7210	saudita	saudita sauditas
+11	7211	podio	podio podium podios pódium
+12	7212	semanario	semanario semanarios
+13	7213	chequear	chequear chequea checar chequeado chequeando chequeen chequee chequearlo chequean chequeamos chequeá chequearon chequeada
+14	7214	regio	regio regia regios regias
+15	7215	cadete	cadete cadetes
+16	7216	enciclopedia	enciclopedia enciclopedias
+17	7217	emigración	emigración emigraciones
+18	7218	austral	austral australes
+19	7219	oficialista	oficialista oficialistas
+20	7220	plateado	plateado plateada plateados plateadas
+21	7221	negrita	negrita negrito negritos negritas
+22	7222	encarnar	encarna encarnar encarnó encarnan encarnaba encarnada encarnando encarnados encarnaban encarne encarnarse encarnadas encarnaron encarnará encarnara
+23	7223	calefacción	calefacción calefacciones
+24	7224	notario	notario notarios notaria notarias
+25	7225	paisano	paisano paisanos paisana paisanas
+26	7226	check	check checks
+27	7227	trueno	trueno truenos
+28	7228	muslo	muslos muslo
+29	7229	escénico	escénicas escénico escénica escénicos
+30	7230	guarnición	guarnición guarniciones
+31	7231	cuestionario	cuestionario cuestionarios
+32	7232	parroquial	parroquial parroquiales
+33	7233	acatar	acatar acata acatan acatando acatado acató acate acaten acataron acatará acato acatamos acatada acatarla acatadas acatarán acataba acataría
+34	7234	táctico	táctico tácticas tácticos
+35	7235	templado	templado templada templados templadas
+36	7236	ring	ring rings
+37	7237	incomodar	incomoda incomodar incomodan incomode incomodaba incomodas incomodó incomodado incomodando incomodarte incomoden incomodarlo incomodaron incomodarse incomodarla
+38	7238	distorsionar	distorsionada distorsionado distorsionar distorsiona distorsionan distorsionadas distorsiones distorsionados distorsionando distorsionó distorsione distorsionen distorsionaba distorsionaron
+39	7239	clemente	clemente clementes
+40	7240	libreta	libreta libretas
+41	7241	gaceta	gaceta gazeta gacetas
+42	7242	tirano	tirano tirana tiranos
+43	7243	dúo	dúo dúos
+44	7244	factible	factible factibles
+45	7245	anticipación	anticipación anticipaciones
+46	7246	calabaza	calabaza calabazas
+47	7247	navío	navío navíos
+48	7248	paper	paper papers
+49	7249	wiki	wiki wikis
+50	7250	absorción	absorción absorciones
+51	7251	serrar	serra serrar serrado serres serrada sierro serrate serrados sierre sierras serranos
+52	7252	ensuciar	ensuciar ensucia ensucian ensuciando ensuciarse ensucie ensuciado ensucien ensucio ensucias ensuciarte ensució ensuciarme ensucies ensuciaron ensuciarnos ensuciarlo ensuciaba
+53	7253	padrón	padrón padrones
+54	7254	tendido	tendido tendida tendidos tendidas
+55	7255	recreación	recreación recreaciones
+56	7256	equitativo	equitativa equitativo equitativas equitativos
+57	7257	antojo	antojo antojos
+58	7258	suburbio	suburbios suburbio
+59	7259	galán	galán galanes galana
+60	7260	arrogante	arrogante arrogantes
+61	7261	cofradía	cofradía cofradías
+62	7262	solicitante	solicitante solicitantes
+63	7263	espinar	espinar espino espinas espinos espinales espines
+64	7264	pub	pub pubs
+65	7265	talón	talones talón
+66	7266	rebelar	rebelarse rebela rebelaron rebeló rebelan rebelado rebelo rebelar rebelen rebelándose rebele rebelamos rebelarnos rebelaban rebelaran rebelaba rebelando rebelarme rebelados
+67	7267	inaugural	inaugural inaugurales
+68	7268	sultán	sultán sultana sultanes soldán sultanas
+69	7269	visualización	visualización visualizaciones
+70	7270	precursor	precursor precursores precursora precursoras
+71	7271	milanesa	milanesa milanesas mila
+72	7272	nicaragüense	nicaragüense nicaragüenses
+73	7273	recalcar	recalcar recalcó recalca recalcando recalcado recalcada recalco recalcan recalcaba recalcaron recalcarlo
+74	7274	insólito	insólito insólita insólitas insólitos
+75	7275	raer	rae raído raída raed raídos raí raídas rayas rayan rayó
+76	7276	nominar	nomina nominar nominados nominada nominó nomine nominaron nominales nominas nomino nominen nominadas nominan nominando
+77	7277	ilegítimo	ilegítimo ilegítima ilegítimos ilegítimas
+78	7278	hidrocarburo	hidrocarburos hidrocarburo
+79	7279	filmación	filmación filmaciones
+80	7280	predicador	predicador predicadores predicadora
+81	7281	arqueología	arqueología
+82	7282	excesivamente	excesivamente
+83	7283	explícitamente	explícitamente
+84	7284	homo	homo
+85	7285	progresivamente	progresivamente
+86	7286	sospecho	sospecho
+87	7287	linterna	linterna linternas
+88	7288	cocodrilo	cocodrilo cocodrilos
+89	7289	buitre	buitres buitre
+90	7290	recompensar	recompensado recompensar recompensados recompensada recompensará recompensas recompensan recompense recompensó recompensadas recompensando recompensaba recompensarlo recompensarte recompensarán recompensen recompenso recompensarle
+91	7291	percatar	percató percatado percatarse percaté percata percataron percatamos percate percatan percato percatarme percatar percatándose percatarnos percatara percatas percaten percataba
+92	7292	toar	too toe toad toes toas
+93	7293	fastidiar	fastidia fastidiar fastidiado fastidian fastidie fastidiando fastidió fastidien fastidiada fastidiaba fastidies fastidiados fastidiarme fastidiarnos fastidiaron fastidiarse fastidias fastidiarte fastidiarlo fastidiarle
+94	7294	ayuno	ayuno ayunas ayunos ayuna
+95	7295	desarmar	desarmar desarmados desarma desarmó desarmada desarmando desarman desarmarlo desarmaron desarmo desarmadas desarmarse desarmarla desarmarlos desarmen desarmas desarmaba desarmé desarmes
+96	7296	esponja	esponja esponjas
+97	7297	fraile	frailes fraile frayle
+98	7298	mota	mota motas
+99	7299	accidental	accidental accidentales
+100	7300	navaja	navaja navajas navajita

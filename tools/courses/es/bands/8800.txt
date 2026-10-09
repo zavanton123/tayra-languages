@@ -1,0 +1,100 @@
+1	8701	labrador	labrador labradores labradora
+2	8702	retablo	retablo retablos
+3	8703	resbalar	resbala resbaló resbalar resbale resbalan resbalando resbalo resbalado resbalaba resbalarse resbalen resbalé resbalaban resbalaron resbalas resbales resbalara
+4	8704	dea	dea deas
+5	8705	champú	champú shampoo champús
+6	8706	cantor	cantor cantores cantora cantoras
+7	8707	naciente	naciente nacientes
+8	8708	catastrófico	catastrófico catastrófica catastróficas catastróficos
+9	8709	textual	textual textuales
+10	8710	amargura	amargura amarguras
+11	8711	irreal	irreal irreales
+12	8712	mall	mall malls
+13	8713	benigno	benigno benigna benignos benignas
+14	8714	politécnico	politécnica politécnico politécnicos politécnicas
+15	8715	inflamación	inflamación inflamaciones
+16	8716	pornográfico	pornográficas pornográfico pornográfica pornográficos
+17	8717	pepino	pepino pepinos
+18	8718	nacionalización	nacionalización nacionalizaciones
+19	8719	gestar	gestando gestó gestar gestado gestarse gestada gestaba gestaron gestándose geste gestan gestas gestados
+20	8720	rever	reves reverte revela reverse reviste rever revistas reven revé revea revele revelo reveles revelas
+21	8721	progenitor	progenitores progenitor progenitora progenitoras
+22	8722	carreta	carreta carretas
+23	8723	pancarta	pancartas pancarta
+24	8724	titán	titán titanes
+25	8725	aceituna	aceitunas aceituna
+26	8726	moldear	moldear moldeado moldea moldeada moldeo moldean moldeando moldeados moldeadas moldearon moldeó moldearse
+27	8727	formativo	formativo formativas formativa formativos
+28	8728	expresivo	expresiva expresivo expresivos expresivas
+29	8729	comprimido	comprimido comprimidos comprimida comprimidas
+30	8730	chillar	chillar chillando chillan chilla chille chillo chilló chillaba chillos chillaban chillen chilles chillas
+31	8731	elfo	elfos elfo elfa elfas
+32	8732	óptico	óptico ópticos ópticas
+33	8733	basurero	basurero basureros
+34	8734	cloaca	cloacas cloaca
+35	8735	arcaico	arcaico arcaica arcaicas arcaicos
+36	8736	bache	baches bache
+37	8737	litigio	litigio litigios
+38	8738	vietnamita	vietnamita vietnamitas
+39	8739	veto	veto vetos
+40	8740	remodelación	remodelación remodelaciones
+41	8741	generalización	generalización generalizaciones
+42	8742	alumbrado	alumbrado alumbrados alumbradas alumbrada
+43	8743	hippie	hippie hippies jipi
+44	8744	tripulante	tripulantes tripulante
+45	8745	fiera	fiera fieras fierecilla
+46	8746	tao	tao tau taos
+47	8747	peinar	peinar peina peinarse peinando peino peinados peinarme peines peinó peinaba peinan peinarte peinas peinándose peinamos peinen peiné peinarlo peinarla peinada peinaron peinadas
+48	8748	atuendo	atuendo atuendos
+49	8749	túnica	túnica túnicas
+50	8750	antropólogo	antropólogo antropólogos antropóloga
+51	8751	distar	dista distan distaba distes distaban distó distando distales diste
+52	8752	térmico	térmico térmicos térmicas
+53	8753	sinfónico	sinfónica sinfónico sinfónicas sinfónicos
+54	8754	reprobar	reprobar reprobado reprueba reprobó reprueban reprobé reprobados reprobaron reprobando repruebo reprobada repruebas reprobaste reprobaba repruebe reprobamos reprobadas reprueben reprobo
+55	8755	roza	roza rozas
+56	8756	barbie	barbie barbies
+57	8757	lineamiento	lineamientos lineamiento
+58	8758	piojo	piojos piojo
+59	8759	barricada	barricadas barricada
+60	8760	vibrar	vibrar vibrando vibran vibras vibró vibre vibraba vibro vibren vibraron vibrado vibrará
+61	8761	cuidador	cuidador cuidadores cuidadora cuidadoras
+62	8762	alcázar	alcázar alcázares
+63	8763	intruso	intrusos intruso intrusa
+64	8764	duplicado	duplicado duplicados duplicada duplicadas
+65	8765	refrán	refrán refranes
+66	8766	hechicero	hechicero hechicera hechiceros hechiceras
+67	8767	vegano	vegano veganos vegana veganas
+68	8768	arremeter	arremete arremetió arremetida arremeter arremetieron arremetiendo arremeten arremetidas arremetido arremetía arremeta
+69	8769	esclarecer	esclarecer esclarecido esclarece esclarezca esclarecida esclarecidos esclareció esclarecerse esclarecidas esclarezcan esclareciendo esclarecen
+70	8770	sarcástico	sarcástico sarcástica sarcásticos sarcásticas
+71	8771	baraja	baraja barajas
+72	8772	loa	loa loas
+73	8773	intoxicación	intoxicación intoxicaciones
+74	8774	postergar	postergar postergado postergada postergando postergó posterga postergados postergadas postergan postergaron postergue postergarlo postergarse
+75	8775	invicto	invicto invicta invictos invictas
+76	8776	sexenio	sexenio sexenios
+77	8777	georgiano	georgiano georgiana georgianos georgianas
+78	8778	agresividad	agresividad
+79	8779	amablemente	amablemente
+80	8780	astronomía	astronomía
+81	8781	ayacucho	ayacucho
+82	8782	bielorrusio	bielorrusia
+83	8783	cash	cash
+84	8784	castañeda	castañeda
+85	8785	casualmente	casualmente
+86	8786	concurrencia	concurrencia
+87	8787	detrimento	detrimento
+88	8788	liquidez	liquidez
+89	8789	mundialmente	mundialmente
+90	8790	piratería	piratería
+91	8791	prudencia	prudencia
+92	8792	repetidamente	repetidamente
+93	8793	ter	ter
+94	8794	galés	galés galesa galeses galesas
+95	8795	nadador	nadador nadadores nadadora nadadoras
+96	8796	insomnio	insomnio insomnios
+97	8797	oriundo	oriundo oriundos oriunda oriundas
+98	8798	endémico	endémica endémicas endémico endémicos
+99	8799	monárquico	monárquico monárquicos monárquica monárquicas
+100	8800	contractual	contractual contractuales

@@ -1,0 +1,100 @@
+1	301	aquel	aquellos aquel aquella aquellas aquél aquéllos aquélla aquéllas
+2	302	muerte	muerte muertes
+3	303	tarde	tarde tardes tardecita tardísimo
+4	304	paso	paso pasos pasito pasitos
+5	305	fuerza	fuerza fuerzas
+6	306	falta	falta faltas
+7	307	preguntar	pregunto preguntar preguntó preguntas preguntan pregunté preguntando preguntado preguntaba pregunte preguntarle preguntaron preguntarse preguntamos pregunten preguntes preguntarme preguntarte pregúntale preguntaban preguntarnos preguntale preguntarles preguntaste preguntándome preguntándose preguntaría pregúntame preguntándole preguntará preguntarán preguntara pregúntate pregúntenle preguntaran preguntame preguntaré pregúntele preguntemos preguntabas
+8	308	lograr	lograr logró logrado logra logro logros lograron logran logrando lograrlo logramos logre logré logrará logras lograba logren lograremos lograda lograra lograría lograste logrados logremos lograrán lograrás lograban logres lograrse lograran logradas lograrían lograré lograras lograse lograrías lograrlos lográndose lograrla lograríamos
+9	309	comer	comer come comiendo coma comen comido comes comí comió comete comemos comas comía coman comerse comieron comiste comerte comimos comerme comían comería comerlo comerá comiéndose comerla comeré comíamos comerlos comernos comerán comamos comiera comerlas comidos comeremos comerás comieran cómete comías
+10	310	posible	posible posibles
+11	311	estudio	estudio estudios
+12	312	principal	principal principales
+13	313	sociedad	sociedad sociedades
+14	314	mierda	mierda mierdas mierdita
+15	315	zona	zona zonas
+16	316	humano	humanos humano humana humanas
+17	317	realidad	realidad realidades
+18	318	recordar	recuerda recordar recuerdan recordó recuerden recordando recuerdas recuerde recordado recordemos recordamos recordaba recordé recordarlo recordarle recordad recordará recuerdes recordarte recordarles recordada recordarán recordarme recordaremos recordaré recordarnos recordaron recordados recordaban recordáis recordara recordadas recordaría recordaste recordándole recuérdalo recuérdame recordarás recordarla recordaran
+19	319	matar	matar mata mate mató matando mataron matan mato matado maten mates matas matarlo matarme matarlos matarte matamos mataba mataría matarla matarse mataban maté mataran matos mataste matara matarnos matará matarle matarán matarían mataré matemos matarlas mátame matare mátenme matados matándose
+20	320	resultado	resultados resultado
+21	321	tras	tras
+22	322	través	través
+23	323	considerar	considera considerar considerando consideran considero consideró consideraba considerarse consideramos considere considerada considerados consideraban consideren consideraron consideradas considerarlo consideras considerará consideraría consideremos consideré considerarla considerarán consideres considerara considerarlos considerándolo considerándose consideraremos considerarían consideraran considerase considérese considerarme considerarlas considerándola considerandos consideraste considerarte
+24	324	acabar	acaba acabar acabó acaban acabado acabe acabas acabamos acababa acabaron acabando acabará acaben acabaría acabada acabados acabara acabé acabarán acababan acabemos acabaremos acabes acabarse acabaran acabarás acabarían acabase acabadas acabaré acabarla acabarlo acabaste acabábamos acabáis acabaríamos acabaras acabarlos acabasen acabare
+25	325	universidad	universidad universidades uni
+26	326	cuerpo	cuerpo cuerpos cuerpecito cuerpito
+27	327	amor	amor amores amorcito
+28	328	pesar	pesar pese pesado pesada pesa pesados pesadas pesas pesan pésame pesaba pesando pesaban pesares pesó pesen pesará pesame pesara pesaron pesaría pesé pesaos pésames peses pesadito pesamos pesarán pesadísimo pesarme pesaran pesarse
+29	329	pregunta	pregunta preguntas preguntita
+30	330	frente	frente frentes fronte
+31	331	calle	calle calles cll callecita
+32	332	abrir	abrir abre abrió abierta abren abiertas abiertos abra abriendo abrieron abrí abran abro abrirse abrirá abrimos abres abría abriera abrirlo abrirán abras abrirle abriría abrirla abrían abriéndose abrirme abrirnos abrirte abriste abrieran abrirlos abramos abrís abriremos abrirles abriré abrid abrirlas
+33	333	joven	joven jóvenes jóven jovencito jovencísimo
+34	334	situación	situación situaciones
+35	335	cargo	cargo carga cargos cargas
+36	336	incluir	incluye incluyendo incluyen incluir incluidos incluyó incluía incluida incluidas incluya incluían incluyeron incluirá incluyo incluyan incluirse incluiría incluimos incluirán incluyera incluirlo incluyéndome incluirla incluirlos incluirían incluyeran incluyes incluí incluyéndose incluyas incluirme incluirlas incluyese incluiremos incluyéndolo incluirte incluiré incluirnos incluiste incluyéndola
+37	337	línea	línea líneas linea
+38	338	importar	importa importar importe importan importaba importado importó importados importaría importarle importara importas importo importadas importada importando importamos importes importaban importarme importará importen importarles importaron importarte importase importarnos importaran importarán importé importabas importarlos importarlo importarse importarían importás importate importemos importarla importarlas
+39	339	uso	uso usos
+40	340	incluso	incluso inclusa inclusos
+41	341	desarrollo	desarrollo desarrollos desarollo
+42	342	proceso	proceso procesos
+43	343	intentar	intentar intenta intentando intentó intentado intentan intentarlo intentaron intente intentaba intenté intentamos intentas intenten intentes intentaré intentaban intentará intentarán intentara intentaremos intentándolo intentaría inténtalo intentemos intentaste intentare intentaran intentalo intentase intentarían intentábamos intentarás intentad intentabas intentéis inténtelo intentá intentáis intentasen
+44	344	quién	quién quiénes qn
+45	345	cuatro	cuatro cuatros quatro
+46	346	cabeza	cabeza cabezas cabezón cabecita cabezazo cabecilla cabecillas cabezota cabezazos cabecitas cabezones cabezudos cabezona cabezudo cabeça cabezotas
+47	347	ojo	ojos ojo ojito
+48	348	imagen	imagen imágenes imágen
+49	349	económico	económica económico económicos económicas
+50	350	puesto	puesto puestos puesta puestas pto puestito
+51	351	personal	personal personales personalísimo
+52	352	mí	mí
+53	353	orden	orden órdenes órden
+54	354	viejo	viejo vieja viejos viejas viejito viejecito viejísimo viejillo
+55	355	acción	acción acciones
+56	356	especial	especial especiales
+57	357	oficial	oficial oficiales
+58	358	precio	precio precios
+59	359	cerrar	cerrar cierre cerrado cierra cerrada cerró cerrados cerradas cierran cerrando cerraron cierren cierro cerramos cierres cerré cerraba cerrará cerrarse cierras cerraban cerrara cerrarán cerrarlo cerrarla cerra cerremos cerrarle cerraran cerraría cerraste cerrándose cerras cerre cerrá cerrarlos cerrarlas cerraremos cerrase cerraré
+60	360	aparecer	aparece aparecen apareció aparecer aparecido aparecieron aparezca aparecía apareciendo aparezcan aparecerá aparecían apareciera aparecerán apareces aparecida aparecería apareciste aparezco aparecidos aparecieran aparecidas aparecerían aparezcas apareciese aparecí aparecemos aparecerse aparecimos apareciesen aparecías aparecerte apareceré aparecerás apareciéndose aparecerme aparecieras
+61	361	sitio	sitio sitios
+62	362	base	base bases
+63	363	cerca	cerca cercas cerquita
+64	364	escuela	escuela escuelas escuelita
+65	365	negro	negro negra negros negras negrilla negrillo negrillos negrísimo
+66	366	todavía	todavía
+67	367	enviar	enviar enviado envió envío envía enviados enviaron enviando enviada envían envíos envíe enviamos envio envíen enviadas enviará envié enviarle enviaba enviarlo envia enviara enviaremos envías enviarme enviaban enviarán enviarlos enviarte envie enviarnos enviaré enviaran enviaría enviarla enviarles envíame envian envíanos
+68	368	blanco	blanco blanca blancos blancas blanquito
+69	369	mayoría	mayoría mayorías
+70	370	olvidar	olvidar olvidado olvido olvides olvida olvide olvidó olvidemos olviden olvidé olvidan olvidarse olvidando olvidamos olvidas olvidados olvidaba olvidate olvidaron olvidaré olvídate olvidada olvidaste olvidarlo olvidarte olvidarme olvidarnos olvidadas olvidará olvidaremos olvidéis olvidara olvidarán olvídalo olvidaría olvidarla olvidarás olvídense olvidalo olvidándose
+71	371	convertir	convirtió convierte convertirse convertir convierten convirtieron convirtiendo convierta convirtiéndose convertirá convertiría convertirlo conviertan convirtiera convertía convertirnos convertirte convertirla convertirme convertimos convertí convertirán convertirlos conviertes convertida convertidos convierto convertían convirtiéndolo convertirían convertiste conviertas convertirlas conviértete convirtieran convirtiéndola convertiremos convertirás convirtamos convirtiese
+72	372	seguridad	seguridad seguridades
+73	373	policía	policía policías
+74	374	ofrecer	ofrece ofrecer ofrecen ofreció ofreciendo ofrecido ofrecieron ofrecía ofrezco ofrecemos ofrecerle ofrezca ofrecerte ofrezcan ofrecerá ofrecían ofrecida ofrecidos ofrecerles ofreces ofrecidas ofrecí ofrecerse ofrecerán ofrecería ofrecerme ofreciera ofreciéndole ofrecernos ofrecieran ofreciéndoles ofrecimos ofreciéndose ofreceremos ofrezcas ofrecerlo ofreceros ofreciéndome ofrecerían ofrecerla
+75	375	fuerte	fuerte fuertes fortísimo fuertísimo fortísima fuertecito
+76	376	actividad	actividades actividad
+77	377	ayuda	ayuda ayudas ayudita ayudadita
+78	378	principio	principio principios
+79	379	elección	elecciones elección
+80	380	elegir	elegir elegido elige electo elegidos eligió elegida eligen eligieron electos elegí elija elegimos eligiendo elijo eliges elijan elegidas elijas electa elegiste elegiría elegirá elegía elegirán eligiera elegían elijamos elegirlo elegís eligieran electas elegiremos elegirse elegirlos elegiré elegías elegirían elegirías eligir
+81	381	película	película películas peli
+82	382	traer	trae traer traje trajo traen traído traigo trajes trajeron traiga traía traerá traigan trayendo traes traemos traido traería traían traídos traerlo traída traerme traerán traigas traídas traernos traerlos traerte trajiste trajera traerla trajimos traeme traerle tráeme trajeran traerles traerse traeré
+83	383	noticia	noticias noticia
+84	384	minuto	minutos minuto minutito
+85	385	ambos	ambos ambas
+86	386	servir	sirve servir sirven sirvió servido sirva servirá sirviendo servía sirvieron serviría sirvan sirvo servirán servían servida servirle sirviera servimos servirse servirte servidas servirían servidos sirves servirnos serviles servirles sírvase serví servirme sirvieran servirlo servirla sirviéndose servís servirlos sirviese sírvanse serviré
+87	387	red	red redes
+88	388	libre	libre libres
+89	389	sentido	sentido sentidos sentida sentidas
+90	390	necesario	necesario necesaria necesarios necesarias
+91	391	lista	lista listas
+92	392	camino	camino caminos caminito
+93	393	subir	subir sube subió subiendo subido subida suben suba subieron subo suban subí subimos subidas subía subirse subes subas subirá subirlo subiré subirme subiera subidos subiste subían subirla subirán subirte subiría subís subamos subiremos subirlas subirle subieran subirlos súbete subiéndose súbelo
+94	394	miembro	miembros miembro miembra miembras
+95	395	producir	produce producir producido produjo producen produciendo producida producidos produjeron produzca producidas producirse producía produzcan producirá producían produciría produciéndose producirán produjera producimos produjeran producirían producirlo producirla produjese producirlos produzco produces producirle produje producirlas produzcamos produciéndole produciremos produjesen produjere produzcas producís
+96	396	explicar	explica explicar explicó explican explicado explico explique explicando explicarle explicaba explicarlo explicaron explicarme explicas expliqué explicarte explicaría explicarles explicamos expliquen explicarse explicada explícame explicame explicarnos explicará explicara explicaré explicaban explicadas explicados expliques explicaremos explicándole explicaste explicarán explicaran explicarla explícale explícanos
+97	397	rey	rey reyes
+98	398	aprender	aprender aprende aprendido aprendí aprendiendo aprendió aprenden aprendan aprenda aprendes aprendemos aprendieron aprendimos aprendo aprendiste aprenderás aprendas aprendamos aprenderán aprenderá aprendida aprendidas aprenderemos aprenderlo aprendía aprenderse aprendiera aprendidos aprenderé aprendería aprendieran aprendé aprendían aprended aprenderla aprenderme aprenderlas aprenderte aprenderían aprendete
+99	399	aire	aire aires
+100	400	difícil	difícil difíciles dificil dificilísimo

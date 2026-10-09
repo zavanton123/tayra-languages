@@ -1,0 +1,100 @@
+1	2601	dorado	dorado dorada dorados doradas doradito
+2	2602	retiro	retiro retiros
+3	2603	tuit	tuit tuits twit
+4	2604	cuadrado	cuadrados cuadrado cuadrada cuadradas cuadradito
+5	2605	vicepresidente	vicepresidente vicepresidenta vicepresidentes
+6	2606	castigo	castigo castigos
+7	2607	dieta	dieta dietas
+8	2608	alerta	alerta alertas
+9	2609	bienvenida	bienvenida bienvenidas
+10	2610	espiritual	espiritual espirituales
+11	2611	programación	programación programaciones
+12	2612	negativa	negativa negativas
+13	2613	influir	influir influye influyen influido influyó influyeron influya influyendo influida influirá influidos influyan influidas influirán influiría influía influyo influyera influían influirían
+14	2614	recomendación	recomendaciones recomendación
+15	2615	hombro	hombro hombros
+16	2616	nativo	nativos nativo nativa nativas
+17	2617	kilo	kilos kilo quilo quilos
+18	2618	campesino	campesinos campesino campesina campesinas
+19	2619	humo	humo humos jumo humito
+20	2620	rumbo	rumbo rumbos
+21	2621	composición	composición composiciones
+22	2622	adiós	adiós adioses adiosito
+23	2623	culto	culto cultos culta cultas
+24	2624	sanitario	sanitaria sanitario sanitarios sanitarias
+25	2625	manifiesto	manifiesto manifiesta manifiestos manifiestas
+26	2626	masculino	masculino masculina masculinos masculinas
+27	2627	cumbre	cumbre cumbres
+28	2628	profesión	profesión profesiones
+29	2629	arquitectura	arquitectura arquitecturas
+30	2630	lágrima	lágrimas lágrima lagrima lagrimita lagrimón lagrimilla
+31	2631	puebla	puebla pu pueblas
+32	2632	agenda	agenda agendas
+33	2633	explotación	explotación explotaciones
+34	2634	forzar	forzar fuerzas forzada forzó forzando forzados forzaron forzadas fuerzan forzarlo forzarlos fuerce forzaba forzarla fuerces forzarte forzará forzaría forcé fuercen fuerzo forzara forzamos forzarlas forzándolo forzaban forzarme forzaran forzarle forzarnos forzarse forzarles forzándolos forzándola forzo forzarán forzas
+35	2635	atribuir	atribuye atribuyen atribuido atribuyó atribuir atribuida atribuidas atribuidos atribuirse atribuyeron atribuía atribuyendo atribuirle atribuían atribuya atribuyo atribuyéndole atribuimos atribuyan atribuyéndose atribuirlo atribuyera atribuirles atribuyes atribuiría atribuirme atribuirá atribuí
+36	2636	lastimar	lastima lastimar lastimado lastime lastimada lastimen lastimó lastiman lastimarte lastimados lastimaron lastimando lastimo lastimes lastimas lastimarme lastimarse lastimadas lastimaría lastimé lastimaba lastimarlo lastimaste lastimarla lastimarnos lastimarlos lastimara lastimamos lastimará lastimaban
+37	2637	derrota	derrota derrotas
+38	2638	copiar	copiar copiado copias copio copiando copian copió copie copiaron copiamos copiados copiada copien copiadas copié copiarlo copiarse copiaba copies copiaste copiaban copiarla copiarle copiarlos copiarlas copiarme copiaré copiara copiarte copiará copiemos copiaran copiarnos
+39	2639	célula	células célula
+40	2640	gris	gris grises
+41	2641	inscripción	inscripción inscripciones
+42	2642	previa	previa
+43	2643	últimamente	últimamente
+44	2644	pastor	pastor pastores pastora pastoras pastorcito pastorcillo
+45	2645	propaganda	propaganda propagandas
+46	2646	cristal	cristal cristales
+47	2647	nariz	nariz narices naricita
+48	2648	mudar	mudarse mudó mudar mudado mudarme mudé mudaron mude mudarte mudan mudamos mudando mudarnos mudándose mudas muden mudara mudaba mudaría mudes mudará mudaste mudaran mudate mudaré mudemos mudada mudaban mudarán mudándome mudare mudase mudados múdate mudándonos
+49	2649	hielo	hielo hielos
+50	2650	concepción	concepción concepciones
+51	2651	huelga	huelga huelgas
+52	2652	donar	donar dona donado donó done donados donas donando donada donan dono donaron donadas donen donará doné donamos donarlo dones donara donaba donaría donarán donarlos donarle donate donarla donés donaremos donaban donaran donaste donemos donarlas
+53	2653	prevenir	prevenir previene prevén prevenido previenen previniendo prevenirlo previno prevenidos prevenirse prevenga prevenirla prevengan prevenirlos prevenida prevenirlas prevengo previnieron prevendrá prevenía prevenimos previne prevenirnos prevenidas previniera prevendría prevenirle
+54	2654	lobo	lobo lobos loba lobito lobas lobita
+55	2655	aldea	aldea aldeas
+56	2656	portada	portada portadas
+57	2657	mancha	mancha manchas manchita manchón manchones
+58	2658	instancia	instancia instancias
+59	2659	álbum	álbum álbumes álbums
+60	2660	especialista	especialista especialistas
+61	2661	vera	vera veras
+62	2662	tránsito	tránsito tránsitos
+63	2663	química	química químicas
+64	2664	galería	galería galerías
+65	2665	arriesgar	arriesgar arriesgado arriesgarse arriesga arriesgada arriesgando arriesgan arriesgo arriesgas arriesgarme arriesgó arriesgarnos arriesgarte arriesgaría arriesgadas arriesgamos arriesgue arriesgados arriesgues arriesgaron arriesguen arriesgaba arriesgué arriesgarlo arriésgate arriesgándose arriesgaban arriesgará arriesgarían arriesgaré arriesgara arriesgándote arriesgándome
+66	2666	bala	balas bala
+67	2667	pecado	pecado pecados
+68	2668	rumor	rumores rumor
+69	2669	orientar	orientado orientada orientar orientadas orientados orienta orientan orientarse orientales orientó orientando orienten orientarte orientaron orientarme orientará orientarnos orientaba orientarán orientamos orientarlo orientándose orientarlos oriento orientara orientaban orientarla orientale orientarlas orientes
+70	2670	paja	paja pajas pajita pajitas
+71	2671	acumular	acumulado acumular acumulada acumula acumulando acumulan acumulados acumuladas acumuló acumularse acumularon acumule acumulaba acumulaban acumulen acumulándose acumulo acumulas acumulamos acumulará acumularán acumulara acumules acumularía acumularan
+72	2672	ocupación	ocupación ocupaciones
+73	2673	tesoro	tesoro tesoros tesorito tesorillo
+74	2674	incremento	incremento incrementos
+75	2675	conforme	conforme conformes
+76	2676	aborto	aborto abortos
+77	2677	grano	grano granos granito granitos granillo
+78	2678	desafío	desafío desafíos
+79	2679	billete	billetes billete
+80	2680	duración	duración duraciones
+81	2681	tarifa	tarifas tarifa
+82	2682	transformación	transformación transformaciones trasformación
+83	2683	honesto	honesto honesta honestos honestas
+84	2684	ramón	ramón ramones
+85	2685	estrecho	estrecho estrecha estrechos estrechas
+86	2686	paralelo	paralelo paralela paralelos paralelas
+87	2687	rendimiento	rendimiento rendimientos
+88	2688	autorización	autorización autorizaciones
+89	2689	marcado	marcado marcada marcados marcadas
+90	2690	salvaje	salvaje salvajes
+91	2691	periodismo	periodismo
+92	2692	so	so
+93	2693	treinta	treinta
+94	2694	flujo	flujo flujos
+95	2695	semilla	semillas semilla semillita
+96	2696	cobertura	cobertura coberturas
+97	2697	verga	verga vergas berga vergazos vergazo
+98	2698	ola	ola olas
+99	2699	comprometer	compromete comprometió comprometer comprometerse comprometen comprometieron comprometidos comprometa comprometiéndose comprometo comprometan comprometía comprometemos comprometiendo comprometernos comprometían comprometidas comprometerme comprometimos comprometí comprometiera comprometerá comprometerte comprometería comprometes comprometas comprometieran comprometamos comprometerán comprométete comprometerlo comprometerla comprometiste
+100	2700	territorial	territorial territoriales

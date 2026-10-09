@@ -1,0 +1,100 @@
+1	601	modelo	modelo modelos modelito
+2	602	levantar	levantar levanta levante levantó levantado levantarse levanto levantan levantando levantaron levanté levantarme levantada levantarte levanten levantaba levántate levantas levantamos levantará levantes levantados levantara levantadas levantarnos levantate levantándose levantaría levantaban levantarán levantarlo levantemos levantarla levantaste levantaran levantarle levántense levantaré levantaremos levantase
+3	603	votar	votar vota vote votaron votado votando votó voten votan votamos voté votada votes votará votarán votaría votemos votaré votados votas votaran votaste votaremos votara votaban votaba votarían votadas votarse votad votarlo votarías votá votase votarle votasen votare votarla votarás votarlas
+4	604	asunto	asunto asuntos asuntillo
+5	605	banco	banco bancos
+6	606	carta	carta cartas cartilla cartillas cartita
+7	607	error	error errores
+8	608	construir	construir construido construyendo construye construida construyó construyen construyeron construidos construidas construimos construirse construirá construya construyan construyo construirán construían construirlo construyamos construiremos construía construirla construyera construiría construí construyeran construyes construyéndose construirlas construirían construirlos construyas construirle construiste construyese construiré construirnos construirte construíamos
+9	609	economía	economía economías
+10	610	vale	vale val vales
+11	611	seis	seis seises
+12	612	dónde	dónde
+13	613	noviembre	noviembre
+14	614	simplemente	simplemente
+15	615	mío	mío mía mio míos mías
+16	616	nación	nación naciones
+17	617	completo	completo completa completos completas completísimo
+18	618	muerto	muerto muertos muerta muertas muertito
+19	619	oficina	oficina oficinas ofi
+20	620	defender	defender defiende defendiendo defienden defenderse defendió defendido defendía defiendo defienda defendemos defendieron defendían defiendan defendida defendernos defenderlo defenderla defiendes defenderme defenderte defenderá defendí defenderlos defenderé defendamos defendidos defenderemos defendiera defiendas defendería defenderán defendidas defendiéndose defenderlas defendieran defendiste defendimos defenderle defendes
+21	621	dólar	dólares dólar dolares dolar dola dueles duelas
+22	622	comunicación	comunicación comunicaciones
+23	623	europeo	europea europeo europeos europeas
+24	624	cabo	cabo cabos
+25	625	tirar	tirar tira tirado tirando tiras tiró tirada tiran tire tiraron tiren tiré tiraba tirados tirarse tiramos tires tirarme tiranos tiraste tiradas tirarle tirarte tirarlo tiraban tirarla tiraría tíralo tirándose tirarlos tirara tirándole tirame tirarnos tiremos tirate tirarles tirarlas tirará tírate
+26	626	término	término términos
+27	627	fiesta	fiesta fiestas festa fiestita fiestón fiestecita
+28	628	aun	aun ahun
+29	629	agosto	agosto
+30	630	enero	enero
+31	631	compañero	compañeros compañero compañera compañeras compañerito
+32	632	cubrir	cubrir cubierta cubierto cubre cubiertas cubiertos cubren cubriendo cubrió cubría cubra cubran cubrirse cubrían cubrieron cubrirá cubrimos cubrirán cubrirlo cubriera cubro cubriría cubrirla cubrí cubres cubriéndose cubrirlos cubrirlas cubrirte cubrieran cubrirme cubriremos cubrirían cubras cubrirle cubriéndolo cubriese cúbrete cubrirnos cubriéndolos
+33	633	alrededor	alrededor alrededores
+34	634	mencionar	mencionar mencionado menciona mencionó mencionados mencionada mencionan mencionadas mencioné menciones mencionaron menciono mencionando mencionaba mencione mencionas mencionaste mencionamos mencionarlo mencionarse mencionen mencionaban mencionara mencionaré mencionaremos mencionarlos mencionarla mencionaría mencionemos mencionarte mencionará mencionarlas mencionarán mencionarme mencionaran mencionarle mencionábamos mencionabas mencionare mencionarles
+35	635	aumentar	aumentar aumenta aumentó aumentando aumentado aumentan aumentaron aumente aumentada aumentará aumenten aumentaba aumentaría aumentarán aumentara aumentamos aumentaban aumentaran aumentarían aumentados aumentarse aumentadas aumentarlo aumentas aumentarla aumentemos aumentarle aumentaremos aumentase aumenté aumentes aumentarlos aumentándose aumentarles aumentaste aumentarlas
+36	636	generar	generar genera generan generado generó generando generales genero generada genere generados generaron generadas generen generará generaba generaría generamos generaban generas generarse generarán generara generarían generándose generale generaran generarle generes generarlo generemos generás generarla generarte generaste generase generé generaremos generala
+37	637	destacar	destaca destacar destacado destacó destacados destacan destacada destacadas destacando destacaron destacaba destacarse destacamos destaco destacaban destacándose destaque destacaría destaquen destacaremos destacará destacas destacarán destacara destacarlo destacaré destacaran destaqué destaquemos destaques destacadísimo destacarte destacarían
+38	638	título	título títulos
+39	639	acto	acto actos
+40	640	chica	chica chicas
+41	641	cámara	cámara cámaras camarita
+42	642	febrero	febrero
+43	643	arma	armas arma armilla
+44	644	desear	desea desean deseas desear deseando deseado deseamos deseaba desee deseen desearía deseada deseados desees deseaban deseó deseadas desearle desearte deseara desearían deseé desearles desearías desearon desearlo desearás desearíamos deseabas deseáis deseándole deseemos deseábamos desearan deséenme desearme deseará deseaste desearán desearos
+45	645	francés	francés francesa franceses francesas frances
+46	646	profesional	profesional profesionales
+47	647	auto	auto autos autito
+48	648	superior	superior superiores superiora superioras
+49	649	corte	corte cortes
+50	650	pronto	pronto pronta prontos prontito prontas
+51	651	supuesto	supuesto supuesta supuestos supuestas supuestísimo
+52	652	señalar	señala señaló señalar señalado señalan señalando señales señalaron señalaba señalados señalada señaladas señale señalo señalaban señalé señalamos señalen señalarse señalarlo señalará señalara señalas señalarán señalarlos señalaría señalarme señalarle señalándose señalarte señalaran señalarnos señalaste señalándome señalaré señalaremos señalemos señalándole señalarles señalándolo
+53	653	iniciar	inició iniciar inicia iniciado iniciaron iniciada iniciales inician iniciando iniciarse iniciados inicie iniciamos iniciará iniciadas iniciaba inicien inicié iniciara iniciarán iniciaría iniciándose inicias iniciaban iniciaremos iniciaran iniciemos iniciaste inicies iniciarlo iniciarían iniciarla iniciarte iniciase iniciarme iniciaré iniciarle iniciasen
+54	654	éxito	éxito éxitos
+55	655	contenido	contenido contenidos contenida contenidas
+56	656	dirigir	dirige dirigir dirigió dirigida dirigen dirigirse dirigía dirigiendo dirigidos dirigidas dirigieron dirigiéndose dirigimos dirigían dirija dirijo dirigirá dirigí dirijan dirigirme dirigirnos dirigiera diríjase dirigirla diriges dirigirán dirigirte dirigiría dirigirlo dirígete dirigíamos dirigiremos dirijas dirigieran dirigirlos dirigirle dirigiéndome dirigiéndonos dirigiese dirigirían
+57	657	ciencia	ciencia ciencias cta
+58	658	lleno	lleno llena llenos llenas llenito llenita llenísimo
+59	659	fútbol	fútbol futbol fúbol
+60	660	mar	mar mares
+61	661	u	u
+62	662	ejército	ejército ejércitos exército
+63	663	lucha	lucha luchas luchita
+64	664	premio	premio premios
+65	665	unidad	unidad unidades
+66	666	departamento	departamento departamentos dpto depa
+67	667	crecer	crecer crece creciendo creció crecido crecen crezca crecieron crecí creces crezcan crecía crecerá crecida crecimos crecidas crecemos crecerán crecían creciste creciera crezcas crecería crecidos crecieran crecerían crezcamos crezco creceremos creciese creced crecerás crecidito creceré
+68	668	duro	duro dura duros duras durísimo durito duritos durillo durita
+69	669	calidad	calidad calidades
+70	670	muestra	muestra muestras
+71	671	puta	puta putas putita putilla putón putona
+72	672	cuál	cuál cuáles
+73	673	período	período periodo períodos periodos
+74	674	interior	interior interiores
+75	675	presente	presente presentes
+76	676	bajar	bajar bajó bajando baje bajado bajan bajada bajen bajaron bajamos bajé bajaba bajas bajarse bajes bajará bajara bajarme bajadas bajaban bajarle bajarlo bajarte bajaría bajarán bajá bajate bajaste bajarla bajemos bájate bajaran bajados bájale bajarlos bajarnos bajaré bajale bajaremos bajarían
+77	677	posición	posición posiciones
+78	678	autoridad	autoridades autoridad
+79	679	suficiente	suficiente suficientes
+80	680	perfecto	perfecto perfecta perfectos perfectas perfectísimo
+81	681	diverso	diversos diversas diversa diverso
+82	682	isla	isla islas ínsula islita
+83	683	cantar	cantar canto canta cantando cantan cante cantos cantaba cantó cantado cantaban cantaron cantada cantas cantamos canten cantes cantares cantara cantará cantaría cantarle cantemos cantadas cantarla canté cantados cantarán cantaré cantábamos cantaste cantarlo cantaremos cantaran cantad cantándole cantarte cantabas cantarles cantase
+84	684	capaz	capaz capaces
+85	685	imaginar	imagino imaginar imagina imaginas imagínate imaginado imaginaba imaginé imagine imaginan imaginando imaginarme imaginate imaginen imaginarse imaginamos imagínense imaginó imaginemos imagínese imaginarlo imaginarte imagines imagináis imaginaron imaginaste imaginad imaginarnos imaginaban imaginada imaginaos imaginaros imaginaría imaginábamos imaginás imaginarla imaginabas imaginarán imaginadas imaginarás
+86	686	cuarto	cuarto cuarta cuartos cuartas cuartito quarto
+87	687	material	material materiales
+88	688	probar	probar pruebas probado probando probarlo probó probé pruebe prueban probada probamos probados prueben probaron probarla pruebo probarse probaste pruebes probadas probaré probará probaría probarlos probarlas pruébalo probaba probara probarme probemos pruébala probare probarle probarte probarán probaremos probad probaban probá probaran
+89	689	función	función funciones
+90	690	cultural	cultural culturales
+91	691	estilo	estilo estilos
+92	692	entrada	entrada entradas
+93	693	puerto	puerto puertos pto
+94	694	sol	sol soles solcito
+95	695	texto	texto textos
+96	696	histórico	histórico histórica históricos históricas
+97	697	maestro	maestro maestros maestra maestras
+98	698	metro	metros metro
+99	699	posibilidad	posibilidad posibilidades
+100	700	par	par pares

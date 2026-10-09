@@ -1,0 +1,100 @@
+1	1901	advertir	advierte advirtió advertir advierten advirtiendo advierto advirtieron advertía advertí advertimos advertirle advertidos advertirles advertían advierta advirtiera advirtiéndole advertida advertirlo adviertan advertirse advirtiéndoles advertirá advertirte advertirnos adviertes advertirme advertiría advirtieran advertirán advertiros adviertas advertiré advertirlos advertirla adviértase advertidas
+2	1902	definitivamente	definitivamente
+3	1903	regalar	regalar regaló regalado regala regalan regalaron regalando regalarle regale regalen regalé regalamos regalada regalaba regalas regalados regalaban regalaste regalarte regalarme regaladas regalarnos regalarles regalarlo regales regalaría regalara regalará regalaré regalarse regalaran regalándole regalarla regalale regalarlos regalarán regálame regalemos regalaremos regalarlas
+4	1904	carro	carro carros carrito carritos
+5	1905	compuesto	compuesto compuesta compuestos compuestas
+6	1906	proceder	procede proceder proceden procedió proceda procederá procedía procedieron procedan procedían procedido procediendo procedo procedemos procederemos procedería procediera procederán procedí procederé procederse procedamos procediéndose procedieran procedes procedimos procederes procederían procediese
+7	1907	dominar	dominar domina dominado dominó dominan dominada dominando domino dominaba dominados dominadas domine dominaron dominaban dominas dominen dominará dominarlo dominamos dominarán dominarla dominara dominarlos domines dominaría dominaran dominós dominaremos dominarme dominarnos dominarse dominarían dominarlas dominarte dominemos dominé
+8	1908	ánimo	ánimo ánimos
+9	1909	inicial	inicial iniciales
+10	1910	criterio	criterio criterios
+11	1911	acudir	acudir acudió acude acudieron acuden acudido acuda acudiendo acudan acudían acudía acudirá acudimos acudí acudirán acudo acudiera acudieran acudiría acudes acudas acudirían acudamos acudid acudiremos acudiré acudiese acudiesen acudirse acudiste acudís
+12	1912	fenómeno	fenómeno fenómenos
+13	1913	circular	circular circula circulan circulo circulando circulares circulaba circulaban circuló circule circularon circulen circulado circulará circularán circulara circularan circulada circulados circulas
+14	1914	cristo	cristo christo cristos
+15	1915	valorar	valorar valores valora valorado valoran valoro valorada valorados valoramos valoradas valore valorando valoró valoras valoren valorarse valoraba valorarlo valoraron valorará valoremos valoraban valorarla valorarán valorara valorarlas valoraría valorarte valorarlos valoré valoraran valoraremos valorarme valorarnos
+16	1916	inventar	inventar inventado inventó inventa inventaron inventando inventan inventada inventados inventamos inventadas invente inventarse inventé inventen inventas inventes inventaba inventaste inventarme inventarte inventaría inventara inventarlo inventándose inventarán inventaran inventaban inventarnos inventemos inventarle inventará inventaré inventarla invéntate inventarlas inventate inventaremos
+17	1917	descansar	descansar descansa descanse descansando descansen descansan descansado descanses descansaba descansamos descansó descansas descansará descansaban descansaremos descansada descansara descansaré descansaron descansarán descansad descansados descansé descansemos descansaría descansaran descansaste
+18	1918	parlamento	parlamento parlamentos
+19	1919	firme	firme firmes
+20	1920	palo	palo palos palito palitos palillos palillo
+21	1921	solicitud	solicitud solicitudes soli
+22	1922	significado	significado significados significada
+23	1923	ingresar	ingresar ingresa ingresó ingresado ingresaron ingresan ingrese ingresando ingresen ingresados ingresada ingresé ingresará ingresaba ingresamos ingresaban ingresas ingresara ingresadas ingresarán ingresaran ingreses ingresarlo ingresaría ingresá ingresaste ingresarían ingresarla ingresarlos
+24	1924	provincial	provincial provinciales
+25	1925	disminuir	disminuir disminuye disminuido disminuyendo disminuyó disminuyen disminuya disminuyeron disminuida disminuirá disminuía disminuyan disminuiría disminuidos disminuirán disminuidas disminuyera disminuirían disminuyo disminuían disminuirlo disminuirla disminuirse disminuimos disminuyeran disminuyes
+26	1926	aéreo	aérea aéreo aéreas aéreos
+27	1927	editor	editor editores editora editoras
+28	1928	equivocar	equivoco equivoca equivocas equivoque equivoqué equivocó equivocan equivocarse equivocarme equivocamos equivocaron equivocaste equivocar equivoques equivocaba equivocando equivocarnos equivoquen equivocarte equivocada equivocados equivocaban equivoquemos equivocadas equivocándose equivocara equivocaría equivocáis equivocará equivocarás equivoquéis equivocás
+29	1929	nacimiento	nacimiento nacimientos
+30	1930	cerveza	cerveza cervezas cervecita
+31	1931	casado	casado casada casados casadas
+32	1932	prohibir	prohibir prohíbe prohibió prohibida prohibieron prohíben prohibiendo prohibía prohibidos prohibidas prohíba prohíban prohibían prohibirse prohibirlo prohibirá prohibiera prohibirle prohibiría prohibimos prohibirles prohíbo prohibamos prohibieran prohibirla prohibirlos prohibirlas prohibiéndole prohibiéndoles prohibirán prohibirme prohibí prohibiéndose prohibirte prohibiese prohibirían
+33	1933	satisfacer	satisfacer satisfecho satisfechos satisfecha satisface satisfacen satisfechas satisfaga satisfagan satisfaciendo satisfizo satisfacía satisfacerse satisfará satisfacerla satisfaría satisfacían satisfacerlas satisfacerte satisfacerlo satisfacerlos satisfacerme satisfago satisficiera satisfarán satisfacerle satisfice satisfacemos satisfaces
+34	1934	ritmo	ritmo ritmos
+35	1935	letra	letra
+36	1936	oeste	oeste
+37	1937	fábrica	fábrica fábricas
+38	1938	vosotros	vosotros vosotras
+39	1939	pasión	pasión pasiones
+40	1940	estadio	estadio estadios
+41	1941	evolución	evolución evoluciones
+42	1942	conde	conde condesa condes condesas condesita
+43	1943	impresión	impresión impresiones
+44	1944	potencial	potencial potenciales
+45	1945	espectáculo	espectáculo espectáculos
+46	1946	gratuito	gratuita gratuito gratuitos gratuitas
+47	1947	columna	columna columnas
+48	1948	asociado	asociado asociados asociada asociadas
+49	1949	excepción	excepción excepciones
+50	1950	reemplazar	reemplazar reemplazo reemplazado reemplaza reemplazando reemplazó reemplazados reemplazada reemplazarlo reemplazan reemplace reemplazaron reemplazará remplazar reemplazos reemplazadas reemplazarla reemplazarlos reemplacen reemplazaría reemplazarán reemplazara reemplazarlas reemplazamos reemplazaba reemplazarse reemplazarte reemplazas reemplazándolo reemplazarle reemplazarme reemplazarían reemplazándola reemplazaban reemplazaran reemplacé reemplaces reemplazándolos
+51	1951	poesía	poesía poesías
+52	1952	enseñanza	enseñanza enseñanzas
+53	1953	castro	castro castros
+54	1954	triunfo	triunfo triunfos
+55	1955	ensayo	ensayo ensayos
+56	1956	tráfico	tráfico tráficos
+57	1957	sueldo	sueldo sueldos sueldito
+58	1958	negativo	negativo negativos negativas
+59	1959	promoción	promoción promociones
+60	1960	múltiple	múltiples múltiple
+61	1961	cariño	cariño cariños cariñito
+62	1962	fomentar	fomentar fomento fomenta fomentando fomentan fomentado fomente fomenten fomentó fomentará fomentamos fomentaba fomentaron fomentada fomentaban fomentaría fomentarán fomentados fomentarla fomentarlo fomentarse fomentadas fomentara fomentemos fomentas fomentaran
+63	1963	romano	romano romanos romana romanas
+64	1964	córdoba	córdoba córdobas
+65	1965	coronel	coronel coroneles coronela
+66	1966	consumir	consumir consume consumen consumido consumiendo consuma consumida consumimos consumió consumía consumidos consumidas consuman consumían consumes consumieron consumirse consumirla consumirlo consumas consumirá consumirlos consumiría consumí consumiera consumirán consumirlas consumiste consumamos consumiéndose consumieran consumís consumirme
+67	1967	rueda	rueda ruedas rueditas ruedita
+68	1968	alejar	alejarse alejar aleja alejó alejarme alejan aleje alejando alejarte aléjate alejados alejándose alejada alejes alejate alejarnos alejaba alejen alejaron alejadas alejé alejamos alejara alejas alejarlo alejará alejaría alejaban alejarlos alejaste alejarla aléjense alejaran alejándome alejemos alejándonos aléjese alejarlas alejaré alejarle
+69	1969	absolutamente	absolutamente
+70	1970	anteriormente	anteriormente
+71	1971	ingreso	ingreso
+72	1972	panamá	panamá
+73	1973	prácticamente	prácticamente
+74	1974	sub	sub
+75	1975	filosofía	filosofía filosofías
+76	1976	autónomo	autónoma autónomo autónomas autónomos
+77	1977	equivocado	equivocado equivocada equivocados equivocadas
+78	1978	zapato	zapatos zapato zapatito
+79	1979	cartel	cartel carteles cártel cartelito
+80	1980	patrón	patrón patrones patrona patronas
+81	1981	imperio	imperio imperios
+82	1982	pendiente	pendiente pendientes
+83	1983	definitivo	definitiva definitivo definitivas definitivos
+84	1984	cable	cable cables
+85	1985	adentro	adentro adentros
+86	1986	alimentar	alimentar alimenta alimentan alimentado alimentarse alimentando alimentados alimentada alimentaba alimentó alimentadas alimentándose alimente alimentaban alimentaron alimentamos alimentarlos alimenten alimentarnos alimentas alimentarlo alimentarme alimentarte alimentará alimentarla alimentes alimentaría alimentarán alimentara alimentarlas alimentaran aliméntate alimentándolos alimentemos alimentarle alimenté alimentándolo alimentándome
+87	1987	broma	broma bromas bromita
+88	1988	colaborar	colaborar colabora colaboró colaborado colaborando colaboran colaboraron colaboren colabore colaboramos colaboro colaboraba colaborará colaborarán colaboraban colaboré colaboras colaboremos colaborara colaboraran colaboraría colabores colaborasen colaborarían
+89	1989	culpable	culpable culpables
+90	1990	fallar	fallado fallar falló fallan fallando fallaron fallas falle fallamos fallen fallaste fallé fallaba falles fallará fallara fallada fallarle fallaban fallarás fallaría fallados fallaran fallarán fallaremos falladas fallaré fallarme fallase fallare fallemos fallarte fallaras fallarían fallarles
+91	1991	consultar	consultar consultado consulte consultas consultados consultada consultó consultando consultadas consultarse consultarlo consultan consulten consulté consulto consultaron consultarle consultamos consultá consultes consultaba consultarme consultarnos consultará consultaría consultarlos consultarte consultarles consultarla consultaban consultara consultarán consultanos consúltalo consúltenos consultemos consúltanos consultame consultaré consultarlas
+92	1992	bienvenido	bienvenido bienvenidos bienvenidas
+93	1993	pelota	pelota pelotas pelotita pelotilla
+94	1994	renta	renta rentas
+95	1995	decidido	decidido decidida decididos decididas
+96	1996	paraguay	paraguay paraguayo paraguaya paraguayos paraguayas
+97	1997	previo	previo previos previas
+98	1998	interpretación	interpretación interpretaciones
+99	1999	citar	citar citando citan cito citó citada citas citados citadas cité cite citaba citaron cites citarse citamos citen citarlo citará citaban citaré citaremos citarlos citaste citarán citarme citara citarla citarte citemos citarle citaría citase citándolo citándose citaran
+100	2000	tender	tienden tiende tender tiendo tiendas tendemos tendió tendiendo tendía tendieron tendían tendida tiendan tenderá tenderos tiendes tendidos tenderán tenderle tendí tendería tendidas tende tenderse tendiéndole tenderles tenderme tendamos tendiera tenden tenderían

@@ -1,0 +1,100 @@
+1	5701	puñado	puñado puñados puñadito
+2	5702	mercenario	mercenarios mercenario mercenaria mercenarias
+3	5703	insinuar	insinuando insinúa insinuar insinuó insinuado insinuaba insinúan insinúas insinuaron insinuaban insinua insinúe insinué insinuas insinúo insinuarse insinuara insinuo insinuada
+4	5704	cajero	cajero cajeros cajera cajeras
+5	5705	arquero	arquero arqueros arquera
+6	5706	neón	neo neón neas neones
+7	5707	topar	topado topa topé topó topamos topar toparse toparon topan topas toparme toparte topaba toparnos topando topará topes toparemos topen topara topemos
+8	5708	duplicar	duplicar duplica duplicó duplican duplicados duplicando duplicaron duplicará duplicarse duplique duplicada duplicadas duplicaba duplico duplicamos dupliquen duplicaría duplicarán duplicara duplicate duplicarlo duplicaban duplicas
+9	5709	interferir	interferir interfiere interfieren interfiera interfiriendo interferido interfieran interfirió interfiriera interfería interfirieron interferirá interfieras interferida interferiría interfirieran interferían
+10	5710	acierto	acierto aciertos
+11	5711	vigilante	vigilante vigilantes
+12	5712	enmarcar	enmarca enmarcado enmarcada enmarcar enmarcan enmarcados enmarcadas enmarcó enmarcando enmarcarse enmarcarlo enmarcaba enmarcaron enmarque enmarcarla enmarcaban
+13	5713	condicionar	condiciones condiciona condicionar condicionan condicionada condicionó condicionando condicionados condicione condicionadas condicionaron condicionen condicionará condicionaba condicionales
+14	5714	devolución	devolución devoluciones
+15	5715	elemental	elemental elementales
+16	5716	intensivo	intensiva intensivo intensivos intensivas
+17	5717	persa	persa persas
+18	5718	interponer	interpuso interponer interpone interponga interponerse interpuesta interponen interpusieron interpongan interpondrá interpusiera interpuestas interponía interponiendo interpuestos interponiéndose interpondrán interponían
+19	5719	abstener	abstenerse abstuvo abstenido abstuvieron abstiene abstienen abstendrá abstengo absteniéndose abstuviera abstenerme abstendrán abstenernos abstener abstuvieran absténgase abstuve abstente abstendría absténganse abstendré abstenerte abstuviese abstenemos
+20	5720	asimilar	asimilar asimilado asimila asimilados asimilando asimilada asimilarlo asimilan asimilarse asimiló asimiladas asimile asimilaron asimilamos asimilaba asimilo asimilarla asimilen asimilarlos asimilándolo
+21	5721	inseguro	inseguro insegura inseguros inseguras
+22	5722	mantequilla	mantequilla mantequillas
+23	5723	emprendimiento	emprendimiento emprendimientos
+24	5724	minimizar	minimizar minimiza minimizando minimizan minimizado minimizó minimice minimizada minimicen minimizados minimizarlo minimizaron minimizarse minimizará
+25	5725	repleto	repleto repleta repletos repletas
+26	5726	legalizar	legalizar legalizado legalizada legaliza legalizó legalicen legalizados legalice legalizadas legalizando legalizarse legalizan legalizaron legalizara legalizarlo legalizaría legalizarla
+27	5727	rígido	rígido rígida rígidos rígidas
+28	5728	tarta	tarta tartas
+29	5729	intervalo	intervalo intervalos
+30	5730	interactivo	interactivo interactiva interactivos interactivas
+31	5731	nominación	nominación nominaciones
+32	5732	timbre	timbre timbres
+33	5733	mítico	mítico mítica míticos míticas
+34	5734	decano	decano decana decanos
+35	5735	leña	leña leñas
+36	5736	genocidio	genocidio genocidios
+37	5737	tardío	tardía tardío tardías tardíos
+38	5738	indiferente	indiferente indiferentes
+39	5739	pito	pito pitos pitito
+40	5740	litoral	litoral litorales
+41	5741	elogiar	elogió elogiado elogia elogiar elogiaron elogiando elogiada elogian elogiaba elogiados elogiadas elogiaban elogie elogiarlo
+42	5742	riguroso	riguroso rigurosa rigurosos rigurosas
+43	5743	cicatriz	cicatrices cicatriz
+44	5744	paradigma	paradigma paradigmas
+45	5745	colono	colonos colono colona
+46	5746	humar	human humala hume humanos
+47	5747	óseo	ósea óseo óseos óseas
+48	5748	flamenco	flamenco flamencos flamenca flamencas
+49	5749	inmunidad	inmunidad inmunidades
+50	5750	podcast	podcast podcasts
+51	5751	acumulación	acumulación acumulaciones
+52	5752	místico	mística místico místicos místicas
+53	5753	tito	tito tita titas titos
+54	5754	danés	danés danesa daneses danesas
+55	5755	amnistía	amnistía amnistías
+56	5756	pelar	pelar pelé pelando pelan pele pelada pelados pelas peladas peló pelaron peles pelaba pelaos pelamos pelarse pelen pelaste pelá pelarla pelaban pelarlo
+57	5757	piola	piola piolas
+58	5758	gorra	gorra gorras gorrilla
+59	5759	independentista	independentista independentistas independista
+60	5760	adoro	adoro
+61	5761	autoestima	autoestima
+62	5762	comúnmente	comúnmente
+63	5763	gradualmente	gradualmente
+64	5764	infantería	infantería
+65	5765	light	light
+66	5766	mortalidad	mortalidad
+67	5767	significativamente	significativamente
+68	5768	sociología	sociología
+69	5769	eventual	eventual eventuales
+70	5770	enganchar	engancha enganchar enganchó engancho enganchan engancharse enganché enganchada engancharme enganchando enganchas enganchados engancharte enganchen enganches engancharon enganchaba enganchaste enganchamos enganchadas engancharlo engancharnos enganchaban
+71	5771	disolución	disolución disoluciones
+72	5772	mensajero	mensajero mensajeros mensajera mensajeras
+73	5773	ninja	ninja ninjas
+74	5774	brote	brote brotes
+75	5775	ilimitado	ilimitado ilimitada ilimitados ilimitadas
+76	5776	artefacto	artefactos artefacto
+77	5777	ordenanza	ordenanza ordenanzas
+78	5778	desencadenar	desencadenó desencadenar desencadena desencadenado desencadenan desencadenaron desencadenando desencadenada desencadenará desencadenaría desencadenados desencadene desencadenadas desencadenarse desencadenara
+79	5779	derrumbar	derrumbó derrumba derrumbar derrumbado derrumbarse derrumbaron derrumban derrumbando derrumbada derrumbes derrumbara derrumbándose derrumbaba derrumbo derrumbados derrumbadas derrumbaría derrumben derrumbará derrumbarme derrumbarán derrumbaban derrumbarlo derrumbé
+80	5780	sustituto	sustituto sustitutos sustituta substituto sustitutas
+81	5781	certamen	certamen certámenes
+82	5782	cosechar	cosechar cosechando cosechado cosechas cosechó cosechan cosechados cosechadas cosechada cosecharon cosechaban cosechaba cosechamos coseche cosecharás cosechará cosecho cosecharán cosechen
+83	5783	inmobiliaria	inmobiliaria inmobiliarias
+84	5784	respetable	respetable respetables
+85	5785	bombardear	bombardear bombardeado bombardearon bombardeando bombardeada bombardean bombardeó bombardea bombardeados bombardeadas bombardeen bombardeaban bombardeaba bombardee bombardearlo bombardearán
+86	5786	pronunciado	pronunciado pronunciada pronunciadas pronunciados
+87	5787	enumerar	enumera enumerar enumeran enumerados enumeradas enumeró enumerando enumerado enumeraba enumeramos enumero enumere enumerada enumeraron enumeraremos enumerarlos enumerarlas
+88	5788	reafirmar	reafirma reafirmar reafirmó reafirmando reafirman reafirmo reafirmado reafirmamos reafirmaron reafirmarse reafirmaba reafirme reafirmada reafirmen
+89	5789	ateo	ateos ateo atea ateas
+90	5790	fosa	fosa fosas
+91	5791	abastecimiento	abastecimiento abastecimientos
+92	5792	sirena	sirena sirenas sirenita
+93	5793	acuñar	acuña acuñado acuñó acuñar acuñada acuñadas acuñaron acuñando acuñados acuñan
+94	5794	clérigo	clérigo clérigos
+95	5795	delicia	delicia delicias
+96	5796	lotería	lotería loterías
+97	5797	pálido	pálido pálida pálidos pálidas
+98	5798	crack	crack cracks
+99	5799	halar	alá hala hale halen hales halar halando halan halas haló
+100	5800	órbita	órbita órbitas

@@ -1,0 +1,100 @@
+1	9901	forjado	forjado forjada forjados forjadas
+2	9902	comunicativo	comunicativa comunicativo comunicativas comunicativos
+3	9903	retorcer	retuerce retorcer retorcida retorciéndose retuercen retorciendo retorcerse retorcía retorcidos retorcidas retorció retorcerle retuerza retuerzo
+4	9904	adepto	adeptos adepto adepta
+5	9905	difamar	difamar difamando difama difaman difamado difamen difame difamada difamaron difamó difamarlo difamados
+6	9906	alférez	alférez alféreces
+7	9907	futbolístico	futbolístico futbolística futbolísticas futbolísticos
+8	9908	subsidiar	subsidiar subsidiado subsidiados subsidiada subsidia subsidiando subsidiadas subsidian
+9	9909	filar	file files filé filas
+10	9910	coloquio	coloquio coloquios
+11	9911	donativo	donativos donativo
+12	9912	contratiempo	contratiempos contratiempo
+13	9913	tipografía	tipografía tipografías
+14	9914	graso	grasos graso grasas
+15	9915	especulativo	especulativo especulativa especulativos especulativas
+16	9916	funeraria	funeraria funerarias
+17	9917	nata	nata natas
+18	9918	cochino	cochino cochinos cochina cochinito cochinas
+19	9919	controversial	controversial controversiales
+20	9920	soberbio	soberbio soberbios soberbias
+21	9921	labial	labial labiales
+22	9922	postulación	postulación postulaciones
+23	9923	bambú	bambú bambúes
+24	9924	ciudadela	ciudadela ciudadelas
+25	9925	denunciante	denunciante denunciantes
+26	9926	incrustar	incrustado incrustados incrustada incrustadas incrustar incrustó incrusta incrustan incrustaron incrustarse
+27	9927	rolling	rolling rollings
+28	9928	cáliz	cáliz cálices
+29	9929	sustrato	sustrato sustratos substrato
+30	9930	testículo	testículos testículo
+31	9931	extinto	extinto extinta extintos extintas
+32	9932	cóndor	cóndor cóndores
+33	9933	deshonesto	deshonesto deshonestos deshonesta deshonestas
+34	9934	pretemporada	pretemporada pretemporadas
+35	9935	israelita	israelitas israelita
+36	9936	travesura	travesuras travesura
+37	9937	conciso	concisa conciso concisas concisos
+38	9938	vario	varia vario varias
+39	9939	macabro	macabro macabra macabros macabras
+40	9940	retrógrado	retrógrado retrógrada retrógrados retrógradas
+41	9941	remolque	remolque remolques
+42	9942	camping	camping campings campin cámping
+43	9943	aleación	aleación aleaciones
+44	9944	hez	heces hez
+45	9945	colonizador	colonizadores colonizador colonizadora colonizadoras
+46	9946	cartelera	cartelera carteleras
+47	9947	forrar	forra forrar forrada forras forrados forran forrando forrarse forró forradas forre forres forrándose
+48	9948	bollo	bollo bollos bollito
+49	9949	indocumentado	indocumentados indocumentado indocumentada indocumentadas
+50	9950	sexista	sexista sexistas
+51	9951	victoriano	victoriano victoriana victorianos victorianas
+52	9952	condensar	condensada condensa condensado condensar condensados condensan condensarse condensadas condensó condensando condense
+53	9953	secundar	secundado secundo secunda secundar secundada secundó secundaría secundando secundan secundados secundaron secunde
+54	9954	temerario	temerario temeraria temerarios temerarias
+55	9955	reposición	reposición reposiciones
+56	9956	bajista	bajista bajistas
+57	9957	cartografía	cartografía cartografías
+58	9958	alucinar	alucinando alucinar alucino alucina alucinada alucine alucinados alucinaba alucinan aluciné alucinó alucinas alucines
+59	9959	exministro	exministro exministra exministros
+60	9960	varado	varados varado varada varadas
+61	9961	débito	débito débitos
+62	9962	desmadre	desmadre desmadres
+63	9963	entonar	entonar entonando entona entones entonado entonan entonó entonaron entonaban entonaba entonada entono entonados entone
+64	9964	bula	bula bulas
+65	9965	pedestal	pedestal pedestales
+66	9966	infalible	infalible infalibles
+67	9967	prócer	próceres prócer
+68	9968	engranaje	engranajes engranaje
+69	9969	desestabilizar	desestabilizar desestabiliza desestabilizando desestabilizado desestabilizan desestabilizó desestabilice
+70	9970	excitación	excitación excitaciones
+71	9971	currar	currar currando currado curran curre curren currada curra curramos curras
+72	9972	cautelar	cautelar cautelares cautelas
+73	9973	fracturar	fracturado fracturó fracturada fracturar fracturadas fracturados fracture fracturas fracturaron fracturarse fracturan fracturando fracturé
+74	9974	utópico	utópico utópica utópicos utópicas
+75	9975	exprimir	exprimir exprimido exprime exprimiendo exprimen exprimida exprimidos exprimió exprimirlo exprima exprimirle exprimo
+76	9976	litar	lite lito lita litas lites
+77	9977	manjar	manjar manjares
+78	9978	istmo	istmo itsmo
+79	9979	superintendente	superintendente superintendentes
+80	9980	andén	andén andenes
+81	9981	espécimen	especímenes espécimen especimen
+82	9982	cabal	cabal cabales
+83	9983	antelación	antelación
+84	9984	arana	arana
+85	9985	brevedad	brevedad
+86	9986	bridge	bridge
+87	9987	convenientemente	convenientemente
+88	9988	democratización	democratización
+89	9989	derogación	derogación
+90	9990	fénix	fénix
+91	9991	gamma	gamma
+92	9992	herzegovino	herzegovina
+93	9993	inmortalidad	inmortalidad
+94	9994	litio	litio
+95	9995	neoliberalismo	neoliberalismo
+96	9996	notoriedad	notoriedad
+97	9997	rascacielos	rascacielos
+98	9998	retaguardia	retaguardia
+99	9999	touch	touch
+100	10000	galón	galones galón

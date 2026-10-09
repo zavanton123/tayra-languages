@@ -1,0 +1,100 @@
+1	6001	asomar	asoma asoman asomarse asomó asomar asomando asomaba asome asomado asomándose asomé asomaban asómate asomarme asomaron asomada asomas asomamos asomarnos asomen asomarte asomara asomados asomará
+2	6002	banquero	banqueros banquero banquera
+3	6003	panameño	panameño panameña panameños panameñas
+4	6004	indefinido	indefinido indefinida indefinidos indefinidas
+5	6005	cuchara	cuchara cucharas cucharita cucharón cucharilla cucharones cucharitas cucharillas
+6	6006	complicidad	complicidad complicidades
+7	6007	deportar	deportados deportado deportar deportes deportada deportaron deportan deporten deportó deportadas deportarlos deportarlo deporta deportando deportarán deportaran
+8	6008	fascinar	fascina fascinado fascinada fascinan fascinó fascinados fascinaba fascinar fascinaron fascino fascinaban fascinadas fascinará fascinando
+9	6009	yacer	yace yacen yacía yago yacían yacer yaga yaciendo yaz
+10	6010	vagón	vagones vagón
+11	6011	fiable	fiable fiables
+12	6012	hormona	hormonas hormona
+13	6013	contienda	contienda contiendas
+14	6014	archivar	archivado archive archivar archivada archives archiva archivados archivó archivadas archivan archivando archivamos archiven archivaron archivarlo archívese archivará
+15	6015	mármol	mármol mármoles
+16	6016	sucre	sucre sucres
+17	6017	expedir	expedido expedida expedir expidió expide expedidos expida expedidas expiden expedirá expidieron expidan expedirse expidiendo expidiera expedirán expedía
+18	6018	farsa	farsa farsas
+19	6019	inestabilidad	inestabilidad inestabilidades
+20	6020	cera	cera ceras
+21	6021	fichar	fichar fichado fichas fichó fichando fichados fichada fiche ficharlo ficharon fichan ficho fichara ficharía fichaba fichamos ficharle fichen
+22	6022	motocicleta	motocicleta motocicletas
+23	6023	comentarista	comentarista comentaristas
+24	6024	guatemalteco	guatemalteco guatemalteca guatemaltecos guatemaltecas
+25	6025	cónsul	cónsul cónsules
+26	6026	franquista	franquista franquistas
+27	6027	graduación	graduación graduaciones
+28	6028	estacionar	estacionar estaciones estacionales estaciona estacionados estacionarse estacionó estacionada estaciono estacionan estacione estacionando estacioné estacionadas estacionaron estacionaba estacionarte estacionarme estacionas estacionen estacionamos estacionaban
+29	6029	fundamentar	fundamenta fundamentada fundamentar fundamentado fundamentales fundamentan fundamentadas fundamentados fundamentó fundamente fundamentando fundamentarse fundamentaba fundamentándose fundamentaron fundamenten
+30	6030	trascender	trasciende trascender trascendió trascendido trascienden trascienda trascendiendo trascendieron trascendidos trasciendan transcender trascendía trascendiera trascenderá
+31	6031	suite	suite suites
+32	6032	esquivar	esquivar esquiva esquivando esquivo esquivó esquivas esquivan esquivarlo esquivado esquivos esquivarlos esquive esquivaba esquivarla esquivé esquivaron esquivaste esquivarlas esquivamos
+33	6033	alternar	alternando alterna alternan alternar alternas alternado alternados alternada alternadas alternaba alternaban alterne alternó alternándose alternaron alternarse alternate alternarán alternará
+34	6034	excursión	excursión excursiones
+35	6035	conmover	conmovido conmueve conmovió conmovida conmover conmueven conmovidos conmovieron conmueva conmovidas conmoverse conmovía conmoviendo conmoverá conmoverme
+36	6036	periférico	periférico periféricos periférica periféricas
+37	6037	box	box boxes
+38	6038	sirviente	sirvientes sirvienta sirviente sirvientas
+39	6039	rencor	rencor rencores rancor
+40	6040	porquería	porquería porquerías
+41	6041	polar	polar polares
+42	6042	medioambiental	medioambiental medioambientales
+43	6043	incumplimiento	incumplimiento incumplimientos
+44	6044	torcer	torcer torcido torcida torcidos tuerce torcidas torció tuercen torciendo tuerza torcerse torcieron torcí torcerle tuerzan torcía
+45	6045	calentamiento	calentamiento calentamientos
+46	6046	sábana	sábanas sábana
+47	6047	chispa	chispa chispas chispita
+48	6048	lic	lic lics
+49	6049	bailarina	bailarina bailarinas
+50	6050	punk	punk punks
+51	6051	fósil	fósiles fósil
+52	6052	repertorio	repertorio repertorios
+53	6053	olimpiada	olimpiadas olimpiada
+54	6054	amigable	amigable amigables
+55	6055	riñón	riñón riñones
+56	6056	incierto	incierto incierta inciertos inciertas
+57	6057	confrontación	confrontación confrontaciones
+58	6058	lamer	lamer lame lamiendo lamela lamas lamen lamerle lamió lamo lamido lamía lamida laman lamerte lamerse lames lamí lamerlo lamidas lamé lamerme lamiéndose lamelas lamiéndole lamerla
+59	6059	parrilla	parrilla parrillas parilla
+60	6060	cotización	cotización cotizaciones
+61	6061	conveniencia	conveniencia conveniencias
+62	6062	devoción	devoción devociones
+63	6063	atentar	atentar atentan atenta atentados atente atentando atenten atentó atentaron atentaba atentas atentaban atentaría atentara
+64	6064	tregua	tregua treguas
+65	6065	caño	caño caños
+66	6066	impactante	impactante impactantes
+67	6067	láser	láser láseres lásers
+68	6068	antemano	antemano
+69	6069	atlas	atlas
+70	6070	consolidación	consolidación
+71	6071	decadencia	decadencia
+72	6072	difícilmente	difícilmente
+73	6073	enormemente	enormemente
+74	6074	expresamente	expresamente
+75	6075	hockey	hockey
+76	6076	increíblemente	increíblemente
+77	6077	moisés	moisés
+78	6078	napoleón	napoleón
+79	6079	nomás	nomás
+80	6080	palermo	palermo
+81	6081	permanentemente	permanentemente
+82	6082	premium	premium
+83	6083	lienzo	lienzo lienzos
+84	6084	erupción	erupción erupciones
+85	6085	ingenio	ingenio ingenios
+86	6086	razonar	razonar razones razona razonado razonada razonando razonan razonó razone razonas razonadas razonados razono razonamos razonaba razonen
+87	6087	boleta	boletas boleta
+88	6088	estipular	estipulado estipula estipulados estipulaba estipulada estipuladas estipuló estipulan estipular estipule estipulando estipulaban estipularon
+89	6089	jalar	jala jalar jalan jale jalando jalo jaló jalado jales jalas jalaba jalada jalen jaladas jalaron jalarle jalaban jalé jalara jalarme jalados
+90	6090	procedencia	procedencia procedencias
+91	6091	doscientos	doscientos doscientas docientos
+92	6092	exquisito	exquisito exquisita exquisitos exquisitas
+93	6093	derogar	derogar derogada derogado deroga derogó derogue derogadas derogan derogados derogando derogará deroguen derogarla derogaron derogara derogaba derogaría
+94	6094	proposición	proposición proposiciones
+95	6095	fascismo	fascismo fascismos
+96	6096	picante	picante picantes
+97	6097	acreedor	acreedores acreedor acreedora acreedoras
+98	6098	emigrante	emigrantes emigrante
+99	6099	navegador	navegador navegadores
+100	6100	pretensión	pretensiones pretensión

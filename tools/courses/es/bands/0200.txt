@@ -1,0 +1,100 @@
+1	101	quedar	queda quedó quedan quedar quede quedado quedarse quedo quedaron quedando quedaba quedé quedamos quedará quedarme quedas quédate queden quedaría quedarte quedes quedara quedaban quedarán quedarnos quedate quedaste quedaran quedarían quedándose quedaré quedarás quedemos quedaremos quedase quedaras quédense quedare quedarías quédese
+2	102	parecer	parece parecer parecen parecía parecido pareció parezca parecían pareciera parecida pareces parezco parecidos parecería parecidas parezcan parecieron parecerá parecemos pareciendo parecerse parecieran parecerme parecerán pareciese parecerlo parecéis parecerle parezcas pareceres parecerían parecías parecíamos parecernos parecerte pareciéndose parecerles parecés parezcamos pareceré
+3	103	gente	gente gentes
+4	104	cada	cada
+5	105	pensar	pensar pienso piensa pensando pensé piensan pensaba pensado piensas pensamos pensó piense piensen pense pienses pensarlo pensaron pensaban pensas pensaría pensemos piénsalo pensaste pensabas pensada pensábamos pensara pensáis pensándolo pensará pensa pensados pensaran pensarán pensás pensadas pensad pensarse penso pensaré
+6	106	mundo	mundo mundos mondo monda mondas
+7	107	salir	salir sale salió salga salen sal salido saliendo salieron salí salgan salimos sales salgo saldrá salía salidas saliera salían saldrán saldría salgas salirse saliste salgamos salís saldremos salieran salte salle saldré saldrían salidos salíamos saldrás salirme saliese salirte salid salías
+8	108	tomar	tomar toma tomó tomando tomado tomo tome toman tomaron tomas tomás tomen tomé tomada tomamos tomate tomarse tomadas tomaba tomará tomes tomados tomates tomara tomaría tomarlo tomarme tomarte tomemos tomarán tomos tomaban tomaste tomarla tomaran tomaré tomarle tomarnos tómate tomaremos
+9	109	vivir	vivir vivo vive viva viven viviendo vivimos vivido vivos vivía vivió vives vivas vivían vivan vivieron viví vivirá viviera vivamos vivida viviría vivíamos vivís vivirán vividas vividos vivirás viviste viviremos vivirla vivirlo viviré vivieran viviéramos vivieras viviríamos vivías vivirían vivid
+10	110	medio	medio medios media medias
+11	111	les	les
+12	112	conocer	conocer conocido conoce conozco conocida conocidos conocen conoces conocí conocemos conocía conoció conocidas conozca conociendo conocerte conocieron conozcan conocían conocimos conocerse conozcas conocerlo conocerla conocernos conocerlos conociera conocerá conociste conocerme conocéis conocerás conocíamos conozcamos conocerán conocías conoceremos conocieran conocerlas conocería
+13	113	lugar	lugar lugares logar lugarcito logue loga
+14	114	trabajo	trabajo trabajos trabajito trabajillo
+15	115	gracias	gracias grax
+16	116	quien	quien quienes qn
+17	117	ella	ella ellas
+18	118	forma	forma formas
+19	119	menos	menos
+20	120	nunca	nunca
+21	121	caso	caso casos
+22	122	mujer	mujer mujeres mujercita mujerzuelas mujercitas mujerzuela muger
+23	123	cuenta	cuenta cuentas cta
+24	124	casa	casa casas casona caserón casón
+25	125	tú	ti tú contigo
+26	126	antes	antes ántes
+27	127	hombre	hombre hombres hombrecito ombre hombrecillo hombrecillos
+28	128	aquí	aquí aqui aki
+29	129	gobierno	gobierno gobiernos govierno
+30	130	volver	volver vuelve volvió vuelto vuelva vuelvo vuelven volviendo volvieron volví volverá vuelvan volvemos volvería vuelvas volverse volvía vuelves volvamos volverán volveré volveremos volviera volvimos volverás volviste volverme volvían volverte volviéndose volverlo volverían volvieran volves volvernos volvé volviese volverla volve volvere
+31	131	durante	durante
+32	132	venir	viene vienen venir venga venido vengo venía vengan vinieron vine vienes vendrá vendría venían venimos ven vengas viniendo vendrán viniera venís venida viniste vendrían vente vendrás vinimos vení venid veníamos vinieran venidas venidos venirse viniese venite venías venirte venirme vendré
+33	133	tratar	trata tratar tratado tratando trato trataba tratan trató tratados trate trataron tratamos tratarse traten tratos tratas tratara traté trataban tratada trates tratará trataría tratadas trataré tratándose trataremos tratase tratarán tratarlo tratemos tratarlos tratarla trataran tratare tratarte tratarme tratarlas tratarnos trataste
+34	134	cómo	cómo có cómos
+35	135	contra	contra contras
+36	136	aunque	aunque aunq
+37	137	ciudad	ciudad ciudades
+38	138	gustar	gusta gustaría gustan guste gustó gustado gustaba gustar gustas gusten gustaban gustaron gustando gustará gustara gustarle gustarme gustes gustarte gustabas gustase gustarían gustamos gustarán gustaste gustaran gusté gustarles gustarnos gustás gustéis gustasen gustaras gustándome gustáis gustarse gustarás gustarías gustándole gustada
+39	139	hijo	hijo hijos hija hijas hijito hijita hijitos hijitas hijuelos
+40	140	momento	momento momentos momentito momentazo momentico
+41	141	último	último última últimos últimas ultimo
+42	142	amigo	amigos amigo amiga amigas amiguito amiguitos amiguita amiguitas amigazo
+43	143	cual	cual cuales quel qual
+44	144	problema	problema problemas problemita problemilla problemón
+45	145	partido	partido partidos partida partidas partidita partidillo partío
+46	146	derecho	derecho derechos derecha derechas derechito dcho derechona
+47	147	esperar	espero esperar esperando esperaba esperamos esperan esperemos esperado esperaban espere esperas esperes esperen esperó esperada esperabas esperarse esperábamos esperé esperaría esperados esperaré esperaron esperándote esperadas esperara esperará esperarlo esperaremos esperarte espérate esperad esperarán espérame esperare esperándome esperándolo esperáis esperá esperate
+48	148	nacional	nacional nacionales
+49	149	hora	horas hora horita
+50	150	sentir	siento sentir siente sentía sentí sienten sentirse sientes sienta sentimos sintió sientas sientan sintiendo sentirme sentirte sentidos sentís sentían sintieron sentirás sentirá sentiría sentirnos sentirlo sintiera sintiéndose sentiste sentirán siéntete sentiré sintiéndome sintamos sentíamos sentías sentirla sentirías sintieran sentirían sintieras
+51	151	bajo	bajo baja bajos bajas bajito bajísimo baxo
+52	152	necesitar	necesita necesito necesitamos necesitan necesitas necesitaba necesitar necesite necesites necesitaban necesiten necesitados necesitado necesitará necesitaría necesitó necesitando necesitábamos necesitarán necesitarás necesitada necesitara necesitabas necesitaremos necesitarían necesitadas necesitaron necesitemos necesitáis necesité necesitaríamos necesitás necesitaran necesitaré necesitarías necesitaras necesitarlo necesitase necesitarte necesitare
+53	153	santo	san santa santo santos santísimo santas sancta santito sancto sanes
+54	154	sí	sí síes
+55	155	hoy	hoy
+56	156	ganar	ganar ganas gana ganado ganó ganando gane ganan gano ganaron ganamos ganarse ganados ganaba ganará ganaste gané ganarle ganen ganara ganada ganaría ganemos ganarme ganes ganarte ganaremos ganaban ganarán ganadas ganarlo ganarás ganaran ganase ganarla ganarían ganándose ganarles ganarnos ganaras
+57	157	usar	usar usa usando usan usado usó usada usados use usaba usamos usarlo usaron usas usen usadas usaban usarse usarla usé uses usarlos usará usaría usarlas usaste usara usarán usemos usaran usaremos usaré usábamos usándolo usarían úsalo usabas usarías usándola usare
+58	158	tipo	tipo tipos tipa tipas
+59	159	alguien	alguien
+60	160	grupo	grupo grupos grupito grupillo
+61	161	buscar	buscar busca buscando buscan busco buscas buscamos buscaba buscado busque buscó busquen buscaban buscarlo busqué busques buscaron buscarte buscará buscarla buscarle buscarme buscados buscarán busquemos buscara buscarlos buscarse buscaré buscaría buscarlas buscada búscate buscabas buscaste buscaremos buscaran búscame buscad búscalo
+62	162	mayor	mayor mayores mayorcito
+63	163	historia	historia historias
+64	164	llamar	llama llamar llaman llamó llamo llamas llamaba llamando llame llamaron llamamos llamados llamadas llamarse llamen llamaban llamarlo llamé llamaría llames llamarme llamará llamarle llamara llamarla llámame llamarlos llamarte llamarnos llamaremos llamaré llámanos llamaste llamame llamaran llamarán llamemos llamándolo llamarían llamándome
+65	165	tres	tres treses
+66	166	cualquiera	cualquier cualquiera cualesquiera cualquieras
+67	167	tal	tal tales atal
+68	168	público	público pública públicos públicas
+69	169	general	general generales gral generala jeneral
+70	170	mirar	mira mirar mirada mirando miren mire miras miro miran miraba miró miradas mirá mires miré miramos mirad mirado mirarlo miraban mirarla míralo mirarme mirarte miraron miremos mirarse mirándome mírame miralo mirarle mirándolo mirándote mírate mirame mirate mirándola mirara mirarnos mirarlos
+71	171	ley	ley leyes
+72	172	perder	perder perdido perdió pierde perdiendo perdida perdieron perdí pierden perdidos pierda pierdas perdidas pierdes pierdo perdiste perdemos perdimos pierdan perderse perderá perdía perderte perdería perdiera perderlo perdamos perderán perderme perderla perdían perderás perderemos perderían perdes perdáis perdernos perdieran perderé perdiéndose
+73	173	verdad	verdad verdades vdd verdá vrd verdat
+74	174	luego	luego lueguito
+75	175	niño	niños niño niña niñas niñita niñito niñitos niñitas
+76	176	pedir	pedir pide pedido pidió pido pidiendo piden pedimos pedirle pedí pidieron pedidos pida pedía pides pidan pedían pidas pedirte pedirles pedirá pediría pidiéndole pidiera pedirme pediste pedirlo pídele pedirán pedís pediré pidamos pidiéndome pedida pidieran pediremos pedirla pedirnos pídeme pidiéndoles
+77	177	social	social sociales
+78	178	ninguno	ningún ninguna ninguno ningun ningunos ningunas
+79	179	pues	pues
+80	180	nombre	nombre nombres nombrecito
+81	181	entender	entiendo entender entiende entendido entienden entendí entendemos entienda entiendes entendía entendió entendiendo entiendan entenderlo entenderá entendiste entiendas entenderse entendieron entendidos entendida entenderán entendes entenderás entendería entendamos entendían entendiera entendimos entenderla entenderé entendernos entenderías entendéis entendés entiéndase entenderte entenderme entenderlos entendidas
+82	182	mientras	mientras mientra
+83	183	nadie	nadie nadies nadi nadien naide naiden
+84	184	punto	punto puntos puntito pto puntillo
+85	185	mes	meses mes
+86	186	segundo	segundo segunda segundos segundas segundito
+87	187	escribir	escribir escrito escribió escribe escrita escritos escribiendo escribo escribí escriben escritas escribía escriba escribes escribieron escribiste escribimos escriban escribas escribirlo escribiera escribirle escribiría escribiré escribían escribirá escribirse escribirme escribís escribirla escríbeme escribirte escribirnos escríbenos escribirán escribamos escribirles escribiremos escribieran escribirlas
+88	188	trabajar	trabajar trabajando trabaja trabajan trabajado trabajaba trabajó trabajamos trabajas trabaje trabajaban trabajaron trabajé trabajen trabajará trabajes trabajemos trabajaremos trabajarán trabajadas trabajada trabajaría trabajara trabajados trabajaste trabajaran trabajaré trabajábamos trabajabas trabajarlo trabajarían trabajase trabajarse trabajarás trabajad trabajarla trabajasen trabajáis trabajaras trabajarlas
+89	189	propio	propio propia propios propias proprio
+90	190	entonces	entonces entonce
+91	191	manera	manera maneras
+92	192	empezar	empezar empezó empieza empezaron empezando empiezan empecé empezamos empezado empiece empiezo empiecen empezaba empiezas empecemos empezará empezo empezaste empezara empieces empezaban empezarán empezaría empezaremos empezaré empezaran empezas empeze empezarás empeza empezarían empezemos empezada empezase empezé empezarlo empezá empezás empezábamos empezare
+93	193	dios	dios dioses diosa diosas
+94	194	sistema	sistema sistemas
+95	195	noche	noche noches nochecita
+96	196	leer	leer lee leyendo leo leído leí lea lean leen leerlo lees leyó leía leido leemos leas leíste leerse leyeron leerla léase leerlos leída leídos leerte leyera leerme leeré leerá leerlas leídas leed leímos léelo leamos leían leela leiste leerle leería
+97	197	acuerdo	acuerdo acuerdos
+98	198	según	según segun
+99	199	señor	señor señora señores señorita señoras señoritas señorito ña señoritos ñor señó señá
+100	200	varios	varios varias

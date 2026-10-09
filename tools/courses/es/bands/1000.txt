@@ -1,0 +1,100 @@
+1	901	repetir	repetir repito repite repiten repetidas repitiendo repetido repitió repita repetidos repetida repetirlo repetirse repitan repetía repetimos repitieron repetirá repites repetiría repetí repetiré repetirla repetían repitas repitiera repetirme repetirán repitamos repetirlas repetiremos repitiéndose repetirlos repitieran repítelo repetirte repetirle repetís repetiste repetirían
+2	902	religioso	religiosa religiosos religioso religiosas
+3	903	televisión	televisión televisiones
+4	904	cruzar	cruzar cruce cruza cruzado cruzada cruzando cruzan cruzó cruzados cruzadas cruzaron cruces cruzamos cruzo crucé cruzaba cruzas cruzarse crucen cruzaban cruze crucemos cruzara cruzarme cruzarlo cruzaste cruzarte cruzará cruzaría cruzaran cruzarla cruzarnos cruzándose cruzarán cruzaré cruzaremos cruzábamos cruzes cruzarlos cruzarían
+5	905	observar	observar observa observando observó observado observan observamos observo observaron observe observaba observarse observados observen observada observé observadas observas observaban observará observarlo observemos obsérvese observarla observaremos observarán observara observándose observarlos observándolo observad observándola observándolos observaran observarte observarlas observes observándome observaría observándole
+6	906	edición	edición ediciones
+7	907	cine	cine cines
+8	908	confirmar	confirmó confirmar confirma confirmado confirman confirmada confirmaron confirmados confirmando confirmo confirme confirmadas confirmarlo confirmen confirmaba confirmarse confirmamos confirmara confirmará confirmé confirmaría confirmaban confirmas confirmarán confirmes confirmarme confirmaran confirmándose confirmarían confirmarla confirmaste confirmarle confirmaremos confirmarte confirmarnos confirmase confirmemos confirmaré
+9	909	instituto	instituto institutos
+10	910	revista	revista revistas
+11	911	abogado	abogado abogados abogada abogadas
+12	912	re	re res reses
+13	913	género	género géneros
+14	914	marcha	marcha marchas
+15	915	mesa	mesa mesas mesita mesilla mesillas
+16	916	relacionado	relacionados relacionado relacionadas relacionada
+17	917	detalle	detalles detalle detallito
+18	918	verde	verde verdes velde
+19	919	pp	pp pps
+20	920	respeto	respeto respetos
+21	921	formación	formación formaciones
+22	922	referencia	referencia referencias
+23	923	publicación	publicación publicaciones
+24	924	activo	activo activa activos activas
+25	925	dedicar	dedica dedican dedicó dedicar dedicarse dedico dedicada dedicaron dedicaba dedicas dedicarle dedique dedicamos dedicados dedicarme dedicaban dedicando dediquen dedicadas dediqué dedicarte dedicándose dedicara dedicará dediques dedicaría dedicarnos dedicaré dedicaran dedícate dedicate dedicaremos dedicarán dediquemos dedicándole dedicarlo dedicaste dedicarles dedicase dedicarla
+26	926	grado	grado grados
+27	927	objeto	objeto objetos
+28	928	limpiar	limpiar limpia limpio limpias limpios limpiando limpie limpian limpiado limpiarse limpió limpien limpiaba limpiarlo limpiarla limpiaron limpiamos limpiarme limpiarte limpié limpiarlos limpiaban limpiada limpiaré limpiarle limpiará limpiarlas limpies limpiemos limpiara limpiándose limpiados limpito limpiaran limpiadas limpiaste limpiarnos limpiarán limpiate límpiate
+29	929	responsabilidad	responsabilidad responsabilidades
+30	930	barrio	barrio barrios
+31	931	fiscal	fiscal fiscales fiscala
+32	932	cortar	cortar cortés cortado cortó cortes cortan cortada cortando cortaron cortadas cortas corten cortados cortamos cortarse cortarle corté cortaba cortarme cortarte cortaban cortarlo cortarla cortaste cortara cortará cortaría cortarles corteses cortaran cortala cortarlas cortarlos cortemos cortándole cortarán cortándose cortaremos cortaré cortale
+33	933	responsable	responsable responsables
+34	934	constitución	constitución constituciones
+35	935	revolución	revolución revoluciones
+36	936	siete	siete sietes
+37	937	bonito	bonito bonita bonitas bonitos
+38	938	abajo	abajo
+39	939	atrás	atrás
+40	940	contrato	contrato contratos
+41	941	víctima	víctimas víctima
+42	942	provocar	provoca provocar provocó provocado provocando provocan provocaron provocada provocados provocadas provocará provoque provocaría provocaba provoco provoquen provocaban provocara provocarle provocas provocarán provocarme provocándole provocarían provoques provocarlo provocarte provocamos provocarla provocarnos provocaran provocarlos provocarse provocarles provocase provocaste provocándome provoqué provocándoles provocándose
+43	943	suelo	suelo suelos
+44	944	superar	superar supera superado superó superan superando supere superada superarlo superaron superados superarse superen superaba superará superamos superadas supero superé superaban superarlos superas superarla superaría superaste superara superarlas superarán superemos superaremos superes superaré superarte superarme superarnos supéralo superarás superaran superándose superase
+45	945	odio	odio odios
+46	946	izquierda	izquierda izq izda
+47	947	registrar	registrado registrar registrados registró registra registrada registraron registradas registran registrarse registrando registre registren registrarte registramos regístrate registraba registré regístrese registrarme registraban registrate registrándose registrará registrarlo registras registrarán registrara registrarla registrarnos registraste registres registraran registrarlos registraría registrales registrase registrarlas registraros regístrense
+48	948	contener	contiene contienen contener contenía contenidos contenga contenían contengan conteniendo contendrá contuvo contenida contenerse contenerme contuve contenidas contenerlo contenerlos contenerla contendrán contuviera contengo contuvieron contendría contente contuvieran contenerlas contuviese contenerte contienes
+49	949	apenas	apenas apena apenitas
+50	950	comentar	comentó comenta comentar comentado comentando comentan comento comentaba comentaron comenté comente comentamos comentas comentada comenten comentaban comentados comentarlo comentadas comentarle comentarte comentes comentaré comentaste comentaremos comentarles comentara comentábamos comentará comentaría comentarme comentarla comentarlos comentabas comentarlas comentarán comentemos comentarnos comentáis comentaran
+51	951	presencia	presencia presencias
+52	952	retirar	retirar retirada retirado retirarse retiró retira retire retiraron retirados retiran retiren retirando retiradas retiraba retirara retiramos retirarme retirarte retirará retirándose retirarlo retiras retiré retiraran retiraban retirarla retirarle retirarlos retiraría retires retirase retirarán retírate retirarnos retiraré retiraremos retirarlas retirarían retirasen retirate
+53	953	famoso	famoso famosa famosos famosas famosísimo
+54	954	científico	científico científicos científica científicas
+55	955	interno	interna interno internos internas
+56	956	contacto	contacto contactos
+57	957	análisis	análisis
+58	958	totalmente	totalmente
+59	959	materia	materia materias
+60	960	tribunal	tribunal tribunales
+61	961	estrella	estrellas estrella estrellita estrellitas
+62	962	avanzar	avanzar avanzada avanza avanzado avanzando avances avanzados avanzadas avanzó avanzan avanzaba avanzamos avanzaron avanzaban avancemos avancen avanzo avanzas avanzará avanzara avanzaremos avancé avanzarán avanzaría avanzábamos avanzase avanzaran avanze
+63	963	transporte	transporte transportes trasporte
+64	964	definir	define definir definido definen definida definidos definió definidas defina definirse definiendo definieron definía definirá definan definimos definirlo definiría definirán defino defines definían definiera definirla definamos definiéndose definas definirme definirte definí definirlos definiremos definirías definirnos definirían definiéndola definirlas definieran definiste definiéndolo
+65	965	registro	registro registros
+66	966	abuela	abuela abuelo abuelos abuelita abuelas abuelito
+67	967	falso	falso falsa falsas falsos
+68	968	actor	actor actores actriz actrices actora actoras
+69	969	técnico	técnico técnicos técnicas tecnico
+70	970	llorar	llorar llorando llora llores lloran lloraba lloro lloré lloró lloras llore llorado lloraban lloramos lloren lloraron lloraste lloraré lloros llorará lloraría llorarle llorabas llorarán llorara llorarás lloremos llorad lloréis lloraremos llorada lloraran lloráis llorábamos lloraras llorarlo llorá llorás llorarla
+71	971	municipal	municipal municipales
+72	972	escritor	escritor escritores escritora escritoras
+73	973	exigir	exige exigir exigen exigiendo exigió exigimos exigía exijo exigido exija exigían exigieron exijan exigidos exigirle exigirá exigidas exigida exigiría exigirles exigirán exijamos exigirse exigiéndole exiges exigiera exigirlo exigí exigieran exijas exigirte exigiéndoles exigiremos exigirían exigirme exigirnos exigirla exigís exigiese exigiré
+74	974	beneficio	beneficios beneficio
+75	975	régimen	régimen regímenes
+76	976	correcto	correcto correcta correctas correctos correctísimo
+77	977	importancia	importancia importancias
+78	978	figura	figura figuras figuritas figurita figurilla
+79	979	pertenecer	pertenece pertenecen pertenecer pertenecía pertenecían pertenezco perteneció perteneces pertenecido pertenecemos pertenezca pertenezcan perteneciendo pertenecieron perteneciera pertenecerá pertenecería pertenecieran pertenecerán pertenecerían pertenezcas pertenecerle pertenecí perteneciese pertenecías pertenecíamos pertenecéis
+80	980	destino	destino destinos
+81	981	electoral	electoral electorales
+82	982	esperanza	esperanza esperanzas
+83	983	secreto	secreto secretos secreta secretas secretito
+84	984	comprender	comprender comprende comprendo comprendido comprenden comprendía comprendí comprenda comprendida comprendió comprendidas comprendidos comprendemos comprendes comprenderá comprendan comprenderlo comprendiendo comprenderás comprendieron comprendas comprendían comprenderán comprendería comprenderse comprenderla comprendiera comprendimos comprendamos comprenderlas comprenderlos comprenderme comprendiste comprendieran comprendéis comprenderte comprenderéis comprenderemos comprendernos comprenderé
+85	985	marco	marco marcos marquitos marquito
+86	986	ambiente	ambiente ambientes ambientazo
+87	987	periodista	periodista periodistas
+88	988	sentimiento	sentimientos sentimiento
+89	989	cuidado	cuidado cuidados cuidada cuidadas cuidadito cuidao
+90	990	caminar	caminar caminando camina caminaba caminan caminamos caminó camine caminas caminado caminé caminaban caminaron caminen caminemos caminábamos camines caminaremos caminara caminarán caminará caminaría caminaré caminabas caminarás caminada caminaran caminare caminaste caminá caminad caminaras
+91	991	organizar	organizar organizó organiza organizada organizan organizando organizaron organizados organizarse organizamos organizadas organice organicen organizaba organizarnos organizará organizaban organizo organizarlo organizara organizarán organizándose organizas organicé organizarte organicemos organizaremos organizarme organizaran organizaría organizarla organizarlos organizarlas organízate organices organizase organizándonos organizate organizarle organizarían
+92	992	fe	fe fé
+93	993	verano	verano veranos
+94	994	regla	reglas regla reglón
+95	995	prensa	prensa prensas
+96	996	golpe	golpe golpes golpecito
+97	997	independiente	independiente independientes
+98	998	hogar	hogar hogares
+99	999	cuidar	cuidar cuida cuidando cuide cuidan cuídate cuidarse cuido cuidados cuiden cuidad cuidarte cuidaba cuidate cuidas cuidamos cuidarlo cuidarla cuidó cuides cuidarme cuidarnos cuidará cuidarlos cuidemos cuidara cuídense cuidaban cuidaron cuidarán cuidarás cuídala cuidaré cuidada cuidarlas cuídese cuídalo cuidaría cuidarle cuidé
+100	1000	frío	frío fría frías fríos fredo

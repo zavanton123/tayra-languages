@@ -1,0 +1,100 @@
+1	7401	coronar	coronó coronar coronarse coronada coronan coronando coronaron coronaba corone coronas corono coronará coronados coronadas coronaban coronamos coronándose coronarlo coronales
+2	7402	duende	duende duendes
+3	7403	emisor	emisor emisoras emisores
+4	7404	agitación	agitación agitaciones
+5	7405	convergencia	convergencia convergencias
+6	7406	fijación	fijación fijaciones
+7	7407	matón	matones matón matona
+8	7408	cuerno	cuerno cuernitos
+9	7409	procesal	procesal procesales
+10	7410	facha	facha fachas facho fachos
+11	7411	bachiller	bachiller bachilleres
+12	7412	consultorio	consultorio consultorios
+13	7413	oleada	oleada oleadas
+14	7414	pizarra	pizarra pizarras
+15	7415	propenso	propensos propenso propensas propensa
+16	7416	guardería	guardería guarderías
+17	7417	traficante	traficantes traficante
+18	7418	pezón	pezones pezón
+19	7419	sociólogo	sociólogo sociólogos socióloga
+20	7420	perforar	perforar perforado perforada perfora perforados perforadas perforando perforó perforan perforaron perfore perforarse perforará perforaba perforaban perforo
+21	7421	lobby	lobby lobbies lobbys lobi
+22	7422	urbanismo	urbanismo urbanismos
+23	7423	rob	rob robes
+24	7424	infringir	infringido infringe infringir infringiendo infringen infrinjan infrinja infringió infringieron infringía infringidas infringidos infringida infringían
+25	7425	bombo	bombo bombas bombos
+26	7426	alga	algas alga
+27	7427	reproductor	reproductor reproductores reproductora reproductoras
+28	7428	saneamiento	saneamiento saneamientos
+29	7429	suero	suero sueros
+30	7430	insuficiencia	insuficiencia insuficiencias
+31	7431	ocasional	ocasional ocasionales
+32	7432	saliente	saliente salientes
+33	7433	lancha	lancha lanchas
+34	7434	moderador	moderador moderadores moderadora
+35	7435	sumergido	sumergido sumergida sumergidos sumergidas
+36	7436	vacunar	vacunar vacunados vacunado vacunas vacunarse vacunan vacunada vacunaron vacunen vacunadas vacunando vacunó vacune vacunarte vacunales
+37	7437	confeccionar	confeccionar confeccionado confeccionados confeccionada confecciona confeccionadas confeccionó confeccionan confeccionando confeccionaron confecciones confeccionaban confeccionaba confeccionará confeccionarse confeccione confeccionarán
+38	7438	fideo	fideos fideo
+39	7439	tachar	tachado tachar tachan tachó tache tachados tachando tachas tachada tacharon tachadas tachen tachaban tachaba tacharlo tachándola taches
+40	7440	acontecer	acontece aconteció acontecer acontecen aconteciendo acontecieron acontecía acontecidos acontezca acontecerá acontecida aconteceres acontecidas
+41	7441	idóneo	idóneo idónea idóneos idóneas
+42	7442	cónyuge	cónyuge cónyuges
+43	7443	renegar	renegar renegado renegados reniega renegando reniego reniegan renegó renegada renegaba reniegue renegaron renegamos
+44	7444	tildar	tilda tildado tildan tildar tildó tilden tildaron tildada tildados tildaban tildando tildes tildaba tildarse tildadas tildas tildo tildándolo
+45	7445	pontificio	pontificia pontificio pontificios pontificias
+46	7446	ahogado	ahogado ahogada ahogados ahogadas
+47	7447	mara	mara maras
+48	7448	victorioso	victorioso victoriosa victoriosos victoriosas
+49	7449	aflojar	afloja aflojar afloje aflojen aflojó aflojes aflojan aflojando aflojale aflojaron aflojado aflojo aflojas aflojarle aflojarse aflojaba aflojé
+50	7450	instruir	instruir instruyó instruye instruidos instruyendo instruida instruyen instruía instruirse instruya instruidas instruyeron instruirá instruyan instruí instruirlos instruyo instruirme instruirnos
+51	7451	empeñar	empeña empeñan empeñó empeñar empeñas empeñamos empeñados empeñarse empeñen empeñe empeñada empeñaron empeñaba empeñando empeñes empeñé empeñemos empeñaban empeñadas
+52	7452	copar	cope copan copar coparon copando copó copala copen copé copate copas copados copaba copadas copaban copes
+53	7453	paulino	paulina paulino paulinas
+54	7454	atroz	atroz atroces
+55	7455	lao	laos lao
+56	7456	descalzo	descalzo descalzos descalza descalzas
+57	7457	desbordar	desborda desbordó desbordan desbordar desbordando desbordarse desbordada desbordaba desbordaron desbordados desbordes desbordaban desbordará desborden desbordadas desbordara
+58	7458	nocivo	nocivos nocivo nocivas nociva
+59	7459	forzoso	forzoso forzosa forzosos forzosas
+60	7460	laptop	laptop laptops
+61	7461	enérgico	enérgica enérgico enérgicas enérgicos
+62	7462	comporta	comporta comportas
+63	7463	viga	vigas viga
+64	7464	fraudulento	fraudulenta fraudulentas fraudulento fraudulentos
+65	7465	tai	tai thai thais tais
+66	7466	invernadero	invernadero invernaderos
+67	7467	implícito	implícito implícita implícitas implícitos
+68	7468	amabilidad	amabilidad
+69	7469	antaño	antaño
+70	7470	clero	clero
+71	7471	golden	golden
+72	7472	ji	ji
+73	7473	lógicamente	lógicamente
+74	7474	manila	manila
+75	7475	obesidad	obesidad
+76	7476	objetividad	objetividad
+77	7477	ocasionalmente	ocasionalmente
+78	7478	presuntamente	presuntamente
+79	7479	qui	qui
+80	7480	radicalmente	radicalmente
+81	7481	tuberculosis	tuberculosis
+82	7482	ponencia	ponencia ponencias
+83	7483	hemorragia	hemorragia hemorragias
+84	7484	inofensivo	inofensivo inofensiva inofensivos inofensivas
+85	7485	devaluación	devaluación devaluaciones
+86	7486	aventurero	aventurero aventureros aventurera aventureras
+87	7487	problemático	problemático problemáticos problemáticas
+88	7488	burocrático	burocrático burocrática burocráticos burocráticas
+89	7489	asemejar	asemeja asemejan asemejaba asemejarse asemeje asemejaban asemejar asemejándose asemejen asemejaría asemejando
+90	7490	análogo	análogo análoga análogos análogas
+91	7491	diestro	diestra diestro diestros diestras
+92	7492	perpetrar	perpetrado perpetrados perpetrar perpetrada perpetró perpetradas perpetraron perpetra perpetran perpetrando perpetraban
+93	7493	catarata	cataratas catarata
+94	7494	caribeño	caribeña caribeño caribeños caribeñas
+95	7495	remunerar	remunerado remunerados remuneradas remunerada remunerar remunera
+96	7496	estructurar	estructurar estructurales estructurada estructuras estructuran estructurados estructuradas estructuró estructurando estructurarse estructure estructuraron estructuraba
+97	7497	comprensivo	comprensivo comprensiva comprensivos comprensivas
+98	7498	sondeo	sondeo sondeos
+99	7499	secuestrador	secuestradores secuestrador secuestradora
+100	7500	contención	contención contenciones

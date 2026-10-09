@@ -1,0 +1,100 @@
+1	2201	prohibido	prohibido prohibida prohibidos prohibidas
+2	2202	extraordinario	extraordinario extraordinaria extraordinarias extraordinarios
+3	2203	oponer	opone oponerse oponen opuso opusieron oponía opongo oponían oponga oponer oponiéndose opongan oponemos opuestos opondría opuesta oponiendo opusiera oponernos oponerme opuestas opondrá opones opuse opusieran opondrán oponerte opondrían opondré opusimos opón
+4	2204	disculpa	disculpa disculpas
+5	2205	rama	rama ramas
+6	2206	lanzamiento	lanzamiento lanzamientos
+7	2207	fracaso	fracaso fracasos
+8	2208	sonreír	sonriendo sonríe sonreír sonrió sonreía sonreí sonreir sonríes sonrío sonríen sonría sonrían sonreído sonrieron sonrías sonreían sonriéndole sonreímos sonreírle sonreirá sonreíste sonriera sonreiré sonreiría sonreírme sonriéndome sonreías sonreirás sonríele sonriamos sonreís sonreíd
+9	2209	competir	competir compiten compitiendo compite competirá compitió competirán compitieron competido competía compita compitan competían competimos compito compites competiría compitiera competí compitas competirle compitieran competirían competida
+10	2210	esquina	esquina esquinas esquinita
+11	2211	educar	educar educado educada educados educa educando educadas educan educarse educó educaron educarlos eduquen educandos eduque educamos educarnos educarlo educo educas educarte educarme educarla educaba eduqué eduquemos educaban educará edúcate educara educate educarle eduques educaran
+12	2212	sierra	sierra sierras
+13	2213	defensor	defensor defensores defensora defensoras
+14	2214	corrupto	corruptos corrupto corrupta corruptas
+15	2215	acompañado	acompañado acompañada acompañados acompañadas
+16	2216	uds	ud uds udes
+17	2217	requisito	requisitos requisito
+18	2218	inocente	inocente inocentes
+19	2219	resistir	resistir resiste resisten resistió resistirse resistido resistiendo resista resistieron resisto resistía resistirme resistan resistimos resistían resistirá resistí resistiría resistiré resistirlo resistiéndose resistas resistiera resistirte resistirán resistes resistirnos resistiremos resistida resistirían resistamos resistieran resistirla resistid
+20	2220	cultivo	cultivo cultivos
+21	2221	despedir	despedir despidió despide despedirse despidieron despiden despidiendo despedimos despedirme despedidos despidan despedí despedirnos despedirte despedidas despedía despida despedirlo despidiéndose despedirá despidiera despedirlos despedirla despides despidieran despedían despídete despediría despedirán despidas despedirle despidiéndome despediste despidamos despediremos despídase despidiéndonos despediré
+22	2222	lección	lección lecciones
+23	2223	protagonista	protagonista protagonistas
+24	2224	senado	senado senados
+25	2225	masivo	masiva masivo masivos masivas
+26	2226	anti	anti
+27	2227	obviamente	obviamente
+28	2228	piernas	piernas
+29	2229	pez	peces pez pececillo pececito
+30	2230	entrenar	entrenar entrenado entrenando entrenados entrena entrenó entrenan entreno entrenada entrenaba entrenarse entrenamos entrenadas entrenaron entrenas entrene entrenará entrené entrenarlos entrenaban entrenos entrenándose entrenarlo entrenen entrenara entrenes entrenarán entrenarte entrenarme entrenarla entrenaría entrenaré entrenarnos entrenemos
+31	2231	ampliar	ampliar ampliado amplía ampliando amplió ampliada amplían ampliará ampliamos ampliaron ampliarse amplíe ampliados ampliadas ampliaremos ampliarlo amplíen ampliaría ampliaba ampliándose ampliarla ampliara ampliarán amplío amplié ampliaban ampliemos ampliarlas ampliaran ampliarlos ampliándolo amplie ampliaré amplian ampliándola
+32	2232	diablo	diablo diablos diabla diablito diablitos diablillo
+33	2233	frenar	frenar freno frenos frena frenado frenó frenan frenada frenando frene frenaron frenen frenarlo frenaba frenadas frenará frenados frenes frenas frenarla frenara frenarlos frené frenaría frenamos frenarse frenaban frenarte frenarle
+34	2234	sagrado	sagrado sagrada sagrados sagradas
+35	2235	brasileño	brasileño brasileña brasileños brasileñas
+36	2236	batería	batería baterías
+37	2237	caña	caña cañón cañones cañas cañitas cañita cañoncito
+38	2238	habitual	habitual habituales
+39	2239	leyenda	leyenda leyendas
+40	2240	petróleo	petróleo petróleos
+41	2241	valiente	valiente valientes
+42	2242	intercambio	intercambio intercambios
+43	2243	paseo	paseo paseos paseíto
+44	2244	medalla	medalla medallas medallita
+45	2245	postura	postura posturas
+46	2246	obrero	obrero obreros obrera obreras
+47	2247	minero	minera mineros minero mineras
+48	2248	feria	feria ferias
+49	2249	latinoamericano	latinoamericanos latinoamericano latinoamericana latinoamericanas
+50	2250	imprimir	imprimir impreso impresos impresas imprime imprimió imprimen imprimiendo imprima imprimieron impresa imprimirlo imprimimos imprimirse imprimido imprimí impriman imprimía imprimirla imprimo imprimirle imprimirlos imprimirá imprimirlas imprimían imprimirán imprimes imprimas imprimiré imprímelo imprimieran imprimiera imprimiría imprimiremos
+51	2251	computadora	computadora computadoras
+52	2252	timar	time times tima timar timado timando timaron timan timen timados timas
+53	2253	atrever	atreve atrevo atreven atrevería atreves atrevió atreva atreverse atrévete atrevía atrevemos atrevieron atreví atrevan atrevas atreverá atreviera atreverías atreverían atrevían atreverme atreverán atrever atreviste atrevimos atreverte atreviéndose atrevéis atrevernos atreveré atrevieran atrévanse atrevete atrevida atrévase atreviese atreveríamos atreverás atrevidos atrevidas
+54	2254	acusado	acusado acusados acusada acusadas
+55	2255	afectado	afectado afectados afectadas afectada
+56	2256	corona	corona coronas coronita
+57	2257	colgar	colgar cuelga colgando colgó cuelgan colgada colgaron colgué cuelgo colgados colgaba cuelgue colgarse cuelguen colgaban colgate colgarlo colgadas colgamos cuelgues colgarla colgarlos colgarme cuelgas colgaré colgaste colgarte colgo colgándose colgarán colgarlas colgará colgaran colgaría colgara colgarle colgas colgaremos colgándole colguemos
+58	2258	sucio	sucio sucia sucios sucias
+59	2259	aniversario	aniversario aniversarios
+60	2260	olor	olor olores olorcito
+61	2261	botella	botella botellas botellita
+62	2262	enamorado	enamorado enamorada enamorados enamoradas
+63	2263	drama	drama dramas
+64	2264	esencial	esencial esenciales
+65	2265	chiste	chiste chistes
+66	2266	ridículo	ridículo ridícula ridículos ridículas
+67	2267	calcular	calcular calcula calculado calculo calculan calculó calculada calculando calculados calcule calculamos calcularon calculaba calculadas calcularse calculará calculé calculas calcularlo calculen calculaban calcularán calculemos calculándose calculaste calcularla calcularía calcularemos
+68	2268	consumidor	consumidores consumidor consumidora consumidoras
+69	2269	aceite	aceite aceites
+70	2270	vacacionar	vacaciones vacacionar vacacionales vacacionando
+71	2271	oración	oración oraciones
+72	2272	ahorrar	ahorrar ahorra ahorrado ahorrando ahorran ahorras ahorre ahorrarse ahorramos ahorrará ahorrarte ahorró ahorraría ahorren ahorrarnos ahorré ahorrarme ahorrarle ahorraba ahórrate ahorrarás ahorrados ahorres ahorraron ahorraríamos ahorraste ahorrarán ahorrate ahorrarían ahorremos ahorraremos ahorrarles ahorraban ahorraré ahorrara ahorrada ahorrarías ahorrarlo ahorraras ahorraran
+73	2273	financiera	financiera financieras
+74	2274	legislación	legislación legislaciones
+75	2275	sabor	sabor sabores
+76	2276	capturar	capturar capturado capturados capturó capturaron capturan capturas capturada capturadas capturando capture capturarlo capturen capturarlos capturarla capturamos capturo capturaban capturaba capturara capturaran capturará captures capturé capturarlas capturarle
+77	2277	excusa	excusa excusas escusa
+78	2278	ligero	ligera ligero ligeras ligeros ligerito
+79	2279	separado	separado separados separadas separada
+80	2280	rayo	rayos rayo rayito
+81	2281	incrementar	incrementar incrementa incrementado incrementó incrementando incrementan incrementaron incrementará incremente incrementarse incrementada incrementándose incrementen incrementaría incrementarán incrementaba incrementados incrementara incrementadas incrementarían incrementales incrementaban incrementamos incrementaran incrementarlo incrementarla
+82	2282	preciso	preciso precisa precisos precisas
+83	2283	luca	lucas luca
+84	2284	cómodo	cómodo cómoda cómodos cómodas
+85	2285	eléctrica	eléctrica eléctricas
+86	2286	lógica	lógica lógicas
+87	2287	continente	continente continentes
+88	2288	dispositivo	dispositivo dispositivos dispositiva
+89	2289	antecedente	antecedentes antecedente
+90	2290	cura	cura curas
+91	2291	anoche	anoche
+92	2292	aquello	aquello
+93	2293	cien	cien
+94	2294	posteriormente	posteriormente
+95	2295	testimonio	testimonio testimonios
+96	2296	combustible	combustible combustibles
+97	2297	aparato	aparato aparatos aparatito
+98	2298	mezclar	mezclado mezclar mezclan mezclada mezclando mezclados mezcladas mezclarse mezcle mezclaron mezcló mezclaba mezclen mezclas mezclaban mezclo mezclarlo mezclamos mezclándose mezcles mezclarlos mezclé mezclarla mezclarnos mezclaste mezclarlas mezclemos mezclará mezclaran mezclara mezclándolo mescla mezclarme mezclarán mezclándola mézclalo mezclaremos mezclándolos mezclaría
+99	2299	manejo	manejo manejos
+100	2300	nervioso	nervioso nerviosa nerviosos nerviosas

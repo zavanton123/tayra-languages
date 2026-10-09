@@ -1,0 +1,100 @@
+1	9101	interruptor	interruptor interruptores
+2	9102	acometer	acometer acometida acometidas acometió acometido acomete acometieron acometiendo acometen acometa acometidos acometerse
+3	9103	bizcocho	bizcocho bizcochos bizcochito biscocho
+4	9104	andorra	andorra
+5	9105	azufre	azufre
+6	9106	cobardía	cobardía
+7	9107	escepticismo	escepticismo
+8	9108	fluidez	fluidez
+9	9109	imparcialidad	imparcialidad
+10	9110	juliana	juliana
+11	9111	opus	opus
+12	9112	ora	ora
+13	9113	perseverancia	perseverancia
+14	9114	plenitud	plenitud
+15	9115	predominantemente	predominantemente
+16	9116	preferentemente	preferentemente
+17	9117	saltillo	saltillo
+18	9118	soul	soul
+19	9119	precepto	preceptos precepto
+20	9120	arista	aristas arista
+21	9121	pimiento	pimiento pimientos
+22	9122	jungla	jungla junglas
+23	9123	depto	depto deptos
+24	9124	arruga	arrugas arruga
+25	9125	ft	ft fts
+26	9126	redención	redención redenciones
+27	9127	expropiar	expropiar expropiado expropiadas expropió expropiados expropiada expropia expropiaron expropiando expropian expropie expropien
+28	9128	reiterado	reiterado reiteradas reiterada reiterados
+29	9129	paranoia	paranoia paranoias
+30	9130	simbolismo	simbolismo simbolismos
+31	9131	won	won wons wones
+32	9132	pliego	pliego pliegos
+33	9133	mitigar	mitigar mitigado mitiga mitigando mitigan mitiguen mitigados mitigada mitigue mitigó mitigadas
+34	9134	pizca	pizca pizcas
+35	9135	punir	puno pune punas
+36	9136	centeno	centeno centenas centena
+37	9137	fúnebre	fúnebre fúnebres
+38	9138	relator	relator relatores relatora
+39	9139	subversivo	subversivo subversivos subversiva subversivas
+40	9140	icónico	icónico icónica icónicos icónicas
+41	9141	pasatiempo	pasatiempo pasatiempos
+42	9142	indigente	indigentes indigente
+43	9143	sílaba	sílabas sílaba
+44	9144	tala	tala talas
+45	9145	destituido	destituido destituida destituidos
+46	9146	vertido	vertido vertidos vertidas vertida
+47	9147	renombrado	renombrado renombrada renombrados renombradas
+48	9148	expirar	expira expirado expiró expirar expire expiran expirará expiraba expiraron expirara expirada expiren
+49	9149	ario	arias ario arios
+50	9150	caserío	caserío caseríos
+51	9151	electrón	electrones electrón
+52	9152	quehacer	quehacer quehaceres
+53	9153	vengador	vengadores vengador vengadora
+54	9154	tiniebla	tinieblas tiniebla
+55	9155	sitiar	sitiada sitiado sitiados sitiar sitió sitiando sitiaron sitiadas sitia sitiaba sitian sitiaban sitiales
+56	9156	columnista	columnista columnistas
+57	9157	cuerdo	cuerdo cuerdas cuerdos
+58	9158	gravar	gravar graves gravado gravados gravan gravadas gravada graven gravando gravas gravará gravaba
+59	9159	colectividad	colectividad colectividades
+60	9160	marciano	marciano marcianos marciana marcianas marcianito
+61	9161	mejoría	mejoría mejorías
+62	9162	desanimar	desanimes desanima desanimar desanime desanimarse desanimó desanimo desanimen desaniman desanimarte desanimada desanimaron desanimados desanimando desanimarnos
+63	9163	cholo	cholo chola cholos cholas cholita
+64	9164	afilado	afilado afilada afiladas afilados
+65	9165	antro	antro antros
+66	9166	léxico	léxico léxica léxicos léxicas
+67	9167	píxel	pixel píxeles píxel píxels
+68	9168	cargamento	cargamento cargamentos
+69	9169	carnicería	carnicería carnicerías
+70	9170	hotelero	hotelera hotelero hoteleros hoteleras
+71	9171	obstruir	obstruir obstruye obstruyendo obstruido obstruyen obstruida obstruidas obstruidos obstruya obstruyó obstruyan obstruía obstruían obstruyeron
+72	9172	quimioterapia	quimioterapia quimio quimioterapias
+73	9173	orificio	orificio orificios
+74	9174	partícipe	partícipe partícipes
+75	9175	bancada	bancada bancadas
+76	9176	credo	credo credos
+77	9177	enunciado	enunciado enunciados enunciadas enunciada
+78	9178	costero	costero costeros costeras
+79	9179	tea	tea teas teda
+80	9180	innovar	innovar innovando innova innovado innovó innovan innovamos
+81	9181	atestiguar	atestigua atestiguan atestiguar atestiguado atestiguó atestiguada atestiguaron atestiguando atestiguarlo atestigüen atestiguadas atestiguados atestigüe
+82	9182	trascendental	trascendental trascendentales
+83	9183	maní	maní manises maníes
+84	9184	granado	granados granado granadas
+85	9185	cuestionable	cuestionable cuestionables
+86	9186	radiografía	radiografía radiografías
+87	9187	bolo	bolo bolas
+88	9188	nacionalizar	nacionalizado nacionalizar nacionalizada nacionalizó nacionalizados nacionalizadas nacionalizarse nacionaliza nacionalizando nacionalizaron
+89	9189	operario	operarios operario operaria operarias
+90	9190	pulir	pulir puliendo pule pulida pula pulidos pulirlo pulidas pulen pulo pulió pulirla pulirse pulí pulas
+91	9191	afectación	afectación afectaciones
+92	9192	pelotudez	pelotudeces pelotudez
+93	9193	pagano	pagano pagana paganas paganos
+94	9194	descentralizado	descentralizado descentralizada descentralizados descentralizadas
+95	9195	encina	encina encinas encino
+96	9196	cajita	cajita cajitas
+97	9197	destacamento	destacamento destacamentos
+98	9198	uniformado	uniformados uniformado uniformada uniformadas
+99	9199	urbe	urbe urbes
+100	9200	canino	canina canino caninos caninas

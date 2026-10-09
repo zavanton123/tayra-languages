@@ -1,0 +1,100 @@
+1	1001	tuyo	tuyo tuya tuyos tuyas
+2	1002	describir	describe describir describió descrito describen descrita descritos describiendo descritas describía describieron describirlo describa describirse describo describes describían describirla describiría describan describí describimos descripto describirá describiera describirías descripta descriptos describiste descriptas describirlos describirte describirme describiéndolo describirnos describirán describirlas describirle describiré describiremos
+3	1003	representante	representantes representante
+4	1004	jamás	jamás
+5	1005	estructura	estructura estructuras
+6	1006	estación	estación estaciones
+7	1007	agregar	agregar agregó agrega agregado agregando agregan agregados agregaron agrego agregada agregue agregué agregamos agregarle agreguen agregadas agregas agregaría agregaba agregará agregarse agregándole agregaré agregame agregarlo agregaban agregaremos agregarán agreguemos agrégale agregarlos agregara agregaste agregues agregarla agregaran agregarte agregándose agregarlas agregarían
+8	1008	mínimo	mínimo mínima mínimos mínimas
+9	1009	memoria	memoria memorias
+10	1010	concepto	concepto conceptos
+11	1011	prestar	prestar presta prestado prestan preste prestó prestando presto prestados presten prestamos prestada prestarle prestaron prestas prestaba prestadas prestará presté prestes prestaban prestarse prestara prestaría préstame prestarles prestarme prestarán prestarte prestaran prestaste prestos prestarnos prestemos prestándole prestarlo prestame prestaremos prestad prestaré
+12	1012	caja	caja cajas cajetilla cajetillas
+13	1013	aprovechar	aprovechar aprovechando aprovecha aprovechó aprovechan aprovechado aprovecho aprovecharse aproveche aprovecharon aprovechen aproveché aprovechamos aprovechándose aprovecharlo aprovechada aprovechados aprovechaba aprovechas aprovecharla aprovechemos aprovechará aprovechaban aprovechadas aprovecharía aproveches aprovecharlas aprovecharán aprovecharé aprovecharlos aprovechá aprovechara aprovecharan aprovecharte aprovechaste aprovecharemos aprovecharme aprovéchalo aprovechad aprovecharían
+14	1014	lanzar	lanzó lanzar lanzaron lanzan lanzando lance lanzada lanzarse lanzará lanzamos lanzo lanzas lanzaba lanzados lanzaban lancé lanzara lanzadas lances lancen lanzarlo lanzarán lanzarme lanzaría lanzándose lanzarle lanzarte lanzarla lánzate lanzaremos lanzarnos lanzaran lanzarlos lanzaste lanzarlas lanzaré lanzándole lanzarles lanzarían lanze
+15	1015	añadir	añade añadir añadió añadido añadiendo añaden añadidos añadieron añadida añadía añado añadimos añada añadidas añadirle añadiría añades añadí añadirse añadirá añadían añadiremos añadiéndole añadan añadiré añadirán añádele añadiéndose añadirlo añadamos añadas añadiera añadirlos añadirles añadirían añadirla añadirte añadiéndoles añadieran añadid
+16	1016	democracia	democracia democracias
+17	1017	salvar	salvar salvó salvado salve salvando salva salvarse salvaron salvan salvados sálvame salvará salvarlo salvarnos salvarla salven salvada salvemos salvarle salvamos salvarte salvarlos salvarme salvaste salvé salvara sálvese salvas salvadas salvaba salvaría salvarán salvame salvarlas salves salvarles salvándose salvad salvaran salvaremos
+18	1018	americano	americano americana americanos americanas
+19	1019	enemigo	enemigo enemigos enemiga enemigas
+20	1020	recuperar	recuperar recuperado recupera recuperarse recuperó recuperando recupere recuperados recuperan recuperada recuperaron recuperamos recuperarlo recuperarla recuperen recupero recuperará recuperándose recuperadas recuperarme recuperes recuperé recuperas recuperemos recuperaba recuperara recuperarlos recuperaría recuperarte recuperarlas recuperarán recuperaremos recuperarnos recupérate recuperaban recuperándome recuperaré recuperarás recuperaran recuperase
+21	1021	amplio	amplia amplio amplias amplios amplísimo
+22	1022	completamente	completamente
+23	1023	destruir	destruir destruido destruye destruyó destruida destruyendo destruidos destruyen destruyeron destruidas destruya destruirlo destruyan destruirá destruirla destruyo destruiría destruirlos destruirse destruyera destruirte destruía destruimos destruirnos destruirlas destruirán destruyeran destruían destruirme destruirían destruyes destruyas destruiste destruirle destruiremos destruí destruyéndose destruyamos destruyéndolo destruiré
+24	1024	faltar	faltan faltaba faltar faltó falto falte faltado faltando faltaban faltaron faltaría falten faltará faltara faltarle faltos faltas faltes faltarán faltaran falté faltarían faltaste faltase faltarte faltarles faltarme faltamos faltándole faltarnos faltare faltaré faltéis
+25	1025	cliente	clientes cliente clienta clientas
+26	1026	declaración	declaración declaraciones
+27	1027	temporada	temporada temporadas temporadita
+28	1028	impuesto	impuesto impuestos impuesta impuestas
+29	1029	piedra	piedra piedras piedrita piedrecita
+30	1030	saludo	saludos saludo saludito
+31	1031	escena	escena escenas
+32	1032	excelente	excelente excelentes excelentísimo excelentísima excellente
+33	1033	distancia	distancia distancias
+34	1034	básico	básica básicos básico básicas
+35	1035	doble	doble dobles doblo
+36	1036	desaparecer	desaparecer desapareció desaparece desaparecidos desaparecen desaparecieron desapareciendo desaparezca desaparecida desaparecidas desaparecerá desaparezcan desaparecerán desapareciera desaparecería desaparecía desaparezco desaparecían desapareces desaparecieran desaparecerían desapareciste desapareciese desaparecí desparecer desaparezcas desaparecemos desaparecerla desaparecerlo desapareceré desapareciesen
+37	1037	eliminar	eliminar eliminado elimina eliminando eliminados eliminó eliminada eliminan elimine eliminaron eliminadas eliminen eliminarlo eliminará eliminarlos eliminamos eliminarse eliminarla eliminaría elimino eliminarlas eliminarán eliminas eliminara eliminé eliminaba eliminemos eliminaran elimines eliminaban eliminarían eliminaste eliminaremos eliminaré eliminándose eliminarme eliminase eliminarle eliminándolo eliminarás
+38	1038	reino	reino reinos reyno
+39	1039	arreglar	arreglar arreglo arreglos arregla arreglado arregle arreglarlo arregló arreglando arreglan arreglamos arreglaron arreglada arreglen arreglarse arreglados arreglé arreglas arreglaba arregladas arreglarme arreglará arreglarla arreglaría arreglara arreglaran arreglarte arregles arreglemos arreglaban arreglarán arreglarlos arreglaremos arreglarlas arreglaste arreglarle arreglarnos arreglándose arreglaré arreglate
+40	1040	cama	cama camas camita
+41	1041	ocho	ocho ochos
+42	1042	tarea	tarea tareas
+43	1043	crítica	crítica críticas
+44	1044	entrevista	entrevista entrevistas
+45	1045	moderno	moderna moderno modernos modernas
+46	1046	aumento	aumento aumentos
+47	1047	protección	protección protecciones
+48	1048	requerir	requiere requieren requerir requiera requería requerirá requieran requerida requirió requeriría requerían requeridos requeridas requiero requiriendo requieres requerimos requerirán requirieron requerirían requiriera requerirse requieras requiriéndose requiriese requirieran requerirlo
+49	1049	identificar	identificar identificado identifica identificados identifican identificada identificó identificarse identificadas identificaron identifique identificando identifico identificamos identifiquen identificaba identificarlos identificarlo identificas identificaban identificándose identificarme identificarte identificara identificará identificarnos identificarla identifiqué identificarlas identificarán identifiques identificaran identificaría identificarle identifiquemos identifícate identificándolo identificarían identificaremos identificase
+50	1050	solicitar	solicitar solicita solicitó solicitado solicitando solicite solicitan solicitaron solicitada solicito solicitamos solicitados soliciten solicitaba solicitadas solicitará solicité solicitaban solicitarle solicitarlo solicitara solicitarse solicitarla solicitarán solicitas solicitándole solicitaran solicitaría solicitase solicitaste solicites solicitándolo solicitaremos solicitarlos solicitarles solicitándoles solicitarlas solicitaré
+51	1051	cuba	cuba cubas
+52	1052	interesar	interesa interesan interesar interesaba interesó interesados intereses interesarse interesen interesaría interesada interesaban intereso interesadas interesarte interesaron interesara interesas interesarme interesarle interesará interesando interesé interesamos interesándose interesaran interesarnos interese interesarles interesase interesarán interesarían
+53	1053	generación	generación generaciones
+54	1054	recoger	recoger recoge recogida recogido recogen recogiendo recogió recogidos recogidas recogieron recogía recoja recojo recogemos recogerá recojan recogerlo recogí recogían recogerla recogerlos recogiera recogimos recogerlas recogerán recoges recogerse recogerme recogieran recogería recogeremos recogerte recojamos recogeré recojas recogernos recogerle recogiese recogíamos recogerás
+55	1055	positivo	positivo positiva positivos positivas
+56	1056	copa	copa copas copita
+57	1057	creación	creación creaciones
+58	1058	parque	parque parques parquecito
+59	1059	naturaleza	naturaleza naturalezas
+60	1060	suyo	suyo suya suyos suyas
+61	1061	confiar	confiar confía confío confiado confían confió confiamos confiando confías confiaba confíes confio confíe confiada confia confiados confíen confiaron confiemos confié confiaban confian confiaría confias confiarse confie confies confiarle confiara confiadas confien confiaré confiará confiad confiarme confiaste confiarnos confiaran confiábamos confiabas
+62	1062	misión	misión misiones
+63	1063	grave	grave graves gravísimo
+64	1064	acompañar	acompaña acompañar acompañan acompañó acompañando acompañe acompaño acompañada acompañaron acompañaba acompañados acompañará acompañarnos acompañarme acompañaban acompañen acompañarlo acompañara acompañadas acompañas acompañamos acompañarla acompañarte acompañarán acompañé acompañarlos acompañarle acompañaría acompañes acompáñame acompañarse acompañaran acompáñanos acompañándolo acompañaré acompáñenos acompañaremos acompañase acompañarlas acompañarles
+65	1065	discurso	discurso discursos discursito
+66	1066	herramienta	herramientas herramienta
+67	1067	azul	azul azules
+68	1068	debate	debate debates
+69	1069	acordar	acordar acuerda acordado acordó acuerdas acuerdan acordaron acordé acordaba acordamos acuerde acuérdate acordarse acordarme acordate acordada acordando acuerden acordados acuerdes acordas acordás acordará acordadas acordarte acordáis acordara acuérdense acordarás acordaste acordo acordaos acordaré acordarnos acuérdese acordarán acordaran acordaban acordándose acordaros
+70	1070	cercano	cercano cercana cercanos cercanas
+71	1071	expresión	expresión expresiones
+72	1072	listo	listo listos listas
+73	1073	puro	pura puro puros puras purísimo
+74	1074	empleo	empleo empleos
+75	1075	tienda	tienda tiendas tiendita tienditas tiendecita
+76	1076	marcar	marcar marqués marcó marcan marcando marcas marcada marcaron marque marquesa marques marcados marcadas marcaba marcará marquen marqueses marcaría marcamos marcaban marqué marcarán marcara marcarlo marcarse marcaste marce marcarle marquesas marcaran marcarlos marcarte marcarían marcándose marcaremos marcase marquemos marcarme marcarla marquesita
+77	1077	plazo	plazo plazos
+78	1078	venezolano	venezolano venezolanos venezolana venezolanas
+79	1079	delito	delito delitos
+80	1080	empleado	empleados empleado empleada empleadas
+81	1081	secretario	secretario secretaria secretarios secretarias secre
+82	1082	teoría	teoría teorías
+83	1083	pretender	pretende pretenden pretendía pretender pretendo pretendían pretendes pretendemos pretenda pretendiendo pretendido pretendió pretendan pretendida pretendas pretendieron pretendamos pretendéis pretendíamos pretenderá pretendidas pretendiera pretendidos pretenderlo pretendí pretendías pretendería pretenderán pretendimos pretenderé pretendieran pretenderás pretendiese pretendés
+84	1084	comercio	comercio comercios
+85	1085	sostener	sostiene sostener sostuvo sostienen sostenido sosteniendo sostenía sostenida sostén sostuvieron sostengo sostenidos sostenga sostenerse sostenían sostenidas sostenerlo sostendrá sostengan sostenemos sosten sostenes sostenerla sostuve sostendrán sostuvimos sostuviera sostienes sostendría sostenerme sosteniéndose sostenerte sostenerlos sosteniéndolo sostenerle sostendré sostenernos sosteniéndole sostenerlas sosteniéndola
+86	1086	pensamiento	pensamiento pensamientos
+87	1087	agradecer	agradezco agradecer agradecido agradece agradecida agradecidos agradecemos agradecería agradeció agradecerle agradecen agradecerles agradeciendo agradecerte agradecerá agradeceré agradecí agradecieron agradezca agradecidas agradecerán agradecía agradeceríamos agradeces agradezcan agradezcas agradeceremos agradeceros agradeciéndole agradecerme agradezcamos agradecerás agradecerlo agradecé agradécele agradecían agradeciera agradecerían agradecernos agradecele
+88	1088	detrás	detrás
+89	1089	directamente	directamente
+90	1090	límite	límite límites limite limites
+91	1091	papa	papa papas papitas papita
+92	1092	triste	triste tristes tristísimo
+93	1093	diseño	diseño diseños
+94	1094	latino	latina latino latinos latinas
+95	1095	intento	intento intentos
+96	1096	deporte	deporte deportes
+97	1097	idioma	idioma idiomas
+98	1098	enorme	enorme enormes
+99	1099	criticar	critica criticar critican criticado criticando criticó criticas critico criticada critique criticaron criticaba criticaban critiquen criticados criticamos criticarlo criticadas critiques criticarla criticarlos critiqué criticarme criticara criticaran criticarle criticarte criticaría criticará criticarán criticarnos critiquemos criticándolo criticarlas criticaste criticáis criticarse criticándome criticaré
+100	1100	agente	agentes agente

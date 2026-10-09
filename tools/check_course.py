@@ -86,9 +86,11 @@ def load_list(code):
     return ranks, words
 
 
-def tokens(text, code=None, ranks=None):
+def tokens(text, code=None, ranks=None, names=frozenset()):
     if code == "fr":
         return french_tokens(text, ranks)
+    if code == "es":
+        return spanish_tokens(text, ranks, names)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -125,6 +127,46 @@ def french_tokens(text, ranks):
     return out
 
 
+# Object pronouns a Spanish verb can carry at its end, longest first so "les" goes before "le".
+SPANISH_CLITICS = ("los", "las", "les", "nos", "os", "lo", "la", "le", "me", "te", "se")
+UNACCENTED = str.maketrans("áéíóú", "aeiou")
+
+
+def spanish_clitics(word, ranks):
+    """
+    A verb carrying pronouns split into the verb and them, as a learner reads it: levantarse is
+    levantar + se, dándoselo is dando + se + lo, dímelo is di + me + lo. The written accent such a
+    form needs comes off the verb. None when the word does not split that way.
+    """
+    lower = word.lower()
+    for first in SPANISH_CLITICS:
+        if not lower.endswith(first) or len(lower) <= len(first) + 1:
+            continue
+        rest = lower[: -len(first)]
+        for second in ("",) + SPANISH_CLITICS:
+            if second and (not rest.endswith(second) or len(rest) <= len(second) + 1):
+                continue
+            stem = rest[: len(rest) - len(second)] if second else rest
+            for candidate in (stem, stem.translate(UNACCENTED)):
+                # Only forms of verbs carry pronouns; an infinitive, gerund or imperative does.
+                if candidate in ranks and candidate.endswith(("ar", "er", "ir", "ndo", "a", "e", "i", "n", "z", "d")):
+                    return [candidate] + ([second] if second else []) + [first]
+    return None
+
+
+def spanish_tokens(text, ranks, names=frozenset()):
+    """Spanish words split at hyphens, and a verb's attached pronouns counted as words of their own."""
+    out = []
+    for match in WORD.finditer(text):
+        for part in re.split(r"-", match.group(0)):
+            if not part:
+                continue
+            # A name is never a verb with pronouns, though Chile ends like one.
+            split = None if part.lower() in ranks or part.lower() in names else spanish_clitics(part, ranks)
+            out.extend(split or [part])
+    return out
+
+
 def check(path, brief=False):
     course = json.load(open(path, encoding="utf-8"))
     code = course["id"].split("-")[0]
@@ -133,19 +175,28 @@ def check(path, brief=False):
     band_start = up_to - BAND + 1
     need, shortest, longest = rules(up_to)
     names = {fold(code, n.lower()) for n in course.get("names", [])}
+    # In Spanish a name of several words (San José, La Habana) counts as one known word wherever it
+    # is written whole; the earlier languages count such names word by word, as they were written to.
+    long_names = sorted((n for n in course.get("names", []) if " " in n), key=len, reverse=True) if code == "es" else []
     seen_new = set()
     ok = True
     report = []
     for i, lesson in enumerate(course["lessons"], start=1):
-        toks = tokens(lesson["text"], code, ranks)
-        lowered = [fold(code, t.lower()) for t in toks]
+        text = lesson["text"]
+        whole_names = 0
+        for name in long_names:
+            whole_names += text.count(name)
+            text = text.replace(name, " ")
+        toks = tokens(text, code, ranks, names)
+        lowered = [fold(code, t.lower()) for t in toks] + ["\u0000name"] * whole_names
+        names_here = names | {"\u0000name"}
         outside = {}
         known = 0
         for t in lowered:
             # An English possessive ("emma's") counts as its word: the list has few of them.
             if t.endswith(("'s", "’s")) and t not in ranks and len(t) > 2:
                 t = t[:-2]
-            if t in names:
+            if t in names_here:
                 known += 1
                 continue
             rank = ranks.get(t)

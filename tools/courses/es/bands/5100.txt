@@ -1,0 +1,100 @@
+1	5001	debut	debut debuts
+2	5002	subvención	subvenciones subvención
+3	5003	cartón	cartón cartones cartoncito
+4	5004	codo	codo codos coda codas
+5	5005	galaxia	galaxia galaxias
+6	5006	sangriento	sangrienta sangriento sangrientos sangrientas
+7	5007	salarial	salarial salariales
+8	5008	valla	valla vallas
+9	5009	catalogar	catalogo catalogado catalogar catalogada catalogados cataloga catalogadas catalogan catalogó catalogue catalogando catalogarse catalogaron catalogarlo catalogaba cataloguen catalogarla
+10	5010	mojado	mojado mojada mojados mojadas
+11	5011	gastronomía	gastronomía gastronomías
+12	5012	patricia	patricia patricias
+13	5013	contabilidad	contabilidad contabilidades
+14	5014	ingenuo	ingenuo ingenua ingenuos ingenuas
+15	5015	tiroteo	tiroteo tiroteos
+16	5016	emergente	emergentes emergente
+17	5017	auge	auge auges
+18	5018	plantel	plantel planteles
+19	5019	mango	mango mangos
+20	5020	multinacional	multinacionales multinacional
+21	5021	caballería	caballería caballerías cavallería
+22	5022	descontento	descontento descontentos descontenta descontentas
+23	5023	apurar	apure apurar apurate apura apures apúrate apuran apurando apuras apuren apurarse apurada apuró apurados apuraron apuradas apúrense apuré apurarme apuramos apuraba apurarte apúrese apurarlo apurarnos apurara apuremos
+24	5024	nasa	nasa nasas
+25	5025	aproximado	aproximada aproximado aproximados aproximadas
+26	5026	boom	boom bum booms
+27	5027	sucursal	sucursal sucursales
+28	5028	vientre	vientre vientres
+29	5029	sanar	sanar sana sane sanado sanas sanando sanan sanó saná sanada sanará sané sanarse sanen sanara sanados sanarla sanarme sanarán sanaba sanare sanarte sanarlo sanaron sanarnos sanaría sanaré sanes
+30	5030	anticipar	anticipar anticipa anticipó anticipada anticipadas anticipando anticiparse anticipan anticipándose anticipaba anticipamos anticiparon anticipados anticipé anticipaban anticipe anticiparnos anticipen anticiparte anticiparme
+31	5031	arabio	arabia
+32	5032	catorce	catorce
+33	5033	estrictamente	estrictamente
+34	5034	genética	genética
+35	5035	gimnasia	gimnasia
+36	5036	históricamente	históricamente
+37	5037	honestidad	honestidad
+38	5038	humildad	humildad
+39	5039	noreste	noreste
+40	5040	noventa	noventa
+41	5041	prostitución	prostitución
+42	5042	técnicamente	técnicamente
+43	5043	hostil	hostil hostiles
+44	5044	medición	medición mediciones
+45	5045	largar	lárgate largar largó largue largarse larga largan largarme larguen largué largado largaron largada largate largamos largando largaba largas largarte lárguese lárguense largues largaste largara largará largarnos largá largarlo
+46	5046	semi	semi semis
+47	5047	email	email emails
+48	5048	cabecera	cabecera cabeceras
+49	5049	salado	salado salada saladas salados saladito
+50	5050	comunal	comunal comunales
+51	5051	rubro	rubro rubros
+52	5052	liquidar	liquidar liquido liquida liquidado liquidó liquidando liquide liquidaron liquidan liquidada liquidados liquidarlo liquiden liquidas liquidadas liquidará liquidarán liquidarla liquidarlos liquidarse liquidamos liquides liquidaba liquidara
+53	5053	soto	soto sotos
+54	5054	cintura	cintura cinturas cinturita
+55	5055	regar	regar riega regala regalos regando rega regado rego regados regada riegan regadas regale regate regó regaron regalas regaba riegue regates regarla rege regamos regarse riegas regué regarlas regarlo regales rieguen regas regaste regaban regás riegues regara
+56	5056	milenio	milenio milenios
+57	5057	chorro	chorro chorros chorrito chorrillo
+58	5058	ascensor	ascensor ascensores
+59	5059	huésped	huéspedes huésped
+60	5060	auditorio	auditorio auditoria auditorias auditorios
+61	5061	adicción	adicción adicciones
+62	5062	vomitar	vomitar vomito vomitando vomita vomite vomité vomitado vomitó vomitan vomitaba vomitas vomitada vomiten vomitaron vomites vomitaste
+63	5063	desgraciado	desgraciado desgraciados desgraciada desgraciadas
+64	5064	agotado	agotado agotada agotados agotadas
+65	5065	optimista	optimista optimistas
+66	5066	cédula	cédula cédulas cedula
+67	5067	habilitar	habilitar habilita habilitó habilitados habilitada habilitan habilitaron habilite habilitando habilitadas habiliten habilitará habilitaba habilitarán habilitarse habilitarlo habilito habilitamos habilitaría habilitara habilitaban
+68	5068	evacuar	evacuar evacuados evacuado evacuadas evacuada evacuaron evacuó evacuando evacua evacúa evacuan evacúen evacúan evacuarlos evacuaran evacúe evacuamos evacuen evacuará evacuaba evacue evacuara evacuarla evacuarlo evacuarse evacuaban
+69	5069	pulso	pulso pulsos
+70	5070	honorario	honorarios honorario honoraria honorarias
+71	5071	plantación	plantaciones plantación
+72	5072	alimenticio	alimenticios alimenticia alimenticio alimenticias
+73	5073	dron	drones dron drone
+74	5074	tornar	torna tornó tornan tornaron tornarse tornando torne tornar tornándose tornaba tornas tornará tornen tornaría torné tornaban tornados tornara tornaran
+75	5075	icono	icono iconos ícono icona
+76	5076	atrevido	atrevido atrevida atrevidos atrevidas
+77	5077	constructivo	constructiva constructivo constructivas constructivos
+78	5078	estrellar	estrelló estrellado estrellarse estrellada estrellas estrellar estrellados estrellan estrellaron estrelle estrellándose estrelladas estrellara estrello estrellando estrellaba estrellen estrellarme estrellará estrelles estrellarlo estrellamos
+79	5079	barril	barril barriles barrilito
+80	5080	poblador	pobladores poblador pobladoras pobladora
+81	5081	lora	lora loro loros loras lorito loritos
+82	5082	escalar	escalar escalando escalado escaló escalas escalan escalaron escale escalo escalares escaladas escalaba escales escalarlo escalé escalamos escalara escalarla escalará
+83	5083	huerta	huerta huertas
+84	5084	detective	detective detectives
+85	5085	karma	karma karmas
+86	5086	sargento	sargento sargentos
+87	5087	semifinal	semifinales semifinal
+88	5088	salina	salinas salina
+89	5089	conducción	conducción conducciones
+90	5090	manta	manta mantas mantita
+91	5091	melodía	melodía melodías
+92	5092	acogida	acogida acogidas
+93	5093	bacteria	bacterias bacteria
+94	5094	transcurso	transcurso trascurso
+95	5095	balear	baleares balear baleado balears baleados baleada balearon baleó balean baleadas baleo balea
+96	5096	patear	patear pateando patea pateó pateo patearon patean pateado pateamos patee pateaba patearle pateada pateas patearlo pateen pateaban patearme patearla patearles patearte pateados pateé
+97	5097	competidor	competidores competidor competidora competidoras
+98	5098	sustentar	sustenta sustentar sustentan sustentado sustentada sustente sustentados sustentarse sustentadas sustenten sustentaba sustentó sustentando sustentaban sustentará sustentaron sustentara sustentarlo
+99	5099	nostalgia	nostalgia nostalgias
+100	5100	agitar	agitar agita agitando agitada agitan agitó agite agitaba agitados agitaron agitaban agito agitarse agitadas agitas agitándose agitarla agiten agitarlo agitamos agites agité

@@ -1,0 +1,100 @@
+1	2101	docente	docente docentes
+2	2102	signo	signo signos
+3	2103	intenso	intenso intensa intensas intensos intensísimo
+4	2104	rock	rock rocks
+5	2105	capa	capa capas
+6	2106	ocurrido	ocurrido ocurridos ocurrida ocurridas
+7	2107	ciclo	ciclo ciclos
+8	2108	turno	turno turnos
+9	2109	nieto	nieto nietos nieta nietas
+10	2110	voluntario	voluntarios voluntario voluntaria voluntarias
+11	2111	sano	sano sana sanos sanas sanito
+12	2112	boda	boda bodas
+13	2113	norteamericano	norteamericano norteamericana norteamericanos norteamericanas
+14	2114	entorno	entorno entornos
+15	2115	granada	granada granadas
+16	2116	respirar	respirar respira respiro respirando respiraba respiran respiramos respiras respire respires respiren respiró respirado respiré respirara respiraban respiros respiremos respiraron respirarlo respirá
+17	2117	aprobado	aprobado aprobada aprobados aprobadas
+18	2118	incendio	incendio incendios
+19	2119	descargar	descargar descargas descargo descargado descargue descargando descargarse descargan descargó descargarlo descargada descarguen descargados descargué descargarla descargadas descargarte descargaron descargarme descargues descárgate descargarlos descargos descargaba descargamos descargarlas descargaste descargate descargaban descargará descárgalo descargara descargala descargarán descargaría descarge descargá descargándose descargalo descargaré
+20	2120	ausencia	ausencia ausencias
+21	2121	olímpico	olímpicos olímpico olímpica olímpicas
+22	2122	pasajero	pasajeros pasajero pasajera pasajeras
+23	2123	metal	metal metales
+24	2124	residencia	residencia residencias
+25	2125	fácilmente	fácilmente
+26	2126	iv	iv
+27	2127	documental	documental documentales
+28	2128	existente	existentes existente
+29	2129	conformar	conforman conformado conforma conformar conformada conformarse conformo conformando conformó conformaron conformamos conformaban conformados conformaba conformarnos conformadas conformaría conformen conformarme conformes conformarte conformarán conformará conformas conformándose conformarían conformemos conformaré conformaremos confórmate conformaran conformara conformé conformate
+30	2130	atravesar	atraviesa atravesar atravesando atraviesan atravesado atravesó atravesaba atravesaron atravesada atravesamos atraviese atravesaban atravesados atravesadas atravesará atraviesen atravesé atravesarlo atravesara atravesaría atravesarla atraviesas atravieso atravesarán atravesaran atravesaremos atravesarlas atravesarlos atravesándolo atravesarse atravesarle atravesándole atravesándola
+31	2131	estúpido	estúpido estúpida estúpidos estúpidas
+32	2132	clasificar	clasificados clasificar clasificado clasifica clasificada clasificó clasifican clasificadas clasificarse clasificaron clasificando clasificamos clasifique clasificará clasificarán clasificarlos clasifico clasificaba clasificarlo clasificaría clasifiquen clasificaban clasificarlas clasificándose clasificarla clasificándolos clasificaran clasificara clasificas
+33	2133	obispo	obispo obispos obispa
+34	2134	fresco	fresco fresca frescos frescas fresquito
+35	2135	limitado	limitado limitada limitados limitadas
+36	2136	pacífico	pacífico pacífica pacíficos pacíficas
+37	2137	lástima	lástima lata latas latita lástimas
+38	2138	débil	débil débiles
+39	2139	petición	petición peticiones
+40	2140	et	et ets
+41	2141	ejecución	ejecución ejecuciones
+42	2142	riqueza	riqueza riquezas
+43	2143	desaparecido	desaparecido desaparecidos desaparecida desaparecidas
+44	2144	ambiental	ambiental ambientales
+45	2145	formato	formato formatos
+46	2146	cantante	cantante cantantes
+47	2147	dignidad	dignidad dignidades
+48	2148	piloto	piloto pilotos pilota
+49	2149	fila	fila filas
+50	2150	orgullo	orgullo orgullos
+51	2151	distinguir	distinguir distingue distinguido distinguen distinguidos distinguida distinguió distinguirse distingo distinguía distinguidas distinguirlos distinga distinguimos distinguirlo distinguían distinguiéndose distinguiendo distinguieron distinguirla distinguirlas distingan distingos distinguirá distingues distinguiría distinguiera distingamos distinguirnos distinguí
+52	2152	planear	planea planeando planear planean planeaba planeo planeó planeas planeamos planearon planeaban planeada planearlo planee planeados planeadas planeé planeaste planeen planees planeábamos planeara planearse
+53	2153	fabricar	fabrica fabricar fabricado fabricados fabrican fabricada fabricadas fabricando fabricó fabricas fabricaron fabricaba fabricaban fabricamos fabrique fabricarse fabriquen fabrico fabricarlos fabricarlo fabricará fabricarán fabricarlas fabricarla fabricaran fabricara fabriqué
+54	2154	editar	editado editar editada edita editó editadas editados editando editan edito editarlo editaron edite editaba edité editará editarse editas editamos editen editarla editara editarlos editaban editarlas editarán edites editaré editaría editaste
+55	2155	oriente	oriente orientes
+56	2156	agricultura	agricultura
+57	2157	únicamente	únicamente
+58	2158	esclavo	esclavos esclavo esclava esclavas
+59	2159	conservador	conservador conservadores conservadora conservadoras
+60	2160	federación	federación federaciones
+61	2161	porcentaje	porcentaje porcentajes
+62	2162	templo	templo templos
+63	2163	besar	besar besa besó besando bésame besarte besado besarla besan besas besarse besamos bese besándose besaba besarme besé besarle besarlo besaron besarnos beses besaste besen bésala besaban besame besara besada besaría besándonos besaré besándome besándola besándole besándolo besaran besándote besabas besarlos
+64	2164	entrenamiento	entrenamiento entrenamientos
+65	2165	concentración	concentración concentraciones
+66	2166	baile	baile bailes
+67	2167	relativo	relativa relativo relativos relativas
+68	2168	tormenta	tormenta tormentas
+69	2169	caro	caro caros caras carísimo carillo
+70	2170	mm	mm mms
+71	2171	votación	votación votaciones
+72	2172	reto	reto retos
+73	2173	quejarse	quejarse quejan quejas quejo quejándose quejó quejaba quejarme quejarte quejado quejamos quejes quejaron queje quejaban quejarnos quejándote quejé quejándome quejaría quejándonos quejabas quejará quejara quéjate quejaran quejaste quejáis quejarán quejaré quejaros quejábamos quejás quejéis quejarás quejate
+74	2174	transmisión	transmisión transmisiones trasmisión
+75	2175	margen	margen márgenes márgen
+76	2176	fiel	fiel fieles
+77	2177	finalizar	finalizar finaliza finalizó finalizado finalizada finalizando finalice finalizaron finalizan finalizará finalizaba finalizadas finalizados finalizara finalizamos finalizo finalicen finalizaría finalizarlo finalizarla finalizaran finalizaban finalizarán finalizarse finalizase
+78	2178	nuclear	nuclear nucleares nucleo nuclea nucleados nucleadas nuclean
+79	2179	laboratorio	laboratorio laboratorios
+80	2180	acontecimiento	acontecimientos acontecimiento
+81	2181	gracioso	gracioso graciosa graciosos graciosas graciosísimo
+82	2182	evidente	evidente evidentes
+83	2183	ciego	ciego ciega ciegos ciegas
+84	2184	convenir	conviene convenga convendría convenía convienen convenir convenido convengamos convenida convino convengan convenidos convinieron convendrá convengo convenidas convenimos conviniera convenían conven conviniendo convine convinimos
+85	2185	homenaje	homenaje homenajes
+86	2186	pendejo	pendejo pendejos pendeja pendejas pendejito
+87	2187	negociación	negociaciones negociación
+88	2188	combatir	combatir combatiendo combates combaten combatió combatido combatirlo combatieron combatirla combatirlos combatían combatía combatimos combata combatirá combatida combatan combatirlas combatidas combatiremos combatirán combato combatirse combatiera combatiré combatí combatidos combatiría combatamos
+89	2189	fruto	fruto frutos
+90	2190	curioso	curioso curiosa curiosos curiosas
+91	2191	cancelar	cancelar cancelado canceló cancela cancelada cancelaron cancelados cancele cancelan canceladas cancelen cancelo cancelando cancelarlo cancel cancelará cancelas cancelara cancelarse cancelarla cancelé canceles cancelarán cancelaba cancelaría cancelaran cancelamos cancelaban cancelarlos cancelarían cancelaste cancelarle
+92	2192	progreso	progreso progresos
+93	2193	establecimiento	establecimiento establecimientos
+94	2194	princesa	princesa princesas princesita
+95	2195	gloria	gloria glorias
+96	2196	relacionar	relaciona relacionan relacionados relacionarse relacionar relacionadas relaciones relacionada relacione relacionó relacionaba relacionando relacionen relacionarme relacionarnos relacionarlo relacionamos relaciono relacionaban relacionaron relacionarte relacionales relacionas relacionara relacionándose relacionándolo relacionarla relacionarlos relacioné relacionará relacionándola relacionarán relacionaría relacionándolos relacionarlas relacionaran
+97	2197	techo	techo techos
+98	2198	amante	amante amantes
+99	2199	traducir	traduce traducir tradujo traducen traducida traducirse traducidos traduzca traduciendo traducidas traducirlo traduzco tradujeron traduciría traducía traducirá traduzcan traduje traducimos traducirla tradujera traducirlos traducirán traducían traducirlas traduciéndose traduces traduciré traducirían tradujeran traduciéndolo traduzcas
+100	2200	tensión	tensión tensiones

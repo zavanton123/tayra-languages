@@ -1,0 +1,100 @@
+1	701	amo	amo ama amas amos
+2	702	corto	corto corta cortos cortas cortito cortita cortitos cortísimo cortitas cortico
+3	703	época	época épocas
+4	704	cuestión	cuestión cuestiones
+5	705	acerca	acerca
+6	706	acá	acá
+7	707	encima	encima
+8	708	disfrutar	disfrutar disfruta disfrutando disfrute disfrutan disfruten disfrutado disfruto disfrutes disfruté disfrutamos disfrutaba disfrutarlo disfrutó disfrutas disfrutaron disfrútalo disfrutarla disfrutemos disfrutarán disfrutaban disfrutará disfrutad disfrutarás disfrutalo disfrutá disfrutarlos disfrutaremos disfrutéis disfrutara disfrutaría disfrutaste disfrutarlas disfrutaré disfrutaran disfrútala disfrútenlo disfrutaras disfrutadlo disfrutada
+9	709	sueño	sueño sueños sueñito
+10	710	vía	vía vías
+11	711	actuar	actuar actúa actuando actúan actuales actuó actuado actúe actuaron actuaba actúen actuará actuamos actua actuaban actuarán actuara actúas actuaría actúo actuemos actuan actúes actué actuaran actuada actuarían actuo actue actuen actuas actuase actuaremos actuados actuaste actuadas actuaré actuasen actuáramos actues
+12	712	extranjero	extranjero extranjeros extranjera extranjeras
+13	713	aplicar	aplicar aplica aplicado aplican aplicada aplicando aplicadas aplicarse aplicó aplique aplicará aplicados aplicaron apliquen aplicarán aplicaba aplicarlo aplicamos aplicarla aplico aplicaría aplicara aplicarle aplicas aplicarlas aplicaban aplicarlos apliques apliqué aplicaran apliquemos aplicándose aplicarles aplicarían aplícate aplicase aplicaremos aplicándole aplicarte aplicarme
+14	714	motivo	motivo motivos
+15	715	directo	directo directa directos directas
+16	716	maría	maría mari marías mª maris marucha
+17	717	canal	canal canales canalillo
+18	718	nacer	nació nace nacer nací nacen nacieron naciste nacidos nazca nacida nacimos naciera nacía nacemos naciendo nacerá nazcan naces nacidas nacerán nacían nacería nacieran naciese nacieras nacerían nazcas nazco nacisteis nacés
+19	719	jugador	jugadores jugador jugadora jugadoras
+20	720	estudiante	estudiantes estudiante
+21	721	quitar	quitar quito quitado quitarle quitó quitan quite quitaron quitando quitarse quiten quitarme quitarte quitas quitamos quitarles quitarnos quitaba quites quitará quítate quitaría quité quitara quitaran quitándole quitarlo quitarán quitaban quitarla quitate quitaste quítame quitándose quítale quitemos quitarlos quitada quitaré quitarían
+22	722	esposa	esposa esposo esposas esposos esposito
+23	723	mover	mueve mover moverse mueven movida moviendo movido movió mueva movía moverte muevo moverme moviéndose movidas movieron muevan movemos mueves movernos muevas movían movidos moverá moviera moví moverlo muévete movería moverla moverán moverlos movieran movimos movete moverle movamos moveremos moverlas moved
+24	724	ayer	ayer ayeres
+25	725	mediante	mediante mediantes
+26	726	ah	ah
+27	727	especialmente	especialmente
+28	728	edificio	edificio edificios
+29	729	extraño	extraño extraña extraños extrañas estraño extrañísimo
+30	730	ministerio	ministerio ministerios
+31	731	ocupar	ocupa ocupar ocupan ocupó ocupando ocupada ocupaba ocupados ocuparon ocuparse ocupe ocupo ocupaban ocupará ocupen ocupadas ocupamos ocupas ocuparnos ocupara ocuparme ocuparía ocuparán ocupándose ocuparemos ocuparan ocuparé ocupé ocuparían ocúpate ocupemos ocuparte ocupes ocuparlo ocupase ocuparla ocúpense ocupate ocupémonos ocupare
+32	732	construcción	construcción construcciones
+33	733	abandonar	abandonar abandonado abandono abandonó abandona abandonada abandonados abandonaron abandonan abandonando abandonadas abandone abandonen abandonarlo abandones abandoné abandonara abandonará abandonaría abandonamos abandonarla abandonaba abandonaran abandonas abandonos abandonaban abandonaste abandonase abandonemos abandonarán abandonarlos abandonarte abandonaré abandonarse abandonarían abandonarme abandonaremos abandonarnos abandonarle abandonarlas
+34	734	comisión	comisión comisiones
+35	735	animal	animales animal animalito animalillo
+36	736	joder	joder joda jodido jode jodan jodida jodiendo jodas jodidos joden jodió jodete jodes jodidas joderme jodo joderse jodieron joderte jodiste jodemos jodernos joderlo jodeme joderle jodería jodimos jodía jodí jódete jodamos joderla joé joderlos jodiera jódanse joderles joderá jodían jobar
+37	737	banda	banda bandas bandita
+38	738	opción	opción opciones
+39	739	preparar	preparar prepara preparando preparados preparan preparada prepararse preparó prepárate preparaba preparo prepare preparamos preparándose prepararon preparen preparadas preparaban prepararnos preparé prepárense prepararme prepararlo preparate prepararte preparas preparará preparándome prepararla prepararlos preparara prepares prepárese preparándonos preparaos preparad prepararemos prepararle preparase prepararán
+40	740	capacidad	capacidad capacidades
+41	741	informar	informó informa informar informaron informes informan informando informarse informados informamos informales informo informada informaba informarle informen informarte infórmate informará informarme informarles informarnos informate informara informé informadas informaremos informarán informándole informaban infórmese informas informaros informaran informarlo informaré informaría informase informándoles informándose
+42	742	defensa	defensa defensas
+43	743	propiedad	propiedad propiedades propriedad
+44	744	expresar	expresa expresar expresó expresado expresan expreso expresarse expresando expresada expresaron exprese expresaba expresadas expresados expresas expresarme expresen expresarlo expresamos expresarte expresaban expresé expresarle expresarnos expresara expresos expresándose expresará expresarla expresarlas expresarles expresaran expreses expresarán expresaría exprésate expresarlos expresemos expresaste expresaré
+45	745	personaje	personaje personajes
+46	746	robar	robar robado robaron roba roban robando robó robados robarle robada roben robe robadas robaste robas robaba robarte robarse robarme robaban robé robarnos robamos robarles robaran robes robara robarlo robándole robaría robarán robará robándose robarla robarlos róbalo robándome robaré robarían robarás
+47	747	solar	suele suelen solar solares solemos suela solá sueles suelas solé soló solarte solado solados soléis suelan
+48	748	regresar	regresar regresa regresó regrese regresan regresado regresaron regresando regresen regresaba regresé regresará regresamos regresara regresaría regreses regresas regresaban regresarán regresemos regresaran regresaré regresaremos regresarían regresaste regresarías regresarlo regresarme regresaras regresarás regresare regresarte regresados regresarle regresarse regresábamos regresase regrésate regresarlos regresada
+49	749	enseñar	enseñar enseña enseñó enseñado enseñan enseñando enseño enseñaron enseñe enseñarle enseñarles enseñaba enseñaste enseñas enseñarme enseñamos enseñarnos enseñarte enseñen enseñará enseñes enseñé enseñaban enseñaré enséñame enseñara enseñaremos enseñándole enséñale enseñarán enseñándoles enseñare enseñarlo enseñados enseñaros enseñada enseñarse enseñaran enseñaría enseñame
+50	750	oír	oye oír oiga oyó oigan oídos oigo oí oyen oyendo oyes oía oyeron oímos oírlo oían oírla oirá oírle oyera oíste oírte oírse oigamos oíd oirás oís oírlos oírme oídas oigas oirán óyeme oírlas oída oiremos oiría oyeran oíamos oíros
+51	751	colegio	colegio colegios
+52	752	operación	operación operaciones
+53	753	andar	andar andan andes ando andaba andando ande andamos andaban andas anduvo anden andado anduve andabas andará andaría andadas andábamos anduvieron ándale ándate andarse andares anduviera andemos anduvimos andarán andaré anduviste andás andate andara andáis andarás andaremos andarme andá anduvieran andad
+54	754	afectar	afecta afectan afectar afecto afectados afectó afectadas afectando afectada afecte afectará afecten afectaron afectaría afectos afectaba afectaban afectarán afectara afectarían afectas afectarte afectaran afectarle afectarme afectarnos afectarse afectase afectarlo afectarles afectarla afectarlos afectasen
+55	755	espera	espera esperas
+56	756	proponer	propone propuesto propuso proponer propongo proponen propuestas propuestos proponiendo proponemos propusieron proponía propuse propones proponga propongan propondrá proponían proponerle propusimos propusiera propondría propongas proponerse proponerte propongamos propondrán proponerlo proponerles proponerme propusiste propondré propusieran propón propondremos proponiéndole proponernos proponéis proponiéndose proponeros
+57	757	costa	costa costas
+58	758	encantar	encanta encantaría encantan encantó encantaba encantar encantará encantaron encantada encantaban encante encantando encantas encantara encantarán encantadas encantarte encanten encantarme encantarían encantaran encantaste
+59	759	conocimiento	conocimiento conocimientos
+60	760	oro	oro oros
+61	761	documento	documentos documento
+62	762	vecino	vecinos vecino vecina vecinas vecinito
+63	763	plata	plata platas platita
+64	764	congreso	congreso congresos
+65	765	institución	instituciones institución
+66	766	propuesta	propuesta propuestas
+67	767	determinar	determinar determinado determinada determinados determinadas determina determinó determinan determine determinará determinaron determinen determinando determinarán determinarse determinaba determinara determinarlo determinaría determinamos determino determinaran determinaban determinas determinándose determinase determinarían determinaremos determiné determinemos determines determinarla
+68	768	reducir	reducir reducido reduce reducida redujo reduciendo reducen reducidos reducidas redujeron reduzca reducirse reducirá reduciría reduzcan reducía reducirlo reducirán reduciéndose redujera reducimos reducirla reducirlos reducirían reducían reduces redujeran reducirlas reduzco reducirle reduje reduciremos reduciéndolo redujimos reduzcamos reduciéndola redujese reduzcas reducirnos reduciéndolos
+69	769	lejos	lejos lejísimos lejitos
+70	770	energía	energía energías
+71	771	ex	ex exes
+72	772	luis	luis luises
+73	773	adelante	adelante
+74	774	arriba	arriba
+75	775	acceso	acceso accesos
+76	776	domingo	domingo domingos
+77	777	candidato	candidato candidatos candidata candidatas
+78	778	anunciar	anunció anuncia anunciado anunciar anunciaron anuncian anunciada anunciando anunciaba anunciados anuncie anunciadas anunciará anunciamos anunciaban anunciara anuncien anunciarse anunciarlo anunciarán anunciaremos anuncié anunciarles anunciaran anunciaría anunciarle anunciase anuncias anunciaré anunciaros anunciarte anunciándose anunciemos anunciarme anunciándolo anunciarla anunciarnos anunciarían anunciándole anúnciate
+79	779	proteger	proteger protege protegido protegida protegidos protegidas protegen proteja protegerse protegiendo protegerla protegerlos protejan protegerlo protegía protegernos protegerte protegió protegerá protegían protegemos protegerme protegerlas protegiera protegería protegerán protegieron protejo protejamos proteges protegerle protegerles protégete protegeremos protegieran protegeré protegiéndolo protegiéndola protegiéndose protegerían
+80	780	hermoso	hermosa hermoso hermosas hermosos hermosísimo
+81	781	interesante	interesante interesantes interesantísimo
+82	782	radio	radio radios radium
+83	783	evento	evento eventos
+84	784	versión	versión versiones
+85	785	curso	curso cursos cursillo cursito
+86	786	tecnología	tecnología tecnologías
+87	787	venta	venta ventas ventilla
+88	788	normal	normal normales normalito
+89	789	boca	boca bocas boquita boquitas bocota
+90	790	dolor	dolor dolores
+91	791	planta	planta plantas llantas llanta plantita
+92	792	fuego	fuego fuegos
+93	793	original	original originales
+94	794	especie	especie especies
+95	795	entregar	entregar entregó entregado entregan entregaron entregados entregada entregando entregue entrego entregará entreguen entregadas entregarle entregarse entregas entregamos entregaba entregara entregarán entregarlo entregué entregaban entregarte entregarme entregaría entregarla entregarles entregaran entregarlos entregarnos entregues entregaremos entregaste entregarlas entregaré entregándole entregándose entregarían entreguemos
+96	796	legal	legal legales
+97	797	similar	similar similares
+98	798	indicar	indica indican indicar indicó indicando indique indicaba indicada indicaron indicaban indicados indicadas indico indiquen indicará indicaría indicamos indicara indicarnos indicas indicarle indicarme indicarán indicándole indiqué indicarse indicaremos indicarlo indiques indicarían indicaré indicaran indicarles indicándoles indicarte indicándose indícanos indícame indicase indicándonos
+99	799	práctica	práctica prácticas
+100	800	familiar	familiar familiares

@@ -1,0 +1,100 @@
+1	2701	mineral	minerales mineral
+2	2702	musulmán	musulmanes musulmana musulmán musulmanas
+3	2703	derrotar	derrotar derrotado derrotó derrotados derrotada derrotas derrotaron derrotando derrotarlo derrotadas derrotan derrotarlos derrote derrotará derrotamos derrotara derrotaba derroto derrotarla derrotaremos derrotaría derrotarle derroten derrotarán derrotaran derrotemos
+4	2704	helado	helado helados helada heladas
+5	2705	multitud	multitud multitudes
+6	2706	programar	programado programar programada programados programadas programas programó programando programan programaron programe programamos programo programen programarlo programarse programaba programé programarla programes programará programarán programara programaran
+7	2707	absurdo	absurdo absurda absurdas absurdos
+8	2708	ácido	ácido ácidos ácida ácidas
+9	2709	destrucción	destrucción destrucciones
+10	2710	combinación	combinación combinaciones
+11	2711	misterio	misterio misterios
+12	2712	carecer	carece carecen carecía carecer carecían carecemos carezca careciendo careció carezco careces carezcan carecido carecieron carecería carecerá carecerán careciera
+13	2713	vigilancia	vigilancia vigilancias
+14	2714	insultar	insultar insulta insultando insultado insultan insultó insulte insultas insulten insultes insultarme insultaron insultaba insultarlo insultaban insultarte insultados insultada insultarnos insulté insultarla insultarlos insultándome insultarle insultaste insultara insultarse insultamos insultaría insultaran insultemos insultándolo insultadas
+15	2715	concha	concha conchas conchita
+16	2716	acostar	acosta acostarse acostarme acuesta acostar acuesto acosté acostarte acostó acuestan acueste acostaba acuestas acostamos acostada acostaré acostaron acuéstate acostarnos acostando acuestes acostándose acostados acoste acostaste acostara acostaría acuesten acuéstese acostaban acosto acostándome acostarás acostate acostará acostas acostadas
+17	2717	escalera	escalera escaleras escalerita
+18	2718	renuncia	renuncia renuncias
+19	2719	trasero	trasero trasera traseros traseras
+20	2720	fama	fama famas
+21	2721	identificación	identificación identificaciones
+22	2722	transición	transición transiciones
+23	2723	eje	eje ejes
+24	2724	corporación	corporación corporaciones
+25	2725	acusación	acusaciones acusación
+26	2726	inspirar	inspira inspiró inspirar inspiran inspiraron inspirada inspire inspirarse inspirados inspirando inspirándose inspiraba inspiro inspiradas inspiren inspirará inspiras inspirarnos inspiré inspirarme inspirarte inspiramos inspiraste inspiraban inspirara inspiraría inspirarán inspirarles inspírate inspirarlos inspires inspirándome
+27	2727	cumplimiento	cumplimiento cumplimientos
+28	2728	vendedor	vendedor vendedores vendedora vendedoras
+29	2729	caribe	caribe caribes
+30	2730	lanzado	lanzado lanzada lanzados lanzadas
+31	2731	ideología	ideología ideologías
+32	2732	fortalecer	fortalecer fortalece fortaleciendo fortalecido fortalecen fortaleció fortalecerá fortalezca fortalecida fortalecerse fortalecidos fortalecieron fortalezcan fortalecerán fortaleciéndose fortalecidas fortalecemos fortalecería fortalecernos fortalecerlo fortalecía fortalecerla fortalecerlos fortaleciera fortalecían fortalecerte fortaleceremos fortaleces
+33	2733	anillo	anillo anillos anillito
+34	2734	opuesto	opuesto opuestos opuesta opuestas
+35	2735	pronunciar	pronunció pronuncia pronunciar pronunciarse pronuncian pronuncie pronunciaron pronunciada pronunciando pronunciaba pronunciadas pronuncio pronunciará pronuncien pronunciamos pronunciarlo pronunciara pronunciados pronuncias pronunciaban pronunciándose pronuncié pronunciaría pronunciarla pronunciarme pronunciaran pronunciase pronunciarlas pronuncies pronúnciese pronunciarnos pronunciarán pronunciaste
+36	2736	oscar	oscar
+37	2737	harto	harto harta hartos hartas
+38	2738	cometido	cometido cometidos cometidas cometida
+39	2739	desayuno	desayuno desayunos
+40	2740	caza	caza cazas
+41	2741	cerdo	cerdo cerdos cerda cerdas cerdito cerditos ceda cerdita
+42	2742	asustar	asusta asustar asustan asustó asuste asustada asustes asustados asusto asustando asusté asustaba asustaron asustarse asusten asustarme asustarte asustas asustarnos asustaste asustaban asustadas asustarlos asustamos asustarlo asustaría asustéis asustarla asustara asustarán asustaran asustará asustarle
+43	2743	aprendizaje	aprendizaje aprendizajes
+44	2744	institucional	institucional institucionales
+45	2745	desempeñar	desempeña desempeñar desempeñó desempeñado desempeñan desempeñaba desempeñando desempeñarse desempeñaron desempeñen desempeñaban desempeñe desempeñará desempeñados desempeñarán desempeñándose desempeñadas desempeñada desempeñaría desempeñara desempeñas desempeñamos desempeñarlo desempeñé desempeñarían
+46	2746	demonio	demonio demonios
+47	2747	variable	variables variable
+48	2748	romántico	romántico romántica románticos románticas
+49	2749	africano	africano africanos africana africanas
+50	2750	posesión	posesión posesiones
+51	2751	etiqueta	etiqueta etiquetas
+52	2752	gil	gil giles gila
+53	2753	gesto	gesto gestos
+54	2754	extenso	extensa extenso extensas extensos extensísimo
+55	2755	básicamente	básicamente basicamente
+56	2756	vigente	vigente vigentes
+57	2757	che	che ches
+58	2758	reglamento	reglamento reglamentos
+59	2759	pelotudo	pelotudo pelotudos pelotuda pelotudas
+60	2760	integración	integración integraciones
+61	2761	realización	realización realizaciones
+62	2762	ejemplar	ejemplares ejemplar
+63	2763	creciente	creciente crecientes
+64	2764	práctico	práctico prácticos prácticas
+65	2765	jean	jean jeans
+66	2766	convenio	convenio convenios
+67	2767	hundir	hundido hunde hundió hundir hundiendo hundirse hundidos hunden hundida hunda hundieron hundía hundiéndose hundo hundimos hundirme hundidas hundirá hundan hundirnos hundiera hundirlo hundirte hundes hundiría hundí hundían hundirla hundirán hundas hundirlos hundieran hundirle hundiéndome hundirían
+68	2768	demandar	demandar demandado demandan demandó demandada demandados demandando demandas demande demandaron demandaba demanden demandará demandadas demando demandaban demandamos demandarán demandaría demandarlo demandarlos demandara demandarte demandarle demandarían demandase demandaremos demandarla demandes demandaran demandare
+69	2769	encender	encender enciende encendió encienden encendida encendidas encendiendo encendieron encienda enciendo encendidos encenderse encendí encendía enciendan enciendes encenderlo encenderá encendían encendemos encenderla encendiera encendimos enciendas encendiste encendieran encenderán encendamos encendería encendiéndose encenderé encenderlas encenderme
+70	2770	expectativa	expectativas expectativa espectativa
+71	2771	apropiado	apropiado apropiada apropiados apropiadas
+72	2772	vital	vital vitales
+73	2773	asesor	asesor asesores asesora asesoras
+74	2774	amable	amable amables
+75	2775	conservación	conservación
+76	2776	constantemente	constantemente
+77	2777	electricidad	electricidad
+78	2778	oficialmente	oficialmente
+79	2779	paciencia	paciencia
+80	2780	pm	pm
+81	2781	respectivo	respectivos respectivas respectivo respectiva
+82	2782	aburrido	aburrido aburrida aburridos aburridas aburridísimo
+83	2783	alterar	alterar alterado altera alterada alterados alteran alteró alterando altere alteradas alteraron alteren alterarse alteres altero alteraba alterará alteraría alteras alterarlo alteré alterara alterarme alterarla alteraban alteramos alterarán alterarlas alteraran alterarían alterándose
+84	2784	nocturno	nocturno nocturna nocturnos nocturnas
+85	2785	campeonato	campeonato campeonatos
+86	2786	reproducir	reproducir reproduce reproducen reproducido reproducirse reproduciendo reproducida reprodujo reproducimos reproducidos reproducidas reproduzca reproduzcan reproducirlo reproduzco reproducía reprodujeron reproducían reproducirla reproduciéndose reproducirlos reproducirá reproducirlas reprodujera reproducirán reproducirnos reproduciremos reprodujeran reproduces reproduzcas
+87	2787	infinito	infinito infinita infinitas infinitos
+88	2788	orientación	orientación orientaciones
+89	2789	votante	votantes votante
+90	2790	disciplina	disciplina disciplinas
+91	2791	abrazar	abrazar abraza abrazó abrazando abrazado abrázame abrazan abrazaba abrazados abrazarte abrazarla abrazada abrazarlo abrace abrazaron abrazamos abracé abrazarme abrazarse abrazas abrazándose abracen abrazarnos abrazarlos abrazaban abrazara abraces abrazarle abrazará abrazaría abrazándome abrazaré abrazándola abrazadas embrace abrazaste abrazame abrazándolo abrázala abrazábamos
+92	2792	bancario	bancaria bancario bancarias bancarios
+93	2793	acta	acta actas
+94	2794	privilegio	privilegios privilegio
+95	2795	once	once onze onces
+96	2796	apretar	apretar apretado aprieta apretando apretada apretados aprieto apretó apriete aprietos apretadas aprietan apretaba apreté aprietes apretaron apretarse aprietas apreta aprieten apreto apretaban apretamos apretas apretarlo aprete apretarle apretarla apretara apretan apretarte apretarlos apretadito apretarme apretaste apretándolo apretás apretarnos apretándose apretá
+97	2797	limpieza	limpieza limpiezas
+98	2798	soltero	soltera soltero solteros solteras
+99	2799	vasco	vasco vascos vasca vascas basco
+100	2800	mama	mama mamas

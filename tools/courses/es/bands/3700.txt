@@ -1,0 +1,100 @@
+1	3601	aplaudir	aplaudir aplaude aplauden aplaudo aplaudiendo aplaudido aplaudieron aplaudió aplaudan aplaudimos aplaudían aplaudida aplaudía aplauda aplaudidos aplaudidas aplaudirle aplaudirlo aplaudiría aplaudí aplaudamos aplaudes aplaudirá aplaudirán aplaudirla aplaudirte
+2	3602	piscina	piscina piscinas
+3	3603	esforzar	esfuerza esforzarse esfuerzan esforzó esforzamos esforzarte esforzando esforzándose esforzarme esforzarnos esfuerzas esfuerces esfuerce esforzaron esfuérzate esforzaba esforzar esforcé esfuercen esforzará esforzaban esforzándome esforzándonos esforzara esforzaste esforzaremos esforzarán esforzaré esforcemos esforcémonos esforzándote esforzaría esforzaos esforzas esforzados esforzada esforzadas
+4	3604	contaminación	contaminación contaminaciones
+5	3605	presumir	presume presumir presumiendo presumen presumo presumido presumía presumida presuma presumió presumes presumimos presumidos presumirá presumas presumían presuman presumirlo presumidas presumirse presumieron presumiría presumí
+6	3606	terminal	terminal terminales
+7	3607	concejal	concejal concejales concejala concejalas
+8	3608	aspirar	aspira aspirar aspiran aspiro aspiramos aspiraba aspirando aspire aspirado aspiraban aspiró aspiras aspiren aspirada aspiré aspiradas aspiremos aspirará aspires aspiraron aspirados aspiraría
+9	3609	choque	choque choques
+10	3610	freír	frio freír frias fritas frió fritos freir fríe fríen friendo frías fríes freído freiré freímos freí freírse friera frían
+11	3611	renovación	renovación renovaciones
+12	3612	capitalista	capitalista capitalistas
+13	3613	sobra	sobra sobras
+14	3614	navegar	navegar navegando navega navegan navegaba navegó navegado navegaban navegamos navegaron navego navegas navegue naveguen navegará navegaría navegué navegaremos navegara navegarán
+15	3615	balance	balance balances
+16	3616	expandir	expandir expande expandirse expandido expandiendo expandió expanden expandiéndose expandieron expanda expandida expandirá expandía expandidos expandirnos expandan expandiera expandidas expandiría expandirlo expandían expandirla expandimos expandirte
+17	3617	incómodo	incómodo incómoda incómodos incómodas
+18	3618	postular	postula postular postulados postulado postularse postuló postulan postulando postule postulaba postularon postulo postulada postularte postulará postulen postulé postularme postulara postulaban postularía postulándose postúlate postuladas postulate postulamos postulas
+19	3619	viuda	viuda viudas viudo viudos
+20	3620	relatar	relata relató relatar relatan relatado relatando relataba relataron relatada relatados relate relataban relatadas relatas relatara relatamos relatarnos relaté relaten
+21	3621	exhibir	exhibe exhibir exhiben exhibido exhibió exhibiendo exhibida exhibidos exhibidas exhibieron exhibía exhibirse exhibían exhibirá exhiban exhibirán exhiba exhibirlo exhibirlos exhibiéndose exhibirla exhibiera exhibimos exhibirlas exhibieran
+22	3622	injusticia	injusticia injusticias
+23	3623	desplazar	desplaza desplazarse desplazar desplazados desplazan desplazó desplazando desplazaron desplazada desplazadas desplazaba desplazándose desplazaban desplace desplazará desplacen desplazamos desplazarme desplazo desplazaría desplazarnos desplazarte desplazarlo desplazara desplazaran desplazarán desplazas desplazarlos
+24	3624	cardenal	cardenal cardenales
+25	3625	golfo	golfo golfos golfa golfas
+26	3626	maíz	maíz maíces
+27	3627	derribar	derribar derribado derribo derribó derribaron derriba derribando derribados derribada derriban derribadas derribe derribarlo derribos derriben derribarla derribará derribarlos derribara derribarlas derribemos derribarse derribarme derribaré derribas derribaba derribaremos derribes derribarle derribarnos
+28	3628	península	península penínsulas
+29	3629	estrenar	estrenó estrenar estrenada estrenado estrenará estrenan estrenando estrenaron estrenarse estrenamos estrenadas estrenaba estrene estrenara estrenarán estrenados estrenarla estrenaría estrenen estrenarlo estrené estrenaban estrenándose estrenaremos estrenas
+30	3630	like	like likes
+31	3631	alquilar	alquilar alquila alquilado alquilo alquilan alquiló alquilada alquilamos alquilando alquilados alquilaba alquilaron alquile alquiladas alquilas alquilaban alquilarlo alquilen alquilarla alquilarle alquilarlos alquiles alquilarse alquilaría alquilé alquilarlas alquilaste alquilara
+32	3632	reservar	reservar reservas reservados reservada reserve reservando reservo reservó reservan reservamos reservadas reservaba reservarse reservándose reservé reservaron reserven reserves reservaban reservarlo reservará reservá reservarla reservarme reservaste reservaría reservaremos reservara reservarán reservaré resérvalo
+33	3633	retorno	retorno retornos
+34	3634	pillar	pillar pillo pilla pillan pillas pille pilló pillaron pillos pillen pillé pillando pillamos pillada pillarlo pillarme pillaba pillados pillaste pillara pilles pillarte pillaran pillarle pillemos pillarla pilláis pillarlos pillaban pillará pillaré pillarse pillaría pilladas
+35	3635	prohibición	prohibición prohibiciones
+36	3636	elaborado	elaborado elaborada elaborados elaboradas
+37	3637	relajar	relajarse relaja relajar relájate relajarte relajo relajarme relajate relajada relaje relajarnos relajan relájese relajó relajando relajados relajen relajas relajamos relajes relájense relajaba relajándose relajaron relajadas relajará relajara relajé relajaros relajándome
+38	3638	arder	arde ardiendo arder arden arda ardido ardió ardía ardan ardidos ardo ardían ardieron ardida arderá ardiera arderán ardes arderás ardería ardemos ardas
+39	3639	racista	racista racistas
+40	3640	ilustración	ilustración ilustraciones
+41	3641	satélite	satélite satélites
+42	3642	ortega	ortega
+43	3643	bahía	bahía bahías
+44	3644	jurisdicción	jurisdicción jurisdicciones
+45	3645	traición	traición traiciones
+46	3646	miss	miss míster misses
+47	3647	decena	decenas decena
+48	3648	abusar	abusar abusado abusando abusa abusan abusó abusada abuse abusados abusaron abusen abusaba abusadas abuses abusaban abusas abusamos abusara abusaran abusarse
+49	3649	enfermero	enfermera enfermeras enfermero enfermeros
+50	3650	almacenar	almacenar almacenes almacena almacenados almacenado almacenan almacenada almacenadas almacenando almacenarse almacenaba almacenen almacene almacenará almacenaban almacenamos almacenó almacenarla almacenarlo almacenarán almacenarlos almacenaron almacenas almacenarlas
+51	3651	activista	activistas activista
+52	3652	mini	mini minis
+53	3653	dependiente	dependiente dependientes dependienta dependientas
+54	3654	prometido	prometido prometida prometidos prometidas
+55	3655	subsidio	subsidios subsidio
+56	3656	fabricante	fabricante fabricantes
+57	3657	suscribir	suscrito suscribir suscribirse suscritos suscribe suscríbete suscribió suscribieron suscribirte suscrita suscriben suscribo suscriban suscripto suscriba suscritas suscríbase suscribirme suscríbanse suscribiendo suscribimos suscribí suscribes suscribas suscribite suscriptos subscribir suscribirá suscribía suscribiros suscribirán suscribiéndose suscribiría suscripta
+58	3658	mixto	mixta mixto mixtas mixtos mista misto
+59	3659	federico	federico federica
+60	3660	intermedio	intermedio intermedia intermedios intermedias entremedio entremedias
+61	3661	hispano	hispano hispana hispanos hispanas
+62	3662	granja	granja granjas granjita
+63	3663	doctrina	doctrina doctrinas
+64	3664	músculo	músculos músculo
+65	3665	inesperado	inesperado inesperada inesperados inesperadas
+66	3666	accesible	accesible accesibles
+67	3667	inseguridad	inseguridad inseguridades
+68	3668	reformar	reformar reformado reformas reformada reformó reformados reformadas reformarse reformando reforme reforman reformaron reformarlo reformarla reformará reformen reformaría reformarlos reformo reformara
+69	3669	traslado	traslado traslados
+70	3670	almuerzo	almuerzo almuerzos
+71	3671	helicóptero	helicóptero helicópteros
+72	3672	trono	trono tronos
+73	3673	expulsar	expulsar expulsados expulsa expulsó expulsaron expulsan expulsada expulsando expulsen expulsarlo expulsarlos expulse expulsadas expulso expulsaran expulsara expulsarla expulsaba expulsará expulsamos expulsarán expulsaban expulsarle expulsaría expulsarme expulsas
+74	3674	ecológico	ecológica ecológico ecológicos ecológicas
+75	3675	déficit	déficit déficits
+76	3676	acorde	acorde acordes
+77	3677	comando	comando comandos
+78	3678	consentimiento	consentimiento consentimientos
+79	3679	moderado	moderado moderada moderados moderadas
+80	3680	trastorno	trastornos trastorno transtorno
+81	3681	marketing	marketing márketing
+82	3682	monarquía	monarquía monarquías
+83	3683	trozo	trozo trozos trocito trocitos
+84	3684	berlín	berlín
+85	3685	desempleo	desempleo
+86	3686	frecuentemente	frecuentemente
+87	3687	house	house
+88	3688	muebles	muebles
+89	3689	prisa	prisa prisas
+90	3690	narrar	narra narrar narrado narran narrada narrando narró narrados narro narraba narradas narraban narraron narre narren narrarlo
+91	3691	chihuahua	chihuahua ch chihuahuas
+92	3692	máscara	máscara máscaras mascarita mascaritas
+93	3693	mamar	mames mamen mamar mame mamadas mamando maman mamés mamo mamado mamaste mamó mamados mamas mamaron mamaba mamarle mamé mamarte mamarse mamarla mamara mamarme mamás mamame
+94	3694	exclusiva	exclusiva exclusivas
+95	3695	historial	historial historiales
+96	3696	taza	taza tazas tacita
+97	3697	marihuana	marihuana mariguana
+98	3698	estrés	estrés estreses
+99	3699	colina	colina colinas
+100	3700	piano	piano pianos pianito

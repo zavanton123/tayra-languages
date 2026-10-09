@@ -1,0 +1,100 @@
+1	9401	destello	destello destellos
+2	9402	pronombre	pronombre pronombres
+3	9403	blogger	blogger bloggers
+4	9404	malí	malí mali
+5	9405	adictivo	adictivo adictiva adictivas adictivos
+6	9406	pedófilo	pedófilo pedófilos pedófila
+7	9407	acechar	acecha acechan acechando acechar acechaba acechado acechaban acechada acechados acechó
+8	9408	despensa	despensa despensas
+9	9409	independizar	independizarse independizar independiza independizó independizado independizan independizaron independice independizarme independizada independizara independizarnos independizados independizamos
+10	9410	biólogo	biólogo biólogos bióloga
+11	9411	bodi	body bodies bodi
+12	9412	joyería	joyería joyerías
+13	9413	faja	faja fajas
+14	9414	bombón	bombones bombón bomboncito
+15	9415	arbolar	arboles arbolada arboladas arbolados
+16	9416	avaricia	avaricia
+17	9417	british	british
+18	9418	capitolio	capitolio
+19	9419	ceguera	ceguera
+20	9420	confidencialidad	confidencialidad
+21	9421	diecinueve	diecinueve
+22	9422	entretanto	entretanto
+23	9423	industrialización	industrialización
+24	9424	oe	oe
+25	9425	popa	popa
+26	9426	teóricamente	teóricamente
+27	9427	ómnibus	ómnibus
+28	9428	incomodidad	incomodidad incomodidades
+29	9429	surco	surco surcos
+30	9430	instantáneo	instantáneo instantáneos instantáneas
+31	9431	jerga	jerga jergas
+32	9432	motorizado	motorizado motorizados motorizada motorizadas
+33	9433	bisabuelo	bisabuelo bisabuela bisabuelos bisabuelas
+34	9434	horroroso	horroroso horrorosa horrorosos horrorosas
+35	9435	opaco	opaco opaca opacos opacas
+36	9436	cegar	cegado cegados cegar cegada cegó ciegan ciegue cegando cega cegaron cegaba cegadas cegarse ciegas cegarnos cego
+37	9437	soldar	soldados soldar soldando suelda sueldan solda soldan soldada soldadas
+38	9438	injustificado	injustificada injustificado injustificadas injustificados
+39	9439	simpatizar	simpatiza simpatizar simpatizan simpatizo simpatizaba simpatizaban simpatizó simpatice simpatizaron simpatizado simpatizamos simpatizas simpatizando simpaticen
+40	9440	conservatorio	conservatorio conservatorios
+41	9441	impotente	impotente impotentes
+42	9442	ápice	ápice ápices
+43	9443	asteroide	asteroide asteroides
+44	9444	locación	locación locaciones
+45	9445	lóbulo	lóbulo lóbulos
+46	9446	susurro	susurro susurros
+47	9447	sísmico	sísmica sísmico sísmicos sísmicas
+48	9448	martirio	martirio martirios
+49	9449	avalancha	avalancha avalanchas
+50	9450	progresión	progresión progresiones
+51	9451	fotocopia	fotocopia fotocopias
+52	9452	modelar	modelar modelando modela modeló modelan modelada modelados modele modelaron modeladas modelaba
+53	9453	publicitar	publicitar publicitado publicita publicitan publicitada publicitando publicitarse publicitados publicitó publicitadas publiciten publicitarlo
+54	9454	bombardero	bombardero bombarderos bombardera
+55	9455	homólogo	homólogo homólogos homóloga homólogas
+56	9456	merienda	merienda meriendas
+57	9457	logia	logia logias
+58	9458	rectangular	rectangular rectangulares
+59	9459	incautarse	incautados incautado incautó incautaron incautadas incautada incautan incautas
+60	9460	consejería	consejería consejerías
+61	9461	habitacional	habitacional habitacionales
+62	9462	concerniente	concerniente concernientes
+63	9463	oligarca	oligarcas oligarca
+64	9464	raso	raso rasa rasos rasas
+65	9465	falange	falange falanges
+66	9466	humillante	humillante humillantes
+67	9467	rotonda	rotonda rotondas
+68	9468	transmisor	transmisor transmisores transmisora transmisoras trasmisor
+69	9469	enchufe	enchufe enchufes
+70	9470	resguardo	resguardo resguardos
+71	9471	tempestad	tempestad tempestades
+72	9472	replantear	replantear replantearse replanteo replantea replantearnos replanteando replantearme replantearte replanteado replantee replanteó replanteate replantean
+73	9473	masón	masones masón masona
+74	9474	jade	jade jades
+75	9475	zanja	zanja zanjas zanjón
+76	9476	reggaeton	reggaeton reggaetón reguetón
+77	9477	receso	receso recesos
+78	9478	mareo	mareo mareos
+79	9479	enjuiciar	enjuiciar enjuiciado enjuiciados enjuicia enjuician enjuiciada enjuiciando enjuició enjuicie enjuiciarlo enjuiciarlos enjuicien enjuiciaron enjuiciadas
+80	9480	hartar	hartó harté harte hartando hartado hartar hartaron hartan hartarse harta hartarme hartamos harten hartaste hartes hartas
+81	9481	bucle	bucle bucles
+82	9482	acogedor	acogedor acogedora acogedores acogedoras
+83	9483	incesante	incesante incesantes
+84	9484	paralímpico	paralímpicos paralímpico paralímpica
+85	9485	corso	corso corsa corsos
+86	9486	letrado	letrado letrados letrada letradas
+87	9487	motel	motel moteles
+88	9488	pontífice	pontífice pontífices
+89	9489	realzar	realzar realza realce realzan realzado realzando realzada realzó realzadas realzados
+90	9490	trompa	trompa trompas
+91	9491	gamer	gamer gamers
+92	9492	resorte	resorte resortes
+93	9493	sociológico	sociológico sociológica sociológicas sociológicos
+94	9494	afirmativo	afirmativo afirmativa afirmativas afirmativos
+95	9495	colonizar	colonizar colonizado colonizados colonizada colonizaron colonizando colonizadas coloniza colonizó colonizan
+96	9496	retorcido	retorcido retorcida retorcidos retorcidas
+97	9497	indignante	indignante indignantes
+98	9498	grosor	grosor grosores
+99	9499	electromagnético	electromagnética electromagnético electromagnéticas electromagnéticos
+100	9500	peque	peque peques

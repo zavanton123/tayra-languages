@@ -1,0 +1,100 @@
+1	5601	ballena	ballenas ballena
+2	5602	susto	susto sustos
+3	5603	lucio	lucio lucia lucios
+4	5604	atómico	atómica atómico atómicas atómicos
+5	5605	puertorriqueño	puertorriqueño puertorriqueña puertorriqueños puertorriqueñas
+6	5606	programador	programador programadores programadora programadoras
+7	5607	comercialización	comercialización
+8	5608	fu	fu
+9	5609	obtención	obtención
+10	5610	riego	riego riegos
+11	5611	indirecta	indirecta indirectas
+12	5612	mezquita	mezquita mezquitas
+13	5613	viable	viable viables
+14	5614	aroma	aroma aromas
+15	5615	single	single singles
+16	5616	gusano	gusano gusanos gusanito gusanillo
+17	5617	subjetivo	subjetivo subjetiva subjetivas subjetivos
+18	5618	costera	costera costeras
+19	5619	simplificar	simplificar simplificado simplificada simplifica simplificando simplifican simplificados simplificadas simplificarlo simplificó simplifique simplificamos simplificarse simplificaron simplificaría simplificará
+20	5620	inolvidable	inolvidable inolvidables
+21	5621	temblor	temblor temblores
+22	5622	dialecto	dialecto dialectos
+23	5623	sofisticado	sofisticado sofisticada sofisticados sofisticadas
+24	5624	honrado	honrado honrada honrados honradas
+25	5625	erigir	erigido erigir erige erigió erigida erigirse erigieron erigen erigidos erigidas erigiendo erija erigía erigiéndose erigían erigiera erigirá erigimos
+26	5626	narrador	narrador narradores narradora narradoras
+27	5627	aproximación	aproximación aproximaciones
+28	5628	interfaz	interfaz interfaces
+29	5629	estereotipo	estereotipos estereotipo
+30	5630	perjudicial	perjudicial perjudiciales
+31	5631	caricatura	caricatura caricaturas
+32	5632	verificación	verificación verificaciones
+33	5633	sanguíneo	sanguíneo sanguínea sanguíneos sanguíneas
+34	5634	sujetar	sujetar sujetando sujetan sujetaba sujetarse sujete sujetó sujeta sujetado sujetarlo sujetaban sujetarla sujetaron sujetas sujeten sujetada sujetará sujetándose sujetarán sujetarme sujeté sujetándola sujetarle sujetándolo sujetados sujetarlos sujetamos sujetara sujetándome sujetarnos
+35	5635	etnia	etnia etnias
+36	5636	adorno	adornos adorno
+37	5637	anarquista	anarquistas anarquista
+38	5638	cuervo	cuervo cuervos
+39	5639	tramitar	tramitar tramite tramites tramita tramitado tramitando tramitan tramitó tramitará tramitada tramitados tramitaron tramiten tramitarse tramitarán tramitadas tramitarlo tramitamos tramitaba tramito tramitarla
+40	5640	despegar	despegar despega despegó despegado despegarse despegando despegan despego despegaron despegaba despegues despegamos despeguen despegada despegarme despegara despegará despegaban despegados despegarte despegarán despegaría
+41	5641	discriminar	discriminar discrimina discriminados discriminado discriminan discriminada discriminadas discriminando discriminen discrimine discriminamos discrimino discriminó discriminaba discriminaban discriminarlos discriminaron discriminas discrimines
+42	5642	crueldad	crueldad crueldades
+43	5643	genuino	genuino genuina genuinos genuinas
+44	5644	ortografía	ortografía ortografías
+45	5645	bailarín	bailarines bailarín bailarinas
+46	5646	inversionista	inversionistas inversionista
+47	5647	cancelación	cancelación cancelaciones
+48	5648	ferrari	ferrari ferraris
+49	5649	sarcasmo	sarcasmo sarcasmos
+50	5650	bancar	bancar banque bancan bancando bancarme bancamos bancadas bancas bancarse bancaba bancarte banquen bancate banqué bancales bancó bancaron bancame bancarlo bancás bancado bancarla bancaría banques bances bancarnos bancá
+51	5651	acosar	acosar acosando acosa acosan acosada acosaba acosó acosados acosen acosaron acosaban acosadas acosarme acosarla acose acosarlo acosarte acosándola acosándome acosas acosará
+52	5652	departamental	departamental departamentales
+53	5653	réplica	réplica réplicas
+54	5654	divulgar	divulgar divulgado divulgó divulga divulgada divulgando divulgados divulgadas divulgue divulgan divulgaron divulgarlo divulguen divulgará divulgarse divulgara divulgaba divulgaran divulgo divulgarla divulgarán
+55	5655	proporcional	proporcional proporcionales
+56	5656	educador	educadores educador educadora educadoras
+57	5657	divulgación	divulgación divulgaciones
+58	5658	trazado	trazado trazados trazada trazadas
+59	5659	desmentir	desmentir desmiente desmentido desmintió desmienten desmentida desmintiendo desmentidos desmintieron desmentidas desmentirlo desmienta desmientan desmentía desmiento
+60	5660	urbanización	urbanización urbanizaciones
+61	5661	interminable	interminable interminables
+62	5662	egresado	egresados egresado egresada egresadas
+63	5663	suplicar	suplico suplica suplicar suplicando suplicó suplican suplicaba suplicamos suplicado suplicas suplique supliqué suplicarle suplicaron suplicaban suplicándole suplicarte supliquen suplicándome
+64	5664	almohada	almohada almohadas
+65	5665	madero	madero maderos
+66	5666	césped	césped céspedes
+67	5667	abstracto	abstracto abstracta abstractos abstractas
+68	5668	beta	beta betas
+69	5669	coral	coral corales
+70	5670	inmortal	inmortal inmortales
+71	5671	articulación	articulación articulaciones
+72	5672	vocabulario	vocabulario vocabularios
+73	5673	duradero	duradera duradero duraderas duraderos
+74	5674	plancha	plancha planchas planchón planchita
+75	5675	seducir	seducir seduce seducido sedujo seducen seduciendo seducidos seducida seducirme seducirlo seducirte seducirla seducía seduzca seducidas seduces seducirá seducirle sedujeron seducirlos
+76	5676	inmobiliario	inmobiliario inmobiliarios inmobiliarias
+77	5677	adonde	adonde
+78	5678	alias	alias
+79	5679	cansancio	cansancio
+80	5680	cocaína	cocaína
+81	5681	down	down
+82	5682	jamaica	jamaica
+83	5683	medianoche	medianoche
+84	5684	mercurio	mercurio
+85	5685	trans	trans
+86	5686	voluntariamente	voluntariamente
+87	5687	pandilla	pandilla pandillas
+88	5688	triángulo	triángulo triángulos triangulito
+89	5689	umbral	umbral umbrales
+90	5690	vulgar	vulgar vulgares
+91	5691	neto	neto netos netas
+92	5692	idear	ideado idear ideó ideada ideas ideales idearon ideo ideando ideados ideadas ideamos idee idean idees ideen
+93	5693	parodia	parodia parodias
+94	5694	fabuloso	fabuloso fabulosa fabulosos fabulosas
+95	5695	marginal	marginal marginales
+96	5696	yanqui	yankee yanqui yanquis yanki
+97	5697	laico	laico laicos laica laicas
+98	5698	suscitar	suscitado suscitó suscita suscitar suscitaron suscitan suscitada suscitando suscitadas suscitados suscitarse susciten suscite suscitaba suscitaban suscitaría suscitara suscitándose
+99	5699	magno	magna magno magnas magnos
+100	5700	vitamina	vitamina vitaminas

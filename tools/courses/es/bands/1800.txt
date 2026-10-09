@@ -1,0 +1,100 @@
+1	1701	inferior	inferior inferiores
+2	1702	temperatura	temperatura temperaturas
+3	1703	gobernar	gobernar gobierna gobernado gobiernan gobernó gobernados gobernando gobernada gobierne gobernaba gobernaron gobernaban gobernará gobiernen gobernadas gobernara gobernaría gobernarse gobernaran gobernamos goberno gobernarán gobernarnos gobernase gobernarlos goberna gobiernas gobernaremos gobernarían gobiernes gobernarlo gobernarla
+4	1704	cerebro	cerebro cerebros
+5	1705	precioso	preciosa precioso preciosas preciosos preciosísimo
+6	1706	raza	raza razas
+7	1707	brindar	brinda brindar brindan brindó brindando brindado brindo brinde brindamos brindarle brindaron brindará brindarles brindada brindaba brinden brindemos brindarte brindarnos brindaremos brindarán brindaban brindara brindados brindándoles brindadas brindaría brindas brindándole brindarme brindaran brindaré brindes brindarse brindándonos brindé brindaste brindarían
+8	1708	probable	probable probables
+9	1709	guerrero	guerrero guerreros gr guerrera guerreras
+10	1710	moda	moda modas
+11	1711	comunista	comunista comunistas
+12	1712	acaso	acaso
+13	1713	editorial	editorial editoriales
+14	1714	ubicado	ubicado ubicada ubicados ubicadas
+15	1715	tardar	tarda tardar tardó tardan tardado tardaron tardo tardará tardando tardé tardaría tardas tardamos tardarán tardaba tarden tardaste tardarás tardes tardarían tardara tardaré tardaban tardaremos tardaran tardemos tardaríamos tardarse tardare tardá tardarías tardabas tardaras tardás tardáis
+16	1716	volumen	volumen volúmenes volúmen
+17	1717	cáncer	cáncer cánceres
+18	1718	británico	británico británica británicos británicas
+19	1719	interpretar	interpretar interpreta interpretado interpretada interpretando interpretó interpretan interpretarse interprete interpretaron interpretados interpretadas interpretaba interpreto interpretarlo interpretará interpretes interpretamos interpretas interpretarla interpreté interpreten interpretaban interpretara interpretarlos interpretarlas interpretaría interpretarán interpretaste interpretaran interpretándola interpretase interpretándolo interpretándose
+20	1720	pintura	pintura pinturas pinturita
+21	1721	pecho	pecho pechos pechito pechitos
+22	1722	nacido	nacido nacidos nacida nacidas
+23	1723	caballero	caballero caballeros cavallero caballera caballerito
+24	1724	personalidad	personalidad personalidades
+25	1725	aparte	aparte apartes
+26	1726	universo	universo universos
+27	1727	encuesta	encuesta encuestas
+28	1728	maduro	maduro madura maduros maduras
+29	1729	punta	punta puntas puntita
+30	1730	avenida	avenida av avenidas avda
+31	1731	ejecutar	ejecutar ejecutado ejecuta ejecutados ejecutada ejecutan ejecutó ejecutando ejecutadas ejecutaron ejecute ejecutarse ejecuten ejecutarlo ejecutará ejecutaba ejecutarán ejecutaban ejecutara ejecutarla ejecutarlos ejecuto ejecutamos ejecutándose ejecutaran ejecutarlas ejecutaría ejecutaremos ejecutas ejecutarían ejecuté ejecutase ejecútese
+32	1732	lima	lima limas
+33	1733	humor	humor humores
+34	1734	as	as ases
+35	1735	callar	calla callar cállate callate calles callo callas callada callan callarse callados calló callos callen callando cállese callaron callarme callarte callamos callara cállense callaba callarnos callé calladas callarlo callaran callaban callad callaré callará callarán callemos callarla callarlos callaría callarle callaros callaos
+36	1736	salvador	salvador salvadores salvadora salvadoras
+37	1737	carajo	carajo carajos
+38	1738	convocar	convocar convocado convoca convocó convocada convocados convocan convocadas convocando convocaron convoque convocará convocamos convocaba convoco convoquen convocara convocaría convocarse convocaban convocarán convocarlo convocarlos convocarla convoqué convocaran convocaremos convocas convocarían convocase
+39	1739	permanente	permanente permanentes
+40	1740	pelea	pelea peleas
+41	1741	maravilloso	maravilloso maravillosa maravillosos maravillosas
+42	1742	km	km
+43	1743	letras	letras
+44	1744	rápidamente	rápidamente
+45	1745	investigador	investigadores investigador investigadora investigadoras
+46	1746	clima	clima climas
+47	1747	marchar	marchar marchó marcharse marchan marchando marcharon marchado marche marchas marchaba marchamos marcho marchaban marchen marcharme marché marchara marchará marcharán marcharte marcharía marcharemos marchaste marchemos marcharan marchándose marcharnos marches márchate marchase marcharé marcharían marchate marchad marchaos marcharas marcháramos marcharos márchese marchábamos
+48	1748	fase	fase fases
+49	1749	escoger	escoger escogido escoge escogió escogidos escogida escogieron escoja escogí escogen escogiendo escogidas escoges escojan escogemos escojo escogimos escogería escogiste escojas escogerá escogiera escogía escogerán escogeré escojamos escogían escogeremos escogieran escogerlo escogerías escogerían escogerla escogerlos escogerse escoged escogiese
+50	1750	fumar	fumar fumando fuma fumo fuman fumas fumado fumaba fume fumes fumamos fumé fumarme fumen fumó fumaste fumarse fumaban fumada fumaron fumarte fumarla fumados fúmate fumate fumabas fumarnos fumándose fumara fumemos fumarlo fumadas fumás fumaré fumaría
+51	1751	ingeniero	ingeniero ingenieros ingeniera ingenieras
+52	1752	posterior	posterior posteriores
+53	1753	restaurante	restaurante restaurantes
+54	1754	mental	mental mentales
+55	1755	invierno	invierno inviernos
+56	1756	liberal	liberal liberales
+57	1757	comandante	comandante comandantes comandanta
+58	1758	invitado	invitado invitados invitada invitadas
+59	1759	insistir	insiste insistió insistir insisto insistiendo insisten insistido insistía insistimos insistieron insista insistí insistes insistían insistas insistan insistirá insistiría insistiré insistiera insistirle insistamos insistís insistirán insistiremos insistieran
+60	1760	sobrevivir	sobrevivir sobrevivió sobrevivido sobrevive sobreviven sobrevivieron sobreviviendo sobreviva sobrevivirá sobreviví sobrevivimos sobrevivo sobrevivan sobrevivirán sobreviviría sobrevivía sobrevivían sobreviviera sobrevives sobreviviste sobreviviremos sobreviviré sobrevivirían sobrevivieran sobrevivamos sobrevivas sobreviviese
+61	1761	borrar	borrar borrado borra borró borre borrando borran borro borraron borrados borré borren borrada borrarlo borras borradas borraste borrará borres borrarse borrás borraba borramos borrarlos borrara borrarla borraría borrarán borraran borraré borrarlas borrarte borrarle borrarme borralo bórralo borraban borraremos borrarnos borremos
+62	1762	lector	lector lectores lectora lectoras
+63	1763	risa	risa risas risita risilla
+64	1764	dama	dama damas caballeros damita
+65	1765	correspondiente	correspondiente correspondientes
+66	1766	trasladar	trasladado trasladar trasladó traslada trasladarse trasladados trasladaron trasladada trasladan trasladando trasladadas trasladaba trasladarlo trasladamos traslade trasladen trasladaban trasladará trasladara trasladándose trasladarla trasladarlos trasladarme trasladarán trasladé trasladarte trasladaran trasladarnos trasladaría trasladase trasladaremos trasladas trasladarían trasladarle trasladarlas trasladaré transladar trasladándolo trasladasen traslademos
+67	1767	miércoles	miércoles miercoles
+68	1768	barato	barato barata baratos baratas baratito baratísimo
+69	1769	renunciar	renunciar renunció renunciado renuncie renunciando renuncio renunciaron renuncias renuncian renuncien renuncié renunciara renunciaría renunciaba renuncies renunciará renunciamos renunciaré renunciaban renunciaran renunciase renunciemos renunciaste renunciarán renunciarían renunciaremos renunciare
+70	1770	alianza	alianza alianzas
+71	1771	juzgar	juzgar juzgados juzga juzgando juzgue juzgan juzguen juzgo juzgará juzgues juzgarlo juzgó juzgada juzgamos juzgarme juzgas juzgaron juzgarlos juzgarte juzgarla juzgaba juzgarán juzgadas juzgara juzgarnos juzgué juzgaría juzgarle juzguemos juzgarse juzgaran juzgaban juzguéis juzgarlas juzgaremos juzgad juzgaré juzgáis juzgarles
+72	1772	asistencia	asistencia asistencias
+73	1773	martes	martes
+74	1774	variedad	variedad variedades
+75	1775	costumbre	costumbre costumbres
+76	1776	situado	situado situada situados situadas
+77	1777	descripción	descripción descripciones
+78	1778	dictadura	dictadura dictaduras
+79	1779	atraer	atraer atrae atrajo atraído atraen atraídos atrayendo atraída atraía atraiga atrajeron atraídas atraerá atraes atraería atraían atraido atraigan atraerlos atraerlo atraigo atrajera atraerse atraerán atraemos atraidos atraerla atraida atraerle atraerás atraerían atraerme atraeremos atraernos atraje atraerlas atraerte atrayéndolos atraidas
+80	1780	dibujo	dibujo dibujos dibujito
+81	1781	costar	costó costar cueste cuestan costaba costará costaría costando costaron costados costara costarle costaban costarán costales cuesten cuestas costarte costase costarían costarnos costándole costarles costaran costarme cuesto
+82	1782	opinar	opina opinan opinar opinas opino opinó opinando opinaba opine opinen opinado opinamos opinaron opináis opinaban opines opinás opinara opinaría opinará opinemos opiné opinarán opinaran opinaré
+83	1783	universal	universal universales
+84	1784	convertido	convertido convertida convertidos convertidas
+85	1785	quinto	quinto quinta quintas quintos
+86	1786	organizado	organizado organizada organizados organizadas
+87	1787	tabla	tabla tablas tablón tablones tablilla tablillas tablita tablitas
+88	1788	encargado	encargado encargada encargados encargadas
+89	1789	software	software softwares
+90	1790	incorporar	incorporar incorpora incorporado incorporó incorporarse incorporando incorporan incorporados incorporada incorporadas incorporaron incorpore incorporen incorporándose incorporará incorporaba incorporarlo incorporamos incorporarán incorporaban incorporarla incorporarlos incorporé incorporara incorporo incorporaría incorporarlas incorporarme incorporarte incorporaran incorporase incorporarían incorporas incorporarnos incorporarle incorporándolo incorporándolos incorporándola
+91	1791	resumen	resumen resúmenes
+92	1792	asesino	asesino asesinos asesina asesinas
+93	1793	rostro	rostro rostros
+94	1794	romo	roma romo romos romas
+95	1795	contento	contento contentos contenta contentas contentísimo
+96	1796	manifestación	manifestaciones manifestación
+97	1797	alegrar	alegro alegra alegró alegran alegrar alegrarse alegrado alegras alegramos alegraba alegrarme alegraron alegraría alegré alegrarte alegrarnos alégrate alegraste alegrará alegres alegrarán alegraré alégrense alegrando alegraban alegren alegrara alegraos alegrate alegrarle alegrémonos alegrándose alegrarás alegraremos alégrame alégrese alegrarla
+98	1798	complicado	complicado complicada complicadas complicados
+99	1799	órgano	órgano órganos organito
+100	1800	confundir	confundir confundido confunde confunden confundida confundirse confundió confundidos confundiendo confundas confunda confundan confundí confundieron confundo confundes confundirlo confundía confundidas confundamos confundimos confundiste confundirme confundirlos confundirnos confundirla confundirte confundían confundís confundiría confundiera confundirá confundirán confundiéndose confundieran confundirlas confundáis confundiéndolo confundirían confundiéndolos

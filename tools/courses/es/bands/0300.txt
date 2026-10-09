@@ -1,0 +1,100 @@
+1	201	además	además ademá
+2	202	mal	mal males
+3	203	fin	fin fines
+4	204	importante	importante importantes importantísimo
+5	205	familia	familia familias flia
+6	206	semana	semana semanas semanita
+7	207	mano	mano manos mana manita manito manas
+8	208	alto	alto alta altos altas altísimo alte
+9	209	único	único única únicos únicas
+10	210	pueblo	pueblo pueblos pueblito pueblecito
+11	211	servicio	servicio servicios
+12	212	pagar	pagar pago paga pagan pagos pagado pagando pagó pague pagados pagamos pagas paguen pagará pagaron pagarle pagarán pagaba pagada pagaría pagué pagadas pagarlo pagaban paganos pagaran pagarse pagues pagara pagaste pagarte pagarles pagaré pagarla pagarme pagarían pagaremos pagarlos paguemos pagarés
+13	213	presidente	presidente presidenta presidentes presidentas
+14	214	pasado	pasado pasada pasados pasadas
+15	215	foto	foto fotos fotones fotón fotito
+16	216	recibir	recibir recibió recibido recibe reciben recibieron recibo recibiendo recibí recibimos recibida recibidos reciba recibirá recibía recibidas reciban recibirán recibes recibos recibían recibirás recibiría recibirlo recibiera recibas recibiste recibirme recibirlos recibirían recibirla recibirse recibieran recibiremos recibamos recibirte recibirlas recibirnos recibiré recibís
+17	217	junto	junto juntos junta juntas
+18	218	presentar	presenta presentar presentó presentado presentan presentarse presentaron presentada presento presentando presentes presentamos presentados presentaba presentadas presentará presenten presentaban presentarán presentara presenté presentas presentarte presentarlo presentarme presentándose presentarnos presentaría presentaremos presentaran presentarla presentarle presentarles presentaré presentarlos presentase presentaros presentarían presentaste presentarlas
+19	219	claro	claro clara claras claros clarín clarito clarísimo clarita clarines
+20	220	sino	sino sinos sinon
+21	221	hacia	hacia
+22	222	política	política políticas
+23	223	equipo	equipo equipos equipito
+24	224	lado	lado lados ladito
+25	225	idea	idea ideas idéa
+26	226	cambiar	cambiar cambia cambiado cambió cambiando cambian cambie cambiaron cambiará cambiemos cambien cambiaría cambiarlo cambié cambiamos cambias cambies cambiarse cambiara cambiaste cambiarme cambiaba cambiarla cambiarte cambiarán cambiada cambiarle cambiaran cambiaban cambiados cambiarlas cambiarlos cambiadas cambiarían cambiaré cambiaremos cambiarías cambiarnos cambiase cámbiate
+27	227	contar	contar cuento cuentan contó cuentos contando contaba contado cuentas contamos cuente contaron cuenten contaban contarle conté cuéntame contados contará cuentes contarte contadas cuéntanos contarles contarnos contaré contada conte contarlo contara contarme contaría contarán conta conto contame contas contaste contaremos contarás
+28	228	existir	existe existen existir existía exista existían existido existan existió existiendo existiera existieron existirá existieran existo existiría existimos existes existiese existirán existirían existiesen existías existís existieras existas existiéramos existí existiere existíamos existamos
+29	229	terminar	terminar termina terminó terminado termine termino terminan terminaron terminamos terminé terminando terminada terminen terminas terminará terminales terminaba terminara terminaría termines terminados terminaste terminadas terminarán terminemos terminarlo terminaban terminarla terminaremos terminaré terminaran terminarían terminarse terminarás terminase terminaras terminábamos terminare terminarlos terminás
+30	230	ahí	ahí ahi
+31	231	palabra	palabras palabra palabrita
+32	232	nosotros	nosotros nosotras
+33	233	realizar	realizar realizado realiza realizó realizada realizan realizadas realizaron realizando realizados realizarse realizará realice realicen realizaba realizamos realizaban realizarán realizara realizarlo realizo realizaría realicé realizaran realizarla realizándose realizaremos realizas realizarlas realizarían realizarlos realices realizase realizarle realicemos realizaste realizaré realizasen realizarte realizare
+34	234	español	español española españoles españolas españolito
+35	235	final	final finales
+36	236	cierto	cierto cierta ciertas ciertos
+37	237	padre	padre padres padrecito padrote padrísimo padrotes
+38	238	tema	tema temas temita temazo temón
+39	239	empresa	empresa empresas impresa
+40	240	agua	agua aguas awa agüita agüitas
+41	241	juego	juego juegos jueguito juegazo jueguecito
+42	242	número	número números nº numerito
+43	243	cambio	cambio cambios
+44	244	casi	casi cuasi
+45	245	pequeño	pequeño pequeña pequeños pequeñas pequeñito pequeñín pequeñísimo pequeñajo pequeñuelo
+46	246	morir	murió morir muertos muere murieron mueren muriendo muera muero muerta mueran mueres moría muertas morirse mueras morirá morimos muriera moriría moriré morí morirme morirán morían morirte morirás murieran moriremos morís muriese muriéndose morirían muérete muramos moriste morite morirnos muriéndome muéranse
+47	247	usted	usted ustedes vds usté
+48	248	comprar	comprar compra compras comprado compró compré compre compro comprando compran compramos comprarme compraron compraste comprarlo compren comprarle comprados comprarte compraba comprarse comprada compres comprarla compraría compradas comprarlos comprara compraré cómprate comprate compraban comprarlas comprará compremos comprarles comprarán comprare comprarnos compraran
+49	249	libro	libro libros librito librillo
+50	250	entrar	entrar entra entró entran entrado entrando entraron entro entren entré entramos entras entraba entrará entrara entres entraban entraría entrarán entraste entraran entremos entrarían entraré entrase entraremos entrá entrad entrados entrarle entrarás entrare entrasen entrabas entrás entráis entréis entrábamos entraríamos entraras
+51	251	razón	razón razones razon
+52	252	argentino	argentina argentino argentinos argentinas
+53	253	dentro	dentro
+54	254	proyecto	proyecto proyectos
+55	255	video	video vídeo videos videito
+56	256	seguro	seguro segura seguros seguras segurísimo
+57	257	sacar	sacar saca saco sacó sacado saque sacan sacando sacaron saquen sacas sacarle saqué sacamos sacaste sacarlo sacarte sacarme sacaba sacarse sacarla sacos sacada sacarlos saques sacados sacará sacara sacaban sacadas sacarnos sacaría sacarán sacaran saquemos sacarles sacate sacarlas sacaremos sácate
+58	258	guerra	guerra guerras
+59	259	centro	centro centros
+60	260	aún	aún
+61	261	ejemplo	ejemplo ejemplos exemplo
+62	262	permitir	permite permitir permiten permitido permitió permita permitirá permitan permitiendo permitía permitieron permitiría permitiera permitirse permitirán permitían permitidos permito permitida permitimos permitirle permitas permites permitirnos permitidas permitirme permitirían permitieran permitiremos permítanme permíteme permitirles permítame permitirlo permitiré permitamos permitiéndole permitiese permitiéndoles permitirte
+63	263	millón	millones millón
+64	264	político	político políticos políticas
+65	265	ayudar	ayudar ayudan ayudó ayude ayudando ayudado ayudará ayudarte ayuden ayudo ayudas ayudaron ayudarme ayudarnos ayudarle ayudaría ayudarlo ayúdame ayudarán ayudarlos ayudamos ayudaba ayudara ayudarles ayudarla ayúdanos ayudame ayúdenme ayudaran ayudaban ayudes ayudaremos ayudarse ayudarían ayudemos ayudados ayudé ayudaste ayudarías ayudaré
+66	266	jugar	jugar jugando juega juegan jugado jugada jugó jugaba jugamos jugaron juegue juegas jugará jugadas jugaban jueguen jugué juegues jugarán juguemos jugaría jugaste jugarlo jugados jugara jugarse jugábamos jugas jugabas jugaran jugaremos jugaré jugarle juga jugás jugarla jugándose jugarían jugarlos jugase
+67	267	igual	igual iguales igualito
+68	268	escuchar	escuchar escucha escuchado escuchando escucho escuche escuché escuchas escuchan escuchó escuchaba escuchamos escuchen escucharlo escucharon escuchaste escuches escucharla escucharte escucharlos escuchaban escuchada escuchados escucharme escuchemos escuchara escuchadas escuchará escucharse escucharle escucharnos escuchame escucharlas escúchame escucharán escuchad escucharan escucharemos escucharé escucharía
+69	269	artículo	artículo artículos
+70	270	malo	mala malo malas malos pésimo pésima malísimo pésimas pésimos malito maluco malita malitos
+71	271	madre	madre madres mare madrecita
+72	272	publicar	publicado publicó publica publicada publicar publicados publico publicadas publican publicaron publicando publique publicas publicará publicamos publicaba publicarse publiqué publicarlo publiquen publicarán publicara publicaremos publicaban publicarla publicaré publiques publicaría publicaran publicarlas publicarlos publicaste publicándose publicase publiquemos publicarían publicasen publicanos publicare publicándolo
+73	273	obra	obra obras obrita
+74	274	crear	crear creado creó crea creando creada crearon crean creados creas creadas creamos creará créeme crearse creéis crearía creaba creara creaste creé crearán crearlo creaban crearemos creándose crearla create crearan crearte creés creáis crearían créame crease crearle crearme crearlos crearlas crearnos
+75	275	largo	largo larga largas largos larguísimo larguísima larguísimas larguísimos
+76	276	mantener	mantener mantiene mantienen mantuvo mantenerse mantenido manteniendo mantenga mantenía mantuvieron mantengan mantendrá mantenerlo mantenemos mantengo mantenían mantenerlos mantenerte mantenernos mantenerla mantenida mantenerme mantente mantén mantenidos mantendría mantendrán manteniéndose mantuviera mantienes mantenidas mantengamos mantuve mantendremos mantenerlas mantengas manténgase mantuvieran mantuvimos manténganse
+77	277	información	información informaciones
+78	278	mañana	mañana mañanas
+79	279	siguiente	siguiente siguientes
+80	280	favor	favor favores favorcito
+81	281	real	real reales
+82	282	mil	mil miles
+83	283	programa	programa programas programita
+84	284	caer	caer cae caída cayó caído caen caiga cayendo cayeron caía caídos caí caídas caes caigo caigan caido caerá caida cayera caerse caería caían caemos caigas caerán caíste caerle cayeran caerme caerte caímos caidos caerían caidas cayese cay caigamos cayéndose caiste
+85	285	conseguir	conseguir consigue conseguido consiguió consigo consiguen consiguieron conseguirlo consiguiendo conseguí consiga conseguimos consigues conseguía consigan conseguirá consigas conseguirás conseguiremos conseguiría conseguiste conseguidos conseguirla conseguida conseguirán consiguiera conseguían conseguirlos conseguirse consigamos conseguirlas conseguirte conseguidas conseguiré conseguirle conseguirían conseguís conseguirme consiguieran consíguelo
+86	286	ante	ante anta antas
+87	287	embargo	embargo embargos
+88	288	nivel	nivel niveles nivelazo
+89	289	diferente	diferentes diferente
+90	290	clase	clase clases
+91	291	hermano	hermano hermana hermanos hermanas hermanito hermanita
+92	292	dinero	dinero din dineros dinerito dinerillo
+93	293	utilizar	utilizar utiliza utilizando utilizado utilizan utilizada utilizados utilizó utilizadas utilizaron utilice utilizarse utilicen utilizaba utilizamos utilizo utilizaban utilizarlo utilizará utilizas utilizarla utilizarlos utilizarán utilicé utilizarlas utilices utilizara utilizaría utilizaremos utilizaran utilicemos utilizarían utilizándose utilizaré utilizaste utilizándolo utilizase utilizándola utilizándolos utilízalo
+94	294	comenzar	comenzó comienza comenzar comenzaron comenzado comienzan comenzando comenzamos comencé comience comenzará comenzaba comiencen comenzara comenzarán comienzas comencemos comenzaban comenzo comenzaría comenzaremos comenzaran comenzada comenzaste comenzaré comiences comenzarían comenzase comenzarás comenze comenzare comenzadas comenzasen comenzábamos comenza comenzarse comienzen comenzaras comenzados comenzarla
+95	295	cuanto	cuanto cuantos cuantas cuanta quantum quanto
+96	296	internacional	internacional internacionales
+97	297	relación	relación relaciones
+98	298	unido	unidos unido unidas unida
+99	299	llamado	llamado llamada llamadas llamados
+100	300	tierra	tierra tierras

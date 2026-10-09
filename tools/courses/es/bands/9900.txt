@@ -1,0 +1,100 @@
+1	9801	mediocridad	mediocridad mediocridades
+2	9802	molido	molido molida molidas molidos
+3	9803	nostálgico	nostálgico nostálgicos nostálgica nostálgicas
+4	9804	diplomado	diplomado diplomados diplomada
+5	9805	guacho	guacho wacho huacho guacha guachos guachas
+6	9806	jarabe	jarabe jarabes
+7	9807	chacra	chacarita chacra chacras chácara
+8	9808	corrector	corrector correctores correctora correctoras
+9	9809	cronológico	cronológico cronológica cronológicas cronológicos
+10	9810	vitalicio	vitalicio vitalicia vitalicios vitalicias
+11	9811	validación	validación validaciones
+12	9812	libanés	libanés libanesa libaneses libanesas
+13	9813	intrínseco	intrínseca intrínseco intrínsecas intrínsecos
+14	9814	aseguradora	aseguradora aseguradoras
+15	9815	transgénico	transgénicos transgénico transgénicas transgénica
+16	9816	fichero	fichero ficheros
+17	9817	alcantarilla	alcantarilla alcantarillas
+18	9818	surtir	surtir surte surten surtió surtiendo surta surtirá surtieron surtidos surtía surtirán surtan surtidas surtirse surtida surtían surto
+19	9819	gelatina	gelatina gelatinas
+20	9820	difamación	difamación difamaciones
+21	9821	cantautor	cantautor cantautora cantautores
+22	9822	desarmado	desarmado desarmados desarmada desarmadas
+23	9823	extensivo	extensiva extensivo extensivos extensivas
+24	9824	fashion	fashion fashions
+25	9825	ineficiente	ineficiente ineficientes
+26	9826	borrego	borrego borregos borrega borregas
+27	9827	desafiante	desafiante desafiantes
+28	9828	entusiasmar	entusiasma entusiasmó entusiasman entusiasmaba entusiasmar entusiasme entusiasmaron entusiasmarse entusiasmada entusiasmados entusiasmé entusiasmes entusiasmando entusiasmarme entusiasmen entusiasmadas
+29	9829	anticipo	anticipo anticipos
+30	9830	inaccesible	inaccesible inaccesibles
+31	9831	disidencia	disidencia disidencias
+32	9832	escudero	escudero escuderos escudera
+33	9833	multitudinario	multitudinaria multitudinario multitudinarias multitudinarios
+34	9834	camilla	camilla camillas
+35	9835	operacional	operacional operacionales
+36	9836	volátil	volátil volátiles
+37	9837	triplicar	triplicado triplicar triplica triplicó triplicaron triplican triplicando triplicará triplicaba triplicarse triplique
+38	9838	mellizo	mellizos mellizas mellizo melli melliza
+39	9839	asaltante	asaltantes asaltante
+40	9840	ahorcar	ahorcar ahorcó ahorca ahorcarse ahorcados ahorcaron ahorque ahorcan ahorcando ahorcándose ahorco ahorcarme ahorcarlo ahorcada ahorquen ahorcarla ahorcaba ahorcadas
+41	9841	terco	terco terca tercos tercas
+42	9842	riel	rieles riel
+43	9843	bocadillo	bocadillo bocadillos
+44	9844	asistencial	asistencial asistenciales
+45	9845	coliseo	coliseo coliseos
+46	9846	fobia	fobia fobias
+47	9847	bufanda	bufanda bufandas
+48	9848	bingo	bingo bingos
+49	9849	inflexión	inflexión inflexiones
+50	9850	recibimiento	recibimiento recibimientos
+51	9851	incomparable	incomparable incomparables
+52	9852	laborista	laborista laboristas
+53	9853	metodológico	metodológico metodológica metodológicas metodológicos
+54	9854	cebada	cebada cebadas tacc
+55	9855	argentine	argentina argentine argentinos argentinas
+56	9856	choto	choto chotos chotas
+57	9857	atraco	atraco atracos
+58	9858	mayonesa	mayonesa mahonesa mayonesas
+59	9859	tamal	tamales tamal tamalitos
+60	9860	coronación	coronación coronaciones
+61	9861	encadenado	encadenado encadenados encadenada encadenadas
+62	9862	kirchnerista	kirchnerista kirchneristas
+63	9863	preescolar	preescolar preescolares
+64	9864	policíaco	policíaca policiaco policíaco policíacas policíacos
+65	9865	mimar	mima mimar mime mimas mimada miman mimando mimados mimen mimarla mimarte mimarlo mimarse mimaba mimes mimó mimadas
+66	9866	hurto	hurto hurtos
+67	9867	ventilar	ventilar ventilado ventila ventilados ventiladas ventilando ventilada ventile ventilen ventilan ventiló ventilarse ventilaron
+68	9868	inválido	inválido inválidos inválida inválidas
+69	9869	pay	pay pays
+70	9870	vértice	vértice vértices
+71	9871	restituir	restituir restituido restituyó restituye restituidos restituida restituya restituyan restituirá restituyendo restituyen restituidas restituyeron restituirlo restituyo
+72	9872	comilla	comillas comilla
+73	9873	milenario	milenaria milenario milenarias milenarios
+74	9874	acústica	acústica
+75	9875	batista	batista
+76	9876	blanqueo	blanqueo
+77	9877	calda	caldas
+78	9878	concertación	concertación
+79	9879	corán	corán
+80	9880	erróneamente	erróneamente
+81	9881	estomagar	estomago
+82	9882	fisiología	fisiología
+83	9883	largamente	largamente
+84	9884	lentitud	lentitud
+85	9885	mp3	mp3
+86	9886	olfato	olfato
+87	9887	olimpo	olimpo
+88	9888	planeamiento	planeamiento
+89	9889	proletariado	proletariado
+90	9890	ras	ras
+91	9891	realeza	realeza
+92	9892	supremacía	supremacía
+93	9893	tri	tri
+94	9894	consular	consular consulares
+95	9895	indumentaria	indumentaria indumentarias
+96	9896	álgebra	álgebra algebra álgebras
+97	9897	golazo	golazo golazos
+98	9898	malgastar	malgastar malgastando malgastado malgastes malgasta malgastan malgasto malgaste malgastados malgasté malgastarlo malgastó malgasten malgastada
+99	9899	sepultura	sepultura sepulturas
+100	9900	eslabón	eslabón eslabones

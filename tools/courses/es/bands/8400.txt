@@ -1,0 +1,100 @@
+1	8301	omega	omega omegas
+2	8302	tornado	tornado tornados
+3	8303	insensible	insensible insensibles
+4	8304	envenenar	envenenar envenena envenenan envenenada envenenando envenenó envenenados envenenaron envenenadas enveneno envenenarse envenenaba envenene envenenarlo envenenen envenenarme envenenarnos
+5	8305	intermitente	intermitente intermitentes
+6	8306	albañil	albañil albañiles
+7	8307	vómito	vómitos vómito
+8	8308	despiadado	despiadado despiadada despiadados despiadadas
+9	8309	damnificado	damnificados damnificado damnificadas damnificada
+10	8310	tajo	tajo tajos
+11	8311	tac	tac tacs
+12	8312	ermita	ermita ermitas
+13	8313	abatido	abatido abatidos abatida abatidas
+14	8314	zumo	zumo zumos
+15	8315	domiciliario	domiciliario domiciliaria domiciliarios domiciliarias
+16	8316	erosión	erosión erosiones
+17	8317	reabrir	reabrir reabierto reabrió reabre reabierta reabra reabrieron reabren reabriendo reabrirá reabrirse reabrirán reabran reabrirlo reabiertas reabiertos
+18	8318	metabolismo	metabolismo metabolismos
+19	8319	horrendo	horrendo horrenda horrendos horrendas
+20	8320	cristalino	cristalina cristalino cristalinas cristalinos
+21	8321	artiga	artigas artiga
+22	8322	alboroto	alboroto alborotos
+23	8323	ale	ale ales
+24	8324	rebotar	rebota rebotar rebotan rebotó rebotando rebotes rebotado rebotaron rebotaban rebotaba reboto reboten rebotados rebotada
+25	8325	plagado	plagado plagada plagados plagadas
+26	8326	defensivo	defensivo defensivos defensivas
+27	8327	mod	mod mods
+28	8328	intestinal	intestinal intestinales
+29	8329	naranjo	naranjo naranjos
+30	8330	subyacente	subyacente subyacentes
+31	8331	partidista	partidista partidistas
+32	8332	puñalada	puñaladas puñalada
+33	8333	banquillo	banquillo banquillos
+34	8334	tabú	tabú tabúes tabús
+35	8335	arrepentimiento	arrepentimiento arrepentimientos
+36	8336	delatar	delata delatan delatar delató delatado delataba delate delatando delatara delataron delato delaten delatará delatarlo delataban delatas delataría
+37	8337	peregrinación	peregrinación peregrinaciones
+38	8338	repaso	repaso repasos repasito
+39	8339	tripa	tripas tripa tripita
+40	8340	tapón	tapones tapón
+41	8341	reprochar	reprocha reprochar reprochó reproches reprochan reprocharle reprochado reprochaba reprocho reprocharon reprochando reprocharme reprocharte reprochaban reprocharse reproché reprocharles reprochamos reprochas
+42	8342	gasolinera	gasolinera gasolineras
+43	8343	anchura	anchura anchuras
+44	8344	pulido	pulido pulida pulidos pulidas
+45	8345	maricón	maricón maricones maricona mariconas mariconazo
+46	8346	mermelada	mermelada mermeladas
+47	8347	aura	aura auras
+48	8348	pavimento	pavimento pavimentos
+49	8349	vacuno	vacuno vacunas vacunos
+50	8350	etiquetado	etiquetado etiquetada etiquetados etiquetadas
+51	8351	confección	confección confecciones
+52	8352	estigma	estigma estigmas
+53	8353	responsabilizar	responsabiliza responsabilizar responsabilizó responsabilizarse responsabilizan responsabilizado responsabilizo responsabilice responsabilizando responsabilizamos responsabilizaba responsabilizaron responsabilizará responsabilizarnos responsabilicen responsabilizados responsabilizándose
+54	8354	soñador	soñador soñadores soñadora soñadoras
+55	8355	desequilibrio	desequilibrio desequilibrios
+56	8356	mimo	mimo mimos
+57	8357	afección	afección afecciones
+58	8358	traumático	traumático traumática traumáticas traumáticos
+59	8359	infernal	infernal infernales
+60	8360	terapeuta	terapeuta terapeutas
+61	8361	bajón	bajón bajones
+62	8362	galileo	galileo galilea galileos
+63	8363	amazónico	amazónica amazónico amazónicos amazónicas
+64	8364	ruar	rue rua ruas ruo rúas
+65	8365	activismo	activismo
+66	8366	after	after
+67	8367	anarquía	anarquía
+68	8368	autodeterminación	autodeterminación
+69	8369	cohesión	cohesión
+70	8370	irónicamente	irónicamente
+71	8371	kirchnerismo	kirchnerismo
+72	8372	parálisis	parálisis
+73	8373	satanás	satanás
+74	8374	smart	smart
+75	8375	sorprendentemente	sorprendentemente
+76	8376	bisexual	bisexual bisexuales
+77	8377	glaciar	glaciar glaciares
+78	8378	patrocinar	patrocina patrocinar patrocinó patrocinan patrocinada patrocinando patrocinados patrocinaba patrocine patrocinaron patrocinadas patrocinará patrocinamos patrocino patrocinen
+79	8379	platino	platino platina platinos platinas
+80	8380	bizarro	bizarro bizarra bizarras bizarros
+81	8381	boicot	boicot boicots
+82	8382	pronosticar	pronostica pronostico pronosticado pronostican pronosticar pronosticó pronosticaba pronosticaron pronosticaban pronosticando pronosticada pronosticados
+83	8383	carnicero	carnicero carniceros carnicera
+84	8384	lechuga	lechuga lechugas
+85	8385	guiso	guiso guisos
+86	8386	aterrar	aterra aterrado aterrada aterrados aterraba aterran aterradas aterró aterrar aterro
+87	8387	rating	rating ratings
+88	8388	indeciso	indeciso indecisos indecisa indecisas
+89	8389	rehabilitar	rehabilitar rehabilitado rehabilitada rehabilitados rehabilita rehabilitarse rehabilitando rehabilitadas rehabilitó rehabilitan rehabilitarlo rehabilitaron rehabilite rehabilitamos rehabilitarme
+90	8390	derrumbe	derrumbe derrumbes
+91	8391	barbacoa	barbacoa barbacoas
+92	8392	distanciar	distanciarse distanciado distanciados distanció distancian distanciando distanciar distanciadas distanciándose distanciada distanciarnos distanciarme distanciaron distanciamos distanciaba distancie distanciaban distanciará distancias
+93	8393	deudor	deudor deudores deudora deudoras
+94	8394	adquisitivo	adquisitivo adquisitiva
+95	8395	quebrado	quebrado quebradas quebrados
+96	8396	bis	bis bises
+97	8397	chorizo	chorizo chorizos
+98	8398	viñeta	viñeta viñetas
+99	8399	brotar	brotar brotan brotes brotando brotó brotaron broto brotaba brotado brotaban broten brotará brotarán brotara brotada
+100	8400	recobrar	recobrar recobró recobrado recobra recobre recobro recobrando recobraron recobrará recobrarse recobré recobran recobrada recobrados recobrara recobramos

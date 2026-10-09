@@ -1,0 +1,100 @@
+1	8201	nasal	nasal nasales
+2	8202	balneario	balneario balnearios balnearia
+3	8203	chatarra	chatarra chatarras
+4	8204	afectivo	afectivo afectiva afectivos afectivas
+5	8205	doblaje	doblaje doblajes
+6	8206	adoración	adoración adoraciones
+7	8207	prefecto	prefecto prefectos prefecta
+8	8208	vecinal	vecinal vecinales
+9	8209	conglomerado	conglomerado conglomerados
+10	8210	demolición	demolición demoliciones
+11	8211	copyright	copyright copyrights
+12	8212	hereditario	hereditaria hereditario hereditarios hereditarias
+13	8213	sumario	sumario sumaria sumarios sumarias
+14	8214	cid	cid cides
+15	8215	experimentación	experimentación experimentaciones
+16	8216	claustro	claustro claustros
+17	8217	innegable	innegable innegables
+18	8218	mamífero	mamíferos mamífero
+19	8219	telescopio	telescopio telescopios
+20	8220	susurrar	susurró susurra susurrando susurrar susurraba susurran susurré susurre susurrarle susurrado susurraban susurrándole susurras susurradas susurrada
+21	8221	improvisado	improvisado improvisada improvisados improvisadas
+22	8222	gif	gif gifs
+23	8223	excedente	excedente excedentes
+24	8224	manso	manso mansa mansos mansas
+25	8225	soleado	soleado soleados soleada soleadas
+26	8226	borda	borda bordas
+27	8227	desahucio	desahucios desahucio deshaucio
+28	8228	lucrativo	lucrativo lucrativa lucrativos lucrativas
+29	8229	hocico	hocico hocicos
+30	8230	aparcamiento	aparcamiento aparcamientos
+31	8231	caótico	caótico caótica caóticos caóticas
+32	8232	casting	casting castings
+33	8233	rojizo	rojizo rojiza rojizos rojizas
+34	8234	surrealista	surrealista surrealistas
+35	8235	vestigio	vestigios vestigio
+36	8236	rampa	rampa rampas
+37	8237	enzima	enzimas enzima ensima
+38	8238	nodo	nodos nodo
+39	8239	tableta	tabletas tableta
+40	8240	gema	gema gemas
+41	8241	populismo	populismo populismos
+42	8242	bancarrota	bancarrota bancarrotas
+43	8243	arrepentido	arrepentido arrepentidos arrepentida arrepentidas
+44	8244	comprobación	comprobación comprobaciones
+45	8245	revancha	revancha revanchas
+46	8246	oscurecer	oscurece oscurecer oscurecido oscureció oscureciendo oscurecida oscurecen oscurezca oscurecidos oscurecerse oscurecidas oscurecieron oscurecía oscurecerá
+47	8247	falsificar	falsificar falsificado falsificados falsificada falsificó falsificadas falsificando falsifica falsifican falsificaron falsifico falsifique
+48	8248	avena	avena tacc
+49	8249	contagio	contagio contagios
+50	8250	malicioso	malicioso maliciosa maliciosos maliciosas
+51	8251	modular	modular modulo modulares modulada modula module modulan modulado modulando modules moduladas modulados
+52	8252	trasfondo	trasfondo transfondo trasfondos
+53	8253	website	website websites
+54	8254	quincena	quincena quincenas
+55	8255	estrago	estragos estrago
+56	8256	conflictivo	conflictiva conflictivo conflictivos conflictivas
+57	8257	anestesia	anestesia
+58	8258	bonus	bonus
+59	8259	chingada	chingada
+60	8260	colimar	colima
+61	8261	descomposición	descomposición
+62	8262	diesel	diesel
+63	8263	empoderamiento	empoderamiento
+64	8264	gym	gym
+65	8265	hospitalidad	hospitalidad
+66	8266	mueble	mueble
+67	8267	periódicamente	periódicamente
+68	8268	profesionalmente	profesionalmente
+69	8269	romanticismo	romanticismo
+70	8270	tremendamente	tremendamente
+71	8271	aseo	aseo aseos
+72	8272	magnate	magnate magnates
+73	8273	borbón	borbón borbones
+74	8274	damasco	damasco damascos
+75	8275	simio	simios simio simia
+76	8276	nevar	nieva neves nevar nevando nevó nevares nevados nievas nevaba nieves nevadas nevara
+77	8277	cerco	cerco cercos
+78	8278	planetario	planetario planetaria planetarios planetarias
+79	8279	frotar	frota frotar frotando frotan frotándose frotarse frote frotó froto frotaba frotas frotado frotes frotamos froté frotada frotarlo frotaban frotarla
+80	8280	egoísmo	egoísmo egoísmos
+81	8281	existencial	existencial existenciales
+82	8282	refrigerador	refrigerador refri refrigeradores refrigeradora refrigeradoras
+83	8283	rotura	rotura roturas
+84	8284	éxodo	éxodo éxodos
+85	8285	silueta	silueta siluetas
+86	8286	ayo	aya ayo ayas ayos
+87	8287	polarizar	polarizado polarizada polarizados polarizadas polariza polarizar polarizando polarizan polarizó polarizaron
+88	8288	cancillería	cancillería cancillerías
+89	8289	inactivo	inactivo inactiva inactivos inactivas
+90	8290	conmoción	conmoción conmociones
+91	8291	cúbico	cúbicos cúbico cúbica cúbicas
+92	8292	random	random randoms
+93	8293	óxido	óxido óxidos
+94	8294	zoo	zoo zoos
+95	8295	laburar	laburar laburando labura laburan labure laburas laburen laburamos laburaba laburó
+96	8296	menta	menta mentas
+97	8297	salar	salar salada sale salo salé salas saladas saló salados salad salen salares salan sales
+98	8298	diagonal	diagonal diagonales
+99	8299	exageración	exageración exageraciones
+100	8300	adobe	adobe adobes

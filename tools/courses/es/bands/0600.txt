@@ -1,0 +1,100 @@
+1	501	mercado	mercado mercados mercadito
+2	502	jefe	jefe jefes jefa jefas jefecito
+3	503	vuelta	vuelta vueltas vueltita vueltecita
+4	504	libertad	libertad libertades
+5	505	cuyo	cuyo cuya cuyos cuyas
+6	506	apoyar	apoyar apoya apoyan apoyando apoyado apoyó apoyada apoyamos apoyaron apoye apoyados apoyen apoyaba apoyaban apoyará apoyas apoyarse apoyadas apoyarlo apoyándose apoyarlos apoyarnos apoyara apoyaría apoyarte apoyarla apoyaré apoyarme apoyemos apoyarán apoyé apoyaran apoyes apoyaremos apoyarían apoyarle apoyándonos apoyarles apoyarlas apoyándolo
+7	507	resto	resto restos
+8	508	menor	menor menores
+9	509	suponer	supongo supone suponer suponía suponen suponiendo supongamos supuso supondría suponga suponemos supuse supuesta supuestos supondrá suponían supusieron supongan supones supuestas suponerse supusiera suponerlo suponíamos supondrían supóngase supón supondrán supongas suponte supusimos supondremos supusieran supusiese suponerle
+10	510	próximo	próximo próxima próximos próximas
+11	511	arte	arte artes
+12	512	edad	edad edades
+13	513	representar	representa representan representar representado representada representados representando representaba representó representadas represente representaban representen representaron representará representaría represento representamos representas representara representarán representarse representarnos representarlo representaran representarlos representarla representarían representes representase representé representáis representándose representarme representaremos representaré representarlas representarte representemos representarle
+14	514	funcionar	funciona funcionar funcionan funcionando funcione funcionó funcionaba funcionado funcionales funcionará funcionen funcionaría funcionaban funcionara funciono funcionaron funcionarán funcionaran funcionamos funcionase funcionarían funcionas funcionaros funcionasen
+15	515	iglesia	iglesia iglesias yglesia
+16	516	director	director directora directores directoras
+17	517	fondo	fondo fondos
+18	518	evitar	evitar evita evitando evitarlo evitado evitan evitó evite eviten evitarse evitará evitamos evitaría evito evitaba evitaron evitas evitarlos evitarla evitemos evitarán evitara evitarlas evitaban evitaremos evitarle evitada evites evitarían evitarte evitarme evitarás evitaran evitados evité evitaré evitarnos evitadas evitarles evitándose
+19	519	mayo	mayo mayos
+20	520	nota	nota notas notita
+21	521	mandar	manda mandar mandó mandan mandado mande mandando mandaron manden mandé mandamos mandas mandaba mandaste mandarle mandarme mandame mandados mandarlo mandarte mándame mandes mandaban mandaría mandara mandale mandará mandala mandarlos mandada mandarla mandaré mándale mandarnos mandaran mandarles mandemos mandare mandarán mandaremos
+22	522	profesor	profesor profesores profesora profesoras
+23	523	dormir	dormir dormido durmiendo duerme dormida duermo dormía duermen dormí duermes durmió dormidos duerma dormimos duermas dormiré dormían dormirse dormirme duerman durmieron dormiste dormidas dormirte durmiera duérmete dormís dormiría dormirá dormías dormirás dormíamos dormiremos durmamos dormirán dormirnos dormid durmieras dormirla durmieran
+24	524	continuar	continuar continúa continuó continúan continuará continuaron continúe continuado continuamos continuaba continuando continuada continúen continuarán continuaremos continuaban continuara continúo continuaría continuemos continué continuaré continuan continúas continuaran continuarían continuados continuadas continuase continuen continúes continuarlo continuarla continuarse continuad continuare continuasen continuarás continuándose continuábamos
+25	525	chino	china chino chinos chinas
+26	526	civil	civil civiles
+27	527	unir	unidos une unirse unir unió unen unieron unidas únete uniendo unirnos unan unirte unida unimos unirá unirme unía uní uniéndose uniera unirán unes unían uniría unieran unamos únanse unite únase unid unámonos unirían uniste unirlos uníos uniremos uniros uniré unirlas
+28	528	peso	peso pesos pesito
+29	529	desarrollar	desarrollar desarrollado desarrolla desarrollados desarrollando desarrolló desarrollan desarrollada desarrolladas desarrollarse desarrollaron desarrolle desarrollamos desarrollen desarrollaba desarrollará desarrollándose desarrollaban desarrollarán desarrollara desarrollarlo desarrollé desarrollaría desarrollarla desarrollaran desarrollaremos desarrollas desarrollarnos desarrollemos desarrollarlas desarrollase desarrollarte desarrolles desarrollarlos desarrollarme desarrollarían desarrollaste desarrollasen desarollar desarrollaré
+30	530	sur	sur sures
+31	531	marzo	marzo
+32	532	popular	popular populares
+33	533	resultar	resulta resultó resultar resultan resultaron resulte resultando resultaba resultará resultaría resulten resultara resulto resultaban resultas resultarán resultaran resultarían resultase resultarle resultaste resulté resultare resultarles resultarte resultamos resultaren resultarnos resultarme resultasen
+34	534	romper	romper roto rompe rompió rompiendo rota rompen rotos rompieron rompa rotas rompan romperse rompo rompí rompas rompes rompiste romperle rompía romperte rompemos rompimos rompiera romperla rompería romperlo romperme romperá rompían rompiéndose rompamos romperlas rompieran romperán romperles romperlos rompido rompiéndole romperé
+35	535	echar	echar echo echa echado echando echó echarle echan echaron echamos eche echen echaba echas echarse échale echarte eché echarme eches echarlo echada echaremos echaré echaban echemos hechar echará echándole echara echarnos echados echaran echarlos echaría echale echarles echarán echarla echaste
+36	536	causa	causa causas
+37	537	negocio	negocio negocios negocito negociazo
+38	538	antiguo	antiguo antigua antiguos antiguas antiquísimo
+39	539	provincia	provincia provincias prov
+40	540	feliz	feliz felices felice felicísimo
+41	541	efecto	efecto efectos
+42	542	color	color colores
+43	543	compañía	compañía compañías compañia
+44	544	dirección	dirección direcciones
+45	545	voto	votos voto
+46	546	natural	natural naturales
+47	547	justicia	justicia justicias
+48	548	demostrar	demostrar demuestra demostrado demuestran demostró demostrando demuestre demostraron demostrarlo demuestren demostrada demostrarle demostraba demostrará demuestras demostramos demostrarles demostraban demostraría demostrarse demostrarte demuestres demostrara demostrarme demuéstralo demuestro demostrados demostremos demostro demostraste demostradas demostraremos demostrarnos demostrarán demostré demostraran demostraré demostras demuéstrame demostrarían
+49	549	tampoco	tampoco
+50	550	mejorar	mejorar mejora mejoras mejorando mejorado mejore mejoró mejoran mejorada mejoren mejorará mejoraron mejorarlo mejorarla mejoraría mejoradas mejorarse mejorados mejoro mejorarán mejoramos mejoraba mejorara mejorarlas mejorarlos mejorarían mejoré mejoraran mejórate mejoremos mejoraremos mejoraban mejorarás mejorarte mejorarme mejoraste mejorase mejorarle mejorasen mejorate
+51	551	loco	loco loca locos locas loquito loquillo loquísimo
+52	552	área	área áreas
+53	553	privado	privado privada privadas privados
+54	554	diario	diario diarios diaria diarias
+55	555	fecha	fecha fechas
+56	556	rojo	rojo roja rojas rojos rojillo rojito
+57	557	correr	correr corre corriendo corren corrió corrido corría corrida corridas corro corrieron corra corres corran corrí corrían corridos corremos correrá corras correría corrimos correrán corriera correrse correrías corramos corred corríamos corrieran corriere corriste correrme correte correrían correrlo correré correrte correrla corré
+58	558	pena	pena penas
+59	559	descubrir	descubrir descubierto descubre descubrió descubrí descubrieron descubren descubriendo descubierta descubrimos descubiertos descubra descubiertas descubran descubro descubres descubrirá descubrirás descubrirlo descubriste descubriera descubras descubrirse descubriremos descubrirán descubría descúbrelo descubrieran descubriría descubrirla descubramos descubrirlos descubrían descubriese descubrirnos descubrirlas descubrirte descubrirme descubriéndose descubrís
+60	560	necesidad	necesidad necesidades
+61	561	norte	norte nortes
+62	562	diciembre	diciembre deciembre
+63	563	octubre	octubre otubre
+64	564	allá	allá
+65	565	diferencia	diferencia diferencias
+66	566	plaza	plaza plazas plazuela plaça pza placita placeta
+67	567	celebrar	celebrar celebra celebró celebrado celebran celebrando celebrada celebraron celebramos celebrará celebraba celebrarse celebrados celebrarlo celebradas celebraban celebro celebre celebrarán celebren celebremos celebraremos celebrara celebraría celebrándose celebres celebraran celebrase celebrarla celebré celebras celebraré celebrarían celebrábamos celebrándolo celebrasen celebrarlos celebrate celebraste celebrare
+68	568	usuario	usuarios usuario usuaria usuarias
+69	569	sufrir	sufrir sufrido sufre sufrió sufren sufriendo sufrieron sufría sufrimos sufra sufro sufrida sufran sufrí sufrirá sufridas sufridos sufrían sufrirán sufres sufriera sufras sufriría sufriste sufrirás sufrieran sufrirían sufrís sufriremos sufriré suframos sufrirlo sufrirla sufriese sufríamos sufrirías sufráis
+70	570	suceder	sucede sucedió sucedido suceder sucediendo suceda suceden sucedieron sucederá sucedía sucediera sucedería sucedan sucedían sucedidos sucederle sucederán sucediese sucedida sucedidas sucederme sucederse sucederlo sucediéndose sucedieran sucederían sucediéndole sucederles sucedernos
+71	571	viaje	viaje viajes viajecito viage
+72	572	sector	sector sectores
+73	573	médico	médico médicos médica médicas
+74	574	referir	refiere refiero referirse refería refieren referido refieres refirió refiriéndose referida referidos referidas referimos refiriendo referir referían refiera referirme referirnos referías refirieron referí refieran referís refiriéndome referirá referirte refiriera refiriéndonos refieras referiré referiría referiremos referirán referíamos referirás refirieran refiriéndote referirlos
+75	575	decisión	decisión decisiones
+76	576	estudiar	estudiar estudiando estudia estudiado estudió estudian estudiaba estudié estudie estudias estudiaron estudiamos estudiados estudiada estudiaste estudien estudiadas estudiarlo estudiaban estudiará estudiara estudiarla estudies estudiaremos estudiarse estudiarán estudiaría estudiarlos estudiaré estudiemos estudiarlas estudiábamos estudiaran estudiabas estudiase estudiaras estudiándolo estudiarás estudiá estudiad
+77	577	ministro	ministro ministros ministra ministras
+78	578	comentario	comentarios comentario
+79	579	quizá	quizás quizá
+80	580	pobre	pobre pobres pobrecito probe pobrecillo paupérrimo pobretón pobretones
+81	581	mexicano	mexicano mexicana mexicanos mexicanas mejicano
+82	582	verdadero	verdadero verdadera verdaderos verdaderas
+83	583	comida	comida comidas comidilla comidita
+84	584	carrera	carrera carreras carrerita carrerón
+85	585	campaña	campaña campañas
+86	586	trabajador	trabajadores trabajador trabajadora trabajadoras
+87	587	perro	perro perros perra perrito perras perritos perrita perritas perrillo perrazo perrote
+88	588	república	república repúblicas
+89	589	asegurar	asegurar asegura aseguró aseguro asegurarse asegurado aseguran asegurando asegurada asegúrate aseguraron asegurarnos aseguraba asegure asegurarte asegúrese asegurados aseguren asegurarme aseguramos asegurará aseguradas asegurate asegurándose aseguraban asegurarle asegúrense aseguraría aseguras asegurarles asegurarlo asegurara aseguré asegurarán aseguraremos asegurándole aseguraré asegurase aseguraros asegures
+90	590	justo	justo justa justos justas justito
+91	591	internet	internet internets
+92	592	abril	abril abriles
+93	593	recurso	recursos recurso
+94	594	producción	producción producciones
+95	595	central	central centrales
+96	596	rápido	rápido rápida rápidos rápidas rapidito rapidísimo rapidita rapiditos
+97	597	recuerdo	recuerdo recuerdos recuerdito
+98	598	septiembre	septiembre setiembre
+99	599	pie	pie pies pié piecito
+100	600	junio	junio

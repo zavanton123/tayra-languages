@@ -1,0 +1,100 @@
+1	5801	dotado	dotado dotada dotados dotadas
+2	5802	avatar	avatar avatares
+3	5803	jaula	jaula jaulas
+4	5804	aurora	aurora auroras
+5	5805	afín	afines afín
+6	5806	zoológico	zoológico zoológicos zoológica zoológicas
+7	5807	pi	pi píes
+8	5808	vegetación	vegetación vegetaciones
+9	5809	suplemento	suplemento suplementos
+10	5810	algoritmo	algoritmo algoritmos
+11	5811	internado	internado internada internados internadas
+12	5812	recuento	recuento recuentos
+13	5813	fidelidad	fidelidad fidelidades
+14	5814	cafetería	cafetería cafeterías
+15	5815	ilustrado	ilustrado ilustrada ilustrados ilustradas
+16	5816	coordenada	coordenadas coordenada
+17	5817	cuidadoso	cuidadoso cuidadosa cuidadosos cuidadosas
+18	5818	dilema	dilema dilemas
+19	5819	atribución	atribución atribuciones
+20	5820	enfermería	enfermería enfermerías
+21	5821	selectivo	selectiva selectivo selectivos selectivas
+22	5822	patricio	patricio patricios patricias
+23	5823	peregrino	peregrinos peregrino peregrina peregrinas
+24	5824	auditoría	auditoría auditorías
+25	5825	debutar	debutó debuta debutar debutará debutado debutaron debutando debutaba debutan debute debuté debuto debutara debutarán debutaría
+26	5826	elogio	elogios elogio
+27	5827	matemático	matemático matemáticos
+28	5828	cargador	cargador cargadores cargadora cargadoras
+29	5829	especular	especular especula especulando especulado especuló especulan especulaba especularon especule especulaban especulo especulen especulamos especulares
+30	5830	distante	distante distantes
+31	5831	exento	exento exentos exenta exentas
+32	5832	barca	barca barcas barquita
+33	5833	francamente	francamente
+34	5834	sinceridad	sinceridad
+35	5835	telefonía	telefonía
+36	5836	visibilidad	visibilidad
+37	5837	feroz	feroz feroces
+38	5838	grosero	grosero grosera groseros groseras
+39	5839	senda	senda sendas
+40	5840	dinámico	dinámico dinámicos dinámicas
+41	5841	sudor	sudor sudores
+42	5842	espinoso	espinosa espinoso espinosos espinosas
+43	5843	bíblico	bíblico bíblica bíblicos bíblicas
+44	5844	fuero	fuero fueros fuer
+45	5845	retornar	retornar retorna retornó retornado retornados retornando retornan retornaron retorne retornará retornaba retornen retornamos retornara retornaban retornarán retornaría retornada retorné retornemos
+46	5846	sustancial	sustancial sustanciales substancial
+47	5847	abue	abu abue
+48	5848	malasio	malasia malasio malasios malasias
+49	5849	legitimar	legitimar legitima legitimo legitimado legitimados legitiman legitimada legitimando legitimarse legitimas legitimizar legitimó legitimadas legitime legitimaron legitimaba legitimaban legitimaría
+50	5850	encarar	encarar encara encaró encaran encarando encarado encaro encare encaramos encararlo encaraba encararon encararse encarada encararla encarados encaré encaren encaras encaradas encararlos
+51	5851	espantoso	espantoso espantosa espantosas espantosos
+52	5852	despliegue	despliegue despliegues
+53	5853	reactivar	reactivar reactivos reactivo reactiva reactivas reactivado reactivó reactive reactivando reactivada reactivaron reactivan reactivarse reactivará reactiven reactivarlo
+54	5854	distintivo	distintivo distintivos distintiva distintivas
+55	5855	ilustre	ilustre ilustres ilustrísimo
+56	5856	disfrazar	disfrazar disfraza disfrazarse disfraces disfrazan disfrazados disfrazada disfrazó disfrazarme disfrazadas disfrazaron disfrace disfrazo disfrazando disfrazarte disfrazándose disfracen disfrazaba disfrazamos disfrazas disfrazarlo disfrazaban disfrazarnos disfracé disfrazaste
+57	5857	respiratorio	respiratorias respiratorio respiratoria respiratorios
+58	5858	repasar	repasar repasa repasando repasamos repasado repasemos repasó repase repasan repasaremos repasaba repasé repasaron repasas repasada repasarlo repasen
+59	5859	siesta	siesta siestas siestecita siestita
+60	5860	leu	lei leu
+61	5861	donante	donante donantes
+62	5862	reivindicación	reivindicaciones reivindicación
+63	5863	humillar	humillar humilla humilló humillan humillada humillando humillados humillarse humillarte humillen humille humillaron humillarlo humillarme humillo humillarnos humillarla humilles humillaba humillas humillarlos humilladas humillará humillaban humillarle humillara humillaste
+64	5864	inestable	inestable inestables
+65	5865	revertir	revertir revierte revertido revirtió revierta revirtiendo revertirlo revertirse revierten revertida reviertan revertirá revirtieron revertidos revertidas revertiría revertirla
+66	5866	ternura	ternura ternuras
+67	5867	rigor	rigor rigores
+68	5868	hormiga	hormigas hormiga hormiguita hormiguitas
+69	5869	omitir	omitir omite omitido omitió omitiendo omiten omitidos omitida omitieron omita omito omití omitidas omitimos omitirse omitan omitía omites omitirlo omitiré
+70	5870	simultáneo	simultánea simultáneo simultáneas simultáneos
+71	5871	satisfactorio	satisfactoria satisfactorio satisfactorios satisfactorias
+72	5872	platicar	platicar platica platicando platicas platicamos platico platicado platicó platicaba platican platiqué platique platicaron platicaban platiquen platicarlo platiques
+73	5873	resultante	resultante resultantes
+74	5874	exótico	exótico exóticas exóticos exótica
+75	5875	negación	negación negaciones
+76	5876	arteria	arteria arterias
+77	5877	insignificante	insignificante insignificantes
+78	5878	diploma	diploma diplomas
+79	5879	desconfiar	desconfiar desconfiado desconfía desconfiada desconfío desconfiados desconfían desconfiaba desconfiando desconfíe desconfió desconfio desconfiaban desconfíen desconfia desconfiamos desconfías desconfiad desconfié desconfiadas desconfiaron desconfian
+80	5880	incitar	incita incitar incitan incitando incitó incitado incitaba incite inciten incitaron incitaban incitados incitada incito incitarlos incitará incitas
+81	5881	cariñoso	cariñoso cariñosa cariñosos cariñosas
+82	5882	violeta	violeta violetas
+83	5883	telenovela	telenovela telenovelas
+84	5884	poste	poste postes
+85	5885	envejecer	envejecer envejecido envejece envejecen envejecida envejeciendo envejecemos envejecidos envejeció envejezca envejecidas envejezco envejecía envejeces envejecieron envejecí envejecerá envejezcan
+86	5886	exiliado	exiliados exiliado exiliada exiliadas
+87	5887	asesorar	asesorar asesores asesorado asesorando asesoró asesora asesorarte asesoran asesore asesorados asesorada asesoramos asesorarse asesoren asesoraron asesoro asesoraba asesorará asesórate asesoradas asesorarme asesorarlo asesorara asesorarle asesoras
+88	5888	desperdicio	desperdicio desperdicios
+89	5889	asignatura	asignatura asignaturas
+90	5890	erótico	erótico erótica eróticas eróticos
+91	5891	zorro	zorro zorros zorras zorrito
+92	5892	izar	ice izar iza izada izó izado izo izan izaron izando izadas icen ices izaba izas
+93	5893	cineasta	cineasta cineastas
+94	5894	colchón	colchón colchones
+95	5895	mosquito	mosquitos mosquito
+96	5896	avergonzar	avergüenza avergonzarse avergonzar avergüenzo avergüenzan avergonzando avergonzó avergonzaba avergonzada avergonzarnos avergüences avergonzarte avergüence avergonzados avergonzaría avergonzarme avergüencen avergonzamos avergüenzas avergonzará avergonzarla avergonzaré avergonzaron avergonzaban avergonzarlo avergonzara avergonzarlos avergonzadas
+97	5897	rendición	rendición rendiciones
+98	5898	heroico	heroico heroica heroicos heroicas
+99	5899	finalista	finalistas finalista
+100	5900	adverso	adversos adversas adverso adversa

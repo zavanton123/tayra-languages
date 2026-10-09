@@ -1,0 +1,100 @@
+1	5501	ambulancia	ambulancia ambulancias
+2	5502	rentable	rentable rentables
+3	5503	congo	congo congos
+4	5504	preparatoria	preparatoria prepa preparatorias prepas
+5	5505	grandeza	grandeza grandezas
+6	5506	rana	rana ranas ranita
+7	5507	enfatizar	enfatizó enfatiza enfatizar enfatizando enfatizan enfatizado enfatizaba enfatizaron enfatizaban enfatizo enfatizada enfatizamos enfatice
+8	5508	consigna	consigna consignas
+9	5509	repentino	repentina repentino repentinos repentinas
+10	5510	patriótico	patriótico patriótica patrióticos patrióticas
+11	5511	cadera	cadera caderas
+12	5512	madurar	madurar madurado madurando maduran madura madure maduren maduró maduras madures maduré maduraron maduramos maduradas madurada madurará madurados maduraba
+13	5513	asentar	asienta asentarse asiente asentar asentó asentaron asientan asentada asentados asentando asentaba asentadas asienten asentaban asentándose asentará asentara asentamos asentaría asientes
+14	5514	razonamiento	razonamiento razonamientos
+15	5515	letal	letal letales
+16	5516	acertar	acertar acierta acertada acertó aciertan acertadas aciertas acertaron acerté acierte acertamos acertados acertando acertarás acertaba acertaste acierten acerto aciertes acertará acertarle acertara
+17	5517	libio	libia libio libios libias
+18	5518	tejado	tejado tejada tejados tejadillo
+19	5519	retención	retención retenciones
+20	5520	indignación	indignación indignaciones
+21	5521	aluminio	aluminio aluminios
+22	5522	cárdeno	cárdenas cárdeno
+23	5523	colapso	colapso colapsos
+24	5524	documentado	documentado documentada documentados documentadas
+25	5525	garra	garras garra garrón
+26	5526	ostentar	ostenta ostentan ostentar ostentaba ostentando ostentado ostentó ostentaban ostente ostenten ostentará ostentaron ostentara ostentada
+27	5527	jerarquía	jerarquía jerarquías
+28	5528	chingar	chingar chingados chingando chingue chinga chinguen chingado chingan chingas chingues chingaste chingaos chingarle chingamos chingarte chingaron chingó chingarse chingué chingarme chinge chingen
+29	5529	gestor	gestor gestores gestora gestoras
+30	5530	republicar	republica republican republicas republicado republique republicanos
+31	5531	gigantesco	gigantesco gigantesca gigantescas gigantescos
+32	5532	ruego	ruego ruegos
+33	5533	despejar	despejar despeje despeja despejada despejando despejó despejados despejarse despejarme despejadas despejo despejaron despejan despejará despejarte despejes despejen despejamos despejara despejaba despejas
+34	5534	brevemente	brevemente
+35	5535	conjuntamente	conjuntamente
+36	5536	curiosamente	curiosamente
+37	5537	efectividad	efectividad
+38	5538	nobleza	nobleza
+39	5539	sureste	sureste
+40	5540	llanto	llanto llantos
+41	5541	pana	pana panas
+42	5542	combatiente	combatientes combatiente
+43	5543	pedagógico	pedagógica pedagógico pedagógicas pedagógicos
+44	5544	indignado	indignado indignada indignados indignadas
+45	5545	antepasado	antepasados antepasado antepasada antepasadas
+46	5546	tutor	tutor tutores tutora tutoras
+47	5547	bigote	bigote bigotes bigotón bigotito
+48	5548	predicción	predicciones predicción
+49	5549	lío	lío líos
+50	5550	soplar	sopla soplar soplando soplan sople soplaba soplado sopló soplen soplaron soplada soplas soplamos soplará soplé soplaban soplaré soplara soplados soplarle soplarán
+51	5551	faro	faro faros
+52	5552	folleto	folleto folletos
+53	5553	mercantil	mercantil mercantiles
+54	5554	edificación	edificación edificaciones
+55	5555	sensor	sensores sensor
+56	5556	wey	wey weyes
+57	5557	innumerable	innumerables innumerable
+58	5558	arca	arca arcas
+59	5559	dimitir	dimitir dimite dimitió dimitido dimita dimiten dimitiría dimitiera dimitieron dimitirá dimitiendo dimitan dimito dimitía dimití dimitidos dimitiese
+60	5560	ajo	ajo ajos ajillo
+61	5561	acariciar	acariciar acaricia acariciando acariciaba acarició acaricio acarician acaricie acariciarlo acariciarla acariciado acaricié acariciarle acaricias acariciarme acariciaban acaricien acariciarte acariciándole acaricies acariciándome acariciarlos acaríciame acariciada acariciarse acariciamos acariciara acariciándolo acariciaron acariciándola acariciándose acariciados
+62	5562	alejo	alejo aleja alejas alejos
+63	5563	irresponsable	irresponsable irresponsables
+64	5564	fascinante	fascinante fascinantes
+65	5565	cocinero	cocinero cocineros cocinera cocineras
+66	5566	mego	mega megas mego
+67	5567	sabroso	sabroso sabrosa sabrosas sabrosos
+68	5568	extinguir	extinguido extinguir extinguirse extinguió extinguida extingue extinguieron extinga extinguen extinguiendo extinguidos extingan extinguirá extinguidas extinguiéndose extinguirán extinguiría extinguía extinguiera extinguieran extinguimos
+69	5569	suscripción	suscripción suscripciones subscripción
+70	5570	preceder	precedido precede precedida precedieron precedió preceden precedidos precedidas precediendo preceder precedía precedían preceda
+71	5571	escupir	escupir escupe escupiendo escupen escupió escupo escupido escupí escupieron escupa escupirle escupía escupan escupida escupes escupas escupirlo escupían escupirte escupimos escupirla escupidas escupiera
+72	5572	derrocar	derrocar derrocado derrocó derrocaron derrocarlo derrocados derrocada derrocando derroca derrocan derrocarlos derrocara derrocamos derrocarle
+73	5573	inclinación	inclinación inclinaciones
+74	5574	celebridad	celebridades celebridad
+75	5575	participativo	participativa participativo participativos participativas
+76	5576	rito	rito ritos ritas
+77	5577	teología	teología teologías
+78	5578	subtítulo	subtítulos subtítulo
+79	5579	precario	precaria precario precarias precarios
+80	5580	prevalecer	prevalece prevalecer prevalecen prevaleció prevalezca prevalecerá prevalecido prevalecía prevalecerán prevaleciendo prevalecieron prevalezcan prevalecían prevalecería
+81	5581	notorio	notorio notoria notorios notorias
+82	5582	concordar	concuerda concuerdo concuerdan concordar concuerde concordamos concuerden concordaban concordaba concordaron concordó concordado concordando
+83	5583	evo	evo evos
+84	5584	imprenta	imprenta imprentas
+85	5585	camarero	camarero camarera camareros camareras
+86	5586	noticiero	noticiero noticieros
+87	5587	pimienta	pimienta pimientas
+88	5588	hada	hadas hada fada
+89	5589	persistir	persiste persisten persistir persistió persista persistido persistieron persistía persistirá persistiendo persistan persistirán persistían persistes
+90	5590	proximidad	proximidad proximidades
+91	5591	oponente	oponente oponentes
+92	5592	renacimiento	renacimiento renacimientos
+93	5593	tenso	tensa tenso tensas tensos
+94	5594	lineal	lineal lineales
+95	5595	delta	delta deltas
+96	5596	jamón	jamón jamones
+97	5597	simpatizante	simpatizantes simpatizante
+98	5598	laberinto	laberinto laberintos
+99	5599	hito	hito hitos hita hitazo
+100	5600	frustrado	frustrado frustrada frustrados frustradas

@@ -1,0 +1,100 @@
+1	8801	otomano	otomano otomana otomanos otomanas
+2	8802	parlante	parlantes parlante
+3	8803	tesorero	tesorero tesorera tesoreros
+4	8804	obstaculizar	obstaculizar obstaculiza obstaculizado obstaculizan obstaculizando obstaculizada obstaculizó obstaculizados obstaculizaron obstaculice obstaculicen obstaculizaba obstaculizaban obstaculizará obstaculizadas obstaculizaría
+5	8805	conchatumadre	ctm conchetumare conchetumadre conchatumadre
+6	8806	laburo	laburo laburos
+7	8807	alucinante	alucinante alucinantes
+8	8808	bibliográfico	bibliográficas bibliográfica bibliográfico bibliográficos
+9	8809	personalizar	personalizar personalizadas personalizada personalizados personaliza personalizando
+10	8810	instituir	instituyó instituido instituida instituir instituye instituidos instituyeron instituidas instituyendo
+11	8811	obstrucción	obstrucción obstrucciones
+12	8812	subtitulado	subtitulado subtitulada subtituladas subtitulados
+13	8813	despachar	despachar despachó despacha despachado despachan despacharon despachando despachados despachada despachamos despache despachaba despachadas despacharlo despaché despachen despacharse
+14	8814	hobby	hobby hobbies hobbys
+15	8815	uf	uf huf
+16	8816	demencia	demencia demencias
+17	8817	perecer	perecieron perecer perece pereció perecido perecen perecerá perecerán perezca pereciendo perezcan
+18	8818	chiquillo	chiquillo chiquilla chiquillos chiquillas quillo
+19	8819	falcón	falcón falcones
+20	8820	polarización	polarización polarizaciones
+21	8821	englobar	engloba engloban englobar englobado englobados englobando englobadas englobe englobada englobaba englobarse
+22	8822	calvario	calvario calvarios
+23	8823	matutino	matutino matutina matutinos matutinas
+24	8824	serial	serial seriales
+25	8825	céntimo	céntimos céntimo
+26	8826	canalla	canalla canallas
+27	8827	náutico	náutica náutico náuticas náuticos
+28	8828	alienígena	alienígena alienígenas
+29	8829	fisura	fisuras fisura
+30	8830	saborear	saborear saboreando saborea saboreado saborearlo saboreo saborean saborearla saboree saboreaba saboreó saboreamos saboreé saboreaban saboreas
+31	8831	indignar	indignan indignó indignarse indigna indignar indignaron indigne indignada indignados indignaba indignarnos indigné indignen indignando indignarme indignamos indignaban indignándose indignas indignadas
+32	8832	gel	gel geles
+33	8833	matricular	matricula matricularse matriculas matriculó matriculados matricular matricularon matricularme matricularte matriculen matriculé matriculan matriculada matriculadas
+34	8834	imprevisto	imprevisto imprevistos imprevista imprevistas
+35	8835	caliza	caliza calizas
+36	8836	revolucionar	revolucionar revolucionó revolucionado revolucionando revoluciona revolucionaron revolucionará revolucionaría revolucionan revoluciones revolucionada revolucionados revolucionadas
+37	8837	caseta	caseta casetas
+38	8838	exención	exención exenciones
+39	8839	obsesivo	obsesivo obsesiva obsesivos obsesivas
+40	8840	costear	costear costearse costearlo costeó costea costeado costeada costeando costeo costearme costean costeados costeadas
+41	8841	endeudamiento	endeudamiento endeudamientos
+42	8842	atajar	atajar atajó ataja atajando atajada atajadas atajado ataje atajaba atajarlo atajados atajan atajaron
+43	8843	conjugar	conjugar conjuga conjugan conjugado conjugados conjugada conjugando conjugadas conjugarse conjugaron conjugó conjugaba
+44	8844	peninsular	peninsular peninsulares
+45	8845	coreografía	coreografía coreografías
+46	8846	calavera	calavera calaveras
+47	8847	pirineo	pirineos pirineo
+48	8848	bañado	bañado bañada bañados bañadas
+49	8849	contraparte	contraparte contrapartes
+50	8850	encierro	encierro encierros
+51	8851	hospitalizar	hospitalizado hospitalizados hospitalizada hospitalizadas hospitalizar
+52	8852	infidelidad	infidelidad infidelidades
+53	8853	ombligo	ombligo ombligos
+54	8854	imparable	imparable imparables
+55	8855	destacable	destacable destacables
+56	8856	idealista	idealista idealistas
+57	8857	indecente	indecente indecentes
+58	8858	voluntariado	voluntariado voluntariados
+59	8859	fenomenal	fenomenal fenomenales
+60	8860	proverbio	proverbio proverbios
+61	8861	estante	estantes estante
+62	8862	lírica	lírica líricas
+63	8863	rayado	rayado rayados rayada rayadas
+64	8864	diabólico	diabólico diabólica diabólicos diabólicas
+65	8865	intencional	intencional intencionales
+66	8866	estandarte	estandarte estandartes
+67	8867	router	router routers
+68	8868	hambruna	hambruna hambrunas
+69	8869	buzo	buzo buzos buso
+70	8870	sartén	sartén sartenes
+71	8871	páramo	páramo páramos
+72	8872	condicionado	condicionado condicionada condicionados condicionadas
+73	8873	desfavorable	desfavorable desfavorables
+74	8874	píldora	píldora píldoras
+75	8875	gramatical	gramatical gramaticales
+76	8876	discurrir	discurre discurrir discurren discurría discurrió discurriendo discurrían discurrido discurra discurrirá
+77	8877	jaque	jaque jaques
+78	8878	descomponer	descompone descomponer descompuso descomponen descomponerse descompuesta descomponiendo descomponga descompuestos descomponiéndose descomponía descompuestas descompuse
+79	8879	estacionado	estacionado estacionados estacionada estacionadas
+80	8880	salvaguardar	salvaguardar salvaguarda salvaguardas salvaguardando salvaguardado salvaguardan
+81	8881	suavizar	suavizar suavizado suaviza suavizó suavizando suavizan suavizada suavizarlo suavice suavizaron suavicen suavizadas suavizados suavizarse
+82	8882	teológico	teológico teológica teológicos teológicas
+83	8883	cuadrilla	cuadrilla cuadrillas
+84	8884	cliché	cliché clichés
+85	8885	afluencia	afluencia
+86	8886	autismo	autismo
+87	8887	cautiverio	cautiverio
+88	8888	combustión	combustión
+89	8889	cordura	cordura
+90	8890	oficialismo	oficialismo
+91	8891	porvenir	porvenir
+92	8892	pum	pum
+93	8893	esmalte	esmalte esmaltes
+94	8894	perfilar	perfila perfilar perfilando perfilan perfilado perfilaba perfilarse perfiló perfilada perfilados perfiles perfiladas perfilándose perfilaron
+95	8895	pergamino	pergamino pergaminos
+96	8896	simulacro	simulacro simulacros
+97	8897	deformar	deforma deformado deformada deformar deforman deformadas deformados deformando deformes deformó deformarse deformaron deformaba
+98	8898	guiño	guiño guiños
+99	8899	alérgico	alérgica alérgico alérgicas alérgicos
+100	8900	emplazar	emplazado emplaza emplazada emplazar emplazados emplazadas emplazó emplazan emplazo emplazaron emplazará emplazando emplazarse

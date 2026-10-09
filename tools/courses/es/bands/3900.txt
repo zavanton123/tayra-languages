@@ -1,0 +1,100 @@
+1	3801	designado	designado designados designada designadas
+2	3802	fracasar	fracasó fracasar fracasa fracasaron fracasan fracasando fracase fracasados fracasada fracasará fracasara fracasé fracasamos fracasaste fracasas fracasaría fracasen fracasadas fracasaba fracasaran fracasaban fracasarán fracases
+3	3803	mago	mago magos maga magas
+4	3804	posta	posta postas
+5	3805	circo	circo circos
+6	3806	guion	guión guion guiones
+7	3807	preferido	preferido preferida preferidos preferidas
+8	3808	abundante	abundante abundantes
+9	3809	proteína	proteínas proteína
+10	3810	docena	docena docenas
+11	3811	destinar	destina destinar destinados destinó destinan destinada destinadas destinará destinaron destine destinarán destinen destinando destinarse destinaba destinarlo destinaría destinara destinaban destinarlos destinamos destinaran destinándose destinarla destinarían destinarlas
+12	3812	hincha	hinchas hincha
+13	3813	temblar	temblar temblando tiembla tiemblan temblaba tembló tiemblo temblaban tiemble tiemblen temblaron temblad temblado temblará tiemblas temblara temblo temblarán temblamos temblé temblaría temblaran
+14	3814	caridad	caridad caridades
+15	3815	retraso	retraso retrasos
+16	3816	consecutivo	consecutivos consecutivo consecutiva consecutivas
+17	3817	originario	originario originarios originaria originarias
+18	3818	acento	acento acentos accento
+19	3819	traductor	traductor traductores traductora traductoras
+20	3820	mediterráneo	mediterráneo mediterránea mediterráneos mediterráneas
+21	3821	coraje	coraje corajes
+22	3822	cuero	cuero cueros cuerito cueritos
+23	3823	filósofo	filósofo filósofos filósofa filósofas
+24	3824	mateo	mateo mateos matea
+25	3825	apartar	aparta apartar apartó apartarse apartando apartan apartados aparto aparten apartaron aparté apartarme apartarlo apartaba apártate apartamos apartándose apartará apartarla apartara apartas apartarnos apartada apartarte apartaría apartaos apartarlos apartaban apartarle apartaran apártalo apartemos apartadas apartad apartarán apartase apartarlas apartaré apartándome apartes
+26	3826	encargo	encargo encargos
+27	3827	ahogar	ahogar ahoga ahogando ahogo ahogó ahogan ahogarse ahogaron ahogue ahogaba ahogarme ahogada ahogados ahogándose ahogas ahoguen ahogarte ahogadas ahogaban ahogues ahogaría ahogamos ahogara ahogarlo ahogarnos ahogaré ahogándome ahogué ahogarla ahogarás ahogarlos ahogará ahogaremos ahogos ahogaran ahogarlas ahogándote
+28	3828	supermercado	supermercado supermercados
+29	3829	nulo	nula nulo nulos nulas
+30	3830	decente	decente decentes
+31	3831	sabiduría	sabiduría sabidurías
+32	3832	aduana	aduana aduanas
+33	3833	cualidad	cualidades cualidad
+34	3834	complicar	complica complicar complican complicó complicando complicarse complicada complice complices complique complicaba complicaron compliques complicadas complicaría complicados complico complicará complicarte complicas compliquen complicarme complicarnos complicarle complicarlo complicamos complicaban complicarla complicándose
+35	3835	prever	prevé prever preveía prevista previendo previstos previstas previó preveer preveo prevea preveían previeron prevén preve preven preverse prevean preverlo prevemos previéndose
+36	3836	limón	limón limones limoncito
+37	3837	traicionar	traicionado traicionar traicionó traiciona traicionando traicionan traicionada traicionaron traicionados traiciono traicione traiciones traicionará traicionas traicionarlo traicionaría traicionara traicionen traicionaste traicionarte traicionaba traicioné traicionarán traicionarse traicionadas traicionarla traicionarme traicionaban traicionamos traicionarlos traicionaran traicionarnos traicionarle
+38	3838	cima	cima cimas
+39	3839	obedecer	obedecer obedece obedecen obedeciendo obedeció obedezca obedezcan obedecía obedecido obedezco obedecieron obedecemos obedecí obedeces obedecían obedecerá obedecerle obedeciera obedecerán obedecerlo obedecerla obedecería obedeced obedecerlas obedeceré obedecerte obedecida obedecerme obedecidas obedecieran
+40	3840	desfile	desfile desfiles
+41	3841	directivo	directivos directivo directivas
+42	3842	deportista	deportistas deportista
+43	3843	progresista	progresista progresistas
+44	3844	lamento	lamento lamentos
+45	3845	gemelo	gemelos gemelas gemelo gemela
+46	3846	polaco	polaco polacos polaca polacas
+47	3847	afrontar	afrontar afronta afrontan afrontando afrontarlo afrontado afrontó afrontamos afrontarlos afrontaba afrontaron afronte afrontará afrontarlas afrontarla afronto afrontarse afrontas afronten afrontados afrontémoslo afrontaban afrontemos afrontaremos afrontaría
+48	3848	automáticamente	automáticamente
+49	3849	campus	campus
+50	3850	legalmente	legalmente
+51	3851	naturalmente	naturalmente
+52	3852	amargo	amargo amarga amargos amargas amaro amara amaras amaros
+53	3853	sembrar	sembrar sembrado sembrando sembró siembran sembrada sembraron sembrados sembradas siembre sembramos siembras sembraba siembren sembré sembraban sembrarán sembraste siembro sembrará sembremos sembra sembrarla siembres sembrarlas sembrarse
+54	3854	controversia	controversia controversias
+55	3855	distinción	distinción distinciones
+56	3856	mecánica	mecánica mecánicas
+57	3857	solidario	solidario solidaria solidarios solidarias
+58	3858	segmento	segmento segmentos
+59	3859	center	center centers
+60	3860	escritorio	escritorio escritorios
+61	3861	lavado	lavado lavados lavada lavadas
+62	3862	humedad	humedad humedades
+63	3863	chat	chat chats
+64	3864	cómic	cómic cómics comic
+65	3865	nene	nene nenes nenas nenito
+66	3866	séptimo	séptimo séptima sétimo séptimos séptimas
+67	3867	burla	burla burlas
+68	3868	precisión	precisión precisiones
+69	3869	empeorar	empeorar empeora empeorando empeoró empeorado empeoran empeore empeorará empeoraron empeoraba empeoren empeoraría empeorara empeoro empeorarlo empeorarán empeorarla empeoraban empeorada empeoras empeoramos empeoraran
+70	3870	estimular	estimular estimula estimulan estimulando estimulado estimuló estimulo estimulada estimule estimulados estimulará estimulen estimularon estimuladas estimularía estimulaba estimularlo estimulamos estimularse estimularán estimularlos estimulaban
+71	3871	coser	cosas coser coso cosido cose cosiendo cosida cosos cosidos cosidas cosen cosió cosí coses cosía cosieron cosan cosían cosiste cosemos coserle coserlo cosenos
+72	3872	mutuo	mutuo mutua mutuos mutuas
+73	3873	dotar	dotar dote dotes dota dotada dotados dotó dotando dotadas dotarse dotan dotarla dotarlo doto dotaron dotándola dotándolo dotarlos dotará dotaba dotamos dotarles dotarlas dotándolos dotarle dotarán dotarnos doten dotándolas dotara dotándole dotaría dotaban
+74	3874	majestad	majestad majestades magestad
+75	3875	natal	natal natales
+76	3876	balón	balón balones
+77	3877	legislatura	legislatura legislaturas
+78	3878	marta	marta martas
+79	3879	recompensa	recompensa recompensas
+80	3880	íntimo	íntimo íntima íntimos íntimas
+81	3881	forzado	forzado forzada forzados forzadas
+82	3882	distraer	distraer distraído distrae distraída distraerme distraerse distraen distraídos distraiga distraernos distrajo distraerte distraigan distraigo distraido distrayendo distraes distraje distraigas distraida distraía distraerlo distraerlos distraerla distraidos distrajera distrajeron distraerá distraían distraería distraídas distraerle distraemos
+83	3883	futbolista	futbolista futbolistas
+84	3884	recortar	recortes recortar recortado recorta recortando recortada recortan recortó recortadas recortados recortaron recorten recortamos recortaba recorto recortas recortará recorté recortarlo recortarse recortaban recortarle recortaría recortarán recortara recortarla
+85	3885	maquinaria	maquinaria maquinarias
+86	3886	excepcional	excepcional excepcionales
+87	3887	tropical	tropical tropicales
+88	3888	misil	misiles misil
+89	3889	molestia	molestia molestias
+90	3890	rector	rector rectores rectora rectoras
+91	3891	imitar	imitar imitando imita imitan imitado imitó imitaba imitarlo imitaron imitaban imitada imiten imite imito imitarlos imitados imitamos imitarla imitadas imitemos imites imitas imitarme imitarle imitara imité imitarse imitarte imitarlas imitará
+92	3892	egipcio	egipcio egipcios egipcia egipcias
+93	3893	ducha	ducha duchas duchita
+94	3894	mediodía	mediodía mediodia mediodías
+95	3895	rogar	ruega rogar rogando rogamos rogó rogado ruegan rogarle rogaba rogándole rogué rogo ruegue rogaron rueguen roguemos rogaría rogarte rogarles ruegues rogaban roga ruegas rogad rogará rogándoles roge rogaré rogara rogada rogándome ruégame rogarme
+96	3896	barro	barro barros
+97	3897	compensar	compensar compensa compensado compensan compensada compense compensados compensando compensará compensarlo compensó compensaba compensadas compensen compensaría compensarse compenso compensaron compensarán compensara compensarlos compensarla compensarle compensas compensaban compensarte compensamos compensaré
+98	3898	evidentemente	evidentemente
+99	3899	full	full
+100	3900	hipótesis	hipótesis

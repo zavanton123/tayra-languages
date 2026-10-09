@@ -1,0 +1,100 @@
+1	2001	símbolo	símbolo símbolos
+2	2002	idiota	idiota idiotas
+3	2003	grito	gritos grito gritito
+4	2004	diente	dientes diente
+5	2005	soler	solía solían suele suelen soler solíamos solido solías solida solidos solemos suela solidas sueles suelas solé solete solería soléis suelan
+6	2006	oriental	oriental orientales
+7	2007	artístico	artística artístico artísticas artísticos
+8	2008	recorrer	recorrer recorre recorriendo recorrió recorren recorrieron recorridos recorría recorrí recorrían recorrimos recorrerá recorra recorremos recorro recorrida recorrerlo recorran recorrerán recorres recorrerla recorreremos recorrería recorridas recorrerse recorriera recorramos recorreré recorrerlos recorríamos recorras recorriste recorriéndola recorrerlas
+9	2009	horrible	horrible horribles
+10	2010	combate	combate combates
+11	2011	poema	poema poemas
+12	2012	castellano	castellano castellana castellanos castellanas
+13	2013	juntar	juntar juntan juntamos juntaron juntarse juntando juntó juntado junte juntada junten juntarnos juntas juntarme juntaban juntaba juntemos juntadas junté juntarte juntes juntarlos juntaran juntándose juntábamos juntara juntarán juntaste juntate juntaremos juntémonos juntarlas juntados juntará juntarlo juntaría juntarla júntate juntaré júntense
+14	2014	molesto	molesta molesto molestos molestas
+15	2015	cansado	cansado cansada cansados cansadas cansadísimo
+16	2016	dirigente	dirigentes dirigente dirigenta
+17	2017	peña	peña peñas
+18	2018	monte	monte montes montecito
+19	2019	excepto	excepto
+20	2020	perfectamente	perfectamente
+21	2021	cabello	cabello cabellos
+22	2022	aviso	aviso avisos
+23	2023	garantía	garantía garantías
+24	2024	localidad	localidad localidades
+25	2025	pollo	pollo polla pollos pollas pollita pollazos
+26	2026	estadística	estadísticas estadística
+27	2027	promesa	promesa promesas
+28	2028	armado	armado armados armadas
+29	2029	centrar	centra centrarse centre centró centran centrar centrándose centrarnos centrada centraron centraba centrará centramos centrando centrarme centrados centraremos centrarte céntrate centraban centradas centrales centren centres centrémonos centrándonos centrarán centras centraría centrara centraré centrale centremos centrate centré centrase centraran centraros centrándome
+30	2030	oído	oído oídos oídas oída
+31	2031	árabe	árabe árabes
+32	2032	literario	literaria literario literarios literarias
+33	2033	rol	rol roles
+34	2034	bicicleta	bicicleta bici bicicletas
+35	2035	fundador	fundador fundadores fundadora fundadoras
+36	2036	significativo	significativo significativa significativos significativas
+37	2037	beneficiar	beneficia beneficiar beneficiado benefician beneficiados beneficiarse beneficiará beneficiando benefició beneficie beneficien beneficiaron beneficiaría beneficiadas beneficiarán beneficiada beneficiaba beneficiándose beneficiarían beneficiaban beneficiarnos beneficiamos beneficiara beneficiaran beneficiarte beneficias beneficiarme beneficiaremos beneficiarlos beneficiaros
+38	2038	reforzar	reforzar refuerzos refuerzo refuerza reforzado reforzada refuerzan reforzando reforzó reforzadas reforzados reforzará reforzaron refuerce refuercen reforzarse reforzaba reforzaría reforzarán reforzarlo reforzamos reforzarla reforzaban reforzándose reforzara reforzaremos reforzarlos
+39	2039	adolescente	adolescentes adolescente
+40	2040	gigante	gigante gigantes giganta
+41	2041	índice	índice índices índex
+42	2042	patrimonio	patrimonio patrimonios
+43	2043	adicional	adicional adicionales
+44	2044	lavar	lavar lava lavarse lavando lavo lavan lavas lave lavó lavaba lavarte lavarme lavaron lavados laven lavamos lavada lavarlo lavarle lavarla lavé lávate laves lavaban lavarlos lavate lavadas lavarnos lavándose lavarlas lavara lavarles lávese lavaste lavará lavarán lávense lavaré lavaran lávalo
+45	2045	vestir	vestir vestirse vestidos visten vistiendo vestía vistió vestida vestirme vistes vestían vestirte vistieron vistan vestimos vestidas vístete vestí viste vestirnos vestirá vistiéndose vistiera vestirlo vistas vestirla vestirlos vestirán vestiría vestís vistieran vístase vestite vestiré vistamos vestíamos vístanse vestíos vísteme vestiste
+46	2046	relato	relato relatos
+47	2047	aventura	aventura aventuras
+48	2048	paquete	paquete paquetes paquetito paquetazo
+49	2049	primavera	primavera primaveras
+50	2050	áfrico	áfrica
+51	2051	preocupación	preocupación preocupaciones
+52	2052	episodio	episodio episodios
+53	2053	intervenir	intervenir intervino interviene intervenido intervienen intervinieron intervenga interviniendo intervengan intervenida intervenidos intervenidas interviniera intervendrá intervenía intervendrán intervenían intervendría intervenimos intervinieran intervine intervengo interviniese intervendrían
+54	2054	reportar	reportar reporta reportó reportado reportan reportaron reportes reportando reportados reportada reportadas reporten reporto reportarlo reportaba reportará reportarse reportamos reportaban reporté reportas reportándose reportarlos reportara repórtalo repórtense reportaría reportaran reportarán reportarla reportarle repórtate reportarme reportarte reportándome
+55	2055	vincular	vinculado vinculados vinculada vinculadas vincula vincular vinculan vinculo vinculó vincularse vincule vinculando vinculaba vincularon vinculaban vinculen vincularlo vinculará vincularlos vincularla vinculara vinculamos vinculándose vincularnos vincularía vinculándolos vinculándolo
+56	2056	abrazo	abrazo abrazos abrazote abrazotes
+57	2057	locura	locura locuras
+58	2058	digno	digno digna dignos dignas dino dignísimo
+59	2059	ocupado	ocupado ocupada ocupados ocupadas
+60	2060	potencia	potencia potencias
+61	2061	fan	fans fan fanes
+62	2062	academia	academia academias
+63	2063	extra	extra extras
+64	2064	abuso	abuso abusos
+65	2065	asiento	asiento asientos
+66	2066	infraestructura	infraestructura infraestructuras infrastructura
+67	2067	actualizar	actualizado actualizar actualizada actualiza actualizados actualizando actualizan actualizó actualizadas actualice actualizarse actualizo actualizaron actualicen actualizarlo actualizará actualizamos actualicé actualizarla actualizaba actualizarán actualizándose actualizas actualizaremos actualizaré actualices actualizara actualizarlos actualizarte actualizarme actualízate actualizate actualizaban actualizarnos actualizaría
+68	2068	tecnológico	tecnológico tecnológica tecnológicos tecnológicas
+69	2069	marina	marina marinas
+70	2070	consciente	consciente conscientes consiente conciente
+71	2071	apagar	apagar apaga apagado apague apagada apagó apagan apagando apago apagaron apagadas apagados apaguen apagarse apagarlo apagaba apagas apagué apagará apagara apagamos apagues apagarla apagaban apagarán apagándose apagaran apagaría apagaste apaguemos apagaremos apagá apagarlas apagarlos apagarme apagaré apagala apagarle apágalo
+72	2072	legislativo	legislativo legislativa legislativas legislativos
+73	2073	nave	nave naves
+74	2074	terrorista	terroristas terrorista
+75	2075	roca	roca rocas
+76	2076	sonrisa	sonrisa sonrisas sonrisita sonrisilla sonrisitas
+77	2077	co	co cos
+78	2078	lucir	lucía luce lucir lucen luciendo lució lucido lucila luzca luces lucían lucirse lucirá lucieron luzcan lucida luciría luzcas luzco luciera lucidos lucirlo lucirás lucirán luciste lucirte lucimos lucid lucí lucile lucirlos lucirían luciéndose lucirla lucidas lucieran lucirme
+79	2079	conductor	conductor conductores conductora conductoras
+80	2080	ancho	ancho ancha anchas anchos
+81	2081	apertura	apertura aperturas
+82	2082	armada	armada armadas
+83	2083	temporal	temporal temporales
+84	2084	brillante	brillante brillantes
+85	2085	suspender	suspender suspendido suspendió suspendida suspende suspendieron suspendidos suspendidas suspenden suspenda suspendan suspenderá suspendiendo suspenderse suspendiera suspendía suspenderán suspenderlo suspendo suspendieran suspenderla suspendería suspendemos suspendí suspendían suspended suspendes suspenderlos suspenderle suspendas suspenderían suspendiste suspendimos
+86	2086	elevar	elevar eleva elevó elevada elevan elevados eleven elevando elevadas elevarse elevaron eleve elevará elevaba elevándose elevaría elevamos elevo elevaban elevarlo elevara elevarán elevarnos elevas elevemos elevarla elevarte elevarían elevé elevate elevaremos elevarme elevaran elevándolo elevarlos eleves elevándola
+87	2087	recientemente	recientemente
+88	2088	detenido	detenido detenidos detenida detenidas
+89	2089	celebración	celebración celebraciones
+90	2090	instrucción	instrucciones instrucción
+91	2091	presidencial	presidencial presidenciales
+92	2092	distribuir	distribuir distribuido distribuidos distribuye distribuida distribuyen distribuidas distribuyó distribuyendo distribuyeron distribuya distribuirá distribuía distribuyan distribuirán distribuirse distribuían distribuimos distribuirlo distribuirlos distribuirla distribuirlas distribuyéndose distribuyera distribuyo distribuyeran distribuirían distribuiremos distribuiría distribuí distribuyes
+93	2093	comparación	comparación comparaciones
+94	2094	alcohol	alcohol alcoholes
+95	2095	sindicato	sindicato sindicatos
+96	2096	radical	radical radicales
+97	2097	silla	silla sillas sillita
+98	2098	extensión	extensión extensiones
+99	2099	torneo	torneo torneos
+100	2100	avance	avance avances

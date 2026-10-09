@@ -1,0 +1,100 @@
+1	7501	heredado	heredado heredada heredados heredadas
+2	7502	fatiga	fatiga fatigas
+3	7503	mena	mena menas
+4	7504	despejado	despejado despejada despejados despejadas
+5	7505	preferente	preferente preferentes
+6	7506	abstención	abstención abstenciones
+7	7507	cambiante	cambiante cambiantes
+8	7508	ecologista	ecologistas ecologista
+9	7509	cuarentena	cuarentena cuarentenas
+10	7510	baba	baba babas
+11	7511	recordatorio	recordatorio recordatorios recordatoria recordatorias
+12	7512	delegar	delegar delegados delega delegada delegó delegue delegando delegan delegadas delegaba delegaron delego deleguen
+13	7513	desesperar	desespera desesperes desesperar desesperada desesperados desesperan desesperarse desesperó desesperando desespere desesperaba desesperen desesperadas desesperarme desesperé desesperas desesperamos desesperéis
+14	7514	atmosférico	atmosférica atmosférico atmosféricas atmosféricos
+15	7515	decaer	decaer decayendo decaído decae decayó decaiga decaída decaen decayeron decaido decaía decaigas decaigan decaídos decaida decaerá decaídas decayera
+16	7516	transexual	transexuales transexual
+17	7517	zanahoria	zanahoria zanahorias
+18	7518	metrópoli	metrópolis metrópoli
+19	7519	divorciar	divorciarse divorció divorciaron divorcia divorcian divorciar divorciada divorciados divorciando divorcie divorciándose divorciadas divorciarme divorciarte divorcié divorciara divorcias divorciaría divorcien
+20	7520	tractor	tractor tractores tractora tractoras
+21	7521	astuto	astuto astuta astutos astutas
+22	7522	granjero	granjeros granjero granjera granjeras
+23	7523	mitología	mitología mitologías
+24	7524	reelegir	reelegido reelecto reelegirse reelegidos reelegir reelectos reelegida reelecta reeligió reelige reeligen reeligieron reelija
+25	7525	sevillano	sevillano sevillana sevillanos sevillanas
+26	7526	cepillo	cepillo cepillos
+27	7527	birra	birra birras birrita
+28	7528	carcajada	carcajadas carcajada
+29	7529	concursante	concursantes concursante
+30	7530	tijera	tijeras tijera
+31	7531	potestad	potestad potestades
+32	7532	clamar	clama claman clamando clamar clamó clamaba clamaron clamaban clamado clamo clamamos clame clamas
+33	7533	demoler	demoler demolido demolida demolidos demolidas demolieron demolió demoliendo demolerlo demuele demolerla demolerán demuelen
+34	7534	afinidad	afinidad afinidades
+35	7535	sobrio	sobrio sobria sobrios sobrias
+36	7536	contaminante	contaminantes contaminante
+37	7537	mutación	mutación mutaciones
+38	7538	barriga	barriga barrigas barriguita
+39	7539	guay	guay guais
+40	7540	confiscar	confiscados confiscado confiscar confiscadas confiscó confiscaron confiscada confiscan confisca confiscando confisquen confisque confiscaban
+41	7541	imponente	imponente imponentes
+42	7542	rebaja	rebaja rebajas
+43	7543	cota	cota cotas
+44	7544	malla	malla mallas
+45	7545	sumir	sumido sumida sumidos sumió sumir suman sumidas sumiendo sumirse sumieron sumía sumamos sumen sume sumas súmale sumes sumás
+46	7546	excitar	excita excitan excitar excitaba excite excitando excitó excitada excito excitarse excitados excitarme excitas exciten excitara excitadas excitará excitarlo
+47	7547	bastardo	bastardo bastardos bastarda bastardas
+48	7548	lluvioso	lluvioso lluviosa lluviosos lluviosas
+49	7549	bulto	bulto bultos
+50	7550	celta	celta celtas
+51	7551	propina	propina propinas
+52	7552	adelgazar	adelgazar adelgaza adelgazado adelgazando adelgazan adelgazo adelgazó adelgazas adelgace adelgacé
+53	7553	arce	arce arces
+54	7554	reclutamiento	reclutamiento reclutamientos
+55	7555	rústico	rústica rústico rústicas rústicos
+56	7556	patrono	patrono patronos patrona patronas
+57	7557	frustrar	frustra frustrar frustró frustrada frustran frustrados frustrando frustraron frustrarse frustre frustraba frustro frustradas frustren frustres frustraría frustras frustrará frustrarte frustrarme
+58	7558	asentado	asentado asentada asentados asentadas
+59	7559	impedimento	impedimento impedimentos
+60	7560	caricia	caricias caricia
+61	7561	hinchar	hinchas hinchar hinchan hinchando hinchados hinche hinchó hincharse hincho hinchaba hinchen hinchadas hincharon hinches hinchaban hincharme
+62	7562	drástico	drástica drástico drásticas drásticos
+63	7563	milagroso	milagrosa milagroso milagrosas milagrosos
+64	7564	ciervo	ciervo ciervos cierva ciervas
+65	7565	ferri	ferry ferris ferri
+66	7566	blues	blues
+67	7567	carmona	carmona
+68	7568	catolicismo	catolicismo
+69	7569	discreción	discreción
+70	7570	ey	ey
+71	7571	hope	hope
+72	7572	inevitablemente	inevitablemente
+73	7573	machismo	machismo
+74	7574	padilla	padilla
+75	7575	raramente	raramente
+76	7576	reciclaje	reciclaje
+77	7577	terriblemente	terriblemente
+78	7578	verguear	vergara
+79	7579	provocación	provocación provocaciones
+80	7580	tranvía	tranvía tranvías
+81	7581	estanque	estanque estanques
+82	7582	sepultar	sepultado sepultados sepultada sepultar sepultó sepultadas sepultaron sepulta sepultando sepultarlo sepultan sepultamos sepulto
+83	7583	patrocinio	patrocinio patrocinios
+84	7584	equilibrado	equilibrado equilibrada equilibrados equilibradas
+85	7585	impositivo	impositiva impositivo impositivas impositivos
+86	7586	josefino	josefina josefino josefinos
+87	7587	rascar	rascar rascarse rascando rascándose rasco rascan rascarme rascarte rasque rascado rascaba rascas rascó rasquen rascándome rascamos rascarle rasques rascada rasqué
+88	7588	trepar	trepar trepa trepando trepó trepan trepas trepado treparon trepaba trepada treparse trepo trepaban trepe trepamos trepen trepé
+89	7589	iniciación	iniciación iniciaciones
+90	7590	nicho	nicho nichos
+91	7591	funcionalidad	funcionalidad funcionalidades
+92	7592	fósforo	fósforo fósforos fosforito
+93	7593	tertulia	tertulia tertulias
+94	7594	ping	ping pings
+95	7595	bonaerense	bonaerense bonaerenses
+96	7596	indizar	indice indices
+97	7597	psicópata	psicópata psicópatas sicópata
+98	7598	suspenso	suspenso suspensos suspensa
+99	7599	compilar	compilado compilar compilados compila compiló compilada compiladas compilando compilan compilaron compile
+100	7600	ciclón	ciclón ciclones

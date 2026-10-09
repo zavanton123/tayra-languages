@@ -1,0 +1,100 @@
+1	6601	ventilador	ventilador ventiladores
+2	6602	sustentable	sustentable sustentables
+3	6603	orador	orador oradores oradora
+4	6604	lapso	lapso lapsos
+5	6605	ofrenda	ofrenda ofrendas
+6	6606	concertar	concertada concertado concertar concertados concertadas concertó concierta concerta concierte concertando concertaron concertamos concertarse
+7	6607	inquieto	inquieta inquieto inquietos inquietas
+8	6608	country	country
+9	6609	generosidad	generosidad
+10	6610	soja	soja
+11	6611	vip	vip
+12	6612	insignia	insignia insignias
+13	6613	rienda	riendas rienda
+14	6614	preparativo	preparativos preparativo
+15	6615	cu	cu cus
+16	6616	cha	cha chas
+17	6617	admirador	admiradores admirador admiradora admiradoras
+18	6618	acreditado	acreditado acreditada acreditados acreditadas
+19	6619	sumergir	sumerge sumergirse sumergió sumergir sumergen sumergida sumergirme sumergiendo sumergidos sumergirnos sumérgete sumerja sumergidas sumergirte sumergiéndose sumergimos sumergía sumergirá sumerjo sumergieron sumergí sumerges sumergían sumergirlo sumerjan sumergirla
+20	6620	milímetro	milímetros milímetro
+21	6621	seudónimo	seudónimo pseudónimo seudónimos pseudónimos
+22	6622	escandaloso	escandaloso escandalosa escandalosos escandalosas
+23	6623	búlgaro	búlgaro búlgaros búlgara búlgaras
+24	6624	convincente	convincente convincentes
+25	6625	putear	putear puteadas puteando putea putean puteada puteo puteado putee puteen puteaba putearlo puteamos putearon puteas puteaban putearme puteó putees putearte putearlos
+26	6626	absolver	absuelto absueltos absolvió absuelta absuelve absolver absolvieron absuelven absuelva absueltas absolviendo absolverá absuelvo absuelvan absolviera
+27	6627	barroco	barroco barroca barrocos barrocas
+28	6628	reanudar	reanudar reanudó reanuda reanudaron reanudado reanudará reanudan reanudarse reanude reanudarán reanuden reanudando reanudamos reanudaría reanudada reanudara reanudo
+29	6629	anormal	anormal anormales
+30	6630	brasilero	brasilero brasileros brasilera brasileras
+31	6631	mánager	manager mánager mánagers
+32	6632	marfil	marfil marfiles
+33	6633	mediar	mediar mediado mediada medianos medie median medió mediadas mediando medien mediara mediare mediaron mediales mediaba
+34	6634	directriz	directrices directriz
+35	6635	clon	clon clones
+36	6636	compa	compa compas
+37	6637	latitud	latitud latitudes
+38	6638	reliquia	reliquias reliquia
+39	6639	átomo	átomos átomo
+40	6640	represalia	represalias represalia
+41	6641	cacao	cacao cacaos
+42	6642	rectificar	rectificar rectificado rectifica rectifique rectifico rectificó rectificada rectifiquen rectifican rectificando rectificados rectificarlo rectificamos rectificaron rectificará rectificarse rectificadas
+43	6643	empuje	empuje empujo empujes
+44	6644	obrador	obrador obradores
+45	6645	celu	celu celus
+46	6646	pensador	pensadores pensador pensadora pensadoras
+47	6647	trasplante	trasplante transplante trasplantes
+48	6648	mafioso	mafioso mafiosos mafiosa mafiosas
+49	6649	artesanía	artesanía artesanías
+50	6650	discrepancia	discrepancias discrepancia
+51	6651	concesionario	concesionario concesionarios concesionaria concesionarias
+52	6652	posicionamiento	posicionamiento posicionamientos
+53	6653	linear	lineas linear lineares lineales linea
+54	6654	novedoso	novedoso novedosa novedosas novedosos
+55	6655	bilingüe	bilingüe bilingües
+56	6656	tuitero	tuiteros tuitero tuitera twittero tuiteras
+57	6657	gigabyte	gb gigabyte gigabytes
+58	6658	aborigen	aborígenes aborigen
+59	6659	arbusto	arbustos arbusto
+60	6660	genital	genitales genital
+61	6661	estrada	estrada estradas
+62	6662	exhaustivo	exhaustiva exhaustivo exhaustivos exhaustivas
+63	6663	hambriento	hambrientos hambriento hambrienta hambrientas
+64	6664	plasmar	plasmar plasmado plasmada plasmó plasmadas plasmados plasman plasmando plasmaron plasmarse plasmaba plasmarlo plasmen plasme plasmas plasmo plasmará
+65	6665	caloría	calorías caloría
+66	6666	parra	parra parras
+67	6667	taquilla	taquilla taquillas
+68	6668	térmica	térmica térmicas
+69	6669	faceta	faceta facetas
+70	6670	petro	petro petros
+71	6671	flauta	flauta flautas
+72	6672	fraternidad	fraternidad fraternidades
+73	6673	novato	novato novatos novata novatas
+74	6674	bélico	bélico bélica bélicos bélicas
+75	6675	inmediación	inmediaciones inmediación
+76	6676	grato	grata grato gratos gratas
+77	6677	concilio	concilio concilios
+78	6678	credencial	credenciales credencial
+79	6679	apresurar	apresuró apresura apresuraron apresurarse apresurar apresuran apresurada apresures apresure apresuren apresurando apresuro apresuré apresúrate apresuradas apresuramos apresurarnos apresuraba apresurándose apresuraban apresurarte apresurados apresurarme apresurémonos apresuras
+80	6680	envase	envases envase
+81	6681	alumnado	alumnado
+82	6682	chavismo	chavismo
+83	6683	ciclismo	ciclismo
+84	6684	dieciocho	dieciocho
+85	6685	firmemente	firmemente
+86	6686	gaza	gaza
+87	6687	logística	logística
+88	6688	manuela	manuela
+89	6689	realismo	realismo
+90	6690	sucesivamente	sucesivamente
+91	6691	subsecretario	subsecretario subsecretaria subsecretarios
+92	6692	neutro	neutro neutra neutros neutras
+93	6693	acre	acres acre acérrimo acérrimos acérrima
+94	6694	destrozado	destrozado destrozada destrozados destrozadas
+95	6695	manada	manada manadas
+96	6696	canalizar	canalizar canaliza canalizado canalizan canalizados canalizando canalizó canalizada canalizadas canalice canalizo canalizarlo canalizaba canalizará canalizaron canalicen canalizarla canalizarse
+97	6697	subestimar	subestimar subestimes subestimado subestima subestiman subestimen subestimando subestimada subestimó subestimas subestimaron subestime subestimados subestimarse subestimo subestimamos subestimemos subestimadas subestimarlo
+98	6698	ancestro	ancestros ancestro
+99	6699	reconciliación	reconciliación reconciliaciones
+100	6700	defraudar	defraudar defraudado defrauda defraudó defraudados defraudan defraudada defraudes defraudando defraude defraudaron defraudará defraudaré defraudo defrauden defraudaste defraudadas defraudarlos defraudarte defraudaremos defraudas

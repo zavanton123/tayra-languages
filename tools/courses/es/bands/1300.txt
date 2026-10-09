@@ -1,0 +1,100 @@
+1	1201	asamblea	asamblea asambleas
+2	1202	electrónico	electrónico electrónica electrónicos electrónicas
+3	1203	categoría	categoría categorías
+4	1204	regional	regional regionales
+5	1205	tendencia	tendencia tendencias
+6	1206	imponer	imponer impuestos impone impuso imponen imponerse imponiendo impusieron imponga impuesta impuestas impondrá impongan imponía imponiéndose imponerle impusiera imponían impondrán imponernos impondría imponerles impusieran imponerla impongo imponerlo imponemos imponerme impondrían imponerte impones imponerlas impongas impuse imponiéndole impusimos
+7	1207	profundo	profundo profunda profundas profundos
+8	1208	matrimonio	matrimonio matrimonios
+9	1209	presupuesto	presupuesto presupuestos presupuesta
+10	1210	manejar	manejar maneja manejando manejan manejado manejaba maneje manejas manejó manejamos manejada manejen manejados manejarlo manejarse manejaban manejadas manejaron manejes manejarla manejará manejara manejé manejarlos manejarme manejaría manejarlas manejarán manejarte manejaran manejaste manejarnos manejate manejemos manejaremos manejabas
+11	1211	pieza	piezas pieza pza piecita
+12	1212	corrupción	corrupción corrupciones
+13	1213	gritar	gritar gritando grita gritó gritan gritaba gritaban grite grité gritaron gritarle gritas gritado griten grites gritamos gritándole gritaste gritarles gritarme gritarlo gritara gritarte gritándome gritaré gritemos gritará gritarán gritaría gritabas gritaran gritaremos gritábamos grítalo gritándoles gritarse gritarnos gritándose gritad gritarían
+14	1214	dueño	dueño dueños dueña dueñas
+15	1215	efectivo	efectivo efectiva efectivos efectivas
+16	1216	reír	reír riendo ríe reir reírse ríen ría reí reía rio riéndose rías reírme reímos ríes reído rieron reían riera rían reírte reírnos ríete rias reís reíamos riéndome reirá reiría reiré riéndonos reirán reiremos reirás riéndote reías ríanse riamos reirían reíste
+17	1217	sentar	siento sentarse sentar siente sentó sentarme senté sentamos sentaba sienten sentaron sentarte sentados sientes sienta siéntate sentarnos sentando sientas sientan siéntese sentara sentará sentaban sentándose sente sentaría sento sentaste sentate sentarán sentadas senta sentaran sentas sentaré siéntense sentábamos sentaremos sentemos
+18	1218	teatro	teatro teatros teatrito teatrillo theatro
+19	1219	avión	avión aviones avioncito avioncitos avionazo
+20	1220	proporcionar	proporciona proporcionar proporcionan proporcionado proporciones proporcionó proporcionando proporcionada proporcionados proporcionará proporcione proporcionaba proporcionadas proporcionaron proporcionales proporcionarle proporcionen proporcionarles proporcionaban proporcionaría proporcionamos proporcionara proporcionarán proporcionándoles proporcionarnos proporcionándole proporcionarte proporcionaran proporcionarme proporcionarían proporcionase proporcionarse proporciono proporcionaremos proporcionarla proporcionas proporcionarlo proporcionaré
+21	1221	ángel	ángel ángeles angelito angelitos ángelo angelita
+22	1222	corresponder	corresponde corresponden corresponda correspondía corresponder correspondido correspondan correspondió correspondería correspondían corresponderá correspondiendo correspondieron corresponderían corresponderle correspondida correspondiera corresponderse correspondidos correspondiéndole corresponderán corresponderles correspondo correspondiese correspondiere correspondieran corresponderte correspondes
+23	1223	judicial	judicial judiciales
+24	1224	tío	tío tía tíos tías
+25	1225	terreno	terreno terrenos terrena terrenas terrenito
+26	1226	actitud	actitud actitudes
+27	1227	pedo	pedo pedazo pedazos pedos peo pedacito pedacitos peda pedas peazo
+28	1228	rosa	rosa rosas rosita
+29	1229	sumar	sumar sumo suman sumado sumando sumó sumaron sumarse sumamos sumas sumen sume sumados sumaba sumaban sumada sumarle sumándose sumará sumadas sumarán sumaría súmate sumarte súmale sumarían sumemos sumate sumos sumale sumaran sumé sumarnos sumándole sumara sumarme sumes sumarlo sumandos sumarlos
+30	1230	firmar	firmar firmó firmaron firmas firman firmada firmando firmo firmes firmados firmamos firmen firmará firmaba firmara firmé firmadas firmaría firmaste firmarlo firmarán firmaban firmaran firmarla firmarse firmase firmemos firmaré firmaremos firmarlos firmarían firmasen firmad firmándose firmarle firmare firmarlas
+31	1231	miguel	miguel migueles
+32	1232	oposición	oposición oposiciones
+33	1233	respetar	respetar respeta respetan respetado respete respeten respetando respetada respetados respetamos respetaba respetadas respetó respetas respetarse respetará respetaron respetarlo respetarla respetemos respetarán respetaban respetara respetarlos respetes respetaran respetarnos respetaría respetarlas respetarte respetaré respetarían respetad respeté respetándose respetaremos respetarme respetase respetarle respétate
+34	1234	extender	extiende extender extendido extendió extendida extienden extenderse extendiendo extendía extendieron extendidas extienda extenderá extendidos extendiéndose extendían extiendan extiendo extendiera extendería extenderán extendemos extenderme extended extenderlo extenderla extendí extendieran extenderemos extenderían extenderé extenderle extendiese extendernos extiendes extendimos extiendas extendiéndola
+35	1235	dulce	dulce dulces dulcísimo
+36	1236	revisar	revisar revisa revisado revisando revise revisada revisen revisó revisan reviso revisaron revisamos revisados revisé revisadas revisarlo revisas revisará revisaba revises revisara revisarán revisarse revisemos revisaremos revisarla revisaran revisarlas revisarlos revisaría revisaban revisaste revisaré revisarte revisarle revisarme revisad revísalo revisalo revisare
+37	1237	festival	festival festivales
+38	1238	revelar	revela reveló revelar revelan revelado revelaron revelando revelada revele revelados revelaba revelará reveladas revelarse revelaría revelara revelen revelo revelaban revelarán revelamos revelarle revelarlo revelaran reveles revelándose revelarnos revelarían revelase revelé revelarla revelaremos revelaré revelas revelarte revelarlas revelarlos revelarme revelarles revelándole
+39	1239	paciente	paciente pacientes
+40	1240	vivienda	vivienda viviendas
+41	1241	apuntar	apunta apuntes apuntan apuntar apunto apuntando apuntó apuntado apunte apuntaba apuntas apuntaron apuntaban apunten apuntados apuntarse apuntamos apuntada apunté apúntate apuntarme apuntadas apuntarte apuntaría apuntarle apuntara apuntará apuntándole apuntala apuntarlo apuntaré apuntemos apuntaros apuntándose apuntaremos apuntándote apuntaran apuntad apuntarnos apuntarán
+42	1242	salvo	salvo salva salvos salvas
+43	1243	café	café cafés cafecito cafetín cafelito cafetines
+44	1244	droga	drogas droga
+45	1245	pérdida	pérdida pérdidas
+46	1246	ejecutivo	ejecutivo ejecutiva ejecutivos ejecutivas
+47	1247	pan	pan panes panecillo pancito
+48	1248	conectar	conectado conectar conecta conectados conectada conectan conectarse conectadas conecte conectando conectó conecto conectarme conectas conectamos conectaba conectarte conecten conectarlo conectarnos conectaron conectará conéctate conecté conectes conectaban conectarla conectarlos conectara conectaría conectándose conectarán conéctese conectarle conectate conectaran conectaremos conectemos conectaste conectarlas
+49	1249	tercera	tercera terceras
+50	1250	primo	primo prima primas primos primito primita primilla
+51	1251	mentira	mentira mentiras mentirita
+52	1252	sábado	sábado sábados
+53	1253	estrategia	estrategia estrategias
+54	1254	constituir	constituye constituyen constituido constituida constituir constituyó constituía constituyendo constituyeron constituían constituirse constituidos constituidas constituya constituiría constituyéndose constituirá constituyan constituirán constituirían constituyera constituimos constituyeran constituirnos constituyo
+55	1255	distrito	distrito distritos
+56	1256	visión	visión visiones
+57	1257	gol	gol goles
+58	1258	móvil	móvil móviles
+59	1259	ordenar	ordenó ordenar ordena ordenes ordenando ordene ordenaron ordenada ordenan ordeno ordenados ordenaba ordenadas ordenara ordené ordenará ordenen ordenamos ordenas ordenaban ordenarse ordenarlo ordenaría ordenarle ordenándole ordine ordenarlos ordenase ordenarlas ordenaran ordenarla ordenaste ordenarán ordenarles ordenándose ordenarme ordenaré ordenándoles
+60	1260	tarjeta	tarjeta tarjetas
+61	1261	mina	minas mina minita minina mininos
+62	1262	notar	notar notado note notó noto noté notaba notan notes nótese notando notaron noten notaría notamos notará notarse notara notarlo notarás notaste notarán notarías notaban notemos notaran notada notaras notaremos notándose notase notáis notarían notados notadas notabas
+63	1263	laboral	laboral laborales
+64	1264	poseer	posee poseen poseer poseía poseían poseído posea posean poseo poseída poseemos posees poseyó poseyendo poseídos poseerlo poseerla poseido poseídas poseerá poseyera poseida poseyeron poseas poseería poseerán poseyeran poseerte poseidos poseamos poseerlos poseerlas poseéis
+65	1265	piel	piel pieles
+66	1266	corriente	corriente corrientes
+67	1267	asesinato	asesinato asesinatos
+68	1268	promover	promover promueve promovido promoviendo promueven promovida promovió promueva promuevan promovieron promovidos promovidas promoverá promovía promovemos promovían promoverse promoverán promoverlo promuevo promoverla promoviera promovería promovieran promueves promoveremos promoverlos promoverlas promovimos promoviese promovamos
+69	1269	alumno	alumnos alumno alumna alumnas
+70	1270	villa	villa villas villita
+71	1271	urbano	urbano urbana urbanos urbanas
+72	1272	accidente	accidente accidentes
+73	1273	clásico	clásico clásica clásicos clásicas
+74	1274	novia	novia novias noviecita
+75	1275	tren	tren trenes trencito trenecito
+76	1276	novela	novela novelas
+77	1277	atender	atender atiende atendiendo atienden atendido atendió atendidos atienda atendidas atendida atendieron atiendan atiendo atendía atenderá atendemos atenderse atenderte atendían atenderlo atenderlos atenderán atenderemos atendí atenderme atendiera atiendes atenderla atenderle atendieran atiendas atendernos atenderlas atendería atenderé atendimos atendamos atended atenderles atendes
+78	1278	universitario	universitario universitaria universitarios universitarias
+79	1279	tamaño	tamaño tamaños tamaña tamañas
+80	1280	plantear	plantea plantear planteado planteó plantean planteada planteando plantearse planteo planteadas planteaba plantearon planteados planteamos plantee planteos planteen planteas plantearnos planteaban planteé plantearía plantearte planteará plantearme plantearle planteara plantearlo planteándose plantees planteaste plantearan plantearla plantearán plantearé planteemos plantearemos plantease planteándome plantearles
+81	1281	león	león leones leona leonas
+82	1282	impedir	impedir impide impidió impiden impedido impida impidiendo impidieron impedía impedirá impidan impedirlo impediría impedían impedidos impedirle impidiera impedida impedirán impedirles impidiéndole impidieran impedirnos impedidas impedimos impedirían impidiéndoles impedirme impedirte impedirla impidiese impidas impedirse impidamos impides impido
+83	1283	complejo	complejo complejos compleja complejas complejísimo
+84	1284	comienzo	comienzo comienzos
+85	1285	crimen	crimen crímenes
+86	1286	tratamiento	tratamiento tratamientos
+87	1287	torre	torres torre torrecilla torrecillas
+88	1288	menudo	menudo menuda menudos menudas menudillos
+89	1289	genial	genial geniales
+90	1290	flores	flores
+91	1291	conversación	conversación conversaciones
+92	1292	capitán	capitán capitan capitanes capitana capi capitanas
+93	1293	velocidad	velocidad velocidades
+94	1294	playa	playa playas playón playita playones
+95	1295	regalo	regalo regalos regalito regalitos regalazo
+96	1296	asistir	asistir asistió asistieron asiste asistido asisten asistiendo asistía asistida asistan asistimos asista asistí asistirá asistían asistirán asistidos asisto asistiera asistiría asistieran asistiremos asistiré asistidas asistas asistirlo asistes asistirían asistirle asistirlos asistiese asistirte asistirla asististe asistamos asistiesen asistirás asistirles asistíamos
+97	1297	caballo	caballo caballos yegua caballito cavallo yeguas caballitos
+98	1298	casar	casarse casó casar case casada casan casarme casaron casados casarte casares casen cases casas casé cásate casamos casaría casadas casara casarnos casándose casará casaba casando casaste casaré casaban casaran casemos casase casale casarán casarla casate casare casaremos casarías casarían casarás
+99	1299	invitar	invitó invitar invitados invitamos invita invitan invitaron invitando invite invitada invitaba invitarme invité inviten invitarte invitarlos invitas invitarlo invitarla invitadas invitaban invitaría invitará invites invitara invitarle invitarnos invitarles invitaste invítame invitaran invitándome invitándolos invitaré invitarán invitaremos invitándolo invitaros invitame invitemos
+100	1300	favorito	favorito favoritos favorita favoritas

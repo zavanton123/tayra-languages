@@ -1,0 +1,100 @@
+1	6901	títere	títere títeres
+2	6902	forjar	forjar forjó forjando forjaron forjan forjada forjarse forjados forjamos forjadas forjas forje forjo forjará forjándose forjarán forjen
+3	6903	inquilino	inquilinos inquilino inquilina inquilinas
+4	6904	morada	morada moradas
+5	6905	providencia	providencia providencias
+6	6906	distracción	distracción distracciones
+7	6907	disgusto	disgusto disgustos
+8	6908	feto	feto fetos
+9	6909	banquete	banquete banquetes
+10	6910	jefatura	jefatura jefaturas
+11	6911	encomendar	encomendó encomendado encomendada encomendadas encomiendo encomendados encomendaron encomendar encomendamos encomiendan encomiende encomendarse encomendando encomienden encomendaba encomiendas encomendarle encomendé encomendaban encomendándole
+12	6912	astro	astros astro
+13	6913	desembarcar	desembarcar desembarcó desembarcaron desembarque desembarcado desembarca desembarcan desembarcando desembarcaban desembarcados desembarcamos desembarcaba desembarques desembarquen desembarcará desembarcadas desembarcara desembarcaran
+14	6914	ordenación	ordenación ordenaciones
+15	6915	hormigón	hormigón hormigones
+16	6916	abusivo	abusivo abusiva abusivas abusivos
+17	6917	burguesía	burguesía burguesías
+18	6918	disidente	disidentes disidente
+19	6919	ocular	ocular oculares
+20	6920	patrimonial	patrimonial patrimoniales
+21	6921	biodiversidad	biodiversidad
+22	6922	calcio	calcio
+23	6923	docencia	docencia
+24	6924	espionaje	espionaje
+25	6925	eternamente	eternamente
+26	6926	pornografía	pornografía
+27	6927	preservación	preservación
+28	6928	pureza	pureza
+29	6929	sancho	sancho
+30	6930	suavemente	suavemente
+31	6931	tacto	tacto
+32	6932	amplitud	amplitud amplitudes
+33	6933	gorila	gorila gorilas
+34	6934	pastoral	pastoral pastorales
+35	6935	ruidoso	ruidoso ruidosa ruidosos ruidosas
+36	6936	sortear	sortear sorteando sorteado sortea sorteados sortean sorteamos sorteó sortearon sorteará sortearemos sorteada sorteadas sortearán sorteaban sorteaba sortearlo
+37	6937	diligencia	diligencia diligencias
+38	6938	veloz	veloz veloces
+39	6939	mejoramiento	mejoramiento mejoramientos
+40	6940	marroquí	marroquí marroquíes marroquís
+41	6941	mayúscula	mayúsculas mayúscula
+42	6942	gancho	gancho ganchos ganchito
+43	6943	ordenamiento	ordenamiento ordenamientos
+44	6944	buda	buda budas
+45	6945	intimidar	intimidar intimida intimidado intimidada intimidan intimidados intimidando intimidó intimidaba intimidaron intimidarnos intimide intimiden intimidarlos intimido intimidarlo intimidarme intimidas intimidaban intimidadas intimidarla
+46	6946	desestimar	desestimar desestimó desestimado desestima desestimada desestimando desestimadas desestiman desestimaron desestimados desestime desestimara desestimen desestimaba desestimo
+47	6947	boliche	boliche boliches
+48	6948	marica	marica maricas
+49	6949	tallo	tallo tallos
+50	6950	tinte	tinte tintes
+51	6951	especializar	especializa especializan especializarse especializó especializo especializándose especializar especializarte especializada especializarme especializados especializando especializamos especializaba especializadas especializaron especialicé especialice especializas
+52	6952	cumbia	cumbia cumbias
+53	6953	conmovedor	conmovedor conmovedora conmovedoras conmovedores
+54	6954	aguardar	aguarda aguardan aguardando aguardar aguardaba aguardaban aguardamos aguardo aguarde aguardó aguarden aguardará aguardaron aguardado aguardaré
+55	6955	diminuto	diminuto diminuta diminutos diminutas
+56	6956	comestible	comestibles comestible
+57	6957	imán	imán imanes
+58	6958	corroborar	corroborar corrobora corroborado corroboran corroboró corroborada corroborarlo corroborando corroboraron corrobore corroboradas corroboren corroborados corroboro corroboramos
+59	6959	streaming	streaming streamings
+60	6960	dallar	dallas dalla
+61	6961	comprensible	comprensible comprensibles
+62	6962	led	led leds
+63	6963	chicle	chicle chicles
+64	6964	particularidad	particularidad particularidades
+65	6965	audición	audición audiciones
+66	6966	imposibilidad	imposibilidad imposibilidades
+67	6967	afiliación	afiliación afiliaciones
+68	6968	pulsera	pulsera pulseras pulserita
+69	6969	rosal	rosales rosal
+70	6970	telegrama	telegrama telegramas
+71	6971	aleta	aleta aletas
+72	6972	preferible	preferible preferibles
+73	6973	lecho	lecho lechos
+74	6974	agir	age ages agen agile agir agila agiles agite
+75	6975	turbio	turbio turbia turbios turbias
+76	6976	miniatura	miniatura miniaturas
+77	6977	cauce	cauce cauces
+78	6978	inherente	inherente inherentes
+79	6979	peatón	peatones peatón
+80	6980	pinza	pinzas pinza
+81	6981	detección	detección detecciones
+82	6982	intuición	intuición intuiciones
+83	6983	rugby	rugby rugbi
+84	6984	desfilar	desfilar desfilan desfilaron desfilando desfila desfiló desfiles desfilado desfilaban desfilarán desfilaba desfilen desfilará
+85	6985	recreativo	recreativas recreativo recreativa recreativos
+86	6986	prime	prime primes
+87	6987	omisión	omisión omisiones
+88	6988	panadería	panadería panaderías
+89	6989	alien	alien aliens
+90	6990	confrontar	confrontar confronta confrontado confrontan confrontó confrontando confrontados confrontarlo confrontada confrontarse confrontadas confrontaron confronte confrontarlos confronto confrontarla confrontamos confrontará confrontaba
+91	6991	superhéroe	superhéroes superhéroe superheroína
+92	6992	penoso	penoso penosa penosas penosos
+93	6993	consolar	consuela consolar consolarla consuele consolaba consolarme consoló consolando consolarte consolado consolarlo consuelan consolarse consolarnos consolados consolada consolará consuelen consolarle consolamos consuelas consuélate consolarlos
+94	6994	cucaracha	cucarachas cucaracha
+95	6995	transitorio	transitoria transitorio transitorias transitorios
+96	6996	plebiscito	plebiscito plebiscitos
+97	6997	quijote	quijote quijotes
+98	6998	anhelo	anhelo anhelos
+99	6999	trucha	trucha truchas truchos trucho
+100	7000	indirecto	indirecto indirectos indirectas

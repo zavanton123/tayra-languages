@@ -1,0 +1,100 @@
+1	7001	estallido	estallido estallidos
+2	7002	espantar	espanta espantar espantado espantan espantada espante espantó espantando espantados espanten espantes espantas espantaron espantarlos espantaba espanté espantadas espantarse espantamos
+3	7003	desnudar	desnudarse desnudar desnuda desnudarte desnudó desnudan desnudado desnudando desnudaron desnudas desnude desnudarme desnudarnos desnúdate desnudándose desnudaba desnudarla desnudamos desnudes desnudé desnudada desnudara desnudaban desnuden
+4	7004	ambiguo	ambigua ambiguo ambiguas ambiguos
+5	7005	asedio	asedio asedios
+6	7006	anomalía	anomalías anomalía
+7	7007	abastecer	abastecer abastece abastecerse abastecen abastecido abastecida abasteciendo abastecidos abastecía abastecidas abastecían abastecerá abasteció abastecieron abastecernos
+8	7008	tenor	tenor tenores
+9	7009	hindú	hindú hindúes hindús
+10	7010	pandemia	pandemia pandemias
+11	7011	tiranía	tiranía tiranías
+12	7012	prometedor	prometedor prometedora prometedores prometedoras
+13	7013	dieciséis	dieciséis
+14	7014	ecología	ecología
+15	7015	próximamente	próximamente
+16	7016	sic	sic
+17	7017	sorry	sorry
+18	7018	superación	superación
+19	7019	surgimiento	surgimiento
+20	7020	tristemente	tristemente
+21	7021	valdivia	valdivia
+22	7022	zacateco	zacatecas
+23	7023	rebaño	rebaño rebaños
+24	7024	fichaje	fichaje fichajes
+25	7025	peludo	peludo peluda peludos peludas peludito
+26	7026	asombrar	asombra asombró asombran asombrar asombrarse asombrarme asombraron asombre asombrada asombrados asombrando asombrará asombraría asombres asombraba asombrarnos asombré asombras asombren asombradas
+27	7027	orgasmo	orgasmo orgasmos
+28	7028	audaz	audaz audaces
+29	7029	bate	bate bates
+30	7030	goleador	goleador goleadores goleadora goleadoras
+31	7031	mitin	mitin mítines mitín mítin
+32	7032	admirable	admirable admirables
+33	7033	indiscutible	indiscutible indiscutibles
+34	7034	arcilla	arcilla arcillas
+35	7035	holocausto	holocausto holocaustos
+36	7036	cresta	cresta crestas
+37	7037	inspeccionar	inspeccionar inspecciona inspeccionando inspeccionó inspecciones inspeccionado inspeccionados inspeccionan inspeccionada inspeccionaron inspeccionaba inspeccione inspeccionará inspeccionadas inspeccionamos inspeccionarlo inspeccionarán
+38	7038	degradación	degradación degradaciones
+39	7039	heleno	helena heleno helenos
+40	7040	irrelevante	irrelevante irrelevantes
+41	7041	tenedor	tenedor tenedores tenedora
+42	7042	investidura	investidura investiduras
+43	7043	gradual	gradual graduales
+44	7044	terminación	terminación terminaciones
+45	7045	residual	residuales residual
+46	7046	bit	bits bit
+47	7047	crianza	crianza crianzas
+48	7048	denotar	denota denotan denotar denotando denotaba denotaban denote denotado denotada
+49	7049	persuadir	persuadir persuadido persuadió persuade persuadidos persuadirlo persuadirlos persuadieron persuadiendo persuadirme persuadirla persuadirle persuadirles persuadida persuaden persuada persuadí persuadidas
+50	7050	golpista	golpista golpistas
+51	7051	yerno	yerno nuera yernos nueras
+52	7052	esplendor	esplendor esplendores
+53	7053	intendencia	intendencia intendencias
+54	7054	ladrar	ladra ladrar ladrando ladran ladraba ladre ladren ladró ladraban ladro ladras ladres ladraron ladrarle
+55	7055	patología	patología patologías
+56	7056	arraigado	arraigado arraigada arraigadas arraigados
+57	7057	estafar	estafar estafado estafando estafados estafó estafaron estafan estafas estafada estafo estafen estafadas estafarte estafe estafaba
+58	7058	apreciación	apreciación apreciaciones
+59	7059	despreciable	despreciable despreciables
+60	7060	rumano	rumano rumana rumanos rumanas
+61	7061	reposo	reposo reposos
+62	7062	decorativo	decorativos decorativo decorativas decorativa
+63	7063	moralidad	moralidad moralidades
+64	7064	manteca	manteca mantecas
+65	7065	puntaje	puntaje puntajes
+66	7066	igualitario	igualitario igualitaria igualitarios igualitarias
+67	7067	pólvora	pólvora pólvoras
+68	7068	pelado	pelado pelada pelao pelados peladas
+69	7069	dureza	dureza durezas
+70	7070	tapia	tapia tapias
+71	7071	mai	mai mais
+72	7072	utopía	utopía utopías
+73	7073	vil	vil viles
+74	7074	humanista	humanista humanistas
+75	7075	vibración	vibraciones vibración
+76	7076	destructivo	destructiva destructivo destructivas destructivos
+77	7077	atún	atún atunes
+78	7078	asesoramiento	asesoramiento asesoramientos
+79	7079	preciado	preciado preciados preciada preciadas
+80	7080	oligarquía	oligarquía oligarquías
+81	7081	cortometraje	cortometraje cortometrajes
+82	7082	populista	populista populistas
+83	7083	balazo	balazos balazo
+84	7084	imperialista	imperialista imperialistas
+85	7085	selfie	selfie selfies
+86	7086	numérico	numérica numérico numéricos numéricas
+87	7087	querella	querella querellas
+88	7088	magacín	magazine magazín magacín
+89	7089	balancear	balanceada balanceado balancear balanceo balancea balanceados balanceándose balanceaba balancearse balanceando balancean balanceadas balanceaban balanceó balanceos balancee
+90	7090	tinto	tinto tintas tintos
+91	7091	lodo	lodo lodos
+92	7092	azotar	azota azotó azotar azotes azotan azotando azotaron azotaba azotada azotaban azotados azoten azoto azotadas azotara azotaran azotarte
+93	7093	atentamente	atentamente
+94	7094	colon	colon
+95	7095	desconocimiento	desconocimiento
+96	7096	diplomacia	diplomacia
+97	7097	expensas	expensas
+98	7098	firmeza	firmeza
+99	7099	franquismo	franquismo
+100	7100	ilegalmente	ilegalmente

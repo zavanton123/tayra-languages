@@ -1,0 +1,100 @@
+1	2901	embajada	embajada embajadas
+2	2902	herir	herir heridos heridas hirió hiere hirieron hiriendo hieren herirte herirme hiera hieran herirlo heriste hieres herirla herirse hería hiero herirle hiriera herirá hieras hiriéndolo herimos herí hirieran herirnos herirlos herían
+3	2903	divertir	divertirse divierte divierten divertir diviértete divertirte divertirme divertirnos divierto divirtiéndose divertí divertía diviertan divierta divertimos divirtiendo diviertas divirtió divertida divirtieron diviertes divertían diviértanse divertidos divertite divertirán divirtiéndome divertidas diviértase divertirá divertiste divertirás divirtiéndonos divertiría divertíamos divirtiéndote divertiros divertís divertiremos divirtámonos
+4	2904	remedio	remedio remedios
+5	2905	candidatura	candidatura candidaturas
+6	2906	contribución	contribución contribuciones
+7	2907	tigre	tigre tigres tigresa tigresas
+8	2908	prest	pre prest
+9	2909	alquiler	alquiler alquileres alquilé
+10	2910	fantástico	fantástico fantástica fantásticos fantásticas
+11	2911	previamente	previamente
+12	2912	supuestamente	supuestamente
+13	2913	verdaderamente	verdaderamente
+14	2914	campamento	campamento campamentos
+15	2915	exceso	exceso excesos
+16	2916	coalición	coalición coaliciones
+17	2917	geográfico	geográfica geográfico geográficas geográficos
+18	2918	sustancia	sustancias sustancia substancia
+19	2919	examinar	examinar examina examinado examinando examinó examine examinados examinan examinada examinaron examinadas examinamos examinará examinen examinaba examinarlo examinaremos examinemos examinarla examinarse examinara examiné examino examinarán examinarlos examinaban examinaré examinaran examinarlas examinarle examinaría examines examinas examinarme
+20	2920	vínculo	vínculo vínculos
+21	2921	gabinete	gabinete gabinetes
+22	2922	ascender	asciende ascender ascendió ascendido ascienden ascendieron ascendiendo ascendía ascendidos ascenderá ascienda ascendían ascendería asciendan ascendida ascenderán ascendemos ascendiera ascenderlo ascendimos ascenderían ascendí asciendo ascendieran ascenderemos
+23	2923	rescate	rescate rescates
+24	2924	cirugía	cirugía cirugías
+25	2925	facilidad	facilidad facilidades
+26	2926	apuesta	apuesta apuestas
+27	2927	tumba	tumba tumbas
+28	2928	gobernante	gobernantes gobernante
+29	2929	salsa	salsa salsas salsita
+30	2930	apartamento	apartamento apartamentos
+31	2931	sacrificio	sacrificio sacrificios
+32	2932	portar	porto portar portando portan portado portaba portaban portarse portó portales portadas portaron portes porten pórtate portas portarme portamos porté pórtense portados portarte portará portate portándose portaste portarnos portara portarán portaría portarla portaran portaré portare portarlo
+33	2933	semejante	semejante semejantes
+34	2934	reflexionar	reflexionar reflexiones reflexiona reflexionando reflexionó reflexione reflexionado reflexionen reflexionemos reflexionan reflexiono reflexionaba reflexionamos reflexioné reflexionaron reflexionas reflexionara reflexionaremos reflexionad reflexionarán
+35	2935	equilibrio	equilibrio equilibrios
+36	2936	opositor	opositores opositor opositora opositoras
+37	2937	vacación	vacaciones vacación
+38	2938	proyectar	proyectar proyecta proyectado proyectada proyectan proyectó proyectando proyectadas proyectados proyectarse proyectaba proyectaron proyectará proyecte proyectaban proyectamos proyectarán proyectas proyectándose proyecten proyectes proyectarla proyectarlo proyectaría proyectara proyectarnos proyecté
+39	2939	aporte	aporte aportes
+40	2940	consejero	consejero consejeros consejera consejeras
+41	2941	ultimar	ultima ultimas ultimate ultimar ultimando ultimado ultimó ultimados ultiman ultimaron ultime ultimada ultimo
+42	2942	cadáver	cadáver cadáveres
+43	2943	procedente	procedentes procedente
+44	2944	explorar	explorar explora explorando explorado exploran exploró explore explorados exploramos exploradas exploraron explorada exploraba exploren exploraremos explorará exploraban explorarlo explorarla explorarán exploro exploremos explorarse explores explorara exploras explorarlas
+45	2945	estratégico	estratégica estratégico estratégicos estratégicas
+46	2946	rechazo	rechazo rechazos
+47	2947	secundario	secundario secundarios secundarias
+48	2948	válido	válido válida válidos válidas
+49	2949	botón	botón botones
+50	2950	escudo	escudo escudos
+51	2951	descarga	descarga descargas
+52	2952	telefónico	telefónica telefónicas telefónico telefónicos
+53	2953	extraer	extraer extraído extrae extraída extraídos extraen extraídas extrajo extrayendo extrajeron extraerse extraía extraemos extraían extraiga extraerlo extraerle extraido extraigo extrajera extraigan extraerla extraerlos extraes extraida extraje extraerá extraidos extraerán extraerles extrajeras extraerlas
+54	2954	comprometido	comprometido comprometida comprometidos comprometidas
+55	2955	girar	girar girando giran giró gire giraba girado giras giraron giré giraban girará giramos giren girada girara girarse girarán girados girarlo giradas girarme girarla giraría gires girándose girase gírese girarte
+56	2956	citado	citado citada citados citadas
+57	2957	averiguar	averiguar averigua averiguarlo averiguado averiguando averigüe averiguó averiguo averigüé averigüen averigue averígualo averiguamos averiguaron averiguan averiguas averiguaste averigües averiguaremos averiguará averiguara averiguen averigué averiguaré averiguaba averigues averiguaría averigualo averiguarán averigüemos averiguare
+58	2958	mediados	mediados
+59	2959	necesariamente	necesariamente
+60	2960	turco	turco turcos turca turcas
+61	2961	formal	formal formales
+62	2962	interrumpir	interrumpir interrumpido interrumpió interrumpida interrumpe interrumpiendo interrumpen interrumpidos interrumpidas interrumpa interrumpieron interrumpan interrumpí interrumpiera interrumpía interrumpirá interrumpirse interrumpo interrumpas interrumpirlo interrumpían interrumpirla interrumpieran interrumpirle interrumpes interrumpimos interrumpirme interrumpiría interrumpirte interrumpirlos interrumpirán
+63	2963	calma	calma calmas
+64	2964	guarda	guarda guardas
+65	2965	giro	giro giros
+66	2966	transferencia	transferencia transferencias trasferencia
+67	2967	colaborador	colaboradores colaborador colaboradora colaboradoras
+68	2968	síntoma	síntomas síntoma
+69	2969	pozo	pozo pozos pocito
+70	2970	ética	ética éticas
+71	2971	videojuego	videojuegos videojuego
+72	2972	ira	ira iras
+73	2973	legítimo	legítimo legítima legítimos legítimas
+74	2974	disculpar	disculpe disculpen disculparse disculpame disculpo disculpar disculpas disculpó discúlpame disculparme disculpan disculpado disculpes disculpad discúlpenme discúlpeme disculparte disculpándose disculpamos disculpando disculpara discúlpate disculpaba disculparnos disculpará disculparon disculpé disculpá disculpadme disculparan disculparán disculparé
+75	2975	empujar	empujar empuja empujando empujó empujado empujan empujaron empujados empujada empujaba empujarlo empujaban empujen empujadas empujo empujarla empujé empujamos empujas empujará empujándolo empujara empujarlos empujes empujarme empujarte empujándola empujarnos empujaría empujándolos empujaste empujándose empujarle empujarse empujándome empujemos empujándonos
+76	2976	suministro	suministro suministros
+77	2977	oso	oso osos osa osito ositos osas osita joso osso
+78	2978	orto	orto ortos
+79	2979	arrastrar	arrastra arrastrar arrastre arrastrando arrastró arrastran arrastrados arrastrada arrastraron arrastraba arrastrándose arrastrarse arrastro arrastraban arrastren arrastradas arrastramos arrastres arrastrarme arrastras arrastrarlo arrastrará arrastrándome arrastrara arrastré arrastrarnos arrastraría arrastrarla arrastrarlos arrastrarte arrastrándolo arrastrándola arrastrarán arrastrándolos arrastraran arrastrarle arrastrase
+80	2980	mérito	mérito méritos
+81	2981	depresión	depresión depresiones
+82	2982	escándalo	escándalo escándalos
+83	2983	cabrón	cabrón cabrones cabrona cabronas cabronazo cabroncito cabronazos kbron
+84	2984	despacho	despacho despachos
+85	2985	monje	monjes monje monjas monja monjitas monjita
+86	2986	buque	buque buques
+87	2987	eficaz	eficaz eficaces
+88	2988	culpar	culpar culpo culpando culpan culpó culpes culpado culpen culpaba culpe culparon culpados culparlos culpas culparlo culpamos culparse culparnos culpaban culpará culpada culparla culpemos culparía culpara culparte culparle culparan culparme culparán culpándose culpadas
+89	2989	tribu	tribu tribus
+90	2990	diseñar	diseñar diseñó diseñada diseña diseñados diseñando diseñan diseñadas diseñaron diseñamos diseñe diseñé diseñen diseñaba diseñarse diseñara diseñas diseñará diseñarlo diseñarla diseñaban diseñaremos diseñemos diseñaran diseñarán
+91	2991	apostar	apostar apostando apuestas apostado apuestan apostamos apostó apostaría apostaron apostados apostaba apueste aposté aposta apuesten apostarle apostaban apostemos apostada apostadas aposto apostará apuestes apostaré aposte apostarlo apostaste apostándole apostara apostarse apostaremos
+92	2992	tesis	tesis
+93	2993	rodar	rodar ruedas rodando rodó rodado ruedo rodada rodados rodaron ruedan rodaba rodadas ruede rodará rodaban rodamos ruedos rueden rodales rodarse rodé rodarte rodes rodara rodarán rodés rodaría rodaran rodarla
+94	2994	manzana	manzana manzanas manzanita manzanitas
+95	2995	fallecido	fallecido fallecidos fallecida fallecidas
+96	2996	banca	banca bancas
+97	2997	resumir	resume resumir resumiendo resumida resumido resumidas resumió resumo resumirse resumía resumidos resuma resumimos resumirlo resumiré resumían resumieron resumiría resumí resuman resumiremos resumes resumamos resumirla resumiera resumirá
+98	2998	obstáculo	obstáculos obstáculo
+99	2999	innovación	innovación innovaciones
+100	3000	descartar	descartar descarta descartado descartes descartó descartada descarte descartando descartan descarto descartados descartamos descartaron descartarse descartadas descartaría descartarlo descartaba descarten descarté descartas descartemos descartarla descartaban descartarlos descartara descartándose descartará

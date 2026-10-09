@@ -1,0 +1,100 @@
+1	6301	discapacitado	discapacitados discapacitado discapacitada discapacitadas
+2	6302	neurona	neuronas neurona
+3	6303	prudente	prudente prudentes
+4	6304	grieta	grieta grietas
+5	6305	agresor	agresor agresores agresora agresoras
+6	6306	whisky	whisky whiskey whiskys güisqui
+7	6307	comicios	comicios
+8	6308	competitividad	competitividad
+9	6309	cólera	cólera
+10	6310	gratitud	gratitud
+11	6311	grey	grey
+12	6312	living	living
+13	6313	sms	sms
+14	6314	socialmente	socialmente
+15	6315	bandido	bandidos bandido bandida bandidas
+16	6316	bardo	bardo bardos
+17	6317	ancestral	ancestral ancestrales
+18	6318	dental	dental dentales
+19	6319	iluminado	iluminado iluminada iluminados iluminadas
+20	6320	vaquero	vaqueros vaquero vaquera vaqueras
+21	6321	desvanecer	desvanece desvaneció desvanecen desvanecerse desvanecido desvaneciendo desvanecieron desvanezca desvanecer desvanecerá desvaneciéndose desvanecía desvanecían desvanecida desvanecerán desvanezcan desvaneciera desvanecería desvanecidos
+22	6322	atacante	atacante atacantes
+23	6323	refresco	refresco refrescos
+24	6324	retroceso	retroceso retrocesos
+25	6325	comparable	comparable comparables
+26	6326	premier	premier premiers premieres
+27	6327	recesión	recesión recesiones
+28	6328	desechar	desechar desechado desecha desechó desechados desechada desechando desechadas desechan desecharon deseche desecharlo desechas desechaba desechamos desechen desecharse desecharla deseché desecharlas desechaban desecharlos deseches
+29	6329	anticipado	anticipado anticipada anticipadas anticipados
+30	6330	sándwich	sandwich sándwich sándwiches
+31	6331	pavo	pavo pavos
+32	6332	vestimenta	vestimenta vestimentas
+33	6333	imparcial	imparcial imparciales
+34	6334	empeño	empeño empeños
+35	6335	zurdo	zurdo zurdos zurda zurdas zurdito
+36	6336	incumplir	incumplir incumple incumplido incumplidas incumpliendo incumplen incumplió incumplan incumplida incumpla incumplidos incumplieron incumplía
+37	6337	venia	venia venias
+38	6338	sim	sim sims
+39	6339	apuro	apuro apuros
+40	6340	semáforo	semáforo semáforos
+41	6341	susceptible	susceptibles susceptible
+42	6342	acuático	acuático acuáticos acuáticas acuática
+43	6343	redactor	redactor redactores redactora
+44	6344	carpa	carpa carpas carpita
+45	6345	aclaración	aclaración aclaraciones
+46	6346	cilindro	cilindro cilindros
+47	6347	jinete	jinetes jinete
+48	6348	sangrar	sangrando sangrar sangra sangran sangraba sangro sangren sangras sangró sangraban sangramos sangraron sangrados sangrara sangré sangres
+49	6349	escuadra	escuadra escuadras
+50	6350	gallardo	gallardo gallarda gallardos
+51	6351	abortar	abortar abortado aborta aborte abortan aborten abortó abortada abortados abortaron abortando abortara abortadas abortamos abortarlo abortaría
+52	6352	atardecer	atardecer atardeceres atardece atardeciendo
+53	6353	desigual	desigual desiguales
+54	6354	memorial	memorial memoriales
+55	6355	botánico	botánico botánica botánicos botánicas
+56	6356	visualizar	visualizar visualiza visualizan visualizado visualizando visualizo visualice visualizó visualizarlo visualizarse visualizados visualizaba visualizamos visualizada visualizarla visualizas visualizarlos visualizarlas visualicen visualizadas visualicé
+57	6357	cantera	cantera canteras
+58	6358	megabyte	mega megabytes megabyte
+59	6359	antología	antología antologías
+60	6360	compacto	compacto compacta compactos compactas
+61	6361	errar	errar erro erró erre errada erra errando errados erraron erres erradas yerra erré erraste yerro yerros erramos erraba erran erras errarle
+62	6362	exigente	exigente exigentes
+63	6363	hemisferio	hemisferio hemisferios
+64	6364	pancho	pancho panchos panchito pancha panchita panchitos
+65	6365	hazaña	hazaña hazañas
+66	6366	marine	marines marine
+67	6367	desvelar	desvela desvelar desvelado desvelo desveló desvelos desvelan desvelando desvelada desvelados desvelaba desvelarse desvele desvelamos desveladas desvelará desvelaron desvelen
+68	6368	irracional	irracional irracionales
+69	6369	facial	facial faciales
+70	6370	suscriptor	suscriptores suscriptor subscriptor
+71	6371	patrocinador	patrocinadores patrocinador patrocinadora patrocinadoras
+72	6372	sintético	sintético sintética sintéticos sintéticas
+73	6373	devorar	devora devorar devorado devorando devoran devoró devorados devorada devoraba devore devoraron devoré devoradas devorarlo devoro devoren devorará devorarse devoraban devoramos devorarte devorarla devorarán devorarlos devorarme devoras devorarnos devoraría
+74	6374	conmemoración	conmemoración conmemoraciones
+75	6375	acampar	acampar acampada acampando acampado acamparon acampados acampó acampe acampadas acampan acampa acampamos acampaban acampaba acampen acampo
+76	6376	arrebatar	arrebatar arrebató arrebata arrebatarle arrebataron arrebatan arrebatando arrebatada arrebate arrebatarles arrebaten arrebatados arrebatarme arrebatarnos arrebatadas arrebatándole arrebatará arrebatara arrebataste arrebataba arrebataría arrebataran
+77	6377	cosita	cositas cosita
+78	6378	precipitación	precipitación precipitaciones
+79	6379	interferencia	interferencia interferencias
+80	6380	benéfico	benéfica benéfico benéficas benéficos
+81	6381	sensato	sensato sensata sensatos sensatas
+82	6382	ensayar	ensayar ensayando ensayado ensaya ensayó ensayan ensayamos ensayada ensayaba ensayaron ensayaban ensayadas ensayados ensaye ensayé ensayen ensayarlo
+83	6383	tranqui	tranqui tranquis tranki
+84	6384	amén	amén
+85	6385	cabida	cabida
+86	6386	coherencia	coherencia
+87	6387	diócesis	diócesis
+88	6388	ea	ea
+89	6389	globalización	globalización
+90	6390	mayoritariamente	mayoritariamente
+91	6391	natación	natación
+92	6392	notablemente	notablemente
+93	6393	peronismo	peronismo
+94	6394	propiamente	propiamente
+95	6395	rocío	rocío
+96	6396	cartucho	cartuchos cartucho
+97	6397	cínico	cínico cínicos cínica cínicas
+98	6398	gene	gene genes
+99	6399	ballet	ballet ballets
+100	6400	parche	parche parches

@@ -1,0 +1,100 @@
+1	4201	nadar	nadar nadando nado nadan nadas nadaba nadó nade nadado nadaban nadamos nadaron nadaremos nadé naden nados
+2	4202	normativa	normativa normativas
+3	4203	intercambiar	intercambiar intercambian intercambiando intercambiaron intercambiado intercambia intercambiamos intercambió intercambiados intercambiaban intercambien intercambiadas intercambiada intercambiarse intercambiaba intercambie intercambiarán intercambiarlos intercambié intercambiemos intercambiarlas intercambiarla intercambiaran intercambiarlo intercambias
+4	4204	burgo	burgos burgo
+5	4205	imprescindible	imprescindible imprescindibles
+6	4206	camarada	camarada camaradas
+7	4207	molino	molino molinos
+8	4208	gobernación	gobernación gobernaciones
+9	4209	algodón	algodón algodones
+10	4210	eta	eta etas
+11	4211	ejercitar	ejercito ejercitar ejercitarse ejercita ejercitando ejercitan ejercitado ejercite ejercitarte ejercitó ejercitas ejerciten ejercitamos ejercitarme ejercitados ejercitándose ejercitaban ejercitaba ejercitada ejercitarnos ejercitará ejercitarlo ejercitaron
+12	4212	literal	literal literales
+13	4213	vena	venas vena
+14	4214	baby	baby babys
+15	4215	ruptura	ruptura rupturas
+16	4216	esclavitud	esclavitud esclavitudes
+17	4217	suprimir	suprimir suprimido suprimió suprimida suprime suprimiendo suprimidos suprimidas suprimen suprimieron suprima suprimirse supriman suprimirá suprimirlos suprimía suprimirlo suprimirla suprimimos suprimiría suprimirán suprimiéndose suprimiera
+18	4218	capacitar	capacitado capacitados capacitar capacitada capacita capacitadas capacitan capacitarse capacitando capacitó capacitará capacitaron capaciten capacite capacitarlos capacitarte capacitándose capacitamos capacitarán
+19	4219	estudiantil	estudiantil estudiantiles
+20	4220	matanza	matanza matanzas
+21	4221	experimentado	experimentado experimentados experimentada experimentadas
+22	4222	subterráneo	subterráneo subterránea subterráneas subterráneos
+23	4223	primitivo	primitivo primitiva primitivos primitivas
+24	4224	inundación	inundaciones inundación
+25	4225	matemática	matemática
+26	4226	sumamente	sumamente
+27	4227	uh	uh
+28	4228	corporativo	corporativa corporativo corporativos corporativas
+29	4229	entrevistar	entrevistar entrevistó entrevistando entrevistados entrevistaron entrevistamos entrevistan entrevistas entrevistarse entrevisté entrevistada entrevisto entrevistarlo entrevistadas entrevistaba entreviste entrevistarla entrevistará entrevisten entrevistarme entrevistara entrevistarlos entrevistarle entrevistarte entrevistaban entrevistarnos
+30	4230	atlántico	atlántico atlántica atlánticas atlánticos
+31	4231	mora	mora moras
+32	4232	corporal	corporal corporales
+33	4233	tatuaje	tatuaje tatuajes
+34	4234	llano	llano llanos llana llanas
+35	4235	receptor	receptor receptores receptora receptoras
+36	4236	monopolio	monopolio monopolios
+37	4237	auxilio	auxilio auxilios
+38	4238	fachada	fachada fachadas
+39	4239	planeado	planeado planeada planeados planeadas
+40	4240	racional	racional racionales
+41	4241	tolerancia	tolerancia tolerancias
+42	4242	centímetro	centímetros centímetro
+43	4243	urna	urnas urna
+44	4244	variante	variantes variante
+45	4245	planificar	planificar planificado planificada planifica planificando planificadas planificó planificados planifican planificaron planificamos planifique planifico planificaba planifiquen planificarse planificas planificarlo planifiques
+46	4246	observador	observador observadores observadora observadoras
+47	4247	enano	enano enanos enana enanas enanito
+48	4248	raya	raya rayas rayita
+49	4249	reconstruir	reconstruir reconstruido reconstruida reconstruye reconstruyendo reconstruyen reconstruyó reconstruirse reconstruirlo reconstruyeron reconstruidas reconstruidos reconstruirla reconstruya reconstruirá reconstruyan reconstruimos reconstruiremos reconstruyamos reconstruyo reconstruía reconstruirlos
+50	4250	apelación	apelación apelaciones
+51	4251	centrado	centrado centrada centrados centradas
+52	4252	afortunado	afortunado afortunados afortunada afortunadas
+53	4253	competente	competente competentes
+54	4254	suministrar	suministrar suministra suministrado suministrados suministrada suministran suministró suministrando suministradas suministre suministraba suministraron suministrará suministren suministraban suministramos suministrarle suministrarles suministrarse suministraría suministrarán suministrara suministrándoles
+55	4255	encabezado	encabezado encabezada encabezados encabezadas
+56	4256	extinción	extinción extinciones
+57	4257	burro	burro burros burrito burra burritos burras
+58	4258	listado	listado listados listadas listada
+59	4259	innecesario	innecesario innecesaria innecesarios innecesarias
+60	4260	cortina	cortina cortinas cortinilla cortinillas
+61	4261	fotográfico	fotográfica fotográfico fotográficas fotográficos
+62	4262	fusión	fusión fusiones
+63	4263	alimentario	alimentaria alimentario alimentarios alimentarias
+64	4264	calificado	calificado calificados calificada calificadas
+65	4265	arzobispo	arzobispo arzobispos
+66	4266	vaciar	vacio vaciar vaciado vació vacia vacía vaciando vacias vacías vaciaron vacían vaciada vaciados vaciarse vacíe vaciadas vaciaba vaciarlo vaciarla vacié vaciamos vaciaste vacíen vaciaban vacie vacian
+67	4267	callejero	callejeros callejero callejera callejeras
+68	4268	carbono	carbono carbonos
+69	4269	constancia	constancia constancias
+70	4270	bañar	bañarse bañar bañarme bañan bañarte bañando bañaba bañada bañe bañados bañándose bañarnos bañó bañé bañamos bañas bañadas bañaban bañaron bañarlo bañes bañen bañaste bañate báñate bañara bañarla bañándome bañales bañarlos bañares bañaré
+71	4271	vano	vano vanos vana vanas
+72	4272	relleno	relleno rellenos rellena rellenas rellenito
+73	4273	comedor	comedor comedores comedora
+74	4274	dispersar	dispersos dispersa dispersas dispersar disperso dispersaron dispersó dispersan dispersado dispersarse dispersados dispersando dispersadas dispersada disperse dispersarlos dispersen dispersaban dispersaba dispersarán dispersándose dispersarnos dispersaran dispersara
+75	4275	graduado	graduado graduados graduada graduadas
+76	4276	lady	lady ladies
+77	4277	sorteo	sorteo sorteos
+78	4278	envidia	envidia envidias invidia
+79	4279	adicto	adicto adictos adicta adictas
+80	4280	prestigio	prestigio prestigios
+81	4281	hamburguesa	hamburguesa hamburguesas
+82	4282	comisionado	comisionado comisionados comisionada comisionadas
+83	4283	cabra	cabra cabras cabros cabro cabrita cabritas
+84	4284	poético	poética poético poéticas poéticos
+85	4285	exhibición	exhibición exhibiciones
+86	4286	monitor	monitor monitores monitora
+87	4287	papi	papi papis
+88	4288	gala	gala galas
+89	4289	nobel	nobel
+90	4290	pos	pos
+91	4291	casino	casino casinos
+92	4292	patético	patético patética patéticos patéticas
+93	4293	pala	pala paleta palas paletas paletilla palita
+94	4294	montaje	montaje montajes
+95	4295	agotar	agota agotar agotó agotaron agotan agotando agote agotada agotarse agotados agoten agotadas agoto agotará agotaba agotamos agotándose agotes agotaban agotarán agotaran agotara agoté agotas agotaría agotarlo agotarlos
+96	4296	animación	animación animaciones
+97	4297	árbitro	árbitro árbitros árbitra
+98	4298	oveja	ovejas oveja ovejitas ovejita
+99	4299	reclutar	reclutar reclutas recluta reclutado reclutados reclutando reclutó reclutan reclutaron reclutada reclutadas reclutaba reclutaban reclutarlos reclutarlo recluten reclute
+100	4300	aparente	aparente aparentes

@@ -1,0 +1,100 @@
+1	1101	selección	selección selecciones sele
+2	1102	soldado	soldados soldado soldada soldadas
+3	1103	sección	sección secciones
+4	1104	vuestro	vuestra vuestro vuestros vuestras
+5	1105	estadounidense	estadounidense estadounidenses estadunidense
+6	1106	inversión	inversión inversiones
+7	1107	tradicional	tradicional tradicionales
+8	1108	querido	querido querida queridos queridas queridísimo
+9	1109	confianza	confianza confianzas
+10	1110	herido	heridas herido heridos herida ferida
+11	1111	hambre	hambre hambres
+12	1112	sexual	sexual sexuales
+13	1113	conflicto	conflicto conflictos
+14	1114	silencio	silencio silencios
+15	1115	to	to
+16	1116	viernes	viernes
+17	1117	método	método métodos
+18	1118	recomendar	recomiendo recomienda recomendado recomendar recomendó recomiendan recomendamos recomendada recomendaría recomendados recomendando recomendadas recomendaron recomiendas recomendaba recomiende recomienden recomendé recomendarte recomendarle recomendaban recomendarme recomendaré recomendará recomendarías recomendarlo recomendarles recomendara recomendo recomiendes recomendaste recomendarla recomendarían recomendarnos recomendas recomendáis recomendarse recomendaremos recomenda recomendándose
+19	1119	asumir	asumir asume asumió asumiendo asumido asumo asumen asuma asumimos asumieron asuman asumí asumida asumirá asumiera asumía asumidos asumamos asumidas asumiría asumes asumirlo asumas asumirán asumían asumirse asumiremos asumirla asumiste asumieran asúmelo asumiré asumirían asumirlas asumirlos asumiese
+20	1120	habitante	habitantes habitante hab
+21	1121	bello	bella bello bellas bellos bellísimo bellido
+22	1122	frase	frase frases frasecita
+23	1123	moral	moral morales
+24	1124	colocar	colocar coloca colocado colocó colocan colocando colocados colocada colocaron colocadas colocarse coloque coloco colocaba colocamos coloquen colocarlo colocas colocaban colocará colocándose colocarla coloqué colocarlos colocarle colocarán colocaría colocarlas colocara colocarnos colocarme colocaremos colocaran colocándolo coloques colocarte colocándola colocarían coloquemos colocándolas
+25	1125	alcalde	alcalde alcaldes alcaldesa alcaldesas
+26	1126	aprobar	aprobó aprobar aprueba aprobada aprueban aprobaron apruebe aprobados aprobadas apruebo aprueben aprobando aprobarse aprobará aprobaba aprobara aprobé aprobamos aprobarlo aprobaría apruebas aprobaban aprobaste aprobaran aprobarla aprobase aprobarán aprobo aprobe aprobas apruebes aprobarlas aprobarlos aprobarían aprobándose aprobemos aproba aprobaré aprobabas
+27	1127	técnica	técnica técnicas
+28	1128	salida	salida salidas
+29	1129	pelo	pelo pelos pelito pelillos
+30	1130	colectivo	colectivo colectiva colectivos colectivas
+31	1131	cobrar	cobrar cobra cobro cobran cobrado cobrando cobró cobraron cobras cobraba cobren cobrará cobros cobraban cobramos cobrarán cobrarle cobres cobrara cobraría cobrados cobrarse cobrarte cobrarlo cobré cobrarles cobraran cobrarme cobradas cobrarían cobrada cobrarnos cobrarla cobraste cobrarlos cobrándose cobremos cobraremos cobrase cobrándole
+32	1132	ruso	ruso rusa rusos rusas
+33	1133	tranquilo	tranquilo tranquila tranquilos tranquilas tranquilito
+34	1134	ejercicio	ejercicio ejercicios
+35	1135	década	década décadas
+36	1136	surgir	surge surgió surgen surgido surgir surgieron surgiendo surja surjan surgida surgidas surgidos surgirá surgiera surgirán surgían surgía surgieran surgiría surgirían surgiese surgimos
+37	1137	frontera	frontera fronteras
+38	1138	conducir	conducir conduce condujo conducido conducen conduciendo conducía condujeron conduzca conducida conducirá conducidos conduzcan conduciría conducían conducidas conducirlo conduces conducirán conduzco condujera conducirse conducimos conducirnos conducirla conduje conducirlos conducirían conduzcas condujimos condujeran conduciré conducirte conducirme conduciéndolo condujese conducirle conducirlas
+39	1139	inicio	inicio inicios
+40	1140	entero	entero entera enteras enteros enterito
+41	1141	brazo	brazos brazo bracito
+42	1142	gobernador	gobernador gobernadores gobernadora gobernadoras
+43	1143	increíble	increíble increíbles
+44	1144	árbol	árbol árboles arbolito arbolitos arbolillo
+45	1145	cruz	cruz cruces crucecita
+46	1146	honor	honor honores
+47	1147	coche	coche coches cochecito cochecitos
+48	1148	hotel	hotel hoteles hotelito
+49	1149	municipio	municipio municipios
+50	1150	intención	intención intenciones
+51	1151	facultad	facultad facultades facu
+52	1152	alemán	alemán alemanes alemana alemanas
+53	1153	baño	baño baños
+54	1154	carácter	carácter caracteres carácteres
+55	1155	norma	normas norma
+56	1156	coger	coger coge cogido cojo cogió cogiendo coja cogen cojer cogí cojan coges cogieron cogida cogemos cogía cogerlo cogerte cogimos cojas cogidos cogerla cogerse cogidas cogerme cogerle cogiera cogiste cogían cogería cojos cogerlos cojamos cogeré cogerá cogerlas coged cogerán cogeremos cogieran
+57	1157	escapar	escapar escape escapa escapó escapado escapan escaparon escapando escaparse escapo escapada escapaba escapes escapen escaparme escapara escapaban escapadas escapamos escapas escapé escapará escaparte escapados escaparan escápate escaparía escapándose escaparnos escapaste escapadita escapase escaparán escapemos escaparé escaparle escaparían escapate escaparás
+58	1158	basado	basado basada basados basadas
+59	1159	batalla	batalla batallas
+60	1160	piso	piso pisos pisito
+61	1161	correo	correo correos
+62	1162	gasto	gastos gasto
+63	1163	demanda	demanda demandas
+64	1164	gato	gato gatos gata gatito gatitos gatita gatas gatitas gatico
+65	1165	guardar	guardar guardado guardan guardo guarde guardando guardaba guarden guardada guardados guardó guardas guardadas guardarlo guardé guardamos guardarse guardaban guardes guardaron guardarla guardará guardaré guardarlos guardara guardarlas guardarme guardarán guardaría guardaremos guardarte guardaste guardemos guárdalo guardad guárdate guardaran guardarle guardare guardalo
+66	1166	cagar	cagar cago caga cagada cagando cagan cagado cague cagaste cagas cagadas cagó cagaron cagarla cagué cagamos cagarme caguen cagarse cagues cagaba cagados cagarte cagá cagarnos cagate cagarlo cagarle cagándose cagaban cagaos cagaría cagara cagarlos cagabas cagaré caguemos cagás cagándome cagen
+67	1167	disponible	disponible disponibles
+68	1168	peligro	peligro peligros
+69	1169	obligar	obliga obligó obligar obligan obligaron obligados obligando obligue obligaba obligada obligará obligo obliguen obligaban obligaría obligarlos obligadas obligarlo obligarte obligues obligas obligarla obligara obligarme obligarnos obligarán obligarle obligamos obligarles obligaran obligándolos obligándolo obligué obligarse obligándola obligarían obligándole obligándoles obligándome obligase
+70	1170	cadena	cadena cadenas cadenita
+71	1171	gratis	gratis
+72	1172	crédito	crédito créditos
+73	1173	costo	costo costos
+74	1174	presión	presión presiones
+75	1175	contestar	contestar contesta contestó contesto conteste contestado contesté contestando contestan contestas contestaron contestes contestaba contestarle contesten contestarte contestaste contestarme contestadas contestada contestamos contestará contestara contestaré contéstame contestaría contestaban contestarles contestame contestarlas contestarán contestarla contestabas contéstale contestaremos contestaran contestarlo contestados contestándole contestaras
+76	1176	digital	digital digitales
+77	1177	extremo	extremo extrema extremos extremas estremo
+78	1178	permanecer	permanecer permanece permanecen permaneció permanecido permanecerá permanecieron permanezca permanecía permanezcan permaneciendo permanecían permanecerán permaneciera permanecería permanecemos permanecí permanezco permanecieran permanecerían permanezcamos permaneces permaneceré permaneceremos permanecimos permaneced permaneciese permanezcas permanecíamos permanecéis permanecerás
+79	1179	discutir	discutir discutiendo discute discutido discuten discutimos discutió discutida discutieron discutía discutirlo discuta discuto discutían discutidos discutan discutamos discutidas discutas discutirá discutirse discutí discutiremos discutirán discutes discutíamos discutirlas discutiera discutirla discutiría discutiré discutís discutirle discutieran discutirlos discutiéndose discutiéndolo discutirían discutirles
+80	1180	sencillo	sencillo sencilla sencillos sencillas sencillito sencillísimo
+81	1181	llenar	llenar llena llenan llenó llenando llenado llenas llene llenaron llenarse llenen llenaba llenamos llenaban llenará llenarlo llené llenarla llenara llenaría llenarte llenes llenarme llenarán llenándose llenaste llenarlos llenaran llenarle llenados llenarnos llenemos llenarlas llenaremos lléname llenarían llenándolo llenada llenaré llenadas
+82	1182	cristiano	cristianos cristiano cristiana cristianas christiano
+83	1183	funcionario	funcionarios funcionario funcionaria funcionarias
+84	1184	clave	clave claves
+85	1185	exponer	exponer expuesto expone expuestos expuso expuesta expuestas exponen exponiendo expusieron exponerse exponga exponía expongo expongan expondrá expuse exponemos exponerlo expones exponían exponerlos expondrán exponerte exponerla expondría exponerme exponiéndose expondré exponerlas expongas expusimos exponernos expusiera expondremos exponerle expusieran expón expusiste exponiéndolos
+86	1186	competencia	competencia competencias
+87	1187	archivo	archivo archivos
+88	1188	crecimiento	crecimiento crecimientos
+89	1189	quemar	quemar quema quemado quemando quemada quemaron queman quemó quemados queme quemadas quemo quemen quemarse quemas quemaba quemaban quemamos quemarlo quemé quemándose quemes quemarla quemarlos quemara quemarme quemarte quemaste quemaran quememos quemará quemaría quemarle quemarlas quemarnos quemarán quemaremos quemarían quemarás quemase
+90	1190	altura	altura alturas
+91	1191	independencia	independencia independencias
+92	1192	pegar	pegar pegado pego pegó pegue pegarle pegada pegan pegando pegados pegaron pegaba pegarme pegué pegadas peguen pegas pegamos pegarse pegarte pegaste pegues pegaban pegándole pegaría pegarles pegara pegarlo pegate pegarnos pegale pegaran pégate pegará pegándose pegarla pégale pegame pégame pegarlos
+93	1193	grabar	grabar grabado grabó grabando grabados graba grabada grabadas graban grabaron grabe grabamos grababa grabé grabo grabarlo graben grabara grabas grababan grabarse grabará grabarla grabaran grabaste grabarlos grabes grabarán grabaría grabaremos grabaré grabarte grabarme grabarlas grabarle grabase grabándolo grabemos grabándose grabarnos
+94	1194	estatal	estatal estatales
+95	1195	tv	tv
+96	1196	mando	mando mandos
+97	1197	acercar	acercarse acercó acercan acercaba acercando acercar acerque acercándose acercaron acerco acercado acercarnos acercamos acercarme acerquen acerqué acercarte acércate acercaban acercas acerques acercara acercará acercate acercaría acercándonos acercaran acercase acercarán acercándome acercábamos acerquemos acercarlo acérquese acercaremos acercaos acercarlos acercaros acercarla acercaré
+98	1198	cita	cita citas
+99	1199	carne	carne carnes carnita
+100	1200	periódico	periódico periódicos periódica periódicas periodiquito

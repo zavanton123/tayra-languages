@@ -1,0 +1,100 @@
+1	801	club	club clubes clubs clube
+2	802	administración	administración administraciones admón
+3	803	raro	raro rara raras raros rarísimo rarito raritos rarita
+4	804	viajar	viajar viaja viajes viajando viajó viajan viajado viajaba viajo viajaron viajaban viajamos viajas viajé viajen viajará viajarán viajaría viajara viajaste viajaremos viajábamos viajaré viajaran viajemos viajarían viajarás viajabas viajase viajá viajás viajaras viajáis
+5	805	titular	titular titulado titulares titulo titulada titula titulados tituló tituladas titulaba titularse titulan titularon titulé titulará titule titulando titulándose titularía titularlo titulaban titulamos
+6	806	reunir	reunir reúne reunido reunió reunirse reunidos reúnen reunieron reunimos reunirá reuniendo reunidas reunida reunían reúna reunía reúnan reunirán reunirnos reunirme reuní reuniéndose reuniera reuniría reuniremos reunieran reunirlos reúno reunirían reuníamos reuniré reunamos reunirte reuniese reunirlas reúnes reúnete reuniste reunámonos reúnanse
+7	807	finalmente	finalmente
+8	808	siquiera	siquiera
+9	809	lengua	lengua lenguas
+10	810	simple	simple simples
+11	811	comercial	comercial comerciales
+12	812	mitad	mitad mitades
+13	813	daño	daño daños
+14	814	diputado	diputados diputado diputada diputadas
+15	815	esfuerzo	esfuerzo esfuerzos
+16	816	gusto	gusto gustos gustito
+17	817	ataque	ataque ataques
+18	818	diez	diez dieces
+19	819	contrario	contrario contraria contrarios contrarias
+20	820	particular	particular particulares
+21	821	cuánto	cuánto cuántos cuántas cuánta
+22	822	indio	india indios indio indias
+23	823	líder	líder líderes leader lideresa lideresas
+24	824	negar	niega negar negó niegan niego negado negaron negarse negando negaba negarlo niegue negarle negaban negué negada negándose negamos nieguen niegas negara niegues negarme negará nego negarte negaría negados negarles nega negarnos negaré negaran negadas negarán negándole negaste negándolo negarás negarla
+25	825	aplicación	aplicación aplicaciones
+26	826	culpa	culpa culpas
+27	827	enfrentar	enfrentar enfrente enfrenta enfrentarse enfrentan enfrentó enfrentaron enfrentado enfrentamos enfrentando enfrentará enfrentaba enfrentados enfrentarán enfrentándose enfrentarnos enfrentaban enfrentadas enfrentaría enfrentarte enfrentas enfrentarlo enfrentarme enfrento enfrenten enfrentada enfrentarlos enfrentara enfrentaremos enfrentarla enfrentaran enfrentemos enfrenté enfrentarían enfrentes enfrentémoslo enfrentarlas enfréntate enfrentarás enfréntalo
+28	828	industria	industria industrias
+29	829	hospital	hospital hospitales hospi
+30	830	sonar	suena sonar suene suenan sonó sonaba sonando sonado sonará sono sueno sonaban sonara sonaron suenen suenas sonados sonaría sonada sonarán sónar sonadas suenos sonas sonarse sonaran sonamos sonaste sonase soné sonares sonarían sonarme sonarte soná
+31	831	depender	depende dependiendo dependen depender dependerá dependía dependa dependemos dependían dependiera dependan dependerán dependo dependería dependido dependió dependes dependiese dependieron dependas dependieran dependamos dependíamos dependerían
+32	832	preocupar	preocupa preocupes preocuparse preocupan preocupe preocuparte preocupen preocupaba preocupar preocuparme preocupo preocuparnos preocupó preocupamos preocupada preocupados preocupas preocupando preocuparía preocúpate preocuparon preocupéis preocupara preocupaban preocupándose preocupé preocupate preocupadas preocuparle preocuparos preocupará preocupemos preocuparan preocuparán preocupase preocupándome preocupándote preocúpense preocúpese preocuparas
+33	833	atacar	atacar ataca atacó atacado atacan ataques atacando atacaron atacada atacados ataquen atacaba atacaban atacadas atacarlo ataco atacara atacarlos atacas atacaran atacarla atacarnos atacaría atacarme atacarán atacará atacamos atacarle atacarían atacarte atacarse atacarles atacase atacaremos atacarlas ataqué atacándolo ataquemos atacasen atacaste
+34	834	participación	participación participaciones
+35	835	abierto	abierto abierta abiertas abiertos
+36	836	solución	solución soluciones
+37	837	mamá	mamá mamita mamás mamacita mamacitas
+38	838	merecer	merece merecen mereces merecía merezco merecemos merezca merecer merecían mereció merezcan merecías merecería mereciera merecida merecerlo merecéis merecerá merecieron mereciendo merecíamos merecés merecerían merecidas merezcas merezcamos merecidos merecerla merecerán merecimos merecí mereciese merecerte merecieran mereciste merecerse merecerme
+39	839	informe	informe informes
+40	840	deseo	deseo deseos
+41	841	amar	amar amado aman amaba amada amamos amen ame amé ames amarte amó amas amados amando amara amaré amaban amarla amarme amarlo amabas amarás amará amadas amarse amaste amaría ámame amarnos amaron amemos amarán amate amad amare amarlos amáis amaras amarle
+42	842	elemento	elementos elemento
+43	843	pareja	pareja parejas parejita
+44	844	post	post posts
+45	845	declarar	declaró declara declarar declarando declararon declaro declaran declarada declare declaraba declararse declarados declaren declaramos declarara declaradas declarará declararlo declaraban declarase declararle declararía declarándose declaré declaras declararan declararla declararán declararlos declaraste declararme declares declararnos declararte declarándolo declaremos declararemos declararlas declararían declararé
+46	846	visita	visita visitas
+47	847	reunión	reunión reuniones
+48	848	ciento	ciento cientos
+49	849	origen	origen orígenes
+50	850	victoria	victoria victorias vitoria
+51	851	código	código códigos
+52	852	visitar	visitar visitó visitas visitado visitando visitan visite visitaron visitamos visitaba visité visitarlo visiten visito visitados visitarnos visitará visitarla visitada visitarme visitarlos visitadas visites visitaban visitara visitarte visitaremos visitarán visitarle visitarse visitaría visitaré visítanos visitaste visitaran visitarlas visítenos visitanos visitábamos visitase
+53	853	reforma	reforma reformas
+54	854	luchar	luchar luchando luchan luchó luchado luchas lucharon luchamos lucho luchaba luchaban luche luchen luchemos lucharemos luchará lucharán lucharé luché lucharía luches lucharan luchara luchaste luchábamos lucharían luchad luchada luchare luchase lucharla lucharás lucháis
+55	855	conmigo	conmigo comigo
+56	856	crisis	crisis
+57	857	artista	artista artistas
+58	858	enfermedad	enfermedad enfermedades
+59	859	conjunto	conjunto conjunta conjuntos conjuntas
+60	860	despertar	despertar despierta despierto despertó desperté despertado despierte despertando despiertan despierten despiertos despertarme despertaron despertarse despiertas despertaba despertarte despertamos despiertes despertara desperte despertará despertaste despertemos despertarlo despertarnos desperto despertarla despertaría despertaban despertad despertarán despertares despertada despertaran despertas despertaré despertados despertaremos despertándose
+61	861	rato	rato rata ratas ratos ratito ratita ratillo
+62	862	juez	juez jueces jueza juezas
+63	863	doctor	doctor doctores doctora doctoras
+64	864	controlar	controlar controla controlado controlada controlan controlados controlando controladas controles controle controlaba controlarlo controlen controlo controlaban controlarse controlas controló controlarlos controlamos controlarla controlará controlarme controlaron controlara controlarlas controlarte controlarnos controlaría controlarán controlaran controlate controlaremos controlemos controlarían contrólate controlarle controlase controlarás controlé
+65	865	resolver	resolver resuelto resuelve resolvió resuelva resuelven resueltos resolverse resolverá resuelta resolverlo resolviendo resuelvan resolvieron resueltas resolverlos resolvería resolvemos resolverán resolví resolviera resuelvo resolvía resolveremos resolverla resolverlas resolvimos resuelves resolvamos resolvieran resolvían resolverían resuelvas resolviste resolveré resolviéndose resolverle resuélvelo resolviese resolverme
+66	866	mente	mente mentes
+67	867	ocasión	ocasiones ocasión
+68	868	aspecto	aspectos aspecto
+69	869	don	don doña dones doñas
+70	870	imposible	imposible imposibles
+71	871	sala	sala salas salita
+72	872	detener	detener detuvo detiene detenidos detuvieron detienen detenerse detenga detengan detenida detenerlo detendrá deteniendo detenernos detenidas detenerme detuviera detenerlos detenerte detuve detengo detenerla detenía detenemos detente detuvimos detengas detengamos detendrán detendría detuvieran detendremos detenían detienes deteniéndose detenerle detendré detén detendrían detengámonos
+73	873	violencia	violencia violencias
+74	874	alma	alma almas almita
+75	875	juicio	juicio juicios
+76	876	sangre	sangre sangres
+77	877	beber	bebe beber bebidas bebida bebes bebés bebiendo beba bebo beben bebido bebió bebía bebemos bebas bebí bebían beberé bebieron beberse beban beberlo bebimos bebamos beberás beberá beberla beberme bebiera beberte bebería bebed bebidos bebiste bebíamos beberemos beberán bebéis bebelo bebieran
+78	878	tercero	tercer tercero terceros terceras
+79	879	actualmente	actualmente
+80	880	cielo	cielo cielos
+81	881	unión	unión uniones
+82	882	riesgo	riesgo riesgos
+83	883	vino	vino vinos vinito
+84	884	consecuencia	consecuencia consecuencias
+85	885	asociación	asociación asociaciones
+86	886	territorio	territorio territorios
+87	887	máximo	máximo máxima máximos máximas
+88	888	causar	causar causado causó causando causan causada causados causas causaron cause causadas causará causales causaba causaría causo causen causarle causara causaban causes causarán causándole causarles causarte causarían causaste causaran causarme causamos causarse causarnos causándoles causare causarla causé causarlo causase causarás
+89	889	marca	marca marcas marquita
+90	890	teléfono	teléfono teléfonos
+91	891	exterior	exterior exteriores
+92	892	federal	federal federales
+93	893	preferir	prefiero prefiere prefieren prefieres preferiría prefirió prefería preferir preferimos prefiera prefirieron prefiriendo prefieran preferían prefieras preferí preferís preferida preferirías preferirían preferidos preferidas preferirá preferirán preferiríamos preferiste prefiriera preferías preferíamos preferirás prefirieran preferiré
+94	894	afirmar	afirma afirmó afirmar afirman afirmando afirmaba afirmado afirmaron afirmo afirmaban afirme afirmarse afirmamos afirmas afirmarlo afirmara afirmé afirmaría afirmen afirmada afirmará afirmándose afirmaste afirmados afirmaran afirmes
+95	895	sexo	sexo sexos
+96	896	ropa	ropa ropas ropita
+97	897	lindo	lindo linda lindas lindos lindísimo
+98	898	brasil	brasil
+99	899	probablemente	probablemente
+100	900	solamente	solamente

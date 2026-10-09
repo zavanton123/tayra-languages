@@ -1,0 +1,100 @@
+1	5201	escuadrón	escuadrón escuadrones
+2	5202	trayecto	trayecto trayectos
+3	5203	regimiento	regimiento regimientos
+4	5204	adaptado	adaptado adaptada adaptados adaptadas
+5	5205	contradecir	contradice contradicen contradecir contradiciendo contradiga contradigan contradijo contradecía contradecirse contradecían contradigo contradecirte contradicho contradecirlo contradices contradecirme contradijeron contradecirla contradecirle contradiciéndose contradigas
+6	5206	clandestino	clandestina clandestino clandestinos clandestinas
+7	5207	muscular	muscular musculares musculo musculado
+8	5208	recolección	recolección recolecciones
+9	5209	coherente	coherente coherentes
+10	5210	pt	pt pts
+11	5211	aludir	alude aludiendo aludir aluden aludió aludía aludida aludidos aludes aludían aludidas aludo aluda aludieron aludimos
+12	5212	inyección	inyección inyecciones
+13	5213	flexible	flexible flexibles
+14	5214	jabón	jabón jabones
+15	5215	cordillera	cordillera cordilleras
+16	5216	corral	corral corrales corralito corralón corralitos
+17	5217	flojo	flojo floja flojos flojas flojito
+18	5218	licenciatura	licenciatura licenciaturas
+19	5219	vecindario	vecindario vecindarios
+20	5220	bondad	bondad bondades
+21	5221	seda	seda sedas
+22	5222	redonda	redonda redondas
+23	5223	vara	vara varas
+24	5224	tip	tips tip
+25	5225	desventaja	desventaja desventajas
+26	5226	espina	espina espinas
+27	5227	enfermar	enfermó enfermar enferman enferma enfermarse enferme enfermando enfermado enfermé enfermaron enfermarme enfermen enfermaba enfermes enfermas enfermamos enfermarte enfermara enfermarnos enfermaste enfermaban
+28	5228	asustado	asustado asustada asustados asustadas
+29	5229	erróneo	errónea erróneo erróneas erróneos
+30	5230	cabaña	cabaña cabañas cabañita
+31	5231	podrido	podrido podrida podridos podridas
+32	5232	recto	recto rectos rectas
+33	5233	lunar	lunar lunares
+34	5234	marxista	marxista marxistas
+35	5235	transitar	transitar transito transitan transita transitada transitado transitadas transitando transitaba transitaban transitados transitó transiten transite transitaron transitamos
+36	5236	tropezar	tropezar tropieza tropiezo tropezó tropiezos tropecé tropezado tropiezan tropezando tropezamos tropezarse tropiece tropiezas tropezaron tropieces tropezaba tropezarme tropezará tropiecen tropezara tropezarte
+37	5237	agravar	agravado agrava agravada agravar agravó agravan agravando agravados agravadas agravarse agravaron agravará agrave agravaría agravaba agravándose agraven
+38	5238	legalidad	legalidad legalidades
+39	5239	cooperar	cooperar cooperando coopera cooperan cooperado cooperen cooperó coopere cooperaron cooperamos cooperará cooperaba cooperarán cooperaría cooperas cooperemos cooperaban coopero
+40	5240	frontal	frontal frontales
+41	5241	tablero	tablero tableros
+42	5242	jubilado	jubilados jubilado jubilada jubiladas
+43	5243	lápiz	lápiz lápices
+44	5244	pantalón	pantalón pantaloncito
+45	5245	saquear	saquear saquearon saqueado saqueando saquean saqueada saqueados saqueó saqueadas saquea saqueaban saqueen saqueaba saquearlo saquearla
+46	5246	sobretodo	sobretodo sobretodos
+47	5247	simpatía	simpatía simpatías
+48	5248	planteamiento	planteamiento planteamientos
+49	5249	interino	interino interina interinos interinas
+50	5250	remate	remate remates
+51	5251	decepcionar	decepcionó decepciona decepcionar decepcionarte decepcionas decepcionan decepciono decepcionada decepcionaron decepcioné decepcionando decepcionará decepcione decepcionarme decepcionaste decepciones decepcionados decepcionen decepcionarse decepcionarlos decepcionaría decepcionamos decepcionara decepcionarán decepcionadas
+52	5252	armario	armario armarios
+53	5253	intimidad	intimidad intimidades
+54	5254	capricho	capricho caprichos caprichito
+55	5255	celos	celos
+56	5256	reja	rejas reja
+57	5257	documentar	documentar documenta documentada documentales documentan documentó documentados documentando documentadas documentarse documentaron documente documentarlo documentamos documentaba documenten documentándose
+58	5258	progresar	progresar progresando progresa progresado progrese progresan progresó progresaba progresamos progresaron progresen progresas progresará progresaban progresara
+59	5259	frustración	frustración frustraciones
+60	5260	arbitrario	arbitraria arbitrario arbitrarias arbitrarios
+61	5261	bautista	bautista bautistas
+62	5262	victimar	victimas victima victimado
+63	5263	enfocado	enfocado enfocada enfocados enfocadas
+64	5264	hebreo	hebreo hebreos hebrea hebreas
+65	5265	estímulo	estímulo estímulos
+66	5266	apóstol	apóstol apóstoles
+67	5267	caramelo	caramelos caramelo caramelito
+68	5268	ro	ro ros roses
+69	5269	alabar	alaba alabar alabando alabó alaban alabo alabaron alababa alaben alabamos alabada alababan alabe alabarlo alabemos alabados alabaré alabad alabarte alabas alabadas alabes alabarle
+70	5270	inventario	inventario inventarios
+71	5271	carencia	carencia carencias
+72	5272	abeja	abejas abeja abejita
+73	5273	huérfano	huérfanos huérfano huérfana huérfanas huerfanito
+74	5274	procesamiento	procesamiento procesamientos
+75	5275	eclesiástico	eclesiástica eclesiástico eclesiásticos eclesiásticas
+76	5276	recopilación	recopilación recopilaciones
+77	5277	medicar	medico medica medicas medicare medicado medicada medicar medicarse medicados
+78	5278	hot	hot hots
+79	5279	clausura	clausura clausuras
+80	5280	saqueo	saqueo saqueos
+81	5281	imputado	imputado imputados imputada imputadas
+82	5282	bobo	bobo boba bobos bobas
+83	5283	subasta	subasta subastas
+84	5284	mayoritario	mayoritario mayoritaria mayoritarios mayoritarias
+85	5285	explícito	explícita explícito explícitas explícitos
+86	5286	retórica	retórica retóricas
+87	5287	diagnosticar	diagnosticado diagnosticar diagnosticaron diagnostico diagnosticada diagnosticados diagnosticó diagnostica diagnosticadas diagnostican diagnosticando diagnostique diagnosticarse diagnostiquen
+88	5288	carpeta	carpeta carpetas
+89	5289	embarcación	embarcaciones embarcación
+90	5290	arrasar	arrasar arrasó arrasa arrasado arrasando arrasada arrasaron arrasan arrasadas arrasados arrase arrasará arrasamos arrasaba arrasate arraso arrasaría arrasara arrasaban arrasen
+91	5291	tráiler	tráiler trailer tráilers tráileres
+92	5292	intacto	intacto intacta intactos intactas
+93	5293	caracterizado	caracterizado caracterizada caracterizados caracterizadas
+94	5294	niebla	niebla nieblas
+95	5295	inverso	inversa inverso inversas inversos
+96	5296	predicar	predicar predica predicando predican predicado predicó predicaba predicados predicamos predicas predique predico predicaban predicada predicaron prediquen predicad
+97	5297	dedicación	dedicación dedicaciones
+98	5298	plural	plural plurales
+99	5299	resucitar	resucitado resucitar resucitó resucita resucitados resucitan resucitando resucitada resucite resucitará resucitaron resucito resucitarán resucitara resucitarlo resuciten resucitaría resucitarla resucité resucitaba resucitaré resucitaste resucitamos
+100	5300	mónico	mónica mónico

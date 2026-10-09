@@ -1,0 +1,100 @@
+1	9001	triangular	triangular triangulo triangulares
+2	9002	tara	tara taras
+3	9003	ambigüedad	ambigüedad ambigüedades
+4	9004	radiactivo	radiactivo radioactivo radiactivos radiactiva radiactivas
+5	9005	contraloría	contraloría contralorías
+6	9006	suciedad	suciedad suciedades
+7	9007	involuntario	involuntario involuntaria involuntarios involuntarias
+8	9008	partición	partición particiones
+9	9009	inhibir	inhibe inhibir inhiben inhibido inhibida inhibiendo inhibirse inhibió inhiba inhibidos inhibidas
+10	9010	pachuco	pachuca pachuco pachucos
+11	9011	superintendencia	superintendencia superintendencias
+12	9012	peer	peer pea pee peas peo peele
+13	9013	horda	horda hordas
+14	9014	agustino	agustina agustinos agustino agustinas
+15	9015	penitencia	penitencia penitencias
+16	9016	represa	represa represas
+17	9017	hortaliza	hortalizas hortaliza
+18	9018	recarga	recarga recargas
+19	9019	sastre	sastre sastres
+20	9020	publicista	publicista publicistas
+21	9021	faena	faena faenas
+22	9022	previsible	previsible previsibles
+23	9023	tanda	tanda tandas
+24	9024	conciliar	conciliar conciliares concilia conciliando conciliarse concilian
+25	9025	majestuoso	majestuoso majestuosa majestuosas majestuosos
+26	9026	náusea	náuseas náusea
+27	9027	caprichoso	caprichosa caprichoso caprichosos caprichosas
+28	9028	trance	trance trances
+29	9029	calabozo	calabozo calabozos
+30	9030	pulga	pulgas pulga pulg pulguita
+31	9031	decapitar	decapitado decapitados decapitada decapitar decapitó decapita decapitan decapitaron decapitadas decapitando
+32	9032	merino	merino merinas merina merinos
+33	9033	travesti	travesti travestis
+34	9034	formalidad	formalidad formalidades
+35	9035	excavar	excavar excavado excavando excavada excavadas excavados excava excavó excavaron excavan
+36	9036	hinchada	hinchada hinchadas
+37	9037	certero	certero certera certeros certeras
+38	9038	morón	morón morona morones
+39	9039	pisotear	pisotear pisoteado pisoteando pisotean pisoteados pisotea pisoteada pisoteen pisoteó pisoteo pisoteadas pisotearon pisotee
+40	9040	fulano	fulano fulana fulanito fulanos fulanita fulanas
+41	9041	estropear	estropear estropea estropee estropeó estropean estropeada estropearon estropeando estropearlo estropeen estropearse estropeados estropeadas estropees estropeara estropeo estropeaba estropearía estropearás
+42	9042	improvisación	improvisación improvisaciones
+43	9043	minucioso	minuciosa minucioso minuciosos minuciosas
+44	9044	paliar	paliar palio palios paliada palia
+45	9045	yuca	yuca yucas
+46	9046	estampa	estampa estampas estampita estampitas
+47	9047	genocida	genocida genocidas
+48	9048	oca	oca ocas
+49	9049	óleo	óleo óleos olio
+50	9050	virtuoso	virtuoso virtuosa virtuosos virtuosas
+51	9051	malentendido	malentendido malentendidos malentendida
+52	9052	desobediencia	desobediencia desobediencias
+53	9053	manipulador	manipulador manipuladora manipuladores manipuladoras
+54	9054	emborrachar	emborracharse emborracha emborrachar emborracharme emborracho emborrachan emborrachó emborrachado emborracharnos emborracharte emborrache emborrachaba emborrachas emborraché emborrachándose emborrachamos emborracharon emborrachaban
+55	9055	venidero	venideros venideras venidero venidera
+56	9056	meteorito	meteorito meteoritos
+57	9057	reptil	reptiles reptil
+58	9058	carismático	carismático carismática carismáticos carismáticas
+59	9059	empujón	empujón empujones
+60	9060	obsequio	obsequio obsequios
+61	9061	rítmico	rítmica rítmico rítmicos rítmicas
+62	9062	encaminado	encaminado encaminadas encaminada encaminados
+63	9063	interlocutor	interlocutor interlocutores interlocutora
+64	9064	retrospectiva	retrospectiva retrospectivas
+65	9065	caracterización	caracterización caracterizaciones
+66	9066	plagio	plagio plagios
+67	9067	emboscada	emboscada emboscadas
+68	9068	deformación	deformación deformaciones
+69	9069	obsceno	obsceno obscena obscenas obscenos
+70	9070	nómada	nómadas nómada nómade
+71	9071	injerencia	injerencia injerencias
+72	9072	infeccioso	infecciosas infecciosa infeccioso infecciosos
+73	9073	majo	majo maja majos majas
+74	9074	quebrantar	quebrantar quebrantado quebranto quebranta quebrantando quebrantó quebrantada quebrantos quebrantan quebrantaron quebrantados quebrantadas quebrante quebrantará
+75	9075	engendrar	engendra engendrado engendrar engendró engendran engendraron engendrados engendrada engendrando engendre
+76	9076	orgía	orgía orgías orgia
+77	9077	colado	colado colada coladas colados
+78	9078	tramitación	tramitación tramitaciones
+79	9079	apego	apego apegos
+80	9080	muchedumbre	muchedumbre muchedumbres
+81	9081	enfado	enfado enfados
+82	9082	frustrante	frustrante frustrantes
+83	9083	árido	árido áridos áridas árida
+84	9084	aducir	aduciendo aduce aducen adujo aducir adujeron aducido aducía aducidos aducidas
+85	9085	visado	visado visados
+86	9086	lira	lira liras
+87	9087	domesticar	domestica domestico domesticado domesticar domesticados domesticas domesticada domesticadas domesticó domesticando domesticaron
+88	9088	auditor	auditor auditores auditora
+89	9089	intencionado	intencionado intencionada intencionados intencionadas
+90	9090	gaseosa	gaseosa gaseosas
+91	9091	compu	compu compus
+92	9092	ártico	ártico ártica árticas árticos
+93	9093	faz	faz faces
+94	9094	purificar	purificar purifica purificada purificado purificados purificarse purifican purificando purifique purificó purificadas purificarla purificarlo purificará
+95	9095	langosta	langosta langostas
+96	9096	germen	germen gérmenes
+97	9097	penalti	penalti penaltis penalty
+98	9098	rutinario	rutinaria rutinario rutinarias rutinarios
+99	9099	caché	caché cache cachés
+100	9100	fundición	fundición fundiciones

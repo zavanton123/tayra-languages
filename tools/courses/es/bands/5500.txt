@@ -1,0 +1,100 @@
+1	5401	invocar	invocar invoca invocando invocado invoco invocan invocó invocada invoque invocados invocamos invocaron invocaba invocarlo invoquen invoqué invocadas invocaban invocas invocarse invocará invocaré
+2	5402	despreciar	desprecia despreciar desprecian despreciado despreciando despreciaba despreciada despreciados despreció desprecie desprecias despreciaban despreciamos despreciadas despreciaron desprecies desprecien despreciarla despreciarlo despreciarse despreciarlos
+3	5403	remontar	remontar remontan remontada remontarse remontando remontó remonte remontamos remontado remontaba remontándose remontaron remontarnos remontaban remontadas remonto remontes remontará remonten remontándonos remontaría
+4	5404	tímido	tímido tímida tímidos tímidas
+5	5405	honda	honda hondas
+6	5406	machista	machista machistas
+7	5407	promulgar	promulgada promulgó promulgado promulgar promulga promulgadas promulgaron promulgados promulgue promulgan promulgando promulgaba promulgara promulgarse promulgará promulguen promulgo
+8	5408	artesano	artesanos artesano artesana artesanas
+9	5409	usual	usual usuales
+10	5410	moro	moro moros moras morito
+11	5411	yacimiento	yacimientos yacimiento
+12	5412	disfrazado	disfrazado disfrazados disfrazada disfrazadas
+13	5413	tentación	tentación tentaciones
+14	5414	ceja	cejas ceja
+15	5415	tentar	tentado tentar tienta tiento tentada tientas tentados tentando tentó tientes tientan tiente tento tentarme tenté tentaba tientos tentadas tenta tentaron tentarse tienten tentarlo tentarnos tentarte
+16	5416	rebajar	rebajar rebajado rebajas rebajó rebajada rebajados rebajan rebajando rebajarse rebaje rebajen rebajes rebajadas rebajo rebajaron rebajarme rebajaría rebajarte rebajará rebajamos rebajarlo rebajaba rebajarla rebajarán rebajara rebajarnos rebajaran
+17	5417	epidemia	epidemia epidemias
+18	5418	carné	carnet carné carnés
+19	5419	avalar	avala avalado avalan avalada avalar avalados avaló avalando avale avaladas avalen avales avalaron avalo avalaba avalaban avalamos avalara avalaría
+20	5420	montero	montero monteros montera
+21	5421	amazona	amazonas amazona
+22	5422	emerger	emerge emergen emerger emergió emergiendo emergieron emergido emergía emerja emergían emerjan emergerá emergiera emergidas emergerán emergida
+23	5423	contradictorio	contradictorio contradictorias contradictorios contradictoria
+24	5424	egoísta	egoísta egoístas
+25	5425	mural	mural murales
+26	5426	respetuoso	respetuoso respetuosa respetuosos respetuosas
+27	5427	indiferencia	indiferencia indiferencias
+28	5428	insuficiente	insuficiente insuficientes
+29	5429	premisa	premisa premisas
+30	5430	propagar	propagar propaga propagan propagó propagado propagarse propagando propague propagaron propagada propagándose propaguen propagaba propagadas propagara propagaban propagará propagados
+31	5431	secta	secta sectas
+32	5432	secuela	secuelas secuela
+33	5433	colapsar	colapsar colapsó colapsado colapsa colapsando colapse colapsada colapsan colapsaron colapsados colapsadas colapsara colapsará colapsaría colapsen colapsarse colapsaba colapsamos
+34	5434	adelanto	adelanto adelantos
+35	5435	replicar	replica replicar replicó replicado replicas replican replicando replicaron replique replicarse replicada replicados replicará replico replicadas replicaba replicarlo repliqué
+36	5436	lola	lola lolo lolas
+37	5437	preocupante	preocupante preocupantes
+38	5438	artesanal	artesanal artesanales
+39	5439	burgués	burgués burguesa burgueses burguesas
+40	5440	florecer	florece florecer florecen floreció floreciendo florecido florecieron florezca florezcan florecerá florecía florecían florecerán florecida floreciera florecidos
+41	5441	prosperar	prosperar prospera prospere prosperó prosperan prosperado prospero prosperando prosperaron prosperen prosperará prosperaba prosperara prosperas prosperarán prosperaban prosperaría
+42	5442	hipocresía	hipocresía hipocresías
+43	5443	reelección	reelección reelecciones
+44	5444	disimular	disimular disimulo disimula disimulado disimulada disimulando disimulan disimularlo disimule disimulados disimulaba disimuló disimuladas disimulen disimules disimulas disimulos
+45	5445	pescar	pescar pescando pescados pescan pesco pescaron pescara pescó pescaba pesque pescaban pesce pesquen pesqué pescamos pesques pescarlos pescas pescada
+46	5446	ferroviario	ferroviario ferroviaria ferroviarios ferroviarias
+47	5447	cachorro	cachorros cachorro cachorrito cachorra cachorrillo
+48	5448	posada	posada posadas
+49	5449	adecuadamente	adecuadamente
+50	5450	cuidadosamente	cuidadosamente
+51	5451	equidad	equidad
+52	5452	formalmente	formalmente
+53	5453	mercancía	mercancía
+54	5454	catástrofe	catástrofe catástrofes
+55	5455	televisor	televisor televisores
+56	5456	desperdiciar	desperdiciar desperdiciado desperdicia desperdiciando desperdicies desperdician desperdiciada desperdicie desperdició desperdiciados desperdiciaron desperdiciamos desperdiciadas desperdiciarla desperdiciarlo desperdicias desperdicié desperdicien desperdiciaste desperdiciaba desperdiciará desperdiciaría
+57	5457	chivo	chivas chivo chivos chiva chivito chivitos
+58	5458	vasto	vasta vasto vastas vastos
+59	5459	civilizado	civilizado civilizada civilizados civilizadas
+60	5460	sillón	sillón sillones
+61	5461	congresista	congresista congresistas
+62	5462	imposición	imposición imposiciones
+63	5463	parásito	parásitos parásito parásita parásitas
+64	5464	caca	caca kk cacas caquita
+65	5465	ucraniano	ucraniano ucraniana ucranianos ucranianas
+66	5466	adornar	adornado adornar adornada adornan adorna adornados adornadas adornaban adornando adornaba adornó adornaron adornarlo adornarse adornen adorne adornará
+67	5467	entretenido	entretenido entretenida entretenidos entretenidas
+68	5468	quieto	quieto quieta quietos quietas quietecito
+69	5469	orlar	orlando orlan orlado orlada orlas
+70	5470	restar	restar restan restando restarle restó reste restaba restado restaban restándole restaría restamos restaron resten restará restas restarles restes restarse restale restarán restara
+71	5471	bachillerato	bachillerato bachilleratos
+72	5472	radar	radar radares
+73	5473	cerámica	cerámica cerámicas
+74	5474	observatorio	observatorio observatorios
+75	5475	maldición	maldición maldiciones
+76	5476	alcohólico	alcohólicas alcohólico alcohólica alcohólicos
+77	5477	genético	genético genéticos genéticas
+78	5478	sismo	sismo sismos seísmo
+79	5479	rap	rap raps
+80	5480	festivo	festivo festivos festiva festivas
+81	5481	bromear	bromeando bromear bromea bromeó bromeaba bromean bromeo bromeaban bromeado bromeábamos bromeé bromeas bromearon bromeamos bromeen
+82	5482	víspera	víspera vísperas
+83	5483	finde	finde findes
+84	5484	mediocre	mediocre mediocres
+85	5485	sistemática	sistemática sistemáticas
+86	5486	premiar	premiar premia premió premiada premiados premian premiando premie premiadas premiaron premiará premiaba premiarán premien premiamos premiarlo premiá premias premiaban premiara premiarte
+87	5487	arquitectónico	arquitectónico arquitectónica arquitectónicos arquitectónicas
+88	5488	posgrado	posgrado postgrado posgrados
+89	5489	right	right rights dcho
+90	5490	pack	pack packs
+91	5491	filial	filial filiales
+92	5492	proseguir	prosigue proseguir prosiguió prosiga prosiguen prosiguieron prosiguiendo proseguía proseguido proseguirá proseguimos prosigan prosigamos prosigo proseguiremos proseguían proseguiría proseguirán prosiguiera
+93	5493	recomendable	recomendable recomendables
+94	5494	permanencia	permanencia permanencias
+95	5495	apodo	apodo apodos
+96	5496	oliva	oliva olivas
+97	5497	chaval	chaval chavales chavala chavalas chavalito
+98	5498	tango	tango tangos tanguito
+99	5499	kit	kit kits
+100	5500	tribuna	tribuna tribunas

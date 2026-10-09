@@ -1,0 +1,100 @@
+1	9201	espartar	esparta espartanos
+2	9202	astillero	astillero astilleros
+3	9203	bug	bug bugs
+4	9204	adónde	adónde
+5	9205	analítica	analítica
+6	9206	bu	bu
+7	9207	colesterol	colesterol
+8	9208	consecuentemente	consecuentemente
+9	9209	envejecimiento	envejecimiento
+10	9210	garrido	garrido
+11	9211	guardaespaldas	guardaespaldas
+12	9212	natalidad	natalidad
+13	9213	normalización	normalización
+14	9214	obregón	obregón
+15	9215	oporto	oporto
+16	9216	pamela	pamela
+17	9217	patriarcado	patriarcado
+18	9218	primeramente	primeramente
+19	9219	psicoanálisis	psicoanálisis
+20	9220	severamente	severamente
+21	9221	sobredosis	sobredosis
+22	9222	ultramar	ultramar
+23	9223	veinticuatro	veinticuatro
+24	9224	tricolor	tricolor tricolores
+25	9225	incipiente	incipiente incipientes
+26	9226	asir	asís asir asiendo asía asen asido asiste asirse asió asile asida asilos ases ase
+27	9227	apología	apología apologías
+28	9228	proclamación	proclamación proclamaciones
+29	9229	ateneo	ateneo ateneos
+30	9230	ardilla	ardilla ardillas ardillita
+31	9231	narrativo	narrativo narrativos narrativas
+32	9232	colegiado	colegiado colegiados colegiada colegiadas
+33	9233	viñedo	viñedos viñedo
+34	9234	pajero	pajero pajeros pajera
+35	9235	invernal	invernal invernales
+36	9236	autoritarismo	autoritarismo autoritarismos
+37	9237	abrumar	abrumado abrumada abruma abrumados abrumar abruman abrumó abrumadas
+38	9238	esclavizar	esclavizados esclavizar esclavizado esclavizada esclaviza esclavizan esclavizadas esclavizando esclavizaron esclavizó esclavizarnos esclavizarlos
+39	9239	regresivo	regresiva regresivo regresivas regresivos
+40	9240	bel	bel bela belas
+41	9241	rebasar	rebasar rebasa rebasado rebasó rebasan rebase rebasando rebasados rebasada rebasaron rebasaba rebasen rebasará rebasadas
+42	9242	grillo	grillo grillos grillito
+43	9243	estancamiento	estancamiento estancamientos
+44	9244	acaparar	acaparar acapara acaparando acaparan acaparó acaparado acapararon acaparaba acapare acaparada acaparados acaparaban acaparen
+45	9245	ganso	ganso gansos gansa
+46	9246	repetitivo	repetitivo repetitiva repetitivos repetitivas
+47	9247	proa	proa proas
+48	9248	portafolio	portafolio portafolios
+49	9249	meseta	meseta mesetas
+50	9250	vialidad	vialidad vialidades
+51	9251	manguera	manguera mangueras
+52	9252	precariedad	precariedad precariedades
+53	9253	voltaje	voltaje voltajes
+54	9254	asequible	asequible asequibles
+55	9255	chato	chato chata chatos chatas
+56	9256	jabalí	jabalí jabalíes jabalina jabalinas jabalís
+57	9257	inundado	inundado inundada inundados inundadas
+58	9258	socializar	socializar socializando socializa socializan socializado socializados socializada socializarse socialice socializó socializo socializamos socializadas
+59	9259	falacia	falacia falacias
+60	9260	latido	latido latidos
+61	9261	escrúpulo	escrúpulos escrúpulo
+62	9262	penúltimo	penúltimo penúltima penúltimos
+63	9263	complutense	complutense complutenses
+64	9264	exterminio	exterminio exterminios
+65	9265	embarque	embarque embarques
+66	9266	afroamericano	afroamericanos afroamericano afroamericana afroamericanas
+67	9267	disgustar	disgusta disgustó disgustan disgustaba disguste disgustar disgustada disgustaron disgustarme disgustados disgustaría disgustadas
+68	9268	largometraje	largometraje largometrajes
+69	9269	paranormal	paranormal paranormales
+70	9270	estática	estática estáticas
+71	9271	perturbador	perturbador perturbadora perturbadores perturbadoras
+72	9272	excéntrico	excéntrico excéntrica excéntricos excéntricas
+73	9273	incansable	incansable incansables
+74	9274	envenenado	envenenado envenenada envenenados envenenadas
+75	9275	sobornar	sobornar sobornado sobornó sobornados sobornando soborna sobornaron sobornan sobornarlo sobornaste sobornarlos
+76	9276	fregar	fregar fregado fregada friega fregando fregados friegas friegan friego friegue fregó fregaba frega fregaron
+77	9277	analógico	analógico analógica analógicos analógicas
+78	9278	sabotaje	sabotaje sabotajes
+79	9279	galo	galo galos galas
+80	9280	orca	orcos orca orco orcas
+81	9281	pedal	pedal pedales
+82	9282	polígono	polígono polígonos
+83	9283	septentrional	septentrional septentrionales
+84	9284	panteón	panteón panteones
+85	9285	privilegiar	privilegiada privilegiar privilegia privilegiados privilegiando privilegian privilegiadas privilegió privilegie privilegiaba
+86	9286	suplir	suplir suple suplen supliendo suplido suplirá suplió suplida supla suplía suplidos suplirlo suplan
+87	9287	contiguo	contigua contiguo contiguas contiguos
+88	9288	rectificación	rectificación rectificaciones
+89	9289	contencioso	contencioso contenciosos contenciosa contenciosas
+90	9290	trip	trip trips
+91	9291	lírico	lírico líricos líricas
+92	9292	cualitativo	cualitativo cualitativa cualitativos cualitativas
+93	9293	desenvolver	desenvuelve desenvolverse desenvuelven desenvolver desenvuelto desenvolvió desenvolvía desenvolverte desenvuelva desenvolviendo desenvuelta desenvuelvo desenvuelvan desenvuelves desenvolverme desenvolviéndose
+94	9294	mijo	mijo mijas mijos mija
+95	9295	panadero	panadero panaderos panadera panaderas
+96	9296	samurái	samurai samurái samuráis samurais
+97	9297	rociar	rocio rociar rociado rocía roció rociada rociando rociaron rociados rocían rociadas rocíe rociaba rociaban rociarlo
+98	9298	deleitar	deleita deleitar deleitan deleitarse deleitó deleitarnos deleitando deleito deleitado deleitándose deleitaba deleitaron deleitarme deleitará deleitarán deleiten deléitate deleitas deleitarte deleites
+99	9299	jam	jam jams
+100	9300	jarra	jarra jarras jarrita

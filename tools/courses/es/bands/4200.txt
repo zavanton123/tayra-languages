@@ -1,0 +1,100 @@
+1	4101	creatividad	creatividad
+2	4102	simón	simón
+3	4103	vigor	vigor
+4	4104	arrestado	arrestado arrestados arrestada arrestadas
+5	4105	mudo	mudo muda mudas mudos mudito
+6	4106	neta	neta netas
+7	4107	prejuicio	prejuicios prejuicio
+8	4108	étnico	étnico étnicos étnica étnicas
+9	4109	intendente	intendente intendentes intendenta
+10	4110	musicar	musica musico musique musicas musicale musicales
+11	4111	agrupar	agrupa agrupados agrupar agrupan agrupadas agruparse agrupado agrupando agruparon agrupó agrupada agrupaban agrupaba agrupen agrupándose agrupe agruparlos agrupamos agrupará agruparlas agruparán agruparnos
+12	4112	frito	fritas frito frita fritos
+13	4113	discapacidad	discapacidad discapacidades
+14	4114	celoso	celoso celosa celosos celosas
+15	4115	escaño	escaños escaño
+16	4116	leve	leve leves
+17	4117	protagonizar	protagonizada protagonizado protagonizó protagoniza protagonizar protagonizaron protagonizan protagonizadas protagonizados protagonizando protagonizará protagonizaba protagonizarán protagonizara protagonice protagonizaban protagonizaría
+18	4118	equipar	equipado equipados equipada equipadas equipar equipara equipa equipe equipó equiparse equipando equiparan equipan equiparon equiparlo equipamos equipare
+19	4119	desagradable	desagradable desagradables
+20	4120	espectro	espectro espectros
+21	4121	velar	velar velada veladas velando velan velado velados velará velen velarán velaba velamos velaron velaban velad veló velara velá velaría velaré velas velaran vele veles
+22	4122	asqueroso	asqueroso asquerosa asquerosos asquerosas
+23	4123	holandés	holandés holandesa holandeses holandesas
+24	4124	ratón	ratón ratones ratoncito ratona ratoncita ratoncillo
+25	4125	contraseña	contraseña contraseñas
+26	4126	sostenible	sostenible sostenibles
+27	4127	destrozar	destrozar destrozos destrozando destroza destrozó destrozaron destrozo destrozada destrozan destrozados destrozadas destroce destrocen destrozaba destrozarlo destrozas destrozaría destrozarle destrozarme destrozarte destrozaban destrozaste destrozarse destrozamos destrozarla destrozara destrozarán destrozará destrozarnos destrozándolo destrozaran
+28	4128	parámetro	parámetros parámetro
+29	4129	tabaco	tabaco tabacos
+30	4130	movilizar	movilizar movilizado moviliza movilizarse movilizó movilizan movilizaron movilizados movilizando movilizada movilizarnos movilice movilizadas movilizamos movilicen movilizaba movilizaban movilizará movilizándose movilizarán movilizarte movilizaran movilizara movilizarlos
+31	4131	inconveniente	inconveniente inconvenientes
+32	4132	morar	more moran morar morales mores moré morale moren moraban morados morando moraba morad moró moradas morará moralo moras
+33	4133	ceniza	cenizas ceniza
+34	4134	ofensiva	ofensiva ofensivas
+35	4135	rebelión	rebelión rebeliones
+36	4136	divorcio	divorcio divorcios
+37	4137	transcurrir	transcurrido transcurre transcurrió transcurridos transcurrir transcurren transcurrieron transcurría transcurra transcurriendo transcurrían transcurridas transcurran transcurrida transcurrirá transcurrieran transcurriera
+38	4138	explosivo	explosivos explosivo explosiva explosivas
+39	4139	enterrar	enterrar enterrados enterraron enterró entierra enterrada entierran enterrando entierren enterrarlo enterradas enterraban enterramos enterrarlos enterré enterraba enterrarla enterrarse entierre enterraran enterrarán enterrarle enterrarme enterraremos enterrarte enterrara enterro entierres enterrarnos enterrará enterraste enterrarlas enterrándose entierras
+40	4140	competición	competición competiciones
+41	4141	maquillaje	maquillaje maquillajes
+42	4142	iva	iva ivas
+43	4143	sucesión	sucesión sucesiones
+44	4144	testamento	testamento testamentos
+45	4145	simbólico	simbólico simbólica simbólicas simbólicos
+46	4146	despedida	despedida despedidas
+47	4147	exportar	exportar exporta exportado exportan exportados exportando exportó exportada exportaba exportamos exportadas exportaron exporte exporten exportaban exportarse exportarlo exportarlos exportarla exportará exportarlas exportemos exporto
+48	4148	provisional	provisional provisionales
+49	4149	pasillo	pasillo pasillos
+50	4150	fronterizo	fronteriza fronterizo fronterizos fronterizas
+51	4151	diamante	diamante diamantes
+52	4152	magistrado	magistrado magistrados magistrada magistradas
+53	4153	remitir	remite remitido remitir remito remitió remiten remitida remitidos remitirá remita remitidas remitiendo remitimos remitirse remitieron remitirnos remitirle remitirán remitan remitía remitían remitiera remitirlo remitirme remitiéndose remitiremos remitirla
+54	4154	orquesta	orquesta orquestas orquestra
+55	4155	táctica	táctica tácticas
+56	4156	corrección	corrección correcciones
+57	4157	residuo	residuos residuo
+58	4158	contador	contador contadores contadora contadoras
+59	4159	coco	coco cocos
+60	4160	decoración	decoración decoraciones
+61	4161	consagrar	consagrado consagrada consagró consagrados consagra consagradas consagrar consagrarse consagraron consagran consagrando consagraba consagro consagrándose consagrará consagraban consagre consagraría consagrara consagramos
+62	4162	lord	lord lores
+63	4163	luchador	luchador luchadores luchadora luchadoras
+64	4164	síndrome	síndrome síndromes
+65	4165	payaso	payaso payasos payasa payasito
+66	4166	contradicción	contradicción contradicciones
+67	4167	coreano	coreano coreana coreanos coreanas
+68	4168	emocionado	emocionado emocionada emocionados emocionadas
+69	4169	follar	follar follando folla follada fuelle follen follado follan folle follarte follo follas follarme follarse follamos follaba folles fuelles folló fóllame follé follándose follara folladas follame follarla follemos follaron follaban follaría
+70	4170	fascista	fascista fascistas
+71	4171	fi	fi fis fíes
+72	4172	enseguida	enseguida
+73	4173	holanda	holanda
+74	4174	inclusive	inclusive
+75	4175	públicamente	públicamente
+76	4176	usualmente	usualmente
+77	4177	implantar	implantar implantado implantes implante implantó implantada implanta implantadas implantados implantando implantaron implantarse implantan implantará implanten implantarlo implantamos implantarla implantara implantaría implanto
+78	4178	contraer	contraer contrajo contrae contraído contraen contrajeron contraída contraídas contraerse contraídos contrayendo contraiga contraigan contraerá contraje contrajera contraía contraida contrayéndose contraían contraería contraerán contraido contraerlo
+79	4179	exploración	exploración exploraciones
+80	4180	ingrediente	ingredientes ingrediente
+81	4181	estadístico	estadísticas estadístico estadísticos
+82	4182	asignado	asignado asignados asignada asignadas
+83	4183	imperial	imperial imperiales
+84	4184	cuaderno	cuaderno cuadernos cuadernillo cuadernito
+85	4185	estructural	estructural estructurales
+86	4186	torturar	torturado torturar torturados torturando torturaron torturada torturan torturó torturas torture torturadas torturaba torturaban torturen torturarme torturo torturarlo torturarlos torturarte torturamos tortures torturarnos torturarse torturarla torturándolo
+87	4187	secuestrado	secuestrado secuestrada secuestrados secuestradas
+88	4188	ligar	ligar ligada ligados ligue ligando ligadas ligas ligan ligo ligó ligarse ligaba ligues ligamos ligaron ligarte liguen ligarme ligué ligandos ligaban ligarlo ligaste ligarla
+89	4189	hembra	hembra hembras hembrita
+90	4190	perjuicio	perjuicio perjuicios
+91	4191	bot	bot bots
+92	4192	revelación	revelación revelaciones
+93	4193	cursar	cursar cursa cursó cursado cursando cursan curse cursada cursaba cursadas cursaron cursen cursé cursados cursas cursaban cursamos curses cursarse cursará cursarán cursarla
+94	4194	torta	torta tortas
+95	4195	aerolínea	aerolíneas aerolínea
+96	4196	saldo	saldo saldos
+97	4197	postre	postre postres postrecito
+98	4198	insecto	insectos insecto
+99	4199	encarcelar	encarcelado encarcelados encarcelar encarcelada encarceló encarcela encarcelan encarcelaron encarceladas encarcelando encarcelen encarcele encarcelamos encarcelarlo encarcelarlos encarcelaran
+100	4200	fluir	fluye fluir fluyen fluya fluidos fluyendo fluida fluía fluyan fluid fluyó fluían fluirá fluyera fluidas fluyeron fluirán fluyo

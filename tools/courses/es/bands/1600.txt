@@ -1,0 +1,100 @@
+1	1501	reserva	reserva reservas
+2	1502	administrativo	administrativa administrativo administrativos administrativas
+3	1503	belleza	belleza bellezas bellezón
+4	1504	vestido	vestido vestidos vestida vestidas vestidito
+5	1505	concierto	concierto conciertos
+6	1506	molestar	molesta molestar molestan moleste molestó molestado molestando molestaba molesten molestarte molestaría molestes molestarse molestas molestarme molestaron molestaban molestara molestarlo molesté molestamos molestará molestarle molestarla molestados molestaran molestarnos molestarlos molestada molestaré molestaste molestase molestarles molestaras molestéis molestemos molestarían molestarán molestarlas molestaros
+7	1507	continuación	continuación continuaciones
+8	1508	bosque	bosque bosques
+9	1509	discusión	discusión discusiones
+10	1510	ay	ay ayes
+11	1511	mapa	mapa mapas
+12	1512	delante	delante
+13	1513	fernando	fernando
+14	1514	online	online
+15	1515	resolución	resolución resoluciones
+16	1516	sugerir	sugiere sugieren sugirió sugerir sugiero sugerido sugiriendo sugirieron sugería sugerimos sugerida sugeriría sugerí sugiera sugeridos sugieres sugeridas sugerían sugerirle sugieran sugiriera sugerirte sugerirá sugerirles sugiriéndole sugerirlo sugerirme sugerirnos sugieras sugerís sugerirían
+17	1517	divertido	divertido divertida divertidos divertidas divertidísimo
+18	1518	interesado	interesado interesados interesada interesadas
+19	1519	pelear	pelear peleando pelean peleas peleamos peleado peleó pelearon peleo pelearse peleen peleaban pelee peleaba peleándose pelearme peleados pelearnos peleará pelearte peleemos peleada pelees pelearán peleé peleaste pelearía pelearemos peleábamos pelearan pelearla peleadas peleara pelearé pelearlo pelearían peleándome pelearle peleabas peleándonos
+20	1520	palacio	palacio palacios
+21	1521	kilómetro	kilómetros kilómetro
+22	1522	rural	rural rurales
+23	1523	adulto	adultos adulto adulta adultas
+24	1524	conservar	conservar conserva conservan conservado conservando conservas conservó conservados conservada conservo conserve conservaba conservadas conservaron conserven conservarlo conservaban conservarse conservará conservamos conservarán conservarla conservarlos conservándose conservaría conservara conservarlas conservemos conservaran conserves conservaremos conservaré conservé conservarían conservase conservarte
+25	1525	evidencia	evidencia evidencias
+26	1526	sujeto	sujeto sujetos sujeta sujetas
+27	1527	individual	individual individuales
+28	1528	amenaza	amenaza amenazas
+29	1529	femenino	femenino femenina femeninas femeninos
+30	1530	comunicar	comunicar comunicarse comunica comunicó comunican comunicarme comunicarnos comunique comunicarte comunicando comunicamos comunicaba comunico comunicaron comuníquese comunicados comuniquen comunícate comunicará comunicarle comunicarlo comunicaban comunicándose comunicarles comuniqué comunicada comunicarán comunicas comunicate comunicara comunicaremos comuniques comunicaros comunicadas comunicaran comunicaré comunicaría comunicándolo comunicarla comunicándole
+31	1531	operar	operar opera operan operando operado operada operaba operó operados operaron opere operaban operen operarse operadas operará operamos operarme opero operas operarán operé operara operarlo operaría operarla operarte operaran operarían operate operarle operes operarlos operandos operase operaste
+32	1532	aproximadamente	aproximadamente aprox
+33	1533	audiencia	audiencia audiencias
+34	1534	pobreza	pobreza pobrezas
+35	1535	liga	liga ligas
+36	1536	obstante	obstante
+37	1537	super	super
+38	1538	instalación	instalaciones instalación
+39	1539	placer	placer place placeres plazca places placido plácemes placida placed
+40	1540	contratar	contratar contratado contrató contrata contratados contratada contrataron contratan contratando contrate contraten contratas contratadas contratamos contraté contratarlo contratará contrataría contratarte contrataban contrataba contratarlos contratara contrates contratarla contratarán contrataste contrataran contratarme contratarse contratarían contratarle contratase contratarnos contratemos
+41	1541	felicidad	felicidad felicidades
+42	1542	terrible	terrible terribles
+43	1543	limitar	limita limitar limitada limitan limites limitó limitando limitarse limitados limitaba limitadas limitaron limite limitaban limitará limiten limito limitamos limitándose limitaría limitarnos limitara limitarán limitarme limitaré limitas limité limitarlo limitarte limitaran limitaremos limitemos limitarían limitarlos limítate limitarla limitándola limitase
+44	1544	valle	valle valles val vallecito vallecillo
+45	1545	reconocimiento	reconocimiento reconocimientos
+46	1546	ventaja	ventaja ventajas
+47	1547	promedio	promedio promedios
+48	1548	decreto	decreto decretos
+49	1549	resistencia	resistencia resistencias
+50	1550	practicar	practicar practica practicando practican practicas practicado practico practicaba practicó practicada practique practicaban practiquen practicamos practicaron practicadas practicarlo practicados practicarse practiques practicarla practiqué practicará practicara practicarle practicaran practiquemos practicarán practicaremos practicarlos practicándose practicarlas practicaría practicándolo
+51	1551	constante	constante constantes
+52	1552	global	global globales
+53	1553	organismo	organismo organismos
+54	1554	testigo	testigos testigo
+55	1555	jaja	jaja haha
+56	1556	euro	euros euro
+57	1557	prisión	prisión prisiones
+58	1558	acceder	acceder accede accedió acceden accedido accediendo acceda accedieron accedan accedía accedí accederse accediera accederá accedes accedemos accedían accedo accedería accederán accedieran accedimos accedas accediese accedidos accediste accedida accederían
+59	1559	cuesta	cuesta cuestas
+60	1560	voluntad	voluntad voluntades
+61	1561	útil	útil útiles
+62	1562	disposición	disposición disposiciones
+63	1563	productor	productores productor productora productoras
+64	1564	cocina	cocina cocinas cocinita cocinilla
+65	1565	actuación	actuación actuaciones
+66	1566	consistir	consiste consistía consisten consistió consistirá consistir consistían consistido consistiría consistieron consistiendo consista consistirán consistan consistiera
+67	1567	golpear	golpear golpeó golpea golpeado golpeando golpearon golpean golpeada golpeo golpeaba golpeados golpee golpearlo golpeaban golpeara golpeadas golpearme golpeen golpeas golpearse golpearla golpearte golpearlos golpearle golpearan golpeé golpeará golpeándolo golpeándose golpeamos golpearnos golpees golpearía golpeándola golpearán golpeándome golpeaste golpease golpeándole golpeándolos
+68	1568	fundar	fundada fundado fundó fundar fundadas fundaron fundados fundo funde funden fundan fundando fundas fundara fundarse fundos fundé fundamos fundaba fundándose fundará fundaría fundaran fundaban fundarán fundase fundarte fundes
+69	1569	individuo	individuos individuo individua
+70	1570	intervención	intervención intervenciones
+71	1571	distribución	distribución distribuciones
+72	1572	bomba	bomba bombas bombilla bombillas bombita bombín bombines
+73	1573	autobús	autobús bus autobuses buses
+74	1574	cuándo	cuándo
+75	1575	jajaja	jajaja
+76	1576	jorge	jorge
+77	1577	ojalá	ojalá
+78	1578	héroe	héroe héroes heroína heroínas
+79	1579	labor	labor labores
+80	1580	onda	onda ondas
+81	1581	vacío	vacío vacía vacíos vacías
+82	1582	seguidor	seguidores seguidor seguidora seguidoras
+83	1583	tonto	tonto tonta tontos tontas tontito
+84	1584	apreciar	apreciar aprecio aprecia apreciado aprecian apreciada apreciamos apreciados apreciarse apreciadas aprecie apreciaba apreció precie aprecias aprecien apreciarlo apreciando apreciará apreciaron apreciaban apreciaría apreciarán apreciarla precia apreciaríamos apreciara aprecié apreciándose apreciarían apreciaremos apreciarlos apreciaran apreciemos apreciarlas aprecies apreciarás apreciaré preció apreciábamos
+85	1585	gráfico	gráfico gráfica gráficos gráficas
+86	1586	sorpresa	sorpresa sorpresas sorpresita
+87	1587	cifra	cifras cifra
+88	1588	inteligencia	inteligencia inteligencias
+89	1589	entrega	entrega entregas
+90	1590	odiar	odia odian odiar odias odiaba odiado odie odiamos odiando odiaban odien odies odié odiados odiada odiarte odiarlo odiarme odió odiarlos odiarla odiaría odiabas odiara odiarnos odiarán odiará odiarse odiaron odiadas odiaré odiemos odiaran odiáis ódiame odiarle odiarían odiaras odiarás odiás
+91	1591	salario	salario salarios
+92	1592	académico	académico académicos académica académicas
+93	1593	sentencia	sentencia sentencias
+94	1594	jardín	jardín jardines jardin jardincito
+95	1595	dominio	dominio dominios
+96	1596	perdonar	perdona perdonar perdone perdono perdóname perdonado perdonen perdonó perdoname perdonan perdonas perdonamos perdonad perdonados perdonarte perdonará perdónenme perdonaré perdonaría perdonarme perdonando perdonaron perdóneme perdoné perdonada perdonadme perdonarle perdonarán perdonarlo perdonara perdonarse perdonaba perdonarnos perdonaste perdónalos perdónanos perdoná perdonarla perdonarlos perdones
+97	1597	empresario	empresarios empresario empresaria empresarias
+98	1598	italiano	italiano italiana italianos italianas
+99	1599	breve	breve breves brevísimo
+100	1600	impacto	impacto impactos

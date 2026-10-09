@@ -1,0 +1,100 @@
+1	3401	sospecha	sospecha sospechas
+2	3402	financiación	financiación financiaciones
+3	3403	heredero	heredero herederos heredera herederas
+4	3404	himno	himno himnos
+5	3405	autopista	autopista autopistas
+6	3406	secuestro	secuestro secuestros
+7	3407	municipalidad	municipalidad municipalidades
+8	3408	civilización	civilización civilizaciones
+9	3409	designar	designar designa designó designados designada designan designe designaron designaba designando designadas designará designara designen designo designaban designarán designarse designaría designándose designarlo designamos
+10	3410	fuga	fuga fugas
+11	3411	planificación	planificación planificaciones
+12	3412	tontería	tonterías tontería
+13	3413	estima	estima estimas
+14	3414	cuchillo	cuchillo cuchillos cuchillito
+15	3415	depositar	depositar depositado deposito deposita depositados depositan depositada depositó depositaron depositadas depositando deposite depositen depositaba depositaban depositarlo depositará depositarse depositamos depositas depositarlos deposité depositarán depositarla depositara deposites depositaran depositándose depositarlas depositaría depositaste
+16	3416	agrupación	agrupación agrupaciones
+17	3417	socialismo	socialismo socialismos
+18	3418	exclusivo	exclusivo exclusivos exclusivas
+19	3419	comprensión	comprensión comprensiones comprehensión
+20	3420	millonario	millonario millonarios millonaria millonarias
+21	3421	ansiedad	ansiedad ansiedades
+22	3422	vistazo	vistazo vistazos
+23	3423	miar	mia mias mie mió mien mié mian miele miar miados mio mieles
+24	3424	info	info infos
+25	3425	gota	gota gotas gotita
+26	3426	meme	memes meme
+27	3427	fundamento	fundamento fundamentos
+28	3428	motivar	motiva motivó motivar motivan motivaron motivada motive motivados motivando motivadas motivaba motivarlos motiven motivará motivarte motivarse motivarnos motivarme motivaría motivarlo motivara motives motivas motivamos motivarla motivaban
+29	3429	esfera	esfera esferas
+30	3430	ca	ca
+31	3431	wow	wow
+32	3432	demócrata	demócrata demócratas
+33	3433	exigencia	exigencias exigencia
+34	3434	filmar	filmar filmado filmando filmó filma filmada filmes filmaron filmadas filmados filman filmaba filmo filmamos filmé filmaban filmen filmarlo filmarse filmas filmará filmara filmarla filmaría filmarán
+35	3435	derivar	derivados derivan derivar derivó derivadas derivada derivarse derivaron derive deriven derivando derivaba derivaría derivará derivaban derivarían derivarán derivo derivamos derivara derivas
+36	3436	forestal	forestal forestales
+37	3437	chupar	chupar chupando chupe chupan chupo chupen chupaba chupada chupado chupó chupame chuparle chuparse chupala chuparme chuparte chupas chuparla chupes chupadas chúpame chupara chupamos chúpate chuparon chupaban chupate chuparía chupaste chuparlo chupándole chuparles chupé chuparnos chupalo chupados chuparlos chupándose chúpalo
+38	3438	fragmento	fragmentos fragmento
+39	3439	brillar	brilla brillar brillan brillando brille brilló brillaba brillaban brillaron brillará brillen brillado brillas brillara brillarán brillarás brillaran brillaría brillamos
+40	3440	monto	monto montos
+41	3441	directiva	directiva directivas
+42	3442	proclamar	proclama proclamó proclamado proclamar proclamada proclaman proclamando proclamaron proclamarse proclamas proclamaba proclamados proclamo proclame proclamaban proclamara proclamándose proclamamos proclamará proclamadas proclamase proclamarlo proclamen proclamaría
+43	3443	varón	varones varón varoncito
+44	3444	tercio	tercio tercios tercia tercias
+45	3445	variación	variaciones variación
+46	3446	estupidez	estupidez estupideces
+47	3447	reparación	reparación reparaciones
+48	3448	sometido	sometido sometidos sometida sometidas
+49	3449	revés	revés reveses
+50	3450	bando	bando bandos
+51	3451	cementerio	cementerio cementerios
+52	3452	sombrero	sombrero sombreros sombrerito sombrerete sombreritos sombrerón
+53	3453	estatuto	estatuto estatutos
+54	3454	litro	litros litro
+55	3455	traducido	traducido traducida traducidos traducidas
+56	3456	conveniente	conveniente convenientes
+57	3457	presunto	presunto presuntos presunta presuntas
+58	3458	fiebre	fiebre fiebres
+59	3459	brutal	brutal brutales
+60	3460	curva	curva curvas
+61	3461	fingir	fingir fingiendo finge fingido fingió fingen fingida fingía finjo fingimos finges fingidas fingí fingieron fingidos finjas finja finjamos fingiré finjan fingían fingirlo fingiste fingías fingiera
+62	3462	cansar	cansé cansan canse cansó cansa cansando cansar cansaron cansada cansarse cansamos canses cansas cansaba cansados cansaré cansarme cansen cansaste cansará cansarte cansaremos cansemos cansaría cansarán cansara cansarnos cansarás cansaban cansadas cansaran cansare canséis cansándose
+63	3463	proveniente	provenientes proveniente
+64	3464	duelo	duelo duelos
+65	3465	bob	bob bobs
+66	3466	utilización	utilización utilizaciones
+67	3467	cuadra	cuadra cuadras
+68	3468	transferir	transferir transferido transfiere transferidos transferida transfirió transfieren transfiriendo transferidas transfirieron transfiera transferirse transfieran transferirá transferirlo transferirán transferirlos transferirla transfiero transferirle transfería transferí transferimos transfiriera transferirte transfieres transferían
+69	3469	ritual	ritual rituales
+70	3470	fibra	fibra fibras
+71	3471	bruto	bruto bruta brutos brutas
+72	3472	adivinar	adivinar adivina adivinen adivino adivinado adivinando adivine adivinas adivinan adivinos adivinó adiviné adiviná adivinad adivinarlo adivinaste adivinaron adivináis adivinaba adivinamos adivinarás adivinara adivinará
+73	3473	cartera	cartera carteras carterita
+74	3474	cuarenta	cuarenta
+75	3475	gravedad	gravedad
+76	3476	ordenado	ordenado ordenada ordenados ordenadas
+77	3477	carbón	carbón carbones
+78	3478	catálogo	catálogo catálogos
+79	3479	rasgo	rasgos rasgo
+80	3480	adquisición	adquisición adquisiciones
+81	3481	play	play plays
+82	3482	reseña	reseña reseñas
+83	3483	continental	continental continentales
+84	3484	fiscalía	fiscalía fiscalías
+85	3485	considerable	considerable considerables
+86	3486	ordinario	ordinario ordinaria ordinarios ordinarias
+87	3487	ángulo	ángulo ángulos
+88	3488	leal	leal leales
+89	3489	tortura	tortura torturas
+90	3490	agresivo	agresivo agresiva agresivos agresivas
+91	3491	promocionar	promocionar promocionando promociona promocionales promocionado promociones promocionan promocionó promocionarse promocionarlo promocionada promocionados promocionaba promocione promocionaron promocionen promocionaban promocionará promocionamos promociono promocionarla promocionadas promocionarte promocionarlos promocionas
+92	3492	triple	triple triples
+93	3493	elegante	elegante elegantes elegantísimo
+94	3494	metropolitano	metropolitana metropolitano metropolitanas metropolitanos
+95	3495	economista	economista economistas
+96	3496	panel	panel paneles
+97	3497	coro	coro coros
+98	3498	modalidad	modalidad modalidades
+99	3499	calificación	calificación calificaciones
+100	3500	monetario	monetaria monetario monetarias monetarios

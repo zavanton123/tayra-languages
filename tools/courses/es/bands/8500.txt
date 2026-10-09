@@ -1,0 +1,100 @@
+1	8401	ventura	ventura venturas
+2	8402	curro	curro curros curra currito curras
+3	8403	gaucho	gaucho gauchos gaucha gauchito gauchas
+4	8404	capitalino	capitalino capitalinos capitalina capitalinas
+5	8405	radiante	radiante radiantes
+6	8406	doctoral	doctoral doctorales
+7	8407	maquillar	maquillar maquillada maquillado maquillarse maquilladas maquillarme maquilla maquillan maquillarte maquillados maquillando maquillo maquilló maquillas maquillaron maquillaba maquille maquillarnos maquíllate maquillen maquillé maquillarlo
+8	8408	sepulcro	sepulcro sepulcros
+9	8409	despegue	despegue despegues
+10	8410	promo	promo promos
+11	8411	alameda	alameda alamedas
+12	8412	retribución	retribución retribuciones
+13	8413	deducción	deducción deducciones
+14	8414	principiante	principiantes principiante
+15	8415	ovni	ovni ovnis
+16	8416	mascar	mascara mascar mascaras masca masque mascando mascate mascado mascada masco mascaba mascó mascan
+17	8417	uranio	uranio urania
+18	8418	desagüe	desagüe desagües
+19	8419	inepto	inepto ineptos inepta ineptas
+20	8420	porcelana	porcelana porcelanas
+21	8421	beatle	beatles beatle
+22	8422	enriquecimiento	enriquecimiento enriquecimientos
+23	8423	distorsión	distorsión distorsiones
+24	8424	dichoso	dichoso dichosa dichosos dichosas
+25	8425	digestivo	digestivo digestivos digestivas digestiva
+26	8426	desenlace	desenlace desenlaces
+27	8427	repudio	repudio repudios
+28	8428	privatizar	privatizar privatizado privatizada privatizadas privatizados privatizó privatiza privatizan privatizando privatizaron privaticen privatizará privatice privatizarla
+29	8429	hospedar	hospedado hospeda hospedar hospedó hospedarse hospedaba hospedan hospedados hospedaron hospedando hospedaban hospedarme hospedarte hospedada hospedo hospedamos hospedas hospedándose hospede hospedará hospedé hospedarán hospedarnos
+30	8430	panorámico	panorámica panorámicas panorámico panorámicos
+31	8431	remordimiento	remordimiento remordimientos
+32	8432	vetar	vetar vetado vetó vetada vetas vetados vetaron vetadas vetando vetan vete
+33	8433	adentrar	adentrarse adentró adentrándose adentrarnos adentran adentrado adentramos adentrarme adentraron adentraba adentrarte adentrar adentras adéntrate adentraban adentre adentré adentrándonos
+34	8434	funar	funes funar funan fune funen funado
+35	8435	dígito	dígitos dígito
+36	8436	contagioso	contagiosa contagioso contagiosas contagiosos
+37	8437	trivial	trivial triviales
+38	8438	jaquear	hackear hackeo
+39	8439	monólogo	monólogo monólogos
+40	8440	youtuber	youtuber youtubers
+41	8441	astronómico	astronómico astronómica astronómicos astronómicas
+42	8442	azotea	azotea azoteas
+43	8443	canónico	canónico canónica canónicos canónicas
+44	8444	rally	rally rallys
+45	8445	asentir	asintió asienta asiente asentir asintiendo asientan asentí asintieron asentía asienten asientes
+46	8446	importador	importadores importador importadora importadoras
+47	8447	entrante	entrante entrantes
+48	8448	subsistencia	subsistencia subsistencias
+49	8449	empírico	empírica empírico empíricos empíricas
+50	8450	zinc	zinc cinc
+51	8451	socialdemócrata	socialdemócrata socialdemócratas
+52	8452	deponer	depuesto deponer depuso depusieron depongan deponen depuestos deponiendo depone depuesta deponerlo
+53	8453	resaca	resaca resacas resacón
+54	8454	descuido	descuido descuidos
+55	8455	génova	génova genovés genoveses genovesa genovesas
+56	8456	demente	demente dementes
+57	8457	impaciente	impaciente impacientes
+58	8458	malta	malta maltas
+59	8459	anulación	anulación anulaciones
+60	8460	inmaduro	inmaduro inmaduros inmadura inmaduras
+61	8461	oportunista	oportunista oportunistas
+62	8462	acantilado	acantilado acantilados acantilada
+63	8463	ingerir	ingerir ingerido ingiere ingieren ingerida ingeridos ingiriendo ingeridas ingirió ingerimos ingiera ingerirse ingerirlos ingería ingerían ingieres ingerirlo ingirieron
+64	8464	vicario	vicario vicarios vicaria
+65	8465	enorgullecer	enorgullece enorgullecen enorgullecerse enorgullezco enorgullecía enorgullecemos enorgullezca enorgullecer enorgulleces enorgullecido enorgullecernos enorgulleció enorgullecerme
+66	8466	codicia	codicia codicias
+67	8467	antecesor	antecesor antecesores antecesora antecesoras
+68	8468	grúa	grúa grúas
+69	8469	accesibilidad	accesibilidad
+70	8470	asicar	asique
+71	8471	asma	asma
+72	8472	desinformación	desinformación
+73	8473	fijamente	fijamente
+74	8474	god	god
+75	8475	jáquer	hacker
+76	8476	incompetencia	incompetencia
+77	8477	injustamente	injustamente
+78	8478	management	management
+79	8479	modales	modales
+80	8480	moralmente	moralmente
+81	8481	oasis	oasis
+82	8482	paternidad	paternidad
+83	8483	rafa	rafa
+84	8484	run	run
+85	8485	surf	surf
+86	8486	típicamente	típicamente
+87	8487	vitalidad	vitalidad
+88	8488	embrión	embrión embriones
+89	8489	alineado	alineados alineado alineadas alineada
+90	8490	adoptivo	adoptivo adoptiva adoptivos adoptivas
+91	8491	salmón	salmón salmones
+92	8492	chido	chido chida chidas chidos shido
+93	8493	atraso	atraso atrasos
+94	8494	emirato	emiratos emirato
+95	8495	faraón	faraón faraones faraona
+96	8496	placentero	placentero placentera placenteras placenteros
+97	8497	indiana	indiana indianas
+98	8498	ascendente	ascendente ascendentes
+99	8499	equivocación	equivocación equivocaciones
+100	8500	wea	wea weas

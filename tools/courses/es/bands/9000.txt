@@ -1,0 +1,100 @@
+1	8901	aparcar	aparcar aparcado aparca aparcados aparcada aparcó aparcando aparco aparcamos aparqué aparcan aparque aparcarlo aparcaron aparquen
+2	8902	yuan	yuan yuanes yuans
+3	8903	bengala	bengala bengalas
+4	8904	colorear	colorear coloreado coloreada coloreadas coloreados colorea coloreando colorean coloreo
+5	8905	disciplinar	disciplinado disciplinar disciplinada disciplinados disciplinas disciplinadas discipline disciplinares
+6	8906	asombrado	asombrado asombrada asombrados asombradas
+7	8907	inercia	inercia inercias
+8	8908	ático	ático ática áticos áticas
+9	8909	paladar	paladar paladares
+10	8910	angelino	angelina angelino angelinos
+11	8911	fragmentar	fragmentado fragmentada fragmentados fragmentadas fragmenta fragmentar fragmentan fragmentó fragmentarse fragmentando fragmente
+12	8912	pulpo	pulpo pulpos pulpito
+13	8913	limosna	limosna limosnas
+14	8914	recubrir	recubierto recubre recubierta recubiertos recubiertas recubren recubrir recubriendo recubría recubrió
+15	8915	escribano	escribano escribanos escribana
+16	8916	kilogramo	kilogramos kilogramo
+17	8917	mostaza	mostaza mostazas
+18	8918	negociador	negociador negociadores negociadora negociadoras
+19	8919	seductor	seductor seductora seductores seductoras
+20	8920	momia	momia momias momios momio
+21	8921	repercutir	repercute repercutir repercuten repercutió repercutido repercutirá repercutiendo repercuta repercutirán repercutiría repercutieron repercutan
+22	8922	despojar	despojar despoja despojó despojarse despojaron despojados despojan despojando despojada despojarlo despojarnos despoje despojadas despojarlos despojarle despojaba despojarme despojarla despojamos despojen
+23	8923	refrescar	refrescar refresca refrescarse refresque refrescando refrescarte refrescado refrescan refrescó refrescarnos refrescarme refrescaba refrescada refresquen refrescamos refréscate
+24	8924	cuantitativo	cuantitativa cuantitativo cuantitativos cuantitativas
+25	8925	sabina	sabina sabinas
+26	8926	niñera	niñera niñeras niñero niñeros
+27	8927	poseedor	poseedor poseedores poseedora poseedoras
+28	8928	alguacil	alguacil alguaciles
+29	8929	blanquear	blanquear blanquea blanqueado blanqueada blanqueando blanquean blanqueados blanqueó blanqueadas blanquearon blanqueaba blanquee blanqueen blanquearse
+30	8930	anglosajón	anglosajón anglosajones anglosajona anglosajonas
+31	8931	soriano	soriano soriana sorianos sorianas
+32	8932	brujería	brujería brujerías
+33	8933	inculcar	inculcar inculcado inculca inculcó inculcaron inculcan inculcando inculcarle inculcarles inculcados inculcada
+34	8934	sor	sor sores
+35	8935	vacilar	vacilar vacila vacilando vaciló vacilan vacilo vacile vacilado vaciles vacilaba vacilaron vacilas bacilar vacilamos vacilé vacilará vacilen
+36	8936	vinculante	vinculante vinculantes
+37	8937	consignar	consignar consignó consignado consignados consignas consignada consignan consignadas consignando consigne consignaron consignará consignarse consignarán consignaba consignen
+38	8938	intolerante	intolerante intolerantes
+39	8939	gamba	gambas gamba
+40	8940	acueducto	acueducto acueductos
+41	8941	realizador	realizador realizadores realizadora
+42	8942	auspiciar	auspiciado auspiciada auspicia auspiciar auspiciados auspició auspiciadas auspician auspiciando
+43	8943	frutal	frutales frutal
+44	8944	depresivo	depresivo depresivos depresiva depresivas
+45	8945	freelance	freelance freelancer
+46	8946	pelirrojo	pelirroja pelirrojo pelirrojas pelirrojos
+47	8947	jerárquico	jerárquico jerárquica jerárquicos jerárquicas
+48	8948	ambientar	ambientada ambientado ambientar ambientadas ambientados ambienta ambientales ambientan ambientando ambientes
+49	8949	rabino	rabino rabinos
+50	8950	discrepar	discrepar discrepo discrepa discrepan discrepamos discrepando discrepaba discrepó discrepe discrepaban discreparon discrepen
+51	8951	mascarilla	mascarilla mascarillas
+52	8952	acústico	acústico acústicas acústicos
+53	8953	round	round rounds
+54	8954	cuantía	cuantía cuantías
+55	8955	pique	pique piques
+56	8956	ajar	ajá aje ajó ajar ajada
+57	8957	captación	captación captaciones
+58	8958	fisiológico	fisiológica fisiológicas fisiológico fisiológicos
+59	8959	comandar	comandado comandar comandada comandados comandaba comandó comandadas comandando comandan comandaban comandas
+60	8960	basílica	basílica basílicas
+61	8961	argumentación	argumentación argumentaciones
+62	8962	reflexivo	reflexivo reflexiva reflexivos reflexivas
+63	8963	temeroso	temeroso temerosos temerosa temerosas
+64	8964	grifo	grifo grifos grifa
+65	8965	tirón	tirón tirones
+66	8966	súbdito	súbditos súbdito súbdita
+67	8967	posguerra	posguerra postguerra
+68	8968	luir	luís lui luya luí
+69	8969	rabo	rabo rabos
+70	8970	áspero	áspero áspera ásperas ásperos
+71	8971	costura	costura costuras
+72	8972	destituir	destituir destituyó destituye destituirlo destituyen destituyeron destituida destituidos destituya destituyendo destituyan destituyera destituía destituirá
+73	8973	aunar	aunado aunar aúna auna aunando aúnan aunada aunó aunaron aunados aunadas aúne aunaba aunan auno
+74	8974	grosso	grosso groso grossa
+75	8975	insostenible	insostenible insostenibles
+76	8976	canoa	canoa canoas
+77	8977	constelación	constelación constelaciones
+78	8978	idiotez	idiotez idioteces
+79	8979	comodoro	comodoro
+80	8980	finalización	finalización
+81	8981	localmente	localmente
+82	8982	magisterio	magisterio
+83	8983	profesionalismo	profesionalismo
+84	8984	virtualmente	virtualmente
+85	8985	wéstern	western
+86	8986	xenofobia	xenofobia
+87	8987	gremial	gremial gremiales
+88	8988	monstruoso	monstruoso monstruosa monstruosas monstruosos
+89	8989	legua	leguas legua
+90	8990	sintonía	sintonía sintonías
+91	8991	desgarrar	desgarrado desgarra desgarrada desgarró desgarrar desgarrando desgarre desgarran desgarrados desgarradas desgarraron desgarrarse desgarraba desgarrándose desgarres
+92	8992	utensilio	utensilios utensilio
+93	8993	coleccionar	coleccionar colecciona colecciono coleccionando coleccionaba colecciones coleccionan coleccionado coleccionó coleccionados coleccionadas coleccionarlos coleccionas
+94	8994	memo	memo memos mema
+95	8995	vikingo	vikingos vikingo viking vikinga vikingas
+96	8996	divinidad	divinidad divinidades
+97	8997	revestir	revestido revestida reviste revestidos revestir revestidas revisten revistió revestía revistas revistan revistiendo revestirse revestían
+98	8998	reconciliar	reconciliar reconciliarse reconciliado reconcilia reconcilian reconcilió reconciliarnos reconciliaron reconciliados reconciliando reconcilien reconciliarte reconciliarme reconciliamos reconciliada reconcilie
+99	8999	granadino	granadina granadino granadinas granadinos
+100	9000	mesero	mesero mesera meseros meseras

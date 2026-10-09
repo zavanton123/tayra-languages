@@ -1,0 +1,100 @@
+1	1801	igualdad	igualdad igualdades
+2	1802	feo	feo fea feas feos feísimo
+3	1803	circunstancia	circunstancias circunstancia
+4	1804	conceder	concedido concedió concede conceder concedida conceden conceda concedieron concedidos concedidas concederle concedo concederá concediendo concedía concedan concediera concederán concedería concedían concederse concederles concederme concédenos concediéndole concedemos concedieran concédeme concedes concederé concederlo concedernos concediese concedas concedí concederte concediéndoles concederían concededme concediéndose
+5	1805	huevos	huevos
+6	1806	normalmente	normalmente
+7	1807	seguramente	seguramente
+8	1808	revolucionario	revolucionario revolucionarios revolucionaria revolucionarias
+9	1809	primaria	primaria primarias
+10	1810	plato	plato platos platón platito platitos
+11	1811	seco	seco seca secos secas sequito
+12	1812	marido	marido maridos maridito
+13	1813	continuo	continua continuo continuas continuos continuum contino
+14	1814	conclusión	conclusión conclusiones
+15	1815	catalán	catalán catalana catalanes catalanas
+16	1816	man	man men mans manes
+17	1817	horario	horario horarios horaria horarias
+18	1818	vergüenza	vergüenza vergüenzas
+19	1819	propietario	propietario propietarios propietaria propietarias
+20	1820	arrancar	arranca arrancar arrancó arranco arrancan arrancado arrancando arrancaron arrancamos arrancaba arrancada arrancarle arranquen arranqué arrancados arranques arrancará arrancarme arrancas arrancadas arrancarte arrancaste arrancaría arrancaban arrancarse arrancarlo arrancara arrancarla arranquemos arrancarán arrancarles arrancaré arráncame arrancaran arrancándole arrancarlas arrancarnos arrancándose arrancarlos arrancá
+21	1821	emergencia	emergencia emergencias
+22	1822	peruano	peruano peruana peruanos peruanas
+23	1823	sabio	sabia sabio sabias sabios
+24	1824	meta	meta metas
+25	1825	encargar	encarga encargó encargan encargarse encargará encargar encargue encargaron encargaba encargamos encargaría encargada encargara encargando encargados encargarán encarguen encargaban encargándose encargué encargarme encargaremos encargaran encargaré encargarían encargas encargadas encargarle encargarnos encárgate encargarte encargare encargarás encargase encargaste encargate encargues encargándole encargarlo encargándome
+26	1826	participante	participantes participante
+27	1827	orgulloso	orgulloso orgullosa orgullosos orgullosas
+28	1828	salón	salón salones saloncito
+29	1829	aclarar	aclarar aclara aclaró aclarado aclaro aclare aclarando aclaran aclararlo aclaren aclaremos aclaramos aclararon aclararse aclaraba aclarará aclararle aclararme aclaradas aclaré aclarados aclarada aclarara aclararte aclares aclaras aclararnos aclararía aclararemos aclararán aclaraste aclarase aclaraban aclararan aclararles aclárate aclararlas aclarándose aclararé aclararla
+30	1830	asimismo	asimismo asímismo
+31	1831	obvio	obvio obvia obvias obvios
+32	1832	tono	tono tonos ton tonito
+33	1833	suma	suma sumas
+34	1834	bar	bar bares
+35	1835	convencer	convencer convence convenció convencidos convencida convencieron convencerme convencen convencerlo convencerlos convenza convencerla convencerte convenciendo convencernos convencí convencerse convenzo convencerle convences convencía convenzan convencerles convenciste convencerá convenciera convencidas convencemos convencerán convencería convencimos convenceremos convenzas convencerlas convencían convencerás convenciéndome convencieran convéncete convenceros
+36	1836	robo	robo robos
+37	1837	colonia	colonia colonias
+38	1838	jurídico	jurídica jurídico jurídicas jurídicos
+39	1839	ruido	ruido ruidos ruidito
+40	1840	maldito	maldito maldita malditos malditas
+41	1841	desconocido	desconocido desconocida desconocidos desconocidas
+42	1842	desastre	desastre desastres
+43	1843	nombrar	nombrar nombró nombra nombran nombraron nombres nombrados nombrando nombrada nombro nombrarlo nombraba nombren nombras nombrará nombradas nombramos nombrara nombré nombrarlos nombrarla nombraban nombraría nombrarse nombraste nombrarle nombrarme nombrarte nombraran nombrarán nombrase nombrándose nombrarlas nombraré nombraremos nombrándolo nombrándole nombremos nombrame
+44	1844	do	do
+45	1845	gracia	gracia
+46	1846	franco	franco francos franca francas
+47	1847	soñar	soñar soñando soñado sueña soñé soñaba sueñan soñamos soñó sueñas soñada sueñes soñaste soñe soñaron soñaban sueñe soñabas soñábamos sueñen soñados soñarlo soñadas soñaré soñara soñemos soño soñaría soñará soñarás
+48	1848	consulta	consulta consultas
+49	1849	ala	alas ala alitas alita
+50	1850	bloquear	bloquear bloqueado bloquea bloqueada bloquean bloqueando bloqueó bloquearon bloqueados bloqueadas bloquee bloqueen bloquearlo bloqueaba bloqueas bloqueé bloqueaban bloqueará bloqueamos bloquearla bloquearlos bloqueara bloquearlas bloquearse bloquearte bloquearán bloquearía bloquearan bloquees bloqueaste bloquearme bloquearemos bloquealo bloquearnos bloquearle
+51	1851	mecanismo	mecanismo mecanismos
+52	1852	beso	beso besos besito besote
+53	1853	externo	externa externos externo externas
+54	1854	turismo	turismo turismos
+55	1855	sentado	sentado sentada sentados sentadas sentadito
+56	1856	cuello	cuello cuellos
+57	1857	círculo	círculo círculos circulito
+58	1858	fijo	fijo fija fijos fijas
+59	1859	secundaria	secundaria secundarias
+60	1860	guía	guía guías
+61	1861	pilar	pilar pila pilas pilares pile pilo pilos piles pilado
+62	1862	alegría	alegría alegrías
+63	1863	difundir	difundir difundido difunde difundida difundió difundiendo difunden difundan difundidos difundidas difundieron difundirlo difunda difundirse difundirla difundía difundimos difundirá difundían difundiera difundirlas difundo difundamos difundiéndose difundirlos difundirán difundieran difundas difundid difúndelo difundiría
+64	1864	tropa	tropas tropa
+65	1865	amarillo	amarillo amarilla amarillas amarillos
+66	1866	sombra	sombra sombras sombrita
+67	1867	emoción	emoción emociones
+68	1868	cabe	cabe
+69	1869	igualmente	igualmente
+70	1870	nuevamente	nuevamente
+71	1871	muro	muro muros
+72	1872	virgen	virgen vírgenes virgenes
+73	1873	huevo	huevo wn weon weones weona huevón weón hueón huevones webo huevito huevona güevo weonas güevón
+74	1874	definición	definición definiciones
+75	1875	coincidir	coincide coinciden coincidir coincidiendo coincidió coincido coincidimos coincidieron coincida coincidía coincidan coincidido coincidían coincidirá coincidiera coincidiría coincidamos coincidieran coincides coincidí coincidirán coincidíamos coincidirían coincidís coincidiremos
+76	1876	arena	arena arenas
+77	1877	destinado	destinado destinados destinada destinadas
+78	1878	explotar	explotar explota explotó explotan explotado explote explotados explotando explotada explotadas explotaron exploto explotaba exploten explotaban explotara explotará explotarlo explotamos explotaría explotarlos explotarla explotarse explotarlas explotas exploté explotaran explotarán explotase explotes explotarle explotarte explotarían
+79	1879	puto	puto putos putas putazos putazo pto
+80	1880	asesinado	asesinado asesinados asesinada asesinadas
+81	1881	impulsar	impulsar impulsado impulsa impulsada impulsó impulsando impulsan impulsados impulsadas impulsaron impulse impulsará impulsaba impulsen impulsarán impulsaría impulsamos impulsaban impulsarse impulsara impulsarlo impulsarla impulsaremos impulsarían impulsarlos impulsarme impulsemos
+82	1882	lento	lento lenta lentos lentas lentísimo
+83	1883	soportar	soportar soporta soporto soportan soportado soportando soportes soportarlo soportó soportaba soportas soportados soportaría soportamos soportaron soportada soportaban soportales soporten soportadas soportará soportarla soporté soportara soportarlos soportarán soportarlas soportarme soportarte soportarían soportarse soportaré soportarnos
+84	1884	obligación	obligación obligaciones
+85	1885	lago	lago lagos laguito
+86	1886	copia	copia copias
+87	1887	protesta	protesta protestas
+88	1888	griego	griego griegos griega griegas
+89	1889	torno	torno tornos
+90	1890	violento	violento violenta violentos violentas
+91	1891	castillo	castillo castillos
+92	1892	mezcla	mezcla mezclas mezclilla
+93	1893	porqué	porqué porqués
+94	1894	avisar	avisar avisa avisado avisó avise avisan avísame avisaron avisame avisando avisarle avisen avisas avisarme avisé avisados avisamos avisarte avisarles avisaba avísenme avisará avisarnos avisaremos avisara avisada avisaré avisaste avises avisale avisad avísanos avisaban avísale avisaría avisadme avisaran avísenle avisarán avisare
+95	1895	soltar	soltar suelto sueltos soltó sueltas soltando sueltan soltado sueltes suelte soltaron suelten solté soltarlo soltaba soltarse soltarla soltamos soltarme soltarte soltara soltarle soltaste solto suéltame soltará soltarlos soltaban soltaran suéltalo soltarán soltaría solte soltaré suéltenme soltemos soltarnos suélteme soltarlas soltame
+96	1896	martín	martín martines
+97	1897	talento	talento talentos
+98	1898	cero	cero ceros
+99	1899	solucionar	solucionar soluciones soluciona solucionado solucionarlo solucione solucionan solucionó solucionando solucionen solucionará solucionarse solucionamos solucionarlos soluciono solucionaría solucionados solucionaron solucionas solucionada solucionara solucionaba solucionarán solucioné solucionarían solucionarlas solucionaremos solucionaran solucionaste solucionadas solucionemos solucionarla solucionaban solucionarle solucionaré solucionarte
+100	1900	diálogo	diálogo diálogos

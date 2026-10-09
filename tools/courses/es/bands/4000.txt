@@ -1,0 +1,100 @@
+1	3901	inicialmente	inicialmente
+2	3902	integridad	integridad
+3	3903	lamentablemente	lamentablemente
+4	3904	libremente	libremente
+5	3905	ligeramente	ligeramente
+6	3906	goma	goma gomas
+7	3907	arrepentirse	arrepiento arrepentirse arrepentirás arrepienta arrepintió arrepientes arrepentirme arrepentirte arrepienten arrepientas arrepentirá arrepentidos arrepentida arrepentirán arrepentiré arrepentía arrepentimos arrepintieron arrepentiría arrepentirnos arrepiéntete arrepintiéndose arrepentís arrepentiréis arrepintiera arrepentiste arrepentíos arrepiéntanse arrepentidas
+8	3908	hidalgo	hidalgo hg hidalgos hidalga hijodalgo
+9	3909	arresto	arresto arrestos
+10	3910	aplauso	aplausos aplauso
+11	3911	tweet	tweets tweet
+12	3912	boletín	boletín boletines
+13	3913	alentar	alentar alienta alentando alentó alentado alientan alentados alentaba alentada alentaron aliente alentamos alentaban alienten alentadas alentarlo alentará alentarlos alentaría alentarla alenta alento alentarte alentarán alentándolos alientas
+14	3914	descenso	descenso descensos
+15	3915	décimo	décimo décima décimas décimos
+16	3916	bendición	bendición bendiciones
+17	3917	ente	ente entes
+18	3918	túnel	túnel túneles
+19	3919	acoso	acoso acosos
+20	3920	colón	colón colones
+21	3921	manipulación	manipulación manipulaciones
+22	3922	retomar	retomar retoma retomó retomando retomado retoman retomaron retome retomamos retomo retomada retomará retomarlo retomen retomemos retomé retomadas retomara retomaba retomaremos retomarla retomaría retomados retomarse retomaré retomarán
+23	3923	metálico	metálico metálicos metálica metálicas
+24	3924	reconstrucción	reconstrucción reconstrucciones
+25	3925	triunfar	triunfar triunfa triunfó triunfado triunfan triunfe triunfando triunfará triunfaron triunfen triunfara triunfaba triunfales triunfarán triunfarás triunfaremos triunfamos triunfaría triunfas triunfaban triunfes triunfarían
+26	3926	capilla	capilla capillas capillita capillitas
+27	3927	estómago	estómago estómagos
+28	3928	cálido	cálido cálida cálidos cálidas
+29	3929	vacuna	vacuna vacunas
+30	3930	encabezar	encabeza encabezó encabezar encabezan encabezada encabezando encabezaba encabezados encabezaron encabezará encabece encabezadas encabezaban encabezara encabezo encabezaría encabezarán encabecen encabezamos
+31	3931	implementación	implementación implementaciones
+32	3932	secuencia	secuencia secuencias
+33	3933	pino	pino pinos pinillos pinitos pinito pinillo
+34	3934	descendiente	descendientes descendiente
+35	3935	azar	azar azares
+36	3936	estupendo	estupendo estupenda estupendos estupendas
+37	3937	alza	alza alzas
+38	3938	ignorante	ignorante ignorantes
+39	3939	supervivencia	supervivencia sobrevivencia supervivencias
+40	3940	maniobra	maniobra maniobras
+41	3941	postal	postal postales
+42	3942	mafia	mafia mafias
+43	3943	sindical	sindical sindicales
+44	3944	vocal	vocales vocal
+45	3945	narrativa	narrativa narrativas
+46	3946	jurar	jurar juró juran jure juraron juré jurando juraba juraría juramos juras jurados jurada juraste juraban juren jures jurara júrame juradas jurarle juremos juraran jurará jurarlo juráis jurarán
+47	3947	cosecha	cosecha cosechas
+48	3948	perfección	perfección perfecciones
+49	3949	bolso	bolso bolsos bolsón bolsito
+50	3950	atlético	atlético atlética atléticos atléticas
+51	3951	húmedo	húmedo húmeda húmedos húmedas
+52	3952	multiplicar	multiplicar multiplica multiplicado multiplican multiplicando multiplicó multiplicaron multiplicarse multiplicada multiplique multipliquen multiplicados multiplicamos multiplicará multiplicándose multiplico multiplicarán multiplicas multiplicaban multiplicarlo multiplicadas multiplicaba multiplicaos multiplícalo multiplicaría multiplicara
+53	3953	adjunto	adjunto adjunta adjuntos adjuntas
+54	3954	micro	micro micros
+55	3955	continuidad	continuidad continuidades
+56	3956	finca	finca fincas
+57	3957	despido	despido despidos
+58	3958	can	can canes
+59	3959	eficiencia	eficiencia eficiencias
+60	3960	lisa	lisa lisas
+61	3961	cerebral	cerebral cerebrales
+62	3962	diana	diana dianas
+63	3963	iluminar	ilumina iluminar iluminan ilumine iluminada iluminados iluminando iluminó iluminadas iluminaba iluminará iluminaron iluminaban iluminen iluminarse iluminas iluminarnos ilumino iluminara iluminame iluminarme ilumíname iluminarán iluminarlo iluminamos iluminaría iluminarte iluminemos ilumines ilumínanos
+64	3964	ampliación	ampliación ampliaciones
+65	3965	agudo	aguda agudo agudos agudas
+66	3966	monasterio	monasterio monasterios monesterio
+67	3967	animado	animado animados animada animadas
+68	3968	innovador	innovador innovadores innovadoras innovadora
+69	3969	certeza	certeza certezas
+70	3970	inspector	inspector inspectores inspectora inspectoras
+71	3971	alojar	alojar alojado aloja alojados alojan alojó alojada alojaba alojarse alojadas alojaban alojaron alojando alojamos alojarme alojo alojará aloje alojen alojas alojarte alojándose alojarlos alojara alojarnos alojé alojarán alojaría alojaremos alojarlo
+72	3972	liar	lio lie liado lian liar lia lía lies liada liando liarla lías liados liarse lias liarte lían liamos liarme liaron líes líe liara liaba liarnos liadas liaste liaría liándose líen liemos
+73	3973	arturo	arturo
+74	3974	marrueco	marruecos
+75	3975	salamanca	salamanca
+76	3976	nombramiento	nombramiento nombramientos
+77	3977	parroquia	parroquia parroquias
+78	3978	arrestar	arrestar arrestaron arrestan arrestó arrestados arrestarlo arresten arresta arrestando arrestada arrestarlos arreste arrestarán arrestaran arrestarme arrestara arrestará arrestadas arrestarían arrestarla arrestarnos arrestaría arrestaban arrestamos arrestaba arrestas
+79	3979	disminución	disminución disminuciones
+80	3980	secar	secar secado seca seque secarse secan secas secando secó sequen secaron secada secaba secándose secarme secarte secará secarlo secara secados secaban sequé secarla secadas secarlas secarlos seques secamos secarán secarnos secaran sécate
+81	3981	cinturón	cinturón cinturones
+82	3982	notificación	notificación notificaciones
+83	3983	disolver	disolver disuelto disolvió disuelve disuelta disolverse disueltos disuelva disuelven disueltas disolviendo disolvieron disolverá disolvía disuelvan disolverlo disolvería disolviera disolviéndose disolverla disolvemos disuelvo
+84	3984	reprimir	reprimir reprimido reprime reprimida reprimidos reprimiendo reprimen reprimió reprimidas reprimieron reprima reprimirlos repriman reprimía reprimas reprimirlo reprimirse reprimo reprimirlas reprimiera reprimimos reprimían reprimes reprimirla reprimirme
+85	3985	tóxico	tóxico tóxicos tóxica tóxicas
+86	3986	comisario	comisario comisaria comisarios comisarias
+87	3987	temática	temática temáticas
+88	3988	oportuno	oportuno oportuna oportunas oportunos
+89	3989	condado	condado condados
+90	3990	portero	portero porteros portera porteras
+91	3991	agricultor	agricultores agricultor agricultoras agricultora
+92	3992	restaurar	restaurar restaurado restaurada restaura restauró restaurando restaurados restauradas restauran restaure restaurarlo restauraron restaurarla restaurará restauro restaurarse restauramos restaurara restauraría restauren restaurarlos restauraba
+93	3993	materno	materna materno maternos maternas
+94	3994	ratificar	ratificó ratificado ratifica ratificar ratificada ratificaron ratifican ratificados ratificando ratifico ratifique ratificadas ratificamos ratificará ratificara ratificarlo ratificaba ratifiquen ratificarse ratificaría ratificaban
+95	3995	migrante	migrantes migrante
+96	3996	recinto	recinto recintos
+97	3997	absorber	absorber absorbe absorbido absorben absorbida absorbiendo absorbidos absorbió absorba absorbidas absorberá absorbía absorbieron absorban absorberlo absorbería absorbiera absorberse absorbían absorberla absorberán absorbo absorberlos absorbes
+98	3998	atrapado	atrapado atrapados atrapada atrapadas
+99	3999	competitivo	competitivo competitiva competitivos competitivas
+100	4000	masacre	masacre masacres

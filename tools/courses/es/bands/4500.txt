@@ -1,0 +1,100 @@
+1	4401	repercusión	repercusión repercusiones
+2	4402	idéntico	idéntico idéntica idénticos idénticas
+3	4403	alfombra	alfombra alfombras alfombrilla alfombrillas
+4	4404	ironía	ironía ironías
+5	4405	afortunadamente	afortunadamente
+6	4406	cristóbal	cristóbal
+7	4407	jo	jo
+8	4408	ochenta	ochenta
+9	4409	parcialmente	parcialmente
+10	4410	relevancia	relevancia
+11	4411	wifi	wifi
+12	4412	insertar	insertar inserta inserte insertado insertan inserto insertarse insertos insertados insertando insertada insertó insertadas insertas insertamos insertaron inserten insertará insertarlo insertaba insertarlos insertaban insertarla insertándose
+13	4413	águila	águila águilas aguililla aguilita
+14	4414	fallecimiento	fallecimiento fallecimientos
+15	4415	green	green greens
+16	4416	aislamiento	aislamiento aislamientos
+17	4417	brigada	brigada brigadas
+18	4418	desplazamiento	desplazamiento desplazamientos
+19	4419	profeta	profeta profetas profetisa
+20	4420	desafiar	desafiar desafía desafiando desafió desafio desafían desafiado desafiaron desafiaba desafíe desafiaban desafiada desafiados desafiamos desafiarlo desafíen desafiara desafiarte desafia desafiará desafíes desafiaría desafiarla desafiarlos desafiadas desafiarse
+21	4421	suicida	suicida suicidas
+22	4422	tuitear	tuitear tuiteando tuitea tuiteo tuitean tuiteó tuiteado tuiteen tuiteamos tuitee tuiteaba tuiteas tuiteé tuitearon tuiteara tuitearé
+23	4423	mártir	mártir mártires
+24	4424	pasto	pasto pastos pastito
+25	4425	sueco	sueco sueca suecos suecas
+26	4426	indispensable	indispensable indispensables
+27	4427	cordero	cordero corderos cordera corderito
+28	4428	predecir	predecir predijo predice predicho predicen predijeron prediciendo predije predigo predecía predicha predecían predecirse predecirlo predichos predichas predecimos predijiste predecido
+29	4429	agrario	agraria agrario agrarias agrarios
+30	4430	escultura	escultura esculturas
+31	4431	rehabilitación	rehabilitación rehabilitaciones
+32	4432	confiable	confiable confiables
+33	4433	medieval	medieval medievales
+34	4434	vengar	vengarse vengar venga vengo vengan vengó vengado vengarte vengarme vengas vengará vengue vengando vengada vengaron vengándose vengaré vengara vengase vengaría vengaremos vengarnos vengare vengados vengarlo vengaba vengarán vengamos vengáis
+35	4435	impactar	impactó impacta impactado impactar impactada impactan impactaron impactando impactados impactará impacte impactarán impacten impactaría impactadas impactara impactaba
+36	4436	aplicable	aplicable aplicables
+37	4437	ego	ego egos
+38	4438	crucero	crucero cruceros
+39	4439	latir	late latir latidos latinos latiendo latas latía laten lato latió lates
+40	4440	infante	infante infantes
+41	4441	abarca	abarca abarcas
+42	4442	valoración	valoración valoraciones
+43	4443	ano	ano anos
+44	4444	tic	tic tics tick
+45	4445	estimación	estimación estimaciones
+46	4446	naval	naval navales
+47	4447	volcán	volcán volcanes
+48	4448	postear	postea postear posteado posteo posteó posteando posteos postean postearon posteas posteada postee posteados posteamos posteen posteaba posteaban posteadas postearé posteara postees
+49	4449	problemática	problemática problemáticas
+50	4450	anexo	anexo anexos anexa anexas
+51	4451	complejidad	complejidad complejidades
+52	4452	recorte	recortes recorte
+53	4453	eventualmente	eventualmente
+54	4454	fundamentalmente	fundamentalmente
+55	4455	golf	golf
+56	4456	políticamente	políticamente
+57	4457	sesenta	sesenta
+58	4458	trece	trece
+59	4459	desarrollador	desarrolladores desarrollador desarrolladora desarrolladoras
+60	4460	espía	espía espías
+61	4461	caber	caben caber quepa cabía cabría quepan cabemos cabré cabían cabrá quepo cabes cabido cabrían cabió cupiera quepamos cabrán cabiendo cupe cupieron
+62	4462	sordo	sordo sordos sorda sordas
+63	4463	cercanía	cercanía cercanías
+64	4464	sucesor	sucesor sucesores sucesora sucesoras
+65	4465	atado	atado atada atados atadas
+66	4466	migratorio	migratoria migratorio migratorias migratorios
+67	4467	mojar	mojar moja mojo mojarse mojada moje mojando mojan mojó mojados mojas mojarme mojos mojadas mojaba mojen mojarte mojaron mojes mojé mojamos mojarnos mojarlo mojaste mojándose mojara mójate mojaban mojarla
+68	4468	prenda	prenda prendas
+69	4469	line	line lines
+70	4470	consola	consola consolas
+71	4471	bicho	bicho bichos bichito bichitos
+72	4472	conmemorar	conmemora conmemorar conmemoran conmemorando conmemoró conmemorado conmemoramos conmemorarse conmemoraba conmemorará conmemoraron conmemorada conmemoraban conmemorarlo conmemorarán conmemorados
+73	4473	augusto	augusto augusta augustos
+74	4474	subrayar	subraya subrayar subrayó subrayado subrayando subrayan subrayaron subrayo subrayaba subrayados subrayada subrayamos subrayadas subrayarlo subrayaban subraye
+75	4475	reportero	reportero reporteros reportera reporteras
+76	4476	elefante	elefante elefantes elefanta elefantito
+77	4477	derramar	derramar derrama derramada derramado derramó derramando derraman derrames derramaron derramo derramas derramarse derramadas derramé derramaba derramaré derramándose derramará derramara derramados derramamos derramen derramaban derramarán derramaría derramaste
+78	4478	tiburón	tiburón tiburones
+79	4479	pudrir	podra podras pudre pudra pudriendo pudren pudrirse pudran pudrir pudrió pudriéndose podrida pudras pudrieron podrir podridos podridas púdrete pudría pudrirte podrí pudriera pudrirán pudro pudrí
+80	4480	zombi	zombies zombie zombis zombi
+81	4481	levantamiento	levantamiento levantamientos
+82	4482	librería	librería librerías
+83	4483	complacer	complace complacer complacido complacida complacerte complacidos complacen complacerme complació complacerla complacerlos complaciendo complacerlo complacía complazca complacerle complazco complacerse complacerá complacería complacernos complacemos complaces
+84	4484	mosca	mosca moscas mosquita
+85	4485	tripulación	tripulación tripulaciones
+86	4486	ultra	ultra ultras
+87	4487	trigo	trigo trigos tacc
+88	4488	privilegiado	privilegiada privilegiado privilegiados privilegiadas
+89	4489	guinea	guinea guineas
+90	4490	imaginario	imaginario imaginarios imaginaria imaginarias
+91	4491	densidad	densidad densidades
+92	4492	preliminar	preliminar preliminares
+93	4493	deriva	deriva derivas
+94	4494	asaltar	asaltar asaltaron asaltado asaltan asaltó asalta asaltando asaltada asaltados asaltaban asalten asaltadas asaltaba asaltarlo asalte asaltaran asaltara asaltarme asaltarla asaltarte
+95	4495	presenciar	presenciar presenciado presenció presenciales presenciaron presenciando presencié presenciamos presencian presencie presenciaba presenciarlo presenciada presenciaban presencio presenciarán presenciará presencien presenciara presenciaremos presencias
+96	4496	centenario	centenario centenaria centenarios centenarias
+97	4497	reventar	reventar revienta reventado reventó reviente reventando revientan reviento reventaron reventada revienten reventados reventaba reventarle reventamos reventarse reventadas reventara reventarte reventarlo reventé reventaban revientes revientas revento reventarla reventarme reventaste reventarlos reventará
+98	4498	mariposa	mariposa mariposas
+99	4499	ambición	ambición ambiciones
+100	4500	loma	loma lomas lomita lomba

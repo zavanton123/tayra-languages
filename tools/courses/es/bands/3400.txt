@@ -1,0 +1,100 @@
+1	3301	bendecir	bendiga bendecido bendice bendecida bendecir bendecidos bendita bendijo bendigo bendiciendo bendecidas bendicen bendigan bendecirá benditos benditas bendecimos bendícenos bendeciré bendigas bendijeron bendecid bendecía bendíceme bendices bendecirlos bendecirme bendecirán bendecirnos bendecirte bendecirlo bendigamos bendijera
+2	3302	teórico	teórico teóricos teórica teóricas
+3	3303	incapaz	incapaz incapaces
+4	3304	pescado	pescado pescados pescadito pescada
+5	3305	automóvil	automóvil automóviles
+6	3306	viajero	viajeros viajero viajera viajeras
+7	3307	anular	anular anula anulado anuló anulada anulados anulan anule anulando anuladas anularon anulen anulaba anularlo anulara anulará anularse anulo anularía anularla anulares anulamos anularán anularan anulase anulas anules anulaban
+8	3308	persecución	persecución persecuciones
+9	3309	maya	maya mayas
+10	3310	figurar	figuran figurar figuraba figuras figure figuraban figurado figuró figuren figurando figuraron figuro figures figurará figúrate figurarán figurada figurados figurara figúrese figuradas figuré figuraría figuramos figurase
+11	3311	desesperado	desesperado desesperada desesperados desesperadas desperado
+12	3312	poblado	poblado poblados poblada pobladas
+13	3313	patente	patente patentes
+14	3314	discriminación	discriminación discriminaciones
+15	3315	descender	descender desciende descendió descendido descendiendo descienden descendieron descendía descienda descendían descendemos descenderá desciendan descendiera descendidos desciendo descenderán descendimos descendería desciendes descenderemos descendida descendí descendieran descendamos
+16	3316	asignar	asigna asignar asignó asignan asignaron asignados asignada asigne asignadas asignando asignarle asignen asignará asignaba asignarán asigno asignándole asignamos asignaban asignarse asignarles asignara asignaran asignas asignaría asignándoles asignaremos asignarlo asignándose asignarían asignarlos
+17	3317	arquitecto	arquitecto arquitectos arquitecta arquitectas
+18	3318	misa	misa misas
+19	3319	seminario	seminario seminarios
+20	3320	ajuste	ajuste ajustes
+21	3321	ademar	ademas ademar adema ademá
+22	3322	disputa	disputa disputas
+23	3323	diccionario	diccionario diccionarios
+24	3324	semanal	semanal semanales
+25	3325	interacción	interacción interacciones
+26	3326	magnitud	magnitud magnitudes
+27	3327	costado	costado costados costadito
+28	3328	severo	severo severa severas severos
+29	3329	preferencia	preferencia preferencias
+30	3330	habitar	habitan habitado habitar habitada habitaban habitadas habito habitaba habitados habitamos habitaron habitó habitando habite habiten habita habitas habitarán habitarla habitad habitarlo habitará habitaran
+31	3331	herencia	herencia herencias
+32	3332	redactar	redactado redactar redactó redactada redacta redactados redactando redactaron redactadas redactan redacte redacto redacté redactará redactaba redactarse redactarlo redacten redactara redactamos redactas redactarla redactaban
+33	3333	alzar	alzar alzó alzado alzarse alzada alzan alzaron alzando alce alzados alzaba alzate alzo alzándose alcen alces alzará alzadas alcé alzaban alzamos alzas alzara alcemos alzarán alzaran alzad alzaría alzarnos alzaré alzarían alzarlo álzate alzarla
+34	3334	doblar	doblar doblado dobla doblada dobladas doblando doblan dobló doblados doblas dobles doblarse doblaba doblaron doblen doblamos doblaban doblé doblará doblarla doblarlo doblaría doblándose doblara doblarlas doblarlos doblarán doblo
+35	3335	oral	oral orales
+36	3336	calderón	calderón calderones
+37	3337	globo	globo globos globito
+38	3338	especificar	especifica especificar especificado especifico especifican especificó especifique especificados especificas especificada especificando especificadas especificaba especificaron especifiquen especificarse especificará especificaban especificarán especifiqué especificamos especificarlo
+39	3339	ignorancia	ignorancia ignorancias
+40	3340	terrorismo	terrorismo terrorismos
+41	3341	cenar	cenar cenando cenas cenamos cenado ceno cené cene cenaba cenan cenaron cenó cenaban cenes cenaremos cenaré cenaste cenábamos cenemos
+42	3342	trayectoria	trayectoria trayectorias
+43	3343	crudo	crudo cruda crudos crudas
+44	3344	limitación	limitaciones limitación
+45	3345	extremadamente	extremadamente
+46	3346	independientemente	independientemente
+47	3347	we	we
+48	3348	boludo	boludo boluda boludos boludas
+49	3349	desigualdad	desigualdad desigualdades
+50	3350	agujero	agujero agujeros agujerito
+51	3351	encantado	encantado encantada encantados encantadas
+52	3352	estallar	estallar estalló estalla estallado estallaron estalle estallan estallara estallando estallo estallará estallaba estallaría estallen estallada estallé estallaban estallase estallaran
+53	3353	embarazo	embarazo embarazos
+54	3354	vegetal	vegetales vegetal
+55	3355	horror	horror horrores
+56	3356	estricto	estricto estricta estrictas estrictos
+57	3357	atleta	atletas atleta
+58	3358	presidir	preside presidido presidida presidir presidió presidía presiden presidiendo presidirá presididos presida presididas presidieron presido presidían presidiera presidiría presidirlo presidirla presidirán
+59	3359	ficha	ficha fichas
+60	3360	lazo	lazos lazo
+61	3361	gestionar	gestionar gestiona gestionado gestionada gestionan gestionando gestionados gestionadas gestionó gestiones gestione gestionen gestionaba gestionamos gestionarlo gestionaron gestionará gestiono gestionarse gestionara gestionarla gestionaban gestionarlos
+62	3362	detención	detención detenciones
+63	3363	sacrificar	sacrificar sacrificado sacrifica sacrificados sacrifican sacrificando sacrificarse sacrificó sacrificada sacrificaron sacrifico sacrificadas sacrifique sacrificarlo sacrificamos sacrifiquen sacrificaban sacrificaba sacrificarme sacrificarnos sacrificarlos sacrificará sacrificas sacrificándose sacrificarte sacrificaría sacrificara sacrificarla sacrifiqué sacrifiques sacrificarán sacrificaran
+64	3364	rutina	rutina rutinas
+65	3365	lógico	lógico lógicos lógicas
+66	3366	grueso	grueso gruesa gruesas gruesos
+67	3367	intensidad	intensidad intensidades
+68	3368	florido	florida florido floridas floridos
+69	3369	flaco	flaco flaca flacos flacas flaquito flaquita
+70	3370	callado	callado callao callada callados calladito calladas callaos
+71	3371	rabia	rabia rabias
+72	3372	paraíso	paraíso paraísos
+73	3373	bordo	bordo bordos
+74	3374	deshacer	deshacerse deshacer deshace deshecho deshizo deshacen deshechos deshacerte deshaciendo deshacerme deshacernos deshaga deshecha deshicieron deshagan deshazte deshaciéndose deshacía deshago deshará deshiciera deshacerlo deshice deshacemos deshaces deshechas deshagamos deshacían deshágase deshacerla desharía deshagas
+75	3375	paloma	paloma palomas palomitas palomo palomita palomos
+76	3376	psicología	psicología sicología psicologías
+77	3377	ruina	ruinas ruina
+78	3378	hueco	hueco huecos hueca huecas huequito huequitos
+79	3379	indicado	indicado indicada indicados indicadas
+80	3380	fotógrafo	fotógrafo fotógrafos fotógrafa fotógrafas
+81	3381	refugiado	refugiados refugiado refugiadas refugiada
+82	3382	expediente	expediente expedientes
+83	3383	altamente	altamente
+84	3384	cobre	cobre
+85	3385	dosis	dosis
+86	3386	lentamente	lentamente
+87	3387	privacidad	privacidad
+88	3388	atmósfera	atmósfera atmósferas atmosfera
+89	3389	formular	formula formular formulado formulada formuló formuladas formulas formulados formulan formularon formulando formule formulen formularse formulaba formulamos formulará formulara formularán formulé formulo formularan formularlo formularle
+90	3390	foco	foco focos foca focas foquito
+91	3391	capacitación	capacitación capacitaciones
+92	3392	excelencia	excelencia excelencias
+93	3393	pintor	pintor pintores pintora pintoras
+94	3394	confusión	confusión confusiones
+95	3395	varga	vargas varga
+96	3396	eliminación	eliminación eliminaciones
+97	3397	fabricación	fabricación fabricaciones
+98	3398	antigüedad	antigüedad antigüedades
+99	3399	espectacular	espectacular espectaculares
+100	3400	encanto	encanto encantos

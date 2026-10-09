@@ -1,0 +1,100 @@
+1	4801	almacenamiento	almacenamiento almacenamientos
+2	4802	batir	batir batió batiendo bato bates batida batidos baten batirse batieron batas batos batiste batidas batía batan batimos batirlo batí batirá batiéndose batían batirla batiremos batirnos batirán batirme
+3	4803	convivir	convivir conviven convive conviviendo convivido convivió convivimos convivían convivieron convivan convivía convivo conviva convives conviví convivirán
+4	4804	inversor	inversores inversor inversora inversoras
+5	4805	alivio	alivio alivios
+6	4806	restringir	restringir restringe restringida restringen restringiendo restringidas restringió restringidos restringirse restrinja restringía restringieron restrinjan restringirá restringían restringirán restringirlo restringiría restringiera restringirla restringimos
+7	4807	asentamiento	asentamientos asentamiento
+8	4808	prestigioso	prestigioso prestigiosa prestigiosos prestigiosas
+9	4809	violador	violador violadores violadora violadoras
+10	4810	redondo	redondo redondos redondas redondito
+11	4811	siniestro	siniestro siniestra siniestros siniestras
+12	4812	chupa	chupa chupas
+13	4813	envolver	envuelve envolver envuelven envolvió envuelta envueltos envolviendo envolvía envolvieron envuelva envueltas envolví envolvían envuelvo envolverlo envuelves envolverse envuelvan envolverá envolverme envolvemos envolverla envolverte envolverlos envuelvas envolviéndolo
+14	4814	zapatilla	zapatillas zapatilla
+15	4815	prolongar	prolongar prolongada prolonga prolongó prolongados prolongan prolongarse prolongando prolongadas prolongará prolongaron prolongue prolongaría prolongaba prolongándose prolongarlo prolonguen prolongara prolongarán prolongaban prolongarla
+16	4816	congelar	congelar congela congelados congelada congeló congeladas congelan congelaron congelando congele congelo congelarse congelen congelaba congelamos congelarlo congelas congelara congelaría congelará congelé congelándose congelarme congelaban congelarla
+17	4817	estafa	estafa estafas
+18	4818	indicio	indicios indicio
+19	4819	veterinario	veterinario veterinaria veterinarios veterinarias
+20	4820	tope	tope topes
+21	4821	concretamente	concretamente
+22	4822	desesperación	desesperación
+23	4823	jazz	jazz
+24	4824	latín	latín
+25	4825	madurez	madurez
+26	4826	noroeste	noroeste
+27	4827	regularmente	regularmente
+28	4828	respectar	respecta
+29	4829	setenta	setenta
+30	4830	silvestre	silvestre silvestres
+31	4831	malvado	malvado malvados malvada malvadas
+32	4832	sport	sport sports
+33	4833	masaje	masaje masajes masajito
+34	4834	potable	potable potables
+35	4835	denso	denso densa densos densas
+36	4836	porteño	porteño porteños porteña porteñas
+37	4837	narco	narco narcos narca
+38	4838	restablecer	restablecer restablecido restableció restablece restablecida restablezca reestablecer restableciendo restablecen restablecieron restablecerse restablecerá restablecidos restablezcan restablecidas restableciera restablecería restablecía restablecerla restablecerlo
+39	4839	fluido	fluido fluidos fluida fluidas
+40	4840	suegra	suegra suegro suegros suegras
+41	4841	nominado	nominado nominados nominada nominadas
+42	4842	maldad	maldad maldades
+43	4843	beneficiario	beneficiarios beneficiario beneficiaria beneficiarias
+44	4844	fracción	fracción fracciones
+45	4845	bolivariano	bolivariana bolivariano bolivarianos bolivarianas
+46	4846	catedrático	catedrático catedráticos catedrática
+47	4847	matrícula	matrícula matrículas
+48	4848	verbal	verbal verbales
+49	4849	catalina	catalina catalinas
+50	4850	sutil	sutil sutiles sotil
+51	4851	jersey	jersey jerseys jerséis
+52	4852	cupo	cupo cupos
+53	4853	clavo	clavo clavos clavito
+54	4854	genérico	genérico genérica genéricos genéricas
+55	4855	extracto	extracto extractos
+56	4856	audiovisual	audiovisual audiovisuales
+57	4857	juramento	juramento juramentos
+58	4858	maratón	maratón maratones
+59	4859	magdalena	magdalena magdalenas madalena
+60	4860	compositor	compositor compositores compositora compositoras
+61	4861	cuna	cuna cunas cunita
+62	4862	abarcar	abarcan abarcar abarcando abarcaba abarcó abarque abarcaban abarcaron abarcaría abarcado abarcará abarquen abarcara abarcarlo abarcarán abarcados abarcas
+63	4863	asunción	asunción asunciones
+64	4864	fotografiar	fotografiar fotografia fotografías fotografiado fotografias fotografiada fotografió fotografiando fotografiados fotografiadas fotografiaron fotografiarse fotografiarlo fotografío fotografían fotografiaba fotografié fotografiarla fotografiarlos fotografíen fotografíe fotografiarlas fotografiamos
+65	4865	calvo	calvo calva calvos calvas calvito
+66	4866	guerrillero	guerrilleros guerrillero guerrillera guerrilleras
+67	4867	agredir	agredir agredido agredió agredidos agredida agredieron agreden agrede agrediendo agreda agredidas agredan agredirlo agredirla agredía agredían agredirme
+68	4868	deducir	deducir deduce deduzco deducido deducirse dedujo deducen deduje deduciendo deducirlo deducimos dedujeron deducida deducidos deduzca deducidas deducirá deducirán deduzcan deduces deducía
+69	4869	discreto	discreto discreta discretos discretas
+70	4870	vestuario	vestuario vestuarios
+71	4871	munición	municiones munición
+72	4872	procurar	procurar procurando procuro procure procuran procuró procurado procuren procuramos procuraba procuraré procurará procurarse procuraron procuraban procurad procuremos procuraremos procuré procurarán procurarle procurara procuraría procurare procuras
+73	4873	procesado	procesado procesados procesada procesadas
+74	4874	ídolo	ídolo ídolos ídola
+75	4875	especulación	especulación especulaciones
+76	4876	sobreviviente	sobrevivientes sobreviviente
+77	4877	recaer	recae recaer recayó recaída recaen recaídas recaído recaiga recaía recaerá recayendo recayeron recaería recaida recaigan recayera recaían recaidas recaerán recaí
+78	4878	joya	joya joyita
+79	4879	concurrir	concurrir concurrido concurrida concurrió concurren concurrieron concurre concurridas concurridos concurran concurra concurrían concurriendo concurrirá concurría concurrirán concurro concurrimos
+80	4880	indemnización	indemnización indemnizaciones
+81	4881	alargar	alargar alargado alarga alargada alargadas alargando alargó alargue alargan alargados alargarse alargaron alargo alargarlo alarguen alargará alargaba alargándose alargaría alargarme alargues alargamos alargara alargaban alargarla alargué
+82	4882	comisaría	comisaría comisarías
+83	4883	conformidad	conformidad conformidades
+84	4884	forro	forro forros
+85	4885	cardíaco	cardíaco cardíaca cardiaco cardíacos cardíacas
+86	4886	pañuelo	pañuelo pañuelos pañuelito
+87	4887	emisora	emisora emisoras
+88	4888	maltrato	maltrato maltratos
+89	4889	marcial	marcial marciales
+90	4890	desayunar	desayunar desayunando desayuna desayunado desayunamos desayuné desayunan desayune desayunaba desayunas desayunó desayunaste desayunaron desayunaban desayunen
+91	4891	dialogar	dialogar dialogo dialogando dialoga dialogue dialogan dialogó dialogamos dialogada dialogado dialogues dialoguen dialogaron dialogará
+92	4892	chao	chau chao ciao
+93	4893	aria	arias aria
+94	4894	censurar	censurar censurado censurada censuran censurados censurando censuró censuradas censuraron censuren censure censuraba censurarlo censuras censuro censuraban censuramos censurarse censurarla
+95	4895	activamente	activamente
+96	4896	artillería	artillería
+97	4897	claudia	claudia
+98	4898	cristianismo	cristianismo
+99	4899	físicamente	físicamente
+100	4900	higiene	higiene

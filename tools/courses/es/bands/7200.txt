@@ -1,0 +1,100 @@
+1	7101	judas	judas
+2	7102	modernidad	modernidad
+3	7103	neutralidad	neutralidad
+4	7104	suroeste	suroeste
+5	7105	inmoral	inmoral inmorales
+6	7106	tornillo	tornillo tornillos
+7	7107	regularidad	regularidad regularidades
+8	7108	confluencia	confluencia confluencias
+9	7109	boxeador	boxeador boxeadores boxeadora boxeadoras
+10	7110	quechua	quechua quechuas quichua kichwa
+11	7111	consciencia	consciencia consciencias
+12	7112	libertario	libertario libertarios libertaria libertarias
+13	7113	sonda	sonda sondas
+14	7114	meridional	meridional meridionales
+15	7115	alergia	alergia alergias
+16	7116	causante	causante causantes
+17	7117	acompañamiento	acompañamiento acompañamientos
+18	7118	normalizar	normalizar normalizado normalizada normaliza normalizando normalice normalizadas normalizados normalizó normalizarse normalizan normalicen normalizaron normalizará
+19	7119	comediante	comediante comediantes comedianta
+20	7120	irrumpir	irrumpió irrumpe irrumpir irrumpieron irrumpen irrumpido irrumpiendo irrumpiera irrumpían irrumpa irrumpía
+21	7121	habilitado	habilitado habilitados habilitada habilitadas
+22	7122	selecto	selecto selecta selectos selectas
+23	7123	evasión	evasión evasiones
+24	7124	musa	musa musas
+25	7125	estadía	estadía estadías estadia
+26	7126	cacho	cacho cachito cachos cachitos
+27	7127	devenir	devenir deviene devenido devino devine devengo devienen devenga devengan devinieron devenida devenidos deviniendo devendría
+28	7128	desastroso	desastroso desastrosa desastrosas desastrosos
+29	7129	chistoso	chistoso chistosa chistosos chistosas
+30	7130	analogía	analogía analogías
+31	7131	implacable	implacable implacables
+32	7132	tarado	tarado tarados tarada taradas
+33	7133	predominante	predominante predominantes
+34	7134	costarricense	costarricense costarricenses
+35	7135	intolerancia	intolerancia intolerancias
+36	7136	desafortunado	desafortunado desafortunada desafortunados desafortunadas
+37	7137	afinar	afines afinar afinado afina afinando afinada afinados afinan afinadas afinó afino afine afinen afinaba
+38	7138	benjamín	benjamín benjamines benjamina
+39	7139	macedonia	macedonia macedonias
+40	7140	incompatible	incompatible incompatibles
+41	7141	excavación	excavaciones excavación
+42	7142	tutela	tutela tutelas
+43	7143	diarrea	diarrea diarreas
+44	7144	reo	reos reo rea reas
+45	7145	engañoso	engañosa engañoso engañosas engañosos
+46	7146	lego	lego legos lega
+47	7147	derrame	derrame derrames
+48	7148	aeronave	aeronave aeronaves
+49	7149	casamiento	casamiento casamientos
+50	7150	consecuente	consecuente consecuentes
+51	7151	profecía	profecía profecías
+52	7152	hacha	hacha hachas
+53	7153	recitar	recitar recita recitando recitales recitó recitado recitaba recitan recito recitados recite recitaban recitada recitaron recitadas recitamos recitarlo
+54	7154	temático	temático temáticos temáticas
+55	7155	instantánea	instantánea instantáneas
+56	7156	pulgar	pulgar pulgares
+57	7157	descifrar	descifrar descifrado descifrando descifra descifrarlo descifró descifran descifrados descifrada descifre descifrarlos descifrarla descifro
+58	7158	improbable	improbable improbables
+59	7159	inserción	inserción inserciones
+60	7160	rima	rima rimas
+61	7161	diagrama	diagrama diagramas
+62	7162	relevo	relevo relevos
+63	7163	guionista	guionista guionistas
+64	7164	nublado	nublado nublados nublada nubladas
+65	7165	solemne	solemne solemnes
+66	7166	comparecer	comparecer compareció comparece comparecido comparecerá comparezca comparecieron comparezcan comparecen comparecerán compareciendo comparecía comparezco
+67	7167	perdurar	perdura perduran perdurar perdure perdurará perdurado perduró perdurarán perduren perduraron perdurara perduraría perdurando
+68	7168	derretir	derrite derretir derrita derritiendo derriten derretirse derritió derretida derretía derrito derritiéndose derritieron derritan derretirá derritiera derretimos derretían derrites derretirme derretidos derretidas
+69	7169	adecuar	adecuar adecuada adecuarse adecuadas adecuados adecua adecuando adecúa adecuan adecuarlo adecúan adecuarla adecue adecuó adecuándose adecuen adecuarlos adecuaba adecuarlas adecuaron adecuándolo adecúe adecúen
+70	7170	alterno	alterna alterno alternas alternos
+71	7171	bitcoin	bitcoin bitcoins
+72	7172	renal	renal renales
+73	7173	nova	nova novas
+74	7174	especia	especias especia
+75	7175	descontar	descontar descontado descontando descuenta descuentan descontó descontados descontaron descontará descontadas descuente descuenten descontamos descontarán descontada descontaba descontarle descontaban
+76	7176	contaminado	contaminado contaminada contaminados contaminadas
+77	7177	escéptico	escéptico escépticos escéptica escépticas
+78	7178	llamamiento	llamamiento llamamientos
+79	7179	arrastrado	arrastrado arrastrados arrastrada arrastradas
+80	7180	amarrar	amarrar amarre amarra amarras amarres amarran amarró amarraron amarrada amarrados amarrarse amarrando amarrarlo amarren amarradas amarro amarrarme amarrarte amarraban amárrame amarraba amarramos
+81	7181	portuario	portuaria portuarias portuarios portuario
+82	7182	barranco	barranco barrancos
+83	7183	sindicalista	sindicalistas sindicalista
+84	7184	predecesor	predecesor predecesores predecesora predecesoras
+85	7185	tequila	tequila tequilas
+86	7186	cucharada	cucharada cucharadas cucharadita cucharaditas
+87	7187	redondear	redondeado redondeada redondeadas redondeados redondear redondeo redondea redondeando redondean redondeó
+88	7188	siervo	siervo siervos sierva siervas
+89	7189	canela	canela canelas
+90	7190	senior	senior seniors seniores
+91	7191	vencimiento	vencimiento vencimientos
+92	7192	avellaneda	avellaneda
+93	7193	culpabilidad	culpabilidad
+94	7194	desechos	desechos
+95	7195	enteramente	enteramente
+96	7196	hincapié	hincapié
+97	7197	marxismo	marxismo
+98	7198	positivamente	positivamente
+99	7199	remonta	remonta
+100	7200	royal	royal

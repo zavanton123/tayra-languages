@@ -1,0 +1,100 @@
+1	2401	vs	vs
+2	2402	saludar	saludar saluda saludó saludando saludan saludamos saludado saludarte saludaron saludarlo saludaba salude saluden saludas saludé saludarla saludarme saludaban saludarlos saludarle saludarnos salúdame saludara saludada saludemos saludados saludarse saludaste saludarles saludará saludaré saludaros saludad saludame saludarlas saludarán saludaría salúdalo saludábamos saludaran
+3	2403	coño	coño coña coños coñito coñas
+4	2404	embajador	embajador embajadores embajadora embajadoras
+5	2405	diseñado	diseñado diseñada diseñados diseñadas
+6	2406	flor	flor florcita florecita florecilla
+7	2407	declarado	declarado declarada declarados declaradas
+8	2408	componer	compone componen componer compuso compuestos componía componían componiendo compusieron compuestas compuse componga compondrá componerse compongan compongo componemos compondrán compusiera compones compondría componerla componerlo compondrían compusimos
+9	2409	conducta	conducta conductas
+10	2410	virtual	virtual virtuales
+11	2411	hacienda	hacienda haciendas
+12	2412	reloj	reloj relojes relojito
+13	2413	observación	observación observaciones
+14	2414	provenir	proviene provienen provenía provenir provenían provino provenga provengan provengo provinieron provenido proviniendo provendría provendrá provendrían provendrán provenimos proviniera provienes
+15	2415	apellido	apellido apellidos
+16	2416	llave	llave llaves llavecita
+17	2417	auténtico	auténtico auténtica auténticos auténticas
+18	2418	asistente	asistente asistentes asistenta asistentas
+19	2419	charla	charla charlas
+20	2420	abordar	abordar aborda abordado abordan abordó abordando abordaron abordados abordo abordada abordamos abordará aborde abordarlo abordarse aborden abordaba abordadas abordaremos abordarán abordaban abordarlos abordarla abordara abordemos abordaría abordaré abordé abordaran abordas abordarlas
+21	2421	navarro	navarra navarro navarros navarras
+22	2422	productivo	productivo productiva productivos productivas
+23	2423	asesinar	asesinar asesinaron asesinó asesinados asesinan asesinada asesinando asesina asesinadas asesinarlo asesinen asesine asesinas asesinaban asesinarla asesinaba asesinarlos asesinara asesinarme asesinaran asesinarle asesiné asesinará asesinarte asesinaría asesinarlas
+24	2424	descanso	descanso descansos
+25	2425	comunicado	comunicado comunicados comunicada comunicadas
+26	2426	mágico	mágico mágica mágicos mágicas magico
+27	2427	soviético	soviética soviético soviéticos soviéticas
+28	2428	especializado	especializado especializada especializados especializadas
+29	2429	emisión	emisión emisiones
+30	2430	rezar	rezar reza rezando rezo rezos rezan rezaba rece recen recemos rezamos rezó rezado rezaban rezarle recé rezad rezas rezaron rezaré reces rezaremos rezara rezaran rezará rezándole rezen rezábamos rezare reze
+31	2431	rubio	rubio rubia rubias rubios rubita
+32	2432	doce	doce doces
+33	2433	paisaje	paisaje paisajes
+34	2434	cristina	cristina cristinas
+35	2435	nieve	nieve nieves
+36	2436	lujo	lujo lujos
+37	2437	fraude	fraude fraudes
+38	2438	cuestionar	cuestionar cuestiona cuestionado cuestiones cuestionó cuestionan cuestionada cuestionando cuestione cuestiono cuestionarse cuestionados cuestionaron cuestionaba cuestionadas cuestionen cuestionas cuestionamos cuestionaban cuestionarlo cuestionarme cuestioné cuestionarnos cuestionarte cuestionarla cuestionara cuestionará cuestionarlas cuestionaría cuestionarle cuestionemos cuestionándose cuestionarlos cuestionaran
+39	2439	reducción	reducción reducciones
+40	2440	bienestar	bienestar
+41	2441	suficientemente	suficientemente
+42	2442	veinte	veinte
+43	2443	ronda	ronda rondas
+44	2444	link	link links
+45	2445	implementar	implementar implementado implementó implementa implementando implementadas implementada implementan implementos implementaron implementados implemente implementarse implementará implementarlo implementen implemento implementarán implementarla implementamos implementarlas implementaría implementara implementaran implementarlos
+46	2446	negociar	negociar negociando negociado negocia negociados negoció negocian negociada negociaron negocie negociaba negociará negociamos negocien negociadas negociaban negocias negociarse negociarlo negociara negociaría negociarán negociaran negociaremos negociemos negocié negocies
+47	2447	noble	noble nobles
+48	2448	mono	mono monos mona monito monas monísimo
+49	2449	diplomático	diplomático diplomática diplomáticos diplomáticas
+50	2450	ofender	ofender ofendido ofende ofenden ofendida ofendidos ofenda ofendió ofendas ofenderte ofendo ofendiendo ofendan ofendes ofendí ofenderse ofendieron ofendidas ofenderme ofendería ofendía ofendiste ofenderle ofenderla ofenderlo ofendiera ofendernos ofendemos ofenderlos ofenderá ofenderos
+51	2451	localizar	localizar localizado localizada localiza localizados localizadas localizan localizó localizaron localizarlo localizamos localizarla localice localizando localizarlos localizarse localizaba localicen localicé localizo localizaban localizarlas localizará localizarte localizándose localizarle localizara
+52	2452	barra	barra barras
+53	2453	ceremonia	ceremonia ceremonias
+54	2454	repartir	repartir reparte repartidos repartiendo reparten repartido repartidas repartieron repartió repartida repartirse repartían repartía reparta repartan repartimos repartirá repartirán repartirlo repartirlos repartiéndose repartirla repartirlas repartiera repartes repartí repartiría repartiremos repartirían repartieran repartirnos
+55	2455	rosario	rosario rosarios
+56	2456	estándar	estándar estándares estándard
+57	2457	introducción	introducción introducciones
+58	2458	emperador	emperador emperatriz emperadores emperatrices emperadora
+59	2459	prender	prender prende prendió prendas prendido prendieron prendo prendida prenden prendiendo prendes prendí prendan prendidas prenderle prendidos prendía prenderse prendemos prenderlo prendían prendiera prendimos prendiste prenderme prenderla prendería prenderá prenderlos prenderles prenderte prendamos prendiéndole prendiéndose prendelo prendieran prendé prenderán
+60	2460	hilo	hilo hilos hilito hilillo
+61	2461	app	app apps
+62	2462	concentrar	concentra concentrarse concentran concentrar concentrarme concentró concentraron concentrados concentrando concentrada concentrarte concentraba concentre concentro concentrándose concentrarnos concéntrate concentren concentramos concentraban concentrate concentrará concentradas concentras concentres concentrarán concentré concentrara concentraremos concentrémonos concéntrense concéntrese concentraría concentrándome concentraran concentrase concentremos concentraré concentrarlos concentrarían
+63	2463	verificar	verificar verifica verificado verificada verifique verificando verifican verificados verifiquen verificadas verificarlo verificó verificaron verificamos verificarse verificará verifico verificarla verifiqué verificarán verificara verificaba verificas verifiques verificándose verifiquemos verificaban verificarlos verificaremos verificaran verificarlas verificaste
+64	2464	camiseta	camiseta camisetas
+65	2465	preocupado	preocupado preocupada preocupados preocupadas preocupadísimo
+66	2466	relevante	relevante relevantes
+67	2467	adaptar	adaptarse adaptar adapta adaptan adaptada adaptando adaptados adapte adaptadas adaptó adaptaron adaptarme adaptándose adapten adaptarlo adaptarnos adaptarte adaptarla adaptamos adaptará adapto adaptaba adaptarlos adaptarlas adaptas adaptarán adaptaban adaptándolo adaptara adapté adaptándola adaptaría adaptándonos adaptándolos adaptándolas adaptaran adaptándome adaptaremos adaptes adaptemos
+68	2468	preparación	preparación preparaciones
+69	2469	borde	borde bordes
+70	2470	administrar	administrar administra administrado administrada administran administrados administrando administradas administró administre administraba administrarse administren administrarlo administrará administraron administro administraban administramos administrarla administrarle administrarlos administras administrarán administrara administraran administrarlas administraría
+71	2471	arco	arco arcos
+72	2472	préstamo	préstamo préstamos
+73	2473	infierno	infierno infiernos infiernillo
+74	2474	mantenimiento	mantenimiento mantenimientos
+75	2475	confesar	confesar confesó confiesa confieso confesado confesando confesaron confiesan confesarse confiese confesarlo confesarte confesaba confesarle confesara confesados confesé confesarme confesará confesamos confiesen confesaré confesaría confiesas confesarles confesaban confesaros confesad confesaran confesada confesarnos confesase confesaste confieses
+76	2476	anciano	ancianos anciano anciana ancianas ancianito
+77	2477	cinta	cinta cintas cintillo cintita cintillos
+78	2478	sincero	sincero sincera sinceros sinceras
+79	2479	arrojar	arroja arrojó arrojar arrojado arrojan arrojaron arrojando arrojados arrojo arrojada arroje arrojadas arrojaban arrojaba arrojen arrojarse arrojamos arrojará arrojé arrojarlo arrojara arrojándose arrojarle arrojarlos arrojarla arrojaría arrojarán arrojándole arrojes arrojarme arrojaré arrojaran arrojándolos arrojarles arrojándolo arrojas arrojarlas arrojasen arrojarnos arrojándola
+80	2480	temor	temor temores
+81	2481	agrícola	agrícola agrícolas
+82	2482	elevado	elevado elevada elevados elevadas elevadísimo
+83	2483	bloque	bloque bloques
+84	2484	milagro	milagro milagros milagrito
+85	2485	chocolate	chocolate chocolates
+86	2486	juvenil	juvenil juveniles
+87	2487	salto	salto saltos saltito
+88	2488	ahorro	ahorro ahorros
+89	2489	ganancia	ganancias ganancia
+90	2490	vaso	vaso vasos
+91	2491	visitante	visitantes visitante
+92	2492	repente	repente
+93	2493	súper	súper
+94	2494	proveer	proveer provee proveen provisto provista provistos proveerá provea proveyó proveyendo provistas provean proveía proveemos proveerse proveerán proveído proveían proveyeron proveerle proveerles proveería proveernos proveerlos proveídos proveída proveeremos proveo proveerlo proveerte proveyeran proveyera provees proveyéndoles proveerla
+95	2495	republicano	republicano republicanos republicana republicanas
+96	2496	mariano	mariano mariana marianas marianos
+97	2497	músico	músicos músico músicas
+98	2498	calificar	calificó califica calificar califican calificados calificada calificaron calificando califique calificaba calificarse califico calificadas calificarlo calificaría califiquen calificaban calificándolo calificándola calificarla calificamos calificará calificas calificara calificarlos calificarán calificándolos califiqué calificándolas calificaran calificarían
+99	2499	enfoque	enfoque enfoques
+100	2500	fórmula	fórmula fórmulas

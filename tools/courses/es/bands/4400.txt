@@ -1,0 +1,100 @@
+1	4301	concejo	concejo concejos
+2	4302	conllevar	conlleva conllevan conllevar conllevó conllevaría conllevaba conllevará conlleve conllevado conlleven conllevaron conllevando conllevara conllevaban
+3	4303	aliviar	aliviar alivia aliviado aliviada aliviados alivie alivió alivian aliviando aliviará aliviarse aliviarlo aliviaría aliviarla aliviaba aliviara aliviaron aliviadas alivien aliviarle aliviarme alivias aliviarlos
+4	4304	enriquecer	enriquecer enriquece enriquecido enriquecerse enriquecen enriquecida enriqueciendo enriqueció enriquecieron enriquecidos enriquezcan enriquecidas enriquezca enriquecerá enriqueciéndose enriquecernos enriquecemos enriquecían enriquecía enriquecerlo enriquecerán enriquecerla
+5	4305	informático	informáticos informático informáticas
+6	4306	célebre	célebre célebres celebérrimo
+7	4307	incorporación	incorporación incorporaciones
+8	4308	incertidumbre	incertidumbre incertidumbres
+9	4309	singular	singular singulares
+10	4310	entendimiento	entendimiento entendimientos
+11	4311	dormitorio	dormitorio dormitorios
+12	4312	volante	volante volantes
+13	4313	analista	analista analistas
+14	4314	apelar	apelar apela apelando apeló apelan apelado apelo apelaron apelada apelará apelamos apelaba apele apeles apelarán apelen apeladas apelaría apelara apelaban
+15	4315	quebrar	quebrar quiebre quebró quiebran quebrando quebraron quebradas quebrados quebrarse quiebro quebré quiebren quiebres quebro quiebras quebrará quebraba quebrara quebrarme quebraría quebrarle quebrarte quebraste quebramos quebraban quebrándose quebrarlo quiebros quebra quebraran quebrarla quebrarán
+16	4316	impartir	impartir imparte impartido imparten impartió impartiendo impartida impartidas impartía impartidos impartieron impartirá imparta impartían impartan impartirse impartirán impartiera imparto impartirla impartimos
+17	4317	exilio	exilio exilios
+18	4318	restauración	restauración restauraciones
+19	4319	concretar	concretar concretó concreta concretas concretarse concretado concrete concretan concretando concretaron concretada concretará concreten concretadas concretamos concretara concretados concretarlo concretaría concretaba concretándose concretarla concretarán
+20	4320	ron	ron rones
+21	4321	falda	falda faldas faldita
+22	4322	doctorado	doctorado doctorados doctorada
+23	4323	publicitario	publicitaria publicitario publicitarios publicitarias
+24	4324	calzado	calzado calzada calzadas calzados
+25	4325	periodístico	periodística periodístico periodísticos periodísticas
+26	4326	galleta	galletas galleta galletita
+27	4327	sinónimo	sinónimo sinónimos sinónimas sinónima
+28	4328	irregular	irregular irregulares
+29	4329	funcional	funcional funcionales
+30	4330	amistoso	amistoso amistosos amistosa amistosas
+31	4331	gremio	gremio gremios
+32	4332	cómico	cómico cómica cómicos cómicas
+33	4333	biografía	biografía biografías
+34	4334	pato	pato patos
+35	4335	pulmón	pulmón pulmones
+36	4336	comuna	comuna comunas
+37	4337	sacudir	sacudió sacude sacudir sacudido sacudiendo sacuden sacudidas sacudieron sacudirse sacudía sacudo sacudí sacuda sacudidos sacudían sacudirá sacudan sacudirnos sacudirte sacudiéndose sacudirlo sacudiría sacudirme sacudimos sacudirla sacúdete sacudiera sacudirle sacudiste sacudirán sacudes
+38	4338	ligado	ligado ligada ligados ligadas
+39	4339	mero	mero meros meras
+40	4340	franja	franja franjas
+41	4341	perla	perla perlas
+42	4342	chofer	chofer choferes chófer chauffeur
+43	4343	plantilla	plantilla plantillas
+44	4344	logo	logo
+45	4345	oxígeno	oxígeno
+46	4346	racismo	racismo
+47	4347	seriamente	seriamente
+48	4348	énfasis	énfasis
+49	4349	potente	potente potentes potentísimo
+50	4350	precaución	precaución precauciones
+51	4351	verdura	verduras verdura
+52	4352	lesbiana	lesbianas lesbiana
+53	4353	preventivo	preventiva preventivas preventivo preventivos
+54	4354	rastrear	rastrear rastreo rastrea rastreando rastreado rastreó rastrean rastrearse rastrearon rastreada rastreos rastreados rastreen rastrearlo rastreamos rastrearlos rastreadas rastreará rastrearán rastree rastreaba
+55	4355	vanguardia	vanguardia vanguardias
+56	4356	contratación	contratación contrataciones
+57	4357	asignación	asignación asignaciones
+58	4358	criado	criado criada criados criadas criadillas
+59	4359	prado	prado prados pradillo
+60	4360	rancho	rancho ranchos ranchito
+61	4361	manuscrito	manuscrito manuscritos manuscrita manuscritas
+62	4362	noción	noción nociones
+63	4363	debilitar	debilitar debilitado debilita debilitada debilitando debilitan debilitó debilitados debilitarse debilitadas debilitará debilite debilitaron debilitaría debilitándose debilitaba debilitarlo debilitara debiliten debilitaban debilitarla debilitarán debilito
+64	4364	flecha	flecha flechas flechita
+65	4365	capitular	capitulo capitular capitulares capituló capitulado capitula capitularon
+66	4366	marcador	marcador marcadores marcadora marcadoras
+67	4367	ranking	ranking rankings rankin ránking ranquin
+68	4368	progresivo	progresivo progresiva progresivos progresivas
+69	4369	superficial	superficial superficiales
+70	4370	configuración	configuración configuraciones
+71	4371	convicción	convicción convicciones
+72	4372	culminar	culminó culmina culminar culminaron culminado culminando culminan culminará culmine culminada culminaría culminaba culminarán culminamos culminara culminados culminadas culminen culmino culminarían culminarse
+73	4373	humanitario	humanitaria humanitario humanitarias humanitarios
+74	4374	andino	andina andino andinos andinas
+75	4375	aceptable	aceptable aceptables
+76	4376	enlazar	enlaza enlazar enlaces enlazado enlazan enlazados enlazando enlazadas enlazada enlazaba enlazó enlazo enlazarse enlazamos enlazaban enlazarlo enlacen enlazaron enlazará enlazas enlacé
+77	4377	ciclista	ciclistas ciclista
+78	4378	suelta	suelta sueltas
+79	4379	vigencia	vigencia vigencias
+80	4380	compensación	compensación compensaciones
+81	4381	ladrillo	ladrillo ladrillos
+82	4382	araña	araña arañas arañita
+83	4383	sustitución	sustitución sustituciones substitución
+84	4384	verbo	verbo verbos
+85	4385	enterrado	enterrado enterrados enterrada enterradas
+86	4386	open	open opens
+87	4387	envuelto	envuelto envuelta envueltos envueltas
+88	4388	asombroso	asombroso asombrosa asombrosos asombrosas
+89	4389	radiación	radiación radiaciones
+90	4390	gen	gen genes
+91	4391	extracción	extracción extracciones
+92	4392	movilidad	movilidad movilidades
+93	4393	estacionamiento	estacionamiento estacionamientos
+94	4394	apto	apto aptos apta aptas
+95	4395	cebolla	cebolla cebollas
+96	4396	comarca	comarca comarcas
+97	4397	comodidad	comodidad comodidades
+98	4398	maleta	maleta maletas maletita
+99	4399	adir	ada adidas ado ade adan aden ades adís adas adir
+100	4400	incorrecto	incorrecto incorrecta incorrectas incorrectos

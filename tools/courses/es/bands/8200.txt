@@ -1,0 +1,100 @@
+1	8101	goya	goya goyas
+2	8102	machete	machete machetes
+3	8103	perforación	perforación perforaciones
+4	8104	macizo	macizo maciza macizos macizas
+5	8105	zar	zar zares zarina
+6	8106	sumiso	sumisa sumiso sumisos sumisas
+7	8107	trescientos	trescientos trescientas trecientos
+8	8108	precipitar	precipitó precipita precipitarse precipitaron precipitar precipitan precipitando precipitada precipite precipitándose precipité precipites precipitadas precipitarnos precipiten precipitaba precipito precipitados precipitaría precipitamos precipitarme
+9	8109	orinar	orinar orines orinando orinan orino orine orinó orinaba orinado orinen orinales orinarse orinas oriné
+10	8110	condolencia	condolencias condolencia
+11	8111	aval	aval avales
+12	8112	descuidado	descuidado descuidada descuidados descuidadas
+13	8113	resonar	resuena resuenan resonar resonó resonando resonaba resonaron resuene resonado resonaban resonará resuenen
+14	8114	aliar	aliarse alió alía aliaron alían aliados aliándose alie alíen aliar alian alías aliarnos alio aliarte aliando aliamos aliada aliadas
+15	8115	útero	útero úteros
+16	8116	cifrado	cifrado cifrados cifrada cifradas
+17	8117	autoría	autoría autorías
+18	8118	colisión	colisión colisiones
+19	8119	caracter	caracter caracteres
+20	8120	disipar	disipar disipa disipó disipado disipan disiparse disipe disipando disipada disiparon disipadas disipará disipaba disiparía disipándose disipen disipara
+21	8121	bautismo	bautismo bautismos
+22	8122	dividendo	dividendos dividendo
+23	8123	chamo	chamo chama chamos chamas chamito
+24	8124	spa	spa spas
+25	8125	profesar	profesa profesan profesar profeso profesó profesado profesaba profesaban profesando profese profesamos profesas profesos profesada profesaron profesen
+26	8126	jardinero	jardinero jardineros jardinera jardineras
+27	8127	torrente	torrente torrentes
+28	8128	melo	melo mela melos melas
+29	8129	coleccionista	coleccionista coleccionistas
+30	8130	irritar	irrita irritar irritan irritó irritada irritaba irrite irritados irritando irritaron irrito irritas irritarse irritarme irritadas
+31	8131	complot	complot complots
+32	8132	impulsor	impulsor impulsores impulsora impulsoras
+33	8133	propicio	propicio propicia propicios propicias
+34	8134	vestíbulo	vestíbulo vestíbulos
+35	8135	salpicar	salpicado salpica salpicada salpicar salpicados salpicando salpican salpicadas salpicó salpique salpicaba salpicaban salpicaron
+36	8136	aledaño	aledañas aledaños aledaña aledaño
+37	8137	terminología	terminología terminologías
+38	8138	doncella	doncella doncellas
+39	8139	sable	sable sables
+40	8140	vagabundo	vagabundo vagabundos vagabunda vagabundas
+41	8141	nutriente	nutrientes nutriente
+42	8142	bikini	bikini bikinis biquini
+43	8143	arterial	arterial arteriales
+44	8144	travieso	travieso traviesa traviesos traviesas
+45	8145	rayar	rayar rayando rayas rayan rayados raye rayada rayen rayó rayes rayadas rayaron rayaba rayaban
+46	8146	binario	binario binaria binarias binarios
+47	8147	4º	4º
+48	8148	anticorrupción	anticorrupción
+49	8149	arrogancia	arrogancia
+50	8150	bah	bah
+51	8151	crimeo	crimea
+52	8152	fuck	fuck
+53	8153	jura	jura
+54	8154	mix	mix
+55	8155	mouse	mouse
+56	8156	sena	sena
+57	8157	tumblr	tumblr
+58	8158	versus	versus
+59	8159	violentamente	violentamente
+60	8160	cri	cris cri
+61	8161	abertura	abertura aberturas
+62	8162	satelital	satelital satelitales
+63	8163	ocurrencia	ocurrencia ocurrencias
+64	8164	terrateniente	terratenientes terrateniente
+65	8165	disciplinario	disciplinario disciplinaria disciplinarias disciplinarios
+66	8166	floral	florales floral
+67	8167	hidroeléctrica	hidroeléctrica hidroeléctricas
+68	8168	server	server servers
+69	8169	relegar	relegado relegados relegada relegando relegar relegadas relega relegó relegaron relegan
+70	8170	reseñar	reseñar reseñado reseñas reseñados reseñó reseñada reseñadas reseñan reseñamos reseñando reseñaron reseñaba reseño
+71	8171	estafador	estafadores estafador estafadora estafadoras
+72	8172	declive	declive declives
+73	8173	reglamentario	reglamentario reglamentaria reglamentarias reglamentarios
+74	8174	cala	cala calas
+75	8175	prescindir	prescindir prescindiendo prescinde prescindió prescindido prescinden prescinda prescindía prescindimos
+76	8176	mensajería	mensajería mensajerías
+77	8177	púrpura	púrpura púrpuras
+78	8178	marxismo-leninismo	ml
+79	8179	marxista-leninista	ml
+80	8180	tico	tico ticos tica ticas
+81	8181	oprimido	oprimido oprimidos oprimida oprimidas
+82	8182	estructurado	estructurado estructurada estructurados estructuradas
+83	8183	marisco	mariscos marisco
+84	8184	fumador	fumadores fumador fumadora fumadoras
+85	8185	colaborativo	colaborativo colaborativa colaborativos colaborativas
+86	8186	regente	regente regentes
+87	8187	mobiliario	mobiliario mobiliarios mobiliaria mobiliarias
+88	8188	destructor	destructor destructores destructora destructoras
+89	8189	activación	activación activaciones
+90	8190	alistar	alista alistarse alistó alistado alistar aliste alistan alistados alistando alistaron alistándose alisten alistarme alisto alistaba alístate alistamos
+91	8191	encomienda	encomienda encomiendas
+92	8192	obediencia	obediencia obediencias
+93	8193	dramaturgo	dramaturgo dramaturgos dramaturga
+94	8194	reorganización	reorganización reorganizaciones
+95	8195	ráfaga	ráfaga ráfagas
+96	8196	lino	lino linos
+97	8197	paranoico	paranoico paranoica paranoicos paranoicas
+98	8198	parejo	parejo parejas parejos
+99	8199	titularidad	titularidad titularidades
+100	8200	indulto	indulto indultos

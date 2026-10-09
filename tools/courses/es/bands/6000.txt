@@ -1,0 +1,100 @@
+1	5901	siembra	siembra siembras
+2	5902	stand	stand stands
+3	5903	malestar	malestar malestares
+4	5904	penetración	penetración penetraciones
+5	5905	decorado	decorado decorados decorada decoradas
+6	5906	aviación	aviación
+7	5907	mutuamente	mutuamente
+8	5908	sufragio	sufragio sufragios
+9	5909	determinante	determinante determinantes
+10	5910	hablante	hablantes hablante
+11	5911	armadura	armadura armaduras
+12	5912	estelar	estelar estelares
+13	5913	sequía	sequía sequías
+14	5914	congregación	congregación congregaciones
+15	5915	torpe	torpe torpes
+16	5916	especificación	especificaciones especificación
+17	5917	martillo	martillo martillos
+18	5918	matiz	matices matiz
+19	5919	tos	tos toses
+20	5920	rematar	rematar remata rematado remató rematan rematada rematando rematados remates rematadas rematarlo remato remataba remataron rematarla rematamos rematen
+21	5921	almorzar	almorzar almorzando almorzamos almorcé almuerza almorzado almorzaba almuerzan almorzó almorzaron almorzaremos almorzaste almuerzas
+22	5922	procesador	procesador procesadores procesadora procesadoras
+23	5923	neumático	neumáticos neumático neumática neumáticas
+24	5924	transversal	transversal transversales trasversal
+25	5925	ansia	ansias ansia
+26	5926	maternidad	maternidad maternidades
+27	5927	vagina	vagina vaginas
+28	5928	calar	calado cale calar calada calo calan calados calando caladas calen cales calé calas calaron calarse calos calaba calarme
+29	5929	huy	uy huy
+30	5930	discoteca	discoteca discotecas
+31	5931	emotivo	emotivo emotiva emotivos emotivas
+32	5932	hostia	hostia hostias ostia
+33	5933	mula	mula mulas muletas muleta
+34	5934	sellar	sellar sella selló sellada sellados sellaron sellando sellan selle selladas sellen selles sellamos sellés sellará sellarlo sellaba sellas sellarla sellaban sellarse sellarán sellara sellaría
+35	5935	constatar	constatar constata constatado constató constatan constataron constatando constatamos constatada constato constatarse constatadas constatados constate constataba constatarlo constaté constatándose
+36	5936	polémico	polémico polémicos polémicas
+37	5937	caracol	caracol caracoles
+38	5938	belén	belén belenes
+39	5939	gramática	gramática gramáticas grammatica
+40	5940	zapata	zapata zapatas
+41	5941	nuez	nueces nuez
+42	5942	explorador	explorador exploradores exploradora exploradoras
+43	5943	incondicional	incondicional incondicionales
+44	5944	metáfora	metáfora metáforas
+45	5945	peseta	pesetas pta peseta
+46	5946	entusiasta	entusiasta entusiastas
+47	5947	suspiro	suspiro suspiros
+48	5948	similitud	similitudes similitud
+49	5949	roer	roo royo roe roer roan roelas royendo roen roído roes roí royos roídos roas
+50	5950	afán	afán afanes
+51	5951	trapo	trapo trapos trapito trapillo
+52	5952	mozo	mozo mozos moza mozas mocito
+53	5953	abad	abad abades
+54	5954	intensificar	intensificar intensifica intensificó intensificado intensifican intensificaron intensificando intensificarse intensificará intensificada intensifique intensificaba intensifiquen intensificarán intensificándose intensificados intensificadas intensificaría intensificaban
+55	5955	enfriar	enfriar enfría enfríe enfriado enfriarse enfriando enfrió enfrían enfria enfríen enfriada enfriaron enfriándose enfrie enfriaba enfriados enfriará enfriara enfriarlo enfriadas enfriarla enfrian
+56	5956	infarto	infarto infartos
+57	5957	refugiar	refugiarse refugiados refugió refugia refugiaron refugian refugiándose refugiar refugiaban refugiarme refugiamos refugiarnos refugiaba refugié refugiarte refugie refugiando refugien refugiara refugiadas refugiada
+58	5958	chaco	chaco chacos
+59	5959	prieto	prieto prieta prietos prietas
+60	5960	predio	predio predios
+61	5961	predominar	predomina predominan predominando predominaba predominó predominaban predominar predominado predominaron predomine predominará predominen
+62	5962	unitario	unitario unitaria unitarios unitarias
+63	5963	volcar	volcó volcar vuelca volcan vuelcan volcarse volcaron volcando volcada vuelque volcados volcaba volcamos volcara volcándose vuelquen volcarlo volcadas volcaban volcará volqué volcarla
+64	5964	colocación	colocación colocaciones
+65	5965	reciclar	reciclar reciclado reciclados recicla reciclada reciclando reciclan recicladas reciclo reciclarse recicle reciclaron reciclamos reciclarlo recicló reciclen
+66	5966	incentivar	incentivar incentiva incentivando incentivan incentivó incentivado incentive incentiven incentivados incentivamos incentivaron incentivada incentivarlos incentivadas
+67	5967	turbo	turbo turba turbas turbos
+68	5968	colorido	colorido coloridos colorida coloridas
+69	5969	tostado	tostado tostadas tostada tostados
+70	5970	deteriorar	deteriorado deteriorada deteriora deteriorando deterioradas deteriorados deteriorarse deteriorar deterioran deterioró deteriorándose deteriore deterioraron deterioraba deterioren deteriorará
+71	5971	escolta	escolta escoltas
+72	5972	resurrección	resurrección resurrecciones resurección
+73	5973	perverso	perverso perversa perversos perversas
+74	5974	psiquiatra	psiquiatra psiquiatras siquiatra
+75	5975	pinchar	pinchar pincho pinchado pinchos pinchando pinches pinchó pinché pinchan pinchada pinchas pincharon pinchados pinchaba pinchamos pinchen pinchadas pincharse pincharle pincharte pinchaban pinchad pinchitos pincharme
+76	5976	evadir	evadir evade evadiendo evaden evadirse evadió evadido evadidos evada evadirme evadan evadieron evadirlos evadía evadirlo evades evadirte evado evadas evadirnos evadirla
+77	5977	agropecuario	agropecuaria agropecuario agropecuarios agropecuarias
+78	5978	armamento	armamento armamentos
+79	5979	jerónimo	jerónimo gerónimo jerónimos jerónima
+80	5980	plátano	plátano plátanos platanito platanitos
+81	5981	anterioridad	anterioridad
+82	5982	antropología	antropología
+83	5983	contrabando	contrabando
+84	5984	fortalecimiento	fortalecimiento
+85	5985	gravemente	gravemente
+86	5986	impotencia	impotencia
+87	5987	liberalismo	liberalismo
+88	5988	patriotismo	patriotismo
+89	5989	pd	pd
+90	5990	was	was
+91	5991	atributo	atributos atributo
+92	5992	incompleto	incompleta incompleto incompletos incompletas
+93	5993	quirúrgico	quirúrgica quirúrgico quirúrgicas quirúrgicos
+94	5994	restringido	restringido restringida restringidas restringidos
+95	5995	equipaje	equipaje equipajes
+96	5996	acompañante	acompañante acompañantes
+97	5997	retrasado	retrasado retrasados retrasada retrasadas
+98	5998	computador	computador computadores computadoras
+99	5999	aleatorio	aleatorio aleatoria aleatorios aleatorias
+100	6000	híbrido	híbrido híbridos híbrida híbridas

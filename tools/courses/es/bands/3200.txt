@@ -1,0 +1,100 @@
+1	3101	derivado	derivados derivado derivadas derivada
+2	3102	autorizado	autorizado autorizada autorizados autorizadas
+3	3103	seleccionar	seleccionar seleccionados selecciona seleccionadas seleccionada seleccionó seleccionan seleccionando seleccionaron seleccione seleccionamos selecciones seleccionas seleccionará seleccionarán selecciono seleccionen seleccionaba seleccionarse seleccionaremos seleccionaban seleccioné seleccionarlo seleccionaría seleccionara seleccionarlos seleccionaste
+4	3104	polémica	polémica polémicas
+5	3105	acelerar	acelerar acelera acelerado acelerada aceleró acelerando aceleran acelere acelerados acelerará aceleraron acelero aceleraba aceleradas acelerarse aceleren aceleras aceleraría acelerara acelerándose aceleramos acelerarán acelerarlo aceleres aceleré aceleraban
+6	3106	pesca	pesca pescas
+7	3107	ciar	cia cía cie cio cias cies ciara ciales cíe cíes ciar ciando cías cío ciaran
+8	3108	transparencia	transparencia transparencias trasparencia
+9	3109	estreno	estreno estrenos
+10	3110	plantar	plantar plantas plantado plantó plantada plantados plantaron plantando plantan plantadas plante planto plantarse plantamos planté planten plantarle plantes plantaba plantarte plantarán plantaban plantemos plantares plantarlas plantarles plantarlo plantará plantarme plantaría plantarla plantarlos plantara plantaremos plantaste plantaran plantarnos
+11	3111	coste	coste costes
+12	3112	optar	optar optó optado opta optaron optan optando opte opté optamos opto opten optas optaba optaría optará optaban optara optarán optaran optarse
+13	3113	captura	captura capturas
+14	3114	manipular	manipular manipulado manipulando manipula manipulada manipulados manipulan manipuladas manipuló manipularon manipule manipulen manipularlo manipulaba manipularla manipularlos manipulaban manipularte manipulas manipulo manipules manipularlas manipularnos manipularse manipulamos manipularme
+15	3115	vidrio	vidrio vidrios
+16	3116	perteneciente	pertenecientes perteneciente
+17	3117	ocasionar	ocasiones ocasiona ocasionado ocasionó ocasionar ocasionados ocasionando ocasionales ocasionan ocasionaron ocasionada ocasionadas ocasione ocasionará ocasionaría ocasionaba ocasionen ocasiono ocasionándole ocasionarle ocasionara ocasionarán ocasionarse ocasionaban ocasionarles
+18	3118	excluir	excluidos excluye excluir excluido excluyendo excluida excluyen excluidas excluyó excluya excluía excluyeron excluirse excluyan excluirlo excluyo excluirá excluimos excluyéndose excluiría excluyera excluían excluirlos excluirán excluirla excluyes excluirte
+19	3119	conversar	conversar conversando conversa conversamos conversos conversó converse converso conversado conversan conversaron conversaba conversé conversaban conversas conversemos conversaremos conversen conversábamos conversará conversarlo converses
+20	3120	alimentación	alimentación
+21	3121	literalmente	literalmente
+22	3122	matemáticas	matemáticas
+23	3123	toledo	toledo
+24	3124	aislado	aislado aislados aislada aisladas
+25	3125	casco	casco cascos
+26	3126	sancionar	sanciones sancionar sancionado sancionada sancionados sanciona sancionó sancionadas sancionan sancione sancionará sancionaron sancionando sancionen sancionarse sancionarán sancionara sancionarlo sancionarlos sancionarla sancionaba sancionamos sanciono
+27	3127	librar	libras librarse librar librado libró librada libran librando libraron librarnos libres librará librarme libramos líbranos librados librarte libraba libradas librara libraría libré líbrame libren librarán libraban librándose librarla librarlos libraremos libraste libraré librarlo libranos libraran librarás librarle librase libraros libremos
+28	3128	redacción	redacción redacciones
+29	3129	coordinar	coordinar coordinado coordinada coordina coordinados coordinadas coordinando coordinó coordinan coordinarse coordinamos coordine coordinará coordinaron coordinen coordinaba coordino coordinarán coordinarnos coordinara coordinarlo coordinaban coordinaría
+30	3130	élite	élite elite élites
+31	3131	selva	selva selvas
+32	3132	resaltar	resaltar resalta resaltó resaltan resaltando resaltado resalte resaltaba resaltaron resalto resaltados resaltada resaltaban resaltadas resaltamos resalten resaltará resaltarse resaltes resaltaría resaltos resaltarlo
+33	3133	soberanía	soberanía soberanías
+34	3134	enojar	enojar enoja enojada enojes enojó enojan enojarse enoje enojados enojas enojaba enojarme enojé enojarte enojen enojaron enojando enojaste enojamos enojadas enojaría enojara enojarnos enojaban enojará enojarías enojate enojás
+35	3135	legado	legado legados legada legadas
+36	3136	dictar	dicta dictó dictar dictan dicte dictada dictando dictará dictadas dictados dictaron dicten dictaba dicto dictara dictarse dictarán dictaban dictarle dicté dictaran dictamos dictas dictaría
+37	3137	corredor	corredor corredores corredora corredoras
+38	3138	felicitar	felicito felicitar felicita felicitó felicitarte felicitado felicitamos felicitarlo felicitando felicitaron felicitan felicitarle felicitas felicitarla felicitarme felicitarlos felicite felicitarnos felicitaba felicité feliciten felicitarse felicitaban felicitaros felicitándolo felicitarles felicitada felicitemos felicitándose felicítame felicitándome felicitados
+39	3139	oreja	orejas oreja orejón orejones orejona orejita
+40	3140	pariente	parientes pariente parienta parientas
+41	3141	oscuridad	oscuridad obscuridad oscuridades
+42	3142	coca	coca cocas
+43	3143	invito	invito invita invitas
+44	3144	mención	mención menciones
+45	3145	inaugurar	inauguró inaugurado inaugura inaugurada inaugurar inauguraron inaugurando inaugurará inauguran inauguramos inauguraba inaugurados inauguradas inaugurarse inaugure inauguro inaugurarán inaugurara inauguré inaugurales inauguraban inaugurarlo inauguraría inaugurándose inaugurarla
+46	3146	felicitación	felicitaciones felicitación
+47	3147	desaparición	desaparición desapariciones desaparación
+48	3148	pop	pop pops
+49	3149	restricción	restricciones restricción
+50	3150	conquista	conquista conquistas
+51	3151	suicidio	suicidio suicidios
+52	3152	asiático	asiático asiáticos asiática asiáticas
+53	3153	comedia	comedia comedias
+54	3154	retener	retener retenido retiene retenidos retuvo retienen retenida reteniendo retuvieron retén retenidas retenes retenerlo retenga retenía retengan retenerlos retenían retenerla retendrá retenerte retengo retuviera retenerle retendrán retendría retenemos retenerme retuve retienes retenerse retenerlas
+55	3155	imaginación	imaginación imaginaciones
+56	3156	nena	nena nenas nenita nenitas
+57	3157	donación	donación donaciones
+58	3158	sanidad	sanidad
+59	3159	tela	tela telas telita
+60	3160	convencido	convencido convencidos convencida convencidas
+61	3161	longitud	longitud longitudes
+62	3162	palestino	palestina palestinos palestino palestinas
+63	3163	automático	automático automática automáticos automáticas
+64	3164	magnífico	magnífico magnífica magníficos magníficas
+65	3165	grasa	grasa grasas
+66	3166	historiador	historiador historiadores historiadora historiadoras
+67	3167	colonial	colonial coloniales
+68	3168	ordenador	ordenador ordenadores
+69	3169	acoger	acoge acoger acogió acogido acogerse acogen acogieron acogidos acogerá acogiendo acoja acogía acojan acogemos acogidas acojo acogiéndose acogería acogiera acogerán acogerlos acogernos acogían acogerme acogerla acogerlo acogerte acogieran acogimos acogí
+70	3170	padecer	padece padecen padecer padecía padeciendo padecido padeció padecemos padezco padecieron padezcan padeces padecían padezca padecerá padecida padecí padecerla padecidas padecimos padecerlo padeciera padecidos padecerán
+71	3171	factura	factura facturas
+72	3172	mediano	mediano mediana medianas medianos
+73	3173	danza	danza danzas
+74	3174	coordinador	coordinador coordinadora coordinadores coordinadoras
+75	3175	hábito	hábitos hábito
+76	3176	homicidio	homicidio homicidios
+77	3177	terremoto	terremoto terremotos
+78	3178	apartado	apartado apartados apartada apartadas
+79	3179	estancia	estancia estancias
+80	3180	esquema	esquema esquemas
+81	3181	aficionado	aficionados aficionado aficionada aficionadas
+82	3182	delicioso	delicioso deliciosa deliciosos deliciosas
+83	3183	finalidad	finalidad finalidades
+84	3184	invasión	invasión invasiones
+85	3185	circulación	circulación circulaciones
+86	3186	convocatoria	convocatoria convocatorias
+87	3187	té	té tés tecito
+88	3188	filipino	filipinas filipino filipina filipinos
+89	3189	captar	captar capta captado captan captó captando captada captados captaron captadas capto captas capte captamos capté captaba capten captarlo captará captaban captarla captara captaste captarán captaría
+90	3190	agresión	agresión agresiones
+91	3191	comerciante	comerciantes comerciante
+92	3192	bloqueo	bloqueo bloqueos
+93	3193	quince	quince quinze
+94	3194	laguna	laguna lagunas lagunillas lagunilla lagunita
+95	3195	inflación	inflación inflaciones
+96	3196	pinche	pinche pinches
+97	3197	podar	podes podar pode podemos podas podo podando podado podan poden podados podamos podéis podés podáis
+98	3198	panorama	panorama panoramas
+99	3199	específicamente	específicamente
+100	3200	occidente	occidente

@@ -1,0 +1,100 @@
+1	1301	comparar	comparar comparado compara comparada comparando comparan comparados comparamos comparó compare comparadas compararse compares comparen compararlo comparo compararon comparaba comparas comparándolo compararla compararlos comparemos compararlas comparándola comparé comparaban comparándolos compararnos compararte compararme compárese comparándolas compará comparará compararemos comparara compararía comparándose compáralo
+2	1302	adoptar	adoptar adoptado adopta adoptó adoptada adoptando adoptaron adoptan adoptadas adoptados adopte adopten adoptará adoptamos adoptara adoptarse adoptarán adopté adoptarlo adoptaría adopto adoptaba adoptaran adoptarla adoptaban adoptas adoptarlos adoptemos adoptase adoptaremos adoptarían adoptes adoptasen adoptarlas adoptándose adoptarme
+3	1303	disco	disco discos
+4	1304	ruta	ruta rutas
+5	1305	agarrar	agarra agarrar agarró agarre agarro agarran agarren agarré agarrando agarraron agarrado agarras agarres agarramos agarraba agarrarse agarraste agarrarlo agarrate agarrarme agarrados agarrada agarrarte agárrate agarrarla agarrándose agarraban agarrarle agarrarlos agárrense agarrara agarrarnos agarraría agarradas agarrá agarraran agarremos agarrame agarralo agarrarlas
+6	1306	característica	características característica
+7	1307	sesión	sesión sesiones
+8	1308	investigar	investigar investigando investiga investigado investigue investigan investigó investigados investiguen investigada investigaba investigadas investigará investigaron investigarlo investigué investigara investigo investigamos investigarse investigarán investigues investigaban investigas investigaran investigaría investigaremos investigarla investigarlos investigaré investiguemos investigaste investigase investigarlas investigarme investigándolo investigarían
+9	1309	democrático	democrática democrático democráticos democráticas
+10	1310	adquirir	adquirir adquirido adquiere adquirió adquiridos adquirida adquiriendo adquieren adquirieron adquiridas adquiera adquieran adquirí adquirirse adquirirá adquirirlo adquirirlos adquiría adquirimos adquiriera adquirirla adquirían adquiriría adquieres adquirirán adquirirlas adquiriste adquirieran adquieras adquiero adquiriese adquirirían
+11	1311	absoluto	absoluto absoluta absolutos absolutas
+12	1312	numeroso	numerosos numerosas numerosa numeroso
+13	1313	oscuro	oscuro oscura oscuras oscuros obscuro oscurito
+14	1314	conferencia	conferencia conferencias
+15	1315	parir	parís parió parir parido parida pariendo paren paridas paran pares paramos parí paridos parieron paría parás paráis párale paras
+16	1316	sorprender	sorprende sorprendió sorprender sorprendería sorprenden sorprenda sorprenderá sorprendieron sorprenderme sorprendida sorprendernos sorprendiendo sorprendidos sorprendí sorprenderse sorprendo sorprendan sorprendía sorprenderte sorprendas sorprendes sorprenderán sorprenderías sorprenderás sorprendemos sorprendiera sorprenderle sorprenderla sorprenderlo sorpréndeme sorprenderlos sorprendían sorprenderían sorprendimos sorprendiste sorprendidas sorpréndete sorprenderles sorprendiéndome sorprendieran
+17	1317	propósito	propósito propósitos
+18	1318	perdón	perdón perdones
+19	1319	culo	culo culos culito qlo culazo cula culitos culas culón culillo
+20	1320	japón	japón japones
+21	1321	iniciativa	iniciativa iniciativas
+22	1322	ocultar	ocultar oculta oculto ocultos ocultas ocultan ocultando ocultó ocultado ocultarse ocultarlo ocultaba ocultaron oculte ocultaban oculten ocultándose ocultarla ocultada ocultes ocultarle ocultamos ocultarme ocultará ocultados ocultarlos ocultara ocultarnos ocultarte ocultadas oculté ocultarlas ocultaría ocultaran ocultarán ocultándolo ocultarles ocultándole ocultaré ocultase
+23	1323	reina	reina reinas reinita
+24	1324	influencia	influencia influencias
+25	1325	habitación	habitación habitaciones habita
+26	1326	liberar	liberar liberado liberales libera liberados liberada liberó liberan liberarse liberen libere liberaron liberando liberadas libero liberarlo liberarnos liberarlos liberará liberarla liberarme liberara liberas liberarte liberamos liberaría liberaba liberaran libérate liberarán liberé liberad liberaban liberarle liberemos liberate liberándose liberes liberase liberarían
+27	1327	hallar	halla hallar hallan hallado hallaba hallaron halló hallados hallamos halle hallada hallaban hallé hallarse hallo halladas hallará hallarás hallen hallas hallaremos hallarán hallándose hallando hallara hallarla halles hallarlo hallaría hallarlos hallarte hallemos hallaran hallarle hallarme hallaré hallaréis hallaras hallaste hallarían
+28	1328	integrar	integrado integrada integrar integran integra integrados integrarse integradas integrando integró integren integraron integrales integre integraban integro integrarán integrará integraba integrarlos integramos integrándose integrarlo integrarme integrarnos integrarla integrarte integrara integraría integras integrarían integrarlas integraran integrase integré integrándolo integrate
+29	1329	bebé	bebé bebés bb bebita bebito bebecito
+30	1330	gestión	gestión gestiones
+31	1331	fundamental	fundamental fundamentales
+32	1332	analizar	analizar analiza analizando analizado analizan analizó analizamos analizados analizaron analizada analizadas analice analizarlo analizaremos analicen analizará analizo analicemos analizaba analizarán analizarla analizarse analizas analizarlos analicé analizarlas analices analizara analizaban analizaré analizaran analizaría analizándolo analizábamos
+33	1333	rechazar	rechazó rechaza rechazar rechazado rechazada rechazan rechazaron rechazando rechazados rechazamos rechazadas rechace rechazaba rechacen rechazarlo rechazaban rechazara rechacé rechazarla rechazas rechazará rechazaría rechaces rechazarlos rechazaran rechazarán rechacemos rechazarlas rechazarse rechazaste rechazase rechazarían rechaze rechazarte rechazarle rechazándolo
+34	1334	disponer	dispone disponer disponen dispuso dispuestos disponía dispuesta disponga disponemos dispongo disponían dispuestas dispondrá dispongan disponiendo dispusieron dispones dispondrán dispuse dispusiera disponerse dispongamos dispondría dispusimos dispusieran disponíamos disponiéndose dispondremos dispongas disponerlos dispusiesen dispón dispondré dispondrían disponéis dispusiese
+35	1335	penal	penal penales
+36	1336	etapa	etapa etapas
+37	1337	señal	señal señales
+38	1338	factor	factores factor
+39	1339	fijar	fijado fijar fíjate fija fijate fijó fijan fijarse fije fijada fijados fijas fijamos fijando fijé fijaron fijadas fíjense fijen fijarme fíjese fijarte fijaba fijará fijaos fijaste fijes fijarnos fijara fijándose fijaría fijaros fijarán fijaban fijarlo fijemos fijáis fijémonos fijaran fijarla
+40	1340	contexto	contexto contextos
+41	1341	emitir	emitir emitió emitido emite emitida emitidos emiten emitiendo emitidas emitieron emita emitirá emitía emitan emitirse emitían emitiera emitimos emitirán emitiría emitirlo emitieran emito emitiéndose emites emitirla emití emitirían emitiese emitiremos emitamos emitas
+42	1342	eh	eh
+43	1343	ingresos	ingresos
+44	1344	lunes	lunes
+45	1345	admitir	admitir admite admito admitió admitido admiten admitirlo admitidos admitiendo admitida admita admítelo admitieron admitía admitan admitidas admitimos admitirá admitiera admitirán admitiría admití admites admitían admitamos admitirse admitámoslo admitieran admitirían admitas admitiré admitiese admitirla admitís admitiéndose admitiste admitiremos admitirlos
+46	1346	valer	valen valga valer valió valía valido valdría valdrá valgo valieron valida valgan valiendo valerse valían valiera valiéndose valemos validos válgame valdrán valí vales valdrían validas valerme valiste valieran valerte valernos valiese valimos valgas valéis valías valerle valés
+47	1347	ganador	ganador ganadores ganadora ganadoras
+48	1348	inteligente	inteligente inteligentes
+49	1349	moneda	moneda monedas monedita
+50	1350	luna	luna lunas
+51	1351	dividir	divide dividido dividir dividida divididos dividen divididas dividió dividiendo dividirse dividieron dividimos divida dividía dividirnos dividirá divido dividirlo dividían dividan dividirán dividirla dividiremos dividiéndose dividiría dividirlos dividiera divides dividamos dividirlas dividí dividiéndolo dividas dividiéndola dividieran dividiré dividirían
+52	1352	durar	duró durar duran dura dure durará durado duraron duras duraría duraba duren durara durarán duraban durando duré durarían duramos durase duraran dures duraste durá
+53	1353	regular	regular regulares regula regulan regulado regulada regulados reguladas regule regulando regulen regulará regulaba regularse reguló regularán regularlo regulaban regularla regulara regularon regulo regularía regules regularlas regularlos
+54	1354	cárcel	cárcel cárceles
+55	1355	reclamar	reclamar reclamo reclama reclamos reclaman reclamando reclamó reclamado reclamaba reclamaron reclamaban reclame reclamen reclamamos reclamada reclamados reclamarle reclamadas reclamarlo reclamará reclamas reclamara reclamé reclamarla reclames reclamarán reclamaría reclamaran reclamándole reclamemos reclamarte reclamarlos reclamarme reclamarse reclamarlas reclamarles reclamarían
+56	1356	aeropuerto	aeropuerto aeropuertos
+57	1357	preso	presos preso presa presas presilla
+58	1358	gas	gas gases
+59	1359	inmediato	inmediato inmediata inmediatos inmediatas
+60	1360	perfil	perfil perfiles
+61	1361	alimento	alimentos alimento
+62	1362	celular	celular celulares
+63	1363	espíritu	espíritu espíritus
+64	1364	planeta	planeta planetas
+65	1365	tradición	tradición tradiciones
+66	1366	bandera	bandera banderas banderita
+67	1367	pro	pro pros
+68	1368	puente	puente puentes puentecito puentecillo
+69	1369	papá	papá papás papito mamás papacito papaíto
+70	1370	plataforma	plataforma plataformas
+71	1371	anda	anda andas
+72	1372	dedo	dedos dedo dedito dedillo
+73	1373	plano	plano planos plana planas
+74	1374	exactamente	exactamente
+75	1375	principalmente	principalmente
+76	1376	cargar	cargar cargado cargando cargada cargados cargan cargadas cargó cargue cargaba cargarse cargaron carguen cargas cargamos cargaban cargarlo cargarla cargará cargué cargues cargarte cargara cargarlos cargarán cargarle cargarme cargándose cargaría cargaran cargarnos cargaste cargarlas cargadito carguemos cargaré cargándola cárgate cargaremos cargándolo
+77	1377	denunciar	denunciar denunció denunciado denuncian denuncias denunciando denunciaron denunciados denuncio denunciada denunciaba denuncie denuncien denunciarlo denunciamos denunciadas denunciaban denunciarlos denunciara denunciará denuncié denunciarla denunciaría denunciemos denunciaran denunciarán denunciaste denunciarte denunciarle denunciarlas denunciarse denunciaré denuncies denunciarme denunciase denunciaremos denunciarles denuncialo denunciándolo denúncialo
+78	1378	específico	específico específicos específica específicas
+79	1379	guardia	guardia guardias
+80	1380	crítico	crítico críticos críticas
+81	1381	deuda	deuda deudas
+82	1382	bailar	bailar bailando baila bailes bailan bailo bailaba bailas bailamos bailó bailado bailaban bailaron bailen bailemos bailara bailé bailará bailaste bailarán bailada bailaré bailábamos bailarlo bailaremos bailarla bailaran bailaría bailabas bailare bailadas bailarle báilame bailad
+83	1383	ejercer	ejercer ejerce ejercen ejerciendo ejerció ejercido ejercida ejercía ejerza ejercieron ejerzan ejercerá ejercían ejercidas ejerzo ejercidos ejercerlo ejercerla ejercerán ejercerse ejercemos ejerciera ejercería ejercí ejercieran ejerces ejercerían ejercerlos ejerzamos ejerceré ejerzas
+84	1384	bolsa	bolsa bolsas bolsita
+85	1385	experto	expertos experto experta expertas
+86	1386	capítulo	capítulo capítulos
+87	1387	examen	examen exámenes exámen
+88	1388	sede	sede sedes
+89	1389	masa	masa masas
+90	1390	lenguaje	lenguaje lenguajes
+91	1391	presentación	presentación presentaciones
+92	1392	armar	armas armando armar armados armadas armó arman armaron armo arme armamos armarse armen armé armaba armes armaban armarlo armarme armaría armaste armarla armara armemos armate armará armándose ármate armarnos armarte armarlos armarle armarán armá armaran armarlas armaos
+93	1393	fotografía	fotografía fotografías
+94	1394	dispuesto	dispuesto dispuestos dispuesta dispuestas
+95	1395	afuera	afuera
+96	1396	ecuador	ecuador
+97	1397	recién	recién
+98	1398	fundación	fundación fundaciones
+99	1399	tasa	tasa tasas
+100	1400	oferta	oferta ofertas

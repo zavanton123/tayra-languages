@@ -1,0 +1,100 @@
+1	6101	mariscal	mariscal mariscales
+2	6102	rellenar	rellenar rellena rellenando rellenado rellenan rellenas rellene rellenó rellenados rellenarlo rellenaron rellenamos rellené rellenadas rellenada rellenen rellenaba rellenarse rellenarla rellenarlos rellenes rellenaban
+3	6103	short	short shorts
+4	6104	válvula	válvula válvulas
+5	6105	delfín	delfines delfín
+6	6106	peronista	peronista peronistas
+7	6107	virrey	virrey virreyes virreina
+8	6108	colonización	colonización colonizaciones
+9	6109	clip	clip clips
+10	6110	molde	molde moldes
+11	6111	evangélico	evangélica evangélico evangélicos evangélicas
+12	6112	peste	peste pestes
+13	6113	bilateral	bilateral bilaterales
+14	6114	prominente	prominente prominentes
+15	6115	ye	yes ye
+16	6116	carabinero	carabineros carabinero carabinera
+17	6117	modernización	modernización modernizaciones
+18	6118	ficticio	ficticio ficticia ficticios ficticias
+19	6119	fresa	fresa fresas fresita
+20	6120	nómina	nómina nóminas
+21	6121	pampa	pampa pampas
+22	6122	infiel	infiel infieles
+23	6123	objeción	objeción objeciones
+24	6124	terapéutico	terapéutico terapéutica terapéuticos terapéuticas
+25	6125	cognitivo	cognitiva cognitivo cognitivas cognitivos
+26	6126	reiniciar	reiniciar reinicio reinicia reinicie reinició reiniciando reiniciado reinician reiniciarse reiniciaron reiniciará reiniciarlo reiniciara reinicios reiniciamos reinicias reiniciaba reinicien reiniciada
+27	6127	lomo	lomo lomos lomito lomitos
+28	6128	contable	contable contables
+29	6129	recipiente	recipiente recipientes
+30	6130	radial	radial radiales
+31	6131	angular	angular angulo angulares angulas angula angulada
+32	6132	lujoso	lujoso lujosa lujosos lujosas
+33	6133	lámina	láminas lámina
+34	6134	defensiva	defensiva defensivas
+35	6135	arribar	arribó arribaron arribar arribas arriban arribado arribando arribes arribará arribe arribamos arribada arribaban arriben arribaba arribara arribados arribarán
+36	6136	flotar	flotando flotar flotan flotaba flotaban flotó flotas flotado floto flotara floten flotará flotaron
+37	6137	disturbio	disturbios disturbio
+38	6138	racha	racha rachas
+39	6139	capo	capo capos
+40	6140	llanura	llanura llanuras
+41	6141	comercializar	comercializar comercializa comercializado comercializan comercializados comercializada comercializadas comercializando comercializarse comercializó comercializaba comercialicen comercializaron comercializaban comercializarlo comercialice comercializará comercializándose comercializarlos comercializarla
+42	6142	tabasco	tabasco tb
+43	6143	automotor	automotriz automotor automotores automotrices automotora
+44	6144	colmo	colmo colma colmos
+45	6145	peinado	peinado peinados peinada peinadas
+46	6146	vocero	vocero voceros vocera voceras
+47	6147	novelista	novelista novelistas
+48	6148	esqueleto	esqueleto esqueletos
+49	6149	invasor	invasores invasor invasoras invasora
+50	6150	bandeja	bandeja bandejas bandejita
+51	6151	viviente	viviente vivientes
+52	6152	tópico	tópicos tópico tópica tópicas
+53	6153	supresión	supresión supresiones
+54	6154	supervisor	supervisor supervisores supervisora supervisoras
+55	6155	cuernos	cuernos
+56	6156	fray	fray
+57	6157	homosexualidad	homosexualidad
+58	6158	multimedia	multimedia
+59	6159	stop	stop
+60	6160	superioridad	superioridad
+61	6161	yoga	yoga
+62	6162	cantón	cantón cantones
+63	6163	iraní	iraní iraníes
+64	6164	dimisión	dimisión dimisiones
+65	6165	conquistador	conquistadores conquistador conquistadora conquistadoras
+66	6166	pipa	pipa pipas
+67	6167	recargar	recargar recargo recargado recargos recargada recargando recargas recargadas recargan recargados recargue recargarse recarguen recargó recargarlo recargaba recargarla
+68	6168	reponer	reponer repuestos reponerse repuso repuesta repone reponiendo reponen reponga repongan repusieron reponerlo repuestas repondrá reponerme repongo repusiera repuse reponerla repondrán reponiéndose reponía reponerlos reponernos
+69	6169	sobresalir	sobresale sobresalen sobresalir sobresalió sobresaliendo sobresalía sobresalido sobresalían sobresalieron sobresalga sobresalgan
+70	6170	balanza	balanza balanzas
+71	6171	stock	stock stocks
+72	6172	deslizar	desliza deslizarse deslizó deslizar deslizan deslizándose deslizando deslizado deslizaba deslice deslicé deslizaron deslizo deslices deslicen deslizas deslizaban deslizarme deslizamos deslizara deslizará deslizarte deslízate
+73	6173	belga	belga belgas
+74	6174	page	page pages
+75	6175	romeo	romeo romea
+76	6176	cordial	cordial cordiales
+77	6177	soborno	sobornos soborno
+78	6178	ingenioso	ingenioso ingeniosa ingeniosos ingeniosas
+79	6179	abismo	abismo abismos
+80	6180	meditar	meditar meditando medita meditado meditada meditarlo medito meditó meditaba meditan mediten meditamos medité meditadas meditas meditados medites meditemos medite
+81	6181	paraguas	paraguas paragua paragüas
+82	6182	ofensa	ofensa ofensas
+83	6183	ardiente	ardiente ardientes
+84	6184	pascual	pascual pascuales
+85	6185	extraterrestre	extraterrestres extraterrestre
+86	6186	recital	recital recitales
+87	6187	pacheco	pacheco pacheca pachecos
+88	6188	sustento	sustento sustentos
+89	6189	enfadado	enfadado enfadada enfadados enfadadas
+90	6190	contaminar	contaminar contamina contaminan contaminada contaminando contaminados contaminadas contamine contaminen contaminó contaminarse contaminaron contaminaba contaminará contaminas contaminamos
+91	6191	didáctico	didáctica didáctico didácticos didácticas
+92	6192	manchar	manchar manches manchas manchan manche manchada mancharse manchando manchadas manchados manchen manchó mancho mancharon manchaba manché mancharme mancharte manchara mancharlo
+93	6193	zapatero	zapatero zapateros zapatera
+94	6194	panamericano	panamericana panamericano panamericanos panamericanas
+95	6195	licor	licor licores
+96	6196	amateur	amateur amateurs
+97	6197	sensual	sensual sensuales
+98	6198	aparentar	aparentar aparenta aparentan aparentando aparentaba aparentes aparento aparentas aparentaban aparentarlo aparentamos aparenten aparentó
+99	6199	navideño	navideña navideño navideñas navideños
+100	6200	beneficioso	beneficioso beneficiosa beneficiosos beneficiosas

@@ -1,0 +1,100 @@
+1	4601	cigarrillo	cigarrillos cigarrillo cigarillo
+2	4602	out	out outs
+3	4603	paralizar	paralizado paralizar paralizada paraliza paralizó paralizados paralizadas paralizan paralizaron paralice paralizando paralizará paralizarse paralizaba paralizaría paralizo paralicen paralizara
+4	4604	muelle	muelle muelles
+5	4605	puño	puño puños
+6	4606	modesto	modesto modesta modestos modestas
+7	4607	flash	flash flashes
+8	4608	clan	clan clanes
+9	4609	radicar	radica radicó radican radicar radicarse radicaba radicaron radicales radicada radicados radicando radique radicadas radicándose radicará radico radiquen radicaban radicaría
+10	4610	apasionado	apasionado apasionada apasionados apasionadas
+11	4611	precisar	precisar precisa precisan precisó precisado precisas precisamos precisaba precise precisando precisen precisaron precisaban precisará precisada precises precisaría precisarse precisados precisarlo precisarán precisara precisemos
+12	4612	configurar	configurar configura configurado configuran configurando configurada configuró configurados configurarse configurarlo configure configuradas configuraron configuraba configurándose configuren configuraban configuras configuré configurarla configuro configurará
+13	4613	brecha	brecha brechas
+14	4614	orar	orar orando ore oren oremos oran órale oramos orales orale oró oras oraba orate ores oré orad orado oraron orates oraban oraremos
+15	4615	béisbol	béisbol beisbol
+16	4616	sereno	serena sereno serenos serenas serenísimo
+17	4617	chip	chip chips
+18	4618	generador	generador generadores generadora generadoras
+19	4619	canciller	canciller cancilleres
+20	4620	cátedra	cátedra cátedras
+21	4621	desacuerdo	desacuerdo desacuerdos
+22	4622	bombardeo	bombardeo bombardeos
+23	4623	infracción	infracción infracciones
+24	4624	diputación	diputación diputaciones
+25	4625	trago	trago tragos traguito
+26	4626	asado	asado asada asados asadas asadito
+27	4627	mera	mera meras
+28	4628	hipócrita	hipócrita hipócritas
+29	4629	relieve	relieve relieves
+30	4630	piña	piña piñas
+31	4631	guardián	guardián guardianes guardiana guardianas
+32	4632	combinado	combinado combinada combinados combinadas
+33	4633	maestría	maestría maestrías
+34	4634	comunismo	comunismo
+35	4635	continuamente	continuamente
+36	4636	credibilidad	credibilidad
+37	4637	diariamente	diariamente
+38	4638	gafas	gafas
+39	4639	off	off
+40	4640	submarino	submarino submarinos submarina submarinas
+41	4641	colgado	colgado colgada colgados colgadas
+42	4642	retroceder	retroceder retrocede retrocediendo retrocedió retrocedido retroceden retrocedieron retroceda retrocedemos retrocedía retrocedo retrocedí retrocedan retrocediera retrocederemos retrocederá retrocedimos retrocedamos retrocedían retrocedieran retrocedes
+43	4643	embarazar	embarazada embarazadas embarazar embaraza embarazó embarazarse embarazan embarace embarazados embarazas embarazarme embarazarte embarazaron embarazando embaracé
+44	4644	adelantado	adelantado adelantada adelantados adelantadas
+45	4645	aguja	aguja agujas
+46	4646	camilo	camilo camila
+47	4647	tortuga	tortuga tortugas tortuguita
+48	4648	cajón	cajón cajones cajoncito
+49	4649	bibliografía	bibliografía bibliografías
+50	4650	requerimiento	requerimientos requerimiento
+51	4651	afición	afición aficiones
+52	4652	accionista	accionistas accionista
+53	4653	indonesio	indonesia indonesio indonesios indonesias
+54	4654	convivencia	convivencia convivencias
+55	4655	incentivo	incentivos incentivo
+56	4656	cereal	cereales cereal
+57	4657	liceo	liceo liceos
+58	4658	recopilar	recopilar recopila recopilado recopilados recopilando recopilada recopiladas recopiló recopilan recopilamos recopilaron recopile recopilaba recopilará recopilen recopilo
+59	4659	balcón	balcón balcones balconcillo
+60	4660	requerido	requerido requerida requeridos requeridas
+61	4661	cheque	cheque cheques
+62	4662	diámetro	diámetro diámetros
+63	4663	encantador	encantadora encantador encantadores encantadoras
+64	4664	divisa	divisas divisa
+65	4665	encendido	encendido encendida encendidas encendidos
+66	4666	asilo	asilo asilos
+67	4667	recaudación	recaudación recaudaciones
+68	4668	inconsciente	inconsciente inconscientes inconciente
+69	4669	cabildo	cabildo cabildos
+70	4670	monarca	monarca monarcas
+71	4671	serrano	serrano serrana serranos serranas
+72	4672	heredar	heredó heredar hereda heredaron heredan heredada heredad heredamos heredé heredados herede heredadas heredarán heredo heredades heredando heredará hereden heredaría heredaba heredara heredaste heredas heredaban heredaran heredarlo heredarse
+73	4673	blando	blando blanda blandos blandas blandito
+74	4674	supervisión	supervisión supervisiones
+75	4675	lote	lote lotes
+76	4676	desprender	desprende desprenden desprenderse desprendió desprendido desprender desprendía desprenda desprendida desprendiendo desprendieron desprenderme desprendían desprendernos desprendan desprendiéndose desprendidos desprendidas desprenderte desprenderá desprendes desprendiera desprendo
+77	4677	provecho	provecho provechos
+78	4678	húngaro	húngaro húngara húngaros húngaras
+79	4679	simpático	simpático simpática simpáticos simpáticas simpatiquísimo
+80	4680	milicia	milicia milicias
+81	4681	seno	seno senos
+82	4682	metodología	metodología metodologías
+83	4683	santuario	santuario santuarios
+84	4684	roble	robles roble
+85	4685	expresidente	expresidente expresidentes expresidenta
+86	4686	lámpara	lámpara lámparas lamparita lamparitas lamparilla
+87	4687	abiertamente	abiertamente
+88	4688	allende	allende
+89	4689	benito	benito
+90	4690	económicamente	económicamente
+91	4691	irlanda	irlanda
+92	4692	joyas	joyas
+93	4693	narcotráfico	narcotráfico
+94	4694	plenamente	plenamente
+95	4695	anécdota	anécdota anécdotas
+96	4696	muñeco	muñeco muñecos muñecas muñequitos muñequito
+97	4697	alojamiento	alojamiento alojamientos
+98	4698	aislar	aislar aislados aislada aisladas aislarse aísla aislando aisló aíslan aislaron aisla aislan aislarlos aislarlo aislarme aislarnos aislaba aislarla aislarte aislándose aislamos aísle aislé aíslen
+99	4699	socorro	socorro socorros
+100	4700	viral	viral virales

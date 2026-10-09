@@ -1,0 +1,100 @@
+1	1601	habilidad	habilidades habilidad
+2	1602	humanidad	humanidad humanidades
+3	1603	valencia	valencia valencias
+4	1604	patria	patria patrias
+5	1605	ideal	ideal ideales
+6	1606	socio	socio socios socia socias
+7	1607	alternativa	alternativa alternativas
+8	1608	novio	novio novios novias noviecito
+9	1609	frecuencia	frecuencia frecuencias
+10	1610	cuadro	cuadro cuadros cuadritos cuadrito
+11	1611	supremo	supremo suprema supremos supremas
+12	1612	enterar	enteré enterarse entere enteró enterar enteramos enterarme entera enteran enteraron enteren enterarte entérate enteraste enterando enteras enterarnos enterara enteraba enteres enterados enterada enteraran enterará enterate entérese enteraría enteraremos enteremos enteraban enterase enterándose enterarán enterás entérense enteráis enterarás enterándome enteraras enteraré
+13	1613	occidental	occidental occidentales
+14	1614	madera	madera maderas
+15	1615	colección	colección colecciones
+16	1616	gay	gay gays gais
+17	1617	transmitir	transmitir transmite transmitido transmiten transmitió transmitida transmitiendo transmitidos transmitidas transmita transmitía trasmitir transmitirá transmitieron transmitirse transmitan transmitían transmitirlo transmitimos transmitirle transmitirán transmites transmitiera transmito transmitirles transmitirla transmitiremos transmitirlos transmitiría transmití transmitirlas transmitirnos transmitirte transmitieran transmitiéndose transmitirme transmitirían transmitiré transmitas transmitiéndole
+18	1618	regreso	regreso regresos
+19	1619	superficie	superficie superficies
+20	1620	reacción	reacción reacciones
+21	1621	manifestar	manifestó manifestado manifiestan manifestar manifestarse manifestaron manifiesta manifestando manifestaba manifieste manifestaban manifestándose manifiesten manifestamos manifestada manifestará manifestarnos manifestarán manifestara manifestadas manifesté manifestaran manifesta manifestarlo manifestados manifestarle manifestaría manifestarte manifestarme manifiéstate manifiestas manifestemos manifestarían manifestaremos manifestándole
+22	1622	inmediatamente	inmediatamente
+23	1623	jueves	jueves
+24	1624	oh	oh
+25	1625	musical	musical musicales
+26	1626	lectura	lectura lecturas
+27	1627	barco	barco barcos barquito
+28	1628	bola	bola bolas bolitas bolita
+29	1629	exacto	exacto exacta exactas exactos
+30	1630	raíz	raíz raíces
+31	1631	príncipe	príncipe príncipes principe principito
+32	1632	ilegal	ilegal ilegales
+33	1633	dificultad	dificultades dificultad
+34	1634	instrumento	instrumentos instrumento
+35	1635	conexión	conexión conexiones
+36	1636	toca	toca tocas
+37	1637	ayuntamiento	ayuntamiento ayuntamientos
+38	1638	representación	representación representaciones
+39	1639	colaboración	colaboración colaboraciones
+40	1640	aguantar	aguantar aguante aguanta aguanto aguantando aguantan aguanten aguantado aguantó aguantas aguantaba aguanté aguantarse aguantamos aguantarme aguantarlo aguantaría aguantaron aguantarte aguantes aguantará aguantara aguantaban aguantaste aguantaré aguantarla aguantate aguantaremos aguántate aguantarnos aguantarían aguantarlos aguantá aguantarle aguantarán aguantemos aguántense aguantaran aguantarías aguantad
+41	1641	emplear	empleados emplea emplear emplean empleando empleó emplearon emplearse empleaba empleaban empleadas empleamos emplee empleen empleará emplearlos emplearlo emplearán emplearía empleándose empleas emplearla empleara emplearan emplearemos emplearlas empleé emplearé emplearían emplees emplead emplease empleemos
+42	1642	comportamiento	comportamiento comportamientos
+43	1643	sensación	sensación sensaciones
+44	1644	judío	judíos judío judía judías
+45	1645	transformar	transformar transforma transformado transformó transformarse transforman transformando transformada transformaron transforme transformados transformándose transformarlo transformará transformadas transformen transformo transformarla transformaba transformaría transformamos transformarán transformarlos transformara transformándola transformarlas transformarnos transformándolo transformas transformarme trasformar transformaban transformarte transformemos transformándolos transformes transformase transformé transformaran transformarían
+46	1646	infantil	infantil infantiles
+47	1647	doler	duele doler dolió duela duelen dolía dolido dolerá doliendo dolida dolían dolería dolidos duelan doliera dolerme dolieron dolerle duelas dueles dolerte dolerán doliese
+48	1648	criminal	criminal criminales
+49	1649	introducir	introducir introduce introducido introdujo introduciendo introducida introducen introducidos introdujeron introducidas introducirse introduzca introducía introduzcan introducirá introducimos introduje introducirlo introdujera introduces introduciría introduciéndose introducirla introducían introduzco introducirlos introducirán introducirnos introducirme introdujeran introducirte introducirlas introducirle introduciremos introdujimos introducirían introduciéndolo introduzcas
+50	1650	claramente	claramente clarísimamente
+51	1651	montar	montar montado monta montes montada montando montó montan montados montaron montaba montadas montamos montarse montas montarlo monten montesa montaban monté montés montarme montará montarla montarte montara montaría monteses montarán montás móntate montaran montaremos montarlos montarle montarnos montale montemos montándose montarlas
+52	1652	generalmente	generalmente
+53	1653	explicación	explicación explicaciones
+54	1654	caliente	caliente calientes calentito calentita calentitos calentitas calientito
+55	1655	preparado	preparado preparados preparada preparadas
+56	1656	invertir	invertir invertido invierte invirtiendo invierten invirtió invertida invertidos invirtieron invierta inviertan invertirá invertimos invertidas invertí inviertes invertirlo invertirán invierto invertiría invertirse invertía invirtiera inviertas invirtieran invertirlos invertiste invertían invertirían invertirla invirtamos invertiremos
+57	1657	poeta	poeta poetas poetisa poetisas
+58	1658	licencia	licencia licencias
+59	1659	completar	completar completa completado completó complete completando completan completas completada completaron completarse completen completaba completará completados completarlo completadas completarla completamos completaban completé completaría completara completes completarán completándose completaremos completaran completarlos completarlas completarían completaré completemos completaste completase
+60	1660	concluir	concluyó concluye concluir concluido concluida concluyendo concluyeron concluyen concluyo concluía concluya concluimos concluidas concluirá concluidos concluyan concluirse concluí concluyera concluiría concluirán concluiremos concluían concluyéndose concluirlo concluirla concluyamos concluyese concluyeran concluyes concluiré
+61	1661	anuncio	anuncio anuncios
+62	1662	escolar	escolar escolares escuelas
+63	1663	montón	montón montones montoncito
+64	1664	financiero	financiero financieros financieras
+65	1665	pista	pista pistas
+66	1666	facilitar	facilitar facilita facilitan facilitando facilitado facilitó facilite faciliten facilitará facilitada facilitaron facilitaría facilitarle facilitaba facilitarles facilitados facilitarán facilitamos facilitara facilitadas facilitaban facilitarnos facilitaran facilitarme facilitarse facilitándoles facilitarte facilitas facilitarían facilitaremos facilitándole facilitarlo facilitase facilito facilité facilitarla
+67	1667	publicidad	publicidad publicidades publi
+68	1668	variar	variar varía varían variados variadas variado variada variando varió varías variaba variaban variaron variará varíe varíen variarán variaría varie variara variarse
+69	1669	show	show shows
+70	1670	obligado	obligado obligados obligada obligadas
+71	1671	denuncia	denuncia denuncias
+72	1672	actualidad	actualidad actualidades
+73	1673	socialista	socialista socialistas
+74	1674	físico	físico físicos físicas
+75	1675	senador	senador senadores senadora senadoras
+76	1676	precisamente	precisamente
+77	1677	perseguir	perseguir persigue perseguido persiguen perseguidos persiguiendo perseguida persiguió perseguía perseguían persiguieron persiga persigan perseguidas perseguirlos perseguimos persigo perseguirá perseguirlo persigues persiguiera persiguiéndolo perseguirla perseguirán persigas perseguirle persiguieran perseguirme persiguiéndolos perseguirte perseguirnos perseguiría perseguí perseguirse persiguiéndola perseguiremos persigamos perseguirlas perseguirles persiguiéndole
+78	1678	traducción	traducción traducciones
+79	1679	jornada	jornada jornadas
+80	1680	ámbito	ámbito ámbitos
+81	1681	perspectiva	perspectiva perspectivas
+82	1682	comprobar	comprobar comprobado comprueba comprobarlo comprobó compruebe comprobando comprobada comprobamos comprobé comprueban compruébalo comprobados comprobarse comprobaron comprueben compruebo comprobadas comprobará comprobaremos comprobaba compruebes comprobara compruebas comprobemos comprobarás comprobarán compruébelo comprobarla comprobaría comprobaran compruébenlo comprobarlos comprobad comprobe comprobarlas comprobándose comprobaré
+83	1683	acusar	acusa acusan acusó acusar acusando acusaron acusados acusaba acuse acusada acusaban acuso acusarlo acusen acusándolo acusas acusarme acusarlos acusara acusará acusadas acusarle acusándolos acusándole acusarán acusaran acuses acusamos acusándola acusarla acusarnos acusaría acusándome acusarían acusarse acusarte acusándoles acusándose acusaremos acusarles
+84	1684	concreto	concreto concreta concretas concretos
+85	1685	justificar	justificar justifica justificado justifican justificada justifique justificando justificó justificadas justificarse justificados justifiquen justificaba justificaron justificarlo justifico justificaría justificaban justificara justificarla justifiques justificas justificamos justificarme justificarte justificará justificándose justificarían justificándolo justificarlos justificarlas justificaran justificarnos justificarán
+86	1686	reflejar	refleja reflejan reflejar reflejado reflejada reflejaba reflejando reflejó refleje reflejados reflejadas reflejaban reflejen reflejaron reflejará reflejarse reflejara reflejaría reflejas reflejándose reflejarán reflejaran reflejarlo reflejamos reflejase
+87	1687	intelectual	intelectual intelectuales
+88	1688	presidencia	presidencia presidencias
+89	1689	navidad	navidad navidades
+90	1690	cubano	cubano cubana cubanos cubanas cubanita
+91	1691	típico	típico típica típicos típicas
+92	1692	modificar	modificar modificado modifica modificada modificados modificó modificadas modifican modificando modifique modificaron modificarse modifiquen modificarlo modificarla modificará modificaba modificaría modificamos modificarlos modificara modifico modificarlas modificarán modificándose modificaran modifiqué modificaban modificas modificase modificándolo
+93	1693	violar	viola violar violado violada violan violando violó violaron violen violadas viole violados violo violarla violaba violas violaban violaría violara violarte violaran violé violaste violarlas violarme violes violarlo violará violamos violarán violarlos violarían violaré violarse violare
+94	1694	cola	cola colas colita colitas
+95	1695	amistad	amistad amistades
+96	1696	gordo	gordo gorda gordos gordas gordito
+97	1697	constitucional	constitucional constitucionales
+98	1698	juventud	juventud juventudes
+99	1699	moreno	moreno morena morenas morenos morenita morenito
+100	1700	escala	escala escalas

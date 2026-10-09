@@ -1,0 +1,100 @@
+1	1	el	la el los las
+2	2	de	de del des della
+3	3	que	que khe
+4	4	a	a al
+5	5	en	en na nel
+6	6	y	y
+7	7	un	un una uno unos unas ún
+8	8	ser	es ser son fue era sea soy sido será eres fueron fuera siendo sé eran sería somos sean serán fui sos seas seres serían fuese fueran fuimos sera fuiste seamos serlo sois eras seré sed serás éramos seremos sida fueras
+9	9	no	no non nones noes
+10	10	se	se ce ge ces ges
+11	11	por	por x pr
+12	12	con	con
+13	13	para	para pa pal pr paras pa'l pora pales
+14	14	su	su sus
+15	15	haber	ha hay han había he haber hemos haya hubiera habían has hubo habrá habría hayan habia hubiese habido hubieran haberse habiendo hayas habéis habrían haberlo habíamos habrán hubieras hubiesen haberme haberle habías haberte hayamos haberla hubiéramos habré habrás aver habremos
+16	16	lo	lo
+17	17	estar	está están estoy estaba estar estamos estás estaban estuvo estados esté estará estaría estén estuve estando estés estarán estuvieron estuviera estábamos estaré estaremos estabas estemos estáis estarían estuvimos estuvieran estarás estuviese estaríamos estela esten estuviste estuvieras estarías estara estarlo estate
+18	18	este	este esta estos estas éste ésta éstos éstas estes ésto aquéllas
+19	19	tener	tiene tengo tener tienen tenemos tenía tienes tuvo tenido tenga tenían tuve tendrá teniendo tengan tuvieron tengas tendría tenes tendrán tuviera tuvimos tendremos ten teníamos tendrás tengamos tenéis tendré tenés tendrían tenerlo tenías tuviste tuvieran tendríamos tendrías tuviese tenerla tenerte
+20	20	hacer	hacer hace hecho hizo haciendo hacen hacerlo haga hago hicieron haces hechos hice hacía hacemos hagan hará hacerse hagas haría hiciste haz hecha hacerle hacerte harán hacían hacerme hicimos hechas hiciera haré hagamos hacerla haremos hacernos harían hicieran hacerles hazlo
+21	21	como	como
+22	22	más	más mas
+23	23	me	me
+24	24	todo	todo todos todas toda todes todito
+25	25	poder	puede poder pueden puedo podemos puedes podría pueda podía pudo puedan podrá podrían podido pudiera pude podrán poderes puedas podían pudieron podrías podrás podríamos podamos pudieran podremos podéis pudiendo pudimos podré podés podíamos pudiese pudiste podías pudiéramos pudieras pudiesen podréis
+26	26	ir	va voy ir fue vamos van vas iba vaya fueron fuera ido ve vayan iban irse vayas ves irán yendo irme fui irá ida iría id iré irte vais íbamos ibas ba vayamos fuese fueran iremos fuimos vela vete fuiste
+27	27	si	si
+28	28	pero	pero pr peros
+29	29	decir	decir dice dijo dicho dicen digo diciendo dije decía diga dices dijeron di dicha diría decirle digas digan dime decirlo decirte dichos digamos dijiste decían decimos dichas diré dirá decirme decirles dile dijera decís dirán dijimos decirse diciéndole decirnos decime
+30	30	te	te tes
+31	31	o	o
+32	32	mi	mi mis mu mija mijito
+33	33	ver	ver visto veo vi vista ve ven viendo vemos vio ves vea verlo verte vieron viste veía veremos véase vean verla verse vimos verás veamos veas verá vistas verlos verán verme vela vete vistos ví viera veían velas vernos veré
+34	34	otro	otro otros otra otras
+35	35	le	le
+36	36	ese	ese esa esos esas ése ésa ésos ésas eses aquéllas
+37	37	dar	da dar dio dado dan darle dando dieron das doy den daba dale darse di darte dará dé dada darme damos dame daría darles daban darnos diera darán dándole diste dimos dados date dadas daré demos dieran daremos darás denle
+38	38	ya	ya
+39	39	querer	quiero quiere quieres quieren quería queremos quiera quieras querer quisiera quiso quieran querían quise queres queriendo querés queréis querida querías quisieron queridos queríamos quisieran querría queramos quisieras quisiste querrá quisiéramos quisimos querrás queráis querrán quererlo quererte querrían queridas querré quererme
+40	40	año	años año añito
+41	41	tu	tu tus
+42	42	mucho	mucho muchos muchas mucha muchísimo muxo muncho
+43	43	yo	yo sho yos yoes
+44	44	cuando	cuando quando
+45	45	solo	solo sólo sola solos solas solito
+46	46	sin	sin
+47	47	bueno	bueno buena buen buenos buenas bonos bono buenísimo bon óptimo óptima óptimas bona weno óptimos güeno wenas buenota güena buenotas güenos bonas
+48	48	también	también tambien tb tmb tmbn tamb tamién
+49	49	muy	muy
+50	50	vez	vez veces vezes
+51	51	sobre	sobre sobres sobrecito
+52	52	día	día días dia
+53	53	así	así asi haci ansi asín ansina assí asina
+54	54	nuestro	nuestro nuestra nuestros nuestras
+55	55	eso	eso
+56	56	porque	porque pq xq pork
+57	57	nos	nos
+58	58	mismo	mismo misma mismos mismas mismísimo mismito mesmo
+59	59	nuevo	nuevo nueva nuevos nuevas novo nuevecito nuevito nuebo novísimo
+60	60	alguno	algunos alguna algunas algún alguno
+61	61	qué	qué khé khe
+62	62	deber	debe debería deben debemos deberían debes debo debía debió deberá deberíamos deber deberías deberán debían deba deberes debieron debiera deban debí deberás debiendo debieran debíamos deberemos deberse debéis debamos debas debiste deberíais debimos debiéramos debida debías debiese deberé debieras debés
+63	63	saber	saber sabe sabes saben sabemos sabía sé sepa sabido sabiendo supo sabían sepan supe sepas sabías saberlo sabéis sabrá sabíamos supiera sabrás sabría sabés sabrán sabremos sepamos supieron supieras supieran supimos sabré supiste saberes saberse supiese sabrías sepáis sabrían sabréis
+64	64	bien	bien bienes bn
+65	65	primero	primera primer primero primeros primeras primerísimo primerito
+66	66	dos	dos doses
+67	67	entre	entre
+68	68	desde	desde
+69	69	hasta	hasta fasta jasta
+70	70	él	ellos él
+71	71	grande	gran grandes grande grandísimo grandullón grandecito grandulón
+72	72	pasar	pasa pasar pasó pasando pase pasan pasaron pasaba pasamos pasará pasé pasada pasen pasas pasaría pasara pases pasaban pasarán pasados pasaste pasarlo pasadas pasarla pasarse pasarme pasemos pasarte pasaran pasarle pasaremos pasarían pasaré pasame pásame pasase pásalo pasábamos pásate pasate
+73	73	creer	creo cree creer creen crees creemos creía crea creí creyendo crean creyó creas creían creído creyeron creerlo creamos creerse creería creías creeme créeme creíamos creerle creed creyera creerás creéis creido creerte créanme creímos creerme creerá creíste creerán creé creyéndose creyeran
+74	74	parte	parte partes partecita
+75	75	esto	esto ésto aquéllas
+76	76	ahora	ahora ahorita agora
+77	77	dejar	dejar deja dejó dejado dejo dejan dejando deje dejen dejaron dejes dejamos dejas dejé dejaba dejarlo dejemos dejará déjame dejaste dejara dejaría dejarse dejame dejarla dejarte dejaré dejaban dejarme dejarán dejaran dejarlos dejarnos déjalo dejarle dejaremos dejad déjate déjenme dejalo
+78	78	mejor	mejor mejores mejorcito
+79	79	persona	personas persona personita
+80	80	nada	nada ná na nadita
+81	81	ni	ni nin nen
+82	82	cosa	cosas cosa cosilla
+83	83	tiempo	tiempo tiempos tiempito tienpo tiempecito
+84	84	donde	donde
+85	85	seguir	sigue seguir siguen sigo siguiendo seguido siga seguimos siguió sigan seguirá sigues seguía siguieron seguida seguí seguirán seguiremos sigamos seguidos seguían seguiré sigas seguidas seguiría siguiera sígueme seguís seguirlo seguid seguirle seguirme seguirían seguirla siguieran seguirás seguirlos seguirte seguirse seguirnos
+86	86	hablar	hablar habla hablando hablan hablo hablamos hablas habló hablaba hablado hable hablemos hables hablen hablé hablarle hablaban hablaron hablarte hablarme hablara hablaremos hablará hablábamos háblame hablaré hablada hablarlo hablaste hablaría hablabas hablarles hablarán hablaran hablarnos hablarse habláis hablándole habladas hablame
+87	87	llegar	llegar llegó llega llegado llegan llegaron llegue llegada llegando llego llegamos llegué llegará llegas lleguen llegaba llegara llegaste llegaban llegaría llegarán llegues llegados llegaran lleguemos llegaremos llegase llegadas llegarían llegarás llegaré llegaras llegasen llegare llegábamos llegaríamos llegarle llegabas llegándose llegarse
+88	88	algo	algo alguito algos
+89	89	vida	vida vidas vidilla vidita
+90	90	estado	estado estados estada
+91	91	encontrar	encontrar encuentra encuentro encuentran encontrado encontró encontré encontramos encontraba encontraron encuentras encuentre encontrarse encuentros encontraban encuentren encontrará encontrarás encontrados encuentres encontrada encontrando encontrarán encontrarlo encontradas encontrarme encontrarte encontre encontraremos encontrarla encontrarnos encontraste encontraras encontrara encontraría encontremos encontrarlos encontraran encontrarle encontrándose
+92	92	poco	poco pocos pocas poca poquito poquísimo poquillo poko
+93	93	poner	poner pone puso ponen poniendo pongo puse ponerse ponga pusieron pones puestos pongan ponte ponerle ponemos puesta ponerme ponía pongas pon ponerte pondrá ponerlo pusiste pondría ponernos pongamos pusimos pusiera ponerla pondré pondrán ponían ponerlos puestas pondremos ponle póngase pusieran
+94	94	tan	tan
+95	95	tanto	tanto tanta tantos tantas tantito tantísimo
+96	96	después	después despues dps
+97	97	e	e ees
+98	98	siempre	siempre
+99	99	llevar	lleva llevar llevó llevan llevo llevado llevaba llevaron llevando lleve llevamos llevará llevas llevaban llevarse lleven llevada llevarlo llevaría llevados llevarán llevara llevarla llevarte llevadas llevé llevarme lleves llevarlos llevarnos llevaran llevándose llevarle llévate llevaré llevarlas llevarían llevaste llévame llevemos
+100	100	país	país países paisito

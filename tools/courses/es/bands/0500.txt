@@ -1,0 +1,100 @@
+1	401	plan	plan planes
+2	402	cara	cara caras carita caritas
+3	403	educación	educación educaciones
+4	404	datos	datos
+5	405	chico	chicos chico chicas chiquito chiquita chiquitos chiquitas chiquitín chiquitito
+6	406	interés	interés intereses interes interese
+7	407	medida	medida medidas
+8	408	luz	luz luces lucecita
+9	409	partir	partir parto partida partió partiendo parten partieron partidas partimos partos parta partía partirá partí partirse partían partan partiría partamos partirle partiera partirán partiste partiremos partirte partid partas partiré partiéndose partirme partirlo partirla partieran partís partirían partirnos partirles partíamos partirás partiese
+10	410	obtener	obtener obtuvo obtenido obtiene obtenidos obtienen obtuvieron obtenida obteniendo obtenga obtenidas obtendrá obtengan obtienes obtenemos obtuve obtén obtendría obtenía obtendrán obtenerlo obtuvimos obtendrás obtenerse obtendremos obtuviera obtengo obtenían obtenerla obtendrían obtengas obtengamos obteniéndose obtuvieran obtenerlos obtuviste obtenerlas obtuviese obtendríamos obten
+11	411	local	local locales
+12	412	cinco	cinco cincos
+13	413	ello	ello
+14	414	demasiado	demasiado demasiada demasiados demasiadas demaciado
+15	415	valor	valor valores
+16	416	mostrar	mostrar muestran mostró mostrando mostrado mostraron mostraba muestre muestras mostraban muestro mostrarle mostramos muestren mostrarse mostrará mostrarte mostrarles mostrada mostrarnos mostré mostrara mostrados mostraremos mostrarlo mostrarme mostrarán mostrándose muestres muéstrame mostradas mostraría mostraré mostraran mostrándole mostraste mostrarla mostremos mostrare mostrarlas
+17	417	página	página páginas pág
+18	418	total	total totales
+19	419	mundial	mundial mundiales
+20	420	campo	campo campos campillo campito
+21	421	futuro	futuro futuros futura futuras
+22	422	inglés	inglés inglesa ingleses inglesas
+23	423	comunidad	comunidad comunidades
+24	424	web	web webs
+25	425	decidir	decidió decidir decide decidieron decidí deciden decidimos decida decides decido decidan decidirá decidiera decidas decidida decidiendo decidiste decidirse decidía decididos decidirán decidieran decidirme decidamos decidirlo decidían decidirte decidiría decidís decídete decididas decidiese decidiremos decidiré decidirnos decidite decidiéndose decidirían decídanse decidirás
+26	426	realmente	realmente
+27	427	cumplir	cumplir cumple cumplido cumplen cumpla cumplió cumpliendo cumplan cumplieron cumplía cumplirá cumplidos cumplida cumplirse cumplo cumplí cumplimos cumples cumplían cumpliera cumplidas cumplas cumplirán cumpliría cumplirlo cumplirla cumplirlas cumpliré cumpliste cumplieran cumplirlos cumpliremos cumplirían cumplís cumpliéndose cumplamos cumpliese cumplirás cumplirle cumplid
+28	428	población	población poblaciones
+29	429	movimiento	movimiento movimientos
+30	430	allí	allí alli
+31	431	región	región regiones
+32	432	alcanzar	alcanzar alcance alcanza alcanzó alcanzado alcanzan alcanzaron alcanzando alcanzaba alcanzo alcances alcanzados alcanzará alcanzada alcancen alcanzaría alcanzamos alcancé alcanzara alcanzarlo alcanzaban alcanzadas alcanzarán alcanzarla alcanzarlos alcanzas alcanzarse alcanzarían alcanzaran alcanzaremos alcancemos alcanzarte alcanze alcanzaste alcanzase alcanzarlas alcanzarle alcanzarás alcanzarme alcanzándose
+33	433	serie	serie series
+34	434	demás	demás
+35	435	tocar	tocar toque tocó tocado tocando tocan tocaba toco toques toquen tocaron tocará tocara tocaban tocamos tocada tocas tocarla toqué tocarte tocados tocarlo tocarle tocaría tocarme tocarse tocadas tocaste tocaran tocarán tocarlos tocarlas tocándose tocarnos tocase tócame toquemos tocándole toquéis toquecito
+36	436	militar	militar militares milita militan militando militado militó militaba milito militaban militaron militare milite militamos milites militen
+37	437	respuesta	respuesta respuestas
+38	438	significar	significa significar significaba significan significó significaría signifique significará significados significando significara significaron significaban significas significo signifiquen significarán significarían significamos significase significarse significaran significarle significada
+39	439	peor	peor peores
+40	440	cultura	cultura culturas
+41	441	rico	rico rica ricos ricas riquísimo
+42	442	organización	organización organizaciones
+43	443	formar	formar forman formado formando formada formó formaron formados formaban formales formaba formarse formen formadas forme formamos formará formarán formo formándose formara formaran formé formaría formarían formes formarte formarme formemos formarnos formaremos formase formaste formábamos formarlos formáis formasen fórmate formad formarlo
+44	444	aceptar	aceptar acepta aceptado aceptó acepto aceptan aceptada acepte aceptando aceptamos aceptaron aceptarlo aceptas aceptadas aceptados acepten aceptaría aceptaba aceptará aceptara acepté aceptes aceptarán aceptaban aceptarla aceptaran aceptemos aceptarse aceptaré aceptarían aceptaremos aceptarlas aceptarlos acéptalo aceptaste aceptarme aceptase aceptarte aceptalo aceptare
+45	445	común	común comunes comun
+46	446	paz	paz paces
+47	447	voz	voz voces vocecita vocecilla
+48	448	salud	salud saludes
+49	449	hola	hola
+50	450	capital	capital capitales
+51	451	participar	participar participa participaron participó participan participado participando participen participe participo participará participarán participaba participamos participaban participé participas participara participaran participes participaría participarían participaré participemos participaste participada participaremos participase participadas participasen participarás participad participá participáis participare participaras
+52	452	fuente	fuente fuentes fuentecilla
+53	453	compartir	compartir comparte comparten compartido comparto compartiendo compartimos compartida compartió compartirlo compartidos compartan comparta compartía compartieron compartidas compartían compartirla compartes compartí compartiremos compartamos compartas compartirá compartirlas compartirán compartirlos compartiré compartíamos compártelo compartiría compartiera compartirles compartiste compartís compartieran compartirse compartirte compartirnos compartirás
+54	454	producto	productos producto
+55	455	investigación	investigación investigaciones
+56	456	fácil	fácil fáciles facilísimo facilito
+57	457	etcétera	etc etcétera etcéteras
+58	458	os	os
+59	459	serio	serio seria serios serias
+60	460	reconocer	reconocer reconoce reconocido reconoció reconocida reconocidos reconocen reconozco reconocidas reconociendo reconozca reconocerlo reconocieron reconocemos reconocía reconozcan reconocerá reconoces reconocí reconociera reconocerse reconocían reconocería reconocerle reconocerán reconocerlos reconocerla reconozcamos reconocieran reconozcas reconocernos reconocerían reconocimos reconocerme reconocerlas reconocerás reconócelo reconociéndose reconoceremos reconocerles
+61	461	actual	actual actuales
+62	462	vender	vender vende venden vendido vendiendo vendió vendidos vendo venda vendieron vendía vendida vendidas vendían vendan venderlo vendemos vendes vendas venderla venderse venderlos vendí venderle venderá venderlas venderán vendería venderte vendiera vendiste vendernos vendieran venderme venderles vendimos venderían vendiéndose vendamos venderemos
+63	463	modo	modo modos
+64	464	establecer	establecer establecido establece estableció establecidos establecida establecidas establecen estableciendo establecieron establecerse establezca establecía establezcan establecerá estableciéndose establecerán estableciera establecería establecemos establecían establecimos establecieran establecí establezco establezcamos estableceremos estableces establecerlo establecerte establecerían establecerme establezcas estableciese establecerla estableciesen estableceré establecernos
+65	465	prueba	prueba pruebas probadita
+66	466	bastante	bastante bastantes
+67	467	objetivo	objetivo objetivos objetiva objetivas
+68	468	atención	atención atenciones
+69	469	consejo	consejo consejos consejito
+70	470	oportunidad	oportunidad oportunidades
+71	471	ocurrir	ocurre ocurrió ocurrir ocurra ocurren ocurriendo ocurrieron ocurría ocurrirá ocurriera ocurriría ocurran ocurridos ocurrida ocurrían ocurriese ocurridas ocurrirán ocurrieran ocurrirle ocurrirían ocurrirme
+72	472	duda	duda dudas
+73	473	mensaje	mensaje mensajes msj
+74	474	julio	julio julios
+75	475	meter	meter metido mete metió metas meterse meten meto metiendo metes meterme metí metieron metan metida meterte meterle metía metidos metemos meterlo metiste meternos metete metimos meterla metería metiéndose métete metidas metiera metían meterlos metieran metamos metele meterá metelo meterán meterles
+76	476	respecto	respecto respectos
+77	477	río	río ríos rio
+78	478	responder	responder responde respondió responden respondiendo responda respondido respondo respondieron respondí respondan respondía responderá respondes responderle respondas respondiste respondemos responderte responderme respondían respondería responderán responderé respondiera respondidas responderemos respondida responderles respondimos responderla respóndeme respondieran responderlas responderían respondeme respondamos responderse respondidos responderlo
+79	479	parar	parar paro parada parado pare parados paren paradas paró paran pares pará pararse paraba paramos paros pararon paré parando pararme paremos parará pararlo paraban parara pararte pararnos pararle parate pararán parad párate pararemos pararía pararlos parase pararan párese pararé parándose
+80	480	debido	debido debida debidas debidos
+81	481	miedo	miedo miedos
+82	482	canción	canción canciones cancioncita cancioncilla
+83	483	autor	autor autores autora autoras
+84	484	condición	condiciones condición
+85	485	anterior	anterior anteriores
+86	486	experiencia	experiencia experiencias esperiencia
+87	487	cantidad	cantidad cantidades
+88	488	corazón	corazón corazones cor corazoncito corazoncitos
+89	489	suerte	suerte suertes
+90	490	espacio	espacio espacios
+91	491	opinión	opinión opiniones
+92	492	vos	vos vo vós
+93	493	distinto	distintos distintas distinto distinta
+94	494	papel	papel papeles papelillo
+95	495	control	control controles
+96	496	apoyo	apoyo apoyos
+97	497	siglo	siglo siglos
+98	498	puerta	puerta puertas porta portas puertita puertecita
+99	499	música	música músicas
+100	500	ciudadano	ciudadanos ciudadano ciudadana ciudadanas

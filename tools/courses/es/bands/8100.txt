@@ -1,0 +1,100 @@
+1	8001	conocedor	conocedor conocedores conocedora conocedoras
+2	8002	potro	potro potros potrillo potra potras
+3	8003	contorno	contorno contornos
+4	8004	manantial	manantial manantiales
+5	8005	connotación	connotación connotaciones
+6	8006	sofocar	sofocar sofocado sofocada sofocando sofoca sofocó sofocados sofoco sofocadas sofocan sofocos sofocaron sofocarlo sofoque sofocarse sofocaba
+7	8007	desistir	desistir desistió desiste desista desistido desistieron desistan desistí desisto desisten desistas desistiera desistiendo desistimos
+8	8008	corromper	corromper corrompe corrompen corrompiendo corrompida corrompió corrompidos corromperse corrompa corrompieron corrompan corrompidas
+9	8009	comerciar	comerciar comerciales comercia comercian comerciando comerciaba comerciaban comerciado comerció
+10	8010	emplazamiento	emplazamiento emplazamientos
+11	8011	subvencionar	subvenciones subvencionado subvencionados subvencionar subvencionada subvenciona subvencionadas subvencionando subvencione subvencionan subvencionó
+12	8012	mediador	mediador mediadores mediadora mediadoras
+13	8013	vivencia	vivencias vivencia
+14	8014	alfabeto	alfabeto alfabetos alfabeta
+15	8015	exclamar	exclamó exclama exclamar exclamando exclamaba exclamo exclamaron exclaman exclamé
+16	8016	compresión	compresión compresiones
+17	8017	charco	charco charcos charquito
+18	8018	culero	culero culera culeros culeras
+19	8019	nórdico	nórdicos nórdico nórdica nórdicas
+20	8020	mosaico	mosaico mosaicos mosaica
+21	8021	descriptivo	descriptiva descriptivo descriptivos descriptivas
+22	8022	cuadrar	cuadrados cuadrar cuadras cuadran cuadre cuadraba cuadrando cuadró cuadradas cuadren cuadraban cuadraron cuadrarse cuadraría
+23	8023	cooperativo	cooperativo cooperativas cooperativos
+24	8024	camello	camello camellos camella
+25	8025	señorío	señorío señoríos
+26	8026	párroco	párroco párrocos
+27	8027	desacreditar	desacreditar desacreditado desacredita desacreditada desacreditan desacreditarlo desacreditando desacreditados desacreditó desacreditadas desacredite desacreditarla desacreditarme desacreditaron
+28	8028	gastronómico	gastronómica gastronómico gastronómicos gastronómicas
+29	8029	patronato	patronato patronatos
+30	8030	efímero	efímero efímera efímeras efímeros
+31	8031	patinar	patinar patines patina patinando patino patinado patinan patinó patinaba patine patinas patinada
+32	8032	palmera	palmeras palmera
+33	8033	tsunami	tsunami tsunamis sunami
+34	8034	banner	banner banners
+35	8035	telón	telón telones
+36	8036	mutante	mutantes mutante
+37	8037	sublime	sublime sublimes
+38	8038	vinilo	vinilo vinilos
+39	8039	conspirar	conspirar conspirando conspira conspiran conspirado conspiró conspiraron conspiraban conspiraba conspire
+40	8040	macro	macro macros
+41	8041	hispánico	hispánica hispánico hispánicos hispánicas
+42	8042	teñir	teñir tiñe tiñen tiñó tiña teñirse teñida tiñendo teñidas tiñeron teñidos tiño teñía teñí teñirme teñían teñirte tiñas teñirá tiñes teñirlo
+43	8043	sonriente	sonriente sonrientes
+44	8044	crespo	crespo crespos crespa
+45	8045	bloc	block bloc blocs
+46	8046	anticuado	anticuado anticuada anticuados anticuadas
+47	8047	agro	agro agra
+48	8048	patriarcal	patriarcal patriarcales
+49	8049	careta	careta caretas
+50	8050	trabar	trabó trabar trabas traban trabe trabando trabada trabo trabaron trabes trabarse trababa traben trabados trabadas trabé
+51	8051	temple	temple temples
+52	8052	conciliación	conciliación conciliaciones
+53	8053	poblacional	poblacional poblacionales
+54	8054	estufa	estufa estufas
+55	8055	anonimato	anonimato
+56	8056	antiguamente	antiguamente
+57	8057	cho	cho
+58	8058	concordia	concordia
+59	8059	duramente	duramente
+60	8060	facundo	facundo
+61	8061	infinitamente	infinitamente
+62	8062	levemente	levemente
+63	8063	tas	tas
+64	8064	vejez	vejez
+65	8065	íntegramente	íntegramente
+66	8066	flanco	flanco flancos
+67	8067	caverna	caverna cavernas
+68	8068	dogma	dogma dogmas
+69	8069	exhortar	exhorta exhortó exhortar exhortamos exhortando exhortan exhortaba exhortado exhortaron exhortándolos exhorte
+70	8070	mirador	mirador miradores
+71	8071	aceleración	aceleración aceleraciones
+72	8072	fechado	fechado fechada fechados fechadas
+73	8073	cesta	cesta cestas cestita
+74	8074	inquietante	inquietante inquietantes
+75	8075	matizar	matices matizar matizado matizada matiza matizadas matizando matizó matizados matizan matizo
+76	8076	entusiasmado	entusiasmado entusiasmada entusiasmados entusiasmadas
+77	8077	convoy	convoy convoyes
+78	8078	manía	manía manías
+79	8079	farmacéutica	farmacéutica farmacéuticas
+80	8080	vid	vid vides
+81	8081	jugoso	jugoso jugosa jugosos jugosas
+82	8082	emir	emir amir emires
+83	8083	mortero	mortero morteros
+84	8084	plenario	plenaria plenario plenarias plenarios
+85	8085	elástico	elástica elástico elásticas elásticos
+86	8086	agonía	agonía agonías
+87	8087	remix	remix remixes
+88	8088	desordenado	desordenado desordenada desordenados desordenadas
+89	8089	falsificación	falsificación falsificaciones
+90	8090	lab	lab labs
+91	8091	desalojo	desalojo desalojos
+92	8092	formidable	formidable formidables
+93	8093	conformación	conformación conformaciones
+94	8094	olivar	olivares olivar olivé
+95	8095	relámpago	relámpago relámpagos
+96	8096	ágil	ágil ágiles
+97	8097	arrecife	arrecife arrecifes
+98	8098	sesgo	sesgo sesgos sesga
+99	8099	imperativo	imperativo imperativa imperativos imperativas
+100	8100	arqueólogo	arqueólogos arqueólogo arqueóloga

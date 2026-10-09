@@ -1,0 +1,100 @@
+1	3001	gasolina	gasolina gasolinas
+2	3002	cruel	cruel crueles
+3	3003	vigilar	vigilar vigilando vigila vigilado vigilan vigilada vigilados vigilaba vigile vigiladas vigilará vigilen vigilaban vigilarán vigilarlo vigiló vigilamos vigilarlos vigilo vigilara vigilarse vigilaron vigilaremos vigilarla vigilaría vigiles vigilas vigilemos vigilarte vigilaran vigilad
+4	3004	paginar	pagina paginas
+5	3005	llover	llueve llover lloviendo llueva llovió llovía llovido llueven llovieron lloverá lluevan lloviera llovían lloverán llovería
+6	3006	seguimiento	seguimiento seguimientos
+7	3007	núcleo	núcleo núcleos
+8	3008	cultivar	cultivar cultiva cultivan cultivada cultivado cultivadas cultivando cultivados cultivó cultivaban cultivaba cultivaron cultivares cultivarse cultivamos cultivarla cultive cultiven cultivarlas cultivarlo cultivas cultivaran cultivará cultivándose cultivarlos cultivemos
+9	3009	impulso	impulso impulsos
+10	3010	emprender	emprender emprendió emprende emprendido emprendieron emprenden emprendida emprendidas emprendiendo emprenderá emprendidos emprendimos emprenda emprendan emprendemos emprenderán emprendía emprendían emprendí emprendo emprendas emprendiera emprendería emprenderemos emprenderse emprendes emprenderla emprendamos emprenderían emprendieran
+11	3011	invitación	invitación invitaciones
+12	3012	invadir	invadir invadido invade invadió invadieron invaden invadiendo invadida invadidos invada invadidas invadan invadía invadían invadiera invadimos invadieran invadirnos invadirá invadiría invadirán invadirlo invadirla invades invado invadirlos
+13	3013	alegre	alegre alegres
+14	3014	fantasma	fantasma fantasmas fantasmita
+15	3015	nacionalista	nacionalista nacionalistas
+16	3016	cancha	cancha canchas canchita
+17	3017	pinta	pinta pintas
+18	3018	tragedia	tragedia tragedias
+19	3019	habano	habana habanos habano
+20	3020	domicilio	domicilio domicilios
+21	3021	inmenso	inmensa inmenso inmensas inmensos
+22	3022	hierba	hierba hierbas yerba yerbas
+23	3023	océano	océano océanos
+24	3024	data	data datas
+25	3025	transportar	transportar transporta transportaba transportan transportado transportados transportando transportada transportes transportaban transportadas transportarse transportó transportaron transportarlo transportarlos transporten transportarla transportará transportarte transportamos transportarnos transportarme transporto transportarlas transportarán trasportar transportara transportaran transportas transportaría
+26	3026	basa	basa basas
+27	3027	rincón	rincón rincones rinconcito rinconcillo
+28	3028	ciertamente	ciertamente
+29	3029	go	go
+30	3030	respectivamente	respectivamente
+31	3031	rodilla	rodillas rodilla
+32	3032	tanque	tanque tanques
+33	3033	atentado	atentado atentados
+34	3034	refugio	refugio refugios
+35	3035	operador	operadores operador operadora operadoras
+36	3036	feminista	feminista feministas
+37	3037	amanecer	amanecer amanece amaneció amanezca amaneceres amanecido amaneciendo amanecerá amanecí amanecieron amanecía amanecida amanecen amaneciera amanecimos amanezco amanecemos amaneces
+38	3038	coordinación	coordinación coordinaciones
+39	3039	tour	tour tours tournée
+40	3040	empresarial	empresarial empresariales
+41	3041	retrato	retrato retratos
+42	3042	trampa	trampa trampas trampita
+43	3043	gubernamental	gubernamentales gubernamental
+44	3044	guitarra	guitarra guitarras guitarrita
+45	3045	sufrimiento	sufrimiento sufrimientos
+46	3046	cueva	cueva cuevas
+47	3047	informativo	informativo informativa informativos informativas
+48	3048	debatir	debatir debatiendo debates debatido debaten debatió debatida debatimos debatía debatieron debatirá debata debatirse debatidas debatidos debatan debatirán debatían debato debatiéndose debatirlo debatamos debatiremos debatirla debatiera debatirlos
+49	3049	clic	click clic clics
+50	3050	calmar	calmar calmado calme calmate calmada calmo cálmate calmarse calmó calmarme calmen calman calmando calmarte calmados calmarla calmaron calmarlo calmara calmes cálmense calmaba calmadas cálmese calmas calmará calmarlos calmarnos calmé calmamos calmaran calmarle calmaría calmarán calmos calmándose calmaban calmase
+51	3051	sonoro	sonora sonoro sonoras sonoros
+52	3052	barrera	barrera barreras
+53	3053	cotidiano	cotidiana cotidiano cotidianas cotidianos
+54	3054	uruguayo	uruguayo uruguaya uruguayos uruguayas
+55	3055	separación	separación separaciones
+56	3056	reparar	reparar reparado repara reparo reparos reparando reparan repare reparó reparada repararlo reparados repararla reparamos reparen reparadas repararse repararon repararlos reparaba reparé reparará reparara repararlas reparas reparaban reparemos repararán repararan repares repararemos
+57	3057	mascota	mascota mascotas mascotita
+58	3058	censo	censo censos
+59	3059	tubo	tubo tubos tubito tubazo
+60	3060	experimento	experimento experimentos
+61	3061	dinámica	dinámica dinámicas
+62	3062	pasear	pasear paseando pasea pasean paseaba pasearse paseándose paseado paseó paseamos pasee paseaban pasearon paseas pasearme pasearte paseen paseé pasearemos paseábamos pasearlo pasees paseada paseará paseara paseados pasearla pasearnos
+63	3063	casualidad	casualidad casualidades
+64	3064	desconocer	desconoce desconocen desconocer desconozco desconocía desconocemos desconocidos desconociendo desconocían desconoció desconocidas desconozca desconoces desconozcan desconocieron desconociéndose desconociera desconocerse desconocíamos desconocías desconozcas desconocerla desconocerá desconocerlo
+65	3065	oficio	oficio oficios
+66	3066	injusto	injusto injusta injustas injustos
+67	3067	espectador	espectadores espectador espectadora espectadoras
+68	3068	enfrentamiento	enfrentamiento enfrentamientos
+69	3069	integral	integral integrales
+70	3070	charles	charles
+71	3071	dato	dato
+72	3072	efectivamente	efectivamente
+73	3073	totalidad	totalidad
+74	3074	diferenciar	diferenciar diferencian diferencias diferenciadas diferenciados diferenciado diferenciarse diferenciada diferenciales diferenciarlos diferenciaba diferenciando diferenciarlo diferenciándose diferenciaban diferencie diferenciamos diferenció diferenciarlas diferenciarla diferenciarnos diferencio diferencien diferenciaron diferenciará diferenciaría diferenciarte
+75	3075	fantasía	fantasía fantasías
+76	3076	pizza	pizza pizzas
+77	3077	aconsejar	aconseja aconsejo aconsejar aconsejó aconsejado aconsejan aconsejaron aconsejando aconsejaría aconseje aconsejaba aconsejamos aconsejarte aconsejarle aconsejen aconsejada aconsejarme aconsejas aconsejaban aconsejados aconsejé aconsejadas aconsejara aconsejarles aconsejará aconsejándole aconsejaran aconsejarlo aconsejes aconsejarías aconsejarla aconsejarlos aconsejarnos
+78	3078	razonable	razonable razonables
+79	3079	cuenca	cuenca cuencas
+80	3080	acero	acero aceros
+81	3081	delantero	delantero delantera delanteros delanteras
+82	3082	camisa	camisa camisas camisita
+83	3083	pasta	pasta pastas pastón
+84	3084	psicológico	psicológico psicológica psicológicos psicológicas sicológico
+85	3085	percepción	percepción percepciones
+86	3086	insulto	insultos insulto
+87	3087	chocar	chocó choca chocar chocan choco chocaron chocado chocando choques chopo chocaba chocas choquen chopos chocamos choqué chocaban chocará chocara chocaste chocarse chocaría chocarán chocos chocaran chocarme chocada chocados chocarte chócalas
+88	3088	asociar	asocia asociar asocian asociarse asociados asociada asoció asociadas asocio asociando asociaron asocie asociamos asociaba asocien asociándose asociarnos asociarlo asociaban asociará asociarte asocias asociara asocié asociarme asociarla asociaría asociales asociarlos asociaran asociarán asociándolo
+89	3089	químico	químicos químico químicas
+90	3090	tristeza	tristeza tristezas
+91	3091	atrapar	atrapar atrapa atrapados atrapó atrapada atrapan atraparon atrapando atrapadas atrape atrapen atraparlo atrapo atraparlos atrapará atraparla atrapaba atrápalo atrapé atraparán atraparan atrapaste atrapas atrapara atraparte atrapamos atrapaban atraparme atraparía atraparlas atrápame atraparnos atraparían atrapalo atraparle
+92	3092	gerente	gerente gerentes gerenta
+93	3093	afirmación	afirmación afirmaciones
+94	3094	desviar	desviar desvío desviado desvía desvió desvíos desviando desviarse desvían desviados desviada desviaron desvíe desvio desviadas desviamos desviaba desviarnos desvíen desviándose desvia desvié desviará desviaban desviara desviarme desvías desviarlo desviarte desviaría desvian desvie desvíes desviarla desviemos desviaran desviarlos desviarán
+95	3095	denominar	denomina denominan denominó denominar denominada denominarse denominaba denominados denominamos denominaron denominaban denominadas denominará denomine denominando denominarlo denominaría denomino denominándose denominara denominarla denominándolo denominarán denominaremos denominen denominarlos
+96	3096	césar	césar césares
+97	3097	partidario	partidarios partidario partidaria partidarias
+98	3098	probabilidad	probabilidad probabilidades
+99	3099	tapar	tapar tapado tapada tape tapan tapas tapando tapó tapados tapo taparse tapadas tapaba taparon tapes tapen taparlo tapándose taparte tapaban taparle tapé tapamos taparme tápate taparla tapara tapándole tapará tapate tapaste taparan taparlos tapándome taparnos taparía taparlas
+100	3100	solitario	solitario solitaria solitarios solitarias

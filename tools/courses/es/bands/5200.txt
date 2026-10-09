@@ -1,0 +1,100 @@
+1	5101	adversario	adversario adversarios adversaria adversarias
+2	5102	dificultar	dificulta dificultan dificultar dificultando dificultado dificultaba dificultó dificulte dificulten dificultaban dificultaría dificultaron dificultada dificultará dificultadas dificultados dificultarían dificultara
+3	5103	concentrado	concentrado concentrados concentrada concentradas
+4	5104	caudal	caudal caudales
+5	5105	crucial	crucial cruciales
+6	5106	peculiar	peculiar peculiares
+7	5107	merecido	merecido merecida merecidas merecidos
+8	5108	sucesivo	sucesivos sucesivas sucesivo sucesiva
+9	5109	misericordia	misericordia misericordias
+10	5110	cortesía	cortesía cortesías
+11	5111	esparcir	esparcir esparza esparcidos esparce esparcidas esparcido esparciendo esparció esparcen esparcida esparcieron esparcirse esparciéndose esparcía esparcían esparzan esparcirá esparciera esparcieran
+12	5112	maltratar	maltratado maltratados maltratar maltratada maltrata maltratan maltratadas maltratando maltrataba maltraten maltrató maltrataron maltrate maltrataban maltrates maltratas maltratarla maltratarlo maltratarlos maltratarme
+13	5113	dinosaurio	dinosaurios dinosaurio
+14	5114	ilícito	ilícito ilícita ilícitos ilícitas
+15	5115	bo	bo
+16	5116	cal	cal
+17	5117	cojones	cojones
+18	5118	considerablemente	considerablemente
+19	5119	desgraciadamente	desgraciadamente
+20	5120	esencialmente	esencialmente
+21	5121	habitualmente	habitualmente
+22	5122	honestamente	honestamente
+23	5123	islam	islam
+24	5124	quintana	quintana
+25	5125	rapidez	rapidez
+26	5126	vice	vice
+27	5127	rehén	rehenes rehén
+28	5128	bautizar	bautizado bautizada bautizados bautizó bautizar bautizaron bautiza bautizando bautizan bautizadas bautizarse bautizamos bauticé bautizarlo bautice bautizaba bautizará bautizara bautizarla bauticen
+29	5129	hipoteca	hipoteca hipotecas
+30	5130	cool	cool cul jevi
+31	5131	acercamiento	acercamiento acercamientos
+32	5132	minar	minas minar minado mine mino minando minos mines minan minados minada minadas minaron minó
+33	5133	gramo	gramos gramo
+34	5134	pausa	pausa pausas
+35	5135	consentir	consentir consentido consentida consienten consienta consentidos consentidas consintiendo consintió consientan consiento consientes consiente consentirlo consintieron consentimos consentía consentiré consentirte consentiría consientas consentirá consintiera consentirse consentirla consentí
+36	5136	feminismo	feminismo feminismos
+37	5137	óptica	óptica ópticas
+38	5138	pabellón	pabellón pabellones
+39	5139	sobrar	sobran sobraba sobró sobro sobraron sobrando sobraban sobrar sobren sobré sobrara sobraría sobrará sobrados sobrada sobrarían sobras sobrarán sobraran sobramos sobradas sobres
+40	5140	televisar	televisa televisado televisada televisados televisadas televisar
+41	5141	gripe	gripe gripa gripes
+42	5142	unificar	unificar unificado unificada unifica unificadas unificados unificando unificó unifican unificaron unifique unificarse unifiquen
+43	5143	eternidad	eternidad eternidades
+44	5144	reclamación	reclamación reclamaciones
+45	5145	profe	profe profes profa
+46	5146	sarmiento	sarmiento sarmientos
+47	5147	empatar	empatar empató empatados empatado empataron empata empatando empatan empates empatamos empatada empataba empatadas empato empaten empataban
+48	5148	cabrero	cabrera cabrero cabreros
+49	5149	borrador	borrador borradores
+50	5150	incendiar	incendió incendiar incendiado incendia incendiaron incendiada incendiando incendian incendiados incendiadas incendiarse incendie incendiándose incendiaba incendiaban incendien incendiara incendiaran incendies incendiarlo
+51	5151	aspirante	aspirantes aspirante
+52	5152	fallido	fallido fallida fallidos fallidas
+53	5153	revocar	revocar revocó revocado revocada revoque revoca revocados revocadas revoco revoquen revocando revocaron revocan revocará revocarse revocara revocarlo revocarla revoques revocamos revocarlos revocaría revocarle
+54	5154	micrófono	micrófono micrófonos
+55	5155	racial	racial raciales
+56	5156	buscador	buscador buscadores buscadora
+57	5157	centroamericano	centroamericanos centroamericano centroamericana centroamericanas
+58	5158	dudoso	dudosa dudoso dudosos dudosas
+59	5159	diferir	difiere difieren diferir difería diferida difiero diferían difiera difieran diferimos diferidos difirió difiriendo diferidas
+60	5160	chef	chef chefs cheff
+61	5161	interrogar	interrogado interrogar interrogó interroga interrogados interrogaron interrogando interrogada interrogarlo interrogan interrogarla interrogarlos interrogaba interrogamos interrogaban interrogadas interrogue interrogarse interrogarle interrogarnos interrogué interrogara interrogo interrogará interrogarme interrogarles
+62	5162	protestante	protestantes protestante
+63	5163	previsión	previsión previsiones
+64	5164	aferrar	aferrarse aferra aferrado aferran aferrarme aferrada aferrándose aferró aferrados aferro aferrarte aferraba aferras aferramos aferrarnos aferrar aferrando aferré aferres aferraron aferre aférrate aferradas aferraban aferren aferrándome aférrense
+65	5165	inundar	inunda inundar inundó inundan inundando inundaron inundada inundados inunde inundadas inundaba inundo inunden inundaban inundarse inundará inundara inundarán inundaran inundaría
+66	5166	legendario	legendario legendaria legendarios legendarias
+67	5167	pronóstico	pronóstico pronósticos
+68	5168	ibérico	ibérica ibérico ibéricos ibéricas
+69	5169	ginebra	ginebra ginebras
+70	5170	ópera	ópera óperas
+71	5171	cono	cono conos
+72	5172	vacante	vacante vacantes
+73	5173	cráneo	cráneo cráneos craneo
+74	5174	frágil	frágil frágiles
+75	5175	repetición	repetición repeticiones
+76	5176	informal	informal informales
+77	5177	sentenciar	sentenciado sentenció sentenciados sentenciar sentenciada sentenciaron sentencian sentenciadas sentenciando sentencias sentencio sentenciaba sentencie sentenciarlo sentencien sentenciamos
+78	5178	autoritario	autoritario autoritaria autoritarios autoritarias
+79	5179	tambor	tambor tambores
+80	5180	look	look looks
+81	5181	inusual	inusual inusuales
+82	5182	empleador	empleador empleadores empleadora empleadoras
+83	5183	abonar	abonar abonados abonado abona abonando abonará abonan abonada abonadas abone abonó abonarse abonarán abonen abonaron abonarle abonaba abonara abonarlo
+84	5184	quiebra	quiebra quiebras
+85	5185	face	face faces
+86	5186	obsesión	obsesión obsesiones
+87	5187	marinero	marineros marinero marinera marineras marinerito
+88	5188	malvino	malvinas malvina
+89	5189	contenedor	contenedores contenedor contenedora
+90	5190	estirar	estirar estira estirado estirando estirada estiró estirados estiran estirarse estiro estire estiradas estiraba estiras estiré estiraron estirarla estirarte estirarlo estirándose estirarme estiramos estiren estires estiraban
+91	5191	boxeo	boxeo
+92	5192	iris	iris
+93	5193	jeje	jeje
+94	5194	legitimidad	legitimidad
+95	5195	nintendo	nintendo
+96	5196	niñez	niñez
+97	5197	piñera	piñera
+98	5198	simultáneamente	simultáneamente
+99	5199	pirámide	pirámide pirámides
+100	5200	zorra	zorra zorras zorrita zorrón zorrona

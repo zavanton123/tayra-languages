@@ -1,0 +1,100 @@
+1	9601	maña	maña mañas
+2	9602	stream	stream streams
+3	9603	limítrofe	limítrofes limítrofe
+4	9604	viceministro	viceministro viceministra viceministros
+5	9605	hetero	hetero heteros
+6	9606	amargado	amargado amargada amargados amargadas
+7	9607	arcoíris	arcoiris arcoíris
+8	9608	alegato	alegato alegatos
+9	9609	forastero	forasteros forastero forastera
+10	9610	anticuerpo	anticuerpos anticuerpo
+11	9611	maximizar	maximizar maximiza maximizando maximizan maximice
+12	9612	despectivo	despectivo despectiva despectivos despectivas
+13	9613	reembolso	reembolso reembolsos rembolso
+14	9614	destilar	destila destilada destilado destilar destilan destilados destilando destiladas destilaba
+15	9615	furgoneta	furgoneta furgonetas
+16	9616	brutalidad	brutalidad brutalidades
+17	9617	hundimiento	hundimiento hundimientos
+18	9618	liebre	liebre liebres
+19	9619	atropellado	atropellado atropellada atropellados atropelladas
+20	9620	defunción	defunción defunciones
+21	9621	acelerador	acelerador aceleradores aceleradora accelerator aceleradoras
+22	9622	fideicomiso	fideicomiso fideicomisos
+23	9623	toxina	toxinas toxina
+24	9624	estadista	estadista estadistas
+25	9625	codificación	codificación codificaciones
+26	9626	escoltar	escoltado escoltar escoltados escoltada escoltando escoltaban escoltaron escoltas escoltan escoltó escoltaba escoltadas
+27	9627	trust	trust trusts
+28	9628	leva	lev leva levas
+29	9629	shopping	shopping shoppings
+30	9630	detractor	detractores detractor
+31	9631	clientela	clientela clientelas
+32	9632	agotador	agotador agotadora agotadores agotadoras
+33	9633	germano	germano germanos germana germanas
+34	9634	reencuentro	reencuentro reencuentros rencuentro
+35	9635	rosca	rosca roscas
+36	9636	escalofrío	escalofríos escalofrío
+37	9637	cuco	cuco cuca cucos cucas
+38	9638	incontable	incontables incontable
+39	9639	elocuente	elocuente elocuentes
+40	9640	transportista	transportistas transportista
+41	9641	cisterna	cisterna cisternas
+42	9642	cora	cora coras
+43	9643	alcantarillado	alcantarillado alcantarillados
+44	9644	brutalmente	brutalmente
+45	9645	científicamente	científicamente
+46	9646	glucosa	glucosa
+47	9647	hepatitis	hepatitis
+48	9648	indefinidamente	indefinidamente
+49	9649	mensualmente	mensualmente
+50	9650	pesimismo	pesimismo
+51	9651	serenidad	serenidad
+52	9652	toy	toy
+53	9653	urgentemente	urgentemente
+54	9654	panista	panista panistas
+55	9655	timón	timón timones
+56	9656	tentador	tentador tentadora tentadores tentadoras
+57	9657	presentir	presiento presiente presentía presentí presentir presintiendo presienten presientes presentido presintió
+58	9658	murmurar	murmuró murmura murmurando murmurar murmuro murmuran murmuraba murmuré murmuraban murmure
+59	9659	portillo	portillo portillos
+60	9660	epicentro	epicentro epicentros
+61	9661	afgano	afgano afganos afgana afganas
+62	9662	teen	teen teens
+63	9663	equivalencia	equivalencia equivalencias
+64	9664	unicornio	unicornio unicornios
+65	9665	testificar	testificar testificó testifica testificado testifican testificaron testificando testifique testifiquen testifico
+66	9666	boludear	boludear boludeando boludeo boludean boludea boludearon boludeen boludeado boludeas boludeada
+67	9667	aromático	aromáticas aromático aromáticos aromática
+68	9668	cosmético	cosméticos cosmético cosméticas
+69	9669	tonalidad	tonalidad tonalidades
+70	9670	autógrafo	autógrafo autógrafos autógrafa autógrafas
+71	9671	compatibilidad	compatibilidad compatibilidades
+72	9672	gatillo	gatillo gatillos
+73	9673	intolerable	intolerable intolerables
+74	9674	galera	galera galeras galea
+75	9675	brigadier	brigadier brigadieres
+76	9676	simposio	simposio simposios simposium
+77	9677	maxi	maxi maxis
+78	9678	redada	redada redadas
+79	9679	oxigenar	oxigeno oxigenada oxigenar oxigenado oxigena oxigenadas oxigenados
+80	9680	flashear	flashear flashean flasheo flashea flasheando flashee flasheas flasheaba flasheaste flashearon
+81	9681	sardina	sardinas sardina
+82	9682	autenticar	autentico autentica autenticar autenticas autenticado autenticada autenticados autenticadas
+83	9683	búrguer	burger burguer
+84	9684	errado	errado errada errados erradas
+85	9685	prehispánico	prehispánica prehispánico prehispánicos prehispánicas
+86	9686	afanar	afana afanan afano afanaron afanar afanó afanado afanaba afanaban afanarse afanando afanados afanen afane afanada afanándose afanamos afanas afanes
+87	9687	cortejo	cortejo cortejos corteja
+88	9688	cas	cas cases
+89	9689	imprudente	imprudente imprudentes
+90	9690	mambo	mambo mambos
+91	9691	mercante	mercante mercantes
+92	9692	parentesco	parentesco parentescos
+93	9693	psiquiatría	psiquiatría siquiatría
+94	9694	segregación	segregación segregaciones
+95	9695	sensorial	sensorial sensoriales
+96	9696	comprobante	comprobante comprobantes
+97	9697	arenal	arenal arenales
+98	9698	encuadrar	encuadra encuadrar encuadrado encuadrados encuadrada encuadran encuadradas encuadrarse encuadraba encuadres encuadren encuadrando encuadró
+99	9699	desmoronar	desmorona desmoronarse desmoronó desmoronando desmoronan desmoronado desmoronar desmorone desmoronándose desmoronaba desmoronará desmoronaron desmoronara
+100	9700	tibetano	tibetano tibetanos tibetana tibetanas

@@ -1,0 +1,100 @@
+1	3701	procesar	procesar procesados procesa procesan procesales procesando procesada procesó procesarlo procesadas procese procesen procesaron procesarlos procesará procesamos procesarla procesarse procesaba procesaban procesarlas procesarán procesas procesara procesaremos
+2	3702	serbio	serbia serbio serbios serbias
+3	3703	constituyente	constituyente constituyentes
+4	3704	quejar	quejar quejan quejando quejas quejen quejándose quejó quejaba quejarme quejarte quejado quejamos quejes quejaron queje quejaban quejarnos quejemos quejándote quejé quejándome quejaría quejándonos quejabas quejará quejara quéjate quejaran quejaste quejáis quejarán quejaré quejaros quejábamos quejás quejéis quejarás quejate
+5	3705	atar	ata atar ate atan ato atada ató atados ataron aten atando atadas atarse atas ataba até atala ates atarlo ataban atamos atarme atarte átalo atarlos atarle atalo atarla ataste átame atara atarnos atad atarlas ataría
+6	3706	aula	aula aulas
+7	3707	contraste	contraste contrastes
+8	3708	respaldo	respaldo respaldos
+9	3709	regir	rige rigen regir regido regirá regida regirán regidos regirse regía regidas regían rigió rija regime rijan rijo rigiendo regiría rigieron rigiéndose regimos regirían regirnos
+10	3710	teclado	teclado teclados
+11	3711	rollo	rollo rollos rollito rollazo
+12	3712	centavo	centavos centavo
+13	3713	afiliado	afiliados afiliado afiliadas afiliada
+14	3714	pastel	pastel pasteles pastelitos pastelito pastelillo
+15	3715	jugo	jugo jugos
+16	3716	barba	barba barbas
+17	3717	proporción	proporción proporciones
+18	3718	aceptación	aceptación aceptaciones
+19	3719	valenciano	valenciana valenciano valencianos valencianas
+20	3720	inmueble	inmuebles inmueble
+21	3721	pluma	pluma plumas
+22	3722	capitalismo	capitalismo capitalismos
+23	3723	minería	minería minerías
+24	3724	arroyo	arroyo arroyos arroyito
+25	3725	entretenimiento	entretenimiento entretenimientos
+26	3726	agustín	agustín
+27	3727	etilvinilacetato	eva
+28	3728	hey	hey
+29	3729	po	po
+30	3730	lamentable	lamentable lamentables
+31	3731	sopa	sopa sopas sopita
+32	3732	vapor	vapor vapores
+33	3733	pene	pene penes nepe
+34	3734	secuestrar	secuestrar secuestraron secuestró secuestran secuestrada secuestrados secuestra secuestrando secuestren secuestradas secuestre secuestrarlo secuestraban secuestraba secuestrarte secuestrarla secuestraran secuestramos secuestras secuestrarme secuestrara secuestrarle secuestrarlos
+35	3735	júnior	junior juniors júnior júniors
+36	3736	desplegar	desplegar desplegado despliega desplegó desplegados desplegadas desplegada desplegando despliegan desplegaron desplegarse desplegaba desplegará desplegarán desplieguen despliegues desplegaban desplegamos desplegara desplegaran desplegándose
+37	3737	jama	jamas jama
+38	3738	embarazado	embarazada embarazadas embarazado embarazados
+39	3739	cazador	cazadores cazador cazadora cazadoras
+40	3740	imbécil	imbécil imbéciles
+41	3741	talla	talla tallas
+42	3742	portavoz	portavoz portavoces
+43	3743	cobarde	cobarde cobardes
+44	3744	encajar	encaja encajar encajan encajaba encajo encajado encajó encajas encajen encajes encajaban encajando encajaría encajados encajada encajaron encajara encajamos encajadas encajará encajarlo encajarían encajé encajarán encajaran encajarle encajarse
+45	3745	seleccionado	seleccionado seleccionados seleccionadas seleccionada
+46	3746	tributo	tributo tributos
+47	3747	dragón	dragón dragones dragona dragoncito
+48	3748	hermandad	hermandad hermandades
+49	3749	tierno	tierno tierna tiernos tiernas
+50	3750	bárbaro	bárbara bárbaro bárbaros bárbaras
+51	3751	huracán	huracán huracanes
+52	3752	diversión	diversión diversiones
+53	3753	polo	polo polos
+54	3754	geografía	geografía geografías
+55	3755	recaudar	recaudar recaudado recaudó recauda recaudados recaudo recaudando recaudos recaudan recaudaron recaude recaudamos recaudadas recaudaba recaudará recaudada recauden recaudaría recaudaban
+56	3756	reservado	reservado reservados reservada reservadas
+57	3757	dominante	dominante dominantes
+58	3758	licenciado	licenciado licenciada licenciados licenciadas
+59	3759	gama	gama gamas
+60	3760	tributario	tributaria tributario tributarios tributarias
+61	3761	auxiliar	auxiliar auxiliares auxiliado auxilia auxiliados auxilió auxiliaron auxiliada auxiliando auxilian auxiliarlo auxilie
+62	3762	financiamiento	financiamiento financiamientos
+63	3763	lealtad	lealtad lealtades
+64	3764	celda	celda celdas cela
+65	3765	invisible	invisible invisibles
+66	3766	especialidad	especialidad especialidades
+67	3767	movilización	movilización movilizaciones
+68	3768	mear	mear meo mea mean meando mies mee mead meado meada meas mees meaba meados mearse mieses meadas meen meó mearme meamos mearon meos mearte meara
+69	3769	consenso	consenso consensos
+70	3770	advertencia	advertencia advertencias
+71	3771	uña	uñas uña
+72	3772	bote	bote botes botecito
+73	3773	enojado	enojado enojada enojados enojadas
+74	3774	ilustrar	ilustra ilustrar ilustres ilustran ilustrada ilustrados ilustró ilustrando ilustradas ilustraba ilustraron ilustrarlo ilustrarnos ilustraban ilustren ilustrarse ilustro ilustrarlos ilustrará ilustrarme
+75	3775	miel	miel mieles
+76	3776	párrafo	párrafo párrafos parágrafo
+77	3777	miserable	miserable miserables
+78	3778	sospechar	sospechar sospechas sospechaba sospechan sospechado sospechó sospeche sospechando sospechamos sospechaban sospeché sospecharon sospechara sospechen sospechábamos sospechados sospecharía sospechada sospecharlo sospecharan sospecharse sospechará sospechadas
+79	3779	entusiasmo	entusiasmo entusiasmos
+80	3780	encerrar	encierra encerrar encierran encerró encerraron encerrada encerrados encierren encerrarse encerrarme encerrando encerraba encierre encerrarlos encerraban encerrarlo encerrarte encerradas encerré encerrarnos encerrarla encerramos encierras encerraran encerrarán encerro encerrara encierres encerraría encerrará encerrándose encerrarle encerrándolo
+81	3781	vertical	vertical verticales
+82	3782	atracción	atracción atracciones
+83	3783	franquicia	franquicia franquicias
+84	3784	inauguración	inauguración inauguraciones inaguración
+85	3785	mentiroso	mentiroso mentirosos mentirosa mentirosas
+86	3786	pánico	pánico pánicos
+87	3787	sigla	siglas sigla
+88	3788	mecánico	mecánico mecánicos mecánicas
+89	3789	pasivo	pasivo pasiva pasivos pasivas
+90	3790	colar	colo cuela colarse colar coló cuelan colaba colaron cuele colé colarte colando colarme colas colamos cuelas colándose cuelo colarnos cuelen colás colan coladas cueles colaste colados colaban colara colate coles colará colares
+91	3791	pastilla	pastillas pastilla pastillita
+92	3792	campana	campana campanas campanita campanitas
+93	3793	sensibilidad	sensibilidad sensibilidades
+94	3794	generoso	generoso generosa generosos generosas
+95	3795	adorar	adora adoran adorar adorada adorado adoraba adoramos adoraban adorando adore adoras adorados adoren adoraron adoré adorarlo adorarte adorarla adoró adoradas adoraría adoremos adores adorarle adorarán adorarás adoráis adorara adoraré adorarlos adorábamos adorará
+96	3796	inclusión	inclusión inclusiones
+97	3797	fuertemente	fuertemente
+98	3798	justamente	justamente
+99	3799	press	press pres
+100	3800	pata	pata patillas patita patilla

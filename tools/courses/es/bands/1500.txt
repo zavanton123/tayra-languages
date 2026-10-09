@@ -1,0 +1,100 @@
+1	1401	blog	blog blogs
+2	1402	rodear	rodeado rodea rodean rodeada rodeados rodeaba rodeando rodear rodeaban rodearon rodeó rodeadas rodearse rodee rodearte rodeamos rodearme rodeas rodeen rodearlo rodearlos rodearla rodeara rodeándola rodeándolo rodearan rodearán rodearnos rodeándome rodeará rodeé rodeándose rodéate rodeándolos rodees rodearle
+3	1403	garantizar	garantizar garantiza garantizado garantizada garantice garantizan garantizando garanticen garantizados garantizo garantizaba garantizó garantizará garantizadas garantizamos garantizarse garantizaría garantizarle garantizara garantizarán garantizaron garantizarte garantizaban garantizarles garantizas garantizaran garantizarlo garantizarían garantizase garantizándose garantizaremos garantizándole garantizasen garantizándoles
+4	1404	biblioteca	biblioteca bibliotecas biblio
+5	1405	peligroso	peligroso peligrosa peligrosos peligrosas peligrosísimo
+6	1406	indígena	indígenas indígena
+7	1407	argumento	argumento argumentos
+8	1408	enlace	enlace enlaces
+9	1409	pared	pared paredes
+10	1410	medicina	medicina medicinas
+11	1411	pantalla	pantalla pantallas pantallita
+12	1412	montaña	montaña montañas montañita
+13	1413	esconder	esconde esconder escondido escondidas esconden escondida esconderse escondidos escondió escondiendo escondía escondo escondiéndose escondieron esconda escondes escondían esconderme escondan esconderlo escondí escondas escondemos escondernos esconderla esconderte esconderlos esconderá escondiera esconderle escondería escondimos esconderlas escondiste escóndete esconderán esconderé escondiéndome escondieran
+14	1414	mentir	mentir miente mintiendo miento mienten mientas mintió mentido mientes mintieron mienta mentirle mentirme mentía mientan mentí mentirte mentiría mentimos mentís mentiste mentían mentirnos mintiera mentirles miénteme mentías mentirá mentirán mentirse mintiéndole mentiré mentirás mintiéndome
+15	1415	consumo	consumo consumos
+16	1416	considerado	considerado considerada considerados consideradas
+17	1417	chileno	chileno chilena chilenos chilenas
+18	1418	física	física físicas
+19	1419	debajo	debajo
+20	1420	adecuado	adecuado adecuada adecuadas adecuados
+21	1421	pintar	pintar pinto pintado pintada pintadas pintó pintan pintados pintando pintaba pinte pintaron pintas pintos pintamos pintarlo pintaban pintarse pinté pinten pintara pintarla pintarme pintarte pintes pintaste pintarle pintaría pintará pintarlos pintarlas pintaran pintemos pintándose pintaré pintarán pintarnos píntame pintaremos pintase
+22	1422	muchacho	muchachos muchacho muchacha muchachas muchachito muchachones muchachón muchachote
+23	1423	lluvia	lluvia lluvias
+24	1424	devolver	devolver devuelve devuelto devolvió devuelva devuelvan devuelta devuelven devolverle devuelvo devolverá devueltos devolvieron devolviendo devolverlo devueltas devolverán devolverla devolviera devolvía devolverles devolverme devolvernos devolví devuelves devolverlos devuélveme devolverte devuelvas devolvemos devolvería devolvieran devolverse devolvían devolviéndole devolveré devolverlas devolviste devolveremos devolverían
+25	1425	pleno	pleno plena plenos plenas
+26	1426	ventana	ventana ventanas ventanilla ventanillas ventanal ventanita ventanuco
+27	1427	volar	volar volando vuela vuelan voló volado volaron volaba vuele volaban vuelen vuelas volo volada volamos volé vola volados volara volará volaran volaría volarán volandas volá voladas volaré vueles volare volaste volemos bolado volas volarse volarme volarían volaremos volarlo volad volarle
+28	1428	dedicado	dedicado dedicada dedicados dedicadas
+29	1429	taller	taller talleres
+30	1430	separar	separa separar separan separados separarse separó separaron separadas separada separe separando separarnos separen separaba separamos separarlos separarme separo separaban separándose separé separarlo separará separarla separara separas separaran separarte separarlas separaría separemos separate separes separarán separase separaremos separarían separándolo separándola separándonos
+31	1431	firma	firma firmas
+32	1432	máquina	máquina máquinas maquinita maquinitas
+33	1433	vehículo	vehículos vehículo
+34	1434	foro	foro foros fórum
+35	1435	búsqueda	búsqueda búsquedas
+36	1436	medir	mide medir medidas miden medido midiendo mido medía medirse mida mides midió midas medidos medimos midieron medirá midan medían medirán medirlo medí medirla midiera medite mediría midiéndose medís medirte medirme medid medirlos medirnos midamos mediste medirle mediremos medirlas
+37	1437	vencer	vencer vencido venció vence vencida vencidos venciendo vencieron vencen venceremos vencidas vencerá venza vencerlo vencía vencerás vencerlos venciera vencerán vencerla vences vencimos vencerle vencerse venzan vencemos vencería vencí vencían vencieran vencerme venciste venzo vencerlas vencernos venceré vencerte vencerles venceréis
+38	1438	industrial	industrial industriales
+39	1439	conciencia	conciencia conciencias
+40	1440	dirigido	dirigido dirigida dirigidos dirigidas
+41	1441	católico	católica católicos católico católicas
+42	1442	enfermo	enfermo enfermos enferma enfermas enfermito
+43	1443	permiso	permiso permisos
+44	1444	viento	viento vientos
+45	1445	nueve	nueve nueves
+46	1446	disparar	disparar disparó dispara dispararon disparado disparando disparan disparate dispares dispararle disparates dispare disparaban disparada disparen disparaba disparados dispararse disparara disparadas dispararan dispararles disparas disparándole disparará dispararía disparé dispararán disparándose dispararnos disparamos dispararían dispararme disparándoles disparase disparaste dispararé dispararte dispararla disparasen
+47	1447	entidad	entidad entidades
+48	1448	temer	temo temer teme temen temía temas temiendo temido temían temes tememos temida teman temidos temió temerle temí temieron temáis temidas temíamos temiera temeré temed teméis temerá temerles temamos temería temerla temerán temás temieran temimos temerse temerás
+49	1449	gastar	gastar gastado gasta gastan gastando gastó gastes gaste gastamos gastas gastaron gasté gastados gastarse gastada gastaba gastarlo gasten gastadas gastaste gastaría gastarme gastará gastaban gastarte gastemos gastara gastarán gastarlos gastarla gastaran gastaré gastarnos gastándose gastaremos gastarás gastarle gastarían gastarías gastare
+50	1450	basta	basta bastas
+51	1451	engañar	engañar engaño engañado engaña engaños engañan engañando engañados engañó engañada engañas engañaron engañen engañe engañes engañarnos engañemos engañaba engañarse engañarme engañarte engañadas engañamos engañaste engañarlos engañarlo engañarla engañaban engañé engañarán engañarle engañaría engañará engañara engañándonos engañéis engañáis engañándose engañándolo engañaran
+52	1452	incluido	incluido incluidos incluida incluidas
+53	1453	acabo	acabo
+54	1454	sonido	sonido sonidos sonidito
+55	1455	dudar	dudo dudar dudes dude dudas dudarlo dudó dudan dudando dudado dudaba duden dudé dudamos dudaron dudaría dudaban dudará dudéis dudaré dudarán dudara dudaste dudemos dudabas dudad dudarían dudaremos dudare dudáis dudaran dudarse
+56	1456	educativo	educativo educativa educativos educativas
+57	1457	japonés	japonés japonesa japoneses japonesas
+58	1458	colombiano	colombiano colombiana colombianos colombianas
+59	1459	temprano	temprano temprana tempranas tempranos tempranito
+60	1460	otorgar	otorga otorgado otorgar otorgó otorgada otorgan otorgados otorgando otorgue otorgadas otorgaron otorgará otorgarle otorgaba otorguen otorgándole otorgara otorgarán otorgarles otorgaría otorgo otorgaban otorgamos otorgarse otorgándoles otorgase otorgaran otorgarían otorgarme otorgarte otorgas otorgués otorgándose otorgarlo otorgarnos otorgues otorgarla
+61	1461	exposición	exposición exposiciones expo
+62	1462	calor	calor calores calorcito
+63	1463	instalar	instalar instalado instalada instaló instala instalados instalarse instalaron instalan instaladas instalando instale instalen instalará instalamos instalarlo instalé instalo instalarán instalara instalarme instalas instalaba instalándose instalaran instalarla instalaría instalaban instales instalaremos instalarle instalarte instalaste instalarlos instalarnos instalarlas instalemos instalarían instalase
+64	1464	contribuir	contribuir contribuye contribuido contribuyen contribuyó contribuyendo contribuyeron contribuyan contribuya contribuirá contribuiría contribuirán contribuimos contribuía contribuían contribuyera contribuyo contribuyes contribuyeran contribuirían contribuí contribuyamos contribuiremos
+65	1465	deportivo	deportivo deportiva deportivos deportivas
+66	1466	carretera	carretera carreteras ctra
+67	1467	saltar	salta saltar saltó saltando saltan saltado saltaron saltarse saltaba salten saltas salté saltamos saltaban saltes saltaste saltara saltarte saltará saltándose saltaría saltarme saltarnos saltarán salte saltaran saltemos saltarle saltase saltarían saltaremos saltaré saltarla
+68	1468	vuelo	vuelo vuelos
+69	1469	motor	motor motores motora motoras motorcito
+70	1470	hoja	hojas hoja fojas foja hojita hojilla
+71	1471	religión	religión religiones reli
+72	1472	concurso	concurso concursos
+73	1473	compromiso	compromiso compromisos
+74	1474	agencia	agencia agencias
+75	1475	rendir	rendir rinde rendirse rindió rindo rinden rendido rindieron rinda rindas rindiendo rindan rendimos rendirle rendirme rendirte rendía rendí rendirá rindes rendida render rendirnos rendirán rindiera rendidos rendían rendiré rendiremos rindamos rendiste rendiría rindieran rindiéndose rendidas rendís rendirles ríndete ríndanse rendirla
+76	1476	huir	huir huyendo huyó huye huida huyeron huido huyen huila hui huían huía huyo huya huyan huyera huidos huyes huyas huimos huidas huyeran huid huyamos huiría huirá huiste huirán huilo huis huíamos huiré huirían
+77	1477	animar	animo anima animales animar animó animados animan animas animada animando anímate animaba animamos animaron animadas animen animarse animarme animarte animate animará animes animaban animaría animarnos animarlo animarlos animé animaros animaste animara animarán animarla animarle animarles anímense animás animaos animaré anímese
+78	1478	poderoso	poderoso poderosa poderosos poderosas poderosísimo
+79	1479	identidad	identidad identidades
+80	1480	campeón	campeón campeones campeona campeonas
+81	1481	reciente	reciente recientes
+82	1482	cometer	cometer cometió cometa cometen cometiendo cometieron cometidos cometas cometan cometí cometemos cometes cometidas comete cometo cometida cometían cometía cometiste cometimos cometiera cometería cometamos cometerse cometerá cometerlos cometerlo cometieran cometerán cometeré cometerás cometerían cometeremos cometiese cometelo cometiere
+83	1483	basura	basura basuras
+84	1484	prometer	prometo prometió promete prometer prometen prometieron prometí prometiendo prometía prometiste prometemos prometes prometimos prometa prometas prometían prométeme prometan prometerle prometiera prometiéndole prometerte prometeme prometerme prometiéndoles prometidos prometerles prometidas prometieran prometernos prometerse prometería prometeré prometéis prometerá prometiéndome prometerlo promételo
+85	1485	cumpleaños	cumpleaños cumple
+86	1486	museo	museo museos
+87	1487	tenia	tenia tenias
+88	1488	ignorar	ignorar ignora ignorando ignoran ignorado ignoro ignorada ignoramos ignoró ignore ignorados ignorarlo ignoras ignoraba ignoren ignoradas ignoraron ignorarla ignoraban ignorarlos ignores ignoré ignorarlas ignoraste ignorarme ignorarse ignoremos ignorara ignorará ignorarnos ignorarte ignorándolo ignoraría ignorábamos ignorándome ignóralo ignórame ignorarán ignoraran ignoralo
+89	1489	existencia	existencia existencias
+90	1490	espalda	espalda espaldas
+91	1491	división	división divisiones
+92	1492	procedimiento	procedimiento procedimientos
+93	1493	comité	comité comités
+94	1494	anual	anual anuales
+95	1495	aportar	aportar aporta aportan aportes aportando aportó aportado aportaron aportados aporten aportaba aportada aportadas aportará aportamos aportaban aporto aportaría aportas aportara aportarán aportarle aportaran aportarían aportemos aportaré aporté aportarse aportarnos aportaremos aportase aportaste aportarte aportándole aportarles
+96	1496	implicar	implica implican implicaba implicar implicados implicaría implique implicó implicando impliquen implicada implicadas implicará implicaban implicarse implicaron implicara implicarían implicarnos implicarme implicarán implico implicas implicaran implicarte implicase implicándose
+97	1497	literatura	literatura literaturas
+98	1498	escenario	escenario escenarios
+99	1499	tiro	tiro tiros tirito
+100	1500	leche	leche leches lechita

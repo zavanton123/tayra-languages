@@ -1,0 +1,100 @@
+1	2301	queso	queso quesos quesito
+2	2302	portal	portal portales
+3	2303	toro	toro toros torito toritos
+4	2304	parlamentario	parlamentario parlamentaria parlamentarios parlamentarias
+5	2305	portugués	portugués portuguesa portugueses portuguesas
+6	2306	audio	audio audios
+7	2307	ubicación	ubicación ubicaciones
+8	2308	pibe	pibe pibes piba pibas pibito pibita
+9	2309	impresionante	impresionante impresionantes
+10	2310	corea	corea coreas
+11	2311	violación	violación violaciones
+12	2312	pensión	pensiones pensión
+13	2313	escritura	escritura escrituras
+14	2314	espejo	espejo espejos espejito
+15	2315	plástico	plástico plástica plásticas plásticos
+16	2316	récord	récord record records récords
+17	2317	queja	queja quejas
+18	2318	guapo	guapa guapo guapas guapos guapísimo guapito wapo
+19	2319	ajeno	ajena ajeno ajenos ajenas
+20	2320	recorrido	recorrido recorridos recorrida recorridas
+21	2321	ciudadanía	ciudadanía ciudadanías
+22	2322	oler	huele oler ole huelen olé olía oliendo huela huelo hueles olido huelan olían olerlo olió oled oles olí olemos olías oleos oliera olerla olerte olieron huelas olería olerá olerle olerlos olerás olerse olerme
+23	2323	dañar	dañar dañado daña dañada dañados dañan dañadas dañó dañando dañe dañaron dañen dañaría dañará dañarlo dañarse dañarte dañarla dañara dañaba dañarlos dañas dañes dañarme dañarán dañaran dañarnos dañarle dañamos dañaban dañaste dañarían
+24	2324	hueso	huesos hueso huesito huesillos huesillo
+25	2325	funcionamiento	funcionamiento funcionamientos
+26	2326	labio	labios labio
+27	2327	constar	consta conste constar constan constaba constará constando constaban constó consten constarán constara constaría constate constado
+28	2328	creador	creador creadores creadora creadoras
+29	2329	ingeniería	ingeniería ingenierías
+30	2330	frecuente	frecuentes frecuente
+31	2331	experimentar	experimentar experimenta experimentando experimentó experimentan experimentales experimentaron experimentados experimentamos experimente experimenté experimentada experimentaba experimentará experimenten experimentas experimentarán experimentadas experimentarlo experimentaban experimentarás experimentaría experimentes experimentaran experimentara experimentarse experimentarla experimentaste experimentemos experimentarían
+32	2332	particularmente	particularmente
+33	2333	fallo	fallo fallos
+34	2334	camión	camión camiones camioncito
+35	2335	fino	fino fina finas finos finito finita finitos finitas finísimo
+36	2336	ave	aves ave avecilla
+37	2337	palma	palma palmas palmitas palmita
+38	2338	ceder	ceder cedido cedió cede cediendo cedida ceden cedidos ceda cedieron cedo cederá cedan cedidas cedía cederle cedes cediera cedería cedemos cedí cedas cederlo cederán cedían cedieran cederemos cederles cediéndole cederla cederé cediese cederlos cedimos cedamos cedés cedernos cederían
+39	2339	inscribir	inscritos inscrito inscribirse inscribir inscrita inscribe inscritas inscribirte inscribió inscribieron inscriptos inscriben inscripto inscribí inscribirme inscriban inscríbete inscriba inscribiendo inscripta inscribiéndose inscribo inscribirán inscribimos inscribirá inscribirlo inscribiste inscribes inscríbase inscriptas inscribían inscribiera inscribirnos inscribía inscribas inscribirla inscribite inscribieran inscribirlos
+40	2340	financiar	financiar financiado financia financiada financiados financiando financian financió financiadas financiarse financiaron financie financiará financien financiaba financiamos financiarlo financiaban financiara financio financiaría financiarán financiarla financias financiarlos financiarían financiaran financiarlas
+41	2341	mandato	mandato mandatos
+42	2342	aliado	aliados aliado aliada aliadas
+43	2343	activar	activar activa activado active activan activada activó activando activados activas activen activadas activaron activarse activará activarlo activamos activarla activaba activara activarán activaría activé actives activaste actívate activaran activemos activarlos activaban activaremos activándose activate activarlas
+44	2344	ladrón	ladrones ladrón ladrona ladronas
+45	2345	amenazar	amenazó amenazando amenazan amenazar amenazaron amenazada amenazas amenazaba amenazaban amenazados amenazadas amenace amenazo amenacen amenazara amenazarlo amenazarme amenaces amenazarlos amenazarla amenazaría amenacé amenazándole amenazándolo amenazarnos amenazándolos amenazaran amenazará amenazándola amenazarte amenazándome amenazarle amenazamos amenazándonos amenazaste amenazarles amenazarán
+46	2346	condenado	condenado condenados condenada condenadas
+47	2347	sacerdote	sacerdote sacerdotes sacerdotisa sacerdotisas
+48	2348	desnudo	desnudo desnuda desnudos desnudas
+49	2349	liderar	liderado liderar lidera liderada lideres liderando lideró liderados lideran lideradas lideraba lidere liderará lideraron lideraban lideren lidero lideramos liderara lideraría liderarlo
+50	2350	jurado	jurado jurados jurada juradas
+51	2351	escaso	escasa escasos escaso escasas escasísimo
+52	2352	componente	componentes componente
+53	2353	creencia	creencias creencia
+54	2354	infancia	infancia infancias
+55	2355	prisionero	prisioneros prisionero prisionera prisioneras
+56	2356	prioridad	prioridad prioridades
+57	2357	californio	california californias californios
+58	2358	servidor	servidor servidores servidora servidoras
+59	2359	inmigrante	inmigrantes inmigrante
+60	2360	cooperación	cooperación cooperaciones
+61	2361	ilusión	ilusión ilusiones ilu
+62	2362	secretaría	secretaría secretarías
+63	2363	ajustar	ajustar ajusta ajustado ajustada ajustarse ajustados ajustan ajustes ajustando ajusten ajustadas ajustó ajustaba ajustará ajustaron ajustándose ajustamos ajusto ajustarán ajustarlo ajustaban ajustara ajustarla ajustas ajustarme ajustaran ajustarnos ajustaría ajustarlos ajustaremos ajusté ajustarte ajustarlas ajustarle
+64	2364	previsto	previsto prevista previstos previstas
+65	2365	pai	pais pai
+66	2366	bolsillo	bolsillo bolsillos
+67	2367	personalmente	personalmente
+68	2368	tremendo	tremendo tremenda tremendas tremendos
+69	2369	articular	articulo articular articulado articula articulada articulados articuladas articulares articulan articulando articuló articularse articule articulen articularon articulaba articulaban
+70	2370	contemporáneo	contemporánea contemporáneo contemporáneos contemporáneas
+71	2371	hierro	hierro hierros
+72	2372	anotar	anotar anotó anota anotado anotando anotados anote anoto anotaron anotan anoté anotada anotarse anotaba anotadas anoten anotas anotamos anotarme anotarlo anotaste anotará anotate anotaban anotara anotarte anotes anotaría anotaré anotándose anotarán anotaremos anotarle anótalo anotá anotemos anotaran anótelo anotarlos anotarla
+73	2373	ferrocarril	ferrocarril fc ferrocarriles ffcc
+74	2374	percibir	percibe percibir perciben percibido percibo percibida percibidos percibió percibimos percibidas percibía percibiendo perciba perciban percibían percibes percibieron percibí percibirse percibirá percibirán percibirlo percibiría percibas percibirla percibiera percibirlos percibamos
+75	2375	gira	gira giras
+76	2376	favorecer	favorecer favorece favorecen favorecido favoreciendo favoreció favorecidos favorecida favorezca favorezcan favorecía favorecieron favorecidas favorecían favorecerá favorecería favorecerán favoreciera favorecerse favoreces favorecerían favorecieran favorecerlo
+77	2377	eterno	eterno eterna eternos eternas
+78	2378	atractivo	atractivo atractiva atractivos atractivas
+79	2379	reflexión	reflexión reflexiones
+80	2380	fruta	fruta frutas
+81	2381	agradable	agradable agradables
+82	2382	aprobación	aprobación aprobaciones
+83	2383	sirio	siria sirio sirios sirias
+84	2384	cocinar	cocinar cocinando cocinado cocino cocinan cocine cocinas cocinaba cocinada cocinamos cocinados cocinarlo cocinó cocinadas cocinen cociné cocinarse cocines cocinaban cocinaron cocinarla cocinarte cocinarlos cocinándose cocinarme cocinarlas cocinarle cocinara cocinaste cocinaremos cocinará cocinemos cocinás
+85	2385	entrenador	entrenador entrenadores entrenadora entrenadoras
+86	2386	exitoso	exitosa exitoso exitosas exitosos
+87	2387	placa	placa placas plaquita plaquitas
+88	2388	polvo	polvo polvos polvazo polvito polvete
+89	2389	parcial	parcial parciales
+90	2390	dimensión	dimensiones dimensión
+91	2391	ubicar	ubica ubicar ubican ubicada ubicó ubicarse ubicados ubicadas ubico ubicaron ubicaba ubicando ubique ubicarlo ubicamos ubicándose ubiquen ubicaban ubicará ubicarla ubicas ubicarlos ubicarte ubicaría ubicarnos ubicarme ubicarán ubicara ubicate ubicándolo ubicarlas ubiqué ubícate ubiques ubicarían ubicándolos ubicaran
+92	2392	pico	pico picos piquito
+93	2393	azúcar	azúcar azúcares
+94	2394	ramo	ramos ramo ramito
+95	2395	castigar	castigar castigado castiga castigados castigada castigan castigue castigando castigó castigará castigadas castiguen castigarlos castigarlo castigaron castigaba castigarán castigarse castigues castigara castigaría castigaban castigarla castigarme castigarle castigas castigarte castigamos castigaré castigarles castigaran castigarnos castigarlas castigarían castiguemos castígame
+96	2396	dominicano	dominicana dominicano dominicanos dominicanas
+97	2397	renovar	renovar renovado renovada renueva renovó renovando renuevan renovados renovadas renovaron renovarse renueve renovará renueven renovarlo renuevo renovarán renovamos renovarla renovarle renovaría renovara renovaba renovándose renové renove renova renovaban renovales renovarlos renuevas renovarlas renovaran renovase renovemos renovarte renovarían renueves renuevos
+98	2398	cuota	cuota cuotas quota
+99	2399	ja	ja
+100	2400	juro	juro
