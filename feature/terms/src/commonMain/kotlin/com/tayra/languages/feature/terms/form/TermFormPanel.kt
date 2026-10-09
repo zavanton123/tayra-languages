@@ -149,6 +149,8 @@ fun TermFormPanel(
 
     ScrollColumn(
         modifier,
+        // Inside the reader's rounded panel the bar keeps clear of the border and its corners.
+        scrollbarModifier = if (embedded) Modifier.padding(top = 14.dp, bottom = 14.dp, end = 5.dp) else Modifier,
         contentModifier = Modifier
             .padding(16.dp)
             .onPreviewKeyEvent { event ->

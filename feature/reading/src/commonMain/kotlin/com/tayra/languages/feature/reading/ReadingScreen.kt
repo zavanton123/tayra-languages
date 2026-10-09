@@ -305,7 +305,8 @@ fun ReadingScreen(
                 }
                 if (wide && state.panel != ReadingPanel.None) {
                     Surface(
-                        Modifier.width(420.dp).fillMaxHeight().padding(top = 16.dp, end = 16.dp, bottom = 16.dp)
+                        // The gap at the start keeps the text's scrollbar off the panel's border.
+                        Modifier.width(432.dp).fillMaxHeight().padding(start = 12.dp, top = 16.dp, end = 16.dp, bottom = 16.dp)
                             .border(1.dp, MaterialTheme.colorScheme.outlineVariant, RoundedCornerShape(14.dp))
                             .onFocusChanged { panelFocused = it.hasFocus },
                         shape = RoundedCornerShape(14.dp),

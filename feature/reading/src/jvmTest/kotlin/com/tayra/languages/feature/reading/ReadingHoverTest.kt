@@ -830,6 +830,10 @@ class ReadingHoverTest {
         vm.onWordClick(vm.index("lobo"), shift = false)
         val three = androidx.compose.ui.test.hasText("3") and androidx.compose.ui.test.hasClickAction()
         rule.waitUntil(5_000) { rule.onAllNodes(three).fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("TERM_PANE_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
         rule.onAllNodes(three)[0].performClick()
         fun lobo() = runBlocking { termRepository.findByTextLc(languageId, "lobo") }
         rule.waitUntil(5_000) { lobo()?.status == TermStatus.LEARNING_3 }

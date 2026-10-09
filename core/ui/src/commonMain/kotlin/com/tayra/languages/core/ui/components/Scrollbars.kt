@@ -33,7 +33,8 @@ expect fun BoxScope.EdgeScrollbar(state: LazyListState, modifier: Modifier = Mod
 
 /**
  * A column that scrolls, with [EdgeScrollbar] beside it. [modifier] frames the whole;
- * [contentModifier] goes on the column inside the scrolling, where padding belongs.
+ * [contentModifier] goes on the column inside the scrolling, where padding belongs;
+ * [scrollbarModifier] insets the bar, as inside a rounded border.
  */
 @Composable
 fun ScrollColumn(
@@ -42,11 +43,12 @@ fun ScrollColumn(
     contentModifier: Modifier = Modifier,
     verticalArrangement: Arrangement.Vertical = Arrangement.Top,
     horizontalAlignment: Alignment.Horizontal = Alignment.Start,
+    scrollbarModifier: Modifier = Modifier,
     content: @Composable ColumnScope.() -> Unit,
 ) {
     Box(modifier) {
         Column(Modifier.fillMaxWidth().verticalScroll(state).then(contentModifier), verticalArrangement, horizontalAlignment, content)
-        EdgeScrollbar(state)
+        EdgeScrollbar(state, scrollbarModifier)
     }
 }
 
@@ -58,10 +60,11 @@ fun ScrollList(
     contentPadding: PaddingValues = PaddingValues(0.dp),
     verticalArrangement: Arrangement.Vertical = Arrangement.Top,
     listModifier: Modifier = Modifier,
+    scrollbarModifier: Modifier = Modifier,
     content: LazyListScope.() -> Unit,
 ) {
     Box(modifier) {
         LazyColumn(Modifier.fillMaxSize().then(listModifier), state, contentPadding, verticalArrangement = verticalArrangement, content = content)
-        EdgeScrollbar(state)
+        EdgeScrollbar(state, scrollbarModifier)
     }
 }
