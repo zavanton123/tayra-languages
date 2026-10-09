@@ -1,0 +1,100 @@
+1	4701	rezati	rezanje rezati reži reže režu režem rezao režeš rezali režemo režete rezala režite režući резање резати режи реже режу режем резао режеш резали режемо режете резала режите режући
+2	4702	pljunuti	pljunuo pljuni pljunuti pljunem pljunula pljunuta pljune pljuneš pljunuli pljunuću pljunite pljunu пљунуо пљуни пљунути пљунем пљунула пљунута пљуне пљунеш пљунули пљунућу пљуните пљуну
+3	4703	vlakno	vlakna vlakana vlakno vlaknima влакна влакана влакно влакнима
+4	4704	mehaničar	mehaničar mehaničara mehaničari mehaničare mehaničaru механичар mehaničarima механичара механичари механичаре механичару механичарима
+5	4705	odvajati	odvaja odvajanje odvajaju odvajam odvajati odvajamo odvajaš odvajaj odvajao odvajala odvajajući odvajali odvajajte odvajate одваја одвајање одвајају одвајам одвајати одвајамо одвајаш одвајај одвајао одвајала одвајајући одвајали одвајајте одвајате
+6	4706	katolik	katolik katolici katolika katolike katolicima католик католици католика католике католицима
+7	4707	okrugao	okrugli okrugla okrugle okruglo okruglog okrugao okruglim okruglu okruglih okruglom округли округла округле округло округлог округао округлим округлу округлих округлом
+8	4708	ukras	ukras ukrase ukrasi ukrasa ukrasima ukrasom ukrasu украс украсе украси украса украсима украсом украсу
+9	4709	nindža	nindža nindže nindži nindžu nindžama нинџа нинџе нинџи нинџу нинџама
+10	4710	zbunjivati	zbunjuje zbunjuješ zbunjuju zbunjujući zbunjujete zbunjujem zbunjivati zbunjuj zbunjivalo zbunjivao збуњује zbunjivanje zbunjivala збуњујеш збуњују збуњујући збуњујете збуњујем збуњивати збуњуј збуњивало збуњивао збуњивање збуњивала
+11	4711	oporavljati	oporavlja oporavljam oporavljaš oporavljao oporavljaju oporavljala oporavljati oporavljate опоравља oporavljamo опорављам опорављаш опорављао опорављају опорављала опорављати опорављате опорављамо
+12	4712	ljubičast	ljubičasta ljubičasto ljubičasti ljubičaste ljubičastu ljubičastom ljubičastim ljubičast ljubičastog ljubičastih ljubičastoj љубичаста љубичасто љубичасти љубичасте љубичасту љубичастом љубичастим љубичаст љубичастог љубичастих љубичастој
+13	4713	natjecanje	natjecanje natjecanju natjecanja natjecanjima natjecanjem натјецање натјецању натјецања натјецањима натјецањем
+14	4714	zadati	zadao zadaću zadati zada zadala zadali zadaće zadaju zadam zadaš zadate zadamo zadaj zadane zadalo zadan задао задаћу задати зада задала задали задаће задају задам задаш задате задамо задај задане задало задан
+15	4715	parlament	parlament parlamenta parlamentu parlamentom парламент парламента парламенту парламентом
+16	4716	poplava	poplava poplave poplavi poplavu poplavama poplavom поплава поплаве поплави поплаву поплавама поплавом
+17	4717	profesionalno	profesionalno професионално
+18	4718	zlikovac	zlikovac zlikovci zlikovca zlikovce zlikovaca cima zlikovče zlikovcima zlikovcem zlikovcu зликовац зликовци зликовца зликовце зликоваца цима зликовче зликовцима зликовцем зликовцу
+19	4719	proglašavati	proglašavam proglašava proglašavamo proglašavaju проглашавам proglašavajući proglašavate проглашава проглашавамо проглашавају проглашавајући проглашавате
+20	4720	veverica	veverica veverice vevericu vevericama veverici vevericom веверице веверица веверицу веверицама веверици веверицом
+21	4721	lider	lider lidera lideri lidere liderima лидер liderom lideru лидера лидери лидере лидерима лидером лидеру
+22	4722	digitalni	digitalni digitalne digitalno digitalna digitalnu digitalnom digitalnog digitalnim digitalnih дигитални digitalnoj дигиталне дигитално дигитална дигиталну дигиталном дигиталног дигиталним дигиталних дигиталној
+23	4723	zabosti	zabole zaboli zabodi zabola zabode zabodem zabosti zabodeš zaboden zabodu zabodena zabodene zabošću заболе заболи забоди забола забоде забодем забости забодеш забоден забоду забодена забодене забошћу
+24	4724	trovati	trovanje truje truju truješ trovao тровање trujete trovala trujem trovali трује trovati трују трујеш тровао трујете тровала трујем тровали тровати
+25	4725	sudjelovati	sudjelovati sudjelovao sudjelovali sudjelovanje sudjeluje sudjelujem sudjelovala sudjeluju sudjeluješ sudjelujete sudjelujemo судјеловати судјеловао судјеловали судјеловање судјелује судјелујем судјеловала судјелују судјелујеш судјелујете судјелујемо
+26	4726	balkon	balkona balkonu balkon balkonom балкона balkonima balkone балкон балкону балконом балконима балконе
+27	4727	vanjski	vanjski vanjskih vanjske vanjska vanjskog vanjsku vanjskim vanjskom vanjskoj vanjsko вањски вањских вањске вањска вањског вањску вањским вањском вањској вањско
+28	4728	detektor	detektor detektori detektora detektore detektoru detektorom detektorima детектор детектори детектора детекторе детектору детектором детекторима
+29	4729	bojna	bojnom bojno bojni bojne bojna bojnu бојном бојно бојни бојне бојна бојну
+30	4730	gram	grama gram грама gramu грам граму
+31	4731	prihvaćati	prihvaćam prihvaća prihvaćaš prihvaćanje prihvaćamo prihvaćaju prihvaćate prihvaćati prihvaćao прихваћам прихваћа прихваћаш прихваћање прихваћамо прихваћају прихваћате прихваћати прихваћао
+32	4732	izdavati	izdavanje izdajem izdaješ izdajete izdaje izdajemo izdavati izdavao izdaju izdavali izdavala izdajući izdaj izdajte izdajmo издаје издају издавање издајем издајеш издајете издајемо издавати издавао издавали издавала издајући издај издајте издајмо
+33	4733	laskati	laska laskaj laskaš laskanje laskate laskati laskam laskaju laskalo laskala laskao laskajte ласка ласкај ласкаш ласкање ласкате ласкати ласкам ласкају ласкало ласкала ласкао ласкајте
+34	4734	nedovoljan	nedovoljno nedovoljan nedovoljna недовољно nedovoljne nedovoljni недовољан недовољна недовољне недовољни
+35	4735	stupanj	stupnjeva stupnja stupanj stupnju ступњева ступња ступањ ступњу
+36	4736	asteroid	asteroid asteroida asteroidi asteroidu asteroide asteroidima asteroidom астероид астероида астероиди астероиду астероиде астероидима астероидом
+37	4737	vrlina	vrlina vrline vrlinu vrlinama vrlinom врлина vrlini врлине врлину врлинама врлином врлини
+38	4738	prognoza	prognoza prognozu prognoze prognozi prognozom прогноза prognozama прогнозу прогнозе прогнози прогнозом прогнозама
+39	4739	opuštati	opuštanje opušta opuštam opuštaš opuštaju opuštati opuštajući opuštaj opuštamo opuštate opuštao опуштање opuštala опушта опуштам опушташ опуштају опуштати опуштајући опуштај опуштамо опуштате опуштао опуштала
+40	4740	afrički	afrički afričke afrička afričkog afričkih afričkom afričkim afričku afričko afričkoj афрички афричке афричка афричког афричких афричком афричким афричку афричко афричкој
+41	4741	kukati	kukaš kukaj kukati kukanje kukam kukaju kukao kukate kukala kukamo kukajući кукаш kukali кукај кукати кукање кукам кукају кукао кукате кукала кукамо кукајући кукали
+42	4742	raspadati	raspada raspadaju raspadanje raspadam raspadati raspadao raspadaš raspadala raspadamo raspadalo распада распадају распадање распадам распадати распадао распадаш распадала распадамо распадало
+43	4743	posljedica	posljedice posljedica posljedicama posljedicu посљедице посљедица посљедицама посљедицу
+44	4744	vrpca	vrpcu vrpce vrpca vrpci vrpcom vrpcama врпцу врпце врпца врпци врпцом врпцама
+45	4745	kiseo	kiseli kiselo kiselu kisele kisela kiselog kiselim kiselih kiseo kiselom кисели кисело киселу киселе кисела киселог киселим киселих кисео киселом
+46	4746	gaziti	gaziš gazi gaze gazite gaziti gazim gazio gaženje gazili gazimo gazila gazeći газе газиш гази газите газити газим газио гажење газили газимо газила газећи
+47	4747	siledžija	siledžija siledžije siledžijo siledžiju siledžijama siledžijom siledžiji силеџија силеџије силеџијо силеџију силеџијама силеџијом силеџији
+48	4748	psihologija	psihologije psihologiju psihologija psihologiji psihologijom психологије психологију психологија психологији психологијом
+49	4749	prijetiti	prijetio prijetili prijete prijetila prijetiti prijetiš prijetite prijeteći prijetim пријетио пријетили пријете пријетила пријетити пријетиш пријетите пријетећи пријетим
+50	4750	boraviti	boravi boravio borave boraviti boravila boravili boravim boraviš boravite boravimo борави boraveći боравио бораве боравити боравила боравили боравим боравиш боравите боравимо боравећи
+51	4751	navijati	navijanje navijam navija navijaš navijaju navijamo navijati navijate navijajte navijaj navijaću навијање навијам навија навијаш навијају навијамо навијати навијате навијајте навијај навијаћу
+52	4752	pratilac	pratilac pratioca pratioci pratilaca pratioce pratiocem pratiocima пратилац pratiocu пратиоца пратиоци пратилаца пратиоце пратиоцем пратиоцима пратиоцу
+53	4753	guska	guske guska gusku gusaka gusko guskama guski guskom гуске гуска гуску гусака гуско гускама гуски гуском
+54	4754	institucija	institucija institucije instituciju instituciji institucijama институција институције институцију институцији институцијама
+55	4755	kleknuti	klekni kleknite kleknuo kleknem kleknuti klekneš klekne kleknu kleknete klekla kleknuću klekao kleknula kleče клекни клекните клекнуо клекнем клекнути клекнеш клекне клекну клекнете клекла клекнућу клекао клекнула клече
+56	4756	preokrenuti	preokrenuti preokrenuo preokrene preokrenemo preokrenula preokrenem preokreneš preokrenulo preokrenuli preokrenu preokreni preokrenut preokrenule preokrenete преокренути преокренуо преокрене преокренемо преокренула преокренем преокренеш преокренуло преокренули преокрену преокрени преокренут преокренуле преокренете
+57	4757	skupina	skupina skupine skupinu skupini skupinom skupinama скупина скупине скупину скупини скупином скупинама
+58	4758	obuzeti	obuzme obuzela obuzet obuzelo obuzeo obuzeti obuzeta obuzmu obuzele obuzeli обузме обузела обузет обузело обузео обузети обузета обузму обузеле обузели
+59	4759	pozitivno	pozitivno позитивно
+60	4760	jime	jime јиме
+61	4761	tovar	tovar tovara tovarom tovare tovari tovaru товар товара товаром товаре товари товару
+62	4762	nesvest	nesvesti nesvest несвести несвест
+63	4763	bunker	bunker bunkeru bunkera bunkere bunkeri бункер bunkerima бункеру бункера бункере бункери бункерима
+64	4764	kafana	kafani kafanu kafana kafane kafanama кафани кафану кафана кафане кафанама
+65	4765	staklen	staklene staklena stakleni staklenim staklenu stakleno staklenoj staklenih staklenom staklenog стаклене стаклена стаклени стакленим стаклену стаклено стакленој стаклених стакленом стакленог
+66	4766	pušten	pušten пуштен
+67	4767	zbližiti	zbližili zbližiti zbližio zbližimo zbližila zbliži zbližim zbližiš zbližilo zbližile zbližite zbliže zbližavati зближили зближити зближио зближимо зближила зближи зближим зближиш зближило зближиле зближите зближе зближавати
+68	4768	krik	krik krike krika krici kriku krikove krikovi kricima krikova крик krikom крици крике крика крику крикове крикови крицима крикова криком
+69	4769	naoružanje	naoružanje naoružanja naoružanjem naoružanju наоружање наоружања наоружањем наоружању
+70	4770	ponestati	ponestalo ponestane ponestati ponestaće понестало понестане понестати понестаће
+71	4771	poreći	poreći porekao porekneš poreknem porekne porekli poreknete poreci порећи porekni poreknu порекао порекнеш порекнем порекне порекли порекнете пореци порекни порекну
+72	4772	blefirati	blefira blefiraš blefiram blefirao blefiraju blefirate blefiranje blefirala blefiramo blefirati blefirali блефира блефираш блефирам блефирао блефирају блефирате блефирање блефирала блефирамо блефирати блефирали
+73	4773	brojka	brojke brojkama brojka brojki brojku бројке бројкама бројка бројки бројку
+74	4774	semestar	semestar semestra semestru семестра семестар semestara семестру семестара
+75	4775	lenj	lenj lenji lenja lenje lenju lenjim lenjih лењ лењи лења лење лењу лењим лењих
+76	4776	februar	februara februar februaru фебруар фебруара фебруару
+77	4777	surađivati	surađivati surađuje surađivali surađivao surađujemo surađuju surađujete surađujem surađuj surađuješ surađivala surađujte сурађивати сурађује сурађивали сурађивао сурађујемо сурађују сурађујете сурађујем сурађуј сурађујеш сурађивала сурађујте
+78	4778	potegnuti	potegao potegni potegnuti potegne potegneš potegnem potegla poteže potegnuo potegli potegnite potegnu potegnemo потегао потегни потегнути потегне потегнеш потегнем потегла потеже потегнуо потегли потегните потегну потегнемо
+79	4779	zavideti	zavidim zavide zavideo zavidi zavidiš zavideti zavidela zavideli zavidite zavidimo завидим завиде завидео завиди завидиш завидети завидела завидели завидите завидимо
+80	4780	izračunati	izračunao izračunati izračunaj izračunali izračunam izračunala izračuna izračunamo izračunajte izračunaš izračunate izračunaju izračunato израчунао израчунати израчунај израчунали израчунам израчунала израчуна израчунамо израчунајте израчунаш израчунате израчунају израчунато
+81	4781	pevač	pevač pevača pevači pevače pevačem pevaču певач pevačima певача певачи певаче певачем певачу певачима
+82	4782	švorc	švorc шворц
+83	4783	utjecati	utjecati utječe utjecalo utječu utjecao utjecala utjecali utječeš утјецати утјече утјецало утјечу утјецао утјецала утјецали утјечеш
+84	4784	jedro	jedra jedro jedrima jedara једра jedrom jedru једро једрима једара једром једру
+85	4785	željan	željan željni željno željna željne željnih željnog жељан жељни жељно жељна жељне жељних жељног
+86	4786	uličica	uličici uličicu uličice uličica uličicama uličicom уличици уличицу уличице уличица уличицама уличицом
+87	4787	bora	bora bori bore boru бори boro боре бора borama borom бору боро борама бором
+88	4788	genijalno	genijalno генијално
+89	4789	organizirati	organizirati organizirao organizira organiziram organizirali organizirala organiziramo organiziraju organiziraj organiziraš organiziranje organizirate organizirajte организирати организирао организира организирам организирали организирала организирамо организирају организирај организираш организирање организирате организирајте
+90	4790	funkcionirati	funkcionira funkcionirati funkcioniraju funkcioniralo funkcionirao funkcioniramo funkcioniranje функционира функционирати функционирају функционирало функционирао функционирамо функционирање
+91	4791	soko	soko sokola sokole sokol sokolovi sokolova sokolu sokolove соко sokolom сокола соколе сокол соколови соколова соколу соколове соколом
+92	4792	zahtijevati	zahtijeva zahtijevam zahtijevaju zahtijevao zahtijevati zahtijevala zahtijevamo zahtijevali zahtijevalo zahtijevaš захтијева захтијевам захтијевају захтијевао захтијевати захтијевала захтијевамо захтијевали захтијевало захтијеваш
+93	4793	tor	tor tora tore toru torom torove тор тора торе тору тором торове
+94	4794	obuzdati	obuzdati obuzdaj obuzdam obuzda obuzdaš obuzdajte obuzdamo obuzdate obuzdaju obuzdao obuzdali obuzdan obuzdana обуздати обуздај обуздам обузда обуздаш обуздајте обуздамо обуздате обуздају обуздао обуздали обуздан обуздана
+95	4795	kongresmen	kongresmen kongresmena kongresmene kongresmenu kongresmeni kongresmenom конгресмен конгресмена конгресмене конгресмену конгресмени конгресменом
+96	4796	veterinar	veterinar veterinara veterinaru veterinari veterinarom ветеринар ветеринара ветеринару ветеринари ветеринаром
+97	4797	padobran	padobran padobranom padobrana padobrane padobrani padobranima падобран падобраном padobranu падобрана падобране падобрани падобранима падобрану
+98	4798	redovan	redovni redovne redovna redovan redovnu redovnih redovnim redovnog redovnom redovnoj редовни редовне редовна редован редовну редовних редовним редовног редовном редовној
+99	4799	obojen	obojeni obojene obojena obojen obojenih obojeno obojenim obojenog obojenu obojenom obojenima обојени обојене обојена обојен обојених обојено обојеним обојеног обојену обојеном обојенима
+100	4800	juriš	juriš juriša јуриш jurišu јуриша јуришу

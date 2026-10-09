@@ -1,0 +1,100 @@
+1	5001	buđenje	buđenje buđenja буђење buđenju buđenjem буђења буђењу буђењем
+2	5002	znatiželjan	znatiželjan znatiželjna znatiželjni znatiželjne znatiželjnih znatiželjno знатижељан знатижељна знатижељни знатижељне знатижељних знатижељно
+3	5003	vidljiv	vidljiv vidljiva vidljive vidljivi vidljivih vidljivog vidljivim vidljivom vidljivu видљив видљива видљиве видљиви видљивих видљивог видљивим видљивом видљиву
+4	5004	slučajan	slučajna slučajni slučajan slučajne slučajnih slučajnog slučajnim slučajnom slučajnu случајна случајни случајан случајне случајних случајног случајним случајном случајну
+5	5005	neprilika	neprilike neprilika neprilici nepriliku neprilikama неприлике неприлика неприлици неприлику неприликама
+6	5006	spojen	spojeni spojene spojen spojena spojeno spojenih spojenim spojenog спојени спојене спојен спојена спојено спојених спојеним спојеног
+7	5007	sjever	sjever sjeveru sjevera сјевер сјеверу сјевера
+8	5008	klopka	klopka klopku klopci klopke klopki клопка клопку клопци клопке клопки
+9	5009	nagon	nagon nagone nagoni nagona nagonima nagonu nagonom нагон нагоне нагони нагона нагонима нагону нагоном
+10	5010	ragbi	ragbi ragbija ragbiju рагби ragbijem рагбија рагбију рагбијем
+11	5011	promašaj	promašaj promašaja promašaji promašaje промашај промашаја промашаји промашаје
+12	5012	znanstvenik	znanstvenici znanstvenik znanstvenika znanstvenica znanstvenike znanstvenicima znanstveniku знанственици знанственик знанственика знанственица знанственике знанственицима знанственику
+13	5013	sonda	sonda sonde sondu sondi sondom sondama сонда сонде сонду сонди сондом сондама
+14	5014	njuška	njuška njušku njuške njušci njuškom njuško њушка njuški njuškama њушку њушке њушци њушком њушко њушки њушкама
+15	5015	losos	lososa losos lososi lososom losose lososu лососа лосос лососи лососом лососе лососу
+16	5016	pecivo	pecivo peciva pecivu pecivom pecivima пециво пецива пециву пецивом пецивима
+17	5017	kokice	kokice кокице
+18	5018	proraditi	proradi proradio proraditi proradila prorade proradilo proradili proradiće proradile proradimo проради прорадио прорадити прорадила прораде прорадило прорадили прорадиће прорадиле прорадимо
+19	5019	hemikalija	hemikalije hemikalija hemikalijama hemikaliju хемикалије хемикалија хемикалијама хемикалију
+20	5020	plastika	plastike plastika plastiku plastikom plastici пластике пластика пластику пластиком пластици
+21	5021	hladnjak	hladnjak hladnjaku hladnjaka hladnjače hladnjake hladnjakom hladnjaci хладњак хладњаку хладњака хладњаче хладњаке хладњаком хладњаци
+22	5022	ilegalno	ilegalno илегално
+23	5023	trezor	trezor trezora trezoru trezori трезор trezorima трезора трезору трезори трезорима
+24	5024	apsurdno	apsurdno апсурдно
+25	5025	drkati	drkanje drkaš drka drkao drkam drkati drkaj drkaju drkate drkala drkamo drkali дркање дркаш дрка дркао дркам дркати дркај дркају дркате дркала дркамо дркали
+26	5026	ponovan	ponovnog ponovni ponovnom ponovnu ponovnim ponovna ponovne ponovnoj ponovnih поновног поновни поновном поновну поновним поновна поновне поновној поновних
+27	5027	medvjed	medvjed medvjeda medvjedi medvjede medvjedom medvjedu medvjedima медвјед медвједа медвједи медвједе медвједом медвједу медвједима
+28	5028	ukratko	ukratko укратко
+29	5029	štakor	štakora štakor štakori štakore štakorima štakoru штакора штакор штакори штакоре штакорима штакору
+30	5030	bijelac	bijelac bijelci bijelca bijelce bijelaca bijelcima bijelče bijelcem бијелац бијелци бијелца бијелце бијелаца бијелцима бијелче бијелцем
+31	5031	gozba	gozbu gozba gozbe gozbi gozbom гозбу гозба гозбе гозби гозбом
+32	5032	њом	њом
+33	5033	prekosutra	prekosutra preksutra прекосутра прексутра
+34	5034	trećina	trećinu trećina trećine trećinom trećini трећину трећина трећине трећином трећини
+35	5035	otkazivati	otkazuje otkazivanje otkazuju otkazujem otkazujemo otkazuješ otkazivati otkazujete otkazuj otkazivao отказује отказивање отказују отказујем отказујемо отказујеш отказивати отказујете отказуј отказивао
+36	5036	naglasiti	naglasio naglasim naglasiti naglasila naglasi naglasili naglašeno naglasite naglasimo naglašena naglasiš naglašene naglašen naglase нагласио нагласим нагласити нагласила нагласи нагласили наглашено нагласите нагласимо наглашена нагласиш наглашене наглашен нагласе
+37	5037	unositi	unosi unosiš unosim unose unositi unošenje unosimo unosite unosio unosili unosila unoseći уноси уносиш уносим уносе уносити уношење уносимо уносите уносио уносили уносила уносећи
+38	5038	predvoditi	predvodi predvodio predvoditi predvodim predvode predvodiš predvođeni predvodila predvođena predvodite предводи predvođen predvodili predvođene предводио предводити предводим предводе предводиш предвођени предводила предвођена предводите предвођен предводили предвођене
+39	5039	upravljanje	upravljanje управљање
+40	5040	pega	pegi pege pega pegama pego pegu пеги пеге пега пегама пего пегу
+41	5041	čistač	čistač čistača čistači čistače čistaču čistačem чистач čistačima чистача чистачи чистаче чистачу чистачем чистачима
+42	5042	zaboleti	zabole zaboli zabolelo zaboleti zabolela zaboleo zaboleće заболе заболи заболело заболети заболела заболео заболеће
+43	5043	izmena	izmene izmena izmeni izmenu izmenama измене izmenom измена измени измену изменама изменом
+44	5044	baklja	baklje baklju baklja baklji bakljama bakljom бакље бакљу бакља бакљи бакљама бакљом
+45	5045	pijanica	pijanica pijanice pijanicu pijanicom pijanico пијаница pijanicama пијанице пијаницу пијаницом пијаницо пијаницама
+46	5046	širenje	širenje širenja širenju širenjem ширење ширења ширењу ширењем
+47	5047	prebroditi	prebroditi prebrodićemo prebrodimo prebrodim prebrodiš prebrodi prebrodili prebrodio prebrodila prebrodićeš prebrode prebrodite пребродити пребродићемо пребродимо пребродим пребродиш преброди пребродили пребродио пребродила пребродићеш преброде пребродите
+48	5048	jazbina	jazbinu jazbina jazbini jazbine jazbinama јазбину јазбина јазбини јазбине јазбинама
+49	5049	izvršni	izvršni izvršnog izvršna izvršne izvršnu izvršnom izvršnim извршни izvršno izvršnih извршног извршна извршне извршну извршном извршним извршно извршних
+50	5050	suh	suho suha suh suhi suše suhe suhom suhu sušim suhog suhim sušu suhih sušom сухо суха сух сухи суше сухе сухом суху сушим сухог сухим сушу сухих сушом
+51	5051	fotka	fotke fotku fotka fotki fotkama фотке фотку фотка фотки фоткама
+52	5052	šav	šavova šav šavove šavovi šavovima šava шав шавова šavu шавове шавови шавовима шава шаву
+53	5053	kamin	kamin kamina kaminu kamini kaminom kamine камин камина камину камини камином камине
+54	5054	industrijski	industrijski industrijske industrijska industrijsku industrijskog industrijskom industrijskim industrijsko industrijskoj industrijskih индустријски индустријске индустријска индустријску индустријског индустријском индустријским индустријско индустријској индустријских
+55	5055	snežan	snežni snežna snežne snežnu snežnog snežnih snežnoj snežno snežnim снежни snežnom снежна снежне снежну снежног снежних снежној снежно снежним снежном
+56	5056	tuda	tuda туда
+57	5057	siriti	sire siri sirile sirila сири sirenje sirah siren sirene sireni sireno сире сириле сирила сирење сирах сирен сирене сирени сирено
+58	5058	pljuvati	pljuje pljuješ pljujem pljuju pljuvati pljuvanje pljuvao pljuvali pljuj pljuvala pljujete pljujemo пљује пљујеш пљујем пљују пљувати пљување пљувао пљували пљуј пљувала пљујете пљујемо
+59	5059	nezavisnost	nezavisnost nezavisnosti независност независности nezavisnošću независношћу
+60	5060	barun	barone barona barun baronu baroni baronom baruna barune бароне барона барун барону барони бароном баруна баруне
+61	5061	katolički	katolička katoličke katolički katoličku katoličkoj katoličkog katoličkom katoličko katoličkih katoličkim католичка католичке католички католичку католичкој католичког католичком католичко католичких католичким
+62	5062	svinjski	svinjske svinjski svinjska svinjsku svinjsko svinjskih svinjskog svinjskim svinjskom svinjskoj свињске свињски свињска свињску свињско свињских свињског свињским свињском свињској
+63	5063	rasprodaja	rasprodaji rasprodaja rasprodaju rasprodaje rasprodajama распродаји распродаја распродају распродаје распродајама
+64	5064	њима	њима
+65	5065	poštar	poštar poštara poštaru poštari poštare poštarom поштар поштара поштару поштари поштаре поштаром
+66	5066	odjenuti	odjenuti odjeven odjevena odjeni odjeveni odjenem odjenuo odjenula odjenut odjeneš odjevene odjene odjenite одјенути одјевен одјевена одјени одјевени одјенем одјенуо одјенула одјенут одјенеш одјевене одјене одјените
+67	5067	sluh	sluh sluha sluhom sluhu слух слуха слухом слуху
+68	5068	jebač	jebač jebaču jebači jebača jebače jebačima јебач јебачу јебачи јебача јебаче јебачима
+69	5069	pretrpeti	pretrpeo pretrpela pretrpeli pretrpeti pretrpele pretrpi pretrpelo претрпео претрпели pretrpe претрпела претрпети претрпеле претрпи претрпело претрпе
+70	5070	kruh	kruh kruha kruhu kruhom крух круха круху крухом
+71	5071	žudeti	žudi žudim žude žudeo žudiš žudela žudite žudimo žudeli žudeti žudeći жуди жудим жуде жудео жудиш жудела жудите жудимо жудели жудети жудећи
+72	5072	šoljica	šoljicu šoljica šoljice šoljici šoljicom šoljicama шољица шољицу шољице шољици шољицом шољицама
+73	5073	otkup	otkup otkupi otkupa otkupe откуп otkupu otkupom откупи откупа откупе откупу откупом
+74	5074	suziti	suze suziti suzi suzimo suzio suzili suzila suzim suziš suženje suzite suzile suzilo сузи сузе сузити сузимо сузио сузили сузила сузим сузиш сужење сузите сузиле сузило
+75	5075	peške	peške пешке
+76	5076	učenica	učenica učenici učenice učenicu učenicom učenicama ученица ученици ученице ученицу ученицом ученицама
+77	5077	zauzimati	zauzima zauzimaju zauzimam zauzimaš zauzimanje zauzimamo zauzimao zauzimate zauzimati zauzimali zauzimala zauzimajući заузима заузимају заузимам заузимаш заузимање заузимамо заузимао заузимате заузимати заузимали заузимала заузимајући
+78	5078	rov	rov rovovima rovu rovove rova rovova rovovi роде ров рововима рову ровове рова ровова ровови
+79	5079	obrađivati	obrađuje obrađuju obrađujem obrađujemo obrađivao obrađivati obrađuješ obrađivali obrađivala obrađivanje obrađujete obrađuj обрађује обрађују обрађујем обрађујемо обрађивао обрађивати обрађујеш обрађивали обрађивала обрађивање обрађујете обрађуј
+80	5080	debil	debil debilu debili debila debile debilom дебил дебилу дебили дебила дебиле дебилом
+81	5081	nevesta	nevesta nevestu neveste nevesti nevestom nevesto невеста невесту невесте невести невестом невесто
+82	5082	praktičan	praktičan praktična praktične praktični praktičnije praktičnu praktičnih praktičniji praktičnog praktičnom praktičnim практичан praktičnoj практична практичне практични практичније практичну практичних практичнији практичног практичном практичним практичној
+83	5083	litar	litara litre litar литара litru литар litri litrom литре литру литри литром
+84	5084	apsolutan	apsolutna apsolutni apsolutnu apsolutne apsolutnom apsolutnoj apsolutnog apsolutan apsolutnim апсолутна апсолутни апсолутну апсолутне апсолутном апсолутној апсолутног апсолутан апсолутним
+85	5085	zvijer	zvijer zvijeri zvijerima звијер звијери звијерима
+86	5086	lakat	lakat laktove lakta laktom laktovima laktovi laktu laktova lakata лакат лактове лакта лактом лактовима лактови лакту лактова лаката
+87	5087	domar	domar domara domaru domarom domari домар domare домара домару домаром домари домаре
+88	5088	opsesija	opsesija opsesije opsesiju opsesijom opsesiji опсесија opsesijama опсесије опсесију опсесијом опсесији опсесијама
+89	5089	ćaskati	ćaskanje ćaskamo ćaskam ćaskali ćaskati ćaskao ćaska ćaskaš ćaskate ćaskaju ћаскање ćaskala ćaskaj ћаскамо ћаскам ћаскали ћаскати ћаскао ћаска ћаскаш ћаскате ћаскају ћаскала ћаскај
+90	5090	rasplakati	rasplakao rasplakala rasplakati rasplaču rasplače rasplačem rasplačeš rasplakaću rasplakaćeš rasplakali rasplakalo расплакао расплакала расплакати расплачу расплаче расплачем расплачеш расплакаћу расплакаћеш расплакали расплакало
+91	5091	upravitelj	upravitelj upravitelja upravitelju upraviteljica upraviteljem upravitelji управитељ управитеља управитељу управитељица управитељем управитељи
+92	5092	susedni	susednoj susedne susednom susednu susednog susednim susedni susedna susednih susedno суседној суседне суседном суседну суседног суседним суседни суседна суседних суседно
+93	5093	obiti	obije obiti obio obi obilo obijena obili obijem obila obiješ obijen obijemo obij obiju обије обити обио оби обило обијена обили обијем обила обијеш обијен обијемо обиј обију
+94	5094	snajperist	snajperista snajperisti snajperiste snajperistu snajperist snajperistom snajperistima снајпериста снајперисти снајперисте снајперисту снајперист снајперистом снајперистима
+95	5095	berza	berzi berze berza berzu berzom берзи berzama берзе берза берзу берзом берзама
+96	5096	lutalica	lutalica lutalice lutalicu lutalicama lutalici луталица lutalicom луталице луталицу луталицама луталици луталицом
+97	5097	vika	vika viku vike vikom vici вика vikama viko вику вике виком вици викама вико
+98	5098	promet	promet prometa prometu prometom промет промета промету прометом
+99	5099	stijena	stijene stijena stijenu stijenama stijeni стијене стијена стијену стијенама стијени
+100	5100	sedlo	sedlo sedla sedlu sedala sedlom седло седла седлу седала седлом

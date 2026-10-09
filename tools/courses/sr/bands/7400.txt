@@ -1,0 +1,100 @@
+1	7301	listopad	listopada lis listopad listopadu листопада лис листопад листопаду
+2	7302	duhovno	duhovno духовно
+3	7303	majmunski	majmunski majmunska majmunske majmunsko majmunskom majmunskim majmunsku majmunskog majmunskih мајмунски мајмунска мајмунске мајмунско мајмунском мајмунским мајмунску мајмунског мајмунских
+4	7304	štimati	štima štimalo штима штимало
+5	7305	karika	karika kariku karike карика карику карике
+6	7306	bedro	bedra bedro bedrima bedru bedara бедра бедро бедрима бедру бедара
+7	7307	milosrdan	milosrdni milosrdan milosrdna milosrdno milosrdne milosrdnog milosrdnu milosrdnih milosrdnim милосрдни милосрдан милосрдна милосрдно милосрдне милосрдног милосрдну милосрдних милосрдним
+8	7308	zaželjeti	zaželi zaželiš zaželio zaželjeti zaželite zaželim zaželjela zaželimo zažele зажели зажелиш зажелио зажељети зажелите зажелим зажељела зажелимо зажеле
+9	7309	svinjac	svinjac svinjče svinjcu svinjca свињац свињче свињцу свињца
+10	7310	skaut	skaut skauta skauti skaute skautima скаут скаута скаути скауте скаутима
+11	7311	tumarati	tumara tumaraju tumarao tumaram tumaraš tumarali tumarati tumaramo tumarala tumarajući tumaranje tumarate тумара тумарају тумарао тумарам тумараш тумарали тумарати тумарамо тумарала тумарајући тумарање тумарате
+12	7312	ekstazi	ekstazi ekstazija екстази екстазија
+13	7313	ikona	ikona ikone ikonu икона иконе ikonom икону иконом
+14	7314	poslijepodne	poslijepodne poslijepodneva послијеподне послијеподнева
+15	7315	smak	smak smaka smaku смак смака смаку
+16	7316	meduza	meduza meduze meduzu медуза медузе медузу
+17	7317	uvodni	uvodni uvodnu uvodna uvodne uvodnom uvodno uvodnoj uvodnim uvodnog уводни уводну уводна уводне уводном уводно уводној уводним уводног
+18	7318	fitilj	fitilj fitilja fitilje fitiljem фитиљ фитиља фитиље фитиљем
+19	7319	sjeme	sjeme sjemena sjemenom сјеме сјемена сјеменом
+20	7320	alatka	alatka alatke alatku alatki alatkom alatkama алатка алатке алатку алатки алатком алаткама
+21	7321	harmonika	harmoniku harmonika harmonike harmonici harmonikom хармонику хармоника хармонике хармоници хармоником
+22	7322	kvadrant	kvadrantu kvadrant kvadranta квадранту квадрант квадранта
+23	7323	spontan	spontana spontani spontan spontane spontanog spontanu spontanom spontanih спонтана спонтани спонтан спонтане спонтаног спонтану спонтаном спонтаних
+24	7324	čorba	čorbu čorba čorbe čorbi чорбу чорба чорбе чорби
+25	7325	oponašati	oponaša oponašati oponašaju oponašam oponašanje oponašao oponašaš oponašaj oponašajući опонаша опонашати опонашају опонашам опонашање опонашао опонашаш опонашај опонашајући
+26	7326	kobila	kobila kobilu kobile kobili kobilo kobilom кобила кобилу кобиле кобили кобило кобилом
+27	7327	hrskav	hrskava hrskavo hrskavi hrskave hrskav hrskavu hrskavim hrskavog хрскава хрскаво хрскави хрскаве хрскав хрскаву хрскавим хрскавог
+28	7328	uzrast	uzrasta uzrastu uzrast uzraste узраста узрасту узраст узрасте
+29	7329	efikasno	efikasno ефикасно
+30	7330	tapeta	tapete tapeta tapetu tapetama tapeti тапете тапета тапету тапетама тапети
+31	7331	podvig	podvig podviga podvige podvizima podvizi podvigu подвиг подвига подвиге подвизима подвизи подвигу
+32	7332	razbacati	razbacane razbacani razbacana razbacano razbacao razbacan razbacati razbacali razbacala razbacaj razbaca разбацане разбацани разбацана разбацано разбацао разбацан разбацати разбацали разбацала разбацај разбаца
+33	7333	ravnatelj	ravnatelj ravnatelja ravnatelju ravnateljem равнатељ равнатеља равнатељу равнатељем
+34	7334	ulični	ulični улични
+35	7335	božanstvo	božanstvo božanstva božanstvu božanstava božanstvima božanstvom божанство божанства божанству божанстава божанствима божанством
+36	7336	barka	barka barku barke barci barkom barki барка барку барке барци барком барки
+37	7337	prijenos	prijenos prijenosa prijenosu prijenosom пријенос пријеноса пријеносу пријеносом
+38	7338	bodljikav	bodljikave bodljikavu bodljikava bodljikavo bodljikavom bodljikavi bodljikavog bodljikavoj бодљикаве бодљикаву бодљикава бодљикаво бодљикавом бодљикави бодљикавог бодљикавој
+39	7339	koračati	korača koračaj koračam koračaš koračao koračamo koračati koračaju koračajmo koračanje koračali koračajte корача корачај корачам корачаш корачао корачамо корачати корачају корачајмо корачање корачали корачајте
+40	7340	trn	trn trnu trne trna трн трну трне трна
+41	7341	patent	patent patente patenta patenata patenti patentom patentima патент патенте патента патената патенти патентом патентима
+42	7342	blebetati	blebećeš blebetanje blebeće blebećem blebetalo blebetati blebetao blebetala blebeću blebećete блебећеш блебетање блебеће блебећем блебетало блебетати блебетао блебетала блебећу блебећете
+43	7343	oslobođenje	oslobođenje oslobođenja oslobođenju ослобођење ослобођења ослобођењу
+44	7344	kapljica	kapljica kapljice kapljicu kapljicama kapljicom капљица капљице капљицу капљицама капљицом
+45	7345	nećakinja	nećakinja nećakinju nećakinje nećakinji nećakinjom нећакиња нећакињу нећакиње нећакињи нећакињом
+46	7346	pismen	pismeni pismenu pismene pismena pismen pismenog pismenom pismenim писмени писмену писмене писмена писмен писменог писменом писменим
+47	7347	deveruša	deveruša deveruše deverušu deverušama деверуша деверуше деверушу деверушама
+48	7348	kelvin	kelvin kelvine kelvina kelvinu келвин келвине келвина келвину
+49	7349	nežnost	nežnost nežnosti nežnošću нежност нежности нежношћу
+50	7350	isprobavati	isprobavam isprobava isprobavamo isprobavaš isprobavanje isprobavaju isprobavati испробавам испробава испробавамо испробаваш испробавање испробавају испробавати
+51	7351	razmjena	razmjenu razmjena razmjene razmjeni размјену размјена размјене размјени
+52	7352	usporedba	usporedbi usporedbu usporedbe usporedba успоредби успоредбу успоредбе успоредба
+53	7353	pustolovina	pustolovina pustolovine pustolovinu pustolovinama pustolovini пустоловина пустоловине пустоловину пустоловинама пустоловини
+54	7354	rotacija	rotaciju rotacija rotacije rotaciji rotacijom ротацију ротација ротације ротацији ротацијом
+55	7355	tampon	tampon tampone tampona tamponi tamponima тампон тампоне тампона тампони тампонима
+56	7356	mulj	mulj mulja mulju muljem муљ муља муљу муљем
+57	7357	središnji	središnji središnje središnja središnjoj središnjem središnjeg središnju središnjim средишњи средишње средишња средишњој средишњем средишњег средишњу средишњим
+58	7358	ljudskost	ljudskost ljudskosti људскост људскости
+59	7359	gležanj	gležanj gležnjeve gležnja gležnjevi gležnju gležnjevima gležnjeva глежањ глежњеве глежња глежњеви глежњу глежњевима глежњева
+60	7360	popunjavati	popunjava popunjavam popunjavaju popunjavanje popunjavaš popunjavao popunjavati popunjavala popunjavamo popunjavali popunjavate попуњава попуњавам попуњавају попуњавање попуњаваш попуњавао попуњавати попуњавала попуњавамо попуњавали попуњавате
+61	7361	pobožan	pobožan pobožna pobožni pobožno pobožne pobožnog pobožnih pobožnim pobožnu побожан побожна побожни побожно побожне побожног побожних побожним побожну
+62	7362	tesno	tesno тесно
+63	7363	misteriozno	misteriozno мистериозно
+64	7364	nesvestan	nesvestan nesvesni nesvesna nesvesne nesvesnog nesvesnom nesvesnim несвестан несвесни несвесна несвесне несвесног несвесном несвесним
+65	7365	četvero	četvero четверо
+66	7366	golubica	golubice golubica golubicu golubici голубице голубица голубицу голубици
+67	7367	miraz	miraz miraza mirazu mirazom мираз мираза миразу миразом
+68	7368	gluh	gluh gluha gluhi gluhe gluho глух глуха глухи глухе глухо
+69	7369	procuriti	procuri procurilo procurila procurio procure procuriti procurile процури процурило процурила процурио процуре процурити процуриле
+70	7370	reptil	reptila reptili reptil reptile reptilima reptilu рептила рептили рептил рептиле рептилима рептилу
+71	7371	silovatelj	silovatelj силоватељ
+72	7372	dragocjen	dragocjeno dragocjen dragocjeni dragocjena dragocjene dragocjenog dragocjenu najdragocjenije dragocjenih dragocjenim драгоцјено драгоцјен драгоцјени драгоцјена драгоцјене драгоцјеног драгоцјену најдрагоцјеније драгоцјених драгоцјеним
+73	7373	doprijeti	doprijeti dopre doprem dopremo dopro dopreš dopru doprete допријети допре допрем допремо допро допреш допру допрете
+74	7374	ovlast	ovlasti ovlast ovlastima овласти овласт овластима
+75	7375	madrac	madrac madraca madracu madrace madraci madracima мадрац мадраца мадрацу мадраце мадраци мадрацима
+76	7376	sekvenca	sekvencu sekvenca sekvence sekvenci sekvencama секвенцу секвенца секвенце секвенци секвенцама
+77	7377	podmazati	podmazano podmazati podmazana podmazan podmaži podmažem podmazao podmazani podmaže podmažeš podmažemo podmazane подмазано подмазати подмазана подмазан подмажи подмажем подмазао подмазани подмаже подмажеш подмажемо подмазане
+78	7378	analitičar	analitičar analitičara analitičari аналитичар analitičare аналитичара аналитичари аналитичаре
+79	7379	komunizam	komunizam komunizma komunizmu komunizmom комунизам комунизма комунизму комунизмом
+80	7380	pešak	pešaka pešak pešaci pešake пешака pešače пешак пешаци пешаке пешаче
+81	7381	ubrati	ubrao ubrati ubrala uberem uberi ubere ubereš ubrali uberemo uberu ubrana ubrano ubran убрао убрати убрала уберем убери убере убереш убрали уберемо уберу убрана убрано убран
+82	7382	teoretičar	teoretičari teoretičar teoretičara teoretičarima теоретичари teoretičare теоретичар теоретичара теоретичарима теоретичаре
+83	7383	savijati	savija savijanje savijaju savijaš savijam savijati savijaj savijao савија савијање савијају савијаш савијам савијати савијај савијао
+84	7384	sablja	sablju sablja sablje sabljom sabljama sablji сабљу сабља сабље сабљом сабљама сабљи
+85	7385	šaren	šarene šarena šareno šareni šarenu šarenim šarenih šaren šarenog шарене шарена шарено шарени шарену шареним шарених шарен шареног
+86	7386	muškost	muškost muškosti muškošću мушкост мушкости мушкошћу
+87	7387	mlin	mlin mlinu mlina mlinovi млин млину млина млинови
+88	7388	izvođač	izvođač izvođača извођач извођача
+89	7389	malina	malina maline malini malinu malinama malinom малина малине малини малину малинама малином
+90	7390	raspoloživ	raspoložive raspoloživa raspoloživim raspoloživi raspoloživo raspoloživ raspoloživih raspoloživog raspoloživu расположиве расположива расположивим расположиви расположиво расположив расположивих расположивог расположиву
+91	7391	avijacija	avijacije avijacija avijaciju avijaciji авијације авијација авијацију авијацији
+92	7392	lala	lala lale lali lalo lalu lalama лала лале лали лало лалу лалама
+93	7393	gulaš	gulaš gulaša gulašu гулаш гулаша гулашу
+94	7394	obnova	obnovu obnova obnovi obnove obnovom обнови обнову обнова обнове обновом
+95	7395	tajmer	tajmer tajmera tajmerom tajmeru тајмер тајмера тајмером тајмеру
+96	7396	srpanj	srpnja srpanj srpnju srp српња српањ српњу срп
+97	7397	zavist	zavist zavisti zavišću завист зависти завишћу
+98	7398	vegetarijanac	vegetarijanac vegetarijanci vegetarijance вегетаријанац вегетаријанци вегетаријанце
+99	7399	kvota	kvotu kvote kvota kvotama квоту квоте квота квотама
+100	7400	isprava	isprava ispravi isprave ispravu ispravama исправи исправе исправа исправу исправама

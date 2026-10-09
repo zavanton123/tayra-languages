@@ -1,0 +1,100 @@
+1	9601	janje	janje janjad janjeta јање јањад јањета
+2	9602	veljača	veljače veljači veljača вељаче вељачи вељача
+3	9603	socijalizam	socijalizam socijalizma socijalizmu социјализам социјализма социјализму
+4	9604	budaletina	budaletina budaletino budaletine будалетина будалетино будалетине
+5	9605	sobica	sobici sobicu sobica sobice собици собицу собица собице
+6	9606	opipljiv	opipljivo opipljiv opipljive opipljiva opipljivi opipljivije опипљиво опипљив опипљиве опипљива опипљиви опипљивије
+7	9607	ljuštura	ljuštura ljušture ljušturu љуштура љуштуре љуштуру
+8	9608	deklaracija	deklaraciju deklaracija deklaracije deklaraciji декларацију декларација декларације декларацији
+9	9609	pričest	pričest pričesti pričešću причест причести причешћу
+10	9610	tetkica	tetkice tetkica tetkicu теткице теткица теткицу
+11	9611	snagator	snagator snagatora snagatori snagatore snagatoru снагатор снагатора снагатори снагаторе снагатору
+12	9612	fobija	fobiju fobija fobije фобију фобија фобије
+13	9613	zaceliti	zaceli zaceliti zacelila zacele zacelile zacelilo зацели зацелити зацелила зацеле зацелиле зацелило
+14	9614	prikrasti	prikrao prikrade prikrasti prikradati prikradem prikrademo prikrali prikrala prikradu прикрао прикраде прикрасти прикрадати прикрадем прикрадемо прикрали прикрала прикраду
+15	9615	vlažnost	vlažnost vlažnosti влажност влажности
+16	9616	prilagodba	prilagodba prilagodbe prilagodbu прилагодба прилагодбе прилагодбу
+17	9617	kameleon	kameleon kameleoni kameleona камелеон камелеони камелеона
+18	9618	apotekar	apotekar apotekara apotekaru апотекар апотекара апотекару
+19	9619	harpun	harpun harpunom harpuna harpune харпун харпуном харпуна харпуне
+20	9620	bezimen	bezimeni bezimena bezimenog bezimenih bezimene bezimen bezimenom безимени безимена безименог безимених безимене безимен безименом
+21	9621	nabor	nabor nabori nabora nabore naborima набор набори набора наборе наборима
+22	9622	prsni	prsni prsne prsnog prsno prsnu прсни прсне прсног прсно прсну
+23	9623	šverc	šverc šverca švercom švercu шверц шверца шверцом шверцу
+24	9624	vodonik	vodonik водоник
+25	9625	pasus	pasus pasusa pasuse pasusu пасус пасуса пасусе пасусу
+26	9626	pekmez	pekmez pekmeza pekmezom pekmezu пекмез пекмеза пекмезом пекмезу
+27	9627	neobavezan	neobavezno neobavezan neobavezni neobavezna необавезно необавезан необавезни необавезна
+28	9628	severozapad	severozapadu severozapad severozapada северозападу северозапад северозапада
+29	9629	radikal	radikala radikali radikal radikalima radikale радикала радикали радикал радикалима радикале
+30	9630	povratnik	povratnik povratnika povratnici povratnike povratnicima повратник повратника повратници повратнике повратницима
+31	9631	ludorija	ludorije ludorija ludorijama ludoriju лудорије лудорија лудоријама лудорију
+32	9632	levak	levak levaci левак леваци
+33	9633	izumjeti	izumio izumiti izumljen изумио изумити изумљен
+34	9634	pedantan	pedantan pedantno pedantna pedantni педантан педантно педантна педантни
+35	9635	kasta	kaste kasta kasti kastu касте каста касти касту
+36	9636	podgrejati	podgrejem podgrej podgrejati podgrejaću podgreješ podgrejala podgreje подгрејем подгреј подгрејати подгрејаћу подгрејеш подгрејала подгреје
+37	9637	gazela	gazela gazele gazelu газела газеле газелу
+38	9638	rječnik	rječnik rječniku riječnik rječnikom rječnika рјечник рјечнику ријечник рјечником рјечника
+39	9639	maser	maser masera maseru масер масера масеру
+40	9640	adresar	adresar adresaru adresara адресар адресару адресара
+41	9641	olakšica	olakšice olakšica olakšicu олакшице олакшица олакшицу
+42	9642	iscelitelj	iscelitelj iscelitelja iscelitelji iscelitelju исцелитељ исцелитеља исцелитељи исцелитељу
+43	9643	nametljiv	nametljiva nametljiv nametljivo nametljivi наметљива наметљив наметљиво наметљиви
+44	9644	opsesivan	opsesivan opsesivna opsesivni opsesivne opsesivnu опсесиван опсесивна опсесивни опсесивне опсесивну
+45	9645	sfera	sfera сфера
+46	9646	pisar	pisar pisara pisari pisaru писар писара писари писару
+47	9647	zvečarka	zvečarka zvečarke zvečarku zvečarki звечарка звечарке звечарку звечарки
+48	9648	ždral	ždral ždralovi ždrala ždralova ždralove ждрал ждралови ждрала ждралова ждралове
+49	9649	stalak	stalak stalka stalku stalke сталак сталка сталку сталке
+50	9650	obijati	obijanje obija obijao obijam obijaju obijaš обијање обија обијао обијам обијају обијаш
+51	9651	sedati	sedaj sedaš sedajte sedamo седа seda седај седаш седајте седамо
+52	9652	odjeljak	odjeljak odjeljku odjeljka одјељак одјељку одјељка
+53	9653	monstruozan	monstruozno monstruozna monstruozni monstruozne monstruozan monstruoznog монструозно монструозна монструозни монструозне монструозан монструозног
+54	9654	nepostojeći	nepostojeće nepostojeći nepostojeća nepostojećeg nepostojeću непостојеће непостојећи непостојећа непостојећег непостојећу
+55	9655	izrazito	izrazito изразито
+56	9656	neizlečiv	neizlečivo neizlečiva neizlečive neizlečivi neizlečivu neizlečiv неизлечиво неизлечива неизлечиве неизлечиви неизлечиву неизлечив
+57	9657	razmirica	razmirice razmirica размирице размирица
+58	9658	kažiprst	kažiprst kažiprsta kažiprstom kažiprstu кажипрст кажипрста кажипрстом кажипрсту
+59	9659	njiva	njive njivu njivi njiva njivama њиве њиву њиви њива њивама
+60	9660	zapustiti	zapušteno zapušten zapustio zapuštena zapustila zapušteni zapuštene запуштено запуштен запустио запуштена запустила запуштени запуштене
+61	9661	šmrkati	šmrčeš šmrkao šmrkanje šmrkala šmrčem šmrkati šmrču šmrkali šmrče шмрчеш шмркао шмркање шмркала шмрчем шмркати шмрчу шмркали шмрче
+62	9662	smelost	smelosti smelost смелости смелост
+63	9663	krinka	krinka krinku krinkom krinke кринка кринку кринком кринке
+64	9664	sočno	sočno сочно
+65	9665	strahopoštovanje	strahopoštovanje strahopoštovanja strahopoštovanjem страхопоштовање страхопоштовања страхопоштовањем
+66	9666	paviljon	paviljon paviljonu paviljona павиљон павиљону павиљона
+67	9667	radilica	radilice radilica radilicu радилице радилица радилицу
+68	9668	balada	balada balade baladu балада баладе баладу
+69	9669	berlinski	berlinski berlinskog berlinska berlinskom berlinske берлински берлинског берлинска берлинском берлинске
+70	9670	izazovan	izazovna izazovan izazovnije izazovne izazovnu izazovni изазовна изазован изазовније изазовне изазовну изазовни
+71	9671	sujeveran	sujeveran sujeverni sujeverna сујеверан сујеверни сујеверна
+72	9672	olovan	olovni olovne olovna olovnom olovnu olovnim olovno оловни оловне оловна оловном оловну оловним оловно
+73	9673	prestiž	prestiž prestiža prestiže prestižu престиж престижа престиже престижу
+74	9674	stolnjak	stolnjak stolnjake stolnjaci stolnjaka stolnjacima столњак столњаке столњаци столњака столњацима
+75	9675	ком	ком
+76	9676	nabrojati	nabrojim nabrojati nabrajati nabroji nabrojiš набројим набројати набрајати наброји набројиш
+77	9677	grimasa	grimase grimasu grimasa гримасе гримасу гримаса
+78	9678	lomljiv	lomljivo lomljiv lomljiva lomljive lomljivi ломљиво ломљив ломљива ломљиве ломљиви
+79	9679	nanišaniti	nanišani nanišanio nanišanite nanišanim nanišaniš нанишани нанишанио нанишаните нанишаним нанишаниш
+80	9680	štamparija	štampariju štampariji štamparije štamparija штампарију штампарији штампарије штампарија
+81	9681	obistiniti	obistinilo obistiniti obistini obistinio obistinila obistine obistinili обистинило обистинити обистини обистинио обистинила обистине обистинили
+82	9682	gađenje	gađenje gađenja gađenjem гађење гађења гађењем
+83	9683	kontuzija	kontuzije kontuzija kontuziju контузије контузија контузију
+84	9684	unakrsno	unakrsno унакрсно
+85	9685	grdno	grdno грдно
+86	9686	gepard	gepard geparda gepardi гепард гепарда гепарди
+87	9687	mišica	mišice mišica mišici mišicu мишице мишица мишици мишицу
+88	9688	usidriti	usidren usidreni usidriti usidrena usidrio usidrili usidri усидрен усидрени усидрити усидрена усидрио усидрили усидри
+89	9689	mučan	mučan mučna mučne mučni mučnog mučnim mučnih мучан мучна мучне мучни мучног мучним мучних
+90	9690	tribun	tribune tribun tribuna трибуне трибун трибуна
+91	9691	kamilica	kamilice kamilica kamilicu камилице камилица камилицу
+92	9692	senzacionalan	senzacionalna senzacionalan senzacionalni senzacionalne najsenzacionalnijim senzacionalnu сензационална сензационалан сензационални сензационалне најсензационалнијим сензационалну
+93	9693	režati	režanje režao režiš režati reži reže režite режање режао режиш режати режи реже режите
+94	9694	presek	presek preseci preseče preseka preseku пресек пресеци пресече пресека пресеку
+95	9695	povodac	povodac поводац
+96	9696	uzduž	uzduž уздуж
+97	9697	anksioznost	anksioznost anksioznosti анксиозност анксиозности
+98	9698	staž	staž staža stažu стаж стажа стажу
+99	9699	tržišni	tržišne tržišna tržišnu tržišni tržišnoj тржишне тржишна тржишну тржишни тржишној
+100	9700	trbušni	trbušni trbušne trbušnu trbušna trbušnim трбушни трбушне трбушну трбушна трбушним

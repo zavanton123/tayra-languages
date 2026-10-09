@@ -182,6 +182,37 @@ def russian_name_forms(names):
     return forms
 
 
+def serbian_name_forms(names):
+    """
+    The case forms of Serbian names, from their regular declension: Ana, Ane, Ani, Anu, Anom; Marko,
+    Marka, Marku, Markom; Jovan, Jovana, Jovanu, Jovanom, Jovane; Petrović, Petrovića, Petroviću;
+    Niš, Niša, Nišu; Novi Sad, Novog Sada, Novom Sadu. A name whose vowel drops (Petar, Kragujevac, Čačak) also
+    gives the short stem (Petra, Kragujevca, Čačka). A name of several words or with a hyphen gives the
+    forms of each part.
+    """
+    forms = set()
+    for name in names:
+        for part in re.split(r"[\s-]+", name.lower()):
+            if not part:
+                continue
+            forms.add(part)
+            stem, last = part[:-1], part[-1]
+            if last == "a":
+                forms.update(stem + e for e in ("e", "i", "u", "o", "om"))
+            elif last == "o":
+                forms.update(stem + e for e in ("a", "u", "om", "o"))
+            elif last == "e":
+                forms.update(stem + e for e in ("a", "u", "em"))
+            elif last == "i":
+                forms.update(stem + e for e in ("og", "om", "oj", "im", "ih", "a", "e", "u", "i"))
+            elif last not in "uy":
+                forms.update(part + e for e in ("a", "u", "om", "em", "e", "ov", "i"))
+                if len(part) > 4 and part.endswith(("ac", "ak", "ar", "ec", "ek")):
+                    short = part[:-2] + part[-1]
+                    forms.update(short + e for e in ("a", "u", "om", "em", "e", "i"))
+    return forms
+
+
 # Object pronouns a Spanish verb can carry at its end, longest first so "les" goes before "le".
 SPANISH_CLITICS = ("los", "las", "les", "nos", "os", "lo", "la", "le", "me", "te", "se")
 UNACCENTED = str.maketrans("áéíóú", "aeiou")
@@ -354,9 +385,11 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code == "it" and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr") else []
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
+    if code == "sr":
+        names = names | serbian_name_forms(course.get("names", []))
     seen_new = set()
     ok = True
     report = []
@@ -368,7 +401,7 @@ def check(path, brief=False):
             text = text.replace(name, " ")
         toks = tokens(text, code, ranks, names, verbs, set(words) if code == "it" else None)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
-        if code in ("es", "ru", "it"):
+        if code in ("es", "ru", "it", "sr"):
             numerals = sum(1 for t in toks if ROMAN.fullmatch(t))
             toks = [t for t in toks if not ROMAN.fullmatch(t)]
             whole_names += numerals

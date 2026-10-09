@@ -1,0 +1,100 @@
+1	6101	dojam	dojam dojmom dojmovi dojma dojmove dojmu дојам дојмом дојмови дојма дојмове дојму
+2	6102	spasitelj	spasitelj spasitelja spasitelju spasitelji спаситељ спаситеља спаситељу спаситељи
+3	6103	vojvotkinja	vojvotkinja vojvotkinjo vojvotkinju vojvotkinje vojvotkinjom vojvotkinji војвоткиња војвоткињо војвоткињу војвоткиње војвоткињом војвоткињи
+4	6104	nametati	nameće namećem nametati nametanje nameću namećeš nametao namećemo namećete намеће намећем наметати наметање намећу намећеш наметао намећемо намећете
+5	6105	zadovoljavati	zadovoljava zadovoljavaju zadovoljavam zadovoljavaš zadovoljavao zadovoljavanje zadovoljavala zadovoljavati zadovoljavamo zadovoljavate задовољава задовољавају задовољавам задовољаваш задовољавао задовољавање задовољавала задовољавати задовољавамо задовољавате
+6	6106	konstantno	konstantno константно
+7	6107	baraka	barake baraka baraku baraci barakama бараке барака бараку бараци баракама
+8	6108	lom	lom lome loma lomova lomovi lomove lomu лом ломе лома ломова ломови ломове лому
+9	6109	herojski	herojski herojsko herojska herojske herojskog herojsku herojskom herojskim herojskoj herojskih херојски херојско херојска херојске херојског херојску херојском херојским херојској херојских
+10	6110	pozajmiti	pozajmiti позајмити
+11	6111	ocjena	ocjene ocjena ocjenu ocjenama ocjenom ocjeni оцјене оцјена оцјену оцјенама оцјеном оцјени
+12	6112	procenjivati	procenjuje procenjujem procenjuju procenjujemo procenjuješ procenjujete procenjivao procenjivanje procenjivati procenjivali процењује процењујем процењују процењујемо процењујеш процењујете процењивао процењивање процењивати процењивали
+13	6113	trta	tru tre tr tro trite taru tare tari тру тре тр тро трите тару таре тари
+14	6114	dimnjak	dimnjak dimnjaka dimnjaci dimnjaku dimnjake dimnjacima димњак димњака димњаци димњаку димњаке димњацима
+15	6115	galama	galamu galama galami galame galamom галаму галама галами галаме галамом
+16	6116	etika	etika etike etiku etici etikom етика етике етику етици етиком
+17	6117	trpezarija	trpezariji trpezariju trpezarija trpezarije трпезарији трпезарију трпезарија трпезарије
+18	6118	krčma	krčmi krčmu krčme krčma krčmama крчми крчму крчме крчма крчмама
+19	6119	izlagati	izlaže izlažeš izlažem izlagati izlažu izlažete izlažemo izlaži излаже излажеш излажем излагати излажу излажете излажемо излажи
+20	6120	vlasnica	vlasnica vlasnici vlasnice vlasnicu vlasnicom власници власница власнице власницу власницом
+21	6121	nemoćan	nemoćan nemoćni nemoćna nemoćno nemoćne nemoćnim nemoćnog nemoćnih nemoćnom немоћан немоћни немоћна немоћно немоћне немоћним немоћног немоћних немоћном
+22	6122	čeznuti	čeznem čezne čezneš čeznuo čeznula čeznu čeznemo čeznuti čeznete čeznuli чезнем чезне чезнеш чезнуо чезнула чезну чезнемо чезнути чезнете чезнули
+23	6123	nabavljati	nabavlja nabavljam nabavljaš nabavljaju nabavljao nabavljamo nabavljate nabavljati nabavljanje nabavljali nabavljala набавља набављам набављаш набављају набављао набављамо набављате набављати набављање набављали набављала
+24	6124	maksi	maksi макси
+25	6125	čir	čir čireve čira čirevi čireva čirevima čirom чир čiru чиреве чира чиреви чирева чиревима чиром чиру
+26	6126	barijera	barijeru barijera barijere barijeri баријеру баријера баријере баријери
+27	6127	klaun	klaun klauna klaunovi klaune klaunova klaunove klauni klaunu klaunom клаун клауна клаунови клауне клаунова клаунове клауни клауну клауном
+28	6128	delikatan	delikatna delikatan delikatne delikatnu delikatni delikatnom delikatnoj delikatnim delikatnog деликатна деликатан деликатне деликатну деликатни деликатном деликатној деликатним деликатног
+29	6129	bogalj	bogalj bogalja bogalji bogalju bogalje bogaljem bogaljima богаљ богаља богаљи богаљу богаље богаљем богаљима
+30	6130	snajper	snajper snajpera snajperi snajperom snajpere snajperski snajperu snajperima снајпер снајпера снајпери снајпером снајпере снајперски снајперу снајперима
+31	6131	zakonit	zakoniti zakonitog zakonitu zakonit zakonita zakonitim zakonite zakonitom законити законитог закониту законит законита законитим законите законитом
+32	6132	bos	bos bosa bosi bose bosu bosom bosih бос боса боси босе босу босом босих
+33	6133	patetično	patetično патетично
+34	6134	tekući	tekući tekuće tekuća tekuću tekućeg tekućem tekućim tekućoj tekućom tekućih текући текуће текућа текућу текућег текућем текућим текућој текућом текућих
+35	6135	izborni	izborni izborna izborne izbornoj izbornu izbornih izbornog izbornom izborno izbornim изборни изборна изборне изборној изборну изборних изборног изборном изборно изборним
+36	6136	hauba	haubu haube haubi hauba haubom хаубу хаубе хауби хауба хаубом
+37	6137	minimalan	minimalna minimalne minimalnu minimalni minimalan minimalnim minimalnom минимална минималне минималну минимални минималан минималним минималном
+38	6138	radnički	radničke radnička radnički radničku radničkoj radničkog radničkom radničkih radničko radničkim радничке радничка раднички радничку радничкој радничког радничком радничких радничко радничким
+39	6139	amandman	amandman amandmana amandmanu amandmanom amandmane амандман амандмана амандману амандманом амандмане
+40	6140	vašar	vašar vašaru vašara vašarima вашар вашару вашара вашарима
+41	6141	smirivati	smiruje smirivanje smiruju smirujem smiruješ smirivao smirivati smiruj smirivala smirujući смирује смиривање смирују смирујем смирујеш смиривао смиривати смируј смиривала смирујући
+42	6142	prosek	prosek proseku proseka prosekom просек просеку просека просеком
+43	6143	krivični	krivičnog krivični krivična krivičnom krivičnih krivične krivičnim krivičnu кривичног кривични кривична кривичном кривичних кривичне кривичним кривичну
+44	6144	strpjeti	strpi strpite strpiš strpim strpimo strpjeti стрпи стрпите стрпиш стрпим стрпимо стрпјети
+45	6145	prodavač	prodavač prodavača prodavači prodavače prodavaču prodavačem prodavačima продавач продавача продавачи продаваче продавачу продавачем продавачима
+46	6146	geto	geto geta getu гето гета гету
+47	6147	prelazak	prelazak prelaska prelasku prelaskom прелазак преласка преласку преласком
+48	6148	vampirski	vampirski vampirske vampirska vampirsku vampirsko vampirskog vampirskim vampirskih vampirskom vampirskoj вампирски вампирске вампирска вампирску вампирско вампирског вампирским вампирских вампирском вампирској
+49	6149	prositi	prosim prosiš prosi prosio prositi prose prosili prosimo prosite prosila proseći просим просиш проси просио просити просе просили просимо просите просила просећи
+50	6150	satnik	satniče satnik satnika satniku satnici satnikom сатниче сатник сатника сатнику сатници сатником
+51	6151	luna	luna lunu luni lune луна lunom луну луни луне луном
+52	6152	minimum	minimum minimumu minimuma минимум minimumom минимуму минимума минимумом
+53	6153	pijesak	pijesak pijeska pijesku pijeskom пијесак пијеска пијеску пијеском
+54	6154	tanjur	tanjur tanjure tanjura tanjuru tanjuri tanjurima тањур тањуре тањура тањуру тањури тањурима
+55	6155	šljiva	šljiva šljive šljivu šljivi šljivama šljivom шљиве шљива шљиву шљиви шљивама шљивом
+56	6156	uzvišen	uzvišena uzvišeni uzvišen uzvišene uzvišenog uzvišenim uzvišenom uzvišenu uzvišenih uzvišenije uzvišenoj najuzvišeniji узвишена узвишени узвишен узвишене узвишеног узвишеним узвишеном узвишену узвишених узвишеније узвишеној најузвишенији
+57	6157	veseliti	veseli veseliti veselio veselim veselimo veselite veseliš veselila vesele veselili veselilo весели веселити веселио веселим веселимо веселите веселиш веселила веселе веселили веселило
+58	6158	svanuti	svane svanulo svanuti svanuo svanuće svanuća сване свануло сванути свануо свануће сванућа
+59	6159	džak	džak džaku džaka džakove džakova džakovima džakom džakovi џак џаку џака џакове џакова џаковима џаком џакови
+60	6160	urlati	urla urlao urlaš urlaju urlala urlaj urlati urlanje urlajući urlam urlali урла урлао урлаш урлају урлала урлај урлати урлање урлајући урлам урлали
+61	6161	patriot	patriota patriote patriot patrioti patriotu patriotom патриота патриоте патриот патриоти патриоту патриотом
+62	6162	nježan	nježan nježna nježni nježne nježnu nježniji nježnije nježnim nježnog nježnom њежан њежна њежни њежне њежну њежнији њежније њежним њежног њежном
+63	6163	vojnički	vojnički vojničke vojnička vojničku vojničko vojničkom vojničkog vojničkim vojničkih vojničkoj војнички војничке војничка војничку војничко војничком војничког војничким војничких војничкој
+64	6164	grešan	grešni grešne grešno grešna grešan grešnog grešnu grešnim grešnih grešnom grešnoj грешни грешне грешно грешна грешан грешног грешну грешним грешних грешном грешној
+65	6165	kazneni	kazneni kaznena kaznene kaznenog kaznenu kaznenom kaznenih kaznenoj kaznenim казнени казнена казнене казненог казнену казненом казнених казненој казненим
+66	6166	dokumentacija	dokumentaciju dokumentacija dokumentacije dokumentaciji dokumentacijom документацију документација документације документацији документацијом
+67	6167	mumija	mumija mumije mumiju mumijom mumijama mumiji мумија мумије мумију мумијом мумијама мумији
+68	6168	bor	bor bore borova borove borovi boru borovima боре бор borom борова борове борови бору боровима бором
+69	6169	kreker	krekere kreker krekera krekeri krekerima krekeru крекере крекер крекера крекери крекерима крекеру
+70	6170	samica	samici samicu samice samica samicama самици самицу самице самица самицама
+71	6171	harmonija	harmoniji harmonija harmoniju harmonije хармонији хармонија хармонију хармоније
+72	6172	kečap	kečap kečapa kečapom ketchup кечап кечапа кечапом кетцхуп
+73	6173	manira	manire manira maniru manir манире манира маниру манир
+74	6174	limenka	limenke limenku limenka limenki limenci limenko limenkama limenkom лименке лименку лименка лименки лименци лименко лименкама лименком
+75	6175	vodstvo	vodstvo vodstvom vodstvu vodstva водство водством водству водства
+76	6176	pretjerati	pretjerao pretjerala pretjerali pretjerati pretjeram pretjeraš претјерао претјерала претјерали претјерати претјерам претјераш
+77	6177	materica	materice matericu materici materica материце материцу материци материца
+78	6178	vedro	vedro vedra vedrom ведро ведра vedru ведром ведру
+79	6179	planirano	planirano планирано
+80	6180	svečan	svečanu svečana svečani svečane svečanom svečanoj svečanim svečan svečanog svečanih свечану свечана свечани свечане свечаном свечаној свечаним свечан свечаног свечаних
+81	6181	erupcija	erupcija erupcije erupciju erupciji erupcijom erupcijama ерупција ерупције ерупцију ерупцији ерупцијом ерупцијама
+82	6182	tratiti	traćenje traćiti tratiti tratiš tratite trati tratim tratimo tratio траћење траћити тратити тратиш тратите трати тратим тратимо тратио
+83	6183	spoljašnji	spoljašnji spoljašnje spoljašnjeg spoljašnjem spoljašnjim spoljašnjih spoljašnja spoljašnju спољашњи спољашње спољашњег спољашњем спољашњим спољашњих спољашња спољашњу
+84	6184	ker	ker kera keru kerovi kerove kerova kerovima kerom кер кера керу керови керове керова керовима кером
+85	6185	buket	buket buketa buketom bukete букет buketu buketi букета букетом букете букету букети
+86	6186	takmičar	takmičar takmičara takmičari takmičare takmičarima takmičaru такмичар такмичара такмичари такмичаре такмичарима такмичару
+87	6187	prevodilac	prevodilac prevodioca prevodioce prevodioci преводилац prevodiocem преводиоца преводиоце преводиоци преводиоцем
+88	6188	očarati	očaran očarana očarala očarani očarao očarati očara očarali očarano очаран очарана очарала очарани очарао очарати очара очарали очарано
+89	6189	isploviti	isplovio isploviti isplovi isplovili isplovimo isplovila isplovite isplovim isplovićemo isploviš isplove испловио испловити исплови испловили испловимо испловила испловите испловим испловићемо испловиш исплове
+90	6190	papuča	papuče papučama papuča papuču папуче papuči папучама папуча папучу папучи
+91	6191	nerazuman	nerazumno nerazuman nerazumna nerazumni nerazumne nerazumnim nerazumnih неразумно неразуман неразумна неразумни неразумне неразумним неразумних
+92	6192	probosti	proboden probosti probola probode probodi probodem probodena probodeš proboli probošću probodeno probodu proboo probodeni прободен пробости пробола прободе прободи прободем прободена прободеш проболи пробошћу прободено прободу пробоо прободени
+93	6193	građevinski	građevinski građevinske građevinska građevinsku građevinskog građevinskih građevinskim građevinskom građevinskoj građevinsko грађевински грађевинске грађевинска грађевинску грађевинског грађевинских грађевинским грађевинском грађевинској грађевинско
+94	6194	prizvati	prizvao prizvati prizove prizvala prizvali prizovem prizoveš prizovemo prizovi prizovu prizvan prizovete призвао призвати призове призвала призвали призовем призовеш призовемо призови призову призван призовете
+95	6195	detektivka	detektivka детективка
+96	6196	uzaludan	uzaludan uzaludna uzaludni uzaludne uzaludnim uzaludnom uzaludnu uzaludnog uzaludnih узалудан узалудна узалудни узалудне узалудним узалудном узалудну узалудног узалудних
+97	6197	dilema	dilema dilemu dileme dilemi dilemom дилема дилему дилеме дилеми дилемом
+98	6198	pešice	pešice пешице
+99	6199	upotrebljavati	upotrebljava upotrebljavaju upotrebljavam upotrebljavati upotrebljavaš upotrebljavao upotrebljavamo upotrebljavate upotrebljavali upotrebljavala upotrebljavaj upotrebljavajući употребљава употребљавају употребљавам употребљавати употребљаваш употребљавао употребљавамо употребљавате употребљавали употребљавала употребљавај употребљавајући
+100	6200	labud	labud labuda labudovi labudova labudove labudu labudovima labude лабуд лабуда лабудови лабудова лабудове лабуду лабудовима лабуде

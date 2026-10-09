@@ -1,0 +1,100 @@
+1	8401	beležnica	beležnicu beležnica beležnice beležnici бележницу бележница бележнице бележници
+2	8402	neiskusan	neiskusan neiskusna neiskusni neiskusne neiskusnog neiskusnim неискусан неискусна неискусни неискусне неискусног неискусним
+3	8403	obmanjivati	obmanjuje obmanjuješ obmanjuju obmanjujem obmanjivao obmanjivati obmanjivanje obmanjujete obmanjivala obmanjujemo обмањује обмањујеш обмањују обмањујем обмањивао обмањивати обмањивање обмањујете обмањивала обмањујемо
+4	8404	premjestiti	premjestiti премјестити
+5	8405	zastrašujući	zastrašujući застрашујући
+6	8406	amo	amo амо
+7	8407	šačica	šačica šačicu šačice šačicom šačici шачица шачицу шачице шачицом шачици
+8	8408	smrtnost	smrtnosti smrtnost smrtnošću смртности смртност смртношћу
+9	8409	kavana	kavano kavana kavanu kavani kavane кавано кавана кавану кавани каване
+10	8410	verenički	verenički vereničku verenička веренички вереничку вереничка
+11	8411	električar	električar električara električari електричар електричара електричари
+12	8412	bambus	bambusa bambus bambusu bambusom бамбуса бамбус бамбусу бамбусом
+13	8413	šraf	šraf šrafove šrafova šrafovi šrafa шраф шрафове шрафова шрафови шрафа
+14	8414	kriška	kriške krišku kriška kriškom kriški кришке кришку кришка кришком кришки
+15	8415	marica	marica marice maricu marici марица марице марицу марици
+16	8416	beskonačno	beskonačno бесконачно
+17	8417	avaj	avaj авај
+18	8418	kajgana	kajganu kajgana kajgane кајгану кајгана кајгане
+19	8419	griža	grižu griže griža grižom грижу гриже грижа грижом
+20	8420	suzdržavati	suzdržavam suzdržavati suzdržavaš suzdržavao suzdržava suzdržavaj suzdržavanje suzdržavala suzdržavaju суздржавам суздржавати суздржаваш суздржавао суздржава суздржавај суздржавање суздржавала суздржавају
+21	8421	žbun	žbun žbuna žbunu žbunom žbunova жбун жбуна жбуну жбуном жбунова
+22	8422	opaska	opaske opaska opasku opaski opaskama опаске опаска опаску опаски опаскама
+23	8423	bula	bula buli bule bulu була були буле булу
+24	8424	neprekidan	neprekidna neprekidan neprekidni neprekidnog neprekidnom neprekidnu neprekidne neprekidnim непрекидна непрекидан непрекидни непрекидног непрекидном непрекидну непрекидне непрекидним
+25	8425	mutiti	muti mutiš mute mutite mutim mutio mutiti мути мутиш муте мутите мутим мутио мутити
+26	8426	propisati	propisao propisa propisane propisano propisan propisana propisani propisati propisali прописао прописа прописане прописано прописан прописана прописани прописати прописали
+27	8427	polarni	polarni поларни
+28	8428	subotnji	subotnje subotnji subotnju subotnja subotnjoj subotnjeg суботње суботњи суботњу суботња суботњој суботњег
+29	8429	neobjašnjiv	neobjašnjive neobjašnjiva neobjašnjivih neobjašnjiv neobjašnjivi neobjašnjivim neobjašnjivog neobjašnjivu необјашњиве необјашњива необјашњивих необјашњив необјашњиви необјашњивим необјашњивог необјашњиву
+30	8430	otpadnik	otpadnik otpadnici otpadnika otpadnike otpadnicima отпадник отпадници отпадника отпаднике отпадницима
+31	8431	jajašce	jajašca jajašce jajašaca јајашца јајашце јајашаца
+32	8432	hipoteza	hipoteza hipotezu hipoteze hipotezi хипотеза хипотезу хипотезе хипотези
+33	8433	gimnastika	gimnastiku gimnastike gimnastika gimnastici gimnastikom гимнастику гимнастике гимнастика гимнастици гимнастиком
+34	8434	kolonijalan	kolonijalni kolonijalne kolonijalna kolonijalnog kolonijalnom kolonijalnu kolonijalnih kolonijalnoj kolonijalno kolonijalnim колонијални колонијалне колонијална колонијалног колонијалном колонијалну колонијалних колонијалној колонијално колонијалним
+35	8435	pramen	pramen pramenove pramenovi pramenova pramenovima прамен праменове праменови праменова праменовима
+36	8436	mimo	mimo мимо
+37	8437	škrt	škrt škrti škrta škrto шкрт шкрти шкрта шкрто
+38	8438	pomiješati	pomiješao pomiješati pomiješali pomiješala pomiješan pomiješana pomiješaju pomiješane pomiješano pomiješa pomiješani pomiješaš помијешао помијешати помијешали помијешала помијешан помијешана помијешају помијешане помијешано помијеша помијешани помијешаш
+39	8439	upravljač	upravljač управљач
+40	8440	njihati	njiše njišu njiši njihanje njišeš njišem njihati njihao њише њишу њиши њихање њишеш њишем њихати њихао
+41	8441	visoravan	visoravni visoravan visoravnima висоравни висораван висоравнима
+42	8442	šetač	šetač šetača šetači šetače šetaču шетач шетача шетачи шетаче шетачу
+43	8443	mirotvorac	mirotvorci mirotvorac mirotvoraca mirotvorca mirotvorce mirotvorcima миротворци миротворац миротвораца миротворца миротворце миротворцима
+44	8444	debljina	debljine debljina debljinu debljini дебљине дебљина дебљину дебљини
+45	8445	ushićen	ushićen ushićena ushićeni ushićeno усхићен усхићена усхићени усхићено
+46	8446	pravilnik	pravilnik pravilniku pravilnika pravilnikom правилник правилнику правилника правилником
+47	8447	osporiti	osporiti ospori osporim osporio osporite ospore osporiš osporena osporili оспорити оспори оспорим оспорио оспорите оспоре оспориш оспорена оспорили
+48	8448	beleg	beleg beleže belega belegom belege белег бележе белега белегом белеге
+49	8449	reket	reket рекет
+50	8450	klonja	klonju klonji klonja klonje клоњу клоњи клоња клоње
+51	8451	blagdan	blagdane blagdan blagdani blagdana благдане благдан благдани благдана
+52	8452	ugostiti	ugostiti ugostim ugostimo ugostili ugosti ugostio ugostila угостити угостим угостимо угостили угости угостио угостила
+53	8453	utovar	utovar utovari utovara utovaru utovarom utovare утовар утовари утовара утовару утоваром утоваре
+54	8454	kopač	kopač kopača kopači kopaču kopače копач копача копачи копачу копаче
+55	8455	raseliti	rasele раселе
+56	8456	babica	babica babicu babice бабица бабицу бабице
+57	8457	stanka	stanku stanka stanke stanci станку станка станке станци
+58	8458	odenuti	odeven odevena odeveni odevene одевен одевена одевени одевене
+59	8459	human	human humani humana humanije humaniji humane humanu хуман хумани хумана хуманије хуманији хумане хуману
+60	8460	baratati	barata barataš baratati baratam barataju baratao baratanje baratate барата бараташ баратати баратам баратају баратао баратање баратате
+61	8461	zatrovati	zatrovao zatrovan zatrovana zatrovala zatrovali zatruje zatrovani zatrovati zatrovano zatrovane затровао затрован затрована затровала затровали затрује затровани затровати затровано затроване
+62	8462	otkloniti	otkloniti otkloni otklonim otklonimo otklonio otklonili otklonjena otklonite otkloniš otklone отклонити отклони отклоним отклонимо отклонио отклонили отклоњена отклоните отклониш отклоне
+63	8463	nelagodno	nelagodno нелагодно
+64	8464	okršaj	okršaj okršaja okršaju окршај окршаја окршају
+65	8465	pegla	pegla peglu peglom pegle пегла пеглу пеглом пегле
+66	8466	saj	saj сај
+67	8467	šarlatan	šarlatan šarlatana šarlatani šarlatanu šarlatane шарлатан шарлатана шарлатани шарлатану шарлатане
+68	8468	srdačan	srdačan srdačni srdačna srdačne najsrdačnije srdačnu срдачан срдачни срдачна срдачне најсрдачније срдачну
+69	8469	dača	dača daču dačo dači dače дача дачу дачо дачи даче
+70	8470	skeptičan	skeptičan skeptična skeptični skeptično скептичан скептична скептични скептично
+71	8471	vješt	vješt vješto vješta vješti vješte вјешт вјешто вјешта вјешти вјеште
+72	8472	nemoralan	nemoralan nemoralna nemoralni nemoralne nemoralnog nemoralnim nemoralnih nemoralnom неморалан неморална неморални неморалне неморалног неморалним неморалних неморалном
+73	8473	konkurent	konkurent konkurenti konkurenata konkurenta konkurente konkurentima конкурент конкуренти конкурената конкурента конкуренте конкурентима
+74	8474	broš	broš broša брош броша
+75	8475	božica	božica božice božicu božici божица божице божицу божици
+76	8476	pojedinačno	pojedinačno појединачно
+77	8477	ravnodušan	ravnodušan ravnodušna ravnodušni ravnodušno ravnodušnim равнодушан равнодушна равнодушни равнодушно равнодушним
+78	8478	prolaznik	prolaznik prolaznika prolaznici prolaznike prolaznicima пролазник пролазника пролазници пролазнике пролазницима
+79	8479	jesenji	jesenji jesenje jesenja jesenjeg jesenjem jesenjim jesenju јесењи јесење јесења јесењег јесењем јесењим јесењу
+80	8480	prečica	prečica пречица
+81	8481	čizburger	čizburger čizburgera čizburgere čizburgeri чизбургер чизбургера чизбургере чизбургери
+82	8482	lokva	lokvi lokva lokvu lokve локви локва локву локве
+83	8483	pramac	pramac pramca pramcu прамац прамца прамцу
+84	8484	prodavačica	prodavačica prodavačice prodavačicu продавачица продавачице продавачицу
+85	8485	prethodnik	prethodnika prethodnik prethodnici prethodniku претходника претходник претходници претходнику
+86	8486	nektar	nektar nektara nektarom нектар нектара нектаром
+87	8487	upitnik	upitnik upitnika upitnike upitniku upitnikom упитник упитника упитнике упитнику упитником
+88	8488	napušen	napušen napušena napušeni напушен напушена напушени
+89	8489	podložan	podložni podložan podložna podložno podložne podložniji подложни подложан подложна подложно подложне подложнији
+90	8490	čarobnica	čarobnica čarobnice čarobnicu чаробница чаробнице чаробницу
+91	8491	najuriti	najurio najurili najuriti najuri najurila najure najurim najuren најурио најурили најурити најури најурила најуре најурим најурен
+92	8492	platni	platni platnoj platne platna platnog platnu platnom платни платној платне платна платног платну платном
+93	8493	prestignuti	prestići prestigao prestigne prestigli prestigla prestignemo prestignem prestigni prestiže престићи престигао престигне престигли престигла престигнемо престигнем престигни престиже
+94	8494	usmeravati	usmerava usmeravaju usmeravanje usmeravam usmeravaš usmeravati usmeravamo usmeravao усмерава усмеравају усмеравање усмеравам усмераваш усмеравати усмеравамо усмеравао
+95	8495	bijedan	bijedni bijedan bijedna bijedne bijednom bijednu bijednog bijednih bijednim биједни биједан биједна биједне биједном биједну биједног биједних биједним
+96	8496	zalog	zalog zaloga залог залога
+97	8497	avans	avans avansa аванс аванса
+98	8498	adut	adut aduta adute aduti адут адута адуте адути
+99	8499	akutan	akutni akutna akutne akutno akutnu akutnog akutnom akutnim акутни акутна акутне акутно акутну акутног акутном акутним
+100	8500	suton	suton sutona sutonu сутон сутона сутону

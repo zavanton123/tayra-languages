@@ -1,0 +1,100 @@
+1	3801	avgust	avgusta avgust avgustu avguste август августа августу августе
+2	3802	desert	desert deserta desertom десерт desertu deserte deserti desertima десерта десертом десерту десерте десерти десертима
+3	3803	palačinka	palačinke palačinki palačinka palačinku palačinkama палачинке палачинки палачинка палачинку палачинкама
+4	3804	stupiti	stupio stupiti stupim stupili stupimo stupila stupi stupite stupiš stupe ступио stupiću ступи ступити ступим ступили ступимо ступила ступите ступиш ступе ступићу
+5	3805	pečen	pečena pečeni pečeno pečen pečenu pečene pečenog pečenim pečenih pečenom печена печени печено печен печену печене печеног печеним печених печеном
+6	3806	obrijati	obrijao obrijem obrijati obriješ obrij obrijala obrije obrijan obrijana obrijali obrijane obriju obrija obrijani obrijaću obrijemo obrijte obrijete obrijano обријао обријем обријати обријеш обриј обријала обрије обријан обријана обријали обријане обрију обрија обријани обријаћу обријемо обријте обријете обријано
+7	3807	turnir	turnir turniru turnira turnirima turnire турнир turniri турниру турнира турнирима турнире турнири
+8	3808	simpatičan	simpatičan simpatično simpatična simpatični simpatične simpatičnu simpatičnog simpatičnim simpatičniji simpatičnih симпатичан симпатично симпатична симпатични симпатичне симпатичну симпатичног симпатичним симпатичнији симпатичних
+9	3809	značaj	značaja značaj značaju значаја значај značajem значају значајем
+10	3810	pronalaziti	pronalaženje pronalazi pronalaze pronalazim pronalazimo pronalaziš pronalazio проналажење pronalazili pronalazite pronalaziti pronalazeći pronalazila проналази проналазе проналазим проналазимо проналазиш проналазио проналазили проналазите проналазити проналазећи проналазила
+11	3811	vrtjeti	vrti vrtiš vrtimo vrtim vrtjeti vrtio врти vrtite vrtjelo vrteći vrte вртиш вртимо вртим вртјети вртио вртите вртјело вртећи врте
+12	3812	divljina	divljini divljinu divljine divljina divljinom дивљини дивљину дивљине дивљина дивљином
+13	3813	zapovjednik	zapovjednik zapovjedniče zapovjednika zapovjedniku zapovjednikom zapovjednici заповједник заповједниче заповједника заповједнику заповједником заповједници
+14	3814	drzak	drzak drska drsko drski drske drskog drskim drsku дрзак drskom дрска drskiji дрско дрски дрске дрског дрским дрску дрском дрскији
+15	3815	olakšanje	olakšanje olakšanja олакшање olakšanjem олакшања олакшањем
+16	3816	navečer	navečer навечер
+17	3817	duhovan	duhovni duhovna duhovne duhovnu duhovnog duhovnom duhovnim duhovnih duhovnoj duhovan духовни духовна духовне духовну духовног духовном духовним духовних духовној духован
+18	3818	čokoladni	čokoladni čokoladne čokoladna čokoladno čokoladnu čokoladnim čokoladnog čokoladnih čokoladnom čokoladnoj чоколадни чоколадне чоколадна чоколадно чоколадну чоколадним чоколадног чоколадних чоколадном чоколадној
+19	3819	derati	dereš dere deri deru derem derati derete derao poderati deran derala deranje derite deremo derane drati дери дереш дере деру дерем дерати дерете дерао подерати деран дерала дерање дерите деремо деране драти
+20	3820	formula	formulu formula formule formuli formulom формулу formulama формула формуле формули формулом формулама
+21	3821	češće	češće чешће
+22	3822	realan	realni realan realna realnom realne realnije realnog realnu realnim realniji реалан реална realnih реални realnija реалном реално реалне реалније реалног реалну реалним реалнији реалних реалнија
+23	3823	њим	њим
+24	3824	mrav	mravi mrava mrav mrave mravima mravu мрави мрава мрав мраве мравима мраву
+25	3825	zbrka	zbrka zbrku zbrke zbrci збрка zbrkom збрку збрке збрци збрком
+26	3826	zapovednik	zapovednik zapovedniče zapovednika zapovedniku zapovednikom zapovednici заповедник заповедниче заповедника заповеднику заповедником заповедници
+27	3827	bezbedan	bezbedan безбедан
+28	3828	zaseda	zaseda zasedu zasede zasedi заседу заседа заседе заседи
+29	3829	završetak	završetak završetka završetku završetke završetkom završeci završetaka završecima завршетак завршетка завршетку завршетке завршетком завршеци завршетака завршецима
+30	3830	trojka	trojku trojka trojke trojci trojki trojkama trojkom trojko тројку тројке тројка тројци тројки тројкама тројком тројко
+31	3831	iznervirati	iznervirao iznerviran iznervira iznervirala iznerviraš iznerviram iznervirana iznervirati iznerviralo iznervirali iznerviraju iznervirani iznervirano iznervirate изнервирао изнервиран изнервира изнервирала изнервираш изнервирам изнервирана изнервирати изнервирало изнервирали изнервирају изнервирани изнервирано изнервирате
+32	3832	frekvencija	frekvenciju frekvencije frekvencija frekvenciji frekvencijama frekvencijom фреквенције фреквенцију фреквенција фреквенцији фреквенцијама фреквенцијом
+33	3833	iznenadan	iznenadni iznenadna iznenadno iznenadne iznenadnu iznenadnog iznenadan iznenadnom iznenadnim iznenadnih iznenadnoj изненадна изненадни изненадно изненадне изненадну изненадног изненадан изненадном изненадним изненадних изненадној
+34	3834	večerašnji	večerašnji večerašnju večerašnje večerašnja večerašnjoj večerašnjeg večerašnjem večerašnjim večerašnjih večerašnjom вечерашњи вечерашњу вечерашње вечерашња вечерашњој вечерашњег вечерашњем вечерашњим вечерашњих вечерашњом
+35	3835	rezervoar	rezervoar rezervoara rezervoaru rezervoare rezervoari rezervoarom rezervoarima резервоар резервоара резервоару резервоаре резервоари резервоаром резервоарима
+36	3836	pizda	pizda pizdo pizdu pizde pizdi pizdom пизда пиздо пизду пизде пизди пиздом
+37	3837	kvariti	kvari kvarim kvariš kvariti kvarite kvarimo kvario kvare kvarenje kvarila квари кварим квариш кварити кварите кваримо кварио кваре кварење кварила
+38	3838	indijski	indijski indijska indijske indijskog indijsku indijskom indijskih indijsko indijskim indijskoj индијски индијска индијске индијског индијску индијском индијских индијско индијским индијској
+39	3839	gajiti	gajim gaji gaje gajiš gajio gajimo gajila gajiti gajite gajili гајим гаји гаје гајиш гајио гајимо гајила гајити гајите гајили
+40	3840	dohvatiti	dohvatim dohvatiti dohvati dohvatio dohvatiš dohvatila dohvatite dohvate dohvatili dohvatimo dohvatiću дохватим dohvatilo дохватити дохвати дохватио дохватиш дохватила дохватите дохвате дохватили дохватимо дохватићу дохватило
+41	3841	kreativan	kreativni kreativno kreativan kreativna kreativne kreativnog kreativnu kreativnim kreativniji kreativnom kreativnih kreativnije kreativnoj креативни креативно креативан креативна креативне креативног креативну креативним креативнији креативном креативних креативније креативној
+42	3842	neophodan	neophodna neophodan neophodne neophodni neophodnu neophodnim neophodnih neophodnog neophodnom неопходан неопходна неопходно неопходне неопходни неопходну неопходним неопходних неопходног неопходном
+43	3843	ispratiti	ispratiti ispratim ispratiću ispratite ispratiš ispratimo isprate ispratićemo испратити испратим испратићу испратите испратиш испратимо испрате испратићемо
+44	3844	plivanje	plivanje plivanja plivanju plivanjem пливање пливања пливању пливањем
+45	3845	stanovati	stanuje stanujem stanuješ stanovanje stanujete stanovati stanovao stanuju stanovala stanujemo stanovali станује станујем станујеш становање станујете становати становао станују становала станујемо становали
+46	3846	džemper	džemper džemperu džempera džempere džemperi džemperom џемпер džemperima џемперу џемпера џемпере џемпери џемпером џемперима
+47	3847	bespomoćan	bespomoćan bespomoćna bespomoćno bespomoćni bespomoćne bespomoćnog bespomoćnu bespomoćnim bespomoćnih bespomoćnom bespomoćnima беспомоћан беспомоћна беспомоћно беспомоћни беспомоћне беспомоћног беспомоћну беспомоћним беспомоћних беспомоћном беспомоћнима
+48	3848	kukuruz	kukuruz kukuruza kukuruzom kukuruzu кукуруз кукуруза кукурузом кукурузу
+49	3849	astronaut	astronaut astronauta astronauti astronautima astronaute астронаута astronautu астронаут астронаути астронаутима астронауте астронауту
+50	3850	sapun	sapun sapuna sapunom сапун sapune sapunu sapuni сапуна сапуном сапуне сапуну сапуни
+51	3851	oštro	oštro oštre oštra oštri оштро oštru oštrom оштре оштра оштри оштру оштром
+52	3852	zadiviti	zadivljen zadivljena zadiviti zadivi zadivljeni zadivio zadivim zadiviš zadivila zadivilo zadivili zadivite задивљен zadivimo задивљена задивити задиви задивљени задивио задивим задивиш задивила задивило задивили задивите задивимо
+53	3853	prihod	prihoda prihod prihode prihodi prihodima prihodom прихода prihodu приход приходе приходи приходима приходом приходу
+54	3854	najaviti	najavio najavim najaviti najavljuje najavili najave najavi najavila najavite najaviš najavljeno najavimo najavljen najaviću najavljena najavljeni najavljivati најавио најавим најавити најављује најавили најаве најави најавила најавите најавиш најављено најавимо најављен најавићу најављена најављени најављивати
+55	3855	onoliko	onoliko онолико
+56	3856	unajmiti	unajmiti unajmi unajmim unajmimo unajmiš unajmite unajmljuje unajme unajmljuju unajmiću unajmljujem unajmljivanje unajmićemo unajmljuješ unajmljujemo унајмити унајми унајмим унајмимо унајмиш унајмите унајмљује унајме унајмљују унајмићу унајмљујем унајмљивање унајмићемо унајмљујеш унајмљујемо
+57	3857	krpa	krpu krpe krpa krpice krpom krpica krpama krpi крпу krpicu krpicama крпе крпа крпице крпом крпица крпама крпи крпицу крпицама
+58	3858	dobrota	dobrote dobrotu dobrota dobroti dobrotom доброту доброта доброте доброти добротом
+59	3859	povjerenje	povjerenje povjerenja povjerenju povjerenjem повјерење повјерења повјерењу повјерењем
+60	3860	mlijeko	mlijeko mlijeka mlijekom mlijeku млијеко млијека млијеком млијеку
+61	3861	tucati	tuca tucao tucaš tucam tucala tucanje tucaju tucali tucamo tucaj tucati tucate туца туцао туцаш туцам туцала туцање туцају туцали туцамо туцај туцати туцате
+62	3862	projektil	projektil projektila projektile projektili projektilima projektilom projektilu пројектил пројектила пројектиле пројектили пројектилима пројектилом пројектилу
+63	3863	kupati	kupam kupao kupaš kupati kupala kupaju kupamo kupali kupaće kupate kupaj kupale kupaću купање купи купе купам купао купаш купати купала купају купамо купали купаће купате купај купале купаћу
+64	3864	svjestan	svjestan svjesni svjesna svjesno свјестан свјесни свјесна свјесно
+65	3865	meksički	meksički meksička meksičke meksičku meksičkom meksičkog meksičkoj meksičko meksičkim meksičkih мексички мексичка мексичке мексичку мексичком мексичког мексичкој мексичко мексичким мексичких
+66	3866	naprotiv	naprotiv напротив
+67	3867	pretući	pretukao pretučen pretukli pretučena pretući pretukla pretučeni pretuče pretuku pretuci pretučeš pretučem pretučene претукао претучен претукли претучена претући претукла претучени претуче претуку претуци претучеш претучем претучене
+68	3868	isprati	isprati isperi ispran isprao isprali isperem isprala ispere ispereš isperite isperemo isprani isperu isprano испрати ispraše isprana isprane isperete испери испран испрао испрали исперем испрала испере испереш исперите исперемо испрани исперу испрано испраше испрана испране исперете
+69	3869	snalaziti	snalazim snalazi snalaziš snalazite snalazimo snalaze snalazio snalaziti snalazili snalaženje snalazila сналази сналазим сналазиш сналазите сналазимо сналазе сналазио сналазити сналазили сналажење сналазила
+70	3870	prisluškivati	prisluškivanje prisluškuje prisluškuju prisluškivao prisluškuješ prisluškivali prisluškivati prisluškivala prisluškujemo prisluškujem prisluškujete prisluškuj prisluškivan prisluškujte прислушкивање прислушкује прислушкују прислушкивао прислушкујеш прислушкивали прислушкивати прислушкивала прислушкујемо прислушкујем прислушкујете прислушкуј прислушкиван прислушкујте
+71	3871	prorok	prorok proroka proroci proroke proroku proroče пророк prorocima prorokom пророка пророци пророке пророку пророче пророцима пророком
+72	3872	lozinka	lozinka lozinku lozinke lozinkom lozinki лозинка лозинку лозинке лозинком лозинки
+73	3873	las	las лас
+74	3874	privremen	privremeni privremena privremenu privremene privremenog privremen privremenom privremenim privremenih privremenoj привремени привремена привремену привремене привременог привремен привременом привременим привремених привременој
+75	3875	razmena	razmenu razmena razmene razmeni razmenom размену размене размена размени разменом
+76	3876	specijalno	specijalno специјално
+77	3877	štapić	štapić štapiće štapići štapića štapiću štapićem štapićima штапић штапиће штапићи штапића штапићу штапићем штапићима
+78	3878	protiviti	protivi protivim protivio protiviti protive protiviš protivljenje protivila protivite protivili protivimo protivilo противи противим противио противити противе противиш противљење противила противите противили противимо противило
+79	3879	džaba	džabe džaba џабе џаба
+80	3880	profit	profit profita profitu profitom профит profite profiti профита профиту профитом профите профити
+81	3881	nadzornik	nadzornik nadzornika nadzorniče nadzornikom nadzorniku nadzornici надзорник nadzornike надзорника надзорниче надзорником надзорнику надзорници надзорнике
+82	3882	neuspeh	neuspeh neuspeha neuspehom neuspehe neuspehu neuspesi неуспех neuspesima неуспеха неуспехом неуспехе неуспеху неуспеси неуспесима
+83	3883	načiniti	načinio načiniti načinili načinila načinjena načinim načinjen načiniš načinimo načinilo načinjene načinite načinjeni načinjeno načiniću načinile начинио načine načini начине начини начинити начинили начинила начињена начиним начињен начиниш начинимо начинило начињене начините начињени начињено начинићу начиниле
+84	3884	kajla	kajle kajla kajli kajlu kajlom кајле кајла кајли кајлу кајлом
+85	3885	zadaviti	zadavio zadavljena zadaviti zadavi zadavim zadavljen zadaviću zadavila zadaviš zadavili zadavljene задавио zadavite zadave задављена zadavimo задавити задави задавим задављен задавићу задавила задавиш задавили задављене задавите задаве задавимо
+86	3886	smjer	smjeru smjer smjera smjerom smjerovima smjerova смјеру смјер смјера смјером смјеровима смјерова
+87	3887	neprijatan	neprijatan neprijatna neprijatne neprijatni neprijatnu neprijatnih neprijatnim neprijatnog neprijatnije neprijatnom neprijatnoj непријатан najneprijatniji непријатна непријатне непријатни непријатну непријатних непријатним непријатног непријатније непријатном непријатној најнепријатнији
+88	3888	zastupati	zastupam zastupa zastupati zastupao zastupaš zastupate zastupamo zastupaju zastupanje zastupali zastupala zastupaću заступам заступа заступати заступао заступаш заступате заступамо заступају заступање заступали заступала заступаћу
+89	3889	čvor	čvor čvorova čvorove čvora čvorovi čvorovima čvorom čvoru чвор чворова чворове чвора чворови чворовима чвором чвору
+90	3890	bivati	biva bivaju bivam bivao bivalo bivali bivaš bivala бива bivamo bivati bivajući бивају бивам бивао бивало бивали биваш бивала бивамо бивати бивајући
+91	3891	dosađivati	dosađujem dosađivati dosađuje dosađuješ dosađivao dosađuju dosađivala dosađuj dosađujemo dosađujete dosađivali dosađujte dosađivanje досађујем досађивати досађује досађујеш досађивао досађују досађивала досађуј досађујемо досађујете досађивали досађујте досађивање
+92	3892	nemoguć	nemoguć nemoguća nemogućim nemogući nemoguću nemogućeg nemogućoj nemogućem nemogućih nemogućom немогућ немогућа немогућим немогући немогућу немогућег немогућој немогућем немогућих немогућом
+93	3893	maramica	maramicu maramice maramica maramicom maramici maramicama марамицу марамице марамица марамицом марамици марамицама
+94	3894	izvanredno	izvanredno изванредно
+95	3895	realnost	realnost realnosti realnošću реалност реалности реалношћу
+96	3896	tragati	tragamo tragaju tragam tragao traganje tragali tragaš tragati tragate tragajući tragala traga трага трагамо трагају трагам трагао трагање трагали трагаш трагати трагате трагајући трагала
+97	3897	теби	теби
+98	3898	zdravstveni	zdravstveni zdravstvene zdravstvenog zdravstvenih zdravstvenu zdravstvena zdravstvenom zdravstvenim zdravstvenoj здравствени здравствене здравственог здравствених здравствену здравствена здравственом здравственим здравственој
+99	3899	greben	grebena greben grebenu grebeni grebene grebenima grebenom гребена гребен гребену гребени гребене гребенима гребеном
+100	3900	nevjerojatan	nevjerojatna nevjerojatan nevjerojatne nevjerojatni nevjerojatnu nevjerojatnom nevjerojatnog nevjerojatnih nevjerojatnim najnevjerojatnija nevjerojatnoj невјеројатна невјеројатан невјеројатне невјеројатни невјеројатну невјеројатном невјеројатног невјеројатних невјеројатним најневјеројатнија невјеројатној

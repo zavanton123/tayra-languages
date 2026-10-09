@@ -1,0 +1,100 @@
+1	1101	družiti	druže družiti družimo druženje družiš druži družim družio družili družite družila друже družile дружимо družeći družićemo дружење дружим дружи дружиш дружити дружили družiću дружио дружите дружила дружиле дружећи дружићемо дружићу
+2	1102	izdati	izdao izdala izdati izdali izdaju izda izdam izdaš izdat izdata izdaj izdan izdate издао izdamo izdana izdalo izdajte izdano izdato izdani izdaću izdaće izdale izdaćemo издати издала издали izdane изда издају izdaćeš izdajmo издам издаш издат издата издај издан издате издамо издана издало издајте издано издато издани издаћу издаће издале издаћемо издане издаћеш издајмо
+3	1103	nervozan	nervozan nervozna nervozni nervozno nervoznim nervoznom нервозан nervozne нервозна nervoznog nervozniji nervoznih нервозни nervoznija nervoznu nervoznima нервозним нервозно нервозном нервозне нервозног нервознији нервозних нервознија нервозну нервознима
+4	1104	promena	promena promenu promeni promene promenama промена promenom промену промени промене променама променом
+5	1105	anđeo	anđela anđeo anđeli anđele anđelu anđelima anđelom анђела anđeoski анђео anđeoska anđeoske анђели anđeosko anđeosku анђеле anđelak anđeoskog anđeoskim anđelčić anđeoskom анђелу анђелима анђелом анђеоски анђеоска анђеоске анђеоско анђеоску анђелак анђеоског анђеоским анђелчић анђеоском
+6	1106	heroj	heroj heroja heroji heroju heroje herojima herojem херој хероја хероји хероју хероје херојима херојем
+7	1107	kamen	kamen kamena kamenu kamenom kameni камен kamene kamenog kameno kamenih kamenim камена kamenoj камену каменом камени камене каменог камено камених каменим каменој
+8	1108	kratak	kratak kratki kratka kratke kratku kratkom kraće kratkog kratkim kraći kratkih kraća kratkoj najkraći kraću кратак najkraćem najkraće kraćim кратки najkraća кратком najkraću кратка кратке kraćeg najkraćim kraćem кратку краће кратког кратким краћи кратких краћа краткој најкраћи краћу најкраћем најкраће краћим најкраћа најкраћу краћег најкраћим краћем
+9	1109	sumnja	sumnje sumnja sumnju sumnji sumnjom сумње sumnjama сумња сумњу сумњи сумњом сумњама
+10	1110	ubaciti	ubaci ubacio ubaciti ubacim ubacite ubacimo ubaciš ubacili ubacila ubace ubaciću ubačen ubacićemo ubačeni ubačena ubačeno убаци убацио ubačene ubaciće убацим убаците ubacićeš убацити убацимо убацили убациш ubacilo ubacile убацила убаце убацићу убачен убацићемо убачени убачена убачено убачене убациће убацићеш убацило убациле
+11	1111	snimiti	snimio snimi snimiti snimili snimila snimljeno snimim snimimo snimljen snimljena snimiš snimite snime snimljene snimljeni snimile snimićemo snimiću снимио снимили сними snimilo snimiće snimićeš снимљено снимљен снимити снимљена снимила снимим снимимо снимиш снимите сниме снимљене снимљени снимиле снимићемо снимићу снимило снимиће снимићеш
+12	1112	lažan	lažni lažna lažne lažnu lažnim lažan lažnih lažnog lažnom lažnoj лажни лажна лажне лажну лажним лажних лажан лажног лажном лажној
+13	1113	kul	kul кул
+14	1114	fotografija	fotografije fotografija fotografiju fotografiji fotografijama фотографије fotografijom фотографија фотографију фотографији фотографијама фотографијом
+15	1115	niz	niz nizu низ niza nizom nize nizove nizovi низу nizova низа низом низе низове низови низова
+16	1116	dužnost	dužnost dužnosti дужност dužnostima дужности dužnošću дужностима дужношћу
+17	1117	služba	službe služba službi službu službom službama службе служба службу служби службом службама
+18	1118	odgovoran	odgovoran odgovorni odgovorna odgovornim odgovorno odgovorne odgovornom одговоран odgovornog odgovornu odgovornih одговорни odgovorniji odgovornima одговорна odgovornija одговорним najodgovorniji одговорно одговорне одговорном одговорног одговорну одговорних одговорнији одговорнима одговорнија најодговорнији
+19	1119	nad	nad над
+20	1120	prostor	prostor prostora prostoru prostorom простора простор prostore prostorima prostori простору простором просторе просторима простори
+21	1121	pogrešiti	pogrešio pogrešila pogrešili pogrešiti pogreši pogrešim pogrešiš погрешио pogreše pogrešimo pogrešite погрешили pogrešile погрешила pogrešićeš погрешити погреши погрешим погрешиш погреше погрешимо погрешите погрешиле погрешићеш
+22	1122	ležati	leži ležao ležala ležim ležiš ležati leže ležeći ležali лежи ležalo ležite ležimo ležanje лежао ležale леже лежала лежећи ležaće лежиш ležaćeš лежим лежати лежали лежало лежите лежимо лежање лежале лежаће лежаћеш
+23	1123	nevin	nevin nevina nevini nevine nevinih nevinog nevino nevinu nevinim невин nevinom nevinima невина nevinoj невиних невини невине невиног невино невину невиним невином невинима невиној
+24	1124	odjednom	odjednom одједном
+25	1125	ples	ples plesa plesu plesom плес plesove plesova plesovi плеса plesovima плесу плесом плесове плесова плесови плесовима
+26	1126	izgubljen	izgubljen izgubljena izgubljeni izgubljeno izgubljene izgubljenog izgubljenih izgubljenu izgubljenim izgubljenom изгубљен izgubljenoj изгубљени изгубљено изгубљена izgubljenima изгубљене изгубљеног изгубљених изгубљену изгубљеним изгубљеном изгубљеној изгубљенима
+27	1127	sesti	sednem sedneš sesti sednemo sednete sedni sedne sede sednite sešću sednu sešćemo sednimo седнем седнеш сести sešćeš седнете седнемо седни сео седне седе седните sešće сешћу седну сешћемо седнимо сешћеш сешће
+28	1128	supruga	supruga suprugu supruge suprugom supruzi супруга suprugama супругу супруге suprugo супругом супрузи супругама супруго
+29	1129	užasan	užasan užasna užasne užasnu užasni užasnom užasnog užasnim užasnih užasnoj ужасна ужасан ужасне najužasnije najužasnija najužasniji užasnije ужасни ужасну ужасног ужасном ужасним ужасних ужасној најужасније најужаснија најужаснији ужасније
+30	1130	polje	polje polja polju poljima poljem поље пољу поља пољима пољем
+31	1131	savet	savet saveta savete savetu савет saveti savetima savetom савете савета савету савети саветима саветом
+32	1132	različit	različite različitih različitim različita različiti različit различите različitu различитих različitog različitom различитим различита различити različitoj различит различиту различитог различитом различитој
+33	1133	prsten	prsten prstena prstenom prstenova прстен prstenu prstenovi prstenove prstenovima prsteni prstene прстена prstenima прстеном прстенова прстену прстенови прстенове прстеновима прстени прстене прстенима
+34	1134	upaliti	upaliti upali upalilo upalio upalim upalite upaljena upalila upaljeno upaljen upališ upalimo upale upalili upaliću upaliće upaljene упали upaljeni упалило upalile упалити upalićemo упалио упале упалим упалите упаљена упалила упаљено упаљен упалиш упалимо упалили упалићу упалиће упаљене упаљени упалиле упалићемо
+35	1135	otisak	otiske otisci otisak otisaka otiscima otiska otiskom отисци отиске otisku отисак отисака отисцима отиска отиском отиску
+36	1136	kiša	kiša kiše kišu kiši kišni kišne киша kišom kišna kišnih kišnim kišnog кише kišnom kišnoj kišnu kišo кишу kišno kišama киши кишни кишне кишом кишна кишних кишним кишног кишном кишној кишну кишо кишно кишама
+37	1137	vojni	vojni vojne vojna vojnu vojnog vojnom vojnim vojno vojnoj vojnih војни војне војна војну војној војног војним војно војних војном
+38	1138	govor	govor govora говори govoru govorom говор говоре govorima говора говору говором говорима
+39	1139	drugar	drugar drugari drugara drugarima drugare другар drugaru drugarom другари другара другаре другарима другару другаром
+40	1140	vjerojatno	vjerojatno вјеројатно
+41	1141	oprezan	oprezan oprezno oprezni oprezna oprezniji опрезан опрезни opreznija oprezne опрезно опрезна opreznije opreznog opreznim опрезнији опрезнија опрезне опрезније опрезног опрезним
+42	1142	pomalo	pomalo помало
+43	1143	vozilo	vozila vozilo vozilu vozilom vozilima возила возило возилу возилом возилима
+44	1144	de	de де
+45	1145	skup	skupo skup skuplja skupi skupe skupu skupim skuplje skuplji skupom najskuplji skupog skupih najskuplje skupove скупо najskuplja скуп skupovima skupova najskuplju najskupljih skupoj скупи skupovi скупе скупља najskupljeg скупу скупа скупим скупље скупљи скупом најскупљи скупог скупих најскупље скупове најскупља скуповима скупова најскупљу најскупљих скупој скупови најскупљег
+46	1146	akcija	akcija akcije akciju akciji akcijama akcijom акције акција акцију акцији акцијама акцијом
+47	1147	mera	meri mere mera мери meru merom merama мере меру мера мером мерама
+48	1148	poštovanje	poštovanje poštovanja poštovanjem poštovanju поштовање поштовања поштовањем поштовању
+49	1149	vidjelo	vidjela vidjelo видјела видјело
+50	1150	led	led leda ledu ledom лед леда леду ледом
+51	1151	malen	malena maleni manji manja najmanji malen najmanju najmanja malene manju manjih manjim malenu maleno malenog manjeg malenom malenim najmanjeg malenoj manjem manjoj manjom malenih малена najmanjih малени najmanjim мањи najmanjem najmanjoj најмању мања malenoga најмањи najmanjom најмања мању најмање мање мален малене мањих мањим малену малено маленог мањег маленом маленим најмањег маленој мањем мањој мањом малених најмањих најмањим најмањем најмањој маленога најмањом
+52	1152	vođa	vođa vođe vođu vodja vođo vođi vođom вођа vođama вође вођу водја вођо вођи вођом вођама
+53	1153	nivo	nivo nivou nivoa nivoi ниво nivoe nivoima нивоу nivoom нивоа нивои нивое нивоима нивоом
+54	1154	prosto	prosto просто
+55	1155	oteti	oteo oteli oteti oteta otet otela otme otmu otelo otmem otmeš otete oteto otmemo otele отео otmete отели otmi отети отет otećemo ote отела oteće oteću отета otmite отме отму отело отмем отмеш отете отето отмемо отеле отмете отми отећемо оте отеће отећу отмите
+56	1156	lopta	loptu lopta lopte loptom lopti лопту loptama лопта лопте lopto лоптом лопти лоптама лопто
+57	1157	vuk	vuk vuci vuče vuka vukovi vuku vukova vukove vukovima вук vukom вуче вуци вукови вука вуку вукова вукове вуковима вуком
+58	1158	tišina	tišina tišini tišinu tišine тишина tišinom тишини тишину тишине тишином
+59	1159	osvojiti	osvojio osvojiti osvojili osvojila osvoji osvojim osvaja osvojiš osvojimo osvoje osvojite osvajaju освојио osvajao osvojiću osvojena освојили osvojićemo osvojen освојити osvajam osvojile osvajamo osvajaš osvajali osvojiće osvojićeš osvajati освоји osvajate osvojene osvojilo osvojeni осваја osvojeno освојила osvajala освојимо osvojivši освојим освојиш освоје освојите освајају освајао освојићу освојена освојићемо освојен освајам освојиле освајамо освајаш освајали освојиће освојићеш освајати освајате освојене освојило освојени освојено освајала освојивши
+60	1160	drugačiji	drugačiji drugačija drugačiju drugačijim другачији drugačijeg drugačijem drugačijom другачија drugačijih drugačijoj другачију другачијим другачијег другачијем другачијом другачијих другачијој
+61	1161	braća	braća braće braću braćo braći braćom браћа браћо браће браћу браћом браћи
+62	1162	kupovati	kupuje kupujem kupuju kupuješ kupovao kupovati kupujemo kupujete kupovala kupovali kupuj kupujte kupujući kupovanje купују купује купујем kupovale купујеш куповао купујете купујемо kupovaću куповати куповала куповали купуј купујте купујући куповање куповале куповаћу
+63	1163	hladan	hladna hladan hladne hladni hladnog hladnom hladnu hladnije hladnim hladnoj hladnih hladnija hladniji хладна ladan хладан najhladnije хладне najhladniji najhladnija хладног хладни хладном najhladnijih хладније хладну hladnoga hladnijim хладним хладној хладних хладнија хладнији ладан најхладније најхладнији најхладнија најхладнијих хладнога хладнијим
+64	1164	vlasnik	vlasnik vlasnika vlasnici vlasniku vlasnikom vlasnike vlasnicima власник власника власници власнику власником власнике власницима
+65	1165	ionako	ionako ионако
+66	1166	događaj	događaj događaja događaju događaje događaji događajima догађај događajem догађаја догађаји догађаје догађају догађајима догађајем
+67	1167	kost	kosti kost kostiju kostima кости кост костију костима
+68	1168	govno	govno govna govana govnima govance говно говна govnom govnu гована говнима гованце говном говну
+69	1169	odneti	odneo odneti odnesi odnesem odneli odnela odneću odnese odnesite odneseš odnesemo odnesu odnećemo odnesete odnesimo odneće однети odnelo odneto однеси odnećeš odnesen odnele odneta однео odnet odneseno однели однесем однесите однела однесе odnesena однећу odnete odnećete однесемо однесеш однесу однећемо однесете однесимо однеће однело однето однећеш однесен однеле однета однет однесено однесена однете однећете
+70	1170	sila	sila sile silu silom sili silama сила силе силу silo силом сили силама сило
+71	1171	poverovati	poverovati poverujem poverovao poveruješ poverovala poveruje poverovali poverujete poveruju poverujemo поверовати поверујем poverovaće poverovaću поверовао poveruj поверујеш поверовали поверовала poverovale поверује поверујете поверују поверујемо повероваће повероваћу поверуј поверовале
+72	1172	vrag	vraga vrag vragu vraže vragom vragovi врага враг vragova vragove vragovima врагу враже врагом врагови врагова врагове враговима
+73	1173	prevariti	prevario prevariti prevarila prevarili prevariš prevare prevari prevaren prevareni prevarim prevarite prevarena prevarimo преварио prevarilo преварити prevarile prevareno prevarene преварила prevariće превариш преварили преварени преваре превари преварен преварим преварите преварена преваримо преварило превариле преварено преварене превариће
+74	1174	onako	onako онако
+75	1175	utakmica	utakmicu utakmica utakmice utakmici utakmicama утакмицу утакмица утакмице utakmicom утакмици утакмицама утакмицом
+76	1176	kartica	karticu kartice kartica karticom kartici karticama картице картицу картица картицом картици картицама
+77	1177	iko	iko itko ikoga ико ikom ikomu икога ikim итко иком икому иким
+78	1178	slučajno	slučajno случајно
+79	1179	vile	vile vila vili vilu vilama vilom vilo вили виле вила вилу вилама вилом вило
+80	1180	učitelj	učitelj učitelju učitelja učiteljica učitelji učiteljice učiteljicu učiteljem učitelje учитељ učiteljicom učiteljici učiteljima учитељу учитеља учитељица учитељи учитељице учитељицу учитељем учитеље учитељицом учитељици учитељима
+81	1181	pamet	pamet pameti памет pameću памети памећу
+82	1182	postajati	postoji postaješ postajem postaje postoje postajemo postaju postajao postajete postajala postajalo postajali постаје postajale postajati postajući постајем постају постајеш postoj postojim postajanje postojiš postojimo postojite постоји постоје постојиш постајемо постајао постајете постајала постајало постајали постајале постајати постајући постој постојим постајање постојимо постојите
+83	1183	hladno	hladno хладно
+84	1184	noćni	noćna noćne noćni noćnu noćnom noćnog noćno noćnim noćnih noćnoj ноћна ноћне ноћни ноћну ноћног ноћном ноћној ноћно ноћним ноћних
+85	1185	izdržati	izdržati izdrži izdržim izdržao izdržiš izdržala izdrže izdržimo izdržali izdržite izdržaću izdržaće издржати издржи izdržaćeš izdržaćemo izdržalo издржим izdržale издржао издржиш издрже издржала издржимо издржали издржите издржаћу издржаће издржаћеш издржаћемо издржало издржале
+86	1186	vožnja	vožnju vožnja vožnje vožnji vožnjom вожњу вожња вожње вожњи vožnjama вожњом вожњама
+87	1187	ćutati	ćuti ćutiš ćutite ćutim ćutanje ćutati ćutao ćute ćutala ćutimo ćutali ćutaću ћути ćuteći ćutaćemo ćutaćeš ћутиш ћутите ћутим ћутање ћутати ћутао ћуте ћутала ћутимо ћутали ћутаћу ћутећи ћутаћемо ћутаћеш
+88	1188	ujak	ujak ujače ujaka ujaku ujakom ујак ujaci ујака ујаче ujake ujacima ујаку ујаком ујаци ујаке ујацима
+89	1189	nekakav	nekakav nekakva nekakvu nekakve nekakvo nekakvom nekakvog nekakvoj nekakvim nekakvih nekakvi некакав некаква некакву некакве некакво некаквом некаквог некаквој некаквим некаквих некакви
+90	1190	vis	vise vis viška visa вис visu висе visovi visovima visove visova вишка виса вису висови висовима висове висова
+91	1191	nemački	nemački nemačke nemačka nemačkoj nemačku nemačkom nemačkog nemačkih nemačkim nemačko немачки немачке немачкој немачка немачку немачком немачког немачких немачким немачко
+92	1192	poneti	poneo poneti ponesi ponela ponesem poneli poneću poneseš ponesite ponese ponesemo ponesete ponesu ponećemo понети ponele ponećeš ponelo ponesimo poneće poneta ponesen понео понеси понела понесем понели понећу понесеш понесите понесе понесемо понесете понесу понећемо понеле понећеш понело понесимо понеће понета понесен
+93	1193	direktor	direktor direktora direktore direktorom direktoru direktori директор директора direktorima директоре директором директору директори директорима
+94	1194	prevesti	preveo prevela prevesti preveli prevedi превео prevedem prevede prevedeno preveze prevedeš prevezem prevedite prevezao prevezemo prevezli prevezu preveden prevedemo prevešću prevezeš prevedena prevedete prevezete prevedu prevezen prevedeni превести prevezena prevezi prevedene превела превели преведи преведем преведе преведено превезе преведеш превезем преведите превезао превеземо превезли превезу преведен преведемо превешћу превезеш преведена преведете превезете преведу превезен преведени превезена превези преведене
+95	1195	blizina	blizini blizine близини blizinu blizina близине близину близина
+96	1196	priroda	prirode priroda prirodi prirodu prirodom природе природа природи природу prirodo природом природо
+97	1197	slikati	slikam slikao slikati slikaš slikaj naslikao slikamo slikala slikali slikaju slikano slikate naslikala slikajte naslikam naslikati naslika slikana uslikati slikaću naslikana naslikali сликам slikane slikajmo slikajući naslikan slikaćemo naslikaš сликао naslikano naslikaj naslikane slikale naslikate сликати сликаш сликај slikan насликао сликамо сликала сликали сликају сликано сликате насликала сликајте насликам насликати наслика сликана усликати сликаћу насликана насликали сликане сликајмо сликајући насликан сликаћемо насликаш насликано насликај насликане сликале насликате сликан
+98	1198	svemir	svemir svemiru svemira svemirom свемир свемира свемиру svemire svemiri свемиром свемире свемири
+99	1199	doba	doba dobu доба dobom dobima добу добом добима
+100	1200	skroz	skroz скроз

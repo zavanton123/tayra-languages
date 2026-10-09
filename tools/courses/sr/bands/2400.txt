@@ -1,0 +1,100 @@
+1	2301	nedeljni	nedeljno nedeljni nedeljne nedeljnu недељно nedeljna nedeljnog nedeljnoj nedeljnom nedeljnim nedeljnih недељни недељне недељну недељна недељног недељној недељном недељним недељних
+2	2302	pojavljivati	pojavljuje pojavljuju pojavljivanje pojavljuješ pojavljivao pojavljivati pojavljujem pojavljivala pojavljivali pojavljujete појављује pojavljuj појављују pojavljivalo pojavljujemo pojavljivale појављивање појављујеш појављивао појављивати појављујем појављивала појављивали појављујете појављуј појављивало појављујемо појављивале
+3	2303	uho	uši uho uha ušima uhu ušiju uhom уши ухо уха ушима ушију уху ухом
+4	2304	moguć	moguća moguću mogućih mogućim moguć mogućeg mogućem mogućoj mogućom могућа могућу mogući могућих могућим могући могућ могућег могућем могућој могућом
+5	2305	talac	taoca taoce taoci talac talaca taocima taocem таоца таоце талац таоци taocu талаца таоцима таоцем таоцу
+6	2306	ruža	ruža ruže ružu ružama ružo ružom ruži руже ружа ружу ружама ружо ружом ружи
+7	2307	ivica	ivici ivice ivicu ivica ivicama ивици ivicom ивице ивицу ивица ивицама ивицом
+8	2308	trojica	trojica trojicu trojice trojicom trojici тројица тројицу тројице тројицом тројици
+9	2309	naviknuti	navići navikneš naviknuti naviknem navikni naviknut navikne naviknete naviknu naviknite naviknuta naviknemo naviknuo naviknućeš naviknula навикнем naviknućete навићи навикнеш навикнути навикни навикнут навикне навикнете навикну навикните навикнута навикнемо навикнуо навикнућеш навикнула навикнућете
+10	2310	polomiti	polomio polomiti polomila polomi polomljena polomljen polomim polomiću polomiš polomljeno polomili polomljene polomljeni polome polomićeš polomite polomimo polomilo polomiće поломио polomile polomićemo поломити поломила поломи поломљена поломљен поломим поломићу поломиш поломљено поломили поломљене поломљени поломе поломићеш поломите поломимо поломило поломиће поломиле поломићемо
+11	2311	zamisao	zamisli zamisao замисли замисао zamislima замислима
+12	2312	ukazivati	ukazuje ukazuju ukazivalo указује ukazivali ukazujem указују ukazivao ukazivati ukazujući ukazuješ ukazujete ukazivala ukazivanje указивало указивали указујем указивао указивати указујући указујеш указујете указивала указивање
+13	2313	tuga	tugu tuga tuge tugom tuzi tugo тугу туга туге тугом тузи туго
+14	2314	doživeti	doživeo doživela doživeti doživeli doživi doživim doživiš dožive doživite doživimo doživeće доживео doživelo doživele доживела doživećeš doživeću doživećete доживети доживели доживи доживим доживиш доживе доживите доживимо доживеће доживело доживеле доживећеш доживећу доживећете
+15	2315	menadžer	menadžer menadžera menadžerom menadžeru menadžeri менаџер menadžere menadžerima менаџера менаџером менаџеру менаџери менаџере менаџерима
+16	2316	praznik	praznik praznike praznika praznici praznicima празник празника prazniku praznikom празнике празници празницима празнику празником
+17	2317	kamenje	kamenje kamenja kamenjem kamenju камење камења камењем камењу
+18	2318	progovoriti	progovori progovorio progovoriti progovoriš progovorila progovorim progovore progovorili progovorite progovoriće проговори progovorimo progovorićeš проговорио progovorilo progovoriću проговорити проговориш проговорила проговорим проговоре проговорили проговорите проговориће проговоримо проговорићеш проговорило проговорићу
+19	2319	komandant	komandant komandante komandanta komandantu командант komandantom komandanti команданта komandantima команданте команданту командантом команданти командантима
+20	2320	јој	јој
+21	2321	kolica	kolica kolicima колица колицима
+22	2322	gaće	gaće gaćama gaća гаће гаћама гаћа
+23	2323	otkako	otkako откако
+24	2324	vežba	vežba vežbe vežbu vežbi vežbama vežbom вежба вежбе вежбу вежби вежбама вежбом
+25	2325	tanak	tanja tanka tanak tanke tanki tanko tankom tanku tankim tanji tanju tanje tankog tankoj тања tankih tanjom танак танка najtanji танке танки танко танком танку танким тањи тању тање танког танкој танких тањом најтањи
+26	2326	rima	rimu rima rime rimom риму рима rimi rimama риме римом рими римама
+27	2327	društven	društveni društvene društveno društvena društvenim društvenih društvenog društvenom društvenu društven društvenoj друштвени друштвене друштвено друштвена друштвеним друштвених друштвеног друштвеном друштвену друштвен друштвеној
+28	2328	novčanik	novčanik novčaniku novčanika novčanike novčanici новчаник novčanikom novčanicima новчанику новчаника новчанике новчаници новчаником новчаницима
+29	2329	ispričavati	ispričavam ispričavati ispričavamo ispričavaj ispričava ispričavaš ispričavao ispričavajte испричавам испричавати испричавамо испричавај испричава испричаваш испричавао испричавајте
+30	2330	poželjeti	poželiš poželim poželi poželite poželjeti poželio poželimo poželjela požele poželjeli пожели пожелим пожелиш пожелите пожелимо пожељети пожелио пожељела пожеле пожељели
+31	2331	parkirati	parkiranje parkirao parkirati parkiraj parkira parkiram parkirala parkirali parkiraš parkirate parkiraju parkiramo parkirajte parkiraću parkiraćemo паркирање паркирао паркирати паркирај паркира паркирам паркирала паркирали паркираш паркирате паркирају паркирамо паркирајте паркираћу паркираћемо
+32	2332	univerzitet	univerzitetu univerzitet univerziteta универзитет univerzitetima универзитету univerzitete univerziteti univerzitetom универзитета универзитетима универзитете универзитети универзитетом
+33	2333	utisak	utisak utiskom утисак utiske utisci utisku utiska utisaka utiscima утиском утиске утисци утиску утиска утисака утисцима
+34	2334	pogodak	pogodak pogodaka pogotka погодак pogotke pogotkom pogoci pogotku погодака поготка поготке поготком погоци поготку
+35	2335	novost	novosti novost novostima новости новост новостима
+36	2336	podržati	podržati podrži podržao podržim podržiš podržite podrže podržali podržimo podržala podržaću podržan podržana подржи подржати podržaćemo podržani podržaće podržalo podržano подржао podržale podržaćeš подржим подржиш подржите подрже подржали подржимо подржала подржаћу подржан подржана подржаћемо подржани подржаће подржало подржано подржале подржаћеш
+37	2337	boj	boj boju bojeve бој bojeva боју бојеве бојева
+38	2338	jedinstven	jedinstven jedinstvena jedinstveni jedinstveno jedinstvenu jedinstvene jedinstvenim jedinstvenom jedinstvenog jedinstvenih jedinstvenoj јединствен јединствена јединствено јединствени јединствену јединствене јединственим јединственом јединственог јединствених јединственој
+39	2339	brojati	brojim broji brojiš brojati brojao brojanje brojaću broje brojimo brojala brojite brojanja brojali brojanju brojanjem brojeći brojte brojaćemo броји бројим бројиш бројати бројао бројање бројаћу броје бројимо бројала бројите бројања бројали бројању бројањем бројећи бројте бројаћемо
+40	2340	priznanje	priznanje priznanja priznanju priznanjem признање priznanjima признања признању признањем признањима
+41	2341	zec	zec zeca zečeve zečevi zečeva zecu zečevima zecom zečić zeče зец зеца зечеви зечеве зечева зецу зечевима зецом зечић зече
+42	2342	međutim	međutim међутим
+43	2343	armija	armija armije armiju armiji armijom армије армија армију армији armijama армијом армијама
+44	2344	dnevno	dnevno дневно
+45	2345	kultura	kulture kultura kulturu kulturi kulturama kulturom културе култура културу култури културама културом
+46	2346	pobednik	pobednik pobednika pobednici pobednike pobedniku победник pobednikom pobednicima победници победника победнике победнику победником победницима
+47	2347	cent	centi centa cent центи centima цент цента centu cente центима центу центе
+48	2348	obrok	obrok obroka obroke obroku obroci оброк obrokom obrocima оброка оброке оброку оброци оброком оброцима
+49	2349	pojas	pojas pojasa pojaseve pojasu pojasom pojasevi појас pojaseva pojasevima појаса појасеве појасу појасом појасеви појасева појасевима
+50	2350	nagovoriti	nagovorio nagovoriti nagovorila nagovorim nagovori nagovoriš nagovorili nagovorimo nagovorite nagovoriću nagovore наговорио nagovoren наговорити наговорила наговорим наговори наговориш наговорили наговоримо наговорите наговорићу наговоре наговорен
+51	2351	odnijeti	odnijeti odnesi odnesem odnio odnese odnesite odnijet odneseš odnesemo odnijeli odnijela odnesu odnesete odnesimo odnijeću однеси однесем однесите однесе однесемо однесеш однијети однио однијет однијели однијела однесу однесете однесимо однијећу
+52	2352	tigar	tigar tigra tigre tigrovi tigrova tigrove tigru tigrovima tigrom тигар тигра тигре тигрови тигрова тигрове тигру тигровима тигром
+53	2353	indij	indiji indije indija indiju indijom индији индије индија индију индијом
+54	2354	kombi	kombi комби
+55	2355	kauč	kauču kauč kauča каучу кауч kaučem kauče кауча каучем кауче
+56	2356	mržnja	mržnje mržnja mržnju mržnjom mržnji мржња мржње мржњу мржњом мржњи
+57	2357	šampion	šampion šampiona šampione šampioni šampionu šampionom шампион šampionima шампиона шампиони шампионе шампиону шампионом шампионима
+58	2358	tehnički	tehnički tehničke tehnička tehničkih tehničku технички tehničko tehničkog tehničkom tehničkim tehničkoj техничке техничка техничких техничку техничко техничког техничком техничким техничкој
+59	2359	mamica	mamice mamica mamicu mamici мамице mamicom мамица мамицу мамици мамицом
+60	2360	glupan	glupane glupan glupani glupana glupanom глупане glupanima glupanu глупан глупани глупана глупаном глупанима глупану
+61	2361	neprijatno	neprijatno непријатно
+62	2362	psihijatar	psihijatar psihijatra psihijatru psihijatri psihijatrom psihijatara psihijatre psihijatrima психијатар психијатра психијатру психијатри психијатром психијатара психијатре психијатрима
+63	2363	nula	nula nule nulu nuli нула nulom nulo нуле nulama нулу нули нулом нуло нулама
+64	2364	zastava	zastavu zastava zastave zastavom zastavi zastavama заставу заставе застава заставом застави заставама
+65	2365	večerati	večeramo večerati večerali večerao večeram večeraš večerala večerate večeraju večeraj večeraćemo večeraću večerajte večerajmo večeraćeš večerale вечерамо вечерати вечерали вечерао вечерам вечераш вечерала вечерате вечерају вечерај вечераћемо вечераћу вечерајте вечерајмо вечераћеш вечерале
+66	2366	uvreda	uvrede uvreda uvredu uvredi uvredama увреде uvredom увреда увреду увреди увредама увредом
+67	2367	nastati	nastao nastala nastale nastali nastalo nastane nastati nastaće nastanu nasta nastani настала настао nastade настале настали настало настане настати настаће настану наста настани настаде
+68	2368	uprkos	uprkos упркос
+69	2369	svidjeti	svidjeti svidjelo svidio svidjela svidi svidjeli svidjele svidim svidjeće svidiš svide svidite свиди свидјети свидјело свидио свидјела свидјели свидјеле свидим свидјеће свидиш свиде свидите
+70	2370	ovoliko	ovoliko оволико
+71	2371	teritorij	teritoriju teritorija teritoriji teritorije teritorij teritorijem територију територија територији територије териториј територијем
+72	2372	mudo	muda mudima муда mudo мудима мудо
+73	2373	čizma	čizme čizmama čizama čizmu čizma чизме čizmi čizmom чизмама чизама чизму чизма чизми чизмом
+74	2374	tržište	tržište tržištu tržišta tržištem тржишту тржиште tržištima тржишта тржиштем тржиштима
+75	2375	prisutan	prisutan prisutni prisutna prisutne prisutnih prisutno присутан prisutnog prisutnima prisutnim prisutnu присутни prisutnom присутних присутна присутне присутно присутног присутнима присутним присутну присутном
+76	2376	so	so soli solju со соли solima сољу солима
+77	2377	biblioteka	biblioteci biblioteku biblioteka biblioteke bibliotekom библиотеци bibliotekama библиотеке библиотека библиотеку библиотеком библиотекама
+78	2378	časopis	časopis časopisa časopisu časopise časopisi časopisima часопис časopisom часопису часописа часописе часописи часописима часописом
+79	2379	zadržavati	zadržava zadržavam zadržavati zadržavaš zadržavamo zadržavanje zadržavaju zadržavaj zadržavao zadržavate zadržavajte zadržavala zadržavali zadržavajući задржава zadržavalo задржавам задржавати задржаваш задржавамо задржавање задржавају задржавај задржавао задржавате задржавајте задржавала задржавали задржавајући задржавало
+80	2380	sitan	sitne sitna sitni sitan sitnih sitnim sitnog sitnu najsitnijih sitnije sitnom najsitnije najsitnijeg sitnoga sitniji sitnoj ситна najsitniji ситне ситни ситан ситних ситним ситног ситну најситнијих ситније ситном најситније најситнијег ситнога ситнији ситној најситнији
+81	2381	spoj	spoj spoju spoja spojeve spojeva spojevi spojevima спој spojem споју споја спојеве спојева спојеви спојевима спојем
+82	2382	usvojiti	usvajanje usvojen usvojena usvojili usvojio usvojila usvoji usvojiti usvojimo usvaja usvojeni usvoje usvojim usvojite usvojiš usvojeno usvojene usvajanjem usvojenje usvajaju usvajamo usvojile usvojićemo usvajam usvojiću усвајање усвојен усвојена усвојили усвојио усвојила усвоји усвојити усвојимо усваја усвојени усвоје усвојим усвојите усвојиш усвојено усвојене усвајањем усвојење усвајају усвајамо усвојиле усвојићемо усвајам усвојићу
+83	2383	mašta	mašte maštu mašta mašti maštom машту машта маште машти маштом
+84	2384	pripaziti	pripazi pripazite pripaziti pripaziš pripazim pripazimo pripaziću припази pripazio pripaze pripazila pripazili pripazićemo припазите припазити припазиш припазим припазимо припазићу припазио припазе припазила припазили припазићемо
+85	2385	istočni	istočnoj istočne istočnom istočni istočna istočnog istočnu istočnim istočnih источне источној источна источном istočnije источни источног источну источним источних источније
+86	2386	ličnost	ličnost ličnosti ličnostima ličnošću личност личности личностима личношћу
+87	2387	uprava	upravu uprava uprave upravi upravom управу управа управе управи управом
+88	2388	sudar	sudar sudara sudaru sudare sudari судар sudarima sudarom судара судару сударе судари сударима сударом
+89	2389	smena	smenu smena smene smeni smenama смене смену смена smenom смени сменама сменом
+90	2390	liječnik	liječnik liječnika liječnici liječniku liječnica liječnike liječnikom liječnicima liječnicu liječnice лијечник лијечника лијечници лијечнику лијечница лијечнике лијечником лијечницима лијечницу лијечнице
+91	2391	negativan	negativno negativan negativna negativne negativni negativnu negativnih negativnim negativnog negativnom негативан негативно negativnoj негативна негативне негативни негативну негативних негативним негативног негативном негативној
+92	2392	beskoristan	beskoristan beskorisno beskorisna beskorisni beskorisne beskorisnim beskorisnih beskorisnog beskorisnu beskorisnom бескористан бескорисно бескорисни бескорисна бескорисне бескорисним бескорисних бескорисног бескорисну бескорисном
+93	2393	naoružati	naoružan naoružani naoružana naoružane naoružajte naoružati naoružaj naoružano наоружан наоружани naoružamo naoružao naoružali naoružaju naoruža наоружана наоружане наоружајте наоружати наоружај наоружано наоружамо наоружао наоружали наоружају наоружа
+94	2394	privlačiti	privlači privlače privlačiš privlačim privlačenje privlačio privlačila privlačiti privlačimo privlačite privlačili privlačilo привлачи privlačile привлаче privlačeći привлачиш привлачим привлачење привлачио привлачила привлачити привлачимо привлачите привлачили привлачило привлачиле привлачећи
+95	2395	prisustvo	prisustvo prisustvu prisustva prisustvom присуство присуству присуством присуства
+96	2396	iskopati	iskopao iskopati iskopali iskopam iskopa iskopamo iskopala iskopaš iskopaj iskopaju iskopaću iskopan iskopate iskopajte iskopana iskopaćemo iskopano iskopane iskopani ископао iskopaće ископати ископали iskopalo ископам ископа ископамо ископала ископаш ископај ископају ископаћу ископан ископате ископајте ископана ископаћемо ископано ископане ископани ископаће ископало
+97	2397	okolina	okolini okolinu okoline okolina okolinom околини околину околине околина околином
+98	2398	naljutiti	naljutio naljutiti naljutila naljuti naljutim naljutiš naljutilo naljutili naljute naljutite naljutiće naljutimo naljutićeš naljutiću наљутио naljutile наљутити наљутила наљути наљутим наљутиш наљутило наљутили наљуте наљутите наљутиће наљутимо наљутићеш наљутићу наљутиле
+99	2399	obrisati	obriši obrisao obrisati obrišem obrišeš obrisala obriše obrišite obrisali obrisaću obrisan obrisana obrisano obrišete obrišemo obrisani obrišu obrisane обрисао обрисати обриши обришите obrisaćemo обришем обришеш обрисала обрише обрисали обрисаћу обрисан обрисана обрисано обришете обришемо обрисани обришу обрисане обрисаћемо
+100	2400	diler	diler dilera dileri dilere dilerima dilerom dileru дилер дилера дилери дилере дилерима дилером дилеру

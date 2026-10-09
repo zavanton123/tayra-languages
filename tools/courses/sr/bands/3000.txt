@@ -1,0 +1,100 @@
+1	2901	razmotriti	razmotriti razmotrimo razmotrite razmotri razmotrio razmotrili razmotriš razmotrim razmotrila razmotriću razmotrićemo razmotre размотрити размотри размотримо размотрите размотрио размотрили размотриш размотрим размотрила размотрићу размотрићемо размотре
+2	2902	moda	modi mode moda modu modom моди моде мода моду модом
+3	2903	podzemni	podzemne podzemnoj podzemni podzemna podzemnom podzemnu podzemnog podzemnih podzemnim podzemno подземни подземне подземној подземна подземном подземну подземног подземних подземним подземно
+4	2904	simptom	simptome simptomi simptom simptoma simptomima симптоме симптоми симптом симптома симптомима
+5	2905	procedura	procedura proceduru procedure proceduri procedurom procedurama процедура процедуру процедуре процедури процедуром процедурама
+6	2906	patka	patka patke patku patkice patko patki patkom pataka patkama patkica патка патко патке patkicu патку паткице патки патком патака паткама паткица паткицу
+7	2907	marš	marš marša maršu марш marševe maršem marševi марша маршу маршеве маршем маршеви
+8	2908	pojava	pojavi pojava pojave pojavu pojavom pojavama појави појава појаве појаву појавом појавама
+9	2909	značka	značku značka značke značkom znački značkama значку значка značaka значке значком значки значкама значака
+10	2910	industrija	industrija industrije industriji industriju industrijom индустрије индустрија индустрији industrijama индустрију индустријом индустријама
+11	2911	glasno	glasno гласно
+12	2912	živac	živce živaca živci živac živcima živca живце живаца живци живац живцима живца
+13	2913	pena	peni pena pene penu penom пени пена пене пену пеном
+14	2914	dvorac	dvorac dvorcu dvorca дворац dvorce дворцу dvorci dvoraca dvorcem dvorcima дворца дворце дворци двораца дворцем дворцима
+15	2915	pepeo	pepeo pepela pepelu pepelom пепео пепела пепелу пепелом
+16	2916	prigovor	prigovor prigovora prigovore приговор prigovori prigovorima приговора приговоре приговори приговорима
+17	2917	savjet	savjet savjete savjeta savjetu savjeti savjetima савјет савјете савјета савјету савјети савјетима
+18	2918	sabrati	saberi sabereš saberem sabrati saberite sabere sabrao saberemo saberete sabrala сабери saberu sabrali sabra saberimo сабереш саберем сабрати саберите сабере сабрао саберемо саберете сабрала саберу сабрали сабра саберимо
+19	2919	teri	teri тери
+20	2920	neprijateljski	neprijateljski neprijateljske neprijateljskih neprijateljska neprijateljsku neprijateljskom neprijateljskim neprijateljskog neprijateljsko neprijateljskoj непријатељски непријатељске непријатељских непријатељска непријатељску непријатељском непријатељским непријатељског непријатељско непријатељској
+21	2921	kora	kori kora koru kore korom koro кори кора кору коре кором коро
+22	2922	otpad	otpada otpad otpadu otpadom отпада отпад otpade отпаду отпадом отпаде
+23	2923	rasprava	raspravu rasprava rasprave raspravi raspravama raspravom расправу расправе расправа расправи расправама расправом
+24	2924	službenik	službenik službenika službenici službeniče službenike službeniku službenicima službenikom службеник службеника службеници службениче службенике службенику службеницима службеником
+25	2925	odsutan	odsutan odsutna odsutni odsutno одсутан odsutne odsutnog одсутна odsutnim odsutnih одсутни одсутно одсутне одсутног одсутним одсутних
+26	2926	kinuti	kini kine kinuo кине кини кину kineš kinem kinula kinu kinuti кинуо кинеш кинем кинула кинути
+27	2927	izuzetan	izuzetan izuzetna izuzetne izuzetnu izuzetni izuzetnog izuzetnim izuzetnom izuzetnih izuzetnoj изузетан изузетна изузетне изузетну изузетни изузетног изузетним изузетном изузетних изузетној
+28	2928	skok	skok skoka skoku skokova skokove skokom skokovi скок skokovima скока скоку скокова скокове скоком скокови скоковима
+29	2929	stradati	strada stradati stradao stradaju stradali stradala stradalo stradaš stradanje stradam stradale stradamo stradaće stradate stradaćeš страдао страда страдати страдају страдали страдала страдало страдаш страдање страдам страдале страдамо страдаће страдате страдаћеш
+30	2930	zapitati	zapitao zapitaš zapitam zapitati zapitala zapitaj zapitali zapitate zapitajte zapita zapitamo zapitaju zapitajmo запитам запитао запиташ запитати запитала запитај запитали запитате запитајте запита запитамо запитају запитајмо
+31	2931	poslovati	poslovati poslovanja poslovanje posluje poslujem poslujemo poslovanju poslovao poslovali posluju posluješ poslujete poslovanjem пословања poslovala пословање пословати послује послујем послујемо пословању пословао пословали послују послујеш послујете пословањем пословала
+32	2932	konobar	konobar konobara konobaru konobari konobare konobarom конобар konobarima конобара конобару конобари конобаре конобаром конобарима
+33	2933	grejati	grej grejanje greje grejem greju греј grejati grejao грејем греје grejala greješ grejemo грејање grejete grejali греју грејати грејао грејала грејеш грејемо грејете грејали
+34	2934	gotovina	gotovinu gotovini gotovine gotovina gotovinom готовину готовини готовине готовина готовином
+35	2935	kretanje	kretanje kretanja kretanju kretanjem кретање kretanjima кретања кретању кретањем кретањима
+36	2936	meč	meč meča meču меч mečeve mečeva mečevi mečevima меча мечу мечеве мечева мечеви мечевима
+37	2937	glavobolja	glavobolju glavobolje glavobolja glavoboljom главобољу главобоља glavoboljama главобоље главобољом главобољама
+38	2938	zabrljati	zabrljao zabrljala zabrljaš zabrljali zabrljati zabrljam zabrlja zabrljamo забрљао zabrljate zabrljaju zabrljale забрљала забрљаш забрљали забрљати забрљам забрља забрљамо забрљате забрљају забрљале
+39	2939	obrazovanje	obrazovanje obrazovanja obrazovanju obrazovanjem образовање образовања образовању образовањем
+40	2940	preplašiti	preplašen preplašio preplašena preplašeni preplašila preplašiti preplašili preplaši preplašilo preplašim preplašeno preplašiš preplašene preplaše preplašimo preplašite preplašićeš преплашен преплашио преплашена преплашени преплашила преплашити преплашили преплаши преплашило преплашим преплашено преплашиш преплашене преплаше преплашимо преплашите преплашићеш
+41	2941	retko	retko ретко
+42	2942	municija	municije municiju municija municijom муниције муницију municiji муниција муницијом муницији
+43	2943	sklonište	sklonište skloništa skloništu склониште skloništima skloništem склоништа склоништу склоништима склоништем
+44	2944	humor	humor humora humorom хумор humoru хумора хумором хумору
+45	2945	duhovit	duhovit duhovito duhovita duhoviti duhovite duhovitog духовито духовит duhovitim duhovitiji duhovitu духовита духовити духовите духовитог духовитим духовитији духовиту
+46	2946	front	front fronta frontu frontovima фронт fronte фронту фронта frontova frontom фронтовима фронте фронтова фронтом
+47	2947	ar	ari are ar ara аре ари aru arom ар ара ару аром
+48	2948	gađati	gađao gađaj gađanje gađaju gađa gađaš gađati gađali gađam gađajte gađala gađamo gađate gađaću гађао гађај гађање гађају гађа гађаш гађати гађали гађам гађајте гађала гађамо гађате гађаћу
+49	2949	jun	juna jun june junu juni јун јуна јуну јуне јуни
+50	2950	roj	roj roje roja рој roju роје rojem rojevi rojeve rojeva rojevima роја роју ројем ројеви ројеве ројева ројевима
+51	2951	duvati	duva duvaj duvao duvaš duvaju duvam duvanje duvati duvala дува duvali duvajte duvate duvamo duvana duvaće дувао дувај дуваш дувају дувам дување дувати дувала дували дувајте дувате дувамо дувана дуваће
+52	2952	štampa	štampu štampa štampi štampe štampom штампа штампу штампе штампи штампом
+53	2953	roniti	roni rone ronjenje roniti ronio ronim roniš рони ronila ronili ronimo ronite роне роњење ронити ронио роним рониш ронила ронили ронимо роните
+54	2954	beta	beti beta beto бети bete betu бета бето бете бету
+55	2955	zabiti	zabio zabiti zabila zabij zabije zabijem zabiješ zabili zabiju zabiću zabijemo zabijen zabi zabijte zabijete zabilo zabiće zabijene zabijeno забио забити забила забиј забије забијем забијеш забили забију забићу забијемо забијен заби забијте забијете забило забиће забијене забијено
+56	2956	razvoj	razvoj razvoju razvoja razvojem развој развоју развоја развојем
+57	2957	originalan	originalni originalna originalne originalan originalnog originalnu originalnom originalnih originalnim originalnoj оригинални оригинална оригиналне оригиналан оригиналног оригиналну оригиналном оригиналних оригиналним оригиналној
+58	2958	profil	profil profilu profila profile profilom профил profili profilima профилу профила профиле профилом профили профилима
+59	2959	instinkt	instinkt instinkte instinkti instinktima instinktu instinkta instinktom инстинкт инстинкти инстинкте инстинктима инстинкту инстинкта инстинктом
+60	2960	pobeđivati	pobeđuje pobeđujem pobeđuju pobeđuješ pobeđujemo pobeđivao pobeđujete pobeđivali pobeđivati побеђује pobeđivala pobeđivanje побеђујемо побеђујем побеђују побеђујеш побеђивао побеђујете побеђивали побеђивати побеђивала побеђивање
+61	2961	prostitutka	prostitutka prostitutke prostitutku prostitutki prostitutkom prostitutkama проститутка проститутке проститутку проститутки проститутком проституткама
+62	2962	telefonirati	telefoniram telefonirao telefonirati telefonira telefonirala telefoniraš telefoniraj telefonirali telefoniraću telefonirate telefoniranje telefoniramo telefoniraju телефонирам telefonirajte телефонирао телефонирати телефонира телефонирала телефонираш телефонирај телефонирали телефонираћу телефонирате телефонирање телефонирамо телефонирају телефонирајте
+63	2963	italijanski	italijanski italijanska italijanskom italijanske italijansku italijanskog italijansko italijanskih italijanskim italijanskoj италијански италијанске италијанска италијанском италијанску италијанског италијанско италијанских италијанским италијанској
+64	2964	šarmantan	šarmantan šarmantna šarmantno šarmantni šarmantne šarmantnog šarmantnu šarmantnom šarmantnim шармантан šarmantniji šarmantnoj najšarmantniji шармантна шармантно шармантни шармантне шармантног шармантну шармантном шармантним шармантнији шармантној најшармантнији
+65	2965	osoban	osobni osobne osobna osobnu osobnog osobnih osobnim osobnom osoban osobnoj osobnije особни особне особна особну особног особних особним особном особан особној особније
+66	2966	prikazati	prikazati prikaži prikaže prikazan prikazao prikazali prikažem prikažemo prikažu prikazana prikazano prikazani prikazala prikazane prikažeš prikažete prikaza prikazaćemo prikažite prikazalo prikazaću prikazaće prikaze prikazu prikazi prikazom приказати прикажи прикаже приказан приказао приказали прикажем прикажемо прикажу приказана приказано приказани приказала приказане прикажеш прикажете приказа приказаћемо прикажите приказало приказаћу приказаће приказе приказу прикази приказом
+67	2967	zov	zove zovu zov zovi zova zovom зове зову зови зов зова зовом
+68	2968	hrpa	hrpu hrpa hrpe hrpom hrpi hrpo хрпу хрпа хрпе хрпом хрпи хрпо
+69	2969	at	atoma at atom atomi ati atome ate ata atomima atomu atu ат atomom атома атом атоми ати атоме ате ата атомима атому ату атомом
+70	2970	poglavlje	poglavlje poglavlja poglavlju поглавља поглавље poglavljem поглављу поглављем
+71	2971	šesti	šesti šesto šestog šesta šestom šeste šestoj šestu шести šestim шесто шестог шеста шестом шесте шестој шесту шестим
+72	2972	karakter	karakter karaktera karakteru karakterom karaktere карактер karakteri карактера karakterima карактеру карактером карактере карактери карактерима
+73	2973	cirkus	cirkus cirkusu cirkusa cirkusom циркус циркусу циркуса циркусом
+74	2974	pregovarati	pregovarati pregovaramo pregovara pregovaram pregovaranje pregovaraš pregovaraju pregovarao pregovarate pregovarali pregovarala pregovaraj преговара pregovaraćemo pregovarajmo pregovarajte преговарати преговарамо преговарам преговарање преговараш преговарају преговарао преговарате преговарали преговарала преговарај преговараћемо преговарајмо преговарајте
+75	2975	rodni	rodni rodnom rodnog rodno rodnu rodne rodna rodnoj родни rodnim родном родног родно родну родне родна родној родним
+76	2976	širiti	širi šire širiti širio širiš širila širimo širite šireći širili širim širile širilo шири шире ширити ширио шириш ширила ширимо ширите ширећи ширили ширим шириле ширило
+77	2977	dobit	dobit dobiću добит добићу
+78	2978	trpeti	trpim trpeti trpi trpeo trpiš trpela trpe trpimo trpeli trpite трпим трпи трпети trpeći трпео трпиш трпела трпе трпимо трпели трпите трпећи
+79	2979	galaksija	galaksije galaksija galaksiji galaksiju galaksijom galaksijama галаксије галаксији галаксију галаксија галаксијом галаксијама
+80	2980	useliti	uselio uselila useli useliti uselili uselim useliš useljenje uselimo usele uselite useliću uselićemo uselile уселио уселила усели уселити уселили уселим уселиш усељење уселимо уселе уселите уселићу уселићемо уселиле
+81	2981	tabla	tablu tabli table tabla tablom tablama табли таблу табла tablo табле таблом таблама табло
+82	2982	ljubimac	ljubimac ljubimca ljubimce ljubimaca ljubimci ljubimcima ljubimče љубимац ljubimcu ljubimcem љубимца љубимце љубимаца љубимци љубимцима љубимче љубимцу љубимцем
+83	2983	mornar	mornar mornara mornari mornaru mornare mornarima морнара mornarom морнар морнари морнару морнаре морнарима морнаром
+84	2984	točak	točak točkove točkovima točkovi točku točkova точак točkom точкови точкове точка точковима точку точкова точком
+85	2985	federalni	federalni federalne federalna federalnog federalnom federalnih federalnu federalnim federalnoj federalno федерални федералне федерална федералног федералном федералних федералну федералним федералној федерално
+86	2986	jadno	jadno јадно
+87	2987	tajan	tajnog tajnim tajnih tajnoj tajan tajne tajnu tajni tajnom тајне тајну тајним тајном тајних тајног тајној тајан тајни
+88	2988	kriminal	kriminala kriminal kriminalu kriminalom криминала криминал криминалу криминалом
+89	2989	pumpa	pumpa pumpe pumpi pumpu pumpama pumpom пумпе пумпа pumpo пумпи пумпу пумпама пумпом пумпо
+90	2990	мени	мени
+91	2991	klasičan	klasična klasični klasičan klasično klasične klasičnu klasičnog klasičnih klasičnom klasičnim klasičnoj класична класичан класични класично класичне класичну класичног класичних класичном класичним класичној
+92	2992	gitara	gitaru gitara gitare gitarom gitari гитару gitarama гитара гитаре гитаром гитари гитарама
+93	2993	salon	salon salonu salona salonima saloni salone салону салон salonom салона салонима салони салоне салоном
+94	2994	kafić	kafić kafiću kafića kafićima kafiće кафић kafići kafićem кафићу кафића кафићима кафиће кафићи кафићем
+95	2995	centralni	centralni centralna centralne centralnoj centralnu centralnom centralnog centralno centralnim centralnih централна централну централне централној централни централном централног централно централним централних
+96	2996	djevojčica	djevojčica djevojčice djevojčicu djevojčici djevojčicom djevojčicama дјевојчица дјевојчице дјевојчицу дјевојчици дјевојчицом дјевојчицама
+97	2997	pogriješiti	pogriješio pogriješila pogriješili pogriješiti pogriješi pogriješim pogriješiš pogriješe погријешио погријешила погријешили погријешити погријеши погријешим погријешиш погријеше
+98	2998	finansijski	finansijski finansijske finansijsku finansijska finansijskih finansijskim finansijskog finansijskom finansijskoj finansijsko финансијски финансијске финансијску финансијска финансијских финансијским финансијског финансијском финансијској финансијско
+99	2999	proteći	proteklih protekle protekla proteklo protekao protekli protekne proteći протеклих протекле протекла протекло протекао протекли протекне протећи
+100	3000	strategija	strategija strategiju strategije strategiji strategijom стратегија стратегију strategijama стратегије стратегији стратегијом стратегијама

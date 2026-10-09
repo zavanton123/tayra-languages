@@ -1,0 +1,100 @@
+1	8301	korijen	korijen korijena korijenu korijene korijeni korijenima коријен коријена коријену коријене коријени коријенима
+2	8302	saveznički	savezničke savezničkih saveznički saveznička savezničkim savezničko savezničku савезничке савезничких савезнички савезничка савезничким савезничко савезничку
+3	8303	lutak	lutak lutke lutku lutaka luci luče lutkom лутке лутку луци лутака луче лутак лутком
+4	8304	bajonet	bajonet bajonete bajonetom bajonetima bajoneta bajoneti бајонет бајонете бајонетом бајонетима бајонета бајонети
+5	8305	mrzak	mrsko mrska mrzak mrski mrskog mrske мрско мрска мрзак мрски мрског мрске
+6	8306	prihvatilište	prihvatilište prihvatilištu prihvatilišta прихватилиште прихватилишту прихватилишта
+7	8307	devedeset	devedeset деведесет
+8	8308	zaglibiti	zaglibio zaglibili zaglibila zaglibiti заглибио заглибили заглибила заглибити
+9	8309	asistirati	asistirati asistiram asistira asistiraš asistirao asistirala asistirate асистирати асистирам асистира асистираш асистирао асистирала асистирате
+10	8310	klinjo	klinjo клињо
+11	8311	varijacija	varijacije varijacija varijaciju varijacijama варијације варијација варијацију варијацијама
+12	8312	zinuti	zini zine zinuo zineš zinite zinuli zinu zinem zinula зини зине зинуо зинеш зините зинули зину зинем зинула
+13	8313	pribaviti	pribaviti pribavio pribavi pribavimo pribavim pribavila pribavili pribavite pribaviš прибавити прибавио прибави прибавимо прибавим прибавила прибавили прибавите прибавиш
+14	8314	eks	eks екс
+15	8315	zapažati	zapažanje zapažaš zapažate zapaža zapažam запажање запажаш запажате запажа запажам
+16	8316	smaknuće	smaknuće smaknuća smaknuću смакнуће смакнућа смакнућу
+17	8317	saopštiti	saopštiti saopštio saopštila саопштити саопштио саопштила
+18	8318	sinoćnji	sinoćnjeg sinoćnje sinoćnji sinoćnjem sinoćnju sinoćnja sinoćnjoj синоћњег синоћње синоћњи синоћњем синоћњу синоћња синоћњој
+19	8319	rastojanje	rastojanje rastojanju rastojanja растојање растојању растојања
+20	8320	svjetiljka	svjetiljku svjetiljke svjetiljka svjetiljki svjetiljkom свјетиљку свјетиљке свјетиљка свјетиљки свјетиљком
+21	8321	galon	galona galon galonu галона галон галону
+22	8322	mrmljati	mrmlja mrmljao mrmljaš mrmljanje mrmljala mrmljam mrmljajući mrmljate mrmljaju мрмља мрмљао мрмљаш мрмљање мрмљала мрмљам мрмљајући мрмљате мрмљају
+23	8323	sprdati	sprdaš sprda sprdati sprdaju sprdaj sprdate sprdam sprdao sprdali sprdamo спрдаш спрда спрдати спрдају спрдај спрдате спрдам спрдао спрдали спрдамо
+24	8324	smještaj	smještaj smještaju smještaja смјештај смјештају смјештаја
+25	8325	trijezan	trijezan trijezna trijezni тријезан тријезна тријезни
+26	8326	miljenik	miljenik miljenika miljenike miljenici миљеник миљеника миљенике миљеници
+27	8327	saditi	sadi saditi sadimo sadim sadiš sadio sađenje sadili sadite sade сади садити садимо садим садиш садио сађење садили садите саде
+28	8328	opatica	opatica opatice opaticu opaticama опатица опатице опатицу опатицама
+29	8329	gamad	gamad gamadi гамад гамади
+30	8330	grm	grm grma grmu grme grmova грм грма грму грме грмова
+31	8331	štićenik	štićenik štićenika štićenici štićenike štićeniku штићеник штићеника штићеници штићенике штићенику
+32	8332	plast	plastu plast пласту пласт
+33	8333	ucjena	ucjena ucjene ucjenu ucjenom ucjeni уцјена уцјене уцјену уцјеном уцјени
+34	8334	potpredsjednik	potpredsjednik potpredsjednika potpredsjedniče potpredsjednikom потпредсједник потпредсједника потпредсједниче потпредсједником
+35	8335	mrkva	mrkve mrkvu mrkva mrkvom мркве мркву мрква мрквом
+36	8336	điha	điha đi ђиха ђи
+37	8337	zračiti	zrači zračiš zračite zračim zračila zračio зрачења zrače зрачи зрачиш зрачите зрачим зрачила зрачио зраче
+38	8338	bokserice	bokserice boksericama bokserica боксерице боксерицама боксерица
+39	8339	prikrivanje	prikrivanje prikrivanja prikrivanju prikrivanjem прикривање прикривања прикривању прикривањем
+40	8340	goveđi	goveđi goveđe goveđa goveđu goveđeg goveđih говеђи говеђе говеђа говеђу говеђег говеђих
+41	8341	jugoistočni	jugoistočnoj jugoistočne jugoistočnom jugoistočni jugoistočnu jugoistočna jugoistočnog југоисточној југоисточне југоисточном југоисточни југоисточну југоисточна југоисточног
+42	8342	gumica	gumicu gumica gumice gumicom гумицу гумица гумице гумицом
+43	8343	izvoz	izvoz izvoza izvozi izvozom izvoze izvozu извоз извоза извози извозом извозе извозу
+44	8344	džoker	džoker džokera džokeri džokeru џокер џокера џокери џокеру
+45	8345	uzdržavati	uzdržavati uzdržavanje uzdržavam uzdržava uzdržavaš uzdržavanja uzdržavaj uzdržavanju uzdržavaju уздржавати уздржавање уздржавам уздржава уздржаваш уздржавања уздржавај уздржавању уздржавају
+46	8346	ког	ког
+47	8347	neodgovorno	neodgovorno неодговорно
+48	8348	nar	nar nara naru nare нар нара нару наре
+49	8349	obavještajni	obavještajne obavještajna obavještajnoj obavještajni obavještajnu obavještajnih obavještajnom обавјештајне обавјештајна обавјештајној обавјештајни обавјештајну обавјештајних обавјештајном
+50	8350	stup	stup stupovi stupove stupova stupe stupovima stupu ступи ступ ступови ступове ступова ступе ступовима ступу
+51	8351	kvačilo	kvačilo kvačila kvačilom квачило квачила квачилом
+52	8352	podešavati	podešavanje podešavam podešava подешавање podešavao podešavaju podešavati подешавам подешава подешавао подешавају подешавати
+53	8353	priličiti	priliči priliče приличи приличе
+54	8354	zaljev	zaljevu zaljev zaljeva заљеву заљев заљева
+55	8355	zapušiti	zapuši zapušio zapušite zapušiti zapušila zapušim zapuše zapušiš zapušili запуши запушио запушите запушити запушила запушим запуше запушиш запушили
+56	8356	matematičar	matematičar matematičara matematičari математичар математичара математичари
+57	8357	hamer	hamer хамер
+58	8358	hoditi	hodi hodite ходи ходите
+59	8359	prevazilaziti	prevazilazi prevazilaze превазилази превазилазе
+60	8360	trepavica	trepavice trepavica trepavicama trepavicu трепавице трепавица трепавицама трепавицу
+61	8361	prebijati	prebijanje prebija prebijaju prebijao prebijaš prebijali prebijam пребијање пребија пребијају пребијао пребијаш пребијали пребијам
+62	8362	prevladati	prevladati prevlada prevladala prevladao prevladaju prevladali prevladaš превладати превлада превладала превладао превладају превладали превладаш
+63	8363	zloba	zlobe zloba zlobu zlobom zlobi злобе злоба злобу злобом злоби
+64	8364	izuzeti	izuzmemo izuzeti izuzet izuzeta izuzme izuzeo izuzevši izuzmem изузмемо изузети изузет изузета изузме изузео изузевши изузмем
+65	8365	klošar	klošar klošari klošara klošaru klošare klošarima клошар клошари клошара клошару клошаре клошарима
+66	8366	gospon	gospon госпон
+67	8367	mekušac	mekušac mekušci mekušca mekušaca mekušce mekušcu мекушац мекушци мекушца мекушаца мекушце мекушцу
+68	8368	izrađivati	izrađuje izrađuju izrađujem izrađivati izrađivao izrađujemo izrađuješ izrađivali израђује израђују израђујем израђивати израђивао израђујемо израђујеш израђивали
+69	8369	uviti	uvije uvijen uvijeno uvijena uvijene uvio uvijem uvijeni uviti uvila uvij увије увијен увијено увијена увијене увио увијем увијени увити увила увиј
+70	8370	eliminacija	eliminacije eliminaciju eliminacija eliminacijom eliminaciji елиминације елиминацију елиминација елиминацијом елиминацији
+71	8371	sezonski	sezonske sezonski sezonska sezonsku sezonskim sezonskih sezonsko сезонске сезонски сезонска сезонску сезонским сезонских сезонско
+72	8372	svetlucav	svetlucavo svetlucave svetlucavi svetlucava svetlucavim svetlucavih svetlucav svetlucavu svetlucavom светлуцаво светлуцаве светлуцави светлуцава светлуцавим светлуцавих светлуцав светлуцаву светлуцавом
+73	8373	skalp	skalp skalpove skalpova skalpa skalpovi skalpu скалп скалпове скалпова скалпа скалпови скалпу
+74	8374	inkvizicija	inkvizicija inkvizicije inkviziciju inkviziciji inkvizicijom инквизиција инквизиције инквизицију инквизицији инквизицијом
+75	8375	kemikalija	kemikalija kemikalije kemikalijama kemikaliju кемикалија кемикалије кемикалијама кемикалију
+76	8376	sumoran	sumorna sumoran sumorne sumorni sumornog sumornom sumornim sumornu суморна суморан суморне суморни суморног суморном суморним суморну
+77	8377	blatnjav	blatnjave blatnjava blatnjavi blatnjavo blatnjav blatnjavim blatnjavu blatnjavom blatnjavoj блатњаве блатњава блатњави блатњаво блатњав блатњавим блатњаву блатњавом блатњавој
+78	8378	sujeverje	sujeverje sujeverja sujeverju sujeverjem сујеверје сујеверја сујеверју сујеверјем
+79	8379	oaza	oaza oazu oaze oazi оаза оазу оазе оази
+80	8380	šaljivdžija	šaljivdžija шаљивџија
+81	8381	alijansa	alijanse alijansa alijansu alijansi алијансе алијанса алијансу алијанси
+82	8382	bušotina	bušotina bušotine bušotini bušotinu bušotinama бушотина бушотине бушотини бушотину бушотинама
+83	8383	ložiti	ložiš ložim loži ložio loženje ložila ložiti lože ložite ложиш ложим ложи ложио ложење ложила ложити ложе ложите
+84	8384	odvojen	odvojen одвојен
+85	8385	savladati	savladati svlada савладати свлада
+86	8386	sunčev	sunčev сунчев
+87	8387	učen	učeni učen učena učene učenih učenog учени учен учена учене учених ученог
+88	8388	detonacija	detonacije detonacija detonaciju детонације детонација детонацију
+89	8389	nepokretan	nepokretan nepokretna nepokretni nepokretne nepokretno nepokretnu непокретан непокретна непокретни непокретне непокретно непокретну
+90	8390	riznica	riznica riznicu riznice riznici ризницу ризница ризнице ризници
+91	8391	cvećar	cvećara cvećaru cvećar cvećare cvećari цвећара цвећару цвећар цвећаре цвећари
+92	8392	omogućivati	omogućuje omogućuju omogućujući омогућује омогућују омогућујући
+93	8393	nokaut	nokaut nokautom nokauta нокаут нокаутом нокаута
+94	8394	majoneza	majoneza majonezom majoneze majonezu мајонеза мајонезом мајонезе мајонезу
+95	8395	narcis	narcis narcisa narcise narcisi narcisu нарцис нарциса нарцисе нарциси нарцису
+96	8396	prljati	prlja prljaš prljaju prljam prljati prljate prljaj prljao прља прљаш прљају прљам прљати прљате прљај прљао
+97	8397	privezati	privezan priveži privezati privezao privezana privežite privezani privežem privezali privežemo privezala привезан привежи привезати привезао привезана привежите привезани привежем привезали привежемо привезала
+98	8398	njutn	njutn njutna њутн njutnu њутна њутну
+99	8399	gusenica	gusenica gusenice gusenicu gusenici гусеница гусенице гусеницу гусеници
+100	8400	uvjerljiv	uvjerljiv uvjerljiva uvjerljivi uvjerljivije uvjerljive uvjerljiviji увјерљив увјерљива увјерљиви увјерљивије увјерљиве увјерљивији

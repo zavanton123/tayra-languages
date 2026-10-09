@@ -1,0 +1,100 @@
+1	9701	lipa	lipe lipa lipi lipu lipo липе липа липи липу липо
+2	9702	osjećajan	osjećajan osjećajna osjećajni osjećajno осјећајан осјећајна осјећајни осјећајно
+3	9703	alkoholizam	alkoholizam alkoholizma alkoholizmom alkoholizmu алкохолизам алкохолизма алкохолизмом алкохолизму
+4	9704	upadljiv	upadljiv upadljiva upadljive upadljivi упадљив упадљива упадљиве упадљиви
+5	9705	doseg	dosega doseg doseže dosegu досега досег досеже досегу
+6	9706	entitet	entitet entiteta entiteti ентитет ентитета ентитети
+7	9707	albatros	albatros albatrosa albatrosi албатрос албатроса албатроси
+8	9708	intenzitet	intenzitet intenziteta intenzitetom intenzitetu интензитет интензитета интензитетом интензитету
+9	9709	obuhvatati	obuhvata obuhvataju обухвата обухватају
+10	9710	nepravilan	nepravilan nepravilne nepravilni nepravilna nepravilnog неправилан неправилне неправилни неправилна неправилног
+11	9711	kolebati	kolebanje koleba kolebam kolebao kolebaš kolebati kolebaju колебање колеба колебам колебао колебаш колебати колебају
+12	9712	lekovit	lekovite lekovito lekovita lekovitu lekovitim lekovitog lekovitih лековите лековито лековита лековиту лековитим лековитог лековитих
+13	9713	kontaminacija	kontaminacije kontaminacija kontaminaciju контаминације контаминација контаминацију
+14	9714	kompresija	kompresije kompresiju kompresija компресија компресије компресију
+15	9715	stručno	stručno стручно
+16	9716	vjerojatnost	vjerojatnost vjerojatnosti вјеројатност вјеројатности
+17	9717	paun	paun pauna паун пауна
+18	9718	hibernacija	hibernaciji hibernacije hibernaciju hibernacija хибернацији хибернације хибернацију хибернација
+19	9719	izmlatiti	izmlatio izmlatim izmlatiti izmlati izmlatili измлатио измлатим измлатити измлати измлатили
+20	9720	lepiti	lepiš lepljenje lepio lepila lepiti lepili lepimo lepilo lepe lepi lepim лепе лепи лепим лепиш лепљење лепио лепила лепити лепили лепимо лепило
+21	9721	istovar	istovar istovari istovara istovare istovaru истовар истовари истовара истоваре истовару
+22	9722	soliti	sole soliš soliti soli соли соле солиш солити
+23	9723	cesar	cesar cesare cesara цесар цесаре цесара
+24	9724	piton	piton pitona pitoni питон питона питони
+25	9725	instinktivno	instinktivno инстинктивно
+26	9726	punjač	punjač punjača пуњач пуњача
+27	9727	aerobik	aerobik aerobika aerobiku аеробик аеробика аеробику
+28	9728	obdariti	obdaren obdarena obdareni obdario обдарен обдарена обдарени обдарио
+29	9729	kapelan	kapelan kapelana kapelane капелан капелана капелане
+30	9730	zapovjediti	zapovjedi zapovjedio zapovjeđeno zapovjediti заповједи заповједио заповјеђено заповједити
+31	9731	kolonist	kolonisti kolonista koloniste kolonistima колонисти колониста колонисте колонистима
+32	9732	ukrasni	ukrasni ukrasne ukrasna ukrasnim ukrasno ukrasnu ukrasnog украсни украсне украсна украсним украсно украсну украсног
+33	9733	radijator	radijator radijatora radijatoru radijatore радијатор радијатора радијатору радијаторе
+34	9734	nužan	nužna nužan nužne nužni nužnim najnužnije нужна нужан нужне нужни нужним најнужније
+35	9735	lobi	lobi lobiju lobija лоби лобију лобија
+36	9736	izbjeglica	izbjeglice izbjeglica izbjeglicama избјеглице избјеглица избјеглицама
+37	9737	ulepšavati	ulepšavanje ulepšava ulepšavam ulepšavaš ulepšavaju ulepšavati улепшавање улепшава улепшавам улепшаваш улепшавају улепшавати
+38	9738	vozati	vozati vozam vozao vozaš vozaju vozali vozamo voza воза возати возам возао возаш возају возали возамо
+39	9739	balistika	balistika balistiku balistike balistici балистика балистику балистике балистици
+40	9740	čučati	čuči čučao čučim čučiš čuče čučeći čučati чучи чучао чучим чучиш чуче чучећи чучати
+41	9741	povoljno	povoljno повољно
+42	9742	podij	podij podiju podija подиј подију подија
+43	9743	brzoplet	brzopleto brzoplet brzopleta brzopleti brzoplete брзоплето брзоплет брзоплета брзоплети брзоплете
+44	9744	tov	tov tove tova тов тове това
+45	9745	mustra	mustra muštra mustru mustre мустра муштра мустру мустре
+46	9746	životopis	životopis životopisu životopisa životopise животопис животопису животописа животописе
+47	9747	antraks	antraks antraksa antraksom антракс антракса антраксом
+48	9748	turbina	turbine turbina turbinu турбине турбина турбину
+49	9749	meteorološki	meteorološki meteorološka meteorološke meteorološkog meteorološkom метеоролошки метеоролошка метеоролошке метеоролошког метеоролошком
+50	9750	nadoknađivati	nadoknađuje nadoknađujem nadoknađuješ nadoknađuju nadoknađujemo надокнађује надокнађујем надокнађујеш надокнађују надокнађујемо
+51	9751	predomišljati	predomišljaš predomišljam predomišlja predomišljao predomišljanje предомишљаш предомишљам предомишља предомишљао предомишљање
+52	9752	mucati	muca mucam mucaš mucao муца муцам муцаш муцао
+53	9753	neprestan	neprestana neprestani neprestanog neprestane neprestanu neprestanom neprestanim непрестана непрестани непрестаног непрестане непрестану непрестаном непрестаним
+54	9754	trampa	trampa trampu trampe trampi трампа трампу трампе трампи
+55	9755	epilepsija	epilepsiju epilepsije epilepsija епилепсију епилепсије епилепсија
+56	9756	delikatno	delikatno деликатно
+57	9757	oblačan	oblačno облачно
+58	9758	parobrod	parobrod parobroda parobrodu parobrodom пароброд пароброда пароброду паробродом
+59	9759	prijelaz	prijelaz prijelaza prijelazu пријелаз пријелаза пријелазу
+60	9760	polijetati	polijetanje polijeće polijećemo полијетање полијеће полијећемо
+61	9761	burza	burzi burza burze burzu бурзи бурза бурзе бурзу
+62	9762	neumoran	neumorni neumoran neumorna neumornog neumorne неуморни неуморан неуморна неуморног неуморне
+63	9763	demonstrant	demonstranti demonstranata demonstrante demonstrant demonstrantima демонстранти демонстраната демонстранте демонстрант демонстрантима
+64	9764	snošaj	snošaj snošaja snošaju сношај сношаја сношају
+65	9765	nestabilnost	nestabilnost nestabilnosti нестабилност нестабилности
+66	9766	kralježnica	kralježnice kralježnicu kralježnica kralježnici краљежнице краљежницу краљежница краљежници
+67	9767	podružnica	podružnica podružnice podružnicu podružnici подружница подружнице подружницу подружници
+68	9768	kozmetički	kozmetički kozmetičke kozmetičku kozmetička kozmetičkom kozmetičkih козметички козметичке козметичку козметичка козметичком козметичких
+69	9769	vratni	vratne vratnu vratni vratna vratnog вратне вратну вратни вратна вратног
+70	9770	sinčić	sinčić sinčića sinčiću синчић синчића синчићу
+71	9771	varljiv	varljivo varljiva varljiv varljivi varljive варљиво варљива варљив варљиви варљиве
+72	9772	pretplata	pretplatu pretplata pretplate претплату претплата претплате
+73	9773	nagore	nagore нагоре
+74	9774	džihad	džihad džihada džihadu џихад џихада џихаду
+75	9775	žarulja	žarulja žarulje žarulju жаруља жаруље жаруљу
+76	9776	sumnjičiti	sumnjiči sumnjičite sumnjiče sumnjičimo sumnjičiš sumnjičili сумњичи сумњичите сумњиче сумњичимо сумњичиш сумњичили
+77	9777	brlog	brlog brlogu brloga брлог брлогу брлога
+78	9778	košarkaš	košarkaš košarkaša košarkaši košarkaše кошаркаш кошаркаша кошаркаши кошаркаше
+79	9779	šija	šiju šije šija шију шије шија
+80	9780	bližiti	bližimo bližio bližila bližilo bližiš ближе ближи bliži bliže bližim ближимо ближио ближила ближило ближиш ближим
+81	9781	poligon	poligon poligonu poligona полигон полигону полигона
+82	9782	interval	intervalima interval intervalu intervale intervala intervali интервалима интервал интервалу интервале интервала интервали
+83	9783	krvožedan	krvožedni krvožedna krvožednih krvožedne krvožedan krvožednog krvožedno крвожедни крвожедна крвожедних крвожедне крвожедан крвожедног крвожедно
+84	9784	iskoreniti	iskoreniti iskoreni iskorenimo iskorene iskorenim iskorenjena искоренити искорени искоренимо искорене искореним искорењена
+85	9785	jedinka	jedinke jedinki jedinka jedinku јединке јединки јединка јединку
+86	9786	sednica	sednicu sednica sednici sednice седницу седница седници седнице
+87	9787	figurativno	figurativno фигуративно
+88	9788	stoljećima	stoljećima стољећима
+89	9789	uteći	utekao uteći uteče utekli utekla utekne утекао утећи утече утекли утекла утекне
+90	9790	uvidjeti	uvidjeti uvidio uvidjela uvidjeli uvidim uvidiš uvidite uvidi uvidimo uvide увидјети увидио увидјела увидјели увидим увидиш увидите увиди увидимо увиде
+91	9791	učenjak	učenjak učenjaci učenjaka učenjače учењак учењаци учењака учењаче
+92	9792	dokrajčiti	dokrajčiti докрајчити
+93	9793	sjutra	sjutra сјутра
+94	9794	mlakonja	mlakonja млакоња
+95	9795	hazard	hazard hazarda hazarde hazardu хазард хазарда хазарде хазарду
+96	9796	prezalogajiti	prezalogajimo prezalogajim prezalogajite prezalogaji prezalogajiti prezalogajiš презалогајимо презалогајим презалогајите презалогаји презалогајити презалогајиш
+97	9797	kvaran	kvarno kvaran kvarni kvarna kvarne кварно кваран кварни кварна кварне
+98	9798	nepoverenje	nepoverenje nepoverenja nepoverenjem nepoverenju неповерење неповерења неповерењем неповерењу
+99	9799	omotati	omotan omotaj omotao omotati omotana omotala omotano omota омотан омотај омотао омотати омотана омотала омотано омота
+100	9800	paketić	paketić paketića paketiće пакетић пакетића пакетиће

@@ -1,0 +1,100 @@
+1	3401	čestica	čestice čestica česticama česticu честица честице честицама честицу
+2	3402	isticati	ističe ističu ističem isticati isticao ističeš истиче isticalo isticanje isticala isticali ističući ističete ističemo истичу истичем истицати истицао истичеш истицало истицање истицала истицали истичући истичете истичемо
+3	3403	agresivan	agresivan agresivno agresivni agresivna agresivne agresivniji agresivnije agresivnog agresivnim agresivnu agresivnija agresivnih agresivnom агресиван агресивно агресивни агресивна агресивне агресивнији агресивније агресивног агресивним агресивну агресивнија агресивних агресивном
+4	3404	mrtvac	mrtvaca mrtvac mrtvaci mrtvace mrtvacima mrtvacu мртваца мртвац мртваци мртваце мртвацима мртвацу
+5	3405	čaroban	čarobni čarobna čarobne čarobnu čaroban čarobnog čarobnim čarobnom čarobnih čarobnoj чаробни чаробна чаробне чаробну чаробан чаробног чаробним чаробном чаробних чаробној
+6	3406	preseći	presekao preseći preseci preseče presekli presečem presekla presečeš presečemo presečena presecite presečen presečene preseku presečete presečeno preseklo presečeni presekle presecimo пресекао пресећи пресеци пресече пресекли пресечем пресекла пресечеш пресечемо пресечена пресеците пресечен пресечене пресеку пресечете пресечено пресекло пресечени пресекле пресецимо
+7	3407	curica	curica curice curicu curici curicama curicom цурица цурице цурицу цурици цурицама цурицом
+8	3408	prikazivati	prikazuje prikazuju prikazivanje prikazivati prikazivali prikazujemo prikazivao prikazuješ приказује prikazivala prikazujete prikazujem prikazujući приказују prikazivan prikazivale приказивање приказивати приказивали приказујемо приказивао приказујеш приказивала приказујете приказујем приказујући приказиван приказивале
+9	3409	poprilično	poprilično поприлично
+10	3410	odaja	odaje odajama odaja odaju odaji одаје одајама одаја одају одаји
+11	3411	puniti	punjenje puniš punjene punio punjena puniti punite punila punjeni punimo punili punjen пуњење puni punjeno pune puneći punim punile пуни пуне пуним пуниш пуњене пунио пуњена пунити пуните пунила пуњени пунимо пунили пуњен пуњено пунећи пуниле
+12	3412	spriječiti	spriječiti spriječi spriječio spriječilo spriječili spriječim spriječimo spriječila spriječe spriječiš spriječite spriječen spriječena спријечити спријечи спријечио спријечило спријечили спријечим спријечимо спријечила спријече спријечиш спријечите спријечен спријечена
+13	3413	gravitacija	gravitacija gravitacije gravitaciju gravitaciji gravitacijom гравитација гравитације гравитацију гравитацији гравитацијом
+14	3414	smio	smio smjela smjeli smjelo smjele смио смјела смјели смјело смјеле
+15	3415	hlače	hlače hlačama hlača хлаче хлачама хлача
+16	3416	rimski	rimski rimskog rimske rimska rimsko rimskim rimskom rimskih rimsku rimskoj римски римског римске римска римско римским римском римских римску римској
+17	3417	isprobati	isprobati isprobam isprobaj isprobamo isprobao isprobaš isproba isprobali isprobajte isprobala isprobate isprobaju isprobajmo isprobaću isprobaćemo isproban isprobana isprobano испробам испробати испробај испробамо испробао испробаш испроба испробали испробајте испробала испробате испробају испробајмо испробаћу испробаћемо испробан испробана испробано
+18	3418	pobjeda	pobjeda pobjedu pobjede pobjedi pobjedom побједа побједу побједе побједи побједом
+19	3419	jok	jok јок
+20	3420	kopno	kopno kopnu kopna kopnom копно копну копна копном
+21	3421	izbaviti	izbavi izbaviti izbavim izbavimo izbavio izbavite izbaviću izbaviš izbavićemo izbave izbavila izbavili избави избавити избавим избавимо избавио избавите избавићу избавиш избавићемо избаве избавила избавили
+22	3422	prag	pragu prag praga прагу праг pragove pragom pragova прага прагове прагом прагова
+23	3423	kolonija	kolonija kolonije koloniju koloniji kolonijama kolonijom колонија колонију колоније колонији колонијама колонијом
+24	3424	poremetiti	poremećen poremećena poremećeni poremeti poremetio poremetiti poremećeno poremetila poremetilo poremećene poremetili poremete poremetimo poremetiš poremetim поремећен поремећена поремећени поремети пореметио пореметити поремећено пореметила пореметило поремећене пореметили поремете пореметимо пореметиш пореметим
+25	3425	neugodno	neugodno неугодно
+26	3426	svadba	svadbu svadba svadbe svadbi svadbama свадбу свадба svadbom свадби свадбе свадбама свадбом
+27	3427	septembar	septembra septembar septembru септембра септембар септембру
+28	3428	ženka	ženka ženke ženku ženki ženkama ženkom женка женке женку женки женкама женком
+29	3429	iluzija	iluzija iluzije iluziju iluziji iluzijama iluzijom илузија илузије илузију илузији илузијама илузијом
+30	3430	teretana	teretanu teretani teretane teretana теретану teretanom теретани теретане теретана теретаном
+31	3431	naivan	naivan naivna naivni naivno naivne naivnim naivnu naivnog naivnom наиван naivnih наивна наивни наивно наивне наивним наивну наивног наивном наивних
+32	3432	strip	strip stripove stripova stripa stripu stripovi stripovima стрип stripom стрипове стрипова стрипа стрипу стрипови стриповима стрипом
+33	3433	kal	kali kal kale kala kalem кал kalu kalima kalema кали кале кала калем калу калима калема
+34	3434	dovde	dovde довде
+35	3435	kornjača	kornjača kornjače kornjaču kornjačo kornjačama kornjači kornjačom корњаче корњача корњачу корњачо корњачама корњачи корњачом
+36	3436	beskućnik	beskućnik beskućnika beskućnike beskućnici beskućnicima beskućnica beskućniku beskućnicu beskućnikom бескућници beskućnice бескућника бескућник бескућнике бескућницима бескућница бескућнику бескућницу бескућником бескућнице
+37	3437	kockati	kockanje kockam kockaš kockao kockati kockaju kockate kockamo kockali kockala kockaj коцкање kockaste kockajući коцкам коцкаш коцкао коцкати коцкају коцкате коцкамо коцкали коцкала коцкај коцкасте коцкајући
+38	3438	bajka	bajke bajka bajku bajki bajci bajkama бајке бајка bajkom бајку бајки бајци бајкама бајком
+39	3439	materija	materije materija materiju materijom materiji материје материја материју материјом материји
+40	3440	posjet	posjet posjetu posjeta posjeti posjete posjetom посјет посјету посјета посјети посјете посјетом
+41	3441	računar	računar računara računaru računare računarima računari računarom рачунар рачунару рачунара рачунаре рачунарима рачунари рачунаром
+42	3442	popust	popust popusti popusta popustom popuste popustu попуст popustima попусти попуста попустом попусте попусту попустима
+43	3443	uslovan	uslovnu uslovnoj uslovno uslovne uslovna uslovni uslovnom uslovnog условну условној условно условне условна условни условном условног
+44	3444	kup	kup kupa kupi kupu куп купе купи купа купу
+45	3445	isplata	isplati isplatu isplata isplate isplatom isplatama исплату исплати исплата исплате исплатом исплатама
+46	3446	narukvica	narukvicu narukvica narukvice narukvici narukvicom narukvicama наруквицу наруквица наруквице наруквици наруквицом наруквицама
+47	3447	ugled	ugled ugleda ugledu ugledom углед угледа угледу угледом
+48	3448	bitanga	bitanga bitange bitango bitangu bitangi bitangama bitangom битанга битанге битанго битангу битанги битангама битангом
+49	3449	jezivo	jezivo језиво
+50	3450	brk	brkove brkovi brkovima brkova brk brka бркове брковима бркови бркова брк брка
+51	3451	jebiga	jebiga јебига jbg јбг
+52	3452	pedeset	pedeset педесет
+53	3453	trg	trgu trg trga трг тргу trgovima trgom trgove trgova трга трговима тргом тргове тргова
+54	3454	diploma	diplomu diploma diplome diplomom diplomi diplomama диплому диплома дипломе дипломом дипломи дипломама
+55	3455	kuhati	kuhati kuha kuhanje kuham kuhaš kuhala kuhao kuhaju kuhana kuhano kuhate kuhamo kuhali kuhani kuhane kuhaj кухати куха кухање кухам кухаш кухала кухао кухају кухана кухано кухате кухамо кухали кухани кухане кухај
+56	3456	razvaliti	razvali razvalio razvaliti razvalimo razvalim razvalili razvalite razvaljena razvalila razvaliću razvaljen razvališ razvale razvalićemo razvaliće razvaljeni razvalićeš razvaljeno развали развалио развалити развалимо развалим развалили развалите разваљена развалила развалићу разваљен развалиш развале развалићемо развалиће разваљени развалићеш разваљено
+57	3457	obnoviti	obnoviti obnovi obnove obnovimo obnovio obnovim obnovili obnovljena obnovljen obnovila obnoviš obnovite obnovljene obnovljeni obnovljeno obnavljati obnovićemo обновити обнови обнове обновимо обновио обновим обновили обновљена обновљен обновила обновиш обновите обновљене обновљени обновљено обнављати обновићемо
+58	3458	ćošak	ćošak ćošku ćoška ćoškovima ћошак ćoškove ćoškova ћошку ћошка ћошковима ћошкове ћошкова
+59	3459	kongres	kongres kongresu kongresa kongresom конгрес конгреса конгресу конгресом
+60	3460	beleška	beleške beleškama beleški beleška belešku белешке beležaka белешку белешкама белешки белешка бележака
+61	3461	iskupiti	iskupim iskupiti iskupljenje iskupiš iskupi iskupio iskupiću iskupila iskupite iskupimo iskupe iskupili искупим искупити искупљење искупиш искупи искупио искупићу искупила искупите искупимо искупе искупили
+62	3462	zavesti	zaveo zavede zavesti zavela zavedeš zavedem zaveden zavedena zavedeni zavedi zaveli zavedu zavedeno zavedete zavoditi zavedene zavedite zavedemo завео заведе завести завела заведеш заведем заведен заведена заведени заведи завели заведу заведено заведете заводити заведене заведите заведемо
+63	3463	pčela	pčele pčela pčelama pčelica pčelu пчеле пчела pčeli пчелама пчелица пчелу пчели
+64	3464	čekić	čekić čekićem čekića čekiću чекић čekićima čekiće čekići чекићем чекића чекићу чекићима чекиће чекићи
+65	3465	poezija	poeziju poezija poezije poeziji poezijom поезију поезија поезије поезији поезијом
+66	3466	vozački	vozačku vozačka vozačke vozački vozačkoj vozačkom vozačkih vozačkog vozačkim vozačko возачку возачка возачке возачки возачкој возачком возачких возачког возачким возачко
+67	3467	detaljan	detaljno detaljan detaljnije detaljne detaljnu detaljna detaljni detaljniji detaljnim detaljnog детаљно detaljnom detaljnih detaljniju детаљан детаљније детаљне детаљну детаљна детаљни детаљнији детаљним детаљног детаљном детаљних детаљнију
+68	3468	opšti	opšte opšti opšta opštu opšteg opštem opštoj opštim опште opštih opštom општи општа општу општег општем општој општим општих општом
+69	3469	њих	њих
+70	3470	roštilj	roštilj roštilja roštilju роштиљ roštiljem roštilje роштиља роштиљу роштиљем роштиље
+71	3471	sekretar	sekretar sekretara sekretaru секретар sekretare sekretarom секретара sekretari секретару секретаре секретаром секретари
+72	3472	mati	mater mati matere мати матер matera materi матере матера матери
+73	3473	domet	dometa domet dometu dometom домет домета домету дометом
+74	3474	z	z з
+75	3475	imenovati	imenovao imenovati imenujem imenovan imenovanje imenuje imenuj imenovali imenovala imenovani imenovana imenujte imenuju imenujemo imenuješ imenujete imenovaću именовао именовање именовати именујем именован именује именуј именовали именовала именовани именована именујте именују именујемо именујеш именујете именоваћу
+76	3476	okruženje	okruženju okruženje okruženja okruženjem окружењу окружење okruženjima окружења окружењем окружењима
+77	3477	oproštaj	oproštaj oproštaja опроштај oproštaju oproštaje oproštajem опроштаја опроштају опроштаје опроштајем
+78	3478	jedanput	jedanput једанпут
+79	3479	gaćice	gaćice gaćicama gaćica гаћице гаћицама гаћица
+80	3480	dvorana	dvorani dvoranu dvorana dvorane dvoranama dvoranom дворани дворана дворану дворане дворанама двораном
+81	3481	bod	bodova bod bodove boda bode bodu bodovi bodovima бодова бод бодове бода боде боду бодови бодовима
+82	3482	osnovati	osnovao osnovali osnovati osnovala osnujemo osnujem osnuje osnuješ osnuju osnujete osnovale osnovaćemo osnovaću основао osnuj основали основати основала оснујемо оснујем оснује оснујеш оснују оснујете основале основаћемо основаћу оснуј
+83	3483	autoput	autoputu autoput autoputa аутопут аутопуту autoputom аутопута аутопутом
+84	3484	prisustvovati	prisustvovati prisustvovao prisustvuje prisustvujem prisustvovali prisustvuju prisustvujete prisustvovala prisustvuješ prisustvujemo prisustvovalo присуствује присуствовати присуствовао присуствујем присуствовали присуствују присуствујете присуствовала присуствујеш присуствујемо присуствовало
+85	3485	termin	termin termina terminu termine terminima термин termini terminom термина термину термине терминима термини термином
+86	3486	bus	bus busom busu busa бус buseva buseve бусом busevi бусу буса бусева бусеве бусеви
+87	3487	grobnica	grobnica grobnice grobnicu grobnici grobnicama гробнице гробница гробницу grobnicom гробници гробницама гробницом
+88	3488	trudnoća	trudnoće trudnoću trudnoća trudnoći trudnoćom трудноће трудноћа трудноћу трудноћи трудноћом
+89	3489	proizvodnja	proizvodnju proizvodnje proizvodnja proizvodnji proizvodnjom производњу производње производња производњи производњом
+90	3490	inženjer	inženjer inženjera inženjeri inženjeru inženjere инжењер inženjerima inženjerom инжењера инжењери инжењеру инжењере инжењерима инжењером
+91	3491	smrdjeti	smrdi smrdiš smrde smrdim смрди smrdio smrdjeti smrdite smrdjelo smrdjela smrdimo смрдиш смрде smrdeći смрдим смрдио смрдјети смрдите смрдјело смрдјела смрдимо смрдећи
+92	3492	sindikat	sindikat sindikata sindikatu sindikati sindikatom sindikatima sindikate синдиката синдикат синдикату синдикати синдикатом синдикатима синдикате
+93	3493	oklop	oklop oklopu oklopa oklopom oklope оклоп oklopima oklopi оклопу оклопа оклопом оклопе оклопима оклопи
+94	3494	napadač	napadača napadač napadači napadače napadaču napadačima napadačem нападача нападач нападачи нападаче нападачу нападачима нападачем
+95	3495	gnezdo	gnezdo gnezda gnezdu гнездо гнезда gnezdima gnezdom гнезду гнездима гнездом
+96	3496	poremećaj	poremećaj poremećaja poremećaje poremećajem poremećaji poremećajima poremećaju поремећај поремећаја поремећаје поремећајем поремећаји поремећајима поремећају
+97	3497	konobarica	konobarica konobarice konobaricu konobaricom konobarici konobaricama конобарица конобарице конобарицу конобарицом конобарици конобарицама
+98	3498	močvara	močvare močvari močvaru močvara močvarama močvarom мочвару мочваре мочвари мочвара мочварама мочваром
+99	3499	dodatak	dodatak dodatke dodaci dodataka dodatkom dodacima dodatka dodatku додатак додатке додаци додатака додатком додацима додатка додатку
+100	3500	izdajica	izdajica izdajice izdajicu izdajico izdajicom izdajicama izdajici издајица издајице издајицу издајицо издајицом издајицама издајици

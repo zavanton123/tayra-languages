@@ -1,0 +1,100 @@
+1	2601	brati	beri brale бери bra bere branje brati berem beru beremo brali brao bereš berete brala brah braće braću брање браће браћу брале бра бере брати берем беру беремо брали брао береш берете брала брах
+2	2602	organ	organa organe organi organ organima organu органи органа organom орган органе органима органу органом
+3	2603	tužba	tužbu tužbe tužba tužbi tužbom tužbama тужбу тужбе тужба тужби тужбом тужбама
+4	2604	pišati	pišam piša pišati pišaš pišao pišanje pišaju pišaj pišaću пишам pišate pišali pišamo pišala pišaće пишаш pišalo пиша пишати пишао пишање пишају пишај пишаћу пишате пишали пишамо пишала пишаће пишало
+5	2605	seljak	seljaci seljak seljaka seljačina seljake seljacima seljačine seljačino seljački seljačka seljaku seljačke seljače seljačko seljačku сељак сељаци seljačkog сељака seljakom seljačinu seljačkim seljačinama seljačkom seljačić seljačinom seljačkih сељачина сељаке сељацима сељачине сељачино сељачки сељачка сељаку сељачке сељаче сељачко сељачку сељачког сељаком сељачину сељачким сељачинама сељачком сељачић сељачином сељачких
+6	2606	rasa	rasa rase rasu rasi rasom rasama расе раса расу раси расом расама
+7	2607	unazad	unazad уназад
+8	2608	žalost	žalost žalosti жалост жалости žalošću жалошћу
+9	2609	tetovaža	tetovažu tetovaža tetovaže tetovažom tetovažama tetovaži тетоважу тетоважа тетоваже тетоважом тетоважама тетоважи
+10	2610	zadovoljiti	zadovoljiti zadovolji zadovoljim zadovoljena zadovoljio zadovoljiš zadovoljila zadovoljili zadovolje zadovoljimo zadovoljilo zadovoljite zadovoljiću zadovoljen zadovoljeni задовољи zadovoljene задовољити zadovoljile задовољим задовољена задовољио задовољиш задовољила задовољили задовоље задовољимо задовољило задовољите задовољићу задовољен задовољени задовољене задовољиле
+11	2611	ispostaviti	ispostavilo ispostavi испоставило ispostave ispostaviti ispostavio ispostavila испостави испоставе испоставити испоставио испоставила
+12	2612	kupac	kupac kupca kupci kupaca kupce kupcima kupcu kupcem купац купца купци купце купаца купцима купцу купцем
+13	2613	nauditi	nauditi naudio naudi naudim naudila naude naudiš naudili naudimo naudite naudilo наудити науди наудио наудим наудила науде наудиш наудили наудимо наудите наудило
+14	2614	barbar	barbara barbari barbaru barbare barbarom барбара барбари барбару барбаре барбаром
+15	2615	puca	puca пуца pucu puce puci пуцу пуце пуци
+16	2616	dugačak	dugačak dugačka dugačke dugačko dugačku dugački dugačkim dugačkog dugačkom dugačkih дугачак dugačkoj дугачка дугачке дугачко дугачку дугачки дугачким дугачког дугачком дугачких дугачкој
+17	2617	prenos	prenos prenosi prenose prenosa prenosu пренос prenosom преноси преноса преносе преносу преносом
+18	2618	lampa	lampu lampe lampa lampom lampi lampama лампу лампе лампа лампом лампи лампама
+19	2619	dočekati	dočekati dočekam dočekao dočeka dočekali dočekala dočekaš dočekamo dočekaju dočekan dočekate dočekaj дочекати dočekaće дочекам dočekani dočekalo dočekaćemo dočekajte дочекао dočekana dočekajmo dočekaću dočekale дочека дочекали дочекала дочекаш дочекамо дочекају дочекан дочекате дочекај дочекаће дочекани дочекало дочекаћемо дочекајте дочекана дочекајмо дочекаћу дочекале
+20	2620	častiti	častim častiš častiti častio častiću častimo časte častite časti častila častili čašćenje частим частиш частити частио частићу частимо часте частите части частила частили чашћење
+21	2621	rez	rez reza rezovi rezu rezove рез rezova rezom rezovima реза резови резу резове резова резом резовима
+22	2622	slon	slona slon slonovi slonova slonove slonovima slonu slonom слонова слона слонови slone слон слонове слоновима слону слоном слоне
+23	2623	atmosfera	atmosferu atmosfera atmosferi atmosfere atmosferom атмосферу атмосфера атмосфери атмосфере атмосфером
+24	2624	japanski	japanski japanske japanska japanskom japanskog japanskih japansku japanskim japansko japanskoj јапански јапанске јапанска јапанском јапанског јапанских јапанску јапанским јапанско јапанској
+25	2625	cijeniti	cijenim cijeniti cijenimo cijenio cijene cijeni cijeniš cijenila cijenite cijenili цијеним цијенити цијенимо цијенио цијене цијени цијениш цијенила цијените цијенили
+26	2626	bašta	bašti baštu bašte bašta baštom башти baštama башту башта баште баштом баштама
+27	2627	smrad	smrad smrada smradu smrade smradovi smradom смрад smradova smradove смрада смраду смраде смрадови смрадом смрадова смрадове
+28	2628	trgovac	trgovac trgovci trgovca trgovaca trgovce trgovcima trgovcu trgovcem трговац trgovče трговца трговци трговаца трговце трговцима трговцу трговцем трговче
+29	2629	sanduk	sanduk sanduka sanduku sanduče sanduke sanduci sanducima sandukom сандук сандуку сандуче сандука сандуке сандуци сандуцима сандуком
+30	2630	izvrsno	izvrsno изврсно
+31	2631	tvrtka	tvrtka tvrtke tvrtku tvrtki tvrtkom tvrtkama твртка твртке твртку твртки твртком тврткама
+32	2632	њега	њега њего
+33	2633	svjedok	svjedoka svjedok svjedoci svjedoke svjedocima svjedokom svjedoku svjedoče свједока свједок свједоци свједоке свједоцима свједоком свједоку свједоче
+34	2634	paliti	palim paljenje pališ palimo palio palite paliti palili palila palilo pale пале paleći паљење палим palile палиш палимо палио палите палити палили палила палило палећи палиле
+35	2635	drogirati	drogirao drogiran drogira drogirana drogiraš drogiram drogirala drogirali drogirani drogiraju drogirati drogiranje drogirate drogiramo drogirane дрогиран drogirano drogiraj дрогирао дрогира дрогирана дрогираш дрогирам дрогирала дрогирали дрогирани дрогирају дрогирати дрогирање дрогирате дрогирамо дрогиране дрогирано дрогирај
+36	2636	kreditni	kreditne kreditnu kreditna kreditnom kreditnih kreditnim kreditnoj kreditni кредитне kreditno kreditnog кредитну кредитна кредитном кредитних кредитним кредитној кредитни кредитно кредитног
+37	2637	osobno	osobno особно
+38	2638	povećati	povećati povećao poveća povećaj povećali povećamo povećana povećam povećajte povećaju povećan povećaš povećane povećate povećani povećano povećale povećaću povećaćemo povećaće povećajmo повећати повећа повећао повећај повећали повећамо повећана повећам повећајте повећају повећан повећаш повећане повећате повећани повећано повећале повећаћу повећаћемо повећаће повећајмо
+39	2639	preskočiti	preskočiti preskočimo preskoči preskočio preskočim preskočila preskočili preskočiću preskočiš preskočite preskočićemo preskoče preskočilo прескочити прескочимо прескочи прескочио прескочим прескочила прескочили прескочићу прескочиш прескочите прескочићемо прескоче прескочило
+40	2640	groblje	groblje groblju groblja гробље grobljima гробљу grobljem гробља гробљима гробљем
+41	2641	izložiti	izložen izloženi izložena izložio izložiti izloženo izložim izloži izložene izložili izložila izložite izložimo izložiš изложени izlože изложен izložiću изложена изложити изложио изложено изложим изложи изложене изложили изложила изложите изложимо изложиш изложе изложићу
+42	2642	prilaz	prilazi prilaz prilaze prilazu prilaza прилази prilazima prilazom прилаз прилазу прилазе прилаза прилазима прилазом
+43	2643	akademija	akademiji akademiju akademije akademija akademski akademske akademska akademsku akademskog akademskim akademsko akademskom akademskih akademskoj академији академије академију академија академски академске академска академску академског академским академско академском академских академској
+44	2644	nisko	nisko niže najniže ниско ниже најниже
+45	2645	profesionalac	profesionalac profesionalci profesionalca profesionalce profesionalcima profesionalaca profesionalcem професионалац profesionalcu професионалци професионалца професионалце професионалцима професионалаца професионалцем професионалцу
+46	2646	uvaliti	uvalio uvaliti uvalila uvalili uvali uvališ uvalim uvale uvalićeš увалио uvalimo uvalilo uvalite uvalile uvaliće увалити увалила увалили ували увалиш увалим увале увалићеш увалимо увалило увалите увалиле увалиће
+47	2647	sekretarica	sekretarica sekretaricu sekretarici sekretarice sekretaricom секретарица sekretaricama секретарицу секретарици секретарице секретарицом секретарицама
+48	2648	vježbati	vježbati vježba vježbe vježbam vježbao vježbu vježbanje vježbaš vježbali vježbala vježbi vježbamo vježbaj vježbaju vježbama vježbate vježbom vježbajte вјежбати вјежба вјежбе вјежбам вјежбао вјежбу вјежбање вјежбаш вјежбали вјежбала вјежби вјежбамо вјежбај вјежбају вјежбама вјежбате вјежбом вјежбајте
+49	2649	nevidljiv	nevidljiv nevidljivi nevidljiva nevidljivo nevidljive nevidljivim nevidljivog nevidljivom nevidljivu nevidljivih невидљив невидљиви nevidljivoj nevidljivima невидљива невидљиво невидљиве невидљивим невидљивог невидљивом невидљиву невидљивих невидљивој невидљивима
+50	2650	alat	alat alata alatom alate alati alatima алат alatu алата алатом алате алати алатима алату
+51	2651	flota	flote flota flotu floti flotom флота флоту флоте флоти флотом
+52	2652	nakit	nakit nakita nakitom nakitu накит накита накитом накиту
+53	2653	ponijeti	ponijeti ponio ponesi ponesem ponijela poneseš ponesite ponese ponijeli ponije ponijet ponesemo ponesete ponesu ponesimo ponesen понијети понио понеси понесем понијела понесеш понесите понесе понијели поније понијет понесемо понесете понесу понесимо понесен
+54	2654	veličanstven	veličanstveno veličanstven veličanstvena veličanstveni veličanstvene veličanstvenu veličanstvenog veličanstvenom veličanstvenih veličanstvenim veličanstvenoj величанствен величанствено величанствена величанствени величанствене величанствену величанственог величанственом величанствених величанственим величанственој
+55	2655	prilagoditi	prilagodio prilagoditi prilagodi prilagodili prilagode prilagodim prilagodila prilagodiš prilagodimo prilagođen prilagodite prilagođeni prilagođena prilagođene prilagođeno prilagodile prilagodićemo prilagodiću прилагодити прилагодио прилагоди прилагодили прилагоде прилагодим прилагодила прилагодиш прилагодимо прилагођен прилагодите прилагођени прилагођена прилагођене прилагођено прилагодиле прилагодићемо прилагодићу
+56	2656	blizanac	blizanci blizance blizanac blizanca blizanaca blizancima близанци близанце blizancu близанац близанца близанаца близанцима близанцу
+57	2657	ormar	ormaru ormar ormara ormare ormari ormarima ормару ормар ormarom ормара ормаре ормари ормарима ормаром
+58	2658	bosti	bo bodi bolo boden bodeš boli bodem бо bosti bode bodena bodu bodete bola bole боди боло боден бодеш боли бодем бости боде бодена боду бодете бола боле
+59	2659	električni	električni električne električna električnu električno električnim električnih električnog električnom električnoj електричне електрични електричну електрична електрично електричним електричних електричног електричном електричној
+60	2660	kruna	kruna krunu krune kruni krunom круна круну круне krunama круни круном крунама
+61	2661	cvet	cvet cveta cvetu cvetovi cvetova cvetove cvetom cvete цвет cvetovima цвета цвету цветови цветова цветове цветом цвете цветовима
+62	2662	lobanja	lobanje lobanja lobanju lobanji lobanjom lobanjama лобања lobanjo лобање лобању лобањи лобањом лобањама лобањо
+63	2663	bejzbol	bejzbol bejzbola bejzbolu бејзбол bejzbolom бејзбола бејзболу бејзболом
+64	2664	zamenik	zamenik zamenika zameniče zamenikom zamenici zameniku заменик zamenike zamenicima заменика замениче замеником заменици заменику заменике заменицима
+65	2665	logor	logor logoru logora logore logorima logori логор логору логора logorom логоре логорима логори логором
+66	2666	običaj	običaj običaju običaje običajima običaji običaja обичај обичаје обичају обичајима обичаји обичаја
+67	2667	smrtonosan	smrtonosna smrtonosni smrtonosne smrtonosan smrtonosnu smrtonosnim smrtonosnog smrtonosnom smrtonosnih smrtonosnoj смртоносна смртоносан смртоносне смртоносни смртоносну смртоносним смртоносног смртоносном смртоносних смртоносној
+68	2668	uhititi	uhićen uhititi uhitili uhićeni uhitite uhitio uhićena uhite uhiti uhitila uhitimo uhitim uhitiš ухићен ухитити ухитили ухићени ухитите ухитио ухићена ухите ухити ухитила ухитимо ухитим ухитиш
+69	2669	nestanak	nestanak nestanka nestankom nestanku nestanaka nestanci nestancima нестанак nestanke нестанка нестанком нестанку нестанака нестанци нестанцима нестанке
+70	2670	slabost	slabost slabosti slabostima слабост slabošću слабости слабостима слабошћу
+71	2671	cigara	cigare cigaru cigara cigarama cigarom цигару цигаре cigari цигара цигарама цигаром цигари
+72	2672	di	di ди
+73	2673	peći	peče peći pečenje peku pečem pekla pečeš pekli pekao pečemo peklo пече pečete пећи peci pecite pekle печење пеку печем пекла печеш пекли пекао печемо пекло печете пеци пеците пекле
+74	2674	grčki	grčki grčke grčkoj grčka grčku grčkom grčkog grčko grčkim grčkih грчки грчке грчкој грчка грчку грчком грчког грчко грчким грчких
+75	2675	izabran	izabran izabrani izabrana izabrane izabranih izabrano izabranog изабран изабрани izabranim izabranom izabranu izabranima изабрана изабране изабраних изабрано изабраног изабраним изабраном изабрану изабранима
+76	2676	ravno	ravno равно
+77	2677	podizati	podižem podizanje podižu podizati podižeš podizao podižemo podiži podizala podiže podizali podižete podižući podižite подизање podizana подиже подижем подижу подизати подижеш подизао подижемо подижи подизала подизали подижете подижући подижите подизана
+78	2678	pleme	plemena pleme plemenu plemenima plemenom племена племе племену племенима племеном
+79	2679	poludjeti	poludio poludjela poludjeli poludjeti poludi poludim polude poludiš poludimo poludjele poludite poludjelo полуди полудио полудјела полудјели полудјети полудим полуде полудиш полудимо полудјеле полудите полудјело
+80	2680	stideti	stidim stidiš stidi stidite stideti stideo stidela stidimo stideli stide стиди стидиш стидите стидим стидети стидео стидела стидимо стидели стиде
+81	2681	pamćenje	pamćenje pamćenja pamćenju pamćenjem памћење памћења памћењу памћењем
+82	2682	pila	pila pili pilu pilom пили pilo пила пилу пилом пило
+83	2683	popuniti	popuniti popuni popunite popunio popunim popunjeno popunjen popuniš popunila popunjena popunimo popunili popunjeni popune popunjene popuniću попуните попуни попунити popunilo попунио попуним попуњено попуњен попуниш попунила попуњена попунимо попунили попуњени попуне попуњене попунићу попунило
+84	2684	privesti	privesti priveli privedemo privedem priveo privedi privedite priveden privede privela privedeš privedu privedimo privedete privedeni privešćemo privešću privedena привести привели приведемо приведем привео приведи приведите приведен приведе привела приведеш приведу приведимо приведете приведени привешћемо привешћу приведена
+85	2685	sos	sos sosa sosu sosom сос sosove сосу соса сосом сосове
+86	2686	trupa	trupe trupa trupama trupu trupi трупе трупа trupom трупама трупу трупи трупом
+87	2687	zaključiti	zaključio zaključili zaključiti zaključila zaključen zaključim zaključimo zaključi zaključite zaključiš zaključeno zaključe zaključenje zaključena закључио закључили закључити закључила закључен закључим закључимо закључи закључите закључиш закључено закључе закључење закључена
+88	2688	naočare	naočare naočara наочаре naočarama наочара наочарама
+89	2689	dospeti	dospeo dospela dospeli dospe dospelo dospeti dospem dospele доспео dospeš dospeju dospemo dospete доспела доспели доспе доспело доспети доспем доспеле доспеш доспеју доспемо доспете
+90	2690	predak	preci predaka precima pretke predak pretka преци предака pretku прецима претке предак претка претку
+91	2691	detinjstvo	detinjstva detinjstvo detinjstvu детињства detinjstvom детињство детињству детињством
+92	2692	tragedija	tragedija tragedije tragediju tragediji tragedijom трагедија tragedijama трагедије трагедију трагедији трагедијом трагедијама
+93	2693	čuditi	čudi čudim čudilo čudiš čudio čudite čuditi čude čuđenje чуди čudila čudili čuđenja čuđenjem чудим чудило чудиш чудио чудите чудити чуде чуђење чудила чудили чуђења чуђењем
+94	2694	stol	stol stolu stola stolom stolove стол stolova stolovima stolovi столу стола столом stole столове столова столовима столови столе
+95	2695	ovca	ovce ovca ovaca ovcu ovcama овце ovco ovcom ovci оваца овца овцу овцама овцо овцом овци
+96	2696	naporno	naporno напорно
+97	2697	afera	aferu afera afere aferi аферу aferama aferom афера афере афери аферама афером
+98	2698	otmica	otmice otmica otmicu otmici otmicom otmicama отмице отмица отмицу отмици отмицом отмицама
+99	2699	dugme	dugme dugmeta дугме dugmetom dugmetu дугмета дугметом дугмету
+100	2700	uvrediti	uvredio uvrede uvredim uvredila uvrediti uvredili uvrediš uvredilo uvredite uvredimo увредио uvredi увредим uvredićeš увреде увредила увредити увредили увредиш увредило увредите увредимо увреди увредићеш

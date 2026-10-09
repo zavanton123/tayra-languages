@@ -1,0 +1,100 @@
+1	1801	častan	časni časna častan časne časnu časnog časnim časnih časnom часни часна časnoj частан najčasniji časnije часне часну часног часним часних часном часној најчаснији часније
+2	1802	kapija	kapiju kapije kapija kapiji kapijom капију капије капија kapijama капији капијом капијама
+3	1803	sahrana	sahranu sahrana sahrani sahrane sahranama сахрану сахрана sahranom сахрани сахране сахранама сахраном
+4	1804	umetnost	umetnost umetnosti umetnošću уметност уметности umetnostima уметношћу уметностима
+5	1805	srati	sereš seri sere serem srati seru srao serete сереш сери seremo serite srali srala сере серем срати серу срао серете серемо серите срали срала
+6	1806	gorivo	gorivo goriva gorivom гориво gorivu горива горивом гориву
+7	1807	bes	bes besa besom besu besi bese бес беса бесом бесу беси бесе
+8	1808	posedovati	poseduje posedujem poseduju poseduješ posedovao posedujete posedujemo posedovati posedovali posedovala поседује поседујем поседују поседовање поседујеш поседовао поседујете поседујемо поседовати поседовали поседовала
+9	1809	javnost	javnosti javnost javnošću јавности јавност јавношћу
+10	1810	plivati	pliva plivati plivam plivaš plivaju plivaj plivao plivamo plivala plivali plivate plivajući plivajte плива пливам plivale plivaćemo plivaću пливаш plivaćeš пливати пливају пливај пливао пливамо пливала пливали пливате пливајући пливајте пливале пливаћемо пливаћу пливаћеш
+11	1811	zajednica	zajednice zajednici zajednica zajednicu zajednicom zajednicama заједнице заједница заједницу заједници заједницом заједницама
+12	1812	hraniti	hrane hraniti hranim hraniš hranio hranimo hranili hranila hranjenje hranite hrani hraneći hranile hranilo hraniću hranjeni хране hranjen храним храниш hranjena hranjene хранити хранио hraniće храни хранимо хранили хранила храњење храните хранећи храниле хранило хранићу храњени храњен храњена храњене храниће
+13	1813	sef	sef sefu sefa sefe sefova sefove сеф sefom sefovi sefovima сефа сефу сефе сефова сефове сефом сефови сефовима
+14	1814	klasa	klase klasa klasi klasu klasom класе класа класу класи klasama класом класама
+15	1815	publika	publika publiku publici publike publikom публика publiko публику публиком публици публике публико
+16	1816	kratko	kratko кратко
+17	1817	pritisnuti	pritisni pritisnite pritisnuo pritisnuti pritisnem pritisneš pritisne pritisnete pritisnemo pritisnula pritisnuli pritisnu pritisnut pritisnuću pritisnuto притисни притисните pritisnuta притиснути pritisnućemo притиснуо притиснем притиснеш притисне притиснете притиснемо притиснула притиснули притисну притиснут притиснућу притиснуто притиснута притиснућемо
+18	1818	zaključati	zaključao zaključaj zaključala zaključati zaključajte zaključali zaključam zaključaš zaključa zaključaju zaključamo zaključate zaključale закључати zaključajmo закључао закључај закључала закључајте закључали закључам закључаш закључа закључају закључамо закључате закључале закључајмо
+19	1819	izraz	izraz izraze izrazi izrazu izraza izrazom израз izrazima изразе изрази изразу израза изразом изразима
+20	1820	krava	krava krave kravu kravo kravama kravi kravom крава краве краву краво кравама крави кравом
+21	1821	divlji	divlji divlja divljih divljeg divlju divljim divljem divljom divljoj дивљи дивља дивљег дивљих дивљу дивљим дивљем дивљом дивљој
+22	1822	zamena	zamenu zamena zameni zamene замену zamenom замена замени zamenama замене заменом заменама
+23	1823	trud	trudi trud truda trude trudu trudove trudovi труди trudom труда trudova труд trudovima труде труду трудове трудови трудом трудова трудовима
+24	1824	odati	odati odao oda odam odo odaju ode odala odamo odaš odaću odali odalo odaj odu odate odaće odajmo odale odajte odaćeš odaćemo odi ода odom одати оде одам оду одао одо одају одала одамо одаш одаћу одали одало одај одате одаће одајмо одале одајте одаћеш одаћемо оди одом
+25	1825	prepustiti	prepusti prepustiti prepustite prepustio prepustim prepustiš prepušteni prepustimo prepušten prepustila prepustiću prepuštena prepustili препусти prepuste prepušteno prepustićemo препустите prepustićeš препустити prepuštene препустио препустим препустиш препуштени препустимо препуштен препустила препустићу препуштена препустили препусте препуштено препустићемо препустићеш препуштене
+26	1826	putnik	putnika putnici putnik putnike putnicima putniče putniku путника путници putnikom путник путнике путницима путниче путнику путником
+27	1827	sendvič	sendvič sendviče sendviča sendviči sendviču sendvičima сендвич sendvičem сендвиче сендвича сендвичи сендвичу сендвичима сендвичем
+28	1828	tatica	tatice tatica tatici taticu taticom татице татица татицу татици татицом
+29	1829	agencija	agencija agencije agenciju agenciji agencijama agencijom агенција агенције агенцију агенцији агенцијама агенцијом
+30	1830	tvrditi	tvrdi tvrdio tvrdite tvrdiš tvrde tvrdili tvrditi tvrdila tvrdeći tvrdim tvrdimo тврди тврдио тврдите тврде tvrdilo tvrdile тврдили тврдиш тврдећи tvrdiće tvrđenje тврдити тврдим тврдила тврдимо тврдило тврдиле тврдиће тврђење
+31	1831	genij	genije genija genij geniji геније genijem geniju genijima генија гениј генији генијем генију генијима
+32	1832	naučnik	naučnici naučnik naučnika naučnike naučnicima научници научник naučnikom naučniku научника naučniče научнике научницима научником научнику научниче
+33	1833	rešenje	rešenje rešenja решење rešenju rešenjem rešenjima решења решењу решењем решењима
+34	1834	crnac	crnac crnci crnca crnaca crnce crncima crncem crncu crnče црнац црнци црнца црнаца црнце црнцима црнцем црнцу црнче
+35	1835	iznenada	iznenada изненада
+36	1836	otrov	otrov otrova otrovom otrove отров otrovi otrovu otrovima отрова отровом отрове отрови отрову отровима
+37	1837	vrištati	vrišti vrištala vrištiš vrište vrištati vrištanje vrištao vrištim vrišteći vrištali vrištaću vrištite вришти vrištimo vrištale вриштање вриште vrištaćeš вриштиш вриштала vrištalo вриштати вриштао вриштим вриштећи вриштали вриштаћу вриштите вриштимо вриштале вриштаћеш вриштало
+38	1838	otprilike	otprilike отприлике
+39	1839	kuk	kuk kuka kuče kuku kuki kukovima kukove kuke kučence kukovi kukom kukova kuko кука kučeta kukama кучићи кук kučetom kučetu куку кучиће куче куки куковима кукове куке кученце кукови куком кукова куко кучета кукама кучетом кучету
+40	1840	sladoled	sladoled sladoleda sladoledom sladoledu сладолед sladolede sladoledi сладоледа сладоледом сладоледу сладоледе сладоледи
+41	1841	proizvod	proizvod proizvodi proizvode proizvoda proizvodima производ proizvodu proizvodom производи производе производа производима производу производом
+42	1842	milo	mili mila milo mile milom milu мило мили мила миле милом милу
+43	1843	igračka	igračke igračka igračku igračaka igračkama igračkom igrački играчке играчка играчака играчку играчкама играчком играчки
+44	1844	peder	peder pederu pederi pedera pedere pederom pederima педер педеру педери педера педере педером педерима
+45	1845	serija	serija serije seriju seriji serijom serijama серије серију серија серији серијом серијама
+46	1846	zena	zena zene zenu zeni zenom zenama zeno зена зене зену зени зеном зенама зено
+47	1847	pažljiv	pažljiv pažljivi pažljiva pažljiviji pažljivije pažljivija пажљив pažljivog pažljive пажљиви pažljivim пажљива pažljivom пажљивији пажљивије пажљивија пажљивог пажљиве пажљивим пажљивом
+48	1848	priprema	priprema pripremi pripreme pripremu pripremama припреми припрема pripremom припреме припрему припремама припремом
+49	1849	uređaj	uređaj uređaja uređaje uređaji uređajem uređaju uređajima уређај уређаја уређаје уређаји уређајем уређају уређајима
+50	1850	približavati	približava približavamo približavaju približavaj približavam približavajte približavao približavaš približavanje približavati približavali приближава približavate približavala približavalo приближавамо približavajući приближавају приближавај приближавам приближавајте приближавао приближаваш приближавање приближавати приближавали приближавате приближавала приближавало приближавајући
+51	1851	potruditi	potrudi potrudio potruditi potrudiću potrudiš potrudite potrudila potrudili potrudim potrudimo potrudićemo potrude потруди потрудио потрудити потрудићу потрудиш потрудите потрудила потрудили потрудим потрудимо потрудићемо потруде
+52	1852	nered	nered nereda neredu nerede neredi неред neredima neredom нереда нереду нереде нереди нередима нередом
+53	1853	pokrivati	pokriva pokrivaj pokrivam pokrivaju pokrivati pokrivajte pokrivaš pokrivao pokrivamo pokrivanje pokrivala pokrivaću pokrivate pokrivali покрива pokrivajući pokrivaćemo покривај pokrivalo pokrivale покривају покривање покривам покривати покривајте покриваш покривао покривамо покривала покриваћу покривате покривали покривајући покриваћемо покривало покривале
+54	1854	stranica	stranica stranice stranicu stranici stranicama страница stranicom странице страницу страници страницама страницом
+55	1855	top	top topove topa topovi topova tope topovima topom топ topu топови топове топова топа топе топовима топом топу
+56	1856	virus	virus virusa virusom virusu virusi viruse вирус virusima вируса вирусом вирусу вируси вирусе вирусима
+57	1857	zbunjen	zbunjen zbunjena zbunjeni zbunjeno збуњен zbunjene zbunjenog збуњена zbunjenim zbunjenih zbunjenu збуњени zbunjeniji zbunjenom збуњено збуњене збуњеног збуњеним збуњених збуњену збуњенији збуњеном
+58	1858	uspešan	uspešan uspešno uspešna uspešni uspešne uspešnu uspešnog uspešnih uspešniji uspešnim najuspešniji uspešnom успешно успешан najuspešnijih успешна uspešnija uspešnoj najuspešnija успешни uspešnije najuspešnije najuspešnijeg успешне успешну успешног успешних успешнији успешним најуспешнији успешном најуспешнијих успешнија успешној најуспешнија успешније најуспешније најуспешнијег
+59	1859	pisac	pisac pisca pisci pisaca pisce piscu писац piscima piscem писци писца pišče писаца писце писцу писцима писцем пишче
+60	1860	proces	proces procesu procesa procesom procese процес procesi procesima процесу процеса процесом процесе процеси процесима
+61	1861	zapisati	zapisao zapiši zapisano zapišem zapisati zapisala zapišite zapisaću zapišeš zapisali zapisa zapisana zapišete zapiše zapisan zapisane zapišemo zapisani записано записао zapišu запиши записа запишем записати записала запишите записаћу запишеш записали записана запишете запише записан записане запишемо записани запишу
+62	1862	dnevni	dnevnoj dnevni dnevnu dnevna dnevne dnevnom dnevnog dnevnim dnevnih дневној дневни дневну дневном дневна дневне дневног дневним дневних
+63	1863	podsetiti	podseti podsetim podsetio podsetilo podsetiti podsetila podsetite podsetimo podsetiću podsetiš podsetili podsete подсетим подсети подсетио подсетити подсетило подсетила подсетите подсетимо подсетићу подсетиш подсетили подсете
+64	1864	vežbati	vežbam vežbaš vežbao vežbamo vežbali vežbati vežbala vežbaj vežbaju vežbate vežbajte vežbajući vežbaćemo vežbaću вежбам vežbale вежбаш вежбамо vežbaćeš вежбао вежбање вежбали вежбати вежбала вежбај вежбају вежбате вежбајте вежбајући вежбаћемо вежбаћу вежбале вежбаћеш
+65	1865	kopija	kopiju kopija kopije копију копија копије kopijom kopijama kopiji копијом копијама копији
+66	1866	kava	kavu kave kava kavi kavom каву каве кава кави кавом
+67	1867	spakovati	pakovanje spakuj spakujem pakuj pakujem spakuješ spakovati pakuješ spakujemo pakuje spakujte pakujte pakujemo spakuje spakovaću pakuju spakujete pakovati pakujete spakuju spakujmo паковање spakovaćemo pakujmo пакуј спакуј спакујем пакујем спакујеш спаковати пакујеш спакујемо пакује спакујте пакујте пакујемо спакује спаковаћу пакују спакујете паковати пакујете спакују спакујмо спаковаћемо пакујмо
+68	1868	politički	politički političke politička političkih političku političkim političko političkog političkom političkoj политички политичке политичка политичких политичку политичким политичко политичког политичком политичкој
+69	1869	vid	vid vida vidu vide vidom вид виду вида виде vidova vidove видом видова видове
+70	1870	mapa	mapu mapa mape mapi mapama мапу mapom мапа мапе мапи мапама мапом
+71	1871	okupiti	okupili okupite okupi okupio okupimo okupiti okuplja okupe okupila okupim okupljeni okupilo okupiš okupile okupićemo окупили okupljene okupiću okupljati окупите okupljena окупи okupiće окупити окупио okupljeno окупимо окупља окупе окупила окупим окупљени окупило окупиш окупиле окупићемо окупљене окупићу окупљати окупљена окупиће окупљено
+72	1872	bogatstvo	bogatstvo bogatstva bogatstvu bogatstvom богатство bogatstava bogatstvima богатства богатству богатством богатстава богатствима
+73	1873	bicikl	bicikl biciklu bicikla biciklom bicikle bicikli biciklima бицикл bicikala бицикла бицикле бициклом бициклу бицикли бициклима бицикала
+74	1874	visina	visine visini visina visinu visinama висине visinom висина висини висину висинама висином
+75	1875	okretati	okreće okreći okreću okrećem okrećeš okretanje okretati okrećemo okretao okrećite okretala okrećete окреће okretali okrećući окрећи окрећу okretale окрећем окрећеш окретање окретати окрећемо окретао окрећите окретала окрећете окретали окрећући окретале
+76	1876	školski	školski školske školskom školska školskog školsku školskim školskoj školskih školsko школски школске школска школском школског школску школским школској школских школско
+77	1877	prevara	prevara prevaru prevare prevari prevarom prevarama превара превару преваре превари преваром преварама
+78	1878	lav	lav lava lavovi lavova lave lavove lavu lavovima lavom лав лава lavi lavo лавови лавова лаве лавове лаву лавовима лавом лави лаво
+79	1879	zapad	zapad zapadu zapada запад zapadom западу запада западом
+80	1880	izbeći	izbeći izbegao izbegne izbegnem izbegli izbegnemo izbegneš izbegla izbegnu izbegnete izbegni избегне izbegnuta izbeglo izbegle избећи избегли izbegnuto izbegnite избегао избегнемо избегнем izbegnut избегнеш избегла избегну избегнете избегни избегнута избегло избегле избегнуто избегните избегнут
+81	1881	razvod	razvod razvoda razvodu razvode razvodi razvodom развод развода razvodima разводу разводе разводи разводом разводима
+82	1882	obaveza	obaveza obaveze obavezu obavezi obavezama обавеза обавезе obavezom обавезу обавези обавезама обавезом
+83	1883	uvući	uvukao uvući uvukla uvlači uvuče uvuci uvlačiš uvučeš uvukli uvučem uvlačim uvučen uvuku uvučena uvlačiti uvučeni uvucite uvlače uvlačenje uvuklo uvučemo uvlačite uvučete uvlačimo uvukle uvučene увукао uvlačeći uvučeno увући увукла увлачи увуче увуци увлачиш увучеш увукли увучем увлачим увучен увуку увучена увлачити увучени увуците увлаче увлачење увукло увучемо увлачите увучете увлачимо увукле увучене увлачећи увучено
+84	1884	fantastično	fantastično фантастично
+85	1885	slavan	slavni slavan slavna slavnih slavne slavnog slavnim slavno slavnu slavnom najslavniji slavnima slavnoj najslavnijih slavniji славни славан najslavnija славна slavnoga najslavnije славних славне славног славним славно славну славном најславнији славнима славној најславнијих славнији најславнија славнога најславније
+86	1886	dosad	dosad dosada dosade dosadi dosadu досад dosado dosadom досаде досада досади досаду досадо досадом
+87	1887	trgovina	trgovinu trgovine trgovina trgovini trgovinom trgovinama трговине трговину трговина трговини трговином трговинама
+88	1888	čin	čin čina činu činom чин чине činove činova činovi činovima чину чина чином чинове чинова чинови чиновима
+89	1889	razneti	razne razneti razneo razneću raznese razneli raznesem raznela raznesi raznesemo raznesen raznesu razneseš razneće raznećemo raznet разне raznesena raznesite razneseni razneta разнети raznesete razneseno raznelo разнео raznesimo raznositi razneto разнесе raznećeš raznesene разнећу разнели разнесем разнела разнеси разнесемо разнесен разнесу разнесеш разнеће разнећемо разнет разнесена разнесите разнесени разнета разнесете разнесено разнело разнесимо разносити разнето разнећеш разнесене
+90	1890	učenik	učenik učenika učenici učenike učenicima učeniku učenikom ученик ученика ученици učeniče ученике ученицима ученику учеником учениче
+91	1891	makar	makar макар
+92	1892	glasati	glasati glasam glasao glasali glasaju glasamo glasajte glasala glasaš glasate glasa glasaj glasalo glasajmo glasaćemo glasaću glasaće glasale glasaćeš гласао гласали гласају гласати гласа гласање гласам гласамо гласајте гласала гласаш гласате гласај гласало гласајмо гласаћемо гласаћу гласаће гласале гласаћеш
+93	1893	kostim	kostim kostima kostime kostimu kostimi kostimima костим kostimom костиме костима костиму костими костимима костимом
+94	1894	zatvarati	zatvara zatvaraju zatvaranje zatvaramo zatvaram zatvaraj zatvaraš zatvarate zatvarao zatvarati затвара zatvarali zatvarajte zatvarala затварају затварање zatvarajući zatvaran затварамо затварам затварај затвараш затварате затварао затварати затварали затварајте затварала затварајући затваран
+95	1895	plata	platu plata plati plate platom plato platama плата плату platoa platou плати плате платом плато платама платоа платоу
+96	1896	drevan	drevni drevnih drevne drevnim drevna drevnog drevnom drevnu drevno drevnoj древни древних древне drevnima древна древним drevan древног древном древну древно древној древнима древан
+97	1897	leto	leto leta letu лето letom лета лету летом
+98	1898	spojiti	spojiti spoji spojite spojio spojimo spojili spojila spojim spoje spojiš spojiću spojilo spojile spojićemo spojte споји spojiće спојити спојите спојио спојимо спојили спојила спојим споје спојиш спојићу спојило спојиле спојићемо спојте спојиће
+99	1899	ministar	ministar ministra ministre ministrom ministru ministri ministara министар ministrima министре министра министром министру министри министара министрима
+100	1900	naročito	naročito нарочито

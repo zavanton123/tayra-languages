@@ -1,0 +1,100 @@
+1	3001	jednak	jednaki jednake jednaka jednak jednaku jednakim jednakih jednakom jednakog jednakima једнаки jednakoj једнака једнаке једнак једнаку једнаким једнаких једнаком једнаког једнакима једнакој
+2	3002	komora	komore komoru komora komori komorama коморе komorom комору комора комори коморама комором
+3	3003	audicija	audiciju audicija audicije audiciji аудицију audicijom audicijama аудиција аудиције аудицији аудицијом аудицијама
+4	3004	obići	obiđem obići obišao obiđemo obiđe obišli obiđi obiđeš obišla obiđete obiđite obiđu обиђем обићи обишао обиђемо обиђе обишли обиђи обиђеш обишла обиђете обиђите обиђу
+5	3005	kolekcija	kolekciju kolekcija kolekcije kolekciji kolekcijom колекцију колекција колекције kolekcijama колекцији колекцијом колекцијама
+6	3006	pauk	pauk pauka pauci paukova paukove pauče pauke paukovi paucima pauku paukom паук паука пауци паукова паукове пауче пауке паукови пауцима пауку пауком
+7	3007	javno	javno јавно
+8	3008	prijava	prijavu prijava prijavi prijave prijavom prijavama пријаву пријава пријаве пријави пријавом пријавама
+9	3009	ispustiti	ispustio ispustila ispustiti ispusti ispustiš ispustili ispustim ispuštati ispustite ispustimo ispuste ispuštena ispustiću ispušten испустио испустила испустити испусти испустиш испустили испустим испуштати испустите испустимо испусте испуштена испустићу испуштен
+10	3010	irski	irske irski irskoj irska irsku irsko irskog irskom irskih irskim ирској ирске ирски ирска ирску ирско ирског ирском ирских ирским
+11	3011	vlak	vlak vlaku vlaka vlakom vlakovi vlakova vlakove vlakovima влак влаку влака влаком влакови влакова влакове влаковима
+12	3012	optuživati	optužuješ optužuje optužujete optužujem optužuju optuživati optužujemo optužujući optuživao optuživali optuživanje optuživan optužuj optuživala оптужујеш оптужује оптужујете оптужујем оптужују оптуживати оптужујемо оптужујући оптуживао оптуживали оптуживање оптуживан оптужуј оптуживала
+13	3013	upamtiti	upamti upamtite upamtiti upamtiš upamtim upamtiću upamte upamtimo упамти упамтите упамтити упамтиш упамтим упамтићу упамте упамтимо
+14	3014	podmornica	podmornica podmornice podmornicu podmornici podmornicom podmornicama подморница подморнице подморницу подморници подморницом подморницама
+15	3015	preterati	preterao preterala preterali preteraš pretera preteram preterati претерао preteramo preterale preteraju preterate претерала претерали претераш претера претерам претерати претерамо претерале претерају претерате
+16	3016	vijest	vijest vijestima вијест вијестима
+17	3017	stisnuti	stisni stisnuti stisnuo stisnem stisneš stisnite stisne stisnut stisnete stisnula stisnemo stisnuta stisnuli stisnute stisnu stisli stisla стисни stisnuto стиснути стиснуо стиснем стиснеш стисните стисне стиснут стиснете стиснула стиснемо стиснута стиснули стиснуте стисну стисли стисла стиснуто
+18	3018	precizan	precizan precizniji preciznije precizna precizni precizne preciznija preciznu preciznim preciznih preciznog preciznom прецизан прецизнији precizniju прецизније прецизна прецизни прецизне прецизнија прецизну прецизним прецизних прецизног прецизном прецизнију
+19	3019	nekretnina	nekretnine nekretnina nekretninama nekretninu некретнине некретнина некретнинама некретнину
+20	3020	beg	beg beže bezi begu bega бег беже begom бези бегу бега бегом
+21	3021	daska	daske dasku daska dasci dasaka daskama daskom daski даску даске даска дасци дасака даскама даском даски
+22	3022	mršav	mršava mršav mršavi mršave mršavo mršavog mršaviji mršavu mršavija mršavim mršavije mršavom mršavih мршав мршава мршави мршаве мршаво мршавог мршавији мршаву мршавија мршавим мршавије мршавом мршавих
+23	3023	povijest	povijest povijesti poviješću повијест повијести повијешћу
+24	3024	čarobnjak	čarobnjak čarobnjaka čarobnjaci čarobnjaku čarobnjače чаробњак čarobnjakom čarobnjake čarobnjacima чаробњака чаробњаци чаробњаку чаробњаче чаробњаком чаробњаке чаробњацима
+25	3025	skroman	skroman skromni skromno skromna skromne skromnom skromnu skromnog skromnim skromnih skromnoj skromnije скроман skromniji скромни скромно скромна скромне скромном скромну скромног скромним скромних скромној скромније скромнији
+26	3026	provala	provala provali provale provalu provalama provalom провала провале провали провалу провалама провалом
+27	3027	prijevod	prijevod prijevodu prijevoda пријевод пријеводу пријевода
+28	3028	bubreg	bubreg bubrega bubrezi bubrege bubrezima bubregu бубрег bubregom бубрега бубрези бубреге бубрезима бубрегу бубрегом
+29	3029	kiseonik	kiseonika kiseonik kiseonikom кисеоника кисеоник kiseoniku кисеоником кисеонику
+30	3030	sektor	sektor sektoru sektora sektore sektorima sektori sektorom сектор сектору сектора секторе секторима сектори сектором
+31	3031	v	v в
+32	3032	ritam	ritam ritmu ritma ritmom ритам ritmove ritmovi ритму ритма ритмом ритмове ритмови
+33	3033	franak	franaka franka franku frankom franci franak franke francima франака франка франку франком франци франак франке францима
+34	3034	uneti	uneo unesite uneti unesi uneli unela unesem uneseš unese unesemo unesen unesete une uneću unesimo unesu unećemo unesene unelo unesena унесите унесем унео унети унеси унели унела унесеш унесе унесемо унесен унесете уне унећу унесимо унесу унећемо унесене унело унесена
+35	3035	eksploziv	eksploziv eksploziva eksplozivom eksplozive eksplozivi eksplozivima експлозив eksplozivu експлозива експлозивом експлозиве експлозиви експлозивима експлозиву
+36	3036	krompir	krompir krompira krompirom krompire krompiri кромпир krompirima krompiru кромпира кромпиром кромпире кромпири кромпирима кромпиру
+37	3037	runda	rundu runda rundi runde рунду rundom рунда рунди рунде рундом
+38	3038	igla	igle igla iglom iglama igala igli игле iglo игла иглом иглу иглама игала игли игло
+39	3039	prost	prost prosta prosti proste prostim prostog prostu prostije prostih prostom najprostije najprostiji prostiji прост najprostija проста prostoj прости просте простим простог просту простије простих простом најпростије најпростији простији најпростија простој
+40	3040	zlostavljati	zlostavljanje zlostavljao zlostavlja zlostavljana zlostavljali zlostavljan zlostavljaju zlostavljane zlostavljani zlostavljala zlostavljaš zlostavljati zlostavljam zlostavljano zlostavljate злостављање злостављао злоставља злостављана злостављали злостављан злостављају злостављане злостављани злостављала злостављаш злостављати злостављам злостављано злостављате
+41	3041	saveznik	saveznici saveznika saveznik saveznike saveznicima савезници saveznikom савезник савезника savezniku савезнике савезницима савезником савезнику
+42	3042	šutjeti	šuti šutjeti šutite šutiš šutim šutio šute šutjela šutjeli šutimo шути шутјети шутите шутиш шутим шутио шуте шутјела шутјели шутимо
+43	3043	odobrenje	odobrenje odobrenja odobrenjem одобрење odobrenju одобрења одобрењем одобрењу
+44	3044	uzrujati	uzrujana uzrujan uzrujao uzrujani uzrujala uzrujati uzrujano uzrujalo uzruja uzrujali uzrujam uzrujaš узрујан узрујана узрујао узрујани узрујала узрујати узрујано узрујало узруја узрујали узрујам узрујаш
+45	3045	prekid	prekida prekid prekidu prekidima прекид прекида prekidom prekidi prekide прекиду прекидима прекидом прекиди прекиде
+46	3046	otok	otok otoku otoka otocima otoci otoke otokom оток отоку отока отоцима отоци отоке отоком
+47	3047	vatrogasac	vatrogasci vatrogasac vatrogasce vatrogasaca vatrogasca vatrogascima vatrogascem ватрогасци vatrogascu ватрогасац ватрогасце ватрогасаца ватрогасца ватрогасцима ватрогасцем ватрогасцу
+48	3048	međunarodni	međunarodni međunarodne međunarodna međunarodnim međunarodnog međunarodnu međunarodnom međunarodno međunarodnih međunarodnoj међународни међународне међународна међународним међународног међународну међународном међународно међународних међународној
+49	3049	prespavati	prespavati prespavao prespavam prespava prespavaš prespavala prespavaj prespavamo prespavali prespavate prespavaju prespavaću prespavaćemo prespavaće prespavaćeš prespavajte преспавати преспавао преспавам преспава преспаваш преспавала преспавај преспавамо преспавали преспавате преспавају преспаваћу преспаваћемо преспаваће преспаваћеш преспавајте
+50	3050	oznaka	oznake oznaka oznaku oznakom oznakama oznaci ознаке ознака ознаку ознаком ознакама ознаци
+51	3051	ukusno	ukusno укусно
+52	3052	brus	brus brusa брус brusu brusom brusova бруса брусу брусом брусова
+53	3053	stabilan	stabilan stabilno stabilna stabilni stabilne stabilnom stabilnu stabilnim стабилан stabilniji stabilnog стабилна stabilnoj stabilnije stabilnija стабилно stabilnih стабилни стабилне стабилном стабилну стабилним стабилнији стабилног стабилној стабилније стабилнија стабилних
+54	3054	slušalica	slušalicu slušalice slušalica slušalicama слушалицу slušalici слушалице слушалица слушалицама слушалици
+55	3055	borben	borbeni borbene borbena borbenu borbenih borbenim borbenog borbenoj borbenom borben борбени борбена борбене борбену борбених борбеним борбеног борбеној борбеном борбен
+56	3056	kristal	kristal kristala kristali kristale kristalima кристал kristalom kristalu кристала кристали кристале кристалима кристалом кристалу
+57	3057	strpljiv	strpljiv strpljivi strpljiva strpljivo strpljiviji стрпљиви стрпљив strpljive strpljivog strpljivija стрпљива стрпљиво стрпљивији стрпљиве стрпљивог стрпљивија
+58	3058	ludnica	ludnica ludnicu ludnici ludnice лудница ludnicom лудницу лудници луднице лудницом
+59	3059	skuvati	skuvam skuvaću skuvala skuvao skuvati skuvaj skuva skuvaš skuvamo skuvali skuvan skuvana skuvano skuvaju skuvani skuvate skuvajte skuvaćemo skuvaće skuvane скувам скуваћу скувала скувао скувати скувај скува скуваш скувамо скували скуван скувана скувано скувају скувани скувате скувајте скуваћемо скуваће скуване
+60	3060	dijeliti	dijeliti dijeli dijelimo dijele dijelim dijelili dijeljenje dijeliš dijelite dijelio dijelila dijelile dijeleći дијелити дијели дијелимо дијеле дијелим дијелили дијељење дијелиш дијелите дијелио дијелила дијелиле дијелећи
+61	3061	ciljati	ciljaš ciljate ciljaj ciljao ciljam ciljaju ciljanje ciljati ciljajte ciljali ciljala ciljamo cilja циљаш ciljajući циља циљате циљај циљао циљам циљају циљање циљати циљајте циљали циљала циљамо циљајући
+62	3062	prioritet	prioritet prioritete prioriteti prioriteta приоритет prioritetima prioritetom приоритете приоритети приоритета приоритетима приоритетом
+63	3063	izdajnik	izdajnik izdajnika izdajnici izdajniče izdajnike izdajnikom izdajnicima издајник izdajniku издајника издајници издајниче издајнике издајником издајницима издајнику
+64	3064	tenk	tenk tenkovi tenkova tenkove tenka tenkovima tenku тенк tenkom тенкова тенкови тенка тенкове тенковима тенку тенком
+65	3065	zglob	zglob zgloba zglobove zglobu zglobovima zglobovi zglobova zglobom зглоб зглоба зглобове зглобу зглобовима зглобови зглобова зглобом
+66	3066	čip	čip čipa čipove čipovi čipova čipe čipu чип čipom čipovima чипе чипа чипове чипови чипова чипу чипом чиповима
+67	3067	čovečanstvo	čovečanstvo čovečanstva čovečanstvu човечанство човечанства čovečanstvom човечанству човечанством
+68	3068	snimanje	snimanje снимање
+69	3069	raspoloženje	raspoloženje raspoloženja raspoloženju расположење raspoloženjem расположењу расположења расположењем
+70	3070	sreda	sredu sreda sredi sredom srede среду среда среди sredo средом среде средо
+71	3071	heroin	heroin heroina heroinom heroinu хероин heroine хероина хероином хероину хероине
+72	3072	isporuka	isporuku isporuka isporuke isporuci isporukom isporukama испоруке испорука испоруку испоруци испоруком испорукама
+73	3073	pretio	pretio pretili pretila претио pretilo pretile претили претила претило претиле
+74	3074	brend	brenda brend brendu brendom brende бренд brendova brendove бренда бренду брендом бренде брендова брендове
+75	3075	tretman	tretman tretmana tretmane tretmanu tretmanom третман третмана третмане третману третманом
+76	3076	maca	maca maco macu mace мацо macom maci маца macama мацу маце мацом маци мацама
+77	3077	srebrn	srebrni srebrna srebrne srebrnom srebrnu srebrnim srebrno srebrnog srebrnih srebrnoj сребрни сребрна сребрне сребрном сребрну сребрним сребрно сребрног сребрних сребрној
+78	3078	uspavati	uspavao uspavati uspavana uspavala uspava uspavam uspavani uspavali uspavane uspavan uspavamo uspavaju uspavaš uspavaj uspavano uspavajte uspavate uspavaću uspavaćemo uspavaće uspavalo успавао успавати успавана успавала успава успавам успавани успавали успаване успаван успавамо успавају успаваш успавај успавано успавајте успавате успаваћу успаваћемо успаваће успавало
+79	3079	dovršiti	dovrši dovršiti dovršim dovršio dovršimo dovršiš dovršite dovršena dovršen dovršila dovršili dovrše dovršeno dovršiću dovršićemo доврши довршити довршим довршио довршимо довршиш довршите довршена довршен довршила довршили доврше довршено довршићу довршићемо
+80	3080	posetilac	posetioce posetioca posetioci posetilaca posetilac posetiocima посетиоце posetiocu посетиоца посетиоци посетилаца посетилац посетиоцима посетиоцу
+81	3081	oštar	oštar oštrim oštre oštra oštri oštrih oštrije oštrog oštriji oštru oštrija оштар najoštriji oštrom najoštrije oštroj оштре оштра оштрим оштри оштрих оштрије оштрог оштрији оштру оштрија најоштрији оштром најоштрије оштрој
+82	3082	pokretati	pokreće pokretanje pokreću pokrećem pokrećemo pokrećeš pokretati покреће pokretao покретање pokretala pokreći pokrećete pokretali pokretalo покрећу покрећем покрећемо покрећеш покретати покретао покретала покрећи покрећете покретали покретало
+83	3083	civil	civila civili civil civile civilu civilima civilom цивила цивили цивил цивиле цивилу цивилима цивилом
+84	3084	vrhovni	vrhovni vrhovnog vrhovnom vrhovna vrhovne vrhovno vrhovnim vrhovnu врховни vrhovnoj врховног vrhovnih врховном врховна врховне врховно врховним врховну врховној врховних
+85	3085	plavuša	plavuša plavuše plavušu plavušom plavušo plavuši плавуша plavušama плавуше плавушу плавушом плавушо плавуши плавушама
+86	3086	sudnica	sudnici sudnicu sudnice sudnica судници sudnicom sudnicama судницу суднице судница судницом судницама
+87	3087	poricati	poriče poričem poricanje poričeš poricati poričete poriči poricao poriču poricala poricali poričemo poričite пориче poricaću poričući порицање поричем поричеш порицати поричете поричи порицао поричу порицала порицали поричемо поричите порицаћу поричући
+88	3088	komšiluk	komšiluku komšiluk komšiluka комшилуку komšilukom комшилук комшилука комшилуком
+89	3089	mrlja	mrlja mrlje mrlju mrljama mrljom mrlji мрља мрље mrljo мрљу мрљама мрљом мрљи мрљо
+90	3090	izvanredan	izvanredan izvanredna izvanredne izvanredni izvanrednu izvanrednog izvanrednim izvanrednom izvanrednih izvanrednoj изванредан изванредна изванредне изванредни изванредну изванредног изванредним изванредном изванредних изванредној
+91	3091	prelaz	prelazi prelaze prelaz prelaza prelazu прелази прелазе prelazima прелаз прелаза прелазу прелазима
+92	3092	zagrljaj	zagrljaj zagrljaju zagrljaja zagrljaji zagrljaje zagrljajem загрљај zagrljajima загрљају загрљаја загрљаји загрљаје загрљајем загрљајима
+93	3093	tjerati	tjera tjerati otjerati tjeraj tjeraju tjeraš tjerao otjerao tjerala otjerali otjerala tjeram tjerajte tjerali otjera tjerate otjeraj otjeram otjeraš tjeranje tjerajući tjeramo otjeraju тјера тјерати отјерати тјерај тјерају тјераш тјерао отјерао тјерала отјерали отјерала тјерам тјерајте тјерали отјера тјерате отјерај отјерам отјераш тјерање тјерајући тјерамо отјерају
+94	3094	izviniti	извини izviniti извинити
+95	3095	djelo	djelo djela djelu djelima djelom дјело дјела дјелу дјелима дјелом
+96	3096	parče	parče парче
+97	3097	kredit	kredit kredita kredite krediti кредит kreditima kreditu kreditom кредита кредите кредити кредитима кредиту кредитом
+98	3098	jetra	jetre jetra jetru jetri jetrom јетре jetara јетру јетра јетри јетром јетара
+99	3099	turneja	turneju turneji turneje turneja turnejama турнеју turnejom турнеји турнеја турнеје турнејама турнејом
+100	3100	iscrpiti	iscrpljen iscrpljena iscrpljeni iscrpljeno iscrpi iscrpljene iscrpio исцрпљен iscrpila iscrpili исцрпљена iscrpilo iscrpiti iscrpe исцрпљени iscrpimo исцрпљено исцрпи исцрпљене исцрпио исцрпила исцрпили исцрпило исцрпити исцрпе исцрпимо

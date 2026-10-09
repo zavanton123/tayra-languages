@@ -1,0 +1,100 @@
+1	8101	matrica	matricu matrica matrice matrici матрицу матрица матрице матрици
+2	8102	krišom	krišom кришом
+3	8103	svetinja	svetinja svetinju svetinje svetinjama светиња светињу светиње светињама
+4	8104	pokazatelj	pokazatelj pokazatelja pokazatelji pokazateljima pokazatelje показатељ показатеља показатељи показатељима показатеље
+5	8105	prašuma	prašume prašuma prašumi prašumu prašumama прашуме прашума прашуми прашуму прашумама
+6	8106	tajlandski	tajlandsku tajlandski tajlandska tajlandske tajlandskom tajlandskog тајландски тајландску тајландска тајландске тајландском тајландског
+7	8107	povijesni	povijesni povijesne povijesno povijesnih povijesna povijesnim povijesnog povijesnom povijesnu повијесни повијесне повијесно повијесних повијесна повијесним повијесног повијесном повијесну
+8	8108	obasjati	obasja obasjati obasjala obasjan obasjalo obasjaj obasjao obasjana obasjano обасја обасјати обасјала обасјан обасјало обасјај обасјао обасјана обасјано
+9	8109	pomagač	pomagač pomagača pomagači pomagače помагач помагача помагачи помагаче
+10	8110	onemogućiti	onemogućen onemogućio onemogući onemogućiti onemogućili onemogućeni onemogućila onemogućeno onemogućena onemogućimo onemogućilo onemogućim онемогућен онемогућио онемогући онемогућити онемогућили онемогућени онемогућила онемогућено онемогућена онемогућимо онемогућило онемогућим
+11	8111	datirati	datira datiraju datiranje датира датирају датирање
+12	8112	ovisnost	ovisnost ovisnosti ovisnošću овисност овисности овисношћу
+13	8113	udvaranje	udvaranje udvaranja udvaranju udvaranjem удварање удварања удварању удварањем
+14	8114	intelektualac	intelektualac intelektualci intelektualaca intelektualce intelektualca intelektualcima интелектуалац интелектуалци интелектуалаца интелектуалце интелектуалца интелектуалцима
+15	8115	kristalno	kristalno кристално
+16	8116	spokoj	spokoj spokoja spokoju спокој спокоја спокоју
+17	8117	temperament	temperament temperamenta temperamentom temperamentu темперамент темперамента темпераментом темпераменту
+18	8118	jarbol	jarbol jarbola jarbolu jarbole јарбол јарбола јарболу јарболе
+19	8119	žlezda	žlezde žlezda žlezdu žlezdama žlezdi жлезде жлезда жлезду жлездама жлезди
+20	8120	sniziti	snizi sniziti snizio sniženo snizili snizite sniziš snizimo snizim snizila снизи снизити снизио снижено снизили снизите снизиш снизимо снизим снизила
+21	8121	neš	neš неш
+22	8122	neudat	neudata neudate neudatih neudatu неудата неудате неудатих неудату
+23	8123	neuspešan	neuspešan neuspešno neuspešna neuspešni neuspešne neuspešnih neuspešnog неуспешан неуспешно неуспешна неуспешни неуспешне неуспешних неуспешног
+24	8124	irački	irački iračke iračka iračkog iračkih iračkom iračku iračkim ирачки ирачке ирачка ирачког ирачких ирачком ирачку ирачким
+25	8125	slabašan	slabašan slabašno slabašna slabašni slabašne slabašnu slabašnim slabašnog слабашан слабашно слабашна слабашни слабашне слабашну слабашним слабашног
+26	8126	opozicija	opozicija opozicije opoziciju opoziciji опозиција опозиције опозицију опозицији
+27	8127	fragment	fragmenti fragment fragmente fragmenata fragmenta fragmentima фрагменти фрагмент фрагменте фрагмената фрагмента фрагментима
+28	8128	učlaniti	učlanio učlanim učlaniti učlani učlaniš učlanila učlanite učlanimo учланио учланим учланити учлани учланиш учланила учланите учланимо
+29	8129	preleteti	preleteo preleti preletela preleteli preleteti prelete preletimo preletim preletiš прелетео прелети прелетела прелетели прелетети прелете прелетимо прелетим прелетиш
+30	8130	imejl	imejl имејл
+31	8131	blagostanje	blagostanje blagostanja blagostanju благостање благостања благостању
+32	8132	jazavac	jazavac jazavca jazavci jazavaca jazavče јазавац јазавца јазавци јазаваца јазавче
+33	8133	toksin	toksin toksina toksine toksini toksinima токсин токсина токсине токсини токсинима
+34	8134	uraniti	uranio uranili uranila uraniti уранио уранили уранила уранити
+35	8135	badem	badema bademe badem bademi bademima bademom бадема бадеме бадем бадеми бадемима бадемом
+36	8136	bliz	blize bliza blizi bliži близе близа близи ближи
+37	8137	razvaljivati	razvaljuje razvaljujem razvaljuju razvaljuješ razvaljuj razvaljujemo razvaljivanje razvaljivao razvaljivati разваљује разваљујем разваљују разваљујеш разваљуј разваљујемо разваљивање разваљивао разваљивати
+38	8138	brutalnost	brutalnost brutalnosti brutalnošću бруталност бруталности бруталношћу
+39	8139	žilet	žilet žileta žilete žiletom žileti жилет жилета жилете жилетом жилети
+40	8140	analni	analni analno analnog analne analna analnom анални анално аналног аналне анална аналном
+41	8141	havajski	havajski havajska havajske havajsku havajskom havajskoj havajskim havajskog havajskih хавајски хавајска хавајске хавајску хавајском хавајској хавајским хавајског хавајских
+42	8142	reportaža	reportažu reportaža reportaže reportaži репортажу репортажа репортаже репортажи
+43	8143	perla	perle perli perla perlu perlama перле перли перла перлу перлама
+44	8144	trčkarati	trčkara trčkaraju trčkaraš trčkarati trčkaram trčkarao trčkaranje trčkarala трчкара трчкарају трчкараш трчкарати трчкарам трчкарао трчкарање трчкарала
+45	8145	istrenirati	istreniran istrenirani istrenirao istrenirana istrenirati istreniram istrenirane istrenirali istrenira istreniraš истрениран истренирани истренирао истренирана истренирати истренирам истрениране истренирали истренира истренираш
+46	8146	katanac	katanac katancem katanca katance katanci katanaca катанац катанцем катанца катанце катанци катанаца
+47	8147	metan	metan metana metanom метан метана метаном
+48	8148	grijati	grijanje grije grijati grijem griju гријање грије гријати гријем грију
+49	8149	šakal	šakal šakala šakali šakale šakalima шакал шакала шакали шакале шакалима
+50	8150	pribran	pribran pribrani pribrana pribrano прибран прибрани прибрана прибрано
+51	8151	nezamisliv	nezamislive nezamisliv nezamisliva nezamislivu nezamislivih nezamislivi nezamislivom nezamislivog nezamislivim незамисливе незамислив незамислива незамисливу незамисливих незамисливи незамисливом незамисливог незамисливим
+52	8152	raspon	raspon rasponu raspona rasponom распон распону распона распоном
+53	8153	potrošač	potrošača potrošač potrošači potrošače potrošačima potrošaču потрошача потрошач потрошачи потрошаче потрошачима потрошачу
+54	8154	nišaniti	nišanite nišaniš nišanim nišanjenje nišanio nišani nišaniti нишани nišane нишаните нишаниш нишаним нишањење нишанио нишанити нишане
+55	8155	iznimno	iznimno изнимно
+56	8156	prevoditi	prevodim prevoditi prevođenje prevodiš prevodio prevodila prevodite prevodi prevode преводи преводим преводити превођење преводиш преводио преводила преводите преводе
+57	8157	turbulencija	turbulencije turbulencija turbulenciju турбуленције турбуленција турбуленцију
+58	8158	hijena	hijena hijene hijeno hijenu hijenama хијена хијене хијено хијену хијенама
+59	8159	noj	noj nojeva noja nojeve nojevi noju ној нојева ноја нојеве нојеви ноју
+60	8160	jecati	jeca jecanje jecala jecao jecajući jecam jecaš jecati jecaju јеца јецање јецала јецао јецајући јецам јецаш јецати јецају
+61	8161	fen	fen fenom fena фен феном фена
+62	8162	kompozitor	kompozitor kompozitora kompozitori kompozitore композитор композитора композитори композиторе
+63	8163	delegacija	delegacija delegacije delegaciju delegaciji delegacijom делегација делегације делегацију делегацији делегацијом
+64	8164	zaboljeti	zabole zaboli zaboljelo заболе zaboljeti заболи забољело забољети
+65	8165	diljem	diljem диљем
+66	8166	žandar	žandar žandara žandari žandare жандар жандара жандари жандаре
+67	8167	gnjida	gnjido gnjida gnjide gnjidu гњидо гњида гњиде гњиду
+68	8168	deponij	deponija deponiju deponiji deponije deponij депонија депонију депонији депоније депониј
+69	8169	sunašce	sunašce сунашце
+70	8170	masnoća	masnoće masnoća masnoću masnoćom масноће масноћа масноћу масноћом
+71	8171	kapitalizam	kapitalizam kapitalizma kapitalizmu капитализам капитализма капитализму
+72	8172	nazdravljati	nazdravljam nazdravljamo nazdravlja nazdravljati nazdravljali наздрављам nazdravljaš наздрављамо наздравља наздрављати наздрављали наздрављаш
+73	8173	ubadati	ubadanje ubada ubadao ubadaju ubadam ubadaš ubadati ubadala ubadali убадање убада убадао убадају убадам убадаш убадати убадала убадали
+74	8174	takt	takta takt taktu taktova такта такт такту тактова
+75	8175	genetički	genetički genetička genetičke genetičkog genetičku genetičkih genetičko genetičkim genetičkom генетички генетичка генетичке генетичког генетичку генетичких генетичко генетичким генетичком
+76	8176	neoprezan	neoprezan neoprezno neoprezna neoprezni неопрезан неопрезно неопрезна неопрезни
+77	8177	partizan	partizani partizana partizanima partizane partizan партизани партизана партизанима партизане партизан
+78	8178	štaka	štake štakama štaka štaku štakom штаке штакама штака штаку штаком
+79	8179	jurcati	jurca jurcaš jurcaju jurcam jurcanje jurcati jurcao jurcamo jurcate јурца јурцаш јурцају јурцам јурцање јурцати јурцао јурцамо јурцате
+80	8180	financirati	financira financiranje financirati financirao financiraju financiram financirali financirala финанцира финанцирање финанцирати финанцирао финанцирају финанцирам финанцирали финанцирала
+81	8181	obrt	obrt obrta obrtom obrtu obrte обрт обрта обртом обрту обрте
+82	8182	neuobičajen	neuobičajen neuobičajena neuobičajene neuobičajeni neuobičajenog neuobičajenim neuobičajenih neuobičajenu неуобичајен неуобичајена неуобичајене неуобичајени неуобичајеног неуобичајеним неуобичајених неуобичајену
+83	8183	ban	bani ban bane banu bana бани бан бане бану бана
+84	8184	genocid	genocid genocida genocidu genocidom геноцид геноцида геноциду геноцидом
+85	8185	olabaviti	olabavi olabavio olabavite olabaviti olabavila olabaviš olabavim olabavilo олабави олабавио олабавите олабавити олабавила олабавиш олабавим олабавило
+86	8186	kondicija	kondiciji kondiciju kondicije kondicija кондицији кондицију кондиције кондиција
+87	8187	vidra	vidre vidra vidri vidru vidara vidrama видре видра видри видру видара видрама
+88	8188	sjeverno	sjeverno сјеверно
+89	8189	dodijeliti	dodijeljen dodijeliti dodijeljena dodijelio dodijelili dodijeli dodijeljeni dodijeljeno додијељен додијелити додијељена додијелио додијелили додијели додијељени додијељено
+90	8190	grditi	grdi grdiš grditi grdila grdio grdim grdite grde grdili грди грдиш грдити грдила грдио грдим грдите грде грдили
+91	8191	ispirati	ispiranje ispire ispirao ispirati испирање испире испирао испирати
+92	8192	meteorit	meteorit meteorita meteoriti meteorite meteoritima метеорит метеорита метеорити метеорите метеоритима
+93	8193	pretjerano	pretjerano претјерано
+94	8194	pokrov	pokrov pokrova pokrovu pokrovom покров покрова покрову покровом
+95	8195	namirnica	namirnica намирница
+96	8196	svećica	svećice svećica svećicu свећице свећица свећицу
+97	8197	taksa	takse taksu taksa taksama таксе таксу такса таксама
+98	8198	mrs	mrs mrsa мрс мрса
+99	8199	kecelja	kecelju kecelja kecelje kecelji keceljom кецељу кецеља кецеље кецељи кецељом
+100	8200	komoda	komodi komoda komodu komode komodo комоди комода комоду комоде комодо

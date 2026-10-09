@@ -1,0 +1,100 @@
+1	6901	pospremiti	pospremiti pospremi pospremim pospremiš pospremite pospremimo pospremiću поспремити поспреми поспремим поспремиш поспремите поспремимо поспремићу
+2	6902	dojka	dojke dojku dojki dojci dojka дојке дојку дојки дојци дојка
+3	6903	lasica	lasica lasice lasicu lasicama ласица ласице ласицу ласицама
+4	6904	uzdisati	uzdiše уздише uzdišeš uzdišu uzdišem uzdišući uzdisanje uzdisati uzdisala uzdisao уздишеш уздишу уздишем уздишући уздисање уздисати уздисала уздисао
+5	6905	prihvatljivo	prihvatljivo прихватљиво
+6	6906	smrskati	smrskana smrskao smrskati smrskan smrska smrskala smrskane smrskano smrskali smrskaću smrskani smrskam смрскана смрскао смрскати смрскан смрска смрскала смрскане смрскано смрскали смрскаћу смрскани смрскам
+7	6907	zadavati	zadaje zadavao zadavati zadaješ zadajem zadaju zadavala zadavali zadaj задаје задавао задавати задајеш задајем задају задавала задавали задај
+8	6908	širina	širine širina širinu širini širinom ширине ширина ширину ширини ширином
+9	6909	otploviti	otplovio otploviti otplovi otplovimo otplovili otplovila otplovim otploviš otplove отпловио отпловити отплови отпловимо отпловили отпловила отпловим отпловиш отплове
+10	6910	glasovati	glasovati glasovanje glasovao glasuje glasujte glasovali glasuju glasujem glasujmo glasovala glasuj гласовати гласовање гласовао гласује гласујте гласовали гласују гласујем гласујмо гласовала гласуј
+11	6911	dramatično	dramatično драматично
+12	6912	peć	peć pećima пећ пећима
+13	6913	galeb	galeb galebovi galebova galeba galebove galebe galebovima галеб галебови галебова галеба галебове галебе галебовима
+14	6914	presudan	presudno presudan presudna presudni presudne presudnog presudnu presudnom presudnim пресудно пресудан пресудна пресудни пресудне пресудног пресудну пресудном пресудним
+15	6915	krš	krš krša kršu kršem крш крша кршу кршем
+16	6916	kljun	kljun kljunom kljuna kljunu kljunovi kljunove kljunovima kljunova кљун кљуном кљуна кљуну кљунови кљунове кљуновима кљунова
+17	6917	astma	astmu astme astma astmom астму астме астма астмом
+18	6918	litra	litre litra litru литра litri litrom литре литру литри литром
+19	6919	nezaboravan	nezaboravno nezaboravan nezaboravna nezaboravni nezaboravnu nezaboravne nezaboravnim nezaboravnih nezaboravnom незаборавно незабораван незаборавна незаборавни незаборавну незаборавне незаборавним незаборавних незаборавном
+20	6920	pristalica	pristalica pristalice pristalicama присталица присталице присталицама
+21	6921	stavka	stavka stavke stavku stavki stavkama ставка ставке ставку ставки ставкама
+22	6922	frustriran	frustriran frustrirana frustrirani frustrirano frustrirane фрустриран фрустрирана фрустрирани фрустрирано фрустриране
+23	6923	južan	južnu јужну
+24	6924	transporter	transporter transportera transporteru transporteri transporterom transportere транспортер транспортера транспортеру транспортери транспортером транспортере
+25	6925	rizičan	rizičan rizična rizične rizični rizičnim rizičnu rizičnije rizičnih rizičnom rizičnog ризичан ризична ризичне ризични ризичним ризичну ризичније ризичних ризичном ризичног
+26	6926	najava	najava najavu najave najavi najavom најава најаву најаве најави најавом
+27	6927	napadan	napadan napadno napadna napadne napadnu napadni нападне нападну нападан нападно нападна нападни
+28	6928	pub	pub pubu puba pubovi pubovima pubova pubove пуб пубу пуба пубови пубовима пубова пубове
+29	6929	ranjenik	ranjenika ranjenike ranjenici ranjenik ranjenicima рањеника рањенике рањеници рањеник рањеницима
+30	6930	primjerak	primjerak primjeraka primjerke primjerci primjerka примјерак примјерака примјерке примјерци примјерка
+31	6931	klin	klin klinom kline klinove klina klinovi klinova klinovima клин клином клине клинове клина клинови клинова клиновима
+32	6932	tramvaj	tramvaj tramvaju tramvaja tramvajem tramvaji tramvaje трамвај трамвају трамваја трамвајем трамваји трамваје
+33	6933	svezati	svezati svezan svezao svezali svežite svezana svezane sveza sveži svezani svežu svežeš svezala svežem svezi sveze свезати свезан свезао свезали свежите свезана свезане свеза свежи свезани свежу свежеш свезала свежем свези свезе
+34	6934	plodan	plodna plodne plodan plodni plodnu plodnog plodnom plodnim plodnoj plodnih плодна плодне плодан плодни плодну плодног плодном плодним плодној плодних
+35	6935	slina	sline slina slinu slini slinom slino slinama слине слина слину слини слином слино слинама
+36	6936	medo	medo медо
+37	6937	buran	burno burna buran burnu burne burni burnih бурно бурна буран бурну бурне бурни бурних
+38	6938	pripravnik	pripravnik pripravnika pripravnici pripravniče pripravnike приправник приправника приправници приправниче приправнике
+39	6939	kolevka	kolevka kolevku kolevci kolevke колевка колевку колевци колевке
+40	6940	grebati	grebe grebanje grebu grebeš grebati grebala grebem grebi grebete гребе гребање гребу гребеш гребати гребала гребем греби гребете
+41	6941	doveka	doveka довека
+42	6942	kolumna	kolumnu kolumne kolumna kolumni kolumnom колумну колумне колумна колумни колумном
+43	6943	kompleksan	kompleksan kompleksna kompleksne kompleksno kompleksni kompleksnu kompleksnije kompleksniji kompleksnih kompleksnim kompleksnog комплексан комплексна комплексне комплексно комплексни комплексну комплексније комплекснији комплексних комплексним комплексног
+44	6944	bednik	bednik bedniče bednici bednika bednike bednikom бедник бедниче бедници бедника беднике бедником
+45	6945	logika	logika логика
+46	6946	runa	rune runa runi runo runu руно runama руне руна руни руну рунама
+47	6947	nezamislivo	nezamislivo незамисливо
+48	6948	saopštenje	saopštenje saopštenja saopštenju саопштење саопштења саопштењу
+49	6949	ukočen	ukočen ukočena ukočeno ukočeni ukočene ukočenog укочен укочена укочено укочени укочене укоченог
+50	6950	lubenica	lubenice lubenica lubenicu lubenicama лубенице лубеница лубеницу лубеницама
+51	6951	holandski	holandski holandske holandska holandskom holandskog холандски holandskih holandsku holandskim holandsko holandskoj холандске холандска холандском холандског холандских холандску холандским холандско холандској
+52	6952	mamurluk	mamurluk mamurluka mamurlukom мамурлук мамурлука мамурлуком
+53	6953	arsenal	arsenal arsenala arsenalu arsenalom arsenale арсенал арсенала арсеналу арсеналом арсенале
+54	6954	pakirati	pakiranje pakirati pakiram pakiraj pakira pakiraš pakiraju pakirajte pakirao pakirala pakiramo пакирање пакирати пакирам пакирај пакира пакираш пакирају пакирајте пакирао пакирала пакирамо
+55	6955	oživjeti	oživjeti oživi ožive oživimo oživim oživjela oživljen oživiš oživljeni oživjeli oživljena oživite оживи оживјети оживе оживимо оживим оживјела оживљен оживиш оживљени оживјели оживљена оживите
+56	6956	razočaranje	razočaranje razočaranja razočaranjem razočaranju разочарање разочарања разочарањем разочарању
+57	6957	mehanika	mehanika mehanike mehaniku mehanici mehanikom механика механике механику механици механиком
+58	6958	gradić	gradić градић
+59	6959	šupalj	šuplje šuplja šupalj šuplji šuplju šupljim šupljeg šupljoj šupljem шупље шупља шупаљ шупљи шупљу шупљим шупљег шупљој шупљем
+60	6960	raskid	raskid раскид
+61	6961	greda	grede greda gredu gredi gredama греде греда греду греди гредама
+62	6962	žilav	žilav žilava žilavi žilavo žilave žilaviji žilavija najžilaviji жилав жилава жилави жилаво жилаве жилавији жилавија најжилавији
+63	6963	kos	kosu kos kose kosim kosova kosima kosom kosi koso косу косе косом коси кос косим косова косима косо
+64	6964	luckast	luckasta luckast luckasto luckasti luckaste luckastog луцкаста луцкаст луцкасто луцкасти луцкасте луцкастог
+65	6965	uvjetan	uvjetnu uvjetnoj uvjetne uvjetno uvjetni uvjetna uvjetnom uvjetnog увјетну увјетној увјетне увјетно увјетни увјетна увјетном увјетног
+66	6966	izdaleka	izdaleka издалека
+67	6967	jačina	jačine jačinu jačina jačini jačinom јачине јачину јачина јачини јачином
+68	6968	džamija	džamiju džamije džamija džamiji џамију џамије џамија џамији
+69	6969	koješta	koješta којешта
+70	6970	okrutnost	okrutnost okrutnosti okrutnošću окрутност окрутности окрутношћу
+71	6971	popularnost	popularnost popularnosti popularnošću популарност популарности популарношћу
+72	6972	neprobojan	neprobojan neprobojna neprobojno neprobojni neprobojne neprobojnog neprobojnim neprobojnom neprobojnu непробојан непробојна непробојно непробојни непробојне непробојног непробојним непробојном непробојну
+73	6973	brucoš	brucoš brucoša brucoši brucoše brucošu brucošima бруцош бруцоша бруцоши бруцоше бруцошу бруцошима
+74	6974	šimpanza	šimpanze šimpanza šimpanzu šimpanzi šimpanzama šimpanzom шимпанзе шимпанза шимпанзу шимпанзи шимпанзама шимпанзом
+75	6975	fudbaler	fudbaler fudbalera fudbaleri fudbalerima fudbalere fudbaleru fudbalerom фудбалер фудбалера фудбалери фудбалерима фудбалере фудбалеру фудбалером
+76	6976	svetica	svetica svetice sveticu sveticom светица светице светицу светицом
+77	6977	večit	večito večiti večita večite večitu večitog вечито вечити вечита вечите вечиту вечитог
+78	6978	mladenac	mladenci mladence mladencima mladenaca младенци младенце младенцима младенаца
+79	6979	okolni	okolne okolnim okolnih okolna okolni okolno okolnog okolnom okolnu околне околним околних околна околни околно околног околном околну
+80	6980	dvojnik	dvojnik dvojnika dvojnici dvojnike dvojnikom двојник двојника двојници двојнике двојником
+81	6981	muslimanski	muslimanski muslimanska muslimanske muslimanskog muslimanskih muslimanskom muslimansku muslimanskim muslimansko muslimanskoj муслимански муслиманска муслиманске муслиманског муслиманских муслиманском муслиманску муслиманским муслиманско муслиманској
+82	6982	krut	krut kruta kruti kruto krute krutu krutog krutim крут крута крути круто круте круту крутог крутим
+83	6983	čedo	čedo čede čeda čedu čedom чедо чеде чеда чеду чедом
+84	6984	guz	guzove guzu guz guzovi guzova guzovima guze гузу guzom гуза гузове гуз гузови гузова гузовима гузе гузом
+85	6985	orgija	orgije orgija orgiju orgijama orgiji оргије оргија оргију оргијама оргији
+86	6986	eventualno	eventualno евентуално
+87	6987	prepona	prepone preponama prepona препоне препонама препона
+88	6988	alimentacija	alimentaciju alimentacije alimentacija alimentacijom алиментацију алиментације алиментација алиментацијом
+89	6989	krojač	krojač krojača krojači krojaču кројач кројача кројачи кројачу
+90	6990	ispravak	ispravka ispravke ispravak ispravku исправке исправка исправак исправку
+91	6991	losion	losion losiona losionom losione losioni лосион лосиона лосионом лосионе лосиони
+92	6992	ofarbati	farbanje farbaš farbam farbao ofarbati farbaju farbamo farbala farbaj farbati farbate farbali фарбање фарбаш фарбам фарбао офарбати фарбају фарбамо фарбала фарбај фарбати фарбате фарбали
+93	6993	huliti	hulio huli хулио хули
+94	6994	hud	hud huda hudu hude худ hudom худа худу худе худом
+95	6995	ciničan	ciničan cinična cinično cinični ciničnim ciničnom циничан цинична цинично цинични циничним циничном
+96	6996	razoriti	razoriti razorio razoren razori razorena razorila razorili razore razoreno razorene razoreni razorilo разорити разорио разорен разори разорена разорила разорили разоре разорено разорене разорени разорило
+97	6997	zaključivati	zaključujem zaključuje zaključujemo zaključuješ zaključivanje zaključivati zaključujete zaključuju zaključuj закључујем закључује закључујемо закључујеш закључивање закључивати закључујете закључују закључуј
+98	6998	avenija	avenija авенија
+99	6999	kometa	kometa комета
+100	7000	skakač	skakač skakača skakaču skakači skakače skakačem скакач скакача скакачу скакачи скакаче скакачем

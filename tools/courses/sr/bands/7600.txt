@@ -1,0 +1,100 @@
+1	7501	kepec	kepec kepeca kepecu kepeci kepecom kepece кепец кепеца кепецу кепеци кепецом кепеце
+2	7502	revolucionar	revolucionar revolucionari revolucionara revolucionare revolucionarima револуционар револуционари револуционара револуционаре револуционарима
+3	7503	gnijezdo	gnijezdo gnijezda gnijezdu гнијездо гнијезда гнијезду
+4	7504	krunisati	krunisanje krunisan krunisani kruniše krunisana krunisati krunisali krunisao krunišem krunišu крунисање крунисан крунисани крунише крунисана крунисати крунисали крунисао крунишем крунишу
+5	7505	sažaliti	sažalio sažalila sažali sažaliti sažalite sažalili sažalim sažališ сажалио сажалила сажали сажалити сажалите сажалили сажалим сажалиш
+6	7506	samostalno	samostalno самостално
+7	7507	zavjesa	zavjese zavjesa zavjesu zavjesama завјесе завјеса завјесу завјесама
+8	7508	starenje	starenja starenje starenju starenjem старења старење старењу старењем
+9	7509	ujedno	ujedno уједно
+10	7510	plovidba	plovidbu plovidbe plovidba plovidbi пловидбу пловидбе пловидба пловидби
+11	7511	podvrgnuti	podvrgnuti podvrgnut podvrgnuta podvrgne podvrgao podvrgli podvrgnem podvrgla podvrgnu podvrgnemo podvrgnete подвргнути подвргнут подвргнута подвргне подвргао подвргли подвргнем подвргла подвргну подвргнемо подвргнете
+12	7512	kurvica	kurvica kurvice kurvicu kurvicom kurvicama курвица курвице курвицу курвицом курвицама
+13	7513	uverljiv	uverljiv uverljiva uverljivi uverljivije uverljive uverljiviji uverljivija uverljivim уверљив уверљива уверљиви уверљивије уверљиве уверљивији уверљивија уверљивим
+14	7514	naseliti	naseli naselili nasele naseliti naselio naselimo naselila населили насели населе населити населио населимо населила
+15	7515	povremen	povremeni povremene povremena povremenim povremenih povremenog povremenu povremenom повремени повремене повремена повременим повремених повременог повремену повременом
+16	7516	jevanđelje	jevanđelje jevanđelja jevanđelju jevanđeljima јеванђеље јеванђеља јеванђељу јеванђељима
+17	7517	bolovanje	bolovanje bolovanju bolovanja боловање боловању боловања
+18	7518	atrakcija	atrakcija atrakciju atrakcije атракција атракцију атракције
+19	7519	invalidski	invalidskim invalidska invalidsku invalidskih инвалидским инвалидска инвалидску инвалидских
+20	7520	zalupiti	zalupila zalupio zalupi zalupiti zalupiš zalupe zalupim zalupili залупила залупио залупи залупити залупиш залупе залупим залупили
+21	7521	tučnjava	tučnjava tučnjave tučnjavu tučnjavi тучњава тучњаве тучњаву тучњави
+22	7522	neuspjeh	neuspjeh neuspjeha neuspjehom neuspjehe neuspjehu неуспјех неуспјеха неуспјехом неуспјехе неуспјеху
+23	7523	pešadija	pešadija pešadije pešadiju pešadiji pešadijom пешадија пешадије пешадију пешадији пешадијом
+24	7524	devetka	devetka devetke devetku devetki devetkom деветка деветке деветку деветки деветком
+25	7525	zapovijedati	zapovijedam zapovijeda zapovijedati zapovijedaš zapovijedao zapovijedate zapovijedanje заповиједам заповиједа заповиједати заповиједаш заповиједао заповиједате заповиједање
+26	7526	računovodstvo	računovodstva računovodstvo računovodstvu računovodstvom рачуноводства рачуноводство рачуноводству рачуноводством
+27	7527	breme	breme bremena bremenu бреме бремена бремену
+28	7528	tesan	tesna tesne tesan tesnim tesnoj tesnu tesnom tesni тесна тесне тесан тесним тесној тесну тесном тесни
+29	7529	rastava	rastavi rastavu rastava rastave растави раставу растава раставе
+30	7530	kozak	kozaci kozak kozaka kozake kozače kozacima козаци козак козака козаке козаче козацима
+31	7531	kaubojski	kaubojski kaubojske kaubojskim kaubojska kaubojskom kaubojsko kaubojsku kaubojskih kaubojskog каубојски каубојске каубојским каубојска каубојском каубојско каубојску каубојских каубојског
+32	7532	osamdeset	osamdeset осамдесет
+33	7533	sarkastičan	sarkastičan sarkastična sarkastično sarkastični sarkastične саркастичан саркастична саркастично саркастични саркастичне
+34	7534	ismejavati	ismejavaš ismejavaju ismejavali ismejavati ismejava ismejavao ismejavanje ismejavaj ismejavate ismejavam ismejavala исмејаваш исмејавају исмејавали исмејавати исмејава исмејавао исмејавање исмејавај исмејавате исмејавам исмејавала
+35	7535	uoči	uoči уочи
+36	7536	nekažnjen	nekažnjeno nekažnjen nekažnjeni некажњено nekažnjena некажњен некажњени некажњена
+37	7537	konzul	konzul konzula konzule konzulom konzulu конзул конзула конзуле конзулом конзулу
+38	7538	novinarstvo	novinarstvo novinarstva novinarstvu novinarstvom новинарство новинарства новинарству новинарством
+39	7539	plahta	plahte plahtama plahtu plahti plahta plahtom плахте плахтама плахту плахти плахта плахтом
+40	7540	mećava	mećava mećave mećavi mećavu mećavo мећава мећаве мећави мећаву мећаво
+41	7541	poraziti	poraziti поразити
+42	7542	zadovoljavajući	zadovoljavajuće zadovoljavajući zadovoljavajuća zadovoljavajućeg задовољавајуће задовољавајући задовољавајућа задовољавајућег
+43	7543	forsirati	forsiraš forsirao forsirati forsira forsiram forsiraj forsiramo forsirali forsirala forsiranje forsiraju форсираш форсирао форсирати форсира форсирам форсирај форсирамо форсирали форсирала форсирање форсирају
+44	7544	rič	rič рич
+45	7545	paprikaš	paprikaš paprikaša паприкаш paprikašu паприкаша паприкашу
+46	7546	usaditi	usadio usadili usaditi usadila usadi usađena usađeno usađen usadim usađeni usađene usade usadimo усадио усадили усадити усадила усади усађена усађено усађен усадим усађени усађене усаде усадимо
+47	7547	najesti	najeo najedi najela najesti najeli najedem najedite najedeš najedu najede najedemo најео наједи најела најести најели наједем наједите наједеш наједу наједе наједемо
+48	7548	poljoprivreda	poljoprivrede poljoprivredu poljoprivreda poljoprivredi poljoprivredom пољопривреде пољопривреду пољопривреда пољопривреди пољопривредом
+49	7549	predvidljiv	predvidljiv predvidljivo predvidljiva predvidljivi predvidljive предвидљив предвидљиво предвидљива предвидљиви предвидљиве
+50	7550	teg	tegove teg tegova tegovi tegovima tega tegu teže теже тегове тег тегова тегови теговима тега тегу
+51	7551	sestrić	sestrić sestrića sestriću sestrići sestrićem сестрић сестрића сестрићу сестрићи сестрићем
+52	7552	ništarija	ništarija ništarijo ništarije ništariju ништарија ништаријо ништарије ништарију
+53	7553	ljiljan	ljiljani ljiljan ljiljane ljiljana ljiljanima љиљан љиљани љиљане љиљана љиљанима
+54	7554	oteći	otekla oteklo otekle otekao otekne otečene otečen otečena otečeno oteknu otekli otečeni oteći отекла отекло отекле отекао отекне отечене отечен отечена отечено отекну отекли отечени отећи
+55	7555	okrečiti	krečenje kreči okreči okrečiti okrečim krečim okrečimo krečiš okreče krečimo krečio krečite krečili okrečiš okrečite kreče кречење кречи окречи окречити окречим кречим окречимо кречиш окрече кречимо кречио кречите кречили окречиш окречите крече
+56	7556	sonar	sonar sonara sonaru sonarom sonare сонар сонара сонару сонаром сонаре
+57	7557	tiranija	tiranije tiranija tiraniju tiraniji tiranijom тираније тиранија тиранију тиранији тиранијом
+58	7558	rasprodati	rasprodati rasprodaju rasprodate rasprodali rasprodao rasprodano rasprodan rasprodane rasprodani rasproda rasprodana rasprodala распродати распродају распродате распродали распродао распродано распродан распродане распродани распрода распродана распродала
+59	7559	perec	perece pereca perecu perec pereci переце переца перецу перец переци
+60	7560	domorodac	domoroci domorodaca domorodac domorocima domoroce domoroca домороци домородаца домородац домороцима домороце домороца
+61	7561	uzda	uzde uzda uzdi uzdama узде узда узди уздама
+62	7562	banket	banket banketu banketa bankete банкет банкету банкета банкете
+63	7563	naježiti	naježim naježio naježila naježiš naježi најежим најежио најежила најежиш најежи
+64	7564	goblin	goblin goblini goblina gobline goblinima гоблин гоблини гоблина гоблине гоблинима
+65	7565	bedak	bedak bedaku bedaka бедак бедаку бедака
+66	7566	konjanik	konjanika konjanik konjanici konjanike коњаника коњаник коњаници коњанике
+67	7567	procijeniti	procijeniti procijenio procijenila procijenili procijeni procijenim procijenimo procijenjeno процијенити процијенио процијенила процијенили процијени процијеним процијенимо процијењено
+68	7568	propatiti	propatila propatio propatili propatiti propati пропатила пропатио пропатили пропатити пропати
+69	7569	vijećnik	vijećnik vijećnici vijećnice vijećnika vijećnicu vijećniče vijećnica vijećniku вијећник вијећници вијећнице вијећника вијећницу вијећниче вијећница вијећнику
+70	7570	propust	propust propusta propusti propuste пропуст пропуста пропусти пропусте
+71	7571	votka	votka вотка
+72	7572	miroljubiv	miroljubivi miroljubiv miroljubivo miroljubiva miroljubive miroljubivih мирољубиви мирољубив мирољубиво мирољубива мирољубиве мирољубивих
+73	7573	šupljina	šupljine šupljina šupljinu šupljini šupljinama шупљине шупљина шупљину шупљини шупљинама
+74	7574	uvredljiv	uvredljiv uvredljiva uvredljive uvredljivi uvredljivim uvredljivih uvredljivom uvredljivu увредљив увредљива увредљиве увредљиви увредљивим увредљивих увредљивом увредљиву
+75	7575	legitiman	legitiman legitimna legitimni legitimne legitimnim legitimnog legitimnu legitimnom легитиман легитимна легитимни легитимне легитимним легитимног легитимну легитимном
+76	7576	sklop	sklop sklopu sklopa sklopove sklopovi sklopova sklope склоп склопу склопа склопове склопови склопова склопе
+77	7577	smeštati	smešta smeštanje smeštaš smeštam smeštao smeštate smeštamo smeštali smeštaju смешта смештање смешташ смештам смештао смештате смештамо смештали смештају
+78	7578	praktički	praktički практички
+79	7579	obračunati	obračunati obračunam obračuna obračunamo obračunaću obračunao obračunaš obračunaćemo obračunaju obračunali обрачунати обрачунам обрачуна обрачунамо обрачунаћу обрачунао обрачунаш обрачунаћемо обрачунају обрачунали
+80	7580	pustoš	pustoš pustoši пустош пустоши
+81	7581	prdnuti	prdnuo prdnula prdne prdnem prdneš prdnuti prdni прднуо прднула прдне прднем прднеш прднути прдни
+82	7582	tesla	tesla тесла tesle teslu tesli тесле теслу тесли
+83	7583	suša	suša suše sušu sušom суша суше сушу сушом
+84	7584	dimiti	dimi dimljena dimljeni dimljene dimiti dimljeno dimiš dimio dime дими димљена димљени димљене димити димљено димиш димио диме
+85	7585	drum	drum drumu druma drumom drumovima drumovi друм друму друма друмом друмовима друмови
+86	7586	golotinja	golotinje golotinja golotinju golotinjom golotinji голотиње голотиња голотињу голотињом голотињи
+87	7587	prevrtati	prevrće prevrtao prevrtanje prevrćeš prevrću prevrtati prevrćem prevrtala prevrtali prevrći преврће превртао превртање преврћеш преврћу превртати преврћем превртала превртали преврћи
+88	7588	manipulacija	manipulacije manipulacija manipulaciju manipulaciji manipulacijom manipulacijama манипулације манипулација манипулацију манипулацији манипулацијом манипулацијама
+89	7589	obaveštajac	obaveštajci obaveštajac obaveštajaca obaveštajcima obaveštajca obaveštajce обавештајци обавештајац обавештајаца обавештајцима обавештајца обавештајце
+90	7590	nosilac	nosilac nosioca nosioci nosioce nosiocu носилац носиоца носиоци носиоце носиоцу
+91	7591	paran	parni parna parne parnu parnim parno paran parnom parnih parnog парни парна парне парну парним парно паран парном парних парног
+92	7592	kalup	kalup kalupe kalupa kalupu kalupi калуп калупе калупа калупу калупи
+93	7593	vepar	vepar vepra veprove veprovi veprova vepru вепар вепра вепрове вепрови вепрова вепру
+94	7594	raspolagati	raspolaganje raspolaže raspolažemo raspolažem raspolažu raspolažeš raspolažete raspolagati располагање располаже располажемо располажем располажу располажеш располажете располагати
+95	7595	čmar	čmar čmaru čmara čmarovi чмар чмару чмара чмарови
+96	7596	preteran	preterana preterane preteran preteranog preteranu preterani preteranom preteranim претерана претеране претеран претераног претерану претерани претераном претераним
+97	7597	rastvor	rastvor rastvora rastvorom rastvori rastvoru rastvore раствор раствора раствором раствори раствору растворе
+98	7598	argo	argo арго
+99	7599	procep	procep procepu procepa procepe процеп процепу процепа процепе
+100	7600	svota	svotu svota svote svoti своту свота своте своти

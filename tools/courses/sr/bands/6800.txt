@@ -1,0 +1,100 @@
+1	6701	mandat	mandat mandata mandatu мандат мандата мандату
+2	6702	buva	buva buve buvu buvama бува буве буву бувама
+3	6703	razdaljina	razdaljine razdaljinu razdaljina razdaljini раздаљине раздаљину раздаљина раздаљини
+4	6704	zadesiti	zadesila zadesi zadesiti zadesilo zadesio zadesili zadesile задесила задеси задесити задесило задесио задесили задесиле
+5	6705	laboratorijski	laboratorijski laboratorijske laboratorijskog laboratorijskim laboratorijskih laboratorijska laboratorijsku laboratorijskom лабораторијски лабораторијске лабораторијског лабораторијским лабораторијских лабораторијска лабораторијску лабораторијском
+6	6706	nekoć	nekoć некоћ
+7	6707	zubni	zubni zubna zubnu zubne zubnog zubnim zubno zubnom zubnih зубни зубна зубну зубне зубног зубним зубно зубном зубних
+8	6708	neželjen	neželjene neželjeni neželjenih neželjena neželjenu neželjeno neželjenog neželjenim нежељене нежељени нежељених нежељена нежељену нежељено нежељеног нежељеним
+9	6709	opteretiti	opterećenje opterećen opterećeni opterećena opteretiti opteretio opteretim opteretila optereti opteretili opterećeno оптерећење оптерећен оптерећени оптерећена оптеретити оптеретио оптеретим оптеретила оптерети оптеретили оптерећено
+10	6710	spomen	spomen spomena spomene spomeni spomenu спомен спомена спомене спомени спомену
+11	6711	brik	brik брик
+12	6712	kvalifikacija	kvalifikacije kvalifikacija kvalifikacijama kvalifikaciju квалификације квалификација квалификацијама квалификацију
+13	6713	regionalan	regionalni regionalno regionalnom regionalnog regionalne regionalna regionalnim regionalnih regionalnu regionalnoj регионални регионално регионалном регионалног регионалне регионална регионалним регионалних регионалну регионалној
+14	6714	pobuniti	pobunili pobunio pobuniti pobune pobunila pobunjeni pobunimo pobuni pobunile pobunjene pobunite побуне побунили побунио побунити побунила побуњени побунимо побуни побуниле побуњене побуните
+15	6715	nikud	nikud никуд
+16	6716	crnački	crnački crnačke crnačka crnačku crnačkoj crnačkom crnačkim crnačkih crnačko crnačkog црначки црначке црначка црначку црначкој црначком црначким црначких црначко црначког
+17	6717	spoznati	spoznati spoznao spoznala spoznali spoznaš spozna spoznam spoznaju spoznamo spoznaj spoznate спознати спознао спознала спознали спознаш спозна спознам спознају спознамо спознај спознате
+18	6718	kotrljati	kotrlja kotrljaj kotrljaju kotrljati kotrljanje kotrljam kotrljajući kotrljaš kotrljao kotrljamo kotrljala kotrljali котрља котрљај котрљају котрљати котрљање котрљам котрљајући котрљаш котрљао котрљамо котрљала котрљали
+19	6719	stupa	stupa stupi stupe stupu ступи ступа ступе ступу
+20	6720	danak	danak danci danke danka dancima данак данци данке данка данцима
+21	6721	obrnuti	obrnuti obrni obrnemo obrnuo obrne obrnem obrnuli obrneš obrnu obrnite обрнути обрни обрнемо обрнуо обрне обрнем обрнули обрнеш обрну обрните
+22	6722	zbrinuti	zbrinuti zbrinuta zbrinut zbrinem zbrinuo zbrinemo zbrinute zbrinuli zbrine zbrinuto збринути збринута збринут збринем збринуо збринемо збринуте збринули збрине збринуто
+23	6723	usrano	usrano усрано
+24	6724	mineral	minerala minerale mineral minerali mineralima минерала минерале минерал минерали минералима
+25	6725	zlatnik	zlatnika zlatnik zlatnike zlatnici златника zlatnicima златник златнике златници златницима
+26	6726	savana	savana savani savane savanu savanom savanama савана савани саване савану саваном саванама
+27	6727	dražestan	dražesno dražesna dražestan dražesni dražesne dražesnu дражесно дражесна дражестан дражесни дражесне дражесну
+28	6728	uručiti	uručim uručiti uručio uruči uručen uručili uručeno uručimo uručite uručena uručiš uručila uruče уручим уручити уручио уручи уручен уручили уручено уручимо уручите уручена уручиш уручила уруче
+29	6729	potajan	potajno potajni потајно потајни
+30	6730	rezidencija	rezidencija rezidenciju rezidenciji rezidencije резиденција резиденцију резиденцији резиденције
+31	6731	pšenica	pšenice pšenicu pšenica pšenični pšenične pšenicom pšenici pšenična пшенице пшеницу пшеница пшенични пшеничне пшеницом пшеници пшенична
+32	6732	prisećati	prisećam priseća prisećaš prisećanje prisećao prisećamo prisećati prisećajući prisećate prisećali prisećala prisećaju присећам присећа присећаш присећање присећао присећамо присећати присећајући присећате присећали присећала присећају
+33	6733	sečivo	sečivo sečiva sečivom сечиво sečivu sečivima сечива сечивом сечиву сечивима
+34	6734	propovedati	propoveda propovedao propovedam propovedaš propovedaju propovedati propovedate propovedanje propovedamo propovedaj propovedali проповеда проповедао проповедам проповедаш проповедају проповедати проповедате проповедање проповедамо проповедај проповедали
+35	6735	zabadati	zabadam zabada zabadati zabadaš zabadaju zabadao zabadaj zabadalo zabadanje zabadala zabadate zabadali забадам забада забадати забадаш забадају забадао забадај забадало забадање забадала забадате забадали
+36	6736	gošća	gošća gošću gošće gošći gošćom гошћа гошћу гошће гошћи гошћом
+37	6737	zavlačiti	zavlači zavlačiš zavlačiti zavlačio zavlačim zavlače zavlačite zavlačila zavlačenje завлачи завлачиш завлачити завлачио завлачим завлаче завлачите завлачила завлачење
+38	6738	glupak	glupak glupaci glupaku glupaka glupake glupače glupacima glupakom глупак глупаци глупаку глупака глупаке глупаче глупацима глупаком
+39	6739	paralelan	paralelni paralelne paralelnom paralelna paralelnim paralelnog paralelnih paralelnu paralelan paralelnoj паралелни паралелне паралелном паралелна паралелним паралелног паралелних паралелну паралелан паралелној
+40	6740	poštenje	poštenje poštenja poštenju poštenjem поштење поштења поштењу поштењем
+41	6741	usavršiti	usavršio usavršili usavrši usavršiti usavršila usavršim usavršimo usavršiš usavrše usavršena usavršen usavršeni усавршио усавршили усаврши усавршити усавршила усавршим усавршимо усавршиш усаврше усавршена усавршен усавршени
+42	6742	povetarac	povetarac povetarcu povetarca поветарац povetarcem поветарцу поветарца поветарцем
+43	6743	flaster	flaster flastere flastera flasteri flasterom flasterima фластер фластере фластера фластери фластером фластерима
+44	6744	odupreti	odupreti oduprem odupre odupremo odupreš odupri odupru odupro oduprli oduprla oduprite oduprete одупрети одупрем одупре одупремо одупреш одупри одупру одупро одупрли одупрла одуприте одупрете
+45	6745	naopačke	naopačke наопачке
+46	6746	košnica	košnica košnicu košnice košnici кошница кошницу кошнице кошници
+47	6747	prezentacija	prezentacija prezentacije презентација презентације
+48	6748	obveza	obveza obveze obvezu obvezama обвеза обвезе обвезу обвезама
+49	6749	pekara	pekara pekare pekari pekaru пекара pekarom пекаре пекари пекару пекаром
+50	6750	opravdan	opravdana opravdan opravdane opravdani opravdanu opravdanog opravdanim оправдана оправдан оправдане оправдани оправдану оправданог оправданим
+51	6751	posaditi	posadio posaditi posade posadili posadila posadim posadiš posadimo posađeno posadi posadite посаде посади посадио посадити посадили посадила посадим посадиш посадимо посађено посадите
+52	6752	zadah	zadah zadahom zadaha zadahu задах задахом задаха задаху
+53	6753	izdahnuti	izdahni izdahnite izdahnuo izdahne izdahnula izdahnuti izdahneš izdahnem издахни издахните издахнуо издахне издахнула издахнути издахнеш издахнем
+54	6754	školovati	školovao školovan školovala školuje školujem školovani školovana školovati školuju školovali školuješ školujemo školujete школовао школован школовала школује школујем школовани школована школовати школују школовали школујеш школујемо школујете
+55	6755	dohvat	dohvat dohvati dohvata dohvatu dohvate дохват дохвати дохвата дохвату дохвате
+56	6756	kolja	kolja kolju kolje коља kolji кољу коље кољи
+57	6757	uprljati	uprljao uprljati uprljaš uprlja uprljam uprljala uprljali uprljan uprljana uprljaju uprljane uprljate uprljano упрљао упрљати упрљаш упрља упрљам упрљала упрљали упрљан упрљана упрљају упрљане упрљате упрљано
+58	6758	osamnaest	osamnaest осамнаест
+59	6759	tjedno	tjedno тједно
+60	6760	odlučnost	odlučnost odlučnosti odlučnošću одлучност одлучности одлучношћу
+61	6761	rezanac	rezance rezanci rezanaca rezancima rezanca rezanac резанце резанци резанаца резанцима резанца резанац
+62	6762	jednorog	jednoroga jednorog jednorozi jednoroge jednorogom jednorozima jednorogu једнорога једнорог једнорози једнороге једнорогом једнорозима једнорогу
+63	6763	usmjeriti	usmjeriti usmjerena usmjeri usmjeren usmjerite usmjerio usmjereni usmjerili usmjerene usmjerila usmjeriš usmjereno usmjerimo усмјерити усмјерена усмјери усмјерен усмјерите усмјерио усмјерени усмјерили усмјерене усмјерила усмјериш усмјерено усмјеримо
+64	6764	ukrasiti	ukrašen ukrasiti ukrašena ukrasimo ukrasio ukrase ukrašene ukrašeno ukrasim ukrasi ukrašeni ukrasite ukrasila ukrasili ukrasiš украшен украсити украшена украсимо украсио украсе украшене украшено украсим украси украшени украсите украсила украсили украсиш
+65	6765	doživljaj	doživljaj doživljaja doživljaje doživljajima doživljaju doživljaji доживљај доживљаја доживљаје доживљајима доживљају доживљаји
+66	6766	svetionik	svetionik svetionika svetioniku светионик svetionici светионика светионику светионици
+67	6767	korov	korov korova korovu korovom коров корова корову коровом
+68	6768	divovski	divovski divovska divovske divovskih divovsku divovskog divovskim divovsko divovskom divovskoj дивовски дивовска дивовске дивовских дивовску дивовског дивовским дивовско дивовском дивовској
+69	6769	izaslanik	izaslanik izaslanika izaslanici izaslanike izaslaniče izaslanikom изасланик изасланика изасланици изасланике изасланиче изаслаником
+70	6770	suparnik	suparnika suparnik suparnici suparnike suparniku suparnicima suparnikom супарника супарник супарници супарнике супарнику супарницима супарником
+71	6771	resiti	resi resiti resio resimo resim rese resili resite resila реси ресити ресио ресимо ресим ресе ресили ресите ресила
+72	6772	коме	коме
+73	6773	šablona	šablon šablona šablone šablonu šabloni шаблон шаблона шаблоне шаблону шаблони
+74	6774	убијати	убија убијају убијање убијаш убијам убијао убијамо убијали убијате убијати
+75	6775	mutacija	mutacija mutacije mutaciju mutacijom mutacijama мутација мутације мутацију мутацијом мутацијама
+76	6776	saga	saga sage sagu sagi sagom сага саге сагу саги сагом
+77	6777	kliše	kliše klišea klišei klišee клише клишеа клишеи клишее
+78	6778	povoljan	povoljan povoljna povoljne povoljnu povoljni povoljnim povoljnoj povoljnije povoljnom povoljniji najpovoljnije повољан повољна повољне повољну повољни повољним повољној повољније повољном повољнији најповољније
+79	6779	okov	okove okovima okovi okova okov окове оковима окови окова оков
+80	6780	foto	foto фото
+81	6781	maslina	masline maslina maslinama maslinu маслине маслина маслинама маслину
+82	6782	bačva	bačve bačvi bačvu bačva bačvama bačava бачву бачве бачви бачва бачвама бачава
+83	6783	blagajna	blagajne blagajni blagajnu blagajna blagajnom blagajnama благајне благајни благајну благајна благајном благајнама
+84	6784	špric	špric špricu šprica šprice špriceve špriceva špricem špricevi шприц špricom шприцу шприца шприце шприцеве шприцева шприцем шприцеви шприцом
+85	6785	literatura	literaturu literature literatura literaturi literaturom литературу литературе литература литератури литературом
+86	6786	licenca	licencu licence licenca licencom licenci лиценцу лиценце лиценца лиценцом лиценци
+87	6787	bušilica	bušilica bušilicu bušilice bušilicom бушилица бушилицу бушилице бушилицом
+88	6788	izumreti	izumrli izumrla izumrle izumreti izumro izumrlo izumre izumru изумрли изумрла изумрле изумрети изумро изумрло изумре изумру
+89	6789	riža	riže rižu riža rižom риже рижу рижа рижом
+90	6790	zagaditi	zagađenja zagađenje zagađena zagađen zagađeno zagaditi zagadio zagadili zagađene zagadi zagadila загађења загађење загађена загађен загађено загадити загадио загадили загађене загади загадила
+91	6791	zaplašiti	zaplaši zaplašiti zaplaše zaplašim zaplašiš zaplašio zaplašite zaplašili zaplašen zaplašimo zaplašeni заплаши заплашити заплаше заплашим заплашиш заплашио заплашите заплашили заплашен заплашимо заплашени
+92	6792	smešak	smešak smeška smeškom смешак смешка смешком
+93	6793	energetski	energetski energetske енергетски енергетске
+94	6794	meštanin	meštani meštana meštanima meštane meštanin мештани meštanka мештана мештанима мештане мештанин мештанка
+95	6795	spaljivati	spaljuju spaljuje spaljivali spaljujemo spaljujem spaljuješ spaljivao spaljivati spaljujete спаљују спаљује спаљивали спаљујемо спаљујем спаљујеш спаљивао спаљивати спаљујете
+96	6796	davni	davna davne davnih davni davnoj davnim davnog davnu давна давне давних давни давној давним давног давну
+97	6797	cvijet	cvijet cvijeta cvijetu cvjetovi cvjetove cvjetova цвијет цвијета цвијету цвјетови цвјетове цвјетова
+98	6798	udica	udicu udica udice udici udicom удицу удица удице удици удицом
+99	6799	dogovarati	dogovara dogovarali dogovaramo dogovarao dogovaram dogovaraju dogovarati dogovaraš dogovarala dogovaranje dogovarate договара договарали договарамо договарао договарам договарају договарати договараш договарала договарање договарате
+100	6800	vječan	vječni vječna vječnu vječnog vječne vječnom vječan vječnoj vječnim вјечни вјечна вјечну вјечног вјечне вјечном вјечан вјечној вјечним

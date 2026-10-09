@@ -1,0 +1,100 @@
+1	9501	dosledan	dosledan dosledno dosledna dosledni доследан доследно доследна доследни
+2	9502	улазити	улазим улазите улазимо улазиш улазио улази улазе
+3	9503	dvoličan	dvolični dvolična dvoličan dvolično дволични дволична дволичан дволично
+4	9504	recesija	recesija recesije recesiji recesiju рецесија рецесије рецесији рецесију
+5	9505	server	servera сервера
+6	9506	divljački	divljački divljačke divljačko divljačkog divljačka дивљачки дивљачке дивљачко дивљачког дивљачка
+7	9507	prosjek	prosjek prosjeku prosjeka prosjekom просјек просјеку просјека просјеком
+8	9508	perverzija	perverzije perverzija perverzijama perverziju перверзије перверзија перверзијама перверзију
+9	9509	gorući	goruće gorući gorućeg goruća goruću gorućim gorućih горуће горући горућег горућа горућу горућим горућих
+10	9510	neosnovan	neosnovane neosnovana neosnovano neosnovanih neosnovan neosnovani neosnovanim неосноване неоснована неосновано неоснованих неоснован неосновани неоснованим
+11	9511	bova	bova bove bovi bovu бова бове бови бову
+12	9512	incest	incest incesta incestu инцест инцеста инцесту
+13	9513	moskovski	moskovski moskovskom moskovskog moskovske moskovska московски московском московског московске московска
+14	9514	babun	babun babuna babuni babune бабун бабуна бабуни бабуне
+15	9515	dresirati	dresiran dresirati dresirao dresirani dresiram dresirana dresira dresiraš dresirane дресиран дресирати дресирао дресирани дресирам дресирана дресира дресираш дресиране
+16	9516	poverenik	poverenik poverenika poverenici повереник повереника повереници
+17	9517	srednjoškolac	srednjoškolac srednjoškolci srednjoškolca srednjoškolcima srednjoškolce средњошколац средњошколци средњошколца средњошколцима средњошколце
+18	9518	minimalno	minimalno минимално
+19	9519	ljepotan	ljepotane ljepotan ljepotana љепотане љепотан љепотана
+20	9520	monarh	monarh monarha monarsi monarhu монарх монарха монарси монарху
+21	9521	nepažljiv	nepažljiv nepažljivo nepažljivi nepažljiva непажљив непажљиво непажљиви непажљива
+22	9522	žderati	ždere ždereš žderu žderi žderem žderanje ждере ждереш ждеру ждери ждерем ждерање
+23	9523	epruveta	epruvete epruvetu epruveta epruveti epruvetama епрувете епрувету епрувета епрувети епруветама
+24	9524	sjati	sja sjao sjati sjalo sjaju сја сјао сјати сјало сјају
+25	9525	sutkinja	sutkinjo sutkinja sutkinju суткињо суткиња суткињу
+26	9526	ispoved	ispovedi ispoved исповеди исповед
+27	9527	postanak	postanka postanak postanku постанка постанак постанку
+28	9528	kontrast	kontrast kontrasta kontrastu kontrastom контраст контраста контрасту контрастом
+29	9529	sijeno	sijena sijeno sijenu сијена сијено сијену
+30	9530	fašizam	fašizam fašizma fašizmu fašizmom фашизам фашизма фашизму фашизмом
+31	9531	pakistanski	pakistanski pakistanske pakistanska pakistanskog pakistanskom pakistansku пакистански пакистанске пакистанска пакистанског пакистанском пакистанску
+32	9532	zdanje	zdanje zdanja zdanju здање здања здању
+33	9533	gnjavator	gnjavator gnjavatori gnjavatora gnjavatoru гњаватор гњаватори гњаватора гњаватору
+34	9534	potaknuti	potaknuti potaklo potakne potaknut потакнути потакло потакне потакнут
+35	9535	izostati	izostao izostati izostala izostanem izostane izostaneš изостао изостати изостала изостанем изостане изостанеш
+36	9536	otuđiti	otuđeni otuđili otuđio otuđen otuđena otuđiti otuđila otuđeno otuđene отуђени отуђили отуђио отуђен отуђена отуђити отуђила отуђено отуђене
+37	9537	nesigurnost	nesigurnost несигурност
+38	9538	pridošlica	pridošlice pridošlica pridošlicu pridošlicama придошлице придошлица придошлицу придошлицама
+39	9539	neboder	nebodera neboder nebodere neboderi neboderima небодера небодер небодере небодери небодерима
+40	9540	prepreden	prepreden prepredeni prepredena prepredeno препреден препредени препредена препредено
+41	9541	poslovica	poslovica пословица
+42	9542	neuredno	neuredno неуредно
+43	9543	monolog	monolog monologa monologe monolozi монолог монолога монологе монолози
+44	9544	boravište	boravište boravišta boravištu боравиште боравишта боравишту
+45	9545	budist	budista budisti budist будиста будисти будист
+46	9546	dovoziti	dovoze dovozi dovozio dovozimo dovozili dovozim довозе довози довозио довозимо довозили довозим
+47	9547	saksofon	saksofon saksofona saksofonu саксофон саксофона саксофону
+48	9548	smernica	smernice smernica смернице smernicama смерница смерницама
+49	9549	dolikovati	dolikuje доликује
+50	9550	devin	devin devine devina девин девине девина
+51	9551	svojina	svojina svojinu svojine својина својину својине
+52	9552	tamošnji	tamošnji tamošnje tamošnjim tamošnja tamošnjih tamošnju тамошњи тамошње тамошњим тамошња тамошњих тамошњу
+53	9553	albino	albino albina albine албино албина албине
+54	9554	sastavni	sastavni sastavne саставни саставне
+55	9555	maz	maza maz mazu маза маз мазу
+56	9556	nozdrva	nozdrve nozdrva nozdrvama nozdrvu ноздрве ноздрва ноздрвама ноздрву
+57	9557	logičan	logičan логичан
+58	9558	bodlja	bodlje bodljama bodlji bodlja бодље бодљама бодљи бодља
+59	9559	neformalan	neformalno neformalni neformalan neformalna неформално неформални неформалан неформална
+60	9560	marmelada	marmeladu marmelada marmelade marmeladom мармеладу мармелада мармеладе мармеладом
+61	9561	džet	džet џет
+62	9562	zavodnik	zavodnik zavodniče zavodnika заводник заводниче заводника
+63	9563	pripravan	pripravni pripravan pripravna приправни приправан приправна
+64	9564	ležeran	ležerno ležeran ležerna ležerni лежерно лежеран лежерна лежерни
+65	9565	sujeta	sujeta sujete sujetu sujeti сујета сујете сујету сујети
+66	9566	planinar	planinari planinar planinara planinare планинари планинар планинара планинаре
+67	9567	zloupotrebiti	zloupotrebio zloupotrebiti zloupotrebili zloupotrebe zloupotrebila zloupotrebim zloupotrebi злоупотребио злоупотребити злоупотребили злоупотребе злоупотребила злоупотребим злоупотреби
+68	9568	mačevalac	mačevalac mačevaoca mačevalaca mačevaoci мачевалац мачеваоца мачевалаца мачеваоци
+69	9569	magma	magma magme magmu magmom магма магме магму магмом
+70	9570	spletka	spletke spletki spletka spletkama spletku сплетке сплетки сплетка сплеткама сплетку
+71	9571	potonuti	potonuti потонути
+72	9572	selotejp	selotejp selotejpom selotejpa селотејп селотејпом селотејпа
+73	9573	dobrotvor	dobrotvor dobrotvora dobrotvori dobrotvoru добротвор добротвора добротвори добротвору
+74	9574	priviđenje	priviđenje priviđenja привиђење привиђења
+75	9575	kotlet	kotlete kotlet kotleti kotleta котлете котлет котлети котлета
+76	9576	jestiv	jestive jestiva jestivi jestiv jestivih jestivog jestivim јестиве јестива јестиви јестив јестивих јестивог јестивим
+77	9577	sadržavati	sadržava sadržavati sadržavao sadržavala sadržavaju sadržavalo садржава садржавати садржавао садржавала садржавају садржавало
+78	9578	njuh	njuh njuha njuše njuhom њух њуха њуше њухом
+79	9579	zamenica	zamenica zamenice zamenicu zamenici заменица заменице заменицу заменици
+80	9580	retorički	retoričko retorički retorička реторичко реторички реторичка
+81	9581	terenac	terenac теренац
+82	9582	prigodan	prigodno prigodan prigodna prigodne prigodnu пригодно пригодан пригодна пригодне пригодну
+83	9583	individua	individua individue individuu индивидуа индивидуе индивидуу
+84	9584	obziran	obziran obzirno obzirni obzirna obzirniji обзиран обзирно обзирни обзирна обзирнији
+85	9585	iracionalan	iracionalan iracionalni iracionalna iracionalne iracionalnog iracionalnim ирационалан ирационални ирационална ирационалне ирационалног ирационалним
+86	9586	uračunati	uračunati uračunato uračunao uračunat uračunaš uračunata uračunaj uračunali uračunamo uračunate урачунати урачунато урачунао урачунат урачунаш урачуната урачунај урачунали урачунамо урачунате
+87	9587	supervizor	supervizor supervizora supervizorom супервизор супервизора супервизором
+88	9588	rugoba	rugoba rugobo rugobe rugobu ругоба ругобо ругобе ругобу
+89	9589	krak	krak krakova kraka kraci krakove krakovi крак кракова крака краци кракове кракови
+90	9590	ovogodišnji	ovogodišnji ovogodišnjeg ovogodišnjih овогодишњи овогодишњег овогодишњих
+91	9591	kolektiv	kolektiv kolektiva kolektivu колектив колектива колективу
+92	9592	kontracepcija	kontracepciju kontracepcija kontracepcije kontracepciji контрацепцију контрацепција контрацепције контрацепцији
+93	9593	doktrina	doktrina doktrine doktrinu doktrini доктрина доктрине доктрину доктрини
+94	9594	struk	struk struku strukom струк струку струком
+95	9595	obratno	obratno обратно
+96	9596	komfor	komfor komfora komforu комфор комфора комфору
+97	9597	izdržljiv	izdržljiv izdržljiva izdržljivi izdržljiviji izdržljive izdržljivo издржљив издржљива издржљиви издржљивији издржљиве издржљиво
+98	9598	drvoseča	drvoseča drvoseče дрвосеча дрвосече
+99	9599	celer	celer celera celerom целер целера целером
+100	9600	delikt	delikti delikte deliktima delikt delikata деликти деликте деликтима деликт деликата

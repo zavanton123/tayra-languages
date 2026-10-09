@@ -1,0 +1,100 @@
+1	9001	bogohuliti	bogohuljenje bogohuli bogohuliš богохуљење богохули богохулиш
+2	9002	kamuflaža	kamuflaža kamuflažu kamuflaže камуфлажа камуфлажу камуфлаже
+3	9003	dukat	dukata dukat dukati dukate дуката дукат дукати дукате
+4	9004	kapica	kapicu kapice kapica kapicom капицу капице капица капицом
+5	9005	zrelost	zrelost zrelosti зрелост зрелости
+6	9006	ovisan	ovisan ovisna ovisni овисан овисна овисни
+7	9007	fasada	fasada fasade fasadu fasadi фасада фасаде фасаду фасади
+8	9008	niš	niš niša nišu niše ниша ниш нишу нише
+9	9009	konfuzija	konfuzije konfuzija konfuziju konfuziji конфузије конфузија конфузију конфузији
+10	9010	kašljati	kašlješ kašljao kašljala kašljati kašljanje kašljete kašljite kašlje kašljem kašlji kašlju кашљеш кашљао кашљала кашљати кашљање кашљете кашљите кашље кашљем кашљи кашљу
+11	9011	odrađivati	odrađuje odrađujem odrađuješ odrađivao odrađuju odrađujemo odrađivali одрађује одрађујем одрађујеш одрађивао одрађују одрађујемо одрађивали
+12	9012	operater	operater оператер
+13	9013	inozemstvo	inozemstvu inozemstvo inozemstva иноземству иноземство иноземства
+14	9014	psihoza	psihoze psihoza psihozu психозе психоза психозу
+15	9015	kompozicija	kompozicija kompoziciju kompozicije kompoziciji композиција композицију композиције композицији
+16	9016	nepromišljen	nepromišljen nepromišljena nepromišljeni nepromišljene nepromišljenim непромишљен непромишљена непромишљени непромишљене непромишљеним
+17	9017	maketa	maketu maketa makete maketi макету макета макете макети
+18	9018	smiješak	smiješak smiješkom smiješka смијешак смијешком смијешка
+19	9019	impulsan	impulsni impulsne impulsnu impulsnom impulsna impulsnog импулсни импулсне импулсну импулсном импулсна импулсног
+20	9020	čavao	čavao čavle čavli čavala čavlima čavla чавао чавле чавли чавала чавлима чавла
+21	9021	ucjenjivati	ucjenjuje ucjenjivao ucjenjivati ucjenjuju ucjenjuješ ucjenjivala ucjenjivanje ucjenjivali уцјењује уцјењивао уцјењивати уцјењују уцјењујеш уцјењивала уцјењивање уцјењивали
+22	9022	progres	progres progresa progresu прогрес прогреса прогресу
+23	9023	giljotina	giljotinu giljotina giljotine giljotini giljotinom гиљотину гиљотина гиљотине гиљотини гиљотином
+24	9024	okultan	okultno okultnim okultne okultnog okultni okultnih okultna okultnom окултно окултним окултне окултног окултни окултних окултна окултном
+25	9025	zajeb	zajeb зајеб
+26	9026	iskrcavati	iskrcavanje iskrcavaju iskrcava iskrcavamo искрцавање искрцавају искрцава искрцавамо
+27	9027	paskal	paskal paskale paskala паскал паскале паскала
+28	9028	rogonja	rogonja rogonjo rogonje rogonju рогоња рогоњо рогоње рогоњу
+29	9029	voćnjak	voćnjak voćnjaka voćnjaku воћњак voćnjaci воћњака воћњаку воћњаци
+30	9030	hronika	hronike hronika hroniku hronici hronikama хронике хроника хронику хроници хроникама
+31	9031	reprodukcija	reprodukcija reprodukciju reprodukcije reprodukciji репродукција репродукцију репродукције репродукцији
+32	9032	studentkinja	studentkinja студенткиња
+33	9033	tumačenje	tumačenje tumačenja тумачење тумачења
+34	9034	gustina	gustina gustine gustinu gustini густина густине густину густини
+35	9035	šuškati	šuška šuškalo šuškanje шушка шушкало шушкање
+36	9036	raznolikost	raznolikost raznolikosti разноликост разноликости
+37	9037	iščašiti	iščašio iščašeno iščašenje iščašila iščašen iščašena ишчашио ишчашено ишчашење ишчашила ишчашен ишчашена
+38	9038	zaklada	zakladu zaklade zaklada zakladi закладу закладе заклада заклади
+39	9039	naklon	naklon nakloni naklona наклон наклони наклона
+40	9040	smaragd	smaragd smaragdi smaragde smaragda smaragdima смарагд смарагди смарагде смарагда смарагдима
+41	9041	guliti	guli gulio guljenje gule gulim guliti guliš гули гулио гуљење гуле гулим гулити гулиш
+42	9042	balega	balege balegu balega balegom балеге балегу балега балегом
+43	9043	izbezumljen	izbezumljena izbezumljen izbezumljeni izbezumljeno избезумљена избезумљен избезумљени избезумљено
+44	9044	semenka	semenke semenki semenkama семенке семенки семенкама
+45	9045	smokva	smokve smokva smokvama smokvi smokvu smokava смокве смоква смоквама смокви смокву смокава
+46	9046	kontra	kontra контра
+47	9047	počinak	počinak počinka починак починка
+48	9048	simulirati	simulira simuliraju simulirati simulirao simulirali simuliramo simuliram simulirani симулира симулирају симулирати симулирао симулирали симулирамо симулирам симулирани
+49	9049	koban	kobna kobne koban kobnu kobni kobnog kobnim кобна кобне кобан кобну кобни кобног кобним
+50	9050	opipati	opipaj opipam opipati opipao opipaš opipajte opipala опипај опипам опипати опипао опипаш опипајте опипала
+51	9051	nabolje	nabolje најбоље набоље
+52	9052	začarati	začarala začarao začarati začara začarali зачарала зачарао зачарати зачара зачарали
+53	9053	kompanjon	kompanjona kompanjon kompanjoni kompanjone kompanjonima компањона компањон компањони компањоне компањонима
+54	9054	podrignuti	podrigivanje podrigne podriguje podrignuo podrigujem podrignuti podriguješ podrignula podrigni podrignem подригивање подригне подригује подригнуо подригујем подригнути подригујеш подригнула подригни подригнем
+55	9055	odbojka	odbojku odbojka odbojci odbojke одбојку одбојка одбојци одбојке
+56	9056	upitan	upitno upitan upitna upitne упитно упитан упитна упитне
+57	9057	punoletan	punoletna punoletan punoletni punoletne пунолетна пунолетан пунолетни пунолетне
+58	9058	oposum	oposum oposuma oposumi oposume опосум опосума опосуми опосуме
+59	9059	zapostaviti	zapostavio zapostavila zapostavljeno zapostavljena zapostavili zapostaviti zapostavljen zapostavim zapostavljeni запоставио запоставила запостављено запостављена запоставили запоставити запостављен запоставим запостављени
+60	9060	gnjev	gnjev gnjeva gnjevom гњев гњева гњевом
+61	9061	matica	matica matice maticu матица матице матицу
+62	9062	crtaći	crtaća crtaći crtaćima crtaće crtaću цртаћа цртаћи цртаћима цртаће цртаћу
+63	9063	senilan	senilan senilna senilni senilnog сенилан сенилна сенилни сенилног
+64	9064	šte	šte ште
+65	9065	izvodljiv	izvodljivo izvodljiv изводљиво изводљив
+66	9066	privrženost	privrženost privrženosti приврженост привржености
+67	9067	udruživati	udruživanje udružuju udružuje udružujemo удруживање удружују удружује удружујемо
+68	9068	emitirati	emitira emitiranje emitirati emitiraju emitiramo емитира емитирање емитирати емитирају емитирамо
+69	9069	kačket	kačket kačketom kačkete качкет качкетом качкете
+70	9070	brežuljak	brežuljka brežuljak brežuljku brežuljaka brežuljcima brežuljci brežuljke брежуљка брежуљак брежуљку брежуљака брежуљцима брежуљци брежуљке
+71	9071	zaslon	zaslon zaslonu zaslona заслон заслону заслона
+72	9072	razoružati	razoružati razoružao razoruža razoružajte razoružaj razoružali razoružamo razoružan razoružani razoružam разоружати разоружао разоружа разоружајте разоружај разоружали разоружамо разоружан разоружани разоружам
+73	9073	atelje	atelje ateljeu ateljea атеље атељеу атељеа
+74	9074	tutanj	tutanj tutnji tutnje тутањ тутњи тутње
+75	9075	grudva	grudva grudve grudvu grudvi grudvama грудва грудве грудву грудви грудвама
+76	9076	podsvestan	podsvesno podsvesne podsvesni podsvesna podsvesnom подсвесно подсвесне подсвесни подсвесна подсвесном
+77	9077	haringa	haringe haringa haringi haringu харинге харинга харинги харингу
+78	9078	slezina	slezina slezinu slezine слезина слезину слезине
+79	9079	grabiti	grabi grabiš grabim grabite grabio grabimo grabe граби грабиш грабим грабите грабио грабимо грабе
+80	9080	nepromišljeno	nepromišljeno непромишљено
+81	9081	sim	sim сим
+82	9082	telepatski	telepatski telepatske telepatsku telepatska telepatskih telepatsko телепатски телепатске телепатску телепатска телепатских телепатско
+83	9083	nabasati	nabasao nabasali nabasala nabasati nabasa набасао набасали набасала набасати набаса
+84	9084	skela	skele skela skelu skeli skelama скеле скела скелу скели скелама
+85	9085	herc	herc herca херц херца
+86	9086	gasnuti	gasne gasnu gasni гасне гасну гасни
+87	9087	ljepilo	ljepilo ljepila ljepilom љепило љепила љепилом
+88	9088	hemičar	hemičar hemičara hemičari хемичар хемичара хемичари
+89	9089	velikan	velikana velikani velikan velikane velikanima великана великани великан великане великанима
+90	9090	prodavaonica	prodavaonicu prodavaonice prodavaonici prodavaonica продаваоницу продаваонице продаваоници продаваоница
+91	9091	slad	slade slad slada сладе слад слада
+92	9092	tiskati	tiskaj tiskati tiskanje tiska tiskajte tiskaju тискај тискати тискање тиска тискајте тискају
+93	9093	omamiti	omamljen omamljena omamio omami omamljeni omamili omamiti omamljeno омамљен омамљена омамио омами омамљени омамили омамити омамљено
+94	9094	mačor	mačor mačora mačore mačori mačoru мачор мачора мачоре мачори мачору
+95	9095	kanibal	kanibali kanibal kanibala kanibale канибали канибал канибала канибале
+96	9096	utući	utučen utučena utučeno utučeni утучен утучена утучено утучени
+97	9097	dabogda	dabogda дабогда
+98	9098	raskošan	raskošan raskošna raskošne raskošnu raskošnim raskošni raskošnom raskošnih раскошан раскошна раскошне раскошну раскошним раскошни раскошном раскошних
+99	9099	proglas	proglas proglasi proglase прогласи проглас прогласе
+100	9100	zloća	zloća zloće zloćo zloću злоћа злоће злоћо злоћу

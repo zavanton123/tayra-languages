@@ -1,0 +1,100 @@
+1	901	zadovoljstvo	zadovoljstvo zadovoljstvom zadovoljstva задовољство zadovoljstava zadovoljstvu zadovoljstvima задовољством задовољства задовољстава задовољству задовољствима
+2	902	sumnjati	sumnjam sumnjao sumnjaš sumnjate sumnjala sumnjati sumnjaju sumnjamo sumnjali сумњам sumnjaj sumnjajte sumnjalo сумњао sumnjajući сумњате сумњаш сумњају сумњали сумњамо сумњала сумњати сумњај сумњајте сумњало сумњајући
+3	903	zapamtiti	zapamti zapamtite zapamtio zapamtiti zapamtiš zapamtim zapamtila zapamtiću zapamtili запамтите запамти zapamtimo zapamćen zapamte zapamćeni запамтити zapamtićeš zapamćena zapamćeno запамтио zapamtiće zapamtićete запамтиш запамтим запамтила запамтићу запамтили запамтимо запамћен запамте запамћени запамтићеш запамћена запамћено запамтиће запамтићете
+4	904	pokazivati	pokazuje pokazuju pokazuješ pokazujem pokazivao pokazivati pokazivanje pokazivala pokazuj pokazujete pokazujemo показује pokazivali pokazujući показују pokazujte pokazivale pokazivalo показујеш показујем показивао показивање показивати показивала показуј показујете показујемо показивали показујући показујте показивале показивало
+5	905	cena	cenu cena cene ceni cenama cenom цену цена цени цене ценама ценом
+6	906	ostavljati	ostavlja ostavljam ostavljaj ostavljaš ostavljaju ostavljajući ostavljamo ostavljajte ostavljate ostavljao ostavljati ostavljala ostavljali ostavljanje оставља остављам остављај остављајући остављаш остављају ostavljale остављамо остављајте остављате остављао остављати остављала остављали остављање остављале
+7	907	činjenica	činjenica činjenice činjenicu činjenicama činjenicom činjenici чињеница чињенице чињеницу чињеницом чињеницама чињеници
+8	908	čestitati	čestitam čestitamo честитам čestitati čestita čestitao čestitaj čestitaš čestitaju čestitajte čestitali čestitate čestitala честитамо čestitanje честитати честита честитао честитај честиташ честитају честитајте честитали честитате честитала честитање
+9	909	zauvek	zauvek заувек
+10	910	ponuditi	ponudio ponuditi ponudim ponudili ponudila ponudi ponude ponudimo ponudiš ponudite ponuđeno ponuđen понудио ponuđena ponudiću понудим понудити ponudićemo ponudiće понудили ponudile понудила ponudilo понуди ponuđene ponuđeni ponudićeš понудимо понуде понудиш понудите понуђено понуђен понуђена понудићу понудићемо понудиће понудиле понудило понуђене понуђени понудићеш
+11	911	prokletstvo	prokletstvo проклетство prokletstva prokletstvu prokletstvom проклетства проклетству проклетством
+12	912	sem	sem сем
+13	913	pakao	pakao paklu pakla пакао паклу пакла paklom pakle pakli паклом пакле пакли
+14	914	lično	lično лично
+15	915	disati	diši diše dišem disanje disati dišeš dišite dišu disao dišemo dišete disala дише дисање диши disali дишем dišući дисати дишеш disah дишите дишу дисао дишемо дишете дисала дисали дишући дисах
+16	916	čudo	čudo čuda čudom чудо čudu čudesa čudima чуда čudesima чудом чуду чудеса чудима чудесима
+17	917	član	član članovi člana članova članove članovima članu članom члан чланови чланова члана чланове члановима члану чланом
+18	918	zvuk	zvuk zvuci zvuka zvuke zvukove zvuče zvukova zvukom zvukovi звук zvuku zvucima zvukovima звука звуке звуци звукова звуче звукове звуком звукови звуку звуцима звуковима
+19	919	gost	gost goste gosti gosta gostiju gostima gostu gostom гости госте гост гостију госта гостима госту гостом
+20	920	obući	obuci obučem obući obukao obuku obukla obučeš obucite obuče obukli obučemo obučete обуци обучем обући обуку obucimo обучеш обукла obukle обукао обуче обуците обукли обучемо обучете обуцимо обукле
+21	921	šala	šala šale šali šalu šalom šalama шала шале шали шалу шалом шалама
+22	922	kreten	kreten kretenu kreteni kretena kretene kretenom кретен kretenima кретену кретени кретена кретене кретеном кретенима
+23	923	iskren	iskren iskrena iskreni najiskrenije iskrene искрен iskrenu iskrenog iskrenim iskreniji искрени искрена najiskreniji iskrenom iskrenije iskrenija najiskrenija iskrenih iskrenoj најискреније искрене искрену искреног искреним искренији најискренији искреном искреније искренија најискренија искрених искреној
+24	924	cipela	cipele cipela cipelama cipelu cipeli ципеле cipelom ципела ципелама ципелу ципели ципелом
+25	925	viđati	viđam viđaš viđao viđa viđamo viđati viđala viđali viđate viđaju viđaćemo viđanje виђам виђао виђаш viđaj виђамо viđaću виђа виђати виђала viđale viđaćeš виђали виђате виђају виђаћемо виђање виђај виђаћу виђале виђаћеш
+26	926	visoko	najviše visoko visokog visokim visokom високо високог високом високим највише
+27	927	plaćati	plaćam plaćaju plaćaš plaćamo plaćati plaćao plaćanje plaćate plaćanja plaćali plaćala плаћају плаћам plaćaj plaćajući plaćaću плаћање плаћаш плаћате плаћамо plaćajte plaćaćeš плаћао плаћати plaćalo plaćale plaćaće плаћали плаћања плаћала плаћај плаћајући плаћаћу плаћајте плаћаћеш плаћало плаћале плаћаће
+28	928	odustati	odustati odustao odustaneš odustala odustanem odustani odustane odustali odustanemo odustanete odustanu odustanite одустати одустао odustaću odustaćeš одустане odustaće odustanimo odustale odustalo одустанеш одустанем одустала одустани одустали odustaćemo одустанемо одустанете одустану одустаните одустаћу одустаћеш одустаће одустанимо одустале одустало одустаћемо
+29	929	poručnik	poručniče poručnik poručnika poručniku поручниче poručnikom поручник poručnici поручника poručnike поручнику поручником поручници поручнике
+30	930	ponosan	ponosan ponosna ponosni ponosno ponosnim поносан ponosnom ponosne ponosniji поносна поносни najponosniji ponosnog ponosnu ponosnija ponosnima ponosnih поносно поносним поносном поносне поноснији најпоноснији поносног поносну поноснија поноснима поносних
+31	931	pripremiti	pripremite pripremiti pripremi pripremio pripremim pripremimo pripremila pripreme pripremili pripremiš pripremljeni pripremljena pripremiću pripremljeno припремите pripremljene pripremićemo припреми pripremilo pripremile припремио припремити припремимо припремим припреме припремила припремили припремиш припремљени припремљена припремићу припремљено припремљене припремићемо припремило припремиле
+32	932	prevod	prevod превод prevodu prevodi prevoda prevode prevodom преводу преводи превода преводе преводом
+33	933	zatvoren	zatvoren zatvorena zatvoreno zatvoreni zatvorene zatvorenih zatvorenim zatvorenom zatvorenog zatvorenu затворен затворена zatvorenoj затворено затворени zatvorenima затворене затворених затвореним затвореном затвореног затворену затвореној затворенима
+34	934	baviti	bavi baviš bavim bavite bavio baviti bavimo bavila bavili бави бавиш bavljenje бавим baveći бавио бавите бавимо bavićemo bavile бавити bave baviću bavilo баве бавила бавили бављење бавећи бавићемо бавиле бавићу бавило
+35	935	svuda	svuda свуда
+36	936	kurva	kurva kurve kurvo kurvu kurvi kurvom kurvama курва kurvetino kurvetina курве kurvinski курво курву kurvinska kurava kurvetine курви kurvinske kurvinsko kurvetinu kurvinsku курвом курвама курветино курветина курвински курвинска курава курветине курвинске курвинско курветину курвинску
+37	937	restoran	restoran restoranu restorana restoranima restorane restorani ресторан ресторану restoranom ресторана ресторанима ресторане ресторани рестораном
+38	938	isključiti	isključi isključiti isključio isključen isključite isključim isključili isključimo isključiš isključuje isključila isključena isključeni isključeno isključe isključujem isključivanje isključiću isključuju isključenje искључен isključene isključuješ искључи искључите isključuj isključujemo искључити isključićemo isključilo isključivati искључио isključujete искључује isključujući isključiće искључили искључени искључим isključile искључимо искључиш искључила искључена искључено искључе искључујем искључивање искључићу искључују искључење искључене искључујеш искључуј искључујемо искључићемо искључило искључивати искључујете искључујући искључиће искључиле
+39	939	prolaz	prolazi prolaz prolaze prolazu prolaza пролази пролаз prolazima prolazom пролазе пролазу пролаза пролазима пролазом
+40	940	misao	misli misao mislima мисли mišlju мисао мислима мишљу
+41	941	kurac	kurac kurca kurcu курац kurcem kurčeve kurčeva kurčevi kurče kurci kurčevima kuraca курца kurce kurcima курцу курцем курчеве курчева курчеви курче курци курчевима кураца курце курцима
+42	942	vrh	vrhu vrh vrha vrše vrhovima vrhovi vrhova vrhove врху vrhom врх врха врше врховима врхови врхова врхове врхом
+43	943	šuma	šumi šumu šume šuma šumama šumom шуми шуму шуме шума шумама шумом
+44	944	granica	granice granica granicu granici granicama границе граница границу granicom граници границама границом
+45	945	drvo	drvo drveta drva drvetu drvce drvetom дрво дрвета drvca дрвету дрвце дрва дрветом дрвца
+46	946	kučka	kučko kučka kučke kučku kučkom kučki кучка кучко kučkama кучке кучку кучком кучки кучкама
+47	947	sir	sir sira sirom сир siru sireva сира sireve sirevi сиром sirevima сиру сирева сиреве сиреви сиревима
+48	948	vezati	vezan vezano vezana vezane veži vezani vežite vezati veže vezali vežem vežeš vezala vežu vežemo vežete vezaću vezivati везан vezanje vezaćemo вежи везани везане vezao vezale везано вежите везана везати везали vezalo везао vežimo веже vezaće вежем вежеш везала вежу вежемо вежете везаћу везивати везање везаћемо везале везало вежимо везаће
+49	949	nalaz	nalazi nalaze nalaz налази nalaza nalazima налазе nalazu налаз nalazom налаза налазима налазу налазом
+50	950	prazan	prazan prazna prazno prazne praznih praznu prazni praznim praznog praznom praznoj празна празан празно празне празних празну празни празним празног празном празној
+51	951	sloboda	slobodu sloboda slobode slobodi slobodom слободу слобода слободе слободи slobodama slobodo слободом слободама слободо
+52	952	odeća	odeću odeća odeće odeći odećom одећу одећа одеће одећи одећом
+53	953	sanjati	sanjao sanjala sanjam sanjaš sanjaj sanjali sanjati sanjaju sanjamo sanjate сањао sanjajući sanjajte sanjana сањам sanjanje sanjale сањај sanjaću сањаш сања сањала сањали сањати сањају сањамо сањате сањајући сањајте сањана сањање сањале сањаћу
+54	954	pukovnik	pukovniče pukovnik pukovnika pukovniku пуковниче pukovnikom пуковник пуковника pukovnici пуковнику пуковником пуковници
+55	955	voz	voz vozu vozom voza vozovi vozove воз vozova vozovima воза возом возу возове возови возова возовима
+56	956	motor	motor motora motore motori motoru motorom motorima мотор мотора моторе мотори мотором мотору моторима
+57	957	putovati	putuje putujem putovao putovati putuju putovali putujemo putuješ putujete putovala putujući putuj putujte putovaćemo путује putovale putovaću путовао путују путујем putovalo путовали путовати putovaćeš putovaće путујемо путујете путујеш путовала путујући путуј путујте путоваћемо путовале путоваћу путовало путоваћеш путоваће
+58	958	planeta	planeta planete planeti planetu planetama planetom планети планете планету планета планетама планетом
+59	959	otvarati	otvara otvaraj otvaranje otvaraju otvaram otvaranja otvaramo otvarajte otvaraš otvaranju otvarati otvarao otvarate отвара otvarala otvarali otvaranjem отварај отварање отварају otvarajući otvarana отварам otvaran otvarano отварајте otvarale отварања отварамо отвараш отварању отварати отварао отварате отварала отварали отварањем отварајући отварана отваран отварано отварале
+60	960	program	program programa programu programe programom програм programi programima програма програму програме програмом програми програмима
+61	961	park	park parku parka парк parkom parkove parkova parkovima парку parkovi парка парком паркове паркова парковима паркови
+62	962	spasti	spasao spasem spasemo spaseš spasti spasla spasli spada spali spasi spao spasete spadaju spasu spala spasen spaseni спасао spasimo spasena spasite spadne spale spase spadam spaslo spadaš spasavati spalo spade спасем spadalo спасеш spadate spaseno spadnu spašće spašću спасемо spasle спасти спасла спасли спада спали спаси спао спасете спадају спасу спала спасен спасени спасимо спасена спасите спадне спале спасе спадам спасло спадаш спасавати спало спаде спадало спадате спасено спадну спашће спашћу спасле
+63	963	putovanje	putovanje putovanja putovanju putovanjima путовање putovanjem путовања путовању путовањима путовањем
+64	964	zaraditi	zaradio zaraditi zaradim zaradi zaradiš zarade zaradili zaradila zarad zaradimo zaradite zaradiću zaradićemo zaradićeš zarađen зарадио zarađeni zaradile зарадити zaradiće zaradićete заради зарадим зарад зараде zarađeno зарадили zaradilo зарадиш зарадите zarađene зарадила зарадимо зарадићу зарадићемо зарадићеш зарађен зарађени зарадиле зарадиће зарадићете зарађено зарадило зарађене
+65	965	predstava	predstavu predstava predstave predstavi predstavom представу predstavama представа представи представе представом представама
+66	966	komad	komad komada komadu komade komadić komadi komadom комад komadima комада комаде комаду комадић комади комадом комадима
+67	967	pokret	pokret pokretu pokreta pokrete pokreti покрет pokretima pokretom покрету покрета покрете покрети покретима покретом
+68	968	smisliti	smislio smisliti smislim smisli smislimo smislila smislili smislićemo smisliću smisliš smislite smišljeno smislićeš смислио smišljena smišljen smislile smisle смислити smisliće смислим смислимо смисли смислили smišljeni smišljene смислила смислићу смислићемо смислиш смислите смишљено смислићеш смишљена смишљен смислиле смисле смислиће смишљени смишљене
+69	969	cilj	cilj cilja cilju ciljeve ciljem ciljeva ciljevi циљ ciljevima циља циљу циљеве циљем циљева циљеви циљевима
+70	970	kompanija	kompanija kompanije kompaniju kompaniji kompanijom kompanijama компанија компаније компанију компанији компанијом компанијама
+71	971	razbiti	razbio razbiti razbila razbijem razbiću razbili razbija razbije razbij razbijanje razbiješ razbijemo razbijen razbijena razbijam razbit razbijaju razbiju razbijeno razbijaš razbijeni razbijamo razbijene razbijte razbijati razbi razbićemo razbilo razbiće razbijete разбио razbijaj razbijate разбити razbićeš razbijmo razbile разбијање razbijajući разбила разбијем разбићу разбили разбија разбије разбиј разбијеш разбијемо разбијен разбијена разбијам разбит разбијају разбију разбијено разбијаш разбијени разбијамо разбијене разбијте разбијати разби разбићемо разбило разбиће разбијете разбијај разбијате разбићеш разбијмо разбиле разбијајући
+72	972	rezultat	rezultat rezultate rezultati rezultata rezultatima резултат rezultatom резултате резултати rezultatu резултата резултатима резултатом резултату
+73	973	slab	slab slabo slaba slabi slabe slabiji slabu slabije slabim slabog slabija slabih slabom najslabija najslabiji слаб najslabije слаба слабо slabima slabijim slabijeg слабе slabiju слаби najslabiju slabijih slaboj slabijima najslabijeg слабији слабу слабије слабим слабог слабија слабих слабом најслабија најслабији најслабије слабима слабијим слабијег слабију најслабију слабијих слабој слабијима најслабијег
+74	974	natrag	natrag натраг
+75	975	hitan	hitnu hitna hitan hitne hitnoj hitni hitnom hitnim hitnog хитну hitnih хитна хитне hitnije хитан хитној hitniji najhitnije хитни хитном хитним хитног хитних хитније хитнији најхитније
+76	976	osam	osam осам
+77	977	čitav	čitav čitavu čitava čitavo čitavog čitave čitavom čitavoj čitavi čitavih čitavim читав читаву читава читаво читавог читаве читавој читавом читави читавих читавим
+78	978	izveštaj	izveštaj izveštaje izveštaju izveštaja izveštaji izveštajima извештај izveštajem извештаје извештаја извештају извештаји извештајима извештајем
+79	979	vratilo	vratila vratilo вратило вратила
+80	980	čaj	čaj čaja чај čajem čaju чаја čajeve čajeva čajevi чајем чају чајеве чајева чајеви
+81	981	terati	tera teraj teraš terao oterao teraju terati oterati teram oterala oterali terala otera terajte terali oteram terate oteraj oteraš oteramo oteraju teramo oterajte terajući тера терај oterate teranje oteralo oteraću teralo oterani oteraće oteran oteraćeš teraće отерати oterale терао oteraćemo тераш отерао терају терати терам отерала отерали терала отера терајте терали отерам терате отерај отераш отерамо отерају терамо отерајте терајући отерате терање отерало отераћу терало отерани отераће отеран отераћеш тераће отерале отераћемо
+82	982	nož	nož nožem noža noževe noževa noževima noževi нож nožu ножем ножа ножеве ножева ножевима ножеви ножу
+83	983	sići	silazi siđi sišao sići silazim sišla siđem siđe siđeš siđite sišli silazite siđemo silazimo siđete silaze silaziš siđu силази сиђи сишао сићи siđimo silaziti sišle sišlo сиђе сиђем сиђеш silazeći silaženje сиђемо силазим сишли сиђите сишла силазите силазимо сиђете силазе силазиш сиђу сиђимо силазити сишле сишло силазећи силажење
+84	984	sudbina	sudbina sudbinu sudbine sudbini sudbinom судбина судбину sudbino судбине sudbinama судбини судбином судбино судбинама
+85	985	duboko	duboko dublje дубоко najdublje дубље најдубље
+86	986	dirati	diraj dirati dirajte dira dirao diraš diram diraju dirali dirala dirate diramo дирај diranje dirano дирајте дирати дирао дира дираш dirana diran dirale дирам дирају дирали дирала дирате дирамо дирање дирано дирана диран дирале
+87	987	točno	točno точно
+88	988	prodavati	prodaje prodajem prodaješ prodavao prodajemo prodavati prodaju prodajete prodavali prodavala prodaji prodajući prodavanje продаје продајем prodavale продајеш prodavaću prodavaćemo prodavaće продају продавао продајемо продавати prodavalo prodavana prodavaćeš prodavani prodavane prodavan продајете продај продавали продавала продаји продајући продавање продавале продаваћу продаваћемо продаваће продавало продавана продаваћеш продавани продаване продаван
+89	989	izazvati	izaziva izazvao izazvati izazvalo izazvala izazivam izazivaju izazivaj izazivaš izazvali izazove izazvan izazivati izazvana izazovem izazoveš izazivanje izazovu izazivajući izazovemo izazvane izazvano izazivate izazvale izazivamo izazvani izazovete изазива изазвао izazvaće izazivajte изазвати izazovi izazvaću изазвало изазвала izazvaćeš izazvaćemo изазивају изазивам изазивај изазиваш изазвали изазове изазван изазивати изазвана изазовем изазовеш изазивање изазову изазивајући изазовемо изазване изазвано изазивате изазвале изазивамо изазвани изазовете изазваће изазивајте изазови изазваћу изазваћеш изазваћемо
+90	990	mišljenje	mišljenje mišljenju mišljenja мишљење mišljenjem мишљењу мишљења мишљењем
+91	991	torba	torbu torbe torbi torba torbom торбу torbama торба торбе торби торбом торбама
+92	992	sudija	sudija sudijo sudije sudiju sudiji sudijom судија sudijama судије судијо судију судији судијом судијама
+93	993	istraga	istragu istraga istrage istrazi istragom истрагу истрага истраге istragama истрази истрагом истрагама
+94	994	iznad	iznad изнад
+95	995	obožavati	obožavam obožava obožavaju obožavao obožavala obožavaš obožavamo obožavali obožavati obožavanje обожавам obožavate obožavana obožavan obožavaće obožavaćeš обожава obožavale obožavani обожавају обожавао obožavane обожавала обожаваш обожавамо обожавали обожавати обожавање обожавате обожавана обожаван обожаваће обожаваћеш обожавале обожавани обожаване
+96	996	istorija	istoriji istoriju istorija istorije istorijom историју историји историја историје историјом
+97	997	srednji	srednje srednjoj srednju srednja srednji srednjem srednjeg srednjih srednjim средње средњој srednjom средњем средњу средња средњег средњи средњих средњим средњом
+98	998	meta	meta mete metu meti metom мета мети metama мете мету метом метама
+99	999	zasluživati	zaslužuje zaslužuješ zaslužujem zaslužuju zaslužujete zaslužujemo заслужује заслужују заслужујем заслужујеш zasluživao заслужујете zasluživala заслужујемо заслуживао заслуживала
+100	1000	vikend	vikend vikenda vikendom vikendima vikende викенд vikendu викенда vikendi викендом викендима викенде викенду викенди

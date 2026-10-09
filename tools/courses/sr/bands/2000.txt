@@ -1,0 +1,100 @@
+1	1901	ludilo	ludilo ludila ludilu ludilom лудило лудила лудилу лудилом
+2	1902	fabrika	fabrici fabrike fabrika fabriku fabrikama fabrikom фабрици фабрике фабрика фабрику фабрикама фабриком
+3	1903	paket	paket paketa paketu pakete paketi paketom пакет paketima пакета пакету пакете пакети пакетом пакетима
+4	1904	razum	razum razume razuma razumu razumom разум разуме разума разуму разумом
+5	1905	sumnjiv	sumnjivo sumnjiv nesumnjivo sumnjiva sumnjivi sumnjive sumnjivog sumnjivih sumnjivim sumnjivu sumnjivom сумњиво сумњив несумњиво sumnjivoj najsumnjiviji sumnjivije sumnjiviji сумњива сумњиви сумњиве сумњивог сумњивих сумњивим сумњиву сумњивом сумњивој најсумњивији сумњивије сумњивији
+6	1906	izgovor	izgovor izgovori izgovora izgovore izgovorom изговор izgovorima izgovoru изговори изговоре изговора изговором изговорима изговору
+7	1907	osoblje	osoblje osoblja osoblju osobljem особље особља особљу особљем
+8	1908	odustajati	odustajem odustaješ odustaje odustaj odustajemo odustaju odustajanje odustajete odustajte odustajati odustajao одустајем odustajala одустај odustajali одустајеш одустаје одустајемо одустају одустајање одустајете одустајте одустајати одустајао одустајала одустајали
+9	1909	ratnik	ratnik ratnika ratnici ratnike ratnicima ratniče ratniku ратник ratnikom ратници ратника ратнике ратницима ратниче ратнику ратником
+10	1910	oblak	oblak oblaka oblaci oblake oblacima oblače oblaku oblakom облак облака облаци облаче облацима облаке облаку облаком
+11	1911	održavati	održava održavaju održavati održavam održavamo održavao održavaš održavaj održavala održavali održavate održavajte одржава održavalo održavajući održavale održavan održavana одржавају održavani održavaću održavaćemo одржавање одржавати одржавам одржавамо одржавао одржаваш одржавај одржавала одржавали одржавате одржавајте одржавало одржавајући одржавале одржаван одржавана одржавани одржаваћу одржаваћемо
+12	1912	šifra	šifra šifru šifre šiframa šifrom šifri шифра šifara шифру шифре шифрама шифром шифри шифара
+13	1913	čvrst	čvrst čvrsta čvrste čvrsti čvršće čvrstu čvrstim čvrstog čvrstih čvrstom čvršći čvršća čvrstoj чврст najčvršći чврста najčvršće чврсти чвршће чврсте чврсту чврстим чврстог чврстих чврстом чвршћи чвршћа чврстој најчвршћи најчвршће
+14	1914	priuštiti	priuštiti priuštim priuštimo priušti priuštiš priušte priuštite priuštio приуштити priuštila priuštili приуште приуштим приушти приуштимо приуштиш приуштите приуштио приуштила приуштили
+15	1915	predložiti	predložio predložim predložila predložiti predlaže predložili predloži predložiću predložiš predložite предложио predložimo predloženo predložen predloženi predložena предложим предложити predlagati predložene предложила predlože предлаже предложили предложи предложићу предложиш предложите предложимо предложено предложен предложени предложена предлагати предложене предложе
+16	1916	dvorište	dvorištu dvorište dvorišta дворишту dvorištem dvorištima двориште дворишта двориштем двориштима
+17	1917	raspored	raspored rasporedu rasporeda rasporedom rasporedi распоред rasporede распореду rasporedima распореда распоредом распореди распореде распоредима
+18	1918	tužilac	tužilac tužioca tužiocu tužiocem tužioče tužioci тужилац тужиоца tužilaca tužioce tužiocima тужиоцу тужиоцем тужиоче тужиоци тужилаца тужиоце тужиоцима
+19	1919	dnevnik	dnevnik dnevniku dnevnika dnevnike dnevnici dnevniče dnevnicima дневник dnevnikom дневнику дневниче дневника дневнике дневници дневницима дневником
+20	1920	usna	usne usana usnama usnu usna usni usnom усне усана уснама усну усна усни усном
+21	1921	tama	tame tami tama tamu tamom тами таме тама таму тамом
+22	1922	dovoljan	dovoljna dovoljan dovoljne dovoljni dovoljnu dovoljnom довољан dovoljnoj довољна dovoljnim dovoljnog довољне довољни довољну довољном довољној довољним довољног
+23	1923	sinak	sinko sinak синко синак
+24	1924	severni	severnoj severne severni severnom severna severnog severnu severnim severnije severnih северној северна северне северни северну северном северног северним северније северних
+25	1925	skladište	skladište skladištu skladišta skladištima складиште skladištem складишту складишта складиштима складиштем
+26	1926	gurati	gura guraš gurati guram gurajte guraju gurao guranje guramo gurate gurali gurala gurajući гура гураш гурају guralo guran гурање гурати guraću гурам гурајте гурај гурао гурамо гурате гурали гурала гурајући гурало гуран гураћу
+27	1927	silovati	silovao silovana siluje silovali silovati siluju silovan siluješ silovane silovala silujem силовао silovani silujete siluj силована silovaću silovano silujemo силовали silovaće silovalo силује силовати силују силован силујеш силоване силовала силујем силовани силујете силуј силоваћу силовано силујемо силоваће силовало
+28	1928	terapija	terapiju terapija terapije terapiji terapijom terapijama терапија терапију терапије терапији терапијом терапијама
+29	1929	polovina	polovina polovinu polovine polovini polovinom половина половину половине половини половином
+30	1930	mušterija	mušterija mušterije mušteriju mušterijama mušteriji mušterijom муштерије муштерија mušterijo муштерију муштеријама муштерији муштеријом муштеријо
+31	1931	kopati	kopati kopa kopaš kopao kopaju kopam kopaj kopanje kopamo kopali kopate kopala kopajte kopajući копање копају копаш kopaćemo копај копа kopaću копати копао копам копамо копали копате копала копајте копајући копаћемо копаћу
+32	1932	samoubistvo	samoubistvo samoubistva samoubistvu самоубиство samoubistvom samoubistvima самоубиства самоубиству самоубиством самоубиствима
+33	1933	okean	okean okeana okeanu okeani okeane okeanima okeanom океан океана okeanski океану океани океане океанима океаном океански
+34	1934	suprug	suprug suprugu supruge suprugom supruzi супруг супругу супруге супругом супрузи
+35	1935	pacov	pacova pacov pacovi pacove pacovima pacovu пацов pacovom пацова пацови пацове пацовима пацову пацовом
+36	1936	milijun	milijuna milijun milijune milijuni milijunima милијуна милијун милијуне милијуни милијунима
+37	1937	predavati	predajem predaje predaješ predajemo predavao predavati predajete predavala predaj predavali predajte predaju предајем predajući предајеш predajmo предаје предај предајте предају предајемо предавао предавати предајете предавала предавали предајући предајмо
+38	1938	leti	leti лети
+39	1939	tunel	tunel tunela tunelu tunele tuneli tunelima tunelom тунел тунела тунелу тунеле тунели тунелима тунелом
+40	1940	britanski	britanski britanske britanska britanskog britanskih britansku britanskom britanskim britanskoj britansko британски британске британска британског британских британску британском британским британској британско
+41	1941	začep	začepi začepe зачепи зачепе
+42	1942	straža	straža stražu straže straži stražom стража stražo стражу страже стражи стражом стражо
+43	1943	mračan	mračna mračni mračne mračnu mračan mračnoj mračnim mračnom mračnog mračnih najmračnije mračnije najmračniji najmračnijim mračniji najmračnijih najmračnija najmračniju мрачна najmračnijem mračnija мрачне мрачни мрачну мрачан мрачној мрачним мрачном мрачног мрачних најмрачније мрачније најмрачнији најмрачнијим мрачнији најмрачнијих најмрачнија најмрачнију најмрачнијем мрачнија
+44	1944	domaći	domaći domaće domaćeg domaća domaću domaćim domaćih domaćem домаћи domaćoj domaćom домаће домаћа домаћег домаћу домаћим домаћих домаћем домаћој домаћом
+45	1945	naići	naišao naišli naiđe naići naišla nailazi naiđu naiđemo naiđeš naiđete nailaze naiđem nailazimo nailazim nailazio наишао naišlo nailazili наиђе наишли наићи nailazite naišle nailaziš наишла наилази наиђу наиђемо наиђеш наиђете наилазе наиђем наилазимо наилазим наилазио наишло наилазили наилазите наишле наилазиш
+46	1946	kontaktirati	kontaktirao kontaktirati kontaktira kontaktirali kontaktiram kontaktirala kontaktiramo kontaktirajte kontaktiraj kontaktiraš kontaktirate kontaktiraju kontaktiraću kontaktiraćemo контактирао контактирати kontaktiraće контактира контактирали контактирам контактирала контактирамо контактирајте контактирај контактираш контактирате контактирају контактираћу контактираћемо контактираће
+47	1947	osnovni	osnovne osnovna osnovni osnovno osnovnu osnovnoj osnovnih osnovnim osnovnog osnovnom основна основне основни основно основну основној основних основним основног основном
+48	1948	jakna	jaknu jakna jakni jakne jaknom јакну jaknama јакна јакне јакни јакном јакнама
+49	1949	svašta	svašta svačega svačim свашта svačemu свачега свачим свачему
+50	1950	jahati	jaše jahati jahao jašem jašeš jahala jašu jaši jašemo jahali jašete jašući jašite jahaću jahan jahaćemo jašimo jahaće јаше јахао јашем jahaćeš јашеш јахати јахала јашу јаши јашемо јахали јашете јашући јашите јахаћу јахан јахаћемо јашимо јахаће јахаћеш
+51	1951	visost	visosti visost висости висост
+52	1952	guma	gume guma gumu gumama gumom gumi гуме гума гуму гумама гумом гуми
+53	1953	širok	širi šire širok širu široka šira širokim široke širo širokog širim širokih široki шири širem široku široj širokom шире širokoj šireg широк najširem najširi широко ширу широка шира широким широке широ широког ширим широких широки ширем широку широј широком широкој ширег најширем најшири
+54	1954	porota	porota porotu porote poroti porotom порота пороту пороте poroto пороти поротом порото
+55	1955	slatkiš	slatkiše slatkiš slatkiša slatkišu slatkiši slatkišima слаткише slatkišem слаткиша слаткиш слаткишу слаткиши слаткишима слаткишем
+56	1956	ispitivanje	ispitivanje ispitivanja ispitivanju ispitivanjem испитивање ispitivanjima испитивања испитивању испитивањем испитивањима
+57	1957	ogledalo	ogledalo ogledala ogledalu ogledalom огледало ogledalima огледала огледалу огледалом огледалима
+58	1958	suditi	suđeno suditi sudim sudiš sudite sudimo sude sudili sudio suđeni sudi sudiće suđena suđen суђено sudilo suđene судити sudila судим sudićemo суде суди судећи судиш судите судимо судили судио суђени судиће суђена суђен судило суђене судила судићемо
+59	1959	obučen	obučen obučena obučeni obučene obučenog obučenu obučenih обучен obučeno обучени obučenim обучена obučenom обучене обученог обучену обучених обучено обученим обученом
+60	1960	prijateljstvo	prijateljstvo prijateljstva prijateljstvu prijateljstvom пријатељство prijateljstava пријатељства пријатељству пријатељством пријатељстава
+61	1961	preživjeti	preživjeti preživio preživi preživjeli preživjela prežive preživimo preživim preživiš preživite preživjele preživjelo преживи преживе преживимо преживиш преживим преживјети преживио преживјели преживјела преживите преживјеле преживјело
+62	1962	objašnjenje	objašnjenje objašnjenja објашњење objašnjenju objašnjenjem објашњења objašnjenjima објашњењу објашњењем објашњењима
+63	1963	uništavati	uništava uništavanje uništavaju uništavaš uništavam uništavate uništavamo uništavati uništavajući uništavao uništavali uništavala uništavaj уништава уништавање уништавају uništavalo уништаваш уништавам уништавате уништавамо уништавати уништавајући уништавао уништавали уништавала уништавај уништавало
+64	1964	milijarda	milijardi milijarde milijardu milijardama milijarda милијарде милијарди милијарду милијардама милијарда
+65	1965	moderan	moderna moderne moderno moderan moderni modernog modernu modernom modernim modernih modernoj modernije najmoderniji najmodernije moderniji najmodernija модеран модерна модерно модерне modernija модерни najmoderniju модерног модерну модерном модерним модерних модерној модерније најмодернији најмодерније модернији најмодернија модернија најмодернију
+66	1966	interes	interesu interesa interes interese interesi interesima интерес интереса интересу interesom интересе интереси интересима интересом
+67	1967	kaput	kaput kaputa kaputu kapute капут kaputom kaputi kaputima капута капуту капуте капутом капути капутима
+68	1968	senator	senator senatore senatora senatoru senatorom senatori сенатор senatorima сенатора сенаторе сенатору сенатором сенатори сенаторима
+69	1969	uznemiravati	uznemiravam uznemirava uznemiravanje uznemiravati uznemiravaš uznemiravaju uznemiravao uznemiravamo uznemiravate uznemiravaj uznemiravajte uznemiravali uznemiravala uznemiravan uznemiravajući узнемиравам узнемирава uznemiravalo uznemiravana узнемиравање узнемиравати uznemiravani узнемираваш узнемиравају узнемиравао узнемиравамо узнемиравате узнемиравај узнемиравајте узнемиравали узнемиравала узнемираван узнемиравајући узнемиравало узнемиравана узнемиравани
+70	1970	talas	talas talasa talasi talase talasima talasu talasom талас таласи таласа таласе таласима таласу таласом
+71	1971	lepota	lepota lepote lepotu lepoti lepotom lepoto лепота лепоту лепоте lepotama лепоти лепотом лепото лепотама
+72	1972	televizija	televiziji televiziju televizije televizija televizijom телевизији телевизију televizijama телевизије телевизија телевизијом телевизијама
+73	1973	zgrabiti	zgrabi zgrabio zgrabite zgrabiti zgrabila zgrabim zgrabiš zgrabili zgrabimo zgrabe зграби zgrabilo zgrabiću зграбио zgrabićemo zgrabiće зграбите зграбити зграбила зграбим зграбиш зграбили зграбимо зграбе зграбило зграбићу зграбићемо зграбиће
+74	1974	šou	šou шоу
+75	1975	sklon	skloni sklon sklonim sklona склони sklone skloniji склон sklono склоним склона склоне склонији склоно
+76	1976	šampanjac	šampanjac šampanjca šampanjcem шампањац šampanjcu шампањца шампањцем шампањцу
+77	1977	pustinja	pustinji pustinje pustinju pustinja pustinjom pustinjama пустињи пустиње пустињу пустиња пустињом пустињама
+78	1978	sekund	sekund секунд
+79	1979	sahraniti	sahranjen sahranjena sahraniti sahranili sahranio sahrani sahrane sahranimo sahranim sahranjeni sahranila sahranite sahraniš sahranjeno sahraniću sahranićemo сахрањен sahranjene sahraniće сахранити сахрани сахранили сахранио сахраним сахране сахрањени сахрањена сахранимо сахранила сахраните сахраниш сахрањено сахранићу сахранићемо сахрањене сахраниће
+80	1980	ispit	ispit ispita ispite ispitu ispiti ispij ispitima испит ispijte ispitom испита ispio ispiše ispijem ispije ispijmo испиту ispi ispijeno ispijemo ispiješ испите испити испиј испитима испијте испитом испио испише испијем испије испијмо испи испијено испијемо испијеш
+81	1981	ispitati	ispitati ispitamo ispitam ispitali ispitao ispita ispitaju ispitaj ispitate ispitaš ispitala ispitajte ispitan ispitaćemo ispitaću ispitani ispitana испитати ispitajmo ispitano испитамо испита ispitaće испитам ispitane испитали испитао испитају испитај испитате испиташ испитала испитајте испитан испитаћемо испитаћу испитани испитана испитајмо испитано испитаће испитане
+82	1982	okolnost	okolnosti okolnostima okolnost околностима околности околност
+83	1983	pokvaren	pokvaren pokvarena pokvareni pokvareno pokvarene pokvarenog pokvarenim pokvarenu pokvarenih pokvarenom покварен покварена покварени pokvarenoj покварено покварене поквареног поквареним покварену покварених поквареном поквареној
+84	1984	radovati	radujem raduje radovao raduješ radujemo radovati radovala raduj raduju radujte radovali radujete радујем radujmo radovanje radovalo radovaće радује радовао радујеш радујемо радовати радовала радуј радују радујте радовали радујете радујмо радовање радовало радоваће
+85	1985	dvadeset	dvadeset двадесет
+86	1986	medved	medved medveda medvedi medvede medvedu медвед medvedima medvedom медведа медведи медведе медведу медведима медведом
+87	1987	zver	zver zveri zverima звер звери зверима
+88	1988	izvoditi	izvodi izvodiš izvode izvodim izvodio izvođenje izvodite izvoditi izvodili izvodimo izvodila izvodeći изводи изводиш извођење изводе изводим изводио изводите изводити изводили изводимо изводила изводећи
+89	1989	opljačkati	opljačkao opljačkali opljačkati opljačkan opljačka opljačkana opljačkani opljačkaju opljačkala opljačkamo opljačkam opljačkaš opljačkate opljačkano opljačkane opljačkaj опљачкали опљачкао opljačkaćemo opljačkale opljačkaću опљачкана опљачкан опљачка опљачкати опљачкани опљачкају опљачкала опљачкамо опљачкам опљачкаш опљачкате опљачкано опљачкане опљачкај опљачкаћемо опљачкале опљачкаћу
+90	1990	iznajmiti	iznajmio iznajmljivanje iznajmili iznajmiti iznajmila iznajmim iznajmljuje iznajmi iznajmimo iznajmljen iznajmite iznajmljena iznajmljujem iznajmiš iznajmljuju iznajmljeni iznajmljujemo iznajmljeno iznajmiću iznajme iznajmljivao iznajmićemo iznajmljujete iznajmljuješ iznajmljene iznajmljivati iznajmljivali изнајмљивање изнајмио iznajmljivala изнајмити изнајмили изнајмила изнајмим изнајмљује изнајми изнајмимо изнајмљен изнајмите изнајмљена изнајмљујем изнајмиш изнајмљују изнајмљени изнајмљујемо изнајмљено изнајмићу изнајме изнајмљивао изнајмићемо изнајмљујете изнајмљујеш изнајмљене изнајмљивати изнајмљивали изнајмљивала
+91	1991	funkcionisati	funkcioniše funkcionišu funkcionisati funkcionišemo funkcionišem funkcionisanje funkcionišeš funkcionišete функционише функционишу функционисати функционишемо функционишем функционисање функционишеш функционишете
+92	1992	gđica	gđica гђица
+93	1993	proveravati	proveravam proverava proveravao proveravamo proveravaju proveravaš proveravala proveravali proveravati proveravate proveravaj проверавам proveravanje proveravajući проверава proveravajte проверавао proveravaću проверавамо проверавају провераваш проверавала проверавали проверавати проверавате проверавај проверавање проверавајући проверавајте провераваћу
+94	1994	glad	gladi glad glađu глади глад глађу
+95	1995	izlazak	izlazak izlaska izlasku izlaske izlazaka izlasci izlascima izlaskom излазак изласка изласку изласке излазака изласци изласцима изласком
+96	1996	mariti	mari marim marila mariš мари mare mariti marili marite marimo mareći марим марила мариш маре марити марили марите маримо марећи
+97	1997	car	car cara care caru цар careva carevi carem цара careve царе цару carevima царева цареви царем цареве царевима
+98	1998	jug	jug jugu juga југ југу југа jugom југом
+99	1999	raskinuti	raskinuli raskinula raskinuo raskinuti raskinem raskineš raskinemo raskine raskinu raskini раскинули raskinete raskinule раскинула raskinut raskinuću раскинуо raskide raskinuta раскинути раскинем раскинеш раскинемо раскине раскину раскини раскинете раскинуле раскинут раскинућу раскиде раскинута
+100	2000	komšija	komšije komšija komšinica komšijama komšiju komšijom комшије комшија komšiji комшиница комшијама комшију комшијом комшији

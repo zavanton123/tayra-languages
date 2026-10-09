@@ -1,0 +1,100 @@
+1	1501	razočarati	razočaran razočarati razočarao razočarana razočarenje razočarani razočaram razočarala razočaraš razočarali razočarenja razočarano razočara razočaramo razočaraju разочаран razočaralo razočarate razočarane razočaraću разочарана разочарати разочарани разочарао razočarenju разочарење razočarale razočarenjem разочарам разочарала разочараш разочарали разочарења разочарано разочара разочарамо разочарају разочарало разочарате разочаране разочараћу разочарењу разочарале разочарењем
+2	1502	lutka	lutka lutke lutku lutko lutaka lutkama lutki lutkom лутка лутке лутку лутко лутака луткама лутки лутком
+3	1503	srušiti	srušio srušiti sruši srušili srušila srušimo sruše srušen srušim srušiš srušite srušilo srušena srušiće srušićemo srušeni srušene срушио srušiću srušeno srušile срушити сруши srušićeš срушили срушила срушимо сруше срушен срушим срушиш срушите срушило срушена срушиће срушићемо срушени срушене срушићу срушено срушиле срушићеш
+4	1504	upropastiti	upropastio upropastiti upropastila upropastiš upropasti upropastili upropastim upropastićeš upropaste upropastilo upropastite upropastiće upropastimo upropašten upropaštena упропастио upropašteno upropastile upropastiću упропастити upropašteni upropastićete упропастиш упропасти упропастили упропастила upropaštene upropastićemo упропастим упропастићеш упропасте упропастило упропастите упропастиће упропастимо упропаштен упропаштена упропаштено упропастиле упропастићу упропаштени упропастићете упропаштене упропастићемо
+5	1505	spomenuti	spomenuo spomenula spomenuli spomenuti spomenem spomeneš spomene spomenuto spomenut spomenete spomenuta споменуо spomeni spomenemo spomenu spomenite spomenuću споменула spomenute споменути spomenulo споменули споменем споменеш спомене споменуто споменут споменете споменута спомени споменемо спомену спомените споменућу споменуте споменуло
+6	1506	odbrana	odbranu odbrane odbrana odbrani одбрану одбране odbranom одбрана одбрани одбраном
+7	1507	suprotan	suprotno suprotnom suprotnim suprotne suprotan suprotna suprotnog suprotnoj suprotnu suprotni супротном супротно suprotnih suprotnome супротним супротне супротан супротна супротног супротној супротну супротни супротних супротноме
+8	1508	upotrebiti	upotrebi upotrebiti upotrebio upotrebim upotrebiš upotrebimo upotrebe upotrebite upotrebila upotrebili upotrebljeno upotrebiću upotrebljen upotrebićemo upotrebljena upotrebiće upotrebljeni употреби upotrebljene употребити употребим употребио upotrebićeš употребите употребе употребиш употребимо употребила употребили употребљено употребићу употребљен употребићемо употребљена употребиће употребљени употребљене употребићеш
+9	1509	nastavljati	nastavlja nastavljamo nastavljaju nastavljam nastavljaš наставља nastavljate nastavljao nastavljati nastavljala nastavljali nastavljajući настављамо nastavljanje nastavljaj настављају nastavljalo настављам настављаш настављате настављао настављати настављала настављали настављајући настављање настављај настављало
+10	1510	subota	subotu subota subote subotom суботу субота суботе suboti суботом subotama суботи суботама
+11	1511	spisak	spisak spisku spiska списак spiskom spiskove списку spiskovi spiskovima списка spiskova списком спискове спискови списковима спискова
+12	1512	kamo	kamo камо kude куде
+13	1513	traka	traku trake traka traci trakom trakama траку траке трака траци траком тракама
+14	1514	stvorenje	stvorenja stvorenje stvorenjima stvorenju створење створења stvorenjem створењима створењу створењем
+15	1515	zatvorenik	zatvorenika zatvorenik zatvorenici zatvorenike zatvorenicima zatvoreniku zatvorenikom затвореник zatvoreniče затвореника затвореници затворенике затвореницима затворенику затвореником затворениче
+16	1516	levi	leva leve levu levi levom levoj levog лева levim леве леву левој леви левом levih левог левим левих
+17	1517	potez	potez poteze poteza potezu potezi potezom потез potezima потеза потезу потезе потези потезом потезима
+18	1518	otkaz	otkaz отказ otkaza otkaze otkazom otkazu otkazi отказа отказе отказом отказу откази
+19	1519	nuditi	nudi nudim nude nudiš nudimo nudite nudio nudili nudila nudeći nuditi нуди нудим нуде нудимо nudile nuđenje nudilo нудиш нудите нудио нудили нудила нудећи нудити нудиле нуђење нудило
+20	1520	pravac	pravcu pravac pravca pravcima pravcem правцу pravaca pravce правац pravci правца правцима правцем праваца правце правци
+21	1521	banda	bande banda bandi bandu bandom bandama bando банде банда банди банду бандом бандама бандо
+22	1522	kolač	kolač kolače kolača kolači kolačima kolaču kolačem колач колаче колача колачи колачима колачу колачем
+23	1523	smestiti	smestio smestili smestiti smestila smestim smestimo smestite smestiš smešten smeštena smešteno smešteni smeste smestiću smestićemo smeštene smestiće сместио сместили smestile smestilo сместити сместим смештен сместите смести сместила сместимо сместиш смештена смештено смештени сместе сместићу сместићемо смештене сместиће сместиле сместило
+24	1524	sposoban	sposoban sposobna sposobni sposobne sposobnim sposobno способан sposobnog sposobnih sposobniji способна najsposobniji sposobnom sposobnu способни najsposobnijih sposobnija способне способним способно способног способних способнији најспособнији способном способну најспособнијих способнија
+25	1525	lovac	lovac lovci lovca lovaca lovce lovcima lovcu lovče ловац lovcem ловци ловца ловце ловаца ловцима ловцу ловче ловцем
+26	1526	područje	područje području područja područjima područjem подручје подручју подручја подручјима подручјем
+27	1527	mirisati	miriše mirišeš mirišu mirišem miriši mirisao mirisala mirisati мирише mirisalo mirišete mirišemo mirisali mirišući mirisanje миришеш mirisale миришу миришем мириши мирисао мирисала мирисати мирисало миришете миришемо мирисали миришући мирисање мирисале
+28	1528	veličina	veličine veličina veličinu veličini veličinom величине veličinama величина величину величини величином величинама
+29	1529	iznenaditi	iznenadio iznenaditi iznenadila iznenadilo iznenadi iznenadim iznenadili iznenadimo iznenadiš iznenade iznenadite iznenadiću изненадио iznenadićeš iznenadićemo iznenadiće iznenadile изненадило изненадим изненадити iznenadićete изненади изненадила изненадили изненадимо изненадиш изненаде изненадите изненадићу изненадићеш изненадићемо изненадиће изненадиле изненадићете
+30	1530	gej	gej геј gejevi geja gejeva gejeve gejevima geju гејеви геја гејева гејеве гејевима геју
+31	1531	uveriti	uverim uveri uveriti uverio uverenja uverimo uverite uveriš uverenje uverili uverila uvere уверите uverenjima uverenju uverilo уверим uverenjem uveriću uverićete уверио уверити увери uverićeš уверења уверимо увериш уверење уверили уверила увере уверењима уверењу уверило уверењем уверићу уверићете уверићеш
+32	1532	cigareta	cigaretu cigarete cigareta cigaretom cigaretama цигарету цигарете cigareti цигарета цигаретом цигаретама цигарети
+33	1533	osveta	osveta osvetu osvete osveti osvetom освета освету освете освети осветом
+34	1534	spaliti	spalio spaliti spalili spali spalite spaljena spalila spalimo spaljen spalim spaljeno spaljeni spališ spaljene spale spaliću spalićemo spaliće спали спалити спалио спалили spalilo спалите spalile spalićeš спаљена спаљен спалим спаљено спалила спалимо спаљени спалиш спаљене спале спалићу спалићемо спалиће спалило спалиле спалићеш
+35	1535	zbilja	zbilja збиља
+36	1536	porodični	porodični porodično porodična porodične porodičnu porodičnog porodičnom porodičnim porodičnih porodičnoj породични породично породична породичне породичну породичном породичног породичним породичних породичној
+37	1537	epizoda	epizoda epizodi epizodama epizode epizodu епизода епизоде епизоди епизоду epizodom епизодама епизодом
+38	1538	žuriti	žuri žurim žuriš žurimo žurite žuriti žurio žure žurila žurili žurilo жури журим журимо журиш журите журе журити журио журила журили журило
+39	1539	svestan	svestan svesni svesna svesno свестан svesne свесни svesnog свесна svesnom svesnim svesniji svesnih svesnu свесно свесне свесног свесном свесним свеснији свесних свесну
+40	1540	kilometar	kilometara kilometar kilometra kilometrima километара kilometre kilometri kilometru километар километра километрима километре километри километру
+41	1541	oba	oba obama оба obaju обама обају
+42	1542	gle	gle гле
+43	1543	hrabrost	hrabrosti hrabrost hrabrošću храбрости храброст храброшћу
+44	1544	ružan	ružna ružan ružne ružni ružnu ružnih ružnim ružnog ružnom ružniji najružniji najružnija ružnije ružnoj ружна ружан najružnije ružnija ружне ружни najružniju ружну ружних ружним ружног ружном ружнији најружнији најружнија ружније ружној најружније ружнија најружнију
+45	1545	potrošiti	potrošio potrošiti potrošili potrošila potroši potrošiš potrošim potrošimo potrošite potrošen potroše potrošeno potrošena potrošene potrošiću потрошио potrošeni potrošile potrošićemo potrošićeš потрошили потрошила potrošiće потрошити potrošilo потроши потрошиш потрошим потрошимо потрошите потрошен потроше потрошено потрошена потрошене потрошићу потрошени потрошиле потрошићемо потрошићеш потрошиће потрошило
+46	1546	pandur	pandur panduri pandura pandure pandurima panduru pandurom пандури пандур пандура пандуре пандурима пандуру пандуром
+47	1547	zrak	zrak zraka zraku zrake zraci zrakom zracima zrakama zrače зрак зрака зраку зраке зраци зраком зрацима зракама зраче
+48	1548	svetski	svetski svetskog svetskom svetske svetska svetskih svetsku svetsko svetskoj svetskim светски светског светске светском светских светска светску светско светској светским
+49	1549	sličan	sličan slične slični slična sličnim sličnih sličnog sličnu sličnom sličnoj sličniji сличне sličnima сличан sličnije sličnija слични najsličnije najsličniji слична сличним сличног сличних sličnoga сличну сличном сличној сличнији сличнима сличније сличнија најсличније најсличнији сличнога
+50	1550	povratiti	povratiti povratim povrati povratio povratimo povratila povratiš povratili povratiću povraćati povrate povratite povratićemo povratiće povratilo повратити поврати povratićeš повратио повратим повратиш povratile povraćena повратимо повратила повратили повратићу повраћати поврате повратите повратићемо повратиће повратило повратићеш повратиле повраћена
+51	1551	posmatrati	posmatra posmatram posmatraju posmatrati posmatramo posmatraj posmatraš posmatranje posmatrate posmatrajući posmatrajte posmatraću посматра posmatraćemo посматрам посматрају posmatraće посматрање посматрај посматрати posmatrajmo посматраш посматрамо посматрате посматрајући посматрајте посматраћу посматраћемо посматраће посматрајмо
+52	1552	svetlost	svetlost svetlosti svetlošću светлост светлости светлошћу
+53	1553	provaliti	provalio provalili provaliti provalila provalim provali provale provalimo provališ provalite provaljen provaljeno provaljena provaliće провалио provaljeni provalićemo provaliću provalile провалили provalilo провалим provalićeš провалити провале провали провалила провалимо провалиш провалите проваљен проваљено проваљена провалиће проваљени провалићемо провалићу провалиле провалило провалићеш
+54	1554	sjebati	sjeban sjebao sjebani sjebana sjebati sjebali sjebala sjebe sjebeš sjebem sjebane sjebalo sjebu sjebemo sjebaću sjebi сјебан sjebaće sjebete сјебани сјебао sjebaćemo sjebaćeš sjebale sjebite sjebimo сјебано сјебана сјебати сјебали сјебала сјебе сјебеш сјебем сјебане сјебало сјебу сјебемо сјебаћу сјеби сјебаће сјебете сјебаћемо сјебаћеш сјебале сјебите сјебимо
+55	1555	igrač	igrač igrača igrači igrače igračima igraču igračem играч играча играчи играче играчима играчу играчем
+56	1556	totalno	totalno тотално
+57	1557	zakasniti	zakasnio zakasnili zakasniti zakasnićemo zakasnila zakasnim zakasniću zakasniš zakasnićeš zakasnimo zakasni zakašnjenja zakasnite zakašnjenjem zakasnićete zakasnile закаснио закаснили zakasniće закаснити zakašnjenje zakasne закаснићемо закасним закаснила закаснићу закасниш закаснићеш закаснимо закасни закашњења закасните закашњењем закаснићете закасниле закасниће закашњење закасне
+58	1558	krvariti	krvarenje krvari krvariš krvarim krvario krvare krvarila krvariti крварење krvarite крвари krvarimo krvarili krvareći krvarilo крварим крвариш крваре крварио крварила крварити крварите крваримо крварили крварећи крварило
+59	1559	džep	džepu džep džepove džepa džepovima džepova džepovi џепу џеп џепове džepom џепа џеповима џепова џепови џепом
+60	1560	ljubiti	ljubi ljubim ljubiš ljube ljubiti ljubio ljubljenje ljubili ljubila ljubimo ljubite ljubljena ljubeći љуби љубим ljubljene ljubile љубиш љубе љубио ljubiću љубимо љубити љубљење љубили љубила љубите љубљена љубећи љубљене љубиле љубићу
+61	1561	nizak	nizak niže niska niži niske niski niskim niskog niža nižim nisku najniži nižu nižeg niskom niskih ниже niskoj najniža nižoj nižem nižih низак najnižu najniže najnižem najnižeg najnižoj najnižih ниска najnižim ниске nižom ниског нижи ниско ниски ниским нижа нижим ниску најнижи нижу нижег ниском ниских ниској најнижа нижој нижем нижих најнижу најниже најнижем најнижег најнижој најнижих најнижим нижом
+62	1562	faliti	fali falilo fale faliti falio falila fališ фали falili falim faliće фалило falićeš фале фалити фалио фалила фалиш фалили фалим фалиће фалићеш
+63	1563	usporiti	uspori usporiti usporite usporimo usporiš usporio usporim usporeno usporen usporilo usporili успори usporila uspore usporeni usporena usporiće usporiću usporene успорити usporile успорите успоримо успориш успорио успорим успорено успорен успорило успорили успорила успоре успорени успорена успориће успорићу успорене успориле
+64	1564	zanimljiv	zanimljiv zanimljiva zanimljive zanimljivije zanimljivi zanimljivu zanimljivih zanimljivim zanimljiviji zanimljivog zanimljivija najzanimljivije zanimljivom najzanimljiviji занимљив zanimljivijim najzanimljivija занимљива najzanimljivijih zanimljivoj занимљиве zanimljivijih занимљивије занимљиви занимљиву занимљивих занимљивим занимљивији занимљивог занимљивија најзанимљивије занимљивом најзанимљивији занимљивијим најзанимљивија најзанимљивијих занимљивој занимљивијих
+65	1565	sezona	sezona sezone sezonu sezoni сезоне сезона sezonom sezonama сезону сезони сезоном сезонама
+66	1566	oficir	oficir oficira oficiri oficiru oficire oficirima oficirom официр официра официри официре официру официрима официром
+67	1567	list	list listu listi liste listić listovi listove listova listića listiće listom listovima listići лист listiću листу listićima листова листи листе листић листови листове листића листиће листом листовима листићи листићу листићима
+68	1568	popeti	popeo popni popeti popnem popne popela popneš popnemo popnite popeli popnete popnu pope popeću popnimo popećemo попети попнем popelo попни popeće popele попне попните попнеш popećeš попе попео попела попнемо попели попнете попну попећу попнимо попећемо попело попеће попеле попећеш
+69	1569	studio	studio studiju studija studije studijama studiji студио студија студију studijom studijima студије studiom studijem студијама студији студијом студијима студиом студијем
+70	1570	uzorak	uzorak uzorke uzorci uzoraka uzorka uzorcima uzorkom uzorku узорак узорке узорака узорци узорка узорцима узорком узорку
+71	1571	pričekati	pričekaj pričekajte pričekati pričeka pričekamo pričekajmo pričekaš pričekam pričekate pričekaću pričekao pričekaju pričekaćemo причекај pričekali причекајте pričekala причекати причека причекамо причекајмо причекаш причекам причекате причекаћу причекао причекају причекаћемо причекали причекала
+72	1572	sveštenik	sveštenik sveštenika sveštenici svešteniče sveštenikom svešteniku sveštenike свештеник sveštenicima свештеника свештеници свештениче свештеником свештенику свештенике свештеницима
+73	1573	završavati	završava završavam završavaju završavamo završavaš završavao завршава završavaj završavala završavali završavate završavajte završavalo završavati završavajući završavanje завршавам završavale завршавају завршавамо завршаваш завршавао завршавај завршавала завршавали завршавате завршавајте завршавало завршавати завршавајући завршавање завршавале
+74	1574	lekar	lekar lekara lekari lekaru lekare лекара лекар lekarima lekarom лекари лекару лекаре лекарима лекаром
+75	1575	jednostavan	jednostavan jednostavna jednostavnije jednostavne jednostavni jednostavnim jednostavnu jednostavnog jednostavniji jednostavnom jednostavnih najjednostavnije једноставан najjednostavniji jednostavnija једноставна jednostavnoj jednostavnijim najjednostavnija једноставније једноставне najjednostavniju једноставни једноставним једноставну једноставног једноставнији једноставном једноставних најједноставније најједноставнији једноставнија једноставној једноставнијим најједноставнија најједноставнију
+76	1576	uslov	uslovima uslove uslovi uslovom uslov uslova условима услове условом услови услов услова
+77	1577	troje	troje троје troma трома
+78	1578	mešati	mešaj mešam mešaš mešati mešaju mešamo mešanje mešajte mešate mešao mešala mešali мешај mešano mešana mešane мешам mešani mešajući мешаш мешати мешање мешају мешате mešajmo меша мешамо мешајте мешао мешала мешали мешано мешана мешане мешани мешајући мешајмо
+79	1579	uvo	uši uvo ušima ušiju uva uveta уши uvetu уво uvu uvom uvetom ушима ува ушију увета увету уву увом уветом
+80	1580	rame	rame ramena ramenu ramenima раме ramenom рамена раменима рамену раменом
+81	1581	koledž	koledž koledžu koledža колеџ колеџу koledže колеџа koledžima koledži колеџе колеџима колеџи
+82	1582	pljačka	pljačka pljačke pljačku pljački pljačkom pljačkama пљачка пљачке пљачку пљачки пљачком пљачкама
+83	1583	levo	levo лево
+84	1584	ponovno	ponovno поновно
+85	1585	povezati	povezati povezao povezali povezuju poveže povežem povežemo poveži povezala povežu povežeš povežite povežete povezaću повезани povezalo povezivati poveza повезана повезано повезати povezale povezaćemo povezaće повезане повеже повезао povežimo повежем повезали повезују повежемо повежи повезала повежу повежеш повежите повежете повезаћу повезало повезивати повеза повезале повезаћемо повезаће повежимо
+86	1586	ortak	ortak ortaci ortaka ortacima ортак ortake ortaku ortakom ortače ортаци ортака ортацима ортаке ортаку ортаком ортаче
+87	1587	pobiti	pobiti pobio pobili pobije pobiju pobijem pobijemo pobijte pobijeni pobila pobiješ pobiće pobij pobiću pobijete pobijena pobićemo pobijeno побити pobijmo побио pobilo pobićeš побили pobi pobijene pobile побије побију побијем побијемо побијте побијени побила побијеш побиће побиј побићу побијете побијена побићемо побијено побијмо побило побићеш поби побијене побиле
+88	1588	pica	pice picu pica pici picom пицу пица пице pico picama пици пицом пицо пицама
+89	1589	odavno	odavno одавно
+90	1590	javni	javni javnog javnom javna javne javnu javnim javnoj javnih јавни јавном јавна јавног јавне javnome јавну јавним јавној јавних јавноме
+91	1591	delo	delo dela delu delima delom дело дела делима делу делом
+92	1592	prodaja	prodaje prodaja prodaju prodaji prodajom продаје продају продаја продаји prodajama продајом продајама
+93	1593	odrastati	odrastao odrasta odrastanje odrastaju odrastala одрастао odrastati odrastali odrastaš odrastajući odrastam odrastamo odrastate odrastale одраста одрастање одрастају одрастала одрастати одрастали одрасташ одрастајући одрастам одрастамо одрастате одрастале
+94	1594	razred	razredu razred razreda razrede razredom разреду разред razredima разреда razredi разреде разредом разредима разреди
+95	1595	vlast	vlasti vlast vlastima vlašću власти власт властима влашћу
+96	1596	pantalone	pantalone pantalonama pantalona панталоне панталонама панталона
+97	1597	uveče	uveče увече
+98	1598	ubojica	ubojica ubojice ubojicu ubojicom ubojici ubojico ubojicama убојица убојице убојицу убојицом убојици убојицо убојицама
+99	1599	šešir	šešir šešira šeširom šešire šeširu šeširi шешир šeširima šeširić шешира шеширом шешире шеширу шешири шеширима шеширић
+100	1600	zmija	zmija zmije zmiju zmijama zmijo zmijom zmiji zmijski zmijske zmijska zmijsko змија zmijskog змије zmijsku zmijskim zmijskom змију змијама змијо змијом змији змијски змијске змијска змијско змијског змијску змијским змијском

@@ -1,0 +1,100 @@
+1	2401	suv	suvo suva suv suvi suve suvom suvu suvog suvim suvih suvoj суво сува suvlje сув суве suvlja суви сувом суву сувог сувим сувих сувој сувље сувља
+2	2402	pećina	pećini pećine pećinu pećina pećinama пећину пећина пећини пећине pećinom пећинама пећином
+3	2403	obesiti	obesiti obesio obešen obese obesili obesi obesite obesim obesila obesiće obešeni obesimo obešena obesiš obesiću obesićemo obešene obešeno обесио обесе обесити обешен обесили обеси обесите обесим обесила обесиће обешени обесимо обешена обесиш обесићу обесићемо обешене обешено
+4	2404	garantovati	garantujem garantuje garantovati garantovano garantovao garantuješ garantujemo garantuju garantujete гарантујем garantovana garantovala garantovan garantovali гарантује garantovalo гарантовати гарантовано гарантовао гарантујеш гарантујемо гарантују гарантујете гарантована гарантовала гарантован гарантовали гарантовало
+5	2405	aparat	aparat aparata aparate aparatima aparati aparatom aparatu апарат апарата апарате апаратима апарати апаратом апарату
+6	2406	izbegavati	izbegavaš izbegava izbegavam izbegavanje izbegavao izbegavati izbegavaju izbegavaj izbegavamo izbegavala izbegavate izbegavajte izbegavali izbegavajući избегава избегаваш избегавање избегавам избегавао избегавати избегавају избегавај избегавамо избегавала избегавате избегавајте избегавали избегавајући
+7	2407	bioskop	bioskop bioskopu bioskopa биоскоп bioskopima bioskope bioskopi биоскопу bioskopom биоскопа биоскопима биоскопе биоскопи биоскопом
+8	2408	mio	miloga mili mila mio milim mile мили milog мила najmiliji najmilije милога najmilija milom najmilijih milije milu milija мио милим миле милог најмилији најмилије најмилија милом најмилијих милије милу милија
+9	2409	odseći	odsekao odseći odsekli odsečem odseče odsečena odsekla odsečeni odseku odsečen odsečeš odsečene odsečemo odseci odsecite odsečete odsečeno одсећи одсекао одсекли одсеку одсечем одсече одсечена одсекла одсечени одсечен одсечеш одсечене одсечемо одсеци одсеците одсечете одсечено
+10	2410	zvono	zvono zvona zvonom звона звоно zvonima zvonu звоном звонима звону
+11	2411	prezime	prezime prezimena prezimenom презиме prezimenu prezimenima презимена презименом презимену презименима
+12	2412	meriti	meri mere merenje meriti merim merio merimo merila merili merilo meriš merilima merite meren mereći mereno мери мере мерење мерити мерим мерио меримо мерила мерили мерило мериш мерилима мерите мерен мерећи мерено
+13	2413	krvav	krvavi krvava krvave krvav krvavu krvavog krvavim krvavih krvavom krvavoj крвави крваве крвава najkrvaviji крвав krvavije najkrvavijih крваву крвавог крвавим крвавих крвавом крвавој најкрвавији крвавије најкрвавијих
+14	2414	navodno	navodno наводно
+15	2415	ograda	ogradu ograde ograda ogradi ogradom ограде ограду ogradama ограда огради оградом оградама
+16	2416	buba	bube buba bubu bubama bubo bubi буба bubom бубе бубу бубама бубо буби бубом
+17	2417	smesti	smete smesti smela smeli smelo smeten smetena смести smele smeteno smeteni смете смела смели смело сметен сметена смеле сметено сметени
+18	2418	ministarstvo	ministarstvo ministarstva ministarstvu ministarstvom министарство министарства министарству ministarstava ministarstvima министарством министарстава министарствима
+19	2419	kesa	kesi kesu kese kesa кеси kesom kesama кесу кеса кесе кесом кесама
+20	2420	mijenjati	mijenja mijenjaju mijenjati mijenjam mijenjao mijenjaš mijenjamo mijenjaj mijenjala mijenjali mijenjanje mijenjate mijenjajući mijenjajte мијења мијењају мијењати мијењам мијењао мијењаш мијењамо мијењај мијењала мијењали мијењање мијењате мијењајући мијењајте
+21	2421	spuštati	spušta spuštaj spuštanje spuštam spuštaju spuštamo spuštaš spuštajte spuštati spuštao spuštali spuštate spuštala spuštajući спушта спуштање спуштај спуштам спуштају спуштамо спушташ спуштајте спуштати спуштао спуштали спуштате спуштала спуштајући
+22	2422	četvrtak	četvrtak četvrtka četvrtkom четвртак četvrtaka четвртка четвртком четвртака
+23	2423	incident	incident incidenta incidentu incidenata incidenti incidente incidentom инцидент incidentima инцидента инциденту инцидената инциденти инциденте инцидентом инцидентима
+24	2424	salata	salatu salata salate salatom salati салату salatama салата салате салатом салати салатама
+25	2425	ogrlica	ogrlicu ogrlica ogrlice ogrlicom ogrlici огрлицу огрлица ogrlicama огрлице огрлицом огрлици огрлицама
+26	2426	pluća	pluća plućima плућа плућима
+27	2427	težina	težinu težine težina težini težinom тежину тежине тежина тежини тежином
+28	2428	oporaviti	oporaviti oporavi oporavio oporavila oporaviš oporavim oporavili oporave oporaviće oporavite oporavićeš oporavimo опоравио опорави oporavilo опоравити oporaviću oporavljena oporavljen опоравила опоравиш опоравим опоравили опораве опоравиће опоравите опоравићеш опоравимо опоравило опоравићу опорављена опорављен
+29	2429	steći	stekao steći stekla stekli stekne stekneš steknem steknu steknemo steknete stečeno stečen stečena стекао stečene stekni steci stečeni stekle стекли стечен стећи стекла стекне стекнеш стекнем стекну стекнемо стекнете стечено стечена стечене стекни стеци стечени стекле
+30	2430	tlo	tlo tlu tla tala tlom тло тлу тла тала тлом
+31	2431	nuklearni	nuklearni nuklearne nuklearna nuklearnog nuklearno nuklearnu nuklearnim nuklearnih nuklearnom nuklearnoj нуклеарног нуклеарни нуклеарна нуклеарне нуклеарно нуклеарну нуклеарним нуклеарних нуклеарном нуклеарној
+32	2432	masa	masa mase masu masi masom masama маса масе maso масу маси масом масама масо
+33	2433	navika	navike navika naviku navikama navici навика навике navikom навику навикама навици навиком
+34	2434	tekst	tekst teksta tekstove tekstovi tekstu tekstova текст tekstovima tekstom текста текстове текстови тексту текстова текстовима текстом
+35	2435	presvući	presvučem presvući presvuci presvučeš presvukao presvuče presvukla presvlačenje presvlači presvucite presvlačim presvučemo presvučete presvlačiš пресвучем presvlačiti presvukli presvlače presvuku presvučen presvlačite пресвући presvučena пресвуци пресвучеш пресвукао пресвуче пресвукла пресвлачење пресвлачи пресвуците пресвлачим пресвучемо пресвучете пресвлачиш пресвлачити пресвукли пресвлаче пресвуку пресвучен пресвлачите пресвучена
+36	2436	promašiti	promašio promašiti promašila promašili promašiš promaši promašim promašite promašimo промашио promaše promašen promašićeš promašilo promašena promašeni промашити промашила промашили промашиш промаши промашим промашите промашимо промаше промашен промашићеш промашило промашена промашени
+37	2437	izbrisati	izbrisati izbrisao izbriši izbriše izbrisala izbrišem izbrisan izbrisano izbrisani izbrisana izbrisali izbrišeš izbrišemo izbrisane izbrišu izbrišite izbrisaću izbrišete izbrisalo избрисати izbrisaće izbrisaćemo избрисао избриши избрише избрисала избришем избрисан избрисано избрисани избрисана избрисали избришеш избришемо избрисане избришу избришите избрисаћу избришете избрисало избрисаће избрисаћемо
+38	2438	posto	posto посто
+39	2439	napiti	napio napiti napijem napila napiješ napije napili napijemo napiše napiju napij napi napijete napiću напио napijmo napijte napićemo napićeš напити напише напијем напила напијеш напије напили напијемо напију напиј напи напијете напићу напијмо напијте напићемо напићеш
+40	2440	proglasiti	proglašen proglasio proglasiti proglasili proglasi proglašena proglasila proglašeni proglasimo proglase proglasim proglasite proglašeno proglašenje proglasiće proglasiš proglasile proglasiću проглашен прогласио proglasićemo proglašene proglasilo прогласи прогласити прогласили проглашена прогласила проглашени прогласимо прогласе прогласим прогласите проглашено проглашење прогласиће прогласиш прогласиле прогласићу прогласићемо проглашене прогласило
+41	2441	patnja	patnje patnju patnja patnji patnjom patnjama патње патњу патња патњи патњом патњама
+42	2442	lepotica	lepotice lepotica lepoticu lepoticom лепотице lepotici лепотица lepoticama лепотицу лепотицом лепотици лепотицама
+43	2443	pjevati	pjevati pjeva pjevam pjevaju pjevao pjevaj pjevanje pjevaš pjevala pjevali pjevamo pjevajte pjevate pjevajući pjevale pjevajmo пјевати пјева пјевам пјевају пјевао пјевај пјевање пјеваш пјевала пјевали пјевамо пјевајте пјевате пјевајући пјевале пјевајмо
+44	2444	presuda	presudu presuda presude presudi presudom пресуду пресуда presudama пресуде пресуди пресудом пресудама
+45	2445	nacija	nacije nacija naciju naciji nacijama nacijom нација нације нацију нацији нацијама нацијом
+46	2446	mokar	mokar mokra mokro mokri mokre mokru mokrim mokrom mokrog mokrih mokroj мокар мокра мокро мокри мокре мокру мокрим мокром мокрог мокрих мокрој
+47	2447	vrijediti	vrijedi vrijedilo vrijede vrijediti vrijediš vrijedim vrijedio vrijedila vrijedite вриједи вриједило вриједе вриједити вриједиш вриједим вриједио вриједила вриједите
+48	2448	maj	maja maj maju маја мај мају
+49	2449	pristajati	pristaje pristajem pristaješ pristaju pristajemo pristajete pristajati pristajanje pristajala pristajao pristajalo пристаје pristajali пристајем пристајеш пристају пристајемо пристајете пристајати пристајање пристајала пристајао пристајало пристајали
+50	2450	belac	belac belci belaca belca belce belcima belče belcu belcem белац белци белаца белца белце белцима белче белцу белцем
+51	2451	studirati	studirao studira studiram studirala studiraš studirali studirati studiranje studiraju studirate студирао studiramo студира studiraću студирам studirale studirajući студирала студираш студирали студирати студирање студирају студирате студирамо студираћу студирале студирајући
+52	2452	če	če че
+53	2453	krvni	krvni krvna krvne krvnu krvnih krvnom krvnog krvnim krvnoj krvno крвни крвна крвне крвну крвних крвном крвног крвним крвној крвно
+54	2454	hapsiti	hapšenje hapsim hapšen hapsite hapse hapsimo hapsi hapsiš hapsiti hapsili hapsio hapšena хапшење hapšeni hapsila хапсим хапшен хапсите хапсе хапсимо хапси хапсиш хапсити хапсили хапсио хапшена хапшени хапсила
+55	2455	mobitel	mobitel mobitela mobitelu mobitele mobitelom mobiteli mobitelima мобител мобитела мобителу мобителе мобителом мобители мобителима
+56	2456	nervirati	nervira nerviraš nerviram nerviraj nerviraju nervirati nervirao nervirate nerviralo nervirala нервира nerviramo nerviranje нервираш nervirajte nervirali нервирам нервирај нервирају нервирати нервирао нервирате нервирало нервирала нервирамо нервирање нервирајте нервирали
+57	2457	papa	papa papi papu pape papom папа papo папе папи папу папом папо
+58	2458	otkrivati	otkriva otkrivanje otkrivaju otkrivam otkrivamo otkrivaš otkrivajući otkrivati otkrivao otkrivate открива otkrivali otkrivaj otkrivala откривају откривање откривам откривамо откриваш откривајући откривати откривао откривате откривали откривај откривала
+59	2459	upisati	upisao upisati upišem upisala upiši upišite upišeš upisali upiše upisan upisana upisano upišemo upišete upisani upišu upisaću upisa upisane upisaćemo уписао уписати упишем уписала упиши упишите упишеш уписали упише уписан уписана уписано упишемо упишете уписани упишу уписаћу уписа уписане уписаћемо
+60	2460	revolucija	revolucija revolucije revoluciju revoluciji revolucijom револуција револуције револуцију revolucijama револуцији револуцијом револуцијама
+61	2461	profesionalan	profesionalni profesionalna profesionalne profesionalnog profesionalan profesionalnu profesionalnom profesionalnih profesionalnim profesionalnoj професионални profesionalnije професионална професионалне професионалног професионалан професионалну професионалном професионалних професионалним професионалној професионалније
+62	2462	sustav	sustav sustava sustavu sustavi sustave sustavom sustavima сустав сустава суставу сустави суставе суставом суставима
+63	2463	carstvo	carstvo carstva carstvu carstvom царство царства carstava царству carstvima царством царстава царствима
+64	2464	dlaka	dlake dlaka dlaku dlakama dlakom длаке длака длаку dlaci длакама длаком длаци
+65	2465	prevoz	prevoz prevoza prevozu превоз prevozom превоза превозу превозом
+66	2466	zatražiti	zatražio zatraži zatražiti zatražim zatražila zatražili zatražiš zatražite zatražimo zatraže zatražiću zatraženo затражио zatražilo затражи затражити затражим затражила затражили затражиш затражите затражимо затраже затражићу затражено затражило
+67	2467	istinit	istinito istinita istinite istinit istinitoj istinitim istiniti istinitom istinitu истинито istinitog istinitije истините истинита istinitih истинит истинитој истинитим истинити истинитом истиниту истинитог истинитије истинитих
+68	2468	junak	junak junaka junaci junakinja junake junače јунак junacima junakom junaku junačina јунака јунаци junakinje junakinju јунакиња јунаке јуначе јунацима јунаком јунаку јуначина јунакиње јунакињу
+69	2469	pesak	pesak peska pesku peskom песак peske песку песка песком песке
+70	2470	pokloniti	poklonio poklonila pokloniti poklonim poklonili poklonite pokloniš poklonimo pokloniću poklone поклонио pokloni poklonjen poklonjeno poklonjena поклонила поклоне поклони поклонити поклоним поклонили поклоните поклониш поклонимо поклонићу поклоњен поклоњено поклоњена
+71	2471	stoga	stoga стога
+72	2472	pružati	pruža pružaju pružam pružamo pružao pružaš pružala pružati pružanje pružate pružali pružajući пружа pružaj пружају pružalo pružale pružajte пружам пружамо пружао пружаш пружала пружати пружање пружате пружали пружајући пружај пружало пружале пружајте
+73	2473	promjena	promjena promjene promjenu promjeni promjenama promjenom промјена промјене промјену промјени промјенама промјеном
+74	2474	pomiriti	pomiriti pomiri pomirili pomirimo pomirio pomirite pomirim pomiriš pomirila pomire pomirile pomiriše pomiriću помири помирити помирили помиримо помирио помирите помирим помириш помирила помире помириле помирише помирићу
+75	2475	pomisao	pomisao pomisli помисао помисли
+76	2476	neobičan	neobičan neobična neobične neobičnog neobični neobičnu neobičnih neobičnim neobičnom neobičnoj najneobičniji najneobičnije необичан необична neobičnije najneobičnijih najneobičnija необичне необичног необични необичну необичних необичним необичном необичној најнеобичнији најнеобичније необичније најнеобичнијих најнеобичнија
+77	2477	razni	raznih raznim razne razna razni razno разних разним raznog raznu разне разна разни разно разног разну
+78	2478	pretiti	preti pretiš prete pretite preteći pretim pretiti прети pretimo прете претиш претите претећи претим претити претимо
+79	2479	kavez	kavez kavezu kaveza kaveze kavezima kavezi кавез кавезу kavezom кавеза кавезе кавезима кавези кавезом
+80	2480	čarapa	čarape čarapa čarapama čarapu čarapi чарапе čarapom чарапа чарапама чарапу чарапи чарапом
+81	2481	fantastičan	fantastičan fantastična fantastične fantastični fantastičnu fantastičnom fantastičnih fantastičnim fantastičnog фантастичан fantastičnoj фантастична фантастичне фантастични фантастичну фантастичном фантастичних фантастичним фантастичног фантастичној
+82	2482	uzbuna	uzbuna uzbunu uzbune uzbunom uzbuni узбуна узбуну узбуне узбуном узбуни
+83	2483	interesantno	interesantno интересантно
+84	2484	sedmica	sedmice sedmica sedmicu sedmicama sedmici седмице sedmicom седмица седмицу седмицама седмици седмицом
+85	2485	izvinjenje	izvinjenje izvinjenja извињење izvinjenjem izvinjenju izvinjenjima извињења извињењем извињењу извињењима
+86	2486	pogotovo	pogotovo поготово
+87	2487	bela	bela бела
+88	2488	nestajati	nestaje nestaju nestajanje nestajem nestajali nestaješ nestajao nestajala nestajati нестаје nestajemo нестају nestajalo nestajale nestajući нестајање нестајем нестајали нестајеш нестајао нестајала нестајати нестајемо нестајало нестајале нестајући
+89	2489	toplo	toplo топло
+90	2490	misterij	misterija misterije misteriju misterij misteriji мистерија мистерије мистерију мистериј мистерији
+91	2491	vući	vukao vučeš vući vučem vucite vuče vukli vukla vučemo vuku vučete vukući vuklo vučen vučena vukle vučenje вукао вучем вуците вуче вуку вуци вучеш вући вукли вукла вучемо вучете вукући вукло вучен вучена вукле вучење
+92	2492	piletina	piletinu piletina piletine piletinom piletini пилетина пилетину пилетине пилетином пилетини
+93	2493	stražar	stražara stražari stražar stražare stražaru stražarima стражара стражари стражар stražarom стражаре стражару стражарима стражаром
+94	2494	pička	pička pičku pičko pičke pički pičkom pičkama pičaka пичка пичке пичко пичку пички пичком пичкама пичака
+95	2495	tuđ	tuđe tuđi tuđu tuđim tuđa tuđem tuđoj tuđih tuđeg tuđ tuđom туђе туђи туђу туђим туђа туђем туђој туђих туђег туђ туђом
+96	2496	avantura	avantura avanture avanturu avanturi avanturama avanturom авантура авантуру авантуре авантури авантурама авантуром
+97	2497	vjenčanje	vjenčanje vjenčanja vjenčanju vjenčanjem vjenčanjima вјенчање вјенчања вјенчању вјенчањем вјенчањима
+98	2498	potpis	potpis potpisa potpisom potpise potpisu potpisi потпис potpisima потписа потписом потписе потпису потписи потписима
+99	2499	žurba	žurbi žurba žurbe žurbom журби žurbu журба журбе журбом журбу
+100	2500	tradicija	tradicija tradiciju tradicije tradiciji tradicijom традиција tradicijama традицију традицији традиције традицијом традицијама

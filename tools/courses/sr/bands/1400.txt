@@ -1,0 +1,100 @@
+1	1301	doručak	doručak doručka doručkom doručku доручак доручка доручком доручку
+2	1302	seksualan	seksualno seksualni seksualne seksualnog seksualna seksualnom seksualnih seksualnu seksualnim seksualnoj сексуално сексуални сексуалне seksualan сексуалног сексуална сексуалних сексуалном сексуалну сексуалним сексуалној сексуалан
+3	1303	svrha	svrhe svrha svrhu svrsi svrhom сврхе сврха сврху сврси сврхом
+4	1304	svinja	svinja svinje svinjo svinju svinjama svinjom svinji свиња свиње свињо свињу свињама свињом свињи
+5	1305	zahtev	zahteva zahtev zahteve zahtevi zahtevima zahtevu захтева захтев zahtevom захтеве захтеви захтевима захтеву захтевом
+6	1306	ugasiti	ugasi ugasiti ugasite ugasio ugasila ugasim ugasiš ugasimo ugašen ugase ugasili ugašena ugašeno ugasiću ugasilo угаси gasiti ugašeni ugašene ugasiće ugasile угасити ugasićemo pogasiti угасите угасим угасио угасила угасиш угасимо угашен угасе угасили угашена угашено угасићу угасило гасити угашени угашене угасиће угасиле угасићемо погасити
+7	1307	ukus	ukus ukusa ukusu ukusom укус ukusi ukuse ukusima укуса укусу укусом укуси укусе укусима
+8	1308	krov	krov krovu krova krovom krovova кров krovovima krovove крову крова krovovi кровом кровова крововима кровове кровови
+9	1309	patiti	pati pate patio patiš patim patiti patila patite patili patimo пати patićeš пате patile patiće патиш патио патим patilo pateći патити патила патите патили патимо патићеш патиле патиће патило патећи
+10	1310	petak	petak petka petkom petaka peci петак петка petku петком петака пеци петку
+11	1311	mada	mada мада
+12	1312	plaža	plaži plažu plaže plaža plažom plažama плажи плажу плаже плажа плажом плажама
+13	1313	provoditi	provodi provodim provodiš provodimo provodio provode provoditi provodili provodite provodila provođenje provodeći проводи provodile проводим проводе provodiću проводиш provodićemo проводимо проводио проводити проводили проводите проводила провођење проводећи проводиле проводићу проводићемо
+14	1314	novinar	novinar novinari novinara novinarima novinare novinarka novinaru новинар novinarom novinarku novinarkom новинари novinarke новинара novinarki новинарима новинаре novinarem новинарка новинару новинаром новинарку новинарком новинарке новинарки новинарем
+15	1315	stolica	stolicu stolice stolica stolici stolicom stolicama столицу столице столици столица столицом столицама
+16	1316	princeza	princeza princezo princezu princeze princezi princezom принцеза принцезу принцезо princezama принцезе принцези принцезом принцезама
+17	1317	podeliti	podelimo podeliti podelim podeli podelite podelio podeliš podelili podelićemo podele podelila podeljena podeljeno podeljen podeljeni podeliću podeljene поделимо поделити подели podelile поделим поделе поделите podeliće podelilo podelićeš podelićete поделићемо подељен поделио поделиш поделили поделила подељена подељено подељени поделићу подељене поделиле поделиће поделило поделићеш поделићете
+18	1318	upasti	upao upasti upali upadne upadneš upadnem upadnemo upadnu upadnete upale упао upalo upašćeš upašće upašćemo upadni upašću upade упадне упасти upašćete упали упаднеш упаднем упаднемо упадну упаднете упале упало упашћеш упашће упашћемо упадни упашћу упаде упашћете
+19	1319	deliti	deli delimo delim deliš deliti delili delite delio deljenje delila deliće delićemo delile деле делимо дели deleći deliću делим делите дељење delilo делити делиш делили delićeš dele delićete делио делила делиће делићемо делиле делећи делићу делило делићеш делићете
+20	1320	kazniti	kažnjen kazniti kažnjeni kažnjena kazne kažnjava kaznio kazni kaznim kažnjavaš kazniš kaznite kažnjavanje kaznili kažnjavam kažnjavaju kažnjavati kaznila kaznimo kazniću kažnjavan kazniće kažnjavate kažnjene kažnjavao kažnjavamo kažnjeno кажњен kažnjavaj казнити kažnjavali kažnjavala кажњени kažnjavani кажњена казне kažnjavajući kažnjavana kaznićemo kaznićeš кажњава казнио казни казним кажњаваш казниш казните кажњавање казнили кажњавам кажњавају кажњавати казнила казнимо казнићу кажњаван казниће кажњавате кажњене кажњавао кажњавамо кажњено кажњавај кажњавали кажњавала кажњавани кажњавајући кажњавана казнићемо казнићеш
+21	1321	gadan	gadno gadan gadna gadne gadnu gadni gadnih gadnom gadnoj гадно gadnog gadnim гадан гадна gadnije gadniji гадни гадну гадне гадних гадном гадној гадног гадним гадније гаднији
+22	1322	zameniti	zameniti zamenio zamenim zamenili zamenimo zameni zamenila zameniš zamene zamenite zamenjen zamenjena zamenjuje zamenjene zameniću zamenićemo zamenjeni zamenjujem zameniće zamenile zamenjuju заменити zamenjeno заменио zamenjuješ zamenilo замени zamenićeš заменимо заменили заменим zamenjujemo замените замене замениш заменила замењен замењена замењује замењене заменићу заменићемо замењени замењујем замениће замениле замењују замењено замењујеш заменило заменићеш замењујемо
+23	1323	zahvalan	zahvalan zahvalna zahvalni захвалан zahvalne zahvalno захвална захвални zahvalniji zahvalnim zahvalnog zahvalnija захвалне захвално захвалнији захвалним захвалног захвалнија
+24	1324	tetka	tetka tetke tetku tetki tetkom тетка тетке tetkama tetko тетку tetaka тетки тетком теткама тетко тетака
+25	1325	vozač	vozač vozača vozaču vozači vozače vozačem vozačima возач возача возачу возачи возаче возачем возачима
+26	1326	ponavljati	ponavljam ponavlja ponavljati ponavljaš ponavljaj ponavljao ponavljaju ponavljanje ponavljamo ponavljala ponavljajte ponavljate понављам ponavljali ponavljajući понавља ponavljalo ponavljaću понављати понављаш понављај понављао понављају понављање понављамо понављала понављајте понављате понављали понављајући понављало понављаћу
+27	1327	mobilan	mobilni mobilnog mobilne mobilnom mobilnim mobilnih мобилни mobilna mobilnu мобилног mobilan мобилном мобилне mobilnima мобилних мобилним мобилна мобилну мобилан мобилнима
+28	1328	zabraniti	zabranjeno zabranjen zabranjena zabranio zabranjujem zabranjuje zabranjene zabraniti zabranjeni zabranili zabranila zabrane zabrani zabranjuju zabranim забрањено zabraniš zabranite zabranjuješ zabranimo забрањен забранио zabraniću zabranilo забрањене забрањена zabranjujemo zabranjivao zabraniće забрањујем забрањује забранити забрањени забранили забранила забране забрани забрањују забраним забраниш забраните забрањујеш забранимо забранићу забранило забрањујемо забрањивао забраниће
+29	1329	sjediti	sjedi sjediti sjedio sjedim sjedite sjediš sjedila sjedimo sjedili sjede sjedeći sjedenje сједи сједите sjedile сједити сједио сједим сједиш сједила сједимо сједили сједе сједећи сједење сједиле
+30	1330	nikako	nikako никако
+31	1331	naručiti	naručio naručila naručiti naručili naruči naručim naručimo naručite naručiš naručiću naručeno naručićemo naručena наручио naručen naručile naruče naručene наручити naručeni наручим наручите наручили наручила наручи наручимо наручиш наручићу наручено наручићемо наручена наручен наручиле наруче наручене наручени
+32	1332	miš	miš miša mišiće mišića mišići miševi mišić miševe miševa mišićima mišu miševima mišiću mišem миша миш mišima мишиће мишића miše мишићи miši мишеви мишић мишева мишеве мишићима мишу мишевима мишићу мишем мишима мише миши
+33	1333	odraditi	odradio odradi odraditi odradim odradimo odrađeno odradili odradila odradiš odrade odradite odrađen odradiću odradićemo одрадити odradile одрадио одради odrađena odradiće odradićeš одрађено одрадимо одрадим odradilo одрадили одрадила одрадиш одраде одрадите одрађен одрадићу одрадићемо одрадиле одрађена одрадиће одрадићеш одрадило
+34	1334	počistiti	čišćenje počisti počistiti čistiti čistio čistiš počistim čistila čistimo čisti počistimo počistite počistiš čistite čiste čistili čistim čisteći чишћење počiste počistiću počistićemo čistiću čistile čistićeš чистио чисти чисте чистим почисти почистити чистити чистиш почистим чистила чистимо почистимо почистите почистиш чистите чистили чистећи почисте почистићу почистићемо чистићу чистиле чистићеш
+35	1335	zaglaviti	zaglavio zaglavila zaglavili zaglavljen zaglavljena zaglavljeni zaglavilo zaglavi zaglaviti zaglavljeno zaglavim zaglaviš zaglavimo zaglave заглавио zaglavljene zaglavile zaglavite заглављени заглавила заглавили zaglavićeš заглављен zaglavićemo заглављена заглави zaglaviću заглавило заглавити заглављено заглавим заглавиш заглавимо заглаве заглављене заглавиле заглавите заглавићеш заглавићемо заглавићу
+36	1336	tražilo	tražila тражила tražilo тражило
+37	1337	trener	trener treneru trenera trenerom treneri тренер тренеру trenere trenerima тренера тренером тренери тренере тренерима
+38	1338	braniti	brani braniti braniš branim branio brane branimo branite branila branili braneći брани braniću branićemo бранио бране браниш браним бранити braniće branjen бранимо branjena branićeš branile браните бранила бранили бранећи бранићу бранићемо браниће брањен брањена бранићеш браниле
+39	1339	napredovati	napreduje napredujemo napreduju napreduješ napredovao napredovali napredovala napredovati napredovanje napredujem napredujete napredovanja напредује napredovanju napredovalo napredovale napredovanjem napreduj напредују napredujući напредовао напредујемо напредовање напредујеш napredovaćeš напредовали напредовала напредовати напредујем напредујете напредовања напредовању напредовало напредовале напредовањем напредуј напредујући напредоваћеш
+40	1340	gubitak	gubitak gubitka gubitke gubitku gubitkom gubitaka gubici губитак gubicima губитка губитке губитака губитку губитком губици губицима
+41	1341	umeti	umem umeš umeju umeo umete umela umeće umemo umeti umeli умем умеш umeću ume умеју умео умете уме умела умеће умемо умети умели умећу
+42	1342	pozdraviti	pozdravite pozdravim pozdraviti pozdravimo pozdravi pozdravio pozdraviš pozdravila pozdravili pozdrave pozdraviću поздравите поздравим pozdravljen pozdravljeni поздравимо pozdravićemo поздравио pozdravile поздравити поздрави поздраве поздравиш поздравила поздравили поздравићу поздрављен поздрављени поздравићемо поздравиле
+43	1343	snažan	snažan snažno snažna snažni snažne snažniji snažnu snažnije snažnim snažnog snažnija snažnom snažnih najsnažniji снажан najsnažnije снажно najsnažnija snažnijim snažnoj снажна najsnažnijih snažniju snažnijeg снажне снажни снажнији снажну снажније снажним снажног снажнија снажном снажних најснажнији најснажније најснажнија снажнијим снажној најснажнијих снажнију снажнијег
+44	1344	čuvar	čuvar čuvara čuvari čuvare čuvaru čuvarima чувар čuvarom čuvarem чувара чувари чуваре чувару чуварима чуваром чуварем
+45	1345	trik	trik trikove trikova trikovi trikovima trika трик trikom triku трикове трикова трикови триковима трика триком трику
+46	1346	sprat	spratu sprat sprata spratova спрат спрату spratove spratovima спрата spratovi спратова spratom спратове спратовима спратови спратом
+47	1347	odelo	odelo odela odelu odelima одело odelom одела оделу оделима оделом
+48	1348	miris	miris mirisa mirise mirisom mirisu мирис mirisi mirisima мириса мирисе мирисом мирису мириси мирисима
+49	1349	čaša	čašu čaše čaša čaši čašom чашу čašama чаше чаша чаши чашом чашама
+50	1350	potraga	potrazi potragu potraga potrage потрази potragom потрагу потрага потраге потрагом
+51	1351	fakultet	fakultet fakultetu faks fakulteta faksu faksa faksom fakultete факултет fakulteti fakultetima факултету fakultetom факултета факс faksove faksovi faksova факсу факса факсом факултете факултети факултетима факултетом факсове факсови факсова
+52	1352	drag	drag najdraži najdraža драги dragog dragi draži dragim draža najdražih dragih najdražu najdražeg dragoga драг najdražoj najdražem најдража najdražim drage draže најдражи драгог najdraže najdražom dragoj dragu dragom драге дражи драгим дража најдражих драгих најдражу најдражег драгога најдражој најдражем најдражим драже најдраже најдражом драгој драгу драгом
+53	1353	vek	veka veku vek vekovima vekova vekove века vekovi веку век вековима векова vekom векове векови веком
+54	1354	štititi	štititi štitim štitiš štiti štitio štitite štitimo štite štitila štitili štiteći штити štitiću штитити štitiće штитим штитиш štitile štitićemo štitilo штитимо штитио штитите штите штитила штитили штитећи штитићу штитиће штитиле штитићемо штитило
+55	1355	odabrati	odabrao odabrala odabrati odabrali odaberi odaberem odabereš odabere odabrani odaberite odabran odabrana odaberemo odaberete odaberu odabrane odabrano одабрао одабрати odabraću odabrale одабрали одабрала odabralo одабрани одаберите odabraćemo одабери одаберем одабереш одабере одабран одабрана одаберемо одаберете одаберу одабране одабрано одабраћу одабрале одабрало одабраћемо
+56	1356	mirno	mirno мирно
+57	1357	doviđenja	doviđenja довиђења
+58	1358	uznemiriti	uznemiren uznemirena uznemireni uznemirio uznemireno uznemirilo uznemirila uznemiriti uznemiri uznemirim uznemirili узнемирен uznemiriš uznemire uznemirene узнемирена uznemirimo узнемирени uznemirile узнемирио uznemirite uznemiriće uznemirićeš узнемирено узнемирило узнемирила узнемирити узнемири узнемирим узнемирили узнемириш узнемире узнемирене узнемиримо узнемириле узнемирите узнемириће узнемирићеш
+59	1359	stranac	stranac stranci stranca strancima stranaca strance stranče strancem strancu странац странцима странци странца странаца странце странче странцем странцу
+60	1360	lokalan	lokalni lokalne lokalna lokalnim lokalnog lokalnom lokalnu lokalnih lokalno lokalnoj локални локалне локална локалним локалног локалну локалном локалних локално локалној
+61	1361	devet	devet девет
+62	1362	zadovoljan	zadovoljan zadovoljni zadovoljna zadovoljno zadovoljne задовољан задовољни zadovoljnim zadovoljniji задовољна zadovoljnog zadovoljnom zadovoljnih zadovoljnija задовољно задовољне задовољним задовољнији задовољног задовољном задовољних задовољнија
+63	1363	padati	padaju pada padala padam padati padao padaš padamo padanje padali padalo padale padate padaj падају padaće padajući падала padajte падам падао пада падати падаш падамо падање падали падало падале падате падај падаће падајући падајте
+64	1364	lopov	lopov lopova lopovi lopove lopovima lopovom lopovu лопов лопова лопови лопове лоповима лоповом лопову
+65	1365	struja	struje struju struja strujom struji strujama струја струје струју струјом струји струјама
+66	1366	vagati	važi важи važe važu vagati vaganje važem важе важу вагати вагање важем
+67	1367	davno	davno давно
+68	1368	valjati	valja valjalo valjaju valjati valjano ваља valjao valjaš valjan valjam valjanje valjala valjani valjana valjali valjamo valjate valjaj valjane ваљало ваљају ваљати ваљано ваљао ваљаш ваљан ваљам ваљање ваљала ваљани ваљана ваљали ваљамо ваљате ваљај ваљане
+69	1369	kriviti	kriviti kriviš okriviti krivite krivi krivio krivim okrivi okrivljeni krivila okrivio okrive okrivljen okriviš okrivili krivimo okrivite okrivila krivili krive okrivim okrivljena okrivimo кривити okriviće кривиш okrivljavati kriveći krivljenje kriviće кривите криви кривим okrivljene криве окривити кривио окриви окривљени кривила окривио окриве окривљен окривиш окривили кривимо окривите окривила кривили окривим окривљена окривимо окривиће окривљавати кривећи кривљење кривиће окривљене
+70	1370	maknuti	makni maknite maknuti makneš maknuo mače maknem makne maknemo makao maknut maknuli maknimo maknete maknu maknula makli макни maći makla maknuta макните maknuću маче макнути макнеш макнуо макнем макне макнемо макао макнут макнули макнимо макнете макну макнула макли маћи макла макнута макнућу
+71	1371	radni	radno radni radnog radna radnu radne radnom radnoj radnih radnim радно радну радна радни радне радног радном radnome радних радној радним радноме
+72	1372	jezero	jezero jezera jezeru jezerce језеро jezerima језера jezerom језеру jezerceta jezerca jezercu jezerske језерце језерима језером језерцета језерца језерцу језерске
+73	1373	sakriti	sakriti skriveni skrivena skriveno skrivene skriven skrivenu skrivenih skrivenog skriti skrivenim skrivenom сакрити skrivenoj skrij skrili skrije скривено skrijte скривени скривена скривене skrijem скривен skriju скривену скривених скривеног скрити скривеним скривеном скривеној скриј скрили скрије скријте скријем скрију
+74	1374	nažalost	nažalost нажалост
+75	1375	veštica	veštica veštice vešticu vešticama вештица veštici vešticom вештице вештицу вештицама вештици вештицом
+76	1376	uopće	uopće уопће
+77	1377	zajednički	zajedničko zajednički zajedničkog zajedničku zajednička zajedničke zajedničkom zajedničkih zajedničkim zajedničkoj заједнички заједничко заједничког zajedničkoga заједничку заједничка заједничке заједничком заједничких заједничким заједничкој заједничкога
+78	1378	micati	miči mičite miče micati mičem miču micah мичи micao mičeš mičemo micala micanje mičete мичите mičimo micali миче мицати мичем мичу мицах мицао мичеш мичемо мицала мицање мичете мичимо мицали
+79	1379	odgovornost	odgovornost odgovornosti одговорност odgovornošću odgovornostima одговорности одговорношћу одговорностима
+80	1380	povratak	povratak povratka povratku povratkom повратак повратка повратку povrataka повратком повратака
+81	1381	ugao	uglu ugla ugao uglom uglove uglova uglovima углу uglovi угла угао углом углове углова угловима углови
+82	1382	mrak	mraku mrak mraka мраку мрак мрака mrakom мраком
+83	1383	ispravan	ispravno ispravan ispravna ispravnu ispravnim ispravne ispravni исправно ispravnog ispravnom ispravnih исправан исправна исправну исправним исправне исправни исправног исправном исправних
+84	1384	snimati	snimamo snimam snimaš snimati snimao snimaju snimali snimaj snimate snimala sniman snimajući snimajte snima snimano snimaćemo snimani снимамо snimaću snimale snimana снимам snimaće снимају снимаш snimane snimalo снимао snimajmo снима снимање снимати снимали снимај снимате снимала сниман снимајући снимајте снимано снимаћемо снимани снимаћу снимале снимана снимаће снимане снимало снимајмо
+85	1385	zdrav	zdrav zdrava zdravi zdrave zdravog zdravu zdravom zdravim zdravoj zdravije zdraviji zdravih здрав здрава zdravija najzdraviji здрави najzdravije najzdravija zdravima здравог здраве zdraviju здраву здравом здравим здравој здравије здравији здравих здравија најздравији најздравије најздравија здравима здравију
+86	1386	čisto	čisto чисто
+87	1387	istraživanje	istraživanje istraživanja istraživanju istraživanjima istraživanjem истраживање истраживања истраживању истраживањима истраживањем
+88	1388	usamljen	usamljen usamljena usamljeni usamljeno usamljene usamljenog usamljenim usamljenom usamljenih usamljenu усамљен usamljenoj najusamljeniji усамљена usamljeniji усамљени usamljenije usamljenija усамљено усамљене усамљеног усамљеним усамљеном усамљених усамљену усамљеној најусамљенији усамљенији усамљеније усамљенија
+89	1389	obe	obe obema обе obeju обема обеју
+90	1390	nem	нема nem nemi neme nemog nemom nemu nemih нем немој неми неме немог немом нему немих
+91	1391	princ	princ princa prinče princu prinčevi принц princem prinčeva принца prinčeve принче prinčevima принцу принчеви принцем принчева принчеве принчевима
+92	1392	krasti	krade kradeš kradu krao krasti kradem krademo krala krali kradete kradi краде kradući kradene краду крао kradite крадеш kradena крадем krale красти крадемо крала крали крадете кради крадући крадене крадите крадена крале
+93	1393	magija	magija magiju magije magijom magiji магија магију магије magijama магијом magijo магији магијама магијо
+94	1394	uloga	ulogu uloga uloge ulozi ulogama улогу ulogom улога улоге улози улогама улогом
+95	1395	stil	stil stilu stila stilom стил stilove стилу stile stilova stilovi стилом стила stilovima стилове стиле стилова стилови стиловима
+96	1396	tema	temu tema teme temi temama temom тему тема теме temenu temena теми temo темама темом темену темена темо
+97	1397	muka	muka muke muci mukama muku мука mukom муке муци мукама муку муком
+98	1398	kit	kit kita kitu kiti kite kitovi kitova kitove kitom kitovima кит kito kitama кита киту кити ките китови китова китове китом китовима кито китама
+99	1399	slično	slično слично
+100	1400	postići	postići postigao postigli postigne postigla postigneš postignem postignemo postiže postignu postignut postignete постићи postignuta postignuto postiglo постигао postigle постигне постигли postignuti postigni постиже постигла постигнеш постигнем постигнемо постигну постигнут постигнете постигнута постигнуто постигло постигле постигнути постигни

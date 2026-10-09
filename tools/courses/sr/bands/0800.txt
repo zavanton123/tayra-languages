@@ -1,0 +1,100 @@
+1	701	gospodar	gospodaru gospodar gospodara gospodari господару gospodare господар gospodarom gospodarima господара господари господаре господаром господарима
+2	702	budućnost	budućnost budućnosti будућност budućnošću будућности будућношћу
+3	703	prozor	prozor prozora prozore prozoru prozori prozorima прозор prozorom прозора прозоре прозори прозору прозорима прозором
+4	704	konačno	konačno коначно
+5	705	ustati	ustani ustao ustanite ustati ustanem ustaneš ustala ustane ustali ustanete ustanu ustanemo устани ustaću устао устаните ustanimo устати устанем устанеш устане ustaće устала ustale ustaćeš ustaćemo ustade устали устанете устану устанемо устаћу устанимо устаће устале устаћеш устаћемо устаде
+6	706	kamera	kamera kamere kameru kamerom kamerama kameri камере камера камеру камером камерама камери
+7	707	beo	beli bele belo belu belog bel belom belim beloj belih beo бели беле бело белу белог белом белој бел белим belji бео белих belju belima belja beloga бељи бељу белима беља белога
+8	708	većina	većina većinu većinom većine većini већина већину већини већином већине
+9	709	zaštititi	zaštititi zaštitim zaštiti zaštite zaštitio zaštitiš zaštitimo zaštitite zaštitili zaštićen zaštitila zaštićeni zaštićena zaštićeno zaštićene zaštitiću заштити zaštitićemo заштитим заштитити zaštitiće заштите zaštitilo zaštitile заштитите заштитимо заштитио заштитиш заштићен заштићени заштићена заштитила заштитили заштићено заштићене заштитићу заштитићемо заштитиће заштитило заштитиле
+10	710	mrziti	mrzim mrzi mrziš mrze mrzio mrziti mrzila mrzite мрзим mrzimo mrzili мрзи мрзиш мрзе mrzeći мрзите мрзимо мрзио мрзити мрзила мрзили мрзећи
+11	711	obećavati	obećavam obećavaš obećava обећавам obećavate obećavamo obećavaju obećavajući obećavao обећаваш obećavala obećavali obećavati obećavaj обећава обећавате обећавамо обећавају обећавајући обећавао обећавала обећавали обећавати обећавај
+12	712	ispričati	ispričati ispričao ispričaj ispričam ispričajte ispričala ispričaš ispriča ispričaću ispričali ispričate ispričamo ispričaju ispričana ispričaćeš испричао испричај испричам испричати ispričaće испричаш исприча ispričaćemo испричала ispričane испричаћу ispričale ispričano ispričaćete испричајте испричали испричате испричамо испричају испричана испричаћеш испричаће испричаћемо испричане испричале испричано испричаћете
+13	713	stvoriti	stvorio stvorili stvoriti stvori stvorila stvoren stvoreni stvorena stvorimo stvorim stvorilo stvore stvoriš stvoreno stvorene stvorite stvorile створио stvorićemo створи створили stvoriće stvoriću створити stvorivši створила створен stvoriše створена створени stvorićeš створе створимо створим створило створиш створено створене створите створиле створићемо створиће створићу створивши створише створићеш
+14	714	jutros	jutros јутрос
+15	715	obično	obično обично
+16	716	pokupiti	pokupi pokupio pokupiti pokupim pokupili pokupila pokupimo pokupiš pokupite pokupe pokupiću pokupićemo покупити pokupiće pokupljen pokupićeš pokupljena pokupile pokupilo pokupljeno pokupljeni pokupićete покупи покупио покупим покупили покупила покупимо покупиш покупите покупе покупићу покупићемо покупиће покупљен покупићеш покупљена покупиле покупило покупљено покупљени покупићете
+17	717	oženiti	oženjen oženio oženiti oženi oženim oženiš oženjeni oženiću oženili oženite ожењен оженио oženićeš ožene oženiće oženjena oženimo oženjene ожени оженим оженити ожениш oženila oženivši ожењени оженићу оженили ожените оженићеш ожене ожениће ожењена оженимо ожењене оженила оженивши
+18	718	operacija	operaciju operacija operacije operaciji operacijom operacijama операција операцију операције операцији операцијом операцијама
+19	719	boja	boje boja boji boju bojama bojom боје боја боји боју бојама бојом
+20	720	čast	čast časti najčešće част česta čest čašću česte česti части najčešći češći najčešća čestim najčešćih čestih češća најчешће честа чест чашћу честе чести најчешћи чешћи најчешћа честим најчешћих честих чешћа
+21	721	kim	kim kima kimom kimu ким кима кимом киму
+22	722	odbiti	odbio odbila odbiti odbij odbili odbijem odbije odbiješ odbijen odbijena odbiju odbijete odbijte odbijemo odbi odbijeno odbilo одбио odbijeni odbile odbiću odbiće одбиј одбити одбила одбијем odbijene одбили одбије одбијен odbićemo одбијеш odbićeš одбијена одбију одбијете одбијте одбијемо одби одбијено одбило одбијени одбиле одбићу одбиће одбијене одбићемо одбићеш
+23	723	jedva	jedva једва
+24	724	crkva	crkvu crkvi crkve crkva crkveni crkvom crkvene crkvena crkava crkvenom цркву цркви crkvama цркве crkvenog crkveno црква crkvenu crkvenih crkvenim crkvenoj црквени црквом црквене црквена цркава црквеном црквама црквеног црквено црквену црквених црквеним црквеној
+25	725	popričati	popričamo popričam popričati popričaš popričajmo popričali popriča popričaj popričaću popričate popričao popričaćemo попричамо popričajte popričala popričaju попричам попричати popričale попричајмо попричаш попричали поприча попричај попричаћу попричате попричао попричаћемо попричајте попричала попричају попричале
+26	726	dvojica	dvojica dvojicu dvojice dvojicom dvojici двојица двојицу двојице двојицом двојици
+27	727	pokušaj	pokušaj pokušaja pokušaju покушај pokušaji pokušajima pokušaje pokušajem покушаја покушају покушаји покушајима покушаје покушајем
+28	728	očigledno	očigledno очигледно
+29	729	klinac	klinac klinci klinca klince klinaca klincima klincu klincem клинац клинци клинца клинце клинаца клинцима клинцу клинцем
+30	730	stizati	stiže stižem stižu stižemo stižeš stižete стиже стижем стижемо стижу stizali stizala stizati stizao stizale stizalo stizanje стижеш стижете стизали стизала стизати стизао стизале стизало стизање
+31	731	sladak	sladak slatki slatka slatke slatkog slatkim slatku slatkih najslađi сладак najslađa najslađe slađi slađe slatkoj slatkom слатки slađa слатка najslađu слатке slatkoga najslađeg slađim слатку слатког слатким слатких најслађи најслађа најслађе слађи слађе слаткој слатком слађа најслађу слаткога најслађег слађим
+32	732	odgovoriti	odgovoriti odgovorio odgovorite odgovorim odgovoriš odgovorila odgovori odgovorili odgovore odgovoriću odgovorimo одговорио одговорите odgovoreno одговорити одговорим odgovoriće одговориш odgovorićeš odgovorilo одговори одговорила odgovorićemo одговорили odgovorile odgovorena odgovorih odgovorićete одговоре одговорићу одговоримо одговорено одговориће одговорићеш одговорило одговорићемо одговориле одговорена одговорих одговорићете
+33	733	neprijatelj	neprijatelja neprijatelj neprijatelji neprijatelje neprijatelju neprijateljem neprijateljima непријатељ непријатеља непријатељи непријатеље непријатељу непријатељима непријатељем
+34	734	glupost	gluposti glupost glupostima глупости глупост glupošću глупостима глупошћу
+35	735	uhapsiti	uhapšen uhapsili uhapšeni uhapsiti uhapsite uhapse uhapsio uhapšena uhapsi uhapsim uhapsimo uhapsila uhapsiš uhapsiće uhapsiću ухапшен uhapsićemo uhapšeno ухапшени ухапсили uhapšene ухапсити ухапсе uhapsićeš uhapsićete ухапсите ухапси ухапсио ухапшена uhapsile ухапсим ухапсимо ухапсила ухапсиш ухапсиће ухапсићу ухапсићемо ухапшено ухапшене ухапсићеш ухапсићете ухапсиле
+36	736	posebno	posebno посебно
+37	737	pivo	pivo piva pivom pivu пиво пива пивом пиву
+38	738	ostatak	ostatak ostatke ostaci ostatka ostataka ostatkom ostatku ostacima остатак остатке остаци остатка остатака остатком остатку остацима
+39	739	slomiti	slomio slomiti slomljena slomila slomljeno slomljen slomi slomili slomilo slomim slomiš slomljene slomljeni slomiću slome slomimo slomite slomićeš сломио slomiće сломљена сломити сломљен slomile сломљено сломила сломи slomićemo slomićete сломили сломило сломим сломиш сломљене сломљени сломићу сломе сломимо сломите сломићеш сломиће сломиле сломићемо сломићете
+40	740	muzika	muziku muzika muzike muzici muzikom музика музику музике музиком музици
+41	741	udati	udala udati udam udaš uda udaj udana udaju udate udaću udaćeš udali удала удати udaće udavati удам udao уда udale удаш udamo udajte udani udane удај udan udaćete удана удају удате удаћу удаћеш удали удаће удавати удао удале удамо удајте удани удане удан удаћете
+42	742	svakako	svakako свакако
+43	743	zločin	zločina zločin zločine zločini zločinu zločinima злочин zločinom злочина злочине злочини злочину злочинима злочином
+44	744	kutija	kutiju kutija kutije kutiji kutijama kutijom кутију кутија кутије кутији kutijo кутијама кутијом кутијо
+45	745	povući	povuci povući povukao povucite povuče povučem povučeš povukla povukli povuku povučemo povučete повући повуци povuklo повукао повуче povucimo povukle повуците повуку повучем повукли повукла повучеш повучемо повучете повукло повуцимо повукле
+46	746	francuski	francuski francuske francuskoj francuska francusku francuskom francuskog francuskim francusko francuskih француски француске француској француска француску француском француског francuskoga француским француско француских францускога
+47	747	hodati	hoda hodati hodaš hodam hodaj hodao hodaju hodamo hodali hodala hodanje hodate hodajući hodajte хода hodajuća ходам hodaću ходати ходаш hodaćemo hodalo hodale ходао hodajuće hodajmo ходај hodaćeš ходају ходање hodaće ходамо ходали ходате hodajućeg ходала ходајући ходајте ходајућа ходаћу ходаћемо ходало ходале ходајуће ходајмо ходаћеш ходаће ходајућег
+48	748	niti	niti нити
+49	749	predati	predati predao predaj predam predaš predajte predaju predali predamo predala predate predaću predan preda predana predani predano predaćemo предати predaće predaćeš предај предао предам predaćete предајте predalo предају predajmo предаш предали предате предамо predale predane предала преда предаћу предан предана предани предано предаћемо предаће предаћеш предаћете предало предајмо предале предане
+50	750	dići	diži diže digni digao digne dići dižem dižite dignite digla digli dignem dižeš dižu digneš dizanje dignemo dignuti dignu dižemo dizati dizao dignut dizala дижи dignuo dignete dižete dignimo dignuta dizali диже digle diglo дигни dignute дигне dižući дигао дићи дижем дижите дигните дигла дигли дигнем дижеш дижу дигнеш дизање дигнемо дигнути дигну дижемо дизати дизао дигнут дизала дигнуо дигнете дижете дигнимо дигнута дизали дигле дигло дигнуте дижући
+51	751	strašno	strašno страшно
+52	752	savršen	savršen savršena savršeni savršenu savršene savršenog savršenom savršenim савршен savršenoj савршена savršenih najsavršeniji савршени najsavršenije savršenije najsavršenija savršeniji савршене савршену савршеног савршеном савршеним савршеној савршених најсавршенији најсавршеније савршеније најсавршенија савршенији
+53	753	opasan	opasan opasna opasni opasne opasnim opasnu opasnije opasnog opasnih opasniji najopasniji opasnom najopasnije najopasnija опасан opasnoj najopasnijih opasnija опасна опасни opasnijim najopasnijim najopasnijeg najopasniju опасне опасним опасну opasnijeg najopasnijem opasniju опасније опасног опасних опаснији најопаснији опасном најопасније најопаснија опасној најопаснијих опаснија опаснијим најопаснијим најопаснијег најопаснију опаснијег најопаснијем опаснију
+54	754	dio	dio dijelu dijela dijelove dijelovi dijelom dijelova dijelovima дио дијелу дијела дијелове дијелови дијелом дијелова дијеловима
+55	755	partner	partner partnera partneri partneru partnerom partnere partnerima партнер партнера партнери партнеру партнером партнере партнерима
+56	756	detektiv	detektiv detektive detektiva detektivi detektivu детектив detektivom detektivima детективе детектива детективи детективу детективом детективима
+57	757	pripadati	pripada pripadaju pripadam pripadaš pripadao pripadala pripadalo pripadamo pripadate припада pripadati pripadali pripadale припадају припадам припадаш припадао припадамо припадала припадате припадало припадати припадали припадале
+58	758	moral	morala moral морала moralu moralom морал моралу моралом
+59	759	rupa	rupu rupa rupe rupi rupama rupom рупу рупа rupčaga рупе rupica rupetina рупи rupetini rupetinu rupetine рупама рупом рупчага рупица рупетина рупетини рупетину рупетине
+60	760	general	generale general generala generalu generali generalom генерале генерал генерала generalima генералу генерали генералом генералима
+61	761	strah	strah straha strahu strahom strahove strahovi strahovima страх strahova страха страху страхом страхове страхови страховима страхова
+62	762	među	među међу
+63	763	čas	čas časa časove časova času časovima časovi час часа часова часу часове časom čase часовима часови часом часе
+64	764	preuzeti	preuzeti preuzeo preuzme preuzmi preuzmem preuzmeš preuzeli preuzela preuzmu preuzmemo preuzmite preuzeću preuzmete preuzet преузме преузети preuzele preuzeće преузео preuzelo preuzećemo preuzećeš преузми preuzeta преузели преузмем preuzeto преузето преузму преузела preuzećete преузмеш preuzete preuzmimo преузећу преузмемо преузмите преузмете преузет преузеле преузеће преузело преузећемо преузећеш преузета преузећете преузете преузмимо
+65	765	usta	usta ustima уста устима
+66	766	pridružiti	pridružiti pridruži pridružite pridružiš pridružio pridružim pridružili pridružila pridruže pridružimo pridružiću pridružiće pridružićeš придружити придружи придружите pridružićete придружио pridružile pridružićemo придружиш придружим pridružilo придруже придружили придружила pridruženi придружићу pridružen придружимо придружиће придружићеш придружићете придружиле придружићемо придружило придружени придружен
+67	767	centar	centar centru centra centre центар центру centrom centara centri centrima центра центре центром центара центри центрима
+68	768	savršeno	savršeno савршено
+69	769	zabrinut	zabrinut zabrinuta zabrinuti zabrinuo zabrinula zabrinuto zabrinuli забринут zabrinute забринути zabrinem zabrinulo забринута zabrine zabrinutog zabrinutih zabrinutiji zabrineš zabrinutim zabrinule zabrinemo забринуо zabrinu zabrinutu забринула забринуто забринули забринуте забринем забринуло забрине забринутог забринутих забринутији забринеш забринутим забринуле забринемо забрину забринуту
+70	770	dogovoriti	dogovoreno dogovorili dogovorimo dogovoriti dogovorio dogovorila dogovorite dogovorile dogovorićemo dogovorim dogovoren договорили договорено dogovoriš dogovoriću dogovoreni dogovorena договоримо dogovori dogovore dogovorene договорио договорити договорила договорите договориле договорићемо договорим договорен договориш договорићу договорени договорена договори договоре договорене
+71	771	barem	barem барем
+72	772	gospođica	gospođice gospođica gospođicu госпођице gospođici gospođicom госпођица госпођицу госпођици госпођицом
+73	773	trčati	trči trčao trčim trčiš trčati trčanje trčite trče trčala trčimo trčali трчи trčeći трчао трчање трчим trčale трчите трчиш trčaću trčaćemo трче трчимо трчати trčaćeš trčaće trčalo трчали трчала трчећи трчале трчаћу трчаћемо трчаћеш трчаће трчало
+74	774	sasvim	sasvim сасвим
+75	775	potpisati	potpisao potpisati potpiši potpišite potpišem potpiše potpisali potpišeš potpisala potpišete potpisan potpisano potpišemo potpišu potpisaću potpisa potpisana potpisani potpisane потписао потпише potpisaće potpisaćeš потписати potpisale потпиши potpisaćemo потписали потпишем potpisalo потпишите potpisaćete потписан потписала потпишете потпишеш potpišimo потписано потпишемо потпишу потписаћу потписа потписана потписани потписане потписаће потписаћеш потписале потписаћемо потписало потписаћете потпишимо
+76	776	važiti	važi важи važe važeći važilo važiti važio važili važila важе важећи важило важити важио важили важила
+77	777	rob	robu rob roba robe robi robovi robove robova robom robinja robovima роб robo роби робу robinje robinju роба робови робе робове робова robinjo робом robinjom robinji робиња робовима робо робиње робињу робињо робињом робињи
+78	778	leđa	leđa leđima леђа леђима
+79	779	linija	liniju linija linije liniji linijom linijama линију линија линије линији линијом линијама
+80	780	počelo	počela počelo почело почела
+81	781	treći	treći treće treća trećeg trećem treću trećoj трећи trećim треће трећа трећег трећем трећу трећој трећим
+82	782	tokom	tokom током
+83	783	kleti	kunem кунем kuneš kleo kunete kune kunemo klela клео kunu kuni kleti kleli klet kle куне кунеш кунете кунемо клела куну куни клети клели клет кле
+84	784	ručak	ručak ručka ručku ručkom ручак ručke ručkove ручка ručkova ručkovi ручку ručki ručkovima ručkama ручком ручке ручкове ручкова ручкови ручки ручковима ручкама
+85	785	ogroman	ogroman ogromna ogromne ogromnu ogromno ogromni ogromnim ogromnom ogromnog ogromnih ogromnoj огроман огромна огромне огромну огромно огромни огромном огромним огромног огромних огромној
+86	786	banka	banke banku banci banka banaka bankama bankom банке банка банци банку banko банака банкама банком банко
+87	787	vlada	vlada vlade vladu vladi vladom влада владе vladama владу vlado влади владом владама владо
+88	788	poseban	poseban posebna posebne posebnu posebnog posebni posebnim posebnom posebnih posebnoj посебан посебна посебну посебне посебним посебног посебни посебном posebnima посебних посебној посебнима
+89	789	kasno	kasno касно
+90	790	ka	ka ка
+91	791	skloniti	skloni sklonite sklonimo skloniti skloniš sklonio sklonim sklonili sklone sklonila skloniću склони склоните sklonjen sklonićemo sklonjena skloniste sklonjeni sklonjeno склонимо склонити склониш skloniće sklonjene склонио sklonićeš склоним склонили склоне склонила склонићу склоњен склонићемо склоњена склонисте склоњени склоњено склониће склоњене склонићеш
+92	792	roditi	rodila rodio rođenja roditi rodi rođenje rađa rođenju rađaju rođena rodili rodim rodiš rođeni rađanje rađanja rodilo rođenjem rađala rode rodiću rađati родила рођења rodile rađamo родио rođeno rodjenje rađaš rođene rodimo rodiće rađam rodite rađajući роди rodićeš рађа рођење родити рођењу рађају рођена родили родим родиш рођени рађање рађања родило рођењем рађала роде родићу рађати родиле рађамо рођено родјење рађаш рођене родимо родиће рађам родите рађајући родићеш
+93	793	kuda	kuda куда kude куде
+94	794	nekad	nekad некад
+95	795	odmor	odmor odmori odmoru odmora одмор odmore одмори odmorom одмору одмора odmorima одморе одмором одморима
+96	796	gladan	gladan gladna gladni gladne гладан gladnih gladno гладна gladnog gladnim гладни gladnu gladniji gladnom gladnima gladnoj гладне гладних гладно гладног гладним гладну гладнији гладном гладнима гладној
+97	797	dobrodošao	dobrodošli dobrodošao dobrodošla добродошли dobrodošle добродошао dobrodošlo dobrodošlim dobrodošlom добродошла добродошле добродошло добродошлим добродошлом
+98	798	baka	baka bako bake baku baki bakom бака бако баку баке bakama баком баки бакама
+99	799	nebo	nebo neba nebu nebesa nebesima nebom небо неба небу небесима небеса небом
+100	800	zbogom	zbogom збогом

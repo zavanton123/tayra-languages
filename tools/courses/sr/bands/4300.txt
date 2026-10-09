@@ -1,0 +1,100 @@
+1	4201	nišan	nišanu nišani nišan nišana nišane nišanom нишану нишани нишан нишана нишане нишаном
+2	4202	vrelo	vrelo vrela vrelu vrelom врело врела врелу врелом
+3	4203	religiozan	religiozan religiozna religiozni religiozne religiozno religioznih religioznim religioznog religioznu religioznom religioznoj религиозан религиозна религиозни религиозне религиозно религиозних религиозним религиозног религиозну религиозном религиозној
+4	4204	posjedovati	posjeduje posjedujem posjeduju posjedovati posjeduješ posjedovao posjedujete posjedujemo posjedovali posjedovala посједује посједујем посједују посједовати посједујеш посједовао посједујете посједујемо посједовали посједовала
+5	4205	krasno	krasno красно
+6	4206	servis	servis servisa servisu сервис servisom servise servisi сервиса сервису сервисом сервисе сервиси
+7	4207	unijeti	unesite unijeti unije unesi unio unesem uneseš unese unesemo unijeli unijela unesete unesimo unesu уније унесите унесем унијети унеси унио унесеш унесе унесемо унијели унијела унесете унесимо унесу
+8	4208	upitati	upitao upitati upitam upita upitala upitaš upitaj upitali upitamo upitate upitajte upitaju upitah упитао упитати упитам упита упитала упиташ упитај упитали упитамо упитате упитајте упитају упитах
+9	4209	razveden	razvedeni razveden razvedena razvedenih razvedene разведени razvedenim разведен razvedenog разведена разведених разведене разведеним разведеног
+10	4210	nestabilan	nestabilan nestabilna nestabilno nestabilni nestabilne nestabilnom nestabilnim nestabilnog nestabilnu nestabilnih нестабилна nestabilniji нестабилан нестабилно нестабилни нестабилне нестабилном нестабилним нестабилног нестабилну нестабилних нестабилнији
+11	4211	južno	južno јужно
+12	4212	čips	čips čipsa čipsom čipse čipsu чипс чипса чипсом чипсе чипсу
+13	4213	komedija	komedija komedije komediju komediji komedijom komedijama комедија комедије комедију комедији комедијом комедијама
+14	4214	ulaznica	ulaznice ulaznica ulaznicu ulaznicama улазнице ulaznici улазница улазницу улазницама улазници
+15	4215	okus	okus okusa okusi okusom okuse okusu okusima окус окуса окуси окусом окусе окусу окусима
+16	4216	filozofija	filozofija filozofiju filozofije filozofiji filozofijom филозофија филозофију филозофије филозофији филозофијом
+17	4217	pista	pistu pisti piste pista pistom писту pistama писти писте писта пистом пистама
+18	4218	džentlmen	džentlmen džentlmena džentlmeni џентлмен džentlmenu džentlmenom džentlmene џентлмена џентлмени џентлмену џентлменом џентлмене
+19	4219	nagraditi	nagrađen nagraditi nagrađeni nagrade nagrađena nagradio nagradim nagradiću nagradite nagradimo nagrađeno nagradili nagradila nagrađene nagradi nagradiš награде награђен наградити награђени награђена наградио наградим наградићу наградите наградимо награђено наградили наградила награђене награди наградиш
+20	4220	bogataš	bogataša bogataš bogataši bogataše bogatašima bogatašu bogatašem богаташа богаташ богаташи богаташе богаташима богаташу богаташем
+21	4221	poglavica	poglavica poglavice poglavico poglavicu poglavici poglavicom поглавица поглавице поглавицо поглавицу поглавици поглавицом
+22	4222	izboriti	izborim izboriti izboriš izborimo izborio izborili izborite izborila izbore izboriću izbori izborićemo изборе избори изборим изборити избориш изборимо изборио изборили изборите изборила изборићу изборићемо
+23	4223	hitac	hitac hica hitaca hici hice хитац хица хитаца хици хице
+24	4224	pametnjaković	pametnjakoviću pametnjaković pametnjakovića pametnjakovići pametnjakoviće паметњаковићу паметњаковић pametnjakovićem паметњаковића паметњаковићи паметњаковиће паметњаковићем
+25	4225	ekonomski	ekonomski ekonomske ekonomska ekonomsku ekonomskog ekonomskom ekonomskoj ekonomskih ekonomskim ekonomsko економски економске економска економску економског економском економској економских економским економско
+26	4226	razgledati	razgledam razgledati razgledamo razgledao razgledaj razgledajte razgleda razgledaš razgledate razgledali razgledala razgledaju razgledaću razgledajmo разгледам разгледати разгледамо разгледао разгледај разгледајте разгледа разгледаш разгледате разгледали разгледала разгледају разгледаћу разгледајмо
+27	4227	predsednica	predsednice predsednica predsednicu predsednicom председнице predsednici председница председницу председницом председници
+28	4228	prase	prase prasence praseta prasad prasetom prasetu prasadi прасе прасенце прасета прасад прасетом прасету прасади
+29	4229	dijeta	dijeti dijetu dijeta dijetom dijetama дијети дијету дијета дијетом дијетама
+30	4230	vagina	vaginu vagina vagine vagini vaginom vaginama вагина вагине вагину вагини вагином вагинама
+31	4231	arhiv	arhivu arhivi arhive arhiva arhiv архива архиве arhivom архиву архиви архив архивом
+32	4232	ranac	ranac rancu ranca rancem rančeve rance rančeva ранац rančevima rančevi ранцу ранца ранцем ранчеве ранце ранчева ранчевима ранчеви
+33	4233	autor	autor autora autori autoru autorom аутор autore autorima аутора аутори аутору аутором ауторе ауторима
+34	4234	paranoičan	paranoičan paranoična paranoični paranoično paranoičnim paranoične параноичан paranoičnog paranoičnom параноична параноични параноично параноичним параноичне параноичног параноичном
+35	4235	brijati	brijanje brije brijem briješ brijao brijati briju brijana brijala brijući бријање brijete brijali brijemo брије бријем бријеш бријао бријати брију бријана бријала бријући бријете бријали бријемо
+36	4236	gušter	gušter guštera gušteri gušteru guštere gušterima gušterom гуштер гуштера гуштери гуштеру гуштере гуштерима гуштером
+37	4237	uspješan	uspješan uspješno uspješna uspješni uspješnu uspješnog uspješne uspješnih uspješnim uspješniji uspješnom najuspješniji najuspješnijih успјешан успјешно успјешна успјешни успјешну успјешног успјешне успјешних успјешним успјешнији успјешном најуспјешнији најуспјешнијих
+38	4238	večernji	večernje večernju večernji večernja večernjim večernjoj večernjih večernjem večernjeg večernjom вечерње вечерњу вечерњи вечерња вечерњим вечерњој вечерњих вечерњем вечерњег вечерњом
+39	4239	slikar	slikar slikara slikari slikare slikaru slikarima сликар slikarom slikarica сликара сликари сликаре сликару сликарима сликаром сликарица
+40	4240	novembar	novembra novembar novembru новембра новембар новембру
+41	4241	svjedočiti	svjedočiti svjedočenje svjedoči svjedočio svjedočili svjedočim svjedočila svjedočite svjedočiš svjedočimo svjedoče свједочити свједочење свједочи свједочио свједочили свједочим свједочила свједочите свједочиш свједочимо свједоче
+42	4242	novčanica	novčanice novčanica novčanicu novčanicama novčanicom novčanici новчанице новчаница новчаницу новчаницама новчаницом новчаници
+43	4243	uvjet	uvjetima uvjete uvjetom uvjeti uvjet uvjeta увјетима увјете увјетом увјети увјет увјета
+44	4244	odrezak	odrezak odreske odresci odreska odrezaka odrescima odreskom odresku одрезак одреске одресци одреска одрезака одресцима одреском одреску
+45	4245	zloban	zlobno zlobna zloban zlobni zlobne zlobnih zlobnu zlobnim zlobnog najzlobniji najzlobnija zlobniji zlobnom zlobnije злобно злобна злобан злобни злобне злобних злобну злобним злобног најзлобнији најзлобнија злобнији злобном злобније
+46	4246	nega	negu nega nege nezi негу negom нези нега неге негом
+47	4247	zabeležiti	zabeleženo zabeleži zabeležio zabeležen zabeležim zabeležena zabeležili zabeležite zabeležila zabeležiti zabeleženi zabeležene zabeležiću zabeležimo zabeležiš zabeleže zabeležile забележено забележи забележио забележен забележим забележена забележили забележите забележила забележити забележени забележене забележићу забележимо забележиш забележе забележиле
+48	4248	monstrum	monstrum monstruma monstrumi monstrume monstrumima монструм monstrumom monstrumu монструма монструми монструме монструмима монструмом монструму
+49	4249	iskusiti	iskusio iskusiti iskusili iskusila iskusi iskusim iskusiš iskusite iskuse iskusimo искусио искусити искусили искусила искуси искусим искусиш искусите искусе искусимо
+50	4250	molba	molbu molba molbe molbi molbom молбу molbama молба молбе молби молбом молбама
+51	4251	dodavati	dodaje dodajem dodaj dodaješ dodajemo dodavati dodavao dodajući dodajete dodavali dodajte dodavala додаје dodaju dodajmo додај додајте додајем додајеш додајемо додавати додавао додајући додајете додавали додавала додају додајмо
+52	4252	obaveštajni	obaveštajne obaveštajna obaveštajni obaveštajnu obaveštajnoj obaveštajnih obaveštajnom obaveštajnim obaveštajnog обавештајне obaveštajno обавештајна обавештајни обавештајну обавештајној обавештајних обавештајном обавештајним обавештајног обавештајно
+53	4253	psiholog	psiholog psihologa psiholozi psihologom psihologu психолог psihologe психолога psiholozima психолози психологом психологу психологе психолозима
+54	4254	pljačkati	pljačkaju pljačkao pljačkali pljačkanje pljačkamo pljačkam pljačkati pljačkate pljačkajući pljačkala pljačkaše пљачкају pljačkaj опљачкали опљачкао опљачкана опљачкан опљачка пљачкао пљачкали пљачкање пљачкамо пљачкам пљачкати пљачкате пљачкајући пљачкала пљачкаше пљачкај
+55	4255	isprika	ispriku isprika isprike isprikom isprikama исприку исприка исприке исприком исприкама
+56	4256	piramida	piramide piramida piramidu piramidi piramidama пирамиде piramidom пирамида пирамиду пирамиди пирамидама пирамидом
+57	4257	zalazak	zalazak zalaska zalasku zalaske zalasci zalaskom залазак zalazaka заласка заласку заласке заласци заласком залазака
+58	4258	alergičan	alergičan alergična alergični алергичан алергична алергични
+59	4259	ura	ura uri ура uru ure ури уру уре
+60	4260	lokal	lokal lokalu lokala локал lokale lokalima lokali локалу локала локале локалима локали
+61	4261	taktika	taktika taktiku taktike taktici taktikom taktikama тактика тактику тактике тактици тактиком тактикама
+62	4262	civilni	civilni civilne civilna civilnih civilno civilnog civilnu civilnom civilnim civilnoj цивилни цивилне цивилна цивилних цивилно цивилног цивилну цивилном цивилним цивилној
+63	4263	jagoda	jagode jagoda jagodu jagodama jagodom јагода јагоде јагоду јагодама јагодом
+64	4264	ničiji	ničija ničiji ničije ničiju ničijoj ничија ничији ničijem ничије ничију ничијој ничијем
+65	4265	dijagnoza	dijagnozu dijagnoza dijagnoze dijagnozom dijagnozi дијагнозу дијагноза dijagnozama дијагнозе дијагнозом дијагнози дијагнозама
+66	4266	sastav	sastav sastavi sastava sastavu sastave sastavom састав састави састава саставу саставе саставом
+67	4267	bezopasan	bezopasan bezopasno bezopasna bezopasni bezopasne bezopasnog bezopasnim bezopasnu безопасан bezopasnih bezopasnom безопасно безопасна безопасни безопасне безопасног безопасним безопасну безопасних безопасном
+68	4268	narkoman	narkoman narkomana narkomani narkomane narkomanima narkomanu наркоман narkomanom наркомана наркомани наркомане наркоманима наркоману наркоманом
+69	4269	raznijeti	raznijeti raznio raznese raznesem raznijet raznesi raznesemo raznijeli raznesu razneseš raznijela raznesite raznesete raznesimo разнесе разнијети разнио разнесем разнијет разнеси разнесемо разнијели разнесу разнесеш разнијела разнесите разнесете разнесимо
+70	4270	modni	modni modna modne modnu modnoj modnog modnom modnih modnim modno модни модна модне модну модној модног модном модних модним модно
+71	4271	braon	braon браон
+72	4272	žestoko	žestoko жестоко
+73	4273	skitnica	skitnica skitnice skitnicu skitnicom skitnici skitnicama скитница скитнице скитницу скитницом скитници скитницама
+74	4274	posluga	posluga poslugu posluge poslugom posluzi послуга послугу послуге послугом послузи
+75	4275	gangster	gangster gangsteri gangstera gangstere gangsterima gangsteru gangsterom гангстер гангстери гангстера гангстере гангстерима гангстеру гангстером
+76	4276	nesiguran	nesiguran nesigurna nesigurno nesigurni nesigurne nesigurnim nesigurnom несигурно nesigurnog nesigurnih nesigurnu nesigurnoj несигуран несигурна несигурни несигурне несигурним несигурном несигурног несигурних несигурну несигурној
+77	4277	ubod	ubod uboda ubode ubodi ubodom ubodu ubodima убод убода убоде убоди убодом убоду убодима
+78	4278	mesečno	mesečno месечно
+79	4279	cijev	cijevi cijev cijevima цијеви цијев цијевима
+80	4280	igralište	igralište igralištu igrališta igralištima igralištem игралиште игралишту игралишта игралиштима игралиштем
+81	4281	ogrtač	ogrtač ogrtaču ogrtača ogrtače ogrtači огртач ogrtačima огртачу огртача огртаче огртачи огртачима
+82	4282	četvorica	četvorica četvoricu četvorice četvoricom četvorici четворица четворицу четворице четворицом четворици
+83	4283	demokratija	demokratija demokratije demokratiju demokratiji demokratijom демократије демократија демократију демократији демократијом
+84	4284	pidžama	pidžamu pidžama pidžami pidžame pidžamama пиџаму пиџама пиџами пиџаме пиџамама
+85	4285	kategorija	kategoriji kategorije kategorija kategoriju kategorijama категорији категорије категорија категорију категоријама
+86	4286	obavijestiti	obavijestiti obavijesti obavijestite obavijestio obavijestili obavijestim obaviješten obaveštavati obavijestila obaviješteni obaviještena obavijestimo obavještavati obavještenje obavijeste обавијестити обавијести обавијестите обавијестио обавијестили обавијестим обавијештен обавештавати обавијестила обавијештени обавијештена обавијестимо обавјештавати обавјештење обавијесте
+87	4287	želudac	želudac želucu želuca желудац желуцу желуца
+88	4288	središte	središtu središte središta средиште središtem средишту средишта средиштем
+89	4289	počast	počast počasti počastima почаст почасти почастима
+90	4290	zračan	zračne zračni zračnu zračna zračnoj zračnih zračnim zračnog zračnom zračno зрачне зрачни зрачну зрачна зрачној зрачних зрачним зрачног зрачном зрачно
+91	4291	garda	garda garde gardu gardi gardom гарда gardo гарде гарду гарди гардом гардо
+92	4292	rodbina	rodbina rodbinu rodbine rodbini rodbinom родбине родбина родбину родбини родбином
+93	4293	maziti	mazi maziti mazim maženje maziš mazimo maze mazio mazili mazila mazite мази мазити мазим мажење мазиш мазимо мазе мазио мазили мазила мазите
+94	4294	prestrašiti	prestrašen prestrašio prestrašena prestrašiti prestrašeni prestrašila prestrašili prestraši prestrašilo prestrašeno prestrašiš prestrašene prestrašim prestraše престрашен престрашио престрашена престрашити престрашени престрашила престрашили престраши престрашило престрашено престрашиш престрашене престрашим престраше
+95	4295	grubo	grubo грубо
+96	4296	nezgodan	nezgodan nezgodna nezgodnu nezgodnom nezgodne nezgodni nezgodnoj nezgodnim nezgodnih nezgodnog незгодан незгодна незгодну незгодном незгодне незгодни незгодној незгодним незгодних незгодног
+97	4297	iznenađujući	iznenađujuće iznenađujući iznenađujuća изненађујуће iznenađujuću iznenađujućeg iznenađujućim iznenađujućih изненађујући изненађујућа изненађујућу изненађујућег изненађујућим изненађујућих
+98	4298	biznismen	biznismen biznismena biznismeni biznismene biznismenima biznismenu biznismenom бизнисмен бизнисмена бизнисмени бизнисмене бизнисменима бизнисмену бизнисменом
+99	4299	opera	opera operi operu opere operom опери опере оперу опера опером
+100	4300	prosečan	prosečan prosečna prosečno prosečnog prosečni prosečne prosečnu prosečnom prosečnih prosečnim prosečnoj просечна просечан просечно просечног просечни просечне просечну просечном просечних просечним просечној

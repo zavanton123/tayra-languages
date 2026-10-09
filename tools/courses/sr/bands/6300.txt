@@ -1,0 +1,100 @@
+1	6201	savjest	savjest savjesti savješću савјест савјести савјешћу
+2	6202	histeričan	histerična histerično histeričan histerični histerične histeričnu histeričnom histeričnih хистерична хистерично хистеричан хистерични хистеричне хистеричну хистеричном хистеричних
+3	6203	mladunče	mladunče mladunčad mladunčeta mladunčadi mladunčetom младунче mladunčetu младунчад младунчета младунчади младунчетом младунчету
+4	6204	bankrotirati	bankrotirao bankrotirali bankrotirati bankrotirala bankrotira bankrotiraju bankrotiram bankrotiraću bankrotiraš bankrotiraćemo банкротирао банкротирали банкротирати банкротирала банкротира банкротирају банкротирам банкротираћу банкротираш банкротираћемо
+5	6205	svugdje	svugdje свугдје
+6	6206	svijest	svijesti svijest свијести свијест
+7	6207	ludovati	luduje ludujemo luduju luduj luduješ ludujem ludovati ludovanje ludovao ludovali ludujmo ludovala ludujete лудује лудујемо лудују лудуј лудујеш лудујем лудовати лудовање лудовао лудовали лудујмо лудовала лудујете
+8	6208	deva	deva deve devo devu devi devom devama дева деве дево деву деви девом девама
+9	6209	staratelj	staratelj staratelja staratelji staratelje starateljima starateljem старатељ старатеља старатељи старатеље старатељима старатељем
+10	6210	fantom	fantom fantoma fantome fantomi fantomu fantomom фантом фантома фантоме фантоми фантому фантомом
+11	6211	harati	hara haraju haram harao harali хара харају харам харао харали
+12	6212	manekenka	manekenka manekenke manekenku manekenki manekenkom manekenkama манекенка манекенке манекенку манекенки манекенком манекенкама
+13	6213	darovati	darovao daruje darujem darovati darovala daruj darovali daruju darujemo daruješ darova даровао дарује дарујем даровати даровала даруј даровали дарују дарујемо дарујеш дарова
+14	6214	urezati	urezao urezano urezan urezana urezala urezani ureže urezali urezane urezalo urezati urežu urežem urezale ureza урезао урезано урезан урезана урезала урезани уреже урезали урезане урезало урезати урежу урежем урезале уреза
+15	6215	suradnik	suradnik suradnika suradnici suradnike suradnicima suradnikom suradniku сурадник сурадника сурадници сураднике сурадницима сурадником сураднику
+16	6216	aktovka	aktovku aktovka aktovke aktovci aktovkom aktovki актовку актовка актовке актовци актовком актовки
+17	6217	rvati	rvanje rvao rve rvem rvali rveš rvemo rvati рвање rvu rvete рвао рве рвем рвали рвеш рвемо рвати рву рвете
+18	6218	preduzeće	preduzeće preduzeća preduzeću предузећа preduzećima предузеће предузећу предузећима
+19	6219	dres	dres dresove dresu dresovi dresa dresovima dresova дрес дресове дресу дресови дреса дресовима дресова
+20	6220	maraton	maraton maratona maratonu maratone маратон маратона маратону маратоне
+21	6221	krumpir	krumpir krumpira krumpire krumpiri krumpirom krumpirima крумпир крумпира крумпире крумпири крумпиром крумпирима
+22	6222	navodni	navodni navodnog navodne navodna navodnom navodnim navodnih navodnu navodnoj наводни наводног наводне наводна наводном наводним наводних наводну наводној
+23	6223	racija	racija raciju racije raciji рација рацију рације рацији
+24	6224	чим	чим
+25	6225	vir	vir vire vira viru вир вире вира виру
+26	6226	uvažen	uvaženi uvaženog uvažena uvažene uvažen uvaženom uvaženim uvaženo uvaženih уважени уваженог уважена уважене уважен уваженом уваженим уважено уважених
+27	6227	sestrinstvo	sestrinstva sestrinstvo sestrinstvu sestrinstvom сестринства сестринство сестринству сестринством
+28	6228	mađarski	mađarske mađarski mađarskoj mađarska mađarsku mađarskom mađarskog mađarskih mađarsko mađarskim мађарске мађарски мађарској мађарска мађарску мађарском мађарског мађарских мађарско мађарским
+29	6229	sočan	sočne sočna sočan sočni sočnu sočnih sočnim sočnog sočnije sočnom сочне сочна сочан сочни сочну сочних сочним сочног сочније сочном
+30	6230	pritužba	pritužbe pritužbi pritužbu pritužba pritužbama притужбе притужби притужбу притужба притужбама
+31	6231	intuicija	intuicija intuiciju intuicije intuicijom intuiciji интуиција интуицију интуиције интуицијом интуицији
+32	6232	branilac	branilac branioca branioci branioče branioce branilaca braniocu braniocem бранилац браниоца браниоци браниоче браниоце бранилаца браниоцу браниоцем
+33	6233	predjelo	predjelo predjela predjelom predjelima predjelu предјело предјела предјелом предјелима предјелу
+34	6234	ostava	ostavi ostavu ostava ostave ostavom ostavo остави оставе оставу остава оставом оставо
+35	6235	eksplozivan	eksplozivna eksplozivni eksplozivne eksplozivnu eksplozivan eksplozivnih eksplozivnim eksplozivnog eksplozivnom експлозивна експлозивни експлозивне експлозивну експлозиван експлозивних експлозивним експлозивног експлозивном
+36	6236	postrojenje	postrojenje postrojenja постројење постројења
+37	6237	gljiva	gljive gljiva gljivama gljivu гљиве гљива гљивама гљиву
+38	6238	zaći	zađe zašlo zaći zašao zašli zašla zađu zađemo zađeš zađem зађе зашло заћи зашао зашли зашла зађу зађемо зађеш зађем
+39	6239	preokret	preokret preokreta preokretu преокрет preokrete preokretom преокрета преокрету преокрете преокретом
+40	6240	progon	progoni progone progon progona progonu прогони прогоне прогон прогона прогону
+41	6241	vrijeđati	vrijeđa vrijeđati vrijeđaš vrijeđaj vrijeđam vrijeđaju vrijeđanje vrijeđate vrijeđao vrijeđali вријеђа вријеђати вријеђаш вријеђај вријеђам вријеђају вријеђање вријеђате вријеђао вријеђали
+42	6242	šlem	šlem šlemove šlema šlemovi šlemom šlemu šlemovima šlemova шлем шлемове шлема шлемови шлемом шлему шлемовима шлемова
+43	6243	elektrana	elektrane elektrana elektranu elektrani електране електрана електрану електрани
+44	6244	milicija	milicija milicije miliciju miliciji милиција милиције milicijom милицију милицији милицијом
+45	6245	sidro	sidro sidra сидро sidrom сидра сидром
+46	6246	demokrat	demokrata demokrate demokrati demokrat demokratu демократа демократе демократи демократ демократу
+47	6247	artiljerija	artiljerija artiljeriju artiljerije artiljerijom artiljeriji артиљерија артиљерију артиљерије артиљеријом артиљерији
+48	6248	palata	palata палата
+49	6249	prisutnost	prisutnost prisutnosti prisutnošću присутност присутности присутношћу
+50	6250	senf	senf senfa senfom сенф сенфа сенфом
+51	6251	zbiti	zbilo zbijte zbiti zbijeni zbio zbijeno zbijene zbili zbila zbijen zbijena збило збијте збити збијени збио збијено збијене збили збила збијен збијена
+52	6252	dinastija	dinastije dinastija dinastiju dinastiji династије династија династију династији
+53	6253	đak	đak đaka đaci đacima đake ђак ђака ђаци ђацима ђаке
+54	6254	ves	ves вес
+55	6255	žitarica	žitarice žitarica žitaricama житарице житарица житарицама
+56	6256	uštedjeti	uštedjeti uštedim uštedio uštedimo uštedi uštedjeli uštediš uštede uštedite uštedjela уштедјети уштедим уштедио уштедимо уштеди уштедјели уштедиш уштеде уштедите уштедјела
+57	6257	opako	opako опако
+58	6258	proučavanje	proučavanje proučavanja proučavanju proučavanjem проучавање проучавања проучавању проучавањем
+59	6259	krivično	krivično кривично
+60	6260	uvrijediti	uvrijediti uvrijedio uvrijedila uvrijedili uvrijedi uvrijedilo uvrijede uvrijedim uvrijediš увриједити увриједио увриједила увриједили увриједи увриједило увриједе увриједим увриједиш
+61	6261	idealno	idealno идеално
+62	6262	gimnazija	gimnaziji gimnazije gimnaziju gimnazija гимназији гимназије гимназију гимназија
+63	6263	površan	površno površna površan površne površni površnim površnih површно površnu површна површан површне површни површним површних површну
+64	6264	sustignuti	sustići sustiže sustigne sustigao sustigla sustignu sustigli sustignemo sustignem sustiglo sustigle сустићи сустиже сустигне сустигао сустигла сустигну сустигли сустигнемо сустигнем сустигло сустигле
+65	6265	atraktivan	atraktivna atraktivan atraktivno atraktivne atraktivni atraktivnu atraktivnim atraktivnom atraktivnog atraktivnih atraktivniji атрактивна атрактиван атрактивно атрактивне атрактивни атрактивну атрактивним атрактивном атрактивног атрактивних атрактивнији
+66	6266	rudar	rudari rudar rudara rudare rudarima рудари рудар рудара рударе рударима
+67	6267	griz	griz grizu grizem griza гриз гризу гризем гриза
+68	6268	osjetilo	osjetila osjetilo осјетила осјетило
+69	6269	sjedište	sjedište sjedišta sjedištu sjedištem сједиште сједишта сједишту сједиштем
+70	6270	ikako	ikako икако
+71	6271	prepirati	prepirati prepiremo prepirali prepiru prepirem prepirete prepiri prepireš prepirao prepiranje prepire prepirala препирати препиремо препирали препиру препирем препирете препири препиреш препирао препирање препире препирала
+72	6272	odbrojavanje	odbrojavanje odbrojavanja odbrojavanjem одбројавање одбројавања одбројавањем
+73	6273	leopard	leopard leoparda leopardi leoparde leopardu leopardom леопард леопарда леопарди леопарде леопарду леопардом
+74	6274	arija	arija ariju arije arijom ariji арија арију арије аријом арији
+75	6275	filozof	filozof filozofa filozofi filozofe filozofima филозоф филозофа филозофи филозофе филозофима
+76	6276	odoljeti	odoljeti odolim odoli odoliš odole odolio odolite odolimo одолим одољети одоли одолиш одоле одолио одолите одолимо
+77	6277	iva	ivi ivo iva иви ive ivu иво ива иве иву
+78	6278	farba	farba farbu farbe farbom farbi фарба фарбу фарбе фарбом фарби
+79	6279	žbunje	žbunje žbunju žbunja žbunjem жбуњу жбуње жбуња жбуњем
+80	6280	znanstven	znanstveni znanstvena znanstvene znanstvenom znanstvenu znanstvenog znanstvenim znanstvenih znanstvenoj знанствени знанствена знанствене знанственом знанствену знанственог знанственим знанствених знанственој
+81	6281	curiti	curenje curila curiti curilo cure цурење curim curiš curi цуре цури цурила цурити цурило цурим цуриш
+82	6282	celina	celine celini celinu celina целине целини целину целина
+83	6283	karneval	karneval karnevalu karnevala карневал карневалу карневала
+84	6284	podanik	podanici podanika podanik podanike podanicima поданици поданика поданик поданике поданицима
+85	6285	rubin	rubin rubina rubine rubini rubinima rubinom рубин рубина рубине рубини рубинима рубином
+86	6286	patak	patak patke patku paci patkom pataka патке патак патку паци патком патака
+87	6287	inč	inča inč inču инча inči инч инчу инчи
+88	6288	razdoblje	razdoblje razdoblja razdoblju razdobljima раздобље раздобља раздобљу раздобљима
+89	6289	prkositi	prkosi prkosiš prkosio prkositi prkosim prkose prkoseći prkosila prkosite prkosili prkosimo prkošenje пркоси пркосиш пркосио пркосити пркосим пркосе пркосећи пркосила пркосите пркосили пркосимо пркошење
+90	6290	fatalan	fatalna fatalan fatalne fatalnu fatalni fatalnog fatalnim fatalnih fatalnom фатална фаталан фаталне фаталну фатални фаталног фаталним фаталних фаталном
+91	6291	dizalo	dizalo dizala dizalu dizalom dizalima дизало дизала дизалу дизалом дизалима
+92	6292	bučan	bučan bučni bučna bučne bučnih bučnim bučnog bučnu bučniji bučnije bučnom бучан бучни бучна бучне бучних бучним бучног бучну бучнији бучније бучном
+93	6293	skalpel	skalpel skalpelom skalpela skalpele скалпел скалпелом скалпела скалпеле
+94	6294	smotati	smotan smotani smotana smotao smotati smotala smotaj smotam smota smotaš smotano smotane smotali смотан смотани смотана смотао смотати смотала смотај смотам смота смоташ смотано смотане смотали
+95	6295	ljigav	ljigavi ljigav ljigava ljigave ljigavog ljigavim ljigavih ljigavom ljigavu љигави љигав љигава љигаве љигавог љигавим љигавих љигавом љигаву
+96	6296	suzdržati	suzdržati suzdržim suzdrži suzdržan suzdržite suzdržiš suzdržana suzdržao suzdržimo suzdržani suzdrže suzdržala суздржати суздржим суздржи суздржан суздржите суздржиш суздржана суздржао суздржимо суздржани суздрже суздржала
+97	6297	preferirati	preferiram preferira preferiraš preferiraju preferirate preferiramo preferirao preferirala преферирам преферира преферираш преферирају преферирате преферирамо преферирао преферирала
+98	6298	osmijeh	osmijeh osmijehom osmijeha osmijehe осмијех осмијехом осмијеха осмијехе
+99	6299	mesečina	mesečini mesečina mesečine mesečinu mesečinom месечини месечина месечине месечину месечином
+100	6300	rasan	rasne rasni rasno rasna rasnu rasnih rasnog rasnoj rasnim rasnom rasan расне расни расно расна расну расних расног расној расним расном расан

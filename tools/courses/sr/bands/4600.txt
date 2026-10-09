@@ -1,0 +1,100 @@
+1	4501	paničiti	paniči paničite paničiš paničim paničiti paničimo paniče paničio paničila paničili паничи паничите паничиш паничим паничити паничимо паниче паничио паничила паничили
+2	4502	masovan	masovna masovne masovni masovnog masovnu masovnim masovnih masovnom masovnoj масовне масовна масовни масовног масовну масовним масовних масовном масовној
+3	4503	danski	danskoj danske danska danski dansku danskom dansko danskog danskih danskim данској данске данска дански данску данском данско данског данских данским
+4	4504	uočiti	uočio uočili uočiti uočila uočen uočena uoče uočite uočim uočiš uočeni uočimo uočeno уочио уочили уочити уочила уочен уочена уоче уочите уочим уочиш уочени уочимо уочено
+5	4505	pržiti	pržena prženi prži pržene prženo pržiti prže pržim pržiš pržen pržio pržimo pržite pržila пржена pržili пржени пржи пржене пржено пржити прже пржим пржиш пржен пржио пржимо пржите пржила пржили
+6	4506	redovno	redovno редовно
+7	4507	ojačati	ojačati ojača ojačao ojačaš ojačala ojačaju ojačam ojačamo ojačali ojačana ojačalo ojačani ojačan ojačaj ojačane ojačanje ojačate ojačaće ojačale ojačajte ојачати ојача ојачао ојачаш ојачала ојачају ојачам ојачамо ојачали ојачана ојачало ојачани ојачан ојачај ојачане ојачање ојачате ојачаће ојачале ојачајте
+8	4508	znoj	znoj znoja znojem znoju зној зноја знојем зноју
+9	4509	oltar	oltara oltar oltaru oltarom олтара oltare олтар олтару олтаром олтаре
+10	4510	skrovište	skrovište skrovišta skrovištu скровиште скровишта скровишту
+11	4511	kabel	kablove kabla kabel kablovi kablova kablovima kablom kabela kablu кабла каблове кабел каблови каблова кабловима каблом кабела каблу
+12	4512	štrajk	štrajk štrajka štrajku štrajkom штрајк štrajkovi štrajkova štrajkove štrajkovima штрајка штрајку штрајком штрајкови штрајкова штрајкове штрајковима
+13	4513	drhtati	drhti drhtiš drhtim drhte drhtanje drhtao drhtala drhtati drhtite drhteći drhtali drhtale дрхти дрхтиш дрхтим дрхте дрхтање дрхтао дрхтала дрхтати дрхтите дрхтећи дрхтали дрхтале
+14	4514	hipoteka	hipoteku hipoteke hipoteka hipotekom hipotekama hipoteci хипотеку хипотеке хипотека хипотеком хипотекама хипотеци
+15	4515	stadion	stadion stadionu stadiona stadionima stadione stadionom стадион стадиону стадиона стадионима стадионе стадионом
+16	4516	kožni	kožne kožna kožni kožnu kožnim kožnom kožnih kožnoj kožno kožnog кожне кожна кожни кожну кожним кожном кожних кожној кожно кожног
+17	4517	krdo	krdo krda krdu krdom krdima крдо крда крду крдом крдима
+18	4518	razmaziti	razmažena razmaženo razmazio razmaženi razmažen razmaziti razmazila razmažene razmazili razmazićeš razmazi razmazim razmaziš razmaze размажена размажено размазио размажени размажен размазити размазила размажене размазили размазићеш размази размазим размазиш размазе
+19	4519	dočepati	dočepa dočepam dočepati dočepao dočepaju dočepali dočepamo dočepala dočepaš dočepate dočepaću дочепа дочепам дочепати дочепао дочепају дочепали дочепамо дочепала дочепаш дочепате дочепаћу
+20	4520	proučiti	proučio proučiti prouči proučim proučite proučili proučimo proučila proučiš prouče proučiću проучио проучити проучи проучим проучите проучили проучимо проучила проучиш проуче проучићу
+21	4521	očigledan	očigledan očigledna očigledne očiglednog očiglednih očigledni očiglednim očiglednu očiglednije najočigledniji očiglednom najočiglednije очигледан очигледна очигледне очигледног очигледних очигледни очигледним очигледну очигледније најочигледнији очигледном најочигледније
+22	4522	vražji	vražji vražja vražje vražju vražjeg vražjem vražjim vražjoj vražjih вражји вражја вражје вражју вражјег вражјем вражјим вражјој вражјих
+23	4523	amber	amber амбер
+24	4524	džem	džema džem džemom džemu džeme џем џема џемом џему џеме
+25	4525	pust	pusti pusto pusta pustom pust pustim pustoj pustu pustog puste pustih пусти пустим пусте пусто пуста пустом пуст пустој пусту пустог пустих
+26	4526	ispeći	ispeći ispekla ispekao ispečem ispeče ispeci ispečeš ispekli ispečemo ispeku ispečen ispečena ispečeni ispečeno ispečete ispečene испећи испекла испекао испечем испече испеци испечеш испекли испечемо испеку испечен испечена испечени испечено испечете испечене
+27	4527	napadaj	napadaju napadaj napadaje napadaja napadaji нападају нападај нападаје нападаја нападаји
+28	4528	jahta	jahtu jahti jahta jahte jahtom jahtama јахту јахти јахта јахте јахтом јахтама
+29	4529	bulja	bulju bulji bulje bulja buljom буљу буљи буље буља буљом
+30	4530	ljutnja	ljutnje ljutnja ljutnju ljutnji ljutnjom љутње љутња љутњу љутњи љутњом
+31	4531	lajati	laje laješ lajao laju laj lajati lajanje lajem lajali lajete лаје lajala lajemo лајеш лајао лају лај лајати лајање лајем лајали лајете лајала лајемо
+32	4532	smjena	smjene smjenu smjena smjeni smjenama смјене смјену смјена смјени смјенама
+33	4533	ponedjeljak	ponedjeljak ponedjeljka ponedjeljkom понедјељак понедјељка понедјељком
+34	4534	striptizeta	striptizeta striptizete striptizetu striptizetom striptizetama striptizeti стриптизета стриптизете стриптизету стриптизетом стриптизетама стриптизети
+35	4535	koverta	kovertu koverti koverte koverta kovertama kovertom koverata коверти коверту коверте коверта ковертама ковертом коверата
+36	4536	truba	truba trubu trube trubi trubom trubama труба трубу трубе труби трубом трубама
+37	4537	ishod	ishod ishoda ishodom ishodu исход ishode ishodi исхода исходом исходу исходе исходи
+38	4538	ugraditi	ugradio ugrađen ugradili ugraditi ugrađeni ugrađena ugradila ugradi ugrađene ugradim ugrade ugradimo ugrađeno ugradiš ugradite уградио уграђен уградили уградити уграђени уграђена уградила угради уграђене уградим уграде уградимо уграђено уградиш уградите
+39	4539	hokej	hokej hokeja hokeju хокеј hokejom хокеја хокеју хокејом
+40	4540	memorija	memoriju memorije memorija memoriji memorijom меморију меморије меморија меморији меморијом
+41	4541	kasan	najkasnije kasnih kasna kasnog kasnu касним kasniji kasnijim kasnom касни kasnoj kasnijih kasnija kasnijem kasniju kasnijeg kasnijoj касне kasnim kasni kasne најкасније касних касна касног касну каснији каснијим касном касној каснијих каснија каснијем каснију каснијег каснијој
+42	4542	uzvraćati	uzvratiti uzvraća uzvraćam uzvraćaš uzvraćaju uzvraćamo uzvraćati uzvraćanje uzvraćate uzvraćaj узвратити узвраћа узвраћам узвраћаш узвраћају узвраћамо узвраћати узвраћање узвраћате узвраћај
+43	4543	kardinal	kardinal kardinala kardinale kardinali kardinalu kardinalom kardinalima кардинал кардинала кардинале кардинали кардиналу кардиналом кардиналима
+44	4544	saviti	savij savi savio saviti saviješ savijte savije savijena savijen savijem savila сави savijeni savijeno savijene savijete saviju savile савиј савио савити савијеш савијте савије савијена савијен савијем савила савијени савијено савијене савијете савију савиле
+45	4545	kraljev	kraljev kraljevu kraljevo kraljevom kraljevoj kraljevim kraljevih kraljevi kraljeva краљев краљеву kraljeve kraljevima краљева краљеви краљеве краљево краљевом краљевој краљевим краљевих краљевима
+46	4546	joga	jogu joga joge jogi jogom јогу јога јоге јоги јогом
+47	4547	vaza	vazi vazu vaza vaze vazom vazama вази вазу ваза вазе вазом вазама
+48	4548	spasilac	spasilac spasioci spasioca spasioce spasioče spasiocima spasilaca spasiocu спасилац spasiocem спасиоци спасиоца спасиоце спасиоче спасиоцима спасилаца спасиоцу спасиоцем
+49	4549	idealan	idealan idealna idealni idealne idealnu idealnog idealnom idealnim идеална idealnoj идеалан идеални идеалне идеалну идеалног идеалном идеалним идеалној
+50	4550	susresti	susreo susreli susresti susrela susretne susretnemo susretnu susretnem susretati susrele susretnete susretneš susrete сусрео сусрели сусрести сусрела сусретне сусретнемо сусретну сусретнем сусретати сусреле сусретнете сусретнеш сусрете
+51	4551	napojnica	napojnicu napojnice napojnica napojnicama napojnicom напојницу напојнице напојница напојницама напојницом
+52	4552	imperija	imperija imperije imperiju imperiji imperijom империје империја империју империји империјом
+53	4553	amater	amater amateri amatera amatere amaterima amateru amaterom аматер аматери аматера аматере аматерима аматеру аматером
+54	4554	minus	minus minusu минус minusa minuse минусу минуса минусе
+55	4555	itekako	itekako итекако
+56	4556	ekstreman	ekstremne ekstremna ekstremni ekstremnim ekstremnih ekstreman ekstremnu ekstremnom ekstremnog ekstremnoj ekstremnije najekstremniji najekstremnijim najekstremnije екстремне екстремна екстремни екстремним екстремних екстреман екстремну екстремном екстремног екстремној екстремније најекстремнији најекстремнијим најекстремније
+57	4557	poštovan	poštovani poštovan poštovana poštovane poštovanog poštovano поштовани poštovanom poštovanim najpoštovaniji poštovanu najpoštovanijih поштован поштована поштоване поштованог поштовано поштованом поштованим најпоштованији поштовану најпоштованијих
+58	4558	iskusan	iskusan iskusni iskusna iskusniji iskusnog iskusne iskusnih najiskusniji iskusnim iskusnija iskusno iskusnijeg искусан iskusnom iskusnije искусни искусна искуснији искусног искусне искусних најискуснији искусним искуснија искусно искуснијег искусном искусније
+59	4559	ustanoviti	ustanovili ustanoviti ustanovio ustanovimo ustanovi ustanove ustanovljeno ustanovim ustanovila ustanovljena ustanovljen ustanovite ustanoviš ustanovljene установе установили установити установио установимо установи установљено установим установила установљена установљен установите установиш установљене
+60	4560	norma	norma norme normu normi normama normom норма норме норму норми нормама нормом
+61	4561	patolog	patolog patologa patologu patolozi patologom patologinja патолог патолога патологу патолози патологом патологиња
+62	4562	goreti	goreti goriš gorela goreo gorelo gorite goreće gorećeš gorimo gorele goreli gorim goreću горети gorenje goreći горим гори гориш горела горео горело горите гореће горећеш горимо гореле горели горећу горење горећи
+63	4563	rutina	rutina rutinu rutine rutini rutinom рутина рутину рутине рутини рутином
+64	4564	smjesta	smjesta смјеста
+65	4565	jahanje	jahanje jahanja jahanju jahanjem јахање јахања јахању јахањем
+66	4566	generalan	generalno generalni generalnog generalna generalnom generalnu generalnim generalne генерални generalnoj генерално генералног генерална генералном генералну генералним генералне генералној
+67	4567	čopor	čopor čopora čoporu čoporom čoporima чопор čopori чопора чопору чопором чопорима чопори
+68	4568	jahač	jahač jahača jahači jahače jahaču jahačima jahačem јахач јахача јахачи јахаче јахачу јахачима јахачем
+69	4569	izum	izum izuma izumi izume izumu izumom izumima изум изума изуми изуме изуму изумом изумима
+70	4570	videlo	videlo видело
+71	4571	jen	jen јен
+72	4572	juha	juhu juha juhe juhi juhom jusi јуху јуха јухе јухи јухом јуси
+73	4573	srž	srži srž сржи срж
+74	4574	povećavati	povećava povećavaju povećavam povećavati povećavao povećavamo povećavajući povećavala повећава povećavanje povećavaš povećavate повећавају повећавам повећавати повећавао повећавамо повећавајући повећавала повећавање повећаваш повећавате
+75	4575	kanjon	kanjon kanjona kanjonu kanjone kanjonima кањон kanjonom kanjoni кањона кањону кањоне кањонима кањоном кањони
+76	4576	pahuljica	pahuljice pahuljica pahuljicama pahuljicu пахуљице пахуљица пахуљицама пахуљицу
+77	4577	vidik	vidiku vidika vidike vidik видику vidici видика видике видик видици
+78	4578	kritičan	kritičnom kritična kritičan kritične kritični kritičnu kritičnoj kritičnog kritičnim kritičnih критичном критична критичан критичне критични критичну критичној критичног критичним критичних
+79	4579	kompleks	kompleks kompleksa kompleksu kompleksom komplekse комплекс kompleksi kompleksima комплекса комплексу комплексом комплексе комплекси комплексима
+80	4580	veteran	veteran veterana veterani veterane veteranima veteranu veteranom ветеран ветерана ветерани ветеране ветеранима ветерану ветераном
+81	4581	jedanaest	jedanaest једанаест
+82	4582	akcent	akcenat akcentom akcent akcenta akcentu акценат akcente акцентом акцент акцента акценту акценте
+83	4583	talent	talent talenta talente talenata talentom talenti talentu talentima талента таленте талент талената талентом таленти таленту талентима
+84	4584	hajati	haj hajte haje haju hajem хај hajmo хајмо хајте хаје хају хајем
+85	4585	prvak	prvak prvaka prvaci prvače prvake prvakom prvaku првак првака прваци прваче прваке прваком прваку
+86	4586	tehničar	tehničar tehničari tehničara tehničare tehničarima tehničaru техничар техничари техничара техничаре техничарима техничару
+87	4587	oživeti	oživeo oživeti oživi oživela oživeli ožive oživimo oživim oživiš oživelo oživite oživele oživeće оживи оживео оживети оживела оживели оживе оживимо оживим оживиш оживело оживите оживеле оживеће
+88	4588	svijetao	svijetlo svijetla svijetli svijetle svijetlu svjetlije svijetlom svjetlija svjetliju svijetlih svijetao свијетло свијетла свијетли свијетле свијетлу свјетлије свијетлом свјетлија свјетлију свијетлих свијетао
+89	4589	razbojnik	razbojnici razbojnika razbojnik razbojnike razbojnicima razbojniče разбојника разбојници разбојник razbojnikom разбојнике разбојницима разбојниче разбојником
+90	4590	prijedlog	prijedlog prijedloga prijedloge prijedlogu prijedlozi prijedlogom prijedlozima приједлог приједлога приједлоге приједлогу приједлози приједлогом приједлозима
+91	4591	vatromet	vatromet vatrometa vatrometom vatrometu ватромет vatrometi vatromete ватромета ватрометом ватромету ватромети ватромете
+92	4592	taknuti	takao taknuo takneš taknuti takne takni takla takli taknem taknula taći taknu taknete taknuli такао такнуо такнеш такнути такне такни такла такли такнем такнула таћи такну такнете такнули
+93	4593	dojava	dojavu dojava dojave dojavi дојаву дојава дојаве дојави
+94	4594	prikladno	prikladno прикладно
+95	4595	sadašnji	sadašnji sadašnje sadašnjeg sadašnjem sadašnja sadašnjim sadašnju sadašnjih sadašnjoj sadašnjom садашњи садашње садашњег садашњем садашња садашњим садашњу садашњих садашњој садашњом
+96	4596	utroba	utrobu utrobe utrobi utroba utrobom утробу утробе утроби утроба утробом
+97	4597	nastojati	nastojim nastoji nastojimo nastojao nastoje nastojanja nastojati nastojiš nastojali nastoj nastojala nastojanje nastojaću nastojeći nastojite nastojte настојим настоји настојимо настојао настоје настојања настојати настојиш настојали настој настојала настојање настојаћу настојећи настојите настојте
+98	4598	kašalj	kašalj kašlja kašlje kašljem кашаљ kašlji kašlju кашља кашље кашљем кашљи кашљу
+99	4599	fraza	fraza frazu fraze frazom frazama frazi фраза фразу фразе фразом фразама фрази
+100	4600	izdržavati	izdržava izdržavam izdržavanje izdržavaš izdržavati izdržavao izdržavaju izdržavala izdržavate izdržavamo izdržavali издржава издржавам издржавање издржаваш издржавати издржавао издржавају издржавала издржавате издржавамо издржавали

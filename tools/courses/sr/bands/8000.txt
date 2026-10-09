@@ -1,0 +1,100 @@
+1	7901	omekšati	omekšao omekšati omekša omekšala omekšali omekšaju omekšaš omekšam omekšalo омекшао омекшати омекша омекшала омекшали омекшају омекшаш омекшам омекшало
+2	7902	istrošiti	istrošio istrošila istroši istrošiti istroše istrošili istrošiš istrošile istrošilo истрошио истрошила истроши истрошити истроше истрошили истрошиш истрошиле истрошило
+3	7903	cvetati	cvetaju cvetala cvetanje cvetao cvetati cvetalo cvetale cveta цвета цветају цветала цветање цветао цветати цветало цветале
+4	7904	sahranjivati	sahranjuju sahranjujemo sahranjuje sahranjivali sahranjivanje sahranjujem sahranjivati sahranjivao sahranjivani sahranjuješ сахрањују сахрањујемо сахрањује сахрањивали сахрањивање сахрањујем сахрањивати сахрањивао сахрањивани сахрањујеш
+5	7905	dugoročan	dugoročni dugoročne dugoročna dugoročnu dugoročnih dugoročnim dugoročnog dugoročan dugoročnom дугорочни дугорочне дугорочна дугорочну дугорочних дугорочним дугорочног дугорочан дугорочном
+6	7906	nepravedan	nepravedan nepravedna nepravedni nepravedne nepravednog nepravednu nepravednim nepravednih неправедан неправедна неправедни неправедне неправедног неправедну неправедним неправедних
+7	7907	tikva	tikva tikve tikvu tikvica tikvi tikvo тиква тикве тикву тиквица тикви тикво
+8	7908	mesečni	mesečni mesečnu mesečna mesečne mesečnog mesečnom mesečnim mesečnih месечни месечну месечна месечне месечног месечном месечним месечних
+9	7909	trgovinski	trgovinski trgovinskog trgovinske trgovinska trgovinskom trgovinskih trgovinskim trgovinsku трговински трговинског трговинске трговинска трговинском трговинских трговинским трговинску
+10	7910	izravno	izravno изравно
+11	7911	puma	puma pume pumu пума пуме пуму
+12	7912	iritirati	iritira iritirajući iritiraš iritiraju iritiram iritirati iritirao иритира иритирајући иритираш иритирају иритирам иритирати иритирао
+13	7913	predigra	predigra predigre predigru predigri predigrom предигра предигре предигру предигри предигром
+14	7914	marioneta	marioneta marionete marionetu марионета марионете марионету
+15	7915	huligan	huligani huligan huligana huligane huliganima huliganu хулигани хулиган хулигана хулигане хулиганима хулигану
+16	7916	štetan	štetne štetan štetna štetnih štetni štetnim štetnog штетне штетан штетна штетних штетни штетним штетног
+17	7917	kamiondžija	kamiondžija kamiondžije kamiondžiju kamiondžijama kamiondžijom камионџија камионџије камионџију камионџијама камионџијом
+18	7918	ozbiljnost	ozbiljnost ozbiljnosti ozbiljnošću озбиљност озбиљности озбиљношћу
+19	7919	češalj	češalj češlja češljem češljeve чешаљ чешља чешљем чешљеве
+20	7920	pupak	pupak pupka pupku пупак пупка пупку
+21	7921	latica	latice latica laticama laticu латице латица латицама латицу
+22	7922	panj	panj panju panja panjevi пањ пању пања пањеви
+23	7923	punkt	punkt punktu punkta punktove punktovi punktova punktovima пункт пункту пункта пунктове пунктови пунктова пунктовима
+24	7924	željeznica	željeznice željeznica željeznicu željeznici željeznicom жељезнице жељезница жељезницу жељезници жељезницом
+25	7925	dvogled	dvogled dvogledom dvogleda dvoglede двоглед двогледом двогледа двогледе
+26	7926	primjećivati	primjećuješ primjećujem primjećuje primjećujete primjećuju primjećivati primjećivao примјећујеш примјећујем примјећује примјећујете примјећују примјећивати примјећивао
+27	7927	dil	dil дил
+28	7928	nečist	nečista nečiste nečisti nečisto nečistim nečistu nečist nečistih нечиста нечисте нечисти нечисто нечистим нечисту нечист нечистих
+29	7929	sumpor	sumpor sumpora sumporom сумпор сумпора сумпором
+30	7930	pokvarenjak	pokvarenjak pokvarenjaci pokvarenjače pokvarenjaku pokvarenjaka покварењак покварењаци покварењаче покварењаку покварењака
+31	7931	upiti	upije upiti upio upila upijem upiše upij upiju upiješ упије упити упио упила упијем упише упиј упију упијеш
+32	7932	prodreti	prodre prodreti prodro prodrla prodrli prodru prodrem prodrlo prodreš prodremo продре продрети продро продрла продрли продру продрем продрло продреш продремо
+33	7933	vešala	vešala vešalima вешала вешалима
+34	7934	lijes	lijes lijesu lijesa lies лијес лијесу лијеса лиес
+35	7935	pouka	pouka pouku pouke поука поуку поуке
+36	7936	pripisati	pripisati pripisao pripisali pripisano pripiše pripisala pripišem pripišemo pripisana pripiši pripišu приписати приписао приписали приписано припише приписала припишем припишемо приписана припиши припишу
+37	7937	mineralni	mineralnu mineralne mineralna mineralni mineralnih mineralno минералну минералне минерална минерални минералних минерално
+38	7938	kam	kam kama kame kamu кам кама каме каму
+39	7939	geografija	geografije geografiju geografija geografiji географије географију географија географији
+40	7940	samoubica	samoubica samoubice samoubicu самоубица самоубице самоубицу
+41	7941	gnusan	gnusan gnusna gnusni gnusne gnusnog gnusnu gnusnim gnusnih gnjusan гнусан гнусна гнусни гнусне гнусног гнусну гнусним гнусних гњусан
+42	7942	monopol	monopol monopola monopolu монопол монопола монополу
+43	7943	presretati	presretanje presretan presreće presreću пресретање пресретан пресреће пресрећу
+44	7944	hiljadarka	hiljadarki hiljadarku hiljadarke hiljadarka хиљадарки хиљадарку хиљадарке хиљадарка
+45	7945	osovina	osovina osovine osovinu osovini osovinom осовина осовине осовину осовини осовином
+46	7946	potjera	potjera potjeru potjeri potjere потјера потјеру потјери потјере
+47	7947	ganuti	gane ganut gani ganuta ganulo ganu ganeš ganula ganuti ganuo ganem гане ганут гани ганута гануло гану ганеш ганула ганути гануо ганем
+48	7948	isprljati	isprljao isprljaš isprljati isprljam isprljala isprlja isprljaćeš isprljali isprljaju isprljate испрљао испрљаш испрљати испрљам испрљала испрља испрљаћеш испрљали испрљају испрљате
+49	7949	odnekud	odnekud однекуд
+50	7950	sedmoro	sedmoro седморо
+51	7951	bibliotekar	bibliotekar bibliotekari bibliotekara bibliotekaru bibliotekare библиотекар библиотекари библиотекара библиотекару библиотекаре
+52	7952	rezolucija	rezolucija rezoluciju rezolucije rezoluciji rezolucijom резолуција резолуцију резолуције резолуцији резолуцијом
+53	7953	siročad	siročad siročadi сирочад сирочади
+54	7954	pacijentica	pacijentica pacijenticu pacijentice pacijentici pacijenticom пацијентица пацијентицу пацијентице пацијентици пацијентицом
+55	7955	ugoditi	ugoditi ugodim ugodi ugodiš ugodimo ugode ugodio ugodite угодити угодим угоди угодиш угодимо угоде угодио угодите
+56	7956	aktivist	aktivista aktivisti aktivist aktiviste aktivistima aktivistu активиста активисти активист активисте активистима активисту
+57	7957	friz	friza friz frizu frizom фриза фриз фризу фризом
+58	7958	ženidba	ženidbu ženidba ženidbe ženidbi ženidbom женидбу женидба женидбе женидби женидбом
+59	7959	prav	prav pravu prava prave pravim прав pravog праву pravom права pravoj pravih праве правим правог pravima правом pravoga правој pravome правих правима правога правоме
+60	7960	svrbjeti	svrbi svrbe сврби сврбе
+61	7961	nadole	nadole надоле
+62	7962	nesvijest	nesvijesti nesvijest несвијести несвијест
+63	7963	zaposlenje	zaposlenje zaposlenja zaposlenju zaposlenjem запослење запослења запослењу запослењем
+64	7964	malarija	malarije malarija malariju malarijom маларије маларија маларију маларијом
+65	7965	tinejdžerka	tinejdžerka тинејџерка
+66	7966	trgnuti	trgni trgnuti trgneš trgne trgnite trgnuo trgnem trgnula тргни тргнути тргнеш тргне тргните тргнуо тргнем тргнула
+67	7967	zdravstvo	zdravstvo zdravstva zdravstvu здравство здравства здравству
+68	7968	premostiti	premostiti premosti premostim premostimo premostio premostiš premostite premostili premoste премостити премости премостим премостимо премостио премостиш премостите премостили премосте
+69	7969	ušuškati	ušuškam ušuškati ušuška ušuškan ušuškaš ušuškao ušuškani ušuškana ušuškala ušuškaj ušuškamo ушушкам ушушкати ушушка ушушкан ушушкаш ушушкао ушушкани ушушкана ушушкала ушушкај ушушкамо
+70	7970	sanjariti	sanjariš sanjarim sanjarenje sanjario sanjarila sanjariti sanjari sanjare сањариш сањарим сањарење сањарио сањарила сањарити сањари сањаре
+71	7971	štetočina	štetočina štetočine štetočino štetočinama štetočinu штеточина штеточине штеточино штеточинама штеточину
+72	7972	otpočeti	otpočeo otpočela otpočne otpočeti otpočeli otpočnite otpočelo otpočnem otpočnemo otpočnu отпочео отпочела отпочне отпочети отпочели отпочните отпочело отпочнем отпочнемо отпочну
+73	7973	obruč	obruč obruča obruče obruču obruči обруч обруча обруче обручу обручи
+74	7974	vodovod	vodovod vodovoda vodovodu vodovodom водовод водовода водоводу водоводом
+75	7975	naranča	naranče narandža naranča naranču naranči наранче наранџа наранча наранчу наранчи
+76	7976	vijetnamski	vijetnamski vijetnamskog vijetnamskom vijetnamske vijetnamska vijetnamskih vijetnamskim vijetnamsku вијетнамски вијетнамског вијетнамском вијетнамске вијетнамска вијетнамских вијетнамским вијетнамску
+77	7977	socijalno	socijalno социјално
+78	7978	nemo	nemo немо
+79	7979	članica	članica članice članicu članicama чланица чланице чланицу чланицама
+80	7980	rukovodilac	rukovodilac rukovodioca rukovodioci rukovodilaca rukovodioce rukovodiocima руководилац руководиоца руководиоци руководилаца руководиоце руководиоцима
+81	7981	doseljenik	doseljenici doseljenika doseljenike doseljenicima doseljenik досељеници досељеника досељенике досељеницима досељеник
+82	7982	kritično	kritično критично
+83	7983	đumbir	đumbira đumbir đumbirom ђумбира ђумбир ђумбиром
+84	7984	stajalište	stajalište stajališta stajalištu stajalištima стајалиште стајалишта стајалишту стајалиштима
+85	7985	tržnica	tržnici tržnicu tržnice tržnica тржници тржницу тржнице тржница
+86	7986	šokantan	šokantne šokantna šokantan šokantni šokantnim šokantnu šokantnom šokantnih šokantnog шокантне шокантна шокантан шокантни шокантним шокантну шокантном шокантних шокантног
+87	7987	zaudarati	zaudara zaudaraš zaudaraju zaudarao zaudaram zaudarati заудара заудараш заударају заударао заударам заударати
+88	7988	diktirati	diktira diktiraju diktirati diktirao diktiram diktiraš диктира диктирају диктирати диктирао диктирам диктираш
+89	7989	ispijati	ispijanje ispija ispijao ispijajući ispijam ispijaš ispijati ispijaju ispijali ispijamo испијање испија испијао испијајући испијам испијаш испијати испијају испијали испијамо
+90	7990	nasukati	nasukao nasukani nasukali nasukan nasukala nasukana nasukati насукао насукани насукали насукан насукала насукана насукати
+91	7991	nasljednik	nasljednik nasljednika nasljednici nasljednikom nasljednike насљедник насљедника насљедници насљедником насљеднике
+92	7992	oslonac	oslonac oslonca ослонац ослонца
+93	7993	gavran	gavran gavrana gavrani gavrane гавран гаврана гаврани гавране
+94	7994	grbača	grbače grbači grbaču грбаче грбачи грбачу
+95	7995	židovski	židovski židovska židovske židovsku židovsko židovskog židovskom židovskoj židovskih židovskim жидовски жидовска жидовске жидовску жидовско жидовског жидовском жидовској жидовских жидовским
+96	7996	svodnik	svodnik svodnika svodnici svodniku svodniče svodnikom сводник сводника сводници своднику сводниче сводником
+97	7997	tipka	tipku tipke tipka tipki tipkama типку типке типка типки типкама
+98	7998	bučno	bučno бучно
+99	7999	protivan	protivnom protivan противном противан
+100	8000	pijanist	pijanista pijanist pijanistu pijaniste pijanisti пијаниста пијанист пијанисту пијанисте пијанисти

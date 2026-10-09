@@ -1,0 +1,100 @@
+1	4901	tragičan	tragična tragičan tragične tragičnu tragični tragičnog tragičnom tragičnim tragičnoj tragičnih tragičnije трагична трагичан трагичне трагичну трагични трагичног трагичном трагичним трагичној трагичних трагичније
+2	4902	gorak	gorko gorak gorka gorki gorke gorkog gorku gorkim gorkih gorkom горко горак горка горки горке горког горку горким горких горком
+3	4903	imitirati	imitira imitiram imitiraš imitirao imitirati imitiraju imitiraj imitiranje imitirala imitirajući imitirali imitiramo imitirate имитира имитирам имитираш имитирао имитирати имитирају имитирај имитирање имитирала имитирајући имитирали имитирамо имитирате
+4	4904	imunitet	imunitet imuniteta imunitetu imunitetom имунитет имунитета имунитету имунитетом
+5	4905	namjerno	namjerno намјерно
+6	4906	aspirin	aspirin aspirina aspirine аспирин aspirinom аспирина аспирине аспирином
+7	4907	monah	monah monasi monaha monahe monaše monasima monahu монах монаси монаха монахе монаше монасима монаху
+8	4908	lojalnost	lojalnost lojalnosti лојалност lojalnošću лојалности лојалношћу
+9	4909	sirov	sirova sirove sirov sirovu sirovi sirovog sirovim sirovom sirovih sirovoj сирова сирове сиров сирову сирови сировог сировим сировом сирових сировој
+10	4910	ucena	ucena ucene ucenu uceni ucenom ucenama уцена уцене уцену уцени уценом уценама
+11	4911	predrasuda	predrasude predrasuda predrasudama predrasudu предрасуда предрасуде предрасудама предрасуду
+12	4912	pripadnik	pripadnik pripadnici pripadnika pripadnike pripadnicima pripadniku припадник припадници припадника припаднике припадницима припаднику
+13	4913	portal	portal portala portale portalu portali портал portalom портала портале порталу портали порталом
+14	4914	оне	оне
+15	4915	kompromis	kompromis kompromisa kompromise kompromisu kompromisi kompromisom компромис kompromisima компромиса компромисе компромису компромиси компромисом компромисима
+16	4916	izdavač	izdavač izdavača izdavaču izdavači izdavačem izdavačima izdavače издавач издавача издавачу издавачи издавачем издавачима издаваче
+17	4917	poletati	poletanje poleće polećemo poleći полетање poleću полеће polećem полећемо полећи полећу полећем
+18	4918	toplina	toplinu topline toplina toplinom toplini топлину топлине топлина топлином топлини
+19	4919	poručnica	poručnice poručnica poručnicu poručnicom poručnici поручнице поручница поручницу поручницом поручници
+20	4920	kut	kut kutu kuta kutom kutova kutovima kutove kute кут куту кута кутом кутова кутовима кутове куте
+21	4921	izbliza	izbliza изблиза
+22	4922	krokodil	krokodila krokodil krokodili krokodile krokodilima krokodilu krokodilom крокодила крокодил крокодили крокодиле крокодилима крокодилу крокодилом
+23	4923	čelični	čelični čelična čelične čeličnu čeličnim čeličnih čeličnom čeličnog čelično čeličnoj челични челична челичне челичну челичним челичних челичном челичног челично челичној
+24	4924	lopata	lopatu lopatom lopate lopata lopatama lopati лопату лопатом лопате лопата лопатама лопати
+25	4925	tel	tel tele tela telu teli teleta telom теле telima тела телу телом телима тел тели телета
+26	4926	približno	približno приближно
+27	4927	umak	umak umaka umakom umaku umače umaci умак умака умаком умаку умаче умаци
+28	4928	metla	metlu metle metla metala metlom metli metlama метала метлу метле метла метлом метли метлама
+29	4929	tvrdnja	tvrdnje tvrdnju tvrdnja tvrdnji tvrdnjama tvrdnjom тврдње тврдњу тврдња тврдњи тврдњама тврдњом
+30	4930	svadbeni	svadbeni svadbena svadbene svadbenu svadbeno svadbenom svadbenog svadbenim svadbenoj svadbenih свадбени свадбена свадбене свадбену свадбено свадбеном свадбеног свадбеним свадбеној свадбених
+31	4931	odar	odri odre odra odru одри одре одра одру
+32	4932	ljepota	ljepota ljepote ljepotu ljepoti ljepotom ljepoto љепота љепоте љепоту љепоти љепотом љепото
+33	4933	lira	lira liri liru lire лира лири лиру лире
+34	4934	suvenir	suvenir suvenire suvenira suveniri suvenirima сувенир сувенире сувенира сувенири сувенирима
+35	4935	zrakoplov	zrakoplov zrakoplova zrakoplovu zrakoplovom zrakoplovi zrakoplove zrakoplovima зракоплов зракоплова зракоплову зракопловом зракоплови зракоплове зракопловима
+36	4936	oslabiti	oslabio oslabila oslabi oslabiti oslabilo oslabljen oslabili oslabljeni oslabe oslabim oslabljena oslabile oslabimo oslabiš oslabljene oslabljeno ослабио ослабила ослаби ослабити ослабило ослабљен ослабили ослабљени ослабе ослабим ослабљена ослабиле ослабимо ослабиш ослабљене ослабљено
+37	4937	mirovati	miruj miruje mirovati mirujte miruju miruješ mirovanje mirujem mirovao mirujete mirujemo мируј mirovala мирује мировати мирујте мирују мирујеш мировање мирујем мировао мирујете мирујемо мировала
+38	4938	grožđe	grožđe grožđa grožđem grožđu грожђе грожђа грожђем грожђу
+39	4939	torpedo	torpeda torpedo torpedima torpedom торпедо торпеда торпедима торпедом
+40	4940	nevažan	nevažno nevažan nevažna nevažne nevažni nevažnim nevažnih неважно nevažnom неважан неважна неважне неважни неважним неважних неважном
+41	4941	dječji	dječje dječja dječji dječju dječjoj dječjeg dječjim dječjem dječjih dječjom дјечје дјечја дјечји дјечју дјечјој дјечјег дјечјим дјечјем дјечјих дјечјом
+42	4942	svest	svest свест svešću свешћу
+43	4943	prikupljati	prikupljanje prikuplja prikupljamo prikupljam prikupljaju prikupljao prikupljati prikupljala прикупљање prikupljali prikupljaš prikupljate prikupljajući прикупља прикупљамо прикупљам прикупљају прикупљао прикупљати прикупљала прикупљали прикупљаш прикупљате прикупљајући
+44	4944	sena	sena seno senu sene seni senom сена сено сену сене сени сеном
+45	4945	legalan	legalan legalna legalni legalne legalnim legalnog legalnih legalnu legalnom легалан легална легални легалне легалним легалног легалних легалну легалном
+46	4946	stepenište	stepenište stepeništu stepeništa stepeništem степеништу степениште степеништа степеништем
+47	4947	svjež	svjež svježi svježa svježeg svježu svježim svježem svježih svježom свјеж свјежи свјежа свјежег свјежу свјежим свјежем свјежих свјежом
+48	4948	ambiciozan	ambiciozan ambiciozna ambiciozni ambiciozno ambicioznog ambiciozne najambiciozniji ambicioznih ambiciozniji ambicioznim амбициозан ambicioznu амбициозна амбициозни амбициозно амбициозног амбициозне најамбициознији амбициозних амбициознији амбициозним амбициозну
+49	4949	utopiti	utopio utopiti utopila utopi utopim utopili utopiš utopimo utope utopljen utopljena utopilo utopite utopljeni утопио утопити утопила утопи утопим утопили утопиш утопимо утопе утопљен утопљена утопило утопите утопљени
+50	4950	učionica	učionici učionicu učionice učionica učionicama учионици учионицу учионице учионица учионицама
+51	4951	napetost	napetost napetosti напетост напетости
+52	4952	apoteka	apoteke apoteku apoteka apoteci apotekama апотеку апотеке апотеци апотека апотекама
+53	4953	ujna	ujna ujne ujnu ujni ujnom ujno ујна ујне ујну ујни ујном ујно
+54	4954	melodija	melodiju melodija melodije melodiji melodijom мелодију мелодија мелодије мелодији мелодијом
+55	4955	odnosno	odnosno односно
+56	4956	odredište	odredište odredišta odredištu одредиште одредишта одредишту
+57	4957	nepodnošljiv	nepodnošljivo nepodnošljiv nepodnošljiva nepodnošljivi nepodnošljive nepodnošljivim nepodnošljivu nepodnošljivom неподношљиво неподношљив неподношљива неподношљиви неподношљиве неподношљивим неподношљиву неподношљивом
+58	4958	izmaknuti	izmaklo izmakle izmakne izmakla izmakao izmaknu izmaći izmakli izmaknuti izmakni izmaknuo измакло измакле измакне измакла измакао измакну измаћи измакли измакнути измакни измакнуо
+59	4959	ljuljati	ljulja ljuljanje ljuljaj ljuljao ljuljam ljuljati ljuljaš ljuljaju ljuljala ljuljamo ljuljate ljuljajući ljuljali љуља љуљање љуљај љуљао љуљам љуљати љуљаш љуљају љуљала љуљамо љуљате љуљајући љуљали
+60	4960	perje	perje perja perjem perju перје перја перјем перју
+61	4961	uporan	uporan uporna uporni uporne uporniji упоран upornog упорно упорна упорни упорне упорнији упорног
+62	4962	stanarina	stanarinu stanarina stanarine stanarinom станарину станарина станарине станарином
+63	4963	zastupnik	zastupnik zastupnika zastupniče zastupnici zastupnike zastupnikom zastupniku zastupnicima заступник заступника заступниче заступници заступнике заступником заступнику заступницима
+64	4964	potpora	potporu potpora potpore potpori potporom потпору потпора потпоре потпори потпором
+65	4965	prenoćiti	prenoćiti prenoći prenoćim prenoćimo prenoćiš prenoćite prenoćio prenoćila prenoće prenoćićemo prenoćili prenoćiću преноћити преноћи преноћим преноћимо преноћиш преноћите преноћио преноћила преноће преноћићемо преноћили преноћићу
+66	4966	terasa	terasi terasu terase terasa terasom тераси терасу терасе тераса терасом
+67	4967	prasak	prasak praska praskom prasku prasci прасак праска праском праску прасци
+68	4968	strastven	strastven strastveno strastvena strastveni strastvene strastvenu strastvenog strastvenih страствени strastvenim страствен страствено страствена страствене страствену страственог страствених страственим
+69	4969	karati	karan kara karao karam karaš karanje karaju karana karati karaj karamo karali karane karala кара каран карао карам караш карање карају карана карати карај карамо карали каране карала
+70	4970	ušetati	ušetao ušetati ušeta ušetala ušetaš ušetali ušetam ušetamo ušetaju ušetate ушетао ушетати ушета ушетала ушеташ ушетали ушетам ушетамо ушетају ушетате
+71	4971	odbijanje	odbijanje odbijanja odbijanjem odbijanju одбијање одбијања одбијањем одбијању
+72	4972	ljubaznost	ljubaznost ljubaznosti ljubaznošću љубазност љубазности љубазношћу
+73	4973	predgrađe	predgrađu predgrađa predgrađe predgrađima предграђа предграђу предграђе предграђима
+74	4974	starešina	starešina starešine starešino starešinama starešinu starešinom starešini старешина старешине старешино старешинама старешину старешином старешини
+75	4975	impresivan	impresivan impresivna impresivne impresivni impresivnu impresivnije impresivnim impresivnih impresivnom najimpresivniji impresivniji najimpresivnijih импресиван импресивна импресивне импресивни импресивну импресивније импресивним импресивних импресивном најимпресивнији импресивнији најимпресивнијих
+76	4976	odbraniti	odbrane odbraniti odbranim odbranio odbranimo odbraniš odbrani odbranili odbranite odbranila одбране одбрани одбранити одбраним одбранио одбранимо одбраниш одбранили одбраните одбранила
+77	4977	otpuštati	otpuštanje otpuštanja otpuštam otpušta otpuštaju otpuštaš otpuštate otpuštamo otpuštati otpuštali otpuštao отпуштање отпуштања отпуштам отпушта отпуштају отпушташ отпуштате отпуштамо отпуштати отпуштали отпуштао
+78	4978	buraz	buraz бураз
+79	4979	točan	točan točna točnije točne točni točnu točnim točniji točnom točnog точан точна точније точне точни точну точним точнији точном точног
+80	4980	zapadno	zapadno западно
+81	4981	siroče	siroče siročeta сироче siročetu siročetom сирочета сирочету сирочетом
+82	4982	administracija	administracija administracije administraciji administraciju administracijom администрација администрације администрацији администрацију администрацијом
+83	4983	njujorški	njujorški njujorška njujorške njujorškom njujorškog njujorškoj njujoršku njujorških njujorškim njujorško њујоршки њујоршка њујоршке њујоршком њујоршког њујоршкој њујоршку њујоршких њујоршким њујоршко
+84	4984	odnositi	odnositi odnosio odnosiš odnosilo odnosila odnosili odnosim odnosite odnosi odnosimo odnose odnoseći odnošenje odnosile односи односе односити односио односиш односило односила односили односим односите односимо односећи одношење односиле
+85	4985	uvjeren	uvjeren uvjerena uvjereni увјерен увјерена увјерени
+86	4986	magnetni	magnetno magnetna magnetne magnetni magnetnu magnetnog magnetnom magnetnih magnetnim magnetnoj магнетно магнетна магнетне магнетни магнетну магнетног магнетном магнетних магнетним магнетној
+87	4987	frend	frend frendovi frenda frende frendica frendice frendovima frendove frendu frendova frendom frendicom frendicu frendicama френд френдови френда френде френдица френдице френдовима френдове френду френдова френдом френдицом френдицу френдицама
+88	4988	zalogaj	zalogaj zalogaja zalogaju залогај zalogaje zalogajem zalogaji залогаја залогају залогаје залогајем залогаји
+89	4989	lonac	lonac loncu lonce lonca lonče lonci лонац loncima lonaca loncem лонцу лонце лонца лонче лонци лонцима лонаца лонцем
+90	4990	knez	knez kneže kneza кнез кнеже kneginja kneginjo knezu кнеза knezom kneginje kneževi кнегиња кнегињо кнезу кнезом кнегиње кнежеви
+91	4991	maksimalan	maksimalna maksimalnu maksimalni maksimalnom maksimalne maksimalnim maksimalan maksimalnog maksimalnoj maksimalnih максимална максималну максимални максималном максималне максималним максималан максималног максималној максималних
+92	4992	očuvati	očuvanje očuvati očuva očuvana očuvan očuvamo očuvano očuvani očuvam očuvao očuvane očuvali očuvaju očuvala očuvaš očuvate очување очувати очува очувана очуван очувамо очувано очувани очувам очувао очуване очували очувају очувала очуваш очувате
+93	4993	trup	trupe trup trupu trupom трупе труп трупу трупом
+94	4994	grudnjak	grudnjak grudnjaka grudnjake grudnjaku grudnjaci grudnjakom grudnjacima грудњак грудњака грудњаке грудњаку грудњаци грудњаком грудњацима
+95	4995	izražavati	izražava izražavanje izražavaš izražavam izražavaju izražavao izražavamo izražavate izražavati izražavajući изражава изражавање изражаваш изражавам изражавају изражавао изражавамо изражавате изражавати изражавајући
+96	4996	ozljeda	ozljede ozljeda ozljedu ozljedama ozljedom ozljedi озљеде озљеда озљеду озљедама озљедом озљеди
+97	4997	dosegnuti	dosegnuti doseže dosegne dosegao doseći dosegnem dosegla dosegli dosegnu dosegnemo dosegneš dosegni dosegnuo dosegnete dosegnula dosegle досегнути досеже досегне досегао досећи досегнем досегла досегли досегну досегнемо досегнеш досегни досегнуо досегнете досегнула досегле
+98	4998	ud	udove ud udova udovi uda ude udovima udu уда удове уд удова удови уде удовима уду
+99	4999	znanost	znanost znanosti znanošću знаност знаности знаношћу
+100	5000	arapski	arapski arapskom arapske arapskog arapska arapskih arapskim arapsko arapsku арапски arapskoj арапском арапске арапског арапска арапских арапским арапско арапску арапској

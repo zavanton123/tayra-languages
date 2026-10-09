@@ -1,0 +1,100 @@
+1	5401	osip	osip osipa osipom osipe осип осипа осипом осипе
+2	5402	štos	štos štosa štosove штос штоса штосове
+3	5403	lepotan	lepotane lepotan lepotana lepotani lepotanu lepotanom лепотане лепотан лепотана лепотани лепотану лепотаном
+4	5404	olimpijski	olimpijski olimpijske olimpijskim olimpijskih olimpijskog olimpijska olimpijskom olimpijsku olimpijsko olimpijskoj олимпијски олимпијске олимпијским олимпијских олимпијског олимпијска олимпијском олимпијску олимпијско олимпијској
+5	5405	prehlada	prehladu prehlada prehlade prehladi prehladom прехладу прехлада прехладе прехлади прехладом
+6	5406	objekt	objekt objekta objekti objekata objekte objektu objektima objektom објекта објекту објеката објект објекти објекте објектима објектом
+7	5407	osuda	osuda osudu osude osudi osudom osudama осуде осуда осуду осуди осудом осудама
+8	5408	kupaći	kupaći kupaće kupaćem kupaćim kupaćih kupaćeg купаћи kupaću купаће купаћем купаћим купаћих купаћег купаћу
+9	5409	muza	muza muzu muze muzo muzi muzom муза музу музе музо музи музом
+10	5410	blog	blog blogu bloga blogove блог blogova blogovi blogovima блогу блога блогове блогова блогови блоговима
+11	5411	izuzev	izuzev изузев
+12	5412	rulja	rulja rulju rulje ruljom rulji ruljo руља руљу руље руљом руљи руљо
+13	5413	plemić	plemić plemića plemići plemiće plemićima plemiću племића племић племићи племиће племићима племићу
+14	5414	doživljavati	doživljava doživljavam doživljavaju doživljavaš doživljavamo doživljavate doživljavao doživljavala doživljavali doživljavati доживљава доживљавам доживљавају доживљаваш доживљавамо доживљавате доживљавао доживљавала доживљавали доживљавати
+15	5415	poznanik	poznanik poznanika poznanici poznanike poznanica poznanicima poznanikom poznanicu poznaniku poznanice познаник познаника познаници познанике познаница познаницима познаником познаницу познанику познанице
+16	5416	provalnik	provalnik provalnika provalnici provalnike provalniku provalnicima провалник провалника провалници провалнике провалнику провалницима
+17	5417	neustrašiv	neustrašivi neustrašiv neustrašiva neustrašivo neustrašivog neustrašive neustrašivim neustrašivih neustrašivom neustrašivu неустрашиви неустрашив неустрашива неустрашиво неустрашивог неустрашиве неустрашивим неустрашивих неустрашивом неустрашиву
+18	5418	seminar	seminar seminaru seminara seminare seminari seminarima семинар семинару семинара семинаре семинари семинарима
+19	5419	jogurt	jogurt jogurta jogurtom jogurtu jogurte јогурт јогурта јогуртом јогурту јогурте
+20	5420	poslodavac	poslodavac poslodavca poslodavci poslodavcu poslodavaca poslodavce poslodavcem poslodavcima послодавац послодавца послодавци послодавцу послодаваца послодавце послодавцем послодавцима
+21	5421	obilaziti	obilazi obilazim obilazio obilaze obilazimo obilaziš obilazili obilaziti obilazila obilazite obilaženje obilazeći обилази обилазим обилазио обилазе обилазимо обилазиш обилазили обилазити обилазила обилазите обилажење обилазећи
+22	5422	diplomatski	diplomatski diplomatske diplomatska diplomatskim diplomatsku diplomatskih diplomatskog diplomatskom diplomatsko diplomatskoj дипломатски дипломатске дипломатска дипломатским дипломатску дипломатских дипломатског дипломатском дипломатско дипломатској
+23	5423	poredak	poredak poretka poretku poreci poretkom поредак поретка поретку пореци поретком
+24	5424	izvršavati	izvršava izvršavam izvršavao izvršavaju izvršavati izvršavaš izvršavamo izvršavanje izvršavali izvršavate izvršavaj izvršavala izvršavajući извршава извршавам извршавао извршавају извршавати извршаваш извршавамо извршавање извршавали извршавате извршавај извршавала извршавајући
+25	5425	zalediti	zaledi zaledio zaleđena zaledila zaleđeni zaleđen zaleđeno zalediti zaleđene zaledilo zaledili zaledim zalede zalediš zaledile заледи заледио залеђена заледила залеђени залеђен залеђено заледити залеђене заледило заледили заледим заледе заледиш заледиле
+26	5426	negativac	negativac negativci negativca negativce negativaca negativcima негативац негативци негативца негативце негативаца негативцима
+27	5427	kvalitetan	kvalitetno kvalitetan kvalitetne kvalitetna kvalitetnog kvalitetnu kvalitetni kvalitetnih kvalitetnije kvalitetnim najkvalitetniji najkvalitetnije квалитетно квалитетан квалитетне квалитетна квалитетног квалитетну квалитетни квалитетних квалитетније квалитетним најквалитетнији најквалитетније
+28	5428	atentat	atentat atentata atentatu atentati atentate atentatom атентата атентат атентату атентати атентате атентатом
+29	5429	izrasti	izrasti izraste izrasla izrastu izraslo izrasli izrasle izrašće израсти израсте израсла израсту израсло израсли израсле израшће
+30	5430	uvid	uvid uvida uvidi uvide увид uvidom uvidu увида увиди увиде увидом увиду
+31	5431	odavati	odaje odajem odajemo odavanje odaješ odavao odavati odajete odavala odavali одаје odaju odaji одајем одајемо одавање одајеш одавао одавати одајете одавала одавали одају одаји
+32	5432	naplata	naplatu naplate naplati naplata naplatom наплату наплате наплати наплата наплатом
+33	5433	nedaleko	nedaleko недалеко
+34	5434	pristanak	pristanak pristanka pristankom пристанак pristanku пристанка пристанком пристанку
+35	5435	partnerstvo	partnerstvo partnerstva partnerstvu партнерство partnerstvom партнерства партнерству партнерством
+36	5436	ovlašćenje	ovlašćenja ovlašćenje овлашћења овлашћење
+37	5437	proizvoditi	proizvodimo proizvoditi proizvodi proizvode proizvodili proizvodim proizvodio proizvodila proizvodite proizvodiš proizvodeći proizvodile proizvodilo производи производе производимо производити производили производим производио производила производите производиш производећи производиле производило
+38	5438	građevina	građevina građevine građevini građevinu građevinama građevinom грађевине грађевина грађевини грађевину грађевинама грађевином
+39	5439	nerešen	nerešeno nerešenih nerešen nerešena nerešene nerešeni nerešenim nerešenog нерешено нерешених нерешен нерешена нерешене нерешени нерешеним нерешеног
+40	5440	legija	legije legija legiju legiji legijama legijom легије легија легију легији легијама легијом
+41	5441	šunjati	šunja šunjaš šunjao šunjaju šunjanje šunjam šunjala šunjati šunjamo šunjalo šunjate šunjali šunjajući šunjaj шуња шуњаш шуњао шуњају шуњање шуњам шуњала шуњати шуњамо шуњало шуњате шуњали шуњајући шуњај
+42	5442	porast	porast poraste porastu porasta porastom порасту порасте пораст пораста порастом
+43	5443	karavan	karavan karavana karavanu karavane karavanom karavani караван каравана каравану караване караваном каравани
+44	5444	ale	ale але
+45	5445	prosinac	pro prosinca prosinac prosincu про просинца просинац просинцу
+46	5446	računovođa	računovođa računovođe računovođu računovođom računovođi рачуновођа рачуновође рачуновођу рачуновођом рачуновођи
+47	5447	poduhvat	poduhvat poduhvata poduhvatu poduhvate poduhvatima poduhvati подухват poduhvatom подухвата подухвату подухвате подухватима подухвати подухватом
+48	5448	biografija	biografiju biografija biografije biografiji biografijom биографију биографија биографије биографији биографијом
+49	5449	faraon	faraon faraona faraone faraonu faraoni faraonom фараона faraonima фараон фараоне фараону фараони фараоном фараонима
+50	5450	makro	makro makroa makroi makrou makroe makroom makroima макро макроа макрои макроу макрое макроом макроима
+51	5451	obustaviti	obustavi obustavite obustaviti obustavimo obustavljena obustavili obustavljen obustavio obustave obustavila obustavim obustavljeno obustaviš obustavljeni обустави обуставите обуставити обуставимо обустављена обуставили обустављен обуставио обуставе обуставила обуставим обустављено обуставиш обустављени
+52	5452	nepotrebno	nepotrebno непотребно
+53	5453	kanadski	kanadski kanadske kanadska kanadskog kanadsku kanadskih kanadskom kanadskim kanadskoj kanadsko канадски канадске канадска канадског канадску канадских канадском канадским канадској канадско
+54	5454	izreka	izreka izreku izreke izreci изрека изреку изреке изреци
+55	5455	alergija	alergije alergija alergiju alergijama alergijom алергије алергија алергију алергијама алергијом
+56	5456	korisnik	korisnik korisnika korisnici korisnike korisnicima korisnički korisniku корисник корисника корисници кориснике корисницима кориснички кориснику
+57	5457	karate	karate karatea karateu karateom карате каратеа каратеу каратеом
+58	5458	kočiti	koči kočenje kočim kočiš kočiti kočio kočite koče kočila кочи kočilo кочење кочим кочиш кочити кочио кочите коче кочила кочило
+59	5459	prelom	prelom preloma prelomi prelome прелом прелома prelomima prelomom преломи преломе преломима преломом
+60	5460	dvojka	dvojka dvojku dvojke dvojci dvojki dvojko dvojkom двојку двојка двојке двојци двојки двојко двојком
+61	5461	recepcija	recepciji recepciju recepcija recepcije рецепцији рецепцију рецепција рецепције
+62	5462	siromaštvo	siromaštvo siromaštva siromaštvu siromaštvom сиромаштво сиромаштва сиромаштву сиромаштвом
+63	5463	ruda	rudi rudu rude ruda rudo руди руду руде руда рудо
+64	5464	ratovati	ratuje ratuju ratujemo ratovati ratovali ratovao ratujem ratuješ ratujete ратује ратују ратујемо ратовати ратовали ратовао ратујем ратујеш ратујете
+65	5465	gripa	gripa gripu gripe gripom грипа gripi грипу грипе грипом грипи
+66	5466	prometan	prometna prometnu prometnoj prometne prometno prometni prometnih prometnom prometnim prometnog najprometnijih prometan прометна прометну прометној прометне прометно прометни прометних прометном прометним прометног најпрометнијих прометан
+67	5467	sobarica	sobarica sobarice sobaricu sobaricom собарица sobarici sobaricama собарице собарицу собарицом собарици собарицама
+68	5468	ubrzavati	ubrzava ubrzavaju ubrzavamo ubrzavanje ubrzavam ubrzavao ubrzavati ubrzavaš убрзава ubrzavaj ubrzavajući убрзавају убрзавамо убрзавање убрзавам убрзавао убрзавати убрзаваш убрзавај убрзавајући
+69	5469	loza	loze loza lozu lozi lozom лозе лоза лозу лози лозом
+70	5470	horizont	horizontu horizont horizonta horizonte horizonti horizontom хоризонту хоризонт хоризонта хоризонте хоризонти хоризонтом
+71	5471	nezahvalan	nezahvalna nezahvalan nezahvalni nezahvalno nezahvalne nezahvalnog nezahvalnom nezahvalnu nezahvalnim незахвална незахвалан незахвални незахвално незахвалне незахвалног незахвалном незахвалну незахвалним
+72	5472	iznevjeriti	iznevjeriti iznevjerio iznevjerila iznevjerili iznevjeri iznevjerim iznevjeriš изневјерити изневјерио изневјерила изневјерили изневјери изневјерим изневјериш
+73	5473	pohod	pohod pohodu pohoda pohode pohodi поход pohodima походу похода походе походи походима
+74	5474	trol	trol trolovi trola trolova trolove trolu trolovima trolom trole трол тролови трола тролова тролове тролу троловима тролом троле
+75	5475	šeri	šeri шери
+76	5476	nelegalan	nelegalno nelegalne nelegalna nelegalan nelegalni nelegalnog nelegalnim nelegalnih nelegalnu nelegalnom нелегално нелегалне нелегална нелегалан нелегални нелегалног нелегалним нелегалних нелегалну нелегалном
+77	5477	magnet	magnet magneta magneti magnete magnetom magnetima магнет магнета магнети магнете магнетом магнетима
+78	5478	tkanina	tkanine tkanina tkaninu tkanini tkaninom tkaninama тканине тканина тканину тканини тканином тканинама
+79	5479	egzotičan	egzotično egzotična egzotične egzotičnih egzotični egzotičnim egzotičan egzotičnu egzotičnog egzotičnije egzotičnom егзотично егзотична егзотичне егзотичних егзотични егзотичним егзотичан егзотичну егзотичног егзотичније егзотичном
+80	5480	određeno	određeno одређено
+81	5481	antibiotik	antibiotike antibiotici antibiotika antibiotik antibioticima антибиотике антибиотици антибиотика антибиотик антибиотицима
+82	5482	keva	keva kevu kevo keve kevi kevom кева кеву кево кеве кеви кевом
+83	5483	šašav	šašava šašav šašavi šašave šašavu šašavih šašavim šašavog šašavom шашава шашав шашави шашаве шашаву шашавих шашавим шашавог шашавом
+84	5484	liječiti	liječiti liječi liječio liječim liječili liječimo liječila liječite liječiš liječeni liječe лијечити лијечи лијечио лијечим лијечили лијечимо лијечила лијечите лијечиш лијечени лијече
+85	5485	tegla	teglu tegli tegle tegla teglama teglom теглу тегли тегле тегла теглама теглом
+86	5486	ajme	ajme ајме
+87	5487	ventil	ventil ventile ventila ventili вентил ventilima ventilu вентиле вентила вентили вентилима вентилу
+88	5488	vrebati	vreba vrebaju vrebao vrebaš vrebala vrebati vrebam vrebali vrebanje вреба вребају вребао вребаш вребала вребати вребам вребали вребање
+89	5489	kišobran	kišobran kišobranom kišobrana kišobrane kišobrani кишобран kišobranima кишобраном кишобрана кишобране кишобрани кишобранима
+90	5490	un	un ун
+91	5491	opozvati	opozovi opozvati opozovite opozvao opozove opozvan opozvali opozoveš opozvana opozovem opozvani opozovemo opozvala opozovete opozovu opozvaću опозови опозвати опозовите опозвао опозове опозван опозвали опозовеш опозвана опозовем опозвани опозовемо опозвала опозовете опозову опозваћу
+92	5492	konjak	konjak konjaka konjakom коњак konjaku коњака коњаком коњаку
+93	5493	nedavan	nedavne nedavni nedavnih nedavna nedavnim nedavnog nedavnom nedavnoj nedavnu недавне недавни недавних недавна недавним недавног недавном недавној недавну
+94	5494	automat	automat automata automate automatu automatima automati automatom аутомат аутомата аутомате аутомату аутоматима аутомати аутоматом
+95	5495	prizemlje	prizemlju prizemlje prizemlja приземљу приземље приземља
+96	5496	kulturan	kulturni kulturne kulturna kulturan kulturnog kulturnom kulturnu kulturnih kulturnim kulturnoj културни културне културна културан културног културном културну културних културним културној
+97	5497	predator	predatora predator predatori predatore predatorima predatoru предатора предатор предатори предаторе предаторима предатору
+98	5498	tango	tango tanga tangu танго tangom танга тангу тангом
+99	5499	nagnuti	nagni nagnuo nagnite nagne nagnula nagnuti nagneš nagnut nagnuta nagnem nagnuto нагни нагнуо нагните нагне нагнула нагнути нагнеш нагнут нагнута нагнем нагнуто
+100	5500	ohrabrivati	ohrabruje ohrabrivao ohrabrujem ohrabruješ ohrabrivala ohrabrivati ohrabrujući ohrabruju ohrabruj ohrabrivali ohrabrujemo ohrabrujete ohrabrivanje охрабрује охрабривао охрабрујем охрабрујеш охрабривала охрабривати охрабрујући охрабрују охрабруј охрабривали охрабрујемо охрабрујете охрабривање

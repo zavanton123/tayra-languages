@@ -1,0 +1,100 @@
+1	7701	uceniti	ucenio ucenjena ucenjene ucenili ucenila ucenjen uceniš uceniti ucene uceni уценио уцењена уцењене уценили уценила уцењен уцениш уценити уцене уцени
+2	7702	glavonja	glavonja glavonjo glavonje glavonju glavonjama главоња главоњо главоње главоњу главоњама
+3	7703	aljkav	aljkav aljkavo aljkava aljkavi aljkave аљкав аљкаво аљкава аљкави аљкаве
+4	7704	žabac	žabac žapca žapče жабац žapcu жапца жапче жапцу
+5	7705	spaljivanje	spaljivanje spaljivanja spaljivanjem spaljivanju спаљивање спаљивања спаљивањем спаљивању
+6	7706	ulepšati	ulepšati ulepšao ulepšam ulepša ulepšaj ulepšala ulepšali ulepšalo ulepšaš ulepšamo улепшати улепшао улепшам улепша улепшај улепшала улепшали улепшало улепшаш улепшамо
+7	7707	šestorica	šestorica šestoricu šestorice šestoricom šestorici шесторица шесторицу шесторице шесторицом шесторици
+8	7708	mitologija	mitologiji mitologije mitologija mitologiju митологији митологије митологија митологију
+9	7709	špada	spada спада
+10	7710	dojaviti	dojavio dojavili dojavila dojavljeno dojaviti dojave dojavite dojavi дојавио дојавили дојавила дојављено дојавити дојаве дојавите дојави
+11	7711	valcer	valcer valcera валцер валцера
+12	7712	geografski	geografski geografske geografska geografsku geografsko geografskoj geografskim geografskom geografskog географски географске географска географску географско географској географским географском географског
+13	7713	košara	košaru košare košari košara košarom кошару кошаре кошари кошара кошаром
+14	7714	sačmarica	sačmaricu sačmarica sačmaricom sačmarice сачмарицу сачмарица сачмарицом сачмарице
+15	7715	desnica	desnica desnicom desnicu desnice desnici десница десницом десницу деснице десници
+16	7716	remen	remen remenom remena remenu ремен ременом ремена ремену
+17	7717	opčiniti	opčinjen opčinjena opčinila opčinio opčinjeni opčini opčiniti опчињен опчињена опчинила опчинио опчињени опчини опчинити
+18	7718	mušica	mušice mušica mušicu mušicama мушице мушица мушицу мушицама
+19	7719	čestit	čestit čestiti čestita čestito čestite čestitu čestitog честит честити честита честито честите честиту честитог
+20	7720	obučiti	obučio obuči obučili obučiti obučila obučim obučimo obuče obučiš обуче обучио обучи обучили обучити обучила обучим обучимо обучиш
+21	7721	upirati	upiri upireš upire upirati upiru upirem upri upiranje upiremo upirete упири упиреш упире упирати упиру упирем упри упирање упиремо упирете
+22	7722	glede	glede гледе
+23	7723	tradicionalno	tradicionalno традиционално
+24	7724	plodnost	plodnost plodnosti плодност плодности
+25	7725	pljusak	pljusak pljuska pljusku pljuskovi pljuskom pljuskove пљусак пљуска пљуску пљускови пљуском пљускове
+26	7726	neuredan	neuredan neuredna neuredni neuredne neurednu неуредан неуредна неуредни неуредне неуредну
+27	7727	lokomotiva	lokomotiva lokomotivu lokomotive lokomotivi lokomotivom локомотива локомотиву локомотиве локомотиви локомотивом
+28	7728	superioran	superiorna superiorni superioran superiorne superiornim superiornu superiornog superiornom superiornih супериорна супериорни супериоран супериорне супериорним супериорну супериорног супериорном супериорних
+29	7729	garantirati	garantiram garantirati garantira garantirano garantirao garantiramo гарантирам гарантирати гарантира гарантирано гарантирао гарантирамо
+30	7730	izravnati	izravnati izravnaj izravna izravnamo izravnam izravnali izravnao izravnaš izravnajte izravnaju изравнати изравнај изравна изравнамо изравнам изравнали изравнао изравнаш изравнајте изравнају
+31	7731	vrač	vrač vrača vračevi vraču vračeva врач врача врачеви врачу врачева
+32	7732	činovnik	činovnik činovnika činovnici činovnike činovniku чиновник чиновника чиновници чиновнике чиновнику
+33	7733	redatelj	redatelj redatelja redateljem redatelji редатељ редатеља редатељем редатељи
+34	7734	genijalnost	genijalnost genijalnosti genijalnošću генијалност генијалности генијалношћу
+35	7735	nasred	nasred насред
+36	7736	mort	mort morte morta mortu морт морте морта морту
+37	7737	počinitelj	počinitelj počinitelja починитељ починитеља
+38	7738	izdržljivost	izdržljivost izdržljivosti издржљивост издржљивости
+39	7739	sandala	sandale sandalama sandala sandalu сандале сандалама сандала сандалу
+40	7740	prašnjav	prašnjavo prašnjavi prašnjave prašnjava prašnjav prašnjavim prašnjavom prašnjavu prašnjavih prašnjavoj прашњаво прашњави прашњаве прашњава прашњав прашњавим прашњавом прашњаву прашњавих прашњавој
+41	7741	istovariti	istovarite istovarimo istovariti istovarim istovari istovario istovarili istovariš istovare istovaren истоварите истоваримо истоварити истоварим истовари истоварио истоварили истовариш истоваре истоварен
+42	7742	čupati	čupa čupam čupaš čupanje čupaju čupao čupati čupala čupali čupaj čupate čupamo чупа чупам чупаш чупање чупају чупао чупати чупала чупали чупај чупате чупамо
+43	7743	češati	češeš češe češanje češem češati češao češi češu češala češete чешеш чеше чешање чешем чешати чешао чеши чешу чешала чешете
+44	7744	imitator	imitator imitatora imitatori imitatoru imitatore имитатор имитатора имитатори имитатору имитаторе
+45	7745	sputavati	sputava sputavaju sputavam sputavaš sputavati sputavao sputavala sputavanje спутава спутавају спутавам спутаваш спутавати спутавао спутавала спутавање
+46	7746	cisterna	cisterna cisterne cisternu cisterni cisternom цистерна цистерне цистерну цистерни цистерном
+47	7747	mangup	mangup mangupe mangupi mangupa мангуп мангупе мангупи мангупа
+48	7748	koriti	korenje кори корење kori korena kore korene koreni корена коре корене корени
+49	7749	nadoknada	nadoknadu nadoknada nadoknadi nadoknade надокнаду надокнада надокнади надокнаде
+50	7750	urgentan	urgentnom urgentni urgentnog urgentne urgentna urgentnoj ургентном ургентни ургентног ургентне ургентна ургентној
+51	7751	zanemarivati	zanemarivanje zanemaruje zanemaruješ zanemaruju zanemarivao zanemarujete zanemarujući zanemarivati zanemarujem zanemarujemo zanemarivali занемаривање занемарује занемарујеш занемарују занемаривао занемарујете занемарујући занемаривати занемарујем занемарујемо занемаривали
+52	7752	kliješta	klešta kliješta kleštima kliještima клешта клијешта клештима клијештима
+53	7753	zalagaonica	zalagaonice zalagaonica zalagaonici zalagaonicu залагаонице залагаоница залагаоници залагаоницу
+54	7754	poprskati	poprskao poprskaj poprskala poprska poprskati poprskan poprskali poprskam poprskamo poprskaš poprskana poprskajte попрскао попрскај попрскала попрска попрскати попрскан попрскали попрскам попрскамо попрскаш попрскана попрскајте
+55	7755	nekadašnji	nekadašnji nekadašnje nekadašnjeg nekadašnja nekadašnjih nekadašnjem nekadašnju nekadašnjim некадашњи некадашње некадашњег некадашња некадашњих некадашњем некадашњу некадашњим
+56	7756	sluz	sluzi sluz слузи слуз
+57	7757	horoskop	horoskop horoskopu horoskopa horoskopi horoskope хороскоп хороскопу хороскопа хороскопи хороскопе
+58	7758	spaziti	spazio spazili spaze spazila spazi spaziti spazite spazim спазио спазили спазе спазила спази спазити спазите спазим
+59	7759	obilan	obilno obilan obilne obilna obilnu obilnim obilnog obilni обилно обилан обилне обилна обилну обилним обилног обилни
+60	7760	dvorski	dvorska dvorske dvorski dvorsku dvorskih dvorskim dvorskog dvorskom дворска дворске дворски дворску дворских дворским дворског дворском
+61	7761	desetar	desetaru desetar desetare desetara десетару десетар десетаре десетара
+62	7762	petsto	petsto петсто
+63	7763	testo	testo testa testu testom теста тесту тесто тестом
+64	7764	maler	maler малер
+65	7765	liker	liker likera likerom ликер ликера ликером
+66	7766	pubertet	pubertet puberteta pubertetu пубертет пубертета пубертету
+67	7767	ocenjivati	ocenjuje ocenjuju ocenjivanje ocenjujem ocenjuješ ocenjujete ocenjivati ocenjivao ocenjujemo оцењује оцењују оцењивање оцењујем оцењујеш оцењујете оцењивати оцењивао оцењујемо
+68	7768	vlas	vlasi vlas vlasima власи влас власима
+69	7769	anarhija	anarhija anarhije anarhiju anarhiji анархија анархије анархију анархији
+70	7770	liberalan	liberalni liberalna liberalne liberalan liberalno liberalnih liberalnog liberalnu liberalnim liberalnom либерални либерална либералне либералан либерално либералних либералног либералну либералним либералном
+71	7771	ustanak	ustanak ustanka ustanku устанак устанка устанку
+72	7772	kruška	kruške kruška krušku krušaka kruškama крушке крушка крушку крушака крушкама
+73	7773	svršavati	svršavam svršava svršavaš svršavanje svršavaju svršavala svršavao свршавам свршава свршаваш свршавање свршавају свршавала свршавао
+74	7774	književni	književni književno književne književnog književnu književna književnom književnim književnih књижевни књижевно књижевне књижевног књижевну књижевна књижевном књижевним књижевних
+75	7775	korito	korito korita koritu корито корита кориту
+76	7776	cviliti	cvili cviliš cviliti cvile cvilim цвили cvilite cvilio цвилиш цвилити цвиле цвилим цвилите цвилио
+77	7777	posramiti	posramljena posramljeno posramljeni posramiti posramio posramila posrami posramim posramiš посрамљена посрамљено посрамљени посрамити посрамио посрамила посрами посрамим посрамиш
+78	7778	ukočiti	ukočio ukočila ukoči ukočili ukoče ukočiti ukočiš ukočim ukočile укочио укочила укочи укочили укоче укочити укочиш укочим укочиле
+79	7779	odlikovati	odlikovan odlikovani odlikuje odlikovati odlikovao odlikuju odlikujem odlikovana одликован одликовани одликује одликовати одликовао одликују одликујем одликована
+80	7780	ismijavati	ismijavati ismijavaš ismijavali ismijava ismijavaju ismijavao ismijavanje ismijavaj ismijavam ismijavala ismijavate исмијавати исмијаваш исмијавали исмијава исмијавају исмијавао исмијавање исмијавај исмијавам исмијавала исмијавате
+81	7781	veštac	veštac vešca vešci veštaca vešcu вештац вешца вешци вештаца вешцу
+82	7782	obim	obim obima obimu обим обима обиму
+83	7783	poslušnost	poslušnost poslušnosti послушност послушности
+84	7784	taliban	talibani talibana talibanima talibane taliban талибани талибана талибанима талибане талибан
+85	7785	klipan	klipan klipane klipana klipani клипан клипане клипана клипани
+86	7786	sukobiti	sukobili sukobio sukobiti sukobila sukobimo sukobljene sukobile sukobe sukobi сукобили сукобио сукобити сукобила сукобимо сукобљене сукобиле сукобе сукоби
+87	7787	članstvo	članstvo članstva članstvu чланство чланства чланству
+88	7788	stezati	steže stežu stežeš stezanje stežem steži stezati stezala стеже стежу стежеш стезање стежем стежи стезати стезала
+89	7789	odjava	odjava odjavi odjavu odjave одјава одјави одјаву одјаве
+90	7790	tašta	tašta taštu tašte tašti tašto taštom ташта ташту таште ташти ташто таштом
+91	7791	brineta	brineta brinete brinetu brinetom бринете бринета бринету бринетом
+92	7792	razmenjivati	razmenjuju razmenjujemo razmenjivali razmenjuje razmenjujete razmenjivao razmenjujem razmenjivati размењују размењујемо размењивали размењује размењујете размењивао размењујем размењивати
+93	7793	pansion	pansion pansionu pansiona пансион пансиону пансиона
+94	7794	misionar	misionar misionari misionara misionare misionarima мисионар мисионари мисионара мисионаре мисионарима
+95	7795	maniri	maniri манири
+96	7796	kob	kob kobi коб коби
+97	7797	sačmara	sačmaru sačmarom sačmara sačmare сачмару сачмаром сачмара сачмаре
+98	7798	naklonjen	naklonjen naklonjena naklonjeni naklonjene naklonjeno наклоњен наклоњена наклоњени наклоњене наклоњено
+99	7799	zavidjeti	zavidim zavide zavidio zavidi zavidiš zavidjeti завидим zavidite zavidimo завиде завидио завиди завидиш завидјети завидите завидимо
+100	7800	njuškalo	njuškalo njuškala њушкало њушкала

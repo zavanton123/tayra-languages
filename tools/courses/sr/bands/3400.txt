@@ -1,0 +1,100 @@
+1	3301	sakupiti	sakupi sakupio sakupili sakupiti sakupim sakupimo sakupite sakupila sakupe sakupiš sakupiću sakupljeni sakupljeno sakupljene sakupićemo sakupile sakupljena сакупи сакупио сакупили сакупити сакупим сакупимо сакупите сакупила сакупе сакупиш сакупићу сакупљени сакупљено сакупљене сакупићемо сакупиле сакупљена
+2	3302	postupiti	postupio postupila postupiti postupili postupi postupim postupite postupiš postupimo поступио postupe postupiću поступила поступити поступили поступи поступим поступите поступиш поступимо поступе поступићу
+3	3303	stroj	stroj stroja stroju strojevi strojeve strojeva strojem strojevima строј строја строју стројеви стројеве стројева стројем стројевима
+4	3304	juli	jula jul juli julu jule јула јул јули јулу јуле
+5	3305	zarobljenik	zarobljenik zarobljenika zarobljenike zarobljenici zarobljenicima zarobljenikom заробљеника заробљеник заробљенике заробљеници zarobljeniku заробљеницима заробљеником заробљенику
+6	3306	upotreba	upotrebu upotrebi upotreba upotrebe upotrebom употребу употреби употреба употребе употребом
+7	3307	medalja	medalju medalje medalja medaljom medaljama медаљу medalji медаље медаља медаљом медаљама медаљи
+8	3308	izbacivati	izbacuje izbacivanje izbacuju izbacujem izbacuješ izbacujete izbacujemo izbacivao izbacivali izbacivati izbacuj izbacujući izbacivala избацује izbacujte избацивање избацују избацујем избацујеш избацујете избацујемо избацивао избацивали избацивати избацуј избацујући избацивала избацујте
+9	3309	pojačati	pojačaj pojačati pojačao pojača pojačajte pojačam pojačali pojačana pojačamo pojačan pojačano pojačaju pojačaš pojačani pojačane pojačate pojačaću pojačavati pojačajmo pojačaćemo појачање појачај појачати појачао појача појачајте појачам појачали појачана појачамо појачан појачано појачају појачаш појачани појачане појачате појачаћу појачавати појачајмо појачаћемо
+10	3310	zasad	zasad zasada засад засада
+11	3311	patuljak	patuljak patuljka patuljci patuljaka patuljke patuljcima patuljku patuljkom patuljče патуљак патуљка патуљци патуљака патуљке патуљцима патуљку патуљком патуљче
+12	3312	komunicirati	komunicira komunicirati komuniciraju komuniciramo komuniciram komunicirali komunicirate komuniciraš komunicirao komunicirala komuniciranje комуницирају комуницира komunicirajte комуницирати комуницирамо комуницирам комуницирали комуницирате комуницираш комуницирао комуницирала комуницирање комуницирајте
+13	3313	domaćin	domaćin domaćina domaćini domaćine domaćinu domaćinom домаћин domaćinima домаћина домаћини домаћине домаћину домаћином домаћинима
+14	3314	tara	tara taru taro tare tari tarom тара тару таро таре тари таром
+15	3315	naslov	naslov naslove naslova naslovi naslovom naslovu наслов naslovima наслове наслова наслови насловом наслову насловима
+16	3316	sjediniti	sjedinjenih sjedinjene sjedinjeni sjediniti sjedini sjedine sjedinimo сједињене sjedinio sjedinjen sjedinjena sjedinili sjedinila sjedinim сједињених сједињени сјединити сједини сједине сјединимо сјединио сједињен сједињена сјединили сјединила сјединим
+17	3317	nazdraviti	nazdravimo nazdravim nazdraviti nazdravi nazdravio наздравимо nazdravite nazdravili nazdraviš nazdravićemo nazdraviću nazdravila наздравим наздравити наздрави наздравио наздравите наздравили наздравиш наздравићемо наздравићу наздравила
+18	3318	infekcija	infekcija infekcije infekciju infekcijom infekciji инфекције инфекција infekcijama инфекцију инфекцијом инфекцији инфекцијама
+19	3319	sveže	sveže свеже
+20	3320	odande	odande оданде
+21	3321	opak	opak opaki opaka opake opaku opakog opakih opakim najopakiji opakom опаки opakiji najopakije opakije opakoj najopakija опак опака опаке опаку опаког опаких опаким најопакији опаком опакији најопакије опакије опакој најопакија
+22	3322	тобом	тобом
+23	3323	poker	poker pokera pokeru покер pokerom покера покеру покером
+24	3324	maršal	maršal maršale maršala maršalu maršali маршал maršalom маршале маршала maršalima маршалу маршали маршалом маршалима
+25	3325	proleće	proleće proleća пролеће proleću пролећа prolećem пролећу пролећем
+26	3326	ograničen	ograničen ograničena ograničeno ograničeni ograničene ograničenim ograničenu ograničenom ograničenog ograničenih ograničenoj ограничен ограничена ограничено ограничени ограничене ограниченим ограничену ограниченом ограниченог ограничених ограниченој
+27	3327	zaprositi	zaprosio zaprositi zaprosi zaprosim zaprosiš zaprosila zaprosiću запросио zaprosili zaprosite запросити запроси запросим запросиш запросила запросићу запросили запросите
+28	3328	godišnji	godišnji godišnja godišnju godišnjeg godišnjem godišnjih godišnjim godišnjoj godišnjom годишњи годишња годишњу годишњег годишњем годишњих годишњим годишњој годишњом
+29	3329	sulud	suludo suluda sulude suludi suludu сулудо sulud suludim suludih suludom suludog сулуда сулуде сулуди сулуду сулуд сулудим сулудих сулудом сулудог
+30	3330	izložba	izložbu izložba izložbe izložbi izložbeni izložbom izložbama изложбу изложба изложбе изложби изложбени изложбом изложбама
+31	3331	vršiti	vrši vršim vršio vršimo vršili vršiti vršiš vršite vršila vršenje vršeći врши vrše vršena vršeni вршим вршио вршимо вршили вршити вршиш вршите вршила вршење вршећи врше вршена вршени
+32	3332	tur	turu tura ture tur turom туру туре turove тура тур туром турове
+33	3333	primjer	primjer primjera primjere primjerom primjeri primjeru примјер примјера примјере примјером примјери примјеру
+34	3334	razboleti	razboleo razbolela razboleti razboli razboleli razboliš razbolim razbole razbolećeš razbolelo разболео razbolite разболела razbolimo razboleću razbolele razboleće разболети разболи разболели разболиш разболим разболе разболећеш разболело разболите разболимо разболећу разболеле разболеће
+35	3335	fenomenalan	fenomenalno fenomenalan fenomenalna fenomenalni fenomenalne fenomenalnu феноменално fenomenalnog fenomenalnom fenomenalnim феноменалан феноменална феноменални феноменалне феноменалну феноменалног феноменалном феноменалним
+36	3336	tablica	tablice tablica tablicu tablicama tablici таблице tablicom таблица таблицу таблицама таблици таблицом
+37	3337	pozadina	pozadini pozadinu pozadina pozadine pozadinom позадини позадину позадина позадине позадином
+38	3338	stranka	stranke stranka stranci stranku странка stranaka странке strankama strankom странци странку странака странкама странком
+39	3339	večan	večni večna večnu večnog večne večnom večan večnim večnoj вечни večnih вечна вечну вечног вечне вечном вечан вечним вечној вечних
+40	3340	jelen	jelena jelen jelene jeleni јелена jelenu jelenom jelenima јелен јелене јелени јелену јеленом јеленима
+41	3341	nafta	nafte naftu nafta naftom nafti нафте нафту нафта нафтом нафти
+42	3342	čarolija	čarolija čaroliju čarolije čarolijom čaroliji čarolijama чаролију чаролија чаролије чаролијом чаролији чаролијама
+43	3343	predstavnik	predstavnik predstavnika predstavnici predstavnike predstavnicima predstavnikom predstavnica predstavniku представник predstavnice представника представници представнике представницима представником представница представнику представнице
+44	3344	stvaranje	stvaranje stvaranja stvaranju stvaranjem стварање стварања стварању стварањем
+45	3345	ada	adama adi ada ade adu ado адама ади ада аде аду адо
+46	3346	tijekom	tijekom тијеком
+47	3347	saradnja	saradnju saradnji saradnja saradnje saradnjom сарадње сарадњу сарадњи сарадња сарадњом
+48	3348	kolovoz	kol kolovoza kolovoz kolovozu кол коловоза коловоз коловозу
+49	3349	struktura	struktura strukturu strukture strukturi strukturom strukturama структуре структура структуру структури структуром структурама
+50	3350	karton	karton kartona kartonu kartone картон kartonom картона картону картоне картоном
+51	3351	goniti	goni gone goniti gonite gonjenje gonio gonili gonimo gonim gonjen goniš gonjeni gonila гоне гони goniće goneći goniću gonjena гонити гоните гоњење гонио гонили гонимо гоним гоњен гониш гоњени гонила гониће гонећи гонићу гоњена
+52	3352	preporučiti	preporučio preporučila preporučiti preporučim preporučili preporučeno preporuči preporučiću preporučite preporučiš preporučena препоручио preporučen preporučeni препоручила препоручити препоручим препоручили препоручено препоручи препоручићу препоручите препоручиш препоручена препоручен препоручени
+53	3353	muva	muva muve muvu muvama muvo мува muvi муве муву мувама муво муви
+54	3354	privremeno	privremeno привремено
+55	3355	kikiriki	kikiriki kikirikija kikirikijem кикирики kikirikiju кикирикија кикирикијем кикирикију
+56	3356	impresioniran	impresioniran impresionirana impresionirani импресиониран impresionirano impresionirane импресионирана импресионирани импресионирано импресиониране
+57	3357	uveren	uveren uvereni uverena уверен uvereno уверени уверена уверено
+58	3358	gluv	gluv gluva gluvi gluvo gluve gluvih глув gluvu gluvog gluvom gluvim gluvima глува глуви глуво глуве глувих глуву глувог глувом глувим глувима
+59	3359	rukopis	rukopis rukopisa rukopisom rukopisu rukopise rukopisi рукопис rukopisima рукописа рукописом рукопису рукописе рукописи рукописима
+60	3360	jadnik	jadnik jadnika jadniče jadnici jadnike jadniku jadnicima јадник jadnikom јадника јадниче јадници јаднике јаднику јадницима јадником
+61	3361	fajl	fajl fajlove fajlovi fajlovima fajlova fajlu fajla фајл фајлове фајлова фајлови фајловима фајлу фајла
+62	3362	odijelo	odijelo odijela odijelu odijelima odijelom одијело одијела одијелу одијелима одијелом
+63	3363	svesti	svesti svezi svelo sveze sveo свести svela sveli svešću свези свело свезе свео свела свели свешћу
+64	3364	nikuda	nikuda никуда
+65	3365	označiti	označen označio označi označena označeno označiti označeni označila označene označili označite označimo označim označe označilo označiš означен označiće означено означио означи означена означити означени означила означене означили означите означимо означим означе означило означиш означиће
+66	3366	sirota	siroti sirota siroto sirotu sirote sirotom сироти сирота сирото сироту сироте сиротом
+67	3367	santa	santa санта
+68	3368	ženiti	ženim ženiš ženio ženiti žene ženite ženimo ženili ženjen ženi женим жене жени жениш женио женити жените женимо женили жењен
+69	3369	biološki	biološki biološka biološke biološko biološkog biološku biološkom biološkim bioloških biološkoj биолошки биолошка биолошке биолошко биолошког биолошку биолошком биолошким биолошких биолошкој
+70	3370	njemački	njemački njemačke njemačka njemačkoj njemačku njemačkom njemačkog njemačkih njemačkim njemačko њемачки њемачке њемачка њемачкој њемачку њемачком њемачког њемачких њемачким њемачко
+71	3371	zavesa	zavese zavesa zavesu zavesama завесе завеса zavesom zavesi завесу завесама завесом завеси
+72	3372	titula	titulu titula titule titulom tituli титулу titulama титуле титула титулом титули титулама
+73	3373	funkcija	funkcije funkcija funkciju funkciji funkcijama функције функција funkcijom функцију функцији функцијама функцијом
+74	3374	preporuka	preporuke preporuku preporuka preporuci preporukama preporukom препоруке препоруку препорука препоруци препорукама препоруком
+75	3375	istovremeno	istovremeno истовремено
+76	3376	zateći	zatekao zatekla zatekli zateći zateknem zatekne zatečena zateknu zatečeni zatekneš zateklo zateknemo zateknete затекао затекла затекли затећи затекнем затекне затечена затекну затечени затекнеш затекло затекнемо затекнете
+77	3377	prepreka	prepreka prepreke prepreku preprekama препрека preprekom prepreci препреке препреку препрекама препреком препреци
+78	3378	pojačanje	pojačanje појачање
+79	3379	kletva	kletva kletvu kletve kletvom kletvi клетва клетву kletvama клетве клетвом клетви клетвама
+80	3380	pravilan	pravilno pravilan правилно pravilna pravilnu pravilnim pravilne pravilnom pravilnog pravilni pravilnoj правилан правилна правилну правилним правилне правилном правилног правилни правилној
+81	3381	strela	strela strele strelu strelom strelama streli стреле стрела strelo стрелу стрелом стрелама стрели стрело
+82	3382	nadimak	nadimak nadimke nadimkom nadimci nadimaka nadimka nadimku надимак nadimcima надимке надимком надимци надимака надимка надимку надимцима
+83	3383	pregovor	pregovore pregovori pregovora pregovorima pregovor преговоре преговора преговорима преговори преговор
+84	3384	magarac	magarac magarca magarče magarci magarcu magarce magarcem magaraca magarcima магарац магарца магарче магарци магарцу магарце магарцем магараца магарцима
+85	3385	žalba	žalbu žalbe žalbi žalba žalbama žalbom жалбе жалбу жалба жалби жалбама жалбом
+86	3386	napredan	napredna napredni napredne napredno napredan naprednu napredniji naprednog naprednim naprednih naprednom naprednije naprednija najnapredniji naprednoj najnaprednija najnaprednije najnaprednijih napredniju напредна напредни напредне напредно напредан напредну напреднији напредног напредним напредних напредном напредније напреднија најнапреднији напредној најнапреднија најнапредније најнапреднијих напреднију
+87	3387	eksperiment	eksperiment експеримент
+88	3388	značenje	značenje značenja značenju значење značenjem значења значењу значењем
+89	3389	dragulj	dragulj dragulje dragulja dragulji draguljima драгуљ dragulju draguljem драгуље драгуља драгуљи драгуљима драгуљу драгуљем
+90	3390	međuvrijeme	međuvremenu међувремену
+91	3391	međuvreme	međuvremenu међувремену
+92	3392	automatski	automatski automatsko automatska automatske automatskim automatskog automatsku automatskom automatskih аутоматски automatskoj аутоматско аутоматска аутоматске аутоматским аутоматског аутоматску аутоматском аутоматских аутоматској
+93	3393	smjestiti	smjestiti smjestio smjestili smjesti smjestila smjestite smješten smjestimo smještena smjestim smjestiš smješteni smješteno smjeste smještene смјестити смјестио смјестили смјести смјестила смјестите смјештен смјестимо смјештена смјестим смјестиш смјештени смјештено смјесте смјештене
+94	3394	unuk	unuk unuče unucima unuke unuku unuci unukom унук unučeta унуци унуку унуке унуче унуцима унуком унучета
+95	3395	tašna	tašnu tašni tašna tašne tašnom tašnama ташна ташну ташни ташне ташном ташнама
+96	3396	komandir	komandir komandire komandira komandiru командире komandirom komandiri командир komandirima командира командиру командиром командири командирима
+97	3397	modrica	modrice modrica modricu modricama modricom модрица модрице модрицу модрицама модрицом
+98	3398	ritual	ritual rituala rituale rituali ritualima ritualu ritualom ритуал ритуала ритуале ритуали ритуалима ритуалу ритуалом
+99	3399	stub	stub stuba stube stubova stubama stubovi stubove stubu stubovima stubom стуб стуба стубе стубова стубама стубови стубове стубу стубовима стубом
+100	3400	nevinost	nevinost nevinosti невиност nevinošću невиности невиношћу

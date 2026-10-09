@@ -1,0 +1,100 @@
+1	8701	delati	delano delamo delati delaš delam delaju delao delanje dela дела делано деламо делати делаш делам делају делао делање
+2	8702	šrafciger	šrafciger šrafcigerom šrafcigera шрафцигер шрафцигером шрафцигера
+3	8703	postavka	postavke postavka postavku postavci поставке поставка поставку поставци
+4	8704	izjutra	izjutra изјутра
+5	8705	raport	raport рапорт
+6	8706	odužiti	odužiti одужити
+7	8707	streljivo	streljivo streljiva streljivom стрељиво стрељива стрељивом
+8	8708	mormon	mormoni mormon mormona mormone mormonima мормони мормон мормона мормоне мормонима
+9	8709	neslužbeno	neslužbeno неслужбено
+10	8710	klozet	klozet клозет
+11	8711	željezo	željeza željezo željezom жељеза жељезо жељезом
+12	8712	grafit	grafite grafita grafit графите графита графит
+13	8713	klimav	klimav klimavo klimava klimave klimavim klimavi климав климаво климава климаве климавим климави
+14	8714	skoč	skoč skoča skoče скоч скоча скоче
+15	8715	kazaljka	kazaljke kazaljka kazaljku kazaljki казаљке казаљка казаљку казаљки
+16	8716	talisman	talisman talismana талисман talismane talismani талисмана талисмане талисмани
+17	8717	umarati	umara umaram umaraju umaraš umarati umarate умара умарам умарају умараш умарати умарате
+18	8718	nesvesno	nesvesno несвесно
+19	8719	divljač	divljač divljači дивљач дивљачи
+20	8720	grubijan	grubijan grubijana grubijani grubijane grubijanu грубијан грубијана грубијани грубијане грубијану
+21	8721	vitak	vitka vitak vitki vitke vitko витка витак витки витке витко
+22	8722	ratnički	ratnički ratničke ratnička ratničku ratničkom ratničko ratničkim ratničkoj ратнички ратничке ратничка ратничку ратничком ратничко ратничким ратничкој
+23	8723	prazniti	pražnjenje prazniš praznio prazniti praznili praznimo prazne prazni praznim празне празни пражњење празниш празнио празнити празнили празнимо празним
+24	8724	kanarinac	kanarinac kanarinca kanarinci kanarince канаринац канаринца канаринци канаринце
+25	8725	atletski	atletski atletske atletsko atletska atletskog atletskom atletskim atletsku атлетски атлетске атлетско атлетска атлетског атлетском атлетским атлетску
+26	8726	obostrano	obostrano обострано
+27	8727	bezbrižan	bezbrižan bezbrižni bezbrižna bezbrižne bezbrižnog безбрижан безбрижни безбрижна безбрижне безбрижног
+28	8728	gmizavac	gmizavci gmizavac gmizavaca gmizavca gmizavce gmizavče гмизавци гмизавац гмизаваца гмизавца гмизавце гмизавче
+29	8729	tuka	tuka tuku tuki tuko туку тука туки туко
+30	8730	iskaznica	iskaznicu iskaznica iskaznice исказницу исказница исказнице
+31	8731	asocijacija	asocijacije asocijacija asocijaciju asocijaciji асоцијације асоцијација асоцијацију асоцијацији
+32	8732	tisak	tisak tisku tiska тисак тиску тиска
+33	8733	brigada	brigada бригада
+34	8734	razlaz	razlaz razlaza разлаз разлаза
+35	8735	pašteta	pašteta paštetu paštete paštetom паштета паштету паштете паштетом
+36	8736	bdeti	bdenje bdi bdeti бдење бди бдети
+37	8737	siliti	siliti sile siliš silim silio silite sili силе силити силиш силим силио силите сили
+38	8738	nezaposlenost	nezaposlenost nezaposlenosti nezaposlenošću незапосленост незапослености незапосленошћу
+39	8739	branitelj	branitelj branitelja branitelji branitelju branitelje бранитељ бранитеља бранитељи бранитељу бранитеље
+40	8740	sportaš	sportaš sportaši sportaša sportaše sportašima sportašu спорташ спорташи спорташа спорташе спорташима спорташу
+41	8741	ideologija	ideologija ideologije ideologiju ideologiji ideologijom идеологија идеологије идеологију идеологији идеологијом
+42	8742	prepoznatljiv	prepoznatljiv prepoznatljivo prepoznatljiva prepoznatljivi prepoznatljive prepoznatljivu prepoznatljivog prepoznatljivih препознатљив препознатљиво препознатљива препознатљиви препознатљиве препознатљиву препознатљивог препознатљивих
+43	8743	utovariti	utovarite utovarimo utovarili utovariti utovaren utovareno utovarim utovario utovari utovare утоварите утоваримо утоварили утоварити утоварен утоварено утоварим утоварио утовари утоваре
+44	8744	efektivan	efektivno efektivan efektivna efektivnije efektivni ефективно ефективан ефективна ефективније ефективни
+45	8745	mig	mig miga migove миг мига мигове
+46	8746	holokaust	holokaust holokausta holokaustu холокауст холокауста холокаусту
+47	8747	patriotski	patriotski patriotska patriotskog patriotske patriotsku patriotskim patriotskom patriotsko патриотски патриотска патриотског патриотске патриотску патриотским патриотском патриотско
+48	8748	mahovina	mahovina mahovine mahovinu mahovinom маховина маховине маховину маховином
+49	8749	akvarijum	akvarijum акваријум
+50	8750	trojstvo	trojstva trojstvo trojstvu тројства тројство тројству
+51	8751	spirala	spirala spirale spiralu spirali спирала спирале спиралу спирали
+52	8752	insulin	insulin insulina инсулина инсулин
+53	8753	hvatač	hvatač hvatača hvatači hvatače hvataču хватач хватача хватачи хватаче хватачу
+54	8754	nemar	nemar nemara nemarom nemaru немар немара немаром немару
+55	8755	pijanstvo	pijanstvo pijanstva pijanstvu пијанство пијанства пијанству
+56	8756	potpukovnik	potpukovnik potpukovniče potpukovnika потпуковник потпуковниче потпуковника
+57	8757	ljudožder	ljudožder ljudožderi ljudoždera ljudoždere ljudožderima људождер људождери људождера људождере људождерима
+58	8758	zakočiti	zakoči zakočio zakočen zakočim zakočeno zakočite zakočiti zakočila zakočiš закочи закочио закочен закочим закочено закочите закочити закочила закочиш
+59	8759	šarmirati	šarmirati šarmiraš šarmirao šarmira šarmiram šarmiraj šarmirala шармирати шармираш шармирао шармира шармирам шармирај шармирала
+60	8760	siječanj	siječnja siječnju siječanj сијечња сијечњу сијечањ
+61	8761	enciklopedija	enciklopedija enciklopedije enciklopediju enciklopediji енциклопедија енциклопедије енциклопедију енциклопедији
+62	8762	etnički	etnički etničke etničkih etničko etnička etničkog etničku etničkim етнички етничке етничких етничко етничка етничког етничку етничким
+63	8763	infrastruktura	infrastrukturu infrastrukture infrastruktura infrastrukturi инфраструктуру инфраструктуре инфраструктура инфраструктури
+64	8764	otrcano	otrcano отрцано
+65	8765	kopito	kopita kopito kopitima kopitom копита копито копитима копитом
+66	8766	osvetoljubiv	osvetoljubiv osvetoljubiva osvetoljubivi osvetoljubivo osvetoljubivog osvetoljubive осветољубив осветољубива осветољубиви осветољубиво осветољубивог осветољубиве
+67	8767	odlikovanje	odlikovanje odlikovanja odlikovanjima одликовање одликовања одликовањима
+68	8768	ograditi	ograde ograditi ograđen ograđeni ograđeno ogradio ogradite ogradili ogradila ograđena ogradimo ogradi ограде оградити ограђен ограђени ограђено оградио оградите оградили оградила ограђена оградимо огради
+69	8769	uskrsnuće	uskrsnuće uskrsnuća uskrsnuću ускрснуће ускрснућа ускрснућу
+70	8770	mleti	mleveno melje mlevenje melješ mlevena mlevene melju meljem mleveni млевено меље млевење мељеш млевена млевене мељу мељем млевени
+71	8771	inat	inat inata инат ината
+72	8772	sutrašnjica	sutrašnjice sutrašnjica sutrašnjicu sutrašnjici сутрашњице сутрашњица сутрашњицу сутрашњици
+73	8773	hebrejski	hebrejski hebrejskom hebrejskog hebrejske hebrejska hebrejsko хебрејски хебрејском хебрејског хебрејске хебрејска хебрејско
+74	8774	tabela	tabele tabelu tabeli tabela табеле табелу табели табела
+75	8775	starina	starina starine starino starinama starinu старина старине старино старинама старину
+76	8776	fašistički	fašističke fašistički fašistička fašističkim fašističkog fašističko fašističku fašističkih fašističkoj фашистичке фашистички фашистичка фашистичким фашистичког фашистичко фашистичку фашистичких фашистичкој
+77	8777	murija	murija мурија
+78	8778	akord	akord akorda akorde akordi акорд акорда акорде акорди
+79	8779	premlatiti	premlatio premlatim premlatiti premlatili premlati premlaćen premlatimo premlatiću premlate премлатио премлатим премлатити премлатили премлати премлаћен премлатимо премлатићу премлате
+80	8780	oduševljenje	oduševljenje oduševljenjem oduševljenja одушевљење одушевљењем одушевљења
+81	8781	dremnuti	dremnem dremneš dremnuo dremne dremnemo dremnula dremnuti дремнем дремнеш дремнуо дремне дремнемо дремнула дремнути
+82	8782	uspostavljati	uspostavljanje uspostavlja uspostavljamo uspostavljaju uspostavljam uspostavljati успостављање успоставља успостављамо успостављају успостављам успостављати
+83	8783	glazbenik	glazbenik glazbenici glazbenika glazbenike glazbenicima глазбеник глазбеници глазбеника глазбенике глазбеницима
+84	8784	izvesno	izvesno извесно
+85	8785	ateist	ateista ateist ateisti ateistu атеиста атеист атеисти атеисту
+86	8786	solidarnost	solidarnost solidarnosti солидарност солидарности
+87	8787	rvač	rvač rvača rvači rvače рвач рвача рвачи рваче
+88	8788	proljetni	proljetni proljetne proljetno proljetna proljetnu proljetnih proljetnog прољетни прољетне прољетно прољетна прољетну прољетних прољетног
+89	8789	spol	spol spola spolova spolu спол спола сполова сполу
+90	8790	naglašavati	naglašava naglašavam naglašavati naglašavaju naglašavaš naglašavao наглашава наглашавам наглашавати наглашавају наглашаваш наглашавао
+91	8791	brazda	brazde brazdi brazdu brazda бразде бразди бразду бразда
+92	8792	posetnica	posetnicu posetnica posetnice posetnici посетницу посетница посетнице посетници
+93	8793	hrvati	hrvanje hrvati hrvao hrvali hrvate хрвање хрвати хрвао хрвали хрвате
+94	8794	vegetacija	vegetacije vegetacija vegetaciju vegetacijom vegetaciji вегетације вегетација вегетацију вегетацијом вегетацији
+95	8795	željeznički	željezničke željezničkoj željeznička željezničku željeznički željezničkom željezničkog жељезничке жељезничкој жељезничка жељезничку жељезнички жељезничком жељезничког
+96	8796	uposliti	uposlio uposliti uposli uposlili uposlila uposlim uposlimo uposliš uposlen uposleni упослио упослити упосли упослили упослила упослим упослимо упослиш упослен упослени
+97	8797	južnjak	južnjaci južnjak južnjaka južnjake južnjacima јужњаци јужњак јужњака јужњаке јужњацима
+98	8798	druželjubiv	druželjubiv druželjubiva druželjubivi druželjubivo дружељубив дружељубива дружељубиви дружељубиво
+99	8799	guša	gušu guši guše guša гуши гушу гуше гуша
+100	8800	vestern	vestern vesterna vesterne vesternu вестерн вестерна вестерне вестерну

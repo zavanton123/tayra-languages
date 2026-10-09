@@ -1,0 +1,100 @@
+1	9401	ljubičica	ljubičice ljubičica љубичице љубичица
+2	9402	pronalazač	pronalazač pronalazača pronalazači проналазач проналазача проналазачи
+3	9403	oganj	oganj ognja ognjem ognju огањ огња огњем огњу
+4	9404	ljepljiv	ljepljiva ljepljive ljepljivo ljepljivu ljepljiv ljepljivi ljepljivom љепљива љепљиве љепљиво љепљиву љепљив љепљиви љепљивом
+5	9405	krivokletstvo	krivokletstvo krivokletstva кривоклетство кривоклетства
+6	9406	stanovište	stanovišta stanovište становишта становиште
+7	9407	leća	leće leća leću леће лећа лећу
+8	9408	tam	tam там
+9	9409	mješavina	mješavina mješavinu mješavine мјешавина мјешавину мјешавине
+10	9410	šizofrenija	šizofrenija šizofrenije šizofreniju шизофренија шизофреније шизофренију
+11	9411	чиме	чиме
+12	9412	islednik	islednik иследник
+13	9413	staklenik	stakleniku staklenik staklenika стакленику стакленик стакленика
+14	9414	brisač	brisač brisače brisači brisača brisačima брисач брисаче брисачи брисача брисачима
+15	9415	utrnuo	utrnula utrnule utrnulo utrnuo utrnuli утрнула утрнуле утрнуло утрнуо утрнули
+16	9416	brojač	brojač brojača brojaču brojači бројач бројача бројачу бројачи
+17	9417	koljač	koljač koljača koljači koljaču кољач кољача кољачи кољачу
+18	9418	energičan	energičan energična energični energične energičnije energičniji енергичан енергична енергични енергичне енергичније енергичнији
+19	9419	uzajamno	uzajamno узајамно
+20	9420	odlomak	odlomak odlomke odlomaka odlomka odlomci одломак одломке одломака одломка одломци
+21	9421	krajolik	krajolik krajoliku krajolika krajolikom крајолик крајолику крајолика крајоликом
+22	9422	rafinerija	rafinerije rafinerija rafineriju rafineriji рафинерије рафинерија рафинерију рафинерији
+23	9423	nedostižan	nedostižna nedostižan nedostižno nedostižne nedostižni nedostižnu недостижна недостижан недостижно недостижне недостижни недостижну
+24	9424	naslutiti	naslutiti naslutio nasluti naslutim naslutila naslutili naslutiš наслутити наслутио наслути наслутим наслутила наслутили наслутиш
+25	9425	secirati	seciranje secirati secirao secira secirali secirala seciram seciramo сецирање сецирати сецирао сецира сецирали сецирала сецирам сецирамо
+26	9426	nakupiti	nakupilo nakupi nakupio nakupila nakupili nakupiti накупило накупи накупио накупила накупили накупити
+27	9427	safir	safir safira safiri safire сафир сафира сафири сафире
+28	9428	telegraf	telegraf telegrafa telegrafom telegrafu телеграф телеграфа телеграфом телеграфу
+29	9429	sob	sobu sob sobe sobovi sobove собу собе соб собови собове
+30	9430	vreti	vrio vri vreću vrele врећу vreće вреће vreli vrela vrući врела врио ври вреле врели врући
+31	9431	bujica	bujica bujice bujicu bujici бујица бујице бујицу бујици
+32	9432	šlic	šlic šlica шлиц шлица
+33	9433	treptaj	treptaj treptaju treptaja трептај трептају трептаја
+34	9434	malj	malj maljem malja маљ маљем маља
+35	9435	umetnuti	umete umetnuti umetni umetnuo umetnuta umetne умете уметнути уметни уметнуо уметнута уметне
+36	9436	kami	kami ками
+37	9437	autentičnost	autentičnost autentičnosti аутентичност аутентичности
+38	9438	sletjeti	sletjeti слетјети
+39	9439	taliti	tali tale тали тале
+40	9440	posjetnica	posjetnicu posjetnica posjetnice посјетницу посјетница посјетнице
+41	9441	tetiva	tetive tetivu tetiva тетиве тетиву тетива
+42	9442	potpetica	potpetice potpeticama potpetica potpeticom потпетице потпетицама потпетица потпетицом
+43	9443	aristokrat	aristokrata aristokrate aristokrati aristokrat аристократа аристократе аристократи аристократ
+44	9444	zečji	zečju zečja zečje zečji zečjoj зечју зечја зечје зечји зечјој
+45	9445	gorčina	gorčine gorčinu gorčina gorčinom горчине горчину горчина горчином
+46	9446	medvedić	medvedića medvediću medvedić medvedići medvediće медведића медведићу медведић медведићи медведиће
+47	9447	popreko	popreko попреко
+48	9448	beskonačnost	beskonačnosti beskonačnost бесконачности бесконачност
+49	9449	žiri	žiri žirija žiriju жири жирија жирију
+50	9450	vegetarijanski	vegetarijanski vegetarijanska vegetarijansku vegetarijanske vegetarijansko вегетаријански вегетаријанска вегетаријанску вегетаријанске вегетаријанско
+51	9451	šaržer	šaržer šaržera šaržeru шаржер шаржера шаржеру
+52	9452	izumirati	izumiranje izumire izumiru изумирање изумире изумиру
+53	9453	glista	gliste glista glistu glistama глисте глиста глисту глистама
+54	9454	priseban	priseban prisebna prisebni присебан присебна присебни
+55	9455	specifično	specifično специфично
+56	9456	atlas	atlas atlasa atlase atlasu атлас атласа атласе атласу
+57	9457	tačnost	tačnost tačnosti tačnošću тачност тачности тачношћу
+58	9458	zrcalo	zrcalo zrcala zrcalu зрцало зрцала зрцалу
+59	9459	kripta	kripte kripti kriptu kripta крипте крипти крипту крипта
+60	9460	intenzivno	intenzivno интензивно
+61	9461	jajce	jajca jajce јајца јајце
+62	9462	hunta	hunta hunte huntu huntom хунта хунте хунту хунтом
+63	9463	ukrašavati	ukrašavanje ukrašavaju ukrašava ukrašavati ukrašavamo ukrašavala ukrašavali ukrašavam ukrašavaš украшавање украшавају украшава украшавати украшавамо украшавала украшавали украшавам украшаваш
+64	9464	ded	ded деде деду dedovi деди dedova дедом dede dedu dedi dedom дед дедови дедова
+65	9465	neriješen	neriješeno neriješenih neriješeni neriješena neriješen neriješene неријешено неријешених неријешени неријешена неријешен неријешене
+66	9466	bogac	bokca бокца
+67	9467	dren	dren дрен
+68	9468	flert	flert flerta флерт флерта
+69	9469	brodogradilište	brodogradilište brodogradilišta brodogradilištu бродоградилиште бродоградилишта бродоградилишту
+70	9470	prenosiv	prenosivi prenosive prenosiva prenosiv prenosivih prenosivu prenosivo преносиви преносиве преносива преносив преносивих преносиву преносиво
+71	9471	bljuvati	bljuje bljuju bljuvanje bljuvati bljuvao bljuvala бљује бљују бљување бљувати бљувао бљувала
+72	9472	stabljika	stabljike stabljika stabljiku stabljici стабљике стабљика стабљику стабљици
+73	9473	plankton	plankton planktona planktone planktonu planktonom планктон планктона планктоне планктону планктоном
+74	9474	menopauza	menopauza menopauzu menopauzi menopauze менопауза менопаузу менопаузи менопаузе
+75	9475	samokontrola	samokontrolu samokontrole samokontrola samokontroli самоконтролу самоконтроле самоконтрола самоконтроли
+76	9476	neodređeno	neodređeno неодређено
+77	9477	globus	globus globusa globusu глобус глобуса глобусу
+78	9478	beneficija	beneficije beneficija beneficijama бенефиције бенефиција бенефицијама
+79	9479	batak	batak batake bataci bataka батак батаке батаци батака
+80	9480	izmjena	izmjene izmjena izmjenu izmjeni измјене измјена измјену измјени
+81	9481	gledatelj	gledatelja gledatelji gledatelje gledateljima gledatelj гледатеља гледатељи гледатеље гледатељима гледатељ
+82	9482	bockati	bocka bockanje bockaju bockao bockaš bockam bockati bockali боцка боцкање боцкају боцкао боцкаш боцкам боцкати боцкали
+83	9483	crveniti	crvenilo црвени crvenila crveniš црвене црвеним crveni crvene crvenim црвенило црвенила црвениш
+84	9484	skeč	skeč скеч
+85	9485	seka	seka сека
+86	9486	nadesno	nadesno надесно
+87	9487	nemogućnost	nemogućnost nemogućnosti немогућност немогућности
+88	9488	pora	pore pora poru поре пора пору
+89	9489	neurolog	neurolog neurologa neurolozi неуролог неуролога неуролози
+90	9490	usputan	usputna usputno usputni usputne usputnih usputnu успутна успутно успутни успутне успутних успутну
+91	9491	sjenka	sjenka sjenke sjenku sjenci sjenkama сјенка сјенке сјенку сјенци сјенкама
+92	9492	neprofesionalno	neprofesionalno непрофесионално
+93	9493	vetrovit	vetrovito vetroviti vetrovit vetrovitom vetrovita vetrovite ветровито ветровити ветровит ветровитом ветровита ветровите
+94	9494	bilježnica	bilježnicu bilježnica bilježnice bilježnici биљежницу биљежница биљежнице биљежници
+95	9495	ambijent	ambijent ambijentu ambijenta амбијент амбијенту амбијента
+96	9496	pelikan	pelikan pelikana pelikani pelikane пеликан пеликана пеликани пеликане
+97	9497	odmoran	odmoran odmorni odmorno odmorna odmorne одморан одморни одморно одморна одморне
+98	9498	branik	branik браник
+99	9499	ađutant	ađutante ađutant ađutanta ађутанте ађутант ађутанта
+100	9500	šerpa	šerpe šerpu šerpa šerpi шерпе шерпу шерпа шерпи

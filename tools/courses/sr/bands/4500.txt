@@ -1,0 +1,100 @@
+1	4401	rezervacija	rezervaciju rezervacije rezervacija rezervacijama rezervaciji rezervacijom резервацију резервације резервација резервацијама резервацији резервацијом
+2	4402	fioka	fioci fioku fioke fioka fiokama fijoka фиоци фиоку фиоке фиока фиокама фијока
+3	4403	poklopac	poklopac poklopca poklopce poklopcu поклопац poklopcem poklopci poklopcima poklopaca поклопца поклопце поклопцу поклопцем поклопци поклопцима поклопаца
+4	4404	ruševina	ruševine ruševinama ruševina ruševinu ruševini рушевина рушевинама рушевине рушевину рушевини
+5	4405	bala	balu bala bale bali balo balama balom балу бала бале бали бало балама балом
+6	4406	barut	baruta barut barutom барут барута barutu барутом баруту
+7	4407	škoditi	škodi škoditi škodilo škode škodila škodio шкоди шкодити шкодило шкоде шкодила шкодио
+8	4408	marihuana	marihuane marihuanu marihuana marihuanom marihuani марихуане марихуану марихуана марихуаном марихуани
+9	4409	režiser	režiser režisera režiseru režiserom režiseri režisere režiserima режисер режисера режисеру режисером режисери режисере режисерима
+10	4410	razumno	razumno разумно
+11	4411	ekspedicija	ekspedicije ekspediciju ekspedicija ekspediciji ekspedicijom ekspedicijama експедиције експедицију експедиција експедицији експедицијом експедицијама
+12	4412	tipičan	tipičan tipična tipični tipične tipičnog tipičnom tipičnu tipičnim tipičnih типичан типична типични типичне типичног типичном типичну типичним типичних
+13	4413	početni	početni početna početnu početne početnog početno početnoj početnom početnih početnim почетна почетни почетну почетне почетног почетно почетној почетном почетних почетним
+14	4414	pesnica	pesnice pesnicu pesnica pesnicom pesnicama pesnici песнице песницу песница песницом песницама песници
+15	4415	sadašnjost	sadašnjost sadašnjosti садашњост sadašnjošću садашњости садашњошћу
+16	4416	seoski	seoski seoska seoske seoskom seoskog seosku seoskoj seoskim seoskih seosko сеоски сеоска сеоске сеоском сеоског сеоску сеоској сеоским сеоских сеоско
+17	4417	zaraza	zaraze zaraza zarazu zarazi zarazom заразе зараза заразу зарази заразом
+18	4418	opravdanje	opravdanje opravdanja оправдање оправдања
+19	4419	titl	titl titlovi titla titlove титлови title titlova титл titlovima титла титлове титле титлова титловима
+20	4420	faktor	faktor faktora faktori faktore faktorom фактор faktoru faktorima фактора фактори факторе фактором фактору факторима
+21	4421	grliti	grli grlim grliš grliti grlio grljenje grlimo grlili grlila grlite grleći грли grliću грлим грлиш грлити грлио грљење грлимо грлили грлила грлите грлећи грлићу
+22	4422	svećenik	svećenik svećenika svećenici svećeniku svećeniče svećenikom svećenike svećenicima свећеник свећеника свећеници свећенику свећениче свећеником свећенике свећеницима
+23	4423	presto	presto prestola prestolu престо prestolom престола престолу престолом
+24	4424	argument	argument argumente argumenti argumenata argumentima argumenta аргумент argumentom аргументе аргументи аргумената аргументима аргумента аргументом
+25	4425	slavlje	slavlje slavlja slavlju slavljem славље славља слављу слављем
+26	4426	era	ere era eri eru ero ере erom ера ери еру еро ером
+27	4427	monitor	monitor monitoru monitora monitore monitori monitorima монитор monitorom монитору монитора мониторе монитори мониторима монитором
+28	4428	inostranstvo	inostranstvu inostranstvo inostranstva иностранству inostranstvom иностранство иностранства иностранством
+29	4429	div	div diva dive divovi divova divu divove divovima divom див дива диве дивови дивова диву дивове дивовима дивом
+30	4430	globalan	globalnog globalna globalni globalne globalnom globalnu globalnoj globalnim globalnih глобалног глобална глобални глобалне глобалном глобалну глобалној глобалним глобалних
+31	4431	predaja	predaje predaja predaji predaju предаје predajom предаја предају предаји предајом
+32	4432	ocean	ocean oceana oceanu oceanima oceane oceani oceanom oceanski оцеан оцеана оцеану оцеанима оцеане оцеани оцеаном оцеански
+33	4433	besmislica	besmislica besmislice besmislicama besmislicu бесмислица besmislicom бесмислице бесмислицама бесмислицу бесмислицом
+34	4434	bolesnik	bolesnik bolesnika bolesnici bolesnike bolesniku bolesnicima bolesniče bolesnikom болесник болесника болесници болеснике болеснику болесницима болесниче болесником
+35	4435	sjeverni	sjevernoj sjeverni sjeverne sjevernom sjeverna sjevernog sjevernu sjevernije sjevernim sjevernih сјеверној сјеверни сјеверне сјеверном сјеверна сјеверног сјеверну сјеверније сјеверним сјеверних
+36	4436	planinski	planinski planinske planinskog planinska planinskim planinskom planinskih planinskoj planinsku planinsko планински планинске планинског планинска планинским планинском планинских планинској планинску планинско
+37	4437	bira	bira бира
+38	4438	obožavatelj	obožavatelj obožavatelja obožavatelji obožavatelje obožavateljima обожаватељ обожаватеља обожаватељи обожаватеље обожаватељима
+39	4439	uzbuditi	uzbudio uzbudi uzbudila uzbuditi uzbudim uzbudilo uzbudiš uzbudili uzbude uzbudite узбудио узбуди узбудила узбудити узбудим узбудило узбудиш узбудили узбуде узбудите
+40	4440	leniti	leni lene лени лене
+41	4441	reagirati	reagira reagirati reagirao reagiraju reagirala reagirali reagiraš reagiram reagiramo reagirate реагира реагирати реагирао реагирају реагирала реагирали реагираш реагирам реагирамо реагирате
+42	4442	delta	delta delte delti deltu делта делте делти делту
+43	4443	brana	brani brana branu brane branom брани бране брана брану браном
+44	4444	kej	kej keja keju кеј кеја кеју
+45	4445	gospodarica	gospodarice gospodarica gospodaricu gospodarici господарице gospodaricom господарица господарицу господарици господарицом
+46	4446	brojan	brojne brojnim brojni brojnih brojna brojniji бројне brojnu brojnije бројним бројни бројних бројна бројнији бројну бројније
+47	4447	pomoćnica	pomoćnica pomoćnicu pomoćnice pomoćnicom pomoćnici помоћница помоћницу помоћнице помоћницом помоћници
+48	4448	lane	lane лане
+49	4449	kandža	kandže kandžama kandži kandža kandžu канџе kandžom канџа kandžo канџама канџи канџу канџом канџо
+50	4450	sedativ	sedativ sedativima sedative sedativa sedativi sedativom седатив седативима седативе седатива седативи седативом
+51	4451	široko	široko široka široke široki široku širokom широко широка широке широки широку широком
+52	4452	pomoćni	pomoćni pomoćne pomoćna pomoćno pomoćnog pomoćnu pomoćnim pomoćnih pomoćnom pomoćnoj помоћни помоћне помоћна помоћно помоћног помоћну помоћним помоћних помоћном помоћној
+53	4453	bočica	bočicu bočica bočice bočici bočicom bočicama бочицу бочица бочице бочици бочицом бочицама
+54	4454	pak	pak pače paka пак paku pakom паче пака паку паком
+55	4455	ris	ris risa rise рис risu risom risovi риса рисе рису рисом рисови
+56	4456	kupanje	kupanje купање
+57	4457	kurir	kurir kurira kuriru kuriri kurire kurirom kuririma курир курира куриру курири курире куриром куририма
+58	4458	iščupati	iščupati iščupao iščupam iščupaću iščupala iščupa iščupali iščupaš iščupaj iščupana iščupamo iščupano iščupan iščupaju iščupaće iščupane iščupani ишчупати ишчупао ишчупам ишчупаћу ишчупала ишчупа ишчупали ишчупаш ишчупај ишчупана ишчупамо ишчупано ишчупан ишчупају ишчупаће ишчупане ишчупани
+59	4459	podrazumevati	podrazumeva podrazumevaš podrazumevalo podrazumevate podrazumevaju подразумева podrazumevam podrazumevao подразумеваш подразумевало подразумевате подразумевају подразумевам подразумевао
+60	4460	paradajz	paradajz paradajza paradajzom paradajzu парадајз paradajzi парадајза парадајзом парадајзу парадајзи
+61	4461	bijeg	bijeg bijegu bijega bijegom бијег бијегу бијега бијегом
+62	4462	fuj	fuj фуј
+63	4463	intiman	intimni intimne intimna intiman intimnim intimnije intimnu intimnih intimnom najintimnije intimnoj intimniji intimnog intimnija najintimniji интимни интимне интимна интиман интимним интимније интимну интимних интимном најинтимније интимној интимнији интимног интимнија најинтимнији
+64	4464	besmrtan	besmrtan besmrtni besmrtna besmrtnim besmrtne besmrtnu besmrtnog besmrtno besmrtnom besmrtnih бесмртан бесмртни бесмртна бесмртним бесмртне бесмртну бесмртног бесмртно бесмртном бесмртних
+65	4465	prevrnuti	prevrnuo prevrnuti prevrnula prevrnuli prevrne prevrni prevrnut prevrnem prevrneš prevrnite prevrnu prevrnuta prevrnemo prevrnućemo prevrnuću prevrnuće prevrnulo prevrnute преврнуо преврнути преврнула преврнули преврне преврни преврнут преврнем преврнеш преврните преврну преврнута преврнемо преврнућемо преврнућу преврнуће преврнуло преврнуте
+66	4466	derište	derište derišta дериште derištem derištu derištima деришта дериштем деришту дериштима
+67	4467	patika	patike patika patikama patiku патике patici патика патикама патику патици
+68	4468	kružiti	kruži kružiti kružimo kružio kružile kružili kruženje kružim kružila kružiš kružite kružeći кружи круже kružiće kruže кружити кружимо кружио кружиле кружили кружење кружим кружила кружиш кружите кружећи кружиће
+69	4469	dobrobit	dobrobit dobrobiti добробит добробити
+70	4470	poleteti	poleti poleteo poleteti poleteli poletimo poletela polete poletim poletiš poletite poleteće poletele полетео полети полетети полетели полетимо полетела полете полетим полетиш полетите полетеће полетеле
+71	4471	trgovati	trguje trguju trgovati trgujem trgovanje trgujemo trgovao trguješ trgovali trgujete trgujući trgovala тргује тргују трговати тргујем трговање тргујемо трговао тргујеш трговали тргујете тргујући трговала
+72	4472	њу	њу
+73	4473	omesti	ometati omesti ometen omeo omete omelo ometena omela omeli ometeni ometu ometem ometeš ometi ometeno ометати омести ометен омео омете омело ометена омела омели ометени омету ометем ометеш омети ометено
+74	4474	hod	hoda hod hodu hodom хода ход ходу ходом
+75	4475	pribor	pribor pribora priborom priboru прибор прибора прибором прибору
+76	4476	finansije	finansije finansija finansijama финансије финансија финансијама
+77	4477	lupa	lupa lupi lupe lupo lupu lupom лупа лупи лупе лупо лупу лупом
+78	4478	evolucija	evolucije evolucija evoluciju evoluciji evolucijom еволуције еволуција еволуцију еволуцији еволуцијом
+79	4479	oklevati	oklevao oklevati oklevajte oklevanje okleva oklevaš oklevala oklevaj oklevam oklevali oklevate oklevaju oklevamo оклевао оклевати оклевајте оклевање оклева оклеваш оклевала оклевај оклевам оклевали оклевате оклевају оклевамо
+80	4480	sponzor	sponzor sponzora sponzori sponzore sponzorima sponzorom sponzoru спонзор спонзора спонзори спонзоре спонзорима спонзором спонзору
+81	4481	naselje	naselje naselja naselju naseljima насеље насеља насељу насељима
+82	4482	ćebe	ćebe ćebetom ćebeta ćebence ћебе ćebetu ћебетом ћебета ћебенце ћебету
+83	4483	klopa	klopu klopa klope klopom klopi клопу клопа клопе клопом клопи
+84	4484	otmičar	otmičar otmičara otmičari otmičarima otmičare otmičaru отмичари отмичар отмичара отмичарима отмичаре отмичару
+85	4485	biser	biser bisere biseri bisera biserima biseru бисере biserom бисер бисери бисера бисерима бисеру бисером
+86	4486	logično	logično логично
+87	4487	ukupno	ukupno укупно
+88	4488	propadati	propada propadaju propadanje propadam propadaš propadamo propadao propadala пропада propadati пропадају пропадање пропадам пропадаш пропадамо пропадао пропадала пропадати
+89	4489	atomski	atomske atomska atomsku atomski atomskom atomskih atomskog atomsko atomskim atomskoj атомске атомска атомску атомски атомском атомских атомског атомско атомским атомској
+90	4490	uragan	uragan uragana uragani uraganu uragane uraganom uraganima ураган урагана урагани урагану урагане ураганом ураганима
+91	4491	potomak	potomak potomci potomke potomaka potomka potomcima potomku потомци потомак потомке потомака потомка потомцима потомку
+92	4492	severno	severno северно
+93	4493	prenositi	prenosim prenositi prenosio prenosimo prenosi prenošenje prenosiš prenosili prenosila prenose prenosite prenoseći prenosile prenošena преноси преносе преносим преносити преносио преносимо преношење преносиш преносили преносила преносите преносећи преносиле преношена
+94	4494	ciklus	ciklus ciklusa ciklusu ciklusi cikluse ciklusima циклус ciklusom циклуса циклусу циклуси циклусе циклусима циклусом
+95	4495	zrno	zrno zrna zrnu zrnom zrnima зрна зрно зрну зрном зрнима
+96	4496	investicija	investicija investicije investiciju investicijama investiciji investicijom инвестиције инвестиција инвестицију инвестицијама инвестицији инвестицијом
+97	4497	šema	šemu šema šeme šemi shema šemama šemom шему шема шеме шеми схема шемама шемом
+98	4498	danju	danju дању
+99	4499	zavoleti	zavoleo zavoleti zavolela zavoli zavoleli zavoliš zavolećeš zavolim zavole zavoleće zavolite zavolećete zavoleću zavolimo заволео заволети заволела заволи заволели заволиш заволећеш заволим заволе заволеће заволите заволећете заволећу заволимо
+100	4500	hemija	hemije hemiju hemija hemiji hemijom хемија хемије хемију хемији хемијом

@@ -1,0 +1,100 @@
+1	5801	teškoća	teškoće teškoća teškoćama teškoću тешкоће тешкоћа тешкоћама тешкоћу
+2	5802	svinjetina	svinjetinu svinjetina svinjetine svinjetinom свињетина svinjetini свињетину свињетине свињетином свињетини
+3	5803	fondacija	fondacija fondacije fondaciju fondaciji fondacijom фондација фондације фондацију фондацији фондацијом
+4	5804	pohvala	pohvalu pohvale pohvala pohvali pohvalama pohvalom похвалу похвале похвала похвали похвалама похвалом
+5	5805	testis	testise testisa testisi testis testisima testisu тестисе тестиса тестиси тестис тестисима тестису
+6	5806	pseto	pseto pseta псето psetom псета псетом
+7	5807	formalnost	formalnost formalnosti formalnostima формалност формалности формалностима
+8	5808	nadležan	nadležni nadležan nadležne nadležnima nadležnim nadležna nadležnog nadležnih nadležnom надлежни надлежан надлежне надлежнима надлежним надлежна надлежног надлежних надлежном
+9	5809	zastati	zastao zastala zastati zastanemo zastali zastane zastani zastaneš zastanem zastanu zastalo zastanete zastanimo zastanite застао застала застати застанемо застали застане застани застанеш застанем застану застало застанете застанимо застаните
+10	5810	delimično	delimično делимично
+11	5811	ušteđevina	ušteđevinu ušteđevine ušteđevina ušteđevinom уштеђевину уштеђевине уштеђевина уштеђевином
+12	5812	emocionalno	emocionalno емоционално
+13	5813	jagnje	jagnje jagnjad jagnjeta јагње jagnjetom јагњад јагњета јагњетом
+14	5814	prsluk	prsluk прслук
+15	5815	razljutiti	razljutio razljutiti razljutilo razljuti razljutila razljutiš razljutim razljutili razljute razljutimo разљутио разљутити разљутило разљути разљутила разљутиш разљутим разљутили разљуте разљутимо
+16	5816	papagaj	papagaj papagaja papagaji papagajem papagaju papagaje папагаја папагај папагаји папагајем папагају папагаје
+17	5817	masivan	masivni masivna masivne masivan masivnu masivnog masivnim masivnih masivnom masivnije masivnija масивни масивна масивне масиван масивну масивног масивним масивних масивном масивније масивнија
+18	5818	gajba	gajbu gajba gajbi gajbe гајбу гајба гајби гајбе
+19	5819	pustinjski	pustinjski pustinjska pustinjske pustinjskoj pustinjskom pustinjskog pustinjskih pustinjsko pustinjskim pustinjsku пустињски пустињска пустињске пустињској пустињском пустињског пустињских пустињско пустињским пустињску
+20	5820	demokratski	demokratski demokratske demokratska demokratskog demokratsku demokratskim demokratskoj demokratsko demokratskom demokratskih демократски демократске демократска демократског демократску демократским демократској демократско демократском демократских
+21	5821	investirati	investirao investira investiram investirati investiranje investirali investiraš investirala investiraju investiramo investirate инвестирао инвестира инвестирам инвестирати инвестирање инвестирали инвестираш инвестирала инвестирају инвестирамо инвестирате
+22	5822	rešetka	rešetke rešetku rešetki rešetka rešetkama решетке решетку решетки решетка решеткама
+23	5823	nasuprot	nasuprot насупрот
+24	5824	nikamo	nikamo никамо
+25	5825	simulacija	simulacija simulaciju simulacije simulaciji simulacijama simulacijom симулација симулацију симулације симулацији симулацијама симулацијом
+26	5826	šipka	šipke šipku šipka šipki šipkom šipkama šipci шипке шипку шипка шипки шипком шипкама шипци
+27	5827	doduše	doduše додуше
+28	5828	kisik	kisika kisik kisikom кисика кисик кисиком
+29	5829	imenik	imeniku imenik imenika imenike imenikom именику именик именика именике имеником
+30	5830	crvenokos	crvenokosa crvenokosu crvenokose crvenokosi crvenokosom crvenokosoj crvenokosog црвенокоса crvenokosih crvenokos црвенокосу црвенокосе црвенокоси црвенокосом црвенокосој црвенокосог црвенокосих црвенокос
+31	5831	osvežiti	osvežim osveži osvežiti osvežite osvežimo osvežiš osveže osvežio osvežen osvežili osvežilo osvežila osvežiću освежим освежи освежити освежите освежимо освежиш освеже освежио освежен освежили освежило освежила освежићу
+32	5832	opadati	opada opadaju opadanje опада opadala opadati опадају опадање опадала опадати
+33	5833	nužda	nuždu nužde nuždi nužda нужду нужде нужди нужда
+34	5834	burka	burke burka burku бурке burki burkom бурка бурку бурки бурком
+35	5835	izjasniti	izjašnjavate izjasni izjasnio izjasniti izjasnite izjašnjava izjasnim izjasnili izjašnjavaš izjasnila izjašnjavanje izjašnjavam izjasniš izjasne изјашњавате изјасни изјаснио изјаснити изјасните изјашњава изјасним изјаснили изјашњаваш изјаснила изјашњавање изјашњавам изјасниш изјасне
+36	5836	breskva	breskve breskva breskvi breskvu bresaka breskvama брескве бресква брескви брескву бресака бресквама
+37	5837	spasenje	spasenje spasenja spasenju spasenjem спасење спасења спасењу спасењем
+38	5838	sekcija	sekcija sekcije sekciju sekciji sekcijom секција секције секцију секцији секцијом
+39	5839	dozivati	doziva dozivao dozivaju dozivam dozivala dozivaš dozivanje dozivati dozivajući dozivali dozivamo дозива дозивао дозивају дозивам дозивала дозиваш дозивање дозивати дозивајући дозивали дозивамо
+40	5840	rasist	rasista rasist rasisti rasiste rasistom rasistu расиста rasistima расист расисти расисте расистом расисту расистима
+41	5841	usled	usled услед
+42	5842	idol	idol idola idoli idolu idole idolima idolom идол идола идоли идолу идоле идолима идолом
+43	5843	salveta	salvete salvetu salveta salveti salvetama salvetom салвете салвету салвета салвети салветама салветом
+44	5844	strelica	strelice strelica strelicu strelicom strelicama стрелица стрелице стрелицу стрелицом стрелицама
+45	5845	uginuti	uginuo uginula ugine uginu uginuti uginule uginuli uginulo uginuće угинуо угинула угине угину угинути угинуле угинули угинуло угинуће
+46	5846	izjednačiti	izjednačeni izjednačeno izjednači izjednačen izjednačiti izjednačimo izjednačenje izjednačio izjednačim izjednačili izjednačena izjednačene izjednače izjednačiš izjednačila изједначени изједначено изједначи изједначен изједначити изједначимо изједначење изједначио изједначим изједначили изједначена изједначене изједначе изједначиш изједначила
+47	5847	pokolj	pokolj pokolja pokolju pokolje pokoljem покољ покоља покољу покоље покољем
+48	5848	izbeglica	izbeglice izbeglica izbeglicama izbeglicu избеглице избеглица избеглицама избеглицу
+49	5849	ambar	ambar ambaru ambara амбар амбару амбара
+50	5850	zalaziti	zalazi zalaze zalazim zalazimo zalazio zalaziti zalaziš zalazilo zalazili zalazite залази залазе залазим залазимо залазио залазити залазиш залазило залазили залазите
+51	5851	učinak	učinak učinka učinke učinku učinci učinkom učinaka учинак учинка учинке учинку учинци учинком учинака
+52	5852	zabuna	zabune zabuna zabunom zabunu zabuni забуне забуна забуном забуну забуни
+53	5853	teoretski	teoretski teoretske teoretska teoretsko теоретски теоретске теоретска теоретско
+54	5854	avet	aveti avet avetima авети авет аветима
+55	5855	klizati	klizanje klizati klizao klizala klizali kliže kliži kližu kližem kližeš клизање клизати клизао клизала клизали клиже клижи клижу клижем клижеш
+56	5856	svitak	svitak svici svitke svitaka svitka svitku svicima svitci svitkom свитак свици свитке свитака свитка свитку свицима свитци свитком
+57	5857	ogorčen	ogorčen ogorčena ogorčeni ogorčeno ogorčene ogorčenih ogorčenim ogorčenog огорчен огорчена огорчени огорчено огорчене огорчених огорченим огорченог
+58	5858	povrh	povrh поврх
+59	5859	hava	have havi hava хаве хави хава
+60	5860	štikla	štikle štiklama štiklu štikla štikli štiklom штикле штиклама штиклу штикла штикли штиклом
+61	5861	procjena	procjenu procjena procjene procjeni procjenom procjenama процјену процјена процјене процјени процјеном процјенама
+62	5862	fizičar	fizičar fizičari fizičara fizičare fizičarima физичар физичари физичара физичаре физичарима
+63	5863	djetinjstvo	djetinjstva djetinjstvo djetinjstvu дјетињства дјетињство дјетињству
+64	5864	prismotra	prismotrom prismotru prismotra prismotre prismotri присмотром присмотру присмотра присмотре присмотри
+65	5865	umišljati	umišljaš umišljam umišlja umišljate umišljaj umišljaju umišljati umišljao умишљаш умишљам умишља умишљате умишљај умишљају умишљати умишљао
+66	5866	prerušiti	prerušen prerušeni prerušio prerušena prerušiti prerušila preruši prerušim prerušili prerušimo prerušene prerušiš прерушен прерушени прерушио прерушена прерушити прерушила преруши прерушим прерушили прерушимо прерушене прерушиш
+67	5867	vedar	vedrije vedar vedra vedrim vedre vedrog vedriju vedri vedrija ведрије vedrom vedru ведра ведар ведрим ведре ведрог ведрију ведри ведрија ведром ведру
+68	5868	opeći	opekao opekla opeći opečeš opečen opeče opekli opečena opečene opeklo opeku opečem opečeni opečete опекао опекла опећи опечеш опечен опече опекли опечена опечене опекло опеку опечем опечени опечете
+69	5869	četri	četri четри
+70	5870	izliječiti	izliječiti izliječio izliječen izliječi izliječila izliječili izliječena izliječim izliječimo izliječeni izliječite izliječiš izliječe излијечити излијечио излијечен излијечи излијечила излијечили излијечена излијечим излијечимо излијечени излијечите излијечиш излијече
+71	5871	nagao	nagli nagle nagao naglih nagla naglog naglu naglim naglom нагли нагле нагао наглих нагла наглог наглу наглим наглом
+72	5872	odgoditi	odgoditi odgodi odgodimo odgodio odgode odgođeno odgodili odgođen odgođena odgodite odgodim odgodila odgodiš одгодити одгоди одгодимо одгодио одгоде одгођено одгодили одгођен одгођена одгодите одгодим одгодила одгодиш
+73	5873	sitno	sitno ситно
+74	5874	mjuzikl	mjuzikl mjuziklu mjuzikla mjuzikle mjuzikli mjuziklima мјузикл мјузиклу мјузикла мјузикле мјузикли мјузиклима
+75	5875	odvoditi	odvode odvodi odvodili odvodite odvodim odvodiš odvodio odvođenje odvodimo odvoditi одводе одводи одводили одводите одводим одводиш одводио одвођење одводимо одводити
+76	5876	spasilački	spasilački spasilačka spasilačku spasilačke spasilačkoj spasilačkog spasilačkim spasilačkom spasilačkih спасилачки спасилачка спасилачку спасилачке спасилачкој спасилачког спасилачким спасилачком спасилачких
+77	5877	osećajan	osećajan osećajna osećajni osećajno osećajniji osećajne osećajnog osećajnu осећајан осећајна осећајни осећајно осећајнији осећајне осећајног осећајну
+78	5878	sagledati	sagledati sagledamo sagledaš sagledam sagleda sagledao sagledaj sagledate sagledali sagledajmo sagledaju sagledala сагледати сагледамо сагледаш сагледам сагледа сагледао сагледај сагледате сагледали сагледајмо сагледају сагледала
+79	5879	poštedjeti	poštedi poštedjeti poštedite poštedio poštedim poštediš poštedjela poštedimo poštedjeli poštede поштеди поштедјети поштедите поштедио поштедим поштедиш поштедјела поштедимо поштедјели поштеде
+80	5880	racionalan	racionalno racionalan racionalna racionalni racionalnog racionalne racionalnom racionalnu racionalnim рационално рационалан рационална рационални рационалног рационалне рационалном рационалну рационалним
+81	5881	pipa	pipa pipi pipe pipo pipu пипа пипи пипе пипо пипу
+82	5882	haker	haker hakera hakeri hakere hakeru hakerima хакер хакера хакери хакере хакеру хакерима
+83	5883	impuls	impuls impulse impulsa impulsi impulsima impulsom импулс импулсе импулса импулси импулсима импулсом
+84	5884	selidba	selidbe selidbu selidba selidbi selidbom селидбе селидбу селидба селидби селидбом
+85	5885	dospjeti	dospio dospjela dospjeli dospjeti dospjelo dospije dospiju dospjele доспио доспјела доспјели доспјети доспјело доспије доспију доспјеле
+86	5886	istaknuti	istaknuti istaknem istaći istakne istaknuo istakneš istaknemo istakni istaknu istaknite istaknete istaknula истакнути истакнем истаћи истакне истакнуо истакнеш истакнемо истакни истакну истакните истакнете истакнула
+87	5887	prestupnik	prestupnik prestupnika prestupnici prestupnike prestupnicima prestupnikom преступник преступника преступници преступнике преступницима преступником
+88	5888	parkiralište	parkiralištu parkiralište parkirališta паркиралишту паркиралиште паркиралишта
+89	5889	komunistički	komunističke komunistička komunistički komunističku komunističkog komunističkoj komunističkom komunističkim komunističkih komunističko комунистичке комунистичка комунистички комунистичку комунистичког комунистичкој комунистичком комунистичким комунистичких комунистичко
+90	5890	kristalni	kristalne kristalni kristalnu kristalna kristalnoj kristalnih kristalnog kristalnim kristalnom кристалне кристални кристалну кристална кристалној кристалних кристалног кристалним кристалном
+91	5891	petao	petao petla petlova petlovi petlove petlu petlom petlovima петао петла петлова петлови петлове петлу петлом петловима
+92	5892	svijeća	svijeće svijeću svijeća svijećama svijećom свијеће свијећу свијећа свијећама свијећом
+93	5893	vrtoglavica	vrtoglavicu vrtoglavica vrtoglavice вртоглавицу vrtoglavicom вртоглавица вртоглавице вртоглавицом
+94	5894	srijeda	srijedu srijeda srijede srijedom srijedi сриједу сриједа сриједе сриједом сриједи
+95	5895	nejasan	nejasna nejasan nejasne nejasni nejasnih nejasnu nejasnim nejasnog нејасан нејасна нејасне нејасни нејасних нејасну нејасним нејасног
+96	5896	pristojnost	pristojnosti pristojnost pristojnošću пристојности пристојност пристојношћу
+97	5897	kostur	kostur kostura kosturi kosture kosturu kosturima kosturom костур костура костури костуре костуру костурима костуром
+98	5898	sramotiti	sramotiš sramotim sramotiti sramotite sramoćenje sramotio sramotimo sramotila sramote sramoti срамоте срамотиш срамотим срамотити срамотите срамоћење срамотио срамотимо срамотила срамоти
+99	5899	jebemti	jebemti јебемти
+100	5900	pamuk	pamuk pamuka pamukom pamuku памука памук памуком памуку

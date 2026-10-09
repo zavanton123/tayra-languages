@@ -1,0 +1,100 @@
+1	5901	transakcija	transakcija transakcije transakciju transakcijama transakciji трансакција трансакције трансакцију трансакцијама трансакцији
+2	5902	maksimum	maksimum maksimuma maksimumu максимум максимума максимуму
+3	5903	zahvatiti	zahvatila zahvatio zahvati zahvatiti zahvate zahvatilo zahvaćeni zahvaćena zahvaćen zahvatili zahvaćeno захватила захватио захвати захватити захвате захватило захваћени захваћена захваћен захватили захваћено
+4	5904	školarina	školarinu školarine školarina školarinom školarini школарину школарине школарина школарином школарини
+5	5905	kvadrat	kvadrat kvadrata kvadratu kvadrati квадрат kvadrate квадрата квадрату квадрати квадрате
+6	5906	odeljak	odeljak odeljku odeljka odeljke odeljci odeljaka odeljcima одељак одељку одељка одељке одељци одељака одељцима
+7	5907	ženin	ženin ženina ženine ženinu ženino ženinom ženinih ženinim ženinoj ženini женин женина женине женину женино женином жениних жениним жениној женини
+8	5908	iti	pem pete iti grem peš пем пете ити грем пеш
+9	5909	teror	teror terora terorom teroru терор терора терором терору
+10	5910	voćni	voćni voćne voćnu voćna voćnog voćnih voćno voćnim voćnom воћни воћне воћну воћна воћног воћних воћно воћним воћном
+11	5911	dionica	dionice dionica dionicama dionicu dionici дионице дионица дионицама дионицу дионици
+12	5912	inicijal	inicijali inicijale inicijalima inicijal inicijala иницијали иницијале иницијалима иницијал иницијала
+13	5913	lijen	len lijen lijeni lijena lijene lijeno lijenog lijenu лен лијен лијени лијена лијене лијено лијеног лијену
+14	5914	ideal	ideale ideal ideala ideali idealima idealu идеале идеал идеала идеали идеалима идеалу
+15	5915	kvadratni	kvadratnih kvadratni kvadratnom kvadratna kvadratne kvadratnog квадратних kvadratnim kvadratnu квадратни квадратном квадратна квадратне квадратног квадратним квадратну
+16	5916	ravnica	ravnice ravnica ravnici ravnicama ravnicu ravnicom равнице равница равници равницама равницу равницом
+17	5917	lepljiv	lepljive lepljiva lepljivo lepljivu lepljivi lepljiv lepljivom lepljivim lepljivog lepljivih лепљиве лепљива лепљиво лепљиву лепљиви лепљив лепљивом лепљивим лепљивог лепљивих
+18	5918	pozirati	pozira pozirala poziram poziraš pozirati poziranje pozirao poziraju poziraj pozirate pozirali poziramo позира позирала позирам позираш позирати позирање позирао позирају позирај позирате позирали позирамо
+19	5919	brzak	brzaka brzaci брзака брзаци
+20	5920	uzdah	uzdasi uzdah uzdahe uzdaha уздаси уздах уздахе уздаха
+21	5921	taktički	taktički taktička taktičke taktičku taktičko taktičkog taktičkim taktičkom taktičkih тактички тактичка тактичке тактичку тактичко тактичког тактичким тактичком тактичких
+22	5922	elita	elite elita elitu elitom eliti елите елита елиту елитом елити
+23	5923	bratac	braca bratac brace bracu braci brače браца братац браце брацу браци браче
+24	5924	skrasiti	skrasiti skrasim skrasi skrasio skrasiš skrasimo skrasili skrasila skrase skrasite скрасити скрасим скраси скрасио скрасиш скрасимо скрасили скрасила скрасе скрасите
+25	5925	prosjak	prosjak prosjaci prosjaka prosjake prosjacima prosjaku prosjače просјак просјаци просјака просјаке просјацима просјаку просјаче
+26	5926	vrtić	vrtić vrtiću vrtića вртић вртићу вртића
+27	5927	naručivati	naručuje naručujem naručuješ naručivao naručuju naručujemo naručivanje naručivati naručujete naručivali naručivala naručuj наручује наручујем наручујеш наручивао наручују наручујемо наручивање наручивати наручујете наручивали наручивала наручуј
+28	5928	struka	struka struci struku struke струка strukom струци струку струке струком
+29	5929	velikodušno	velikodušno великодушно
+30	5930	menjač	menjač menjača menjačem menjači menjaču menjačima menjače мењач мењача мењачем мењачи мењачу мењачима мењаче
+31	5931	nastavnica	nastavnica nastavnice nastavnicu nastavnici nastavnicom наставници наставница наставнице наставницу наставницом
+32	5932	kormilo	kormilo kormilom kormila kormilu кормило кормилом кормила кормилу
+33	5933	konkretno	konkretno конкретно
+34	5934	feniks	feniks feniksa feniksu феникс феникса фениксу
+35	5935	okusiti	okusio okusiti okusim okusila okusiš okusili okusite okusimo okusi okuse окусио окусити окусим окусила окусиш окусили окусите окусимо окуси окусе
+36	5936	skupština	skupštini skupštine skupštinu skupština skupštinom скупштини скупштине скупштину скупштина скупштином
+37	5937	bundeva	bundeve bundeva bundevu bundevom bundevo bundevama bundevi бундеве бундева бундеву бундевом бундево бундевама бундеви
+38	5938	kojot	kojot kojota kojoti kojote kojotima kojotu којот којота којоти којоте којотима којоту
+39	5939	odlutati	odlutao odlutala odluta odlutaju odlutali odlutaš odlutati odlutale odlutam одлутао одлутала одлута одлутају одлутали одлуташ одлутати одлутале одлутам
+40	5940	obučavati	obučavao obučava obučavaju obučavali obučavan obučavam obučavani obučavala obučavati obučavaš obučavamo obučavanje obučavana obučavate обучавао обучава обучавају обучавали обучаван обучавам обучавани обучавала обучавати обучаваш обучавамо обучавање обучавана обучавате
+41	5941	nogomet	nogomet nogometa nogometu nogometom ногомет ногомета ногомету ногометом
+42	5942	premalo	premalo премало
+43	5943	sutradan	sutradan сутрадан
+44	5944	povod	povod povoda povodu повод повода поводу
+45	5945	agonija	agoniji agonija agoniju agonije агонији агонија агонију агоније
+46	5946	renovirati	renoviranje renovira renovirali renoviramo renoviram renovirao renoviraju renovirati renovirana renoviran renovirala renoviraš renovirate renovirano реновирање реновира реновирали реновирамо реновирам реновирао реновирају реновирати реновирана реновиран реновирала реновираш реновирате реновирано
+47	5947	napola	napola напола
+48	5948	loža	loži ložu loža lože ložama ложи ложу ложа ложе ложама
+49	5949	kenjati	kenjaš kenja kenjam kenjaj kenjati kenjao kenjaju kenjanje kenjate кењаш кења кењам кењај кењати кењао кењају кењање кењате
+50	5950	školovanje	školovanje školovanja školovanju školovanjem школовање школовања школовању школовањем
+51	5951	kirurg	kirurg kirurga kirurzi kirurgu kirurge kirurgom кирург кирурга кирурзи кирургу кирурге кирургом
+52	5952	udes	udes udesa udesu udesi udese удес удеса удесу удеси удесе
+53	5953	radostan	radostan radosno radosna radosni radosne radosnu radosnih radosnim radosnog радостан радосно радосна радосни радосне радосну радосних радосним радосног
+54	5954	predeo	predeo predelu predela predelima predele predeli predelom предео пределу предела пределима пределе предели пределом
+55	5955	ventilacija	ventilaciju ventilacija ventilacije ventilaciji ventilacijom вентилацију вентилација вентилације вентилацији вентилацијом
+56	5956	suseda	suseda susedi susede суседи susedu susedom суседа суседе суседу суседом
+57	5957	depozit	depozit depozita depoziti depozite depozitu depozitom депозит депозита депозити депозите депозиту депозитом
+58	5958	crnčuga	crnčuga crnčuge crnčugo crnčugu crnčugama crnčugom црнчуга црнчуге црнчуго црнчугу црнчугама црнчугом
+59	5959	provjera	provjera provjeru provjeri provjere provjerom провјера провјеру провјери провјере провјером
+60	5960	gama	gama game gami gamu гаме гама гами гаму
+61	5961	iskrcati	iskrcali iskrcati iskrcao iskrcamo iskrcaju iskrca iskrcala iskrcaj iskrcam iskrcajte iskrcate iskrcaš iskrcale искрцали искрцати искрцао искрцамо искрцају искрца искрцала искрцај искрцам искрцајте искрцате искрцаш искрцале
+62	5962	bordel	bordel bordelu bordela bordele bordelima bordeli бордел борделу бордела борделе борделима бордели
+63	5963	suprotnost	suprotnosti suprotnost супротности супротност
+64	5964	kupon	kupon kupone kupona kuponi kuponima kuponom купон купоне купона купони купонима купоном
+65	5965	biro	biro биро
+66	5966	turistički	turistički turistička turističke turističku turističkog turističkoj turističkom turističkim turističko turističkih туристички туристичка туристичке туристичку туристичког туристичкој туристичком туристичким туристичко туристичких
+67	5967	skica	skice skica skicu skicama skici скице скица скицу скицама скици
+68	5968	baron	baron барон
+69	5969	raskrsnica	raskrsnici raskrsnice raskrsnica raskrsnicu raskrsnicama раскрсници раскрснице раскрсница раскрсницу раскрсницама
+70	5970	petorica	petorica petoricu petorice petorici petoricom петорица петорицу петорице петорици петорицом
+71	5971	udaljavati	udaljava udaljavaju udaljavamo udaljavaj udaljavaš udaljavati udaljavao udaljavam udaljavajte udaljavanje udaljavala udaljavate udaljavali удаљава удаљавају удаљавамо удаљавај удаљаваш удаљавати удаљавао удаљавам удаљавајте удаљавање удаљавала удаљавате удаљавали
+72	5972	požuda	požuda požude požudu požudi požudom пожуда пожуде пожуду пожуди пожудом
+73	5973	smjeti	smijem smije smiješ smijemo smiju smijete smjeti smij smijte smijući смијем смије смијеш смијемо смију смијете смјети смиј смијте смијући
+74	5974	narednica	narednice narednica narednicu narednicom narednici нареднице наредница наредницу наредницом наредници
+75	5975	temeljni	temeljno temeljni temeljna temeljne temeljnu temeljnih temeljnog темељно temeljnim темељни темељна темељне темељну темељних темељног темељним
+76	5976	sočivo	sočiva sočivo sočivima sočivom сочива sočivu сочиво сочивима сочивом сочиву
+77	5977	flora	flora flori floru flore floro florom флора флори флору флоре флоро флором
+78	5978	savršenstvo	savršenstvo savršenstva savršenstvu savršenstvom савршенство савршенства савршенству савршенством
+79	5979	carina	carinu carina carini carine carinom царину царина царини царине царином
+80	5980	lutkica	lutkice lutkica lutkicu lutkicama lutkicom луткице луткица луткицу луткицама луткицом
+81	5981	četvorka	četvorka četvorku četvorke četvorci četvorki četvorkom четворка четворку четворке четворци четворки четворком
+82	5982	transplantacija	transplantaciju transplantacija transplantacije трансплантацију transplantaciji transplantacijom трансплантација трансплантације трансплантацији трансплантацијом
+83	5983	ње	ње
+84	5984	bezbroj	bezbroj безброј
+85	5985	kuhar	kuhar kuhara kuharu kuhari kuharom kuhare кухар кухара кухару кухари кухаром кухаре
+86	5986	trunuti	trune trunuti trunem truneš trunu truni trunuo trunemo trunete trunućeš trunula труне трунути трунем трунеш труну труни трунуо трунемо трунете трунућеш трунула
+87	5987	šišmiš	šišmiš šišmiša šišmiši šišmiše šišmišu šišmišima шишмиш шишмиша шишмиши шишмише шишмишу шишмишима
+88	5988	aljaski	aljaske aljaska aljasku aljaski аљаска аљаске аљаску аљаски
+89	5989	nervoza	nervoza nervozu nervoze nervozom nervozi нервоза нервозу нервозе нервозом нервози
+90	5990	starački	starački staračkom staračkog staračke staračkim старачки staračkih staračka старачком старачког старачке старачким старачких старачка
+91	5991	preskakati	preskače preskačem preskakanje preskačeš preskačemo preskaču preskakati preskakao preskakala preskači preskakali preskačući preskačete прескаче прескачем прескакање прескачеш прескачемо прескачу прескакати прескакао прескакала прескачи прескакали прескачући прескачете
+92	5992	rijetko	rijetko ријетко
+93	5993	izlog	izlog izlogu izloga izloge izlože izlozima izlozi излог излогу излога излоге изложе излозима излози
+94	5994	bikini	bikini bikiniju bikinija bikinijima bikinije bikiniji бикини бикинију бикинија бикинијима бикиније бикинији
+95	5995	kvaka	kvaka kvaku kvake kvaki kvakom квака кваку кваке кваки кваком
+96	5996	jednačina	jednačine jednačina jednačinu jednačini jednačinama jednačinom једначине једначина једначину једначини једначинама једначином
+97	5997	bljak	bljak бљак
+98	5998	južni	južni јужни
+99	5999	ophoditi	ophodi ophode ophodiš ophodio ophoditi ophodite ophodili ophodim ophodimo ophođenje ophodila опходи опходе опходиш опходио опходити опходите опходили опходим опходимо опхођење опходила
+100	6000	dostavljati	dostavlja dostavljam dostavljao dostavljaju dostavljaš dostavljamo dostavljati dostavljanje dostavljate dostavljali dostavljala доставља достављам достављао достављају достављаш достављамо достављати достављање достављате достављали достављала

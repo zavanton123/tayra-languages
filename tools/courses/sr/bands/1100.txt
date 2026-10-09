@@ -1,0 +1,100 @@
+1	1001	iznenađenje	iznenađenje iznenađenja изненађење изненађења iznenađenjem iznenađenju iznenađenjima изненађењем изненађењу изненађењима
+2	1002	dosadan	dosadno dosadan dosadna dosadni dosadne dosadnim dosadnih досадно dosadnog dosadnu dosadnom досадан najdosadniji dosadnije досадна dosadnoj najdosadnija dosadniji najdosadnije досадни досадне досадним досадних досадног досадну досадном најдосаднији досадније досадној најдосаднија досаднији најдосадније
+3	1003	debeo	debeli debela debeo debelo debele debelog debelu debelim debelom deblji debelih deblja deblje debeloj дебели дебела najdeblji дебео debelima дебело дебелог najdeblja deblju дебеле debeloga najdeblje дебелу дебелим дебелом дебљи дебелих дебља дебље дебелој најдебљи дебелима најдебља дебљу дебелога најдебље
+4	1004	normalan	normalan normalna normalni normalne normalnim normalnog normalnu normalnom normalnih нормалан normalnoj нормална normalnije нормални normalniji najnormalnije нормалним najnormalnija нормалне najnormalniji нормалног нормалну нормалном нормалних нормалној нормалније нормалнији најнормалније најнормалнија најнормалнији
+5	1005	moć	moć moćima моћ moću моћима моћу
+6	1006	pijan	pijan pijana pijani pijanom pijane pijanog пијан pijanih pijano pijanu pijanim пијана пијани pijaniji pijanoj пијаном пијане пијаног пијаних пијано пијану пијаним пијанији пијаној
+7	1007	žurka	žurku žurka žurke žurci žurki žurkama žurkom журка журку журке журци журки журкама журком
+8	1008	mogućnost	mogućnosti mogućnost mogućnostima могућност могућности mogućnošću могућностима могућношћу
+9	1009	pad	pada pad padu пада padova padove padom padovi pade пад padovima паду падова падове падом падови паде падовима
+10	1010	poludeti	poludeo poludela poludeli poludeti poludi poludim poludeću polude poludiš полудео poludeće poludele poludelo полудела полудели poludimo poludećeš poludite полудети полудећу полуди poludećemo полудим полуде полудиш полудеће полуделе полудело полудимо полудећеш полудите полудећемо
+11	1011	rođen	rođen rođena rođeni rodjen rođenog rođeno rođene rođenu рођен rođenih rođenoj rođenom rođenim рођена рођени рођено родјен рођеног рођене рођену рођених рођеној рођеном рођеним
+12	1012	kraljica	kraljica kraljice kraljicu kraljici kraljicom краљица краљице краљицу kraljicama краљици краљицом краљицама
+13	1013	ton	toni ton tona tone tonu тони tonom tonove tonovi tono тона tonova тон тоне tonovima тону tonama тоном тонове тонови тоно тонова тоновима тонама
+14	1014	energija	energije energiju energija energijom energiji енергије енергију енергија energijama енергијом енергији енергијама
+15	1015	udar	udar udara udari udare udaru удара udarom удари удар udarima ударе удару ударом ударима
+16	1016	ujutro	ujutro ујутро
+17	1017	krivica	krivica krivicu krivice krivicom кривица krivici кривицу кривице кривицом кривици
+18	1018	bob	bob bobe boba bobu bobom боб бобе bobova bobove боба бобу бобом бобова бобове
+19	1019	povesti	povedi povesti poveo povedem povedite povedeš povede povela povešću poveli povedemo povedete povešćemo povedu поведи povešćeš повести povešće povedimo повео повешћу поведем povešćete povele повели поведите поведемо поведе поведеш повела поведете повешћемо поведу повешћеш повешће поведимо повешћете повеле
+20	1020	omiljen	omiljeni omiljena omiljeno omiljene omiljenu omiljenih omiljen omiljenog omiljenom omiljenim najomiljeniji омиљени omiljenoj najomiljenija омиљена najomiljenijih najomiljenije омиљено омиљену омиљене омиљених омиљен омиљеног омиљеном омиљеним најомиљенији омиљеној најомиљенија најомиљенијих најомиљеније
+21	1021	adresa	adresu adresa adrese adresi адресу adresom адреса adresama адресе адреси адресом адресама
+22	1022	svedok	svedoka svedok svedoci svedoke svedocima svedokom svedoče сведока svedoku сведок сведоци сведоке сведоцима сведоком сведоче сведоку
+23	1023	kazna	kaznu kazna kazne kazni kaznom казну казна kaznama казне казни казном казнама
+24	1024	venčanje	venčanje venčanja venčanju венчање venčanjem венчања venčanjima венчању венчањем венчањима
+25	1025	kog	kog ког
+26	1026	kontakt	kontakt kontaktu kontakta kontakte контакт kontakata kontakti kontaktima kontaktom контакту контакта контакте контаката контакти контактима контактом
+27	1027	korist	koristi korist koriste користи корист користе
+28	1028	pol	pol pole polu пол polom polova polovima поле polove polovi полу полом полова половима полове полови
+29	1029	zlato	zlato zlata zlatom zlatu злато злата златом злату
+30	1030	kamion	kamion kamiona kamionu kamione kamionom kamioni камион kamionima камиона камиону камиони камионе камионом камионима
+31	1031	spremiti	spremite spremim spremio spremila spremiti spremi spremimo spremiću spremili spremiš спремите spremljeno spremljen spremljena spreme spremićemo spremljene спремим спремио spremile спремила спреми spremljeni спремимо спремити спремићу spremićeš spremiće спремили спремиш спремљено спремљен спремљена спреме спремићемо спремљене спремиле спремљени спремићеш спремиће
+32	1032	ovuda	ovuda овуда
+33	1033	zatim	zatim затим
+34	1034	haljina	haljinu haljina haljine haljini haljinom haljinama хаљину хаљина хаљине хаљини хаљином хаљинама
+35	1035	brzina	brzinu brzinom brzina brzine brzini брзину brzinama брзином брзина брзине брзини брзинама
+36	1036	obojica	obojica obojicu obojici obojice обојица obojicom обојицу обојици обојице обојицом
+37	1037	okolo	okolo около
+38	1038	dodati	dodaj dodati dodao dodam dodaš dodajte doda dodate dodali dodala dodamo dodaću dodaju додај dodaćemo додати dodajmo додам додао dodana dodaćeš dodalo dodan додајте dodano додаш додате додала dodaće дода додали додамо додаћу додају додаћемо додајмо додана додаћеш додало додан додано додаће
+39	1039	krug	krug krugu kruga kruže krugova krugovima krugove krugovi круг kružni kružna krugom kružne kružnog kružnom kružno kružnim кругу kružnu круга kruzi kružnoj kružnih круговима круже кругова кругове кругови кружни кружна кругом кружне кружног кружном кружно кружним кружну крузи кружној кружних
+40	1040	otpustiti	otpušten otpustiti otpustio otpustili otpuštena otpusti otpustim otpušteni otpustila otpuste otpustiš otpustite otpustimo otpustiće otpustiću отпуштен otpuštene отпустио отпустити отпусти отпустили otpušteno otpustićeš отпустим отпуштени otpustićemo отпуштена отпустила отпусте отпустиш отпустите отпустимо отпустиће отпустићу отпуштене отпуштено отпустићеш отпустићемо
+41	1041	nekada	nekada некада
+42	1042	odrasti	odrasla odrasli odrasle odrasti odrasteš odraste odrastem odrastu odraslo одрасла одрасли odrastemo odrastete odrastite одрасле одрасти одрасте odrašće одрастем одрастеш одрасту одрасло одрастемо одрастете одрастите одрашће
+43	1043	misija	misija misiju misije misiji misijom мисија misijama мисију мисије мисији misijo мисијом мисијама мисијо
+44	1044	zabavljati	zabavljaš zabavlja zabavljam zabavljamo zabavljali zabavljati zabavljaju zabavljate zabavljao zabavljala zabavljaj zabavljanje zabavljajte zabavljale забавља забављаш zabavljalo забављам zabavljajmo zabavljajući zabavljaćemo забављали забављамо забављају забављате забављати забављао забављала забављај забављање забављајте забављале забављало забављајмо забављајући забављаћемо
+45	1045	jedinica	jedinica jedinice jedinicu jedinici jedinicama jedinicom јединице јединица јединицу јединици јединицама јединицом
+46	1046	bolest	bolest bolesti bolešću bolestima болест болести boleština болешћу болестима болештина
+47	1047	peti	pete peti peta petama petom petog petu petice peticu petica petoj peto пети пете petici петама пета petim peticom peticama петом petoga петице петог пету петицу петица петој пето петици петим петицом петицама петога
+48	1048	meso	meso mesa mesom mesu месо меса месом месу
+49	1049	nagrada	nagradu nagrada nagrade nagradi nagradom награду награда nagradama награде награди наградом наградама
+50	1050	zahvaliti	zahvalim zahvaliti zahvali zahvalimo zahvalio zahvalite zahvališ zahvalila zahvale захвалим zahvalili zahvalićeš zahvaliću захвали захвалити захвалимо zahvaliće захвалио захвалите захвалиш захвалила захвале захвалили захвалићеш захвалићу захвалиће
+51	1051	reka	reke reku reka reci reko rekom реке rekama rečni rečne река rečna реци rečnog rečnom rečno rečnih rečnu rečnim rečnoj rečica реко реку реком рекама речни речне речна речног речном речно речних речну речним речној речица
+52	1052	slobodno	slobodno слободно
+53	1053	rođak	rođak rođaka rođaci rođače rođake rođaku rođakom rođacima рођака рођак рођаци рођаке рођаку рођаче рођаком рођацима
+54	1054	šerif	šerife šerif šerifa šerifu šerifom šerifi шерифе шериф шерифа šerifima шерифу шерифом шерифи шерифима
+55	1055	slatko	slatko slatka slatku слатко slatkom слатка слатку слатком
+56	1056	kuhinja	kuhinji kuhinju kuhinja kuhinje кухињи kuhinjom кухињу кухиња kuhinjama кухиње кухињом кухињама
+57	1057	istražiti	istražujemo istražuje istraživao istražujem istražiti istraži istražuju istraživati istražimo istraživala istražim istraživali istražio istražuješ istražujete istražili istražite istraže istražila istražiš istražujući istražiću istražićemo истражује istražuj istraženo истражи istražena истражујемо istražen истраживао истражујем istražujte истражити истражују istraženi истражим истраживати истражимо истраживала истраживали истражио истражујеш истражујете истражили истражите истраже истражила истражиш истражујући истражићу истражићемо истражуј истражено истражена истражен истражујте истражени
+58	1058	metar	metara metra metar метара metru метра metrima метар metre metrom метру метрима метре метром
+59	1059	miran	miran mirna mirni mirne mirnije mirnom mirnu mirnim миран mirnog mirniji мирна mirnih мирни mirnoj mirnija najmirniji mirnijem najmirnije мирне mirniju mirnijim мирније мирном мирну мирним мирног мирнији мирних мирној мирнија најмирнији мирнијем најмирније мирнију мирнијим
+60	1060	donositi	donosi donosim donose donosiš donositi donosio donosimo donosite donošenje donosila donosili donoseći доноси доносим donosilo donosile доносе доносиш donosiću доношење доносити доносио доносимо доносите доносила доносили доносећи доносило доносиле доносићу
+61	1061	ostrvo	ostrvo ostrva ostrvu ostrvima острво острва острву ostrvom острвима острвом
+62	1062	išta	išta ičega ишта ičeg ičemu ичега ičim ичег ичему ичим
+63	1063	koža	kožu kože koža koži kožom коже кожу кожа кожи kožama кожом кожама
+64	1064	primer	primer пример primera primere primeri primerom primeru primerima примера примере примери примером примеру примерима
+65	1065	užasno	užasno ужасно
+66	1066	jebote	jebote јеботе jbt јбт
+67	1067	vredeti	vredi vredelo vrede вреди vrediš vredeti vredim vredeo vredela vredite вредело vredimo вреде vredeli vredele вредиш вредети вредим вредео вредела вредите вредимо вредели вределе
+68	1068	laž	laž laži lažima лаж лажи лажима
+69	1069	mašina	mašina mašinu mašine mašini mašinom mašinama машина машину машине mašino машини машином машинама машино
+70	1070	mačka	mačka mačke mačku mačaka mačkama mački mačji mačkom mačkica mačko мачка mačje мачке мачку mačja mačju mačjeg mačjih mačjim мачака мачкама мачки мачји мачком мачкица мачко мачје мачја мачју мачјег мачјих мачјим
+71	1071	definitivno	definitivno дефинитивно
+72	1072	rana	rane rana ranu rani ranom ranama рана ране рану рани раном ранама
+73	1073	pritisak	pritisak pritiskom pritiska притисак pritisku притиска pritisaka притиском pritiscima pritisci pritiske притиску притисака притисцима притисци притиске
+74	1074	dozvola	dozvolu dozvola dozvoli dozvole dozvolom дозволу dozvolama дозвола дозволи дозволе дозволом дозволама
+75	1075	ujutru	ujutru ујутру
+76	1076	privatni	privatni privatno privatna privatne privatnu privatnom privatnog privatnim privatnih privatnoj приватно приватни приватне приватна приватном приватну приватним приватног приватних приватној
+77	1077	apsolutno	apsolutno апсолутно
+78	1078	baza	bazu bazi baze baza bazom bazama bazo базу бази база базе базом базама базо
+79	1079	ponuda	ponudu ponuda ponudi ponude ponudom понуду понуда ponudama понуди понуде понудом понудама
+80	1080	pozdrav	pozdrav pozdravi pozdrave pozdrava поздрав поздрави pozdravom pozdravima поздрава поздраве pozdravu поздравом поздравима поздраву
+81	1081	iskustvo	iskustva iskustvo iskustvu iskustvom iskustava искуство iskustvima искуства искуству искуством искустава искуствима
+82	1082	narednik	naredniče narednik narednika naredniku наредниче narednikom наредник narednici наредника narednike нареднику наредником наредници нареднике
+83	1083	ponoviti	ponoviti ponovi ponovite ponovimo ponovim ponoviš ponovio ponoviću ponovila ponovili ponovilo ponove понови поновити ponovićemo ponovljeni ponovljeno поновите ponovljene ponovljena поновимо ponovljen поновим ponoviće поновиш поновио поновићу поновила поновили поновило понове поновићемо поновљени поновљено поновљене поновљена поновљен поновиће
+84	1084	udarac	udarac udarca udaraca udarcem udarce udarci ударац udarcima udarcu ударца удараца ударцем ударце ударци ударцима ударцу
+85	1085	truditi	trudim trudio trudiš trudila trudimo trudi truditi trudili trudite трудим trudiću trude trudeći трудио trudićemo трудимо trudile трудиш трудила труди труде трудити трудили трудите трудићу трудећи трудићемо трудиле
+86	1086	dopadati	dopada dopadaš dopadaju dopadam dopadao допада dopadala dopadalo dopadate dopadamo dopadali dopadati dopadale допадаш допадају допадам допадао допадала допадало допадате допадамо допадали допадати допадале
+87	1087	prljav	prljavi prljava prljave prljav prljavu prljavim prljavog prljavih prljavom prljavoj прљави прљава прљаве прљав prljavije prljaviji najprljaviji najprljavije najprljavija prljavija прљавим прљаву прљаво прљавог прљавих прљавом прљавој прљавије прљавији најпрљавији најпрљавије најпрљавија прљавија
+88	1088	koštati	košta koštati koštalo koštaju koštao koštala koštaće кошта koštale koštali koštaš коштати коштало koštam коштала коштају коштао коштаће коштале коштали кошташ коштам
+89	1089	poštovati	poštujem poštuje poštovati poštuju poštuješ poštujemo poštovao poštuj poštujete poštovali poštujte poštovala поштујем poštovaću poštujući поштују поштује поштујеш poštovaćeš poštovaće поштовати poštovaćemo поштујемо poštujmo poštovaćete poštovale поштуј поштовао поштујете поштовали поштујте поштовала поштоваћу поштујући поштоваћеш поштоваће поштоваћемо поштујмо поштоваћете поштовале
+90	1090	hrabar	hrabar hrabro hrabri hrabra hrabre hrabrog najhrabriji hrabrih hrabriji hrabrim храбар hrabru hrabrom najhrabrija храбри hrabrija najhrabrijih храбро храбра hrabrije najhrabrije najhrabrijeg hrabroj hrabrima hrabrijeg храбре храброг најхрабрији храбрих храбрији храбрим храбру храбром најхрабрија храбрија најхрабријих храбрије најхрабрије најхрабријег храброј храбрима храбријег
+91	1091	pošten	pošteno pošten pošteni poštena poštenu poštenog poštene поштено poštenim poštenih poštenom poštenije поштен poštenoj najpošteniji pošteniji najpoštenije поштени поштена najpoštenija поштену поштеног поштене поштеним поштених поштеном поштеније поштеној најпоштенији поштенији најпоштеније најпоштенија
+92	1092	ugovor	ugovor ugovora ugovoru ugovore ugovori ugovorom уговор ugovorima уговора уговору уговором уговоре уговори уговорима
+93	1093	vredan	vredno vredan vredna vredni vredne vrednu vrednim vrednog vrednije vrednih vredniji вредно vrednom najvrednije najvredniji вредан vrednija najvrednija вредна вредни najvrednijih vrednoj najvredniju вредне vrednijeg вредну вредним вредног вредније вредних вреднији вредном највредније највреднији вреднија највреднија највреднијих вредној највреднију вреднијег
+94	1094	plesati	plesati pleše plešem plešeš plešemo pleši plešu plesala plesali plesao plešete plesanje plešite plešimo plešući plesaću plesale plesaćemo плешем плеше плесати плешеш plesaćeš плешемо плеши плешу plesaće plesalo плесала плесали плесао плешете плесање плешите плешимо плешући плесаћу плесале плесаћемо плесаћеш плесаће плесало
+95	1095	ekipa	ekipa ekipu ekipe ekipi ekipom ekipo екипе екипа екипу ekipama екипи екипом екипо екипама
+96	1096	planina	planine planina planinu planinama planini планине planinom планина планинама планину планини planino планином планино
+97	1097	signal	signal signala signale signali сигнал signalom signalu сигнала signalima сигнале сигнали сигналом сигналу сигналима
+98	1098	svideti	svidelo svideti svideo svidela svideće svidi svideli svidele svidim свидело свидети svidiš svide свидео свидела свидеће svidećeš свиди svidite свидели свиделе свидим свидиш свиде свидећеш свидите
+99	1099	poginuti	poginuo poginuli poginuti poginula poginulo pogine pogineš poginem poginemo poginu poginule poginete poginućeš погинуо poginuće poginućemo погинули погинула погинути poginuću погинуло погине poginućete погинеш pogini погинем погинемо погину погинуле погинете погинућеш погинуће погинућемо погинућу погинућете погини
+100	1100	otkud	otkud откуд

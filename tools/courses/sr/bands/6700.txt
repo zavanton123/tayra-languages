@@ -1,0 +1,100 @@
+1	6601	pariti	parenje pariti pariš parili parite pario parila parim pari парење парити париш парили парите парио парила парим пари
+2	6602	pospan	pospan pospana pospano pospani pospanim pospane поспан поспана поспано поспани поспаним поспане
+3	6603	obradovati	obradovati obradovao obradovala obradovalo obradujem obraduje obradovali obradovaće obraduju obraduješ obraduj обрадовати обрадовао обрадовала обрадовало обрадујем обрадује обрадовали обрадоваће обрадују обрадујеш обрадуј
+4	6604	mokraća	mokraću mokraće mokraća mokraći mokraćom мокраћу мокраће мокраћа мокраћи мокраћом
+5	6605	izvana	izvana извана
+6	6606	žalosno	žalosno жалосно
+7	6607	različito	različito различито
+8	6608	nit	nit nitima нит нитима
+9	6609	teniski	teniski teniskom teniske teniskog teniska tenisku teniskim teniskih tenisko teniskoj тениски тениском тениске тениског тениска тениску тениским тениских тениско тениској
+10	6610	antički	antički antičke antičkog antičkih antičkom antička antičkim antičko antičku antičkoj антички античке античког античких античком античка античким античко античку античкој
+11	6611	arhitekt	arhitekt arhitekte arhitektu arhitekti arhitekata arhitektom архитекта архитект архитекте архитекту архитекти архитеката архитектом
+12	6612	izvorni	izvorni izvorno izvorna izvorne izvornog izvornom izvornu izvornim izvornih изворни изворно изворна изворне изворног изворном изворну изворним изворних
+13	6613	tonuti	tonemo tonem toneš toni tonuo tonula tonuti tonuli tonete tone tonu тони тоне тону тонемо тонем тонеш тонуо тонула тонути тонули тонете
+14	6614	doček	doček dočeka dočeku дочек дочека дочеку
+15	6615	razboljeti	razbolio razboljela razboljeti razboli razboliš razbolim razbole razboljeli razbolite razbolimo разболио разбољела разбољети разболи разболиш разболим разболе разбољели разболите разболимо
+16	6616	otkuda	otkuda откуда
+17	6617	stožer	stožer stožera stožeru stožerom стожер стожера стожеру стожером
+18	6618	domaćinstvo	domaćinstvo domaćinstva domaćinstvu domaćinstava домаћинство домаћинства домаћинству домаћинстава
+19	6619	trinaest	trinaest тринаест
+20	6620	otadžbina	otadžbinu otadžbine otadžbini otadžbina отаџбину отаџбине отаџбини отаџбина
+21	6621	semafor	semaforu semafor semafora semafori semafore semaforima семафору семафор семафора семафори семафоре семафорима
+22	6622	biber	biber bibera biberom biberu бибер бибера бибером биберу
+23	6623	perverzan	perverzni perverzan perverzna perverzne perverznog perverznim perverznu perverznom perverznih перверзни перверзан перверзна перверзне перверзног перверзним перверзну перверзном перверзних
+24	6624	zapasti	zapao zapala zapalo zapadne zapali zapasti zapadnu zapadneš западне zapale западној западна западном запао запала запало запали запасти западну западнеш запале
+25	6625	sinuti	sinulo sinula синуло sinuti sine sinu сине сину синула синути
+26	6626	punč	punč punča punču пунч пунча пунчу
+27	6627	klizav	klizavo klizav klizava klizavi klizave klizavom klizavim клизаво клизав клизава клизави клизаве клизавом клизавим
+28	6628	nadahnuti	nadahnuće nadahnuo nadahnuti nadahnula nadahnut nadahnuto nadahnuta nadahnuli nadahnulo nadahne надахнуће надахнуо надахнути надахнула надахнут надахнуто надахнута надахнули надахнуло надахне
+29	6629	zacijelo	zacijelo зацијело
+30	6630	varka	varka varku varke варка варку варке
+31	6631	ribarski	ribarski ribarskom ribarske ribarska ribarskog ribarsko ribarsku ribarskim ribarskih ribarskoj рибарски рибарском рибарске рибарска рибарског рибарско рибарску рибарским рибарских рибарској
+32	6632	bakšiš	bakšiš bakšiša бакшиш бакшиша
+33	6633	kapuljača	kapuljaču kapuljačom kapuljača kapuljače kapuljačama kapuljači капуљачу капуљачом капуљача капуљаче капуљачама капуљачи
+34	6634	originalno	originalno оригинално
+35	6635	komercijalan	komercijalni komercijalne komercijalnim komercijalna komercijalnih komercijalnog komercijalnu komercijalnom komercijalan комерцијални комерцијалне комерцијалним комерцијална комерцијалних комерцијалног комерцијалну комерцијалном комерцијалан
+36	6636	sumnjivac	sumnjivac sumnjivca sumnjivaca sumnjivce sumnjivci сумњивац сумњивца сумњиваца сумњивце сумњивци
+37	6637	fudbalski	fudbalski fudbalske фудбалски фудбалске
+38	6638	projekcija	projekcije projekcija projekciju projekciji projekcijama пројекције пројекција пројекцију пројекцији пројекцијама
+39	6639	sauna	saunu sauni sauna saune saunom сауну сауни сауна сауне сауном
+40	6640	platac	place placi плаче placa plače placu placem плаце плаци плаца плацу плацем
+41	6641	kokos	kokos kokosa kokosom kokose kokosi кокос кокоса кокосом кокосе кокоси
+42	6642	drskost	drskost drskosti drskošću дрскост дрскости дрскошћу
+43	6643	medijski	medijski medijske medijska medijsku medijskog medijskih medijskom medijsko medijskim medijskoj медијски медијске медијска медијску медијског медијских медијском медијско медијским медијској
+44	6644	zamrzivač	zamrzivač zamrzivaču zamrzivača замрзивач замрзивачу замрзивача
+45	6645	pult	pulta pult pultu pultom пулта пулт пулту пултом
+46	6646	ukrstiti	ukrstili ukrštene ukrstiti ukrste ukrsti ukrstio ukrstite ukrstiš ukršteni ukrstimo ukrstile ukrštena ukrstila ukršteno укрстили укрштене укрстити укрсте укрсти укрстио укрстите укрстиш укрштени укрстимо укрстиле укрштена укрстила укрштено
+47	6647	propaganda	propaganda propagande propagandu propagandi propagandom пропаганда пропаганде пропаганду пропаганди пропагандом
+48	6648	podučiti	podučavati podučiti podučio poduči podučim podučiš podučili podučite podučila подучавати подучити подучио подучи подучим подучиш подучили подучите подучила
+49	6649	mesni	mesne mesni mesna mesnu mesnih mesnim mesnog mesnoj mesnom месне месни месна месну месних месним месног месној месном
+50	6650	čistačica	čistačica čistačice čistačicu čistačicom čistačici чистачица чистачице чистачицу чистачицом чистачици
+51	6651	maksimalno	maksimalno максимално
+52	6652	pedofil	pedofil pedofila pedofili pedofile pedofilu pedofilima pedofilom педофил педофила педофили педофиле педофилу педофилима педофилом
+53	6653	finalni	finalni finalna finalnu finalne finalnoj finalno finalnog finalnom финални финална финалну финалне финалној финално финалног финалном
+54	6654	prastar	prastari prastara prastare prastaro prastarih prastarim prastaru prastarog prastar prastarom прастари прастара прастаре прастаро прастарих прастарим прастару прастарог прастар прастаром
+55	6655	začeti	začet začeće začeta začeti začeto začela začeli začeo začeću začne začnemo зачет зачеће зачета зачети зачето зачела зачели зачео зачећу зачне зачнемо
+56	6656	zanat	zanat zanata zanatu zanatom zanate занат заната занату занатом занате
+57	6657	masovno	masovno масовно
+58	6658	polizati	poliži poližeš polizati polizao poližem poliže polizala poližete poližite полижи полижеш полизати полизао полижем полиже полизала полижете полижите
+59	6659	dobitnik	dobitnik dobitnika dobitnici dobitnike dobitniku dobitnicima добитник добитника добитници добитнике добитнику добитницима
+60	6660	kazalište	kazalište kazalištu kazališta казалиште казалишту казалишта
+61	6661	otpisati	otpisati otpisao otpisali otpisan otpisala otpisani otpišu otpišem otpišeš otpišemo otpiši otpiše otpišete otpisana отписати отписао отписали отписан отписала отписани отпишу отпишем отпишеш отпишемо отпиши отпише отпишете отписана
+62	6662	začaran	začarani začaran začarana začarane začaranu začaranoj začarano začaranih začaranom začaranog зачарани зачаран зачарана зачаране зачарану зачараној зачарано зачараних зачараном зачараног
+63	6663	neznanac	neznanac neznanca neznancima neznanci neznanaca neznancem neznancu neznance neznanče незнанац незнанца незнанцима незнанци незнанаца незнанцем незнанцу незнанце незнанче
+64	6664	kabinet	kabinet кабинет
+65	6665	beskrajno	beskrajno бескрајно
+66	6666	korpus	korpus korpusa korpusu корпус korpusom корпуса корпусу корпусом
+67	6667	kotač	kotač kotača kotače kotači kotačima kotaču котач котача котаче котачи котачима котачу
+68	6668	humanitaran	humanitarne humanitarni humanitarnu humanitarna humanitarnim humanitarnoj humanitarno humanitarnom humanitarnih humanitarnog хуманитарне хуманитарни хуманитарну хуманитарна хуманитарним хуманитарној хуманитарно хуманитарном хуманитарних хуманитарног
+69	6669	plantaža	plantaže plantažu plantaža plantaži plantažama плантаже плантажу плантажа плантажи плантажама
+70	6670	gips	gips gipsu gipsa gipsom гипс гипсу гипса гипсом
+71	6671	slavina	slavine slavinu slavina slavini славине славину славина славини
+72	6672	gušenje	gušenje gušenja gušenjem gušenju гушење гушења гушењем гушењу
+73	6673	bezosećajan	bezosećajan bezosećajna bezosećajno bezosećajni bezosećajne безосећајан безосећајна безосећајно безосећајни безосећајне
+74	6674	osvajač	osvajač osvajača osvajači osvajačima osvajače osvajaču освајач освајача освајачи освајачима освајаче освајачу
+75	6675	omot	omot omotu omota omote omoti omotom omotima омот омоту омота омоте омоти омотом омотима
+76	6676	umaknuti	umakao umaći umakne umakli umakla umakneš umaknu umaknem umaknuti umaknemo umače умакао умаћи умакне умакли умакла умакнеш умакну умакнем умакнути умакнемо умаче
+77	6677	obojiti	obojiti obojio oboji obojila obojim obojili obojimo obojiš obojite oboj обоје обојити обојио обоји обојила обојим обојили обојимо обојиш обојите обој
+78	6678	unatoč	unatoč унаточ
+79	6679	zviždati	zviždi zviždiš zviždanje zviždim zviždao zviždati zvižde zviždali zviždite звижди звиждиш звиждање звиждим звиждао звиждати звижде звиждали звиждите
+80	6680	doživotno	doživotno доживотно
+81	6681	stvarčica	stvarčica стварчица
+82	6682	dijalog	dijalog dijaloga dijaloge dijalozi dijalogu dijalogom dijalozima дијалог дијалога дијалоге дијалози дијалогу дијалогом дијалозима
+83	6683	sudopera	sudoperu sudopere sudopera sudoperi sudoperom судоперу судопере судопера судопери судопером
+84	6684	džoint	džoint džointa džointe џоинт џоинта џоинте
+85	6685	bočni	bočno bočni bočne bočna bočnu bočnim bočnom bočnog bočnoj bočnih бочни бочно бочне бочна бочну бочним бочном бочног бочној бочних
+86	6686	unatrag	unatrag унатраг
+87	6687	algoritam	algoritam algoritme algoritmi algoritma algoritama algoritmima algoritmu algoritmom алгоритам алгоритме алгоритми алгоритма алгоритама алгоритмима алгоритму алгоритмом
+88	6688	favorit	favorit favorita favoriti favorite фаворит фаворита фаворити фаворите
+89	6689	himna	himnu himna himne himni himnom химну химна химне химни химном
+90	6690	pušač	pušač pušači pušača pušaču pušače pušačica pušačem пушач пушачи пушача пушачу пушаче пушачица пушачем
+91	6691	cilindar	cilindar cilindra cilindara cilindre cilindru cilindrom cilindri cilindrima цилиндар цилиндра цилиндара цилиндре цилиндру цилиндром цилиндри цилиндрима
+92	6692	izgorjeti	izgorio izgorjela izgori izgorjeti izgorjelo izgorjeli izgore izgorim izgoriš izgorjele izgorimo izgorite изгорио изгорјела изгори изгорјети изгорјело изгорјели изгоре изгорим изгориш изгорјеле изгоримо изгорите
+93	6693	čekaonica	čekaonici čekaonicu čekaonica čekaonice чекаоници чекаоницу чекаоница чекаонице
+94	6694	ugljen	ugljen ugljena ugljene ugljeni ugljenom угљен угљена угљене угљени угљеном
+95	6695	sekta	sekte sekta sekti sektu sektama sektom секте секта секти секту сектама сектом
+96	6696	glasač	glasači glasača glasače glasačima glasač гласачи гласача гласаче гласачима гласач
+97	6697	starinski	starinski starinska starinske starinsko starinsku starinskim starinskog starinskom starinskih старински старинска старинске старинско старинску старинским старинског старинском старинских
+98	6698	ćorsokak	ćorsokak ćorsokaku ćorsokaka ћорсокак ćorsokaci ћорсокаку ћорсокака ћорсокаци
+99	6699	sisati	sisao sisati sisanje sisala siši siše sisali sišu сисати sisajući сисао сисање сисала сиши сише сисали сишу сисајући
+100	6700	spelovati	speluje spelujem speluješ spelovanje speluj spelovati spelujete spelovao spelovala speluju спелује спелујем спелујеш спеловање спелуј спеловати спелујете спеловао спеловала спелују

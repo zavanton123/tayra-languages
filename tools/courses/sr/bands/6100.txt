@@ -1,0 +1,100 @@
+1	6001	vosak	vosak voska voskom vosku восак воска воском воску
+2	6002	govornik	govornik govornici govornika говорник govorniče govornike говорници говорника говорниче говорнике
+3	6003	nasilnik	nasilnik nasilnika nasilnici nasilnike nasilnicima nasilniče nasilnikom насилник насилника насилници насилнике насилницима насилниче насилником
+4	6004	pevačica	pevačica pevačicu pevačice pevačicom певачица певачицу певачице певачицом
+5	6005	neizbežno	neizbežno неизбежно
+6	6006	nasmijati	nasmijao nasmijati nasmijala nasmij nasmije nasmijali nasmiješ nasmijem nasmijana nasmijan nasmijano nasmijte nasmijani насмијао насмијати насмијала насмиј насмије насмијали насмијеш насмијем насмијана насмијан насмијано насмијте насмијани
+7	6007	specifičan	specifičan specifične specifična specifičnu specifični specifičnim specifičnom specifičnih specifičnog specifičnoj специфичан специфичне специфична специфичну специфични специфичним специфичном специфичних специфичног специфичној
+8	6008	kapital	kapital kapitala kapitalom kapitalu капитал капитала капиталом капиталу
+9	6009	ugrizati	ugrizao ugriza угризао угриза
+10	6010	kofein	kofeina kofein kofeinom кофеина кофеин кофеином
+11	6011	odstraniti	odstraniti odstrani odstranjen odstranili odstranio odstranim odstranimo odstrane odstranite odstranjena odstranila odstranjeni odstraniš odstranjeno одстранити одстрани одстрањен одстранили одстранио одстраним одстранимо одстране одстраните одстрањена одстранила одстрањени одстраниш одстрањено
+12	6012	klanjati	klanja klanjam klanjaju klanjati klanjamo klanjaš klanjali klanjanje klanjate klanjao klanjaj klanjajte клања клањам клањају клањати клањамо клањаш клањали клањање клањате клањао клањај клањајте
+13	6013	sotona	sotona sotone sotono sotonu sotoni sotonom сотона сотоне сотоно сотону сотони сотоном
+14	6014	ladica	ladici ladicu ladice ladica ladicama ладици ладицу ладице ладица ладицама
+15	6015	uredan	uredan uredna uredni uredne urednim urednu urednije urednom uredniji уредан уредна уредни уредне уредним уредну уредније уредном уреднији
+16	6016	oceniti	ocene ocenim oceniti ocenio ocenili ocenjen ocenila ocenite ocenjeni oceniš оцене ocenjena ocenimo oceni оценим оценити оценио оценили оцењен оценила оцените оцењени оцениш оцењена оценимо оцени
+17	6017	dinar	dinar dinara динара динар
+18	6018	grkljan	grkljan grkljana grkljane гркљан гркљана гркљане
+19	6019	manevar	manevar manevri manevre manevrima manevara manevra manevrom маневар маневри маневре маневрима маневара маневра маневром
+20	6020	fleka	fleke fleka fleku flek flekama flekom флеке флека флеку флек флекама флеком
+21	6021	plac	placa plac placu placem placeva плаца плац плацу плацем плацева
+22	6022	obveznica	obveznice obveznica obveznicama obveznici obveznicu обвезнице обвезница обвезницама обвезници обвезницу
+23	6023	poternica	poternicu poternica poternice poternici потерницу poternicama потерница потернице потерници потерницама
+24	6024	debeljko	debeljko debeljka debeljkom дебељко debeljku дебељка дебељком дебељку
+25	6025	did	didi did dida диди дид дида
+26	6026	udeo	udeo udela udeli удео udelu удела удели уделу
+27	6027	prezir	prezir prezira preziru prezirom презир презира презиру презиром
+28	6028	golicati	golica golicanje golicaš golicaju golicam golicaj golicati golicao golicate голица голицање голицаш голицају голицам голицај голицати голицао голицате
+29	6029	imidž	imidž imidža imidžu imidžom имиџ имиџа имиџу имиџом
+30	6030	bombarder	bombarderi bombardera bombarder bombardere bombarderima bombarderu бомбардер бомбардера бомбардери бомбардере бомбардерима бомбардеру
+31	6031	prizivati	priziva prizivanje prizivam prizivamo prizivaju prizivaš prizivao prizivati prizivaj prizivala prizivate prizivali призива призивање призивам призивамо призивају призиваш призивао призивати призивај призивала призивате призивали
+32	6032	svilen	svilene svileni svilena svilenu svilenim svilenih svileno svilenom svilenoj svilen svilenog свилене свилени свилена свилену свиленим свилених свилено свиленом свиленој свилен свиленог
+33	6033	marketing	marketing marketinga marketingu marketingom маркетинг маркетинга маркетингу маркетингом
+34	6034	diktator	diktator diktatora diktatori diktatore diktatorima diktatoru diktatorom диктатор диктатора диктатори диктаторе диктаторима диктатору диктатором
+35	6035	lani	lani лани
+36	6036	počivati	počiva počivati почива почивати
+37	6037	esej	esej eseja eseje eseju eseji esejima есеј есеја есеје есеју есеји есејима
+38	6038	infuzija	infuziju infuzija infuzije infuzijom инфузију infuziji инфузија инфузије инфузијом инфузији
+39	6039	prostitucija	prostitucije prostitucija prostituciju prostitucijom prostituciji проституције проституција проституцију проституцијом проституцији
+40	6040	negovati	neguje negovala negujem negovati negovao neguješ negujemo neguju negovanje negovali negujete neguj negovana negujući негује неговала негујем неговати неговао негујеш негујемо негују неговање неговали негујете негуј негована негујући
+41	6041	bojiti	bojim bojiš bojenje boje bojiti bojite bojio boji bojila bojimo bojeći бојим бојиш бојите боје бојимо боји бојење бојити бојио бојила бојећи
+42	6042	konflikt	konflikt konflikta konfliktu konflikte konflikata konflikti konfliktima konfliktom конфликт конфликта конфликту конфликте конфликата конфликти конфликтима конфликтом
+43	6043	bolovati	boluje bolovao bolujem boluješ bolovala boluju bolujete bolovali болује боловао болујем болујеш боловала болују болујете боловали
+44	6044	omlet	omlet omleta omlete omletu омлет омлета омлете омлету
+45	6045	kviz	kviz kvizu kviza kvizove kvizovi kvizova квиз квизу квиза квизове квизови квизова
+46	6046	zamerati	zameraš zameram zamerate zamera zamerati zameraju zamerao zamerala замераш замерам замерате замера замерати замерају замерао замерала
+47	6047	carica	carica carice caricu carici царица caricom царице царицу царици царицом
+48	6048	mehanički	mehanički mehaničke mehanička mehaničkog mehaničkih mehaničko mehaničkim mehaničku mehaničkom механички механичке механичка механичког механичких механичко механичким механичку механичком
+49	6049	zadirkivati	zadirkuješ zadirkuju zadirkuje zadirkivali zadirkivao zadirkujem zadirkivati zadirkivala zadirkivanje zadirkuj zadirkujete zadirkujemo задиркујеш задиркују задиркује задиркивали задиркивао задиркујем задиркивати задиркивала задиркивање задиркуј задиркујете задиркујемо
+50	6050	odletjeti	odleti odletjeti odletio odletjela odlete odletimo odletim odletiš odletjeli odletite одлети одлетјети одлетио одлетјела одлете одлетимо одлетим одлетиш одлетјели одлетите
+51	6051	uhoda	uhoda uhodi uhode uhodu uhodo ухода уходи уходе уходу уходо
+52	6052	pridržavati	pridržavati pridržava pridržavam pridržavaju pridržavaš pridržavamo pridržavao pridržavate pridržavaj pridržavajte pridržavali pridržavanje pridržavala придржавати придржава придржавам придржавају придржаваш придржавамо придржавао придржавате придржавај придржавајте придржавали придржавање придржавала
+53	6053	jelovnik	jelovnik jelovniku jelovnika jelovnike jelovnici јеловник јеловнику јеловника јеловнике јеловници
+54	6054	bajat	baj baju bajat bajate baje bajato bajata bajati бај бају бајат бајате баје бајато бајата бајати
+55	6055	kemijski	kemijsku kemijski kemijska kemijske kemijsko kemijskog kemijskom kemijskih kemijskim kemijskoj кемијску кемијски кемијска кемијске кемијско кемијског кемијском кемијских кемијским кемијској
+56	6056	krem	krem крем
+57	6057	transfer	transfer transfera transferu transfere трансфер transferi transferom трансфера трансферу трансфере трансфери трансфером
+58	6058	mol	mol mole molu mola molom моле мол молу мола молом
+59	6059	popuštati	popušta popuštam popuštaju popuštaš popuštaj popuštati popuštanje popuštao popuštamo popuštajte popuštala попушта попуштам попуштају попушташ попуштај попуштати попуштање попуштао попуштамо попуштајте попуштала
+60	6060	ekskluzivan	ekskluzivni ekskluzivna ekskluzivnu ekskluzivan ekskluzivne ekskluzivnom ekskluzivnog ekskluzivnim ekskluzivnoj ekskluzivnih najekskluzivniji ексклузивни ексклузивна ексклузивну ексклузиван ексклузивне ексклузивном ексклузивног ексклузивним ексклузивној ексклузивних најексклузивнији
+61	6061	štene	štene штене šteneta štenetom штенета штенетом
+62	6062	entuzijazam	entuzijazam entuzijazma entuzijazmom entuzijazmu ентузијазам ентузијазма ентузијазмом ентузијазму
+63	6063	kovač	kovač kovača ковач kovaču kovači ковача ковачу ковачи
+64	6064	zvezdica	zvezdica zvezdice zvezdicu zvezdicama zvezdicom звездица звездице звездицу звездицама звездицом
+65	6065	idiotski	idiotski idiotska idiotske idiotsku idiotskih idiotskog idiotskim idiotsko idiotskom идиотски идиотска идиотске идиотску идиотских идиотског идиотским идиотско идиотском
+66	6066	lišiti	lišen lišiti lišeni lišena lišio liši lišava lišim lišavanje lišila lišili lišiš lišeno liše lišavam lišene лишен лишити лишени лишена лишио лиши лишава лишим лишавање лишила лишили лишиш лишено лише лишавам лишене
+67	6067	radikalan	radikalne radikalni radikalna radikalan radikalnih radikalnu radikalnim radikalnog radikalnom radikalnije radikalniji радикалне радикални радикална радикалан радикалних радикалну радикалним радикалног радикалном радикалније радикалнији
+68	6068	hibrid	hibrid hibrida hibridi hibride hibridima hibridu хибрид хибрида хибриди хибриде хибридима хибриду
+69	6069	zvučnik	zvučnik zvučnike zvučnika zvučnici zvučniku zvučnicima звучник звучнике звучника звучници звучнику звучницима
+70	6070	prerasti	prerasla prerastao prerasti preraste preraslo prerasli prerastu prerasle prerasteš прерасла прерастао прерасти прерасте прерасло прерасли прерасту прерасле прерастеш
+71	6071	dakako	dakako дакако
+72	6072	darežljiv	darežljiv darežljiva darežljivo darežljivi darežljive darežljivu darežljiviji darežljivog дарежљив дарежљива дарежљиво дарежљиви дарежљиве дарежљиву дарежљивији дарежљивог
+73	6073	meša	meša меша
+74	6074	krater	krater kratera krateru krateri kratere kraterima кратер кратера кратеру кратери кратере кратерима
+75	6075	napamet	napamet напамет
+76	6076	priručnik	priručnik priručniku priručnika priručnike priručnici приручник приручнику приручника приручнике приручници
+77	6077	iskrasti	iskrao iskrala iskrasti iskradem iskradeš iskrali iskrade iskrademo iskradi искрао искрала искрасти искрадем искрадеш искрали искраде искрадемо искради
+78	6078	najprije	najprije најприје
+79	6079	hrkati	hrče hrčeš hrkanje hrčem hrkao hrkala hrču hrčete hrkati хрче хрчеш хркање хрчем хркао хркала хрчу хрчете хркати
+80	6080	šoping	šoping шопинг
+81	6081	etiketa	etiketu etikete etiketa etiketi etiketom etiketama етикету етикете етикета етикети етикетом етикетама
+82	6082	maloletnik	maloletnika maloletnike maloletnik maloletnice maloletnicima maloletnica maloletnici maloletnicom maloletnikom maloletnicu maloletniku maloletnicama малолетника малолетнике малолетник малолетнице малолетницима малолетница малолетници малолетницом малолетником малолетницу малолетнику малолетницама
+83	6083	anketa	ankete anketu anketa anketama anketi анкете анкету анкета анкетама анкети
+84	6084	unaprijed	unaprijed унапријед
+85	6085	zvaničnik	zvaničnici zvaničnika zvaničnik zvaničnike zvaničnicima званичници званичника званичник званичнике званичницима
+86	6086	krvoproliće	krvoproliće krvoprolića krvoprolićem krvoproliću крвопролиће крвопролића крвопролићем крвопролићу
+87	6087	pirinač	pirinač пиринач
+88	6088	mazga	mazga mazge mazgu mazgi mazgo mazgama mazgom мазга мазге мазгу мазги мазго мазгама мазгом
+89	6089	rival	rivala rival rivali rivale rivalima rivalom rivalu ривала ривал ривали ривале ривалима ривалом ривалу
+90	6090	sekirati	sekiraj sekiraš sekirajte sekiram sekirati sekirao sekirate секирај секираш секирајте секирам секирати секирао секирате
+91	6091	tupan	tupane tupan tupani tupana tupanima tupanom тупане тупан тупани тупана тупанима тупаном
+92	6092	obmana	obmana obmane obmanu obmani obmanama obmanom обмана обмане обману обмани обманама обманом
+93	6093	arheolog	arheolog arheolozi arheologa arheologe археолози arheolozima археолог археолога археологе археолозима
+94	6094	crijevo	crijeva crijevo crijevom crijevu цријева цријево цријевом цријеву
+95	6095	ošamariti	ošamarila ošamario ošamari ošamarim ošamariti ošamariću ošamariš ošamarili ошамарила ошамарио ошамари ошамарим ошамарити ошамарићу ошамариш ошамарили
+96	6096	sklonost	sklonost sklonosti sklonostima sklonošću склоност склоности склоностима склоношћу
+97	6097	dušek	dušek dušeka dušeku dušeke dušeci dušekom dušecima душек душека душеку душеке душеци душеком душецима
+98	6098	katedrala	katedrale katedrala katedralu katedrali катедрале катедрала катедралу катедрали
+99	6099	sveska	svesku sveske sveska svesci sveskama sveskom svezaka свеску свеске свеска свесци свескама свеском свезака
+100	6100	trajekt	trajekt trajektu trajekta trajektom trajekte трајект trajekti трајекту трајекта трајектом трајекте трајекти

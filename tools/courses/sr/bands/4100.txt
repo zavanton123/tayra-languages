@@ -1,0 +1,100 @@
+1	4001	zavoj	zavoj zavoje zavoja zavoji zavojima zavoju zavojem завој завоје завоја завоји завојима завоју завојем
+2	4002	orah	orah oraha orahe orasi orasima орах orahom орахе ораха ораси орасима орахом
+3	4003	trofej	trofej trofeje trofeja trofeji trofejima трофеј trofeju trofejem трофеје трофеја трофеји трофејима трофеју трофејем
+4	4004	polazak	polazak polaska полазак polasku поласка поласку
+5	4005	savezni	savezni savezne savezna saveznog saveznom saveznih saveznu saveznim saveznoj savezno савезни савезне савезна савезног савезном савезних савезну савезним савезној савезно
+6	4006	grom	grom groma gromova grome gromovi гром gromove gromom gromovima gromu грома громова громе громови громове громом громовима грому
+7	4007	namamiti	namamio namamiti namami namamimo namamila namamili namamim namamiš namame namamite namamljen namamićemo namamljeni namamljena namamiću намами намамио намамити намамимо намамила намамили намамим намамиш намаме намамите намамљен намамићемо намамљени намамљена намамићу
+8	4008	poručiti	poručuje poručio poruči poručite poručim poručila poručiti poručili poručimo poručiš poručujem poručuju poručuješ poručiću poručeno poruče поручује поручио поручи поручите поручим поручила поручити поручили поручимо поручиш поручујем поручују поручујеш поручићу поручено поруче
+9	4009	provjeravati	provjeravam provjerava provjeravamo provjeravao provjeravati provjeravaju provjeravaš provjeravala provjeravali provjeravate provjeravanje provjeravaj провјеравам провјерава провјеравамо провјеравао провјеравати провјеравају провјераваш провјеравала провјеравали провјеравате провјеравање провјеравај
+10	4010	psihološki	psihološki psihološke psihološka psihološku psihološko psihološkog psiholoških psihološkom psihološkim psihološkoj психолошки психолошке психолошка психолошку психолошко психолошког психолошких психолошком психолошким психолошкој
+11	4011	zanemariti	zanemariti zanemari zanemario zanemarimo zanemarite zanemarili zanemarim zanemarila zanemariš zanemarena zanemare zanemareni zanemaren zanemareno zanemarene zanemariću занемарити занемари занемарио занемаримо занемарите занемарили занемарим занемарила занемариш занемарена занемаре занемарени занемарен занемарено занемарене занемарићу
+12	4012	sekira	sekiru sekirom sekira sekire sekirama секиру секира sekiri секиром секире секирама секири
+13	4013	dužina	dužine dužina dužinu dužini dužinom dužinama дужине дужину дужина дужини дужином дужинама
+14	4014	prezirati	prezirem prezire prezireš prezirao prezirati prezirete prezirala prezirali preziru preziremo preziranje презирем презире презиреш презирао презирати презирете презирала презирали презиру презиремо презирање
+15	4015	dostava	dostavu dostava dostave dostavi dostavom доставу достави достава доставе доставом
+16	4016	radionica	radionicu radionici radionica radionice radionicama радионицу радионици радионица радионице радионицама
+17	4017	potera	potera poteru poteri potere poterom потеру потера потери потере потером
+18	4018	puter	puter putera puterom puteru путер putra путера путером путеру путра
+19	4019	večnost	večnost večnosti вечност večnošću вечности вечношћу
+20	4020	privilegija	privilegija privilegije privilegiju privilegijama привилегије привилегија privilegijom привилегију привилегијама привилегијом
+21	4021	evropski	evropski evropske evropska evropskih evropskim evropsku europski evropskoj europske europska europskih europskog europskim europsku europskom europskoj европски европске европска европских европским европску еуропски европској еуропске еуропска еуропских еуропског еуропским еуропску еуропском еуропској
+22	4022	transport	transport transporta transportu transportom транспорт transporti transporte транспорта транспорту транспортом транспорти транспорте
+23	4023	dostojanstvo	dostojanstvo dostojanstva dostojanstvom dostojanstvu достојанство достојанства достојанством достојанству
+24	4024	luđak	luđak luđaka luđaci luđakinja luđače luđakom luđake luđaku luđacima луђак луђака луђаци луђакиња луђаче луђаком луђаке луђаку луђацима
+25	4025	cigla	cigle ciglu cigla cigli cigala ciglom ciglama цигле циглу цигла цигли цигала циглом циглама
+26	4026	institut	institut instituta institutu institute institutom институт института институту институте институтом
+27	4027	rezerva	rezerve rezervi rezerva rezervu rezervama rezervom резерви резерве резерва резерву резервама резервом
+28	4028	identifikacija	identifikaciju identifikacija identifikacije identifikaciji identifikacijom идентификацију идентификација идентификације идентификацији идентификацијом
+29	4029	pomišljati	pomišljaj pomišljao pomišljaš pomišljam pomišljala pomišljati pomišljajte pomišljali pomišlja pomišljate pomišljamo pomišljaju помишљај помишљао помишљаш помишљам помишљала помишљати помишљајте помишљали помишља помишљате помишљамо помишљају
+30	4030	slijep	slijep slijepa slijepi slijepo slijepog slijepe slijepu slijepoj slijepih slijepim slijepom slijepima слијеп слијепа слијепи слијепо слијепог слијепе слијепу слијепој слијепих слијепим слијепом слијепима
+31	4031	upotrijebiti	upotrijebiti upotrijebi upotrijebio upotrijebite upotrijebila upotrijebili upotrijebim upotrijebiš upotrijebimo upotrijebljeno upotrijebljen употријебити употријеби употријебио употријебите употријебила употријебили употријебим употријебиш употријебимо употријебљено употријебљен
+32	4032	apetit	apetit apetita apetitom apetite апетит apetiti apetitu апетита апетитом апетите апетити апетиту
+33	4033	okidač	okidač okidaču okidača окидач okidačem okidače okidači окидачу окидача окидачем окидаче окидачи
+34	4034	kvaliteta	kvaliteta kvalitete kvalitetu kvaliteti kvalitetom квалитета квалитете квалитету квалитети квалитетом
+35	4035	svršiti	svrši svršio svršim svršiš svršiti svršila svršiću svršimo svrše svršen svršili svršite сврши свршио свршим свршиш свршити свршила свршићу свршимо сврше свршен свршили свршите
+36	4036	vagon	vagon vagona vagonu vagone vagonima vagoni vagonom вагон вагону вагона вагоне вагонима вагони вагоном
+37	4037	hrišćanin	hrišćanin hrišćani hrišćana hrišćane hrišćanima hrišćanina хришћани хришћанин hrišćanine hrišćaninom хришћана хришћане хришћанима хришћанина хришћанине хришћанином
+38	4038	vladar	vladar vladara vladari vladaru vladare vladarima владар владара владари владару владаре владарима
+39	4039	takmičiti	takmičiti takmičim takmiči takmiče takmičiš takmičimo takmičili takmičio takmičite takmičila такмиче такмичити такмичим такмичи такмичиш такмичимо такмичили такмичио такмичите такмичила
+40	4040	le	le ле
+41	4041	rastati	rastali rastao rastati rastanemo rastala rastanu rastanem растао rastanete rastane растали rastaneš растати растанемо растала растану растанем растанете растане растанеш
+42	4042	plin	plin plina plinom plinova plinovi plinove plinovima plinu плин плина плином плинова плинови плинове плиновима плину
+43	4043	kip	kip kipa kipu kipovi kipove kipova kipom kipe кип kipovima кипа кипу кипови кипове кипова кипом кипе киповима
+44	4044	navijač	navijačica navijači navijač navijača navijače navijačima navijački navijačka navijačke navijačku navijačkom навијачица навијачи навијач навијача навијаче навијачима навијачки навијачка навијачке навијачку навијачком
+45	4045	vrućina	vrućina vrućine vrućini vrućinu vrućinom врућина врућине врућини врућину врућином
+46	4046	pat	pat pata patu пат patom пата пату патом
+47	4047	impresionirati	impresionirati impresionira impresionirao impresioniraš impresioniram impresionirala impresionirali impresioniralo impresioniraju impresionirate impresioniramo impresioniraj импресионира импресионирати импресионирао импресионираш импресионирам импресионирала импресионирали импресионирало импресионирају импресионирате импресионирамо импресионирај
+48	4048	bandit	banditi bandit bandita bandite banditima banditu бандити banditom бандита бандит бандите бандитима бандиту бандитом
+49	4049	procenat	procenat procenata procenta procentom procentima procente procentu проценат procenti процената процента процентом процентима проценте проценту проценти
+50	4050	nastavak	nastavak nastavku nastavka nastavcima наставак nastavaka nastavkom nastavke nastavci наставку наставка наставцима наставака наставком наставке наставци
+51	4051	sjećanje	sjećanja sjećanje sjećanju sjećanjima sjećanjem сјећања сјећање сјећању сјећањима сјећањем
+52	4052	plod	plod plodove plodovi plodova plodovima plodom ploda плод плодове плодови плодова плодовима плодом плода
+53	4053	turski	turske turska turskoj turski tursku turskom turskog tursko turskim turskih турске турска турској турски турску турском турског турско турским турских
+54	4054	komitet	komitet komiteta komitetu komitetom комитет комитета komiteti комитету комитетом комитети
+55	4055	izjaviti	izjavio izjavila izjavili izjavim izjaviti izjave izjavite izjaviš izjavi изјавио izjavimo izjavilo изјаве изјави изјавила изјавили изјавим изјавити изјавите изјавиш изјавимо изјавило
+56	4056	griješiti	griješiš griješim griješite griješi griješimo griješio griješiti griješila griješili griješe гријешиш гријешим гријешите гријеши гријешимо гријешио гријешити гријешила гријешили гријеше
+57	4057	ljeto	ljeto ljeta ljetu љето љета љету
+58	4058	putanja	putanju putanja putanje putanji putanjom putanjama путању путања путање путањи путањом путањама
+59	4059	razmatrati	razmatranje razmatra razmatramo razmatram razmatrali razmatrao razmatraju razmatrati razmatraš razmatrala razmatrate razmatrajući разматра razmatran разматрање разматрамо разматрам разматрали разматрао разматрају разматрати разматраш разматрала разматрате разматрајући разматран
+60	4060	nesposoban	nesposoban nesposobni nesposobna nesposobnim nesposobne nesposobnom nesposobnog nesposobno nesposobnih неспособан неспособни неспособна неспособним неспособне неспособном неспособног неспособно неспособних
+61	4061	pukotina	pukotine pukotina pukotinu pukotinama pukotini пукотине пукотина пукотину пукотинама пукотини
+62	4062	legalno	legalno легално
+63	4063	prilog	prilog priloge priloga prilogu prilozi prilozima prilogom прилог прилоге прилога прилогу прилози прилозима прилогом
+64	4064	begunac	begunac begunca begunci begunce begunaca beguncima beguncu beguncem бегунац бегунца бегунци бегунце бегунаца бегунцима бегунцу бегунцем
+65	4065	potpisivati	potpisujem potpisivanje potpisuje potpisivanja potpisuješ potpisuju potpisivao potpisivati potpisujemo potpisuj potpisujete potpisivala potpisivali potpisujte potpisujući потписујем потписивање потписује потписивања потписујеш потписују потписивао потписивати потписујемо потписуј потписујете потписивала потписивали потписујте потписујући
+66	4066	namjera	namjeru namjere namjera namjerom namjeri namjerama намјеру намјере намјера намјером намјери намјерама
+67	4067	zaliv	zalivu zaliva zaliv zalivom залива заливу залив заливом
+68	4068	košarka	košarku košarka košarke košarci košarkom кошарку кошарка кошарке кошарци кошарком
+69	4069	urednik	urednik urednika uredniku urednikom urednici urednicima urednike uredniče уредник уредника уреднику уредником уредници уредницима уреднике уредниче
+70	4070	bled	bledi bleda bled bledo blede bledu bledog bledim bledom bleđi бледи бледа блед бледо бледе бледу бледог бледим бледом блеђи
+71	4071	sol	sol soli solju сол соли solima сољу солима
+72	4072	prekidač	prekidač prekidača prekidače prekidači prekidačem прекидач prekidaču prekidačima прекидача прекидаче прекидачи прекидачем прекидачу прекидачима
+73	4073	svjetski	svjetski svjetskog svjetskom svjetske svjetska svjetskih svjetsko svjetsku svjetskoj svjetskim свјетски свјетског свјетском свјетске свјетска свјетских свјетско свјетску свјетској свјетским
+74	4074	karo	kara karo karu karom кара каро кару каром
+75	4075	manastir	manastir manastiru manastira манастир manastire manastiri manastirima манастиру манастира манастире манастири манастирима
+76	4076	prljavština	prljavštinu prljavštine prljavština prljavštini prljavštinom prljavštino прљавштину прљавштине прљавштина прљавштини прљавштином прљавштино
+77	4077	prikriti	prikrije prikrio prikriti prikriveni prikrili prikriju prikriveno prikrila prikrivena prikriješ prikrijem prikriven prikrivene prikrijemo prikrijete прикрије prikrij прикрио прикрити прикривени прикрили прикрију прикривено прикрила прикривена прикријеш прикријем прикривен прикривене прикријемо прикријете прикриј
+78	4078	potencijalan	potencijalni potencijalne potencijalnih potencijalna potencijalnog potencijalnim potencijalnu potencijalnom potencijalnoj потенцијални potencijalan потенцијалне потенцијалних потенцијална потенцијалног потенцијалним потенцијалну потенцијалном потенцијалној потенцијалан
+79	4079	podsjećati	podsjeća podsjećam podsjećaš podsjećati podsjećaju podsjećate podsjećaj podsjećao podsjećala podsjećanje podsjećalo подсјећа подсјећам подсјећаш подсјећати подсјећају подсјећате подсјећај подсјећао подсјећала подсјећање подсјећало
+80	4080	desetina	desetine desetina desetinama desetinu десетине десетина десетинама десетину
+81	4081	kontinent	kontinenta kontinent kontinentu kontinenata kontinenti kontinente kontinentom kontinentima континента континент континенту континената континенти континенте континентом континентима
+82	4082	pijaca	pijaci pijacu pijace pijaca пијаци pijacama пијаца пијаце пијацу пијацама
+83	4083	delić	delić deliće delići delića deliću делић delićem delićima делиће делићи делића делићу делићем делићима
+84	4084	orman	ormanu orman ormana ormane орман ormani ormanima орману ормана ормане ормани орманима
+85	4085	politi	poli polio polila politi polijem polij polili poliju polije poliješ polijte поли полио полила полити полијем полиј полили полију полије полијеш полијте
+86	4086	nestrpljiv	nestrpljiv nestrpljivi nestrpljiva nestrpljivo нестрпљив nestrpljive нестрпљиви нестрпљива нестрпљиво нестрпљиве
+87	4087	besmisleno	besmisleno бесмислено
+88	4088	bure	bure burad buretu bureta buradi burence buretom буре бурад бурету бурета буради буренце буретом
+89	4089	divljak	divljaci divljak divljaka divljacima divljake divljaku divljače дивљаци divljakom дивљак дивљака дивљацима дивљаке дивљаку дивљаче дивљаком
+90	4090	kamila	kamila kamile kamilo kamilu kamili kamilama kamilom камила камило камиле камилу камили камилама камилом
+91	4091	progoniti	progoni progone progoniti progonio progonjen progoniš progonili progonjeni progonim progonila progonite progonjena progonimo progoniće progonjene progonilo progoniću прогони прогоне прогонити прогонио прогоњен прогониш прогонили прогоњени прогоним прогонила прогоните прогоњена прогонимо прогониће прогоњене прогонило прогонићу
+92	4092	čelik	čelika čelik čelikom čeliku челика челик челиком челику
+93	4093	zanimanje	zanimanje zanimanja zanimanju zanimanjem занимање zanimanjima занимања занимању занимањем занимањима
+94	4094	nesretan	nesretan nesretna nesretni nesretno nesretnim nesretne nesretnom nesretnog nesretnih nesretnu nesretnoj несретан несретна несретни несретно несретним несретне несретном несретног несретних несретну несретној
+95	4095	miješati	miješati miješaj miješam miješa miješaš miješaju miješanje miješajte miješao miješate miješamo miješala miješali мијешати мијешај мијешам мијеша мијешаш мијешају мијешање мијешајте мијешао мијешате мијешамо мијешала мијешали
+96	4096	zeko	zeka zeko zeke zeku zeki zekom зеке зека зеко зеку зеки зеком
+97	4097	kapsula	kapsula kapsulu kapsule kapsuli kapsulama kapsulom капсула капсулу капсуле капсули капсулама капсулом
+98	4098	zločinac	zločinac zločinca zločinci zločince zločinaca zločincima zločincu zločincem злочинац злочинца злочинци злочинце злочинаца злочинцима злочинцу злочинцем
+99	4099	krzno	krzno krzna krznom krznu крзно krznima крзна крзном крзну крзнима
+100	4100	radijacija	radijacije radijacija radijaciju radijacijom radijaciji радијације радијација радијацију радијацијом радијацији

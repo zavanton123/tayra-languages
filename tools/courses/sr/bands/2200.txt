@@ -1,0 +1,100 @@
+1	2101	zakazati	zakazano zakazao zakazan zakazala zakazati zakažem zakazali zakaži zakaže zakažemo zakazana zakazaću zakažete zakažeš zakažite zakazani zakazane zakažu заказано zakazaćemo zakazalo zakazale заказао заказан заказала заказати закажем заказали закажи закаже закажемо заказана заказаћу закажете закажеш закажите заказани заказане закажу заказаћемо заказало заказале
+2	2102	senka	senke senka senci senku senkama senkom senko сенке сенка сенку сенци сенкама сенком сенко
+3	2103	rep	rep repa repom repu repove repe реп ripa repovi repova repovima репа репом репу репове репе рипа репови репова реповима
+4	2104	grlo	grlo grla grlu грло grlom грла грлу грлом
+5	2105	trening	trening treninga treningu treninge treningom тренинг treninzima treninzi тренинга тренингу тренинге тренингом тренинзима тренинзи
+6	2106	ondje	ondje ондје
+7	2107	upozorenje	upozorenje upozorenja упозорење упозорења
+8	2108	dodatan	dodatni dodatne dodatnih dodatna dodatnu dodatnog dodatnim dodatnom dodatan додатне додатни додатних dodatnoj додатну додатна додатног додатним додатном додатан додатној
+9	2109	štap	štap štapom štapa štapove štapu štapovi štapova štapovima штап штапом штапа штапове штапу штапови штапова штаповима
+10	2110	učestvovati	učestvovao učestvujem učestvuje učestvovati učestvuješ učestvovali učestvuju učestvovala učestvujete učestvujemo učestvovanje učestvovalo učestvovale učestvuj učestvovaću učestvovaće учествовао учествујем учествује учествовати учествујеш учествовали учествују учествовала учествујете учествујемо учествовање учествовало учествовале учествуј учествоваћу учествоваће
+11	2111	prostorija	prostoriji prostorije prostoriju prostorija prostorijama просторији просторије просторију просторија prostorijom просторијама просторијом
+12	2112	stručnjak	stručnjak stručnjaka stručnjaci stručnjake стручњак stručnjakom stručnjacima stručnjaku стручњаци стручњака стручњаке стручњаком стручњацима стручњаку
+13	2113	sedište	sedišta sedište sedištu sedištima sedištem седишта седиште седишту седиштима седиштем
+14	2114	gubitnik	gubitnik gubitnici gubitnika gubitniče gubitnike gubitnicima gubitnikom губитник gubitniku губитници губитника губитниче губитнике губитницима губитником губитнику
+15	2115	čvrsto	čvrsto cvrsto чврсто цврсто
+16	2116	počiniti	počinio počinili počinila počini počiniti počinjeno počinjen počine počinjena počiniš počinim починио počinite počinjeni počinjene počinilo počinimo починили počinile почини починила починити почињено почињен почине почињена починиш починим почините почињени почињене починило починимо починиле
+17	2117	roman	roman romana romane romanu romanima romani роман romanom романа роману романе романима романи романом
+18	2118	razdvojiti	razdvojeni razdvojimo razdvojiti razdvojili razdvoji razdvojite razdvoje razdvojene razdvojio razdvojim razdvojila razdvojiš razdvojen razdvojićemo razdvojena razdvojile razdvojilo раздвојимо razdvojiće раздвојити раздвојени раздвојили раздвоји раздвојите раздвоје раздвојене раздвојио раздвојим раздвојила раздвојиш раздвојен раздвојићемо раздвојена раздвојиле раздвојило раздвојиће
+19	2119	trenirati	trenirao treniram trenira trenirati treniraš trenirali treniramo trenirani treniranje treniraju treniran trenirala trenirate treniraj trenirana trenirajući treniraću trenirane тренирао тренира тренирам treniraćemo тренирати тренираш тренирали тренирамо тренирани тренирање тренирају трениран тренирала тренирате тренирај тренирана тренирајући тренираћу трениране тренираћемо
+20	2120	nastup	nastup nastupa nastupu nastupi nastupe nastupom nastupima наступ наступа наступу наступи наступе наступом наступима
+21	2121	generacija	generacije generacija generacijama generaciju generaciji generacijom генерације генерација генерацију генерацијама генерацији генерацијом
+22	2122	osumnjičiti	osumnjičeni osumnjičen osumnjičena osumnjičene осумњичени осумњичен osumnjičili осумњичена осумњичене осумњичили
+23	2123	komanda	komandu komande komanda komandom komandi komando команду komandama команда команде командом команди командо командама
+24	2124	doista	doista доиста
+25	2125	tužiti	tužiti tuži tužim tužiću tuže tužio tužite tužila tužiš tužimo tužili tuženi tužićemo tužiće tužen tužena tužićeš тужити тужи тужим тужићу туже тужио тужите тужила тужиш тужимо тужили тужени тужићемо тужиће тужен тужена тужићеш
+26	2126	približiti	približi približiti približio približim približiš približite približimo približe približili približila približilo приближи približiću približile приближити приближио приближим приближиш приближите приближимо приближе приближили приближила приближило приближићу приближиле
+27	2127	udaljen	udaljen udaljeni udaljena udaljeno udaljene udaljenom udaljenim udaljenih udaljenog udaljenoj udaljenu najudaljenije najudaljenijih udaljeniji udaljenije najudaljeniji удаљен najudaljenija удаљени удаљена udaljenija najudaljenijim удаљене удаљено удаљеном удаљеним удаљених удаљеног удаљеној удаљену најудаљеније најудаљенијих удаљенији удаљеније најудаљенији најудаљенија удаљенија најудаљенијим
+28	2128	kampanja	kampanju kampanje kampanja kampanji kampanjom кампању кампање kampanjama кампања кампањи кампањом кампањама
+29	2129	tačan	tačan tačnije tačna tačne tačni tačnu tačnog тачан tačnim tačnom tačnih tačniji тачна тачније тачне tačnija тачни tačnoj тачну тачног тачним тачном тачних тачнији тачнија тачној
+30	2130	glasina	glasine glasina glasinama glasinu гласине гласина glasini гласинама гласину гласини
+31	2131	brisati	briši briše brišem brišite brisanje brišemo brišimo brišeš brišu brisati brisao brisala бриши brišete брише brišući brisali брисање бришем бришите бришемо бришимо бришеш бришу брисати брисао брисала бришете бришући брисали
+32	2132	period	period periodu perioda periode период periodi periodima periodom периода периоду периоде периоди периодима периодом
+33	2133	ponos	ponos ponosa ponosom ponosi ponosu понос ponose поноса поносом поноси поносу поносе
+34	2134	han	hana han hanu хана hane hanom хан хану хане ханом
+35	2135	uostalom	uostalom уосталом
+36	2136	skakati	skače skači skakanje skaču skačeš skačem skakati skakao skačemo skačite skakali skakala skačete skačući скаче скачи skačimo skakale скакање скачу скачеш скачем скакати скакао скачемо скачите скакали скакала скачете скачући скачимо скакале
+37	2137	terorist	terorista teroristi teroristima teroriste terorist teroristu teroristom терориста терористи терористима терористе терорист терористу терористом
+38	2138	oštetiti	oštećen oštećenje oštećena oštećeni oštetio oštećeno oštetiti oštećene ošteti oštetila oštetili oštetiš oštetilo oštete oštetimo oštetite oštetim оштећен оштећење oštetile оштећени оштећена оштетио оштећено оштетити оштећене оштети оштетила оштетили оштетиш оштетило оштете оштетимо оштетите оштетим оштетиле
+39	2139	povreda	povreda povrede povredi povredu povredama povredom повреда повреде повреди повреду повредама повредом
+40	2140	odvojiti	odvojiti odvojeni odvojene odvoji odvojena odvojio odvojim odvojili odvojimo odvojila odvojiš odvojite odvoje odvojilo odvojiću odvojićemo odvojile одвојити одвојене одвоји одвојите одвојена одвојени одвојио одвојим одвојили одвојимо одвојила одвојиш одвоје одвојило одвојићу одвојићемо одвојиле
+41	2141	tretirati	tretiraju tretira tretiraš tretirati tretirao tretirate tretirali tretiramo tretiram tretiraj tretirala tretiran tretirani tretirana tretirajte третира третирају третирати tretirane tretiraću tretiranje tretiraće tretiraćemo tretirano tretirajući третираш третирао третирате третирали третирамо третирам третирај третирала третиран третирани третирана третирајте третиране третираћу третирање третираће третираћемо третирано третирајући
+42	2142	osmeh	osmeh osmehom osmeha осмех osmesi osmehu osmehe osmesima осмехом осмеха осмеси осмеху осмехе осмесима
+43	2143	lift	lift liftu lifta liftom liftovi liftove лифт liftova liftovima лифту лифта лифтом лифтови лифтове лифтова лифтовима
+44	2144	intervju	intervju intervjua intervjue intervjuu интервју intervjui intervjuima intervjuom интервјуа интервјуу интервјуе интервјуи интервјуима интервјуом
+45	2145	naredni	narednih naredne naredna naredni narednog narednim narednu narednom наредних narednoj naredno наредне наредна наредни наредног наредним наредну наредном наредној наредно
+46	2146	odobriti	odobrio odobriti odobreno odobri odobren odobrila odobrili odobrena odobrim odobre odobrite odobriš odobreni odobrene odobrimo odobrilo odobriću одобрено одобрио одобри одобрити одобрен одобрила одобрили одобрена одобрим одобре одобрите одобриш одобрени одобрене одобримо одобрило одобрићу
+47	2147	planet	planet planete planeti planetu planetima planetom планети планете планету планет планетима планетом
+48	2148	liti	lili lila lio лили lijem lilo lile лила liti liste lije liše liju лију лио лијем лило лиле лити листе лије лише
+49	2149	sneg	sneg snega snegu snegom снег снега снегу snegovi снегом снегови
+50	2150	provera	proveri provera proveru provere провери proverom провера проверу proverama провере провером проверама
+51	2151	izuzetno	izuzetno изузетно
+52	2152	šetnja	šetnju šetnja šetnje šetnji шетњу šetnjom šetnjama шетња шетње шетњи шетњом шетњама
+53	2153	smrdeti	smrdi smrdiš smrde smrdim smrdeo smrdelo smrdela smrdeti smrdite смрди smrdimo smrdeli smrdeći смрдиш смрде смрдим смрдео смрдело смрдела смрдети смрдите смрдимо смрдели смрдећи
+54	2154	blokirati	blokira blokiran blokirao blokirali blokiraju blokirati blokiraj blokirani blokirana blokirajte blokiraš blokirala blokiram blokirano blokiramo blokirate blokirane blokiranje blokiralo blokirajući блокира blokiraćemo blokirale blokiraću блокиран блокирају блокирао блокирали блокирати блокирај блокирани блокирана блокирајте блокираш блокирала блокирам блокирано блокирамо блокирате блокиране блокирање блокирало блокирајући блокираћемо блокирале блокираћу
+55	2155	prebiti	prebio prebiti prebijem prebili prebiću prebijene prebije prebijen prebila prebiješ prebiju prebijena prebit prebijemo prebij prebiće prebijeni prebijte prebijete prebićemo пребио prebijeno пребити prebi пребијем пребили пребићу пребијене пребије пребијен пребила пребијеш пребију пребијена пребит пребијемо пребиј пребиће пребијени пребијте пребијете пребићемо пребијено преби
+56	2156	aktivnost	aktivnosti aktivnost aktivnostima активности aktivnošću активност активностима активношћу
+57	2157	muzej	muzej muzeju muzeja muzeje muzejima muzeji музеј музеју музеја muzejom музеје музејима музеји музејом
+58	2158	potrajati	potrajati potraje potrajaće potrajalo potraju potrajao потрајати potrajala потраје потрајаће потрајало потрају потрајао потрајала
+59	2159	upala	upala upali upalu upale upalo упали упала upalom упалу упале упало упалом
+60	2160	svađa	svađa svađe svađu svađi svađom svađama свађе свађа свађу свађи свађом свађама
+61	2161	slučajnost	slučajnost slučajnosti случајност slučajnošću случајности slučajnostima случајношћу случајностима
+62	2162	nečiji	nečiji nečije nečija nečiju nečijeg nečijem nečijoj nečijim nečijom nečijih нечији нечија нечије нечију нечијег нечијем нечијој нечијим нечијом нечијих
+63	2163	špijun	špijun špijuna špijuni špijune špijunima шпијун špijunu špijunom шпијуна шпијуни шпијуне шпијунима шпијуну шпијуном
+64	2164	smrtan	smrtnu smrtna smrtno smrtne smrtni smrtnoj smrtnih smrtnom smrtnim smrtnog smrtan смртну smrtnoga смртни смртно смртна смртне смртној смртних смртном смртним смртног смртан смртнога
+65	2165	svedočiti	svedočenje svedoči svedočiti svedočio svedočim svedočiš svedočila svedočite svedočili svedočiću svedočimo svedočiće сведочење сведочи svedočićeš сведочити svedoče сведочио сведочим сведочиш сведочила сведочите сведочили сведочићу сведочимо сведочиће сведочићеш сведоче
+66	2166	teret	teret tereta teretom teretu tereti терет terete терета теретом терету терети терете
+67	2167	partija	partiju partija partije partiji partijom партије партија partijama партију партији партијом партијама
+68	2168	prošetati	prošetamo prošetam prošetati prošetaj prošetaš prošetajmo prošeta prošetao prošetaću prošetali prošetajte prošetala prošetate prošeći prošećimo prošetaćemo prošetaju прошетамо prošećite prošećemo прошетам прошетај прошетати прошеташ прошетајмо прошета прошетао прошетаћу прошетали прошетајте прошетала прошетате прошећи прошећимо прошетаћемо прошетају прошећите прошећемо
+69	2169	štit	štit štitovi štitove štite štita štitova štitu štitom штит štitovima штите штитови штитове штита штитова штиту штитом штитовима
+70	2170	molitva	molitve molitvu molitva molitvi molitvama molitvom молитве молитву молитва молитвама молитви молитвом
+71	2171	utorak	utorak utorka utorkom уторак уторка utorci уторком уторци
+72	2172	porez	porez poreza poreze porezi poreski porezom porezima porezni porezu пореза порез порезе порези порески порезом порезима порезни порезу
+73	2173	smesta	smesta сместа
+74	2174	zamalo	zamalo замало
+75	2175	ponedeljak	ponedeljak ponedeljka ponedeljkom понедељак понедељка ponedeljke понедељком понедељке
+76	2176	motiv	motiv motiva motive motivi мотив motivima motivom motivu мотива мотиви мотиве мотивима мотивом мотиву
+77	2177	brada	bradu brada bradom brade bradi браду bradama брада брадом браде бради брадама
+78	2178	uticaj	uticaj uticaja uticajem uticaju утицај uticaje uticaji утицаја uticajima утицајем утицају утицаје утицаји утицајима
+79	2179	rast	raste rast rastu rasta rastom расте раст раста расту растом
+80	2180	neobično	neobično необично
+81	2181	žut	žuti žute žuto žutu žutim žutom žutog žutih žutoj žut жути жуте žuća жуту žuće жуто žuću жутим жутом жутог жутих жутој жут жућа жуће жућу
+82	2182	otarasiti	otarasi otarasiti otarasim otarasimo otarasiš otarasio otarasite otarasili otarasila otarase otarasiću otarasićemo отараси отарасити отарасим отарасимо отарасиш отарасио отарасите отарасили отарасила отарасе отарасићу отарасићемо
+83	2183	svež	svež sveža svežeg sveži svežu svežim svežem svežih svežom свеж svežije najsvežije svežiji svežoj свежа свежег najsvežiji свежи свежу свежим свежем свежих свежом свежије најсвежије свежији свежој најсвежији
+84	2184	drveće	drveće drveća drveću drvećem дрвеће дрвећа дрвећу дрвећем
+85	2185	odjeća	odjeću odjeća odjeće odjeći odjećom одјећу одјећа одјеће одјећи одјећом
+86	2186	snaći	snaći snašlo snašao snađe snašla snađem snađi snađeš snašli snađemo snađu снаћи snađite snađete snašle снашло снашао снађе снашла снађем снађи снађеш снашли снађемо снађу снађите снађете снашле
+87	2187	jao	jao јао
+88	2188	predlog	predlog predloga predloge predlogu предлог predlogom predlozi predlozima predlože предлоге предлога предлогу предлогом предлози предлозима предложе
+89	2189	prethodan	prethodnim prethodne prethodnih prethodni prethodnog prethodna prethodnom prethodnoj prethodnu претходним претходних претходне претходни претходног претходна претходном претходној претходну
+90	2190	stric	stric striče strica stricu stricem стриц stričevi стриче stričeva stričeve стрица стрицу стрицем стричеви стричева стричеве
+91	2191	veština	veštine veština veštinu veštinama veštini veštinom вештине вештина вештину вештинама вештини вештином
+92	2192	zajebati	zajebao zajebeš zajebano zajebati zajebali zajebala zajeban zajebe zajebem zajebana zajebu zajebani zajebemo zajebete zajebane зајебао zajeba zajebaćeš зајебеш зајебано зајебати зајебали зајебала зајебан зајебе зајебем зајебана зајебу зајебани зајебемо зајебете зајебане зајеба зајебаћеш
+93	2193	ulog	ulogu ulog uloge ulozi ulozima ulogom улогу ulože улог улоге улози улозима улогом уложе
+94	2194	trošak	troškove troškovi troškova trošak troškovima trošku трошкове troška трошкови трошкова трошак трошковима трошку трошка
+95	2195	tužno	tužno тужно
+96	2196	uvesti	uvedi uvesti uvedite uvedem uveli uvede uvela uvedemo uvedeš uvedu uveden uvešću uvezi uvedete uvelo uvedimo uvedena uvele uvoditi uvešćemo уведи uvezen uvezli uvedeni uvezena uvedeno uvezene uvezeno уведите uvešće uveze uvedene увести уведем увели уведе увела уведемо уведеш уведу уведен увешћу увези уведете увело уведимо уведена увеле уводити увешћемо увезен увезли уведени увезена уведено увезене увезено увешће увезе уведене
+97	2197	koliki	koliki kolika kolike koliku kolikoj kolikom колика колики kolikim колике колику коликој коликом коликим
+98	2198	slovo	slova slovo slovima slovom slovu слова слово словима словом слову
+99	2199	skupiti	skupiti skupio skupite skupili skupimo skupila skupi skupljati skupe skupiš skupim skupilo skupljene skupićemo skupile skupiću skupljena skupljeni skupih skupljeno скупите скупили скупи скупе скупити скупио скупимо скупила скупљати скупиш скупим скупило скупљене скупићемо скупиле скупићу скупљена скупљени скупих скупљено
+100	2200	razviti	razvio razvili razvila razvije razviti razviju razvijen razvijena razvijem razvile razvijemo razvilo razviješ razvijene razvijeni razvijeno razvijete razvijte razvij развили развио развила razviću развије развити развију развијен развијена развијем развиле развијемо развило развијеш развијене развијени развијено развијете развијте развиј развићу

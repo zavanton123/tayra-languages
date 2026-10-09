@@ -1,0 +1,100 @@
+1	8901	nasip	nasip nasipa nasipu nasipe насип насипа насипу насипе
+2	8902	riđ	riđi riđa riđu riđe riđeg riđ риђи риђа риђу риђе риђег риђ
+3	8903	prokrijumčariti	prokrijumčario prokrijumčariti prokrijumčarili prokrijumčari prokrijumčarila prokrijumčarim prokrijumčare prokrijumčarena prokrijumčaren прокријумчарио прокријумчарити прокријумчарили прокријумчари прокријумчарила прокријумчарим прокријумчаре прокријумчарена прокријумчарен
+4	8904	obostran	obostrana obostranu obostran obostrani obostrane obostranom obostranog обострана обострану обостран обострани обостране обостраном обостраног
+5	8905	podlac	podlac podlače podlaca podlaci подлац подлаче подлаца подлаци
+6	8906	planer	planer planeri planera planeru планер планери планера планеру
+7	8907	katran	katran katrana katranom katranu катран катрана катраном катрану
+8	8908	šalter	šalter šalteru šaltera шалтер шалтеру шалтера
+9	8909	monarhija	monarhije monarhija monarhiju monarhiji монархије монархија монархију монархији
+10	8910	detinjasto	detinjasto детињасто
+11	8911	blagoslovljen	blagoslovljen благословљен
+12	8912	strahovit	strahovito strahovit strahovita strahovite strahovitu strahovitom страховито страховит страховита страховите страховиту страховитом
+13	8913	humanost	humanost humanosti хуманост хуманости
+14	8914	sakupljač	sakupljač sakupljači sakupljača сакупљач сакупљачи сакупљача
+15	8915	fiziološki	fiziološki fiziološke fiziološku fiziološka fiziološkog физиолошког физиолошки физиолошке физиолошку физиолошка
+16	8916	osporavati	osporava osporavam osporavati osporavaju osporavaš osporavate osporavanje оспорава оспоравам оспоравати оспоравају оспораваш оспоравате оспоравање
+17	8917	ćuretina	ćuretinu ćuretina ćuretine ćuretinom ћуретину ћуретина ћуретине ћуретином
+18	8918	pivski	pivski pivske pivsku pivskih pivska pivskom pivskim пивски пивске пивску пивских пивска пивском пивским
+19	8919	pojednostaviti	pojednostavim pojednostavimo pojednostaviti pojednostavljeno pojednostaviću pojednostavi поједноставим поједноставимо поједноставити поједностављено поједноставићу поједностави
+20	8920	uzburkati	uzburkano uzburkati uzburka uzburkala uzburkao uzburkana uzburkalo uzburkane uzburkan uzburkali узбуркано узбуркати узбурка узбуркала узбуркао узбуркана узбуркало узбуркане узбуркан узбуркали
+21	8921	razglas	razglas razglasa razglasi razglasu разглас разгласа разгласи разгласу
+22	8922	hlad	hladu hlad hlade hlada хладу хлад хладе хлада
+23	8923	antilopa	antilopa antilope antilopu антилопа антилопе антилопу
+24	8924	spokojan	spokojan spokojna spokojni спокојан спокојна спокојни
+25	8925	odredba	odredbe odredba odredbama odredbi odredbu одредбе одредба одредбама одредби одредбу
+26	8926	predosjećaj	predosjećaj predosjećaja предосјећај предосјећаја
+27	8927	vandalizam	vandalizam vandalizma vandalizmu вандализам вандализма вандализму
+28	8928	proćaskati	proćaskamo proćaskam proćaskali proćaskati proćaska proćaskao проћаскамо проћаскам проћаскали проћаскати проћаска проћаскао
+29	8929	privržen	privržen privržena privrženi privrženo привржен привржена привржени привржено
+30	8930	harfa	harfu harfa harfe harfi harfom харфу харфа харфе харфи харфом
+31	8931	dezertirati	dezertirao dezertirali dezertiranje dezertira dezertirala dezertirati dezertiraju dezertiram дезертирао дезертирали дезертирање дезертира дезертирала дезертирати дезертирају дезертирам
+32	8932	kolektivan	kolektivne kolektivnu kolektivni kolektivna kolektivnog kolektivnom kolektivnoj колективне колективну колективни колективна колективног колективном колективној
+33	8933	priviknuti	priviknuti priviknem privikne privikao privikneš privići priviknu privikla privikni привикнути привикнем привикне привикао привикнеш привићи привикну привикла привикни
+34	8934	prepad	prepad prepada prepade prepadu препад препада препаде препаду
+35	8935	diktatura	diktatura diktature diktaturu diktaturi diktaturom диктатура диктатуре диктатуру диктатури диктатуром
+36	8936	drot	drot drotovi drota дрот дротови дрота
+37	8937	jugozapad	jugozapadu jugozapad jugozapada југозападу југозапад југозапада
+38	8938	kondukter	kondukter konduktera kondukteru кондуктер кондуктера кондуктеру
+39	8939	podoficir	podoficir podoficira podoficiru podoficire podoficiri подофицир подофицира подофициру подофицире подофицири
+40	8940	odjeljenje	odjeljenje odjeljenja odjeljenju одјељење одјељења одјељењу
+41	8941	prigušiti	prigušeno prigušen priguši prigušena prigušeni prigušiti prigušite пригушено пригушен пригуши пригушена пригушени пригушити пригушите
+42	8942	snop	snop snopa snopove snopu snopovi snopom сноп снопа снопове снопу снопови снопом
+43	8943	rt	rta rt rtu рта рт рту
+44	8944	svud	svud свуд
+45	8945	prekjuče	prekjuče прекјуче
+46	8946	korice	korice корице
+47	8947	jaz	jaz jaza јаз jazu јаза јазу
+48	8948	golman	golman golmana golmanu голман голмана голману
+49	8949	pričljiv	pričljiv pričljiva pričljivi причљив причљива причљиви
+50	8950	ogavan	ogavno ogavni ogavna ogavan ogavne огавно огавни огавна огаван огавне
+51	8951	pesticid	pesticida pesticide pesticid pesticidi pesticidima пестицида пестициде пестицид пестициди пестицидима
+52	8952	mirisan	mirisne mirisni mirisna mirisnu mirisnih mirisnim mirisno мирисне мирисни мирисна мирисну мирисних мирисним мирисно
+53	8953	vetrenjača	vetrenjača vetrenjače vetrenjaču vetrenjačama vetrenjači ветрењача ветрењаче ветрењачу ветрењачама ветрењачи
+54	8954	gramofon	gramofon gramofona gramofonu грамофон грамофона грамофону
+55	8955	galija	galije galija galiji galiju галије галија галији галију
+56	8956	nezaštićen	nezaštićen nezaštićena nezaštićeni nezaštićene nezaštićeno nezaštićenog nezaštićenu незаштићен незаштићена незаштићени незаштићене незаштићено незаштићеног незаштићену
+57	8957	unca	unci unce uncu unca унци унце унцу унца
+58	8958	izba	izbo izbi избо изби
+59	8959	patos	patos patosu patosa патос патосу патоса
+60	8960	krelac	krelac крелац
+61	8961	improvizacija	improvizacija improvizacije improvizaciju improvizaciji импровизација импровизације импровизацију импровизацији
+62	8962	kraljevina	kraljevine kraljevina kraljevinu kraljevini kraljevinom краљевине краљевина краљевину краљевини краљевином
+63	8963	legitimacija	legitimaciju legitimacije legitimacija легитимацију легитимације легитимација
+64	8964	pošast	pošast pošasti пошаст пошасти
+65	8965	frakcija	frakcije frakcija frakciju фракције фракција фракцију
+66	8966	primjedba	primjedbe primjedbi primjedba primjedbu примједбе примједби примједба примједбу
+67	8967	mena	mena menom menu meno мена меном мену мено
+68	8968	august	august аугуст
+69	8969	proliv	proliv пролив
+70	8970	metež	metež meteža metežu метеж метежа метежу
+71	8971	oplodnja	oplodnju oplodnje oplodnja oplodnjom oplodnji оплодњу оплодње оплодња оплодњом оплодњи
+72	8972	stiska	stiska stisci stiskom stisku стиска стисци стиском стиску
+73	8973	željezan	željezni željezne željezna željeznom željeznu željeznog željeznim željeznih жељезни жељезне жељезна жељезном жељезну жељезног жељезним жељезних
+74	8974	šrapnel	šrapnel šrapnela šrapneli šrapnele шрапнел шрапнела шрапнели шрапнеле
+75	8975	taština	taština taštine taštinu taštini taštinom таштина таштине таштину таштини таштином
+76	8976	devetnaest	devetnaest деветнаест
+77	8977	rekreacija	rekreaciju rekreacije rekreacija рекреацију рекреације рекреација
+78	8978	inovacija	inovacije inovacija inovacijama inovaciju иновације иновација иновацијама иновацију
+79	8979	zbijati	zbijaš zbija zbijaju zbijao zbijam zbijate zbijati zbijaj zbijanje збијаш збија збијају збијао збијам збијате збијати збијај збијање
+80	8980	kapati	kaplje kapala kapanje kaplju капље капала капање капљу
+81	8981	protivno	protivno противно
+82	8982	nasmiješiti	nasmiješi nasmiješio nasmiješila nasmiješiti nasmiješite насмијеши насмијешио насмијешила насмијешити насмијешите
+83	8983	nadvladati	nadvladati nadvlada nadvladala nadvladao nadvladaju nadvladali надвладати надвлада надвладала надвладао надвладају надвладали
+84	8984	bezvrijedan	bezvrijedan bezvrijedno bezvrijedna bezvrijedni bezvrijedne безвриједан безвриједно безвриједна безвриједни безвриједне
+85	8985	blještav	blještavo blještava blještavi blještave blještav blještavim blještavom blještavu blještavog бљештаво бљештава бљештави бљештаве бљештав бљештавим бљештавом бљештаву бљештавог
+86	8986	postolje	postolje postolja postolju постоље постоља постољу
+87	8987	harem	harem haremu harema харем харему харема
+88	8988	tanker	tanker tankera tankere tankeru tankeri танкер танкера танкере танкеру танкери
+89	8989	nagrađivati	nagrađuje nagrađivani nagrađuju nagrađujem nagrađujemo nagrađivanje nagrađivane nagrađivan награђује награђивани награђују награђујем награђујемо награђивање награђиване награђиван
+90	8990	bliskost	bliskost bliskosti блискост блискости
+91	8991	naslaga	naslage naslaga naslagama наслаге наслага наслагама
+92	8992	džudo	džuda džudo džudu džudom џуда џудо џуду џудом
+93	8993	konvencionalan	konvencionalna konvencionalni konvencionalne konvencionalan konvencionalnim konvencionalnom konvencionalnih konvencionalnu konvencionalnog конвенционална конвенционални конвенционалне конвенционалан конвенционалним конвенционалном конвенционалних конвенционалну конвенционалног
+94	8994	blejati	blejiš blejimo blejim bleji blejanje bleje blejao blejite blejali blejati блејиш блејимо блејим блеји блејање блеје блејао блејите блејали блејати
+95	8995	naveče	naveče навече
+96	8996	suptilno	suptilno суптилно
+97	8997	pješice	pješice пјешице
+98	8998	potkrovlje	potkrovlje поткровље
+99	8999	bruka	bruka bruku bruke брука бруку бруке
+100	9000	nezavisno	nezavisno независно

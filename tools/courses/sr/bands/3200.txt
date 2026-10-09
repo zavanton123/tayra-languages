@@ -1,0 +1,100 @@
+1	3101	povremeno	povremeno повремено
+2	3102	smeh	smeh smeha смех smehom smeše smehu смеха смехом смеше смеху
+3	3103	trideset	trideset тридесет
+4	3104	satelit	satelit satelita sateliti satelite satelitu satelitom satelitima сателит сателита сателити сателите сателиту сателитом сателитима
+5	3105	odjel	odjel odjela odjelu odjelima odjelom odjele odjeli одјел одјела одјелу одјелима одјелом одјеле одјели
+6	3106	naopako	naopako наопако
+7	3107	konopac	konopac konopca konopce konopcem konopcu konopcima konopci konopaca конопац конопца конопце конопцем конопцу конопцима конопци конопаца
+8	3108	šminka	šminku šminka šminke šminkom šminki шминку шминка шминке шминком шминки
+9	3109	fantazija	fantazija fantazije fantaziju fantazijama fantaziji фантазија фантазије fantazijom фантазију фантазијама фантазији фантазијом
+10	3110	rečenica	rečenica rečenicu rečenice rečenici rečenicom rečenicama реченицу реченица реченице реченици реченицом реченицама
+11	3111	orao	orao orla orlovi orlova orlove orlov orle orlu orlovo orlovima orlom орао орла orlovski oral orli orlovom орлови орлова орлове орлов орле орлу орлово орловима орлом орловски орал орли орловом
+12	3112	sitnica	sitnica sitnice sitnicu sitnicama ситница sitnicom sitnici ситнице ситницу ситницама ситницом ситници
+13	3113	nezgoda	nezgoda nezgodu nezgode nezgodi незгода nezgodama nezgodom незгоду незгоде незгоди незгодама незгодом
+14	3114	asistent	asistent asistenta asistentu asistenti asistentom асистент asistenata asistente asistentima асистента асистенту асистенти асистентом асистената асистенте асистентима
+15	3115	olakšati	olakšati olakšam olakša olakšao olakšaj olakšaš olakšalo olakšala olakšamo olakšali olakšaću olakšaju olakšate olakšajte olakšano olakšan olakšaće olakšajmo олакшати олакшам олакша олакшао олакшај олакшаш олакшало олакшала олакшамо олакшали олакшаћу олакшају олакшате олакшајте олакшано олакшан олакшаће олакшајмо
+16	3116	deka	deka deko deku deke deki dekom деко dekama дека деку деке деки деком декама
+17	3117	farmer	farmer farmera farmeri farmere farmeru farmerima farmerom фармер фармери фармера фармере фармеру фармерима фармером
+18	3118	pobuna	pobuna pobunu pobune pobuni pobunom побуна побуну побуне pobunama побуни побуном побунама
+19	3119	objekat	objekat objekta objekti objekata objekte objektu objektima објекат objektom објекта објекту објеката објекти објекте објектима објектом
+20	3120	ajkula	ajkula ajkule ajkulu ajkulama ајкула ajkulom ajkuli ајкуле ajkulo ајкулу ајкулама ајкулом ајкули ајкуло
+21	3121	bračni	bračni bračne bračnu bračna bračnog bračno bračnih bračnim bračnom bračnoj брачни брачне брачну брачна брачног брачно брачних брачним брачном брачној
+22	3122	devica	devica device devicu девица devici devicom devicama девице девицу девици девицом девицама
+23	3123	šokirati	šokiran šokirana šokirani šokirati šokira šokiralo šokirala šokirao šokirano šokiram šokirali šokiraš шокиран šokiraju šokiraj шокирана šokirate šokirale шокирани шокирати шокира шокирало шокирала шокирао шокирано шокирам шокирали шокираш шокирају шокирај шокирате шокирале
+24	3124	sudski	sudski sudskog sudske sudsku sudskim sudska sudskom sudskih sudsko судски sudskoj судског судске судску судским судска судском судских судско судској
+25	3125	ulazak	ulazak ulaska ulasku ulaskom улазак уласка ulazaka ulaske уласку уласком улазака уласке
+26	3126	razvesti	razveli razveo razvela razvesti razvede razvedem razvedemo razvedeš razvedu razvedete razvedi razvešću развели развео развела развести разведе разведем разведемо разведеш разведу разведете разведи развешћу
+27	3127	ugodan	ugodan ugodna ugodnije ugodnu ugodne ugodni ugodnom ugodnim ugodnog ugodniji угодан ugodnih ugodnijim ugodnoj najugodnije угодно угодна угодније угодну угодне угодни угодном угодним угодног угоднији угодних угоднијим угодној најугодније
+28	3128	metoda	metode metoda metodama metodu metodom metodi метода методе методама методу методом методи
+29	3129	odred	odred odreda odredi odredu odrede odredom одред odredima одреда одреди одреду одреде одредом одредима
+30	3130	savetovati	savetujem savetovao savetuje savetovala savetovali savetuješ savetovati savetujemo savetuju savetujete саветујем savetuj саветовао savetujte savetovano саветује саветовала саветовали саветујеш саветовати саветујемо саветују саветујете саветуј саветујте саветовано
+31	3131	okončati	okončati okonča okončam okončao okončamo okončan okončaš okončala okončana okončali okončaj okončaju okončanje okončate okončalo okončaću okončano okončajmo оконча okončaćemo okončani окончати okončajte окончам окончао окончамо окончан окончаш окончала окончана окончали окончај окончају окончање окончате окончало окончаћу окончано окончајмо окончаћемо окончани окончајте
+32	3132	stanovnik	stanovnici stanovnika stanovnike stanovnik stanovnicima становници становника становник stanovniku stanovnica становнике становницима становнику становница
+33	3133	uzbuđenje	uzbuđenje uzbuđenja uzbuđenjem uzbuđenju узбуђење узбуђења uzbuđenjima узбуђењем узбуђењу узбуђењима
+34	3134	klovn	klovn klovna klovnovi klovnova klovnove klovnu klovnom klovnovima кловн klovne кловна кловнови кловнова кловнове кловну кловном кловновима кловне
+35	3135	nasmejati	nasmejao nasmej nasmeje nasmejala nasmeješ nasmejati nasmejem nasmejana nasmejani nasmejali nasmejan nasmejte nasmejano nasmejemo nasmejane nasmeju nasmejete nasmejalo nasmeja насмејао насмеј насмеје насмејала насмејеш насмејати насмејем насмејана насмејани насмејали насмејан насмејте насмејано насмејемо насмејане насмеју насмејете насмејало насмеја
+36	3136	jutarnji	jutarnje jutarnji jutarnja jutarnju jutarnjim jutarnjeg jutarnjem jutarnjoj jutarnjih jutarnjom јутарње јутарњи јутарња јутарњу јутарњим јутарњег јутарњем јутарњој јутарњих јутарњом
+37	3137	ujediniti	ujedinjeni ujedinjene ujediniti ujedinimo ujedini ujedinjenje ujedinjena ujedine ujedinio ujedinili ujedinite ujedinila ujedinjeno ujedinjen ujedinim ujedinile ujediniš ujedinilo уједињени уједињене ујединити ујединимо уједини уједињење уједињена уједине ујединио ујединили уједините ујединила уједињено уједињен ујединим ујединиле ујединиш ујединило
+38	3138	čudak	čudak čudaka čudaci čudaku čudake čudakom čudacima чудак čudače чудака чудаци чудаку чудаке чудаком чудацима чудаче
+39	3139	potom	potom потом
+40	3140	but	but bute buta butu butom бут буте бута буту бутом
+41	3141	trenutan	trenutni trenutna trenutne trenutnu trenutnom trenutnim trenutnog trenutnoj trenutnih trenutan тренутни тренутна тренутне тренутну тренутном тренутним тренутног тренутној тренутних тренутан
+42	3142	žedan	žedan žedna žedni žedne žedno жедан жедна žednog žednih žednim жедни жедне жедно жедног жедних жедним
+43	3143	pogreška	pogreška pogrešku pogreške pogrešaka pogreškom pogreškama pogrešci погрешка погрешку погрешке погрешака погрешком погрешкама погрешци
+44	3144	izvještaj	izvještaj izvještaje izvještaju izvještaja izvještaji izvještajima izvještajem извјештај извјештаје извјештају извјештаја извјештаји извјештајима извјештајем
+45	3145	proučavati	proučavao proučava proučavam proučavali proučavaju proučavati proučavala proučavamo proučavajući proučavaš proučavate проучавао проучава проучавам проучавали проучавају проучавати проучавала проучавамо проучавајући проучаваш проучавате
+46	3146	istinski	istinski istinska istinsku istinske istinsko istinskog istinskom истински istinskim istinskih istinskoj истинска истинску истинске истинско истинског истинском истинским истинских истинској
+47	3147	ekran	ekran ekranu ekrana ekranom ekranima ekrane ekrani екран екрану екрана екраном екранима екране екрани
+48	3148	udaljiti	udalji udaljite udaljiti udaljili udaljio udaljim udaljiš udaljimo udaljila udalje udaljile udaljilo удаљи удаљите удаљити удаљили удаљио удаљим удаљиш удаљимо удаљила удаље удаљиле удаљило
+49	3149	izgoreti	izgoreo izgorela izgori izgorelo izgoreti izgoreli izgorele izgore izgorim izgoriš izgoreće izgorećeš изгорела izgorimo izgorite izgorećemo изгорео izgoreću изгори изгорело изгорети изгорели изгореле изгоре изгорим изгориш изгореће изгорећеш изгоримо изгорите изгорећемо изгорећу
+50	3150	koktel	koktel koktele koktela kokteli koktelima koktelu koktelom коктел коктеле коктела коктели коктелима коктелу коктелом
+51	3151	tinejdžer	tinejdžer tinejdžera tinejdžeri tinejdžere tinejdžerima тинејџер tinejdžeru tinejdžerom тинејџера тинејџери тинејџере тинејџерима тинејџеру тинејџером
+52	3152	predvideti	predvideo predvideti predviđeno predvideli predvidela predvidi predvidim predviđen predviđena predvidimo predvidiš predviđeni predviđene predvide predvidite предвидео предвидети predvidele предвиди предвиђено предвидели предвидела предвидим предвиђен предвиђена предвидимо предвидиш предвиђени предвиђене предвиде предвидите предвиделе
+53	3153	štab	štab štaba štabu штаб štabom штаба штабу штабом
+54	3154	protokol	protokol protokola protokole protokolu protokoli протокол protokolima protokolom протокола протоколе протоколу протоколи протоколима протоколом
+55	3155	rekord	rekord rekorda rekorde рекорд rekordi rekordom rekordu рекорда рекорде рекорди рекордом рекорду
+56	3156	smiješan	smiješan smiješna smiješni smiješne smiješnu smiješnim smiješnog smješnije smiješnih smiješnom najsmješnije najsmješniji najsmješnija smješniji смијешан смијешна смијешни смијешне смијешну смијешним смијешног смјешније смијешних смијешном најсмјешније најсмјешнији најсмјешнија смјешнији
+57	3157	preminuti	preminuo preminula preminuli preminule преминуо premine preminulo преминула преминули преминуле премине преминуло
+58	3158	unuka	unuka unuke unuku unuci unukom унука unuko унуци унуку унуке унуком унуко
+59	3159	ukrcati	ukrcati ukrcao ukrcajte ukrcali ukrcaj ukrcamo ukrca ukrcaju ukrcam ukrcala ukrcate ukrcaš ukrcani ukrcan ukrcajmo ukrcaćemo ukrcana ukrcano ukrcaće ukrcaću укрцали ukrcane укрцати укрцао укрцајте укрцај укрцамо укрца укрцају укрцам укрцала укрцате укрцаш укрцани укрцан укрцајмо укрцаћемо укрцана укрцано укрцаће укрцаћу укрцане
+60	3160	ceremonija	ceremonija ceremoniju ceremonije ceremoniji ceremonijom ceremonijama церемонија церемоније церемонију церемонији церемонијом церемонијама
+61	3161	sedmi	sedmi sedmom sedma sedmog sedme sedmo sedmu sedmoj седми седмом седма седмог седме седмо седму седмој
+62	3162	loptica	lopticu loptice loptica lopticama lopticom loptici лоптицу лоптице лоптица лоптицама лоптицом лоптици
+63	3163	rublje	rublje rublja rubalja rublju rubljem rublji рубље рубаља рубља рубљу рубљем рубљи
+64	3164	ponoć	ponoć ponoćni поноћ поноћни
+65	3165	konačan	konačni konačna konačnu konačan konačne konačnog konačnom konačnoj konačnim коначна konačnih коначни коначну коначан коначне коначног коначном коначној коначним коначних
+66	3166	magla	magla maglu magli magle maglom магла магле маглу магли маглом
+67	3167	točka	točka točke točku točki točaka točkama točkom точка точке точку точки точака точкама точком
+68	3168	veran	veran verna verni verne verno vernog vernu vernih vernom vernim najverniji верни веран верна верне верно верног верну верних верном верним највернији
+69	3169	obavezan	obavezno obavezan obavezni obavezna обавезно obavezne obaveznim obaveznom obaveznu obaveznog обавезан obaveznih обавезни обавезна обавезне обавезним обавезном обавезну обавезног обавезних
+70	3170	pouzdan	pouzdan pouzdano pouzdani pouzdana pouzdane pouzdanog pouzdanih najpouzdaniji pouzdanim pouzdaniji pouzdanu поуздан pouzdanije pouzdanom najpouzdanija поуздано поуздани поуздана поуздане поузданог поузданих најпоузданији поузданим поузданији поуздану поузданије поузданом најпоузданија
+71	3171	pozdravljati	pozdravlja pozdravljam pozdravljamo pozdravljaju pozdravljaš pozdravljali pozdravljao pozdravljati pozdravljanje поздравља pozdravljate поздрављам pozdravljala поздрављамо поздрављају поздрављаш поздрављали поздрављао поздрављати поздрављање поздрављате поздрављала
+72	3172	direktan	direktan direktna direktni direktnu direktnom direktne direktnim direktnog direktnoj direktnih директан директна директни директну директном директне директним директног директној директних
+73	3173	groznica	groznicu groznica groznice groznici groznicom грозницу грозница грознице грозници грозницом
+74	3174	dobrotvoran	dobrotvorne dobrotvorni dobrotvornu dobrotvorna dobrotvornoj dobrotvornim dobrotvorno dobrotvornom dobrotvornih dobrotvornog добротворне dobrotvoran добротворни добротворну добротворна добротворној добротворним добротворно добротворном добротворних добротворног добротворан
+75	3175	dostupan	dostupan dostupna dostupni dostupno dostupne dostupnim dostupnih доступан dostupnu dostupnog dostupnom доступна доступни доступно доступне доступним доступних доступну доступног доступном
+76	3176	bolničar	bolničar bolničarka bolničari bolničara bolničarke bolničare bolničarku bolničarki bolničarima bolničarkom bolničaru bolničarko болничар болничарка болничари болничара болничарке болничаре болничарку болничарки болничарима болничарком болничару болничарко
+77	3177	vređati	vređa vređaš vređam vređate vređaj vređaju vređati vređao vređanje vređali vređamo vređajte vređala вређа вређаш вређам вређате вређај вређају вређати вређао вређање вређали вређамо вређајте вређала
+78	3178	strog	strog stroga strogi stroge strogu strogim strogom strogoj strogog najstrože stroži najstroža najstrožu strogih строг stroža strože najstroži najstrožem строга строги строге строгу строгим строгом строгој строгог најстроже строжи најстрожа најстрожу строгих строжа строже најстрожи најстрожем
+79	3179	računalo	računalo računala računalu računalom računalima рачунало рачунала рачуналу рачуналом рачуналима
+80	3180	spavaći	spavaćoj spavaća spavaćih спаваћој spavaćim спаваћа spavaćom спаваћу спаваће spavaću spavaće спаваћих спаваћим спаваћом
+81	3181	nadoknaditi	nadoknaditi nadoknadim nadoknadiću nadoknadimo nadoknadi nadoknadiš nadoknade nadoknadio nadoknadite nadoknadićemo nadoknadili надокнадити nadoknadila nadoknađeno nadoknadićeš надокнадим надокнадићу надокнадимо надокнади надокнадиш надокнаде надокнадио надокнадите надокнадићемо надокнадили надокнадила надокнађено надокнадићеш
+82	3182	smetnja	smetnji smetnje smetnja smetnju smetnjama сметњи сметња сметње сметњу сметњама
+83	3183	sporazum	sporazum sporazuma sporazumu sporazumom споразум sporazume sporazumi споразума sporazumima споразуму споразумом споразуме споразуми споразумима
+84	3184	uputstvo	uputstva uputstvo uputstvima uputstava uputstvu упутства uputstvom упутство упутствима упутстава упутству упутством
+85	3185	temelj	temelja temelju temelj temelji temelje temeljima темеља temeljem темељ темељу темељи темеље темељима темељем
+86	3186	posuditi	posuditi posudio posude posudi posudila posudim posudiš posudili posudite posuđeno posudimo posuđen посудити посудио посуде посуди посудила посудим посудиш посудили посудите посуђено посудимо посуђен
+87	3187	političar	političari političar političara političare političarima političaru политичар političarem политичари политичара политичаре политичарима политичару политичарем
+88	3188	prepun	prepun prepuna prepuno prepune prepuni prepunom prepunoj prepunu prepunim prepunih prepunog препун препуна препуно препуне препуни препуном препуној препуну препуним препуних препуног
+89	3189	poticati	potiče potiču potičem potičemo potičeš poticati poticao потиче poticanje poticala potičete poticali потичу потичем потичемо потичеш потицати потицао потицање потицала потичете потицали
+90	3190	ren	rene ren рене rena renu renom рен рена рену реном
+91	3191	smrdljiv	smrdljivi smrdljiva smrdljive smrdljivo smrdljivu smrdljivog smrdljivom smrdljivim smrdljiv smrdljivih smrdljivoj смрдљиви смрдљива смрдљиве смрдљиво смрдљиву смрдљивог смрдљивом смрдљивим смрдљив смрдљивих смрдљивој
+92	3192	značajan	značajan značajna značajne značajnu značajni značajnije značajnih značajnog značajnim najznačajniji najznačajnijih značajnom najznačajnija značajniji najznačajnije значајан značajnija značajnijih značajnoj значајна значајне значајно значајну значајни значајније значајних значајног значајним најзначајнији најзначајнијих значајном најзначајнија значајнији најзначајније значајнија значајнијих значајној
+93	3193	oglas	oglas oglasi oglase oglasa oglasu oglasima оглас oglasom огласи огласе огласа огласу огласима огласом
+94	3194	krupan	krupan krupna krupne krupno krupni krupnim krupnu krupnog krupnije krupnih krupniji krupnom krupnija krupniju крупан крупна крупне крупно крупни крупним крупну крупног крупније крупних крупнији крупном крупнија крупнију
+95	3195	formirati	formiraju formira formirao formirali formirati formiranje formirajte formirana formiran formirala formiramo formirale formirajući formirane formirani formiram formiraj formirano formiralo formiraš formirate формира формирају формирао формирали формирати формирање формирајте формирана формиран формирала формирамо формирале формирајући формиране формирани формирам формирај формирано формирало формираш формирате
+96	3196	fond	fond fonda fondu fondove fondova fondom fondovi fondovima фонд фонда фонду фондове фондова фондом фондови фондовима
+97	3197	malopre	malopre малопре
+98	3198	rezervni	rezervni rezervne rezervnu rezervna rezervnih rezervnog rezervno rezervnim rezervnom резервни rezervnoj резервне резервну резервна резервних резервног резервно резервним резервном резервној
+99	3199	razvijati	razvija razvijaju razvijati razvijamo razvijao razvijanje razvijam razvijali razvijala razvijaš razvijale развија razvijalo razvijate razvijajući развијају развијати развијамо развијао развијање развијам развијали развијала развијаш развијале развијало развијате развијајући
+100	3200	poljski	poljske poljskoj poljski poljska poljsku poljskom poljskog poljsko poljskih poljskim пољска пољској пољски пољску пољске пољском пољског пољско пољских пољским

@@ -1,0 +1,100 @@
+1	3901	domaćica	domaćica domaćice domaćicu domaćici domaćicama domaćicom домаћица домаћице домаћицу домаћици домаћицама домаћицом
+2	3902	gristi	grize grizli gristi grizi grizeš grizu grizla grizao grizem grizete гризе grizemo grizite гризли гристи гризи гризеш гризу гризла гризао гризем гризете гриземо гризите
+3	3903	komunist	komunista komunisti komuniste komunistima komunist komunistu комунисти комуниста komunistom комунисте комунистима комунист комунисту комунистом
+4	3904	slanina	slaninu slanina slanine slaninom slanini сланина сланину сланине сланином сланини
+5	3905	izgradnja	izgradnju izgradnji izgradnje izgradnja izgradnjom изградњу изградња изградњи изградње изградњом
+6	3906	invazija	invaziju invazija invazije invaziji invazijom инвазију инвазија инвазије инвазији инвазијом
+7	3907	poveriti	poverio poverila poveriti poverim poverili poveri poverena poveriš poverite poveren povereno poverimo poveriću povere povereni поверио поверила поверити поверим поверили повери поверена повериш поверите поверен поверено поверимо поверићу повере поверени
+8	3908	zapovijed	zapovijed zapovijedi zapovijedima заповијед заповиједи заповиједима
+9	3909	optužnica	optužnicu optužnice optužnica optužnici optužnicom оптужницу optužnicama оптужнице оптужница оптужници оптужницом оптужницама
+10	3910	koljeno	koljena koljeno koljenima koljenu koljenom кољена кољено кољенима кољену кољеном
+11	3911	razotkriti	razotkriti razotkrio razotkrije razotkrijem razotkrili razotkriven razotkrila razotkrijemo razotkriju razotkrivena razotkriješ razotkriveni razotkriću razotkriveno razotkriće razotkrijete razotkrit razotkrilo razotkrićemo разоткрити разоткрио разоткрије разоткријем разоткрили разоткривен разоткрила разоткријемо разоткрију разоткривена разоткријеш разоткривени разоткрићу разоткривено разоткриће разоткријете разоткрит разоткрило разоткрићемо
+12	3912	kiselina	kiselina kiseline kiselinu kiselinom kiselini kiselinama киселине киселина киселину киселином киселини киселинама
+13	3913	doručkovati	doručkovao doručkujemo doručkovati doručkuješ doručkujem doručkovala doručkovali doručkuje doručkuj doručkujete doručkuju doručkovaćemo doručkujte доручковао доручкујемо доручковати доручкујеш доручкујем доручковала доручковали доручкује доручкуј доручкујете доручкују доручковаћемо доручкујте
+14	3914	vjetar	vjetar vjetra vjetru vjetrovi vjetrom vjetrove vjetrova vjetrovima вјетар вјетра вјетру вјетрови вјетром вјетрове вјетрова вјетровима
+15	3915	izuzetak	izuzetak izuzetaka izuzetka izuzetkom izuzetke izuzeci изузетак izuzecima изузетака изузетка изузетком изузетке изузеци изузецима
+16	3916	znojiti	znojim znojiš znoji znoje znojenje znojio znojiti znojite znojimo znojila znojili znojeći знојим знојиш зноји зноје знојење знојио знојити знојите знојимо знојила знојили знојећи
+17	3917	oktobar	oktobra oktobar oktobru октобра октобар октобру
+18	3918	zemljište	zemljište zemljišta zemljištu zemljištem земљиште земљишта земљишту земљиштем
+19	3919	gladak	glatko glatka gladak glatke glatki glatku глатко glatkim glatkom glatkog glađu глатка гладак глатке глатки глатку глатким глатком глатког глађу
+20	3920	toplota	toplotu toplote toplota toplotom toploti топлоту топлоте топлота топлотом топлоти
+21	3921	zaštitni	zaštitni zaštitno zaštitne zaštitna zaštitnu zaštitnog zaštitnim zaštitnom zaštitnih zaštitnoj заштитни заштитно заштитне заштитна заштитну заштитног заштитним заштитном заштитних заштитној
+22	3922	daljina	daljine daljinu daljini daljina даљину даљини даљине даљина
+23	3923	insekt	insekata insekti insekte insekt insekta insektima insektu инсеката инсекти инсекте инсект инсекта инсектима инсекту
+24	3924	lola	lola loli lolu lole лола lolo lolom лоли лолу лоле лоло лолом
+25	3925	prijetnja	prijetnja prijetnje prijetnju prijetnji prijetnjom prijetnjama пријетња пријетње пријетњу пријетњи пријетњом пријетњама
+26	3926	osloniti	osloniti osloni oslonim osloniš oslonimo oslanjati oslonite oslonio oslone oslonila oslonili ослонити ослони ослоним ослониш ослонимо ослањати ослоните ослонио ослоне ослонила ослонили
+27	3927	zauzvrat	zauzvrat заузврат
+28	3928	crći	crkni crkla crkao crkne crkneš crklo crknem crći crkli crknu crkoh crknuti crknite crkle crknuo crknemo crknut цркни цркла цркао цркне цркнеш цркло цркнем црћи цркли цркну цркох цркнути цркните цркле цркнуо цркнемо цркнут
+29	3929	promaknuti	promaklo promakne promakao promakla promaknut promaći promaknuti promaknulo promaknuo promakli promaknu promaknuli promakle промакло промакне промакао промакла промакнут промаћи промакнути промакнуло промакнуо промакли промакну промакнули промакле
+30	3930	oporavak	oporavak oporavka oporavku опоравак oporavkom опоравка опоравку опоравком
+31	3931	opisivati	opisuje opisuju opisuješ opisivao opisujete opisivali opisujem opisivala opisujući opisivati описује opisivanje описују opisujemo описујеш описивао описујете описивали описујем описивала описујући описивати описивање описујемо
+32	3932	budžet	budžet budžeta budžetu budžetom буџет буџета буџету буџетом
+33	3933	jesen	jesen jeseni jesenju јесен јесени јесењу
+34	3934	unutrašnjost	unutrašnjost unutrašnjosti унутрашњост унутрашњости unutrašnjošću унутрашњошћу
+35	3935	hladnoća	hladnoće hladnoća hladnoću hladnoći hladnoćom хладноће хладноћа хладноћу хладноћи хладноћом
+36	3936	doživotan	doživotnu doživotna doživotne doživotni doživotnoj doživotnog doživotnom doživotnih doživotnim доживотну doživotan доживотна доживотне доживотни доживотној доживотног доживотном доживотних доживотним доживотан
+37	3937	vjera	vjere vjeru vjera vjeri vjerom вјере вјеру вјера вјери вјером
+38	3938	pristupiti	pristupiti pristupio pristupim pristupite pristupimo pristupili pristupila pristupiš pristupi pristupe приступити приступио приступим приступите приступимо приступили приступила приступиш приступи приступе
+39	3939	autopsija	autopsiju autopsije autopsija autopsiji autopsijom аутопсије аутопсију аутопсија аутопсији аутопсијом
+40	3940	korpa	korpu korpi korpe korpa korpom korpama корпа корпу корпи корпе корпом корпама
+41	3941	stipendija	stipendiju stipendije stipendija stipendijom stipendiji стипендију стипендије stipendijama стипендија стипендијом стипендији стипендијама
+42	3942	spajati	spajanje spaja spajaju spajam spajamo spajati spajao spajaš spajajući spajali спајање spajaj spajala spajate spajale спаја спајају спајам спајамо спајати спајао спајаш спајајући спајали спајај спајала спајате спајале
+43	3943	pokraj	pokraj покрај
+44	3944	ugodno	ugodno угодно
+45	3945	zamoliti	zamoliti замолим замолити замоли замолите
+46	3946	jeftino	jeftino јефтино
+47	3947	kompa	kompa kompu kompi kompe kompom компа компу компи компе компом
+48	3948	bubanj	bubnjeve bubanj bubnjevi bubnjeva bubnjevima bubnja bubnju bubnjem бубањ бубњеве бубњеви бубњева бубњевима бубња бубњу бубњем
+49	3949	kajati	kajem kajanje kaje kaješ kajati kaju kajete kajao kajala kajemo kajaćeš кајање кајем каје кајеш кајати кају кајете кајао кајала кајемо кајаћеш
+50	3950	daljinski	daljinski daljinsko daljinskim daljinskog daljinskom daljinske даљински daljinska daljinsku daljinskih даљинско даљинским даљинског даљинском даљинске даљинска даљинску даљинских
+51	3951	zbuniti	zbunio zbuniti zbuni zbunila zbunili zbunilo zbunim zbune zbuniš zbunite zbunimo збунио збунити збуни збунила збунили збунило збуним збуне збуниш збуните збунимо
+52	3952	jama	jamu jama jame jami jamama jamice јаму jamom јама jamo јаме јами јамама јамице јамом јамо
+53	3953	kaciga	kacigu kacige kaciga kacigom kacigi kacigama кацигу кациге кацига кацигом кациги кацигама
+54	3954	koren	koren korena korene korenu koreni korenima корен korenom корена корене корену корени коренима кореном
+55	3955	ambicija	ambicija ambicije ambiciju ambicijama ambicijom ambiciji амбиције амбиција амбицију амбицијама амбицијом амбицији
+56	3956	potres	potres potresa potrese potresi potresu potresom потрес potresima потреса потресе потреси потресу потресом потресима
+57	3957	urediti	uredio urediti uredila uredim uredili uređuje uredimo uređivanje uredite uređujem urediću urediš uređuješ uređivati uređuju uređujemo uredi urede уредио уредити уредила уредим уредили уређује уредимо уређивање уредите уређујем уредићу уредиш уређујеш уређивати уређују уређујемо уреди уреде
+58	3958	ala	ala hala ала хала
+59	3959	ljubitelj	ljubitelj ljubitelji ljubitelja ljubitelje ljubitelju љубитељ ljubiteljima ljubiteljica љубитељи љубитеља љубитеље љубитељу љубитељима љубитељица
+60	3960	resurs	resurse resursa resursi resursima resurs ресурсе ресурса ресурси ресурсима ресурс
+61	3961	ozlijediti	ozlijediti ozlijedio ozlijedila ozlijede ozlijedi ozlijedili ozlijediš ozlijedim ozlijedite озлиједити озлиједио озлиједила озлиједе озлиједи озлиједили озлиједиш озлиједим озлиједите
+62	3962	anoniman	anonimni anonimna anoniman anonimnih anonimnu anonimne anonimnog anonimnim anonimnom анонимни anonimnoj анонимна анониман анонимних анонимну анонимне анонимног анонимним анонимном анонимној
+63	3963	aukcija	aukciji aukciju aukcija aukcije aukcijama aukcijom аукцији аукцију аукција аукције аукцијама аукцијом
+64	3964	litica	litice litica liticu litici liticama литице liticom литица литицу литици литицама литицом
+65	3965	promatrati	promatrati promatra promatrao promatraju promatranje promatram promatrali promatrala promatramo promatranja promatraj promatraš promatrajući promatrajte promatrate проматрати проматра проматрао проматрају проматрање проматрам проматрали проматрала проматрамо проматрања проматрај проматраш проматрајући проматрајте проматрате
+66	3966	osmi	osmi osmog osmom osme osma osmo osmoj osmu осми осмог осмом осме осма осмо осмој осму
+67	3967	šarm	šarm šarma šarmom šarmu шарм шарма шармом шарму
+68	3968	zaklon	zaklon zaklona zaklonu zakloni заклон zaklone заклона заклону заклони заклоне
+69	3969	strogo	strogo строго
+70	3970	šibica	šibice šibicu šibica šibicama šibicom шибице шибица шибицу шибицама шибицом
+71	3971	sprovesti	sprovesti sprovede sproveo sprovedem sproveli sprovedemo sprovedena sprovela sprovedu sprovedeš sprovedi sprovedete sproveden sprovedite sprovešćemo sprovedeno sprovešću sprovedeni sprovedene спроведе sprovešće спровести спровео спроведем спровели спроведемо спроведена спровела спроведу спроведеш спроведи спроведете спроведен спроведите спровешћемо спроведено спровешћу спроведени спроведене спровешће
+72	3972	pokopati	pokopati pokopan pokopao pokopali pokopana pokopa pokopani pokopaju pokopala pokopamo pokopam pokopano pokopaj pokopaš pokopajte pokopane pokopaću pokopaćemo покопати покопан покопао покопали покопана покопа покопани покопају покопала покопамо покопам покопано покопај покопаш покопајте покопане покопаћу покопаћемо
+73	3973	bič	bič biču bičem biča bičevi бич bičeve bičevima bičeva бичу бичем бича бичеви бичеве бичевима бичева
+74	3974	udruženje	udruženje udruženja udruženju удружења udruženjem удружење udruženjima удружењу удружењем удружењима
+75	3975	rukav	rukavu rukave rukav rukava rukavi rukavima рукаву rukavom рукаве рукав рукава рукави рукавима рукавом
+76	3976	važnost	važnosti važnost важности важност
+77	3977	autoritet	autoritet autoriteta autoritetom autoritetu autoritetima autoritete ауторитет autoriteti ауторитета ауторитетом ауторитету ауторитетима ауторитете ауторитети
+78	3978	nastradati	nastradati nastrada nastradao nastradaš nastradali nastradala nastradaju nastradam nastradaćeš nastradate nastradamo nastradale nastradalo nastradaće настрада настрадати настрадао настрадаш настрадали настрадала настрадају настрадам настрадаћеш настрадате настрадамо настрадале настрадало настрадаће
+79	3979	seta	seti seta setu sete setom сети сете сета сету сетом
+80	3980	smeđ	smeđe smeđa smeđi smeđu smeđeg smeđim smeđ smeđih smeđem smeđom smeđoj смеђа смеђе смеђи смеђу смеђег смеђим смеђ смеђих смеђем смеђом смеђој
+81	3981	prouzrokovati	prouzrokuje prouzrokovao prouzrokovalo prouzrokovala prouzrokovati prouzrokovali prouzrokuju prouzrokovana prouzrokovano prouzrokovan prouzrokujući prouzrokovale prouzrokovane prouzrokujem проузрокује проузроковао проузроковало проузроковала проузроковати проузроковали проузрокују проузрокована проузроковано проузрокован проузрокујући проузроковале проузроковане проузрокујем
+82	3982	sakupljati	sakuplja sakupljam sakupljanje sakupljaju sakupljao sakupljamo sakupljaš sakupljali sakupljala sakupljati sakupljajući sakupljate сакупља сакупљам сакупљање сакупљају сакупљао сакупљамо сакупљаш сакупљали сакупљала сакупљати сакупљајући сакупљате
+83	3983	pritiskati	pritiskam pritiskaš pritiskao pritiskaju pritiskaj pritiskati pritišće pritiskala pritiskali pritiskate pritiskamo pritišću pritiska pritiskanje pritiskajte pritišći pritišćem pritiskajući pritišćeš pritiskalo притиска притискам притискаш притискао притискају притискај притискати притишће притискала притискали притискате притискамо притишћу притискање притискајте притишћи притишћем притискајући притишћеш притискало
+84	3984	srebro	srebro srebra srebrom srebru сребро сребра сребром сребру
+85	3985	izvestan	izvesnog izvesne izvesni izvesna izvesnu izvesnom izvestan izvesnim izvesnih izvesnoj извесног извесне извесни извесна извесну извесном известан извесним извесних извесној
+86	3986	uštedeti	uštedeo uštedeti uštedeli uštedim uštedela uštedimo uštedi uštedeću uštediš uštedećemo uštede uštedite uštedelo uštedeće uštedećeš uštedećete ušteđeno уштедео уштедети уштедели уштедим уштедела уштедимо уштеди уштедећу уштедиш уштедећемо уштеде уштедите уштедело уштедеће уштедећеш уштедећете уштеђено
+87	3987	kirija	kiriju kirija kirije kirijom kirijama кирију kiriji кирија кирије киријом киријама кирији
+88	3988	tajanstven	tajanstveni tajanstvena tajanstven tajanstvene tajanstvenog tajanstvenim tajanstvenom tajanstvenu tajanstvenih tajanstvenoj тајанствени тајанствена тајанствен тајанствене тајанственог тајанственим тајанственом тајанствену тајанствених тајанственој
+89	3989	rugati	ruga rugaš rugaju rugaj rugati rugao rugate ruganje rugali rugam rugajte rugamo rugajući руга ругаш ругају ругај ругати ругао ругате ругање ругали ругам ругајте ругамо ругајући
+90	3990	кога	кога
+91	3991	oduzimati	oduzima oduzimam oduzimanje oduzimaju oduzimaš oduzimati oduzimate oduzimamo oduzimaj oduzimao одузима oduzimajući одузимање oduzimali oduzimala oduzimajte одузимам одузимају одузимаш одузимати одузимате одузимамо одузимај одузимао одузимајући одузимали одузимала одузимајте
+92	3992	decenija	decenije decenijama decenija deceniju deceniji деценије деценијама деценија деценију деценији
+93	3993	iskrenost	iskrenost iskrenosti iskrenošću искреност искрености искреношћу
+94	3994	dućan	dućan dućanu dućana dućanima dućane dućani дућан дућану дућана дућанима дућане дућани
+95	3995	zamjena	zamjenu zamjena zamjene zamjeni zamjenom замјену замјена замјене замјени замјеном
+96	3996	zemljotres	zemljotres zemljotresa zemljotresi zemljotrese zemljotresu земљотрес zemljotresima zemljotresom земљотреса земљотреси земљотресе земљотресу земљотресима земљотресом
+97	3997	odbacivati	odbacuje odbacivanje odbacuješ odbacujem odbacuju odbacuj odbacujemo odbacujete odbacivati odbacivao odbacivali odbacujući odbacivala odbacujte одбацује одбацивање одбацујеш одбацујем одбацују одбацуј одбацујемо одбацујете одбацивати одбацивао одбацивали одбацујући одбацивала одбацујте
+98	3998	ugušiti	ugušio ugušiti uguši ugušila ugušena ugušen ugušiš ugušili ugušim uguše ugušiće ugušite ugušimo ugušićeš ugušeni ugušiću угушио угуши ugušićemo угушити угушила угушена угушен угушиш угушили угушим угуше угушиће угушите угушимо угушићеш угушени угушићу угушићемо
+99	3999	dostojan	dostojan dostojna dostojno dostojni dostojnog dostojnu dostojnim dostojne достојан dostojnom достојна достојно достојни достојног достојну достојним достојне достојном
+100	4000	kuga	kuga kuge kugu kugom kugi куга кугу куге кугом куги

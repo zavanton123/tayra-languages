@@ -1,0 +1,100 @@
+1	2001	donji	donji donjem donje donja donjeg donju donjim donjoj donjih доњи доњем доње donjom доњег доња доњу доњим доњој доњих доњом
+2	2002	zakleti	zakleo zakuni zakleti zaklela zakleli zakunem zakuneš zakunite zakune zakunete заклео zakunemo zakunu закуни заклети zaklele zaklet zakleta zakleću заклели zakunimo zaklete заклела закунем закунеш закуните закуне закунете закунемо закуну заклеле заклет заклета заклећу закунимо заклете
+3	2003	zaposliti	zaposlio zaposliti zaposlila zaposli zaposlili zaposlim zaposliš zaposlimo zaposlite zaposle zaposliću запослио запослити zaposlićemo запосли zaposliće запослила запослили запослим запослиш запослимо запослите запосле запослићу запослићемо запослиће
+4	2004	nasamo	nasamo насамо
+5	2005	ubrzo	ubrzo убрзо
+6	2006	zima	zime zima zimu zimi зима зиме зиму zimom zimo зими зимом зимо
+7	2007	zarađivati	zarađuje zarađujem zarađuješ zarađuju zarađivati zarađivao zarađujemo zarađujete zarađivala zarađivali zarađivanje зарађује zarađujući zarađivaću зарађујем зарађују zarađuj зарађујеш zarađivaćeš зарађивати зарађивао зарађујемо зарађујете зарађивала зарађивали зарађивање зарађујући зарађиваћу зарађуј зарађиваћеш
+8	2008	liz	liz liza liže lizu лиза lizom лиз лиже лизу лизом
+9	2009	bijel	bijeli bijela bijele bijelo bijelu bijelog bijelom bijeloj bijelim bijelih bio bijel bijeloga bijelome био бијели бијела бијеле бијело бијелу бијелог бијелом бијелој бијелим бијелих бијел бијелога бијеломе
+10	2010	penjati	penji penje penjanje penjite penjem penju penjemo penješ penjati penjao penjali penjala penjete penjući пењи пењање пење пењите пењем пењу пењемо пењеш пењати пењао пењали пењала пењете пењући
+11	2011	gužva	gužva gužvu gužvi gužve гужва gužvom гужве гужви гужву gužvama гужвом гужвама
+12	2012	sever	sever severu severa север северу севера severom severe севере севером
+13	2013	obećanje	obećanje obećanja obećanjima обећање obećanjem obećanju обећања обећањима обећањем обећању
+14	2014	mudar	mudro mudar mudra mudri mudriji mudre mudrije najmudriji mudrog mudrih мудро mudrim mudru mudrija мудар mudrom najmudrija мудри najmudrije мудра мудрији мудре мудрије најмудрији мудрог мудрих мудрим мудру мудрија мудром најмудрија најмудрије
+15	2015	odvjetnik	odvjetnik odvjetnika odvjetnici odvjetnica odvjetnikom odvjetnike odvjetniku odvjetnicima odvjetniče odvjetnice odvjetnicu odvjetnicom одвјетник одвјетника одвјетници одвјетница одвјетником одвјетнике одвјетнику одвјетницима одвјетниче одвјетнице одвјетницу одвјетницом
+16	2016	strava	strava strave страва stravu страве страву
+17	2017	ljubavni	ljubavni ljubavna ljubavne ljubavnu ljubavno ljubavnom ljubavnih ljubavnim ljubavnog ljubavnoj љубавна љубавни љубавне љубавну љубавно љубавном љубавних љубавним љубавног љубавној
+18	2018	ljutiti	ljutiš ljutiti ljuti ljutite ljutio ljutila ljutim ljute ljutimo ljutilo љутиш ljutili љутити ljutiće љутите љути љутим љутио љутила љуте љутимо љутило љутили љутиће
+19	2019	zamišljati	zamišljao zamišljam zamišljala zamišljaš zamišlja zamišljate zamišljali zamišljati zamišljaju zamišljamo zamišljajući zamišljaj замишљао замишљам замишљала zamišljanje замишљаш замишља замишљате замишљали замишљати замишљају замишљамо замишљајући замишљај замишљање
+20	2020	građanin	građani građanin građana građane građanima građanina građanine грађани građaninu грађана грађанин građaninom грађане грађанине грађанима грађанина грађанину грађанином
+21	2021	uključujući	uključujući укључујући
+22	2022	pregled	pregled pregleda pregledu preglede pregledom преглед pregledi прегледа pregledima прегледу прегледе прегледом прегледи прегледима
+23	2023	uzrok	uzrok uzroka узрок uzroke uzroci uzroku uzrokom uzrocima узрока узроке узроци узроку узроком узроцима
+24	2024	direktno	direktno директно
+25	2025	vic	vic viče viceve viceva vica vicevi vicevima vicu виче vicem виц вицеве вицева вица вицеви вицевима вицу вицем
+26	2026	raniti	ranjen ranjena ranjeni ranio ranjene ranjeno ranili ranim ranih рањен ranila rane raniti raniš рањени ranite раним раних ране рањена ранио рањене рањено ранили ранила ранити раниш раните
+27	2027	opcija	opcija opcije opciju opcijama опција опције opciji opcijom опцију опцијама опцији опцијом
+28	2028	zahvalnost	zahvalnosti zahvalnost захвалности zahvalnošću захвалност захвалношћу
+29	2029	garaža	garaži garažu garaže garaža гаражи garažom гаражу garažama гараже гаража гаражом гаражама
+30	2030	dijamant	dijamant dijamante dijamanti dijamanata dijamantima dijamanta dijamantom дијамант дијаманте dijamantu дијаманти дијаманата дијамантима дијаманта дијамантом дијаманту
+31	2031	kapa	kapu kapa kape kapi kapom kapama капу kapo капа капе капи капом капама капо
+32	2032	usuđivati	usuđuješ usuđujete usuđuje usuđujem usuđuju usuđuj усуђујеш усуђујете usuđivao usuđujemo усуђује usuđivala усуђујем усуђују усуђуј усуђивао усуђујемо усуђивала
+33	2033	ikakav	ikakve ikakvog ikakvih ikakvu ikakav ikakva ikakvo ikakvim ikakvi икакве икаквог икаквих икакву икакав икаква икакво икаквим икакви
+34	2034	žica	žice žicu žica žicom žici žicama жице жица жицу жицом жици жицама
+35	2035	blok	blok bloka blokova bloku blokove blokovi blokovima блок blokom блока блокова блоку блокове блокови блоковима блоком
+36	2036	tren	tren trena trenu трен trenom трена трену треном
+37	2037	vizija	viziju vizije vizija viziji vizijama vizijom визија визију визије визији визијама визијом
+38	2038	oprost	oprosti oprost oprosta опрости oproste oprostu опрост опроста опросте опросту
+39	2039	krađa	krađa krađe krađu krađi krađom крађа krađama крађе крађу крађи крађом крађама
+40	2040	vrt	vrt vrtu vrta vrte vrtovima vrtove vrtovi vrtom vrtova врт врту врта врте вртовима вртове вртови вртом вртова
+41	2041	loviti	loviti lovio lovim lovimo lovili love loviš lovi lovite loveći lovila loviće lovljeni loviću lovljen lovićemo lovljenje ловити ловим ловио lovile lovilo ловиш лове лови ловимо ловили ловите ловећи ловила ловиће ловљени ловићу ловљен ловићемо ловљење ловиле ловило
+42	2042	oboriti	oborio obori oboren oboriti oborila oborili oborim oboriš obore oborite oborimo oborena oboreni oborilo oboriću oboriće oboreno obarati оборио oborene обори oborićeš oborićemo оборен oborile оборити оборили оборила оборим обориш оборе оборите оборимо оборена оборени оборило оборићу обориће оборено обарати оборене оборићеш оборићемо обориле
+43	2043	probiti	probiti probio probije probili probijemo probila probiju probijem probijen probiješ probi probijena probilo probij probijete probićemo пробије probijeno probijte probiće probile probijeni probiću пробити пробио probijene пробију пробили пробијемо пробила пробијем пробијен пробијеш проби пробијена пробило пробиј пробијете пробићемо пробијено пробијте пробиће пробиле пробијени пробићу пробијене
+44	2044	projekt	projekt projekta projektu projekte projekata projektom projektima projekti пројекту пројекта пројект пројекте пројеката пројектом пројектима пројекти
+45	2045	stvarnost	stvarnost stvarnosti stvarnošću стварност стварности стварношћу
+46	2046	širom	širom широм
+47	2047	seliti	seli selim selimo seliš sele selite seliti selili selio selila сели seljenje селим селимо селиш селе селите селити селили селио селила сељење
+48	2048	zahvaljivati	zahvaljujem zahvaljujemo zahvaljuje zahvaljivati zahvaljuješ zahvaljuj zahvaljuju zahvaljujete zahvaljujte захваљујем zahvaljivao zahvaljivala zahvaljivali zahvaljivanje захваљујемо zahvaljivaćeš захваљује захваљивати захваљујеш захваљуј захваљују захваљујете захваљујте захваљивао захваљивала захваљивали захваљивање захваљиваћеш
+49	2049	preneti	preneti preneo prenesem prenesi preneću prenese prenela prenesite preneli preneseš prenesemo prenesete prenesu preneta prenesena prenećemo preneseno пренесем prenesen preneto preneće prenelo prenet prenećeš пренети пренесе prenele пренеси пренео prenete пренесите prenesene prenesimo пренећу пренела пренели пренесеш пренесемо пренесете пренесу пренета пренесена пренећемо пренесено пренесен пренето пренеће пренело пренет пренећеш пренеле пренете пренесене пренесимо
+50	2050	dvaput	dvaput двапут
+51	2051	progutati	progutao progutati progutala proguta progutaj guta progutaš progutam gutam gutaju gutaš progutali gutaj progutaju gutati gutao gutala progutalo progutaće progutan progutate progutajte progutamo progutana progutaću gutate прогутао gutajući gutali progutaćeš прогутала прогута progutani прогутати прогутај гута прогуташ прогутам гутам гутају гуташ прогутали гутај прогутају гутати гутао гутала прогутало прогутаће прогутан прогутате прогутајте прогутамо прогутана прогутаћу гутате гутајући гутали прогутаћеш прогутани
+52	2052	kraljevski	kraljevski kraljevske kraljevska kraljevsko kraljevsku kraljevskog kraljevskom kraljevskoj kraljevskim kraljevskih краљевски краљевске краљевска краљевско краљевску краљевског краљевском краљевској краљевским краљевских
+53	2053	dim	dim dima dimom dimu дим dime дима dimova димом диму диме димова
+54	2054	stepen	stepeni stepena stepen stepenu степени stepenom степена степен stepene степену степеном степене
+55	2055	biljka	biljke biljka biljaka biljku biljkama biljci biljkom биљке biljki биљка биљака биљку биљкама биљци биљком биљки
+56	2056	kris	kris krisa крис krisu krisom krisova криса крису крисом крисова
+57	2057	prijatno	prijatno пријатно
+58	2058	siromašan	siromašni siromašan siromašne siromašna siromašnih siromašnima siromašnim siromašnog siromašno siromašnu siromašnom siromašniji siromašnoj сиромашни najsiromašniji najsiromašnijih сиромашан сиромашне сиромашнима najsiromašnije сиромашна siromašnije najsiromašnija сиромашних сиромашним сиромашног сиромашно сиромашну сиромашном сиромашнији сиромашној најсиромашнији најсиромашнијих најсиромашније сиромашније најсиромашнија
+59	2059	ran	раније ranije ranim ranih ranog raniji ranijih rane ranoj ran ranijim najranije ranu ranijeg ranija najranijih najraniji ranijem raniju najranija ranijoj ranom najranijeg ранији najranijim раним раних ране рану раног ранијих раној ран ранијим најраније ранијег ранија најранијих најранији ранијем ранију најранија ранијој раном најранијег најранијим
+60	2060	bezbednost	bezbednost bezbednosti безбедност безбедности
+61	2061	reklama	reklama reklame reklamu reklami reklamama reklamom реклама рекламе рекламу реклами рекламама рекламом
+62	2062	dodirnuti	dodirnuo dodirnem dodirni dodirnuti dodirne dodirneš dodirnula dodirnu dodirnete dodirnuli dodirnite dodirnemo додирнуо dodirnulo dodirnule додирнути додирнем dodirnut додирне додирни dodirnuću dodirnuta додирнеш додирнула додирну додирнете додирнули додирните додирнемо додирнуло додирнуле додирнут додирнућу додирнута
+63	2063	datum	datum datuma datume datumi датум datumom datumu datumima датума датуме датуми датумом датуму датумима
+64	2064	legenda	legenda legende legendi legendu legendama легенда legendom легенде legendo легенди легенду легендама легендом легендо
+65	2065	haos	haos haosu haosa хаос haosom хаосу хаоса хаосом
+66	2066	prijatan	prijatan prijatna prijatnije prijatni prijatnu prijatne пријатан prijatnom prijatnim prijatnog prijatniji prijatnijim prijatnih prijatnija najprijatnije prijatnoj najprijatniji пријатна пријатније пријатни пријатну пријатне пријатном пријатним пријатног пријатнији пријатнијим пријатних пријатнија најпријатније пријатној најпријатнији
+67	2067	zapadni	zapadne zapadnoj zapadni zapadnom zapadna zapadnog zapadnu zapadnim zapadnih западној западна zapadnije западном западне западни западног западну западним западних западније
+68	2068	istok	istok istoku istoka истоку исток истока istokom истоком
+69	2069	leden	ledeni ledeno ledenog ledena ledene ledenu ledenom ledenih ledenim ledenoj leden ледени ледено ледена леденог ледене ледену леденом ледених леденим леденој леден
+70	2070	svemirski	svemirski svemirska svemirskog svemirske svemirskom svemirskim svemirsku svemirskih svemirskoj svemirsko свемирски свемирске свемирска свемирског свемирском свемирским свемирску свемирских свемирској свемирско
+71	2071	ispitivati	ispituje ispitivali ispitivao ispitivati ispituju ispituješ ispitujem ispitujemo ispitujete ispitivala ispitivan ispituj ispitujući ispitivani ispitivaće ispitivana испитује испитивао испитивали ispitujte испитују ispitivaćemo ispitivaću испитивати испитујеш испитујем испитујемо испитујете испитивала испитиван испитуј испитујући испитивани испитиваће испитивана испитујте испитиваћемо испитиваћу
+72	2072	оно	оно
+73	2073	jabuka	jabuke jabuka jabuku jabukama jabučice jabukom jabučica jabuci jabučicu јабуке јабука јабуку jabuko јабукама јабучице јабуком јабучица јабуци јабучицу јабуко
+74	2074	unutrašnji	unutrašnje unutrašnji unutrašnja unutrašnjih unutrašnju unutrašnjeg unutrašnjim unutrašnjoj unutrašnjem unutrašnjom унутрашње унутрашњи унутрашњих унутрашњу унутрашња унутрашњег унутрашњим унутрашњој унутрашњем унутрашњом
+75	2075	aktivirati	aktivira aktivirao aktivirati aktiviraj aktiviran aktiviram aktivirana aktivirajte aktiviraju aktivirali aktivirala aktiviranje aktiviramo aktivirano aktiviraš aktivirani aktivirate aktiviralo aktivirane aktiviraće aktiviraću активира aktiviraćemo активиран aktivirale активирати активирај активирао активирам активирана активирајте активирају активирали активирала активирање активирамо активирано активираш активирани активирате активирало активиране активираће активираћу активираћемо активирале
+76	2076	takmičenje	takmičenje takmičenju takmičenja такмичење takmičenjima takmičenjem такмичењу такмичења такмичењима такмичењем
+77	2077	helikopter	helikopter helikoptera helikopterom helikopteri helikopteru helikoptere helikopterima хеликоптер хеликоптера хеликоптером хеликоптеру хеликоптери хеликоптере хеликоптерима
+78	2078	susret	susret susreta susretu susreti susrete сусрет susretima susretom сусрета сусрету сусрети сусрете сусретима сусретом
+79	2079	hleb	hleb hleba hlebom hlebu хлеб хлеба leb хлебом хлебу леб
+80	2080	prijem	prijem prijemu prijema пријем prijeme prijemom prijemi prijemima пријема пријему пријеме пријемом пријеми пријемима
+81	2081	posledica	posledice posledica posledicama posledicu последице последица последицама последицу
+82	2082	kupovina	kupovinu kupovina kupovini kupovine kupovinom куповину куповине куповини куповина kupovinama куповином куповинама
+83	2083	vrednost	vrednosti vrednost vrednostima вредности вредност vrednošću вредностима вредношћу
+84	2084	reakcija	reakcija reakciju reakcije reakciji reakcijom reakcijama реакција реакције реакцију реакцији реакцијом реакцијама
+85	2085	položiti	položio položi položiti položila polaže položite polažem polaganje položim položili polažu položiš polažeš polagati polože položimo polažemo položen položeno polažete položena položiću положио položeni položićeš položene položile položićemo положи положити положила полаже положите полажем полагање положим положили полажу положиш полажеш полагати положе положимо полажемо положен положено полажете положена положићу положени положићеш положене положиле положићемо
+86	2086	ljubavnik	ljubavnik ljubavnika ljubavnici ljubavniče ljubavnike ljubavnikom ljubavniku љубавник ljubavnicima љубавника љубавници љубавниче љубавнике љубавником љубавнику љубавницима
+87	2087	organizacija	organizacija organizacije organizaciju organizaciji organizacijom organizacijama организација организације организацију организацији организацијом организацијама
+88	2088	koncert	koncert koncertu koncerta koncerte koncerata koncerti koncertima концерт koncertom концерту концерта концерте концерата концерти концертима концертом
+89	2089	gol	gol gola goli gole golim golu golog golova golih golo golove golom гол goloj golovi гола голе голи голим gologa голу голог голова голих голо голове голом голој голови голога
+90	2090	zahtevati	zahtevam zahtevaju zahtevao zahtevamo zahteva zahtevati zahtevala zahtevali zahtevalo zahtevan zahtevaš zahtevate zahtevajući захтевам захтевају zahtevaću zahtevaj zahtevale zahtevaće zahtevano zahtevajte захтевао захтева захтевати захтевамо захтевала захтевали захтевало захтеван захтеваш захтевате захтевајући захтеваћу захтевај захтевале захтеваће захтевано захтевајте
+91	2091	vremenski	vremenski vremenske vremenska vremensku vremenskom vremenskog vremenskoj vremenskim vremenskih vremensko временски временске временска временску временском временског временској временским временских временско
+92	2092	proslaviti	proslavimo proslaviti proslavi proslave proslavili proslavim proslavio proslaviš proslavićemo proslavite proslavila прославимо proslavljeni proslavilo proslaviću прославити proslavile прославе прослави прославили прославим прославио прославиш прославићемо прославите прославила прослављени прославило прославићу прославиле
+93	2093	lisice	lisice lisica lisicama lisicu лисице lisici лисица lisicom лисицама lisico лисицу лисици лисицом лисицо
+94	2094	rosa	rose rosa rosi rosu rosom roso росе роси роса росу росом росо
+95	2095	slaviti	slavimo slaviti slavim slave slavili slavite slavi slaviš slavio slavljen slavila slavićemo slavljenje славимо slaveći slavile slavljena slavljeni slaviću slaviće славити славе слави славим славили славите славиш славио слављен славила славићемо слављење славећи славиле слављена слављени славићу славиће
+96	2096	odlučivati	odlučuje odlučujem odlučuješ odlučuju odlučivati odlučujemo odlučujući odlučujete odlučivao odlučujuća odlučivali odlučivanje odlučujuće одлучује odlučivala odlučujuću одлучујеш одлучујем odlučuj одлучују одлучивати одлучујемо одлучујући одлучујете одлучивао одлучујућа одлучивали одлучивање одлучујуће одлучивала одлучујућу одлучуј
+97	2097	baba	baba babe babu babi babom babo баба бабе баби babetina babama бабу бабом бабо бабетина бабама
+98	2098	dozvoljavati	dozvoljava dozvoljavam dozvoljavaju dozvoljavaš dozvoljavate dozvoljavamo dozvoljavao dozvoljavala dozvoljavali dozvoljavajući дозвољава dozvoljavati дозвољавам дозвољавате dozvoljavaj дозвољавају дозвољаваш дозвољавамо дозвољавао дозвољавала дозвољавали дозвољавајући дозвољавати дозвољавај
+99	2099	faza	faza fazi fazu faze fazama фаза fazom фази фазу фазе фазама фазом
+100	2100	upadati	upadaj upadam upadajte upadaš upadamo upadaju upadate upadao upada upadati upadanje упадај upadali upadala упадајте упадам упада упадаш упадамо упадају упадате упадао упадати упадање упадали упадала

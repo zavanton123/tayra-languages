@@ -1,0 +1,100 @@
+1	7601	nespreman	nespremnog nespremne nespremnu nespremni nespreman nespremna неспремног неспремне неспремну неспремни неспреман неспремна
+2	7602	govnar	govnar говнар
+3	7603	lipanj	lipnja lipnju lipanj липња липњу липањ
+4	7604	preoteti	preoteo preotme preoteti preotela preotmem preotmu preotmeš preoteli преотео преотме преотети преотела преотмем преотму преотмеш преотели
+5	7605	brojiti	brojim broji brojiš brojiti brojio broje brojimo brojite броји бројим бројиш brojeći бројити бројио броје бројимо бројите бројећи
+6	7606	pomak	pomak pomaka pomake pomaci помак помака помаке помаци
+7	7607	ji	ji ји
+8	7608	ljupko	ljupko љупко
+9	7609	bilje	bilje bilja biljem биље биља биљем
+10	7610	tezga	tezgu tezge tezga tezgi тезгу тезге тезга тезги
+11	7611	dijabetes	dijabetes dijabetesa dijabetesom дијабетес дијабетеса дијабетесом
+12	7612	intimnost	intimnosti intimnost intimnošću интимности интимност интимношћу
+13	7613	nadjačati	nadjačani nadjačati nadjačan nadjača nadjačao nadjačali nadjačala nadjačaju nadjačana надјачани надјачати надјачан надјача надјачао надјачали надјачала надјачају надјачана
+14	7614	dozvati	dozvati dozvao dozovem dozovi dozove dozoveš dozvala dozovemo dozovite dozvali дозвати дозвао дозовем дозови дозове дозовеш дозвала дозовемо дозовите дозвали
+15	7615	zavisan	zavisna zavisni zavisan zavisne zavisnim зависна зависни зависан зависне зависним
+16	7616	higijena	higijenu higijena higijene higijeni higijenom хигијену хигијена хигијене хигијени хигијеном
+17	7617	izolovan	izolovan izolovani изолован изоловани
+18	7618	собом	собом себе себи
+19	7619	padina	padine padinu padini padinama padina падине падину падини падинама падина
+20	7620	pristignuti	pristiže pristigli pristigla pristigao pristigle pristiglo pristigne pristignu pristizati пристиже пристигли пристигла пристигао пристигле пристигло пристигне пристигну пристизати
+21	7621	nesuglasica	nesuglasice nesuglasica nesuglasicu несугласице несугласица несугласицу
+22	7622	financije	financije financija financijama финанције финанција финанцијама
+23	7623	kovati	kovao kovali kuj kujem kuješ kovanje kujete kovala kujemo kovati kovan kovani kuje kuju кује ковао ковали куј кујем кујеш ковање кујете ковала кујемо ковати кован ковани кују
+24	7624	trk	trk trku trče trkom трче трку трком трк
+25	7625	neznalica	neznalica neznalice neznalicama neznalico незналица незналице незналицама незналицо
+26	7626	hrišćanstvo	hrišćanstvo hrišćanstva hrišćanstvu хришћанство хришћанства хришћанству
+27	7627	osakatiti	osakaćen osakatio osakaćena osakatiti osakaćeni osakati osakatili osakaćene osakatila osakaćeno osakate осакаћен осакатио осакаћена осакатити осакаћени осакати осакатили осакаћене осакатила осакаћено осакате
+28	7628	rasizam	rasizam rasizma rasizmu rasizmom расизам расизма расизму расизмом
+29	7629	lignja	lignje lignja lignji lignju lignjama лигње лигња лигњи лигњу лигњама
+30	7630	sestrin	sestrin sestrinu sestrino sestrine sestrina sestrinoj sestrinom sestrinim сестрин сестрину сестрино сестрине сестрина сестриној сестрином сестриним
+31	7631	mamuran	mamuran mamurna mamurni mamurno мамуран мамурна мамурни мамурно
+32	7632	blistati	blista blistaš blistaju blistala blistaj blistam blistati blistao blistate блиста блисташ блистају блистала блистај блистам блистати блистао блистате
+33	7633	pogan	pogani pogana pogan pogano pogane poganim poganu poganih poganog погани погана поган погано погане поганим погану поганих поганог
+34	7634	optimizam	optimizam optimizma optimizmom optimizmu оптимизам оптимизма оптимизмом оптимизму
+35	7635	okupacija	okupacije okupacija okupacijom okupaciju okupaciji окупације окупација окупацијом окупацију окупацији
+36	7636	zavjet	zavjet zavjete zavjeta zavjetu zavjeti zavjetima завјет завјете завјета завјету завјети завјетима
+37	7637	šugav	šugavi šugava šugavo šugav šugave šugavog šugavu šugavom šugavih šugavim шугави шугава шугаво шугав шугаве шугавог шугаву шугавом шугавих шугавим
+38	7638	stanište	stanište staništa staništu станиште станишта станишту
+39	7639	bjegunac	bjegunac bjegunca bjegunci bjegunce bjegunaca bjeguncu бјегунац бјегунца бјегунци бјегунце бјегунаца бјегунцу
+40	7640	naduti	naduvena naduveni naduven naduveno naduo naduto nadut naduti naduta nadula naduvene nadu наду надувена надувени надувен надувено надуо надуто надут надути надута надула надувене
+41	7641	naušnica	naušnice naušnica naušnicu naušnicama наушнице наушница наушницу наушницама
+42	7642	transportni	transportni transportna transportne transportnog transportno transportnih transportnom transportnu transportnoj transportnim транспортни транспортна транспортне транспортног транспортно транспортних транспортном транспортну транспортној транспортним
+43	7643	odjahati	odjahao odjahati odjahali odjaši odjašem odjašeš odjaše odjahala odjašite odjašemo odjahaću одјахао одјахати одјахали одјаши одјашем одјашеш одјаше одјахала одјашите одјашемо одјахаћу
+44	7644	balerina	balerina balerine balerinu balerinom балерина балерине балерину балерином
+45	7645	špil	špil špila špilu špilom шпил шпила шпилу шпилом
+46	7646	svemoćan	svemoćni svemoćnog svemoćan svemoćna svemoćnim svemoćnom svemoćne свемоћни свемоћног свемоћан свемоћна свемоћним свемоћном свемоћне
+47	7647	šahovski	šahovski šahovska šahovske šahovskog šahovskoj šahovsku šahovskom šahovskih шаховски шаховска шаховске шаховског шаховској шаховску шаховском шаховских
+48	7648	jegulja	jegulje jegulja jegulju jeguljama јегуље јегуља јегуљу јегуљама
+49	7649	pepeljara	pepeljaru pepeljara pepeljare pepeljari пепељару пепељара пепељаре пепељари
+50	7650	detinjast	detinjast detinjasta detinjasti detinjaste detinjastim detinjastog detinjastu детињаст детињаста детињасти детињасте детињастим детињастог детињасту
+51	7651	velikodušnost	velikodušnost velikodušnosti velikodušnošću великодушност великодушности великодушношћу
+52	7652	podsvest	podsvest podsvesti подсвест подсвести
+53	7653	blagajnik	blagajnik blagajnika blagajnici blagajniku blagajnike благајник благајника благајници благајнику благајнике
+54	7654	razbistriti	razbistrim razbistri razbistriti razbistriš razbistrilo razbistrio разбистрим разбистри разбистрити разбистриш разбистрило разбистрио
+55	7655	pokoj	pokoj pokoji pokoju pokoja pokoje покој покоји покоју покоја покоје
+56	7656	obdanište	obdanište obdaništa obdaništu обданиште обданишта обданишту
+57	7657	kragna	kragnu kragna kragni kragne kragnom крагну крагна крагни крагне крагном
+58	7658	kapak	kapke kapci kapak kapaka kapcima kapka капке капци капак капака капцима капка
+59	7659	dopirati	dopire dopiru dopirem dopirao dopirala допире допиру допирем допирао допирала
+60	7660	nasamariti	nasamario nasamaren nasamarili nasamariti nasamarila nasamareni nasamari nasamariš nasamare насамарио насамарен насамарили насамарити насамарила насамарени насамари насамариш насамаре
+61	7661	trak	tračak traku trake trak traci trakom траку траке траци трачак трак траком
+62	7662	dobaciti	dobaci dobacio dobaciti dobacim dobaciš dobacite dobacila добаци добацио добацити добацим добациш добаците добацила
+63	7663	sašiti	sašila saši sašio sašiti sašije sašijem sašili sašivena сашила саши сашио сашити сашије сашијем сашили сашивена
+64	7664	vata	vati vata vatu vate vato vatom вати вата вату вате вато ватом
+65	7665	surovo	surovo сурово
+66	7666	strijelac	strijelac strijelci strijelca strijelaca strijelce стријелац стријелци стријелца стријелаца стријелце
+67	7667	neveran	neverna neveran neverni neverne nevernog неверна неверан неверни неверне неверног
+68	7668	nestvaran	nestvarno nestvaran nestvarna nestvarni nestvarne нестварно нестваран нестварна нестварни нестварне
+69	7669	đus	đus đusa đuse đusi đusu đusom ђус ђуса ђусе ђуси ђусу ђусом
+70	7670	lomača	lomači lomaču lomača lomače ломачи ломачу ломача ломаче
+71	7671	besprekoran	besprekoran besprekorna besprekorni besprekorne besprekornu besprekornog besprekornom besprekornim беспрекоран беспрекорна беспрекорни беспрекорне беспрекорну беспрекорног беспрекорном беспрекорним
+72	7672	pljesak	pljesak pljeska pljeske pljesku pljeskom пљесак пљеска пљеске пљеску пљеском
+73	7673	australijski	australijski australijska australijske australijskog australijskih australijskim australijskom australijskoj australijsko аустралијски аустралијска аустралијске аустралијског аустралијских аустралијским аустралијском аустралијској аустралијско
+74	7674	očekivan	očekivanog očekivani očekivana očekivane očekivan očekivanu očekivanih očekivanom očekivanim очекиваног очекивани очекивана очекиване очекиван очекивану очекиваних очекиваном очекиваним
+75	7675	profitirati	profitira profitirati profitirao profitiraju profitirali profitiramo profitiraš profitiram profitirala профитира профитирати профитирао профитирају профитирали профитирамо профитираш профитирам профитирала
+76	7676	navod	navodi navode navoda navodima navod наводи наводе навода наводима навод
+77	7677	vinograd	vinograd vinograda vinogradu vinograde vinogradi vinogradima виноград винограда винограду винограде виногради виноградима
+78	7678	izumeti	izumeo izumeli izumela izumeti izume изумео изумели изумела изумети изуме
+79	7679	govedo	goveda govedo govedima говеда говедо говедима
+80	7680	okno	okno okna oknu oknima окно окна окну окнима
+81	7681	iskopavati	iskopavanje iskopavaju iskopava iskopavali iskopavao iskopavamo iskopavati iskopavam iskopavaš ископавање ископавају ископава ископавали ископавао ископавамо ископавати ископавам ископаваш
+82	7682	diskretno	diskretno дискретно
+83	7683	cvrčak	cvrčak cvrčci cvrčka cvrčke cvrčaka cvrčku цврчак цврчци цврчка цврчке цврчака цврчку
+84	7684	ginekolog	ginekolog ginekologa ginekologom ginekologu гинеколог гинеколога гинекологом гинекологу
+85	7685	osigurač	osigurač осигурач
+86	7686	sedamdeset	sedamdeset седамдесет
+87	7687	kača	kači kače качи каче
+88	7688	sjekira	sjekiru sjekirom sjekira sjekire сјекиру сјекиром сјекира сјекире
+89	7689	figurica	figurice figurica figuricu фигурице figuricama фигурица фигурицу фигурицама
+90	7690	prijeti	prijeti пријети
+91	7691	rujan	rujna rujan rujnu рујна рујан рујну
+92	7692	pojedinačan	pojedinačne pojedinačni pojedinačnih pojedinačna pojedinačnim pojedinačnu pojedinačnog pojedinačnom појединачне појединачни појединачних појединачна појединачним појединачну појединачног појединачном
+93	7693	neurološki	neurološki neurološke neurološka neurološko neuroloških neurološkog neurološku neurološkim неуролошки неуролошке неуролошка неуролошко неуролошких неуролошког неуролошку неуролошким
+94	7694	goditi	godi godilo goditi godila godio gode годи годило годити годила годио годе
+95	7695	flauta	flautu flauta flaute flauti flautom флауту флаута флауте флаути флаутом
+96	7696	nepošteno	nepošteno непоштено
+97	7697	autsajder	autsajder autsajderi autsajdera autsajdere autsajderima аутсајдер аутсајдери аутсајдера аутсајдере аутсајдерима
+98	7698	upijati	upija upijaju upijam upijajući upijao upijanje upijala упија упијају упијам упијајући упијао упијање упијала
+99	7699	utjeha	utjeha utjehu utjehe утјеха утјеху утјехе
+100	7700	zabilježiti	zabilježeno zabilježi zabilježio zabilježiti zabilježen zabilježena zabilježili zabilježeni zabilježite zabilježila забиљежено забиљежи забиљежио забиљежити забиљежен забиљежена забиљежили забиљежени забиљежите забиљежила

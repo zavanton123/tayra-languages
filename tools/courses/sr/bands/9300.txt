@@ -1,0 +1,100 @@
+1	9201	svršeni	svršeno svršena свршено свршена
+2	9202	zagrijavati	zagrijavanje zagrijava zagrijavam zagrijavaju zagrijavati загријавање загријава загријавам загријавају загријавати
+3	9203	razdražljiv	razdražljiv razdražljiva razdražljivi razdražljivo раздражљив раздражљива раздражљиви раздражљиво
+4	9204	kiklop	kiklop kiklopa kiklope kiklopi киклоп киклопа киклопе киклопи
+5	9205	kičmeni	kičmene kičmeni kičmenu kičmena kičmenog кичмене кичмени кичмену кичмена кичменог
+6	9206	dragan	dragan dragana dragane draganu dragani драган драгана драгане драгану драгани
+7	9207	mitski	mitski mitska mitsko mitske mitskih mitskom mitskog mitsku митски митска митско митске митских митском митског митску
+8	9208	narkomanka	narkomanka narkomanku narkomanke наркоманка наркоманку наркоманке
+9	9209	opsedati	opseda opsedaju opsedanje opsedati opsedaš opsedao opsedali опседа опседају опседање опседати опседаш опседао опседали
+10	9210	dopuna	dopuna dopunu dopuni dopune допуна допуну допуни допуне
+11	9211	ludjeti	ludiš ludimo ludio ludjeti ludi ludim lude луди луде лудим лудиш лудимо лудио лудјети
+12	9212	spajalica	spajalice spajalica spajalicu spajalicama spajalicom спајалице спајалица спајалицу спајалицама спајалицом
+13	9213	polusestra	polusestra polusestre polusestru polusestrom полусестра полусестре полусестру полусестром
+14	9214	čačkalica	čačkalice čačkalica čačkalicu čačkalicom чачкалице чачкалица чачкалицу чачкалицом
+15	9215	partijski	partijski partijske partijskih partijska partijsku partijskog partijskom partijskim партијски партијске партијских партијска партијску партијског партијском партијским
+16	9216	vekna	veknu vekna vekne vekni векну векна векне векни
+17	9217	pasivan	pasivni pasivan pasivna pasivne pasivnog пасивни пасиван пасивна пасивне пасивног
+18	9218	mučno	mučno мучно
+19	9219	osnivati	osnivanje osniva osnivam osnivaju osnivamo оснивање оснива оснивам оснивају оснивамо
+20	9220	pivnica	pivnici pivnicu pivnice pivnica пивници пивницу пивнице пивница
+21	9221	zboriti	zboriš zbori zborim zboriti zborite збориш збори зборим зборити зборите
+22	9222	tajanstveno	tajanstveno тајанствено
+23	9223	škare	škare škarama шкаре шкарама
+24	9224	orgulje	orgulje orgulja orguljama оргуље оргуља оргуљама
+25	9225	blesan	blesane blesan blesana blesani блесане блесан блесана блесани
+26	9226	renesansa	renesanse renesansa renesansu renesansi ренесансе ренесанса ренесансу ренесанси
+27	9227	astronomija	astronomiju astronomije astronomija astronomiji астрономију астрономије астрономија астрономији
+28	9228	specifikacija	specifikacije specifikacijama specifikacija спецификације спецификацијама спецификација
+29	9229	iscrpljivati	iscrpljuje iscrpljujući iscrpljuju iscrpljuješ iscrpljivanje исцрпљује исцрпљујући исцрпљују исцрпљујеш исцрпљивање
+30	9230	močiti	moči мочи
+31	9231	rejting	rejting рејтинг
+32	9232	kube	kube кубе
+33	9233	tiganj	tiganj тигањ
+34	9234	kolino	kolina kolinu kolinom колина колину колином
+35	9235	sušilica	sušilicu sušilice sušilici sušilica сушилицу сушилице сушилици сушилица
+36	9236	izgnanstvo	izgnanstvu izgnanstvo izgnanstva изгнанству изгнанство изгнанства
+37	9237	kršćanin	kršćanin kršćani kršćane kršćana kršćanima кршћанин кршћани кршћане кршћана кршћанима
+38	9238	nasumice	nasumice насумице
+39	9239	kelner	kelner kelnera kelneri kelneru келнер келнера келнери келнеру
+40	9240	hodočašće	hodočašće hodočašća hodočašću ходочашће ходочашћа ходочашћу
+41	9241	poprište	poprište poprištu poprišta поприште попришту попришта
+42	9242	anestetik	anestetik anestetika anestetike анестетик анестетика анестетике
+43	9243	transvestit	transvestit transvestita transvestiti transvestite трансвестит трансвестита трансвестити трансвестите
+44	9244	televizijski	televizijski televizijske телевизијски телевизијске
+45	9245	bezazlen	bezazlena bezazlen bezazleni bezazlene bezazlenu безазлена безазлен безазлени безазлене безазлену
+46	9246	đon	đon đonu đona đonovima đonove đonom đonovi ђон ђону ђона ђоновима ђонове ђоном ђонови
+47	9247	patologija	patologije patologija patologiju patologiji патологије патологија патологију патологији
+48	9248	nastaniti	nastanjen nastanili nastanio nastanjena nastane nastaniti nastanila nastanjeno nastani настањен настанили настанио настањена настане настанити настанила настањено настани
+49	9249	adaptirati	adaptirao adaptira adaptirati adaptiraju adaptirali адаптирао адаптира адаптирати адаптирају адаптирали
+50	9250	neposlušan	neposlušan neposlušna neposlušni neposlušne neposlušnog непослушан непослушна непослушни непослушне непослушног
+51	9251	gaziran	gazirani gazirano gaziranu gazirana gazirane gaziranog газирани газирано газирану газирана газиране газираног
+52	9252	predavač	predavač predavača predavači предавач предавача предавачи
+53	9253	ekscentričan	ekscentričan ekscentrični ekscentrična ekscentrično ekscentričnog ексцентричан ексцентрични ексцентрична ексцентрично ексцентричног
+54	9254	nagoveštavati	nagoveštava nagoveštavaju nagoveštavate nagoveštavaš nagoveštavalo nagoveštavam наговештава наговештавају наговештавате наговештаваш наговештавало наговештавам
+55	9255	nepismen	nepismen nepismeni nepismena nepismenih nepismene неписмен неписмени неписмена неписмених неписмене
+56	9256	hijerarhija	hijerarhija hijerarhiji hijerarhiju hijerarhije хијерархија хијерархији хијерархију хијерархије
+57	9257	avokado	avokado avokada avokadom авокадо авокада авокадом
+58	9258	krstaš	krstaši krstaša krstaš krstaše krstašima крсташи крсташа крсташ крсташе крсташима
+59	9259	presjeći	presjeći presjekao presjekli presijeci presjekla presječena пресјећи пресјекао пресјекли пресијеци пресјекла пресјечена
+60	9260	rubrika	rubriku rubrike rubrika rubrici рубрику рубрике рубрика рубрици
+61	9261	pletenica	pletenice pletenicu pletenica pletenicama плетенице плетеницу плетеница плетеницама
+62	9262	neuk	neuki neuka neuk neuko neuke neukih неуки неука неук неуко неуке неуких
+63	9263	potkupiti	potkupio potkupiti potkupi potkupili potkupiš potkupljen potkupim potkupila поткупио поткупити поткупи поткупили поткупиш поткупљен поткупим поткупила
+64	9264	neobuzdan	neobuzdan neobuzdana neobuzdano neobuzdani neobuzdane neobuzdanog neobuzdanu необуздан необуздана необуздано необуздани необуздане необузданог необуздану
+65	9265	najednom	najednom наједном
+66	9266	balaviti	balaviš balavi balavio balave balavila balavim балавиш балави балавио балаве балавила балавим
+67	9267	celibat	celibatu celibat celibata целибату целибат целибата
+68	9268	pradeda	pradeda прадеда
+69	9269	minijaturni	minijaturni minijaturne minijaturna minijaturnu minijaturnih minijaturnim минијатурни минијатурне минијатурна минијатурну минијатурних минијатурним
+70	9270	ubojit	ubojiti ubojita ubojite ubojit ubojitim ubojitu ubojitog убојити убојита убојите убојит убојитим убојиту убојитог
+71	9271	potpredsednica	potpredsednica potpredsednice potpredsednicu потпредседнице potpredsednici потпредседница потпредседницу потпредседници
+72	9272	bezbednosan	bezbednosni безбедносни
+73	9273	zubarski	zubarski zubarska zubarske zubarskoj zubarsku zubarsko zubarskog zubarskom zubarskim зубарски зубарска зубарске зубарској зубарску зубарско зубарског зубарском зубарским
+74	9274	dlačica	dlačice dlačica dlačicama dlačicu длачице длачица длачицама длачицу
+75	9275	nepozvan	nepozvan nepozvani nepozvane nepozvana непозван непозвани непозване непозвана
+76	9276	nepogrešiv	nepogrešiv nepogrešiva nepogrešivo nepogrešivi непогрешив непогрешива непогрешиво непогрешиви
+77	9277	krštenica	krštenicu krštenica krštenice krštenici крштеницу крштеница крштенице крштеници
+78	9278	uzbrdo	uzbrdo узбрдо
+79	9279	hašiš	hašiš hašiša hašišom хашиш хашиша хашишом
+80	9280	homoseksualnost	homoseksualnost homoseksualnosti хомосексуалност хомосексуалности
+81	9281	zajedništvo	zajedništvo zajedništva zajedništvu заједништво заједништва заједништву
+82	9282	čahura	čahure čahura čahuru čahuri чахуре чахура чахуру чахури
+83	9283	drmati	drma drmaj drmanje drmaš drmao drmam drmaju drmati дрма дрмај дрмање дрмаш дрмао дрмам дрмају дрмати
+84	9284	pokoravati	pokoravam pokorava pokoravaju pokoravati pokoravanje pokoravamo pokoravaš покоравам покорава покоравају покоравати покоравање покоравамо покораваш
+85	9285	individualan	individualne individualni individualna individualnih individualnu individualnim individualnom individualnog индивидуалне индивидуални индивидуална индивидуалних индивидуалну индивидуалним индивидуалном индивидуалног
+86	9286	postotak	postotak postotaka postotka постотак постотака постотка
+87	9287	varvarski	varvarski varvarska varvarskih varvarske varvarsko varvarskim varvarskom варварски варварска варварских варварске варварско варварским варварском
+88	9288	bestseler	bestseler bestselera бестселер бестселера
+89	9289	rumen	rumeni rumena rumene rumen rumeno rumenih rumenim румени румена румене румен румено румених руменим
+90	9290	beživotan	beživotno beživotna beživotni beživotan beživotne beživotnu beživotnog беживотно беживотна беживотни беживотан беживотне беживотну беживотног
+91	9291	nadmoćan	nadmoćniji nadmoćni nadmoćna nadmoćan nadmoćno nadmoćne nadmoćnim nadmoćnije nadmoćnu надмоћнији надмоћни надмоћна надмоћан надмоћно надмоћне надмоћним надмоћније надмоћну
+92	9292	začudo	začudo зачудо
+93	9293	spokojno	spokojno спокојно
+94	9294	nadmoć	nadmoć nadmoći надмоћ надмоћи
+95	9295	ravnopravan	ravnopravni ravnopravno ravnopravan ravnopravne ravnopravna равноправни равноправно равноправан равноправне равноправна
+96	9296	socijalistički	socijalističke socijalistički socijalistička socijalističkog socijalističkih socijalističku socijalističkom socijalističkoj социјалистичке социјалистички социјалистичка социјалистичког социјалистичких социјалистичку социјалистичком социјалистичкој
+97	9297	svod	svod svode svoda svodom svodu свод своде свода сводом своду
+98	9298	deblo	deblo debla deblu debala дебло дебла деблу дебала
+99	9299	dodeljivati	dodeljuje dodeljujem dodeljuju dodeljujemo dodeljivanje додељује додељујем додељују додељујемо додељивање
+100	9300	mlitav	mlitav mlitavo mlitavi mlitava mlitave mlitavim млитав млитаво млитави млитава млитаве млитавим

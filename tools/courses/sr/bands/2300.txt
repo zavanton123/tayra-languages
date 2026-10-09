@@ -1,0 +1,100 @@
+1	2201	teta	teta tete teto tetu teti tetom тета тете тето тету тети тетом
+2	2202	mraz	mraz mraza mraze mrazu мраз мраза mrazova mrazove mrazovi мразе мразу мразова мразове мразови
+3	2203	bacil	bacila bacili bacile бацила бацили bacil bacilima бациле бацил бацилима
+4	2204	nasilan	nasilan nasilno nasilni nasilna nasilnog nasilne nasilnih nasilnim nasilnom nasilnu nasilniji nasilnoj насилан nasilnije насилно насилни насилног najnasilniji насилна насилне насилних насилним насилном насилну насилнији насилној насилније најнасилнији
+5	2205	guverner	guverner guvernera guverneru guvernerom гувернер guverneri гувернера guvernere гувернеру гувернером гувернери гувернере
+6	2206	се	си себе себи се
+7	2207	podne	podne podneva подне поднева
+8	2208	umetnik	umetnik umetnika umetnici umetnike umetnicima уметник umetniku umetnikom уметника umetniče уметници уметнике уметницима уметнику уметником уметниче
+9	2209	katastrofa	katastrofa katastrofe katastrofu katastrofi katastrofom катастрофа katastrofama катастрофе катастрофу катастрофи катастрофом катастрофама
+10	2210	postupak	postupak postupke postupci postupka postupaka postupku postupcima postupkom поступак поступке поступка поступци поступку поступака поступцима поступком
+11	2211	popularan	popularan popularna popularni popularno popularne najpopularniji najpopularnija popularniji popularnim popularnom najpopularnijih najpopularnije popularnu popularnog popularnih popularnija популаран popularnoj popularnije najpopularnijeg najpopularniju популарна najpopularnijim популарни популарно популарне најпопуларнији најпопуларнија популарнији популарним популарном најпопуларнијих најпопуларније популарну популарног популарних популарнија популарној популарније најпопуларнијег најпопуларнију најпопуларнијим
+12	2212	vod	vode vodu vod vodom vodove vodovi vodova воде воду вод vodovima водом водове водови водова водовима
+13	2213	besplatan	besplatan besplatne besplatna besplatnu besplatni besplatnih besplatnog besplatnim besplatnom besplatnoj бесплатан бесплатна бесплатне бесплатну бесплатни бесплатних бесплатног бесплатним бесплатном бесплатној
+14	2214	strast	strast strasti strašću страст strastima страсти страшћу страстима
+15	2215	iznutra	iznutra изнутра
+16	2216	dokle	dokle докле
+17	2217	uložiti	uložio uložili uložiti uložila uloži uložim uložiš uložite uloženo uložimo uložen ulagati uložiću uloženi uložena уложио uložićemo uložene ulože uložile уложила уложили уложити уложи уложим уложиш уложите уложено уложимо уложен улагати уложићу уложени уложена уложићемо уложене уложе уложиле
+18	2218	rukavica	rukavice rukavica rukavicu rukavicama рукавице rukavici rukavicom рукавицу рукавица рукавицама рукавици рукавицом
+19	2219	flaša	flašu flaše flaša flašom flaši flašama флашу флаше флаша флашом флаши флашама
+20	2220	hram	hram hrama hramu hramova hramove храм hramovi hramovima hramom храму храма храмова храмове храмови храмовима храмом
+21	2221	analiza	analizu analiza analize analizi analizom analizama анализа анализе анализу анализи анализом анализама
+22	2222	čokolada	čokoladu čokolade čokolada čokoladom čokoladi чоколаде чоколаду чоколада čokoladama чоколадом чоколади чоколадама
+23	2223	slijediti	slijedi slijediti slijedite slijedio slijede slijedeći slijedim slijedili slijedila slijedimo slijediš slijedilo слиједи слиједити слиједите слиједио слиједе слиједећи слиједим слиједили слиједила слиједимо слиједиш слиједило
+24	2224	kurs	kurs kursa kursu курс kursom kursevi курса курсу курсом курсеви
+25	2225	preuzimati	preuzimam preuzima preuzimanje preuzimamo preuzimaju preuzimaš preuzimanja preuzimate preuzimati preuzimao преузимам преузима преузимање preuzimajući preuzimala preuzimali преузимамо преузимају преузимаш преузимања преузимате преузимати преузимао преузимајући преузимала преузимали
+26	2226	lisa	lisa лиса
+27	2227	vaditi	vadi vadite vadim vađenje vade vadiš vadio vadimo vaditi vadili vadila вади vadeći вадите вадим вађење ваде вадиш вадио вадимо вадити вадили вадила вадећи
+28	2228	privući	privući privukao privuče privuklo privukla privukli privuci privučem privučemo privuku privučeš privučeni privučen privučete privukle privucite privučena привући privučene привуче привукла привукао привукло привукли привуци привучем привучемо привуку привучеш привучени привучен привучете привукле привуците привучена привучене
+29	2229	ulje	ulje ulja uljem ulju уље уља uljima уљем уљу уљима
+30	2230	pomoćnik	pomoćnik pomoćnika pomoćnici pomoćnikom pomoćnike pomoćniku помоћник pomoćniče pomoćnicima помоћника помоћници помоћником помоћнике помоћнику помоћниче помоћницима
+31	2231	lijek	lijek lijekove lijekova lijekovi lijekovima lijeka lijeku lijekom liječe лијек лијекове лијекова лијекови лијековима лијека лијеку лијеком лијече
+32	2232	isplatiti	isplati isplatiti isplatilo isplatio isplate isplatila isplatim isplaćen isplatili isplatite isplatiće isplatiš isplatimo isplaćeni isplaćena исплати isplatile isplatiću isplaćeno isplaćene исплатити isplatićemo исплатило исплатио исплате исплатила исплатим исплаћен исплатили исплатите исплатиће исплатиш исплатимо исплаћени исплаћена исплатиле исплатићу исплаћено исплаћене исплатићемо
+33	2233	uspomena	uspomene uspomena uspomenu uspomenama uspomeni успомене успомена успомену uspomenom успоменама успомени успоменом
+34	2234	božićni	božićni božićne božićnu božićno božićna božićnog božićnoj božićnih božićnom božićnim божићни божићне божићну божићно божићна божићног божићној божићних божићном божићним
+35	2235	prašina	prašinu prašine prašina prašini prašinom прашине прашину прашина прашини прашином
+36	2236	zora	zoru zore zora zoro zorom зору зоре зора zori зоро зором зори
+37	2237	zaposlen	zaposleni zaposlenih zaposlen zaposlene zaposlena zaposlenima zaposlenog zaposleno zaposlenim zaposlenom запослени запослених zaposlenu запослен запослене запослена запосленима запосленог запослено запосленим запосленом запослену
+38	2238	blagoslov	blagoslov blagoslovi blagoslova blagoslovom blagoslove благослов благослови blagoslovima blagoslovu благослова благословом благослове благословима благослову
+39	2239	količina	količinu količina količine količini količinama količinom количину количина количине количини количинама количином
+40	2240	predavanje	predavanja predavanje predavanju predavanjima predavanjem предавање предавања предавању предавањима предавањем
+41	2241	jučer	jučer јучер
+42	2242	okrug	okruga okrugu okrug okruzima округа округ округу okruže okruge okrugom okruzi окрузима окруже округе округом окрузи
+43	2243	staklo	staklo stakla staklu staklom стакло staklima стакла stakala стаклу стаклом стаклима стакала
+44	2244	rod	rod roda rodi rodu rode rodom роди род рода роде роду родом
+45	2245	alarm	alarm alarma alarme alarmi alarmni аларм alarmom alarmu аларма alarmima alarmne аларме аларми алармни алармом аларму алармима алармне
+46	2246	ugroziti	ugroziti ugrožena ugrožen ugrozio ugrozi ugroženi ugroženo ugrozila ugrozim ugrožene ugrozili ugrozilo ugroziš ugroze ugrozimo ugrozite угрожена угрозити угрожен угрозио угрози угрожени угрожено угрозила угрозим угрожене угрозили угрозило угрозиш угрозе угрозимо угрозите
+47	2247	zagrliti	zagrli zagrlim zagrliti zagrlio zagrliš zagrlila zagrlimo zagrlite zagrlili zagrljeni zagrle загрли zagrliću загрлим zagrlićeš загрлити загрлио загрлиш загрлила загрлимо загрлите загрлили загрљени загрле загрлићу загрлићеш
+48	2248	sport	sport sportu sporta sportom sportove sportovima sportova sportovi спорт спорта спорту спортом спортове спортовима спортова спортови
+49	2249	letjeti	letim letjeti letiš letimo letenje letio letite lete letjeli letjela letjele летим летиш летимо летите летење лете летјети летио летјели летјела летјеле
+50	2250	boleti	boli bolelo boleti boleće bolela bole boleo боли болело болети bolele боле болеће болела болео болеле
+51	2251	identitet	identitet identiteta identitete identitetom identitetu идентитет identiteti identitetima идентитета идентитете идентитетом идентитету идентитети идентитетима
+52	2252	džin	džin džina džine džinovi džinova џин džinom džinu džinove džinovima џина џине џинови џинова џином џину џинове џиновима
+53	2253	talenat	talenat talenta talente talenata talentom talenti talentu таленат talentima талента таленте талената талентом таленти таленту талентима
+54	2254	udoban	udobno udobnije udoban udobna udobne udobnom udobnu udobniji udobni udobnim udobnoj удобан udobnija najudobnije udobnog udobnih najudobniji udobnijim удобно удобније удобна удобне удобном удобну удобнији удобни удобним удобној удобнија најудобније удобног удобних најудобнији удобнијим
+55	2255	tisuća	tisuća tisuće tisuću tisućama тисућа тисуће тисућу тисућама
+56	2256	in	in ina ini ine ин inu ino ина ини ине ину ино
+57	2257	tableta	tablete tableta tabletu tabletama таблете таблета tableti tabletom таблету таблетама таблети таблетом
+58	2258	dolina	dolini doline dolinu dolina dolinom dolinama долини долину долине долина долином долинама
+59	2259	golf	golf golfa golfu голф golfom голфа голфу голфом
+60	2260	verzija	verzija verziju verzije verziji verzijom верзија верзију verzijama верзије верзији верзијом верзијама
+61	2261	dužan	dužan dužno dužni dužna dužnim дужан дужно dužne dužnom дужни дужна дужним дужне дужном
+62	2262	kraljevstvo	kraljevstvo kraljevstva kraljevstvu kraljevstvom kraljevstava краљевство краљевства краљевству kraljevstvima краљевстава краљевством краљевствима
+63	2263	univerzum	univerzum univerzuma univerzumu univerzumom универзум univerzumi univerzume универзума univerzumima универзуму универзумом универзуми универзуме универзумима
+64	2264	diviti	divim divio divljenje divi diviti diviš divila divimo divili divite dive дивим diveći дивљење диви дивио дивити дивиш дивила дивимо дивили дивите диве дивећи
+65	2265	raketa	rakete raketa raketu raketama raketom raketi ракете ракета raketo ракету ракетама ракетом ракети ракето
+66	2266	smeo	smeo smela smeli smelo smele смео смела смели smelog smelije smeliji смело smelim смеле смелог смелије смелији смелим
+67	2267	usuditi	usudio usudila usudili usuditi usudi usudiš usudim усудио usude usudite usudiću usudimo usudile усудила усудили усудити усуди усудиш усудим усуде усудите усудићу усудимо усудиле
+68	2268	lažov	lažov lažove lažovi lažovom lažova лажов lažovu lažovima лажове лажови лажовом лажова лажову лажовима
+69	2269	robot	robot robota roboti robote robotima robotom robotu робот робота роботи роботе роботима роботом роботу
+70	2270	cev	cevi cev cevima цев цеви цевима
+71	2271	voljan	voljan voljno voljni voljna voljne вољно вољан voljnog voljnih вољни вољна вољне вољног вољних
+72	2272	nimalo	nimalo нимало
+73	2273	pamtiti	pamtim pamtiti pamti pamtiš pamte pamtite pamtimo pamtio pamtiću памтим pamtili pamtiće pamtila памти памтиш pamtićemo памтити памте памтите памтимо памтио памтићу памтили памтиће памтила памтићемо
+74	2274	prekršiti	prekršio prekršili prekršila prekršiti prekrši prekršiš prekršim prekršite prekrše prekršen prekršimo prekršena прекршио prekršeno prekršiću прекршили prekršile prekršilo прекршила прекршити прекрши прекршиш прекршим прекршите прекрше прекршен прекршимо прекршена прекршено прекршићу прекршиле прекршило
+75	2275	simbol	simbol simboli simbola simbole simbolima simbolom симбол simbolu симболи симбола симболе симболима симболом симболу
+76	2276	redak	retka redak reci retkih retke retki recima retku retkim ređe retkog redaka retkom ređi najređih reče ретка ređa najređi редак ретких retkoj najređa najređe реци рече ретке ретки рецима ретку ретким ређе ретког редака ретком ређи најређих ређа најређи реткој најређа најређе
+77	2277	veš	veš veša vešu веш веша вешу
+78	2278	borac	borac borci borca boraca borce borcima борац borcu borcem борци борца бораца борце борцима борцу борцем
+79	2279	umjesto	umjesto умјесто
+80	2280	odreći	odreći odrekao odrekla odreknem odrekne odrekneš odrekli odreknete odreknemo odreknu odreci odrekni одрекао одрекне odrecite одрећи odreknite odrekle одрекла одрекнем одрекнеш одрекли одрекнете одрекнемо одрекну одреци одрекни одреците одрекните одрекле
+81	2281	fokusirati	fokusiraj fokusiran fokusirati fokusiramo fokusiram fokusiraš fokusirana fokusirani fokusira fokusirajte fokusirajmo fokusirao fokusiraju fokusirate fokusirali fokusirala fokusiranje fokusirane fokusirajući fokusirano фокусирати fokusiraćemo фокусиран fokusiraću фокусирани фокусирају фокусирај фокусира фокусирамо фокусирам фокусираш фокусирана фокусирајте фокусирајмо фокусирао фокусирате фокусирали фокусирала фокусирање фокусиране фокусирајући фокусирано фокусираћемо фокусираћу
+82	2282	lečiti	lečenje leči lečim lečio lečiti lečiš lečimo lečili lečite lečila лечење лечи lečena lečen lečeni lečeći лечити leče лечим лечио лечиш лечимо лечили лечите лечила лечена лечен лечени лечећи лече
+83	2283	kriza	kriza krizu krize krizi krizom криза кризе кризу krizama кризи кризом кризама
+84	2284	seme	seme semena семе semenom semenu семена семеном семену
+85	2285	majstor	majstor majstora majstore majstori мајстор majstoru majstorom majstorima мајстора мајстори мајсторе мајстору мајстором мајсторима
+86	2286	premijer	premijer premijera premijeru premijere premijeri premijerom премијер премијера премијеру премијере премијери премијером
+87	2287	raspoložiti	raspoložen raspoložena raspoloženi raspoložene расположен raspoloženo расположена расположени расположене расположено
+88	2288	stres	stresom stres stresa stresu стрес stresova stresove стресом стреса стресу стресова стресове
+89	2289	vladati	vladati vladaju vladao vladam vladali vladala vladaš vladanje vladanja vladamo vladaj vladate vladajuće vladalo vladajuća vladale vladajući владати vladaće владао владају vladaću vladanjem vladaćemo vladanju vladajućeg vladajućih vladaćeš vladajuću владам владали владала владаш владање владања владамо владај владате владајуће владало владајућа владале владајући владаће владаћу владањем владаћемо владању владајућег владајућих владаћеш владајућу
+90	2290	sigurnosni	sigurnosni sigurnosne sigurnosna sigurnosnih sigurnosnu sigurnosnim sigurnosnog sigurnosno sigurnosnom sigurnosnoj сигурносни сигурносне сигурносна сигурносних сигурносну сигурносним сигурносног сигурносно сигурносном сигурносној
+91	2291	mana	mana mani mane manu manama mano manom мана ману мане мани манама мано маном
+92	2292	šok	šok šoku šoka шок šokove šokom šokova шоку šokovi šokovima шока шокове шоком шокова шокови шоковима
+93	2293	zakopati	zakopao zakopan zakopano zakopana zakopati zakopali zakopani zakopamo zakopaj zakopala zakopam zakopane zakopa zakopaš zakopaju zakopajte zakopate zakopaćemo zakopaću zakopajmo zakopaće закопао закопан закопано закопана закопати закопали закопани закопамо закопај закопала закопам закопане закопа закопаш закопају закопајте закопате закопаћемо закопаћу закопајмо закопаће
+94	2294	sred	sred сред
+95	2295	podržavati	podržava podržavam podržavaju podržavaš podržavamo podržavao podržavate podržavati podržavala podržavali podržavanje подржава podržavajući podržavale подржавају подржавам подржаваш подржавамо подржавао подржавате подржавати подржавала подржавали подржавање подржавајући подржавале
+96	2296	sarađivati	sarađuje sarađujemo sarađivati sarađivao sarađuješ sarađujete sarađuju sarađujem sarađivali sarađuj sarađivala sarađujte sarađivaću сарађује sarađivaćemo сарађујемо сарађују сарађивати sarađivaće sarađivale сарађивао сарађујеш сарађујете сарађујем сарађивали сарађуј сарађивала сарађујте сарађиваћу сарађиваћемо сарађиваће сарађивале
+97	2297	cesta	ceste cesti cesto cestu cesta cestom cestama цесте цести цесто цесту цеста цестом цестама
+98	2298	potpunost	potpunosti потпуности
+99	2299	namerno	namerno намерно
+100	2300	olovka	olovku olovka olovke olovkom olovaka оловку olovkama olovci olovki оловке оловка оловком оловака оловкама оловци оловки

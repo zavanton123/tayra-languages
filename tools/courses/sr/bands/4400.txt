@@ -1,0 +1,100 @@
+1	4301	bunar	bunar bunara bunaru bunare бунар bunari bunarima bunarom бунара бунару бунаре бунари бунарима бунаром
+2	4302	čudesno	čudesno чудесно
+3	4303	emocionalan	emocionalni emocionalne emocionalna emocionalnu emocionalnog emocionalan emocionalnih emocionalnim emocionalnom emocionalnoj емоционални емоционалне емоционална емоционалну емоционалног емоционалан емоционалних емоционалним емоционалном емоционалној
+4	4304	starost	starosti starost старост старости
+5	4305	potopiti	potopio potopiti potopljen potopili potopljena potopi potopite potopljeni potopila potopljeno potopimo potopiš potopim potopljene potope potopiće potopile potopilo потопио потопити потопљен потопили потопљена потопи потопите потопљени потопила потопљено потопимо потопиш потопим потопљене потопе потопиће потопиле потопило
+6	4306	aplauz	aplauz aplauzom aplauza аплауз aplauze аплаузом аплауза аплаузе
+7	4307	instrukcija	instrukcije instrukcijama instrukcija инструкције instrukciju инструкцијама инструкција инструкцију
+8	4308	božanski	božanski božanska božanske božansko božanskog božansku božanskim božanskom božanskoj božanskih божански божанска божанске божанско божанског божанску божанским божанском божанској божанских
+9	4309	ve	ve ве
+10	4310	grofica	grofica grofice groficu grofici groficom грофица грофице грофицу грофици грофицом
+11	4311	ružičast	ružičasti ružičaste ružičasto ružičasta ružičastu ružičastom ružičast ružičastim ružičastog ružičastoj ružičastih ружичасти ружичасте ружичасто ружичаста ружичасту ружичастом ружичаст ружичастим ружичастог ружичастој ружичастих
+12	4312	garancija	garancija garancije garanciju garancijom гаранција гаранције garancijama гаранцију гаранцијом гаранцијама
+13	4313	poraniti	poranio poranili poranila poraniti porani poranim poranile poraniš поранио поранили поранила поранити порани пораним пораниле пораниш
+14	4314	poseći	posekao posekla poseći posekli posečeš poseče posečem poseci posečen posečena poseku посекао posečeno posečemo posečete посекла посећи посекли посечеш посече посечем посеци посечен посечена посеку посечено посечемо посечете
+15	4315	ćelav	ćelavi ćelav ćelava ćelavog ćelavim ćelave ćelavu ćelavo ćelavom ćelavih ћелави ћелав ћелава ћелавог ћелавим ћелаве ћелаву ћелаво ћелавом ћелавих
+16	4316	preporučivati	preporučujem preporučuje preporučujemo preporučujete preporučuju preporučuješ препоручујем препоручује препоручујемо препоручујете препоручују препоручујеш
+17	4317	nezgodno	nezgodno незгодно
+18	4318	džip	džip džipa džipu džipom džipove џип džipovima džipova džipovi џипа џипу џипом џипове џиповима џипова џипови
+19	4319	sunčan	sunčano sunčane sunčani sunčan sunčana sunčanom sunčanog sunčanoj sunčanim sunčanu sunčanih сунчано сунчане сунчани сунчан сунчана сунчаном сунчаног сунчаној сунчаним сунчану сунчаних
+20	4320	zimski	zimski zimske zimska zimskog zimsku zimskom zimsko zimskih zimskim zimskoj зимски зимске зимска зимског зимску зимском зимско зимских зимским зимској
+21	4321	volt	volt volte volti volta voltu voltom волт волте волти волта волту волтом
+22	4322	ljubomora	ljubomora ljubomore ljubomoru ljubomorom ljubomori љубомора љубоморе љубомору љубомором љубомори
+23	4323	arterija	arteriju arterije arterija arteriji arterijama артерије артерију артерија артерији артеријама
+24	4324	propis	propisima propise propisi propisa propisu propis прописима прописе прописи прописа пропису пропис
+25	4325	lupati	lupaš lupaj lupao lupam lupaju lupati lupalo lupala lupate lupali lupajte lupamo lupajući лупа лупаш лупај лупао лупам лупају лупати лупало лупала лупате лупали лупајте лупамо лупајући
+26	4326	donacija	donacije donaciju donacija donacijama donaciji donacijom донације донација донацију донацијама донацији донацијом
+27	4327	lomiti	lomi lomim lomiš lomljenje lomio lomiti lomili lomimo lomite lome lomila lomeći ломи ломим ломиш ломљење ломио ломити ломили ломимо ломите ломе ломила ломећи
+28	4328	kičma	kičmu kičme kičma kičmi kičmom кичму кичме кичма кичми кичмом
+29	4329	proizvesti	proizvesti proizvede proizveo proizveden proizvela proizveli proizvedu proizvedena proizvedeno proizvedemo proizvelo proizvedene proizvedeni proizvedem proizvedeš proizvedete произвести произведе произвео произведен произвела произвели произведу произведена произведено произведемо произвело произведене произведени произведем произведеш произведете
+30	4330	govedina	govedina govedinu govedine govedinom govedini говедина говедину говедине говедином говедини
+31	4331	organizam	organizam organizmu organizma organizmi organizama organizme organizmima organizmom организам организму организма организми организама организме организмима организмом
+32	4332	bankar	bankar bankara bankari bankare bankarima bankaru bankarom банкар банкара банкари банкаре банкарима банкару банкаром
+33	4333	stvor	stvor stvora stvorovi stvore stvorova stvoru stvorom stvorove stvorovima створ створе створа створови створова створу створом створове створовима
+34	4334	nameniti	namenjen namenjena namenjeno namenio namenjene namene namenjeni namenila namenili намењен nameni намењена намењено наменио намењене намене намењени наменила наменили намени
+35	4335	vilica	vilicu vilica vilice vilicom vilici vilicama вилицу вилица вилице вилицом вилици вилицама
+36	4336	zaostati	zaostao zaostali zaostaje zaostala zaostajemo zaostaješ zaostale zaostaju zaostajem zaostalo zaostati zaostajati zaostajete zaostajao zaostane zaostajali заостајемо zaostajala заостао заостали заостаје заостала заостајеш заостале заостају заостајем заостало заостати заостајати заостајете заостајао заостане заостајали заостајала
+37	4337	slikanje	slikanje slikanja slikanjem slikanju сликање сликања сликањем сликању
+38	4338	otmen	otmeno otmena otmen otmeni otmene otmenom otmenu otmenim otmenog otmenije otmenoj otmenih otmeniji отмено отмена отмен отмени отмене отменом отмену отменим отменог отменије отменој отмених отменији
+39	4339	ulazni	ulazna ulaznih ulaznim ulazne ulazni ulaznu ulaznoj улазна ulaznom ulaznog улазних улазним улазне улазни улазну улазној улазном улазног
+40	4340	časnik	časnik časnika časnici časnike časniče časniku časnicima časnikom часник часника часници часнике часниче часнику часницима часником
+41	4341	dobrovoljac	dobrovoljac dobrovoljaca dobrovoljci dobrovoljce dobrovoljca dobrovoljcima добровољац добровољаца добровољци добровољце добровољца добровољцима
+42	4342	posuda	posudu posuda posude posudi posudama posudom посуда посуду посуде посуди посудама посудом
+43	4343	osa	ose osa osama osu osamu osi osami osame oso осе оса осама осу осаму оси осами осаме осо
+44	4344	slom	slom sloma slome slomu slomom слом slomove slomova слома сломе слому сломом сломове сломова
+45	4345	doživjeti	doživio doživjeti doživjela doživjeli doživi doživim doživiš dožive doživite doživimo доживио доживјети доживјела доживјели доживи доживим доживиш доживе доживите доживимо
+46	4346	bluz	bluzu bluz bluza bluze bluzom блузу блуз блуза блузе блузом
+47	4347	mito	mito mita mitu мито mitom мита миту митом
+48	4348	cista	cisto cista cisti ciste cistu cistom цисто циста цисти цисте цисту цистом
+49	4349	original	original originala originalu originali originale оригинал originalom оригинала оригиналу оригинали оригинале оригиналом
+50	4350	prtljažnik	prtljažnik prtljažniku prtljažnika prtljažnikom пртљажник пртљажнику пртљажника пртљажником
+51	4351	ponestajati	ponestaje понестаје ponestaju ponestajalo понестају понестајало
+52	4352	bakterija	bakterija bakterije bakteriju bakterijama bakterijom bakteriji бактерија бактерије бактерију бактеријама бактеријом бактерији
+53	4353	stih	stih stihove stihovi stihova stiha stihovima stihu стих стихове стихови стихова стиха стиховима стиху
+54	4354	svakakav	svakakve svakakvih svakakva svakakvim svakakvi svakakav svakakvo svakakvu svakakvog свакакве свакаквих свакаква свакаквим свакакви свакакав свакакво свакакву свакаквог
+55	4355	izraditi	izradio izraditi izrade izrađen izradili izradila izradi izrađena izrađene izrađeno izrađeni izradiš izradim izradimo izradite израдио израдити израде израђен израдили израдила изради израђена израђене израђено израђени израдиш израдим израдимо израдите
+56	4356	oštrica	oštrica oštrice oštricu oštricom oštrici oštricama оштрица оштрице оштрицу оштрицом оштрици оштрицама
+57	4357	tragač	tragač tragača tragači tragaču tragače tragačem tragačima трагач трагача трагачи трагачу трагаче трагачем трагачима
+58	4358	upad	upada upad upadu upadom upadi upade упада упад упаду упадом упади упаде
+59	4359	ovolik	ovoliki ovolika ovoliku ovolike ovolikim ovolikom ovolikog ovolikoj оволики оволика оволику оволике оволиким оволиком оволиког оволикој
+60	4360	radoznao	radoznao radoznali радознао радознали
+61	4361	džinovski	džinovski džinovska džinovske džinovsku džinovskih džinovskog džinovskim džinovsko džinovskom džinovskoj џиновски џиновска џиновске џиновску џиновских џиновског џиновским џиновско џиновском џиновској
+62	4362	bezvredan	bezvredan bezvredno bezvredna bezvredni bezvredne bezvrednog bezvrednim bezvrednu bezvrednih bezvrednom безвредно безвредан безвредна безвредни безвредне безвредног безвредним безвредну безвредних безвредном
+63	4363	mladoženja	mladoženja mladoženju mladoženje mladoženji mladoženjom mladoženjo младожења младожењу младожење младожењи младожењом младожењо
+64	4364	prvenstvo	prvenstvo prvenstva prvenstvu prvenstava првенство првенства првенству првенстава
+65	4365	vještica	vještica vještice vješticu vješticom vješticama vještici вјештица вјештице вјештицу вјештицом вјештицама вјештици
+66	4366	sindrom	sindrom sindroma sindromom sindromu синдром синдрома синдромом синдрому
+67	4367	raspad	raspada raspad raspadu распада raspadom распад распаду распадом
+68	4368	dinosaurus	dinosaurusa dinosaurusi dinosaurus dinosauruse dinosaurusima dinosaurusom диносауруси dinosaurusu диносауруса диносаурус диносаурусе диносаурусима диносаурусом диносаурусу
+69	4369	biskup	biskup biskupa biskupe biskupu biskupom biskupi бискуп бискупа бискупе бискупу бискупом бискупи
+70	4370	populacija	populacije populacija populaciju populaciji populacijom популације популација популацију популацији популацијом
+71	4371	ugristi	ugrizla ugrize ugristi ugrizi ugrizu ugrizem ugrizlo ugrizeš ugrizli ugrizen ugrišće угризла угризе угристи угризи угризу угризем угризло угризеш угризли угризен угришће
+72	4372	ograničenje	ograničenja ograničenje ograničenjima ограничења ograničenju ograničenjem ограничење ограничењима ограничењу ограничењем
+73	4373	tradicionalan	tradicionalni tradicionalna tradicionalne tradicionalan tradicionalnu tradicionalnom tradicionalnim tradicionalnog tradicionalnih tradicionalnoj tradicionalnije традиционални традиционална традиционалне традиционалан традиционалну традиционалном традиционалним традиционалног традиционалних традиционалној традиционалније
+74	4374	flertovati	flertuje flertuješ flertovala flertovao flertujem flertovanje flertovati flertuju flertuj flertujete flertovali flertujemo flertujući флертује флертујеш флертовала флертовао флертујем флертовање флертовати флертују флертуј флертујете флертовали флертујемо флертујући
+75	4375	as	as asa asu asovi asova asove ас asom аса асу асови асова асове асом
+76	4376	prikupiti	prikupiti prikupili prikupi prikupio prikupimo prikupim prikupila prikupite prikupe prikupljeni prikupiš prikupljene prikupljen prikupljeno прикупи prikupljena прикупити прикупили прикупио прикупимо прикупим прикупила прикупите прикупе прикупљени прикупиш прикупљене прикупљен прикупљено прикупљена
+77	4377	mastan	masno masni masne masna masnu masnog mastan masnim masnih masnom masnoj масно масни масне масна масну масног мастан масним масних масном масној
+78	4378	brbljati	brbljaš brbljanje brblja brbljam brbljati brbljao brbljaju brbljala brbljate brbljaj brbljamo брбљање brbljajući brbljali брбљаш брбља брбљам брбљати брбљао брбљају брбљала брбљате брбљај брбљамо брбљајући брбљали
+79	4379	preterano	preterano претерано
+80	4380	umjetnost	umjetnost umjetnosti umjetnošću умјетност умјетности умјетношћу
+81	4381	angel	angel ангел
+82	4382	kokoška	kokoške kokoška kokošku kokošaka kokoški kokoškama kokoško kokoškom кокошке кокошка кокошку кокошака кокошки кокошкама кокошко кокошком
+83	4383	izbjeći	izbjeći izbjegao izbjegli izbjegne izbjegnemo izbjegnem izbjegla izbjegneš izbjegnu izbjegnete izbjeglo izbjegni избјећи избјегао избјегли избјегне избјегнемо избјегнем избјегла избјегнеш избјегну избјегнете избјегло избјегни
+84	4384	trpjeti	trpim trpjeti trpi trpiš trpe trpimo trpio trpite trpjela trpjeli trpeći трпим трпи трпјети трпиш трпе трпимо трпио трпите трпјела трпјели трпећи
+85	4385	narkotik	narkotika narkotike narkoticima narkotici narkotik наркотика наркотике наркотицима наркотици наркотик
+86	4386	pozornost	pozornost pozornosti позорност позорности
+87	4387	zakonski	zakonski zakonska zakonsko zakonske zakonsku zakonskih zakonskog zakonskim zakonskom законски законска законско законске законску законских законског законским законском
+88	4388	januar	januara januar januaru јануара јануар јануару
+89	4389	zamrznuti	zamrznuti zamrznut zamrznuta zamrzne zamrznuto zamrznute zamrzni zamrznuo zamrznu zamrznem zamrznula zamrznuli zamrznemo zamrzneš zamrznite zamrznete замрзнути замрзнут замрзнута замрзне замрзнуто замрзнуте замрзни замрзнуо замрзну замрзнем замрзнула замрзнули замрзнемо замрзнеш замрзните замрзнете
+90	4390	prepasti	prepao prepala prepali prepasti prepalo prepadnem prepadne prepadneš препао prepade препала препали препасти препало препаднем препадне препаднеш препаде
+91	4391	beskrajan	beskrajna beskrajne beskrajni beskrajnu beskrajan beskrajnom beskrajnim beskrajnoj beskrajnog beskrajnih бескрајна бескрајне бескрајни бескрајну бескрајан бескрајном бескрајним бескрајној бескрајног бескрајних
+92	4392	kalendar	kalendar kalendaru kalendara kalendare календар kalendarom kalendari календару календара календаре календаром календари
+93	4393	organski	organski organske organsko organska organsku organskog organskih organskim organskom organskoj органски органске органско органска органску органског органских органским органском органској
+94	4394	poštanski	poštanski poštansko poštanske poštanskom poštanska poštanskog poštansku poštanskim poštanskih poštanskoj поштански поштанско поштанске поштанском поштанска поштанског поштанску поштанским поштанских поштанској
+95	4395	gust	gusta gust guste gustu gustom gusti gušća gustim gustoj gušće gušći gustog najgušće gustih густа густ густе густу густом густи гушћа густим густој гушће гушћи густог најгушће густих
+96	4396	otpasti	otpao otpala otpadne otpasti otpalo otpadnu otpali otpale otpašće otpadni otpadoše otpadnih otpade отпао отпала отпадне отпасти отпало отпадну отпали отпале отпашће отпадни отпадоше отпадних отпаде
+97	4397	omogućavati	omogućava omogućavaju омогућава omogućavajući omogućavao omogućavala omogućavalo omogućavamo omogućavam омогућавају омогућавајући омогућавао омогућавала омогућавало омогућавамо омогућавам
+98	4398	saučešće	saučešće saučešća саучешће саучешћа
+99	4399	petljati	petljaš petljati petljam petljaj petljaju petljate petljamo petljajte петљаш петљати петљам петљај петљају петљате петљамо петљајте
+100	4400	tužilaštvo	tužilaštvo tužilaštva tužilaštvu tužilaštvom тужилаштво тужилаштва тужилаштву тужилаштвом

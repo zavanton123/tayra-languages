@@ -1,0 +1,100 @@
+1	4601	pomfrit	pomfrit pomfrita pomfritom помфрит pomfritu помфрита помфритом помфриту
+2	4602	četvrt	četvrt четврт četvrtima четвртима
+3	4603	izvješće	izvješće izvješća izvješću izvješćima izvješćem извјешће извјешћа извјешћу извјешћима извјешћем
+4	4604	cifra	cifre cifru cifra cifara ciframa cifri цифре цифру цифра цифара цифрама цифри
+5	4605	col	cole cola colu col цоле цола цолу цол
+6	4606	zavisnost	zavisnosti zavisnost zavisnošću зависности зависност зависношћу
+7	4607	nacrt	nacrt nacrte nacrti nacrta nacrtima nacrtu нацрт нацрте нацрти нацрта нацртима нацрту
+8	4608	bolnički	bolnički bolničke bolničkom bolničkoj bolnička bolničku bolničkog bolničko bolničkim bolničkih болнички болничке болничком болничкој болничка болничку болничког болничко болничким болничких
+9	4609	sirotište	sirotište sirotištu sirotišta сиротиште сиротишта сиротишту
+10	4610	ljubak	ljupka ljupke ljupki ljupku ljubak ljupkom ljupkoj ljupkim ljupkog ljupkih љупка љупке љупки љупку љубак љупком љупкој љупким љупког љупких
+11	4611	narodni	narodni narodne narodna narodnu narodnoj narodnog narodnom narodno narodnih narodnim народна народни народне народну народној народног народном народно народних народним
+12	4612	zajam	zajam zajmove zajma zajmova zajmovi zajmu zajmom zajmovima зајам зајмове зајма зајмова зајмови зајму зајмом зајмовима
+13	4613	lija	lija lije liju lijama лија lijo лију лије лијама лијо
+14	4614	centimetar	centimetara centimetar centimetra centimetru центиметара центиметар центиметра центиметру
+15	4615	vitalan	vitalni vitalne vitalnog vitalnih vitalna vitalan vitalnu vitalnim виталне витални виталног виталних витална виталан виталну виталним
+16	4616	teroristički	teroristički terorističke teroristička terorističkih terorističku terorističkog terorističkim terorističkom terorističkoj terorističko терористички терористичке терористичка терористичких терористичку терористичког терористичким терористичком терористичкој терористичко
+17	4617	vešt	vešt vešto vešti vešta vešte veštim veštog veštiji najveštiji veštih вешт вешто вешти вешта веште вештим вештог вештији највештији вештих
+18	4618	trač	trač tračeve tračevi tračeva tračevima trača трач трачеве трачеви трачева трачевима трача
+19	4619	uzvrat	uzvrat uzvrati uzvrate узврат узврати узврате
+20	4620	izostaviti	izostavio izostavi izostaviti izostavila izostavili izostavljen izostavite izostaviš izostavimo izostavljeno izostavim izostavljena izostavljeni изоставио изостави изоставити изоставила изоставили изостављен изоставите изоставиш изоставимо изостављено изоставим изостављена изостављени
+21	4621	usporavati	usporava usporavaju usporavam usporavaš usporavamo usporavati usporavaj usporavao usporavate usporavali usporavala успорава успоравају успоравам успораваш успоравамо успоравати успоравај успоравао успоравате успоравали успоравала
+22	4622	platno	platno platna platnu platnom платно платна платну платном
+23	4623	upaljač	upaljač upaljača upaljače upaljači упаљач upaljaču упаљача упаљаче упаљачи упаљачу
+24	4624	ševiti	ševio ševiti ševi ševiš ševim ševila ševe ševili ševimo ševite шевио шевити шеви шевиш шевим шевила шеве шевили шевимо шевите
+25	4625	reporter	reporter reportera reporteri reporterima reportere reporteru reporterom репортер репортера репортери репортерима репортере репортеру репортером
+26	4626	žvaka	žvaku žvake žvaka žvakom жваку жваке жвака жваком
+27	4627	uspon	uspon usponu uspona uspone usponi usponom usponima успон успону успона успоне успони успоном успонима
+28	4628	bal	bal бал
+29	4629	korišćenje	korišćenje korišćenja korišćenjem korišćenju коришћење коришћења коришћењем коришћењу
+30	4630	laser	laser laserom lasera lasere laseri laserima laseru ласере ласер ласером ласера ласери ласерима ласеру
+31	4631	protest	protest protesta protesti protestu proteste protestima protestom протест протеста протести протесту протесте протестима протестом
+32	4632	evakuacija	evakuaciju evakuacija evakuacije evakuaciji evakuacijom евакуацију евакуација евакуације евакуацији евакуацијом
+33	4633	homoseksualac	homoseksualac homoseksualci homoseksualce homoseksualaca homoseksualca homoseksualcima homoseksualcem хомосексуалац хомосексуалци хомосексуалце хомосексуалаца хомосексуалца хомосексуалцима хомосексуалцем
+34	4634	identificirati	identificirati identificirali identificirao identificirala identificiran identificira identificiramo identificirajte identificiraj identificiraju identificirana identificirate identificiram identificirani identificirano идентифицирати идентифицирали идентифицирао идентифицирала идентифициран идентифицира идентифицирамо идентифицирајте идентифицирај идентифицирају идентифицирана идентифицирате идентифицирам идентифицирани идентифицирано
+35	4635	intenzivan	intenzivnoj intenzivne intenzivnu intenzivna intenzivan intenzivnije intenzivnog intenzivni intenzivnim intenzivnom intenzivniji интензивној intenzivnih интензивне интензивну интензивна интензиван интензивније интензивног интензивни интензивним интензивном интензивнији интензивних
+36	4636	trbuh	trbuh trbuhu trbuha trbuhom trbuhe трбух трбуху трбуха трбухом трбухе
+37	4637	neodoljiv	neodoljiv neodoljivo neodoljiva neodoljivi neodoljivu neodoljivim neodoljive neodoljivom neodoljivog неодољив неодољиво неодољива неодољиви неодољиву неодољивим неодољиве неодољивом неодољивог
+38	4638	violina	violinu violina violine violini violinom виолина виолину виолине виолини виолином
+39	4639	obrnuto	obrnuto обрнуто
+40	4640	vrijednost	vrijednosti vrijednost vrijednostima вриједности вриједност вриједностима
+41	4641	takozvani	takozvani takozvane takozvana takozvanog takozvanih takozvano takozvanu takozvanim takozvanom takozvanoj такозвани такозване такозвана такозваног такозваних такозвано такозвану такозваним такозваном такозваној
+42	4642	genijalan	genijalan genijalna genijalni genijalnog genijalnu genijalne genijalnom genijalnih genijalnim генијалан генијална генијални генијалног генијалну генијалне генијалном генијалних генијалним
+43	4643	onesposobiti	onesposobiti onesposobljen onesposobio onesposobi onesposobili onesposobimo onesposobljena onesposobim onesposobljeni onesposobite onesposobila onesposobe onesposobiš onesposobljene onesposobljeno онеспособити онеспособљен онеспособио онеспособи онеспособили онеспособимо онеспособљена онеспособим онеспособљени онеспособите онеспособила онеспособе онеспособиш онеспособљене онеспособљено
+44	4644	uporno	uporno упорно
+45	4645	ručno	ručno ручно
+46	4646	arogantan	arogantan arogantni arogantno arogantna arogantnog arogantne arogantnim арогантан arogantnih арогантни арогантно арогантна арогантног арогантне арогантним арогантних
+47	4647	poraditi	poraditi poradimo poradi poradim poradiš poradiću poradite poradićemo poradio porade порадити порадимо поради порадим порадиш порадићу порадите порадићемо порадио пораде
+48	4648	posve	posve посве
+49	4649	oblikovati	oblikuje oblikovati oblikuju oblikovao oblikovanje oblikovan oblikovana oblikovala oblikovali oblikujem oblikovane oblikuješ oblikujemo oblikovale oblikovano oblikovani oblikovalo oblikujete обликује обликовати обликују обликовао обликовање обликован обликована обликовала обликовали обликујем обликоване обликујеш обликујемо обликовале обликовано обликовани обликовало обликујете
+50	4650	iseliti	iseliti iseli iselim iselila iselio iseliš iselili iselimo isele iselite iseliću iseljeni иселити исели иселим иселила иселио иселиш иселили иселимо иселе иселите иселићу исељени
+51	4651	prerezati	prerezao prerezati prerezala prerežem prerezan prerezaću prereži prerezali prereže prerezano prerezana prerežu prerežeš prerežemo prerežite пререзао пререзати пререзала прережем пререзан пререзаћу прережи пререзали пререже пререзано пререзана прережу прережеш прережемо прережите
+52	4652	smijeh	smijeh smijeha smijehom smijehu smiješe смијех смијеха смијехом смијеху смијеше
+53	4653	infarkt	infarkt infarkta инфаркт инфаркта
+54	4654	indijanski	indijanski indijanske indijanska indijansko indijanskom indijanskog indijansku indijanskih indijanskim indijanskoj индијански индијанске индијанска индијанско индијанском индијанског индијанску индијанских индијанским индијанској
+55	4655	oružan	oružane oružana oružanu oružanih oružani oružanim oružanom oružanog oružanoj oružano оружане оружана оружану оружаних оружани оружаним оружаном оружаног оружаној оружано
+56	4656	pohlepan	pohlepan pohlepni pohlepna pohlepno pohlepne pohlepnih pohlepnim pohlepnog похлепан похлепни похлепна похлепно похлепне похлепних похлепним похлепног
+57	4657	nepristojno	nepristojno непристојно
+58	4658	jastog	jastoga jastog jastoge jastozi jastogom jastozima jastogu јастога јастог јастоге јастози јастогом јастозима јастогу
+59	4659	hot	hot хот
+60	4660	glasnik	glasnik glasnika glasnici glasnike glasniku glasniče гласник glasnikom glasnicima гласника гласници гласнике гласнику гласниче гласником гласницима
+61	4661	štreber	štreber štreberi štrebera štreberu štrebere štreberima štreberom штребер штребери штребера штреберу штребере штреберима штребером
+62	4662	dinamit	dinamit dinamita dinamitom dinamite динамит dinamitu динамита динамитом динамите динамиту
+63	4663	nadzirati	nadzire nadzirati nadziru nadziremo nadzirem nadzirao nadzirali nadziranje nadzireš nadzirete nadzirala nadzirite nadziri надзире надзирати надзиру надзиремо надзирем надзирао надзирали надзирање надзиреш надзирете надзирала надзирите надзири
+64	4664	zaštitnik	zaštitnik zaštitnika zaštitnici zaštitniče zaštitniku zaštitnike zaštitnikom заштитник zaštitnicima заштитника заштитници заштитниче заштитнику заштитнике заштитником заштитницима
+65	4665	ler	leri ler leru лери лер леру
+66	4666	trgovački	trgovački trgovačkom trgovačke trgovačka trgovačkog trgovačkih trgovačkoj trgovačkim trgovačku trgovačko трговачки трговачком трговачке трговачка трговачког трговачких трговачкој трговачким трговачку трговачко
+67	4667	određivati	određuje određuju određujem određuješ određujemo određivati određujete određivao одређује određivali одређују одређујем одређујеш одређујемо одређивати одређујете одређивао одређивали
+68	4668	šum	šumu šume šum šumom šumove шуму шуме шум šumova шумом шумове шумова
+69	4669	smeštaj	smeštaj smeštaju smeštaja smeštajem смештај смештају смештаја смештајем
+70	4670	trezan	trezan trezna trezni трезан treznog trezne treznim трезна трезни трезног трезне трезним
+71	4671	patetičan	patetičan patetični patetična patetične patetičnu patetičnog patetičnim patetičnom patetičnih патетичан patetičnoj патетични патетична патетичне патетичну патетичног патетичним патетичном патетичних патетичној
+72	4672	psovati	psuješ psuje psujem psovao psuj psovati psovanje psovanja psuju psovala psujete psovali psovanjem psujemo псујеш псује псујем псовао псуј псовати псовање псовања псују псовала псујете псовали псовањем псујемо
+73	4673	izbosti	izboden izbodena izbola izboli izbosti izbode izbodem izbodu izboo izbodeš izbodeni izbošću izbodene избоден izbodi избодена избола изболи избости избоде избодем избоду избоо избодеш избодени избошћу избодене избоди
+74	4674	perspektiva	perspektive perspektivu perspektiva perspektivi перспективе perspektivom перспективу перспектива перспективи перспективом
+75	4675	lizati	liži ližem lizao ližeš lizati lizanje ližu lizala lizali ližete ližući lizaću liže ližemo лижи лижем лизао лижеш лизати лизање лижу лизала лизали лижете лижући лизаћу лиже лижемо
+76	4676	dopuštenje	dopuštenje dopuštenja dopuštenjem допуштење допуштења допуштењем
+77	4677	besmislen	besmislena besmislen besmislene besmisleni besmislenim besmislenu besmislenom besmislenih besmislenog besmislenoj бесмислена бесмислен бесмислене бесмислени бесмисленим бесмислену бесмисленом бесмислених бесмисленог бесмисленој
+78	4678	problematičan	problematičan problematična problematično problematične problematični problematičnim problematičnu problematičnih problematičnog problematičnom проблематичан проблематична проблематично проблематичне проблематични проблематичним проблематичну проблематичних проблематичног проблематичном
+79	4679	pileći	pileća pileći pileće pileću pilećih pilećim pilećeg pilećom pilećoj пилећи пилећа пилеће пилећу пилећих пилећим пилећег пилећом пилећој
+80	4680	efikasan	efikasan efikasna efikasnije efikasni efikasniji najefikasniji efikasne efikasnija najefikasnije efikasnim efikasnu efikasnog najefikasnija ефикасан ефикасна ефикасније ефикасни ефикаснији најефикаснији ефикасне ефикаснија најефикасније ефикасним ефикасну ефикасног најефикаснија
+81	4681	izbjegavati	izbjegavati izbjegavaš izbjegava izbjegavanje izbjegavam izbjegavao izbjegavaj izbjegavaju izbjegavala izbjegavate izbjegavajte izbjegavamo izbjegavajući izbjegavali избјегавати избјегаваш избјегава избјегавање избјегавам избјегавао избјегавај избјегавају избјегавала избјегавате избјегавајте избјегавамо избјегавајући избјегавали
+82	4682	samoubojstvo	samoubojstvo samoubojstva samoubojstvu samoubojstvom samoubojstava самоубојство самоубојства самоубојству самоубојством самоубојстава
+83	4683	narav	narav naravi нарав нарави
+84	4684	ishrana	ishrane ishranu ishrani ishrana ishranom исхране исхрану исхрани исхрана исхраном
+85	4685	doprinos	doprinos doprinosi doprinose doprinosa doprinosu допринос doprinosom доприноси доприносе доприноса доприносу доприносом
+86	4686	pobjednik	pobjednik pobjednika pobjednici pobjednike pobjedniku pobjednikom побједник побједника побједници побједнике побједнику побједником
+87	4687	karma	karma karmu karme karmi карма karmom карму карме карми кармом
+88	4688	sajam	sajam sajmu sajma sajmovima sajmove sajmova сајам сајму сајма сајмовима сајмове сајмова
+89	4689	parazit	parazit parazita paraziti parazite parazitima parazitu parazitom паразит паразита паразити паразите паразитима паразиту паразитом
+90	4690	motriti	motri motre motriti motrim motrite motrimo motrio motrili motriš motriću motrićemo motrila motrenje мотри мотре мотрити мотрим мотрите мотримо мотрио мотрили мотриш мотрићу мотрићемо мотрила мотрење
+91	4691	starateljstvo	starateljstvo starateljstva starateljstvu starateljstvom старатељство старатељства старатељству старатељством
+92	4692	naprava	naprava napravu napravi naprave napravom napravo napravama направи направе направа направу направом направо направама
+93	4693	odozgo	odozgo одозго
+94	4694	gumen	gumene gumeni gumena gumenim gumenu gumenih gumenom gumeno gumenog gumenoj гумене гумени гумена гуменим гумену гумених гуменом гумено гуменог гуменој
+95	4695	elektronski	elektronski elektronske elektronska elektronsku elektronskim elektronskih elektronsko elektronskog elektronskom elektronskoj електронски електронске електронска електронску електронским електронских електронско електронског електронском електронској
+96	4696	pokretan	pokretna pokretni pokretne pokretnu pokretnih pokretnim pokretnoj pokretan pokretnom pokretnog pokretno покретна покретни покретне покретну покретних покретним покретној покретан покретном покретног покретно
+97	4697	tipično	tipično типично
+98	4698	puding	puding pudinga pudingom pudingu пудинг pudinge пудинга пудингом пудингу пудинге
+99	4699	otputovati	otputovao otputovati otputovala otputovali otputujem otputuje otputujemo otputuješ otputujete otputuj otputuju otputovaću otputovaćemo отпутовао отпутовати отпутовала отпутовали отпутујем отпутује отпутујемо отпутујеш отпутујете отпутуј отпутују отпутоваћу отпутоваћемо
+100	4700	trostruk	trostruki trostruko trostruka trostruku trostruke trostrukog trostrukom trostrukim троструки троструко трострука троструку троструке троструког троструком троструким

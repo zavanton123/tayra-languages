@@ -1,0 +1,100 @@
+1	4801	razići	razišli raziđite raziđemo razići raziđu raziđete razišao raziđimo razišla raziđe razišle разишли разиђите разиђемо разићи разиђу разиђете разишао разиђимо разишла разиђе разишле
+2	4802	nakratko	nakratko накратко
+3	4803	identičan	identične identični identičan identična identično identičnu identičnim identičnih identičnog идентичне идентични идентичан идентична идентично идентичну идентичним идентичних идентичног
+4	4804	pogodan	pogodan pogodno pogodna pogodni pogodne pogodnim pogodnu pogodnije pogodnom pogodniji najpogodniji pogodnog najpogodnije pogodnih погодан najpogodnija погодно погодна погодни погодне погодним погодну погодније погодном погоднији најпогоднији погодног најпогодније погодних најпогоднија
+5	4805	primirje	primirje primirja примирје primirju primirjem примирја примирју примирјем
+6	4806	zagristi	zagrizao zagrizi zagrizla zagrize zagristi zagrizli zagrizeš zagrizem zagrizu zagrizite загризао загризи загризла загризе загристи загризли загризеш загризем загризу загризите
+7	4807	post	post postu poste пост postom postove posta postova посту посте постом постове поста постова
+8	4808	istraživački	istraživački istraživačkog istraživačke istraživačka istraživačkom istraživačku istraživačko istraživačkim istraživačkih istraživačkoj истраживачки истраживачког истраживачке истраживачка истраживачком истраживачку истраживачко истраживачким истраживачких истраживачкој
+9	4809	sličnost	sličnost sličnosti сличности sličnostima сличност сличностима
+10	4810	vodopad	vodopada vodopad vodopadi vodopade vodopadima vodopadu vodopadom водопада водопад водопади водопаде водопадима водопаду водопадом
+11	4811	opijati	opijanje opija opijao opi opijen opijati opijena opijaju opijaš opijam opiti opijeni opio opijate opila opijali opije opijajući opijem opijala opijeno opiju opiše опијање опија опијао опи опијен опијати опијена опијају опијаш опијам опити опијени опио опијате опила опијали опије опијајући опијем опијала опијено опију опише
+12	4812	doktorica	doktorice doktorica doktoricu doktoricom doktorici докторице докторица докторицу докторицом докторици
+13	4813	mehanizam	mehanizam mehanizma mehanizme mehanizmi mehanizmom mehanizmu механизам mehanizama механизма механизме механизми механизмом механизму механизама
+14	4814	prepisati	prepisao prepisati prepisala prepišem prepisaću prepisali prepiše prepišeš prepiši prepisan prepisani prepisane prepisano prepišite prepišete prepisana преписао преписати преписала препишем преписаћу преписали препише препишеш препиши преписан преписани преписане преписано препишите препишете преписана
+15	4815	oslobođen	oslobođen ослобођен
+16	4816	tvornica	tvornici tvornicu tvornice tvornica tvornicama творници творницу творнице творница творницама
+17	4817	kupaonica	kupaonici kupaonicu kupaonica kupaonice kupaonicom купаоници купаоницу купаоница купаонице купаоницом
+18	4818	fontana	fontana fontane fontanu fontani фонтана fontanom фонтане fontanama фонтану фонтани фонтаном фонтанама
+19	4819	služavka	služavka služavku služavke služavki služavkom служавка služavkama služavko служавку служавке служавки служавком служавкама служавко
+20	4820	koš	koš koša košu koševa koševe коша košem кош кошу кошева кошеве кошем
+21	4821	šišati	šišanje šiša šišao šišam šišaš šišati šišala šišaju šišamo šišali šišaj шишање шиша шишао шишам шишаш шишати шишала шишају шишамо шишали шишај
+22	4822	saradnik	saradnik saradnici сарадник сарадници
+23	4823	surov	surov surova surovi surove surovom surovog surovu surovim surovoj surovih najsurovijih suroviji najsurovije суров сурова сурови сурове суровом суровог сурову суровим суровој сурових најсуровијих суровији најсуровије
+24	4824	magazin	magazin magazina магазин магазина
+25	4825	vještina	vještine vještina vještinu vještinama vještini vještinom вјештине вјештина вјештину вјештинама вјештини вјештином
+26	4826	alternativa	alternativa alternativu alternative алтернатива alternativama алтернативу алтернативе алтернативама
+27	4827	elegantan	elegantan elegantna elegantni elegantne elegantnu elegantnim elegantnije elegantnom elegantnih elegantnog najelegantniji elegantniji елегантан elegantnoj елегантна елегантни елегантне елегантну елегантним елегантније елегантном елегантних елегантног најелегантнији елегантнији елегантној
+28	4828	tup	tupim tup tupi tupe tupa tupo tupog tupom туп тупим тупи тупе тупа тупо тупог тупом
+29	4829	debi	debi деби debija debiju дебија дебију
+30	4830	ranč	ranč ранч
+31	4831	neočekivano	neočekivano неочекивано
+32	4832	naočale	naočale naočalama naočala наочале наочалама наочала
+33	4833	otimati	otimaju otima otimanje otimaš otimali otimao otimati otimam otimamo otimate otimaj otimala otimajući отимају отима отимање отимаш отимали отимао отимати отимам отимамо отимате отимај отимала отимајући
+34	4834	starati	staram starati staraš staranje starao starala staraju staramo staraj starate starali staraću стара старам старати стараш старање старао старала старају старамо старај старате старали стараћу
+35	4835	tavan	tavanu tavan tavana тавану таван тавана
+36	4836	hormon	hormoni hormona hormone hormon hormonima хормони хормона хормоне хормон хормонима
+37	4837	drukčiji	drukčiji drukčija drukčiju drukčijim drukčijeg drukčijem друкчији друкчија друкчију друкчијим друкчијег друкчијем
+38	4838	španjolski	španjolski španjolskoj španjolsku španjolskom španjolske španjolska španjolskog španjolsko španjolskim španjolskih шпањолски шпањолској шпањолску шпањолском шпањолске шпањолска шпањолског шпањолско шпањолским шпањолских
+39	4839	kusur	kusur kusura кусур кусура
+40	4840	železnica	železnice železnica železnicu železnici železnicom железнице железница железницу железници железницом
+41	4841	kvantni	kvantna kvantne kvantni kvantnu kvantnoj kvantnom kvantno kvantnog kvantnih kvantnim квантна квантне квантни квантну квантној квантном квантно квантног квантних квантним
+42	4842	travnjak	travnjak travnjaku travnjaka travnjake travnjacima travnjakom travnjaci травњак травњаку травњака травњаке травњацима травњаком травњаци
+43	4843	kaiš	kaiš kaišem kaiševe kaiša kaišu kaiševi каиш kaiševima kaiševa каишем каишеве каиша каишу каишеви каишевима каишева
+44	4844	srpski	srpski srpskom srpske srpska српски srpskog srpskih српском српске српска српског српских
+45	4845	kanalizacija	kanalizaciju kanalizaciji kanalizacije kanalizacija kanalizacijom канализацију канализацији канализације канализација канализацијом
+46	4846	naumiti	naumio naumili naumila наумио naumile naumiš naumi наумили наумила наумиле наумиш науми
+47	4847	opekotina	opekotine opekotina opekotinama opekotinu опекотине опекотина опекотинама опекотину
+48	4848	smišljati	smišlja smišljam smišljaš smišljao smišljaju smišljamo smišljati smišljali smišljajući smišljate smišljala smišljanje smišljaj смишља смишљам смишљаш смишљао смишљају смишљамо смишљати смишљали смишљајући смишљате смишљала смишљање смишљај
+49	4849	alkoholičar	alkoholičar alkoholičara alkoholičari alkoholičare alkoholičarima alkoholičaru алкохоличар alkoholičarem алкохоличара алкохоличари алкохоличаре алкохоличарима алкохоличару алкохоличарем
+50	4850	ucenjivati	ucenjuje ucenjivao ucenjuješ ucenjivala ucenjuju ucenjivati ucenjivali ucenjivanje ucenjujete ucenjujem уцењује ucenjujemo ucenjivan уцењивао уцењујеш уцењивала уцењују уцењивати уцењивали уцењивање уцењујете уцењујем уцењујемо уцењиван
+51	4851	kvart	kvartu kvart kvarta kvartova kvartovima kvartove kvartom кварту кварт кварта квартова квартовима квартове квартом
+52	4852	sporedan	sporedni sporednim sporedna sporedne sporednih sporednu sporednoj sporedan sporednom sporedno sporednog споредни споредним споредна споредне споредних споредну споредној споредан споредном споредно споредног
+53	4853	opremiti	opremljen opremljeni opremljena opremio opremljene opremiti opremite opremili opremljeno opremimo opreme opremim opremila опремљен opremi опреме опремљени опремљена опремио опремљене опремити опремите опремили опремљено опремимо опремим опремила опреми
+54	4854	grijeh	grijeh grijehe grijeha griješe grijesi grijehu grijesima grijehova гријех гријехе гријеха гријеше гријеси гријеху гријесима гријехова
+55	4855	trajan	trajni trajna trajnu trajne trajan trajnog trajnom trajnih trajnije trajnim trajnoj трајни трајна трајну трајне трајан трајног трајном трајних трајније трајним трајној
+56	4856	fenomen	fenomen fenomena fenomenu fenomene fenomeni fenomenom fenomenima феномен феномена феномену феномене феномени феноменом феноменима
+57	4857	četkica	četkicu četkica četkice četkicom četkici четкицу четкица четкице четкицом четкици
+58	4858	balet	balet baleta baletu baletom балет балета балету балетом
+59	4859	terorizam	terorizam terorizma terorizmom terorizmu тероризма тероризам тероризмом тероризму
+60	4860	džez	džez džeza džezu џез džezom џеза џезу џезом
+61	4861	razglednica	razglednicu razglednice razglednica razglednici razglednicama разгледницу разгледнице разгледница разгледници разгледницама
+62	4862	naručje	naručju naručje naručja наручју naruče наручје наручја наруче
+63	4863	viti	vito vita vit vite viti vili vije vio вита vij viće вит vilo вито вите вити вили вије вио виј виће вило
+64	4864	ironija	ironija ironiju ironije ironijom ironiji иронија иронију ироније иронијом иронији
+65	4865	tulum	tulum tulumu tuluma tulume tulumima tulumi tulumom тулум тулуму тулума тулуме тулумима тулуми тулумом
+66	4866	psihički	psihički psihičke psihička psihičkih psihičko psihičku psihičkog psihičkim psihičkom психички psihičkoj психичке психичка психичких психичко психичку психичког психичким психичком психичкој
+67	4867	iznijeti	iznijeti iznesem iznio iznese iznesi iznesite iznesemo izneseš iznijeli iznijela iznesu iznesete iznijet iznesimo изнесем изнијети изнио изнесе изнеси изнесите изнесемо изнесеш изнијели изнијела изнесу изнесете изнијет изнесимо
+68	4868	dobitak	dobitak dobitku dobitka dobitke dobitaka dobitkom добитак dobici добитку добитка добитке добитака добитком добици
+69	4869	probijati	probija probijaju probijanje probijao probijam probijamo probijati probijajući probijali probijaš probijala probijaj пробија пробијају пробијање пробијао пробијам пробијамо пробијати пробијајући пробијали пробијаш пробијала пробијај
+70	4870	plima	plima plime plimu plimom plimi плима плиме плиму плимом плими
+71	4871	činija	činiju činija činije činiji činijom чинију činijama чинија чиније чинији чинијом чинијама
+72	4872	višak	višak viška viškom вишак вишка вишком
+73	4873	sova	sova sove sovu sovo sovi сова sovama sovom сове сову сово сови совама совом
+74	4874	četrdeset	četrdeset четрдесет
+75	4875	komu	komu кому
+76	4876	makaze	makaze makazama makaza маказе маказама маказа
+77	4877	profesija	profesija profesiju profesiji profesije profesijom професија професију професији професије професијом
+78	4878	novajlija	novajlija novajlije novajlijo novajliju novajlijama novajliji новајлија novajlijom новајлије новајлијо новајлију новајлијама новајлији новајлијом
+79	4879	konjica	konjica konjicu konjice konjici konjicom коњица коњицу коњице коњици коњицом
+80	4880	dekan	dekan dekana dekane dekanu dekanom декан декане декана декану деканом
+81	4881	objesiti	objesiti objesio objesi objesili obješen objesite objese objesila obješeni objesim objesimo objesiš obješena obješene објесити објесио објеси објесили објешен објесите објесе објесила објешени објесим објесимо објесиш објешена објешене
+82	4882	nepravda	nepravda nepravdu nepravde nepravdi nepravdom неправду неправда неправде неправди неправдом
+83	4883	zapisnik	zapisnik zapisnika zapisniku zapisnike записник zapisnici записника записнику записнике записници
+84	4884	odviti	odvija odvijati odviti odvilo одвија одвијати одвити одвило
+85	4885	naglasak	naglasak naglaskom naglaska naglasku нагласак нагласком нагласка нагласку
+86	4886	pojedinac	pojedinca pojedinac pojedinci pojedinaca pojedince pojedincima pojedincu појединца појединци појединац појединаца појединце појединцима појединцу
+87	4887	kartel	kartel kartela kartelom kartelu karteli kartelima kartele картел картела картелом картелу картели картелима картеле
+88	4888	deveti	deveti devete devetog devetom deveta devetoj deveto devetu девети девете деветог деветом девета деветој девето девету
+89	4889	šank	šankom šanka šank šanku шанком шанка шанк шанку
+90	4890	obred	obred obreda obrede obredu obredi obredima obredom обред обреда обреде обреду обреди обредима обредом
+91	4891	jadnica	jadnica jadnice jadnici jadnicu јадница јаднице јадници јадницу
+92	4892	iznenađivati	iznenađuje iznenađuješ iznenađujete iznenađuju изненађује iznenađujem iznenađivati изненађујуће изненађујеш изненађујете изненађују изненађујем изненађивати
+93	4893	vrisak	vrisak vriska vriske vrisku врисак vriskove vriskom vrisci vrisaka vriskovi вриска вриске вриску врискове вриском врисци врисака врискови
+94	4894	več	več веч
+95	4895	zavarati	zavara zavarati zavarao zavarala zavaraju zavarali zavaraš zavaram zavaramo zavaralo zavarate завара заварати заварао заварала заварају заварали завараш заварам заварамо заварало заварате
+96	4896	studeni	stu studenog studeni studenoga studenom сту студеног студени студенога студеном
+97	4897	kamata	kamate kamata kamatu kamatom kamatama камате камата камату каматом каматама
+98	4898	zaborav	zaboravi zaborav zaborava zaboravu zaborave заборави забораве заборав заборава забораву
+99	4899	nastava	nastavu nastavi nastava nastave nastavom настави наставе наставу настава наставом
+100	4900	plafon	plafon plafonu plafona плафон plafone plafoni плафону плафона плафоне плафони

@@ -1,0 +1,100 @@
+1	9301	živopisan	živopisan živopisne živopisni živopisna živopisnu živopisnim živopisnom živopisnih живописан живописне живописни живописна живописну живописним живописном живописних
+2	9302	radikalno	radikalno радикално
+3	9303	fijasko	fijasko fijaska фијаско фијаска
+4	9304	vrtlar	vrtlar vrtlara vrtlari vrtlaru vrtlarom вртлар вртлара вртлари вртлару вртларом
+5	9305	ribnjak	ribnjak ribnjaku ribnjaka рибњак рибњаку рибњака
+6	9306	ubrus	ubrus ubruse ubrusa ubrusi убрус убрусе убруса убруси
+7	9307	barbika	barbika barbiku barbike barbikama barbiko barbikom барбика барбику барбике барбикама барбико барбиком
+8	9308	sinagoga	sinagogu sinagogi sinagoge sinagoga синагогу синагоги синагоге синагога
+9	9309	napomena	napomena napomene napomenu napomeni напомена напомене напомену напомени
+10	9310	pijun	pijun pijuni pijuna pijune пијун пијуни пијуна пијуне
+11	9311	frizer	frizer фризер
+12	9312	interpretacija	interpretacija interpretaciju interpretacije interpretaciji интерпретација интерпретацију интерпретације интерпретацији
+13	9313	ženstven	ženstvena ženstveno ženstven ženstvene ženstveni ženstvenije женствена женствено женствен женствене женствени женственије
+14	9314	dosadašnji	dosadašnji dosadašnje dosadašnjeg dosadašnjem dosadašnjih dosadašnjim dosadašnjoj dosadašnja досадашњи досадашње досадашњег досадашњем досадашњих досадашњим досадашњој досадашња
+15	9315	ustupiti	ustupio ustupi ustupiti ustupila ustupili ustupim ustupite уступио уступи уступити уступила уступили уступим уступите
+16	9316	poslužavnik	poslužavnik послужавник
+17	9317	bokal	bokal bokala bokalu бокал бокала бокалу
+18	9318	kirurški	kirurški kirurške kirurška kiruršku kirurškom kirurških kirurškim кируршки кируршке кируршка кируршку кируршком кируршких кируршким
+19	9319	izmamiti	izmamiti izmami izmamim izmamio izmamimo izmamiš измамити измами измамим измамио измамимо измамиш
+20	9320	mislilac	mislilac mislioci mislioca mislilaca mislioce мислилац мислиоци мислиоца мислилаца мислиоце
+21	9321	kongresni	kongresni kongresna kongresnom kongresne kongresnoj kongresnu kongresnog kongresnim конгресни конгресна конгресном конгресне конгресној конгресну конгресног конгресним
+22	9322	tiket	tiket тикет
+23	9323	stampedo	stampedo stampedu stampeda стампедо стампеду стампеда
+24	9324	dragocenost	dragocenosti dragocenost dragocenostima драгоцености драгоценост драгоценостима
+25	9325	latiti	late lati latio latimo latim лате лати латио латимо латим
+26	9326	indicija	indicije indicija indicijama индиције индиција индицијама
+27	9327	podrediti	podređeni podređen podređene podređena podređeno подређени подређен подређене подређена подређено
+28	9328	likvidirati	likvidirati likvidira likvidiraju likvidiran likvidiramo likvidirao likvidirali likvidiram likvidirani ликвидирати ликвидира ликвидирају ликвидиран ликвидирамо ликвидирао ликвидирали ликвидирам ликвидирани
+29	9329	bezbolno	bezbolno безболно
+30	9330	preliv	preliv прелив
+31	9331	skrbništvo	skrbništvo skrbništva skrbništvu скрбништво скрбништва скрбништву
+32	9332	stidan	stidne stidnih stidna стидне стидних стидна
+33	9333	jednook	jednooki jednookog jednooka jednookom једнооки једнооког једноока једнооком
+34	9334	razvodnik	razvodnik razvodnika razvodniče razvodniku разводник разводника разводниче разводнику
+35	9335	redovnik	redovnik redovnici redovnika redovniče redovnike редовник редовници редовника редовниче редовнике
+36	9336	čaršaf	čaršav čaršafe čaršaf čaršafima čaršafa čaršafi чаршав чаршафе чаршаф чаршафима чаршафа чаршафи
+37	9337	bakalar	bakalar bakalara бакалар бакалара
+38	9338	odjedanput	odjedanput одједанпут
+39	9339	bubašvaba	bubašvaba бубашваба
+40	9340	melem	melem melema мелем мелема
+41	9341	linč	linč linča linču линч линча линчу
+42	9342	odlika	odlika odlike odlikama odliku одлика одлике одликама одлику
+43	9343	tjestenina	tjesteninu tjestenina tjestenine tjesteninom тјестенину тјестенина тјестенине тјестенином
+44	9344	kvartal	kvartal kvartalu kvartala квартал кварталу квартала
+45	9345	ilegalac	ilegalac ilegalci ilegalaca ilegalce ilegalcima ilegalca илегалац илегалци илегалаца илегалце илегалцима илегалца
+46	9346	izroditi	izrodi izrode izroditi izrodila izrodio izrodilo изроди изроде изродити изродила изродио изродило
+47	9347	opatija	opatije opatiji opatija opatiju опатије опатији опатија опатију
+48	9348	poređati	poređajte poređaj poređam poređaju poređati poređamo поређајте поређај поређам поређају поређати поређамо
+49	9349	zabeleška	zabeleške zabeleška zabelešku zabeleški zabeleškama забелешке забелешка забелешку забелешки забелешкама
+50	9350	mahala	mahala mahali mahalo махала махали махало
+51	9351	ekskluzivno	ekskluzivno ексклузивно
+52	9352	jednoglasno	jednoglasno једногласно
+53	9353	izviđati	izviđanje izviđao извиђање извиђао
+54	9354	tvrdoglavost	tvrdoglavost tvrdoglavosti tvrdoglavošću тврдоглавост тврдоглавости тврдоглавошћу
+55	9355	fenjer	fenjer fenjera fenjere fenjeri фењер фењера фењере фењери
+56	9356	najlon	najlon najlona najlonom најлон најлона најлоном
+57	9357	usto	usto усто
+58	9358	ljaga	ljagu ljaga ljage љагу љага љаге
+59	9359	zanos	zanos zanosu zanosa zanosom zanose занос заносу заноса заносом заносе
+60	9360	dočekivati	dočekuje dočekuju dočekuješ dočekujemo dočekujem dočekujete дочекује дочекују дочекујеш дочекујемо дочекујем дочекујете
+61	9361	mnogobrojan	mnogobrojnih mnogobrojne mnogobrojni mnogobrojnim mnogobrojna многобројних многобројне многобројни многобројним многобројна
+62	9362	ratnica	ratnica ratnice ratnici ратници ратница ратнице
+63	9363	pogodnost	pogodnosti pogodnost pogodnostima погодности погодност погодностима
+64	9364	strankinja	strankinja strankinje strankinju strankinjo strankinjom странкиња странкиње странкињу странкињо странкињом
+65	9365	dokučiti	dokučiti dokučim dokučio dokuči dokučimo докучити докучим докучио докучи докучимо
+66	9366	klanac	klanac klanca klancu кланац кланца кланцу
+67	9367	zavidan	zavidan zavidni zavidna zavidnu zavidno zavidne завидан завидни завидна завидну завидно завидне
+68	9368	austrijski	austrijski austrijskog austrijska austrijske austrijskom austrijskim аустријски аустријског аустријска аустријске аустријском аустријским
+69	9369	nestašica	nestašica nestašice nestašicu несташица несташице несташицу
+70	9370	skijaški	skijaške skijašku skijaški skijaška skijaškom skijaškim skijaških скијашке скијашку скијашки скијашка скијашком скијашким скијашких
+71	9371	zavisno	zavisno зависно
+72	9372	posebice	posebice посебице
+73	9373	poneki	poneki понеки
+74	9374	sužavati	sužava sužavaju сужава сужавају
+75	9375	pevac	pevac pevca pevaca pevcu певац певца певаца певцу
+76	9376	ljudina	ljudino ljudina људино људина
+77	9377	obrtaj	obrtaja obrtaje obrtaji obrtajima обртаја обртаје обртаји обртајима
+78	9378	brujati	bruji bruje brujanje бруји брује брујање
+79	9379	bezobrazluk	bezobrazluk bezobrazluka bezobrazluke безобразлук безобразлука безобразлуке
+80	9380	balavac	balavac balavče balavci balavca балавац балавче балавци балавца
+81	9381	oklijevati	oklijevao oklijevati oklijevanje oklijevala oklijeva oklijevali oklijevaš oklijevaj оклијевао оклијевати оклијевање оклијевала оклијева оклијевали оклијеваш оклијевај
+82	9382	lestvica	lestvici lestvice lestvicu lestvica лествици лествице лествицу лествица
+83	9383	sljedbenik	sljedbenici sljedbenika sljedbenike sljedbenik sljedbenicima сљедбеници сљедбеника сљедбенике сљедбеник сљедбеницима
+84	9384	sled	slede sled sledu следе след следу
+85	9385	telepatija	telepatija telepatiju telepatije telepatijom телепатија телепатију телепатије телепатијом
+86	9386	ekvator	ekvatora ekvatoru ekvator екватора екватору екватор
+87	9387	provokativan	provokativno provokativna provokativan provokativne provokativnu провокативно провокативна провокативан провокативне провокативну
+88	9388	maštovit	maštovit maštovito maštovita maštoviti maštovite маштовит маштовито маштовита маштовити маштовите
+89	9389	vunen	vuneni vunene vunenu vunena vunenih vuneno vunenim вунени вунене вунену вунена вунених вунено вуненим
+90	9390	brusnica	brusnice brusnica brusnicama бруснице брусница брусницама
+91	9391	sagoreti	sagori sagoreo sagoreti sagorela sagoreli sagore sagorim сагори сагорео сагорети сагорела сагорели сагоре сагорим
+92	9392	nu	nu ну
+93	9393	prigušivač	prigušivač prigušivačem prigušivače prigušivača пригушивач пригушивачем пригушиваче пригушивача
+94	9394	krvopija	krvopija krvopije krvopijo krvopiju крвопија крвопије крвопијо крвопију
+95	9395	gricnuti	gricnem gricni gricnuti gricnemo gricneš gricnuo gricne gricnula грицнем грицни грицнути грицнемо грицнеш грицнуо грицне грицнула
+96	9396	antimaterija	antimaterije antimateriju antimaterija антиматерије антиматерију антиматерија
+97	9397	tastatura	tastaturu tastature tastaturi tastatura tastaturom тастатуру тастатуре тастатури тастатура тастатуром
+98	9398	opruga	opruge opruga oprugu oprugama oprugom опруге опруга опругу опругама опругом
+99	9399	okolišati	okolišati okoliša okolišam okolišaš okolišaj okolišanje okolišamo околишати околиша околишам околишаш околишај околишање околишамо
+100	9400	gerilac	gerilci gerilaca gerilcima gerilac gerilce герилци герилаца герилцима герилац герилце

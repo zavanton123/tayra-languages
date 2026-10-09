@@ -1,0 +1,100 @@
+1	801	nijedan	nijedan nijedna nijednu nijedno nijednog nijednom nijedne ниједан nijednoj ниједна nijednim ниједно ниједног nijednoga ниједну ниједном ниједне ниједној ниједним ниједнога
+2	802	često	često често
+3	803	iskreno	iskreno искрено
+4	804	let	let leta lete letu лет letom letova letove letovi лета letovima лете лету летова летове летови летом летовима
+5	805	sjećati	sjećaš sjećam sjećate sjeća sjećati sjećaju sjećamo сјећам сјећаш сјећате сјећа сјећати сјећају сјећамо
+6	806	trajati	traje trajati trajalo traju trajao trajala trajaće trajanja траје трајати trajanje trajali trajale трајало трајао трају трајала трајаће трајања трајање трајали трајале
+7	807	ček	čeka ček čekove чека čekovi čekova čekom чек čekovima čeku чекове чекови чекова чеком чековима чеку
+8	808	inače	inače иначе
+9	809	trenutno	trenutno тренутно
+10	810	popraviti	popraviti popravi popravim popravio popraviš popravimo popravite poprave popravili popraviću popravila popravljen popravljati popravićemo поправити popravilo popravljeno popravljena поправи popraviće поправим popravile поправио поправиш popravljene popravićeš popravljeni поправимо поправе поправите поправили поправићу поправила поправљен поправљати поправићемо поправило поправљено поправљена поправиће поправиле поправљене поправићеш поправљени
+11	811	devojčica	devojčica devojčice devojčicu devojčici devojčicama devojčicom девојчица девојчице девојчицу девојчици девојчицама девојчицом
+12	812	ispasti	ispalo ispao ispadne ispala ispasti ispali ispale ispadnem ispadnu ispade ispadneš ispašće испало ispadnemo испао испасти испали ispašću испадне испала ispašćeš ispadnete ispašćemo испале испаднем испадну испаде испаднеш испашће испаднемо испашћу испашћеш испаднете испашћемо
+13	813	podatak	podatke podataka podaci podacima podatak податке података podatci подаци podatka podatcima подацима податак податци податка податцима
+14	814	luk	luk luke luka luku luci lukom luče лук лука луке lukove луци lukama луку lukovi lukova lukovima луком луче лукове лукама лукови лукова луковима
+15	815	potreba	potrebe potrebu potreba potrebama потребе potrebi potrebom потребу потреба потребама potrebo потреби потребом потребо
+16	816	zatvoriti	zatvoriti zatvorite zatvorio zatvorili zatvorim zatvori zatvorimo zatvorila zatvoriš zatvoriću zatvore zatvoriće zatvorićemo затворити затворите zatvorilo zatvorile затворили затворио затвори затворим затворимо zatvorićeš затвориш затворила zatvorićete затворе затворићу затвориће затворићемо затворило затвориле затворићеш затворићете
+17	817	odnos	odnos odnosu odnosi odnose odnosa odnosima однос odnosom односу односи односе односа односима односом
+18	818	test	test testove testa testu testova testovi testovima тест testom тестове теста тестова тестови тесту тестовима тестом
+19	819	umoran	umoran umorna umorni umorno umorne уморан уморна уморни umornim уморно umornog umornih umornom umorniji umornu уморне уморним уморног уморних уморном уморнији уморну
+20	820	menjati	menja menjaju menjam menjamo menjaš menjao menjati menjala menjaj menjate menjali menjanje мења мењају menjajte menjajući menjaćemo menjale menjalo menjaću мењамо мењам мењаш мењао мењати menjajmo menjana мењала мењај мењате мењали мењање мењајте мењајући мењаћемо мењале мењало мењаћу мењајмо мењана
+21	821	dobijati	dobija dobijam dobijaš dobijamo dobijaju dobijate dobijanje dobijati dobijaćeš dobijajući dobijaćete dobijaće dobijaću добија добијам добијаш добијамо добијају добијате добијање добијати добијаћеш добијајући добијаћете добијаће добијаћу
+22	822	američki	američki američke američka američkih američkog američkom američku američkim američkoj američko амерички америчке америчких америчка америчком америчког америчким америчку američkoga америчкој америчко америчкога
+23	823	nos	nos nose nosa nosu nosom нос noseve noseva nosevima nosevi nosić носа nosne nosni nosnu nosna носу носом nosnoj носе носеве носева носевима носеви носић носне носни носну носна носној
+24	824	kći	kćer kćeri kćerka kći kćerima кћери кћер кћерка кћи кћерима
+25	825	lek	lek lekove lekova lekovi leka lekovima лек leče lekom лекове leku лекова лекови лековима лека лече леком леку
+26	826	lik	lik lika likovi likom liku likova likove likovima лик лика ликови лику ликом ликова ликове ликовима
+27	827	k	k к
+28	828	umesto	umesto уместо
+29	829	nesreća	nesreća nesreću nesreće nesreći nesrećom несрећа nesrećama несрећу несреће несрећи nesrećo несрећом несрећама несрећо
+30	830	nemoguće	nemoguće немогуће
+31	831	dugovati	dugujem duguješ duguje dugujemo dugujete dugovao duguju дугујем дугујеш dugovati dugovala dugovali дугује дугујемо dugovanje дугујете dugovaću дуговао dugovaćeš дугују дуговати дуговала дуговали дуговање дуговаћу дуговаћеш
+32	832	zgodan	zgodan zgodna zgodno zgodni zgodne zgodnog zgodnu zgodnim zgodniji zgodnih zgodnom najzgodniji згодан zgodnija zgodnije najzgodnija згодно najzgodnije zgodnoj згодна згодни najzgodnijeg najzgodniju najzgodnijih zgodnijeg згодне згодног згодну згодним згоднији згодних згодном најзгоднији згоднија згодније најзгоднија најзгодније згодној најзгоднијег најзгоднију најзгоднијих згоднијег
+33	833	napolju	napolju напољу
+34	834	korak	korak koraka korake koraci koraku корак korakom koracima корака кораке кораци кораком кораку корацима
+35	835	drugačije	drugačije другачије
+36	836	blizak	bliski bliži blizak najbliži najbliže bliske bliska najbliža bliskom blisko bliskog bliže najbližeg bliža ближе bliskoj najbližu najbližih bliskih bliskim blisku najbližem блиски najbližoj najbližim ближи bližim најближи близак најближе bližu bližoj najbližima најближа bližih блиске bližeg блиског блиском блиска блиско најближег ближа блиској најближу најближих блиских блиским блиску најближем најближој најближим ближим ближу ближој најближима ближих ближег
+37	837	ličiti	liči ličiš ličim liče ličite ličilo ličio личи ličila ličimo ličiti ličili личиш личим личе ličile личите ličiće личило личио личила личимо личити личили личиле личиће
+38	838	pevati	peva pevam pevaš pevaj pevaju pevati pevao pevala pevanje pevamo pevali pevate pevajte pevaću pevajući пева pevaćemo pevale pevajmo певам pevaće pevaćeš певају певаш певати певање певај певао певамо певала pevalo певали певате певајте певаћу певајући певаћемо певале певајмо певаће певаћеш певало
+39	839	kriti	krije kriješ krijem kriju krio krila krijemo krijete kriti krili крије krijući кријеш крију krij кријем крио krile кријете кријемо krijte крили крила крити кријући криј криле кријте
+40	840	bomba	bomba bombu bombe bombi bombom bombama бомба бомбе бомбу бомби bombo бомбом бомбама бомбо
+41	841	kuca	kuci kuca kuce kucu kuco kucama куца kucom куцо куце куци куцу куцама куцом
+42	842	jebeno	jebeno јебено
+43	843	juče	juče јуче
+44	844	uključiti	uključuje uključi uključen uključio uključiti uključite uključena uključeni uključim uključeno uključiš uključimo uključili uključila uključe uključene uključiću укључен uključivati укључени uključenje укључи uključilo укључите uključićemo uključiće uključile укључити uključivši укључе укључим укључена укључили укључује укључио укључено укључиш укључимо укључила укључене укључићу укључивати укључење укључило укључићемо укључиће укључиле укључивши
+45	845	svirati	svira sviram sviraš svirao svirati sviraj sviraju svirali sviramo svirate svirala sviranje svirajte свира sviraću svirajući sviraće sviraćemo свирао свирам свираш svirale sviraćeš свирај свирати svirajmo sviralo свирају свирате свирали свирамо свирала свирање свирајте свираћу свирајући свираће свираћемо свирале свираћеш свирајмо свирало
+46	846	jezik	jezik jezika jezikom jeziku jezike језик jezici jezicima језика језику језиком jezičke jezički jezička jezičku jezične језике језици језицима језичке језички језичка језичку језичне
+47	847	sedam	sedam седам
+48	848	bitno	bitno битно
+49	849	običan	običan obična obični obične običnog običnim običnu običnih običnom najobičniji najobičnija обичан najobičnije običnoj обична обични обичне обичног najobičniju обичних обичну обичним обичном најобичнији најобичнија најобичније обичној најобичнију
+50	850	preživeti	preživeo preživeti preživeli preživela preživi prežive preživimo preživim preživiš preživele preživeće preživeću preživelo preživite preživećeš preživećemo преживети преживео преживи преживели преживела преживе preživećete преживимо преживиш преживим преживеле преживеће преживећу преживело преживите преживећеш преживећемо преживећете
+51	851	plav	plava plavi plave plavo plavu plavom plavog plavim plav plavoj plavih плави плава плаве плаво плаву плавом плавог plavome плавим плавој плав плавих плавоме
+52	852	propustiti	propustio propustila propustiti propustili propustim propustiš propustite propusti propustimo propustićeš propustiću пропустио propustićemo propuste propušteno propustićete пропустили propušten пропустити propustile propuštena propustiće propuštene пропустила пропустим propušteni пропустите propuštati propustilo пропустиш пропусти пропустимо пропустићеш пропустићу пропустићемо пропусте пропуштено пропустићете пропуштен пропустиле пропуштена пропустиће пропуштене пропуштени пропуштати пропустило
+53	853	metak	metak metka metaka metke meci metkom mecima метак metku метака меци метка метке метком мецима метку
+54	854	obitelj	obitelj obitelji obiteljima обитељ обитељи обитељима
+55	855	bogat	bogat bogati bogata bogate bogatih bogatog bogatim bogato bogatiji bogatu najbogatiji najbogatijih bogatom bogatima najbogatija bogatoj богат богати bogatija najbogatije bogatije najbogatijeg богата bogatijim najbogatijim богате najbogatiju богато богатог богатих bogatijih богатим богатији богату најбогатији најбогатијих богатом богатима најбогатија богатој богатија најбогатије богатије најбогатијег богатијим најбогатијим најбогатију богатијих
+56	856	rođendan	rođendan rođendana рођендан rođendanu rođendane rođendani rođendanima rođendanom рођендана рођендану рођендане рођендани рођенданима рођенданом
+57	857	okej	okej океј
+58	858	deda	deda dede dedu dedi деда dedom деде деду деди дедом
+59	859	opasnost	opasnosti opasnost опасности opasnostima опасност opasnošću опасностима опасношћу
+60	860	izvesti	izvesti izveo izvedem izvede izvedi izvedemo izvedeš izveli izvela izvedite izvedeno izvedu izvedete izvešću izveden izvedena izvešćemo izvedimo izvešće izvedeni izvezao изведем извео извести изведе izvele izvedene izvezla изведемо изведи izvelo извели izvešća izveze izvezem изведеш izvešćeš изведите izvezeno izvezeš извела изведено изведу изведете извешћу изведен изведена извешћемо изведимо извешће изведени извезао извеле изведене извезла извело извешћа извезе извезем извешћеш извезено извезеш
+61	861	novine	novine novinama novina новине новинама новина novinu новину
+62	862	pacijent	pacijent pacijenta pacijenata pacijente pacijenti pacijentima pacijentu pacijentom пацијент пацијента пацијената пацијенти пацијенте пацијентима пацијенту пацијентом
+63	863	nada	nada nade nadu nadi nadom нада наде наду nadama nado нади надом надама надо
+64	864	jaje	jaja jaje jajima jajeta јаја jajetu jajetom јаје јајима јајета јајету јајетом
+65	865	tiče	tiče тиче
+66	866	brava	bravo bravu brave brava браво bravi bravom bravama браве браву брава брави бравом бравама
+67	867	klijent	klijent klijenta klijenata klijente klijenti klijentima klijentu klijentom klijentica клијент клијента klijenticu klijentice клијената клијенти клијенте klijentici клијентима klijenticom клијентом клијенту клијентица клијентицу клијентице клијентици клијентицом
+68	868	dupe	dupe dupeta dupetu дупе dupetom dupence дупета dupetima дупету дупетом дупенце дупетима
+69	869	more	more morski morske morskog morska morskih morem morsku morskom morskim morsko morima moru море morskoj морски морска морску морских морске morskoga мору морског морем морском морским морско морима морској морскога
+70	870	prijaviti	prijavio prijaviti prijavila prijavim prijavili prijavi prijavite prijave prijaviš prijavljen prijavimo prijaviću prijavljeno prijavljena prijavljeni пријавио prijavilo prijavile prijavljene prijavićemo пријавите пријавим prijaviće prijavićeš пријавити пријавили prijavljivati пријаве пријавила пријави пријавиш пријављен пријавимо пријавићу пријављено пријављена пријављени пријавило пријавиле пријављене пријавићемо пријавиће пријавићеш пријављивати
+71	871	nabaviti	nabaviti nabavio nabavi nabavim nabavila nabavimo nabaviš nabavite nabaviću nabavili nabavićemo nabave набавио набавити набавите набавим набави nabavićeš набавимо nabaviće набавићу nabavile набавиш набавила nabavljen набавили набавићемо набаве набавићеш набавиће набавиле набављен
+72	872	papir	papir papire papira papiri papiru papirima papirom папир папире папира папиру папири папирима папиром
+73	873	prošlost	prošlost prošlosti prošlošću прошлости прошлост прошлошћу
+74	874	jadan	jadni jadna jadan jadne jadnog jadnu jadnom jadnim jadnoj jadnih јадни јадна јадан jadnije najjadniji jadniji najjadnija јадне najjadnije јадну јадног jadnoga јадном јадним јадној јадних јадније најјаднији јаднији најјаднија најјадније јаднога
+75	875	pušiti	puši pušiš pušim pušenje pušio pušiti popuši puše pušila pušite popušio popušiti popušim popušiš pušili popušila pušimo popušimo popušili пуши popušite пушиш popuše popušiću пушим pušeći пушење пушио pušile pušiću попуши пушити пуше pušićeš pušilo пушила пушите попушио попушити попушим попушиш пушили попушила пушимо попушимо попушили попушите попуше попушићу пушећи пушиле пушићу пушићеш пушило
+76	876	razlika	razliku razlika razlike разлику разлика razlikama razlikom разлике разликама разликом
+77	877	dogovor	dogovor dogovora dogovoru dogovori dogovore договор dogovorom договора dogovorima договору договори договоре договором договорима
+78	878	gomila	gomila gomilu gomile gomilom gomili гомила гомилу gomilo gomilama гомиле гомилом гомили гомило гомилама
+79	879	selo	selo sela selu selima село селу села selom селима селом
+80	880	poljubiti	poljubi poljubio poljubim poljubiti poljubila poljubiš poljubili poljubite poljubimo poljube poljubiću пољуби пољубио пољубим пољубила poljubile poljubićeš пољубиш пољубити poljubljena пољубите poljubiće пољубили пољубимо пољубе пољубићу пољубиле пољубићеш пољубљена пољубиће
+81	881	profesor	profesor profesore profesora profesori profesorom profesoru професор професоре profesorima професора професори професором професору професорима
+82	882	vazduh	vazduh vazduha vazduhu vazduhom ваздух ваздуха ваздуху ваздухом
+83	883	predivan	predivno predivna predivan predivne predivnu predivni predivnom predivnog predivnim predivnih predivnoj предиван предивно предивна предивне предивну предивни предивном предивног предивним предивних предивној
+84	884	minut	minut minute minutu минут mini mine minuti minu minutima minutom мини мине минуту минуте минути мину минутима минутом
+85	885	čiji	čiji čija čije čijoj čiju čijem čijim čijeg чији чија чије čijom čijih чијој чију чијем чијим чијег чијом чијих
+86	886	mučiti	muči mučenje mučio mučiš mučiti muče mučili mučim mučite mučila mučilo mučen mučimo мучи mučeni mučena мучење mučile mučiće муче mučene mučeći мучили мучиш мучио mučiću мучите мучен мучити мучим мучила мучило мучимо мучени мучена мучиле мучиће мучене мучећи мучићу
+87	887	smijati	smijem smije smiješ smijemo smiju smijete smijati smijali smijao smij smijala smijte smijanje smijući smijanja smijale смијем смије смијеш смијемо смију смијете смијати смијали смијао смиј смијала смијте смијање смијући смијања смијале
+88	888	snimak	snimak snimke snimku snimci snimka snimaka snimcima снимак snimkom снимке snimkama snimki снимака снимци снимку снимка снимцима снимком снимкама снимки
+89	889	zub	zube zubima zuba zub zubi zubić зубе zubu зуба зубима zubom зуб зуби zubiće zubići zubića зубић зубу зубом зубиће зубићи зубића
+90	890	zadatak	zadatak zadatku zadatke zadatka zadataka задатак zadatkom zadaci zadacima задатку задатке задатка задатака задатком задаци задацима
+91	891	služiti	služi služe služio služiti služim služili služimo služiš služite služila služenje служи služeći služilo служио служе služile служити služiću služiće служим služićeš služićemo служиш служили служите служимо служила служење служећи служило служиле служићу служиће служићеш служићемо
+92	892	smejati	smeju smeješ smeje smejem smejati smejali smejao smej smejete smejala smejemo smejte smejanje smejanja смеју смејеш смеје smejući smejaće smejaćeš smejale смејем smejaćemo smejaću смејати смејали смејао смејете смеј smejaćete smejalo smejanjem смејала смејемо смејте смејање смејања смејући смејаће смејаћеш смејале смејаћемо смејаћу смејаћете смејало смејањем
+93	893	ptica	ptica ptice pticu ptičica pticama ptico птица ptici птице pticom ptičje ptičji птицу ptičja ptičjeg птичица ptičjih ptičurina ptičjem ptičju ptičjim tica птицама птицо птици птицом птичје птичји птичја птичјег птичјих птичурина птичјем птичју птичјим тица
+94	894	želja	želja želju želje želji željama željom жеље жељу жеља жељи жељама жељом
+95	895	pogrešno	pogrešno погрешно
+96	896	pogrešan	pogrešan pogrešnom pogrešnu pogrešna pogrešnog pogrešne pogrešnim pogrešnoj pogrešni pogrešnih погрешан погрешну погрешном погрешна погрешне погрешног погрешним погрешној погрешни погрешних
+97	897	postaja	postaje postaju postaji postaja постаје постају postajama postajom постаји постаја постајама постајом
+98	898	vino	vino vina vinom vinu вино вина vinima вином вину винима
+99	899	tjedan	tjedan tjedna tjedana tjednima tjednu tjedni tjedne tjednom тједан тједна тједана тједнима тједну тједни тједне тједном
+100	900	žaliti	žalim žali žališ žaliti žalio žale žaljenje žalila žalite žalimo žaljenja žalili žaljenjem жалим žaliću žaleći жали žalile žalićeš žalićemo жалити жалиш жалио žaljenju жале žalilo жаљење жалимо žaliće жалите жалила жаљења жалили жаљењем жалићу жалећи жалиле жалићеш жалићемо жаљењу жалило жалиће

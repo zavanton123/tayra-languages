@@ -1,0 +1,100 @@
+1	5601	konvoj	konvoj konvoja konvoju konvoji konvoje konvojem конвој конвоја конвоју конвоји конвоје конвојем
+2	5602	upecati	upecao upecala upecati upecali upecam upecaš upeca upecan upecaju upecamo upecana upecaj упецао упецала упецати упецали упецам упецаш упеца упецан упецају упецамо упецана упецај
+3	5603	pronalazak	pronalazak pronalaska pronalasku pronalaskom pronalazaka pronalaske pronalasci проналазак проналаска проналаску проналаском проналазака проналаске проналасци
+4	5604	euro	eura euro eurima еура еуро еурима
+5	5605	posteljina	posteljinu posteljina posteljine posteljini posteljinom постељину постељина постељине постељини постељином
+6	5606	pobjeđivati	pobjeđuje pobjeđujem pobjeđuju pobjeđuješ pobjeđivati pobjeđujemo pobjeđivao pobjeđivanje pobjeđujete pobjeđivali побјеђује побјеђујем побјеђују побјеђујеш побјеђивати побјеђујемо побјеђивао побјеђивање побјеђујете побјеђивали
+7	5607	založiti	založio zalaže založiti založim založila založi založiš založili založite zalagati založiću založimo заложио залаже заложити заложим заложила заложи заложиш заложили заложите залагати заложићу заложимо
+8	5608	žetva	žetve žetvu žetva žetvi žetvom жетве жетву жетва жетви жетвом
+9	5609	sazvati	sazvao sazvati sazvali sazvala sazovi sazove sazvan sazovem sazvaću sazovite sazvana sazovemo sazoveš сазвао сазвати сазвали сазвала сазови сазове сазван сазовем сазваћу сазовите сазвана сазовемо сазовеш
+10	5610	leglo	legla leglo leglu легло легла леглу
+11	5611	jato	jato jata jatu jatima jatom јато јата јату јатима јатом
+12	5612	trajno	trajno трајно
+13	5613	dika	diki dika diku diko dikom дики дика дику дико диком
+14	5614	krstariti	krstarenje krstari krstare krstarimo krstarili krstarim krstariti крстарење krstareći крстари крстаре крстаримо крстарили крстарим крстарити крстарећи
+15	5615	pokoriti	pokoriti pokori pokorio pokore pokorili pokorimo pokorite pokorim pokoriš pokorila pokoreni pokorena покорити покори покорио покоре покорили покоримо покорите покорим покориш покорила покорени покорена
+16	5616	lepak	lepak lepka lepkom лепак lepku лепка лепком лепку
+17	5617	uskratiti	uskratiti uskratio uskraćena uskraćen uskrati uskratili uskratila uskraćeno uskratim uskraćeni uskratiš uskratite uskrate uskratimo uskraćene ускратити ускратио ускраћена ускраћен ускрати ускратили ускратила ускраћено ускратим ускраћени ускратиш ускратите ускрате ускратимо ускраћене
+18	5618	taksista	taksista taksisti taksistu taksiste taksistom таксиста taksisto таксисти таксисту таксисте таксистом таксисто
+19	5619	štedjeti	štedi štedim štedjeti štedimo štedite štediš štedio štede štedjela štedjeli штеди štedeći штедим штедјети штедимо штедите штедиш штедио штеде штедјела штедјели штедећи
+20	5620	povećanje	povećanje povećanja povećanjem povećanju повећање повећања повећањем повећању
+21	5621	gazdarica	gazdarica gazdarice gazdaricu gazdarici gazdaricom газдарица газдарице газдарицу газдарици газдарицом
+22	5622	sjena	sjene sjena sjeni sjenu siena sjenama сјене сјена сјени сјену сиена сјенама
+23	5623	slama	slama slame slamu slamom slami слама сламе сламу сламом слами
+24	5624	aspekt	aspekt aspekte aspekta aspektima aspekata aspekti aspektu aspektom аспект аспекте аспекта аспектима аспеката аспекти аспекту аспектом
+25	5625	izrada	izradu izrada izrade izradi izradom израду израда израде изради израдом
+26	5626	imun	imuni imun imuna imuno imune imunim imunog имуни имун имуна имуно имуне имуним имуног
+27	5627	epidemija	epidemija epidemije epidemiju epidemiji epidemijom епидемија епидемије епидемију епидемији епидемијом
+28	5628	primitivan	primitivni primitivan primitivna primitivne primitivnim primitivnih primitivnog primitivnom primitivnu primitivnoj примитивни примитиван примитивна примитивне примитивним примитивних примитивног примитивном примитивну примитивној
+29	5629	sjedalo	sjedala sjedalo sjedalu sjedalima сједала сједало сједалу сједалима
+30	5630	zainteresiran	zainteresiran zainteresirani заинтересиран заинтересирани
+31	5631	gnev	gnev gneva gnevom gnevu гнев гнева гневом гневу
+32	5632	nepotreban	nepotrebne nepotreban nepotrebna nepotrebnih nepotrebnog nepotrebni nepotrebnim nepotrebnu nepotrebnom непотребне непотребан непотребна непотребних непотребног непотребни непотребним непотребну непотребном
+33	5633	puž	puž puževi puževe puža puževa pužu puževima pužem пуж пужеви пужеве пужа пужева пужу пужевима пужем
+34	5634	iskušenje	iskušenje искушење
+35	5635	kliziti	klizi klize klizim kliziš klizimo klizio kliziti klizeći клизи klizite klizila клизе клизим клизиш клизимо клизио клизити клизећи клизите клизила
+36	5636	katalog	katalog kataloga katalogu kataloge katalozi katalozima katalogom каталог каталога каталогу каталоге каталози каталозима каталогом
+37	5637	koska	kosku koske koska koski koskom kosci коску коске коска коски коском косци
+38	5638	sličiti	sliči sličiš sličim sliče sličiti sličite sličio sličimo sličilo sličila сличи сличиш сличим сличе сличити сличите сличио сличимо сличило сличила
+39	5639	pokrivač	pokrivač pokrivača pokrivače pokrivačem pokrivači pokrivaču pokrivačima покривач покривача покриваче покривачем покривачи покривачу покривачима
+40	5640	sjebano	sjebano сјебано
+41	5641	foka	foka foke foku fokama фоке фока фоку фокама
+42	5642	kolac	kolac kolaca kolcem kolca kolcu kolce колац колаца колцем колца колцу колце
+43	5643	podmititi	podmitio podmititi podmiti podmitiš podmitili podmitila podmitim podmićen podmitite podmitimo podmićeni podmite подмитио подмитити подмити подмитиш подмитили подмитила подмитим подмићен подмитите подмитимо подмићени подмите
+44	5644	savremen	savremeni savremene savremena savremenog savremenih savremenom savremen savremeno savremenim savremenu savremenoj najsavremenije najsavremeniji najsavremeniju савремени савремене савремена савременог савремених савременом савремен савремено савременим савремену савременој најсавременије најсавременији најсавременију
+45	5645	registracija	registraciju registracija registracije registraciji registracijom регистрација регистрацију регистрације регистрацији регистрацијом
+46	5646	burma	burmu burme burma burmi burmom бурму бурме бурма бурми бурмом
+47	5647	skijati	skijanje skijati skijam skijao skijamo skijate skijaju skijala skijali скијање скијати скијам скијао скијамо скијате скијају скијала скијали
+48	5648	žvakati	žvakanje žvakaću žvakati žvakaće žvakao žvače žvakala žvači žvačeš žvačem žvakali žvaču жвакање жвакаћу жвакати жвакаће жвакао жваче жвакала жвачи жвачеш жвачем жвакали жвачу
+49	5649	začin	začina začin začini začine začinima začinom зачина зачин зачини зачине зачинима зачином
+50	5650	odmetnik	odmetnik odmetnika odmetnici odmetnike odmetnicima odmetniče odmetniku odmetnikom одметник одметника одметници одметнике одметницима одметниче одметнику одметником
+51	5651	sumnjičav	sumnjičav sumnjičavi sumnjičava sumnjičavo sumnjičave sumnjičavim сумњичав сумњичави сумњичава сумњичаво сумњичаве сумњичавим
+52	5652	pastir	pastir pastira pastiri пастир pastiru pastire пастира пастири пастиру пастире
+53	5653	pojasniti	pojasnim pojasniti pojasni pojasnimo pojasnite pojasnio pojasniš pojasniću pojasnili pojasnila појасним појаснити појасни појаснимо појасните појаснио појасниш појаснићу појаснили појаснила
+54	5654	mantil	mantil mantilu mantila mantile mantilima mantili мантил mantilom мантилу мантила мантиле мантилима мантили мантилом
+55	5655	smaknuti	smaknuti smakne smaknut smaknu smaknuo smaknem smaknemo smakneš smaknuli smakao smakni smaknite smaknuta smakli smaknete смакнути смакне смакнут смакну смакнуо смакнем смакнемо смакнеш смакнули смакао смакни смакните смакнута смакли смакнете
+56	5656	jaguar	jaguar jaguara jaguaru jaguari jaguare jaguarom јагуара јагуар јагуару јагуари јагуаре јагуаром
+57	5657	viljuška	viljušku viljuške viljuška viljuškom viljuškama viljuški viljušaka виљушку виљушке виљушка виљушком виљушкама виљушки виљушака
+58	5658	lovački	lovački lovačke lovačka lovačku lovačkog lovačkih lovačkim lovačkom lovačkoj lovačko ловачки ловачке ловачка ловачку ловачког ловачких ловачким ловачком ловачкој ловачко
+59	5659	us	us ус
+60	5660	softver	softver softvera softveru softverom софтвер софтвера софтверу софтвером
+61	5661	motocikl	motocikl motociklu motocikla motocikle motociklom motocikala motocikli motociklima мотоцикл мотоциклу мотоцикла мотоцикле мотоциклом мотоцикала мотоцикли мотоциклима
+62	5662	povučen	povučen povučena povučeni povučeno povučene повучен повучена повучени повучено повучене
+63	5663	krastavac	krastavac krastavce krastavci krastavaca krastavcima krastavca краставац краставце краставци краставаца краставцима краставца
+64	5664	božanstven	božanstveno božanstvena božanstven božanstveni božanstvene božanstvenu božanstvenim božanstvenog божанствено божанствена божанствен божанствени божанствене божанствену божанственим божанственог
+65	5665	testera	testeru testera testerom testere testeri testerama тестеру тестера тестером тестере тестери тестерама
+66	5666	markiz	markiz markiza markiže markizo markizu markize markizom markizi маркиза маркиз маркиже маркизо маркизу маркизе маркизом маркизи
+67	5667	tragično	tragično трагично
+68	5668	kritičar	kritičar kritičari kritičara kritičare kritičarima критичар критичари критичара критичаре критичарима
+69	5669	ubrizgati	ubrizgao ubrizgali ubrizgati ubrizgan ubrizga ubrizgala ubrizgaj ubrizgam ubrizgaš ubrizgana ubrizgaju ubrizgano ubrizgamo ubrizgajte ubrizgate ubrizgaću убризгао убризгали убризгати убризган убризга убризгала убризгај убризгам убризгаш убризгана убризгају убризгано убризгамо убризгајте убризгате убризгаћу
+70	5670	davanje	davanje davanja давање давања
+71	5671	šupa	šupi šupu šupe šupa шупи шупу шупе шупа
+72	5672	les	les lesa lese lesu lesom лес леса лесе лесу лесом
+73	5673	porok	poroka porok poroke poroci porocima poroku порока порок пороке пороци пороцима пороку
+74	5674	ublažiti	ublažiti ublaži ublažim ublažio ublažimo ublaže ublažila ublažiš ublažili ublažilo ublažite ublažiće ублажи ublažena ублажити ублажим ублажио ублажимо ублаже ублажила ублажиш ублажили ублажило ублажите ублажиће ублажена
+75	5675	usredotočiti	usredotočiti usredotoči usredotočen usredotočite usredotočimo usredotočeni usredotočena usredotočio usredotočiš usredotočim usredotočili усредоточити усредоточи усредоточен усредоточите усредоточимо усредоточени усредоточена усредоточио усредоточиш усредоточим усредоточили
+76	5676	zastoj	zastoj zastoja zastoju застој zastoje zastojem zastoji застоја застоју застоје застојем застоји
+77	5677	mešavina	mešavina mešavinu mešavine mešavinom мешавина mešavini мешавину мешавине мешавином мешавини
+78	5678	podzemlje	podzemlje podzemlja подземље подземља
+79	5679	puziti	puzi puzim puzeći puziš puze puzala puzite puzimo puzio пузи пузим пузећи пузиш пузе пузала пузите пузимо пузио
+80	5680	mehur	mehur mehurići mehuriće mehurića mehurićima mehura mehurić mehuru mehuri mehuriću мехур мехурићи мехуриће мехурића мехурићима мехура мехурић мехуру мехури мехурићу
+81	5681	sićušan	sićušni sićušna sićušne sićušan sićušnih sićušno sićušnu sićušnim sićušnog sićušnom sićušnoj сићушни сићушна сићушне сићушан сићушних сићушно сићушну сићушним сићушног сићушном сићушној
+82	5682	plutati	plutaju plutajući plutam plutamo plutao plutati plutala plutaš plutanje plutali plutate plutalo plutale плутају плутајући плутам плутамо плутао плутати плутала плуташ плутање плутали плутате плутало плутале
+83	5683	predvorje	predvorju predvorje predvorja предворју предворје предворја
+84	5684	nemir	nemir nemira nemiri nemire nemirima nemiru немир немира немири немире немирима немиру
+85	5685	specijalnost	specijalnost specijalnosti специјалност специјалности
+86	5686	poželjan	poželjno poželjan poželjna poželjni najpoželjniji poželjne poželjnim najpoželjnija najpoželjnijih poželjnom poželjniji poželjnije poželjnih пожељно пожељан пожељна пожељни најпожељнији пожељне пожељним најпожељнија најпожељнијих пожељном пожељнији пожељније пожељних
+87	5687	panda	panda pande pandu pando pandi панда pandom пандо панде панду панди пандом
+88	5688	republikanac	republikanci republikanac republikanaca republikance republikancima republikanca републиканци републиканац републиканаца републиканце републиканцима републиканца
+89	5689	odvojeno	odvojeno одвојено
+90	5690	udvostručiti	udvostručiti udvostruči udvostručio udvostručite udvostručili udvostručimo udvostručila udvostručim udvostručiću udvostručena udvostruče udvostručiš udvostručen udvostručilo udvostručićemo удвостручити удвостручи удвостручио удвостручите удвостручили удвостручимо удвостручила удвостручим удвостручићу удвостручена удвоструче удвостручиш удвостручен удвостручило удвостручићемо
+91	5691	uvideti	uvideo uvideti uvidela uvideli uvidim uvidiš uvidite uvidi uvidimo uvidećete uviđati uvidećeš uvide увидео увидети увидела увидели увидим увидиш увидите увиди увидимо увидећете увиђати увидећеш увиде
+92	5692	polaskati	polaskan polaskana polaskani поласкан поласка polaska поласкана поласкани
+93	5693	sprej	sprej spreja spreju sprejem sprejeve спреј sprejevi спреја спреју спрејем спрејеве спрејеви
+94	5694	poza	poza pozu pozi poze pozama pozo поза позу пози позе позама позо
+95	5695	žito	žito žita žitu žitom жито жита житу житом
+96	5696	odvratiti	odvratiti odvrati odvratite odvratim odvratiš odvrate odvratimo odvraćati одвратити одврати одвратите одвратим одвратиш одврате одвратимо одвраћати
+97	5697	pokidati	pokidao pokidala pokidati pokidan pokidana pokida pokidane pokidali pokidani pokidam pokidano pokidaj pokidaš pokidaću pokidaju pokidamo покидао покидала покидати покидан покидана покида покидане покидали покидани покидам покидано покидај покидаш покидаћу покидају покидамо
+98	5698	brašno	brašno brašna brašnom брашно brašnu брашна брашном брашну
+99	5699	beton	beton betona betonu betonom бетон бетона бетону бетоном
+100	5700	obrazovan	obrazovan obrazovana obrazovani obrazovane obrazovanih obrazovanog obrazovanu образован образована образовани образоване образованих образованог образовану

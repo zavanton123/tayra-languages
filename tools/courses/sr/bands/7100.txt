@@ -1,0 +1,100 @@
+1	7001	prokletinja	prokletinju prokletinja prokletinjo prokletinje prokletinji проклетињу проклетиња проклетињо проклетиње проклетињи
+2	7002	straga	straga страга
+3	7003	žudjeti	žudi žudim žude žudiš žudio žudite žudimo žudjela žudjeti žudeći жуди жудим жуде жудиш жудио жудите жудимо жудјела жудјети жудећи
+4	7004	uvređen	uvređen uvređena uvređeni uvređeno uvređenim увређен увређена увређени увређено увређеним
+5	7005	moralno	moralno морално
+6	7006	uvredljivo	uvredljivo увредљиво
+7	7007	plijen	plijen plijena plijenom плијен плијена плијеном
+8	7008	konstrukcija	konstrukcija konstrukcije konstrukciju konstrukciji konstrukcijom конструкција конструкције конструкцију конструкцији конструкцијом
+9	7009	hipi	hipi hipija hipiji hipije хипи хипија хипији хипије
+10	7010	kupnja	kupnju kupnji kupnje kupnja kupnjom купњу купњи купње купња купњом
+11	7011	navaljivati	navaljivao navaljuj navaljujem navaljuješ navaljuje navaljivati navaljivala navaljuju navaljivali navaljujete navaljujte наваљивао наваљуј наваљујем наваљујеш наваљује наваљивати наваљивала наваљују наваљивали наваљујете наваљујте
+12	7012	nepouzdan	nepouzdan nepouzdani nepouzdana nepouzdane nepouzdano nepouzdanim nepouzdanog непоуздан непоуздани непоуздана непоуздане непоуздано непоузданим непоузданог
+13	7013	karmin	karmin кармин
+14	7014	plesti	plete pletenje pletem plesti pleteš pletu plela pletene pletemo pleteni pletete плете плетење плетем плести плетеш плету плела плетене плетемо плетени плетете
+15	7015	anonimno	anonimno анонимно
+16	7016	dugmad	dugmad dugmadi дугмад дугмади
+17	7017	grmljavina	grmljavina grmljavine grmljavinu grmljavinom grmljavini грмљавина грмљавине грмљавину грмљавином грмљавини
+18	7018	omladina	omladina omladine omladinu omladini omladinom omladino омладина омладине омладину омладини омладином омладино
+19	7019	čitalac	čitaoci čitalaca čitaoce čitaocima čitalac čitaoca čitaoče читаоци читалаца читаоце читаоцима читалац читаоца читаоче
+20	7020	uklopiti	uklopiti уклопити
+21	7021	etički	etički etičke etička etičkog etičkih etičko etičku etičkim etičkom етички етичке етичка етичког етичких етичко етичку етичким етичком
+22	7022	akumulator	akumulator akumulatora akumulatore akumulatori akumulatorom akumulatoru акумулатор акумулатора акумулаторе акумулатори акумулатором акумулатору
+23	7023	naznaka	naznaka naznake naznaku naznakom назнака назнаке назнаку назнаком
+24	7024	amaterski	amaterski amatersko amaterska amaterske amaterskog amaterskom amaterskih amaterskim amaterskoj amatersku аматерски аматерско аматерска аматерске аматерског аматерском аматерских аматерским аматерској аматерску
+25	7025	manjina	manjina manjine manjini manjinama manjinu мањина мањине мањини мањинама мањину
+26	7026	nagovarati	nagovarao nagovara nagovaram nagovarati nagovarala nagovaraš nagovarali nagovaranje nagovaraju наговарао наговара наговарам наговарати наговарала наговараш наговарали наговарање наговарају
+27	7027	nepravedno	nepravedno неправедно
+28	7028	kreacija	kreacija kreacije kreaciju kreaciji kreacijama креација креације креацију креацији креацијама
+29	7029	odgristi	odgrizao odgrizla odgristi odgrize odgrizem odgrizi odgrizeš odgrišće odgrišću odgrizli odgrizu одгризао одгризла одгристи одгризе одгризем одгризи одгризеш одгришће одгришћу одгризли одгризу
+30	7030	var	vara vari var вара вари вар
+31	7031	nametnuti	nametnuo nametnuti nametne nametnuli nametnula nametnu nametnuta nametnut nametnuto nametnem nametneš nametnute наметнуо наметнути наметне наметнули наметнула наметну наметнута наметнут наметнуто наметнем наметнеш наметнуте
+32	7032	razmnožavati	razmnožavaju razmnožavanje razmnožava razmnožavati razmnožavamo razmnožavali размножавају размножавање размножава размножавати размножавамо размножавали
+33	7033	izvedba	izvedba izvedbu izvedbe izvedbi izvedbom изведба изведбу изведбе изведби изведбом
+34	7034	ogovarati	ogovaraju ogovaranje ogovarati ogovara ogovaram ogovarate ogovaramo ogovaraš ogovarali ogovarao ogovarala оговарају оговарање оговарати оговара оговарам оговарате оговарамо оговараш оговарали оговарао оговарала
+35	7035	hrišćanski	hrišćanski kršćanski kršćanske kršćanska kršćanskog kršćansku kršćanskih kršćansko хришћански кршћански кршћанске кршћанска кршћанског кршћанску кршћанских кршћанско
+36	7036	pacijentkinja	pacijentkinja pacijentkinju pacijentkinje pacijentkinji pacijentkinjom pacijentkinjama пацијенткиња пацијенткињу пацијенткиње пацијенткињи пацијенткињом пацијенткињама
+37	7037	pridruživati	pridružuje pridružujem pridružuju pridružuješ pridružujemo pridruživanje pridruživanju pridružujete pridruživanja придружује придружујем придружују придружујеш придружујемо придруживање придруживању придружујете придруживања
+38	7038	klip	klip klipove klipova klipa klipovi klipe klipu klipovima клип клипове клипова клипа клипови клипе клипу клиповима
+39	7039	banja	banja banju banji banje banjo бања бању бањи бање бањо
+40	7040	sticati	stiče stičem sticanje stiču stičeš sticao stičemo stičete стиче стичем стицање стичу стичеш стицао стичемо стичете
+41	7041	žarki	žarko žarka žarku жарко жарка жарку
+42	7042	čeljust	čeljusti čeljust čeljustima чељусти чељуст чељустима
+43	7043	uredno	uredno уредно
+44	7044	psihijatrija	psihijatriji psihijatriju psihijatrije psihijatrija psihijatrijom психијатрији психијатрију психијатрије психијатрија психијатријом
+45	7045	teatar	teatar teatru teatra театар театру театра
+46	7046	učtiv	učtiv učtivo učtivi učtiva учтив учтиво учтиви учтива
+47	7047	lim	lim lima lime limu лим лима лиме лиму
+48	7048	azil	azil azilu azila азил азилу азила
+49	7049	licemer	licemer licemeri licemeru licemera licemere лицемер лицемери лицемеру лицемера лицемере
+50	7050	trotoar	trotoaru trotoar trotoara trotoarom тротоару тротоар тротоара тротоаром
+51	7051	sirotinja	sirotinja sirotinji sirotinju sirotinje sirotinjom сиротиња сиротињи сиротињу сиротиње сиротињом
+52	7052	oklopni	oklopna oklopni oklopne oklopno oklopnih oklopnog oklopnim oklopnom oklopnu оклопна оклопни оклопне оклопно оклопних оклопног оклопним оклопном оклопну
+53	7053	tjelesni	tjelesne tjelesni tjelesnog tjelesna tjelesno tjelesnih tjelesnu tjelesnim tjelesnom тјелесне тјелесни тјелесног тјелесна тјелесно тјелесних тјелесну тјелесним тјелесном
+54	7054	guru	guru gurua guruom gurui гуру гуруа гуруом гуруи
+55	7055	prilagođavati	prilagođava prilagođavanje prilagođavam prilagođavaju prilagođavamo prilagođavaš prilagođavati прилагођава прилагођавање прилагођавам прилагођавају прилагођавамо прилагођаваш прилагођавати
+56	7056	savetovanje	savetovanje savetovanja savetovanju саветовање savetovanjem саветовања саветовању саветовањем
+57	7057	agresija	agresije agresiju agresija agresijom agresiji агресије агресију агресија агресијом агресији
+58	7058	jes	jes јес
+59	7059	limit	limit limita limite limitu лимит лимита лимите лимиту
+60	7060	snaja	snaja snaju snajo snaje snajom снаја снају снајо снаје снајом
+61	7061	dezerter	dezerter dezertera dezerteri dezertere dezerteru dezerterom dezerterima дезертер дезертера дезертери дезертере дезертеру дезертером дезертерима
+62	7062	čupav	čupavo čupavi čupave čupava čupav čupavu čupavog čupavih čupavim чупаво чупави чупаве чупава чупав чупаву чупавог чупавих чупавим
+63	7063	kanap	kanap konop канап коноп
+64	7064	formalno	formalno формално
+65	7065	odmazda	odmazde odmazda odmazdu odmazdi odmazdom одмазде одмазда одмазду одмазди одмаздом
+66	7066	rasistički	rasistički rasistička rasističke rasističko rasističkim rasističkog rasističku rasističkih расистички расистичка расистичке расистичко расистичким расистичког расистичку расистичких
+67	7067	šivati	šiva šivanje šivan šivati šivaću šivaj šivani šivaće шива шивање шиван шивати шиваћу шивај шивани шиваће
+68	7068	bridž	bridž bridža bridžu бриџ бриџа бриџу
+69	7069	priredba	priredbu priredbi priredba priredbe priredbama приредбу приредби приредба приредбе приредбама
+70	7070	zaručnik	zaručnik zaručnika zaručnikom zaručniku zaručnici заручник заручника заручником заручнику заручници
+71	7071	smerati	smeraš smeraju smerate smeram smeramo smerao smera смера смераш смерају смерате смерам смерамо смерао
+72	7072	znojav	znojav znojava znojavi znojave znojavim znojavo znojavih znojavog znojavu знојав знојава знојави знојаве знојавим знојаво знојавих знојавог знојаву
+73	7073	bljesak	bljesak bljeska bljeskovi bljesku bljeskom бљесак бљеска бљескови бљеску бљеском
+74	7074	sušiti	sušenje sušene sušena sušeno sušila sušeni sušilo sušiti sušiš sušio suše sušim сушење сушене сушена сушено сушила сушени сушило сушити сушиш сушио суше сушим
+75	7075	milijarder	milijarder milijardera milijarderi milijarderom milijarderu milijardere милијардер милијардера милијардери милијардером милијардеру милијардере
+76	7076	uklanjanje	uklanjanje uklanjanja уклањање уклањања
+77	7077	znatiželja	znatiželje znatiželja znatiželju znatiželji знатижеље знатижеља знатижељу знатижељи
+78	7078	uzoran	uzoran uzorni uzorna uzorno uzornog uzorne узоран узорни узорна узорно узорног узорне
+79	7079	komponenta	komponente komponenta komponentu komponenti komponentama компоненте компонента компоненту компоненти компонентама
+80	7080	napast	napast напаст
+81	7081	grmlje	grmlju grmlje grmlja grmljem грмљу грмље грмља грмљем
+82	7082	neposredan	neposrednoj neposredne neposredna neposrednu neposredni neposredan neposrednom neposrednog непосредној непосредне непосредна непосредну непосредни непосредан непосредном непосредног
+83	7083	križ	križ križa križu križem križeve криж крижа крижу крижем крижеве
+84	7084	svečano	svečano свечано
+85	7085	irvas	irvasa irvasi irvas irvase irvasima ирваса ирваси ирвас ирвасе ирвасима
+86	7086	sesija	sesija sesije sesiju sesiji sesijama сесија сесије сесију сесији сесијама
+87	7087	kalifornijski	kalifornijski kalifornijske kalifornijskog kalifornijska kalifornijskom kalifornijskih kalifornijsko kalifornijskim kalifornijsku kalifornijskoj калифорнијски калифорнијске калифорнијског калифорнијска калифорнијском калифорнијских калифорнијско калифорнијским калифорнијску калифорнијској
+88	7088	intelektualan	intelektualni intelektualne intelektualna intelektualnu intelektualnog intelektualnim intelektualnih intelektualnom интелектуални интелектуалне интелектуална интелектуалну интелектуалног интелектуалним интелектуалних интелектуалном
+89	7089	razvoditi	razvodimo razvodim razvodite razvodio razvodiš razvodili razvodila razvode развели razvodi разводимо разводим разводите разводио разводиш разводили разводила разводе разводи
+90	7090	navikavati	navikavam navikavaš navikavaj navikava navikavati navikavamo navikavaju navikavate navikavanje навикавам навикаваш навикавај навикава навикавати навикавамо навикавају навикавате навикавање
+91	7091	samostan	samostan samostanu samostana самостан самостану самостана
+92	7092	pričvrstiti	pričvrsti pričvršćen pričvrstiti pričvršćena pričvrstite pričvršćeno pričvrstio pričvrstim pričvršćeni pričvršćene pričvrstiš pričvrstimo pričvrstili причврсти причвршћен причврстити причвршћена причврстите причвршћено причврстио причврстим причвршћени причвршћене причврстиш причврстимо причврстили
+93	7093	kopča	kopča kopče kopču kopči kopčom kopčama копча копче копчу копчи копчом копчама
+94	7094	dopust	dopust dopusti dopustu dopusta dopuste допусти допуст допусту допуста допусте
+95	7095	jedinstvo	jedinstvo jedinstva jedinstvu јединство јединства јединству
+96	7096	rukovoditi	rukovodi rukovodim rukovoditi rukovodio rukovodiš rukovode rukovođenje rukovodeći rukovodila rukovodite руководи руководим руководити руководио руководиш руководе руковођење руководећи руководила руководите
+97	7097	hipnoza	hipnoza hipnozom hipnoze hipnozu hipnozi хипноза хипнозом хипнозе хипнозу хипнози
+98	7098	strašilo	strašilo strašila страшило strašilom strašilu страшила страшилом страшилу
+99	7099	milostinja	milostinju milostinja milostinje милостињу милостиња милостиње
+100	7100	pravnik	pravnik pravnika pravnici pravnike pravnicima pravniče правник правника правници правнике правницима правниче

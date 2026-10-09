@@ -1,0 +1,100 @@
+1	2701	matematika	matematike matematiku matematika matematici matematikom математике математика математику математици математиком
+2	2702	ćale	ćale ћале
+3	2703	zvanično	zvanično званично
+4	2704	val	val vala valovi vale valove valova valovima valu вала valom вал валови вале валове валова валовима валу валом
+5	2705	dina	dine dina dino dinu dinom dinama дини dini дина дине дино дину дином динама
+6	2706	tacna	tacno tacni tacnu tacna tacne тацно тацни тацну тацна тацне
+7	2707	nedostatak	nedostatak nedostatka nedostatku nedostatke nedostatkom nedostataka недостатак nedostaci nedostacima недостатка недостатку недостатке недостатком недостатака недостаци недостацима
+8	2708	crv	crva crv crvi crve crvima crvu crvom црв црве црва црви црвима црву црвом
+9	2709	pozitivan	pozitivan pozitivna pozitivne pozitivni pozitivnu pozitivnom pozitivnih pozitivnog pozitivnim позитиван pozitivniji pozitivnije pozitivnoj позитивна позитивне позитивно позитивни позитивну позитивном позитивних позитивног позитивним позитивнији позитивније позитивној
+10	2710	ispadati	ispada ispadaš ispadam ispadaju испада ispadate ispadamo ispadaj ispadanje ispadao ispadali ispadati ispadajte ispadalo испадаш испадам испадају испадате испадамо испадај испадање испадао испадали испадати испадајте испадало
+11	2711	vrijedan	vrijedno vrijedan vrijedna vrijedne vrijedni vrijednu vrijednim vrijednog vrijednih vrednije vredniji vrijednom najvrednije najvredniji vrednija najvrednija najvrednijih najvredniju vrednijeg вриједно вриједан вриједна вриједне вриједни вриједну вриједним вриједног вриједних вредније вреднији вриједном највредније највреднији вреднија највреднија највреднијих највреднију вреднијег
+12	2712	grof	grof grofe grofa grofu grofom гроф грофа grofovi grofova грофе грофу грофом грофови грофова
+13	2713	pozornik	pozorniče pozornici pozornik pozornika pozorniku pozornike pozornikom pozornicima позорниче позорници позорник позорника позорнику позорнике позорником позорницима
+14	2714	pozivati	pozivam pozivaju pozivamo pozivaš pozivanje pozivao pozivate pozivajući pozivati pozivali pozivala позивам poziva pozivaj позивају позивамо pozivan pozivani позива позиваш позивање позивао позивате позивајући позивати позивали позивала позивај позиван позивани
+15	2715	gospa	gospo gospa gospe gospu госпо gospi gospom госпа госпе госпу госпи госпом
+16	2716	rika	riki riko rika riku rikom rici рики rike рико рика рику риком рици рике
+17	2717	puls	puls pulsa пулс pulse pulsom pulsu пулса пулсе пулсом пулсу
+18	2718	romantičan	romantičan romantična romantični romantične romantičnu romantičnom romantičnije romantičnim romantičnoj romantičnih romantičnog najromantičniji najromantičnija najromantičnije романтичан романтична romantičniji романтични романтичне романтичну романтичном романтичније романтичним романтичној романтичних романтичног најромантичнији најромантичнија најромантичније романтичнији
+19	2719	filmski	filmska filmski filmske filmsku filmskom filmskih filmskoj filmskog filmskim filmsko филмске филмска филмски филмску филмском филмских филмској филмског филмским филмско
+20	2720	keš	keš kešu keša kešom кеш кешу кеша кешом
+21	2721	strpljenje	strpljenje strpljenja strpljenju strpljenjem стрпљење стрпљења стрпљењу стрпљењем
+22	2722	stoka	stoku stoke stoka stoko stokom stoci стоку стоке стока стоко стоком стоци
+23	2723	blagosloviti	blagoslovio blagoslovljeni blagoslovljena blagosloviti blagoslovite благословио blagoslovi blagoslovim blagoslovljeno blagosloviš blagoslovila blagoslovili blagoslovimo blagoslovljene blagosiljati blagoslove благослови благословљени благословљена благословити благословите благословим благословљено благословиш благословила благословили благословимо благословљене благосиљати благослове
+24	2724	ujesti	ujeo ujeda ujela ujede ujesti ujedaju ujedam ujedi ujelo ujeden ujedu ujedaš ujedena ujeli ujedem ujedeš уједа ujedao ujedaj ујео uješće ujedanje uješću ujedamo ujedati ujedeni уједе ујела ујести уједају уједам уједи ујело уједен уједу уједаш уједена ујели уједем уједеш уједао уједај ујешће уједање ујешћу уједамо уједати уједени
+25	2725	protivnik	protivnika protivnik protivnici protivnike protivniku protivnikom protivnicima противника противник protivnica противници противнике противнику противником противницима противница
+26	2726	panika	panike paniku panika panici panikom панике панику паника паници паником
+27	2727	alibi	alibi alibija алиби alibije alibiju alibijem alibiji алибија алибије алибију алибијем алибији
+28	2728	oblačiti	oblači oblačiš oblačim oblačenje oblačiti oblačite oblačio oblačila oblačimo oblačili oblače облачи oblačeći oblačile облаче облачиш облачим облачење облачити облачите облачио облачила облачимо облачили облачећи облачиле
+29	2729	kino	kinu kina kino kinom kinima кину кина кино кином кинима
+30	2730	otpor	otpora otpor otporu отпора otporom отпор отпору отпором
+31	2731	polaziti	polazi polazimo polazim polazite polaziš polaze полази polazio polazeći полазимо polazilo полазим полазите полазиш полазе полазио полазећи полазило
+32	2732	kloniti	kloni kloniš klonite klonim kloniti klonio klonimo клони klone klonila klonili клониш клоните клоним клонити клонио клонимо клоне клонила клонили
+33	2733	nećak	nećak nećaka nećaku nećače nećakom nećake nećaci нећака нећак nećaki nećako nećacima нећаку нећаче нећаком нећаке нећаци нећаки нећако нећацима
+34	2734	nežan	nežan nežna nežni nežne nežnu nežnim nežnije nežnog nežniji нежан nežnom nežnih nežnija нежна najnežniji najnežnija najnežnije нежни nežnoj nežniju нежне нежну нежним нежније нежног нежнији нежном нежних нежнија најнежнији најнежнија најнежније нежној нежнију
+35	2735	medicina	medicine medicinu medicina medicini medicinom медицине медицина медицину медицини медицином
+36	2736	tuča	tuča tuče tuču tuči tučom tučama туча туче тучу тучи тучом тучама
+37	2737	kocka	kocka kocku kocki kocke kockom kockama коцке коцка коцку коцки коцком коцкама
+38	2738	sklopiti	sklopio sklopili sklopiti sklopi sklopim sklopimo sklopila sklopljen sklopiš sklopite sklope sklopljene sklopile sklopićemo sklopljena sklopljeni sklopiću sklopljeno склопио склопили склопити склопи склопим склопимо склопила склопљен склопиш склопите склопе склопљене склопиле склопићемо склопљена склопљени склопићу склопљено
+39	2739	stalan	stalni stalna stalan stalnom stalne stalnog stalnu stalnim stalnih stalnoj стални сталном стална сталан сталне сталног сталну сталним сталних сталној
+40	2740	poštedeti	poštedi poštedeti poštedeo poštedite poštedim pošteđen poštedeću pošteđeni poštedeli poštediš pošteđena poštedela поштеди poštedimo poštede poštedećemo poštedelo poštedeće поштедети поштедео поштедите поштедим поштеђен поштедећу поштеђени поштедели поштедиш поштеђена поштедела поштедимо поштеде поштедећемо поштедело поштедеће
+41	2741	drama	drama drame dramu drami dramom dramama драме драма драму драми драмом драмама
+42	2742	čelo	čelu čelo čela челу čelom чело čelima чела челом челима
+43	2743	kokain	kokain kokaina kokainom kokainu кокаин кокаина кокаином кокаину
+44	2744	odvezati	odvezao odveži odvežite odvezati odvežeš odvežem odveže odvezala odvezaću одвезао odvežete odvezana odvežemo odvezane одвежи odvezali odvezan одвежите одвезати одвежеш одвежем одвеже одвезала одвезаћу одвежете одвезана одвежемо одвезане одвезали одвезан
+45	2745	frajer	frajer frajeru frajera frajeri frajere frajerom frajerima фрајер фрајеру фрајера фрајери фрајере фрајером фрајерима
+46	2746	najzad	najzad најзад
+47	2747	efekat	efekat efekta efekte efekti efekata efektima ефекат efektom efektu ефекта ефекте ефекти ефеката ефектима ефектом ефекту
+48	2748	uzrokovati	uzrokuje uzrokovati uzrokovalo uzrokovao uzrokovala uzrokuju uzrokovali uzrokovana uzrokujući uzrokovano uzrokovan uzrokovane uzrokovale uzrokuješ uzrokujem uzrokovani uzrokujemo узрокује узроковати узроковало узроковао узроковала узрокују узроковали узрокована узрокујући узроковано узрокован узроковане узроковале узрокујеш узрокујем узроковани узрокујемо
+49	2749	udahnuti	udahni udahnite udahnem udahnuo udahneš udahnuti udahne udahnula udahnemo удахни udahnete udahnu udahnuli udahnimo удахне удахните удахнем удахнуо удахнеш удахнути удахнула удахнемо удахнете удахну удахнули удахнимо
+50	2750	sukob	sukob sukoba sukobu sukobe sukobi sukobima сукоб sukobom сукоба сукобу сукобе сукоби сукобима сукобом
+51	2751	neophodno	neophodno неопходно
+52	2752	izdaja	izdaje izdaja izdaju izdaji izdajom издаје издаја издају издаји издајом
+53	2753	omogućiti	omogućiti omogućio omogućila omogućilo omogući omogućili omogućim omogućeno omogućimo omogućite omogućile omoguće omogućiće omogućiš омогућити omogućen omogućiću omogućivši omogućena омогућио омогућила омогућило омогући омогућили омогућим омогућено омогућимо омогућите омогућиле омогуће омогућиће омогућиш омогућен омогућићу омогућивши омогућена
+54	2754	dodirivati	dodiruj dodiruje dodirujem dodiruju dodiruješ dodirivao dodirivati dodirujte dodirivanje dodirujete dodirujemo dodirivala dodirivali dodirujući додирује додируј додирују dodirivale додирујем додирујеш додиривао додиривати додирујте додиривање додирујете додирујемо додиривала додиривали додирујући додиривале
+55	2755	odvući	odvući odvukao odvukli odvuče odvukla odvuci odvučem odvučeš odvuku odvučemo odvuklo odvučen odvucite odvučena odvučete odvlačiti odvučeni odvučeno одвући odvukle одвукао одвукли одвуче одвукла одвуци одвучем одвучеш одвуку одвучемо одвукло одвучен одвуците одвучена одвучете одвлачити одвучени одвучено одвукле
+56	2756	mornarica	mornarica mornarice mornarici mornaricu mornaricom морнарица морнарици морнарице морнарицу морнарицом
+57	2757	sudac	sudac suče suca suci sucu suce sucem sudaca sudca sucima sudče судац суче суца суци суцу суце суцем судаца судца суцима судче
+58	2758	gluma	glumi gluma glumu glume glumom глума глуми глуму глуме глумом
+59	2759	dubina	dubine dubina dubini dubinu dubinama dubinom дубина дубине дубини дубину дубинама дубином
+60	2760	otrovan	otrovan otrovni otrovna otrovne otrovno otrovnog otrovnim otrovnih otrovnu otrovnom отрован otrovnoj najotrovnijih отровни отровна отровне отровно отровног отровним отровних отровну отровном отровној најотровнијих
+61	2761	nevjerojatno	nevjerojatno невјеројатно
+62	2762	siv	sivi siva sive sivo sivu sivom sivog siv sivoj sivim sivih сива сиве сиви сиво сиву сивом сивог сив сивој сивим сивих
+63	2763	poboljšati	poboljšati poboljšanje poboljšanja poboljša poboljšao poboljšam poboljšamo poboljšala poboljšali poboljšalo poboljšaju poboljšaš poboljšanju poboljšani poboljšana poboljšan poboljšate poboljšane poboljšale poboljšano poboljšaj побољшање poboljšanjima poboljšanjem poboljšaće poboljšajte побољшати побољшања побољша побољшао побољшам побољшамо побољшала побољшали побољшало побољшају побољшаш побољшању побољшани побољшана побољшан побољшате побољшане побољшале побољшано побољшај побољшањима побољшањем побољшаће побољшајте
+64	2764	album	album albuma albumu albume albumi albumom албум албума albumima албуму албуме албуми албумом албумима
+65	2765	ponositi	ponosim ponosiš ponositi ponosio ponosimo ponosila ponosite ponosili поносим ponosi ponose поносиш поносити поносио поносимо поносила поносите поносили поноси поносе
+66	2766	izvlačiti	izvlači izvlačenje izvlačim izvlačiš izvlače izvlačimo izvlačio izvlačiti izvlačili izvlačite izvlačila izvlačeći извлачи izvlačićemo извлачење извлачим извлачиш извлаче извлачимо извлачио извлачити извлачили извлачите извлачила извлачећи извлачићемо
+67	2767	okružiti	okružen okružena okruženi okružili okruženo okružite okružio okružene okružiti okruži okružila окружен okružimo окружени окружена okružile okružim okruže окружили окружено окружите окружио окружене окружити окружи окружила окружимо окружиле окружим окруже
+68	2768	glazba	glazbu glazba glazbe glazbeni glazbi glazbom глазбу глазба глазбе глазбени глазби глазбом
+69	2769	penzija	penziju penziji penzije penzija penzijom пензију пензији penzijama пензије пензија пензијом пензијама
+70	2770	izneti	izneo izneti iznesem izneli iznese iznesi iznela iznesite iznesemo izneseš izneću iznesu iznesete iznećemo iznesimo izneto изнео iznesene iznete izneće iznesen iznet изнесем изнети изнели изнесе изнеси изнела изнесите изнесемо изнесеш изнећу изнесу изнесете изнећемо изнесимо изнето изнесене изнете изнеће изнесен изнет
+71	2771	šupak	šupak šupku šupci šupka šupaka šupkom šupke šupcima шупак šupče шупку шупци шупка шупака шупком шупке шупцима шупче
+72	2772	proslava	proslavu proslava proslavi proslave proslavom proslavama прославу прослава прославе прослави прославом прославама
+73	2773	kršiti	kršenje krši kršenja kršiš kršim krše kršite kršimo kršiti kršio kršeći kršili kršila кршење крши кршења кршиш кршим крше кршите кршимо кршити кршио кршећи кршили кршила
+74	2774	pratnja	pratnju pratnja pratnje pratnji pratnjom пратњу пратњи пратња пратње пратњом
+75	2775	drolja	drolja droljo drolje drolju droljom дроља drolji droljama дрољо дроље дрољу дрољом дрољи дрољама
+76	2776	upozoravati	upozoravam upozorava upozoravao upozoravaju upozoravala упозоравам upozoravamo upozoravaš upozoravali upozoravati upozoravajući upozoravanje upozoravate упозорава упозоравао упозоравају упозоравала упозоравамо упозораваш упозоравали упозоравати упозоравајући упозоравање упозоравате
+77	2777	vlasništvo	vlasništvo vlasništvu vlasništva власништво vlasništvom власништву власништва власништвом
+78	2778	pritvor	pritvoru pritvor pritvora притвору притвор pritvori pritvore pritvorom притвора притвори притворе притвором
+79	2779	privlačan	privlačna privlačan privlačno privlačni privlačne privlačnim privlačnom privlačniji privlačnije privlačnu privlačnog privlačnija privlačnih привлачан najprivlačnija privlačnijim najprivlačniji привлачна привлачно привлачни привлачне привлачним привлачном привлачнији привлачније привлачну привлачног привлачнија привлачних најпривлачнија привлачнијим најпривлачнији
+80	2780	kravata	kravatu kravata kravate kravatom kravati kravatama кравату кравата кравате краватом кравати краватама
+81	2781	povodom	povodom поводом
+82	2782	metal	metal metala metalom metali metale metalu metalima метал метала металом метали метале металу металима
+83	2783	veseo	vesela veseli veseo veselim vesele veselije veselu veselog veselom veselih veseliji veseloj весео veselija весели весела веселим веселе веселије веселу веселог веселом веселих веселији веселој веселија
+84	2784	smer	smeru smer smera smerom smerovima смеру smerova смер смера смером смеровима смерова
+85	2785	užas	užas užasa užase užasom ужас užasi užasu užasima ужаса ужасе ужасом ужаси ужасу ужасима
+86	2786	pasoš	pasoš pasoše pasoša pasoši pasošem pasošu пасош pasošima пасоше пасоша пасоши пасошем пасошу пасошима
+87	2787	gornji	gornji gornjem gornje gornjoj gornja gornjeg gornju gornjim gornjih горњи gornjom горњем горњој горње горња горњег горњу горњим горњих горњом
+88	2788	godišnje	godišnje годишње
+89	2789	silovanje	silovanje silovanja silovanju silovanjem силовање силовања silovanjima силовању силовањем силовањима
+90	2790	španski	španski španskom španskog španske španska špansku španskim španskih špansko španskoj шпански шпанском шпанског шпанске шпанска шпанску шпанским шпанских шпанско шпанској
+91	2791	pripremati	pripremam pripremaju pripremao pripremamo pripremali pripremaš pripremala pripremati pripremate pripremajući pripremanje припремају pripremale pripremaj припремам припремао припремамо припремали припремаш припремала припремати припремате припремајући припремање припремале припремај
+92	2792	džungla	džungli džungle džunglu džungla džunglama džunglom џунгли џунглу џунгле џунгла џунглама џунглом
+93	2793	onakav	onakav onakva onakve onakvu onakvog onakvim onakvi onakvo onakvom onakvima onakvih onakvoj онаква онакав онакве онакву онаквог онаквим онакви онакво онаквом онаквима онаквих онаквој
+94	2794	reputacija	reputaciju reputacija reputaciji reputacije reputacijom репутацију репутација репутацији репутације репутацијом
+95	2795	lutati	luta lutaju lutao lutam lutaš lutati lutajući lutali lutala lutamo lutanje lutate lutale лута lutaj лутају лутао лутам луташ лутати лутајући лутали лутала лутамо лутање лутате лутале лутај
+96	2796	kuvar	kuvar kuvara kuvaru kuvari kuvare кувар kuvarom kuvarima кувара кувари кувару куваре куваром куварима
+97	2797	patrola	patrola patrole patrolu patroli patrolama patrolom патроле патролу патрола патроли patrolo патролама патролом патроло
+98	2798	sagraditi	sagradio sagradili sagraditi sagrađena sagradi sagrađen sagradimo sagradim sagrade sagradila sagrađeno sagradiš sagradiću sagradićemo sagradite sagrađene саградио sagrađeni саградили саградити саграђена сагради саграђен саградимо саградим саграде саградила саграђено саградиш саградићу саградићемо саградите саграђене саграђени
+99	2799	prijateljski	prijateljski prijateljska prijateljsko prijateljske prijateljsku prijateljskim prijateljskom prijateljskog prijateljskoj пријатељски prijateljskih пријатељска пријатељско пријатељске пријатељску пријатељским пријатељском пријатељског пријатељској пријатељских
+100	2800	suzan	suzan сузан suzne сузне

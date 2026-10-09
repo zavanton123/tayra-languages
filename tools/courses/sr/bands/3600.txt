@@ -1,0 +1,100 @@
+1	3501	isporučiti	isporučiti isporuči isporučim isporučio isporučimo isporučen isporučiš isporučili isporučite isporučeno isporučena isporuče isporučila isporučene isporučeni isporučiću испоручи isporučićemo испоручити испоручим испоручио испоручимо испоручен испоручиш испоручили испоручите испоручено испоручена испоруче испоручила испоручене испоручени испоручићу испоручићемо
+2	3502	zakletva	zakletvu zakletvom zakletva zakletve zakletvi заклетву заклетвом заклетва заклетве заклетви
+3	3503	hvaliti	hvalim hvalio hvaljen hvališ hvaliti hvalite hvalila hvalili hvalimo hvaljena hvaleći hvaljeni hvaljenje hvaljeno hvali hvale хвалим хвалио хваљен хвалиш хвалити хвалите хвалила хвалили хвалимо хваљена хвалећи хваљени хваљење хваљено хвали хвале
+4	3504	munja	munja munje munju munjo munjom munjama муња munji муње муњу муњо муњом муњама муњи
+5	3505	odanost	odanost odanosti odanošću оданост оданости оданошћу
+6	3506	divlje	divlje дивље
+7	3507	lukav	lukav lukavo lukavi lukava lukave lukaviji lukavog lukavim лукав lukavih лукаво lukavu lukavije лукави najlukaviji лукава лукаве лукавији лукавог лукавим лукавих лукаву лукавије најлукавији
+8	3508	pozornica	pozornice pozornicu pozornici pozornica pozornicom позорницу позорници позорнице позорница позорницом
+9	3509	mafija	mafija mafije mafiju mafijom mafiji мафија мафије мафију мафијом мафији
+10	3510	saobraćaj	saobraćaj saobraćaju saobraćaja саобраћај saobraćajem саобраћају саобраћаја саобраћајем
+11	3511	vojvoda	vojvoda vojvode vojvodu vojvodo vojvodi vojvodom војвода војводе војводу војводо војводи војводом
+12	3512	obje	obje objema obiju обје објема обију
+13	3513	švedski	švedski švedskoj švedske švedsku švedska švedskom švedskog švedskim švedsko švedskih шведској шведски шведске шведску шведска шведском шведског шведским шведско шведских
+14	3514	ovisiti	ovisi ovise ovisiti ovisimo ovisilo ovisio ovisim ovisili овиси овисе овисити овисимо овисило овисио овисим овисили
+15	3515	locirati	locirali locirati lociramo locirao lociran lociram lociranje lociraj locira locirana lociraju locirala lociraš locirajte locirate locirani locirano locirane лоцирали лоцирати лоцирамо лоцирао лоциран лоцирам лоцирање лоцирај лоцира лоцирана лоцирају лоцирала лоцираш лоцирајте лоцирате лоцирани лоцирано лоциране
+16	3516	odleteti	odleteo odleti odleteti odletela odleteli odlete odletimo odletim odletiš odletite odletelo odletele odleteće odletećemo odleteću odletećeš одлетео одлети одлетети одлетела одлетели одлете одлетимо одлетим одлетиш одлетите одлетело одлетеле одлетеће одлетећемо одлетећу одлетећеш
+17	3517	vjenčati	vjenčati vjenčani vjenčali vjenčamo vjenčao vjenčaju vjenčate vjenča vjenčana vjenčajmo vjenčane vjenčan vjenčaš vjenčam vjenčaćemo vjenčajte вјенчати вјенчани вјенчали вјенчамо вјенчао вјенчају вјенчате вјенча вјенчана вјенчајмо вјенчане вјенчан вјенчаш вјенчам вјенчаћемо вјенчајте
+18	3518	kondom	kondom kondome kondoma kondomi kondomima kondomom кондом kondomu кондоме кондома кондоми кондомима кондомом кондому
+19	3519	inteligencija	inteligencije inteligenciju inteligencija inteligencijom inteligenciji интелигенција интелигенције интелигенцију интелигенцијом интелигенцији
+20	3520	bedan	bedni bedna bedan bedne bednih bednog bednu bednom bednim bednoj najbedniji бедни бедна бедан бедне бедних бедног бедну бедном бедним бедној најбеднији
+21	3521	kriminalan	kriminalni kriminalne kriminalno kriminalna kriminalnog kriminalnu kriminalnih kriminalnim kriminalnom kriminalnoj kriminalan криминални криминалне криминално криминална криминалног криминалну криминалних криминалним криминалном криминалној криминалан
+22	3522	prenijeti	prenijeti prenesem prenesi prenese prenio prenesite prenijet preneseš prenesemo prenesete prenijela prenesu prenijeli prenesimo пренесем пренесе пренеси пренесите пренијети пренио пренијет пренесеш пренесемо пренесете пренијела пренесу пренијели пренесимо
+23	3523	doušnik	doušnik doušnika doušnike doušnici doušnikom doušniku doušnicima доушник доушника доушнике доушници доушником доушнику доушницима
+24	3524	nameštaj	nameštaj nameštaja nameštaju nameštajem намештај намештаја намештају намештајем
+25	3525	zubar	zubara zubar zubaru zubari zubarom zubare зубар зубара zubarima зубару зубари зубаром зубаре зубарима
+26	3526	nacist	nacisti nacista naciste nacistima nacist nacistu нацисти nacistom нациста нацисте нацистима нацист нацисту нацистом
+27	3527	pruga	pruge pruga prugu pruzi prugama prugom пруге пруга пругу прузи пругама пругом
+28	3528	građanski	građanski građanskog građanska građanskom građanske građanskih građansku građanskim građansko građanskoj грађански грађанског грађанска грађанском грађанске грађанских грађанску грађанским грађанско грађанској
+29	3529	načelnik	načelnik načelnika načelniče načelniku načelnikom начелник načelnici начелника начелниче начелнику начелником начелници
+30	3530	osramotiti	osramotio osramotiti osramotila osramoćen osramotim osramoti osramotiš osramoćena osramotili osramoćeni osramotite osramoćeno osramotimo osramote osramotilo osramotićeš осрамотио осрамотити осрамотила осрамоћен осрамотим осрамоти осрамотиш осрамоћена осрамотили осрамоћени осрамотите осрамоћено осрамотимо осрамоте осрамотило осрамотићеш
+31	3531	fotograf	fotograf fotografa fotografi fotografe fotografom fotografu фотограф fotografima фотографа фотографи фотографе фотографом фотографу фотографима
+32	3532	bratstvo	bratstvo bratstva bratstvu bratstvom братство bratstava братства bratstvima братству братством братстава братствима
+33	3533	turist	turista turisti turiste turistima turist turistu туриста туристи туристе туристима турист туристу
+34	3534	ostavka	ostavku ostavka ostavke оставку ostavci ostavkom оставка оставке оставци оставком
+35	3535	izbiti	izbio izbila izbije izbiti izbijem izbili izbiće izbij izbiju izbiću izbiješ izbilo izbijemo izbile избио izbi избила избије избити избијем избили избиће избиј избију избићу избијеш избило избијемо избиле изби
+36	3536	vol	vole vol vola воле volovi вол volu volove volova volom вола волови волу волове волова волом
+37	3537	ukazati	ukaže ukazala ukazao ukazati ukazali ukažem ukazalo ukažeš ukažu ukaži ukažemo ukazano ukažete ukazana ukažite ukaza ukazale укаже ukazanje ukazaće указала указао указати указали укажем указало укажеш укажу укажи укажемо указано укажете указана укажите указа указале указање указаће
+38	3538	ružno	ružno ружно
+39	3539	kilogram	kilograma kilogram kilogramu килограма kilograme kilogrami килограм килограму килограме килограми
+40	3540	suma	sumu suma sume sumi sumo sumom sumama суму сумо сума суме суми сумом сумама
+41	3541	dvanaest	dvanaest дванаест
+42	3542	hotelski	hotelskoj hotelsku hotelski hotelske hotelskom hotelska hotelskog hotelskim hotelsko hotelskih хотелској хотелску хотелски хотелске хотелском хотелска хотелског хотелским хотелско хотелских
+43	3543	romantično	romantično романтично
+44	3544	сећати	сећам сећаш сећате сећа сећати сећају
+45	3545	nebitan	nebitno nebitan nebitna nebitni nebitne nebitnim небитно nebitnih небитан небитна небитни небитне небитним небитних
+46	3546	moralan	moralni moralna moralne moralnu moralnih moralnim moralnog moralan moralnom moralnoj морални морална моралне моралну моралних моралним моралног моралан моралном моралној
+47	3547	podijeliti	podijeliti podijeli podijelimo podijelio podijelili podijelite podijelim podijeljena podijelila podijeliš podijeljen podijeljeni podijeljeno podijeljene podijele подијелити подијели подијелимо подијелио подијелили подијелите подијелим подијељена подијелила подијелиш подијељен подијељени подијељено подијељене подијеле
+48	3548	kas	kasi kasu kas kase kasa kasom каси касу кас касе каса касом
+49	3549	buditi	budim budiš buditi budio budila bude budili budi будим budeći budite budimo буде буди будите будимо будиш будити будио будила будили будећи
+50	3550	prilaziti	prilazite prilazi prilazim prilazimo prilaziš prilaziti prilazio prilaze prilazili prilazila прилазите прилази прилазим прилазимо прилазиш прилазити прилазио прилазе прилазили прилазила
+51	3551	depresija	depresije depresiju depresija depresiji depresijom депресију депресије депресија депресији депресијом
+52	3552	navesti	naveo navesti navela naveden navedene navešću navešćemo навео навести навела наведен наведене навешћу навешћемо
+53	3553	uzak	usko uske uska uzak uski uskim uži usku uskom uskoj užem uskih uskog uža užeg najuži уско уске уска узак уски уским ужи уску уском уској ужем уских уског ужа ужег најужи
+54	3554	poniziti	ponizio ponižen ponižena ponizila ponizi poniziti ponizili poniziš poniženi ponizim poniženo ponize ponizite ponižene ponizimo ponizilo понизио понижен понижена понизила понизи понизити понизили понизиш понижени понизим понижено понизе понизите понижене понизимо понизило
+55	3555	trauma	trauma traume traumu traumi траума traumom трауме traumama трауму трауми траумом траумама
+56	3556	prizor	prizor prizora prizori prizore prizoru призор prizorom prizorima призора призори призоре призору призором призорима
+57	3557	figura	figura figure figuru figurom figurama фигура figuri фигуре фигуру фигуром фигурама фигури
+58	3558	nasmešiti	nasmeši smeši smešiš nasmešite nasmešila nasmešio smešite smešim smešio smešila nasmešiš nasmešiti smešiti nasmešim smešeći смеши smešimo nasmešili smeše насмеши смешиш насмешите насмешила насмешио смешите смешим смешио смешила насмешиш насмешити смешити насмешим смешећи смешимо насмешили смеше
+59	3559	utočište	utočište utočišta utočištu уточиште utočištem уточишта уточишту уточиштем
+60	3560	parfem	parfem parfema parfeme parfemom parfemi парфем parfemima parfemu парфема парфеме парфемом парфеми парфемима парфему
+61	3561	komisija	komisija komisije komisiju komisiji komisijom комисија комисије комисију комисији комисијом
+62	3562	izdanje	izdanje izdanju izdanja издање izdanjem izdanjima издању издања издањем издањима
+63	3563	guraj	guraj гурај
+64	3564	sloj	sloj slojeva sloja slojeve slojevi slojevima slojem sloju слој слојева слоја слојеве слојеви слојевима слојем слоју
+65	3565	zasluga	zasluge zasluga zaslugom zaslugu zaslugama zasluzi заслуге заслуга заслугом заслугу заслугама заслузи
+66	3566	nebeski	nebeski nebesko nebeska nebeskog nebeskom nebeske nebeskih nebeskim nebesku nebeskoj небески небеско небеска небеског небеском небеске небеских небеским небеску небеској
+67	3567	konzerva	konzerve konzervu konzervi konzerva konzervama konzervom конзерве конзерву конзерви конзерва конзервама конзервом
+68	3568	sajt	sajt sajtu sajta sajtove sajtova sajtovima сајт sajtovi сајту sajtom сајта сајтове сајтова сајтовима сајтови сајтом
+69	3569	jeziv	jeziv jeziva jezivi jezive jezivog jezivu jezivim jezivom jezivih jezivoj jezivije језива jeziviji језив језиви језиве језивог језиву језивим језивом језивих језивој језивије језивији
+70	3570	leteći	leteći leteća leteće letećih letećim letećeg letećem leteću летећи letećoj летеће летећа летећих летећим летећег летећем летећу летећој
+71	3571	čudesan	čudesna čudesan čudesni čudesne čudesnu čudesnog čudesnom čudesnim čudesnih čudesnoj najčudesnije najčudesnija najčudesniji чудесна чудесан чудесни чудесне чудесну чудесног чудесном чудесним чудесних чудесној најчудесније најчудеснија најчудеснији
+72	3572	vladin	vladin vladine vladina vladinih vladini vladinim vladinu vladinom vladinoj vladino владин владине владина владиних владини владиним владину владином владиној владино
+73	3573	diplomirati	diplomirao diplomirala diplomiram diplomirati diplomirali diplomiraš diplomira diplomiranje diplomiraju diplomiraću diplomiramo diplomirate дипломирао дипломирала дипломирам дипломирати дипломирали дипломираш дипломира дипломирање дипломирају дипломираћу дипломирамо дипломирате
+74	3574	popustiti	popustiti popustio popustila popusti popustiš popustim popustili popustite popustimo popuste popustilo popustile popustiće popustiću попустити попусти попустио попустила попустиш попустим попустили попустите попустимо попусте попустило попустиле попустиће попустићу
+75	3575	lediti	ledi леди lede леде
+76	3576	televizor	televizor televizora televizorom televizoru televizore televizori телевизор televizorima телевизора телевизором телевизору телевизоре телевизори телевизорима
+77	3577	lagan	lagan lagani lagana lagane laganu laganim laganog laganom laganije laganih laganoj лаган лагани лагана лагане лагану лаганим лаганог лаганом лаганије лаганих лаганој
+78	3578	popravak	popravke popravku popravak popravka popravci popravkom popravaka поправке поправка поправку popravcima поправак поправци поправком поправака поправцима
+79	3579	praksa	praksu prakse praksa praksi praksom пракса пракси праксу праксе праксом
+80	3580	odstupiti	odstupi odstupite odstupiti odstupiš odstupim odstupe odstupio odstupimo одступите одступи odstupili odstupila одступити одступиш одступим одступе одступио одступимо одступили одступила
+81	3581	radar	radar radara radaru radare radarom radari radarima радара радар радару радаре радаром радари радарима
+82	3582	dosaditi	dosadilo dosadio dosadila dosaditi dosadili dosade dosadi dosadile dosadim dosadiće досадило досаде досадио досадила досадити досадили досади досадиле досадим досадиће
+83	3583	mužjak	mužjak mužjaci mužjaka mužjake mužjacima mužjaku mužjakom мужјак мужјаци мужјака мужјаке мужјацима мужјаку мужјаком
+84	3584	krajnje	krajnje крајње
+85	3585	povrće	povrće povrća povrćem povrću поврће поврћа поврћем поврћу
+86	3586	služben	službeni službena službenu službene službenom službenim službenog službenoj službenih služben службени службена службену службене службеном службеним службеног службеној службених службен
+87	3587	manijak	manijak manijaka manijače manijaci manijakom manijaku манијак manijake manijacima манијака манијаче манијаци манијаком манијаку манијаке манијацима
+88	3588	odlučan	odlučan odlučna odlučno odlučni odlučne odlučniji odlučnu odlučnog одлучан odlučnim odlučnije odlučnom одлучна одлучно одлучни одлучне одлучнији одлучну одлучног одлучним одлучније одлучном
+89	3589	lan	lana lan lanu lanom лана лан лану ланом
+90	3590	ustanova	ustanova ustanovu ustanovi ustanove ustanovama ustanovom установа установе установу установи установама установом
+91	3591	skandal	skandal skandala skandalu skandale skandali скандал skandalom skandalima скандала скандалу скандале скандали скандалом скандалима
+92	3592	rušiti	ruši rušenje ruše rušiti rušim rušiš rušimo rušio rušite rušili rušeći руши рушење rušila руше рушити рушим рушиш рушимо рушио рушите рушили рушећи рушила
+93	3593	zadnjica	zadnjicu zadnjice zadnjica zadnjici zadnjicom задњицу zadnjicama задњице задњица задњици задњицом задњицама
+94	3594	ranjiv	ranjiv ranjiva ranjivi ranjivo ranjivim ranjive najranjiviji ranjivom ranjivu ranjiviji najranjivije najranjivija ranjivog рањив ranjivima рањива ranjivija ranjivih рањиви рањиво рањивим рањиве најрањивији рањивом рањиву рањивији најрањивије најрањивија рањивог рањивима рањивија рањивих
+95	3595	tuširati	tuširanje tušira tuširam tuširao tuširaš tuširati tuširala tuširaju tuširamo tuširali tuširate tuširaj туширање тушира туширам туширао тушираш туширати туширала туширају туширамо туширали туширате туширај
+96	3596	dodeliti	dodeljen dodeli dodelio dodeljena dodele dodelili dodeliti dodeljeni dodeljeno dodelila dodelim dodeljene dodeliću dodelite dodelimo додељен dodeliće додели доделио додељена доделе доделили доделити додељени додељено доделила доделим додељене доделићу доделите доделимо доделиће
+97	3597	spas	spas spasa spasu spase спас спасу спасе спаса
+98	3598	potvrđivati	potvrđuje potvrđuju potvrđujem potvrđujemo potvrđujete potvrđuješ potvrđivanje потврђује potvrđujući потврђују потврђујем потврђујемо потврђујете потврђујеш потврђивање потврђујући
+99	3599	sram	sram srama sramu срам sramom srame срама сраму срамом сраме
+100	3600	pretraga	pretragu pretrage pretraga pretragom pretrazi претрагу pretragama претрага претраге претрагом претрази претрагама

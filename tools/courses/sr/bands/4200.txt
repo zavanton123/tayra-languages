@@ -1,0 +1,100 @@
+1	4101	krajnji	krajnji krajnja krajnjem krajnjih krajnju krajnjoj krajnjeg krajnjim крајњи krajnjom крајња крајњем крајњих крајњу крајњој крајњег крајњим крајњом
+2	4102	udružiti	udružimo udružili udružio udružiti udruže udruženi udružila udruži udružite udružile udružene udružiš udružim udružen udružena udruženo удружимо удружили удружио удружити удруже удружени удружила удружи удружите удружиле удружене удружиш удружим удружен удружена удружено
+3	4103	inspiracija	inspiracija inspiraciju inspiracije инспирација inspiraciji инспирацију inspiracijom инспирације инспирацији инспирацијом
+4	4104	ego	ego ega egu egom его ега егу егом
+5	4105	bradavica	bradavice bradavica bradavicu bradavicama bradavici брадавице bradavicom брадавица брадавицу брадавицама брадавици брадавицом
+6	4106	domovina	domovinu domovini domovine domovina domovinom домовину домовини домовине домовина домовином
+7	4107	veštački	veštački veštačko veštačke veštačka veštačku veštačkim veštačkom veštačkog veštačkih veštačkoj вештачко вештачки вештачке вештачка вештачку вештачким вештачком вештачког вештачких вештачкој
+8	4108	sako	sako sakou sakoa sakoe sakoom сако sakoi сакоу сакоа сакое сакоом сакои
+9	4109	otkinuti	otkinuo otkinuti otkinuću otkinem otkine otkinula otkinut otkineš otkini otkinuta otkinuli otkinu otkinuće otkinulo otkinemo otkinute otkinuto откинуо откинути откинућу откинем откине откинула откинут откинеш откини откинута откинули откину откинуће откинуло откинемо откинуте откинуто
+10	4110	ološ	ološ ološu ološa ološem ološi олош ološe ološima олошу олоша олошем олоши олоше олошима
+11	4111	natpis	natpis natpisom natpisa natpise natpisi natpisu natpisima натпис натписом натписа натписе натписи натпису натписима
+12	4112	istraživač	istraživač istraživači istraživača istraživačima istraživače istraživaču истраживачи истраживач истраживача истраживачима истраживаче истраживачу
+13	4113	potok	potok potoka potoku potoci potocima potoke потока поток potokom потоку потоци потоцима потоке потоком
+14	4114	dirnuti	dirnut dirnuo dirnuta dirnuti dirnula dirne dirnulo dirneš dirnuli dirni dirnem dirnu дирнут дирнуо дирнута дирнути дирнула дирне дирнуло дирнеш дирнули дирни дирнем дирну
+15	4115	mast	masti mast mašću масти mastima маст машћу мастима
+16	4116	utrka	utrka utrke utrku utrci utrkama утрка утрке утрку утрци утркама
+17	4117	bačiti	bačena bačen bačeno bačeni bačene бачена бачен бачено бачени бачене
+18	4118	ilegalan	ilegalne ilegalni ilegalnih ilegalna ilegalnog ilegalnim ilegalnu ilegalan ilegalnom ilegalnoj илегалне илегални илегалних илегална илегалног илегалним илегалну илегалан илегалном илегалној
+19	4119	vreo	vrele vreo vreli vrela vrelog vrelim vrelih vreloj vrelu vrelije vrelom vrelija vreliji najvrelije najvrelija врела вреле врео врели врелог врелим врелих врелој врелу врелије врелом врелија врелији најврелије најврелија
+20	4120	motati	mota motaju motao motaš motaj motam motati motala motalo motate motali motanje мота motamo мотају мотао моташ мотај мотам мотати мотала мотало мотате мотали мотање мотамо
+21	4121	boljeti	boli boljeti boljelo bole boljela bolio боли боле бољети бољело бољела болио
+22	4122	krasan	krasan krasna krasne krasnu krasni krasnog krasnom krasnih krasnim krasnoj красан красна красне красну красни красног красном красних красним красној
+23	4123	neprestano	neprestano непрестано
+24	4124	pingvin	pingvini pingvin pingvina pingvine pingvinima pingvinu pingvinom пингвин пингвина пингвини пингвине пингвинима пингвину пингвином
+25	4125	prima	prima прима
+26	4126	platforma	platformu platformi platforme platforma platformom platformama платформа платформи платформу платформе платформом платформама
+27	4127	poređenje	poređenju poređenje poređenja поређењу poređenjem поређење поређења поређењем
+28	4128	pirat	pirati pirat pirata pirate piratima piratu пирати пират пирата пирате пиратима пирату
+29	4129	povezanost	povezanost povezanosti повезаност повезаности
+30	4130	kresati	kreše krešeš kresao kresanje krešem krešu kresala kresali krešemo kresati krešete kreši креше крешеш кресао кресање крешем крешу кресала кресали крешемо кресати крешете креши
+31	4131	velikodušan	velikodušan velikodušna velikodušni velikodušnu velikodušne velikodušnog velikodušnom великодушан velikodušnim velikodušnoj великодушно великодушна великодушни великодушну великодушне великодушног великодушном великодушним великодушној
+32	4132	ukinuti	ukinuti ukinuli ukinuo ukine ukinuta ukinut ukinu ukinemo ukinula ukinuto ukinem ukinute ukinite ukinete ukinuću ukini ukinuće ukineš укинути укинули укинуо укине укинута укинут укину укинемо укинула укинуто укинем укинуте укините укинете укинућу укини укинуће укинеш
+33	4133	evro	evra евра evro evre evrima evri евро евре еврима еври
+34	4134	lula	lulu lula lule luli lulom лулу лула луле лули лулом
+35	4135	zemaljski	zemaljske zemaljski zemaljska zemaljskih zemaljskog zemaljskoj zemaljskim zemaljsko zemaljskom zemaljsku земаљске земаљски земаљска земаљских земаљског земаљској земаљским земаљско земаљском земаљску
+36	4136	živjeli	živjeli живјели
+37	4137	sumrak	sumraka sumrak sumraku сумрак сумрака сумраку
+38	4138	osobina	osobine osobina osobinu osobinama особине особина особину особинама
+39	4139	blokada	blokadu blokada blokade blokadi блокада blokadom blokadama блокаду блокаде блокади блокадом блокадама
+40	4140	plač	plač plačem plača plaču плач плачем плачу плача
+41	4141	skener	skener skeneri skenera skeneru skenere skenerima skenerom скенер скенери скенера скенеру скенере скенерима скенером
+42	4142	šal	šal šale šalu шал šalom šalovi šalove шале шалу шалом шалови шалове
+43	4143	zavaravati	zavaravam zavaravaš zavaravati zavaravaj zavaravamo zavarava zavaravao zavaravate zavaravanje zavaravajte zavaravaju zavaravala zavaravali zavaravajmo заваравам завараваш заваравати заваравај заваравамо заварава заваравао заваравате заваравање заваравајте заваравају заваравала заваравали заваравајмо
+44	4144	pero	pero pera perom peru перо perima пера перу пером перима
+45	4145	latinski	latinski latinskom latinskog latinske latinskoj latinska latinsku latinskim latinsko latinskih латински латинска латинском латинског латинске латинској латинску латинским латинско латинских
+46	4146	doseliti	doselio doselila doselili doseli doseliti doseliš doselim doselile dosele доселио доселила доселили досели доселити доселиш доселим доселиле доселе
+47	4147	šunka	šunku šunka šunke šunkom šunki шунка шунку шунке шунком шунки
+48	4148	krivnja	krivnja krivnju krivnje krivnjom krivnji кривња кривњу кривње кривњом кривњи
+49	4149	orkestar	orkestar orkestra orkestru orkestrom orkestara оркестар orkestre orkestri оркестра оркестру оркестром оркестара оркестре оркестри
+50	4150	senat	senat senatu senata senatom сенат сената сенату сенатом
+51	4151	klasik	klasika klasik klasike klasiku klasici klasicima klasikom класика класик класике класику класици класицима класиком
+52	4152	pesnik	pesnik pesnika pesnici pesnike pesnicima pesniče песник pesniku pesnikom песника песници песнике песницима песниче песнику песником
+53	4153	kritika	kritike kritika kritiku kritikama kritici kritikom критике критика критику критикама критици критиком
+54	4154	zločest	zločesti zločesta zločest zločesto zločeste zločestog zločestih zločestu zločestim zločestom злочести злочеста злочест злочесто злочесте злочестог злочестих злочесту злочестим злочестом
+55	4155	sastojak	sastojak sastojke sastojci sastojaka sastojka sastojcima sastojkom састојак састојке састојци састојака састојка састојцима састојком
+56	4156	podsjetiti	podsjeti podsjetiti podsjetim podsjetilo podsjetio podsjetila podsjetite podsjetimo podsjetili podsjete подсјети подсјетити подсјетим подсјетило подсјетио подсјетила подсјетите подсјетимо подсјетили подсјете
+57	4157	perika	periku perika perike perikom perikama perici перику перика перике периком перикама перици
+58	4158	glupav	glupavo glupavi glupava glupave glupav glupavu glupavim glupavog glupavih glupavom glupavoj глупаво глупави глупава глупаве глупав глупаву глупавим глупавог глупавих глупавом глупавој
+59	4159	doslovno	doslovno дословно
+60	4160	zavet	zavet zavete zaveta zavetu zaveti zavetima zavetom завет завете завета завету завети заветима заветом
+61	4161	krtica	krtica krticu krtice кртица krticom krtici кртицу krticama кртице кртицом кртици кртицама
+62	4162	osušiti	osuši osušiti osušila osušim osuše osušio osušilo osušena osušiš osušite osušene osušimo osušile osušili osušiće osušeni osušeno осуши osušen osušiću осушити осушила осушим осуше осушио осушило осушена осушиш осушите осушене осушимо осушиле осушили осушиће осушени осушено осушен осушићу
+63	4163	decembar	decembra decembar decembru децембар dec децембра децембру дец
+64	4164	musliman	muslimani musliman muslimana muslimane muslimanima муслимани муслиман муслимана муслимане муслиманима
+65	4165	letelica	letelica letelice letelicu letelici letelicom letelicama летелица летелице летелицу летелици летелицом летелицама
+66	4166	onamo	onamo онамо
+67	4167	poduzeti	poduzeti poduzeo poduzeće poduzeća poduzeli poduzmi poduzmemo poduzmem poduzme poduzela poduzmeš poduzmite poduzet poduzimati poduzeću poduzete poduzmete poduzmu подузети подузео подузеће подузећа подузели подузми подузмемо подузмем подузме подузела подузмеш подузмите подузет подузимати подузећу подузете подузмете подузму
+68	4168	terapeut	terapeut terapeuta terapeutom terapeutu terapeuti терапеут terapeute терапеута терапеутом терапеуту терапеути терапеуте
+69	4169	нама	нама
+70	4170	nežno	nežno нежно
+71	4171	carski	carski carske carska carskog carsko carsku carskom carskim carskoj carskih царски царског царске царска царско царску царском царским царској царских
+72	4172	unaokolo	unaokolo унаоколо
+73	4173	tenis	tenis tenisa tenisu тенис tenisom тениса тенису тенисом
+74	4174	disciplina	disciplina discipline disciplinu disciplini disciplinom disciplinama дисциплина дисциплине дисциплину дисциплини дисциплином дисциплинама
+75	4175	stanar	stanara stanar stanari stanare stanarima stanaru stanarom станар станара станари станаре станарима станару станаром
+76	4176	koncept	koncept koncepta konceptu konceptom koncepte koncepti концепт koncepata концепта концепту концептом концепте концепти концепата
+77	4177	razdvajati	razdvajanje razdvaja razdvajaju razdvajamo razdvajati раздвајање razdvajam razdvajali razdvajajte razdvajate razdvajala razdvajaš razdvajao раздваја раздвајају раздвајамо раздвајати раздвајам раздвајали раздвајајте раздвајате раздвајала раздвајаш раздвајао
+78	4178	udaja	udaje udaja udaji udajom udaju удаје удаја удаји удајом удају
+79	4179	zuriti	zuri zuriš zure zurio zurim zuriti zurila zurite zurili zurimo zureći zurenje зури зуриш зуре зурио зурим зурити зурила зурите зурили зуримо зурећи зурење
+80	4180	granata	granata granate granatu granatama granatom гранате граната гранату гранатама гранатом
+81	4181	glupača	glupačo glupača glupaču glupače glupačom глупачо glupači глупача глупачу глупаче глупачом глупачи
+82	4182	koplje	koplje koplja kopljem kopljima копље kopalja копља koplju копљем копљима копаља копљу
+83	4183	metro	metro metrou metroa metroom метро метроу метроа метроом
+84	4184	dlan	dlan dlanu dlana dlanove dlanovi dlanovima dlanom dlanova длан длану длана дланове дланови длановима дланом дланова
+85	4185	glasanje	glasanje glasanja glasanju glasanjem гласање гласања гласању гласањем
+86	4186	uistinu	uistinu уистину
+87	4187	opstanak	opstanak opstanka opstanku опстанак opstankom опстанка опстанку опстанком
+88	4188	sadržaj	sadržaj sadržaja sadržaju sadržajem садржај sadržaje садржаја садржају садржајем садржаје
+89	4189	prestraviti	prestravljen prestravljena prestravio prestravljeni prestravila prestravilo prestravljeno prestravi prestravili престрављен prestraviti prestravim prestravljene престрављена престравио престрављени престравила престравило престрављено престрави престравили престравити престравим престрављене
+90	4190	smanjivati	smanjuje smanjuju smanjivanje smanjujem smanjujemo smanjivati smanjuješ smanjivao смањује smanjujući smanjujete smanjivala smanjivali смањују смањивање смањујем смањујемо смањивати смањујеш смањивао смањујући смањујете смањивала смањивали
+91	4191	nezavisan	nezavisna nezavisni nezavisne nezavisan nezavisnu nezavisnih nezavisnog nezavisnim nezavisnom независна независни nezavisnoj независне независан независну независних независног независним независном независној
+92	4192	pečat	pečat pečata pečatom pečate печат pečati pečatu печата печатом печате печати печату
+93	4193	nosač	nosač nosača nosači nosaču nosače nosačima nosačem носача носач носачи носачу носаче носачима носачем
+94	4194	obogatiti	obogatiti obogatio obogatili obogati obogatiš obogatim obogatimo obogatila obogate obogatite obogatićemo obogatiću obogaćeni obogaćena obogatilo обогатио obogaćen обогатити обогатили обогати обогатиш обогатим обогатимо обогатила обогате обогатите обогатићемо обогатићу обогаћени обогаћена обогатило обогаћен
+95	4195	ozdraviti	ozdravi ozdraviti ozdraviš ozdravio ozdravila ozdravim ozdravite ozdrave ozdravili оздрави оздравити оздравиш оздравио оздравила оздравим оздравите оздраве оздравили
+96	4196	sutrašnji	sutrašnji sutrašnje sutrašnjeg sutrašnju sutrašnjem sutrašnjim sutrašnjoj sutrašnja sutrašnjih сутрашњи сутрашње сутрашњег сутрашњу сутрашњем сутрашњим сутрашњој сутрашња сутрашњих
+97	4197	razina	razinu razini razina razine razinama razinom разину разини разина разине разинама разином
+98	4198	kašika	kašiku kašika kašike kašikom kašičica kašičicu kašičice kašikama kašičicom кашика кашику кашике кашиком кашичица кашичицу кашичице кашикама кашичицом
+99	4199	ugovoriti	ugovorio ugovoriti ugovorim ugovorila ugovorili ugovoren ugovorimo ugovoreno ugovoreni ugovorite ugovoriću ugovoriš ugovorene ugovorena ugovore ugovori уговоре уговорио уговорити уговорим уговорила уговорили уговорен уговоримо уговорено уговорени уговорите уговорићу уговориш уговорене уговорена уговори
+100	4200	delfin	delfina delfini delfin delfine delfinima delfinu delfinom делфина делфини делфин делфине делфинима делфину делфином

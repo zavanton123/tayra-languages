@@ -1,0 +1,100 @@
+1	6301	rastanak	rastanak rastanka rastanku rastanke rastanci растанак растанка растанку растанке растанци
+2	6302	ruž	ruž ružu ružem руж ружу ружем
+3	6303	dobavljač	dobavljača dobavljač dobavljači dobavljače dobavljačima dobavljačem dobavljaču добављача добављач добављачи добављаче добављачима добављачем добављачу
+4	6304	urban	urbana urbani urbane urban urbanog urbano urbanu urbanim urbanom urbanih urbanoj урбана урбани урбане урбан урбаног урбано урбану урбаним урбаном урбаних урбаној
+5	6305	sestrica	sestrice sestrica sestricu sestrici sestricom сестрице сестрица сестрицу сестрици сестрицом
+6	6306	promisliti	promisli promislio promislim promisliti promisliš promislila promislite promislimo promislili промисли промислио промислим промислити промислиш промислила промислите промислимо промислили
+7	6307	zataškati	zataška zataškati zataškao zataškali zataškaju zataškano zataškaš zataškamo zataškala zataškam zataškate заташка заташкати заташкао заташкали заташкају заташкано заташкаш заташкамо заташкала заташкам заташкате
+8	6308	potrčati	potrčao potrči potrčala potrčimo potrčiš potrčati potrčali potrčim potrčite потрчао потрчи потрчала потрчимо потрчиш потрчати потрчали потрчим потрчите
+9	6309	fosil	fosil fosila fosili fosile fosilima fosilu фосил фосила фосили фосиле фосилима фосилу
+10	6310	plitak	plitka plitak plitki plitke plitkom plitkim plitkoj plitkih plitkog plitku плитка плитак плитки плитке плитком плитким плиткој плитких плитког плитку
+11	6311	rakun	rakun rakuna rakuni rakune rakunima rakunom rakunu ракун ракуна ракуни ракуне ракунима ракуном ракуну
+12	6312	cediti	cedilu cedi cediš cedim cede ceđenje cedio цедилу цеди цедиш цедим цеде цеђење цедио
+13	6313	nenormalan	nenormalno nenormalan nenormalna nenormalni nenormalne nenormalnim nenormalnu nenormalnom ненормално ненормалан ненормална ненормални ненормалне ненормалним ненормалну ненормалном
+14	6314	književnost	književnost književnosti књижевност књижевности
+15	6315	dž	dž џ
+16	6316	uteha	uteha утеха
+17	6317	zadugo	zadugo задуго
+18	6318	fascinirati	fasciniran fascinira fascinirana fascinirani fasciniraju fasciniralo fascinirala fascinirao fasciniraš фасциниран фасцинира фасцинирана фасцинирани фасцинирају фасцинирало фасцинирала фасцинирао фасцинираш
+19	6319	ring	ring ринг
+20	6320	traktor	traktor traktora traktoru traktorom traktore traktori traktorima трактор трактора трактору трактором тракторе трактори тракторима
+21	6321	žrtvovati	žrtvovati жртвовати
+22	6322	četka	četku četka četke četkom četki четка четку четке четком четки
+23	6323	nemaran	nemaran nemarno nemarna nemarni nemarne nemarnog немаран немарно немарна немарни немарне немарног
+24	6324	popravni	popravni popravnom popravnog popravne popravnoj popravnu поправни поправном поправног поправне поправној поправну
+25	6325	rakija	rakiju rakije rakija rakijom ракију ракије ракија ракијом
+26	6326	karakteristika	karakteristike karakteristika karakteristikama karakteristiku карактеристике карактеристика карактеристикама карактеристику
+27	6327	ugrejati	ugrejati ugreje ugrejem ugrej ugreješ ugrejemo ugrejao ugrejala ugrejte ugreju ugrejaće ugrejaću ugrejete ugrejalo ugrejali угрејати угреје угрејем угреј угрејеш угрејемо угрејао угрејала угрејте угреју угрејаће угрејаћу угрејете угрејало угрејали
+28	6328	svagda	svagda свагда
+29	6329	manjak	manjak manjku manjkom мањак мањку мањком
+30	6330	potiljak	potiljak potiljku potiljka потиљак потиљку потиљка
+31	6331	špijunski	špijunski špijunske špijunska špijunsku špijunskih špijunskim špijunskom špijunskog špijunsko špijunskoj шпијунски шпијунске шпијунска шпијунску шпијунских шпијунским шпијунском шпијунског шпијунско шпијунској
+32	6332	tajiti	tajiti tajiš taji tajio taje tajila tajim tajili tajimo tajite тајити тајиш таји тајио таје тајила тајим тајили тајимо тајите
+33	6333	poletjeti	poleti poletjeti poletio poletimo polete poletim poletiš poletjeli poletite poletjela полети полетјети полетио полетимо полете полетим полетиш полетјели полетите полетјела
+34	6334	islam	islam islama islamu ислам islamom ислама исламу исламом
+35	6335	ribolov	ribolov ribolova ribolovu ribolovom риболов риболова риболову риболовом
+36	6336	žeđ	žeđ žeđi žeđu жеђ жеђи жеђу
+37	6337	samouveren	samouveren samouvereno samouverena samouvereni samouverene самоуверен самоуверено самоуверена самоуверени самоуверене
+38	6338	papirni	papirne papirni papirnu papirna papirnih papirnim papirnoj papirnog papirnom папирне папирни папирну папирна папирних папирним папирној папирног папирном
+39	6339	њој	њој
+40	6340	venčanica	venčanicu venčanica venčanici venčanice венчаницу венчаница венчаници венчанице
+41	6341	artefakt	artefakt artefakte artefakta artefakti artefaktima artefaktu artefaktom артефакт артефакте артефакта артефакти артефактима артефакту артефактом
+42	6342	fašist	fašista fašisti fašiste fašistima fašist fašistu фашисти фашиста фашисте фашистима фашист фашисту
+43	6343	iskra	iskra iskru iskre iskri искра искру искре искри
+44	6344	tajnica	tajnica tajnice tajnicu tajnicom tajnici тајница тајнице тајницу тајницом тајници
+45	6345	talijanski	talijanski talijanska talijanske talijanskom talijansku talijanskog talijansko talijanskih talijanskim talijanskoj талијански талијанска талијанске талијанском талијанску талијанског талијанско талијанских талијанским талијанској
+46	6346	internacionalan	internacionalni internacionalna internacionalne internacionalnom internacionalnu internacionalnog internacionalno internacionalnih internacionalnim internacionalnoj интернационални интернационална интернационалне интернационалном интернационалну интернационалног интернационално интернационалних интернационалним интернационалној
+47	6347	džukela	džukelo džukela džukele džukelu џукело џукела џукеле џукелу
+48	6348	ulaganje	ulaganja ulaganje улагања улагање
+49	6349	olako	olako олако
+50	6350	opsada	opsadom opsade opsadu opsada opsadi опсадом опсаде опсаду опсада опсади
+51	6351	rud	rudi rudu rude rud rudo руди руду руде руд рудо
+52	6352	smoking	smoking smokingu smokinga smokinzima smokinge смокинг смокингу смокинга смокинзима смокинге
+53	6353	splav	splav splavu splava splavom splavove сплав сплаву сплава сплавом сплавове
+54	6354	mitraljez	mitraljez mitraljeza mitraljeze mitraljezi mitraljezom mitraljezima митраљез митраљеза митраљезе митраљези митраљезом митраљезима
+55	6355	unija	unija unije uniju uniji unijom уније унија унију унији унијом
+56	6356	zdravstveno	zdravstveno здравствено
+57	6357	fetus	fetus fetusa fetusu fetuse fetusi fetusom фетус фетуса фетусу фетусе фетуси фетусом
+58	6358	skuter	skuter skuteru skutera skutere skuterom skuterima skuteri скутер скутеру скутера скутере скутером скутерима скутери
+59	6359	tešiti	teši tešim tešiš tešio tešila tešiti teše tešimo tešili tešite теши тешим тешиш тешио тешила тешити теше тешимо тешили тешите
+60	6360	umor	umor umora umori umoru umore umorom умор умора умори умору уморе умором
+61	6361	efekt	efekt efekta efekte efekti efekata efektima efektom efektu ефекта ефекте ефекти ефект ефеката ефектима ефектом ефекту
+62	6362	samrt	samrti самрти
+63	6363	rajski	rajski rajska rajskom rajske rajskog rajsko rajskih rajskim rajsku rajskoj рајски рајска рајском рајске рајског рајско рајских рајским рајску рајској
+64	6364	posjed	posjed posjedu posjeda posjede посјед посједу посједа посједе
+65	6365	osnovan	osnovana osnovan osnovanu osnovane osnovano osnovani основана основан основану основане основано основани
+66	6366	prolazan	prolazna prolazno prolazni prolazne prolazan prolaznu prolaznog prolaznim prolaznom prolaznih пролазна пролазно пролазни пролазне пролазан пролазну пролазног пролазним пролазном пролазних
+67	6367	neograničen	neograničeno neograničen neograničene neograničena neograničenu neograničenim neograničeni neograničenom neograničenog неограничено неограничен неограничене неограничена неограничену неограниченим неограничени неограниченом неограниченог
+68	6368	šestoro	šestoro шесторо
+69	6369	oživljavati	oživljavanje oživljava oživljavaju oživljavati oživljavao oživljavamo oživljavam oživljavali оживљавање оживљава оживљавају оживљавати оживљавао оживљавамо оживљавам оживљавали
+70	6370	srodstvo	srodstvu srodstvo srodstva сродству сродство сродства
+71	6371	olakšavati	olakšava olakšavaš olakšavaju olakšavam olakšavate olakšavanje olakšavao olakšavati олакшава олакшаваш олакшавају олакшавам олакшавате олакшавање олакшавао олакшавати
+72	6372	putovnica	putovnicu putovnice putovnica putovnicom putovnici putovnicama путовницу путовнице путовница путовницом путовници путовницама
+73	6373	baraba	baraba barabo barabe barabu barabama barabom бараба барабо барабе барабу барабама барабом
+74	6374	arhitektura	arhitektura arhitekture arhitekturu arhitekturi arhitekturom архитектура архитектуре архитектуру архитектури архитектуром
+75	6375	amajlija	amajlija amajliju amajlije amajlijom амајлија амајлију амајлије амајлијом
+76	6376	regrut	regruta regruti regrut regrute regrutima регрути регрута регрут регруте регрутима
+77	6377	strateški	strateški strateške strateška stratešku strateško strateškog strateških strateškim strateškom strateškoj стратешки стратешке стратешка стратешку стратешко стратешког стратешких стратешким стратешком стратешкој
+78	6378	časno	časno часно
+79	6379	štand	štand štanda štandu štandova štandove štandovima štandovi штанд штанда штанду штандова штандове штандовима штандови
+80	6380	ventilator	ventilator ventilatora ventilatore ventilatori вентилатор ventilatorom ventilatoru вентилатора вентилаторе вентилатори вентилатором вентилатору
+81	6381	razmeniti	razmenili razmenimo razmeniti razmenite razmene razmenim razmenio razmeni razmenićemo razmeniš размене разменили разменимо разменити размените разменим разменио размени разменићемо размениш
+82	6382	građa	građe građu građa građi građom грађе грађу грађа грађи грађом
+83	6383	tiranin	tiranin tiranina tirani tirana tiraninu tiranima tiranine tiraninom tirane тиранин тиранина тирани тирана тиранину тиранима тиранине тиранином тиране
+84	6384	začiniti	začinjeno začinjena začiniti začinimo začinim začinio začinjen začinjene začini začine začinjeni začiniš začinite зачињено зачињена зачинити зачинимо зачиним зачинио зачињен зачињене зачини зачине зачињени зачиниш зачините
+85	6385	zaviriti	zaviriti zaviri zavirim zavirimo zavirio zaviriš zavirite zavirila zavire zavirili завирити завири завирим завиримо завирио завириш завирите завирила завире завирили
+86	6386	nezakonit	nezakonite nezakonit nezakonitog nezakonita nezakoniti nezakonitim nezakonitu nezakonitom nezakonitih незаконите незаконит незаконитог незаконита незаконити незаконитим незакониту незаконитом незаконитих
+87	6387	besmrtnost	besmrtnost besmrtnosti besmrtnošću бесмртност бесмртности бесмртношћу
+88	6388	paranoja	paranoja paranoje paranoju paranojom paranoji параноја параноје параноју паранојом параноји
+89	6389	lubanja	lubanje lubanju lubanja lubanji лубање лубању лубања лубањи
+90	6390	saplesti	sapleo saplela saplete sapleteš saplesti sapleli sapletem саплео sapleti саплела саплете саплетеш саплести саплели саплетем саплети
+91	6391	neizbežan	neizbežan neizbežna neizbežne neizbežni neizbežnog neizbežnim neizbežnu neizbežnom неизбежан неизбежна неизбежне неизбежни неизбежног неизбежним неизбежну неизбежном
+92	6392	pastuv	pastuv pastuva pastuve pastuvi pastuvu pastuvom пастув пастува пастуве пастуви пастуву пастувом
+93	6393	spektakularan	spektakularan spektakularna spektakularni spektakularne spektakularnu spektakularnog najspektakularniji spektakularnom spektakularnim najspektakularnijih spektakularnih najspektakularnije spektakularnoj спектакуларан спектакуларна спектакуларни спектакуларне спектакуларну спектакуларног најспектакуларнији спектакуларном спектакуларним најспектакуларнијих спектакуларних најспектакуларније спектакуларној
+94	6394	zaliti	zaliti zalio zaliven zalila zali zalijem zalije zalivena zaliješ zalijemo zalivati zalij zalili zaliveni залити залио заливен залила зали залијем залије заливена залијеш залијемо заливати залиј залили заливени
+95	6395	vijek	vijeka vijek vijeku vjekova vjekovima вијека вијек вијеку вјекова вјековима
+96	6396	komičar	komičar komičara komičari komičare komičaru комичар комичара комичари комичаре комичару
+97	6397	mafijaš	mafijaš mafijaša mafijaši mafijaše mafijašima mafijašem mafijašu мафијаш мафијаша мафијаши мафијаше мафијашима мафијашем мафијашу
+98	6398	radioaktivan	radioaktivni radioaktivnog radioaktivne radioaktivna radioaktivnim radioaktivan radioaktivnih radioaktivnom radioaktivnu радиоактивни радиоактивног радиоактивне радиоактивна радиоактивним радиоактиван радиоактивних радиоактивном радиоактивну
+99	6399	beskonačan	beskonačan beskonačni beskonačna beskonačne beskonačnom beskonačnog beskonačnu beskonačnim beskonačnih beskonačnoj бесконачан бесконачни бесконачна бесконачне бесконачном бесконачног бесконачну бесконачним бесконачних бесконачној
+100	6400	anestezija	anesteziju anestezije anestezija anestezijom anesteziji анестезију анестезије анестезија анестезијом анестезији

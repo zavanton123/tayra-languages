@@ -1,0 +1,100 @@
+1	8201	kandidatura	kandidaturu kandidature kandidatura kandidaturi кандидатуру кандидатуре кандидатура кандидатури
+2	8202	vrisnuti	vrisnula vrisnuo vrisnem vrisneš vrisne vrisnuti vrisni вриснула вриснуо вриснем вриснеш врисне вриснути врисни
+3	8203	kasarna	kasarni kasarnu kasarne kasarna касарни касарну касарне касарна
+4	8204	rezultirati	rezultiralo rezultira rezultirati rezultirala rezultirao rezultiraju rezultirajući резултирало резултира резултирати резултирала резултирао резултирају резултирајући
+5	8205	macan	macane macan macana мацане macani мацан мацана мацани
+6	8206	mikroskopski	mikroskopski mikroskopske mikroskopskih mikroskopska mikroskopskom mikroskopskim mikroskopskog mikroskopsku микроскопски микроскопске микроскопских микроскопска микроскопском микроскопским микроскопског микроскопску
+7	8207	bičevati	bičevanje bičevati bičevan bičuju bičuje bičevali bičevao bičuj bičujem bičuješ бичевање бичевати бичеван бичују бичује бичевали бичевао бичуј бичујем бичујеш
+8	8208	veleposlanik	veleposlanik veleposlanika veleposlaniče veleposlanikom veleposlaniku велепосланик велепосланика велепосланиче велепослаником велепосланику
+9	8209	neuništiv	neuništiv neuništiva neuništivi neuništivo neuništive neuništivim неуништив неуништива неуништиви неуништиво неуништиве неуништивим
+10	8210	bris	bris brisa brise brisu брис бриса брисе брису
+11	8211	žlica	žlicu žlica žlice žlicom жлицу жлица жлице жлицом
+12	8212	plesan	plesni plesan плесни плесан
+13	8213	razbijač	razbijač razbijači razbijača razbijaču razbijače разбијач разбијачи разбијача разбијачу разбијаче
+14	8214	miriti	miri mire mirimo mirili mirim miriš miren mirenje мири мире миримо мирили мирим мириш мирен мирење
+15	8215	singl	singl singla сингл singlova сингла синглова
+16	8216	obilje	obilje obilja obilju obiljem обиље обиља обиљу обиљем
+17	8217	zabavljač	zabavljač zabavljača zabavljači zabavljače забављач забављача забављачи забављаче
+18	8218	krivotvoriti	krivotvorio krivotvorenje krivotvorene krivotvoriti krivotvoreni krivotvorena krivotvoren krivotvorili krivotvorila krivotvoreno krivotvori кривотворио кривотворење кривотворене кривотворити кривотворени кривотворена кривотворен кривотворили кривотворила кривотворено кривотвори
+19	8219	petarda	petarde petarda petardu petardi petardama петарде петарда петарду петарди петардама
+20	8220	istrošen	istrošen istrošena istrošene istrošeno istrošeni istrošenim истрошен истрошена истрошене истрошено истрошени истрошеним
+21	8221	okovati	okovan okovani okova okovana okovao okovane okovali okujte okovati окован оковани окова окована оковао оковане оковали окујте оковати
+22	8222	zavoljeti	zavoljeti zavoli zavolio zavoljela zavoliš zavolim zavole zavoljeli zavolite zavolimo завољети заволи заволио завољела заволиш заволим заволе завољели заволите заволимо
+23	8223	gorjeti	gorjeti goriš gorio gorjela gorite gorjelo gorimo gorim gorenje goreći горим гори горјети гориш горио горјела горите горјело горимо горење горећи
+24	8224	studentski	studentski studentskim студентски студентским
+25	8225	raspršiti	raspršiti rasprši raspršio rasprše raspršili raspršena raspršeni raspršila raspršen raspršene raspršite raspršimo распршити распрши распршио распрше распршили распршена распршени распршила распршен распршене распршите распршимо
+26	8226	bež	bež беж
+27	8227	potomstvo	potomstvo potomstva potomstvu potomstvom потомство потомства потомству потомством
+28	8228	svariti	svari svarim svariti svare svariš svario свари сварим сварити сваре свариш сварио
+29	8229	uzvodno	uzvodno узводно
+30	8230	butik	butik butiku butika butike buticima бутик бутику бутика бутике бутицима
+31	8231	templar	templari templara templar templarima templare темплари темплара темплар темпларима темпларе
+32	8232	produktivan	produktivan produktivno produktivni produktivna produktivniji produktivne produktivnije продуктиван продуктивно продуктивни продуктивна продуктивнији продуктивне продуктивније
+33	8233	cirkulacija	cirkulaciju cirkulacija cirkulacije cirkulacijom cirkulaciji циркулацију циркулација циркулације циркулацијом циркулацији
+34	8234	kaplar	kaplar каплар
+35	8235	pres	pres прес
+36	8236	povjeriti	povjeriti povjerio povjerila povjerili povjeri повјерити повјерио повјерила повјерили повјери
+37	8237	nepoželjan	nepoželjan nepoželjni nepoželjna nepoželjne nepoželjnih nepoželjno nepoželjnim непожељан непожељни непожељна непожељне непожељних непожељно непожељним
+38	8238	porod	porod poroda porodi porodu porode пород порода породи породу породе
+39	8239	forum	forum forumu foruma forumima forume форум форуму форума форумима форуме
+40	8240	interakcija	interakcije interakcija interakciju interakciji интеракције интеракција интеракцију интеракцији
+41	8241	nezadovoljstvo	nezadovoljstvo nezadovoljstva nezadovoljstvom nezadovoljstvu незадовољство незадовољства незадовољством незадовољству
+42	8242	jamčevina	jamčevinu jamčevina jamčevine јамчевину јамчевина јамчевине
+43	8243	živcirati	živcira živcirati živciraš živciraju živciraj živciram živcirao живцира живцирати живцираш живцирају живцирај живцирам живцирао
+44	8244	limen	limeni limenom limena limene limenu limenog limenoj limenim лимени лименом лимена лимене лимену лименог лименој лименим
+45	8245	zavladati	zavlada zavladati zavladao zavladala zavladaju zavladali завлада завладати завладао завладала завладају завладали
+46	8246	dremati	drema dremao dremaš dremanje dremam dremala dremaju dremati дрема дремао дремаш дремање дремам дремала дремају дремати
+47	8247	pazuh	pazuha pazuh pazuhom pazuhe pazuhu пазуха пазух пазухом пазухе пазуху
+48	8248	uputa	upute uputama uputa uputi uputu упути упуте упутама упута упуту
+49	8249	očinstvo	očinstva očinstvo očinstvu очинства очинство очинству
+50	8250	pravdati	pravdam pravdaš pravdati pravdaj pravdate правдам правдаш правдати правдај правдате
+51	8251	osrednji	osrednji osrednje osrednja osrednjeg osrednjih osrednju osrednjim осредњи осредње осредња осредњег осредњих осредњу осредњим
+52	8252	razgledanje	razgledanje razgledanja razgledanju razgledanjem разгледање разгледања разгледању разгледањем
+53	8253	lupanje	lupanje lupanja lupanjem лупање лупања лупањем
+54	8254	guja	guja gujo guje guju гуја гујо гује гују
+55	8255	isušiti	isuši isušiti isušena isušeno isušio isušila isušeni isuše isušili isušene isušen isušilo исуши исушити исушена исушено исушио исушила исушени исуше исушили исушене исушен исушило
+56	8256	raspustiti	raspuštena raspušten raspustiti raspustio raspušteni raspustite raspustili raspuštene raspustim raspustila raspusti raspuste распуштена распуштен распустити распустио распуштени распустите распустили распуштене распустим распустила распусти распусте
+57	8257	sifilis	sifilis sifilisa sifilisom сифилис сифилиса сифилисом
+58	8258	vizitka	vizitku vizitka vizitke vizitki визитку визитка визитке визитки
+59	8259	gomilati	gomilaju gomilanje gomilati gomilali gomilao gomilaš gomilam гомилају гомилање гомилати гомилали гомилао гомилаш гомилам
+60	8260	berba	berba berbu berbe berbi берба бербу бербе берби
+61	8261	fleksibilan	fleksibilan fleksibilna fleksibilni fleksibilno fleksibilniji fleksibilne флексибилан флексибилна флексибилни флексибилно флексибилнији флексибилне
+62	8262	struna	struna strune strunu струна струне струну
+63	8263	dugotrajan	dugotrajan dugotrajna dugotrajne dugotrajnu dugotrajnog dugotrajni dugotrajnim dugotrajnih дуготрајан дуготрајна дуготрајне дуготрајну дуготрајног дуготрајни дуготрајним дуготрајних
+64	8264	poboljšavati	poboljšava poboljšavaju poboljšavamo poboljšavam poboljšavanje побољшава побољшавају побољшавамо побољшавам побољшавање
+65	8265	izdvajati	izdvaja izdvajaju izdvajanje izdvajam izdvajao izdvajaš izdvajamo izdvajali izdvajati издваја издвајају издвајање издвајам издвајао издвајаш издвајамо издвајали издвајати
+66	8266	dotrčati	dotrčao dotrčala dotrčati dotrči dotrčali dotrčim dotrče дотрчао дотрчала дотрчати дотрчи дотрчали дотрчим дотрче
+67	8267	šapnuti	šapnuo šapnula šapni šapnem šapnuti šapne šapnuću šapneš шапнуо шапнула шапни шапнем шапнути шапне шапнућу шапнеш
+68	8268	jedrenje	jedrenje jedrenja jedrenju једрење једрења једрењу
+69	8269	reinkarnacija	reinkarnacija reinkarnaciju reinkarnacije reinkarnaciji реинкарнација реинкарнацију реинкарнације реинкарнацији
+70	8270	prosječan	prosječna prosječan prosječno prosječni prosječne prosječnog prosječnu просјечна просјечан просјечно просјечни просјечне просјечног просјечну
+71	8271	utvara	utvara utvare utvaru utvarama утвара утваре утвару утварама
+72	8272	škripa	škripi škripe škripa škripu шкрипи шкрипе шкрипа шкрипу
+73	8273	krntija	krntija krntiju krntiji krntije krntijo krntijom крнтија крнтију крнтији крнтије крнтијо крнтијом
+74	8274	liberal	liberali liberal liberala liberalima liberale либерали либерал либерала либералима либерале
+75	8275	čežnja	čežnja čežnje čežnju čežnjom čežnji чежња чежње чежњу чежњом чежњи
+76	8276	zlatar	zlatara zlatare zlataru zlatar zlatari златара златаре златару златар златари
+77	8277	stolac	stolac stolcu stolca stolce столац столцу столца столце
+78	8278	trzaj	trzaj trzaja trzaju trzaji trzajem трзај трзаја трзају трзаји трзајем
+79	8279	potop	potop potopi potopa potopu potope потоп потопи потопа потопу потопе
+80	8280	jedinac	jedinac jedinca jedincu јединац јединца јединцу
+81	8281	apostol	apostola apostol apostoli apostolima apostole апостола апостол апостоли апостолима апостоле
+82	8282	gigantski	gigantski gigantska gigantske gigantskih gigantsku gigantskog gigantsko gigantskim гигантски гигантска гигантске гигантских гигантску гигантског гигантско гигантским
+83	8283	nerado	nerado нерадо
+84	8284	milostiv	milostiv милостив
+85	8285	psovka	psovke psovki psovka psovku psovkama псовке псовки псовка псовку псовкама
+86	8286	kovanica	kovanice kovanica kovanicama kovanicu кованице кованица кованицама кованицу
+87	8287	urođen	urođeno urođena urođeni urođenu urođene urođen urođenom урођено урођена урођени урођену урођене урођен урођеном
+88	8288	opravdano	opravdano оправдано
+89	8289	elektromagnetni	elektromagnetni elektromagnetne elektromagnetno elektromagnetna elektromagnetnog elektromagnetnu elektromagnetnim elektromagnetnih електромагнетни електромагнетне електромагнетно електромагнетна електромагнетног електромагнетну електромагнетним електромагнетних
+90	8290	prisila	prisila prisilom prisili prisile prisilu присила присилом присили присиле присилу
+91	8291	variti	varenje vare varim varen vario vari варење варе варим варен варио вари
+92	8292	usisati	usisa usisao usisati usisan usisala usisani usisana усиса усисао усисати усисан усисала усисани усисана
+93	8293	potišten	potišten potištena potišteno potišteni потиштен потиштена потиштено потиштени
+94	8294	objektivan	objektivan objektivna objektivni objektivne објективан објективна објективни објективне
+95	8295	morena	moreno morena morenom морено морена мореном
+96	8296	proračunati	proračunati proračunat proračunato proračunao proračunata proračuna proračunali прорачунати прорачунат прорачунато прорачунао прорачуната прорачуна прорачунали
+97	8297	izravan	izravan izravna izravnu izravni izravne izravnom израван изравна изравну изравни изравне изравном
+98	8298	zabijati	zabija zabijaju zabijaš zabijanje zabijam zabijao zabijati zabijali забија забијају забијаш забијање забијам забијао забијати забијали
+99	8299	či	či чи
+100	8300	mjesečno	mjesečno мјесечно

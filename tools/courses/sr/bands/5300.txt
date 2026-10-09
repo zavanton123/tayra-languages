@@ -1,0 +1,100 @@
+1	5201	okret	okret okreta okretom okrete окрет okretu окрета окретом окрете окрету
+2	5202	šiti	šila šivenje šijem šiješ šiju šije šiti šile šili šio šijete šijemo šivena шила шивење шијем шијеш шију шије шити шиле шили шио шијете шијемо шивена
+3	5203	zbivati	zbiva zbivalo збива збивало
+4	5204	klon	klon klona klonovi klonova klonove klone klonovima klonu klonom клон клона клонови клонова клонове клоне клоновима клону клоном
+5	5205	precizno	precizno прецизно
+6	5206	suši	suši sušija sušijem суши сушија сушијем
+7	5207	tamnica	tamnicu tamnici tamnice tamnica tamnicama тамницу тамници тамнице тамница тамницама
+8	5208	minđuša	minđuše minđuša minđušu minđušama minđušom минђуше минђуша минђушу минђушама минђушом
+9	5209	jad	jade jad jada jadu jadi јада jadom jadima јаде јад јаду јади јадом јадима
+10	5210	iznositi	iznosim iznosio iznositi iznosiš iznošenje iznosite iznosimo iznosi iznosili iznosila iznošene iznoseći iznošena iznose износи износим износио износити износиш изношење износите износимо износили износила изношене износећи изношена износе
+11	5211	svačiji	svačiji svačije svačija svačiju svačijem svačijeg svačijim svačijoj свачије svačijih свачији свачија свачију свачијем свачијег свачијим свачијој свачијих
+12	5212	slabić	slabić slabići slabića slabiću slabiće slabićem слабић слабићи слабића слабићу слабиће слабићем
+13	5213	porotnik	porotnici porotnika porotnik porotnike porotnicima porotniče поротници поротника поротник поротнике поротницима поротниче
+14	5214	plesačica	plesačica plesačice plesačicu plesačicom plesačicama плесачица плесачице плесачицу плесачицом плесачицама
+15	5215	okrutno	okrutno окрутно
+16	5216	sledbenik	sledbenici sledbenika sledbenike sledbenik sledbenicima следбеника следбеници следбенике следбеник следбеницима
+17	5217	pridobiti	pridobiti pridobio pridobijem pridobije pridobijemo pridobili pridobiješ pridobila pridobiju pridobijete придобити придобио придобијем придобије придобијемо придобили придобијеш придобила придобију придобијете
+18	5218	gutljaj	gutljaj gutljaja гутљај gutljaju gutljajem гутљаја гутљају гутљајем
+19	5219	operativan	operativni operativna operativne operativan operativnu operativno operativnom operativnog operativnim operativnih operativnoj оперативни оперативна оперативне оперативан оперативну оперативно оперативном оперативног оперативним оперативних оперативној
+20	5220	bazirati	bazirano baziran bazirana bazira bazirane bazirani bazirao baziraju bazirati bazirala bazirajući baziraš базирано базиран базирана базира базиране базирани базирао базирају базирати базирала базирајући базираш
+21	5221	dvoboj	dvoboj dvoboju dvoboja dvoboje двобој dvoboji dvobojima двобоју двобоја двобоје двобоји двобојима
+22	5222	opstati	opstati opstane opstao opstali opstanu opstala opstanemo opstaneš opstalo opstanem opstale опстати опстане опстао опстали опстану опстала опстанемо опстанеш опстало опстанем опстале
+23	5223	opravdati	opravdati opravda opravdam opravdao opravdaš opravdali opravdala opravdaju opravdate opravdalo opravdamo opravdaj оправдати оправда оправдам оправдао оправдаш оправдали оправдала оправдају оправдате оправдало оправдамо оправдај
+24	5224	kompas	kompas kompasa kompasom kompasu компас kompase kompasi компаса компасом компасу компасе компаси
+25	5225	odsad	odsad одсад
+26	5226	svjetlost	svjetlost svjetlosti svjetlošću свјетлост свјетлости свјетлошћу
+27	5227	biologija	biologije biologiju biologija biologiji biologijom биологије биологију биологија биологији биологијом
+28	5228	vrana	vrane vrana vranu vranama vrano вране врана vrani врану вранама врано врани
+29	5229	ugalj	ugalj uglja ugljem uglju угаљ угља угљем угљу
+30	5230	kaka	kaka kaki kaku kake kakom кака каки каку каке каком
+31	5231	zameriti	zameriti zameri zamerite zamerio zameriš zamerila zamerim zamerili замерити замери замерите замерио замериш замерила замерим замерили
+32	5232	tuce	tuce tuceta туцета туце
+33	5233	maestro	maestro maestra маестро maestru maestrom маестра маестру маестром
+34	5234	zabluda	zabludi zabluda zablude zabludu zabludama заблуди zabludom заблуда заблуде заблуду заблудама заблудом
+35	5235	mrva	mrvice mrvica mrve mrvu mrvi mrva мрвице мрвица мрве мрву мрви мрва
+36	5236	zamjenik	zamjenik zamjenika zamjeniče zamjenikom zamjeniku zamjenici замјеник замјеника замјениче замјеником замјенику замјеници
+37	5237	opasti	opali opala opao opadne opale opalo opasti опали опала опао опадне опале опало опасти
+38	5238	korupcija	korupcije korupcija korupciju korupciji korupcijom корупције корупција корупцију корупцији корупцијом
+39	5239	veo	veo velom vela vele velu velova вео велом вела веле велу велова
+40	5240	zvučati	zvučati звучати
+41	5241	kud	kud куд
+42	5242	grašak	grašak graška graškom grašku грашак грашка грашком грашку
+43	5243	poluga	polugu poluga poluge polugom polugama polugo полугу полуга полуге полугом полугама полуго
+44	5244	obrva	obrve obrva obrvama obrvu obrvi obrvom обрве обрва обрвама обрву обрви обрвом
+45	5245	samac	samac samci samce samca samaca samcima самац самци самце самца самаца самцима
+46	5246	nekolicina	nekolicina nekolicinu nekolicine nekolicini nekolicinom неколицина неколицину неколицине неколицини неколицином
+47	5247	voditelj	voditelj voditelja voditelji voditeljem voditelju voditelje voditeljima водитељ водитеља водитељи водитељем водитељу водитеље водитељима
+48	5248	limunada	limunadu limunada limunade limunadom limunadi лимунаду лимунада лимунаде лимунадом лимунади
+49	5249	probušiti	probušio probušila probušena probušiti probuši probušene probušim probušili probušen probušiš probušeno probušeni probuše probušiću probušite probušimo probušilo пробушио пробушила пробушена пробушити пробуши пробушене пробушим пробушили пробушен пробушиш пробушено пробушени пробуше пробушићу пробушите пробушимо пробушило
+50	5250	avionski	avionske avionsku avionska avionskoj avionski avionskih avionskim avionskog avionsko avionskom авионске авионску авионска авионској авионски авионских авионским авионског авионско авионском
+51	5251	umjetnik	umjetnik umjetnika umjetnici umjetnike umjetnicima umjetnikom umjetniku умјетник умјетника умјетници умјетнике умјетницима умјетником умјетнику
+52	5252	soda	sodu soda sode sodom sodi sodo соду сода соде содом соди содо
+53	5253	nužno	nužno нужно
+54	5254	ozlijeđen	ozlijeđen ozlijeđena ozlijeđeni ozlijeđenih ozlijeđene ozlijeđeno ozlijeđenog озлијеђен озлијеђена озлијеђени озлијеђених озлијеђене озлијеђено озлијеђеног
+55	5255	ponižavati	ponižava ponižavaš ponižavanje ponižavajući ponižavaju ponižavati ponižavam ponižavao ponižavate ponižavaj ponižavali ponižavan ponižavamo ponižavala понижава понижаваш понижавање понижавајући понижавају понижавати понижавам понижавао понижавате понижавај понижавали понижаван понижавамо понижавала
+56	5256	topiti	topi topljenje topim topiti topio topiš топи topila topili tope топљење топим топити топио топиш топила топили топе
+57	5257	susjed	susjed susjedi susjedima susjede susjedu susjedom сусјед сусједи сусједима сусједе сусједу сусједом
+58	5258	bijesan	bijesan bijesna bijesni bijesno bijesne bijesnog bijesnim bijesnih бијесан бијесна бијесни бијесно бијесне бијесног бијесним бијесних
+59	5259	sultan	sultan sultana sultane sultanu sultanom sultani султан султана султане султану султаном султани
+60	5260	veslati	veslaj veslajte vesla veslati veslam veslamo veslaš veslao veslaju veslali veslate веслај veslala весла веслајте веслати веслам весламо веслаш веслао веслају веслали веслате веслала
+61	5261	merdevine	merdevine merdevina merdevinama мердевине мердевина мердевинама
+62	5262	paša	paša paše pašu paši паша паше пашу паши
+63	5263	tornado	tornado tornada tornadu tornadom торнадо торнада торнаду торнадом
+64	5264	sastojati	sastoji sastoje sastojao sastojala састоји sastojati sastojalo састоје састојао састојала састојати састојало
+65	5265	psihijatrijski	psihijatrijski psihijatrijska psihijatrijsku psihijatrijske psihijatrijskoj psihijatrijsko psihijatrijskom psihijatrijskog psihijatrijskim psihijatrijskih психијатријски психијатријска психијатријску психијатријске психијатријској психијатријско психијатријском психијатријског психијатријским психијатријских
+66	5266	istupiti	istupi istupite istupio istupiti istupe istupiš istupim istupila istupili иступи иступите иступио иступити иступе иступиш иступим иступила иступили
+67	5267	buniti	bune buniti bunio buni buniš bunim bunili bunite bunimo буне бунити бунио буни буниш буним бунили буните бунимо
+68	5268	sprijateljiti	sprijateljio sprijateljili sprijateljiti sprijatelji sprijateljila sprijateljiš sprijateljim sprijateljimo sprijateljite sprijateljile sprijatelje спријатељио спријатељили спријатељити спријатељи спријатељила спријатељиш спријатељим спријатељимо спријатељите спријатељиле спријатеље
+69	5269	mesar	mesar mesara mesari mesaru mesare mesarom месар месара месари месару месаре месаром
+70	5270	šalica	šalicu šalica šalice šalici šalicom шалицу шалица шалице шалици шалицом
+71	5271	maslac	maslac maslaca maslacem maslacu маслац маслаца маслацем маслацу
+72	5272	stado	stado stada stadu stadom стадо стада стаду стадом
+73	5273	seansa	seansu seanse seansa seansi seansama сеансу сеансе сеанса сеанси сеансама
+74	5274	trljati	trljaj trlja trljaš trljati trljanje trljam trljao trljaju trljala trljajte trljajući trljate trljali трљај трља трљаш трљати трљање трљам трљао трљају трљала трљајте трљајући трљате трљали
+75	5275	komplicirati	komplicirano kompliciran komplicirana komplicirane komplicirani komplicirati komplicira kompliciraš комплицирано комплициран комплицирана комплициране комплицирани комплицирати комплицира комплицираш
+76	5276	koncentracija	koncentracija koncentraciju koncentracije koncentraciji koncentracijom концентрација концентрацију концентрације концентрацији концентрацијом
+77	5277	bizaran	bizarno bizaran bizarna bizarne bizarni bizarnog bizarnih bizarnim bizarnom bizarnu bizarnoj бизарно бизаран бизарна бизарне бизарни бизарног бизарних бизарним бизарном бизарну бизарној
+78	5278	početnik	početnik početnika početnike početnici početniče početnicima početniku почетник почетника почетнике почетници почетниче почетницима почетнику
+79	5279	primeniti	primeniti primeni primenio primenimo primenim primene primenili primenite primeniš primenjena primenjene primenila primenjen primenjeno применити примени применио применимо применим примене применили примените примениш примењена примењене применила примењен примењено
+80	5280	stegnuti	stegni stegnuti stegao stegnuto stegnem stegnut stegne stegnite stegnuta stegneš stegla stegnute stegnemo stegnuo steglo stegli stegnu стегни стегнути стегао стегнуто стегнем стегнут стегне стегните стегнута стегнеш стегла стегнуте стегнемо стегнуо стегло стегли стегну
+81	5281	požuriti	požuriti požurivati пожурити пожуривати
+82	5282	materin	materinu materina materine материну материна материне
+83	5283	ukleti	ukleta uklet ukleto ukleti uklete уклета уклет уклето уклети уклете
+84	5284	otporan	otporan otporna otporno otporni otporne otporniji otpornim otpornu otpornom otpornih otpornog otpornija отпоран отпорна отпорно отпорни отпорне отпорнији отпорним отпорну отпорном отпорних отпорног отпорнија
+85	5285	raskomotiti	raskomoti raskomotite raskomotiš raskomotiti raskomotimo raskomotim raskomotio raskomotili раскомоти раскомотите раскомотиш раскомотити раскомотимо раскомотим раскомотио раскомотили
+86	5286	plaćenik	plaćenik plaćenici plaćenika plaćenike plaćenicima plaćeniče плаћеник плаћеници плаћеника плаћенике плаћеницима плаћениче
+87	5287	podao	podlo podli podla podloga podao podle podlog podlim najpodliji podlu podlih podlom подло подли подла подлога подао подле подлог подлим најподлији подлу подлих подлом
+88	5288	poklanjati	poklanjam poklanja poklanjaju poklanjaš poklanjamo poklanjao poklanjate poklanjati poklanjanje poklanjali poklanjala поклањам поклања поклањају поклањаш поклањамо поклањао поклањате поклањати поклањање поклањали поклањала
+89	5289	norveški	norveškoj norveške norveška norvešku norveški norveškom norveškog norveškim norveško norveških норвешкој норвешке норвешка норвешку норвешки норвешком норвешког норвешким норвешко норвешких
+90	5290	stoljeće	stoljeća stoljeću stoljeće стољећа стољећу стољеће
+91	5291	deonica	deonice deonica deonicama deonicu deonici деонице деоница деоницама деоницу деоници
+92	5292	investitor	investitora investitori investitor investitore investitorima investitoru investitorom инвеститора инвеститори инвеститор инвеститоре инвеститорима инвеститору инвеститором
+93	5293	ukrcavati	ukrcavanje ukrcava ukrcavaju ukrcavajte ukrcavamo ukrcavaj ukrcavam укрцавање ukrcavate укрцава укрцавају укрцавајте укрцавамо укрцавај укрцавам укрцавате
+94	5294	iskazati	iskažem iskazati iskaza iskaže iskazao iskažu iskazali iskažeš iskazala iskažemo iskaži iskažete iskažite искажем исказати исказа искаже исказао искажу исказали искажеш исказала искажемо искажи искажете искажите
+95	5295	prevoziti	prevozi prevoze prevozio prevozimo prevozili prevozim prevoziti prevozite prevoziš prevozila prevoženje превози превозе превозио превозимо превозили превозим превозити превозите превозиш превозила превожење
+96	5296	gvozden	gvozdeni gvozdena gvozdene gvozdenom gvozdenu gvozdenog gvozdenim gvozdenih gvozdeno gvozdenoj гвоздени гвоздена гвоздене гвозденом гвоздену гвозденог гвозденим гвоздених гвоздено гвозденој
+97	5297	udisati	udiše udišem udišeš udisati udišemo udisao udišu udiši udisanje udišete udisala udisali udišite udišući удише удишем удишеш удисати удишемо удисао удишу удиши удисање удишете удисала удисали удишите удишући
+98	5298	uvod	uvod uvodi uvode uvoda uvodu uvodom увод уводи уводе увода уводу уводом
+99	5299	škamp	škampe škampi škampa škampima škamp шкампе шкампи шкампа шкампима шкамп
+100	5300	zvučan	zvučni zvučnog zvučne zvučna zvučnu zvučnih zvučnim zvučnom звучни звучног звучне звучна звучну звучних звучним звучном

@@ -1,0 +1,100 @@
+1	5501	svugde	svugde свугде
+2	5502	vodoinstalater	vodoinstalater vodoinstalatera vodoinstalateri vodoinstalaterom vodoinstalatere vodoinstalateru водоинсталатер водоинсталатера водоинсталатери водоинсталатером водоинсталатере водоинсталатеру
+3	5503	urin	urin urina urinu urinom урин урина урину урином
+4	5504	svlačionica	svlačionici svlačionicu svlačionice svlačionica svlačionicama свлачионици свлачионицу свлачионице свлачионица свлачионицама
+5	5505	izdvojiti	izdvojiti izdvojio izdvojili izdvoji izdvojim izdvojila izdvojimo izdvojen izdvojena izdvojeno izdvoje izdvojiš izdvojeni izdvojite издвојити издвојио издвојили издвоји издвојим издвојила издвојимо издвојен издвојена издвојено издвоје издвојиш издвојени издвојите
+6	5506	trepnuti	trepneš trepnuo trepnula trepni trepne trepnuti trepnem trepnete trepnuli trepnite trepnuvši trepnu трепнеш трепнуо трепнула трепни трепне трепнути трепнем трепнете трепнули трепните трепнувши трепну
+7	5507	rendgen	rendgen rendgenski rendgenske rendgenu rendgena rendgenom рендген rendgenskim rendgenskih rendgenska rendgenskom рендгенски рендгенске рендгену рендгена рендгеном рендгенским рендгенских рендгенска рендгенском
+8	5508	onde	onde онде
+9	5509	supstanca	supstance supstanca supstanci supstancu supstancom supstancama супстанце супстанца супстанци супстанцу супстанцом супстанцама
+10	5510	izmet	izmet izmeta izmetom izmetu измет измета изметом измету
+11	5511	stišati	stišaj stišajte stišati stiša stišaš stišate stišaju stišam stišala стишај стишајте стишати стиша стишаш стишате стишају стишам стишала
+12	5512	sakrivati	sakrivanje sakriva sakrivao sakrivati sakrivala sakrivaš sakrivaju sakrivam sakrivali sakrivamo sakrivaj sakrivate sakrivajući сакривање сакрива сакривао сакривати сакривала сакриваш сакривају сакривам сакривали сакривамо сакривај сакривате сакривајући
+13	5513	žeti	želi žanješ želo žanje žanju žeti žanjemo žeo жели жањеш жело жање жању жети жањемо жео
+14	5514	tempo	tempo tempom tempa tempu tempi темпо темпом темпа темпу темпи
+15	5515	posrednik	posrednik posrednika posrednici posrednike posrednikom posrednica posredniku посредник посредника посредници посреднике посредником посредница посреднику
+16	5516	narandžast	narandžasta narandžasto narandžasti narandžaste narandžastu narandžastom narandžastog narandžastim narandžast narandžastih narandžastoj наранџаста наранџасто наранџасти наранџасте наранџасту наранџастом наранџастог наранџастим наранџаст наранџастих наранџастој
+17	5517	neutralan	neutralan neutralna neutralni neutralnu neutralne neutralnom neutralno neutralnoj neutralnim neutralnih neutralnog неутралан неутрална неутрални неутралну неутралне неутралном неутрално неутралној неутралним неутралних неутралног
+18	5518	izolacija	izolaciju izolaciji izolacija izolacije izolacijom изолацију изолацији изолација изолације изолацијом
+19	5519	objava	objava objavu objavi objave objavom објави објава објаву објаве објавом
+20	5520	neprikladan	neprikladno neprikladan neprikladna neprikladne neprikladnim neprikladnu neprikladnog neprikladnom neprikladni neprikladnih неприкладно неприкладан неприкладна неприкладне неприкладним неприкладну неприкладног неприкладном неприкладни неприкладних
+21	5521	sirup	sirup sirupa sirupom sirupu сируп сирупа сирупом сирупу
+22	5522	očuh	očuh očuha očuhom očuhu очух очуха очухом очуху
+23	5523	nasleđe	nasleđe nasleđa nasleđu наслеђе nasleđem наслеђа наслеђу наслеђем
+24	5524	savjetovati	savjetujem savjetovao savjetovati savjetovanje savjetuje savjetovanja savjetovala savjetovali savjetujemo savjetuješ savjetuju savjetujete савјетујем савјетовао савјетовати савјетовање савјетује савјетовања савјетовала савјетовали савјетујемо савјетујеш савјетују савјетујете
+25	5525	svirka	svirku svirka svirke svirci svirki svirkom свирку свирка свирке свирци свирки свирком
+26	5526	gledalac	gledaoci gledalaca gledaoce gledaocima gledalac gledaoca гледаоци гледалаца гледаоце гледаоцима гледалац гледаоца
+27	5527	raspitati	raspitam raspitaj raspitaću raspitati raspitajte raspita raspitaš raspitivati raspitamo raspitate raspitaju распитам распитај распитаћу распитати распитајте распита распиташ распитивати распитамо распитате распитају
+28	5528	spopasti	spopalo spopala spopao spopadne spopali спопало спопала спопао спопадне спопали
+29	5529	pozor	pozor позор
+30	5530	gaj	gaj gaja гај gaju гаја гају
+31	5531	datoteka	datoteke datoteka datoteku datoteci datotekama датотеке датотека датотеку датотеци датотекама
+32	5532	beda	bede beda bedu bedi беде bedom bedo беда беду беди бедом бедо
+33	5533	štampati	štampanje štampaju štampati štampamo štampali štampana štampam štampao štampane štampano štampaj štampaš štampani štampate štampala štampan штампање штампају штампати штампамо штампали штампана штампам штампао штампане штампано штампај штампаш штампани штампате штампала штампан
+34	5534	duvan	duvan duvana duvanom дуван duvanu дувана дуваном дувану
+35	5535	vernik	vernik vernici vernika vernike vernicima верник верници верника вернике верницима
+36	5536	milioner	milioner milionera milioneri milioneru milionere milionerom milionerima милионер милионера милионери милионеру милионере милионером милионерима
+37	5537	izreći	izreći izrekao izreku izrečena izrečene izrekla izrečeno izrekli izreknem izrekne izreci изрећи изрекао изреку изречена изречене изрекла изречено изрекли изрекнем изрекне изреци
+38	5538	šina	šine šina šinama šini šinu šino šinom шине шина шинама шини шину шино шином
+39	5539	pehar	pehar pehara peharu pehare пехар peharom pehari пехара пехару пехаре пехаром пехари
+40	5540	radoznalost	radoznalost radoznalosti радозналости radoznalošću радозналост радозналошћу
+41	5541	žuta	žuta жута
+42	5542	bacač	bacač bacača bacači bacače bacačem bacaču bacačima бацач бацача бацачи бацаче бацачем бацачу бацачима
+43	5543	definicija	definicija definiciji definiciju definicije дефиниција дефиницији дефиницију дефиниције
+44	5544	lojalan	lojalan lojalni lojalna lojalne lojalnog lojalnih lojalno lojalnim lojalnu лојални лојалан лојална лојалне лојалног лојалних лојално лојалним лојалну
+45	5545	novčani	novčanu novčane novčana novčani novčanih novčano novčanim novčanom novčanog novčanoj новчану новчане новчана новчани новчаних новчано новчаним новчаном новчаног новчаној
+46	5546	meteor	meteor meteora meteori meteore meteorima meteoru meteorom метеор метеора метеори метеоре метеорима метеору метеором
+47	5547	onuda	onuda онуда
+48	5548	dužnik	dužnik dužnicima dužnici dužnika dužnike дужник дужницима дужници дужника дужнике
+49	5549	režim	režim režima režimu režimom режим режима режиму режимом
+50	5550	aplikacija	aplikaciju aplikacija aplikacije aplikaciji aplikacijom aplikacijama апликација апликације апликацију апликацији апликацијом апликацијама
+51	5551	ekser	ekser eksere eksera ekseri ekserima ekserom ексер ekseru ексере ексера ексери ексерима ексером ексеру
+52	5552	upućivati	upućuje upućuju upućujem upućivao upućivali upućivanje upućivati upućujemo upućivalo upućivala upućuješ упућује упућују упућујем упућивао упућивали упућивање упућивати упућујемо упућивало упућивала упућујеш
+53	5553	nastajati	nastaje nastaju nastajanje настаје настају настајање
+54	5554	sprovod	sprovod sprovodi sprovode sprovodu sprovoda спроводи спровод спроводе спроводу спровода
+55	5555	sprovoditi	sprovođenje sprovodim sprovodimo sprovodio sprovoditi sprovodili sprovodiš sprovodi sprovodite sprovođenju sprovodila sprovode спровођење спроводи спроводим спроводимо спроводио спроводити спроводили спроводиш спроводите спровођењу спроводила спроводе
+56	5556	produkcija	produkcija produkcije produkciju produkciji produkcijom продукција продукције продукцију продукцији продукцијом
+57	5557	egipatski	egipatski egipatske egipatska egipatskog egipatskih egipatskom egipatskim egipatskoj egipatsku egipatsko египатски египатске египатска египатског египатских египатском египатским египатској египатску египатско
+58	5558	obuti	obuj obujem obuću obuješ obuo obuće obula obuti obujte obuje obućeš obu obujete обуј обујем обућу обујеш обуо обуће обула обути обујте обује обућеш обу обујете
+59	5559	vu	vu ву
+60	5560	statistika	statistika statistike statistiku statistici statistikama statistikom статистика статистике статистику статистици статистикама статистиком
+61	5561	tlak	tlak tlaka tlakom tlače тлак тлака тлаком тлаче
+62	5562	vulkanski	vulkanski vulkanske vulkanska vulkanskog vulkanskih vulkanskim vulkansku vulkanskom vulkansko vulkanskoj вулкански вулканске вулканска вулканског вулканских вулканским вулканску вулканском вулканско вулканској
+63	5563	luksuzan	luksuzni luksuzne luksuzan luksuzna luksuznom luksuznih luksuznim luksuznu luksuznog luksuznoj луксузни луксузне луксузан луксузна луксузном луксузних луксузним луксузну луксузног луксузној
+64	5564	trkač	trkač trkača trkači trkače trkaču trkačima тркач тркача тркачи тркаче тркачу тркачима
+65	5565	nacistički	nacistički nacističke nacistička nacističkog nacističkih nacističkoj nacističko nacističkom nacističkim nacističku нацистички нацистичке нацистичка нацистичког нацистичких нацистичкој нацистичко нацистичком нацистичким нацистичку
+66	5566	rasuti	rasipanje rasuti rasipa rasulo rasute rasipaš rasu rasuta rasuo rasut rasipati rasula rasuli rasipaju rasipam rasipaj raspe rasipamo rasuto rasipate расу расипање расути расипа расуло расуте расипаш расута расуо расут расипати расула расули расипају расипам расипај распе расипамо расуто расипате
+67	5567	utjecaj	utjecaj utjecaja utjecajem utjecaju утјецај утјецаја утјецајем утјецају
+68	5568	velim	veli veliš velim velite vele вели велиш велим велите веле
+69	5569	stid	stid stida stide stidom стид стида стиде стидом
+70	5570	dizajner	dizajner dizajnera dizajneri dizajnere dizajnerima дизајнер dizajnerom dizajneru дизајнера дизајнери дизајнере дизајнерима дизајнером дизајнеру
+71	5571	živahan	živahna živahan živahno živahne živahni živahnu živahnog živahnije živahnim živahniji живахна живахан живахно живахне живахни живахну живахног живахније живахним живахнији
+72	5572	posmatrač	posmatrač posmatrača posmatrači posmatrače posmatračima posmatraču посматрач посматрача посматрачи посматраче посматрачима посматрачу
+73	5573	ovdašnji	ovdašnji ovdašnje ovdašnjih ovdašnja ovdašnjim ovdašnjeg ovdašnju ovdašnjem ovdašnjoj овдашњи овдашње овдашњих овдашња овдашњим овдашњег овдашњу овдашњем овдашњој
+74	5574	kaniti	kanim kanio kaniš kanite kanila kanimo kanili kane kani кане каним канио каниш каните канила канимо канили кани
+75	5575	intervencija	intervencija intervencije intervenciju intervenciji intervencijom интервенција интервенције интервенцију интервенцији интервенцијом
+76	5576	legendaran	legendarni legendarna legendarnog legendarne legendaran legendarnu legendarnom legendarnim legendarnih легендарни легендарна легендарног легендарне легендаран легендарну легендарном легендарним легендарних
+77	5577	kriket	kriket kriketa kriketu крикет крикета крикету
+78	5578	lešinar	lešinari lešinar lešinara lešinare lešinarima lešinaru лешинари лешинар лешинара лешинаре лешинарима лешинару
+79	5579	diskusija	diskusije diskusiju diskusija diskusiji diskusijom diskusijama дискусије дискусију дискусија дискусији дискусијом дискусијама
+80	5580	šargarepa	šargarepe šargarepa šargarepu šargarepom šargarepo šargarepama шаргарепе шаргарепа шаргарепу шаргарепом шаргарепо шаргарепама
+81	5581	knjižara	knjižari knjižaru knjižare knjižara knjižarama књижари књижару књижаре књижара књижарама
+82	5582	roditeljski	roditeljski roditeljske roditeljska roditeljskom roditeljskog roditeljskih roditeljsku roditeljsko roditeljskim roditeljskoj родитељски родитељске родитељска родитељском родитељског родитељских родитељску родитељско родитељским родитељској
+83	5583	financijski	financijski financijske financijskih financijsku financijska financijskim financijskog financijskoj financijskom financijsko финанцијски финанцијске финанцијских финанцијску финанцијска финанцијским финанцијског финанцијској финанцијском финанцијско
+84	5584	antena	antena antenu antene antenom antenama anteni антена антену антене антеном антенама антени
+85	5585	šupčina	šupčino šupčina šupčine шупчино шупчина шупчине
+86	5586	abortus	abortus abortusa abortusu abortuse abortusi абортус abortusom абортуса абортусу абортусе абортуси абортусом
+87	5587	družina	družina družinu družine družini družino družinom дружина дружину дружине дружини дружино дружином
+88	5588	snabdevati	snabdevanje snabdeva snabdevaju snabdevao snabdevati snabdevam snabdevamo snabdevali снабдевање snabdevaš snabdevala снабдева снабдевају снабдевао снабдевати снабдевам снабдевамо снабдевали снабдеваш снабдевала
+89	5589	susjedstvo	susjedstvu susjedstvo susjedstva сусједству сусједство сусједства
+90	5590	označavati	označava označavaju označavanje označavam означава označavao označavala označavajući označavati означавају означавање означавам означавао означавала означавајући означавати
+91	5591	avatar	avatar avatara avatari avatare avataru avatarom avatarima аватар аватара аватари аватаре аватару аватаром аватарима
+92	5592	osvetnik	osvetnik osvetnika osvetnici osvetnike osvetnicima osvetniku osvetniče осветник осветника осветници осветнике осветницима осветнику осветниче
+93	5593	instruktor	instruktor instruktora instruktorom instruktori instruktore instruktoru инструктор инструктора инструктором инструктори инструкторе инструктору
+94	5594	civilizovan	civilizovani civilizovan civilizovano civilizovana civilizovanog civilizovanom civilizovanim civilizovane civilizovanih civilizovaniji civilizovanije цивилизовани цивилизован цивилизовано цивилизована цивилизованог цивилизованом цивилизованим цивилизоване цивилизованих цивилизованији цивилизованије
+95	5595	daljnji	daljnjeg daljnje daljnjega daljnjih daljnji daljnja daljnju daljnjim даљњег даљње даљњега даљњих даљњи даљња даљњу даљњим
+96	5596	smilovati	smiluj smiluje smilujte smilovao smilovati смилуј смилује смилујте смиловао смиловати
+97	5597	bušiti	bušenje buše buši bušiti bušimo bušim bušiš bušili bušio bušite бушење буше буши бушити бушимо бушим бушиш бушили бушио бушите
+98	5598	beznačajan	beznačajan beznačajna beznačajni beznačajne beznačajnim beznačajnog beznačajnih beznačajnu beznačajnom безначајан безначајна безначајни безначајне безначајним безначајног безначајних безначајну безначајном
+99	5599	zapošljavati	zapošljavanje zapošljava zapošljavaju zapošljavam zapošljavamo zapošljavate zapošljavaš zapošljavati zapošljavao zapošljavali zapošljavala запошљавање запошљава запошљавају запошљавам запошљавамо запошљавате запошљаваш запошљавати запошљавао запошљавали запошљавала
+100	5600	blistav	blistava blistavi blistavo blistave blistavu blistav blistavim blistavog blistavom blistavih блистава блистави блиставо блиставе блиставу блистав блиставим блиставог блиставом блиставих

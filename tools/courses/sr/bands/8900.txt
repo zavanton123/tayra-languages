@@ -1,0 +1,100 @@
+1	8801	sprdnja	sprdnja sprdnju sprdnje спрдња спрдњу спрдње
+2	8802	nemilosrdno	nemilosrdno немилосрдно
+3	8803	mrzovoljan	mrzovoljan мрзовољан
+4	8804	bife	bife bifeu бифе bifea бифеу бифеа
+5	8805	bludnica	bludnica bludnice bludnicu bludnici bludnicom блудница блуднице блудницу блудници блудницом
+6	8806	inflacija	inflacija inflacije inflaciju inflaciji inflacijom инфлација инфлације инфлацију инфлацији инфлацијом
+7	8807	samouništenje	samouništenje самоуништење
+8	8808	pjevač	pjevač pjevača pjevači pjevače пјевач пјевача пјевачи пјеваче
+9	8809	teletina	teletinu teletina teletine teletinom телетину телетина телетине телетином
+10	8810	doktorski	doktorsku doktorski doktorske doktorska doktorskoj doktorskim doktorskom докторску докторски докторске докторска докторској докторским докторском
+11	8811	registar	registar registra регистар регистра
+12	8812	geometrija	geometrije geometrija geometriju geometriji геометрије геометрија геометрију геометрији
+13	8813	plašljiv	plašljiv plašljiva plašljivi plašljivo plašljive плашљив плашљива плашљиви плашљиво плашљиве
+14	8814	prisan	prisni prisan prisno prisna prisniji prisne присни присан присно присна приснији присне
+15	8815	hvalisati	hvalisanje hvalisao hvališe hvališeš hvalisati hvališem хвалисање хвалисао хвалише хвалишеш хвалисати хвалишем
+16	8816	njušiti	njušim njuši njušiš njušio njuše њушим њуши њушиш њушио њуше
+17	8817	kukavičluk	kukavičluk kukavičluka kukavičlukom кукавичлук кукавичлука кукавичлуком
+18	8818	poreznik	poreznik poreznici poreznika poreznicima poreznike порезник порезници порезника порезницима порезнике
+19	8819	nerođen	nerođeno nerođenog nerođene nerođenu nerođeni nerođenom nerođena nerođenim нерођено нерођеног нерођене нерођену нерођени нерођеном нерођена нерођеним
+20	8820	veto	veto veta вето вета
+21	8821	tikvan	tikvane tikvan tikvana tikvani тикване тикван тиквана тиквани
+22	8822	popriličan	popriličan poprilična popriličnu poprilične поприличан поприлична поприличну поприличне
+23	8823	mačevanje	mačevanja mačevanje mačevanju мачевања мачевање мачевању
+24	8824	maternica	maternice maternicu maternica maternici матернице матерницу матерница матерници
+25	8825	levica	levica levice levicu levicom levici левица левице левицу левицом левици
+26	8826	pikado	pikado pikada pikadu пикадо пикада пикаду
+27	8827	pršut	pršutu pršuta pršute pršut pršutom пршуту пршута пршуте пршут пршутом
+28	8828	kriminalistički	kriminalističke kriminalistička kriminalistički kriminalističkog kriminalističku kriminalističkoj криминалистичке криминалистичка криминалистички криминалистичког криминалистичку криминалистичкој
+29	8829	nemoralno	nemoralno неморално
+30	8830	cunami	cunami cunamija cunamiju цунами цунамија цунамију
+31	8831	portugalski	portugalski portugalskom portugalskog portugalska portugalske португалски португалском португалског португалска португалске
+32	8832	fešta	fešta feštu fešti fešte фешта фешту фешти феште
+33	8833	strahota	strahota strahote strahotu strahotama страхота страхоте страхоту страхотама
+34	8834	mamut	mamuta mamut mamuti mamute mamutu мамута мамут мамути мамуте мамуту
+35	8835	podmićivati	podmićivanje podmićuje podmićuješ podmićivao podmićujem podmićuju подмићивање подмићује подмићујеш подмићивао подмићујем подмићују
+36	8836	uzjahati	uzjaši uzjašite uzjahao uzjašeš uzjahati uzjaše uzjašem uzjašimo узјаши узјашите узјахао узјашеш узјахати узјаше узјашем узјашимо
+37	8837	blef	blef блеф
+38	8838	kolekcionar	kolekcionar колекционар
+39	8839	fetiš	fetiš fetiša fetiši фетиш фетиша фетиши
+40	8840	lakoća	lakoćom lakoća lakoću lakoće лакоћом лакоћа лакоћу лакоће
+41	8841	strina	strina strine strinu strini стрина стрине стрину стрини
+42	8842	nagib	nagib nagiba nagibu nagibom нагиб нагиба нагибу нагибом
+43	8843	dijagram	dijagram dijagrame dijagrama dijagrami dijagramu дијаграм дијаграме дијаграма дијаграми дијаграму
+44	8844	kolera	kolera kolere koleru колера колере колеру
+45	8845	samoobrana	samoobrana samoobrani samoobrane samoobranu самообрана самообрани самообране самообрану
+46	8846	dvadesetak	dvadesetak двадесетак
+47	8847	koincidencija	koincidencija koincidencije коинциденција коинциденције
+48	8848	iskazivati	iskazuje iskazuju iskazivanje iskazujem iskazuješ iskazivao iskazujemo исказује исказују исказивање исказујем исказујеш исказивао исказујемо
+49	8849	umišljen	umišljeni umišljen umišljena umišljeno umišljene умишљени умишљен умишљена умишљено умишљене
+50	8850	dramski	dramski dramsku dramske dramska dramskog dramskih dramskom dramskoj драмски драмску драмске драмска драмског драмских драмском драмској
+51	8851	spremnost	spremnost spremnosti спремност спремности
+52	8852	letač	letač letači letača letaču летач летачи летача летачу
+53	8853	ovladati	ovladao ovladati ovlada ovladaju ovladali ovladaš ovladala ovladam овладао овладати овлада овладају овладали овладаш овладала овладам
+54	8854	trzati	trza trzanje trzaš trzati trzam trzao trzaju трза трзање трзаш трзати трзам трзао трзају
+55	8855	mamlaz	mamlaz mamlaze mamlazi mamlaza мамлаз мамлазе мамлази мамлаза
+56	8856	otvarač	otvarač otvaračem otvarača отварач отварачем отварача
+57	8857	poligraf	poligraf poligrafu poligrafa poligrafom полиграф полиграфу полиграфа полиграфом
+58	8858	smola	smola smole smolu smolom смола смоле смолу смолом
+59	8859	demokracija	demokracija demokraciju demokracije demokraciji демокрација демокрацију демокрације демокрацији
+60	8860	trapav	trapav trapava trapavi trapavo трапав трапава трапави трапаво
+61	8861	namijeniti	namijenjen namijenjeno namijenjena namijenjeni namijenjene namijenio намијењен намијењено намијењена намијењени намијењене намијенио
+62	8862	galamiti	galamiš galamite galamiti galamio galami galame galamim galamili галамиш галамите галамити галамио галами галаме галамим галамили
+63	8863	pretrpjeti	pretrpio pretrpjela pretrpjeli pretrpjeti pretrpi pretrpe претрпио претрпјела претрпјели претрпјети претрпи претрпе
+64	8864	tečno	tečno течно
+65	8865	lovina	lovina lovinu lovine ловина ловину ловине
+66	8866	otirač	otirač otirača otiraču otiračem отирач отирача отирачу отирачем
+67	8867	angažirati	angažirao angažirati angažirali angažirala angažiram ангажирао ангажирати ангажирали ангажирала ангажирам
+68	8868	zastor	zastor zastore zastora zastori застор засторе застора застори
+69	8869	penzioner	penzionera penzioner penzioneri penzionere penzionerima пензионера пензионер пензионери пензионере пензионерима
+70	8870	obveznik	obveznika obveznike obveznik obveznicima obveznici обвезника обвезнике обвезник обвезницима обвезници
+71	8871	okaniti	okani okanite okane okaniti окани оканите окане оканити
+72	8872	izazivač	izazivač izazivača izazivači изазивач изазивача изазивачи
+73	8873	testosteron	testosterona testosteron testosteronom тестостерона тестостерон тестостероном
+74	8874	kozmetika	kozmetiku kozmetike kozmetika kozmetikom kozmetici козметику козметике козметика козметиком козметици
+75	8875	neprirodan	neprirodna neprirodan neprirodne neprirodnom neprirodnim neprirodnog neprirodni neprirodnu neprirodnih неприродна неприродан неприродне неприродном неприродним неприродног неприродни неприродну неприродних
+76	8876	smeniti	smenjen smeniti smene smenio smenim smenjeni smenili smenite smeni смене смени смењен сменити сменио сменим смењени сменили смените
+77	8877	pank	pank панк
+78	8878	revanš	revanš revanša реванш реванша
+79	8879	kroasan	kroasan kroasane kroasana kroasani кроасан кроасане кроасана кроасани
+80	8880	štednja	štednje štednju štednja štednji štednjom штедње штедњу штедња штедњи штедњом
+81	8881	oploditi	oplodi oplodio oploditi oplođena oplode oplodila oplođeno oplodili oplodim оплоди оплодио оплодити оплођена оплоде оплодила оплођено оплодили оплодим
+82	8882	čačkati	čačkaš čačka čačkaj čačkati čačkam čačkanje čačkaju чачкаш чачка чачкај чачкати чачкам чачкање чачкају
+83	8883	patološki	patološki patološka patološke patološku patološko patološkog патолошки патолошка патолошке патолошку патолошко патолошког
+84	8884	odstupati	odstupanje odstupa odstupam odstupaju odstupamo odstupaš одступање одступа одступам одступају одступамо одступаш
+85	8885	kartati	kartati kartamo kartaš kartam kartao kartali kartaju kartate картати картамо карташ картам картао картали картају картате
+86	8886	guba	guba губа
+87	8887	čiča	čiča čiči čiču чича чичи чичу
+88	8888	porijeklo	porijeklo porijekla porijeklom porijeklu поријекло поријекла поријеклом поријеклу
+89	8889	povest	povest povešću повешћу повест
+90	8890	pilar	pilar пилар
+91	8891	bezub	bezubi bezubog безуби безубог
+92	8892	omotač	omotač omotača omotaču омотач омотача омотачу
+93	8893	šapat	šapat šapatom šapata šapati шапат шапатом шапата шапати
+94	8894	kandidirati	kandidirati kandidirao kandidiram kandidira kandidiraš kandidirala кандидирати кандидирао кандидирам кандидира кандидираш кандидирала
+95	8895	razglasiti	razglasiti razglasio razglasite razglasili razglasi razglasila razglasimo razglasiš razglasim разгласити разгласио разгласите разгласили разгласи разгласила разгласимо разгласиш разгласим
+96	8896	pomno	pomno помно
+97	8897	kočijaš	kočijaš kočijašu kočijaša kočijaši кочијаш кочијашу кочијаша кочијаши
+98	8898	ptić	ptići ptića ptić ptiće птићи птића птић птиће
+99	8899	karakterističan	karakterističan karakteristično karakteristične karakteristična karakteristični karakterističnim karakterističnu карактеристичан карактеристично карактеристичне карактеристична карактеристични карактеристичним карактеристичну
+100	8900	sistematski	sistematski sistematskom sistematsko sistematskog систематски систематском систематско систематског

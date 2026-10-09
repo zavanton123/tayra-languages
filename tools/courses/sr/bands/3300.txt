@@ -1,0 +1,100 @@
+1	3201	zažaliti	zažaliti zažalićeš zažalio zažalim zažališ zažalila zažalićete zažali zažaliće zažalili зажалити zažalite zažaliću zažale zažalimo зажалићеш зажалио зажалим зажалиш зажалила зажалићете зажали зажалиће зажалили зажалите зажалићу зажале зажалимо
+2	3202	opklada	opkladu opklada opklade opkladi опкладу opkladama опклада opkladom опкладе опклади опкладама опкладом
+3	3203	izlet	izlet izletu izleti izlete izleta излет izletima izletom излету излети излете излета излетима излетом
+4	3204	ravan	ravan ravna ravni ravne ravnog ravnu ravnom ravnim ravnoj ravnih ravnoga раван равна ravnima равни равне равног равну равном равним равној равних равнога равнима
+5	3205	rijeka	rijeke rijeci rijeku rijeka rijekom riječni riječne rijekama ријеке ријеци ријеку ријека ријеком ријечни ријечне ријекама
+6	3206	dragocen	dragoceno dragoceni dragocena dragocen dragocene dragocenu dragocenog dragocenih dragocenim najdragocenije najdragoceniji najdragocenija dragocenom dragocenije dragoceniji dragocenoj драгоцено драгоцени драгоцен драгоцена драгоцене драгоцену драгоценог драгоцених драгоценим најдрагоценије најдрагоценији најдрагоценија драгоценом драгоценије драгоценији драгоценој
+7	3207	ohladiti	ohladi ohladiti ohladio ohladila ohlade ohladiće ohladite ohladiš ohladim ohladilo ohladimo ohladili охлади ohlađen ohladile ohlađeno ohlađena охладити охладио охладила охладе охладиће охладите охладиш охладим охладило охладимо охладили охлађен охладиле охлађено охлађена
+8	3208	ručati	ručamo ručati ručao ručam ručali ručala ruča ručaš ručate ručaju ručaćemo ručaj ručaću ručajmo ručale ručajte ручамо ручати ручао ручам ручали ручала руча ручаш ручате ручају ручаћемо ручај ручаћу ручајмо ручале ручајте
+9	3209	navratiti	navratiti navrati navratio navratim navratila navratite navratiš navratiću navratili navrate navratimo навратио навратити наврати навратим навратила навратите навратиш навратићу навратили наврате навратимо
+10	3210	hemijski	hemijsko hemijski hemijske hemijskog hemijska hemijsku hemijskom hemijskih hemijskim hemijskoj хемијско хемијске хемијски хемијског хемијска хемијску хемијском хемијских хемијским хемијској
+11	3211	sirena	sirena sirene sirenu sirenom sirenama сирена сирене sireni sireno сирену сиреном сиренама сирени сирено
+12	3212	izvrstan	izvrstan izvrsna izvrsne izvrsni izvrsnu izvrsnog izvrsnom izvrsnim izvrsnih izvrsnoj изврстан изврсно изврсна изврсне изврсни изврсну изврсног изврсном изврсним изврсних изврсној
+13	3213	zbrisati	zbrisao zbrisati zbrisala zbriše zbrišemo zbrisali zbrišem zbrišeš zbrisani zbrišu zbrisan zbrisana zbrišete zbrisano збрисао zbriši zbrisane zbrisalo збрисати збрисала збрише збришемо збрисали збришем збришеш збрисани збришу збрисан збрисана збришете збрисано збриши збрисане збрисало
+14	3214	poraz	poraz poraza porazi poraze porazu porazom пораз пораза porazima порази поразе поразу поразом поразима
+15	3215	status	status statusa statusu statusom статус статуса статусу статусом
+16	3216	crtati	crtam crtaš crtanje crtao crtati crtani crtala crtaće crtaju crtane crtali crtate crtaj crtamo crtaću crtajući цртање цртам црташ цртао цртати цртани цртала цртаће цртају цртане цртали цртате цртај цртамо цртаћу цртајући
+17	3217	namjeravati	namjeravao namjeravam namjeravaš namjerava namjeravala namjeravate namjeravali namjeravamo namjeravaju намјеравао намјеравам намјераваш намјерава намјеравала намјеравате намјеравали намјеравамо намјеравају
+18	3218	pretpostavka	pretpostavka pretpostavkom pretpostavke pretpostavku pretpostavki pretpostavci pretpostavkama претпоставка претпоставком претпоставке претпоставку претпоставки претпоставци претпоставкама
+19	3219	crtež	crtež crteže crteži crteža crtežima crtežu crtežom цртеж цртежи цртеже цртежа цртежима цртежу цртежом
+20	3220	vodič	vodič vodiča vodiču vodiči vodičem водич vodiče vodičima водича водичу водичи водичем водиче водичима
+21	3221	umetnički	umetnički umetničko umetnička umetničke umetničku umetničkih umetničkog umetničkim umetničkom umetničkoj уметничко уметнички уметничка уметничке уметничку уметничких уметничког уметничким уметничком уметничкој
+22	3222	admiral	admirale admiral admirala admiralu admiralom адмирал admirali адмирале адмирала адмиралу адмиралом адмирали
+23	3223	poverljiv	poverljivo poverljiva poverljive poverljivi poverljiv poverljivih poverljivim poverljivog poverljivu poverljivom поверљиво poverljivoj поверљива поверљиве поверљиви поверљив поверљивих поверљивим поверљивог поверљиву поверљивом поверљивој
+24	3224	pomaknuti	pomaknuti pomakni pomaknite pomaknuo pomakne pomakneš pomaknem pomakao pomaknula pomaknut pomaknuli pomaknemo pomakla pomaći pomakli pomaknete pomaknu pomaknulo pomaknimo pomaknuto pomaknuta pomaklo помакнути помакни помакните помакнуо помакне помакнеш помакнем помакао помакнула помакнут помакнули помакнемо помакла помаћи помакли помакнете помакну помакнуло помакнимо помакнуто помакнута помакло
+25	3225	stablo	stabla stablo stabala stablu stablima stablom стабла стабло стабала стаблу стаблима стаблом
+26	3226	sveća	sveće sveću sveća svećama svećom свеће свећа свећу sveći свећама свећом свећи
+27	3227	obuka	obuci obuke obuka obuku obukom обуци обука обуку обуке обуком
+28	3228	bacanje	bacanje bacanja bacanju bacanjem бацање бацања бацању бацањем
+29	3229	raspasti	raspao raspasti raspali raspadne raspala raspalo raspadnu raspale raspašće raspadnem raspadneš raspadnuto raspadnuta raspadnuti raspadnut распао распасти распали распадне распала распало распадну распале распашће распаднем распаднеш распаднуто распаднута распаднути распаднут
+30	3230	paljba	paljbu paljba paljbom paljbe паљбу паљба paljbi паљбом паљбе паљби
+31	3231	ploviti	plovi plovimo plovio plove ploviti plovili plovila plovilo plovim ploviš plovite ploveći plovićemo плови plovilu пловимо пловио плове пловити пловили пловила пловило пловим пловиш пловите пловећи пловићемо пловилу
+32	3232	žestok	žestok žestoka žešće žestoki žestoke žestoku žestokih žestokog žešća žešći najžešći žestokim žestokom žestokoj najžešća najžešće najžešćih žešću жестока жесток жешће жестоки жестоке жестоку жестоких жестоког жешћа жешћи најжешћи жестоким жестоком жестокој најжешћа најжешће најжешћих жешћу
+33	3233	procena	procenu procena proceni procene procenama procenom процени процена процену процене проценама проценом
+34	3234	nastavnik	nastavnik nastavnika nastavnici nastavnike nastavnicima nastavnikom nastavniku наставник nastavniče наставника наставници наставнике наставницима наставником наставнику наставниче
+35	3235	međusobno	međusobno међусобно
+36	3236	pobunjenik	pobunjenici pobunjenika pobunjenike pobunjenicima pobunjenik побуњеници побуњеника побуњеник pobunjeniče побуњеницима побуњенике побуњениче
+37	3237	zaustavljati	zaustavlja zaustavljanje zaustavljaj zaustavljaju zaustavljati zaustavljam zaustavljamo zaustavljaš zaustavljao zaustavljajte zaustavljali zaustavljate зауставља zaustavljala заустављање zaustavljalo zaustavljajući заустављај заустављају заустављати заустављам заустављамо заустављаш заустављао заустављајте заустављали заустављате заустављала заустављало заустављајући
+38	3238	sovjetski	sovjetski sovjetskog sovjetske sovjetska sovjetskom sovjetskih sovjetskim sovjetsku sovjetskoj sovjetsko совјетски совјетске совјетског совјетска совјетском совјетских совјетским совјетску совјетској совјетско
+39	3239	tumor	tumor tumora tumore tumori tumorom тумор tumoru тумора tumorima туморе тумори тумором тумору туморима
+40	3240	otrovati	otrovao otrovala otrovana otrovati otruje otrovali otrovani otrovano otruješ otrujem otrova otruju otrovane otrujete отровао otrujemo otrovalo отрова отровала отрована отровати отрује отровали отровани отровано отрујеш отрујем отрују отроване отрујете отрујемо отровало
+41	3241	desetak	desetak desetke desetka desetku deseci desetaka десетак desetki desecima desetkom десетке десетка десетку десеци десетака десетки десецима десетком
+42	3242	ubosti	ubo ubola uboden ubosti uboli ubodeš ubodem ubodena ubode ubodi ubošću ubolo убо ubodete ubodemo ubodu ubole убола убоден убости уболи убодеш убодем убодена убоде убоди убошћу уболо убодете убодемо убоду уболе
+43	3243	festival	festival festivalu festivala фестивал festivale festivalima festivalom festivali фестивалу фестивала фестивале фестивалима фестивалом фестивали
+44	3244	totalan	totalni totalna totalnom totalnu totalnog totalne totalnoj totalnim totalan тотални тотална тоталном тоталну тоталног тоталне тоталној тоталним тоталан
+45	3245	cimer	cimer cimera cimeri cimeru cimerom cimere cimerima цимер цимера цимери цимеру цимером цимере цимерима
+46	3246	lansirati	lansiranje lansirati lansira lansiraj lansiramo lansiran lansirajte lansirao lansirali lansiraju lansirana lansiram lansirala lansirani лансирање lansirate lansiraš lansiraćemo lansirane lansirano лансирати лансира лансирај лансирамо лансиран лансирајте лансирао лансирали лансирају лансирана лансирам лансирала лансирани лансирате лансираш лансираћемо лансиране лансирано
+47	3247	uspostaviti	uspostaviti uspostavi uspostavili uspostavimo uspostavio uspostavljena uspostavim uspostavite uspostavljen uspostave uspostavila uspostaviš uspostavljeno uspostavljeni uspostavljene успостави uspostavilo успоставити успоставили успоставимо успоставио успостављена успоставим успоставите успостављен успоставе успоставила успоставиш успостављено успостављени успостављене успоставило
+48	3248	kužiti	kužim kužiš skužiti kužite kuži kužimo kuže кужим кужиш скужити кужите кужи кужимо куже
+49	3249	klima	klima klimu klime klimi klimom клима климу klimama климе клими климом климама
+50	3250	plastičan	plastične plastični plastičnu plastična plastičnim plastičnog plastičnih plastičnom plastičnoj plastičan пластичне пластични пластичну пластична пластичним пластичног пластичних пластичном пластичној пластичан
+51	3251	banana	banana banane bananu bananama bananom banani банана банане банану бананама бананом банани
+52	3252	sijati	sija sijaju sijaš sijati sijalo sijam sijaj sijala сија sijao sijale siju sije sijem sijanje siješ сијају сијаш сијати сијало сијам сијај сијала сијао сијале сију сије сијем сијање сијеш
+53	3253	veriti	verena vereni veren verili verila veriti vere verio verimo veri verim veriš верени верена вере вери верен верили верила верити верио веримо верим вериш
+54	3254	žaba	žaba žabe žabu žabo žabama žabi žablje žabom žabice žablji žablja žabica жаба жабе жабу жабо жабама жаби жабље жабом жабице жабљи жабља жабица
+55	3255	impresivno	impresivno импресивно
+56	3256	pop	pop pope popa поп popu popovi popova popom popove popovima попа попе попу попови попова попом попове поповима
+57	3257	plen	plen plena plenom плен plenu плена пленом плену
+58	3258	skratiti	skraćeno skratim skrati skratiti skratimo skratio skratila skratiš skratili skratite skraćena skratiću skrate skraćeni skraćen skratićemo skratilo skraćene скраћено скратим скрати скратити скратимо скратио скратила скратиш скратили скратите скраћена скратићу скрате скраћени скраћен скратићемо скратило скраћене
+59	3259	peškir	peškir peškire peškiri peškira peškirom peškirima пешкир peškiru пешкире пешкири пешкира пешкиром пешкирима пешкиру
+60	3260	polica	police polici polica policu policama полици полице policom полица полицу полицама полицом
+61	3261	nesporazum	nesporazum nesporazuma nesporazume nesporazumu nesporazumi неспоразум неспоразума nesporazumom неспоразуме неспоразуму неспоразуми неспоразумом
+62	3262	poreklo	poreklo porekla poreklom poreklu порекло порекла пореклом пореклу
+63	3263	zamijeniti	zamijeniti zamijenio zamijenili zamijeni zamijenila zamijenimo zamijenim zamijenite zamijene zamijenjen zamijeniš zamijenjena zamijenjeni zamijenjene zamijenile замијенити замијенио замијенили замијени замијенила замијенимо замијеним замијените замијене замијењен замијениш замијењена замијењени замијењене замијениле
+64	3264	odigrati	odigrati odigramo odigrali odigra odigram odigraš odigraj odigrate odigraju odigrajmo odigrajte odigraću odigraćemo odigraće одиграти одиграмо одиграли одигра одиграм одиграш одиграј одиграте одиграју одиграјмо одиграјте одиграћу одиграћемо одиграће
+65	3265	boravak	boravak boravka boravku боравак boravkom боравка боравку боравком
+66	3266	zvezdan	zvezdane zvezdani zvezdana zvezdanih zvezdanu zvezdanim zvezdanog zvezdanom zvezdanoj zvezdano звездане звездани звездана звезданих звездану звезданим звезданог звезданом звезданој звездано
+67	3267	vena	vene venama venu vena venom veni вене венама вену вена веном вени
+68	3268	fil	fil fila filom filu фил фила filova filove филом филу филова филове
+69	3269	nabiti	nabijem nabio nabiti nabij nabiću nabiješ nabije nabila nabijen nabili nabiju nabijati nabit nabi nabijena nabijemo nabijte nabijene nabijeno nabijete nabijeni nabiće nabile набијем набио набити набиј набићу набијеш набије набила набијен набили набију набијати набит наби набијена набијемо набијте набијене набијено набијете набијени набиће набиле
+70	3270	inteligentan	inteligentan inteligentna inteligentni inteligentno inteligentnog inteligentne inteligentnih inteligentnim inteligentniji inteligentnu inteligentnom najinteligentniji интелигентан inteligentnije интелигентни najinteligentnija интелигентна интелигентно интелигентног интелигентне интелигентних интелигентним интелигентнији интелигентну интелигентном најинтелигентнији интелигентније најинтелигентнија
+71	3271	iznos	iznos iznosi iznosu iznose iznosa износ iznosima iznosom износи износу износе износа износима износом
+72	3272	crevo	creva crevo crevom црева crevu црево цревом цреву
+73	3273	мном	мном
+74	3274	sprečavati	sprečava sprečavaju sprečavalo sprečavam sprečavanje sprečavati sprečavao sprečavaš sprečavala sprečavamo спречава sprečavate sprečavajući sprečavali спречавају спречавало спречавам спречавање спречавати спречавао спречаваш спречавала спречавамо спречавате спречавајући спречавали
+75	3275	svakodnevan	svakodnevno svakodnevni svakodnevne svakodnevnom svakodnevnog svakodnevna svakodnevnim svakodnevnih svakodnevnu свакодневно svakodnevnoj свакодневни свакодневне свакодневном свакодневног свакодневна свакодневним свакодневних свакодневну свакодневној
+76	3276	mahati	maši maše mašeš mašu mahao mahati mašem mašući mahni mahnuo mahanje mašite mahnula mašete mahnuti mahne mahnem mašemo mahnite mahneš маше маши машеш машу махао махати машем машући махни махнуо махање машите махнула машете махнути махне махнем машемо махните махнеш
+77	3277	ocena	ocene ocenu ocena ocenama oceni ocenom оцене оцену оцена оценама оцени оценом
+78	3278	nalik	nalik налик
+79	3279	napor	napor napora napore naporima napori naporu naporom напор напоре напора напорима напори напору напором
+80	3280	mit	mit mita mitova mitovi mitu mitove mitovima mitom мит мита митова митови миту митове митовима митом
+81	3281	palac	palac palčeve palca palcem palcu palčevi palčevima palčeva палац palaca palce палчеве palci palcima палца палцем палцу палчеви палчевима палчева палаца палце палци палцима
+82	3282	navaliti	navali navalite navalio navale navalili navalimo navaliti navalila navališ navalim навали navalile навалите навалио навале навалили навалимо навалити навалила навалиш навалим навалиле
+83	3283	mudrost	mudrost mudrosti mudrošću мудрости мудрост мудрошћу
+84	3284	pucanj	pucanj pucnja pucnjeve pucnjevi пуцањ pucnjeva pucnjem пуцња pucnju пуцњеве пуцњеви пуцњева пуцњем пуцњу
+85	3285	mladost	mladosti mladost младост младости mladošću младошћу
+86	3286	obraditi	obradio obraditi obradili obradim obradila obradimo obradiš obrađena obrađen obradite obrađeno obrađeni obrađene обрадио obradićemo obradi obrade обрадити обрадили обрадим обрадила обрадимо обрадиш обрађена обрађен обрадите обрађено обрађени обрађене обрадићемо обради обраде
+87	3287	ambasador	ambasador ambasadore ambasadora ambasadorom ambasadoru ambasadori амбасадор ambasadorima амбасадора амбасадоре амбасадором амбасадору амбасадори амбасадорима
+88	3288	kobasica	kobasice kobasica kobasicu kobasicom kobasicama кобасице кобасицу кобасица kobasici кобасицом кобасицама кобасици
+89	3289	uobičajeno	uobičajeno уобичајено
+90	3290	dostaviti	dostaviti dostavio dostavim dostave dostavi dostavili dostavite dostavimo dostavljena dostavljen dostaviš dostavljeno dostavila dostaviću dostavljeni dostavljene достави доставити dostavićemo доставио доставим доставе доставили доставите доставимо достављена достављен доставиш достављено доставила доставићу достављени достављене доставићемо
+91	3291	klati	klana klan klanje klati клан klali klao kolju koljem koljemo kolješ kolje kla kolji клана клање клати клали клао кољу кољем кољемо кољеш коље кла кољи
+92	3292	špijunirati	špijuniraš špijunira špijunirao špijuniram špijuniranje špijunirala špijuniraju špijunirati špijunirate špijunirali špijuniramo špijunirajući шпијунираш шпијунира шпијунирао шпијунирам шпијунирање шпијунирала шпијунирају шпијунирати шпијунирате шпијунирали шпијунирамо шпијунирајући
+93	3293	kompletan	kompletan kompletna kompletnu kompletni kompletne kompletnog kompletnom kompletnim комплетан kompletnoj комплетна kompletnih комплетно комплетну комплетни комплетне комплетног комплетном комплетним комплетној комплетних
+94	3294	kula	kule kula kuli kulu kulama кула куле кулу kulom кули кулама кулом
+95	3295	obraz	obraz obraza obrazu obraze obrazi obrazima образ образа образу образе образи образима
+96	3296	analizirati	analizirao analizira analiziram analizirati analizirali analiziramo analiziraš analizirala analiziraju analiziraj analizirate analizirajući analizirajte analiziranje analiziraću analizirajmo analiziraćemo analiziran analizirano analizirani анализирао анализира анализирам анализирати анализирали анализирамо анализираш анализирала анализирају анализирај анализирате анализирајући анализирајте анализирање анализираћу анализирајмо анализираћемо анализиран анализирано анализирани
+97	3297	uže	uže užad užeta užetom užetu užadi уже ужета ужад ужетом ужету ужади
+98	3298	tkivo	tkivo tkiva tkivu tkivom ткива ткиво tkivima ткиву ткивом ткивима
+99	3299	crta	crtu crta crte crtama crti crtom црта црту црте цртама црти цртом
+100	3300	petlja	petlju petlje petlja petlji петљу petljom петље петља петљи петљом

@@ -1,0 +1,100 @@
+1	8601	pjesnik	pjesnik pjesnika pjesnici pjesnike пјесник пјесника пјесници пјеснике
+2	8602	diskriminacija	diskriminacija diskriminacije diskriminaciju diskriminaciji дискриминација дискриминације дискриминацију дискриминацији
+3	8603	asfalt	asfalt asfaltu asfalta асфалт асфалту асфалта
+4	8604	podbaciti	podbacio podbacila podbacili podbaciti podbaci podbaciš подбацио подбацила подбацили подбацити подбаци подбациш
+5	8605	uspavanka	uspavanku uspavanka uspavanke uspavanko успаванку успаванка успаванке успаванко
+6	8606	upornost	upornost upornosti upornošću упорност упорности упорношћу
+7	8607	organiziran	organizirani organizirana organiziran organizirano organiziranog organiziranim organiziranom organizirane организирани организирана организиран организирано организираног организираним организираном организиране
+8	8608	maslo	maslo masala масло масала
+9	8609	ultimatum	ultimatum ultimatuma ultimatume ултиматум ултиматума ултиматуме
+10	8610	kran	kran кран krana kranu kranom krane крана крану краном кране
+11	8611	ovan	ovan ovna ovnovi ovnu ovnove ovnova ован овна овнови овну овнове овнова
+12	8612	abdomen	abdomen abdomena abdomenu абдомен абдомена абдомену
+13	8613	točiti	toči točenje točeno točim točiti točio točiš toče точи точење точено точим точити точио точиш точе
+14	8614	abeceda	abecedi abecedu abecede abeceda абецеди абецеду абецеде абецеда
+15	8615	stvoritelj	stvoritelj stvoritelja stvoritelju stvoriteljem stvoritelji створитељ створитеља створитељу створитељем створитељи
+16	8616	metabolizam	metabolizam metabolizma metabolizmom метаболизам метаболизма метаболизмом
+17	8617	verbalan	verbalno verbalni verbalne verbalnu verbalna verbalnog verbalnim вербално вербални вербалне вербалну вербална вербалног вербалним
+18	8618	štenac	štenci štence štenaca štencima štenca štenac штенци штенце штенаца штенцима штенца штенац
+19	8619	gunđati	gunđaš gunđa gunđanje gunđati gunđam gunđaj gunđaju gunđao гунђаш гунђа гунђање гунђати гунђам гунђај гунђају гунђао
+20	8620	veranda	verandi verandu verande veranda веранди веранду веранде веранда
+21	8621	ležaj	ležaj ležaja ležaju лежај лежаја лежају
+22	8622	krpelj	krpelja krpelj krpelji krpelje krpeljima крпеља крпељ крпељи крпеље крпељима
+23	8623	buncati	bunca buncaš buncao buncanje buncam buncate бунца бунцаш бунцао бунцање бунцам бунцате
+24	8624	razbacivati	razbacuje razbacuješ razbacuju razbacivanje razbacivati razbacujem razbacujete razbacujemo разбацује разбацујеш разбацују разбацивање разбацивати разбацујем разбацујете разбацујемо
+25	8625	ćaknut	ćaknut ćaknuta ćaknuti ćaknuto ćaknute ћакнут ћакнута ћакнути ћакнуто ћакнуте
+26	8626	pudlica	pudlica pudlice pudlicu пудлица пудлице пудлицу
+27	8627	manjkati	manjka мањка
+28	8628	prirediti	prirediti приредити
+29	8629	avanturist	avanturista avanturisti avanturistu avanturiste авантуриста авантуристи авантуристу авантуристе
+30	8630	zataškavanje	zataškavanje zataškavanja zataškavanju заташкавање заташкавања заташкавању
+31	8631	poništavati	poništava poništavanje poništavam poništavaju поништава поништавање поништавам поништавају
+32	8632	vokal	vokal vokale vokali vokala vokalima вокал вокале вокали вокала вокалима
+33	8633	opažati	opažanje opaža opažam opažaš opažamo opažate opažaju опажање опажа опажам опажаш опажамо опажате опажају
+34	8634	pastrmka	pastrmka pastrmke pastrmku pastrmki пастрмка пастрмке пастрмку пастрмки
+35	8635	strm	strme strma strmim strm strmi strmije strmih strmu strmom стрме стрма стрмим стрм стрми стрмије стрмих стрму стрмом
+36	8636	nepotpun	nepotpun nepotpuna nepotpuno nepotpuni nepotpune непотпун непотпуна непотпуно непотпуни непотпуне
+37	8637	glavešina	glavešine glavešina glavešinama glavešinu главешине главешина главешинама главешину
+38	8638	istjerati	istjerati istjerali istjerao istjera istjeramo istjeran istjerala istjerajte истјерати истјерали истјерао истјера истјерамо истјеран истјерала истјерајте
+39	8639	sinhronizacija	sinhronizacija синхронизација sinhronizaciju sinhronizacije синхронизацију синхронизације
+40	8640	pseudonim	pseudonim pseudonimom pseudonima pseudonime pseudonimi псеудоним псеудонимом псеудонима псеудониме псеудоними
+41	8641	zastavnik	zastavniče zastavnik zastavnika заставниче заставник заставника
+42	8642	utvrda	utvrdu utvrda utvrdi utvrde утврди утврду утврда утврде
+43	8643	administrativan	administrativni administrativne administrativna administrativnih administrativno administrativnom administrativnog administrativnim administrativnu административни административне административна административних административно административном административног административним административну
+44	8644	usran	usran усран
+45	8645	birač	birača birači biračima birače бирача бирачи бирачима бираче
+46	8646	omalovažavati	omalovažavaš omalovažavam omalovažavati omalovažava omalovažavanje omalovažavaj omalovažavaju omalovažavate omalovažavao omalovažavali омаловажаваш омаловажавам омаловажавати омаловажава омаловажавање омаловажавај омаловажавају омаловажавате омаловажавао омаловажавали
+47	8647	očekivano	očekivano очекивано
+48	8648	hakim	hakim hakime hakima hakimom hakimu хаким хакиме хакима хакимом хакиму
+49	8649	raskršće	raskršću raskršće raskršća раскршћу раскршће раскршћа
+50	8650	ciganski	ciganska ciganski ciganske cigansku ciganskom cigansko ciganskog циганска цигански циганске циганску циганском циганско циганског
+51	8651	lisac	lisac lisca lisce lišče liscu лисац лисца лисце лишче лисцу
+52	8652	magacin	magacin магацин
+53	8653	klik	klik клик
+54	8654	nepravilnost	nepravilnosti nepravilnost nepravilnostima неправилности неправилност неправилностима
+55	8655	aga	age aga agi ago agu аге ага аги аго агу
+56	8656	rastopiti	rastopiti rastopi rastopio rastopila rastopljeni rastopljena rastopljene rastopljeno rastope rastopljen растопити растопи растопио растопила растопљени растопљена растопљене растопљено растопе растопљен
+57	8657	postideti	postideo postidela postiđena postiđeno postidi postidim postideti postideli postide постидео постидела постиђена постиђено постиди постидим постидети постидели постиде
+58	8658	državljanstvo	državljanstvo državljanstva држављанство држављанства
+59	8659	pancir	pancir pancire pancira panciri панцир панцире панцира панцири
+60	8660	odjek	odjek odjeka odjeci odjeke odječe одјек одјека одјеци одјеке одјече
+61	8661	obalni	obalna obalne obalnu obalnom obalnoj obalni obalnim обална обалне обалну обалном обалној обални обалним
+62	8662	karlica	karlice karlicu karlica karlici карлице карлицу карлица карлици
+63	8663	jajnik	jajnika jajnike jajnici jajnik jajnicima jajniku јајника јајнике јајници јајник јајницима јајнику
+64	8664	drastično	drastično драстично
+65	8665	biolog	biolog biolozi biologa биолог биолози биолога
+66	8666	organizovan	organizovan organizovanog организован организованог
+67	8667	pjena	pjene pjena pjenu pjenom pjeni пјене пјена пјену пјеном пјени
+68	8668	studij	studij studiju studije studiji studijima studijem студију студије студиј студији студијима студијем
+69	8669	djelić	djelić djeliće djeliću djelići djelića дјелић дјелиће дјелићу дјелићи дјелића
+70	8670	tačkica	tačkice tačkica tačkicama tačkicu тачкице тачкица тачкицама тачкицу
+71	8671	tuberkuloza	tuberkulozu tuberkuloze tuberkuloza tuberkulozom туберкулозу туберкулозе туберкулоза туберкулозом
+72	8672	razoran	razorne razorna razoran razorni razornu razorno razornih razornom разорне разорна разоран разорни разорну разорно разорних разорном
+73	8673	naslon	nasloni naslon naslona naslonu naslone наслони наслон наслона наслону наслоне
+74	8674	bugarski	bugarska bugarskoj bugarske bugarsku bugarski bugarskom bugarskog бугарска бугарској бугарске бугарску бугарски бугарском бугарског
+75	8675	odsto	odsto одсто
+76	8676	vučji	vučje vučja vučji vučju vučjeg vučjoj вучје вучја вучји вучју вучјег вучјој
+77	8677	kemija	kemije kemiju kemija kemiji кемије кемију кемија кемији
+78	8678	apokalipsa	apokalipsa апокалипса
+79	8679	nasledan	nasledno nasledna nasledne nasledni nasledan naslednih наследно наследна наследне наследни наследан наследних
+80	8680	arheološki	arheološki arheološko arheološka arheoloških arheološkog arheološkom arheološke arheološkim arheološku археолошки археолошко археолошка археолошких археолошког археолошком археолошке археолошким археолошку
+81	8681	nevreme	nevreme nevremena nevremenu невреме невремена невремену
+82	8682	kukavički	kukavički кукавички
+83	8683	rajčica	rajčice rajčica rajčicu рајчице рајчица рајчицу
+84	8684	snalažljiv	snalažljiv snalažljiva snalažljivi snalažljivo сналажљив сналажљива сналажљиви сналажљиво
+85	8685	egzekucija	egzekucija egzekuciju egzekucije egzekuciji егзекуција егзекуцију егзекуције егзекуцији
+86	8686	poriv	poriv porive poriva porivima porivi porivu порив пориве порива поривима пориви пориву
+87	8687	ubrizgavati	ubrizgavanje ubrizgava ubrizgavam ubrizgavaju ubrizgavao ubrizgavaš ubrizgavali убризгавање убризгава убризгавам убризгавају убризгавао убризгаваш убризгавали
+88	8688	uzleteti	uzleteo uzleteli uzleti uzleteti uzletimo uzletela uzlete uzletite uzletim uzletiš узлетео узлетели узлети узлетети узлетимо узлетела узлете узлетите узлетим узлетиш
+89	8689	desetljeće	desetljeća desetljećima desetljeće desetljeću десетљећа десетљећима десетљеће десетљећу
+90	8690	nomad	nomadi nomad nomada nomade nomadima номади номад номада номаде номадима
+91	8691	azot	azot azota azotom азот азота азотом
+92	8692	cimerica	cimerica cimerice cimericu cimericom цимерица цимерице цимерицу цимерицом
+93	8693	kolosek	koloseka kolosek koloseku колосека колосек колосеку
+94	8694	strop	strop stropu stropa строп стропу стропа
+95	8695	pojačalo	pojačala pojačalo појачала појачало
+96	8696	odazvati	odazvali odazvao odazvati odazvala odazove odazovem odazovi odazovite одазвали одазвао одазвати одазвала одазове одазовем одазови одазовите
+97	8697	egzorcizam	egzorcizam egzorcizma egzorcizmu егзорцизам егзорцизма егзорцизму
+98	8698	hobotnica	hobotnica hobotnice hobotnicu hobotnicom хоботница хоботнице хоботницу хоботницом
+99	8699	krizni	krizni kriznim krizne krizna kriznu kriznog kriznoj krizno kriznom кризни кризним кризне кризна кризну кризног кризној кризно кризном
+100	8700	destruktivan	destruktivna destruktivan destruktivno destruktivne destruktivni destruktivnu destruktivnim деструктивна деструктиван деструктивно деструктивне деструктивни деструктивну деструктивним

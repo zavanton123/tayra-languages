@@ -1,0 +1,100 @@
+1	7201	skelet	skelet skeleta skeleti skeletu skelete skeletom skeletima скелет скелета скелети скелету скелете скелетом скелетима
+2	7202	izopačen	izopačeni izopačen izopačeno izopačena izopačene izopačenog izopačenih izopačenim izopačenu izopačenom изопачени изопачен изопачено изопачена изопачене изопаченог изопачених изопаченим изопачену изопаченом
+3	7203	trista	trista триста
+4	7204	suptilan	suptilan suptilna suptilnije suptilni suptilniji suptilne suptilnija suptilnih суптилан суптилна суптилније суптилни суптилнији суптилне суптилнија суптилних
+5	7205	uzaludno	uzaludno узалудно
+6	7206	knedla	knedle knedlama knedlu knedla knedli кнедле кнедлама кнедлу кнедла кнедли
+7	7207	igračica	igračica igračice igračicu igračicom igračicama играчица играчице играчицу играчицом играчицама
+8	7208	graničan	granična granični granične graničnu graničnih graničnim graničnom graničnoj graničnog гранична гранични граничне граничну граничних граничним граничном граничној граничног
+9	7209	oticati	otiči otiče oticanje otiču отичи отиче отицање отичу
+10	7210	natopiti	natopljena natopljen natopljeno natopljene natopi natopljeni natopio natopila natopiti натопљена натопљен натопљено натопљене натопи натопљени натопио натопила натопити
+11	7211	zavući	zavukao zavuci zavući zavuče zavučem zavučeš zavukla zavuku zavukli завукао завуци завући завуче завучем завучеш завукла завуку завукли
+12	7212	srećka	srećko srećku srećka srećke srećki срећко срећку срећка срећке срећки
+13	7213	uzica	uzici uzicu uzice uzica uzicom узици узицу узице узица узицом
+14	7214	vrabac	vrabac vrapca vrapci vrabaca vrapce vrapcu vrapcima врабац врапца врапци врабаца врапце врапцу врапцима
+15	7215	šara	šare šara šari šaru šarama šarom шаре шара шари шару шарама шаром
+16	7216	izobilje	izobilju izobilje izobilja изобиљу изобиље изобиља
+17	7217	napon	napon napona naponom naponu напон напона напоном напону
+18	7218	kukac	kukci kukaca kukce kukac kukca kukcima кукци кукаца кукце кукац кукца кукцима
+19	7219	prestup	prestup prestupa prestupe prestupi prestupima преступ преступа преступе преступи преступима
+20	7220	tetovirati	tetoviranje tetovirao tetovirani tetoviram tetovirati tetovirala tetovira tetoviran tetovirana tetovirali tetoviraju tetoviraš tetovirano tetovirane тетовирање тетовирао тетовирани тетовирам тетовирати тетовирала тетовира тетовиран тетовирана тетовирали тетовирају тетовираш тетовирано тетовиране
+21	7221	neprekidno	neprekidno непрекидно
+22	7222	milimetar	milimetara milimetar milimetra милиметара милиметар милиметра
+23	7223	zasjeda	zasjeda zasjedu zasjede zasjedi засједа засједу засједе засједи
+24	7224	šezdeset	šezdeset шездесет
+25	7225	lizalica	lizalicu lizalice lizalica lizalicama лизалицу лизалице лизалица лизалицама
+26	7226	materijalan	materijalni materijalne materijalna materijalnog materijalnih materijalnim materijalnu materijalnom материјални материјалне материјална материјалног материјалних материјалним материјалну материјалном
+27	7227	nevernik	nevernika nevernici nevernik nevernike nevernicima neverniče неверника неверници неверник невернике неверницима неверниче
+28	7228	distribucija	distribuciju distribucija distribucije distribuciji distribucijom дистрибуцију дистрибуција дистрибуције дистрибуцији дистрибуцијом
+29	7229	smrtonosno	smrtonosno смртоносно
+30	7230	naginjati	naginje naginjem naginju naginješ naginjao naginji naginjanje naginjala naginjati naginjemo naginjete нагиње нагињем нагињу нагињеш нагињао нагињи нагињање нагињала нагињати нагињемо нагињете
+31	7231	zagrijati	zagrijati zagrije zagrijan zagrij zagrijao zagrijem zagrijana zagrijala zagriju zagrijemo zagriješ zagrijali zagrijte загријати загрије загријан загриј загријао загријем загријана загријала загрију загријемо загријеш загријали загријте
+32	7232	cepati	cepa cepanje cepaj cepam cepaju cepaš cepao cepati cepamo cepalo цепа цепање цепај цепам цепају цепаш цепао цепати цепамо цепало
+33	7233	bakar	bakar bakra bakrom бакар бакра бакром
+34	7234	krstarica	krstarica krstarice krstaricu krstarici крстарица крстарице крстарицу крстарици
+35	7235	namjestiti	namjestiti namjesti namjestite namjestim namjestimo namjestiš namještati namjeste намјестити намјести намјестите намјестим намјестимо намјестиш намјештати намјесте
+36	7236	redosled	redosled redosledom redosledu redosleda редослед редоследом редоследу редоследа
+37	7237	masturbirati	masturbirao masturbira masturbiram masturbiraš masturbirati masturbiraju masturbirala masturbiranje masturbirate мастурбирао мастурбира мастурбирам мастурбираш мастурбирати мастурбирају мастурбирала мастурбирање мастурбирате
+38	7238	hir	hir hira hirove hiru hirovima hirova hirovi hire хир хира хирове хиру хировима хирова хирови хире
+39	7239	uzdravlje	uzdravlje уздравље
+40	7240	zloupotreba	zloupotreba zloupotrebe zloupotrebu zloupotrebi zloupotrebom злоупотреба злоупотребе злоупотребу злоупотреби злоупотребом
+41	7241	spavaćica	spavaćicu spavaćici spavaćica spavaćice спаваћицу спаваћици спаваћица спаваћице
+42	7242	knjigovođa	knjigovođa knjigovođe knjigovođu knjigovođom knjigovođi књиговођа књиговође књиговођу књиговођом књиговођи
+43	7243	plućni	plućno plućna plućni plućnu plućne plućnog plućnom плућно плућна плућни плућну плућне плућног плућном
+44	7244	isporučivati	isporučuje isporučujem isporučuju isporučujemo isporučivao isporučuješ isporučujete isporučivati isporučivali испоручује испоручујем испоручују испоручујемо испоручивао испоручујеш испоручујете испоручивати испоручивали
+45	7245	zastrašiti	zastrašiti zastraši zastraše zastrašen zastrašio zastrašeni zastrašili zastrašiš zastrašena zastrašite zastrašim застрашити застраши застраше застрашен застрашио застрашени застрашили застрашиш застрашена застрашите застрашим
+46	7246	napomenuti	napomenem napomenuo napomenuti napomenula napomene napomenu napomeni напоменем напоменуо напоменути напоменула напомене напомену напомени
+47	7247	ostvarenje	ostvarenje ostvarenja ostvarenju остварење остварења остварењу
+48	7248	zapovedati	zapoveda zapovedam zapovedaš zapovedate zapovedao zapovedati zapovedaju zapovedaj заповеда заповедам заповедаш заповедате заповедао заповедати заповедају заповедај
+49	7249	kreda	krede kreda kredu kredom kredo креде креда креду кредом кредо
+50	7250	proljeće	proljeće proljeća прољеће прољећа
+51	7251	dodavanje	dodavanje dodavanja dodavanjem dodavanju додавање додавања додавањем додавању
+52	7252	maloprije	maloprije малоприје
+53	7253	identifikovati	identifikovati идентификује идентификују идентификовати
+54	7254	sarkazam	sarkazam sarkazma sarkazmom сарказам сарказма сарказмом
+55	7255	slepac	slepac slepca slepci slepcu slepče slepce slepcem слепац слепца слепци слепцу слепче слепце слепцем
+56	7256	zrnce	zrnca zrnaca zrnce zrncima зрнца зрнаца зрнце зрнцима
+57	7257	žulj	žulj žuljeve žulja žuljevi žuljeva žuljevima жуљ жуљеве жуља жуљеви жуљева жуљевима
+58	7258	naizgled	naizgled наизглед
+59	7259	porađati	porađa porađala porađam porađaš porađaju porađanje порађа порађала порађам порађаш порађају порађање
+60	7260	dželat	dželat dželata dželatu dželati dželatom џелат џелата џелату џелати џелатом
+61	7261	tolerancija	tolerancije toleranciju tolerancija toleranciji толеранције толеранцију толеранција толеранцији
+62	7262	otpust	otpust отпуст
+63	7263	ludača	ludača лудача
+64	7264	prigoda	prigodu prigoda prigode prigodom prigodama prigodi пригоду пригода пригоде пригодом пригодама пригоди
+65	7265	zaručnica	zaručnica zaručnicu zaručnicom zaručnice zaručnici заручница заручницу заручницом заручнице заручници
+66	7266	podnožje	podnožju podnožja podnožje подножју подножја подножје
+67	7267	bujan	bujnu bujna bujne bujnom bujnim bujnih бујну бујна бујне бујном бујним бујних
+68	7268	seksualnost	seksualnost seksualnosti seksualnošću сексуалност сексуалности сексуалношћу
+69	7269	istrebiti	istrebiti istrebljeni istrebi istrebe istrebili istrebimo istrebljena istrebljen istrebite istrebio istrebim istrebljene istrebljeno истребити истребљени истреби истребе истребили истребимо истребљена истребљен истребите истребио истребим истребљене истребљено
+70	7270	suspenzija	suspenzija suspenziju suspenzije suspenzijom suspenziji суспензија суспензију суспензије суспензијом суспензији
+71	7271	jamčiti	jamčim jamčiti jamči jamčio jamče јамчим јамчити јамчи јамчио јамче
+72	7272	meditacija	meditaciju meditacija meditacije meditaciji meditacijom медитацију медитација медитације медитацији медитацијом
+73	7273	pojedini	pojedini pojedine pojedinim pojedinih pojedina pojedinog поједини поједине појединим појединих поједина појединог
+74	7274	valuta	valuta valute valutu valuti valutom valutama валута валуте валуту валути валутом валутама
+75	7275	uzdržati	uzdržim uzdrži uzdržan uzdržite uzdržati uzdržiš uzdržani uzdržana uzdržano uzdržimo uzdržao uzdrže уздржим уздржи уздржан уздржите уздржати уздржиш уздржани уздржана уздржано уздржимо уздржао уздрже
+76	7276	fiksan	fiksni fiksna fiksne fiksnu fiksnog fiksno fiksnim фиксни fiksnom фиксна фиксне фиксну фиксног фиксно фиксним фиксном
+77	7277	useljavati	useljava useljavam useljavaš useljavamo useljavaju useljavanje useljavate усељава усељавам усељаваш усељавамо усељавају усељавање усељавате
+78	7278	grah	grah graha grahom грах граха грахом
+79	7279	udobnost	udobnost udobnosti удобност удобности
+80	7280	rudarski	rudarski rudarska rudarske rudarsku rudarskom rudarskog rudarsko rudarskih rudarskoj rudarskim рударски рударска рударске рударску рударском рударског рударско рударских рударској рударским
+81	7281	barikada	barikade barikada barikadu barikadama барикаде барикада барикаду барикадама
+82	7282	hor	hor хор
+83	7283	brijač	brijač brijačem brijača brijače бријач бријачем бријача бријаче
+84	7284	muha	muhe muha muhu мухе муха муху
+85	7285	konstantan	konstantna konstantan konstantnom konstantne konstantnog konstantni konstantnim konstantnu konstantnoj konstantnih константна константан константном константне константног константни константним константну константној константних
+86	7286	peraja	peraja peraje peraju perajama пераја пераје перају перајама
+87	7287	motka	motku motkom motka motke motkama motki мотку мотком мотка мотке моткама мотки
+88	7288	razmer	razmera razmere razmeri razmeru размера размере размери размеру
+89	7289	izbijati	izbija izbijanje izbijaju izbijala избија избијање избијају избијала
+90	7290	belkinja	belkinja belkinje belkinju belkinjom belkinjama белкиња белкиње белкињу белкињом белкињама
+91	7291	razarač	razarač razarača razarači razaraču razarače razaračima разарач разарача разарачи разарачу разараче разарачима
+92	7292	nastran	nastran nastrani nastrana nastrane nastranim nastranu nastranog nastranih настран настрани настрана настране настраним настрану настраног настраних
+93	7293	lebdjeti	lebdi lebde lebdim lebdiš lebdjeti lebdio lebdeći lebdenje lebdimo lebdite лебди лебде лебдим лебдиш лебдјети лебдио лебдећи лебдење лебдимо лебдите
+94	7294	kockarnica	kockarnice kockarnica kockarnicu kockarnici kockarnicama коцкарнице коцкарница коцкарницу коцкарници коцкарницама
+95	7295	odjuriti	odjurio odjurila odjuri odjuriti odjurili odjuriš odjurim одјурио одјурила одјури одјурити одјурили одјуриш одјурим
+96	7296	otmjen	otmjeno otmjena otmjeni otmjen otmjene otmjenu otmjenom otmjenim отмјено отмјена отмјени отмјен отмјене отмјену отмјеном отмјеним
+97	7297	veslo	vesla veslo veslom veslima vesala весла весло веслом веслима весала
+98	7298	odsjeći	odsjeći odsjekao odsjekli odsječeni odsječen odsječena odsjekla odsijeci odsječene одсјећи одсјекао одсјекли одсјечени одсјечен одсјечена одсјекла одсијеци одсјечене
+99	7299	zapaziti	zapazio zapazili zapazila zapaziti zapazi zapazite zapažen zapažena запазио запазили запазила запазити запази запазите запажен запажена
+100	7300	svojevoljno	svojevoljno својевољно

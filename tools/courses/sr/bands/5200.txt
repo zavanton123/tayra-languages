@@ -1,0 +1,100 @@
+1	5101	pohlepa	pohlepa pohlepe pohlepu pohlepom pohlepi похлепа похлепе похлепу похлепом похлепи
+2	5102	tugovati	tuguje tugujem tugovati tuguješ tuguj tuguju tugovanje tugujemo tugovala tugovao tugujete tugovali tugujte tugujući тугује тугујем туговати тугујеш тугуј тугују туговање тугујемо туговала туговао тугујете туговали тугујте тугујући
+3	5103	petoro	petoro петоро
+4	5104	osjetljiv	osjetljiv osjetljiva osjetljivi osjetljivo osjetljive osjetljivu osjetljivim osjetljiviji osjetljivih osjetljivom осјетљив осјетљива осјетљиви осјетљиво осјетљиве осјетљиву осјетљивим осјетљивији осјетљивих осјетљивом
+5	5105	halucinacija	halucinacije halucinacija halucinacijama halucinaciju халуцинације халуцинација халуцинацијама халуцинацију
+6	5106	izvestiti	izveštava izvestim izvestite izvestio izvestiti izvestili izveštavati izvestiću izvestila izvestimo izvestiš izveste извештава известим известите известио известити известили извештавати известићу известила известимо известиш известе
+7	5107	gvožđe	gvožđe gvožđa gvožđem гвожђе гвожђа gvožđu гвожђем гвожђу
+8	5108	samoća	samoće samoća samoću samoći samoćom самоће самоћа самоћу самоћи самоћом
+9	5109	dodatno	dodatno додатно
+10	5110	đavolji	đavolji đavolja đavolje đavoljeg đavolju đavoljim đavoljem đavoljoj đavoljih ђавољи ђавоља ђавоље ђавољег ђавољу ђавољим ђавољем ђавољој ђавољих
+11	5111	počastiti	počašćen počastiti počašćena počastim počašćeni počastio počasti počastite počastimo počastili počastiš počastila почашћен почастити почашћена почастим почашћени почастио почасти почастите почастимо почастили почастиш почастила
+12	5112	iskrvariti	iskrvario iskrvari iskrvarila iskrvariti iskrvariće iskrvariš iskrvarim iskrvarili iskrvariću iskrvarićeš iskrvare искрвари искрварио искрварила искрварити искрвариће искрвариш искрварим искрварили искрварићу искрварићеш искрваре
+13	5113	komplet	komplet kompleta kompletu комплет kompletom komplete комплета комплету комплетом комплете
+14	5114	očaj	očaj očaja očaju očajem очај очаја очају очајем
+15	5115	zahod	zahod zahodu zahoda zahode zahodi zahodima заход заходу захода заходе заходи заходима
+16	5116	zabrinutost	zabrinutost zabrinutosti забринутост zabrinutošću забринутости забринутошћу
+17	5117	sanja	sanja sanju сања сању
+18	5118	prikladan	prikladan prikladna prikladnije prikladne prikladnu prikladnim prikladniji prikladni prikladnija prikladnom prikladnog najprikladniji prikladnih najprikladnije прикладан прикладна прикладније прикладне прикладну прикладним прикладнији прикладни прикладнија прикладном прикладног најприкладнији прикладних најприкладније
+19	5119	gaditi	gadi gadiš gadim gadite gadilo gadio gaditi gadila gade гаде гади гадиш гадим гадите гадило гадио гадити гадила
+20	5120	isključivo	isključivo искључиво
+21	5121	gledište	gledišta gledište гледишта gledištu гледиште гледишту
+22	5122	tak	tak taka taku takom так така таку таком
+23	5123	pornografija	pornografija pornografiju pornografije pornografijom pornografski pornografske pornografiji pornografska pornografsku pornografskih порнографија порнографију порнографије порнографијом порнографски порнографске порнографији порнографска порнографску порнографских
+24	5124	viza	vizu viza vize vizom vizi vizama визу виза визе визом визи визама
+25	5125	naglo	naglo нагло
+26	5126	debata	debatu debata debate debati debatama debatom дебата дебату дебате дебати дебатама дебатом
+27	5127	bodež	bodež bodežom bodeža bodeže bodeži bodežu bodežima бодеж бодежом бодежа бодеже бодежи бодежу бодежима
+28	5128	samuraj	samuraj samuraja samuraji samuraju samuraje samurajima samurajem самурај самураја самураји самурају самураје самурајима самурајем
+29	5129	značajno	značajno значајно
+30	5130	raspust	raspust raspusta raspustu raspusti raspuste распуст распуста распусту распусти распусте
+31	5131	ulov	ulov ulovi ulove ulova ulovom улов ulovu улови улове улова уловом улову
+32	5132	got	got goti гот gota готи гота
+33	5133	ribar	ribar ribari ribara ribare ribarima ribaru рибар рибари рибара рибаре рибарима рибару
+34	5134	telohranitelj	telohranitelj telohranitelja telohranitelji telohraniteljima telohranitelju телохранитељ телохранитеља телохранитељи телохранитељима телохранитељу
+35	5135	neprihvatljiv	neprihvatljivo neprihvatljiv neprihvatljiva neprihvatljivi neprihvatljive neprihvatljivim неприхватљиво неприхватљив неприхватљива неприхватљиви неприхватљиве неприхватљивим
+36	5136	lažljivac	lažljivac lažljivče lažljivci lažljivcem lažljivca lažljivce lažljivaca lažljivcima лажљивац лажљивче лажљивци лажљивцем лажљивца лажљивце лажљиваца лажљивцима
+37	5137	užitak	užitak užitka užitaka užitkom užitke užicima užitku užici ужитак ужитка ужитака ужитком ужитке ужицима ужитку ужици
+38	5138	odraz	odraz odraza odrazi odrazu одраз odraze odrazom одраза одрази одразу одразе одразом
+39	5139	orgazam	orgazam orgazma orgazme orgazama orgazmi orgazmu orgazmom оргазам оргазма оргазме оргазама оргазми оргазму оргазмом
+40	5140	poni	ponija poni poniji понија пони понији
+41	5141	ubacivati	ubacuje ubacujem ubacivanje ubacuju ubacuješ ubacujemo ubacivao ubacivati ubacuj ubacujete ubacivali ubacivala ubacujući ubacujte убацује убацујем убацивање убацују убацујеш убацујемо убацивао убацивати убацуј убацујете убацивали убацивала убацујући убацујте
+42	5142	ugledan	ugledni ugledan ugledna ugledne uglednog uglednih ugledno uglednim uglednu uglednom uglednoj угледни угледан угледна угледне угледног угледних угледно угледним угледну угледном угледној
+43	5143	deseti	deseti desete desetog deseta desetom desetoj desetu deseto десети десете десетог десета десетом десетој десету десето
+44	5144	revolver	revolver revolvera revolverom revolvere revolveru револвер revolverima revolveri револвера револвером револвере револверу револверима револвери
+45	5145	šaputati	šapuće šapućeš šapuću šapućete šaputao šapućem šaputati šaputali šapućemo šaputala šapući шапуће šapućući шапућеш шапућу шапућете шапутао шапућем шапутати шапутали шапућемо шапутала шапући шапућући
+46	5146	arena	areni arenu arene arena арени арену арене арена
+47	5147	proračun	proračun proračunima proračuni proračune proračunu proračuna proračunom прорачун прорачунима прорачуни прорачуне прорачуну прорачуна прорачуном
+48	5148	drugdje	drugdje другдје
+49	5149	adrenalin	adrenalin adrenalina adrenalinom adrenalinu adrenalinski адреналин adrenaline адреналина адреналином адреналину адреналински адреналине
+50	5150	fon	fon фон
+51	5151	železnički	železničke železničkoj železnička železničku železnički železničkih železničkim železničkom železničkog железничка железничке железничкој железничку железнички железничких железничким железничком железничког
+52	5152	sramiti	sramiti srami sramim sramiš sramite sramio sramila srame срамити срами срамим срамиш срамите срамио срамила сраме
+53	5153	vladavina	vladavine vladavina vladavinu vladavinom vladavini владавине владавина владавину владавином владавини
+54	5154	rehabilitacija	rehabilitaciju rehabilitaciji rehabilitacije rehabilitacija rehabilitacijom рехабилитацију рехабилитацији рехабилитације рехабилитација рехабилитацијом
+55	5155	dlakav	dlakavi dlakava dlakave dlakav dlakavo dlakavim dlakavog dlakavih dlakavu dlakavom длакави длакава длакаве длакав длакаво длакавим длакавог длакавих длакаву длакавом
+56	5156	četvrtina	četvrtine četvrtinu četvrtina četvrtini četvrtinom четвртина четвртине четвртину четвртини четвртином
+57	5157	prikaz	prikaz prikaze prikaza prikazu prikazi prikazom приказ prikazima приказе приказа приказу прикази приказом приказима
+58	5158	poroditi	porodila poroditi porodi porodim porodio porodiš porodili porodite porodiću porode porodiće porodimo породила породити породи породим породио породиш породили породите породићу породе породиће породимо
+59	5159	nitkov	nitkov nitkove nitkova nitkovi nitkovu nitkovima nitkovom нитков ниткове ниткова ниткови ниткову нитковима нитковом
+60	5160	odbrambeni	odbrambeni odbrambene odbrambenih odbrambena odbrambenu odbrambeno odbrambenog odbrambenim odbrambenom odbrambenoj одбрамбени одбрамбене одбрамбених одбрамбена одбрамбену одбрамбено одбрамбеног одбрамбеним одбрамбеном одбрамбеној
+61	5161	prijevoz	prijevoz prijevoza prijevozu prijevozom пријевоз пријевоза пријевозу пријевозом
+62	5162	hladiti	hladi hlađenje hladiti hladila hlade hladio hladim хлади хлађење хладити хладила хладе хладио хладим
+63	5163	šapa	šape šapu šapa šapama šapom šapi шапе шапу шапа шапама шапом шапи
+64	5164	vakcina	vakcinu vakcine vakcina vakcini vakcinama vakcinom вакцину вакцине вакцина вакцини вакцинама вакцином
+65	5165	presresti	presreli presreo presresti presretne presretni presretnemo presrela presretnu presretnite presretnem presrešćemo presretnete пресрели пресрео пресрести пресретне пресретни пресретнемо пресрела пресретну пресретните пресретнем пресрешћемо пресретнете
+66	5166	silan	silne silan silnog silni silnih silna silnim silnu silnom silnoj силне силан силног силни силних силна силним силну силном силној
+67	5167	lutrija	lutriji lutriju lutrija lutrije lutrijom лутрији лутрију лутрија лутрије лутријом
+68	5168	bijes	bijes bijesa bijesom bijesu бијес бијеса бијесом бијесу
+69	5169	nemilosrdan	nemilosrdan nemilosrdni nemilosrdna nemilosrdne nemilosrdnog nemilosrdnim nemilosrdnom nemilosrdnu nemilosrdnih немилосрдан немилосрдни немилосрдна немилосрдне немилосрдног немилосрдним немилосрдном немилосрдну немилосрдних
+70	5170	jelda	jelda јелда
+71	5171	rutinski	rutinski rutinska rutinske rutinsko rutinsku rutinskoj rutinskog rutinskih rutinskom рутински rutinskim рутинска рутинске рутинско рутинску рутинској рутинског рутинских рутинском рутинским
+72	5172	miti	mije umijem umij umiješ miju miti umi umio umije umiti mij umijete umijemo umiju мије умијем умиј умијеш мију мити уми умио умије умити миј умијете умијемо умију
+73	5173	iglu	iglu иглу
+74	5174	telesni	telesne telesnih telesna telesnu telesni telesno telesnim telesnog telesnom telesnoj телесне телесних телесна телесну телесни телесно телесним телесног телесном телесној
+75	5175	kolona	kolona kolonu kolone koloni kolonama kolonom колона колону колоне колони колонама колоном
+76	5176	grč	grč grčeve grčevi grčeva grču grčevima grča грчеве грч грчеви грчева грчу грчевима грча
+77	5177	istočno	istočno источно
+78	5178	kapela	kapelu kapeli kapela kapele kapelo капелу капели капела капеле капело
+79	5179	zaposlenik	zaposlenika zaposlenik zaposlenici zaposlenike zaposlenicima zaposleniku запосленика запосленик запосленици запосленике запосленицима запосленику
+80	5180	kradljivac	kradljivac kradljivci kradljivca kradljivaca kradljivce kradljivcima kradljivče kradljivcem kradljivcu крадљивац крадљивци крадљивца крадљиваца крадљивце крадљивцима крадљивче крадљивцем крадљивцу
+81	5181	њему	њему
+82	5182	štedeti	štedi štedeo štedim štedeti štedimo štedela štedite štedeli štediš štede штеди štedeći штедео штедим штедети штедимо штедела штедите штедели штедиш штеде штедећи
+83	5183	predviđati	predviđa predviđanje predviđam predviđaju predviđamo predviđao predviđali predviđaš predviđate predviđati predviđajući предвиђа предвиђање предвиђам предвиђају предвиђамо предвиђао предвиђали предвиђаш предвиђате предвиђати предвиђајући
+84	5184	teleskop	teleskop teleskopa teleskopom teleskopi teleskope teleskopu teleskopima телескоп телескопа телескопом телескопи телескопе телескопу телескопима
+85	5185	inspekcija	inspekciju inspekcija inspekcije inspekciji inspekcijom инспекцију инспекција инспекције инспекцији инспекцијом
+86	5186	golem	golem golema golemi goleme golemo golemu golemom golemim golemog голем golemih golemoj голема големи големе големо голему големом големим големог големих големој
+87	5187	ćurka	ćurku ćurka ćurke ćurki ćurkom ćurko ćurkama ћурку ћурка ћурке ћурки ћурком ћурко ћуркама
+88	5188	striptiz	striptiz striptiza striptizom стриптиз striptizu стриптиза стриптизом стриптизу
+89	5189	kult	kult kulta kultu kultovi kultom kultova култ kultovima kultove култа култу култови култом култова култовима култове
+90	5190	lažirati	lažirao lažira lažirala lažirati lažirali lažiranje lažiram lažiraš lažiramo lažiraju lažirano lažirana lažiran лажирао лажира лажирала лажирати лажирали лажирање лажирам лажираш лажирамо лажирају лажирано лажирана лажиран
+91	5191	razumljivo	razumljivo разумљиво
+92	5192	ispisati	ispisao ispisano ispisati ispisala ispisana ispisan ispišem ispisali ispisane ispiši ispišeš ispisani ispišemo ispiše ispisaću ispišu исписао исписано исписати исписала исписана исписан испишем исписали исписане испиши испишеш исписани испишемо испише исписаћу испишу
+93	5193	crvotočina	crvotočinu crvotočina crvotočine crvotočinama crvotočini crvotočinom црвоточину црвоточина црвоточине црвоточинама црвоточини црвоточином
+94	5194	zračenje	zračenje zračenja zračenjem zračenju зрачења зрачење зрачењем зрачењу
+95	5195	ironično	ironično иронично
+96	5196	spis	spise spis spisi spisima spisa spisu списе спис списи списима списа спису
+97	5197	ekstremno	ekstremno екстремно
+98	5198	gusar	gusar gusari gusara gusare gusarima gusaru гусар гусари гусара гусаре гусарима гусару
+99	5199	nadalje	nadalje надаље
+100	5200	ugrožavati	ugrožava ugrožavaš ugrožavanje ugrožavaju ugrožavate ugrožavam ugrožavati ugrožavamo ugrožavao ugrožavajući угрожава ugrožavala угрожаваш угрожавање угрожавају угрожавате угрожавам угрожавати угрожавамо угрожавао угрожавајући угрожавала

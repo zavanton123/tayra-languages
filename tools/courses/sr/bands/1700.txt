@@ -1,0 +1,100 @@
+1	1601	pali	pali пали
+2	1602	ploča	ploče ploča ploču pločice ploči pločica pločicu pločama pločicama pločom pločici плоча плоче плочу pločicom плочице плочи плочица плочицу плочама плочицама плочом плочици плочицом
+3	1603	farma	farmi farmu farme farma farmama farmom фарми фарму фарме фарма фармама фармом
+4	1604	cveće	cveće cveća cvećem цвеће cveću цвећа цвећем цвећу
+5	1605	odbijati	odbija odbijam odbijaš odbijaju odbijate odbijao odbijala odbijamo odbijali odbijati odbijajući odbijaj одбија одбијам одбијају odbijale odbijajte одбијаш одбијате одбијао одбијала одбијамо одбијали одбијати одбијајући одбијај одбијале одбијајте
+6	1606	pokriti	pokriti pokrij pokrije pokriće pokrio pokriven pokrijte pokrili pokrijem pokriveno pokrivena pokrijemo pokriveni pokrila pokriješ pokriju pokrivene pokri pokriću pokrijete pokrilo pokrićemo pokrit покрије покрити pokrite покривен покриј покриће покрио покријте покрили покријем покривено покривена покријемо покривени покрила покријеш покрију покривене покри покрићу покријете покрило покрићемо покрит покрите
+7	1607	izmisliti	izmislio izmislila izmislili izmisliti izmišljeni izmisli izmišljena izmišljeno izmišljene izmislim izmisliš izmisle izmišljati izmislimo измислио izmislite izmislile измислили izmisliću izmislićemo измислила измислити измишљени измисли измишљена измишљено измишљене измислим измислиш измисле измишљати измислимо измислите измислиле измислићу измислићемо
+8	1608	dopasti	dopalo dopasti dopao dopala dopašće dopadne dopali dopale dopadnem допало dopadneš dopadnu допасти допао допала допашће dopašćeš допадне допали допале допаднем допаднеш допадну допашћеш
+9	1609	model	model modela modeli modele modelu modelima modelom модел модела модели моделе моделу моделима моделом
+10	1610	internet	internet internetu interneta интернет интернету интернета
+11	1611	rizik	rizik rizika riziku rizike rizici rizikom ризик rizicima ризика ризику ризике ризици ризиком ризицима
+12	1612	požar	požar požara požaru požare požari požarom пожар požarima пожара пожару пожаре пожари пожаром пожарима
+13	1613	visiti	visi vise visio visiš visim visiti visila visimo виси visili viseći visite visjeti visilo visile висио висе висиш висим висити висила висимо висили висећи висите висјети висило висиле
+14	1614	grozan	grozan grozna grozne grozni groznu groznom groznog groznim groznih groznoj грозна грозан грозне грозни грозну грозном грозног грозним грозних грозној
+15	1615	podnijeti	podnijeti podnesem podnosi podnese podneseš podnio podnositi podnijela podnesu podnesete podnesemo podnijeli podnijet podnesi podnesite поднесем поднесе поднијети подноси поднесеш поднио подносити поднијела поднесу поднесете поднесемо поднијели поднијет поднеси поднесите
+16	1616	student	student studenti studenata studente studenta studentima studentu студент studentom студенти студената студенте студентима студента студенту студентом
+17	1617	toalet	toalet toaletu toaleta toalete toaleti тоалет toaletom toaletima тоалету тоалета тоалете тоалети тоалетом тоалетима
+18	1618	kapirati	kapiram kapiraš kapirate капирам kapira ukapirati kapiramo капираш kapiraju skapirati kapirao kapirala капирате капира укапирати капирамо капирају скапирати капирао капирала
+19	1619	marka	marko marka marku marke maraka markom marki markica марко marci markama марка марака марке марку марком марки маркица марци маркама
+20	1620	fer	fer фер
+21	1621	đubre	đubre đubreta đubrad đubretu đubretom ђубре đubradi ђубрета ђубрад ђубрету ђубретом ђубради
+22	1622	testirati	testiranje testirati testira testirali testirao testiramo testiram testiraju testiraš testirala testiran testiraj testirate testirana testirani testirajte testirano тестирање testiraću testiraćemo testirajmo testiraće testirane тестирати тестирали testirajući тестира тестирам тестирају тестирао тестирамо тестираш тестирала тестиран тестирај тестирате тестирана тестирани тестирајте тестирано тестираћу тестираћемо тестирајмо тестираће тестиране тестирајући
+23	1623	odeljenje	odeljenje odeljenja odeljenju odeljenjem одељење одељења одељењу odeljenjima одељењем одељењима
+24	1624	boca	bocu boca boce boci bocom bocama боцу боца боце боци боцом боцама
+25	1625	pauza	pauzu pauza pauze pauzi паузу пауза pauzama паузе pauzom паузи паузама паузом
+26	1626	napokon	napokon напокон
+27	1627	predmet	predmet predmeta predmete predmetom predmeti predmetima predmetu предмет предмета предмете предмету предмети предметом предметима
+28	1628	vlastit	vlastiti vlastitu vlastite vlastitog vlastitim vlastitom vlastito vlastita vlastitoj vlastitih властити властиту властите властитог властитим властитом властито властита властитој властитих
+29	1629	izvršiti	izvršio izvrši izvršiti izvršili izvršila izvršena izvršim izvršite izvršenje izvršimo izvršeno izvrše izvršen izvršiš изврши izvršiću izvršene izvršićemo извршио izvršilo izvršile izvršiće извршити извршена извршење izvršeni извршили извршила извршим извршите извршимо извршено изврше извршен извршиш извршићу извршене извршићемо извршило извршиле извршиће извршени
+30	1630	optužba	optužbe optužba optužbi optužbu optužbama optužbom оптужбе оптужби оптужба optužaba оптужбу оптужбама оптужбом оптужаба
+31	1631	rasti	raste rasti rastu rasla rasteš rasli narasti raslo расте rasle rastući rastem rastemo расти rastete расту rašće расла растеш расли нарасти расло расле растући растем растемо растете рашће
+32	1632	stopalo	stopala stopalo stopalima stopalom stopalu стопала стопало стопалима стопалом стопалу
+33	1633	uzbudljiv	uzbudljivo uzbudljiv uzbudljiva uzbudljive uzbudljivije узбудљиво uzbudljivi uzbudljivu najuzbudljiviji najuzbudljivije uzbudljivim najuzbudljivija uzbudljivom uzbudljivih uzbudljivog uzbudljiviji najuzbudljivijih uzbudljivoj uzbudljivija uzbudljivijim узбудљив узбудљива узбудљиве узбудљивије узбудљиви узбудљиву најузбудљивији најузбудљивије узбудљивим најузбудљивија узбудљивом узбудљивих узбудљивог узбудљивији најузбудљивијих узбудљивој узбудљивија узбудљивијим
+34	1634	tući	tukao tući tukli tuku tuče tučeš tučem tuci tukla tučete tucite tučemo тукли тукао tuklo туку tukle tučen тући tučeni tučena туче tučeno тучеш тучем туци тукла тучете туците тучемо тукло тукле тучен тучени тучена тучено
+35	1635	kuvati	kuva kuvam kuvaš kuvanje kuvati kuvala kuvao kuvaju kuvate kuvano kuvana kuvamo kuvali kuvani kuvane kuvaj кува kuvaću кување kuvalo кувам kuvan kuvajući куваш kuvajte кувана кувати кувала кувао кувају кувате кувано кувамо кували кувани куване кувај куваћу кувало куван кувајући кувајте
+36	1636	poljubac	poljubac poljupca poljupcem poljupci poljubaca poljupce пољубац poljupcu poljupcima пољупца пољупцем пољупци пољубаца пољупце пољупцу пољупцима
+37	1637	maska	masku maska maske maskom maskama maski маску маске masci маска маском маскама маски масци
+38	1638	poverenje	poverenje poverenja poverenju poverenjem поверење поверења поверењу поверењем
+39	1639	gazda	gazda gazdu gazde gazdi gazdom газда gazdama газду газде газди газдом газдама
+40	1640	preseliti	preselio preselila preselili preseliti preseli preselim preselimo preseliš presele preselite преселио preseliću preselićemo preselile преселили преселила preselićeš preseljeni preseljena пресели preseliće preselilo преселити преселим преселимо преселиш преселе преселите преселићу преселићемо преселиле преселићеш пресељени пресељена преселиће преселило
+41	1641	odlazak	odlazak odlaska odlasku odlaskom одлазак odlasci odlaske одласка odlazaka odlascima одласку одласком одласци одласке одлазака одласцима
+42	1642	kat	kate kat katu kata katova кате katovi katove кат katovima ката кату катова катови катове катовима
+43	1643	slava	slava slavu slave slavi slavom слава славу славе slavo слави славом славо
+44	1644	slep	slep slepi slepa slepo slepog slepe slepih slepu slepom slepim слеп slepoj слепи slepima слепо слепа слепог слепе слепих слепу слепом слепим слепој слепима
+45	1645	skrivati	skriva skrivanje skrivati skrivaš skrivao skrivaju skrivam skrivala skrivali skrivate skrivamo skrivajući skrivaj скрива скривање skrivajte skrivale skrivalo скривао скривати скриваш скривају скривам скривала скривали скривате скривамо скривајући скривај скривајте скривале скривало
+46	1646	vampir	vampir vampira vampiri vampire vampirima vampiru vampirom вампир вампира вампири вампире вампирима вампиру вампиром
+47	1647	spor	sporo spor sporije spora spori spore sporiji sporu sporom sporim споро najsporiji sporog sporija спор sporih sporova спорије najsporije sporove sporovi sporoj спори спора споре спорији спору спором спорим најспорији спорог спорија спорих спорова најспорије спорове спорови спорој
+48	1648	uzbuđen	uzbuđen uzbuđena uzbuđeni uzbuđeno узбуђен uzbuđene узбуђена узбуђени uzbuđeniji uzbuđenog узбуђено узбуђене узбуђенији узбуђеног
+49	1649	nepoznat	nepoznat nepoznato nepoznati nepoznata nepoznatog nepoznate nepoznatim nepoznatih nepoznatom nepoznatu nepoznatima nepoznatoj непознат непознати непознатог непознато непозната непознатом непознате непознатим непознатих непознату непознатима непознатој
+50	1650	podrum	podrumu podrum podruma подруму подрум podrumima podrume podrumi podrumom подрума подрумима подруме подруми подрумом
+51	1651	zavezati	zaveži zavežite zavežeš zavezati zavezao zavezan zavežem завежи zaveže zavezana zavezali zavezala zavezane zavezani zavežete zavežu zavežemo zavezaću завежите завежеш завезати завезао завезан завежем завеже завезана завезали завезала завезане завезани завежете завежу завежемо завезаћу
+52	1652	starac	starac starca starče starci starce starcu staraca starcima starcem старац старца старче старци старце старцу стараца старцима старцем
+53	1653	namera	nameru namere namera namerom nameri namerama намеру намере намера намером намерама намери
+54	1654	spominjati	spominjem spominjao spominje spominji spominjati spominjala spominješ spominjemo spominju spominjali spominjete spominjite spominjanje спомињем спомињао spominjući spominjalo спомиње спомињи спомињати спомињала спомињеш спомињемо спомињу спомињали спомињете спомињите спомињање спомињући спомињало
+55	1655	politika	politika politiku politici politike politikom политика политику политике политици политиком
+56	1656	greh	greh grehe greha greše grehova gresi grehu grehove grehom грех gresima grehovi грехе греха grehovima греси грехова греше греху грехове грехом гресима грехови греховима
+57	1657	pošta	poštu pošta pošte poštom pošti пошту пошта поште поштом пошти
+58	1658	objašnjavati	objašnjava objašnjavam objašnjavaš objašnjavati objašnjavate objašnjavao objašnjavanje objašnjavaju објашњава objašnjavajući objašnjavala objašnjavaj objašnjavamo објашњавам objašnjavali објашњаваш објашњавати објашњавате објашњавао објашњавање објашњавају објашњавајући објашњавала објашњавај објашњавамо објашњавали
+59	1659	smeće	smeće smeća smeću smećem смеће смећа смећу смећем
+60	1660	leš	leš leševa leša leševe leševi leševima lešom lešu леш леша лешева лешеви лешеве лешевима лешом лешу
+61	1661	hitno	hitno хитно
+62	1662	bitan	bitan bitna bitne najbitnije bitni bitnije najbitnija najbitniji bitnim bitnu bitnih bitniji bitnog bitnom bitnija bitnijih битна битан najbitnijih битне најбитније najbitniju bitnijim битни битније најбитнија најбитнији битним битну битних битнији битног битном битнија битнијих најбитнијих најбитнију битнијим
+63	1663	mleko	mleko mleka mlekom млеко mleku млека млеком млеку
+64	1664	noćas	noćas ноћас
+65	1665	kukavica	kukavica kukavice kukavico kukavicom kukavicu кукавица кукавице kukavicama kukavici кукавицо кукавицом кукавицу кукавицама кукавици
+66	1666	staza	staze stazi staza stazu stazom stazama стазе стаза стазу стази стазом стазама
+67	1667	nek	nek нек
+68	1668	odjebati	odjebi odjebite odjebeš odjebe одјеби odjebati odjebem odjebemo odjebimo odjebao odjebu odjebete odjebala odjebali одјебите одјебеш одјебе одјебати одјебем одјебемо одјебимо одјебао одјебу одјебете одјебала одјебали
+69	1669	tolik	toliki tolika tolike toliku tolikim tolikom tolikog tolikih tolikoj толики толика tolik толику толике толиким толиком толиког толиких толикој толик
+70	1670	smanjiti	smanji smanjiti smanjio smanjenje smanjimo smanjili smanjim smanjite smanjila smanjiš smanje smanjena smanjenja smanjen smanjilo smanjenju смањи smanjene smanjiću smanjiće smanjenjem смањити smanjićemo smanjile smanjeni smanjeno смањење смањио смањимо смањили смањим смањите смањила смањиш смање смањена смањења смањен смањило смањењу смањене смањићу смањиће смањењем смањићемо смањиле смањени смањено
+71	1671	ruski	ruski ruske ruska ruskom ruskog rusku ruskih ruskim ruskoj rusko руски руске руска руског руском руских руску руским руској руско
+72	1672	izgraditi	izgradio izgradili izgraditi izgradi izgradimo izgrađen izgrađena izgrade izgradila izgradim izgradiš izgrađeno izgradite izgrađene izgrađeni izgradićemo изгради izgradiću izgradile изградили изградити изградио изграђен izgradilo izgradiće изграђена изградимо изграде изградила изградим изградиш изграђено изградите изграђене изграђени изградићемо изградићу изградиле изградило изградиће
+73	1673	tad	tad тад
+74	1674	bend	bend benda bendu bendom bendova bendovi bendove бенд bendovima бенду бенда бендом бендова бендови бендове бендовима
+75	1675	zona	zona zoni zonu zone zonama зоне зони zonom зона зону зонама зоном
+76	1676	posada	posada posade posadu posadi posadom posado посада посаде посаду posadama посадом посади посадо посадама
+77	1677	emisija	emisiju emisije emisija emisiji emisijama emisijom емисију емисији емисије емисија емисијама емисијом
+78	1678	sigurnost	sigurnost sigurnosti sigurnošću сигурност сигурности сигурношћу
+79	1679	lokacija	lokaciju lokacija lokacije lokaciji lokacijama локација локацију lokacijom локације локацији локацијама локацијом
+80	1680	hodnik	hodniku hodnik hodnika hodnicima hodnikom hodnike hodnici ходнику ходник ходника ходницима ходником ходнике ходници
+81	1681	iznenađen	iznenađen iznenađena iznenađeni iznenađeno изненађен изненађена iznenađene изненађени изненађено изненађене
+82	1682	spremati	spremam spremaju spremao spremaš spremamo spremala spremali spremate spremanje spremati spremaj spremajući spremalo спремам spremajte спремају spremale спремао спремаш spremana спремамо спремала спремали спремате спремање спремати спремај спремајући спремало спремајте спремале спремана
+83	1683	faca	facu faca face faco faci facom facama фаца фацу фаце фацо фаци фацом фацама
+84	1684	obraćati	obraćaj obraćam obraća obraćaš obraćao obraćajte obraćati obraćate obraćaju obraćala obraćanje obraćali obraćamo obraćanju обраћај обраћа обраћаш обраћам obraćajući обраћајте обраћао обраћати обраћате обраћају обраћала обраћање обраћали обраћамо обраћању обраћајући
+85	1685	leteti	letim leteti leteo letiš letimo leteli letenje letela letite leteće lete летим letele letećemo leteću летети летео letećeš летиш letelo летимо летите летење letećete летели летеће лете летећи летела летеле летећемо летећу летећеш летело летећете
+86	1686	lord	lord lorde lorda lordu lordovi lordova lordom лорде лорд lordove лорда lordovima лорду лордови лордова лордом лордове лордовима
+87	1687	stav	stav stave stavom stava stavove stavu stavovi став stavovima stavova ставе ставом става ставове ставу ставови ставовима ставова
+88	1688	sisa	sise sisa sisi sisama sisu сисе siso сиса сисама сиси sisom сису сисо сисом
+89	1689	grozno	grozno грозно
+90	1690	bazen	bazen bazena bazenu bazene bazenom bazeni базен bazenima базену базена базене базеном базени базенима
+91	1691	kriminalac	kriminalac kriminalci kriminalca kriminalce kriminalaca kriminalcima kriminalcem kriminalcu криминалац криминалци криминалце криминалца криминалаца криминалцима криминалцем криминалцу
+92	1692	pretražiti	pretražili pretražite pretraži pretražiti pretražio pretražimo pretražuju pretražuje pretražila pretraživanje pretraže pretražim pretražujemo pretražujem pretraživao pretraživali pretražićemo pretraživati pretražiš pretraživala pretražiću pretražena pretražujete pretražuješ претражили pretražujući претражите pretražen pretražiće претражи претражио pretraženo претражити претражимо претражују претражује претражила претраживање претраже претражим претражујемо претражујем претраживао претраживали претражићемо претраживати претражиш претраживала претражићу претражена претражујете претражујеш претражујући претражен претражиће претражено
+93	1693	udaviti	dave davi udavi davljenje udaviti davim davio daviš udavim udaviš davila daviti udaviću udave udaviće davite davili udavite udavimo davimo udavićeš дави udavićemo daveći даве дављење удави удавити давим давио давиш удавим удавиш давила давити удавићу удаве удавиће давите давили удавите удавимо давимо удавићеш удавићемо давећи
+94	1694	današnji	današnji današnje današnja današnjeg današnjem današnjim današnjih današnju današnjoj današnjom данашњи данашње данашњег данашња данашњем данашњим данашњих данашњу данашњој данашњом
+95	1695	četvrti	četvrti četvrta četvrtog četvrtom četvrto četvrte četvrtu četvrtoj четврти četvrtim četvrtima четврта четвртог четвртом четврто четврте четврту четвртој четвртим четвртима
+96	1696	gradonačelnik	gradonačelnik gradonačelnika gradonačelniče gradonačelnikom gradonačelniku gradonačelnice gradonačelnica градоначелник градоначелника gradonačelnicu градоначелниче gradonačelnici градоначелником градоначелнику градоначелнице градоначелница градоначелницу градоначелници
+97	1697	odbor	odbor odbora odboru odborom одбор одбора odborima одбору odbori odbore одбором одборима одбори одборе
+98	1698	milost	milosti milost milošću милости милост милошћу
+99	1699	otvor	otvori otvor otvora otvore отвори otvoru отвор otvorom otvorima отворе отвора отвору отвором отворима
+100	1700	zdravlje	zdravlje zdravlja zdravlju zdravljem здравље здравља здрављу здрављем

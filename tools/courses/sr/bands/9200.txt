@@ -1,0 +1,100 @@
+1	9101	raspuštati	raspušta raspuštamo raspuštanje raspuštam распушта распуштамо распуштање распуштам
+2	9102	koridor	koridor koridora koridoru koridore коридор коридора коридору коридоре
+3	9103	poznanstvo	poznanstva poznanstvo познанства познанство
+4	9104	rukovodstvo	rukovodstvo rukovodstva rukovodstvom rukovodstvu руководство руководства руководством руководству
+5	9105	očinski	očinski očinska očinske očinsku очински очинска очинске очинску
+6	9106	čipka	čipka čipke čipku čipkom чипка чипке чипку чипком
+7	9107	zidar	zidar zidari zidara zidare зидар зидари зидара зидаре
+8	9108	mišićni	mišićne mišićni mišićna mišićnu mišićno mišićnog mišićnih mišićnom мишићне мишићни мишићна мишићну мишићно мишићног мишићних мишићном
+9	9109	tenkovski	tenkovske tenkovska tenkovski tenkovsku tenkovskih tenkovskoj tenkovskog tenkovskim тенковске тенковска тенковски тенковску тенковских тенковској тенковског тенковским
+10	9110	razaranje	razaranje разарање
+11	9111	danonoćni	danonoćno даноноћно
+12	9112	pedijatar	pedijatar pedijatra pedijatri педијатар педијатра педијатри
+13	9113	provokacija	provokacija provokacije provokaciju провокација провокације провокацију
+14	9114	selekcija	selekcija selekcije selekciju selekcijom селекција селекције селекцију селекцијом
+15	9115	implicirati	implicira impliciraš implicirate implicirao impliciram implicirati имплицира имплицираш имплицирате имплицирао имплицирам имплицирати
+16	9116	aktuelan	aktuelni aktuelno aktuelna aktuelne aktuelan aktuelnim aktuelnog aktuelnom актуелни актуелно актуелна актуелне актуелан актуелним актуелног актуелном
+17	9117	kampirati	kampiranje kampirati kampirali kampiraju kampirao кампирање кампирати кампирали кампирају кампирао
+18	9118	operator	operator operatora operatoru operatore operatori оператор оператора оператору операторе оператори
+19	9119	neuron	neurona neuroni neurone neuronima neuron неурона неурони неуроне неуронима неурон
+20	9120	kovrdžav	kovrdžavi kovrdžava kovrdžavu kovrdžavom kovrdžave коврџави коврџава коврџаву коврџавом коврџаве
+21	9121	stupati	stupaju stupamo stupaš stupam stupaj stupanje stupate stupati ступи ступају ступамо ступаш ступам ступај ступање ступате ступати
+22	9122	izrastati	izrastao izrasta izrastaju израстао израста израстају
+23	9123	zelenilo	zelenila zelenilo zelenilu zelenilom зеленила зеленило зеленилу зеленилом
+24	9124	nepovezan	nepovezano nepovezane nepovezani nepovezanih nepovezana nepovezan неповезано неповезане неповезани неповезаних неповезана неповезан
+25	9125	šepati	šepa šepao šepaš šepati šepam šepanje šepajući шепа шепао шепаш шепати шепам шепање шепајући
+26	9126	paragraf	paragraf paragrafa paragrafu параграф параграфа параграфу
+27	9127	sjahati	sjaši sjašite сјаши сјашите
+28	9128	slavuj	slavuj slavuja slavuji slavuju славуј славуја славуји славују
+29	9129	veleposlanstvo	veleposlanstvo veleposlanstva veleposlanstvu велепосланство велепосланства велепосланству
+30	9130	jež	jež ježa ježevi ježeve ježeva јеж јежа јежеви јежеве јежева
+31	9131	impotentan	impotentan impotentni impotentnim импотентан импотентни импотентним
+32	9132	jednostavnost	jednostavnost jednostavnosti jednostavnošću једноставност једноставности једноставношћу
+33	9133	zamjerati	zamjeram zamjeraš zamjerate zamjera zamjerati zamjerao замјерам замјераш замјерате замјера замјерати замјерао
+34	9134	talasni	talasnoj talasne talasnu talasnim talasni talasna talasnih таласној таласне таласну таласним таласни таласна таласних
+35	9135	krma	krmi krmu krma krmom крми крму крма крмом
+36	9136	zaseban	zasebne zasebna zasebnu zaseban zasebnih zasebni zasebnim засебне засебна засебну засебан засебних засебни засебним
+37	9137	beznačajno	beznačajno безначајно
+38	9138	porezati	porezao porezala porezati poreza porezali пореза порезао порезала порезати порезали
+39	9139	presti	prede predemo predem predu predeš predi predenje преде предемо предем преду предеш преди предење
+40	9140	razmetati	razmeće razmetanje razmećeš razmetao razmeću razmetati razmećem размеће разметање размећеш разметао размећу разметати размећем
+41	9141	okrilje	okriljem okrilje окриљем окриље
+42	9142	špijunka	špijunka špijunke špijunku шпијунке шпијунка шпијунку
+43	9143	svit	svit svita svitu svitom svite свит свита свиту свитом свите
+44	9144	iranski	iranski iranske iranskog iranska iransku iranskim iranskom iranskih ирански иранске иранског иранска иранску иранским иранском иранских
+45	9145	plavokos	plavokosi plavokosa plavokos plavokosog plavokose plavokosu плавокоси плавокоса плавокос плавокосог плавокосе плавокосу
+46	9146	ovalan	ovalnoj ovalni ovalnom ovalne ovalnu ovalnog ovalna овалној овални овалном овалне овалну овалног овална
+47	9147	paradirati	paradira paradiraju paradirati paradiraš paradirao paradiram paradirala paradiranje paradirate парадира парадирају парадирати парадираш парадирао парадирам парадирала парадирање парадирате
+48	9148	prvenstveno	prvenstveno првенствено
+49	9149	tjelohranitelj	tjelohranitelj tjelohranitelja tjelohranitelji tjelohranitelje тјелохранитељ тјелохранитеља тјелохранитељи тјелохранитеље
+50	9150	krošnja	krošnji krošnje krošnjama krošnju крошњи крошње крошњама крошњу
+51	9151	rđav	rđavo rđav rđavi rđava rđave рђаво рђав рђави рђава рђаве
+52	9152	prisluškivač	prisluškivač prisluškivače prisluškivača prisluškivači прислушкивач прислушкиваче прислушкивача прислушкивачи
+53	9153	močvaran	močvarni močvarna močvarno močvarne močvarnih močvarnim močvarnog močvarnom močvarnu мочварни мочварна мочварно мочварне мочварних мочварним мочварног мочварном мочварну
+54	9154	blic	blic blica blicevi блиц блица блицеви
+55	9155	mlaz	mlaz mlaza mlazovi mlazom mlazu млаз млаза млазови млазом млазу
+56	9156	glinen	glineni glinene glinenih glinenu glinena глинени глинене глинених глинену глинена
+57	9157	ven	ven вен
+58	9158	svrab	svrab svraba свраб свраба
+59	9159	provalija	provaliju provalije provalija provaliji провалију провалије провалија провалији
+60	9160	koalicija	koalicija koalicije koaliciju koaliciji коалиција коалиције коалицију коалицији
+61	9161	projektor	projektor projektora projektorom projektoru пројектор пројектора пројектором пројектору
+62	9162	duplikat	duplikat duplikate duplikati duplikata дупликат дупликате дупликати дупликата
+63	9163	bezobziran	bezobziran bezobzirni bezobzirna bezobzirne безобзиран безобзирни безобзирна безобзирне
+64	9164	nizvodno	nizvodno низводно
+65	9165	šumski	šumski шумски
+66	9166	abortirati	abortirala abortira abortiram abortiraš abortirati абортирала абортира абортирам абортираш абортирати
+67	9167	patricij	patricija patriciju patriciji patricije патриција патрицију патрицији патриције
+68	9168	intelekt	intelekt intelekta intelektom intelektu интелект интелекта интелектом интелекту
+69	9169	kutijica	kutijicu kutijica kutijici kutijice кутијицу кутијица кутијици кутијице
+70	9170	klada	klada kladi klade kladu клади клада кладе кладу
+71	9171	bura	bura buru buri бура буру бури
+72	9172	kijati	kija kijanje kijam kijaš kijao кија кијање кијам кијаш кијао
+73	9173	skrb	skrb skrbi скрб скрби
+74	9174	oličenje	oličenje оличење
+75	9175	garant	garant гарант
+76	9176	odgoj	odgoj odgoja odgoju одгој одгоја одгоју
+77	9177	dinamika	dinamiku dinamika dinamike dinamici динамику динамика динамике динамици
+78	9178	predahnuti	predahnem predahnuti predahnemo predahni predahne predahneš predahnite предахнем предахнути предахнемо предахни предахне предахнеш предахните
+79	9179	levoruk	levoruk levoruki levoruka levoruke леворук леворуки леворука леворуке
+80	9180	overiti	overi overio overeno overimo overim overen overena overiti overite overiš овери оверио оверено оверимо оверим оверен оверена оверити оверите овериш
+81	9181	zvocati	zvocaš zvoca zvocam zvocanje zvocala zvocati zvocaju звоцаш звоца звоцам звоцање звоцала звоцати звоцају
+82	9182	neprirodno	neprirodno неприродно
+83	9183	sirovo	sirovo сирово
+84	9184	nerazdvojan	nerazdvojni nerazdvojne нераздвојни нераздвојне
+85	9185	udio	udio udjela удио удјела
+86	9186	poslovođa	poslovođa poslovođu poslovođe пословођа пословођу пословође
+87	9187	biciklist	biciklista biciklisti bicikliste biciklistu biciklist бициклиста бициклисти бициклисте бициклисту бициклист
+88	9188	balistički	balistički balističke balističko balističkog balističkih balističku балистички балистичке балистичко балистичког балистичких балистичку
+89	9189	žohar	žohara žohar žohari žohare žoharu жохара жохар жохари жохаре жохару
+90	9190	trampiti	trampio trampimo trampiti trampim trampiš trampili trampila trampe trampi трампио трампимо трампити трампим трампиш трампили трампила трампе трампи
+91	9191	kompenzacija	kompenzaciju kompenzacija kompenzacije компензацију компензација компензације
+92	9192	tigrica	tigrica tigrice tigricu тигрица тигрице тигрицу
+93	9193	prerija	preriji prerije prerija preriju prerijama прерији прерије прерија прерију преријама
+94	9194	posrnuti	posrnula posrnuo posrnule posrnuli posrnuti posrne посрнула посрнуо посрнуле посрнули посрнути посрне
+95	9195	narančast	narančasti narančasto narančasta narančaste narančastu narančastom narančast наранчасти наранчасто наранчаста наранчасте наранчасту наранчастом наранчаст
+96	9196	atentator	atentator atentatora atentatori atentatore атентатор атентатора атентатори атентаторе
+97	9197	iznimka	iznimku iznimka iznimke iznimaka изнимку изнимка изнимке изнимака
+98	9198	slonovača	slonovače slonovača slonovaču slonovačom слоноваче слоновача слоновачу слоновачом
+99	9199	osmoro	osmoro осморо
+100	9200	naslovnik	naslovnici насловници

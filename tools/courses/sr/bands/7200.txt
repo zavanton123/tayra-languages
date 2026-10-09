@@ -1,0 +1,100 @@
+1	7101	organizovati	organizovati организовати организује организујем организујемо
+2	7102	tekma	tekmu tekma tekme tekmi текму текма текме текми
+3	7103	automobilski	automobilskoj automobilska automobilske automobilsku automobilski automobilskih automobilskim automobilskom automobilskog аутомобилској аутомобилска аутомобилске аутомобилску аутомобилски аутомобилских аутомобилским аутомобилском аутомобилског
+4	7104	posedovanje	posedovanje поседовање
+5	7105	posjećivati	posjećuje posjećivati posjećujem posjećivao posjećivala posjećuju posjećuješ posjećivali posjećujete посјећује посјећивати посјећујем посјећивао посјећивала посјећују посјећујеш посјећивали посјећујете
+6	7106	ambulantni	ambulantna ambulantnim ambulantnih ambulantno амбулантна амбулантним амбулантних амбулантно
+7	7107	zezati	zezati зезати
+8	7108	neoprostiv	neoprostivo neoprostiva neoprostive neoprostiv neoprostivi neoprostivu неопростиво неопростива неопростиве неопростив неопростиви неопростиву
+9	7109	odmaralište	odmaralište odmaralištu odmarališta odmaralištima одмаралиште одмаралишту одмаралишта одмаралиштима
+10	7110	travanj	travnja travanj travnju tra травња травањ травњу тра
+11	7111	organizator	organizator organizatora organizatori organizatore organizatorom organizatorima organizatoru организатор организатора организатори организаторе организатором организаторима организатору
+12	7112	dojiti	doji dojenje dojila dojim dojiti dojiš doje dojili доји дојење дојила дојим дојити дојиш доје дојили
+13	7113	siromah	siromah siromaha siromasi siromahe siromasima siromahu сиромах сиромаха сиромаси сиромахе сиромасима сиромаху
+14	7114	ekološki	ekološki ekološka ekološke ekološku ekoloških ekološkim ekološkom ekološkog ekološko ekološkoj еколошки еколошка еколошке еколошку еколошких еколошким еколошком еколошког еколошко еколошкој
+15	7115	čovječanstvo	čovječanstvo čovječanstva čovječanstvu човјечанство човјечанства човјечанству
+16	7116	putnički	putnički putničke putnička putničkog putničkom putničkim putničkih putničku putničkoj путнички путничке путничка путничког путничком путничким путничких путничку путничкој
+17	7117	katastrofalan	katastrofalan katastrofalne katastrofalna katastrofalni katastrofalnim katastrofalnu katastrofalnog katastrofalnih katastrofalnom катастрофалан катастрофалне катастрофална катастрофални катастрофалним катастрофалну катастрофалног катастрофалних катастрофалном
+18	7118	doktorat	doktorat doktorata doktoratom doktoratu doktorate докторат доктората докторатом докторату докторате
+19	7119	papak	papak papke papci papku papka papaka papcima папак папке папци папку папка папака папцима
+20	7120	šiljak	šiljak šiljke šiljci šiljkom šiljcima šiljka šiljaka šiljku шиљак шиљке шиљци шиљком шиљцима шиљка шиљака шиљку
+21	7121	frustracija	frustracije frustracija frustraciju frustracijama frustraciji фрустрације фрустрација фрустрацију фрустрацијама фрустрацији
+22	7122	fascikl	fasciklu fascikli fascikla fascikle fascikl фасциклу фасцикли фасцикла фасцикле фасцикл
+23	7123	najam	najam najmu najma најам најму најма
+24	7124	načelo	načela načelo načelima načelu начела начело начелима начелу
+25	7125	ograničiti	ograničiti ograniči ograničio ograničimo ograničite ograničili ograničavati ograniče ograničim ograničiš ograničila ограничења ограничити ограничи ограничио ограничимо ограничите ограничили ограничавати ограниче ограничим ограничиш ограничила
+26	7126	mod	mod мод
+27	7127	anatomija	anatomiju anatomije anatomija anatomiji анатомију анатомије анатомија анатомији
+28	7128	instalacija	instalacije instalacija instalaciju instalacijama instalaciji инсталације инсталација инсталацију инсталацијама инсталацији
+29	7129	klečati	kleči klečim klečati klečao klečiš klečeći klečanje klečite klečala kleče klečimo клечи клечим клечати клечао клечиш клечећи клечање клечите клечала клече клечимо
+30	7130	svojstvo	svojstva svojstvu svojstvo svojstvima svojstava својства својству својство својствима својстава
+31	7131	potencijalno	potencijalno потенцијално
+32	7132	reflektor	reflektor reflektora reflektore reflektorima reflektori reflektorom рефлектор рефлектора рефлекторе рефлекторима рефлектори рефлектором
+33	7133	sedamnaest	sedamnaest седамнаест
+34	7134	finski	finskoj finske finska finski finsku finskom finskog финској финске финска фински финску финском финског
+35	7135	začas	začas зачас
+36	7136	krhotina	krhotine krhotina krhotinu krhotinama крхотине крхотина крхотину крхотинама
+37	7137	ljestve	ljestve ljestvici ljestvama ljestvice ljestava ljestvica ljestvicu љестве љествици љествама љествице љестава љествица љествицу
+38	7138	ananas	ananas ananasa ananasom ananasi ананас ананаса ананасом ананаси
+39	7139	oruđe	oruđe oruđa oruđem оруђе оруђа оруђем
+40	7140	obeležje	obeležja obeležje обележје обележја obeležjima обележјима
+41	7141	bankrot	bankrot bankrota bankrotom bankrotu банкрот банкрота банкротом банкроту
+42	7142	trem	tremu trem treme трему tremom трем треме тремом
+43	7143	rendžer	rendžer ренџер
+44	7144	cimet	cimet cimetom cimeta цимет циметом цимета
+45	7145	konzervativan	konzervativni konzervativna konzervativan konzervativne konzervativno konzervativnu konzervativnih konzervativnim konzervativnog konzervativniji конзервативни конзервативна конзервативан конзервативне конзервативно конзервативну конзервативних конзервативним конзервативног конзервативнији
+46	7146	gumb	gumb gumbe gumba gumbi gumbima гумб гумбе гумба гумби гумбима
+47	7147	stambeni	stambeni stambene stambena stambenom stambenih stambenog stambenu stambenim stambeno stambenoj стамбени стамбене стамбена стамбеном стамбених стамбеног стамбену стамбеним стамбено стамбеној
+48	7148	težiti	težimo težio težiti težiš težili težite težila teži teže težim теже тежи тежимо тежио тежити тежиш тежили тежите тежила тежим
+49	7149	prdež	prdež prdeža prdeže prdežu prdeži прдеж прдежа прдеже прдежу прдежи
+50	7150	iscediti	iscedi iscedim iscedio iscediti iscediš iscedili iscedila isceđena iscede iscedimo isceđen iscediću iscedite исцеди исцедим исцедио исцедити исцедиш исцедили исцедила исцеђена исцеде исцедимо исцеђен исцедићу исцедите
+51	7151	univerzalan	univerzalni univerzalna univerzalne univerzalnog univerzalnu univerzalan univerzalnom univerzalnim универзални универзална универзалне универзалног универзалну универзалан универзалном универзалним
+52	7152	izlazni	izlazna izlazne izlaznu izlazni izlaznih izlaznim излазна излазне излазну излазни излазних излазним
+53	7153	maskota	maskota maskotu maskote maskotom маскота маскоту маскоте маскотом
+54	7154	borovnica	borovnice borovnica borovnicama borovnicu borovnicom боровнице боровница боровницама боровницу боровницом
+55	7155	preliminaran	preliminarni preliminarno preliminarne preliminarna preliminarnu preliminarnom preliminarnih preliminarnim прелиминарни прелиминарно прелиминарне прелиминарна прелиминарну прелиминарном прелиминарних прелиминарним
+56	7156	ју	ју
+57	7157	spektar	spektar spektra spektru spektrom спектар спектра спектру спектром
+58	7158	dopisivati	dopisivali dopisivanje dopisujemo dopisuješ dopisivala dopisujem dopisivati dopisivao dopisuje dopisuju dopisujete дописивали дописивање дописујемо дописујеш дописивала дописујем дописивати дописивао дописује дописују дописујете
+59	7159	izmicati	izmiče izmiču izmicao izmicati izmicala измиче izmičeš измичу измицао измицати измицала измичеш
+60	7160	spoljni	spoljni spoljnu спољни спољну
+61	7161	propoved	propoved propovedi propovedima проповед проповеди проповедима
+62	7162	ljetni	ljetni ljetna ljetne ljetnu ljetnog ljetno ljetnim ljetnom ljetnih ljetnoj љетни љетна љетне љетну љетног љетно љетним љетном љетних љетној
+63	7163	unakaziti	unakaženo unakazio unakažena unakažen unakaziti unakaženi unakazili unakazi unakazim unakazila unakažene унакажено унаказио унакажена унакажен унаказити унакажени унаказили унакази унаказим унаказила унакажене
+64	7164	čarobno	čarobno чаробно
+65	7165	brusiti	bruse brusi brušenje брусе бруси брушење
+66	7166	astronom	astronomi astronom astronoma astronome astronomima астрономи астроном астронома астрономе астрономима
+67	7167	breg	breg brega bregu bregova bregovi bregove брег брега брегу брегова брегови брегове
+68	7168	paprika	paprike paprika papriku paprikom paprikama паприке паприка паприку паприком паприкама
+69	7169	žalostan	žalosna žalostan žalosni žalosne žalosnu žalosnog žalosnom žalosnim жалосна жалостан жалосни жалосне жалосну жалосног жалосном жалосним
+70	7170	propovednik	propovednik propovednika propovedniče propovednici проповедник propovedniku проповедника проповедниче проповедници проповеднику
+71	7171	islamski	islamski islamske islamska islamskog islamskom islamskih islamskim islamsku islamskoj islamsko исламски исламске исламска исламског исламском исламских исламским исламску исламској исламско
+72	7172	izbušiti	izbušiti izbušio izbuši izbušili izbušim izbušimo izbušena izbušiću izbušene izbušila izbušen izbuše izbušite izbušiš избушити избушио избуши избушили избушим избушимо избушена избушићу избушене избушила избушен избуше избушите избушиш
+73	7173	hrčak	hrčak hrčka hrčci hrčke hrčkom hrčku hrčaka хрчак хрчка хрчци хрчке хрчком хрчку хрчака
+74	7174	krilce	krilca krilce krilcima krilaca крилца крилце крилцима крилаца
+75	7175	umorstvo	umorstvo umorstva umorstvu umorstvima umorstvom уморство уморства уморству уморствима уморством
+76	7176	imitacija	imitacija imitacije imitaciju imitacijom imitacijama имитација имитације имитацију имитацијом имитацијама
+77	7177	ševa	ševa ševi ševu ševe шева шеви шеву шеве
+78	7178	umetnica	umetnica umetnici umetnice umetnicu umetnicom уметници уметница уметнице уметницу уметницом
+79	7179	četrnaest	četrnaest четрнаест
+80	7180	netačan	netačno netačna netačan netačne netačni нетачно нетачна нетачан нетачне нетачни
+81	7181	državljanin	državljanin državljani državljanka državljana državljanina državljane državljanima држављанин држављани држављанка држављана држављанина држављане држављанима
+82	7182	šilo	šila шила šilu šilo šilom шилу шило шилом
+83	7183	riskantan	riskantno riskantan riskantna riskantne рискантно рискантан рискантна рискантне
+84	7184	ćufta	ćufte ćufta ćufti ćuftama ćuftu ćufto ћуфте ћуфта ћуфти ћуфтама ћуфту ћуфто
+85	7185	proklinjati	proklinjem proklinje proklinju proklinjao proklinjati proklinješ proklinjala proklinji proklinjući proklinjali проклињем проклиње проклињу проклињао проклињати проклињеш проклињала проклињи проклињући проклињали
+86	7186	falsifikat	falsifikat falsifikati falsifikata falsifikate falsifikatima фалсификат фалсификати фалсификата фалсификате фалсификатима
+87	7187	neslaganje	neslaganja neslaganje неслагања неслагање
+88	7188	izraelski	izraelski izraelske izraelska izraelskog izraelskih izraelskom izraelskoj izraelsku izraelskim izraelsko израелски израелске израелска израелског израелских израелском израелској израелску израелским израелско
+89	7189	java	javi java javu jave јави јаве јава јаву
+90	7190	zakup	zakup zakupu zakupa zakupom закуп закупу закупа закупом
+91	7191	spakirati	spakirati spakiraj spakirajte spakiram spakiraš spakirajmo spakira spakiramo спакирати спакирај спакирајте спакирам спакираш спакирајмо спакира спакирамо
+92	7192	tvor	tvor tvora tvore tvorovi tvorova tvorove tvoru твор твора творе творови творова творове твору
+93	7193	dominantan	dominantna dominantan dominantni dominantne dominantno dominantnu dominantnog dominantnih dominantnom доминантна доминантан доминантни доминантне доминантно доминантну доминантног доминантних доминантном
+94	7194	viršla	viršle viršlu viršla viršli viršlama виршле виршлу виршла виршли виршлама
+95	7195	natjecati	natjecati natječe natječem natječu natječeš natječemo natjecao natjecali natjecala натјецати натјече натјечем натјечу натјечеш натјечемо натјецао натјецали натјецала
+96	7196	mula	mula mule mulu muli mulo mulama мула mulom муле мулу мули муло мулама мулом
+97	7197	prikrivati	prikriva prikrivaju prikrivaš prikrivao prikrivam prikrivali prikrivate prikrivati prikrivala prikrivamo prikrivajući прикрива прикривају прикриваш прикривао прикривам прикривали прикривате прикривати прикривала прикривамо прикривајући
+98	7198	zastrašivati	zastrašivanje zastrašivanja zastrašuje zastrašuju zastrašivao zastrašuješ zastrašivati застрашивање застрашивања застрашује застрашују застрашивао застрашујеш застрашивати
+99	7199	spektakl	spektakl spektakla spektaklu спектакл спектакла спектаклу
+100	7200	zelje	zelje zelja zelju зеље зеља зељу

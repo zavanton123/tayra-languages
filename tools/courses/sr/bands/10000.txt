@@ -1,0 +1,100 @@
+1	9901	eliksir	eliksir eliksira еликсир еликсира
+2	9902	vetrobran	vetrobran vetrobrana vetrobranu ветробран ветробрана ветробрану
+3	9903	pravosudni	pravosudni pravosudnom pravosudnog правосудни правосудном правосудног
+4	9904	svetlucati	svetluca svetlucaju svetlucanje светлуца светлуцају светлуцање
+5	9905	polugodište	polugodište polugodišta polugodištu полугодиште полугодишта полугодишту
+6	9906	trojanski	trojanski trojanskog trojanska trojanskom тројански тројанског тројанска тројанском
+7	9907	proporcija	proporcije proporcija proporcijama proporciji пропорције пропорција пропорцијама пропорцији
+8	9908	menica	menice menicu menica menicama менице меницу меница меницама
+9	9909	učinkovit	učinkovit učinkovita učinkovitije učinkoviti učinkovitiji učinkovite учинковит учинковита учинковитије учинковити учинковитији учинковите
+10	9910	inferioran	inferiorni inferioran inferiorne inferiorna inferiorno inferiornih inferiornim inferiorniji инфериорни инфериоран инфериорне инфериорна инфериорно инфериорних инфериорним инфериорнији
+11	9911	kažnjiv	kažnjivo kažnjiv kažnjiva кажњиво кажњив кажњива
+12	9912	zakopavati	zakopava zakopavaju zakopavanje zakopavaš zakopavao zakopavali zakopavam zakopavamo закопава закопавају закопавање закопаваш закопавао закопавали закопавам закопавамо
+13	9913	tapija	tapiju tapija tapije тапију тапија тапије
+14	9914	zamrzavati	zamrzavanje zamrzava zamrzavaju замрзавање замрзава замрзавају
+15	9915	koordinacija	koordinaciju koordinacija koordinacije koordinaciji координацију координација координације координацији
+16	9916	tmuran	tmurno tmuran tmurna tmurni tmurne тмурно тмуран тмурна тмурни тмурне
+17	9917	karantena	karantenu karanteni karantena karantene карантену карантени карантена карантене
+18	9918	sablastan	sablasni sablasna sablasne sablasnu sablasnim sablasnom sablasnog сабласни сабласна сабласне сабласну сабласним сабласном сабласног
+19	9919	urođenik	urođenici urođenika urođenicima urođenike urođenik урођеници урођеника урођеницима урођенике урођеник
+20	9920	jagodica	jagodice jagodica jagodicama jagodicu јагодице јагодица јагодицама јагодицу
+21	9921	britva	britva britvu britve britvom бритва бритву бритве бритвом
+22	9922	maglina	magline maglina maglinu maglini маглине маглина маглину маглини
+23	9923	razotkrivati	razotkrivanje razotkriva razotkrivaju razotkrivam разоткривање разоткрива разоткривају разоткривам
+24	9924	sebičnost	sebičnost sebičnosti sebičnošću себичност себичности себичношћу
+25	9925	probava	probavu probava probavom probavi probave пробаву пробава пробавом пробави пробаве
+26	9926	igde	igde игде
+27	9927	oblina	obline oblinama oblina облине облинама облина
+28	9928	prepelica	prepelice prepelica prepelicu препелице препелица препелицу
+29	9929	povelja	povelju povelja povelje povelji повељу повеља повеље повељи
+30	9930	razarati	razara razarajući razaraju разарање разара разарајући разарају
+31	9931	ćilim	ćilim ćilimu ćilime ćilima ćilimi ћилим ћилиму ћилиме ћилима ћилими
+32	9932	znamenitost	znamenitosti znamenitost знаменитости знаменитост
+33	9933	vjenčanica	vjenčanicu vjenčanica vjenčanici vjenčanice вјенчаницу вјенчаница вјенчаници вјенчанице
+34	9934	zapadnjački	zapadnjački zapadnjačka zapadnjačke zapadnjačku zapadnjačkim zapadnjačkom западњачки западњачка западњачке западњачку западњачким западњачком
+35	9935	penzioni	penzioni penziono penzionog penzionom пензиони пензионо пензионог пензионом
+36	9936	grumen	grumen grumena grumenu грумен грумена грумену
+37	9937	spanać	spanać spanaća spanaćem спанаћ спанаћа спанаћем
+38	9938	autizam	autizam autizma autizmom аутизам аутизма аутизмом
+39	9939	snaha	snaha snahu snaho snahe снаха снаху снахо снахе
+40	9940	degenerik	degenerik degenerici degenerika degeneriku дегенерик дегенерици дегенерика дегенерику
+41	9941	kaluđer	kaluđer kaluđeri kaluđera kaluđeru калуђер калуђери калуђера калуђеру
+42	9942	pristupačan	pristupačan pristupačna pristupačno pristupačne pristupačni pristupačnim pristupačnije pristupačniji приступачан приступачна приступачно приступачне приступачни приступачним приступачније приступачнији
+43	9943	animacija	animaciju animacija animacije animaciji анимацију анимација анимације анимацији
+44	9944	užina	užina ужина
+45	9945	neobjašnjivo	neobjašnjivo необјашњиво
+46	9946	inhalator	inhalator inhalatora инхалатор инхалатора
+47	9947	pjevačica	pjevačica pjevačicu pjevačice пјевачица пјевачицу пјевачице
+48	9948	svršetak	svršetak svršetka svršetku свршетак свршетка свршетку
+49	9949	primalac	primalac primaoca primaoci primalaca прималац примаоца примаоци прималаца
+50	9950	neurotičan	neurotična neurotičan neurotični neurotično neurotične неуротична неуротичан неуротични неуротично неуротичне
+51	9951	naoštriti	naoštri naoštrio naoštrite naoštren naoštreni naoštriti naoštrim наоштри наоштрио наоштрите наоштрен наоштрени наоштрити наоштрим
+52	9952	katalizator	katalizator katalizatora катализатор катализатора
+53	9953	utičnica	utičnicu utičnica utičnice утичницу утичница утичнице
+54	9954	ruglo	ruglo rugala ruglu ругло ругала руглу
+55	9955	praćka	praćku praćka praćke praćkom праћку праћка праћке праћком
+56	9956	porobiti	porobljeni porobili porobi porobiti porobe porobio porobljen поробљени поробили пороби поробити поробе поробио поробљен
+57	9957	fiks	fiks фикс
+58	9958	gonič	gonič goniči goniča goniče гонич гоничи гонича гониче
+59	9959	tolerantan	tolerantan tolerantni tolerantna tolerantniji толерантан толерантни толерантна толерантнији
+60	9960	sajla	sajlu sajla sajle sajlom сајлу сајла сајле сајлом
+61	9961	bandera	banderu bandera bandere banderi бандеру бандера бандере бандери
+62	9962	kompić	kompić kompići kompića kompićima kompiću компић компићи компића компићима компићу
+63	9963	homoseksualan	homoseksualni homoseksualne homoseksualno homoseksualnih homoseksualna homoseksualnog хомосексуални хомосексуалне хомосексуално хомосексуалних хомосексуална хомосексуалног
+64	9964	vijak	vijak vijke vijci vijaka vijka вијак вијке вијци вијака вијка
+65	9965	zapoved	zapoved zapovedi заповед заповеди
+66	9966	isprazan	isprazni isprazno isprazna isprazan ispraznim испразни isprazne испразно испразна испразан испразним испразне
+67	9967	skraćenica	skraćenica skraćenice skraćenicu скраћеница скраћенице скраћеницу
+68	9968	lema	lema leme lemi lemu лема леме леми лему
+69	9969	potplatiti	potplatio potplatili potplati potplatiti potplate potplaćeni potplaćen потплатио потплатили потплати потплатити потплате потплаћени потплаћен
+70	9970	proziran	prozirna proziran prozirno prozirne prozirni prozirnu прозирна прозиран прозирно прозирне прозирни прозирну
+71	9971	naposletku	naposletku напослетку
+72	9972	redovito	redovito редовито
+73	9973	osamdeseti	osamdesetih осамдесетих
+74	9974	naočit	naočit naočiti naočito naočitog naočita наочит наочити наочито наочитог наочита
+75	9975	svirač	svirač svirača svirači sviraču свирач свирача свирачи свирачу
+76	9976	gangsterski	gangsterski gangstersko gangsterska gangsterskom gangsterskim gangsterske gangsterskog гангстерски гангстерско гангстерска гангстерском гангстерским гангстерске гангстерског
+77	9977	pokoran	pokoran pokorni pokorna pokorne покоран покорни покорна покорне
+78	9978	hostesa	hostesa hostese hostesu хостеса хостесе хостесу
+79	9979	duhan	duhan duhana духан духана
+80	9980	saksija	saksije saksiju saksiji saksija saksijama саксије саксију саксији саксија саксијама
+81	9981	katastrofalno	katastrofalno катастрофално
+82	9982	namestiti	namestiti nameštati наместити намештати
+83	9983	merač	merač merača merači мерач мерача мерачи
+84	9984	popustljiv	popustljiv popustljiva popustljivi popustljiviji попустљив попустљива попустљиви попустљивији
+85	9985	algebra	algebre algebru algebra algebri алгебре алгебру алгебра алгебри
+86	9986	uzajaman	uzajamna uzajamne uzajamnog uzajamnom uzajamnu uzajamni узајамна узајамне узајамног узајамном узајамну узајамни
+87	9987	maglovito	maglovito магловито
+88	9988	polagano	polagano полагано
+89	9989	fatalno	fatalno фатално
+90	9990	kreator	kreator kreatora kreatori креатор креатора креатори
+91	9991	aktivacija	aktivacija aktivaciju aktivacije активација активацију активације
+92	9992	poglavar	poglavar poglavara poglavaru poglavari поглавар поглавара поглавару поглавари
+93	9993	rumunski	rumunski rumunska rumunske rumunskom rumunskog румунски румунска румунске румунском румунског
+94	9994	zloupotrebljavati	zloupotrebljava zloupotrebljavaš zloupotrebljavaju zloupotrebljavao zloupotrebljavam zloupotrebljavate zloupotrebljavati злоупотребљава злоупотребљаваш злоупотребљавају злоупотребљавао злоупотребљавам злоупотребљавате злоупотребљавати
+95	9995	skupocen	skupoceno skupocene skupocen skupocena skupoceni skupocenu скупоцено скупоцене скупоцен скупоцена скупоцени скупоцену
+96	9996	carev	carev carevo carevu carevom carevih careva carevi careve carevima царев царево цареву царевом царевих царева цареви цареве царевима
+97	9997	navrat	navrata navrati navrate наврата наврати наврате
+98	9998	pustinjak	pustinjak pustinjaka pustinjaci пустињак пустињака пустињаци
+99	9999	salutirati	salutiram salutira salutirati salutiraju salutirao salutiraš salutiranje salutiraj салутирам салутира салутирати салутирају салутирао салутираш салутирање салутирај
+100	10000	prospekt	prospekt prospekte prospektu prospekti prospekta проспект проспекте проспекту проспекти проспекта

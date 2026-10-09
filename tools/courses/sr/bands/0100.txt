@@ -1,0 +1,100 @@
+1	1	biti	je sam si su nije bi smo nisam ste bio bilo biti bih bila је nisi jesi jeste bude bili nisu jesam сам nismo budem niste biće budeš budi bismo sama си су biste није bile jesu би sami bit смо нисам сте био било бити бих била ниси јеси јесте буде били нису јесам нисмо будем нисте биће будеш буди бисмо сама бисте биле јесу сами бит
+2	2	da	da да
+3	3	ne	ne не
+4	4	se	se се
+5	5	taj	to toga taj tome tim то ta tom tog tih time toj tiho tima тога тај томе timu тим tiše та tomu tihi том tiha тог timovi timom timova тих тој timove тиме тихо tiši tihe timovima tihog tihom tihu тима тиму тише тому тихи тиха тимови тимом тимова тимове тиши тихе тимовима тихог тихом тиху
+6	6	i	i и
+7	7	u	u у
+8	8	ti	ti te tebe tobom tebi ти те тебе тобом теби
+9	9	ja	ja me mene meni mnom ја ме мене meniju mnome menija menije menijem meniji мени мном менију мноме менија меније менијем менији
+10	10	hteti	će ću ćemo ćeš neće hoćeš neću hoću nećeš hteo ćete hoće ce htela nećemo hoćete htio ће hoćemo nećete hteli ћу htjela ћемо неће ћеш хоћеш htjeli нећу хоћу хтео hteti ћете нећеш хоће нећемо htjeti хоћете хтела htele це хтио хоћемо нећете хтели хтјела хтјели хтети хтјети хтеле
+11	11	mi	mi nas nama ми нас нам ни нама
+12	12	na	na на
+13	13	on	ga on mu njega njim njemu га он му njime njegu njego njege njezi njegom њега њим њему њиме његу њего његе њези његом
+14	14	moći	mogu može možeš možemo mogao možete mogla mogli moći moglo могу може можеш можемо могао можете mogle могли mogući могла моћи могло moš mozi могле могући mognem mogavši mogneš mognemo mogne мош мози могнем могавши могнеш могнемо могне
+15	15	za	za за
+16	16	ovaj	ovo ovaj ove ova ovog ovu ovom ovim ovoga ovoj ово ovih ovome ovi овај ове ова овом ову овог ovime овим овој овога ових ови овоме ovomu ovoje овиме овому овоје
+17	17	šta	šta шта sta čega ста чега
+18	18	li	li ли
+19	19	znati	znam znaš znate zna znao znamo znala znati znaju znali знам знаш знате znanje znanja зна znajući знао znaj знамо знају знала znajte znaće знати знали znale znaćeš znanjem znalo znaćemo znaću znanju znaćete знање знајући знања знај знаће znadeš знајте знале знаћеш знањем знало знаћемо знаћу знању знаћете знадеш
+20	20	imati	ima imam imaš imamo imao imate imala imaju imali imati има имам имамо imalo имаш имао imaćemo имате imat imale imaćeš imanje imaj imaću имају имали имати imaće imanja имала imajte imaćete imanju imajući imama имаћемо imanjem имало имаћеш имале имат имање имај имаћу имаће имања имајте имаћете имању имајући имама имањем
+21	21	što	što што čto что
+22	22	ali	ali али
+23	23	sa	sa са
+24	24	sav	sve svi svega sva све sav svemu svih svima svu svim сви svom svime свих свега свима sveg свим сва свему сав сву свом свиме svem свег vse свем все
+25	25	moj	moj moja moje moju mog mom mojoj moji mojim mojih мој mojom moga моја моје мог моју njezin мом mojem njezina мојој моји mojeg мојим njezinu njezine мојих njezino mojima mojega мојом njezinim njezinoj njezinom njezinog njezini мога njezinih mojemu њезин мојем њезина мојег њезину њезине њезино мојима мојега њезиним њезиној њезином њезиног њезини њезиних мојему
+26	26	koji	koji koje koja koju kojoj kojeg kojim kojima који kojem kojom kojih које која коју kojega koj kojemu којој којима којим којег којем којом којих кој којега којему
+27	27	dobro	dobro bolje dobra najbolje добро dobru боље dobrom добра добру dobara добром dobrima најбоље добара добрима
+28	28	misliti	mislim misliš mislio mislila mislite misli misle mislili мислим mislimo misliti мислиш мислио мислите misleći мислила мисли misliće mislile мисле мислили mislilo мислимо мислити misliću mislićeš мислећи mislićete mislićemo mišljah мислиће мислиле мислило мислићу мислићеш мислићете мислићемо мишљах
+29	29	samo	samo само
+30	30	od	od од
+31	31	a	a а
+32	32	reći	rekao reći rekla reci rekli recite recimo rekoh рекао rečeno reče рећи рекла реци рекли reklo rekle rekoste реците rekoše rekavši рецимо рекох речено рече реку rečene rečem rečena rekosmo рекло рекоше рекавши рекле рекосте rečeš речене речем речена рекосмо речеш
+33	33	oni	ih oni im njih one njima их они им њих оне њима
+34	34	morati	moram mora moramo moraš morate morao morati moraju morali morat moraćeš moraću морам moraćemo moru морамо мора мораш moraćete moraće moralo морате морао морати морају mori морали moro мораћемо мораћеш мораћу мору мораћете morama мораће море морало morom моро мори морат морама мором
+35	35	kako	kako како kak как
+36	36	o	o о
+37	37	vi	vas vi vama вас ви вам вама
+38	38	videti	vidim vidi vidimo vidiš videla vidite videti videli vidjeti vidio vide vidjeli videćemo видим види videćeš videću видимо видиш videćete viđen видела видели видите видети videle videće viđena виде videh viđeni viđenje videvši viđeno видећемо видио vidjele vidjećemo видећеш viđene видјети видјели видећу видећете виђен виделе видеће виђена видех виђени виђење видевши виђено видјеле видјећемо виђене
+39	39	ići	idemo idem ide idi ideš ići idite idu išao idete išla išli идемо идем išlo иди иде idući идеш ићи iduće išle идите иду idućeg идете idućih ишао iduća ишли ишла iduću idućem ишло idućoj idimo идући idućim ишле идуће идућег идућих идућа идућу идућем идућој идимо идућим
+40	40	kad	kad kada када кад kadi kadu kade kadom кади каду kadama kado каде кадом кадама кадо
+41	41	ako	ako ако
+42	42	trebati	treba trebalo trebao trebali trebala trebam trebaš trebaju trebamo треба trebati trebaće trebate требало trebale требао требали требала требају требаће требати требаш требам требамо trebaćeš trebaću trebaćemo trebo требате trebe требале trebaćete trebi trebu требаћеш требаћу требаћемо требо требе требаћете треби требу
+43	43	kao	kao као
+44	44	želeti	želim želiš želi želite želeo žele želimo želela želio želeli желим željela желиш жели желите željeli želeti желео желе желимо željeti желела želele želeće желели želeći želea želećeš željeni želelo желети želeom željele želećete željeno želeu желио željene željena željelo жељела жељели жељети желеле желеће желећи желеа желећеш жељени желело желеом жељеле желећете жељено желеу жељене жељена жељело
+45	45	ovde	ovde ovdje овде овдје
+46	46	ona	ona joj nju njom ju nje njoj она njome јој њу њом ју ње њој њоме
+47	47	raditi	radi radiš radim radio radimo radite rade raditi radila radili radije ради радиш radeći radilo radiju радимо радио радим radiću радите radile radija radićemo раде radićeš радити радили радила radiće radiom радије radićete rađeno rađen rađena rađene радећи радило rađeni радију радићу радиле радија радићемо радићеш радиће радиом радићете рађено рађен рађена рађене рађени
+48	48	tako	tako тако
+49	49	sad	sada sad сада сад sade sadu саде саду
+50	50	jedan	jedan jednom jedna jednu jedno jednog jedne jednim jednoj један jedni jednoga једном једна једну једног једно једне једни jednome једним једној jednih једнога jednima jednomu једноме једних једнима једному
+51	51	neki	neko neki neke nekog nekoga neku netko nekim nekom nekih nekome неко nekoj niki неки неке неког nekima некога неку неким неком nekomu nekime неких некоме некој ники нетко некима некому некиме
+52	52	tvoj	tvoj tvoja tvoje tvoju tvog tvom tvojim tvojoj tvoji tvojih tvojom твој твоја tvoga твоје tvome твоју njezin твог твом njezina твоји tvojem твојим tvojeg твојој tvojima твојих njezinu njezine njezino твојом njezinim njezinoj njezinom njezinog njezini tvojega njezinih твога твоме њезин њезина твојем твојег твојима њезину њезине њезино њезиним њезиној њезином њезиног њезини твојега њезиних
+53	53	čovek	ljudi čovek ljude čoveče čoveka ljudima čovjek čovječe čovjeka људи čoveku човек čovekom човече čovjeku људе човека људима čovjekom човеку човеком човјек човјече човјека човјеку човјеком
+54	54	pa	pa па
+55	55	doći	došao dođi doći dolazi došli došla dođe dolazim dolaze dođite došlo dođem dođeš dolaziš dođu dolazio dođete dolazimo dođemo dolazite дошао dolazila дођи došle dolazili dolaziti долази доћи дошли дође долазе долазим дођите дођеш дођем дошло дођу dolazilo dolazeći dolazile дошла долазиш долазио дођете долазимо дођемо долазите долазила дошле долазили долазити долазило долазећи долазиле
+56	56	svoj	svoje svoju svoj svog svojim svom svojoj svojih svojom svoja своје svoga своју свој svome својим свог свом својој svojima svojem svojeg својих својом своја svoji svojega свога своме svojemu својима својем својег своји својега својему
+57	57	nešto	nešto нешто nečega nečemu nečeg nečim nečem нечега нечему нечег нечим нечем
+58	58	zašto	zašto зашто
+59	59	nemati	nema nemam nemaš nemamo nemate nemaju немам немаш немамо немате немају nemati nemaj nemajući nemajte nemanje nemao neam нема немати немај немајући немајте немање немао неам
+60	60	red	redu red реду reda redom redove redova ред redovima rede redovi реда редом редове реде редова редовима редови
+61	61	s	s с
+62	62	još	još још
+63	63	ko	ko koga tko kome ко koj кој кога тко коме
+64	64	kazati	kažem kaže kažeš kažu kažete kaži kažemo кажем каже kažite кажеш кажу кажете кажи kazao kazaću kazati kazala кажемо kazan kazali кажите kažimo kaza kazaćeš kazaće kazana kazano kazaćemo kazanu казаћу казао казати казала казан казали кажимо каза казаћеш казаће казана казано казаћемо казану
+65	65	gde	gde gdje где гдје đe ђе
+66	66	dati	daj dao dati dana dajte dali dala dam daje daću daš daju damo dat date дај dah дао daćemo dalo davati daha daće дати дана daćeš dani dajmo дајте dane dato дам дали дала даћу dasa дају dade daćete даш даје дамо дат дате дах даћемо дало давати даха даће даћеш дани дајмо дане дато даса даде даћете
+67	67	hvala	hvala хвала hvali hvale fala hvalu хвали хвале фала хвалу
+68	68	iz	iz из
+69	69	ili	ili или
+70	70	možda	možda можда
+71	71	više	više више
+72	72	onda	onda онда ondak ондак
+73	73	vreme	vreme vremena vrijeme vremenu време vremenom времена vremenima времену вријеме временом временима vrieme вриеме
+74	74	voleti	volim voli voleo voliš volela vole volio volimo volite voleli voljela voleti волим voljeti voljeni волео воли voljena voljeli volje волиш voljene волела voljen воле volele voleću волите волимо волели волети voljeno voleće volećeš volelo voliti voljele voleći вољени вољена волио вољела вољети вољели воље вољене вољен волеле волећу вољено волеће волећеш волело волити вољеле волећи
+75	75	dobar	dobar najbolji dobre bolje dobri bolji najbolja dobra dobrog bolja najbolje dobrih najboljih dobrim добар bolju najboljeg najbolju najboljem boljeg najboljim dobru boljim dobroj најбоље најбољи boljih boljem добре добри бољи dobrom najboljoj najboljom најбоља najboljima boljom добра boljoj dobroga боље доброг боља добрих најбољих добрим бољу најбољег најбољу најбољем бољег најбољим добру бољим доброј бољих бољем добром најбољој најбољом најбољима бољом бољој доброга
+76	76	zar	zar зар zara zare zaru зара заре зару
+77	77	do	do до doli доле dola dolu доли дола долу
+78	78	stvar	stvari stvar stvarima ствари ствар стварима
+79	79	vam	vam вам
+80	80	ništa	ništa ништа ničega ničeg ničemu ničim ничега ничег ničem ничему ничим ничем
+81	81	drugi	drugi drugo druge drugog druga drugu drugom drugim drugih drugoj drugima други drugoga drugome друго друге другог другу друга другом другим других другима другој drugomu другога другоме другому
+82	82	otići	otišao otići otišla odem odeš ode odlazi otišli odemo odlazim odete odoh odu odlazite odlaziš odlazimo odlaze otišlo отишао otišle odi odlazio отићи одем otiđi отишла отишли оде одеш odlazili odlazila одемо одлази odosmo odoše otiđite одлазим odlaziti одете odite одох оду одлазите одлазиш одлазимо одлазе отишло отишле оди одлазио отиђи одлазили одлазила одосмо одоше отиђите одлазити одите
+83	83	malo	malo мало
+84	84	uraditi	uradio uradim uradi uradila uraditi uradiš uradimo uradili uradite uradiću urade урадио urađeno uradićemo уради урадим урадили урадити uradile урадимо uradićeš uradiće урадиш урадила урадите uradilo urađen urađena урадићу ураде uradićete урађено urađene урадићемо urađeni uradih урадићеш урадиле урадиће uradiše урадило урађен урађена урадићете урађене урађени урадих урадише
+85	85	moliti	molim молим moli molimo molio molila moliti moliću moliš molite mole molili молимо moleći моли молио molićeš molićemo molile молила moliće моле молићу молити молиш молите moljenje molilo molićete молили молећи молићеш молићемо молиле молиће мољење молило молићете
+86	86	dan	dan dana danima дан dani дана danu dane danom данима дани дане дану даном
+87	87	hajde	hajde ajde хајде ајде
+88	88	naš	naš naše naša našu našeg naši našim našem naših našoj наш našom наше наша нашу нашег našega нашим наши наших нашем нашој našima našemu нашом нашега нашима нашему
+89	89	godina	godina godine godinu godinama година godini године годину годинама godinom години годином
+90	90	put	put puta putu putem пут пута putevi puteve путу putevima puteva путем puti putovi путеви putove putom putova путеве pute путева putovima путевима puto пути путови путове путом путова путе путовима путо
+91	91	vaš	vaš vaše vaša vašu vašeg vašem vašim vašoj vaši vaših vašom ваш ваше ваша вашег вашу вашем vašega ваши вашим вашој ваших vašemu vašima вашом вашега вашему вашима
+92	92	ni	ni ни
+93	93	tamo	tamo тамо
+94	94	pre	pre prije пре прије prie прие
+95	95	svaki	svaki svako svakog svih svakom svima svaka svake svim svaku svakoga svakoj svakih svakim сваки svakome свако сваком сваког свака сваке сваку свакога свакој сваких svakomu сваким свакоме свих свима свим свакому
+96	96	zbog	zbog због
+97	97	bog	bože bog boga bogu božić bogom боже bogovi bogova бог boginja bogovima boginje bogove бога богу божић boginju boginjo богови boginji богом boginjama богова boginjom боговима богиња богиње богове bozi богињу богињо богињи богињама богињом бози
+98	98	velik	veliki velika velike veliku veliko veći velikog najveći veće velikim velikom velikoj veća najveća velik velikih najveće veću najvećih велики najveću велика najvećeg većeg većim najvećim većih велике većem велику većoj najvećem велико najvećoj већи većom najvećom највећи великог великим веће великом великој већа највећа велик великих највеће већу највећих највећу највећег већег већим највећим већих већем већој највећем највећој већом највећом
+99	99	naći	naći našao našli nađem našla nađemo nađeš nađe nađi nađu nađete nađite nalazimo nalazim nalazi наћи nađimo nađen nalaziš нашао nađena nađeno нашли nalazite nalaze нађем nalazio našle нађемо nađeni nalazila нашла nalazili nalaženje nađene našlo нађе нађи нађеш nalazilo нађу нађете нађите налазимо налазим налази нађимо нађен налазиш нађена нађено налазите налазе налазио нашле нађени налазила налазили налажење нађене нашло налазило
+100	100	gospodin	gospodine gospodo gospodin gospode gospodina господине gospoda gospodinu gospodinom gospodu господо господин господе gospodom gospodi господина господа господину господином господу господом господи

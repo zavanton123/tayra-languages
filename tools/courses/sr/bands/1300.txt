@@ -1,0 +1,100 @@
+1	1201	započeti	započeo započeti započeli započela započne započnem započnemo započelo započneš započni započnite započnimo započnu započeto započet započnete započele započeta започети započete започео започели започела започне започнем започнемо започело започнеш започни започните започнимо започну започето започет започнете започеле започета започете
+2	1202	policijski	policijski policijska policijske policijsku policijskoj policijskog policijskom policijskim policijskih policijsko полицијски полицијске полицијска полицијску полицијској полицијског полицијском полицијских полицијским полицијско
+3	1203	muški	muško muški muške muška muškog muškom mušku muških muškim muškoj мушко мушки muškima мушке мушка мушког мушком мушку мушких мушким мушкој мушкима
+4	1204	pokrenuti	pokrenuti pokreni pokrenuo pokrene pokrenem pokrenite pokrenemo pokrenuli pokrenula pokrenut pokrenulo pokreneš pokrenu pokrenuta pokrenimo pokrenete покренути pokrenuto pokrenuću pokrenule pokrenućemo покрени pokrenuće покрене pokrenute покренете покренуо покрените покренули покренут покренула покренем покренемо покренуло покренеш покрену покренута покренимо покренуто покренућу покренуле покренућемо покренуће покренуте
+5	1205	izvor	izvor izvora izvori izvore izvoru izvorima извор izvorom извора извори изворе извору изворима извором
+6	1206	trka	trka trke trci trku trkama trkom трке трци трка трку трком тркама
+7	1207	pažljivo	pažljivo пажљиво
+8	1208	strašan	strašan strašna strašne strašnu strašni strašnog strašnim strašnom strašnije najstrašnije strašnih strašnoj najstrašnija najstrašniji strašniji страшан страшна strašnija страшне najstrašnijih страшну najstrašnijeg najstrašniju страшни najstrašnijim strašnijeg страшног страшним страшном страшније најстрашније страшних страшној најстрашнија најстрашнији страшнији страшнија најстрашнијих најстрашнијег најстрашнију најстрашнијим страшнијег
+9	1209	ličan	lični lične ličnu lična ličnog ličnih ličnim ličnom ličnoj лични личне ličan личну лична личних личног личном личним личној личан
+10	1210	ej	ej еј
+11	1211	izvaditi	izvadi izvadio izvaditi izvadite izvadim izvadili izvadimo izvadiš izvadila izvade izvadiću izvađen izvađeno izvadićemo izvađena извади izvađeni izvađene извадити извадио izvadiće извадите извадили извадиш извадим извадимо извадила изваде извадићу извађен извађено извадићемо извађена извађени извађене извадиће
+12	1212	optužiti	optužen optuženi optužiti optužena optužio optužili optužila optuži optuže optužite optužimo optužim optužene optužiš оптужен optužiće optužiću оптужени optužićemo optuženo оптужена оптужио оптужити оптужили оптужила оптужи оптуже оптужите оптужимо оптужим оптужене оптужиш оптужиће оптужићу оптужићемо оптужено
+13	1213	propast	propast propao propasti propadne propali propala propalo propale propadnu propašće propade propadnem пропаст propadneš propašću пропао propadnemo пропасти пропадне пропали propašćeš пропала propašćemo propadnete пропало пропале пропадну пропашће пропаде пропаднем пропаднеш пропашћу пропаднемо пропашћеш пропашћемо пропаднете
+14	1214	radnja	radnju radnje radnji radnja radnjama radnjom радњу радње радњи радња радњама радњом
+15	1215	detalj	detalje detalja detalj detalji detaljima детаље детаљ detalju детаља детаљи детаљима detaljem детаљу детаљем
+16	1216	skrenuti	skreni skrenuo skrenuti skrenuli skretanje skrenite skrenula skrene skrenem skreće skreneš skrenemo skrećem skrećemo skreći skrenete skrenu skreću skrećeš skrenulo скрени skretati skrenuta skrećete skretao скренуо skrenut skrenuću skrećite skrenuće скрене skrenule скрените скренем skrenućemo скренули skretali skretala скренути скретање скренула скреће скренеш скренемо скрећем скрећемо скрећи скренете скрену скрећу скрећеш скренуло скретати скренута скрећете скретао скренут скренућу скрећите скренуће скренуле скренућемо скретали скретала
+17	1217	teorija	teorija teoriju teorije teoriji teorijom teorijama теорија теорију теорије теорији теоријом теоријама
+18	1218	ceniti	cenim cenimo cenio ceniš ceniti cenila ценим cene cenite ceni cenili ceniću ценимо ценити ceniće ценио цениш цени цене ценила цените ценили ценићу цениће
+19	1219	tačka	tačka tačke tačku tački tačaka tačkama тачка тачке tačkom тачку тачки тачака тачкама тачком
+20	1220	prepoznati	prepoznao prepoznati prepoznala prepoznali prepozna prepoznam prepoznaju prepoznaš prepoznate prepoznat prepoznamo препознао препознати препознала prepoznata препознали prepoznaj prepoznale prepoznajte препозна препознам prepoznalo препознају prepoznavati препознаш препознате препознат препознамо препозната препознај препознале препознајте препознало препознавати
+21	1221	stavljati	stavlja stavljam stavljaš stavljaju stavljao stavljamo stavljaj stavljati stavljate stavljali stavljala stavljanje stavljajući stavljajte ставља стављам стављање стављају стављаш стављајући стављао стављамо стављај стављати стављате стављали стављала стављајте
+22	1222	automobil	automobila automobil automobile automobilu automobili automobilima automobilom аутомобила аутомобил аутомобилу аутомобили аутомобиле аутомобилима аутомобилом
+23	1223	ispuniti	ispuniti ispuni ispunio ispunjen ispunim ispunjena ispunila ispunite ispuniš ispunili ispune ispunjeno ispunimo ispunjenje ispunjeni ispunjene ispuniću ispunilo испуни ispuniće ispunjenja ispunile испунити испуњен ispunjenju ispunićemo испунио испуњена испуним ispunićeš испуне испунила испуните испуниш испунили испуњено испунимо испуњење испуњени испуњене испунићу испунило испуниће испуњења испуниле испуњењу испунићемо испунићеш
+24	1224	upozoriti	upozorio upozorim upozoriti upozorila upozori upozorili upozoriš upozorimo upozoreni upozoren upozorite upozore упозорио upozorena upozoriću упозорим упозори упозорити upozorilo упозорила упозорили upozorile упозорење упозориш упозоримо упозорени упозорен упозорите упозоре упозорена упозорићу упозорило упозориле
+25	1225	oblik	oblik obliku oblika oblike oblici oblicima облик oblikom облику облика облике облици облицима обликом
+26	1226	obala	obale obali obalu obala obalama obalom обале обали обалу обала обалама обалом
+27	1227	potvrditi	potvrditi potvrdio potvrđeno potvrdi potvrdili potvrdila potvrdim potvrdite potvrde potvrdimo potvrđena potvrđen potvrdiš potvrdilo potvrđene potvrđeni potvrdile потврдио потврдити потврђено потврди potvrdiću potvrdiće потврдили потврдила потврдим потврдите потврђена потврде потврдимо потврђен потврдиш потврдило потврђене потврђени потврдиле потврдићу потврдиће
+28	1228	zavisiti	zavisi zavise зависи zavisiti zavisim zavisimo zavisio zavisilo zavisila zavisiš zavisili zavisiće zavisite зависе зависити зависим зависимо зависио зависило зависила зависиш зависили зависиће зависите
+29	1229	položaj	položaj položaju položaja položaje položajima положај položajem položaji положају положаја положаје положајима положајем положаји
+30	1230	opasno	opasno опасно
+31	1231	most	most mosta mostu mostove mostova мост mostom mostovi моста mostovima мосту мостове мостова мостом мостови мостовима
+32	1232	oduvek	oduvek одувек
+33	1233	svejedno	svejedno свеједно
+34	1234	vest	vest vestima вест вестима vešću вешћу
+35	1235	dokument	dokumenta dokument dokumente dokumenata dokumenti dokumentima dokumentu документа документ dokumentom документе докумената документи документима документу документом
+36	1236	moćan	moćni moćan moćna moćno moćne moćnog najmoćniji moćniji moćnim moćnih moćnu najmoćnije najmoćnijih najmoćnija moćnom moćnije moćnija моћан najmoćnijeg моћни moćnoj najmoćnijim моћна najmoćniju моћне moćnijim моћно moćnijeg najmoćnijem моћнији moćnima најмоћнији моћног моћним моћних моћну најмоћније најмоћнијих најмоћнија моћном моћније моћнија најмоћнијег моћној најмоћнијим најмоћнију моћнијим моћнијег најмоћнијем моћнима
+37	1237	trudan	trudna трудна trudni trudne trudnu trudan trudnom trudnoj trudno trudnim trudnih трудни трудне трудну трудан трудном трудној трудно трудним трудних
+38	1238	taksi	taksi taksijem taksija taksiju такси таксијем taksije taksiji таксија taksijima таксију таксије таксији таксијима
+39	1239	medicinski	medicinski medicinska medicinske medicinsku medicinskog medicinskom medicinsko medicinskih medicinskoj medicinskim медицинска медицински медицинске медицинску медицинског медицинском медицинских медицинско медицинској медицинским
+40	1240	stvaran	stvaran stvarna stvarni stvarnom stvarne stvarnim stvarnog stvarnu stvarnih stvarnoj stvarnije стварни стварна стваран стварном stvarniji stvarnome стварне najstvarnije stvarnija стварним стварног стварну стварних стварној стварније стварнији стварноме најстварније стварнија
+41	1241	gas	gas gasa gase gasom gasova gasove gasovi gasu гас gasovima гаса гасе гасом гасова гасове гасови гасу гасовима
+42	1242	otkad	otkad откад
+43	1243	scena	scenu scena scene sceni scenama сцену scenom сцена сцени сцене сценама сценом
+44	1244	radnik	radnik radnika radnici radnike radnicima radnica radniku radnice радник radnikom радника radnicu радници radnicom раднике radniče radnicama радницима радница раднику раднице радником радницу радницом радниче радницама
+45	1245	suviše	suviše сувише
+46	1246	karijera	karijeru karijera karijere karijeri karijerom каријеру каријера karijerama каријере каријери каријером каријерама
+47	1247	poslušati	poslušaj poslušati poslušajte poslušao poslušaš poslušala poslušam posluša poslušali poslušate poslušamo poslušajmo poslušaću poslušaju послушај poslušaće послушати poslušaćeš послушао послушајте poslušaćemo послушаш послушала послушам послуша послушали послушате послушамо послушајмо послушаћу послушају послушаће послушаћеш послушаћемо
+48	1248	vrat	vrat vratu vratom vrate врат vratove vratova врату vratovima vratovi врате вратом вратове вратова вратовима вратови
+49	1249	čudovište	čudovište čudovišta чудовиште čudovištima čudovištem čudovištu чудовишта чудовиштима чудовиштем чудовишту
+50	1250	autobus	autobus autobusa autobusom autobusu autobusi autobuse аутобус autobusima autobusnoj аутобусу autobusne аутобусом аутобуса autobusnu autobusna autobuski аутобуси аутобусе аутобусима аутобусној аутобусне аутобусну аутобусна аутобуски
+51	1251	vikati	vikao vičeš viči vikati vikala vičem viču vikali viče vičete vikanje viknuo vičite vičući vikni vičemo viknem vikne vikaću viknula викао vikneš viknite вичеш viknuti вичи виче викати viknu вичу viknete vikale viknuli викала вичем vikaće викали viknemo вичете викање викнуо вичите вичући викни вичемо викнем викне викаћу викнула викнеш викните викнути викну викнете викале викнули викаће викнемо
+52	1252	povezan	povezan povezani povezano povezana povezane povezanih povezanim повезан povezanu povezanog povezanom повезани повезано повезана повезане повезаних повезаним повезану повезаног повезаном
+53	1253	go	go gola goli gole golim golu golog го golih golo golom гола goloj голе голи голим голу gologa голог голих голо голом голој голога
+54	1254	vruć	vruće vruća vruć vrući vruću вруће vrućeg vrućim vrućih vrućoj vrućem vrućom врућа врућ врућу врући врућег врућим врућих врућој врућем врућом
+55	1255	svratiti	svratio svratim svrati svratila svratiti svratiš svratili svratite svratimo svratiću svrate svratićemo свратио свратим svratile svratiće сврати свратити свратиш svratićeš свратили свратила свратите свратимо свратићу сврате свратићемо свратиле свратиће свратићеш
+56	1256	firma	firma firmu firme firmi firmom firmama фирма фирми фирму фирме фирмом фирмама
+57	1257	pri	pri при
+58	1258	juriti	juri jure jurio jurim jurimo jurili juriti jurila jurite jureći јури jurenje juriće jurilo jurile јуре јурио jurnuti jurićemo јурили juriću јурим јуримо јурити јурила јурите јурећи јурење јуриће јурило јуриле јурнути јурићемо јурићу
+59	1259	održati	održati održi održao održim održimo održali održala održiš održe održite održan održaće održaću održana održalo održaćemo одржати održano одржи одржао održale одржим održaćeš održani одржан održane одржимо одрже одржали одржана одржала одржиш одржите одржаће одржаћу одржало одржаћемо одржано одржале одржаћеш одржани одржане
+60	1260	spavanje	spavanje spavanja spavanju спавање spavanjem спавања спавању спавањем
+61	1261	nigde	nigde нигде
+62	1262	pristati	pristao pristala pristati pristali pristane pristanem pristaneš pristani pristanete pristanemo pristanu пристао pristaće pristale pristaše pristaću пристала pristanite пристати pristalo пристали pristaćeš pristaćemo пристане пристанем пристанеш пристани пристанете пристанемо пристану пристаће пристале присташе пристаћу пристаните пристало пристаћеш пристаћемо
+63	1263	objaviti	objaviti objavio objavi objavili objavim objavila objavimo objave objavljeno objavljena objavljen objavite objaviš objavljuju objavljene objavljeni objaviću objavićemo objavile objaviće objavljivati објавио objavilo објавити објави objavićeš објавила објављен објавили објавим објавимо објаве објављено објављена објавите објавиш објављују објављене објављени објавићу објавићемо објавиле објавиће објављивати објавило објавићеш
+64	1264	pristup	pristup pristupa pristupi приступ pristupom pristupu pristupe приступа приступи приступом приступу приступе
+65	1265	napuniti	napuni napunio napuniti napunjen napunite napunim napunila napuniš napunjena napunimo napune napunili napunjeno napuniću napunjene napunjeni напуни napunićemo napuniće napunile напуните напунио napunilo напуњен напунила напунити napunićeš напуним напуниш напуњена напунимо напуне напунили напуњено напунићу напуњене напуњени напунићемо напуниће напуниле напунило напунићеш
+66	1266	sačuvati	sačuvaj sačuvao sačuvati sačuvam sačuva sačuvala sačuvali sačuvaš sačuvamo sačuvajte sačuvaju sačuvate sačuvaću sačuvana sačuvan sačuvano сачувај sačuvane sačuvani sačuvajmo sačuvaćemo sačuvalo сачувати сачувате сачувао сачува сачували sačuvale sačuvaćeš сачувам sačuvaće сачувајте сачувала сачуваш сачувамо сачувају сачуваћу сачувана сачуван сачувано сачуване сачувани сачувајмо сачуваћемо сачувало сачувале сачуваћеш сачуваће
+67	1267	inspektor	inspektore inspektor inspektora inspektoru inspektori инспекторе inspektorom инспектор инспектора inspektorima инспектору инспектори инспектором инспекторима
+68	1268	zlatan	zlatni zlatna zlatne zlatnu zlatno zlatnim zlatnog zlatnom zlatnih zlatan zlatnoj златни златне златна златну златно златних златним златном златног златан златној
+69	1269	stotina	stotine stotina stotinu stotinama стотине стотина стотину стотинама
+70	1270	kom	kom komi koma komo коми ком кома комо
+71	1271	ponašanje	ponašanje ponašanja ponašanju ponašanjem понашање понашања понашању понашањем
+72	1272	gdo	km gdo км гдо
+73	1273	volja	volja volje volju volji voljom воље воља вољу вољи вољом
+74	1274	obavestiti	obavesti obavestim obaveštenje obavestite obavestio obavestiti obavestiću obavestili obavešten obavestimo obavešteni obavestila obavestiš obaveštena obavestićemo obaveste обавести обавестим обавештење обавестити obavestiće обавестите obaveštene обавестио обавестићу obavestićeš obavestićete обавештен обавестимо обавештени obavešteno обавестили обавестила обавестиш обавештена обавестићемо обавесте обавестиће обавештене обавестићеш обавестићете обавештено
+75	1275	sprečiti	sprečiti spreči sprečim sprečimo sprečio sprečiš sprečili sprečilo spreče sprečila sprečite sprečen спречити спречи sprečile sprečena спречим sprečiću sprečiće спречимо sprečićemo sprečeni sprečeno спречио спречиш спрече спречило спречили спречила спречите спречен спречиле спречена спречићу спречиће спречићемо спречени спречено
+76	1276	uglavnom	uglavnom углавном
+77	1277	oprema	opremu oprema opreme opremom opremi опрему опрема опреме опремом опреми
+78	1278	osiguranje	osiguranje osiguranja osiguranju osiguranjem осигурање осигурања осигурању осигурањем
+79	1279	poželeti	poželiš poželim poželi poželeo poželite poželeti poželela poželimo poželeli požele poželećeš пожели пожелим пожелиш poželeće poželeću пожелите poželećete пожелео пожелети пожелимо пожелела пожелели пожеле пожелећеш пожелеће пожелећу пожелећете
+80	1280	završen	završen završena završeno završeni završene завршена завршен завршено završenim završenom završenog завршени завршене завршеним завршеном завршеног
+81	1281	ljubazan	ljubazni ljubazan ljubazno ljubazna ljubazniji ljubazne љубазни љубазно љубазан ljubaznija najljubazniji ljubaznog ljubaznim ljubaznu ljubaznom ljubaznih najljubaznije najljubaznija ljubaznije љубазна ljubaznoj љубазнији љубазне љубазнија најљубазнији љубазног љубазним љубазну љубазном љубазних најљубазније најљубазнија љубазније љубазној
+82	1282	vera	vera veru vere veri verom вера вере веру vero вери вером веро
+83	1283	zelen	zeleni zeleno zelene zelenu zelenom zelenim zelenog zelen zelenih zelenoj зелени зелено зелене зелену zelenima зеленом зеленог зелен зеленим зелених зеленој зеленима
+84	1284	leći	lezi lezite legnem leći legneš leže legao legne legni legnemo legli legnete legnu ležem legu legnite lez ležeš legle lezimo лези лезите легнем лећи легнеш леже легао легне легни легнемо легли легнете легну лежем легу легните лез лежеш легле лезимо
+85	1285	tužan	tužna tužan tužni tužne tužnu tužnim tužnom tužnog tužnih tužnije najtužnije тужна тужан najtužnija najtužniji tužniji tužnoj tužnija тужни тужне najtužnijih тужну тужним тужном тужног тужних тужније најтужније најтужнија најтужнији тужнији тужној тужнија најтужнијих
+86	1286	varati	vara varao varaš varam varanje varala varaju varati varate varali varamo varaj варао varajući варам вара вараш варање varan варају варала варати варате варали варамо варај варајући варан
+87	1287	potražiti	potraži potražiti potražim potražimo potražite potražiću potražiš potražio potražila potraže potražili potražićemo потражим потражи potražiće потражите потражити потражимо potražićeš потражићу потражиш потражио потражила потраже потражили потражићемо потражиће потражићеш
+88	1288	desni	desna desne desnu desni desnom desnoj desnog desnim десна десне десну десној десни десном desnima desnih десног десним деснима десних
+89	1289	puška	pušku puške puška puškom pušaka puškama пушку пушке pušci пушка puški пушком пушака пушкама пушци пушки
+90	1290	čime	čime чиме
+91	1291	glumac	glumac glumica glumci glumca glumaca glumce glumice glumicu glumcima glumicom glumcu glumcem глумац глумица glumački glumici glumicama глумци глумца глумаца глумце глумице глумицу глумцима глумицом глумцу глумцем глумачки глумици глумицама
+92	1292	zaštita	zaštitu zaštita zaštiti zaštite zaštitom заштиту заштити заштита заштите заштитом
+93	1293	bre	bre бре
+94	1294	normalno	normalno нормално
+95	1295	sala	sali salu sala sale salo salama сали salamu salame salom salamom сала salima салу salami салама сале сало саламу саламе салом саламом салима салами
+96	1296	raj	raj raju raja рај rajem рају раја raje rajom raji рајем раје рајом раји
+97	1297	posetiti	posetim posetio posetiti poseti posete posetiš posetimo posetila posetite posetili posetiću posetićemo посетим посетио посети посетите посетити posetiće посетили посете posetile посетила posetilo posetićeš посетиш посетимо посетићу посетићемо посетиће посетиле посетило посетићеш
+98	1298	osnova	osnovu osnovi osnova osnove osnovama основу основи osnovom основа основе основама основом
+99	1299	zaboga	zaboga забога
+100	1300	zanimljivo	zanimljivo занимљиво

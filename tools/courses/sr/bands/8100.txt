@@ -1,0 +1,100 @@
+1	8001	praonica	praonici praonicu praonica praonice праоници праоницу праоница праонице
+2	8002	padobranac	padobranci padobranac padobranaca padobrance padobranca padobrancima падобранци падобранац падобранаца падобранце падобранца падобранцима
+3	8003	sipa	sipa sipe sipi сипа sipu сипе сипи сипу
+4	8004	prekretnica	prekretnica prekretnicu prekretnici prekretnice прекретница прекретницу прекретници прекретнице
+5	8005	vradžbina	vradžbina vradžbine vradžbinu vradžbinama враџбина враџбине враџбину враџбинама
+6	8006	simfonija	simfonija simfoniju simfonije simfoniji симфонија симфонију симфоније симфонији
+7	8007	ruksak	ruksak ruksaku ruksaka ruksakom ruksake руксак руксаку руксака руксаком руксаке
+8	8008	udruga	udruge udruga udrugu udruzi удруге удруга удругу удрузи
+9	8009	smicalica	smicalica smicalice smicalicu smicalicama смицалица смицалице смицалицу смицалицама
+10	8010	filter	filter филтер
+11	8011	nekuda	nekuda некуда
+12	8012	surogat	surogat surogata surogati surogate сурогат сурогата сурогати сурогате
+13	8013	suzavac	suzavac suzavcem suzavca сузавац сузавцем сузавца
+14	8014	tajnovit	tajnovit tajnovito tajnovita tajnoviti tajnovite tajnovitog тајновит тајновито тајновита тајновити тајновите тајновитог
+15	8015	prepoloviti	prepolovio prepoloviti prepolovi prepolovila prepolovljen prepolovljena prepolovim prepolovili prepolovimo prepoloviću prepolove преполовио преполовити преполови преполовила преполовљен преполовљена преполовим преполовили преполовимо преполовићу преполове
+16	8016	podvala	podvala podvale podvalu podvali podvalama подвала подвале подвалу подвали подвалама
+17	8017	ovlastiti	ovlastio ovlašten ovlašteni ovlastila ovlaštena ovlastili ovlasti овластио овлаштен овлаштени овластила овлаштена овластили овласти
+18	8018	utešan	utešno utešna utešnu utešne утешно утешна утешну утешне
+19	8019	prekrivati	prekriva prekrivaju prekrivao prekrivala prekrivanje prekrivalo prekrivali прекрива прекривају прекривао прекривала прекривање прекривало прекривали
+20	8020	konverzacija	konverzaciju konverzacija konverzacije konverzaciji конверзацију конверзација конверзације конверзацији
+21	8021	nesebičan	nesebično nesebičan nesebična nesebični nesebične nesebičnu несебично несебичан несебична несебични несебичне несебичну
+22	8022	aplaudirati	aplaudiraju aplaudirali aplaudira aplaudirati aplaudiram aplaudirajte aplaudirate aplaudirao aplaudiramo аплаудирају аплаудирали аплаудира аплаудирати аплаудирам аплаудирајте аплаудирате аплаудирао аплаудирамо
+23	8023	opomena	opomena opomenu opomene opomenom опомена опомену опомене опоменом
+24	8024	divljati	divljaju divljanje divljao divljati divljali divlja divljaš divljala divljam divljamo дивља дивљају дивљање дивљао дивљати дивљали дивљаш дивљала дивљам дивљамо
+25	8025	obrazovati	obrazuje obrazovati obrazujem obrazuju obrazovao obrazujemo obrazuj obrazovali obrazuješ obrazovala образује образовати образујем образују образовао образујемо образуј образовали образујеш образовала
+26	8026	plaziti	plazi plaze плази плазе
+27	8027	ljudstvo	ljudstvo ljudstva ljudstvom ljudstvu људство људства људством људству
+28	8028	infracrven	infracrveni infracrveno infracrvene infracrvenim infracrvena infracrvenom infracrvenu infracrvenog инфрацрвени инфрацрвено инфрацрвене инфрацрвеним инфрацрвена инфрацрвеном инфрацрвену инфрацрвеног
+29	8029	tumačiti	tumačiti tumači tumačiš tumačim tumače tumačite tumačimo tumačio tumačili тумачити тумачи тумачиш тумачим тумаче тумачите тумачимо тумачио тумачили
+30	8030	odbojan	odbojan odbojna odbojno odbojni odbojne одбојан одбојна одбојно одбојни одбојне
+31	8031	lavina	lavina lavinu lavine lavini лавина лавину лавине лавини
+32	8032	kleveta	kleveta klevete klevetu клевета клевете клевету
+33	8033	redakcija	redakciji redakciju redakcija redakcije редакцији редакцију редакција редакције
+34	8034	nostalgija	nostalgija nostalgiju nostalgije nostalgijom носталгија носталгију носталгије носталгијом
+35	8035	sugestija	sugestije sugestija sugestiju sugestijama sugestiji сугестије сугестија сугестију сугестијама сугестији
+36	8036	prepirka	prepirke prepirku prepirka prepirki prepirci prepirkama препирке препирку препирка препирки препирци препиркама
+37	8037	autocesta	autocesti autoceste autocestu autocesta autocestom аутоцести аутоцесте аутоцесту аутоцеста аутоцестом
+38	8038	доодим	дошла
+39	8039	dojdem	дошла
+40	8040	percepcija	percepcija percepciju percepcije percepciji percepcijom перцепција перцепцију перцепције перцепцији перцепцијом
+41	8041	sazreti	sazreo sazrela sazri sazrio sazreli sazrelo sazreti sazre сазрео сазрела сазри сазрио сазрели сазрело сазрети сазре
+42	8042	češki	češka češki češke češkoj češko češkom češku češkog чешка чешки чешке чешкој чешко чешком чешку чешког
+43	8043	povećalo	povećala povećalo povećalom повећала повећало повећалом
+44	8044	dinja	dinje dinja dinju диње диња дињу
+45	8045	vjeverica	vjeverica vjeverice vjevericu вјеверица вјеверице вјеверицу
+46	8046	ukopati	ukopao ukopati ukopali ukopan ukopani ukopa ukopana ukopamo ukopaj ukopala ukopaju ukopane укопао укопати укопали укопан укопани укопа укопана укопамо укопај укопала укопају укопане
+47	8047	rikverc	rikverc рикверц
+48	8048	naglavačke	naglavačke наглавачке
+49	8049	zaokružiti	zaokružio zaokruži zaokružimo zaokružila zaokružiti zaokružili zaokružite zaokruženo zaokružen zaokružena zaokružim заокружио заокружи заокружимо заокружила заокружити заокружили заокружите заокружено заокружен заокружена заокружим
+50	8050	zatvorenica	zatvorenica zatvorenice zatvorenici zatvorenicu zatvorenicom затвореници затвореница затворенице затвореницу затвореницом
+51	8051	oduprijeti	oduprijeti oduprem odupre odupremo odupreš odupri odupru oduprite oduprete одупријети одупрем одупре одупремо одупреш одупри одупру одуприте одупрете
+52	8052	metropolis	metropolis metropolisu metropolisa метрополис метрополису метрополиса
+53	8053	cirkuski	cirkuski cirkuska cirkuske cirkusku cirkuskim cirkuskom cirkuskog cirkuskih циркуски циркуска циркуске циркуску циркуским циркуском циркуског циркуских
+54	8054	udžbenik	udžbenik udžbenika udžbenike udžbeniku udžbenicima udžbenici уџбеник уџбеника уџбенике уџбенику уџбеницима уџбеници
+55	8055	aut	aut аут
+56	8056	krvotok	krvotok krvotoku krvotoka крвоток крвотоку крвотока
+57	8057	krigla	kriglu krigle krigla krigli kriglom криглу кригле кригла кригли криглом
+58	8058	sačiniti	sačinjen sačinjena sačinjeni sačinjeno sačinjene sačinio сачињен сачињена сачињени сачињено сачињене сачинио
+59	8059	prepisivati	prepisuje prepisivao prepisujem prepisivanje prepisuju prepisuješ prepisivala prepisivati prepisujete prepisujemo prepisivali преписује преписивао преписујем преписивање преписују преписујеш преписивала преписивати преписујете преписујемо преписивали
+60	8060	prašak	prašak praška praškom прашак прашка прашком
+61	8061	republikanski	republikanski republikanske republikanska republikansku republikanskog republikanskoj republikanskom republikanskim републикански републиканске републиканска републиканску републиканског републиканској републиканском републиканским
+62	8062	nedodirljiv	nedodirljiv nedodirljivi nedodirljiva nedodirljivim nedodirljive nedodirljivo недодирљив недодирљиви недодирљива недодирљивим недодирљиве недодирљиво
+63	8063	primena	primena primenu primeni primene primenom примена примену примени примене применом
+64	8064	gord	gordi gord gorda gordija gorde горди горд горда гордија горде
+65	8065	revizija	reviziju revizija revizije revizijom reviziji ревизију ревизија ревизије ревизијом ревизији
+66	8066	genetika	genetika genetike genetiku genetici genetikom генетика генетике генетику генетици генетиком
+67	8067	belgijski	belgijski belgijske belgijska belgijskog belgijsku belgijskoj belgijsko belgijskom belgijskih belgijskim белгијски белгијске белгијска белгијског белгијску белгијској белгијско белгијском белгијских белгијским
+68	8068	tunjevina	tunjevine tunjevinu tunjevina tunjevinom туњевине туњевину туњевина туњевином
+69	8069	ježiti	ježim ježi јежим јежи
+70	8070	prošlogodišnji	prošlogodišnji prošlogodišnje prošlogodišnjeg prošlogodišnja prošlogodišnjem prošlogodišnjih prošlogodišnju prošlogodišnjoj прошлогодишњи прошлогодишње прошлогодишњег прошлогодишња прошлогодишњем прошлогодишњих прошлогодишњу прошлогодишњој
+71	8071	zasaditi	zasadio zasadi zasaditi zasadili zasadimo zasadim zasadila zasađeno zasade zasadiš засадио засади засадити засадили засадимо засадим засадила засађено засаде засадиш
+72	8072	blijed	blijedi blijeda blijed blijedo blijede блиједи блиједа блијед блиједо блиједе
+73	8073	ciganiti	cigani cigane цигани цигане
+74	8074	kotao	kotao kotla kotlu kotlove kotlova котао котла котлу котлове котлова
+75	8075	nekud	nekud некуд
+76	8076	dopuniti	dopunim dopuniti dopunio dopuni dopunimo dopunite dopune dopuniš dopunila допуним допунити допунио допуни допунимо допуните допуне допуниш допунила
+77	8077	tajnik	tajnik tajnika tajnikom tajniče tajniku tajnici тајник тајника тајником тајниче тајнику тајници
+78	8078	glazben	glazbenu glazbena glazbene glazbenog glazbenom glazbeno glazbenoj glazbenim glazbenih glazbeni глазбену глазбена глазбене глазбеног глазбеном глазбено глазбеној глазбеним глазбених глазбени
+79	8079	nuklearka	nuklearke nuklearku nuklearki nuklearka nuklearkama nuklearkom нуклеарке нуклеарку нуклеарки нуклеарка нуклеаркама нуклеарком
+80	8080	stolar	stolar stolara stolari столар столара столари
+81	8081	glavica	glavicu glavica glavice glavici главицу главица главице главици
+82	8082	pretinac	pretinac pretincu pretinca pretince претинац претинцу претинца претинце
+83	8083	susjedni	susjednoj susjedne susjednom susjednog susjednim susjednu susjedna susjednih susjedni сусједној сусједне сусједном сусједног сусједним сусједну сусједна сусједних сусједни
+84	8084	zamjeriti	zamjeriti zamjerio zamjerite zamjeri zamjerila замјерити замјерио замјерите замјери замјерила
+85	8085	majušan	majušni majušna majušne majušno majušan majušnu majušnih majušnim majušnom majušnog мајушни мајушна мајушне мајушно мајушан мајушну мајушних мајушним мајушном мајушног
+86	8086	maločas	maločas малочас
+87	8087	mišićav	mišićavi mišićav mišićava mišićave mišićavog mišićavim mišićavo mišićavih мишићави мишићав мишићава мишићаве мишићавог мишићавим мишићаво мишићавих
+88	8088	aman	aman amane amana amani amanu аман амане амана амани аману
+89	8089	pomicati	pomiče pomicati pomicanje pomiču pomiči pomičeš pomičem pomičemo помиче помицати помицање помичу помичи помичеш помичем помичемо
+90	8090	obeshrabriti	obeshrabriti obeshrabri obeshrabren obeshrabrim obeshrabrena obeshrabrio obeshrabreni obeshrabriš obeshrabrilo obeshrabre обесхрабрити обесхрабри обесхрабрен обесхрабрим обесхрабрена обесхрабрио обесхрабрени обесхрабриш обесхрабрило обесхрабре
+91	8091	otrcan	otrcana otrcan otrcane otrcani otrcanu otrcanim otrcanom otrcanih otrcanog отрцана отрцан отрцане отрцани отрцану отрцаним отрцаном отрцаних отрцаног
+92	8092	ekspres	ekspres експрес
+93	8093	hulja	hulja hulje huljo hulju хуља хуље хуљо хуљу
+94	8094	cvetni	cvetni cvetne cvetna cvetnu cvetnim cvetno cvetnih cvetnom cvetnoj cvetnog цветни цветне цветна цветну цветним цветно цветних цветном цветној цветног
+95	8095	pokvasiti	pokvasi pokvasiš pokvasio pokvasila pokvasim pokvasiti pokvasite pokvasimo pokvase pokvasili покваси поквасиш поквасио поквасила поквасим поквасити поквасите поквасимо поквасе поквасили
+96	8096	bubuljica	bubuljice bubuljica bubuljicu bubuljicama бубуљице бубуљица бубуљицу бубуљицама
+97	8097	hodočasnik	hodočasnici hodočasnika hodočasnik hodočasnike hodočasniče hodočasnicima ходочасници ходочасника ходочасник ходочаснике ходочасниче ходочасницима
+98	8098	izuti	izuj izujem izujte izuti izuo izuješ izujete izu izuje изуј изујем изујте изути изуо изујеш изујете изу изује
+99	8099	intimno	intimno интимно
+100	8100	stočić	stočiću stočić stočića stočiće сточићу сточић сточића сточиће

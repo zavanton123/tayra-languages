@@ -1,0 +1,100 @@
+1	1401	los	los lose losa лос losu losove losova losovi losom лосе лоса лосу лосове лосова лосови лосом
+2	1402	krilo	krila krilo krilu krilima крила krilom крило крилу крилима крилом
+3	1403	kolega	kolega kolege kolegama kolegu kolegi kolegom kolegica колега колеге колегама колегу колеги колегом колегица
+4	1404	računati	računam računati računaj računa računao računaš računaju računamo računajte računajući računali računate računanje рачунати рачунам рачуна рачунају рачунај računaću рачунао рачунаш рачунамо рачунајте рачунајући рачунали рачунате рачунање рачунаћу
+5	1405	sjesti	sjedni sjednite sjesti sjeo sjednem sjedneš sjedne sjela sjede sjednete sjeli sjednimo sjednemo sjednu sjelo сједни сједните сјести сјео сједнем сједнеш сједне сјела сједе сједнете сјели сједнимо сједнемо сједну сјело
+6	1406	grešiti	grešiš grešim grešite greši grešio grešimo grešila grešili грешиш grešiti грешим греши грешите грешио greše грешимо грешила грешили грешити греше
+7	1407	teren	terenu teren terena терену terene terenima терен terenom tereni терена терене теренима тереном терени
+8	1408	prići	prišao priđi prići priđite priđe prišla priđem priđeš prišli priđu priđemo priđete приђи пришао прићи приђе prišle приђите prišlo priđimo приђем пришла приђеш пришли приђу приђемо приђете пришле пришло приђимо
+9	1409	rok	rok roku roka рок rokove року rokom rokovi rokova rokovima рока рокове роком рокови рокова роковима
+10	1410	odbaciti	odbaciti odbacio odbaci odbacim odbacila odbacili odbaciš odbačen odbacimo odbačena odbacite odbačene odbace odbaciću odbačeni odbačeno odbaciće odbacićemo odbacilo odbacićeš одбацио одбацити odbacile одбаци одбацим одбацили одбацила одбациш одбачен одбацимо одбачена одбаците одбачене одбаце одбацићу одбачени одбачено одбациће одбацићемо одбацило одбацићеш одбациле
+11	1411	popodne	popodne popodneva поподне popodnevu поподнева поподневу
+12	1412	mač	mač mačem mača mačeve maču mačeva mačevima mačevi мач мачем мача мачеве мачу мачева мачевима мачеви
+13	1413	desno	desno десно
+14	1414	mladić	mladić mladiću mladića mladići mladićem mladiće младић младићу mladićima младића младићи младићем младиће младићима
+15	1415	kompjuter	kompjuter kompjuteru kompjutera kompjutere kompjuteri kompjuterom kompjuterima компјутер компјутеру компјутера компјутере компјутери компјутером компјутерима
+16	1416	pravda	pravde pravdu pravda pravdi pravdom правде правду правда правди pravdo правдом правдо
+17	1417	zaslužiti	zaslužio zaslužila zaslužili zaslužim zaslužiti zasluži zaslužiš заслужио zaslužile zaslužena zasluženi zasluže zaslužite заслужили заслужила zaslužene zaslužimo zaslužilo zaslužen заслужим заслужити заслужи заслужиш заслужиле заслужена заслужени заслуже заслужите заслужене заслужимо заслужило заслужен
+18	1418	obrada	obrada obradu obradi обрада obrade obradom обраду обради обраде обрадом
+19	1419	pobeda	pobeda pobedu pobedi pobede pobedom победу победа pobedama победи победе победом победама
+20	1420	prebaciti	prebaci prebaciti prebacio prebacimo prebačen prebacite prebacim prebacili prebace prebacila prebaciš prebačena prebaciću prebačeni prebačeno prebacićemo prebacivati prebaciće пребаци prebačene prebacilo пребацити пребачен пребаците пребацим пребацио пребаце пребацимо пребацили пребацила пребациш пребачена пребацићу пребачени пребачено пребацићемо пребацивати пребациће пребачене пребацило
+21	1421	vetar	vetar vetra vetru vetrovi vetrom ветар vetrova vetrove vetrovima vetre ветра ветру ветрови ветром ветрова ветрове ветровима ветре
+22	1422	blago	blago blaga blagom blagu благо блага благом благу
+23	1423	izvan	izvan изван
+24	1424	zapaliti	zapalio zapali zapaliti zapalim zapalila zapalili zapalimo zapališ zapalite zapale zapaljena zapaliću zapaljen zapalilo zapaljene zapalićemo zapaljeni zapaljeno zapalile zapaliće запалио запали запалити запалимо запалим запалили zapalićeš запалила запалиш запалите запале запаљена запалићу запаљен запалило запаљене запалићемо запаљени запаљено запалиле запалиће запалићеш
+25	1425	podrška	podršku podrška podrške podršci podrškom подршку подршка подршке подршци подршком
+26	1426	podneti	podneti podnesem podneo podnese podnela podneseš podneli поднесем podneću podnesu podnesete podnesemo поднесе поднети podnesi podneta поднео podnesite podnećemo podneće podnet podnesena поднела podnele podnete podnelo поднесеш поднели поднећу поднесу поднесете поднесемо поднеси поднета поднесите поднећемо поднеће поднет поднесена поднеле поднете поднело
+27	1427	očistiti	očisti očistiti očistim očistio očistite očistiš očistimo očistili očistila očiste očišćen očistiću očišćena očišćeno očistićemo очисти očišćene očišćeni очистити очистите očistiće очистим očistile očistilo очистили očistićeš очистио очистиш очистимо очистила очисте очишћен очистићу очишћена очишћено очистићемо очишћене очишћени очистиће очистиле очистило очистићеш
+28	1428	izgled	izgled изгледа izgledu izgledi izgledom izglede изглед izgledima изгледу изгледи изгледом изгледе изгледима
+29	1429	guzica	guzicu guzice guzica guzici guzicom guzicama гузицу guzico гузице гузица гузици гузицом гузицама гузицо
+30	1430	izjava	izjavu izjava izjave izjavi izjavama izjavom изјаву изјава изјаве изјави изјавама изјавом
+31	1431	živeli	živeli живели
+32	1432	dovoditi	dovodi dovodiš dovode dovodim dovodio dovoditi dovodite dovodimo dovođenje dovodila доводи dovodili dovodeći dovodilo довођење доводе доводим доводиш доводио доводити доводите доводимо доводила доводили доводећи доводило
+33	1433	stvarati	stvara stvaraju stvaramo stvaram stvarati stvarajući stvaraš stvarao stvarate stvarali stvarala ствара stvaraj stvaralo stvarale стварају stvarajte stvarana стварам стварамо стварати стварајући ствараш стварао стварате стварали стварала стварај стварало стварале стварајте стварана
+34	1434	vani	vani вани vanka ванка
+35	1435	otkazati	otkazao otkazati otkazala otkazan otkažem otkaži otkazali otkazana otkazano otkaže otkažemo otkažeš otkažite otkažu otkazani otkazaću otkazalo otkažete otkazale otkazane otkazaće otkazaćemo otkažimo отказао откажем otkaza отказан отказати откаже отказана откажи отказала отказали отказано откажемо откажеш откажите откажу отказани отказаћу отказало откажете отказале отказане отказаће отказаћемо откажимо отказа
+36	1436	dalek	даље dalje daleka dalek dalekoj najdalje daleki daleke dalja daljeg dalji dalekom dalekog daljih dalju dalekim daleku dalekih daljem daljim daljoj najdalji далекој daljom najdalja даљег далека далек најдаље далеки далеке даља даљи далеком далеког даљих даљу далеким далеку далеких даљем даљим даљој најдаљи даљом најдаља
+37	1437	milja	milja milje milju miljama миља milji миље миљу miljom miljea миљама миљи миљом миљеа
+38	1438	seksi	seksi секси
+39	1439	mreža	mrežu mreže mreža mreži mrežom mrežama мрежу мреже мрежи мрежа мрежом мрежама
+40	1440	bitka	bitku bitka bitke bici bitci bitkama bitaka bitki битку битка битке bitkom бици битци биткама битака битки битком
+41	1441	pružiti	pruži pružiti pružio pružim pružila pružili pružite pružiš pružimo pruže pružiću pružena pružilo pružićemo пружи pružiće пружити pružile pružene пружио пружим pruženo пружила пружили пружите пружиш пружимо пруже пружићу пружена пружило пружићемо пружиће пружиле пружене пружено
+42	1442	skidati	skidaj skida skidam skidajte skidanje skidaš skidaju skidao skidati skidamo skidala скидај skidate skidali скида skidajući скидајте скидам скидање скидаш скидају скидао скидати скидамо скидала скидате скидали скидајући
+43	1443	ustajati	ustaj ustajte ustajem ustaje ustaješ ustajanje ustajati ustajao устај ustaju ustajemo ustajete ustajala ustajali ustajalo ustajale устајте устајем устаје устајеш устајање устајати устајао устају устајемо устајете устајала устајали устајало устајале
+44	1444	funta	funti funte funta funtu фунти funtama фунте фунта фунту фунтама
+45	1445	ubojstvo	ubojstvo ubojstva ubojstvu ubojstava ubojstvom ubojstvima убојство убојства убојству убојстава убојством убојствима
+46	1446	rak	rak raka rakom rakove rakova raku rakovi рак račića račiće račići рака rakovima račićima račić раком ракове ракова раку ракови рачића рачиће рачићи раковима рачићима рачић
+47	1447	kupatilo	kupatilo kupatilu kupatila купатило kupatilom купатилу купатила kupatilima купатилом купатилима
+48	1448	topao	topla toplu tople toplije topao topli toplom toplog toplim toploj toplija toplih topliji najtoplije топла najtopliji топле топлу топлије najtoplija topliju топао toplijim топлом najtoplijeg топли топлог топлим топлој топлија топлих топлији најтоплије најтоплији најтоплија топлију топлијим најтоплијег
+49	1449	prekasno	prekasno прекасно
+50	1450	specijalan	specijalni specijalne specijalna specijalnu specijalan specijalnim specijalnog specijalnih specijalnom specijalnoj специјални специјалне специјална специјалну специјалан специјалним специјалног специјалних специјалном специјалној
+51	1451	postavljati	postavlja postavljam postavljaš postavljaju postavljati postavljao postavljanje postavljamo postavljate postavljaj postavljali postavljala postavljanja postavljajući postavljajte поставља постављање постављам postavljaće постављају postavljaću постављаш постављати postavljalo postavljana постављао постављамо постављате постављај постављали постављала постављања постављајући постављајте постављаће постављаћу постављало постављана
+52	1452	smešan	smešan smešna smešni smešne smešnu smešnim smešnije smešnih smešnom smešnog najsmešnije смешан смешна najsmešnija najsmešniji smešniji smešnoj смешни смешне smešnija смешну смешним смешније смешних смешном смешног најсмешније најсмешнија најсмешнији смешнији смешној смешнија
+53	1453	pozicija	poziciju poziciji pozicije pozicija pozicijama позицију позицији pozicijom позиције позиција позицијама позицијом
+54	1454	glumiti	glumiš glumi glumim glumiti glumio glumila glume glumite glumimo glumili glumeći глуми glumljenje glumiću глумиш глумим глумио glumile глумила глуме глумити глумите глумимо глумили глумећи глумљење глумићу глумиле
+55	1455	također	također такођер
+56	1456	venčati	venčali venčamo venčani venčati venčaćemo venčaju venčate venčao venča venčam venčaš venčana venčala venčan venčajmo venčaćete venčaće venčane венчамо венчали венчани венчати venčaj venčajte venčano venčaću венчаћемо венчају венчате венчао венча венчам венчаш венчана венчала венчан венчајмо венчаћете венчаће венчане венчај венчајте венчано венчаћу
+57	1457	laboratorij	laboratoriju laboratoriji laboratorija laboratorije laboratorij laboratorijima laboratorijem лабораторију лабораторији лабораторија лабораторије лабораториј лабораторијима лабораторијем
+58	1458	dar	dar darove dara darovi darom darova daru darovima дар dare dari дарове дара дарови даром дарова дару даровима даре дари
+59	1459	ben	ben бен
+60	1460	skočiti	skoči skočio skočiti skočila skočiš skočim skočili skočimo skočite skočiću skoče skočile скочи скочио skočiće skočilo skočićemo скочити skočivši скочила скочим skočićeš скочиш скочили скочимо скочите скочићу скоче скочиле скочиће скочило скочићемо скочивши скочићеш
+61	1461	zaspati	zaspao zaspala zaspim zaspati zaspiš zaspi zaspali zaspe zaspite zaspimo заспао zaspale заспала zaspaću zaspaćeš заспим zaspaće zaspalo заспати заспи заспиш заспали заспе заспите заспимо заспале заспаћу заспаћеш заспаће заспало
+62	1462	stomak	stomak stomaku stomaka stomakom стомак stomake стомаку stomacima stomaci стомака стомаком стомаке стомацима стомаци
+63	1463	birati	biram biraš birati biraju biraj biramo birao birate biranje birajte birala birali birajući бирам бирају birani бираш бирамо бирање бирај birale бира бирати бирао бирате бирајте бирала бирали бирајући бирани бирале
+64	1464	nalog	nalog naloga nalogu naloge nalogom налог nalozi nalozima налога налогу налоге налогом налози налозима
+65	1465	gđa	gđa гђа
+66	1466	ćelija	ćelije ćelija ćeliju ćeliji ćelijama ћелије ћелија ћелију ћелији ćelijom ћелијама ћелијом
+67	1467	zabaviti	zabaviti zabavite zabavimo zabave zabavi zabavio zabavili zabavim zabaviš zabavila zabavićemo забавите забавимо zabavile zabaviću забавити zabavilo забаве zabavljeni забави забавио забавили забавим забавиш забавила забавићемо забавиле забавићу забавило забављени
+68	1468	obratiti	obrati obratite obratio obratiti obratim obratila obratiš obratili obratimo obrate обратите obratiću обрати obratiće обратити обратио обратим obratićemo обратиш обратила обратили обратимо обрате обратићу обратиће обратићемо
+69	1469	demon	demon demona demoni demone demonima demonu demonom демона демон демони демоне демонима демону демоном
+70	1470	božji	božji božja božje božiji božju božjim božjoj božjeg božjom božjem božjih божји божја божје божији божју božjega божјим божјој божјег божјом божјем божјих божјега
+71	1471	očito	očito очито
+72	1472	dno	dna dnu dno дну дно dnom дна дном
+73	1473	poslovan	poslovni poslovno poslovne poslovna poslovnu poslovnom poslovnog poslovnim poslovnih poslovan poslovnoj пословни пословно пословне пословном пословна пословног пословну пословним пословних послован пословној
+74	1474	najmanje	najmanje најмање
+75	1475	major	majore major majora majoru мајоре majorom мајор мајора мајору мајором
+76	1476	hvatati	hvataj hvata hvatanje hvatajte hvatam hvataju hvataš hvatamo hvatati hvatao hvatate hvatali хватај hvatala hvatajući hvatajmo хватање хватајте хвата хватам хватају хваташ хватамо хватати хватао хватате хватали хватала хватајући хватајмо
+77	1477	suočiti	suočiti suoči suočim suočimo suočiš suočio suočeni suočite suočili suočila suočen suoče suočena suočićemo суочи suočiću suočiće суочити suočićeš suočene suočićete суочио суочим суочиш суочени suočilo суочимо суочите суочили суочила суочен суоче суочена суочићемо суочићу суочиће суочићеш суочене суочићете суочило
+78	1478	grudi	grudi grudima груди грудима
+79	1479	taman	taman tamna tamne tamno tamnu tamni tamnom tamnoj tamnim tamnije tamnih tamnog tamnija tamniji таман тамно tamniju тамна najtamnije тамне tamnima тамну najtamniji тамни тамном тамној тамним тамније тамних тамног тамнија тамнији тамнију најтамније тамнима најтамнији
+80	1480	oluja	oluja oluje oluju oluji olujom олуја olujama олује олују olujo олуји олујом олујама олујо
+81	1481	trava	travu trave trava travi travom траву траве travama трава трави травом травама
+82	1482	nameravati	nameravam nameravao nameravaš namerava nameravate nameravala nameravali nameravaju nameravamo намеравам намеравао намераваш намеравате намерава намеравају намеравала намеравали намеравамо
+83	1483	gad	gad gade gadovi gada gadove gadova gadu gadovima gadom гад гаде гадови гада гадове гадова гаду гадовима гадом
+84	1484	budan	budan budna budni budnim budnom budno будан budne budnog будна budnu budnima будни budnih будним будном будно будне будног будну буднима будних
+85	1485	prodavnica	prodavnice prodavnici prodavnicu prodavnica prodavnicama продавнице продавницу продавници продавница prodavnicom продавницама продавницом
+86	1486	ukoliko	ukoliko уколико
+87	1487	ljubomoran	ljubomoran ljubomorna ljubomorni ljubomornim ljubomorne ljubomornom љубоморан ljubomorno љубоморна ljubomornog ljubomornih ljubomornu љубоморни љубоморним љубоморне љубоморном љубоморно љубоморног љубоморних љубоморну
+88	1488	usput	usput успут
+89	1489	oduzeti	oduzeti oduzeo oduzeli oduzme oduzela oduzmu oduzeta oduzmem oduzmeš oduzet oduzeto oduzmi oduzmete oduzmemo oduzelo oduzeće oduzeću oduzmite oduzete одузети oduzele одузме одузео oduzećemo одузела одузели одузму одузета одузмем одузмеш одузет одузето одузми одузмете одузмемо одузело одузеће одузећу одузмите одузете одузеле одузећемо
+90	1490	određen	određene određeni određenu određena određenim određen određenom određenog određenih određenoj одређене одређени одређену одређеним одређена одређеном одређен одређеног одређених одређеној
+91	1491	aerodrom	aerodrom aerodromu aerodroma аеродром aerodrome aerodromima аеродрома аеродрому aerodromi aerodromom aerodromsko aerodromski aerodromske aerodromska aerodromskom aerodromskog аеродроме аеродромима аеродроми аеродромом аеродромско аеродромски аеродромске аеродромска аеродромском аеродромског
+92	1492	sramota	sramota sramotu sramote sramoti срамота sramotom sramoto срамоте срамоту срамоти срамотом срамото
+93	1493	lista	lista listu listi liste listom листи листа listama листу листе listo листом листама листо
+94	1494	majmun	majmun majmuna majmune majmuni majmunima majmunom majmunu мајмун мајмуна мајмуне мајмуни мајмунима мајмуном мајмуну
+95	1495	suđenje	suđenje suđenja suđenju suđenjem суђење суђења suđenjima суђењу суђењем суђењима
+96	1496	kopile	kopile kopilad копиле kopiladi kopileta kopiletom kopiletu копилад копилади копилета копилетом копилету
+97	1497	upomoć	upomoć упомоћ
+98	1498	poseta	posetu poseta poseti posete посету posetom posetama посети посета посете посетом посетама
+99	1499	jasan	jasan jasna jasnije jasni jasne jasnu jasniji jasnim jasnija јасан najjasnije jasnom jasnih јасна jasniju jasnog јасније јасни najjasniji јасне јасну јаснији јасним јаснија најјасније јасном јасних јаснију јасног најјаснији
+100	1500	tvrd	tvrdi tvrde tvrd tvrdim tvrdo tvrda tvrdu tvrdog тврди tvrdom tvrđi tvrđe тврде tvrdih tvrđa тврд tvrdoj тврдим najtvrđi najtvrđe najtvrđa тврдо тврда тврду тврдог тврдом тврђи тврђе тврдих тврђа тврдој најтврђи најтврђе најтврђа

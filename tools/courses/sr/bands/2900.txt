@@ -1,0 +1,100 @@
+1	2801	iznova	iznova изнова
+2	2802	preterivati	preteruješ preteruj preterujem preteruje preterivanje preterujete preterivati preterujemo preteruju preterujte preterujmo preterivao preterivala претерујеш претеруј претерујем претерује претеривање претерујете претеривати претерујемо претерују претерујте претерујмо претеривао претеривала
+3	2803	raširiti	raširi raširite raširio raširiti raširila raširene rašire raširim raširimo raširili raširiš raširena raširilo raširile raširen rašireno rašireni raširiće raširiću рашири раширите раширио раширити раширила раширене рашире раширим раширимо раширили рашириш раширена раширило рашириле раширен раширено раширени рашириће раширићу
+4	2804	unapred	unapred унапред
+5	2805	izgovoriti	izgovorio izgovoriti izgovorim izgovoriš izgovorila izgovorite izgovori izgovorene izgovorili izgovore izgovorimo izgovorena izgovoreno izgovoriću изговорим изговорио изговори изговоре изговорити изговориш изговорила изговорите изговорене изговорили изговоримо изговорена изговорено изговорићу
+6	2806	nadgledati	nadgleda nadgledati nadgledanje nadgledam nadgledao nadgledaju nadgledamo nadgledaš nadgledali nadgledate nadgledaj nadgledala nadgledajte nadgledaću nadgledan nadgledani nadgledaće надгледа nadgledaćemo nadgledane надгледати надгледање надгледам надгледао надгледају надгледамо надгледаш надгледали надгледате надгледај надгледала надгледајте надгледаћу надгледан надгледани надгледаће надгледаћемо надгледане
+7	2807	ljubavnica	ljubavnica ljubavnicu ljubavnici ljubavnice ljubavnicom љубавница ljubavnicama љубавницу љубавнице љубавници љубавницом љубавницама
+8	2808	potvrda	potvrdu potvrda potvrdi potvrde потврду potvrdom потврда потврди потврде потврдом
+9	2809	bekstvo	bekstvo bekstvu bekstva бекство bekstvom бекству бекства бекством
+10	2810	element	element elemenata elemente elementi elementa elementu elementima elementom елемент елемената елементе елементи елемента елементу елементима елементом
+11	2811	pozorište	pozorište pozorištu pozorišta pozorištem позориште pozorištima позоришту позоришта позориштем позориштима
+12	2812	opis	opis opisu opisa opisom opisi opise опис opisima опису описа описом описи описе описима
+13	2813	krst	krst krsta krstu krstom крст krstove krstovi krstova krste крста krstovima крсту крстом крстове крстови крстова крсте крстовима
+14	2814	princip	principa princip principu principe principima principi principom принципу принципа принцип принципе принципима принципи принципом
+15	2815	ludost	ludost ludosti лудост ludostima ludošću лудости лудостима лудошћу
+16	2816	kugla	kugle kugla kuglu kugli kuglom kuglama кугле куглу кугла kuglo кугли куглом куглама кугло
+17	2817	poen	poena poen poene poeni poenima поен poenom поена поене поени поенима поеном
+18	2818	posjetiti	posjetiti posjetio posjeti posjetila posjete posjetili posjetim posjetite posjetimo posjetiš посјетити посјетио посјети посјетила посјете посјетили посјетим посјетите посјетимо посјетиш
+19	2819	religija	religija religije religiju religiji religijom religijama религија религије религију религији религијом религијама
+20	2820	ukusan	ukusna ukusan ukusne ukusni ukusnu ukusnije ukusnog ukusnim ukusniji ukusnih ukusnija ukusnom najukusnije najukusnija najukusniji ukusnoj укусна укусан укусни укусне укусну укусније укусног укусним укуснији укусних укуснија укусном најукусније најукуснија најукуснији укусној
+21	2821	kucati	kucaš kucanje kucao kucam kucati kucaj kucaju kucala kucate kucali kucalo kucajte kucamo куцање kucajući kucaću куцам куцаш куцају куцао куцати куцај куцала куцате куцали куцало куцајте куцамо куцајући куцаћу
+22	2822	им	им
+23	2823	gnjaviti	gnjavi gnjaviti gnjavim gnjaviš gnjave gnjavite gnjavimo гњави гњавити гњавим гњавиш гњаве гњавите гњавимо
+24	2824	teksas	teksas teksasu teksasa тексас тексасу teksasom тексаса тексасом
+25	2825	kombinacija	kombinacija kombinaciju kombinaciji kombinacije kombinacijom комбинација kombinacijama комбинацију комбинацији комбинације комбинацијом комбинацијама
+26	2826	bukvalno	bukvalno буквално
+27	2827	toranj	toranj tornja tornju tornjeva tornjevi tornjeve tornjem торањ tornjevima торњу торња торњева торњеви торњеве торњем торњевима
+28	2828	doza	dozu doza doze dozom dozama dozi дозу доза дозе дозом дозама дози
+29	2829	udovica	udovica udovice udovicu udovici udovicom удовица udovicama удовице удовицу удовици удовицом удовицама
+30	2830	civilizacija	civilizacije civilizacija civilizaciju civilizaciji civilizacijama civilizacijom цивилизације цивилизација цивилизацију цивилизацији цивилизацијама цивилизацијом
+31	2831	klavir	klavir klavira klaviru klavirom клавир klavire klaviri клавира клавиру клавиром клавире клавири
+32	2832	naporan	naporan naporna napornog naporni naporne napornije napornu napornim napornom napornih напоран naporniji напорна напорног напорни напорне напорније напорну напорним напорном напорних напорнији
+33	2833	plemenit	plemeniti plemenito plemenit plemenita plemenite plemenitog plemenitu plemenitim plemenitih plemenitom najplemenitiji plemenitoj plemenitije племенити najplemenitije plemenitiji najplemenitija племенито племенит племенита племените племенитог племениту племенитим племенитих племенитом најплеменитији племенитој племенитије најплеменитије племенитији најплеменитија
+34	2834	prisiliti	prisiljen prisilio prisiliti prisiljeni prisilili prisiljena prisilila prisili prisile prisilim prisiliš prisilite prisilimo prisiljene prisililo prisiljeno присиљени присилити присилио prisilile присиљен присилили присиљена присилила присили присиле присилим присилиш присилите присилимо присиљене присилило присиљено присилиле
+35	2835	zavera	zavera zavere zaveru zaveri zaverama заверу завере zaverom завера завери заверама завером
+36	2836	april	april aprila aprilu април априла априлу
+37	2837	savez	savez saveza savezu savezom савез savezi saveze савеза савезу савезом савези савезе
+38	2838	voće	voće voća voćem voću воће воћа воћем воћу
+39	2839	zaključak	zaključak zaključka zaključke zaključcima zaključaka zaključci zaključku zaključkom закључак закључка закључке закључцима закључака закључци закључку закључком
+40	2840	nacrtati	nacrtao nacrtala nacrtam nacrtati nacrtaj nacrtaš nacrtali nacrta nacrtan nacrtaću nacrtana nacrtane nacrtate nacrtajte nacrtano nacrtani nacrtamo nacrtaju нацртао нацртала нацртам нацртати нацртај нацрташ нацртали нацрта нацртан нацртаћу нацртана нацртане нацртате нацртајте нацртано нацртани нацртамо нацртају
+41	2841	komentar	komentar komentara komentare komentari komentarima коментар коментара komentaru komentarom коментаре коментари коментарима коментару коментаром
+42	2842	tresti	trese tresu tresem treseš tresi tresti tresao tresla tresle tresete tresli treslo tresite тресе tresući tresemo тресу тресем тресеш треси трести тресао тресла тресле тресете тресли тресло тресите тресући тресемо
+43	2843	sipati	sipaj sipam sipao sipaš sipati sipala sipajte sipaću sipali sipamo sipaju sipate сипај sipanje сипам сипао сипаш сипати сипала сипајте сипаћу сипали сипамо сипају сипате сипање
+44	2844	dobrodošlica	dobrodošlicu dobrodošlice dobrodošlica dobrodošlici добродошлицу dobrodošlicom добродошлице добродошлица добродошлици добродошлицом
+45	2845	godišnjica	godišnjica godišnjicu godišnjice godišnjici годишњицу годишњица годишњице годишњици
+46	2846	savest	savest savesti savešću савест савести савешћу
+47	2847	opraštati	opraštam oprašta opraštaš opraštamo opraštanje opraštaju opraštate opraštati опраштам opraštao opraštala opraštali opraštaj опрашта опрашташ опраштамо опраштање опраштају опраштате опраштати опраштао опраштала опраштали опраштај
+48	2848	familija	familija familije familiju familiji familijom familijo familijama фамилија фамилије фамилију фамилији фамилијом фамилијо фамилијама
+49	2849	ključan	ključni ključna ključno ključne ključnu ključan ključnih ključnog ključnim ključnom ključnoj кључни кључна кључне кључно кључну кључан кључних кључног кључним кључном кључној
+50	2850	kan	kan kane kanu kana kani kanuom kanuu kano kanua kanom kanue кан кана kanuima кане kanui кану кани кануом кануу кано кануа каном кануе кануима кануи
+51	2851	palica	palicu palicom palica palice palicama palici палицу палицом палица палице палицама палици
+52	2852	kila	kila kile kilo kilu kili кила kilom киле кило килу кили килом
+53	2853	tepih	tepih tepihu tepiha tepihe tepihom tepisi тепих tepisima тепиха тепиху тепихе тепихом теписи теписима
+54	2854	prekriti	prekriven prekrivena prekriveno prekriveni prekrio prekrivene prekriti prekrila prekrije prekrili prekrij prekrijte prekrijem prekrijemo prekriju prekriješ prekri prekrilo прекривен prekriću прекривена prekrijete prekrile прекривено прекривени прекрио прекривене прекрити прекрила прекрије прекрили прекриј прекријте прекријем прекријемо прекрију прекријеш прекри прекрило прекрићу прекријете прекриле
+55	2855	vo	vole vo vola воле во volovi volu volove volova volom вола волови волу волове волова волом
+56	2856	vrhunski	vrhunski vrhunska vrhunske vrhunsko vrhunskog vrhunsku vrhunskih vrhunskom vrhunskim vrhunskoj врхунски врхунска врхунске врхунско врхунског врхунску врхунских врхунском врхунским врхунској
+57	2857	magičan	magični magične magična magičnu magičnim magičan magičnog magičnom magičnih magičnoj магичне магична магични магичну магичним магичан магичног магичном магичних магичној
+58	2858	sastaviti	sastavio sastaviti sastavim sastavljen sastavili sastavimo sastavljena sastavila sastavi sastavite sastaviš sastavljeno sastavljeni sastavljene sastaviću sastave sastavićemo саставио састави саставити саставим састављен саставили саставимо састављена саставила саставите саставиш састављено састављени састављене саставићу саставе саставићемо
+59	2859	paluba	palubi palubu palube paluba palubama palubom палуби палубу палубе палуба палубама палубом
+60	2860	isprazniti	isprazni ispraznio ispraznite isprazniti ispraznila ispraznim ispraznili isprazniš ispraznimo isprazne ispražnjen ispražnjena isprazniću ispražnjeno ispraznile ispražnjeni испразните ispražnjene ispraznilo ispraznićemo испразни испразнио испразнити испразнила испразним испразнили испразниш испразнимо испразне испражњен испражњена испразнићу испражњено испразниле испражњени испражњене испразнило испразнићемо
+61	2861	šator	šator šatoru šatora šatore šatorima šatori šatorom шатор шатору шатора шаторе шаторима шатори шатором
+62	2862	imovina	imovinu imovine imovina imovinom imovini имовину имовине имовина имовином имовини
+63	2863	interesantan	interesantan interesantna interesantne interesantnije interesantnu interesantnim interesantnih interesantni interesantnog interesantniji interesantnija najinteresantnije interesantnom najinteresantniji interesantnijim интересантан интересантна interesantnijom najinteresantnija интересантне интересантније интересантну интересантним интересантних интересантни интересантног интересантнији интересантнија најинтересантније интересантном најинтересантнији интересантнијим интересантнијом најинтересантнија
+64	2864	tuš	tuš tušem tuša tuševe tuševi tuševima туш tuševa tušu тушем туша тушеве тушеви тушевима тушева тушу
+65	2865	blato	blato blatu blata blatom блато блату блата блатом
+66	2866	sofa	sofi sofu sofa sofe софи софу софа софе
+67	2867	dopuštati	dopušta dopuštam dopuštaš dopuštate dopuštaju dopuštamo dopuštao dopuštala dopuštajući dopuštati dopuštaj dopuštali dopuštanje допушта допуштам допушташ допуштате допуштају допуштамо допуштао допуштала допуштајући допуштати допуштај допуштали допуштање
+68	2868	kuja	kuja kujo kuje kuju kujin kuji kujom kujama куја кује кујо кују кујин куји кујом кујама
+69	2869	pecati	pecanje peca pecam pecati pecaš pecao pecamo pecaju pecali pecate пецање pecaj pecala pecajući пеца пецам пецати пецаш пецао пецамо пецају пецали пецате пецај пецала пецајући
+70	2870	benzin	benzin benzina benzinom бензин benzinu бензина бензином бензину
+71	2871	sadržati	sadrži sadrže садржи sadržao sadržala sadržati садрже sadržalo sadržale садржао садржала садржати садржало садржале
+72	2872	alfa	alfa alfe alfi alfu алфа alfom алфе алфи алфу алфом
+73	2873	rog	rozi rog rogove rogovi rogovima roga rogova rože rogom roge рог rogu рози рогове рогови роговима рога рогова роже рогом роге рогу
+74	2874	lagano	lagano лагано
+75	2875	tanjir	tanjir tanjira tanjire tanjiru tanjiri tanjirima тањир tanjirom тањире тањира тањиру тањири тањирима тањиром
+76	2876	svetac	svetac sveca sveci svetaca svece svecima svecu sveče svecem светац свеца свеци светаца свеце свецима свецу свече свецем
+77	2877	jednako	jednako једнако
+78	2878	opsesti	opsednut opsednuta opsednuti опседнут opsednute opsednuto опседнута opseo opsedne опседнути опседнуте опседнуто опсео опседне
+79	2879	nakaza	nakaza nakazo nakaze nakazu nakazama nakazom наказа nakazi наказо наказе наказу наказама наказом накази
+80	2880	balon	balon balona balone baloni balonu balonima balonom балон балона балоне балони балону балонима балоном
+81	2881	guza	guzu guza guzi guze guzom guzama guzo гуза гузу гузи гузе гузом гузама гузо
+82	2882	kočija	kočiju kočija kočije kočiji kočijom kočijama кочију кочије кочија кочији кочијом кочијама
+83	2883	praktično	praktično практично
+84	2884	drkadžija	drkadžija drkadžijo drkadžije drkadžiju drkadžijom drkadžijama drkadžiji дркаџијо дркаџија дркаџије дркаџију дркаџијом дркаџијама дркаџији
+85	2885	kum	kum kuma kume kumu kumovi kumom кум kumova kumove кума куме куму кумови кумом кумова кумове
+86	2886	kovčeg	kovčeg kovčegu kovčega kovčege kovčegom ковчег kovčezi kovčezima ковчега ковчегу ковчеге ковчегом ковчези ковчезима
+87	2887	zapis	zapis zapise zapisi zapisa zapisima zapisu запис записи записе записа zapisom записима запису записом
+88	2888	buljiti	buljiš bulji bulje buljio buljite buljiti buljim buljila buljili buljeći buljenje buljimo буљи буљиш буље буљио буљите буљити буљим буљила буљили буљећи буљење буљимо
+89	2889	rukovati	rukovanje rukuje rukovati rukujem rukujemo rukovao rukuješ rukovali rukujte rukuj rukujete rukuju rukujmo rukovala рукује руковање руковати рукујем рукујемо руковао рукујеш руковали рукујте рукуј рукујете рукују рукујмо руковала
+90	2890	kauboj	kauboj kauboju kauboja kauboji kauboje kaubojima kaubojem каубоју каубој каубоја каубоји каубоје каубојима каубојем
+91	2891	kanta	kantu kante kanta kanti kantom kantama kanto канту канте канта канти кантом кантама канто
+92	2892	odan	odan odani odana odane odanog odano najodaniji odanih odanu odanim одан одани odaniji одана odanom najodanija najodanijih одане оданог одано најоданији оданих одану оданим оданији оданом најоданија најоданијих
+93	2893	motel	motel motelu motela motelima motele moteli мотел мотелу motelom мотела мотелима мотеле мотели мотелом
+94	2894	prtljag	prtljag prtljaga prtljagu prtljagom prtljage пртљаг prtljazi пртљага пртљагу пртљагом пртљаге пртљази
+95	2895	serijski	serijski serijskog serijske serijskih serijskim serijskom serijska серијски serijsko серијског серијске серијских серијским серијском серијска серијско
+96	2896	koza	koza koze kozu kozje kozi kozom kozama kozji kozo kozja kozjeg kozju kozjim kozica козе коза kozjom козу козје кози козом козама козји козо козја козјег козју козјим козица козјом
+97	2897	okrutan	okrutan okrutna okrutni okrutne okrutnom okrutnog okrutnim okrutnu okrutnih najokrutniji okrutniji najokrutnija najokrutnije окрутан okrutnije окрутни okrutnoj najokrutnijih окрутна окрутне окрутном окрутног окрутним окрутну окрутних најокрутнији окрутнији најокрутнија најокрутније окрутније окрутној најокрутнијих
+98	2898	osuđivati	osuđujem osuđuje osuđuješ osuđivati osuđivan osuđuju osuđuj osuđujemo osuđujete osuđivao osuđivani osuđivala osuđivanje osuđujući osuđujte osuđivali osuđivana осуђујем осуђује осуђујеш осуђивати осуђиван осуђују осуђуј осуђујемо осуђујете осуђивао осуђивани осуђивала осуђивање осуђујући осуђујте осуђивали осуђивана
+99	2899	rešavati	rešava rešavanje rešavam rešavamo rešavaju rešavaš rešavati rešavao rešavate rešavali rešavala rešavaj rešavajući решава rešavajte решавање решавам решавамо решавају решаваш решавати решавао решавате решавали решавала решавај решавајући решавајте
+100	2900	aktivan	aktivan aktivni aktivna aktivno aktivne aktivnu aktivnih aktivnog aktivnim aktivnoj aktivniji aktivnom активан aktivnije aktivnija najaktivniji najaktivnijih активно активни активна активне активну активних активног активним активној активнији активном активније активнија најактивнији најактивнијих

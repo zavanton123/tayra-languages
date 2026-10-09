@@ -1,0 +1,100 @@
+1	5701	pijanac	pijanac pijanca pijanci pijanaca pijance pijancima pijancu pijanu пијанац пијанца пијанци пијанаца пијанце пијанцима пијанцу пијану
+2	5702	budalast	budalasto budalasti budalasta budalast budalaste budalastog budalastim budalastih budalastu будаласто будаласти будаласта будаласт будаласте будаластог будаластим будаластих будаласту
+3	5703	invalid	invalid invalide invalida invalidi invalidima invalidu invalidom инвалид инвалиде инвалида инвалиди инвалидима инвалиду инвалидом
+4	5704	alternativan	alternativni alternativne alternativna alternativnu alternativno alternativnoj alternativnim alternativnih alternativnom alternativnog алтернативни алтернативне алтернативна алтернативну алтернативно алтернативној алтернативним алтернативних алтернативном алтернативног
+5	5705	okruživati	okružuje okružuju okruživali окружује okruživale okruživala окружују окруживали окруживале окруживала
+6	5706	neznanje	neznanje neznanju neznanja neznanjem незнање незнању незнања незнањем
+7	5707	mlatiti	mlati mlatio mlatiš mlate mlatiti mlatim mlatili mlaćenje mlatimo mlatite mlateći млати млатио млатиш млате млатити млатим млатили млаћење млатимо млатите млатећи
+8	5708	žila	žile žila žilu žilama žili жиле жила жилу жилама жили
+9	5709	sused	sused susedi susedima susede susedu susedom суседи сусед суседима суседе суседу суседом
+10	5710	šlag	šlag šlagom šlaga шлаг шлагом шлага
+11	5711	opsjesti	opsjednut opsjednuta opsjednuti opsjednute опсједнут опсједнута опсједнути опсједнуте
+12	5712	nadaren	nadaren nadarena nadareni nadarene nadarenog nadarenu nadarenih nadareno надарен надарена надарени надарене надареног надарену надарених надарено
+13	5713	aligator	aligatora aligator aligatori aligatore aligatorima aligatoru aligatorom алигатора алигатор алигатори алигаторе алигаторима алигатору алигатором
+14	5714	istopiti	istopi istopiti istopio istopila istopilo istopljeni istope istopljene istopljeno istopljena istopim istopili istopiće istopljen istopiš istopimo истопи истопити истопио истопила истопило истопљени истопе истопљене истопљено истопљена истопим истопили истопиће истопљен истопиш истопимо
+15	5715	integritet	integritet integriteta integritetom integritetu интегритет интегритета интегритетом интегритету
+16	5716	relativno	relativno релативно
+17	5717	šnicl	šnicle šniclu šnicla šnicli šniclom шницле шницлу шницла шницли шницлом
+18	5718	zapisivati	zapisujem zapisuješ zapisuje zapisivao zapisivati zapisujete zapisuj zapisivala zapisuju zapisujemo zapisivanje zapisivali zapisujte записујем записујеш записује записивао записивати записујете записуј записивала записују записујемо записивање записивали записујте
+19	5719	veselo	veselo весело
+20	5720	prisiljavati	prisiljava prisiljavati prisiljavam prisiljavao prisiljavaju prisiljavaš prisiljavajući prisiljavate prisiljavaj prisiljavanje prisiljavali prisiljavala prisiljavamo prisiljavajte присиљава присиљавати присиљавам присиљавао присиљавају присиљаваш присиљавајући присиљавате присиљавај присиљавање присиљавали присиљавала присиљавамо присиљавајте
+21	5721	poslanik	poslanik poslanika poslaniče poslanici poslanica poslanice poslaniku посланик poslanike poslanikom poslanicu посланика посланиче посланици посланица посланице посланику посланике послаником посланицу
+22	5722	formacija	formaciju formacija formaciji formacije formacijama формацију формација формацији формације формацијама
+23	5723	ropstvo	ropstvo ropstva ropstvu ропства ропство ropstvom ропству ропством
+24	5724	kreirati	kreirao kreira kreirali kreirala kreirati kreiranje kreiraju kreiram kreiramo kreiraš kreiran kreirana kreirate kreirajući креирао креира креирали креирала креирати креирање креирају креирам креирамо креираш креиран креирана креирате креирајући
+25	5725	kidati	kida kidaju kidanje kidamo kidaš kidam kidaj kidati kidao kidali kidajmo kidajući кида кидају кидање кидамо кидаш кидам кидај кидати кидао кидали кидајмо кидајући
+26	5726	krstiti	krstim krstio krsti krstiti krštena kršteno krstimo krstili kršteni krstiš krstite krstila krste крстим крстио крсти крстити крштена крштено крстимо крстили крштени крстиш крстите крстила крсте
+27	5727	vanzemaljac	vanzemaljac ванземаљац
+28	5728	razumevati	razumevanje разумевање
+29	5729	zaljubljivati	zaljubljujem zaljubljuje zaljubljuju zaljubljivanje zaljubljuješ zaljubljujemo zaljubljivao zaljubljivala zaljubljivati zaljubljuj заљубљујем заљубљује заљубљују заљубљивање заљубљујеш заљубљујемо заљубљивао заљубљивала заљубљивати заљубљуј
+30	5730	f	f ф
+31	5731	osnivač	osnivač osnivača osnivači osnivačima osnivaču osnivače osnivačem оснивач оснивача оснивачи оснивачима оснивачу осниваче оснивачем
+32	5732	sažaljevati	sažaljevam sažaljevaš sažaljevati sažaljevaju sažaljeva sažaljevao sažaljevate sažaljevaj sažaljevala sažaljevanje sažaljevamo sažaljevali сажаљевам сажаљеваш сажаљевати сажаљевају сажаљева сажаљевао сажаљевате сажаљевај сажаљевала сажаљевање сажаљевамо сажаљевали
+33	5733	pešačiti	pešačenje pešačim pešačimo pešačio pešači pešačiš pešačiti pešačili pešačila pešačite pešačiću pešačićemo pešače пешачење пешачим пешачимо пешачио пешачи пешачиш пешачити пешачили пешачила пешачите пешачићу пешачићемо пешаче
+34	5734	pretjerivati	pretjeruješ pretjeruj pretjerujem pretjerivati pretjeruje pretjerujete pretjerivanje pretjeruju pretjerivao pretjerujte претјерујеш претјеруј претјерујем претјеривати претјерује претјерујете претјеривање претјерују претјеривао претјерујте
+35	5735	rijedak	rijetka rijedak rijetki rijetke rijetkih rijetkim rijetku rjeđe rijetkog ријетка риједак ријетки ријетке ријетких ријетким ријетку рјеђе ријетког
+36	5736	pokrasti	pokrao pokrali pokrasti pokrala pokradu pokrade pokraden pokradeni pokradem pokradeš pokradena pokradeno покрао покрали покрасти покрала покраду покраде покраден покрадени покрадем покрадеш покрадена покрадено
+37	5737	razveseliti	razveseliti razveseli razveselim razveseliš razveselimo razveselite razveselilo razveselio razvesele razveselila развеселити развесели развеселим развеселиш развеселимо развеселите развеселило развеселио развеселе развеселила
+38	5738	maznuti	maže maznuti mazne maznem maznemo mazneš mažeš mažem mazni mazanje mazati mažu mazala mazao maži maznu mazali mažete маже мазнути мазне мазнем мазнемо мазнеш мажеш мажем мазни мазање мазати мажу мазала мазао мажи мазну мазали мажете
+39	5739	grešnik	grešnik grešnike grešnika grešnici grešnicima grešniče grešniku грешник грешнике грешника грешници грешницима грешниче грешнику
+40	5740	rerna	rernu rerni rerne rerna рерну рерни рерне рерна
+41	5741	odrezati	odrezati odrezao odreži odrezali odrezala odrežem odrežeš odreže odrezana odrežu odrežite odrezan odrežemo odrezane odrezani odrezaću odrezano одрезати одрезао одрежи одрезали одрезала одрежем одрежеш одреже одрезана одрежу одрежите одрезан одрежемо одрезане одрезани одрезаћу одрезано
+42	5742	pogreb	pogreb pogrebu pogreba pogrebi pogrebe погреб погребу погреба погреби погребе
+43	5743	ginuti	ginu gine ginuli gini ginemo ginuti gineš ginem гину гине гинули гини гинемо гинути гинеш гинем
+44	5744	plesač	plesač plesači plesača plesače plesaču plesačima плесач плесачи плесача плесаче плесачу плесачима
+45	5745	mjera	mjere mjera mjeri mjeru mjerama mjerom мјере мјера мјери мјеру мјерама мјером
+46	5746	region	regionu region regiona regionima regioni региону regione регион региона регионима региони регионе
+47	5747	zalutati	zalutali zalutao zalutala zalutale zaluta zalutalo zalutaju zalutati zalutaš залутали залутао залутала залутале залута залутало залутају залутати залуташ
+48	5748	svemoguć	svemogući svemogućeg svemoguć svemogućem svemogućim свемогући svemoguća svemogućega свемогућег свемогућ свемогућем свемогућим свемогућа свемогућега
+49	5749	neugodan	neugodan neugodna neugodnu neugodne neugodnih neugodni neugodnim neugodnije neugodnog neugodnom neugodnoj неугодан неугодна неугодну неугодне неугодних неугодни неугодним неугодније неугодног неугодном неугодној
+50	5750	uvećati	uvećati uvećaj uvećanje uveća uvećao uvećana uvećala uvećam uvećaš uvećali uvećan uvećano uvećane uvećamo uvećani uvećalo uvećaju uvećate увећати увећај увећање увећа увећао увећана увећала увећам увећаш увећали увећан увећано увећане увећамо увећани увећало увећају увећате
+51	5751	krhak	krhka krhki krhak krhke krhku krhkog krhkom krhkim krhkih крхка крхки крхак крхке крхку крхког крхком крхким крхких
+52	5752	demonski	demonski demonska demonske demonsku demonskog demonsko demonskom demonskim demonskih demonskoj демонски демонска демонске демонску демонског демонско демонском демонским демонских демонској
+53	5753	poslastica	poslastica poslasticu poslastice poslasticama посластица посластицу посластице посластицама
+54	5754	narediti	naredi narediti нареди наредити
+55	5755	osobito	osobito особито
+56	5756	brendi	brendi бренди
+57	5757	serum	serum seruma serumu serumom серум серума серуму серумом
+58	5758	kupus	kupus kupusa kupusu kupusom купус купуса купусу купусом
+59	5759	jasmin	jasmin jasmine jasmina jasminu јасмин јасмине јасмина јасмину
+60	5760	zvjezdan	zvjezdani zvjezdane zvjezdana zvjezdanih zvjezdanog zvjezdanim zvjezdanu zvjezdanom zvjezdanoj звјездани звјездане звјездана звјезданих звјезданог звјезданим звјездану звјезданом звјезданој
+61	5761	predvidjeti	predvidjeti predvidio predvidi predvidim predvidjeli predvidimo predvidjela predvidiš predvide predvidite предвиди предвидјети предвидио предвидим предвидјели предвидимо предвидјела предвидиш предвиде предвидите
+62	5762	stidjeti	stidim stidiš stidi stidite stidjeti stidio stidimo стиди стидиш стидите стидим stide стидјети стидио стидимо стиде
+63	5763	roza	roza роза
+64	5764	jučerašnji	jučerašnje jučerašnji jučerašnjeg jučerašnja jučerašnjem jučerašnjim jučerašnju jučerašnjoj jučerašnjih јучерашње јучерашњи јучерашњег јучерашња јучерашњем јучерашњим јучерашњу јучерашњој јучерашњих
+65	5765	izići	izići izišao iziđe izišla iziđem iziđi izišli iziđite iziđeš iziđemo iziđu izišlo iziđete изићи изишао изиђе изишла изиђем изиђи изишли изиђите изиђеш изиђемо изиђу изишло изиђете
+66	5766	proteza	protezu proteze proteza protezom protezama protezi протезу протезе протеза протезом протезама протези
+67	5767	sijalica	sijalica sijalice sijalicu sijalicama sijalicom сијалица сијалице сијалицу сијалицама сијалицом
+68	5768	ljepotica	ljepotice ljepotica ljepoticu ljepoticom ljepotici љепотице љепотица љепотицу љепотицом љепотици
+69	5769	pričuvati	pričuvati pričuvaš pričuvaj pričuvam pričuva pričuvate pričuvajte pričuvao pričuvaću pričuvamo pričuvala причувати причуваш причувај причувам причува причувате причувајте причувао причуваћу причувамо причувала
+70	5770	uspravan	uspravno uspravan uspravni uspravna усправно uspravnom uspravne uspravnog усправан усправни усправна усправном усправне усправног
+71	5771	bizon	bizona bizon bizone bizoni bizonu bizonima бизона бизон бизоне бизони бизону бизонима
+72	5772	dopreti	dopreti dopre doprem doprla dopremo dopro dopreš dopru doprli doprle doprlo doprete допрети допре допрем допрла допремо допро допреш допру допрли допрле допрло допрете
+73	5773	nemiran	nemiran nemirna nemirni nemirno nemirne nemirnim nemirnog nemirnom nemirnu nemirnih немиран немирна немирни немирно немирне немирним немирног немирном немирну немирних
+74	5774	fokus	fokus fokusa fokusu фокус fokusom фокуса фокусу фокусом
+75	5775	igranka	igranku igranka igranke игранку igranki игранка игранке игранки
+76	5776	narudžba	narudžbu narudžbe narudžba narudžbi narudžbom narudžbama наруџбу наруџбе наруџба наруџби наруџбом наруџбама
+77	5777	londonski	londonski londonskom londonske londonska londonskog londonskoj londonsku londonskim londonskih londonsko лондонски лондонском лондонске лондонска лондонског лондонској лондонску лондонским лондонских лондонско
+78	5778	gubica	gubicu gubice gubica gubici губицу губице губица губици
+79	5779	letak	letke letak leci letaka letku letka lecima летке летак леци летака летку летка лецима
+80	5780	pohvaliti	pohvale pohvaliti pohvalim pohvalio pohvali pohvalila pohvališ pohvaljen pohvalili pohvalite pohvaljeni похвале похвалити похвалим похвалио похвали похвалила похвалиш похваљен похвалили похвалите похваљени
+81	5781	bat	bat bata batu bate batom бата бат бату бате батом
+82	5782	mak	mak maka mače makom maku мак makova makovi маче мака маком маку макова макови
+83	5783	mirovina	mirovinu mirovini mirovine mirovina мировину мировини мировине мировина
+84	5784	skulptura	skulptura skulpture skulpturu skulpturama skulpturi skulpturom скулптура скулптуре скулптуру скулптурама скулптури скулптуром
+85	5785	jarac	jarac jarca jarče jarcu jarci jarce jarcem јарац јарца јарче јарцу јарци јарце јарцем
+86	5786	posekotina	posekotina posekotine posekotinu posekotinom posekotinama посекотина посекотине посекотину посекотином посекотинама
+87	5787	ohrabriti	ohrabrio ohrabriti ohrabri ohrabrila ohrabrim ohrabrili ohrabren ohrabreni ohrabrimo ohrabriš ohrabrilo ohrabrite ohrabre ohrabrena охрабрио охрабрити охрабри охрабрила охрабрим охрабрили охрабрен охрабрени охрабримо охрабриш охрабрило охрабрите охрабре охрабрена
+88	5788	obračun	obračun obračuna obračunu obračune obračuni обрачун обрачуна обрачуну обрачуне обрачуни
+89	5789	nezadovoljan	nezadovoljan nezadovoljni nezadovoljna nezadovoljnih nezadovoljne nezadovoljno nezadovoljnog nezadovoljnim незадовољан незадовољни незадовољна незадовољних незадовољне незадовољно незадовољног незадовољним
+90	5790	slupati	slupao slupali slupala slupati slupaš slupan slupa slupam slupana slupamo slupaćemo slupani слупао слупали слупала слупати слупаш слупан слупа слупам слупана слупамо слупаћемо слупани
+91	5791	jarak	jarku jarak jarka jarke jarče jarkom jarci јарку јарак јарка јарке јарче јарком јарци
+92	5792	revolucionaran	revolucionarni revolucionarna revolucionarno revolucionarne revolucionarnu revolucionarnog revolucionaran revolucionarnim revolucionarnom revolucionarnih revolucionarnoj револуционарни револуционарна револуционарно револуционарне револуционарну револуционарног револуционаран револуционарним револуционарном револуционарних револуционарној
+93	5793	akt	akt akta aktu aktom акт akte aktove aktovi акта акту актом акте актове актови
+94	5794	dežuran	dežurni dežuran dežurna dežurnog dežurne dežurnom dežurnim dežurnu дежурни дежуран дежурна дежурног дежурне дежурном дежурним дежурну
+95	5795	neposredno	neposredno непосредно
+96	5796	olovo	olovo olova olovom олово олова оловом
+97	5797	grip	grip грип
+98	5798	чега	чега
+99	5799	ošišati	ošišao ošišala ošišam ošišati ošišaj ošišaš ošiša ošišan ošišali ošišani ošišate ošišamo ошишао ошишала ошишам ошишати ошишај ошишаш ошиша ошишан ошишали ошишани ошишате ошишамо
+100	5800	triput	triput трипут

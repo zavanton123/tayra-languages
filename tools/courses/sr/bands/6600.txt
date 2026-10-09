@@ -1,0 +1,100 @@
+1	6501	ama	ama ама
+2	6502	vuna	vunu vuna vune vunom вуну вуна вуне вуном
+3	6503	simpatija	simpatije simpatija simpatiju simpatijama simpatijom симпатије симпатија симпатију симпатијама симпатијом
+4	6504	žudnja	žudnja žudnje žudnju žudnji žudnjom žudnjama жудња жудње жудњу жудњи жудњом жудњама
+5	6505	trijumf	trijumf trijumfa trijumfu trijumfe тријумф trijumfom тријумфа тријумфу тријумфе тријумфом
+6	6506	šofer	šofer šofera šoferu šoferom šoferi шофер шофера шоферу шофером шофери
+7	6507	hladnokrvan	hladnokrvni hladnokrvan hladnokrvna hladnokrvne hladnokrvnog hladnokrvnim hladnokrvnih хладнокрвни хладнокрван хладнокрвна хладнокрвне хладнокрвног хладнокрвним хладнокрвних
+8	6508	solidan	solidan solidno solidna solidnu solidne solidni solidnih солидан солидно солидна солидну солидне солидни солидних
+9	6509	negirati	negira negirati negirao negiraš negiram negiraju negiranje negirate negirala negiramo negirali negiraj негира негирати негирао негираш негирам негирају негирање негирате негирала негирамо негирали негирај
+10	6510	naklonost	naklonost наклоност
+11	6511	zbirka	zbirku zbirka zbirke zbirci zbirkom збирку збирка збирке збирци збирком
+12	6512	biljni	biljni biljnog biljne biljnih biljna biljno biljnim biljnu biljnom биљни биљног биљне биљних биљна биљно биљним биљну биљном
+13	6513	trunka	trunke trunku trunka trunkom трунке трунку трунка трунком
+14	6514	donekle	donekle донекле
+15	6515	diplomat	diplomata diplomate diplomat diplomatu diplomati дипломата дипломате дипломат дипломату дипломати
+16	6516	uozbiljiti	uozbilji uozbiljimo uozbiljite uozbiljiti uozbiljiš uozbiljim uozbiljio уозбиљи уозбиљимо уозбиљите уозбиљити уозбиљиш уозбиљим уозбиљио
+17	6517	kancelar	kancelar kancelara kancelaru kancelare kancelarom канцелар канцелара канцелару канцеларе канцеларом
+18	6518	azijski	azijski azijske azijska azijskog azijskih azijskim azijsku azijsko azijskom azijskoj азијски азијске азијска азијског азијских азијским азијску азијско азијском азијској
+19	6519	presuditi	presudio presuditi presude presudim presudili presudila presudite presuđeno presudi presudilo presudiš пресуде пресудио пресудити пресудим пресудили пресудила пресудите пресуђено пресуди пресудило пресудиш
+20	6520	premda	premda премда
+21	6521	šokantno	šokantno шокантно
+22	6522	prestanak	prestanka prestanak prestanku prestankom престанка престанак престанку престанком
+23	6523	šolja	šolja шоља
+24	6524	nepobediv	nepobediv nepobedivi nepobediva nepobedivim nepobedivo nepobedivog nepobedive непобедив непобедиви непобедива непобедивим непобедиво непобедивог непобедиве
+25	6525	verski	verski verske verska verskih verskim versku verskog verskom versko verskoj верски верске верска верских верским верску верског верском верско верској
+26	6526	vešati	vešanje vešaju vešali vešamo vešati вешање vešao veša веша вешају вешали вешамо вешати вешао
+27	6527	razraditi	razradio razradimo razraditi razrađen razradili razradim razradi razrađena razradila razrađeno razradite razrađene razrađeni разрадио разрадимо разрадити разрађен разрадили разрадим разради разрађена разрадила разрађено разрадите разрађене разрађени
+28	6528	venčavati	venčavaju venčavamo venčava venčavam venčavate venčavali venčavaš venčavati venčavanje венчавају венчавамо венчава венчавам венчавате венчавали венчаваш венчавати венчавање
+29	6529	rupija	rupija rupije рупија рупије
+30	6530	mlečni	mlečni mlečne mlečnog mlečnom mlečnih mlečna mlečnim mlečno mlečnu млечни млечне млечног млечном млечних млечна млечним млечно млечну
+31	6531	vraški	vraški врашки
+32	6532	podela	podela podeli podelu podele podelom подели поделе подела поделу поделом
+33	6533	lezbijka	lezbijka lezbijke lezbijki lezbijkama lezbijku лезбијка лезбијке лезбијки лезбијкама лезбијку
+34	6534	elektronika	elektroniku elektronike elektronika elektronikom elektronici електронику електронике електроника електроником електроници
+35	6535	živčan	živčani živčan živčana živčanog živčane živčanim živčano živčanih живчани живчан живчана живчаног живчане живчаним живчано живчаних
+36	6536	sramotno	sramotno срамотно
+37	6537	otkupnina	otkupninu otkupnine otkupnina otkupninom otkupnini откупнину откупнине откупнина откупнином откупнини
+38	6538	marama	maramu marama marame maramom marami мараму марама мараме марамом марами
+39	6539	izrezati	izrezati izrezao izrezali izrezala izrežem izrezana izreži izrezan izrežite izrezane izrežu izrezani izreže izrežeš izrežemo izrezano izrezaću изрезати изрезао изрезали изрезала изрежем изрезана изрежи изрезан изрежите изрезане изрежу изрезани изреже изрежеш изрежемо изрезано изрезаћу
+40	6540	utešiti	uteši utešim utešiti utešiš utešio utešite utešilo utešila uteše utešili утеши утешим утешити утешиш утешио утешите утешило утешила утеше утешили
+41	6541	lupiti	lupio lupila lupim lupiti lupiš lupili lupi lupiću lupe lupite lupilo лупио лупила лупим лупити лупиш лупили лупи лупићу лупе лупите лупило
+42	6542	provaljivati	provaljuje provaljuješ provaljuju provaljivanje provaljujemo provaljujem provaljivao provaljivati provaljivali provaljujete проваљује проваљујеш проваљују проваљивање проваљујемо проваљујем проваљивао проваљивати проваљивали проваљујете
+43	6543	krijumčariti	krijumčarenje krijumčarenja krijumčario krijumčarili krijumčariš krijumčari krijumčarene krijumčariti krijumčarite krijumčarila krijumčare кријумчарење кријумчарења кријумчарио кријумчарили кријумчариш кријумчари кријумчарене кријумчарити кријумчарите кријумчарила кријумчаре
+44	6544	imigrant	imigranti imigranata imigrant imigrante imigrantima imigranta имигранти имиграната имигрант имигранте имигрантима имигранта
+45	6545	samostalan	samostalan samostalna samostalni samostalne samostalnu samostalnog samostalnom samostalnih samostalnim самосталан самостална самостални самосталне самосталну самосталног самосталном самосталних самосталним
+46	6546	celokupan	celokupnu celokupna celokupan celokupne celokupnog celokupni celokupnom celokupnoj celokupnim целокупну целокупна целокупан целокупне целокупног целокупни целокупном целокупној целокупним
+47	6547	škorpion	škorpion škorpiona škorpioni škorpionu škorpione škorpionima шкорпион шкорпиона шкорпиони шкорпиону шкорпионе шкорпионима
+48	6548	ki	ki ки
+49	6549	prijevara	prijevara prijevaru prijevare prijevari prijevarom prijevarama пријевара пријевару пријеваре пријевари пријеваром пријеварама
+50	6550	pripasti	pripasti pripadne pripala pripali pripašće pripalo pripao pripadnu припасти припадне припала припали припашће припало припао припадну
+51	6551	prihvatljiv	prihvatljiv prihvatljiva prihvatljivi prihvatljive prihvatljivim prihvatljivom prihvatljivije prihvatljivog prihvatljivu prihvatljivih prihvatljiviji прихватљив прихватљива прихватљиви прихватљиве прихватљивим прихватљивом прихватљивије прихватљивог прихватљиву прихватљивих прихватљивији
+52	6552	liječenje	liječenje liječenja лијечење лијечења
+53	6553	kaos	kaos kaosu kaosa каос каосу каоса
+54	6554	opština	opštine opštini opština opštinu општине општини општина општину
+55	6555	ким	ким
+56	6556	slamka	slamku slamke slamka slamkom сламку сламке сламка сламком
+57	6557	molekula	molekula molekule molekuli molekulama molekulu молекула молекуле молекули молекулама молекулу
+58	6558	trend	trend trendu trendove trenda trendovima trendovi trendova тренд тренду трендове тренда трендовима трендови трендова
+59	6559	žar	žar žaru žara žarom жар жару жара жаром
+60	6560	aranžman	aranžman aranžmane aranžmana aranžmani aranžmanu aranžmanima aranžmanom аранжман аранжмане аранжмана аранжмани аранжману аранжманима аранжманом
+61	6561	odabir	odabir odabira odabiru odabirom odabire одабир одабира одабиру одабиром одабире
+62	6562	kavijar	kavijar kavijara kavijarom кавијар kavijaru кавијара кавијаром кавијару
+63	6563	pomorandža	pomorandže pomorandža pomorandži pomorandžu pomorandžama поморанџе pomorandžom поморанџа поморанџи поморанџу поморанџама поморанџом
+64	6564	kec	keca kec kečeva kečevi kečeve кеца кец кечева кечеви кечеве
+65	6565	povlastica	povlastice povlastica povlasticama povlasticu повластице повластица повластицама повластицу
+66	6566	pederski	pederski pederska pederske pedersko pedersku pederskog pederskim pederskom педерски педерска педерске педерско педерску педерског педерским педерском
+67	6567	svraćati	svraćao svraćala svraća svraćam svraćaš svraćaju svraćati svraćali свраћао свраћала свраћа свраћам свраћаш свраћају свраћати свраћали
+68	6568	nag	nag naga nago nage nagi nagu nagog наг нага наго наге наги нагу нагог
+69	6569	halucinirati	haluciniram halucinira haluciniraš halucinirao halucinirala halucinirate haluciniraju halucinirati halucinirali haluciniramo халуцинирам халуцинира халуцинираш халуцинирао халуцинирала халуцинирате халуцинирају халуцинирати халуцинирали халуцинирамо
+70	6570	kodeks	kodeks kodeksa kodeksu kodeksom кодекс кодекса кодексу кодексом
+71	6571	luksuz	luksuz луксуз
+72	6572	kapacitet	kapacitet kapaciteta kapacitetom kapacitete kapacitetu kapaciteti капацитет капацитета капацитетом капацитете капацитету капацитети
+73	6573	prozvati	prozvali prozvao prozovem prozvati prozvala prozvan prozovu prozove prozvani prozvana prozovemo прозвали прозвао прозовем прозвати прозвала прозван прозову прозове прозвани прозвана прозовемо
+74	6574	letjelica	letjelica letjelice letjelicu letjelici letjelicom letjelicama летјелица летјелице летјелицу летјелици летјелицом летјелицама
+75	6575	otopiti	otopi otopiti otopio otopila otopljena otopilo otope otopili otopljeni otopljene otopljen otopiće otopim отопи отопити отопио отопила отопљена отопило отопе отопили отопљени отопљене отопљен отопиће отопим
+76	6576	vaga	vazi vagu vaga vage vagi вази вагу вага ваге ваги
+77	6577	teći	tekla teći tekao teklo tekle teci tekli teče teku тече текла тећи текао текло текле теци текли теку
+78	6578	pluta	pluta pluto plute плута plovi plovimo plove plovite плуто плуте плови пловимо плове пловите
+79	6579	reagovati	reagovati реаговати
+80	6580	zavod	zavod zavodi zavodu zavoda zavode завод заводи заводу завода заводе
+81	6581	fanatik	fanatik fanatici fanatika fanatike fanaticima fanatikom фанатик фанатици фанатика фанатике фанатицима фанатиком
+82	6582	umisliti	umislio umislila umislili umisliti umisli умислио умислила умислили умислити умисли
+83	6583	arhitekta	arhitekta архитекта
+84	6584	svježe	svježe свјеже
+85	6585	gusto	gusto густо
+86	6586	malik	malik малик
+87	6587	ticati	tiču ticalo ticala ticati ticao тичу тицало тицала тицати тицао
+88	6588	gaza	gazi gaze gaza gazu gazom газе гази газа газу газом
+89	6589	skuhati	skuhati skuhala skuhao skuhaj skuham skuha skuhali skuhaš skuhana скухати скухала скухао скухај скухам скуха скухали скухаш скухана
+90	6590	šesnaest	šesnaest шеснаест
+91	6591	očevidac	očevidac očevidaca očevica očevici očevice očevidca očevidci очевидац очевидаца очевица очевици очевице очевидца очевидци
+92	6592	palma	palme palma palmi palmu palmama palmom палме палма палми палму палмама палмом
+93	6593	remi	remi реми
+94	6594	fotoaparat	fotoaparat fotoaparata fotoaparatom fotoaparate fotoaparatu fotoaparati фотоапарат фотоапарата фотоапаратом фотоапарате фотоапарату фотоапарати
+95	6595	refleks	refleks refleksi reflekse refleksa refleksima рефлекс рефлекси рефлексе рефлекса рефлексима
+96	6596	mučenik	mučenik mučenika mučenici mučenike mučenikom mučenicima мученик mučeniče мученика мученици мученике мучеником мученицима мучениче
+97	6597	elegantno	elegantno елегантно
+98	6598	režija	režija režije režiju režiji режија режије режију режији
+99	6599	milosrđe	milosrđe milosrđa milosrđu milosrđem милосрђе милосрђа милосрђу милосрђем
+100	6600	drška	dršku drška drške drškom dršci drškama дршку дршка дршке дршком дршци дршкама

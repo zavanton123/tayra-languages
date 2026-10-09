@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Serbian)
+sr-mini-0100	100	A1	Home and family	Kod kuće i u porodici
+sr-mini-0200	200	A1	Everyday life	Svakodnevni život
+sr-mini-0300	300	A1	Food and shopping	Hrana i kupovina
+sr-mini-0400	400	A2	In the city	U gradu
+sr-mini-0500	500	A2	School and work	Škola i posao
+sr-mini-0600	600	A2	Free time and hobbies	Slobodno vreme i hobiji
+sr-mini-0700	700	A2	Health and the body	Zdravlje i telo
+sr-mini-0800	800	A2	Travel and holidays	Putovanja i odmor
+sr-mini-0900	900	A2	Nature and the seasons	Priroda i godišnja doba
+sr-mini-1000	1000	A2	Celebrations and friends	Slavlja i prijatelji
+sr-mini-1100	1100	B1	Living and housing	Traženje stana
+sr-mini-1200	1200	B1	Memories	Sećanja
+sr-mini-1300	1300	B1	Jobs and training	Zanimanja i obuka
+sr-mini-1400	1400	B1	Getting around	Kretanje po gradu
+sr-mini-1500	1500	B1	Money and shopping	Novac i kupovina
+sr-mini-1600	1600	B1	Experiencing culture	Izlasci i kultura
+sr-mini-1700	1700	B1	Sport and exercise	Sport i vežbanje
+sr-mini-1800	1800	B1	The environment in daily life	Životna sredina u svakodnevnom životu
+sr-mini-1900	1900	B1	Letters, messages and media	Pisma, poruke i mediji
+sr-mini-2000	2000	B1	Neighbourhood	Komšiluk
+sr-mini-2100	2100	B2	Cooking and food	Kuhinja i ukus
+sr-mini-2200	2200	B2	Body and mind	Telo i um
+sr-mini-2300	2300	B2	The world of work	Svet rada
+sr-mini-2400	2400	B2	Science and technology	Nauka i tehnika
+sr-mini-2500	2500	B2	History you can touch	Istorija na dohvat ruke
+sr-mini-2600	2600	B2	Travelling in the Serbian-speaking world	Putovanja po srpskom govornom području
+sr-mini-2700	2700	B2	Generations	Generacije
+sr-mini-2800	2800	B2	Music	Muzika
+sr-mini-2900	2900	B2	Society and living together	Zajednički život
+sr-mini-3000	3000	B2	Small columns	Male kolumne
+sr-mini-3100	3100	B2	Home and decoration	Kuća i uređenje doma
+sr-mini-3200	3200	B2	Fashion and clothes	Moda i odeća
+sr-mini-3300	3300	B2	The great outdoors	Na otvorenom
+sr-mini-3400	3400	B2	Traditional crafts	Stari zanati
+sr-mini-3500	3500	B2	Technology and society	Tehnologija i društvo
+sr-mini-3600	3600	B2	The sea and the coast	More i obala
+sr-mini-3700	3700	B2	Books and language	Knjige i jezik
+sr-mini-3800	3800	B2	Everyday economics	Ekonomija svakog dana
+sr-mini-3900	3900	B2	Country life	Život na selu
+sr-mini-4000	4000	B2	City life columns	Gradske kolumne
+sr-mini-4100	4100	C1	Body and mind in daily life	Telo i um u svakodnevici
+sr-mini-4200	4200	C1	Architecture and heritage	Arhitektura i nasleđe
+sr-mini-4300	4300	C1	Climate and energy	Klima i energija
+sr-mini-4400	4400	C1	Everyday law and rights	Pravo u svakodnevnom životu
+sr-mini-4500	4500	C1	Film and television	Film i televizija
+sr-mini-4600	4600	C1	Research and discovery	Istraživanja i otkrića
+sr-mini-4700	4700	C1	Living between countries	Život između dve zemlje
+sr-mini-4800	4800	C1	The mind in daily life	Psihologija svakodnevice
+sr-mini-4900	4900	C1	Sport and society	Sport i društvo
+sr-mini-5000	5000	C1	Short essays	Kratki eseji
+sr-mini-5100	5100	C1	History	Stranice istorije
+sr-mini-5200	5200	C1	The science of cooking	Nauka u kuhinji
+sr-mini-5300	5300	C1	Landscapes	Predeli
+sr-mini-5400	5400	C1	Caring for others	Briga o drugima
+sr-mini-5500	5500	C1	Visual arts	Likovne umetnosti
+sr-mini-5600	5600	C1	Journalism and media	Novinarstvo i mediji
+sr-mini-5700	5700	C1	Transport and mobility	Saobraćaj i mobilnost
+sr-mini-5800	5800	C1	The Serbian language	Srpski jezik
+sr-mini-5900	5900	C1	Starting a business	Pokretanje posla
+sr-mini-6000	6000	C1	Memoirs	Memoari
+sr-mini-6100	6100	C1	The universe and the stars	Svemir i zvezde
+sr-mini-6200	6200	C1	Mining and natural resources	Rudarstvo i prirodna bogatstva
+sr-mini-6300	6300	C1	Food and health	Ishrana i zdravlje
+sr-mini-6400	6400	C1	Theatre, circus and stage	Pozorište, cirkus i scena
+sr-mini-6500	6500	C1	Engineering	Veština inženjera
+sr-mini-6600	6600	C1	Farm to table	Od njive do stola
+sr-mini-6700	6700	C1	Languages and cultures of the Serbian-speaking world	Jezici i kulture srpskog govornog područja
+sr-mini-6800	6800	C1	Literature in Serbian	Književnost na srpskom
+sr-mini-6900	6900	C1	Numbers and reasoning	Brojevi i zaključivanje
+sr-mini-7000	7000	C1	Travel columns	Putopisne kolumne
+sr-mini-7100	7100	C1	Public health	Javno zdravlje
+sr-mini-7200	7200	C1	Everyday philosophy	Filozofija svakodnevice
+sr-mini-7300	7300	C1	Festivals and faith	Praznici i verovanja
+sr-mini-7400	7400	C1	Animal behaviour	Ponašanje životinja
+sr-mini-7500	7500	C1	Work and the labour market	Rad i zapošljavanje
+sr-mini-7600	7600	C1	Cities of the world	Gradovi sveta
+sr-mini-7700	7700	C1	Inventions and inventors	Pronalasci i pronalazači
+sr-mini-7800	7800	C1	State and citizens	Država i građani
+sr-mini-7900	7900	C1	Mountains and winter sport	Planine i zimski sportovi
+sr-mini-8000	8000	C1	Family columns	Porodične kolumne
+sr-mini-8100	8100	C2	The human body	Ljudsko telo
+sr-mini-8200	8200	C2	Prevention and resilience	Prevencija i otpornost
+sr-mini-8300	8300	C2	Design and craft	Dizajn i zanatstvo
+sr-mini-8400	8400	C2	Emotions and relationships	Emocije i odnosi
+sr-mini-8500	8500	C2	World history	Stranice svetske istorije
+sr-mini-8600	8600	C2	The forest	Šuma
+sr-mini-8700	8700	C2	Advertising and communication	Reklama i komunikacija
+sr-mini-8800	8800	C2	Food culture in the Serbian-speaking world	Kultura ishrane kod nas
+sr-mini-8900	8900	C2	Classical music	Klasična muzika
+sr-mini-9000	9000	C2	Essays on time	Eseji o vremenu
+sr-mini-9100	9100	C2	Chemistry and materials	Hemija i materijali
+sr-mini-9200	9200	C2	Maps and finding the way	Karte i snalaženje
+sr-mini-9300	9300	C2	Tales and legends	Priče i legende
+sr-mini-9400	9400	C2	Rare professions	Retka zanimanja
+sr-mini-9500	9500	C2	Urban planning	Urbanizam
+sr-mini-9600	9600	C2	Everyday physics	Fizika svakodnevice
+sr-mini-9700	9700	C2	Gardens and botany	Bašte i botanika
+sr-mini-9800	9800	C2	Folk art and customs	Narodna umetnost i običaji
+sr-mini-9900	9900	C2	Ethics and living together	Etika i zajednički život
+sr-mini-10000	10000	C2	Learning and language	Poslednji eseji: učiti i govoriti

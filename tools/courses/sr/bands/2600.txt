@@ -1,0 +1,100 @@
+1	2501	prevelik	prevelika prevelik preveliki preveliko prevelike preveliku prevelikog prevelikim prevelikom превелика prevelikoj превелик превелики prevelikih превелико превелике превелику превеликог превеликим превеликом превеликој превеликих
+2	2502	odmarati	odmara odmaraš odmarati odmaraj odmaram odmaraju odmarao odmarate odmaramo odmarajte odmaranje odmarali odmarala одмара odmaraću одмараш одмарати одмарај одмарам одмарају одмарао одмарате одмарамо одмарајте одмарање одмарали одмарала одмараћу
+3	2503	socijalan	socijalni socijalnog socijalna socijalne socijalnu socijalnom socijalnoj socijalnim socijalnih социјални социјалне социјалног социјална социјалну социјалном социјалној социјалним социјалних
+4	2504	blag	blagi blage blag blaži blagog najblaže blaga blagim blaže blaža благи blagom blažu blagu blagih blagoj благ благе блага блажи благог најблаже благим блаже блажа благом блажу благу благих благој
+5	2505	komunikacija	komunikacije komunikaciju komunikacija komunikaciji komunikacijama komunikacijom комуникације комуникацију комуникација комуникацији комуникацијама комуникацијом
+6	2506	uzgred	uzgred узгред
+7	2507	nokat	nokte noktiju nokti nokat noktima nokta нокте noktom nokata ноктију нокти ноктима нокат нокта ноктом ноката
+8	2508	dvostruk	dvostruko dvostruki dvostruka dvostruku dvostrukog dvostruke dvostrukim dvostrukom двоструко двоструки dvostrukoj dvostrukih двострука двоструку двоструког двоструке двоструким двоструком двострукој двоструких
+9	2509	udat	udata udat udatu удата udatom udatim udato udatoj udatih udate удат удату удатом удатим удато удатој удатих удате
+10	2510	fudbal	fudbal fudbala fudbalu фудбал fudbalom фудбала фудбалу фудбалом
+11	2511	sit	siti sitiju sitija sit sita site sito сити situ ситију ситија сит сита сите сито ситу
+12	2512	zaliha	zalihe zaliha zalihu zalihama залихе zalihom залиха zalihi залиху залихама залихом залихи
+13	2513	izlečiti	izleči izlečiti izlečio izlečen izlečim izlečena izlečila izlečiš izlečimo izleče izlečili izlečite izlečeni излечи izlečiću izlečiće излечити izlečilo izlečeno izlečićemo излечен излечио izlečene излечим излечена излечила излечиш излечимо излече излечили излечите излечени излечићу излечиће излечило излечено излечићемо излечене
+14	2514	porasti	porasla porastao porasteš porasti porastem poraste porasli porasle porastu poraslo porašće порастао порасла porastemo porastete порасту порасте порастеш порасти порастем порасли порасле порасло порашће порастемо порастете
+15	2515	cijena	cijenu cijena cijene cijeni cijenama cijenom цијену цијена цијене цијени цијенама цијеном
+16	2516	tehnika	tehnika tehniku tehnike tehnikom tehnici tehnikama технике техника технику техником техници техникама
+17	2517	rudnik	rudnik rudnika rudniku rudnike rudnicima rudnici рудник руднику rudnikom рудника руднике рудницима рудници рудником
+18	2518	emocija	emocije emocija emocijama emociju емоције емоција емоцијама емоцију
+19	2519	napredak	napredak napretka napretku napretkom напредак напретка напретку напретком
+20	2520	nadzor	nadzor nadzorom nadzora nadzoru надзор надзором надзора надзору
+21	2521	pucnjava	pucnjave pucnjava pucnjavu pucnjavi pucnjavom пуцњава пуцњаве пуцњави пуцњаву пуцњавом
+22	2522	zadužiti	zadužen zadužena zaduženi zadužio zaduženje zadužili задужен zadužila zadužene zadužiti zaduži zadužim задужена задужени задужио задужење задужили задужила задужене задужити задужи задужим
+23	2523	kandidat	kandidat kandidata kandidati kandidate kandidatima kandidatu kandidatom кандидат кандидата кандидати кандидате кандидатима кандидату кандидатом
+24	2524	skupa	skupa скупа
+25	2525	naziv	naziva naziv nazivom nazive nazivu назива назив nazivi називом nazivima називе називу називи називима
+26	2526	sastati	sastati sastali sastanemo sastao sastane sastanem sastaćemo sastala sastanu sastanete sastaneš sastaću sastanimo sastani састане sastaće састати sastanite састао sastale sastaćeš састали састанемо састанем састаћемо састала састану састанете састанеш састаћу састанимо састани састаће састаните састале састаћеш
+27	2527	proširiti	proširiti proširi proširio proširila proširimo proširenje proširili proširim proširene proširilo prošire proširite proširiš proširena proširile proširiće prošireno proširen prošireni proširiću проширити прошири proširićemo проширио проширила проширимо проширење проширили проширим проширене проширило прошире проширите прошириш проширена прошириле прошириће проширено проширен проширени проширићу проширићемо
+28	2528	prijati	prija prijalo prijati prijala prijaće prijao prijam prijaju прија prijale prijama prijali пријало пријати пријала пријаће пријао пријам пријају пријале пријама пријали
+29	2529	srčan	srčani srčanog srčane srčanih srčana srčanu srčanim срчани srčanom srčan срчаног срчане срчаних срчана срчану срчаним срчаном срчан
+30	2530	stopa	stopa stope stopama stopu stopi stopom стопа стопу стопе стопама стопи стопом
+31	2531	grub	grub gruba grubi grube grubu grubim grublje grubog grublji груб grubom grubih груба grublja груби gruboj грубе грубу грубим грубље грубог грубљи грубом грубих грубља грубој
+32	2532	graditi	gradimo graditi gradili gradio gradim gradiću gradiš građen gradite građena gradeći gradila građenje građeni građene građeno градимо gradiće gradilo градили gradile gradi градити grade гради граде градио градим градићу градиш грађен градите грађена градећи градила грађење грађени грађене грађено градиће градило градиле
+33	2533	kofer	kofer kofere koferu kofera koferom koferi koferima кофер кофере коферу кофера кофером кофери коферима
+34	2534	osvetiti	osvetiti osvetim osvete osvetio osvetiš osveti osvetila osvetiću osvetimo osvetite osvetili osvetićemo osvećena osvećen osvetiće осветити osvetilo освете освети осветим осветио осветиш осветила осветићу осветимо осветите осветили осветићемо освећена освећен осветиће осветило
+35	2535	dokazivati	dokazuje dokazuju dokazujem dokazuješ dokazivati dokazivanje доказује dokazujući dokazujemo dokazujete dokazivao dokazivali доказују доказујем доказујеш доказивати доказивање доказујући доказујемо доказујете доказивао доказивали
+36	2536	prirodno	prirodno природно
+37	2537	vitez	vitez vitezovi viteza vitezova viteže vitezove vitezovima vitezom vitezu витез viteze витезови vitezi витеза витезова витеже витезове витезовима витезом витезу витезе витези
+38	2538	razlikovati	razlikuje razlikuju razlikovati razlikujemo razlikujem razlikuješ razlikujete razlikovao razlikovali razlikovala разликује разликују razlikovalo разликовати разликујемо разликујем разликујеш разликујете разликовао разликовали разликовала разликовало
+39	2539	radost	radost radosti radošću радост радости radostima радошћу радостима
+40	2540	recept	recept recepte receptu recepta recepata recepti receptima рецепт receptom рецепте рецепту рецепта рецепата рецепти рецептима рецептом
+41	2541	zauvijek	zauvijek заувијек
+42	2542	dadilja	dadilja dadilju dadilje dadiljo dadiljom dadilji дадиља dadiljama дадиљу дадиље дадиљо дадиљом дадиљи дадиљама
+43	2543	pravni	pravni pravne pravno pravna pravnog pravnom pravnu pravnim pravnih pravnoj правни правно правне правна правног правном правну правним правних правној
+44	2544	suština	suštini suština suštinu suštine суштини суштина суштину suštinom суштине суштином
+45	2545	šaka	šake šaka šaku šaci šakom šakama шака шаци шаке шаку шаком шакама
+46	2546	koliba	kolibu kolibi koliba kolibe kolibama колибу колиба колиби колибе kolibom колибама колибом
+47	2547	tkati	češ čemo tka че čete tkati ču чете чу чеш чемо тка ткати
+48	2548	penis	penis penisa penisom penisu penise пенис penisima penisi пениса пенисом пенису пенисе пенисима пениси
+49	2549	savetnik	savetnik savetnika savetniče savetnici savetnikom savetnike саветник savetnicima savetniku саветника саветниче саветници саветником саветнике саветницима саветнику
+50	2550	liga	lige liga ligi ligu ligom лиге ligama лига лиги лигу лигом лигама
+51	2551	besplatno	besplatno бесплатно
+52	2552	forma	formi formu forme forma форми formom formama форму форме форма формом формама
+53	2553	naredba	naredbe naredbu naredba naredbi naredbama naredbom наредбу наредбе наредба наредби наредбама наредбом
+54	2554	nahraniti	nahrani nahraniti nahranim nahranio nahraniš nahranimo nahranila nahranite nahrane nahranili nahraniću nahranjen nahranjeni nahranjena нахрани нахранити nahraniće nahranićemo нахраним нахранио нахраниш нахранимо нахранила нахраните нахране нахранили нахранићу нахрањен нахрањени нахрањена нахраниће нахранићемо
+55	2555	momenat	momenat моменат
+56	2556	uloviti	uloviti ulovio ulovili ulovila ulovimo ulovi ulovim ulove uloviš ulovite ulovljen uloviću ulovićemo ulovljena уловио ulovljeni ulovilo uloviće уловити уловили уловила уловимо улови уловим улове уловиш уловите уловљен уловићу уловићемо уловљена уловљени уловило уловиће
+57	2557	utvrditi	utvrdimo utvrdili utvrditi utvrdi utvrdim utvrdio utvrde utvrđeno utvrdila utvrdite utvrđena utvrđen utvrdiš utvrđeni utvrdilo утврди utvrđene утврдили utvrdićemo утврдити утврдимо утврдим утврдио утврде утврђено утврдила утврдите утврђена утврђен утврдиш утврђени утврдило утврђене утврдићемо
+58	2558	iseći	isekao iseći iseci isečem isekli isekla iseče isečeš isečemo isečen isečena iseku isecite isečene isečeno isečeni исећи isečete исекао исеци исечем исекли исекла исече исечеш исечемо исечен исечена исеку исеците исечене исечено исечени исечете
+59	2559	meden	medeni medenom medena medenog медени meden medene medeno medenim medenu медена medenome меденом меденог меден медене медено меденим медену меденоме
+60	2560	popis	popis popisu popisa popisom popise попис popisi попису пописа пописом пописе пописи
+61	2561	uživo	uživo уживо
+62	2562	sebičan	sebičan sebična sebično sebični sebične sebičnih sebičnog sebičnim sebičnom себичан sebičnu najsebičnija себична najsebičniji себично себични себичне себичних себичног себичним себичном себичну најсебичнија најсебичнији
+63	2563	plamen	plamen plamenu plamena plamenom plameni plamenovi пламену пламен plamenove plamene plamenovima plamenova plamenim пламена plameno пламеном пламени пламенови пламенове пламене пламеновима пламенова пламеним пламено
+64	2564	napet	napet napeto napeta napeti napete napni напета napetim napetu napnite napetije napetih напет napetom nape напето napetiji napetija напети напете напни напетим напету напните напетије напетих напетом напе напетији напетија
+65	2565	preostati	preostalo preostale preostali preostala preostalih preostao preostane преостало preostati преостале преостала преостали преосталих преостао преостане преостати
+66	2566	koristan	koristan korisna korisne korisni korisnim korisniji korisnih korisnog korisnije korisnu korisnom korisnija najkorisniji користан корисна корисне корисни корисним кориснији корисних корисног корисније корисну корисном кориснија најкориснији
+67	2567	drugde	drugde другде
+68	2568	vatren	vatrena vatreni vatreno vatrene vatrenog vatrenu vatrenim vatrenom vatrenih vatrenoj vatren ватрене ватрени ватреног ватрена ватрено ватрену ватреним ватреном ватрених ватреној ватрен
+69	2569	supa	supu supa supe supi supom супу супа супе супи супом
+70	2570	mentalni	mentalno mentalne mentalni mentalnu mentalna mentalnog mentalnih mentalnim mentalnom mentalnoj ментално менталне ментални менталну ментална менталног менталних менталним менталном менталној
+71	2571	medij	mediji medijima medije medija medij медији медијима медија mediju медије медиј медију
+72	2572	odrediti	odrediti odredio odredili odredimo odredim odredi odredila odredite odrediš odrede odrediće odredilo одредити odrediću odrediste odredićemo odredile одредио одреди одредили одредимо одредим одредила одредите одредиш одреде одредиће одредило одредићу одредисте одредићемо одредиле
+73	2573	uvjeriti	uvjeriti uvjerio uvjerim uvjeri uvjerenja uvjerila uvjerite uvjerili uvjerimo uvjerenje uvjeriš uvjeravati uvjerenju uvjerenjima uvjerilo uvjere увјерити увјерио увјерим увјери увјерења увјерила увјерите увјерили увјеримо увјерење увјериш увјеравати увјерењу увјерењима увјерило увјере
+74	2574	pile	pile piliće pilići pilića pilence pileta pilićima пиле piletom piletu пилиће пилићи пилића пиленце пилета пилићима пилетом пилету
+75	2575	frižider	frižider frižideru frižidera frižidere фрижидеру frižiderom frižideri фрижидер frižiderima фрижидера фрижидере фрижидером фрижидери фрижидерима
+76	2576	seći	seci seče seku sečem sečenje sečeš sekao seći sečemo sekli sekla sečete secite сече сечење сеци секу сечем сечеш секао сећи сечемо секли секла сечете сеците
+77	2577	ožiljak	ožiljak ožiljke ožiljci ožiljaka ožiljkom ožiljcima ožiljka ожиљак ožiljku ожиљке ожиљака ожиљци ожиљком ожиљцима ожиљка ожиљку
+78	2578	djed	djed djeda djede djedu djedom djedova djedovi djedove дјед дједа дједе дједу дједом дједова дједови дједове
+79	2579	sportski	sportski sportske sportska sportsku sportskom sportskog sportskim sportskih sportskoj sportsko спортски спортске спортска спортску спортском спортског спортским спортских спортској спортско
+80	2580	odmaknuti	odmaknite odmakni odmakli odmaknuti odmakao odmakneš odmakne odmakla odmaknete odmaći odmaknemo odmaknu odmaknem одмакните odmaknuo одмакни odmaklo odmaknimo одмакли одмакнути одмакао одмакнеш одмакне одмакла одмакнете одмаћи одмакнемо одмакну одмакнем одмакнуо одмакло одмакнимо
+81	2581	baterija	baterije baterija bateriju baterijama baterijom батерије bateriji батерија батерију батеријама батеријом батерији
+82	2582	seronja	seronja сероња
+83	2583	frizura	frizuru frizura frizure frizurom frizuri frizurama фризуру фризура фризуре фризуром фризури фризурама
+84	2584	zamak	zamak zamku zamke zamci замак замку zamkom замке замци замком
+85	2585	proklet	proklet проклет
+86	2586	kvragu	kvragu кврагу
+87	2587	nagoditi	nagađam nagađanje nagađanja nagoditi nagodimo nagodio nagađati nagodi nagodili nagađamo nagađaš nagodim nagađa nagađaju nagodiš nagodila nagađate nagode nagodite nagodićemo nagodiću nagađaj нагађам нагађање нагађања нагодити нагодимо нагодио нагађати нагоди нагодили нагађамо нагађаш нагодим нагађа нагађају нагодиш нагодила нагађате нагоде нагодите нагодићемо нагодићу нагађај
+88	2588	bik	bik bika biče bikova bikovima bikovi biku bikove bikom бик бика биче бикова биковима бикови бику бикове биком
+89	2589	uobičajen	uobičajena uobičajeni uobičajene uobičajen uobičajenom uobičajenim uobičajenih uobičajenog uobičajenu uobičajenoj уобичајена уобичајене уобичајени уобичајен уобичајеном уобичајеним уобичајених уобичајеног уобичајену уобичајеној
+90	2590	razuman	razuman razumna razumni razumne razumnu razumnim razumnog razumniji razumnom razumnije razumnih razumnoj разуман razumnija najrazumnije najrazumniji najrazumnija разумна разумни разумне разумну разумним разумног разумнији разумном разумније разумних разумној разумнија најразумније најразумнији најразумнија
+91	2591	konferencija	konferenciju konferenciji konferencija konferencije konferencijama конференцији конференцију конференција konferencijom конференције конференцијама конференцијом
+92	2592	osetljiv	osetljiv osetljiva osetljivi osetljive osetljivo osetljivim osetljivu osetljiviji osetljivom осетљив osetljivih osetljivog osetljivija osetljivije осетљива osetljivoj najosetljiviji осетљиве осетљиви осетљиво осетљивим осетљиву осетљивији осетљивом осетљивих осетљивог осетљивија осетљивије осетљивој најосетљивији
+93	2593	naučan	naučni naučno naučna naučne naučnog naučnu naučnih naučnom naučnim naučnoj научни научно научне научна научног научну научних научном научним научној
+94	2594	kap	kap kapi кап kapima капи kaplju капима капљу
+95	2595	glasan	glasnije glasna glasan glasni glasne glasniji glasnu glasnija гласније glasnim najglasnije najglasniji glasnih glasnom glasnog najglasnija гласна гласан гласни гласне гласнији гласну гласнија гласним најгласније најгласнији гласних гласном гласног најгласнија
+96	2596	ubrzati	ubrzati ubrzanje ubrzaj ubrza ubrzamo ubrzam ubrzao ubrzanja ubrzajte ubrzali ubrzaš ubrzalo ubrzala ubrzaju убрзање ubrzate ubrzajmo ubrzanju ubrzaću ubrzanjem ubrzaćemo ubrzaće убрзати убрзај убрза убрзамо убрзам убрзао убрзања убрзајте убрзали убрзаш убрзало убрзала убрзају убрзате убрзајмо убрзању убрзаћу убрзањем убрзаћемо убрзаће
+97	2597	med	med meda medu medom mede мед меда меду медом меде
+98	2598	napadati	napadaju napadaš napadamo napadati napadali napadao napadam napadate napada napadajte napadala napadajući napadanje нападају napadale napadalo napadani нападамо напада нападаш нападати нападали нападао нападам нападате нападајте нападала нападајући нападање нападале нападало нападани
+99	2599	jastuk	jastuk jastuka jastuke jastuku jastucima jastukom jastuci jastuče јастук јастука јастуке јастуку јастуцима јастуком јастуци јастуче
+100	2600	svatko	svatko svakog svakoga svakim svakome svakomu сваког свакога сваким свакоме сватко свакому

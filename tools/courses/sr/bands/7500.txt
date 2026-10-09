@@ -1,0 +1,100 @@
+1	7401	spontano	spontano спонтано
+2	7402	odozdo	odozdo одоздо
+3	7403	predah	predah predaha предах предаха
+4	7404	jednakost	jednakost jednakosti једнакост једнакости
+5	7405	vesta	vesta vestu veste vestom vesto веста весту весте вестом весто
+6	7406	graditelj	graditelji graditelj graditelja graditelje graditeljima graditelju градитељи градитељ градитеља градитеље градитељима градитељу
+7	7407	к	к
+8	7408	odšteta	odštetu odštete odšteta одштету одштете одштета
+9	7409	psihotičan	psihotična psihotični psihotičan psihotično psihotične psihotičnog psihotičnim psihotičnu psihotičnih психотична психотични психотичан психотично психотичне психотичног психотичним психотичну психотичних
+10	7410	pik	pik пик
+11	7411	vjerojatan	najvjerojatnije vjerojatnije vjerojatan vjerojatni vjerojatna највјеројатније вјеројатније вјеројатан вјеројатни вјеројатна
+12	7412	istaknut	istaknute istaknuta istaknut istaknutih istaknutog istaknuto istaknutim najistaknutijih najistaknutiji istaknutu istaknutom истакнуте истакнута истакнут истакнутих истакнутог истакнуто истакнутим најистакнутијих најистакнутији истакнуту истакнутом
+13	7413	homić	homić homići homića homiće homiću homićima хомић хомићи хомића хомиће хомићу хомићима
+14	7414	zvon	zvone звоне zvon zvona zvonom zvonu звона звон звоном звону
+15	7415	uzrujavati	uzrujavati uzrujavaj uzrujavaš uzrujava uzrujavam uzrujavate uzrujavajte uzrujavaju узрујавати узрујавај узрујаваш узрујава узрујавам узрујавате узрујавајте узрујавају
+16	7416	beležiti	beleži beležim beležio beležimo beležiš beležite beležiti beležili beležila beleže бележи бележим бележио бележимо бележиш бележите бележити бележили бележила бележе
+17	7417	obuća	obuću obuće obuća obućom обућу обуће обућа обућом
+18	7418	nastanak	nastanka nastanak nastanku настанка настанак настанку
+19	7419	nježno	nježno њежно
+20	7420	pokus	pokus pokusa pokuse pokusi pokusu pokusima покус покуса покусе покуси покусу покусима
+21	7421	svibanj	svibnja svibanj svibnju свибња свибањ свибњу
+22	7422	potrošnja	potrošnju potrošnje potrošnja potrošnjom potrošnji потрошњу потрошње потрошња потрошњом потрошњи
+23	7423	nana	nana нана
+24	7424	vječnost	vječnost vječnosti вјечност вјечности
+25	7425	pravosuđe	pravosuđa pravosuđe pravosuđu правосуђа правосуђе правосуђу
+26	7426	kasapin	kasapin kasapina kasapi kasapine kasapinu kasape касапин касапина касапи касапине касапину касапе
+27	7427	sanjar	sanjar sanjari sanjara sanjare sanjaru сањар сањари сањара сањаре сањару
+28	7428	slutiti	slutim slutio slutila slutiš slutite slutili sluteći slute слутим слутио слутила слутиш слутите слутили слутећи слуте
+29	7429	načuti	načuo načula načuli načuh начуо начула начули начух
+30	7430	pusa	pusu pusa pusi puse пусу пуса пуси пусе
+31	7431	izmišljotina	izmišljotina izmišljotine izmišljotinu izmišljotinama измишљотина измишљотине измишљотину измишљотинама
+32	7432	sorta	sorta sorte sortu sorti сорта сорте сорту сорти
+33	7433	protestant	protestanti protestant protestanata protestante protestantima protestanta протестанти протестант протестаната протестанте протестантима протестанта
+34	7434	blažiti	blaženi blažena blaženo blažen blažene блажени blaži blaže блажена блажено блажен блажене блажи блаже
+35	7435	višnja	višnje višanja višnja višnjama višnju višnjom вишње вишања вишња вишњама вишњу вишњом
+36	7436	grančica	grančica grančice grančicu grančicama grančicom гранчица гранчице гранчицу гранчицама гранчицом
+37	7437	pojuriti	pojurio pojuri pojurili pojuriti pojurila pojure pojurimo pojurim pojuriš pojurite појурио појури појурили појурити појурила појуре појуримо појурим појуриш појурите
+38	7438	poravnati	poravnati poravnaj poravnamo poravna poravnajte poravnam poravnao poravnali poravnaju poravnate poravnaš поравнати поравнај поравнамо поравна поравнајте поравнам поравнао поравнали поравнају поравнате поравнаш
+39	7439	pregrada	pregrade pregradu pregrada pregradi pregradama преграде преграду преграда прегради преградама
+40	7440	zatočiti	zatočen zatočeni zatočena zatočio zatočene zatočeno zatočili zatočila zatočiti заточен заточени заточена заточио заточене заточено заточили заточила заточити
+41	7441	pijavica	pijavice pijavica pijavicama pijavicu пијавице пијавица пијавицама пијавицу
+42	7442	prognati	prognan prognani prognana prognao prognali prognati prognane prognala прогнан прогнани прогнана прогнао прогнали прогнати прогнане прогнала
+43	7443	stiskati	stiskao stiskaš stiskati stiskam stiskaj stiskanje stišće stiskala stišćeš stišćem stišći stiskaju stišću стискао стискаш стискати стискам стискај стискање стишће стискала стишћеш стишћем стишћи стискају стишћу
+44	7444	venac	venac venca vence venci vencem venaca vencima венац венца венце венци венцем венаца венцима
+45	7445	naivčina	naivčine naivčina naivčino naivčinu наивчине наивчина наивчино наивчину
+46	7446	obrnut	obrnuta obrnutom obrnute obrnutim obrnut obrnutu obrnutog obrnutoj обрнута обрнутом обрнуте обрнутим обрнут обрнуту обрнутог обрнутој
+47	7447	kopneni	kopnene kopneni kopnena kopnenih kopnenim kopnenu kopnenog kopnenoj kopnenom копнене копнени копнена копнених копненим копнену копненог копненој копненом
+48	7448	zategnuti	zategni zategnuti zategnite zateže zategao zategne zategnem zategneš zategnemo затегни затегнути затегните затеже затегао затегне затегнем затегнеш затегнемо
+49	7449	puzati	puzati puzao puzanje puže puzali pužu puži puzajući pužem пузати пузао пузање пуже пузали пужу пужи пузајући пужем
+50	7450	trenutačno	trenutačno тренутачно
+51	7451	oporuka	oporuku oporuke oporuka oporukom опоруку опоруке опорука опоруком
+52	7452	međusoban	međusobne međusobnom međusobnog međusobnim međusobni međusobna međusobnu međusobnoj međusobnih међусобне међусобном међусобног међусобним међусобни међусобна међусобну међусобној међусобних
+53	7453	soja	soje soja soju sojom соје соја соју сојом
+54	7454	mikroskop	mikroskop mikroskopom mikroskopa микроскоп микроскопом микроскопа
+55	7455	moljac	moljac moljci moljca moljce moljaca moljcima мољац мољци мољца мољце мољаца мољцима
+56	7456	neprijateljstvo	neprijateljstvo neprijateljstva neprijateljstava neprijateljstvom neprijateljstvu непријатељство непријатељства непријатељстава непријатељством непријатељству
+57	7457	dizalica	dizalicu dizalica dizalice dizalicom dizalici дизалицу дизалица дизалице дизалицом дизалици
+58	7458	svetiljka	svetiljke svetiljku svetiljka svetiljki svetiljkom svetiljkama светиљке светиљку светиљка светиљки светиљком светиљкама
+59	7459	orati	ori ore oran oranje ora orati oreš orem orali oru ору ори оре оран орање ора орати ореш орем орали
+60	7460	gradnja	gradnju gradnja градњу градња
+61	7461	ogranak	ogranak ogranka ogranku ogranaka ogranke ogrankom ograncima огранак огранка огранку огранака огранке огранком огранцима
+62	7462	senzacija	senzacija senzaciju senzacije senzacijom сензација сензацију сензације сензацијом
+63	7463	sabotaža	sabotaža sabotaže sabotažu sabotaži саботажа саботаже саботажу саботажи
+64	7464	zavjera	zavjere zavjera zavjeru zavjeri завјере завјера завјеру завјери
+65	7465	erotski	erotski erotske erotska erotskih erotsku erotsko erotskim erotskog erotskom еротски еротске еротска еротских еротску еротско еротским еротског еротском
+66	7466	formalan	formalni formalna formalnu formalan formalne formalnog formalnim formalnom formalnih формални формална формалну формалан формалне формалног формалним формалном формалних
+67	7467	slušalac	slušalac slušaoci slušaoca slušaoce slušaocima slušalaca slušaoče слушалац слушаоци слушаоца слушаоце слушаоцима слушалаца слушаоче
+68	7468	podmukao	podmukli podmukla podmukao podmukle podmuklih podmuklog podmuklim подмукли подмукла подмукао подмукле подмуклих подмуклог подмуклим
+69	7469	gostionica	gostionici gostionicu gostionica gostionice гостионици гостионицу гостионица гостионице
+70	7470	cement	cement cementa cementom cementu цемент цемента цементом цементу
+71	7471	škripac	škripcu škripac škripca шкрипцу шкрипац шкрипца
+72	7472	predsedavajući	predsedavajući predsedavajućeg председавајући председавајућег
+73	7473	zebra	zebra zebre zebru zebri зебра зебре зебру зебри
+74	7474	elektron	elektrona elektron elektroni elektrone elektronima електрона електрон електрони електроне електронима
+75	7475	olujni	olujni olujna olujne olujno olujnih olujnog olujnim olujnom olujnu олујни олујна олујне олујно олујних олујног олујним олујном олујну
+76	7476	funkcionalan	funkcionalan funkcionalni funkcionalna funkcionalno funkcionalne funkcionalnim funkcionalnu funkcionalnog funkcionalnom функционалан функционални функционална функционално функционалне функционалним функционалну функционалног функционалном
+77	7477	vjeran	vjeran vjerni vjerna vjerno vjerne vjernog вјеран вјерни вјерна вјерно вјерне вјерног
+78	7478	izrazit	izrazio izrazit изразио изразит
+79	7479	hektar	hektara hektar hektaru хектара хектар хектару
+80	7480	tast	tast tasta taste tastu tastom таст таста тасте тасту тастом
+81	7481	krvavo	krvavo крваво
+82	7482	postrojba	postrojbe postrojba postrojbi postrojbu postrojbama постројбе постројба постројби постројбу постројбама
+83	7483	odvažan	odvažan odvažno odvažni odvažna odvažne odvažnog odvažnim одважан одважно одважни одважна одважне одважног одважним
+84	7484	laguna	laguna lagune laguni lagunu лагуна лагуне лагуни лагуну
+85	7485	temeljit	temeljit temeljiti temeljita temelji temelje temeljen temeljeno temeljena temeljite temeljitu temeljio темељит темељити темељита темељи темеље темељен темељено темељена темељите темељиту темељио
+86	7486	banuti	bani banuo banula banuti bane baneš banem banu banuli бани бануо банула банути бане банеш банем бану банули
+87	7487	usisavati	usisava usisavanje usisavam usisavaju усисавање usisavaš usisavala usisavati usisavao усисава усисавам усисавају усисаваш усисавала усисавати усисавао
+88	7488	kremirati	kremiran kremirana kremiranje kremiraju kremirati kremirali kremirano kremirao kremira kremirani kremiramo кремиран кремирана кремирање кремирају кремирати кремирали кремирано кремирао кремира кремирани кремирамо
+89	7489	prilazak	prilaska prilazak приласка прилазак
+90	7490	žig	žig žiga žigom žigove жиг жига жигом жигове
+91	7491	zenica	zenice zenica zenicu зенице зеница зеницу
+92	7492	balans	balans balansa balansu баланс баланса балансу
+93	7493	biskvit	biskvit biskvite biskvita biskviti biskvitima бисквит бисквите бисквита бисквити бисквитима
+94	7494	bedno	bedno бедно
+95	7495	dominacija	dominaciju dominacije dominacija dominaciji dominacijom доминацију доминације доминација доминацији доминацијом
+96	7496	osmatrati	osmatranje osmatra osmatraju osmatraj osmatrao osmatram osmatramo osmatrajte osmatrati osmatraš osmatrali осматрање осматра осматрају осматрај осматрао осматрам осматрамо осматрајте осматрати осматраш осматрали
+97	7497	sprati	spere sprati sperem speri sprala spereš speru sprao speremo спере спрати сперем спери спрала спереш сперу спрао сперемо
+98	7498	menstruacija	menstruaciju menstruacija menstruacije менструацију менструација менструације
+99	7499	muževan	muževan muževno muževni muževne muževnije muževna muževniji muževnog muževnim мужеван мужевно мужевни мужевне мужевније мужевна мужевнији мужевног мужевним
+100	7500	plišani	plišane plišani plišanog plišanu plišanim plišana plišanih plišanom плишане плишани плишаног плишану плишаним плишана плишаних плишаном

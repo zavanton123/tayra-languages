@@ -1,0 +1,100 @@
+1	5301	dirljiv	dirljivo dirljiva dirljiv dirljive dirljivu dirljivi дирљиво дирљива дирљив дирљиве дирљиву дирљиви
+2	5302	mutan	mutno mutna mutne mutan mutnom mutni mutnim mutnu mutnoj mutnih mutnog мутно мутна мутне мутан мутном мутни мутним мутну мутној мутних мутног
+3	5303	portret	portret портрет
+4	5304	rješavati	rješava rješavati rješavam rješavanje rješavamo rješavanju rješavaju rješavaš rješavanja rješavao rješavali rješavate rješavala рјешава рјешавати рјешавам рјешавање рјешавамо рјешавању рјешавају рјешаваш рјешавања рјешавао рјешавали рјешавате рјешавала
+5	5305	smrzavati	smrzavam smrzava smrzavaš smrzavaju smrzavamo smrzavanje smrzavao smrzavati smrzavala smrzavali smrzavate smrzavajući смрзавам смрзава смрзаваш смрзавају смрзавамо смрзавање смрзавао смрзавати смрзавала смрзавали смрзавате смрзавајући
+6	5306	osvajanje	osvajanje osvajanja osvajanju osvajanjem osvajanjima освајање освајања освајању освајањем освајањима
+7	5307	odugovlačiti	odugovlači odugovlačiš odugovlačiti odugovlačim odugovlačite odugovlačimo odugovlačenje odugovlačio odugovlače odugovlačili odugovlačila одуговлачи одуговлачиш одуговлачити одуговлачим одуговлачите одуговлачимо одуговлачење одуговлачио одуговлаче одуговлачили одуговлачила
+8	5308	obdukcija	obdukciju obdukcije obdukcija obdukciji obdukcijom обдукцију обдукције обдукција обдукцији обдукцијом
+9	5309	susjeda	susjeda susjedi susjede susjedu susjedom сусједа сусједи сусједе сусједу сусједом
+10	5310	naglas	naglas наглас
+11	5311	pasta	pastu pasta paste pastom пасту паста пасте пастом
+12	5312	specijalitet	specijalitet specijalitete specijaliteta specijaliteti специјалитет specijalitetima specijalitetom специјалитете специјалитета специјалитети специјалитетима специјалитетом
+13	5313	komarac	komarci komaraca komarac komarce komarca komarcima komarcu комарци комараца комарац комарце комарца комарцима комарцу
+14	5314	pi	pi пи
+15	5315	obarač	obarač obaraču обарач obarača обарачу обарача
+16	5316	metafora	metafora metafore metaforu metaforama метафора metafori metaforom метафоре метафору метафорама метафори метафором
+17	5317	olupina	olupina olupine olupinu olupini олупина olupinom olupinama олупине олупину олупини олупином олупинама
+18	5318	unutarnji	unutarnje unutarnji unutarnja unutarnjih unutarnju unutarnjeg unutarnjim unutarnjoj unutarnjem unutarnjom унутарње унутарњи унутарња унутарњих унутарњу унутарњег унутарњим унутарњој унутарњем унутарњом
+19	5319	srodan	srodna srodne srodnu srodnom srodnih srodnim srodni srodan сродну сродна сродне сродном сродних сродним сродни сродан
+20	5320	federacija	federacije federacija federaciju federaciji federacijom федерације федерација федерацију федерацији федерацијом
+21	5321	pečurka	pečurke pečurkama pečuraka pečurka pečurki pečurku печурке печуркама печурака печурка печурки печурку
+22	5322	raskidati	raskida raskidaš raskidam raskidamo raskidaju raskidali raskidanje raskidate raskidao раскида раскидаш раскидам раскидамо раскидају раскидали раскидање раскидате раскидао
+23	5323	uzor	uzor uzoru uzora uzori uzore узор узору узора узори узоре
+24	5324	kupola	kupola kupole kupolu kupoli kupolom kupolama купола куполе куполу куполи куполом куполама
+25	5325	ubuduće	ubuduće убудуће
+26	5326	bojnik	bojniče bojnik bojnika bojniku bojnici bojnikom бојниче бојник бојника бојнику бојници бојником
+27	5327	svući	svuci svlači svući svukao svucite svučem svlačenje svučeš svukla svuče svlačiš svukli svlačim svlače svuku svlačio svučemo свуци свлачи свући свукао свуците свучем свлачење свучеш свукла свуче свлачиш свукли свлачим свлаче свуку свлачио свучемо
+28	5328	maštati	maštao maštala maštam maštaš maštanje maštali maštaju maštati maštate maštamo maštaj maštajući маштао маштала маштам машташ маштање маштали маштају маштати маштате маштамо маштај маштајући
+29	5329	komplikacija	komplikacija komplikacije komplikacijama компликација komplikaciju компликације компликацијама компликацију
+30	5330	mirovni	mirovni mirovne mirovnim mirovna mirovnog mirovnu mirovnih mirovnom mirovnoj мировни мировне мировним мировна мировног мировну мировних мировном мировној
+31	5331	mađioničar	mađioničar mađioničara mađioničari mađioničare mađioničaru мађионичар мађионичара мађионичари мађионичаре мађионичару
+32	5332	neočekivan	neočekivani neočekivana neočekivane neočekivan neočekivanog neočekivanu neočekivanih neočekivanim neočekivanom neočekivanoj неочекивани неочекивана неочекиване неочекиван неочекиваног неочекивану неочекиваних неочекиваним неочекиваном неочекиваној
+33	5333	zaklinjati	zaklinjem zaklinjete zaklinjemo zaklinje zaklinješ zaklinju zaklinjao заклињем заклињете заклињемо заклиње заклињеш заклињу заклињао
+34	5334	rečnik	rečnik rečniku rečnika rečnikom речник речнику речника речником
+35	5335	sprava	sprava spravu sprave spravi spravom spravama справа справу справе справи справом справама
+36	5336	potpredsednik	potpredsednik potpredsednika potpredsedniče potpredsednikom potpredsedniku потпредседник potpredsednici потпредседника потпредседниче потпредседником потпредседнику потпредседници
+37	5337	retardiran	retardiran retardirani retardirana retardirano retardirane retardiranog retardiranim retardiranih retardiranom retardiranu ретардиран ретардирани ретардирана ретардирано ретардиране ретардираног ретардираним ретардираних ретардираном ретардирану
+38	5338	odora	odoru odore odora odori odorama одору одоре одора одори одорама
+39	5339	kaj	kaj кај
+40	5340	vijeće	vijeće vijeća vijeću vijećem вијеће вијећа вијећу вијећем
+41	5341	prihvat	prihvata прихвата prihvat prihvate прихвате прихват
+42	5342	okup	okupu okupa okupi okup okupe окупи окупу окупа окуп окупе
+43	5343	anomalija	anomalija anomalije anomaliju anomalijama anomaliji anomalijom аномалија аномалије аномалију аномалијама аномалији аномалијом
+44	5344	kontati	kontam kontaš skontati kontao kontate konta контам конташ сконтати контао контате конта
+45	5345	nezaposlen	nezaposlen nezaposleni nezaposlena nezaposlene nezaposlenih nezaposlenog nezaposlenima nezaposlenim незапослен незапослени незапослена незапослене незапослених незапосленог незапосленима незапосленим
+46	5346	sentimentalan	sentimentalan sentimentalna sentimentalno sentimentalni sentimentalnu sentimentalne sentimentalnih sentimentalnim sentimentalnog сентименталан сентиментална сентиментално сентиментални сентименталну сентименталне сентименталних сентименталним сентименталног
+47	5347	truplo	truplo trupla trupala truplu truplom truplima трупло трупла трупала труплу труплом труплима
+48	5348	odoleti	odoleti odolim odoli odoleo odoliš odole odolela одолим одолети odolite odolimo одоли одолео одолиш одоле одолела одолите одолимо
+49	5349	inicijativa	inicijativu inicijativa inicijative inicijativi inicijativom иницијативу иницијатива иницијативе иницијативи иницијативом
+50	5350	raf	rafe raf rafa rafu раф rafom рафе рафа рафу рафом
+51	5351	mnoštvo	mnoštvo mnoštva mnoštvom mnoštvu мноштво мноштва мноштвом мноштву
+52	5352	svila	svila svile svilu svilom svili свила свиле свилу свилом свили
+53	5353	kompletno	kompletno комплетно
+54	5354	nastupiti	nastupiti nastupila nastupio nastupim nastupiš nastupimo nastupilo nastupili nastupi nastupiće nastupite nastupe nastupile наступити наступила наступио наступим наступиш наступимо наступило наступили наступи наступиће наступите наступе наступиле
+55	5355	imperator	imperator imperatora imperatoru imperatore imperatorom император императора imperatori императоре императору императором императори
+56	5356	nadmašiti	nadmašiti nadmašio nadmaši nadmašila nadmašili nadmašiš nadmašim nadmaše nadmašite nadmašen nadmašimo надмашити надмашио надмаши надмашила надмашили надмашиш надмашим надмаше надмашите надмашен надмашимо
+57	5357	cenjen	cenjeni cenjen cenjena cenjenog cenjene cenjeno cenjenom najcenjenijih cenjenu cenjenih najcenjeniji cenjenim cenjenoj цењени цењен цењена цењеног цењене цењено цењеном најцењенијих цењену цењених најцењенији цењеним цењеној
+58	5358	sabotirati	sabotirao sabotira sabotirati sabotiraš sabotirala sabotirali sabotiram sabotiraju sabotiran sabotirate sabotirana sabotiranje sabotiramo sabotirani саботирао саботира саботирати саботираш саботирала саботирали саботирам саботирају саботиран саботирате саботирана саботирање саботирамо саботирани
+59	5359	dramatičan	dramatična dramatičan dramatične dramatični dramatičnu dramatičnog dramatičnije драматична dramatičnim dramatičnih dramatičnom najdramatičniji драматичном dramatičniji najdramatičnije драматичан драматичне драматични драматичну драматичног драматичније драматичним драматичних најдраматичнији драматичнији најдраматичније
+60	5360	zoološki	zoološki zoološkom zoološkog zoološkim zoološke зоолошки зоолошком зоолошког зоолошким зоолошке
+61	5361	diskretan	diskretan diskretni diskretna diskretniji diskretnije diskretne diskretnu дискретан дискретни дискретна дискретнији дискретније дискретне дискретну
+62	5362	boks	boks бокс
+63	5363	ustav	ustav ustava ustavu ustavom ustavi устав ustave устава уставу уставом устави уставе
+64	5364	prepuštati	prepuštam prepušta prepuštamo prepuštaš prepuštaju prepuštanje prepuštaj prepuštate prepuštajući prepuštao препуштам препушта препуштамо препушташ препуштају препуштање препуштај препуштате препуштајући препуштао
+65	5365	svoditi	svodi своди svodilo svođenje svodio svode сводило свођење сводио своде
+66	5366	publicitet	publicitet publiciteta publicitetom publicitetu публицитет публицитета публицитетом публицитету
+67	5367	link	link linka linkove линк linku linkovi linkom linkova линка линкове линку линкови линком линкова
+68	5368	savjetnik	savjetnik savjetnika savjetnici savjetniče savjetnike savjetnikom savjetniku savjetnicima савјетник савјетника савјетници савјетниче савјетнике савјетником савјетнику савјетницима
+69	5369	kaša	kašu kaša kaše kaši kašom кашу каша каше каши кашом
+70	5370	sklapati	sklapanje sklapa sklapam sklapaju sklapaš sklapamo sklapao sklapati sklapali sklapajući sklapate sklapala склапање склапа склапам склапају склапаш склапамо склапао склапати склапали склапајући склапате склапала
+71	5371	kročiti	kročio kročiti kroči kročila kročiš kročili kročim kročite kroče kročimo крочио крочити крочи крочила крочиш крочили крочим крочите кроче крочимо
+72	5372	polovica	polovica polovicu polovice polovici polovicom половица половицу половице половици половицом
+73	5373	nadležnost	nadležnosti nadležnost nadležnošću надлежности надлежност надлежношћу
+74	5374	rizično	rizično ризично
+75	5375	postelja	postelji postelju postelje postelja posteljica posteljice posteljicu постељи постељу постеље постеља постељица постељице постељицу
+76	5376	konvencija	konvencija konvenciji konvencije konvenciju konvencijom konvencijama конвенција конвенцији конвенције конвенцију конвенцијом конвенцијама
+77	5377	donator	donator donatora donatori donatore donatorima донатора донатор donatorom donatoru донатори донаторе донаторима донатором донатору
+78	5378	tvorac	tvorac tvorca tvorci tvorcu tvorcem tvorče tvoraca творац tvorce tvorcima творца творци творцу творцем творче твораца творце творцима
+79	5379	izmeriti	izmeriti izmeri izmerim izmerimo izmerio izmerite izmerili izmere izmerila izmeriš izmeriću izmereno izmereni izmerena измерити измери измерим измеримо измерио измерите измерили измере измерила измериш измерићу измерено измерени измерена
+80	5380	nezakonito	nezakonito незаконито
+81	5381	stanovništvo	stanovništvo stanovništva stanovništvom stanovništvu становништво становништва становништвом становништву
+82	5382	poniženje	poniženje poniženja poniženju poniženjem понижење понижења понижењу понижењем
+83	5383	rabin	rabin rabine rabina rabinom rabinu рабин rabini рабине рабина рабином рабину рабини
+84	5384	tužitelj	tužitelj tužitelja tužitelju tužiteljem tužitelji tužitelje тужитељ тужитеља тужитељу тужитељем тужитељи тужитеље
+85	5385	proterati	proteran proterani proterao proterati proterana proterali protera proteraju proterala proteramo proteram proterane proteraj proterano proteraš proteraće протеран протерани протерао протерати протерана протерали протера протерају протерала протерамо протерам протеране протерај протерано протераш протераће
+86	5386	snijeg	snijeg snijega snijegu snijegom снијег снијега снијегу снијегом
+87	5387	naknada	naknadu naknada naknade naknadi naknadama накнаду накнаде накнада накнади накнадама
+88	5388	kutak	kuci kutak kutku kutka куци кутак кутку кутка
+89	5389	primedba	primedbe primedbi primedba primedbu primedbama примедбе примедби примедба примедбу примедбама
+90	5390	smrtnik	smrtnik smrtnika smrtnici smrtnicima smrtnike smrtniče smrtnikom смртника смртник смртници смртницима смртнике смртниче смртником
+91	5391	primaran	primarni primarna primarno primarne primarnih primarnog primarnim primarnu primarnom primaran примарни примарна примарно примарне примарних примарног примарним примарну примарном примаран
+92	5392	zmajev	zmajev zmajevo zmajeva zmajeve zmajevi zmajevom zmajevu zmajevih zmajevim zmajevima zmajevoj змајева змајеви змајеве змајев змајево змајевом змајеву змајевих змајевим змајевима змајевој
+93	5393	kamoli	kamoli камоли
+94	5394	poteškoća	poteškoća poteškoće poteškoćama потешкоћа poteškoću потешкоће потешкоћама потешкоћу
+95	5395	masakr	masakr masakra masakru масакр masakrom masakri масакра масакру масакром масакри
+96	5396	veridba	veridbu veridbe veridba veridbi veridbom веридбу веридбе веридба веридби веридбом
+97	5397	kockar	kockar kockara kockari kockare kockaru kockarima kockarom коцкар коцкара коцкари коцкаре коцкару коцкарима коцкаром
+98	5398	proizvođač	proizvođača proizvođač proizvođači proizvođače proizvođačima proizvođaču proizvođačem произвођача произвођач произвођачи произвођаче произвођачима произвођачу произвођачем
+99	5399	lažljiv	lažljivi lažljiva lažljivo lažljive lažljivog lažljivu lažljivim lažljiv lažljivom лажљиви лажљива лажљиво лажљиве лажљивог лажљиву лажљивим лажљив лажљивом
+100	5400	psiha	psiho psihu psiha psihe психо psihom психу психа психе психом

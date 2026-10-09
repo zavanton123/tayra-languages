@@ -1,0 +1,100 @@
+1	9801	glamur	glamur glamura гламур гламура
+2	9802	slaganje	slaganje slaganja slaganjem slaganju слагање слагања слагањем слагању
+3	9803	crtica	crtica crtice crticu crticom цртица цртице цртицу цртицом
+4	9804	suncokret	suncokret suncokreta suncokrete suncokreti сунцокрет сунцокрета сунцокрете сунцокрети
+5	9805	alkoholni	alkoholno alkoholna alkoholnih alkoholni alkoholnog алкохолно алкохолна алкохолних алкохолни алкохолног
+6	9806	dopisnik	dopisnik dopisnika dopisnici дописник дописника дописници
+7	9807	prijestolje	prijestolje prijestolja prijestolju пријестоље пријестоља пријестољу
+8	9808	uvečer	uvečer увечер
+9	9809	loj	loju loj loja лоју лој лоја
+10	9810	prodor	prodor prodora prodoru продор продора продору
+11	9811	isplaćivati	isplaćuje isplaćuju isplaćujem isplaćivao isplaćuješ isplaćivati исплаћује исплаћују исплаћујем исплаћивао исплаћујеш исплаћивати
+12	9812	rastavljati	rastavlja rastavljaju rastavljanje rastavljam rastavljaš rastavljamo rastavljati rastavljao раставља растављају растављање растављам растављаш растављамо растављати растављао
+13	9813	imućan	imućan imućni imućna imućne imućnih imućnog имућан имућни имућна имућне имућних имућног
+14	9814	žal	žali žal žale žalu жали жале жал жалу
+15	9815	antropolog	antropolog antropologa antropolozi антрополог антрополога антрополози
+16	9816	nj	nj њ
+17	9817	umeren	umeren umereni umerena umerene umerenim umerenih умерен умерени умерена умерене умереним умерених
+18	9818	grbav	grbavi grbavih grbav grbava grbavog grbavo грбави грбавих грбав грбава грбавог грбаво
+19	9819	sliniti	sline sliniš sliniti slinim slini слине слиниш слинити слиним слини
+20	9820	starjeti	stariš starimo stario starite старе старим stare starim стариш старимо старио старите
+21	9821	direktorica	direktorica direktorice direktoricu директорица директорице директорицу
+22	9822	darežljivost	darežljivost darežljivosti дарежљивост дарежљивости
+23	9823	trabunjati	trabunjaš trabunja trabunjanje trabunjao trabunjam трабуњаш трабуња трабуњање трабуњао трабуњам
+24	9824	množiti	množe množi množenje množite množiti множе множи множење множите множити
+25	9825	posredovati	posredovanje posredujem posreduje posredovao posredovati posredovala посредовање посредујем посредује посредовао посредовати посредовала
+26	9826	žonglirati	žongliranje žongliram žonglira žongliraš žonglirati žonglirao жонглирање жонглирам жонглира жонглираш жонглирати жонглирао
+27	9827	ohol	ohola ohol oholi oholo ohole охола охол охоли охоло охоле
+28	9828	imela	imela imele imelu omela imelom имела имеле имелу омела имелом
+29	9829	pokleknuti	pokleknuti poklekla poklekne poklekao pokleknuo poklekneš poklekli поклекнути поклекла поклекне поклекао поклекнуо поклекнеш поклекли
+30	9830	gejša	gejša gejše gejši gejšu гејша гејше гејши гејшу
+31	9831	kormilar	kormilaru kormilar kormilara кормилару кормилар кормилара
+32	9832	sejati	seješ seje seju sejao sejem sejanje sejemo sejali sej сејеш сеје сеју сејао сејем сејање сејемо сејали сеј
+33	9833	komemoracija	komemoraciju komemoracija komemoraciji komemoracije комеморацију комеморација комеморацији комеморације
+34	9834	tortura	tortura torture torturu torturi тортура тортуре тортуру тортури
+35	9835	kositi	kosio košenje kosiš kositi kosimo kose kosim kosi косе коси косио кошење косиш косити косимо косим
+36	9836	trijem	trijemu trijem trijema тријему тријем тријема
+37	9837	pamflet	pamflet pamflete pamfleta pamfleti pamfletu памфлет памфлете памфлета памфлети памфлету
+38	9838	izbočina	izbočine izbočina izbočinu избочине избочина избочину
+39	9839	izoliran	izolirani izoliran izolirana izolirano izolirane изолирани изолиран изолирана изолирано изолиране
+40	9840	amnestija	amnestiju amnestija amnestije amnestiji амнестију амнестија амнестије амнестији
+41	9841	komičan	komično komična komičan komični komične комично комична комичан комични комичне
+42	9842	pripisivati	pripisuje pripisuju pripisuješ pripisujem pripisujete приписује приписују приписујеш приписујем приписујете
+43	9843	пуштати	пуштај пуштам пушта пуштају пушташ пуштање
+44	9844	odsada	odsada одсада
+45	9845	općenito	općenito опћенито
+46	9846	putokaz	putokaz putokaze putokaza putokazi путоказ путоказе путоказа путокази
+47	9847	žargon	žargon žargonu žargonom žargona жаргон жаргону жаргоном жаргона
+48	9848	sedmorica	sedmorica sedmoricu sedmorice седморица седморицу седморице
+49	9849	autorski	autorska autorskih autorskim autorski autorsko ауторска ауторских ауторским ауторски ауторско
+50	9850	jabukovača	jabukovaču jabukovača jabukovače јабуковачу јабуковача јабуковаче
+51	9851	oživiti	oživio oživiti oživi ožive oživimo oživim oživiš oživite оживи оживио оживити оживе оживимо оживим оживиш оживите
+52	9852	jecaj	jecaje jecaj jecaji jecaja jecaju јецаје јецај јецаји јецаја јецају
+53	9853	hladnjača	hladnjači hladnjaču hladnjača hladnjače хладњачи хладњачу хладњача хладњаче
+54	9854	budalica	budalice budalica будалице будалица
+55	9855	vidljivo	vidljivo видљиво
+56	9856	grobar	grobar grobara grobari grobaru гробар гробара гробари гробару
+57	9857	održiv	održiv održiva održivo održivi održive održivu одржив одржива одрживо одрживи одрживе одрживу
+58	9858	šorc	šorc шорц
+59	9859	takoder	takoder такодер
+60	9860	pješke	pješke пјешке
+61	9861	dijabetičar	dijabetičar dijabetičara дијабетичар дијабетичара
+62	9862	adresirati	adresirano adresirana adresiran адресирано адресирана адресиран
+63	9863	genom	genom genoma genomu геном генома геному
+64	9864	dijafragma	dijafragmu dijafragma dijafragme dijafragmi дијафрагму дијафрагма дијафрагме дијафрагми
+65	9865	pivar	pivara pivaru pivari pivare pivar пивара пивару пивари пиваре пивар
+66	9866	administrator	administrator administratora administratori администратор администратора администратори
+67	9867	manifestacija	manifestacija manifestacije manifestaciju манифестација манифестације манифестацију
+68	9868	pruski	pruske pruski pruska pruskoj pruskom pruskog prusku пруске пруски пруска пруској пруском пруског пруску
+69	9869	lopuža	lopuža lopuže lopužo лопужа лопуже лопужо
+70	9870	umrlica	umrlicu umrlica umrlice umrlici умрлицу умрлица умрлице умрлици
+71	9871	obris	obrise obris obrisi обрисе обрис обриси
+72	9872	ljekarna	ljekarnu ljekarne ljekarni ljekarna љекарну љекарне љекарни љекарна
+73	9873	opservatorij	opservatorija opservatorije opservatoriji opservatoriju opservatorij опсерваторија опсерваторије опсерваторији опсерваторију опсерваториј
+74	9874	arsen	arsen arsena arsene arsenom арсен арсена арсене арсеном
+75	9875	astronomski	astronomski astronomske astronomska astronomskim astronomskih astronomsko астрономски астрономске астрономска астрономским астрономских астрономско
+76	9876	arheologija	arheologija arheologije arheologiju arheologiji археологија археологије археологију археологији
+77	9877	brzati	brzamo brzaš brzati brzam brza brzao брза брзамо брзаш брзати брзам брзао
+78	9878	neopisivo	neopisivo неописиво
+79	9879	spona	spona spone sponu спона споне спону
+80	9880	nostalgičan	nostalgičan nostalgična nostalgično nostalgični носталгичан носталгична носталгично носталгични
+81	9881	gramatika	gramatika gramatiku gramatike gramatici граматика граматику граматике граматици
+82	9882	postiti	postim posti postio postiš postiti postimo postila poste постим пости постио постиш постити постимо постила посте
+83	9883	gojiti	goji gojim goje gojiš gojenje гоји гојим гоје гојиш гојење
+84	9884	nezreo	nezreo незрео
+85	9885	rezervirati	rezervirati rezerviraj rezerviram rezervirajte резервирати резервирај резервирам резервирајте
+86	9886	masturbacija	masturbacija masturbaciju masturbacije masturbaciji masturbacijom мастурбација мастурбацију мастурбације мастурбацији мастурбацијом
+87	9887	dob	dob dobi dobima доби доб добима
+88	9888	tamjan	tamjan tamjana tamjanom тамјан тамјана тамјаном
+89	9889	dušnik	dušnik dušniku dušnika душник душнику душника
+90	9890	fazan	fazana fazan fazane fazani фазана фазан фазане фазани
+91	9891	bezbrojan	bezbrojne bezbrojnih bezbrojnim bezbrojni bezbrojna безбројне безбројних безбројним безбројни безбројна
+92	9892	turizam	turizam turizma turizmu туризам туризма туризму
+93	9893	zasedanje	zasedanje zasedanju zasedanja заседање заседању заседања
+94	9894	rđa	rđa rđe rđu рђа рђе рђу
+95	9895	odgađati	odgađa odgađati odgađanje odgađamo odgađaš odgađam odgađali одгађа одгађати одгађање одгађамо одгађаш одгађам одгађали
+96	9896	štivo	štivo штиво
+97	9897	dugoročno	dugoročno дугорочно
+98	9898	sramno	sramno срамно
+99	9899	neudobno	neudobno неудобно
+100	9900	iskaliti	iskalio iskaliti iskali iskališ iskalim iskalila искалио искалити искали искалиш искалим искалила
