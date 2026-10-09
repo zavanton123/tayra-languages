@@ -94,12 +94,7 @@ import org.koin.core.parameter.parametersOf
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.foundation.Canvas
-import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.geometry.CornerRadius
-import androidx.compose.ui.graphics.Path
-import androidx.compose.ui.graphics.StrokeCap
-import androidx.compose.ui.graphics.drawscope.Stroke
+import com.tayra.languages.core.ui.components.CoursesIllustration
 
 private val BLUE = Color(0xFF3B6FE0)
 private val GREEN = Color(0xFF2E9D57)
@@ -648,7 +643,7 @@ private fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDownl
                 .testTag("empty-courses"),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            CoursesIllustration()
+            CoursesIllustration(Modifier.size(220.dp))
             Spacer(Modifier.height(24.dp))
             Text(
                 if (language.isEmpty()) tr("Choose a language to learn") else tr("Create your first course"),
@@ -701,55 +696,6 @@ private fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDownl
                     }
                 }
             }
-        }
-    }
-}
-
-/** An open book in front of two text cards, on a soft disc. */
-@Composable
-private fun CoursesIllustration() {
-    val colors = MaterialTheme.colorScheme
-    val ink = colors.primary
-    val paper = colors.surface
-    val line = colors.outlineVariant
-    Canvas(Modifier.size(width = 230.dp, height = 210.dp)) {
-        // Drawn on a 230 by 210 grid, scaled to the canvas.
-        val u = size.width / 230f
-        fun o(x: Float, y: Float) = Offset(x * u, y * u)
-        fun sz(w: Float, h: Float) = Size(w * u, h * u)
-        drawCircle(ink.copy(alpha = 0.08f), radius = 100f * u, center = o(115f, 105f))
-
-        fun card(x: Float, y: Float, w: Float, h: Float) {
-            drawRoundRect(Color.Black.copy(alpha = 0.06f), o(x, y + 4f), sz(w, h), CornerRadius(12f * u))
-            drawRoundRect(paper, o(x, y), sz(w, h), CornerRadius(12f * u))
-            drawRoundRect(line, o(x, y), sz(w, h), CornerRadius(12f * u), style = Stroke(1.5f * u))
-            drawRoundRect(ink.copy(alpha = 0.75f), o(x + 13f, y + 15f), sz(w * 0.45f, 7f), CornerRadius(4f * u))
-            drawRoundRect(line, o(x + 13f, y + 30f), sz(w - 26f, 6f), CornerRadius(3f * u))
-            drawRoundRect(line, o(x + 13f, y + 42f), sz(w * 0.55f, 6f), CornerRadius(3f * u))
-        }
-        card(118f, 22f, 82f, 74f)
-        card(82f, 52f, 78f, 70f)
-
-        // The cover, a little wider and lower than the pages, with a tab under the spine.
-        drawRoundRect(ink, o(30f, 120f), sz(150f, 64f), CornerRadius(12f * u))
-        drawCircle(ink, radius = 9f * u, center = o(105f, 184f))
-        fun page(outer: Float) = Path().apply {
-            moveTo(105f * u, 118f * u)
-            cubicTo(((105f + outer) / 2f) * u, 104f * u, outer * u, 104f * u, outer * u, 110f * u)
-            lineTo(outer * u, 172f * u)
-            cubicTo(outer * u, 166f * u, ((105f + outer) / 2f) * u, 166f * u, 105f * u, 178f * u)
-            close()
-        }
-        for (outer in listOf(40f, 170f)) {
-            drawPath(page(outer), paper)
-            drawPath(page(outer), line, style = Stroke(1.5f * u))
-        }
-        drawLine(ink.copy(alpha = 0.25f), o(105f, 118f), o(105f, 178f), strokeWidth = 2f * u)
-        val text = ink.copy(alpha = 0.45f)
-        for ((i, y) in listOf(126f, 139f, 152f).withIndex()) {
-            val short = if (i == 2) 14f else 0f
-            drawLine(text, o(52f, y), o(94f - short, y + 3f), strokeWidth = 5f * u, cap = StrokeCap.Round)
-            drawLine(text, o(116f, y + 3f), o(158f - short, y), strokeWidth = 5f * u, cap = StrokeCap.Round)
         }
     }
 }
