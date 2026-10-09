@@ -86,11 +86,11 @@ def load_list(code):
     return ranks, words
 
 
-def tokens(text, code=None, ranks=None, names=frozenset()):
+def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None):
     if code == "fr":
         return french_tokens(text, ranks)
     if code == "es":
-        return spanish_tokens(text, ranks, names)
+        return spanish_tokens(text, ranks, names, verbs)
     out = []
     for match in WORD.finditer(text):
         out.extend(part for part in re.split(r"-", match.group(0)) if part)
@@ -132,7 +132,12 @@ SPANISH_CLITICS = ("los", "las", "les", "nos", "os", "lo", "la", "le", "me", "te
 UNACCENTED = str.maketrans("áéíóú", "aeiou")
 
 
-def spanish_clitics(word, ranks):
+def spanish_verb_forms(words):
+    """Every form of the list's verbs, the words whose headword is an infinitive."""
+    return {form for key, (_, _, forms) in words.items() if key.endswith(("ar", "er", "ir", "ír")) for form in [key] + forms}
+
+
+def spanish_clitics(word, ranks, verbs=None):
     """
     A verb carrying pronouns split into the verb and them, as a learner reads it: levantarse is
     levantar + se, dándoselo is dando + se + lo, dímelo is di + me + lo. The written accent such a
@@ -148,13 +153,20 @@ def spanish_clitics(word, ranks):
                 continue
             stem = rest[: len(rest) - len(second)] if second else rest
             for candidate in (stem, stem.translate(UNACCENTED)):
-                # Only forms of verbs carry pronouns; an infinitive, gerund or imperative does.
-                if candidate in ranks and candidate.endswith(("ar", "er", "ir", "ndo", "a", "e", "i", "n", "z", "d")):
+                # Only forms of verbs carry pronouns (an infinitive, gerund or imperative), so chiles
+                # is not chi + les; without the list's verbs, the ending decides.
+                is_verb = candidate in verbs if verbs is not None else candidate.endswith(("ar", "er", "ir", "ndo", "a", "e", "i", "n", "z", "d"))
+                # Pronouns after any form but an infinitive call for a written accent (tómate,
+                # dímelo), save one pronoun after a one-syllable form (ponte, dime); so an unaccented
+                # tomate is the noun, not toma + te.
+                if is_verb and not candidate.endswith(("ar", "er", "ir", "ír")) and not any(c in "áéíó" for c in lower):
+                    is_verb = not second and len(re.findall("[aeiouáéíóúü]+", candidate)) == 1
+                if candidate in ranks and is_verb:
                     return [candidate] + ([second] if second else []) + [first]
     return None
 
 
-def spanish_tokens(text, ranks, names=frozenset()):
+def spanish_tokens(text, ranks, names=frozenset(), verbs=None):
     """Spanish words split at hyphens, and a verb's attached pronouns counted as words of their own."""
     out = []
     for match in WORD.finditer(text):
@@ -162,7 +174,7 @@ def spanish_tokens(text, ranks, names=frozenset()):
             if not part:
                 continue
             # A name is never a verb with pronouns, though Chile ends like one.
-            split = None if part.lower() in ranks or part.lower() in names else spanish_clitics(part, ranks)
+            split = None if part.lower() in ranks or part.lower() in names else spanish_clitics(part, ranks, verbs)
             out.extend(split or [part])
     return out
 
@@ -171,6 +183,7 @@ def check(path, brief=False):
     course = json.load(open(path, encoding="utf-8"))
     code = course["id"].split("-")[0]
     ranks, words = load_list(code)
+    verbs = spanish_verb_forms(words) if code == "es" else None
     up_to = course["rankUpTo"]
     band_start = up_to - BAND + 1
     need, shortest, longest = rules(up_to)
@@ -187,7 +200,7 @@ def check(path, brief=False):
         for name in long_names:
             whole_names += text.count(name)
             text = text.replace(name, " ")
-        toks = tokens(text, code, ranks, names)
+        toks = tokens(text, code, ranks, names, verbs)
         lowered = [fold(code, t.lower()) for t in toks] + ["\u0000name"] * whole_names
         names_here = names | {"\u0000name"}
         outside = {}
